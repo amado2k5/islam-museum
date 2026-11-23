@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/sahih-al-bukhari
 ref: "7541"
-label: { ar: "صحيح البخاري — حديث 7541", en: "Sahih al-Bukhari 7541 — Oneness, Uniqueness of Allah (Tawheed)", ur: "صحیح بخاری — حدیث 7541", es: "Sahih al-Bukhari 7541 — Unidad, unicidad de Allah (Tawhid)", fr: "Sahih al-Bukhari 7541 - Unicité, Unicité d'Allah (Tawhid)" }
+label: { ar: "صحيح البخاري — حديث 7541", en: "Sahih al-Bukhari 7541 — Oneness, Uniqueness of Allah (Tawheed)", ur: "صحیح بخاری — حدیث 7541", es: "Sahih al-Bukhari 7541 — Unidad, unicidad de Allah (Tawhid)", fr: "Sahih al-Bukhari 7541 - Unicité, Unicité d'Allah (Tawhid)", tr: "Sahih el-Buhari - Hadis 7541", id: "Sahih al-Bukhari — Hadits 7541" }
 text: "أَبُو سُفْيَانَ بْنُ حَرْبٍ، أَنَّ هِرَقْلَ، دَعَا تَرْجُمَانَهُ، ثُمَّ دَعَا بِكِتَابِ النَّبِيِّ صلى الله عليه وسلم فَقَرَأَهُ ‏\"‏ بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ مِنْ مُحَمَّدٍ عَبْدِ اللَّهِ وَرَسُولِهِ إِلَى هِرَقْلَ، وَ‏{‏يَا أَهْلَ الْكِتَابِ تَعَالَوْا إِلَى كَلِمَةٍ سَوَاءٍ بَيْنَنَا وَبَيْنَكُمْ ‏}‏‏\"‏ الآيَةَ‏.‏"
 summary:
   ar: "في صحيح البخاري؛ نص كتاب أو جوابه منسوب إلى مرسل."
@@ -11,6 +11,8 @@ summary:
   ur: "صحیح بخاری میں؛ بھیجنے والے سے منسوب خط کا متن یا جواب."
   es: "En Sahih al-Bukhari; texto de una carta o respuesta atribuida a un remitente."
   fr: "Dans Sahih al-Bukhari; le texte d'une lettre ou une réponse attribuée à un expéditeur."
+  tr: "Sahih el-Buhari'de bir kitabın metni veya cevabı bir mursal'a (hadis rivayet eden kişiye) atfedilir."
+  id: "Dalam Sahih al-Bukhari; teks suatu buku atau jawabannya dinisbahkan kepada seorang mursal (perawi yang menyampaikan hadits)."
 relations:
   - { type: part_of, target: passage/bukhari-kitab-97 }
   - { type: mentions, target: person/heraclius, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }

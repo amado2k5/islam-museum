@@ -3,10 +3,12 @@ class: passage
 unit: hadith
 work: work/sahih-muslim
 ref: "55"
-label: { ar: "مسلم 55 — الدين النصيحة", en: "Muslim 55 — The religion is sincere counsel", es: "Musulmán 55 — La religión es un consejo sincero", fr: "Musulman 55 — La religion est un conseil sincère", ur: "مسلم 55 - دین مخلصانہ نصیحت ہے۔" }
+label: { ar: "مسلم 55 — الدين النصيحة", en: "Muslim 55 — The religion is sincere counsel", es: "Musulmán 55 — La religión es un consejo sincero", fr: "Musulman 55 — La religion est un conseil sincère", ur: "مسلم 55 - دین مخلصانہ نصیحت ہے۔", tr: "Müslüman 55 — Din bir öğüttür", id: "Muslim 55 — Agama adalah nasihat" }
 text: "قال رسول الله: «الدين النصيحة». قلنا: لمن؟ قال: «لله ولكتابه ولرسوله ولأئمة المسلمين وعامتهم»"
 summary:
   ar: "رواية تميم الداري في باب «من الإيمان والدين النصيحة» من كتاب الإيمان، بإسناد سهيل بن أبي صالح عن عطاء بن يزيد الليثي عنه؛ من الحديث الذي قال البخاري إن مداره كله على تميم. ويليه في الباب بيعة جرير بن عبد الله «على إقام الصلاة وإيتاء الزكاة والنصح لكل مسلم»."
+  tr: "İman Kitabı'ndaki \"İman ve Din İçinde Samimi Nasihatler\" bölümünde Tamim el-Dari'nin rivayeti, Suhayl ibn Abi Salih'ten Ata ibn Yazid el-Laythi'den, o da ondan nakledilmiştir; Buhari'nin dediğine göre bu hadis tamamen Tamim'in etrafında dönmektedir. Aynı bölümde, Jarir ibn Abdullah'ın \"namazı kılmak, zekâtı vermek ve her Müslümana samimi nasihatte bulunmak\" şeklindeki biat sözü de yer almaktadır."
+  id: "Riwayat Tamim al-Dari dalam bab \"Dari Iman dan Agama terdapat Nasihat yang Tulus\" dari Kitab Iman, dengan sanad Suhayl ibn Abi Salih dari Ata ibn Yazid al-Laythi darinya; dari hadits yang menurut al-Bukhari seluruhnya berpusat pada Tamim. Setelahnya dalam bab yang sama adalah baiat Jarir ibn Abdullah \"untuk mendirikan salat, membayar zakat, dan memberikan nasihat yang tulus kepada setiap Muslim.\""
 relations:
   - { type: part_of, target: passage/muslim-kitab-01 }
   - { type: mentions, target: person/tamim-al-dari, sources: [source/sahih-muslim] }

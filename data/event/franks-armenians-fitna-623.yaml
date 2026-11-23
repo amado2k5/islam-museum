@@ -1,7 +1,7 @@
 id: event/franks-armenians-fitna-623
 class: event
 kind: other
-label: { ar: "الفتنة بين الفرنج والأرمن", en: "Strife between the Franks and the Armenians", es: "Conflicto entre los francos y los armenios", fr: "Conflits entre les Francs et les Arméniens", ur: "فرینکوں اور آرمینیائیوں کے درمیان لڑائی" }
+label: { ar: "الفتنة بين الفرنج والأرمن", en: "Strife between the Franks and the Armenians", es: "Conflicto entre los francos y los armenios", fr: "Conflits entre les Francs et les Arméniens", ur: "فرینکوں اور آرمینیائیوں کے درمیان لڑائی", tr: "Franklar ve Ermeniler arasındaki çatışma", id: "Konflik antara bangsa Frank dan bangsa Armenia" }
 date:
   start: { edtf: "1226~", hijri: "0623", calendar: julian, precision: year, status: tradition, derived: true }
 summary:
@@ -10,6 +10,8 @@ summary:
   es: "Estalló un conflicto entre los francos y los armenios en las fronteras sirias {cite:kamil-ibn-al-athir p. 469}."
   fr: "Des conflits éclatèrent entre les Francs et les Arméniens sur les marches syriennes {cite:kamil-ibn-al-athir p. 469}."
   ur: "شامی مارچوں پر فرینکوں اور آرمینیائیوں کے درمیان جھگڑا شروع ہو گیا۔ 469}۔"
+  tr: "Suriye'nin sınır bölgelerinde Franklar ve Ermeniler arasında çatışma çıktı ve kendi aralarında savaştılar. {cite:kamil-ibn-al-athir s. 469}"
+  id: "Konflik pecah antara suku Frank dan Armenia di wilayah perbatasan Suriah, dan mereka saling bertempur. {cite:kamil-ibn-al-athir p. 469}."
 wings: [time]
 relations:
   - { type: occurred_at, target: place/al-sham, sources: [source/kamil-ibn-al-athir] }

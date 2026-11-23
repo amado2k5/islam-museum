@@ -7,6 +7,8 @@ label:
   es: "Hunayn"
   fr: "Hunayn"
   ur: "حنین"
+  tr: "nostalji"
+  id: "nostalgia"
 summary:
   ar: 'مسار في يوم الاغترار بالكثرة: هوازن وثقيف في الوادي، والفرار الأول، والنداء يعيد الجيش — ثم حصار
     الطائف.'
@@ -14,6 +16,8 @@ summary:
   es: "Un recorrido por el día de la emboscada."
   fr: "Le déroulement de la journée de l'embuscade."
   ur: "گھات لگا کر دن بھر کا راستہ۔"
+  tr: "Sayıların aldatmacasına kapıldıkları günün öyküsü: Vadideki Hawazin ve Thaqif, ilk kaçış ve ordunun geri çağrılması - ardından Taif kuşatması."
+  id: "Sebuah perjalanan pada hari ketika tertipu oleh angka-angka: Hawazin dan Thaqif di lembah, pelarian pertama, dan seruan untuk membawa kembali pasukan — kemudian pengepungan Taif."
 audience:
 - newcomer
 - student
@@ -28,12 +32,16 @@ rooms:
     es: "El valle"
     fr: "La vallée"
     ur: "وادی"
+    tr: "vadi"
+    id: "lembah"
   body:
     ar: 'بعد فتح مكة: هوازن تستعد في حنين.'
     en: 'بعد فتح مكة: هوازن تستعد في حنين.'
     es: "Tras la conquista de La Meca: Hawazin se prepara en Hunayn."
     fr: "Après la conquête de La Mecque: Hawazin se prépare à Hunayn."
     ur: "فتح مکہ کے بعد: حنین میں ہوازن کی تیاری۔"
+    tr: "Mekke'nin fethinden sonra: Hawazin, Huneyn'de hazırlık yapıyor."
+    id: "Setelah penaklukan Mekah: Hawazin bersiap di Hunayn."
   features:
   - event/battle-of-hunayn
   - place/mecca
@@ -43,12 +51,16 @@ rooms:
     es: "La derrota"
     fr: "La déroute"
     ur: "راستہ"
+    tr: "kaçmak"
+    id: "melarikan diri"
   body:
     ar: 'الجيش يفر أول الأمر: ثم النداء.'
     en: 'الجيش يفر أول الأمر: ثم النداء.'
     es: "El ejército huye primero; luego llega la llamada."
     fr: "L'armée fuit la première: puis l'appel."
     ur: "فوج پہلے بھاگتی ہے: پھر کال۔"
+    tr: "Önce ordu kaçar, sonra çağrı gelir."
+    id: "Tentara melarikan diri terlebih dahulu: kemudian panggilan itu datang."
   features:
   - event/battle-of-hunayn
   - person/muhammad
@@ -58,12 +70,16 @@ rooms:
     es: "La victoria"
     fr: "La victoire"
     ur: "فتح"
+    tr: "Zafer"
+    id: "Kemenangan"
   body:
     ar: 'العودة والنصر: غنائم هوازن.'
     en: 'العودة والنصر: غنائم هوازن.'
     es: "Regreso y victoria: El botín de Hawazin."
     fr: "Retour et victoire: le butin d'Hawazin."
     ur: "واپسی اور فتح: ہوازن کی غنیمت۔"
+    tr: "Dönüş ve Zafer: Hawazin'in Ganimetleri."
+    id: "Kepulangan dan Kemenangan: Rampasan Perang Hawazin."
   features:
   - event/battle-of-hunayn
   - event/distribution-of-hunayn-spoils
@@ -73,12 +89,16 @@ rooms:
     es: "El botín"
     fr: "Le butin"
     ur: "لوٹ مار"
+    tr: "ganimet"
+    id: "rampasan"
   body:
     ar: 'قسمة حنين: تألف القلوب.'
     en: 'قسمة حنين: تألف القلوب.'
     es: "La división de Haneen: la armonía de los corazones."
     fr: "La division de Haneen: l'harmonie des cœurs."
     ur: "حنین کی تقسیم: دلوں کی ہم آہنگی۔"
+    tr: "Haneen'in bölümü: kalplerin uyumu."
+    id: "Divisi Haneen: keharmonisan hati."
   features:
   - event/distribution-of-hunayn-spoils
   - place/taif
@@ -88,12 +108,16 @@ rooms:
     es: "Ta'if"
     fr: "Taïf"
     ur: "طائف"
+    tr: "Taif"
+    id: "Taif"
   body:
     ar: 'حصار ثقيف: ثم إسلامهم بعد حين.'
     en: 'حصار ثقيف: ثم إسلامهم بعد حين.'
     es: "El asedio de Thaqif: y luego su conversión al Islam tiempo después."
     fr: "Le siège de Thaqif: puis leur conversion à l’islam après un certain temps."
     ur: "ثقیف کا محاصرہ: پھر کچھ عرصے بعد ان کا اسلام قبول کرنا۔"
+    tr: "Sakif kuşatması: ardından bir süre sonra İslamiyet'i kabul etmeleri."
+    id: "Pengepungan Thaqif: kemudian mereka masuk Islam setelah beberapa waktu."
   features:
   - place/taif
   - event/battle-of-hunayn

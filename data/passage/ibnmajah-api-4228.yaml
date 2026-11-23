@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/sunan-ibn-majah
 ref: "4228"
-label: { ar: "سنن ابن ماجه 4228 — الأب والأبوة", en: "Sunan Ibn Majah 4228 — the father and fatherhood", ur: "سنن ابن ماجہ 4228 — باپ اور والدیت", es: "Sunan Ibn Majah 4228 — El padre y la paternidad", fr: "Sunan Ibn Majah 4228 — Le père et la paternité" }
+label: { ar: "سنن ابن ماجه 4228 — الأب والأبوة", en: "Sunan Ibn Majah 4228 — the father and fatherhood", ur: "سنن ابن ماجہ 4228 — باپ اور والدیت", es: "Sunan Ibn Majah 4228 — El padre y la paternidad", fr: "Sunan Ibn Majah 4228 — Le père et la paternité", tr: "Sunan İbn Majah 4228 — Baba ve Babalık", id: "Sunan Ibn Majah 4228 — Ayah dan Peran Ayah" }
 text: "… حَدَّثَنَا إِسْحَاقُ بْنُ مَنْصُورٍ الْمَرْوَزِيُّ، حَدَّثَنَا عَبْدُ الرَّزَّاقِ، أَنْبَأَنَا مَعْمَرٌ، عَنْ مَنْصُورٍ، عَنْ سَالِمِ بْنِ أَبِي الْجَعْدِ، عَنِ ابْنِ أَبِي كَبْشَةَ، عَنْ أَبِيهِ، عَنِ النَّبِيِّ ـ ح وَحَدَّثَنَا مُحَمَّدُ بْنُ إِسْمَاعِيلَ بْنِ سَمُرَةَ، حَدَّثَنَا أَبُو أُسَامَةَ، عَنْ مُفَضَّلٍ، عَنْ مَنْصُورٍ، عَنْ سَالِمِ بْنِ أَبِي الْجَعْدِ، عَنِ ابْنِ أَبِي كَبْشَةَ، عَنْ أَبِيهِ، عَنِ النَّبِيِّ ـ نَحْوَهُ."
 summary:
   ar: "حديث في سنن ابن ماجه، رقم 4228، يذكر الأب والأبوة. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
@@ -11,6 +11,8 @@ summary:
   ur: "سنن ابن ماجہ کی حدیث نمبر 4228، جس میں باپ اور والدیت کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un relato en Sunan Ibn Majah, n.° 4228 (Zuhd), menciona al padre y la paternidad. El navegador \"La paternidad en el Islam\" lo incluye junto con los textos del Corán, la Sunnah, la sirah y los libros sobre el padre."
   fr: "Un hadith du Sunan Ibn Majah, n° 4228 (Zuhd), mentionne le père et la paternité. Le site « Paternité en Islam » le répertorie avec les textes du Coran, de la Sunna, de la Sîra et les ouvrages traitant de la paternité."
+  tr: "İbn Majah'ın Sünen'inde yer alan 4228 numaralı hadiste baba ve babalık kavramından bahsedilir. \"İslam'da Babalık\" tarayıcısı, bu konuyu Kur'an, Sünnet, biyografi ve diğer kitaplardan derleyerek sunmaktadır."
+  id: "Sebuah hadits dalam Sunan Ibn Majah, nomor 4228, menyebutkan tentang ayah dan peran ayah. Browser \"Peran Ayah dalam Islam\" mengumpulkan hadits tersebut dengan teks-teks dari Al-Quran, Sunnah, biografi, dan buku-buku lain tentang topik ini."
 relations:
   - { type: mentions, target: concept/ubuwwa, sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-ibnmajah, hadith 4228 (book 37 hadith 129); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }

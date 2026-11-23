@@ -1,7 +1,7 @@
 id: event/death-of-amalric-569
 class: event
 kind: death
-label: { ar: "وفاة مري ملك الفرنج وملك ابنه المجذوم", en: "death of King Amalric — Baldwin the leper succeeds, Raymond regent", es: "Muerte del rey Amalarico: Balduino el leproso le sucede, Raimundo se convierte en regente.", fr: "Mort du roi Amaury — Baudouin le lépreux lui succède, Raymond est régent", ur: "کنگ املرک کی موت - بالڈون کوڑھی کامیاب، ریمنڈ ریجنٹ" }
+label: { ar: "وفاة مري ملك الفرنج وملك ابنه المجذوم", en: "death of King Amalric — Baldwin the leper succeeds, Raymond regent", es: "Muerte del rey Amalarico: Balduino el leproso le sucede, Raimundo se convierte en regente.", fr: "Mort du roi Amaury — Baudouin le lépreux lui succède, Raymond est régent", ur: "کنگ املرک کی موت - بالڈون کوڑھی کامیاب، ریمنڈ ریجنٹ", tr: "Frankların kralı Mary'nin ölümü ve cüzzamlı oğlunun hükümdarlığı", id: "Kematian Maria, Raja Frank, dan pemerintahan putranya yang menderita kusta" }
 date:
   start: { edtf: "1173~", hijri: "0569", calendar: julian, precision: year, status: tradition, derived: true }
 summary:
@@ -10,6 +10,8 @@ summary:
   es: "El rey Amalrico —«مري», el rey más valiente y astuto de los francos según el veredicto de Ibn al-Athīr— murió al comienzo del año, dejando a un hijo leproso como rey solo de nombre. El verdadero poder pasó al conde Raimundo de Trípoli, recién rescatado de las prisiones de Nūr al-Dīn por 150 000 dinares tirios y mil cautivos {cite:kamil-ibn-al-athir p. 68}."
   fr: "Le roi Amaury, que Ibn al-Athīr qualifie de roi franc le plus brave et le plus rusé, mourut en début d'année, laissant un fils lépreux comme seul roi de nom. Le pouvoir réel passa au comte Raymond de Tripoli, récemment racheté des prisons de Nūr al-Dīn contre 150 000 dinars tyriens et mille captifs (voir: Kamil Ibn al-Athīr, p. 68)."
   ur: "شاہ املرک — «مری»، ابن الثیر کے فیصلے میں فرینکوں کا سب سے بہادر اور چالاک بادشاہ — سال کے آغاز میں ہی انتقال کر گیا، صرف ایک کوڑھی بیٹا بادشاہ رہ گیا۔ اصل حکمرانی طرابلس کے کاؤنٹ ریمنڈ کو منتقل ہوئی، جسے نورالدین کی جیلوں سے 150,000 ٹیریئن دینار اور ایک ہزار اسیروں کے بدلے فدیہ دیا گیا تھا۔ 68}۔"
+  tr: "Frankların kralı Murray'ın bu yılın başında öldüğü konusunda anlaşmaya varıldı. O, cesaret bakımından en büyük, görüş, kurnazlık ve entrika bakımından da en iyisiydi. Geride krallığı yönetemeyecek cüzzamlı bir oğul bıraktı, bu yüzden Franklar onu hiçbir anlam ifade etmeyen, önemsiz bir figür haline getirdiler. Trablus'un sahibi rahip Raymond krallığın yönetimini devraldı ve Saad al-Din onu yüz elli bin hayali dinar ve bin mahkum karşılığında hapisten serbest bıraktı. {cite:kamil-ibn-al-athir s. 68}"
+  id: "Disepakati bahwa Murray, raja Frank, meninggal pada awal tahun ini. Ia adalah raja terhebat mereka dalam keberanian dan yang terbaik dalam hal opini, kelicikan, dan intrik. Ia meninggalkan seorang putra yang menderita kusta dan tidak mampu mengelola kerajaan, sehingga orang-orang Frank menjadikannya sebagai simbol tanpa makna di baliknya. Pendeta Raymond, pemilik Tripoli, mengambil alih pengelolaan kerajaan, dan Saad al-Din telah membebaskannya dari penjara dengan imbalan seratus lima puluh ribu dinar fiktif dan seribu tawanan. {cite:kamil-ibn-al-athir p. 68}."
 wings: [time]
 relations:
   - { type: occurred_at, target: place/jerusalem, sources: [source/kamil-ibn-al-athir] }

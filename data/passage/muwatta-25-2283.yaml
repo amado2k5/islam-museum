@@ -4,9 +4,11 @@ unit: hadith
 chain: [person/malik-ibn-anas, person/nafi-al-madani]
 work: work/muwatta-malik
 ref: "2283"
-label: { ar: "الموطأ 2283 — نافع عن ابن عمر: المكاتب عبد ما بقي عليه شيء", en: "Muwatta 2283", es: "Muwatta 2283", fr: "Muwatta 2283", ur: "موطا 2283" }
+label: { ar: "الموطأ 2283 — نافع عن ابن عمر: المكاتب عبد ما بقي عليه شيء", en: "Muwatta 2283", es: "Muwatta 2283", fr: "Muwatta 2283", ur: "موطا 2283", tr: "El-Muvatta 2283 — İbn Ömer'den rivayetle Nafi': Mukatab (azat sözleşmesi yapmış köle), borcundan hiçbir şey kalmadığı sürece köledir." }
 summary:
   ar: "يروي مالك عن نافع أن عبد الله بن عمر كان يقول: المكاتب عبد ما بقي عليه من كتابته شيء. {cite:muwatta-maruf-1997 p.343}"
+  tr: "Malik, Nafi’den rivayetle Abdullah ibn Umar’ın şöyle dediğini aktarır: Mukatab (kölelikten kurtulma sözleşmesi yapmış olan köle), kölelikten kurtulma sözleşmesinin herhangi bir kısmı yerine getirilinceye kadar köledir. {cite:muwatta-maruf-1997 s.343}"
+  id: "Malik meriwayatkan dari Nafi’ bahwa Abdullah ibn Umar biasa berkata: Seorang mukatab (budak yang telah membuat perjanjian pembebasan) tetap menjadi budak sampai sebagian dari perjanjian pembebasannya terpenuhi. {cite:muwatta-maruf-1997 p.343}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-25-mukatab }
   - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }

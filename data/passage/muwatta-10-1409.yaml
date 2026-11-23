@@ -4,9 +4,11 @@ unit: hadith
 chain: [person/malik-ibn-anas, person/yahya-ibn-said-al-ansari, person/said-ibn-al-musayyab]
 work: work/muwatta-malik
 ref: "1409"
-label: { ar: "الموطأ 1409 — سعيد بن المسيب: ما ذبح به إذا بضع فلا بأس به إذا اضطررت إليه", en: "Muwatta 1409", es: "Muwatta 1409", fr: "Muwatta 1409", ur: "موطا 1409" }
+label: { ar: "الموطأ 1409 — سعيد بن المسيب: ما ذبح به إذا بضع فلا بأس به إذا اضطررت إليه", en: "Muwatta 1409", es: "Muwatta 1409", fr: "Muwatta 1409", ur: "موطا 1409", tr: "El-Muvatta 1409 — Sa’id ibn al-Musayyab: Eğer onunla kesim yapılıyorsa, kesilmişse, kullanmak zorunda kalırsanız bunda bir sakınca yoktur.", id: "Al-Muwatta 1409 — Sa’id ibn al-Musayyab: Apa yang disembelih dengan alat itu, jika dipotong, tidak ada salahnya jika Anda terpaksa menggunakannya." }
 summary:
   ar: "يروي مالك عن يحيى بن سعيد عن سعيد بن المسيب أنه كان يقول ما ذبح به إذا بضع فلا بأس به، إذا اضطررت إليه. {cite:muwatta-maruf-1997 p.632}"
+  tr: "Malik, Yahya ibn Sa'id'den, o da Sa'id ibn al-Musayyab'dan rivayetle şöyle der: \"Bıçakla kesilen her şeyde, eğer karnı açılarak kesilirse, bunda bir sakınca yoktur; eğer bıçak kullanmak zorunda kalırsanız.\" {cite:muwatta-maruf-1997 s.632}"
+  id: "Malik meriwayatkan dari Yahya ibn Sa'id, dari Sa'id ibn al-Musayyab, bahwa beliau biasa berkata: \"Apa pun yang disembelih dengan pisau, jika dibelah, tidak ada salahnya jika Anda terpaksa menggunakannya.\" {cite:muwatta-maruf-1997 p.632}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-10-dhaba-ih }
   - { type: mentions, target: person/said-ibn-al-musayyab, sources: [source/muwatta-maruf-1997] }

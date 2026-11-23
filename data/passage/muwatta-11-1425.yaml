@@ -3,9 +3,11 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1425"
-label: { ar: "الموطأ 1425 — مالك: الذي يرمي الصيد فينال وهو حي فيفرط في ذبحه حتى يموت، فلا يحل أكله", en: "Muwatta 1425", es: "Muwatta 1425", fr: "Muwatta 1425", ur: "موطا 1425" }
+label: { ar: "الموطأ 1425 — مالك: الذي يرمي الصيد فينال وهو حي فيفرط في ذبحه حتى يموت، فلا يحل أكله", en: "Muwatta 1425", es: "Muwatta 1425", fr: "Muwatta 1425", ur: "موطا 1425", tr: "El-Muvatta 1425 — Malik: Kim av hayvanını vurup canlıyken yakalar ve sonra da ölmesi için kesmeyi ihmal ederse, onu yemek caiz değildir.", id: "Al-Muwatta 1425 — Malik: Barang siapa yang menembak hewan buruan dan menangkapnya dalam keadaan hidup, lalu lalai menyembelihnya hingga mati, maka dagingnya tidak boleh dimakan." }
 summary:
   ar: "يقول مالك وكذلك أيضا الذي يرمي الصيد فينال وهو حي، فيفرط في ذبحه حتى يموت، فإنه لا يحل أكله. {cite:muwatta-maruf-1997 p.638}"
+  tr: "Malik şöyle der: “Aynı şekilde, bir kimse av hayvanını vurup henüz canlıyken yakalarsa ve sonra onu aşırı derecede kesip öldürürse, onu yemek caiz değildir.” {cite:muwatta-maruf-1997 s.638}"
+  id: "Malik berkata, “Demikian pula, jika seseorang menembak hewan buruan dan menangkapnya saat masih hidup, lalu menyembelihnya secara berlebihan hingga mati, maka dagingnya tidak boleh dimakan.” {cite:muwatta-maruf-1997 p.638}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-11-sayd }
   - { type: basis_for, target: practice/sayd, sources: [source/muwatta-maruf-1997] }

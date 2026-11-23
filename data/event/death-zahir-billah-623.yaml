@@ -1,7 +1,7 @@
 id: event/death-zahir-billah-623
 class: event
 kind: death
-label: { ar: "وفاة الخليفة الظاهر بأمر الله", en: "Death of caliph al-Zahir bi-Amr Allah", es: "Muerte del califa al-Zahir bi-Amr Allah", fr: "Mort du calife al-Zahir bi-Amr Allah", ur: "خلیفہ الظاہر بن عمرو اللہ کی وفات" }
+label: { ar: "وفاة الخليفة الظاهر بأمر الله", en: "Death of caliph al-Zahir bi-Amr Allah", es: "Muerte del califa al-Zahir bi-Amr Allah", fr: "Mort du calife al-Zahir bi-Amr Allah", ur: "خلیفہ الظاہر بن عمرو اللہ کی وفات", tr: "Halife Zahir bi-Amr Allah'ın Ölümü", id: "Kematian Khalifah Al-Zahir bi-Amr Allah" }
 date:
   start: { edtf: "1226~", hijri: "0623", calendar: julian, precision: year, status: tradition, derived: true }
 summary:
@@ -10,6 +10,8 @@ summary:
   es: "Al-Zahir murió tras un breve califato; algunos dicen que fue envenenado {cite:kamil-ibn-al-athir p. 464}."
   fr: "al-Zahir mourut après un court califat — certains disent par empoisonnement {cite:kamil-ibn-al-athir p. 464}."
   ur: "الظاہر کا انتقال مختصر خلافت کے بعد ہوا - بعض نے زہر سے کہا۔ 464}۔"
+  tr: "El-Zahir bi-Amr Allah öldü ve halifeliği kısa sürdü. Zehirle öldürüldüğü rivayet edilir. {Kaynak: Kamil ibn el-Ashir s. 464}"
+  id: "Al-Zahir bi-Amr Allah wafat, dan kekhalifahannya singkat. Dikatakan bahwa ia dibunuh dengan racun {cite:kamil-ibn-al-athir p. 464}."
 wings: [time]
 relations:
   - { type: occurred_at, target: place/baghdad, sources: [source/kamil-ibn-al-athir] }

@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/sahih-muslim
 ref: "6689"
-label: { ar: "صحيح مسلم 6689 — وصية أو عهد أخير", en: "Sahih Muslim 6689 — a testament or parting counsel", ur: "صحیح مسلم 6689 — وصیت یا آخری نصیحت", es: "Sahih Muslim 6689 — un testamento o consejo de despedida", fr: "Sahih Muslim 6689 — un testament ou un conseil d'adieu" }
+label: { ar: "صحيح مسلم 6689 — وصية أو عهد أخير", en: "Sahih Muslim 6689 — a testament or parting counsel", ur: "صحیح مسلم 6689 — وصیت یا آخری نصیحت", es: "Sahih Muslim 6689 — un testamento o consejo de despedida", fr: "Sahih Muslim 6689 — un testament ou un conseil d'adieu", tr: "Sahih Muslim 6689 — Son Vasiyetname", id: "Sahih Muslim 6689 — Surat Wasiat Terakhir" }
 text: "حَدَّثَنَا أَبُو بَكْرِ بْنُ أَبِي شَيْبَةَ، حَدَّثَنَا ابْنُ إِدْرِيسَ، أَخْبَرَنَا شُعْبَةُ، ح وَحَدَّثَنَا أَبُو كُرَيْبٍ حَدَّثَنَا ابْنُ إِدْرِيسَ، أَخْبَرَنَا شُعْبَةُ، عَنْ أَبِي عِمْرَانَ الْجَوْنِيِّ، عَنْ عَبْدِ اللَّهِ بْنِ الصَّامِتِ، عَنْ أَبِي ذَرٍّ، قَالَ إِنَّ خَلِيلِي أَوْصَانِي \" إِذَا طَبَخْتَ مَرَقًا فَأَكْثِرْ مَاءَهُ ثُمَّ انْظُرْ أَهْلَ بَيْتٍ مِنْ جِيرَانِكَ فَأَصِبْهُمْ مِنْهَا بِمَعْرُوفٍ \"."
 summary:
   ar: "حديث في صحيح مسلم، رقم 6689، يذكر وصية أو عهد أخير. يجمعه متصفح الوصايا والمواريث والآثار والمراقد مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
@@ -11,6 +11,8 @@ summary:
   ur: "صحیح مسلم کی حدیث نمبر 6689، جس میں وصیت یا آخری نصیحت کا ذکر ہے۔ وصایا، ترکہ، آثار اور مراقد کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un informe del Sahih Muslim, n.º 6689 (El Libro de la Virtud, que ordena las buenas costumbres y fortalece los lazos de parentesco), menciona un testamento o consejo de despedida. El Navegador de Testamentos lo incluye en su lista junto con los textos del Corán, la Sunnah, la sirah y los libros sobre testamentos, últimas horas, herencias, reliquias y tumbas."
   fr: "Un hadith du Sahih Muslim, n° 6689 (Le Livre de la Vertu, l'Exhortation aux Bonnes Mœurs et l'Ascension), mentionne un testament ou des conseils d'adieu. Le Navigateur de Testaments le répertorie avec les textes du Coran, de la Sunna, de la Sîra et les ouvrages traitant des testaments, de la fin des temps, des biens, des reliques et des tombes."
+  tr: "Sahih Müslim'de 6689 numaralı hadis, vasiyet veya son bir ahitten bahsetmektedir. Bu hadis, vasiyet, miras, kutsal emanetler ve türbeler konusunda uzmanlaşmış araştırmacılar tarafından, Kur'an, Sünnet, biyografi ve bu konuyla ilgili diğer kitaplardan ilgili metinlerle birlikte derlenmiştir."
+  id: "Sebuah hadits dalam Sahih Muslim, nomor 6689, menyebutkan tentang wasiat atau perjanjian terakhir. Hadits ini disusun oleh para peneliti yang ahli dalam wasiat, warisan, relik, dan makam, bersama dengan teks-teks yang relevan dari Al-Quran, Sunnah, biografi, dan buku-buku lain tentang topik ini."
 relations:
   - { type: mentions, target: concept/al-wasiyya, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 6689 (book 45 hadith 186); matn excerpt of at most 55 words chosen by the testaments detector (scripts/wasaya.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-hadithapi-1" }

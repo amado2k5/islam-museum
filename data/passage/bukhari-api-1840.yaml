@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/sahih-al-bukhari
 ref: "1840"
-label: { ar: "صحيح البخاري 1840 — الأب والأبوة", en: "Sahih al-Bukhari 1840 — the father and fatherhood", ur: "صحیح بخاری 1840 — باپ اور والدیت", es: "Sahih al-Bukhari 1840 — El padre y la paternidad", fr: "Sahih al-Bukhari 1840 — le père et la paternité" }
+label: { ar: "صحيح البخاري 1840 — الأب والأبوة", en: "Sahih al-Bukhari 1840 — the father and fatherhood", ur: "صحیح بخاری 1840 — باپ اور والدیت", es: "Sahih al-Bukhari 1840 — El padre y la paternidad", fr: "Sahih al-Bukhari 1840 — le père et la paternité", tr: "Sahih el-Buhari 1840 — Baba ve Babalık", id: "Sahih al-Bukhari 1840 — Sang Ayah dan Peran Ayah" }
 text: "… عَبْدُ اللَّهِ بْنُ يُوسُفَ، أَخْبَرَنَا مَالِكٌ، عَنْ زَيْدِ بْنِ أَسْلَمَ، عَنْ إِبْرَاهِيمَ بْنِ عَبْدِ اللَّهِ بْنِ حُنَيْنٍ، عَنْ أَبِيهِ، أَنَّ عَبْدَ اللَّهِ بْنَ الْعَبَّاسِ، وَالْمِسْوَرَ بْنَ مَخْرَمَةَ، اخْتَلَفَا بِالأَبْوَاءِ، فَقَالَ عَبْدُ اللَّهِ بْنُ عَبَّاسٍ يَغْسِلُ الْمُحْرِمُ رَأْسَهُ. وَقَالَ الْمِسْوَرُ لاَ يَغْسِلُ الْمُحْرِمُ رَأْسَهُ. فَأَرْسَلَنِي عَبْدُ اللَّهِ بْنُ الْعَبَّاسِ إِلَى أَبِي أَيُّوبَ الأَنْصَارِيِّ، فَوَجَدْتُهُ يَغْتَسِلُ بَيْنَ …"
 summary:
   ar: "حديث في صحيح البخاري، رقم 1840، يذكر الأب والأبوة. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
@@ -11,6 +11,8 @@ summary:
   ur: "صحیح بخاری کی حدیث نمبر 1840، جس میں باپ اور والدیت کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un relato en Sahih al-Bukhari, n.° 1840 (Castigo de la caza durante la peregrinación), menciona al padre y la paternidad. El navegador \"La paternidad en el Islam\" lo incluye en su lista junto con los textos del Corán, la Sunnah, la sirah y los libros sobre el padre."
   fr: "Un hadith du Sahih al-Bukhari, n° 1840 (La peine pour avoir chassé en pèlerinage), mentionne le père et la paternité. Le site « Paternité en Islam » répertorie ce hadith avec les versets du Coran, de la Sunna, de la Sîra et les ouvrages traitant de la paternité."
+  tr: "Sahih el-Buhari'de 1840 numaralı hadis, baba ve babalık kavramından bahsetmektedir. \"İslam'da Babalık\" tarayıcısı, bu hadisi Kur'an, Sünnet, biyografi ve bu konuyla ilgili diğer kitaplardan derlemektedir."
+  id: "Sebuah hadits dalam Sahih al-Bukhari, nomor 1840, menyebutkan tentang ayah dan peran ayah. Browser \"Peran Ayah dalam Islam\" mengumpulkan hadits tersebut dengan teks-teks dari Al-Quran, Sunnah, biografi, dan buku-buku lain tentang topik ini."
 relations:
   - { type: mentions, target: concept/ubuwwa, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 1840 (book 28 hadith 20); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }

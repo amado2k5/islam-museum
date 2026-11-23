@@ -1,7 +1,7 @@
 id: event/death-al-afdal-622
 class: event
 kind: death
-label: { ar: "وفاة الملك الأفضل علي بن صلاح الدين", en: "Death of al-Malik al-Afdal", es: "Muerte de al-Malik al-Afdal", fr: "Mort d'al-Malik al-Afdal", ur: "المالک الفضل کی وفات" }
+label: { ar: "وفاة الملك الأفضل علي بن صلاح الدين", en: "Death of al-Malik al-Afdal", es: "Muerte de al-Malik al-Afdal", fr: "Mort d'al-Malik al-Afdal", ur: "المالک الفضل کی وفات", tr: "Kral El-Afdal Ali ibn Salah al-Din'in ölümü", id: "Kematian Raja Al-Afdal Ali bin Salah al-Din" }
 date:
   start: { edtf: "1225~", hijri: "0622", calendar: julian, precision: year, status: tradition, derived: true }
 summary:
@@ -10,6 +10,8 @@ summary:
   es: "al-Malik al-Afdal Ali ibn Saladin murió en Samosata, despojado hacía tiempo del poder por su tío al-Adil; otros príncipes murieron el mismo año {cite:kamil-ibn-al-athir p. 445}."
   fr: "al-Malik al-Afdal Ali ibn Saladin mourut à Samosate, longtemps dépouillé de son pouvoir par son oncle al-Adil; d'autres princes moururent la même année {cite:kamil-ibn-al-athir p. 445}."
   ur: "المالک الافضل علی ابن صلاح الدین سموستا کے مقام پر انتقال کر گئے، ان کے چچا العادل نے طویل عرصے سے اقتدار چھین لیا تھا۔ اسی سال دوسرے شہزادوں کا انتقال ہوا 445}"
+  tr: "Kral Al-Afdal Ali bin Salah Al-Din, krallığı amcası Al-Adil tarafından elinden alındıktan sonra Samosata'da öldü ve bu yıl içinde başka krallar da öldü {kaynak:kamil-ibn-al-athir s. 445}."
+  id: "Raja Al-Afdal Ali bin Salah Al-Din wafat di Samosata setelah kerajaan direbut darinya oleh pamannya Al-Adil, dan raja-raja lain wafat pada tahun ini {cite:kamil-ibn-al-athir p. 445}."
 wings: [time]
 relations:
   - { type: occurred_at, target: place/sumaysat, sources: [source/kamil-ibn-al-athir] }

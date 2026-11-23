@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/sahih-al-bukhari
 ref: "3745"
-label: { ar: "صحيح البخاري 3745 — ذكر أمم وأديان وشعوب غير مسلمة", en: "Sahih al-Bukhari 3745 — mentions of non-Muslim nations, religions and peoples", ur: "صحیح بخاری 3745 — غیر مسلم امتوں، ادیان اور اقوام کا ذکر", es: "Sahih al-Bukhari 3745 — menciones de naciones, religiones y pueblos no musulmanes", fr: "Sahih al-Bukhari 3745 — mentions de nations, religions et peuples non musulmans" }
+label: { ar: "صحيح البخاري 3745 — ذكر أمم وأديان وشعوب غير مسلمة", en: "Sahih al-Bukhari 3745 — mentions of non-Muslim nations, religions and peoples", ur: "صحیح بخاری 3745 — غیر مسلم امتوں، ادیان اور اقوام کا ذکر", es: "Sahih al-Bukhari 3745 — menciones de naciones, religiones y pueblos no musulmanes", fr: "Sahih al-Bukhari 3745 — mentions de nations, religions et peuples non musulmans", tr: "Sahih el-Buhari 3745 — Gayrimüslim milletlerin, dinlerin ve halkların anılması", id: "Sahih al-Bukhari 3745 — Penyebutan bangsa, agama, dan kaum non-Muslim" }
 text: "حَدَّثَنَا مُسْلِمُ بْنُ إِبْرَاهِيمَ، حَدَّثَنَا شُعْبَةُ، عَنْ أَبِي إِسْحَاقَ، عَنْ صِلَةَ، عَنْ حُذَيْفَةَ ـ قَالَ قَالَ النَّبِيُّ لأَهْلِ نَجْرَانَ \" لأَبْعَثَنَّ ـ يَعْنِي عَلَيْكُمْ ـ يَعْنِي أَمِينًا ـ حَقَّ أَمِينٍ \". فَأَشْرَفَ أَصْحَابُهُ، فَبَعَثَ أَبَا عُبَيْدَةَ."
 summary:
   ar: "حديث في صحيح البخاري، رقم 3745، فيه ذكر أمم وأديان وشعوب غير مسلمة. يجمعه متصفح الأمم والأديان والطوائف والشعوب غير المسلمة مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
@@ -11,6 +11,8 @@ summary:
   ur: "صحیح بخاری کی حدیث نمبر 3745، جس میں غیر مسلم امتوں، ادیان اور اقوام کا ذکر ہے۔ غیر مسلم امتوں، ادیان، فرقوں اور اقوام کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un relato del Sahih al-Bukhari, n.º 3745 (Compañeros del Profeta), menciona naciones, religiones y pueblos no musulmanes. El Umam Browser lo incluye en su lista junto con los textos del Corán, la Sunnah, la sirah y los libros sobre naciones, religiones, sectas y pueblos no musulmanes."
   fr: "Un hadith du Sahih al-Bukhari, n° 3745 (Compagnons du Prophète), mentionne des nations, des religions et des peuples non musulmans. Le navigateur Umam le répertorie avec les textes du Coran, de la Sunna, de la Sîra et les ouvrages consacrés aux nations, religions, sectes et peuples non musulmans."
+  tr: "Sahih el-Buhari'de 3745 numaralı hadis, gayrimüslim milletleri, dinleri ve halkları zikretmektedir. Bu hadis, gayrimüslim milletler, dinler, mezhepler ve halklar konusunda uzmanlaşmış bir araştırmacı tarafından, Kur'an, Sünnet, Peygamberin biyografisi ve bu konuyla ilgili diğer kitaplardan ilgili metinlerle birlikte derlenmiştir."
+  id: "Sebuah hadits dalam Sahih al-Bukhari, nomor 3745, menyebutkan bangsa-bangsa, agama-agama, dan kaum-kaum non-Muslim. Hadits ini disusun oleh seorang peneliti yang ahli dalam bangsa-bangsa, agama-agama, sekte-sekte, dan kaum-kaum non-Muslim, bersama dengan teks-teks yang relevan dari Al-Quran, Sunnah, biografi Nabi, dan buku-buku lain tentang topik ini."
 relations:
   - { type: mentions, target: group/christians-of-najran, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 3745 (book 62 hadith 90); matn excerpt of at most 55 words chosen by the umam detector (scripts/umam.ts), honorific formulas left out", generated_by: "Devin (SWE-2 Medium)", model: "swe-2-medium", run: "umam-hadithapi-1" }

@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/sahih-al-bukhari
 ref: "7269"
-label: { ar: "صحيح البخاري 7269 — أثر من الآثار المحفوظة", en: "Sahih al-Bukhari 7269 — a relic kept after its owner", ur: "صحیح بخاری 7269 — محفوظ آثار و تبرکات", es: "Sahih al-Bukhari 7269 — una reliquia conservada después de su dueño.", fr: "Sahih al-Bukhari 7269 — une relique conservée après son propriétaire" }
+label: { ar: "صحيح البخاري 7269 — أثر من الآثار المحفوظة", en: "Sahih al-Bukhari 7269 — a relic kept after its owner", ur: "صحیح بخاری 7269 — محفوظ آثار و تبرکات", es: "Sahih al-Bukhari 7269 — una reliquia conservada después de su dueño.", fr: "Sahih al-Bukhari 7269 — une relique conservée après son propriétaire", tr: "Sahih el-Buhari 7269 — Korunmuş bir gelenek", id: "Sahih al-Bukhari 7269 — Sebuah hadis yang terpelihara" }
 text: "… حَدَّثَنَا اللَّيْثُ، عَنْ عُقَيْلٍ، عَنِ ابْنِ شِهَابٍ، أَخْبَرَنِي أَنَسُ بْنُ مَالِكٍ، أَنَّهُ سَمِعَ عُمَرَ الْغَدَ، حِينَ بَايَعَ الْمُسْلِمُونَ أَبَا بَكْرٍ، وَاسْتَوَى عَلَى مِنْبَرِ رَسُولِ اللَّهِ تَشَهَّدَ قَبْلَ أَبِي بَكْرٍ فَقَالَ أَمَّا بَعْدُ فَاخْتَارَ اللَّهُ لِرَسُولِهِ الَّذِي عِنْدَهُ عَلَى الَّذِي عِنْدَكُمْ، وَهَذَا الْكِتَابُ الَّذِي هَدَى اللَّهُ بِهِ رَسُولَكُمْ فَخُذُوا بِهِ تَهْتَدُوا وَإِنَّمَا هَدَى اللَّهُ بِهِ رَسُولَهُ."
 summary:
   ar: "حديث في صحيح البخاري، رقم 7269، يذكر أثر من الآثار المحفوظة. يجمعه متصفح الوصايا والمواريث والآثار والمراقد مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
@@ -11,6 +11,8 @@ summary:
   ur: "صحیح بخاری کی حدیث نمبر 7269، جس میں محفوظ آثار و تبرکات کا ذکر ہے۔ وصایا، ترکہ، آثار اور مراقد کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un relato en Sahih al-Bukhari, n.° 7269 (Aferrarse al Corán y la Sunnah), menciona una reliquia conservada tras la muerte de su dueño. El Navegador de Testamentos la incluye en su lista junto con los textos del Corán, la Sunnah, la sirah y los libros sobre testamentos, últimas horas, herencias, reliquias y tumbas."
   fr: "Un hadith du Sahih al-Bukhari, n° 7269 (S'attacher fermement au Coran et à la Sunna), mentionne une relique conservée après son propriétaire. Le navigateur de testaments la répertorie avec les textes du Coran, de la Sunna, de la Sîra et les ouvrages traitant des testaments, de la fin des temps, des biens, des reliques et des tombes."
+  tr: "Sahih el-Buhari'de 7269 numaralı hadiste, korunmuş bir kutsal emanetten bahsedilir. Bu derleme, vasiyetnameler, miras, kutsal emanetler ve türbeler konusunda uzmanlaşmış bir araştırmacı tarafından, Kur'an, Sünnet, biyografi ve bu konuyla ilgili diğer kitaplardan alınan metinlerle birlikte hazırlanmıştır."
+  id: "Sebuah hadits dalam Sahih al-Bukhari, nomor 7269, menyebutkan sebuah relik yang terpelihara. Ini disusun oleh seorang peneliti yang ahli dalam wasiat, warisan, relik, dan makam, bersama dengan teks-teks dari Al-Quran, Sunnah, biografi, dan buku-buku lain tentang topik ini."
 relations:
   - { type: mentions, target: concept/tabarruk, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 7269 (book 96 hadith 2); matn excerpt of at most 55 words chosen by the testaments detector (scripts/wasaya.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-hadithapi-1" }

@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/sahih-al-bukhari
 ref: "3111"
-label: { ar: "صحيح البخاري 3111 — ما خلّفه من تركة وميراث", en: "Sahih al-Bukhari 3111 — what was left behind: estate and inheritance", ur: "صحیح بخاری 3111 — ترکہ اور میراث", es: "Sahih al-Bukhari 3111 — Lo que quedó: patrimonio y herencia", fr: "Sahih al-Bukhari 3111 — Ce qui a été laissé derrière: biens et héritage" }
+label: { ar: "صحيح البخاري 3111 — ما خلّفه من تركة وميراث", en: "Sahih al-Bukhari 3111 — what was left behind: estate and inheritance", ur: "صحیح بخاری 3111 — ترکہ اور میراث", es: "Sahih al-Bukhari 3111 — Lo que quedó: patrimonio y herencia", fr: "Sahih al-Bukhari 3111 — Ce qui a été laissé derrière: biens et héritage", tr: "Sahih el-Buhari 3111 — Miras ve vasiyet olarak geride bıraktıkları", id: "Sahih al-Bukhari 3111 — Apa yang ditinggalkan olehnya berupa warisan dan peninggalan" }
 text: "… سَعِيدٍ، حَدَّثَنَا سُفْيَانُ، عَنْ مُحَمَّدِ بْنِ سُوقَةَ، عَنْ مُنْذِرٍ، عَنِ ابْنِ الْحَنَفِيَّةِ، قَالَ لَوْ كَانَ عَلِيٌّ ـ ذَاكِرًا عُثْمَانَ ـ ذَكَرَهُ يَوْمَ جَاءَهُ نَاسٌ فَشَكَوْا سُعَاةَ عُثْمَانَ، فَقَالَ لِي عَلِيٌّ اذْهَبْ إِلَى عُثْمَانَ فَأَخْبِرْهُ أَنَّهَا صَدَقَةُ رَسُولِ اللَّهِ، فَمُرْ سُعَاتَكَ يَعْمَلُونَ فِيهَا. فَأَتَيْتُهُ بِهَا فَقَالَ أَغْنِهَا عَنَّا. فَأَتَيْتُ بِهَا عَلِيًّا فَأَخْبَرْتُهُ فَقَالَ ضَعْهَا حَيْثُ أَخَذْتَهَا."
 summary:
   ar: "حديث في صحيح البخاري، رقم 3111، يذكر ما خلّفه من تركة وميراث. يجمعه متصفح الوصايا والمواريث والآثار والمراقد مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
@@ -11,6 +11,8 @@ summary:
   ur: "صحیح بخاری کی حدیث نمبر 3111، جس میں ترکہ اور میراث کا ذکر ہے۔ وصایا، ترکہ، آثار اور مراقد کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un relato en Sahih al-Bukhari, n.° 3111 (Una quinta parte del botín para la causa de Alá (Khumus)), menciona lo que quedó: bienes y herencia. El Navegador de Testamentos lo incluye en su lista junto con los textos del Corán, la Sunnah, la sirah y los libros sobre testamentos, últimas horas, bienes, reliquias y tumbas."
   fr: "Un hadith du Sahih al-Bukhari, n° 3111 (Le cinquième du butin pour la cause d'Allah (Khumus)), mentionne ce qui a été laissé: biens et héritage. Le navigateur de testaments le répertorie avec les textes du Coran, de la Sunna, de la Sîra et les ouvrages traitant des testaments, de la fin des temps, des biens, des reliques et des tombes."
+  tr: "Sahih el-Buhari'nin 3111 numaralı hadisinde, geride bıraktığı mal varlığı ve miras hakkında bilgi verilmektedir. Bu derleme, vasiyetnameler, miras, kutsal emanetler ve türbeler konusunda uzmanlaşmış bir araştırmacı tarafından, Kur'an, Sünnet, biyografi ve bu konuyla ilgili diğer kitaplardan alınan metinlerle birlikte hazırlanmıştır."
+  id: "Sebuah hadits dalam Sahih al-Bukhari, nomor 3111, menyebutkan apa yang ditinggalkan beliau berupa harta warisan. Hadits ini disusun oleh seorang peneliti yang ahli dalam wasiat, warisan, relik, dan makam suci, beserta teks-teks dari Al-Quran, Sunnah, biografi, dan buku-buku lain tentang topik ini."
 relations:
   - { type: mentions, target: concept/tarika-estate, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 3111 (book 57 hadith 20); matn excerpt of at most 55 words chosen by the testaments detector (scripts/wasaya.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-hadithapi-1" }

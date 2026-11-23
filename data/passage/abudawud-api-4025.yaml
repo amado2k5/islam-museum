@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/sunan-abi-dawud
 ref: "4025"
-label: { ar: "سنن أبي داود — حديث 4025", en: "Sunan Abi Dawud 4025 — Clothing (Kitab Al-Libas)", ur: "سنن ابی داؤد — حدیث 4025", es: "Sunan Abi Dawud 4025 — Ropa (Kitab Al-Libas)", fr: "Sunan Abi Dawud 4025 — Vêtements (Kitab Al-Libas)" }
+label: { ar: "سنن أبي داود — حديث 4025", en: "Sunan Abi Dawud 4025 — Clothing (Kitab Al-Libas)", ur: "سنن ابی داؤد — حدیث 4025", es: "Sunan Abi Dawud 4025 — Ropa (Kitab Al-Libas)", fr: "Sunan Abi Dawud 4025 — Vêtements (Kitab Al-Libas)", tr: "Sünen Ebu Davud — Hadis 4025", id: "Sunan Abi Dawud — Hadits 4025" }
 text: "عَبْدِ اللَّهِ بْنِ بُرَيْدَةَ، عَنْ أُمِّ سَلَمَةَ، قَالَتْ كَانَ أَحَبَّ الثِّيَابِ إِلَى رَسُولِ اللَّهِ صلى الله عليه وسلم الْقَمِيصُ ‏.‏"
 summary:
   ar: "في سنن أبي داود؛ ذكر ديوان أو بريد المراسلات."
@@ -11,6 +11,8 @@ summary:
   ur: "سنن ابی داؤد میں؛ دیوآن یا بریڈ کا ذکر."
   es: "En Sunan Abi Dawud; mención de la cancillería o del puesto de barid."
   fr: "Dans Sunan Abi Dawud; mention de la chancellerie ou du poste de barid."
+  tr: "Sunan Abi Davud'da, yazışmalar için kullanılan Divan veya postane zikredilmiştir."
+  id: "Dalam Sunan Abi Dawood, disebutkan Diwan atau kantor pos untuk korespondensi."
 relations:
   - { type: part_of, target: passage/abudawud-kitab-34 }
   - { type: mentions, target: person/muhammad, sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0] }

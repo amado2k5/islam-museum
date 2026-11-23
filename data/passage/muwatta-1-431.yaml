@@ -4,9 +4,11 @@ unit: hadith
 chain: [person/malik-ibn-anas, person/hisham-ibn-urwa]
 work: work/muwatta-malik
 ref: "1.431"
-label: { ar: "الموطأ 431 — عروة يصلي في الصحراء إلى غير سترة", en: "Muwatta 431", es: "Muwatta 431", fr: "Muwatta 431", ur: "موطا 431" }
+label: { ar: "الموطأ 431 — عروة يصلي في الصحراء إلى غير سترة", en: "Muwatta 431", es: "Muwatta 431", fr: "Muwatta 431", ur: "موطا 431", tr: "Al-Muwatta 431 — Urwah, çölde perdesiz dua ediyor", id: "Al-Muwatta 431 — Urwah shalat di padang pasir tanpa tirai" }
 summary:
   ar: "أثر يرويه مالك عن هشام بن عروة أن أباه عروة كان يصلي في الصحراء إلى غير سترة؛ وهو في باب سترة المصلي في السفر. ويذكر المحقق أنه رواه عن مالك أبو مصعب وسويد. {cite:muwatta-maruf-1997 p.223}"
+  tr: "Malik'in Hişam ibn Urve'den rivayet ettiği bir hadiste, babası Urve'nin çölde seccade (namaz perdesi) olmadan namaz kıldığı belirtilmektedir; bu, yolculuk halindeyken namaz kılan için seccade konusuna girmektedir. Editör, bu rivayetin Malik'ten Ebu Mus'ab ve Suveyd tarafından nakledildiğini belirtmektedir. {cite:muwatta-maruf-1997 s.223}"
+  id: "Sebuah riwayat yang dinarasikan oleh Malik dari Hisham ibn Urwah menyatakan bahwa ayahnya, Urwah, biasa shalat di padang pasir tanpa sutrah (layar shalat); ini termasuk dalam bab tentang sutrah bagi orang yang shalat saat bepergian. Editor menyebutkan bahwa riwayat ini dinarasikan dari Malik oleh Abu Mus'ab dan Suwaid. {cite:muwatta-maruf-1997 p.223}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-01-salat }
   - { type: mentions, target: person/urwa-ibn-al-zubayr, sources: [source/muwatta-maruf-1997] }

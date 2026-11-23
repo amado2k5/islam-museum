@@ -3,9 +3,11 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1959"
-label: { ar: "الموطأ 1959 — مالك: ليس لهذا عندنا حد معروف، ولا أمر معمول به فيه", en: "Muwatta 1959", es: "Muwatta 1959", fr: "Muwatta 1959", ur: "موطا 1959" }
+label: { ar: "الموطأ 1959 — مالك: ليس لهذا عندنا حد معروف، ولا أمر معمول به فيه", en: "Muwatta 1959", es: "Muwatta 1959", fr: "Muwatta 1959", ur: "موطا 1959", tr: "Al-Muwatta 1959 — Malik: Bunun için bilinen bir sınırımız veya yerleşik bir uygulamamız yok.", id: "Al-Muwatta 1959 — Malik: Kita tidak mengetahui batasan untuk hal ini, dan tidak ada praktik yang mapan mengenai hal itu." }
 summary:
   ar: "قال مالك: وليس لهذا عندنا حد معروف، ولا أمر معمول به فيه. {cite:muwatta-maruf-1997 p.201}"
+  tr: "Malik şöyle dedi: Bunun için bilinen bir sınırımız veya yerleşik bir uygulamamız yok. {cite:muwatta-maruf-1997 s.201}"
+  id: "Malik berkata: Kita tidak memiliki batasan yang diketahui untuk hal ini, dan juga tidak ada praktik yang mapan mengenai hal itu. {cite:muwatta-maruf-1997 p.201}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-17-buyu }
   - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }

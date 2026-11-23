@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/sahih-al-bukhari
 ref: "1270"
-label: { ar: "صحيح البخاري 1270 — ذكر أمم وأديان وشعوب غير مسلمة", en: "Sahih al-Bukhari 1270 — mentions of non-Muslim nations, religions and peoples", ur: "صحیح بخاری 1270 — غیر مسلم امتوں، ادیان اور اقوام کا ذکر", es: "Sahih al-Bukhari 1270 — menciones de naciones, religiones y pueblos no musulmanes", fr: "Sahih al-Bukhari 1270 — mentions de nations, religions et peuples non musulmans" }
+label: { ar: "صحيح البخاري 1270 — ذكر أمم وأديان وشعوب غير مسلمة", en: "Sahih al-Bukhari 1270 — mentions of non-Muslim nations, religions and peoples", ur: "صحیح بخاری 1270 — غیر مسلم امتوں، ادیان اور اقوام کا ذکر", es: "Sahih al-Bukhari 1270 — menciones de naciones, religiones y pueblos no musulmanes", fr: "Sahih al-Bukhari 1270 — mentions de nations, religions et peuples non musulmans", tr: "Sahih el-Buhari 1270 — Gayrimüslim milletlerin, dinlerin ve halkların anılması", id: "Sahih al-Bukhari 1270 — Penyebutan bangsa, agama, dan kaum non-Muslim" }
 text: "حَدَّثَنَا مَالِكُ بْنُ إِسْمَاعِيلَ، حَدَّثَنَا ابْنُ عُيَيْنَةَ، عَنْ عَمْرٍو، سَمِعَ جَابِرًا ـ قَالَ أَتَى النَّبِيُّ عَبْدَ اللَّهِ بْنَ أُبَىٍّ بَعْدَ مَا دُفِنَ فَأَخْرَجَهُ، فَنَفَثَ فِيهِ مِنْ رِيقِهِ وَأَلْبَسَهُ قَمِيصَهُ."
 summary:
   ar: "حديث في صحيح البخاري، رقم 1270، فيه ذكر أمم وأديان وشعوب غير مسلمة. يجمعه متصفح الأمم والأديان والطوائف والشعوب غير المسلمة مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
@@ -11,6 +11,8 @@ summary:
   ur: "صحیح بخاری کی حدیث نمبر 1270، جس میں غیر مسلم امتوں، ادیان اور اقوام کا ذکر ہے۔ غیر مسلم امتوں، ادیان، فرقوں اور اقوام کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un relato en Sahih al-Bukhari, n.º 1270 (Funerales (Al-Janaa'iz)), con menciones de naciones, religiones y pueblos no musulmanes. El Umam Browser lo incluye en su lista junto con los textos del Corán, la Sunnah, la Seerah y los libros sobre naciones, religiones, sectas y pueblos no musulmanes."
   fr: "Un récit du Sahih al-Bukhari, n° 1270 (Funérailles (Al-Janaa'iz)), mentionne des nations, des religions et des peuples non musulmans. Le navigateur Umam le répertorie avec les textes du Coran, de la Sunna, de la Sîra et les ouvrages relatifs aux nations, religions, sectes et peuples non musulmans."
+  tr: "Sahih el-Buhari'nin 1270 numaralı hadisinde, Müslüman olmayan milletler, dinler ve halklardan bahsedilmektedir. Bu hadis, Müslüman olmayan milletler, dinler, mezhepler ve halklar konusunda uzmanlaşmış bir araştırmacı tarafından, Kur'an, Sünnet, Peygamberin biyografisi ve konuyla ilgili diğer kitaplardan ilgili metinlerle birlikte derlenmiştir."
+  id: "Sebuah hadits dalam Sahih al-Bukhari, nomor 1270, menyebutkan bangsa-bangsa, agama-agama, dan kaum-kaum non-Muslim. Hadits ini disusun oleh seorang peneliti yang ahli dalam bangsa-bangsa, agama-agama, sekte-sekte, dan kaum-kaum non-Muslim, bersama dengan teks-teks yang relevan dari Al-Quran, Sunnah, biografi Nabi, dan buku-buku lain tentang subjek tersebut."
 relations:
   - { type: mentions, target: person/abdullah-ibn-ubayy, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 1270 (book 23 hadith 31); matn excerpt of at most 55 words chosen by the umam detector (scripts/umam.ts), honorific formulas left out", generated_by: "Devin (SWE-2 Medium)", model: "swe-2-medium", run: "umam-hadithapi-1" }

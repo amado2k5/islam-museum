@@ -3,10 +3,12 @@ class: passage
 unit: hadith
 work: work/sahih-muslim
 ref: "94"
-label: { ar: "مسلم 94 — بشارة جبريل: وإن زنى وإن سرق", en: "Muslim 94 — Jibril's glad tidings: even if he steals or sins", es: "Muslim 94 — Las buenas nuevas de Jibril: incluso si roba o peca", fr: "Muslim 94 — La bonne nouvelle de Jibril: même s’il vole ou pèche", ur: "مسلم 94 - جبرائیل کی بشارت: خواہ وہ چوری کرے یا گناہ" }
+label: { ar: "مسلم 94 — بشارة جبريل: وإن زنى وإن سرق", en: "Muslim 94 — Jibril's glad tidings: even if he steals or sins", es: "Muslim 94 — Las buenas nuevas de Jibril: incluso si roba o peca", fr: "Muslim 94 — La bonne nouvelle de Jibril: même s’il vole ou pèche", ur: "مسلم 94 - جبرائیل کی بشارت: خواہ وہ چوری کرے یا گناہ", tr: "Müslim 94 — Cebrail'in Müjdesi: Zina etse de, hırsızlık yapsa da...", id: "Muslim 94 — Kabar Gembira Jibril: Sekalipun ia berzina dan sekalipun ia mencuri" }
 text: "قال أبو ذر عن النبي: أتاني جبريل فبشرني أنه من مات من أمتك لا يشرك بالله شيئاً دخل الجنة، قلت: وإن زنى وإن سرق؟ قال: وإن زنى وإن سرق"
 summary:
   ar: "رواية أبي ذر الغفاري في باب حرمة دم المؤمن من كتاب الإيمان في صحيح مسلم؛ بشارة جبريل لمن مات على التوحيد، والاستفهام النبوي المستثني للمعاصي الكبار دون الشرك."
+  tr: "Sahih Müslim'deki İman Kitabı'nda yer alan, müminin kanının kutsallığı bölümünde Ebu Zer el-Gifari'nin rivayeti; tevhid inancıyla ölenler için Cebrail'in müjdesi ve büyük günahları çok tanrıcılıktan hariç tutan peygamberlik sorusu."
+  id: "Riwayat Abu Dharr al-Ghifari dalam bab tentang kesucian darah orang beriman dari Kitab Iman dalam Sahih Muslim; kabar gembira Jibril bagi mereka yang meninggal dalam keadaan beriman kepada tauhid, dan pertanyaan kenabian yang mengecualikan dosa-dosa besar dari kemusyrikan."
 relations:
   - { type: part_of, target: passage/muslim-kitab-01 }
   - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim] }

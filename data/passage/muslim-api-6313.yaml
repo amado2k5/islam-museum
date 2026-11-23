@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/sahih-muslim
 ref: "6313"
-label: { ar: "صحيح مسلم 6313 — قراءات القرآن", en: "Sahih Muslim 6313 — the readings of the Qur'an", ur: "صحیح مسلم 6313 — قرآن کی قراءتیں", es: "Sahih Muslim 6313 — las lecturas del Corán", fr: "Sahih Muslim 6313 — les lectures du Coran" }
+label: { ar: "صحيح مسلم 6313 — قراءات القرآن", en: "Sahih Muslim 6313 — the readings of the Qur'an", ur: "صحیح مسلم 6313 — قرآن کی قراءتیں", es: "Sahih Muslim 6313 — las lecturas del Corán", fr: "Sahih Muslim 6313 — les lectures du Coran", tr: "Sahih Muslim 6313 — Kur'an Okumaları", id: "Sahih Muslim 6313 — Bacaan Al-Qur'an" }
 text: "… لَكِ رَسُولُ اللَّهِ فَقَالَتْ أَمَّا الآنَ فَنَعَمْ أَمَّا حِينَ سَارَّنِي فِي الْمَرَّةِ الأُولَى فَأَخْبَرَنِي \" أَنَّ جِبْرِيلَ كَانَ يُعَارِضُهُ الْقُرْآنَ فِي كُلِّ سَنَةٍ مَرَّةً أَوْ مَرَّتَيْنِ وَإِنَّهُ عَارَضَهُ الآنَ مَرَّتَيْنِ وَإِنِّي لاَ أُرَى الأَجَلَ إِلاَّ قَدِ اقْتَرَبَ فَاتَّقِي اللَّهَ وَاصْبِرِي فَإِنَّهُ نِعْمَ السَّلَفُ أَنَا لَكِ \". قَالَتْ فَبَكَيْتُ بُكَائِي الَّذِي رَأَيْتِ فَلَمَّا رَأَى جَزَعِي سَارَّنِي …"
 summary:
   ar: "حديث في صحيح مسلم، رقم 6313، يذكر قراءات القرآن. يجمعه متصفح قراءات القرآن والرسم والخطوط والضبط مع نصوص القرآن والسنة والسيرة والكتب في قراءات القرآن وكتابته."
@@ -11,6 +11,8 @@ summary:
   ur: "صحیح مسلم کی حدیث نمبر 6313، جس میں قرآن کی قراءتیں کا ذکر ہے۔ قراءات، رسم، خطوط اور نقطوں کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un informe en Sahih Muslim, n.° 6313 (El Libro de los Méritos de los Compañeros), menciona las lecturas del Corán. El navegador del museo sobre cómo se leía y escribía el Corán lo incluye junto con los textos del Corán, la Sunnah, la sirah y los libros sobre el tema."
   fr: "Un hadith du Sahih Muslim, n° 6313 (Livre des mérites des Compagnons), mentionne les lectures du Coran. Le catalogue du musée consacré à la lecture et à la transcription du Coran répertorie ce hadith avec les textes du Coran, la Sunna, la Sîra et les ouvrages traitant de ce sujet."
+  tr: "Sahih Müslim'de 6313 numaralı hadis, Kur'an'ın farklı okunuşlarından bahsetmektedir. Bu hadis, Kur'an okunuşları, yazısı, hat sanatı ve diyakritik işaretleri konusunda uzmanlaşmış bir araştırmacı tarafından, Kur'an, Sünnet, biyografi ve Kur'an okunuşu ve yazımı üzerine yazılmış kitaplardan derlenmiştir."
+  id: "Sebuah hadits dalam Sahih Muslim, nomor 6313, menyebutkan berbagai macam bacaan Al-Quran. Hadits ini disusun oleh seorang peneliti yang ahli dalam bacaan Al-Quran, aksara, kaligrafi, dan tanda diakritik, bersama dengan teks-teks dari Al-Quran, Sunnah, biografi, dan buku-buku tentang bacaan dan penulisan Al-Quran."
 relations:
   - { type: mentions, target: concept/qiraat, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 6313 (book 44 hadith 143); matn excerpt of at most 55 words chosen by the qira'at detector (scripts/qiraat.ts), honorific formulas left out", generated_by: "Claude (claude-sonnet-5-5)", model: "claude-sonnet-5-5", run: "qiraat-hadithapi-1" }

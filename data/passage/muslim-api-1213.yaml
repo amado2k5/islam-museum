@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/sahih-muslim
 ref: "1213"
-label: { ar: "صحيح مسلم 1213 — تربية الأب ووصيته", en: "Sahih Muslim 1213 — the father raising and counselling", ur: "صحیح مسلم 1213 — باپ کی تربیت اور نصیحت", es: "Sahih Muslim 1213 — La crianza y el consejo del padre", fr: "Sahih Muslim 1213 — L'éducation et les conseils du père" }
+label: { ar: "صحيح مسلم 1213 — تربية الأب ووصيته", en: "Sahih Muslim 1213 — the father raising and counselling", ur: "صحیح مسلم 1213 — باپ کی تربیت اور نصیحت", es: "Sahih Muslim 1213 — La crianza y el consejo del padre", fr: "Sahih Muslim 1213 — L'éducation et les conseils du père", tr: "Sahih Muslim 1213 — Babanın Yetiştirilmesi ve Vasiyeti", id: "Sahih Muslim 1213 — Didikan dan Wasiat Ayah" }
 text: "حَدَّثَنَا مُحَمَّدُ بْنُ أَبِي عُمَرَ، حَدَّثَنَا سُفْيَانُ، عَنْ عُثْمَانَ بْنِ أَبِي سُلَيْمَانَ، وَابْنِ، عَجْلاَنَ سَمِعَا عَامِرَ بْنَ عَبْدِ اللَّهِ بْنِ الزُّبَيْرِ، يُحَدِّثُ عَنْ عَمْرِو بْنِ سُلَيْمٍ الزُّرَقِيِّ، عَنْ أَبِي قَتَادَةَ الأَنْصَارِيِّ، قَالَ رَأَيْتُ النَّبِيَّ يَؤُمُّ النَّاسَ وَأُمَامَةُ بِنْتُ أَبِي الْعَاصِ وَهْىَ ابْنَةُ زَيْنَبَ بِنْتِ النَّبِيِّ عَلَى عَاتِقِهِ فَإِذَا رَكَعَ وَضَعَهَا وَإِذَا رَفَعَ مِنَ السُّجُودِ أَعَادَهَا."
 summary:
   ar: "حديث في صحيح مسلم، رقم 1213، يذكر تربية الأب ووصيته. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
@@ -11,6 +11,8 @@ summary:
   ur: "صحیح مسلم کی حدیث نمبر 1213، جس میں باپ کی تربیت اور نصیحت کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un informe del Sahih Muslim, n.º 1213 (El Libro de las Mezquitas y Lugares de Oración), menciona la crianza y el consejo paternos. El navegador \"La paternidad en el Islam\" lo incluye junto con los textos del Corán, la Sunnah, la sirah y los libros sobre el padre."
   fr: "Un hadith du Sahih Muslim, n° 1213 (Livre des mosquées et des lieux de prière), mentionne le rôle du père dans l'éducation et le soutien de ses enfants. Le site « Paternité en Islam » le répertorie avec les textes du Coran, de la Sunna, de la Sîra et les ouvrages consacrés à la figure paternelle."
+  tr: "Sahih Müslim'de 1213 numaralı hadis, babanın yetiştirilmesi ve öğütlerinden bahseder. \"İslam'da Babalık\" tarayıcısı, bu hadisi Kur'an, Sünnet, biyografi ve bu konuyla ilgili diğer kitaplardan derler."
+  id: "Sebuah hadits dalam Sahih Muslim, nomor 1213, menyebutkan tentang didikan dan nasihat seorang ayah. Browser \"Peran Ayah dalam Islam\" mengumpulkannya dengan teks-teks dari Al-Quran, Sunnah, biografi, dan buku-buku lain tentang topik ini."
 relations:
   - { type: mentions, target: concept/ubuwwa, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 1213 (book 5 hadith 53); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }

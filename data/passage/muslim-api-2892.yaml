@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/sahih-muslim
 ref: "2892"
-label: { ar: "صحيح مسلم 2892 — دفن وقبر ومرقد", en: "Sahih Muslim 2892 — a burial, grave or resting place", ur: "صحیح مسلم 2892 — تدفین، قبر اور مرقد", es: "Sahih Muslim 2892 — un lugar de entierro, tumba o descanso", fr: "Sahih Muslim 2892 — un lieu de sépulture, une tombe ou un lieu de repos" }
+label: { ar: "صحيح مسلم 2892 — دفن وقبر ومرقد", en: "Sahih Muslim 2892 — a burial, grave or resting place", ur: "صحیح مسلم 2892 — تدفین، قبر اور مرقد", es: "Sahih Muslim 2892 — un lugar de entierro, tumba o descanso", fr: "Sahih Muslim 2892 — un lieu de sépulture, une tombe ou un lieu de repos", tr: "Sahih Muslim 2892 — Defin, mezar ve istirahat yeri", id: "Sahih Muslim 2892 — Pemakaman, kuburan, dan tempat peristirahatan" }
 text: "… أَيُّوبُ فَأَوْقَصَتْهُ أَوْ قَالَ - فَأَقْعَصَتْهُ وَقَالَ عَمْرٌو فَوَقَصَتْهُ - فَذُكِرَ ذَلِكَ لِلنَّبِيِّ فَقَالَ \" اغْسِلُوهُ بِمَاءٍ وَسِدْرٍ وَكَفِّنُوهُ فِي ثَوْبَيْنِ وَلاَ تُحَنِّطُوهُ وَلاَ تُخَمِّرُوا رَأْسَهُ - قَالَ أَيُّوبُ فَإِنَّ اللَّهَ يَبْعَثُهُ يَوْمَ الْقِيَامَةِ مُلَبِّيًا وَقَالَ عَمْرٌو - فَإِنَّ اللَّهَ يَبْعَثُهُ يَوْمَ الْقِيَامَةِ يُلَبِّي \". وَحَدَّثَنِيهِ عَمْرٌو النَّاقِدُ، حَدَّثَنَا إِسْمَاعِيلُ بْنُ إِبْرَاهِيمَ، عَنْ أَيُّوبَ، قَالَ …"
 summary:
   ar: "حديث في صحيح مسلم، رقم 2892، يذكر دفن وقبر ومرقد. يجمعه متصفح الوصايا والمواريث والآثار والمراقد مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
@@ -11,6 +11,8 @@ summary:
   ur: "صحیح مسلم کی حدیث نمبر 2892، جس میں تدفین، قبر اور مرقد کا ذکر ہے۔ وصایا، ترکہ، آثار اور مراقد کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un informe en Sahih Muslim, n.° 2892 (Introducción), menciona un entierro, tumba o lugar de descanso. El Navegador de Testamentos lo incluye en su lista junto con los textos del Corán, la Sunnah, la sirah y los libros sobre testamentos, últimas horas, propiedades, reliquias y tumbas."
   fr: "Un hadith du Sahih Muslim, n° 2892 (Introduction), mentionne un lieu de sépulture, une tombe ou un lieu de repos. Le navigateur de textes sacrés le répertorie avec les textes du Coran, de la Sunna, de la Sîra et les ouvrages traitant des testaments, de la fin des temps, des biens, des reliques et des tombes."
+  tr: "Sahih Müslim'de 2892 numaralı hadis, defin, mezar ve türbeden bahsetmektedir. Bu hadis, vasiyetnameler, miras, eski eserler ve türbeler üzerine araştırmalar yapan bir uzman tarafından, Kur'an, Sünnet, biyografi ve bu konuyla ilgili diğer kitaplardan derlenmiştir."
+  id: "Sebuah hadits dalam Sahih Muslim, nomor 2892, menyebutkan tentang penguburan, kuburan, dan makam. Hadits ini disusun oleh peneliti wasiat, warisan, barang antik, dan makam, bersama dengan teks-teks dari Al-Quran, Sunnah, biografi, dan buku-buku lain tentang topik ini."
 relations:
   - { type: mentions, target: concept/ziyarat-al-qubur, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 2892 (book 0 hadith 0); matn excerpt of at most 55 words chosen by the testaments detector (scripts/wasaya.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-hadithapi-1" }

@@ -1,7 +1,7 @@
 id: event/tabaristan-campaign-30
 class: event
 kind: campaign
-label: { ar: "غزو سعيد بن العاص طبرستان", en: "Sa'id ibn al-'As's Tabaristan campaign (30 AH)", es: "Campaña de Tabaristán de Sa'id ibn al-'As (30 d. H.)", fr: "Campagne du Tabaristan de Sa'id ibn al-'As (30 AH)", ur: "سعید بن العاص کی طبرستان مہم ⁦(30ھ)⁩" }
+label: { ar: "غزو سعيد بن العاص طبرستان", en: "Sa'id ibn al-'As's Tabaristan campaign (30 AH)", es: "Campaña de Tabaristán de Sa'id ibn al-'As (30 d. H.)", fr: "Campagne du Tabaristan de Sa'id ibn al-'As (30 AH)", ur: "سعید بن العاص کی طبرستان مہم ⁦(30ھ)⁩", tr: "Said ibn el-As'ın Taberistan'ı fethi", id: "Penaklukan Tabaristan oleh Sa'id ibn al-'As" }
 date:
   start: { edtf: "0650", hijri: "0030", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة 30؛ التحويل مشتق {cite:kamil-ibn-al-athir p. 484}." }
 summary:
@@ -10,6 +10,8 @@ summary:
   es: "Sa'id ibn al-'As dirigió la primera campaña musulmana en Tabaristán en el año 30 {cite:kamil-ibn-al-athir p. 484}."
   fr: "Sa'id ibn al-'As a mené la première campagne musulmane au Tabaristan en l'an 30 {cite:kamil-ibn-al-athir p. 484}."
   ur: "سعید بن العاص نے 30 میں طبرستان میں مسلمانوں کی پہلی مہم کی قیادت کی۔ 484}۔"
+  tr: "Said bin el-As, otuzuncu yılda Taberistan'ı işgal etti ve bu, Osman'ın halifeliği döneminde Taberistan'a yapılan ilk Müslüman işgaliydi. {kaynak: Kamil ibn el-Ashir, s. 484}"
+  id: "Saeed bin Al-Aas menginvasi Tabaristan pada tahun tiga puluh, dan itu adalah invasi Muslim pertama ke Tabaristan selama kekhalifahan Utsman {cite:kamil-ibn-al-athir p. 484}."
 wings: [time]
 relations:
   - { type: occurred_at, target: place/tabaristan, sources: [source/kamil-ibn-al-athir] }

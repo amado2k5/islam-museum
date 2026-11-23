@@ -3,10 +3,12 @@ class: passage
 unit: hadith
 work: work/sahih-muslim
 ref: "2355"
-label: { ar: "مسلم 2355 — إن لي أسماء: محمد وأحمد والماحي والحاشر والعاقب", en: "Muslim 2355 — I have names: Muhammad, Ahmad, al-Mahi, al-Hashir, al-Aqib", es: "Muslim 2355 - Tengo nombres: Muhammad, Ahmad, al-Mahi, al-Hashir, al-Aqib", fr: "Muslim 2355 — J'ai des noms: Muhammad, Ahmad, al-Mahi, al-Hashir, al-Aqib", ur: "مسلم 2355 — میرے نام ہیں: محمد، احمد، المحی، الحشر، العقب" }
+label: { ar: "مسلم 2355 — إن لي أسماء: محمد وأحمد والماحي والحاشر والعاقب", en: "Muslim 2355 — I have names: Muhammad, Ahmad, al-Mahi, al-Hashir, al-Aqib", es: "Muslim 2355 - Tengo nombres: Muhammad, Ahmad, al-Mahi, al-Hashir, al-Aqib", fr: "Muslim 2355 — J'ai des noms: Muhammad, Ahmad, al-Mahi, al-Hashir, al-Aqib", ur: "مسلم 2355 — میرے نام ہیں: محمد، احمد، المحی، الحشر، العقب", tr: "Muslim 2355 — İsimlerim var: Muhammed, Ahmed, Al-Mahi, Al-Hashir ve Al-Aqib", id: "Muslim 2355 — Saya punya nama: Muhammad, Ahmad, Al-Mahi, Al-Hashir, dan Al-Aqib" }
 text: "قال رسول الله: «إن لي أسماء: أنا محمد، وأنا أحمد، وأنا الماحي الذي يمحو الله بي الكفر، وأنا الحاشر الذي يحشر الناس على قدمي، وأنا العاقب الذي ليس بعده نبي»"
 summary:
   ar: "رواية جبير بن مطعم في باب أسماء النبي من كتاب الفضائل بصحيح مسلم؛ خمسة أسماء نبوية تجمع الدعوة والفناء على الكفر والحشر وختم النبوة."
+  tr: "Sahih Müslim'in Faziletler Kitabı'ndaki Peygamberin İsimleri bölümünde Cübeyr ibn Mut'im'in rivayetine göre; daveti, küfrün yok edilmesini, dirilişi ve peygamberliğin sonunu birleştiren beş peygamber ismi."
+  id: "Riwayat Jubayr ibn Mut’im dalam bab tentang nama-nama Nabi dalam Kitab Keutamaan di Sahih Muslim; lima nama kenabian yang menggabungkan seruan dan penghancuran kekafiran, kebangkitan dan penutup kenabian."
 relations:
   - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim] }
   - { type: mentions, target: person/jubayr-ibn-mutim, sources: [source/sahih-muslim] }

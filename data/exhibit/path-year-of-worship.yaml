@@ -7,6 +7,8 @@ label:
   es: "Un año de adoración"
   fr: "Une année de louange"
   ur: "عبادت کا سال"
+  tr: "İbadetin sünneti"
+  id: "Sunnah ibadah"
 summary:
   ar: 'مسار في عبادات المسلم عبر سنته: الصلوات الخمس، والجمعة، ورمضان وقيامه وليلته، والعيدان، والحج والعمرة.'
   en: 'A trail through the Muslim''s year of worship: the five prayers, Friday, Ramadan, the two eids,
@@ -14,6 +16,8 @@ summary:
   es: "Un recorrido por el año de culto musulmán: las cinco oraciones, el viernes, el Ramadán, las dos festividades del Eid, el Hajj y la Umrah."
   fr: "Un parcours à travers l'année de culte musulmane: les cinq prières, le vendredi, le Ramadan, les deux fêtes de l'Aïd, le Hajj et la Omra."
   ur: "مسلمان کی عبادت کے سال کا ایک راستہ: پانچ نمازیں، جمعہ، رمضان، دو عیدیں، حج اور عمرہ۔"
+  tr: "Bir Müslümanın yıl boyunca ibadet yolculuğu: beş vakit namaz, Cuma namazı, Ramazan ve gece namazları, iki bayram, Hac ve Umre."
+  id: "Rukun ibadah seorang Muslim sepanjang tahun: lima shalat wajib, shalat Jumat, Ramadan dan shalat malamnya, dua hari raya Idul Fitri dan Idul Adha, Haji dan Umrah."
 audience:
 - newcomer
 - student
@@ -28,12 +32,16 @@ rooms:
     es: "Las cinco oraciones"
     fr: "Les cinq prières"
     ur: "پانچوں نمازیں۔"
+    tr: "Beş günlük namaz"
+    id: "Lima shalat harian"
   body:
     ar: 'عماد الدين: خمس صلوات في اليوم والليلة.'
     en: 'The pillar: five prayers across day and night.'
     es: "El pilar: cinco oraciones a lo largo del día y de la noche."
     fr: "Le pilier: cinq prières réparties sur le jour et la nuit."
     ur: "ستون: دن اور رات میں پانچ نمازیں۔"
+    tr: "İmadeddin: Günde ve gecede beş vakit namaz."
+    id: "Imad al-Din: Shalat lima kali sehari semalam."
   features:
   - practice/salah
   - practice/wudu
@@ -44,12 +52,16 @@ rooms:
     es: "Viernes"
     fr: "Vendredi"
     ur: "جمعہ"
+    tr: "Cuma"
+    id: "Jumat"
   body:
     ar: خطبة وصلاة جامعة كل أسبوع.
     en: Sermon and congregational prayer each week.
     es: "Sermón y oración congregacional cada semana."
     fr: "Prédication et prière en assemblée chaque semaine."
     ur: "ہر ہفتے خطبہ اور باجماعت نماز۔"
+    tr: "Her hafta vaaz ve cemaat duası."
+    id: "Khotbah dan doa jemaat setiap minggu."
   features:
   - practice/salat-al-jumua
   - practice/khutba
@@ -59,12 +71,16 @@ rooms:
     es: "Ramadán"
     fr: "Ramadan"
     ur: "رمضان"
+    tr: "Ramazan"
+    id: "Ramadan"
   body:
     ar: شهر الصوم والقرآن والقيام.
     en: The month of fasting, Qur'an and night prayer.
     es: "El mes del ayuno, el Corán y la oración nocturna."
     fr: "Le mois du jeûne, du Coran et des prières nocturnes."
     ur: "روزے، قرآن اور رات کی نماز کا مہینہ۔"
+    tr: "Oruç tutma, Kur'an okuma ve dua etme ayı."
+    id: "Bulan puasa, membaca Al-Quran, dan berdoa."
   features:
   - practice/sawm-ramadan
   - practice/suhur
@@ -76,12 +92,16 @@ rooms:
     es: "Laylat al-Qadr"
     fr: "Laylat al-Qadr"
     ur: "لیلۃ القدر"
+    tr: "Laylat al-Qadr"
+    id: "Laylat al-Qadr"
   body:
     ar: ليلة خير من ألف شهر في العشر الأواخر.
     en: A night better than a thousand months.
     es: "Una noche mejor que mil meses."
     fr: "Une nuit meilleure que mille mois."
     ur: "ہزار مہینوں سے بہتر رات۔"
+    tr: "Son on günde bin aydan daha güzel bir gece yaşadık."
+    id: "Malam yang lebih baik daripada seribu bulan dalam sepuluh hari terakhir."
   features:
   - practice/laylat-al-qadr
   - practice/itikaf
@@ -91,12 +111,16 @@ rooms:
     es: "Los dos eids"
     fr: "Les deux fêtes"
     ur: "دو عیدیں۔۔۔"
+    tr: "Çubuklar"
+    id: "Tongkat-tongkat itu"
   body:
     ar: 'عيد الفطر وعيد الأضحى: صلاة وصدقة وفرح.'
     en: 'Fitr and Adha: prayer, alms and joy.'
     es: "Fitr y Adha: oración, limosna y alegría."
     fr: "Fitr et Adha: prière, aumône et joie."
     ur: "فطر اور عید: دعا، خیرات اور خوشی۔"
+    tr: "Ramazan Bayramı ve Kurban Bayramı: Dua, sadaka ve sevinç."
+    id: "Idul Fitri dan Idul Adha: Doa, sedekah, dan kegembiraan."
   features:
   - practice/eid-al-fitr
   - practice/eid-al-adha
@@ -107,12 +131,16 @@ rooms:
     es: "Hajj"
     fr: "Hajj"
     ur: "حج"
+    tr: "Hac"
+    id: "Haji"
   body:
     ar: ركن الإسلام الخامس لمن استطاع إليه سبيلاً.
     en: The fifth pillar for whoever can make the way.
     es: "El quinto pilar para quien pueda abrirse paso."
     fr: "Le cinquième pilier pour celui qui peut ouvrir la voie."
     ur: "جو بھی راستہ بنا سکتا ہے اس کے لیے پانچواں ستون۔"
+    tr: "İslam'ın beşinci şartı, bunu yerine getirebilecek olanlar içindir."
+    id: "Rukun Islam kelima bagi mereka yang mampu melaksanakannya."
   features:
   - practice/hajj
   - practice/tawaf
@@ -124,12 +152,16 @@ rooms:
     es: "Umrah"
     fr: "Omra"
     ur: "عمرہ"
+    tr: "Umre"
+    id: "Umrah"
   body:
     ar: الحج الأصغر في كل وقت.
     en: The lesser pilgrimage at any time.
     es: "La peregrinación menor en cualquier época."
     fr: "Le petit pèlerinage à tout moment."
     ur: "کسی بھی وقت کم حج۔"
+    tr: "Her zaman yapılan küçük hac yolculuğu."
+    id: "Ziarah kecil sepanjang masa."
   features:
   - practice/umrah
 prerequisites:

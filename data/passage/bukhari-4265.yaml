@@ -3,10 +3,12 @@ class: passage
 unit: hadith
 work: work/sahih-al-bukhari
 ref: "4265"
-label: { ar: "البخاري 4265 — تسعة أسياف انقطعت بمؤتة", en: "Bukhari 4265 — Nine swords broke at Mu'ta", es: "Bujari 4265: Nueve espadas se rompieron en Mu'ta", fr: "Boukhari 4265 — Neuf épées se sont brisées à Mu'ta", ur: "بخاری 4265 - موطا پر نو تلواریں ٹوٹ گئیں۔" }
+label: { ar: "البخاري 4265 — تسعة أسياف انقطعت بمؤتة", en: "Bukhari 4265 — Nine swords broke at Mu'ta", es: "Bujari 4265: Nueve espadas se rompieron en Mu'ta", fr: "Boukhari 4265 — Neuf épées se sont brisées à Mu'ta", ur: "بخاری 4265 - موطا پر نو تلواریں ٹوٹ گئیں۔", tr: "El-Buhari 4265 — Mu'tah'ta dokuz kılıç kırıldı", id: "Al-Bukhari 4265 — Sembilan pedang patah di Mu'tah" }
 text: "سمعت خالد بن الوليد يقول: لقد انقطعت في يدي يوم مؤتة تسعة أسياف، فما بقي في يدي إلا صفيحة يمانية"
 summary:
   ar: "في كتاب المغازي باب غزوة مؤتة من أرض الشام؛ شهادة خالد بن الوليد على نفسه بعد أن أخذ الراية إثر استشهاد القادة الثلاثة، تدل على شدة المعركة حين قاد الانسحاب المنظم بالجيش."
+  tr: "Maghazi kitabında, Şam topraklarındaki Mu'tah Muharebesi bölümünde, Halid bin el-Velid'in üç liderin şehit edilmesinin ardından sancağı devraldıktan sonra kendi hakkındaki tanıklığı, ordunun organize bir şekilde geri çekilmesine önderlik ettiği sırada savaşın şiddetini göstermektedir."
+  id: "Dalam kitab Maghazi, pada bab tentang Perang Mu'tah di tanah Syam, kesaksian Khalid bin Al-Walid tentang dirinya sendiri setelah ia mengambil panji setelah kesyahidan tiga pemimpin menunjukkan intensitas pertempuran ketika ia memimpin penarikan mundur pasukan secara terorganisir."
 relations:
   - { type: part_of, target: passage/bukhari-kitab-64 }
   - { type: mentions, target: person/khalid-ibn-al-walid, sources: [source/sahih-al-bukhari] }

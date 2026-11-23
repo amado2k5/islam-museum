@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/sahih-al-bukhari
 ref: "1341"
-label: { ar: "صحيح البخاري 1341 — دفن وقبر ومرقد", en: "Sahih al-Bukhari 1341 — a burial, grave or resting place", ur: "صحیح بخاری 1341 — تدفین، قبر اور مرقد", es: "Sahih al-Bukhari 1341 — un entierro, tumba o lugar de descanso", fr: "Sahih al-Bukhari 1341 — un lieu de sépulture, une tombe ou un lieu de repos" }
+label: { ar: "صحيح البخاري 1341 — دفن وقبر ومرقد", en: "Sahih al-Bukhari 1341 — a burial, grave or resting place", ur: "صحیح بخاری 1341 — تدفین، قبر اور مرقد", es: "Sahih al-Bukhari 1341 — un entierro, tumba o lugar de descanso", fr: "Sahih al-Bukhari 1341 — un lieu de sépulture, une tombe ou un lieu de repos", tr: "Sahih el-Buhari 1341 — Defin, mezar ve istirahat yeri", id: "Sahih al-Bukhari 1341 — Pemakaman, kuburan, dan tempat peristirahatan" }
 text: "… عَائِشَةَا ـ قَالَتْ لَمَّا اشْتَكَى النَّبِيُّ ذَكَرَتْ بَعْضُ نِسَائِهِ كَنِيسَةً رَأَيْنَهَا بِأَرْضِ الْحَبَشَةِ، يُقَالُ لَهَا مَارِيَةُ، وَكَانَتْ أُمُّ سَلَمَةَ وَأُمُّ حَبِيبَةَما ـ أَتَتَا أَرْضَ الْحَبَشَةِ، فَذَكَرَتَا مِنْ حُسْنِهَا وَتَصَاوِيرَ فِيهَا، فَرَفَعَ رَأْسَهُ فَقَالَ \" أُولَئِكَ إِذَا مَاتَ مِنْهُمُ الرَّجُلُ الصَّالِحُ بَنَوْا عَلَى قَبْرِهِ مَسْجِدًا، ثُمَّ صَوَّرُوا فِيهِ تِلْكَ الصُّورَةَ، أُولَئِكَ شِرَارُ الْخَلْقِ عِنْدَ اللَّهِ \"."
 summary:
   ar: "حديث في صحيح البخاري، رقم 1341، يذكر دفن وقبر ومرقد. يجمعه متصفح الوصايا والمواريث والآثار والمراقد مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
@@ -11,6 +11,8 @@ summary:
   ur: "صحیح بخاری کی حدیث نمبر 1341، جس میں تدفین، قبر اور مرقد کا ذکر ہے۔ وصایا، ترکہ، آثار اور مراقد کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un relato en Sahih al-Bukhari, n.° 1341 (Funerales (Al-Janaa'iz)), menciona un entierro, tumba o lugar de descanso. El Navegador de Testamentos lo incluye en su lista junto con los textos del Corán, la Sunnah, la sirah y los libros sobre testamentos, últimas horas, herencias, reliquias y tumbas."
   fr: "Un hadith du Sahih al-Bukhari, n° 1341 (Funérailles (Al-Janaa'iz)), mentionne un lieu de sépulture, une tombe ou un lieu de repos. Le navigateur de textes sacrés le répertorie avec les textes du Coran, de la Sunna, de la Sîra et les ouvrages traitant des testaments, de la mort, des biens, des reliques et des tombes."
+  tr: "Sahih el-Buhari'nin 1341 numaralı hadisinde defin, mezar ve türbeden bahsedilir. Bu hadis, vasiyetnameler, miras, eski eserler ve türbeler üzerine araştırmalar yapan bir uzman tarafından, Kur'an, Sünnet, biyografi ve bu konuyla ilgili diğer kitaplardan derlenmiştir."
+  id: "Sebuah hadits dalam Sahih al-Bukhari, nomor 1341, menyebutkan tentang penguburan, kuburan, dan makam. Hadits ini disusun oleh peneliti wasiat, warisan, barang antik, dan makam, bersama dengan teks-teks dari Al-Quran, Sunnah, biografi, dan buku-buku lain tentang topik ini."
 relations:
   - { type: mentions, target: concept/ziyarat-al-qubur, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 1341 (book 23 hadith 96); matn excerpt of at most 55 words chosen by the testaments detector (scripts/wasaya.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-hadithapi-1" }

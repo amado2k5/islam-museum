@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/sahih-al-bukhari
 ref: "4642"
-label: { ar: "صحيح البخاري 4642 — القراء", en: "Sahih al-Bukhari 4642 — the readers", ur: "صحیح بخاری 4642 — قراء", es: "Sahih al-Bukhari 4642 — los lectores", fr: "Sahih al-Bukhari 4642 — les lecteurs" }
+label: { ar: "صحيح البخاري 4642 — القراء", en: "Sahih al-Bukhari 4642 — the readers", ur: "صحیح بخاری 4642 — قراء", es: "Sahih al-Bukhari 4642 — los lectores", fr: "Sahih al-Bukhari 4642 — les lecteurs", tr: "Sahih el-Buhari 4642 — Okuyucular", id: "Sahih al-Bukhari 4642 — Pembaca" }
 text: "… عُيَيْنَةُ بْنُ حِصْنِ بْنِ حُذَيْفَةَ فَنَزَلَ عَلَى ابْنِ أَخِيهِ الْحُرِّ بْنِ قَيْسٍ، وَكَانَ مِنَ النَّفَرِ الَّذِينَ يُدْنِيهِمْ عُمَرُ، وَكَانَ الْقُرَّاءُ أَصْحَابَ مَجَالِسِ عُمَرَ وَمُشَاوَرَتِهِ كُهُولاً كَانُوا أَوْ شُبَّانًا. فَقَالَ عُيَيْنَةُ لاِبْنِ أَخِيهِ يَا ابْنَ أَخِي، لَكَ وَجْهٌ عِنْدَ هَذَا الأَمِيرِ فَاسْتَأْذِنْ لِي عَلَيْهِ. قَالَ سَأَسْتَأْذِنُ لَكَ عَلَيْهِ. قَالَ ابْنُ عَبَّاسٍ فَاسْتَأْذَنَ الْحُرُّ لِعُيَيْنَةَ فَأَذِنَ لَهُ …"
 summary:
   ar: "حديث في صحيح البخاري، رقم 4642، يذكر القراء. يجمعه متصفح قراءات القرآن والرسم والخطوط والضبط مع نصوص القرآن والسنة والسيرة والكتب في قراءات القرآن وكتابته."
@@ -11,6 +11,8 @@ summary:
   ur: "صحیح بخاری کی حدیث نمبر 4642، جس میں قراء کا ذکر ہے۔ قراءات، رسم، خطوط اور نقطوں کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un informe en Sahih al-Bukhari, n.° 4642 (Comentario profético sobre el Corán (Tafsir del Profeta (pbuh))), menciona a los lectores. El navegador del museo sobre cómo se leía y escribía el Corán lo enumera junto con los textos del Corán, la Sunnah, la sirah y los libros sobre el tema."
   fr: "Un hadith du Sahih al-Bukhari, n° 4642 (Commentaire prophétique du Coran (Tafsir du Prophète)), mentionne les lecteurs. Le catalogue du musée consacré à la lecture et à la transcription du Coran répertorie ce hadith avec les textes du Coran, la Sunna, la Sîra et les ouvrages traitant de ce sujet."
+  tr: "Sahih el-Buhari'de 4642 numaralı hadis, Kur'an okuyucularından bahsetmektedir. Bu hadis, Kur'an okunuşları, yazısı, hat sanatı ve diyakritik işaretleri konusunda uzmanlaşmış bir araştırmacı tarafından, Kur'an, Sünnet, biyografi ve Kur'an okunuşu ve yazımı üzerine yazılmış kitaplardan derlenmiştir."
+  id: "Sebuah hadits dalam Sahih al-Bukhari, nomor 4642, menyebutkan para pembaca Al-Quran. Hadits ini disusun oleh seorang peneliti yang ahli dalam bacaan Al-Quran, tulisan, kaligrafi, dan tanda diakritik, bersama dengan teks-teks dari Al-Quran, Sunnah, biografi, dan buku-buku tentang bacaan dan penulisan Al-Quran."
 relations:
   - { type: mentions, target: concept/qiraat, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 4642 (book 65 hadith 164); matn excerpt of at most 55 words chosen by the qira'at detector (scripts/qiraat.ts), honorific formulas left out", generated_by: "Claude (claude-sonnet-5-5)", model: "claude-sonnet-5-5", run: "qiraat-hadithapi-1" }

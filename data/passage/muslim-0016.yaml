@@ -3,10 +3,12 @@ class: passage
 unit: hadith
 work: work/sahih-muslim
 ref: "16"
-label: { ar: "مسلم 16 — بني الإسلام على خمس", en: "Muslim 16 — Islam is built on five", es: "Musulmán 16 — El Islam se basa en cinco", fr: "Musulman 16 — L'islam est fondé sur cinq", ur: "مسلم 16 - اسلام کی بنیاد پانچ پر ہے۔" }
+label: { ar: "مسلم 16 — بني الإسلام على خمس", en: "Muslim 16 — Islam is built on five", es: "Musulmán 16 — El Islam se basa en cinco", fr: "Musulman 16 — L'islam est fondé sur cinq", ur: "مسلم 16 - اسلام کی بنیاد پانچ پر ہے۔", tr: "Müslüman 16 — İslam beş temel üzerine kuruludur.", id: "Muslim 16 — Islam dibangun di atas lima" }
 text: "قال رسول الله: «بني الإسلام على خمس: شهادة أن لا إله إلا الله وأن محمدا رسول الله، وإقام الصلاة، وإيتاء الزكاة، والحج، وصوم رمضان»"
 summary:
   ar: "حديث ابن عمر المشهور في باب «بني الإسلام على خمس» من كتاب الإيمان؛ الوصية التأسيسية التي جعلت الشهادة والصلاة والزكاة والحج والصيام دعائم الدين الخمس. وفي رواية مسلم الأخرى تقديم «على أن يعبد الله ويكفر بما دونه»."
+  tr: "İbn Ömer'in, İman Kitabı'ndaki \"İslam beş temel üzerine kuruludur\" bölümünde yer alan meşhur hadisi; iman, namaz, zekât, hac ve orucu dinin beş şartı olarak belirleyen temel kitaptır. Müslim'in başka bir rivayetinde ise \"Allah'a ibadet ve O'ndan başka her şeyden sakınma\"nın da eklendiği belirtilmiştir."
+  id: "Hadits terkenal Ibnu Umar dalam surah \"Islam dibangun di atas lima rukun\" dari Kitab Iman; wasiat mendasar yang menetapkan pengakuan iman, salat, zakat, haji, dan puasa sebagai lima rukun agama. Dalam riwayat Muslim lainnya, disebutkan bahwa \"di atas ibadah kepada Allah dan menolak segala sesuatu selain Dia\" ditambahkan."
 relations:
   - { type: mentions, target: concept/mal-fiqh, sources: [source/sahih-muslim] }
   - { type: mentions, target: person/abdullah-ibn-umar, sources: [source/sahih-muslim] }

@@ -7,6 +7,8 @@ label:
   es: "La Kaaba"
   fr: "La Kaaba"
   ur: "کعبہ"
+  tr: "Kabe"
+  id: "Ka'bah"
 summary:
   ar: 'مسار في البيت الحرام: إبراهيم يرفع القواعد، وقريش تعمرها، والنبي يطوف بها فاتحًا — قبلتنا الأولى
     والأخيرة.'
@@ -14,6 +16,8 @@ summary:
   es: "Un sendero a través de la Casa Sagrada."
   fr: "Un sentier à travers la Maison Sacrée."
   ur: "مقدس گھر کے ذریعے ایک پگڈنڈی."
+  tr: "Kutsal Ev'de bir yol: İbrahim temelleri atar, Kureyş onu yeniden inşa eder ve Peygamber bir fatih olarak tavaf eder - ilk ve son kıblemiz."
+  id: "Sebuah jalan di Rumah Suci: Ibrahim meletakkan fondasinya, kaum Quraisy membangunnya kembali, dan Nabi mengelilinginya sebagai penakluk — kiblat pertama dan terakhir kita."
 audience:
 - newcomer
 - student
@@ -28,12 +32,16 @@ rooms:
     es: "El edificio"
     fr: "Le bâtiment"
     ur: "عمارت"
+    tr: "Yapı"
+    id: "Konstruksi"
   body:
     ar: إبراهيم وإسماعيل يرفعان القواعد.
     en: إبراهيم وإسماعيل يرفعان القواعد.
     es: "Abraham e Ismael levantan los cimientos."
     fr: "Abraham et Ismaël posent les fondations."
     ur: "ابراہیم اور اسماعیل نے بنیادیں بلند کیں۔"
+    tr: "İbrahim ve İsmail temelleri atıyorlar."
+    id: "Abraham dan Ismael meletakkan fondasinya."
   features:
   - building/kaaba
   - passage/quran-2-127
@@ -43,12 +51,16 @@ rooms:
     es: "Quraysh"
     fr: "Quraysh"
     ur: "قریش"
+    tr: "Kureyş"
+    id: "Quraysh"
   body:
     ar: 'بناء قريش والحجر: القرآن يقص.'
     en: 'بناء قريش والحجر: القرآن يقص.'
     es: "La construcción de Quraysh y Al-Hijr: El Corán narra la historia."
     fr: "La construction de Quraysh et d'Al-Hijr: le Coran raconte cette histoire."
     ur: "قریش اور الحجر کی عمارت: قرآن کہانی بیان کرتا ہے۔"
+    tr: "Kureyş ve Hicr şehirlerinin kuruluşu: Kur'an bu hikâyeyi anlatıyor."
+    id: "Pembangunan peradaban Quraisy dan Hijriah: Al-Qur'an menceritakan kisahnya."
   features:
   - building/kaaba
   - place/mecca
@@ -58,12 +70,16 @@ rooms:
     es: "La conquista"
     fr: "La conquête"
     ur: "فتح"
+    tr: "El-Fath"
+    id: "Al-Fath"
   body:
     ar: 'النبي يطهر البيت: ثلاثمائة وستون صنمًا.'
     en: 'النبي يطهر البيت: ثلاثمائة وستون صنمًا.'
     es: "El Profeta purifica la casa: trescientos sesenta ídolos."
     fr: "Le Prophète purifie la maison: trois cent soixante idoles."
     ur: "نبی گھر کو پاک کرتے ہیں: تین سو ساٹھ بت۔"
+    tr: "Peygamber, evi üç yüz altmış puttan arındırır."
+    id: "Nabi menyucikan rumah itu: tiga ratus enam puluh berhala."
   features:
   - event/conquest-of-mecca
   - building/kaaba
@@ -73,12 +89,16 @@ rooms:
     es: "Tawaf"
     fr: "Tawaf"
     ur: "طواف"
+    tr: "Çevresel yürüyüş"
+    id: "Berkeliling"
   body:
     ar: 'سبعة أشواط: شعيرة الحج الكبرى.'
     en: 'سبعة أشواط: شعيرة الحج الكبرى.'
     es: "Siete circuitos: El ritual principal del Hajj."
     fr: "Les sept circuits: le rituel majeur du Hajj."
     ur: "سات چکر: حج کی بڑی مناسک۔"
+    tr: "Yedi devrik: Hac ibadetinin en önemli ritüeli."
+    id: "Tujuh putaran: Ritual utama ibadah haji."
   features:
   - practice/hajj
   - building/masjid-al-haram
@@ -88,12 +108,16 @@ rooms:
     es: "Hoy"
     fr: "Aujourd'hui"
     ur: "آج"
+    tr: "Bugün"
+    id: "Hari ini"
   body:
     ar: 'الحرم يكبر: مئات التوسعات.'
     en: 'الحرم يكبر: مئات التوسعات.'
     es: "El Haram está creciendo: cientos de expansiones."
     fr: "Le Haram s'étend: des centaines d'extensions."
     ur: "حرم بڑھ رہا ہے: سینکڑوں توسیع۔"
+    tr: "Haram büyüyor: yüzlerce şubesi açıldı."
+    id: "Haram semakin berkembang: ratusan perluasan."
   features:
   - building/masjid-al-haram
   - place/mecca

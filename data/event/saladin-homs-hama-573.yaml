@@ -1,7 +1,7 @@
 id: event/saladin-homs-hama-573
 class: event
 kind: conquest
-label: { ar: "ملك صلاح الدين حمص وحماة", en: "Saladin takes Homs and Hama", es: "Saladino toma Homs y Hama", fr: "Saladin prend Homs et Hama", ur: "صلاح الدین حمص اور حما کو لے گیا۔" }
+label: { ar: "ملك صلاح الدين حمص وحماة", en: "Saladin takes Homs and Hama", es: "Saladino toma Homs y Hama", fr: "Saladin prend Homs et Hama", ur: "صلاح الدین حمص اور حما کو لے گیا۔", tr: "Selahaddin, Homs ve Hama'yı yönetti.", id: "Saladin memerintah Homs dan Hama." }
 date:
   start: { edtf: "1177~", hijri: "0573", calendar: julian, precision: year, status: tradition, derived: true }
 summary:
@@ -10,6 +10,8 @@ summary:
   es: "Saladino tomó Homs y Hama; los habitantes de Hama resistieron un día, luego la ciudad cayó; les dio amān mientras la ciudadela aún resistía {cite:kamil-ibn-al-athir p. 64-65}."
   fr: "Saladin prit Homs et Hama — les habitants de Hama résistèrent un jour, puis la ville tomba; il leur donna amān alors que la citadelle tenait encore {cite:kamil-ibn-al-athir p. 64-65}."
   ur: "صلاح الدین نے حمص اور حما پر قبضہ کر لیا - حما کے لوگوں نے ایک دن مزاحمت کی، پھر شہر گر گیا۔ اس نے انہیں امان دیا جبکہ قلعہ ابھی تک موجود تھا {حوالہ: کامل ابن الاثیر ص۔ 64-65}۔"
+  tr: "Selahaddin, Homs ve Hama şehirlerinin kontrolünü ele geçirdi. Hama'ya gelince, halkı teslim olmayı reddettikten sonra şehre girdi, ertesi gün onlarla savaştı ve şehri ele geçirerek halkına güvenlik sağladı, ancak kale ona teslim olmayı reddetti. {Kaynak: Kamil İbn el-Athir, s. 64-65}"
+  id: "Saladin menguasai kota Homs dan Hama. Adapun Hama, ia memasukinya setelah penduduknya menolak untuk menyerah, sehingga ia memerangi mereka keesokan harinya dan menguasai kota serta memberikan keamanan kepada penduduknya, tetapi benteng itu menolak untuk menyerah kepadanya. {cite:kamil-ibn-al-athir hlm. 64-65}."
 wings: [time]
 relations:
   - { type: occurred_at, target: place/homs, sources: [source/kamil-ibn-al-athir] }

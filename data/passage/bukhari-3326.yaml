@@ -3,10 +3,12 @@ class: passage
 unit: hadith
 work: work/sahih-al-bukhari
 ref: "3326"
-label: { ar: "البخاري 3326 — خلق آدم", en: "Bukhari 3326 — the creation of Adam", es: "Bukhari 3326 — la creación de Adán", fr: "Bukhari 3326 — la création d'Adam", ur: "بخاری 3326 - تخلیق آدم" }
+label: { ar: "البخاري 3326 — خلق آدم", en: "Bukhari 3326 — the creation of Adam", es: "Bukhari 3326 — la creación de Adán", fr: "Bukhari 3326 — la création d'Adam", ur: "بخاری 3326 - تخلیق آدم", tr: "Buhari 3326 — Âdem'in Yaratılışı", id: "Bukhari 3326 — Penciptaan Adam" }
 text: "خلق الله آدم وطوله ستون ذراعاً، ثم قال: اذهب فسلم على أولئك من الملائكة فاستمع ما يحيونك، تحيتك وتحية ذريتك، فقال: السلام عليكم، فقالوا: السلام عليك ورحمة الله، فزادوه ورحمة الله"
 summary:
   ar: "في كتاب بدء الخلق باب خلق آدم وذريته؛ تأسيس تحية الإسلام في قالب الخلقة الأولى، وقاعدة أن الداخل الجنة يكون على صورة آدم — نص آدم في الصحيح."
+  tr: "\"Yaratılışın Başlangıcı\" adlı kitapta, Âdem ve soyunun yaratılışına dair bölümde; ilk yaratılış biçiminde İslam'ın selamının tesis edilmesi ve cennete girecek herkesin Âdem suretinde olacağı kuralı - Sahih'teki Âdem metni - yer almaktadır."
+  id: "Dalam kitab \"Permulaan Penciptaan,\" bab tentang penciptaan Adam dan keturunannya; penetapan salam Islam dalam bentuk ciptaan pertama, dan aturan bahwa siapa pun yang masuk Surga akan menyerupai Adam — teks Adam dalam Sahih."
 relations:
   - { type: part_of, target: passage/bukhari-kitab-60 }
   - { type: mentions, target: person/adam, sources: [source/sahih-al-bukhari] }

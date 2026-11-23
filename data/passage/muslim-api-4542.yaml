@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/sahih-muslim
 ref: "4542"
-label: { ar: "صحيح مسلم — حديث 4542", en: "Sahih Muslim 4542 — The Book of Jihad and Expeditions", ur: "صحیح مسلم — حدیث 4542", es: "Sahih Muslim 4542 — El Libro de la Yihad y las Expediciones", fr: "Sahih Muslim 4542 — Le Livre du Jihad et des Expéditions" }
+label: { ar: "صحيح مسلم — حديث 4542", en: "Sahih Muslim 4542 — The Book of Jihad and Expeditions", ur: "صحیح مسلم — حدیث 4542", es: "Sahih Muslim 4542 — El Libro de la Yihad y las Expediciones", fr: "Sahih Muslim 4542 — Le Livre du Jihad et des Expéditions", tr: "Sahih Müslim — Hadis 4542", id: "Sahih Muslim — Hadits 4542" }
 text: "وَحَدَّثَنِي مُحَمَّدُ بْنُ رَافِعٍ، حَدَّثَنَا عَبْدُ الرَّزَّاقِ، أَخْبَرَنَا ابْنُ جُرَيْجٍ، أَخْبَرَنِي مُوسَى، بْنُ عُقْبَةَ عَنْ أَبِي النَّضْرِ، عَنْ كِتَابِ، رَجُلٍ مِنْ أَسْلَمَ مِنْ أَصْحَابِ النَّبِيِّ صلى الله عليه وسلم يُقَالُ لَهُ عَبْدُ اللَّهِ بْنُ أَبِي أَوْفَى فَكَتَبَ إِلَى عُمَرَ بْنِ عُبَيْدِ اللَّهِ حِينَ سَارَ إِلَى الْحَرُورِيَّةِ يُخْبِرُهُ أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم كَانَ فِي بَعْضِ أَيَّامِهِ الَّتِي لَقِي …"
 summary:
   ar: "في صحيح مسلم؛ إرسال كتاب أو رسالة إلى طرف."
@@ -11,6 +11,8 @@ summary:
   ur: "صحیح مسلم میں؛ کسی فریق کو خط یا پیغام بھیجنا."
   es: "En Sahih Muslim; enviar una carta o mensaje a un partido."
   fr: "Dans Sahih Muslim; l'envoi d'une lettre ou d'un message à une personne."
+  tr: "Sahih Müslim'de; bir tarafa kitap veya mektup göndermek."
+  id: "Dalam Sahih Muslim; mengirim buku atau surat kepada suatu pihak."
 relations:
   - { type: part_of, target: passage/muslim-kitab-32 }
   - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }

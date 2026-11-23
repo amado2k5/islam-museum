@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/sahih-al-bukhari
 ref: "2182"
-label: { ar: "صحيح البخاري 2182 — الأب والأبوة", en: "Sahih al-Bukhari 2182 — the father and fatherhood", ur: "صحیح بخاری 2182 — باپ اور والدیت", es: "Sahih al-Bukhari 2182 — El padre y la paternidad", fr: "Sahih al-Bukhari 2182 — le père et la paternité" }
+label: { ar: "صحيح البخاري 2182 — الأب والأبوة", en: "Sahih al-Bukhari 2182 — the father and fatherhood", ur: "صحیح بخاری 2182 — باپ اور والدیت", es: "Sahih al-Bukhari 2182 — El padre y la paternidad", fr: "Sahih al-Bukhari 2182 — le père et la paternité", tr: "Sahih el-Buhari 2182 — Baba ve Babalık", id: "Sahih al-Bukhari 2182 — Ayah dan Peran Ayah" }
 text: "حَدَّثَنَا عِمْرَانُ بْنُ مَيْسَرَةَ، حَدَّثَنَا عَبَّادُ بْنُ الْعَوَّامِ، أَخْبَرَنَا يَحْيَى بْنُ أَبِي إِسْحَاقَ، حَدَّثَنَا عَبْدُ الرَّحْمَنِ بْنُ أَبِي بَكْرَةَ، عَنْ أَبِيهِ ـ قَالَ نَهَى النَّبِيُّ عَنِ الْفِضَّةِ بِالْفِضَّةِ وَالذَّهَبِ بِالذَّهَبِ، إِلاَّ سَوَاءً بِسَوَاءٍ، وَأَمَرَنَا أَنْ نَبْتَاعَ الذَّهَبَ بِالْفِضَّةِ كَيْفَ شِئْنَا، وَالْفِضَّةَ بِالذَّهَبِ كَيْفَ شِئْنَا."
 summary:
   ar: "حديث في صحيح البخاري، رقم 2182، يذكر الأب والأبوة. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
@@ -11,6 +11,8 @@ summary:
   ur: "صحیح بخاری کی حدیث نمبر 2182، جس میں باپ اور والدیت کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un relato en Sahih al-Bukhari, n.° 2182 (Ventas y Comercio), menciona al padre y la paternidad. El navegador \"La paternidad en el Islam\" lo incluye junto con los textos del Corán, la Sunnah, la sirah y los libros sobre el padre."
   fr: "Un hadith du Sahih al-Bukhari, n° 2182 (Commerce et Ventes), mentionne le père et la paternité. Le site « Paternité en Islam » répertorie ce hadith avec les versets du Coran, de la Sunna, de la Sîra et les ouvrages traitant de la paternité."
+  tr: "Sahih el-Buhari'de 2182 numaralı hadis, baba ve babalık kavramından bahsetmektedir. \"İslam'da Babalık\" tarayıcısı, bu konuyu Kur'an, Sünnet, biyografi ve diğer kitaplardan derlemektedir."
+  id: "Sebuah hadits dalam Sahih al-Bukhari, nomor 2182, menyebutkan tentang ayah dan peran ayah. Situs web \"Peran Ayah dalam Islam\" mengumpulkan hadits tersebut dengan teks-teks dari Al-Quran, Sunnah, biografi, dan buku-buku lain tentang topik ini."
 relations:
   - { type: mentions, target: concept/ubuwwa, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 2182 (book 34 hadith 130); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }

@@ -3,10 +3,12 @@ class: passage
 unit: hadith
 work: work/sahih-muslim
 ref: "2449"
-label: { ar: "مسلم 2449 — إنما فاطمة بضعة مني", en: "Muslim 2449 — Fatima is a part of me", es: "Musulmán 2449 — Fátima es parte de mí", fr: "Muslim 2449 — Fatima fait partie de moi", ur: "مسلم 2449 - فاطمہ میرا حصہ ہے۔" }
+label: { ar: "مسلم 2449 — إنما فاطمة بضعة مني", en: "Muslim 2449 — Fatima is a part of me", es: "Musulmán 2449 — Fátima es parte de mí", fr: "Muslim 2449 — Fatima fait partie de moi", ur: "مسلم 2449 - فاطمہ میرا حصہ ہے۔", tr: "Müslim 2449 — Fatıma benim bir parçamdır", id: "Muslim 2449 — Fatima adalah bagian dari diriku" }
 text: "قال رسول الله: «إنما ابنتي بضعة مني، يُريني ما رابها ويؤذيني ما آذاها»، وفي رواية: «إنما فاطمة بضعة مني يؤذيني ما آذاها»"
 summary:
   ar: "رواية المسور بن مخرمة في باب فضائل فاطمة من صحيح مسلم؛ حديث البضعة — النبي يجعل أذى فاطمة أذاه — من أعمدة نصوص منزلتها عند أهل السنة."
+  tr: "Sahih Müslim'de Fatıma'nın faziletleri bölümünde yer alan El-Miswar bin Makhrama'nın rivayeti; Peygamberin Fatıma'ya zarar vermeyi kendisine zarar vermek olarak nitelendirmesi, Sünniler arasında Fatıma'nın statüsüne ilişkin metinlerin dayanaklarından biridir."
+  id: "Riwayat Al-Miswar bin Makhrama dalam bab tentang keutamaan Fatimah dalam Sahih Muslim; hadits tentang putrinya — Nabi menjadikan menyakiti Fatimah sama dengan menyakiti dirinya sendiri — adalah salah satu pilar teks tentang kedudukannya di kalangan Sunni."
 relations:
   - { type: part_of, target: passage/muslim-kitab-44 }
   - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim] }

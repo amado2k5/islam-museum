@@ -1,7 +1,7 @@
 id: event/abu-dharr-exile
 class: event
 kind: persecution
-label: { ar: "إشخاص أبي ذر إلى الربذة", en: "Abu Dharr's banishment to al-Rabdha (30 AH)", fr: "Bannissement d’Abu Dharr à al-Rabdha (30 de l’hégire)", es: "Destierro de Abu Dharr a al-Rabdha (30 AH)", ur: "ابوذر کی جلاوطنی ⁦(30ھ)⁩" }
+label: { ar: "إشخاص أبي ذر إلى الربذة", en: "Abu Dharr's banishment to al-Rabdha (30 AH)", fr: "Bannissement d’Abu Dharr à al-Rabdha (30 de l’hégire)", es: "Destierro de Abu Dharr a al-Rabdha (30 AH)", ur: "ابوذر کی جلاوطنی ⁦(30ھ)⁩", tr: "Abu Dharr'ı Al-Rabadha'ya göndermek", id: "Mengirim Abu Dzar ke Al-Rabadha" }
 date:
   start: { edtf: "0650", hijri: "0030", calendar: julian, precision: year, status: tradition, derived: true, note: "سنة 30؛ التحويل مشتق {cite:kamil-ibn-al-athir p. 483}." }
 summary:
@@ -10,6 +10,8 @@ summary:
   fr: "Abu Dharr fut transporté de Syrie à Médine sans siège de selle, puis banni par Uthman de Médine à al-Rabdha — épisode qui fit de son nom un symbole de franchise face au pouvoir {cite:kamil-ibn-al-athir p. 483}."
   es: "Abu Dharr fue llevado de Siria a Medina sin silla de montar, y luego desterrado por Uthman de Medina a al-Rabdha, episodio que convirtió su nombre en sinónimo de decir la verdad al poder {cite:kamil-ibn-al-athir p. 483}."
   ur: "ابو ذر کو شام سے مدینہ لے جایا گیا بغیر کاٹھی کے، پھر عثمان نے مدینہ سے الربضہ کو جلاوطن کر دیا - وہ واقعہ جس نے ان کے نام کو اقتدار کے حق میں سچ بولنے کا لفظ بنا دیا {حوالہ: کامل ابن الاثیر ص۔ 483}۔"
+  tr: "Bu yılda, Ebu Zerr hakkında bahsedilenler vardı; Muaviye'nin onu Suriye'den Medine'ye eyersiz gönderdiği ve Osman'ın onu Medine'den Rebedi'ye, bahsedilen şekilde sürgün ettiği belirtilmişti. {Kaynak: Kamil ibn el-Atir s. 483}"
+  id: "Pada tahun ini, terdapat apa yang disebutkan mengenai Abu Dharr, bahwa Muawiyah mengirimnya dari Suriah ke Madinah tanpa pelana, dan bahwa Utsman mengasingkannya dari Madinah ke Al-Rabadha dengan cara yang telah disebutkan {cite:kamil-ibn-al-athir p. 483}."
 wings: [time]
 relations:
   - { type: occurred_at, target: place/al-rabdha, sources: [source/kamil-ibn-al-athir] }

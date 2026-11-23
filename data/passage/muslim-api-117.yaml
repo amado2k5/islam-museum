@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/sahih-muslim
 ref: "117"
-label: { ar: "صحيح مسلم 117 — الأب والأبوة", en: "Sahih Muslim 117 — the father and fatherhood", ur: "صحیح مسلم 117 — باپ اور والدیت", es: "Sahih Muslim 117 — El padre y la paternidad", fr: "Sahih Muslim 117 — Le père et la paternité" }
+label: { ar: "صحيح مسلم 117 — الأب والأبوة", en: "Sahih Muslim 117 — the father and fatherhood", ur: "صحیح مسلم 117 — باپ اور والدیت", es: "Sahih Muslim 117 — El padre y la paternidad", fr: "Sahih Muslim 117 — Le père et la paternité", tr: "Sahih Muslim 117 — Baba ve Babalık", id: "Sahih Muslim 117 — Ayah dan Peran Ayah" }
 text: "… أَبِي قَالاَ، جَمِيعًا حَدَّثَنَا قُرَّةُ بْنُ خَالِدٍ، عَنْ أَبِي جَمْرَةَ، عَنِ ابْنِ عَبَّاسٍ، عَنِ النَّبِيِّ بِهَذَا الْحَدِيثِ نَحْوَ حَدِيثِ شُعْبَةَ. وَقَالَ \" أَنْهَاكُمْ عَمَّا يُنْبَذُ فِي الدُّبَّاءِ وَالنَّقِيرِ وَالْحَنْتَمِ وَالْمُزَفَّتِ \". وَزَادَ ابْنُ مُعَاذٍ فِي حَدِيثِهِ عَنْ أَبِيهِ قَالَ وَقَالَ رَسُولُ اللَّهِ لِلأَشَجِّ أَشَجِّ عَبْدِ الْقَيْسِ \" إِنَّ فِيكَ خَصْلَتَيْنِ يُحِبُّهُمَا اللَّهُ الْحِلْمُ وَالأَنَاةُ \"."
 summary:
   ar: "حديث في صحيح مسلم، رقم 117، يذكر الأب والأبوة. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
@@ -11,6 +11,8 @@ summary:
   ur: "صحیح مسلم کی حدیث نمبر 117، جس میں باپ اور والدیت کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un relato en Sahih Muslim, n.° 117 (El Libro de la Fe), menciona al padre y la paternidad. El navegador \"La paternidad en el Islam\" lo incluye junto con los textos del Corán, la Sunnah, la Seerah y los libros sobre el padre."
   fr: "Un hadith du Sahih Muslim, n° 117 (Le Livre de la Foi), mentionne le père et la paternité. Le site « Paternité en Islam » répertorie ce hadith avec les textes du Coran, de la Sunna, de la Sîra et les ouvrages traitant de la paternité."
+  tr: "Sahih Müslim'de 117. sırada yer alan bir hadis, baba ve babalık kavramından bahsetmektedir. \"İslam'da Babalık\" tarayıcısı, bu konuyu Kur'an, Sünnet, biyografi ve diğer kitaplardan derleyerek sunmaktadır."
+  id: "Sebuah hadits dalam Sahih Muslim, nomor 117, menyebutkan tentang ayah dan peran ayah. Browser \"Peran Ayah dalam Islam\" mengumpulkan hadits tersebut dengan teks-teks dari Al-Quran, Sunnah, biografi, dan buku-buku lain tentang topik ini."
 relations:
   - { type: mentions, target: concept/ubuwwa, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 117 (book 1 hadith 25); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }

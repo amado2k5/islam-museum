@@ -7,6 +7,8 @@ label:
   es: "Ciudades otomanas"
   fr: "Cités ottomanes"
   ur: "عثمانی شہر"
+  tr: "Osmanlı şehirleri"
+  id: "kota-kota Ottoman"
 summary:
   ar: 'مسار في مدن الإمبراطورية: بورصة الأولى، وأدرنة العاصمة، وإسطنبول الفتح، وقونية الصوفية — من بحر
     الروم إلى البلقان.'
@@ -14,6 +16,8 @@ summary:
   es: "Un recorrido por las ciudades imperiales."
   fr: "Un sentier à travers les villes impériales."
   ur: "شاہی شہروں کے ذریعے ایک پگڈنڈی."
+  tr: "Akdeniz'den Balkanlara uzanan, imparatorluğun şehirlerinden geçen bir rota: Birinci şehir Bursa, başkent Edirne, fetih şehri İstanbul ve Sufi şehri Konya."
+  id: "Sebuah rute melalui kota-kota kekaisaran: Bursa Pertama, Edirne sang ibu kota, Istanbul sang penaklukan, dan Konya sang Sufi — dari Laut Mediterania hingga Balkan."
 audience:
 - newcomer
 - student
@@ -28,12 +32,16 @@ rooms:
     es: "Bolsa"
     fr: "Bourse"
     ur: "برسا"
+    tr: "Borsa"
+    id: "Bursa Saham"
   body:
     ar: 'أول عاصمة: الحرير والخضراء الكبرى.'
     en: 'أول عاصمة: الحرير والخضراء الكبرى.'
     es: "Primera capital: Seda y Gran Verde."
     fr: "Première capitale: Soie et Grand Vert."
     ur: "پہلا سرمایہ: سلک اور گریٹ گرین۔"
+    tr: "İlk başkent: İpek ve Büyük Yeşil."
+    id: "Ibu kota pertama: Silk dan Great Green."
   features:
   - place/bursa
   - polity/ottoman-empire
@@ -43,12 +51,16 @@ rooms:
     es: "Edirne"
     fr: "Edirne"
     ur: "ایڈیرنے"
+    tr: "Edirne"
+    id: "Edirne"
   body:
     ar: 'عاصمة الروملي: سليمية سنان التاج.'
     en: 'عاصمة الروملي: سليمية سنان التاج.'
     es: "Capital de Rumelia: Selimiye, Sinan, Al-Taj."
     fr: "Capitale de Roumélie: Selimiye, Sinan, Al-Taj."
     ur: "رومیلیا کا دارالحکومت: سیلمی، سنان، التاج۔"
+    tr: "Rumeli'nin başkenti: Selimiye, Sinan, Al-Taj."
+    id: "Ibukota Rumelia: Selimiye, Sinan, Al-Taj."
   features:
   - place/edirne
   - polity/ottoman-empire
@@ -58,12 +70,16 @@ rooms:
     es: "Estanbul"
     fr: "Istanbul"
     ur: "استنبول"
+    tr: "İstanbul"
+    id: "Istanbul"
   body:
     ar: 'الفتح 1453: القسطنطينية عاصمة الخلافة.'
     en: 'الفتح 1453: القسطنطينية عاصمة الخلافة.'
     es: "La conquista de 1453: Constantinopla, la capital del Califato."
     fr: "La conquête de 1453: Constantinople, capitale du califat."
     ur: "1453 کی فتح: قسطنطنیہ، خلافت کا دارالحکومت۔"
+    tr: "1453 Fethi: Halifeliğin başkenti Konstantinopolis."
+    id: "Penaklukan tahun 1453: Konstantinopel, ibu kota Kekhalifahan."
   features:
   - place/istanbul
   - polity/ottoman-empire
@@ -73,12 +89,16 @@ rooms:
     es: "Konya"
     fr: "Konya"
     ur: "کونیا"
+    tr: "Konya"
+    id: "Konya"
   body:
     ar: عاصمة السلاجقة ومدينة الرومي.
     en: عاصمة السلاجقة ومدينة الرومي.
     es: "La capital de los selyúcidas y la ciudad de Rum."
     fr: "La capitale des Seldjoukides et la ville de Rum."
     ur: "سلجوقیوں کا دارالحکومت اور روم شہر۔"
+    tr: "Selçukluların başkenti ve Rum şehri."
+    id: "Ibu kota Seljuk dan kota Rum."
   features:
   - place/konya
   - place/konya
@@ -88,12 +108,16 @@ rooms:
     es: "Nicea"
     fr: "Nicée"
     ur: "نیکیہ"
+    tr: "İznik"
+    id: "Nicea"
   body:
     ar: 'إزنيق: أولى مدن الروم فتحًا.'
     en: 'إزنيق: أولى مدن الروم فتحًا.'
     es: "Iznik: La primera ciudad romana en ser conquistada."
     fr: "Iznik: La première ville romaine conquise."
     ur: "ایزنک: رومیوں کا پہلا شہر جسے فتح کیا گیا۔"
+    tr: "İznik: Romalıların fethedilen ilk şehri."
+    id: "Iznik: Kota pertama Romawi yang ditaklukkan."
   features:
   - place/nicea
   - polity/ottoman-empire

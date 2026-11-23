@@ -4,10 +4,12 @@ unit: hadith
 chain: [person/malik-ibn-anas, person/nafi-al-madani, person/abdullah-ibn-umar, person/muhammad]
 work: work/muwatta-malik
 ref: "1572"
-label: { ar: "الموطأ 1572 — نافع عن ابن عمر: إذا دعي أحدكم إلى وليمة فليأتها", en: "Muwatta 1572", es: "Muwatta 1572", fr: "Muwatta 1572", ur: "موطا 1572" }
+label: { ar: "الموطأ 1572 — نافع عن ابن عمر: إذا دعي أحدكم إلى وليمة فليأتها", en: "Muwatta 1572", es: "Muwatta 1572", fr: "Muwatta 1572", ur: "موطا 1572", tr: "El-Muvatta 1572 — İbn Ömer'den rivayet edildiğine göre Nafi': Eğer biriniz bir ziyafete davet edilirse, katılsın.", id: "Al-Muwatta 1572 — Diriwayatkan oleh Nafi’ dari Ibnu Umar: Jika salah seorang dari kalian diundang ke sebuah pesta, maka hadirilah pesta tersebut." }
 text: "إذا دُعيَ أحَدُكُمْ إلى وَليمَةِ فَلْيأْتِهَا"
 summary:
   ar: "يروي مالك عن نافع عن عبد الله بن عمر أن رسول الله قال إذا دعي أحدكم إلى وليمة فليأتها. {cite:muwatta-maruf-1997 p.55}"
+  tr: "Malik, Nafi'den, o da Abdullah ibn Umar'dan rivayetle, Allah Resulü'nün şöyle buyurduğunu nakletmiştir: \"Sizden biri bir ziyafete davet edilirse, katılsın.\" {cite:muwatta-maruf-1997 s.55}"
+  id: "Malik meriwayatkan dari Nafi’ yang juga meriwayatkan dari Abdullah ibn Umar bahwa Rasulullah SAW bersabda: “Jika salah seorang di antara kalian diundang ke suatu pesta, maka hadirilah.” {cite:muwatta-maruf-1997 p.55}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-14-nikah }
   - { type: mentions, target: person/nafi-al-madani, sources: [source/muwatta-maruf-1997] }

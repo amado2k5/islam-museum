@@ -7,6 +7,8 @@ label:
   es: "Las Grandes Mezquitas"
   fr: "Les Grandes Mosquées"
   ur: "عظیم مساجد"
+  tr: "İslam'ın Büyük Camileri"
+  id: "Masjid-masjid Agung Islam"
 summary:
   ar: 'مسار في معالم العمارة الإسلامية: الحرم والنبوي والأقصى، والأموي وقرطبة والأزهر والسليمانية — مدينة
     المسجد.'
@@ -14,6 +16,8 @@ summary:
   es: "Un recorrido por las grandes mezquitas del Islam a lo largo de doce siglos."
   fr: "Un parcours à travers les grandes mosquées de l'Islam sur douze siècles."
   ur: "بارہ صدیوں پر محیط اسلام کی عظیم مساجد کا ایک راستہ۔"
+  tr: "İslam mimarisinin önemli yapılarından oluşan bir rota: Haram, Peygamber Camii, Mescid-i Aksa, Emevi Camii, Kurtuba Camii, El-Ezher Camii ve Süleymaniye Camii - Camiler Şehri."
+  id: "Sebuah rute melewati berbagai landmark arsitektur Islam: Haram, Masjid Nabawi, Masjid Al-Aqsa, Masjid Umayyah, Masjid Cordoba, Masjid Al-Azhar, dan Masjid Sulaymaniyah — Kota Masjid."
 audience:
 - newcomer
 - student
@@ -28,12 +32,16 @@ rooms:
     es: "El Haram"
     fr: "Le Haram"
     ur: "حرم۔۔۔"
+    tr: "Kampüs"
+    id: "Kampus"
   body:
     ar: 'الكعبة والمقام والحجر: أم المساجد.'
     en: 'Kaaba, Maqam, Hijr: the mother of mosques.'
     es: "Kaaba, Maqam, Hijr: la madre de las mezquitas."
     fr: "Kaaba, Maqam, Hijr: la mère des mosquées."
     ur: "کعبہ، مقام، حجر: مساجد کی ماں۔"
+    tr: "Kabe, Makam ve Hicr: camilerin anası."
+    id: "Ka'bah, Maqam, dan Hijr: induk dari semua masjid."
   features:
   - building/masjid-al-haram
   - building/kaaba
@@ -43,12 +51,16 @@ rooms:
     es: "El Profeta"
     fr: "Le Prophète"
     ur: "نبی کا"
+    tr: "Peygamberlik"
+    id: "Kenabian"
   body:
     ar: قبلة وسجد ومنبر وروضة.
     en: Qibla, prayer, pulpit and Rawda.
     es: "Qibla, oración, púlpito y Rawda."
     fr: "Qibla, prière, chaire et Rawda."
     ur: "قبلہ، نماز، منبر اور روضہ۔"
+    tr: "Kıble, secde, minber ve bahçe."
+    id: "Kiblat, sujud, mimbar, dan taman."
   features:
   - building/prophets-mosque
   - concept/minbar
@@ -58,12 +70,16 @@ rooms:
     es: "Al-Aqsa"
     fr: "Al-Aqsa"
     ur: "الاقصیٰ"
+    tr: "El-Aksa"
+    id: "Al-Aqsa"
   body:
     ar: المسرى ومحط الجهاد عبر القرون.
     en: The Night Journey's station.
     es: "La estación del Viaje Nocturno."
     fr: "La gare du Voyage de Nuit."
     ur: "رات کے سفر کا اسٹیشن۔"
+    tr: "Miraç ve çağlar boyunca cihatın odak noktası."
+    id: "Perjalanan Malam dan fokus jihad sepanjang zaman."
   features:
   - building/al-aqsa-mosque
   - building/dome-of-the-rock
@@ -73,12 +89,16 @@ rooms:
     es: "Los Omeyas"
     fr: "Les Omeyyades"
     ur: "اموی"
+    tr: "Emevi"
+    id: "Umayyah"
   body:
     ar: 'دمشق 715: مدرسة العمارة الإسلامية الأولى.'
     en: 'Damascus 715: Islam''s first architectural school.'
     es: "Damasco 715: La primera escuela de arquitectura del Islam."
     fr: "Damas 715: Première école d'architecture de l'Islam."
     ur: "دمشق 715: اسلام کا پہلا آرکیٹیکچرل اسکول۔"
+    tr: "Şam 715: İlk İslam mimarisi okulu."
+    id: "Damaskus 715: Sekolah arsitektur Islam pertama."
   features:
   - building/umayyad-mosque
   - place/damascus
@@ -88,12 +108,16 @@ rooms:
     es: "Córdoba"
     fr: "Cordoue"
     ur: "قرطبہ"
+    tr: "Cordoba"
+    id: "Cordoba"
   body:
     ar: 'غابة الأعمدة: جامع الغرب الإسلامي.'
     en: 'The forest of columns: the West''s congregational mosque.'
     es: "El bosque de columnas: la mezquita congregacional de Occidente."
     fr: "La forêt de colonnes: la mosquée du vendredi de l'Occident."
     ur: "کالموں کا جنگل: مغرب کی اجتماعی مسجد۔"
+    tr: "Sütunlar Ormanı: İslam Batı Camii."
+    id: "Hutan Pilar: Masjid Barat Islam."
   features:
   - building/jami-qurtuba
   - place/cordoba
@@ -103,12 +127,16 @@ rooms:
     es: "Al-Azhar y Sulaymaniyya"
     fr: "Al-Azhar et Sulaymaniyya"
     ur: "الازہر اور سلیمانیہ"
+    tr: "El-Azhar ve Süleymaniye"
+    id: "Al-Azhar dan Sulaymaniyah"
   body:
     ar: 'القاهرة تعلّم وإسطنبول تبني: الأزهر 972 والسليمانية 1557.'
     en: Cairo teaches and Istanbul builds.
     es: "El Cairo enseña e Estambul construye."
     fr: "Le Caire enseigne et Istanbul construit."
     ur: "قاہرہ پڑھاتا ہے اور استنبول بناتا ہے۔"
+    tr: "Kahire öğretir, İstanbul inşa eder: El-Ezher 972 ve Süleymaniye 1557."
+    id: "Kairo mengajar dan Istanbul membangun: Al-Azhar 972 dan Suleymaniye 1557."
   features:
   - building/al-azhar
   - building/sulaymaniyya-mosque

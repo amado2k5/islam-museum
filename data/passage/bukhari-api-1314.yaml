@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/sahih-al-bukhari
 ref: "1314"
-label: { ar: "صحيح البخاري 1314 — الأب والأبوة", en: "Sahih al-Bukhari 1314 — the father and fatherhood", ur: "صحیح بخاری 1314 — باپ اور والدیت", es: "Sahih al-Bukhari 1314 — El padre y la paternidad", fr: "Sahih al-Bukhari 1314 — le père et la paternité" }
+label: { ar: "صحيح البخاري 1314 — الأب والأبوة", en: "Sahih al-Bukhari 1314 — the father and fatherhood", ur: "صحیح بخاری 1314 — باپ اور والدیت", es: "Sahih al-Bukhari 1314 — El padre y la paternidad", fr: "Sahih al-Bukhari 1314 — le père et la paternité", tr: "Sahih el-Buhari 1314 — Baba ve Babalık", id: "Sahih al-Bukhari 1314 — Ayah dan Peran Ayah" }
 text: "حَدَّثَنَا عَبْدُ الْعَزِيزِ بْنُ عَبْدِ اللَّهِ، حَدَّثَنَا اللَّيْثُ، عَنْ سَعِيدٍ الْمَقْبُرِيِّ، عَنْ أَبِيهِ، أَنَّهُ سَمِعَ أَبَا سَعِيدٍ الْخُدْرِيَّ ـ أَنَّ رَسُولَ اللَّهِ قَالَ \" إِذَا وُضِعَتِ الْجِنَازَةُ وَاحْتَمَلَهَا الرِّجَالُ عَلَى أَعْنَاقِهِمْ، فَإِنْ كَانَتْ صَالِحَةً قَالَتْ قَدِّمُونِي. وَإِنْ كَانَتْ غَيْرَ صَالِحَةٍ قَالَتْ يَا وَيْلَهَا أَيْنَ يَذْهَبُونَ بِهَا يَسْمَعُ صَوْتَهَا كُلُّ شَىْءٍ إِلاَّ الإِنْسَانَ، وَلَوْ سَمِعَهُ صَعِقَ …"
 summary:
   ar: "حديث في صحيح البخاري، رقم 1314، يذكر الأب والأبوة. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
@@ -11,6 +11,8 @@ summary:
   ur: "صحیح بخاری کی حدیث نمبر 1314، جس میں باپ اور والدیت کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un relato en Sahih al-Bukhari, n.° 1314 (Funerales (Al-Janaa'iz)), menciona al padre y la paternidad. El navegador \"La paternidad en el Islam\" lo incluye en su lista junto con los textos del Corán, la Sunnah, la sirah y los libros sobre el padre."
   fr: "Un hadith du Sahih al-Bukhari, n° 1314 (Funérailles), mentionne le père et la paternité. Le site « Paternité en Islam » le répertorie avec les textes du Coran, de la Sunna, de la Sîra et les ouvrages traitant de la paternité."
+  tr: "Sahih el-Buhari'de 1314 numaralı hadis, baba ve babalık kavramından bahsetmektedir. \"İslam'da Babalık\" tarayıcısı, bu konuyu Kur'an, Sünnet, biyografi ve diğer kitaplardan derleyerek sunmaktadır."
+  id: "Sebuah hadits dalam Sahih al-Bukhari, nomor 1314, menyebutkan tentang ayah dan peran ayah. Browser \"Peran Ayah dalam Islam\" mengumpulkan hadits tersebut dengan teks-teks dari Al-Quran, Sunnah, biografi, dan buku-buku lain tentang topik ini."
 relations:
   - { type: mentions, target: concept/ubuwwa, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 1314 (book 23 hadith 71); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }

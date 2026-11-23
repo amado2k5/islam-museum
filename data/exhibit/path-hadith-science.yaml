@@ -7,6 +7,8 @@ label:
   es: "La ciencia del Hadith"
   fr: "La science du hadith"
   ur: "علم حدیث"
+  tr: "Hadis ilmi"
+  id: "Ilmu hadits"
 summary:
   ar: 'مسار في علم الأمة الفريد: الإسناد والاتصال، والجرح والتعديل، والمصطلح، والكتب الستة — كيف حُفظت
     السنة.'
@@ -14,6 +16,8 @@ summary:
   es: "Un recorrido por la singular ciencia de la comunidad."
   fr: "Un parcours à travers la science unique de la communauté."
   ur: "کمیونٹی کی منفرد سائنس کے ذریعے ایک پگڈنڈی۔"
+  tr: "Millet ilminde eşsiz bir yol: aktarım ve bağlantı zinciri, eleştiri ve doğrulama, terminoloji ve altı kitap — Sünnetin nasıl korunduğu."
+  id: "Jalur unik dalam ilmu kebangsaan: rantai transmisi dan koneksi, kritik dan otentikasi, terminologi, dan enam kitab — bagaimana Sunnah dipelihara."
 audience:
 - newcomer
 - student
@@ -28,12 +32,16 @@ rooms:
     es: "El isnad"
     fr: "L'isnad"
     ur: "اسناد"
+    tr: "Atıf"
+    id: "Atribusi"
   body:
     ar: 'سلسلة النقل: خاصية الأمة التي لا نظير لها.'
     en: 'سلسلة النقل: خاصية الأمة التي لا نظير لها.'
     es: "La cadena de transporte: una característica única de la nación."
     fr: "La chaîne de transport: une caractéristique unique de la nation."
     ur: "نقل و حمل کا سلسلہ: قوم کی ایک منفرد خصوصیت۔"
+    tr: "Ulaşım zinciri: ülkeye özgü bir özellik."
+    id: "Rantai transportasi: karakteristik unik dari negara ini."
   features:
   - concept/isnad
   - concept/ittisal-al-isnad
@@ -43,12 +51,16 @@ rooms:
     es: "Mustalah"
     fr: "Mustalah"
     ur: "مصلح"
+    tr: "Dönem"
+    id: "Istilah"
   body:
     ar: 'صحيح وحسن وضعيف: قواعد التصنيف.'
     en: 'صحيح وحسن وضعيف: قواعد التصنيف.'
     es: "Auténtico, bueno y débil: reglas de clasificación."
     fr: "Authentique, bon et faible: règles de classification."
     ur: "مستند، اچھا، اور کمزور: درجہ بندی کے اصول۔"
+    tr: "Orijinal, iyi ve zayıf: sınıflandırma kuralları."
+    id: "Asli, baik, dan lemah: aturan klasifikasi."
   features:
   - concept/mustalah-al-hadith
   - concept/hadith-qudsi
@@ -58,12 +70,16 @@ rooms:
     es: "Los compiladores"
     fr: "Les compilateurs"
     ur: "مرتب کرنے والے"
+    tr: "koleksiyoncular"
+    id: "kolektor"
   body:
     ar: بخاري ومسلم وأصحاب السنن الأربعة.
     en: بخاري ومسلم وأصحاب السنن الأربعة.
     es: "Bukhari, Muslim y los autores de los cuatro Sunan."
     fr: "Bukhari, Muslim et les auteurs des quatre Sunan."
     ur: "بخاری، مسلم اور چاروں سنن کے مصنفین۔"
+    tr: "Buhari, Müslim ve dört Sünen kitabının yazarları."
+    id: "Bukhari, Muslim, dan para penulis keempat kitab Sunan."
   features:
   - person/al-bukhari
   - person/muslim-ibn-al-hajjaj
@@ -74,12 +90,16 @@ rooms:
     es: "Los comentaristas"
     fr: "Les commentateurs"
     ur: "مفسرین"
+    tr: "yorumcular"
+    id: "Para komentator"
   body:
     ar: 'النووي وابن رجب: المتن يعيش بشرحه.'
     en: 'النووي وابن رجب: المتن يعيش بشرحه.'
     es: "Al-Nawawi e Ibn Rajab: El texto perdura gracias a su explicación."
     fr: "Al-Nawawi et Ibn Rajab: Le texte perdure grâce à son explication."
     ur: "النووی اور ابن رجب: متن اپنی وضاحت سے زندہ رہتا ہے۔"
+    tr: "El-Nawawi ve İbn Rajab: Metin, açıklamasıyla yaşamaya devam ediyor."
+    id: "Al-Nawawi dan Ibn Rajab: Teks tersebut tetap hidup melalui penjelasannya."
   features:
   - person/al-nawawi
   - work/jami-ulum-hikam
@@ -89,12 +109,16 @@ rooms:
     es: "Los textos"
     fr: "Les textes"
     ur: "نصوص"
+    tr: "Metinler"
+    id: "Teks"
   body:
     ar: 'غرفة النصوص: حديث جبريل والنية والمناسك.'
     en: 'غرفة النصوص: حديث جبريل والنية والمناسك.'
     es: "Sala de textos: El hadiz de Gabriel, la intención y los rituales."
     fr: "Salle de texte: Le hadith de Gabriel, l'intention et les rituels."
     ur: "متن کا کمرہ: حدیث جبرائیل، نیت اور رسومات۔"
+    tr: "Metin Odası: Cebrail Hadisi, Niyet ve Ritüeller."
+    id: "Ruang Teks: Hadits Jibril, Niat dan Ritual."
   features:
   - passage/arbaun-01
   - passage/muslim-0008

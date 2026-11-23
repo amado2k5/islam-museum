@@ -3,9 +3,11 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "1613"
-label: { ar: "الموطأ 1613 — مالك عن ربيعة: مثل ذلك، وعلى ذلك الأمر عندنا", en: "Muwatta 1613", es: "Muwatta 1613", fr: "Muwatta 1613", ur: "موطا 1613" }
+label: { ar: "الموطأ 1613 — مالك عن ربيعة: مثل ذلك، وعلى ذلك الأمر عندنا", en: "Muwatta 1613", es: "Muwatta 1613", fr: "Muwatta 1613", ur: "موطا 1613", tr: "El-Muvatta 1613 — Malik, Rabi'ah'tan rivayetle: Aynısı geçerlidir ve bizim durumumuz da böyledir.", id: "Al-Muwatta 1613 — Malik berdasarkan riwayat Rabi’ah: Hal yang sama berlaku, dan itulah masalah kita." }
 summary:
   ar: "يروي مالك عن ربيعة بن أبي عبد الرحمن مثل ذلك، وقال مالك وعلى ذلك الأمر عندنا. {cite:muwatta-maruf-1997 p.69}"
+  tr: "Malik, Rabi'ah ibn Abi 'Abd al-Rahman'dan benzer bir rivayet aktarır ve Malik, \"Bizim de uygulamamız böyledir\" der. {cite:muwatta-maruf-1997 s.69}"
+  id: "Malik meriwayatkan hal serupa dari Rabi'ah ibn Abi 'Abd al-Rahman, dan Malik berkata, \"Dan itulah kebiasaan di antara kami.\" {cite:muwatta-maruf-1997 p.69}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-15-talaq }
   - { type: mentions, target: person/rabia-ibn-abi-abd-al-rahman, sources: [source/muwatta-maruf-1997] }

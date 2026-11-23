@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/sunan-ibn-majah
 ref: "830"
-label: { ar: "سنن ابن ماجه 830 — تربية الأب ووصيته", en: "Sunan Ibn Majah 830 — the father raising and counselling", ur: "سنن ابن ماجہ 830 — باپ کی تربیت اور نصیحت", es: "Sunan Ibn Majah 830 — El padre que cría y aconseja", fr: "Sunan Ibn Majah 830 — l'éducation et les conseils du père" }
+label: { ar: "سنن ابن ماجه 830 — تربية الأب ووصيته", en: "Sunan Ibn Majah 830 — the father raising and counselling", ur: "سنن ابن ماجہ 830 — باپ کی تربیت اور نصیحت", es: "Sunan Ibn Majah 830 — El padre que cría y aconseja", fr: "Sunan Ibn Majah 830 — l'éducation et les conseils du père", tr: "Sunan İbn Majah 830 — Babanın Yetiştirilmesi ve Vasiyeti", id: "Sunan Ibn Majah 830 — Didikan dan Wasiat Ayah" }
 text: "حَدَّثَنَا عُقْبَةُ بْنُ مُكْرَمٍ، حَدَّثَنَا سَلْمُ بْنُ قُتَيْبَةَ، عَنْ هَاشِمِ بْنِ الْبَرِيدِ، عَنْ أَبِي إِسْحَاقَ، عَنِ الْبَرَاءِ بْنِ عَازِبٍ، قَالَ كَانَ رَسُولُ اللَّهِ ـ يُصَلِّي بِنَا الظُّهْرَ فَنَسْمَعُ مِنْهُ الآيَةَ بَعْدَ الآيَاتِ مِنْ سُورَةِ لُقْمَانَ وَالذَّارِيَاتِ."
 summary:
   ar: "حديث في سنن ابن ماجه، رقم 830، يذكر تربية الأب ووصيته. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
@@ -11,6 +11,8 @@ summary:
   ur: "سنن ابن ماجہ کی حدیث نمبر 830، جس میں باپ کی تربیت اور نصیحت کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un relato en Sunan Ibn Majah, n.° 830 (Establecimiento de la oración y la Sunnah al respecto), menciona la crianza y el consejo paternos. El navegador \"La paternidad en el Islam\" lo incluye junto con los textos del Corán, la Sunnah, la sirah y los libros sobre el papel del padre."
   fr: "Un hadith du Sunan Ibn Majah, n° 830 (L'établissement de la prière et la Sunna à leur sujet), mentionne le rôle du père dans l'éducation et les conseils. Le site « Paternité en Islam » répertorie ce hadith avec les versets du Coran, la Sunna, la Sîra et les ouvrages consacrés au père."
+  tr: "İbn Majah'ın Sünen'inde yer alan 830 numaralı hadis, babanın çocuk yetiştirmedeki rolünü ve tavsiyelerini ele almaktadır. Bu hadis, \"İslam'da Babalık\" bölümü tarafından Kur'an, Sünnet, Peygamberimizin biyografisi ve bu konuyla ilgili diğer kitaplardan metinlerle birlikte derlenmiştir."
+  id: "Sebuah hadits dalam Sunan Ibn Majah, nomor 830, menyebutkan peran seorang ayah dalam membesarkan anak dan nasihatnya. Hadits ini dikompilasi oleh bagian \"Peran Ayah dalam Islam\", bersama dengan teks-teks dari Al-Quran, Sunnah, biografi Nabi, dan buku-buku lain tentang topik ini."
 relations:
   - { type: mentions, target: concept/ubuwwa, sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-ibnmajah, hadith 830 (book 5 hadith 28); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }

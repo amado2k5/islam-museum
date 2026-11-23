@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/sahih-muslim
 ref: "5351"
-label: { ar: "صحيح مسلم 5351 — ذكر أمم وأديان وشعوب غير مسلمة", en: "Sahih Muslim 5351 — mentions of non-Muslim nations, religions and peoples", ur: "صحیح مسلم 5351 — غیر مسلم امتوں، ادیان اور اقوام کا ذکر", es: "Sahih Muslim 5351 — menciones de naciones, religiones y pueblos no musulmanes", fr: "Sahih Muslim 5351 — mentions de nations, religions et peuples non musulmans" }
+label: { ar: "صحيح مسلم 5351 — ذكر أمم وأديان وشعوب غير مسلمة", en: "Sahih Muslim 5351 — mentions of non-Muslim nations, religions and peoples", ur: "صحیح مسلم 5351 — غیر مسلم امتوں، ادیان اور اقوام کا ذکر", es: "Sahih Muslim 5351 — menciones de naciones, religiones y pueblos no musulmanes", fr: "Sahih Muslim 5351 — mentions de nations, religions et peuples non musulmans", tr: "Sahih Müslim 5351 — Gayrimüslim milletlerin, dinlerin ve halkların anılması", id: "Sahih Muslim 5351 — Penyebutan bangsa, agama, dan kaum non-Muslim" }
 text: "وَحَدَّثَنَاهُ مُوسَى بْنُ قُرَيْشِ بْنِ نَافِعٍ التَّمِيمِيُّ، حَدَّثَنَا يَحْيَى بْنُ صَالِحٍ الْوُحَاظِيُّ، حَدَّثَنَا سُلَيْمَانُ بْنُ بِلاَلٍ، بِهَذَا الإِسْنَادِ وَقَالَ \" نِعْمَ الأُدُمُ \". وَلَمْ يَشُكَّ."
 summary:
   ar: "حديث في صحيح مسلم، رقم 5351، فيه ذكر أمم وأديان وشعوب غير مسلمة. يجمعه متصفح الأمم والأديان والطوائف والشعوب غير المسلمة مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
@@ -11,6 +11,8 @@ summary:
   ur: "صحیح مسلم کی حدیث نمبر 5351، جس میں غیر مسلم امتوں، ادیان اور اقوام کا ذکر ہے۔ غیر مسلم امتوں، ادیان، فرقوں اور اقوام کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un informe del Sahih Muslim, n.º 5351 (El Libro de las Bebidas), menciona naciones, religiones y pueblos no musulmanes. El Umam Browser lo incluye en su lista junto con los textos del Corán, la Sunnah, la Seerah y los libros sobre naciones, religiones, sectas y pueblos no musulmanes."
   fr: "Un hadith du Sahih Muslim, n° 5351 (Le Livre des Boissons), mentionne des nations, des religions et des peuples non musulmans. Le navigateur Umam le répertorie avec les textes du Coran, de la Sunna, de la Sîra et les ouvrages relatifs aux nations, religions, sectes et peuples non musulmans."
+  tr: "Sahih Müslim'de 5351 numaralı hadis, gayrimüslim milletleri, dinleri ve halkları zikretmektedir. Bu hadis, gayrimüslim milletler, dinler, mezhepler ve halklar konusunda uzmanlaşmış bir araştırmacı tarafından, Kur'an, Sünnet, Peygamberin biyografisi ve konuyla ilgili diğer kitaplardan ilgili metinlerle birlikte derlenmiştir."
+  id: "Sebuah hadits dalam Sahih Muslim, nomor 5351, menyebutkan bangsa-bangsa, agama-agama, dan kaum-kaum non-Muslim. Hadits ini disusun oleh seorang peneliti yang ahli dalam bangsa-bangsa, agama-agama, sekte-sekte, dan kaum-kaum non-Muslim, bersama dengan teks-teks yang relevan dari Al-Quran, Sunnah, biografi Nabi, dan buku-buku lain tentang subjek tersebut."
 relations:
   - { type: mentions, target: group/quraysh, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 5351 (book 36 hadith 225); matn excerpt of at most 55 words chosen by the umam detector (scripts/umam.ts), honorific formulas left out", generated_by: "Devin (SWE-2 Medium)", model: "swe-2-medium", run: "umam-hadithapi-1" }

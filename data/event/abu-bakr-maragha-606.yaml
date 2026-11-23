@@ -1,7 +1,7 @@
 id: event/abu-bakr-maragha-606
 class: event
 kind: other
-label: { ar: "ملك أبي بكر بن البهلوان مراغة", en: "Abu Bakr ibn al-Bahlawan takes Maragha", fr: "Abu Bakr ibn al-Bahlawan prend Maragha", es: "Abu Bakr ibn al-Bahlawan toma Maragha", ur: "ابوبکر بن بہلوان نے مراثہ کو لیا ہے۔" }
+label: { ar: "ملك أبي بكر بن البهلوان مراغة", en: "Abu Bakr ibn al-Bahlawan takes Maragha", fr: "Abu Bakr ibn al-Bahlawan prend Maragha", es: "Abu Bakr ibn al-Bahlawan toma Maragha", ur: "ابوبکر بن بہلوان نے مراثہ کو لیا ہے۔", tr: "Kral Ebu Bekir ibn el-Bahlawan Maragha", id: "Raja Abu Bakar bin al-Bahlawan Maragha" }
 date:
   start: { edtf: "1209~", hijri: "0606", calendar: julian, precision: year, status: tradition, derived: true }
 summary:
@@ -10,6 +10,8 @@ summary:
   fr: "Abu Bakr ibn Bahlawan succéda à son père à Maragha, en Azerbaïdjan, à la mort de celui-ci {cite:kamil-ibn-al-athir p. 342}."
   es: "Abu Bakr ibn Bahlawan sucedió en Maragha en Azerbaiyán tras la muerte de su padre {citar:kamil-ibn-al-athir p. 342}."
   ur: "ابو بکر بن بہلوان اپنے والد کی وفات پر آذربائیجان میں مراغہ کا جانشین ہوا 342}۔"
+  tr: "Ebu Bekir ibn el-Bahlavan, babasının ölümünden sonra Azerbaycan'daki Maragheh şehrinin kralı oldu. {kaynak: Kamil ibn el-Athir, s. 342}"
+  id: "Abu Bakr ibn al-Bahlawan menjadi raja kota Maragheh di Azerbaijan setelah kematian ayahnya {cite:kamil-ibn-al-athir p. 342}."
 wings: [time]
 relations:
   - { type: occurred_at, target: place/maragha, sources: [source/kamil-ibn-al-athir] }

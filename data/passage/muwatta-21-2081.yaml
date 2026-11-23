@@ -3,9 +3,11 @@ class: passage
 unit: hadith
 work: work/muwatta-malik
 ref: "2081"
-label: { ar: "الموطأ 2081 — مالك: بلغه عن سليمان بن يسار مثل ذلك", en: "Muwatta 2081", es: "Muwatta 2081", fr: "Muwatta 2081", ur: "موطا 2081" }
+label: { ar: "الموطأ 2081 — مالك: بلغه عن سليمان بن يسار مثل ذلك", en: "Muwatta 2081", es: "Muwatta 2081", fr: "Muwatta 2081", ur: "موطا 2081", tr: "El-Muvatta 2081 — Malik: Süleyman ibn Yasar'dan da benzer bir şey kendisine bildirildi.", id: "Al-Muwatta 2081 — Malik: Dia mendapat informasi serupa dari Sulayman bin Yasar." }
 summary:
   ar: "قال مالك: وبلغه عن سليمان بن يسار مثل ذلك. {cite:muwatta-maruf-1997 p.253}"
+  tr: "Malik şöyle dedi: Süleyman ibn Yaşar'dan da benzer bir şey duydum. {cite:muwatta-maruf-1997 s.253}"
+  id: "Malik berkata: Dia mendengar hal serupa dari Sulayman ibn Yasar. {cite:muwatta-maruf-1997 p.253}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-21-shufa }
   - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }

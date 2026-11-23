@@ -4,9 +4,11 @@ unit: hadith
 chain: [person/malik-ibn-anas, person/hisham-ibn-urwa]
 work: work/muwatta-malik
 ref: "1447"
-label: { ar: "الموطأ 1447 — هشام بن عروة عن أبيه عروة بن الزبير: كان يعق عن بنيه، الذكور والإناث، بشاة شاة", en: "Muwatta 1447", es: "Muwatta 1447", fr: "Muwatta 1447", ur: "موطا 1447" }
+label: { ar: "الموطأ 1447 — هشام بن عروة عن أبيه عروة بن الزبير: كان يعق عن بنيه، الذكور والإناث، بشاة شاة", en: "Muwatta 1447", es: "Muwatta 1447", fr: "Muwatta 1447", ur: "موطا 1447", tr: "El-Muvatta 1447 — Hişam ibn Urve, babası Urve ibn el-Zübeyr'den rivayetle: O, oğulları ve kızları için koyunla akika yapardı.", id: "Al-Muwatta 1447 — Hisham ibn Urwah, berdasarkan riwayat ayahnya Urwah ibn al-Zubayr: Beliau biasa melaksanakan akikah untuk putra dan putrinya dengan menggunakan seekor domba." }
 summary:
   ar: "يروي مالك عن هشام بن عروة أن أباه عروة بن الزبير كان يعق عن بنيه، الذكور والإناث، بشاة شاة. {cite:muwatta-maruf-1997 p.647}"
+  tr: "Malik, Hişam ibn Urve'den rivayetle, babası Urve ibn el-Zübeyr'in oğulları ve kızları için her birine birer koyun kurban ederek akika kestiğini anlatır. {cite:muwatta-maruf-1997 s.647}"
+  id: "Malik meriwayatkan dari Hisham ibn Urwah bahwa ayahnya, Urwah ibn al-Zubayr, biasa melaksanakan kurban aqiqah untuk putra dan putrinya, dengan mempersembahkan satu ekor domba untuk masing-masing. {cite:muwatta-maruf-1997 p.647}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-12-aqiqa }
   - { type: mentions, target: person/hisham-ibn-urwa, sources: [source/muwatta-maruf-1997] }

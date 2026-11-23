@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/sahih-muslim
 ref: "2919"
-label: { ar: "صحيح مسلم 2919 — الأب والأبوة", en: "Sahih Muslim 2919 — the father and fatherhood", ur: "صحیح مسلم 2919 — باپ اور والدیت", es: "Sahih Muslim 2919 — El padre y la paternidad", fr: "Sahih Muslim 2919 — Le père et la paternité" }
+label: { ar: "صحيح مسلم 2919 — الأب والأبوة", en: "Sahih Muslim 2919 — the father and fatherhood", ur: "صحیح مسلم 2919 — باپ اور والدیت", es: "Sahih Muslim 2919 — El padre y la paternidad", fr: "Sahih Muslim 2919 — Le père et la paternité", tr: "Sahih Muslim 2919 — Baba ve Babalık", id: "Sahih Muslim 2919 — Ayah dan Peran Ayah" }
 text: "… عَامِرٍ عَبْدُ الْمَلِكِ، بْنُ عَمْرٍو حَدَّثَنَا عَبْدُ الْعَزِيزِ بْنُ أَبِي سَلَمَةَ الْمَاجِشُونُ، عَنْ عَبْدِ الرَّحْمَنِ بْنِ الْقَاسِمِ، عَنْ أَبِيهِ، عَنْ عَائِشَةَ، -ا - قَالَتْ خَرَجْنَا مَعَ رَسُولِ اللَّهِ لاَ نَذْكُرُ إِلاَّ الْحَجَّ حَتَّى جِئْنَا سَرِفَ فَطَمِثْتُ فَدَخَلَ عَلَىَّ رَسُولُ اللَّهِ وَأَنَا أَبْكِي فَقَالَ \" مَا يُبْكِيكِ \". فَقُلْتُ وَاللَّهِ لَوَدِدْتُ أَنِّي لَمْ أَكُنْ خَرَجْتُ الْعَامَ …"
 summary:
   ar: "حديث في صحيح مسلم، رقم 2919، يذكر الأب والأبوة. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
@@ -11,6 +11,8 @@ summary:
   ur: "صحیح مسلم کی حدیث نمبر 2919، جس میں باپ اور والدیت کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un relato en Sahih Muslim, n.° 2919 (El Libro de la Peregrinación), menciona al padre y la paternidad. El navegador \"La paternidad en el Islam\" lo incluye junto con los textos del Corán, la Sunnah, la sirah y los libros sobre el padre."
   fr: "Un hadith du Sahih Muslim, n° 2919 (Le Livre du Pèlerinage), mentionne le père et la paternité. Le site « Paternité en Islam » le répertorie avec les textes du Coran, de la Sunna, de la Sîra et les ouvrages traitant de la paternité."
+  tr: "Sahih Müslim'de 2919 numaralı hadis, baba ve babalık kavramından bahsetmektedir. \"İslam'da Babalık\" tarayıcısı, bu konuyu Kur'an, Sünnet, biyografi ve diğer kitaplardan derleyerek sunmaktadır."
+  id: "Sebuah hadits dalam Sahih Muslim, nomor 2919, menyebutkan tentang ayah dan peran ayah. Browser \"Peran Ayah dalam Islam\" mengumpulkan hadits tersebut dengan teks-teks dari Al-Quran, Sunnah, biografi, dan buku-buku lain tentang topik ini."
 relations:
   - { type: mentions, target: concept/ubuwwa, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-muslim, hadith 2919 (book 15 hadith 128); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }

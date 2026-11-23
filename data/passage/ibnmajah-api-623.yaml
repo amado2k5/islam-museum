@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/sunan-ibn-majah
 ref: "623"
-label: { ar: "سنن ابن ماجه 623 — النسب والانتساب", en: "Sunan Ibn Majah 623 — paternity and lineage", ur: "سنن ابن ماجہ 623 — نسب اور انتساب", es: "Sunan Ibn Majah 623 - paternidad y linaje", fr: "Sunan Ibn Majah 623 — paternité et lignée" }
+label: { ar: "سنن ابن ماجه 623 — النسب والانتساب", en: "Sunan Ibn Majah 623 — paternity and lineage", ur: "سنن ابن ماجہ 623 — نسب اور انتساب", es: "Sunan Ibn Majah 623 - paternidad y linaje", fr: "Sunan Ibn Majah 623 — paternité et lignée", tr: "Sünen İbni Mace 623 — Nesil ve Nesep", id: "Sunan Ibnu Majah 623 — Silsilah dan Afiliasi" }
 text: "… أَبُو أُسَامَةَ، عَنْ عُبَيْدِ اللَّهِ بْنِ عُمَرَ، عَنْ نَافِعٍ، عَنْ سُلَيْمَانَ بْنِ يَسَارٍ، عَنْ أُمِّ سَلَمَةَ، قَالَتْ سَأَلَتِ امْرَأَةٌ النَّبِيَّ ـ قَالَتْ إِنِّي أُسْتَحَاضُ فَلاَ أَطْهُرُ أَفَأَدَعُ الصَّلاَةَ قَالَ \" لاَ وَلَكِنْ دَعِي قَدْرَ الأَيَّامِ وَاللَّيَالِي الَّتِي كُنْتِ تَحِيضِينَ \". قَالَ أَبُو بَكْرٍ فِي حَدِيثِهِ \" وَقَدْرَهُنَّ مِنَ الشَّهْرِ ثُمَّ اغْتَسِلِي وَاسْتَثْفِرِي بِثَوْبٍ وَصَلِّي \"."
 summary:
   ar: "حديث في سنن ابن ماجه، رقم 623، يذكر النسب والانتساب. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
@@ -11,6 +11,8 @@ summary:
   ur: "سنن ابن ماجہ کی حدیث نمبر 623، جس میں نسب اور انتساب کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un relato en Sunan Ibn Majah, n.º 623 (El Libro de la Purificación y su Sunnah), menciona la paternidad y el linaje. El navegador \"La paternidad en el Islam\" lo incluye en su lista junto con los textos del Corán, la Sunnah, la sirah y los libros sobre el padre."
   fr: "Un hadith du Sunan Ibn Majah, n° 623 (Le Livre de la Purification et sa Sunna), mentionne la paternité et la lignée. Le site « Paternité en Islam » le répertorie avec les textes du Coran, de la Sunna, de la Sîra et les ouvrages traitant de la figure paternelle."
+  tr: "İbn Majah'ın Sünen'inde yer alan 623 numaralı hadis, soy ve atalardan bahsetmektedir. \"İslam'da Babalık\" tarayıcısı, bu konuyu Kur'an, Sünnet, biyografi ve diğer kitaplardan derlemektedir."
+  id: "Sebuah hadits dalam Sunan Ibn Majah, no. 623, menyebutkan tentang garis keturunan dan leluhur. Peramban \"Kebapakan dalam Islam\" mengumpulkannya dengan teks-teks dari Al-Quran, Sunnah, biografi, dan buku-buku lain tentang topik ini."
 relations:
   - { type: mentions, target: concept/intisab, sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-ibnmajah, hadith 623 (book 1 hadith 357); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }

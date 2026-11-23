@@ -1,13 +1,15 @@
 id: event/conquest-of-bukhara
 class: event
 kind: conquest
-label: { ar: "فتح بخارى", en: "Conquest of Bukhara", es: "Conquista de Bujará", fr: "Conquête de Boukhara", ur: "بخارا کی فتح" }
+label: { ar: "فتح بخارى", en: "Conquest of Bukhara", es: "Conquista de Bujará", fr: "Conquête de Boukhara", ur: "بخارا کی فتح", tr: "Buhara'nın Fethi", id: "Penaklukan Bukhara" }
 summary:
   ar: "ذكر الطبري في سنة تسعين فتح قتيبة بخارى وهزم جموع العدو بها {cite:tabari-tarikh-abu-al-fadl j.6 p.442}، وفي السنة نفسها خبر فتح الطالقان {cite:tabari-tarikh-abu-al-fadl j.6 p.447}."
   en: "Tabari records that in the year 90 Qutayba conquered Bukhara and routed the enemy hosts there {cite:tabari-tarikh-abu-al-fadl j.6 p.442}; in the same year comes the report of the conquest of Taliqan {cite:tabari-tarikh-abu-al-fadl j.6 p.447}."
   es: "Tabari registra que en el año 90 Qutayba conquistó Bujará y derrotó a los ejércitos enemigos allí {cite:tabari-tarikh-abu-al-fadl j.6 p.442}; en el mismo año llega el informe de la conquista de Taliqan {cite:tabari-tarikh-abu-al-fadl j.6 p.447}."
   fr: "Tabari rapporte qu'en l'an 90, Qutayba conquit Boukhara et mit en déroute les armées ennemies qui s'y trouvaient {cite:tabari-tarikh-abu-al-fadl j.6 p.442}; la même année paraît le rapport de la conquête de Taliqan {cite:tabari-tarikh-abu-al-fadl j.6 p.447}."
   ur: "طبری میں درج ہے کہ 90 میں قطیبہ نے بخارا کو فتح کیا اور وہاں کے دشمنوں کو شکست دی۔ اسی سال تالقان کی فتح کی رپورٹ آتی ہے {حوالہ: طبری-تاریخ-ابو الفضل ج.6 ص447}۔"
+  tr: "Taberi, doksanlı yılda Kuteybe'nin Buhara'yı fethettiğini ve oradaki düşman kuvvetlerini yendiğini belirtmiştir (kaynak: tabari-tarikh-abu-al-fadl, 6. cilt, s. 442) ve aynı yıl Talqan'ın fethine dair haberler de gelmiştir (kaynak: tabari-tarikh-abu-al-fadl, 6. cilt, s. 447)."
+  id: "Al-Tabari menyebutkan pada tahun sembilan puluh bahwa Qutaybah menaklukkan Bukhara dan mengalahkan pasukan musuh di sana {cite:tabari-tarikh-abu-al-fadl j.6 p.442}, dan pada tahun yang sama berita tentang penaklukan Talqan {cite:tabari-tarikh-abu-al-fadl j.6 p.447}."
 relations:
   - { type: occurred_at, target: place/bukhara, sources: [source/tabari-tarikh-abu-al-fadl] }
   - { type: during_reign, target: person/al-walid-ibn-abd-al-malik, sources: [source/tarikh-khulafa-minhaj-1434] }

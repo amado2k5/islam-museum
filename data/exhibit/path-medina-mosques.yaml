@@ -7,6 +7,8 @@ label:
   es: "Mezquitas de Medina"
   fr: "Mosquées de Médine"
   ur: "مدینہ کی مساجد"
+  tr: "Şehir camileri"
+  id: "Masjid-masjid kota"
 summary:
   ar: 'مسار في مساجد المدينة الأولى: قباء أول المساجد، والقبلتين تحوّل القبلة، ومسجد الضرار يُهدم — تاريخ
     في العمارة.'
@@ -14,6 +16,8 @@ summary:
   es: "Un recorrido por las primeras mezquitas de Medina."
   fr: "Un parcours à travers les premières mosquées de Médine."
   ur: "مدینہ کی پہلی مساجد سے گزرنے والا راستہ۔"
+  tr: "İlk şehrin camilerinden geçen bir rota: Kuba, ilk cami ve iki kıble, namaz yönünün değiştirilmesi ve Mescid-i Dirar'ın yıkılması - mimari bir tarih."
+  id: "Sebuah rute melalui masjid-masjid di kota pertama: Quba, masjid pertama, dan dua kiblat, arah salat berubah, dan Masjid al-Dirar dihancurkan — sebuah sejarah dalam arsitektur."
 audience:
 - newcomer
 - student
@@ -28,12 +32,16 @@ rooms:
     es: "Quba"
     fr: "Quba"
     ur: "قبا"
+    tr: "Quba"
+    id: "Quba"
   body:
     ar: 'أول مسجد في الإسلام: عند الطريق.'
     en: 'أول مسجد في الإسلام: عند الطريق.'
     es: "La primera mezquita del Islam: al borde del camino."
     fr: "La première mosquée de l'Islam: en bord de route."
     ur: "اسلام کی پہلی مسجد: سڑک کے کنارے۔"
+    tr: "İslam'ın ilk camisi: yol kenarında."
+    id: "Masjid pertama dalam Islam: di pinggir jalan."
   features:
   - building/masjid-quba
   - place/medina
@@ -43,12 +51,16 @@ rooms:
     es: "El Nabawi"
     fr: "Le Nabawi"
     ur: "نبوی"
+    tr: "Peygamberlik"
+    id: "Kenabian"
   body:
     ar: المدينة تبني مسجدها الأعظم.
     en: المدينة تبني مسجدها الأعظم.
     es: "La ciudad está construyendo su gran mezquita."
     fr: "La ville est en train de construire sa grande mosquée."
     ur: "شہر اپنی عظیم الشان مسجد بنا رہا ہے۔"
+    tr: "Şehir, görkemli camisini inşa ediyor."
+    id: "Kota itu sedang membangun masjid besarnya."
   features:
   - building/prophets-mosque
   - place/medina
@@ -58,12 +70,16 @@ rooms:
     es: "Qiblatayn"
     fr: "Qiblatayn"
     ur: "قبلتین"
+    tr: "İki Kıble"
+    id: "Dua Kiblat"
   body:
     ar: 'القبلة تتحول وسط الصلاة: برواية أهله.'
     en: 'القبلة تتحول وسط الصلاة: برواية أهله.'
     es: "La dirección de la oración cambia durante la misma: según la narración de su familia."
     fr: "Le sens de la prière change au cours de celle-ci: selon le récit de sa famille."
     ur: "نماز کے دوران نماز کی سمت بدل جاتی ہے: اس کے اہل خانہ کی روایت کے مطابق۔"
+    tr: "Ailesinin rivayetine göre, namaz sırasında namazın yönü değişir."
+    id: "Arah salat berubah-ubah selama salat: menurut riwayat keluarganya."
   features:
   - building/masjid-al-qiblatayn
   - concept/adillat-al-qibla
@@ -73,12 +89,16 @@ rooms:
     es: "Dirar"
     fr: "Dirar"
     ur: "دیرار"
+    tr: "Zarar"
+    id: "Menyakiti"
   body:
     ar: 'مسجد الضرار: النفاق يُهدم.'
     en: 'مسجد الضرار: النفاق يُهدم.'
     es: "La Mezquita de la Disensión: La hipocresía ha sido demolida."
     fr: "La Mosquée de la Dissension: L'hypocrisie est démolie."
     ur: "اختلاف کی مسجد: منافقت منہدم ہو گئی۔"
+    tr: "Fitne Camii: İkiyüzlülük yerle bir edildi."
+    id: "Masjid Perpecahan: Kemunafikan dihancurkan."
   features:
   - building/masjid-dirar
   - place/medina
@@ -88,12 +108,16 @@ rooms:
     es: "La visita"
     fr: "La visite"
     ur: "دورہ"
+    tr: "Ziyaret etmek"
+    id: "Mengunjungi"
   body:
     ar: 'مساجد الزوار: قباء يوم السبت.'
     en: 'مساجد الزوار: قباء يوم السبت.'
     es: "Mezquitas para visitantes: Quba el sábado."
     fr: "Mosquées pour les visiteurs: Quba, samedi."
     ur: "زائرین کی مساجد: ہفتہ کو قبا۔"
+    tr: "Ziyaretçi camileri: Cumartesi günü Quba."
+    id: "Masjid-masjid yang dikunjungi wisatawan: Quba pada hari Sabtu."
   features:
   - building/masjid-quba
   - practice/salat

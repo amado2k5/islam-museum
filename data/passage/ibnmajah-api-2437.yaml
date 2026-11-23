@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/sunan-ibn-majah
 ref: "2437"
-label: { ar: "سنن ابن ماجه 2437 — ذكر أمم وأديان وشعوب غير مسلمة", en: "Sunan Ibn Majah 2437 — mentions of non-Muslim nations, religions and peoples", ur: "سنن ابن ماجہ 2437 — غیر مسلم امتوں، ادیان اور اقوام کا ذکر", es: "Sunan Ibn Majah 2437 — menciones de naciones, religiones y pueblos no musulmanes", fr: "Sunan Ibn Majah 2437 — mentions de nations, de religions et de peuples non musulmans" }
+label: { ar: "سنن ابن ماجه 2437 — ذكر أمم وأديان وشعوب غير مسلمة", en: "Sunan Ibn Majah 2437 — mentions of non-Muslim nations, religions and peoples", ur: "سنن ابن ماجہ 2437 — غیر مسلم امتوں، ادیان اور اقوام کا ذکر", es: "Sunan Ibn Majah 2437 — menciones de naciones, religiones y pueblos no musulmanes", fr: "Sunan Ibn Majah 2437 — mentions de nations, de religions et de peuples non musulmans", tr: "Sunan İbn Majah 2437 — Gayrimüslim milletlerin, dinlerin ve halkların anılması", id: "Sunan Ibn Majah 2437 — Penyebutan bangsa, agama, dan kaum non-Muslim" }
 text: "حَدَّثَنَا نَصْرُ بْنُ عَلِيٍّ الْجَهْضَمِيُّ، حَدَّثَنِي أَبِي، حَدَّثَنَا هِشَامٌ، عَنْ قَتَادَةَ، عَنْ أَنَسٍ، قَالَ لَقَدْ رَهَنَ رَسُولُ اللَّهِ دِرْعَهُ عِنْدَ يَهُودِيٍّ بِالْمَدِينَةِ فَأَخَذَ لأَهْلِهِ مِنْهُ شَعِيرًا."
 summary:
   ar: "حديث في سنن ابن ماجه، رقم 2437، فيه ذكر أمم وأديان وشعوب غير مسلمة. يجمعه متصفح الأمم والأديان والطوائف والشعوب غير المسلمة مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
@@ -11,6 +11,8 @@ summary:
   ur: "سنن ابن ماجہ کی حدیث نمبر 2437، جس میں غیر مسلم امتوں، ادیان اور اقوام کا ذکر ہے۔ غیر مسلم امتوں، ادیان، فرقوں اور اقوام کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un informe en Sunan Ibn Majah, n.° 2437 (Los capítulos sobre el empeño), con menciones de naciones, religiones y pueblos no musulmanes. El Umam Browser lo incluye en su lista junto con los textos del Corán, la Sunnah, la sirah y los libros sobre naciones, religiones, sectas y pueblos no musulmanes."
   fr: "Un rapport du Sunan Ibn Majah, n° 2437 (Les chapitres sur le gage), mentionne des nations, des religions et des peuples non musulmans. Le navigateur Umam le répertorie avec les textes du Coran, de la Sunna, de la Sîra et les ouvrages sur les nations, les religions, les sectes et les peuples non musulmans."
+  tr: "İbn Majah'ın Sünen'inde yer alan 2437 numaralı hadis, gayrimüslim milletleri, dinleri ve halkları zikretmektedir. Bu hadis, gayrimüslim milletler, dinler, mezhepler ve halklar konusunda uzmanlaşmış bir araştırmacı tarafından, Kur'an, Sünnet, Peygamberin biyografisi ve konuyla ilgili diğer kitaplardan ilgili metinlerle birlikte derlenmiştir."
+  id: "Sebuah hadits dalam Sunan Ibn Majah, nomor 2437, menyebutkan bangsa-bangsa, agama-agama, dan kaum-kaum non-Muslim. Hadits ini disusun oleh seorang peneliti yang ahli dalam bangsa-bangsa, agama-agama, sekte-sekte, dan kaum-kaum non-Muslim, bersama dengan teks-teks yang relevan dari Al-Quran, Sunnah, biografi Nabi, dan buku-buku lain tentang subjek tersebut."
 relations:
   - { type: mentions, target: group/al-yahud, sources: [source/sunan-ibn-majah, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-ibnmajah, hadith 2437 (book 16 hadith 2); matn excerpt of at most 55 words chosen by the umam detector (scripts/umam.ts), honorific formulas left out", generated_by: "Devin (SWE-2 Medium)", model: "swe-2-medium", run: "umam-hadithapi-1" }

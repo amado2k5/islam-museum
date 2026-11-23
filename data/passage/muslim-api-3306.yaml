@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/sahih-muslim
 ref: "3306"
-label: { ar: "صحيح مسلم 3306 — ما أُحل، ما لا يحل", en: "Sahih Muslim 3306 — what was made lawful; what is not lawful", ur: "صحیح مسلم 3306 — جو حلال کیا گیا، جو حلال نہیں", es: "Sahih Muslim 3306 — lo que se ha hecho lícito; lo que no es lícito", fr: "Sahih Muslim 3306 — Ce qui a été rendu licite; ce qui ne l'est pas" }
+label: { ar: "صحيح مسلم 3306 — ما أُحل، ما لا يحل", en: "Sahih Muslim 3306 — what was made lawful; what is not lawful", ur: "صحیح مسلم 3306 — جو حلال کیا گیا، جو حلال نہیں", es: "Sahih Muslim 3306 — lo que se ha hecho lícito; lo que no es lícito", fr: "Sahih Muslim 3306 — Ce qui a été rendu licite; ce qui ne l'est pas", tr: "Sahih Muslim 3306 — Neler caizdir, neler caiz değildir", id: "Sahih Muslim 3306 — Apa yang diperbolehkan, apa yang tidak diperbolehkan" }
 text: "… رَاحِلَتَهُ فَخَطَبَ فَقَالَ \" إِنَّ اللَّهَ عَزَّ وَجَلَّ حَبَسَ عَنْ مَكَّةَ الْفِيلَ وَسَلَّطَ عَلَيْهَا رَسُولَهُ وَالْمُؤْمِنِينَ أَلاَ وَإِنَّهَا لَمْ تَحِلَّ لأَحَدٍ قَبْلِي وَلَنْ تَحِلَّ لأَحَدٍ بَعْدِي أَلاَ وَإِنَّهَا أُحِلَّتْ لِي سَاعَةً مِنَ النَّهَارِ أَلاَ وَإِنَّهَا سَاعَتِي هَذِهِ حَرَامٌ لاَ يُخْبَطُ شَوْكُهَا وَلاَ يُعْضَدُ شَجَرُهَا وَلاَ يَلْتَقِطُ سَاقِطَتَهَا إِلاَّ مُنْشِدٌ وَمَنْ قُتِلَ لَهُ قَتِيلٌ فَهُوَ بِخَيْرِ …"
 summary:
   ar: "حديث في صحيح مسلم، رقم 3306، يذكر ما أُحل، وما لا يحل، والحرام. يجمعه متصفح الحلال والحرام مع نصوص القرآن والسنة والسيرة وأخبار الصحابة والتابعين في ما أُحل وما حُرّم."
@@ -11,6 +11,8 @@ summary:
   ur: "صحیح مسلم کی حدیث نمبر 3306، جس میں جو حلال کیا گیا، جو حلال نہیں، حرام کا ذکر ہے۔ حلال و حرام براؤزر اسے قرآن، سنت، سیرت اور صحابہ و تابعین کے آثار کی ان نصوص کے ساتھ جمع کرتا ہے جو حلال اور حرام بیان کرتی ہیں۔"
   es: "Un informe del Sahih Muslim, n.º 3306 (El Libro de la Peregrinación), menciona lo que es lícito, lo que no lo es y lo que es ilícito. El Navegador Halal y Haram lo incluye junto con los textos del Corán, la Sunnah, la Seerah y los relatos de los Compañeros y los Sucesores sobre lo que es lícito e ilícito."
   fr: "Un hadith du Sahih Muslim, n° 3306 (Le Livre du Pèlerinage), mentionne ce qui est licite, ce qui ne l'est pas et ce qui est illicite. Le Halal and Haram Browser le répertorie avec les textes du Coran, de la Sunna, de la Sîra et les hadiths des Compagnons et des Successeurs concernant le licite et l'illicite."
+  tr: "Sahih Müslim'de 3306 numaralı hadis, helal, haram ve haramdan bahsetmektedir. Helal ve haram sözlüğünün bu bölümü, helal ve haram olan şeylerle ilgili olarak Kur'an, Sünnet, Peygamberimizin hayatı ve Sahabeler ile onların haleflerinin sözlerinden derlenmiştir."
+  id: "Sebuah hadits dalam Sahih Muslim, nomor 3306, menyebutkan apa yang diperbolehkan, tidak diperbolehkan, dan dilarang. Bagian kamus halal dan haram ini menyusunnya dengan teks-teks dari Al-Quran, Sunnah, biografi Nabi, dan ucapan para Sahabat dan Penerus mereka mengenai apa yang diperbolehkan dan dilarang."
 relations:
   - { type: part_of, target: passage/muslim-kitab-15 }
   - { type: mentions, target: concept/halal-haram, sources: [source/sahih-muslim, source/hadith-api-fawazahmed0] }

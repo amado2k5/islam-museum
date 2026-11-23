@@ -3,10 +3,12 @@ class: passage
 unit: hadith
 work: work/sahih-al-bukhari
 ref: "3905"
-label: { ar: "البخاري 3905 — حديث الهجرة الطويل", en: "Bukhari 3905 — The long hijra narrative", es: "Bukhari 3905 — La larga narración de la hijra", fr: "Bukhari 3905 — Le long récit de l'Hégire", ur: "بخاری 3905 - طویل حجرہ حکایت" }
+label: { ar: "البخاري 3905 — حديث الهجرة الطويل", en: "Bukhari 3905 — The long hijra narrative", es: "Bukhari 3905 — La larga narración de la hijra", fr: "Bukhari 3905 — Le long récit de l'Hégire", ur: "بخاری 3905 - طویل حجرہ حکایت", tr: "Buhari 3905 — Hicretin uzun hadisi", id: "Bukhari 3905 — Hadits panjang tentang hijrah" }
 text: "قالت عائشة: لم أعقل أبوي قط إلا وهما يدينان الدين… خرج أبو بكر مهاجراً نحو أرض الحبشة حتى بلغ برك الغماد، لقيه ابن الدغنة وهو سيد القارة فقال: إن مثلك يا أبا بكر لا يخرج ولا يخرج"
 summary:
   ar: "في كتاب مناقب الأنصار باب هجرة النبي وأصحابه إلى المدينة؛ أطول حديث في السيرة المكية بالصحيح، ترويه عائشة عن عروة عن ابن شهاب: بداية الإسلام في بيت أبي بكر، وهجرة أبي بكر إلى الحبشة وجواب ابن الدغنة وجواره، ومسجد أبي بكر في فناء داره، ثم أذن الهجرة، وليلة الغار، وسراقة، وأم معبد، ودخول المدينة وقول الناس «جاء النبي»."
+  tr: "“Ensarın Faziletleri” adlı kitapta, Peygamber ve sahabelerinin Medine'ye hicreti bölümünde, Aişe'nin Urva'dan, Urva da İbn Şihab'dan rivayet ettiği, sahih Mekkeli biyografilerinde yer alan en uzun hadis bulunmaktadır: İslam'ın Ebu Bekir'in evinde başlaması, Ebu Bekir'in Habeşistan'a hicreti, İbn el-Dağna'nın cevabı ve koruması, Ebu Bekir'in evinin avlusundaki mescidi, ardından hicret izni, mağara gecesi, Suraka, Ümmü Ma'bede, Medine'ye giriş ve insanların \"Peygamber geldi\" demesi."
+  id: "Dalam kitab “Keutamaan Kaum Ansar,” pada bab tentang hijrah Nabi dan para sahabatnya ke Madinah, terdapat hadits terpanjang dalam biografi otentik Mekah, diriwayatkan oleh Aisyah dari Urwa dari Ibnu Shihab: permulaan Islam di rumah Abu Bakar, hijrah Abu Bakar ke Abyssinia, tanggapan dan perlindungan Ibnu al-Daghna, masjid Abu Bakar di halaman rumahnya, kemudian izin hijrah, malam gua, Suraqah, Umm Ma’bad, memasuki Madinah dan orang-orang berkata, “Nabi telah datang.”"
 relations:
   - { type: part_of, target: passage/bukhari-kitab-63 }
   - { type: mentions, target: event/hijra-departure, sources: [source/sahih-al-bukhari] }

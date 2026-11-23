@@ -4,9 +4,11 @@ unit: hadith
 chain: [person/malik-ibn-anas, person/muhammad-ibn-shihab-al-zuhri]
 work: work/muwatta-malik
 ref: "1873"
-label: { ar: "الموطأ 1873 — مالك عن ابن شهاب بمثل ذلك", en: "Muwatta 1873", es: "Muwatta 1873", fr: "Muwatta 1873", ur: "موطا 1873" }
+label: { ar: "الموطأ 1873 — مالك عن ابن شهاب بمثل ذلك", en: "Muwatta 1873", es: "Muwatta 1873", fr: "Muwatta 1873", ur: "موطا 1873", tr: "El-Muvatta 1873 — Malik, İbn Şihab'ın aynı rivayetine dayanarak", id: "Al-Muwatta 1873 — Malik berdasarkan riwayat Ibn Shihab dengan keterangan yang sama" }
 summary:
   ar: "يروي مالك عن ابن شهاب بمثل ذلك، أي النهي عن أن يبيع الرجل الطعام بالذهب إلى أجل ثم يشتري بالذهب تمرا قبل قبضه. {cite:muwatta-maruf-1997 p.170}"
+  tr: "Malik, İbn Şihab'dan benzer bir şeyi, yani bir adamın yiyecekleri altın karşılığında veresiye satıp, daha sonra o altını kullanarak hurma satın alıp, hurmaları teslim almadan önce bu şekilde almasının yasak olduğunu rivayet eder. {cite:muwatta-maruf-1997 s.170}"
+  id: "Malik meriwayatkan dari Ibnu Shihab sesuatu yang serupa, yaitu larangan bagi seseorang untuk menjual makanan dengan imbalan emas secara kredit, kemudian menggunakan emas tersebut untuk membeli kurma sebelum menerimanya. {cite:muwatta-maruf-1997 p.170}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-17-buyu }
   - { type: mentions, target: person/malik-ibn-anas, sources: [source/muwatta-maruf-1997] }

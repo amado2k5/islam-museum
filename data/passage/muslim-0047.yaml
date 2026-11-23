@@ -3,10 +3,12 @@ class: passage
 unit: hadith
 work: work/sahih-muslim
 ref: "47"
-label: { ar: "مسلم 47 — من كان يؤمن بالله واليوم الآخر فليقل خيراً أو ليصمت", en: "Muslim 47 — Whoever believes in God and the Last Day, let him speak good or stay silent", es: "Musulmán 47 — Quien crea en Dios y en el Último Día, que hable bien o que guarde silencio.", fr: "Muslim 47 — Que celui qui croit en Dieu et au Jour dernier dise du bien ou qu'il se taise.", ur: "مسلم 47 - جو شخص خدا اور یوم آخرت پر ایمان رکھتا ہے وہ اچھی بات کہے یا خاموش رہے۔" }
+label: { ar: "مسلم 47 — من كان يؤمن بالله واليوم الآخر فليقل خيراً أو ليصمت", en: "Muslim 47 — Whoever believes in God and the Last Day, let him speak good or stay silent", es: "Musulmán 47 — Quien crea en Dios y en el Último Día, que hable bien o que guarde silencio.", fr: "Muslim 47 — Que celui qui croit en Dieu et au Jour dernier dise du bien ou qu'il se taise.", ur: "مسلم 47 - جو شخص خدا اور یوم آخرت پر ایمان رکھتا ہے وہ اچھی بات کہے یا خاموش رہے۔", tr: "Müslim 47 — Allah'a ve ahiret gününe iman eden kimse ya güzel söz söylesin ya da sussun.", id: "Muslim 47 — Barangsiapa beriman kepada Allah dan Hari Kiamat, hendaklah ia berbicara yang baik atau diam saja." }
 text: "قال رسول الله: «من كان يؤمن بالله واليوم الآخر فليقل خيراً أو ليصمت، ومن كان يؤمن بالله واليوم الآخر فليكرم جاره، ومن كان يؤمن بالله واليوم الآخر فليكرم ضيفه»"
 summary:
   ar: "رواية أبي هريرة في كتاب الإيمان من صحيح مسلم؛ قول الخير أو الصمت وإكرام الجار والضيف شعب من الإيمان — من أشهر نصوص آداب اللسان والجوار."
+  tr: "Sahih Müslim'de yer alan İman Kitabı'ndaki Ebu Hurayra rivayeti şöyledir: \"Güzel söz söylemek veya susmak, komşuya ve misafire saygı göstermek imanın dallarıdır.\" Bu, konuşma adabı ve komşuluk ilişkileri üzerine en meşhur metinlerden biridir."
+  id: "Riwayat Abu Hurairah dalam Kitab Iman dari Sahih Muslim: “Berbicara yang baik atau diam dan menghormati tetangga dan tamu adalah cabang-cabang iman” — salah satu teks paling terkenal tentang adab berbicara dan bertetangga."
 relations:
   - { type: part_of, target: passage/muslim-kitab-01 }
   - { type: mentions, target: person/muhammad, sources: [source/sahih-muslim] }

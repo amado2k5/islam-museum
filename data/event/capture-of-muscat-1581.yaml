@@ -1,13 +1,15 @@
 id: event/capture-of-muscat-1581
 class: event
 kind: battle
-label: { ar: "أخذ مسقط ⁦(١٥٨١)⁩", en: "Capture of Muscat", es: "Captura de Mascate", fr: "Prise de Mascate", ur: "مسقط پر قبضہ" }
+label: { ar: "أخذ مسقط ⁦(١٥٨١)⁩", en: "Capture of Muscat", es: "Captura de Mascate", fr: "Prise de Mascate", ur: "مسقط پر قبضہ", tr: "Muskat (1581)'de ele geçirdi.", id: "Muscat mengambil (1581)" }
 summary:
   ar: "بطاقة أولية لأخذ مسقط سنة ١٥٨١م، غارة مير علي بك على الحامية البرتغالية؛ لم تُراجع مصادره على الصفحة بعد."
   en: "Draft card for the Capture of Muscat in 1581, Mir Ali Beg's raid on the Portuguese garrison; its sources are not yet checked on the page."
   es: "Boceto de ficha para la captura de Mascate en 1581, incursión de Mir Ali Beg contra la guarnición portuguesa; sus fuentes aún no han sido verificadas en la página."
   fr: "Projet de fiche pour la prise de Mascate en 1581, le raid de Mir Ali Beg sur la garnison portugaise; ses sources ne sont pas encore vérifiées sur la page."
   ur: "1581 میں مسقط پر قبضے کے لیے کارڈ کا مسودہ، میر علی بیگ کا پرتگالی گیریژن پر حملہ؛ اس کے ذرائع ابھی تک صفحہ پر چیک نہیں کیے گئے ہیں۔"
+  tr: "1581 yılında Mir Ali Bey'in Portekiz garnizonuna düzenlediği baskında Maskat'ın ele geçirilmesine dair ön hazırlık kartı; sayfadaki kaynaklar henüz incelenmemiştir."
+  id: "Kartu pendahuluan untuk penaklukan Muscat pada tahun 1581 M, serangan Mir Ali Bey terhadap garnisun Portugis; sumber-sumber di halaman ini belum ditinjau."
 relations:
   - { type: occurred_at, target: place/muscat, sources: [source/dawlat-uthmaniyya-salabi] }
   - { type: during_reign, target: person/murad-iii-uthmani, sources: [source/sicill-i-osmani] }

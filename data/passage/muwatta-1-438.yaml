@@ -4,9 +4,11 @@ unit: hadith
 chain: [person/malik-ibn-anas, person/nafi-al-madani]
 work: work/muwatta-malik
 ref: "1.438"
-label: { ar: "الموطأ 438 — ابن عمر لا يقنت في شيء من الصلاة", en: "Muwatta 438", es: "Muwatta 438", fr: "Muwatta 438", ur: "موطا 438" }
+label: { ar: "الموطأ 438 — ابن عمر لا يقنت في شيء من الصلاة", en: "Muwatta 438", es: "Muwatta 438", fr: "Muwatta 438", ur: "موطا 438", tr: "El-Muvatta 438 — İbn Ömer, namazların hiçbirinde kunut duasını okumaz.", id: "Al-Muwatta 438 — Ibnu Umar tidak membaca doa qunut dalam salat mana pun." }
 summary:
   ar: "أثر وحيد في باب القنوت في الصبح. يرويه يحيى عن مالك عن نافع أن عبد الله بن عمر كان لا يقنت في شيء من الصلاة. ويذكر المحقق أنه رواه عن مالك أبو مصعب وسويد والقعنبي وابن وهب عند الطحاوي وعبد الرزاق ومحمد بن الحسن. {cite:muwatta-maruf-1997 p.226}"
+  tr: "Sabah namazında Kunut konusuyla ilgili sadece bir rivayet bulunmaktadır. Yahya'nın Malik'ten, o da Nafi'den naklettiğine göre, Abdullah ibn Umar namazlarının hiçbirinde Kunut okumamıştır. Araştırmacı, bunun Malik'ten nakledilerek Ebu Mus'ab, Suwaid, el-Ka'nabi ve İbn Vahb tarafından da rivayet edildiğini, el-Tahavi, Abdül-Razzak ve Muhammed ibn el-Hasan tarafından da kaydedildiğini belirtmektedir. {cite:muwatta-maruf-1997 s.226}"
+  id: "Hanya ada satu riwayat mengenai topik Qunut dalam salat subuh. Riwayat ini diriwayatkan oleh Yahya dari Malik dari Nafi’ bahwa Abdullah ibn Umar tidak membaca Qunut dalam salat apa pun. Peneliti menyebutkan bahwa riwayat ini diriwayatkan dari Malik oleh Abu Mus’ab, Suwaid, al-Qa’nabi, dan Ibn Wahb, sebagaimana dicatat oleh al-Tahawi, Abd al-Razzaq, dan Muhammad ibn al-Hasan. {cite:muwatta-maruf-1997 p.226}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-01-salat }
   - { type: mentions, target: person/abdullah-ibn-umar, sources: [source/muwatta-maruf-1997] }

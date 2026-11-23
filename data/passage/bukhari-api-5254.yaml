@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/sahih-al-bukhari
 ref: "5254"
-label: { ar: "صحيح البخاري 5254 — الأب والأبوة", en: "Sahih al-Bukhari 5254 — the father and fatherhood", ur: "صحیح بخاری 5254 — باپ اور والدیت", es: "Sahih al-Bukhari 5254 — El padre y la paternidad", fr: "Sahih al-Bukhari 5254 — Le père et la paternité" }
+label: { ar: "صحيح البخاري 5254 — الأب والأبوة", en: "Sahih al-Bukhari 5254 — the father and fatherhood", ur: "صحیح بخاری 5254 — باپ اور والدیت", es: "Sahih al-Bukhari 5254 — El padre y la paternidad", fr: "Sahih al-Bukhari 5254 — Le père et la paternité", tr: "Sahih el-Buhari 5254 — Baba ve Babalık", id: "Sahih al-Bukhari 5254 — Ayah dan Peran Ayah" }
 text: "… سَأَلْتُ الزُّهْرِيَّ أَىُّ أَزْوَاجِ النَّبِيِّ اسْتَعَاذَتْ مِنْهُ قَالَ أَخْبَرَنِي عُرْوَةُ عَنْ عَائِشَةَا ـ أَنَّ ابْنَةَ الْجَوْنِ لَمَّا أُدْخِلَتْ عَلَى رَسُولِ اللَّهِ وَدَنَا مِنْهَا قَالَتْ أَعُوذُ بِاللَّهِ مِنْكَ. فَقَالَ لَهَا \" لَقَدْ عُذْتِ بِعَظِيمٍ، الْحَقِي بِأَهْلِكِ \". قَالَ أَبُو عَبْدِ اللَّهِ رَوَاهُ حَجَّاجُ بْنُ أَبِي مَنِيعٍ عَنْ جَدِّهِ عَنِ الزُّهْرِيِّ أَنَّ عُرْوَةَ أَخْبَرَهُ أَنَّ عَائِشَةَ قَالَتْ."
 summary:
   ar: "حديث في صحيح البخاري، رقم 5254، يذكر الأب والأبوة. يجمعه متصفح الأبوة في الإسلام مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
@@ -11,6 +11,8 @@ summary:
   ur: "صحیح بخاری کی حدیث نمبر 5254، جس میں باپ اور والدیت کا ذکر ہے۔ اسلام میں ابوبت کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un relato en Sahih al-Bukhari, n.° 5254 (Divorcio), menciona al padre y la paternidad. El navegador \"La paternidad en el Islam\" lo incluye junto con los textos del Corán, la Sunnah, la sirah y los libros sobre el padre."
   fr: "Un hadith du Sahih al-Bukhari, n° 5254 (Divorce), mentionne le père et la paternité. Le site « Paternité en Islam » le répertorie avec les textes du Coran, de la Sunna, de la Sîra et les ouvrages traitant de la paternité."
+  tr: "Sahih el-Buhari'de 5254 numaralı hadis, baba ve babalık kavramından bahsetmektedir. \"İslam'da Babalık\" tarayıcısı, bu hadisi Kur'an, Sünnet, biyografi ve bu konuyla ilgili diğer kitaplardan derlemektedir."
+  id: "Sebuah hadits dalam Sahih al-Bukhari, nomor 5254, menyebutkan tentang ayah dan peran ayah. Situs web \"Peran Ayah dalam Islam\" mengumpulkan hadits tersebut dengan teks-teks dari Al-Quran, Sunnah, biografi, dan buku-buku lain tentang topik ini."
 relations:
   - { type: mentions, target: concept/ubuwwa, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-bukhari, hadith 5254 (book 68 hadith 4); matn excerpt of at most 55 words chosen by the fatherhood detector (scripts/ubuwwa.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "ubuwwa-hadithapi-1" }

@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/sahih-al-bukhari
 ref: "2664"
-label: { ar: "صحيح البخاري — حديث 2664", en: "Sahih al-Bukhari 2664 — Witnesses", ur: "صحیح بخاری — حدیث 2664", es: "Sahih al-Bukhari 2664 — Testigos", fr: "Sahih al-Bukhari 2664 — Témoins" }
+label: { ar: "صحيح البخاري — حديث 2664", en: "Sahih al-Bukhari 2664 — Witnesses", ur: "صحیح بخاری — حدیث 2664", es: "Sahih al-Bukhari 2664 — Testigos", fr: "Sahih al-Bukhari 2664 — Témoins", tr: "Sahih el-Buhari — Hadis 2664", id: "Sahih al-Bukhari — Hadits 2664" }
 text: "ابْنُ عُمَرَ ـ رضى الله عنهما ـ أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم عَرَضَهُ يَوْمَ أُحُدٍ وَهْوَ ابْنُ أَرْبَعَ عَشْرَةَ سَنَةً، فَلَمْ يُجِزْنِي، ثُمَّ عَرَضَنِي يَوْمَ الْخَنْدَقِ وَأَنَا ابْنُ خَمْسَ عَشْرَةَ فَأَجَازَنِي‏.‏ قَالَ نَافِعٌ فَقَدِمْتُ عَلَى عُمَرَ بْنِ عَبْدِ الْعَزِيزِ وَهْوَ خَلِيفَةٌ، فَحَدَّثْتُهُ هَذَا الْحَدِيثَ، فَقَالَ إِنَّ هَذَا لَحَدٌّ بَيْنَ الصَّغِيرِ وَالْكَبِيرِ‏.‏ وَكَتَبَ إِلَى عُمَّالِهِ أَن …"
 summary:
   ar: "في صحيح البخاري؛ إرسال كتاب أو رسالة إلى طرف."
@@ -11,6 +11,8 @@ summary:
   ur: "صحیح بخاری میں؛ کسی فریق کو خط یا پیغام بھیجنا."
   es: "En Sahih al-Bukhari; enviar una carta o mensaje a una parte."
   fr: "Dans Sahih al-Bukhari; l'envoi d'une lettre ou d'un message à une personne."
+  tr: "Sahih el-Buhari'de; bir tarafa kitap veya mektup göndermek."
+  id: "Dalam Sahih al-Bukhari; mengirim buku atau surat kepada suatu pihak."
 relations:
   - { type: part_of, target: passage/bukhari-kitab-52 }
   - { type: mentions, target: person/muhammad, sources: [source/sahih-al-bukhari, source/hadith-api-fawazahmed0] }

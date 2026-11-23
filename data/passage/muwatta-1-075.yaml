@@ -4,9 +4,11 @@ unit: hadith
 chain: [person/malik-ibn-anas, person/hisham-ibn-urwa]
 work: work/muwatta-malik
 ref: "1.75"
-label: { ar: "الموطأ 75 — عروة ينزع العمامة ويمسح رأسه", en: "Muwatta 75", es: "75 Muwatta", fr: "75 Muwatta", ur: "75 موطا" }
+label: { ar: "الموطأ 75 — عروة ينزع العمامة ويمسح رأسه", en: "Muwatta 75", es: "75 Muwatta", fr: "75 Muwatta", ur: "75 موطا", tr: "Al-Muwatta 75 — Urwah sarığını çıkarır ve başını siler.", id: "Al-Muwatta 75 — Urwah melepas sorbannya dan mengusap kepalanya" }
 summary:
   ar: "أثر يرويه مالك عن هشام بن عروة، في باب ما جاء في المسح بالرأس والأذنين: كان أبوه عروة بن الزبير ينزع عمامته ويمسح رأسه بالماء. ويذكر المحقق أنه رواه عن مالك أبو مصعب وسويد وعبد الرزاق ومحمد بن الحسن ومعن بن عيسى ويحيى بن بكير. {cite:muwatta-maruf-1997 p.74}"
+  tr: "Malik'in, baş ve kulak silme ile ilgili rivayetler bölümünde, Hişam ibn Urve'den naklettiği bir rivayette şöyle denmektedir: Babası Urve ibn el-Zübeyr, sarığını çıkarır ve başını suyla silerdi. Editör, bu rivayetin Malik'ten Ebu Musab, Süveyd, Abdül-Razzak, Muhammed ibn el-Hasan, Ma'n ibn İsa ve Yahya ibn Bukayr tarafından nakledildiğini belirtmektedir. {cite:muwatta-maruf-1997 s.74}"
+  id: "Sebuah riwayat yang dinarasikan oleh Malik atas otoritas Hisham ibn Urwah, dalam bab tentang apa yang telah diriwayatkan mengenai mengusap kepala dan telinga: Ayahnya, Urwah ibn al-Zubayr, biasa melepas sorbannya dan mengusap kepalanya dengan air. Editor menyebutkan bahwa riwayat ini dinarasikan atas otoritas Malik oleh Abu Mus'ab, Suwaid, Abd al-Razzaq, Muhammad ibn al-Hasan, Ma'n ibn Isa, dan Yahya ibn Bukayr. {cite:muwatta-maruf-1997 p.74}"
 relations:
   - { type: part_of, target: passage/muwatta-kitab-01-salat }
   - { type: mentions, target: person/urwa-ibn-al-zubayr, sources: [source/muwatta-maruf-1997] }

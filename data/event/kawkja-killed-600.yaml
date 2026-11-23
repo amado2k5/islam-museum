@@ -1,7 +1,7 @@
 id: event/kawkja-killed-600
 class: event
 kind: death
-label: { ar: "قتل كوكجة ببلاد الجبل وولاية أيتغمش", en: "Kawkja killed in the Jibal; Aytaqmish succeeds", es: "Kawkja muere en Jibal; Aytaqmish le sucede.", fr: "Kawkja tué à Jibal; Aytaqmish lui succède", ur: "جبل میں کوکجا مارا گیا۔ آیتقمش کامیاب" }
+label: { ar: "قتل كوكجة ببلاد الجبل وولاية أيتغمش", en: "Kawkja killed in the Jibal; Aytaqmish succeeds", es: "Kawkja muere en Jibal; Aytaqmish le sucede.", fr: "Kawkja tué à Jibal; Aytaqmish lui succède", ur: "جبل میں کوکجا مارا گیا۔ آیتقمش کامیاب", tr: "Kokja, dağlık bölgede ve Aytmaç vilayetinde öldürüldü.", id: "Kokja terbunuh di wilayah pegunungan dan provinsi Aitghmach." }
 date:
   start: { edtf: "1203~", hijri: "0600", calendar: julian, precision: "year", status: tradition, derived: true }
 summary:
@@ -10,6 +10,8 @@ summary:
   es: "Kawkja, señor del Jibal, fue asesinado y Aytaqmish se apoderó de sus dominios {cite:kamil-ibn-al-athir p. 292}."
   fr: "Kawkja, maître des Jibal, fut tué et Aytaqmish prit possession de ses domaines {cite:kamil-ibn-al-athir p. 292}."
   ur: "جبل کے آقا کوکجا کو قتل کر دیا گیا اور عتقمش نے اس کی حکومتیں سنبھال لیں۔ 292}۔"
+  tr: "Dağlık bölgenin hükümdarı Kokja öldürüldü ve Aytghmash onun yerine elindeki krallıkların yönetimini devraldı. {Kaynak: Kamil ibn al-athir s. 292}"
+  id: "Kokja, penguasa wilayah pegunungan, terbunuh, dan Aytghmash menggantikannya sebagai penguasa kerajaan-kerajaan yang berada di bawah kekuasaannya {cite:kamil-ibn-al-athir p. 292}."
 wings: [time]
 relations:
   - { type: occurred_at, target: place/jibal, sources: [source/kamil-ibn-al-athir] }

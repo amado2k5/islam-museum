@@ -7,12 +7,16 @@ label:
   es: "Ciudades de Irak"
   fr: "Villes d'Irak"
   ur: "عراق کے شہر"
+  tr: "Irak şehirleri"
+  id: "Kota-kota Irak"
 summary:
   ar: 'مسار في مدن الرافدين: الكوفة والبصرة أولًا، ثم بغداد المدورة، وسامراء العسكرية، والموصل على دجلة.'
   en: A trail through the cities of the two rivers.
   es: "Un sendero que recorre las ciudades de los dos ríos."
   fr: "Un sentier à travers les villes des deux fleuves."
   ur: "دو دریاؤں کے شہروں سے گزرتا ہوا راستہ۔"
+  tr: "Mezopotamya şehirlerinden geçen bir rota: önce Kufa ve Basra, ardından yuvarlak şehir Bağdat, askeri şehir Samarra ve Dicle üzerindeki Musul."
+  id: "Sebuah rute melalui kota-kota Mesopotamia: Kufa dan Basra terlebih dahulu, kemudian Kota Bundar Baghdad, Samarra Kota Militer, dan Mosul di tepi Sungai Tigris."
 audience:
 - newcomer
 - student
@@ -27,12 +31,16 @@ rooms:
     es: "Kufa"
     fr: "Koufa"
     ur: "کوفہ"
+    tr: "Kufa"
+    id: "Kufa"
   body:
     ar: 'مصر علي وفقه أبي حنيفة: أول الأمصار.'
     en: 'مصر علي وفقه أبي حنيفة: أول الأمصار.'
     es: "Egipto, según la escuela de pensamiento Hanafi: la primera de las ciudades."
     fr: "L'Égypte, selon l'école de pensée hanafite: la première des villes."
     ur: "مصر، حنفی مکتبہ فکر کے مطابق: شہروں میں سے پہلا۔"
+    tr: "Hanefi mezhebine göre Mısır, şehirlerin ilki."
+    id: "Mesir, menurut mazhab Hanafi: kota pertama."
   features:
   - place/kufa
   - person/abu-hanifa
@@ -42,12 +50,16 @@ rooms:
     es: "Basora"
     fr: "Bassorah"
     ur: "بصرہ"
+    tr: "Basra"
+    id: "Basra"
   body:
     ar: نحو سيبويه وصوفية رابعة.
     en: نحو سيبويه وصوفية رابعة.
     es: "Hacia Sibawayh y un cuarto sufí."
     fr: "Vers Sibawayh et un quatrième soufi."
     ur: "سباویہ اور چوتھے صوفی کی طرف۔"
+    tr: "Sibawayh'a ve dördüncü bir Sufiye doğru."
+    id: "Menuju Sibawah dan seorang Sufi keempat."
   features:
   - place/basra
   - person/sibawayh
@@ -57,12 +69,16 @@ rooms:
     es: "Bagdad"
     fr: "Bagdad"
     ur: "بغداد"
+    tr: "Bağdat"
+    id: "Bagdad"
   body:
     ar: 'مدينة السلام: المنصور يبني الدائرة 762.'
     en: 'مدينة السلام: المنصور يبني الدائرة 762.'
     es: "Ciudad de la Paz: Al-Mansur construye el Círculo 762."
     fr: "Ville de la Paix: Al-Mansur construit le Cercle 762."
     ur: "امن کا شہر: المنصور نے حلقہ 762 بنایا۔"
+    tr: "Barış Şehri: El-Mansur 762. Çemberi inşa ediyor."
+    id: "Kota Perdamaian: Al-Mansur membangun Bundaran 762."
   features:
   - place/baghdad
   - building/bayt-al-hikma
@@ -72,12 +88,16 @@ rooms:
     es: "Samarra"
     fr: "Samarra"
     ur: "سمارا"
+    tr: "Samarra"
+    id: "Samarra"
   body:
     ar: 'سر من رأى: عاصمة الخلفاء ستين سنة.'
     en: 'سر من رأى: عاصمة الخلفاء ستين سنة.'
     es: "Samarra: La capital de los califas durante sesenta años."
     fr: "Samarra: capitale des califes pendant soixante ans."
     ur: "سامراء: ساٹھ سال تک خلفاء کا دارالخلافہ۔"
+    tr: "Samarra: Altmış yıl boyunca halifelerin başkentiydi."
+    id: "Samarra: Ibu kota para Khalifah selama enam puluh tahun."
   features:
   - place/samarra
   - building/al-jami-al-kabir-samarra
@@ -87,12 +107,16 @@ rooms:
     es: "Mosul"
     fr: "Mossoul"
     ur: "موصل"
+    tr: "Musul"
+    id: "Mosul"
   body:
     ar: 'شمال الجزيرة: منارة الحدباء وزنكيون.'
     en: 'شمال الجزيرة: منارة الحدباء وزنكيون.'
     es: "Al norte de la isla: Faro de Al-Hadbaa y Zankiyun."
     fr: "Au nord de l'île: le phare d'Al-Hadbaa et Zankiyun."
     ur: "جزیرے کے شمال میں: الحدبہ لائٹ ہاؤس اور زنکیون۔"
+    tr: "Adanın kuzeyinde: Al-Hadbaa Deniz Feneri ve Zankiyun."
+    id: "Di sebelah utara pulau: Mercusuar Al-Hadbaa dan Zankiyun."
   features:
   - place/mosul
 prerequisites:

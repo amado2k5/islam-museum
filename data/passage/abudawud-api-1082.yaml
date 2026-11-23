@@ -3,7 +3,7 @@ class: passage
 unit: hadith
 work: work/sunan-abi-dawud
 ref: "1082"
-label: { ar: "سنن أبي داود 1082 — أثر من الآثار المحفوظة", en: "Sunan Abi Dawud 1082 — a relic kept after its owner", ur: "سنن ابی داؤد 1082 — محفوظ آثار و تبرکات", es: "Sunan Abi Dawud 1082 — una reliquia conservada después de su dueño.", fr: "Sunan Abi Dawud 1082 — une relique conservée après son propriétaire" }
+label: { ar: "سنن أبي داود 1082 — أثر من الآثار المحفوظة", en: "Sunan Abi Dawud 1082 — a relic kept after its owner", ur: "سنن ابی داؤد 1082 — محفوظ آثار و تبرکات", es: "Sunan Abi Dawud 1082 — una reliquia conservada después de su dueño.", fr: "Sunan Abi Dawud 1082 — une relique conservée après son propriétaire", tr: "Sünen Ebu Davud 1082 — Korunmuş bir hadis", id: "Sunan Abi Dawud 1082 — Sebuah hadits yang dilestarikan" }
 text: "حَدَّثَنَا مَخْلَدُ بْنُ خَالِدٍ، حَدَّثَنَا أَبُو عَاصِمٍ، عَنْ يَزِيدَ بْنِ أَبِي عُبَيْدٍ، عَنْ سَلَمَةَ بْنِ الأَكْوَعِ، قَالَ كَانَ بَيْنَ مِنْبَرِ رَسُولِ اللَّهِ وَبَيْنَ الْحَائِطِ كَقَدْرِ مَمَرِّ الشَّاةِ."
 summary:
   ar: "حديث في سنن أبي داود، رقم 1082، يذكر أثر من الآثار المحفوظة. يجمعه متصفح الوصايا والمواريث والآثار والمراقد مع نصوص القرآن والسنة والسيرة والكتب في هذا الباب."
@@ -11,6 +11,8 @@ summary:
   ur: "سنن ابی داؤد کی حدیث نمبر 1082، جس میں محفوظ آثار و تبرکات کا ذکر ہے۔ وصایا، ترکہ، آثار اور مراقد کا براؤزر اسے قرآن، سنت، سیرت اور کتابوں کی متعلقہ نصوص کے ساتھ جمع کرتا ہے۔"
   es: "Un relato en Sunan Abi Dawud, n.° 1082 (Oración (Kitab Al-Salat)), menciona una reliquia conservada tras la muerte de su dueño. El Navegador de Testamentos la incluye en su lista junto con los textos del Corán, la Sunnah, la sirah y los libros sobre testamentos, últimas horas, herencias, reliquias y tumbas."
   fr: "Un hadith du Sunan Abi Dawud, n° 1082 (La Prière), mentionne une relique conservée après son propriétaire. Le navigateur de testaments la répertorie avec les textes du Coran, de la Sunna, de la Sîra et les ouvrages traitant des testaments, de la fin des temps, des biens, des reliques et des tombes."
+  tr: "Sunan Ebu Davud'da 1082 numaralı hadis, günümüze kadar korunmuş bir rivayeti zikretmektedir. Bu hadis, vasiyetnameler, miras, gelenekler ve türbeler üzerine çalışan araştırmacılar tarafından Kur'an, Sünnet, biyografi ve bu konuyla ilgili diğer kitaplardan derlenmiştir."
+  id: "Sebuah hadits dalam Sunan Abi Dawud, no. 1082, menyebutkan sebuah tradisi yang lestari. Hadits ini dikumpulkan oleh para peneliti wasiat, warisan, tradisi, dan makam, bersama dengan teks-teks dari Al-Quran, Sunnah, biografi, dan buku-buku lain tentang topik ini."
 relations:
   - { type: mentions, target: concept/tabarruk, sources: [source/sunan-abi-dawud, source/hadith-api-fawazahmed0] }
 provenance: { layer: own-research, source: "fawazahmed0/hadith-api (Unlicense), edition ara-abudawud, hadith 1082 (book 2 hadith 693); matn excerpt of at most 55 words chosen by the testaments detector (scripts/wasaya.ts), honorific formulas left out", generated_by: "Claude (claude-fable-5-2)", model: "claude-fable-5-2", run: "wasaya-hadithapi-1" }
