@@ -1,0 +1,14 @@
+---
+id: passage/lubab-s003-x089
+lang: ur
+source_lang: ar
+translators: ["machine translation, draft"]
+---
+
+## Summary
+Al 'Imran 3 کے سببِ نزول پر سیوطی کی روایت — «لباب النقول» ⁦(شاملة 2247)⁩۔
+
+The verse, in al-Suyuti's heading: «أو لما أصابتكم مصيبة».
+
+## Place in the museum
+ماخذ: [[work/lubab-al-nuqul-suyuti|سیوطی کی «لباب النقول فی اسباب النزول»]]۔

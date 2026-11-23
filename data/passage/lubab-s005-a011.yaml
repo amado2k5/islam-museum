@@ -1,0 +1,35 @@
+id: passage/lubab-s005-a011
+class: passage
+unit: chapter
+work: work/lubab-al-nuqul-suyuti
+ref: "5:11"
+sura: 5
+aya: 11
+label:
+ ar: "al-Ma'ida 5:11 — سبب النزول ⁦(لباب النقول)⁩"
+ en: "al-Ma'ida 5:11 — occasion of revelation"
+ fr: "al-Ma'ida 5:11 — circonstance de révélation"
+ es: "al-Ma'ida 5:11 — ocasión de revelación"
+ ur: "al-Ma'ida 5:11 — سببِ نزول"
+ tr: "al-Ma'ida 5:11 — nüzul sebebi"
+ id: "al-Ma'ida 5:11 — sebab turunnya wahyu"
+text: "يا أيها الذين آمنوا اذكروا نعمة الله عليكم ألآية أخرج ابن جرير عن عكرمة ويزيد بن أبي زياد واللفظ له أن النبي خرج ومعه أبو بكر وعمر وعثمان وعلي وطلحة وعبد الرحمن بن عوف حتى دخلوا على كعب بن الأشرف ويهود"
+summary:
+ ar: "رواية السيوطي في سبب نزول al-Ma'ida 5:11 من «لباب النقول في أسباب النزول» ⁦(شاملة 2247)⁩"
+ en: "Al-Suyuti's report on the occasion of revelation of al-Ma'ida 5:11, in Lubab al-Nuqul fi Asbab al-Nuzul (Shamela 2247) — Tabi'i generation."
+ es: "Informe de al-Suyuti sobre la ocasión de revelación de al-Ma'ida 5:11, en Lubab al-Nuqul fi Asbab al-Nuzul (Shamela 2247) — generación de los Sucesores."
+ fr: "Rapport d'al-Suyuti sur la circonstance de révélation de al-Ma'ida 5:11, dans Lubab al-Nuqul fi Asbab al-Nuzul (Shamela 2247) — génération des Successeurs."
+ ur: "al-Ma'ida 5:11 کے سببِ نزول پر سیوطی کی روایت — «لباب النقول» ⁦(شاملة 2247)⁩ — تابعین کی نسل سے۔"
+ tr: "al-Ma'ida 5:11 ayetinin nüzul sebebi hakkında es-Suyuti'nin rivayeti; Lübabü'n-Nükul'den (Şamile 2247) — tabiin neslinden."
+ id: "Riwayat as-Suyuti tentang sebab turunnya al-Ma'ida 5:11, dalam Lubab al-Nuqul fi Asbab an-Nuzul (Shamela 2247) — generasi Tabi'in."
+relations:
+ - { type: mentions, target: concept/asbab-al-nuzul, sources: [source/lubab-nuqul-shamela-2247] }
+ - { type: revealed_about, target: passage/quran-5-11, sources: [source/lubab-nuqul-shamela-2247] }
+provenance:
+ layer: own-research
+ source: "lubab-nuqul-shamela-2247 — 5:11 — asbab-nuzul-browser harvest"
+ generated_by: "Devin (SWE-2 Medium)"
+ run: asbab-nuzul-browser-harvest
+tags: [nuzul-browser, nuzul-books, nuzul-tabii]
+sources: [source/lubab-nuqul-shamela-2247]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

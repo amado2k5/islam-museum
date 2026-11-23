@@ -1,0 +1,14 @@
+---
+id: passage/lubab-s020-a105
+lang: ur
+source_lang: ar
+translators: ["machine translation, draft"]
+---
+
+## Summary
+Ta Ha 20:105 کے سببِ نزول پر سیوطی کی روایت — «لباب النقول» ⁦(شاملة 2247)⁩۔
+
+The verse, in al-Suyuti's heading: «ويسألونك عن الجبال».
+
+## Place in the museum
+ماخذ: [[work/lubab-al-nuqul-suyuti|سیوطی کی «لباب النقول فی اسباب النزول»]]۔ آیت: [[passage/quran-20-105|قرآن 20-105]]۔
