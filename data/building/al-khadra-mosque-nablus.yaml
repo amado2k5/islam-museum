@@ -3,23 +3,26 @@ class: building
 kind: mosque
 label:
   ar: "جامع الخضراء"
-  en: "Al-Khadra Mosque, Nablus"
-  fr: "Mosquée d’Al-Khadra, Naplouse"
-  es: "Mezquita Al-Khadra, Nablus"
+  en: "al-Khadra Mosque, Nablus"
   ur: "الخدرہ مسجد، نابلس"
-  tr: "El-Khadra Camii"
-  id: "Masjid Al-Khadra"
+  fr: "Mosquée al-Khadra, Naplouse"
+  es: "Mezquita al-Khadra, Nablus"
+  tr: "el-Hadra Camii, Nablus"
+  id: "Masjid al-Khadra, Nablus"
 summary:
-  ar: "بطاقة أولية لجامع الخضراء بنابلس، الجامع المملوكي الملقب بالأخضر لمنارته؛ لم تُراجع مصادره على الصفحة بعد."
-  en: "Draft card for the al-Khadra Mosque of Nablus, the Mamluk mosque nicknamed the Green for its minaret; its sources are not yet checked on the page."
-  fr: "Notice provisoire : Mosquée mamelouke al-Khadra de Naplouse, surnommée Verte pour son minaret. Ses sources ne sont pas encore vérifiées sur la page."
-  es: "Boceto de ficha para la mezquita al-Khadra de Nablus, la mezquita mameluca apodada la Verde por su minarete; sus fuentes aún no han sido verificadas en la página."
-  ur: "نابلس کی الخدرہ مسجد کے لیے ڈرافٹ کارڈ، مملوک مسجد جسے اس کے مینار کے لیے سبز کا نام دیا گیا ہے۔ اس کے ذرائع ابھی تک صفحہ پر چیک نہیں کیے گئے ہیں۔"
-  tr: "Nablus'taki El-Khadra Camii için ön hazırlık kartı olan Memlük camii, minaresi nedeniyle Yeşil Camii lakabını vermiştir; sayfadaki kaynakları henüz incelenmemiştir."
-  id: "Kartu awal untuk Masjid Al-Khadra di Nablus, masjid Mamluk yang dijuluki Masjid Hijau karena menaranya; sumber-sumbernya di halaman tersebut belum ditinjau."
+  ar: "جامع الخضراء في البلدة القديمة بنابلس، من معالمها المملوكية. شُيّد في الأصل كنيسة صليبية ثم حوّله الأترابيون/الأيوبيون مسجداً، وحافظ مدخله على زخرفة أقواس متشابكة صليبية؛ لُقّب بالخضراء لشهرة نسبها إلى الخضر {cite:archnet}{cite:taawon-yalla-falasteen}."
+  en: "Al-Khadra Mosque in the old town of Nablus, one of its Mamluk landmarks. First built as a Crusader church, it was converted into a mosque in the late twelfth century and keeps a Crusader chevron-carved portal; its name 'the Green' is tied to the popular al-Khidr association {cite:archnet}{cite:taawon-yalla-falasteen}."
+  ur: "قدیم نابلس کی الخدرہ مسجد، شہر کے مملوک آثار میں سے۔ اصل میں صلیبی گرجا تھا جسے بارہویں صدی کے آخر میں مسجد بنایا گیا اور اس کے دروازے پر صلیبی نقشِ زیگ زاگ باقی ہے؛ نام 'خضرا' الخضر سے مشہور نسبت کے سبب ہے {cite:archnet}{cite:taawon-yalla-falasteen}۔"
+  fr: "La mosquée al-Khadra dans la vieille ville de Naplouse, un de ses monuments mamelouks. Église croisée à l’origine, elle fut convertie en mosquée à la fin du XIIe siècle et conserve un portail croisé à chevrons ; son nom « la Verte » renvoie à l’association populaire avec al-Khidr {cite:archnet}{cite:taawon-yalla-falasteen}."
+  es: "La mezquita al-Khadra en el casco antiguo de Nablus, uno de sus monumentos mamelucos. Construida como iglesia cruzada, fue convertida en mezquita a finales del siglo XII y conserva un portal cruzado de chevrones; su nombre, «la Verde», se asocia popularmente a al-Jidr {cite:archnet}{cite:taawon-yalla-falasteen}."
+  tr: "Nablus eski şehrindeki el-Hadra Camii, kentin Memlük dönemi eserlerinden. Başlangıçta Haçlı kilisesi olarak inşa edildi, on ikinci yüzyılın sonunda camiye çevrildi ve Haçlı işi zikzak taş işlemeli portalını korur; 'Yeşil' adı halk arasındaki Hızır çağrışımındandır {cite:archnet}{cite:taawon-yalla-falasteen}."
+  id: "Masjid al-Khadra di kota tua Nablus, salah satu bangunan Mamluknya. Mulanya gereja Tentara Salib, diubah menjadi masjid akhir abad ke-12 dan mempertahankan portal ukiran chevron; nama 'al-Khadra' terkait asosiasi populer dengan al-Khidir {cite:archnet}{cite:taawon-yalla-falasteen}."
 wings: [objects]
 regions: [levant-iraq]
 periods: [period/crusades-ayyubid-mamluk]
+built: { edtf: "1187/1200", calendar: gregorian, precision: decade, status: debated, note: "Crusader church converted to a mosque in the late twelfth century; Mamluk and Ottoman phases followed", sources: [source/archnet] }
+location: place/nablus
+status_now: standing
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q4702683
@@ -29,6 +32,7 @@ provenance:
   generated_by: "Devin (SWE-2 High)"
   model: "SWE-2 High"
   run: wikidata-import-wave2
+  enrichment: "facts enriched from the palestine-buildings dossier, 22 Nov 2026; sources registered by Devin (SWE-2 Medium), run palestine-buildings-dossier-2026-11-22"
 status:
   review: draft
-  completeness: 1
+  completeness: 2

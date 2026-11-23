@@ -4,22 +4,27 @@ kind: madrasa
 label:
   ar: "المدرسة الصلاحية ⁦(القدس)⁩"
   en: "Al-Madrasa al-Salahiyya, Jerusalem"
+  ur: "المدرسہ الصلاحیہ، یروشلم"
   fr: "Madrasa al-Salahiyya, Jérusalem"
   es: "Al-Madrasa al-Salahiyya, Jerusalén"
-  ur: "المدرسہ الصلاحیہ، یروشلم"
-  tr: "Al-Salahiya Okulu (Kudüs)"
-  id: "Sekolah Al-Salahiya (Yerusalem)"
+  tr: "Salahiyye Medresesi, Kudüs"
+  id: "Madrasah al-Salahiyya, Yerusalem"
 summary:
-  ar: "بطاقة أولية لـAl-Madrasa al-Salahiyya, Jerusalem، المعلم التاريخي؛ لم تُراجع مصادره على الصفحة بعد."
-  en: "Draft card for the Al-Madrasa al-Salahiyya, Jerusalem, the historic monument; its sources are not yet checked on the page."
-  fr: "Notice provisoire : Madrasa al-Salahiyya, Jérusalem, monument historique ; ses sources ne sont pas encore vérifiées sur la page."
-  es: "Ficha preliminar de la Madrasa Al-Salahiyya, Jerusalén, monumento histórico; sus fuentes aún no han sido verificadas en la página."
-  ur: "المدرسہ الصلاحیہ، یروشلم، تاریخی یادگار کے لیے ڈرافٹ کارڈ؛ اس کے ذرائع ابھی تک صفحہ پر چیک نہیں کیے گئے ہیں۔"
-  tr: "Kudüs'teki El-Medrese el-Salahiyya için ön kart; sayfadaki kaynaklar henüz gözden geçirilmedi."
-  id: "Kartu pendahuluan untuk Al-Madrasa al-Salahiyya, Yerusalem, landmark sejarah; sumber-sumbernya di halaman belum ditinjau."
+  ar: "المدرسة الصلاحية قرب الحرم الشريف بالقدس، أسسها صلاح الدين سنة ٥٨٨هـ ⁦(١١٩٢م)⁩ بعد استرداد المدينة، في كنيسة القديسة حنة وديرها الصليبيَّين، فصارت مدرسة للشافعية ومن أقدم مدارس القدس الأيوبية {cite:archnet}."
+  en: "Al-Madrasa al-Salahiyya near the Haram al-Sharif in Jerusalem, founded by Salah al-Din in 588 AH ⁦(1192)⁩ after the city\u2019s recovery, inside the Crusader Church and convent of Saint Anne; it became a Shafi\u2018i college and one of Jerusalem\u2019s earliest Ayyubid madrasas {cite:archnet}."
+  ur: "یروشلم میں حرم شریف کے قریب المدرسہ الصلاحیہ، جسے صلاح الدین نے 588ھ ⁦(1192ء)⁩ میں شہر کی واپسی کے بعد صلیبی چرچ و خانقاہِ سینٹ این میں قائم کیا؛ یہ شافعی مدرسہ اور یروشلم کے ابتدائی ایوبی مدارس میں سے بنا {cite:archnet}۔"
+  fr: "La madrasa al-Salahiyya près du Haram al-Sharif à Jérusalem, fondée par Saladin en 588 H. ⁦(1192)⁩ après la reprise de la ville, dans l\u2019église et le couvent croisés de Sainte-Anne ; elle devint un collège shafiite et l\u2019une des premières madrasas ayyoubides de Jérusalem {cite:archnet}."
+  es: "La madraza al-Salahiyya cerca del Haram al-Sharif en Jerusalén, fundada por Saladino en 588 H. ⁦(1192)⁩ tras la recuperación de la ciudad, dentro de la iglesia y el convento cruzados de Santa Ana; se convirtió en colegio shafií y en una de las primeras madrazas ayubíes de Jerusalén {cite:archnet}."
+  tr: "Kudüs\u2019te Harem-i Şerif yakınındaki Salahiyye Medresesi; Selahaddin, şehri geri aldıktan sonra 588 ⁦(1192)⁩ yılında Haçlı Azize Anna kilisesi ve manastırının içinde kurdu; Şafii medresesi ve Kudüs\u2019ün ilk Eyyubi medreselerinden oldu {cite:archnet}."
+  id: "Madrasah al-Salahiyya dekat Haram al-Sharif di Yerusalem, didirikan oleh Salahuddin pada 588 H ⁦(1192)⁩ setelah kota direbut kembali, di dalam gereja dan biara Tentara Salib Santa Anna; menjadi perguruan Syafii dan salah satu madrasah Ayyubiyah tertua di Yerusalem {cite:archnet}."
 wings: [objects]
 regions: [levant-iraq]
 periods: [period/crusades-ayyubid-mamluk]
+built: { edtf: "1192", calendar: gregorian, precision: year, status: historical, hijri: "0588", note: "Founded by Salah al-Din in 588 AH (1192) over the Crusader convent and Church of Saint Anne annex, converting the complex to a madrasa for Shafi'i scholars", sources: [source/archnet] }
+location: place/jerusalem
+status_now: standing
+patron: person/salah-al-din-yusuf-ibn-ayyub
+unesco_id: "148"
 sources: [source/tarikh-islam-hasan-ibrahim, source/tei-epigraphie]
 external_ids:
   tei: "8184"
@@ -30,6 +35,7 @@ provenance:
   generated_by: "Devin (SWE-2 High)"
   model: "SWE-2 High"
   run: wikidata-import-wave2
+  enrichment: "facts enriched from the palestine-buildings dossier, 22 Nov 2026; sources registered by Devin (SWE-2 Medium), run palestine-buildings-dossier-2026-11-22"
 status:
   review: draft
-  completeness: 1
+  completeness: 2
