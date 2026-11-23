@@ -1,0 +1,27 @@
+---
+id: passage/quran-6-148
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-23), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-23, source: content/ar/passage/quran-6-148.md}
+---
+
+## Özet
+Mekke suresi olan An'suresinin [[passage/quran-6|148]]. ayeti. {cite:tanzil-quran}
+
+## Konumu
+Konumu: Suredeki 165 ayetten 148. ayet. Metin Mushaf Tazil al-Mujmad'dan korunmuş olup burada yeniden yazılmamıştır.
+
+148. ayet: "Allah'a başkalarını bağlayanlar şöyle derler: Allah isterse...": El-Tabari, onların Allah tarafından adil olduğunu, Kureyş'in müşriklərinden putlar ve putlar olduğunu söyler. Bunu, gerçek kendilerine ortaya çıktığında ve çürkhalklıklarının ve ürün ile hayvancılığın yasaklanmasının yalanlığını anladığında, önceki ayetlerde açıklandığı gibi, yanlış bir bahaneyle gerçeğe boyun eğerek söylediler: Eğer Allah bizden O'na inanmamızı ve sadece O'na ibadet etmemizi, putlara değil, göllerden, akarsulardan ve diğerlerinden mahrum ettiğimize izin vermemizi isteseydi, O'na ortak yapmazdık, atalarımız da bizden önce yapmazdı, yasakladıklarımızı yasaklamadık, çünkü O buna yeteneklidir Bizi bundan alıkoyar; ya inanmaya zorlayarak, çoktanrıcılığı terk ederek ve yasakladığımız şeyin izin verildiğini söyleyerek ya da lütfuyla bize merhamet verir ki O'nun birliğini kabul etmemiz, eşitlere tapınmayı bırakalım ve yasakladıklarımıza izin verelim. Ama O bizden memnundur ve yasakladığımızı ister, bu yüzden izin vermez. {cite:tafsir-tabari-shakir-v12 p. 208}
+
+Allah söyledi, onların sözünü reddederek. Gerçekten de Allah onların çürkperestliğinden ve yasakladıkları şeylerin yasaklanmasından memnun oldu ve onların argümanlarının yalanlığını reddetti: 'Onlardan öncekiler böyle inkar etti,' yani bu müşriklərin benim onlara getirdiğim gerçeği ve berraklığı reddettiği gibi, Rabbilerine karşı günahkar olan ulusların günahkarları arasında da peygamberlerinin Allah'ın işaretleri ve açık kanıtları getirdiği şeyleri reddettiler ve öğütlerini reddettiler, 'gücümüzü tatana kadar', yani bizi kızdırana kadar ve biz onlara kızdık, böylece onlara cezamızı verdik, tattılar, yozlaştılar, hayal kırıklığına uğradılar ve hem bu dünyayı hem de ahireti kaybettiler. Diğerleri yollarında yönlendirilirler; eğer tövbe etmezlerse, inanıp benim Rabbimden getirdiğime inanırlar. Araştırmacı, daha önce bahsedilen 'tatıldık' yorumuna atıfta bulundu. {cite:tafsir-tabari-shakir-v12 p. 209}
+
+Ve (14129) İbn Abbas'tan şöyle der: "Allah isteği olsaydı, başkalarını O'na bağlamazdık..." Sonra "Böyle inkar ettiler" ve "Allah izin verseydi, başkalarını birleştirmezlerdi," dediler, "Tanrılara ibadet etmek kalbimde bizi Allah'a daha da yaklaştırır," ama Allah onlara onları yaklaştırmayacaklarını bildirdi; ve "Allah isteği olsaydı, başkalarını birleştirmezlerdi" anlamı şudur ki, isterse hepsini rehberliğe toplardı; ve (14130) ile (14131) Mücahit'ten "Hiçbir şeyden mahrum bırakmadık" ifadeleri Kureyş'in kesin olmayan sözüdür, çünkü Allah bu göl ve ovayı yasaklamıştır. {cite:tafsir-tabari-shakir-v12 p. 209}
+
+Eğer sorulursa: Ve Allah'ın bu müşriklərin sözünü reddettiğine dair kanıtınız nedir? Allah onların putperestliğinden memnun oldu ve onlara yasak edilen ürünleri ve hayvanları yasaklamaya çalıştı, 'Allah isteği olsaydı, başkalarını O'na bağlamazdık' diyerek ve bunu onların çürkülüğünü ve atalarının polisini istemiş ve yasaklamış olarak tanımlayarak reddetti? Onun cevabı, bunun göstergesi olarak O'nun "Onlardan öncekiler böyle yalan söyledi" demektir; çünkü onlara Peygamberlerini getirdiklerini inkâr etmek, Allah dışında ibadet etmeyi ve O'nun Kitabı'nda yasak olanı yasaklamak gibi bir yol izlediklerini bildirmiştir; ayrıca Elçisi aracılığıyla, Allah'ı ve Resulü'nü inkâr eden uluslar arasındaki seleflerinin yolunu izlerdi. Yalan söylemek sadece yalancı içindir; eğer Allah'tan onların yalan söylediklerine dair bir haber olsaydı, "Yalan söylemek" harfini (dha) daha hafif bir harfle söylerdi; bunları Allah hakkında yalan söylemekle bağlardı, inkar etmek yerine Kitap'ın uzun uzun anlatması gereken birçok sebep vardı. {cite:tafsir-tabari-shakir-v12 p. 210}
+
+Sonra Allah Peygamberine şöyle der: "Söyle ki, bilgin var mı...": Ey Muhammed, bu adil insanlara, Rableri ile birlikte, mahsul ve hayvan yetiştirmeleri yasak edilenlere ve 'Allah onlardan olduğu gibi memnundur' diyenlere söyle. Haberi mazeretle kesilen kişinin haberi hakkında kesin bilgin var mı, yoksa bizi kesin olmaya zorlayan bir kanıt mı? {cite:tafsir-tabari-shakir-v12 p. 210}
+
+"Böylece bize ortaya çıkarırlar," yani siz bize bunu açığa çıkarır ve açıklarsınız, çünkü o size sözlerinizin ve eylemlerinizin yanlış olduğu yerleri, çelişkileri ve hem mantıklı hem de duyulan anlamda imkansızlıklarını açıklarsınız. Ve "Sadece varsayımla hareket edersiniz," yani söyledikleriniz, putlara tapınma ve ürün ile hayvanları sadece varsayımla elinizden alırsınız, biz bunun doğru olduğunu düşünürüz, siz karşısınız ve bu yanlıştır. Ve "Ve gerçekten sessiz değilsiniz," yani kesinlik, bilgi veya açık kanıt olmadan sadece Allah hakkında yalan söylüyorsunuz. Araştırmacı, daha önce bahsedilen "al-ikhraj" ve "al-takhras" yorumuna atıfta bulundu. {cite:tafsir-tabari-shakir-v12 p. 211}
+
+Bu ifadeler, al-Tabari'nin seçimleri ve kendisi için verdiği deliller, editörün kenar notları ve notlarıyla birlikte ilettiğim gibidir ve müze tarafından bunlar hakkında herhangi bir karar verilmemiştir.

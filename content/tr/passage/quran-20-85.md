@@ -1,0 +1,13 @@
+---
+id: passage/quran-20-85
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-23), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-23, source: content/ar/passage/quran-20-85.md}
+---
+
+## Özet
+Mekke suresi olan Taha suresinin [[passage/quran-20|85. ayeti]]. {cite:tanzil-quran}
+
+## Konumu
+Konumu: Suredeki 135 ayetten 85. ayet. Metin Mushaf Tazil al-Mujaddad'dan korunmuş olup burada yeniden yazılmamıştır.

@@ -1,0 +1,25 @@
+---
+id: passage/quran-10-25
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-23), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-23, source: content/ar/passage/quran-10-25.md}
+---
+
+## Ringkasan
+Ayat 25 [[passage/quran-10|Surah Yunus]], yang merupakan surah Mekah. {cite:tanzil-quran}
+
+## Posisinya
+Lokasinya: Ayat 25 dari 109 ayat dalam surat. Teks ini disimpan dari Mushaf Tazil al-Mujmad dan tidak ditulis ulang di sini.
+
+**Penafsiran ayat 25 (hlm. 59-62)**
+
+Kemudian ia menjelaskan: "Dan Allah mengundang ke tempat damai dan membimbing siapa pun yang Dia kehendaki ke jalan yang lurus": Allah berkata kepada para hamba-Nya: Wahai umat manusia, janganlah mencari dunia dan perhiasannya, karena takdirnya adalah kehancuran dan kehancuran, seperti halnya nasib tanaman yang Allah jadikan teladan telah ditakdirkan dan hancur. Tetapi carilah akhirat yang kekal dan untuknya, maka bertindaklah. Dan apa yang ada pada Allah, carilah dengan taat. Sebab Allah mengundang kalian ke Rumah-Nya, yaitu taman yang telah disiapkan untuk sekutu-Nya, agar kalian dapat diselamatkan dari kekhawatiran dan kesedihan di dalamnya serta aman dari kehancuran kebahagiaan dan kehormatan. Dia membimbing siapa pun yang Dia kehendaki di antara ciptaan-Nya, membimbing mereka ke jalan yang lurus, yaitu Islam, yang telah Allah jadikan sebagai sarana untuk mencapai kersa-Nya dan jalan bagi mereka yang mengikutinya menuju Surga dan martabat. Sang peneliti merujuk pada interpretasi "Guidance" dan "The Straight Path." {cite:tafsir-tabari-shakir-v15 p. 59}
+
+Dan narasi tahun 17604 dan 17605 dari Qatadah: 'Allah' berarti damai, dan rumah-Nya adalah Surga. Dan narasi tahun 17606 dari Abu Qilaba, dari Nabi, yang berkata: Aku diberitahu, 'Semoga matamu terbuka, hatimu memahami, dan telingamu mendengar.' Mataku tertidur, hatiku mengerti, dan telingaku mendengar. Kemudian dikatakan: 'Seorang tuan membangun rumah, lalu mengadakan jamuan, dan mengirim penelepon. Siapa pun yang menjawab penelpon, masuk rumah, makan dari jamuan, dan tuan senang dengannya; siapa yang tidak menjawab tidak masuk, tidak makan, dan tuan senang dengannya. Allah adalah tuan, rumah adalah Islam, jamuan adalah Surga, dan yang menelepon adalah Muhammad.' Verifier mengatakan laporan ini mursal dan akan diikuti sebagai narasi terkait dalam pengesahan laporan 17609. {cite:tafsir-tabari-shakir-v15 p. 60}
+
+Dan riwayat 17607 dari Qatadah: Disebutkan bahwa dalam Taurat tertulis: 'Wahai pencari kebaikan, datanglah, dan wahai pencari kejahatan, kamu telah selesai.' Dan riwayat 17608 dari Abu Darda dari Rasulullah: Tidak ada hari ketika mataharinya terbit tanpa dua malaikat memanggil ke setiap sisinya sehingga seluruh ciptaan Allah mendengarnya kecuali dua yang berat: Wahai umat manusia, datanglah kepada Tuhanmu; sesungguhnya, apa yang sedikit lebih baik daripada yang melimpah dan terganggu; katanya : Hal ini diungkapkan dalam Al-Qur'an dalam ayat 'Dan Allah mengundang ke tempat damai.' Editor mengatakan dalam catatan pinggir bahwa laporan ini otentik dalam rantai penyampaiannya, dan Ahmad menceritakannya panjang lebar melalui Hammam dari Qatadah dari Khalid al-Asri, dengan tambahan panggilan dua malaikat: 'Ya Allah, berikanlah seorang penerus dan seorang yang merugikan kepada yang membelanjakan,' dan Al-Suyuti dalam Al-Durr al-Manthur; ia merinci kondisi para naratornya dan menjelaskan 'al-Janbah.' {cite:tafsir-tabari-shakir-v15 p. 60}
+
+Dan riwayat tahun 17609 dari Jabir ibn Abdullah yang berkata: Suatu hari Rasulullah keluar kepada kami dan berkata: Aku melihat dalam mimpi bahwa Jibril berada di dekat kepalaku dan Michael di kakiku. Salah satu dari mereka berkata kepada sahabatnya, 'Berikan dia contoh.' Dia berkata: 'Dengarkan, aku telah mendengar telingamu dan menggunakan akal hatimu. Teladan tentang kamu dan bangsamu seperti seorang raja yang mengambil rumah, membangun rumah di sana, lalu mengadakan jamuan di sana, lalu mengirim utusan untuk mengundang orang ke makanannya. Beberapa membalas Rasul dan beberapa meninggalkannya. Jadi Allah adalah Raja, Rumah adalah Islam, dan Rumah adalah Surga. Dan engkau, wahai Muhammad, Rasulullah, siapa pun yang menjawab masuk ke Islam, dan siapa pun yang masuk Islam masuk ke Surga, dan siapa pun masuk ke Surga akan makan apa yang ada di dalamnya.' Verifier mengatakan ini adalah laporan yang dikirimkan dari Jabir, yang disampaikan Al-Hakim di Al-Mustadrak melalui Abu Ja'far Muhammad ibn Ali ibn Ali ibn Al-Husayn dari Jabir, yang rantainya otentik dan disetujui oleh Al-Dhahabi. Ia juga menunjukkan bahwa Sa'id ibn Abi Hilal tidak bertemu Jabir, dan bahwa ia mengonfirmasi dalam teks apa yang tercantum dalam manuskrip. {cite:tafsir-tabari-shakir-v15 p. 62}
+
+Pernyataan-pernyataan ini seperti yang telah saya sampaikan, bersama dengan pilihan dan bukti al-Tabari untuknya, adalah catatan pinggir editor dan anotasinya, dan museum tidak memutuskan hal itu sendiri.

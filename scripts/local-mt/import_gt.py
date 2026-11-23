@@ -141,6 +141,7 @@ def main():
     ap.add_argument("--engine", default="google", choices=["google", "word", "gemini", "azure"], help="who translated the file: Google Translate documents, Word for Mac, Gemini, or Azure AI Document Translation (async batch)")
     ap.add_argument("--taken", default="", help="file of ids another lane is translating; never written")
     ap.add_argument("--date", default=time.strftime("%Y-%m-%d"), help="day the file was translated on translate.google.com")
+    ap.add_argument("--leveled", action="store_true", help="allow reading-level (For Sprouts/Explorers/Scholars) records")
     a = ap.parse_args()
     lang, records = a.lang, json.load(open(a.map, encoding="utf-8"))
     paras = [l.strip() for l in open(a.txt, encoding="utf-8").read().split("\n") if l.strip() and not l.strip().startswith("```")] if a.txt else paragraphs(a.docx)
@@ -169,7 +170,7 @@ def main():
             try:
                 if not m: raise ValueError("no frontmatter")
                 fm, body = yaml.safe_load(m.group(1)), m.group(2)
-                if LEVELED.search(body) or BROKEN.search(body): raise ValueError("held")
+                if (LEVELED.search(body) and not a.leveled) or BROKEN.search(body): raise ValueError("held")
                 if body.split("\n") != [l["fixed"] if "fixed" in l else l["prefix"] + l["en"] for l in rec["lines"]]:
                     raise ValueError("English changed since the file was built")
                 if got is None or len(got) != len(todo): raise ValueError("paragraphs do not line up")

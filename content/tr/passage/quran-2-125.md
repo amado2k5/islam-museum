@@ -1,0 +1,51 @@
+---
+id: passage/quran-2-125
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-23), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-23, source: content/ar/passage/quran-2-125.md}
+---
+
+## Özet
+Medine suresi olan Bakarah suresinin [[passage/quran-2|125]]. ayeti. {cite:tanzil-quran}
+
+## Konumu
+Konumu: Suredeki 286 ayetten 125. ayet. Metin, donmuş Tazil Mushaf'ın Mushaf'ından korunmuş olup burada yeniden yazılmamıştır.
+
+## El-Taberi'nin Tafsir'inde
+
+2:125 [[passage/quran-2-125|']] te El-Taberi, 'idh'in [[passage/quran-2-124|2:124]] ile birleştiğini, [[passage/quran-2-122|2:122'ye de]] eklendiğini ve evin kutsal ev olduğunu söyler. 'al-muthabah'ın anlamı konusunda Araplar arasında görüş ayrılığı vardır: Basra'nın bazı dilbilgicileri 'ha'nın ona başvuranların sayısına bağlı olduğunu söylerken, bazı Kufe dilbilgicileri al-mutṣab ve al-mutṭaba'nın makam ve makamet gibi aynı anlama sahip olduğunu belirtir. Onun için anlamı bir referanstır; yani evi her yıl gelip tek bir zaman bile geçirmeden dönen insanlar ve Mu'adh için bir referans haline getirmiştir. Kutsal alanı anlatırken Waraqah ibn Nawfal'a atfedilen bir ayeti kaynak gösterir ve editör, kutsal alanın rivayetini ve atıfını kenar notlarında tartışmıştır. {cite:tafsir-tabari-shakir-v03 p. 25} {cite:tafsir-tabari-shakir-v03 p. 26}
+
+'Muthaba'nın yorumunda, El-Taberi, Mücahid, El-Suddi, İbn Abbas, Abda ibn Ebi Lubabah, Ata, Atiyah, Sa'id ibn Jubeyr, Katadah, Al-Rabi' ve İbn Zayd'den her yıl her yerden insanların O'na döndüğünü ve bir dönemini tamamlamadığını, bu yüzden kimsenin onun yerine geldiğini düşünerek ondan yüz çevirmediğini bildirir. {cite:tafsir-tabari-shakir-v03 p. 26} {cite:tafsir-tabari-shakir-v03 p. 27} {cite:tafsir-tabari-shakir-v03 p. 28} {cite:tafsir-tabari-shakir-v03 p. 29}
+
+'Ve güvenliğimiz' bölümünde, 'aman'ın 'aman'ın ('aman' eman anlamında) fiil ismi olduğu ve Allah'ın ona 'aman' adını verdiği söylenir; çünkü İslam öncesi dönemde ona sığınanlar için bir sığınak olmuştur. Bir adam, babasının ya da kardeşinin katiliyle karşılaşır ve o çıkana kadar onunla yüzleşmezdi. 29 [[passage/quran-29-67|:67]] ayetini ve İbn Zayd, Al-Suddi, Mucahid, Al-Rabi' ve İbn Abbas'tan alıntı yapar; bu, giren kişinin güvende olduğunu ve girenin yasaktan korkmadığını gösterir. {cite:tafsir-tabari-shakir-v03 p. 29} {cite:tafsir-tabari-shakir-v03 p. 30}
+
+Ve 2:125 [[passage/quran-2-125|' te]] El-Taberi, okunanlar arasındaki farktan bahseder: Bazıları bunu 'vekha'u' olarak okur ve emir halinde kha üzerinde bir kasra olarak okur; bu, Kufa ve Basra halkının genel okuması, Mekke'nin genel okuması ve bazı Medine okutçularının genel okumasıdır. Ömer bin El-Hattab'tan Anas ibn Malik'ten bir habere atıfta bulundular: Dedim ki, ey Allah'ın Elçisi, eğer namaz yerini namaz yeri olarak alsaydın ve ayet vahy olsaydı. Dediler ki: Bu, yüklem olarak okunamayacak bir meseledir. {cite:tafsir-tabari-shakir-v03 p. 30} {cite:tafsir-tabari-shakir-v03 p. 31}
+
+Basra'nın bazı dilbilgicilerinin 2 [[passage/quran-2-125|:125]] ifadesinin 2 [[passage/quran-2-122|:122 ile karıştığını iddia]] ettikleri, böylece meselenin Peygamber'in zamanında yaşamış Yahudilere de uygulandığını belirtir. El-Rabi' bin Anas'a göre, İbrahim'in sınandığı kelimelerden biri onun [[passage/quran-2-125|2:125 ayetidir]]: Türbenin arkasında namaz kılırlar. {cite:tafsir-tabari-shakir-v03 p. 31}
+
+El-Taberi, Peygamber'den Ömer bin El-Hattab'tan rivayet edilen haberin, emrin Yahudilere ait olduğu ve bunun Allah'ın Elçi'ye, müminlere ve tüm sorumlu varlıklara bir emir olduğunu söyleyenlerle çeliştiğini söyler. Medine ve Suriye'nin bazı okuyucuları, "ve-takta'ahu"yu kha' üzerine fetha ile yüklem şeklinde okumuş, ancak birleşen konuda farklı görüşler yaşamışlardır: Basra'nın bazı dilbilgicileri anlamının "ve ne zaman aldılar" olduğunu söylerken, Kufa'nın bazı dilbilgicileri bunun "Ja'la'na" ile birleştiğini belirtmiştir. El-Taberi, Peygamber'in yerleşik haberi için "wa'takhada"yı ve emir üzerindeki kâra ile seçmiş ve Peygamber'in bunu böyle okuduğunu Cabir bin Abdullah'tan aktarmıştır. Dipnotta, doğrulayıcı Al-Tabari'nin ifadesinin eksiklikle ters olduğunu görür. {cite:tafsir-tabari-shakir-v03 p. 31} {cite:tafsir-tabari-shakir-v03 p. 32} {cite:tafsir-tabari-shakir-v03 p. 33}
+
+Sonra 'İbrahim'in Yeri' ile ilgili yorum alimleri arasındaki fark sunulur. Bazıları bunun İbn Abbas, Mücahid ve Ata'dan itibaren tüm Hac olduğunu söyler. Diğerleri ise Arafat, Muzdalifah ve Cemarat, Ata, Mücahid ve İbn Abbas'tan olduğunu, El-Şabi'den ise 5:3 [[passage/quran-5-3|'te Arafah'ta dururken ona vahyedildiğini söyler. Diğerleri ise Mücahid'e göre buranın kutsal yer olduğunu söyler. {cite:tafsir-tabari-shakir-v03 p. 33} {cite:tafsir-tabari-shakir-v03 p. 34}]]
+
+Diğerleri ise bunun İbrahim'in bina yükseltildiğinde ve taşları kaldırırken zayıfladığında üzerinde durduğu taş olduğunu söyledi. Said bin Cübeyr İbn Abbas'tan şöyle anlattı: İbrahim inşa ediyordu ve İsmail ona taşları uzatıyordu. Bina yükseltildiğinde bir taşın üzerine durdu. {cite:tafsir-tabari-shakir-v03 p. 34} {cite:tafsir-tabari-shakir-v03 p. 35}
+
+Diğerleri ise bunun Mescid'deki türbesi olduğunu söyledi ve Katadah orada namaz kılmaları emredildiklerini ama silmeleri emredilmediğini bildirdi. Topuklarının ve parmaklarının izlerini gören bazılarının, insanların onu silmeye devam ettiğini ve sonunda kaybolduklarını söyledi. Ve El-Rabi'den: Türbenin arkasında namaz kılırlar. Ve El-Suddi'den namazın Hac sırasında türbesinde olduğu, türbenin İbrahim'in karısının başını yıkarken ayaklarının altına koyduğu taş olduğunu, ayağının orada olmadığını, bu yüzden Allah'ın bunu onun ritüellerinden biri yaptığını belirtir. {cite:tafsir-tabari-shakir-v03 p. 35} {cite:tafsir-tabari-shakir-v03 p. 36}
+
+El-Taberi, bu görüşlerden, Peygamber'in Hac'ındaki Ömer ve Cebir'in rivayetinden yola çıkarak, 'İbrahim'in Makamının' Mescid'de bu isimle bilinen makamdır: Köşeyi alıp üç kez yürüdü, dört kez yürüdü, sonra İbrahim'in makamına geçti, ayeti okud, makamı kendisi ile evin arasına koydu ve iki reket kıldı. {cite:tafsir-tabari-shakir-v03 p. 36}
+
+El-Taberi, eğer Elçi'nin haberi doğru değilse, bu ifadenin zorunlu olacağını, çünkü aksi bir kanıt olmadıkça sözünün açık olarak yorumlandığını söyler. Halk arasında 'İbrahim'in Yeri'nin namaz yeri olduğu iyi bilinir. {cite:tafsir-tabari-shakir-v03 p. 36} {cite:tafsir-tabari-shakir-v03 p. 37}
+
+'Musalla' konusunda ise yorum alimleri farklı görüşe sahipti: bazıları bunun Mücahid'den dua yeri yani iddia eden yer olduğunu söylerken, diğerleri şöyle der: Anlamı namaz kılmak için namaz yeri yapılmıştır, Qatadah ve Al-Suddi'ye göre. El-Taberi, önceki alimlerin görüşünü yöneltiyor: 'Musalla' kelimesi 'salāt' yani 'sana seslendim' anlamına gelir ve onlar İbrahim'in tüm Hac yerinin Hac olduğunu ve anlamının da Arafa, Muzdalifah, Cemar ve diğer Hac yerlerini dua yeri olarak koyup İbrahim ile birlikte orada namaz kıldığını belirtirler. El-Taberi ise diğer görüşü seçer: İbrahim Durağı'nı ibadet ve onur olarak namaz kılmak üzere alın, Ömer ve Cebir'in aktardığı gibi. {cite:tafsir-tabari-shakir-v03 p. 37} {cite:tafsir-tabari-shakir-v03 p. 38}
+
+Ve 2:125 [[passage/quran-2-125|' te]] 'Ahdna'nın 'Ata ve İbn Zayd'den gelen 'emrimiz' anlamına geldiği, arınmanın ise putlardan, putperestlikten ve çürküden arınma olduğu yazılır. {cite:tafsir-tabari-shakir-v03 p. 38}
+
+El-Taberi sorar: İbrahim inşa edilmeden önce onu çoktanrıcılıktan arındırmak için bir ev var mıydı? İki yorumdan bahseder: Birincisi, anlamı, 9 [[passage/quran-9-109|:109'da olduğu gibi çok tanrıcılık ve şüpheden arındırılmış iki ev inşa ettikleridir]], El-Suddi'ye göre. İkincisi, evin inşasından önceki yerini ve inşa edildikten sonra evi arındırmaları emredilmiştir; bu, Nuh zamanında ve ondan önce putların arasında yaptıklarından arındırılmışlardır; böylece bu, onlardan sonrakiler için sünnet olurdu; İbn Zeyd, Übeyd bin Umeyr, Mücahid ve Katada'ya göre: putlardan, çürkperestlikten ve şüpheden. Katadah yalan eklemiştir. Araştırmacının dipnotunda, bu cevap, İbrahim'den önce evde putların tapınılması ve bunu kanıtlamak için kanıt gerektirdiği gerçeğine dayanmaktadır. {cite:tafsir-tabari-shakir-v03 p. 39} {cite:tafsir-tabari-shakir-v03 p. 40}
+
+'Taif'in (çevre dolaşması) konusunda anlaşmazlık vardır: bazıları onların sürgünden, Sa'id ibn Jubayr'den gelen yabancılar olduğunu söyler, diğerleri ise yabancı olarak eve dönenler olduğunu, ister yabancı olsun ister ailesinden, Ata'dan' gelsin. Al-Tabari, en doğru yorumun 'ata'nın söyledikleri olduğunu düşünür, çünkü Ta'if bir şeyi dolaşan kişidir ve sürgünden gelen tesadüfi olan kişi etrafında dolaşmazsa Taif adını hak etmez. {cite:tafsir-tabari-shakir-v03 p. 40} {cite:tafsir-tabari-shakir-v03 p. 41}
+
+'Ve Yardımcılar'da, bir şeye bağlı olanın, onun üzerinde durandır denir ve Al-Nabigha al-Dhubyani'nin bir ayetinden alıntı yapar. {cite:tafsir-tabari-shakir-v03 p. 41}
+
+El-Taberi, geri çekilen kişinin adını, kendini Allah'a adadığı yerdeki konumu nedeniyle bu şekilde aldığını söyler. Sonra Tanrı'nın "tutuklular" olarak adlandırdığı kişiler arasındaki farklılıkları işaret eder: Bazıları Ata'ya göre Ata'ya göre Kutsal Ev'de tavif veya namaz olmadan oturan kişi olduğunu söyler; bazıları Mücahit ve İkrime'ye göre komşu ibadet edenler olduklarını; bazıları Seyid bin Cübeyr ve Katada'ya göre Kutsal Şehir halkı olduklarını; diğerleri ise İbn Abbas'a göre ibadet edenler olduklarını söyler. {cite:tafsir-tabari-shakir-v03 p. 41} {cite:tafsir-tabari-shakir-v03 p. 42} {cite:tafsir-tabari-shakir-v03 p. 43}
+
+Al-Tabari, Ata'nın söylediğini seçer; yani evde yaşayan 'Akil' evin yanında Tavif veya dua olmadan vardır, çünkü Allah ayette Tevaf ve Rükü'yü secde olarak anmıştır, bu yüzden Akil'in halinin onlarınkinden farklı olduğunu bilir. 'Ve eğilmek secdedir' bölümünde, onların eğilen ve secde edenlerin grubu olduğunu söyler ve Ata ile Katadah'tan ibadet edenleri kastettiği söylenir ve eğilme ve secdeleşmenin anlamını daha önce söylenenlere atıfta bulunur. {cite:tafsir-tabari-shakir-v03 p. 43} {cite:tafsir-tabari-shakir-v03 p. 44}

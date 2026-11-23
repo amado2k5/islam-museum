@@ -1,0 +1,33 @@
+---
+id: passage/quran-5-93
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-23), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-23, source: content/ar/passage/quran-5-93.md}
+---
+
+## Ringkasan
+Ayat 93 [[passage/quran-5|Surah Al-Ma'idah]], yang merupakan surah Madinah. {cite:tanzil-quran}
+
+## Posisinya
+Lokasinya: ayat 93 dari 120 dalam surat. Teks ini disimpan dari Mushaf Tazil Mushaf yang dibekukan dan tidak ditulis ulang di sini.
+
+**Penafsiran ayat 93: Tidak ada kesalahan bagi mereka yang percaya dan melakukan perbuatan benar atas apa yang telah mereka berikan, hlm. 576-579**
+
+Al-Tabari berkata: Allah berkata kepada mereka yang berkata, 'Ketika larangan anggur diwahyukan, bagaimana nasib mereka di antara saudara-saudara kita yang mati saat mereka meminumnya saat kita meminumnya?' Artinya, jika yang hidup di antara mereka takut kepada Allah, takut kepada-Nya, mengawasi Dia dalam menghindari apa yang telah Dia larang, dan jujur serta taat kepada Allah dan Rasul-Nya dalam semua itu, dan memperoleh perbuatan yang berkenan-Nya. Kemudian mereka takut kepada Allah dan percaya kepada-Nya dan tidak berubah atau berubah. Kemudian mereka takut kepada Allah dan berbuat baik, artinya ketakutan mereka memanggil mereka kepada kebaikan, yaitu bertindak atas perbuatan sukarela yang tidak ditetapkan-Nya, berusaha mendekati Tuhan mereka mencari kersan-Nya dan menghindari hukuman-Nya. Allah mengasihi orang yang berbuat baik, yaitu mereka yang mendekat-Nya dengan perbuatan sukarela. {cite:tafsir-tabari-shakir-v10 p. 576}
+
+Al-Tabari menjelaskan bahwa yang pertama adalah kesalehan adalah menerima perintah Allah melalui penerimaan, penegasan, penghakiman, dan tindakan; yang kedua adalah keteguhan dalam iman dan menahan diri dari perubahan dan perubahan; dan yang ketiga adalah kebaikan dan mendekatkan diri pada perbuatan sukarela. Alasan yang ketiga adalah untuk tindakan sukarela tetapi bukan untuk perbuatan wajib adalah karena Allah memberitahu tentang meletakkan sayap pada peminum anggur sebelum melarangnya, jika mereka takut kepada Allah setelah melarangnya, adalah orang yang jujur, dan melakukan perbuatan baik di antara perbuatan wajib. Tidak ada alasan untuk mengulangi ini dalam satu ayat saja. Laporan dari Para Sahabat dan Pengikut menceritakan wahyu mereka tentang hal ini. Dua riwayat tahun 12525 dan 12526 dari Ibn Abbas mengatakan bahwa ketika larangan anggur diungkapkan, mereka berkata: Wahai Rasulullah, bagaimana dengan sahabat-sahabat kami yang meninggal saat meminumnya? Ayat itu diwahyukan. Penyelidik melaporkan laporan dari Ahmad, Al-Tirmidhi, dan Al-Hakim. {cite:tafsir-tabari-shakir-v10 p. 577}
+
+Cerita tahun 12527 menceritakan dari Anas ibn Malik bahwa ia biasa menuangkan cawan ke atas Abu Talhah, Abu Ubaidah ibn al-Jarrah, Mu'adh ibn Jabal, Suhail ibn Bayda, dan Abu Dujana dari campuran basar dan kurma hingga kepala mereka miring. Mereka mendengar seorang pemanggil berseru, 'Anggur telah dilarang.' Ia berkata: 'Tidak ada yang masuk ke dalam atau di luar kami, sampai kami menuangkan minuman dan memecahkan panci. Beberapa dari kami melakukan wudhu, beberapa mandi, dan mencicipi parfum dari um Salim.' Kemudian kami pergi ke masjid, dan Nabi membacakan ayat itu sampai sampai ia sampai, 'Apakah engkau akan berhenti?' Seorang pria berkata, 'Wahai Rasulullah, bagaimana status siapa pun di antara kami yang meninggal meminumnya?' Jadi terungkap: 'Tidak kepada mereka yang beriman.' Peneliti menyebutkan apa yang dikatakan tentang beberapa narator rantai dan laporan dari Bukhari, Muslim, dan al-Nasa'i. {cite:tafsir-tabari-shakir-v10 p. 578}
+
+Riwayat tahun 12528 dan 12529 menceritakan dari Al-Bara' ibn Azib bahwa ketika anggur dilarang, mereka berkata, 'Bagaimana dengan sahabat kita yang meninggal saat meminumnya?' Ayat itu diungkapkan, dan sang pemverifikasi melaporkan laporan dari al-Tirmidhi dan lainnya. Kemudian narasi tahun 12530 dimulai dari Mujahid mengenai wahyu ayat tersebut. {cite:tafsir-tabari-shakir-v10 p. 579}
+
+**Penafsiran ayat 93, lanjutan: Narasi wahyu tentang mereka yang meninggal sebelum larangan, hlm. 580-582**
+
+Narasi 12530 dari Mujahid melanjutkan bahwa ayat tersebut berkaitan dengan mereka yang dibunuh di Badr dan Uhud bersama Nabi. Dan narasi 12531 dari Abdullah ibn Mas'ud bahwa ketika ayat itu diwahyukan, Nabi berkata, 'Aku diberitahu bahwa engkau termasuk di antara mereka.' Pemberi verifikasi melaporkan laporan dari Muslim, Al-Tirmidhi, Al-Hakim, dan Al-Haythami. Dan narasi 12532 dari Qatadah bahwa ketika larangan anggur diwahyukan di meja makan, orang-orang dari sahabat Nabi berkata: Si anu-anu-terkena pada hari Badr dan si anu pada hari Uhud saat meminumnya, dan kami bersaksi bahwa mereka berada di antara umat Surga. Ayat itu diwahyukan, yang berarti umat meminumnya karena kesalehan dan keunggulan dari Allah dan itu sah bagi mereka hari itu, kemudian dilarang setelah mereka, jadi tidak ada kesalahan pada mereka. Pemberi menegaskan kesalahan dalam ungkapan abrogator tentang para sekutu. {cite:tafsir-tabari-shakir-v10 p. 581}
+
+Dan riwayat tahun 12533 dari Ibn Abbas bahwa mereka berkata, wahai Rasulullah, apa yang harus kami katakan kepada saudara-saudara kami yang telah tiada, yang dulu minum anggur dan makan penjudi? Ayat itu diwahyukan, yang berarti sebelum larangan ketika mereka adalah pelaku kebaikan dan saleh. Ungkapan "ketika mereka takut kepada Allah dan berbuat baik" setelah itu dilarang, yang berarti "Jadi siapa pun datang kepadanya dengan peringatan dari Tuhannya dan menahan diri, dia akan mendapatkan apa yang telah dilakukan sebelumnya." Dan riwayat tahun 12534 darinya mengatakan bahwa orang-orang dari sahabat Nabi meninggal saat minum anggur sebelum dilarang, jadi tidak ada kesalahan bagi mereka. Ketika itu dilarang, mereka berkata, 'Bagaimana mungkin dilarang bagi kami ketika saudara kami meninggal saat meminumnya?' Ayat itu diwahyukan. {cite:tafsir-tabari-shakir-v10 p. 582}
+
+Narasi 12535 dari Mujahid menceritakan bahwa ini untuk mereka yang minum anggur dari mereka yang dibunuh bersama Muhammad di Badr dan Uhud. Dan riwayat 12536 dari Al-Dahhak menyatakan bahwa ini berkaitan dengan anggur ketika menjadi dilarang. Mereka bertanya kepada Nabi tentang saudara-saudara mereka yang meninggal saat meminumnya, dan ayat itu diwahyukan. {cite:tafsir-tabari-shakir-v10 p. 582}
+
+Pernyataan-pernyataan ini seperti yang telah saya sampaikan, bersama dengan pilihan dan bukti al-Tabari untuknya, adalah catatan pinggir editor dan anotasinya, dan museum tidak memutuskan hal itu sendiri.

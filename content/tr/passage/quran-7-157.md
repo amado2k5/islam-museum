@@ -1,0 +1,59 @@
+---
+id: passage/quran-7-157
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-23), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-23, source: content/ar/passage/quran-7-157.md}
+---
+
+## Özet
+Mekke suresi olan E'raf Suresi [[passage/quran-7|'nin 157. ayeti]]. {cite:tanzil-quran}
+
+## Konumu
+Konumu: Suredeki 206 ayetten 157. ayet. Metin Mushaf Tazil al-Mujjard'dan korunmuş olup burada yeniden yazılmamıştır.
+
+**157. Ayetin Yorumu (s. 161-169)**
+
+**Onun sözü: "Resulu, okuma yazma bilmeyen Peygamber'i takip edenler"**
+
+El-Tabari şöyle der: Bu ifade, Musa'nın peygamberine "Ve merhametim her şeyi kapsar" diyerek anlattığı merhameti vaat ettiği kişilerin Muhammed'in ulusudur, çünkü Allah, bu sıfatla tanımlanan, yani "okuma yazma bilmeyen" bir elçiden başka bir elçi tanımıyor. Bu nedenle, rivayetler terfiyeyden gelmiştir. {cite:tafsir-tabari-shakir-v13 p. 161}
+
+İbn Abbas ve Said ibn Jubayr'in 15214, 15215, 15216 ve 15217 tarihli rivayetleri, 'Allah'tan korkanların' Muhammed'in ulusudur; İbn Vaki zincirleri aracılığıyla İmran bin Uyaynah, Ata, Zayd ibn Habbab, Hammad ibn Salamah, Ebu Kurayb, Yahya ibn Yaman, Eşat, Ca'fer, İbn Hümayd ve Cerir'in zincirleri aracılığıyla 'Allah'tan korkanlar' derler ve 15216 rivayetinde Musa, 'Keşke Muhammed'in ulusunda yaratılmış olsaydım' ve 15217'de onlar Muhammed'in takipçileri olduklarını belirtir. {cite:tafsir-tabari-shakir-v13 p. 161}
+
+Ve 15218 Nuf al-Himyari'den, İbn Vaki, Jarir, Laýt ve Şehr ibn Hawshab aracılığıyla: Musa, halkının Rab'bi ile belirlenen zamanı için yetmiş adam seçtiğinde, Tanrı Musa'ya dedi ki, "Toprağı sizin için cami ve arınma yap, evlerinizde huzur sağlayın, Tevrat'ı kalbinizin arkasından okuyun; erkekler ve kadınlar, özgürler, hizmetkarlar, gençler ve yaşlılar." Musa bunu halkına söyledi ve onlar da şöyle dediler: "Biz sadece kiliselerde namaz kılmak istiyoruz, sadece Sandık'taki huzur olmasını istiyoruz ve Tevrat'ı sadece bir bakışla okumak istiyoruz." Tanrı, "O'ndan korkanlar için yazacağım" demiş, "Bunlar başarılılardır." Editör, basılı baskının "Zuhur"u birleştirdiğini ve doğru görüşün el yazmasında yer aldığını açıklar. {cite:tafsir-tabari-shakir-v13 p. 161}
+
+Ve 15219 Nef el-Bakkali'den, Muhammed ibn Abdül-A'la, Muhammed ibn Tevr, Muammer ve Yahya ibn Ebi Kathir aracılığıyla anlatım: Musa İsrailoğulları heyetiyle yola çıktığında, Allah ona konuştu ve dedi ki, 'Onlar için yeryüzünü saf ve namaz kıldıkları yer, namaz kıldıkları yer, namaz onlara ulaşan camiler açtım, kalplerine huzur verdim, Tevrat'ı dillerinden okuttum.' Musa bunu İsrailoğullarına söyledi ve onlar da dediler ki, 'Kalplerimizde huzur taşıyamayız, bunu bizim için bir tabutta yap, biz sadece bakarak okuruz ve sadece kilisede namaz kılarız.' Allah dedi ki, "Onu O'ndan korkanlar için" "başarılı olanlara kadar" yazacağım. Musa dedi ki, "Ey Rabbim, beni onların peygamberi yap." O dedi ki, "Peygamberleri aralarından biridir." Dedi ki, "Beni aralarına kat." Dedi ki, "Üstesinden gelemezsin." Dedi ki, "Ey Rabbim, İsrailoğullarının heyetini Sana getirdim ve sen bizim heyetimizi başkalarına yaptın." Sonra Allah [[passage/quran-7-159|7:159'da olanı vahyetti]]. {cite:tafsir-tabari-shakir-v13 p. 162}
+
+Nuf al-Bakali şöyle dedi: Şükürler olsun ki sizin gizliliğinizi koruyan, payınızı alan ve İsrailoğullarının gelişini size ilan eden Allah'a şükür. Ve 15220 rivayeti, Muhammed bin Muthanna, babası Mu'ad ibn Hisham ve Yahya ibn Ebi Kathir aracılığıyla, Allah onlara dilleriyle okuduğu, erkekler, kadınlar ve çocuklar aracılığıyla okuduğun Tevrat'ı indirmiştir. Ve 15221 rivayeti Said bin Jubayr'den: Muhammed'in ulu. Ve al-Suddi'den 15222 rivayeti: Bunlar Muhammed'in milletidir. Ve 15223 reyetteti, yaklaşık 15205 Qatada'dan: Söylenen şey istendiğinde, Allah açık ve kesin bir şart indirdi: okuma yazma bilmeyen peygamberi takip etmek, oysa senin peygamberin okuma yazma bilmediği ve kaydedilmediği. Araştırmacı, İshaq bin İsmail'in onun yoldaşı Ebu Yezid el-Razi olduğunu belirtir. El-Taberi, geçmişte 'okuma yazma bilmeyen' kelimesinin anlamını açıkladığını belirtir. {cite:tafsir-tabari-shakir-v13 p. 163}
+
+**Onun sözü: "Onların Tevrat ve İncil'de yazdığı şey"**
+
+El-Taberi, 'buldukları'ndaki 'ha' kelimesinin Muhammed olan Res'e atıfta bulunduğunu söyler. Ve 15224 yılındaki rivayet, El-Suddi'den, Muhammed bin Hüseyin, Ahmed ibn Mufaddal ve aşiretler aracılığıyla: Bu Muhammed'dir. Ve 15225 tarihli rivayet, Ata ibn Yasar'dan, İbn al-Müthanna, Osman ibn Ömer, Falih ve Hilal ibn Ali aracılığıyla: Abdullah ibn Amr ile karşılaştım ve dedim ki, 'Söyle bana. Tevrat'ta Allah'ın Elçi'nin tasviri hakkında.' dedi: Evet, Allah adına, Tevrat'ta Kur'an'daki tanımı olarak tanımlanmıştır; o, okuma yazma bilmeyenlerin tanık, getirici, uyarıcısı ve koruyucusudur. Allah'ın qulu ve Elçisi Allah tarafından Mutevakkil olarak adlandırılır. Pazarlarda ne sert, ne gürültücüdür, ne kötü bir şeyle ödüllendirilir, ama affeder ve affeder. Allah, 'Allah'tan başka bir ilah yoktur' diyerek eğri inancı kurana kadar onu yakalamaz. ; bu yoldan sağır kalplere, sağır kulaklara ve kör gözlere açılır. Ata şöyle dedi: Sonra Ka'b ile tanıştım ve ona sordum, aralarında tek bir kelime farkı yoktu, sadece Ka'b'ın kendi dilinde sağır kalpler, sağır kulakları ve körlerin gözleri için kelimeler konuştuğu belirtildi. Editör ayrıca Osman ibn Umar, Falih ibn Sulayman, Hilal ibn Ali ibn Usama al-Madani'nin biyografilerini de yazıyor ve onların güvenilir olduğunu belirtiyor. {cite:tafsir-tabari-shakir-v13 p. 164}
+
+Ve Ata'dan 15226 rivayeti, Ebu Kurayb, Musa bin Davud, Falih ve Hilal zincirinden: Abdullah bin Amr bin Al-As ile karşılaştım ve o da benzer bir şeyden bahsetti, ancak Ka'b'ın kendi dilinde kelimeler söylediğini belirtti. Ve Abdullah'ın 15227 rivayeti, Musa, Abdulaziz bin Salamah, Hilal ve Ata bin Yasar'ın yolundan benzer sözlerle Ka'b'ın sözlerini içermiyor. Ve 15228 riayeti Qatadah'dan, Bişr, Yezid ve Said aracılığıyla: Onların arasında onun tanımı, emri ve peygamberliği kaydedilmiştir. {cite:tafsir-tabari-shakir-v13 p. 165}
+
+**Sözü: "Onlara doğru olanı emreder ve yanlışlardan yasaklar"**
+
+El-Taberi şöyle der: Bu okuma yazmayan peygamber, takipçilerine iyilik yapmalarını emreder; bu da Allah'a iman etmek ve O'nun emrettiği ve yasakladığı şeylere bağlı kalmaktır; kötülükten de yasaklar, yani Allah'la ortak olmak ve Allah'ın yasakladığı şeylerden kaçınmaktır. Ve 'Onlara iyi şeylere izin verir' demesi, İslam öncesi dönemde banyo, dökülme ve vahşi hayvanları yasaklayan şeydi, 've kirli olanları yasakladı', yani domuz eti, tefeci ve Allah'ın yasakladığı restoranlar ve içecekler için izin verdikleri şeyleri kastediyor. Araştırmacı, daha önce bahsedilen 'iyi', 'kötü', 'iyi şeyler' ve 'kirli' yorumlarına atıfta bulunuyor. {cite:tafsir-tabari-shakir-v13 p. 165}
+
+Ve İbn Abbas'ın 15229 tarihli rivayeti, El-Muthanna, Abdullah ibn Salih, Muaviye ve Ali aracılığıyla, 'Ve onlara kirli şeyler yasak oldu' adlı eserde: domuz eti ve tefecilikten bahseder ve Allah'ın yasakladığı yasak yiyecekler arasında neyi yasak yaptıklarını belirtir. {cite:tafsir-tabari-shakir-v13 p. 166}
+
+**Sözü: "Ve onların zincirlerini ve zincirlerini çıkaracak"**
+
+Yorumcular yorumunda farklı fikirler göstermiştir. Bazıları şöyle demiştir: 'ısrar', İsrailoğulları'ndan alınan ve Tevrat'a göre hareket etmek için yapılan antlaşma ve ahdi ifade eder. Ve İbn Abbas'tan 15230 tarihli rivayet, İbn Vaki', Cabir bin Nuh, Ebu Ruq ve el-Dahak aracılığıyla: onların antlaşması. Ve 15231 ve 15232 rivayetleri el-Dahhak'tan, el-Muharibi ve Cuveybir zincirinden, el-Muthanna aracılığıyla Amrhak'tan ibn Ali, Hishim ve Juwaybir: onların antlaşması. Ve 15233 riayeti el-Hasan'dan, İbn Waki', Yahya ibn Yaman ve Mubarak aracılığıyla: kendilerinden yaptıkları antlaşmalar. Ve 15234 rivayeti Mujahid'den, İbn Numayr ve Musa ibn Qays aracılığıyla: onların antlaşması. Ve al-Suddi'den 15235 riayeti: Onlara Tora ve İncil'de alınan antlaşmalarını ve antlaşmalarını yerleştirir. Ve 15236 ayeti İbn Abbas'tan: Allah onlardan yasak ettiği bir antlaşma almamıştır. {cite:tafsir-tabari-shakir-v13 p. 166}
+
+Bazıları şöyle dedi: Bunun kastı, İsrailoğulları'nın dinlerinde Peygamber'i takip edenlerden doğan katığı kaldırmasıdır. Ve 15237 rivayetinde Katadah'dan, Bişr bin Muadh, Yezid ve Said aracılığıyla: Muhammed onu kovmaya geldi ama gözden kaçırdı. Ve 15238 rivayeti Sa'id bin Cübeyr'den, El-Muthanna, El-Hamani, Şerik ve Salim zincirinden: idrar ve benzeri şeyler İsrailoğulları'na ağır davrandı. Ve 15239 riayeti: Eylemin şiddeti. Ve 15240 tarihli rivayet, Mücahid'den, El-Kasım, Hüseyin ve Hacc aracılığıyla: Muhammed ve dinini Kitap Ehlilerinden takip edenler, dinlerinde gerekli olanı onlardan aldı. {cite:tafsir-tabari-shakir-v13 p. 167}
+
+Ve 15241 tarihli rivayet, İbn Veki, İbn Fudayl ve Eşat zincirinden: Ebu Hureyre, İbn Abbas'a şöyle dedi: Zina yapmak ve hırsızlık yapmak dinde bize zorluk yok mu? Dedi ki: Evet, ama İsrailoğulları'na uygulanan ısrar size dayatılmıştır. Ve 15242 riyâhi, İbn Zeyd'den, Yunus ve İbn Vahb zincirinden: O'nun onlara koyduğu ısrar. {cite:tafsir-tabari-shakir-v13 p. 167}
+
+El-Taberi şöyle der: En doğru görüş, 'ısrar'ın antlaşma olduğudur ve bunu başka kanıtlarla açıklamıştır. Anlamı şudur ki, okuma yazmayan peygamber, Tanrı'nın İsrailoğulları'na Torah'ın kurulması ve içindeki katı eylemler (idrardan deri kesmek, ganimet yasaklamak ve benzeri eylemler gibi) hakkında bağlamıştır, ancak Kur'an'ın hükmünün bunu kaldırmasıdır. {cite:tafsir-tabari-shakir-v13 p. 168}
+
+İbn Zeyd, 15243 rivayetinde Yunus ve İbn Vahb aracılığıyla şöyle derdi: 'Zincirler.' Sure'de Yahudiler ve ellerinin zincirleri hakkında yazanları okudu, o zincirleri söyledi ve onları Peygamber'e inanmaya ve onu geride bırakmaya çağırdı. {cite:tafsir-tabari-shakir-v13 p. 168}
+
+**Onun sözü: "Ona inananlar, ona saygı gösteren ve destekleyenler"**
+
+El-Taberi şöyle der: Okuma yazmayan Peygamber'e inanan, peygamberliğini kabul eden ve destekleyenler, onu halk arasından onurlandırmış, onurlandırmış ve korumuşlardır. Ve 15244 tarihli rivayet İbn Abbas'tan, El-Muthanna, Abdullah ibn Salih, Muaviye ve Ali aracılığıyla: O, onu korudu ve onurlandırdı. Ve 15245 riayetinde Mucahid, El-Harit, Abdulaziz ve Musa ibn Kays aracılığıyla: 'Ona saygı gösterin,' onlar onun işlerini yönlendirdiler ve Elçisine yardım ettiler. Ve doğrulayıcı, 'iman' ve 'tezir' yorumuna atıfta bulunur. {cite:tafsir-tabari-shakir-v13 p. 168}
+
+Ve 'Destekle' demesi, 've Allah ve düşmanlarına karşı cihat ve savaş yaparak ona yardım et' anlamına gelir. 'Ve onlar onunla indirilen ışığı takip ettiler', yani Kur'an ve İslam'dır. 'Bunlar başarılıdır.' Muhammed'in takipçilerinin anlattığı bu eylemleri yapanlar, aradıklarını ve umduklarını gerçekleştirenlerdir. Ve 15246 yılındaki rivayet Qatada'dan, Bişr ibn Mu'adh, Yezid ve Said aracılığıyla: Onlar Yahudilere karşı kin beslemediler, sadece Allah'ın Peygamberi'ne kıskandıklarıydı. Allah dedi ki, 'Ona iman edenler, ona saygı gösteren ve destekleyenler.' Destek olmak ve ta'zir etmek konusunda ise ondan önce geldiniz, ancak aranızda en iyisi Allah'a iman eden ve onunla birlikte indirilen ışığı takip edendir. Qatadah'ın ifadesi, Yahudilerin Muhammed'in Allah'tan getirdiğini reddettikleri, ona uysalardı kendileri için bir merhamet olacağı, çünkü Muhammed'in onlara zincirler ve kelepçeler koyduğu ve kıskançlığın onları Allah'a inanmamaya ve hafifletme kabulünü reddetmeye yönelttiği açıklanır. Editör, "En-Nur" ve "El-Falah" yorumuna atıfta bulunur. {cite:tafsir-tabari-shakir-v13 p. 169}
+
+Bu ifadeler, al-Tabari'nin seçimleri ve kendisi için verdiği deliller, editörün kenar notları ve notlarıyla birlikte ilettiğim gibidir ve müze tarafından bunlar hakkında herhangi bir karar verilmemiştir.

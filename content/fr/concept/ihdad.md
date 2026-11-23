@@ -1,0 +1,12 @@
+---
+id: concept/ihdad
+lang: fr
+source_lang: en
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-23), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-fr-2026-11-23, source: content/en/concept/ihdad.md}
+---
+## Résumé
+Dans le lexique, Ihdad signifie renoncer à l'ornement pour montrer le chagrin ; en tant que terme, c'est l'abstention d'une femme de porter des ornements et d'autres choses similaires pendant une période déterminée et dans certaines circonstances, et de dormir loin de sa propre maison. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1753} Il est obligatoire pour une veuve pendant la période d'attente après un mariage valide, par accord, sur le dicton qu'une femme qui croit en Dieu et en le dernier jour ne peut pas pleurer un homme décédé plus de trois nuits, sauf pour un mari, quatre mois et dix jours. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1753} La femme en deuil évite ce qui est orné par la loi ou la coutume, y compris le parfum, le kohl et les vêtements teints ; le rapport nomme les teintures carthame et safran, qui portent de l'odeur. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1756} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1757} Elle peut sortir pour ses besoins ; si elle est loin de son foyer conjugal, elle doit y retourner, et voyager en pèlerinage ou en long voyage est traité en détail. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1759} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1761} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.1762}
+
+## Pour les Chercheurs
+Ihdad, dans la langue, renonce à l'ornement comme signe de chagrin ; au sens technique, l'abstention d'une femme de porter l'ornement et ce qu'elle entend pour une durée déterminée dans des circonstances déterminées, et de même de loger loin de son domicile. Il est obligatoire pour la femme en période d'attente de veuve pour un mariage valide par consensus, selon sa phrase : il n'est pas permis à une femme croyant en Dieu et en le Dernier Jour de faire le deuil des morts au-delà de trois nuits — sauf pour un mari, quatre mois et dix. Le pleureur évite ce qui compte comme ornement par la loi ou la coutume — parfum, kohl, tissu teint — et le hadith nomme les guerres teintes, teintes en safran et tout ce qui est parfumé. Elle peut sortir pour ses besoins ; si elle est loin de chez elle, elle doit retourner à la maison du mariage, tandis que le voyage pour le Hajj ou un long voyage est traité en détail.

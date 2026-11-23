@@ -1,0 +1,23 @@
+---
+id: passage/quran-4-44
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-23), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-23, source: content/ar/passage/quran-4-44.md}
+---
+
+## Ringkasan
+Ayat 44 Surah [[passage/quran-4|An-Nisa]], yang merupakan surah Madinah. {cite:tanzil-quran}
+
+## Posisinya
+Lokasinya: ayat 44 dari 176 ayat dalam surat. Teks ini disimpan dari Mushaf Tazil al-Mujmad dan tidak ditulis ulang di sini.
+
+**Makna bentuk penglihatan di awal ayat (hlm. 426-427, catatan kaki 1-5).** Para penafsir berbeda; beberapa mengatakan maknanya: Apakah engkau tidak tahu? Yang lain berkata: Apakah engkau tidak tahu? Al-Tabari berkata makna yang benar adalah: Apakah hatimu, wahai Muhammad, telah melihat pengetahuan mereka yang diberi bagian dari Kitab Allah? Karena berita dan pengetahuan tidak membawa melihat mata tetapi melihat hati melalui pengetahuan. Adapun memberikan mereka bagian dari Kitab Allah, itu berarti mereka diberi bagian dari Kitab Allah dan mereka mengetahuinya. Editor merujuk pada interpretasi sebelumnya dari rumus dan makna Al-Qur'an oleh Al-Farra, dan mengoreksi dua bagian naskah dan teks cetak. {cite:tafsir-tabari-shakir-v08 p. 427}
+
+**Siapa yang dimaksudkan (hlm. 427-428, narasi 9687-9690, catatan kaki 1-4).** Disebutkan bahwa Tuhan merujuk pada sekelompok orang Yahudi yang berada di sekitar emigran Rasul Allah. Bishr ibn Mu'adh menceritakan dari Yazid dari Sa'id dari Qatadah bahwa mereka adalah orang Yahudi dan menyebut mereka musuh Allah yang memilih kekeliruan (9687). Al-Qasim menceritakan dari Al-Husayn dari Hajjaj dari Ibn Jurayj dari Ikrimah bahwa ayat itu diwahyukan tentang Rifa'ah ibn Zayd ibn Al-Sa'ib si Yahudi (9688). Abu Kurayb menceritakan dari Yunus ibn Bukayr dari Ibn Ishaq dari Muhammad ibn Abi Muhammadd., mantan Zayd ibn Thabit, dari Sa'id ibn Jubayr atau Ikrimah dari Ibn Abbas, bahwa Rifa'ah ibn Zayd ibn al-Tabut, salah satu tokoh besar mereka, akan memutar lidahnya dengan pidato yang bisa memiliki dua makna yang sekilas tampak seperti permintaan untuk mendengarkan, lalu ia mengkritik Islam, dan ayat-ayat itu diungkapkan (9689). Ibn Humayd menceritakan dari Salamah dari Ibn Ishaq dengan rantai serupa dari Ibn Abbas (9690). Verifier mengatakan bahwa nama Rifa'ah muncul dalam manuskrip seperti dalam edisi cetak sebagai "Ibn al-Sa'ib," dan dalam narasi berikutnya "Ibn al-Tabut," dan nama-nama orang Yahudi membingungkan, sehingga tidak pasti salah satu darinya. Mungkin al-Sa'ib adalah nama kakeknya dan peti mati adalah nama belakangnya; manuskrip dan edisi cetak menyebutkan pada tahun 9689 "Abu Ishaq" bukan "Ibn Ishaq," yang merupakan kesalahan besar. Laporan ini terdapat dalam biografi Ibn Hisham, yang mengikuti versi sebelumnya dalam buku (nomornya tidak dapat dibaca dalam edisi yang dihapus); dan bahwa "Abu Ishaq" pada tahun 9690 adalah kesalahan edisi cetak saja. {cite:tafsir-tabari-shakir-v08 p. 428}
+
+**Makna memilih petunjuk yang salah (hlm. 428-429, catatan kaki 4).** Al-Tabari mengatakan bahwa yang dimaksud oleh orang Yahudi yang diberi bagian dari Kitab Allah adalah bahwa mereka memilih petunjuk yang salah, yaitu mengambil jalan selain kebenaran dan menapaki jalan petunjuk, mengetahui jalan yang dimaksudkan. Tuhan menggambarkan mereka dengan cara ini karena mereka berkomitmen untuk menolak Muhammad dan meninggalkan iman kepada-Nya, mengetahui bahwa jalan kebenaran adalah iman kepada-Nya, meskipun mereka percaya pada apa yang mereka temukan tentang sifat-Nya dalam kitab mereka. Editor merujuk pada interpretasi sebelumnya tentang pembelian dan petunjuk yang salah. {cite:tafsir-tabari-shakir-v08 p. 429}
+
+**Niat mereka adalah menyesatkan orang beriman dan memperingatkan Allah (hal. 429).** Al-Tabari mengatakan bahwa orang Yahudi ini ingin para pengikut Muhammad yang percaya kepada-Nya sengaja menyimpang dari jalan dan bukti kebenaran, sehingga mereka berbohong tentang Muhammad dan menjadi tersesat seperti diri mereka sendiri. Ini adalah peringatan dari Allah kepada hamba-hamba-Nya yang beriman agar tidak mencari nasihat dari siapa pun di antara mereka yang Dia sebut musuh Islam (seperti yang Dia gambarkan) mengenai agama mereka atau mendengar kritik mereka tentang kebenaran. {cite:tafsir-tabari-shakir-v08 p. 429}
+
+Pernyataan-pernyataan ini seperti yang telah saya sampaikan, bersama dengan pilihan dan bukti al-Tabari untuknya, adalah catatan pinggir editor dan anotasinya, dan museum tidak memutuskan hal itu sendiri. {cite:tafsir-tabari-shakir-v08 p. 429}

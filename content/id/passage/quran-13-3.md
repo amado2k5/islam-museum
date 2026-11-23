@@ -1,0 +1,23 @@
+---
+id: passage/quran-13-3
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-23), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-23, source: content/ar/passage/quran-13-3.md}
+---
+
+## Ringkasan
+Ayat 3 [[passage/quran-13|Surah Ar-Ra'd]], yang merupakan surah Madinah. {cite:tanzil-quran}
+
+## Posisinya
+Lokasinya: Ayat 3 dari 43 dalam surat. Teks ini disimpan dari Mushaf Tazl al-Mujmad dan tidak ditulis ulang di sini.
+
+**Penafsiran Ayat 3 (hlm. 328-330)**
+
+Al-Tabari berkata tentang ayat itu: "Dan Dialah yang meluaskan bumi dan menempatkan gunung dan sungai di dalamnya, dan dari setiap buah Dia menaruh pasangan yang menutupi malam dan siang. Memang di situlah terdapat tanda-tanda bagi umat yang merenung": Allah Yang Maha Tinggi berkata: Dan Allah yang memanjangkan bumi dan membentangkan panjang dan lebarnya. Dan firman-Nya, "Dan menempatkan gunung di dalamnya," kata Yang Mulia: Dan Dia meletakkan gunung-gunung yang kokoh di bumi. Dan "al-Rawasi" adalah jamak dari "rasiya," yang berarti teguh; dari sana dikatakan bahwa pasak itu dipasang di bumi ketika sudah kokoh, seperti yang dikatakan penyair dalam sebuah ayat yang menyebut Khalidat al-Ithafi, Hamdan, dan Ashath yang baru lahir melemparkannya bersama fahr, yang berarti saya menetapkannya. Editor menyebutkan bahwa ayat itu ditulis oleh Al-Ahwas dalam metafora Al-Qur'an dan Al-Lisan, dan bahwa "Al-Khalidat" adalah batu-batu di bumi yang dinamai demikian karena kelangsungan lamanya berdasarkan pelajaran dari reruntuhan, "Apa yang mereka lemparkan" adalah yang meninggalkan tempatnya, "Al-Hamid" adalah abu yang tergoyang, "Al-Ashath" adalah tiang karena kepalanya terbentur dan menjadi berantakan, dan "Al-Walidah" adalah batu yang mengalir, dan "Al-Fahr" adalah batu yang diisi dengan palem yang dipukul. Dan pepatah-Nya "dan sungai" berarti: Dan Dia meletakkan sungai air di bumi. Dan perkataan-Nya: "Dan dari semua buah Dia menaruh dua pasang di dalamnya," jadi "dari" dalam {cite:tafsir-tabari-shakir-v16 p. 328}
+
+Pernyataannya, "Dan dari semua buah, Dia membuat dua pasang di dalamnya" berasal dari hubungan kedua, bukan yang pertama. Makna pernyataan: dan Dia membuat dua pasang dari semua buah; Dia maksudkan "dua pasang" dari setiap laki-laki dan dua dari masing-masing betina, yaitu empat: dua laki-laki dan dua perempuan, menurut beberapa buah. Kami telah menjelaskan sebelumnya bahwa orang Arab menyebut kedua "pasangan" dan satu laki-laki sebagai "pasangan" untuk perempuannya, dan begitu juga satu perempuan "pasangan" dan "istri" untuk laki-laki, sehingga tidak perlu diulang di sini. Dan Yazid Hal ini diperjelas oleh firman Allah, Yang Maha Kuasa [[passage/quran-53-45|53:45]], yang menyebut keduanya, laki-laki dan perempuan, "pasangan." Dengan mengatakan "dua pasangan," ia maksudkan dua jenis dan jenis. Pemberi bukti mencatat bahwa abrogator menambahkan "dari semua" sebelum "dua pasangan," yang berasal dari ayat lain, sehingga ia menghilangkan kata itu. Dan ungkapan-Nya "malam menutupi siang" berarti: malam menjadikan siang mulia, sehingga Ia menutupinya dengan kegelapannya, dan siang adalah malam dengan cahayanya. Narasi 20066 dari Qatadah hingga Bishr, Yazid, dan Sa'id: "Malam menutupi siang," yang berarti malam menutupi siang. Dan firman-Nya, "Memang di situlah ada tanda-tanda bagi umat yang merenung," Allah berfirman: {cite:tafsir-tabari-shakir-v16 p. 329}
+
+Di antara keajaiban ciptaan Allah dan kekuatan besar yang digunakan dalam menciptakan hal-hal ini terdapat indikasi, bukti, dan peringatan bagi orang-orang yang merenungkannya, menarik kesimpulan, dan mempertimbangkannya, mengetahui bahwa penyembahan tidak layak dan tidak diperbolehkan kecuali bagi Dia yang menciptakan dan mengelolanya, berbeda dengan dewa dan berhala lain yang tidak dapat menyakiti, memberi manfaat, atau menyebabkan apa pun kecuali Dia yang menciptakannya dan membawanya ke keberadaan tanpa apa pun, diberkati dan ditinggikan. Kekuatan yang Dia gunakan untuk menciptakan ini adalah kemampuan di mana Dia tidak dapat mengembalikan mereka yang telah binasa dari ciptaan-Nya, mengembalikan apa yang telah binasa, dan berinovasi apa pun yang Dia kehendaki. Peneliti menjelaskan konteks frasa tersebut. {cite:tafsir-tabari-shakir-v16 p. 330}
+
+Pernyataan-pernyataan ini seperti yang telah saya sampaikan, bersama dengan pilihan dan bukti al-Tabari untuknya, adalah catatan pinggir editor dan anotasinya, dan museum tidak memutuskan hal itu sendiri.

@@ -1,0 +1,27 @@
+---
+id: passage/quran-2-85
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-23), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-23, source: content/ar/passage/quran-2-85.md}
+---
+
+## Özet
+Medine suresi olan Bakarah suresinin [[passage/quran-2|85]]. ayeti. {cite:tanzil-quran}
+
+## Konumu
+Konumu: Suredeki 286 ayetten 85. ayet. Metin Muşaf Tazil el-Mujmad'dan korunmuş olup burada yeniden yazılmamıştır.
+
+## El-Taberi'nin Tafsir'inde
+
+2:85 [[passage/quran-2-85|'te]] El-Tabari iki noktadan bahseder: "o zaman siz bunlarsınız" anlamının 12 [[passage/quran-12-29|:29'daki ifadesinde olduğu gibi]] atladığı ya da "siz"in "bunlar" yükleminden ayrı bir özne olduğu. Ve gösterişli anlam işbirliğidir, çünkü bazıları diğerlerinin sırtını destekler. Bazı Basranlıların "bunlar" sözünün bir uyarı ve vurgu olduğu görüşünden bahseder. {cite:tafsir-tabari-shakir-v02 p. 303} {cite:tafsir-tabari-shakir-v02 p. 304}
+
+Bu ayetle ilgilenenler arasında, El-Taberi, İbn Abbas'tan İbn İshaq aracılığıyla, Khazraj, Banu Nadir ve Qurayza'nın müttefikleri olan Banu Qaynuqa'nın, Havc, Banu Nadir ve Qurayza'nın müttefikleri, her iki tarafın da kardeşlerine karşı kanlarını dökene kadar savaştıklarını, ellerinde Torah'ı tutarak bu yasaktı anlatır. Savaş sona erdiğinde, esirlerini Tevrat'ın teyidiyle fidye ettiler. Ayet bu konuda vahyedildi; doğrulayıcı son cümlenin belirttiğini belirtir, İbn İshaq'ın sözlerinden alınmıştır. Ve Al-Suddi'den yakından bir anlatım, Samir savaşından bahseder; savaştıkları ve sonra fidye aldıkları ve Araplar onları eleştirdiğinde, 'Fidyelerini emredik, onlarla savaşmayı yasakladık ve müttefiklerimizi küçük düşürmekten utanıyoruz.' dediler. İbn Zayd'den Kurayza ve Nadir'in kardeş olduğunu ve ayrıldıklarını, Ebu'l-Aliyah'dan ise zayıfladıklarında evlerinden kovulacaklarını söylediler. {cite:tafsir-tabari-shakir-v02 p. 305} {cite:tafsir-tabari-shakir-v02 p. 306} {cite:tafsir-tabari-shakir-v02 p. 307}
+Ve 'Al-Adwan' sınırı haksız ve haksız bir şekilde aşmıştır. 'Tadhrirun' okuyucuları, 'za'nın ('za'yı yumuşatma ve sertleştirme) iki farklı yorumuna sahiptir, hepsi anlam bakımından tutarlıdır, bu yüzden birini diğerinin üzerine seçmezler. {cite:tafsir-tabari-shakir-v02 p. 307} {cite:tafsir-tabari-shakir-v02 p. 308}
+Ve 2:85 [[passage/quran-2-85|' te]] El-Taberi, Allah'ın onları birbirlerini öldürüp sonra esirleri telafi ederek azarladığını, onları öldürüp serbest bırakmanın yasak olduğu gibi, mahkumları terk etmenin yasak olduğunu söyler. Peki, Kitap'ın bazı bölümlerinde kâfir olmaması ahdin çelişkisi iken bunu nasıl kabul edip reddedebilirler? Katade'den rivayet edilir ki, onun fidyelerinin iman içindir, kurtuluşları ise kâfirliktir, İbn Abbas ve Mücahid de benzer şekilde söyler. {cite:tafsir-tabari-shakir-v02 p. 308} {cite:tafsir-tabari-shakir-v02 p. 309}
+
+El-Taberi, 2:85'te [[passage/quran-2-85|Katede, Ebu el-Aliye ve İbn Jureyc'den onların]] kovulmasının kâfirlik olduğunu ve fidyelerinin imansızlık olduğunu rivayet eder. Ebu al-Aliya, Abdullah ibn Selam'ın Kufe'de Ras al-Jalut'tan geçerken bazı kadınları diğerlerinin önüne sunduğunu ve ona şöyle dediğini rivayet eder: 'Kitabında hepsini kurtarmak yazılıdır.' İbn Jureyj vardığında Ömer'in İsrailoğulları'nın vefat ettiğini ve bu hadisle ilgilenenlerin senin olduğunu söylediğini bildirir. {cite:tafsir-tabari-shakir-v02 p. 309} {cite:tafsir-tabari-shakir-v02 p. 310}
+"Asari Fadduhum" okuyucularının dört okuması vardır: "Asra" ve "Asari" ile "kurban edilecekler" veya "kurtarılacaklar". El-Tabari, "Asra"nın "Asri"nin çoğulu olduğunu, "Al-Mars" ve "Khosra" karşılığında olduğunu ve "Asari"nin sarhoş ve tembel kelimelerinin çoğul benzetmesi olduğunu ve onları ayırt edenlerin görüşü reddedildiğini söyler. Kendi tercihiyle "Asra"yı seçer çünkü "Fa'ali" "Fa'il"in çoğulu yeterli değildir ve Yahudiler her halükarda esirlerini fidye vermek zorunda olduğu için "Kurban edilecekler"i tercih eder. [[passage/quran-2-85|2:85'te]] iki yorum vardır: "O" sürgün ve tekrarın bir metaforudur ya da bir sütundur. {cite:tafsir-tabari-shakir-v02 p. 310} {cite:tafsir-tabari-shakir-v02 p. 311} {cite:tafsir-tabari-shakir-v02 p. 312} {cite:tafsir-tabari-shakir-v02 p. 313}
+Ve [[passage/quran-2-85|2:85'te utanç]], aşağılanma ve hemen ahirette küçük olanıdır. Ne amaçlandığı konusunda anlaşmazlık yaşadılar: Allah'ın Muhammed'e vahyettiği hükmünün katilin cezası ve cezası olduğu; bazıları onun dinleri için aşağılanma ve intikam sağlayanlardan vergi aldığını; diğerleri ise Peygamber'in Banu Nadir'i ilk toplanmada evlerinden kovduğunu, Qurayza savaşını öldürdüğünü ve soylarını köleleştirdiğini söyledi. {cite:tafsir-tabari-shakir-v02 p. 314}
+
+2:85 [[passage/quran-2-85|' te]] El-Tabari, bunu yapan kişinin bu dünyada utançtan sonra Allah'ın hazırladığı en ağır cezaya geri döndüğünü ve bunu söyleyenlerin sözü bu dünyanın cezasından daha ağır olduğunu, çünkü kesin ve lam tüm cezayı gösterdiğini söyler. [[passage/quran-2-85|2:85'te]] yaa ve ta ile iki okuma vardır ve o, kendi seçimiyle, en yakın olanı takip eden önceki 'ya'yı seçer ve diğer tarafı uzak görmediğini, yani onların yaptıklarını ihmal etmediğini, aksine onları sayar, ahirette telafi eder ve bu dünyada utandırır. {cite:tafsir-tabari-shakir-v02 p. 315} {cite:tafsir-tabari-shakir-v02 p. 316}

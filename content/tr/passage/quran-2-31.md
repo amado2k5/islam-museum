@@ -1,0 +1,30 @@
+---
+id: passage/quran-2-31
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-23), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-23, source: content/ar/passage/quran-2-31.md}
+---
+
+## Özet
+Medine suresi olan Bakarah suresinin [[passage/quran-2|31. ayeti]]. {cite:tanzil-quran}
+
+## Konumu
+Konumu: Suredeki 286 ayetten 31. ayet. Metin Mushaf Tazil al-Mujaddam'dan korunmuş olup burada yeniden yazılmamıştır.
+
+## El-Taberi'nin Tafsir'inde
+'Ve Adem'in bilgisi'nde El-Taberi, İbn Abbas ve Said ibn Cübeyr'den Tanrı'nın Ölüm Meleği'ni (ve başka yerlerde araştırmacının belirttiği gibi İblisi) gönderdiğini, böylece yeryüzünün tozundan tatlılığını ve tuzluluğunu alıp Adem'i ondan yarattığını anlatır. Bu nedenle Adem, yeryüzünün tozundan yaratıldığı için adlandırılmıştır. Ali'den rivayet edilir ki, Adem, iyilik, iyi ve kötü olan toprağın toprağından yaratılmıştır; tüm bunlar onun soyundan görülür ve doğrulanmış anlatıcı zincirini zayıflatır. Al-Suddi'nin aktarım zinciriyle birlikte, Adem'in çocuklarının kırmızı, beyaz ve siyah topraktan alındığı için farklı ortaya çıktığını anlatır. {cite:tafsir-tabari-shakir-v01 p. 480} {cite:tafsir-tabari-shakir-v01 p. 481}
+Peygamber'den, doğrulayıcı tarafından özgün olarak tanımlanan bir zincirle Abu Musa al-Ash'ari'den rivayet eder: Tanrı, Adem'i tüm yeryüzünden tuttuğu sıkılı bir yumruktan yarattı, böylece Adem'in çocukları yeryüzü kadar büyük oldu; kırmızı, siyah, beyaz ve aralarında kolay ve hüzünlü olan, kötü ve iyi vardı. {cite:tafsir-tabari-shakir-v01 p. 481} {cite:tafsir-tabari-shakir-v01 p. 482}
+El-Taberi, bu yoruma göre 'Adem'in kökeninin kendisine insanlığın babası denilen bir fiil olduğunu, tıpkı 'Ahmed' ve 'As'ad' olarak adlandırıldığı gibi, bu yüzden geçerli olmadığını ve yorumunun 'yeryüzünün alnı' anlamına geldiğini düşünür. {cite:tafsir-tabari-shakir-v01 p. 482}
+'Tüm İsimler'de yorum alimleri, Adem'in öğrettiği isimler arasındaki farklardan bahsederler. İbn Abbas'tan rivayet edilir ki, insanlar birbirini tanıdıkları isimler bunlardır: insan, hayvan, kara, ova, deniz, dağ, eşek ve benzeri. Mücahid ona her şeyin adını öğrettiğini, Seyid bin Cübeyr'den ise deve, inek ve koyun isimlerini öğrettiğini söyledi. {cite:tafsir-tabari-shakir-v01 p. 482} {cite:tafsir-tabari-shakir-v01 p. 483}
+
+El-Taberi, Katada'dan ona her şeyin isimlerini öğrettiğini anlatır: bu dağ ve bu deniz, sonra bunları meleklere sundu. El-Hasan ve Katada'dan atlar, katırlar, develer, cinler ve vahşi hayvanlar da anlatılır. İbn Abbas'tan, onlardan birinin süreksizliğini gösteren yollarla anlatır; ona küçük, önemsiz şeyleri bile öğretmiştir. {cite:tafsir-tabari-shakir-v01 p. 484} {cite:tafsir-tabari-shakir-v01 p. 485}
+El-Rabi' ibn Anas'tan ikinci bir görüşü olarak bunların meleklerin isimleri olduğunu ve İbn Zeyd'in üçüncü görüşünü ise tüm soyundan gelenlerin isimleri olduğuna dair bir görüş belirtir. {cite:tafsir-tabari-shakir-v01 p. 485}
+El-Tabari'nin tercihi, ki bu onun tercihidir, isimlerin diğer yaratılış türleri hariç tutularak soyunlarının ve meleklerinin isimleri olmasıdır, çünkü Tanrı şöyle dedi: "Sonra onlar onları sundular." Araplar, 'h' ve 'm' harflerini neredeyse hiç telaffuz etmezler, sadece Adem ve meleklerin çocukları için 'ha' ve 'alif' ya da 'ha' ve 'rahibe' kelimelerini kullanırlar. İbn Abbas'ın En-Nur suresindeki 'ha' ve 'meem' ile karışık kategorilerle ilgili benzetmesinin kabul edilebilirliğini kabul eder; İbn Mes'in mektubunda 'genişlikleri' ve Ebu'nun harfinde 'genişlikleri' belirtir, belki İbn Abbas bunu babamın okumasına göre yorumlamıştır. {cite:tafsir-tabari-shakir-v01 p. 485} {cite:tafsir-tabari-shakir-v01 p. 486}
+Ve [[passage/quran-2-31|2:31'de anlamının meleklere]] isimlerin sunulması olduğu tekrar edilir. İbn Abbas'tan Al-Dahhak'tan isimleri sunduğu, Al-Suddi'den yaratılışı sunduğu, İbn Zayd'den soyunları sırtından ve saflarından çıkardığı, Katade'den ise bu isimleri sunduğu rivayet edilir. {cite:tafsir-tabari-shakir-v01 p. 486} {cite:tafsir-tabari-shakir-v01 p. 487}
+
+2:31 [[passage/quran-2-31|'de]] el-Taberi, 'Anbi'uni'yi 'bana bildir' olarak yorumlar, el-Nabigha al-Dhubyani'nin bir ayetini aktarır ve Mücahit'ten anlatır ki, bu isimler Adem'in bilgilendirildiği isimlerdir. Başka bir rivayette teklif güvercin ve karga içindir. {cite:tafsir-tabari-shakir-v01 p. 488} {cite:tafsir-tabari-shakir-v01 p. 489}
+Ve 2:31 [[passage/quran-2-31|'de]] üç görüş belirtilir: İbn Abbas'tan eğer yeryüzünde bir vekil koymayacağımı biliyorsan; El-Suddi'den, bilinen bir anlatı zinciriyle, eğer Adem'in çocukları yozlaşıp kan dökerse; ve El-Hasan ile Katada'dan, hiçbir yaratılışın yaratıldığı, sadece onların ondan daha iyi bildiklerinden kaynaklandığı. {cite:tafsir-tabari-shakir-v01 p. 490}
+El-Taberi'nin seçimi, yani onun tercihi, İbn Abbas'ın sözüdür: "Eğer sözünde dürüstsen, sana sunulanların isimlerini bana söyle: Eğer halifemi aranızdan soyundan bana itaatsizlik ettirirsen, ben de seni itaat ettirirsem, gördüğünüz mevcut yaratıkların isimlerini bilmiyorsanız, siz henüz var olmamış ve gizlenmiş olansınız, bu yüzden bilmediğiniz şeyleri sormayın." Bu, Nuh'un Hud Suresi'ndeki azarlamasına benzetilir ve [[passage/quran-2-30|2:30'da]] bazılarının günahların açılış ve mührü olduğu açıklanır, bu da İblis dir. {cite:tafsir-tabari-shakir-v01 p. 490} {cite:tafsir-tabari-shakir-v01 p. 491}
+
+El-Taberi, bazı Basra dilbilgicilerinin [[passage/quran-2-31|2:31'in]] meleklerin bir şey iddia ettiği anlamına gelmediği, aksine görünmeyenin cehaletinin bir göstergesi olduğu ifadesini çürütür; bir adam başka birine 'Biliyorsan söyle' der, o da bilmediğini bilir. Arap dilinde doğruluğun bilgi değil, raporun doğruluğu olduğuna inanır ve bu görüşün yorumcuların görüşleriyle çeliştiğini savunur. Ayrıca 'in' kelimesini 'idha' olarak yorumlayanların, okuyucuların hemzanın kasrası üzerinde uzlaştığı konusunda da reddeder. {cite:tafsir-tabari-shakir-v01 p. 492} {cite:tafsir-tabari-shakir-v01 p. 493}

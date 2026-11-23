@@ -1,0 +1,19 @@
+---
+id: passage/quran-2-214
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-23), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-23, source: content/ar/passage/quran-2-214.md}
+---
+
+## Ringkasan
+Ayat 214 Surah [[passage/quran-2|Al-Baqarah]], yang merupakan surah Madinah. {cite:tanzil-quran}
+
+## Posisinya
+Lokasinya: Ayat 214 dari 286 dalam surat. Teks ini disimpan dari Mushaf Tazl al-Mujjard dan tidak ditulis ulang di sini.
+
+## Dalam Tafsir al-Tabari
+
+Pernyataan dalam [[passage/quran-2-214|2:214]]: Al-Tabari mengatakan bahwa 'um' adalah bentuk yang dipertanyakan pada awalnya tanpa partikel interogasi sebelumnya karena pernyataan terkait. {cite:tafsir-tabari-shakir-v04 p. 287} {cite:tafsir-tabari-shakir-v04 p. 288} Maksudnya: Atau apakah kalian berpikir, wahai orang mukmin kepada Allah dan para rasul-Nya, bahwa kalian akan masuk ke Surga dan tidak menderita seperti yang menimpa mereka sebelum kalian di antara para nabi, dalam hal kesulitan dan ujian, sehingga kalian menderita kesulitan, yaitu kebutuhan dan kemiskinan yang berat, dan kesulitan, yaitu penyakit dan penderitaan, dan kalian tidak mengguncang gempa mereka, artinya mereka tidak dihantam oleh musuh mereka karena ketakutan dan ketakutan sehingga umat menunda kemenangan Allah, berkata, 'Kapan Allah akan membantu kami?' Kemudian Allah memberitahu mereka bahwa kemenangan-Nya sudah dekat dan Dia melawan musuh mereka, maka Dia menepati janji mereka. {cite:tafsir-tabari-shakir-v04 p. 288} Ayat ini, menurut para penafsir, diwahyukan pada Hari Parit ketika para mukmin menghadapi kesulitan berat yang mereka alami karena takut akan sekutu, dingin yang parah, dan kesulitan hidup. Ayat-ayat Konfederasi dikutip (33:9-11). {cite:tafsir-tabari-shakir-v04 p. 288} Dan dari Al-Suddi: Ini diwahyukan pada hari Konfederasi ketika pembicara mereka berkata [[passage/quran-33-12|33:12]] (33:12) (4064); dan dari Qatadah: Wahyu ini diwahyukan pada hari Konfederasi, ketika Rasul Allah dan sahabatnya menderita penderitaan dan pengepungan, sehingga mereka seperti yang Allah firman [[passage/quran-33-10|33:10]] (4065). {cite:tafsir-tabari-shakir-v04 p. 289}
+
+Dan [[passage/quran-2-214|2:214]] ditafsirkan oleh sebagian besar orang Arab sebagai [[passage/quran-2-214|2:214]], mengklaim bahwa 'ma' adalah sebuah hubungan, dan [[passage/quran-2-214|2:214]] berarti menyerupai mereka, dan peribahasa itu adalah 'persamaan.' {cite:tafsir-tabari-shakir-v04 p. 289} Dan dari Ibn Jurayj: [[passage/quran-2-214|2:214]] Dia berkata: Dia membingungkan mereka dan mengajarkan tentang Tuhan (4067). Verifier menyebutkan bahwa narasi 4066 tentang Al-Rabi' tidak lengkap dan dia tidak menemukan kelengkapannya. {cite:tafsir-tabari-shakir-v04 p. 290} Dalam [[passage/quran-2-214|2:214 ada]] dua aspek bacaan: nominatif dan akusatif; bagi siapa pun yang mengangkat si anu-anu, karena kata kerja sebelumnya tidak diperpanjang, dan yang berikutnya sudah dilakukan dan selesai, seperti pepatah Anda 'Aku berdiri melawan si anu sampai aku memukulnya' jika ia bermaksud memukulnya; jika tindakan sebelumnya diperpanjang dan yang berikutnya tidak berakhir, tuduhan yang benar adalah 'yaf'al,' seperti kata Imru' al-Qais, 'Aku ikut bersama mereka sampai tunggangan mereka habis.' {cite:tafsir-tabari-shakir-v04 p. 290} {cite:tafsir-tabari-shakir-v04 p. 291} Al-Tabari memilih [[passage/quran-2-214|2:214]] sebagai kata tuduhan karena gempa di sini adalah ketakutan akan musuh, bukan gempa bumi yang berpanjangan. Aksatifnya lebih eksplisit dan benar; sang penilai menunjukkan bahwa Al-Farra' sepenuhnya menjelaskan makna 'hatta' dan mengandalkannya. {cite:tafsir-tabari-shakir-v04 p. 291}

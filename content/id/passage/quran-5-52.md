@@ -1,0 +1,27 @@
+---
+id: passage/quran-5-52
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-23), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-23, source: content/ar/passage/quran-5-52.md}
+---
+
+## Ringkasan
+Ayat 52 [[passage/quran-5|Surah Al-Ma'idah]], yang merupakan surah Madinah. {cite:tanzil-quran}
+
+## Posisinya
+Lokasinya: Ayat 52 dari 120 dalam surat. Teks ini disimpan dari Mushaf Wahyu Beku dan tidak ditulis ulang di sini.
+
+**Interpretasi ayat 52: Jadi kamu melihat mereka yang di hatinya ada penyakit yang menyebar cepat melalui mereka, berkata, 'Kami takut akan terjadi siklus pada kami.' hlm. 402-407**
+
+Para ahli penafsiran berbeda pendapat mengenai siapa yang merujuk pada ayat ini. Beberapa mengatakan Abdullah ibn Abi ibn Salul, dan narasi tahun 12166 dari Atiyah ibn Sa'd menyatakan bahwa "mereka segera menuju mereka," artinya dalam pengawasan mereka. Dan narasi tahun 12167 dari Ubadah ibn al-Walid ibn Ubadah ibn al-Samit bahwa dia adalah putra Ubayy, berkata: Aku takut akan lingkaran yang mungkin menimpaku. {cite:tafsir-tabari-shakir-v10 p. 403}
+
+Yang lain mengatakan, dan lebih tepatnya, merujuk pada sekelompok munafik yang menasihati orang Yahudi dan menipu orang beriman, dengan mengatakan, 'Kami takut lingkaran itu akan lebih menguntungkan orang Yahudi daripada orang beriman.' Narasi tahun 12168 dan 12169 menceritakan dari Mujahid bahwa mereka adalah munafik dalam berurusan dengan orang Yahudi, keintiman mereka, dan favoritisme anak-anak mereka. Narasi tahun 12170 menceritakan dari Qatadah bahwa mereka adalah munafik yang lebih memihak kepada orang Yahudi dan menasihati mereka daripada para penganut beriman. Narasi tahun 12171 dari Al-Suddi menyatakan bahwa penyakit diragukan dan lingkaran itu adalah penampilan para politeis terhadap mereka. {cite:tafsir-tabari-shakir-v10 p. 403}
+
+Al-Tabari berpendapat bahwa pandangan yang benar adalah bahwa ayat itu adalah laporan dari Tuhan tentang beberapa munafik yang berteman dengan orang Yahudi dan Kristen serta menipu orang beriman, dengan mengatakan, 'Kami takut lingkaran akan berbalik, baik untuk orang Yahudi dan Kristen atau untuk para politeis yang menyembah berhala atau orang lain melawan umat Islam, atau agar para munafik dijatuhkan sebagai wahyu agar mereka membutuhkannya.' Mungkin ini berasal dari pernyataan Ibn Abi atau yang lain, dan tidak diragukan lagi bahwa ini adalah perkataan para munafik. Maknanya: Jadi lihatlah, wahai Muhammad, mereka yang di hatinya ada keraguan dan penyakit dalam iman mereka pada kenabian-Mu dan kepercayaan akan apa yang Engkau bawa kepada mereka, dengan tergesa-gesa mengikuti mereka, yaitu dalam kesetiaan dan perbuatan mereka, mereka berkata, 'Kami hanya terburu-buru mengikuti mereka karena takut akan lingkaran yang akan berbalik melawan kami.' Dan lingkaran adalah negara, dan dia mengutip ayat Humaid al-Arqat dalam menolak lingkaran waktu. Artinya, mengubah waktu menjadi negara, maka kita harus mendukung mereka, maka kita akan menjadi penerus mereka untuk itu. Dalam catatan kaki, versi cetak mengubah kata-kata manuskrip, dan versi yang benar adalah yang ada dalam naskah. {cite:tafsir-tabari-shakir-v10 p. 404}
+
+Dan mengenai perkataan-Nya, "Jadi mungkin Allah akan membawa penaklukan atau perintah dari-Nya, dan mereka akan menjadi, atas apa yang mereka sembunyikan dalam diri mereka, menyesal," Al-Tabari mengatakan bahwa 'mungkin' di sini berarti 'mungkin.' Mereka berbeda pendapat mengenai 'al-Fath': beberapa mengatakan 'keputusan,' dan narasi 12172 dari Qatadah menceritakan bahwa, sementara yang lain mengatakan penaklukan Mekah, dan riwayat 12173 dari al-Suddi mengatakan demikian. Dia mengatakan bahwa 'penaklukan' dalam bahasa Arab berarti penghakiman, seperti yang dikatakan Qatadah, seperti dalam ucapannya dalam Al-A'raf, 'Tuhan kami, bukalah antara kami dan umat kami dengan kebenaran.' Juga mungkin bahwa titah yang dijanjikan Allah kepada nabi-Nya adalah penaklukan Mekah karena di antara titah besar dan penghakiman tegas antara umat beriman dan tidak percaya, serta titah yang ditetapkan oleh umat kafir dan kemunafikan bahwa Allah mengangkat firman-Nya dan melemahkan rencana kafir. {cite:tafsir-tabari-shakir-v10 p. 405}
+
+Adapun 'atau perintah dari-Nya,' riwayat tahun 12174 dari Al-Suddi menyatakan bahwa masalahnya adalah jizya. Al-Tabari mengatakan mungkin saja jizya adalah sesuatu atau sesuatu yang lain, tetapi apapun itu, itu menunjukkan bahwa para mukmin sedang mengajarkan umat tentang kafir dan merugikan orang munafik serta tidak menyenangkan mereka, karena Allah memberitahu bahwa ketika perkara itu terjadi, mereka akan menyesali apa yang telah mereka sembunyikan dalam diri mereka, yaitu rahasia persahabatan mereka dengan orang Yahudi dan Kristen, kasih sayang, kebencian mereka terhadap orang beriman, dan permusuhan mereka terhadap mereka. Dan riwayat tahun 12175 dari Qatadah menceritakan bahwa hal ini disebabkan oleh cinta mereka kepada orang Yahudi dan mereka yang telah ditipu oleh Islam dan umatnya. {cite:tafsir-tabari-shakir-v10 p. 406}
+
+Pernyataan-pernyataan ini seperti yang telah saya sampaikan, bersama dengan pilihan dan bukti al-Tabari untuknya, adalah catatan pinggir editor dan anotasinya, dan museum tidak memutuskan hal itu sendiri.

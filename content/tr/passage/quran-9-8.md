@@ -1,0 +1,31 @@
+---
+id: passage/quran-9-8
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-23), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-23, source: content/ar/passage/quran-9-8.md}
+---
+
+## Özet
+Medine suresi olan Tevbe Suresi [[passage/quran-9|'nin 8]]. ayeti. {cite:tanzil-quran}
+
+## Konumu
+Konumu: Suredeki 129 ayetten 8. ayet. Metin Mushaf Tazil al-Mujjard'dan korunmuş olup burada yeniden yazılmamıştır.
+
+**8. ayetin yorumu (s. 145-150)**
+
+El-Taberi şöyle der: Antlaşmayı bozan ya da sizinle antlaşması olmayan çok tanrılılar, müminler, nasıl bir antlaşma ya da antlaşma yapabilirler ki, eğer size karşı ortaya çıkarlarsa, yani sizi alt ederlerse, sadece sizi hiçbir antlaşma olmadan gözetlerler? Konuşmanın anlamının kanıtı olarak 'kayf' ile yeterli oldu, Araplar da harfi anlamı geçtikten sonra fiili atlayarak tekrar ettiklerinde bunu yaparlar. Ünlü ağabeyi ağıtından Ka'b ibn Sa'd al-Ghanawi'nin bir ayetini aktarır; burada ölümün sadece köylerde mi gerçekleştiğini merak eder; burası kimsenin hayatta kalmadığı bir plato ve tepedir. 'Nasıl' öncelik vermek için fiili atlamıştır. Editör, şiirin kaynaklarını ve kardeşim, şair, bela bir diyardan kaçarak hayatını kaybettiği hikayesini aktarır. {cite:tafsir-tabari-shakir-v14 p. 145}
+
+Tercümenler 'sana sadece hiçbir antlaşma olmadan bakarlar' konusunda farklı görüşler yaptı. Bazıları şöyle dedi: bu, Allah'a ya da herhangi bir ahit görmedikleri anlamına gelir. Ve Mücahid'in 16499 ayetinde 9'daki benzer [[passage/quran-9-10|ayet: 10]]: 'El' Allah'tır; ve 16500 riayeti Ebu Majliz'den, Ya'qub, İbn Aliyyah ve Süleyman'dan: Cebrail, Mikail ve İsrafil'den olduğu gibi, 'Il' kelimesine 'Ceb', Mikail ve Israf ekler gibi, yani Allah'ın kulu anlamına gelir, sanki 'Allah'ı gözetmezler.' Ve Mucahid'den 16501 rivayetinde: 'Allah'a ya da başkasına bakmazlar.' Diğerleri şöyle der: 'Il' akrabalık demektir. Ve İbn Abbas'tan 16502'deki rivayet, El-Muthanna, Abdullah ibn Salih, Muaviye ve Ali aracılığıyla: akrabalık, ahit yok, 'dhimma' ise antlaşma demektir. {cite:tafsir-tabari-shakir-v14 p. 146}
+
+Ve 16503 yılında İbn Abbas'tan Muhammed ibn Sa'd aracılığıyla yapılan rivayet: 'il' akrabalık anlamına gelir, 'dhimma' ise ahit anlamına gelir, yani putperestler arasındaki ahit halkı anlamına gelir; ve 16504 riyâhi el-Dahhak'tan: akrabalık; 16505 riyâhi İkrimah'a kadar İkrimah'a kadar olan rivayet: 'il' akrabalık ve zimma antlaşmadır; 16506'daki anlatı el-Dahhak'tan: 'il' akrabalık ve dhimma antlaşmadır; ve al-Suddi'den 16507 anlatı: Nasıl olur da çok tanrılılar size görünse bile, sizden hiçbir antlaşma, akrabalık ya da antlaşma beklemezler. Diğerleri şöyle dedi: Bu yemin etmek demektir; ve Katadah'tan 16508 numaralı rivayet, Bişr, Yezid ve Sa'id aracılığıyla: 'il' antlaşmadır, dhimma ise antlaşmadır. Diğerleri şöyle dedi: 'il' antlaşmadır, ama iki terim farklı olduğunda, anlamları aynı olsa bile bu tekrar edilir. Editör, el yazmasını 16504 tarihli iletim zincirinde okuduğuna da değinmektedir. {cite:tafsir-tabari-shakir-v14 p. 147}
+
+Ve Mucahid'den, Muhammed bin Amr, Ebu Asim, İsa ve İbn Ebi Necih zincirinden 16509 numaralı rivayet: 'hariç' bir antlaşma anlamına gelir. Ve İbn Zayd'den 16510 numaralı rivayet, Yunus ve İbn Vahb aracılığıyla: Senden herhangi bir antlaşma ya da antlaşma beklemezler, bunlardan biri sahibinden, örneğin Bağışlayan ve Merhametli figür gibi. Kelime birdir ve ayrılır, antlaşma antlaşmadır. Ve Mucahid'den 16511 ve 16512 rivayetleri: antlaşma antlaşmadır. {cite:tafsir-tabari-shakir-v14 p. 148}
+
+Sonra El-Taberi, Tanrı'nın bu müşrikləri kutsal aylar sona erdikten sonra öldürülmesini emrettiği bu putperestler hakkında bilgilendirdiğini, eğer onlar müminlerin huzuruna çıkarsa sadece gözetimde olacaklarını seçer. "El-İl" isim, anlamlar içerir: antlaşma, yemin ve akrabalık; ayrıca Tanrı anlamına gelir. Tanrı, anlamsız belirli bir anlam belirtmediği için, genellemek doğrudur, çünkü denildiği gibi: Tanrı'ya inanan bir kişide akrabalık, antlaşma veya antlaşma gözlemlemezler. Akrabalık anlamını, İbn Muqbil'in kötü bir varisi aile bağlarını ve akrabalık bağlarını koparan bir sözünden, Hasan ibn Thabit'in Abu Sufyan ibn al-Harith'e hitaben yazdığı bir ayetten, onun Kureyşle akrabalığını bir grubun devekuşunun oğluna benzettiği bir ayetten çıkarmıştır; ve antlaşmanın anlamı hakkında, yazarı bilinmeyen bir ayet olup, ahit ve ahit sahibinin yalan söylemediğini söyler. Araştırmacı, İbn Muqbil'in şiirinin kelime dağarcığını açıklar; Peygamber'in kuzeni ve hemşire ailesinden kardeşi Ebu Sufyan bin al-Haris'in ona zarar verdiğini ve alay ettiğini, ardından fetih gününde İslam'ı benimsediğini ve Hunayn'da Peygamber'in katırının dizginini tutarak kaldığını, sonrasında ise alçakgönüllülükten başını kaldırmadığını belirtir. {cite:tafsir-tabari-shakir-v14 p. 149}
+
+Basran'dan Arapların bilgisine atfedilenlerden bazıları, özellikle Kur'an'daki Ebu Ubeyde, İlah, antlaşma, antlaşma ve yeminin bir olduğunu ve burada 'zimma'nın ahdi olmayanları suçlamak anlamına geldiğini iddia etmiştir. İbn İshak bu ayetle genel ahit halkını kastederdi. Ve 16513 yılında İbn İshak'tan, İbn Hümayd ve Selma aracılığıyla rivayet: Bir süre antlaşması olmayan müşriklərin genel ahit halkı arasında görünse bile, sadece sizi hiçbir yükümlülük olmadan gözetliyorlar? {cite:tafsir-tabari-shakir-v14 p. 150}
+
+'Ağızlarıyla sizi memnun ederler' ifadesi, dilleriyle size düşmanlık ve nefret dolu kalplerine aykırı bir söz verdikleri anlamına gelir. 'Ve kalpleri reddeder', yani kalpleri dilleriyle söylediklerine inanarak size itaat etmiyor. Allah, müminleri işlerine karşı uyarır, nerede bulunurlarsa bulurlarsa onları öldürmeleri ve saldırmaları, nefretlerini sadece ellerinden gelenin sınırına bırakmamaları için uyarır; 'Ve çoğu itaatsizdir,' yani ahdini bozar, Rablerine inkar etmez ve O'na itaatsizlik ederler. {cite:tafsir-tabari-shakir-v14 p. 150}
+
+Bu ifadeler, al-Tabari'nin seçimleri ve kendisi için verdiği deliller, editörün kenar notları ve notlarıyla birlikte ilettiğim gibidir ve müze tarafından bunlar hakkında herhangi bir karar verilmemiştir.

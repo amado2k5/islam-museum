@@ -1,0 +1,25 @@
+---
+id: passage/quran-3-100
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-23), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-23, source: content/ar/passage/quran-3-100.md}
+---
+
+## Ringkasan
+Ayat 100 Surah [[passage/quran-3|Al-Imran]], yang merupakan surah Madinah. {cite:tanzil-quran}
+
+## Posisinya
+Lokasinya: Ayat 100 dari 200 dalam Surah. Teks ini disimpan dari Mushaf Tazil Al-Mujjard dan tidak ditulis ulang di sini.
+
+**Perbedaan pendapat di antara para penafsir mengenai mereka yang merujuk pada ayat tersebut (hal. 58).** Al-Tabari menyebutkan bahwa para penafsir berbeda pendapat mengenai siapa yang merujuk kepada mereka yang dimaksud dalam ayat ini. Beberapa mengatakan bahwa yang dituju adalah Aws dan Khazraj, dan yang ditujukan oleh Umat Kitab adalah Shass ibn Qays al-Yahudi, berdasarkan apa yang sebelumnya diceritakan dari Zayd ibn Aslam (7524). Yang lain mengatakan hal serupa, tetapi mereka mengatakan bahwa apa yang terjadi antara dia dan Ansar lain hanyalah pembicaraan, sampai-sampai mereka menjadi terobsesi dengan pertempuran, dan orang Yahudi menemukan petunjuk dalam dirinya, yaitu Tha'laba ibn 'Anmah al-Ansari. Editor mengoreksi ejaan nama 'Anmah dengan 'ayn yang dihilangkan dan mengatakan bahwa itu sama dalam naskah. {cite:tafsir-tabari-shakir-v07 p. 58}
+
+**Laporan Thalaba ibn 'Anmah dari al-Suddi (7529, hlm. 58-59). ** Al-Tabari menceritakan dari Muhammad ibn al-Husayn dari Ahmad ibn al-Mufaddal dari Asbat dari al-Suddi bahwa ayat tersebut diwahyukan tentang Tha'laba ibn 'Anmah al-Ansari. Terjadi perselisihan antara dia dan beberapa Ansar. Seorang Yahudi dari Banu Qaynuqa berjalan di antara mereka, dan beberapa dari mereka saling menyerang hingga dua sekte Aws dan Khazraj hendak mengangkat senjata dan bertarung. Ayat itu diungkapkan, dan maknanya bagi dia adalah jika kamu mengangkat senjata dan berperang, kamu adalah kafir. Peneliti menafsirkan 'Hamal' sebagai 'menghasut dan memicu percikan di antara mereka.' {cite:tafsir-tabari-shakir-v07 p. 58} {cite:tafsir-tabari-shakir-v07 p. 59}
+
+**Narasi Mujahid (7530, hlm. 59).** Diceritakan dari Al-Hasan ibn Yahya dari Abdul Razzaq dari Ja'far ibn Sulayman dari Humaid Al-Araj dari Mujahid bahwa suku Ansar adalah dua suku: Aws dan Khazraj, dan terjadi perang, pertumpahan darah, dan kebencian di antara mereka pada era pra-Islam hingga Allah memberkati mereka dengan Islam dan Nabi, sehingga perang itu dipadamkan dan menyatukan mereka. Sementara seorang pria dari Aws dan seorang pria dari Khazraj duduk dan berbicara dengan seorang Yahudi yang duduk, dia terus mengingat hari-hari mereka dan permusuhan yang ada di antara mereka hingga mereka menjadi musuh dan kemudian bertempur. Masing-masing memanggil rakyatnya dan keluar dengan senjata, saling menggambarkan sebagai senjata. Nabi menjadi saksi di Madinah pada hari itu, maka ia datang dan terus berjalan di antara mereka untuk menenangkan mereka sampai mereka kembali dan meletakkan senjata. Allah mewahyukan Al-Qur'an dalam hal ini dalam 3 [[passage/quran-3-105|:105]]. {cite:tafsir-tabari-shakir-v07 p. 59}
+
+**Ta'wil Al-Tabari (hlm. 59-60).** Al-Tabari mengatakan bahwa yang dituju adalah mereka yang percaya kepada Allah dan Rasul-Nya dan mengakui apa yang dibawa Nabi mereka. Makna ayat tersebut adalah jika mereka taat kepada sekelompok orang yang memalsukan Kitab dari antara umat Taurat dan Injil dan menerima apa yang diperintahkan mereka, mereka menyesatkan dan mengembalikan mereka, setelah percaya kepada Rasul Tuhan mereka, untuk menyangkal kebenaran yang mereka percayai. Allah melarang mereka mendukung atau menerima pendapat atau nasihat mereka, dan mengajarkan bahwa mereka menyimpan dendam, tipu daya, iri hati, dan kebencian. {cite:tafsir-tabari-shakir-v07 p. 59} {cite:tafsir-tabari-shakir-v07 p. 60}
+
+**Peringatan Qatadah (7531-7532, hlm. 60).** Al-Tabari menceritakan dari Qatadah (7531, dari Bishr ibn Mu'adh dari Yazid dari Sa'id) bahwa Allah telah datang di hadapan mereka mengenai Umat Kitab, memperingatkan mereka, dan memperingatkan mereka tentang kekeliruan mereka, sehingga mereka tidak mempercayakan agama mereka maupun memberi nasihat tentang diri mereka, karena mereka adalah musuh yang iri dan tersesat. Dia bertanya-tanya bagaimana mereka bisa mempercayai suatu bangsa yang tidak percaya pada Kitab mereka, membunuh utusan mereka, dan bingung tentang agama mereka, sementara mereka adalah orang yang penuh tuduhan dan permusuhan. Dia menceritakan hal serupa dari Al-Rabi' (7532, dari Al-Muthanna dari Ishaq dari Ibn Abi Ja'far dari ayahnya). Pernyataan-pernyataan ini sesuai dengan yang disampaikan dalam menggambarkan laporan, dan museum terus mendeskripsikannya daripada menghakiminya. {cite:tafsir-tabari-shakir-v07 p. 60}
+
+Pernyataan-pernyataan ini seperti yang telah saya sampaikan, bersama dengan pilihan dan bukti al-Tabari untuknya, adalah catatan pinggir editor dan anotasinya, dan museum tidak memutuskan hal itu sendiri. {cite:tafsir-tabari-shakir-v07 p. 60}
