@@ -1,0 +1,14 @@
+---
+id: passage/wahidi-s033-a004
+lang: tr
+source_lang: ar
+translators: ["machine translation, draft"]
+---
+
+## Summary
+al-Ahzab 33:4 ayetinin nüzül sebebi hakkında El-Vahidi'nin rivayeti; Esbab Nüzul el-Kur'an'dan (Darül-İslah 1992 baskısı, Şamile 11314).
+
+The verse, in al-Wahidi's heading: «ما جعل الله لرجل من قلبين في جوفه».
+
+## Place in the museum
+Kaynak: [[work/asbab-nuzul-wahidi|El-Vahidi'nin Esbab Nüzul el-Kur'an'ı]]. Ayet: [[passage/quran-33-4|Kur'an 33-4]].

@@ -1,0 +1,14 @@
+---
+id: passage/wahidi-s002-a135
+lang: ur
+source_lang: ar
+translators: ["machine translation, draft"]
+---
+
+## Summary
+al-Baqara 2:135 کے سببِ نزول پر الواحدی کی روایت — «اسباب نزول القرآن» ⁦(دار الاصلاح 1992، شاملة 11314)⁩ — صحابہ کی نسل سے۔
+
+The verse, in al-Wahidi's heading: «وقالوا كونوا هودا أو نصارى تهتدوا».
+
+## Place in the museum
+ماخذ: [[work/asbab-nuzul-wahidi|الواحدی کی اسباب نزول القرآن]]۔ آیت: [[passage/quran-2-135|قرآن 2-135]]۔

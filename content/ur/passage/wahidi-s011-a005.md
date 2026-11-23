@@ -1,0 +1,14 @@
+---
+id: passage/wahidi-s011-a005
+lang: ur
+source_lang: ar
+translators: ["machine translation, draft"]
+---
+
+## Summary
+Hud 11:5 کے سببِ نزول پر الواحدی کی روایت — «اسباب نزول القرآن» ⁦(دار الاصلاح 1992، شاملة 11314)⁩ — تابعین کی نسل سے۔
+
+The verse, in al-Wahidi's heading: «ألا إنهم يثنون صدورهم».
+
+## Place in the museum
+ماخذ: [[work/asbab-nuzul-wahidi|الواحدی کی اسباب نزول القرآن]]۔ آیت: [[passage/quran-11-5|قرآن 11-5]]۔
