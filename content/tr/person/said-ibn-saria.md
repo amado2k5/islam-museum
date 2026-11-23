@@ -1,0 +1,9 @@
+---
+id: person/said-ibn-saria
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-22), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-22, source: content/ar/person/said-ibn-saria.md}
+---
+## Özet
+Sa'id ibn Sariya al-Khuza'i onu Azerbaycan'a atadı, ardından al-Ash'ath bin Qays al-Kindi onu atadı, el-Baladhuri'ye göre. {cite:futuh-buldan-maarif-1407}
