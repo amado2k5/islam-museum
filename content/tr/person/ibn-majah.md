@@ -1,0 +1,15 @@
+---
+id: person/ibn-majah
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-23), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-23, source: content/ar/person/ibn-majah.md}
+---
+## Özet
+أبو عبد الله محمد بن يزيد القزويني محدّث قزوين، صاحب [[work/sunan-ibn-majah|السنن]]. عدّه جمهور المتأخرين سادس الكتب الستة. توفي سنة 273هـ. {cite:sunan-ibn-majah}
+
+## الرحلة والكتاب
+رحل في طلب الحديث إلى العراق والحجاز والشام ومصر. وتميز كتابه بأحاديث الزهد والفتن وبما تفرد به عن الصحيحين. {cite:sunan-ibn-majah}
+
+## Oxford İslam Sözlüğü'nde
+يذكر قاموس أكسفورد للإسلام ابن ماجه، المتوفى سنة 886، محدّثًا سنيًا من قزوين في إيران، وصاحب «كتاب السنن» الذي يضم نحو أربعة آلاف حديث ويُعدّ من المجاميع الستة المعتمدة في الحديث السني. ويقول إن بعضهم أثنى عليه كثيرًا، وإنه يُنتقد لأنه يحوي أحاديث كثيرة مشكوكًا فيها يسمّونها «ضعيفة». ويروي أن الكتاب نال مكانة معتمدة أول القرن الثاني عشر، لكن الاعتراف الواسع به تأخر نحو قرن، وأن علماء مثل النووي، المتوفى سنة 1277، وابن خلدون، المتوفى سنة 1405، لم يروا مجموعته موثوقة بما يكفي لتكون مرجعًا. {cite:oxford-dictionary-of-islam e949}

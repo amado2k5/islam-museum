@@ -1,0 +1,94 @@
+---
+id: person/ibn-khaldun
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-23), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-23, source: content/ar/person/ibn-khaldun.md}
+---
+## Özet
+Veli eddin Ebu Zayd Abdülrahman ibn Muhammed ibn Haldun el-Hadrami, '[[work/al-muqaddima|Al-Muqadimah]]' ve 'Al-Ibar' kitabının yazarı, 732 Hicri (1332 M.S.) yılında Tunus'ta doğdu ve 808 Hicri (1406 M.S.) {cite:muqaddima-ibn-khaldun p. 3}, {cite:mawsuat-a3lam-ulama-adaba vol. 8 p. 407} ve {cite:daw-lami-jil-1992 4/145}'de öldü. Fez'de Sultan [[person/abu-inan-faris|Ebu İnan'a yazdı]], ardından 758 Hicri'de padişah ölene kadar tutuklandı. Daha sonra kardeşi Ebu Salim {cite:tarikh-ibn-khaldun-ibar p.2058-2060} {cite:daw-lami-jil-1992 4/145} için gizli sekreter olarak atandı. 'Mükaddime'yi beş ayda tamamladı, sonuncusu 779 Hicri ortalarında, ardından revize ederek Araplar ve Berberilerin tarihlerini ekledi {cite:muqaddima-ibn-khaldun p.652}. Tarih sanatının doktrinde büyük saygı gördüğünü belirterek başladı faydalar sağladı ve bilgisinin konusu olarak 'kentleşme' yaptı, yani gerekli insan toplumu {cite:muqaddima-ibn-khaldun p.22} {cite:muqaddima-ibn-khaldun p. 48}.
+
+784 Hicri'nde Mısır'a döndü, El-Ezher Camii'nde eğitim gördü ve [[person/barquq|786 Hicri {cite:daw-lami-jil-1992 4/146} yılında El-Zahir Barquq]] tarafından Malikilerin yargıcı olarak atandı. 803 Hicri'nde orduyla birlikte Şam'a gitti, Şam [[person/timur-lang|yakınlarındaki Timur'a kabul]] edildi ve hukukçu Abdülcebar ibn el-Nu'man el-Horizmi {cite:tarikh-ibn-khaldun-ibar p.2121} aralarında tercümanlık yaptı. 808 Hicri'de Ramazan ayında yargıçlık yaparken aniden öldü ve Bab el-Nasr {cite:daw-lami-jil-1992 4/146} dışındaki Sufi mezarlıklarına defnedildi.
+
+El-Sakhavi [[person/al-sakhawi|]], [[person/al-maqrizi|Al-Maqrizi']] nin girişinin "öyle işlemediğini" aktarır ve yargısını ve tarihini eleştirir {cite:daw-lami-jil-1992 4/146}, {cite:daw-lami-jil-1992 4/147}, {cite:daw-lami-jil-1992 4/148}. Arap-İslam uygarlığı âlimleri arasında tarih felsefesi ve insan toplumu üzerine ilk kitabın yazarı olarak kabul edilir {cite:mawsuat-a3lam-ulama-adaba vol. 8 p. 407}.
+
+## Tunus'ta Aile ve Eğitim
+İbn Haldun [[place/tunis|, 732 H.S. 1 Ramazan ayının birinde, yani 27 Mayıs 1332]]'de Tunus'ta, [[place/hadramawt|Hadramaut kökenli]] bir Arap ailesinde doğdu; bu aile [[place/seville|İslami fetihin başından beri Sevilla'ya yerleşmiş ve orada önemli siyasi rol oynamıştır. Aile]], Hristiyan Restorasyonu'ndan kısa bir süre önce Sevilla'dan [[place/ceuta|Ceuta]]'ya taşınmış, ardından Hafsid [[place/ifriqiya|hükümdarlığı]] döneminde Ifriqiya'ya [[polity/hafsid-dynasty|taşınmış ve Tunus'a yerleşmiştir]] Ebu Zekariya. Büyük büyükbabası yazma sanatı üzerine bir teze sahipti. Ebu İshaq'ın saltanatı sırasında devlet maliyesi kendisine emanet edildi, ancak işkence edip servetini el koyarak bir iktidar gaspçısı tarafından boğularak öldürüldü. Dedesi Bejaia ve Tunus'ta görev yaparken, babası siyasetten kaçınarak hukukçu ve edebi bir figür olarak yaşadı. {cite:encyclopaedia-of-islam-2 vol. 3 p. 857}
+
+Baba, oğlunun Kur'an, hadis, Arapça dili ve fıkıh temelli kapsamlı bir klasik eğitim almasını istiyordu. İbn Haldun'un otobiyografisinde detaylandırdığı ünlü Tunuslu şeyhlerin derslerine katıldı. [[polity/marinid-dynasty|748-750 Hicri Marinid]] istilası, Sultan Ebu el-Hasan ile birlikte çok sayıda alimi Tunus'a getirdi. [[person/al-abili-muhammad-ibn-ibrahim|El-Abli'nin gözetiminde çocuk]] felsefeyi ve Arap-İslam düşüncesinin en önemli sorunlarını öğrendi. {cite:encyclopaedia-of-islam-2 vol. 3 p. 857}
+
+Marinid işgali kaosla sona erdi ve [[event/ibn-khaldun-parents-die-black-death-1349|Kara Veba]] Tunus'ta, İbn Haldun'un on yedi yaşındayken ailesi de dahil olmak üzere birçok hayatı aldı. Makale bunu hayatındaki ilk şok edici deneyim olarak nitelendiriyor, otobiyografisi ve girişinde iz bıraktığını belirtiyor ve entelektüel yönünü etkilediği sonucuna varıyor. Marinid alimleri ayrıldığında, entelektüel bir boşluk kaldı ve onun kaygısı, [[place/fez|o dönemde İslam Batı'nın en görkemli başkenti Fez'e ulaşmak oldu. Ağabeyi Muhammed bunu övdü, ancak sadece kısa bir süreliğine. {cite:encyclopaedia-of-islam-2 vol. 3 p. 857} {cite:encyclopaedia-of-islam-2 vol. 3 p. 858}]]
+
+## Fez, Granada ve Bejaia
+Yirmiye yaşına gelmeden önce, 751 Hicri sonlarında, İbn Tafragin, onu Sultan Ebu İshaq'ın resmi vali imzası olarak atadı ve uzun süre kalmayı düşünmediği anlaşılıyor. 753 Hicri/1352 yılında İfrikiye'ye yapılan baskın ona ayrılma fırsatı verdi, bu yüzden Abba, Tebessa ve Gafsa'dan geçip [[place/biskra|Biskra']] ya geçti ve kışı arkadaşları Banu Mezni ile geçirdi. Makale, hayatını inceleyen birçok kişinin onu eleştirdiği birçok dönüşümün ilki olduğunu, ancak bunun bir hata olmayabileceğini çünkü İfrikiya'nın parçalandığını belirtiyor. {cite:encyclopaedia-of-islam-2 vol. 3 p. 858}
+
+Ebu el-Hasan'ın ölümünden sonra oğlu [[person/abu-inan-faris|Ebu Anan Fes'te]] yönetimi devraldı ve Bejaia'yı tekrar boyun eğdirdi. İbn Haldun ona hizmetlerini sundu ve Bejaia'da, Marinid oda ibn Ebi Amr'i kabul etti, ardından onu Fes'e çağırdı ve ailesinin geleneği olmadığı için hevessizce sultanın bilimsel konseyine ve yazılarına katıldı. O dönemde Fes'te yaşayan Fas ve Endülüs şeyhlerinin yanında eğitimine devam etti. Makalede, eski Bejaia Emiri'ni kurtarmak için bir komploya katılmış olabileceği belirtilir; ancak bunu reddeder ve entrika ile kıskançlığa işaret eder. 758-759 Hicri / 1357-1358 yılları arasında, Abu Anan'ın ölümüne kadar iki yıl hapis yattı. {cite:encyclopaedia-of-islam-2 vol. 3 p. 858}
+
+Tahta çıkan kargaşa sırasında serbest bırakıldıktan sonra, yaygın inanıldığı gibi sadakatini değiştirdi ve 760 Hicri Şaban'da yeni Sultan [[person/abu-salim-ibrahim-marinid|Ebu Salim'in gizli devlet ve inşaat sekreteri oldu]]. Sarayda şiirler yazdı ve övgülerinin uzun bölümlerini okudu, ancak serveti azaldı. İki yıl sonra Şikayetler adlı yargı görevine geçti ve tekrar sultan değişikliğinden sonra, zaferin meyvesini haksız yere mahrum bıraktığını, düşmanlar edindiğini ve sonunda Granada'ya gitmek için izin aldığını fark etti. {cite:encyclopaedia-of-islam-2 vol. 3 p. 858}
+
+Granada'da, Fes'te vezir İbn el-Hatib ile [[person/ibn-al-khatib|gelişen dostluk sayesinde en yüksek onurla karşılandı]]. 765 Hicri / 1364 yılının sonlarında, makalede Hristiyan dünyasıyla olan bir bağlantının kendisini etkilediği söylenen hassas bir barış görevi için Zalim Petro'ya gönderildi. Dönüşünde Nasrid prensi ona hediyeler yağdırdı, ancak İbn el-Hatib başarısından memnun kalmadığında, pozisyonuna yatırım yapmamayı tercih etti. {cite:encyclopaedia-of-islam-2 vol. 3 p. 858}
+
+766 Hicri / 1365 yılında arkadaşı Ebu Abdullah Muhammed Bejaia Krallığı'nı geri aldı ve onu o dönemde devletin en önemli pozisyonu olan avukat olarak atadı. Ayrıca ona hukuk ve hitabet öğretti. Ancak başarısı uzun sürmedi; [[place/constantine|ertesi yıl Konstantin]] Emiri Muhammed'i yendi ve öldürdü. İbn Haldun, Şaban'da 767 Hicri şehri teslim etti, kısa bir süre fatih hizmetinde bulundu ve ardından istifa etti. [[place/tlemcen|Tlemcen'deki berberin teklifini]] reddetti ve yerine kardeşini gönderdi; pozisyonun cazibesinden kurtulduğunu ve kendini bilgi ve öğretime adamak istediğini açıkladı. {cite:encyclopaedia-of-islam-2 vol. 3 p. 858} {cite:encyclopaedia-of-islam-2 vol. 3 p. 859}
+
+## Emeklilik ve İbn Selama'nın Kalesi
+Biskra'da İbn el-Hatib ile uzun uzun yazıştı, ancak makalede entrikalara direnmediği, bu yüzden ittifaklar üstüne ittifakları desteklediği ve aşiret güçlerini büyük bir güç etrafında birleştirmeye çalıştığı belirtiliyor. Talep sahipleri çok fazlaydı ve o yüzyılın batısında çoğunluk yoktu. Sonra ev sahipleri Banu Muzzani faaliyetlerine karşı çıkmaya başladı ve Ebu Medine'nin Rabat'ına sığındı, 774 Hicri/1372 M.S.'de Fes'te başarısız oldu, ardından 776 Hicri/1375 yılında Endülüs'e çekilmesine izin verildi. Makaleye göre, orada, güvenilir olmayan bir siyasi figür haline geldi. {cite:encyclopaedia-of-islam-2 vol. 3 p. 859}
+
+أُمر عملياً بمغادرة غرناطة فعاد إلى المغرب واستقر في تلمسان في شوال 776هـ/مارس 1375م، بينما خُنق ابن الخطيب، الذي حاول عبثاً إنقاذه، في سجن فاس. وأراد سلطان تلمسان استخدامه مجدداً فانسل ابن خلدون إلى أولاد عريف، وعاش أربع سنوات، 776-780هـ/1375-1379م، في قلعة ابن سلامة جنوب غرب مدينة فرندة الحالية في وهران. وتسميها المقالة نقطة التحول الحاسمة: فقد انحبس لأول مرة في برجه العاجي، وذكر أنه وضع المقدمة هناك على نهج مبتكر ألهمته إياه العزلة. {cite:encyclopaedia-of-islam-2 vol. 3 p. 859}
+
+## العودة إلى تونس ثم القاهرة
+احتاج إلى مراجع كثيرة لعمله، فاستأذن في العودة إلى تونس من الحاكم الحفصي أبي العباس، ووصلها في شعبان 780هـ/1378م، ودرّس، وأتم نسخة أولى من العبر قدمها إلى السلطان مع مديح طويل. وجلب له تدريسه، الذي عدّه بعضهم هدّاماً، وما ناله من عطايا الحاكم أعداء، منهم جماعة دبّرها [[person/ibn-arafa|ابن عرفة]] المشهور. فاتخذ الحج ذريعة، وسافر إلى الإسكندرية بحراً في 15 شعبان 784هـ/24 أكتوبر 1382م. {cite:encyclopaedia-of-islam-2 vol. 3 p. 859}
+
+وفي [[place/cairo|القاهرة]] أُبهر في البداية. فقد توافد الطلاب إلى دروسه في [[place/al-azhar|الأزهر]]، وعُيّن مدرساً للفقه المالكي في المدرسة القمحية، ثم قاضي قضاة المالكية في جمادى الآخرة 786هـ/1384م. وغرقت سفينة أسرته قرب [[place/alexandria|الإسكندرية]] بعد أن سُمح لها بالالتحاق به بتدخل السلطان [[person/barquq|الظاهر برقوق]]، وأدى تشدده ودسائس أعداء غاضبين من إسناد منصب رفيع إلى «غريب» إلى عزله سنة 787هـ/1385م. وفي 789هـ/1387م عُيّن في المدرسة الظاهرية، ثم بعد الحج في تدريس الحديث بـ [[building/madrasa-of-sarghatmish|مدرسة صرغتمش]]، وقد حفظت دروسه الافتتاحية في موطأ مالك. وجُعل كذلك على رأس [[building/khanqah-of-baybars-al-gashankir|خانقاه بيبرس]]، وتسميها المقالة أهم دير للصوفية في مصر. وبعد أربع عشرة سنة من التدريس عُيّن قاضياً من جديد في 15 رمضان 801هـ/1399م. {cite:encyclopaedia-of-islam-2 vol. 3 p. 859}
+
+عُزل في محرم 803هـ، وأُلزم بمرافقة السلطان الناصر في حملة إنقاذ [[place/damascus|دمشق]] التي هددها [[person/timur-lang|تيمورلنك]] وقد سيطر على [[place/aleppo|حلب]]. وتُرك في المدينة المحاصرة حين غادرها الناصر، فكان له دور في تسليمها بوعد أمان كاذب، وكتب وصفاً مفصلاً للقاءاته مع الزعيم المغولي. وتقول المقالة إنه ربما رأى في تيمور رجلاً يملك من العصبية ما يكفي لإعادة توحيد العالم الإسلامي ومنح التاريخ وجهة جديدة. وكتب لتيمور وصفاً للمغرب، وشهد إحراق دمشق ونهبها، وسُلب وجُرّد من ثيابه على الطريق إلى القاهرة. ومع ذلك استُقبل في البلاط استقبالاً حسناً، وعُيّن قاضياً وعُزل أربع مرات أخرى. وكان تعيينه السادس والأخير في شعبان 808هـ/1406م، قبل وفاته في 26 رمضان بأسابيع. {cite:encyclopaedia-of-islam-2 vol. 3 p. 859} {cite:encyclopaedia-of-islam-2 vol. 3 p. 860}
+
+احتفظ في القاهرة بزيه المغربي، وهو برنس داكن، وشجع تبادل الهدايا بين سلاطين مصر والمغرب، وأرسل نسخة من العبر إلى المريني أبي فارس، وواصل مراسلة أصدقائه، وحفظ رسائل من الشاعر الغرناطي [[person/ibn-zamrak|ابن زمرك]]. {cite:encyclopaedia-of-islam-2 vol. 3 p. 860}
+
+## الأحكام على سيرته
+تصفه دائرة المعارف الإسلامية بأنه من أقوى شخصيات الثقافة العربية الإسلامية في عصر انحطاطها، ويُعدّ عادة مؤرخاً وعالم اجتماع وفيلسوفاً. وتضيف أن الدراسات حول حياته وأعماله انتهت إلى تفسيرات شديدة التنوع بل متناقضة. وتقسم حياته إلى ثلاث مراحل: نحو عشرين سنة للطفولة والتعليم، وثلاث وعشرين سنة للدراسة والمغامرات السياسية، وإحدى وثلاثين سنة للعمل عالماً ومدرساً وقاضياً. قُضيت المرحلتان الأوليان في الغرب الإسلامي، وتوزعت الثالثة بين المغرب ومصر. {cite:encyclopaedia-of-islam-2 vol. 3 p. 857}
+
+تذكر المقالة أن حياته حُكم عليها بأحكام متباينة وقاسية في الغالب، وأنه يسجل بنفسه تبدّل ولاءاته علناً، فاتُّهم بتقلب المزاج وقلة الوطنية. وهي ترى أن هذه التهم تفترض فكرة الولاء للوطن التي كانت شبه معدومة حينئذ، وأن الغدر كان شائعاً في كل المراتب، وأنه ينبغي الحكم عليه بمعايير عصره. وتقول، دون ادعاء الإثبات، إن مغامراته يمكن قراءتها بحثاً مدروساً عن عصبية قوية تنقذ حضارة رآها تحتضر، وتضيف أن سيرته الذاتية لا تتيح معرفة مقاصده الحقيقية. {cite:encyclopaedia-of-islam-2 vol. 3 p. 860}
+
+## الأعمال المبكرة والصغرى
+لخّص في نحو العشرين، بتأثير الآبلي، الموسوعة الكلامية الفلسفية للرازي، أي [[work/muhassal-afkar-al-mutaqaddimin|محصل أفكار المتقدمين]]، بعنوان لباب المحصل، ومخطوطه بخطه مؤرخ في 29 صفر 752هـ/1351م. وبين 752 و765هـ كتب، بحسب ابن الخطيب، شرحاً على بردة [[person/al-busiri|البوصيري]]، وموجزاً في المنطق، ورسالة في الحساب، وملخصات لكتب [[person/ibn-rushd|ابن رشد]]، وشرحاً على قصيدة لابن الخطيب في أصول الفقه. وكلها مفقودة ويبدو أنها نُسيت سريعاً. ومن أعماله المتأخرة سيرة ذاتية تنتهي في ذي القعدة 807هـ/1405م، و«شفاء السائل»، رسالة في التصوف، تقول المقالة إن صحة نسبتها لم تُحسم نهائياً. {cite:encyclopaedia-of-islam-2 vol. 3 p. 860}
+
+وترى المقالة أن شيئاً قبل ذلك لم يُنبئ بأنه سيُذكر مؤسساً لعلوم، وأن عبقريته أزهرت في قلعة ابن سلامة حين التقى العلم التقليدي بالتجربة السياسية التي أدركت به معنى العبرة في التاريخ. وكُتبت المسودة الأولى للمقدمة وأجزاء كبيرة من التاريخ بين 776 و780هـ/1375-1379م، وظل يعيد كتابتها حتى آخر حياته. {cite:encyclopaedia-of-islam-2 vol. 3 p. 860}
+
+## المقدمة وأفكارها
+تصف المقالة المقدمة بأنها مدخل إلى صنعة المؤرخ وخلاصة موسوعية للمناهج والمعارف التي يحتاجها. وقد انطلق ابن خلدون من مسائل المنهج فانتهى إلى ما سماه علماً جديداً يحوي ضمناً بذور فلسفة التاريخ وعلم الاجتماع والاقتصاد. ويعرّف في مقدمته التاريخ تعريفاً واسعاً يشمل الجوانب الاجتماعية والاقتصادية والثقافية، وينتقد سابقيه لغياب المنهج، ويقيم النقد على مطابقة الواقع، أي احتمال ما يُروى من وقائع. ومن هنا الحاجة إلى كشف قوانين التغير التاريخي، التي يسندها إلى علم [[concept/umran|العمران]]، أي الحضارة الإنسانية. {cite:encyclopaedia-of-islam-2 vol. 3 p. 861}
+
+يتوزع المتن على ستة فصول طويلة: عرض عام للمجتمع الإنساني وأثر البيئة، ثم العمران البدوي، ثم الدول والحكم والمؤسسات، ثم العمران الحضري، ثم الصنائع والشؤون الاقتصادية، ثم العلوم والآداب والثقافة. وتحكم المقالة بأن همه المركزي سبب الانحطاط، أي علل موت الحضارات، وتربطه بإحساسه بأنه يشهد تحولاً هائلاً، وهو بتعبيره خلق جديد. {cite:encyclopaedia-of-islam-2 vol. 3 p. 861} {cite:encyclopaedia-of-islam-2 vol. 3 p. 862}
+
+أداته الرئيسة الملاحظة. وتؤكد المقالة واقعيته، واستخدامه المنطق والاستقراء، وارتيابه في الاستدلال النظري، ثم رده الفلسفة بعد نقد جذري للمعرفة، واستبدالها بتجريبية مرتبطة بالوقائع الملموسة. وتجد في معالجته الصراع والتناقض حركة جدلية، وتقول إن مخططه الدوري المعروف، وليس أصيلاً في ذاته، ينبغي أن يُقرأ داخل هذه النظرة الأوسع. {cite:encyclopaedia-of-islam-2 vol. 3 p. 862}
+
+وقد وجد فيها المختصون بدايات علوم حديثة عدة. وتنقل المقالة قول لاكوست في التاريخ علماً، وتسمي علمه الجديد في جوهره نظاماً في علم الاجتماع، وتخص [[concept/asabiyya|العصبية]] بأنها أخصب مفاهيمه، وكلاها والعمران موضع جدل واسع بين المحدثين. وتنقل أنه رأى اختلاف الأجيال تعبيراً عن اختلاف أنماط العيش الاقتصادية، وهي عبارة كثيراً ما تُقارن بقول لماركس، لكنها تحكم بأن اعتباره سابقاً للمادية صعب لأن تفسيراته نفسية أيضاً. وتذكر كذلك مذاهب اقتصادية وفلسفة تاريخ ومعلومات إثنوغرافية وديموغرافية قيّمة. {cite:encyclopaedia-of-islam-2 vol. 3 p. 862}
+
+## العبر والتلقي والإرث
+نال كتاب العبر اهتماماً أقل. وتقول المقالة إن النقد المعتاد، أنه لم يف بوعود المقدمة، واضح لكنه حتمي، وتضيف أن ابن خلدون يُظهر فجوات مدهشة في المعرفة وقلة في التواريخ الدقيقة. ومع ذلك تنقل عن برونشفيغ أنه أداة لا نظير لها للقرنين الثالث عشر والرابع عشر، وتقول إن قيمته أعظم للغرب الإسلامي. {cite:encyclopaedia-of-islam-2 vol. 3 p. 861}
+
+وبحسب المقالة أثنى عليه المؤرخ العثماني [[person/mustafa-naima|نعيمة]]، وتُرجم جزء من المقدمة إلى التركية سنة 1143هـ/1749م، لكن أهمية العمل أُدركت في أوروبا: عند دربلو ودي ساسي وفون هامر-بورغشتال وكاترمير الذي أصدر أول طبعة كاملة سنة 1858م، ودي سلان الذي نشر الترجمة الفرنسية بين 1863 و1868م. وترجمة روزنتال الإنجليزية سنة 1958م تعتمد على مخطوط إسطنبول الذي عليه ملاحظة بخط ابن خلدون. ولم تصدر بعد طبعة نقدية حقة لأي من الكتابين. {cite:encyclopaedia-of-islam-2 vol. 3 p. 861}
+
+وتخلص المقالة إلى أنه عُدّ منذ اكتشاف أوروبا له عبقرياً أصيلاً منفرداً لا ينتمي إلى تيار محدد في الفكر العربي الإسلامي. وتنقل رأي برونشفيغ أنه لم يكن له سابقون ولا خلفاء بالعربية حتى العصر الحديث، وأنه لقي في وطنه البربري عدم فهم وعداء. {cite:encyclopaedia-of-islam-2 vol. 3 p. 862} {cite:encyclopaedia-of-islam-2 vol. 3 p. 863}
+
+## بقلمه: المقدمة
+افتتح مقدمته بأن فن التاريخ فن عزيز المذهب كثير الفوائد، يوقف على أحوال الأمم الماضية والأنبياء والملوك. وجعل موضوع علمه الجديد «العمران»، أي الاجتماع الإنساني الضروري. {cite:muqaddima-ibn-khaldun p.22}
+
+في خاتمتها أخبر أنه أتمها في خمسة أشهر انتهت منتصف سنة 779هـ، ثم نقحها وألحق بها تواريخ العرب والبربر في كتاب العبر. {cite:muqaddima-ibn-khaldun p.652}
+
+## في كتابة السلاطين
+يروي في خاتمة العبر بضمير المتكلم اتصاله بالسلطان أبي عنان آخر سنة 757هـ واستعماله في الكتابة، واعتقاله في 18 صفر سنة 758هـ إلى هلاك السلطان. ثم كتب للسلطان أبي سالم، ودخل معه البلد الجديد منتصف شعبان سنة 760هـ. {cite:tarikh-ibn-khaldun-ibar p.2058-2060}
+
+## لقاء تيمور
+في تذكرة العبر يذكر أنه استأذن السلطان الناصر فرج في زيارة المسجد، فزار [[place/al-khalil|الخليل]] أواخر رمضان سنة 802هـ. ولما قصد تيمور الشام سافر مع العسكر سنة 803هـ، وبقي في دمشق بعد فرار السلطان. وأُدخل على تيمور، وترجم بينهما الفقيه عبد الجبار بن النعمان الخوارزمي. وصف ابن خلدون تيمور بأنه شديد الفطنة كثير البحث. {cite:tarikh-ibn-khaldun-ibar p.2118-2126}
+
+## عند السخاوي في الضوء اللامع
+يترجم [[person/al-sakhawi|السخاوي]] لعبد الرحمن بن محمد بن خلدون، ولي الدين أبي زيد الحضرمي، الإشبيلي الأصل التونسي ثم القاهري المالكي، ويذكر أنه وُلد بتونس في أول رمضان سنة 732. {cite:daw-lami-jil-1992 4/145} وأنه قدم الديار المصرية في ذي القعدة سنة 784 فدرّس بالأزهر، وولاه الظاهر برقوق قضاء المالكية في جمادى الآخرة سنة 786، ولقي تيمور فأكرمه ونجا. {cite:daw-lami-jil-1992 4/146} ومات فجأة وهو قاضٍ يوم الأربعاء لأربع بقين من رمضان سنة 808، ودُفن بمقابر الصوفية خارج باب النصر. {cite:daw-lami-jil-1992 4/146} وينقل السخاوي أقوالاً متباينة فيه، منها نقد شديد لقضائه ولتاريخه، روايةً عن غيره. {cite:daw-lami-jil-1992 4/147} {cite:daw-lami-jil-1992 4/148}
+
+## في خانقاه بيبرس الجاشنكير
+يذكر يومانز أن ابن خلدون، المولود في تونس، خدم في بلاطات فاس وغرناطة وتلمسان وتونس قبل أن يستقر في القاهرة، ولقي كبار رجال عصره ومنهم تيمورلنك الذي كتب له تاريخاً موجزاً لشمال أفريقيا. {cite:yeomans-islamic-cairo-2006 p.150} ويعدّه أول مؤرخ وضع تفسيراً اجتماعياً للتاريخ بتحليله العوامل الجغرافية والمناخية والاجتماعية والاقتصادية والأخلاقية في المقدمة. {cite:yeomans-islamic-cairo-2006 p.150} وقدم مصر سنة 1384م فعُيّن أستاذاً للفقه المالكي ثم قاضي قضاة المالكية بأمر الظاهر برقوق، وتولى مشيخة خانقاه بيبرس الجاشنكير، ومات سنة 1406م ودُفن في مقبرة الصوفية خارج القاهرة. {cite:yeomans-islamic-cairo-2006 p.150} {cite:yeomans-islamic-cairo-2006 p.151}
+
+## OpenITI blogunda çalışır
+تحفظ مدونة OpenITI لهذا المؤلف تحت المعرّف 0808IbnKhaldun 2 من الأعمال، منها: رحلة، تاريخ. {cite:openiti-corpus 0808IbnKhaldun}
+
+## Biblissima referans dosyasında
+يسجل ملف الاستناد الفرنسي Biblissima هذا العَلَم تحت المعرّف Q16838 بصيغة الاسم «ʿAbd al-Raḥmân ibn Muḥammad Ibn H̱aldūn (1332-1406)»، وتتضمن الصيغة سنتي الميلاد والوفاة كما يوردهما الملف. {cite:biblissima Q16838}

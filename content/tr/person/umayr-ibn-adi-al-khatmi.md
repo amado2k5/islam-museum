@@ -1,0 +1,13 @@
+---
+id: person/umayr-ibn-adi-al-khatmi
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-23), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-23, source: content/ar/person/umayr-ibn-adi-al-khatmi.md}
+---
+
+## Özet
+من [[group/banu-khatma|بني خطمة]] من الأوس، وهو عند ابن إسحاق أول من أسلم منهم، «الذي يُدعى القارئ». {cite:ibn-hisham-saqqa 4/287} كان عند النبي حين قال: ألا آخذ لي من ابنة مروان؟ فلما أمسى سرى على [[person/asma-bint-marwan|عصماء بنت مروان]] في بيتها فقتلها، وأخبر النبي فقال له: نصرت الله ورسوله يا عمير، وأن شأنها لا ينتطح فيه عنزان. {cite:ibn-hisham-saqqa 4/286} ثم رجع إلى قومه وهم في موج من أمرها ولها خمسة بنين، فقال: أنا قتلت ابنة مروان فكيدوني جميعاً ثم لا تُنظرون؛ فكان ذلك اليوم أول ما عزّ الإسلام في دار بني خطمة وأسلم رجال منهم؛ انظر [[event/killing-of-asma-bint-marwan|الخبر ومناظيره]]. {cite:ibn-hisham-saqqa 4/287}
+
+## Roman İşaretleri
+- خبره كله في رواية واحدة عن عبد الله بن الحارث بن الفضيل عن أبيه. {cite:ibn-hisham-saqqa 4/285}

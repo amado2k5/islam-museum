@@ -1,0 +1,26 @@
+---
+id: person/umm-kulthum-bint-muhammad
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-23), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-23, source: content/ar/person/umm-kulthum-bint-muhammad.md}
+---
+
+## Özet
+[[person/umm-kulthum-bint-muhammad|أم كلثوم]] بنت [[person/muhammad|النبي]]؛ تزوجها [[person/uthman-ibn-affan|عثمان]] بعد موت أختها [[person/ruqayya-bint-muhammad|رقية]] عنده {cite:ibn-hajar-isaba p.2031}.
+
+## زواجها
+يذكر أبو عمر أن عتبة بن أبي لهب تزوجها قبل البعثة ولم يدخل عليها، فلما بُعث النبي أمره أبوه بفراقها، ثم تزوجها عثمان بعد موت رقية سنة 3هـ {cite:ibn-hajar-isaba p.2031}. ويروي ابن سعد أن ذلك كان في ربيع الأول سنة 3هـ {cite:ibn-hajar-isaba p.2032}. وروى ابن منده في إسناد غريب حديثاً في أن النبي ما زوج عثمان أم كلثوم إلا بوحي من السماء، ويقول: «غريب لا يعرف إلا بهذا الإسناد» {cite:ibn-hajar-isaba p.2032}.
+
+## ما اختُلف فيه
+- هل هي أصغر بنات النبي أو فاطمة {cite:ibn-hajar-isaba p.2031}.
+- وقت طلاق ابني أبي لهب: ينقل ابن حجر قولاً أن عتبة وعتيبة طلقا رقية وأم كلثوم قبل الدخول حين نزلت سورة المسد، ويرجّحه على ما ذكره أبو عمر تبعاً لابن سعد من أن الزواج كان قبل البعثة، لأن زينب أكبر البنات وقد وُلدت قبل البعثة بعشر سنين {cite:ibn-hajar-isaba p.2032}.
+
+## Ölümü
+توفيت عند عثمان في شعبان سنة 9هـ ولم تلد له {cite:ibn-hajar-isaba p.2032}. ويذكر ابن حجر عن أنس أنه رأى النبي على قبرها وعيناه تدمعان، وسأل: «فيكم أحد لم يقارف الليلة؟» فقال أبو طلحة: أنا، فقال: «انزل في قبرها» {cite:ibn-hajar-isaba p.2032}. وقال الواقدي: نزل في حفرتها علي والفضل وأسامة بن زيد {cite:ibn-hajar-isaba p.2032}.
+
+ويورد ابن حجر أن أسماء بنت عميس قالت إنها غسلت أم كلثوم وصفية بنت عبد المطلب، وفي رواية أخرى أن أم عطية كانت بين من غسلها {cite:ibn-hajar-isaba p.2032}.
+
+
+## في فصل الزواج من خديجة ⁦(الرحيق المختوم ص61)⁩
+يرتّب الرحيق المختوم أولاد النبي من [[person/khadija|خديجة]]: القاسم ثم زينب ثم رقية وأم كلثوم وفاطمة وعبد الله، ويذكر أن البنات كلهن أدركن الإسلام فأسلمن وهاجرن، وأدركتهن الوفاة في حياته سوى فاطمة {cite:mubarakpuri-raheeq p.61} {cite:ibn-hisham-sira 1/190-191} {cite:fath-al-bari 7/507}.

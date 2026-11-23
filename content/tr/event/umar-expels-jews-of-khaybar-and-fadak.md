@@ -1,0 +1,20 @@
+---
+id: event/umar-expels-jews-of-khaybar-and-fadak
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-23), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-23, source: content/ar/event/umar-expels-jews-of-khaybar-and-fadak.md}
+---
+## Özet
+عند البلاذري، بقي يهود [[place/khaybar|خيبر]] على أراضيهم بنظام الشطر في حياة النبي وأبي بكر وصدراً من خلافة [[person/umar-ibn-al-khattab|عمر]]. ثم أجلاهم عمر عنها، وأجلى كذلك يهود [[place/fadak|فدك]]. {cite:futuh-buldan-maarif-1407 p.40}
+
+## خيبر
+سبب الإجلاء في الرواية أن [[person/abdullah-ibn-umar|عبد الله بن عمر]] أتاهم في حاجة فبيّتوه. فأخرجهم عمر وقسّم الأرض بين من حضرها من المسلمين، وجعل لأزواج النبي فيها نصيباً وخيّرهن بين الثمرة والضيعة. {cite:futuh-buldan-maarif-1407 p.40}
+
+وذكر عمر أن النبي قال: «لا يجتمع دينان في جزيرة العرب». {cite:futuh-buldan-maarif-1407 p.40}
+
+## فدك
+لما أجلى عمر يهود الحجاز، وجّه ثلاثة من الأنصار هم أبو الهيثم مالك بن التيهان وسهل بن أبي حثمة و [[person/zayd-ibn-thabit|زيد بن ثابت]]. قوّموا نصف تربتها بقيمة عدل، فدفعها عمر إلى اليهود وأجلاهم إلى الشام. {cite:futuh-buldan-maarif-1407 p.41}
+
+## Tarihçe
+لا يؤرخ الكتاب الحدث بسنة. والتاريخ نحو 20هـ تقريبي ومشتق، ويحتاج إلى مصدر إضافي. {cite:futuh-buldan-maarif-1407 p.40}
