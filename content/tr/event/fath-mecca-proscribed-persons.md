@@ -1,0 +1,23 @@
+---
+id: event/fath-mecca-proscribed-persons
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-23), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-23, source: content/ar/event/fath-mecca-proscribed-persons.md}
+---
+
+## Özet
+عهد النبي إلى أمرائه ألا يقاتلوا إلا من قاتلهم، واستثنى نفرًا محددين سمّاهم وأمر بقتلهم ولو تعلقوا بأستار الكعبة؛ وكان ذلك لجرائم جنائية محددة كالقتل بعد الغدر أو الأذى الشديد؛ فقُتل بعضهم واستؤمن لآخرين فعفا عنهم النبي {cite:ibn-hisham-saqqa 4/51-53}.
+
+## الأسماء والمصائر
+اشتملت القائمة في سيرة ابن هشام على:
+1. [[person/abdullah-ibn-sad-ibn-abi-sarh|عبد الله بن سعد بن أبي سرح]]: كاتب وحي ارتد ولحق بمكة؛ اختبأ عند أخيه من الرضاعة [[person/uthman-ibn-affan|عثمان بن عفان]] فجاء به مستأمنًا، فعفا عنه النبي بعد صمت طويل وأسلم وحسن إسلامه {cite:ibn-hisham-saqqa 4/51-52}.
+2. [[person/abdullah-ibn-khatal|عبد الله بن خطل]]: ارتد وقتل خادمه المسلم وسرق الصدقة واقتنى قينتين لهجاء النبي؛ قُتل وهو متعلق بأستار الكعبة {cite:ibn-hisham-saqqa 4/52-53}.
+3. [[person/al-huwayrith-ibn-nuqayd|الحويرث بن نقيد]]: ممن كان يؤذي النبي ونخس بعير فاطمة وأم كلثوم عند الهجرة؛ قتله [[person/ali-ibn-abi-talib|علي بن أبي طالب]] {cite:ibn-hisham-saqqa 4/52-53}.
+4. [[person/miqyas-ibn-subaba|مقيس بن صبابة]]: قتل قاتل أخيه بعد أخذ الدية وارتد مشركًا؛ قتله نميلة بن عبد الله في السوق {cite:ibn-hisham-saqqa 4/52-53}.
+5. [[person/fartana|فرتنى]] وصاحبتها ⁦(قينتا ابن خطل)⁩: قُتلت إحداهما وهربت الأخرى فاستؤمن لها فأسلمت {cite:ibn-hisham-saqqa 4/52-53}.
+6. [[person/sara-al-mawla|سارة]] مولاة بني عبد المطلب: أُمنت ثم ماتت في خلافة عمر بعدما وطئتها خيل بالأبطح {cite:ibn-hisham-saqqa 4/52-53}.
+7. عكرمة بن أبي جهل: هرب إلى اليمن، فطلبت له امرأته أم حكيم بنت الحارث الأمان فردته فأسلم وحسن إسلامه {cite:ibn-hisham-saqqa 4/53}.
+
+## Genç ziyaretçiler için
+عندما دخل المسلمون مكة أعطى النبي الأمان لكل أهل المدينة، ما عدا عدد قليل من الأشخاص الذين تذكر الروايات أنهم ارتكبوا جرائم قتل وغدر. ومع ذلك، فإن من طلب الأمان وتاب منهم عفا النبي عنه وتركه حراً.

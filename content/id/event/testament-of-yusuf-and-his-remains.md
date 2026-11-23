@@ -1,0 +1,31 @@
+---
+id: event/testament-of-yusuf-and-his-remains
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-23), draft translation']
+status: {review: published}
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-23, source: content/ar/event/testament-of-yusuf-and-his-remains.md}
+---
+## Ringkasan
+تذكر كتب التفسير والتاريخ أن [[person/yusuf|يوسف]] سأل ربه أن يتوفاه على الإسلام، وأنه أوصى عند موته أن تُحمل جثته معهم إذا خرج بنو إسرائيل من مصر، فحُنّط ووُضع في تابوت وبقي بمصر حتى أخرجه [[person/musa|موسى]] معه. {cite:qisas-al-anbiya-ibn-kathir-iqra-ebook scan p. 331} {cite:qisas-al-anbiya-ibn-kathir-iqra-ebook scan p. 333} ويروي ابن كثير خبر العجوز من بني إسرائيل التي دلّت موسى على القبر في حديث يصفه بأنه غريب جداً والأقرب أنه موقوف. {cite:tafsir-ibn-kathir scan vol. 1 p. 3388} {cite:tafsir-ibn-kathir scan vol. 1 p. 3389}
+
+## دعاؤه بالوفاة
+يقول ابن كثير إن يوسف لما رأى نعمته قد تمّت وشمله قد اجتمع، عرف أن هذه الدار لا يقرّ بها قرار، فأثنى على ربه وسأله أن يتوفاه، أي حين يتوفاه، على الإسلام وأن يلحقه بالصالحين؛ والآيات في ذلك في [[passage/quran-12-101|يوسف 101]]. {cite:qisas-al-anbiya-ibn-kathir-iqra-ebook scan p. 331} ويحتمل عنده أن يكون ذلك عند احتضاره، كما سأل النبي عند احتضاره الرفيق الأعلى، ويحتمل أنه سأل الوفاة على الإسلام وهو في صحة بدنه. {cite:qisas-al-anbiya-ibn-kathir-iqra-ebook scan p. 331} وينقل عن ابن عباس أنه «ما تمنى نبي قط الموت قبل يوسف»، ويبيّن أن ذلك كان سائغاً في شرعهم، أما في شريعتنا فقد نُهي عن الدعاء بالموت إلا عند الفتن. {cite:qisas-al-anbiya-ibn-kathir-iqra-ebook scan p. 332}
+
+## وصيته ووفاته
+يذكر ابن كثير، ناقلاً عن أهل الكتاب، أن يوسف أوصى عند وفاته أن يُحمل معهم إذا خرجوا من مصر فيُدفن عند آبائه، فحنّطوه ووضعوه في تابوت فكان بمصر حتى أخرجه موسى فدفنه عند آبائه. {cite:qisas-al-anbiya-ibn-kathir-iqra-ebook scan p. 333} {cite:al-bidaya-wal-nihaya scan vol. 2 p. 224} وقال أهل الكتاب إنه مات وهو ابن مئة وعشر سنين، وقال الحسن، في رواية مبارك بن فضالة، إنه أُلقي في الجب وهو ابن سبع عشرة سنة وغاب عن أبيه ثمانين سنة وعاش بعد ذلك ثلاثاً وعشرين سنة ومات وهو ابن مئة وعشرين سنة. {cite:qisas-al-anbiya-ibn-kathir-iqra-ebook scan p. 333} {cite:al-bidaya-wal-nihaya scan vol. 2 p. 224} ويضيف ابن كثير عن بعضهم أنه أوصى إلى أخيه يهوذا. {cite:al-bidaya-wal-nihaya scan vol. 2 p. 224} ويذكر الطبري في روايته عن ابن إسحاق أنه دُفن، فيما ذُكر له، في صندوق من رخام في ناحية من النيل في جوف الماء. {cite:tarikh-al-tabari scan vol. 2 p. 419} {cite:tarikh-al-tabari scan vol. 2 p. 450}
+
+## موسى يحمل جثته
+يذكر ابن كثير في «قصص الأنبياء» أنهم لما خرجوا من مصر أخرجوا معهم تابوت يوسف. {cite:qisas-al-anbiya-ibn-kathir-iqra-ebook scan p. 448} ويقول في التفسير إن موسى سأل عن قبر يوسف فدلّته عجوز من بني إسرائيل عليه، فاحتمل تابوته معهم، ويقال إنه هو الذي حمله بنفسه. {cite:tafsir-ibn-kathir scan vol. 1 p. 3388}
+
+وعند الطبري رواية مفصّلة عن ضلال بني إسرائيل في الطريق: أصابهم التيه فسأل موسى مشيخة بني إسرائيل ما بالنا، فقالوا إن يوسف لما مات أخذ على إخوته عهداً ألا يخرجوا من مصر حتى يخرجوه معهم. {cite:tarikh-al-tabari scan vol. 2 p. 488} فسأل موسى عن موضع قبره فلم يعلموا، فنادى بأن من يعلم فليخبره، حتى سمعته عجوز، فقالت: إن دللتك على قبره أتعطيني ما سألتك؟ فاستأذن ربه فأذن، فقالت إنها تريد أن لا ينزل غرفة في الجنة إلا نزلتها معه، ثم قالت إنها عجوز كبيرة لا تستطيع المشي فاحملني، فحملها. {cite:tarikh-al-tabari scan vol. 2 p. 488} فلما دنا من النيل قالت إنه في جوف الماء، فدعا الله أن يحسر عنه الماء فحسر، فقالت احفره، ففعل وحمل عظامه ففُتح لهم الطريق. {cite:tarikh-al-tabari scan vol. 2 p. 488} {cite:tarikh-al-tabari scan vol. 2 p. 489}
+
+ويروي ابن أبي حاتم، وينقله ابن كثير، عن أبي موسى الأشعري حديثاً يقول فيه النبي لأعرابي: «أعجزت أن تكوني مثل عجوز بني إسرائيل؟»، ثم يحكي أن موسى أراد السير ببني إسرائيل فضلّ الطريق، وأن علماءهم ذكروا ميثاق يوسف، ولم يعلم موضع القبر إلا عجوز، وأنها اشترطت حكمها وهو أن تكون معه في الجنة، ثم دلّتهم إلى بحيرة وأمرتهم أن يُنضبوا ماءها ثم يحتفروا، فاستخرجوا القبر، فلما حملوه صار الطريق كضوء النهار. {cite:tafsir-ibn-kathir scan vol. 1 p. 3388} {cite:tafsir-ibn-kathir scan vol. 1 p. 3389} ويعلّق ابن كثير: هذا حديث غريب جداً، والأقرب أنه موقوف. {cite:tafsir-ibn-kathir scan vol. 1 p. 3389}
+
+ويذكر ابن الأثير أن الله أمر موسى بحمل تابوت يوسف ودفنه بالأرض المقدسة، فلم يعرفه إلا عجوز أرته مكانه في النيل، فاستخرجه وهو في صندوق مرمر وأخذه معه. {cite:kamil-ibn-al-athir scan vol. 3 p. 151}
+
+## الاختلاف بين الروايات
+تتفق الروايات الأربع، ابن كثير والطبري وابن الأثير والحديث المروي عن أبي موسى، على أن يوسف أخذ العهد وأن عجوزاً دلّت على القبر وأن الموضع كان في النيل. {cite:tafsir-ibn-kathir scan vol. 1 p. 3388} {cite:tarikh-al-tabari scan vol. 2 p. 488} {cite:kamil-ibn-al-athir scan vol. 3 p. 151} وتختلف في أمور: ففي رواية الطبري أن العجوز حُملت على كتفي موسى وأن الماء حُسر بدعائه، وفي الحديث أن موسى أرسل إليها فأعطاها حكمها، وفي رواية ابن الأثير أن القبر كان في صندوق من مرمر. {cite:tarikh-al-tabari scan vol. 2 p. 488} {cite:tafsir-ibn-kathir scan vol. 1 p. 3388} {cite:kamil-ibn-al-athir scan vol. 3 p. 151} ومحل دفنه النهائي لم يُذكر بتفصيل في هذه المصادر سوى عبارة «عند آبائه» و«بالأرض المقدسة». {cite:qisas-al-anbiya-ibn-kathir-iqra-ebook scan p. 333} {cite:kamil-ibn-al-athir scan vol. 3 p. 151} وللقبر المنسوب إلى يوسف قرب الحرم الإبراهيمي انظر [[building/al-haram-al-ibrahimi|الحرم الإبراهيمي]].
+
+## ملاحظة في طبيعة الأخبار
+هذه الروايات بعضها من أخبار أهل الكتاب، وبعضها من حديث وصفه ابن كثير بالغرابة، فلا يُجزم بتفاصيلها. {cite:qisas-al-anbiya-ibn-kathir-iqra-ebook scan p. 333} {cite:tafsir-ibn-kathir scan vol. 1 p. 3389} والأمر الذي تتفق عليه أن يوسف طلب أن يُنقل جثمانه إلى أرض آبائه وأن موسى نفّذ ذلك. {cite:qisas-al-anbiya-ibn-kathir-iqra-ebook scan p. 333} {cite:tarikh-al-tabari scan vol. 2 p. 489}
