@@ -128,19 +128,26 @@ def clean_translation(t, src, a):
 
 
 def set_nested(root, path, value):
-    """Set a dotted path with [i] indexes inside a yaml-loaded tree."""
+    """Set a dotted path with [i] indexes inside a yaml-loaded tree, creating missing dicts/lists."""
     parts = re.findall(r"[^.\[\]]+|\[\d+\]", path)
     cur = root
     for i, p in enumerate(parts):
         last = i == len(parts) - 1
+        nxt_is_idx = not last and parts[i + 1].startswith("[")
         if p.startswith("["):
             idx = int(p[1:-1])
+            while len(cur) <= idx: cur.append(None)
             if last: cur[idx] = value
-            else: cur = cur[idx]
+            else:
+                if not isinstance(cur[idx], (dict, list)):
+                    cur[idx] = [] if nxt_is_idx else {}
+                cur = cur[idx]
         else:
             if last: cur[p] = value
-            elif p not in cur: return False
-            else: cur = cur[p]
+            else:
+                if p not in cur or not isinstance(cur[p], (dict, list)):
+                    cur[p] = [] if nxt_is_idx else {}
+                cur = cur[p]
     return True
 
 
