@@ -1,0 +1,35 @@
+id: passage/lubab-s004-a011
+class: passage
+unit: chapter
+work: work/lubab-al-nuqul-suyuti
+ref: "4:11"
+sura: 4
+aya: 11
+label:
+ ar: "an-Nisa 4:11 — سبب النزول ⁦(لباب النقول)⁩"
+ en: "an-Nisa 4:11 — occasion of revelation"
+ fr: "an-Nisa 4:11 — circonstance de révélation"
+ es: "an-Nisa 4:11 — ocasión de revelación"
+ ur: "an-Nisa 4:11 — سببِ نزول"
+ tr: "an-Nisa 4:11 — nüzul sebebi"
+ id: "an-Nisa 4:11 — sebab turunnya wahyu"
+text: "يوصيكم الله أخرج الأئمة الستة عن جابر بن عبد الله قال عادني رسول الله وأبو بكر في بني سلمة ماشين فوجدني النبي لا أعقل شيئا فدعا بماء فتوضأ ثم رش علي فأفقت فقلت ما تأمرني أن أصنع"
+summary:
+ ar: "رواية السيوطي في سبب نزول an-Nisa 4:11 من «لباب النقول في أسباب النزول» ⁦(شاملة 2247)⁩"
+ en: "Al-Suyuti's report on the occasion of revelation of an-Nisa 4:11, in Lubab al-Nuqul fi Asbab al-Nuzul (Shamela 2247) — Companion generation."
+ es: "Informe de al-Suyuti sobre la ocasión de revelación de an-Nisa 4:11, en Lubab al-Nuqul fi Asbab al-Nuzul (Shamela 2247) — generación de los Compañeros."
+ fr: "Rapport d'al-Suyuti sur la circonstance de révélation de an-Nisa 4:11, dans Lubab al-Nuqul fi Asbab al-Nuzul (Shamela 2247) — génération des Compagnons."
+ ur: "an-Nisa 4:11 کے سببِ نزول پر سیوطی کی روایت — «لباب النقول» ⁦(شاملة 2247)⁩ — صحابہ کی نسل سے۔"
+ tr: "an-Nisa 4:11 ayetinin nüzul sebebi hakkında es-Suyuti'nin rivayeti; Lübabü'n-Nükul'den (Şamile 2247) — sahabe neslinden."
+ id: "Riwayat as-Suyuti tentang sebab turunnya an-Nisa 4:11, dalam Lubab al-Nuqul fi Asbab an-Nuzul (Shamela 2247) — generasi Sahabat."
+relations:
+ - { type: mentions, target: concept/asbab-al-nuzul, sources: [source/lubab-nuqul-shamela-2247] }
+ - { type: revealed_about, target: passage/quran-4-11, sources: [source/lubab-nuqul-shamela-2247] }
+provenance:
+ layer: own-research
+ source: "lubab-nuqul-shamela-2247 — 4:11 — asbab-nuzul-browser harvest"
+ generated_by: "Devin (SWE-2 Medium)"
+ run: asbab-nuzul-browser-harvest
+tags: [nuzul-browser, nuzul-books, nuzul-companion]
+sources: [source/lubab-nuqul-shamela-2247]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

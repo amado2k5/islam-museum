@@ -1,0 +1,35 @@
+id: passage/lubab-s005-a087
+class: passage
+unit: chapter
+work: work/lubab-al-nuqul-suyuti
+ref: "5:87"
+sura: 5
+aya: 87
+label:
+ ar: "al-Ma'ida 5:87 — سبب النزول ⁦(لباب النقول)⁩"
+ en: "al-Ma'ida 5:87 — occasion of revelation"
+ fr: "al-Ma'ida 5:87 — circonstance de révélation"
+ es: "al-Ma'ida 5:87 — ocasión de revelación"
+ ur: "al-Ma'ida 5:87 — سببِ نزول"
+ tr: "al-Ma'ida 5:87 — nüzul sebebi"
+ id: "al-Ma'ida 5:87 — sebab turunnya wahyu"
+text: "يا أيها الذين آمنوا لا تحرموا الآية روى الترمذي وغيره عن ابن عباس أن رجلا أتى النبي فقال يا رسول الله إني إذا أصبت اللحم انتشرت للنساء وأخذتني شهوتي فحرمت علي اللحم فأنزل الله يا أيها الذين آمنوا لا تحرموا طيبات"
+summary:
+ ar: "رواية السيوطي في سبب نزول al-Ma'ida 5:87 من «لباب النقول في أسباب النزول» ⁦(شاملة 2247)⁩"
+ en: "Al-Suyuti's report on the occasion of revelation of al-Ma'ida 5:87, in Lubab al-Nuqul fi Asbab al-Nuzul (Shamela 2247) — Companion generation."
+ es: "Informe de al-Suyuti sobre la ocasión de revelación de al-Ma'ida 5:87, en Lubab al-Nuqul fi Asbab al-Nuzul (Shamela 2247) — generación de los Compañeros."
+ fr: "Rapport d'al-Suyuti sur la circonstance de révélation de al-Ma'ida 5:87, dans Lubab al-Nuqul fi Asbab al-Nuzul (Shamela 2247) — génération des Compagnons."
+ ur: "al-Ma'ida 5:87 کے سببِ نزول پر سیوطی کی روایت — «لباب النقول» ⁦(شاملة 2247)⁩ — صحابہ کی نسل سے۔"
+ tr: "al-Ma'ida 5:87 ayetinin nüzul sebebi hakkında es-Suyuti'nin rivayeti; Lübabü'n-Nükul'den (Şamile 2247) — sahabe neslinden."
+ id: "Riwayat as-Suyuti tentang sebab turunnya al-Ma'ida 5:87, dalam Lubab al-Nuqul fi Asbab an-Nuzul (Shamela 2247) — generasi Sahabat."
+relations:
+ - { type: mentions, target: concept/asbab-al-nuzul, sources: [source/lubab-nuqul-shamela-2247] }
+ - { type: revealed_about, target: passage/quran-5-87, sources: [source/lubab-nuqul-shamela-2247] }
+provenance:
+ layer: own-research
+ source: "lubab-nuqul-shamela-2247 — 5:87 — asbab-nuzul-browser harvest"
+ generated_by: "Devin (SWE-2 Medium)"
+ run: asbab-nuzul-browser-harvest
+tags: [nuzul-browser, nuzul-books, nuzul-companion]
+sources: [source/lubab-nuqul-shamela-2247]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

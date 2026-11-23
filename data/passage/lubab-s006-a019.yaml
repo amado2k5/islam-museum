@@ -1,0 +1,35 @@
+id: passage/lubab-s006-a019
+class: passage
+unit: chapter
+work: work/lubab-al-nuqul-suyuti
+ref: "6:19"
+sura: 6
+aya: 19
+label:
+ ar: "al-An'am 6:19 — سبب النزول ⁦(لباب النقول)⁩"
+ en: "al-An'am 6:19 — occasion of revelation"
+ fr: "al-An'am 6:19 — circonstance de révélation"
+ es: "al-An'am 6:19 — ocasión de revelación"
+ ur: "al-An'am 6:19 — سببِ نزول"
+ tr: "al-An'am 6:19 — nüzul sebebi"
+ id: "al-An'am 6:19 — sebab turunnya wahyu"
+text: "قل أي شئ أكبر شهادة الآية أخرج ابن إسحق وابن جرير من طريق سعيد أو عكرمة عن ابن عباس قال جاء النحام بن زيد وقروم بن كعب وبحري بن عمرو فقالوا يا محمد ما نعلم مع الله إلها غيره فقال لا إله إلا الله بذلك"
+summary:
+ ar: "رواية السيوطي في سبب نزول al-An'am 6:19 من «لباب النقول في أسباب النزول» ⁦(شاملة 2247)⁩"
+ en: "Al-Suyuti's report on the occasion of revelation of al-An'am 6:19, in Lubab al-Nuqul fi Asbab al-Nuzul (Shamela 2247) — Tabi'i generation."
+ es: "Informe de al-Suyuti sobre la ocasión de revelación de al-An'am 6:19, en Lubab al-Nuqul fi Asbab al-Nuzul (Shamela 2247) — generación de los Sucesores."
+ fr: "Rapport d'al-Suyuti sur la circonstance de révélation de al-An'am 6:19, dans Lubab al-Nuqul fi Asbab al-Nuzul (Shamela 2247) — génération des Successeurs."
+ ur: "al-An'am 6:19 کے سببِ نزول پر سیوطی کی روایت — «لباب النقول» ⁦(شاملة 2247)⁩ — تابعین کی نسل سے۔"
+ tr: "al-An'am 6:19 ayetinin nüzul sebebi hakkında es-Suyuti'nin rivayeti; Lübabü'n-Nükul'den (Şamile 2247) — tabiin neslinden."
+ id: "Riwayat as-Suyuti tentang sebab turunnya al-An'am 6:19, dalam Lubab al-Nuqul fi Asbab an-Nuzul (Shamela 2247) — generasi Tabi'in."
+relations:
+ - { type: mentions, target: concept/asbab-al-nuzul, sources: [source/lubab-nuqul-shamela-2247] }
+ - { type: revealed_about, target: passage/quran-6-19, sources: [source/lubab-nuqul-shamela-2247] }
+provenance:
+ layer: own-research
+ source: "lubab-nuqul-shamela-2247 — 6:19 — asbab-nuzul-browser harvest"
+ generated_by: "Devin (SWE-2 Medium)"
+ run: asbab-nuzul-browser-harvest
+tags: [nuzul-browser, nuzul-books, nuzul-tabii]
+sources: [source/lubab-nuqul-shamela-2247]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }
