@@ -7,7 +7,7 @@ ids = {l.split("\t")[0] for l in open(sys.argv[2], encoding="utf8")}
 bad = []
 for k in ("episode", "title_ar", "summary_en", "sections", "unmatched", "excluded"):
     if k not in claims: bad.append(f"missing {k}")
-HON = re.compile(r"ﷺ|صلى الله عليه وسلم|صلي الله عليه وسلم|عليه السلام|رضي الله عن|رحمه الله|peace be upon|PBUH|\(pbuh\)|may God be pleased", re.I)
+HON = re.compile(r"رض[يى] ا*لل?ه|رضوان ا+لله|صل[يى] ا*لل?ه|عليه وسلم|عليه السلام|عليهم السلام|عليها السلام|عليه الصلاة|رحمه الله|رحمهم الله|رحمة الله عليه|قدس الله|كرم الله وجهه|ﷺ|ﷻ|peace be upon|PBUH|\(pbuh\)|may God be pleased", re.I)
 SCRIPT = re.compile(r"[﴿﴾]")
 n_claims = 0
 for i, s in enumerate(claims.get("sections", [])):

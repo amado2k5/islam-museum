@@ -32,7 +32,7 @@ describe("ahmed-el-sayed ledger", () => {
   });
   it("types no honorific and stores no address", () => {
     const text = lines.join("\n");
-    expect(text).not.toMatch(/ﷺ|صلى الله عليه وسلم|صلي الله عليه وسلم|عليه السلام/);
+    expect(text).not.toMatch(/ﷺ|صلى الله عليه وسلم|صلي الله عليه وسلم|عليه السلام|رضي الله عن|رحمه الله/);
     expect(text).not.toMatch(/[\w.+-]+@[\w-]+\.[\w.]+/);
   });
 });
