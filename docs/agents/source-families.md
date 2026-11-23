@@ -66,6 +66,67 @@ Access and licence postures verified against the providers' own pages on 24 Oct 
 | **Surah app and Public Sura API** (Tafsir Center for Quranic Studies, Riyadh) (registered 14 Nov 2026, `source/surah-app`, decision dec-20261114-279 on the founder docket) | web.surahapp.com, dev.surahapp.com/api/docs | 20 published projects: the Hafs text of the King Fahd Complex edition (1440 AH), Ibn Kathir (Dar Ibn al-Jawzi, Huwayni), al-Sa'di, al-Mukhtasar fi Tafsir al-Qur'an, i'rab, qira'at, asbab al-nuzul, Makki and Madani studies, verse counts, places in the Qur'an | **Facts-only (no terms page, robots.txt sets no content signals, API open with CORS)**; the underlying books are in-copyright editions, so use only catalogue facts and rewrite in own words with a citation. Scripture wording never taken from it (frozen Tanzil files only). Score: authority 4, citability 3 (project slug plus sura and aya number), terms 1, structure 5, coverage 3, corroboration 3, Arabic 5, longevity 3. |
 | **Papyri.info** (Duke Collaboratory for Classics Computing, with the Heidelberger Gesamtverzeichnis HGV) (registered 12 Nov 2026, `source/papyri-info`, `dec-20261112-266`) | papyri.info; public data repository github.com/papyri/idp.data | The standard corpus of documentary papyri: the Duke Databank texts (DDbDP) and HGV metadata — dated, placed and subject-tagged documents of the first Islamic century in Egypt (receipts, requisitions, governors' correspondence) naming officials and places | **CC BY 3.0** (data repository README, verified 11 Nov 2026) → citation with attribution (`{cite:papyri-info <ddb-id>}`); live site answers scripts with a bot challenge, so harvest only from the repository. **Facts-only** — edition text and translations never republished; Greek and Coptic texts, not Arabic. Anchor: DDbDP hybrid id |
 
+## Founder-directed additions — the Naskh reference shelf (22 November 2026)
+
+The websites behind the 64 references of "Naskh and the Proportioned Pen" (nekud.click, published 13 November 2026), a scholarly history of the naskh script, added to this catalogue at the founder's direction on 22 November 2026. The shelf is trusted for orientation and facts, in the museum's own words; its families were entered in the harvest registry (`scripts/harvest/sources.yaml`) the same day with terms unconfirmed and a facts-only posture, and a family becomes a `{cite:}` target only when its `data/source/` entity (with a `reliability_note`) and its row in `docs/attribution.md` land, scored against the eight criteria under the triage workflow below. Publisher and bookseller pages are link-only for the works they sell. The reference numbers are the article's own, so any entry can be traced back to the exact citation.
+
+| Family | Where | What it gives | Cited in the article as |
+|---|---|---|---|
+| **Saudipedia** | saudipedia.com | Saudi Arabia's national encyclopedia — institutions, places and projects of the Kingdom | ref 64 (King Fahd Glorious Quran Printing Complex) |
+| **Ancient Arabia** (CNRS) | ancientarabia.huma-num.fr | Archaeology and epigraphy of pre-Islamic Arabia, by inscription and site | ref 13 (Marʾ-al-qays bar ʿAmrū, the Namara epitaph) |
+| **Quran Archive Project** | qrnr.org | Qur'an manuscripts and printed editions, documented copy by copy | ref 17 (the King Fuʾād muṣḥaf) |
+| **Smarthistory** | smarthistory.org | The open-access art-history textbook, peer-reviewed essays with images | ref 31 ("Adorning the Qur'an") |
+| **ISAC — Institute for the Study of Ancient Cultures, University of Chicago** | isac.uchicago.edu | Open-access PDFs of the Oriental Institute's publications | ref 11 (Abbott, *The Rise of the North Arabic Script*, 1939) |
+| **Library of Congress** | loc.gov · blogs.loc.gov | Collection records for early Arabic printing, and the Law Library's *In Custodia Legis* essays | refs 48 (the Medici Arabic Gospel, 1590–91), 51 (Müteferrika) |
+| **Bibliotheca Alexandrina** | bibalex.org | Egyptian printing and book history, from the national library of Alexandria | ref 52 (the phases of the Bulaq Press) |
+| **AUB Libraries online exhibitions** | online-exhibit.aub.edu.lb | Curated exhibitions of the American University of Beirut's collections | ref 46 (*Early Arabic Printing in Europe*, 1514–1694) |
+| **University of Birmingham** | birmingham.ac.uk | The university's own pages for its Mingana Collection manuscripts | ref 16 (the Birmingham Qur'an manuscript dating) |
+| **SOAS University of London** | soas.ac.uk | Library special-collections writing on early printed books | ref 53 (early Egyptian printed books) |
+| **Reed College — Anthology of Iranian Masters of Calligraphy** | reed.edu | A teaching anthology of Persian calligraphers with works and biographies | ref 38 (Ahmad Neyrizi) |
+| **Institute for Advanced Study** | ias.edu | *Ideas*, the Institute's magazine — scholarly essays in the open | ref 47 (Tottoli, editing the Qurʾān in 16th–17th-century Europe) |
+| **Al-Furqān Islamic Heritage Foundation** | al-furqan.com | The London foundation's publications on manuscripts and codicology | ref 18 (Déroche et al., *Islamic Codicology*, 2006) |
+| **IDEO Cairo and MIDÉO** | ideo-cairo.org · journals.openedition.org | The Dominican Institute for Oriental Studies, Cairo: its journal MIDÉO and conference reports on Qur'an printing history | refs 56, 57 (the Cairo edition of 1924) |
+| **Saudi Aramco World archive** | archive.aramcoworld.com | The magazine's full back archive — illustrated, sourced features on Islamic history and craft | ref 3 (Bloom, "Revolution by the Ream", 1999) |
+| **JSTOR** | jstor.org | The journal archive — the field's articles with stable citations | refs 7 (Roxburgh, *Studia Islamica* 96), 23 (Tabbaa, *Ars Orientalis* 21) |
+| **Brill / De Gruyter Brill** | brill.com · degruyterbrill.com | The publisher's catalogue and book pages for Islamic studies | refs 8 (Nemeth, *Arabic Type-Making in the Machine Age*), 37 (Blair, *Islamic Calligraphy*) |
+| **Yale University Press** | yalebooks.yale.edu | The publisher's catalogue for its Islamic-world titles | ref 21 (Bloom, *Paper Before Print*, 2001) |
+| **TUGboat (TeX Users Group)** | tug.org | The TeX community's journal — Arabic typesetting research in the open | refs 2 (Hosny, "The Amiri Typeface"), 55 (Milo, "Ali-Baba and the 4.0 Unicode Characters") |
+| **Typography Papers** | typography.network | The Reading typography journal's papers | ref 54 (Nemeth, "Simplified Arabic") |
+| **Alif Type** | aliftype.com | Khaled Hosny's type foundry — the Amiri typeface and its documentation | ref 62 (Amiri) |
+| **DecoType** | decotype.com | The Amsterdam studio behind the ACE composition engine and Tasmeem | ref 60 (ACE and Tasmeem) |
+| **TIB AV-Portal** | av.tib.eu | Recorded scholarly lectures with stable identifiers | ref 61 (Milo, DecoType/ACE/Tasmeem lecture, 2009) |
+| **The Unicode Consortium** | unicode.org | The Unicode Standard itself — chapter 9, "Middle East-I", is the authority for Arabic script encoding | ref 58 |
+| **Microsoft Learn** | learn.microsoft.com | Microsoft Typography's developer documentation for Arabic OpenType | ref 59 ("Developing OpenType Fonts for Arabic Script") |
+| **Google Fonts** | fonts.google.com | Font specimens and family pages for the open Arabic faces | ref 63 (Noto Naskh Arabic) |
+
+Already in this catalogue, and so not repeated: TDV İslâm Ansiklopedisi (islamansiklopedisi.org.tr — 20 of the article's references; usable now, cited per article as `source/dia-*`), *Encyclopaedia Iranica* (Tier 3), Louvre collections (registered, Tier 2), MWNF / Discover Islamic Art (registered, Tier 2), the Met (Tier R, CC0) and the Chester Beatty (named under Future — manuscript collections). Three of the article's references point back at islam.museum itself.
+
+## Founder-directed additions — the Qur'an, animals and hadith web shelf (22 November 2026)
+
+A second founder-directed shelf, added the same day: websites the founder named for later harvest, mostly gathered while researching animals and the natural world in the Qur'an, with the hadith and Qur'an reference sites among them. The URLs the founder gave are example articles; the family is the root site. Same standing posture as the Naskh shelf: trusted for orientation and facts, in the museum's own words, and entered in the harvest registry the same day on the same terms; a family becomes a `{cite:}` target only when it is scored and its `data/source/` entity and attribution row land. Question-and-answer and fatwa sites carry the answers of the school or office behind them — harvest what a ruling says, attributed to its source, never as the museum's own ruling.
+
+| Family | Where | What it gives |
+|---|---|---|
+| **Sunnah.com** | sunnah.com (mirror: portainer.sunnah.com) | The searchable hadith database — the major collections in Arabic and English with stable collection-and-number references (the founder's examples: Al-Adab al-Mufrad 379; Sahih al-Bukhari, book 4) |
+| **Quran.com** | quran.com | The widely used Qur'an reader — text, translations and tafsir for every verse (example: Saba 12–14) |
+| **Quranic Arabic Corpus** | corpus.quran.com | The Leeds corpus: word-by-word morphology, the syntactic treebank and translation comparison for every verse (example: chapter 34, verse 14) |
+| **Legacy Quran.com** | legacy.quran.com | The older Quran.com interface, still the linkable form for verse ranges (example: 34:3–27) |
+| **IslamQuest** | islamquest.net | Scholarly question-and-answer from the Qom seminary tradition — rulings and explanations with their reasoning (example: archive fa6674) |
+| **Islamic Fatwa** | islamicfatwa.net | A fatwa question-and-answer collection |
+| **The Truth Is Quran** | thetruthisquran.com | Thematic articles gathering what the Qur'an says subject by subject (example: "Animals in the Quran") |
+| **MyIslam** | myislam.org | Qur'an verses organised by topic, with translation (example: verses about animals) |
+| **Sunnah Daily** | sunnahdaily.com | Everyday-guidance articles on halal questions (example: animals) |
+| **Quran Central** | qurancentral.net | Thematic Qur'an pages (example: "Natural World in the Quran") |
+| **The Last Dialogue** | thelastdialogue.org | Thematic articles on the Qur'an and science (example: "List of All Animals Mentioned in Quran") |
+| **Anwaar-e-Islam** | anwaareislam.com | An Islamic articles and books library |
+| **EasyQuran** | easyquran.ai | AI-assisted thematic browsing of the Qur'an — pointers to verses by theme; an AI layer, so every verse it surfaces is verified against the text itself before use |
+| **Academia.edu** | academia.edu | The paper-hosting platform — the harvest target is the named paper, not the platform at large (example: "Animal care: an Islamic perspective, with particular reference to unwanted pets, stray dogs and cats") |
+| **Nekud** | nekud.click | The journal that published "Naskh and the Proportioned Pen" — scholarly essays with full reference lists, the origin of the shelf above |
+| **WikiIslam** | wikiislam.net | A wiki written by critics of Islam — harvested only for what the criticism says, attributed as a critical source in a perspectives block, never as an authority on Islam and never for facts about Islam itself |
+| **Bin Zaid Centre (Fanar)** | binzaid.gov.qa | Qatar's Sheikh Abdulla bin Zaid Al Mahmoud Islamic Cultural Center — free Islamic booklets (the founder's example: *The Rights of Animals in Islam*, from the "animals in islam" search results) |
+
+Both shelves were entered in the harvest registry (`scripts/harvest/sources.yaml`) on 22 November 2026, on the terms stated above.
+
 ## Tier 3 — pointers and orientation (never carry a claim alone)
 
 Getty Thesaurus of Geographic Names / ULAN (getty.edu/research) · al-Thurayya gazetteer · *Encyclopaedia Iranica* (iranicaonline.org — orientation and bibliography) · *Encyclopaedia of Islam* (paywalled — orientation only, where lawfully accessed) · **AlFehrest** (alfehrest.org — registered Tier 3 on 8 November 2026 after assessment, decision `dec-20261108-190`: a volunteer timeline/map of Islamic civilisation, 700–1500 CE — polities, ruler successions, scholar whereabouts, events. **Not** the Oxford manuscript union catalogue **FIHRIST** (fihrist.org.uk), an unrelated project with a near-identical name; never confuse the two. The project disclaims academic-reference status itself and its early content carried Wikipedia-derived text, so it is used for discovery and diffing only — polity succession checklists, year-snapshot completeness, scholar whereabouts — and every fact is re-cited to the underlying source its page names. Its GitHub state JSONs (`drdrsh/datasets`) are a facts-only comparison set under an informal Share-Alike note, never republished into the CC0 data. **Never cited as `{cite:alfehrest …}`; Tier 3 carries no claims, so it has no harvest-registry entry and no source entity.**). Use these to find the trail and the bibliography; the claim itself cites a Tier R/1/2 source or a book.
