@@ -4,18 +4,25 @@ kind: mosque
 label:
   ar: "الجامع العمري ⁦(دورا)⁩"
   en: "al-Omari Mosque, Dura"
-  fr: "Mosquée d’al-Omari, Dura"
+  ur: "عمری مسجد، دورا"
+  fr: "Mosquée al-Omari, Dura"
   es: "Mezquita al-Omari, Dura"
-  ur: "العمری مسجد، دورا۔"
+  tr: "Ömer Camii, Dura"
+  id: "Masjid al-Omari, Dura"
 summary:
-  ar: "بطاقة أولية للجامع العمري في دورا بالخليل، الجامع الأثري؛ لم تُراجع مصادره على الصفحة بعد."
-  en: "Draft card for the al-Omari Mosque of Dura in Hebron, the historic mosque; its sources are not yet checked on the page."
-  fr: "Notice provisoire : Mosquée historique al-Omari de Dura, à Hébron. Ses sources ne sont pas encore vérifiées sur la page."
-  es: "Boceto de ficha para la Mezquita al-Omari de Dura en Hebrón, la mezquita histórica; sus fuentes aún no han sido verificadas en la página."
-  ur: "ہیبرون میں العمری مسجد العمری کے لیے ڈرافٹ کارڈ، تاریخی مسجد؛ اس کے ذرائع ابھی تک صفحہ پر چیک نہیں کیے گئے ہیں۔"
+  ar: "الجامع العمري وسط البلدة القديمة في دورا بالخليل، جامعها الأثري. تنسبه التسمية إلى عمر بن الخطاب، والمبنى القائم من العصور الوسطى بتجديدات لاحقة؛ وكانت دورا من قرى العرش ومقر مشيخة آل عمرو في جبل الخليل الفوقى {cite:dura-municipality}{cite:riwaq-register}{cite:unesco-tl-5717-throne-villages}."
+  en: "The Omari Mosque at the centre of Dura’s old town in the Hebron hills, its historic congregational mosque. Its name invokes the caliph Umar; the standing fabric is medieval with later rebuilds. Dura was one of Palestine’s Throne Villages, seat of the al-‘Amr sheikhs of upper Jabal al-Khalil {cite:dura-municipality}{cite:riwaq-register}{cite:unesco-tl-5717-throne-villages}."
+  ur: "الخلیل کی پہاڑیوں میں دورا کے قدیم قصبہ کے وسط کی عمری مسجد، اس کی تاریخی جامع مسجد۔ نام عمر بن الخطاب کی طرف اشارہ کرتا ہے؛ موجودہ عمارت قرونِ وسطیٰ کی ہے جس پر بعد کی تعمیرات ہوئیں۔ دورا فلسطین کے تخت گاؤں میں سے تھا اور جبل الخلیل فوقی کے آلِ عمرو مشائخ کا مرکز رہا {cite:dura-municipality}{cite:riwaq-register}{cite:unesco-tl-5717-throne-villages}۔"
+  fr: "La mosquée al-Omari au centre de la vieille ville de Dura, dans les collines d’Hébron ; sa mosquée historique. Son nom évoque le calife Omar ; le bâtiment actuel est médiéval avec des reconstructions ultérieures. Dura comptait parmi les Villages du trône palestiniens, siège des cheikhs al-‘Amr {cite:dura-municipality}{cite:riwaq-register}{cite:unesco-tl-5717-throne-villages}."
+  es: "La mezquita al-Omari en el centro del casco antiguo de Dura, en las colinas de Hebrón; su mezquita histórica. Su nombre evoca al califa Umar; el edificio actual es medieval con reconstrucciones posteriores. Dura fue una de las Aldeas del trono palestinas, sede de los jeques al-‘Amr {cite:dura-municipality}{cite:riwaq-register}{cite:unesco-tl-5717-throne-villages}."
+  tr: "el-Halil tepelerinde Dura eski kentinin merkezindeki Ömer Camii, kasabanın tarihi camisi. Adı halife Ömer’i anar; mevcut yapı ortaçağdan kalma olup sonradan yenilenmiştir. Dura, Filistin’in Taht Köyleri’nden ve Yukarı Cebelü’l-Halil’deki el-Amr şeyhlerinin merkeziydi {cite:dura-municipality}{cite:riwaq-register}{cite:unesco-tl-5717-throne-villages}."
+  id: "Masjid al-Omari di pusat kota tua Dura di perbukitan Hebron, masjid bersejarahnya. Namanya merujuk khalifah Umar; bangunan saat ini abad pertengahan dengan pemugaran berikutnya. Dura termasuk Desa Takhta Palestina, kedudukan syekh al-‘Amr {cite:dura-municipality}{cite:riwaq-register}{cite:unesco-tl-5717-throne-villages}."
 wings: [objects]
 regions: [levant-iraq]
 periods: [period/crusades-ayyubid-mamluk]
+built: { edtf: "1200/1400", calendar: gregorian, precision: century, status: debated, note: "Umar-attributed medieval village mosque, fabric rebuilt over time; Dura was an Ottoman-era throne village", sources: [source/dura-municipality, source/riwaq-register] }
+location: place/dura
+status_now: standing
 sources: [source/tarikh-islam-hasan-ibrahim]
 external_ids:
   wikidata: Q125679117
@@ -25,6 +32,7 @@ provenance:
   generated_by: "Devin (SWE-2 High)"
   model: "SWE-2 High"
   run: wikidata-import-wave2
+  enrichment: "facts enriched from the palestine-buildings dossier, 22 Nov 2026; sources registered by Devin (SWE-2 Medium), run palestine-buildings-dossier-2026-11-22"
 status:
   review: draft
-  completeness: 1
+  completeness: 2

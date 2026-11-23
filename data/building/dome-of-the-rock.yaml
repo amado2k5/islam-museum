@@ -13,6 +13,8 @@ label:
   fr: "Dôme du Rocher"
   es: "Cúpula de la Roca"
   ur: "چٹان کا گنبد"
+  tr: "Kubbetü\u2019s-Sahra"
+  id: "Kubah Batu"
 built:
   edtf: "0691"
   calendar: julian
@@ -28,6 +30,8 @@ summary:
   fr: "Le Dôme du Rocher se dresse sur une plateforme du Haram al-Sharif à Jérusalem ; l’Encyclopédie de l’Islam le qualifie de plus ancien monument conservé de l’architecture islamique. Sa longue inscription le date de 72/691-692 sous Abd al-Malik ibn Marwan ; une coupole est entourée de deux déambulatoires octogonaux, l’intérieur étant couvert de mosaïques. L’encyclopédie présente trois explications de sa fonction : mémorial du Voyage nocturne et de l’Ascension, substitut au pèlerinage à La Mecque, et proclamation de la nouvelle foi dans la ville des deux religions antérieures ; elle les expose sans trancher et dit le débat ouvert. Al-Muqaddasi le décrivit vers 375 H et al-Umari le mesura à l’époque mamelouke."
   ur: "قبۃ الصخرہ بیت المقدس میں حرم شریف کے ایک چبوترے پر ہے، اور اسلامی دائرۃ المعارف اسے اسلامی فنِ تعمیر کی سب سے قدیم باقی یادگار کہتی ہے۔ اس کا طویل کتبہ اسے عبدالملک بن مروان کے عہد میں 72ھ/691-692ء کا بتاتا ہے؛ یہ ایک گنبد ہے جس کے گرد دو ہشت پہلو راہداریاں ہیں اور اندر موزیک ہے۔ دائرۃ المعارف اس کے مقصد کی تین توجیہات بتاتی ہے، معراج اور اسراء کی یادگار، حجِ مکہ کا بدل، اور دو قدیم تر مذاہب کے شہر میں نئے دین کا اعلان، ہر ایک کو بغیر فیصلے کے بیان کرتی ہے اور کہتی ہے کہ بحث ختم نہیں ہوئی۔ مقدسی نے اسے تقریباً 375 ہجری میں بیان کیا اور مملوک دور میں عمری نے اس کی پیمائش کی۔"
   es: "La Cúpula de la Roca se alza sobre una plataforma en el Haram al-Sharif de Jerusalén; la Enciclopedia del Islam la considera el monumento más antiguo de la arquitectura islámica que aún se conserva. Su larga inscripción la data en el año 72/691-2, bajo el reinado de Abd al-Malik ibn Marwan, y se trata de una cúpula rodeada por dos deambulatorios octogonales con un interior cubierto de mosaicos. La enciclopedia presenta tres explicaciones sobre su propósito: un monumento al Viaje Nocturno y la Ascensión, un sustituto de la peregrinación a La Meca y una proclamación de la nueva fe en la ciudad de las dos religiones más antiguas. Sin embargo, expone cada explicación sin llegar a una conclusión definitiva y afirma que el debate aún no está cerrado. Al-Muqaddasi la describió alrededor del año 375 de la Hégira y al-Umari la midió durante el período mameluco."
+  tr: "Kubbetü\u2019s-Sahra, Kudüs\u2019teki Harem-i Şerif\u2019te bir platform üzerinde yükselir; İslam Ansiklopedisi onu İslam mimarisinin ayakta kalan en eski eseri sayar. Uzun kitabesi onu Abdülmelik bin Mervan döneminde 72/691-692\u2019ye tarihler; kubbe iki sekizgen dehlizle çevrilidir ve içi mozaik kaplıdır. Ansiklopedi amacına dair üç açıklama aktarır — Mirac ve İsra\u2019nın anıtı, Mekke haccının yerine geçme, iki eski dinin şehrinde yeni dinin ilanı — her birini hüküm vermeden sunar ve tartışmanın kapanmadığını söyler. Mukaddasi onu yaklaşık 375\u2019te tasvir etti, el-Ömeri Memlük döneminde ölçtü."
+  id: "Kubah Batu berdiri di atas pelataran di Haram al-Sharif, Yerusalem; Encyclopaedia of Islam menyebutnya monumen arsitektur Islam tertua yang masih ada. Prasasti panjangnya menaruhnya pada 72/691-2 di bawah Abd al-Malik ibn Marwan; sebuah kubah dilingkari dua lorong segi delapan dengan interior bermosaik. Ensiklopedia itu mengemukakan tiga penjelasan tujuannya — peringatan Isra dan Mikraj, pengganti haji ke Mekah, dan proklamasi agama baru di kota dua agama yang lebih tua — tanpa memutuskan, dan menyatakan perdebatan belum tertutup. Al-Muqaddasi menggambarkannya sekitar 375 H dan al-Umari mengukurnya pada masa Mamluk."
 wings: [objects]
 periods:
 - period/umayyad
@@ -71,6 +75,12 @@ external_ids:
   archnet: "2814"
   wikidata: Q172077
   tei: "9"
+location: place/jerusalem
+status_now: standing
+archnet_id: "255"
+unesco_id: "148"
+materials: [stone, marble, mosaic, timber] 
+dimensions: "octagon ~20 m per side; dome diameter ~20 m on a circular drum"
 sources:
 - source/wikidata
 - source/ahsan-al-taqasim
@@ -79,6 +89,9 @@ sources:
 - source/tei-epigraphie
 - source/archnet
 - source/encyclopaedia-of-islam-2
+- source/islamic-awareness
+- source/pruitt-fatimid-holy-city-2017
+- source/unesco-whc-148-jerusalem
 importance: 1
 status:
   review: published
@@ -92,3 +105,4 @@ provenance:
   run: "building-wikidata-1; ocr-harvest-2026-11-04"
   canon: "Encyclopaedia of Islam, 2nd ed., vol. 5.1, article KUBBAT AL-SAKHRA (O. Grabar), PDF pp. 336-337, with the Dome passages of AL-KUDS, PDF pp. 360-366, 375, 378-379, 382, and of ABD AL-MALIK B. MARWAN, vol. 1 PDF pp. 95-96, written by Claude Sonnet 5.5, run canon-cornerstones-16"
   lead_deepened: "Lead section deepened to 150-250 words, Arabic and English, only from sources this record already cited (Grand Tour mission, run grand-tour-2026-11-11; Claude Code, claude-fable-5-2). AI text awaiting a human read; sentence-by-sentence evidence in docs/fable-run/prose-evidence/."
+  enrichment: "facts enriched from the palestine-buildings dossier, 22 Nov 2026; sources registered by Devin (SWE-2 Medium), run palestine-buildings-dossier-2026-11-22"
