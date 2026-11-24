@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-13-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل [[passage/quran-89-24|89:24]] إلى [[passage/quran-89-30|89:30]]، غير أن نص الصفحة المحفوظة في موقع التفسير لا يتضمن تعليقاً مستقلاً من الطبري على هذه الآية، فلا يُنسب إليه هنا قول فيها. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=89&tAyahNo=28&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 28 إلى 34 مقطعاً واحداً. يفسّر قوله «يَقُولُ يٰلَيْتَنِي قَدَّمْتُ لِحَيَاتِي»: وقوله: «يا لَيْتَنِي قَدَّمْتُ لِحيَاتِي» يقول تعالى ذكره مخبراً عن تلهُّف ابن آدم يوم القيامة، وتندّمه على تفريطه في الصَّالِحات من الأعمال في الدنيا التي تورثه بقاء الأبد، في نعيم لا انقطاع له: يا ليتني قدمت لحياتي في الدنيا من صالح الأعمال لحياتي هذه، التي لا موت بعدها، ما ينجيني من غضب الله، ويوجب لي رضوانه. وينقل في المقطع أقوالاً عن مجاهد وقتادة والحسن.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=89&tAyahNo=28&tDisplay=yes&UserProfile=0&LanguageId=1

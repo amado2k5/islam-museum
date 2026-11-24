@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-13-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل [[passage/quran-89-6|89:6]] إلى [[passage/quran-89-11|89:11]]، غير أن نص الصفحة المحفوظة في موقع التفسير لا يتضمن تعليقاً مستقلاً من الطبري على هذه الآية، فلا يُنسب إليه هنا قول فيها. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=89&tAyahNo=8&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 8 إلى 13 مقطعاً واحداً. يفسّر قوله «أَلَمْ تَرَ كَيْفَ فَعَلَ رَبُّكَ بِعَادٍ»: وقوله: «أَلَمْ تَرَ كَيْفَ فَعَلَ رَبُّكَ بِعادٍ إرَمَ» يقول تعالى ذكره لنبيه محمد: ألم تنظر يا محمد بعين قلبك، فترى كيف فعل ربك بعاد؟. واختلف أهل التأويل في تأويل قوله: «إرَمَ» فقال بعضهم: هي اسم بلدة، ثم اختلف الذين قالوا ذلك في البلدة التي عُنِيت بذلك، فقال بعضهم: عُنيت به الإسكندرية. وينقل في المقطع أقوالاً عن ابن عباس ومجاهد وقتادة وابن إسحاق.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=89&tAyahNo=8&tDisplay=yes&UserProfile=0&LanguageId=1

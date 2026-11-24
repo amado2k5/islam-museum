@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-13-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل [[passage/quran-86-1|86:1]] إلى [[passage/quran-86-10|86:10]]، وخلاصتها: يذكر قراءتين في «لمّا»: تشديد الميم عند أبي جعفر وحمزة وروي عن الحسن، ويفسّرها بمعنى «إلا»، أي ما كل نفس إلا عليها حافظ. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=86&tAyahNo=4&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 1 إلى 10 مقطعاً واحداً. يفسّر قوله «إِن كُلُّ نَفْسٍ لَّمَّا عَلَيْهَا حَافِظٌ»: اختلفت القرّاء في قراءة ذلك، فقرأه من قرّاء المدينة أبو جعفر، ومن قرّاء الكوفة حمزة «لَمَّا عَلَيْها» بتشديد الميم. وذُكِر عن الحسن أنه قرأ ذلك كذلك. وعن هارون، عن الحسن أنه كان يقرؤها: «إنْ كُلُّ نَفْسٍ لَمَّا عَلَيْها حافِظٌ» مشدّدة، ويقول: إلاَّ عليها حافظ، وهكذا كلّ شيء في القرآن بالتثقيل. 1 2 3 4 5 6 وينقل في المقطع أقوالاً عن ابن عباس ومجاهد وقتادة والحسن وابن زيد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=86&tAyahNo=4&tDisplay=yes&UserProfile=0&LanguageId=1

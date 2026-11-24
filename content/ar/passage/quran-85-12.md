@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-13-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل [[passage/quran-85-11|85:11]] إلى [[passage/quran-85-12|85:12]]، وخلاصتها: يقول إن الله يخاطب نبيه بأن انتقامه ممن انتقم منه لشديد، ويجعل ذلك تحذيراً لقوم الرسول من أن يحل بهم مثل ما حل بأصحاب الأخدود لكفرهم وتكذيبهم رسوله وفتنتهم المؤمنين والمؤمنات. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=85&tAyahNo=12&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 11 إلى 12 مقطعاً واحداً. يفسّر قوله «إِنَّ بَطْشَ رَبِّكَ لَشَدِيدٌ»: إن بطش ربك يا محمد لمن بطش به من خلقه، وهو انتقامه ممن انتقم منه لشديد، وهو تحذير من الله لقوم رسوله محمد، أن يُحِلّ بهم من عذابه ونقمته، نظير الذي حلّ بأصحاب الأخدود على كفرهم به، وتكذيبهم رسوله، وفتنتهم المؤمنين والمؤمنات منهم.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=85&tAyahNo=12&tDisplay=yes&UserProfile=0&LanguageId=1

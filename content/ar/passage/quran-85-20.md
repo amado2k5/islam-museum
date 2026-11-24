@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-13-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل [[passage/quran-85-19|85:19]] إلى [[passage/quran-85-22|85:22]]، وخلاصتها: يفسّر الإحاطة بأن الله محيط بأعمالهم محصٍ لها لا يخفى عليه منها شيء، وهو مجازيهم عليها كلها. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=85&tAyahNo=20&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 19 إلى 22 مقطعاً واحداً. يفسّر قوله «وَٱللَّهُ مِن وَرَآئِهِمْ مُّحِيطٌ»: بأعمالهم، مُحْصٍ لها، لا يخفى عليه منها شيء، وهو مجازيهم على جميعها. وقوله: وينقل في المقطع أقوالاً عن مجاهد وقتادة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=85&tAyahNo=20&tDisplay=yes&UserProfile=0&LanguageId=1

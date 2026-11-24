@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-13-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل [[passage/quran-85-6|85:6]] إلى [[passage/quran-85-8|85:8]]، وخلاصتها: يفسّر القعود على النار بأنهم قعود على حافة الأخدود، ويذكر قول قتادة إن المراد المؤمنون، ويقول إنه جارٍ على من قال إن القتلى هم أهل الإيمان، وإنه قد بيّن أن الصواب غير ذلك. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=85&tAyahNo=6&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 6 إلى 8 مقطعاً واحداً. يفسّر قوله «إِذْ هُمْ عَلَيْهَا قُعُودٌ»: النار ذات الوقود، إذ هؤلاء الكفار من أصحاب الأخدود عليها، يعني على النار، فقال عليها، والمعنى أنهم قعود على حافة الأخدود، فقيل: على النار، والمعنى: لشفير الأخدود، لمعرفة السامعين معناه: وكان قتادة يقول في ذلك ما: وعن قتادة، قوله: «النَّارِ ذَاتِ الوَقُودِ إذْ هُمْ عَلَيْها قُعُودٌ» يعني بذلك المؤمنين. وهذا التأويل الذي تأوّله قتادة على مذهب من قال: قُتل أصحاب الأخدود من أهل الإيمان. وقد دللنا على أن الصواب من تأويل ذلك غير هذا القول الذي وجه تأويله قتادة قبل. وقوله: وينقل في المقطع أقوالاً عن قتادة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=85&tAyahNo=6&tDisplay=yes&UserProfile=0&LanguageId=1

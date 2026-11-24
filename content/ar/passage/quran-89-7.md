@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-13-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل [[passage/quran-89-6|89:6]] إلى [[passage/quran-89-11|89:11]]، وخلاصتها: يذكر في «إرم» أقوالاً: الإسكندرية، ودمشق، وأمة، والقديمة، وقبيلة من عاد جد عاد، والهالك. ويختار أنها إما بلدة سكنتها عاد أو اسم قبيلة، ولذلك لم تُنوَّن. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=89&tAyahNo=7&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 6 إلى 11 مقطعاً واحداً. يفسّر قوله «إِرَمَ ذَاتِ ٱلْعِمَادِ»: الإسكندرية. قال أبو جعفر، وقال آخرون: هي دِمَشق. وينقل في المقطع أقوالاً عن ابن عباس ومجاهد وقتادة وابن إسحاق.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=89&tAyahNo=7&tDisplay=yes&UserProfile=0&LanguageId=1

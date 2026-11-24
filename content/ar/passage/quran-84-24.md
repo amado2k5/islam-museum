@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-13-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل [[passage/quran-84-22|84:22]] إلى [[passage/quran-84-25|84:25]]، وخلاصتها: يقول إن الله يأمر نبيه أن يبشّر هؤلاء المكذّبين بعذاب موجع عند الله. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=84&tAyahNo=24&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 22 إلى 25 مقطعاً واحداً. يفسّر قوله «فَبَشِّرْهُمْ بِعَذَابٍ أَلِيمٍ»: : يقول جلّ ثناؤه: فبشر يا محمد هؤلاء المكذّبين بآيات الله، بعذاب أليم لهم عند الله موجع «إلاَّ الَّذِينَ آمَنُوا وَعمِلُوا الصَّالِحاتِ» يقول: إلاَّ الذين تابوا منهم وصدّقوا، وأقرّوا بتوحيده، ونبوّة نبيه محمد، وبالبعث بعد الممات. «وعملوا الصالحات» يقول: وأدُّوا فرائض الله، واجتنبوا ركوب ما حرّم الله عليهم ركوبه. وقوله: «لَهُمْ أجْرٌ غَيرُ مَمْنُونٍ» يقول تعالى ذكره: لهؤلاء الذين آمنوا وعملوا الصالحات، ثواب غير محسوب ولا منقوص. وينقل في المقطع أقوالاً عن ابن عباس ومجاهد وقتادة وابن زيد وابن جريج وسفيان.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=84&tAyahNo=24&tDisplay=yes&UserProfile=0&LanguageId=1

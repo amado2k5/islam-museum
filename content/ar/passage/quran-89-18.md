@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-13-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل [[passage/quran-89-16|89:16]] إلى [[passage/quran-89-19|89:19]]، وخلاصتها: يبيّن أن من أسباب إهانتهم أنهم لا يحثّ بعضهم بعضاً على إطعام المسكين. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=89&tAyahNo=18&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 18 إلى 21 مقطعاً واحداً. يفسّر قوله «وَأَمَّآ إِذَا مَا ٱبْتَلاَهُ فَقَدَرَ عَلَيْهِ رِزْقَهُ فَيَقُولُ رَبِّيۤ أَهَانَنِ»: وقوله: «وَأمَّا إذَا ما ابْتَلاهُ فَقَدَرَ عَلَيْهِ رِزْقَهُ» يقول: وأما إذا ما امتحنه ربه بالفقر «فَقَدَرَ عَلَيْهِ رِزْقَهُ» يقول: فضيَّق عليه رزقه وقَتَّره، فلم يكثر ماله، ولم يوسع عليه «فَيَقُولُ رَبّي أهانَنِ» يقول: فيقول ذلك الإنسان: ربي أهانني، يقول: أذلني بالفقر، ولم يشكر الله على ما وهب له من سلامة جوارحه، ورزقه من العافية في جسمه. وعن قتادة «وَأمَّا إذَا ابْتَلاهُ فَقَدَرَ عَلَيْهِ رِزْقَهُ فَيَقُولُ رَبِّي أهانَنِي» ما أسرع كفرَ ابن آدم. قال ابن زيد، قوله: «فَقَدَرَ عَلَيْهِ رِزْقَهُ» قال: ضَيَّقه. وينقل في المقطع أقوالاً عن قتادة وابن زيد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=89&tAyahNo=18&tDisplay=yes&UserProfile=0&LanguageId=1
