@@ -12,7 +12,7 @@ provenance: {generated_by: 'Claude Code (model translation)', model: claude-sonn
 
 ## İçerik
 
-Ayetleri müzede passage/quran-3-<ayet numarası> kayıtları altında tek tek belgelenmiştir.
+Ayetleri müzede passage/quran-3-‹ayet numarası› kayıtları altında tek tek belgelenmiştir.
 
 ## Tantâvî'nin «et-Tefsîrü'l-Vasît»inde
 
