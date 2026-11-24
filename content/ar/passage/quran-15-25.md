@@ -4,18 +4,20 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-4-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
 ## موجز
-الآية 25 من [[passage/quran-15|سورة الحجر]]، وهي سورة مكية. {cite:tanzil-quran}
+الآية 25 من [[passage/quran-15|سورة الحجر]]، وهي سورة مكية. يختم الطبري المقطع بحشر الخلائق يوم القيامة للحساب، و«حكيم عليم» بحكيم في تدبيره عليم بأعمالهم. {cite:tanzil-quran}
 
 ## موضعها
 موضعها: الآية 25 من أصل 99 آية في السورة. النص محفوظ من مصحف تنزيل المجمّد ولا يُعاد كتابته هنا.
 
 ## تفسير الطبري
 
-يتابع الطبري تفسير قوله «وإن ربك هو يحشرهم»، فيقول إن الله يجمع الأولين والآخرين المستقدمين والمستأخرين، وهو حكيم في تدبيره عليم بهم. ويعيد ما قاله في الإحياء والإماتة والوراثة، وفي اختلاف أهل التأويل في المراد بالمستقدمين والمستأخرين. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=15&tAyahNo=25&tDisplay=yes&UserProfile=0&LanguageId=1
+يختم الطبري المقطع الذي بدأ بالآية 23: «وإن ربك هو يحشرهم» أي يجمع الله الخلائق — المستقدمين منهم والمستأخرين — يوم القيامة للحساب والجزاء، «إنه حكيم عليم»: حكيم في تدبيره خلقه وقضائه فيهم، عليم بأعمالهم وبمن يستقدم منهم ومن يستأخر. وقد ذكر في الآية قبلها أقوال أهل التأويل في المستقدمين والمستأخرين: من مضى من الأمم ومن لم يخلق عن عكرمة وقتادة، ومن مات ومن بقي عن مجاهد ومحمد بن كعب.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=15&tAyahNo=25&tDisplay=yes&UserProfile=0&LanguageId=1

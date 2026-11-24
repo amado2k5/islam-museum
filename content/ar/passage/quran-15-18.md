@@ -4,18 +4,20 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-4-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
 ## موجز
-الآية 18 من [[passage/quran-15|سورة الحجر]]، وهي سورة مكية. {cite:tanzil-quran}
+الآية 18 من [[passage/quran-15|سورة الحجر]]، وهي سورة مكية. يفسّر الطبري «شهاب مبين» بشهاب من نار يتبع مسترق السمع فيخبله أو يحرقه، ويروي عن ابن عباس أن الشهب تحرق ولا تقتل. {cite:tanzil-quran}
 
 ## موضعها
 موضعها: الآية 18 من أصل 99 آية في السورة. النص محفوظ من مصحف تنزيل المجمّد ولا يُعاد كتابته هنا.
 
 ## تفسير الطبري
 
-يتابع الطبري في هذه الآية تفسير حفظ السماء الدنيا من كل شيطان مرجوم، فمن استرق السمع مما يحدث في السماء أتبعه شهاب من النار يبيّن أثره فيه، إما بإخباله وإفساده أو بإحراقه، ويذكر استثناء «إلا» هنا وأنه بمعنى «لكن». {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=15&tAyahNo=18&tDisplay=yes&UserProfile=0&LanguageId=1
+يتابع الطبري المقطع: «فأتبعه شهاب مبين» أي يتبع الشيطانَ المسترق للسمع شهابٌ من النار مبين، يُبين أثره فيه بإخباله وإفساده أو بإحراقه — ويروي عن ابن عباس أن الشهب لا تقتل ولكن تحرق وتخبل وتخرج من غير أن تقتل. ويروي صورة الاستراق: تصعد الشياطين أفواجاً، فيفرد المارد منها فيعلو فيُرمى بالشهاب فيصيب جبهته أو حيث شاء الله فيلتهب، فيخبر أصحابه فيأتون الكهنة فيزيدون عليه أضعافه من الكذب، فإذا رأوا شيئاً مما قالوا قد كان صدّقوهم بما جاءوا به من الكذب.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=15&tAyahNo=18&tDisplay=yes&UserProfile=0&LanguageId=1

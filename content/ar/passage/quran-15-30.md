@@ -4,18 +4,20 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-4-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
 ## موجز
-الآية 30 من [[passage/quran-15|سورة الحجر]]، وهي سورة مكية. {cite:tanzil-quran}
+الآية 30 من [[passage/quran-15|سورة الحجر]]، وهي سورة مكية. يقرأ الطبري الآيات 30 إلى 32 معاً: سجود الملائكة أجمعين وإباء إبليس تكبراً وحسداً، ويعرض في إعراب «أن تكون» قولي الكوفيين والبصريين. {cite:tanzil-quran}
 
 ## موضعها
 موضعها: الآية 30 من أصل 99 آية في السورة. النص محفوظ من مصحف تنزيل المجمّد ولا يُعاد كتابته هنا.
 
 ## تفسير الطبري
 
-يقول الطبري إن الملائكة كلهم سجدوا لآدم إلا إبليس، فقد أبى أن يكون مع الساجدين تكبّراً وحسداً وبغياً. وفي سؤال الله له عمّا منعه من السجود يذكر خلاف نحويي الكوفة والبصرة في إعراب «أن» في «ألا تكون». {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=15&tAyahNo=30&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآيات 30 إلى 32 مقطعاً واحداً: لما خلق الله البشر ونفخ فيه الروح بعد أن سوّاه سجد الملائكة كلهم جميعاً إلا إبليس، أبى أن يكون مع الساجدين لآدم تكبراً وحسداً وبغياً. فقال الله له «يا إبليس ما لك ألا تكون مع الساجدين» أي ما منعك من أن تكون معهم. ويعرض في إعراب «أن» قولين: هي عند بعض نحويي الكوفة في موضع خفض، وعند بعض أهل البصرة نصب بفقد الخافض.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=15&tAyahNo=30&tDisplay=yes&UserProfile=0&LanguageId=1

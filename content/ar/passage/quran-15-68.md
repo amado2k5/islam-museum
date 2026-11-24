@@ -4,18 +4,20 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-4-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
 ## موجز
-الآية 68 من [[passage/quran-15|سورة الحجر]]، وهي سورة مكية. {cite:tanzil-quran}
+الآية 68 من [[passage/quran-15|سورة الحجر]]، وهي سورة مكية. يقرأ الطبري الآيات 68 إلى 70 معاً: دفاع لوط عن ضيفه بحق الإكرام ونهي قومه عن فضيحته، وجوابهم أنهم نهوه عن إضافة أحد من العالمين. {cite:tanzil-quran}
 
 ## موضعها
 موضعها: الآية 68 من أصل 99 آية في السورة. النص محفوظ من مصحف تنزيل المجمّد ولا يُعاد كتابته هنا.
 
 ## تفسير الطبري
 
-يذكر الطبري أن لوطاً قال لقومه إن هؤلاء ضيفي وحق على الرجل إكرام ضيفه، فلا تفضحوني فيهم، واتقوا الله ولا تذلّوني بالتعرض لهم بمكروه، فردّوا عليه بأنه سبق أن نهاهم عن العالمين. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=15&tAyahNo=68&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآيات 68 إلى 70 مقطعاً واحداً: قال لوط لقومه «إن هؤلاء ضيفي فلا تفضحون» أي إن هؤلاء الذين جئتموهم تريدون منهم الفاحشة ضيفي، وحقّ على الرجل إكرام ضيفه فلا تفضحون في ضيفي وأكرموني بترك التعرض لهم بالمكروه. «واتقوا الله» خافوه فيه وفي أنفسهم أن يحلّ بهم عقابه. «ولا تخزون» ولا تذلّونه ولا تهينونه فيهم بالتعرض لهم بالمكروه. «قالوا أو لم ننهك عن العالمين»: قال له قومه أو لم ننهك أن تضيف أحداً من العالمين — عن قتادة ألم ننهك أن تضيف أحداً.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=15&tAyahNo=68&tDisplay=yes&UserProfile=0&LanguageId=1

@@ -4,18 +4,20 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-4-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
 ## موجز
-الآية 41 من [[passage/quran-15|سورة الحجر]]، وهي سورة مكية. {cite:tanzil-quran}
+الآية 41 من [[passage/quran-15|سورة الحجر]]، وهي سورة مكية. يقرأ الطبري الآيتين 41 و42 معاً: «هذا صراط عليّ مستقيم» طريق مرجعه إلى الله للمجازاة، ويعرض القراءات وخلاف المفسرين في معناها. {cite:tanzil-quran}
 
 ## موضعها
 موضعها: الآية 41 من أصل 99 آية في السورة. النص محفوظ من مصحف تنزيل المجمّد ولا يُعاد كتابته هنا.
 
 ## تفسير الطبري
 
-يعرض الطبري قراءة «علي» وقراءة غيرها، ويفسّر القراءة العامة «هذا صراط علي مستقيم» بأنه طريق مرجعه إلى الله فيجازي كلاً بعمله، كقولك لمن تتوعده طريقك علي، ويستشهد بقوله «إن ربك لبالمرصاد». ويذكر ما نُقل عن مجاهد وغيره في ذلك. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=15&tAyahNo=41&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآيتين 41 و42 مقطعاً واحداً وهو جواب الله لإبليس. في «قال هذا صراط عليّ مستقيم» عرض قراءة عامة قراء الحجاز والمدينة والكوفة والبصرة «صراط عليّ» بمعنى هذا طريق مرجعه إليّ فأجازي كلاً بأعماله، نظير قول القائل لمن يتوعده طريقك عليّ، وعن مجاهد الحق يرجع إلى الله وعليه طريقه لا يعرّج على شيء. و«إن عبادي ليس لك عليهم سلطان إلا من اتبعك من الغاوين»: لا حجة لإبليس ولا قدرة له على عباد الله المؤمنين، وإنما سلطانه على الغاوين الذين اختاروا اتباعه.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=15&tAyahNo=41&tDisplay=yes&UserProfile=0&LanguageId=1

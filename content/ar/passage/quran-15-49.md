@@ -4,18 +4,20 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-4-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
 ## موجز
-الآية 49 من [[passage/quran-15|سورة الحجر]]، وهي سورة مكية. {cite:tanzil-quran}
+الآية 49 من [[passage/quran-15|سورة الحجر]]، وهي سورة مكية. يفسّر الطبري «نبئ عبادي أني أنا الغفور الرحيم» باستر الذنوب لمن تاب وأناب، ويروي خبر جبرئيل «لم تُقنّط عبادي». {cite:tanzil-quran}
 
 ## موضعها
 موضعها: الآية 49 من أصل 99 آية في السورة. النص محفوظ من مصحف تنزيل المجمّد ولا يُعاد كتابته هنا.
 
 ## تفسير الطبري
 
-يبيّن الطبري أن الله أمر نبيه أن يُنبئ عباده بأنه الغفور الرحيم، الذي يستر على ذنوب التائبين ولا يعاقبهم عليها، وأن عذابه هو العذاب الأليم لمن أصرّ، فيجمع الخبر بين الرجاء والخوف. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=15&tAyahNo=49&tDisplay=yes&UserProfile=0&LanguageId=1
+يتابع الطبري المقطع: «نبّئ عبادي أني أنا الغفور الرحيم» أخبر يا محمد عبادي أني أنا الذي أستر على ذنوبهم إذا تابوا منها وأنابوا بترك فضيحتهم بها وعقوبتهم عليها، الرحيم بهم ألا أعذبهم بعد توبتهم. ويروي عن قتادة أن النبي قال: لو يعلم العبد قدر عفو الله لما تورّع من حرام، ولو يعلم قدر عذابه لبخع نفسه؛ ويروي عن رجل من أصحاب النبي أن النبي خرج عليهم من باب بني شيبة فرجع إليهم القهقرى وقال إني لما خرجت جاء جبرئيل فقال: يا محمد إن الله يقول لم تُقنّط عبادي، نبّئ عبادي أني أنا الغفور الرحيم وأن عذابي هو العذاب الأليم.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=15&tAyahNo=49&tDisplay=yes&UserProfile=0&LanguageId=1

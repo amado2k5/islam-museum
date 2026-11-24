@@ -4,18 +4,20 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-4-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
 ## موجز
-الآية 29 من [[passage/quran-15|سورة الحجر]]، وهي سورة مكية. {cite:tanzil-quran}
+الآية 29 من [[passage/quran-15|سورة الحجر]]، وهي سورة مكية. يفسّر الطبري «سويته» و«نفخت فيه من روحي» بصيرورته حياً، ويجعل السجود سجود تحية لا عبادة، ويروي عن ابن عباس خبر الملائكة الأوّلين. {cite:tanzil-quran}
 
 ## موضعها
 موضعها: الآية 29 من أصل 99 آية في السورة. النص محفوظ من مصحف تنزيل المجمّد ولا يُعاد كتابته هنا.
 
 ## تفسير الطبري
 
-يفسّر الطبري «سوّيته» بأن الله صوّره وعدّل صورته، و«ونفخت فيه من روحي» بأن الله جعله بشراً حياً، ويأمر الملائكة أن يقعوا له ساجدين، وهو عنده سجود تحية وتكرمة لا عبادة، فالطاعة في السجود لله تعالى. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=15&tAyahNo=29&tDisplay=yes&UserProfile=0&LanguageId=1
+يتابع الطبري المقطع: «فإذا سويته» أي صوّرته فعدّلت صورته، «ونفخت فيه من روحي» فصار بشراً حياً، «فقعوا له ساجدين» سجود تحية وتكرمة لا سجود عبادة. ويروي عن ابن عباس أن الله لما خلق الملائكة قال لهم إني خالق بشراً من طين فإذا خلقته فاسجدوا له، فأبى أولئك فأرسل عليهم ناراً فأحرقتهم، ثم خلق ملائكة أخرى فأبوا فأحرقتهم، ثم خلق ملائكة فقالوا سمعنا وأطعنا إلا إبليس كان من الكافرين الأولين.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=15&tAyahNo=29&tDisplay=yes&UserProfile=0&LanguageId=1
