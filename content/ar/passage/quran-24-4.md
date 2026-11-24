@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-7-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن الذين يشتمون العفائف من حرائر المسلمين فيرمونهن بالزنا ثم لا يأتون بأربعة شهداء عدول، فاجلدوهم ثمانين جلدة ولا تقبلوا لهم شهادة أبداً، وأولئك هم الفاسقون الخارجون عن طاعة الله. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=24&tAyahNo=4&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَٱلَّذِينَ يَرْمُونَ ٱلْمُحْصَنَاتِ ثُمَّ لَمْ يَأْتُواْ بِأَرْبَعَةِ شُهَدَآءَ فَٱجْلِدُوهُمْ ثَمَانِينَ جَلْدَةً وَلاَ تَقْبَلُواْ لَهُمْ شَهَادَةً أَبَداً وَأُوْلَٰئِكَ هُمُ ٱلْفَاسِقُونَ»: والذين يَشْتُمون العفائف من حرائر المسلمين، فيرمونهنّ بالزنا، ثم لم يأتوا على ما رمَوْهن به من ذلك بأربعة شهداء عُدول يشهدون عليهنّ أنهنّ رأوهنّ يفعلن ذلك، فاجلدوا الذين رمَوْهنّ بذلك ثمانين جلدة، ولا تقبلوا لهم شهادة أبداً، وأولئك هم الذين خالفوا أمر الله وخرجوا من طاعته ففسقوا عنها. وذُكر أن هذه الآية إنما نزلت في الذين رموا عائشة زوج النبيّ بما رموها به من الإفك. وينقل في المقطع أقوالاً عن ابن زيد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=24&tAyahNo=4&tDisplay=yes&UserProfile=0&LanguageId=1

@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-7-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يذكر الطبري أن لهؤلاء الكفار من قريش أعمالاً من دون ذلك هم لها عاملون إلى أن يؤخذ أهل النعمة والبطر منهم بالعذاب، والمترفون العظماء، فإذا أخذهم الله جأروا، أي ضجّوا واستغاثوا مما حلّ بهم من عذابه. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=23&tAyahNo=64&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 64 إلى 65 مقطعاً واحداً. يفسّر قوله «حَتَّىٰ إِذَآ أَخَذْنَا مُتْرَفِيهِمْ بِٱلْعَذَابِ إِذَا هُمْ يَجْأَرُونَ»: ولهؤلاء الكفار من قريش أعمال من دون ذلك هم لها عاملون، إلى أن يؤخذ أهل النّعمة والبطر منهم بالعذاب. كما: قال ابن زيد: «إذَا أخَذْنا مُتْرَفِيهِمْ بالعَذابِ»، قال: المُتْرَفُون: العظماء. «إذَا هُمْ يَجْئَرُونَ» يقول: فإذا أخذناهم به جأروا، يقول: ضجُّوا واستغاثوا مما حلّ بهم من عذابنا. ولعلّ الجُؤار: رفع الصوت، كما يجأر الثور ومنه قول الأعشى:يُرَاوِحُ مِنْ صَلَوَاتِ المَلِي كِ طَوْرا سُجُودا وَطَوْرا جُؤَارَ وينقل في المقطع أقوالاً عن ابن عباس ومجاهد وابن زيد والربيع.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=23&tAyahNo=64&tDisplay=yes&UserProfile=0&LanguageId=1

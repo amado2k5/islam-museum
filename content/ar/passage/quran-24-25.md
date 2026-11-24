@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-7-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن الله يوفيهم يومئذ دينهم الحق، أي حسابهم وجزاءهم على أعمالهم، فالدين هنا الحساب والجزاء، وينقل عن ابن عباس. ويعلمون أن الله هو الحق المبين. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=24&tAyahNo=25&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «يَوْمَئِذٍ يُوَفِّيهِمُ ٱللَّهُ دِينَهُمُ ٱلْحَقَّ وَيَعْلَمُونَ أَنَّ ٱللَّهَ هُوَ ٱلْحَقُّ ٱلْمُبِينُ»: «يَوْمَ تَشْهَدُ عَلَيْهِمْ ألْسِنَتُهُمْ وأيْدِيهِمْ وأرْجُلُهُمْ بِمَا كانُوا يَعْمَلُونَ» يوفيهم الله حسابهم وجزاءهم الحقّ على أعمالهم. والدِّين في هذا الموضع: الحساب والجزاء، كما: قال: ثني معاوية، عن عليّ، عن ابن عباس، في قوله: «يَوْمَئِذٍ يُوَفِّيهِمُ اللّهُ دينَهُمُ الحَقَّ» يقول: حسابهم. واختلفت القرّاء في قراءة قوله: «الحَقَّ» فقرأته عامة قرّاء الأمصار: «دِينَهُمُ الحَقَّ» نصباً على النعت للدين، كأنه قال: يوفيهم الله أعمالهم حقًّا. ثم أدخل في الحقّ الألف واللام، فنصب بما نصب به الدين. وذُكر عن مجاهد أنه قرأ ذلك: «يُوَفِّيهِمُ اللّهُ دِينَهُمُ الحَقُّ» برفع «الحقّ» على أنه من نعت الله. وينقل في المقطع أقوالاً عن ابن عباس ومجاهد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=24&tAyahNo=25&tDisplay=yes&UserProfile=0&LanguageId=1

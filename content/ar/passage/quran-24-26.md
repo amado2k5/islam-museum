@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-7-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يعرض الطبري اختلاف أهل التأويل في «الخبيثات للخبيثين»: فقيل الخبيثات من القول للخبيثين من الرجال والطيبات من القول للطيبين، وقيل في النساء والرجال. وأولئك مبرّؤون مما يقولون لهم مغفرة ورزق كريم. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=24&tAyahNo=26&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «ٱلْخَبِيثَاتُ لِلْخَبِيثِينَ وَٱلْخَبِيثُونَ لِلْخَبِيثَاتِ وَٱلطَّيِّبَاتُ لِلطَّيِّبِينَ وَٱلطَّيِّبُونَ لِلْطَّيِّبَاتِ أُوْلَٰئِكَ مُبَرَّءُونَ مِمَّا يَقُولُونَ لَهُم مَّغْفِرَةٌ وَرِزْقٌ كَرِيمٌ»: اختلف أهل التأويل في تأويل ذلك فقال بعضهم: معناه: الخبيثات من القول للخبثيين من الرجال، والخبيثون من الرجال للخبيثات من القول، والطيبات من القول للطيبين من الناس، والطيبون من الناس للطيبات من القول. وينقل في المقطع أقوالاً عن ابن عباس ومجاهد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=24&tAyahNo=26&tDisplay=yes&UserProfile=0&LanguageId=1

@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-7-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن الله يأمر نبيه أن يقول: ربّ إن تُرِيَنّي في هؤلاء المشركين ما تعدهم من عذابك فلا تهلكني بما تهلكهم به، ونجّني من عذابك وسخطك فلا تجعلني في القوم الظالمين، بل اجعلني ممن رضيت عنه من أوليائك. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=23&tAyahNo=93&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 93 إلى 95 مقطعاً واحداً. يفسّر قوله «قُل رَّبِّ إِمَّا تُرِيَنِّي مَا يُوعَدُونَ»: قل يا محمد: ربّ إنْ تُرِيَنَّى في هؤلاء المشركين ما تعدهم من عذابك فلا تهلكني بما تهلكهم به. ونجني من عذابك وسخطك فلا تجعلني في القوم المشركين ولكن اجعلني ممن رضيت عنه من أوليائك. وقوله: «فَلا تَجْعَلْني» جواب لقوله: «إما تُرِيَنَّى» اعترض بينهما بالنداء، ولو لم يكن قبله جزاء لم يجز ذلك في الكلام، لا يقال: يا زيد فقم، ولا يا ربّ فاغفر، لأن النداء مستأنف، وكذلك الأمر بعده مستأنف، لا تدخله الفاء والواو، إلاَّ أن يكون جواباً لكلام قبله. وقوله:
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=23&tAyahNo=93&tDisplay=yes&UserProfile=0&LanguageId=1

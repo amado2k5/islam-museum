@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-7-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يذكر الطبري أن من صفاتهم أنهم بآيات ربهم يؤمنون، أي يصدقون بكتابه وحججه، ويخلصون العبادة لربهم فلا يجعلون له فيها شريكاً، لا لوثن ولا لصنم، ولا يرائون بها أحداً من خلقه. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=23&tAyahNo=58&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 57 إلى 59 مقطعاً واحداً. يفسّر قوله «وَٱلَّذِينَ هُم بِآيَاتِ رَبَّهِمْ يُؤْمِنُونَ»: والذين هم بآيات كتابه وحججه مصدّقون.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=23&tAyahNo=58&tDisplay=yes&UserProfile=0&LanguageId=1

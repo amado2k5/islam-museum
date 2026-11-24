@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-7-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن هذا عتاب من الله لأهل الإيمان على ما وقع في أنفسهم من إرجاف من أرجف في أمر عائشة، فهلّا ظنّ المؤمنون والمؤمنات بأنفسهم خيراً، أي ظنوا بمن قُرف بذلك منهم خيراً، وقالوا هذا إفك مبين. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=24&tAyahNo=12&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «لَّوْلاۤ إِذْ سَمِعْتُمُوهُ ظَنَّ ٱلْمُؤْمِنُونَ وَٱلْمُؤْمِنَاتُ بِأَنْفُسِهِمْ خَيْراً وَقَالُواْ هَٰذَآ إِفْكٌ مُّبِينٌ»: وهذا عتاب من الله تعالى ذِكْره أهلَ الإيمان به فيما وقع في أنفسهم من إرجافِ من أرْجَفَ في أمر عائشة بما أرجف به. يقول لهم تعالى ذكره: هلا أيها الناس إذ سمعتم ما قال أهل الإفك في عائشة ظنّ المؤمنون منكم والمؤمنات بأنفسهم خيراً يقول: ظننتم بمن قُرِف بذلك منكم خيرا، ولم تظنوا به أنه أتى الفاحشة. وقال «بأنفسهم» لأن أهل الإسلام كلهم بمنزلة نفس واحدة، لأنهم أهل ملة واحدة. وينقل في المقطع أقوالاً عن مجاهد والحسن وابن زيد وابن جريج.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=24&tAyahNo=12&tDisplay=yes&UserProfile=0&LanguageId=1

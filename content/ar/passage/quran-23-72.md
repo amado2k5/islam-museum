@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-7-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن الله يسأل نبيه: أم تسأل المشركين خراجاً، يعني أجراً على ما جئتهم به من النصيحة والحق، فخراج ربك، وهو أجره على نفاذك لأمره وابتغاء مرضاته، خير لك. ولم يسألهم النبي على ما أتاهم به أجراً. وهو خير الرازقين. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=23&tAyahNo=72&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 72 إلى 73 مقطعاً واحداً. يفسّر قوله «أَمْ تَسْأَلُهُمْ خَرْجاً فَخَرَاجُ رَبِّكَ خَيْرٌ وَهُوَ خَيْرُ ٱلرَّازِقِينَ»: أم تسأل هؤلاء المشركين يا محمد من قومك خَراجاً، يعني أجراً على ما جئتهم به من عند الله من النصيحة والحقّ «فَخَرَاجُ رَبِّكَ خَيْرٌ»: فأجر ربك على نفاذك لأمره، وابتغاء مرضاته خير لك من ذلك، ولم يسألهم على ما أتاهم به من عند الله أجراً، قال لهم كما قال الله له، وأمره بقيله لهم:«قُلْ لا أسأَلُكُمْ عَلَيْهِ أجْراً إلاَّ المَوَدَّةَ فِي القُربى» وإنما معنى الكلام: أم تسألهم على ما جئتهم به أجراً، فنكصُوا على أعقابهم إذا تلوتَه عليهم، مستكبرين بالحرم، فخراج ربك خير. وينقل في المقطع أقوالاً عن الحسن.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=23&tAyahNo=72&tDisplay=yes&UserProfile=0&LanguageId=1

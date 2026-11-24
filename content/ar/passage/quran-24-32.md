@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-7-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن الله يأمر المؤمنين بتزويج من لا زوج له من أحرار رجالهم ونسائهم ومن أهل الصلاح من عبيدهم وإمائهم، والأيامى جمع أيّم، وجُمعت كذلك لأنها فعيلة في المعنى كاليتيمة والأيتام، وإن يكونوا فقراء يغنهم الله من فضله. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=24&tAyahNo=32&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَأَنْكِحُواْ ٱلأَيَامَىٰ مِنْكُمْ وَٱلصَّالِحِينَ مِنْ عِبَادِكُمْ وَإِمائِكُمْ إِن يَكُونُواْ فُقَرَآءَ يُغْنِهِمُ ٱللَّهُ مِن فَضْلِهِ وَٱللَّهُ وَاسِعٌ عَلِيمٌ»: وزوّجوا أيها المؤمنون من لا زوج له من أحرار رجالكم ونسائكم، ومن أهل الصلاح من عبيدكم ومماليككم. والأيامَى: جمع أيِّم، وإنما جمع أيامَى لأنها فعيلة في المعنى، فجُمعت كذلك كما جمعت اليتيمة: يتامَى ومنه قول جميل:أُحِبُّ الأيامَى إذْ بُثَيْنَةُ أيّمٌ وأحْبَبْتُ لَمَّا أنْ غَنِيتِ الغَوَانِيا ولو جمعت أيائم كان صواباً. وينقل في المقطع أقوالاً عن ابن عباس وابن زيد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=24&tAyahNo=32&tDisplay=yes&UserProfile=0&LanguageId=1

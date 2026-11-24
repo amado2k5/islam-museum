@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-7-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن الله يأمر نبيه أن يسأل المكذبين بالآخرة من قومه: لمن الأرض ومن فيها إن كنتم تعلمون؟ وأنهم سيقرّون بأنها لله ملكاً دون غيره، فقل لهم إذا أجابوك: أفلا تذكرون فتعلمون أن من قدر على خلق ذلك قادر على بعثكم. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=23&tAyahNo=84&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 84 إلى 85 مقطعاً واحداً. يفسّر قوله «قُل لِّمَنِ ٱلأَرْضُ وَمَن فِيهَآ إِن كُنتُمْ تَعْلَمُونَ»: قل يا محمد لهؤلاء المكذّبين بالآخرة من قومك: لمن ملك الأرض ومن فيها من الخلق إن كنتم تعلمون مَنْ مالكها؟ ثم أعلمه أنهم سيقرّون بأنها لله ملكا، دون سائر الأشياء غيره. «قُلْ أفَلا تَذَكَّرُونَ» يقول: فقل لهم إذا أجابوك بذلك كذلك: أفلا تذكرون فتعلمون أن من قدر على خلق ذلك ابتداء فهو قادر على إحيائهم بعد مماتهم وإعادتهم خلقاً سويًّا بعد فنائهم؟
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=23&tAyahNo=84&tDisplay=yes&UserProfile=0&LanguageId=1

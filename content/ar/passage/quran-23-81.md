@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-7-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن هؤلاء المشركين ما اعتبروا بآيات الله ولا تدبروا ما احتج عليهم من الحجج على قدرته، بل قالوا مثل ما قال الأولون من الأمم المكذبة رسلها، فقالوا: أإذا متنا وكنا تراباً وعظاماً أإنا لمبعوثون. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=23&tAyahNo=81&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 81 إلى 82 مقطعاً واحداً. يفسّر قوله «بَلْ قَالُواْ مِثْلَ مَا قَالَ ٱلأَوَّلُونَ»: ما اعتبر هؤلاء المشركون بآيات الله ولا تَدَبَّروا ما احتجّ عليهم من الحجج والدلالة على قدرته على فعل كلّ ما يشاء ولكن قالوا مثل ما قال أسلافهم من الأمم المكذّبة رسلها قبلهم. «قالُوا أئِذَا مِتْنا وكُنَّا تُرَاباً وَعِظاماً» يقول: أئذا متنا وعدنا ترابا قد بليت أجسامنا وبرأت عظامنا من لحومنا، «أئِنَّا لَمَبْعُوثُونَ» يقول: إنا لمبعوثون من قبورنا أحياء كهيئتنا قبل الممات؟ إن هذا لشيء غير كائن.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=23&tAyahNo=81&tDisplay=yes&UserProfile=0&LanguageId=1

@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-7-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن الله يأمر نبيه أن يدفع بالخلّة التي هي أحسن، وذلك الإغضاء والصفح عن جهلة المشركين والصبر على أذاهم، وكان هذا قبل أمره بحربهم. والسيئة ما يلقاه من أذاهم وتكذيبهم، ونحن أعلم بما يصفون. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=23&tAyahNo=96&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 96 إلى 98 مقطعاً واحداً. يفسّر قوله «ٱدْفَعْ بِٱلَّتِي هِيَ أَحْسَنُ ٱلسَّيِّئَةَ نَحْنُ أَعْلَمُ بِمَا يَصِفُونَ»: يقول تعالى ذكره لنبيه: ادفع يا محمد بالخَلَّة التي هي أحسن، وذلك الإغضاء والصفح عن جهلة المشركين والصبر على أذاهم، وذلك أمره إياه قبل أمره بحربهم. وعنى بالسيئة: أذى المشركين إياه وتكذيبهم له فيما أتاهم به من عند الله، يقول له تعالى ذكره: اصبر على ما تلقى منهم في ذات الله. وينقل في المقطع أقوالاً عن مجاهد والحسن وابن زيد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=23&tAyahNo=96&tDisplay=yes&UserProfile=0&LanguageId=1

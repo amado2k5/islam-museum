@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-7-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يعرض الطبري اختلاف أهل التأويل في معنى «حتى إذا فتحنا عليهم باباً ذا عذاب شديد»: فقيل هو باب القتال، فقُتلوا يوم بدر، وينقل ذلك عن ابن عباس، وقيل هو الجوع، فإذا هم فيه مبلسون، أي آيسون من كل خير. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=23&tAyahNo=77&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «حَتَّىٰ إِذَا فَتَحْنَا عَلَيْهِمْ بَاباً ذَا عَذَابٍ شَدِيدٍ إِذَا هُمْ فِيهِ مُبْلِسُونَ»: اختلف أهل التأويل في تأويل ذلك، فقال بعضهم: معناه: حتى إذا فتحنا عليهم باب القتال فقتلوا يوم بدر. وينقل في المقطع أقوالاً عن ابن عباس ومجاهد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=23&tAyahNo=77&tDisplay=yes&UserProfile=0&LanguageId=1

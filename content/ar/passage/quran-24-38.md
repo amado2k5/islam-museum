@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-7-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن الله يجزيهم أحسن ما عملوا ويزيدهم من فضله، والله يرزق من يشاء بغير حساب، فجزاؤهم على أحسن أعمالهم وزيادة من فضله فوق ما استحقوه. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=24&tAyahNo=38&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 38 إلى 40 مقطعاً واحداً. يفسّر قوله «فِي بُيُوتٍ أَذِنَ ٱللَّهُ أَن تُرْفَعَ وَيُذْكَرَ فِيهَا ٱسْمُهُ يُسَبِّحُ لَهُ فِيهَا بِٱلْغُدُوِّ وَٱلآصَالِ»: يعني تعالى ذكره بقوله: «فِي بُيُوتٍ أذِنَ اللّهُ أنْ تُرفَعَ» الله نور السموات والأرض، مَثَل نورِه كمشكاة فيها مصباح، في بيوت أذن الله أن ترفع. كما: قال ابن زيد: المِشكاة: التي فيها الفتيلة التي فيها المصباح. وقال: المصابيح في بيوت أذن الله أن ترفع. قال أبو جعفر: قد يحتمل أن تكون «من» في صلة «توقد»، فيكون المعنى: تُوقَد من شجرة مباركة ذلك المصباح في بيوت أذن الله أن ترفع. وعنى بالبيوت: المساجد. وقد اختلف أهل التأويل في ذلك، فقال بعضهم بالذي قلنا في ذلك. وينقل في المقطع أقوالاً عن ابن عباس ومجاهد والحسن وعكرمة وابن زيد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=24&tAyahNo=38&tDisplay=yes&UserProfile=0&LanguageId=1

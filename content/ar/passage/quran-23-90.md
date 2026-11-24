@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-7-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن الأمر ليس كما يزعم المشركون من أن الملائكة بنات الله وأن الآلهة والأصنام آلهة دون الله، بل أتاهم الله بالحق، وهو الدين الذي ابتعث به نبيه وهو الإسلام، وإن المشركين لكاذبون فيما يضيفون إلى الله وينحلونه. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=23&tAyahNo=90&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 90 إلى 92 مقطعاً واحداً. يفسّر قوله «بَلْ أَتَيْنَاهُمْ بِٱلْحَقِّ وَإِنَّهُمْ لَكَاذِبُونَ»: ما الأمر كما يزعم هؤلاء المشركون بالله من أن الملائكة بناتُ الله وأن الآلهة والأصنام آلهة دون الله. «بَلْ أتَيْناهُمْ بالْحَقِّ» اليقين، وهو الدين الذي ابتعث الله به نبيه، وذلك الإسلام، ولا يُعْبَد شيء سوى الله لأنه لا إله غيره. «وإنَّهُمْ لَكاذِبُونَ» يقول: وإن المشركين لكاذبون فيما يضيفون إلى الله ويَنْحَلُونه من الولد والشريك.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=23&tAyahNo=90&tDisplay=yes&UserProfile=0&LanguageId=1

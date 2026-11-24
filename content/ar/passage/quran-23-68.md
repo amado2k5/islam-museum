@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-7-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن المشركين لم يتدبروا تنزيل الله وكلامه فيعلموا ما فيه من العبر ويعرفوا حججه عليهم، أم جاءهم ما لم يأت آباءهم الأولين؟ وقد جاءت الرسل من قبلهم وأُنزلت معهم الكتب، ويحتمل أن تكون «أم» استفهاماً ثانياً. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=23&tAyahNo=68&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 68 إلى 70 مقطعاً واحداً. يفسّر قوله «أَفَلَمْ يَدَّبَّرُواْ ٱلْقَوْلَ أَمْ جَآءَهُمْ مَّا لَمْ يَأْتِ آبَآءَهُمُ ٱلأَوَّلِينَ»: أفلم يتدبر هؤلاء المشركون تنزيل الله وكلامه، فيعلموا ما فيه من العبر، ويعرفوا حجج الله التي احتجّ بها عليه فيه؟ «أمْ جاءَهُمْ ما لَمْ يَأتِ آباءَهُمُ الأَوَّلِينَ»؟ يقول: أم جاءهم أمر ما لم يأت من قبلهم من أسلافهم، فاستكبروا ذلك وأعرضوا، فقد جاءت الرسل من قبلهم، وأنزلت معهم الكتب. وقد يحتمل أن تكون «أم» في هذا الموضع بمعنى: «بل»، فيكون تأويل الكلام: أفلم يدبّروا القول؟ بل جاءهم ما لم يأت آباءهم الأوّلين، فتركوا لذلك التدبر وأعرضوا عنه، إذ لم يكن فيمن سلف من آبائهم ذلك. وينقل في المقطع أقوالاً عن ابن عباس وعكرمة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=23&tAyahNo=68&tDisplay=yes&UserProfile=0&LanguageId=1

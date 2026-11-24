@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-7-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن الله على أن يُري نبيه ما يعدهم لقادر، أي هو قادر على أن يريه عذابهم في حياته، فلا يعجزه شيء أراده بهم. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=23&tAyahNo=95&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 93 إلى 95 مقطعاً واحداً. يفسّر قوله «وَإِنَّا عَلَىٰ أَن نُّرِيَكَ مَا نَعِدُهُمْ لَقَادِرُونَ»: وإنا يا محمد على أن نريك في هؤلاء المشركين ما نعدهم من تعجيل العذاب لهم، لقادرون، فلا يَحْزُنَنَّك تكذيبهم إياك بما نعدهم به، وإنما نؤخر ذلك ليبلغ الكتاب أجله.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=23&tAyahNo=95&tDisplay=yes&UserProfile=0&LanguageId=1

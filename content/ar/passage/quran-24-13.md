@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-7-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إنه كان على هؤلاء العصبة الذين رموا عائشة أن يأتوا بأربعة شهداء، فإذا لم يأتوا بالشهداء الأربعة على حقيقة ما رموها به فالعصبة الذين رموها عند الله هم الكاذبون فيما جاؤوا به من الإفك. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=24&tAyahNo=13&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «لَّوْلاَ جَآءُوا عَلَيْهِ بِأَرْبَعَةِ شُهَدَآءَ فَإِذْ لَمْ يَأْتُواْ بِالشُّهَدَآءِ فَأُوْلَٰئِكَ عِندَ ٱللَّهِ هُمُ ٱلْكَاذِبُونَ»: هلا جاء هؤلاء العصبة الذين جاءوا بالإفك، ورمَوا عائشة بالبهتان، بأربعة شهداء يشهدون على مقالتهم فيها وما رَمَوها به فإذا لم يأتوا بالشهداء الأربعة على حقيقة ما رمَوْها به «فَأُولَئِكَ عِنْدَ اللّهِ هُمُ الكاذِبُونَ» يقول: فالعُصْبة الذين رَمَوها بذلك عند الله هم الكاذبون فيما جاءوا به من الإفك.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=24&tAyahNo=13&tDisplay=yes&UserProfile=0&LanguageId=1

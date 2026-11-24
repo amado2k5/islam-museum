@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-7-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يذكر الطبري أن الله يأمر نبيه أن يقول: ربّ أعوذ بك من همزات الشياطين، وهي نزغاتهم ووساوسهم، وأن يستعيذ بالله منها، فهو الذي يعصمه من وسوستهم. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=23&tAyahNo=97&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 96 إلى 98 مقطعاً واحداً. يفسّر قوله «وَقُلْ رَّبِّ أَعُوذُ بِكَ مِنْ هَمَزَاتِ ٱلشَّياطِينِ»: وقل يا محمد ربّ أستجير بك من خَنْق الشياطين وهمزاتها، والهَمْز: هو الغَمْز، ومن ذلك قيل للهمز في الكلام: هَمْزة، والهَمَزَات جمع همزة. وينقل في المقطع أقوالاً عن مجاهد والحسن وابن زيد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=23&tAyahNo=97&tDisplay=yes&UserProfile=0&LanguageId=1

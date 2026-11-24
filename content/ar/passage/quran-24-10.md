@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-7-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أنه لولا فضل الله على الناس ورحمته وأنه تواب حكيم في تدبيره لعاجلهم بالعقوبة على معاصيهم وفضح أهل الذنوب بذنوبهم، لكنه ستر عليهم وترك فضيحتهم رحمة وتفضلاً، فعليهم أن يشكروا نعمه وينتهوا عن معاصيه. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=24&tAyahNo=10&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَلَوْلاَ فَضْلُ ٱللَّهِ عَلَيْكُمْ وَرَحْمَتُهُ وَأَنَّ ٱللَّهَ تَوَّابٌ حَكِيمٌ»: ولولا فضل الله عليكم أيها الناس ورحمته بكم، وأنه عَوّاد على خلقه بلطفه وطَوْله، حكيم في تدبيره إياهم وسياسته لهم لعاجلكم بالعقوبة على معاصيكم وفضَح أهل الذنوب منكم بذنوبهم، ولكنه ستر عليكم ذنوبكم وترك فضيحتكم بها عاجلاً، رحمة منه بكم وتفضلاً عليكم، فاشكروا نعمه وانتهوا عن التقدّم عما عنه نهاكم من معاصيه. وترك الجواب في ذلك، اكتفاء بمعرفة السامع المراد منه.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=24&tAyahNo=10&tDisplay=yes&UserProfile=0&LanguageId=1

@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-7-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن الله أنزل علامات واضحات دالات على طريق الحق وسبيل الرشاد، والله يرشد من يشاء بتوفيقه فيهديه إلى دين الإسلام، وهو الصراط المستقيم والطريق القاصد الذي لا اعوجاج فيه. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=24&tAyahNo=46&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «لَّقَدْ أَنزَلْنَآ آيَاتٍ مُّبَيِّنَاتٍ وَٱللَّهُ يَهْدِي مَن يَشَآءُ إِلَىٰ صِرَاطٍ مُّسْتَقِيمٍ»: لقد أنزلنا أيُّها الناس علامات واضحات، دالاّت على طريق الحقّ، وسبيل الرشاد. «وَاللّهُ يَهْدِي مَنْ يَشاءُ إلى صِراطٍ مُسْتَقِيمٍ» يقول: والله يرشد من يشاء من خلقه بتوفيقه، فيهديه إلى دين الإسلام، وهو الصراط المستقيم والطريق القاصد الذي لا اعوجاج فيه.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=24&tAyahNo=46&tDisplay=yes&UserProfile=0&LanguageId=1

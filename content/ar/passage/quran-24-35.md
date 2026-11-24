@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-7-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن «الله نور السماوات والأرض» أي هادي من في السماوات والأرض فهم بنوره يهتدون ويعتصمون بهداه من حيرة الضلالة، وينقل عن ابن عباس. ويعرض اختلاف أهل التأويل في تأويل المثل: «مثل نوره كمشكاة فيها مصباح». {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=24&tAyahNo=35&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «ٱللَّهُ نُورُ ٱلسَّمَٰوَٰتِ وَٱلأَرْضِ مَثَلُ نُورِهِ كَمِشْكَاةٍ فِيهَا مِصْبَاحٌ ٱلْمِصْبَاحُ فِي زُجَاجَةٍ ٱلزُّجَاجَةُ كَأَنَّهَا كَوْكَبٌ دُرِّيٌّ يُوقَدُ مِن شَجَرَةٍ مُّبَارَكَةٍ زَيْتُونَةٍ لاَّ شَرْقِيَّةٍ وَلاَ غَرْبِيَّةٍ يَكَادُ زَيْتُهَا يُضِيۤءُ وَلَوْ لَمْ تَمْسَسْهُ نَارٌ نُّورٌ عَلَىٰ نُورٍ يَهْدِي ٱللَّهُ لِنُورِهِ مَن يَشَآءُ وَيَضْرِبُ ٱللَّهُ ٱلأَمْثَالَ لِلنَّاسِ وَٱللَّهُ بِكُلِّ شَيْءٍ عَلَيِمٌ»: يعني تعالى ذكره بقوله: «اللّهُ نُورُ السَّمَوَاتِ والأرْضِ» هادي من في السموات والأرض، فهم بنوره إلى الحقّ يهتدون وبهداه من حيرة الضلالة يعتصمون. واختلف أهل التأويل في تأويل ذلك، فقال بعضهم فيه نحو الذي قلنا. وينقل في المقطع أقوالاً عن ابن عباس ومجاهد والربيع.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=24&tAyahNo=35&tDisplay=yes&UserProfile=0&LanguageId=1

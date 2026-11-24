@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-7-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يذكر الطبري أن الله يعظ المؤمنين ويذكّرهم وينهاهم بآي كتابه لئلا يعودوا لمثل فعلهم في أمر عائشة أبداً، إن كانوا مؤمنين، أي إن كانوا يتعظون بعظات الله ويأتمرون لأمره وينتهون عما نهاهم عنه. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=24&tAyahNo=17&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «يَعِظُكُمُ ٱللَّهُ أَن تَعُودُواْ لِمِثْلِهِ أَبَداً إِن كُنتُمْ مُّؤْمِنِينَ»: يذكِّرُكم الله وينهاكم بآي كتابه، لئلا تعودوا لمثل فعلكم الذي فعلتموه في أمر عائشة من تلقِّيكم الإفك الذي رُوي عليها بألسنتكم، وقولكم بأفواهكم ما ليس لكم به علم فيها أبداً. «إنْ كُنْتُمْ مُؤْمِنِينَ» يقول: إن كنتم تتعظون بعظات الله وتأتمرون لأمره وتنتهون عما نهاكم عنه. وينقل في المقطع أقوالاً عن ابن زيد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=24&tAyahNo=17&tDisplay=yes&UserProfile=0&LanguageId=1

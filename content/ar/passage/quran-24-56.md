@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-7-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يذكر الطبري أن الله يأمر الناس بإقامة الصلاة بحدودها وإيتاء الزكاة وطاعة الرسول لعلهم يرحمون، ثم يقول لنبيه ألّا يحسبنّ الذين كفروا معجزين في الأرض، ومأواهم النار ولبئس المصير. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=24&tAyahNo=56&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 56 إلى 57 مقطعاً واحداً. يفسّر قوله «وَأَقِيمُواْ ٱلصَّلاَةَ وَآتُواْ ٱلزَّكَاةَ وَأَطِيعُواْ ٱلرَّسُولَ لَعَلَّكُمْ تُرْحَمُونَ»: «وأقيمُوا» أيها الناس «الصَّلاةَ» بحدودها فلا تضيعوها. «وآتُوا الزَّكاةَ» التي فرضها الله عليكم أهلها، وأطيعوا رسول ربكم فيما أمركم ونهاكم. «لَعَلَّكُمْ تُرْحَمُونَ» يقول: كي يرحمكم ربكم فينجيكم من عذابه، وقوله: «لا تَحْسَبنَّ الَّذِينَ كَفَرُوا مُعْجزِينَ فِي الأرْضِ» يقول تعالى ذكره: لا تحسبنّ يا محمد الذين كفروا بالله معجزيه في الأرض إذا أراد إهلاكهم. «ومأْوَاهُم» بعد هلاكهم «النَّارُ وَلَبِئْسَ المَصِيرُ» الذي يصيرون إليه ذلك المأوى. وقد كان بعضهم يقول: «لا يحسبنّ الذين كفروا» بالياء. وهو مذهب ضعيف عند أهل العربية وذلك أن «تحسب» محتاج إلى منصوبين.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=24&tAyahNo=56&tDisplay=yes&UserProfile=0&LanguageId=1

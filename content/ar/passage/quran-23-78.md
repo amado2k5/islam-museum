@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-7-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن الله هو الذي أنشأ للمكذبين بالبعث السمع والأبصار والأفئدة، فكيف يتعذر على من أنشأ ذلك ابتداءً أن يعيده بعد عدمه، وهو يوجده إذا شاء ويفنيه إذا أراد. قليلاً ما تشكرون، أي ما أقلّ شكركم على هذه النعم. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=23&tAyahNo=78&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَهُوَ ٱلَّذِيۤ أَنْشَأَ لَكُمُ ٱلسَّمْعَ وَٱلأَبْصَارَ وَٱلأَفْئِدَةَ قَلِيلاً مَّا تَشْكُرُونَ»: والله الذي أحدث لكم أيها المكذّبون بالبعث بعد الممات، السمع الذي تسمعون به، والأبصار التي تبصرون بها، والأفئدة التي تفقهون بها، فكيف يتعذّر على من أنشأ ذلك ابتداء عادته بعد عدمه وفقده، وهو الذي يوجد ذلك كله إذا شاء ويفنيه إذا أراد. «قَلِيلاً ما تَشْكُرُونَ» يقول: تشكرون أيها المكذّبون خبر الله من عطائكم السمع والأبصار والأفئدة قليلاً.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=23&tAyahNo=78&tDisplay=yes&UserProfile=0&LanguageId=1

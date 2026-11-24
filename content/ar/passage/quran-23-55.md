@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-7-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يذكر الطبري أن الله ينبّه المشركين على أن ما نمدّهم به من مال وبنين ليس مسارعة لهم في الخيرات بل استدراج، فيحسبون أن ذلك تعجيل لهم بالخير وهم لا يشعرون. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=23&tAyahNo=55&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 54 إلى 56 مقطعاً واحداً. يفسّر قوله «أَيَحْسَبُونَ أَنَّمَا نُمِدُّهُمْ بِهِ مِن مَّالٍ وَبَنِينَ»: أيحسب هؤلاء الأحزاب الذين فرقوا دينهم زُبُراً، أن الذي نعطيهم في عاجل الدنيا من مال وبنين «نُسارِعُ لَهُمْ» يقول: نسابق لهم في خيرات الآخرة، ونبادر لهم فيها؟ و «ما» من قوله: «أنَّمَا نُمِدُّهُمْ بهِ» نصب، لأنها بمعنى «الذي». «بَلْ لا يَشْعُرُونَ» يقول تعالى ذكره تكذيباً لهم: ما ذلك كذلك، بل لا يعلمون أن إمدادي إياهم بما أمدّهم به من ذلك، إنما هو إملاء واستدراج لهم. وينقل في المقطع أقوالاً عن مجاهد وابن زيد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=23&tAyahNo=55&tDisplay=yes&UserProfile=0&LanguageId=1

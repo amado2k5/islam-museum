@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-7-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن الذين بربهم لا يشركون، أي يخلصون عبادتهم لله فلا يجعلون فيها لغيره شركاً من وثن أو صنم، ولا يراؤون بعملهم أحداً من خلقه. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=23&tAyahNo=59&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 57 إلى 59 مقطعاً واحداً. يفسّر قوله «وَٱلَّذِينَ هُم بِرَبِّهِمْ لاَ يُشْرِكُونَ»: والذين يُخلصون لربهم عبادتهم، فلا يجعلون له فيها لغيره شركاً لوثَن ولا لصنم، ولا يُراءون بها أحداً من خلقه، ولكنهم يجعلون أعمالهم لوجهه خالصا، وإياه يقصدون بالطاعة والعبادة دون كل شيء سواه.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=23&tAyahNo=59&tDisplay=yes&UserProfile=0&LanguageId=1

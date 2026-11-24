@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-7-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن الله لو عمل بما يهوى هؤلاء المشركون وأجرى التدبير على مشيئتهم وترك الحق الذي هم له كارهون لفسدت السماوات والأرض ومن فيهن، لأنهم لا يعرفون عواقب الأمور ولا الصحيح من التدبير والفاسد، بل أتاهم الله بذكرهم فهم عن ذكرهم معرضون. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=23&tAyahNo=71&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَلَوِ ٱتَّبَعَ ٱلْحَقُّ أَهْوَآءَهُمْ لَفَسَدَتِ ٱلسَّمَٰوَٰتُ وَٱلأَرْضُ وَمَن فِيهِنَّ بَلْ أَتَيْنَاهُمْ بِذِكْرِهِمْ فَهُمْ عَن ذِكْرِهِمْ مُّعْرِضُونَ»: ولو عمل الربّ تعالى ذكره بما يهوَى هؤلاء المشركون وأجرى التدبير على مشيئتهم وإرادتهم وترك الحقّ الذي هم له كارهون، لفسدت السموات والأرض ومن فيهنّ وذلك أنهم لا يعرفون عواقب الأمور والصحيحَ من التدبير والفاسد. فلو كانت الأمور جارية على مشيئتهم وأهوائهم مع إيثار أكثرهم الباطل على الحقّ، لم تقرّ السموات والأرض ومن فيهنّ من خلق الله، لأن ذلك قام بالحقّ. وينقل في المقطع أقوالاً عن ابن عباس.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=23&tAyahNo=71&tDisplay=yes&UserProfile=0&LanguageId=1

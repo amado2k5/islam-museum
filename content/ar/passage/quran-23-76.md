@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-7-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يذكر الطبري أن الله أخذ المشركين بعذابه وأنزل بهم بأسه وضيّق عليهم معايشهم وأجدب بلادهم وقتل سراتهم بالسيف، فما استكانوا لربهم، أي ما خضعوا فينقادوا لأمره ويرجعوا إلى طاعته، وما يتضرعون، أي وما يتذللون له. ويذكر أن الآية نزلت حين أخذهم الله بالجدب. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=23&tAyahNo=76&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَلَقَدْ أَخَذْنَاهُمْ بِٱلْعَذَابِ فَمَا ٱسْتَكَانُواْ لِرَبِّهِمْ وَمَا يَتَضَرَّعُونَ»: ولقد أخذنا هؤلاء المشركين بعذابنا، وأنزلنا بهم بأسنا، وسخطنا وضيّقنا عليهم معايشهم، وأجدبنا بلادهم، وقتلنا سراتهم بالسيف. «فَمَا اسْتَكانُوا لِرَبِّهِمْ» يقول: فما خضعوا لربهم فينقادوا لأمره ونهيه ويُنيبوا إلى طاعته. «وَما يَتَضَرَّعُونَ» يقول: وما يتذللون له. وذُكر أن هذه الآية نزلت على رسول الله حين أخذ الله قريشاً بسني الجدب، دعا عليهم رسول الله. وينقل في المقطع أقوالاً عن ابن عباس والحسن.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=23&tAyahNo=76&tDisplay=yes&UserProfile=0&LanguageId=1
