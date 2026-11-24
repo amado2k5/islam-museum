@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-9-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يأمر الله نبيه أن يقول لأزواجه وبناته ونساء المؤمنين أن يدنين عليهن من جلابيبهن إذا خرجن لحاجتهن حتى لا يشبهن الإماء ولا يتعرض لهن فاسق بأذى، ثم يختلف أهل التأويل في صفة الإدناء، وكان الله غفوراً رحيماً. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=33&tAyahNo=59&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «يٰأَيُّهَا ٱلنَّبِيُّ قُل لأَزْوَاجِكَ وَبَنَاتِكَ وَنِسَآءِ ٱلْمُؤْمِنِينَ يُدْنِينَ عَلَيْهِنَّ مِن جَلاَبِيبِهِنَّ ذٰلِكَ أَدْنَىٰ أَن يُعْرَفْنَ فَلاَ يُؤْذَيْنَ وَكَانَ ٱللَّهُ غَفُوراً رَّحِيماً»: يا أيها النبيّ قل لأزواجك وبناتك ونساء المؤمنين، لا يتشبهن بالإماء في لباسهنّ إذا هن خرجن من بيوتهنّ لحاجتهنّ، فكشفن شعورهنّ ووجوههنّ، ولكن ليدنين عليهنّ من جلابيبهنّ، لئلا يعرض لهنّ فاسق، إذا علم أنهنّ حرائر بأذى من قول. ثم اختلف أهل التأويل في صفة الإدناء الذي أمرهنّ الله به، فقال بعضهم: هو أن يغطين وجوههنّ ورؤوسهنّ، فلا يبدين منهنّ إلا عيناً واحدة. وينقل في المقطع أقوالاً عن ابن عباس ومجاهد وقتادة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=33&tAyahNo=59&tDisplay=yes&UserProfile=0&LanguageId=1

@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-9-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يذكر الطبري اختلاف أهل التأويل في معنى «لا يحل لك النساء من بعد»: فقال بعضهم لا يحلّ لك النساء بعد نسائك اللاتي خيّرتهن فاخترن الله ورسوله والدار الآخرة، ولا أن تبدّل بهن أزواجاً ولو أعجبك حسنهن إلا ما ملكت يمينك، وكان الله على كل شيء رقيباً. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=33&tAyahNo=52&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «لاَّ يَحِلُّ لَكَ ٱلنِّسَآءُ مِن بَعْدُ وَلاَ أَن تَبَدَّلَ بِهِنَّ مِنْ أَزْوَاجٍ وَلَوْ أَعْجَبَكَ حُسْنُهُنَّ إِلاَّ مَا مَلَكَتْ يَمِينُكَ وَكَانَ ٱللَّهُ عَلَىٰ كُلِّ شَيْءٍ رَّقِيباً»: اختلف أهل التأويل في تأويل قوله تعالى: «لا يَحِلُّ لَكَ النِّساءُ مِنْ بَعْدُ» فقال بعضهم: معنى ذلك: لا يحلّ لك النساء من بعد نسائك اللاتي خيرتهنّ، فاخترن الله ورسوله والدار الآخرة. وينقل في المقطع أقوالاً عن ابن عباس وقتادة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=33&tAyahNo=52&tDisplay=yes&UserProfile=0&LanguageId=1

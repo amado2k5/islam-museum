@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-9-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن الذين يصدّقون بآيات الله هم من إذا ذُكّروا بها خرّوا سجداً تذللاً وإقراراً بالعبودية وسبّحوا بحمد ربهم منزّهين له عما يصفه الكافرون، وهم لا يستكبرون عن السجود والتسبيح، ويذكر قولاً في سبب نزولها. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=32&tAyahNo=15&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «إِنَّمَا يُؤْمِنُ بِآيَاتِنَا ٱلَّذِينَ إِذَا ذُكِّرُواْ بِهَا خَرُّواْ سُجَّداً وَسَبَّحُواْ بِحَمْدِ رَبِّهِمْ وَهُمْ لاَ يَسْتَكْبِرُونَ»: ما يصدق بحججنا وآيات كتابنا إلاَّ القوم الذين إذا ذكروا بها ووعظوا «خرّوا» لله «سجداً» لوجوههم، تذلُّلاً له، واستكانة لعظمته، وإقراراً له بالعبوديَّة «وَسَبَّحُوا بِحَمْدِ رَبِّهِمْ» يقول: وسبحوا الله في سجودهم بحمده، فيبرّؤونه مما يصفه أهل الكفر به، ويضيفون إليه من الصاحبة والأولاد والشركاء والأنداد «وَهُمْ لا يَسْتَكْبِرُونَ» يقول: يفعلون ذلك، وهم لا يستكبرون عن السجود له والتسبيح، لا يستنكفون عن التذلُّل له والاستكانة. وقيل: إن هذه الآية نزلت على رسول الله، لأن قوماً من المنافقين كانوا يخرجون من المسجد إذا أقيمت الصلاة، ذُكر ذلك عن حجاج، عن ابن جُرَيج.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=32&tAyahNo=15&tDisplay=yes&UserProfile=0&LanguageId=1

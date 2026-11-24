@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-8-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن هؤلاء الذين وصفت صفتهم على بيان من ربهم ونور، وأولئك هم المفلحون أي المنجحون المدركون ما رجوا وأملوا من ثواب ربهم يوم القيامة. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=31&tAyahNo=5&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «أُوْلَٰئِكَ عَلَىٰ هُدًى مِّن رَّبِّهِمْ وَأُوْلَٰئِكَ هُمُ ٱلْمُفْلِحُونَ»: هؤلاء الذين وصفت صفتهم على بيان من ربهم ونور «وأُولَئِكَ هُمُ المُفْلحونَ» يقول: وهؤلاء هم المنْجِحون المدركون ما رَجَوا وأملوا من ثواب ربهم يوم القيامة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=31&tAyahNo=5&tDisplay=yes&UserProfile=0&LanguageId=1

@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-9-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يذكر الطبري أن الله أخذ من النبيين ميثاقهم، ومن محمد ونوح وإبراهيم وموسى وعيسى ابن مريم، عهداً مؤكداً بأن يصدّق بعضهم بعضاً ويبلغوا رسالات ربهم، وأن ذلك كان في الكتاب مسطوراً. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=33&tAyahNo=7&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَإِذْ أَخَذْنَا مِنَ ٱلنَّبِيِّيْنَ مِيثَاقَهُمْ وَمِنْكَ وَمِن نُّوحٍ وَإِبْرَاهِيمَ وَمُوسَىٰ وَعِيسَى ٱبْنِ مَرْيَمَ وَأَخَذْنَا مِنْهُمْ مِّيثَاقاً غَلِيظاً»: كان ذلك في الكتاب مسطوراً، إذ كتبنا كلّ ما هو كائن في الكتاب «وَإذْ أخَذْنا مِنَ النَّبِيِّينَ مِيثاقَهُمْ» كان ذلك أيضاً في الكتاب مسطوراً، ويعني بالميثاق: العهد، وقد بيَّنا ذلك بشواهده فيما مضى قبل. «وَمِنْكَ» يا محمد «وَمِنْ نُوحٍ وإبْرَاهِيم وَمُوسَى وَعِيسَى ابنِ مَرْيَمَ، وأخَذْنا مِنْهُمْ مِيثاقاً غَلِيظاً» يقول: وأخذنا من جميعهم عهداً مؤكداً أن يصدّق بعضهم بعضا. وينقل في المقطع أقوالاً عن ابن عباس ومجاهد وقتادة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=33&tAyahNo=7&tDisplay=yes&UserProfile=0&LanguageId=1

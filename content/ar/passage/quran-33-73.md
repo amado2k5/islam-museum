@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-9-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن الإنسان حمل الأمانة ليعذّب الله المنافقين والمنافقات والمشركين والمشركات الذين أظهروا الطاعة وأسرّوا الكفر، ويتوب على المؤمنين والمؤمنات، وكان الله غفوراً رحيماً. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=33&tAyahNo=73&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «لِّيُعَذِّبَ ٱللَّهُ ٱلْمُنَافِقِينَ وَٱلْمُنَافِقَاتِ وَٱلْمُشْرِكِينَ وَٱلْمُشْرِكَاتِ وَيَتُوبَ ٱللَّهُ عَلَى ٱلْمُؤْمِنِينَ وَٱلْمُؤْمِنَاتِ وَكَانَ ٱللَّهُ غَفُوراً رَّحِيماً»: وحمل الإنسان الأمانة كيما يعذّب الله المنافقين فيها الذين يظهرون أنهم يؤدّون فرائض الله، مؤمنين بها، وهم مستسرّون الكفر بها، «والمنافقات والمشركين» بالله في عبادتهم إياه الآلهة والأوثان، «والمُشْرِكاتِ وَيَتُوبَ اللَّهُ على المُؤْمِنِينَ وَالمُؤْمِناتِ» يرجع بهم إلى طاعته، وأداء الأمانات التي ألزمهم إياها حتى يؤدّوها «وكانَ اللَّهُ غَفُوراً» لذنوب المؤمنين والمؤمنات، بستره عليها، وتركه عقابهم عليها «رَحِيماً» أن يعذّبهم عليها بعد توبتهم منها. وينقل في المقطع أقوالاً عن قتادة والحسن.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=33&tAyahNo=73&tDisplay=yes&UserProfile=0&LanguageId=1

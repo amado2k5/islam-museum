@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-9-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يذكر الطبري اختلاف أهل التأويل في معنى «ما جعل الله لرجل من قلبين في جوفه»: فقال بعضهم هو تكذيب لقوم من المنافقين زعموا أن للنبي قلبين فنفى الله ذلك، وقال آخرون غير ذلك، ثم يتناول الظهار والتبني وأن الله لم يجعل الأدعياء أبناءً. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=33&tAyahNo=4&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «مَّا جَعَلَ ٱللَّهُ لِرَجُلٍ مِّن قَلْبَيْنِ فِي جَوْفِهِ وَمَا جَعَلَ أَزْوَاجَكُمُ ٱللاَّئِي تُظَاهِرُونَ مِنْهُنَّ أُمَّهَاتِكُمْ وَمَا جَعَلَ أَدْعِيَآءَكُمْ أَبْنَآءَكُمْ ذَٰلِكُمْ قَوْلُكُم بِأَفْوَاهِكُمْ وَٱللَّهُ يَقُولُ ٱلْحَقَّ وَهُوَ يَهْدِي ٱلسَّبِيلَ»: اختلف أهل التأويل في المراد من قول الله «ما جَعَلَ اللّهُ لِرَجُلٍ مِنْ قَلْبَيْنِ فِي جَوْفِهِ» فقال بعضهم: عنى بذلك تكذيب قوم من أهل النفاق، وصفوا نبيّ الله بأنه ذو قلبين، فنفى الله ذلك عن نبيه، وكذّبهم. وينقل في المقطع أقوالاً عن ابن عباس ومجاهد وقتادة وعكرمة وسفيان.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=33&tAyahNo=4&tDisplay=yes&UserProfile=0&LanguageId=1

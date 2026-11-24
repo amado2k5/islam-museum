@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-9-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن ما يظهره الناس أو يخفونه من أذى للنبي أو نيّة تزوج زوجاته بعده، فإن الله بكل شيء عليم وهو مجازيهم على ذلك. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=33&tAyahNo=54&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «إِن تُبْدُواْ شَيْئاً أَوْ تُخْفُوهُ فَإِنَّ ٱللَّهَ كَانَ بِكُلِّ شَيْءٍ عَلِيماً»: إن تظهروا بألسنتكم شيئاً أيها الناس من مراقبة النساء، أو غير ذلك مما نهاكم عنه أو أذى لرسول الله بقول: لأتزوجنّ زوجته بعد وفاته، «أو تخفوه» يقول: أو تخفوا ذلك في أنفسكم، فإن الله كان بكل شيء عليماً، يقول: فإن الله بكل ذلك وبغيره من أموركم وأمور غيركم، عليم لا يخفى عليه شيء، وهو يجازيكم على جميع ذلك.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=33&tAyahNo=54&tDisplay=yes&UserProfile=0&LanguageId=1

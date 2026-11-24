@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-9-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن الحمد والشكر الكامل لله مالك ما في السماوات وما في الأرض، وله الحمد في الآخرة كما هو له في الدنيا لأن منه النعم كلها، وهو الحكيم الخبير. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=34&tAyahNo=1&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «ٱلْحَمْدُ للَّهِ ٱلَّذِي لَهُ مَا فِي ٱلسَّمَٰوَٰتِ وَمَا فِي ٱلأَرْضِ وَلَهُ ٱلْحَمْدُ فِي ٱلآخِرَةِ وَهُوَ ٱلْحَكِيمُ ٱلْخَبِيرُ»: الشكر الكامل، والحمد التامّ كله، للمعبود الذي هو مالك جميع ما في السموات السبع، وما في الأرَضين السبع دون كل ما يعبدونه، ودون كل شيء سواه، لا مالك لشيء من ذلك غيره فالمعنى: الذي هو مالك جميعه «وَلهُ الحَمْدُ فِي الآخِرَةِ» يقول: وله الشكر الكامل في الآخرة، كالذي هو له ذلك في الدنيا العاجلة، لأن منه النعم كلها على كل من في السموات والأرض في الدنيا، ومنه يكون ذلك في الآخرة، فالحمد لله خالصاً دون ما سواه في عاجل الدنيا، وآجل الآخرة، لأن النعم كلها من قِبله لا يُشركه فيها أحد من دونه، وهو الحكيم في تدبيره خلقه وصرفه إياهم في تقديره، خبير بهم وبما يصلحهم، وبما عملوا، وما هم عاملون، محيط بجميع ذلك. وينقل في المقطع أقوالاً عن قتادة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=34&tAyahNo=1&tDisplay=yes&UserProfile=0&LanguageId=1

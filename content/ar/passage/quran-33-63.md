@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-9-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن الناس يسألون النبي عن الساعة، فيأمره الله أن يقول إن علمها عند الله وحده، وما يدريك لعل الساعة تكون قريباً. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=33&tAyahNo=63&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «يَسْأَلُكَ ٱلنَّاسُ عَنِ ٱلسَّاعَةِ قُلْ إِنَّمَا عِلْمُهَا عِندَ ٱللَّهِ وَمَا يُدْرِيكَ لَعَلَّ ٱلسَّاعَةَ تَكُونُ قَرِيباً»: «يَسْألُكَ النَّاسُ» يا محمد «عَنِ السَّاعَةِ» متى هي قائمة؟ قلْ لهم: إنما علم الساعة «عنْدَ اللَّهِ» لا يعلم وقت قيامها غيره «وَما يُدْرِيكَ لَعَلَّ السَّاعَةَ تَكُونُ قَرِيباً» يقول: وما أشعرك يا محمد لعلّ قيام الساعة يكون منك قريباً، قد قرب وقت قيامها، ودنا حين مجيئها.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=33&tAyahNo=63&tDisplay=yes&UserProfile=0&LanguageId=1

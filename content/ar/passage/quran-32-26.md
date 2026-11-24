@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-9-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-تفسير الطبري لهذه الآية قصير: أولم يبيّن لهم كثرة من أهلكنا من القرون قبلهم وهم يمشون في مساكنهم، إن في ذلك لآيات، أفلا يسمعون؟ ويذكر بعد ذلك أقوالاً في معنى «يهد». {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=32&tAyahNo=26&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «أَوَلَمْ يَهْدِ لَهُمْ كَمْ أَهْلَكْنَا مِن قَبْلِهِمْ مِّنَ ٱلْقُرُونِ يَمْشُونَ فِي مَسَاكِنِهِمْ إِنَّ فِي ذَلِكَ لآيَاتٍ أَفَلاَ يَسْمَعُونَ»: أَوَ لم يبين لهم؟ كما: قال: ثني معاوية، عن عليّ، عن ابن عباس «أوَ لَمْ يَهْدِ لَهُمْ» يقول: أو لم يبين لهم. وعلى القراءة بالياء في ذلك قرّاء الأمصار، وكذلك القراءة عندنا لإجماع الحجة من القرّاء، بمعنى: أو لم يبين لهم إهلاكنا القرون الخالية من قبلهم، سنتنا فيمن سلك سبيلهم من الكفر بآياتنا، فيتعظوا وينزجروا. وقوله «كَمْ» إذا قُرىء «يهْدِ» بالياء، في موضع رفع بيهد. وأما إذا قرىء ذلك بالنون «أوَ لَمْ نَهْدِ» فإن موضع «كم» وما بعدها نصب. وقوله: «يَمْشونَ فِي مَساكِنهمْ» يقول تعالى ذكره: أو لم يبين لهن كثرة إهلاكنا القرون الماضية من قبلهم يمشون في بلادهم وأرضهم، كعاد وثمود. وينقل في المقطع أقوالاً عن ابن عباس وقتادة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=32&tAyahNo=26&tDisplay=yes&UserProfile=0&LanguageId=1

@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-9-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إنه لا أحد أظلم لنفسه ممن وعظه الله بآياته ثم أعرض واستكبر عنها، وأن الله من المجرمين منتقم، ويذكر قولاً أن المقصود بالمجرمين أهل القدر. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=32&tAyahNo=22&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَمَنْ أَظْلَمُ مِمَّن ذُكِّرَ بِآيَاتِ رَبِّهِ ثُمَّ أَعْرَضَ عَنْهَآ إِنَّا مِنَ ٱلْمُجْرِمِينَ مُنتَقِمُونَ»: وأيّ الناس أظلم لنفسه ممن وعظه الله بحججه، وآي كتابه ورسله، ثم أعرض عن ذلك كله، فلم يتعظ بمواعظه، ولكنه استكبر عنها. وقوله «إنَّا مِنَ المُجْرِمِينَ مُنْتَقِمُونَ» يقول: إنا من الذين اكتسبوا الآثام، واجترحوا السيئات منتقمون. وكان بعضهم يقول: عنى بالمجرمين في هذا الموضع: أهل القدر.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=32&tAyahNo=22&tDisplay=yes&UserProfile=0&LanguageId=1

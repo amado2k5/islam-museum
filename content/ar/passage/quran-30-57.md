@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-8-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن يوم يُبعثون من قبورهم لا ينفع الذين ظلموا معذرتهم، وهي قولهم ما علمنا أنه يكون ولا أنا نُبعث، ولا هم يُستعتبون أي لا يُسترجعون يومئذ عما كانوا يكذّبون به في الدنيا. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=30&tAyahNo=57&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «فَيَوْمَئِذٍ لاَّ ينفَعُ ٱلَّذِينَ ظَلَمُواْ مَعْذِرَتُهُمْ وَلاَ هُمْ يُسْتَعْتَبُونَ»: فيوم يبعثون من قبورهم «لا يَنْفَعُ الَّذِينَ ظَلَمُوا مَعْذِرَتُهُمْ» يعني المكذّبين بالبعث في الدنيا معذرتهم، وهو قولهم: ما علمنا أنه يكون، ولا أنا نُبعث. «وَلا هُمْ يُسْتَعْتَبُونَ» يقول: ولا هؤلاء الظلمة يُستَرجعون يومئذٍ عما كانوا يكذّبون به في الدنيا.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=30&tAyahNo=57&tDisplay=yes&UserProfile=0&LanguageId=1

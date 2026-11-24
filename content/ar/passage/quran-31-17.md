@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-8-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن لقمان قال لابنه أقم الصلاة بحدودها وأمر بالمعروف أي أمر الناس بطاعة الله وانه عن المنكر أي عن معاصي الله، واصبر على ما أصابك من الناس في ذات الله إذا أمرتهم ونهيتهم، ولا يصدّنك عن ذلك، إن ذلك من عزم الأمور. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=31&tAyahNo=17&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «يٰبُنَيَّ أَقِمِ ٱلصَّلاَةَ وَأْمُرْ بِٱلْمَعْرُوفِ وَٱنْهَ عَنِ ٱلْمُنْكَرِ وَٱصْبِرْ عَلَىٰ مَآ أَصَابَكَ إِنَّ ذَلِكَ مِنْ عَزْمِ ٱلأُمُورِ»: يقول تعالى ذكره مخبراً عن قيل لقمان لابنه «يا بُنَيَّ أقِمِ الصَّلاةَ» بحدودها «وأمُرْ بالمَعْرُوفِ» يقول: وأمر الناس بطاعة الله، واتباع أمره «وَانْهَ عَنِ المُنْكَرِ» يقول: وانه الناس عن معاصي الله ومواقعة محارمه «وَاصْبِرْ عَلى ما أصَابَكَ» يقول: واصبر على ما أصابك من الناس في ذات الله إذا أنت أمرتهم بالمعروف، ونهيتهم عن المنكر، ولا يصدّنك عن ذلك ما نالك منهم «إنَّ ذلكَ مِنْ عَزْمِ الأمُورِ» يقول: إن ذلك مما أمر الله به من الأمور عزماً منه. وبنحو ما قلنا في ذلك قال أهل التأويل.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=31&tAyahNo=17&tDisplay=yes&UserProfile=0&LanguageId=1

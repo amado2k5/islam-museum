@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-9-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن محمداً لم يكن أبا زيد بن حارثة ولا أبا أحد من الرجال، فلا يحرم عليه نكاح زوجة من تبنّاه، ولكنه رسول الله وخاتم النبيين الذي ختم النبوة، وكان الله بكل شيء عليماً. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=33&tAyahNo=40&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «مَّا كَانَ مُحَمَّدٌ أَبَآ أَحَدٍ مِّن رِّجَالِكُمْ وَلَٰكِن رَّسُولَ ٱللَّهِ وَخَاتَمَ ٱلنَّبِيِّينَ وَكَانَ ٱللَّهُ بِكُلِّ شَيْءٍ عَلِيماً»: ما كان أيها الناس محمد أبا زيد بن حارثة، ولا أبا أحد من رجالكم، الذين لم يلده محمد، فيحرم عليه نكاح زوجته بعد فراقه إياها، ولكنه رسول الله وخاتم النبيين، الذي ختم النبوّة فطبع عليها، فلا تفتح لأحد بعده إلى قيام الساعة، وكان الله بكل شيء من أعمالكم ومقالكم وغير ذلك ذا علم لا يخفى عليه شيء. وينقل في المقطع أقوالاً عن قتادة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=33&tAyahNo=40&tDisplay=yes&UserProfile=0&LanguageId=1

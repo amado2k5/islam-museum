@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-9-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يفسّر الطبري أن الله لو شاء لآتى كل نفس رشدها وتوفيقها للإيمان، ولكن حق القول منه ووجب العذاب لأهل الكفر والمعاصي ليملأن جهنم من الجنة والناس أجمعين، ثم يذكر مرويات أهل التأويل في ذلك. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=32&tAyahNo=13&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَلَوْ شِئْنَا لآتَيْنَا كُلَّ نَفْسٍ هُدَاهَا وَلَٰكِنْ حَقَّ ٱلْقَوْلُ مِنِّي لأَمْلأَنَّ جَهَنَّمَ مِنَ ٱلْجِنَّةِ وَٱلنَّاسِ أَجْمَعِينَ»: «وَلَوْ شِئْنَا» يا محمد «لآتَيْنَا» هؤلاء المشركين بالله من قومك وغيرهم من أهل الكفر بالله «هُدَاهَا» يعني: رشدها وتوفيقها للإيمان بالله «وَلَكِنْ حَقَّ القَوْلُ مِنِّي» يقول: وجب العذاب مني لهم، وقوله «لأَمْلأَنَّ جَهَنَّمَ منَ الجِنَّة والنَّاسِ أجمَعِينَ» يعني من أهل المعاصي والكفر بالله منهم. وينقل في المقطع أقوالاً عن قتادة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=32&tAyahNo=13&tDisplay=yes&UserProfile=0&LanguageId=1

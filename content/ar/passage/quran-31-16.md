@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-8-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يذكر الطبري اختلاف أهل العربية في الهاء في «إنها»: فقال نحويو البصرة هي كناية عن المعصية والخطيئة، وقال نحويو الكوفة هي هاء عماد، وأُنّث «تك» لأنه يراد بها الحبة، ثم المعنى أن المعصية إن كانت مثقال حبة من خردل في صخرة أو في السماوات أو في الأرض يأت بها الله، إن الله لطيف خبير. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=31&tAyahNo=16&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «يٰبُنَيَّ إِنَّهَآ إِن تَكُ مِثْقَالَ حَبَّةٍ مِّنْ خَرْدَلٍ فَتَكُنْ فِي صَخْرَةٍ أَوْ فِي ٱلسَّمَٰوَٰتِ أَوْ فِي ٱلأَرْضِ يَأْتِ بِهَا ٱللَّهُ إِنَّ ٱللَّهَ لَطِيفٌ خَبِيرٌ»: اختلف أهل العربية في معنى الهاء والألف اللتين في قوله «إنَّها» فقال بعض نحويي البصرة: ذلك كناية عن المعصية والخطيئة. ومعنى الكلام عنده: يا بنيّ إن المعصية إن تك مثقال حبة من خردل، أو إن الخطيئة. وقال بعض نحويي الكوفة: وهذه الهاء عماد. وينقل في المقطع أقوالاً عن ابن عباس والأعمش.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=31&tAyahNo=16&tDisplay=yes&UserProfile=0&LanguageId=1

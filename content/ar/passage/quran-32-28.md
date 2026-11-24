@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-9-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يذكر الطبري أن المشركين يسألون النبي متى هذا الفتح، ويختلف في معناه: فقيل هو الحكم بينهم يوم القيامة، وقيل هو الفتح بالنصر. فيأمر الله نبيه أن يقول لهم إن يوم الفتح لا ينفع الذين كفروا إيمانهم ولا هم ينظرون، وأن يعرض عنهم وينتظر فإنهم منتظرون. وهذا التفسير مشترك بين الآيات 28 إلى 30. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=32&tAyahNo=28&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 28 إلى 30 مقطعاً واحداً. يفسّر قوله «وَيَقُولُونَ مَتَىٰ هَٰذَا ٱلْفَتْحُ إِن كُنتُمْ صَادِقِينَ»: «وَيَقُولُونَ» هؤلاء المشركون بالله يا محمد لك «مَتى هَذَا الْفَتْحُ». واختلف في معنى ذلك، فقال بعضهم: معناه: متى يجيء هذا الحكم بيننا وبينكم، ومتى يكون هذا الثواب والعقاب. وينقل في المقطع أقوالاً عن مجاهد وقتادة وابن زيد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=32&tAyahNo=28&tDisplay=yes&UserProfile=0&LanguageId=1

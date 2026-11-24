@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-8-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن هذا الذي عدّده الله خلقه، فيقول للمشركين أروني ماذا خلق الذين من دونه من آلهتكم وأصنامكم حتى استحقت العبادة فعبدتموها كما استحقها خالقكم، بل الظالمون في ضلال مبين. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=31&tAyahNo=11&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «هَٰذَا خَلْقُ ٱللَّهِ فَأَرُونِي مَاذَا خَلَقَ ٱلَّذِينَ مِن دُونِهِ بَلِ ٱلظَّالِمُونَ فِي ضَلاَلٍ مُّبِينٍ»: هذا الذي أعددت عليكم أيها الناس أني خلقته في هذه الآية خلق الله الذي له ألوهة كل شيء، وعبادة كل خلق، الذي لا تصلح العبادة لغيره، ولا تنبغي لشيء سواه، فأروني أيها المشركون في عبادتكم إياه مَن دونه من الآلهة والأوثان، أيّ شيء خلق الذين من دونه من آلهتكم وأصنامكم، حتى استحقت عليكم العبادة فعبدتموها من دونه، كما استحقّ ذلك عليكم خالقكم، وخالق هذه الأشياء التي عددتها عليكم.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=31&tAyahNo=11&tDisplay=yes&UserProfile=0&LanguageId=1

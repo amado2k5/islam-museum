@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-9-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن علم الساعة عند الله وحده فلا يعلم أحد متى تأتي وأنها تأتي بغتة، وأن الله ينزّل الغيث ويعلم ما في الأرحام، وأن النفس لا تدري ماذا تكسب غداً ولا بأي أرض تموت، وأن الله عليم خبير. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=31&tAyahNo=34&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «إِنَّ ٱللَّهَ عِندَهُ عِلْمُ ٱلسَّاعَةِ وَيُنَزِّلُ ٱلْغَيْثَ وَيَعْلَمُ مَا فِي ٱلأَرْحَامِ وَمَا تَدْرِي نَفْسٌ مَّاذَا تَكْسِبُ غَداً وَمَا تَدْرِي نَفْسٌ بِأَيِّ أَرْضٍ تَمُوتُ إِنَّ ٱللَّهَ عَلَيمٌ خَبِيرٌ»: «يا أيُّها النَّاسُ اتَّقُوا رَبَّكُمْ، وَاخْشَوْا يَوْما لا يَجْزِي وَالدٌ عَنْ وَلَدِهِ، وَلا مَوْلُودٌ هُوَ جازٍ عَنْ وَالِدِهِ شَيْئاً» هو آتيكم علم إتيانه إياكم عند ربكم، لا يعلم أحد متى هو جائيكم، لا يأتيكم إلاَّ بغتة، فاتقوه أن يفجأكم بغتة، وأنتم على ضلالتكم لم تنيبوا منها، فتصيروا من عذاب الله وعقابه إلى ما لا قِبل لكم به وابتدأ تعالى ذكره الخبر عن علمه بمجيء الساعة. وينقل في المقطع أقوالاً عن مجاهد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=31&tAyahNo=34&tDisplay=yes&UserProfile=0&LanguageId=1

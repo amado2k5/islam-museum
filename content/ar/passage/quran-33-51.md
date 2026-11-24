@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-9-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يذكر الطبري اختلاف أهل التأويل في معنى «ترجي من تشاء منهن وتؤوي إليك من تشاء»: فقال بعضهم ترجي تؤخّر وتؤوي تضمّ، في أمر القسم بين الزوجات، وقيل في أمر الواهبات أنفسهن، ويبيّن أن ذلك أقرب إلى أن تقرّ أعينهن ولا يحزنّ ويرضين بما آتيتهن كلهن. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=33&tAyahNo=51&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «تُرْجِي مَن تَشَآءُ مِنْهُنَّ وَتُؤْوِيۤ إِلَيْكَ مَن تَشَآءُ وَمَنِ ٱبْتَغَيْتَ مِمَّنْ عَزَلْتَ فَلاَ جُنَاحَ عَلَيْكَ ذَلِكَ أَدْنَىٰ أَن تَقَرَّ أَعْيُنُهُنَّ وَلاَ يَحْزَنَّ وَيَرْضَيْنَ بِمَآ آتَيْتَهُنَّ كُلُّهُنَّ وَٱللَّهُ يَعْلَمُ مَا فِي قلُوبِكُمْ وَكَانَ ٱللَّهُ عَلِيماً حَلِيماً»: اختلف أهل التأويل في تأويل قوله: «تُرْجِي مَنْ تَشاءُ مِنْهُنَّ وَتُؤْوي إلَيْكَ مَنْ تَشاءُ» فقال بعضهم: عنى بقوله: ترجي: تؤخِّر، وبقوله: تؤْوي: تضمّ. وينقل في المقطع أقوالاً عن ابن عباس ومجاهد وقتادة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=33&tAyahNo=51&tDisplay=yes&UserProfile=0&LanguageId=1

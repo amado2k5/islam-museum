@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-9-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يفسّر الطبري أن الله آتى داود منه فضلاً وقال للجبال أوّبي معه أي سبّحي معه، ويشرح معنى التأويب في اللغة، وأن الطير سُخّرت له كذلك وأن الحديد ألانه الله له أن اعمل سابغات وقدّر في السرد واعملوا صالحاً إني بما تعملون بصير. وهذا التفسير مشترك بين الآيتين 10 و11. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=34&tAyahNo=10&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 10 إلى 11 مقطعاً واحداً. يفسّر قوله «وَلَقَدْ آتَيْنَا دَاوُودَ مِنَّا فَضْلاً يٰجِبَالُ أَوِّبِي مَعَهُ وَٱلطَّيْرَ وَأَلَنَّا لَهُ ٱلْحَدِيدَ»: ولقد أعطينا داود منا فضلاً، وقلنا للجبال: «أوّبِي مَعَهُ»: سبحي معه إذا سبح. والتأويب عند العرب: الرجوع، ومبيت الرجل في منزله وأهله ومنه قول الشاعر:يَوْمانِ يَوْمُ مَقاماتٍ وأنْدِيَةٍ وَيَوْمُ سَيْرٍ إلى الأعْدَاءِ تَأوِيبِ أي رجوع. وقد كان بعضهم يقرؤه: «أُوْبِي مَعَهُ» من آب يؤوب، بمعنى: تصرّفي معه وتلك قراءة لا أستجيز القراءة بها لخلافها قراءة الحجة. وينقل في المقطع أقوالاً عن ابن عباس ومجاهد وقتادة والضحاك وابن زيد وعطاء.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=34&tAyahNo=10&tDisplay=yes&UserProfile=0&LanguageId=1

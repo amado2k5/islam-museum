@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-9-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن الجن كانوا يعملون لسليمان ما يشاء من محاريب، وهي مقدم المساجد والبيوت، وتماثيل وجفان كالجواب وقدور راسيات، ويأمر الله آل داود بالشكر وقليل من عباده الشكور. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=34&tAyahNo=13&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «يَعْمَلُونَ لَهُ مَا يَشَآءُ مِن مَّحَارِيبَ وَتَمَاثِيلَ وَجِفَانٍ كَٱلْجَوَابِ وَقُدُورٍ رَّاسِيَاتٍ ٱعْمَلُوۤاْ آلَ دَاوُودَ شُكْراً وَقَلِيلٌ مِّنْ عِبَادِيَ ٱلشَّكُورُ»: يعني تعالى ذكره: يعمل الجنّ لسليمان ما يشاء من محاريب، وهي جمع محراب، والمحراب: مقدّم كل مسجد وبيت ومصلًّى ومنه قول عديّ بن زيد:كَدُمَى العاجِ فِي المَحارِيبِ أوْ كالْ بَيضِ في الرَّوْضِ زَهْرُهُ مُسْتَنِيرُ وينقل في المقطع أقوالاً عن ابن عباس ومجاهد وقتادة والضحاك والحسن وابن زيد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=34&tAyahNo=13&tDisplay=yes&UserProfile=0&LanguageId=1
