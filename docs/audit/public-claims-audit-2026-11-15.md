@@ -29,12 +29,12 @@ once, not on the audit date), **UNVERIFIED** (the auditor could not find the evi
 
 ## 1. The measured state
 
-Measured at `4d7e90a131 2026-11-24` by `python3 scripts/report/claims_audit.py`. Counts are pattern matches over `data/`.
+Measured at `bbad2968bc 2026-11-24` by `python3 scripts/report/claims_audit.py`. Counts are pattern matches over `data/`.
 
 | Measure | Count | Share |
 |---|---|---|
-| Record files under `data/` (content + source) | 88,830 | |
-| Source (bibliography) records | 12,006 | 13.5% of all |
+| Record files under `data/` (content + source) | 88,833 | |
+| Source (bibliography) records | 12,009 | 13.5% of all |
 | ... of type book, chapter, manuscript or thesis | 894 | 7.4% of sources |
 | ... Wikipedia or Wikidata pages | 7,704 | 64.2% of sources |
 | Content records (everything but sources) | 76,824 | |
@@ -260,3 +260,4 @@ Append a dated line for every re-run, correction or closed row. Never rewrite an
 - 2026-11-18: section 1 measure and by-class tables re-measured with `python3 scripts/report/claims_audit.py` after part 2 of category 11 of the 210-book list. (Devin, run ulama-books210-cat11b)
 - 2026-11-24: section 1 measure and by-class tables re-measured with `python3 scripts/report/claims_audit.py` after part 1 of category 12 of the 210-book list. (Devin, run ulama-books210-cat12a)
 - 2026-11-24: section 1 measure and by-class tables re-measured with `python3 scripts/report/claims_audit.py` after part 2 of category 12 of the 210-book list. (Devin, run ulama-books210-cat12b)
+- 2026-11-24: section 1 measure and by-class tables re-measured with `python3 scripts/report/claims_audit.py` after article batch 1 of the 210-book list. (Devin, run ulama-books210-art1a)
