@@ -92,6 +92,7 @@ Catatan di museum terhubung ke bagian ini: [[event/battle-of-the-trench|Pertempu
 - Ia menceritakan bahwa rumor yang bocor bahwa Banu Qurayza, di dalam kota dan di antara mereka dengan Nabi, telah melanggar perjanjian yang telah mereka langgar dan akan masuk dari belakang. {cite:podcast-ahmed-el-sayed seerah-lilmuslihin/ep23}
 - Perlu disebutkan bahwa bahaya adalah perempuan Muslim dan rumah mereka tanpa penghalang, dan para musyrik dapat menyeberangi parit saat tentara diduduki. {cite:podcast-ahmed-el-sayed seerah-lilmuslihin/ep23}
 - Diceritakan bahwa Nabi mengirim al-Zubayr ibn al-Awwam untuk memastikan, dan ia kembali untuk memberitahukan bahwa Al-Quraiyah memang telah mengkhianati. {cite:podcast-ahmed-el-sayed seerah-lilmuslihin/ep23}
+- Ia mengatakan bahwa Banu Qurayza berkhianat pada saat tersulit bagi kaum Muslim. {cite:podcast-ahmed-el-sayed seerah-lilmuslihin/ep23}
 
 Ini adalah pendapat dosen; museum mengaitkannya kepadanya tetapi tidak mengadopsinya.
 

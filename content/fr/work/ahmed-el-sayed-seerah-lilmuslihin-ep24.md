@@ -41,6 +41,7 @@ Notices du musée liées à cette partie: [[person/jibril|Jibril (Gabriel)]], [[
 
 - Il dit que les demeures des Banu Qurayza se trouvent aujourd'hui dans la Médine bâtie, à quelques kilomètres au sud de la mosquée de Quba. {cite:podcast-ahmed-el-sayed seerah-lilmuslihin/ep24}
 - Il dit que le Prophète partit avec environ trois mille combattants et les assiégea devant leurs forts. {cite:podcast-ahmed-el-sayed seerah-lilmuslihin/ep24}
+- Il dit que les Banu Qurayza s'appuyaient sur des forts, et donne ceux de Khaybar comme l'exemple conservé le plus clair. {cite:podcast-ahmed-el-sayed seerah-lilmuslihin/ep24}
 
 C'est le point de vue du conférencier ; le musée le rapporte comme le sien et ne l'adopte pas.
 
@@ -60,7 +61,7 @@ Notices du musée liées à cette partie: [[event/siege-of-banu-qurayza|Le sièg
 - Il relate que les gens de Sa'd le portèrent et tentèrent de le convaincre d'être clément à cause de leur ancienne alliance, et que, dans un récit, Sa'd répondit qu'aucun blâme ne le détournerait quand il s'agissait de Dieu. {cite:podcast-ahmed-el-sayed seerah-lilmuslihin/ep24}
 - Il relate que, lorsque Sa'd approcha, le Prophète dit à ceux qui l'entouraient de se lever pour leur chef, en signe d'honneur. {cite:podcast-ahmed-el-sayed seerah-lilmuslihin/ep24}
 - Il dit que Sa'd jugea que leurs combattants seraient tués et leurs enfants faits captifs, et que le Prophète dit qu'il avait jugé selon le jugement de Dieu, une version disant par-dessus sept cieux. {cite:podcast-ahmed-el-sayed seerah-lilmuslihin/ep24}
-- Il relate que des fossés furent creusés à Médine, que les combattants y furent amenés et exécutés, et il décrit cela comme la fin des intrigues et de la trahison des Juifs dans la ville. {cite:podcast-ahmed-el-sayed seerah-lilmuslihin/ep24}
+- Il relate que des fossés furent creusés à Médine, que les combattants y furent amenés et exécutés, et il décrit cela comme la fin des intrigues et de la trahison des Banu Qurayza dans la ville. {cite:podcast-ahmed-el-sayed seerah-lilmuslihin/ep24}
 - Il note que les Banu Qurayza avaient déjà trahi une fois et avaient été pardonnés, et il tient que cette seconde trahison ne laissait plus de place au pardon. {cite:podcast-ahmed-el-sayed seerah-lilmuslihin/ep24}
 
 C'est le point de vue du conférencier ; le musée le rapporte comme le sien et ne l'adopte pas.

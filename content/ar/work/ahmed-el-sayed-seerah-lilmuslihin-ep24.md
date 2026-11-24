@@ -41,6 +41,7 @@ translators: []
 
 - يذكر أن ديار بني قريظة صارت اليوم داخل عمران المدينة، وتقع جنوب مسجد قباء بأربعة كيلومترات أو خمسة. {cite:podcast-ahmed-el-sayed seerah-lilmuslihin/ep24}
 - يذكر أن النبي خرج بنحو ثلاثة آلاف مقاتل وحاصرهم عند حصونهم. {cite:podcast-ahmed-el-sayed seerah-lilmuslihin/ep24}
+- يقول إن بني قريظة اعتمدوا على الحصون، ويعدّ حصون خيبر أوضح مثال باقٍ. {cite:podcast-ahmed-el-sayed seerah-lilmuslihin/ep24}
 
 هذا رأي المحاضر، ينقله المتحف منسوبًا إليه ولا يتبناه.
 
@@ -60,7 +61,7 @@ translators: []
 - يروي أن قوم سعد حملوه وحاولوا إقناعه بالتخفيف بسبب الحلف القديم، وأنه أجاب في رواية بأنه لا تأخذه في الله لومة لائم. {cite:podcast-ahmed-el-sayed seerah-lilmuslihin/ep24}
 - يروي أن النبي لما اقترب سعد قال لمن حوله أن يقوموا إلى سيدهم، تكريمًا له. {cite:podcast-ahmed-el-sayed seerah-lilmuslihin/ep24}
 - يذكر أن سعدًا حكم بقتل مقاتلتهم وسبي ذراريهم، وأن النبي قال إنه حكم بحكم الله، وفي رواية من فوق سبع سماوات. {cite:podcast-ahmed-el-sayed seerah-lilmuslihin/ep24}
-- يروي أنه حفرت خنادق في المدينة وجيء بالمقاتلين فضربت أعناقهم، ويصف ذلك بأنه أنهى كيدهم وغدرهم في المدينة. {cite:podcast-ahmed-el-sayed seerah-lilmuslihin/ep24}
+- يروي أنه حفرت خنادق في المدينة وجيء بالمقاتلين فضربت أعناقهم، ويصف ذلك بأنه أنهى كيد بني قريظة وغدرهم في المدينة. {cite:podcast-ahmed-el-sayed seerah-lilmuslihin/ep24}
 - يذكر أن بني قريظة غدروا قبل ذلك فعفا عنهم النبي، ويرى أن الغدر الثاني لم يبق معه مجال للعفو. {cite:podcast-ahmed-el-sayed seerah-lilmuslihin/ep24}
 
 هذا رأي المحاضر، ينقله المتحف منسوبًا إليه ولا يتبناه.
