@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-8-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري الآيات 18 إلى 19 معاً في موضع واحد. يبيّن الطبري أن في الكلام محذوفاً دلّ عليه الظاهر، وهو أن موسى وهارون أبلغا فرعون الرسالة، فقال لموسى: ألم نربّك فينا وليداً ولبثت فينا سنين من عمرك، وفعلت فعلتك التي فعلت، يعني قتله القبطي، وأنت من الكافرين. وينقل عن مجاهد في فعلتك أنها قتل النفس. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=26&tAyahNo=19&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 18 إلى 19 مقطعاً واحداً. يفسّر قوله «وَفَعَلْتَ فَعْلَتَكَ ٱلَّتِي فَعَلْتَ وَأَنتَ مِنَ ٱلْكَافِرِينَ»: قال فعلتها إذاً وأنا من الضالين. وقال: قتل النفس. وقال: ثني حجاج، عن ابن جُرَيج، عن مجاهد، مثله. وإنما قيل «وَفَعَلْتَ فَعْلَتَكَ» لأنها مرّة واحدة، ولا يجوز كسر الفاء إذا أريد بها هذا المعنى. وذُكر عن الشعبي أنه قرأ ذلك: «وَفَعَلْتَ فِعْلَتَكَ» بكسر الفاء، وهي قراءة لقرّاءة القرّاء من أهل الأمصار مخالفة. وقوله: «وأنْتَ مِنَ الكافِرِينَ» اختلف أهل التأويل في تأويل ذلك، فقال بعضهم: معنى ذلك: وأنت من الكافرين بالله على ديننا. وينقل في المقطع أقوالاً عن ابن عباس ومجاهد وابن زيد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=26&tAyahNo=19&tDisplay=yes&UserProfile=0&LanguageId=1

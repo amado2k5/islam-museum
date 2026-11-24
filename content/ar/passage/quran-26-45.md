@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-8-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري الآيات 45 إلى 48 معاً في موضع واحد. يقول الطبري إن موسى ألقى عصاه فإذا هي تبتلع ما يأفكون من الفرية والسحر الذي لا حقيقة له، وإنما هو خدعة وتخييل، فلما تبيّن للسحرة أن ما جاء به حق وأن لا يقدر عليه إلا الله خرّوا ساجدين مذعنين، وقالوا آمنا برب العالمين رب موسى وهارون. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=26&tAyahNo=45&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 45 إلى 48 مقطعاً واحداً. يفسّر قوله «فَأَلْقَىٰ مُوسَىٰ عَصَاهُ فَإِذَا هِيَ تَلْقَفُ مَا يَأْفِكُونَ»: «فَأْلَقى مُوسَى عَصَاهُ» حين ألقت السحرة حبالهم وعصيهم، «فَإذَا هيَ تَلْقَفُ مَا يأْفِكُونَ» يقول: فإذا عصا موسى تزدرد ما يأتون به من الفِرْية والسحر الذي لا حقيقة له، وإنما هو مخاييل وخدعة
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=26&tAyahNo=45&tDisplay=yes&UserProfile=0&LanguageId=1

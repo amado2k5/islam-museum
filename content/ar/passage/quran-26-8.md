@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-8-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري الآيات 8 إلى 9 معاً في موضع واحد. يفسّر الطبري الآية بأن في إنبات الأرض لدلالة للمكذبين بالبعث على حقيقته، وأن القدرة التي أنبتت الأرض بعد جدبها لا تعجز عن إخراج الأموات من قبورهم أحياء. وما كان أكثرهم مصدقين بك، وقد سبق في علم الله أنهم لا يؤمنون، وربك هو العزيز في نقمته الرحيم. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=26&tAyahNo=8&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 8 إلى 9 مقطعاً واحداً. يفسّر قوله «إِنَّ فِي ذَلِكَ لآيَةً وَمَا كَانَ أَكْثَرُهُمْ مُّؤْمِنِينَ»: إن في إنباتنا في الأرض من كلّ زوج كريم لآية. يقول: لدلالة لهؤلاء المشركين المكذّبين بالبعث، على حقيقته، وأن القدرة التي بها أنبت الله في الأرض ذلك النبات بعد جُدُوبها، لن يُعجزه أن يُنْشِر بها الأموات بعد مماتهم، أحياء من قبورهم. وقوله: «وَما كانَ أكْثَرُهُمْ مُؤْمِنِينَ» يقول: وما كان أكثر هؤلاء المكذّبين بالبعث، الجاحدين نبوّتك يا محمد، بمصدقيك على ما تأتيهم به من عند الله من الذكر. يقول جلّ ثناؤه: وقد سبق في عملي أنهم لا يؤمنون، فلا يؤمن بك أكثرهم للسابق من علمي فيهم. وقوله:
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=26&tAyahNo=8&tDisplay=yes&UserProfile=0&LanguageId=1

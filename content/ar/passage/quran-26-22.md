@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-8-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري الآيات 22 إلى 24 معاً في موضع واحد. يقول الطبري إن موسى ردّ على فرعون أن تربيته إياه وتركه استعباده نعمة يمنّها عليه بحق، وقد استعبد بني إسرائيل، وفي الكلام محذوف يدل عليه السياق. ثم يتناول سؤال فرعون عن رب العالمين وجواب موسى، وتتصل به الأقوال الواردة في المقطع. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=26&tAyahNo=22&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 22 إلى 24 مقطعاً واحداً. يفسّر قوله «وَتِلْكَ نِعْمَةٌ تَمُنُّهَا عَلَيَّ أَنْ عَبَّدتَّ بَنِي إِسْرَائِيلَ»: يقول تعالى ذكره مخبراً عن قيل نبيه موسى لفرعون «وَتِلكَ نِعْمَةٌ تَمُنُّها عَليَّ» يعني بقوله: وتلك تربية فرعون إياه، يقول: وتربيتك إياي، وتركك استعبادي، كما استعبدت بني إسرائيل نعمة منك تمنها عليّ بحقّ. وينقل في المقطع أقوالاً عن مجاهد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=26&tAyahNo=22&tDisplay=yes&UserProfile=0&LanguageId=1

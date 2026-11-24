@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-7-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن الذين لا يخافون لقاء الله ولا يخشون عقابه قالوا: لولا أنزل علينا الملائكة فتخبرنا أن محمداً محقّ فيما يقول، أو نرى ربنا فيخبرنا بذلك. وقد استكبروا في أنفسهم وعتوا عتواً كبيراً. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=25&tAyahNo=21&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَقَالَ ٱلَّذِينَ لاَ يَرْجُونَ لِقَآءَنَا لَوْلاَ أُنْزِلَ عَلَيْنَا ٱلْمَلاَئِكَةُ أَوْ نَرَىٰ رَبَّنَا لَقَدِ ٱسْتَكْبَرُواْ فِيۤ أَنفُسِهِمْ وَعَتَوْا عُتُوّاً كَبِيراً»: وقال المشركون الذين لا يخافون لقاءنا، ولا يَخْشَوْن عقابنا، هلا أنزل الله علينا ملائكة، فتخبرَنا أن محمدا محقّ فيما يقول، وأن ما جاءنا به صدق، أو نرى ربنا فيخبرنا بذلك، كما قال جلّ ثناؤه مخبرا عنهم: وقالُوا لَنْ نُؤْمِنَ لَكَ حتى تَفْجُرَ لَنا مِنَ الأرْضِ يَنْبُوعا ثم قال بعد: أوْ تَأْتِيَ باللَّهِ وَالمَلائِكَةِ قَبِيلاً يقول الله: لقد استكبر قائلو هذه المقالة في أنفسهم، وتعظموا، «وَعَتَوْا عُتُوّا كَبِيرا» يقول: وتجاوزوا في الاستكبار بقيلهم ذلك حدّه
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=25&tAyahNo=21&tDisplay=yes&UserProfile=0&LanguageId=1

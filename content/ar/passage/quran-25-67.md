@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-8-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يذكر الطبري أن الذين إذا أنفقوا لم يسرفوا ولم يقتروا، ثم يورد اختلاف أهل التأويل في الإسراف: فقيل ما كان في معصية الله وإن قلّ، والإقتار منع حق الله، وقيل غير ذلك. وينقل عن مجاهد أن من أنفق مثل جبل أبي قبيس ذهباً في طاعة الله ما كان سرفاً. والقوام وسط بين الإسراف والتقتير. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=25&tAyahNo=67&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَٱلَّذِينَ إِذَآ أَنفَقُواْ لَمْ يُسْرِفُواْ وَلَمْ يَقْتُرُواْ وَكَانَ بَيْنَ ذَلِكَ قَوَاماً»: والذين إذا أنفقوا أموالهم لم يسرفوا في إنفاقها. ثم اختلف أهل التأويل في النفقة التي عناها الله في هذا الموضع، وما الإسراف فيها والإقتار. فقال بعضهم: الإسرافُ ما كان من نفقة في معصية الله، وإن قلَّت. وقال: وإياها عني الله، وسماها إسرافا قالوا: والإقتار المنع من حقّ الله. وينقل في المقطع أقوالاً عن ابن عباس ومجاهد وابن زيد وإبراهيم.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=25&tAyahNo=67&tDisplay=yes&UserProfile=0&LanguageId=1

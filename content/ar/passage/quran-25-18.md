@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-7-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن الملائكة ومن كان يُعبد معهم كعيسى يقولون: سبحانك ما كان ينبغي لنا أن نتخذ من دونك من أولياء نواليهم، أنت ولينا من دونهم، ولكن متّعتهم وآباءهم بالمال والصحة حتى نسوا الذكر وكانوا قوماً بوراً، أي هالكين لا خير فيهم. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=25&tAyahNo=18&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «قَالُواْ سُبْحَانَكَ مَا كَانَ يَنبَغِي لَنَآ أَن نَّتَّخِذَ مِن دُونِكَ مِنْ أَوْلِيَآءَ وَلَٰكِن مَّتَّعْتَهُمْ وَآبَآءَهُمْ حَتَّىٰ نَسُواْ ٱلذِّكْرَ وَكَانُواْ قَوْماً بُوراً»: قالت الملائكة الذين كان هؤلاء المشركون يعبدونهم من دون الله وعيسى: تنزيهاً لك يا ربنا وتبرئه مما أضاف إليك هؤلاء المشركون، ما كان ينبغي لنا أن نتخذ من دونك من أولياء نواليهم، أنت ولينا من دونهم، ولكن متعتهم بالمال يا ربنا في الدنيا والصحة حتى نَسُوا الذكر وكانوا قوماً هَلْكي قد غلب عليهم الشقاء والخِذْلان. وينقل في المقطع أقوالاً عن ابن عباس ومجاهد والحسن وابن زيد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=25&tAyahNo=18&tDisplay=yes&UserProfile=0&LanguageId=1

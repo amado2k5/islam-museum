@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-7-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن أهل التأويل اختلفوا في معنى «لا تجعلوا دعاء الرسول بينكم كدعاء بعضكم بعضاً»: فقيل نهاهم أن يتعرضوا لدعائه عليهم فاتقوا ما يسخطه فيدعو عليكم، وقيل المراد أن يدعوه باسمه، وقيل غير ذلك. ويحذّر الذين يخالفون عن أمره أن تصيبهم فتنة أو عذاب أليم. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=24&tAyahNo=63&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «لاَّ تَجْعَلُواْ دُعَآءَ ٱلرَّسُولِ بَيْنَكُمْ كَدُعَآءِ بَعْضِكُمْ بَعْضاً قَدْ يَعْلَمُ ٱللَّهُ ٱلَّذِينَ يَتَسَلَّلُونَ مِنكُمْ لِوَاذاً فَلْيَحْذَرِ ٱلَّذِينَ يُخَالِفُونَ عَنْ أَمْرِهِ أَن تُصِيبَهُمْ فِتْنَةٌ أَوْ يُصِيبَهُمْ عَذَابٌ أَلِيمٌ»: يقول تعالى ذكره لأصحاب نبيه محمد: «لا تَجْعَلُوا» أيها المؤمنون «دُعاءَ الرَّسُولِ بَيْنَكُمْ كَدُعاءِ بَعْضِكُمْ بَعْضاً». واختلف أهل التأويل في معنى ذلك، فقال بعضهم: نَهَى الله بهذه الآية المؤمنين أن يتعرّضوا لدعاء الرسول عليهم، وقال لهم: اتقوا دعاءه عليكم، بأن تفعلوا ما يسخطه فيدعو لذلك عليكم فتهلكوا، فلا تجعلوا دعاءه كدعاء غيره من الناس، فإن دعاءه موجبة. وينقل في المقطع أقوالاً عن ابن عباس ومجاهد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=24&tAyahNo=63&tDisplay=yes&UserProfile=0&LanguageId=1

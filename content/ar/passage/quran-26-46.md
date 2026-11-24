@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-8-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري الآيات 45 إلى 48 معاً في موضع واحد. يقول الطبري إن موسى ألقى عصاه فإذا هي تبتلع ما يأفكون من الفرية والسحر الذي لا حقيقة له، وإنما هو خدعة وتخييل، فلما تبيّن للسحرة أن ما جاء به حق وأن لا يقدر عليه إلا الله خرّوا ساجدين مذعنين، وقالوا آمنا برب العالمين رب موسى وهارون. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=26&tAyahNo=46&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 45 إلى 48 مقطعاً واحداً. يفسّر قوله «فَأُلْقِيَ ٱلسَّحَرَةُ سَاجِدِينَ»: فلما تبين السحرة أن الذي جاءهم به موسى حقّ لا سحر، وأنه مما لا يقدر عليه غير الله الذي فطر السموات والأرض من غير أصل، خرّوا لوجوههم سجدا لله، مذعنين له بالطاعة، مقرّين لموسى بالذي أتاهم به من عند الله أنه هو الحقّ، وأن ما كانوا يعملونه من السحر باطل، قائلين: «آمَنَّا بِرَبِّ الْعَالَمِينَ» الذي دعانا موسى إلى عبادته دون فرعون وملئه «رَبِّ مُوسَى وَهَارُونَ.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=26&tAyahNo=46&tDisplay=yes&UserProfile=0&LanguageId=1

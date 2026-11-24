@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-8-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يفسّر الطبري البروج بأنها قصور في السماء، فيها الحرس، وينقل ذلك عن عطية بن سعد وغيره، ويذكر قولاً آخر عن مجاهد وقتادة أنها النجوم الكبار والكواكب، ويرجّح الأول بدلالة اللغة، ويستشهد بشعر الأخطل، ثم يتناول قراءتي «سراجاً» و«سُرجاً» في الآية. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=25&tAyahNo=61&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «تَبَارَكَ ٱلَّذِي جَعَلَ فِي ٱلسَّمَآءِ بُرُوجاً وَجَعَلَ فِيهَا سِرَاجاً وَقَمَراً مُّنِيراً»: تقدّس الربّ الذي جعل في السماء بروجاً ويعني بالبروج: القصور، في قول بعضهم. وينقل في المقطع أقوالاً عن مجاهد وإبراهيم وعطية.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=25&tAyahNo=61&tDisplay=yes&UserProfile=0&LanguageId=1

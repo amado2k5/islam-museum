@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-8-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن الله قسم الماء النازل بين عباده ليتذكروا نعمته ويشكروا إحسانه، فأبى أكثر الناس إلا جحوداً لنعمه. وينقل عن ابن عباس أن العام لا يكون أكثر مطراً من عام، لكن الله يصرّف المطر بين خلقه ويقسمه في الأرضين. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=25&tAyahNo=50&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَلَقَدْ صَرَّفْنَاهُ بَيْنَهُمْ لِيَذَّكَّرُواْ فَأَبَىٰ أَكْثَرُ ٱلنَّاسِ إِلاَّ كُفُوراً»: ولقد قسمنا هذا الماء الذي أنزلناه من السماء طهوراً لنحيي به الميت من الأرض بين عبادي، ليتذكروا نعمي عليهم، ويشكروا أياديَّ عندهم وإحساني إليهم، «فأبى أكْثَرُ النَّاسِ إلاَّ كُفُوراً» يقول: إلا حجوداً لنعمي عليهم، وأياديّ عليهم. وينقل في المقطع أقوالاً عن ابن عباس ومجاهد وابن زيد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=25&tAyahNo=50&tDisplay=yes&UserProfile=0&LanguageId=1

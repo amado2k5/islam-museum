@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-7-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن هؤلاء المشركين لا يأتونك بمثل يضربونه إلا جئناك بالحق بما نبطل به ما جاؤوا به، وأحسن منه تفسيراً، وينقل عن ابن جريج أن الكتاب يردّ ما جاؤوا به من الأمثال. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=25&tAyahNo=33&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 33 إلى 34 مقطعاً واحداً. يفسّر قوله «وَلاَ يَأْتُونَكَ بِمَثَلٍ إِلاَّ جِئْنَاكَ بِٱلْحَقِّ وَأَحْسَنَ تَفْسِيراً»: ولا يأتيك يا محمد هؤلاء المشركون بمثل يضربونه إلا جئناك من الحقّ، بما نبطل به ما جاءوا به وأحسن منه تفسيراً. كما: قال: ثني حجاج، عن ابن جُرَيج «وَلا يأْتُونَكَ بِمَثَلٍ إلاَّ جِئْناكَ بالحَقّ» قال: الكتاب بما تردّ به ما جاءوا به من الأمثال التي جاءوا بها وأحسن تفسيراً. وعنى بقوله «وأحْسَنَ تَفْسِيراً»: وأحسن مما جاءوا به من المثل بياناً وتفصيلاً. وينقل في المقطع أقوالاً عن ابن عباس ومجاهد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=25&tAyahNo=33&tDisplay=yes&UserProfile=0&LanguageId=1
