@@ -10,5 +10,12 @@ Riwayat al-Wahidi tentang sebab turunnya al-Waqi'a 56:82, diriwayatkan dari gene
 
 The verse, in al-Wahidi's heading: «وتجعلون رزقكم أنكم تكذبون».
 
+## Laporan lengkap (teks sumber Arab)
+<div dir="rtl" lang="ar">
+
+وقال بعضهم: لقد صدق نوء كذا وكذا"، فنزلت هذه الآيات: {فلا أقسم بمواقع
+
+</div>
+
 ## Place in the museum
 Sumber: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an al-Wahidi]]. Ayatnya: [[passage/quran-56-82|Al-Qur'an 56-82]].

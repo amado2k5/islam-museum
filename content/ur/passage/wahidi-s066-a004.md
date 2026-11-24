@@ -10,5 +10,12 @@ at-Tahrim 66:4 کے سببِ نزول پر الواحدی کی روایت — «
 
 The verse, in al-Wahidi's heading: «إن تتوبا إلى الله».
 
+## مکمل روایت ⁦(عربی ماخذ متن)⁩
+<div dir="rtl" lang="ar">
+
+شهرا، فأنزل الله: {إن تتوبا إلى الله فقد صغت قلوبكما}
+
+</div>
+
 ## Place in the museum
 ماخذ: [[work/asbab-nuzul-wahidi|الواحدی کی اسباب نزول القرآن]]۔ آیت: [[passage/quran-66-4|قرآن 66-4]]۔

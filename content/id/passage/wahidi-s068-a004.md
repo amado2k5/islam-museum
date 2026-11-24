@@ -10,5 +10,12 @@ Riwayat al-Wahidi tentang sebab turunnya al-Qalam 68:4, diriwayatkan dari genera
 
 The verse, in al-Wahidi's heading: «4».
 
+## Laporan lengkap (teks sumber Arab)
+<div dir="rtl" lang="ar">
+
+من أهل بيته إلا قال: "لبيك" ولذلك أنزل الله- {وإنك لعلى خلق
+
+</div>
+
 ## Place in the museum
 Sumber: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an al-Wahidi]]. Ayatnya: [[passage/quran-68-4|Al-Qur'an 68-4]].

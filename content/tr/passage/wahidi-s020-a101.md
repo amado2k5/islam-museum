@@ -10,5 +10,12 @@ Ta Ha 20:101 ayetinin nüzül sebebi hakkında El-Vahidi'nin rivayeti; Esbab Nü
 
 The verse, in al-Wahidi's heading: «إن الذين سبقت لهم منا الحسنى».
 
+## Tam rivayet (Arapça kaynak metin)
+<div dir="rtl" lang="ar">
+
+عن أبي يحيى، عن ابن عباس قال: آية لا يسألني الناس عنها، لا أدري أعرفوها
+
+</div>
+
 ## Place in the museum
 Kaynak: [[work/asbab-nuzul-wahidi|El-Vahidi'nin Esbab Nüzul el-Kur'an'ı]]. Ayet: [[passage/quran-20-101|Kur'an 20-101]].

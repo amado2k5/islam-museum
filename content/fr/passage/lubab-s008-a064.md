@@ -10,5 +10,12 @@ Rapport d'al-Suyuti sur la circonstance de révélation de al-Anfal 8:64, dans L
 
 The verse, in al-Suyuti's heading: «يا أيها النبي حسبك الله».
 
+## Rapport complet (texte source arabe)
+<div dir="rtl" lang="ar">
+
+يا أيها النبي حسبك الله الآية ك روى البزار بسند ضعيف من طريق عكرمة عن ابن عباس قال لما أسلم عمر قال المشركون قد انتصف القوم منا اليوم وانزل الله يا أيها النبي حسبك الله ومن اتبعك من المؤمنين وله شواهد ⁦(ك)⁩ وأخرج الطبراني وغيره
+
+</div>
+
 ## Place in the museum
 Source : [[work/lubab-al-nuqul-suyuti|d'al-Suyuti Lubab al-Nuqul]]. Le verset: [[passage/quran-8-64|Coran 8-64]].

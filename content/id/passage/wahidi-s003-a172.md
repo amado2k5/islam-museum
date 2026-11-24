@@ -10,5 +10,12 @@ Riwayat al-Wahidi tentang sebab turunnya Al 'Imran 3:172, diriwayatkan dari gene
 
 The verse, in al-Wahidi's heading: «الذين استجابوا لله والرسول».
 
+## Laporan lengkap (teks sumber Arab)
+<div dir="rtl" lang="ar">
+
+النبي- فسألهم عن أبي سفيان فقالوا: لقيناه في جمع
+
+</div>
+
 ## Place in the museum
 Sumber: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an al-Wahidi]]. Ayatnya: [[passage/quran-3-172|Al-Qur'an 3-172]].

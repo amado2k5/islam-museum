@@ -10,5 +10,12 @@ Riwayat al-Wahidi tentang sebab turunnya al-Ahzab 33:43, diriwayatkan dari gener
 
 The verse, in al-Wahidi's heading: «هو الذي يصلي عليكم وملائكته».
 
+## Laporan lengkap (teks sumber Arab)
+<div dir="rtl" lang="ar">
+
+قال مجاهد: لما نزلت: {إن الله وملائكته يصلون على النبي} الآية قال أبو
+
+</div>
+
 ## Place in the museum
 Sumber: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an al-Wahidi]]. Ayatnya: [[passage/quran-33-43|Al-Qur'an 33-43]].

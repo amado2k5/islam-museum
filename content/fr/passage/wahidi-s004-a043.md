@@ -10,5 +10,12 @@ Rapport d'al-Wahidi sur la circonstance de révélation de an-Nisa 4:43, transmi
 
 The verse, in al-Wahidi's heading: «فلم تجدوا ماء فتيمموا صعيدا طيبا».
 
+## Rapport complet (texte source arabe)
+<div dir="rtl" lang="ar">
+
+عليه وسلم - حتى أصبح على غير ماء، فأنزل اللهآية التيمم
+
+</div>
+
 ## Place in the museum
 Source : [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an d'al-Wahidi]]. Le verset : [[passage/quran-4-43|Coran 4-43]].

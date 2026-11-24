@@ -10,5 +10,12 @@ az-Zumar 39:22 ayetinin nüzül sebebi hakkında El-Vahidi'nin rivayeti; Esbab N
 
 The verse, in al-Wahidi's heading: «أفمن شرح الله صدره للإسلام فهو على نور من ربه».
 
+## Tam rivayet (Arapça kaynak metin)
+<div dir="rtl" lang="ar">
+
+نزلت في حمزة وعلي وأبي لهب وولده، فعلي وحمزة ممن شرح الله صدره، وأبو
+
+</div>
+
 ## Place in the museum
 Kaynak: [[work/asbab-nuzul-wahidi|El-Vahidi'nin Esbab Nüzul el-Kur'an'ı]]. Ayet: [[passage/quran-39-22|Kur'an 39-22]].

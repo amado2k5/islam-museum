@@ -10,5 +10,12 @@ Al-Wahidi's report on the occasion of revelation of al-Ma'arij 70:1, narrated in
 
 The verse, in al-Wahidi's heading: «سأل سائل بعذاب واقع».
 
+## Full report (Arabic source text)
+<div dir="rtl" lang="ar">
+
+نزلت في النضر بن الحارث حين قال: {اللهم إن كان هذا هو الحق من عندك}
+
+</div>
+
 ## Place in the museum
 Source: [[work/asbab-al-nuzul-wahidi|al-Wahidi's Asbab nuzul al-Qur'an]]. The verse: [[passage/quran-70-1|Qur'an 70-1]].

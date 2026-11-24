@@ -10,5 +10,12 @@ Al-Wahidi's report on the occasion of revelation of Bara'a (at-Tawba) 9:61, narr
 
 The verse, in al-Wahidi's heading: «ومنهم الذين يؤذون النبي ويقولون هو أذن».
 
+## Full report (Arabic source text)
+<div dir="rtl" lang="ar">
+
+سويد نقول ما شئنا ثم نأتيه فيصدقنا بما نقول، فإنما محمد أذن سامعة، فأنزل
+
+</div>
+
 ## Place in the museum
 Source: [[work/asbab-al-nuzul-wahidi|al-Wahidi's Asbab nuzul al-Qur'an]]. The verse: [[passage/quran-9-61|Qur'an 9-61]].

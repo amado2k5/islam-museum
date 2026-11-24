@@ -10,5 +10,12 @@ Rapport d'al-Wahidi sur la circonstance de révélation de al-Mujadila 58:1, tra
 
 The verse, in al-Wahidi's heading: «قد سمع الله قول التي تجادلك في زوجها».
 
+## Rapport complet (texte source arabe)
+<div dir="rtl" lang="ar">
+
+قال: فما برحت حتى نزل
+
+</div>
+
 ## Place in the museum
 Source : [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an d'al-Wahidi]]. Le verset : [[passage/quran-58-1|Coran 58-1]].

@@ -10,5 +10,12 @@ Rapport d'al-Suyuti sur la circonstance de révélation de al-Baqara 2:245, dans
 
 The verse, in al-Suyuti's heading: «من ذا الذي يقرض الله».
 
+## Rapport complet (texte source arabe)
+<div dir="rtl" lang="ar">
+
+من ذا الذي يقرض الله الآية روى ابن حبان في صحيحه وابن أبي حاتم وابن مردويه عن ابن عمر قال لما نزلت مثل الذين ينفقون أموالهم في سبيل الله كمثل حبة إلى آخرها قال رسول الله رب زد أمتي فنزلت من
+
+</div>
+
 ## Place in the museum
 Source : [[work/lubab-al-nuqul-suyuti|d'al-Suyuti Lubab al-Nuqul]]. Le verset: [[passage/quran-2-245|Coran 2-245]].

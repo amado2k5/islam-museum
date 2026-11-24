@@ -10,5 +10,12 @@ al-Hashr 59:9 ayetinin nüzül sebebi hakkında El-Vahidi'nin rivayeti; Esbab N�
 
 The verse, in al-Wahidi's heading: «والذين تبوءوا الدار والإيمان من قبلهم».
 
+## Tam rivayet (Arapça kaynak metin)
+<div dir="rtl" lang="ar">
+
+يكفونكم المؤونة وتقاسمونهم الثمرة والأرض أرضكم"، قالوا: رضينا، فأنزل
+
+</div>
+
 ## Place in the museum
 Kaynak: [[work/asbab-nuzul-wahidi|El-Vahidi'nin Esbab Nüzul el-Kur'an'ı]]. Ayet: [[passage/quran-59-9|Kur'an 59-9]].

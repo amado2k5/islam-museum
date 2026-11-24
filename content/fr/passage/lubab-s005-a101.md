@@ -10,5 +10,12 @@ Rapport d'al-Suyuti sur la circonstance de révélation de al-Ma'ida 5:101, dans
 
 The verse, in al-Suyuti's heading: «يا أيها الذين آمنوا لا تسألوا».
 
+## Rapport complet (texte source arabe)
+<div dir="rtl" lang="ar">
+
+يا أيها الذين آمنوا لا تسألوا الآية ⁦(ك)⁩ روى البخاري عن انس بن مالك خطب النبي خطبة فقال رجل من أبي قال فلان فنزلت هذه الآية لا تسألوا عن أشياء الآية وروى أيضا عن ابن عباس قال كان قوم يسألون رسول
+
+</div>
+
 ## Place in the museum
 Source : [[work/lubab-al-nuqul-suyuti|d'al-Suyuti Lubab al-Nuqul]]. Le verset: [[passage/quran-5-101|Coran 5-101]].

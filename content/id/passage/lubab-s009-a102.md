@@ -10,5 +10,12 @@ Riwayat as-Suyuti tentang sebab turunnya Bara'a (at-Tawba) 9:102, dalam Lubab al
 
 The verse, in al-Suyuti's heading: «وآخرون اعترفوا».
 
+## Laporan lengkap (teks sumber Arab)
+<div dir="rtl" lang="ar">
+
+وآخرون اعترفوا الآية أخرج ابن مردويه وابن أبي حاتم من طريق العوفي عن ابن عباس قال غزا رسول الله فتخلف أبو لبابة وخمسة معه ثم أن أبا لبابة ورجلين معه تفكروا وندموا وأيقنوا بالهلاك وقالوا نحن في الظلال والطمأنينة مع النساء
+
+</div>
+
 ## Place in the museum
 Sumber: [[work/lubab-al-nuqul-suyuti|as-Suyuti Lubab al-Nuqul]]. Ayatnya: [[passage/quran-9-102|Al-Qur'an 9-102]].

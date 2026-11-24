@@ -10,5 +10,12 @@ Ta Ha 20:131 ayetinin nüzül sebebi hakkında El-Vahidi'nin rivayeti; Esbab Nü
 
 The verse, in al-Wahidi's heading: «131».
 
+## Tam rivayet (Arapça kaynak metin)
+<div dir="rtl" lang="ar">
+
+الربذي قال: أخبرني يزيد بن عبد الله بن قسيط، عن أبي رافع مولى رسول الله- أن ضيفا نزل برسول الله-
+
+</div>
+
 ## Place in the museum
 Kaynak: [[work/asbab-nuzul-wahidi|El-Vahidi'nin Esbab Nüzul el-Kur'an'ı]]. Ayet: [[passage/quran-20-131|Kur'an 20-131]].

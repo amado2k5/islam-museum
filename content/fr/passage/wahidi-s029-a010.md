@@ -10,5 +10,12 @@ Rapport d'al-Wahidi sur la circonstance de révélation de al-'Ankabut 29:10, tr
 
 The verse, in al-Wahidi's heading: «ومن الناس من يقول آمنا بالله».
 
+## Rapport complet (texte source arabe)
+<div dir="rtl" lang="ar">
+
+قال مجاهد: نزلت في أناس كانوا يؤمنون بألسنتهم، فإذا أصابهم بلاء من
+
+</div>
+
 ## Place in the museum
 Source : [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an d'al-Wahidi]]. Le verset : [[passage/quran-29-10|Coran 29-10]].

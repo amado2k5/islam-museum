@@ -10,5 +10,12 @@ al-A'raf 7:204 ayetinin nüzül sebebi hakkında El-Vahidi'nin rivayeti; Esbab N
 
 The verse, in al-Wahidi's heading: «وإذا قرئ القرآن فاستمعوا له وأنصتوا».
 
+## Tam rivayet (Arapça kaynak metin)
+<div dir="rtl" lang="ar">
+
+أبي هريرة في هذه الآية: {وإذا قرئ القرآن} قال: نزلت في رفع الأصوات وهم
+
+</div>
+
 ## Place in the museum
 Kaynak: [[work/asbab-nuzul-wahidi|El-Vahidi'nin Esbab Nüzul el-Kur'an'ı]]. Ayet: [[passage/quran-7-204|Kur'an 7-204]].

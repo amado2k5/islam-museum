@@ -10,5 +10,12 @@ Informe de al-Wahidi sobre la ocasión de revelación de al-Baqara 2:44, transmi
 
 The verse, in al-Wahidi's heading: «أتأمرون الناس بالبر».
 
+## Informe completo (texto fuente en árabe)
+<div dir="rtl" lang="ar">
+
+قال ابن عباس في رواية الكلبي عن أبي صالح بالإسناد الذي ذكر: نزلت في
+
+</div>
+
 ## Place in the museum
 Fuente: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an de al-Wahidi]]. El versículo: [[passage/quran-2-44|Corán 2-44]].

@@ -10,5 +10,12 @@ Informe de al-Wahidi sobre la ocasión de revelación de al-Ma'ida 5:67, transmi
 
 The verse, in al-Wahidi's heading: «والله يعصمك من الناس».
 
+## Informe completo (texto fuente en árabe)
+<div dir="rtl" lang="ar">
+
+غطيطه، ونزلت هذه الآية، فأنزل رسول الله- رأسه من
+
+</div>
+
 ## Place in the museum
 Fuente: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an de al-Wahidi]]. El versículo: [[passage/quran-5-67|Corán 5-67]].

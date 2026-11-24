@@ -10,5 +10,12 @@ Riwayat al-Wahidi tentang sebab turunnya al-Baqara 2:133, diriwayatkan dalam Asb
 
 The verse, in al-Wahidi's heading: «أم كنتم شهداء إذ حضر يعقوب الموت».
 
+## Laporan lengkap (teks sumber Arab)
+<div dir="rtl" lang="ar">
+
+نزلت في اليهود حين قالوا للنبي- ألست تعلم أن
+
+</div>
+
 ## Place in the museum
 Sumber: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an al-Wahidi]]. Ayatnya: [[passage/quran-2-133|Al-Qur'an 2-133]].

@@ -10,5 +10,12 @@ al-Baqara 2:114 ayetinin nüzul sebebi hakkında es-Suyuti'nin rivayeti; Lübab�
 
 The verse, in al-Suyuti's heading: «ومن أظلم».
 
+## Tam rivayet (Arapça kaynak metin)
+<div dir="rtl" lang="ar">
+
+ومن أظلم [114] الآية أخرج ابن أبي حاتم من الطريق المذكور أن قريشا منعوا النبي الصلاة عند الكعبة في المسجد الحرام فانزل الله ومن أظلم ممن منع مساجد الله الآية وأخرج ابن جرير عن زيد قال نزلت في المشركين حين صدوا
+
+</div>
+
 ## Place in the museum
 Kaynak: [[work/lubab-al-nuqul-suyuti|es-Suyuti'nin Lubab al-Nuqul]]. Ayet: [[passage/quran-2-114|Kur'an 2-114]].

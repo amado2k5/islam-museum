@@ -10,5 +10,12 @@ Riwayat al-Wahidi tentang sebab turunnya al-Furqan 25:27, diriwayatkan dari gene
 
 The verse, in al-Wahidi's heading: «ويوم يعض الظالم على يديه».
 
+## Laporan lengkap (teks sumber Arab)
+<div dir="rtl" lang="ar">
+
+بن أبي معيط عن ذلك، فنزلت هذه الآية.
+
+</div>
+
 ## Place in the museum
 Sumber: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an al-Wahidi]]. Ayatnya: [[passage/quran-25-27|Al-Qur'an 25-27]].

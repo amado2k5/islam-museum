@@ -10,5 +10,12 @@ Al-Wahidi's report on the occasion of revelation of Al 'Imran 3:152, narrated fr
 
 The verse, in al-Wahidi's heading: «ولقد صدقكم الله وعده».
 
+## Full report (Arabic source text)
+<div dir="rtl" lang="ar">
+
+فأنزل الله: {ولقد صدقكم الله وعده} الآية إلى قوله: {منكم من يريد
+
+</div>
+
 ## Place in the museum
 Source: [[work/asbab-al-nuzul-wahidi|al-Wahidi's Asbab nuzul al-Qur'an]]. The verse: [[passage/quran-3-152|Qur'an 3-152]].

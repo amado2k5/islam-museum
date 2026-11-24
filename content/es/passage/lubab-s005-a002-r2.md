@@ -10,5 +10,12 @@ Informe de al-Suyuti sobre la ocasión de revelación de al-Ma'ida 5:2, en Lubab
 
 The verse, in al-Suyuti's heading: «ولا يجرمنكم».
 
+## Informe completo (texto fuente en árabe)
+<div dir="rtl" lang="ar">
+
+ولا يجرمنكم الآية أخرج ابن أبي حاتم عن زيد بن أسلم قال كان رسول الله بالحديبية وأصحابه حين صدهم المشركون عن البيت وقد اشتد ذلك عليهم فمر بهم أناس من المشركين من أهل المشرق يريدون العمرة فقال أصحاب النبي صلى الله
+
+</div>
+
 ## Place in the museum
 Fuente: [[work/lubab-al-nuqul-suyuti|de al-Suyuti Lubab al-Nuqul]]. El versículo: [[passage/quran-5-2|Corán 5-2]].

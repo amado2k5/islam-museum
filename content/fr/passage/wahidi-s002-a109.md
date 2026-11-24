@@ -10,5 +10,12 @@ Rapport d'al-Wahidi sur la circonstance de révélation de al-Baqara 2:109, tran
 
 The verse, in al-Wahidi's heading: «ود كثير من أهل الكتاب».
 
+## Rapport complet (texte source arabe)
+<div dir="rtl" lang="ar">
+
+قال ابن عباس: نزلت في نفر من اليهود قالوا للمسلمين بعد وقعة بدر ألم تروا إلى ما أصابكم ولو كنتم على الحق ما هزمتم، فارجعوا إلى ديننا فهو
+
+</div>
+
 ## Place in the museum
 Source : [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an d'al-Wahidi]]. Le verset : [[passage/quran-2-109|Coran 2-109]].

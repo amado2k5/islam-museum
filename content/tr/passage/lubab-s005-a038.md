@@ -10,5 +10,12 @@ al-Ma'ida 5:38 ayetinin nüzul sebebi hakkında es-Suyuti'nin rivayeti; Lübabü
 
 The verse, in al-Suyuti's heading: «والسارق والسارقة».
 
+## Tam rivayet (Arapça kaynak metin)
+<div dir="rtl" lang="ar">
+
+والسارق والسارقة الآية ⁦(ك)⁩ أخرج أحمد وغيره عن عبد الله بن عمرو أن امرأة سرقت على عهد رسول الله فقطعت يدها اليمنى فقالت هل لي من توبة يا رسول الله فأنزل الله في سورة المائدة فمن تاب من بعد ظلمه وأصلح
+
+</div>
+
 ## Place in the museum
 Kaynak: [[work/lubab-al-nuqul-suyuti|es-Suyuti'nin Lubab al-Nuqul]]. Ayet: [[passage/quran-5-38|Kur'an 5-38]].

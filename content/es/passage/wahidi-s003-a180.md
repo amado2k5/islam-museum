@@ -10,5 +10,12 @@ Informe de al-Wahidi sobre la ocasión de revelación de Al 'Imran 3:180, transm
 
 The verse, in al-Wahidi's heading: «ولا يحسبن الذين يبخلون بما آتاهم الله».
 
+## Informe completo (texto fuente en árabe)
+<div dir="rtl" lang="ar">
+
+أجمع جمهور المفسرين على أنها نزلت في مانعي الزكاة.
+
+</div>
+
 ## Place in the museum
 Fuente: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an de al-Wahidi]]. El versículo: [[passage/quran-3-180|Corán 3-180]].

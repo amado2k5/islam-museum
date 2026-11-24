@@ -10,5 +10,12 @@ Riwayat as-Suyuti tentang sebab turunnya al-Baqara 2:217, dalam Lubab al-Nuqul f
 
 The verse, in al-Suyuti's heading: «يسألونك عن الشهر الحرام».
 
+## Laporan lengkap (teks sumber Arab)
+<div dir="rtl" lang="ar">
+
+يسألونك عن الشهر الحرام الآية أخرج ابن جرير وابن ابي حاتم والطبراني في الكبير والبيهقي في سننه عن جندب بن عبد الله أن رسول الله بعث رهطا وبعث عليهم عبد الله بن جحش فلقوا ابن الحضرمي فقتلوه ولم يدروا أن ذلك
+
+</div>
+
 ## Place in the museum
 Sumber: [[work/lubab-al-nuqul-suyuti|as-Suyuti Lubab al-Nuqul]]. Ayatnya: [[passage/quran-2-217|Al-Qur'an 2-217]].

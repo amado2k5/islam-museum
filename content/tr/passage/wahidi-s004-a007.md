@@ -10,5 +10,12 @@ an-Nisa 4:7 ayetinin nüzül sebebi hakkında El-Vahidi'nin rivayeti; Esbab Nüz
 
 The verse, in al-Wahidi's heading: «للرجال نصيب مما ترك الوالدان والأقربون».
 
+## Tam rivayet (Arapça kaynak metin)
+<div dir="rtl" lang="ar">
+
+ما يحدث الله لي فيهن"، فانصرفوا، فأنزل اللههذه الآية.
+
+</div>
+
 ## Place in the museum
 Kaynak: [[work/asbab-nuzul-wahidi|El-Vahidi'nin Esbab Nüzul el-Kur'an'ı]]. Ayet: [[passage/quran-4-7|Kur'an 4-7]].

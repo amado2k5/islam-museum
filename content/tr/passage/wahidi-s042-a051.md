@@ -10,5 +10,12 @@ ash-Shura 42:51 ayetinin nüzül sebebi hakkında El-Vahidi'nin rivayeti; Esbab 
 
 The verse, in al-Wahidi's heading: «وما كان لبشر أن يكلمه الله إلا وحيا».
 
+## Tam rivayet (Arapça kaynak metin)
+<div dir="rtl" lang="ar">
+
+فقال: "لم ينظر موسى إلى الله"، وأنزلت هذه الآية.
+
+</div>
+
 ## Place in the museum
 Kaynak: [[work/asbab-nuzul-wahidi|El-Vahidi'nin Esbab Nüzul el-Kur'an'ı]]. Ayet: [[passage/quran-42-51|Kur'an 42-51]].

@@ -10,5 +10,12 @@ Riwayat al-Wahidi tentang sebab turunnya an-Nur 24:29, diriwayatkan dari generas
 
 The verse, in al-Wahidi's heading: «ليس عليكم جناح أن تأكلوا جميعا أو أشتاتا».
 
+## Laporan lengkap (teks sumber Arab)
+<div dir="rtl" lang="ar">
+
+قال قتادة والضحاك: نزلت في حي من كنانة يقال لهم بنو ليث بن عمرو،
+
+</div>
+
 ## Place in the museum
 Sumber: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an al-Wahidi]]. Ayatnya: [[passage/quran-24-29|Al-Qur'an 24-29]].

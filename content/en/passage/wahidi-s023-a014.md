@@ -10,5 +10,12 @@ Al-Wahidi's report on the occasion of revelation of al-Mu'minun 23:14, narrated 
 
 The verse, in al-Wahidi's heading: «فتبارك الله أحسن الخالقين».
 
+## Full report (Arabic source text)
+<div dir="rtl" lang="ar">
+
+قلت: يا رسول الله لو صلينا خلف المقام، فأنزل الله: {واتخذوا من
+
+</div>
+
 ## Place in the museum
 Source: [[work/asbab-al-nuzul-wahidi|al-Wahidi's Asbab nuzul al-Qur'an]]. The verse: [[passage/quran-23-14|Qur'an 23-14]].

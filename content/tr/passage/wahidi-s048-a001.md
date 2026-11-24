@@ -10,5 +10,12 @@ al-Fath 48:1 ayetinin nüzül sebebi hakkında El-Vahidi'nin rivayeti; Esbab Nü
 
 The verse, in al-Wahidi's heading: «إنا فتحنا لك فتحا مبينا».
 
+## Tam rivayet (Arapça kaynak metin)
+<div dir="rtl" lang="ar">
+
+غزوة الحديبية وقد حيل بيننا وبين نسكنا فنحن بين الحزن والكآبة، أنزل الله
+
+</div>
+
 ## Place in the museum
 Kaynak: [[work/asbab-nuzul-wahidi|El-Vahidi'nin Esbab Nüzul el-Kur'an'ı]]. Ayet: [[passage/quran-48-1|Kur'an 48-1]].

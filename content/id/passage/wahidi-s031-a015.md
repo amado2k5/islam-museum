@@ -10,5 +10,12 @@ Riwayat al-Wahidi tentang sebab turunnya Luqman 31:15, diriwayatkan dari generas
 
 The verse, in al-Wahidi's heading: «وإن جاهداك على أن تشرك بي».
 
+## Laporan lengkap (teks sumber Arab)
+<div dir="rtl" lang="ar">
+
+نزلت في سعد بن أبي وقاص على ما ذكرناه في سورة العنكبوت.
+
+</div>
+
 ## Place in the museum
 Sumber: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an al-Wahidi]]. Ayatnya: [[passage/quran-31-15|Al-Qur'an 31-15]].

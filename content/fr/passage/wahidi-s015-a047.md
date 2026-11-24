@@ -10,5 +10,12 @@ Rapport d'al-Wahidi sur la circonstance de révélation de al-Hijr 15:47, transm
 
 The verse, in al-Wahidi's heading: «ونزعنا ما في صدورهم».
 
+## Rapport complet (texte source arabe)
+<div dir="rtl" lang="ar">
+
+علي بن الحسينأن هذه الآية نزلت في أبي بكر وعمر وعلي رضي
+
+</div>
+
 ## Place in the museum
 Source : [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an d'al-Wahidi]]. Le verset : [[passage/quran-15-47|Coran 15-47]].

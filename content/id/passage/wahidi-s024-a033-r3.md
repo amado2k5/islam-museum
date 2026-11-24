@@ -10,5 +10,12 @@ Riwayat al-Wahidi tentang sebab turunnya an-Nur 24:33, diriwayatkan dari generas
 
 The verse, in al-Wahidi's heading: «ولا تكرهوا فتياتكم على البغاء».
 
+## Laporan lengkap (teks sumber Arab)
+<div dir="rtl" lang="ar">
+
+جابر قال: كان عبد الله بن أبي يقول لجارية له: اذهبي فابغينا شيئا، فأنزل
+
+</div>
+
 ## Place in the museum
 Sumber: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an al-Wahidi]]. Ayatnya: [[passage/quran-24-33|Al-Qur'an 24-33]].

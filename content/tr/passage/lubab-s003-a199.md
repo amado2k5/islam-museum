@@ -10,5 +10,12 @@ Al 'Imran 3:199 ayetinin nüzul sebebi hakkında es-Suyuti'nin rivayeti; Lübab�
 
 The verse, in al-Suyuti's heading: «وإن من أهل الكتاب».
 
+## Tam rivayet (Arapça kaynak metin)
+<div dir="rtl" lang="ar">
+
+وإن من أهل الكتاب الآية روى النسائي عن أنس قال لما جاء نعي النجاشي قال رسول الله صلوا عليه قالوا يا رسول الله نصلي على عبد حبشي فأنزل الله وإن من أهل الكتاب لمن يؤمن بالله وروى ابن جرير نحوه عن
+
+</div>
+
 ## Place in the museum
 Kaynak: [[work/lubab-al-nuqul-suyuti|es-Suyuti'nin Lubab al-Nuqul]]. Ayet: [[passage/quran-3-199|Kur'an 3-199]].

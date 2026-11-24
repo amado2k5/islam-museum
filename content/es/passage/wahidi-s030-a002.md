@@ -10,5 +10,12 @@ Informe de al-Wahidi sobre la ocasión de revelación de ar-Rum 30:2, transmitid
 
 The verse, in al-Wahidi's heading: «الم غلبت الروم».
 
+## Informe completo (texto fuente en árabe)
+<div dir="rtl" lang="ar">
+
+الروم، وإنكم إن قاتلتمونا لنظهرن عليكم، فأنزل الله: {غلبت الروم في
+
+</div>
+
 ## Place in the museum
 Fuente: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an de al-Wahidi]]. El versículo: [[passage/quran-30-2|Corán 30-2]].

@@ -10,5 +10,12 @@ Al-Wahidi's report on the occasion of revelation of al-Baqara 2:80, narrated fro
 
 The verse, in al-Wahidi's heading: «وقالوا لن تمسنا النار إلا أياما معدودة».
 
+## Full report (Arabic source text)
+<div dir="rtl" lang="ar">
+
+أيام الآخرة، وإنما هي سبعة أيام ثم ينقطع العذاب، فأنزل اللهفي
+
+</div>
+
 ## Place in the museum
 Source: [[work/asbab-al-nuzul-wahidi|al-Wahidi's Asbab nuzul al-Qur'an]]. The verse: [[passage/quran-2-80|Qur'an 2-80]].

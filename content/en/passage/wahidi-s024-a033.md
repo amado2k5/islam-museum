@@ -10,5 +10,12 @@ Al-Wahidi's report on the occasion of revelation of an-Nur 24:33, narrated in As
 
 The verse, in al-Wahidi's heading: «والذين يبتغون الكتاب مما ملكت أيمانكم فكاتبوهم».
 
+## Full report (Arabic source text)
+<div dir="rtl" lang="ar">
+
+نزلت في غلام لحويطب بن عبد العزى يقال له "صبيح" سأل مولاه أن يكاتبه
+
+</div>
+
 ## Place in the museum
 Source: [[work/asbab-al-nuzul-wahidi|al-Wahidi's Asbab nuzul al-Qur'an]]. The verse: [[passage/quran-24-33|Qur'an 24-33]].

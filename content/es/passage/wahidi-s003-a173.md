@@ -10,5 +10,12 @@ Informe de al-Wahidi sobre la ocasión de revelación de Al 'Imran 3:173, transm
 
 The verse, in al-Wahidi's heading: «الذين قال لهم الناس».
 
+## Informe completo (texto fuente en árabe)
+<div dir="rtl" lang="ar">
+
+فأنزل اللهفيهم: {الذين قال لهم الناس إن الناس قد جمعوا لكم
+
+</div>
+
 ## Place in the museum
 Fuente: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an de al-Wahidi]]. El versículo: [[passage/quran-3-173|Corán 3-173]].

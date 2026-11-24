@@ -10,5 +10,12 @@ Al-Wahidi's report on the occasion of revelation of an-Najm 53:43, narrated from
 
 The verse, in al-Wahidi's heading: «وأنه هو أضحك وأبكى».
 
+## Full report (Arabic source text)
+<div dir="rtl" lang="ar">
+
+ما أعلم لبكيتم كثيرا ولضحكتم قليلا"، فنزل عليه جبريلبقوله:
+
+</div>
+
 ## Place in the museum
 Source: [[work/asbab-al-nuzul-wahidi|al-Wahidi's Asbab nuzul al-Qur'an]]. The verse: [[passage/quran-53-43|Qur'an 53-43]].

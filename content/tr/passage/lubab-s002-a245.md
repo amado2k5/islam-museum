@@ -10,5 +10,12 @@ al-Baqara 2:245 ayetinin nüzul sebebi hakkında es-Suyuti'nin rivayeti; Lübab�
 
 The verse, in al-Suyuti's heading: «من ذا الذي يقرض الله».
 
+## Tam rivayet (Arapça kaynak metin)
+<div dir="rtl" lang="ar">
+
+من ذا الذي يقرض الله الآية روى ابن حبان في صحيحه وابن أبي حاتم وابن مردويه عن ابن عمر قال لما نزلت مثل الذين ينفقون أموالهم في سبيل الله كمثل حبة إلى آخرها قال رسول الله رب زد أمتي فنزلت من
+
+</div>
+
 ## Place in the museum
 Kaynak: [[work/lubab-al-nuqul-suyuti|es-Suyuti'nin Lubab al-Nuqul]]. Ayet: [[passage/quran-2-245|Kur'an 2-245]].

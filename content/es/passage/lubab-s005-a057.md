@@ -10,5 +10,12 @@ Informe de al-Suyuti sobre la ocasión de revelación de al-Ma'ida 5:57, en Luba
 
 The verse, in al-Suyuti's heading: «يا أيها الذين آمنوا لا تتخذوا».
 
+## Informe completo (texto fuente en árabe)
+<div dir="rtl" lang="ar">
+
+يا أيها الذين آمنوا لا تتخذوا الآية أخرج ابن إسحق وابن جرير وابن ابي حاتم والبيهقي عن عبادة بن الصامت قال لما حاربت بنو قينقاع تشبث بأمرهم عبد الله بن أبي بن سلول وقام دونهم ومشى عبادة بن الصامت إلى رسول الله
+
+</div>
+
 ## Place in the museum
 Fuente: [[work/lubab-al-nuqul-suyuti|de al-Suyuti Lubab al-Nuqul]]. El versículo: [[passage/quran-5-57|Corán 5-57]].

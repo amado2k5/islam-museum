@@ -10,5 +10,12 @@ Riwayat al-Wahidi tentang sebab turunnya al-Kahf 18:28, diriwayatkan dari genera
 
 The verse, in al-Wahidi's heading: «ولا تطع من أغفلنا قلبه عن ذكرنا».
 
+## Laporan lengkap (teks sumber Arab)
+<div dir="rtl" lang="ar">
+
+قال: نزلت في أمية بن خلف الجمحي، وذلك أنه دعا النبي- إلى أمر كرهه من طرد الفقراء عنه وتقريب صناديد أهل مكة، فأنزل الله
+
+</div>
+
 ## Place in the museum
 Sumber: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an al-Wahidi]]. Ayatnya: [[passage/quran-18-28|Al-Qur'an 18-28]].

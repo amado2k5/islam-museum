@@ -10,5 +10,12 @@ Informe de al-Wahidi sobre la ocasión de revelación de al-Baqara 2:113, transm
 
 The verse, in al-Wahidi's heading: «وقالت اليهود ليست النصارى على شيء».
 
+## Informe completo (texto fuente en árabe)
+<div dir="rtl" lang="ar">
+
+نزلت في يهود أهل المدينة ونصارى أهل نجران وذلك أن وفد نجران لما قدموا
+
+</div>
+
 ## Place in the museum
 Fuente: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an de al-Wahidi]]. El versículo: [[passage/quran-2-113|Corán 2-113]].

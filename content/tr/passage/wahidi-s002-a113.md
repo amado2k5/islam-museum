@@ -10,5 +10,12 @@ al-Baqara 2:113 ayetinin nüzül sebebi hakkında El-Vahidi'nin rivayeti; Esbab 
 
 The verse, in al-Wahidi's heading: «وقالت اليهود ليست النصارى على شيء».
 
+## Tam rivayet (Arapça kaynak metin)
+<div dir="rtl" lang="ar">
+
+نزلت في يهود أهل المدينة ونصارى أهل نجران وذلك أن وفد نجران لما قدموا
+
+</div>
+
 ## Place in the museum
 Kaynak: [[work/asbab-nuzul-wahidi|El-Vahidi'nin Esbab Nüzul el-Kur'an'ı]]. Ayet: [[passage/quran-2-113|Kur'an 2-113]].

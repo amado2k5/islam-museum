@@ -10,5 +10,12 @@ Rapport d'al-Wahidi sur la circonstance de révélation de Al 'Imran 3:83, trans
 
 The verse, in al-Wahidi's heading: «أفغير دين الله يبغون».
 
+## Rapport complet (texte source arabe)
+<div dir="rtl" lang="ar">
+
+وقالوا: والله ما نرضى بقضائك ولا نأخذ بدينك، فأنزل الله: {أفغير
+
+</div>
+
 ## Place in the museum
 Source : [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an d'al-Wahidi]]. Le verset : [[passage/quran-3-83|Coran 3-83]].

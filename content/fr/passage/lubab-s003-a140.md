@@ -10,5 +10,12 @@ Rapport d'al-Suyuti sur la circonstance de révélation de Al 'Imran 3:140, dans
 
 The verse, in al-Suyuti's heading: «ويتخذ منكم شهداء».
 
+## Rapport complet (texte source arabe)
+<div dir="rtl" lang="ar">
+
+ويتخذ منكم شهداء أخرج ابن أبي حاتم عن عكرمة قال لما أبطأ على النساء الخبر خرجن ليستخبرن بين فإذا رجلان مقبلان على بعير فقالت امرأة ما فعل رسول الله قالا حي قالت فلا أبالي يتخذ الله من عباده الشهداء ونزل القرآن
+
+</div>
+
 ## Place in the museum
 Source : [[work/lubab-al-nuqul-suyuti|d'al-Suyuti Lubab al-Nuqul]]. Le verset: [[passage/quran-3-140|Coran 3-140]].

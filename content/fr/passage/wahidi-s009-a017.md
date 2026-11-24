@@ -10,5 +10,12 @@ Rapport d'al-Wahidi sur la circonstance de révélation de Bara'a (at-Tawba) 9:1
 
 The verse, in al-Wahidi's heading: «ما كان للمشركين أن يعمروا مساجد الله».
 
+## Rapport complet (texte source arabe)
+<div dir="rtl" lang="ar">
+
+لنعمر المسجد الحرام، ونحجب الكعبة، ونسقي الحاج، ونفك العاني؛ فأنزل الله
+
+</div>
+
 ## Place in the museum
 Source : [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an d'al-Wahidi]]. Le verset : [[passage/quran-9-17|Coran 9-17]].

@@ -10,5 +10,12 @@ Riwayat al-Wahidi tentang sebab turunnya al-Ma'ida 5:87, diriwayatkan dari gener
 
 The verse, in al-Wahidi's heading: «يا أيها الذين آمنوا لا تحرموا طيبات ما أحل الله لكم».
 
+## Laporan lengkap (teks sumber Arab)
+<div dir="rtl" lang="ar">
+
+انتشرت إلى النساء، وإني حرمت علي اللحم، فنزلت: {يا أيها الذين آمنوا لا
+
+</div>
+
 ## Place in the museum
 Sumber: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an al-Wahidi]]. Ayatnya: [[passage/quran-5-87|Al-Qur'an 5-87]].

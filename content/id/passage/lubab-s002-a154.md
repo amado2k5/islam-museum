@@ -10,5 +10,12 @@ Riwayat as-Suyuti tentang sebab turunnya al-Baqara 2:154, dalam Lubab al-Nuqul f
 
 The verse, in al-Suyuti's heading: «ولا تقولوا لمن يقتل».
 
+## Laporan lengkap (teks sumber Arab)
+<div dir="rtl" lang="ar">
+
+ولا تقولوا لمن يقتل الآية أخرج ابن منده في الصحابة من طريق السدي الصغير عن الكلبي عن أبي صالح عن ابن عباس قال قتل تميم بن الحمام ببدر وفيه وفي غيره نزلت ولا تقولوا لمن يقتل في سبيل الله أموات الآية قال أبو نعيم اتفقوا
+
+</div>
+
 ## Place in the museum
 Sumber: [[work/lubab-al-nuqul-suyuti|as-Suyuti Lubab al-Nuqul]]. Ayatnya: [[passage/quran-2-154|Al-Qur'an 2-154]].

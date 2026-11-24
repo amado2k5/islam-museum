@@ -10,5 +10,12 @@ Rapport d'al-Wahidi sur la circonstance de révélation de at-Talaq 65:1, transm
 
 The verse, in al-Wahidi's heading: «يا أيها النبي إذا طلقتم النساء فطلقوهن لعدتهن».
 
+## Rapport complet (texte source arabe)
+<div dir="rtl" lang="ar">
+
+روى قتادة عن أنس قال: طلق رسول الله- حفصة، فأنزل
+
+</div>
+
 ## Place in the museum
 Source : [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an d'al-Wahidi]]. Le verset : [[passage/quran-65-1|Coran 65-1]].

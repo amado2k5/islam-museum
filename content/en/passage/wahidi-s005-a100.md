@@ -10,5 +10,12 @@ Al-Wahidi's report on the occasion of revelation of al-Ma'ida 5:100, narrated fr
 
 The verse, in al-Wahidi's heading: «قل لا يستوي الخبيث والطيب».
 
+## Full report (Arabic source text)
+<div dir="rtl" lang="ar">
+
+صدقة لم يعدل عند الله جناح بعوضة، إن الله لا يقبل إلا الطيب"، فأنزل الله
+
+</div>
+
 ## Place in the museum
 Source: [[work/asbab-al-nuzul-wahidi|al-Wahidi's Asbab nuzul al-Qur'an]]. The verse: [[passage/quran-5-100|Qur'an 5-100]].

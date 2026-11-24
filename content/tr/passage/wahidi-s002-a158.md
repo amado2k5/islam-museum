@@ -10,5 +10,12 @@ al-Baqara 2:158 ayetinin nüzül sebebi hakkında El-Vahidi'nin rivayeti; Esbab 
 
 The verse, in al-Wahidi's heading: «إن الصفا والمروة من شعائر الله».
 
+## Tam rivayet (Arapça kaynak metin)
+<div dir="rtl" lang="ar">
+
+قال: حدثني مالك، عن هشام، عن أبيه، عن عائشة قالت: أنزلت هذه الآية في
+
+</div>
+
 ## Place in the museum
 Kaynak: [[work/asbab-nuzul-wahidi|El-Vahidi'nin Esbab Nüzul el-Kur'an'ı]]. Ayet: [[passage/quran-2-158|Kur'an 2-158]].

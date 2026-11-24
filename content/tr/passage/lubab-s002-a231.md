@@ -10,5 +10,12 @@ al-Baqara 2:231 ayetinin nüzul sebebi hakkında es-Suyuti'nin rivayeti; Lübab�
 
 The verse, in al-Suyuti's heading: «وإذا طلقتم النساء فبلغن أجلهن فأمسكوهن بمعروف».
 
+## Tam rivayet (Arapça kaynak metin)
+<div dir="rtl" lang="ar">
+
+وإذا طلقتم النساء فبلغن أجلهن فأمسكوهن بمعروف [231] الآية أخرج ابن جرير من طريق العوفي عن ابن عباس قال كان الرجل يطلق امرأته ثم يراجعها قبل انقضاء عدتها ثم يطلقها يفعل ذلك يضارها ويعضلها فأنزل الله هذه الآية وأخرج عن السدي قال نزلت في رجل
+
+</div>
+
 ## Place in the museum
 Kaynak: [[work/lubab-al-nuqul-suyuti|es-Suyuti'nin Lubab al-Nuqul]]. Ayet: [[passage/quran-2-231|Kur'an 2-231]].

@@ -10,5 +10,12 @@ Al-Wahidi's report on the occasion of revelation of Bara'a (at-Tawba) 9:84, narr
 
 The verse, in al-Wahidi's heading: «ولا تصل على أحد منهم مات أبدا».
 
+## Full report (Arabic source text)
+<div dir="rtl" lang="ar">
+
+ثم نزلت عليه هذه الآية: {ولا تصل على
+
+</div>
+
 ## Place in the museum
 Source: [[work/asbab-al-nuzul-wahidi|al-Wahidi's Asbab nuzul al-Qur'an]]. The verse: [[passage/quran-9-84|Qur'an 9-84]].

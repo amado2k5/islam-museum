@@ -10,5 +10,12 @@ Bara'a (at-Tawba) 9:61 ayetinin nüzul sebebi hakkında es-Suyuti'nin rivayeti; 
 
 The verse, in al-Suyuti's heading: «ومنهم الذين يؤذون النبي».
 
+## Tam rivayet (Arapça kaynak metin)
+<div dir="rtl" lang="ar">
+
+ومنهم الذين يؤذون النبي الآية اخرج ابن أبي حاتم عن ابن عباس قال كان نبتل بن الحرث يأتي رسول الله فيجلس إليه فيسمع منه وينقل حديثه إلى المنافقين فأنزل الله ومنهم الذين يؤذون النبي الآية
+
+</div>
+
 ## Place in the museum
 Kaynak: [[work/lubab-al-nuqul-suyuti|es-Suyuti'nin Lubab al-Nuqul]]. Ayet: [[passage/quran-9-61|Kur'an 9-61]].

@@ -10,5 +10,12 @@ Riwayat al-Wahidi tentang sebab turunnya al-Hijr 15:4, diriwayatkan dari generas
 
 The verse, in al-Wahidi's heading: «إن الذين ينادونك من وراء الحجرات أكثرهم لا يعقلون».
 
+## Laporan lengkap (teks sumber Arab)
+<div dir="rtl" lang="ar">
+
+محمد بن إسحاق وغيره: نزلت في جفاة بني تميم، قدم وفد منهم على النبي - صلى
+
+</div>
+
 ## Place in the museum
 Sumber: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an al-Wahidi]]. Ayatnya: [[passage/quran-15-4|Al-Qur'an 15-4]].

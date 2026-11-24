@@ -10,5 +10,12 @@ Riwayat al-Wahidi tentang sebab turunnya an-Nisa 4:7, diriwayatkan dalam Asbab n
 
 The verse, in al-Wahidi's heading: «للرجال نصيب مما ترك الوالدان والأقربون».
 
+## Laporan lengkap (teks sumber Arab)
+<div dir="rtl" lang="ar">
+
+ما يحدث الله لي فيهن"، فانصرفوا، فأنزل اللههذه الآية.
+
+</div>
+
 ## Place in the museum
 Sumber: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an al-Wahidi]]. Ayatnya: [[passage/quran-4-7|Al-Qur'an 4-7]].

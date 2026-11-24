@@ -10,5 +10,12 @@ Riwayat al-Wahidi tentang sebab turunnya an-Nisa 4:148, diriwayatkan dari genera
 
 The verse, in al-Wahidi's heading: «لا يحب الله الجهر بالسوء من القول».
 
+## Laporan lengkap (teks sumber Arab)
+<div dir="rtl" lang="ar">
+
+إن ضيفا تضيف قوما فأساءوا قراه فاشتكاهم، فنزلت هذه الآية
+
+</div>
+
 ## Place in the museum
 Sumber: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an al-Wahidi]]. Ayatnya: [[passage/quran-4-148|Al-Qur'an 4-148]].

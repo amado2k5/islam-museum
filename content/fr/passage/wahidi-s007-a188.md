@@ -10,5 +10,12 @@ Rapport d'al-Wahidi sur la circonstance de révélation de al-A'raf 7:188, trans
 
 The verse, in al-Wahidi's heading: «قل لا أملك لنفسي نفعا ولا ضرا».
 
+## Rapport complet (texte source arabe)
+<div dir="rtl" lang="ar">
+
+فأنزل اللههذه الآية.
+
+</div>
+
 ## Place in the museum
 Source : [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an d'al-Wahidi]]. Le verset : [[passage/quran-7-188|Coran 7-188]].

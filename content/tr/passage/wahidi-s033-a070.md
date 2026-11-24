@@ -10,5 +10,12 @@ al-Ahzab 33:70 ayetinin nüzül sebebi hakkında El-Vahidi'nin rivayeti; Esbab N
 
 The verse, in al-Wahidi's heading: «يا أيها الذين آمنوا لا تدخلوا بيوت النبي».
 
+## Tam rivayet (Arapça kaynak metin)
+<div dir="rtl" lang="ar">
+
+رسول الله- وكان شديد الحياء، فنزلت هذه الآية، وضرب
+
+</div>
+
 ## Place in the museum
 Kaynak: [[work/asbab-nuzul-wahidi|El-Vahidi'nin Esbab Nüzul el-Kur'an'ı]]. Ayet: [[passage/quran-33-70|Kur'an 33-70]].

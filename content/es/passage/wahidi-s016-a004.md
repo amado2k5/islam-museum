@@ -10,5 +10,12 @@ Informe de al-Wahidi sobre la ocasión de revelación de an-Nahl 16:4, transmiti
 
 The verse, in al-Wahidi's heading: «خلق الإنسان من نطفة فإذا هو خصيم مبين».
 
+## Informe completo (texto fuente en árabe)
+<div dir="rtl" lang="ar">
+
+نزلت الآية في أبي بن خلف الجمحي حين جاء بعظم رميم إلى رسول الله - صلى
+
+</div>
+
 ## Place in the museum
 Fuente: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an de al-Wahidi]]. El versículo: [[passage/quran-16-4|Corán 16-4]].

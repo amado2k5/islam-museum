@@ -10,5 +10,12 @@ Rapport d'al-Wahidi sur la circonstance de révélation de al-Ma'ida 5:44, trans
 
 The verse, in al-Wahidi's heading: «إنا أنزلنا التوراة فيها هدى ونور».
 
+## Rapport complet (texte source arabe)
+<div dir="rtl" lang="ar">
+
+على الباب فقال: "أنشدكم بالله الذي أنزل التوارة على موسى ما تجدون في
+
+</div>
+
 ## Place in the museum
 Source : [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an d'al-Wahidi]]. Le verset : [[passage/quran-5-44|Coran 5-44]].

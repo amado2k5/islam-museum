@@ -10,5 +10,12 @@ Riwayat al-Wahidi tentang sebab turunnya az-Zukhruf 43:57, diriwayatkan dari gen
 
 The verse, in al-Wahidi's heading: «ولما ضرب ابن مريم مثلا».
 
+## Laporan lengkap (teks sumber Arab)
+<div dir="rtl" lang="ar">
+
+كآلهتهم، فأنزل الله: {ولما ضرب ابن مريم مثلا} الآية.
+
+</div>
+
 ## Place in the museum
 Sumber: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an al-Wahidi]]. Ayatnya: [[passage/quran-43-57|Al-Qur'an 43-57]].

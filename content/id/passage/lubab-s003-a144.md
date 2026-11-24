@@ -10,5 +10,12 @@ Riwayat as-Suyuti tentang sebab turunnya Al 'Imran 3:144, dalam Lubab al-Nuqul f
 
 The verse, in al-Suyuti's heading: «وما محمد إلا رسول».
 
+## Laporan lengkap (teks sumber Arab)
+<div dir="rtl" lang="ar">
+
+وما محمد إلا رسول الآية أخرج ابن المنذر عن عمر قال تفرقنا عن رسول الله يوم أحد فصعدت الجبل فسمعت يهود تقول قتل محمد فقلت لا أسمع أحدا يقول قتل محمد إلا ضربت عنقه فنظرت فإذا رسول الله
+
+</div>
+
 ## Place in the museum
 Sumber: [[work/lubab-al-nuqul-suyuti|as-Suyuti Lubab al-Nuqul]]. Ayatnya: [[passage/quran-3-144|Al-Qur'an 3-144]].

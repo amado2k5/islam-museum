@@ -10,5 +10,12 @@ an-Nisa 4:24 ayetinin nüzül sebebi hakkında El-Vahidi'nin rivayeti; Esbab Nü
 
 The verse, in al-Wahidi's heading: «والمحصنات من النساء إلا ما ملكت أيمانكم».
 
+## Tam rivayet (Arapça kaynak metin)
+<div dir="rtl" lang="ar">
+
+أصبنا سبايا يوم أوطاس لهن أزواج، فكرهنا أن نقع عليهن، فسألنا النبي عليه
+
+</div>
+
 ## Place in the museum
 Kaynak: [[work/asbab-nuzul-wahidi|El-Vahidi'nin Esbab Nüzul el-Kur'an'ı]]. Ayet: [[passage/quran-4-24|Kur'an 4-24]].

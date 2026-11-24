@@ -10,5 +10,12 @@ Rapport d'al-Wahidi sur la circonstance de révélation de al-Muddaththir 74:1, 
 
 The verse, in al-Wahidi's heading: «يا أيها المدثر».
 
+## Rapport complet (texte source arabe)
+<div dir="rtl" lang="ar">
+
+بحراء شهرا فلما قضيت جواري نزلت فاستبطنت بطن الوادي، فنوديت فنظرت أمامي
+
+</div>
+
 ## Place in the museum
 Source : [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an d'al-Wahidi]]. Le verset : [[passage/quran-74-1|Coran 74-1]].

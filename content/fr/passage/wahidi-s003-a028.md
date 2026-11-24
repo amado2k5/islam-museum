@@ -10,5 +10,12 @@ Rapport d'al-Wahidi sur la circonstance de révélation de Al 'Imran 3:28, trans
 
 The verse, in al-Wahidi's heading: «لا يتخذ المؤمنون الكافرين أولياء من دون المؤمنين».
 
+## Rapport complet (texte source arabe)
+<div dir="rtl" lang="ar">
+
+النفر إلا مباطنتهم وملازمتهم، فأنزل اللههذه الآية.
+
+</div>
+
 ## Place in the museum
 Source : [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an d'al-Wahidi]]. Le verset : [[passage/quran-3-28|Coran 3-28]].

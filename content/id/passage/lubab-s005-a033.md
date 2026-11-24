@@ -10,5 +10,12 @@ Riwayat as-Suyuti tentang sebab turunnya al-Ma'ida 5:33, dalam Lubab al-Nuqul fi
 
 The verse, in al-Suyuti's heading: «إنما جزاء الذين يحاربون».
 
+## Laporan lengkap (teks sumber Arab)
+<div dir="rtl" lang="ar">
+
+إنما جزاء الذين يحاربون الآية أخرج ابن جرير عن يزيد ابن أبي حبيب أن عبد الملك بن مروان كتب إلى أنس يسأله عن هذه الآية إنما جزاء الذين يحاربون الله ورسوله فكتب إليه أنس يخبره أن هذه الآية نزلت في العرنيين ارتدوا عن الإسلام وقتلوا
+
+</div>
+
 ## Place in the museum
 Sumber: [[work/lubab-al-nuqul-suyuti|as-Suyuti Lubab al-Nuqul]]. Ayatnya: [[passage/quran-5-33|Al-Qur'an 5-33]].

@@ -10,5 +10,12 @@ Al-Suyuti's report on the occasion of revelation of al-Baqara 2:159, in Lubab al
 
 The verse, in al-Suyuti's heading: «إن الذين يكتمون».
 
+## Full report (Arabic source text)
+<div dir="rtl" lang="ar">
+
+إن الذين يكتمون الآية ⁦(ك)⁩ أخرج ابن جرير وابن آبى حاتم من طريق سعيد أو عكرمة عن ابن عباس قال سأل معاذ بن جبل وسعد بن معاذ وخارجه بن زيد نفرا من أحبار يهود عن بعض ما في التوراة فكتموهم إياه وأبوا أن يخبروهم فانزل
+
+</div>
+
 ## Place in the museum
 Source: [[work/lubab-al-nuqul-suyuti|al-Suyuti's Lubab al-Nuqul]]. The verse: [[passage/quran-2-159|Qur'an 2-159]].

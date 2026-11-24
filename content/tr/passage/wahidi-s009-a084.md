@@ -10,5 +10,12 @@ Bara'a (at-Tawba) 9:84 ayetinin nüzül sebebi hakkında El-Vahidi'nin rivayeti;
 
 The verse, in al-Wahidi's heading: «ولا تصل على أحد منهم مات أبدا».
 
+## Tam rivayet (Arapça kaynak metin)
+<div dir="rtl" lang="ar">
+
+ثم نزلت عليه هذه الآية: {ولا تصل على
+
+</div>
+
 ## Place in the museum
 Kaynak: [[work/asbab-nuzul-wahidi|El-Vahidi'nin Esbab Nüzul el-Kur'an'ı]]. Ayet: [[passage/quran-9-84|Kur'an 9-84]].

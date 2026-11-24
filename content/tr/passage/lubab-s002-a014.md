@@ -10,5 +10,12 @@ al-Baqara 2:14 ayetinin nüzul sebebi hakkında es-Suyuti'nin rivayeti; Lübabü
 
 The verse, in al-Suyuti's heading: «وإذا لقوا الذين آمنوا».
 
+## Tam rivayet (Arapça kaynak metin)
+<div dir="rtl" lang="ar">
+
+وإذا لقوا الذين آمنوا أخرج الوحداي أن والثعلبي من طريق محمد بن مروان والسدي الصغير عن الكلبي عن أبي صالح عن ابن عباس قال نزلت هذه الآية في عبد الله بن آبى وأصحابه وذلك أنهم خرجوا ذات يوم ف استقبلهم نفر من أصحاب رسول الله
+
+</div>
+
 ## Place in the museum
 Kaynak: [[work/lubab-al-nuqul-suyuti|es-Suyuti'nin Lubab al-Nuqul]]. Ayet: [[passage/quran-2-14|Kur'an 2-14]].

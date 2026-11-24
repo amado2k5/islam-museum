@@ -10,5 +10,12 @@ al-Baqara 2:222 کے سببِ نزول پر الواحدی کی روایت — �
 
 The verse, in al-Wahidi's heading: «ويسألونك عن المحيض».
 
+## مکمل روایت ⁦(عربی ماخذ متن)⁩
+<div dir="rtl" lang="ar">
+
+يشاربوها ولم يجامعوها في البيوت، فسئل رسول الله-
+
+</div>
+
 ## Place in the museum
 ماخذ: [[work/asbab-nuzul-wahidi|الواحدی کی اسباب نزول القرآن]]۔ آیت: [[passage/quran-2-222|قرآن 2-222]]۔

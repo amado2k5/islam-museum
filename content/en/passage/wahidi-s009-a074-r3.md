@@ -10,5 +10,12 @@ Al-Wahidi's report on the occasion of revelation of Bara'a (at-Tawba) 9:74, narr
 
 The verse, in al-Wahidi's heading: «وهموا بما لم ينالوا».
 
+## Full report (Arabic source text)
+<div dir="rtl" lang="ar">
+
+النبيحتى نزل منزله الذي أراد، فأنزل الله
+
+</div>
+
 ## Place in the museum
 Source: [[work/asbab-al-nuzul-wahidi|al-Wahidi's Asbab nuzul al-Qur'an]]. The verse: [[passage/quran-9-74|Qur'an 9-74]].

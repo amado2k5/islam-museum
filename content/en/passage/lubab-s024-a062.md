@@ -10,5 +10,12 @@ Al-Suyuti's report on the occasion of revelation of an-Nur 24:62, in Lubab al-Nu
 
 The verse, in al-Suyuti's heading: «إنما المؤمنون».
 
+## Full report (Arabic source text)
+<div dir="rtl" lang="ar">
+
+إنما المؤمنون الآية أخرج ابن إسحق والبيهقي في الدلائل عن عروة ومحمد بن كعب القرظي وغيرهما قالوا لما أقبلت قريش عام الأحزاب نزلوا بمجمع الأسيال من رومة بئر بالمدينة قائدها أبو سفيان وأقبلت غطفان حتى نزلوا بنعمى إلى جانب أحد وجاء رسول الله صلى الله
+
+</div>
+
 ## Place in the museum
 Source: [[work/lubab-al-nuqul-suyuti|al-Suyuti's Lubab al-Nuqul]]. The verse: [[passage/quran-24-62|Qur'an 24-62]].

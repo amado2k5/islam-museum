@@ -10,5 +10,12 @@ Riwayat as-Suyuti tentang sebab turunnya al-Ma'ida 5:67, dalam Lubab al-Nuqul fi
 
 The verse, in al-Suyuti's heading: «يا أيها الرسول بلغ».
 
+## Laporan lengkap (teks sumber Arab)
+<div dir="rtl" lang="ar">
+
+يا أيها الرسول بلغ الآية أخرج أبو الشيخ عن الحسن أن رسول الله قال إن الله بعثني برسالة فضقت بها ذرعا وعرفت أن الناس مكذبي فوعدني لأبلغن أو ليعذبني فأنزلت يا أيها الرسول بلغ ما أنزل إليك من ربك وأخرج ابن
+
+</div>
+
 ## Place in the museum
 Sumber: [[work/lubab-al-nuqul-suyuti|as-Suyuti Lubab al-Nuqul]]. Ayatnya: [[passage/quran-5-67|Al-Qur'an 5-67]].

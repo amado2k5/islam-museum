@@ -10,5 +10,12 @@ Al-Wahidi's report on the occasion of revelation of at-Takwir 81:29, narrated fr
 
 The verse, in al-Wahidi's heading: «وما تشاءون إلا أن يشاء الله رب العالمين».
 
+## Full report (Arabic source text)
+<div dir="rtl" lang="ar">
+
+سعيد بن عبد العزيز، عن سليمان بن موسى قال: لما أنزل الله- {لمن
+
+</div>
+
 ## Place in the museum
 Source: [[work/asbab-al-nuzul-wahidi|al-Wahidi's Asbab nuzul al-Qur'an]]. The verse: [[passage/quran-81-29|Qur'an 81-29]].

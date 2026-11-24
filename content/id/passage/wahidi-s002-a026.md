@@ -10,5 +10,12 @@ Riwayat al-Wahidi tentang sebab turunnya al-Baqara 2:26, diriwayatkan dari gener
 
 The verse, in al-Wahidi's heading: «إن الله لا يستحيي أن يضرب مثلا».
 
+## Laporan lengkap (teks sumber Arab)
+<div dir="rtl" lang="ar">
+
+فأنزل الله هذه الآية.
+
+</div>
+
 ## Place in the museum
 Sumber: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an al-Wahidi]]. Ayatnya: [[passage/quran-2-26|Al-Qur'an 2-26]].

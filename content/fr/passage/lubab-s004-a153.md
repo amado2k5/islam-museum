@@ -10,5 +10,12 @@ Rapport d'al-Suyuti sur la circonstance de révélation de an-Nisa 4:153, dans L
 
 The verse, in al-Suyuti's heading: «يسألك أهل الكتاب».
 
+## Rapport complet (texte source arabe)
+<div dir="rtl" lang="ar">
+
+يسألك أهل الكتاب الآية أخرج ابن جرير عن محمد ابن كعب القرظي قال جاء ناس من اليهود إلى رسول الله فقالوا إن موسى جاءنا باالألواح لو من عند الله فأتنا بالألواح حتى نصدقك فأنزل الله يسألك أهل الكتاب إلى قوله بهتانا
+
+</div>
+
 ## Place in the museum
 Source : [[work/lubab-al-nuqul-suyuti|d'al-Suyuti Lubab al-Nuqul]]. Le verset: [[passage/quran-4-153|Coran 4-153]].

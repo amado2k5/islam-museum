@@ -10,5 +10,12 @@ ad-Duha 93:2 ayetinin nüzül sebebi hakkında El-Vahidi'nin rivayeti; Esbab Nü
 
 The verse, in al-Wahidi's heading: «والضحى والليل إذا سجى ما ودعك ربك وما قلى».
 
+## Tam rivayet (Arapça kaynak metin)
+<div dir="rtl" lang="ar">
+
+وسلم - ما أرى سيطانك إلا قد ودعك، فنزل: {والضحى والليل إذا سجى ما ودعك
+
+</div>
+
 ## Place in the museum
 Kaynak: [[work/asbab-nuzul-wahidi|El-Vahidi'nin Esbab Nüzul el-Kur'an'ı]]. Ayet: [[passage/quran-93-2|Kur'an 93-2]].

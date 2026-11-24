@@ -10,5 +10,12 @@ Riwayat al-Wahidi tentang sebab turunnya at-Takwir 81:29, diriwayatkan dari gene
 
 The verse, in al-Wahidi's heading: «وما تشاءون إلا أن يشاء الله رب العالمين».
 
+## Laporan lengkap (teks sumber Arab)
+<div dir="rtl" lang="ar">
+
+سعيد بن عبد العزيز، عن سليمان بن موسى قال: لما أنزل الله- {لمن
+
+</div>
+
 ## Place in the museum
 Sumber: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an al-Wahidi]]. Ayatnya: [[passage/quran-81-29|Al-Qur'an 81-29]].

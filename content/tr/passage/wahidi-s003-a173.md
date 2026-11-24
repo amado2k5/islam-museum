@@ -10,5 +10,12 @@ Al 'Imran 3:173 ayetinin nüzül sebebi hakkında El-Vahidi'nin rivayeti; Esbab 
 
 The verse, in al-Wahidi's heading: «الذين قال لهم الناس».
 
+## Tam rivayet (Arapça kaynak metin)
+<div dir="rtl" lang="ar">
+
+فأنزل اللهفيهم: {الذين قال لهم الناس إن الناس قد جمعوا لكم
+
+</div>
+
 ## Place in the museum
 Kaynak: [[work/asbab-nuzul-wahidi|El-Vahidi'nin Esbab Nüzul el-Kur'an'ı]]. Ayet: [[passage/quran-3-173|Kur'an 3-173]].

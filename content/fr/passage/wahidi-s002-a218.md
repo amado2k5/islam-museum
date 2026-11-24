@@ -10,5 +10,12 @@ Rapport d'al-Wahidi sur la circonstance de révélation de al-Baqara 2:218, tran
 
 The verse, in al-Wahidi's heading: «إن الذين آمنوا والذين هادوا».
 
+## Rapport complet (texte source arabe)
+<div dir="rtl" lang="ar">
+
+قال: "هم في النار" قال سلمان: فأظلمت علي الأرض فنزلت: {إن الذين آمنوا
+
+</div>
+
 ## Place in the museum
 Source : [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an d'al-Wahidi]]. Le verset : [[passage/quran-2-218|Coran 2-218]].

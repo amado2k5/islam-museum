@@ -10,5 +10,12 @@ Riwayat al-Wahidi tentang sebab turunnya an-Nisa 4:2, diriwayatkan dari generasi
 
 The verse, in al-Wahidi's heading: «2».
 
+## Laporan lengkap (teks sumber Arab)
+<div dir="rtl" lang="ar">
+
+قال مقاتل والكلبي: نزلت في رجل من غطفان كان عنده مالك كثير لابن أخ له
+
+</div>
+
 ## Place in the museum
 Sumber: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an al-Wahidi]]. Ayatnya: [[passage/quran-4-2|Al-Qur'an 4-2]].

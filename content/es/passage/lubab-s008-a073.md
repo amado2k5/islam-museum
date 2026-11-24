@@ -10,5 +10,12 @@ Informe de al-Suyuti sobre la ocasión de revelación de al-Anfal 8:73, en Lubab
 
 The verse, in al-Suyuti's heading: «والذين كفروا».
 
+## Informe completo (texto fuente en árabe)
+<div dir="rtl" lang="ar">
+
+والذين كفروا الآية أخرج ابن جرير وأبو الشيخ عن السدي عن أبي مالك قال قال رجل نورث أرحامنا المشركين فنزلت والذين كفروا بعضهم أولياء بعض ك
+
+</div>
+
 ## Place in the museum
 Fuente: [[work/lubab-al-nuqul-suyuti|de al-Suyuti Lubab al-Nuqul]]. El versículo: [[passage/quran-8-73|Corán 8-73]].

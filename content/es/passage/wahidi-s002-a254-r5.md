@@ -10,5 +10,12 @@ Informe de al-Wahidi sobre la ocasión de revelación de al-Baqara 2:254, transm
 
 The verse, in al-Wahidi's heading: «يا أيها الذين آمنوا كتب عليكم القصاص في القتلى».
 
+## Informe completo (texto fuente en árabe)
+<div dir="rtl" lang="ar">
+
+الآخر، فقالوا: نقتل بالعبد منا الحر منكم، وبالمرأة الرجل، فنزلت هذه
+
+</div>
+
 ## Place in the museum
 Fuente: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an de al-Wahidi]]. El versículo: [[passage/quran-2-254|Corán 2-254]].

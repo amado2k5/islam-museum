@@ -10,5 +10,12 @@ Riwayat as-Suyuti tentang sebab turunnya Al 'Imran 3:58, dalam Lubab al-Nuqul fi
 
 The verse, in al-Suyuti's heading: «ذلك نتلوه عليك».
 
+## Laporan lengkap (teks sumber Arab)
+<div dir="rtl" lang="ar">
+
+ذلك نتلوه عليك أخرج ابن أبي حاتم عن الحسن قال أتى رسول الله راهبا نجران فقال أحدهما من أبو عيسى وكان رسول الله لا يعجل حتى يؤامر ربه فنزل عليه ذلك نتلوه عليك من الآيات والذكر الحكيم
+
+</div>
+
 ## Place in the museum
 Sumber: [[work/lubab-al-nuqul-suyuti|as-Suyuti Lubab al-Nuqul]]. Ayatnya: [[passage/quran-3-58|Al-Qur'an 3-58]].

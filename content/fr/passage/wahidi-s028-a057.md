@@ -10,5 +10,12 @@ Rapport d'al-Wahidi sur la circonstance de révélation de al-Qasas 28:57, trans
 
 The verse, in al-Wahidi's heading: «وقالوا إن نتبع الهدى معك نتخطف من أرضنا».
 
+## Rapport complet (texte source arabe)
+<div dir="rtl" lang="ar">
+
+نزلت في الحارث بن عثمان بن نوفل بن عبد مناف، وذلك أنه قال للنبي - صلى
+
+</div>
+
 ## Place in the museum
 Source : [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an d'al-Wahidi]]. Le verset : [[passage/quran-28-57|Coran 28-57]].

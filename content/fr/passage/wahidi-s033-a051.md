@@ -10,5 +10,12 @@ Rapport d'al-Wahidi sur la circonstance de révélation de al-Ahzab 33:51, trans
 
 The verse, in al-Wahidi's heading: «ترجي من تشاء منهن».
 
+## Rapport complet (texte source arabe)
+<div dir="rtl" lang="ar">
+
+قال المفسرون: نزلت حين غار بعض نساء النبي-
+
+</div>
+
 ## Place in the museum
 Source : [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an d'al-Wahidi]]. Le verset : [[passage/quran-33-51|Coran 33-51]].

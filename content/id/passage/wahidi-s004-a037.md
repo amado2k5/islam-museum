@@ -10,5 +10,12 @@ Riwayat al-Wahidi tentang sebab turunnya an-Nisa 4:37, diriwayatkan dari generas
 
 The verse, in al-Wahidi's heading: «الذين يبخلون ويأمرون الناس بالبخل».
 
+## Laporan lengkap (teks sumber Arab)
+<div dir="rtl" lang="ar">
+
+قال أكثر المفسرين: نزلت في اليهود حين كتموا صفة محمد
+
+</div>
+
 ## Place in the museum
 Sumber: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an al-Wahidi]]. Ayatnya: [[passage/quran-4-37|Al-Qur'an 4-37]].

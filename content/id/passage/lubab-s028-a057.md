@@ -10,5 +10,12 @@ Riwayat as-Suyuti tentang sebab turunnya al-Qasas 28:57, dalam Lubab al-Nuqul fi
 
 The verse, in al-Suyuti's heading: «وقالوا إن نتبع الهدى معك».
 
+## Laporan lengkap (teks sumber Arab)
+<div dir="rtl" lang="ar">
+
+وقالوا إن نتبع الهدى معك الآية أخرج ابن جرير من طريق العوفي عن ابن عباس أن أناسا من قريش قالوا للنبي إن نتبعك تخطفنا الناس فنزلت وأخرج النسائي عن ابن عباس أن الحرث بن عامر بن نوفل هو الذي قال ذلك
+
+</div>
+
 ## Place in the museum
 Sumber: [[work/lubab-al-nuqul-suyuti|as-Suyuti Lubab al-Nuqul]]. Ayatnya: [[passage/quran-28-57|Al-Qur'an 28-57]].

@@ -10,5 +10,12 @@ Informe de al-Suyuti sobre la ocasión de revelación de an-Nisa 4:97, en Lubab 
 
 The verse, in al-Suyuti's heading: «إن الذين توفاهم».
 
+## Informe completo (texto fuente en árabe)
+<div dir="rtl" lang="ar">
+
+إن الذين توفاهم الآية روى البخاري عن ابن عباس أن أناسا من المسلمين كانوا مع المشركين يكثرون سواد المشركين على رسول الله فيأتي السهم يرمي به فيصيب أحدهم فيقتله أو يضرب فيقتل فأنزل الله إن الذين توفاهم الملائكة ظالمي أنفسهم وأخرجه
+
+</div>
+
 ## Place in the museum
 Fuente: [[work/lubab-al-nuqul-suyuti|de al-Suyuti Lubab al-Nuqul]]. El versículo: [[passage/quran-4-97|Corán 4-97]].

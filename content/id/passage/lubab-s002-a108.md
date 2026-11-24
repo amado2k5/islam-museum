@@ -10,5 +10,12 @@ Riwayat as-Suyuti tentang sebab turunnya al-Baqara 2:108, dalam Lubab al-Nuqul f
 
 The verse, in al-Suyuti's heading: «أم تريدون».
 
+## Laporan lengkap (teks sumber Arab)
+<div dir="rtl" lang="ar">
+
+أم تريدون الآية ⁦(ك)⁩ أخرج ابن أبى حاتم من طريق سعيد أو عكرمة عن ابن عباس قال قال رافع بن حريملة ووهب بن زيد لرسول الله يا محمد ائتنا بكتاب تنزله علينا من السماء نقرؤه أو فجر لنا أنهارا نتبعك ونصدقك فأنزل الله في ذلك
+
+</div>
+
 ## Place in the museum
 Sumber: [[work/lubab-al-nuqul-suyuti|as-Suyuti Lubab al-Nuqul]]. Ayatnya: [[passage/quran-2-108|Al-Qur'an 2-108]].

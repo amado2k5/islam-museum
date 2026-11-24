@@ -10,5 +10,12 @@ Rapport d'al-Wahidi sur la circonstance de révélation de al-Baqara 2:226, tran
 
 The verse, in al-Wahidi's heading: «للذين يؤلون من نسائهم».
 
+## Rapport complet (texte source arabe)
+<div dir="rtl" lang="ar">
+
+ما عند الرجل في المرأة أربعة أشهر وأنزل الله: {للذين يؤلون من
+
+</div>
+
 ## Place in the museum
 Source : [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an d'al-Wahidi]]. Le verset : [[passage/quran-2-226|Coran 2-226]].

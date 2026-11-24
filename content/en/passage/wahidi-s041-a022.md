@@ -10,5 +10,12 @@ Al-Wahidi's report on the occasion of revelation of Fussilat 41:22, narrated fro
 
 The verse, in al-Wahidi's heading: «وما كنتم تستترون أن يشهد عليكم سمعكم».
 
+## Full report (Arabic source text)
+<div dir="rtl" lang="ar">
+
+لقد سمع كله، فنزلت هذه الآية: {وما كنتم تستترون أن يشهد عليكم} الآية.
+
+</div>
+
 ## Place in the museum
 Source: [[work/asbab-al-nuzul-wahidi|al-Wahidi's Asbab nuzul al-Qur'an]]. The verse: [[passage/quran-41-22|Qur'an 41-22]].

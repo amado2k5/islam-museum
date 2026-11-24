@@ -10,5 +10,12 @@ Riwayat al-Wahidi tentang sebab turunnya Al 'Imran 3:195, diriwayatkan dari gene
 
 The verse, in al-Wahidi's heading: «فاستجاب لهم ربهم».
 
+## Laporan lengkap (teks sumber Arab)
+<div dir="rtl" lang="ar">
+
+فأنزل الله: {فاستجاب لهم ربهم أني لا أضيع عمل عامل منكم من ذكر أو
+
+</div>
+
 ## Place in the museum
 Sumber: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an al-Wahidi]]. Ayatnya: [[passage/quran-3-195|Al-Qur'an 3-195]].

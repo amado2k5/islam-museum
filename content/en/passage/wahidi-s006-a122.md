@@ -10,5 +10,12 @@ Al-Wahidi's report on the occasion of revelation of al-An'am 6:122, narrated fro
 
 The verse, in al-Wahidi's heading: «أومن كان ميتا فأحييناه».
 
+## Full report (Arabic source text)
+<div dir="rtl" lang="ar">
+
+عبده ورسوله، فأنزل اللههذه الآية.
+
+</div>
+
 ## Place in the museum
 Source: [[work/asbab-al-nuzul-wahidi|al-Wahidi's Asbab nuzul al-Qur'an]]. The verse: [[passage/quran-6-122|Qur'an 6-122]].

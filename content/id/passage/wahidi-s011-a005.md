@@ -10,5 +10,12 @@ Riwayat al-Wahidi tentang sebab turunnya Hud 11:5, diriwayatkan dari generasi Ta
 
 The verse, in al-Wahidi's heading: «ألا إنهم يثنون صدورهم».
 
+## Laporan lengkap (teks sumber Arab)
+<div dir="rtl" lang="ar">
+
+نزلت في الأخنس بن شريق، وكان رجلا حلو الكلام حلو المنظر، يلقى رسول
+
+</div>
+
 ## Place in the museum
 Sumber: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an al-Wahidi]]. Ayatnya: [[passage/quran-11-5|Al-Qur'an 11-5]].

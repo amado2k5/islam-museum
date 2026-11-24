@@ -10,5 +10,12 @@ Informe de al-Wahidi sobre la ocasión de revelación de Bara'a (at-Tawba) 9:64,
 
 The verse, in al-Wahidi's heading: «يحذر المنافقون أن تنزل عليهم سورة تنبئهم».
 
+## Informe completo (texto fuente en árabe)
+<div dir="rtl" lang="ar">
+
+قال السدي: قال بعض المنافقين: والله لوددت أني قدمت فجلدت مائة ولا ينزل
+
+</div>
+
 ## Place in the museum
 Fuente: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an de al-Wahidi]]. El versículo: [[passage/quran-9-64|Corán 9-64]].

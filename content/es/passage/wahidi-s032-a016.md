@@ -10,5 +10,12 @@ Informe de al-Wahidi sobre la ocasión de revelación de as-Sajda 32:16, transmi
 
 The verse, in al-Wahidi's heading: «تتجافى ms237 جنوبهم عن المضاجع».
 
+## Informe completo (texto fuente en árabe)
+<div dir="rtl" lang="ar">
+
+قال مالك بن دينار: سألت أنس بن مالك عن هذه الآية فيمن نزلت، فقال: كان
+
+</div>
+
 ## Place in the museum
 Fuente: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an de al-Wahidi]]. El versículo: [[passage/quran-32-16|Corán 32-16]].

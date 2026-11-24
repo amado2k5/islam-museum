@@ -10,5 +10,12 @@ Al-Wahidi's report on the occasion of revelation of Al 'Imran 3:169, narrated fr
 
 The verse, in al-Wahidi's heading: «ولا تحسبن الذين قتلوا في سبيل الله أمواتا».
 
+## Full report (Arabic source text)
+<div dir="rtl" lang="ar">
+
+وجل: "أنا أبلغهم عنكم"، فأنزل الله: {ولا تحسبن الذين قتلوا في
+
+</div>
+
 ## Place in the museum
 Source: [[work/asbab-al-nuzul-wahidi|al-Wahidi's Asbab nuzul al-Qur'an]]. The verse: [[passage/quran-3-169|Qur'an 3-169]].

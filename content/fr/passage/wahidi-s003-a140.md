@@ -10,5 +10,12 @@ Rapport d'al-Wahidi sur la circonstance de révélation de Al 'Imran 3:140, tran
 
 The verse, in al-Wahidi's heading: «إن يمسسكم قرح».
 
+## Rapport complet (texte source arabe)
+<div dir="rtl" lang="ar">
+
+" فأنزل الله: {إن يمسسكم قرح} الآية.
+
+</div>
+
 ## Place in the museum
 Source : [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an d'al-Wahidi]]. Le verset : [[passage/quran-3-140|Coran 3-140]].

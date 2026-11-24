@@ -10,5 +10,12 @@ Informe de al-Suyuti sobre la ocasión de revelación de an-Nahl 16:126, en Luba
 
 The verse, in al-Suyuti's heading: «وإن عاقبتم».
 
+## Informe completo (texto fuente en árabe)
+<div dir="rtl" lang="ar">
+
+وإن عاقبتم أخرج الحاكم والبيهقي في الدلائل والبزار عن أبي ريرة أن رسول الله وقف على حمزة حين استشهد وقد مثل به فقال لأمثلن بسبعين منهم مكانك فنزل جبريل والنبي واقف بخواتيم سورة النحل وإن عاقبتم فعاقوا
+
+</div>
+
 ## Place in the museum
 Fuente: [[work/lubab-al-nuqul-suyuti|de al-Suyuti Lubab al-Nuqul]]. El versículo: [[passage/quran-16-126|Corán 16-126]].

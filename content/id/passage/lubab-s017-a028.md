@@ -10,5 +10,12 @@ Riwayat as-Suyuti tentang sebab turunnya al-Isra 17:28, dalam Lubab al-Nuqul fi 
 
 The verse, in al-Suyuti's heading: «وإما تعرضن».
 
+## Laporan lengkap (teks sumber Arab)
+<div dir="rtl" lang="ar">
+
+وإما تعرضن الآية أخرج سعيد بن منصور عن عطاء الخراساني قال جاء ناس من مزينة يستحملون رسول الله فقال لا أجد ما أحملكم عليه فتولوا وأعينهم تفيض من الدمع حزنا ظنوا ذلك من غضب رسول الله فأنزل
+
+</div>
+
 ## Place in the museum
 Sumber: [[work/lubab-al-nuqul-suyuti|as-Suyuti Lubab al-Nuqul]]. Ayatnya: [[passage/quran-17-28|Al-Qur'an 17-28]].

@@ -10,5 +10,12 @@ al-Baqara 2:254 کے سببِ نزول پر الواحدی کی روایت — �
 
 The verse, in al-Wahidi's heading: «يا أيها الذين آمنوا لا تقولوا راعنا».
 
+## مکمل روایت ⁦(عربی ماخذ متن)⁩
+<div dir="rtl" lang="ar">
+
+فأنزل الله: {يا أيها
+
+</div>
+
 ## Place in the museum
 ماخذ: [[work/asbab-nuzul-wahidi|الواحدی کی اسباب نزول القرآن]]۔ آیت: [[passage/quran-2-254|قرآن 2-254]]۔

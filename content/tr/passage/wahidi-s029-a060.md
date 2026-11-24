@@ -10,5 +10,12 @@ al-'Ankabut 29:60 ayetinin nüzül sebebi hakkında El-Vahidi'nin rivayeti; Esba
 
 The verse, in al-Wahidi's heading: «وكأين من دابة لا تحمل رزقها».
 
+## Tam rivayet (Arapça kaynak metin)
+<div dir="rtl" lang="ar">
+
+فوالله ما برحنا حتى نزلت: {وكأين من دابة لا تحمل رزقها الله يرزقها
+
+</div>
+
 ## Place in the museum
 Kaynak: [[work/asbab-nuzul-wahidi|El-Vahidi'nin Esbab Nüzul el-Kur'an'ı]]. Ayet: [[passage/quran-29-60|Kur'an 29-60]].

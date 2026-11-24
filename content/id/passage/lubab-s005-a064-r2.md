@@ -10,5 +10,12 @@ Riwayat as-Suyuti tentang sebab turunnya al-Ma'ida 5:64, dalam Lubab al-Nuqul fi
 
 The verse, in al-Suyuti's heading: «وقالت اليهود».
 
+## Laporan lengkap (teks sumber Arab)
+<div dir="rtl" lang="ar">
+
+وقالت اليهود الآية أخرج الطبراني عن ابن عباس قال قال رجل من اليهود له النباش بن قيس إن ربك بخيل لا ينفق فأنزل الله وقالت اليهود يد الله مغلولة الآية وأخرج بو الشيخ من وجه آخر عنه قال نزلت وقالت اليهود يد الله مغلولة في
+
+</div>
+
 ## Place in the museum
 Sumber: [[work/lubab-al-nuqul-suyuti|as-Suyuti Lubab al-Nuqul]]. Ayatnya: [[passage/quran-5-64|Al-Qur'an 5-64]].

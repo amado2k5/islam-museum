@@ -10,5 +10,12 @@ Riwayat al-Wahidi tentang sebab turunnya al-Baqara 2:97, diriwayatkan dari gener
 
 The verse, in al-Wahidi's heading: «من كان عدوا لله وملائكته».
 
+## Laporan lengkap (teks sumber Arab)
+<div dir="rtl" lang="ar">
+
+أنشدكم بالله وما أنزل عليكم من كتاب أتعلمون أنه رسول الله؟
+
+</div>
+
 ## Place in the museum
 Sumber: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an al-Wahidi]]. Ayatnya: [[passage/quran-2-97|Al-Qur'an 2-97]].

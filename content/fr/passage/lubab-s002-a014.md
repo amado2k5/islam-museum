@@ -10,5 +10,12 @@ Rapport d'al-Suyuti sur la circonstance de révélation de al-Baqara 2:14, dans 
 
 The verse, in al-Suyuti's heading: «وإذا لقوا الذين آمنوا».
 
+## Rapport complet (texte source arabe)
+<div dir="rtl" lang="ar">
+
+وإذا لقوا الذين آمنوا أخرج الوحداي أن والثعلبي من طريق محمد بن مروان والسدي الصغير عن الكلبي عن أبي صالح عن ابن عباس قال نزلت هذه الآية في عبد الله بن آبى وأصحابه وذلك أنهم خرجوا ذات يوم ف استقبلهم نفر من أصحاب رسول الله
+
+</div>
+
 ## Place in the museum
 Source : [[work/lubab-al-nuqul-suyuti|d'al-Suyuti Lubab al-Nuqul]]. Le verset: [[passage/quran-2-14|Coran 2-14]].

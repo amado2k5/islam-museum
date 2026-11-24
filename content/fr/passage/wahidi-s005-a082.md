@@ -10,5 +10,12 @@ Rapport d'al-Wahidi sur la circonstance de révélation de al-Ma'ida 5:82, trans
 
 The verse, in al-Wahidi's heading: «لتجدن أشد الناس عداوة للذين آمنوا اليهود».
 
+## Rapport complet (texte source arabe)
+<div dir="rtl" lang="ar">
+
+إلى قوله: {والذين كفروا وكذبوا} نزلت في النجاشي وأصحابه.
+
+</div>
+
 ## Place in the museum
 Source : [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an d'al-Wahidi]]. Le verset : [[passage/quran-5-82|Coran 5-82]].

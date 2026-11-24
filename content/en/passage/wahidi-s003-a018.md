@@ -10,5 +10,12 @@ Al-Wahidi's report on the occasion of revelation of Al 'Imran 3:18, narrated fro
 
 The verse, in al-Wahidi's heading: «شهد الله أنه لا إله إلا هو».
 
+## Full report (Arabic source text)
+<div dir="rtl" lang="ar">
+
+قال: "نعم"، قالا: إنا نسألك عن شهادة، فإن
+
+</div>
+
 ## Place in the museum
 Source: [[work/asbab-al-nuzul-wahidi|al-Wahidi's Asbab nuzul al-Qur'an]]. The verse: [[passage/quran-3-18|Qur'an 3-18]].

@@ -10,5 +10,12 @@ Rapport d'al-Wahidi sur la circonstance de révélation de al-Baqara 2:26, trans
 
 The verse, in al-Wahidi's heading: «إن الله لا يستحيي أن يضرب مثلا».
 
+## Rapport complet (texte source arabe)
+<div dir="rtl" lang="ar">
+
+فأنزل الله هذه الآية.
+
+</div>
+
 ## Place in the museum
 Source : [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an d'al-Wahidi]]. Le verset : [[passage/quran-2-26|Coran 2-26]].

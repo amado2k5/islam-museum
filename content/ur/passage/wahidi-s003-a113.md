@@ -10,5 +10,12 @@ Al 'Imran 3:113 کے سببِ نزول پر الواحدی کی روایت — �
 
 The verse, in al-Wahidi's heading: «ليسوا سواء».
 
+## مکمل روایت ⁦(عربی ماخذ متن)⁩
+<div dir="rtl" lang="ar">
+
+خسرتم حين استبدلتم بدينكم دينا غيره، فأنزل الله: {ليسوا سواء}
+
+</div>
+
 ## Place in the museum
 ماخذ: [[work/asbab-nuzul-wahidi|الواحدی کی اسباب نزول القرآن]]۔ آیت: [[passage/quran-3-113|قرآن 3-113]]۔

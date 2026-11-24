@@ -10,5 +10,12 @@ Rapport d'al-Wahidi sur la circonstance de révélation de al-An'am 6:13, transm
 
 The verse, in al-Wahidi's heading: «وله ما سكن في الليل والنهار».
 
+## Rapport complet (texte source arabe)
+<div dir="rtl" lang="ar">
+
+عليه، فنزلت هذه الآية.
+
+</div>
+
 ## Place in the museum
 Source : [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an d'al-Wahidi]]. Le verset : [[passage/quran-6-13|Coran 6-13]].

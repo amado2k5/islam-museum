@@ -10,5 +10,12 @@ Informe de al-Wahidi sobre la ocasión de revelación de al-Baqara 2:75, transmi
 
 The verse, in al-Wahidi's heading: «أفتطمعون أن يؤمنوا لكم».
 
+## Informe completo (texto fuente en árabe)
+<div dir="rtl" lang="ar">
+
+قال ابن عباس ومقاتل: نزلت في السبعين الذين اختارهم موسى ليذهبوا معه
+
+</div>
+
 ## Place in the museum
 Fuente: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an de al-Wahidi]]. El versículo: [[passage/quran-2-75|Corán 2-75]].

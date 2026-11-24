@@ -10,5 +10,12 @@ Al-Wahidi's report on the occasion of revelation of Bara'a (at-Tawba) 9:106, nar
 
 The verse, in al-Wahidi's heading: «وآخرون مرجون لأمر الله».
 
+## Full report (Arabic source text)
+<div dir="rtl" lang="ar">
+
+نزلت في كعب بن مالك ومرارة بن الربيع أحد بني عمرو بن عوف وهلال بن أمية
+
+</div>
+
 ## Place in the museum
 Source: [[work/asbab-al-nuzul-wahidi|al-Wahidi's Asbab nuzul al-Qur'an]]. The verse: [[passage/quran-9-106|Qur'an 9-106]].

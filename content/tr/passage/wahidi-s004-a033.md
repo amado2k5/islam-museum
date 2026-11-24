@@ -10,5 +10,12 @@ an-Nisa 4:33 ayetinin nüzül sebebi hakkında El-Vahidi'nin rivayeti; Esbab Nü
 
 The verse, in al-Wahidi's heading: «ولكل جعلنا موالي».
 
+## Tam rivayet (Arapça kaynak metin)
+<div dir="rtl" lang="ar">
+
+سعيد بن المسيب: نزلت هذه الآية: {ولكل جعلنا موالي مما ترك الوالدان
+
+</div>
+
 ## Place in the museum
 Kaynak: [[work/asbab-nuzul-wahidi|El-Vahidi'nin Esbab Nüzul el-Kur'an'ı]]. Ayet: [[passage/quran-4-33|Kur'an 4-33]].

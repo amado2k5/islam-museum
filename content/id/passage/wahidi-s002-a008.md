@@ -10,5 +10,12 @@ Riwayat al-Wahidi tentang sebab turunnya al-Baqara 2:8, diriwayatkan dari genera
 
 The verse, in al-Wahidi's heading: «ومن الناس من يعجبك قوله في الحياة الدنيا».
 
+## Laporan lengkap (teks sumber Arab)
+<div dir="rtl" lang="ar">
+
+قال السدي نزلت في الأخنس بن شريق الثقفي، وهو حليف بني زهرة أقبل إلى
+
+</div>
+
 ## Place in the museum
 Sumber: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an al-Wahidi]]. Ayatnya: [[passage/quran-2-8|Al-Qur'an 2-8]].

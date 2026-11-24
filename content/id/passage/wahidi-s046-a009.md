@@ -10,5 +10,12 @@ Riwayat al-Wahidi tentang sebab turunnya al-Ahqaf 46:9, diriwayatkan dari genera
 
 The verse, in al-Wahidi's heading: «وما أدري ما يفعل بي ولا بكم».
 
+## Laporan lengkap (teks sumber Arab)
+<div dir="rtl" lang="ar">
+
+فسكت رسول الله- فأنزل الله
+
+</div>
+
 ## Place in the museum
 Sumber: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an al-Wahidi]]. Ayatnya: [[passage/quran-46-9|Al-Qur'an 46-9]].

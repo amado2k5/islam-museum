@@ -10,5 +10,12 @@ al-Ahzab 33:50 ayetinin nüzül sebebi hakkında El-Vahidi'nin rivayeti; Esbab N
 
 The verse, in al-Wahidi's heading: «يا أيها النبي اتق الله ولا تطع الكافرين والمنافقين».
 
+## Tam rivayet (Arapça kaynak metin)
+<div dir="rtl" lang="ar">
+
+نزلت في أبي سفيان وعكرمة بن أبي جهل وأبي الأعور عمرو بن سفيان السلمي
+
+</div>
+
 ## Place in the museum
 Kaynak: [[work/asbab-nuzul-wahidi|El-Vahidi'nin Esbab Nüzul el-Kur'an'ı]]. Ayet: [[passage/quran-33-50|Kur'an 33-50]].

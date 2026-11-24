@@ -10,5 +10,12 @@ Informe de al-Suyuti sobre la ocasión de revelación de Al 'Imran 3:169, en Lub
 
 The verse, in al-Suyuti's heading: «ولا تحسبن».
 
+## Informe completo (texto fuente en árabe)
+<div dir="rtl" lang="ar">
+
+ولا تحسبن الآية روى أحمد وأبو داود والحاكم عن ابن عباس قال رسول الله لما أصيب أخوانكم بأحد جعل الله أرواحهم في أجواف طير خضر ترد أنهار الجنة وتاكل من ثمارها وتأوي إلى قناديل من ذهب في ظل العرش فلما وجدوا
+
+</div>
+
 ## Place in the museum
 Fuente: [[work/lubab-al-nuqul-suyuti|de al-Suyuti Lubab al-Nuqul]]. El versículo: [[passage/quran-3-169|Corán 3-169]].

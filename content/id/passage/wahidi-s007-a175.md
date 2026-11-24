@@ -10,5 +10,12 @@ Riwayat al-Wahidi tentang sebab turunnya al-A'raf 7:175, diriwayatkan dari gener
 
 The verse, in al-Wahidi's heading: «واتل عليهم نبأ الذي آتيناه آياتنا فانسلخ منها».
 
+## Laporan lengkap (teks sumber Arab)
+<div dir="rtl" lang="ar">
+
+قال ابن مسعود: نزلت في بلعم بن أبره رجل من بني إسرائيل.
+
+</div>
+
 ## Place in the museum
 Sumber: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an al-Wahidi]]. Ayatnya: [[passage/quran-7-175|Al-Qur'an 7-175]].

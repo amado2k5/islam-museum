@@ -10,5 +10,12 @@ Al-Wahidi's report on the occasion of revelation of al-Ma'ida 5:57, narrated fro
 
 The verse, in al-Wahidi's heading: «يا أيها الذين آمنوا شهادة بينكم».
 
+## Full report (Arabic source text)
+<div dir="rtl" lang="ar">
+
+من شهادتهما وما اعتدينا، فنزلت هاتان الآيتان: {يا أيها الذين آمنوا شهادة
+
+</div>
+
 ## Place in the museum
 Source: [[work/asbab-al-nuzul-wahidi|al-Wahidi's Asbab nuzul al-Qur'an]]. The verse: [[passage/quran-5-57|Qur'an 5-57]].
