@@ -31,7 +31,7 @@ const suraOf = (n: any): number | null => {
 const onSky = nuzulItems.filter((i) => suraOf(i.node) !== null);
 const elsewhere = nuzulItems.length - onSky.length;
 
-const short = (n: any) => labelOf(n, lang).replace(/\s*⁦?\(.*$/, "").replace(/\s+[—–]\s+.*$/, "").trim();
+const short = (n: any) => labelOf(n, lang).replace(/\s*\u2066?\(.*$/, "").replace(/\s+[—–]\s+.*$/, "").trim();
 const genCounts = (list: typeof nuzulItems) => GENS.map((k) => list.filter((i) => i.narrator === k).length);
 
 interface Beam { key: string; name: string; label: string; items: typeof nuzulItems; k: number[]; href: string }
