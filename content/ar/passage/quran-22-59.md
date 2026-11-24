@@ -3,6 +3,11 @@ id: passage/quran-22-59
 lang: ar
 source_lang: ar
 translators: []
+provenance:
+  generated_by: "Claude Code (Sonnet 5.5 session)"
+  model: claude-sonnet-5-5
+  run: altafsir-tabari-batch-7-2026-11-24
+  source: source/altafsir-tabari
 ---
 
 ## موجز
@@ -10,3 +15,7 @@ translators: []
 
 ## موضعها
 موضعها: الآية 59 من أصل 78 آية في السورة. النص محفوظ من مصحف تنزيل المجمّد ولا يُعاد كتابته هنا.
+
+## تفسير الطبري
+
+يبيّن الطبري أن الله يدخل المقتول في سبيله من المهاجرين والميت منهم مدخلاً يرضونه وهو الجنة، وأن الله لعليم حليم، أي عليم بمن يهاجر في سبيله وبمن يخرج طلباً لغنيمة أو عَرَض من الدنيا، وحليم عن عصاة خلقه بتركه معاجلتهم بالعقوبة. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=22&tAyahNo=59&tDisplay=yes&UserProfile=0&LanguageId=1

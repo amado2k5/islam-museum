@@ -3,6 +3,11 @@ id: passage/quran-23-78
 lang: ar
 source_lang: ar
 translators: []
+provenance:
+  generated_by: "Claude Code (Sonnet 5.5 session)"
+  model: claude-sonnet-5-5
+  run: altafsir-tabari-batch-7-2026-11-24
+  source: source/altafsir-tabari
 ---
 
 ## موجز
@@ -10,3 +15,7 @@ translators: []
 
 ## موضعها
 موضعها: الآية 78 من أصل 118 آية في السورة. النص محفوظ من مصحف تنزيل المجمّد ولا يُعاد كتابته هنا.
+
+## تفسير الطبري
+
+يبيّن الطبري أن الله هو الذي أنشأ للمكذبين بالبعث السمع والأبصار والأفئدة، فكيف يتعذر على من أنشأ ذلك ابتداءً أن يعيده بعد عدمه، وهو يوجده إذا شاء ويفنيه إذا أراد. قليلاً ما تشكرون، أي ما أقلّ شكركم على هذه النعم. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=23&tAyahNo=78&tDisplay=yes&UserProfile=0&LanguageId=1

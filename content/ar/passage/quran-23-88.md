@@ -3,6 +3,11 @@ id: passage/quran-23-88
 lang: ar
 source_lang: ar
 translators: []
+provenance:
+  generated_by: "Claude Code (Sonnet 5.5 session)"
+  model: claude-sonnet-5-5
+  run: altafsir-tabari-batch-7-2026-11-24
+  source: source/altafsir-tabari
 ---
 
 ## موجز
@@ -10,3 +15,7 @@ translators: []
 
 ## موضعها
 موضعها: الآية 88 من أصل 118 آية في السورة. النص محفوظ من مصحف تنزيل المجمّد ولا يُعاد كتابته هنا.
+
+## تفسير الطبري
+
+يقول الطبري إن الله يأمر نبيه أن يقول: من بيده ملكوت كل شيء، أي خزائن كل شيء، وهو يجير ولا يجار عليه إن كنتم تعلمون؟ ويورد قول مجاهد أن الملكوت خزائن كل شيء. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=23&tAyahNo=88&tDisplay=yes&UserProfile=0&LanguageId=1

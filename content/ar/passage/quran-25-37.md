@@ -3,6 +3,11 @@ id: passage/quran-25-37
 lang: ar
 source_lang: ar
 translators: []
+provenance:
+  generated_by: "Claude Code (Sonnet 5.5 session)"
+  model: claude-sonnet-5-5
+  run: altafsir-tabari-batch-7-2026-11-24
+  source: source/altafsir-tabari
 ---
 
 ## موجز
@@ -10,3 +15,7 @@ translators: []
 
 ## موضعها
 موضعها: الآية 37 من أصل 77 آية في السورة. النص محفوظ من مصحف تنزيل المجمّد ولا يُعاد كتابته هنا.
+
+## تفسير الطبري
+
+يذكر الطبري أن قوم نوح لما كذّبوا الرسل ورفضوا ما جاؤوهم به من الحق أغرقهم الله بالطوفان، وجعل تغريقهم وإهلاكهم عظة وعبرة للناس، وأعدّ للظالمين في الآخرة عذاباً أليماً سوى ما حلّ بهم من عاجل العذاب. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=25&tAyahNo=37&tDisplay=yes&UserProfile=0&LanguageId=1

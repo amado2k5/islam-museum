@@ -3,6 +3,11 @@ id: passage/quran-21-68
 lang: ar
 source_lang: ar
 translators: []
+provenance:
+  generated_by: "Claude Code (Sonnet 5.5 session)"
+  model: claude-sonnet-5-5
+  run: altafsir-tabari-batch-7-2026-11-24
+  source: source/altafsir-tabari
 ---
 
 ## موجز
@@ -10,3 +15,7 @@ translators: []
 
 ## موضعها
 موضعها: الآية 68 من أصل 112 آية في السورة. النص محفوظ من مصحف تنزيل المجمّد ولا يُعاد كتابته هنا.
+
+## تفسير الطبري
+
+يذكر الطبري أن بعض قوم إبراهيم قال لبعض: حرّقوه وانصروا آلهتكم إن كنتم فاعلين، أي إن أردتم نصرتها ولم ترغبوا في ترك عبادتها. ويورد قولاً بأن القائل رجل من أكراد فارس، وروايات في إيقاد النار وإلقائه فيها. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=21&tAyahNo=68&tDisplay=yes&UserProfile=0&LanguageId=1
