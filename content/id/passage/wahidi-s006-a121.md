@@ -8,7 +8,7 @@ translators: ["machine translation, draft"]
 ## Summary
 Riwayat al-Wahidi tentang sebab turunnya al-An'am 6:121, diriwayatkan dari generasi Tabi'in dalam Asbab nuzul al-Qur'an (ed. Dar al-Islah 1992, Shamela 11314).
 
-The verse, in al-Wahidi's heading: «ولا تأكلوا مما لم يذكر اسم ms151 الله عليه».
+The verse, in al-Wahidi's heading: «ولا تأكلوا مما لم يذكر اسم الله عليه».
 
 ## Laporan lengkap (teks sumber Arab)
 

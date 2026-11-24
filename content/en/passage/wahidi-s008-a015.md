@@ -6,7 +6,7 @@ translators: ["machine translation, draft"]
 ---
 
 ## Summary
-Al-Wahidi's report on the occasion of revelation of al-Anfal 8:15, narrated in Asbab nuzul al-Qur'an (Dar al-Islah 1992 ed., Shamela 11314).
+Al-Wahidi's report on the occasion of revelation of al-Anfal 8:27, narrated in Asbab nuzul al-Qur'an (Dar al-Islah 1992 ed., Shamela 11314).
 
 The verse, in al-Wahidi's heading: «يا أيها الذين آمنوا لا تخونوا الله والرسول».
 
@@ -15,4 +15,4 @@ The verse, in al-Wahidi's heading: «يا أيها الذين آمنوا لا ت
 نزلت في أبي لبابة بن عبد المنذر الأنصاري، وذلك أن رسول الله - حاصر يهود قريظة إحدى وعشرين ليلة، فسألوا رسول الله - الصلح على ما صالح عليه إخوانهم من بني النضير على أن يسيروا إلى إخوانهم بأذرعات وأريحا من أرض الشام، فأبى أن يعطيهم ذلك إلى أن ينزلوا على حكم سعد بن معاذ، فأبوا وقالوا: أرسل إلينا أبا لبابة، وكان مناصحا لهم، لأن عياله وماله وولده كانت عندهم، فبعثه رسول الله - فأتاهم فقالوا: يا أبا لبابة ما ترى؟ أننزل على حكم سعد بن معاذ؟ فأشار أبو لبابة بيده إلى حلقه: إنه الذبح فلا تفعلوا، قال أبو لبابة: والله ما زالت قدماي حتى علمت أني قد خنت الله ورسوله، فنزلت فيه هذه الآية، فلما نزلت شد نفسه على سارية من سواري المسجد وقال: والله لا أذوق طعاما ولا شرابا حتى أموت أو يتوب الله علي فمكث سبعة أيام لا يذوق فيها طعاما حتى خر مغشيا عليه، ثم تاب الله عليه، فقيل له: يا أبا لبابة قد تيب عليك، فقال: لا والله لا أحل نفسي حتى يكون رسول الله - هو الذي يحلني، فجاءه فحله بيده، ثم قال أبو لبابة: إن من تمام توبتي أن أهجر دار قومي التي أصبت فيها الذنب، وأن أنخلع من مالي، فقال رسول الله- "يجزيك الثلث أن تتصدق به".
 
 ## Place in the museum
-Source: [[work/asbab-al-nuzul-wahidi|al-Wahidi's Asbab nuzul al-Qur'an]]. The verse: [[passage/quran-8-15|Qur'an 8-15]].
+Source: [[work/asbab-al-nuzul-wahidi|al-Wahidi's Asbab nuzul al-Qur'an]]. The verse: [[passage/quran-8-27|Qur'an 8-27]].

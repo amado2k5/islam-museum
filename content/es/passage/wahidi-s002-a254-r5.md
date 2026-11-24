@@ -6,7 +6,7 @@ translators: ["machine translation, draft"]
 ---
 
 ## Summary
-Informe de al-Wahidi sobre la ocasión de revelación de al-Baqara 2:254, transmitido de la generación de los Sucesores (tabi'in) en Asbab nuzul al-Qur'an (ed. Dar al-Islah 1992, Shamela 11314).
+Informe de al-Wahidi sobre la ocasión de revelación de al-Baqara 2:178, transmitido de la generación de los Sucesores (tabi'in) en Asbab nuzul al-Qur'an (ed. Dar al-Islah 1992, Shamela 11314).
 
 The verse, in al-Wahidi's heading: «يا أيها الذين آمنوا كتب عليكم القصاص في القتلى».
 
@@ -15,4 +15,4 @@ The verse, in al-Wahidi's heading: «يا أيها الذين آمنوا كتب 
 الآية {178}. قال الشعبي: كان بين حيين من أحياء العرب قتال، وكان لأحد الحيين طول على الآخر، فقالوا: نقتل بالعبد منا الحر منكم، وبالمرأة الرجل، فنزلت هذه الآية.
 
 ## Place in the museum
-Fuente: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an de al-Wahidi]]. El versículo: [[passage/quran-2-254|Corán 2-254]].
+Fuente: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an de al-Wahidi]]. El versículo: [[passage/quran-2-178|Corán 2-178]].

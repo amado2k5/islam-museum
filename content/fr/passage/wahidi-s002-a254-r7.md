@@ -6,7 +6,7 @@ translators: ["machine translation, draft"]
 ---
 
 ## Summary
-Rapport d'al-Wahidi sur la circonstance de révélation de al-Baqara 2:254, transmis de la génération des Compagnons dans Asbab nuzul al-Qur'an (éd. Dar al-Islah 1992, Shamela 11314).
+Rapport d'al-Wahidi sur la circonstance de révélation de al-Baqara 2:267, transmis de la génération des Compagnons dans Asbab nuzul al-Qur'an (éd. Dar al-Islah 1992, Shamela 11314).
 
 The verse, in al-Wahidi's heading: «يا أيها الذين آمنوا أنفقوا من طيبات ما كسبتم».
 
@@ -15,4 +15,4 @@ The verse, in al-Wahidi's heading: «يا أيها الذين آمنوا أنف�
 {267}. أخبرنا عبد الرحمن أحمد الصيدلاني قال: حدثنا محمد بن عبد الله بن محمد بن نعيم قال: حدثنا أحمد بن سهل بن حمدويه قال: حدثنا قيس بن أنيف، حدثنا قتيبة بن سعيد، حدثنا حاتم بن إسماعيل، عن جعفر بن محمد، عن أبيه، عن جابر: قال أمر النبي- بزكاة الفطر بصاع من تمر، فجاء رجل بتمر رديء، فنزل القرآن: {يا أيها الذين آمنوا أنفقوا من طيبات ما كسبتم ومما أخرجنا لكم من الأرض ولا تيمموا الخبيث منه تنفقون} أخبرنا أبو إسحاق أحمد بن محمد الواعظ قال: أخبرنا عبد الله بن حامد الأصفهاني قال: حدثنا محمد بن إسماعيل الفارسي قال: حدثنا أحمد بن موسى الجماز قال: حدثنا عمرو بن حماد بن طلحة قال: حدثنا أسباط بن نصر، عن السدي، عن عدي بن ثابت، عن البراء قال: نزلت هذه الآية في الأنصار، كانت تخرج إذا كان جذاذ النخل من حيطانها أقناء من التمر والبسر، فيعلقونها على حبل بين أسطوانتين في مسجد رسول الله- فيأكل منه فقراء المهاجرين، وكان الرجل يعمد فيخرج قنو الحشف وهو يظن أنه جائز عنه في كثرة ما يوضع من الأقناء فنزل فيمن فعل ذلك: {ولا تيمموا الخبيث منه تنفقون} يعني القنو الذي فيه حشف ولو أهدي إليكم ما قبلتموه.
 
 ## Place in the museum
-Source : [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an d'al-Wahidi]]. Le verset : [[passage/quran-2-254|Coran 2-254]].
+Source : [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an d'al-Wahidi]]. Le verset : [[passage/quran-2-267|Coran 2-267]].

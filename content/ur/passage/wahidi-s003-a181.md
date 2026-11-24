@@ -8,7 +8,7 @@ translators: ["machine translation, draft"]
 ## Summary
 Al 'Imran 3:181 کے سببِ نزول پر الواحدی کی روایت — «اسباب نزول القرآن» ⁦(دار الاصلاح 1992، شاملة 11314)⁩ — تابعین کی نسل سے۔
 
-The verse, in al-Wahidi's heading: «لقد سمع الله ms088 قول الذين قالوا».
+The verse, in al-Wahidi's heading: «لقد سمع الله قول الذين قالوا».
 
 ## مکمل روایت ⁦(عربی ماخذ متن)⁩
 

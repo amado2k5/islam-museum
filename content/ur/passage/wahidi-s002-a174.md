@@ -8,7 +8,7 @@ translators: ["machine translation, draft"]
 ## Summary
 al-Baqara 2:174 کے سببِ نزول پر الواحدی کی روایت — «اسباب نزول القرآن» ⁦(دار الاصلاح 1992، شاملة 11314)⁩ — تابعین کی نسل سے۔
 
-The verse, in al-Wahidi's heading: «إن الذين يكتمون ms027 ما أنزل الله من الكتاب».
+The verse, in al-Wahidi's heading: «إن الذين يكتمون ما أنزل الله من الكتاب».
 
 ## مکمل روایت ⁦(عربی ماخذ متن)⁩
 

@@ -6,7 +6,7 @@ translators: ["machine translation, draft"]
 ---
 
 ## Summary
-Informe de al-Wahidi sobre la ocasión de revelación de al-Hijr 15:9, transmitido de la generación de los Compañeros en Asbab nuzul al-Qur'an (ed. Dar al-Islah 1992, Shamela 11314).
+Informe de al-Wahidi sobre la ocasión de revelación de al-Hujurat 49:9, transmitido de la generación de los Compañeros en Asbab nuzul al-Qur'an (ed. Dar al-Islah 1992, Shamela 11314).
 
 The verse, in al-Wahidi's heading: «وإن طائفتان من المؤمنين اقتتلوا».
 
@@ -15,4 +15,4 @@ The verse, in al-Wahidi's heading: «وإن طائفتان من المؤمنين
 أخبرنا محمد بن أحمد بن جعفر النحوي قال: أخبرنا محمد بن أحمد بن سنان المقرئ قال: أخبرنا أحمد بن علي الموصلي قال: أخبرنا إسحاق بن أبي إسرائيل قال: أخبرنا معتمر بن سليمان قال: سمعت أبي يحدث عن أنس قال: قلت يا نبي الله لو أتيت عبد الله بن أبي فانطلق إليه النبي- فركب حمارا وانطلق المسلمون يمشون، وهي أرض سبخة فلما أتاه النبي - قال: إليك عني، فوالله لقد آذاني نتن حمارك، فقال رجل من الأنصار: والله لحمار رسول الله- أطيب ريحا منك، فغضب لعبد الله رجل من قومه، وغضب لكل واحد منهما أصحابه، وكان بينهم ضرب بالجريد والأيدي والنعال، فبلغنا أنه أنزلت فيهم: {وإن طائفتان من المؤمنين اقتتلوا فأصلحوا بينهما} رواه البخاري عن مسدد ورواه مسلم عن محمد بن عبد الأعلى، كلاهما عن المعتمر.
 
 ## Place in the museum
-Fuente: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an de al-Wahidi]]. El versículo: [[passage/quran-15-9|Corán 15-9]].
+Fuente: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an de al-Wahidi]]. El versículo: [[passage/quran-49-9|Corán 49-9]].

@@ -8,7 +8,7 @@ translators: ["machine translation, draft"]
 ## Summary
 Al-Wahidi's report on the occasion of revelation of al-Baqara 2:174, narrated from the Tabi'i (Successor) generation in Asbab nuzul al-Qur'an (Dar al-Islah 1992 ed., Shamela 11314).
 
-The verse, in al-Wahidi's heading: «إن الذين يكتمون ms027 ما أنزل الله من الكتاب».
+The verse, in al-Wahidi's heading: «إن الذين يكتمون ما أنزل الله من الكتاب».
 
 ## Full report (Arabic source text)
 

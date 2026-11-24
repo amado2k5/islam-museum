@@ -8,7 +8,7 @@ translators: ["machine translation, draft"]
 ## Summary
 al-An'am 6:121 کے سببِ نزول پر الواحدی کی روایت — «اسباب نزول القرآن» ⁦(دار الاصلاح 1992، شاملة 11314)⁩ — تابعین کی نسل سے۔
 
-The verse, in al-Wahidi's heading: «ولا تأكلوا مما لم يذكر اسم ms151 الله عليه».
+The verse, in al-Wahidi's heading: «ولا تأكلوا مما لم يذكر اسم الله عليه».
 
 ## مکمل روایت ⁦(عربی ماخذ متن)⁩
 

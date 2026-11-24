@@ -8,7 +8,7 @@ translators: ["machine translation, draft"]
 ## Summary
 Al 'Imran 3:181 ayetinin nüzül sebebi hakkında El-Vahidi'nin rivayeti; Esbab Nüzul el-Kur'an'dan (Darül-İslah 1992 baskısı, Şamile 11314) — tabiin neslinden.
 
-The verse, in al-Wahidi's heading: «لقد سمع الله ms088 قول الذين قالوا».
+The verse, in al-Wahidi's heading: «لقد سمع الله قول الذين قالوا».
 
 ## Tam rivayet (Arapça kaynak metin)
 

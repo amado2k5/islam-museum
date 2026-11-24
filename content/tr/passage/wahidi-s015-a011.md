@@ -6,7 +6,7 @@ translators: ["machine translation, draft"]
 ---
 
 ## Summary
-al-Hijr 15:11 ayetinin nüzül sebebi hakkında El-Vahidi'nin rivayeti; Esbab Nüzul el-Kur'an'dan (Darül-İslah 1992 baskısı, Şamile 11314).
+al-Hajj 22:11 ayetinin nüzül sebebi hakkında El-Vahidi'nin rivayeti; Esbab Nüzul el-Kur'an'dan (Darül-İslah 1992 baskısı, Şamile 11314).
 
 The verse, in al-Wahidi's heading: «ومن الناس من يعبد الله على حرف».
 
@@ -15,4 +15,4 @@ The verse, in al-Wahidi's heading: «ومن الناس من يعبد الله ع
 قال المفسرون: نزلت في أعراب كانوا يقدمون على رسول الله - المدينة مهاجرين من باديتهم، وكان أحدهم إذا قدم المدينة فإن صح بها جسمه ونتجت فرسه مهرا حسنا وولدت امرأته غلاما وكثر ماله وما شيته رضي عنه واطمأن، وقال: ما أصبت منذ دخلت في ديني هذا إلا خيرا، وإن أصابه وجع المدينة وولدت امرأته جارية وأجهضت رماكه وذهب ماله وتأخرت عنه الصدقة، أتاه الشيطان فقال: والله ما أصبت منذ كنت على دينك هذا إلا شرا، فينقلب على دينه، فأنزل الله: {ومن الناس من يعبد الله على حرف} الآية. وروى عطية عن أبي سعيد الخدري قال: أسلم رجل من اليهود فذهب بصره وماله وولده وتشاءم بالإسلام، فأتى النبي- فقال: أقلني، فقال: "إن الإسلام لا يقال"، فقال: إني لم أصب في ديني هذا خيرا، أذهب بصري ومالي وولدي، فقال: "يا يهودي إن الإسلام يسبك الرجال كما تسبك النار خبث الحديد والفضة والذهب"، قال: ونزلت: {ومن الناس من يعبد الله على حرف}
 
 ## Place in the museum
-Kaynak: [[work/asbab-nuzul-wahidi|El-Vahidi'nin Esbab Nüzul el-Kur'an'ı]]. Ayet: [[passage/quran-15-11|Kur'an 15-11]].
+Kaynak: [[work/asbab-nuzul-wahidi|El-Vahidi'nin Esbab Nüzul el-Kur'an'ı]]. Ayet: [[passage/quran-22-11|Kur'an 22-11]].

@@ -6,7 +6,7 @@ translators: ["machine translation, draft"]
 ---
 
 ## Summary
-Al-Wahidi's report on the occasion of revelation of al-Hijr 15:2, narrated from the Tabi'i (Successor) generation in Asbab nuzul al-Qur'an (Dar al-Islah 1992 ed., Shamela 11314).
+Al-Wahidi's report on the occasion of revelation of al-Hujurat 49:2, narrated from the Tabi'i (Successor) generation in Asbab nuzul al-Qur'an (Dar al-Islah 1992 ed., Shamela 11314).
 
 The verse, in al-Wahidi's heading: «يا أيها الذين آمنوا لا ترفعوا أصواتكم فوق صوت النبي».
 
@@ -15,4 +15,4 @@ The verse, in al-Wahidi's heading: «يا أيها الذين آمنوا لا ت
 الآية {2}. نزلت في ثابت بن قيس بن شماس كان في أذنه وقر، وكان جهوري الصوت، وكان إذا كلم إنسانا جهر بصوته، فربما كان يكلم رسول الله- فيتأذى بصوته، فأنزل الله هذه الآية. أخبرنا أحمد بن إبراهيم المزكي قال: أخبرنا عبيد الله بن محمد الزاهد قال: أخبرنا أبو القاسم البغوي قال أخبرنا قطن بن نسير قال: أخبرنا جعفر بن سليمان الضبعي قال: أخبرنا ثابت عن أنس: لما نزلت هذه الآية: {لا ترفعوا أصواتكم فوق صوت النبي} قال ثابت بن قيس: أنا الذي كنت أرفع صوتي فوق صوت النبي وأنا من أهل النار، فذكر ذلك لرسول الله- فقال "هو من أهل الجنة". رواه مسلم عن قطن بن نسير. وقال ابن أبي مليكة: كاد الخيران أن يهلكا: أبو بكر وعمر رفع أصواتهما عند النبي- حين قدم عليه ركب من بني تميم، فأشار أحدهما بالأقرع بن حابس وأشار الآخر برجل آخر، فقال أبو بكر لعمر: ما أردت إلا خلافي. وقال عمر: ما أردت خلافك وارتفعت أصواتهما في ذلك، فأنزل الله في ذلك: {لا ترفعوا أصواتكم} الآية. وقال ابن الزبير: فما كان عمر يسمع رسول الله- بعد هذه الآية حتى يستفهمه.
 
 ## Place in the museum
-Source: [[work/asbab-al-nuzul-wahidi|al-Wahidi's Asbab nuzul al-Qur'an]]. The verse: [[passage/quran-15-2|Qur'an 15-2]].
+Source: [[work/asbab-al-nuzul-wahidi|al-Wahidi's Asbab nuzul al-Qur'an]]. The verse: [[passage/quran-49-2|Qur'an 49-2]].

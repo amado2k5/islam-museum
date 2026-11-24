@@ -8,7 +8,7 @@ translators: ["machine translation, draft"]
 ## Summary
 Riwayat al-Wahidi tentang sebab turunnya al-Baqara 2:119, diriwayatkan dari generasi Sahabat dalam Asbab nuzul al-Qur'an (ed. Dar al-Islah 1992, Shamela 11314).
 
-The verse, in al-Wahidi's heading: «ولا تسأل عن ms022 أصحاب الجحيم».
+The verse, in al-Wahidi's heading: «ولا تسأل عن أصحاب الجحيم».
 
 ## Laporan lengkap (teks sumber Arab)
 

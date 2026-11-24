@@ -8,7 +8,7 @@ translators: ["machine translation, draft"]
 ## Summary
 Riwayat al-Wahidi tentang sebab turunnya al-Baqara 2:174, diriwayatkan dari generasi Tabi'in dalam Asbab nuzul al-Qur'an (ed. Dar al-Islah 1992, Shamela 11314).
 
-The verse, in al-Wahidi's heading: «إن الذين يكتمون ms027 ما أنزل الله من الكتاب».
+The verse, in al-Wahidi's heading: «إن الذين يكتمون ما أنزل الله من الكتاب».
 
 ## Laporan lengkap (teks sumber Arab)
 

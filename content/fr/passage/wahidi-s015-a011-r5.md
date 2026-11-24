@@ -6,7 +6,7 @@ translators: ["machine translation, draft"]
 ---
 
 ## Summary
-Rapport d'al-Wahidi sur la circonstance de révélation de al-Hijr 15:11, transmis de la génération des Successeurs (tabi'in) dans Asbab nuzul al-Qur'an (éd. Dar al-Islah 1992, Shamela 11314).
+Rapport d'al-Wahidi sur la circonstance de révélation de al-Hujurat 49:11, transmis de la génération des Successeurs (tabi'in) dans Asbab nuzul al-Qur'an (éd. Dar al-Islah 1992, Shamela 11314).
 
 The verse, in al-Wahidi's heading: «ولا تنابزوا بالألقاب».
 
@@ -15,4 +15,4 @@ The verse, in al-Wahidi's heading: «ولا تنابزوا بالألقاب».
 أخبرنا أحمد بن محمد بن إبراهيم المهرجاني قال: أخبرنا أبو عبد الله بن بطة قال: أخبرنا عبد الله بن محمد بن عبد العزيز قال: أخبرنا إسحاق بن إبراهيم المروزي قال: أخبرنا حفص بن غياث، عن داود بن أبي هند، عن الشعبي، عن أبي جبيرة بن الضحاك عن أبيه وعمومته، قالوا: قدم علينا النبي، فجعل الرجل يدعو الرجل ينبزه، فيقال: يا رسول الله، إنه يكرهه. فنزلت: {ولا تنابزوا بالألقاب}
 
 ## Place in the museum
-Source : [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an d'al-Wahidi]]. Le verset : [[passage/quran-15-11|Coran 15-11]].
+Source : [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an d'al-Wahidi]]. Le verset : [[passage/quran-49-11|Coran 49-11]].

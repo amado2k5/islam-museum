@@ -8,7 +8,7 @@ translators: ["machine translation, draft"]
 ## Summary
 al-Hijr 15:49 کے سببِ نزول پر الواحدی کی روایت — «اسباب نزول القرآن» ⁦(دار الاصلاح 1992، شاملة 11314)⁩۔
 
-The verse, in al-Wahidi's heading: «نبئ ms188 عبادي أني أنا الغفور الرحيم».
+The verse, in al-Wahidi's heading: «نبئ عبادي أني أنا الغفور الرحيم».
 
 ## مکمل روایت ⁦(عربی ماخذ متن)⁩
 

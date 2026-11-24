@@ -8,7 +8,7 @@ translators: ["machine translation, draft"]
 ## Summary
 Al-Wahidi's report on the occasion of revelation of al-Hijr 15:49, narrated in Asbab nuzul al-Qur'an (Dar al-Islah 1992 ed., Shamela 11314).
 
-The verse, in al-Wahidi's heading: «نبئ ms188 عبادي أني أنا الغفور الرحيم».
+The verse, in al-Wahidi's heading: «نبئ عبادي أني أنا الغفور الرحيم».
 
 ## Full report (Arabic source text)
 

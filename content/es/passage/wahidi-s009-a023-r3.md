@@ -6,7 +6,7 @@ translators: ["machine translation, draft"]
 ---
 
 ## Summary
-Informe de al-Wahidi sobre la ocasión de revelación de Bara'a (at-Tawba) 9:23, transmitido en Asbab nuzul al-Qur'an (ed. Dar al-Islah 1992, Shamela 11314).
+Informe de al-Wahidi sobre la ocasión de revelación de Bara'a (at-Tawba) 9:38, transmitido en Asbab nuzul al-Qur'an (ed. Dar al-Islah 1992, Shamela 11314).
 
 The verse, in al-Wahidi's heading: «يا أيها الذين آمنوا ما لكم إذا قيل لكم انفروا».
 
@@ -15,4 +15,4 @@ The verse, in al-Wahidi's heading: «يا أيها الذين آمنوا ما ل
 . نزلت في الحث على غزوة تبوك، وذلك أن رسول الله- لما رجع من الطائف وغزوة حنين أمر بالجهاد لغزو الروم، وذلك في زمان عسرة من الناس وجدب من البلاد وشدة من الحر، حين أخرفت النخل وطابت الثمار، فعظم على الناس غزوة الروم وأحبوا الظلال والمقام في المساكن والمال، وشق عليهم الخروج إلى القتال، فلما علم الله تثاقل الناس أنزل هذه الآية.
 
 ## Place in the museum
-Fuente: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an de al-Wahidi]]. El versículo: [[passage/quran-9-23|Corán 9-23]].
+Fuente: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an de al-Wahidi]]. El versículo: [[passage/quran-9-38|Corán 9-38]].
