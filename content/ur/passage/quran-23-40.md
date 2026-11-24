@@ -13,4 +13,4 @@ provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Docu
 
 ## تفسیر طبری
 
-الطبری کہتے ہیں کہ خدا نے اس سے کہا: "تھوڑی دیر میں وہ پشیمان ہوں گے" یعنی تھوڑی دیر کے بعد جب ان پر عذاب نازل ہو گا تو یہ منکر اپنے انکار پر پچھتائیں گے۔ {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=23&tAyahNo=40&tDisplay=yes&UserProfile=0&LanguageId=1
+الطبری کہتے ہیں کہ اللہ نے ان سے کہا: 'جلد ہی وہ پچھتائیں گے،' یعنی جلد ہی یہ انکار کرنے والے اپنے انکار پر پچھتائیں گے جب ان پر سزا نازل ہوگی۔ {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=23&tAyahNo=40&tDisplay=yes&UserProfile=0&LanguageId=1

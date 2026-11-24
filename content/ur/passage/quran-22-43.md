@@ -13,4 +13,4 @@ provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Docu
 
 ## تفسیر طبری
 
-الطبری بیان کرتے ہیں کہ قوم ابراہیم، قوم لوط اور اہل مدین نے بھی کفر کیا اور موسیٰ بھی کافر تھے۔ پس خدا نے کافروں کو مہلت دی اور پھر پکڑ لیا۔ تو اس کا انکار، یعنی ان کا انکار اور ان پر عذاب کیسا تھا؟ {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=22&tAyahNo=43&tDisplay=yes&UserProfile=0&LanguageId=1
+الطبری وضاحت کرتے ہیں کہ ابراہیم کے لوگ، لوط کے لوگ، اور مدیان کے لوگ بھی جھوٹ بولے، اور موسیٰ نے بھی جھوٹ بولا۔ تو اللہ نے کافروں کو مہلت دی اور پھر انہیں لے لیا۔ تو اس کی ملامت کیسی تھی، یعنی ان کے انکار اور ان کے لیے اس کی سزا؟ {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=22&tAyahNo=43&tDisplay=yes&UserProfile=0&LanguageId=1

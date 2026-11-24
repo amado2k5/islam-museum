@@ -13,4 +13,4 @@ provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Docu
 
 ## تفسیر طبری
 
-الطبری کہتے ہیں کہ اللہ تعالیٰ نے ان قوموں کے منکروں کو مہلت دی، پھر انہیں عذاب سے پکڑا۔ تو اس نے ان کو کیسے جھڑکایا، یعنی ان کو تباہ کر دیا اور ان کے پاس موجود نعمتوں کو بدل دیا۔ یہ مشرکین قریش کے لیے عبرت ہے۔ {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=22&tAyahNo=44&tDisplay=yes&UserProfile=0&LanguageId=1
+الطبری کہتے ہیں کہ اللہ نے ان قوموں میں انکار کرنے والوں کو مہلت دی اور پھر انہیں سزا دی۔ تو ان پر اس کا انکار کیسا رہا—یعنی ان کی تلاوا اور ان کی برکت میں تبدیلی؟ یہ قریش کے مشرکوں کے لیے سبق ہے۔ {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=22&tAyahNo=44&tDisplay=yes&UserProfile=0&LanguageId=1
