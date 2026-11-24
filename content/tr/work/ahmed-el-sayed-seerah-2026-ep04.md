@@ -24,7 +24,7 @@ Müzedeki kayıtlar bu bölüme bağlıdır: [[concept/al-sira-al-nabawiyya|Peyg
 - Devesini kaybeden ve Peygamber'i Arafah'ta gören Cubeyr bin Mut'im'in hikayesini anlatır; bu yüzden devesinin el-Hams'tan olduğunu düşünce şaşırmıştır. {cite:podcast-ahmed-el-sayed seerah-2026/ep4}
 - Safa ve Merve ayetlerinin, bazı Ensarlıların Manat'a gidip benzerlikten korktukları için zorluğu gidermek için anıldığını, açıklar. Başka bir anlatımda iki puttan bahsedilir: Isaf ve Na'ilah. {cite:podcast-ahmed-el-sayed seerah-2026/ep4}
 - Peygamber'in Kutsal Aylar Hadislerinde Recep Mudar'ı belirtmesi, onun kutsal ayların dördüncü ayı konusunda Rebi'ye ile Mudar arasında bir anlaşmazlığa karar verdiğini açıklar. {cite:podcast-ahmed-el-sayed seerah-2026/ep4}
-- Her camide süs giyme ayetinin, Hamas dışındaki bazı Arapların çıplak bir şekilde evin etrafında dolaşması nedeniyle vahy olduğunu açıklar. {cite:podcast-ahmed-el-sayed seerah-2026/ep4}
+- Her camide süs giyme ayetinin, Hums dışındaki bazı Arapların çıplak bir şekilde evin etrafında dolaşması nedeniyle vahy olduğunu açıklar. {cite:podcast-ahmed-el-sayed seerah-2026/ep4}
 - İbn Abbas'tan rivayet edilir ki, Arapların cehaletini bilmek isteyen herkes, Enam suresinin yüz otuz ayetinden sonra okumalıdır. {cite:podcast-ahmed-el-sayed seerah-2026/ep4}
 
 Müzedeki kayıtlar bu bölüme bağlıdır: [[concept/hums|coşku]]، [[place/muzdalifa|Muzdalifah]]، [[place/arafat|Arafat]]، [[person/jubayr-ibn-mutim|Jubeir bin Mut'im]]، [[object/manat|Manat]]، [[person/abdullah-ibn-abbas|Abdullah bin Abbas]]، [[building/kaaba|Kabe]]

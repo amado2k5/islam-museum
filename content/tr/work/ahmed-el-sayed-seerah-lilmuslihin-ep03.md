@@ -32,7 +32,7 @@ Müzedeki kayıtlar bu bölüme bağlıdır: [[place/al-safa|Safa]]، [[practice
 
 - Halk bağlamında bolluğu emreden ayetin, İslam öncesi bir düzenlemeyle ilişkili olduğunu ve bu yorumların Sahih al-Buhari'de bulunduğunu belirtmek gerekir. {cite:podcast-ahmed-el-sayed seerah-lilmuslihin/ep3}
 - Qureyş'in El-Hemler olarak adlandırıldığı, Hac ile ilgili özel hükümleri olduğu ve Müzdelifeden aktığı, ancak Arafat'ta durmadığı, diğer insanların ise Arafat'tan taştığı rivayet edilir. {cite:podcast-ahmed-el-sayed seerah-lilmuslihin/ep3}
-- Cubeyr bin Mut'im'den bir haber, Peygamber'i İslam'dan önce Erafah'ta gördüğünü ve Hamas'tan olduğu için şaşırdığını anlatır; haberin tam zamanını belirtmekte tereddüt eder. {cite:podcast-ahmed-el-sayed seerah-lilmuslihin/ep3}
+- Cubeyr bin Mut'im'den bir haber, Peygamber'i İslam'dan önce Erafah'ta gördüğünü ve Hums'tan olduğu için şaşırdığını anlatır; haberin tam zamanını belirtmekte tereddüt eder. {cite:podcast-ahmed-el-sayed seerah-lilmuslihin/ep3}
 - İnsanların evi çıplak dolaştığı ve Kureyş'in üzerlerini verdiği anlatılır. Her camide süs giyme ayetinin bu konuda indiği rivayet edilir. {cite:podcast-ahmed-el-sayed seerah-lilmuslihin/ep3}
 
 Müzedeki kayıtlar bu bölüme bağlıdır: [[concept/hums|coşku]]، [[group/quraysh|Qureyş]]، [[place/muzdalifa|Muzdalifah]]، [[place/arafat|Arafat]]، [[person/jubayr-ibn-mutim|Jubeir bin Mut'im]]، [[person/muhammad|Muhammed]]، [[practice/tawaf|Tavif]]، [[practice/hajj|Hac]]، [[work/sahih-al-bukhari|Sahih al-Buhari]]
