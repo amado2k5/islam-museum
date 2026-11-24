@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-10-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل الآيات 58 إلى 59، وخلاصتها: يقول الطبري إن الله يسّر القرآن بلسان النبي ليتذكر المشركون ويتعظوا، فارتقب إنهم مرتقبون أي فانتظر ما يحلّ بهم إنهم منتظرون ما يحلّ بك. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=44&tAyahNo=58&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 58 إلى 59 مقطعاً واحداً. يفسّر قوله «فَإِنَّمَا يَسَّرْنَاهُ بِلِسَانِكَ لَعَلَّهُمْ يَتَذَكَّرُونَ»: فإنما سهَّلنا قراءة هذا القرآن الذي أنزلناه إليك يا محمد بلسانك، ليتذكر هؤلاء المشركون الذين أرسلناك إليهم بعبره وحُججه، ويتَّعظوا بعظاته، ويتفكَّروا في آياته إذا أنت تتلوه عليهم، فينيبوا إلى طاعة ربهم، ويذعنوا للحقّ عند تَبَيُنهموه. كما: وعن قتادة، قوله: «فإنَّمَا يَسَّرْناهُ بِلِسانِكَ»: أي هذا القرآن «لَعَلَّهُمْ يَتَذَكَّرُونَ». قال ابن زيد، في قوله: «فإنَّما يَسَّرْناهُ بِلِسانِكَ» قال: القرآن، ويسَّرناه: أطلق به لسانه. وقوله: وينقل في المقطع أقوالاً عن قتادة وابن زيد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=44&tAyahNo=58&tDisplay=yes&UserProfile=0&LanguageId=1

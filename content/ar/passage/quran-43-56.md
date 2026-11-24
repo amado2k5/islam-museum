@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-10-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يذكر الطبري قراءة «سُلُفاً» بضم السين واللام وقراءة «سَلَفاً» بفتحهما، ويفسّر أن الله جعل قوم فرعون سلفاً أي متقدمين في العذاب ومثلاً للآخرين يُعتبر بهم. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=43&tAyahNo=56&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 56 إلى 57 مقطعاً واحداً. يفسّر قوله «فَجَعَلْنَاهُمْ سَلَفاً وَمَثَلاً لِّلآخِرِينَ»: اختلفت القرّاء في قراءة ذلك، فقرأته عامة قرّاء الكوفة غير عاصم «فَجَعَلْناهُمْ سُلُفاً» بضم السين واللام، توجيهاً ذلك منهم إلى جمع سليف من الناس، وهو المتقدّم أمام القوم. وحَكى الفراء أنه سمع القاسم بن معن يذكر أنه سمع العرب تقول: مضى سليف من الناس. وقرأته عامة قرّاء المدينة والبصرة وعاصم: «فَجَعَلْناهُمْ سَلَفاً» بفتح السين واللام. وينقل في المقطع أقوالاً عن مجاهد وقتادة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=43&tAyahNo=56&tDisplay=yes&UserProfile=0&LanguageId=1

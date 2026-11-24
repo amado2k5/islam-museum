@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-10-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل الآيات 51 إلى 53، وخلاصتها: يقول الطبري إن المتقين في مقام أمين في جنات وعيون يلبسون من سندس وإستبرق متقابلين، ويذكر قراءتي «مَقام» و«مُقام» ومعنى المقام الأمين بأنه آمن من كل أذى. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=44&tAyahNo=53&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 53 إلى 55 مقطعاً واحداً. يفسّر قوله «إِنَّ ٱلْمُتَّقِينَ فِي مَقَامٍ أَمِينٍ»: إن الذين اتقوا الله بأداء طاعته، واجتناب معاصيه في موضع إقامة، آمنين في ذلك الموضع مما كان يخاف منه في مقامات الدنيا من الأوصاب والعلل والأنصاب والأحزان. واختلفت القرّاء في قراءة قوله: «فِي مَقامٍ أمِينٍ» فقرأته عامة قرّاء المدينة «في مُقامٍ أمِينٍ» بضم الميم، بمعنى: في إقامة أمين من الظعن. وقرأته عامة قرّاء المصرين. الكوفة والبصرة «فِي مَقامٍ» بفتح الميم على المعنى الذي وصفنا، وتوجيهاً إلى أنهم في مكان وموضع أمين. والصواب من القول في ذلك أنهما قراءتان مستفيضتان في قرأة الأمصار صحيحتا المعنى، فبأيتهما قرأ القارىء فمصيب. وينقل في المقطع أقوالاً عن قتادة وعكرمة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=44&tAyahNo=53&tDisplay=yes&UserProfile=0&LanguageId=1

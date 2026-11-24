@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-10-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن هذا الأفاك إذا علم من الآيات شيئاً اتخذها هزواً وأن له عذاباً مهيناً، ويذكر فعل أبي جهل حين نزلت آية شجرة الزقوم. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=45&tAyahNo=9&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَإِذَا عَلِمَ مِنْ ءَايَٰتِنَا شَيْئاً ٱتَّخَذَهَا هُزُواً أُوْلَٰئِكَ لَهُمْ عَذَابٌ مُّهِينٌ»: «وَإِذَا عَلِمَ» هذا الأفَّاك الأثيم «مِنْ» آيات الله «شَيْئاً اتَّخَذَها هُزُواً»: يقول: اتخذ تلك الآيات التي علمها هزواً، يسخر منها، وذلك كفعل أبي جهل حين نزلت«إنَّ شَجَرَةَ الزَّقُّوم طَعامُ الأثِيمِ» إذ دعا بتمر وزبد فقال: تزقموا من هذا، ما يعدكم محمد إلاَّ شهداً، وما أشبه ذلك من أفعالهم. وقوله: «أُولَئِكَ لَهُمْ عَذَابٌ مُهِينٌ» يقول تعالى ذكره: هؤلاء الذين يفعلون هذا الفعل، وهم الذين يسمعون آيات الله تُتلى عليهم ثم يصرّون على كفرهم استكباراً، ويتخذون آيات الله التي علموها هزواً، لهم يوم القيامة من الله عذاب مهين يهينهم ويذلهم في نار جهنم، بما كانوا في الدنيا يستكبرون عن طاعة الله واتباع آياته، وإنما قال تعالى ذكره: «أُولَئِكَ» فجمع.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=45&tAyahNo=9&tDisplay=yes&UserProfile=0&LanguageId=1

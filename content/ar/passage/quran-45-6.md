@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-10-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن هذه آيات الله نتلوها عليك بالحق فبأي حديث بعد الله وآياته يؤمنون، أي إن الله يخبر بالحق لا كما يخبر المشركون عن آلهتهم بالباطل. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=45&tAyahNo=6&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «تِلْكَ ءَايَٰتُ ٱللَّهِ نَتْلُوهَا عَلَيْكَ بِٱلْحَقِّ فَبِأَيِّ حَدِيثٍ بَعْدَ ٱللَّهِ وَءَايَٰتِهِ يُؤْمِنُونَ»: هذه الآيات والحجج يامحمد من ربك على خلقه نتلوها عليك بالحقّ: يقول: نخبرك عنها بالحقّ لا بالباطل، كما يخبر مشركو قومك عن آلهتهم بالباطل، أنها تقرّبهم إلى الله زُلْفَى، فبأيّ حديث بعد الله وآياته تؤمنون: يقول تعالى ذكره للمشركين به: فبأيّ حديث أيها القوم بعد حديث الله هذا الذي يتلوه عليكم، وبعد حججه عليكم وأدلته التي دلكم بها على وحدانيته من أنه لا ربّ لكم سواه، تصدّقون، إن أنتم كذّبتم لحديثه وآياته. وهذا التأويل على مذهب قراءة من قرأ «تُؤْمِنُونَ» على وجه الخطاب من الله بهذا الكلام للمشركين، وذلك قراءة عامة قرّاء الكوفيين.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=45&tAyahNo=6&tDisplay=yes&UserProfile=0&LanguageId=1

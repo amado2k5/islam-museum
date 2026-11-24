@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-10-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يعرض الطبري اختلاف أهل التأويل في الهاء في «وإنه لعلم للساعة»: فقيل تعود إلى عيسى وأن نزوله علامة قرب الساعة، وقيل تعود إلى القرآن، ويورد الروايات والأحاديث، ويرجّح ما رآه أولى. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=43&tAyahNo=61&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 61 إلى 62 مقطعاً واحداً. يفسّر قوله «وَإِنَّهُ لَعِلْمٌ لِّلسَّاعَةِ فَلاَ تَمْتَرُنَّ بِهَا وَٱتَّبِعُونِ هَٰذَا صِرَاطٌ مُّسْتَقِيمٌ»: اختلف أهل التأويل في الهاء التي في قوله: «وإنَّهُ» وما المعنيّ بها، ومن ذكر ما هي، فقال بعضهم: هي من ذكر عيسى، وهي عائدة عليه. وقالوا: معنى الكلام: وإن عيسى ظهوره علم يعلم به مجيء الساعة، لأن ظهوره من أشراطها ونزوله إلى الأرض دليل على فناء الدنيا، وإقبال الآخرة. وينقل في المقطع أقوالاً عن ابن عباس ومجاهد وقتادة والحسن وابن زيد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=43&tAyahNo=61&tDisplay=yes&UserProfile=0&LanguageId=1

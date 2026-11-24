@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-10-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن الكفار يقولون في ذلك ربنا اكشف عنا العذاب إنا مؤمنون، ويذكر الخلاف بين من جعل الدخان حدثاً ماضياً ومن جعله من أشراط الساعة. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=44&tAyahNo=12&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 12 إلى 14 مقطعاً واحداً. يفسّر قوله «فَٱرْتَقِبْ يَوْمَ تَأْتِي ٱلسَّمَآءُ بِدُخَانٍ مُّبِينٍ»: يعني تعالى ذكره بقوله: «فارْتَقِبْ» فانتظر يا محمد بهؤلاء المشركين من قومك الذين هم في شكّ يلعبون، وإنما هو افتعل، من رقبته: إذا انتظرته وحرسته. وينقل في المقطع أقوالاً عن قتادة والأعمش.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=44&tAyahNo=12&tDisplay=yes&UserProfile=0&LanguageId=1

@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-10-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل الآيات 34 إلى 36، وخلاصتها: يبيّن الطبري أن مشركي قريش قالوا إن هي إلا موتتنا الأولى وما نحن بمنشرين، فأتوا بآبائنا إن كنتم صادقين، أي ينكرون البعث ويطلبون إحياء آبائهم دليلاً. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=44&tAyahNo=34&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 34 إلى 36 مقطعاً واحداً. يفسّر قوله «إِنَّ هَٰؤُلاَءِ لَيَقُولُونَ»: يقول تعالى ذكره مخبراً عن قيل مشركي قريش لنبيّ الله: إن هؤلاء المشركين من قومك يا محمد «لَيَقُولُونَ إنْ هِيَ إلاَّ مَوْتَتُنا الأُولى» التي نموتها، وهي الموتة الأولى «وَما نَحْنُ بِمُنْشَرِينَ» بعد مماتنا، ولا بمبعوثين تكذيباً منهم بالبعث والثواب والعقاب. وينقل في المقطع أقوالاً عن قتادة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=44&tAyahNo=34&tDisplay=yes&UserProfile=0&LanguageId=1

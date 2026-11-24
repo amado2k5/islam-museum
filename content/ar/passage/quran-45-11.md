@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-10-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن هذا القرآن هدى أي بيان ودليل على الحق، والذين كفروا بآيات ربهم لهم عذاب من رجز أليم. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=45&tAyahNo=11&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «هَٰذَا هُدًى وَٱلَّذِينَ كَفَرُواْ بِآيَٰتِ رَبِّهِمْ لَهُمْ عَذَابٌ مِّن رِّجْزٍ أَلِيمٌ»: هذا القرآن الذي أنزلناه على محمد هدى: يقول: بيان ودليل على الحقّ، يهدي إلى صراط مستقيم، من اتبعه وعمل بما فيه «وَالَّذِينَ كَفَرُوا بآياتِ رَبهِمْ» يقول: والذين جحدوا ما في القرآن من الآيات الدالات على الحقّ، ولم يصدّقوا بها، ويعملوا بها، لهم عذاب أليم يوم القيامة موجع.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=45&tAyahNo=11&tDisplay=yes&UserProfile=0&LanguageId=1

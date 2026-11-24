@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-10-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يفسّر الطبري أنه ما بكت عليهم السماء والأرض وما كانوا منظرين، ويذكر قول من قال إن بكاء السماء حمرة أطرافها، ويورد الآثار في ذلك. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=44&tAyahNo=29&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 29 إلى 31 مقطعاً واحداً. يفسّر قوله «فَمَا بَكَتْ عَلَيْهِمُ ٱلسَّمَآءُ وَٱلأَرْضُ وَمَا كَانُواْ مُنظَرِينَ»: فما بكت على هؤلاء الذين غرّقهم الله في البحر، وهم فرعون وقومه، السماء والأرض، وقيل: إن بكاء السماء حمرة أطرافها. وينقل في المقطع أقوالاً عن ابن عباس ومجاهد وعطاء.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=44&tAyahNo=29&tDisplay=yes&UserProfile=0&LanguageId=1

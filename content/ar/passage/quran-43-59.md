@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-10-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن عيسى عبد أنعم الله عليه وجعله مثلاً لبني إسرائيل، ويذكر في سبب نزول ضرب المثل أخباراً عن ابن عباس وغيره في مجادلة المشركين. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=43&tAyahNo=59&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 59 إلى 61 مقطعاً واحداً. يفسّر قوله «وَقَالُوۤاْ ءَأَ ٰلِهَتُنَا خَيْرٌ أَمْ هُوَ مَا ضَرَبُوهُ لَكَ إِلاَّ جَدَلاً بَلْ هُمْ قَوْمٌ خَصِمُونَ»: وقال مشركو قومك يا محمد: آلهتنا التي نعبدها خير أم محمد؟ فنعبد محمداً ونترك آلهتنا؟. وذُكر أن ذلك في قراءة أُبيّ بن كعب: «أآلِهَتُنا خَيْرٌ أمْ هَذَا». ذكر الرواية بذلك: عن قتادة أن في حرف أبيّ بن كعب «وَقَالُوا أآلهَتُنَا خَيْرٌ أَمْ هَذا» يعنون محمداً. وقال آخرون: بل عني بذلك: آلهتنا خير أم عيسى؟. وينقل في المقطع أقوالاً عن قتادة وابن زيد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=43&tAyahNo=59&tDisplay=yes&UserProfile=0&LanguageId=1

@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-10-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن في خلق الناس وما يبثّ من دابة آيات لقوم يوقنون، أي حججاً وأدلة لمن يوقن بحقائق الأشياء. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=45&tAyahNo=4&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَفِي خَلْقِكُمْ وَمَا يَبُثُّ مِن دَآبَّةٍ ءَايَٰتٌ لِّقَوْمٍ يُوقِنُونَ»: وفي خلق الله إياكم أيها الناس، وخلقه ما تفرّق في الأرض من دابة تدبّ عليها من غير جنسكم «آياتٌ لِقَوْمٍ يُوقِنُونَ» يعني: حججاً وأدلة لقوم يوقنون بحقائق الأشياء، فيقرّون بها، ويعلمون صحتها. واختلفت القرّاء في قراءة قوله: «آياتٌ لِقَوْمٍ يُوقِنُونَ» وفي التي بعد ذلك فقرأ ذلك عامة قرّاء المدينة والبصرة وبعض قرّاء الكوفة آياتٌ رفعاً على الابتداء، وترك ردّها على قوله: «لآَياتٍ للْمُؤْمِنِينَ»، وقرأته عامة قرّاء الكوفة «آياتٍ» خفضا بتأويل النصب ردّاً على قوله: «لآَياتٍ للْمُؤْمِنِينَ».
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=45&tAyahNo=4&tDisplay=yes&UserProfile=0&LanguageId=1

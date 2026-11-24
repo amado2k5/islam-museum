@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-10-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل الآيات 63 إلى 64، وخلاصتها: يذكر الطبري أن عيسى جاء بني إسرائيل بالبينات أي الواضحات من الأدلة، وقيل الإنجيل، وقال قد جئتكم بالحكمة ولأبيّن لكم بعض الذي تختلفون فيه فاتقوا الله وأطيعون. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=43&tAyahNo=63&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 63 إلى 64 مقطعاً واحداً. يفسّر قوله «وَلَمَّا جَآءَ عِيسَىٰ بِٱلْبَيِّنَاتِ قَالَ قَدْ جِئْتُكُم بِٱلْحِكْمَةِ وَلأُبَيِّنَ لَكُم بَعْضَ ٱلَّذِي تَخْتَلِفُونَ فِيهِ فَٱتَّقُواْ ٱللَّهَ وَأَطِيعُونِ»: ولما جاء عيسى بني إسرائيل بالبيِّنات، يعني بالواضحات من الأدلة. وقيل: عُني بالبيِّنات: الإنجيل. وينقل في المقطع أقوالاً عن مجاهد وقتادة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=43&tAyahNo=63&tDisplay=yes&UserProfile=0&LanguageId=1

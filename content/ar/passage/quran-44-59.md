@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-10-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل الآيات 58 إلى 59، وخلاصتها: يقول الطبري إن الله يسّر القرآن بلسان النبي ليتذكر المشركون ويتعظوا، فارتقب إنهم مرتقبون أي فانتظر ما يحلّ بهم إنهم منتظرون ما يحلّ بك. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=44&tAyahNo=59&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 58 إلى 59 مقطعاً واحداً. يفسّر قوله «فَٱرْتَقِبْ إِنَّهُمْ مُّرْتَقِبُونَ»: فانتظر أنت يا محمد الفتح من ربك، والنصر على هؤلاء المشركين بالله من قومك من قريش، إنهم منتظرون عند أنفسهم قهرك وغلبتك بصدّهم عما أتيتهم به من الحقّ من أراد قبوله واتباعك عليه. وينقل في المقطع أقوالاً عن قتادة وابن زيد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=44&tAyahNo=59&tDisplay=yes&UserProfile=0&LanguageId=1

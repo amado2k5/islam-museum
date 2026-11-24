@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-10-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن فرعون قال أنا خير من هذا الذي هو مهين ولا يكاد يبين، فلولا أُلقي عليه أسورة من ذهب أو جاء معه الملائكة مقترنين، ويورد في معنى «لا يكاد يبين» ما كان بلسان موسى. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=43&tAyahNo=52&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 52 إلى 53 مقطعاً واحداً. يفسّر قوله «أَمْ أَنَآ خَيْرٌ مِّنْ هَٰذَا ٱلَّذِي هُوَ مَهِينٌ وَلاَ يَكَادُ يُبِينُ»: يقول تعالى ذكره مخبراً عن قيل فرعون لقومه بعد احتجاجه عليهم بملكه وسلطانه، وبيان لسانه وتمام خلقه، وفضل ما بينه وبين موسى بالصفات التي وصف بها نفسه وموسى: أنا خير أيها القوم، وصفتي هذه الصفة التي وصفت لكم، «أمْ هَذَا الَّذِي هُوَ مَهِينٌ» لا شيء له من المُلك والأموال مع العلة التي في جسده، والآفة التي بلسانه، فلا يكاد من أجلها يبين كلامه؟ وقد اختُلف في معنى قوله: «أمْ» في هذا الموضع، فقال بعضهم: معناها: بل أنا خير، وقالوا: ذلك خبر، لا استفهام. وينقل في المقطع أقوالاً عن قتادة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=43&tAyahNo=52&tDisplay=yes&UserProfile=0&LanguageId=1

@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-10-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل الآيات 54 إلى 55، وخلاصتها: يبيّن الطبري أن فرعون استخفّ قومه فأطاعوه لأنهم كانوا قوماً فاسقين، فلما آسفونا أي أغضبونا انتقمنا منهم فأغرقناهم أجمعين. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=43&tAyahNo=54&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 54 إلى 55 مقطعاً واحداً. يفسّر قوله «فَٱسْتَخَفَّ قَوْمَهُ فَأَطَاعُوهُ إِنَّهُمْ كَانُواْ قَوْماً فَاسِقِينَ»: فاستخفّ فرعون خلقاً من قومه من القبط، بقوله الذي أخبر الله تبارك وتعالى عنه أنه قال لهم، فقبلوا ذلك منه فأطاعوه، وكذّبوا موسى، وقال الله: وإنما أطاعوا فاستجابوا لما دعاهم إليه عدوّ الله من تصديقه، وتكذيب موسى، لأنهم كانوا قوماً عن طاعة الله خارجين بخذلانه إياهم، وطبعه على قلوبهم، يقول الله تبارك وتعالى: «فَلَمَّا آسَفُونا» يعني بقوله: آسفونا: أغضبونا. وينقل في المقطع أقوالاً عن ابن عباس ومجاهد وقتادة وابن زيد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=43&tAyahNo=54&tDisplay=yes&UserProfile=0&LanguageId=1

@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-10-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل الآيات 47 إلى 48، وخلاصتها: يفسّر الطبري الأمر خذوه فاعتلوه أي ادفعوه وسوقوه بغلظة إلى سواء الجحيم أي وسطه، ثم صبوا فوق رأسه من عذاب الحميم، ويستشهد ببيت للفرزدق في معنى العتل. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=44&tAyahNo=48&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 47 إلى 48 مقطعاً واحداً. يفسّر قوله «ثُمَّ صُبُّواْ فَوْقَ رَأْسِهِ مِنْ عَذَابِ ٱلْحَمِيمِ»: ثم صبوا على رأس هذا الأثيم من عذاب الحميم، يعني: من الماء المسخن الذي وصفنا صفته، وهو الماء الذي قال الله«يُصْهَرُ بِهِ ما في بُطُونهِمْ والجُلُودُ»، وقد بيَّنت صفته هنالك. وينقل في المقطع أقوالاً عن مجاهد وقتادة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=44&tAyahNo=48&tDisplay=yes&UserProfile=0&LanguageId=1

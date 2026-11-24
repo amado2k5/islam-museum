@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-10-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن فرعون نادى في قومه أليس لي ملك مصر وهذه الأنهار تجري من تحتي أفلا تبصرون. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=43&tAyahNo=51&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَنَادَىٰ فِرْعَوْنُ فِي قَوْمِهِ قَالَ يٰقَوْمِ أَلَيْسَ لِي مُلْكُ مِصْرَ وَهَٰذِهِ ٱلأَنْهَارُ تَجْرِي مِن تَحْتِيۤ أَفَلاَ تُبْصِرُونَ»: «وَنادَى فِرْعَوْنُ فِي قَوْمِهِ» من القبط، ف «قالَ يا قَوْم ألَيْسَ لي مُلْكُ مِصْرَ وَهَذِهِ الأنهارُ تَجْرِي مِنْ تَحْتِي أفَلا تُبْصِرُونَ» يعني بقوله: «مِنْ تَحْتِي»: من بين يديّ في الجنان. كما: وعن قتادة «وَهَذِهِ الأنهارُ تَجْرِي مِنْ تَحْتِي» قال: كانت لهم جنات وأنهار ماء. وينقل في المقطع أقوالاً عن قتادة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=43&tAyahNo=51&tDisplay=yes&UserProfile=0&LanguageId=1

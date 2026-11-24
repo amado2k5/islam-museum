@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-10-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن الله أمر موسى أن يسري بعباده ليلاً وأن يترك البحر ساكناً على حاله، ويفسّر الرهو بالساكن أو المنفرج الذي طرقه موسى بعصاه، إنهم جند مغرقون. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=44&tAyahNo=23&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 23 إلى 25 مقطعاً واحداً. يفسّر قوله «فَدَعَا رَبَّهُ أَنَّ هَٰؤُلاَءِ قَوْمٌ مُّجْرِمُونَ»: فدعا موسى ربه إذ كذّبوه ولم يؤمنوا به، ولم يؤدّ إليه عباد الله، وهموا بقتله بأن هؤلاء، يعني فرعون وقومه «قَوْمٌ مُجْرِمُونَ» عنى: أنهم مشركون بالله كافرون. وقوله: «فَأَسْر بِعِبادِي» وَفي الكلام محذوف استغني بدلالة ما ذُكر عليه منه، وهو: فأجابه رَبه بأن قال له: فأسر إذ كان الأمر كذلك بعبادي، وهم بنو إسرائيل، وَإنما معنى الكلام: فأسر بعبادي الذين صَدّقوك وآمنو بك، واتبعوك دون الذين كذّبوك منهم، وأبَوْا قبول ما جئتهم به من النصيحة منك، وكان الذين كانوا بهذه الصّفة يومئذٍ بني إسرائيل. وقال: «فَأَسْر بعِبادي لَيْلاً» لأن معنى ذلك: سر بهم بليل قبل الصباح. وينقل في المقطع أقوالاً عن ابن عباس وقتادة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=44&tAyahNo=23&tDisplay=yes&UserProfile=0&LanguageId=1

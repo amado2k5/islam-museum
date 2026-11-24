@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-10-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل الآيات 40 إلى 42، وخلاصتها: يبيّن الطبري أن يوم الفصل ميقاتهم أجمعين يوم لا يغني مولى عن مولى شيئاً ولا هم ينصرون إلا من رحم الله إنه هو العزيز الرحيم. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=44&tAyahNo=40&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 40 إلى 42 مقطعاً واحداً. يفسّر قوله «إِنَّ يَوْمَ ٱلْفَصْلِ مِيقَاتُهُمْ أَجْمَعِينَ»: إن يوم فصل الله القضاء بين خلقه بما أسلفوا في دنياهم من خير أو شرّ يجزى به المحسن بالإحسان، والمسيء بالإساءة ميقاتهم أجمعين: يقول: ميقات اجتماعهم أجمعين. كما: وعن قتادة، قوله: «إنَّ يَوْمَ الفَصْلِ مِيقاتُهُمْ أجمَعِينَ» يوم يُفْصَل فيه بين الناس بأعمالهم. وقوله: «يَوْمَ لا يُغْنِي مَوْلًى عن مَوْلىً شَيْئاً» يقول: لا يدفع ابن عمّ عن ابن عمّ، ولا صاحب عن صاحبه شيئاً من عقوبة الله التي حلَّت بهم من الله «وَلا هُمْ يُنْصَرُونَ» يقول: ولا ينصر بعضهم بعضاً، فيستعيذوا ممن نالهم بعقوبة كما كانوا يفعلونه في الدنيا. كما: وعن قتادة، قوله: «يَوْمَ لا يُغْنِي مَوْلًى عَنْ مَوْلًى شَيْئاً»... وينقل في المقطع أقوالاً عن قتادة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=44&tAyahNo=40&tDisplay=yes&UserProfile=0&LanguageId=1
