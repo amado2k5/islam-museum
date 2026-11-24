@@ -13,8 +13,8 @@ Isa bin Abi Isa Mahan, Abu Ja'far ar-Razi; tentangnya [[person/al-dhahabi|adz-Dz
 ## Pendapat para kritikus
 
 :::perspectives
-- **Ahlusunah: penilaian tepercaya**: Ibnu Ma'in berkata: tepercaya; Abu Hatim berkata: tepercaya dan jujur. {cite:mizan-itidal-bijawi-v3 p. 320}
-- **Ahlusunah: penilaian melemahkan**: Ahmad dan an-Nasa'i berkata: tidak kuat; Ibnu al-Madini berkata: tepercaya tetapi suka mencampuradukkan, dan pada kesempatan lain: hadisnya ditulis tetapi ia sering keliru; al-Fallas berkata: hafalannya buruk; Abu Zur'ah berkata: sering salah sangka; dan Ibnu Hibban berkata: ia menyendiri dengan riwayat munkar dari para perawi terkenal. {cite:mizan-itidal-bijawi-v3 p. 320}
+- **Ahlussunnah: penilaian tepercaya**: Ibnu Ma'in berkata: tepercaya; Abu Hatim berkata: tepercaya dan jujur. {cite:mizan-itidal-bijawi-v3 p. 320}
+- **Ahlussunnah: penilaian melemahkan**: Ahmad dan an-Nasa'i berkata: tidak kuat; Ibnu al-Madini berkata: tepercaya tetapi suka mencampuradukkan, dan pada kesempatan lain: hadisnya ditulis tetapi ia sering keliru; al-Fallas berkata: hafalannya buruk; Abu Zur'ah berkata: sering salah sangka; dan Ibnu Hibban berkata: ia menyendiri dengan riwayat munkar dari para perawi terkenal. {cite:mizan-itidal-bijawi-v3 p. 320}
 :::
 
 ## Di antara riwayatnya yang dikritik
