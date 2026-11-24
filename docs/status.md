@@ -27,6 +27,11 @@ Tranco (tranco-list.eu) is a research ranking of popular domains, recomputed dai
 
 Latest, checked 23 November 2026: **#657,206** on the list dated 23 November 2026 — up 26,098 places in a day from #683,304 (list of 22 November), and well inside the top 1,000,000 this log watches. The museum opened on 11 October 2026; 43 days later it stands 3,952,761 places above its first Tranco reading (#4,609,967 on the list of 23 October 2026). The 23 November rank was read from the published list file itself (list Q2464, the full list of 4,401,414 domains) before the API carried it.
 
+The wider reach evidence — Cloudflare visitor and request analytics, AI Crawl Control
+operator figures, referrals and the Singapore cloud-network investigation — lives in
+`docs/analytics/` (baseline `traffic-evidence-2026-11-24.md`, canonical aggregates in
+`site/src/data/traffic.json`, rendered publicly at `/{lang}/traffic/`).
+
 ## What exists
 
 | Area | State |

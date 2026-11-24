@@ -9159,3 +9159,65 @@ hunt:
   all: "Ketujuh tempat"
   reset: "Mulai lagi"
   about: "Tanpa akun dan tanpa pelacakan: kemajuan Anda hanya tersimpan di perangkat ini."
+traffic:
+  title: Lalu lintas dan jangkauan
+  lede: Potret terbuka dan bertanggal tentang bagaimana dunia dan mesinnya menemukan museum — analitik edge, tonggak peringkat, dan penemuan mesin, beserta sumbernya.
+  snapshot_tpl: "Potret per {date}: dasar historis, bukan dasbor langsung."
+  window: "Jendela pelaporan: 25 Oktober hingga 24 November 2026 (label Cloudflare)."
+  welcome: Museum menyambut segala bentuk kunjungan — pembaca manusia, mesin pencari, asisten AI, perayap, arsip, dan konsumen terprogram. Tidak ada yang diblokir, dibatasi, atau dihalangi di sini.
+  h_world: Dunia dalam tiga puluh hari
+  world_note: Angka-angka ini berasal dari analitik edge Cloudflare. Tayangan laman dan kunjungan adalah ukuran permintaan, bukan hitungan orang; jumlah orang unik tidak tersedia.
+  pageviews: tayangan laman
+  visits: kunjungan
+  h_rank: Tonggak peringkat
+  rank_head_list: Daftar
+  rank_head_result: Hasil
+  rank_head_date: Tanggal / cakupan
+  rank_head_status: Bukti
+  rank_tranco_result: "Peringkat {rank} dalam daftar sejuta teratas Tranco"
+  rank_radar_result: "Termasuk dalam {tier} domain teratas global Cloudflare Radar"
+  rank_verified: Terverifikasi pada berkas sumber
+  rank_reported: Dilaporkan sebelumnya, verifikasi tertunda
+  rank_note: Daftar Tranco menempatkan museum di peringkat 657.206 (berkas tertanggal 23 November 2026, diverifikasi baris demi baris). Cloudflare Radar memasukkan domain ini ke dalam 200.000 teratas tak berurutan untuk 16–23 November 2026 — keanggotaan dalam kelompok popularitas, bukan peringkat pasti. Pengamatan Tranco sebelumnya (23 Okt ≈ 4,6 jt; 20 Nov ≈ 858 rb; 21 Nov ≈ 717 rb) telah dilaporkan tetapi belum diverifikasi ulang. Tranco memakai Radar sebagai salah satu masukannya, sehingga kedua daftar tidak sepenuhnya independen.
+  h_countries: Dari mana tayangan laman berasal
+  countries_note: Negara alamat yang meminta, bukan kewarganegaraan atau lokasi pembaca. Angka dibulatkan.
+  ctry_us: Amerika Serikat
+  ctry_sg: Singapura
+  ctry_br: Brasil
+  ctry_ca: Kanada
+  ctry_cn: Tiongkok
+  ctry_de: Jerman
+  ctry_ar: Argentina
+  ctry_fr: Prancis
+  ctry_fi: Finlandia
+  ctry_bd: Bangladesh
+  th_country: Negara
+  th_pageviews: Tayangan laman
+  th_share: Pangsa
+  h_crawlers: Penemuan mesin
+  crawlers_note: AI Crawl Control Cloudflare melaporkan permintaan perayap terdeteksi — pengambilan oleh bot teridentifikasi, bukan dokumen unik, putaran pelatihan yang selesai, atau jawaban yang diberikan kepada pengguna. Angka ini tumpang tindih dengan tabel negara dan tidak boleh dijumlahkan ke dalamnya.
+  crawlers_detected: permintaan perayap terdeteksi
+  crawlers_ok: dijawab HTTP 200
+  crawlers_perplexity: HTML yang disajikan khusus untuk perayap Perplexity
+  th_operator: Operator
+  th_requests: Permintaan (perkiraan)
+  th_referrals: Rujukan
+  h_referrals: Dari mana tautan datang — dan ke mana ia mendarat
+  referrals_note: Ekspor perujuk persis pada jendela yang sama. Perujuk menunjukkan tautan yang diikuti — klik, pratinjau, atau pengambilan — belum tentu seseorang, jawaban AI, atau dukungan.
+  th_source: Sumber
+  th_group: Tujuan
+  th_count: Jumlah
+  destinations_note: Total tujuan berasal dari cakupan ekspor yang berbeda dari total sumber; keduanya tidak direkonsiliasi.
+  ref_wave: "Pergerakan penting dalam jendela: rujukan Google memuncak pada 18.420 pada 29 Oktober lalu menurun; rujukan Facebook seluler tumbuh tajam sekitar 22–23 November. Penyebabnya belum pasti — berbagi biasa, pratinjau, iklan, atau pengambil otomatis semuanya mungkin, dan belum ada kiriman tertentu yang dikaitkan dengan lonjakan itu."
+  h_networks: Dua jaringan cloud Singapura dari dekat
+  networks_note: Dua jaringan cloud di Singapura menghasilkan trafik permintaan yang luar biasa padat — sekitar 2,9 juta permintaan gabungan, sebagian besar laman, metadata API, dan pengalihan. Alamat jaringan menunjukkan infrastruktur keluar, bukan operator aplikasi yang berjalan di atasnya, dan dengan sendirinya tidak mengatakan layanan mana yang meminta laman.
+  th_network: Jaringan
+  th_req: Permintaan
+  th_transfer: Transfer
+  th_redirects: Pengalihan (301)
+  th_api: Permintaan host API
+  h_method: Cara membaca halaman ini
+  method_founder: Angka berasal dari ekspor dan tangkapan layar dasbor Cloudflare pribadi pendiri, ditambah dua berkas peringkat publik (Tranco dan Cloudflare Radar) yang diverifikasi ulang baris demi baris. Angka dasbor dibulatkan; tangkapan layar disalin sebagai nilai bulat.
+  method_metrics: Tayangan laman, kunjungan, permintaan, rujukan, dan deteksi perayap adalah ukuran berbeda dan tidak pernah dijumlahkan antar tampilan. Tidak ada pengunjung yang dihitung sebagai orang; IP menunjukkan alamat, bukan manusia.
+  method_full: Laporan bukti lengkap, manifes sumbernya, dan investigasi rekayasa di baliknya disimpan di repositori publik proyek.
+  method_repo: Baca catatan rekayasa

@@ -8073,3 +8073,65 @@ hunt:
   all: "Los siete lugares"
   reset: "Empezar de nuevo"
   about: "Sin cuenta ni rastreo: su progreso queda en este dispositivo."
+traffic:
+  title: Tráfico y alcance
+  lede: Una instantánea abierta y fechada de cómo el mundo y sus máquinas encuentran el museo — analítica de borde, hitos de clasificación y descubrimiento automático, con fuentes.
+  snapshot_tpl: "Instantánea del {date}: una base histórica, no un panel en vivo."
+  window: "Ventana del informe: del 25 de octubre al 24 de noviembre de 2026 (etiquetas de Cloudflare)."
+  welcome: El museo acoge toda forma de visita — lectores humanos, buscadores, asistentes de IA, rastreadores, archivos y consumidores programáticos. Nada se bloquea, limita o desalienta aquí.
+  h_world: El mundo en treinta días
+  world_note: Estas cifras proceden de la analítica de borde de Cloudflare. Las páginas vistas y las visitas son medidas de solicitudes, no un recuento de personas; no hay recuento de personas únicas disponible.
+  pageviews: páginas vistas
+  visits: visitas
+  h_rank: Hitos de clasificación
+  rank_head_list: Lista
+  rank_head_result: Resultado
+  rank_head_date: Fecha / alcance
+  rank_head_status: Evidencia
+  rank_tranco_result: "Puesto {rank} en el top millón de Tranco"
+  rank_radar_result: "Incluido en el top {tier} mundial de dominios de Cloudflare Radar"
+  rank_verified: Verificado en el archivo fuente
+  rank_reported: Reportado antes, verificación pendiente
+  rank_note: La lista Tranco sitúa al museo en el puesto 657 206 (archivo del 23 de noviembre de 2026, verificado línea por línea). Cloudflare Radar incluyó el dominio en su top 200 000 no ordenado del 16 al 23 de noviembre de 2026 — pertenencia a un grupo de popularidad, no un puesto exacto. Las observaciones Tranco anteriores (23 oct. ≈ 4,6 M; 20 nov. ≈ 858 mil; 21 nov. ≈ 717 mil) son reportadas, aún no reverificadas. Tranco usa Radar entre sus fuentes, así que ambas listas no son totalmente independientes.
+  h_countries: De dónde vienen las páginas vistas
+  countries_note: País de la dirección solicitante, no la nacionalidad ni la ubicación de quien lee. Cifras redondeadas.
+  ctry_us: Estados Unidos
+  ctry_sg: Singapur
+  ctry_br: Brasil
+  ctry_ca: Canadá
+  ctry_cn: China
+  ctry_de: Alemania
+  ctry_ar: Argentina
+  ctry_fr: Francia
+  ctry_fi: Finlandia
+  ctry_bd: Bangladés
+  th_country: País
+  th_pageviews: Páginas vistas
+  th_share: Cuota
+  h_crawlers: Descubrimiento automático
+  crawlers_note: El AI Crawl Control de Cloudflare informa solicitudes de rastreadores detectadas — descargas de bots identificados, no documentos únicos, entrenamientos completados ni respuestas dadas a usuarios. Estas cifras se solapan con la tabla de países y no deben sumarse a ella.
+  crawlers_detected: solicitudes de rastreadores detectadas
+  crawlers_ok: recibieron HTTP 200
+  crawlers_perplexity: de HTML servido solo a los rastreadores de Perplexity
+  th_operator: Operador
+  th_requests: Solicitudes (aprox.)
+  th_referrals: Referencias
+  h_referrals: De dónde llegan los enlaces — y dónde aterrizan
+  referrals_note: Exportaciones de referentes exactos en la misma ventana. Un referente muestra un enlace seguido — clic, vista previa o descarga — no necesariamente una persona, una respuesta de IA o un respaldo.
+  th_source: Fuente
+  th_group: Destino
+  th_count: Cantidad
+  destinations_note: Los totales de destino provienen de una cobertura de exportación distinta a la de las fuentes; no se reconcilian entre sí.
+  ref_wave: "Movimientos destacados en la ventana: las referencias de Google alcanzaron 18 420 el 29 de octubre antes de declinar; las de Facebook móvil crecieron con fuerza hacia el 22–23 de noviembre. La causa no está establecida — difusión común, vistas previas, anuncios o agentes automáticos son posibles, y ninguna publicación concreta se ha vinculado al pico."
+  h_networks: Dos redes de nube en Singapur, de cerca
+  networks_note: Dos redes de nube en Singapur generaron un tráfico de solicitudes inusualmente denso — unos 2,9 millones de solicitudes entre ambas, sobre todo páginas, metadatos de API y redirecciones. Las direcciones de red identifican la infraestructura de salida, no el operador de la aplicación que la usa, ni dicen por sí solas qué servicio pidió las páginas.
+  th_network: Red
+  th_req: Solicitudes
+  th_transfer: Transferencia
+  th_redirects: Redirecciones (301)
+  th_api: Solicitudes al host de API
+  h_method: Cómo leer esta página
+  method_founder: Las cifras provienen de exportaciones y capturas del panel privado de Cloudflare del fundador, más dos archivos públicos de clasificación (Tranco y Cloudflare Radar) reverificados línea por línea. Las cifras del panel están redondeadas; las capturas se transcriben como valores redondeados.
+  method_metrics: Páginas vistas, visitas, solicitudes, referencias y detecciones de rastreadores son medidas distintas y nunca se suman entre vistas. Ningún visitante se cuenta como persona; una IP muestra una dirección, no un humano.
+  method_full: El informe de evidencia completo, su manifiesto de fuentes y la investigación de ingeniería detrás se conservan en el repositorio público del proyecto.
+  method_repo: Leer el registro de ingeniería

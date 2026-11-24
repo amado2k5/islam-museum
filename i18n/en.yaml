@@ -8138,3 +8138,65 @@ hunt:
   all: "All seven places"
   reset: "Start again"
   about: "No account and no tracking: your progress stays on this device."
+traffic:
+  title: Traffic and reach
+  lede: An open snapshot of how the world and its machines find the museum — edge analytics, ranking milestones and machine discovery, dated and sourced.
+  snapshot_tpl: "Snapshot of {date}: a historical baseline, not a live dashboard."
+  window: "Reporting window: 25 October to 24 November 2026 (Cloudflare labels)."
+  welcome: The museum welcomes every form of traffic — human readers, search engines, AI assistants, crawlers, archives and programmatic consumers. Nothing here is blocked, throttled or discouraged.
+  h_world: Worldwide in thirty days
+  world_note: Cloudflare reported these edge-analytics figures. Pageviews and visits are request metrics, not counts of individual people, and unique-person counts are not available.
+  pageviews: Pageviews
+  visits: Visits
+  h_rank: Ranking milestones
+  rank_head_list: List
+  rank_head_result: Result
+  rank_head_date: Date / scope
+  rank_head_status: Evidence
+  rank_tranco_result: "Rank {rank} in the Tranco top million"
+  rank_radar_result: "Included in Cloudflare Radar's global top {tier} domains"
+  rank_verified: Verified against the source file
+  rank_reported: Earlier reported, verification pending
+  rank_note: The Tranco list places the museum at rank 657,206 (file dated 23 November 2026, verified row by row). Cloudflare Radar included the domain in its unordered top 200,000 for 16–23 November 2026 — inclusion in a popularity group, not an exact rank. Earlier Tranco observations (23 Oct ≈ 4.6M; 20 Nov ≈ 858k; 21 Nov ≈ 717k) are reported, not yet re-verified. Tranco uses Radar among its inputs, so the two are not fully independent.
+  h_countries: Where pageviews come from
+  countries_note: Country of the requesting address, not the nationality or location of whoever is reading. Figures are rounded.
+  ctry_us: United States
+  ctry_sg: Singapore
+  ctry_br: Brazil
+  ctry_ca: Canada
+  ctry_cn: China
+  ctry_de: Germany
+  ctry_ar: Argentina
+  ctry_fr: France
+  ctry_fi: Finland
+  ctry_bd: Bangladesh
+  th_country: Country
+  th_pageviews: Pageviews
+  th_share: Share
+  h_crawlers: Machine discovery
+  crawlers_note: Cloudflare's AI Crawl Control reports detected crawler requests — fetches by identified bots, not unique documents, completed training runs or answers given to users. These figures overlap with the country table and must not be added to it.
+  crawlers_detected: Detected crawler requests
+  crawlers_ok: answered HTTP 200
+  crawlers_perplexity: of HTML served to Perplexity's crawlers alone
+  th_operator: Operator
+  th_requests: Requests (approx.)
+  th_referrals: Referrals
+  h_referrals: Where links arrive from — and where they land
+  referrals_note: Exact-referrer exports over the same window. A referrer shows a followed link — a click, preview or fetch — not necessarily a person, an AI answer or an endorsement.
+  th_source: Source
+  th_group: Destination
+  th_count: Count
+  destinations_note: Destination totals come from a different export coverage than the source totals; the two are not reconciled.
+  ref_wave: "Notable movements in the window: Google referrals peaked at 18,420 on 29 October before declining; mobile Facebook referrals grew sharply around 22–23 November. The cause is not established — ordinary sharing, previews, ads or automated fetchers are all possible, and no specific post has been linked to the surge."
+  h_networks: Two Singapore cloud networks, up close
+  networks_note: Two cloud networks in Singapore generated unusually heavy request traffic — about 2.9 million requests between them, mostly for pages, API metadata and redirects. Network addresses identify the egress infrastructure, not the operator of the application running on it, and say nothing by themselves about which service requested the pages.
+  th_network: Network
+  th_req: Requests
+  th_transfer: Transfer
+  th_redirects: Redirects (301)
+  th_api: API-host requests
+  h_method: How to read this page
+  method_founder: The numbers come from the founder's private Cloudflare dashboard exports and screenshots, plus two public ranking files (Tranco and Cloudflare Radar) that were rechecked row by row. Dashboard figures are rounded; screenshots are transcribed as rounded values.
+  method_metrics: Pageviews, visits, requests, referrals and crawler detections are different measures and are never summed across views. No visitor is ever counted as a person; an IP shows an address, not a human.
+  method_full: The full evidence report, its source manifest and the engineering investigation behind it are kept in the project's public repository.
+  method_repo: Read the engineering record

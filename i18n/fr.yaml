@@ -9222,3 +9222,65 @@ hunt:
   all: "Les sept lieux"
   reset: "Recommencer"
   about: "Ni compte ni suivi : votre progression reste sur cet appareil."
+traffic:
+  title: Trafic et audience
+  lede: Un aperçu ouvert et daté de la façon dont le monde et ses machines trouvent le musée — analytique en périphérie, jalons de classement et découverte automatique, avec sources.
+  snapshot_tpl: "Instantané du {date} : une base historique, pas un tableau de bord en direct."
+  window: "Période du rapport : du 25 octobre au 24 novembre 2026 (libellés Cloudflare)."
+  welcome: Le musée accueille toutes les formes de visite — lecteurs humains, moteurs de recherche, assistants d'IA, robots d'indexation, archives et consommateurs programmatiques. Rien n'est bloqué, limité ou découragé ici.
+  h_world: Le monde en trente jours
+  world_note: Ces chiffres proviennent de l'analytique en périphérie de Cloudflare. Pages vues et visites sont des mesures de requêtes, pas un comptage de personnes ; le nombre de visiteurs uniques n'est pas disponible.
+  pageviews: pages vues
+  visits: visites
+  h_rank: Jalons de classement
+  rank_head_list: Liste
+  rank_head_result: Résultat
+  rank_head_date: Date / portée
+  rank_head_status: Preuve
+  rank_tranco_result: "Rang {rank} dans le top million de Tranco"
+  rank_radar_result: "Inclus dans le top {tier} mondial des domaines de Cloudflare Radar"
+  rank_verified: Vérifié sur le fichier source
+  rank_reported: Rapporté précédemment, vérification en cours
+  rank_note: "La liste Tranco place le musée au rang 657 206 (fichier du 23 novembre 2026, vérifié ligne par ligne). Cloudflare Radar a inclus le domaine dans son top 200 000 non ordonné pour le 16–23 novembre 2026 — une appartenance à un groupe de popularité, pas un rang exact. Les observations Tranco antérieures (23 oct. ≈ 4,6 M ; 20 nov. ≈ 858 k ; 21 nov. ≈ 717 k) sont rapportées mais pas encore revérifiées. Tranco utilise Radar parmi ses entrées : les deux classements ne sont pas totalement indépendants."
+  h_countries: D'où viennent les pages vues
+  countries_note: Pays de l'adresse requérante, pas la nationalité ni le lieu du lecteur. Chiffres arrondis.
+  ctry_us: États-Unis
+  ctry_sg: Singapour
+  ctry_br: Brésil
+  ctry_ca: Canada
+  ctry_cn: Chine
+  ctry_de: Allemagne
+  ctry_ar: Argentine
+  ctry_fr: France
+  ctry_fi: Finlande
+  ctry_bd: Bangladesh
+  th_country: Pays
+  th_pageviews: Pages vues
+  th_share: Part
+  h_crawlers: Découverte automatique
+  crawlers_note: L'AI Crawl Control de Cloudflare rapporte des requêtes de robots détectées — des téléchargements par des bots identifiés, ni des documents uniques, ni des entraînements achevés, ni des réponses données aux utilisateurs. Ces chiffres recoupent le tableau des pays et ne doivent pas s'y additionner.
+  crawlers_detected: requêtes de robots détectées
+  crawlers_ok: ont reçu une réponse HTTP 200
+  crawlers_perplexity: de HTML servi aux seuls robots de Perplexity
+  th_operator: Opérateur
+  th_requests: Requêtes (approx.)
+  th_referrals: Références
+  h_referrals: D'où viennent les liens — et où ils aboutissent
+  referrals_note: Exports de référents exacts sur la même période. Un référent montre un lien suivi — clic, aperçu ou téléchargement — pas nécessairement une personne, une réponse d'IA ou une approbation.
+  th_source: Source
+  th_group: Destination
+  th_count: Nombre
+  destinations_note: Les totaux de destination proviennent d'une couverture d'export différente de celle des sources ; les deux ne sont pas rapprochés.
+  ref_wave: "Mouvements notables de la période : les références Google ont culminé à 18 420 le 29 octobre avant de décliner ; les références Facebook mobiles ont fortement augmenté vers les 22–23 novembre. La cause n'est pas établie — partage ordinaire, aperçus, publicités ou agents automatiques sont tous possibles, et aucune publication précise n'a été reliée à la poussée."
+  h_networks: Deux réseaux cloud de Singapour, de près
+  networks_note: Deux réseaux cloud à Singapour ont généré un trafic de requêtes inhabituellement dense — environ 2,9 millions de requêtes à eux deux, surtout des pages, des métadonnées d'API et des redirections. Les adresses réseau indiquent l'infrastructure de sortie, pas l'opérateur de l'application qui l'utilise, et ne disent rien par elles-mêmes du service qui a demandé les pages.
+  th_network: Réseau
+  th_req: Requêtes
+  th_transfer: Transfert
+  th_redirects: Redirections (301)
+  th_api: Requêtes vers l'hôte API
+  h_method: Comment lire cette page
+  method_founder: Les chiffres proviennent des exports et captures du tableau de bord Cloudflare privé du fondateur, plus deux fichiers de classement publics (Tranco et Cloudflare Radar) revérifiés ligne par ligne. Les chiffres du tableau de bord sont arrondis ; les captures sont transcrites en valeurs arrondies.
+  method_metrics: Pages vues, visites, requêtes, références et détections de robots sont des mesures différentes, jamais additionnées entre vues. Aucun visiteur n'est compté comme une personne ; une IP montre une adresse, pas un humain.
+  method_full: Le rapport de preuves complet, son manifeste de sources et l'enquête technique sous-jacente sont conservés dans le dépôt public du projet.
+  method_repo: Lire le dossier d'ingénierie
