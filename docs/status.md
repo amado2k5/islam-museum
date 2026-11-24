@@ -23,8 +23,9 @@ Tranco (tranco-list.eu) is a research ranking of popular domains, recomputed dai
 | 2026-11-20 | 857,945 |
 | 2026-11-21 | 716,997 |
 | 2026-11-22 | 683,304 |
+| 2026-11-23 | 657,206 |
 
-Latest, checked 22 November 2026: **#683,304** on the list dated 22 November 2026 — up 33,693 places in a day from #716,997 (list of 21 November), and well inside the top 1,000,000 this log watches. The museum opened on 11 October 2026; 42 days later it stands 3,926,663 places above its first Tranco reading (#4,609,967 on the list of 23 October 2026). The 22 November rank was read from the published list file itself (list 8PW6V, the full list of 4,335,608 domains) before the API carried it.
+Latest, checked 23 November 2026: **#657,206** on the list dated 23 November 2026 — up 26,098 places in a day from #683,304 (list of 22 November), and well inside the top 1,000,000 this log watches. The museum opened on 11 October 2026; 43 days later it stands 3,952,761 places above its first Tranco reading (#4,609,967 on the list of 23 October 2026). The 23 November rank was read from the published list file itself (list Q2464, the full list of 4,401,414 domains) before the API carried it.
 
 ## What exists
 
