@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-8-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن الله أوحى إلى أم موسى حين ولدته أن ترضعه، وينقل عن قتادة أن الإيحاء قذفٌ في قلبها وليس وحي نبوة، فإذا خافت عليه ألقته في اليم ولا تخاف ولا تحزن، إنا رادّوه إليها وجاعلوه من المرسلين. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=28&tAyahNo=7&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَأَوْحَيْنَآ إِلَىٰ أُمِّ مُوسَىٰ أَنْ أَرْضِعِيهِ فَإِذَا خِفْتِ عَلَيْهِ فَأَلْقِيهِ فِي ٱليَمِّ وَلاَ تَخَافِي وَلاَ تَحْزَنِيۤ إِنَّا رَآدُّوهُ إِلَيْكِ وَجَاعِلُوهُ مِنَ ٱلْمُرْسَلِينَ»: «وأوْحَيْنا إلى أُمّ مُوسَى» حين ولدت موسى «أنْ أرْضِعِيهِ». وكان قَتادة يقول، في معنى ذلك «وأوْحَيْنا إلى أُمّ مُوسَى»: قذفنا في قلبها. وعن قَتادة «وأوْحَيْنا إلى أُمّ مُوسَى» وحيا جاءها من الله، فقذف في قلبها، وليس بوحي نبوّة، أن أرضعي موسى «فإذَا خِفْتِ عَلَيْهِ فَأَلْقِيهِ فِي اليَمّ، وَلا تَخافِي وَلا تَحْزَنِي...» الآية. وقال: ثني أبو سفيان، عن معمر، عن قتادة، قوله «وأوْحَيْنا إلى أُمّ مُوسَى» قال: قذف في نفسها. وينقل في المقطع أقوالاً عن قتادة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=28&tAyahNo=7&tDisplay=yes&UserProfile=0&LanguageId=1

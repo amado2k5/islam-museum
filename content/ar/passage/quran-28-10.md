@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-8-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري اختلاف أهل التأويل في معنى أن فؤاد أم موسى أصبح فارغاً، فقال بعضهم فرغ من كل شيء إلا من ذكر موسى، وينقل ذلك عن ابن عباس ومجاهد، وأنها كادت تبدي به لولا أن ربط الله على قلبها لتكون من المؤمنين. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=28&tAyahNo=10&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَأَصْبَحَ فُؤَادُ أُمِّ مُوسَىٰ فَارِغاً إِن كَادَتْ لَتُبْدِي بِهِ لَوْلاۤ أَن رَّبَطْنَا عَلَىٰ قَلْبِهَا لِتَكُونَ مِنَ ٱلْمُؤْمِنِينَ»: اختلف أهل التأويل في المعنى الذي عَنَى الله أنه أصبح منه فؤاد أمّ موسى فارغاً، فقال بعضهم: الذي عنى جلّ ثناؤه أنه أصبح منه فؤاد أمّ موسى فارغاً: كل شيء سوى ذكر ابنها موسى. وينقل في المقطع أقوالاً عن ابن عباس ومجاهد وابن زيد والأعمش.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=28&tAyahNo=10&tDisplay=yes&UserProfile=0&LanguageId=1

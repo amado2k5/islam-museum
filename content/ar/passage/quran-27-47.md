@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-8-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن ثمود قالت لصالح تشاءمنا بك وبمن معك وزجرنا الطير بأنه سيصيبنا بكم مكاره، فأجابهم أن طائركم عند الله أي علم ما زجرتم من الطير لما يصيبكم عند الله، لا يُدرى أي ذلك كائن، وأنهم قوم تُفتنون. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=27&tAyahNo=47&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «قَالُواْ ٱطَّيَّرْنَا بِكَ وَبِمَن مَّعَكَ قَالَ طَائِرُكُمْ عِندَ ٱللَّهِ بَلْ أَنتُمْ قَوْمٌ تُفْتَنُونَ»: قالت ثمود لرسولها صالح «اطَّيَّرنَا بِكَ وَبِمَنْ مَعَكَ» أي تشاءمنا بك وبمن معك من أتباعنا، وزجرنا الطير بأنا سيصيبنا بك وبهم المكاره والمصائب، فأجابهم صالح فقال لهم «طائِرُكُمْ عِنْدَ اللَّهِ» أي ما زجرتم من الطير لما يصيبكم من المكاره عند الله علمه، لا يدري أيّ ذلك كائن، أما تظنون من المصائب أو المكاره، أم ما لا ترجونه من العافية والرجاء والمحاب. وينقل في المقطع أقوالاً عن ابن عباس.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=27&tAyahNo=47&tDisplay=yes&UserProfile=0&LanguageId=1

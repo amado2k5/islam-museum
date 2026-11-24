@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-8-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يذكر الطبري أن الله هو الذي يجيب المضطر إذا دعاه ويكشف السوء أي الضر، ويجعلكم خلفاء الأرض أي يستخلف بعد أمرائكم منكم خلفاء أحياء يخلفونهم، أإله مع الله، قليلاً ما تذكرون، أي تذكراً قليلاً. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=27&tAyahNo=62&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «أَمَّن يُجِيبُ ٱلْمُضْطَرَّ إِذَا دَعَاهُ وَيَكْشِفُ ٱلسُّوۤءَ وَيَجْعَلُكُمْ خُلَفَآءَ ٱلأَرْضِ أَإِلَٰهٌ مَّعَ ٱللَّهِ قَلِيلاً مَّا تَذَكَّرُونَ»: أم ما تُشركون بالله خير، أم الذي يجيب المضطّر إذا دعاه، ويكشف السوء النازل به عنه؟ كما: قال: ثني حجاج، عن ابن جُرَيج، قوله: «وَيَكْشِفُ السُّوءَ» قال: الضرّ. وقوله: «ويجْعَلُكُمْ خُلَفاءَ الأرْضِ» يقول: ويستخلف بعد أمرائكم في الأرض منكم خلفاء أحياء يخلفونهم. وقوله: أءِلَهٌ مَعَ اللّهِ يقول: «أءِلَهٌ مع الله» سواه يفعل هذه الأشياء بكم، وينعم عليكم هذه النعم؟ وقوله: «قَلِيلاً ما تَذَكَّرُونَ» يقول: تذكُّراً قليلاً من عظمة الله وأياديه عندكم تذكرون وتعتبرون حجج الله عليكم يسيراً، فلذلك أشركتم بالله غيره في عبادته.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=27&tAyahNo=62&tDisplay=yes&UserProfile=0&LanguageId=1

@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-8-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري الآيات 48 إلى 49 معاً في موضع واحد. يبيّن الطبري أن في مدينة صالح، وهي حجر ثمود، تسعة أنفس يفسدون في الأرض ولا يصلحون، وإفسادهم كفرهم ومعصيتهم، وخصّهم لأنهم سعوا في عقر الناقة وتعاونوا عليه وتحالفوا على قتل صالح، فقالوا تقاسموا بالله لنبيّتنه وأهله. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=27&tAyahNo=49&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 49 إلى 50 مقطعاً واحداً. يفسّر قوله «وَكَانَ فِي ٱلْمَدِينَةِ تِسْعَةُ رَهْطٍ يُفْسِدُونَ فِي ٱلأَرْضِ وَلاَ يُصْلِحُونَ»: وكان في مدينة صالح، وهي حِجر ثمود، تسعة أنفس يفسدون في الأرض ولا يصلحون، وكان إفسادهم في الأرض: كفرهم بالله، ومعصيتهم إياه، وإنما خصّ الله جلّ ثناؤه هؤلاء التسعة الرهط بالخبر عنهم أنهم كانوا يفسدون في الأرض، ولا يصلحون، وإن كان أهل الكفر كلهم في الأرض مفسدين، لأن هؤلاء التسعة هم الذين سعوا فيما بلغنا في عقر الناقة، وتعاونوا عليه، وتحالفوا على قتل صالح من بين قوم ثمود. وقد ذكرنا قصصهم وأخبارهم فيما مضى من كتابنا هذا. وينقل في المقطع أقوالاً عن ابن عباس ومجاهد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=27&tAyahNo=49&tDisplay=yes&UserProfile=0&LanguageId=1

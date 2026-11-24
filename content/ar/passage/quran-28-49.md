@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-8-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يذكر الطبري أن النبي مأمور أن يقول للقائلين عن التوراة والإنجيل إنهما سحران تظاهرا: ائتوا بكتاب من عند الله هو أهدى منهما لطريق الحق وسبيل الرشاد أتبعه إن كنتم صادقين في زعمكم، وينقل عن ابن عباس. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=28&tAyahNo=49&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «قُلْ فَأْتُواْ بِكِتَابٍ مِّنْ عِندِ ٱللَّهِ هُوَ أَهْدَىٰ مِنْهُمَآ أَتَّبِعْهُ إِن كُنتُمْ صَادِقِينَ»: قل يا محمد للقائِلين للتوراة والإنجيل: هما سحران تظاهرا: ائتوا بكتاب من عند الله، هو أهدى منهما لطريق الحقّ، ولسبيل الرشاد «أتَّبِعْهُ إنْ كُنْتُمْ صَادِقِينَ» فِي زعمكم أن هذين الكتابين سحران، وأن الحقّ في غيرهما. وينقل في المقطع أقوالاً عن ابن عباس وابن زيد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=28&tAyahNo=49&tDisplay=yes&UserProfile=0&LanguageId=1

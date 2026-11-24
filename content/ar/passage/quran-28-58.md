@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-8-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن كم أهلك الله من قرية بطرت معيشتها أي أبطرتها معيشتها فطغت وكفرت ربها، وفعل «بطرت» للقرية وهو في الأصل للمعيشة كما يقال أسفهك رأيك فسفهته، والمعيشة منصوبة على التفسير، فتلك مساكنهم لم تسكن من بعدهم إلا قليلاً، وكنا نحن الوارثين. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=28&tAyahNo=58&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَكَمْ أَهْلَكْنَا مِن قَرْيَةٍ بَطِرَتْ مَعِيشَتَهَا فَتِلْكَ مَسَاكِنُهُمْ لَمْ تُسْكَن مِّن بَعْدِهِمْ إِلاَّ قَلِيلاً وَكُنَّا نَحْنُ ٱلْوَارِثِينَ»: وكم أهلكنا من قرية أبطرتها معيشتها، فبَطِرت، وأَشِرت، وطَغَت، فكفرت ربها. وقيل: بطرت معيشتها، فجعل الفعل للقرية، وهو في الأصل للمعيشة، كما يقال: أَسْفَهَك رأيك فسَفِهته، وأبطرك مالك فبطِرته، والمعيشة منصوبة على التفسير. وقد بيَّنا نظائر ذلك في غير موضع من كتابنا هذا. وينقل في المقطع أقوالاً عن ابن زيد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=28&tAyahNo=58&tDisplay=yes&UserProfile=0&LanguageId=1

@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-8-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن سليمان لما أتى عرش بلقيس وقدمت عليه قال لجنده نكّروا لها عرشها، أي غيّروه، وينقل عن قتادة أن معناه غيّروا، وعن ابن عباس أن التنكير أن زيد فيه ونقص، لننظر أتهتدي أم تكون من الذين لا يهتدون. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=27&tAyahNo=41&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «قَالَ نَكِّرُواْ لَهَا عَرْشَهَا نَنظُرْ أَتَهْتَدِيۤ أَمْ تَكُونُ مِنَ ٱلَّذِينَ لاَ يَهْتَدُونَ»: قال سليمان لما أتى عرش بلقيس صاحبة سبأ، وقدمت هي عليه، لجنده: غيِّروا لهذه المرأة سريرها. وينقل في المقطع أقوالاً عن ابن عباس ومجاهد وابن زيد وابن إسحاق.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=27&tAyahNo=41&tDisplay=yes&UserProfile=0&LanguageId=1

@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-8-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن الله يهدي الناس في ظلمات البر والبحر إذا ضلوا الطريق، وينقل عن ابن جريج أن ظلمات البر ضلال الطريق وظلمات البحر ضلال طريقه وموجه، ويرسل الرياح نشراً بين يدي رحمته أي قدام الغيث، أإله مع الله تعالى الله عما يشركون. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=27&tAyahNo=63&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «أَمَّن يَهْدِيكُمْ فِي ظُلُمَاتِ ٱلْبَرِّ وَٱلْبَحْرِ وَمَن يُرْسِلُ ٱلرِّيَاحَ بُشْرَاً بَيْنَ يَدَيْ رَحْمَتِهِ أَإِلَٰهٌ مَّعَ ٱللَّهِ تَعَالَى ٱللَّهُ عَمَّا يُشْرِكُونَ»: أم ما تشركون بالله خير، أم الذي يهديكم في ظلمات البرّ والبحر إذا ضللتم فيهما الطريق، فأظلمت عليكم السبل فيهما؟ كما: قال: ثني حجاج، عن ابن جُرَيج، قوله: «أمَّنْ يَهْدِيكُمْ فِي ظُلُمَاتِ الْبَرِّ وَالْبَحْرِ» والظُّلمات في البر، ضلاله الطريق، والبحر، ضلاله طريقه وموجه وما يكون فيه. قوله: «وَمَنْ يُرْسِلُ الرّياحَ نُشْراً بينَ يَدَيْ رَحْمَتِهِ» يقول: والذي يرسل الرياح نشراً لموتان الأرض بين يدي رحمته، يعني: قدام الغيث الذي يحيى موات الأرض.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=27&tAyahNo=63&tDisplay=yes&UserProfile=0&LanguageId=1

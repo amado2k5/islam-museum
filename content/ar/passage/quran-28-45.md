@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-8-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن الله أنشأ قروناً بعد ذلك فتطاول عليهم العمر، وأن النبي ما كان مقيماً في أهل مدين، يقال ثويت بالمكان أثوي ثواءً، ويستشهد بشعر الأعشى، تتلو عليهم آياتنا، ولكنا كنا مرسلين. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=28&tAyahNo=45&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَلَكِنَّآ أَنشَأْنَا قُرُوناً فَتَطَاوَلَ عَلَيْهِمُ ٱلْعُمُرُ وَمَا كُنتَ ثَاوِياً فِيۤ أَهْلِ مَدْيَنَ تَتْلُواْ عَلَيْهِمْ آيَاتِنَا وَلَكِنَّا كُنَّا مُرْسِلِينَ»: يعني تعالى ذكره بقوله: «وَلَكِنَّا أنْشأنا قُرُوناً» ولكنا خلقنا أمما فأحدثناها من بعد ذلك «فَتَطاوَلَ عَلَيْهِمُ العُمُرُ». وقوله: «وَما كُنْتَ ثاوِياً فِي أهْلِ مَدْيَنَ» يقول: وما كنت مقيماً في أهل مدين، يقال: ثويت بالمكان أثْوِي به ثَواء، قال أعشي ثعلبة:أثْوَى وَقَصَّرَ لَيْلَهُ لِيُزَوَّدا فَمَضَى وأخْلَفَ مِنْ قُتَيْلَةَ مَوْعِدَا وينقل في المقطع أقوالاً عن ابن زيد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=28&tAyahNo=45&tDisplay=yes&UserProfile=0&LanguageId=1

@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-8-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يذكر الطبري أن الله منع موسى المراضع أن يرتضع منهن قبل أمه، وأن أخته قالت لآل فرعون هل أدلكم على أهل بيت يكفلونه لكم وهم له ناصحون، وينقل عن السدي أنهم أرادوا له المرضعات فلم يقبل من أحد. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=28&tAyahNo=12&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَحَرَّمْنَا عَلَيْهِ ٱلْمَرَاضِعَ مِن قَبْلُ فَقَالَتْ هَلْ أَدُلُّكُمْ عَلَىٰ أَهْلِ بَيْتٍ يَكْفُلُونَهُ لَكُمْ وَهُمْ لَهُ نَاصِحُونَ»: ومنعنا موسى المراضع أن يرتضع منهنّ من قبل أمه. ذكر أن أختاً لموسى هي التي قالت لآل فرعون: «هَلْ أدُلكُمْ عَلى أهْلِ بَيْتٍ يكْفُلُونَهُ لَكُمْ وَهُمْ لَه ناصِحونَ». وينقل في المقطع أقوالاً عن ابن عباس ومجاهد والأعمش وابن إسحاق.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=28&tAyahNo=12&tDisplay=yes&UserProfile=0&LanguageId=1

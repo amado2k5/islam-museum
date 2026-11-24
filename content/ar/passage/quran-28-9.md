@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-8-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يذكر الطبري أن امرأة فرعون قالت هذا قرة عين لي ولك لا تقتلوه، سألته ألا يقتله، فقال فرعون أما لك فنعم وأما لي فلا، وينقل عن محمد بن قيس، عسى أن ينفعنا أو نتخذه ولداً وهم لا يشعرون. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=28&tAyahNo=9&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَقَالَتِ ٱمْرَأَةُ فِرْعَوْنَ قُرَّتُ عَيْنٍ لِّي وَلَكَ لاَ تَقْتُلُوهُ عَسَىٰ أَن يَنْفَعَنَا أَوْ نَتَّخِذَهُ وَلَداً وَهُمْ لاَ يَشْعُرُونَ»: «وَقالَتِ امْرَأةُ فِرْعَوْنَ» له هذا «قُرةُ عَيْنٍ لي ولَكَ» يا فرعون فقرّة عين مرفوعة بمضمر هو هذا، أو هو. وقوله: «لا تَقْتُلُوهُ» مسألة من امرأة فرعون أن لا يقتله. وذُكِر أن المرأة لما قالت هذا القول لفرعون، قال فرعون: أمّا لك فنعم، وأما لي فلا، فكان كذلك. وينقل في المقطع أقوالاً عن ابن عباس.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=28&tAyahNo=9&tDisplay=yes&UserProfile=0&LanguageId=1

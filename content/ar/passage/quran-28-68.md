@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-8-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن ربك يخلق ما يشاء ويختار لولايته من يشاء من خلقه ومن سبقت له السعادة، ويشرح أن المعنى ما كان للمشركين الخيرة في الاختيار، وأن الأمر إلى الله وحده، سبحان الله وتعالى عما يشركون. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=28&tAyahNo=68&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَرَبُّكَ يَخْلُقُ مَا يَشَآءُ وَيَخْتَارُ مَا كَانَ لَهُمُ ٱلْخِيَرَةُ سُبْحَانَ ٱللَّهِ وَتَعَالَىٰ عَمَّا يُشْرِكُونَ»: «وَرَبُّكَ» يا محمد «يَخْلُقُ ما يَشاءُ» أن يخلقه، «ويَخْتارُ» لولايته الخِيَرة من خلقه، ومن سبقت له منه السعادة. وإنما قال جلّ ثناؤه «ويَخْتارُ ما كانَ لَهُمُ الخِيرَةُ» والمعنى: ما وصفت، لأن المشركين كانوا فيما ذُكِر عنهم يختارون أموالَهم، فيجعلونها لآلهتهم، فقال الله لنبيه محمد: وربك يا محمد يخلق ما يشاء أن يخلقه، ويختار للهداية والإيمان والعمل الصالح من خلقه، ما هو في سابق علمه أنه خِيَرَتهم، نظير ما كان من هؤلاء المشركين لآلهتهم خيار أموالهم، فكذلك اختياري لنفسي. واجتبائي لولايتي، واصطفائي لخدمتي وطاعتي، خيارَ مملكتي وخلقي. وينقل في المقطع أقوالاً عن ابن عباس.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=28&tAyahNo=68&tDisplay=yes&UserProfile=0&LanguageId=1

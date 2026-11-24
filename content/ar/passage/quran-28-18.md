@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-8-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن موسى أصبح في مدينة فرعون خائفاً من جنايته أن يؤخذ فيقتل، يترقب الأخبار أي ينتظر ما يتحدث به الناس في أمره وأمر قتيله، فإذا الذي استنصره بالأمس يستصرخه، وينقل عن ابن عباس. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=28&tAyahNo=18&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «فَأَصْبَحَ فِي ٱلْمَدِينَةِ خَآئِفاً يَتَرَقَّبُ فَإِذَا ٱلَّذِي ٱسْتَنْصَرَهُ بِٱلأَمْسِ يَسْتَصْرِخُهُ قَالَ لَهُ مُوسَىٰ إِنَّكَ لَغَوِيٌّ مُّبِينٌ»: فأصبح موسى في مدينة فرعون خائفاً من جنايته التي جناها، وقتله النفس التي قتلها أن يُؤخذ فيقتل بها «يَتَرقَّبُ» يقول: يترقب الأخبار: أي ينتظر ما الذي يتحدّث به الناس، مما هم صانعون في أمره وأمر قتيله. وينقل في المقطع أقوالاً عن ابن عباس والسدي.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=28&tAyahNo=18&tDisplay=yes&UserProfile=0&LanguageId=1

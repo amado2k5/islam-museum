@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-8-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن سليمان مكث غير طويل حتى جاء الهدهد، ويذكر قراءتي «مكث» بالضم والفتح وأنهما لغتان صوابان، ويفضّل الضم لأنه أشهر، ثم قول الهدهد إنه أحاط بما لم يحط به سليمان وجاءه من سبأ بنبأ يقين. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=27&tAyahNo=22&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «فَمَكَثَ غَيْرَ بَعِيدٍ فَقَالَ أَحَطتُ بِمَا لَمْ تُحِطْ بِهِ وَجِئْتُكَ مِن سَبَإٍ بِنَبَإٍ يَقِينٍ»: يعني تعالى ذكره بقوله: «فَمَكَثَ غيرَ بَعِيدٍ» فمكث سليمان غير طويل من حين سأل عن الهدهد، حتى جاء الهدهد. واختلف القرّاء في قراءة قوله: «فَمَكَثَ» فقرأت ذلك عامة قرّاء الأمصار سوى عاصم: «فَمَكُثَ» بضمّ الكاف، وقرأه عاصم بفتحها، وكلتا القراءتين عندنا صواب، لأنهما لغتان مشهورتان، وإن كان الضمّ فيها أعجب إليّ، لأنها أشهر اللغتين وأفصحهما.] وقوله: «فَقالَ أحَطْتُ بِمَا لَمْ تُحِطْ بِهِ» يقول: فقال الهدهد حين سأله سليمان عن تخلفه وغيبته: أحطب بعلم ما لم تحط به أنت يا سليمان. كما: قال ابن زيد، في قوله: «أحَطْتُ بِمَا لَمْ تحِطْ بِه» قال: ما لم تعلم. وينقل في المقطع أقوالاً عن ابن زيد وابن إسحاق.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=27&tAyahNo=22&tDisplay=yes&UserProfile=0&LanguageId=1

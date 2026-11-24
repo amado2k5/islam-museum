@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-8-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري الآيات 27 إلى 28 معاً في موضع واحد. يقول الطبري إن سليمان قال للهدهد سننظر أصدقت أم كنت من الكاذبين، وأمره أن يذهب بكتابه فيلقيه إليهم ثم يتولى عنهم فينظر ماذا يرجعون، ويذكر اختلافهم في معنى «ثم تولّ عنهم»: فقيل هو من التقديم والتأخير فينصرف إلى سليمان بعد إلقائه الكتاب. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=27&tAyahNo=27&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 26 إلى 27 مقطعاً واحداً. يفسّر قوله «ٱذْهَب بِّكِتَابِي هَٰذَا فَأَلْقِهْ إِلَيْهِمْ ثُمَّ تَوَلَّ عَنْهُمْ فَٱنْظُرْ مَاذَا يَرْجِعُونَ»: . فاختلف أهل التأويل في تأويل ذلك فقال بعضهم: معناه: اذهب بكتابي هذا، فألقه إليهم، فانظر ماذا يَرْجِعون، ثم تولّ عنهم منصرفاً إليّ، فقال: هو من المؤخَّر الذي معناه التقديم. وينقل في المقطع أقوالاً عن ابن زيد وابن إسحاق.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=27&tAyahNo=27&tDisplay=yes&UserProfile=0&LanguageId=1

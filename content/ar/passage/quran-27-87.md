@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-8-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن أهل التأويل اختلفوا في الصور: فقيل هو قرن ينفخ فيه، وينقل عن مجاهد أنه كهيئة البوق، ويضيف أخباراً لم يذكرها من قبل، ويذكر أن من في السماوات والأرض يفزعون يوم ينفخ فيه إلا من شاء الله، وكل أتوه داخرين. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=27&tAyahNo=87&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَيَوْمَ يُنفَخُ فِي ٱلصُّورِ فَفَزِعَ مَن فِي ٱلسَّمَٰوَٰتِ وَمَن فِي ٱلأَرْضِ إِلاَّ مَن شَآءَ ٱللَّهُ وَكُلٌّ أَتَوْهُ دَاخِرِينَ»: اختلف أهل التأويل في تأويل قوله تعالى: «وَيَوْمَ يُنْفَخ فِي الصورِ» وقد ذكرنا اختلافهم فيما مضى، وبيَّنا الصواب من القول في ذلك عندنا بشواهده، غير أنا نذكر في هذا الموضع بعض ما لم يذكر هناك من الأخبار، فقال بعضهم: هو قرن يُنفخ فيه. ذكر بعض من لم يُذكر فيما مضى قبل من الخبر عن ذلك: قال: جمِيعاً، عَن ابن أبي نجيح، عن مجاهد قوله: «وَيَوْمَ يُنْفَخُ في الصُورِ» قال كهيئة البوق. وينقل في المقطع أقوالاً عن مجاهد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=27&tAyahNo=87&tDisplay=yes&UserProfile=0&LanguageId=1

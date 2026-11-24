@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-8-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يذكر الطبري أن كفار قريش قالوا إن نتبع الهدى معك نُتخطّف من أرضنا أي يتخطفنا الناس بإجماعهم على خلافنا وحربنا، فيأمره الله أن يقول أولم نمكن لهم حرماً آمناً، أي بلداً حرّمنا فيه سفك الدماء وأمناهم من الغارة والقتل والسبي، تجبى إليه ثمرات كل شيء، ولكن أكثرهم لا يعلمون. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=28&tAyahNo=57&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَقَالُوۤاْ إِن نَّتَّبِعِ ٱلْهُدَىٰ مَعَكَ نُتَخَطَّفْ مِنْ أَرْضِنَآ أَوَلَمْ نُمَكِّن لَّهُمْ حَرَماً آمِناً يُجْبَىٰ إِلَيْهِ ثَمَرَاتُ كُلِّ شَيْءٍ رِّزْقاً مِّن لَّدُنَّا وَلَٰكِنَّ أَكْثَرَهُمْ لاَ يَعْلَمُونَ»: وقالت كفار قريش: إن نتبع الحقّ الذي جئتنا به معك، ونتبرأ من الأنداد والآلهة، يتخطفنا الناس من أرضنا بإجماع جميعهم على خلافنا وحربنا، يقول الله لنبيه: فقل «أوَ لَمْ نُمَكِّنْ لَهُمْ حَرَماً» يقول: أو لم نوطىء لهم بلدا حرّمنا على الناس سفك الدماء فيه، ومنعناهم من أن يتناولوا سكانه فيه بسوء، وأمنا على أهله من أن يصيبهم بها غارة، أو قتل، أو سباء. وينقل في المقطع أقوالاً عن ابن عباس ومجاهد وابن زيد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=28&tAyahNo=57&tDisplay=yes&UserProfile=0&LanguageId=1

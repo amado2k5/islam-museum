@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-8-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري الآيات 75 إلى 76 معاً في موضع واحد. يبيّن الطبري أن ما من خفي أمر يغيب عن أبصار الناظرين في السماء والأرض إلا في كتاب مبين، وهو أم الكتاب الذي أثبت الله فيه كل ما هو كائن من ابتداء الخلق إلى يوم القيامة، وينقل عن ابن عباس، ثم أن هذا القرآن يقص على بني إسرائيل أكثر الذي هم فيه يختلفون. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=27&tAyahNo=75&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 75 إلى 76 مقطعاً واحداً. يفسّر قوله «وَمَا مِنْ غَآئِبَةٍ فِي ٱلسَّمَآءِ وَٱلأَرْضِ إِلاَّ فِي كِتَابٍ مُّبِينٍ»: «وَمَا مِنْ» مكتوم سرّ وخفيّ أمر يغيب عن أبصار الناظرين «فِي السَمَاءِ وَالأرْضِ إلاَّ فِي كِتَابٍ» وهو أمّ الكتاب الذي أثبت ربنا فيه كلّ ما هو كائن من لدن ابتدأ خلق خلقه إلى يوم القيامة. ويعني بقوله: «مُبِينٌ» أنه يبين لمن نظر إليه، وقرأ ما فيه مما أثبت فيه ربنا جلّ ثناؤه. وينقل في المقطع أقوالاً عن ابن عباس.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=27&tAyahNo=75&tDisplay=yes&UserProfile=0&LanguageId=1

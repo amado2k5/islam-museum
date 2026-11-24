@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-8-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن الله آتى موسى التوراة من بعد ما أهلك الأمم التي قبله كقوم نوح وعاد وثمود وقوم لوط وأصحاب مدين، بصائر للناس أي ضياء لبني إسرائيل فيما به الحاجة من أمر دينهم، وهدى وبياناً ورحمة، لعلهم يتذكرون نعم الله فيشكروه. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=28&tAyahNo=43&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَلَقَدْ آتَيْنَا مُوسَى ٱلْكِتَابَ مِن بَعْدِ مَآ أَهْلَكْنَا ٱلْقُرُونَ ٱلأُولَىٰ بَصَآئِرَ لِلنَّاسِ وَهُدًى وَرَحْمَةً لَّعَلَّهُمْ يَتَذَكَّرُونَ»: ولقد آتينا موسى التوراة من بعد ما أهلكنا الأمم التي كانت قبله، كقوم نوح وعاد وثمود وقوم لوط وأصحاب مَدين «بَصَائِرَ للنَّاسِ» يقول: ضياء لبني إسرائيل فيما بهم إليه الحاجة من أمر دينهم «وَهُدًى» يقول: وبيانا لهم ورحمة لمن عمل به منهم «لَعَلَّهُمْ يَتَذَّكَّرُونَ» يقول: ليتذكروا نِعْم الله بذلك عليهم، فيشكروه عليها ولا يكفروا.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=28&tAyahNo=43&tDisplay=yes&UserProfile=0&LanguageId=1

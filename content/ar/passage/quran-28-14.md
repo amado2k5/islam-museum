@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-8-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يفسّر الطبري بلوغ الأشد بأنه تمام قوة البدن وانتهاؤها، والاستواء بأنه تناهي الشباب وتمام الخلق واستحكامه، ويذكر أنه يكون في أربعين سنة عن مجاهد، وأن الله آتاه حكماً وعلماً وكذلك يجزي المحسنين. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=28&tAyahNo=14&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَلَمَّا بَلَغَ أَشُدَّهُ وَٱسْتَوَىٰ آتَيْنَاهُ حُكْماً وَعِلْماً وَكَذَلِكَ نَجْزِي ٱلْمُحْسِنِينَ»: «وَلمَّا بَلَغَ» موسى «أشُدَّهُ»، يعني حان شدّه بدنه وقواه، وانتهى ذلك منه. وقد بَّينا معنى الأشدّ فيما مضى بشواهده، فأغني ذلك عن إعادته في هذا الموضع. وقوله: «وَاسْتَوَى» يقول: تناهى شبابه، وتمّ خلقه واستحكم. وقد اختلف في مبلغ عدد سني الاستواء، فقال بعضهم: يكون ذلك في أربعين سنة. وينقل في المقطع أقوالاً عن ابن عباس ومجاهد وابن زيد وابن إسحاق.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=28&tAyahNo=14&tDisplay=yes&UserProfile=0&LanguageId=1

@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-8-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أنه يقال للمشركين ادعوا شركاءكم الذين كنتم تدعون من دون الله فدعوهم فلم يستجيبوا لهم، أي لم يجيبوهم، ورأوا العذاب أي عاينوه، فودّوا لو أنهم كانوا في الدنيا مهتدين للحق. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=28&tAyahNo=64&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَقِيلَ ٱدْعُواْ شُرَكَآءَكُمْ فَدَعَوْهُمْ فَلَمْ يَسْتَجِيبُواْ لَهُمْ وَرَأَوُاْ ٱلْعَذَابَ لَوْ أَنَّهُمْ كَانُواْ يَهْتَدُونَ»: وقيل للمشركين بالله الآلهة والأنداد في الدنيا «ادْعُوا شُرَكاءَكُمْ» الذين كنتم تدعون من دون الله «فَدَعَوْهُمْ فَلَمْ يَسْتَجِيبُوا لَهُمْ» يقول: فلم يُجيبوهم. «ورأَوُا العَذَابَ»: يقول: وعاينوا العذاب «لَوْ أنَّهُمْ كانُوا يَهْتَدُونَ» يقول: فودّوا حين رأوا العذاب لو أنهم كانوا في الدنيا مُهتدين للحقّ.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=28&tAyahNo=64&tDisplay=yes&UserProfile=0&LanguageId=1

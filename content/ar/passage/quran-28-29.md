@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-8-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن موسى لما وفّى الأجل الذي فارق عليه صاحبه عند إنكاحه ابنته، فالذي وفّاه أتمّ الأجلين وأكملهما وهو عشر حجج، وينقل عن ابن عباس بسند ابن بشار، ويذكر أن بعض أهل العلم قال إنه زاد على العشر عشراً أخرى، ثم سار بأهله فآنس من جانب الطور ناراً. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=28&tAyahNo=29&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «فَلَمَّا قَضَىٰ مُوسَى ٱلأَجَلَ وَسَارَ بِأَهْلِهِ آنَسَ مِن جَانِبِ ٱلطُّورِ نَاراً قَالَ لأَهْلِهِ ٱمْكُثُوۤاْ إِنِّيۤ آنَسْتُ نَاراً لَّعَلِّيۤ آتِيكُمْ مِّنْهَا بِخَبَرٍ أَوْ جَذْوَةٍ مِّنَ ٱلنَّارِ لَعَلَّكُمْ تَصْطَلُونَ»: فلما وفَّى موسى صاحبه الأجل الذي فارقه عليه، عند إنكاحه إياه ابنته، وذكر أن الذي وفَّاه من الأجلين، أتمهما وأكملهما، وذلك العشر الحجج، على أن بعض أهل العلم قد روى عنه أنه قال: زاد مع العشر عَشْراً أخرى. وينقل في المقطع أقوالاً عن ابن عباس وسعيد بن جبير وسفيان وعطاء.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=28&tAyahNo=29&tDisplay=yes&UserProfile=0&LanguageId=1
