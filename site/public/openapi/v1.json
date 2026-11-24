@@ -1161,7 +1161,7 @@
       "get": {
         "operationId": "getTafsir",
         "summary": "Tafsir Browser dataset",
-        "description": "The commentaries in the catalogue and each printed volume as a tafsir-volume work, with part_of and about edges to the verses each volume covers. Each row carries role (commentary or volume), volume_of (the commentary a volume belongs to) and verses_covered",
+        "description": "The commentaries in the catalogue, each printed volume of one as a tafsir-volume work, and the altafsir.com web text as the tafsir-volume work jami-al-bayan-altafsir-web (verses 14:28 to 114:6, summaries cited to their web address, not page-verified) — with part_of and about edges to the verses each covers. Each row carries role (commentary or volume), volume_of (the commentary a volume belongs to) and verses_covered",
         "responses": {
           "200": {
             "description": "The commentary and each of its volumes with their verse coverage",

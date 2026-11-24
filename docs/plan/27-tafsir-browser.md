@@ -1,6 +1,6 @@
 # 27. Tafsir Browser
 
-Status: **approved in chat by the founder, 6 November 2026** (Phase 0 proposal below). Phase 0 is documentation only; each later phase is a separate pull request with its own proposal line in its description.
+Status: **approved in chat by the founder, 6 November 2026** (Phase 0 proposal below); **built and live** — Shakir-edition volumes 1–16 cover 1:1–14:27 from the printed pages and `work/jami-al-bayan-altafsir-web` carries the altafsir.com text for 14:28–114:6 as URL-cited summaries (not page-verified). Phase 0 is documentation only; each later phase is a separate pull request with its own proposal line in its description.
 
 ## 1. Proposal record (section 1 of `docs/ai-change-gates.md`)
 
