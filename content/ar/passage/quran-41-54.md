@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-10-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن المكذبين في شك من لقاء ربهم أي من البعث بعد الموت، وإنه سبحانه بكل شيء محيط، ويورد قول السدي في معنى المرية. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=41&tAyahNo=54&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «أَلاَ إِنَّهُمْ فِي مِرْيَةٍ مِّن لِّقَآءِ رَبِّهِمْ أَلاَ إِنَّهُ بِكُلِّ شَيْءٍ مُّحِيطٌ»: ألا إن هؤلاء المكذّبين بآيات الله في شكّ من لقاء ربهم، يعني أنهم في شكّ من البعث بعد الممات، ومعادهم إلى ربهم، كما: وعن السديّ «ألا إنَّهُمْ فِي مِرْيَةٍ مِنْ لِقاءِ رَبِّهِمْ» يقول: في شكّ. وقوله: «ألا إنَّهُ بِكُلّ شَيْءٍ مُحِيطٌ» يقول تعالى ذكره: ألا أن الله بكل شيء مما خلق محيط علماً بجميعه، وقُدرةً عليه، لا يعزب عنه علم شيء منه أراده فيفوته، ولكن المقتدر عليه العالم بمكانه.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=41&tAyahNo=54&tDisplay=yes&UserProfile=0&LanguageId=1

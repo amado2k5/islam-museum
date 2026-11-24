@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-10-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن هذا جزاء أعداء الله النار لهم فيها دار الخلد جزاءً بما كانوا بآياتنا يجحدون. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=41&tAyahNo=28&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «ذَلِكَ جَزَآءُ أَعْدَآءِ ٱللَّهِ ٱلنَّارُ لَهُمْ فِيهَا دَارُ الخُلْدِ جَزَآءً بِمَا كَانُوا بِآياتِنَا يَجْحَدُونَ»: هذا الجزاء الذي يجزى به هؤلاء الذين كفروا من مشركي قريش جزاء أعداء الله ثم ابتدأ جلّ ثناؤه الخبر عن صفة ذلك الجزاء، وما هو؟ فقال: هو النار، فالنار بيان عن الجزاء، وترجمة عنه، وهي مرفوعة بالردّ عليه ثم قال: «لَهُمْ فِيهَا دَارُ الخُلْدِ» يعني لهؤلاء المشركين بالله في النار دار الخلد يعني دار المكث واللبث، إلى غير نهاية ولا أمد والدار التي أخبر جلّ ثناؤه أنها لهم في النار هي النار، وحسن ذلك لاختلاف اللفظين، كما يقال: لك من بلدتك دار صالحة، ومن الكوفة دار كريمة، والدار: هي الكوفة والبلدة، فيحسن ذلك لاختلاف الألفاظ، وقد ذُكر لنا أنها في قراءة ابن مسعود: «ذَلِكَ جَزَاءُ أعْدَاءِ اللَّهِ النَّارُ دَارُ الخُلْدِ» ففي ذلك تصحيح ما قلنا من التأويل في
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=41&tAyahNo=28&tDisplay=yes&UserProfile=0&LanguageId=1

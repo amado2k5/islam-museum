@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-10-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل الآيات 9 إلى 10، وخلاصتها: يفسّر الطبري أن المشركين لئن سُئلوا من خلق السماوات والأرض ليقولن خلقهن العزيز العليم الذي جعل لكم الأرض مهداً وجعل لكم فيها سبلاً لعلكم تهتدون. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=43&tAyahNo=9&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 9 إلى 10 مقطعاً واحداً. يفسّر قوله «وَلَئِن سَأَلْتَهُمْ مَّنْ خَلَقَ ٱلسَّمَٰوَٰتِ وَٱلأَرْضَ لَيَقُولُنَّ خَلَقَهُنَّ ٱلْعَزِيزُ ٱلْعَلِيمُ»: ولئن سألت يا محمد هؤلاء المشركين من قومك: من خلق السموات السبع والأرضين، فأحدثهنّ وأنشأهنّ؟ ليقولنّ: خلقهنّ العزيز في سلطانه وانتقامه من أعدائه، العليم بهنّ وما فيهنّ من الأشياء، لا يخفى عليه شيء «الَّذِي جَعَلَ لَكُمُ الأرْضَ مَهْداً» يقول: الذي مهَّد لكم الأرض، فجعلها لكم وطاء توطئونها بأقدامكم، وتمشون عليها بأرجلكم «وَجَعَلَ لَكُمْ فِيها سُبُلاً» يقول: وسهَّل لكم فيها طرقاً تتطرّقونها من بلدة إلى بلدة، لمعايشكم ومتاجركم. كما: وعن قتادة «وَجَعَلَ لَكُمُ فِيها سُبُلاً» أي طرقاً. وينقل في المقطع أقوالاً عن قتادة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=43&tAyahNo=9&tDisplay=yes&UserProfile=0&LanguageId=1

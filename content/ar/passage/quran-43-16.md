@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-10-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل الآيات 15 إلى 17، وخلاصتها: يقول الطبري إن المشركين جعلوا لله من عباده جزءاً فزعموا أن الملائكة بنات الله، وإن الإنسان لكفور مبين، وأنهم اتخذوا مما يخلق بنات وأصفاكم بالبنين. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=43&tAyahNo=16&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 15 إلى 17 مقطعاً واحداً. يفسّر قوله «أَمِ ٱتَّخَذَ مِمَّا يَخْلُقُ بَنَاتٍ وَأَصْفَاكُم بِٱلْبَنِينَ»: توبيخاً لهم على قولهم ذلك، فكان معلوماً أن توبيخه إياهم بذلك إنما هو عما أخبر عنهم من قيلهم ما قالوا في إضافة البنات إلى الله جلّ ثناؤه. وقوله: «إنَّ الإنْسانَ لَكَفُورٌ مُبِينٌ» يقول تعالى ذكره: إن الإنسان لذو جحد لنِعم ربه التي أنعمها عليه مبين: يقول: يبين كفرانه نعمه عليه، لمن تأمله بفكر قلبه، وتدبر حاله. وينقل في المقطع أقوالاً عن مجاهد وقتادة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=43&tAyahNo=16&tDisplay=yes&UserProfile=0&LanguageId=1

@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-10-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يفسّر الطبري أن الله لو بسط الرزق لعباده لبغوا في الأرض، ولكن ينزّل بقدر ما يشاء إنه بعباده خبير بصير، ويذكر أنها نزلت في فقراء من المسلمين تمنوا سعة الدنيا. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=42&tAyahNo=27&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَلَوْ بَسَطَ ٱللَّهُ ٱلرِّزْقَ لِعِبَادِهِ لَبَغَوْاْ فِي ٱلأَرْضِ وَلَٰكِن يُنَزِّلُ بِقَدَرٍ مَّا يَشَآءُ إِنَّهُ بِعِبَادِهِ خَبِيرٌ بَصِيرٌ»: ذكر أن هذه الآية نزلت من أجل قوم من أهل الفاقة من المسلمين تمنوا سعة الدنيا والغنى، فقال جلّ ثناؤه: ولو بسط الله الرزق لعباده، فوسعه وكثره عندهم لبغوا، فتجاوزوا الحدّ الذي حدّه الله لهم إلى غير الذي حدّه لهم في بلاده بركوبهم في الأرض ما حظره عليهم، ولكنه ينزل رزقهم بقدر لكفايتهم الذي يشاء منه. وينقل في المقطع أقوالاً عن قتادة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=42&tAyahNo=27&tDisplay=yes&UserProfile=0&LanguageId=1

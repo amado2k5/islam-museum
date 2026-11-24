@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-10-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن المشركين نسبوا إلى الله من ينشأ في الحلية وهو في الخصام غير مبين، أي لا يقدر على إقامة حجته لضعفه، ويورد أقوال أهل التأويل في ذلك. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=43&tAyahNo=18&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «أَوَمَن يُنَشَّأُ فِي ٱلْحِلْيَةِ وَهُوَ فِي ٱلْخِصَامِ غَيْرُ مُبِينٍ»: أو من ينبت في الحلية ويزين بها «وَهُوَ فِي الخِصَامِ» يقول: وهو في مخاصمة من خاصمه عند الخصام غير مبين، من خصمه ببرهان وحجة، لعجزه وضعفه، جعلتموه جزء الله من خلقه وزعمتم أنه نصيبه منهم، وفي الكلام متروك استغنى بدلالة ما ذكر منه وهو ما ذكرت. واختلف أهل التأويل في المعنيّ بقوله: «أوْ مَنْ يُنَشَّأُ فِي الْحِلْيَةِ وَهُوَ فِي الخِصَامِ غَيْرُ مُبِينٍ»، فقال بعضهم: عُنِي بذلك الجواري والنساء. وينقل في المقطع أقوالاً عن ابن عباس ومجاهد وقتادة وابن زيد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=43&tAyahNo=18&tDisplay=yes&UserProfile=0&LanguageId=1

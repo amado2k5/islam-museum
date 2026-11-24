@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-10-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن الله قيّض للكافرين قرناء من الشياطين زيّنوا لهم ما بين أيديهم وما خلفهم، وحقّ عليهم القول في أمم قد خلت من الجن والإنس إنهم كانوا خاسرين، ويورد أقوال السلف في معنى التقييض. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=41&tAyahNo=25&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَقَيَّضْنَا لَهُمْ قُرَنَآءَ فَزَيَّنُواْ لَهُم مَّا بَيْنَ أَيْدِيهِمْ وَمَا خَلْفَهُمْ وَحَقَّ عَلَيْهِمُ ٱلْقَوْلُ فِيۤ أُمَمٍ قَدْ خَلَتْ مِن قَبْلِهِمْ مِّنَ ٱلْجِنِّ وَٱلإِنْسِ إِنَّهُمْ كَانُواْ خَاسِرِينَ»: يعني تعالى ذكره بقوله: «وَقَيَّضْنا لَهُمْ قُرَناءَ» وبعفجعلناهم لهم قرناء قرنَّاهم بهم يزيِّنون لهم قبائح أعمالهم، فزينوا لهم ذلك. وينقل في المقطع أقوالاً عن مجاهد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=41&tAyahNo=25&tDisplay=yes&UserProfile=0&LanguageId=1

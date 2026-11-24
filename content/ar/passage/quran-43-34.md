@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-10-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل الآيات 34 إلى 35، وخلاصتها: يقول الطبري إن الله كان سيجعل لبيوتهم أبواباً من فضة وسرراً عليها يتكئون وزخرفاً، وإن كل ذلك لما متاع الحياة الدنيا والآخرة عند ربك للمتقين. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=43&tAyahNo=34&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 34 إلى 35 مقطعاً واحداً. يفسّر قوله «وَلِبُيُوتِهِمْ أَبْوَاباً وَسُرُراً عَلَيْهَا يَتَّكِئُونَ»: وجعلنا لبيوتهم أبواباً من فضة، وسُرُراً من فضة. كما: قال: ثني معاوية، عن عليّ، عن ابن عباس، وسُرراً قال: سرر فضة. قال ابن زيد، في قوله: «وَلِبُيُوتِهِمْ أبْوَابا ًوسرُراً عَلَيْها يَتَّكِئُونَ» قال: الأبواب من فضة، والسرر من فضة عليها يتكئون، يقول: على السرر يتكئون. وقوله: «وَزُخْرُفاً» يقول: ولجعلنا لهم مع ذلك زخرفاً، وهو الذهب. وينقل في المقطع أقوالاً عن ابن عباس وقتادة والحسن وابن زيد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=43&tAyahNo=34&tDisplay=yes&UserProfile=0&LanguageId=1

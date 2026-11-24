@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-10-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل الآيات 1 إلى 3، وخلاصتها: يحيل الطبري على ما سبق في معاني الحروف المقطعة في أوائل السور، ثم يفسّر أن الله العزيز الحكيم يوحي إلى النبي وإلى الذين من قبله، وأن له ما في السماوات وما في الأرض، وتضم الصفحة الآيات الثلاث الأولى من سورة الشورى. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=42&tAyahNo=1&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 1 إلى 3 مقطعاً واحداً. يفسّر قوله «حمۤ»: قد ذكرنا اختلاف أهل التأويل في معاني حروف الهجاء التي افتتحت بها أوائل ما افتتح بها من سور القرآن، وبيَّنا الصواب من قولهم في ذلك عندنا بشواهده المغنية عن إعادتها في هذا الموضع، إذ كانت هذه الحروف نظيرة الماضية منها. وقد ذكرنا عن حُذيفة في معنى هذه خاصة قولاً، وهو ما: وعن أرطاة بن المنذر قال: جاء رجل إلى ابن عباس، فقال له وعنده حُذيفة بن اليمان، أخبرني عن تفسير قول الله: «حَم. وينقل في المقطع أقوالاً عن ابن عباس.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=42&tAyahNo=1&tDisplay=yes&UserProfile=0&LanguageId=1

@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-10-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن كل مترف في القرى قال مثل ذلك: إنا وجدنا آباءنا على أمة وإنا على آثارهم مقتدون، فهي سنة المكذبين قبلهم. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=43&tAyahNo=23&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَكَذَلِكَ مَآ أَرْسَلْنَا مِن قَبْلِكَ فِي قَرْيَةٍ مِّن نَّذِيرٍ إِلاَّ قَالَ مُتْرَفُوهَآ إِنَّا وَجَدْنَآ ءَابَآءَنَا عَلَىٰ أُمَّةٍ وَإِنَّا عَلَىٰ ءَاثَارِهِم مُّقْتَدُونَ»: وهكذا كما فعل هؤلاء المشركون من قريش فعل من قبلهم من أهل الكفر بالله، وقالوا مثل قولهم، لم نرسل مِن قبلك يا محمد في قرية، يعني إلى أهلها رسلاً تنذرهم عقابنا على كفرهم بنا فأنذروهم وحذّروهم سخطنا، وحلول عقوبتنا بهم «إلاَّ قال مُتْرَفوها»، وهم رؤساؤهم وكبراؤهم. كما: عن معمر، عن قتادة، في قوله: «إلاَّ قالَ مُتْرَفُوها» قال: رؤساؤهم وأشرافهم. وعن قتادة، قوله: «وكَذلكَ ما أرْسَلْنا مِنْ قَبْلِكَ فِي قَرْيَةٍ مِنْ نَذِيرٍ إلاَّ قالَ مُتْرَفُوها» قادتهم ورؤوسهم في الشرك. وينقل في المقطع أقوالاً عن مجاهد وقتادة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=43&tAyahNo=23&tDisplay=yes&UserProfile=0&LanguageId=1

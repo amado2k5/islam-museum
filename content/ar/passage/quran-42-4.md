@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-10-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل الآيات 4 إلى 5، وخلاصتها: يبيّن الطبري أن لله ملك ما في السماوات وما في الأرض وهو العلي العظيم، تكاد السماوات يتفطّرن من فوقهن، والملائكة يسبحون بحمد ربهم ويستغفرون لمن في الأرض ألا إن الله هو الغفور الرحيم، ويفسّر معنى التفطّر. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=42&tAyahNo=4&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 4 إلى 5 مقطعاً واحداً. يفسّر قوله «لَهُ مَا فِي ٱلسَّمَٰوَٰتِ وَمَا فِي ٱلأَرْضِ وَهُوَ ٱلْعَلِيُّ ٱلعَظِيمُ»: لِلّهِ مُلك «مَا فِي السَّمَواتِ وَمَا فِي الأرْضِ» من الأشياء كلها «وَهُوَ العَلِيُّ» يقول: وهو ذو علوّ وارتفاع على كلّ شيء، والأشياء كلها دونه، لأنهم في سلطانه، جارية عليهم قُدرته، ماضية فيهم مشيئته «الّعَظِيمُ» الذي له العظمة والكبرياء والجبرية. وقوله: «تَكادُ السَّمَوَاتُ يَتَفَطَّرْنَ مِنْ فَوْقِهِنَّ» يقول تعالى ذكره: تكاد السموات يتشققن من فوق الأرضين، من عظمة الرحمن وجلاله. وينقل في المقطع أقوالاً عن ابن عباس وقتادة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=42&tAyahNo=4&tDisplay=yes&UserProfile=0&LanguageId=1

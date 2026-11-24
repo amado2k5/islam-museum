@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-10-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن من عمل صالحاً فلنفسه ومن أساء فعليها، وما ربك بظلام للعبيد، فكل عامل يُجازى بعمله. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=41&tAyahNo=46&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «مَّنْ عَمِلَ صَٰلِحاً فَلِنَفْسِهِ وَمَنْ أَسَآءَ فَعَلَيْهَا وَمَا رَبُّكَ بِظَلَّٰمٍ لِّلْعَبِيدِ»: من عمل بطاعة الله في هذه الدنيا، فأتمر لأمره، وانتهى عما نهاه عنه «فَلِنَفْسِهِ» يقول: فلنفسه عمل ذلك الصالح من العمل، لأنه يجازى عليه جزاءه، فيستوجب في المعاد من الله الجنة، والنجاة من النار، «وَمَنْ أساءَ فَعَلَيْها» يقول: ومن عمل بمعاصي الله فيها، فعلى نفسه جنى، لأنه أكسبها بذلك سخط الله، والعقاب الأليم «وَما رَبُّكَ بِظَلاَّمٍ للْعَبيدِ» يقول تعالى ذكره: وما ربك يا محمد بحامل عقوبة ذنب مذنب على غير مكتسبه، بل لا يعاقب أحداً إلا على جرمه الذي اكتسبه في الدنيا، أو على سبب استحقه به منه، والله أعلم.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=41&tAyahNo=46&tDisplay=yes&UserProfile=0&LanguageId=1

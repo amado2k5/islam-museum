@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-10-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن الله أهلك من هو أشد من هؤلاء بطشاً ومضى مثل الأولين، فمن هو أضعف منهم قوة أحرى ألا يمتنع من بأسه. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=43&tAyahNo=8&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «فَأَهْلَكْنَآ أَشَدَّ مِنْهُم بَطْشاً وَمَضَىٰ مَثَلُ ٱلأَوَّلِينَ»: فأهلكنا أشدّ من هؤلاء المستهزئين بأنبيائهم بطشاً إذا بطشوا فلم يعجزونا بقواهم وشدّة بطشهم، ولم يقدروا على الامتناع من بأسنا إذ أتاهم، فالذين هم أضعف منهم قوّة أحرى أن لا يقدروا على الامتناع من نقمنا إذا حلَّت بهم «وَمَضَى مَثَلُ الأوَّلِينَ» يقول جلّ ثناؤه: ومضى لهؤلاء المشركين المستهزئين بك ولمن قبلهم من ضربائهم مثَلُنا الذي مثَّلناه لهم في أمثالهم من مكذّبي رسلنا الذين أهلكناهم، يقول: فليتوقع هؤلاء الذين يستهزئون بك يا محمد من عقوبتنا مثل الذي أحللناه بأولئك الذين أقاموا على تكذيبك. وينقل في المقطع أقوالاً عن مجاهد وقتادة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=43&tAyahNo=8&tDisplay=yes&UserProfile=0&LanguageId=1

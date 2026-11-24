@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-10-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يعرض الطبري اختلاف أهل التأويل في الباغي الذي حُمد المنتصر منه بعد بغيه: فقيل هو المشرك إذا بغى على المسلم، وقيل غير ذلك، ويورد الروايات في ذلك، ثم يتناول قوله وجزاء سيئة سيئة مثلها. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=42&tAyahNo=39&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 39 إلى 40 مقطعاً واحداً. يفسّر قوله «وَٱلَّذِينَ إِذَآ أَصَابَهُمُ ٱلْبَغْيُ هُمْ يَنتَصِرُونَ»: والذين إذا بغى عليهم باغٍ، واعتدى عليهم هم ينتصرون. ثم اختلف أهل التأويل في الباغي الذي حمد تعالى ذكره، المنتصر منه بعد بغيه عليه، فقال بعضهم: هو المشرك إذا بغى على المسلم. وينقل في المقطع أقوالاً عن ابن زيد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=42&tAyahNo=39&tDisplay=yes&UserProfile=0&LanguageId=1

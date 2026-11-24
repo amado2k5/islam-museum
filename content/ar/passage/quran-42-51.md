@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-10-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أنه ما كان لبشر أن يكلمه الله إلا وحياً أو من وراء حجاب كما كلّم موسى أو يرسل رسولاً فيوحي بإذنه ما يشاء إنه علي حكيم، ويذكر أن الوحي إلهام أو رؤيا. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=42&tAyahNo=51&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَمَا كَانَ لِبَشَرٍ أَن يُكَلِّمَهُ ٱللَّهُ إِلاَّ وَحْياً أَوْ مِن وَرَآءِ حِجَابٍ أَوْ يُرْسِلَ رَسُولاً فَيُوحِيَ بِإِذْنِهِ مَا يَشَآءُ إِنَّهُ عَلِيٌّ حَكِيمٌ»: وما ينبغي لبشر من بني آدم أن يكلمه ربه إلا وحياً يوحي الله إليه كيف شاء، أو إلهاماً، وإما غيره «أوْ مِنْ وَرَاءِ حِجابٍ» يقول: أو يكلمه بحيث يسمع كلامه ولا يراه، كما كلم موسى نبيه «أوْ يُرْسِلَ رَسُولاً» يقول: أو يرسل الله من ملائكته رسولاً، إما جبرائيل، وإما غيره «فَيُوحِيَ بإذْنِهِ ما يَشاءُ» يقول: فيوحي ذلك الرسول إلى المرسل إليه بإذن ربه ما يشاء، يعني: ما يشاء ربه أن يوحيه إليه من أمر ونهي، وغير ذلك من الرسالة والوحي.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=42&tAyahNo=51&tDisplay=yes&UserProfile=0&LanguageId=1

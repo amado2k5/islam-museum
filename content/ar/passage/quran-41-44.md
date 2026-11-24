@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-10-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يفسّر الطبري أنه لو جعل الله القرآن أعجمياً لقالوا لولا فصّلت آياته أأعجمي وعربي، قل هو للذين آمنوا هدى وشفاء والذين لا يؤمنون في آذانهم وقر وهو عليهم عمى، أولئك يُنادون من مكان بعيد، ويورد أقوال السلف في معنى ذلك. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=41&tAyahNo=44&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَلَوْ جَعَلْنَاهُ قُرْآناً أعْجَمِيّاً لَّقَالُواْ لَوْلاَ فُصِّلَتْ آيَاتُهُ ءَاعْجَمِيٌّ وَعَرَبِيٌّ قُلْ هُوَ لِلَّذِينَ آمَنُواْ هُدًى وَشِفَآءٌ وَٱلَّذِينَ لاَ يُؤْمِنُونَ فِيۤ آذَانِهِمْ وَقْرٌ وَهُوَ عَلَيْهِمْ عَمًى أُوْلَٰئِكَ يُنَادَوْنَ مِن مَّكَانٍ بَعِيدٍ»: ولو جعلنا هذا القرآن الذي أنزلناه يا محمد أعجمياً لقال قومك من قريش: «لَوْلا فُصّلَتْ آياتُهُ» يعني: هلا بينت أدلته وما فيه من آية، فنفقهه ونعلم ما هو وما فيه، أأعجميّ، يعني أنهم كانوا يقولون إنكاراً له: أأعجمي هذا القرآن ولسان الذي أُنزل عليه عربيّ؟ وينقل في المقطع أقوالاً عن مجاهد والحسن وسعيد بن جبير.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=41&tAyahNo=44&tDisplay=yes&UserProfile=0&LanguageId=1

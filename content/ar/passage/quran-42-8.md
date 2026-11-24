@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-10-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن الله لو شاء لجعل الناس أمة واحدة على دين واحد، ولكنه يدخل من يشاء في رحمته، والظالمون ما لهم من ولي ولا نصير. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=42&tAyahNo=8&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَلَوْ شَآءَ ٱللَّهُ لَجَعَلَهُمْ أُمَّةً وَاحِدَةً وَلَٰكِن يُدْخِلُ مَن يَشَآءُ فِي رَحْمَتِهِ وَٱلظَّالِمُونَ مَا لَهُمْ مِّن وَلِيٍّ وَلاَ نَصِيرٍ»: ولو أراد الله أن يجمع خلقه على هدى، ويجعلهم على ملة واحدة لفعل، و «لجعلهم أمة واحدة» يقول: أهل ملة واحدة، وجماعة مجتمعة على دين واحد «وَلَكِنْ يُدْخِلُ مَنْ يَشاءُ فِي رَحْمَتِهِ» يقول: لم يفعل ذلك فيجعلهم أمة واحدة، ولكن يُدخل من يشاء، من عباده في رحمته، يعني أنه يُدخله في رحمته بتوفيقه إياه للدخول في دينه، الذي ابتعث به نبيه محمداً «وَالظَّالِمُونَ ما لَهُمْ مِنْ وَلِيّ وَلا نَصِيرٍ» يقول: والكافرون بالله ما لهم من وليّ يتولاهم يوم القيامة، ولا نصير ينصرهم من عقاب الله حين يعاقبهم، فينقذهم من عذابه، ويقتصّ لهم ممن عاقبهم، وإنما قيل هذا لرسول الله تسلية له عما كان يناله من الهمّ بتولية قومه عنه، وأمراً له بترك إدخال المكروه على نفسه من أجل إ
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=42&tAyahNo=8&tDisplay=yes&UserProfile=0&LanguageId=1

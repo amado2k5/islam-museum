@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-10-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل الآيات 30 إلى 31، وخلاصتها: يفسّر الطبري أن ما يصيب الناس من مصيبة فبما كسبت أيديهم ويعفو عن كثير، وما أنتم بمعجزين في الأرض وما لكم من دون الله من ولي ولا نصير، ويورد أقوال السلف في أن المصائب كفارات. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=42&tAyahNo=30&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 30 إلى 31 مقطعاً واحداً. يفسّر قوله «وَمَآ أَصَٰبَكُمْ مِّن مُّصِيبَةٍ فَبِمَا كَسَبَتْ أَيْدِيكُمْ وَيَعْفُواْ عَن كَثِيرٍ»: وما يصيبكم أيها الناس من مصيبة في الدنيا في أنفسكم وأهليكم وأموالكم «فَبِما كَسَبَتْ أيْدِيكُمْ» يقول: فإنما يصيبكم ذلك عقوبة من الله لكم بما اجترمتم من الآثام فيما بينكم وبين ربكم ويعفو لكم ربكم عن كثير من إجرامكم، فلا يعاقبكم بها. وينقل في المقطع أقوالاً عن ابن عباس وقتادة والحسن.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=42&tAyahNo=30&tDisplay=yes&UserProfile=0&LanguageId=1

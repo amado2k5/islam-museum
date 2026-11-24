@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-10-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن الذين يحاجّون في الله من بعد ما استُجيب له حجتهم داحضة عند ربهم وعليهم غضب ولهم عذاب شديد، ويفسّر «داحضة» بالباطلة الذاهبة. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=42&tAyahNo=16&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَٱلَّذِينَ يُحَآجُّونَ فِي ٱللَّهِ مِن بَعْدِ مَا ٱسَتُجِيبَ لَهُ حُجَّتُهُمْ دَاحِضَةٌ عِندَ رَبِّهِمْ وَعَلَيْهِمْ غَضَبٌ وَلَهُمْ عَذَابٌ شَدِيدٌ»: والذين يخاصمون في دين الله الذي ابتعث به نبيه محمداً من بعد ما استجاب له الناس، فدخلوا فيه من الذين أورثوا الكتاب «حُجَّتُهُمْ داحِضَةٌ» يقول: خصومتهم التي يخاصمون فيه باطلة ذاهبة عند ربهم «وَعَلَيْهِمْ غَضَبٌ» يقول: وعليهم من الله غضب، ولهم في الآخرة عذاب شديد، وهو عذاب النار. وذُكر أن هذه الآية نزلت في قوم من اليهود خاصموا أصحاب رسول الله في دينهم، وطمعوا أن يصدّوهم عنه، ويردّوهم عن الإسلام إلى الكفر. وينقل في المقطع أقوالاً عن ابن عباس ومجاهد وقتادة وابن زيد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=42&tAyahNo=16&tDisplay=yes&UserProfile=0&LanguageId=1

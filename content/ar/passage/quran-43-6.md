@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-10-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل الآيات 6 إلى 7، وخلاصتها: يقول الطبري إن الله أرسل كثيراً من الأنبياء في الأمم الأولى وما كان يأتيهم من نبي إلا كانوا به يستهزئون، فهي سنة مضت في الأمم. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=43&tAyahNo=6&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 6 إلى 7 مقطعاً واحداً. يفسّر قوله «وَكَمْ أَرْسَلْنَا مِن نَّبِيٍّ فِي ٱلأَوَّلِينَ»: «وَكَمْ أرْسَلْنَا مِنَ نَبِيّ» يا محمد في القرون الأوّلين الذين مضوا قبل قرنك الذي بعثت فيه كما أرسلناك في قومك من قريش «وَما يَأْتِيهِمْ مِنْ نَبِيَ إلاَّ كانُوا بِهِ يَسْتَهْزِءُونَ» يقول وما كان يأتي قرناً من أولئك القرون وأمة من أولئك الأمم الأوّلين لنا من نبيّ يدعوهم إلى الهدى وطريق الحق، إلاَّ كان الذين يأتيهم ذلك من تلك الأمم نبيهم الذي أرسله إليهم يستهزئون سخرية منهم بهم كاستهزاء قومك بك يا محمد. يقول: فلا يعظمنّ عليك ما يفعل بك قومك، ولا يشقنّ عليك، فإنهم إنما سلكوا في استهزائهم بك مسلك أسلافهم، ومنهاج أئمتهم الماضين من أهل الكفر بالله.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=43&tAyahNo=6&tDisplay=yes&UserProfile=0&LanguageId=1

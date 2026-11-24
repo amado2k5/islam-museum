@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-10-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يفسّر الطبري أن الذين قالوا ربنا الله ثم استقاموا على التوحيد وطاعة الله تتنزل عليهم الملائكة ألا تخافوا ولا تحزنوا وأبشروا بالجنة التي كنتم توعدون، ويورد أقوال أبي بكر وعمر وابن عباس في معنى الاستقامة. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=41&tAyahNo=30&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «إِنَّ ٱلَّذِينَ قَالُواْ رَبُّنَا ٱللَّهُ ثُمَّ ٱسْتَقَامُواْ تَتَنَزَّلُ عَلَيْهِمُ ٱلْمَلاَئِكَةُ أَلاَّ تَخَافُواْ وَلاَ تَحْزَنُواْ وَأَبْشِرُواْ بِٱلْجَنَّةِ ٱلَّتِي كُنتُمْ تُوعَدُونَ»: «إنَّ الَّذِينَ قالُوا رَبُّنا اللَّهُ» وحده لا شريك له، وبرئوا من الآلهة والأنداد، «ثُمَّ اسْتَقامُوا» على توحيد الله، ولم يخلطوا توحيد الله بشرك غيره به، وانتهوا إلى طاعته فيما أمر ونهى. وينقل في المقطع أقوالاً عن مجاهد وسفيان.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=41&tAyahNo=30&tDisplay=yes&UserProfile=0&LanguageId=1
