@@ -25,7 +25,7 @@ Müzenin bu yerle ilgili materyallerinde şunlar yer almaktadır: burada doğanl
 ## İsim ve ilk notlar
 Golius, İsfahan'ın başlangıçta daha sonra birleşen dört köyden oluştuğunu ve Şah İsmail'in burayı başkenti yaptığını, ardından Şah Abbas'ın başkentini Kazvin'den buraya taşıdığını belirtir. {cite:farghani-elements-astronomy p. 459} {cite:farghani-elements-astronomy p. 460} Ayrıca, Olliarius ve Delavale'nin de belirttiği gibi, Zayandeh Rud Nehri'nin Damavand'dan Şah Abbas'ın büyük bir özenle kazdığı bir kanal aracılığıyla buraya ulaştığını da söyler. {cite:farghani-elements-astronomy p. 461}
 
-Golius, İsfahan adının "Sepah"tan geldiğini ve bunun da ordu anlamına geldiğini, bunun da El-Biruni'nin görüşü olduğunu belirtir. Ayrıca, daha az olası bir açıklama olarak, bu ismi Flungeus'un oğullarına atfeder. {cite:farghani-elements-astronomy p. 457}
+Golius, İsfahan adının "Sipah"tan geldiğini ve bunun da ordu anlamına geldiğini, bunun da El-Biruni'nin görüşü olduğunu belirtir. Ayrıca, daha az olası bir açıklama olarak, bu ismi Flungeus'un oğullarına atfeder. {cite:farghani-elements-astronomy p. 457}
 
 ## Bölge ve suları
 İsfahan, Sasaniler döneminde merkezi bir bölgede yer alan önemli bir bölgeydi. Daha sonraki fetihler sırasında [[person/umar-ibn-al-khattab|Ömer ibn el-Hattab]], Pers komutanı Hormizd'e danıştı ve Hormizd, İsfahan'ı, düşmesi Azerbaycan ve Pers'in iki kanadının da düşmesine neden olacak bir başa benzeterek, İsfahan'a saldırmasını tavsiye etti. Fetih sonrasında, daha sonra Irak el-Acem olarak adlandırılan Cibal bölgesinin bir parçası oldu. {cite:encyclopaedia-of-islam-2 vol. 4 p. 106}
