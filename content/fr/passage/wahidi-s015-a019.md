@@ -6,7 +6,7 @@ translators: ["machine translation, draft"]
 ---
 
 ## Summary
-Rapport d'al-Wahidi sur la circonstance de révélation de al-Hijr 15:19, transmis de la génération des Successeurs (tabi'in) dans Asbab nuzul al-Qur'an (éd. Dar al-Islah 1992, Shamela 11314).
+Rapport d'al-Wahidi sur la circonstance de révélation de al-Hajj 22:19, transmis de la génération des Successeurs (tabi'in) dans Asbab nuzul al-Qur'an (éd. Dar al-Islah 1992, Shamela 11314).
 
 The verse, in al-Wahidi's heading: «هذان خصمان اختصموا في ربهم».
 
@@ -15,4 +15,4 @@ The verse, in al-Wahidi's heading: «هذان خصمان اختصموا في ر�
 أخبرنا أبو عبد الله محمد بن إبراهيم المزكي قال: أخبرنا عبد الملك بن الحسن بن يوسف قال: أخبرنا يوسف بن يعقوب القاضي قال: أخبرنا عمر بن مرزوق قال: أخبرنا شعبة عن أبي هاشم، عن أبي مجلز، عن قيس بن عباد قال: سمعت أبا ذر يقول: أقسم بالله لنزلت: {هذان خصمان اختصموا في ربهم} في هؤلاء الستة: حمزة وعبيدة وعلي بن أبي طالب وعتبة وشيبة والوليد بن عتبة، رواه البخاري عن حجاج بن منهال، عن هشيم عن أبي هاشم. أخبرنا أبو بكر بن الحارث قال: أخبرنا أبو الشيخ الحافظ قال: أخبرنا محمد بن سليمان قال: أخبرنا هلال بن بشر قال: أخبرنا يوسف بن يعقوب قال: أخبرنا سليمان التيمي عن أبي مجلز، عن قيس عن عباد، عن علي قال: فينا نزلت هذه الآية وفي مبارزتنا يوم بدر: {هذان خصمان اختصموا} إلى قوله {الحريق} قال ابن عباس: هم أهل الكتاب قالوا للمؤمنين: نحن أولى بالله معكم وأقدم منكم كتبا ونبينا قبل نبيكم، وقال المؤمنون: نحن أحق بالله، آمنا بمحمد وآمنا بنبيكم وبما أنزل الله من كتاب، فأنتم تعرفون نبينا ثم تركتموه وكفرتم به حسدا، وكانت هذه خصومتهم في ربهم. فأنزل الله فيهم هذه الآية، وهذا قول قتادة.
 
 ## Place in the museum
-Source : [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an d'al-Wahidi]]. Le verset : [[passage/quran-15-19|Coran 15-19]].
+Source : [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an d'al-Wahidi]]. Le verset : [[passage/quran-22-19|Coran 22-19]].

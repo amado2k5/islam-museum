@@ -8,7 +8,7 @@ translators: ["machine translation, draft"]
 ## Summary
 Al-Wahidi's report on the occasion of revelation of Al 'Imran 3:181, narrated from the Tabi'i (Successor) generation in Asbab nuzul al-Qur'an (Dar al-Islah 1992 ed., Shamela 11314).
 
-The verse, in al-Wahidi's heading: «لقد سمع الله ms088 قول الذين قالوا».
+The verse, in al-Wahidi's heading: «لقد سمع الله قول الذين قالوا».
 
 ## Full report (Arabic source text)
 

@@ -6,7 +6,7 @@ translators: ["machine translation, draft"]
 ---
 
 ## Summary
-Riwayat al-Wahidi tentang sebab turunnya al-Anfal 8:65, diriwayatkan dari generasi Tabi'in dalam Asbab nuzul al-Qur'an (ed. Dar al-Islah 1992, Shamela 11314).
+Riwayat al-Wahidi tentang sebab turunnya al-Anfal 8:70, diriwayatkan dari generasi Tabi'in dalam Asbab nuzul al-Qur'an (ed. Dar al-Islah 1992, Shamela 11314).
 
 The verse, in al-Wahidi's heading: «يا أيها النبي قل لمن في أيديكم من الأسرى».
 
@@ -15,4 +15,4 @@ The verse, in al-Wahidi's heading: «يا أيها النبي قل لمن في �
 {70}. قال الكلبي: نزلت في العباس بن عبد المطلب وعقيل بن أبي طالب ونوفل بن الحارث، وكان العباس أسر يوم بدر ومعه عشرون أوقية من الذهب وكان خرج بها معه إلى بدر ليطعم بها الناس، وكان أحد العشرة الذين ضمنوا إطعام أهل بدر، ولم يكن بلغته النوبة حتى أسر، فأخذت منه وأخذها رسول الله - منه، قال: فكلمت رسول الله- أن يجعل لي العشرين الأوقية الذهب التي أخذها مني فداء، فأبى علي وقال: "أما شيء خرجت تستعين به علينا فلا"، وكلفني فداء ابن أخي عقيل بن أبي طالب عشرين أوقية من فضة، فقلت له: تركتني والله أسأل قريشا بكفي والناس ما بقيت، قال: "فأين الذهب الذي دفعته إلى أم الفضل قبل مخرجك إلى بدر وقلت لها: إن حدث بي حدث في وجهي هذا فهو لك ولعبد الله والفضل وقثم"؟ قال: قلت: وما يدريك؟ قال: "أخبرني الله بذلك"، قال: أشهد إنك لصادق وإني قد دفعت إليها ذهبا ولم يطلع عليها أحد إلا الله، فأنا أشهد أن لا إله إلا الله، وأنك رسول الله، قال العباس: فأعطاني الله خيرا مما أخذ مني، كما قال: عشرين عبدا كلهم يضرب بمال كثير مكان العشرين أوقية، وأنا أرجو المغفرة من ربي.
 
 ## Place in the museum
-Sumber: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an al-Wahidi]]. Ayatnya: [[passage/quran-8-65|Al-Qur'an 8-65]].
+Sumber: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an al-Wahidi]]. Ayatnya: [[passage/quran-8-70|Al-Qur'an 8-70]].

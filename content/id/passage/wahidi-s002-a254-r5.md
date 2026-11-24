@@ -6,7 +6,7 @@ translators: ["machine translation, draft"]
 ---
 
 ## Summary
-Riwayat al-Wahidi tentang sebab turunnya al-Baqara 2:254, diriwayatkan dari generasi Tabi'in dalam Asbab nuzul al-Qur'an (ed. Dar al-Islah 1992, Shamela 11314).
+Riwayat al-Wahidi tentang sebab turunnya al-Baqara 2:178, diriwayatkan dari generasi Tabi'in dalam Asbab nuzul al-Qur'an (ed. Dar al-Islah 1992, Shamela 11314).
 
 The verse, in al-Wahidi's heading: «يا أيها الذين آمنوا كتب عليكم القصاص في القتلى».
 
@@ -15,4 +15,4 @@ The verse, in al-Wahidi's heading: «يا أيها الذين آمنوا كتب 
 الآية {178}. قال الشعبي: كان بين حيين من أحياء العرب قتال، وكان لأحد الحيين طول على الآخر، فقالوا: نقتل بالعبد منا الحر منكم، وبالمرأة الرجل، فنزلت هذه الآية.
 
 ## Place in the museum
-Sumber: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an al-Wahidi]]. Ayatnya: [[passage/quran-2-254|Al-Qur'an 2-254]].
+Sumber: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an al-Wahidi]]. Ayatnya: [[passage/quran-2-178|Al-Qur'an 2-178]].

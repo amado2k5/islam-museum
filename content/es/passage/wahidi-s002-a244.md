@@ -6,7 +6,7 @@ translators: ["machine translation, draft"]
 ---
 
 ## Summary
-Informe de al-Wahidi sobre la ocasión de revelación de al-Baqara 2:244, transmitido de la generación de los Sucesores (tabi'in) en Asbab nuzul al-Qur'an (ed. Dar al-Islah 1992, Shamela 11314).
+Informe de al-Wahidi sobre la ocasión de revelación de al-Baqara 2:190, transmitido de la generación de los Sucesores (tabi'in) en Asbab nuzul al-Qur'an (ed. Dar al-Islah 1992, Shamela 11314).
 
 The verse, in al-Wahidi's heading: «وقاتلوا في سبيل الله الذين يقاتلونكم».
 
@@ -15,4 +15,4 @@ The verse, in al-Wahidi's heading: «وقاتلوا في سبيل الله ال�
 قال الكلبي عن أبي صالح، عن ابن عباس: نزلت هذه الآيات في صلح الحديبية، وذلك أن رسول الله- لما صد عن البيت هو وأصحابه، نحر الهدي بالحديبية، ثم صالحه المشركون على أن يرجع عامه، ثم يأتي القابل على أن يخلوا له مكة ثلاثة أيام، فيطوف بالبيت ويفعل ما شاء، وصالحهم رسول الله؛ فلما كان العام المقبل تجهز رسول الله - وأصحابه لعمرة القضاء، وخافوا أن لا تفي لهم قريش بذلك، وأن يصدوهم عن المسجد الحرام ويقاتلوهم، وكره أصحابه قتالهم في الشهر الحرام، في الحرام فأنزل الله: {وقاتلوا في سبيل الله الذين يقاتلونكم} يعني قريشا.
 
 ## Place in the museum
-Fuente: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an de al-Wahidi]]. El versículo: [[passage/quran-2-244|Corán 2-244]].
+Fuente: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an de al-Wahidi]]. El versículo: [[passage/quran-2-190|Corán 2-190]].

@@ -8,7 +8,7 @@ translators: ["machine translation, draft"]
 ## Summary
 Informe de al-Wahidi sobre la ocasión de revelación de Al 'Imran 3:181, transmitido de la generación de los Sucesores (tabi'in) en Asbab nuzul al-Qur'an (ed. Dar al-Islah 1992, Shamela 11314).
 
-The verse, in al-Wahidi's heading: «لقد سمع الله ms088 قول الذين قالوا».
+The verse, in al-Wahidi's heading: «لقد سمع الله قول الذين قالوا».
 
 ## Informe completo (texto fuente en árabe)
 

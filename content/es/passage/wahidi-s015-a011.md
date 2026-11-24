@@ -6,7 +6,7 @@ translators: ["machine translation, draft"]
 ---
 
 ## Summary
-Informe de al-Wahidi sobre la ocasión de revelación de al-Hijr 15:11, transmitido en Asbab nuzul al-Qur'an (ed. Dar al-Islah 1992, Shamela 11314).
+Informe de al-Wahidi sobre la ocasión de revelación de al-Hajj 22:11, transmitido en Asbab nuzul al-Qur'an (ed. Dar al-Islah 1992, Shamela 11314).
 
 The verse, in al-Wahidi's heading: «ومن الناس من يعبد الله على حرف».
 
@@ -15,4 +15,4 @@ The verse, in al-Wahidi's heading: «ومن الناس من يعبد الله ع
 قال المفسرون: نزلت في أعراب كانوا يقدمون على رسول الله - المدينة مهاجرين من باديتهم، وكان أحدهم إذا قدم المدينة فإن صح بها جسمه ونتجت فرسه مهرا حسنا وولدت امرأته غلاما وكثر ماله وما شيته رضي عنه واطمأن، وقال: ما أصبت منذ دخلت في ديني هذا إلا خيرا، وإن أصابه وجع المدينة وولدت امرأته جارية وأجهضت رماكه وذهب ماله وتأخرت عنه الصدقة، أتاه الشيطان فقال: والله ما أصبت منذ كنت على دينك هذا إلا شرا، فينقلب على دينه، فأنزل الله: {ومن الناس من يعبد الله على حرف} الآية. وروى عطية عن أبي سعيد الخدري قال: أسلم رجل من اليهود فذهب بصره وماله وولده وتشاءم بالإسلام، فأتى النبي- فقال: أقلني، فقال: "إن الإسلام لا يقال"، فقال: إني لم أصب في ديني هذا خيرا، أذهب بصري ومالي وولدي، فقال: "يا يهودي إن الإسلام يسبك الرجال كما تسبك النار خبث الحديد والفضة والذهب"، قال: ونزلت: {ومن الناس من يعبد الله على حرف}
 
 ## Place in the museum
-Fuente: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an de al-Wahidi]]. El versículo: [[passage/quran-15-11|Corán 15-11]].
+Fuente: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an de al-Wahidi]]. El versículo: [[passage/quran-22-11|Corán 22-11]].

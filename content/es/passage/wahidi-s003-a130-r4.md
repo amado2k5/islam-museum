@@ -6,7 +6,7 @@ translators: ["machine translation, draft"]
 ---
 
 ## Summary
-Informe de al-Wahidi sobre la ocasión de revelación de Al 'Imran 3:130, transmitido de la generación de los Compañeros en Asbab nuzul al-Qur'an (ed. Dar al-Islah 1992, Shamela 11314).
+Informe de al-Wahidi sobre la ocasión de revelación de Al 'Imran 3:118, transmitido de la generación de los Compañeros en Asbab nuzul al-Qur'an (ed. Dar al-Islah 1992, Shamela 11314).
 
 The verse, in al-Wahidi's heading: «يا أيها الذين آمنوا لا تتخذوا بطانة من دونكم».
 
@@ -15,4 +15,4 @@ The verse, in al-Wahidi's heading: «يا أيها الذين آمنوا لا ت
 {118}. قال ابن عباس ومجاهد: نزلت في قوم من المؤمنين كانوا يصافون المنافقين ويواصلون رجالا من اليهود لما كان بينهم من القرابة والصداقة والحلف والجوار والرضاع، فأنزل الله هذه الآية ينهاهم عن مباطنتهم خوف الفتنة منهم عليهم.
 
 ## Place in the museum
-Fuente: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an de al-Wahidi]]. El versículo: [[passage/quran-3-130|Corán 3-130]].
+Fuente: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an de al-Wahidi]]. El versículo: [[passage/quran-3-118|Corán 3-118]].

@@ -8,7 +8,7 @@ translators: ["machine translation, draft"]
 ## Summary
 al-Baqara 2:174 ayetinin nüzül sebebi hakkında El-Vahidi'nin rivayeti; Esbab Nüzul el-Kur'an'dan (Darül-İslah 1992 baskısı, Şamile 11314) — tabiin neslinden.
 
-The verse, in al-Wahidi's heading: «إن الذين يكتمون ms027 ما أنزل الله من الكتاب».
+The verse, in al-Wahidi's heading: «إن الذين يكتمون ما أنزل الله من الكتاب».
 
 ## Tam rivayet (Arapça kaynak metin)
 

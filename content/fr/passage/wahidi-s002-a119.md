@@ -8,7 +8,7 @@ translators: ["machine translation, draft"]
 ## Summary
 Rapport d'al-Wahidi sur la circonstance de révélation de al-Baqara 2:119, transmis de la génération des Compagnons dans Asbab nuzul al-Qur'an (éd. Dar al-Islah 1992, Shamela 11314).
 
-The verse, in al-Wahidi's heading: «ولا تسأل عن ms022 أصحاب الجحيم».
+The verse, in al-Wahidi's heading: «ولا تسأل عن أصحاب الجحيم».
 
 ## Rapport complet (texte source arabe)
 

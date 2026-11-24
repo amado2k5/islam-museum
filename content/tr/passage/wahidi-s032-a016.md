@@ -8,7 +8,7 @@ translators: ["machine translation, draft"]
 ## Summary
 as-Sajda 32:16 ayetinin nüzül sebebi hakkında El-Vahidi'nin rivayeti; Esbab Nüzul el-Kur'an'dan (Darül-İslah 1992 baskısı, Şamile 11314) — sahabe neslinden.
 
-The verse, in al-Wahidi's heading: «تتجافى ms237 جنوبهم عن المضاجع».
+The verse, in al-Wahidi's heading: «تتجافى جنوبهم عن المضاجع».
 
 ## Tam rivayet (Arapça kaynak metin)
 

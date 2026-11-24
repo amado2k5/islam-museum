@@ -8,7 +8,7 @@ translators: ["machine translation, draft"]
 ## Summary
 Riwayat al-Wahidi tentang sebab turunnya as-Sajda 32:16, diriwayatkan dari generasi Sahabat dalam Asbab nuzul al-Qur'an (ed. Dar al-Islah 1992, Shamela 11314).
 
-The verse, in al-Wahidi's heading: «تتجافى ms237 جنوبهم عن المضاجع».
+The verse, in al-Wahidi's heading: «تتجافى جنوبهم عن المضاجع».
 
 ## Laporan lengkap (teks sumber Arab)
 

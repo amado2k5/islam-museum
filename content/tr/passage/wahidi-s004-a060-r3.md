@@ -6,7 +6,7 @@ translators: ["machine translation, draft"]
 ---
 
 ## Summary
-an-Nisa 4:60 ayetinin nüzül sebebi hakkında El-Vahidi'nin rivayeti; Esbab Nüzul el-Kur'an'dan (Darül-İslah 1992 baskısı, Şamile 11314) — tabiin neslinden.
+an-Nisa 4:77 ayetinin nüzül sebebi hakkında El-Vahidi'nin rivayeti; Esbab Nüzul el-Kur'an'dan (Darül-İslah 1992 baskısı, Şamile 11314) — tabiin neslinden.
 
 The verse, in al-Wahidi's heading: «ألم تر إلى الذين قيل لهم كفوا أيديكم».
 
@@ -15,4 +15,4 @@ The verse, in al-Wahidi's heading: «ألم تر إلى الذين قيل لهم
 قال الكلبي: نزلت هذه الآية في نفر من أصحاب رسول الله - منهم عبد الرحمن بن عوف والمقداد بن الأسود وقدامة بن مظعون وسعد بن أبي وقاص كانوا يلقون من المشركين أذى كثيرا ويقولون: يا رسول الله ائذن لنا في قتال هؤلاء، فيقول لهم: "كفوا أيديكم عنهم فإني لم أؤمر بقتالهم"، فلما هاجر رسول الله - إلى المدينة، وأمرهم الله بقتال المشركين كرهه بعضهم وشق عليهم، فأنزل الله هذه الآية. أخبرنا سعيد بن محمد بن أحمد العدل قال: أخبرنا أبو عمرو بن حمدان قال: أخبرنا الحسن بن سفيان قال: حدثنا محمد بن علي قال: سمعت أبي يقول: أخبرنا الحسين بن واقد، عن عمرو بن دينار، عن عكرمة، عن ابن عباس: أن عبد الرحمن بن عوف وأصحابه أتوا إلى النبي- بمكة، فقالوا: يا نبي الله كنا في عز ونحن مشركون، فلما آمنا صرنا أذلة! فقال: "إني أمرت بالعفو، فلا تقاتلوا والقوم"، فلما حوله الله إلى المدينة أمره بالقتال فكفوا، فأنزل الله: {ألم تر إلى الذين قيل لهم كفوا أيديكم}
 
 ## Place in the museum
-Kaynak: [[work/asbab-nuzul-wahidi|El-Vahidi'nin Esbab Nüzul el-Kur'an'ı]]. Ayet: [[passage/quran-4-60|Kur'an 4-60]].
+Kaynak: [[work/asbab-nuzul-wahidi|El-Vahidi'nin Esbab Nüzul el-Kur'an'ı]]. Ayet: [[passage/quran-4-77|Kur'an 4-77]].

@@ -8,7 +8,7 @@ translators: ["machine translation, draft"]
 ## Summary
 Rapport d'al-Wahidi sur la circonstance de révélation de al-An'am 6:121, transmis de la génération des Successeurs (tabi'in) dans Asbab nuzul al-Qur'an (éd. Dar al-Islah 1992, Shamela 11314).
 
-The verse, in al-Wahidi's heading: «ولا تأكلوا مما لم يذكر اسم ms151 الله عليه».
+The verse, in al-Wahidi's heading: «ولا تأكلوا مما لم يذكر اسم الله عليه».
 
 ## Rapport complet (texte source arabe)
 

@@ -6,7 +6,7 @@ translators: ["machine translation, draft"]
 ---
 
 ## Summary
-Al-Wahidi's report on the occasion of revelation of al-Baqara 2:8, narrated from the Tabi'i (Successor) generation in Asbab nuzul al-Qur'an (Dar al-Islah 1992 ed., Shamela 11314).
+Al-Wahidi's report on the occasion of revelation of al-Baqara 2:204, narrated from the Tabi'i (Successor) generation in Asbab nuzul al-Qur'an (Dar al-Islah 1992 ed., Shamela 11314).
 
 The verse, in al-Wahidi's heading: «ومن الناس من يعجبك قوله في الحياة الدنيا».
 
@@ -15,4 +15,4 @@ The verse, in al-Wahidi's heading: «ومن الناس من يعجبك قوله 
 {204}. قال السدي نزلت في الأخنس بن شريق الثقفي، وهو حليف بني زهرة أقبل إلى النبي- إلى المدينة، فأظهر له الإسلام وأعجب النبي- ذلك منه، وقال: إنما جئت أريد الإسلام، والله يعلم إني صادق، وذلك قوله: {ويشهد الله على ما في قلبه} ثم خرج من عند رسول الله- فمر بزرع لقوم من المسلمين وحمر فأحرق الزرع وعقر الحمر فأنزل الله فيه: {وإذا تولى سعى في الأرض ليفسد فيها ويهلك الحرث والنسل}
 
 ## Place in the museum
-Source: [[work/asbab-al-nuzul-wahidi|al-Wahidi's Asbab nuzul al-Qur'an]]. The verse: [[passage/quran-2-8|Qur'an 2-8]].
+Source: [[work/asbab-al-nuzul-wahidi|al-Wahidi's Asbab nuzul al-Qur'an]]. The verse: [[passage/quran-2-204|Qur'an 2-204]].

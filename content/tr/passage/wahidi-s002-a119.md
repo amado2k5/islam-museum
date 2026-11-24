@@ -8,7 +8,7 @@ translators: ["machine translation, draft"]
 ## Summary
 al-Baqara 2:119 ayetinin nüzül sebebi hakkında El-Vahidi'nin rivayeti; Esbab Nüzul el-Kur'an'dan (Darül-İslah 1992 baskısı, Şamile 11314) — sahabe neslinden.
 
-The verse, in al-Wahidi's heading: «ولا تسأل عن ms022 أصحاب الجحيم».
+The verse, in al-Wahidi's heading: «ولا تسأل عن أصحاب الجحيم».
 
 ## Tam rivayet (Arapça kaynak metin)
 
