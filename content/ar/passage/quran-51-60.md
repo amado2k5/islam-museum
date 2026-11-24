@@ -3,6 +3,11 @@ id: passage/quran-51-60
 lang: ar
 source_lang: ar
 translators: []
+provenance:
+  generated_by: "Claude Code (Sonnet 5.5 session)"
+  model: claude-sonnet-5-5
+  run: altafsir-tabari-batch-11-2026-11-24
+  source: source/altafsir-tabari
 ---
 
 ## موجز
@@ -10,3 +15,7 @@ translators: []
 
 ## موضعها
 موضعها: الآية 60 من أصل 60 آية في السورة. النص محفوظ من مصحف تنزيل المجمّد ولا يُعاد كتابته هنا.
+
+## تفسير الطبري
+
+يقول الطبري إن الوادي السائل في جهنم من قيح وصديد للذين كفروا بالله وجحدوا وحدانيته، من يومهم الذي يوعدون فيه نزول العذاب، يلقون فيه البلاء والجهد. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=51&tAyahNo=60&tDisplay=yes&UserProfile=0&LanguageId=1

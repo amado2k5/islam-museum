@@ -3,6 +3,11 @@ id: passage/quran-68-15
 lang: ar
 source_lang: ar
 translators: []
+provenance:
+  generated_by: "Claude Code (Sonnet 5.5 session)"
+  model: claude-sonnet-5-5
+  run: altafsir-tabari-batch-11-2026-11-24
+  source: source/altafsir-tabari
 ---
 
 ## موجز
@@ -10,3 +15,7 @@ translators: []
 
 ## موضعها
 موضعها: الآية 15 من أصل 52 آية في السورة. النص محفوظ من مصحف تنزيل المجمّد ولا يُعاد كتابته هنا.
+
+## تفسير الطبري
+
+يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل الآيات [[passage/quran-68-14|68:14]] إلى [[passage/quran-68-16|68:16]]، وخلاصتها: يبيّن الطبري أن القراء اختلفوا في «أن كان»؛ فقرأ أبو جعفر المدني وحمزة بالاستفهام بهمزتين على التقريع، أي ألأن كان هذا الحلاف المهين ذا مال وبنين إذا تتلى عليه آياتنا قال أساطير الأولين، وهذا أظهر وجهيه، وتقرأ الأخرى بلا استفهام. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=68&tAyahNo=15&tDisplay=yes&UserProfile=0&LanguageId=1
