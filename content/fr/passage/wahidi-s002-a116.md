@@ -12,7 +12,7 @@ The verse, in al-Wahidi's heading: «وقالوا اتخذ الله ولدا».
 
 ## Rapport complet (texte source arabe)
 
-نزلت في اليهود حيث قالوا: عزير ابن الله، وفي نصارى نجران حيث قالوا:
+نزلت في اليهود حيث قالوا: عزير ابن الله، وفي نصارى نجران حيث قالوا: المسيح ابن الله، وفي مشركي العرب حيث قالوا: الملائكة بنات الله.
 
 ## Place in the museum
 Source : [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an d'al-Wahidi]]. Le verset : [[passage/quran-2-116|Coran 2-116]].

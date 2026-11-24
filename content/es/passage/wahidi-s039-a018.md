@@ -12,7 +12,7 @@ The verse, in al-Wahidi's heading: «فبشر عبادي الذين يستمعو
 
 ## Informe completo (texto fuente en árabe)
 
-وسعيد بن زيد وسعد بن أبي وقاص فسألوه، فأخبرهم بإيمانه فآمنوا، ونزلت
+قال عطاء، عن ابن عباس: إن أبا بكر الصديق- آمن بالنبي - وصدقه، فجاء عثمان وعبد الرحمن بن عوف وطلحة والزبير وسعيد بن زيد وسعد بن أبي وقاص فسألوه، فأخبرهم بإيمانه فآمنوا، ونزلت فيهم: {فبشر عباد الذين يستمعون القول} قال: يريد من أبي بكر {فيتبعون أحسنه}
 
 ## Place in the museum
 Fuente: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an de al-Wahidi]]. El versículo: [[passage/quran-39-18|Corán 39-18]].

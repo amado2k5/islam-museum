@@ -12,7 +12,7 @@ The verse, in al-Wahidi's heading: «ولا تقولوا لمن يقتل في س
 
 ## Full report (Arabic source text)
 
-نزلت في قتلى بدر من المسلمين، وكانوا بضعة عشر رجلا، ثمانية من الأنصار
+. نزلت في قتلى بدر من المسلمين، وكانوا بضعة عشر رجلا، ثمانية من الأنصار وستة من المهاجرين، وذلك أن الناس كانوا يقولون للرجل يقتل في سبيل الله مات فلان وذهب عنه نعيم الدنيا ولذاتها، فأنزل الله هذه الآية.
 
 ## Place in the museum
 Source: [[work/asbab-al-nuzul-wahidi|al-Wahidi's Asbab nuzul al-Qur'an]]. The verse: [[passage/quran-2-154|Qur'an 2-154]].

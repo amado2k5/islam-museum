@@ -12,7 +12,7 @@ The verse, in al-Wahidi's heading: «وأسروا قولكم أو اجهروا �
 
 ## Laporan lengkap (teks sumber Arab)
 
-قال ابن عباس: نزلت في المشركين كانوا ينالون من رسول الله - صلى الله
+قال ابن عباس: نزلت في المشركين كانوا ينالون من رسول الله - فخبره جبريل بما قالوا فيه ونالوا منه، فيقول بعضهم لبعض: أسروا قولكم لئلا يسمع إله محمد.
 
 ## Place in the museum
 Sumber: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an al-Wahidi]]. Ayatnya: [[passage/quran-67-13|Al-Qur'an 67-13]].

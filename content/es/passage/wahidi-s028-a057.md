@@ -12,7 +12,7 @@ The verse, in al-Wahidi's heading: «وقالوا إن نتبع الهدى مع�
 
 ## Informe completo (texto fuente en árabe)
 
-نزلت في الحارث بن عثمان بن نوفل بن عبد مناف، وذلك أنه قال للنبي - صلى
+نزلت في الحارث بن عثمان بن نوفل بن عبد مناف، وذلك أنه قال للنبي - إنا لنعلم أن الذي تقول حق، لكن يمنعنا من اتباعك أن العرب تخطفنا من أرضنا لإجماعهم على خلافنا ولا طاقة لنا بهم، فأنزل الله هذه الآية.
 
 ## Place in the museum
 Fuente: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an de al-Wahidi]]. El versículo: [[passage/quran-28-57|Corán 28-57]].

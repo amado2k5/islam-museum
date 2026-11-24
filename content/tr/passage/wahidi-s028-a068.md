@@ -12,7 +12,7 @@ The verse, in al-Wahidi's heading: «وربك يخلق ما يشاء ويختا�
 
 ## Tam rivayet (Arapça kaynak metin)
 
-قال أهل التفسير: نزلت جوابا للوليد بن المغيرة حين قال فيما أخبر الله
+قال أهل التفسير: نزلت جوابا للوليد بن المغيرة حين قال فيما أخبر الله عنه: {وقالوا لولا نزل هذا القرآن على رجل من القريتين عظيم} أخبر الله أنه لا يبعث الرسل باختيارهم.
 
 ## Place in the museum
 Kaynak: [[work/asbab-nuzul-wahidi|El-Vahidi'nin Esbab Nüzul el-Kur'an'ı]]. Ayet: [[passage/quran-28-68|Kur'an 28-68]].

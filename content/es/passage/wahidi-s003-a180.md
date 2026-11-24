@@ -12,7 +12,7 @@ The verse, in al-Wahidi's heading: «ولا يحسبن الذين يبخلون �
 
 ## Informe completo (texto fuente en árabe)
 
-أجمع جمهور المفسرين على أنها نزلت في مانعي الزكاة.
+. أجمع جمهور المفسرين على أنها نزلت في مانعي الزكاة. وروى عطية العوفي عن ابن عباس: أن الآية نزلت في أحبار اليهود الذين كتموا صفة محمد- ونبوته، وأراد بالبخل: كتمان العلم الذي آتاهم الله.
 
 ## Place in the museum
 Fuente: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an de al-Wahidi]]. El versículo: [[passage/quran-3-180|Corán 3-180]].

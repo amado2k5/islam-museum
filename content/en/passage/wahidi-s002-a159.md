@@ -12,7 +12,7 @@ The verse, in al-Wahidi's heading: «إن الذين يكتمون ما أنزل�
 
 ## Full report (Arabic source text)
 
-نزلت في علماء أهل الكتاب وكتمانهم آية الرجم وأمر محمد
+. نزلت في علماء أهل الكتاب وكتمانهم آية الرجم وأمر محمد -.
 
 ## Place in the museum
 Source: [[work/asbab-al-nuzul-wahidi|al-Wahidi's Asbab nuzul al-Qur'an]]. The verse: [[passage/quran-2-159|Qur'an 2-159]].

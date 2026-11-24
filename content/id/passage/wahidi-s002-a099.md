@@ -12,7 +12,7 @@ The verse, in al-Wahidi's heading: «ولقد أنزلنا إليك آيات ب�
 
 ## Laporan lengkap (teks sumber Arab)
 
-وسلم - يا محمد ما جئتنا بشيء نعرفه، ما أنزل عليك من آية بينة فنتبعك، بها
+قال ابن عباس: هذا جواب لابن صوريا حيث قال لرسول الله - يا محمد ما جئتنا بشيء نعرفه، ما أنزل عليك من آية بينة فنتبعك، بها فأنزل الله هذه الآية.
 
 ## Place in the museum
 Sumber: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an al-Wahidi]]. Ayatnya: [[passage/quran-2-99|Al-Qur'an 2-99]].

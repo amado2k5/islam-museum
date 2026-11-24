@@ -12,7 +12,7 @@ The verse, in al-Wahidi's heading: «خلق الإنسان من نطفة فإذ�
 
 ## Rapport complet (texte source arabe)
 
-نزلت الآية في أبي بن خلف الجمحي حين جاء بعظم رميم إلى رسول الله - صلى
+نزلت الآية في أبي بن خلف الجمحي حين جاء بعظم رميم إلى رسول الله - فقال: يا محمد أترى الله يحيي هذا بعدما قد رم؟. نظير هذه الآية قوله في سورة يس: {أولم ير الإنسان أنا خلقناه من نطفة فإذا هو خصيم مبين} إلى آخر السورة، نازلة في هذه القصة.
 
 ## Place in the museum
 Source : [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an d'al-Wahidi]]. Le verset : [[passage/quran-16-4|Coran 16-4]].

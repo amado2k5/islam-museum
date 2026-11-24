@@ -12,7 +12,7 @@ The verse, in al-Wahidi's heading: «وابتلوا اليتامى».
 
 ## Informe completo (texto fuente en árabe)
 
-نزلت في ثابت بن رفاعة وفي عمه، وذلك أن رفاعة توفي وترك ابنه ثابتا وهو
+نزلت في ثابت بن رفاعة وفي عمه، وذلك أن رفاعة توفي وترك ابنه ثابتا وهو صغير، فأتى عم ثابت إلى النبي- فقال: إن ابن أخي يتيم في حجري، فما يحل لي من ماله، ومتى أدفع إليه ماله؟ فأنزل الله هذه الآية.
 
 ## Place in the museum
 Fuente: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an de al-Wahidi]]. El versículo: [[passage/quran-4-6|Corán 4-6]].

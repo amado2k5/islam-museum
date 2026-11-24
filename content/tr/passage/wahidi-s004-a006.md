@@ -12,7 +12,7 @@ The verse, in al-Wahidi's heading: «وابتلوا اليتامى».
 
 ## Tam rivayet (Arapça kaynak metin)
 
-نزلت في ثابت بن رفاعة وفي عمه، وذلك أن رفاعة توفي وترك ابنه ثابتا وهو
+نزلت في ثابت بن رفاعة وفي عمه، وذلك أن رفاعة توفي وترك ابنه ثابتا وهو صغير، فأتى عم ثابت إلى النبي- فقال: إن ابن أخي يتيم في حجري، فما يحل لي من ماله، ومتى أدفع إليه ماله؟ فأنزل الله هذه الآية.
 
 ## Place in the museum
 Kaynak: [[work/asbab-nuzul-wahidi|El-Vahidi'nin Esbab Nüzul el-Kur'an'ı]]. Ayet: [[passage/quran-4-6|Kur'an 4-6]].

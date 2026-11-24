@@ -12,7 +12,7 @@ The verse, in al-Wahidi's heading: «إن أول بيت وضع للناس».
 
 ## Laporan lengkap (teks sumber Arab)
 
-الكعبة أفضل، فأنزل اللههذه الآية.
+قال مجاهد: تفاخر المسلمون واليهود، فقالت اليهود: بيت المقدس أفضل وأعظم من الكعبة لأنه مهاجر الأنبياء وفي الأرض المقدسة، وقال المسلمون: بل الكعبة أفضل، فأنزل الله هذه الآية.
 
 ## Place in the museum
 Sumber: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an al-Wahidi]]. Ayatnya: [[passage/quran-3-96|Al-Qur'an 3-96]].

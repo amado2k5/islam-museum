@@ -212,6 +212,18 @@ export function honorify(html: string, lang: Lang, state: HonState = newHonState
     .join("");
 }
 
+// A paragraph or quotation written wholly in Arabic (a source text) inside another language's prose says so: lang for screen
+// readers and the Arabic typeface, dir so it reads from the right. Urdu shares the script, so its own letters rule a paragraph out.
+const URDU_LETTER = /[\u0679\u0688\u0691\u067E\u0686\u06AF\u06BA\u06BE\u06C1-\u06C3\u06CC\u06D2\u06D3\u06A9]/;
+export function markArabic(html: string, lang: Lang): string {
+  if (lang === "ar") return html;
+  return html.replace(/<p>([\s\S]*?)<\/p>/g, (whole, inner: string) => {
+    const letters = inner.replace(/<[^>]+>|&[a-z]+;|&#\d+;/g, "").match(/\p{L}/gu) ?? [];
+    if (letters.length < 12 || letters.some((c) => !/\p{Script=Arabic}/u.test(c)) || (lang === "ur" && URDU_LETTER.test(inner))) return whole;
+    return `<p lang="ar" dir="rtl">${inner}</p>`;
+  });
+}
+
 export function renderProse(md: string, lang: Lang, hon?: HonState): Rendered {
   const cites: Cite[] = [];
 
@@ -242,6 +254,6 @@ export function renderProse(md: string, lang: Lang, hon?: HonState): Rendered {
     return "";
   });
 
-  const html = honorify(transform(markedSafe.parse(md.replace(/<!--[\s\S]*?-->/g, ""), { async: false }) as string), lang, hon);
+  const html = honorify(markArabic(transform(markedSafe.parse(md.replace(/<!--[\s\S]*?-->/g, ""), { async: false }) as string), lang), lang, hon);
   return { html, cites, perspectives };
 }

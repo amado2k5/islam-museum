@@ -148,3 +148,15 @@ describe("renderProse: a kunya is not a prophet", () => {
     expect(renderProse("نزل أبو أيوب عند النبي.", "ar").html).toContain('النبي <span lang="ar">ﷺ</span>');
   });
 });
+
+describe("renderProse: a paragraph wholly in Arabic says so", () => {
+  const AR = "أخرج الواحدي من طريق محمد بن مروان عن أبي صالح عن ابن عباس قال";
+  it("marks it in other languages, Urdu included", () => {
+    for (const l of ["en", "fr", "tr", "ur"] as const) expect(renderProse(AR, l).html).toContain('<p lang="ar" dir="rtl">');
+  });
+  it("leaves Arabic pages, Urdu prose and mixed paragraphs alone", () => {
+    expect(renderProse(AR, "ar").html).not.toContain("dir=");
+    expect(renderProse("یہ روایت واحدی نے محمد بن مروان سے نقل کی ہے", "ur").html).not.toContain("dir=");
+    expect(renderProse(`The report begins: ${AR}`, "en").html).not.toContain("dir=");
+  });
+});

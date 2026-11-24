@@ -12,7 +12,7 @@ The verse, in al-Wahidi's heading: «ودت طائفة من أهل الكتاب 
 
 ## Tam rivayet (Arapça kaynak metin)
 
-نزلت في معاذ بن جبل وحذيفة وعمار بن ياسر حين دعاهم اليهود إلى دينهم،
+نزلت في معاذ بن جبل وحذيفة وعمار بن ياسر حين دعاهم اليهود إلى دينهم، وقد مضت القصة في سورة البقرة.
 
 ## Place in the museum
 Kaynak: [[work/asbab-nuzul-wahidi|El-Vahidi'nin Esbab Nüzul el-Kur'an'ı]]. Ayet: [[passage/quran-3-69|Kur'an 3-69]].

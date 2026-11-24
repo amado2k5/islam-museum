@@ -12,7 +12,7 @@ The verse, in al-Wahidi's heading: «إن الذين يأكلون أموال ا�
 
 ## Informe completo (texto fuente en árabe)
 
-قال مقاتل بن حيان: نزلت في رجل من غطفان يقال له: مرثد بن زيد ولي مال
+قال مقاتل بن حيان: نزلت في رجل من غطفان يقال له: مرثد بن زيد ولي مال ابن أخيه وهو يتيم صغير، فأكله، فأنزل الله فيه هذه الآية.
 
 ## Place in the museum
 Fuente: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an de al-Wahidi]]. El versículo: [[passage/quran-4-10|Corán 4-10]].

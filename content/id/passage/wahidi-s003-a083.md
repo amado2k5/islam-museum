@@ -12,7 +12,7 @@ The verse, in al-Wahidi's heading: «أفغير دين الله يبغون».
 
 ## Laporan lengkap (teks sumber Arab)
 
-وقالوا: والله ما نرضى بقضائك ولا نأخذ بدينك، فأنزل الله: {أفغير
+قال ابن عباس: اختصم أهل الكتابين إلى رسول الله- فيما اختلفوا بينهم من دين إبراهيم، كل فرقة زعمت أنها أولى بدينه، فقال النبي- "كلا الفريقين بريء من دين إبراهيم" فغضبوا، وقالوا: والله ما نرضى بقضائك ولا نأخذ بدينك، فأنزل الله: {أفغير دين الله يبغون}
 
 ## Place in the museum
 Sumber: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an al-Wahidi]]. Ayatnya: [[passage/quran-3-83|Al-Qur'an 3-83]].

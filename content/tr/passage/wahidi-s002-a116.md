@@ -12,7 +12,7 @@ The verse, in al-Wahidi's heading: «وقالوا اتخذ الله ولدا».
 
 ## Tam rivayet (Arapça kaynak metin)
 
-نزلت في اليهود حيث قالوا: عزير ابن الله، وفي نصارى نجران حيث قالوا:
+نزلت في اليهود حيث قالوا: عزير ابن الله، وفي نصارى نجران حيث قالوا: المسيح ابن الله، وفي مشركي العرب حيث قالوا: الملائكة بنات الله.
 
 ## Place in the museum
 Kaynak: [[work/asbab-nuzul-wahidi|El-Vahidi'nin Esbab Nüzul el-Kur'an'ı]]. Ayet: [[passage/quran-2-116|Kur'an 2-116]].

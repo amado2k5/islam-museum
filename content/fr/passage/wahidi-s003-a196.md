@@ -12,7 +12,7 @@ The verse, in al-Wahidi's heading: «لا يغرنك تقلب الذين كفر�
 
 ## Rapport complet (texte source arabe)
 
-نزلت في مشركي مكة، وذلك أنهم كانوا في رخاء ولين من العيش، وكانوا
+نزلت في مشركي مكة، وذلك أنهم كانوا في رخاء ولين من العيش، وكانوا يتجرون ويتنعمون، فقال بعض المؤمنين: إن أعداء الله فيما نرى من الخير، وقد هلكنا من الجوع والجهد، فنزلت هذه الآية.
 
 ## Place in the museum
 Source : [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an d'al-Wahidi]]. Le verset : [[passage/quran-3-196|Coran 3-196]].

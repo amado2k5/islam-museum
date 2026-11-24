@@ -12,7 +12,7 @@ The verse, in al-Wahidi's heading: «والذين اجتنبوا الطاغوت 
 
 ## Tam rivayet (Arapça kaynak metin)
 
-قال ابن زيد: نزلت في ثلاثة أنفار كانوا في الجاهلية يقولون: لا إله إلا
+قال ابن زيد: نزلت في ثلاثة أنفار كانوا في الجاهلية يقولون: لا إله إلا الله وهم زيد بن عمرو وأبو ذر الغفاري وسلمان الفارسي.
 
 ## Place in the museum
 Kaynak: [[work/asbab-nuzul-wahidi|El-Vahidi'nin Esbab Nüzul el-Kur'an'ı]]. Ayet: [[passage/quran-39-17|Kur'an 39-17]].

@@ -12,7 +12,7 @@ The verse, in al-Wahidi's heading: «يسألونك عن الخمر والميس
 
 ## Informe completo (texto fuente en árabe)
 
-نزلت في عمر بن الخطاب ومعاذ بن جبل ونفر من الأنصار أتوا رسول الله- فقالوا: أفتنا في الخمر والميسر فإنهما مذهبة للعقل
+نزلت في عمر بن الخطاب ومعاذ بن جبل ونفر من الأنصار أتوا رسول الله- فقالوا: أفتنا في الخمر والميسر فإنهما مذهبة للعقل مسلبة للمال، فأنزل الله هذه الآية.
 
 ## Place in the museum
 Fuente: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an de al-Wahidi]]. El versículo: [[passage/quran-2-219|Corán 2-219]].
