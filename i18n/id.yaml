@@ -87,7 +87,7 @@ landing:
   widget_none: Belum ada bahan yang bertanggal hingga hari ini di museum.
   widget_fail: Gagal memperhitungkan di browser ini.
   widget_or: 'Atau mulai dengan perjalanan paling terkenal dalam cerita ini:'
-  stats: '{item} Materi · {halaman} Halaman rekaman, halaman untuk setiap subjek dalam bahasa Arab, Inggris, Urdu, Prancis, Spanyol, Turki, dan Indonesia · {jalur} Jalur'
+  stats: '{items} Materi · {pages} Halaman rekaman, halaman untuk setiap subjek dalam bahasa Arab, Inggris, Urdu, Prancis, Spanyol, Turki, dan Indonesia · {pathways} Jalur'
   honest: Kami menunjukkan celah dan tidak menyembunyikannya
   honest_link: Tonton liputannya
   give_title: Donasikan dan dukung kami
@@ -122,7 +122,7 @@ reader:
   lede: Teks lengkap Al-Qur'an untuk pembacaan berkelanjutan, Surah demi Surah — dari teks Wahyu Beku, dan setiap ayat adalah bab dalam kartunya di museum.
   index_note: Surah Al-Qur'an disusun sesuai urutan Al-Qur'an; klik surah untuk membacanya secara lengkap, dan klik ayat mana pun di dalamnya untuk membuka kartu dengan konteks dan tautannya.
   sura_n: Surah {n}
-  read_title: Surah {nama} — Pembacaan
+  read_title: Surah {name} — Pembacaan
   read_lede: Baca ayat lengkap {name}, {n} sesuai dengan teks Wahyu Ottoman; setiap ayat mengarah ke tagnya sendiri di museum.
   open_ayah: Kartu puisi {ref} di museum
   map_link: Peta Tematik Surah
@@ -181,7 +181,7 @@ hall:
   year_ce: m
   year_go: Ayo
   year_invalid: Ketik tahun sebagai angka, misalnya 656.
-  year_none: Belum ada pintu masuk di paviliun yang bertanggal abad {tahun} M.
+  year_none: Belum ada pintu masuk di paviliun yang bertanggal abad {year} M.
   other_timeline: 'Ini adalah keseluruhan porosnya: setiap entri bertanggal, tahun demi tahun. Dan untuk mengikuti satu karakter, satu era, atau satu kota, buka stasiun.'
   promise:
     living: Ibadah, hari raya, makanan, pakaian, dan musik
@@ -208,7 +208,7 @@ entity:
   shia_label: Syiah
   breadcrumb: The Museum
   dagger: † tanggal Hijriyah secara otomatis dihitung dari kalender Gregorian; tanggal tersebut dapat berbeda satu atau dua hari dari tanggal yang diceritakan.
-  unverified_dates: 'Tidak terverifikasi: {tanggal}. Direkam dengan pemrosesan otomatis dan belum dikonfirmasi oleh sumber, sehingga tidak digunakan dalam garis waktu.'
+  unverified_dates: 'Tidak terverifikasi: {dates}. Direkam dengan pemrosesan otomatis dan belum dikonfirmasi oleh sumber, sehingga tidak digunakan dalam garis waktu.'
   born_word: Nak.
   died_word: Meninggal
   stub_desc: '{label}: Sebuah entri di museum masih dalam proses penulisan.'
@@ -234,8 +234,8 @@ entity:
   contemporaries: Sezaman
   connections: Koneksi
   sources: Sumber
-  recording_line: '{seri}, episode {ep}'
-  recording_at: Pada {waktu}
+  recording_line: '{series}, episode {ep}'
+  recording_at: Pada {time}
   listen_at_archive: Mendengarkan di arsip (suara dibuka pada waktu ini)
   contested_label: tidak selaras
   contested_notice: Materi ini mencakup isu-isu yang berbeda pendapat para cendekiawan. Pandangan Sheikh dikaitkan dengannya, dan pendapat lain dipelajari di mana sumber yang belum dikutip.
@@ -437,7 +437,7 @@ modernSports:
   esports: Esports
   paralympic: Paralimpiade
 modern:
-  sections_reconcile: 'Pada bagian di bawah ini, {sum} ditempatkan dalam catatan yang berbeda untuk {catatan}: catatan yang termasuk dua bagian dihitung di masing-masing.'
+  sections_reconcile: 'Pada bagian di bawah ini, {sum} ditempatkan dalam catatan yang berbeda untuk {records}: catatan yang termasuk dua bagian dihitung di masing-masing.'
   title: Browser Islam Kontemporer
   lede: 'Lima puluh tahun terakhir Islam dan umat Muslim, dari awal Muharram 1396 H (3 Januari 1976 M) hingga hari ini dan yang akan datang: sembilan belas bagian dalam jaringan museum tunggal, masing-masing
     tercatat dengan sumbernya, dan setiap nomor dihitung pada saat pembangunan.'
@@ -487,8 +487,8 @@ modern:
   formula_title: Cara menghitung poin
   formula_version: Versi persamaan {v}
   tie_break: Dalam seri, versi tertua maju.
-  formula_honours: '{menang} poin per hadiah, dan {nominasi} untuk setiap nominasi, daftar pendek, atau posisi akhir; hingga {cap}.'
-  formula_certified: Gold {gold}, platinum, multi-platinum; maksimum {cap}.
+  formula_honours: '{won} poin per hadiah, dan {nominated} untuk setiap nominasi, daftar pendek, atau posisi akhir; hingga {cap}.'
+  formula_certified: Gold {gold}, platinum {platinum}, multi-platinum {multi}; maksimum {cap}.
   formula_chart: Sepuluh besar {top10}, empat puluh teratas {top40}, masuk ke daftar {charted}; maks {cap}.
   formula_reach: Logaritma desimal dari angka terbesar yang bertanggal di setiap platform, dijumlahkan menjadi platform {max}; hingga {cap}.
   formula_wikipedia: '{per} per bahasa di Wikipedia; hingga {cap}.'
@@ -770,7 +770,7 @@ graph:
   suggest_none: Tidak ada pintu masuk dengan nama tersebut di sudut-sudut museum. Anda dapat memasukkan identitas, seperti person/abu-bakr.
   notfound: 'Tidak dapat menggambar «{q}»: Tidak ada entri dengan nama atau pengenal ini yang memiliki tautan terdaftar. Coba nama lain.'
   trail: Pusat yang Saya Kunjungi
-  filter_on: 'Hanya ditampilkan: {tipe}'
+  filter_on: 'Hanya ditampilkan: {types}'
   title: Penjelajah Tautan
   lede: 'Hubungan antar orang, peristiwa, dan tempat digambar seperti rasi bintang: di tengahnya ada materi, di sekitarnya ada apa yang langsung berhubungan dengannya, lalu apa yang terhubung dengan itu.
     Klik bintang untuk menjadikannya pusat.'
@@ -817,7 +817,7 @@ revelation:
 surahmap:
   title: Peta dinding
   lede: 'Setiap surah adalah peta interaktif: stasiun dan topiknya dibagi ayat demi bait, dari awal hingga akhir.'
-  map_title: Peta {nama}
+  map_title: Peta {name}
   map_lede: Sebuah perjalanan interaktif melalui {n} ayat — dari awal surah hingga akhirnya.
   hint: Seret pegangan pada jalur untuk menavigasi ayat-ayat tersebut, atau klik pemberhentian mana pun di peta — atau mulai perjalanan otomatis.
   journey: Penerbangan Otomatis
@@ -1274,8 +1274,8 @@ map:
     panel_hide: Panel pemantik
     regions_h: Sisi
     time_note: Year Bar menyoroti tempat-tempat dengan catatan yang bertanggal pada tahun yang dipilih dan menyebutkan era setiap distrik. Buka tempat yang daftarnya dapat dibatasi pada catatan tahun tersebut.
-    year_only: '{tahun} saja'
-    year_nearest: Pergi ke {tahun}, tahun bertanggal paling awal
+    year_only: '{year} saja'
+    year_nearest: Pergi ke {year}, tahun bertanggal paling awal
     year_none: Tidak ada catatan yang bertanggal di sini dan nomor {n} yang muncul pada tahun yang dipilih.
     year_empty: Tidak ada catatan yang bertanggal berdasarkan tahun yang dipilih. Jangan tampilkan catatan tanpa tanggal selama batas tahun diaktifkan.
     year_typed: Pergi ke Tahun
@@ -1283,7 +1283,7 @@ map:
     year_ah_short: H
     year_ce_short: m
     year_go: Ayo
-    year_range: Peta ini mencakup dari {dari} hingga {ke} e.
+    year_range: Peta ini mencakup dari {from} hingga {to} e.
     regions_lede: Pilih wilayah dari daftar ini atau dari peta, atau cari tempat yang dinamai menurut wilayah tersebut, lalu geser bilah tahun untuk melihat di mana tanggal ditulis.
     region_count: 'Jumlah tempat: {n}'
     elsewhere: Dunia lainnya
@@ -1323,7 +1323,7 @@ map:
     credit: 'Peta: Bumi Alami, Domain Publik · Lokasi dari Museum Records'
     links_h: Koneksi
     links_rest: Dan di halamannya {n} ada tautan lain
-    back_to: Kembali ke {nama}
+    back_to: Kembali ke {name}
     page_of: '{a} dari {b}'
     choose_more: Dan dengan itu satu lagi {n}; memperbesar peta untuk membedakannya
     kind:
@@ -1832,7 +1832,7 @@ ukhuwwa:
     title: Saudara terdaftar
     note: 'Diagram simpul untuk saudara yang terdaftar dalam diagram kognitif: setiap orang adalah simpul, dan setiap saudara laki-laki atau perempuan adalah kurung di antara dua simpul. {n} saudara menghubungkan
       {p} orang. Kelompok yang menghubungkan catatan digambar dalam kelompok {c}, yang terbesar duluan, dan di tengah setiap kelompok, siapa yang memiliki saudara terbanyak terdaftar; kemudian dalam grid
-      {k} hanya ada pasangan dua orang. Yang paling banyak tercatat untuk satu orang {m} saudara, yaitu {nama}.'
+      {k} hanya ada pasangan dua orang. Yang paling banyak tercatat untuk satu orang {m} saudara, yaitu {name}.'
     legend_title: Kunci
     lg_m: Disebutkan dalam catatan
     lg_f: Perempuan dalam Daftar
@@ -1842,7 +1842,7 @@ ukhuwwa:
       adalah jenis kelamin yang disebutkan dalam catatan, tidak ada yang lain.
     centre: 'Tengah:'
     cl_count: '{n} Saudara-saudara, {p} orang'
-    cl_label: Saudara-saudara tentang {nama}
+    cl_label: Saudara-saudara tentang {name}
     pairs_title: '{n} Sepasang saudara'
     close: Tutup
     sources: 'Sumber:'
@@ -2016,9 +2016,7 @@ islamic_economy:
         ekonomi Islam.'
   viz:
     title: Mata uang, instrumen, dan dana abadi dari waktu ke waktu
-    note: Tiga buku catatan untuk setiap subjek buku catatan, berbagi satu sumbu kronologis pada abad Hijriah bersama dengan tanggal Gregorian. Hanya catatan bertanggal yang ditempatkan pada sumbu; {bertanggal}
-      bertanggal dari total catatan {total}, sementara sisanya dan {tidak bertanggal} dihitung sesuai dengan bagian sumber di bawah setiap buku catatan. Catatan yang terdiri dari dua topik muncul dalam
-      kedua buku catatan dan dihubungkan oleh benang. Tanda serupa sedikit berbeda dalam waktu, karena tanda tersebut mungkin berbeda dari tahun dan tanggal tepatnya di papan baca.
+    note: "Tiga buku catatan, satu untuk setiap topik, berbagi satu sumbu waktu dalam abad Hijriah dengan era Masehi di sampingnya. Hanya catatan bertanggal yang berdiri pada sumbu: {dated} dari {total} catatan memiliki tanggal, dan {undated} lainnya dihitung menurut bagian sumber di bawah setiap buku catatan. Catatan milik dua topik berdiri di keduanya dan terhubung satu sama lain. Tanda yang berdekatan waktunya disebarkan, sehingga sebuah tanda bisa sedikit bergeser dari tahun tepatnya; tanggalnya ada di papan baca."
     hint: Arahkan kursor, fokuskan, atau ketuk penanda untuk melihat tanggal, tipe, dan kalimat pertama dari ringkasannya.
     region: Tiga catatan bertanggal pada abad Hijriah
     axis_ah: Abad Hijriyah
@@ -2100,9 +2098,9 @@ trade:
 ibadat:
   viz:
     title: Tindakan Ibadah
-    caption: 'Sebuah mawar dari {keluarga} dari keluarga ibadah. Luas setiap kelopak adalah jumlah bagian dalam sumber museum yang memuat keluarga tersebut, dalam kelompok: Al-Quran, yang paling dekat dengan
-      pusat, lalu Sunnah, kemudian biografi, lalu semua buku lainnya. Bagian tersebut dapat berasal dari lebih dari satu keluarga, dengan jumlah total kelopak melebihi {bagian} per bagian. Di sekitar mawar
-      terdapat manik-manik untuk setiap catatan praktik yang dipilih dan jumlah {praktiknya}.'
+    caption: 'Sebuah mawar dari {families} dari keluarga ibadah. Luas setiap kelopak adalah jumlah bagian dalam sumber museum yang memuat keluarga tersebut, dalam kelompok: Al-Quran, yang paling dekat dengan
+      pusat, lalu Sunnah, kemudian biografi, lalu semua buku lainnya. Bagian tersebut dapat berasal dari lebih dari satu keluarga, dengan jumlah total kelopak melebihi {passages} per bagian. Di sekitar mawar
+      terdapat manik-manik untuk setiap catatan praktik yang dipilih dan jumlah {practices}.'
     centre: Klip
     corpus_title: Di mana letak klip-klipnya?
     corpus:
@@ -2149,7 +2147,7 @@ ibadat:
     note: '{n} Ibadah, masing-masing dengan halamannya sendiri: catatan museum pertama, kemudian teks yang disusun dalam Al-Qur''an, kemudian hadits, kemudian biografi, dan semua buku lainnya. Penyucian
       datang terlebih dahulu, kemudian doa, kemudian zakat, kemudian puasa, kemudian ziarah, dalam urutan buku fiqedan, kemudian peringatan, perdoaan, pembacaan, pertobatan, dan ruqyah. Ibadah datang dalam
       kata-kata umumnya terakhir.'
-    page_title: 'Ibadah: {topik}'
+    page_title: 'Ibadah: {topic}'
     page_lede: 'Semua yang ditempatkan museum di bawah ibadah ini: catatannya terlebih dahulu, lalu teks yang diatur dalam Al-Qur''an, kemudian hadits, kemudian biografi, dan semua buku lainnya. Teks diatur
       sesuai dengan kata-katanya; daftar ini adalah panduan penelitian dan bukan pernyataan makna atau kebijaksanaan teks.'
     page_count: '{own} dari catatan museum dan {passages} dari teks.'
@@ -2539,7 +2537,7 @@ hudud:
     title: Hukuman dan dosa besar seperti yang disebut sumber
     note: Ini adalah bagian-bagian dalam sumber museum di mana kata-kata ini muncul, dan tidak ada apa-apa di belakangnya. Satu panel menampilkan kata-kata dan frasa yang dicocokkan Al-Kashif di bawah batas
       Tuhan, dan panel lainnya menunjukkan apa yang cocok dengan Dia di bawah dosa-dosa besar. Setiap baris ditandai berdasarkan jumlah segmennya, dan setiap panel referensi membuka catatan. Indeks ini
-      adalah apa yang ada dalam sumber dan tidak mengeluarkan penilaian atau perintah. {Curated} adalah catatan terkoordinasi tentang subjek dalam daftar di bawah ini, dan tidak ada teks yang cocok.
+      adalah apa yang ada dalam sumber dan tidak mengeluarkan penilaian atau perintah. {curated} adalah catatan terkoordinasi tentang subjek dalam daftar di bawah ini, dan tidak ada teks yang cocok.
     region: Dua panel untuk kata dan suku kata tempat mereka muncul
     panel_hudud: Batas
     panel_kabair: Dosa besar
@@ -3136,7 +3134,7 @@ signs:
   filter_label: Nominasi rekaman tag
   filter_none: Tidak ada hasil yang cocok.
   empty: Belum ada catatan penandaan pada konstruksi ini.
-  signs_status: Dalam salinan ini, {n} dicatat tentang tanda-tanda Jam dalam tahap {s}, dari {semua} asli, catatan semua hal tentang Akhirat; teks-teks disusun agar seseorang dapat meninjaunya.
+  signs_status: Dalam salinan ini, {n} dicatat tentang tanda-tanda Jam dalam tahap {s}, dari {all} asli, catatan semua hal tentang Akhirat; teks-teks disusun agar seseorang dapat meninjaunya.
   path_title: Tanda-tanda terurut
   path_note: 'Urutan di bawah ini adalah urutan biasa dalam buku doktrinal: tanda secara umum, kemudian bendera yang dinamai oleh sumber, kemudian jam. Tidak ada teks yang membuktikan urutan ini, dan museum
     tidak menilai tanda mana yang mendahuluinya. Pada setiap tahap, catatan museum itu sendiri disajikan, diikuti oleh teks yang menyebutkan tanda tersebut.'
@@ -3234,7 +3232,7 @@ jinn-devils:
   lede: Jin, iblis, malaikat, dan mimpi-mimpi yang membawanya — setiap makhluk, pertemuan, dan berita yang tercatat dalam Al-Qur'an, hadits, biografi, dan buku-buku hasil panen, semuanya dikumpulkan dalam
     satu browser dengan sumbernya.
   badge: Penjelajah Paranormal
-  status: Dalam versi ini, {n} dicatat dalam beberapa bagian; teks-teks disusun untuk ditinjau oleh manusia.
+  status: Dalam versi ini, {n} catatan dalam {s} bagian; teks-teks disusun untuk ditinjau oleh manusia.
   method_title: Kurikulum Browser
   method_note: 'Setiap catatan di sini adalah catatan museum reguler — terdokumentasi dan trilingual — yang dikumpulkan oleh tag jinn-devils-browser dan jd-<section> dalam satu bagan, bukan meja samping;
     catatan malaikat yang dibawa oleh Angels'' Browser muncul di bagian malaikat ini. Teks Al-Qur''an adalah teks beku dari unduhan, muncul di halaman subjek hanya sebagai referensi, dan kartu hadis terhubung
@@ -4041,7 +4039,7 @@ qudsi:
   lede: Hadis suci adalah apa yang diceritakan Nabi dari Tuhannya tanpa kata-kata Al-Qur'an. Di sini, setiap hadis suci dalam enam kitab dan 'Muwatta' Malik dikumpulkan dengan riwayatnya di setiap kitab,
     diatur berdasarkan topik, dan setiap riwayat adalah satu halaman di museum.
   badge: Draf sedang ditinjau
-  status: Dalam versi ini, {hadits} memuat hadits suci dalam {narrations} sebuah novel dari {karya} yang ditulis. Teks-teks tersebut adalah kutipan dari teks yang tidak melebihi empat puluh kata, dan judul
+  status: Dalam versi ini, {hadiths} memuat hadits suci dalam {narrations} sebuah novel dari {works} yang ditulis. Teks-teks tersebut adalah kutipan dari teks yang tidak melebihi empat puluh kata, dan judul
     serta ringkasannya ditulis oleh museum dan merupakan draf untuk tinjauan manusia.
   themes_title: Topik
   themes_note: Setiap hadis membahas satu topik, dengan narasi dalam enam kitab dan Muwatta; buka narasi untuk melihat teks dan sumbernya.
@@ -4081,7 +4079,7 @@ qudsi:
     region: Matriks topik berdasarkan buku; gulir horizontal jika layar sempit
     col_theme: Subjek
     col_total: Hadis
-    cell: '{tema}, {karya}, hadits: {n}'
+    cell: '{theme}, {work}, hadits: {n}'
     foot: Dinarasikan dalam buku
     caption: Baris-barisnya diatur berdasarkan jumlah hadis yang dibedakan dalam subjek, yaitu angka di akhir baris. Hadis yang diceritakan dalam beberapa kitab dihitung sekali di setiap kolom, sehingga
       jumlah kolom melebihi jumlah hadis; angka terakhir dalam lampiran adalah jumlah hadis yang berbeda.
@@ -4093,7 +4091,7 @@ companions:
   title: Al-Sahaba Browser
   lede: 'Generasi yang ditemui Nabi dengan kepercayaan: garis keturunan yang terkait, kelompok mana mereka berasal, peristiwa apa yang mereka saksikan, dan kapan mereka meninggal. Setiap nama yang catatannya
     dibuka di museum.'
-  status: 'Jumlah Pendamping dalam konstruksi ini: {n}, di antaranya {wanita} Pendamping wanita, dan {artikel} memiliki artikel. Angka-angka dihitung dari catatan pada saat pembangunan.'
+  status: 'Jumlah Pendamping dalam konstruksi ini: {n}, di antaranya {women} Pendamping wanita, dan {articles} memiliki artikel. Angka-angka dihitung dari catatan pada saat pembangunan.'
   ten_title: Sepuluh menjanjikan surga
   ten_note: Sepuluh, sebagaimana disebut dalam Catatan Doktrin di Museum, dikutip dari Pengakuan Iman Al-Tahawi; kredo dan sumbernya ada di halaman konsep.
   ten_trail: Berjalan di jalur
@@ -4144,7 +4142,7 @@ jobs:
     Dan banyak pekerjaan yang belum pernah diikuti siapa pun, dan masing-masing mengatakan demikian.'
   badge: Penjelajah Pekerjaan
   status: 'Browser akan berkembang saat mencari catatan. Catatan pekerjaan dalam struktur ini: {jobs}, di mana {articles} memiliki sebuah artikel, dan orang yang terdaftar memiliki pekerjaan: {holders}.
-    Dan pekerjaan yang belum didaftarkan oleh siapa pun: {kosong}. Dan angka-angkanya tetap seperti pada struktur sebelumnya.'
+    Dan pekerjaan yang belum didaftarkan oleh siapa pun: {empty}. Dan angka-angkanya tetap seperti pada struktur sebelumnya.'
   domains_title: Telusuri berdasarkan domain
   domains_note: Setiap pekerjaan memiliki satu domain. Setiap kartu menampilkan catatan pekerjaan di bidangnya dan orang-orang yang terdaftar di dalamnya.
   crafts_title: Rak kerajinan
@@ -4250,8 +4248,7 @@ battles:
   title: Browser Invasi, Pertempuran, dan Penaklukan
   lede: Kampanye, pertempuran, pengepungan, penaklukan, dan perang dalam sejarah Islam — dari Badr hingga era modern — setiap realitas memiliki kalender sejarah, tempat, pemimpin, dan sumber sendiri.
   badge: Battle Explorer
-  status: Edisi ini mencakup realitas militer dalam {jenis} dan {era} dalam suatu era, termasuk {ghazwa} sebuah serangan dan {sariya} sebuah rahasia dari era nubuat. Setiap kartu mengarah ke catatan lengkap
-    sumber museum.
+  status: Edisi ini mencakup {battles} peristiwa militer dalam {kinds} jenis dan {eras} era, termasuk {ghazwa} ghazawat dan {sariya} saraya dari masa kenabian. Setiap kartu mengarah ke catatan museum yang bersumber lengkap.
   status_ghazawat: 'Edisi ini mencakup peristiwa era Kenabian: {ghazwa} sebuah pertempuran dan {sariya} sebuah rahasia, secara kronologis.'
   note: Serangan adalah pertempuran di mana Nabi ikut serta atau memimpin dirinya sendiri; pengawalan adalah pertempuran di mana Nabi mengirimnya dan tidak ikut serta. Klasifikasi ini berasal dari tautan
     catatan dan dilengkapi dengan kelengkapannya.
@@ -4297,14 +4294,13 @@ battles:
     mutiny: Pemberontakan Militer
   viz:
     cent_title: Pertempuran dan kampanye sepanjang abad Hijri
-    cent_caption: Setiap kolom dari abad Hijri dan ketinggiannya Jumlah catatan yang bertanggal di bagian ini yang dimulai di dalamnya dibagi dengan jenis keterlibatan. {tidak ditempatkan} dari catatan
-      {total} yang tidak mencantumkan tanggal yang menempatkannya pada abad tertentu dan tidak digambar. Arahkan kursor ke kolom, fokuskan padanya, atau sentuh untuk melihat angkanya dengan akurat.
+    cent_caption: Setiap kolom adalah satu abad Hijriah; tingginya menghitung {placed} catatan bertanggal di bagian ini yang dimulai di dalamnya, ditumpuk menurut jenis keterlibatan. {unplaced} dari {total} catatan tidak memuat tanggal yang menempatkannya pada abad tertentu sehingga tidak digambar. Arahkan kursor, fokuskan, atau sentuh kolom untuk melihat angkanya.
     cent_axis: Di bawah setiap kolom terdapat nomor abad Hijriah, dan di bawahnya adalah tahun Gregorian di mana abad tersebut dimulai. Catatan yang hanya bertanggal dalam kalender Gregorian ditempatkan
       dalam abad tersebut dengan cara mengubah ke Hijriah.
     cent_legend: Jenis-jenis bentrokan
     cent_group: Catatan berdasarkan Abad Hijriyah
     cent_hint: Pilih kolom untuk menampilkan nomornya.
-    cent_century: Abad Hijriyah
+    cent_century: Abad Hijriyah {n}
     cent_begins: Itu dimulai pada tahun {y} M
     cent_total: '{n} Records'
     cent_table: Angka yang sama dalam tabel
@@ -4324,7 +4320,7 @@ asma:
   lede: 'Sembilan puluh sembilan nama dari Nama-nama Terindah Allah, masing-masing dengan makna dan cerita tersendiri: ayat-ayat yang disebutkan, hadits yang disebutkan, peristiwa biografi di mana ia terwujud,
     dan biografi tercatat para Sahabat serta orang-orang suci dalam wujudnya.'
   badge: Persiapan
-  status: 'Sembilan puluh sembilan nama dalam sensus Tirmidhi. Catatan nama dalam versi ini: {nama}. Setiap bagian pada halaman nama didasarkan pada catatan museum yang terdokumentasi dan berkembang seiring
+  status: 'Sembilan puluh sembilan nama dalam sensus Tirmidhi. Catatan nama dalam versi ini: {names}. Setiap bagian pada halaman nama didasarkan pada catatan museum yang terdokumentasi dan berkembang seiring
     bertambahnya jaringan.'
   hadith_note: '"Sesungguhnya, Allah memiliki sembilan puluh sembilan nama, seratus kecuali satu; siapa pun yang menyebutkannya akan masuk ke Surga." — Dinarasikan oleh Al-Bukhari dan Muslim. Daftar yang
     disajikan di sini adalah sensus Jami'' al-Tirmidhi (3507); di mana berbeda dari daftar Ibn Majah, catatan nama menyebutkan hal itu.'
@@ -4373,7 +4369,7 @@ khulafa:
   lede: Khalifah Islam diatur berdasarkan negara kalifah yang mereka kuasai—Khalifah Rashidun, Umayyah di Damaskus dan Cordoba, Abbasiyah di Baghdad dan Kairo, Fatimiyah, Almohad, Ottoman, dan Sokoto—setiap
     khalifah memiliki masa pemerintahan, posisi dalam rangkaian cerita, peristiwa era mereka, dan sumbernya.
   badge: Khalifah Penjelajah
-  status: 'Penerus yang tercatat dalam edisi ini: {khalifah}. Perjanjian setiap kartu dan rantainya didasarkan pada catatan museum yang terdokumentasi dan berkembang seiring berkembangnya jaringan.'
+  status: 'Penerus yang tercatat dalam edisi ini: {caliphs}. Perjanjian setiap kartu dan rantainya didasarkan pada catatan museum yang terdokumentasi dan berkembang seiring berkembangnya jaringan.'
   note: Garis klaim—kekhalifahan Zubayrid, Hammudid, dan Sharafi—akhirnya diberi label sebagai klaim. Museum menggambarkan setiap provinsi sesuai dengan sumbernya dan tidak menilai legitimasinya.
   filter_label: Dinominasikan berdasarkan nama
   filter_none: Tidak ada penerus yang cocok dengan nominasi ini.
@@ -4394,7 +4390,7 @@ inventions:
   title: Inventions Browser
   lede: Penemuan dan penemuan dari peradaban Islam, masing-masing dengan ciptaannya sendiri, apa yang mendahuluinya, apa yang dibangun di atasnya, dan sumber-sumber yang menyebutkannya.
   badge: Penjelajah Penemuan
-  status: 'Browser memperbesar catatan yang terdokumentasi demi catatan. Catatan penemuan dalam versi ini: {inventions}, di mana {artikel} memiliki artikel. Pembuat terdaftar: {makers}. Nomor berdasarkan
+  status: 'Browser memperbesar catatan yang terdokumentasi demi catatan. Catatan penemuan dalam versi ini: {inventions}, di mana {articles} memiliki artikel. Pembuat terdaftar: {makers}. Nomor berdasarkan
     struktur terakhir.'
   domains_title: Telusuri berdasarkan domain
   domains_note: Setiap penemuan memiliki satu bidang. Ia menampilkan bidang di mana belum ada catatan yang tercatat untuk menunjukkan bentuk keseluruhan.
@@ -4502,7 +4498,7 @@ inventions:
     group_label: Penemuan berdasarkan wilayah dan tahun Hijriyah
     hint: Arahkan kursor ke spidol, fokuskan, atau sentuh untuk membacanya di sini.
     open: Buka penemuan
-    latest: Belum, belum.
+    latest: paling lambat {d}
     more_makers: dan {n} lainnya
     arc_from: 'Dibangun atas:'
     arc_to: 'Hasilnya menjadi:'
@@ -4511,18 +4507,18 @@ tafsir:
   title: Browser interpretasi
   lede: 'Apa yang dikatakan dalam buku-buku tafsir yang disimpan di museum: pilih sebuah surah, lalu sebuah bait, lalu bacakan tafsir.'
   by_verse: Bacalah sesuai ayat
-  by_verse_note: '{tertutup} Sebuah ayat dalam {surah} Surah hari ini berisi ringkasan penafsiran. Pilih surah lalu ayat.'
+  by_verse_note: '{covered} Sebuah ayat dalam {surahs} Surah hari ini berisi ringkasan penafsiran. Pilih surah lalu ayat.'
   surah_cov: '{k} dari {n} verse'
   not_yet: Tembok yang belum mencapai kesimpulannya
   not_yet_note: Tidak ada ayat dari surah ini yang memuat ringkasan penafsiran hingga saat ini. Setiap nama membuka halaman surah itu sendiri.
   commentaries: Buku-buku Tafsir dalam Indeks
-  catalogue_note: 'Museum mencatat komentar-komentar ini sebagai karya. Yang dibaca di sini sejauh ini: {nama}. Semua entri lain dikenal sebagai tafsir dan penulisnya, dan belum memuat kesimpulan pada tingkat
+  catalogue_note: 'Museum mencatat komentar-komentar ini sebagai karya. Yang dibaca di sini sejauh ini: {names}. Semua entri lain dikenal sebagai tafsir dan penulisnya, dan belum memuat kesimpulan pada tingkat
     bait.'
   wired: Baca ayat demi ayat
   catalogue_only: Entri dalam Indeks
   volumes: Folder
-  volumes_of: '{karya} volume yang dibacakan oleh museum'
-  covers: '{n} Ayat yang disertakan, dari {pertama} hingga {terakhir}'
+  volumes_of: '{work} volume yang dibacakan oleh museum'
+  covers: '{n} Ayat yang disertakan, dari {first} hingga {last}'
   verses: Ayat-ayat yang tercakup dalam volume ini
   belongs: Folder ini adalah bagian dari {work}, interpretasi {author}.
   belongs_work: Folder ini merupakan bagian dari {work}.
@@ -4555,7 +4551,7 @@ tafsir:
   section_browse: Buka browser penjelasan
   viz:
     title: Al-Qur'an, dan ke mana Tafsir telah sampai
-    headline: Sebuah ayat dari {total} asli yang memuat ringkasan penafsiran di museum, dalam {surah} sebuah surah
+    headline: Sebuah ayat dari {total} asli yang memuat ringkasan penafsiran di museum, dalam {surahs} sebuah surah
     note: Al-Qur'an disusun dalam bentuk persegi untuk setiap surat. Bayangan emas menunjukkan ayat-ayat yang disimpan oleh museum dengan ringkasan interpretasi, pada tempatnya dalam surah.
     caption: Setiap kotak ditampilkan sesuai dengan jumlah ayat dalam surat, dengan lebar minimum agar surah terpendek mudah dipilih. Cakupan berarti salah satu volume berisi ringkasan ayat yang disimpan,
       yang tidak menilai kualitas atau kelengkapan interpretasi. Arahkan kursor ke atas kotak, fokuskan pada kursor, atau sentuh untuk membacanya, dan sentuh dua kali di layar sentuh untuk membukanya. Klasifikasi
@@ -4829,7 +4825,7 @@ akhlaq:
       vice: Keburukan
       dealing: Transaksi
       general: Syarat Umum
-    page_title: 'Etika dan perlakuan: {topik}'
+    page_title: 'Etika dan perlakuan: {topic}'
     page_lede: 'Semua yang ditempatkan museum di bawah judul ini: catatannya terlebih dahulu, kemudian teks yang diatur dalam Al-Qur''an, kemudian hadis, kemudian biografi, dan semua buku lainnya. Teks
       ditempatkan sesuai dengan kata-katanya; daftar ini adalah panduan untuk penelitian dan bukan pernyataan tentang makna atau penilaian teks.'
     page_count: '{own} dari catatan museum dan {passages} dari teks.'
@@ -5125,7 +5121,7 @@ courses:
   grade_label: Baris {n}
   course_map: Peta Lintasan
   all_courses: Semua kursus
-  progress: 'Pelajaran yang telah selesai: {selesai} dari {n}'
+  progress: 'Pelajaran yang telah selesai: {done} dari {n}'
   progress_nojs: Skrip dinonaktifkan di browser ini. Setiap kursus dan pelajaran dibuka apa adanya; namun, halaman tidak dapat mengingat pelajaran yang saya selesaikan.
   nojs_lesson: Skrip dinonaktifkan di browser ini. Seluruh pelajaran berjalan, begitu juga pertanyaan di atas; namun, halaman tidak dapat mengingat bahwa Anda sudah menyelesaikannya.
   start: Mulailah dengan pelajaran pertama
@@ -5159,7 +5155,7 @@ courses:
   q_recognise: Mana dari ini yang Anda temui dalam pelajaran ini?
   right: Ya. Itulah yang disebutkan dalam pelajaran ini.
   wrong: Tidak di pelajaran ini. Kembali ke kartu di atas.
-  tell_back: 'Dengan kata-kata Anda sendiri: Apa hubungannya {subjek} dengan pelajaran ini?'
+  tell_back: 'Dengan kata-kata Anda sendiri: Apa hubungannya {subject} dengan pelajaran ini?'
   tell_back_reveal: Bandingkan dengan kartu
   i_can: Sekarang aku bisa
   mark_done: Ajarkan pelajaran ini dengan tercapai.
@@ -5190,7 +5186,7 @@ courses:
   promo_p3_t: Dibuat untuk kelas.
   promo_p3: Tampilan langkah demi langkah dari tampilan, lembar cetak, dan kode kurikulum resmi untuk guru.
   promo_sample: Shahid Dorsa
-  promo_stats: 'Sekarang tersedia: kursus, pelajaran, penemuan {kartu}. Draf yang ditulis dengan bantuan kecerdasan buatan dan menunggu editor manusia.'
+  promo_stats: "Sekarang tersedia: {courses} kursus, {lessons} pelajaran, {cards} penemuan. Draf yang ditulis dengan bantuan AI, menunggu editor manusia."
   draft_course: 'Draf: Pelajaran ini ditulis dengan bantuan AI dan belum pernah dibaca oleh editor manusia.'
   you_are_here: Kamu di sini
   lang_names:
@@ -5215,7 +5211,7 @@ paged:
   subject:
     title: Departemen
     page_lede: Semua teks di bagian ini yang menyebutkan pemilik halaman sudah lengkap. Halamannya menampilkan awal-awal.
-    page_count: '{kutipan} dari teks.'
+    page_count: '{passages} dari teks.'
     back: Kembali ke halaman pemilik
 journeys:
   title: Perjalanan
@@ -5468,7 +5464,7 @@ i3lam:
 heroes:
   title: Pahlawan Islam
   lede: 'Pria dan wanita telah berusaha keras dan berkorban banyak untuk orang lain: enam aula kebajikan, setiap aula memiliki empat pahlawan, dan cerita lengkap dengan sumbernya.'
-  status: 'Jumlah pahlawan di aula ini: {n} tersebar di {jalur} jalur. Setiap nama membuka daftar pahlawan, dan setiap aula membuka cerita lengkapnya.'
+  status: 'Jumlah pahlawan di aula ini: {n} tersebar di {trails} jalur. Setiap nama membuka daftar pahlawan, dan setiap aula membuka cerita lengkapnya.'
   trail_link: Rahasia Seluruh Kisah Aula ({n} Pahlawan)
   record_link: Buka rekaman
   note_title: Tentang aula-aula ini
@@ -5599,7 +5595,7 @@ juha:
     tentang Nabi dan tawanya, batasan lelucon dalam Sunnah, lelucon para sahabat dan pengikut dalam biografi dan biografi, anekdot Yuhu satu per satu, serta kisah orang cerdas, bodoh, pelit, dan lumpuh
     dalam buku-buku sastra dan sejarah.'
   badge: Dewan Barang Langka
-  status: Dalam struktur ini, {n} dicatat dalam bagian-bagian tertentu; teks-teks tersebut adalah draf yang diverifikasi pembaca dari sumber yang disebutkan.
+  status: Dalam versi ini, {n} catatan dalam {s} bagian; teks-teks adalah draf yang dapat diverifikasi pembaca dari sumber yang disebutkan pada setiap catatan.
   method_title: Kurikulum Browser
   method_note: 'Setiap catatan di sini adalah catatan biasa dari catatan museum dengan sumber dan teksnya dalam lima bahasa. Bagian-bagian tersebut ditangkap selama konstruksi oleh detektor presisi yang
     membaca teks bacaan: nama Juha adalah kata independen, nama-nama tokoh terkenal yang cerdas seperti Ash''ab, Nu''ayman, Muzbad, dan Habanqa, kata-kata anekdot, anekdot, humor, lelucon, dan kata-kata
@@ -5776,8 +5772,8 @@ pathway:
   pk_starter: Mulai dari sini
 calendar:
   months_index: Bulan dan Tahun
-  months_of: Bulan-bulan dalam setahun {tahun} AH
-  static_note: Setiap bulan dari {dari} hingga {ke} H memiliki halamannya sendiri. Semua tahun lainnya dibuka dalam kalender di atas.
+  months_of: Bulan-bulan dalam setahun {year} AH
+  static_note: Setiap bulan dari {from} hingga {to} H memiliki halamannya sendiri. Semua tahun lainnya dibuka dalam kalender di atas.
   open_calendar: Kalender dan Adaptor
   title: Kalender Hijriyah
   lede: Tahun Hijriyah bulan demi bulan — setiap hari Hijriyah bersama dengan hari Gregorian, musim dan peristiwa dalam setahun dihubungkan ke halamannya di museum, dan dikonversi ke kedua arah. Sebelum
@@ -6365,7 +6361,7 @@ kids:
   bee_start: Mulai
   bee_next: Pertanyaan baru
   bee_correct: Kerja bagus! Jawaban yang benar
-  bee_wrong: 'Tidak sepenuhnya — jawaban yang benar: Surah {jawaban}'
+  bee_wrong: 'Tidak sepenuhnya — jawaban yang benar: Surah {answer}'
   bee_score: 'Poin-poin Anda: {n}'
   quest_title: Perjalanan Para Nabi
   quest_lede: Lima stasiun dengan lima nabi — kumpulkan bintang dan pelajari nilai di setiap stasiun!
@@ -6376,7 +6372,7 @@ kids:
   quest_stars: 'Bintangmu: {n}'
   quest_done: Kerja bagus! Stasiun sudah selesai
   finale_title: Luar biasa! Perjalanan sudah selesai
-  finale_lede: 'Aku mengumpulkan lima bintang dan belajar: {nilai}. Seekor hoopoe bangga padamu!'
+  finale_lede: 'Aku mengumpulkan lima bintang dan belajar: {values}. Seekor hoopoe bangga padamu!'
   finale_restart: Mainkan lagi
   grownups_title: Untuk dewasa
   grownups_hub: 'Paviliun anak-anak mewakili isi museum dalam bahasa anak-anak: disederhanakan tanpa diratakan, bingkai usia, dan bahan sensitif yang diblokir usia.'
@@ -6554,8 +6550,8 @@ tour:
   nojs_journeys: Perjalanan Waktu
   brand_name: Museum of Islam
   hall_sub: Tur Virtual
-  gallery_hall: Hall {sayap}
-  gallery_sub: Sayap {sayap} · {tur}
+  gallery_hall: Hall {wing}
+  gallery_sub: Sayap {wing} · {tour}
   gallery_back: Kembali ke Aula Besar
   journey_tag: Sebuah perjalanan melintasi waktu
   portal_toast: Gerbang paviliun "{wing}" — aula 3D yang akan segera hadir.
@@ -6581,8 +6577,8 @@ tour:
   map_button: Peta
   map_title: Peta Museum
   map_close: Tutup peta
-  map_here: 'Kamu di sini: {tempat}'
-  map_door: BAB {sayap}
+  map_here: 'Kamu di sini: {place}'
+  map_door: BAB {wing}
   map_stop: '{label}, stasiun {n} dari {total}'
   map_centre: Di tengah aula utama
   strip_label: Aula dan Stasiun
@@ -6880,7 +6876,7 @@ backstage:
   intro_2a: Pada saat halaman ini ditulis, museum
   intro_2b: input kelahiran
   intro_2c: Halaman dalam bahasa Arab, Inggris, Urdu, Prancis, Spanyol, Turki, dan Indonesia, dengan
-  repo_stats: Repositori terbuka dibangun di belakangnya melalui permintaan pull terintegrasi {commit} dan {pulls}.
+  repo_stats: Repositori terbuka dibangun di belakangnya melalui permintaan pull terintegrasi {commits} dan {pulls}.
   intro_2d: 'Jalur terpandu. {repo}Data museum yang diterbitkan di bawah lisensi CC0, teksnya di bawah CC BY-SA 4.0, semua tersedia melalui antarmuka pemrograman publik, dan snapshot dataset disimpan di
     arsip Zenodo dengan ID permanen (DOI: 10.5281/zenodo.23692511) — siapa saja dapat mengunduh seluruh museum dan memeriksa setiap angka di halaman ini.'
   repo_cta: Buka repositori di GitHub
@@ -7263,7 +7259,7 @@ developers:
   agents_intro: 'Kirimkan salah satu skrip ini ke asisten pemrograman Anda — Claude, Devin, Copilot, atau lainnya — dengan judul halaman ini. Setiap teks mandiri: menyebutkan titik akses, lisensi, dan hasil
     yang diinginkan. Dan naskah dalam bahasa Inggris dianggap sebagai teks kerja.'
   roadmap_title: Berapa banyak yang tersisa — dan mengapa sumber hidup itu penting?
-  roadmap_1: Di antara catatan versi ini, yang merupakan {catatan}, terdapat {published}; sisanya beserta nomornya {draft} masih dinyanyikan, bersama dengan {stubs} sebuah stub yang menunggu konstruksi
+  roadmap_1: Di antara catatan versi ini, yang merupakan {records}, terdapat {published}; sisanya beserta nomornya {drafts} masih dinyanyikan, bersama dengan {stubs} sebuah stub yang menunggu konstruksi
     lengkapnya. Unduhan hari ini seperti bengkel, bukan rak yang sudah selesai.
   roadmap_2: 'Selain itu, peta celah museum menamai prasasti yang belum dipanen: Ensiklopedia TDV Islam Turki (~16.800 entri, sejauh ini hanya digunakan untuk catatan tunggal), Kamus Nadavi dalam 57 volume
     tentang perempuan modern (~9.000–10.000 yang diperbarui, hampir tidak ada yang masih ada di museum), kamus utama narator di balik gambar narator hadis, koleksi Ensiklopedia Islam berikutnya, inventaris
@@ -7455,7 +7451,7 @@ edu:
   privacy_accounts: tanpa perhitungan
   privacy_tracking: Tidak ada pelacakan atau profil
   privacy_open: 'Gratis dan terbuka: guru mencetak dan mengedit.'
-  band_hub_for: Untuk usia {usia}
+  band_hub_for: Untuk usia {ages}
   next_title: Langkah Anda berikutnya
   next_go: Mulai
   activities_title: Kegiatan Saya
@@ -7484,7 +7480,7 @@ edu:
   passport_nojs: Paspor membaca perangko Anda dari perangkat ini dalam JavaScript. Tanpa JavaScript, Anda mencetak halaman kosong untuk mengisinya dengan tangan Anda.
   passport_print_note: Cetak paspor dan gantung di kulkas, tandai setiap cap saat Anda memverifikasinya.
   share_title: Bagikan
-  share_text: '{judul} · {n} من {total} · islam.museum'
+  share_text: '{title} · {n} من {total} · islam.museum'
   share_image: Unduh kartu foto
   share_copy: Salin teks
   share_copied: Salin teksnya, tempel di mana pun Anda mau.
@@ -7541,7 +7537,7 @@ edu:
   wh_lede: Dua belas tempat berbicara dalam orang pertama. Dengarkan teka-teki masing-masing, lalu lihat jawabannya—tidak ada jawaban yang salah di sini.
   wh_guess: Haruskah saya disebut {name}?
   wh_yes: Ya! Aku {name}.
-  wh_notquite: Tebakanmu bagus — aku sebenarnya {menjawab}. Tapi {name} juga tempat yang bagus!
+  wh_notquite: Tebakanmu bagus — aku sebenarnya {answer}. Tapi {name} juga tempat yang bagus!
   wh_visit: Tombol Daftar
   wh_note: Setiap tebakan mendapat jawaban yang bagus, dan setiap jawaban membuka tempat nyata di museum.
   pk_season: Paket musiman
@@ -7598,7 +7594,7 @@ edu:
   tp_hub_lede: 'Pelajaran diikuti dari halaman museum, masing-masing terhubung ke kurikulum Ontario dengan kata-kata museum, bukan dengan kata-kata kementerian: nilai, materi, sumbu, dan ekspektasi, beserta
     lembar kerja, pemeriksaan kemampuan, dan kode QR.'
   tp_mapped: Museum mengaitkannya dengan kurikulum, tetapi kementerian tidak menyetujuinya.
-  tp_title_fmt: '{topic}: Pelajaran {subjek} untuk kelas {grade} dan edisi cetak gratis'
+  tp_title_fmt: '{topic}: Pelajaran {subject} untuk kelas {grade} dan edisi cetak gratis'
   tp_curriculum: Menghubungkan ke Kurikulum
   tp_jurisdiction: Ontario, Kanada
   tp_course: Artikel
@@ -7669,7 +7665,7 @@ edu:
   dl_day: Hari {d} dalam jadwal
   dl_answers: Jawaban
   dl_round: Ronde {i} dari {n}
-  dl_question: Pada abad mana {peristiwa} terjadi?
+  dl_question: Pada abad mana {event} terjadi?
   dl_choice: '{n} abad M'
   dl_score: 'Hasil: {n} dari {total}'
   dl_copy: Salin hasilnya
@@ -8149,8 +8145,8 @@ fatwa:
   by_subject: Tergantung pada topiknya
   by_subject_note: Topik yang dibahas oleh fatwa, seperti yang disebut dalam catatan setiap fatwa. Pilih topik untuk dibaca, apa yang ditanyakan dan siapa yang menjawab.
   no_subject: '{n} Sebuah fatwa yang catatannya tidak disebut subjek; fatwa tersebut tercantum di bawah sumbernya.'
-  subject_title: Fatwa tentang {subjek}
-  subject_record: Catatan museum tentang {subjek}
+  subject_title: Fatwa tentang {subject}
+  subject_record: Catatan museum tentang {subject}
   back: Kembali ke Fatwa Explorer
   title: Penjelajah Fatwa
   lede: Fatwa dari buku fatwa dan situs web fatwa resmi dan terkenal, dikumpulkan sesuai sumbernya. Museum mencatat fatwa ini sebagai tanggal dan teks yang dikaitkan dengan penulisnya, dan tidak mengeluarkan
@@ -8644,7 +8640,7 @@ dua:
   occasions:
     title: Tergantung pada kesempatan
     note: '{n} dicatat dalam {d} bagian tentang "Adhkar" oleh al-Nawawi, yang mencapai {t}, sesuai urutan buku. Bagian tersebut muncul ketika berisi catatan, dan sisanya belum dibaca.'
-    page_title: 'Doa: {kesempatan}'
+    page_title: 'Doa: {occasion}'
     lede: Catatan museum, seperti yang dikatakan pada kesempatan ini, adalah catatan tertulis dari pintu di bawahnya yang dimasukkan dalam 'Adhkars' Al-Nawawi, termasuk hadits-hadits yang ia kutip dan buku-buku
       yang dikaitkan dengannya serta keputusannya terhadapnya.
     division: 'Sumpah dalam istilah nuklir:'
