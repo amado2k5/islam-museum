@@ -15,7 +15,7 @@ provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Word fo
 - وہ کہتا ہے کہ بوڑھے جنگجو دورید نے ملک کو خبردار کیا کہ اس کا منصوبہ عوام کو بے نقاب کر رہا ہے۔ {cite:youtube-muftimenkofficial 1JCCeBE81WQ 00:03:24}
 - وہ کہتے ہیں کہ نبی نے عباس سے کہا کہ وہ انصار اور درخت کے لوگوں کو بلائیں۔ {cite:youtube-muftimenkofficial 1JCCeBE81WQ 00:05:01}
 - وہ کہتے ہیں کہ ابو قتادہ نے بہادری سے لڑائی کی اور بعد میں انہیں اس فیصلے کے بارے میں بتایا گیا جو کسی جنگجو کو مارنے والے کے بارے میں ہے۔ {cite:youtube-muftimenkofficial 1JCCeBE81WQ 00:06:10}
-- وہ کہتے ہیں کہ نبی صلى الله عليه وسلم نے جنگ کے بعد انتقام پر رحم کو ترجیح دی۔ {cite:youtube-muftimenkofficial 1JCCeBE81WQ 00:07:02}
+- وہ کہتے ہیں کہ نبی نے جنگ کے بعد انتقام پر رحم کو ترجیح دی۔ {cite:youtube-muftimenkofficial 1JCCeBE81WQ 00:07:02}
 
 ## چھوڑ دیا گیا
 - ریکارڈنگ میں اعداد و شمار اور عمریں ان کے اپنے ہیں اور کسی ماخذ کے ساتھ متوقع نہیں ہیں۔

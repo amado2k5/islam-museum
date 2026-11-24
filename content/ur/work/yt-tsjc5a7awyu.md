@@ -12,10 +12,10 @@ provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Word fo
 ## ریکارڈنگ، منٹ بہ منٹ
 - وہ کہتے ہیں کہ اللہ نے واضح فتح دی تاکہ گناہ معاف کیے جائیں اور فضل مکمل ہو۔ {cite:youtube-muftimenkofficial TsjC5a7AwYU 00:03:55}
 - وہ کہتے ہیں کہ خون صرف ان لوگوں کے خون بہایا جائے گا جنہوں نے ایمان توڑا اور مومنوں کو ستایا۔ {cite:youtube-muftimenkofficial TsjC5a7AwYU 00:04:11}
-- وہ کہتے ہیں کہ نبی صلى الله عليه وسلم نے کعبہ کے ارد گرد بتوں کو ایک عصا سے گرا دیا۔ {cite:youtube-muftimenkofficial TsjC5a7AwYU 00:04:50}
-- وہ کہتے ہیں کہ نبی صلى الله عليه وسلم نے کعبہ کے اندر شکرگزاری کے طور پر نماز پڑھی، فتح کے لیے نہیں۔ {cite:youtube-muftimenkofficial TsjC5a7AwYU 00:05:17}
-- وہ کہتے ہیں کہ نبی صلى الله عليه وسلم نے قریش سے پوچھا کہ وہ ان کے ساتھ کیا کریں گے، اور ان کے خوف کا جواب نرم الفاظ سے دیا۔ {cite:youtube-muftimenkofficial TsjC5a7AwYU 00:05:35}
-- وہ کہتے ہیں کہ نبی صلى الله عليه وسلم نے فرمایا کہ کوئی عرب غیر عرب پر برتری نہیں رکھتا سوائے راستبازی کے۔ {cite:youtube-muftimenkofficial TsjC5a7AwYU 00:06:13}
+- وہ کہتے ہیں کہ نبی نے کعبہ کے ارد گرد بتوں کو ایک عصا سے گرا دیا۔ {cite:youtube-muftimenkofficial TsjC5a7AwYU 00:04:50}
+- وہ کہتے ہیں کہ نبی نے کعبہ کے اندر شکرگزاری کے طور پر نماز پڑھی، فتح کے لیے نہیں۔ {cite:youtube-muftimenkofficial TsjC5a7AwYU 00:05:17}
+- وہ کہتے ہیں کہ نبی نے قریش سے پوچھا کہ وہ ان کے ساتھ کیا کریں گے، اور ان کے خوف کا جواب نرم الفاظ سے دیا۔ {cite:youtube-muftimenkofficial TsjC5a7AwYU 00:05:35}
+- وہ کہتے ہیں کہ نبی نے فرمایا کہ کوئی عرب غیر عرب پر برتری نہیں رکھتا سوائے راستبازی کے۔ {cite:youtube-muftimenkofficial TsjC5a7AwYU 00:06:13}
 
 ## چھوڑ دیا گیا
 - ریکارڈنگ میں اعداد و شمار اور عمریں ان کے اپنے ہیں اور کسی ماخذ کے ساتھ متوقع نہیں ہیں۔
