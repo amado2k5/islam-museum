@@ -1,0 +1,36 @@
+---
+// One door of the Viewpoints arcade: an arch form from Islamic architecture with two lattice leaves. Decorative (the link
+// around it carries the name). `open` draws it standing open, with the eight-point star inside (the viewpoint page).
+import { ARCH, type Viewpoint } from "../lib/viewpoints";
+const { v, open = false } = Astro.props as { v: Viewpoint; open?: boolean };
+const id = `door-${v}${open ? "-room" : ""}`;
+const rows = [40, 62, 84, 106, 128];
+const lattice = rows.map((y) => [24, 50, 76].map((x) => `M${x} ${y}l13 11-13 11-13-11z`).join("")).join("");
+---
+<svg class="door" viewBox="0 0 100 152" aria-hidden="true" focusable="false">
+  <clipPath id={id}><path d={ARCH[v]} /></clipPath>
+  <g clip-path={`url(#${id})`}>
+    <rect class="d-room" width="100" height="152" />
+    <path class="d-floor" d="M43 96H57L94 152H6zM0 94H100V97H0z" />
+    {open ? <path class="d-star" d="M36 44H64V72H36zM50 38.2L69.8 58L50 77.8L30.2 58z" /> : <>
+      <rect class="d-leaf d-s" width="50" height="152" /><rect class="d-leaf d-e" x="50" width="50" height="152" />
+      <path class="d-lat" d={lattice} />
+    </>}
+  </g>
+  <path class="d-frame" d={ARCH[v]} />
+</svg>
+<style>
+  .door { display: block; width: 100%; height: auto; overflow: visible; }
+  .d-room { fill: #fff6df; }
+  .d-floor { fill: var(--a); opacity: .28; }
+  .d-star { fill: none; stroke: var(--a); stroke-width: 1.4; }
+  .d-frame { fill: none; stroke: var(--door-line, #b9a37a); stroke-width: 3; }
+  .d-leaf { fill: var(--a); transform-box: fill-box; transition: transform .55s cubic-bezier(.3, .8, .3, 1); }
+  .d-s { transform-origin: left; } .d-e { transform-origin: right; }
+  .d-lat { fill: none; stroke: #fff; stroke-opacity: .34; stroke-width: 1.1; transition: opacity .2s; }
+  :global(a:hover) > .door .d-leaf, :global(a:focus-visible) > .door .d-leaf { transform: scaleX(.34); }
+  :global(a.is-last) > .door .d-leaf { transform: scaleX(.1); }
+  :global(a:hover) > .door .d-lat, :global(a:focus-visible) > .door .d-lat, :global(a.is-last) > .door .d-lat { opacity: 0; }
+  @media (prefers-reduced-motion: reduce) { .d-leaf, .d-lat { transition: none; } }
+  @media (forced-colors: active) { .d-leaf { fill: ButtonFace; } .d-frame { stroke: ButtonText; } }
+</style>

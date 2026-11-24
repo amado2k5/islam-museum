@@ -6952,14 +6952,26 @@ juha:
       title: Dans les autres livres
       desc: 'Anecdotes, traits d''esprit et récits des beaux esprits, des sots et des avares dans les livres d''adab, d''histoire et de biographie : Nihayat al-Arab, ''Uyun al-Akhbar, al-Mustatraf, al-Bayan
         wa-l-Tabyin, al-Hayawan et tout ce qui sera dépouillé ensuite.'
-personas:
-  eyebrow: Entrez comme…
-  home: Le musée entier
-  mind_title: Ce qui peut vous occuper l'esprit
-  path_title: Votre chemin, pas à pas
-  go_title: Où aller, dans l'ordre qui aide
-  note_title: Dit simplement
-  switch_title: Voir le musée autrement
+viewpoints:
+  title: "Par quelle porte entrez-vous ?"
+  lede: "Neuf portes, un seul musée. La porte change votre parcours, jamais ce qui est à l’intérieur."
+  nav_label: "Points de vue"
+  home: "Le musée entier"
+  eyebrow: "Point de vue"
+  thoughts_title: "Pensées que vous pouvez avoir"
+  thoughts_sub: "Vous n'êtes pas le premier à les avoir."
+  path_title: "Votre ordre de lecture"
+  path_sub: "Pas à pas, dans un ordre qui convient à ce point de vue. Vous pouvez en sauter n'importe quelle étape."
+  minutes: "min"
+  start: "Commencer votre parcours"
+  switch_title: "Un autre point de vue"
+  about_title: "Ce que fait un point de vue"
+  about: "Un point de vue ne change que l'entrée : la couleur, les questions de départ et l'ordre des salles proposées. Le musée est le même pour tous, chaque notice garde ses sources, et le choix n'est qu'une porte d'entrée. Si votre navigateur le permet, votre dernier choix est gardé sur cet appareil seulement et rien n'est envoyé nulle part ; vous pouvez l'effacer à tout moment."
+  your: "Votre point de vue : {name}"
+  reset: "effacer"
+  sunni: "Position sunnite"
+  academic: "Point de vue académique"
+  personal: "Témoignages personnels"
   links:
     ibadat: Les actes d'adoration
     arkan: Les cinq piliers
@@ -7006,180 +7018,236 @@ personas:
     jobs: Travail et métiers
     qiraat: Les récitations
     why: Pourquoi le musée existe
-  convert:
-    btn: Tout juste converti
-    tagline: Bienvenue. Vous n'êtes pas seul, et vous n'avez pas à tout apprendre cette semaine.
-    lede: 'Voici le musée vu depuis le premier jour de l''islam : que faire d''abord, que demander, à qui le dire, où trouver les vôtres, et que faire quand tout semble trop. Avancez à votre rythme. Rien
-      ici n''est un examen.'
-    mind:
-    - Ai-je bien fait ? Est-ce que cela compte ?
-    - Que dois-je changer aujourd'hui, et que peut attendre ?
-    - Comment le dire à ma famille, et que faire s'ils sont blessés ou en colère ?
-    - Je me sens seul. Qui est là pour moi ?
-    - Certains jours, je doute. Est-ce que cela veut dire que je me suis trompé ?
-    - Je veux comprendre en quoi cela se compare à ce que je croyais avant.
+    converts: "Les nouveaux musulmans, un parcours"
+    journeys: "Voyages"
+    islam30: "L'islam en 30 minutes"
+  new:
+    name: "Nouveau dans l'islam"
+    line: "J'ai prononcé la shahada récemment"
+    h: "Bienvenue. Vous n'avez encore besoin de rien savoir."
+    thoughts:
+      - "Est-ce que je le fais bien ?"
+      - "Dois-je tout changer d'un coup ?"
+      - "Comment le dire à ma famille ?"
+      - "Par où commencer ?"
     steps:
-    - when: Les premiers jours
-      title: Respirez, et apprenez les bases
-      body: Apprenez comment se fait la prière, comment se purifier pour elle, et quelques courtes invocations. La plupart des nouveaux musulmans commencent petit. Rien n'a besoin d'être parfait le premier
-        jour.
-    - when: Les premières semaines
-      title: Trouvez une personne
-      body: Un ami musulman patient, une mosquée accueillante ou un cercle en ligne comptent plus que cent règles. Posez-lui les questions que vous trouvez bêtes.
-    - when: Les premiers mois
-      title: Ajustez, doucement
-      body: La nourriture, la boisson, l'habillement, le travail et les conversations avec la famille se présentent un à un. Beaucoup de nouveaux musulmans disent que d'avancer pas à pas les a gardés stables.
-    - when: La première année
-      title: Parcourez toute l'année
-      body: Rencontrez le Ramadan, les deux Aïds et le rythme du calendrier musulman. Lisez la vie du Prophète et un peu de Coran avec son commentaire.
-    - when: La deuxième année et après
-      title: Faites-le vôtre
-      body: L'enthousiasme se pose dans la vie de tous les jours. Le doute, les périodes de sécheresse et les questions difficiles sont fréquents ici aussi. Ils font partie du chemin ; ils n'y mettent pas
-        fin.
-    sections:
-    - title: Ce qu'il faut savoir d'abord
-      body: Les cinq piliers, la prière et la purification, et les mots des invocations de tous les jours, expliqués simplement et avec leurs sources.
-    - title: En parler à votre famille et à vos amis
-      body: 'Les familles réagissent de bien des façons : soulagement, inquiétude, peine, silence. Pensez au moment, au ton et à la personne à qui le dire en premier, et parlez-en à quelqu''un de confiance
-        avant de le dire à tous. Ces pages montrent ce que dit la tradition des parents, de la famille et de l''amitié.'
-    - title: Nourriture, boisson et ce qu'il faut laisser
-      body: Ce qui est halal et ce qui ne l'est pas, tel que les savants l'exposent, chaque avis étant étiqueté. Pour ce que vous possédez déjà, comme l'alcool, lisez d'abord la discussion et demandez à
-        un savant local de confiance. Le musée décrit ; il ne rend pas de verdicts.
-    - title: Trouver les vôtres
-      body: La plupart des endroits ont des mosquées, des cercles de nouveaux musulmans, des associations d'étudiants, des groupes d'étude et des communautés en ligne. Cherchez ceux qui accueillent les
-        questions, ne vous font pas honte et ne vous demandent pas de choisir un camp. Commencez par les lieux que le musée cartographie et les enseignants qu'il recense.
-    - title: Boutiques, nourriture, livres et vêtements pudiques
-      body: Épiceries et restaurants halal, librairies islamiques et boutiques de vêtements pudiques se trouvent d'ordinaire par les annuaires locaux, les panneaux d'affichage des mosquées et votre nouveau
-        cercle. Le musée montre les traditions qui les sous-tendent.
-    - title: Apprendre à votre rythme
-      body: De courts parcours guidés et des cours complets, la vie du Prophète, les messagers qui l'ont précédé, et le Coran.
-    - title: Comparer avec ce que vous connaissiez
-      body: Si vous venez du christianisme, du judaïsme ou d'un autre chemin, vous voudrez peut-être comparer. Le musée recense les prophètes que les musulmans partagent avec d'autres religions, les peuples
-        et les religions de l'histoire, et les débats classiques entre religions, chacun avec ses sources.
-    - title: Quand viennent le doute ou l'épreuve
-      body: Le doute, le regret, la fatigue et la solitude sont courants durant les deux premières années et sont discutés ouvertement dans les écrits classiques. Lisez les questions que d'autres posent,
-        faites des pauses, et parlez à quelqu'un avant de décider quoi que ce soit d'important. Si vous prenez du recul, le musée sera toujours là.
-    - title: Apprendre à vous connaître
-      body: L'islam demande du caractère, du repentir et un examen honnête de soi-même. Ces pages sur les bonnes actions, les mauvaises actions et le caractère vous invitent à regarder en vous sans être
-        jugé.
-    note: 'Pas encore dans le musée : des annuaires vérifiés de boutiques halal, de librairies, de boutiques de vêtements pudiques, de groupes de soutien, de serveurs Discord et de forums. Ces adresses
-      changent, et le musée n''en listera aucune qu''il n''a pas vérifiée. En attendant, renseignez-vous auprès d''une mosquée locale ou d''une association d''étudiants établie, et méfiez-vous de quiconque
-      vous demande de l''argent ou vous met la pression.'
-  doubter:
-    btn: Encore indécis
-    tagline: Prenez votre temps. Personne ici ne compte vos heures.
-    lede: 'Cette vue s''adresse à quelqu''un qui n''a pas encore décidé. Elle ne cherche pas à vous gagner. Elle expose les sources, les questions les plus fortes et l''éventail des avis, et laisse la décision
-      là où elle doit être : chez vous.'
-    mind:
-    - Est-ce vrai ? Comment le saurais-je ?
-    - À quoi devrais-je renoncer, et que pourrais-je gagner ?
-    - Qu'en penseraient ma famille et mes amis ?
-    - Que penser de ce qui me trouble dans l'islam ou chez les musulmans ?
-    - En quoi est-ce différent de ce que je crois déjà ?
-    - J'ai peur de décider trop tôt, ou trop tard.
-    sections:
-    - title: Commencez par la plus courte introduction
-      body: Un court parcours guidé, puis les croyances et les pratiques en mots simples.
-    - title: Lisez par vous-même
-      body: Le Coran avec le commentaire classique, et la vie du Prophète, à partir des sources et non de résumés.
-    - title: Les questions les plus dures, tous les avis, aucun verdict
-      body: Les questions difficiles sont présentées avec les meilleures voix de chaque côté, citées, sans verdict.
-    - title: Comparer avec d'autres croyances
-      body: Les prophètes, les peuples et les religions que les musulmans et d'autres partagent ou sur lesquels ils divergent, et les débats classiques.
-    - title: À quoi ressemblent la journée et l'année d'un musulman
-      body: La prière, le jeûne, la charité et le calendrier, pour que vous puissiez imaginer cette vie avant de la choisir.
-    - title: Rencontrer des musulmans à travers leurs mots
-      body: Des savants, des enseignants et des vies ordinaires à travers quatorze siècles.
-    - title: Les signes et les raisons que les musulmans avancent
-      body: Les musulmans citent des signes dans la nature, dans le Coran et dans l'histoire comme raisons de croire. Le musée les présente avec leurs sources.
-    note: Le musée ne peut pas vous dire ce qu'il faut croire et n'essaie pas de le faire. Il n'a ni chat ni service d'écoute. Si vous souhaitez parler à une personne, une mosquée locale ou un groupe interreligieux
-      organise peut-être des conversations ouvertes. Venez accompagné de quelqu'un de confiance la première fois.
-  researcher:
-    btn: Chercheur
-    tagline: Tout est cité, tout est relié, tout est ouvert.
-    lede: 'Pour les étudiants, écrivains, enseignants et chercheurs, musulmans ou non : un graphe de fiches avec sources, dates, relations et données ouvertes. Partez de votre question, suivez les liens
-      et vérifiez la citation.'
-    mind:
-    - D'où vient ce fait, et quelle est la fiabilité de la source ?
-    - Puis-je le citer, l'exporter et le vérifier ?
-    - Comment les sujets controversés sont-ils traités ?
-    - Quelles dates, quels lieux et quelles chaînes de personnes relient ces événements ?
-    - Y a-t-il des données que je puisse réutiliser ?
-    sections:
-    - title: Chercher dans tout le graphe
-      body: La recherche en texte intégral dans toutes les langues, et le graphe des personnes, des lieux, des œuvres et des événements.
-    - title: Méthode et sources
-      body: Comment les fiches sont écrites, ce qui compte comme source et comment la fiabilité est indiquée.
-    - title: Temps et lieu
-      body: La chronologie, le calendrier et les cartes situent chaque personne et chaque événement dans son siècle et son pays.
-    - title: Personnes, livres et réseaux
-      body: Savants, Compagnons et œuvres, reliés par des relations de maître à élève et de famille.
-    - title: Les textes
-      body: Le Coran, ses commentaires et ses récitations.
-    - title: Données ouvertes et API
-      body: Les données sont ouvertes et disponibles sous forme d'API statique, réutilisables librement selon leurs licences.
-    - title: Le désaccord, cartographié
-      body: Écoles juridiques, débats classiques et règles côte à côte.
-    note: Les fiches sont rédigées avec l'aide d'agents d'IA à partir de sources citées, portent une note de provenance, et beaucoup n'ont pas été lues par un humain. Vérifiez la citation, puis vérifiez
-      la source.
-  learner:
-    btn: J'apprends ma religion
-    tagline: Commencez là où vous êtes. Le prochain petit pas suffit.
-    lede: 'Pour un musulman qui veut en savoir plus et mieux faire mais ne sait pas par où commencer. De courtes étapes, dans un ordre logique : des bases de l''adoration au caractère, au Coran et à la
-      vie du Prophète.'
-    mind:
-    - Par où commencer ?
-    - Je prie de façon irrégulière et je culpabilise.
-    - Je connais les règles mais pas les raisons.
-    - Je veux comprendre le Coran, pas seulement le réciter.
-    - Je veux mieux faire avec ma famille, mon travail et mon argent.
-    - Il y a beaucoup d'avis. À qui faire confiance ?
-    sections:
-    - title: Consolider les fondations
-      body: Les piliers, la purification, la prière et le jeûne, pas à pas, avec leurs preuves.
-    - title: Un rythme quotidien
-      body: Des invocations pour chaque occasion, et le calendrier musulman pour planifier votre année.
-    - title: Comprendre le Coran
-      body: Lisez-le avec le commentaire classique, pour entendre ce qu'il dit et pas seulement comment il sonne.
-    - title: Marcher avec le Prophète
-      body: Sa vie, les messagers qui l'ont précédé et les Compagnons qui l'entouraient.
-    - title: Caractère, famille et travail
-      body: Le bon caractère, la vie à la maison, l'amitié et le gain honnête.
-    - title: Connaître les écoles et les savants
-      body: Pourquoi les savants diffèrent, et comment poser une question éclairée.
-    - title: Des cours à suivre
-      body: Des cours et des sentiers guidés, une étape à la fois.
-    - title: Quand vous trébuchez
-      body: Le repentir, les petites bonnes actions et le retour, sans désespoir.
-    note: Le musée décrit ce que disent les savants et étiquette chaque avis. Il ne rend pas de verdicts. Pour une question personnelle, adressez-vous à un enseignant qualifié en qui vous avez confiance.
-  critic:
-    btn: Critique
-    tagline: Apportez votre plus forte objection. Les sources sont ouvertes.
-    lede: Pour quelqu'un qui pense que l'islam est faux, nuisible ou n'est pas une vraie religion, ou qui veut plaider pour une autre foi ou pour aucune. Mettez-le à l'épreuve des preuves. Le musée cite
-      ses sources, étiquette chaque avis avant de l'exposer et garde ses questions difficiles à la vue de tous. Il ne vous insultera pas, et il vous demande la même chose.
-    mind:
-    - Je pense que cette religion est fausse, ou dangereuse.
-    - Je veux trouver les contradictions et les côtés laids.
-    - Je me méfie de tout ce qui ressemble à un argumentaire de vente.
-    - Je défends ma propre foi, et je veux voir comment l'islam se situe à côté.
-    - Je veux les textes mêmes des musulmans, pas les résumés de leurs défenseurs.
-    sections:
-    - title: Vérifier les affirmations à la source
-      body: Comment chaque fiche est sourcée, ce que le musée tient pour une preuve, et comment vérifier vous-même une citation.
-    - title: Lire les textes tels qu'ils sont
-      body: Le Coran avec le commentaire classique, et la vie du Prophète, dans les traditions d'origine.
-    - title: Les sujets les plus durs, tous les avis, aucun verdict
-      body: Batailles, droit pénal et règles juridiques, avec la position sunnite étiquetée d'abord, puis les points de vue académiques et autres, chacun cité.
-    - title: Les débats classiques entre religions
-      body: Comment musulmans, chrétiens, juifs et autres ont débattu entre eux, comme histoire.
-    - title: Là où les musulmans divergent entre eux
-      body: Les écoles juridiques et les savants qui diffèrent, avec le raisonnement de chacun.
-    - title: L'histoire avec ses défauts
-      body: Les califes, les batailles et les siècles, tels qu'ils sont consignés.
-    - title: Discuter avec les données
-      body: Le graphe, les données ouvertes et la recherche, pour que vous puissiez éprouver toute affirmation vous-même.
-    note: Le musée est écrit depuis la tradition sunnite et le dit. C'est un cadre de départ étiqueté, et les autres points de vue sont étiquetés quand ils sont présentés. Une affirmation sans citation
-      est un défaut à signaler, non une doctrine cachée. Le musée n'est pas une plateforme de débat et n'a pas de commentaires.
+      - "Les cinq piliers, en mots simples."
+      - "Les premières prières, une étape à la fois."
+      - "Les proches, le conjoint et ce que disent les savants des liens de parenté."
+      - "Un parcours parmi les premières personnes qui ont embrassé l'islam."
+      - "Le calendrier musulman et le retour du ramadan."
+      - "Des questions qui viennent souvent plus tard."
+    block_title: "De la première semaine à la deuxième année"
+    block_sub: "Ce que décrivent beaucoup de nouveaux musulmans, dans l'ordre où ils le rencontrent souvent. Ce sont des thèmes généraux, pas une étude ; les pages liées donnent les sources."
+    items:
+      - t: "Première semaine"
+        x: "Dire la shahada, puis les premières prières, qui peuvent sembler maladroites."
+      - t: "Premier mois"
+        x: "En parler aux autres. Certains se réjouissent, d'autres sont blessés, d'autres se taisent."
+      - t: "Troisième mois"
+        x: "Les questions sur la nourriture, la boisson et la vie quotidienne s'accumulent."
+      - t: "Le premier ramadan"
+        x: "Pour beaucoup, le moment où tout devient réel."
+      - t: "La première année"
+        x: "Le doute et la solitude sont courants ; un calme soudain aussi."
+      - t: "La deuxième année"
+        x: "La recherche de savoir, et d'amis qui ne sont pas nouveaux non plus."
+  back:
+    name: "Retour à l'islam"
+    line: "Je suis né musulman et je reviens"
+    h: "Bon retour. Commencez là où vous êtes."
+    thoughts:
+      - "J'ai oublié comment prier."
+      - "J'ai honte des années d'éloignement."
+      - "Tout me semble étranger et familier à la fois."
+      - "Les gens vont-ils me juger ?"
+    steps:
+      - "La prière de nouveau, en commençant petit et clair."
+      - "Des mots à dire quand on ne sait pas quoi dire."
+      - "Un regard neuf sur les piliers, en adulte."
+      - "Des maîtres et leur manière de parler de miséricorde et de retour."
+      - "Des mosquées et des lieux d'étude."
+    block_title: "Trois choses que disent ceux qui reviennent"
+    block_sub: "Thèmes généraux tirés de mémoires et d'entretiens ; le musée ne les présente pas comme une règle."
+    items:
+      - t: "Commencer où l'on est"
+        x: "Beaucoup disent avoir commencé par une prière, pas cinq."
+      - t: "Ce qui n'a pas changé"
+        x: "Les mots sont ceux entendus dans l'enfance."
+      - t: "Retrouver des gens"
+        x: "Une communauté est souvent une personne qui dit votre nom."
+  five:
+    name: "Cinq ans après"
+    line: "Je veux de la profondeur, pas une liste pour débutants"
+    h: "Vous connaissez les bases. Voici le long chemin."
+    thoughts:
+      - "Je suis fatigué et je ne veux pas abandonner."
+      - "On me demande de parler au nom de tous les musulmans."
+      - "Mes enfants grandissent entre deux mondes."
+      - "Je veux étudier sérieusement."
+    steps:
+      - "Comment raisonnent les écoles juridiques, et pourquoi elles diffèrent."
+      - "Lire le Coran avec ses commentateurs."
+      - "La vie du Prophète en profondeur, avec ses sources."
+      - "Un parcours parmi la première génération de convertis."
+      - "Des savants à lire, et les notices du musée sur leur enseignement."
+    block_title: "Le long chemin, année après année"
+    block_sub: "Des thèmes que l'on décrit souvent au fil des années. Thèmes généraux, pas une étude."
+    items:
+      - t: "Années 1 à 2"
+        x: "Apprendre la pratique, et savoir à qui demander."
+      - t: "Années 2 à 3"
+        x: "La lassitude, ou le contraire : l'envie de corriger tout le monde."
+      - t: "Années 3 à 5"
+        x: "Mariage, enfants, travail, et la question d'appartenance."
+      - t: "Année 5 et après"
+        x: "Devenir celui que l'on interroge, et vieillir en tant que musulman."
+  curious:
+    name: "Curieux"
+    line: "Je veux juste savoir ce que c'est"
+    h: "Flânez. Rien ici ne vous demande de décider."
+    thoughts:
+      - "Qu'est-ce que c'est, au juste ?"
+      - "Montrez-moi quelque chose d'inattendu."
+      - "Qui sont ces gens ?"
+      - "Que croient les musulmans, en bref ?"
+    steps:
+      - "Un objet, un lieu ou une personne au hasard à chaque fois."
+      - "Le tableau d'ensemble en une demi-heure."
+      - "Voyages : une histoire racontée par des lieux et des personnes."
+      - "Ce que l'on présente comme des signes."
+    block_title: "De quoi s'émerveiller"
+    block_sub: "Un exemple de la manière dont le musée présente un récit."
+    items:
+      - t: "Le voyage nocturne"
+        x: "Dans la tradition musulmane, le Prophète est emmené une nuit de la mosquée sacrée de La Mecque à la mosquée la plus lointaine, puis à travers les cieux. Les savants classiques ont discuté s'il s'agissait d'un voyage du corps, de l'esprit ou des deux. Le musée présente chaque avis avec sa source."
+  doubt:
+    name: "Dans le doute"
+    line: "J'ai des questions que je ne peux pas écarter"
+    h: "Vos questions sont les bienvenues, même les plus dures."
+    thoughts:
+      - "Est-ce vrai ?"
+      - "Pourquoi Dieu permet-il la souffrance ?"
+      - "Et si je ne ressens rien ?"
+      - "J'ai peur de demander."
+    steps:
+      - "Des questions, chacune avec deux voix ou plus et sans verdict."
+      - "Ce que dit le Coran sur le fait de demander et sur le doute."
+      - "Les messagers et les peuples qui ont douté d'eux."
+      - "Des débats entre savants, dans leurs propres mots."
+      - "Les miracles, et la manière dont les savants les pèsent."
+    block_title: "Des questions à plus d'une voix"
+    block_sub: "Chacune montre d'abord les positions sunnites, puis le point de vue académique ; le musée ne rend aucun verdict. Ce n'est qu'un court résumé ; les pages liées donnent les sources."
+    items:
+      - q: "Pourquoi Dieu permet-il la souffrance ?"
+        al: "Position sunnite"
+        a: "Les savants décrivent les épreuves de ce monde comme des mises à l'épreuve, dans une sagesse qu'on ne voit pas tout entière, avec la patience et le réconfort promis."
+        bl: "Point de vue académique"
+        b: "Traité comme le problème de la théodicée, discuté dans de nombreuses traditions."
+      - q: "Peut-on douter et rester musulman ?"
+        al: "Position sunnite"
+        a: "Les auteurs classiques distinguent le doute passager, auquel répond la recherche du savoir, du rejet."
+        bl: "Témoignages personnels"
+        b: "Des mémoires de convertis et de revenus décrivent souvent le doute, parfois plus d'une fois."
+  research:
+    name: "Recherche"
+    line: "J'ai besoin de sources, de dates et de méthode"
+    h: "Chaque affirmation a une source. Commencez par la méthode."
+    thoughts:
+      - "D'où vient cette date ?"
+      - "Puis-je la citer ?"
+      - "Puis-je télécharger les données ?"
+      - "Comment une transmission est-elle évaluée ?"
+    steps:
+      - "Comment les notices sont écrites et sourcées."
+      - "Comment les rapports sont évalués, et par qui."
+      - "Recherche dans toutes les langues et tous les types de notices."
+      - "Explorer personnes, lieux et œuvres sous forme de graphe."
+      - "Les données ouvertes : formats, licences, API."
+    block_title: "Méthode et sources"
+    block_sub: "Ce que rencontre d'abord un chercheur."
+    items:
+      - t: "Citer une notice"
+        x: "Chaque notice a un identifiant stable et une ligne de citation."
+      - t: "Provenance"
+        x: "Les notices écrites avec l'IA portent un bloc de provenance : quel modèle, quelle exécution, quelles sources."
+      - t: "Données ouvertes"
+        x: "Données CC0, textes CC BY-SA, code MIT."
+      - t: "Limites énoncées"
+        x: "Le musée dit quelles notices sont des brouillons ou n'ont pas encore été lues par une personne."
+  learn:
+    name: "J'apprends ma foi"
+    line: "Je pratique et je veux savoir pourquoi"
+    h: "De ce qu'il faut faire à pourquoi on le fait."
+    thoughts:
+      - "Je prie, mais je ne sais pas pourquoi de cette façon."
+      - "Quelle est la preuve de ce jugement ?"
+      - "Pourquoi les savants diffèrent-ils ?"
+      - "Où aller ensuite ?"
+    steps:
+      - "Les piliers avec leurs sources."
+      - "Le culte en détail, avec ses raisons."
+      - "Les jugements et la manière dont ils sont déduits."
+      - "Pourquoi les écoles diffèrent, avec des exemples."
+      - "Parcours guidés et cours, niveau par niveau."
+    block_title: "Des jugements avec leurs raisons"
+    block_sub: "Le format en miniature : quoi, pourquoi, d'où cela vient, où les savants diffèrent."
+    items:
+      - t: "Prière : quoi"
+        x: "Cinq prières par jour à heures fixes, face à la qibla."
+      - t: "Prière : pourquoi"
+        x: "Les savants la relient au rappel, à la discipline et à la communauté."
+      - t: "Prière : d'où cela vient"
+        x: "Des passages du Coran et des rapports, chacun cité."
+      - t: "Où les savants diffèrent"
+        x: "Des détails comme la position des mains, montrés par école."
+  challenge:
+    name: "Contestation"
+    line: "Je ne suis pas d'accord et je veux voir les preuves"
+    h: "Apportez le cas le plus difficile. Les sources sont ouvertes."
+    thoughts:
+      - "Je n'accepte pas cela ; montrez-moi pourquoi vous l'acceptez."
+      - "Qui a décidé que ce rapport est sûr ?"
+      - "Que disent les critiques ?"
+      - "Est-ce une tradition ou un texte ?"
+    steps:
+      - "Sujets disputés, chaque partie étiquetée."
+      - "Comment un rapport est évalué, et les limites."
+      - "Débats et objections sous leur forme d'origine."
+      - "Ce que le musée ne prétend pas."
+    block_title: "Sujets controversés"
+    block_sub: "Chaque sujet nomme la communauté qui soutient un avis avant de l'énoncer."
+    items:
+      - t: "La fiabilité des rapports"
+        x: "Comment l'évaluation fonctionne, où les évaluateurs divergent et ce que disent les critiques."
+      - t: "Les différences entre les premières générations"
+        x: "Racontées d'abord par les sources sunnites, puis par d'autres, chacune étiquetée."
+      - t: "Des jugements que les non-musulmans trouvent difficiles"
+        x: "Le fondement textuel, l'éventail des avis savants et le débat moderne."
+      - t: "Ce que le musée ne fera pas"
+        x: "Il ne rend aucun verdict et ne fait aucun sermon."
+  pass:
+    name: "De passage"
+    line: "Donnez-moi trois minutes"
+    h: "Trois minutes, trois étapes, puis partez en paix."
+    thoughts:
+      - "Je n'ai qu'un instant."
+      - "Montrez-moi juste une belle chose."
+      - "Y a-t-il quelque chose à partager ?"
+      - "Peut-être que je reviendrai."
+    steps:
+      - "Une histoire, racontée par des lieux et des personnes."
+      - "Un objet, un lieu ou une personne, avec son image."
+      - "Le tableau d'ensemble en une demi-heure, quand vous reviendrez."
+    block_title: "Un mot avant de partir"
+    block_sub: "Trois choses à savoir."
+    items:
+      - t: "Rien n'est exigé"
+        x: "Pas de compte, pas d'inscription."
+      - t: "Reprendre plus tard"
+        x: "Votre point de vue n'est retenu que sur cet appareil."
+      - t: "Partager une page"
+        x: "Chaque page a son propre lien stable."
 accessibility:
   blind_1: 'Chaque page est un vrai texte dans une structure claire : un seul titre principal, des titres en dégradé, des points de repère de page (en-tête, navigation, contenu principal, pied de page),
     un lien « passer au contenu » avec son premier élément, ainsi que des listes et des tableaux marqués comme tels. Les lecteurs d''écran comme NVDA, JAWS, VoiceOver, TalkBack et Orca peuvent le lire et
