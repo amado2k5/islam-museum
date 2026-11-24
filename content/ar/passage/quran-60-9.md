@@ -3,6 +3,11 @@ id: passage/quran-60-9
 lang: ar
 source_lang: ar
 translators: []
+provenance:
+  generated_by: "Claude Code (Sonnet 5.5 session)"
+  model: claude-sonnet-5-5
+  run: altafsir-tabari-batch-11-2026-11-24
+  source: source/altafsir-tabari
 ---
 
 ## موجز
@@ -10,3 +15,7 @@ translators: []
 
 ## موضعها
 موضعها: الآية 9 من أصل 13 آية في السورة. النص محفوظ من مصحف تنزيل المجمّد ولا يُعاد كتابته هنا.
+
+## تفسير الطبري
+
+يبيّن الطبري أن الله إنما ينهى المؤمنين عن الذين قاتلوهم في الدين من كفار مكة وأخرجوهم من ديارهم وعاونوا على إخراجهم أن يتولّوهم فيكونوا لهم أولياء ونصراء، ومن يتولّهم فأولئك هم الظالمون. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=60&tAyahNo=9&tDisplay=yes&UserProfile=0&LanguageId=1

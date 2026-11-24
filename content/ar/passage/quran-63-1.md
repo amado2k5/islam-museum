@@ -3,6 +3,11 @@ id: passage/quran-63-1
 lang: ar
 source_lang: ar
 translators: []
+provenance:
+  generated_by: "Claude Code (Sonnet 5.5 session)"
+  model: claude-sonnet-5-5
+  run: altafsir-tabari-batch-11-2026-11-24
+  source: source/altafsir-tabari
 ---
 
 ## موجز
@@ -10,3 +15,7 @@ translators: []
 
 ## موضعها
 موضعها: الآية 1 من أصل 11 آية في السورة. النص محفوظ من مصحف تنزيل المجمّد ولا يُعاد كتابته هنا.
+
+## تفسير الطبري
+
+يقول الطبري إن المنافقين إذا جاؤوا النبي قالوا بألسنتهم نشهد إنك لرسول الله، والله يعلم إنك لرسوله، والله يشهد إن المنافقين لكاذبون في إخبارهم أن قلوبهم تشهد بذلك، إذ لم تكن قلوبهم موافقة لألسنتهم. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=63&tAyahNo=1&tDisplay=yes&UserProfile=0&LanguageId=1
