@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-11-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يذكر الطبري أن «قد سمع الله قول التي تجادلك في زوجها» نزلت في امرأة من الأنصار جادلت رسول الله في زوجها، واختلف أهل العلم في اسمها ونسبها فقيل خولة بنت ثعلبة وقيل خويلة بنت خويلد وقيل غير ذلك، وأن الله يسمع تحاورهما وهو سميع بصير. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=58&tAyahNo=1&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «قَدْ سَمِعَ ٱللَّهُ قَوْلَ ٱلَّتِي تُجَادِلُكَ فِي زَوْجِهَا وَتَشْتَكِيۤ إِلَى ٱللَّهِ وَٱللَّهُ يَسْمَعُ تَحَاوُرَكُمآ إِنَّ ٱللَّهَ سَمِيعٌ بَصِيرٌ»: «قَدْ سَمِعَ اللَّهُ» يا محمد «قَوْلَ الَّتي تجادلُكَ فِي زَوْجِها» والتي كانت تجادل رسول الله في زوجها امرأة من الأنصار. واختلف أهل العلم في نسبها واسمها، فقال بعضهم: خولة بنت ثعلبة، وقال بعضهم: اسمها خُوَيلة بنت ثعلبة. وقال آخرون: هي خويلة بنت خويلد. وقال آخرون: هي خويلة بنت الصامت. وقال آخرون: هي خويلة ابنة الدليج وكانت مجادلتها رسول الله في زوجها، وزوجها أوس بن الصامت، مراجعتها إياه في أمره، وما كان من قوله لها: أنتِ عليّ كظهر أمي. ومحاورتها إياه في ذلك، وبذلك قال أهل التأويل، وتظاهرت به الرواية. وينقل في المقطع أقوالاً عن قتادة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=58&tAyahNo=1&tDisplay=yes&UserProfile=0&LanguageId=1

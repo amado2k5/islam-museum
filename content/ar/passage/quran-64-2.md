@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-11-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن الله الذي خلق الناس فمنهم كافر بخالقه ومنهم مؤمن مصدّق موقن بأنه خالقه، والله بما يعملون بصير عالم بأعمالهم لا يخفى عليه منها شيء وهو مجازيهم بها، فليتقوه. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=64&tAyahNo=2&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «هُوَ ٱلَّذِي خَلَقَكُمْ فَمِنكُمْ كَافِرٌ وَمِنكُمْ مُّؤْمِنٌ وَٱللَّهُ بِمَا تَعْمَلُونَ بَصِيرٌ»: الله «الَّذِي خَلَقَكُمْ» أيها الناس، وهو من ذكر اسم الله «فَمِنكُمْ كافِرٌ وَمِنْكُمْ مؤْمِنٌ» يقول: فمنكم كافر بخالقه وأنه خلقه «ومنكم مؤمن» يقول: ومنكم مصدّق به موقن أنه خالقه أو بارئه «وَاللَّهُ بِمَا تَعْمَلُونَ بَصِيرٌ» يقول: والله الذي خلقكم بصير بأعمالكم عالم بها، لا يخفى عليه منها شيء، وهو مجازيكم بها، فاتقوه أن تخالفوه في أمره أو نهيه، فيسطو بكم. وعن أبي تميم الجيشاني، عن أبي ذرّ: «إن المَنِيَّ إذ مكث في الرحم أربعين ليلة، أتى ملك النفوس، فعرج به إلى الجبار في راحته، فقال: أي ربّ عبدك هذا ذكر أم أنثى؟ فيقضي الله إليه ما هو قاض، ثم يقول: أي ربّ أشقيّ أم سعيد؟ فيكتب ما هو لاق». وقال: وقرأ أبو ذرّ فاتحة التغابن خمس آيات.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=64&tAyahNo=2&tDisplay=yes&UserProfile=0&LanguageId=1

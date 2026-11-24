@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-11-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل الآيات [[passage/quran-55-72|55:72]] إلى [[passage/quran-55-75|55:75]]، وخلاصتها: يقول الطبري إن «حور» أي بيض جمع حوراء وهي البيضاء، ويروي عن مجاهد أنها بيض، وإنهن مقصورات في الخيام، ثم يذكر أنه لم يطمثهن إنس قبلهم ولا جان. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=55&tAyahNo=73&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 73 إلى 76 مقطعاً واحداً. يفسّر قوله «حُورٌ مَّقْصُورَاتٌ فِي ٱلْخِيَامِ»: يقول تعالى ذكره مخبراً عن هؤلاء الخيرات الحسان «حُورٌ» يعني بقول حور: بِيض، وهي جمع حوراء، والحوراء: البيضاء. وقد بيَّنا معنى الحور فيما مضى بشواهده المغنية عن إعادتها في هذا الموضع. وينقل في المقطع أقوالاً عن ابن عباس ومجاهد والربيع وسفيان.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=55&tAyahNo=73&tDisplay=yes&UserProfile=0&LanguageId=1

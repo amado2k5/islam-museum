@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-11-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن «والذين تبوّؤوا الدار والإيمان من قبلهم» هم الأنصار الذين اتخذوا المدينة داراً وبنوا فيها منازلهم والإيمان، من قبل المهاجرين، يحبون من هاجر إليهم ولا يجدون في صدورهم حاجة مما أوتوا ويؤثرون على أنفسهم ولو كان بهم خصاصة. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=59&tAyahNo=9&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَٱلَّذِينَ تَبَوَّءُوا ٱلدَّارَ وَٱلإِيمَانَ مِن قَبْلِهِمْ يُحِبُّونَ مَنْ هَاجَرَ إِلَيْهِمْ وَلاَ يَجِدُونَ فِي صُدُورِهِمْ حَاجَةً مِّمَّآ أُوتُواْ وَيُؤْثِرُونَ عَلَىٰ أَنفُسِهِمْ وَلَوْ كَانَ بِهِمْ خَصَاصَةٌ وَمَن يُوقَ شُحَّ نَفْسِهِ فَأُوْلَٰئِكَ هُمُ ٱلْمُفْلِحُونَ»: «وَالَّذِينَ تَبَوَّءوا الدَّارَ والإيمَانَ» يقول: اتخذوا المدينة مدينة الرسول، فابتنوها منازل، «وَالإيمَانَ» بالله ورسوله «مِنْ قَبْلِهِمْ» يعني: من قبل المهاجرين، «يُحِبُّونَ مَنْ هاجَرَ إلَيْهِمْ»: يحبون من ترك منزله، وانتقل إليهم من غيرهم، وعُنِي بذلك الأنصار يحبون المهاجرين. وينقل في المقطع أقوالاً عن مجاهد وقتادة وابن زيد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=59&tAyahNo=9&tDisplay=yes&UserProfile=0&LanguageId=1

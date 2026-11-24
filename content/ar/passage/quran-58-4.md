@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-11-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن من لم يجد رقبة يحرّرها فعليه صيام شهرين متتابعين قبل أن يتماسا، والمتتابعان ما لا فصل بينهما بإفطار إلا من عذر، ويذكر اختلاف أهل العلم في من أفطر بعذر، هل يبني على ما مضى أم يستأنف، ثم يذكر إطعام ستين مسكيناً لمن لم يستطع. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=58&tAyahNo=4&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «فَمَن لَّمْ يَجِدْ فَصِيَامُ شَهْرَيْنِ مُتَتَابِعَيْنِ مِن قَبْلِ أَن يَتَمَآسَّا فَمَن لَّمْ يَسْتَطِعْ فَإِطْعَامُ سِتِّينَ مِسْكِيناً ذَلِكَ لِتُؤْمِنُواْ بِٱللَّهِ وَرَسُولِهِ وَتِلْكَ حُدُودُ ٱللَّهِ وَلِلْكَافِرِينَ عَذَابٌ أَلِيمٌ»: فمن لم يجد منكم ممن ظاهر من امرأته رقبة يحرّرها، فعليه صيام شهرين متتابعين من قبل أن يتماسا والشهران المتتابعان هما اللذان لا فصل بينهما بإفطار في نهار شيء منهما إلا من عذر، فإنه إذا كان الإفطار بالعذر ففيه اختلاف بين أهل العلم، فقال بعضهم: إذا كان إفطاره لعذر فزال العذر بنى على ما مضى من الصوم. وقال آخرون: بل يستأنف، لأن من أفطر بعذر أو غير عذر لم يتابع صوم شهرين. وينقل في المقطع أقوالاً عن قتادة والحسن وعطاء.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=58&tAyahNo=4&tDisplay=yes&UserProfile=0&LanguageId=1

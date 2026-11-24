@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-11-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن الغاية «كي لا يكون دولة بين الأغنياء منكم» أي يتداولونها بينهم، بل يكون للفقراء المهاجرين، ويروي عن مجاهد أن المهاجرين مهاجرة قريش وأن ما أفاء الله من قريظة جُعل لهم. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=59&tAyahNo=8&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «لِلْفُقَرَآءِ الْمُهَاجِرِينَ الَّذِينَ أُخْرِجُواْ مِن دِيَارِهِمْ وَأَمْوَالِهِمْ يَبْتَغُونَ فَضْلاً مِّنَ ٱللَّهِ وَرِضْوَاناً وَيَنصُرُونَ ٱللَّهَ وَرَسُولَهُ أُوْلَٰئِكَ هُمُ ٱلصَّادِقُونَ»: كيلا يكون ما أفاء الله على رسوله دُولة بين الأغنياء منكم، ولكن يكون للفقراء المهاجرين. وقيل: عُني بالمهاجرين: مهاجرة قريش. وينقل في المقطع أقوالاً عن مجاهد وقتادة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=59&tAyahNo=8&tDisplay=yes&UserProfile=0&LanguageId=1

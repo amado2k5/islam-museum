@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-11-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن الله أرسل نوحاً وإبراهيم وجعل في ذريتهما النبوة والكتاب، وعليهم أنزلت الكتب التوراة والإنجيل والزبور والفرقان، فمنهم مهتدٍ وكثير منهم فاسقون أي ضلّال خارجون عن طاعة الله. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=57&tAyahNo=26&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَلَقَدْ أَرْسَلْنَا نُوحاً وَإِبْرَاهِيمَ وَجَعَلْنَا فِي ذُرِّيَّتِهِمَا ٱلنُّبُوَّةَ وَٱلْكِتَابَ فَمِنْهُمْ مُّهْتَدٍ وَكَثِيرٌ مِّنْهُمْ فَاسِقُونَ»: ولقد أرسلنا أيها الناس نوحاً إلى خلقنا، وإبراهيم خليله إليهم رسولاً «وَجَعَلْنا فِي ذُرّيَّتِهِما النُبُوَّةَ وَالكِتابَ» وكذلك كانت النبوّة في ذرّيتهما، وعليهم أنزلت الكتب: التوراة، والإنجيل، والزبور، والفرقان، وسائر الكتب المعروفة «فَمِنْهُمْ مُهْتَدٍ» يقول: فمن ذرّيتهما مهتدٍ إلى الحقّ مستبصر «وكَثِيرٌ مِنْهُمْ» يعني من ذرّيتهما «فاسِقُونَ» يعني ضُلاَّل، خارجون عن طاعة الله إلى معصيته.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=57&tAyahNo=26&tDisplay=yes&UserProfile=0&LanguageId=1

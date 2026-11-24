@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-11-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إنه لا أحد أشد ظلماً ممن اختلق على الله الكذب، وهو قول من قال للنبي إنه ساحر وإن ما جاء به سحر، وهو يُدعى إلى الإسلام، والله لا يوفق القوم الذين ظلموا أنفسهم بكفرهم لإصابة الحق. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=61&tAyahNo=7&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَمَنْ أَظْلَمُ مِمَّنِ ٱفْتَرَىٰ عَلَى ٱللَّهِ ٱلْكَذِبَ وَهُوَ يُدْعَىٰ إِلَى ٱلإِسْلاَمِ وَٱللَّهُ لاَ يَهْدِي ٱلْقَوْمَ ٱلظَّالِمِينَ»: ومن أشدّ ظلماً وعدواناً ممن اختلق على الله الكذب، وهو قول قائلهم للنبيّ: هو ساحر ولما جاء به سحر، فكذلك افتراؤه على الله الكذب وهو يُدعى إلى الإسلام يقول: إذا دعي إلى الدخول في الإسلام، قال على الله الكذب، وافترى عليه الباطل «وَاللَّهُ لاَ يَهْدِي القَوْمَ الظَّالِمِينَ» يقول: والله لا يوفِّق القوم الذين ظلموا أنفسهم بكفرهم به لإصابة الحقّ.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=61&tAyahNo=7&tDisplay=yes&UserProfile=0&LanguageId=1

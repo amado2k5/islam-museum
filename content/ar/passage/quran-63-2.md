@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-11-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن المنافقين اتخذوا أيمانهم جنة أي حلفهم وقاية، ويروي ذلك عن قتادة ومجاهد، فصدّوا عن سبيل الله إنهم ساء ما كانوا يعملون. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=63&tAyahNo=2&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «ٱتَّخَذُوۤاْ أَيْمَانَهُمْ جُنَّةً فَصَدُّواْ عَن سَبِيلِ ٱللَّهِ إِنَّهُمْ سَآءَ مَا كَانُواْ يَعْمَلُونَ»: اتخذ المنافقون أيمانهم جنة، وهي حلفهم، كما: وعن قتادة «اتخَذُوا أيمَانَهُمْ جُنَّةً»: أي حلفهم جنة. وعن ابن أبي نجيح، عن مجاهد في قول الله: «اتخَذُوا أيمَانَهُمْ جُنَّةً» قال: يجيئون بها، قال ذلك بأنهم آمنوا ثم كفروا. حُدثت عن الحسين، قال: سمعت أبا معاذ يقول: قال: سمعت الضحاك يقول في قوله: «اتخَذُوا أيمَانَهُمْ جُنَّةً» يقول: حلفهم بالله إنهم لمنكم جنة. وقوله: «جُنَّةً»: سترة يسترون بها كما يستر المستجنّ بجنته في حرب وقتال، فيمنعون بها أنفسهم وذراريهم وأموالهم، ويدفعون بها عنها. وينقل في المقطع أقوالاً عن مجاهد وقتادة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=63&tAyahNo=2&tDisplay=yes&UserProfile=0&LanguageId=1

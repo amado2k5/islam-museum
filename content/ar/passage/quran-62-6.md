@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-11-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن الله يأمر نبيه أن يقول لليهود: إن زعمتم أنكم أولياء لله من دون الناس فتمنوا الموت إن كنتم صادقين، فإن الله لا يعذّب أولياءه بل يكرمهم، فتمنوه لتستريحوا من كرب الدنيا وهمومها. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=62&tAyahNo=6&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «قُلْ يٰأَيُّهَا ٱلَّذِينَ هَادُوۤاْ إِن زَعمْتُمْ أَنَّكُمْ أَوْلِيَآءُ لِلَّهِ مِن دُونِ ٱلنَّاسِ فَتَمَنَّوُاْ ٱلْمَوْتَ إِن كُنتُمْ صَادِقِينَ»: قل يا محمد لليهود: «يا أيّها الَّذِينَ هادُوا إنْ زَعَمْتُمْ أنَّكُمْ أوْلِياءُ لِلَّهِ مِنْ دُونِ النَّاسِ» سواكم «فَتَمَّنُوا المَوْتَ إنْ كُنْتُمْ صَادِقِينَ» في قيلكم، إنكم أولياء لله من دون الناس، فإن الله لا يعذّب أولياءه، بل يكرمهم وينعمهم، وإن كنتم محقين فيما تقولون فتمنوا الموت لتستريحوا من كرب الدنيا وهمومها وغمومها، وتصيروا إلى روح الجنان ونعيمها بالموت. قال ابن زيد، في قوله: «قُلْ يا أيّها الَّذِينَ هادُوا» قل يا أيها الذين تابوا: لليهود، قال موسى:«إنَّا هُدْنا إلَيْكَ» إنا تبنا إليك. وينقل في المقطع أقوالاً عن ابن زيد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=62&tAyahNo=6&tDisplay=yes&UserProfile=0&LanguageId=1

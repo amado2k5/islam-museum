@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-11-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن النبي إذا رأى المنافقين تعجبه أجسامهم لاستواء خلقها وحسن صورها، وإن يتكلموا تسمع لقولهم يشبه منطقهم منطق الناس، كأنهم خشب مسنّدة لا خير عندهم ولا فقه، وإنما هم صور بلا أحلام وأشباح بلا عقول، ويحسبون كل صيحة عليهم. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=63&tAyahNo=4&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَإِذَا رَأَيْتَهُمْ تُعْجِبُكَ أَجْسَامُهُمْ وَإِن يَقُولُواْ تَسْمَعْ لِقَوْلِهِمْ كَأَنَّهُمْ خُشُبٌ مُّسَنَّدَةٌ يَحْسَبُونَ كُلَّ صَيْحَةٍ عَلَيْهِمْ هُمُ ٱلْعَدُوُّ فَٱحْذَرْهُمْ قَاتَلَهُمُ ٱللَّهُ أَنَّى يُؤْفَكُونَ»: يقول جلّ ذكره لنبيه محمد: وإذا رأيت هؤلاء المنافقين يا محمد تعجبك أجسامهم لاستواء خلقها وحسن صورها «وَإنْ يَقُولُوا تَسْمَعْ لِقَوْلِهِمْ» يقول جلّ ثناؤه: وإن يتكلموا تسمع كلامهم يشبه منطقهم منطق الناس «كأنَّهُمْ خُشُبٌ مُسَنَّدَةٌ» يقول كأن هؤلاء المنافقين خُشُب مسَّندة لا خير عندهم ولا فقه لهم ولا علم، وإنما هم صور بلا أحلام، وأشباح بلا عقول. وينقل في المقطع أقوالاً عن ابن زيد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=63&tAyahNo=4&tDisplay=yes&UserProfile=0&LanguageId=1

@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-11-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن اليهود لا يتمنون الموت أبداً بما قدمت أيديهم أي بما اكتسبوا من الآثام والسيئات، والله عليم بالظالمين أي بمن ظلم نفسه فأوبقها بكفره. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=62&tAyahNo=7&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَلاَ يَتَمَنَّونَهُ أَبَداً بِمَا قَدَّمَتْ أَيْديهِمْ وَٱللَّهُ عَلِيمٌ بِٱلظَّالِمِينَ»: «وَلا يَتَمَنَّوْنَهُ أبَداً» يقول: ولا يتمنى اليهود الموت أبدا «بِمَا قَدَّمَتْ أيْدِيهِمْ» يعني: بما اكتسبوا في هذه الدنيا من الآثام، واجترحوا من السيئات «وَاللَّهُ عَلِيمٌ بالظَّالِمِينَ» يقول: والله ذو علم بمن ظلم من خلقه نفسه، فأوبقها بكفره بالله.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=62&tAyahNo=7&tDisplay=yes&UserProfile=0&LanguageId=1

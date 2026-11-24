@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-11-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن الذين جحدوا وحدانية الله وكذّبوا بأدلته وحججه وآيات كتابه الذي أنزله على محمد أولئك أصحاب النار هم فيها خالدون ماكثون أبداً لا يموتون فيها ولا يخرجون منها، وبئس المصير جهنم. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=64&tAyahNo=10&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَٱلَّذِينَ كَفَرُواْ وَكَذَّبُواْ بِآيَٰتِنَآ أُوْلَٰئِكَ أَصْحَٰبُ ٱلنَّارِ خَٰلِدِينَ فِيهَا وَبِئْسَ ٱلْمَصِيرُ»: والذين جحدوا وحدانية الله، وكذّبوا بأدلته وحججه وآي كتابه الذي أنزله على عبده محمد «أُولَئِكَ أصحَابُ النَّارِ هُمْ فِيها خالِدُونَ» يقول: ماكثين فيها أبداً لا يموتون فيها، ولا يخرجون منها «وَبِئْسَ المَصِيرُ» يقول: وبئس الشيء الذي يُصَار إليه جهنم.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=64&tAyahNo=10&tDisplay=yes&UserProfile=0&LanguageId=1

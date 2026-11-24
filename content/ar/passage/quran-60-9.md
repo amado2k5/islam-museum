@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-11-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن الله إنما ينهى المؤمنين عن الذين قاتلوهم في الدين من كفار مكة وأخرجوهم من ديارهم وعاونوا على إخراجهم أن يتولّوهم فيكونوا لهم أولياء ونصراء، ومن يتولّهم فأولئك هم الظالمون. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=60&tAyahNo=9&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «إِنَّمَا يَنْهَاكُمُ ٱللَّهُ عَنِ ٱلَّذِينَ قَاتَلُوكُمْ فِي ٱلدِّينِ وَأَخْرَجُوكُم مِّن دِيَارِكُمْ وَظَاهَرُواْ عَلَىٰ إِخْرَاجِكُمْ أَن تَوَلَّوْهُمْ وَمَن يَتَوَلَّهُمْ فَأُوْلَٰئِكَ هُمُ ٱلظَّالِمُونَ»: «إنَّمَا يَنْهَاكُمُ اللَّهُ» أيها المؤمنون «عَن الَّذِينَ قاتَلُوكُمْ فِي الدّين» من كفار أهل مكة «وأخْرَجُوكُمْ مِنْ دِيارِكُمْ وَظَاهِرُوا على إخْرَاجِكُمْ أنْ تَوَلَّوْهُمْ» يقول: وعاونوا من أخرجكم من دياركم على إخراجكم أن تولوهم، فتكونوا لهم أولياء ونصراء «وَمَنْ يَتَوَلَّهُمْ» يقول: ومن يجعلهم منكم أو من غيركم أولياء «فأُولَئِكَ هُمُ الظَّالِمُونَ» يقول: فأولئك هم الذين تولوا غير الذي يجوز لهم أن يتولوهم، ووضعوا ولايتهم في غير موضعها، وخالفوا أمر الله في ذلك. وينقل في المقطع أقوالاً عن مجاهد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=60&tAyahNo=9&tDisplay=yes&UserProfile=0&LanguageId=1

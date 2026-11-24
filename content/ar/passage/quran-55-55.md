@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-11-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل الآيات [[passage/quran-55-54|55:54]] إلى [[passage/quran-55-55|55:55]]، وخلاصتها: يبيّن الطبري أن أصحاب الجنتين متكئون على فرش بطائنها من إستبرق، والإستبرق ما غلظ وخشن من الديباج عند العرب، وأن جنى الجنتين دانٍ قريب لا يعسر على من يتناوله. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=55&tAyahNo=55&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 54 إلى 55 مقطعاً واحداً. يفسّر الطبري الآية ضمن المقطع نفسه. وينقل في المقطع أقوالاً عن ابن عباس وقتادة وسفيان.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=55&tAyahNo=55&tDisplay=yes&UserProfile=0&LanguageId=1

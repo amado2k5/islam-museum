@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-11-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن الذي يتصدع من خشيته الجبل هو المعبود الذي لا تنبغي العبادة إلا له، عالم غيب السماوات والأرض وشاهد ما فيهما، هو الرحمن في الدنيا والآخرة الرحيم بأهل الإيمان. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=59&tAyahNo=22&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «هُوَ ٱللَّهُ ٱلَّذِي لاَ إِلَٰهَ إِلاَّ هُوَ عَالِمُ ٱلْغَيْبِ وَٱلشَّهَادَةِ هُوَ ٱلرَّحْمَٰنُ ٱلرَّحِيمُ»: الذي يتصدع من خشيته الجبل أيها الناس، هو المعبود الذي لا تنبغي العبادة والألوهية إلا له، عالم غيب السموات والأرض، وشاهد ما فيهما مما يرى ويحسّ «هُوَ الرَّحْمَنُ الرَّحِيمُ» يقول: هو رحمن الدنيا والآخرة، رحيم بأهل الإيمان به.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=59&tAyahNo=22&tDisplay=yes&UserProfile=0&LanguageId=1

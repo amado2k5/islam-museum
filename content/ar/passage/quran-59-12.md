@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-11-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن بني النضير لو أُخرجوا لم يخرج معهم المنافقون الذين وعدوهم، ولو قوتلوا لم ينصروهم، ولو نصروهم لولّوا الأدبار منهزمين ثم لا ينصرون، أي لا ينصر الله بني النضير على محمد وأصحابه. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=59&tAyahNo=12&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «لَئِنْ أُخْرِجُواْ لاَ يَخْرُجُونَ مَعَهُمْ وَلَئِن قُوتِلُواْ لاَ يَنصُرُونَهُمْ وَلَئِن نَّصَرُوهُمْ لَيُوَلُّنَّ ٱلأَدْبَارَ ثُمَّ لاَ يُنصَرُونَ»: لئن أُخرج بنو النضير من ديارهم، فأَجْلوا عنها لا يخرج معهم المنافقون الذين وعدوهم الخروج من ديارهم، ولئن قاتلهم محمد لا ينصرهم المنافقون الذين وعدوهم النصر، ولئن نصر المنافقون بني النضير ليولُّنّ الأدبار منهزمين عن محمد وأصحابه هاربين منهم، قد خذلوهم «ثُمَّ لا يُنْصَرُونَ» يقول: ثم لا ينصر الله بني النضير على محمد، وأصحابه بل يخذلهم.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=59&tAyahNo=12&tDisplay=yes&UserProfile=0&LanguageId=1

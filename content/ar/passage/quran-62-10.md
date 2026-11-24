@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-11-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إنه إذا قُضيت صلاة الجمعة فانتشروا في الأرض إن شئتم، وذلك رخصة من الله، ويروي عن مجاهد أنها رخصة، ثم يذكر ابتغاء فضل الله وذكره كثيراً لعل المؤمنين يفلحون. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=62&tAyahNo=10&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «فَإِذَا قُضِيَتِ ٱلصَّلاَةُ فَٱنتَشِرُواْ فِي ٱلأَرْضِ وَٱبْتَغُواْ مِن فَضْلِ ٱللَّهِ وَٱذْكُرُواْ ٱللَّهَ كَثِيراً لَّعَلَّكُمْ تُفْلِحُونَ»: فإذا قُضيت صلاة الجمعة يوم الجمعة، فانتشروا في الأرض إن شئتم، ذلك رخصة من الله لكم في ذلك. وينقل في المقطع أقوالاً عن مجاهد وابن زيد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=62&tAyahNo=10&tDisplay=yes&UserProfile=0&LanguageId=1

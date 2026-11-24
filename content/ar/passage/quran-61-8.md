@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-11-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن هؤلاء يريدون ليطفئوا نور الله بأفواههم، أي يبطلوا الحق الذي بعث به محمداً بقولهم إنه ساحر، والله متمّ نوره أي معلن الحق ومظهر دينه وناصر محمداً على من عاداه، ولو كره الكافرون. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=61&tAyahNo=8&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «يُرِيدُونَ لِيُطْفِئُواْ نُورَ ٱللَّهِ بِأَفْوَٰهِهِمْ وَٱللَّهُ مُتِمُّ نُورِهِ وَلَوْ كَرِهَ ٱلْكَٰفِرُونَ»: يريد هؤلاء القائلون لمحمد: هذا ساحر مبين «لِيُطْفِئُوا نُورَ اللَّهِ بأفْوَاهِهِمْ» يقول: يريدون ليبطلوا الحقّ الذي بعث الله به محمداً بأفواههم يعني بقولهم إنه ساحر، وما جاء به سحر، «وَاللَّهُ مُتِمّ نُورِهِ» يقول: الله معلن الحقّ، ومظهر دينه، وناصر محمداً على من عاداه، فذلك إتمام نوره، وعنى بالنور في هذا الموضع الإسلام. وكان ابن زيد يقول: عُنِي به القرآن. قال ابن زيد، في قوله: «لِيُطْفِئُوا نُورَ اللَّهِ بأفْوَاهِهِمْ» قال: نور القرآن. واختلفت القرّاء في قراءة قوله تعالى: «وَاللَّهُ مُتِمُّ نورِهِ» فقرأته عامة قرّاء المدينة والبصرة وبعض الكوفيين: «مُتِمُّ نُورَهُ» بالنصب. وينقل في المقطع أقوالاً عن ابن زيد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=61&tAyahNo=8&tDisplay=yes&UserProfile=0&LanguageId=1

@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-11-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن الله يأمر المؤمنين إذا تناجوا ألا يتناجوا بالإثم والعدوان ومعصية الرسول وأن يتناجوا بالبر أي طاعة الله وما يقرّب منه والتقوى، ويتقوا الله الذي إليه تُحشرون. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=58&tAyahNo=9&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «يٰأَيُّهَا ٱلَّذِينَ آمَنُوۤاْ إِذَا تَنَاجَيْتُمْ فَلاَ تَتَنَاجَوْاْ بِٱلإِثْمِ وَٱلْعُدْوَانِ وَمَعْصِيَتِ ٱلرَّسُولِ وَتَنَاجَوْاْ بِٱلْبِرِّ وَٱلتَّقْوَىٰ وَٱتَّقُواْ ٱللَّهَ ٱلَّذِيۤ إِلَيْهِ تُحْشَرُونَ»: يا أيها الذين صدّقوا الله ورسوله «إذَا تَناجَيْتُمْ» بينكم «فَلا تَتَناجَوْا بالإثْمِ وَالعُدْوَانِ وَمَعْصِيَةِ الرَّسُولِ وَ» لكن «تَنَاجَوْا بالْبِرّ» يعني طاعة الله وما يقرّبكم منه «والتَّقْوَى» يقول: وباتقائه بأداء ما كلَّفكم من فرائضه واجتناب معاصيه «وَاتَّقُوا اللَّهَ الَّذِي إلَيْهِ تُحْشَرونَ» يقول: وخافوا الله الذي إليه مصيركم، وعنده مجتمعكم في تضييع فرائضه، والتقدّم على معاصيه أن يعاقبكم عليه عند مصيركم إليه.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=58&tAyahNo=9&tDisplay=yes&UserProfile=0&LanguageId=1

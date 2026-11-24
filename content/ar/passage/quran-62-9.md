@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-11-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن الله يخاطب المؤمنين إذا نودي للصلاة من يوم الجمعة، وهو النداء عند قعود الإمام على المنبر للخطبة، فاسعوا إلى ذكر الله أي امضوا إليه واعملوا له، وأصل السعي هنا العمل، وذروا البيع، ذلكم خير لكم إن كنتم تعلمون. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=62&tAyahNo=9&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «يٰأَيُّهَا ٱلَّذِينَ آمَنُوۤاْ إِذَا نُودِيَ لِلصَّلاَةِ مِن يَوْمِ ٱلْجُمُعَةِ فَٱسْعَوْاْ إِلَىٰ ذِكْرِ ٱللَّهِ وَذَرُواْ ٱلْبَيْعَ ذَلِكُمْ خَيْرٌ لَّكُمْ إِن كُنتُمْ تَعْلَمُونَ»: يقول تعالى ذكره للمؤمنين به من عباده: يا أيها الذين صدّقوا الله ورسوله «إذَا نُودِيَ للصَّلاةِ مِنْ يَوْمِ الجُمْعَةِ» وذلك هو النداء، ينادى بالدعاء إلى صلاة الجمعة عند قعود الإمام على المنبر للخطبة ومعنى الكلام: إذا نودي للصلاة من يوم الجمعة «فاسْعَوْا إلى ذِكْرِ اللَّهِ» يقول: فامضوا إلى ذكر الله، واعملوا له وأصل السعي في هذا الموضع العمل، وقد ذكرنا الشواهد على ذلك فيما مضى قبل. وينقل في المقطع أقوالاً عن قتادة والأعمش وإبراهيم وسفيان.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=62&tAyahNo=9&tDisplay=yes&UserProfile=0&LanguageId=1

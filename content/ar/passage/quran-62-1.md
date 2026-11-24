@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-11-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن كل ما في السماوات السبع والأرضين من خلقه يسبّح لله ويعظمه طوعاً وكرهاً، الملك الذي له ملك الدنيا والآخرة، القدوس أي الطاهر من كل ما يصفه به المشركون المبارك، العزيز الشديد في انتقامه من أعدائه الحكيم في تدبيره. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=62&tAyahNo=1&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «يُسَبِّحُ لِلَّهِ مَا فِي ٱلسَّمَٰوَٰتِ وَمَا فِي ٱلأَرْضِ ٱلْمَلِكِ ٱلْقُدُّوسِ ٱلْعَزِيزِ ٱلْحَكِيمِ»: يسبح لله كلّ ما في السموات السبع، وكلّ ما في الأرضين من خلقه، ويعظمه طوعاً وكرهاً «المَلِكِ القُدُّوسِ» الذي له ملك الدنيا والآخرة وسلطانهما، النافذ أمره في السموات والأرض وما فيهما، القدّوس: وهو الطاهر من كلّ ما يضيف إليه المشركون به، ويصفونه به مما ليس من صفاته المبارك «العَزِيزِ» يعني الشديد في انتقامه من أعدائه «الْحَكِيمِ» في تدبيره خلقه، وتصريفه إياهم فيما هو أعلم به من مصالحهم.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=62&tAyahNo=1&tDisplay=yes&UserProfile=0&LanguageId=1

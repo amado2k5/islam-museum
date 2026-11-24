@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-11-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن الله يأمر المؤمنين إذا قيل لهم تفسّحوا في المجالس أن يتوسعوا، من المكان الفسيح أي الواسع، ويذكر اختلافهم في المجلس المقصود؛ فقال بعضهم مجلس النبي خاصة، ويروي ذلك عن مجاهد، ثم يذكر «انشزوا فانشزوا» ورفع الله الذين آمنوا والذين أوتوا العلم درجات. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=58&tAyahNo=11&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «يٰأَيُّهَا ٱلَّذِينَ آمَنُواْ إِذَا قِيلَ لَكُمْ تَفَسَّحُواْ فِي ٱلْمَجَالِسِ فَٱفْسَحُواْ يَفْسَحِ ٱللَّهُ لَكُمْ وَإِذَا قِيلَ ٱنشُزُواْ فَانشُزُواْ يَرْفَعِ ٱللَّهُ ٱلَّذِينَ آمَنُواْ مِنكُمْ وَٱلَّذِينَ أُوتُواْ ٱلْعِلْمَ دَرَجَاتٍ وَٱللَّهُ بِمَا تَعْمَلُونَ خَبِيرٌ»: يا أيها الذين صدّقوا الله ورسوله «إذَا قِيلَ لَكُمْ تَفَسَّحُوا فِي المَجالِسِ» يعني بقوله تفسَّحُوا توسعوا من قولهم مكان فسيح إذا كان واسعاً. واختلف أهل التأويل في المجلس الذي أمر الله المؤمنين بالتفسح فيه، فقال بعضهم: ذلك كان مجلس النبيّ خاصة. وينقل في المقطع أقوالاً عن ابن عباس ومجاهد وقتادة وابن زيد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=58&tAyahNo=11&tDisplay=yes&UserProfile=0&LanguageId=1

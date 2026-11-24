@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-11-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن كل مصيبة مكتوبة من قبل خلق النفوس، لكيلا يحزنوا على ما فاتهم من الدنيا ولا يفرحوا بما آتاهم، ويفرق بين قراءة «آتاكم» بالمد بمعنى أعطاكم وقراءتها بالقصر بمعنى جاءكم، ثم يذكر أن الله لا يحب كل مختال فخور. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=57&tAyahNo=23&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «لِّكَيْلاَ تَأْسَوْاْ عَلَىٰ مَا فَاتَكُمْ وَلاَ تَفْرَحُواْ بِمَآ آتَاكُمْ وَٱللَّهُ لاَ يُحِبُّ كُلَّ مُخْتَالٍ فَخُورٍ»: يعني تعالى ذكره: ما أصابكم أيها الناس من مصيبة في أموالكم ولا في أنفسكم، إلا في كتاب قد كُتب ذلك فيه من قبل أن نخلق نفوسكم «لِكَيْلا تَأسُوْا» يقول: لكيلا تحزنوا «على ما فاتَكُمْ» من الدنيا، فلم تدركوه منها «وَلا تَفْرَحُوا بِما آتاكُمْ» منها. ومعنى قوله: «بِما آتاكُمْ» إذا مدّت الألف منها: بالذي أعطاكم منها ربكم وملَّككم وخَوَّلكم وإذا قُصرت الألف، فمعناها: بالذي جاءكم منها. وينقل في المقطع أقوالاً عن ابن عباس وابن زيد وسماك وسفيان.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=57&tAyahNo=23&tDisplay=yes&UserProfile=0&LanguageId=1

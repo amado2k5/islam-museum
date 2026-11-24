@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-11-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن الله يأمر نبيه أن يذكر إذ قال عيسى ابن مريم لبني إسرائيل إني رسول الله إليكم مصدّقاً لما بين يدي من التوراة ومبشراً برسول يأتي من بعدي اسمه أحمد، ويورد أثراً في ذلك، ثم يذكر أنه لما جاءهم بالبينات قالوا هذا سحر مبين. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=61&tAyahNo=6&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَإِذْ قَالَ عِيسَى ٱبْنُ مَرْيَمَ يٰبَنِي إِسْرَائِيلَ إِنِّي رَسُولُ ٱللَّهِ إِلَيْكُم مُّصَدِّقاً لِّمَا بَيْنَ يَدَيَّ مِنَ ٱلتَّوْرَاةِ وَمُبَشِّراً بِرَسُولٍ يَأْتِي مِن بَعْدِي ٱسْمُهُ أَحْمَدُ فَلَمَّا جَاءَهُم بِٱلْبَيِّنَاتِ قَالُواْ هَٰذَا سِحْرٌ مُّبِينٌ»: واذكر أيضاً يا محمد «إذْ قالَ عِيسَى ابنُ مَرْيَمَ» لقومه من بني إسرائيل «يا بَنِي إسْرائِيلَ إنّي رَسُولُ اللَّهِ إلَيْكُمْ مُصَدّقاً لِمَا بَينِ يَدَيَّ مِنَ التَّوْرَاةِ» التي أُنزلت على موسى «وَمُبَشِّراً» أبشركم «بِرَسُولٍ يأتي مِنْ بَعْدِي اسْمُهُ أحْمَدُ».
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=61&tAyahNo=6&tDisplay=yes&UserProfile=0&LanguageId=1

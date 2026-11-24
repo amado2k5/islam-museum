@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-11-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن الله يقول للمؤمنين: أأشفقتم أي خشيتم أن تقدموا بين يدي نجواكم صدقات، والإشفاق في كلام العرب الخوف والحذر، أي خشيتم الفاقة والفقر بتقديم الصدقة، فإذ لم تفعلوا وتاب الله عليكم فأقيموا الصلاة وآتوا الزكاة وأطيعوا الله ورسوله. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=58&tAyahNo=13&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «ءَأَشْفَقْتُمْ أَن تُقَدِّمُواْ بَيْنَ يَدَيْ نَجْوَاكُمْ صَدَقَاتٍ فَإِذْ لَمْ تَفْعَلُواْ وَتَابَ ٱللَّهُ عَلَيْكُمْ فَأَقِيمُواْ ٱلصَّلاَةَ وَآتُواْ ٱلزَّكَاةَ وَأَطِيعُواْ ٱللَّهَ وَرَسُولَهُ وَٱللَّهُ خَبِيرٌ بِمَا تَعْمَلُونَ»: أشقّ عليكم وخشيتم أيها المؤمنون بأن تقدموا بين يدي نجواكم رسول الله صدقات الفاقة، وأصل الإشفاق في كلام العرب: الخوف والحذر، ومعناه في هذا الموضع: أخشيتم بتقديم الصدقة الفاقة والفقر. وينقل في المقطع أقوالاً عن مجاهد وقتادة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=58&tAyahNo=13&tDisplay=yes&UserProfile=0&LanguageId=1

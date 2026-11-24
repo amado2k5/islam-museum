@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-11-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن من ينفق في سبيل الله محتسباً فذلك القرض الحسن، فيضاعف له بالواحدة سبعمئة، ويذكر عن بعض نحويي البصرة أن العرب تقول لي عندك قرض صدق وقرض سوء، ويستشهد بالشنفرى، ثم يذكر أن له أجراً كريماً. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=57&tAyahNo=11&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «مَّن ذَا ٱلَّذِي يُقْرِضُ ٱللَّهَ قَرْضاً حَسَناً فَيُضَاعِفَهُ لَهُ وَلَهُ أَجْرٌ كَرِيمٌ»: من هذا الذي ينفق في سبيل الله في الدنيا محتسباً في نفقته مبتغياً ما عند الله، وذلك هو القرض الحسن، يقول: فيضاعف له ربه قرضه ذلك الذي أقرضه، بإنفاقه في سبيله، فيجعل له بالواحدة سبع مئة. وكان بعض نحويّي البصرة يقول في قوله: «مَنْ ذَا الَّذِي يُقْرِضُ اللّهَ قَرْضاً حَسَناً» فهو كقول العرب: لي عندك قرض صدق، وقرض سَوْء إذا فعل به خيراً وأنشد ذلك بيتاً للشنفري:سَنجْزِي سَلامانَ بنَ مُفْرِجَ قَرْضَها بِمَا قَدَّمَتْ أيْدِيهِمْ فأزَلَّتِ «وَلَهُ أجْرٌ كَرِيمٌ» يقول: وله ثواب وجزاء كريم، يعني بذلك الأجر: الجنة، وقد ذكرنا الرواية عن أهل التأويل في ذلك فيما مضى بما أغنى عن إعادته.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=57&tAyahNo=11&tDisplay=yes&UserProfile=0&LanguageId=1

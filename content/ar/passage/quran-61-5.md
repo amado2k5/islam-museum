@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-11-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن الله يأمر نبيه أن يذكر إذ قال موسى لقومه يا قوم لم تؤذونني وقد تعلمون أني رسول الله إليكم، فلما زاغوا عن قصد السبيل أزاغ الله قلوبهم أي أمالها، والله لا يهدي القوم الفاسقين، ويروي في ذلك أقوال أهل التأويل. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=61&tAyahNo=5&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَإِذْ قَالَ مُوسَىٰ لِقَوْمِهِ يٰقَوْمِ لِمَ تُؤْذُونَنِي وَقَد تَّعْلَمُونَ أَنِّي رَسُولُ ٱللَّهِ إِلَيْكُمْ فَلَمَّا زَاغُوۤاْ أَزَاغَ ٱللَّهُ قُلُوبَهُمْ وَٱللَّهُ لاَ يَهْدِي ٱلْقَوْمَ ٱلْفَاسِقِينَ»: واذكر يا محمد «إذْ قالَ مُوسَى» بن عمران «لِقَوْمِهِ يا قَوْم لِمَ تؤْذُونَنِي وَقَدْ تَعْلَمُونَ» حقاً «أنُى رَسُولُ اللَّهُ إلَيْكُمْ». وقوله: «فَلَمَّا زَاغُوا أزَاغَ اللَّهُ قُلُوبَهُمْ» يقول: فلما عدلوا وجاروا عن قصد السبيل أزاغ الله قلوبهم: يقول: أمال الله قلوبهم عنه وقد: وعن أبي أمامة في قوله: «فَلَمَّا زَاغُوا أزَاغَ اللَّهُ قُلُوبَهُمْ» قال: هم الخوارج. «وَاللَّهُ لا يَهْدِي القَوْمَ الفاسِقِينَ» يقول: والله لا يوفِّق لإصابة الحقّ القوم الذين اختاروا الكفر على الإيمان.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=61&tAyahNo=5&tDisplay=yes&UserProfile=0&LanguageId=1

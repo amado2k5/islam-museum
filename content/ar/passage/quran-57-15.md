@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-11-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن المؤمنين يقولون للمنافقين بعد التمييز بينهم: فاليوم لا يؤخذ منكم فدية، أي عوض يخلّصكم من العذاب، ولا من الذين كفروا، مأواكم النار هي مولاكم وبئس المصير. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=57&tAyahNo=15&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «فَٱلْيَوْمَ لاَ يُؤْخَذُ مِنكُمْ فِدْيَةٌ وَلاَ مِنَ ٱلَّذِينَ كَفَرُواْ مَأْوَاكُمُ ٱلنَّارُ هِيَ مَوْلاَكُمْ وَبِئْسَ ٱلْمَصِيرُ»: يقول تعالى ذكره مخبراً عن قيل المؤمنين لأهل النفاق، بعد أن ميز بينهم في القيامة «فالْيَوْمَ» أيها المنافقون «لا يُؤْخَذُ مِنْكُمْ فِدْيَةٌ» يعني: عوضاً وبدلاً يقول: لا يؤخذ ذلك منكم بدلاً من عقابكم وعذابكم، فيخلصكم من عذاب الله «وَلا مِنَ الَّذِينَ كَفَرُوا» يقول: ولا تؤخذ الفدية أيضاً من الذين كفروا. وينقل في المقطع أقوالاً عن قتادة وابن زيد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=57&tAyahNo=15&tDisplay=yes&UserProfile=0&LanguageId=1

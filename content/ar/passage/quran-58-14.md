@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-11-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن الله يقول لنبيه: ألم تنظر بعين قلبك إلى القوم الذين تولّوا قوماً غضب الله عليهم، وهم المنافقون تولّوا اليهود وناصحوهم، ويروي ذلك عن قتادة، وأنهم ليسوا منكم ولا منهم ويحلفون على الكذب وهم يعلمون. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=58&tAyahNo=14&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «أَلَمْ تَرَ إِلَى ٱلَّذِينَ تَوَلَّوْاْ قَوْماً غَضِبَ ٱللَّهُ عَلَيْهِم مَّا هُم مِّنكُمْ وَلاَ مِنْهُمْ وَيَحْلِفُونَ عَلَى ٱلْكَذِبِ وَهُمْ يَعْلَمُونَ»: ألم تنظر بعين قلبك يا محمد، فترى إلى القوم الذين. تولَّوْا قوماً غضب الله عليهم، وهم المنافقون تولَّوا اليهود وناصحوهم، كما: وعن قتادة، قوله: «ألَمْ تَرَ إلى الَّذِينَ تَوَلَّوْا قَوْماً غَضِبَ اللَّهُ عَلَيْهِمْ» إلى آخر الآية، قال: هم المنافقون تولَّوا اليهود وناصحوهم. عن معمر، عن قتادة «تَوَلَّوْا قَوْماً غَضِبَ الله عَلَيْهِمْ» قال: هم اليهود تولاهم المنافقون. وينقل في المقطع أقوالاً عن ابن عباس وقتادة وابن زيد وسماك.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=58&tAyahNo=14&tDisplay=yes&UserProfile=0&LanguageId=1

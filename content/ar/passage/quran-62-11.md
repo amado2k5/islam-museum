@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-11-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن المؤمنين إذا رأوا عير تجارة أو لهواً انفضّوا إليها أي أسرعوا إليها وتركوا النبي قائماً على المنبر، وأن التجارة كانت زيتاً قدم به دحية بن خليفة من الشام، ويروي الأخبار في ذلك، ثم يقول قل ما عند الله خير من اللهو ومن التجارة. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=62&tAyahNo=11&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَإِذَا رَأَوْاْ تِجَارَةً أَوْ لَهْواً ٱنفَضُّوۤاْ إِلَيْهَا وَتَرَكُوكَ قَآئِماً قُلْ مَا عِندَ ٱللَّهِ خَيْرٌ مِّنَ ٱللَّهْوِ وَمِنَ ٱلتِّجَارَةِ وَٱللَّهُ خَيْرُ ٱلرَّازِقِينَ»: وإذا رأى المؤمنون عير تجارة أو لهواً «انْفَضُّوا إلَيْها» يعني أسرعوا إلى التجارة «وَتَركُوكَ قائماً» يقول للنبيّ: وتركوك يا محمد قائما على المنبر وذلك أن التجارة التي رأوها فانفضّ القوم إليها، وتركوا النبيّ قائماً كانت زيتاً قدم به دحية بن خليفة من الشام. وينقل في المقطع أقوالاً عن مجاهد وقتادة والحسن وابن زيد وسفيان.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=62&tAyahNo=11&tDisplay=yes&UserProfile=0&LanguageId=1

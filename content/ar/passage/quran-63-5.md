@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-11-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إنه إذا قيل للمنافقين تعالوا يستغفر لكم رسول الله لوّوا رؤوسهم أي حرّكوها وهزّوها استهزاء، ويذكر اختلاف القراء في تشديد الواو وتخفيفها، فمن شدّدها فعلى تكرار الهز، ونافع خفّفها على أنه مرة واحدة، ويرجّح الطبري ما قرأه الجمهور. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=63&tAyahNo=5&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَإِذَا قِيلَ لَهُمْ تَعَالَوْاْ يَسْتَغْفِرْ لَكُمْ رَسُولُ ٱللَّهِ لَوَّوْاْ رُءُوسَهُمْ وَرَأَيْتَهُمْ يَصُدُّونَ وَهُم مُّسْتَكْبِرُونَ»: وإذا قيل لهؤلاء المنافقين: تعالوا إلى رسول الله يستغفر لكم لوّوا رؤوسهم، يقول: حرّكوها وهزّوها استهزاء برسول الله وباستغفاره وبتشديدها الواو من «لوّوا» قرأت القرّاء على وجه الخبر عنهم أنهم كرّروا هز رؤوسهم وتحريكها، وأكثروا، إلاّ نافعاً فإنه قرأ ذلك بتخفيف الواو: «لوَوْا» على وجه أنهم فعلوا ذلك مرّة واحدة. والصواب من القول في ذلك قراءة من شدّد الواو لإجماع الحجة من القرّاء عليه.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=63&tAyahNo=5&tDisplay=yes&UserProfile=0&LanguageId=1

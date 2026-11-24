@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-11-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن الأمر سواء على المنافقين استغفر لهم النبي أم لم يستغفر لن يغفر الله لهم، أي لن يصفح عن ذنوبهم بل يعاقبهم، إن الله لا يهدي القوم الفاسقين أي لا يوفق للإيمان القوم الكاذبين. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=63&tAyahNo=6&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «سَوَآءٌ عَلَيْهِمْ أَسْتَغْفَرْتَ لَهُمْ أَمْ لَمْ تَسْتَغْفِرْ لَهُمْ لَن يَغْفِرَ ٱللَّهُ لَهُمْ إِنَّ ٱللَّهَ لاَ يَهْدِي ٱلْقَوْمَ ٱلْفَٰسِقِينَ»: سواء يا محمد على هؤلاء المنافقين الذين قيل لهم تعالوا يستغفر لكم رسول الله «أستَغْفَرْتَ لَهُمْ» ذنوبهم «أمْ لَمْ تَسْتَغْفِرْ لَهُمْ لَنْ يَغْفِرَ اللَّهُ لَهُمْ» يقول: لن يصفح الله لهم عن ذنوبهم، بل يعاقبهم عليها «إنَّ اللَّهِ لا يَهْدِي القَوْمَ الفاسِقِينَ» يقول: إن الله لا يوفِّق للإيمان القوم الكاذبين عليه، الكافرين به، الخارجين عن طاعته. وينقل في المقطع أقوالاً عن ابن عباس.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=63&tAyahNo=6&tDisplay=yes&UserProfile=0&LanguageId=1

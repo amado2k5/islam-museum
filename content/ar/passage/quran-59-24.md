@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-11-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن الله هو الخالق البارئ الذي برأ الخلق فأوجدهم بقدرته المصوّر خلقه كيف شاء، وله الأسماء الحسنى وهي الأسماء التي سمّى بها نفسه في الآيتين، ويسبّح له ما في السماوات والأرض وهو العزيز الحكيم. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=59&tAyahNo=24&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «هُوَ ٱللَّهُ ٱلْخَالِقُ ٱلْبَارِىءُ ٱلْمُصَوِّرُ لَهُ ٱلأَسْمَآءُ ٱلْحُسْنَىٰ يُسَبِّحُ لَهُ مَا فِي ٱلسَّمَٰوَٰتِ وَٱلأَرْضِ وَهُوَ ٱلْعَزِيزُ ٱلْحَكِيمُ»: هو المعبود الخالق، الذي لا معبود تصلح له العبادة غيره، ولا خالق سواه، البارىء الذي برأ الخلق، فأوجدهم بقدرته، المصوّر خلقه كيف شاء، وكيف يشاء. وقوله: «لَهُ الأسْماءُ الْحُسْنَى» يقول تعالى ذكره: لله الأسماء الحسنى، وهي هذه الأسماء التي سمى الله بها نفسه، التي ذكرها في هاتين الآيتين «يُسَبِّحُ لَهُ ما في السَّمَوَاتِ والأرْضِ» يقول: يسبح له جميع ما في السموات والأرض، ويسجد له طوعاً وكرهاً «وَهُوَ العَزِيزُ» يقول: وهو الشديد الانتقام من أعدائه «الْحَكِيمُ» في تدبيره خلقه، وصرفهم فيما فيه صلاحهم.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=59&tAyahNo=24&tDisplay=yes&UserProfile=0&LanguageId=1
