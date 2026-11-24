@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-13-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل [[passage/quran-103-1|103:1]] إلى [[passage/quran-103-3|103:3]]، وخلاصتها: يذكر في العصر أنه الدهر أو ساعة من النهار أو العشي، ويختار أنه اسم للدهر يشمل العشي والليل والنهار فكله داخل في القسم. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=103&tAyahNo=1&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 1 إلى 3 مقطعاً واحداً. يفسّر قوله «وَٱلْعَصْرِ»: اختلف أهل التأويل في تأويل قوله: «وَالْعَصْرِ» فقال بعضهم: هو قَسَم أقسم ربنا تعالى ذكره بالدهر، فقال: العصر: هو الدهر. وينقل في المقطع أقوالاً عن ابن عباس ومجاهد وقتادة والحسن وسفيان.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=103&tAyahNo=1&tDisplay=yes&UserProfile=0&LanguageId=1

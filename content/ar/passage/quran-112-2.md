@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-13-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل [[passage/quran-112-1|112:1]] إلى [[passage/quran-112-4|112:4]]، غير أن نص الصفحة المحفوظة في موقع التفسير لا يتضمن تعليقاً مستقلاً من الطبري على هذه الآية، فلا يُنسب إليه هنا قول فيها. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=112&tAyahNo=2&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 2 إلى 5 مقطعاً واحداً. يفسّر قوله «قُلْ هُوَ ٱللَّهُ أَحَدٌ»: ذُكر أن المشركين سألوا رسول الله عن نسب ربّ العزة، فأنزل الله هذا السورة جواباً لهم. وقال بعضهم: بل نزلت من أجل أن اليهود سألوه، فقالوا له: هذا الله خلق الخلق، فمن خلق الله؟ فأُنزلت جواباً لهم. وينقل في المقطع أقوالاً عن قتادة والربيع.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=112&tAyahNo=2&tDisplay=yes&UserProfile=0&LanguageId=1

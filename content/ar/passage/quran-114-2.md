@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-13-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل [[passage/quran-114-1|114:1]] إلى [[passage/quran-114-6|114:6]]، وخلاصتها: يقول إنه ملك جميع الخلق من إنس وجن وغيرهم، وفي ذلك إعلام لمن يعظّم الناس بأنه أولى بالتعظيم. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=114&tAyahNo=2&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 2 إلى 7 مقطعاً واحداً. يفسّر قوله «قُلْ أَعُوذُ بِرَبِّ ٱلنَّاسِ»: قل يا محمد أستجير «بِرَبِّ النَّاسِ مَلِكِ النَّاسِ» وهو ملك جميع الخلق: إنسِهم وجنهم، وغير ذلك، إعلاماً منه بذلك مَنْ كان يعظِّم الناس تعظيم المؤمنين ربَّهم، أنه مَلِكُ من يعظمه، وأن ذلك في مُلكه وسلطانه، تجري عليه قُدرته، وأنه أولى بالتعظيم، وأحقّ بالتعبد له ممن يعظمه، ويتعبَّد له، من غيره من الناس. وقوله: وينقل في المقطع أقوالاً عن ابن عباس ومجاهد وقتادة وسعيد بن جبير وابن زيد وسفيان.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=114&tAyahNo=2&tDisplay=yes&UserProfile=0&LanguageId=1

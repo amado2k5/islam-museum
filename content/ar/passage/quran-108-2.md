@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-13-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل [[passage/quran-108-1|108:1]] إلى [[passage/quran-108-3|108:3]]، غير أن نص الصفحة المحفوظة في موقع التفسير لا يتضمن تعليقاً مستقلاً من الطبري على هذه الآية، فلا يُنسب إليه هنا قول فيها. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=108&tAyahNo=2&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 2 إلى 4 مقطعاً واحداً. يفسّر قوله «إِنَّآ أَعْطَيْنَاكَ ٱلْكَوْثَرَ»: «إنَّا أعْطَيْناكَ» يا محمد «الْكَوْثَرَ». واختلف أهل التأويل في معنى الكوثر، فقال بعضهم: هو نهر في الجنة أعطاه الله نبيه محمدا. وأخبرنا عطاء بن السائب، عن محارب بن دثار، عن ابن عمر: أنه قال: الكوثر: نهر في الجنة، حافتاه من ذهب وفضة، يجري على الدرّ والياقوت، ماؤه أشدّ بياضاً من اللبن، وأحلى من العسل. عن عطاء، عن محارب بن دثار الباهليّ، عن ابن عمر، في قوله: «إنَّا أعْطَيْناكَ الْكَوْثَرَ» قال: نهر في الجنة حافتاه الذهب، ومجراه على الدرّ والياقوت، وماؤه أشدّ بياضاً من الثلج، وأشدّ حلاوة من العسل، وتربته أطيب من ريح المسك. وينقل في المقطع أقوالاً عن ابن عباس ومجاهد وسفيان وعطاء.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=108&tAyahNo=2&tDisplay=yes&UserProfile=0&LanguageId=1

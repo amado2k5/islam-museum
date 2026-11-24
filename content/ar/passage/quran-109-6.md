@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-13-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل [[passage/quran-109-1|109:1]] إلى [[passage/quran-109-6|109:6]]، غير أن نص الصفحة المحفوظة في موقع التفسير لا يتضمن تعليقاً مستقلاً من الطبري على هذه الآية، فلا يُنسب إليه هنا قول فيها. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=109&tAyahNo=6&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 6 إلى 11 مقطعاً واحداً. يفسّر قوله «قُلْ يٰأَيُّهَا ٱلْكَافِرُونَ»: يقول تعالى ذكره لنبيه محمد، وكان المشركون من قومه فيما ذُكر عرضوا عليه أن يعبدوا الله سنة، على أن يعبد نبيُّ الله آلهتهم سنة، فأنزل الله مُعَرِّفه جوابهم في ذلك: «قُلْ» يا محمد لهؤلاء المشركين الذين سألوك عبادة آلهتهم سنة، على أن يعبدوا إلهك سنة «يا أيُّها الكافِرُونَ» بالله وينقل في المقطع أقوالاً عن ابن عباس.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=109&tAyahNo=6&tDisplay=yes&UserProfile=0&LanguageId=1

@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-13-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل [[passage/quran-110-1|110:1]] إلى [[passage/quran-110-3|110:3]]، وخلاصتها: يفسّر النصر بنصر الله نبيه على قريش، والفتح بفتح مكة. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=110&tAyahNo=1&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 1 إلى 3 مقطعاً واحداً. يفسّر قوله «إِذَا جَآءَ نَصْرُ ٱللَّهِ وَٱلْفَتْحُ»: إذا جاءك نصر الله يا محمد على قومك من قريش، والفتح: فتح مكة «ورأَيْتَ النَّاسَ» من صنوف العرب وقبائلها أهل اليمن منهم، وقبائل نزار «يَدْخُلُونَ فِي دِينِ اللّهِ أفْوَاجاً» يقول: في دين الله الذي ابتعثك به، وطاعتك التي دعاهم إليها «أفواجاً»، يعني: زُمَراً، فوجاً فوجاً. وينقل في المقطع أقوالاً عن ابن عباس ومجاهد وابن زيد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=110&tAyahNo=1&tDisplay=yes&UserProfile=0&LanguageId=1
