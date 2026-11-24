@@ -42,6 +42,7 @@ Catatan di museum terhubung ke bagian ini: [[person/jibril|Gabriel]]، [[person/
 
 - Perlu disebutkan bahwa rumah-rumah Banu Qurayza kini berada di dalam wilayah perkotaan kota, yang terletak empat kilometer atau lima kilometer di selatan Masjid Quba. {cite:podcast-ahmed-el-sayed seerah-lilmuslihin/ep24}
 - Disebutkan bahwa Nabi pergi bersama sekitar tiga ribu pejuang dan mengepung mereka di benteng-benteng mereka. {cite:podcast-ahmed-el-sayed seerah-lilmuslihin/ep24}
+- Ia mengatakan bahwa Banu Qurayza mengandalkan benteng, dan menyebut benteng Khaybar sebagai contoh tersisa yang paling jelas. {cite:podcast-ahmed-el-sayed seerah-lilmuslihin/ep24}
 
 Ini adalah pendapat dosen; museum mengaitkannya kepadanya tetapi tidak mengadopsinya.
 
@@ -61,7 +62,7 @@ Catatan di museum terhubung ke bagian ini: [[event/siege-of-banu-qurayza|Pertemp
 - Diceritakan bahwa orang-orang Sa'd mendukungnya dan berusaha membujuknya untuk melonggarkan sumpah karena sumpah lama, dan ia menjawab dalam riwayat bahwa tidak ada kesalahan yang akan disalahkannya demi Allah. {cite:podcast-ahmed-el-sayed seerah-lilmuslihin/ep24}
 - Diceritakan bahwa ketika Nabi mendekat, Sa'd memerintahkan orang-orang di sekitarnya untuk berdiri melawan guru mereka demi menghormatinya. {cite:podcast-ahmed-el-sayed seerah-lilmuslihin/ep24}
 - Disebutkan bahwa Sa'd memerintah untuk membunuh para pejuang mereka dan memperbudak keturunan mereka, dan Nabi berkata bahwa ia memerintah berdasarkan penghakiman Tuhan, dan dalam sebuah riwayat dari atas tujuh langit. {cite:podcast-ahmed-el-sayed seerah-lilmuslihin/ep24}
-- Dikatakan bahwa parit digali di kota dan para pejuang dibawa serta leher mereka dipukuli, yang menggambarkan ini sebagai akhir dari konspirasi dan pengkhianatan mereka di kota. {cite:podcast-ahmed-el-sayed seerah-lilmuslihin/ep24}
+- Ia meriwayatkan bahwa parit digali di Madinah, para pejuang dibawa lalu dihukum mati, dan menggambarkannya sebagai akhir persekongkolan dan pengkhianatan Banu Qurayza di kota itu. {cite:podcast-ahmed-el-sayed seerah-lilmuslihin/ep24}
 - Disebutkan bahwa Banu Qurayza telah mengkhianati mereka sebelumnya, sehingga Nabi mengampuni mereka, dan ia percaya bahwa pengkhianatan kedua tidak memberi ruang untuk pengampunan. {cite:podcast-ahmed-el-sayed seerah-lilmuslihin/ep24}
 
 Ini adalah pendapat dosen; museum mengaitkannya kepadanya tetapi tidak mengadopsinya.

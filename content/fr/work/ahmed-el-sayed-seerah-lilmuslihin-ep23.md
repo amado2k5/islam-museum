@@ -18,7 +18,7 @@ Le conférencier commence le récit de la bataille du Fossé, la dernière fois 
 
 Notices du musée liées à cette partie: [[event/battle-of-the-trench|La bataille du Fossé (al-Ahzab)]], [[event/battle-of-badr|La bataille de Badr]], [[event/battle-of-uhud|La bataille d'Uhud]], [[event/conquest-of-mecca|La conquête de la Mecque (Fath Makka)]], [[event/treaty-of-hudaybiyya|Le traité d'Hudaybiyya]], [[event/expedition-to-tabuk|L'expédition à Tabuk]], [[event/battle-of-hunayn|La bataille de Hunayn]], [[event/expedition-of-banu-al-nadir|Le siège et l'expulsion des Banu al-Nadir]], [[person/muhammad|Muhammad]]
 
-### Causes : les manoeuvres juives et le rassemblement des tribus
+### Les causes de la bataille et le rassemblement des tribus
 
 - Il rapporte que les biographes comptent les efforts des Juifs parmi les principales raisons de la venue des polythéistes à Médine. {cite:podcast-ahmed-el-sayed seerah-lilmuslihin/ep23}
 - Il explique qu'après le revers d'Uhud les Juifs espérèrent un coup décisif et proposèrent de rassembler en groupes les tribus arabes, et non la seule Quraysh. {cite:podcast-ahmed-el-sayed seerah-lilmuslihin/ep23}
@@ -91,6 +91,7 @@ Notices du musée liées à cette partie: [[event/battle-of-the-trench|La batail
 - Il rapporte que le bruit courut que les Banu Qurayza, dans l'intérieur de Médine et liés au Prophète par un pacte, l'avaient rompu et entreraient dans la ville par derrière. {cite:podcast-ahmed-el-sayed seerah-lilmuslihin/ep23}
 - Il dit que le danger tenait à ce que les femmes et les maisons des musulmans n'avaient aucune barrière, et que les polythéistes pourraient franchir le fossé tandis que l'armée serait immobilisée. {cite:podcast-ahmed-el-sayed seerah-lilmuslihin/ep23}
 - Il rapporte que le Prophète envoya al-Zubayr ibn al-Awwam vérifier, et qu'al-Zubayr revint annoncer que les Qurayza avaient bien trahi. {cite:podcast-ahmed-el-sayed seerah-lilmuslihin/ep23}
+- Il dit que les Banu Qurayza trahirent au moment le plus difficile pour les musulmans. {cite:podcast-ahmed-el-sayed seerah-lilmuslihin/ep23}
 
 C'est le point de vue du conférencier ; le musée le rapporte comme le sien et ne l'adopte pas.
 
