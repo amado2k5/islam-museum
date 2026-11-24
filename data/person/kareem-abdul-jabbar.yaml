@@ -34,12 +34,15 @@ relations:
   - { type: born_in, target: place/new-york-city, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-kareem-abdul-jabbar] }
   - { type: lived_in, target: place/new-york-city, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-kareem-abdul-jabbar] }
   - { type: lived_in, target: place/los-angeles, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-kareem-abdul-jabbar] }
+story_roles:
+  - { role: convert, start: { edtf: "1968" }, status: historical, note: "Took the shahada in the summer of 1968, converting from Catholicism, per the cited English article.", sources: [source/wikipedia-kareem-abdul-jabbar-en] }
 faith:
   - value: sunni
     basis: documented
     note: "Two independent sources name Sunni Islam for Abdul-Jabbar himself. The English article states in its lead, and again in its personal-life section, that during the summer of 1968 he took the shahada twice and converted to Sunni Islam from Catholicism; he adopted the name Kareem Abdul-Jabbar and began using it publicly in 1971. The Urdu article independently states in its lead that he came from Christianity first into the Nation of Islam and then entered Sunni Islam. The Arabic article gives his religion as Islam only, naming no school. His teacher Hamaas Abdul Khaalis led the Hanafi Movement, but a teacher's school is not his own attestation, and no source names a madhhab for Abdul-Jabbar himself, so the value recorded is sunni only."
     sources: [source/wikipedia-kareem-abdul-jabbar-en, source/wikipedia-kareem-abdul-jabbar-ur, source/wikipedia-kareem-abdul-jabbar-ar]
 wings: [people, living]
+themes: [converts-and-leavers]
 regions: [americas-oceania]
 external_ids: { wikidata: "Q179051", viaf: "29741129" }
 sources: [source/wikipedia-kareem-abdul-jabbar-en, source/wikipedia-kareem-abdul-jabbar-ar, source/wikipedia-kareem-abdul-jabbar-ur, source/wikidata-kareem-abdul-jabbar, source/wikidata]

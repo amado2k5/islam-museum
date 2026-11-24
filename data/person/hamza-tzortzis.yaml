@@ -16,6 +16,7 @@ summary:
   id: "Seorang pengkhotbah dan peneliti asal Inggris keturunan Yunani, lahir pada tahun 1980 dan memeluk Islam pada tahun 2002, dikenal karena kuliah dan debatnya yang membela Islam serta bukunya \"The Divine Truth\" (2016). Ia adalah peneliti di Sabins Institute setelah bertahun-tahun bekerja di IERI Academy."
 roles: [preacher, writer]
 wings: [people, living]
+themes: [converts-and-leavers]
 born:
   edtf: "1980-09-21"
   hijri: "1400"
@@ -27,6 +28,8 @@ born:
   sources: [source/wikidata-hamza-tzortzis]
 relations:
   - { type: lived_in, target: place/london, confidence: low, note: "British da'wa figure based in London (iERA).", sources: [source/wikipedia-hamza-tzortzis-en] }
+story_roles:
+  - { role: convert, start: { edtf: "2002" }, status: historical, note: "Embraced Islam in 2002 per the cited article.", sources: [source/wikipedia-hamza-tzortzis-en] }
 faith:
   - value: unknown
     basis: unknown
