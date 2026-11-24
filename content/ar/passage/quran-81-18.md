@@ -3,6 +3,11 @@ id: passage/quran-81-18
 lang: ar
 source_lang: ar
 translators: []
+provenance:
+  generated_by: "Claude Code (Sonnet 5.5 session)"
+  model: claude-sonnet-5-5
+  run: altafsir-tabari-batch-12-2026-11-24
+  source: source/altafsir-tabari
 ---
 
 ## موجز
@@ -10,3 +15,7 @@ translators: []
 
 ## موضعها
 موضعها: الآية 18 من أصل 29 آية في السورة. النص محفوظ من مصحف تنزيل المجمّد ولا يُعاد كتابته هنا.
+
+## تفسير الطبري
+
+يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل الآيات [[passage/quran-81-17|81:17]] إلى [[passage/quran-81-20|81:20]]، وخلاصتها: يبيّن الطبري أن القسم بالليل مدبراً والنهار مقبلاً يدل على ذلك عنده من قوله والصبح إذا تنفس. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=81&tAyahNo=18&tDisplay=yes&UserProfile=0&LanguageId=1

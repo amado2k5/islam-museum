@@ -3,6 +3,11 @@ id: passage/quran-70-15
 lang: ar
 source_lang: ar
 translators: []
+provenance:
+  generated_by: "Claude Code (Sonnet 5.5 session)"
+  model: claude-sonnet-5-5
+  run: altafsir-tabari-batch-12-2026-11-24
+  source: source/altafsir-tabari
 ---
 
 ## موجز
@@ -10,3 +15,7 @@ translators: []
 
 ## موضعها
 موضعها: الآية 15 من أصل 44 آية في السورة. النص محفوظ من مصحف تنزيل المجمّد ولا يُعاد كتابته هنا.
+
+## تفسير الطبري
+
+يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل الآيات [[passage/quran-70-15|70:15]] إلى [[passage/quran-70-18|70:18]]، وخلاصتها: يبيّن الطبري أن «كلا» ردّ لما تمنوه، أي ليس ينجيه من عذاب الله شيء، ثم يخبر عما أُعدّ له، فلظى اسم من أسماء جهنم، ويعرض أوجه إعراب لظى ونزاعة. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=70&tAyahNo=15&tDisplay=yes&UserProfile=0&LanguageId=1
