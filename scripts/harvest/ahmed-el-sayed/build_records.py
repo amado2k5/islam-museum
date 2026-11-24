@@ -151,13 +151,23 @@ def episode_files(repo, series, n, claims, tr, row, cfg):
     y.append(f"  - {{ type: part_of, target: work/{cfg['slug']}, sources: [{SOURCE}] }}")
     y += [f"  - {{ type: about, target: {e}, sources: [{SOURCE}] }}" for e in ents]
     y.append(f"sources: [{SOURCE}]")
+    local = "_local" in claims or "_engine" in tr
+    ext = claims.get("_local", {}).get("model", "qwen3:32b") if local else None
+    trm = tr.get("_engine", {}).get("model", "translategemma:27b-it-q8_0") if local else None
+    if local:
+        how = (f"claims extracted from the transcript by a local model on the founder's Mac ({ext}), each claim tied to a verbatim quote that code checked in the transcript, then filtered by script; "
+               f"the English, Urdu, French and Spanish texts are machine translations ({trm}) from the Arabic and English; not read by a human. Speech recognition and model errors are possible.")
+        who, mdl = f"Claude Code (claude-sonnet-5-5) running local models: {ext}; {trm}", f"{ext}; {trm}"
+    else:
+        how = ("claims extracted from the transcript by an AI model and checked mechanically against the museum's graph and rules; the Urdu, French and Spanish texts are AI translations from the English; not read by a human. Speech recognition errors are possible.")
+        who, mdl = "Claude Code (claude-sonnet-5-5)", "claude-sonnet-5-5"
     y.append("provenance:")
     y.append("  layer: copyrighted-reference")
-    y.append("  source: " + q(f"Podcast of Ahmed Elsayed on SoundCloud, series {series}, episode {n}, uploaded {row['date']} (track {row['track_id']}); audio transcribed by Whisper large-v3 (mlx-community/whisper-large-v3-mlx) on 2026-11-23; claims extracted from the transcript by an AI model and checked mechanically against the museum's graph and rules; the Urdu, French and Spanish texts are AI translations from the English; not read by a human. Speech recognition errors are possible."))
-    y.append("  generated_by: " + q("Claude Code (claude-sonnet-5-5)"))
-    y.append("  model: claude-sonnet-5-5")
-    y.append("  run: " + q(f"ahmed-el-sayed-{series}-wave1"))
-    y.append("status: { review: published, generated_by: " + q("Claude Code (claude-sonnet-5-5)") + " }")
+    y.append("  source: " + q(f"Podcast of Ahmed Elsayed on SoundCloud, series {series}, episode {n}, uploaded {row['date']} (track {row['track_id']}); audio transcribed by Whisper large-v3 (mlx-community/whisper-large-v3-mlx) on 2026-11-23; {how}"))
+    y.append("  generated_by: " + q(who))
+    y.append("  model: " + q(mdl))
+    y.append("  run: " + q(f"ahmed-el-sayed-{series}-" + ("local" if local else "wave1")))
+    y.append("status: { review: published, generated_by: " + q(who) + " }")
     files = {f"data/work/{slug}.yaml": "\n".join(y) + "\n"}
 
     for lang in LANGS:
