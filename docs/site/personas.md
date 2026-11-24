@@ -19,9 +19,13 @@ Founder request, 23 November 2026. Under the Grand Tour button the landing page 
 
 ## Truth notes (AGENTS.md, "Truth in every public claim")
 
-- The museum has **no verified directories** of halal shops, bookshops, modest-wear shops, support groups, Discord servers or forums yet. The convert view says so and tells the visitor to ask at a local mosque. Add a directory only after each address is checked, as records with sources (a new class would need its own proposal).
+- Since 23 November 2026 the convert view has shelves of resources whose own websites were opened and read that day (13 new `listing` records plus existing ones). The museum still has **no verified local directories** of halal shops, bookshops, modest-wear shops, support groups, Discord servers or forums yet. The convert view says so and tells the visitor to ask at a local mosque. Add a directory only after each address is checked, as records with sources (a new class would need its own proposal).
 - The views describe; they do not rule. Questions about what to do with alcohol, family and so on point to the halal and ahkam halls and to a trusted local scholar.
 - The `personas` block in Spanish, Turkish and Indonesian is Microsoft Word document-translation output (Spanish from English; Turkish and Indonesian from Arabic), imported on 23 November 2026, machine translation not read by a human. Urdu (from English) is Google Translate output, uploaded by the founder. French is still the earlier language-model translation of 23 November 2026; none of it is read by a human.
+
+## Depth blocks
+
+Each view shows: sourced questions (`QUESTIONS` in `personas.ts`, question records), a first-week checklist (convert), a table of shared figures (`COMPARE`, for convert, doubter and critic) and resource shelves (`SHELVES`, listing records, with the official website link read from the record). All of it points at graph records; none is new unsourced text. Discord servers, forums and Reddit groups are not listed (could not be opened and read; invitations change). Reddit blocks automated reading, so r/converts was not verified.
 
 ## Ideas not built yet
 

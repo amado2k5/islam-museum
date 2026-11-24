@@ -89,3 +89,45 @@ export const STEP_LINKS: string[][] = [
 
 export const personaPath = (lang: string, p: Persona) => `/${lang}/for/${p}/`;
 export const linkPath = (lang: string, key: string) => `/${lang}/${LINK_PATH[key]}/`;
+
+// ---- Depth added 23 November 2026: questions, a first-week list, a comparison table and checked resources. ----
+// Everything below points at records already in the graph (question/…, listing/…); nothing here is a new claim.
+
+/** Question records each view puts up front, in order. Their text, answers and sources are the records' own. */
+export const QUESTIONS: Record<Persona, string[]> = {
+  convert: ["what-is-islam", "what-are-five-pillars", "who-was-muhammad", "what-is-the-quran", "why-no-alcohol", "what-is-birr", "what-is-hijab", "what-is-jihad", "what-is-difference-sunni-shia", "what-is-qadar", "what-is-the-afterlife", "what-is-sabr"],
+  doubter: ["what-is-islam", "who-was-muhammad", "what-is-the-quran", "what-is-tawhid", "who-was-isa", "what-is-the-afterlife", "what-is-qadar", "what-is-jihad", "what-is-sharia", "is-human-evolution-compatible-with-islam", "why-five-daily-prayers", "why-fast-in-ramadan"],
+  researcher: ["what-is-sanad", "what-is-hadith", "what-is-difference-quran-hadith", "what-is-tafsir", "what-is-fiqh", "what-is-ijma", "what-is-ijtihad", "are-the-seven-readings-the-seven-ahruf", "is-the-order-of-the-suras-fixed-by-revelation", "do-the-texts-of-revelation-yield-certainty"],
+  learner: ["what-is-niyya", "what-is-ihsan", "what-is-taqwa", "what-is-ikhlas", "what-is-sabr", "what-is-tawakkul", "what-is-dhikr", "what-is-ilm", "what-is-adab", "must-a-layperson-follow-one-madhhab"],
+  critic: ["what-is-jihad", "what-is-sharia", "what-is-hijab", "why-is-riba-forbidden", "why-is-gambling-forbidden", "what-is-the-hadd-for-drinking-wine", "what-is-talaq", "what-were-the-crusades", "who-were-the-khawarij", "what-is-difference-sunni-shia", "who-was-aisha"],
+};
+
+/** The convert's first-week list (question records, each with a tick box that is not saved). */
+export const CHECKLIST: string[] = ["what-is-shahada", "what-is-wudu", "what-is-ghusl", "what-is-salah", "what-is-adhan", "what-is-halal", "what-is-dua", "what-is-birr", "what-is-ramadan", "what-is-zakat"];
+
+/** Figures the Qur'an and the Bible/Torah traditions share: the table of comparison for views that ask "how does this compare?". */
+export const COMPARE: string[] = ["who-was-adam", "who-was-nuh", "who-was-ibrahim", "who-was-musa", "who-was-dawud", "who-was-sulayman", "who-was-yunus", "who-was-yusuf", "who-was-isa"];
+export const COMPARE_PERSONAS: Persona[] = ["convert", "doubter", "critic"];
+
+/** Checked resources: listing records, opened and read on 23 November 2026. Titles are `personas.shelves.<key>`. */
+export const SHELVES: Record<Persona, { key: string; ids: string[] }[]> = {
+  convert: [
+    { key: "support", ids: ["new-muslim-care", "newmuslim-net", "convert-muslim-foundation", "rabata-convert-care", "mcc-east-bay-convert-care", "iera"] },
+    { key: "places", ids: ["zabihah", "halaltrip", "muslim-pro", "islamicfinder", "halalbooking"] },
+    { key: "books", ids: ["mecca-books", "dar-us-salam-usa", "islamic-bookstore-com", "kube-publishing", "goodword-books", "white-thread-press"] },
+    { key: "dress", ids: ["haute-hijab", "modanisa", "verona-collection"] },
+    { key: "learn", ids: ["almaghrib", "yaqeen", "quran-com", "islamqa"] },
+    { key: "help", ids: ["cair", "mend", "tell-mama"] },
+  ],
+  doubter: [
+    { key: "learn", ids: ["yaqeen", "quran-com", "sunnah-com", "islamqa"] },
+    { key: "books", ids: ["kube-publishing", "mecca-books"] },
+  ],
+  researcher: [{ key: "texts", ids: ["quran-com", "sunnah-com", "islam360", "yaqeen"] }],
+  learner: [
+    { key: "learn", ids: ["almaghrib", "yaqeen", "quran-com", "sunnah-com", "islamqa"] },
+    { key: "tools", ids: ["muslim-pro", "tarteel", "islamicfinder"] },
+    { key: "books", ids: ["kube-publishing", "white-thread-press", "turath-publishing", "mecca-books"] },
+  ],
+  critic: [{ key: "texts", ids: ["quran-com", "sunnah-com", "yaqeen"] }],
+};

@@ -3,7 +3,11 @@
 // 23 November 2026). Same records, a different door: its own colour, its own order, its own questions. No script is needed.
 import BaseLayout from "../../../layouts/BaseLayout.astro";
 import { ui, LANGS, type Lang } from "../../../lib/i18n";
-import { PERSONAS, PERSONA_COLOR, SECTION_LINKS, STEP_LINKS, personaPath, linkPath, type Persona } from "../../../lib/personas";
+import { readFileSync, existsSync } from "node:fs";
+import { parse } from "yaml";
+import { PERSONAS, PERSONA_COLOR, SECTION_LINKS, STEP_LINKS, QUESTIONS, CHECKLIST, COMPARE, COMPARE_PERSONAS, SHELVES, personaPath, linkPath, type Persona } from "../../../lib/personas";
+import { byId, labelOf, summaryOf, href } from "../../../lib/graph";
+import { repoPath } from "../../../lib/paths";
 
 export function getStaticPaths() {
   return LANGS.flatMap((lang) => PERSONAS.map((persona) => ({ params: { lang, persona }, props: { lang, persona } })));
@@ -18,6 +22,17 @@ if (sections.length !== SECTION_LINKS[persona].length) throw new Error(`personas
 const steps: { when: string; title: string; body: string }[] = V.steps ?? [];
 if (steps.length && steps.length !== STEP_LINKS.length) throw new Error(`personas.${persona}.steps has ${steps.length} entries in ${lang}, expected ${STEP_LINKS.length}`);
 const path = personaPath(lang, persona);
+const teaser = (t: string, n = 230) => (t.length > n ? t.slice(0, n).replace(/\s+\S*$/, "") + "…" : t);
+const card = (id: string) => { const n: any = byId.get(id); return n ? { id, label: labelOf(n, lang), text: teaser(summaryOf(n, lang)), url: href(lang, id) } : null; };
+const questions = QUESTIONS[persona].map((s) => card(`question/${s}`)).filter(Boolean) as any[];
+const checklist = persona === "convert" ? (CHECKLIST.map((s) => card(`question/${s}`)).filter(Boolean) as any[]) : [];
+const compare = COMPARE_PERSONAS.includes(persona) ? (COMPARE.map((s) => card(`question/${s}`)).filter(Boolean) as any[]) : [];
+const shelves = SHELVES[persona].map((sh) => ({ title: P.shelves[sh.key], items: sh.ids.map((id) => {
+  const c = card(`listing/${id}`); if (!c) return null;
+  const f = repoPath("data", "listing", `${id}.yaml`);
+  const site = existsSync(f) ? (parse(readFileSync(f, "utf8"))?.links?.official ?? parse(readFileSync(f, "utf8"))?.external_ids?.official) : undefined;
+  return { ...c, site };
+}).filter(Boolean) as any[] })).filter((sh) => sh.items.length);
 ---
 <BaseLayout lang={lang} title={V.btn} description={V.lede} path={path}>
   <div class="persona" style={`--pa:${PERSONA_COLOR[persona]}`} data-persona={persona}>
@@ -65,6 +80,47 @@ const path = personaPath(lang, persona);
         </ul>
       </section>
 
+      {checklist.length > 0 && (
+        <section aria-labelledby="chk-t" class="p-block">
+          <h2 id="chk-t">{P.check_title}</h2>
+          <p class="p-sub">{P.check_lede}</p>
+          <ul class="p-check">{checklist.map((c) => <li><label><input type="checkbox" /> <a href={c.url}>{c.label}</a></label></li>)}</ul>
+        </section>
+      )}
+
+      {questions.length > 0 && (
+        <section aria-labelledby="q-t" class="p-block">
+          <h2 id="q-t">{P.q_title}</h2>
+          <p class="p-sub">{P.q_lede}</p>
+          <ul class="p-q">{questions.map((c) => <li><details><summary>{c.label}</summary><p>{c.text}</p><p class="p-links ui"><a href={c.url}>{P.q_open} <span class="flip" aria-hidden="true">→</span></a></p></details></li>)}</ul>
+        </section>
+      )}
+
+      {compare.length > 0 && (
+        <section aria-labelledby="cmp-t" class="p-block">
+          <h2 id="cmp-t">{P.cmp_title}</h2>
+          <p class="p-sub">{P.cmp_lede}</p>
+          <div class="p-table"><table><thead><tr><th scope="col">{P.cmp_figure}</th><th scope="col">{P.cmp_says}</th></tr></thead>
+            <tbody>{compare.map((c) => <tr><th scope="row"><a href={c.url}>{c.label}</a></th><td>{c.text}</td></tr>)}</tbody></table></div>
+        </section>
+      )}
+
+      {shelves.length > 0 && (
+        <section aria-labelledby="sh-t" class="p-block">
+          <h2 id="sh-t">{P.shelf_title}</h2>
+          <p class="p-sub">{P.shelf_lede}</p>
+          {shelves.map((sh) => (
+            <div class="p-shelf">
+              <h3>{sh.title}</h3>
+              <ul class="p-cards">{sh.items.map((c) => (
+                <li class="p-card"><h4><a href={c.url}>{c.label}</a></h4><p>{c.text}</p>{c.site && <p class="p-links ui"><a href={c.site} rel="noopener noreferrer external">{P.visit} <span aria-hidden="true">↗</span></a></p>}</li>
+              ))}</ul>
+            </div>
+          ))}
+          <p class="p-sub">{P.shelf_note}</p>
+        </section>
+      )}
+
       <aside class="p-note" aria-labelledby="note-t">
         <h2 id="note-t">{P.note_title}</h2>
         <p>{V.note}</p>
@@ -105,6 +161,20 @@ const path = personaPath(lang, persona);
   .p-links a { display: inline-flex; gap: .35rem; align-items: center; min-height: 36px; padding: .3rem .8rem; border-radius: 999px; border: 1.5px solid var(--pa); color: var(--fg); text-decoration: none; font-size: .9rem; }
   .p-links a:hover { background: var(--pa); color: #fff; }
   .p-links a:focus-visible, .p-pill:focus-visible { outline: 3px solid var(--fg); outline-offset: 2px; }
+  .p-sub { margin: -.4rem 0 1rem; color: var(--muted); line-height: 1.6; }
+  .p-check, .p-q { list-style: none; margin: 0; padding: 0; display: grid; gap: .5rem; }
+  .p-check li { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: .6rem 1rem; }
+  .p-check input { width: 1.2rem; height: 1.2rem; accent-color: var(--pa); vertical-align: middle; margin-inline-end: .4rem; }
+  .p-q details { background: var(--card); border: 1px solid var(--line); border-inline-start: 5px solid var(--pa); border-radius: 12px; padding: .7rem 1rem; }
+  .p-q summary { cursor: pointer; font-weight: 600; }
+  .p-q summary:focus-visible { outline: 3px solid var(--fg); outline-offset: 2px; }
+  .p-table { overflow-x: auto; }
+  .p-table table { border-collapse: collapse; width: 100%; min-width: 520px; }
+  .p-table th, .p-table td { text-align: start; padding: .6rem .8rem; border-bottom: 1px solid var(--line); vertical-align: top; line-height: 1.55; }
+  .p-table thead th { background: var(--pa); color: #fff; }
+  .p-shelf { margin-block: 1.4rem; }
+  .p-shelf h3 { margin: 0 0 .7rem; font-size: 1.1rem; }
+  .p-card h4 { margin: 0 0 .4rem; font-size: 1.05rem; }
   .p-note { background: var(--tint); border-radius: 14px; padding: 1.1rem 1.3rem; margin-block: 2rem 1rem; line-height: 1.65; }
   .p-switch { padding-block: 1rem 3rem; }
   .p-switch ul { list-style: none; margin: 0 0 1rem; padding: 0; display: flex; flex-wrap: wrap; gap: .5rem; }
