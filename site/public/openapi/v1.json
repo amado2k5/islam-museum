@@ -782,6 +782,21 @@
         }
       }
     },
+    "/tajwid.json": {
+      "get": {
+        "operationId": "getTajwid",
+        "summary": "Tajwid and Tilawah Browser dataset",
+        "description": "The Tajwid and Tilawah Browser dataset (متصفح تجويد وتلاوة القرآن): every mention of tajwid and tilawah — the recitation's measure (tartil) and its etiquette (adab al-tilawa), the makharij and sifat of the letters, the mudud, ghunna and qalqala, the waqf and the rules of recitation, the maqamat of the voice and the teachers and the canonical mutun — Qur'an verses from a reviewed table, hadith, seerah, tafsir and harvested-book passages detected at build time by a guarded lexicon, plus the curated records tagged tajwid-browser — each with its section (quran, sunnah, seerah, tafsir, books, ahkam, adab, taalim, qurra, mutun, maqamat), topics (tartil, adab, ahkam, qurra, mutun, maqamat, taalim), work, ref, text excerpt, kind, themes and edges.",
+        "responses": {
+          "200": {
+            "description": "Every tajwid and tilawah record with section, topics, work, ref, excerpt, kind, themes and edges",
+            "content": {
+              "application/json": {}
+            }
+          }
+        }
+      }
+    },
     "/ulama.json": {
       "get": {
         "operationId": "getUlama",
