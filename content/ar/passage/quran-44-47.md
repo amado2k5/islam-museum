@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-10-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل الآيات 47 إلى 48، وخلاصتها: يفسّر الطبري الأمر خذوه فاعتلوه أي ادفعوه وسوقوه بغلظة إلى سواء الجحيم أي وسطه، ثم صبوا فوق رأسه من عذاب الحميم، ويستشهد ببيت للفرزدق في معنى العتل. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=44&tAyahNo=47&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 47 إلى 48 مقطعاً واحداً. يفسّر قوله «خُذُوهُ فَٱعْتِلُوهُ إِلَىٰ سَوَآءِ ٱلْجَحِيمِ»: «خُذُوهُ» يعني هذا الأثيم بربه، الذي أخبر جلّ ثناؤه أن له شجرة الزقوم طعام «فاعْتِلُوهُ» يقول تعالى ذكره: فادفعوه وسوقوه، يقال منه: عتله يعتله عتلاً: إذا ساقه بالدفع والجذب ومنه قول الفرزدق:لَيْسَ الكِرَامُ بِناحِلِيكَ أبَاهُمُ حتى تُرَدّ إلى عَطِيَّةَ تُعْتِلُ أي تُساق دَفْعاً وسحباً. وقوله: «إلى سَوَاءِ الجَحِيمِ»: إلى وسط الجحيم. ومعنى الكلام: يقال يوم القيامة: خذوا هذا الأثيم فسوقوه دفعاً في ظهره، وسحباً إلى وسط النار. وينقل في المقطع أقوالاً عن مجاهد وقتادة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=44&tAyahNo=47&tDisplay=yes&UserProfile=0&LanguageId=1

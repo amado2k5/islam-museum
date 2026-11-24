@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-10-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل الآيات 69 إلى 70، وخلاصتها: يبيّن الطبري أن الله يقول يا عباد لا خوف عليكم اليوم ولا أنتم تحزنون الذين آمنوا بآياتنا وكانوا مسلمين، ادخلوا الجنة أنتم وأزواجكم تحبرون. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=43&tAyahNo=69&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 69 إلى 70 مقطعاً واحداً. يفسّر قوله «ٱلَّذِينَ آمَنُواْ بِآيَاتِنَا وَكَانُواْ مُسْلِمِينَ»: وقوله: «الَّذِينَ آمَنُوا بآياتِنا» يقول تعالى ذكره: يا عبادي الذين آمنوا وهم الذين صدّقوا بكتاب الله ورسله، وعملوا بما جاءتهم به رسلهم، وكانوا مسلمين، يقول: وكانوا أهل خضوع لله بقلوبهم، وقبول منهم لما جاءتهم به رسلهم عن ربهم على دين إبراهيم خليل الرحمن، حنفاء لا يهود ولا نصارى، ولا أهل أوثان. وقوله: وينقل في المقطع أقوالاً عن قتادة وابن زيد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=43&tAyahNo=69&tDisplay=yes&UserProfile=0&LanguageId=1

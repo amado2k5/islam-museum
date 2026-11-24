@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-10-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن موسى قال لهم أن لا تعلوا على الله إني آتيكم بسلطان مبين، أي بحجة واضحة، وإني عذت بربي وربكم أن ترجمون، وإن لم تؤمنوا لي فاعتزلون. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=44&tAyahNo=18&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 18 إلى 20 مقطعاً واحداً. يفسّر قوله «يَوْمَ نَبْطِشُ ٱلْبَطْشَةَ ٱلْكُبْرَىٰ إِنَّا مُنتَقِمُونَ»: إنكم أيها المشركون إن كشفت عنكم العذاب النازل بكم، والضرّ الحالّ بكم، ثم عدتم في كفركم، ونقضتم عهدكم الذي عاهدتم ربكم، انتقمت منكم يوم أبطش بكم بطشتي الكبرى في عاجل الدنيا، فأهلككم، وكشف الله عنهم، فعادوا، فبطش بهم جلّ ثناؤه بطشته الكبرى في الدنيا، فأهلكهم قتلاً بالسيف. وقد اختلف أهل التأويل في البطشة الكبرى، فقال بعضهم: هي بطشة الله بمشركي قريش يوم بدر. وينقل في المقطع أقوالاً عن ابن عباس ومجاهد وقتادة وعكرمة وابن زيد والأعمش وغيرهم.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=44&tAyahNo=18&tDisplay=yes&UserProfile=0&LanguageId=1

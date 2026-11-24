@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-10-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-تأتي الآية في صفحة وصف نعيم المتقين، وفيها يبيّن الطبري أن ما أعطاهم الله فضل من ربك وأنه ذلك هو الفوز العظيم. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=44&tAyahNo=57&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 57 إلى 60 مقطعاً واحداً. يفسّر قوله «كَذَلِكَ وَزَوَّجْنَاهُم بِحُورٍ عِينٍ»: كما أعطينا هؤلاء المتقين في الآخرة من الكرامة بإدخالناهم الجنات، وإلباسناهم فيها السندس والإستبرق، كذلك أكرمناهم بأن زوّجناهم أيضاً فيها حوراً من النساء، وهن النقيات البياض، واحدتهنّ: حَوْراء. وكان مجاهد يقول في معنى الحُور، ما: وعن ابن أبي نجيح، عن مجاهد، قوله: «وزَوَّجْناهُمْ بِحُورٍ عِينٍ» قال: أنكحناهم حوراً. وينقل في المقطع أقوالاً عن مجاهد وقتادة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=44&tAyahNo=57&tDisplay=yes&UserProfile=0&LanguageId=1

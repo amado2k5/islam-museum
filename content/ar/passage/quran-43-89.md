@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-10-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن الله يأمر النبي بأن يصفح عنهم ويقول سلام فسوف يعلمون. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=43&tAyahNo=89&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «فَٱصْفَحْ عَنْهُمْ وَقُلْ سَلاَمٌ فَسَوْفَ يَعْلَمُونَ»: " يا ربّ إن هؤلاء قوم لا يؤمنون " «فاصْفَحْ عَنْهُم» يا محمد، وأعرض عن أذاهم «وَقُلْ» لهم «سَلامٌ» عليكم ورفع سلام بضمير عليكم أو لكم. واختلفت القرّاء في قراءة قوله: «فَسَوْفَ يَعْلَمُونَ» فقرأ ذلك عامة قرّاء المدينة «فَسَوْفَ تَعْلَمونَ» بالتاء على وجه الخطاب، بمعنى: أمر الله عزّ وجلّ نبيه أن يقول ذلك للمشركين، مع قوله: «سَلامٌ»، وقرأته عامة قرّاء الكوفة وبعض قرّاء مكة «فَسَوْفَ يَعْلَمُونَ» بالياء على وجه الخبر، وأنه وعيد من الله للمشركين، فتأويله على هذه القراءة: «فاصْفَحْ عَنْهُمْ» يا محمد وقُلْ سَلامٌ. وينقل في المقطع أقوالاً عن قتادة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=43&tAyahNo=89&tDisplay=yes&UserProfile=0&LanguageId=1

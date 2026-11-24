@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-10-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن من ورائهم جهنم أي من بين أيديهم، ولا يغني عنهم ما كسبوا شيئاً ولا ما اتخذوا من دون الله أولياء ولهم عذاب عظيم. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=45&tAyahNo=10&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «مِّن وَرَآئِهِمْ جَهَنَّمُ وَلاَ يُغْنِي عَنْهُم مَّا كَسَبُواْ شَيْئاً وَلاَ مَا ٱتَّخَذُواْ مِن دُونِ ٱللَّهِ أَوْلِيَآءَ وَلَهُمْ عَذَابٌ عَظِيمٌ»: ومن وراء هؤلاء المستهزئين بآيات الله، يعني من بين أيديهم. وقد بيَّنا العلة التي من أجلها قيل لما أمامك، هو وَرَاءك، فيما مضى بما أغنى عن إعادته يقول: من بين أيديهم نار جهنم هم واردوها، ولا يغنيهم ما كسبوا شيئاً: يقول: ولا يغني عنهم من عذاب جهنم إذا هم عُذّبوا به ما كسبوا في الدنيا من مال وولد شيئاً. وقوله: «وَلا ما اتَّخَذُوا مِنْ دُونِ اللّهِ أوْلِياءَ» يقول: ولا آلهتهم التي عبدوها من دون الله، ورؤساؤهم، وهم الذين أطاعوهم في الكفر بالله، واتخذوهم نُصراء في الدنيا، تغني عنهم يومئذٍ من عذاب جهنم شيئاً «ولَهُمْ عَذَابٌ عَظِيمٌ» يقول: ولهم من الله يومئذٍ عذاب في جهنم عظيم.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=45&tAyahNo=10&tDisplay=yes&UserProfile=0&LanguageId=1

@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-10-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يعرض الطبري اختلاف أهل التأويل في «ولا يملك الذين يدعون من دونه الشفاعة إلا من شهد بالحق»: فقيل لا يملك عيسى وعزير والملائكة الشفاعة إلا من شهد بالتوحيد وهم يعلمون، وغير ذلك من الأقوال. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=43&tAyahNo=86&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَلاَ يَمْلِكُ ٱلَّذِينَ يَدْعُونَ مِن دُونِهِ ٱلشَّفَاعَةَ إِلاَّ مَن شَهِدَ بِٱلْحَقِّ وَهُمْ يَعْلَمُونَ»: اختلف أهل التأويل في تأويل ذلك، فقال بعضهم: معنى ذلك: ولا يملك عيسى وعزير والملائكة الذين يعبدهم هؤلاء المشركون بالساعة، الشفاعة عند الله لأحد، إلا من شهد بالحقّ، فوحد الله وأطاعه، بتوحيد علم منه وصحة بما جاءت به رسله. وينقل في المقطع أقوالاً عن مجاهد وقتادة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=43&tAyahNo=86&tDisplay=yes&UserProfile=0&LanguageId=1

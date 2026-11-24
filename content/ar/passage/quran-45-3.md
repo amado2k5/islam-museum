@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-10-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل الآيات 1 إلى 3، وخلاصتها: يحيل الطبري على ما سبق في «حم»، ثم يفسّر أن تنزيل الكتاب من الله العزيز الحكيم، وأن في السماوات والأرض لآيات للمؤمنين، وتضم الصفحة الآيات الثلاث الأولى من سورة الجاثية. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=45&tAyahNo=3&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 3 إلى 5 مقطعاً واحداً. يفسّر قوله «حمۤ»: قد تقدم بياننا في معنى قوله: «حم». وأما قوله: «تَنْزِيلُ الكِتابِ مِنَ اللّهِ» فإن معناه: هذا تنزيل القرآن من عند الله «العَزِيزِ» في انتقامه من أعدائه «الحَكِيمِ» في تدبيره أمر خلقه. وقوله: «إنَّ فِي السَّمَواتِ والأرْضِ لآَياتٍ للْمُؤْمِنِينَ» يقول تعالى ذكره: إن في السموات السبع اللاتي منهنّ نزول الغيث، والأرض التي منها خروج الخلق أيها الناس «لآَياتٍ للْمُؤْمِنِينَ» يقول: لأدلة وحججاً للمصدّقين بالحجج إذا تبيَّنوها ورأوها.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=45&tAyahNo=3&tDisplay=yes&UserProfile=0&LanguageId=1
