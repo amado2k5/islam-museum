@@ -17,6 +17,7 @@ summary:
   id: "Seorang cendekiawan dan pengkhotbah Kanada, lahir di Kingston, Jamaika pada tahun 1947 dengan nama Dennis Bradley Phillips, dibesarkan sebagai seorang Kristen, lalu memeluk Islam pada tahun 1972. Ia meraih gelar sarjana dari Islamic University of Madinah (1979), gelar magister dari King Saud University (1985), dan gelar doktor dari University of Wales. Ia adalah pendiri dan penasihat International Open University, yang tinggal di Qatar, dan menulis lebih dari lima puluh buku yang diterjemahkan ke berbagai bahasa."
 roles: [scholar, teacher, writer]
 wings: [people, living]
+themes: [converts-and-leavers]
 regions: [americas-oceania, arabia]
 relations:
   - { type: born_in, target: place/kingston, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-bilal-philips] }
@@ -30,6 +31,8 @@ born:
   derived: true
   note: "Gregorian date and Kingston, Jamaica birthplace from the English Wikipedia article, where the date is referenced to his official biography at bilalphilips.com. Wikidata (Q860317) gives the year 1947 only. The Hijri year 1366 is converter-derived."
   sources: [source/wikipedia-bilal-philips-en, source/wikidata-bilal-philips]
+story_roles:
+  - { role: convert, start: { edtf: "1972" }, status: historical, note: "Raised Christian; converted to Islam in 1972 per the cited article.", sources: [source/wikipedia-bilal-philips-en] }
 faith:
   - value: sunni
     basis: documented
