@@ -3,6 +3,11 @@ id: passage/quran-39-53
 lang: ar
 source_lang: ar
 translators: []
+provenance:
+  generated_by: "Claude Code (Sonnet 5.5 session)"
+  model: claude-sonnet-5-5
+  run: altafsir-tabari-batch-10-2026-11-24
+  source: source/altafsir-tabari
 ---
 
 ## موجز
@@ -10,3 +15,7 @@ translators: []
 
 ## موضعها
 موضعها: الآية 53 من أصل 75 آية في السورة. النص محفوظ من مصحف تنزيل المجمّد ولا يُعاد كتابته هنا.
+
+## تفسير الطبري
+
+يعرض الطبري اختلاف أهل التأويل فيمن نزلت فيهم هذه الآية الداعية إلى عدم القنوط من رحمة الله: فقيل في قوم من المشركين قد أكثروا القتل والزنا وظنوا أنه لا توبة لهم، وقيل في غيرهم، ويورد الروايات بأسانيدها، ثم يبيّن معنى أن الله يغفر الذنوب جميعاً لمن تاب، ويتناول الاختلاف فيما يشمله هذا الوعد. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=39&tAyahNo=53&tDisplay=yes&UserProfile=0&LanguageId=1

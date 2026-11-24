@@ -3,6 +3,11 @@ id: passage/quran-39-40
 lang: ar
 source_lang: ar
 translators: []
+provenance:
+  generated_by: "Claude Code (Sonnet 5.5 session)"
+  model: claude-sonnet-5-5
+  run: altafsir-tabari-batch-10-2026-11-24
+  source: source/altafsir-tabari
 ---
 
 ## موجز
@@ -10,3 +15,7 @@ translators: []
 
 ## موضعها
 موضعها: الآية 40 من أصل 75 آية في السورة. النص محفوظ من مصحف تنزيل المجمّد ولا يُعاد كتابته هنا.
+
+## تفسير الطبري
+
+يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل الآيات 39 إلى 40، وخلاصتها: يفسّر الطبري أمر النبي بأن يقول لمشركي قومه: اعملوا على مكانتكم أي على تمكّنكم ومنازلكم، وهو تهديد ووعيد، وإني عامل على ما أنا عليه، فسوف تعلمون من يأتيه عذاب يخزيه وينزل عليه عذاب دائم، وينقل في معنى «مكانتكم» عن مجاهد. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=39&tAyahNo=40&tDisplay=yes&UserProfile=0&LanguageId=1
