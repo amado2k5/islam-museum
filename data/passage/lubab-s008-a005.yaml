@@ -1,0 +1,35 @@
+id: passage/lubab-s008-a005
+class: passage
+unit: chapter
+work: work/lubab-al-nuqul-suyuti
+ref: "8:5"
+sura: 8
+aya: 5
+label:
+ ar: "al-Anfal 8:5 — سبب النزول ⁦(لباب النقول)⁩"
+ en: "al-Anfal 8:5 — occasion of revelation"
+ fr: "al-Anfal 8:5 — circonstance de révélation"
+ es: "al-Anfal 8:5 — ocasión de revelación"
+ ur: "al-Anfal 8:5 — سببِ نزول"
+ tr: "al-Anfal 8:5 — nüzul sebebi"
+ id: "al-Anfal 8:5 — sebab turunnya wahyu"
+text: "كما أخرجك الآية أخرج ابن ابي حاتم وابن مردويه عن أبي أيوب الأنصاري قال قال لنا رسول الله ونحن بالمدينة وبلغه أن عير أبى سفيان قد أقبلت ما ترون فيها لعل الله يغنمناها ويسلمنا فخرجنا فسرنا يوما أو يومين فقال ما"
+summary:
+ ar: "رواية السيوطي في سبب نزول al-Anfal 8:5 من «لباب النقول في أسباب النزول» ⁦(شاملة 2247)⁩"
+ en: "Al-Suyuti's report on the occasion of revelation of al-Anfal 8:5, in Lubab al-Nuqul fi Asbab al-Nuzul (Shamela 2247) — Companion generation."
+ es: "Informe de al-Suyuti sobre la ocasión de revelación de al-Anfal 8:5, en Lubab al-Nuqul fi Asbab al-Nuzul (Shamela 2247) — generación de los Compañeros."
+ fr: "Rapport d'al-Suyuti sur la circonstance de révélation de al-Anfal 8:5, dans Lubab al-Nuqul fi Asbab al-Nuzul (Shamela 2247) — génération des Compagnons."
+ ur: "al-Anfal 8:5 کے سببِ نزول پر سیوطی کی روایت — «لباب النقول» ⁦(شاملة 2247)⁩ — صحابہ کی نسل سے۔"
+ tr: "al-Anfal 8:5 ayetinin nüzul sebebi hakkında es-Suyuti'nin rivayeti; Lübabü'n-Nükul'den (Şamile 2247) — sahabe neslinden."
+ id: "Riwayat as-Suyuti tentang sebab turunnya al-Anfal 8:5, dalam Lubab al-Nuqul fi Asbab an-Nuzul (Shamela 2247) — generasi Sahabat."
+relations:
+ - { type: mentions, target: concept/asbab-al-nuzul, sources: [source/lubab-nuqul-shamela-2247] }
+ - { type: revealed_about, target: passage/quran-8-5, sources: [source/lubab-nuqul-shamela-2247] }
+provenance:
+ layer: own-research
+ source: "lubab-nuqul-shamela-2247 — 8:5 — asbab-nuzul-browser harvest"
+ generated_by: "Devin (SWE-2 Medium)"
+ run: asbab-nuzul-browser-harvest
+tags: [nuzul-browser, nuzul-books, nuzul-companion]
+sources: [source/lubab-nuqul-shamela-2247]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }
