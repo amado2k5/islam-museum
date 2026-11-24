@@ -25,7 +25,7 @@ for (const k of GENS) if (!G.narrators?.[k]) throw new Error(`NuzulDescent: nuzu
 /** The surah an occasion record speaks of: its own `sura` field when 1..114. */
 const suraOf = (n: any): number | null => {
   const s = Number(n.data.sura);
-  return Number.isInteger(s) && s >= 1 && s <= 114 ? s : null;
+  return Number.isInteger(s) && s >= 1 && 114 >= s ? s : null;
 };
 
 const onSky = nuzulItems.filter((i) => suraOf(i.node) !== null);
