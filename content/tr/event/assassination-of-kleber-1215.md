@@ -1,0 +1,34 @@
+---
+id: event/assassination-of-kleber-1215
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-23), draft translation']
+status: {review: published}
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-23, source: content/ar/event/assassination-of-kleber-1215.md}
+---
+## Özet
+1215 Hicri yılındaki Muharrem olaylarında şöyle anlatır [[person/abd-al-rahman-al-jabarti|El-Cebarti]] içinde [[work/ajaib-al-athar|Antikaların Harikaları]] Bonaparte'dan sonra Mısır'daki Fransız ordusunun lideri Kléber, öldürüldü [[person/sulayman-al-halabi|Süleyman el-Halabi]], ardından Fransızların ellerindeki dövüş belgelerini katile ve niyetini bildirenlere "kelimesi kelimesine iletir." Bu olaylardan biridir [[event/french-campaign-egypt-1213|Fransız Mısır'a Karşı Seferi]]. {cite:ajaib-al-athar-moreh-v3 p.169} {cite:ajaib-al-athar-moreh-v3 p.170}
+
+## itiraz
+Cumartesi, Muharrem ayının yirmi birincisi, Fransızların Şeyh Ahmed Al-Arishi'yi bir alay halinde yargıya geri verdiği gün, Kleiber başmühendisle birlikte Al-Bustan'ın evinde, Al-Azbakiya'daki evinde yürüyordu. Halep'ten bir adam içeri girdi, ona geri dönmesini işaret etti ve "Hayır" dedi. Geri dönmedi, bir şeye ihtiyacı olduğunu yanılttı. Yaklaştığında, sol elini öpmek ister gibi uzattı. Kleiber uzandığında, elini yakaladı ve sağ elindeki hançerle art arda dört kez vurdu, ardından mühendis onu defalarca vurup kaçtı. {cite:ajaib-al-athar-moreh-v3 p.169}
+
+Askerler mühendisin çağrısıyla içeri girdiler ve liderlerini yatarken buldular, "içinde biraz canlı" olarak. Davullarını çaldılar ve aradılar, bunun Mısırlıların işi olduğunu düşündüler. Kasabada önlem aldılar ve topları güçlendirdiler, halk arasında habersiz bir "büyük bir kargaşa" patlak verdi. {cite:ajaib-al-athar-moreh-v3 p.169} Al-Jabarti'nin raporlarına göre doktor belgelerinde dört yara olduğu ve mühendis Protain'in altı yara aldığı belirtiliyor. {cite:ajaib-al-athar-moreh-v3 p.171}
+
+## Tutuklama ve beraat
+Katili, çökmüş bir duvarın yanında, yakınlardaki Ghait Misbah adlı bahçede izole halde buldular. Sordular ve ona El-Ezher Camii'nde gece kalacağını söyleyen bir Halabi olan Süleyman buldular. Onu cezalandırdılar, ta ki o durumun gerçeğini anlatana kadar, "Sonra Mısır halkının masumiyetini bundan öğrendiler," ve kasaba halkıyla savaşmaya karar verdikleri şeyi bıraktılar. {cite:ajaib-al-athar-moreh-v3 p.170} Sonra getirdiler [[person/abd-allah-al-sharqawi|Şeyh Abdullah el-Sharqawi]] ve Yargıç Al-Arishi, onları gece yarısına kadar geciktirdi ve katilin bahsettiği grubu getirmeye zorladı, üç kişiyi buldu [[building/al-azhar|Al, Azhar]] Dördüncüsü bulamadılar. {cite:ajaib-al-athar-moreh-v3 p.170}
+
+## Duruşma
+Al-Jabarti, Fransızların "misilleme davalarında kendi yöntemleriyle bir deneme versiyonu" düzenlediklerini, Fransızca, Türkçe ve Arapça basılan belgeleri derlediklerini, "uzunlukları ve kötü yapıları nedeniyle bunları anmaktan kaçındığını" ve ardından insanların "düşünceli ve kesin yargıları nedeniyle" hevesle onlara atıfta bulunduğunu gördüğünü ve bu yüzden onları transfer ettiğini belirtir. {cite:ajaib-al-athar-moreh-v3 p.170} Bunlar arasında, yirmi dört yaşında olduğunu, Halep'ten Arap bir yazar olduğunu, Gazze'den kervanla geldiğini, üç yıl önce Mısır'da, üç kez Mekke ve Medine'de yaşadığını ve Sadrazam'ı tanımadığını belirten sorgulama da var. {cite:ajaib-al-athar-moreh-v3 p.172}
+
+Mahkeme, Kleber'in halefinin emriyle Sari René'nin ordusunun evinde, birkaç Fransız komutanın katılımıyla yapıldı [[person/jacques-abdallah-menou|Kim]], ve şüpheliler 'kısıtlama veya kısıtlama olmadan', kapılar açık halde, tercüman Braswish aracılığıyla getirildi. {cite:ajaib-al-athar-moreh-v3 p.189} Süleyman el-Halabi'nin, Abdul Kadir el-Gazi, Muhammed el-Gazi, Abdullah el-Gazi ve Ahmed el-Vali'nin suçlu olduğuna hükmetti; çünkü Gazi niyetini onlara bildirdi ancak ergenliğe ulaşmadılar. Ayrıca seksen bir yaşındaki Kur'an öğretmeni Mustafa Efendi el-Barsali'yi serbest bıraktı. {cite:ajaib-al-athar-moreh-v3 p.189} {cite:ajaib-al-athar-moreh-v3 p.190}
+
+Hüküm, Süleyman'ın sağ elinin yakılıp sonra delinerek Tal al-'Aqarib olarak bilinen tepedeki kazıkta bırakılması, üçünün başlarının kesilip cesetlerinin önünde yakılması, yokluğunda bulunan Abdülkadir el-Gazi'nin idama mahkûm edilmesi ve fetvanın her dilde beş yüz kopya olarak basılmasıydı. {cite:ajaib-al-athar-moreh-v3 p.188} {cite:ajaib-al-athar-moreh-v3 p.190}
+
+## Cenaze ve idam
+Öldürmeden üç gün sonra, 25 Muharrem Salı gecesi, süpürme ve sıçrama çağrısı yaptılar ve sabah yaşlılarını, askerlerini ve Kıpti ile Levant topluluklarını taşıyan bir alay halinde yola çıktılar. Bir kalibreyi bir kutuya kurşun koydular; arabada tugayı, kılıcı ve hançeri vardı ve bu arabayla "kan içinde ıslanmış" olarak öldürüldü, askerler ise tüfeklerini indirilmiş halde taşıyorlardı. {cite:ajaib-al-athar-moreh-v3 p.191} Tel al-Aqrab'a vardıklarında, inşa ettikleri kalenin olduğu yerde, 'Süleyman'i ve bahsedilen üç adamı getirdiler ve tüm zamanlarını orada geçirdiler.' Sonra cenaze alayına devam ederek Kasr al-Aini'nin kapısına gittiler ve tabutu onun için yaptıkları tahta sepete koydular. {cite:ajaib-al-athar-moreh-v3 p.191}
+
+## Aşağıda olanlar
+Abdullah Jacques Manou'nun askeri üssü gizlice yerleşti. Al-Jabarti, kendisinin İslam'a geçmiş gibi davrandığını, Abdullah olarak adlandırıldığını ve bir Müslüman kadınla evlendiğini belirtir. Fransızlar onları aramak için El-Ezher'i gezdiler ve komşular eşyalarını ve kitaplarını taşıdılar. Sonra Şeyh Al-Sharqavi, Al-Mahdi ve Al-Sawi Manou camiyi kilitlemek için izin istediler; cami mühürlendi ve kapıları kapandı. {cite:ajaib-al-athar-moreh-v3 p.192}
+
+## El-Cebitinin Tutumu
+Al-Jabarti, "Geleneklerin Harikaları"nda duruşmayı yorumlar; burada "akla yargılayan ama dine uymayan bir halkın dersi" olduğunu görür: liderleriyle "pervasız korkak bir adam" olarak yüzleşmeye cesaret ettiler ve onu tutukladılar, onu ya da onları sadece itiraf olarak bildirenleri öldürmekte acele etmediler. Bunun yerine, bir duruşma düzenlediler ve karara bağlı olmayanları serbest bıraktılar. Bu durum, daha sonra "İslam'ı iddia eden askerlerin haydutlarının eylemleri" ile tezat oluşturur. {cite:ajaib-al-athar-moreh-v3 p.170} {cite:ajaib-al-athar-moreh-v3 p.171} Konuya gelince, "[[work/mazhar-al-taqdis|Kutsallaşmanın ortaya çıkışı]] Araştırmacı, el-Cebarti'nin ona 'şehit Süleyman' dediğini ve üçünü 'ezilen' olarak nitelendirdiğini, diğer versiyonlarda ise kendisinin ölümünde kendilerine bağlılık yemini eden ve Yusuf Paşa el-Vazir'den kan paralarını alan bir gruptan olduğunu anlattığını aktarıyor; bu para, 'Geleneklerin Harikaları'nda aktarılan sorgulamasında bulunmuyor. {cite:ajaib-al-athar-moreh-v3 p.170} {cite:ajaib-al-athar-moreh-v3 p.191}

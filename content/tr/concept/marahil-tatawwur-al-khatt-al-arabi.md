@@ -1,0 +1,30 @@
+---
+id: concept/marahil-tatawwur-al-khatt-al-arabi
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-23), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-23, source: content/ar/concept/marahil-tatawwur-al-khatt-al-arabi.md}
+---
+## Özet
+Bu sayfa, müzeye sunulan bir araştırma özetiyle kronolojik sırayla Arap kaligrafisinin gelişimindeki beş aşamayı sunmaktadır: 7. yüzyıl sonlarından 10. yüzyıla kadar Kufic, ardından 7. ve 8. yüzyıl sonları I'jam ve diakmulasyon dönemleri, ardından kopyalama, ardından 10. yüzyılda Thuluth ve son olarak 19. yüzyılda Ruq'ah. Bunların hepsi her aşamanın başlangıcına göre düzenlenmiş, bazıları diğerleriyle örtüşmekte ve burada bulunan her şey müze tarafından özete atfedilmiştir.
+
+## Birinci: El-Kufi
+Özete göre, el-Kufi Irak'ın Kufa kentinde ortaya çıkmış ve Arapça'nın en eski sanatsal hat formudur; düz açılı çizgiler ve yatay eğimle karakterizedir. Başlangıçta noktalar ve ünlü işaretlerinden arınmıştı ve ilk Kur'an'ların parşömen, madeni para, tekstil ve mimari yazıtlar üzerine yazılması için kullanılan ilk yazı sistemi onuncu ve on birinci yüzyıllara kadar varlığını sürdürdü; ardından yaprak, düğüm ve kare gibi süslemeli formlar dallanmaya başladı {cite:met-development-spread-calligraphic-scripts} {cite:britannica-kufic-script} {cite:wikipedia-kufic-en}. Bunun erken bir örneği [[object/dome-of-the-rock-inscription|Kaya Kubbesi Yazıtı]]. Müzenin kayıtları şunlardır: [[concept/kufic-script|Kufic alfabesi]] Ve hakkında [[concept/floriated-kufic|Yeşilsi kahve]], ve Kufi kaydı, İhtiyar'dan alıntı yaparak, ismin kökenli olduğunu belirtir [[place/kufa|Kufa]] Ama bu, çizgilerin nerede yapıldığını değil, bir çizgi kategorisini gösterir. {cite:ekhtiar-how-to-read-islamic-calligraphy-2018 p. 23}; ve iki anlatı yan yana yerleştirilmiştir.
+
+## İkincisi: I'jam ve diakritik işaretler
+Diakritik ve diakritik işaretler, noktasız hitabetlerde karışıklığı ortadan kaldırmak için Basra'da ortaya çıktı. Abu al-Aswad al-Du'ali (ö. 688 veya 689) kısa ünlüler için renkli noktalarla başladı, ardından Nasr ibn Asim (ö. 708 veya 709) ve Yahya ibn Ya'mar, nokta veya tire gibi harfleri ayırt etmek için i'jama olan diakritik işaretleri getirdi. Sonra Al-Khalil ibn Ahmad al-Farahidi (718-786 veya 791) geldi ve ünlü ünlü işaretlerini renkli noktalarla—fetha, kasra, damma ve shaddah—aynı metinle mürekkeple yazdı. {cite:wikipedia-arabic-diacritics-en} {cite:wikipedia-abu-al-aswad-al-duali-en} {cite:wikipedia-al-khalil-ibn-ahmad-al-farahidi-en}. Kayıtlara bakınız [[person/abu-al-aswad-al-duali|Babam dünyanın siyahı]] و [[person/nasr-ibn-asim|Nasr bin Asim]] و [[person/al-khalil-ibn-ahmad-al-farahidi|Hebron]] و [[place/basra|Basra]]، و [[concept/naqt-al-irab|Dilbilgisi noktaları]] و [[concept/naqt-al-ijam|Ünlem Noktaları]] Hikaye başka kaynaklar aracılığıyla anlatılır.
+
+## Üçüncü: Kopyalama
+Naskh'ın kökeni, yedinci yüzyıla kadar uzanan, günlük yazım, yazışma ve yönetim için kullanılan küçük, yuvarlak ve okunabilir bir yazı tipidir ve onuncu yüzyılda kodlanmıştır [[person/ibn-muqla|İbn Muqla]] ⁦(ت 940م)⁩ و [[person/ibn-al-bawwab|Kapıcının oğlu]] (ö. 1022 veya 1031) ve daha sonra Osmanlı hattatı Şeyh tarafından geliştirildi [[person/shaykh-hamdullah|Şükürler olsun]]. On birinci yüzyıldan itibaren, kitap ve Kur'an kopyalamada Kufic'in yerini almış, modern Arapça baskı ve dijital mektupların temelini oluşturmuştur {cite:britannica-naskhi-script} {cite:wikipedia-naskh-script-en}. Müze, İbn el-Bavwab'ın 423 Hicri, yani 1032 yılında öldüğünü kaydeder {cite:wafayat-ayan}, böylece özet tarihiyle olan fark belirtilmeye devam eder. Kopyalama için kaydedilir [[concept/naskh-script|Naskh yazısı]].
+
+## Dördüncü: Üçte biri
+İbn Muqalla el-Thuluth, onuncu yüzyılda altı kalemden birini kodlamış ve kıvrımlı, çapraz çizgileriyle Kufik zawiya'nın yerini almıştır. Burada her harfin üçte biri eğiktir, bu yüzden adı buradan gelir ve dekoratif hareketlerle birlikte devam etmiştir; Osmanlı geliştirmeleri on beşinci yüzyıldan on dokuzuncu yüzyıla kadar devam etmiştir. Camilerdeki büyük gravürler, duvar yazıtları ve mimari resimler için ilk satırdır {cite:britannica-thuluth-script} {cite:wikipedia-thuluth-en}. Bakınız [[concept/thuluth-script|Thuluth yazısı]] و [[concept/al-aqlam-al-sitta|Altı Kalem]].
+
+## Beşinci: Yama
+Ruq'ah, Osmanlı İmparatorluğu'nda ortaya çıkmış ve on dokuzuncu yüzyılda Mumtaz Efendi (1810-1872) ve Mustafa İzzat Efendi (1801-1876) tarafından Thuluth ve Naskh'tan kodlanmıştır. Bunlar, yazmayı hızlandırmak ve okumayı kolaylaştırmak için kesilmiş harfler, kısa düz çizgiler ve eşit yatay tabanlardır. Özete göre, Arap dünyasında en yaygın kullanılan günlük el yazısı stilidir {cite:wikipedia-ruqah-script-en}. Bakınız [[person/kazasker-mustafa-izzet|Askeri Yargıç Mustafa Ezzat Efendi]]. Ve müze bu yamayı aynı yapmıyor. [[concept/riqa-script|Yamalar]] Eski kalem, her birinin kendi kaydı ve açıklaması olan altı kalemden biridir.
+
+## Sıralama ne gösteriyor ve aşamaların nerede örtüştüğü
+Beş aşama başlangıcına göre düzenlenmiştir ve katı bir sıralama izlemezler: Kufi onuncu ve on birinci yüzyıllara kadar kalmıştır ve diyakritik işaretler ile diyakritik işaretler Kufi ile örtüşür çünkü bunlar yazı yazısı değil, yazıya eklenen işaretlerdir. Naskh, kodlanmasından önceki yedinci yüzyıldan itibaren günlük yazılı bir kökene sahiptir; Naskh ve Thuluth ise İbn Muqla'ya atfedilir ve sadece Ruqa'ah yüzyıllar sonrasına aittir. Diğer müze kaynakları bazı ayrıntılarda farklılık gösterir ve bağlantılı kayıtlarda bulunur.
+
+## Temel
+Bu kayıt, müzeye sunulan bir araştırma özetine dayanıyordu ve müze alıntılanan sayfaları açmadı. Kurucu, 21 Kasım 2026'da olduğu gibi dayanmayı kabul etti; buradaki her şey özetin aktardığı şeydir, müzenin doğruladığı değil. İbn al-Bawwab ve Nasr ibn Asim'in ölüm tarihleri dahil olmak üzere tarihler, isimler ve soy hattı olduğu gibi korunmaktadır.

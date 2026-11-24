@@ -1,0 +1,12 @@
+---
+id: event/al-harithis-and-their-allies-enter-najran-before-dawn-286
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-23), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-23, source: content/ar/event/al-harithis-and-their-allies-enter-najran-before-dawn-286.md}
+---
+## Özet
+Tanışın [[group/banu-al-harith-ibn-kab|Banu al-Harith]] Ve yanlarında uyuyana kadar yürüdüler [[place/najran|Najran]], yani [[person/abdullah-ibn-bustam|İbn Bastam]] içinde [[group/banu-rabia-hamdan|Bani Rabia]] ve Neceran'ın tepesindeki Şakir, Banu El-Harit askerleri ise alt katlarda kaldı. Şafak sökerken köye yürüdüler {cite:sira-hadi-ila-al-haqq p.168}. Al-Hadi, Necran halkıyla birlikte oradaydı [[group/yam-tribe|Lezzet]] و [[group/al-ahlaf-najran|El-Ahli]] و [[group/wadia-tribe-yemen|Nazik]] ve kalenin halkı, Al-Mahra'dan yaklaşık iki yüz adam ve bir kabile. [[group/banu-hamdan|Hamedan]] Tihama'da yaşayanlar ve on dokuzu [[group/tabari-emigrants-with-al-hadi|Tiberliler]] Petras ve Ramah, hizmetkarlarından ve Khawlan'dan uzakta. Khawlan izin istemiş ve geri dönmüş, askerler ise Al-Hadi'nin Banu Al-Harith için affettiği kişiler arasında iken ayrılmıştı. {cite:sira-hadi-ila-al-haqq p.168} {cite:sira-hadi-ila-al-haqq p.169}. Banu al-Harith köyün kenarına ulaştığında, sabah alacakaranlığında mahkum arkadaşlarıyla karşılaştı {cite:sira-hadi-ila-al-haqq p.169}.
+
+## Giriş ve Dua
+Kalenin yanını kırdılar ve Al-Hadi'nin evinin kapısına kadar girdiler, o namazken. O namazını bitirene kadar gitmedi, sonra silahlarından bazılarını taktı, diğerlerini hızla uzaklaştırdı ve ayrıldı. Hamdan'dan Necran halkının, yanında olanların, Bab al-Darb'a doğru onun tarafında olduğunu gördü. Onlara bağırdı ve peşlerinden gitti, geri dönmeye çalıştılar ama hiçbiri geri dönmedi. 'Siz ve biz köyden girdik.' dediler. Biz de köyün kenarına ve uzaya geçip bizi takip edenlerle savaşmak için {cite:sira-hadi-ila-al-haqq p.169}. Allah korusun, dedi ki, 'Allah köyü terk etsin ya da onlar için bıraksın.' Onlardan umutsuzluğa kapıldığında, kendisi ve yoldaşları halka karşı döndü, şiddetle savaştı ve onlara doğru ilerledi. Tiberliler sokağa girdiler, ta ki onlarla karışana kadar; bazı insanlar caminin yakınında öldürüldü. {cite:sira-hadi-ila-al-haqq p.169}. İletişim[[event/al-hadi-routs-banu-al-harith-and-the-forty-horsemen-286]]. Bu haberdeki sayılar ve suçlamalar anlatıcıya aittir.

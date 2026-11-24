@@ -1,0 +1,29 @@
+---
+id: concept/shurut-al-qiraa-al-sahiha
+lang: tr
+source_lang: ar
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-23), draft translation']
+status: {review: published}
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Google Translate documents)', model: google-translate, run: gt-docs-tr-2026-11-23, source: content/ar/concept/shurut-al-qiraa-al-sahiha.md}
+---
+## Özet
+Kur'an okuyucularının sayısı artıp ülke geneline yayılınca, doğruluk azalınca ve batıl neredeyse hakikatle iç içe geçince, Kur'an tilaveti âlimleri ortaya çıktı ve ilkeler belirleyip temellerini detaylandırarak bilinen ile anormal olanı birbirinden ayırdılar. [[person/ibn-al-jazari|İbn el-Cezeri bu ölçütü "]] [[work/al-nashr-fi-al-qiraat-al-ashr|El-Naşr "]] ın başında formüle etmiş, el-Suyuti ise " [[work/al-itqan-fi-ulum-al-quran|El-İtkan]] "da nakletmiştir. {cite:nashr-dahman-damascus-1345-v1 p. 19} {cite:itqan-suyuti p. 491}
+
+## üç sütun
+Arapça dilbilgisine, tek bir yönüyle bile olsa uyan ve Osmanî kodekslerden biriyle, potansiyel olarak bile olsa, uyuşan ve rivayet zinciri sağlam olan her okuma, reddedilemez veya inkar edilemez doğru okumadır. Bu, Kur'an'ın indirildiği yedi okuma biçiminden biridir; ister yedi imamdan, ister on imamdan, isterse de kabul görmüş diğer imamlardan gelsin. Bu üç koşuldan biri eksik olduğunda, yedi imamdan gelse bile, zayıf, anormal veya geçersiz olarak adlandırılır. {cite:nashr-dahman-damascus-1345-v1 p. 19} İbn el-Cezeri, bunun geçmiş ve günümüzün önde gelen ihracî âlimlerinin görüşü olduğunu belirtir ve el-Dani, Mekki ibn Ebu Talib, el-Mehdavi ve Ebu Şama'yı zikreder. {cite:itqan-suyuti p. 492}
+
+## Her köşenin anlamı
+**Arapça, tek bir yönüyle bile:** Bu, ister güzel ister daha güzel olsun, üzerinde uzlaşılmış veya küçük ama zararlı olmayan, yaygın ve imamlar tarafından sağlam bir rivayet zinciriyle kabul edilmiş okumalara tabi olan dilbilgisinin bir yönünü ifade eder. Birçok okuma bazı veya birçok dilbilimci tarafından reddedilmiştir, ancak bu retler göz ardı edilmiştir; örneğin, telaffuz kolaylığı için bazı harflerin sessizleştirilmesi ve [[passage/quran-4-1|Nisa Suresi'nde (4:1]]) bir bağlaçtan sonra gelen ismin genitif hali gibi. {cite:itqan-suyuti p. 493} As-Suyuti, Ad-Dani'nin, tilavet imamlarının dildeki en yaygın kullanıma veya Arapçadaki en mantıklı kullanıma değil, rivayet edilen gelenekte en sağlam şekilde yerleşmiş ve rivayette en otantik olana güvendiklerini söylediğini aktarır. Ayrıca [[person/zayd-ibn-thabit|Zeyd ibn Sabit'ten]], "Tilavet, takip edilen bir gelenektir" dediğini de nakleder. {cite:itqan-suyuti p. 494}
+
+**Kuran Metnine Uygunluk, Hatta Muhtemel Uygunluk:** Uygunluktan kastı, bazı Kur'an el yazmalarında yer alan ancak diğerlerinde bulunmayan şeylerdir; örneğin, [[person/abd-allah-ibn-amir|İbn Amir'in]] [[passage/quran-2-116|Bakara Suresi 116'daki]] vavsız okunuşu Suriye Kur'an el yazmasında yer alırken, [[person/ibn-kathir|İbn Kathir'in]] [[passage/quran-9-100|Tevbe Suresi 100'deki "min" eklenmiş okunuşu Mekke Kur'an el]] yazmasında mevcuttur. Kur'an el yazmalarının hiçbirinde bulunmayan şeyler, üzerinde mutabık kalınan yazıya aykırı olduğu için anormal kabul edilir. Muhtemel uygunluk ise yazının izin verdiği şeydir. Örneğin, [[passage/quran-1-4|Fatiha Suresi 4'teki "malik" (kral) kelimesi]] tüm Kur'an el yazmalarında elif olmadan yazılmıştır. Elif olmadan okunuş kesin olarak, elif ile okunuş ise örtük olarak uygundur. {cite:itqan-suyuti p. 495} {cite:itqan-suyuti p. 496}
+
+**İletim zincirinin doğruluğu:** Okunan metnin, güvenilir ve doğru bir kişi tarafından, onun gibi bir başkasından sonuna kadar rivayet edilmesi ve bu alanın önde gelen âlimleri arasında iyi bilinmesi. {cite:nashr-dahman-damascus-1345-v1 p. 22} Bu yeterli midir, yoksa tevâtür (kitlesel nakil) gerekli midir? Bu ayrı bir konudur: [[question/is-tawatur-a-condition-of-a-valid-reading|Tevâtür gerekli midir]]?
+
+## Çizim için onay limiti
+Özdeşleştirilmiş, değiştirilmiş, korunmuş veya çıkarılmış bir harfle ilgili ihtilaf, okunuşu yerleşik ve yaygın olarak biliniyorsa, örneğin ص ve س harfleri ve ek ياء harfleri gibi, yazılı formun ihlali olarak kabul edilmez; çünkü bu durumlarda ihtilaf önemsizdir ve tek bir anlama ilişkindir. Bununla birlikte, bir kelimenin eklenmesi, çıkarılması, yerleştirilmesi veya ertelenmesi, anlam parçacığı bile olsa, kelimenin kendisi gibi ele alınır ve yazılı formdan sapmak caiz değildir. İbn el-Cezeri'ye göre bu, yazılı forma uymak ile ondan sapmak arasındaki ayrım çizgisidir. {cite:nashr-dahman-damascus-1345-v1 p. 22} {cite:itqan-suyuti p. 497}
+
+## Memurdan ne bekleniyor?
+Bu ilke, bir okumanın doğruluğunun yediyle olan ilişkisine göre ölçülmediğini; aksine, yedi ve diğerlerinden her okuyucuya atfedilenlerin, yedi kişinin ünü nedeniyle onlardan aktarılanlara daha fazla güven duyulsa bile, üzerinde mutabık kalınan ve anormal olan olarak ikiye ayrıldığını ima eder. {cite:itqan-suyuti p. 492} [[concept/al-qiraat-al-shadhdha|Anormal okumalara]] ve [[concept/al-qiraat-al-ashr|on okumaya bakın]].
+
+## On okuma ile yedi mektup arasındaki ilişki
+Araştırma özetinde, on okunuşun yedi harfle aynı olmadığı, aksine son okuma ve Osmanî standardizasyonundan sonra kalan harfler içinde yer alan daha sonra sınıflandırılmış varyantlar olduğu belirtilmektedir. Tüm farklılıkları Osmanî yazısına ve Arap gramerine uygundur ve bu sayfada ortaya konan temel unsurlar bunlardır. İbn el-Cezari'nin yayını, bunların aktarım zincirleri ve kökenleri için kesin referanstır {cite:research-summary-qiraat-dialects-quran-2026 on seven ahruf and dialects}. Telaffuzdaki bu farklılıkların, uzamanın, asimilasyonun, hemzenin kolaylaştırılmasının, ünlü kaymasının ve bazı sınırlı kelimelerin örnekleri, [[concept/al-ahruf-al-sabaa|yedi harfin]] kabile lehçeleriyle olan bağlantılarıyla birlikte [[concept/al-qiraat-al-ashr|on okunuşta ayrıntılı olarak açıklanmıştır]].
