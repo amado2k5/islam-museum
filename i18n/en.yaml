@@ -8200,3 +8200,46 @@ traffic:
   method_metrics: Pageviews, visits, requests, referrals and crawler detections are different measures and are never summed across views. No visitor is ever counted as a person; an IP shows an address, not a human.
   method_full: The full evidence report, its source manifest and the engineering investigation behind it are kept in the project's public repository.
   method_repo: Read the engineering record
+open_access:
+  nav_label: Open Access Policy
+  title: 'Open to Everyone: Humans and Machines'
+  lede: The museum's standing policy on who may read it — people, search engines, AI crawlers, agents, archives and the API — and on what terms.
+  updated: 'Last updated: 24 November 2026'
+  summary_title: In short
+  summary_1: islam.museum is a free, independently funded digital museum dedicated to making Islamic history, scholarship, culture and heritage accessible to everyone. Historical knowledge should be reachable both by people reading the museum directly and by the technologies that help people discover, understand, preserve and reuse it.
+  summary_2: The museum's designated open datasets are published under CC0, free for anyone to reuse. Material that comes from others — images, texts and other third-party works — remains subject to its own applicable licences, and being technically able to crawl a page does not change the licence of what is on it.
+  welcome_title: Who is welcome?
+  welcome_1: People from every country, students, educators and scholars are welcome — and so are search engines, AI training crawlers, AI-powered search and research systems, assistants retrieving information on behalf of a user, autonomous agents, scrapers, digital archives, knowledge-graph consumers, API clients, commercial and non-commercial applications, automated browsers and command-line clients. Legitimate high-volume programmatic retrieval of public information is welcome too.
+  welcome_2: Access is not intentionally restricted merely because a request is automated or high-volume, or because it originates from a cloud network, a VPN or proxy, a particular country, network or client type. Machine-driven discovery is a legitimate form of access to historical knowledge.
+  ai_title: Artificial intelligence and open knowledge
+  ai_1: We welcome the use of the museum's openly licensed knowledge for search indexing, information retrieval, historical research, education, knowledge-graph integration, retrieval-augmented generation, model development and training, multilingual discovery and digital preservation. Where an application draws on the museum, we encourage it to preserve source attribution and link back to the original museum records — encouraged, never a condition of reuse.
+  ai_2: A digital museum does not need every encounter with its collection to begin on its homepage. A record may be discovered through a search engine, retrieved by an assistant, built into educational software, preserved by an archive or connected into another knowledge graph. Each of these can carry historical knowledge to people the museum would never otherwise reach.
+  infra_title: Responsible infrastructure and transparency
+  infra_1: Open access does not mean removing the protections that keep the museum intact, secure and available. Encrypted connections — with a modern minimum transport-security level, retained deliberately — infrastructure availability protections and passive operational monitoring stay in place. Environments that are not intended for public indexing, and redundant duplicate URL variants, may carry indexing guidance to that effect; that guidance is about indexing, not about locking anyone out.
+  infra_2: We document our access policies, dated audits and traffic statistics together with their methodology and their limits. Automated requests are not counts of human readers, and a crawler's visit does not by itself establish that material entered any training dataset. The aim throughout is to remove barriers to retrieval, never to suppress automated reading merely because it is automated.
+  more_title: The audit behind this policy
+  more_body: This policy is verified, not merely declared. On 24 November 2026 the museum audited its hosting and content-delivery configuration against it — crawler permissions, firewall and bot settings, challenge and blocking rules, caching, its own serving code and robots.txt — and corrected what did not match. The dated audit note records what was checked, what was found and what changed.
+  audit_link: 'Access audit: 24 November 2026'
+  contact_cta: Report an access problem
+  closing: 'One collection. Open knowledge. Accessible to humans and machines.'
+  licences_body: These licences are the legal side of a wider welcome. Crawlers, agents, archives and API clients may retrieve and reuse the museum's public content under the terms above; the open access policy states who is welcome, and the audit record shows the welcome is real.
+  developers_body: Machine consumers are first-class readers of this museum. The open access policy welcomes crawlers, user-directed and autonomous agents and API clients, and records the dated audit that verified nothing in the delivery configuration stands in their way.
+open_access_audit:
+  title: Who may read islam.museum — an access audit
+  lede: 'Access-policy transparency note · 24 November 2026: what the museum checked in its delivery configuration, what it found, and what it corrected.'
+  updated: '24 November 2026'
+  scope_title: What was audited
+  scope_body: On 24 November 2026 the museum reviewed the configuration that delivers its public pages — the domain and DNS settings, the AI crawler-control panel and its defaults, bot-management settings, the web application firewall and its rules, browser-integrity and challenge settings, IP, country and user-agent blocking, caching and the redirect, rewrite and transform rules, the site's own serving code, and robots.txt with its content signals.
+  found_title: What the audit found
+  found_1: Almost everything was already open. All 33 named crawlers listed in the AI Crawl Control dashboard — the major search, AI training, search-and-retrieval and agent crawlers among them — are set to allow, the global defaults for search, training and agent crawlers are all allow, and crawlers not listed by name are allowed by default. Nothing anywhere is set to charge for crawling public content. No firewall rule, rate limit or block list restricts the public, no login wall stands in front of any public page, and the site's own serving code contains no access restrictions at all.
+  found_2: In the seven days before the audit, about 3.3 million AI-crawler requests reached the museum, and 2.98 million of them were answered successfully (HTTP 200). These figures measure automated retrieval, not people, and they do not show whether any material entered a training dataset.
+  fixes_title: The two inconsistencies
+  fix_1: A client-identification filter — the browser-integrity check — was switched on, and it had silently turned away a small number of requests whose browsers presented as very old or spoofed. Judging readers by their browser's fingerprint contradicts this policy, so the filter has been switched off, and the museum verified from outside that the same kind of request now receives the page normally.
+  fix_2: 'A declaration in the museum''s own robots.txt said no to AI training and AI input, contradicting both the CC0 licence on the museum''s data and the crawler settings that allow both. A correction setting all three signals — search, AI training and AI input — to yes is prepared in the museum''s public repository (pull request #8189). It is not live yet. It takes effect when the correction is merged and the founder next deploys the site, and this note will be updated when it is.'
+  exceptions_title: Deliberate exceptions
+  exceptions_body: Three narrow exceptions remain, by design. The museum's test environment, a separate subdomain holding no public content, is marked as not intended for public indexing, so test pages never pollute search indexes or archives. robots.txt asks crawlers to skip the duplicate query-string variants of one interactive page (the graph explorer); the page itself, in every language, stays fully crawlable. And the essential protections stay — encrypted connections with a retained modern minimum transport-security level, the platform's always-on protection against denial-of-service floods, and passive traffic statistics that observe but never block.
+  result_title: The result
+  result_body: The museum maintains no intentional discretionary barrier to legitimate public retrieval — not for a person, a search engine, an AI crawler, an agent, a scraper, an archive or an API client — subject only to the platform and security limits described above. If you ever find a public islam.museum page refusing your client, challenging it or asking it to log in, treat that as a bug, not a policy, and please report it to concerns@islam.museum.
+  policy_link: Read the Open Access Policy
+  eng_body: A fuller engineering record of this audit is kept with the museum's engineering documents in the public repository.
+  eng_link: Engineering documents

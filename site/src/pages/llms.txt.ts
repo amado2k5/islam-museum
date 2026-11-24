@@ -13,6 +13,7 @@ export const GET: APIRoute = () => {
     `- [Accessibility](${SITE}/en/accessibility/) — WCAG 2.2 AA statement, assistive-technology and feedback details`,
     `- [Privacy](${SITE}/en/privacy/)`,
     `- [Licenses](${SITE}/en/licenses/)`,
+    `- [Open Access Policy](${SITE}/en/open-access/) — who may read and reuse the museum: people, search crawlers, AI training and agent crawlers, archives and API clients, with the dated access audit`,
     `- [Authenticity](${SITE}/en/authenticity/)`,
     `- [Foundation](${SITE}/en/foundation/)`,
     "",
