@@ -3,6 +3,11 @@ id: passage/quran-29-24
 lang: ar
 source_lang: ar
 translators: []
+provenance:
+  generated_by: "Claude Code (Sonnet 5.5 session)"
+  model: claude-sonnet-5-5
+  run: altafsir-tabari-batch-8-2026-11-24
+  source: source/altafsir-tabari
 ---
 
 ## موجز
@@ -10,3 +15,7 @@ translators: []
 
 ## موضعها
 موضعها: الآية 24 من أصل 69 آية في السورة. النص محفوظ من مصحف تنزيل المجمّد ولا يُعاد كتابته هنا.
+
+## تفسير الطبري
+
+يقول الطبري إنه لم يكن جواب قوم إبراهيم إلا أن قال بعضهم لبعض اقتلوه أو حرّقوه بالنار، فأضرموا له النار فألقوه فيها، فأنجاه الله منها ولم يسلطها عليه بل جعلها عليه برداً وسلاماً، وينقل عن قتادة، إن في ذلك لآيات لقوم يؤمنون. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=29&tAyahNo=24&tDisplay=yes&UserProfile=0&LanguageId=1

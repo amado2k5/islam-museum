@@ -3,6 +3,11 @@ id: passage/quran-27-65
 lang: ar
 source_lang: ar
 translators: []
+provenance:
+  generated_by: "Claude Code (Sonnet 5.5 session)"
+  model: claude-sonnet-5-5
+  run: altafsir-tabari-batch-8-2026-11-24
+  source: source/altafsir-tabari
 ---
 
 ## موجز
@@ -10,3 +15,7 @@ translators: []
 
 ## موضعها
 موضعها: الآية 65 من أصل 93 آية في السورة. النص محفوظ من مصحف تنزيل المجمّد ولا يُعاد كتابته هنا.
+
+## تفسير الطبري
+
+يتناول الطبري الآيات 65 إلى 66 معاً في موضع واحد. يقول الطبري إن النبي مأمور أن يقول لسائليه من المشركين عن الساعة إنه لا يعلم من في السماوات والأرض الغيب إلا الله، والساعة من ذلك، وما يدرون متى يُبعثون، ويورد قول عائشة لمن زعم أنه يخبر الناس بما يكون غداً. ثم يتناول اختلاف القراءة في «بل ادّارك علمهم في الآخرة». {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=27&tAyahNo=65&tDisplay=yes&UserProfile=0&LanguageId=1
