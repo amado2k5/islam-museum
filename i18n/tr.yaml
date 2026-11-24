@@ -7811,59 +7811,72 @@ future:
       robotları Büyük Camii''de dolaşıyor, on bir dilde soruları yanıtlıyorlar; sonra Zamzam suyu taşıyabilir, vaazı her kulağa çevirebilir ve yeni ziyaretçinin kim olduğunu, kırk yıldır kimin geldiğini
       bilebilirler. Ama ders asla bina ile ilgili değildi: eşitlerin geometrisi ve soru hayali bir imgenin orada durup duramayacağıdır.'
     a:
-    - l: Grubun gerekliliği
-    - l: Sınıf dengeleme
+    - id: "concept/luzum-al-jamaa"
+      l: Grubun gerekliliği
+    - id: "concept/row-prayer-saff"
+      l: Sınıf dengeleme
   - k: Metin
     t: Kur'an'ı öğrenin
     d: 'Bitmek bilmeyen bir ezber arkadaşı: Kırk denemenizi ilk denemenin sabrıyla dinler, yorgun bir öğretmenin kaçırdığı tacut kağıdını alır ve zincirinde bildiği her şeyi ezberler — yani, herhangi bir
       okuyucudan ve anlatıcıların herhangi bir yolundan okumayı. Ezberleme parşömen, yazıcı ve kaset bandında kalır; ta ki makine başka bir taşıyıcı olana kadar. Müzenin bugünkü kuralı, metnin kendisinin
       asla bir enstrümandan gelmediğini söylüyor.'
     a:
-    - l: Metin koruma
+    - id: "concept/hifz-preservation"
+      l: Metin koruma
   - k: Seri
     t: Konuşmayı öğren
     d: 'Atıf, dünyanın ilk epistemolojik çizimidir — tarihleri, seyahatleri ve adaletleriyle adlandırılan bir dizi insan. 2077 yılında, öğrenen o zincirde yaşayan bir harita gibi yürür ve makine modernistlerin
       mum ışığında yaptığı şeyi yapar: iki anlatıcının gerçekten buluşup buluşmadığını doğrular ve haberler akranlarından sapır. Araç yenidir; şüpheye gelince, on dört yüzyıllıktır.'
     a:
-    - l: Atıf
-    - l: Referans bağlantı
+    - id: "concept/isnad"
+      l: Atıf
+    - id: "concept/ittisal-al-isnad"
+      l: Referans bağlantı
   - k: Yol
     t: Biyografi yürüyüş
     d: Göçün çölde günlerce sürdüğünü okumak yerine, 2077 yılında bir çocuk şafakta o yolda duruyor—sıcaklığı hissediyor, rehberin istekten uzaklaştığını görüyor ve mağaranın içinde bekliyor. Müzenin seyahat
       haritaları ilk adım; sürükleyici anlatı ise sırada. Hikaye her zaman böyle anlatıldı—ateşler, camilerde ve annelerin sesleriyle—ve sadece ateş değişti.
     a:
-    - l: Göç
-    - l: Thor Mağarası
+    - id: "event/hijra"
+      l: Göç
+    - id: "place/jabal-thawr-madina"
+      l: Thor Mağarası
   - k: Hac
     t: Kitlesel akın döneminde Hac
     d: 'Mecca, bugünden itibaren su dağıtmak, mermer temizlemek ve hacılara cevap vermek için robotlar kullanıyor. 2077 yılına gelindiğinde, kalabalık akışlarının zekası tarihsel çatışmaları hayal edilemez
       hale getirebilir, çeviri kulaklıkları emekli hacı için işaret diline işaret edebilir ve yolculuğu asla yapamayacak bir çiftçi bir ritüel simülasyonunda sadakatle yürüyebilir. Sonra bilim insanlarının
       şimdi sorduğu zor soru geliyor: Varlık amaç mıdır?'
     a:
-    - l: Mekke
-    - l: Hac Kararları
+    - id: "place/mecca"
+      l: Mekke
+    - id: "concept/hajj-rulings"
+      l: Hac Kararları
   - k: Referans
     t: Müfti ve Makine
     d: 'Her Müslüman aynı modeli sorabildiğinde, iki gelecek ayrılır: biri ijtihadın çoğaldığı — her bilginin on dört yüzyıllık metodolojiye dayalı yargıyı test etmesini sağlayan açık araçlar — ve diğerinde
       tek bir algoritmanın sessizce dünyadaki tek referans haline geldiği bir gelecek. Matbaa ezberleyicinin tekelini sona erdirdi ve veritabanı dünyanın ansiklopedisini sona erdirdi. Makinenin neyi bitirdiği
       veya kurtardığı hâlâ rapor ediliyor.'
     a:
-    - l: İctihad
-    - l: fetva
+    - id: "concept/ijtihad"
+      l: İctihad
+    - id: "concept/al-fatwa-ala-al-fadaiyyat"
+      l: fetva
   - k: dünyanın ötesinde
     t: Dünya Dışı Varlıkların Hukuk Anlayışı
     d: 'Aslında daha önce de olmuştu: 2007''de Fetva Konseyi, bir Müslüman öncünün gün doğumunu on altı kez gören bir istasyonda namaz kılabilmesi için on sekiz sayfa yazdı — Kabe''yi, inişini, dünyayı
       veya herhangi bir yönü kabul edebilsin; kalkış limanında beş namaz kılabilsin; ve bedeniniz yüzüyorsa niyetle hareket edebilsin. 2077''ye kadar Müslümanlar Mars''ta, kalıcı bir kutup gününde ve dönen
       uzay araçlarında yaşayabilirler. Sorular yeni görünüyor; ancak metodoloji — zorunlu namazın ağırlığı, uyarlanması ve ezberlenmesi — bu müzedeki en eski yöntemlerden biridir.'
     a:
-    - l: Namaz vakitleri
+    - id: "concept/awqat-al-salat"
+      l: Namaz vakitleri
   - k: Ağ
     t: Ulus Bir Ağ Olarak
     d: Yüzyılın ortalarına gelindiğinde, yaklaşık her üç kişiden biri Müslüman olacak—dünyanın en büyük ve en küçük dini grubu—milyarlarca hizmetçi makineyle şehirleri paylaşacak. Peki meslektaşınız yapay
       olduğunda kardeşlik ne anlama geliyor? Zamanlar, kendini bir şartla serbest bırakan programlanabilir vakıflara dönüşebilir ve zekat kendi başına sayılan parayla ödenebilir. Ulus her zaman bir ağ olmuştur—mesajlar,
       kervanlar ve iletim zincirlerinden oluşan bir ağ. Ve kablolar sadece onun en yeni bedenidir.
     a:
-    - l: vakıf
+    - id: "concept/waqf"
+      l: vakıf
   - k: Müze
     t: Ve bu müze
     d: 'Dürüstlük, bu son istasyonu aynı istasyon yapıyor: makinelerin çoğunu zaten yazdığı, kuralların incelediği ve durağan sayfalarla dondurulmuş bir İslam müzesi — makine hızı ile insan ezberlemesi

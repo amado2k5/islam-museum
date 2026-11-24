@@ -8181,8 +8181,10 @@ future:
   note: Ce qui suit est de la fiction fondée sur des preuves — de vrais robots, de vraies fatwas, et de vraies recherches — pas une prophétie. Chaque station vous ramène à l'intérieur du musée.
   sections:
   - a:
-    - l: La nécessité du groupe
-    - l: Nivellement des niveaux
+    - id: "concept/luzum-al-jamaa"
+      l: La nécessité du groupe
+    - id: "concept/row-prayer-saff"
+      l: Nivellement des niveaux
     d: 'En 2077, les rangées de prière du vendredi peuvent tourner autour d''un objectif, et non d''une colonne — des fidèles dans une réalité mixte debout épaule contre épaule avec des gens sur trois continents.
       Des robots guides parcourent la Grande Mosquée dès aujourd''hui, répondant aux questions en onze langues ; ils pourraient alors transporter de l''eau Zamzam, traduire le sermon à toutes les oreilles,
       et savoir qui est le nouveau visiteur et qui vient depuis quarante ans. Mais le cours n''a jamais porté sur le bâtiment : c''est la géométrie des égaux, et la question est de savoir si une image imaginaire
@@ -8191,7 +8193,8 @@ future:
     scene: Mosquée
     t: Le groupe
   - a:
-    - l: Préservation du texte
+    - id: "concept/hifz-preservation"
+      l: Préservation du texte
     d: 'Un compagnon de mémorisation infatigable : Il écoute vos quarante tentatives avec la patience d''une première tentative, reprend le faux faux de tajweing manqué par un professeur fatigué, et mémorise
       tout ce qu''il sait dans sa chaîne — c''est-à-dire la lecture, de n''importe quel lecteur, et à travers n''importe quel chemin de narrateurs. La mémorisation reste avec le parchemin, l''imprimante
       et la cassette ; jusqu''à ce que la machine devienne un autre support. La propre règle du musée d''aujourd''hui dit que le texte lui-même ne provient jamais d''un instrument.'
@@ -8199,8 +8202,10 @@ future:
     scene: hifz
     t: Apprenez le Coran
   - a:
-    - l: Attribution
-    - l: Connexion de référence
+    - id: "concept/isnad"
+      l: Attribution
+    - id: "concept/ittisal-al-isnad"
+      l: Connexion de référence
     d: 'L''attribution fut le premier dessin épistémologique au monde — une série de personnes nommées selon leurs histoires, leurs voyages et leur justice. En 2077, l''apprenant marche dans cette chaîne
       comme une carte vivante, et la machine fait ce que les modernistes faisaient à la lumière des chandelles : elle vérifie si les deux narrateurs se rencontrent réellement, et la nouvelle s''écarte de
       ses pairs. L''outil est nouveau ; quant au doute, il a quatorze siècles.'
@@ -8208,16 +8213,20 @@ future:
     scene: isnad
     t: Apprenez à parler
   - a:
-    - l: Migration
-    - l: Grotte de Thor
+    - id: "event/hijra"
+      l: Migration
+    - id: "place/jabal-thawr-madina"
+      l: Grotte de Thor
     d: Au lieu de lire que la migration a duré plusieurs jours dans le désert, un enfant de l'année 2077 se tient sur cette route à l'aube — ressentant la chaleur, voyant le guide s'éloigner de la demande
       et attendant à l'intérieur de la grotte. Les cartes de voyage du musée sont une première étape ; le récit immersif vient ensuite. C'est ainsi que l'histoire a toujours été racontée — à propos des
       incendies, dans les mosquées, et avec les voix des mères — et seul le feu a changé.
     k: La route
     t: La biographie de la marche
   - a:
-    - l: La Mecque
-    - l: Décisions du Hajj
+    - id: "place/mecca"
+      l: La Mecque
+    - id: "concept/hajj-rulings"
+      l: Décisions du Hajj
     d: 'La Mecque emploie des robots dès aujourd''hui pour distribuer l''eau, nettoyer le marbre et répondre aux pèlerins. D''ici 2077, l''intelligence des flux de foule pourrait rendre les affrontements
       historiques inimaginables, les écouteurs de traduction pourraient faire référence à la langue des signes pour le pèlerin retraité, et un agriculteur qui ne pourra peut-être jamais faire le voyage
       pourra marcher fidèlement dans une simulation rituelle. Puis vient la question difficile que se posent les scientifiques aujourd''hui : la présence est-elle le but voulu ?'
@@ -8225,15 +8234,18 @@ future:
     scene: hajj
     t: Le Hajj en période d'afflux massif
   - a:
-    - l: Ijtihad
-    - l: Fatwa
+    - id: "concept/ijtihad"
+      l: Ijtihad
+    - id: "concept/al-fatwa-ala-al-fadaiyyat"
+      l: Fatwa
     d: 'Lorsque chaque musulman peut poser le même modèle, deux futurs se ramifient : l''un où l''ijtihad se multiplie — des outils ouverts permettant à chaque érudit de tester son jugement sur quatorze
       siècles de méthodologie — et l''autre où un seul algorithme devient discrètement la seule référence sur terre. L''imprimerie a mis fin au monopole du mémoriseur, et la base de données a mis fin à
       l''encyclopédie mondiale. Ce que la machine termine ou libère est encore en cours de rapport.'
     k: Référence
     t: Le Mufti et la Machine
   - a:
-    - l: Heures de prière
+    - id: "concept/awqat-al-salat"
+      l: Heures de prière
     d: 'Cela s''est effectivement produit auparavant : en 2007, le Conseil de la Fatwa a rédigé dix-huit pages afin qu''un pionnier musulman puisse prier à une station qui voit le lever du soleil seize
       fois par jour — recevoir la Kaaba, son atterrissage, la terre ou n''importe quelle direction ; arriver cinq prières au moment du port de départ ; et bouger avec intention si votre corps flotte. D''ici
       2077, les musulmans pourraient vivre sur Mars, lors d''une journée permanente du pôle, et dans des vaisseaux spatiaux en rotation. Les questions semblent nouvelles ; mais la méthodologie — poids,
@@ -8242,7 +8254,8 @@ future:
     scene: Espace
     t: Jurisprudence des extraterrestres
   - a:
-    - l: Dotation
+    - id: "concept/waqf"
+      l: Dotation
     d: D'ici le milieu du siècle, environ une personne sur trois sera musulmane — le plus grand et le plus petit groupe religieux sur terre — partageant des villes avec des milliards de machines de servite.
       Alors, que signifie la fraternité lorsque votre collègue est artificiel ? Les temps peuvent devenir des dotations programmables qui se libèrent à condition donnée, et la zakat peut être payée sur
       de l'argent qui compte lui-même. La nation a toujours été un réseau — un réseau de messages, de caravanes et de chaînes de transmission. Et les câbles ne sont que sa chair la plus nouvelle de l'histoire.
