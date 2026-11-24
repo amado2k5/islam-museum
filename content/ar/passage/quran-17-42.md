@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-5-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يأمر الله نبيه أن يقول للمشركين إنه لو كان معه آلهة كما يقولون لطلبت تلك الآلهة القربة إلى الله ذي العرش وسبيلاً إلى منازعته أو التقرب منه. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=17&tAyahNo=42&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «قُلْ لَّوْ كَانَ مَعَهُ آلِهَةٌ كَمَا يَقُولُونَ إِذاً لاَّبْتَغَوْاْ إِلَىٰ ذِي ٱلْعَرْشِ سَبِيلاً»: قل يا محمد لهؤلاء المشركين الذين جعلوا مع الله إلهاً آخر: لو كان الأمر كما تقولون: من أن معه آلهة، وليس ذلك كما تقولون، إذن لابتغت تلك الآلهة القُربة من الله ذي العرش العظيم، والتمست الزُّلْفة إليه، والمرتبة منه. كما: وعن قتادة، قوله: «قُلْ لَوْ كانَ مَعَهُ آلِهَةٌ كمَا يَقُولُونَ إذًا لابْتَغَوْا إلى ذِي العَرْشِ سَبِيلاً» يقول: لو كان معه آلهة إذن لعرفوا فضله ومرتبته ومنزلته عليهم، فابتغوا ما يقرّبهم إليه. عن معمر، عن قتادة «إذًا لابْتَغَوْا إلى ذِي العَرْشِ سَبِيلاً» قال: لابتغَوا القُرب إليه، مع أنه ليس كما يقولون. وينقل في المقطع أقوالاً عن قتادة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=17&tAyahNo=42&tDisplay=yes&UserProfile=0&LanguageId=1

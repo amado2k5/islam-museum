@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-6-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-ينقل الطبري قول مشركي قريش إنهم لن يصدّقوا النبي حتى يُخرج لهم من الأرض عيناً تفيض بالماء، ويفسّر «ينبوعاً» بما ينبع من الماء ويفور. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=17&tAyahNo=90&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَقَالُواْ لَن نُّؤْمِنَ لَكَ حَتَّىٰ تَفْجُرَ لَنَا مِنَ ٱلأَرْضِ يَنْبُوعاً»: وقال يا محمد، المشركون بالله من قومك لك: لن نصدّقك، حتى تفجِّر لنا من أرضنا هذه عينا تنبع لنا بالماء. وقوله «يَنْبُوعاً» يفعول من قول القائل: نبع الماء: إذا ظهر وفار، ينْبُع ويَنْبَع، وهو ما نبع. كما: وعن قتادة، قوله حتى «تَفْجُرَ لَنا مِنَ الأرْضِ يَنْبُوعاً»: أي حتى تفْجُر لنا من الأرض عيونا: أي ببلدنا هذا. عيوناً. عن معمر، عن قتادة، مثله. وقال: جميعا عن ابن أبي نجيح، عن مجاهد «يَنْبُوعاً» قال: عيوناً. وقال: ثني حجاج، عن ابن جريج، عن مجاهد، مثله. وينقل في المقطع أقوالاً عن مجاهد وقتادة وابن جريج وإبراهيم.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=17&tAyahNo=90&tDisplay=yes&UserProfile=0&LanguageId=1

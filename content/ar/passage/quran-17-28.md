@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-5-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن النبي إذا أعرض عمّن سأله ولم يجد ما يعطيه حياءً منهم، وهو يرجو رحمة من ربه، فليقل لهم قولاً ميسوراً أي ليّناً حسناً يعدهم فيه خيراً. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=17&tAyahNo=28&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَإِمَّا تُعْرِضَنَّ عَنْهُمُ ٱبْتِغَآءَ رَحْمَةٍ مِّن رَّبِّكَ تَرْجُوهَا فَقُل لَّهُمْ قَوْلاً مَّيْسُوراً»: وإن تعرض يا محمد عن هؤلاء الذين أمرتك أن تؤتيهم حقوقهم إذا وجدت إليها السبيل بوجهك عند مسألتهم إياك، ما لا تجد إليه سبيلاً، حياء منهم ورحمة لهم «ابْتِغاءَ رَحْمَةٍ مِنْ رَبِّكَ» يقول: انتظار رزق تنتظره من عند ربك، وترجو تيسير الله إياه لك، فلا تؤيسهم، ولكن قل لهم قولاً ميسوراً. يقول: ولكن عدهم وعدا جميلاً، بأن تقول: سيرزق الله فأعطيكم، وما أشبه ذلك من القول اللين غير الغليظ، كما قال جلّ ثناؤه«وأمَّا السَّائِلَ فَلاَ تَنْهَرْ» وينقل في المقطع أقوالاً عن ابن عباس ومجاهد وقتادة والحسن وعكرمة وابن جريج وغيرهم.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=17&tAyahNo=28&tDisplay=yes&UserProfile=0&LanguageId=1

@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-5-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن عباد الله الذين أطاعوه واتبعوا أمره وعصوا إبليس ليس له عليهم حجة، ويخاطب النبي بأن ربه كافيه حفيظاً وقيّماً بأمره فينقاد له. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=17&tAyahNo=65&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «إِنَّ عِبَادِي لَيْسَ لَكَ عَلَيْهِمْ سُلْطَانٌ وَكَفَىٰ بِرَبِّكَ وَكِيلاً»: يقول تعالى ذكره لإبليس: إن عبادي الذين أطاعوني. فاتبعوا أمري وعصوك يا إبليس. ليس لك عليهم حجة. وقوله: «وكَفَى بَرَبِّكَ وَكِيلاً» يقول جلّ ثناؤه لنبيه محمد: وكفاك يا محمد ربك حفيظاً، وقيما بأمرك. فانقَدْ لأمره. وبلغ رسالاته هؤلاء المشركين. ولا تخف أحداً، فإنه قد توكل بحفظك ونصرتك، كما: وعن قتادة، قوله: «إنَّ عِبادِي لَيْسَ لَكَ عَلَيْهِمْ سُلْطانٌ وكَفَى بَرَبِّكَ وَكِيلاً» وعباده المؤمنون. وقال الله في آية أخرى«إنَّما سُلْطانُهُ عَلى الَّذِينَ يَتَوَلَّوْنَهُ والَّذِينَ هُمْ بِهِ مُشْرِكُونَ» وينقل في المقطع أقوالاً عن قتادة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=17&tAyahNo=65&tDisplay=yes&UserProfile=0&LanguageId=1

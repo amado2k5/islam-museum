@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-5-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن الله أمر نبيه أن يقول للمنكرين البعث: كونوا حجارة أو حديداً، أي لو صرتم إلى أشد الأشياء صلابة فإن الله قادر على بعثكم. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=17&tAyahNo=50&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 50 إلى 51 مقطعاً واحداً. يفسّر قوله «قُلْ كُونُواْ حِجَارَةً أَوْ حَدِيداً»: قل يا محمد للمكذّبين بالبعث بعد الممات من قومك القائلين«أئِذَا كُنَّا عِظاماً وَرُفاتاً أئِنَّا لَمَبْعُوثُونَ خَلْقاً جَدِيداً» كونوا إن عجبتم من إنشاء الله إياكم، وإعادته أجسامكم، خلقاً جديداً بعد بِلاكم في التراب، ومصيركم رُفاتاً، وأنكرتم ذلك من قُدرته حجارة أو حديداً، أو خلقاً مما يكبر في صدوركم إن قدرتم على ذلك، فإني أحييكم وأبعثكم خلقاً جديداً بعد مصيركم كذلك كما بدأتكم أوّل مرّة. واختلف أهل التأويل في المعنىّ بقوله «أوْ خَلْقاً مِمَّا يَكْبُرُ فِي صُدُورِكُمْ» فقال بعضهم: عُنِي به الموت، وأريد به: أو كونوا الموت، فإنكم إن كنتموه أمتُّكم ثم بعثتكم بعد ذلك يوم البعث. وينقل في المقطع أقوالاً عن ابن عباس وقتادة والحسن وسعيد بن جبير وابن جريج وعطية.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=17&tAyahNo=50&tDisplay=yes&UserProfile=0&LanguageId=1

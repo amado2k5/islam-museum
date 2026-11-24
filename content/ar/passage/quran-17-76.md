@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-5-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن المشركين كادوا يستخفّون النبي من الأرض التي هو بها ليخرجوه منها، ولو أخرجوه لم يلبثوا بعده فيها إلا قليلاً. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=17&tAyahNo=76&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَإِن كَادُواْ لَيَسْتَفِزُّونَكَ مِنَ ٱلأَرْضِ لِيُخْرِجوكَ مِنْهَا وَإِذاً لاَّ يَلْبَثُونَ خِلافَكَ إِلاَّ قَلِيلاً»: يقول عزّ وجلّ: وإن كاد هؤلاء القوم ليستفزونك من الأرض: يقول: ليستخفونك من الأرض التي أنت بها ليخرجوك منها «وَإذاً لا يَلْبَثُونَ خِلافَكَ إلاَّ قَلِيلاً» يقول: ولو أخرجوك منها لم يلبثوا بعدك فيها إلاَّ قليلاً، حتى أهلكهم بعذاب عاجل. واختلف أهل التأويل في الذين كادوا أن يستفزّوا رسول الله ليخرجوه من الأرض وفي الأرض التي أرادوا أن يخرجوه منها فقال بعضهم: الذين كادوا أن يستفزّوا رسول الله من ذلك اليهود، والأرض التي أرادوا أن يخرجوه منها المدينة. وينقل في المقطع أقوالاً عن مجاهد وقتادة وابن جريج.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=17&tAyahNo=76&tDisplay=yes&UserProfile=0&LanguageId=1

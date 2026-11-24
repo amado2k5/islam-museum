@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-6-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن الآية تحدٍّ لمن زعموا أنهم قادرون على الإتيان بمثل القرآن: لو اجتمع الإنس والجن ما أتوا بمثله ولو تعاونوا. وينقل أن سبب نزولها جدال قوم من اليهود. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=17&tAyahNo=88&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «قُل لَّئِنِ ٱجْتَمَعَتِ ٱلإِنْسُ وَٱلْجِنُّ عَلَىٰ أَن يَأْتُواْ بِمِثْلِ هَٰذَا ٱلْقُرْآنِ لاَ يَأْتُونَ بِمِثْلِهِ وَلَوْ كَانَ بَعْضُهُمْ لِبَعْضٍ ظَهِيراً»: يقول جل ثناؤه: قل يا محمد للذين قالوا لك: أنا نأتي بمثل هذا القرآن: لئن اجتمعت الإنس والجنّ على أن يأتوا بمثله، لا يأتون أبداً بمثله، ولو كان بعضهم لبعض عوناً وظهراً. وذُكِر أن هذه الآية نزلت على رسول الله بسبب قوم من اليهود جادلوه في القرآن، وسألوه أن يأتيهم بآية غيره شاهدة له على نبّوته، لأن مثل هذا القرآن بهم قدرة على أن يأتوا به. وينقل في المقطع أقوالاً عن ابن عباس وابن جريج.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=17&tAyahNo=88&tDisplay=yes&UserProfile=0&LanguageId=1

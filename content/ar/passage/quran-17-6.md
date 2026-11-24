@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-5-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن الله بعد ذلك أعاد لبني إسرائيل الغلبة على أولئك القوم، وأمدّهم بالأموال والبنين وجعلهم أكثر نفيراً، ويورد رواية عن السدي في غزوهم لهم. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=17&tAyahNo=6&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «ثُمَّ رَدَدْنَا لَكُمُ ٱلْكَرَّةَ عَلَيْهِمْ وَأَمْدَدْنَاكُم بِأَمْوَالٍ وَبَنِينَ وَجَعَلْنَاكُمْ أَكْثَرَ نَفِيراً»: ثم أدلناكم يا بني إسرائيل على هؤلاء القوم الذين وصفهم جلّ ثناؤه أنه يبعثهم عليهم، وكانت تلك الإدالة والكرّة لهم عليهم، فيما ذكر السديّ في خبره أن بني إسرائيل غزوهم، وأصابوا منهم، واستنقذوا ما في أيديهم منهم. وفي قول آخرين: إطلاق الملك الذي غزاهم ما في يديه من أسراهم، وردّ ما كان أصاب من أموالهم عليهم من غير قتال. وفي قول ابن عباس الذي رواه عطية عنه هي إدالة الله إياهم من عدوّهم جالوت حتى قتلوه، وقد ذكرنا كلّ ذلك بأسانيده فيما مضى «وأمْدَدْناكُمْ بأمْوَالٍ وَبَنِينَ» يقول: وزدنا فيما أعطيناكم من الأموال والبنين. وقوله: «وَجَعَلْناكُمْ أكْثَرَ نَفِيراً» يقول: وصيرناكم أكثر عدَدَ نافرٍ منهم. وينقل في المقطع أقوالاً عن قتادة وابن زيد وسفيان.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=17&tAyahNo=6&tDisplay=yes&UserProfile=0&LanguageId=1

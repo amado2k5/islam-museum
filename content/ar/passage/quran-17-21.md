@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-5-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يخاطب الله نبيه بأن ينظر كيف فضّل بعض الناس على بعض في الدنيا، وأن الآخرة أكبر درجات وأكبر تفضيلاً مما في الدنيا لمن عمل لها موقناً بالثواب. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=17&tAyahNo=21&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «ٱنظُرْ كَيْفَ فَضَّلْنَا بَعْضَهُمْ عَلَىٰ بَعْضٍ وَلَلآخِرَةُ أَكْبَرُ دَرَجَاتٍ وَأَكْبَرُ تَفْضِيلاً»: انظر يا محمد بعين قلبك إلى هذين الفريقين اللذين هم أحدهما الدار العاجلة، وإياها يطلب، ولها يعمل والآخر الذي يريد الدار الآخرة، ولها يسعى موقناً بثواب الله على سعيه، كيف فضَّلنا أحد الفريقين على الآخر، بأن بصرّنا هذا رشده، وهديناه للسبيل التي هي أقوم، ويسرناه للذي هو أهدى وأرشد، وخذلنا هذا الآخر، فأضللناه عن طريق الحقّ، وأغشينا بصره عن سبيل الرشد «وَللآخِرَةُ أكْبَرُ دَرَجاتٍ» يقول: وفريق مريد الآخرة أكبر في الدار الآخرة درجات بعضهم على بعض لتفاوت منازلهم بأعمالهم في الجنة وأكبر تفضيلاً بتفضيل الله بعضهم على بعض من هؤلاء الفريق الآخرين في الدنيا فيما بسطنا لهم فيها. وينقل في المقطع أقوالاً عن قتادة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=17&tAyahNo=21&tDisplay=yes&UserProfile=0&LanguageId=1

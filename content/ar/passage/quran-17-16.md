@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-5-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يعرض الطبري اختلاف القراء في «أمرنا مترفيها»، ويذكر أن أكثر المفسرين فسّروه بأن الله أمر المترفين بالطاعة ففسقوا، ويجيز أيضاً معنى جعلهم أمراء أو أكثرهم، فحقّ عليها القول فدمّرها الله تدميراً. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=17&tAyahNo=16&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَإِذَآ أَرَدْنَآ أَن نُّهْلِكَ قَرْيَةً أَمَرْنَا مُتْرَفِيهَا فَفَسَقُواْ فِيهَا فَحَقَّ عَلَيْهَا ٱلْقَوْلُ فَدَمَّرْنَاهَا تَدْمِيراً»: اختلف القرّاء في قراءة قوله «أمَرْنا مُتْرَفِيها» فقرأت ذلك عامة قرّاء الحجاز والعراق «أمَرْنا» بقصر الألف وغير مدها وتخفيف الميم وفتحها. وإذا قرىء ذلك كذلك، فإن الأغلب من تأويله: أمرنا مترفيها بالطاعة، ففسقوا فيها بمعصيتهم الله، وخلافهم أمره، كذلك تأوّله كثير ممن قرأه كذلك. وينقل في المقطع أقوالاً عن ابن عباس ومجاهد وسعيد بن جبير وابن جريج والربيع.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=17&tAyahNo=16&tDisplay=yes&UserProfile=0&LanguageId=1

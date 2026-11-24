@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-5-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن الذين يدعوهم المشركون أرباباً هم أنفسهم يبتغون إلى ربهم الوسيلة والقربة أيهم أقرب، ويرجون رحمته ويخافون عذابه، وأن عذاب ربك كان محذوراً. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=17&tAyahNo=57&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «أُولَٰئِكَ ٱلَّذِينَ يَدْعُونَ يَبْتَغُونَ إِلَىٰ رَبِّهِمُ ٱلْوَسِيلَةَ أَيُّهُمْ أَقْرَبُ وَيَرْجُونَ رَحْمَتَهُ وَيَخَافُونَ عَذَابَهُ إِنَّ عَذَابَ رَبِّكَ كَانَ مَحْذُوراً»: هؤلاء الذين يدعوهم هؤلاء المشركون أرباباً «يَبْتَغُونَ إلى رَبِّهِمُ الوَسِيلَة» يقول: يبتغي المدعوّون أرباباً إلى ربهم القُربة والزُّلفة، لأنهم أهل إيمان به، والمشركون بالله يعبدونهم من دون الله «أيُّهُمْ أقْرَبُ» أيهم بصالح أعماله واجتهاده في عبادته أقرب عنده زلفة «وَيَرْجُونَ» بأفعالهم تلك «رَحْمَتَهُ وَيخافُونَ» بخلافهم أمره «عَذَابَهُ إنَّ عَذَابَ رَبِّكَ» يا محمد «كانَ مَحْذوراً» متقي. وينقل في المقطع أقوالاً عن قتادة والأعمش وإبراهيم.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=17&tAyahNo=57&tDisplay=yes&UserProfile=0&LanguageId=1

@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-5-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يخاطب الطبري الذين قالوا من مشركي العرب إن الملائكة بنات الله فيقول: أفخصّكم ربكم بالذكور واتخذ لنفسه إناثاً من الملائكة، وإنكم لتقولون قولاً عظيماً. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=17&tAyahNo=40&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «أَفَأَصْفَاكُمْ رَبُّكُم بِٱلْبَنِينَ وَٱتَّخَذَ مِنَ ٱلْمَلاۤئِكَةِ إِنَاثاً إِنَّكُمْ لَتَقُولُونَ قَوْلاً عَظِيماً»: يقول تعالى ذكره للذين قالوا من مشركي العرب: الملائكة بنات الله «أفأصْفاكُمْ» أيها الناس «رَبُّكُمْ بالبَنينَ» يقول: أفخصكم ربكم بالذكور من الأولاد «واتَّخَذَ مِنَ المَلائِكَةِ إناثاً» وأنتم لا ترضونهن لأنفسكم، بل تئدونهن، وتقتلونهن، فجعلتم لله ما لا ترضونه لأنفسكم «إنَّكُمْ لَتَقُولُونَ قَوْلاً عَظِيماً» يقول تعالى ذكره لهؤلاء المشركين الذين قالوا من الفرية على الله ما ذكرنا: إنكم أيها الناس لتقولون بقيلكم: الملائكة بنات الله، قولاً عظيماً، وتفترون على الله فرية منكم. وكان قتادة يقول في ذلك ما: عن معمر، عن قتادة «واتَّخَذَ مِنَ المَلائِكَةِ إناثاً» قال: قالت اليهود: الملائكة بنات الله. وينقل في المقطع أقوالاً عن قتادة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=17&tAyahNo=40&tDisplay=yes&UserProfile=0&LanguageId=1

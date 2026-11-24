@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-5-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن الله ينهى نبيه عن أن يجعل معه شريكاً في الألوهة والعبادة، وأنه إن فعل قعد مذموماً ملوماً مخذولاً لا ناصر له. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=17&tAyahNo=22&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «لاَّ تَجْعَل مَعَ ٱللَّهِ إِلَٰهاً آخَرَ فَتَقْعُدَ مَذْمُوماً مَّخْذُولاً»: لا تجعل يا محمد مع الله شريكاً في ألوهته وعبادته، ولكن أخلص له العبادة، وأفرد له الألوهة، فإنه لا إله غيره، فإنك إن تجعل معه إلهاً غيره، وتعبد معه سواه، تقعد مذموما يقول: تصير ملوماً على ما ضيعت من شكر الله على ما أنعم به عليك من نعمه، وتصييرك الشكر لغير من أولاك المعروف، وفي إشراكك في الحمد من لم يشركه في النعمة عليك غيره، مخذولاً قد أسلمك ربك لمن بغاك سوءاً، وإذا أسلمك ربك الذي هو ناصر أوليائه لم يكن لك من دونه وليّ ينصرك ويدفع عنك. كما: وعن قتادة، قوله «لا تَجْعَلْ مَعَ اللّهِ إلَها آخَرَ فَتَقْعُدَ مَذْمُوماً مَخْذُولاً» يقول: مذموما في نعمة الله. وينقل في المقطع أقوالاً عن قتادة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=17&tAyahNo=22&tDisplay=yes&UserProfile=0&LanguageId=1

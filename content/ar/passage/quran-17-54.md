@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-5-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يخاطب الطبري المشركين من قريش بأن ربهم أعلم بهم، إن يشأ يرحمهم بالتوبة والإيمان أو يعذبهم على كفرهم، وأن النبي ما أُرسل عليهم وكيلاً أي حفيظاً يُجبرهم على الإيمان. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=17&tAyahNo=54&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «رَّبُّكُمْ أَعْلَمُ بِكُمْ إِن يَشَأْ يَرْحَمْكُمْ أَوْ إِن يَشَأْ يُعَذِّبْكُمْ وَمَآ أَرْسَلْنَاكَ عَلَيْهِمْ وَكِيلاً»: يقول تعالى ذكره لهؤلاء المشركين من قريش الذين قالوا«أئِذَا كُنَّا عِظاماً وَرُفاتاً أئِنَّا لَمَبْعُوثُونَ خَلْقاً جَدِيداً» «رَبُّكُمْ» أيها القوم «أعْلَمُ بِكُمْ إنْ يَشأْ يَرْحَمُكُمْ» فيتوب عليكم برحمته، حتى تنيبوا عما أنتم عليه من الكفر به وباليوم الآخر «وَإنْ يَشَأْ يُعَذّبْكُمْ» بأن يخذلكم عن الإيمان، فتموتوا على شرككم، فيعذّبكم يوم القيامة بكفركم به.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=17&tAyahNo=54&tDisplay=yes&UserProfile=0&LanguageId=1

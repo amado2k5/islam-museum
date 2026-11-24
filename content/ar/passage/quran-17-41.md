@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-5-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يذكر الطبري أن الله صرّف لهؤلاء المشركين في القرآن العبر والآيات والحجج وضرب الأمثال والإنذار ليتذكروا، فما يزيدهم ذلك إلا نفوراً عن الحق. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=17&tAyahNo=41&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَلَقَدْ صَرَّفْنَا فِي هَٰذَا ٱلْقُرْآنِ لِيَذَّكَّرُواْ وَمَا يَزِيدُهُمْ إِلاَّ نُفُوراً»: «وَلَقَدْ صَرَّفْتا» لهؤلاء المشركين المفترين على الله «فِي هَذَا القُرآنِ» العِبَر والآيات والحجج، وضربنا لهم فيه الأمثال، وحذّرناهم فيه وأنذرناهم «لِيَذَّكَّرُوا» يقول: ليتذكروا تلك الحجج عليهم، فيعقلوا خطأ ما هم عليه مقيمون، ويعتبروا بالعبر، فيتعظوا بها، وينيبوا من جهالتهم، فما يعتبرون بها، ولا يتذكرون بما يرد عليهم من الآيات والنُّذر، وما يزيدهم تذكيرنا إياهم «إلاَّ نُفُوراً» يقول: إلا ذهاباً عن الحقّ، وبُعداً منه وهرباً. والنفور في هذا الموضع مصدر من قولهم: نفر فلان من هذا الأمر ينفِر منه نَفْراً ونفوراً.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=17&tAyahNo=41&tDisplay=yes&UserProfile=0&LanguageId=1

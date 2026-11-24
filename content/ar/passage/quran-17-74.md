@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-5-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن الله لولا أن ثبّت نبيه بعصمته مما دعاه إليه المشركون لكاد يميل إليهم شيئاً قليلاً، وأن هذا الميل القليل هو ما كان همّ به. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=17&tAyahNo=74&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَلَوْلاَ أَن ثَبَّتْنَاكَ لَقَدْ كِدتَّ تَرْكَنُ إِلَيْهِمْ شَيْئاً قَلِيلاً»: ولولا أن ثبَّتناك يا محمد بعصمتنا إياك عما دعاك إليه هؤلاء المشركون من الفتنة «لَقَدْ كِدْتَ تَرْكَنُ إلَيْهِمْ شَيْئاً قَلِيلاً» يقول: لقد كدت تميل إليهم وتطمئنّ شيئاً قليلاً، وذلك ما كان همّ به من أن يفعل بعض الذي كانوا سألوه فعله، فقال رسول الله فيما ذكر حين نزلت هذه الآية، ما: وعن قتادة، في قوله «وَلَوْلا أنْ ثَبَّتْناكَ لَقَدْ كِدْتَ تَرْكَنْ إلَيْهِمْ شَيْئا قَلِيلاً» فقال رسول الله: " لا تَكِلْنِي إلى نَفْسي طَرْفَةَ عَيْنٍ ". وينقل في المقطع أقوالاً عن قتادة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=17&tAyahNo=74&tDisplay=yes&UserProfile=0&LanguageId=1

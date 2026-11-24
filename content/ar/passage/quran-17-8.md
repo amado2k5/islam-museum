@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-5-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يفسّر الطبري «عسى ربكم أن يرحمكم» برجاء رحمة الله لبني إسرائيل بعد انتقامه منهم، وأنهم إن عادوا إلى المعصية عاد إلى عقوبتهم، وأن جهنم للكافرين حصيراً أي سجناً ومحبساً. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=17&tAyahNo=8&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «عَسَىٰ رَبُّكُمْ أَن يَرْحَمَكُمْ وَإِنْ عُدتُّمْ عُدْنَا وَجَعَلْنَا جَهَنَّمَ لِلْكَافِرِينَ حَصِيراً»: لعلّ ربكم يا بني إسرائيل أن يرحمكم بعد انتقامه منكم بالقوم الذين يبعثهم الله عليكم ليسوء مبعثه عليكم وجوهكم، وليدخلوا المسجد كما دخلوه أوّل مرّة، فيستنقذكم من أيديهم، وينتشلكم من الذلّ الذي يحله بكم، ويرفعكم من الخمولة التي تصيرون إليها، فيعزّكم بعد ذلك. و«عسى» من الله: واجب. وفعل الله ذلك بهم، فكثر عددهم بعد ذلك، ورفع خَساستهم، وجعل منهم الملوك والأنبياء، فقال جلّ ثناؤه لهم: وإن عدتم يا معشر بني إسرائيل لمعصيتي وخلاف أمري، وقتل رسلي، عدنا عليكم بالقتل والسِّباء، وإحلال الذلّ والصَّغار بكم، فعادوا، فعاد الله عليهم بعقابه وإحلال سخطه بهم. وينقل في المقطع أقوالاً عن ابن عباس وقتادة وسعيد بن جبير وابن زيد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=17&tAyahNo=8&tDisplay=yes&UserProfile=0&LanguageId=1

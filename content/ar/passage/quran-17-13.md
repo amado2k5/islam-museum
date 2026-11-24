@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-5-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يفسّر الطبري «طائره» بما قضى الله من شقاء أو سعادة يلزم كل إنسان بعمله في عنقه، ويبيّن أن العرب كانت تتفاءل أو تتشاءم بالطير فجعل الله ما يلزمهم مثلاً لذلك، وأن الله يخرج لكل إنسان يوم القيامة كتاباً يلقاه منشوراً. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=17&tAyahNo=13&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَكُلَّ إِنْسَانٍ أَلْزَمْنَاهُ طَآئِرَهُ فِي عُنُقِهِ وَنُخْرِجُ لَهُ يَوْمَ ٱلْقِيَامَةِ كِتَاباً يَلْقَاهُ مَنْشُوراً»: وكلّ إنسان ألزمناه ما قضى له أنه عامله، وهو صائر إليه من شقاء أو سعادة بعمله في عنقه لا يفارقه. وإنما قوله «ألْزَمْناهُ طائِرَهُ» مثل لما كانت العرب تتفاءل به أو تتشاءم من سوانح الطير وبوارحها، فأعلمهم جلّ ثناؤه أن كلّ إنسان منهم قد ألزمه ربه طائره في عنقه نحسا كان ذلك الذي ألزمه من الطائر، وشقاء يورده سعيراً، أو كان سعداً يورده جنات عدن. وينقل في المقطع أقوالاً عن ابن عباس ومجاهد وقتادة والحسن وابن جريج.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=17&tAyahNo=13&tDisplay=yes&UserProfile=0&LanguageId=1

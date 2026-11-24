@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-5-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن من كان يريد الدنيا العاجلة ولها يعمل ولا يوقن بالمعاد عجّل الله له فيها ما يشاء لمن يريد، ثم جعل له جهنم يصلاها مذموماً مدحوراً. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=17&tAyahNo=18&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «مَّن كَانَ يُرِيدُ ٱلْعَاجِلَةَ عَجَّلْنَا لَهُ فِيهَا مَا نَشَآءُ لِمَن نُّرِيدُ ثُمَّ جَعَلْنَا لَهُ جَهَنَّمَ يَصْلاهَا مَذْمُوماً مَّدْحُوراً»: من كان طلبه الدنيا العاجلة ولها يعمل ويسعى، وإياها يبتغي، لا يوقن بمعاد، ولا يرجو ثواباً ولا عقاباً من ربه على عمله «عَجَّلْنا لَهُ فِيها ما نَشاءُ لِمَنْ نُرِيدُ» يقول: يعجل الله له في الدنيا ما يشاء من بسط الدنيا عليه، أو تقتيرها لمن أراد الله أن يفعل ذلك به، أو إهلاكه بما يشاء من عقوباته. «ثُمَّ جَعَلْنا لَهُ جَهَنَّمَ يَصْلاها» يقول: ثم أصليناه عند مقدمه علينا في الآخرة جهنم، «مَذْمُوماً» على قلة شكره إيانا، وسوء صنيعه فيما سلف من أيادينا عنده في الدنيا «مَدْحُوراً» يقول: مبعداً: مقصى في النار. وينقل في المقطع أقوالاً عن ابن عباس وقتادة وابن زيد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=17&tAyahNo=18&tDisplay=yes&UserProfile=0&LanguageId=1

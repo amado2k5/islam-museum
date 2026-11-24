@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-6-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يرد الطبري على استنكارهم بأن الأرض لو كان سكانها ملائكة لأُرسل إليهم ملك رسولاً، لأن الملائكة لا يراها إلا مثلها أو من خصّه الله برؤيتها. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=17&tAyahNo=95&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «قُل لَوْ كَانَ فِي ٱلأَرْضِ مَلاۤئِكَةٌ يَمْشُونَ مُطْمَئِنِّينَ لَنَزَّلْنَا عَلَيْهِم مِّنَ ٱلسَّمَآءِ مَلَكاً رَّسُولاً»: يقول تعالى ذكره لنبيه: قل يا محمد لهؤلاء الذين أبوا الإيمان بك وتصديقك فيما جئتهم به من عندي، استنكاراً لأن يبعث الله رسولاً من البشر: لو كان أيها الناس في الأرض ملائكة يمشون مطمئنين، لَنَزَّلْنَا عليهم من السماء ملَكاً رسولاً، لأن الملائكة إنما تراهم أمثالهم من الملائكة، ومن خصّه الله من بني آدم برؤيتها، فأما غيرهم فلا يقدرون على رؤيتها فكيف يبعث إليهم من الملائكة الرسل، وهم لا يقدرون على رؤيتهم وهم بهيئاتهم التي خلقهم الله بها، وإنما يرسل إلى البشر الرسول منهم، كما لو كان في الأرض ملائكة يمشون مطمئنين، ثم أرسلنا إليهم رسولاً أرسلناه منهم ملَكاً مثلهم.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=17&tAyahNo=95&tDisplay=yes&UserProfile=0&LanguageId=1
