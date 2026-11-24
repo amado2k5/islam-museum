@@ -11,11 +11,8 @@ al-Baqara 2:229 ayetinin nüzul sebebi hakkında es-Suyuti'nin rivayeti; Lübab�
 The verse, in al-Suyuti's heading: «ولا يحل لكم».
 
 ## Tam rivayet (Arapça kaynak metin)
-<div dir="rtl" lang="ar">
 
 ولا يحل لكم أخرج أبو داود في الناسخ والمنسوخ عن ابن عباس قال كان الرجل يأكل مال امرأته من نحلة الذي نحلها وغيره لا يرى أن عليه جناحا فانزل الله ولا يحل لكم أن تأخدوا مما آتيتموهن شيئا أخرج ابن جرير عن ابن جريج قال
-
-</div>
 
 ## Place in the museum
 Kaynak: [[work/lubab-al-nuqul-suyuti|es-Suyuti'nin Lubab al-Nuqul]]. Ayet: [[passage/quran-2-229|Kur'an 2-229]].

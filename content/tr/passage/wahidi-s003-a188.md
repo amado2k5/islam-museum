@@ -11,11 +11,8 @@ Al 'Imran 3:188 ayetinin nüzül sebebi hakkında El-Vahidi'nin rivayeti; Esbab 
 The verse, in al-Wahidi's heading: «لا تحسبن الذين يفرحون بما أتوا».
 
 ## Tam rivayet (Arapça kaynak metin)
-<div dir="rtl" lang="ar">
 
 يحمدوا بما لم يفعلوا، فنزلت: {لا تحسبن الذين يفرحون بما أتوا} الآية.
-
-</div>
 
 ## Place in the museum
 Kaynak: [[work/asbab-nuzul-wahidi|El-Vahidi'nin Esbab Nüzul el-Kur'an'ı]]. Ayet: [[passage/quran-3-188|Kur'an 3-188]].

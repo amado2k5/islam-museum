@@ -11,11 +11,8 @@ Bara'a (at-Tawba) 9:84 کے سببِ نزول پر الواحدی کی روای�
 The verse, in al-Wahidi's heading: «ولا تصل على أحد منهم مات أبدا».
 
 ## مکمل روایت ⁦(عربی ماخذ متن)⁩
-<div dir="rtl" lang="ar">
 
 ثم نزلت عليه هذه الآية: {ولا تصل على
-
-</div>
 
 ## Place in the museum
 ماخذ: [[work/asbab-nuzul-wahidi|الواحدی کی اسباب نزول القرآن]]۔ آیت: [[passage/quran-9-84|قرآن 9-84]]۔

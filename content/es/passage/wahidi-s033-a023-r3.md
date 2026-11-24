@@ -11,11 +11,8 @@ Informe de al-Wahidi sobre la ocasión de revelación de al-Ahzab 33:23, transmi
 The verse, in al-Wahidi's heading: «فمنهم من قضى نحبه».
 
 ## Informe completo (texto fuente en árabe)
-<div dir="rtl" lang="ar">
 
 نزلت في طلحة بن عبيد الله ثبت مع رسول الله- يوم
-
-</div>
 
 ## Place in the museum
 Fuente: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an de al-Wahidi]]. El versículo: [[passage/quran-33-23|Corán 33-23]].

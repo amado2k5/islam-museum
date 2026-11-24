@@ -11,11 +11,8 @@ Rapport d'al-Suyuti sur la circonstance de révélation de al-Baqara 2:219, dans
 The verse, in al-Suyuti's heading: «ويسألونك ماذا ينفقون».
 
 ## Rapport complet (texte source arabe)
-<div dir="rtl" lang="ar">
 
 ويسألونك ماذا ينفقون أخرج ابن أبي حاتم من طريق سعيد أو عكرمة عن ابن عباس أن نفرا من الصحابة حين أمروا بالنفقة في سبيل الله أتوا النبي فقالوا إنا لا ندري ما هذه النفقة التي أمرنا بها في أموالنا فما ننفق
-
-</div>
 
 ## Place in the museum
 Source : [[work/lubab-al-nuqul-suyuti|d'al-Suyuti Lubab al-Nuqul]]. Le verset: [[passage/quran-2-219|Coran 2-219]].

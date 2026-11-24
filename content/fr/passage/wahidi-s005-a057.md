@@ -11,11 +11,8 @@ Rapport d'al-Wahidi sur la circonstance de révélation de al-Ma'ida 5:57, trans
 The verse, in al-Wahidi's heading: «يا أيها الذين آمنوا لا تتخذوا اليهود والنصارى أولياء».
 
 ## Rapport complet (texte source arabe)
-<div dir="rtl" lang="ar">
 
 فقال: قد قبلت، فأنزل اللهفيهما: {يا أيها الذين آمنوا لا تتخذوا
-
-</div>
 
 ## Place in the museum
 Source : [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an d'al-Wahidi]]. Le verset : [[passage/quran-5-57|Coran 5-57]].

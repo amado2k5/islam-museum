@@ -11,11 +11,8 @@ Informe de al-Wahidi sobre la ocasión de revelación de an-Nisa 4:7, transmitid
 The verse, in al-Wahidi's heading: «للرجال نصيب مما ترك الوالدان والأقربون».
 
 ## Informe completo (texto fuente en árabe)
-<div dir="rtl" lang="ar">
 
 ما يحدث الله لي فيهن"، فانصرفوا، فأنزل اللههذه الآية.
-
-</div>
 
 ## Place in the museum
 Fuente: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an de al-Wahidi]]. El versículo: [[passage/quran-4-7|Corán 4-7]].

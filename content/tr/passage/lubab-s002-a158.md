@@ -11,11 +11,8 @@ al-Baqara 2:158 ayetinin nüzul sebebi hakkında es-Suyuti'nin rivayeti; Lübab�
 The verse, in al-Suyuti's heading: «ان الصفا والمرة».
 
 ## Tam rivayet (Arapça kaynak metin)
-<div dir="rtl" lang="ar">
 
 ان الصفا والمرة الآية أخرج الشيخان وغيرهما عن عروة عن عائشة قال قلت أرأيت قول الله إن الصفا والمروة من شعائر الله فمن حج البيت أو اعتمر فلا جناح عليه أن يطوف بهما فما أرى على أحد شيئا أن لا يطوف بهما فقالت عائشة بئسما
-
-</div>
 
 ## Place in the museum
 Kaynak: [[work/lubab-al-nuqul-suyuti|es-Suyuti'nin Lubab al-Nuqul]]. Ayet: [[passage/quran-2-158|Kur'an 2-158]].

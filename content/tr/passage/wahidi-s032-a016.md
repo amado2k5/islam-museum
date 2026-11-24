@@ -11,11 +11,8 @@ as-Sajda 32:16 ayetinin nüzül sebebi hakkında El-Vahidi'nin rivayeti; Esbab N
 The verse, in al-Wahidi's heading: «تتجافى ms237 جنوبهم عن المضاجع».
 
 ## Tam rivayet (Arapça kaynak metin)
-<div dir="rtl" lang="ar">
 
 قال مالك بن دينار: سألت أنس بن مالك عن هذه الآية فيمن نزلت، فقال: كان
-
-</div>
 
 ## Place in the museum
 Kaynak: [[work/asbab-nuzul-wahidi|El-Vahidi'nin Esbab Nüzul el-Kur'an'ı]]. Ayet: [[passage/quran-32-16|Kur'an 32-16]].

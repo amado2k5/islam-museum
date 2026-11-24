@@ -11,11 +11,8 @@ Informe de al-Wahidi sobre la ocasión de revelación de al-A'raf 7:187, transmi
 The verse, in al-Wahidi's heading: «يسألونك عن الساعة أيان مرساها».
 
 ## Informe completo (texto fuente en árabe)
-<div dir="rtl" lang="ar">
 
 فأنزل اللههذه
-
-</div>
 
 ## Place in the museum
 Fuente: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an de al-Wahidi]]. El versículo: [[passage/quran-7-187|Corán 7-187]].

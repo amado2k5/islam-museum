@@ -11,11 +11,8 @@ Rapport d'al-Suyuti sur la circonstance de révélation de al-Baqara 2:257, dans
 The verse, in al-Suyuti's heading: «الله ولي الذين آمنوا».
 
 ## Rapport complet (texte source arabe)
-<div dir="rtl" lang="ar">
 
 الله ولي الذين آمنوا أخرج ابن جرير عن عبده بن أبي لبابة في قوله الله ولي الذين آمنوا قال هم الذين كانوا آمنوا بعيسى فلما جاءهم محمد آمنوا به وأنزلت فيهم هذه الآية وأخرج عن مجاهد قال كان قوم آمنوا بعيسى
-
-</div>
 
 ## Place in the museum
 Source : [[work/lubab-al-nuqul-suyuti|d'al-Suyuti Lubab al-Nuqul]]. Le verset: [[passage/quran-2-257|Coran 2-257]].

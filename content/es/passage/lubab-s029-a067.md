@@ -11,11 +11,8 @@ Informe de al-Suyuti sobre la ocasión de revelación de al-'Ankabut 29, en Luba
 The verse, in al-Suyuti's heading: «أو لم يروا».
 
 ## Informe completo (texto fuente en árabe)
-<div dir="rtl" lang="ar">
 
 أو لم يروا الآية أخرج جويبر عن الضحاك عن ابن عباس أنهم قالوا يا محمد ما يمنعنا أن ندخل في دينك إلا مخافة أن يتخطفنا الناس لتقتلنا إن والأعراب أكثر منا فمتى ما يبلغهم أنا قد دخلنا في دينك اختطفنا فكنا أكلة رأس فأنزل الله
-
-</div>
 
 ## Place in the museum
 Fuente: [[work/lubab-al-nuqul-suyuti|de al-Suyuti Lubab al-Nuqul]]. El versículo: [[passage/quran-29-67|Corán 29-67]].

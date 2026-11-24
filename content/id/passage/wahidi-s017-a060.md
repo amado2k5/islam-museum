@@ -11,11 +11,8 @@ Riwayat al-Wahidi tentang sebab turunnya Bani Isra'il 17:60, diriwayatkan dari g
 The verse, in al-Wahidi's heading: «60».
 
 ## Laporan lengkap (teks sumber Arab)
-<div dir="rtl" lang="ar">
 
 فأنزل الله: {والشجرة الملعونة في القرآن} يقول: المذمومة
-
-</div>
 
 ## Place in the museum
 Sumber: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an al-Wahidi]]. Ayatnya: [[passage/quran-17-60|Al-Qur'an 17-60]].

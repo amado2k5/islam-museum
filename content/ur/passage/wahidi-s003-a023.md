@@ -11,11 +11,8 @@ Al 'Imran 3:23 کے سببِ نزول پر الواحدی کی روایت — «
 The verse, in al-Wahidi's heading: «ألم تر إلى الذين أوتوا نصيبا من الكتاب».
 
 ## مکمل روایت ⁦(عربی ماخذ متن)⁩
-<div dir="rtl" lang="ar">
 
 اختلفوا في سبب نزولها، فقال السدي: دعا النبي-
-
-</div>
 
 ## Place in the museum
 ماخذ: [[work/asbab-nuzul-wahidi|الواحدی کی اسباب نزول القرآن]]۔ آیت: [[passage/quran-3-23|قرآن 3-23]]۔

@@ -11,11 +11,8 @@ Al-Wahidi's report on the occasion of revelation of al-Ma'un 107:1, narrated fro
 The verse, in al-Wahidi's heading: «أرأيت الذي يكذب بالدين».
 
 ## Full report (Arabic source text)
-<div dir="rtl" lang="ar">
 
 قال مقاتل والكلبي: نزلت في العاص بن وائل السهمي.
-
-</div>
 
 ## Place in the museum
 Source: [[work/asbab-al-nuzul-wahidi|al-Wahidi's Asbab nuzul al-Qur'an]]. The verse: [[passage/quran-107-1|Qur'an 107-1]].

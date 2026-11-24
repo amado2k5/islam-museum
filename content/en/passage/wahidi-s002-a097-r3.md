@@ -11,11 +11,8 @@ Al-Wahidi's report on the occasion of revelation of al-Baqara 2:97, narrated fro
 The verse, in al-Wahidi's heading: «من كان عدوا لله وملائكته».
 
 ## Full report (Arabic source text)
-<div dir="rtl" lang="ar">
 
 أنشدكم بالله وما أنزل عليكم من كتاب أتعلمون أنه رسول الله؟
-
-</div>
 
 ## Place in the museum
 Source: [[work/asbab-al-nuzul-wahidi|al-Wahidi's Asbab nuzul al-Qur'an]]. The verse: [[passage/quran-2-97|Qur'an 2-97]].

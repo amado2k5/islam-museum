@@ -11,11 +11,8 @@ Riwayat al-Wahidi tentang sebab turunnya al-Ma'ida 5:67, diriwayatkan dari gener
 The verse, in al-Wahidi's heading: «يا أيها الرسول بلغ ما أنزل إليك من ربك».
 
 ## Laporan lengkap (teks sumber Arab)
-<div dir="rtl" lang="ar">
 
 وسلم - يهاب قريشا واليهود والنصارى، فأنزل اللههذه الآية.
-
-</div>
 
 ## Place in the museum
 Sumber: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an al-Wahidi]]. Ayatnya: [[passage/quran-5-67|Al-Qur'an 5-67]].

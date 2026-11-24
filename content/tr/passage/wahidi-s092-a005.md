@@ -11,11 +11,8 @@ al-Layl 92:5 ayetinin nüzül sebebi hakkında El-Vahidi'nin rivayeti; Esbab Nü
 The verse, in al-Wahidi's heading: «فأما من أعطى واتقى وصدق بالحسنى».
 
 ## Tam rivayet (Arapça kaynak metin)
-<div dir="rtl" lang="ar">
 
 أنزل هؤلاء الآيات إلا فيه وفيما قاله أبوه: {فأما من أعطى واتقى وصدق
-
-</div>
 
 ## Place in the museum
 Kaynak: [[work/asbab-nuzul-wahidi|El-Vahidi'nin Esbab Nüzul el-Kur'an'ı]]. Ayet: [[passage/quran-92-5|Kur'an 92-5]].

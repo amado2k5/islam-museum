@@ -11,11 +11,8 @@ Al 'Imran 3:172 کے سببِ نزول پر الواحدی کی روایت — �
 The verse, in al-Wahidi's heading: «الذين استجابوا لله والرسول».
 
 ## مکمل روایت ⁦(عربی ماخذ متن)⁩
-<div dir="rtl" lang="ar">
 
 النبي- فسألهم عن أبي سفيان فقالوا: لقيناه في جمع
-
-</div>
 
 ## Place in the museum
 ماخذ: [[work/asbab-nuzul-wahidi|الواحدی کی اسباب نزول القرآن]]۔ آیت: [[passage/quran-3-172|قرآن 3-172]]۔

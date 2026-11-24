@@ -11,11 +11,8 @@ al-Ahzab 33:4 کے سببِ نزول پر الواحدی کی روایت — «�
 The verse, in al-Wahidi's heading: «وما جعل أدعياءكم أبناءكم».
 
 ## مکمل روایت ⁦(عربی ماخذ متن)⁩
-<div dir="rtl" lang="ar">
 
 نزلت في زيد بن حارثة كان عبدا لرسول الله- فأعتقه
-
-</div>
 
 ## Place in the museum
 ماخذ: [[work/asbab-nuzul-wahidi|الواحدی کی اسباب نزول القرآن]]۔ آیت: [[passage/quran-33-4|قرآن 33-4]]۔

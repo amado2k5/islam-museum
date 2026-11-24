@@ -11,11 +11,8 @@ Informe de al-Suyuti sobre la ocasión de revelación de al-Baqara 2:222, en Lub
 The verse, in al-Suyuti's heading: «ويسألونك عن المحيض».
 
 ## Informe completo (texto fuente en árabe)
-<div dir="rtl" lang="ar">
 
 ويسألونك عن المحيض الآية روى مسلم والترمذي عن أنس أن اليهود كانوا إذا حاضت المرأة منهم لم يؤاكلوها ولم يجامعوها في البيوت فسأل أصحاب النبي فأنزل ويسألونك عن المحيض الآية إصنعوا كل شئ إلا النكاح وأخرج البارودي في الصحابة من طريق
-
-</div>
 
 ## Place in the museum
 Fuente: [[work/lubab-al-nuqul-suyuti|de al-Suyuti Lubab al-Nuqul]]. El versículo: [[passage/quran-2-222|Corán 2-222]].

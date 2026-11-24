@@ -11,11 +11,8 @@ Informe de al-Wahidi sobre la ocasión de revelación de an-Nahl 16:41, transmit
 The verse, in al-Wahidi's heading: «والذين هاجروا في الله من بعد ما ظلموا».
 
 ## Informe completo (texto fuente en árabe)
-<div dir="rtl" lang="ar">
 
 نزلت في أصحاب النبي- بمكة بلال وصهيب وخباب وعمار
-
-</div>
 
 ## Place in the museum
 Fuente: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an de al-Wahidi]]. El versículo: [[passage/quran-16-41|Corán 16-41]].

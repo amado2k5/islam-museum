@@ -11,11 +11,8 @@ Riwayat al-Wahidi tentang sebab turunnya al-Mulk 67:13, diriwayatkan dari genera
 The verse, in al-Wahidi's heading: «وأسروا قولكم أو اجهروا به».
 
 ## Laporan lengkap (teks sumber Arab)
-<div dir="rtl" lang="ar">
 
 قال ابن عباس: نزلت في المشركين كانوا ينالون من رسول الله - صلى الله
-
-</div>
 
 ## Place in the museum
 Sumber: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an al-Wahidi]]. Ayatnya: [[passage/quran-67-13|Al-Qur'an 67-13]].

@@ -11,11 +11,8 @@ Bara'a (at-Tawba) 9:106 ayetinin nüzül sebebi hakkında El-Vahidi'nin rivayeti
 The verse, in al-Wahidi's heading: «وآخرون مرجون لأمر الله».
 
 ## Tam rivayet (Arapça kaynak metin)
-<div dir="rtl" lang="ar">
 
 نزلت في كعب بن مالك ومرارة بن الربيع أحد بني عمرو بن عوف وهلال بن أمية
-
-</div>
 
 ## Place in the museum
 Kaynak: [[work/asbab-nuzul-wahidi|El-Vahidi'nin Esbab Nüzul el-Kur'an'ı]]. Ayet: [[passage/quran-9-106|Kur'an 9-106]].

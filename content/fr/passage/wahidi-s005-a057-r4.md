@@ -11,11 +11,8 @@ Rapport d'al-Wahidi sur la circonstance de révélation de al-Ma'ida 5:57, trans
 The verse, in al-Wahidi's heading: «يا أيها الذين آمنوا إنما الخمر».
 
 ## Rapport complet (texte source arabe)
-<div dir="rtl" lang="ar">
 
 الأنصار، فأخذ رجل أحد لحيي الرأس فضربني به، فجذع أنفي، فأتيت رسول الله- فأخبرته، فأنزل الله في - يعني نفسه - شأن الخمر
-
-</div>
 
 ## Place in the museum
 Source : [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an d'al-Wahidi]]. Le verset : [[passage/quran-5-57|Coran 5-57]].

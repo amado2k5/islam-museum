@@ -11,11 +11,8 @@ al-Baqara 2:187 ayetinin nüzül sebebi hakkında El-Vahidi'nin rivayeti; Esbab 
 The verse, in al-Wahidi's heading: «أحل لكم ليلة الصيام الرفث إلى نسائكم».
 
 ## Tam rivayet (Arapça kaynak metin)
-<div dir="rtl" lang="ar">
 
 لرسول الله- فأنزل الله هذه الآية.
-
-</div>
 
 ## Place in the museum
 Kaynak: [[work/asbab-nuzul-wahidi|El-Vahidi'nin Esbab Nüzul el-Kur'an'ı]]. Ayet: [[passage/quran-2-187|Kur'an 2-187]].

@@ -11,11 +11,8 @@ Al-Suyuti's report on the occasion of revelation of al-Isra 17:60, in Lubab al-N
 The verse, in al-Suyuti's heading: «والشجرة الملعونة في القرآن».
 
 ## Full report (Arabic source text)
-<div dir="rtl" lang="ar">
 
 والشجرة الملعونة في القرآن الآية أخرج ابن أبي حاتم والبيهقي في البعث عن ابن عباس قال ذكر الله الزقوم خوف به هذا الحي من قريش قال أبو جهل هل تدرون ما هذا الزقوم الذي يخوفكم به محمد قالوا لا قال الثريد بالزبد أما لئن أمكننا
-
-</div>
 
 ## Place in the museum
 Source: [[work/lubab-al-nuqul-suyuti|al-Suyuti's Lubab al-Nuqul]]. The verse: [[passage/quran-17-60|Qur'an 17-60]].

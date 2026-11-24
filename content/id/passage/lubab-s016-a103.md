@@ -11,11 +11,8 @@ Riwayat as-Suyuti tentang sebab turunnya an-Nahl 16:103, dalam Lubab al-Nuqul fi
 The verse, in al-Suyuti's heading: «ولقد نعلم».
 
 ## Laporan lengkap (teks sumber Arab)
-<div dir="rtl" lang="ar">
 
 ولقد نعلم الآية ⁦(ك)⁩ أخرج ابن جرير بسند ضعيف عن ابن عباس قال كان رسول الله يعلم قينا بمكة اسمه بلعام وكان أعجمي اللسان وكان المشركون يرون رسول الله يدخل عليه ويخرج من عنده فقالوا إنما يعلمه
-
-</div>
 
 ## Place in the museum
 Sumber: [[work/lubab-al-nuqul-suyuti|as-Suyuti Lubab al-Nuqul]]. Ayatnya: [[passage/quran-16-103|Al-Qur'an 16-103]].

@@ -11,11 +11,8 @@ al-Muddaththir 74:1 ayetinin nüzül sebebi hakkında El-Vahidi'nin rivayeti; Es
 The verse, in al-Wahidi's heading: «يا أيها المدثر».
 
 ## Tam rivayet (Arapça kaynak metin)
-<div dir="rtl" lang="ar">
 
 بحراء شهرا فلما قضيت جواري نزلت فاستبطنت بطن الوادي، فنوديت فنظرت أمامي
-
-</div>
 
 ## Place in the museum
 Kaynak: [[work/asbab-nuzul-wahidi|El-Vahidi'nin Esbab Nüzul el-Kur'an'ı]]. Ayet: [[passage/quran-74-1|Kur'an 74-1]].

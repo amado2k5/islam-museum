@@ -11,11 +11,8 @@ Informe de al-Suyuti sobre la ocasión de revelación de al-Anfal 8:58, en Lubab
 The verse, in al-Suyuti's heading: «وإما تخافن».
 
 ## Informe completo (texto fuente en árabe)
-<div dir="rtl" lang="ar">
 
 وإما تخافن الآية روى أبو الشيخ عن ابن شهاب قال دخل جبريل على رسول الله فقال قد وضعت السلاح وما زلت في طلب القوم فاخرج فان الله قد أذن لك في قريظة وأنزل فيهم وإما تخافن من قوم خيانة الآية
-
-</div>
 
 ## Place in the museum
 Fuente: [[work/lubab-al-nuqul-suyuti|de al-Suyuti Lubab al-Nuqul]]. El versículo: [[passage/quran-8-58|Corán 8-58]].

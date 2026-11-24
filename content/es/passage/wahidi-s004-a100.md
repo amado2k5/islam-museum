@@ -11,11 +11,8 @@ Informe de al-Wahidi sobre la ocasión de revelación de an-Nisa 4:100, transmit
 The verse, in al-Wahidi's heading: «ومن يخرج من بيته مهاجرا إلى الله ورسوله».
 
 ## Informe completo (texto fuente en árabe)
-<div dir="rtl" lang="ar">
 
 ينزل فيهم من القرآن، فكتب الآية التي نزلت: {إن الذين توفاهم الملائكة
-
-</div>
 
 ## Place in the museum
 Fuente: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an de al-Wahidi]]. El versículo: [[passage/quran-4-100|Corán 4-100]].

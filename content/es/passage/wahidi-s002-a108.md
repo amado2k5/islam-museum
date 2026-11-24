@@ -11,11 +11,8 @@ Informe de al-Wahidi sobre la ocasión de revelación de al-Baqara 2:108, transm
 The verse, in al-Wahidi's heading: «أم تريدون أن تسألوا رسولكم».
 
 ## Informe completo (texto fuente en árabe)
-<div dir="rtl" lang="ar">
 
 قال ابن عباس نزلت هذه الآية في عبد الله بن أبي أمية ورهط من قريش،
-
-</div>
 
 ## Place in the museum
 Fuente: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an de al-Wahidi]]. El versículo: [[passage/quran-2-108|Corán 2-108]].

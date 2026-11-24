@@ -11,11 +11,8 @@ al-Anfal 8:1 ayetinin nüzül sebebi hakkında El-Vahidi'nin rivayeti; Esbab Nü
 The verse, in al-Wahidi's heading: «يسألونك عن الأنفال قل الأنفال لله والرسول».
 
 ## Tam rivayet (Arapça kaynak metin)
-<div dir="rtl" lang="ar">
 
 جاوزت إلا قريبا حتى نزلت سورة الأنفال، فقال لي رسول الله
-
-</div>
 
 ## Place in the museum
 Kaynak: [[work/asbab-nuzul-wahidi|El-Vahidi'nin Esbab Nüzul el-Kur'an'ı]]. Ayet: [[passage/quran-8-1|Kur'an 8-1]].

@@ -11,11 +11,8 @@ al-Anfal 8 ayetinin nüzul sebebi hakkında es-Suyuti'nin rivayeti; Lübabü'n-N
 The verse, in al-Suyuti's heading: «وأولوا الأرحام».
 
 ## Tam rivayet (Arapça kaynak metin)
-<div dir="rtl" lang="ar">
 
 وأولوا الأرحام الآية أخرج ابن جرير عن ابن الزبير قال كان الرجل يعاقد الرجل ترثني وأرثك فنزلت وأولو الأرحام بعضهم أولى ببعض في كتاب الله الآية واخرج ابن سعد من طريق هاشم أبن عروة عن أبيه قال آخي رسول الله بين
-
-</div>
 
 ## Place in the museum
 Kaynak: [[work/lubab-al-nuqul-suyuti|es-Suyuti'nin Lubab al-Nuqul]]. Ayet: [[passage/quran-8-75|Kur'an 8-75]].

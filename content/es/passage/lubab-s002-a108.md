@@ -11,11 +11,8 @@ Informe de al-Suyuti sobre la ocasión de revelación de al-Baqara 2:108, en Lub
 The verse, in al-Suyuti's heading: «أم تريدون».
 
 ## Informe completo (texto fuente en árabe)
-<div dir="rtl" lang="ar">
 
 أم تريدون الآية ⁦(ك)⁩ أخرج ابن أبى حاتم من طريق سعيد أو عكرمة عن ابن عباس قال قال رافع بن حريملة ووهب بن زيد لرسول الله يا محمد ائتنا بكتاب تنزله علينا من السماء نقرؤه أو فجر لنا أنهارا نتبعك ونصدقك فأنزل الله في ذلك
-
-</div>
 
 ## Place in the museum
 Fuente: [[work/lubab-al-nuqul-suyuti|de al-Suyuti Lubab al-Nuqul]]. El versículo: [[passage/quran-2-108|Corán 2-108]].

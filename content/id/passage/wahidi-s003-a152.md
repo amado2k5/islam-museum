@@ -11,11 +11,8 @@ Riwayat al-Wahidi tentang sebab turunnya Al 'Imran 3:152, diriwayatkan dari gene
 The verse, in al-Wahidi's heading: «ولقد صدقكم الله وعده».
 
 ## Laporan lengkap (teks sumber Arab)
-<div dir="rtl" lang="ar">
 
 فأنزل الله: {ولقد صدقكم الله وعده} الآية إلى قوله: {منكم من يريد
-
-</div>
 
 ## Place in the museum
 Sumber: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an al-Wahidi]]. Ayatnya: [[passage/quran-3-152|Al-Qur'an 3-152]].

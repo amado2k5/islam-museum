@@ -11,11 +11,8 @@ Informe de al-Wahidi sobre la ocasión de revelación de az-Zumar 39:23, transmi
 The verse, in al-Wahidi's heading: «الله نزل أحسن الحديث».
 
 ## Informe completo (texto fuente en árabe)
-<div dir="rtl" lang="ar">
 
 عمرو بن مرة، عن مصعب بن سعد، عن سعد قالوا: يا رسول الله لو حدثتنا فأنزل
-
-</div>
 
 ## Place in the museum
 Fuente: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an de al-Wahidi]]. El versículo: [[passage/quran-39-23|Corán 39-23]].

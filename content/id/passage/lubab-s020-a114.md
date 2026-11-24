@@ -11,11 +11,8 @@ Riwayat as-Suyuti tentang sebab turunnya Ta Ha 20:114, dalam Lubab al-Nuqul fi A
 The verse, in al-Suyuti's heading: «ولا تعجل بالقرآن من قبل».
 
 ## Laporan lengkap (teks sumber Arab)
-<div dir="rtl" lang="ar">
 
 ولا تعجل بالقرآن من قبل الآية أخرج ابن أبي حاتم عن السدي قال كان النبي إذا نزل عليه جبريل بالقرآن أتعب نفسه في حفظه حتى يشق على نفسه فيخاف أن يصعد جبريل ولم يحفظه فأنزل الله ولا تعجل بالقرآن الآيه وتقدم
-
-</div>
 
 ## Place in the museum
 Sumber: [[work/lubab-al-nuqul-suyuti|as-Suyuti Lubab al-Nuqul]]. Ayatnya: [[passage/quran-20-114|Al-Qur'an 20-114]].

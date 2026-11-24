@@ -11,11 +11,8 @@ Informe de al-Suyuti sobre la ocasión de revelación de Bara'a (at-Tawba) 9:117
 The verse, in al-Suyuti's heading: «لقد تاب الله على النبي الآيات روى البخاري».
 
 ## Informe completo (texto fuente en árabe)
-<div dir="rtl" lang="ar">
 
 لقد تاب الله على النبي الآيات روى البخاري وغيره عن كعب بن مالك قال لم أتخلف عن النبي في غزوة غزاها إلا بدرا حتى كانت غزوة تبوك وهي آخر غزوة غزاها وآذن الناس بالرحيل فذكر الحديث بطوله وفيه فأنزل الله توبتنا
-
-</div>
 
 ## Place in the museum
 Fuente: [[work/lubab-al-nuqul-suyuti|de al-Suyuti Lubab al-Nuqul]]. El versículo: [[passage/quran-9-117|Corán 9-117]].

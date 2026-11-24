@@ -11,11 +11,8 @@ translators: ["machine translation, draft"]
 The verse, in al-Wahidi's heading: «لكل امرئ منهم يومئذ شأن يغنيه».
 
 ## Tam rivayet (Arapça kaynak metin)
-<div dir="rtl" lang="ar">
 
 واسوأتاه، فأنزل الله: {لكل امرئ منهم يومئذ شأن يغنيه}.
-
-</div>
 
 ## Place in the museum
 Kaynak: [[work/asbab-nuzul-wahidi|El-Vahidi'nin Esbab Nüzul el-Kur'an'ı]]. Ayet: [[passage/quran-80-37|Kur'an 80-37]].

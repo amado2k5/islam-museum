@@ -11,11 +11,8 @@ Riwayat al-Wahidi tentang sebab turunnya Bara'a (at-Tawba) 9:79, diriwayatkan da
 The verse, in al-Wahidi's heading: «الذين يلمزون المطوعين من المؤمنين في الصدقات».
 
 ## Laporan lengkap (teks sumber Arab)
-<div dir="rtl" lang="ar">
 
 أبي مسعود قال: لما نزلت آية الصدقة كنا نحامل، فجاء رجل فتصدق بشيء كثير
-
-</div>
 
 ## Place in the museum
 Sumber: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an al-Wahidi]]. Ayatnya: [[passage/quran-9-79|Al-Qur'an 9-79]].

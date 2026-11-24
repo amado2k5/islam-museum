@@ -11,11 +11,8 @@ al-Kahf 18:28 ayetinin nüzül sebebi hakkında El-Vahidi'nin rivayeti; Esbab N�
 The verse, in al-Wahidi's heading: «واصبر نفسك».
 
 ## Tam rivayet (Arapça kaynak metin)
-<div dir="rtl" lang="ar">
 
 وحادثناك وأخذنا عنك، فأنزل الله: {واتل ما أوحي إليك من كتاب ربك لا
-
-</div>
 
 ## Place in the museum
 Kaynak: [[work/asbab-nuzul-wahidi|El-Vahidi'nin Esbab Nüzul el-Kur'an'ı]]. Ayet: [[passage/quran-18-28|Kur'an 18-28]].

@@ -11,11 +11,8 @@ al-A'raf 7:31 کے سببِ نزول پر الواحدی کی روایت — «�
 The verse, in al-Wahidi's heading: «يا بني آدم خذوا زينتكم عند كل مسجد».
 
 ## مکمل روایت ⁦(عربی ماخذ متن)⁩
-<div dir="rtl" lang="ar">
 
 فأنزل اللهعلى نبيه- {يا بني آدم خذوا
-
-</div>
 
 ## Place in the museum
 ماخذ: [[work/asbab-nuzul-wahidi|الواحدی کی اسباب نزول القرآن]]۔ آیت: [[passage/quran-7-31|قرآن 7-31]]۔

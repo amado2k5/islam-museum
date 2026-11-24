@@ -11,11 +11,8 @@ al-Baqara 2:223 کے سببِ نزول پر الواحدی کی روایت — �
 The verse, in al-Wahidi's heading: «نساؤكم حرث لكم».
 
 ## مکمل روایت ⁦(عربی ماخذ متن)⁩
-<div dir="rtl" lang="ar">
 
 قبلها: إن الولد يكون أحول، فنزل {نساؤكم حرث لكم فأتوا حرثكم أنى شئتم}
-
-</div>
 
 ## Place in the museum
 ماخذ: [[work/asbab-nuzul-wahidi|الواحدی کی اسباب نزول القرآن]]۔ آیت: [[passage/quran-2-223|قرآن 2-223]]۔

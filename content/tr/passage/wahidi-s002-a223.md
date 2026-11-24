@@ -11,11 +11,8 @@ al-Baqara 2:223 ayetinin nüzül sebebi hakkında El-Vahidi'nin rivayeti; Esbab 
 The verse, in al-Wahidi's heading: «نساؤكم حرث لكم».
 
 ## Tam rivayet (Arapça kaynak metin)
-<div dir="rtl" lang="ar">
 
 قبلها: إن الولد يكون أحول، فنزل {نساؤكم حرث لكم فأتوا حرثكم أنى شئتم}
-
-</div>
 
 ## Place in the museum
 Kaynak: [[work/asbab-nuzul-wahidi|El-Vahidi'nin Esbab Nüzul el-Kur'an'ı]]. Ayet: [[passage/quran-2-223|Kur'an 2-223]].

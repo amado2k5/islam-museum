@@ -11,11 +11,8 @@ al-Baqara 2:79 ayetinin nüzül sebebi hakkında El-Vahidi'nin rivayeti; Esbab N
 The verse, in al-Wahidi's heading: «فويل للذين يكتبون الكتاب بأيديهم».
 
 ## Tam rivayet (Arapça kaynak metin)
-<div dir="rtl" lang="ar">
 
 نزلت في الذين غيروا صفة النبي- وبدلوا نعته، قال
-
-</div>
 
 ## Place in the museum
 Kaynak: [[work/asbab-nuzul-wahidi|El-Vahidi'nin Esbab Nüzul el-Kur'an'ı]]. Ayet: [[passage/quran-2-79|Kur'an 2-79]].

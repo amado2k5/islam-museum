@@ -11,11 +11,8 @@ Riwayat al-Wahidi tentang sebab turunnya Maryam 19:77, diriwayatkan dari generas
 The verse, in al-Wahidi's heading: «أفرأيت الذي كفر بآياتنا».
 
 ## Laporan lengkap (teks sumber Arab)
-<div dir="rtl" lang="ar">
 
 وسيكون لي ثم مال وولد فأعطيك، فأنزل اللههذه الآية.
-
-</div>
 
 ## Place in the museum
 Sumber: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an al-Wahidi]]. Ayatnya: [[passage/quran-19-77|Al-Qur'an 19-77]].

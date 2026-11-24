@@ -11,11 +11,8 @@ Rapport d'al-Suyuti sur la circonstance de révélation de Bara'a (at-Tawba) 9, 
 The verse, in al-Suyuti's heading: «الذين يلزمون المطوعين».
 
 ## Rapport complet (texte source arabe)
-<div dir="rtl" lang="ar">
 
 الذين يلزمون المطوعين الآية روى الشيخان عن أبي مسعود قال لما نزلت آية الصدقة كنا نتحامل على ظهورنا فجاء رجل فتصدق بشئ كثير فقالوا مراء وجاء رجل فتصدق بصاع فقالوا إن الله لغني عن صدقة هذا فنزل الذين يلمزون المطوعين الآية وورد نحو هذا من
-
-</div>
 
 ## Place in the museum
 Source : [[work/lubab-al-nuqul-suyuti|d'al-Suyuti Lubab al-Nuqul]]. Le verset: [[passage/quran-9-79|Coran 9-79]].

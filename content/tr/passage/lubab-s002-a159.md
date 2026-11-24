@@ -11,11 +11,8 @@ al-Baqara 2:159 ayetinin nüzul sebebi hakkında es-Suyuti'nin rivayeti; Lübab�
 The verse, in al-Suyuti's heading: «إن الذين يكتمون».
 
 ## Tam rivayet (Arapça kaynak metin)
-<div dir="rtl" lang="ar">
 
 إن الذين يكتمون الآية ⁦(ك)⁩ أخرج ابن جرير وابن آبى حاتم من طريق سعيد أو عكرمة عن ابن عباس قال سأل معاذ بن جبل وسعد بن معاذ وخارجه بن زيد نفرا من أحبار يهود عن بعض ما في التوراة فكتموهم إياه وأبوا أن يخبروهم فانزل
-
-</div>
 
 ## Place in the museum
 Kaynak: [[work/lubab-al-nuqul-suyuti|es-Suyuti'nin Lubab al-Nuqul]]. Ayet: [[passage/quran-2-159|Kur'an 2-159]].

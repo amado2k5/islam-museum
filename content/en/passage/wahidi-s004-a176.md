@@ -11,11 +11,8 @@ Al-Wahidi's report on the occasion of revelation of an-Nisa 4:176, narrated from
 The verse, in al-Wahidi's heading: «يستفتونك قل الله يفتيكم في الكلالة».
 
 ## Full report (Arabic source text)
-<div dir="rtl" lang="ar">
 
 جابر إني لا أراك تموت في وجعك هذا، إن الله قد أنزل، فبين الذي لأخواتك،
-
-</div>
 
 ## Place in the museum
 Source: [[work/asbab-al-nuzul-wahidi|al-Wahidi's Asbab nuzul al-Qur'an]]. The verse: [[passage/quran-4-176|Qur'an 4-176]].

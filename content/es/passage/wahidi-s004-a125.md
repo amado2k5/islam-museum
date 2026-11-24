@@ -11,11 +11,8 @@ Informe de al-Wahidi sobre la ocasión de revelación de an-Nisa 4:125, transmit
 The verse, in al-Wahidi's heading: «واتبع ملة إبراهيم حنيفا واتخذ الله إبراهيم خليلا».
 
 ## Informe completo (texto fuente en árabe)
-<div dir="rtl" lang="ar">
 
 فقال: بإذن رب المنزل،
-
-</div>
 
 ## Place in the museum
 Fuente: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an de al-Wahidi]]. El versículo: [[passage/quran-4-125|Corán 4-125]].

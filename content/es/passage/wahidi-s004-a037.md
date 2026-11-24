@@ -11,11 +11,8 @@ Informe de al-Wahidi sobre la ocasión de revelación de an-Nisa 4:37, transmiti
 The verse, in al-Wahidi's heading: «الذين يبخلون ويأمرون الناس بالبخل».
 
 ## Informe completo (texto fuente en árabe)
-<div dir="rtl" lang="ar">
 
 قال أكثر المفسرين: نزلت في اليهود حين كتموا صفة محمد
-
-</div>
 
 ## Place in the museum
 Fuente: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an de al-Wahidi]]. El versículo: [[passage/quran-4-37|Corán 4-37]].

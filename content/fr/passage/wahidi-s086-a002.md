@@ -11,11 +11,8 @@ Rapport d'al-Wahidi sur la circonstance de révélation de at-Tariq 86:2, transm
 The verse, in al-Wahidi's heading: «والسماء والطارق وما أدراك ما الطارق النجم الثاقب».
 
 ## Rapport complet (texte source arabe)
-<div dir="rtl" lang="ar">
 
 نزلت في أبي طالب، وذلك أنه أتى النبي- فأتحفه
-
-</div>
 
 ## Place in the museum
 Source : [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an d'al-Wahidi]]. Le verset : [[passage/quran-86-2|Coran 86-2]].

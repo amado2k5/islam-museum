@@ -11,11 +11,8 @@ Informe de al-Wahidi sobre la ocasión de revelación de al-Baqara 2:8, transmit
 The verse, in al-Wahidi's heading: «ومن الناس من يعجبك قوله في الحياة الدنيا».
 
 ## Informe completo (texto fuente en árabe)
-<div dir="rtl" lang="ar">
 
 قال السدي نزلت في الأخنس بن شريق الثقفي، وهو حليف بني زهرة أقبل إلى
-
-</div>
 
 ## Place in the museum
 Fuente: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an de al-Wahidi]]. El versículo: [[passage/quran-2-8|Corán 2-8]].

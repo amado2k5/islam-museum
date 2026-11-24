@@ -11,11 +11,8 @@ Al 'Imran 3:135 ayetinin nüzül sebebi hakkında El-Vahidi'nin rivayeti; Esbab 
 The verse, in al-Wahidi's heading: «والذين إذا فعلوا فاحشة».
 
 ## Tam rivayet (Arapça kaynak metin)
-<div dir="rtl" lang="ar">
 
 قال ابن عباس في رواية عطاء: نزلت الآية في نبهان التمار، أتته امرأة
-
-</div>
 
 ## Place in the museum
 Kaynak: [[work/asbab-nuzul-wahidi|El-Vahidi'nin Esbab Nüzul el-Kur'an'ı]]. Ayet: [[passage/quran-3-135|Kur'an 3-135]].

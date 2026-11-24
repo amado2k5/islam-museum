@@ -11,11 +11,8 @@ an-Nisa 4:11 کے سببِ نزول پر الواحدی کی روایت — «ا
 The verse, in al-Wahidi's heading: «يوصيكم الله في أولادكم».
 
 ## مکمل روایت ⁦(عربی ماخذ متن)⁩
-<div dir="rtl" lang="ar">
 
 فنزلت: {يوصيكم الله في أولادكم} الآية.
-
-</div>
 
 ## Place in the museum
 ماخذ: [[work/asbab-nuzul-wahidi|الواحدی کی اسباب نزول القرآن]]۔ آیت: [[passage/quran-4-11|قرآن 4-11]]۔

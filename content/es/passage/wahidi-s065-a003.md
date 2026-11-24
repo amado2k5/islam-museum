@@ -11,11 +11,8 @@ Informe de al-Wahidi sobre la ocasión de revelación de at-Talaq 65:3, transmit
 The verse, in al-Wahidi's heading: «ومن يتق الله يجعل له مخرجا ويرزقه من حيث لا يحتسب».
 
 ## Informe completo (texto fuente en árabe)
-<div dir="rtl" lang="ar">
 
 نزلت الآية في عوف بن مالك الأشجعي، وذلك أن المشركين أسروا ابنا له،
-
-</div>
 
 ## Place in the museum
 Fuente: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an de al-Wahidi]]. El versículo: [[passage/quran-65-3|Corán 65-3]].

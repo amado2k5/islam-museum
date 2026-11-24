@@ -11,11 +11,8 @@ Informe de al-Suyuti sobre la ocasión de revelación de al-A'raf 7:204, en Luba
 The verse, in al-Suyuti's heading: «وإذا قرئ القرآن».
 
 ## Informe completo (texto fuente en árabe)
-<div dir="rtl" lang="ar">
 
 وإذا قرئ القرآن الآية أخرج ابن أبي حاتم وغيره عن أبي هريرة قال نزلت وإذا قرئ القرآن فاستمعوا له وأنصتوا في رفع الأصوات في الصلاة خلف النبي وأخرج أيضا عنه قال كانوا يتكلمون في الصلاة فنزلت وإذا قرئ القرآن الآية وأخرج
-
-</div>
 
 ## Place in the museum
 Fuente: [[work/lubab-al-nuqul-suyuti|de al-Suyuti Lubab al-Nuqul]]. El versículo: [[passage/quran-7-204|Corán 7-204]].

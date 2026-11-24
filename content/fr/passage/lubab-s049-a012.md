@@ -11,11 +11,8 @@ Rapport d'al-Suyuti sur la circonstance de révélation de al-Hijr 15, dans Luba
 The verse, in al-Suyuti's heading: «ولا يغتب بعضكم بعضا».
 
 ## Rapport complet (texte source arabe)
-<div dir="rtl" lang="ar">
 
 ولا يغتب بعضكم بعضا الآية أخرج ابن المنذر عن ابن جريج قال زعموا أنها نزلت في سلمان الفارسي أكل ثم رقد فنفخ فذكر رجل أكله ورقاده فنزلت
-
-</div>
 
 ## Place in the museum
 Source : [[work/lubab-al-nuqul-suyuti|d'al-Suyuti Lubab al-Nuqul]]. Le verset: [[passage/quran-49-12|Coran 49-12]].

@@ -11,11 +11,8 @@ Informe de al-Suyuti sobre la ocasión de revelación de al-Baqara 2:119, en Lub
 The verse, in al-Suyuti's heading: «إنا أرسلناك».
 
 ## Informe completo (texto fuente en árabe)
-<div dir="rtl" lang="ar">
 
 إنا أرسلناك الآية قال عبد الرزاق أنبأنا الثوري عن موسى بن عبيدة عن محمد بن كعب القرظي قال قال رسول الله ليت شعري ما فعل أبواي فنزلت إنا أرسلناك بالحق بشيرا ونذيرا ولا تسأل عن أصحاب الحجيم فما ذكرها حتى توفاه
-
-</div>
 
 ## Place in the museum
 Fuente: [[work/lubab-al-nuqul-suyuti|de al-Suyuti Lubab al-Nuqul]]. El versículo: [[passage/quran-2-119|Corán 2-119]].

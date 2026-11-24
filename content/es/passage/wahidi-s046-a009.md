@@ -11,11 +11,8 @@ Informe de al-Wahidi sobre la ocasión de revelación de al-Ahqaf 46:9, transmit
 The verse, in al-Wahidi's heading: «وما أدري ما يفعل بي ولا بكم».
 
 ## Informe completo (texto fuente en árabe)
-<div dir="rtl" lang="ar">
 
 فسكت رسول الله- فأنزل الله
-
-</div>
 
 ## Place in the museum
 Fuente: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an de al-Wahidi]]. El versículo: [[passage/quran-46-9|Corán 46-9]].

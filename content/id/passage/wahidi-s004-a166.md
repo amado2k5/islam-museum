@@ -11,11 +11,8 @@ Riwayat al-Wahidi tentang sebab turunnya an-Nisa 4:166, diriwayatkan dari genera
 The verse, in al-Wahidi's heading: «لكن الله يشهد بما أنزل إليك».
 
 ## Laporan lengkap (teks sumber Arab)
-<div dir="rtl" lang="ar">
 
 فقالوا: سألنا عنك اليهود فزعموا
-
-</div>
 
 ## Place in the museum
 Sumber: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an al-Wahidi]]. Ayatnya: [[passage/quran-4-166|Al-Qur'an 4-166]].

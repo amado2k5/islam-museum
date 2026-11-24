@@ -11,11 +11,8 @@ Rapport d'al-Wahidi sur la circonstance de révélation de Luqman 31:34, transmi
 The verse, in al-Wahidi's heading: «إن الله عنده علم الساعة».
 
 ## Rapport complet (texte source arabe)
-<div dir="rtl" lang="ar">
 
 نزلت في الحارث بن عمرو بن حارثة بن محارب بن حفصة، من أهل البادية، أتى
-
-</div>
 
 ## Place in the museum
 Source : [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an d'al-Wahidi]]. Le verset : [[passage/quran-31-34|Coran 31-34]].

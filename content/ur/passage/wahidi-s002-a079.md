@@ -11,11 +11,8 @@ al-Baqara 2:79 کے سببِ نزول پر الواحدی کی روایت — «
 The verse, in al-Wahidi's heading: «فويل للذين يكتبون الكتاب بأيديهم».
 
 ## مکمل روایت ⁦(عربی ماخذ متن)⁩
-<div dir="rtl" lang="ar">
 
 نزلت في الذين غيروا صفة النبي- وبدلوا نعته، قال
-
-</div>
 
 ## Place in the museum
 ماخذ: [[work/asbab-nuzul-wahidi|الواحدی کی اسباب نزول القرآن]]۔ آیت: [[passage/quran-2-79|قرآن 2-79]]۔

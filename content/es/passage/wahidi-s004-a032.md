@@ -11,11 +11,8 @@ Informe de al-Wahidi sobre la ocasión de revelación de an-Nisa 4:32, transmiti
 The verse, in al-Wahidi's heading: «ولا تتمنوا ما فضل الله به بعضكم على بعض».
 
 ## Informe completo (texto fuente en árabe)
-<div dir="rtl" lang="ar">
 
 وإنما لنا نصف الميراث فأنزل الله: {ولا تتمنوا ما فضل الله به بعضكم
-
-</div>
 
 ## Place in the museum
 Fuente: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an de al-Wahidi]]. El versículo: [[passage/quran-4-32|Corán 4-32]].

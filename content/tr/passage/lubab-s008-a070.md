@@ -11,11 +11,8 @@ al-Anfal 8:70 ayetinin nüzul sebebi hakkında es-Suyuti'nin rivayeti; Lübabü'
 The verse, in al-Suyuti's heading: «يا أيها النبي قل لمن في أيديكم».
 
 ## Tam rivayet (Arapça kaynak metin)
-<div dir="rtl" lang="ar">
 
 يا أيها النبي قل لمن في أيديكم الآية روى الطبراني في الأوسط عن ابن عباس قال قال العباس في والله نزلت حين أخبرت رسول الله بإسلامي وسألته أن يحاسبني بالعشرين أوقية التي وجدت معي فأعطاني بها عشرين عبدا كلهم تاجر بمالي
-
-</div>
 
 ## Place in the museum
 Kaynak: [[work/lubab-al-nuqul-suyuti|es-Suyuti'nin Lubab al-Nuqul]]. Ayet: [[passage/quran-8-70|Kur'an 8-70]].

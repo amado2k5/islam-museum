@@ -11,11 +11,8 @@ Riwayat al-Wahidi tentang sebab turunnya al-Mu'minun 23:1, diriwayatkan dari gen
 The verse, in al-Wahidi's heading: «1».
 
 ## Laporan lengkap (teks sumber Arab)
-<div dir="rtl" lang="ar">
 
 عروة بن الزبير، عن عبد الرحمن بن عبد القاري قال: سمعت عمر بن الخطاب- يقول: كان إذا أنزل الوحي على رسول الله
-
-</div>
 
 ## Place in the museum
 Sumber: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an al-Wahidi]]. Ayatnya: [[passage/quran-23-1|Al-Qur'an 23-1]].

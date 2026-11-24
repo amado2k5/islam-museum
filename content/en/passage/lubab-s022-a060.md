@@ -11,11 +11,8 @@ Al-Suyuti's report on the occasion of revelation of al-Hijr 15, in Lubab al-Nuqu
 The verse, in al-Suyuti's heading: «ومن عاقب بمثل ما عوقب به».
 
 ## Full report (Arabic source text)
-<div dir="rtl" lang="ar">
 
 ومن عاقب بمثل ما عوقب به الآية أخرج ابن أبي حاتم عن مقاتل أنها نزلت في سرية بعثها النبي فلقوا المشركين لليلتين بقيتا من المحرم فقال المشركون بعضهم لبعض قاتلوا أصحاب محمد فإنهم يحرمون القتال في الشهر الحرام فناشدهم الصحابة وذكروهم
-
-</div>
 
 ## Place in the museum
 Source: [[work/lubab-al-nuqul-suyuti|al-Suyuti's Lubab al-Nuqul]]. The verse: [[passage/quran-22-60|Qur'an 22-60]].

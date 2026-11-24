@@ -11,11 +11,8 @@ Rapport d'al-Wahidi sur la circonstance de révélation de al-Baqara 2:105, tran
 The verse, in al-Wahidi's heading: «ما يود الذين كفروا من أهل الكتاب».
 
 ## Rapport complet (texte source arabe)
-<div dir="rtl" lang="ar">
 
 نحن عليه ولوددنا لو كان خيرا فأنزل اللهتكذيبا لهم هذه الآية.
-
-</div>
 
 ## Place in the museum
 Source : [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an d'al-Wahidi]]. Le verset : [[passage/quran-2-105|Coran 2-105]].

@@ -11,11 +11,8 @@ Informe de al-Suyuti sobre la ocasión de revelación de al-Ma'ida 5:33, en Luba
 The verse, in al-Suyuti's heading: «إنما جزاء الذين يحاربون».
 
 ## Informe completo (texto fuente en árabe)
-<div dir="rtl" lang="ar">
 
 إنما جزاء الذين يحاربون الآية أخرج ابن جرير عن يزيد ابن أبي حبيب أن عبد الملك بن مروان كتب إلى أنس يسأله عن هذه الآية إنما جزاء الذين يحاربون الله ورسوله فكتب إليه أنس يخبره أن هذه الآية نزلت في العرنيين ارتدوا عن الإسلام وقتلوا
-
-</div>
 
 ## Place in the museum
 Fuente: [[work/lubab-al-nuqul-suyuti|de al-Suyuti Lubab al-Nuqul]]. El versículo: [[passage/quran-5-33|Corán 5-33]].

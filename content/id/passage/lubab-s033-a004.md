@@ -11,11 +11,8 @@ Riwayat as-Suyuti tentang sebab turunnya al-Ahzab 33:4, dalam Lubab al-Nuqul fi 
 The verse, in al-Suyuti's heading: «ما جعل الله لرجل».
 
 ## Laporan lengkap (teks sumber Arab)
-<div dir="rtl" lang="ar">
 
 ما جعل الله لرجل الآية أخرج الترمذي وحسنه عن ابن عباس قال قام النبي يوما يصلى فخطر خطره فقال المنافقون الذين يصلون معه ألا ترى أن له قلبين قلبا معكم وقلبا معه فأنزل الله ما جعل الله لرجل من قلبين في
-
-</div>
 
 ## Place in the museum
 Sumber: [[work/lubab-al-nuqul-suyuti|as-Suyuti Lubab al-Nuqul]]. Ayatnya: [[passage/quran-33-4|Al-Qur'an 33-4]].

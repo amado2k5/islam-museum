@@ -11,11 +11,8 @@ Riwayat as-Suyuti tentang sebab turunnya al-Baqara 2:284, dalam Lubab al-Nuqul f
 The verse, in al-Suyuti's heading: «آمن الرسول».
 
 ## Laporan lengkap (teks sumber Arab)
-<div dir="rtl" lang="ar">
 
 آمن الرسول الآية روى أحمد ومسلم وغيرهما عن أبي هريرة لما نزلت وإن تبدوا ما في أنفسكم أو تخفوه يحاسبكم به الله [284] اشتد ذلك على الصحابة فأتوا رسول الله ثم جثوا على الركب فقالوا قد أنزل عليك هذه الآية ولا
-
-</div>
 
 ## Place in the museum
 Sumber: [[work/lubab-al-nuqul-suyuti|as-Suyuti Lubab al-Nuqul]]. Ayatnya: [[passage/quran-2-285|Al-Qur'an 2-285]].

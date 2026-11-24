@@ -11,11 +11,8 @@ Informe de al-Suyuti sobre la ocasión de revelación de al-Ma'ida 5:41, en Luba
 The verse, in al-Suyuti's heading: «يا أيها الرسول».
 
 ## Informe completo (texto fuente en árabe)
-<div dir="rtl" lang="ar">
 
 يا أيها الرسول الآية ⁦(ك)⁩ روى أحمد وأبو داود عن ابن عباس قال أنزلها الله في طائفتين من اليهود قهرت إحداهما الأخرى في الجاهلية حتى ارتضوا فاصطلحوا على أن كل قتيل قتلته العزيزة من الذليلة فديته خمسون وسقا وكل قتيل قتلته الذليلة من العزيزة فديته
-
-</div>
 
 ## Place in the museum
 Fuente: [[work/lubab-al-nuqul-suyuti|de al-Suyuti Lubab al-Nuqul]]. El versículo: [[passage/quran-5-41|Corán 5-41]].

@@ -11,11 +11,8 @@ Informe de al-Suyuti sobre la ocasión de revelación de an-Nisa 4:13, en Lubab 
 The verse, in al-Suyuti's heading: «ومن يطع الله».
 
 ## Informe completo (texto fuente en árabe)
-<div dir="rtl" lang="ar">
 
 ومن يطع الله أخرج الطبراني وابن مردويه بسند لا بأس به عن عائشة قالت جاء رجل إلى النبي فقال يا رسول الله إنك لأحب إلى من نفسي وأنك لأحب إلى من ولدي وإني لأكون في البيت فأذكرك فما أصبر حتى آتي
-
-</div>
 
 ## Place in the museum
 Fuente: [[work/lubab-al-nuqul-suyuti|de al-Suyuti Lubab al-Nuqul]]. El versículo: [[passage/quran-4-13|Corán 4-13]].

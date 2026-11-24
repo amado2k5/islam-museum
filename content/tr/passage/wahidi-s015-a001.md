@@ -11,11 +11,8 @@ al-Hijr 15:1 ayetinin nüzül sebebi hakkında El-Vahidi'nin rivayeti; Esbab Nü
 The verse, in al-Wahidi's heading: «يا أيها الذين آمنوا لا تقدموا بين يدي الله ورسوله».
 
 ## Tam rivayet (Arapça kaynak metin)
-<div dir="rtl" lang="ar">
 
 خلافك، فتماريا حتى ارتفعت أصواتهما، فنزل في ذلك قوله: {يا أيها
-
-</div>
 
 ## Place in the museum
 Kaynak: [[work/asbab-nuzul-wahidi|El-Vahidi'nin Esbab Nüzul el-Kur'an'ı]]. Ayet: [[passage/quran-15-1|Kur'an 15-1]].

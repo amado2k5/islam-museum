@@ -11,11 +11,8 @@ Rapport d'al-Wahidi sur la circonstance de révélation de al-Hashr 59:5, transm
 The verse, in al-Wahidi's heading: «ما قطعتم من لينة».
 
 ## Rapport complet (texte source arabe)
-<div dir="rtl" lang="ar">
 
 وذلك، أن رسول الله- لما نزل ببني النضير وتحصنوا
-
-</div>
 
 ## Place in the museum
 Source : [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an d'al-Wahidi]]. Le verset : [[passage/quran-59-5|Coran 59-5]].

@@ -11,11 +11,8 @@ Bara'a (at-Tawba) 9:65 کے سببِ نزول پر الواحدی کی روای�
 The verse, in al-Wahidi's heading: «ولئن سألتهم ليقولن إنما كنا نخوض ونلعب».
 
 ## مکمل روایت ⁦(عربی ماخذ متن)⁩
-<div dir="rtl" lang="ar">
 
 نخوض ونلعب، فأنزل اللههذه الآية.
-
-</div>
 
 ## Place in the museum
 ماخذ: [[work/asbab-nuzul-wahidi|الواحدی کی اسباب نزول القرآن]]۔ آیت: [[passage/quran-9-65|قرآن 9-65]]۔

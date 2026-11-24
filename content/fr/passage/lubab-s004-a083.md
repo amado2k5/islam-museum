@@ -11,11 +11,8 @@ Rapport d'al-Suyuti sur la circonstance de révélation de an-Nisa 4:83, dans Lu
 The verse, in al-Suyuti's heading: «وإذا جاءهم».
 
 ## Rapport complet (texte source arabe)
-<div dir="rtl" lang="ar">
 
 وإذا جاءهم الآية روى مسلم عن عمر بن الخطاب قال لما اعتزل النبي نساءه دخلت المسجد فإذا الناس ينكتون بالحصى ويقولون طلق رسول الله نساءه فقمت على باب المسجد فناديت بأعلى صوتي لم يطلق نساءه فنزلت هذه
-
-</div>
 
 ## Place in the museum
 Source : [[work/lubab-al-nuqul-suyuti|d'al-Suyuti Lubab al-Nuqul]]. Le verset: [[passage/quran-4-83|Coran 4-83]].

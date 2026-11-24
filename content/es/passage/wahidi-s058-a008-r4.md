@@ -11,11 +11,8 @@ Informe de al-Wahidi sobre la ocasión de revelación de al-Mujadila 58:8, trans
 The verse, in al-Wahidi's heading: «وإذا جاءوك حيوك بما لم يحيك به الله».
 
 ## Informe completo (texto fuente en árabe)
-<div dir="rtl" lang="ar">
 
 أقول: وعليكم"، ونزلت هذه الآية في ذلك: {وإذا جاءوك حيوك بما لم يحيك به
-
-</div>
 
 ## Place in the museum
 Fuente: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an de al-Wahidi]]. El versículo: [[passage/quran-58-8|Corán 58-8]].

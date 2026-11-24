@@ -11,11 +11,8 @@ Riwayat al-Wahidi tentang sebab turunnya al-Baqara 2:262, diriwayatkan dari gene
 The verse, in al-Wahidi's heading: «الذين ينفقون أموالهم في سبيل الله».
 
 ## Laporan lengkap (teks sumber Arab)
-<div dir="rtl" lang="ar">
 
 قال الكلبي: نزلت في عثمان بن عفان وعبد الرحمن بن عوف، أما عبد الرحمن
-
-</div>
 
 ## Place in the museum
 Sumber: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an al-Wahidi]]. Ayatnya: [[passage/quran-2-262|Al-Qur'an 2-262]].

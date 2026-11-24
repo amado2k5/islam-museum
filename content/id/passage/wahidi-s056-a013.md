@@ -11,11 +11,8 @@ Riwayat al-Wahidi tentang sebab turunnya al-Waqi'a 56:13, diriwayatkan dari gene
 The verse, in al-Wahidi's heading: «ثلة من الأولين وقليل من الآخرين».
 
 ## Laporan lengkap (teks sumber Arab)
-<div dir="rtl" lang="ar">
 
 قال عروة بن رويم: أنزل الله: {ثلة من الأولين وقليل من الآخرين}
-
-</div>
 
 ## Place in the museum
 Sumber: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an al-Wahidi]]. Ayatnya: [[passage/quran-56-13|Al-Qur'an 56-13]].

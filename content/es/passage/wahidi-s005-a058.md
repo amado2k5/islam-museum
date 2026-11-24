@@ -11,11 +11,8 @@ Informe de al-Wahidi sobre la ocasión de revelación de al-Ma'ida 5:58, transmi
 The verse, in al-Wahidi's heading: «وإذا ناديتم إلى الصلاة اتخذوها هزوا ولعبا».
 
 ## Informe completo (texto fuente en árabe)
-<div dir="rtl" lang="ar">
 
 على طريق الاستهزاء والضحك فأنزل اللههذه الآية.
-
-</div>
 
 ## Place in the museum
 Fuente: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an de al-Wahidi]]. El versículo: [[passage/quran-5-58|Corán 5-58]].

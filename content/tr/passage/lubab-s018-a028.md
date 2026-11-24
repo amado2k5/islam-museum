@@ -11,11 +11,8 @@ al-Kahf 18:28 ayetinin nüzul sebebi hakkında es-Suyuti'nin rivayeti; Lübabü'
 The verse, in al-Suyuti's heading: «واصبر نفسك».
 
 ## Tam rivayet (Arapça kaynak metin)
-<div dir="rtl" lang="ar">
 
 واصبر نفسك الآية تقدم سبب النزول في سورة الأنعام في حديث خباب
-
-</div>
 
 ## Place in the museum
 Kaynak: [[work/lubab-al-nuqul-suyuti|es-Suyuti'nin Lubab al-Nuqul]]. Ayet: [[passage/quran-18-28|Kur'an 18-28]].

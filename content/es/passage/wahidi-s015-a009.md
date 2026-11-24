@@ -11,11 +11,8 @@ Informe de al-Wahidi sobre la ocasión de revelación de al-Hijr 15:9, transmiti
 The verse, in al-Wahidi's heading: «وإن طائفتان من المؤمنين اقتتلوا».
 
 ## Informe completo (texto fuente en árabe)
-<div dir="rtl" lang="ar">
 
 أنزلت فيهم: {وإن طائفتان من المؤمنين اقتتلوا فأصلحوا بينهما} رواه
-
-</div>
 
 ## Place in the museum
 Fuente: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an de al-Wahidi]]. El versículo: [[passage/quran-15-9|Corán 15-9]].

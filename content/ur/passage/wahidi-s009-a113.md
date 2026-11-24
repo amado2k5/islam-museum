@@ -11,11 +11,8 @@ Bara'a (at-Tawba) 9:113 کے سببِ نزول پر الواحدی کی روای
 The verse, in al-Wahidi's heading: «ما كان للنبي والذين آمنوا أن يستغفروا للمشركين».
 
 ## مکمل روایت ⁦(عربی ماخذ متن)⁩
-<div dir="rtl" lang="ar">
 
 فقال النبي- "لأستغفرن لك ما لم أنه عنك"، فنزلت:
-
-</div>
 
 ## Place in the museum
 ماخذ: [[work/asbab-nuzul-wahidi|الواحدی کی اسباب نزول القرآن]]۔ آیت: [[passage/quran-9-113|قرآن 9-113]]۔

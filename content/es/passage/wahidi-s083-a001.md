@@ -11,11 +11,8 @@ Informe de al-Wahidi sobre la ocasión de revelación de al-Mutaffifin 83:1, tra
 The verse, in al-Wahidi's heading: «ويل للمطففين».
 
 ## Informe completo (texto fuente en árabe)
-<div dir="rtl" lang="ar">
 
 وسلم - المدينة كانوا من أخبث الناس كيلا، فأنزل الله: {ويل
-
-</div>
 
 ## Place in the museum
 Fuente: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an de al-Wahidi]]. El versículo: [[passage/quran-83-1|Corán 83-1]].

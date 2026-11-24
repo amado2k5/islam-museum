@@ -11,11 +11,8 @@ Riwayat al-Wahidi tentang sebab turunnya al-Baqara 2:116, diriwayatkan dalam Asb
 The verse, in al-Wahidi's heading: «وقالوا اتخذ الله ولدا».
 
 ## Laporan lengkap (teks sumber Arab)
-<div dir="rtl" lang="ar">
 
 نزلت في اليهود حيث قالوا: عزير ابن الله، وفي نصارى نجران حيث قالوا:
-
-</div>
 
 ## Place in the museum
 Sumber: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an al-Wahidi]]. Ayatnya: [[passage/quran-2-116|Al-Qur'an 2-116]].

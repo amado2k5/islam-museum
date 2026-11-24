@@ -11,11 +11,8 @@ Informe de al-Suyuti sobre la ocasión de revelación de al-An'am 6, en Lubab al
 The verse, in al-Suyuti's heading: «وهم يهنون عنه وينأون عنه».
 
 ## Informe completo (texto fuente en árabe)
-<div dir="rtl" lang="ar">
 
 وهم يهنون عنه وينأون عنه الآية روى الحاكم وغيره عن ابن عباس قال نزلت هذه الآية في أبي طالب كان ينهى المشركين أن يؤذوا رسول الله ويتباعد عما جاء به ⁦(ك)⁩ وأخرج ابن ابي حاتم عن سعيد بن أبي هلال قال
-
-</div>
 
 ## Place in the museum
 Fuente: [[work/lubab-al-nuqul-suyuti|de al-Suyuti Lubab al-Nuqul]]. El versículo: [[passage/quran-6-26|Corán 6-26]].

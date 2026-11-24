@@ -11,11 +11,8 @@ Rapport d'al-Suyuti sur la circonstance de révélation de al-Ahzab 33:23, dans 
 The verse, in al-Suyuti's heading: «من المؤمنين رجال».
 
 ## Rapport complet (texte source arabe)
-<div dir="rtl" lang="ar">
 
 من المؤمنين رجال الآية أخرج مسلم والترمذي وغيرهما عن أنس قال غاب عمي أنس بن النضر عن بدر فكبر عليه وقال فقال أول مشهد قد شهده رسول الله غبت عنه لئن أراني الله مشهدا مع رسول الله
-
-</div>
 
 ## Place in the museum
 Source : [[work/lubab-al-nuqul-suyuti|d'al-Suyuti Lubab al-Nuqul]]. Le verset: [[passage/quran-33-23|Coran 33-23]].

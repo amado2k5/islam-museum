@@ -11,11 +11,8 @@ Informe de al-Wahidi sobre la ocasión de revelación de Bara'a (at-Tawba) 9:49,
 The verse, in al-Wahidi's heading: «ومنهم من يقول ائذن لي».
 
 ## Informe completo (texto fuente en árabe)
-<div dir="rtl" lang="ar">
 
 نزلت في جد بن قيس المنافق، وذلك أن رسول الله-
-
-</div>
 
 ## Place in the museum
 Fuente: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an de al-Wahidi]]. El versículo: [[passage/quran-9-49|Corán 9-49]].

@@ -11,11 +11,8 @@ al-Anfal 8:35 ayetinin nüzül sebebi hakkında El-Vahidi'nin rivayeti; Esbab N�
 The verse, in al-Wahidi's heading: «وما كان صلاتهم عند البيت ... .».
 
 ## Tam rivayet (Arapça kaynak metin)
-<div dir="rtl" lang="ar">
 
 صفيرهم، ويضعون خدودهم بالأرض، فنزلت هذه الآية.
-
-</div>
 
 ## Place in the museum
 Kaynak: [[work/asbab-nuzul-wahidi|El-Vahidi'nin Esbab Nüzul el-Kur'an'ı]]. Ayet: [[passage/quran-8-35|Kur'an 8-35]].

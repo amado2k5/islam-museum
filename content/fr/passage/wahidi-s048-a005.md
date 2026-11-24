@@ -11,11 +11,8 @@ Rapport d'al-Wahidi sur la circonstance de révélation de al-Fath 48:5, transmi
 The verse, in al-Wahidi's heading: «5».
 
 ## Rapport complet (texte source arabe)
-<div dir="rtl" lang="ar">
 
 أخبرنا همام عن قتادة، عن أنس قال: لما نزلت: {إنا فتحنا لك فتحا مبينا
-
-</div>
 
 ## Place in the museum
 Source : [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an d'al-Wahidi]]. Le verset : [[passage/quran-48-5|Coran 48-5]].

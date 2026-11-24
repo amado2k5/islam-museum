@@ -11,11 +11,8 @@ Riwayat al-Wahidi tentang sebab turunnya al-Hijr 15:13, diriwayatkan dari genera
 The verse, in al-Wahidi's heading: «يا أيها الناس إنا خلقناكم من ذكر وأنثى».
 
 ## Laporan lengkap (teks sumber Arab)
-<div dir="rtl" lang="ar">
 
 قال ابن عباس: نزلت في ثابت بن قيس، وقوله في الرجل الذي لم يفسح له ابن
-
-</div>
 
 ## Place in the museum
 Sumber: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an al-Wahidi]]. Ayatnya: [[passage/quran-15-13|Al-Qur'an 15-13]].

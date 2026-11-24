@@ -11,11 +11,8 @@ al-Isra 17:60 ayetinin nüzul sebebi hakkında es-Suyuti'nin rivayeti; Lübabü'
 The verse, in al-Suyuti's heading: «وما جعلنا».
 
 ## Tam rivayet (Arapça kaynak metin)
-<div dir="rtl" lang="ar">
 
 وما جعلنا الآية أخرج ابو يعلي عن أم هانئ أنه لما أسري به أصبح يحدث نفرا من قريش يستهزؤون به فطلبوا منه آية فوصف لهم بيت المقدس وذكر لهم قصة العير فقال الوليد بن المغيرة هذا ساحر فأنزل الله وما جعلنا
-
-</div>
 
 ## Place in the museum
 Kaynak: [[work/lubab-al-nuqul-suyuti|es-Suyuti'nin Lubab al-Nuqul]]. Ayet: [[passage/quran-17-60|Kur'an 17-60]].

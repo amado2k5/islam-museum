@@ -11,11 +11,8 @@ Informe de al-Wahidi sobre la ocasión de revelación de al-Baqara 2:177, transm
 The verse, in al-Wahidi's heading: «ليس البر أن تولوا وجوهكم».
 
 ## Informe completo (texto fuente en árabe)
-<div dir="rtl" lang="ar">
 
 قال قتادة: ذكر لنا أن رجلا سأل نبي الله- عن
-
-</div>
 
 ## Place in the museum
 Fuente: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an de al-Wahidi]]. El versículo: [[passage/quran-2-177|Corán 2-177]].

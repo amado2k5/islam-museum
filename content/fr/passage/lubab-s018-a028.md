@@ -11,11 +11,8 @@ Rapport d'al-Suyuti sur la circonstance de révélation de al-Kahf 18:28, dans L
 The verse, in al-Suyuti's heading: «واصبر نفسك».
 
 ## Rapport complet (texte source arabe)
-<div dir="rtl" lang="ar">
 
 واصبر نفسك الآية تقدم سبب النزول في سورة الأنعام في حديث خباب
-
-</div>
 
 ## Place in the museum
 Source : [[work/lubab-al-nuqul-suyuti|d'al-Suyuti Lubab al-Nuqul]]. Le verset: [[passage/quran-18-28|Coran 18-28]].

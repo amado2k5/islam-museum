@@ -11,11 +11,8 @@ Informe de al-Wahidi sobre la ocasión de revelación de al-Anfal 8:1, transmiti
 The verse, in al-Wahidi's heading: «يسألونك عن الأنفال قل الأنفال لله والرسول».
 
 ## Informe completo (texto fuente en árabe)
-<div dir="rtl" lang="ar">
 
 جاوزت إلا قريبا حتى نزلت سورة الأنفال، فقال لي رسول الله
-
-</div>
 
 ## Place in the museum
 Fuente: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an de al-Wahidi]]. El versículo: [[passage/quran-8-1|Corán 8-1]].

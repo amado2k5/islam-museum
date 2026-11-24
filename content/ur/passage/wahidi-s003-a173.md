@@ -11,11 +11,8 @@ Al 'Imran 3:173 کے سببِ نزول پر الواحدی کی روایت — �
 The verse, in al-Wahidi's heading: «الذين قال لهم الناس».
 
 ## مکمل روایت ⁦(عربی ماخذ متن)⁩
-<div dir="rtl" lang="ar">
 
 فأنزل اللهفيهم: {الذين قال لهم الناس إن الناس قد جمعوا لكم
-
-</div>
 
 ## Place in the museum
 ماخذ: [[work/asbab-nuzul-wahidi|الواحدی کی اسباب نزول القرآن]]۔ آیت: [[passage/quran-3-173|قرآن 3-173]]۔

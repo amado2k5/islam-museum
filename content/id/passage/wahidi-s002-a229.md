@@ -11,11 +11,8 @@ Riwayat al-Wahidi tentang sebab turunnya al-Baqara 2, diriwayatkan dari generasi
 The verse, in al-Wahidi's heading: «الطلاق مرتان فإمساك بمعروف».
 
 ## Laporan lengkap (teks sumber Arab)
-<div dir="rtl" lang="ar">
 
 عدتها ارتجعها، ثم طلقها وقال: والله لا آويك إلي ولا تحلين أبدا، فأنزل
-
-</div>
 
 ## Place in the museum
 Sumber: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an al-Wahidi]]. Ayatnya: [[passage/quran-2-229|Al-Qur'an 2-229]].

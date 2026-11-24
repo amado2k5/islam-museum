@@ -11,11 +11,8 @@ Informe de al-Suyuti sobre la ocasión de revelación de an-Nisa 4:32, en Lubab 
 The verse, in al-Suyuti's heading: «ولا تتمنوا روى الحاكم عن أم سلمة أنها».
 
 ## Informe completo (texto fuente en árabe)
-<div dir="rtl" lang="ar">
 
 ولا تتمنوا روى الحاكم عن أم سلمة أنها قالت يغزو الرجال ولا يغزو النساء وإنما لنا نصف الميراث فأنزل الله ولا تتمنوا ما فضل الله به بعضكم على بعض وأنزل فيها إن المسلمين والمسلمات [الاحزاب: 35] وأخرج ابن أبي حاتم عن ابن عباس قال أتت
-
-</div>
 
 ## Place in the museum
 Fuente: [[work/lubab-al-nuqul-suyuti|de al-Suyuti Lubab al-Nuqul]]. El versículo: [[passage/quran-4-32|Corán 4-32]].

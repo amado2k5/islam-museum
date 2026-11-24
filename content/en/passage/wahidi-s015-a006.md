@@ -11,11 +11,8 @@ Al-Wahidi's report on the occasion of revelation of al-Hijr 15:6, narrated in As
 The verse, in al-Wahidi's heading: «يا أيها الذين آمنوا إن جاءكم فاسق بنبإ فتبينوا».
 
 ## Full report (Arabic source text)
-<div dir="rtl" lang="ar">
 
 نزلت في الوليد بن عقبة بن أبي معيط بعثه رسول الله
-
-</div>
 
 ## Place in the museum
 Source: [[work/asbab-al-nuzul-wahidi|al-Wahidi's Asbab nuzul al-Qur'an]]. The verse: [[passage/quran-15-6|Qur'an 15-6]].

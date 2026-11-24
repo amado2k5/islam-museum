@@ -11,11 +11,8 @@ Al-Wahidi's report on the occasion of revelation of an-Nur 24:55, narrated from 
 The verse, in al-Wahidi's heading: «وعد الله الذين آمنوا منكم وعملوا الصالحات».
 
 ## Full report (Arabic source text)
-<div dir="rtl" lang="ar">
 
 منكم في الملأ العظيم محتبيا ليست فيهم حديدة، وأنزل الله: {وعد الله
-
-</div>
 
 ## Place in the museum
 Source: [[work/asbab-al-nuzul-wahidi|al-Wahidi's Asbab nuzul al-Qur'an]]. The verse: [[passage/quran-24-55|Qur'an 24-55]].

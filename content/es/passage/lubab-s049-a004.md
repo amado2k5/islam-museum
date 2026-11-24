@@ -11,11 +11,8 @@ Informe de al-Suyuti sobre la ocasión de revelación de al-Hijr 15, en Lubab al
 The verse, in al-Suyuti's heading: «إن الذين ينادونك الآيتين».
 
 ## Informe completo (texto fuente en árabe)
-<div dir="rtl" lang="ar">
 
 إن الذين ينادونك الآيتين أخرج الطبراني وأبو يعلى بسند حسن عن زيد بن أرقم قال جاء ناس من العرب إلى حجر النبي فجعلوا ينادون يا محمد يا محمد فأنزل الله إن الذين ينادونك من وراء الحجرات الآية ⁦(ك)⁩ وقال عبد الرزاق
-
-</div>
 
 ## Place in the museum
 Fuente: [[work/lubab-al-nuqul-suyuti|de al-Suyuti Lubab al-Nuqul]]. El versículo: [[passage/quran-49-4|Corán 49-4]].

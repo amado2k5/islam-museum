@@ -11,11 +11,8 @@ Al-Wahidi's report on the occasion of revelation of al-'Ankabut 29, narrated fro
 The verse, in al-Wahidi's heading: «الم أحسب الناس».
 
 ## Full report (Arabic source text)
-<div dir="rtl" lang="ar">
 
 قال الشعبي نزلت في أناس كانوا بمكة قد أقروا بالإسلام، فكتب إليهم أصحاب
-
-</div>
 
 ## Place in the museum
 Source: [[work/asbab-nuzul-wahidi|al-Wahidi's Asbab nuzul al-Qur'an]]. The verse: [[passage/quran-29-2|Qur'an 29-2]].

@@ -11,11 +11,8 @@ Riwayat as-Suyuti tentang sebab turunnya al-Hijr 15, dalam Lubab al-Nuqul fi Asb
 The verse, in al-Suyuti's heading: «ولا يغتب بعضكم بعضا».
 
 ## Laporan lengkap (teks sumber Arab)
-<div dir="rtl" lang="ar">
 
 ولا يغتب بعضكم بعضا الآية أخرج ابن المنذر عن ابن جريج قال زعموا أنها نزلت في سلمان الفارسي أكل ثم رقد فنفخ فذكر رجل أكله ورقاده فنزلت
-
-</div>
 
 ## Place in the museum
 Sumber: [[work/lubab-al-nuqul-suyuti|as-Suyuti Lubab al-Nuqul]]. Ayatnya: [[passage/quran-49-12|Al-Qur'an 49-12]].

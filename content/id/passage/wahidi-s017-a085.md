@@ -11,11 +11,8 @@ Riwayat al-Wahidi tentang sebab turunnya Bani Isra'il 17:85, diriwayatkan dari g
 The verse, in al-Wahidi's heading: «ويسألونك عن الروح».
 
 ## Laporan lengkap (teks sumber Arab)
-<div dir="rtl" lang="ar">
 
 بنا ناس من اليهود فقالوا: سلوه عن الروح، فقال بعضهم: لا تسألوه فيستقبلكم
-
-</div>
 
 ## Place in the museum
 Sumber: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an al-Wahidi]]. Ayatnya: [[passage/quran-17-85|Al-Qur'an 17-85]].

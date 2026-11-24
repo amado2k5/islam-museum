@@ -11,11 +11,8 @@ Al-Wahidi's report on the occasion of revelation of Al 'Imran 3:181, narrated fr
 The verse, in al-Wahidi's heading: «لقد سمع الله ms088 قول الذين قالوا».
 
 ## Full report (Arabic source text)
-<div dir="rtl" lang="ar">
 
 وأنهم عنه أغنياء، فغضبت لله وضربت وجهه، فجحد ذلك فنحاص، فأنزل الله - عز
-
-</div>
 
 ## Place in the museum
 Source: [[work/asbab-al-nuzul-wahidi|al-Wahidi's Asbab nuzul al-Qur'an]]. The verse: [[passage/quran-3-181|Qur'an 3-181]].

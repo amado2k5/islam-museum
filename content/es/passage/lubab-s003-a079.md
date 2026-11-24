@@ -11,11 +11,8 @@ Informe de al-Suyuti sobre la ocasión de revelación de Al 'Imran 3:79, en Luba
 The verse, in al-Suyuti's heading: «ما كان لبشر».
 
 ## Informe completo (texto fuente en árabe)
-<div dir="rtl" lang="ar">
 
 ما كان لبشر الآية أخرج ابن إسحق والبيهقي عن ابن عباس قال قال أبو رافع القرظي حين اجتمعت الأحبار من اليهود والنصارى من أهل نجران عند رسول الله ودعاهم إلى الإسلام أتريد يا محمد أن نعبدك كما تعبد النصارى عيسى قال
-
-</div>
 
 ## Place in the museum
 Fuente: [[work/lubab-al-nuqul-suyuti|de al-Suyuti Lubab al-Nuqul]]. El versículo: [[passage/quran-3-79|Corán 3-79]].

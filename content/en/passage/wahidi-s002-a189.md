@@ -11,11 +11,8 @@ Al-Wahidi's report on the occasion of revelation of al-Baqara 2:189, narrated fr
 The verse, in al-Wahidi's heading: «يسألونك عن الأهلة».
 
 ## Full report (Arabic source text)
-<div dir="rtl" lang="ar">
 
 قال معاذ بن جبل: يا رسول الله إن اليهود تغشانا ويكثرون مسألتنا عن
-
-</div>
 
 ## Place in the museum
 Source: [[work/asbab-al-nuzul-wahidi|al-Wahidi's Asbab nuzul al-Qur'an]]. The verse: [[passage/quran-2-189|Qur'an 2-189]].

@@ -11,11 +11,8 @@ Al-Suyuti's report on the occasion of revelation of al-Isra 17:110, in Lubab al-
 The verse, in al-Suyuti's heading: «ولا تجهر».
 
 ## Full report (Arabic source text)
-<div dir="rtl" lang="ar">
 
 ولا تجهر الآية أخرج البخاري وغيره عن ابن عباس في قوله ولا تجهر بصلاتك ولا تخافت بها قال نزلت ورسول الله مختف بمكة وكان إذا صلى بأصحابه رفع صوته بالقرآن فكان المشركون إذا سمعوا القرآن سبوه ومن أنزله ومن جاء به
-
-</div>
 
 ## Place in the museum
 Source: [[work/lubab-al-nuqul-suyuti|al-Suyuti's Lubab al-Nuqul]]. The verse: [[passage/quran-17-110|Qur'an 17-110]].

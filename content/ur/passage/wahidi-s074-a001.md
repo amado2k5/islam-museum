@@ -11,11 +11,8 @@ al-Muddaththir 74:1 کے سببِ نزول پر الواحدی کی روایت �
 The verse, in al-Wahidi's heading: «يا أيها المدثر».
 
 ## مکمل روایت ⁦(عربی ماخذ متن)⁩
-<div dir="rtl" lang="ar">
 
 بحراء شهرا فلما قضيت جواري نزلت فاستبطنت بطن الوادي، فنوديت فنظرت أمامي
-
-</div>
 
 ## Place in the museum
 ماخذ: [[work/asbab-nuzul-wahidi|الواحدی کی اسباب نزول القرآن]]۔ آیت: [[passage/quran-74-1|قرآن 74-1]]۔

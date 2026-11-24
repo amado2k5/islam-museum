@@ -11,11 +11,8 @@ Riwayat al-Wahidi tentang sebab turunnya al-Hadid 57:16, diriwayatkan dari gener
 The verse, in al-Wahidi's heading: «ألم يأن للذين آمنوا أن تخشع قلوبهم لذكر الله».
 
 ## Laporan lengkap (teks sumber Arab)
-<div dir="rtl" lang="ar">
 
 قال الكلبي ومقاتل: نزلت في المنافقين بعد الهجرة بسنة، وذلك أنهم سألوا
-
-</div>
 
 ## Place in the museum
 Sumber: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an al-Wahidi]]. Ayatnya: [[passage/quran-57-16|Al-Qur'an 57-16]].

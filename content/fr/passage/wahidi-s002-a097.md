@@ -11,11 +11,8 @@ Rapport d'al-Wahidi sur la circonstance de révélation de al-Baqara 2:97, trans
 The verse, in al-Wahidi's heading: «قل من كان عدوا لجبريل».
 
 ## Rapport complet (texte source arabe)
-<div dir="rtl" lang="ar">
 
 فقالوا: يا أبا القاسم نسألك عن أشياء فإن أجبتنا فيها اتبعناك، أخبرنا من
-
-</div>
 
 ## Place in the museum
 Source : [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an d'al-Wahidi]]. Le verset : [[passage/quran-2-97|Coran 2-97]].

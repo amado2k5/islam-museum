@@ -11,11 +11,8 @@ an-Nisa 4:93 کے سببِ نزول پر الواحدی کی روایت — «ا
 The verse, in al-Wahidi's heading: «ومن يقتل مؤمنا متعمدا».
 
 ## مکمل روایت ⁦(عربی ماخذ متن)⁩
-<div dir="rtl" lang="ar">
 
 فنزلت هذه الآية: {ومن يقتل مؤمنا متعمدا} الآية.
-
-</div>
 
 ## Place in the museum
 ماخذ: [[work/asbab-nuzul-wahidi|الواحدی کی اسباب نزول القرآن]]۔ آیت: [[passage/quran-4-93|قرآن 4-93]]۔

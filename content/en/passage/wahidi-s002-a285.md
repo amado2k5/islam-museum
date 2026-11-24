@@ -11,11 +11,8 @@ Al-Wahidi's report on the occasion of revelation of al-Baqara 2:285, narrated fr
 The verse, in al-Wahidi's heading: «آمن الرسول بما أنزل إليه من ربه».
 
 ## Full report (Arabic source text)
-<div dir="rtl" lang="ar">
 
 هريرة قال: لما أنزل على رسول الله- {وإن تبدوا ما
-
-</div>
 
 ## Place in the museum
 Source: [[work/asbab-al-nuzul-wahidi|al-Wahidi's Asbab nuzul al-Qur'an]]. The verse: [[passage/quran-2-285|Qur'an 2-285]].

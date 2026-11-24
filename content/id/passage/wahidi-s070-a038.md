@@ -11,11 +11,8 @@ Riwayat al-Wahidi tentang sebab turunnya al-Ma'arij 70:38, diriwayatkan dalam As
 The verse, in al-Wahidi's heading: «أيطمع كل امرئ منهم أن يدخل جنة نعيم كلا».
 
 ## Laporan lengkap (teks sumber Arab)
-<div dir="rtl" lang="ar">
 
 هؤلاء الجنة لندخلنها قبلهم، وليكونن لنا فيها أكثر مما لهم، فأنزل الله
-
-</div>
 
 ## Place in the museum
 Sumber: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an al-Wahidi]]. Ayatnya: [[passage/quran-70-38|Al-Qur'an 70-38]].

@@ -11,11 +11,8 @@ Rapport d'al-Wahidi sur la circonstance de révélation de ash-Shura 42:51, tran
 The verse, in al-Wahidi's heading: «وما كان لبشر أن يكلمه الله إلا وحيا».
 
 ## Rapport complet (texte source arabe)
-<div dir="rtl" lang="ar">
 
 فقال: "لم ينظر موسى إلى الله"، وأنزلت هذه الآية.
-
-</div>
 
 ## Place in the museum
 Source : [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an d'al-Wahidi]]. Le verset : [[passage/quran-42-51|Coran 42-51]].

@@ -11,11 +11,8 @@ Riwayat al-Wahidi tentang sebab turunnya az-Zumar 39:22, diriwayatkan dalam Asba
 The verse, in al-Wahidi's heading: «أفمن شرح الله صدره للإسلام فهو على نور من ربه».
 
 ## Laporan lengkap (teks sumber Arab)
-<div dir="rtl" lang="ar">
 
 نزلت في حمزة وعلي وأبي لهب وولده، فعلي وحمزة ممن شرح الله صدره، وأبو
-
-</div>
 
 ## Place in the museum
 Sumber: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an al-Wahidi]]. Ayatnya: [[passage/quran-39-22|Al-Qur'an 39-22]].

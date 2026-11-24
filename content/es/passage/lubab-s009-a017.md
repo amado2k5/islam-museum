@@ -11,11 +11,8 @@ Informe de al-Suyuti sobre la ocasión de revelación de Bara'a (at-Tawba) 9:17,
 The verse, in al-Suyuti's heading: «ما كان للمشركين الآيات».
 
 ## Informe completo (texto fuente en árabe)
-<div dir="rtl" lang="ar">
 
 ما كان للمشركين الآيات أخرج أبن أبى حاتم من طريق علي بن أبي طلحة عن ابن عباس قال قال العباس حين أسر يوم بدر إن كنتم سبقتمونا بالإسلام والهجرة والجهاد لقد كنا نعمر المسجد الحرام ونسقي الحاج ونفك العاني فأنزل الله أجعلتم سقاية الحاج الآية
-
-</div>
 
 ## Place in the museum
 Fuente: [[work/lubab-al-nuqul-suyuti|de al-Suyuti Lubab al-Nuqul]]. El versículo: [[passage/quran-9-17|Corán 9-17]].

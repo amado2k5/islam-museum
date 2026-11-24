@@ -11,11 +11,8 @@ al-An'am 6:7 کے سببِ نزول پر الواحدی کی روایت — «ا
 The verse, in al-Wahidi's heading: «ولو نزلنا عليك كتابا في قرطاس».
 
 ## مکمل روایت ⁦(عربی ماخذ متن)⁩
-<div dir="rtl" lang="ar">
 
 رسوله فنزلت هذه الآية.
-
-</div>
 
 ## Place in the museum
 ماخذ: [[work/asbab-nuzul-wahidi|الواحدی کی اسباب نزول القرآن]]۔ آیت: [[passage/quran-6-7|قرآن 6-7]]۔

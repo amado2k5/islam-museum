@@ -11,11 +11,8 @@ Maryam 19 ayetinin nüzül sebebi hakkında El-Vahidi'nin rivayeti; Esbab Nüzul
 The verse, in al-Wahidi's heading: «ويقول الإنسان أئذا ما مت لسوف أخرج حيا».
 
 ## Tam rivayet (Arapça kaynak metin)
-<div dir="rtl" lang="ar">
 
 قال الكلبي: نزلت في أبي بن خلف حين أخذ عظاما بالية يفتها بيده ويقول:
-
-</div>
 
 ## Place in the museum
 Kaynak: [[work/asbab-nuzul-wahidi|El-Vahidi'nin Esbab Nüzul el-Kur'an'ı]]. Ayet: [[passage/quran-19-66|Kur'an 19-66]].

@@ -11,11 +11,8 @@ Riwayat as-Suyuti tentang sebab turunnya al-Baqara 2:187, dalam Lubab al-Nuqul f
 The verse, in al-Suyuti's heading: «أحل لكم ليلة الصيام».
 
 ## Laporan lengkap (teks sumber Arab)
-<div dir="rtl" lang="ar">
 
 أحل لكم ليلة الصيام الآية روى أحمد وأبو داود والحاكم من طريق عبد الرحمن بن أبي ليلى عن معاذ بن جبل قال كانوا يأكلون ويشربون ويأتون النساء ما لم يناموا فإذا ناموا امتنعوا ثم أن رجلا من الأنصار يقال له قيس بن صرمة صلى العشاء
-
-</div>
 
 ## Place in the museum
 Sumber: [[work/lubab-al-nuqul-suyuti|as-Suyuti Lubab al-Nuqul]]. Ayatnya: [[passage/quran-2-187|Al-Qur'an 2-187]].

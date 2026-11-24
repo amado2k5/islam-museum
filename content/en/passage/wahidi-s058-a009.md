@@ -11,11 +11,8 @@ Al-Wahidi's report on the occasion of revelation of al-Mujadila 58:9, narrated f
 The verse, in al-Wahidi's heading: «يا أيها الذين آمنوا إذا ناجيتم الرسول».
 
 ## Full report (Arabic source text)
-<div dir="rtl" lang="ar">
 
 مقاتل بن حيان: نزلت الآية في الأغنياء، وذلك أنهم كانوا يأتون النبي- فيكثرون مناجاته ويغلبون الفقراء على المجالس حتى كره
-
-</div>
 
 ## Place in the museum
 Source: [[work/asbab-al-nuzul-wahidi|al-Wahidi's Asbab nuzul al-Qur'an]]. The verse: [[passage/quran-58-9|Qur'an 58-9]].

@@ -11,11 +11,8 @@ Riwayat al-Wahidi tentang sebab turunnya as-Saff 61:2, diriwayatkan dalam Asbab 
 The verse, in al-Wahidi's heading: «يا أيها الذين آمنوا لم تقولون ما لا تفعلون».
 
 ## Laporan lengkap (teks sumber Arab)
-<div dir="rtl" lang="ar">
 
 فابتلوا يوم أحد بذلك فولوا مدبرين، فأنزل الله
-
-</div>
 
 ## Place in the museum
 Sumber: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an al-Wahidi]]. Ayatnya: [[passage/quran-61-2|Al-Qur'an 61-2]].

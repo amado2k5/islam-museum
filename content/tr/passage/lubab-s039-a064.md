@@ -11,11 +11,8 @@ az-Zumar 39:64 ayetinin nüzul sebebi hakkında es-Suyuti'nin rivayeti; Lübabü
 The verse, in al-Suyuti's heading: «قل أفغير الله تأمروني أعبد».
 
 ## Tam rivayet (Arapça kaynak metin)
-<div dir="rtl" lang="ar">
 
 قل أفغير الله تأمروني أعبد الآية سيأتي سبب نزولها في سورة الكافرون وأخرج البيهقي في الدلائل عن الحسن البصري قال قال المشركون للنبي أتضلل آباءك وأجدادك يا محمد فأنزل الله قل أفغير الله تأمروني أعبد إلى قوله
-
-</div>
 
 ## Place in the museum
 Kaynak: [[work/lubab-al-nuqul-suyuti|es-Suyuti'nin Lubab al-Nuqul]]. Ayet: [[passage/quran-39-64|Kur'an 39-64]].

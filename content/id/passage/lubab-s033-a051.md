@@ -11,11 +11,8 @@ Riwayat as-Suyuti tentang sebab turunnya al-Ahzab 33:51, dalam Lubab al-Nuqul fi
 The verse, in al-Suyuti's heading: «ترجي من تشاء».
 
 ## Laporan lengkap (teks sumber Arab)
-<div dir="rtl" lang="ar">
 
 ترجي من تشاء أخرج الشيخان عن عائشة أنها كانت تقول أما تستحي المرأة أن تهب نفسها فأنزل الله ترجي من تشاء الآية فقالت عائشة أرى ربك يسارع لك في هواك وأخرج ابن سعد عن أبي رزين قال هم رسول الله أن
-
-</div>
 
 ## Place in the museum
 Sumber: [[work/lubab-al-nuqul-suyuti|as-Suyuti Lubab al-Nuqul]]. Ayatnya: [[passage/quran-33-51|Al-Qur'an 33-51]].

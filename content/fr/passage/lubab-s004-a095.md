@@ -11,11 +11,8 @@ Rapport d'al-Suyuti sur la circonstance de révélation de an-Nisa 4:95, dans Lu
 The verse, in al-Suyuti's heading: «لا يستوي القاعدون».
 
 ## Rapport complet (texte source arabe)
-<div dir="rtl" lang="ar">
 
 لا يستوي القاعدون الآية روى البخاري عن البراء قال لما نزلت لا يستوي القاعدون من المؤمنين قال النبي أدع فلانا فجاء ومعه الدواة واللوح والكتف فقال اكتب لا يستوي القاعدون من المؤمين والمجاهدون في سبيل الله وخلف النبي
-
-</div>
 
 ## Place in the museum
 Source : [[work/lubab-al-nuqul-suyuti|d'al-Suyuti Lubab al-Nuqul]]. Le verset: [[passage/quran-4-95|Coran 4-95]].

@@ -11,11 +11,8 @@ Riwayat al-Wahidi tentang sebab turunnya al-Qasas 28:68, diriwayatkan dalam Asba
 The verse, in al-Wahidi's heading: «وربك يخلق ما يشاء ويختار».
 
 ## Laporan lengkap (teks sumber Arab)
-<div dir="rtl" lang="ar">
 
 قال أهل التفسير: نزلت جوابا للوليد بن المغيرة حين قال فيما أخبر الله
-
-</div>
 
 ## Place in the museum
 Sumber: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an al-Wahidi]]. Ayatnya: [[passage/quran-28-68|Al-Qur'an 28-68]].

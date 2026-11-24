@@ -11,11 +11,8 @@ al-Ahzab 33:35 کے سببِ نزول پر الواحدی کی روایت — «
 The verse, in al-Wahidi's heading: «إن المسلمين والمسلمات».
 
 ## مکمل روایت ⁦(عربی ماخذ متن)⁩
-<div dir="rtl" lang="ar">
 
 هل نزل فينا شيء من القرآن؟
-
-</div>
 
 ## Place in the museum
 ماخذ: [[work/asbab-nuzul-wahidi|الواحدی کی اسباب نزول القرآن]]۔ آیت: [[passage/quran-33-35|قرآن 33-35]]۔

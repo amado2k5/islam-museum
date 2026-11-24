@@ -11,11 +11,8 @@ Al 'Imran 3:68 ayetinin nüzül sebebi hakkında El-Vahidi'nin rivayeti; Esbab N
 The verse, in al-Wahidi's heading: «إن أولى الناس بإبراهيم للذين اتبعوه وهذا النبي».
 
 ## Tam rivayet (Arapça kaynak metin)
-<div dir="rtl" lang="ar">
 
 إبراهيم منك ومن غيرك، وأنه كان يهوديا، وما بك إلا الحسد، فأنزل الله
-
-</div>
 
 ## Place in the museum
 Kaynak: [[work/asbab-nuzul-wahidi|El-Vahidi'nin Esbab Nüzul el-Kur'an'ı]]. Ayet: [[passage/quran-3-68|Kur'an 3-68]].

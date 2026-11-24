@@ -11,11 +11,8 @@ Rapport d'al-Suyuti sur la circonstance de révélation de an-Nisa 4:94, dans Lu
 The verse, in al-Suyuti's heading: «يا أيها الذين آمنوا إذا ضربتم».
 
 ## Rapport complet (texte source arabe)
-<div dir="rtl" lang="ar">
 
 يا أيها الذين آمنوا إذا ضربتم الآية روى البخاري والترمذي والحاكم وغيره عن ابن عباس قال مر رجل من بني سليم بنفر من أصحاب النبي وهو يسوق غنما له فسلم عليهم فقالوا ما سلم علينا إلا ليتعوذ منا فعمدوا إليه فقتلوه
-
-</div>
 
 ## Place in the museum
 Source : [[work/lubab-al-nuqul-suyuti|d'al-Suyuti Lubab al-Nuqul]]. Le verset: [[passage/quran-4-94|Coran 4-94]].

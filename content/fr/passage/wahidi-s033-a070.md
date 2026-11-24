@@ -11,11 +11,8 @@ Rapport d'al-Wahidi sur la circonstance de révélation de al-Ahzab 33:70, trans
 The verse, in al-Wahidi's heading: «يا أيها الذين آمنوا لا تدخلوا بيوت النبي».
 
 ## Rapport complet (texte source arabe)
-<div dir="rtl" lang="ar">
 
 رسول الله- وكان شديد الحياء، فنزلت هذه الآية، وضرب
-
-</div>
 
 ## Place in the museum
 Source : [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an d'al-Wahidi]]. Le verset : [[passage/quran-33-70|Coran 33-70]].

@@ -11,11 +11,8 @@ al-Hijr 15:45 کے سببِ نزول پر سیوطی کی روایت — «لب�
 The verse, in al-Suyuti's heading: «إن المتقين».
 
 ## مکمل روایت ⁦(عربی ماخذ متن)⁩
-<div dir="rtl" lang="ar">
 
 إن المتقين الآية أخرج الثعلبي عن سلمان الفارسي لما سمع
-
-</div>
 
 ## Place in the museum
 ماخذ: [[work/lubab-al-nuqul-suyuti|سیوطی کی «لباب النقول فی اسباب النزول»]]۔ آیت: [[passage/quran-15-45|قرآن 15-45]]۔

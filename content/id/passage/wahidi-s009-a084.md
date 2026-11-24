@@ -11,11 +11,8 @@ Riwayat al-Wahidi tentang sebab turunnya Bara'a (at-Tawba) 9:84, diriwayatkan da
 The verse, in al-Wahidi's heading: «ولا تصل على أحد منهم مات أبدا».
 
 ## Laporan lengkap (teks sumber Arab)
-<div dir="rtl" lang="ar">
 
 ثم نزلت عليه هذه الآية: {ولا تصل على
-
-</div>
 
 ## Place in the museum
 Sumber: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an al-Wahidi]]. Ayatnya: [[passage/quran-9-84|Al-Qur'an 9-84]].

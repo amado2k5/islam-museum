@@ -11,11 +11,8 @@ Riwayat as-Suyuti tentang sebab turunnya an-Nisa 4:49, dalam Lubab al-Nuqul fi A
 The verse, in al-Suyuti's heading: «ألم تر إلى الذين يزكون».
 
 ## Laporan lengkap (teks sumber Arab)
-<div dir="rtl" lang="ar">
 
 ألم تر إلى الذين يزكون الآية أخرج ابن أبي حاتم عن ابن عباس قال كانت اليهود يقدمون صبيانهم يصلون بهم ويقربون قربانهم يزعمون أنهم لا خطايا لهم ولا ذنوب فأنزل الله ألم تر إلى الذين يزكون أنفسهم وأخرح ابن جرير نحوه عن عكرمة ومجاهد وأبي
-
-</div>
 
 ## Place in the museum
 Sumber: [[work/lubab-al-nuqul-suyuti|as-Suyuti Lubab al-Nuqul]]. Ayatnya: [[passage/quran-4-49|Al-Qur'an 4-49]].

@@ -11,11 +11,8 @@ Rapport d'al-Suyuti sur la circonstance de révélation de al-Baqara 2:224, dans
 The verse, in al-Suyuti's heading: «ولا تجعلوا الله عرضة لأيمانكم».
 
 ## Rapport complet (texte source arabe)
-<div dir="rtl" lang="ar">
 
 ولا تجعلوا الله عرضة لأيمانكم الآية أخرج ابن جرير من طريق ابن جرير قال حدثت أن قوله ولا تجعلوا الله عرضة لأيمانكم الآية نزلت في أبي بكر في شأن مسطح
-
-</div>
 
 ## Place in the museum
 Source : [[work/lubab-al-nuqul-suyuti|d'al-Suyuti Lubab al-Nuqul]]. Le verset: [[passage/quran-2-224|Coran 2-224]].

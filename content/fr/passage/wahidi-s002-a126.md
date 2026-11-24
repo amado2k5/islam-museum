@@ -11,11 +11,8 @@ Rapport d'al-Wahidi sur la circonstance de révélation de al-Baqara 2:126, tran
 The verse, in al-Wahidi's heading: «وإذ قال إبراهيم رب أرني كيف تحي الموتى».
 
 ## Rapport complet (texte source arabe)
-<div dir="rtl" lang="ar">
 
 نعم رأيته، فانتقل إلى حجة أخرى، ثم سأل ربه أن يريه إحياء الميت لكي يطمئن
-
-</div>
 
 ## Place in the museum
 Source : [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an d'al-Wahidi]]. Le verset : [[passage/quran-2-126|Coran 2-126]].

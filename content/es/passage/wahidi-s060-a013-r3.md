@@ -11,11 +11,8 @@ Informe de al-Wahidi sobre la ocasión de revelación de al-Mumtahina 60:13, tra
 The verse, in al-Wahidi's heading: «يا أيها الذين آمنوا لا تتولوا قوما غضب الله عليهم».
 
 ## Informe completo (texto fuente en árabe)
-<div dir="rtl" lang="ar">
 
 نزلت في ناس من فقراء المسلمين كانوا يخبرون اليهود بأخبار المسلمين
-
-</div>
 
 ## Place in the museum
 Fuente: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an de al-Wahidi]]. El versículo: [[passage/quran-60-13|Corán 60-13]].

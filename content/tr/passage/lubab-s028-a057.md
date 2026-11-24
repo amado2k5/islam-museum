@@ -11,11 +11,8 @@ al-Qasas 28:57 ayetinin nüzul sebebi hakkında es-Suyuti'nin rivayeti; Lübabü
 The verse, in al-Suyuti's heading: «وقالوا إن نتبع الهدى معك».
 
 ## Tam rivayet (Arapça kaynak metin)
-<div dir="rtl" lang="ar">
 
 وقالوا إن نتبع الهدى معك الآية أخرج ابن جرير من طريق العوفي عن ابن عباس أن أناسا من قريش قالوا للنبي إن نتبعك تخطفنا الناس فنزلت وأخرج النسائي عن ابن عباس أن الحرث بن عامر بن نوفل هو الذي قال ذلك
-
-</div>
 
 ## Place in the museum
 Kaynak: [[work/lubab-al-nuqul-suyuti|es-Suyuti'nin Lubab al-Nuqul]]. Ayet: [[passage/quran-28-57|Kur'an 28-57]].

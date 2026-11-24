@@ -11,11 +11,8 @@ Al-Wahidi's report on the occasion of revelation of Hud 11:5, narrated from the 
 The verse, in al-Wahidi's heading: «ألا إنهم يثنون صدورهم».
 
 ## Full report (Arabic source text)
-<div dir="rtl" lang="ar">
 
 نزلت في الأخنس بن شريق، وكان رجلا حلو الكلام حلو المنظر، يلقى رسول
-
-</div>
 
 ## Place in the museum
 Source: [[work/asbab-al-nuzul-wahidi|al-Wahidi's Asbab nuzul al-Qur'an]]. The verse: [[passage/quran-11-5|Qur'an 11-5]].

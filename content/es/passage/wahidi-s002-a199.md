@@ -11,11 +11,8 @@ Informe de al-Wahidi sobre la ocasión de revelación de al-Baqara 2:199, transm
 The verse, in al-Wahidi's heading: «ثم أفيضوا من حيث أفاض الناس».
 
 ## Informe completo (texto fuente en árabe)
-<div dir="rtl" lang="ar">
 
 تفيض من جمع من المشعر الحرام، فأنزل الله: {ثم أفيضوا من حيث أفاض
-
-</div>
 
 ## Place in the museum
 Fuente: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an de al-Wahidi]]. El versículo: [[passage/quran-2-199|Corán 2-199]].

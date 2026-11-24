@@ -11,11 +11,8 @@ Rapport d'al-Suyuti sur la circonstance de révélation de Bara'a (at-Tawba) 9:7
 The verse, in al-Suyuti's heading: «يحلفون بالله ما قالوا».
 
 ## Rapport complet (texte source arabe)
-<div dir="rtl" lang="ar">
 
 يحلفون بالله ما قالوا الآية ك أخرج ابن أبي حاتم عن ابن عباس قال كان الجلاس بن سويد بن الصامت ممن تخلف عن رسول الله في غزوة تبوك وقال لئن كان هذا الرجل صادقا لنحن شر من الحمير فرفع عمير بن
-
-</div>
 
 ## Place in the museum
 Source : [[work/lubab-al-nuqul-suyuti|d'al-Suyuti Lubab al-Nuqul]]. Le verset: [[passage/quran-9-74|Coran 9-74]].

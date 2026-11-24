@@ -11,11 +11,8 @@ Informe de al-Wahidi sobre la ocasión de revelación de al-Hadid 57:16, transmi
 The verse, in al-Wahidi's heading: «ألم يأن للذين آمنوا أن تخشع قلوبهم لذكر الله».
 
 ## Informe completo (texto fuente en árabe)
-<div dir="rtl" lang="ar">
 
 قال الكلبي ومقاتل: نزلت في المنافقين بعد الهجرة بسنة، وذلك أنهم سألوا
-
-</div>
 
 ## Place in the museum
 Fuente: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an de al-Wahidi]]. El versículo: [[passage/quran-57-16|Corán 57-16]].

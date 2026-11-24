@@ -11,11 +11,8 @@ Informe de al-Suyuti sobre la ocasión de revelación de Al 'Imran 3, en Lubab a
 The verse, in al-Suyuti's heading: «ألم ترإلى وكان الذين أوتوا».
 
 ## Informe completo (texto fuente en árabe)
-<div dir="rtl" lang="ar">
 
 ألم ترإلى وكان الذين أوتوا الآية أخرج ابن أبي حاتم وابن المنذر عن عكرمة عن ابن عباس قال دخل رسول الله بيت المدراس على جماعة من اليهود فدعاهم إلى الله فقال له نعيم بن عمرو والحرث بن زيد على أي دين
-
-</div>
 
 ## Place in the museum
 Fuente: [[work/lubab-al-nuqul-suyuti|de al-Suyuti Lubab al-Nuqul]]. El versículo: [[passage/quran-3-23|Corán 3-23]].

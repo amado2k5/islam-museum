@@ -11,11 +11,8 @@ Al-Wahidi's report on the occasion of revelation of az-Zukhruf 43:57, narrated f
 The verse, in al-Wahidi's heading: «ولما ضرب ابن مريم مثلا».
 
 ## Full report (Arabic source text)
-<div dir="rtl" lang="ar">
 
 كآلهتهم، فأنزل الله: {ولما ضرب ابن مريم مثلا} الآية.
-
-</div>
 
 ## Place in the museum
 Source: [[work/asbab-al-nuzul-wahidi|al-Wahidi's Asbab nuzul al-Qur'an]]. The verse: [[passage/quran-43-57|Qur'an 43-57]].

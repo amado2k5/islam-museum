@@ -11,11 +11,8 @@ Riwayat al-Wahidi tentang sebab turunnya al-Baqara 2:8, diriwayatkan dari genera
 The verse, in al-Wahidi's heading: «ومن الناس من يشري نفسه ابتغاء مرضاة الله».
 
 ## Laporan lengkap (teks sumber Arab)
-<div dir="rtl" lang="ar">
 
 وسلم - فاتبعه نفر من قريش من المشركين، فنزل عن راحلته ونثر ما في كنانته
-
-</div>
 
 ## Place in the museum
 Sumber: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an al-Wahidi]]. Ayatnya: [[passage/quran-2-8|Al-Qur'an 2-8]].

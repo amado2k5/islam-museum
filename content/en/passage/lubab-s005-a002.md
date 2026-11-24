@@ -11,11 +11,8 @@ Al-Suyuti's report on the occasion of revelation of al-Ma'ida 5:2, in Lubab al-N
 The verse, in al-Suyuti's heading: «لا تحلوا شعائر الله».
 
 ## Full report (Arabic source text)
-<div dir="rtl" lang="ar">
 
 لا تحلوا شعائر الله أخرج ابن جرير عن عكرمة قال قدم الحطم بن هند البكري المدينة في عير له يحمل طعاما فباعه ثم دخل على النبي فبايعه وأسلم فلما ولى خارجا نظر إليه فقال لمن عنده لقد دخل علي بوجه فاجر
-
-</div>
 
 ## Place in the museum
 Source: [[work/lubab-al-nuqul-suyuti|al-Suyuti's Lubab al-Nuqul]]. The verse: [[passage/quran-5-2|Qur'an 5-2]].

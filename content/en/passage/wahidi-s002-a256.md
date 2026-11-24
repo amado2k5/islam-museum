@@ -11,11 +11,8 @@ Al-Wahidi's report on the occasion of revelation of al-Baqara 2:256, narrated fr
 The verse, in al-Wahidi's heading: «لا إكراه في الدين».
 
 ## Full report (Arabic source text)
-<div dir="rtl" lang="ar">
 
 كان فيهم من أبناء الأنصار، فقالوا: لا ندع أبناءنا، فأنزل الله: {لا
-
-</div>
 
 ## Place in the museum
 Source: [[work/asbab-al-nuzul-wahidi|al-Wahidi's Asbab nuzul al-Qur'an]]. The verse: [[passage/quran-2-256|Qur'an 2-256]].

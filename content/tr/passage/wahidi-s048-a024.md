@@ -11,11 +11,8 @@ al-Fath 48:24 ayetinin nüzül sebebi hakkında El-Vahidi'nin rivayeti; Esbab N�
 The verse, in al-Wahidi's heading: «وهو الذي كف أيديهم عنكم وأيديكم عنهم».
 
 ## Tam rivayet (Arapça kaynak metin)
-<div dir="rtl" lang="ar">
 
 فأخذهم أسراء فاستحياهم، فأنزل الله: {وهو الذي كف أيديهم عنكم
-
-</div>
 
 ## Place in the museum
 Kaynak: [[work/asbab-nuzul-wahidi|El-Vahidi'nin Esbab Nüzul el-Kur'an'ı]]. Ayet: [[passage/quran-48-24|Kur'an 48-24]].

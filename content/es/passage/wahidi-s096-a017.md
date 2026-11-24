@@ -11,11 +11,8 @@ Informe de al-Wahidi sobre la ocasión de revelación de al-'Alaq 96:17, transmi
 The verse, in al-Wahidi's heading: «فليدع ناديه سندع الزبانية».
 
 ## Informe completo (texto fuente en árabe)
-<div dir="rtl" lang="ar">
 
 نزلت في أبي جهل.
-
-</div>
 
 ## Place in the museum
 Fuente: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an de al-Wahidi]]. El versículo: [[passage/quran-96-17|Corán 96-17]].

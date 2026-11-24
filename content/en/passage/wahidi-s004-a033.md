@@ -11,11 +11,8 @@ Al-Wahidi's report on the occasion of revelation of an-Nisa 4:33, narrated from 
 The verse, in al-Wahidi's heading: «ولكل جعلنا موالي».
 
 ## Full report (Arabic source text)
-<div dir="rtl" lang="ar">
 
 سعيد بن المسيب: نزلت هذه الآية: {ولكل جعلنا موالي مما ترك الوالدان
-
-</div>
 
 ## Place in the museum
 Source: [[work/asbab-al-nuzul-wahidi|al-Wahidi's Asbab nuzul al-Qur'an]]. The verse: [[passage/quran-4-33|Qur'an 4-33]].

@@ -11,11 +11,8 @@ Informe de al-Suyuti sobre la ocasión de revelación de Al 'Imran 3:31, en Luba
 The verse, in al-Suyuti's heading: «قل إن كنتم تحبون الله».
 
 ## Informe completo (texto fuente en árabe)
-<div dir="rtl" lang="ar">
 
 قل إن كنتم تحبون الله أخرج ابن المنذر عن الحسن قال قال أقوام على عهد نبينا والله يا محمد إنا لنحب ربنا فأنزل الله قل إن كنتم تحبون الله فاتبعوني الآية
-
-</div>
 
 ## Place in the museum
 Fuente: [[work/lubab-al-nuqul-suyuti|de al-Suyuti Lubab al-Nuqul]]. El versículo: [[passage/quran-3-31|Corán 3-31]].

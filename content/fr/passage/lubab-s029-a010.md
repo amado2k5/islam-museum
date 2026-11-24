@@ -11,11 +11,8 @@ Rapport d'al-Suyuti sur la circonstance de révélation de al-'Ankabut 29:10, da
 The verse, in al-Suyuti's heading: «ومن الناس من يقول آمنا بالله».
 
 ## Rapport complet (texte source arabe)
-<div dir="rtl" lang="ar">
 
 ومن الناس من يقول آمنا بالله الآية تقدم سبب نزولها في سورة النساء
-
-</div>
 
 ## Place in the museum
 Source : [[work/lubab-al-nuqul-suyuti|d'al-Suyuti Lubab al-Nuqul]]. Le verset: [[passage/quran-29-10|Coran 29-10]].

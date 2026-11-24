@@ -11,11 +11,8 @@ al-Haqqa 69:12 کے سببِ نزول پر الواحدی کی روایت — «
 The verse, in al-Wahidi's heading: «12».
 
 ## مکمل روایت ⁦(عربی ماخذ متن)⁩
-<div dir="rtl" lang="ar">
 
 وحق على الله أن تعي"، فنزلت: {وتعيها أذن واعية}
-
-</div>
 
 ## Place in the museum
 ماخذ: [[work/asbab-nuzul-wahidi|الواحدی کی اسباب نزول القرآن]]۔ آیت: [[passage/quran-69-12|قرآن 69-12]]۔

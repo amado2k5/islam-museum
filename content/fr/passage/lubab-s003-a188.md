@@ -11,11 +11,8 @@ Rapport d'al-Suyuti sur la circonstance de révélation de Al 'Imran 3:188, dans
 The verse, in al-Suyuti's heading: «لا تحسبن الذين يفرحون».
 
 ## Rapport complet (texte source arabe)
-<div dir="rtl" lang="ar">
 
 لا تحسبن الذين يفرحون الآية روى الشيخان وغيرهما من طريق حميد بن عبد الرحمن بن عوف أن مروان قال لبوابه أذهب يا رافع إلى ابن عباس فقل لئن كان كل امرئ منا فرح بما أتى وأحب أن يحمد بما لم يفعل معذبا لنعذبن أجمعون فقال
-
-</div>
 
 ## Place in the museum
 Source : [[work/lubab-al-nuqul-suyuti|d'al-Suyuti Lubab al-Nuqul]]. Le verset: [[passage/quran-3-188|Coran 3-188]].

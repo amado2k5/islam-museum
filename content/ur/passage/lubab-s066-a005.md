@@ -11,11 +11,8 @@ at-Tahrim 66:5 کے سببِ نزول پر سیوطی کی روایت — «لب
 The verse, in al-Suyuti's heading: «عسى ربه إن طلقكن».
 
 ## مکمل روایت ⁦(عربی ماخذ متن)⁩
-<div dir="rtl" lang="ar">
 
 عسى ربه إن طلقكن الآية تقدم سبب نزولها وهو قول عمر في سورة البقرة
-
-</div>
 
 ## Place in the museum
 ماخذ: [[work/lubab-al-nuqul-suyuti|سیوطی کی «لباب النقول فی اسباب النزول»]]۔ آیت: [[passage/quran-66-5|قرآن 66-5]]۔

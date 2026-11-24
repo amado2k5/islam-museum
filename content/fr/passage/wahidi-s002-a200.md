@@ -11,11 +11,8 @@ Rapport d'al-Wahidi sur la circonstance de révélation de al-Baqara 2:200, tran
 The verse, in al-Wahidi's heading: «فإذا قضيتم مناسككم فاذكروا الله كذكركم آباءكم».
 
 ## Rapport complet (texte source arabe)
-<div dir="rtl" lang="ar">
 
 الجاهلية وأيامهم وأنسابهم فتفاخروا فأنزل الله: {فاذكروا الله
-
-</div>
 
 ## Place in the museum
 Source : [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an d'al-Wahidi]]. Le verset : [[passage/quran-2-200|Coran 2-200]].

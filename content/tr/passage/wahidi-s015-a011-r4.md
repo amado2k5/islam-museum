@@ -11,11 +11,8 @@ al-Hijr 15:11 ayetinin nüzül sebebi hakkında El-Vahidi'nin rivayeti; Esbab N�
 The verse, in al-Wahidi's heading: «ولا نساء من نساء عسى أن يكن خيرا منهن».
 
 ## Tam rivayet (Arapça kaynak metin)
-<div dir="rtl" lang="ar">
 
 نزلت في امرأتين من أزواج النبي- سخرتا من أم
-
-</div>
 
 ## Place in the museum
 Kaynak: [[work/asbab-nuzul-wahidi|El-Vahidi'nin Esbab Nüzul el-Kur'an'ı]]. Ayet: [[passage/quran-15-11|Kur'an 15-11]].

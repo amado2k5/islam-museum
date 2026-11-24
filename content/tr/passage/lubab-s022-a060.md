@@ -11,11 +11,8 @@ al-Hijr 15 ayetinin nüzul sebebi hakkında es-Suyuti'nin rivayeti; Lübabü'n-N
 The verse, in al-Suyuti's heading: «ومن عاقب بمثل ما عوقب به».
 
 ## Tam rivayet (Arapça kaynak metin)
-<div dir="rtl" lang="ar">
 
 ومن عاقب بمثل ما عوقب به الآية أخرج ابن أبي حاتم عن مقاتل أنها نزلت في سرية بعثها النبي فلقوا المشركين لليلتين بقيتا من المحرم فقال المشركون بعضهم لبعض قاتلوا أصحاب محمد فإنهم يحرمون القتال في الشهر الحرام فناشدهم الصحابة وذكروهم
-
-</div>
 
 ## Place in the museum
 Kaynak: [[work/lubab-al-nuqul-suyuti|es-Suyuti'nin Lubab al-Nuqul]]. Ayet: [[passage/quran-22-60|Kur'an 22-60]].

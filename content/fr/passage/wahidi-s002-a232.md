@@ -11,11 +11,8 @@ Rapport d'al-Wahidi sur la circonstance de révélation de al-Baqara 2:232, tran
 The verse, in al-Wahidi's heading: «وإذا طلقتم النساء فبلغن أجلهن فلا تعضلوهن».
 
 ## Rapport complet (texte source arabe)
-<div dir="rtl" lang="ar">
 
 أزواجهن إذا تراضوا} الآية، قال: حدثني معقل بن يسار أنها نزلت فيه قال:
-
-</div>
 
 ## Place in the museum
 Source : [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an d'al-Wahidi]]. Le verset : [[passage/quran-2-232|Coran 2-232]].

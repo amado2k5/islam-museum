@@ -11,11 +11,8 @@ Riwayat as-Suyuti tentang sebab turunnya al-Isra 17:26, dalam Lubab al-Nuqul fi 
 The verse, in al-Suyuti's heading: «وآت ذا القربى».
 
 ## Laporan lengkap (teks sumber Arab)
-<div dir="rtl" lang="ar">
 
 وآت ذا القربى الآية أخرج الطبراني وغيره عن أبي سعيد الخدري قال لما أنزلت وآت ذا القربى حقه دعا رسول الله فاطمة فأعطاها فدك قال ابن كثير هذا مشكل فانه يشعر بأن الآية مدنية والمشهور خلافه وروى مردويه عن ابن عباس
-
-</div>
 
 ## Place in the museum
 Sumber: [[work/lubab-al-nuqul-suyuti|as-Suyuti Lubab al-Nuqul]]. Ayatnya: [[passage/quran-17-26|Al-Qur'an 17-26]].

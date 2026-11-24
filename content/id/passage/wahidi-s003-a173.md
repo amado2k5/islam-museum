@@ -11,11 +11,8 @@ Riwayat al-Wahidi tentang sebab turunnya Al 'Imran 3:173, diriwayatkan dari gene
 The verse, in al-Wahidi's heading: «الذين قال لهم الناس».
 
 ## Laporan lengkap (teks sumber Arab)
-<div dir="rtl" lang="ar">
 
 فأنزل اللهفيهم: {الذين قال لهم الناس إن الناس قد جمعوا لكم
-
-</div>
 
 ## Place in the museum
 Sumber: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an al-Wahidi]]. Ayatnya: [[passage/quran-3-173|Al-Qur'an 3-173]].

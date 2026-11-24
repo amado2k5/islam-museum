@@ -11,11 +11,8 @@ Riwayat al-Wahidi tentang sebab turunnya Bani Isra'il 17:73, diriwayatkan dari g
 The verse, in al-Wahidi's heading: «وإن كادوا ليفتنونك عن الذي أوحينا إليك».
 
 ## Laporan lengkap (teks sumber Arab)
-<div dir="rtl" lang="ar">
 
 قال عطاء عن ابن عباس: نزلت في وفد ثقيف أتوا رسول الله
-
-</div>
 
 ## Place in the museum
 Sumber: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an al-Wahidi]]. Ayatnya: [[passage/quran-17-73|Al-Qur'an 17-73]].

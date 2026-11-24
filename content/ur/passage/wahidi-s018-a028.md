@@ -11,11 +11,8 @@ al-Kahf 18:28 کے سببِ نزول پر الواحدی کی روایت — «�
 The verse, in al-Wahidi's heading: «واصبر نفسك».
 
 ## مکمل روایت ⁦(عربی ماخذ متن)⁩
-<div dir="rtl" lang="ar">
 
 وحادثناك وأخذنا عنك، فأنزل الله: {واتل ما أوحي إليك من كتاب ربك لا
-
-</div>
 
 ## Place in the museum
 ماخذ: [[work/asbab-nuzul-wahidi|الواحدی کی اسباب نزول القرآن]]۔ آیت: [[passage/quran-18-28|قرآن 18-28]]۔

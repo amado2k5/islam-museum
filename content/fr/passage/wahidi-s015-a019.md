@@ -11,11 +11,8 @@ Rapport d'al-Wahidi sur la circonstance de révélation de al-Hijr 15:19, transm
 The verse, in al-Wahidi's heading: «هذان خصمان اختصموا في ربهم».
 
 ## Rapport complet (texte source arabe)
-<div dir="rtl" lang="ar">
 
 ذر يقول: أقسم بالله لنزلت: {هذان خصمان اختصموا في ربهم} في هؤلاء الستة:
-
-</div>
 
 ## Place in the museum
 Source : [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an d'al-Wahidi]]. Le verset : [[passage/quran-15-19|Coran 15-19]].

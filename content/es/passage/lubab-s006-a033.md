@@ -11,11 +11,8 @@ Informe de al-Suyuti sobre la ocasión de revelación de al-An'am 6:33, en Lubab
 The verse, in al-Suyuti's heading: «قد نعلم إنه ليحزنك».
 
 ## Informe completo (texto fuente en árabe)
-<div dir="rtl" lang="ar">
 
 قد نعلم إنه ليحزنك الآية روى الترمذي والحاكم عن علي أن أبا جهل قال للنبي إنا لا نكذبك ولكن نكذب بما جئت به فأنزل الله فإنهم لا يكذبوك ولكن الظالمين بآيات الله يجحدون
-
-</div>
 
 ## Place in the museum
 Fuente: [[work/lubab-al-nuqul-suyuti|de al-Suyuti Lubab al-Nuqul]]. El versículo: [[passage/quran-6-33|Corán 6-33]].

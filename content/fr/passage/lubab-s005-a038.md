@@ -11,11 +11,8 @@ Rapport d'al-Suyuti sur la circonstance de révélation de al-Ma'ida 5:38, dans 
 The verse, in al-Suyuti's heading: «والسارق والسارقة».
 
 ## Rapport complet (texte source arabe)
-<div dir="rtl" lang="ar">
 
 والسارق والسارقة الآية ⁦(ك)⁩ أخرج أحمد وغيره عن عبد الله بن عمرو أن امرأة سرقت على عهد رسول الله فقطعت يدها اليمنى فقالت هل لي من توبة يا رسول الله فأنزل الله في سورة المائدة فمن تاب من بعد ظلمه وأصلح
-
-</div>
 
 ## Place in the museum
 Source : [[work/lubab-al-nuqul-suyuti|d'al-Suyuti Lubab al-Nuqul]]. Le verset: [[passage/quran-5-38|Coran 5-38]].

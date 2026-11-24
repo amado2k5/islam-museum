@@ -11,11 +11,8 @@ al-Hijr 15:45 ayetinin nüzul sebebi hakkında es-Suyuti'nin rivayeti; Lübabü'
 The verse, in al-Suyuti's heading: «إن المتقين».
 
 ## Tam rivayet (Arapça kaynak metin)
-<div dir="rtl" lang="ar">
 
 إن المتقين الآية أخرج الثعلبي عن سلمان الفارسي لما سمع
-
-</div>
 
 ## Place in the museum
 Kaynak: [[work/lubab-al-nuqul-suyuti|es-Suyuti'nin Lubab al-Nuqul]]. Ayet: [[passage/quran-15-45|Kur'an 15-45]].

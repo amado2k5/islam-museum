@@ -11,11 +11,8 @@ al-Muddaththir 74:11 ayetinin nüzül sebebi hakkında El-Vahidi'nin rivayeti; E
 The verse, in al-Wahidi's heading: «ذرني ومن خلقت وحيدا».
 
 ## Tam rivayet (Arapça kaynak metin)
-<div dir="rtl" lang="ar">
 
 هذا سحر يؤثر يأثره عن غيره، فنزلت: {ذرني ومن خلقت وحيدا} الآيات كلها.
-
-</div>
 
 ## Place in the museum
 Kaynak: [[work/asbab-nuzul-wahidi|El-Vahidi'nin Esbab Nüzul el-Kur'an'ı]]. Ayet: [[passage/quran-74-11|Kur'an 74-11]].

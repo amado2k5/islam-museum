@@ -11,11 +11,8 @@ Al 'Imran 3:144 کے سببِ نزول پر الواحدی کی روایت — �
 The verse, in al-Wahidi's heading: «وما محمد إلا رسول».
 
 ## مکمل روایت ⁦(عربی ماخذ متن)⁩
-<div dir="rtl" lang="ar">
 
 ما تمضون على ما مضى عليه نبيكم حتى تلحقوا به، فأنزل اللهفي ذلك:
-
-</div>
 
 ## Place in the museum
 ماخذ: [[work/asbab-nuzul-wahidi|الواحدی کی اسباب نزول القرآن]]۔ آیت: [[passage/quran-3-144|قرآن 3-144]]۔

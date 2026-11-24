@@ -11,11 +11,8 @@ Rapport d'al-Wahidi sur la circonstance de révélation de al-Hijr 15:11, transm
 The verse, in al-Wahidi's heading: «11».
 
 ## Rapport complet (texte source arabe)
-<div dir="rtl" lang="ar">
 
 نزلت في ثابت بن قيس بن شماس.
-
-</div>
 
 ## Place in the museum
 Source : [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an d'al-Wahidi]]. Le verset : [[passage/quran-15-11|Coran 15-11]].

@@ -11,11 +11,8 @@ Informe de al-Wahidi sobre la ocasión de revelación de al-Ahzab 33:58, transmi
 The verse, in al-Wahidi's heading: «والذين يؤذون المؤمنين والمؤمنات بغير ما اكتسبوا».
 
 ## Informe completo (texto fuente en árabe)
-<div dir="rtl" lang="ar">
 
 رأى من زينتها فذهبت إلى أهلها تشكو عمر، فخرجوا إليه فآذوه، فأنزل الله
-
-</div>
 
 ## Place in the museum
 Fuente: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an de al-Wahidi]]. El versículo: [[passage/quran-33-58|Corán 33-58]].

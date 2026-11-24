@@ -11,11 +11,8 @@ Informe de al-Wahidi sobre la ocasión de revelación de Sad 38:5, transmitido d
 The verse, in al-Wahidi's heading: «أجعل الآلهة إلها واحدا ... .».
 
 ## Informe completo (texto fuente en árabe)
-<div dir="rtl" lang="ar">
 
 الله عليه وسلم - فدعاه فقال له: يا ابن أخي هؤلاء قومك يسألونك ذا السواء
-
-</div>
 
 ## Place in the museum
 Fuente: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an de al-Wahidi]]. El versículo: [[passage/quran-38-5|Corán 38-5]].

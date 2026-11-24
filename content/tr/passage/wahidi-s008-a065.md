@@ -11,11 +11,8 @@ al-Anfal 8:65 ayetinin nüzül sebebi hakkında El-Vahidi'nin rivayeti; Esbab N�
 The verse, in al-Wahidi's heading: «يا أيها النبي قل لمن في أيديكم من الأسرى».
 
 ## Tam rivayet (Arapça kaynak metin)
-<div dir="rtl" lang="ar">
 
 قال الكلبي: نزلت في العباس بن عبد المطلب وعقيل بن أبي طالب ونوفل بن
-
-</div>
 
 ## Place in the museum
 Kaynak: [[work/asbab-nuzul-wahidi|El-Vahidi'nin Esbab Nüzul el-Kur'an'ı]]. Ayet: [[passage/quran-8-65|Kur'an 8-65]].

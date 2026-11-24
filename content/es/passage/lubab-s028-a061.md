@@ -11,11 +11,8 @@ Informe de al-Suyuti sobre la ocasión de revelación de al-Qasas 28:61, en Luba
 The verse, in al-Suyuti's heading: «أفمن وعدناه».
 
 ## Informe completo (texto fuente en árabe)
-<div dir="rtl" lang="ar">
 
 أفمن وعدناه الآية أخرج ابن جرير عن مجاهد في قوله أفمن وعدناه الآية نقال زلت في النبي وفي أبي جهل بن هشام وأخرج من وجه آخر عنه أنها نزلت في حمزة وأبي جهل
-
-</div>
 
 ## Place in the museum
 Fuente: [[work/lubab-al-nuqul-suyuti|de al-Suyuti Lubab al-Nuqul]]. El versículo: [[passage/quran-28-61|Corán 28-61]].

@@ -11,11 +11,8 @@ Informe de al-Wahidi sobre la ocasión de revelación de al-Hashr 59:9, transmit
 The verse, in al-Wahidi's heading: «ويؤثرون على أنفسهم ولو كان بهم خصاصة».
 
 ## Informe completo (texto fuente en árabe)
-<div dir="rtl" lang="ar">
 
 عليه وسلم - فقال: "لقد عجب من فعالكما أهل السماء" ونزلت: {ويؤثرون على
-
-</div>
 
 ## Place in the museum
 Fuente: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an de al-Wahidi]]. El versículo: [[passage/quran-59-9|Corán 59-9]].

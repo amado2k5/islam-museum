@@ -11,11 +11,8 @@ al-Baqara 2:19 ayetinin nüzul sebebi hakkında es-Suyuti'nin rivayeti; Lübabü
 The verse, in al-Suyuti's heading: «أو كصيب».
 
 ## Tam rivayet (Arapça kaynak metin)
-<div dir="rtl" lang="ar">
 
 أو كصيب الآية ك أخرج ابن جرير من طريق السدي الكبير عن أبي مالك وأبي صالح عن ابن عباس وعن مرة عن ابن مسعود وناس من الصحابة قالوا كان رجلان من المنافقين من أهل المدينة هربا من رسول الله إلى المشركين فأصابهما هذا المطر الذي
-
-</div>
 
 ## Place in the museum
 Kaynak: [[work/lubab-al-nuqul-suyuti|es-Suyuti'nin Lubab al-Nuqul]]. Ayet: [[passage/quran-2-19|Kur'an 2-19]].

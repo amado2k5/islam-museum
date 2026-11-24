@@ -11,11 +11,8 @@ az-Zumar 39:23 ayetinin nüzül sebebi hakkında El-Vahidi'nin rivayeti; Esbab N
 The verse, in al-Wahidi's heading: «الله نزل أحسن الحديث».
 
 ## Tam rivayet (Arapça kaynak metin)
-<div dir="rtl" lang="ar">
 
 عمرو بن مرة، عن مصعب بن سعد، عن سعد قالوا: يا رسول الله لو حدثتنا فأنزل
-
-</div>
 
 ## Place in the museum
 Kaynak: [[work/asbab-nuzul-wahidi|El-Vahidi'nin Esbab Nüzul el-Kur'an'ı]]. Ayet: [[passage/quran-39-23|Kur'an 39-23]].

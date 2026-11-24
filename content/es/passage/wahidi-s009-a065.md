@@ -11,11 +11,8 @@ Informe de al-Wahidi sobre la ocasión de revelación de Bara'a (at-Tawba) 9:65,
 The verse, in al-Wahidi's heading: «ولئن سألتهم ليقولن إنما كنا نخوض ونلعب».
 
 ## Informe completo (texto fuente en árabe)
-<div dir="rtl" lang="ar">
 
 نخوض ونلعب، فأنزل اللههذه الآية.
-
-</div>
 
 ## Place in the museum
 Fuente: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an de al-Wahidi]]. El versículo: [[passage/quran-9-65|Corán 9-65]].
