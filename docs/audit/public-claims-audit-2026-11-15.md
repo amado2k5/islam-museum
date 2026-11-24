@@ -29,12 +29,12 @@ once, not on the audit date), **UNVERIFIED** (the auditor could not find the evi
 
 ## 1. The measured state
 
-Measured at `b2c20b5efc9 2026-11-24` by `python3 scripts/report/claims_audit.py`. Counts are pattern matches over `data/`.
+Measured at `0cb04f1f9a8 2026-11-24` by `python3 scripts/report/claims_audit.py`. Counts are pattern matches over `data/`.
 
 | Measure | Count | Share |
 |---|---|---|
-| Record files under `data/` (content + source) | 88,905 | |
-| Source (bibliography) records | 12,069 | 13.6% of all |
+| Record files under `data/` (content + source) | 88,907 | |
+| Source (bibliography) records | 12,071 | 13.6% of all |
 | ... of type book, chapter, manuscript or thesis | 894 | 7.4% of sources |
 | ... Wikipedia or Wikidata pages | 7,704 | 63.8% of sources |
 | Content records (everything but sources) | 76,836 | |
@@ -46,9 +46,9 @@ Measured at `b2c20b5efc9 2026-11-24` by `python3 scripts/report/claims_audit.py`
 | Content records whose `generated_by` is no tag | 91 | 0.1% |
 | `published` content records whose `generated_by` is AI-named | 18,409 | 100.0% of published |
 | Grounding: cites at least one book source | 49,873 | 64.9% |
-| Grounding: other sources only (text editions online, datasets, websites, catalogues) | 11,406 | 14.8% |
+| Grounding: other sources only (text editions online, datasets, websites, catalogues) | 11,408 | 14.8% |
 | Grounding: preliminary card (sources not yet checked on the page) | 11,253 | 14.6% |
-| Grounding: Wikipedia or Wikidata only | 4,282 | 5.6% |
+| Grounding: Wikipedia or Wikidata only | 4,280 | 5.6% |
 | Grounding: no source record cited | 22 | 0.0% |
 | Grand Tour stops (`tour/grand-tour.yaml`) | 40 | |
 | Grand Tour languages (`TOUR_LANGS`) | ar, en | |
@@ -277,3 +277,4 @@ Append a dated line for every re-run, correction or closed row. Never rewrite an
 - 2026-11-24: section 1 measure and by-class tables re-measured with `python3 scripts/report/claims_audit.py` after article batch 15 of the 210-book list. (Devin, run ulama-books210-art5c)
 - 2026-11-24: section 1 measure and by-class tables re-measured with `python3 scripts/report/claims_audit.py` after article batch 16 of the 210-book list. (Devin, run ulama-books210-art6a)
 - 2026-11-24: section 1 measure and by-class tables re-measured with `python3 scripts/report/claims_audit.py` after article batch 17 of the 210-book list. (Devin, run ulama-books210-art6b)
+- 2026-11-24: section 1 measure and by-class tables re-measured with `python3 scripts/report/claims_audit.py` after article batch 18 of the 210-book list. (Devin, run ulama-books210-art7a)
