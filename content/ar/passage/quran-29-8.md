@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-8-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن الله وصّى الإنسان بوالديه حسناً، ويعرض خلاف أهل العربية في وجه نصب «حسناً»: فقال نحويو البصرة على نية تكرير وصّينا، وقال نحويو الكوفة معناه أن يفعل حسناً، وإن جاهداك لتشرك بي ما ليس لك به علم فلا تطعهما، إليّ مرجعكم فأنبئكم بما كنتم تعملون. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=29&tAyahNo=8&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَوَصَّيْنَا ٱلإِنْسَانَ بِوَالِدَيْهِ حُسْناً وَإِن جَاهَدَاكَ لِتُشْرِكَ بِي مَا لَيْسَ لَكَ بِهِ عِلْمٌ فَلاَ تُطِعْهُمَآ إِلَيَّ مَرْجِعُكُمْ فَأُنَبِّئُكُم بِمَا كُنتُمْ تَعْمَلُونَ»: «وَوَصَّيْنا الإنْسانَ» فيما أنزلنا إلى رسولنا «بِوَالِدَيْهِ» أن يفعل بهما «حُسْناً». واختلف أهل العربية في وجه نصب الحسن، فقال بعض نحويِّي البصرة: نُصب ذلك على نية تكرير وصّينا. وكأن معنى الكلام عنده: ووصينا الإنسان بوالديه، ووصيناه حسنا. وقال: قد يقول الرجل وصيته خيراً: أي بخير.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=29&tAyahNo=8&tDisplay=yes&UserProfile=0&LanguageId=1

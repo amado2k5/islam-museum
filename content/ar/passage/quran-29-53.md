@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-8-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن هؤلاء القائلين من قومه يستعجلونه بالعذاب ويقولون اللهم إن كان هذا هو الحق من عندك، ويذكر أن الله لولا أجل مسمى لجاءهم العذاب وليأتينهم بغتة وهم لا يشعرون. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=29&tAyahNo=53&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَيَسْتَعْجِلُونَكَ بِٱلْعَذَابِ وَلَوْلاَ أَجَلٌ مُّسَمًّى لَّجَآءَهُمُ ٱلْعَذَابُ وَلَيَأْتِيَنَّهُمْ بَغْتَةً وَهُمْ لاَ يَشْعُرُونَ»: ويستعجلك يا محمد هؤلاء القائلون من قومك: لولا أنزل عليه آية من ربه بالعذاب، ويقولون:«اللَّهُمَّ إنْ كانَ هَذا هُوَ الحَقَّ مِنْ عِنْدِكَ، فَأَمْطِرْ عَلَيْنا حِجارَةً مِنَ السَّماءِ» ولولا أجل سميته لهم فلا أهلكهم حتى يستوفوه ويبلغوه، لجاءهم العذاب عاجلاً. وقوله: «وَلَيَأْتِيَنَّهُمْ بَغْتَةً وَهُمْ لا يَشْعُرُونَ» يقول: وليأتينهم العذاب فجأة وهم لا يشعرون بوقت مجيئه قبل مجيئه.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=29&tAyahNo=53&tDisplay=yes&UserProfile=0&LanguageId=1

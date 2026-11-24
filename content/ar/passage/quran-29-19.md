@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-8-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري الآيات 19 إلى 20 معاً في موضع واحد. يذكر الطبري أن الله يبدأ الخلق طفلاً صغيراً ثم غلاماً يافعاً ثم رجلاً مجتمعاً ثم كهلاً، وأبدأ وبدأ لغتان بمعنى واحد، ثم يعيده بعد فنائه كما بدأه أول مرة لا يتعذر عليه ذلك، إن ذلك على الله يسير، وأن يسيروا في الأرض فينظروا كيف بدأ الخلق. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=29&tAyahNo=19&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 19 إلى 20 مقطعاً واحداً. يفسّر قوله «أَوَلَمْ يَرَوْاْ كَيْفَ يُبْدِئُ ٱللَّهُ ٱلْخَلْقَ ثُمَّ يُعِيدُهُ إِنَّ ذٰلِكَ عَلَى ٱللَّهِ يَسِيرٌ»: أو لم يروا كيف يستأنف الله خلق الأشياء طفلاً صغيراً، ثم غلاماً يافعاً، ثم رجلاً مجتمعاً، ثم كهلاً. يقال منه: أبدأ وأعاد، وبدأ وعاد، لغتان بمعنى واحد. وقوله: «ثُمَّ يُعِيدُه» يقول: ثم هو يعيده من بعد فنائه وبلاه، كما بدأه أوّل مرّة خلقاً جديداً، لا يتعذّر عليه ذلك «إنَّ ذلكَ على اللّهِ يَسِيرٌ» سهل كما كان يسيراً عليه إبداؤه. وينقل في المقطع أقوالاً عن ابن عباس.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=29&tAyahNo=19&tDisplay=yes&UserProfile=0&LanguageId=1

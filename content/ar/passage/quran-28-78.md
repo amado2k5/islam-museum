@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-8-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن قارون قال لقومه إنما أوتيت هذه الكنوز على علم عندي علّمه الله مني فرضي بذلك وفضّلني بالمال عليكم، وينقل عن قتادة أن المعنى على خير عندي، أولم يعلم أن الله قد أهلك من قبله من القرون من هو أشد قوة وأكثر جمعاً، ولا يُسأل عن ذنوبهم المجرمون. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=28&tAyahNo=78&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «قَالَ إِنَّمَآ أُوتِيتُهُ عَلَىٰ عِلْمٍ عِندِيۤ أَوَلَمْ يَعْلَمْ أَنَّ ٱللَّهَ قَدْ أَهْلَكَ مِن قَبْلِهِ مِنَ ٱلْقُرُونِ مَنْ هُوَ أَشَدُّ مِنْهُ قُوَّةً وَأَكْثَرُ جَمْعاً وَلاَ يُسْأَلُ عَن ذُنُوبِهِمُ ٱلْمُجْرِمُونَ»: قال قارون لقومه الذين وعظوه: إنما أوتيتُ هذه الكنوز على فضل علم عندي، علمه الله مني، فرضي بذلك عني، وفَضلني بهذا المال عليكم، لعلمه بفضلي عليكم. وينقل في المقطع أقوالاً عن مجاهد وقتادة وابن زيد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=28&tAyahNo=78&tDisplay=yes&UserProfile=0&LanguageId=1

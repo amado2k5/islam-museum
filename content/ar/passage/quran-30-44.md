@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-8-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن من كفر فعليه كفره وآثام جحوده نعم ربه، ومن عمل صالحاً فأطاع الله فيما أمر ونهى فلأنفسهم يمهدون أي يستعدون ويسوّون المضجع ليسلموا من عقاب ربهم وينجوا من عذابه، ويستشهد بشعر. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=30&tAyahNo=44&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «مَن كَفَرَ فَعَلَيْهِ كُفْرُهُ وَمَنْ عَمِلَ صَالِحاً فَلأَنفُسِهِمْ يَمْهَدُونَ»: من كفر بالله فعليه، أو زاد كفره، وآثام جحوده نِعَمَ ربه، «وَمَنْ عَمِلَ صَالِحاً» يقول: ومن أطاع الله، فعمل بما أمره به في الدنيا، وانتهى عما نهاه عنه فيها «فَلاِءَنْفُسِهِمْ يَمْهَدونَ» يقول: فلأنفسهم يستعدون، ويسوّون المضجع ليسلموا من عقاب ربهم، وينجوا من عذابه، كما قال الشاعر:امْهَدْ لنَفْسِكَ حانَ السُّقْمُ والتَّلَفُ وَلا تُضِيعَنَّ نَفْساً ما لَهَا خَلَفُ وينقل في المقطع أقوالاً عن مجاهد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=30&tAyahNo=44&tDisplay=yes&UserProfile=0&LanguageId=1

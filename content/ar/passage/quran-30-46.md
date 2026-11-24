@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-8-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يذكر الطبري أن من أدلته على وحدانيته أن يرسل الرياح مبشرات بالغيث والرحمة، وليذيقكم من رحمته وهي الغيث الذي يحيي به البلاد، ولتجري السفن في البحار بأمره، ولتبتغوا من فضله أي لتلتمسوا من أرزاقه ومعايشكم، ولعلكم تشكرون. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=30&tAyahNo=46&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَمِنْ آيَاتِهِ أَن يُرْسِلَ ٱلرِّيَاحَ مُبَشِّرَاتٍ وَلِيُذِيقَكُمْ مِّن رَّحْمَتِهِ وَلِتَجْرِيَ ٱلْفُلْكُ بِأَمْرِهِ وَلِتَبْتَغُواْ مِن فَضْلِهِ وَلَعَلَّكُمْ تَشْكُرُونَ»: ومن أدلته على وحدانيته وحججه عليكم على أنه إله كلّ شيء «أنْ يُرْسِلَ الرّياحَ مُبَشِّراتٍ» بالغيث والرحمة «وَلِيُذِيقَكُمْ مِنْ رَحْمَتِهِ» يقول: ولينزّل عليكم من رحمته، وهي الغيث الذي يحيي به البلاد، ولتجري السفن في البحار بها بأمره إياها «وَلِتَبْتَغُوا مِنْ فَضْلِهِ» يقول: ولتلتمسوا من أرزاقه ومعايشكم التي قسمها بينكم «وَلَعلَّكُمْ تَشْكُرُونَ» يقول: ولتشكروا ربكم على ذلك أرسل هذه الرياح مبشرات. وينقل في المقطع أقوالاً عن مجاهد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=30&tAyahNo=46&tDisplay=yes&UserProfile=0&LanguageId=1

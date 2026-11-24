@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-8-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن الله ليعلمنّ أولياءه وحزبه أهل الإيمان وليعلمنّ المنافقين حتى يتميّز كل فريق من الآخر، بإظهار الله ذلك بالمحن والابتلاء وبمسارعة المسارع إلى الهجرة من دار الشرك إلى دار الإسلام وتثاقل المتثاقل عنها. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=29&tAyahNo=11&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَلَيَعْلَمَنَّ ٱللَّهُ ٱلَّذِينَ آمَنُواْ وَلَيَعْلَمَنَّ ٱلْمُنَافِقِينَ»: وليعلمنّ الله أولياء الله، وحزبه أهل الإيمان بالله منكم أيها القوم، وليعلمنّ المنافقين منكم حتى يميزوا كلّ فريق منكم من الفريق الآخر، بإظهار الله ذلك منكم بالمحن والابتلاء والاختبار وبمسارعة المسارع منكم إلى الهجرة من دار الشرك إلى دار الإسلام، وتثاقل المتثاقل منكم عنها.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=29&tAyahNo=11&tDisplay=yes&UserProfile=0&LanguageId=1

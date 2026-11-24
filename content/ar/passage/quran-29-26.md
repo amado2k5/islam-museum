@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-8-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن لوطاً صدّق إبراهيم، وقال إبراهيم إني مهاجر دار قومي إلى ربي إلى الشام، وينقل عن ابن عباس أن الذي قال إني مهاجر هو إبراهيم، إنه هو العزيز الحكيم. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=29&tAyahNo=26&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «فَآمَنَ لَهُ لُوطٌ وَقَالَ إِنِّي مُهَاجِرٌ إِلَىٰ رَبِّيۤ إِنَّهُ هُوَ ٱلْعَزِيزُ ٱلْحَكِيمُ»: فصدّق إبراهيمَ خليلَ الله لوطٌ «وَقالَ إنّي مُهاجِرٌ إلى رَبِّي» يقول: وقال إبراهيم: إني مهاجر دار قومي إلى ربي إلى الشام. وينقل في المقطع أقوالاً عن ابن عباس وقتادة وابن زيد وإبراهيم.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=29&tAyahNo=26&tDisplay=yes&UserProfile=0&LanguageId=1

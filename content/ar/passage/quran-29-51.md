@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-8-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إنه أولم يكف هؤلاء المشركين القائلين لولا أُنزل عليه آية أنا أنزلنا عليك الكتاب يُتلى عليهم، إن في هذا الكتاب لرحمة للمؤمنين وذكرى يتذكرون بما فيه من عبرة وعظة، ويذكر سبب نزول الآية. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=29&tAyahNo=51&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «أَوَلَمْ يَكْفِهِمْ أَنَّآ أَنزَلْنَا عَلَيْكَ ٱلْكِتَابَ يُتْلَىٰ عَلَيْهِمْ إِنَّ فِي ذٰلِكَ لَرَحْمَةً وَذِكْرَىٰ لِقَوْمٍ يُؤْمِنُونَ»: أو لم يكف هؤلاء المشركين يا محمد، القائلين: لولا أنزل على محمد آية من ربه، من الآيات والحجج «أنَّا أنْزَلْنا عَلَيْكَ» هذا «الكِتابَ يُتْلَى عَلَيْهِمْ» يقول: يُقرأ عليهم «إنَّ فِي ذلكَ لَرَحْمَةً» يقول: إن في هذا الكتاب الذي أنزلنا عليهم لرحمة للمؤمنين به وذكرى يتذكرون بما فيه من عبرة وعظة. وذُكر أن هذه الآية نزلت من أجل أن قوما من أصحاب رسول الله انتسخوا شيئا من بعض كتب أهل الكتاب.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=29&tAyahNo=51&tDisplay=yes&UserProfile=0&LanguageId=1

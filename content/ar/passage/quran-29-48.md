@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-8-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن النبي ما كان يقرأ من قبل هذا الكتاب من كتاب ولا يكتب بيمينه بل كان أمياً، ولو كان يقرأ أو يكتب من قبل أن يوحى إليه لارتاب المبطلون أي لشكّوا في أمره وما جاء به. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=29&tAyahNo=48&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَمَا كُنتَ تَتْلُواْ مِن قَبْلِهِ مِن كِتَابٍ وَلاَ تَخُطُّهُ بِيَمِينِكَ إِذاً لاَّرْتَابَ ٱلْمُبْطِلُونَ»: «وَما كُنْتَ» يا محمد «تَتْلُوا» يعني تقرأ «مِنْ قَبْلِهِ» يعني من قبل هذا الكتاب الذي أنزلته إليك «مِنْ كِتَابٍ وَلا تَخُطُّهُ بِيَمِينِكَ» يقول: ولم تكن تكتب بيمينك، ولكنك كنت أمِّيًّا «إذاً لارْتابَ المُبْطِلُونَ» يقول: ولو كنت من قبل أن يُوحَى إليك تقرأ الكتاب، أو تخطه بيمينك، إذن لارتاب: يقول: إذن لشكّ بسبب ذلك في أمرك، وما جئتهم به من عند ربك من هذا الكتاب الذي تتلوه عليهم المبطلون القائلون إنه سجع وكهانة، وإنه أساطير الأوّلين. وينقل في المقطع أقوالاً عن ابن عباس ومجاهد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=29&tAyahNo=48&tDisplay=yes&UserProfile=0&LanguageId=1

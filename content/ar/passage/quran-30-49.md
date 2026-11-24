@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-8-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يذكر الطبري أن هؤلاء الذين أصابهم الله بهذا الغيث كانوا من قبل أن ينزل عليهم لمبلسين أي مكتئبين حزينين باحتباسه عنهم، وينقل عن قتادة أنه قانطين، ويعرض خلاف أهل العربية في تكرار «من قبله». {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=30&tAyahNo=49&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَإِن كَانُواْ مِن قَبْلِ أَن يُنَزَّلَ عَلَيْهِمْ مِّن قَبْلِهِ لَمُبْلِسِينَ»: وكان هؤلاء الذين أصابهم الله بهذا الغيث من عباده من قبل أن ينزل عليهم هذا الغيث من قبل هذا الغيث لمبلسين، يقول: لمكتئبين حزنين باحتباسه عنهم، كما: وعن قَتادة «وَإنْ كانُوا مِنْ قَبْلِ أنْ يُنَزَّلَ عَلَيْهِمْ مِنْ قَبْلِهِ لَمُبْلِسِينَ»: أي قانطين.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=30&tAyahNo=49&tDisplay=yes&UserProfile=0&LanguageId=1

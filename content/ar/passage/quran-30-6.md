@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-8-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن الله وعد أن الروم ستغلب فارس من بعد غلبة فارس لهم، ونصب «وعد الله» على المصدر، لأن ذلك وعد من الله للمؤمنين، ولا يخلف الله وعده، ولكن أكثر الناس لا يعلمون. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=30&tAyahNo=6&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَعْدَ ٱللَّهِ لاَ يُخْلِفُ ٱللَّهُ وَعْدَهُ وَلَٰكِنَّ أَكْثَرَ ٱلنَّاسِ لاَ يَعْلَمُونَ»: وعد الله جلّ ثناؤه، وعد أن الروم ستغلب فارس من بعد غلبة فارس لهم. ونصب «وَعْدَ اللّهِ» على المصدر من قوله«وَهُمْ مِنْ بَعْدِ غَلَبِهِمْ سَيَغْلِبُونَ» لأن ذلك وعد من الله لهم أنهم سيغلبون، فكأنه قال: وعد الله ذلك المؤمنين وعداً. «لا يُخْلفُ اللّهُ وَعْدَهُ» يقول تعالى ذكره: إن الله يفي بوعده للمؤمنين أن الروم سيغلبون فارس، لا يخلفهم وعده ذلك، لأنه ليس في مواعيده خلف. «ولكِنَّ أكْثَرَ النَّاسِ لا يعْلَمُونَ» يقول: ولكنّ أكثر قريش الذين يكذّبون بأن الله منجز وعده المؤمنين، من أن الروم تغلب فارس، لا يعلمون أن ذلك كذلك، وأنه لا يجوز أن يكون في وعد الله إخلاف.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=30&tAyahNo=6&tDisplay=yes&UserProfile=0&LanguageId=1

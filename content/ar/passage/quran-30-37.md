@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-8-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يذكر الطبري أنه أولم ير الذين يفرحون عند الرخاء وييأسون عند الشدة بعيون قلوبهم أن الشدة والرخاء بيد الله، وأن الله يبسط الرزق لمن يشاء ويقدر على من أراد، إن في ذلك لآيات لقوم يؤمنون. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=30&tAyahNo=37&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «أَوَلَمْ يَرَوْاْ أَنَّ ٱللَّهَ يَبْسُطُ ٱلرِّزْقَ لِمَن يَشَآءُ وَيَقْدِرُ إِنَّ فِي ذَلِكَ لآيَاتٍ لِّقَوْمٍ يُؤْمِنُونَ»: أَوَ لم ير هؤلاء الذين يفرحون عند الرخاء يصيبهم والخصب، وييأسون من الفرج عند شدّة تنالهم، بعيون قلوبهم، فيعلموا أن الشدّة والرخاء بيد الله، وأن الله يبسط الرزق لمن يشاء من عباده فيوسعه عليه، ويقدر على من أراد فيضيقه عليه «إنَّ فِي ذلكَ لآياتٍ لِقَوْم يُؤْمِنُونَ» يقول: إن في بسطه ذلك على من بسطه عليه، وقدره على من قدره عليه، ومخالفته بين من خالف بينه من عباده في الغنى والفقر، لدلالة واضحة لمن صدّق حجج الله وأقرّ بها إذا عاينها ورآها.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=30&tAyahNo=37&tDisplay=yes&UserProfile=0&LanguageId=1

@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-8-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يذكر الطبري أن إبراهيم قال لقومه إنما اتخذتم من دون الله أوثاناً، ويعرض اختلاف القراء في «مودة بينكم» بنصب المودة بغير إضافة، وبنصبها مع الإضافة، وغير ذلك، ثم يوم القيامة يكفر بعضكم ببعض ويلعن بعضكم بعضاً ومأواكم النار وما لكم من ناصرين. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=29&tAyahNo=25&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَقَالَ إِنَّمَا ٱتَّخَذْتُمْ مِّن دُونِ ٱللَّهِ أَوْثَاناً مَّوَدَّةَ بَيْنِكُمْ فِي ٱلْحَيَاةِ ٱلدُّنْيَا ثُمَّ يَوْمَ ٱلْقِيَامَةِ يَكْفُرُ بَعْضُكُمْ بِبَعْضٍ وَيَلْعَنُ بَعْضُكُمْ بَعْضاً وَمَأْوَاكُمُ ٱلنَّارُ وَمَا لَكُمْ مِّن نَّاصِرِينَ»: يقول تعالى ذكره مخبراً عن قيل إبراهيم لقومه: «وَقالَ» إبراهيم لقومه: يا قوم «إنَّمَا اتَّخَذْتُمْ مِنْ دُونِ اللّهِ أوْثاناً». واختلفت القرّاء في قراءة قوله: «مَوَدَّةَ بَيْنِكُمْ» فقرأته عامة قرّاء المدينة والشأم وبعض الكوفيين: «مَوَدَّةً» بنصب مودة بغير إضافة بينكم بنصبها. وقرأ ذلك بعض الكوفيين: «مَوَدَّةَ بَيْنِكُمْ» بنصب المودّة وإضافتها إلى قوله «بَيْنِكُمْ»، وخفض بينِكم.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=29&tAyahNo=25&tDisplay=yes&UserProfile=0&LanguageId=1

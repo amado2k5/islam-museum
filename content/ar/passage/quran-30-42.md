@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-8-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن النبي مأمور أن يقول لمشركي قومه سيروا في البلاد فانظروا إلى مساكن الذين كفروا من قبلكم وكذّبوا رسله كيف كان آخر أمرهم، ألم نهلكهم بعذاب منا ونجعلهم عبرة لمن بعدهم، لأن أكثرهم كانوا مشركين. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=30&tAyahNo=42&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «قُلْ سِيرُواْ فِي ٱلأَرْضِ فَٱنْظُرُواْ كَيْفَ كَانَ عَاقِبَةُ ٱلَّذِينَ مِن قَبْلُ كَانَ أَكْثَرُهُمْ مُّشْرِكِينَ»: قل يا محمد لهؤلاء المشركين بالله من قومك: سِيروا في البلاد، فانظروا إلى مساكن الذين كفروا بالله من قبلكم، وكذّبوا رسلَه، كيف كان آخر أمرهم، وعاقبة تكذيبهم رسُلَ الله وكفرهم ألم نهلكهم بعذاب منا، ونجعلهم عبرة لمن بعدهم؟ «كان أكثرهم مشركين» يقول: فَعَلنا ذلك بهم، لأن أكثرهم كانوا مشركين بالله مثلَهم.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=30&tAyahNo=42&tDisplay=yes&UserProfile=0&LanguageId=1

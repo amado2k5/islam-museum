@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-8-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن هؤلاء المشركين إذا ركبوا السفينة في البحر وخافوا الغرق دعوا الله مخلصين له الدين أي أخلصوا عند الشدة التوحيد وأفردوا له الطاعة ولم يستغيثوا بآلهتهم، فلما نجاهم إلى البر إذا هم يشركون. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=29&tAyahNo=65&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «فَإِذَا رَكِبُواْ فِي ٱلْفُلْكِ دَعَوُاْ ٱللَّهَ مُخْلِصِينَ لَهُ ٱلدِّينَ فَلَمَّا نَجَّاهُمْ إِلَى ٱلْبَرِّ إِذَا هُمْ يُشْرِكُونَ»: فإذا ركب هؤلاء المشركون السفينة في البحر، فخافوا الغرق والهلاك فيه «دَعُوا اللّهَ مُخْلِصِينَ لَهُ الدّينَ» يقول: أخلصوا لله عند الشدّة التي نزلت بهم التوحيد، وأفردوا له الطاعة، وأذعنوا له بالعبودة، ولم يستغيثوا بآلهتهم وأندادهم، ولكن بالله الذي خلقهم «فلَمَّا نَجَّاهُمْ إلى البَرّ» يقول: فلما خلصهم مما كانوا فيه وسلَّمهم، فصاروا إلى البرّ إذا هم يجعلون مع الله شريكا في عبادتهم، ويدعون الآلهة والأوثان معه أرباباً. وينقل في المقطع أقوالاً عن قتادة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=29&tAyahNo=65&tDisplay=yes&UserProfile=0&LanguageId=1

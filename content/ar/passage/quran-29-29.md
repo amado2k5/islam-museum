@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-8-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن لوطاً قال لقومه أئنكم لتأتون الرجال في أدبارهم وتقطعون السبيل أي المسافرين بفعلكم الخبيث، فقد كانوا فيما ذُكر يفعلون ذلك بمن مرّ بهم من الغرباء، وينقل عن ابن زيد، وما كان جواب قومه إلا أن قالوا ائتنا بعذاب الله إن كنت من الصادقين. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=29&tAyahNo=29&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «أَئِنَّكُمْ لَتَأْتُونَ ٱلرِّجَالَ وَتَقْطَعُونَ ٱلسَّبِيلَ وَتَأْتُونَ فِي نَادِيكُمُ ٱلْمُنْكَرَ فَمَا كَانَ جَوَابَ قَوْمِهِ إِلاَّ أَن قَالُواْ ٱئْتِنَا بِعَذَابِ ٱللَّهِ إِن كُنتَ مِنَ ٱلصَّادِقِينَ»: يقول تعالى ذكره مخبرا عن قيل لوط لقومه «أئِنَّكُمْ» أيها القوم «لَتأْتُونَ الرّجالَ» في أدبارهم «وَتَقْطَعُونَ السَّبِيلَ» يقول: وتقطعون المسافرين عليكم بفعلكم الخبيث، وذلك أنهم فيما ذُكر عَنْهم كانوا يفعلون ذلك بمن مرّ عليهم من المسافرين، من ورد بلادهم من الغرباء. وينقل في المقطع أقوالاً عن ابن زيد وسماك.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=29&tAyahNo=29&tDisplay=yes&UserProfile=0&LanguageId=1

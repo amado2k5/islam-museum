@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-8-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري الآيات 5 إلى 6 معاً في موضع واحد. يقول الطبري إن من كان يرجو الله يوم لقائه ويطمع في ثوابه فإن أجل الله لبعث الخلق للجزاء قريب آتٍ، وهو السميع لقولهم آمنا العليم بصدقه، ومن جاهد عدوّه من المشركين فإنما يجاهد لنفسه لأنه يبتغي بذلك ثوابه، إن الله لغني عن العالمين. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=29&tAyahNo=5&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 5 إلى 6 مقطعاً واحداً. يفسّر قوله «مَن كَانَ يَرْجُواْ لِقَآءَ ٱللَّهِ فَإِنَّ أَجَلَ ٱللَّهِ لآتٍ وَهُوَ ٱلسَّمِيعُ ٱلْعَلِيمُ»: من كان يرجو الله يوم لقائه، ويطمع في ثوابه، فإن أجل الله الذي أجله لبعث خلقه للجزاء والعقاب لآت قريبا، «وهو السميع»، يقول: والله الذي يرجو هذا الراجي بلقائه ثوابه، السميع لقوله: آمنا بالله، «العليم» بصدق قيله، إنه قد آمن من كذبه فيه. وقوله: «وَمَنْ جاهَدَ فإنَّمَا يُجاهِدُ لنَفْسِهِ» يقول: ومن يجاهد عدوَّه من المشركين فإنما يجاهد لنفسه، لأنه يفعل ذلك ابتغاء الثواب من الله على جهاده، والهرب من العقاب، فليس بالله إلى فعله ذلك حاجة، وذلك أن الله غنيّ عن جميع خلقه، له الملك والخلق والأمر.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=29&tAyahNo=5&tDisplay=yes&UserProfile=0&LanguageId=1

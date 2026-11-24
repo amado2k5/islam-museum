@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-8-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يذكر الطبري أن الذين آمنوا بالله ورسوله وصحّ إيمانهم عند ابتلائهم ولم يرتدوا بأذى المشركين وعملوا الصالحات فسيكفّر الله عنهم سيئاتهم التي سلفت في شركهم، ويثيبهم أحسن ما كانوا يعملون. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=29&tAyahNo=7&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَٱلَّذِينَ آمَنُواْ وَعَمِلُواْ ٱلصَّالِحَاتِ لَنُكَفِّرَنَّ عَنْهُمْ سَيِّئَاتِهِمْ وَلَنَجْزِيَنَّهُمْ أَحْسَنَ ٱلَّذِي كَانُواْ يَعْمَلُونَ»: والذين آمنوا بالله ورسوله، فصحّ إيمانهم عند ابتلاء الله إياهم وفتنته لهم، ولم يرتدّوا عن أديانهم بأذى المشركين إياهم «وعَمِلُوا الصَّالِحاتِ لَنُكَفِّرَنَّ عَنْهُمْ سَيِّئاتِهِمْ» التي سلفت منهم في شركهم «وَلَنَجْزِيَنَّهُمْ أحْسَنَ الَّذِي كانُوا يَعْمَلُونَ» يقول: ولنثيبنهم على صالحات أعمالهم في إسلامهم، أحسن ما كانوا يعملون في حال شركهم مع تكفيرنا سيئات أعمالهم.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=29&tAyahNo=7&tDisplay=yes&UserProfile=0&LanguageId=1

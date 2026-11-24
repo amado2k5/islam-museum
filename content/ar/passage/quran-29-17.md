@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-8-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن إبراهيم قال لقومه إنما تعبدون من دون الله أوثاناً، يعني مُثُلاً أي أصناماً، وينقل عن قتادة، ويختلف أهل التأويل في «وتخلقون إفكاً» فقال بعضهم معناه وتصنعون كذباً، وينقل عن ابن عباس، إن الذين تعبدون من دون الله لا يملكون لكم رزقاً فابتغوا عند الله الرزق. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=29&tAyahNo=17&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «إِنَّمَا تَعْبُدُونَ مِن دُونِ ٱللَّهِ أَوْثَاناً وَتَخْلُقُونَ إِفْكاً إِنَّ ٱلَّذِينَ تَعْبُدُونَ مِن دُونِ ٱللَّهِ لاَ يَمْلِكُونَ لَكُمْ رِزْقاً فَٱبْتَغُواْ عِندَ ٱللَّهِ ٱلرِّزْقَ وَٱعْبُدُوهُ وَٱشْكُرُواْ لَهُ إِلَيْهِ تُرْجَعُونَ»: يقول تعالى ذكره مخبرا عن قيل خليله إبراهيم لقومه: إنما تعبدون أيها القوم من دون الله أوثاناً، يعني مُثُلاً. كما: وعن قَتادة، قوله «إنَّمَا تَعْبُدُونَ مِنْ دُونِ اللّهِ أوْثاناً» أصناماً. واختلف أهل التأويل في تأويل قوله: «وتَخْلُقُونَ إفْكاً» فقال بعضهم: معناه: وتصنعون كذباً. وينقل في المقطع أقوالاً عن ابن عباس ومجاهد وابن زيد وعطاء.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=29&tAyahNo=17&tDisplay=yes&UserProfile=0&LanguageId=1

@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-8-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أنه إن كذّب الناس رسولهم محمداً فيما دعاهم إليه فقد كذّبت جماعات من قبلهم رسلها فحلّ بها سخط الله وعقوبته، فسبيلهم سبيلها، وما على الرسول إلا البلاغ المبين. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=29&tAyahNo=18&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَإِن تُكَذِّبُواْ فَقَدْ كَذَّبَ أُمَمٌ مِّن قَبْلِكُمْ وَمَا عَلَى ٱلرَّسُولِ إِلاَّ ٱلْبَلاَغُ ٱلْمُبِينُ»: وإن تكذِّبوا أيها الناس رسولنا محمداً فيما دعاكم إليه من عبادة ربكم الذي خلقكم ورزقكم، والبراءة من الأوثان، فقد كَذَّبت جماعات من قبلكم رسلَها فيما دعتهم إليه الرسل من الحقّ، فحلّ بها من الله سخطه، ونزل بها منه عاجل عقوبته، فسبيلكم سبيلها فيما هو نازل بكم بتكذيبكم إياه «وَما على الرَّسُولِ إلاَّ البَلاغُ المُبِينُ» يقول: وما على محمد إلاَّ أن يبلِّغكمَ رسالته، ويؤدّي إليكم ما أَمره بأدائه إليكم ربُّه. ويعني بالبلاغ المبين: يُبِين لمن سمعه ما يراد به، ويفهم به ما يعني به.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=29&tAyahNo=18&tDisplay=yes&UserProfile=0&LanguageId=1

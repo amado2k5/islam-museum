@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-8-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن النبي مأمور أن يقرأ ما أوحي إليه من القرآن وأن يؤدي الصلاة المفروضة بحدودها، إن الصلاة تنهى عن الفحشاء والمنكر، ويذكر اختلافهم في المراد بالصلاة هنا: فقيل القرآن الذي يُقرأ فيها، وغير ذلك، ولذكر الله أكبر والله يعلم ما تصنعون. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=29&tAyahNo=45&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «ٱتْلُ مَا أُوْحِيَ إِلَيْكَ مِنَ ٱلْكِتَابِ وَأَقِمِ ٱلصَّلاَةَ إِنَّ ٱلصَّلاَةَ تَنْهَىٰ عَنِ ٱلْفَحْشَآءِ وَٱلْمُنْكَرِ وَلَذِكْرُ ٱللَّهِ أَكْبَرُ وَٱللَّهُ يَعْلَمُ مَا تَصْنَعُونَ»: يقول تعالى ذكره لنبيه محمد «اتْلُ» يعني اقرأ «ما أُوحِيَ إلَيْكَ» مِنَ الكِتابِ يعني ما أنزل إليك من هذا القرآن «وأقِمِ الصَّلاة» يعني: وأدّ الصلاة التي فرضها الله عليك بحدودها «إنَّ الصَّلاةَ تَنْهَى عَنِ الفَحْشاءِ وَالمُنْكَر». اختلف أهل التأويل في معنى الصلاة التي ذكرت في هذا الموضع، فقال بعضهم: عنى بها القرآن الذي يقرأ في موضع الصلاة، أو في الصلاة. وينقل في المقطع أقوالاً عن ابن عباس وقتادة والضحاك والحسن والأعمش وسفيان.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=29&tAyahNo=45&tDisplay=yes&UserProfile=0&LanguageId=1

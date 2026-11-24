@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-8-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يذكر الطبري أن الله يقول لعباده المؤمنين الذين وحّدوه وآمنوا برسوله إن أرضي واسعة، ويختلف أهل التأويل في المراد بسعة الأرض: فقال بعضهم إنها لم تضق عليكم فتقيموا بموضع لا يحل لكم المقام فيه، ولكن إذا عُمل في مكان بمعاصي الله ولم تقدروا على تغييره فاهربوا منه فإياي فاعبدون. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=29&tAyahNo=56&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «يٰعِبَادِيَ ٱلَّذِينَ آمَنُوۤاْ إِنَّ أَرْضِي وَاسِعَةٌ فَإِيَّايَ فَٱعْبُدُونِ»: يقول تعالى ذكره للمؤمنين به من عباده: يا عبادي الذين وحَّدوني وآمنوا بي وبرسولي محمد «إنَّ أرْضِي وَاسِعَةٌ». واختلف أهل التأويل في المعنى الذي أريد من الخبر عن سعة الأرض، فقال بعضهم: أريد بذلك أنها لم تضق عليكم فتقيموا بموضع منها لا يحلّ لكم المُقام فيه، ولكن إذا عمل بمكان منها بمعاصي الله فلم تقدروا على تغييره، فاهرُبوا منه. وينقل في المقطع أقوالاً عن مجاهد وسعيد بن جبير وابن زيد والأعمش وعطاء.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=29&tAyahNo=56&tDisplay=yes&UserProfile=0&LanguageId=1

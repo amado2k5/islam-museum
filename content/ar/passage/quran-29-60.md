@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-8-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن الله يأمر المؤمنين بالهجرة والجهاد ولا يخافوا عيلة ولا فقراً، فكم من دابة ذات حاجة إلى غذاء لا تحمل رزقها ولا ترفعه ليومها لغدها لعجزها عن ذلك، الله يرزقها وإياكم يوماً بيوم، وهو السميع لأقوالكم العليم بما في ضمائركم. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=29&tAyahNo=60&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَكَأَيِّن مِّن دَآبَّةٍ لاَّ تَحْمِلُ رِزْقَهَا ٱللَّهُ يَرْزُقُهَا وَإِيَّاكُمْ وَهُوَ ٱلسَّمِيعُ ٱلْعَلِيمُ»: يقول تعالى ذكره للمؤمنين به، وبرسوله من أصحاب محمد: هاجروا وجاهدوا في الله أيها المؤمنون أعداءه، ولا تخافوا عيلة ولا إقتاراً، فكم من دابة ذات حاجة إلى غذاء ومطعم ومشرب لا تحمل رزقها، يعني غذاءها لا تحمله، فترفعه في يومها لغدها لعجزها عن ذلك «اللّهُ يَرْزُقُها وَإيَّاكُمْ» يوماً بيوم «وَهُوَ السَّمِيعُ» لأقوالكم: نخشى بفراقنا أوطاننا العَيْلة «العَلِيمُ» ما في أنفسكم، وما إليه صائر أمركم، وأمر عدوّكم من إذلال الله إياهم، ونُصْرتكم عليهم، وغير ذلك من أموركم، لا يخفى عليه شيء من أمور خلقه. وينقل في المقطع أقوالاً عن مجاهد وسفيان.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=29&tAyahNo=60&tDisplay=yes&UserProfile=0&LanguageId=1

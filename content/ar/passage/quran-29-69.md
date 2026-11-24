@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-8-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن الذين قاتلوا هؤلاء المفترين من كفار قريش ابتغاء علو كلمة الله ونصرة دينه لنهدينّهم سبلنا أي لنوفقنّهم لإصابة الطريق المستقيمة وهي دين الإسلام، وإن الله لمع من أحسن من خلقه فجاهد في سبيله مصدّقاً رسوله بالعون والنصرة على أعدائه. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=29&tAyahNo=69&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَٱلَّذِينَ جَاهَدُواْ فِينَا لَنَهْدِيَنَّهُمْ سُبُلَنَا وَإِنَّ ٱللَّهَ لَمَعَ ٱلْمُحْسِنِينَ»: والذين قاتلوا هؤلاء المفترين على الله كذباً من كفار قريش، المكذّبين بالحقّ لما جاءهم فينا، مُبتغين بقتالهم علوّ كلمتنا، ونُصرة ديننا «لَنَهْدِيَنَّهُمْ سُبُلَنا» يقول: لنوفقنهم لإصابة الطريق المستقيمة، وذلك إصابة دين الله الذي هو الإسلام الذي بعث الله به محمداً «وَإنَّ اللّهَ لَمَعَ المُحْسِنِينَ» يقول: وإن الله لمع من أحسن من خلقه، فجاهد فيه أهل الشرك، مُصَدّقاً رسوله فيما جاء به من عند الله بالعون له، والنصرة على من جاهد من أعدائه. وينقل في المقطع أقوالاً عن ابن زيد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=29&tAyahNo=69&tDisplay=yes&UserProfile=0&LanguageId=1

@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-8-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن الله خلقكم من ضعف أي من نطفة وماء مهين فأنشأكم بشراً سوياً، ثم جعل من بعد ضعف الطفولة قوة على التصرف، ثم جعل من بعد القوة ضعفاً وشيبة بالهرم والكبر، يخلق ما يشاء وهو العليم القدير. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=30&tAyahNo=54&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «ٱللَّهُ ٱلَّذِي خَلَقَكُمْ مِّن ضَعْفٍ ثُمَّ جَعَلَ مِن بَعْدِ ضَعْفٍ قُوَّةً ثُمَّ جَعَلَ مِن بَعْدِ قُوَّةٍ ضَعْفاً وَشَيْبَةً يَخْلُقُ مَا يَشَآءُ وَهُوَ ٱلْعَلِيمُ ٱلْقَدِيرُ»: يقول تعالى ذكره لهؤلاء المكذّبين بالبعث من مشركي قريش، محتجاً عليهم بأنه القادر على ذلك وعلى ما يشاء: «اللّهُ الَّذِي خَلَقَكُمْ» أيها الناس «مِنْ ضَعْفٍ» يقول: من نُطْفة وماء مَهِين، فأنشأكم بَشَراً سويّاً «ثُمَّ جَعَلَ مِنْ بَعْدِ ضَعْفٍ قُوَّةً» يقول: ثم جعل لكم قوّة على التصرّف، من بعد خلقه إياكم من ضعف، ومن بعد ضعفكم، بالصغر والطفولة «ثُمَّ جَعَلَ مِنْ بَعْدِ قُوَّةٍ ضَعْفاً وَشَيْبَةً» يقول: ثم أحدث لكم الضعف بالهرم والكبر عما كنتم عليه أقوياء في شبابكم وشيبة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=30&tAyahNo=54&tDisplay=yes&UserProfile=0&LanguageId=1

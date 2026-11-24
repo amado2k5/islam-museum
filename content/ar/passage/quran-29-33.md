@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-8-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن الرسل لما جاءوا لوطاً سيء بهم أي ساءته الملائكة بمجيئهم إذ تضيّفوه، وينقل عن قتادة أنه ساء ظنه بقومه وضاق بضيفه ذرعاً، وقالوا لا تخف ولا تحزن إنا منجّوك وأهلك إلا امرأتك كانت من الغابرين. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=29&tAyahNo=33&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَلَمَّآ أَن جَآءَتْ رُسُلُنَا لُوطاً سِيءَ بِهِمْ وَضَاقَ بِهِمْ ذَرْعاً وَقَالُواْ لاَ تَخَفْ وَلاَ تَحْزَنْ إِنَّا مُنَجُّوكَ وَأَهْلَكَ إِلاَّ ٱمْرَأَتَكَ كَانَتْ مِنَ ٱلْغَابِرينَ»: «ولَمَّا أنْ جاءَتْ رُسُلُنا لُوطاً» من الملائكة «سِيءَ بِهِمْ» يقول: ساءته الملائكة بمجيئهم إليه، وذلك أنهم تَضَيفوه، فساءوه بذلك، فقوله «سِيءَ بِهِمْ»: فُعِلَ بهم، مِنْ ساءه بذلك. وذُكر عن قتادة أنه كان يقول: ساء ظنه بقومه، وضاق بضيفه ذَرْعاً. أخبرنا مَعمَر عنه «وَضَاقَ بِهِمْ ذَرْعاً» يقول: وضاق ذرعه بضيافتهم لِما علم من خُبث فعل قومه. كما: بالضيافة مخافة عليهم مما يعلم من شرّ قومه. وينقل في المقطع أقوالاً عن قتادة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=29&tAyahNo=33&tDisplay=yes&UserProfile=0&LanguageId=1
