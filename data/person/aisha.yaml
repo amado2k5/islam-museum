@@ -1,6 +1,9 @@
 id: person/aisha
 class: person
 label: { en: Aisha bint Abi Bakr, ar: عائشة بنت أبي بكر , ur: "عائشہ بنت ابی بکر", es: "Aisha bint Abi Bakr", fr: "Aisha bint Abi Bakr"}
+name_parts:
+  kunya:
+    - { value: "أم عبد الله", translit: "Umm Abd Allah", certainty: attested, note: "Islamic tradition records that Muhammad gave her this kunya, naming her after her nephew Abd Allah ibn al-Zubayr, though she had no biological children (Sunan Abi Dawud, hadith 4970). Facts in this name block come from a research summary supplied to the museum (classical-arabic-names.md); the museum did not open the pages it cites; founder approval to use the file without re-verification, 21 Nov 2026.", sources: [source/sunnah-com-abu-dawud-4970, source/jstor-schimmel-islamic-names] }
 names:
   - { kind: full, lang: ar, value: عائشة بنت أبي بكر الصديق }
   - { kind: laqab, lang: ar-Latn, value: "Umm al-Mu'minin (Mother of the Believers)" }

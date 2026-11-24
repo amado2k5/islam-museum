@@ -1,6 +1,12 @@
 id: person/abu-nuwas
 class: person
 label: { ar: "أبو نواس", en: "Abu Nuwas", fr: "Abu Nuwas", es: "Abu Nuwas", ur: "ابو نواس" }
+name_parts:
+  ism:
+    - { value: "الحسن", translit: "al-Hasan", certainty: attested, sources: [source/jstor-schimmel-islamic-names], note: "Facts in this name block come from a research summary supplied to the museum (classical-arabic-names.md); the museum did not open the pages it cites; founder approval to use the file without re-verification, 21 Nov 2026." }
+  kunya:
+    - { value: "أبو نواس", translit: "Abu Nuwas", certainty: attested, sources: [source/jstor-schimmel-islamic-names] }
+  shuhra: { value: "أبو نواس", translit: "Abu Nuwas", certainty: attested, sources: [source/jstor-schimmel-islamic-names] }
 summary:
   ar: "الحسن بن هانئ الحكمي، شاعر العصر العباسي الأول، أتى في وصف الخمر نورها وطعمها وريحها ولونها وشعاعها وفعلها في النفس وظروفها وأدنانها وحال المنادمات عليها والاصطباح والاغتباق بما يكاد يغلق باب الوصف كما ذكر المسعودي، ومنه فكأنها في كفه شمس وراحته قمر، وقال أصبح ولا صبح سوى ضوء العقار {cite:muruj-al-dhahab p. 707-709}."
   en: "al-Hasan b. Hani' — the poet who nearly closed the door on describing wine {cite:muruj-al-dhahab p. 707-709}."

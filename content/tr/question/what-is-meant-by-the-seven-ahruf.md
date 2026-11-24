@@ -1,0 +1,22 @@
+---
+id: question/what-is-meant-by-the-seven-ahruf
+lang: tr
+source_lang: ar
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-23), draft translation']
+status: {review: published}
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Google Translate documents)', model: google-translate, run: gt-docs-tr-2026-11-23, source: content/ar/question/what-is-meant-by-the-seven-ahruf.md}
+---
+## Özet
+Meselenin kaynağı, el-Suyuti'nin belirttiği üzere yirmi bir Sahabe tarafından rivayet edilen ve Ebu Ubeyd'in açıkça mütevatir (yaygın olarak rivayet edilmiş) olduğunu belirttiği bir hadistir: "Bu Kur'an yedi farklı okuma şekliyle indirilmiştir." {cite:itqan-suyuti p. 308} El-Suyuti'nin aktardığına göre İbn Hibban, bunun otuz beş farklı yorumunun olduğunu, ancak hakimin bunlardan bahsetmediğini söyler; daha sonra bunların en bilinenlerini sıralar. {cite:itqan-suyuti p. 328} Bu müze, bu yorumların en önemlilerini, herhangi birine diğerine göre öncelik vermeden, ilgili yazarlarına atfederek sunmaktadır. Bkz. [[concept/al-ahruf-al-sabaa|Yedi Okuma Şekli]] ve [[event/umar-and-hisham-ibn-hakim-surat-al-furqan|Ömer ve Hişam]].
+
+## Bilim insanlarının üzerinde hemfikir olduğu noktalar
+İbn el-Ceziri şöyle der: Alimler yedi sayısının anlamı konusunda farklı görüşlere sahiptiler, “bir harfin yedi farklı şekilde okunması anlamına gelmediği konusunda hemfikirdiler, çünkü bu sadece birkaç kelimede olur” ve bu yedi ünlü okuyucuya atıfta bulunamaz, çünkü onlar henüz yaratılmamış ve var olmamışlardı. {cite:nashr-dahman-damascus-1345-v1 p. 34} El-Sabt, anlamının her kelimenin yedi farklı şekilde okunması anlamına gelmediğini, aksi takdirde “içinde” kelimesini atlayarak “yedi harf” diyeceğini, aksine Kur'an'ın bu şart ve esneklikle indirildiğini, böylece varyasyonların ne kadar çok olursa olsun yediyi geçmediğini söyler. [[passage/quran-1-4|Fatiha Suresi'nin (4) ilk kelimesi]] yedi veya on farklı şekilde okunur, Maide Suresi'ndeki bir kelime yirmi iki farklı şekilde okunur ve [[passage/quran-17-23|İsra Suresi'ndeki (23) “uff” kelimesinin]] otuz yedi varyasyonu vardır, ancak farklılıklar yediyi geçmez. {cite:manahil-irfan-sabt p. 173}
+
+## atfedilen bilgelik
+Cumartesi günü, Kur'an'ın yedi farklı okunuş biçiminde indirilmesinin ardındaki hikmetin, özellikle de doğrudan alan Araplar olmak üzere tüm Müslüman topluluğu için kolaylık sağlamak olduğunu söylüyor. Cebrail'in, "Allah sana, topluluğunun Kur'an'ı tek bir biçimde okumasını emrediyor" dediği Ubeyy ibn Ka'b hadisini aktarıyor. Peygamber, topluluğunun yedi farklı okunuş biçimine ulaşana kadar buna dayanamadığını söyleyerek Allah'tan bağışlanma ve af diledi. Ayrıca, Peygamber'in Cebrail'e, kendisinin okuma yazma bilmeyen bir topluluğa gönderildiğini, bu topluluğun çok yaşlılar, ileri yaşlılar ve gençler olduğunu söylediği hadisi de aktarıyor. {cite:manahil-irfan-sabt p. 159} {cite:manahil-irfan-sabt p. 157} İbn el-Ceziri ayrıca, Allah'ın onlara "dillerde geniş bir alan ve diyakritiklerde esneklik verdiğini, tıpkı dinde onlara kolaylık sağladığı gibi" diyor. {cite:nashr-dahman-damascus-1345-v1 p. 33}
+
+## Mektupları saklamak
+Bir diğer ilgili konu, yedi farklı okunuşun Kur'an el yazmalarında kalıp kalmadığıdır. Bir grup hukukçu, okuyucu ve ilahiyatçı, yedi okunuşun tamamının Osmanî kodekslerde bulunduğunu, çünkü Müslüman topluluğunun bunlardan herhangi birini aktarmayı ihmal etmesinin caiz olmadığını savunmuştur. Çoğu âlim, Osmanî kodekslerin yalnızca yazılarının sığdırabileceği okunuşları içerdiğini, dolayısıyla son okunuşu kapsadığını savunmuştur. İbn Cerir el-Taberi ve onunla aynı görüşte olanlar, topluluğun kelimeyi korumak için kendisini tek bir okunuşla sınırladığını savunmuştur. {cite:manahil-irfan-sabt p. 183} {cite:manahil-irfan-sabt p. 184} El-Sabt ise kodekslerin yedi okunuştan bazılarını içerdiğini, ancak hepsini içermediğini savunmuştur. {cite:manahil-irfan-sabt p. 184} [[concept/al-arda-al-akhira|Son okunuşa bakınız]].
+
+## Söylemediğim şey
+Bu sözleri el-Sabt, İbn el-Cezari ve el-Suyuti'den aktarıyorum; Kur'an'dan tek bir kelime bile alıntılamıyorum. Örnekleri sözlü olarak anlatıyorum ve tablo kırk sözün tamamını kapsamıyor, her muhalif görüşü de içermiyor. El-Zarqani'nin orijinal "Manahil al-'Irfan" eserine değil, "Tahdhib Manahil al-'Irfan"a dayandım. Bu nedenle, el-Zarqani'ye atfettiğim şeyleri el-Sabt aracılığıyla atfediyorum.

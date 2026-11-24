@@ -1,0 +1,12 @@
+---
+id: person/jalal-al-din-al-mahalli
+lang: id
+source_lang: ar
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-23), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Google Translate documents)', model: google-translate, run: gt-docs-id-2026-11-23, source: content/ar/person/jalal-al-din-al-mahalli.md}
+---
+## Di Al-Sakhawi dalam cahaya terang
+[[person/al-sakhawi|Al-Sakhawi]] menerjemahkan untuk Muhammad ibn Ahmad ibn Muhammad, Jalal al-Din Abu Abdullah al-Mahalli al-Shafi'i, dan menyebutkan bahwa ia lahir di Kairo pada awal bulan Syawal tahun 791 H, dan belajar di bawah al-Bulqini, al-Wali al-Iraqi, Ibn Hajar, dan lainnya. {cite:daw-lami-jil-1992 7/39} {cite:daw-lami-jil-1992 7/40} Di antara buku-bukunya adalah tafsir atas Jam' al-Jawami', al-Waraqat, dan al-Minhaj, dan tafsir Al-Quran yang tidak ia selesaikan. {cite:daw-lami-jil-1992 7/40} Ia mengajar di mazhab Barquqiyya dan Mu'ayyidiyya dan menolak jabatan hakim. Ia wafat pada Sabtu pagi di awal tahun 864 H. {cite:daw-lami-jil-1992 7/41}
+
+## Dalam pengantar edisi Tafsir al-Jalalayn dari Perpustakaan Al-Iman
+Muhammad Muhammad Tamir menerjemahkan al-Mahalli sebagai Muhammad ibn Ahmad ibn Muhammad ibn Ibrahim al-Mahalli al-Shafi'i, yang dijuluki Jalal al-Din, seorang ulama fiqih Islam, teologi, dan tafsir, lahir di Mesir pada tahun 791 H. {cite:tafsir-jalalayn-tamir-maktabat-al-iman p.4} Ia menggambarkannya sebagai orang yang mahir dalam banyak bidang, keajaiban kecerdasan dan pemahaman, berbicara jujur tanpa takut dicela, dan bahwa ia ditawari posisi hakim tetapi menolak, dan malah mengajar di sekolah al-Mu'ayyidiyya dan al-Barquqiyya. {cite:tafsir-jalalayn-tamir-maktabat-al-iman p.4} Di antara karya-karyanya yang disebutkan adalah: komentar tentang al-Waraqat dalam fiqih Islam, komentar tentang al-Minhaj dalam fiqih, komentar tentang Jam' al-Jawami' dalam fiqih Islam, dan sebuah buku tentang jihad. {cite:tafsir-jalalayn-tamir-maktabat-al-iman p.4} Beliau wafat pada tahun 864 H. {cite:tafsir-jalalayn-tamir-maktabat-al-iman p.4} Beliau menulis tafsir bagian kedua Al-Quran, termasuk Al-Fatiha, yang kemudian diselesaikan [[person/al-suyuti|oleh Al-Suyuti]], menghasilkan karya [[work/tafsir-al-jalalayn|Tafsir Al-Jalalayn]]. Al-Suyuti menggambarkannya dalam kesimpulan suplemennya sebagai "ulama yang terpelajar, terkemuka, dan berprestasi." {cite:tafsir-jalalayn-tamir-maktabat-al-iman p.3} {cite:tafsir-jalalayn-lithograph-1278 p.369}

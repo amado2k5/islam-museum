@@ -1,0 +1,19 @@
+---
+id: concept/milkiyyat-al-dawla
+lang: tr
+source_lang: ar
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-23), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Google Translate documents)', model: google-translate, run: gt-docs-tr-2026-11-23, source: content/ar/concept/milkiyyat-al-dawla.md}
+---
+
+## Özet
+
+Devlet mülkiyeti, [[person/al-tahir-qana|el-Tahir Kana'nın]] " [[work/al-dawr-al-tawzii-li-l-milkiyya|İslami Ekonomide Mülkiyetin Dağıtım Rolü]] " adlı eserinde [[concept/al-milkiyya-al-amma|kamu mülkiyetinden ayırdığı üçüncü bir mülkiyet türüdür]]. Bazı yazarların mülkiyeti ikili hale getirdiğini, kamusal alanda devlet mülkiyetini de dahil ettiğini belirtir. Aradaki farkı sadece biçimsel olarak değerlendirir ve ekonomik ve sosyal rolleri açıklamakta daha net olduğu için üçlü ayrımı tercih eder. {cite:dawr-tawzii-milkiyya-qana-2007 p.70} Bunu, sahiplerinin elindeki özel mülkiyete benzer şekilde, yasal bir varlık olarak hareket eden hazine (Beytül Mal) mülkiyeti olarak tanımlar. Hükümdar, kamu yararını sağlamak için meşru tüm yollarla onu elden çıkarma hakkına sahiptir. El-Mawardi'nin, Müslümanların hak sahibi olduğu ancak sahibi belirtilmeyen tüm mülklerin hazineye ait olduğunu ve hazinenin fiziksel bir yer değil, bir kurum olduğunu söylediğini aktarır. {cite:dawr-tawzii-milkiyya-qana-2007 p.77}
+
+## Onun kanıtı
+
+Savaş ganimetleri hakkındaki ayeti ([[passage/quran-59-7|El-Haşr 7]]) ve ganimet hakkındaki ayeti ([[passage/quran-8-41|El-Enfal 41]]) zikreder ve El-Mawardi'nin Müslümanların hak sahibi oldukları fonları savaş ganimetleri, ganimet ve sadaka olarak ayırmasını aktarır. Savaş ganimetlerinin kamu hazinesinin hakları arasında olduğunu, çünkü dağıtımının hükümdarın takdirine bağlı olduğunu, ganimetlerin ise savaşçılara ait olduğunu belirtir. {cite:dawr-tawzii-milkiyya-qana-2007 p.77} {cite:dawr-tawzii-milkiyya-qana-2007 p.78} Sünnetten, İbn Abbas'ın hadisini zikreder; bu hadiste Ensar'ın, Peygamber'in Medine'ye varması üzerine, su yoluyla ulaşılamayan tüm toprakları ona verdiğini ve dilediği gibi kullanmasına izin verdiğini; Wael ibn Hujr'ın Hadhramaut'ta toprak bağışlamasıyla ilgili hadisini; ve El-Sa'b ibn Jathama'nın hadisini zikreder: "Allah ve Resulü dışında korunaklı bir yer yoktur." Ayrıca Peygamberin Naki'yi, Ömer'in ise Şaraf ve Rabbe'yi koruduğunu belirtiyor. [[concept/hima|Koruma altındaki alanları]] kamu mülkiyetinin tezahürleri olarak görüyor ve devlet işleri için tahsis edildikleri takdirde devlet malı haline geldiklerini söylüyor. {cite:dawr-tawzii-milkiyya-qana-2007 p.78} Ayrıca, bireysel borçların kamu hazinesinden ödendiğine dair delil olarak Ebu Hurayra'nın "Kim bir borç bırakırsa, onu ödemek benim sorumluluğumdur" hadisini de gösteriyor. {cite:dawr-tawzii-milkiyya-qana-2007 p.79}
+
+## Alanları ve korunması
+
+Yetki alanları şunları içerir: zekât hazinesi ve belirtilen harcamaları; kamu yararı hazinesi, ki bu da haraç (toprak vergisi), ganimet (fay'), savaş ganimetinin beşte biri (khums), cizye (baş vergisi), öşr (zekat) ve rikaz (gömülü hazine) içerir; kayıp mal hazinesi, ki bu da mirasçısı olmayanların mallarını, bulunan malları ve [[concept/ihya-al-mawat|sahipsiz toprakları içerir; ve sahipsiz topraklar]]. {cite:dawr-tawzii-milkiyya-qana-2007 p.89} {cite:dawr-tawzii-milkiyya-qana-2007 p.90} Sahipsiz toprakların ekilmeden önce devlete ait olduğu ve ekildikten sonra özel mülkiyete geçtiği kabul edilir. Ele geçirdiği toprağı üç yıl içinde ekmeyen kimseden toprak alınır. {cite:dawr-tawzii-milkiyya-qana-2007 p.96} Onu korumanın yolları arasında, hırsızlık, zimmete geçirme ve yıkım yoluyla saldırıları yasaklamak ve erken İslam devletinde denetim ve cezalandırma organları kurmak yer almaktadır. {cite:dawr-tawzii-milkiyya-qana-2007 p.90}

@@ -1,6 +1,12 @@
 id: person/al-mutanabbi
 class: person
 label: { ar: "المتنبي", en: "al-Mutanabbi", fr: "al-Mutanabbi", ur: "متنبی", es: "al-Mutanabbi" }
+name_parts:
+  ism:
+    - { value: "أحمد", translit: "Ahmad", certainty: attested, sources: [source/jstor-schimmel-islamic-names], note: "Facts in this name block come from a research summary supplied to the museum (classical-arabic-names.md); the museum did not open the pages it cites; founder approval to use the file without re-verification, 21 Nov 2026." }
+  laqab:
+    - { value: "المتنبي", translit: "al-Mutanabbi", certainty: attested, sources: [source/jstor-schimmel-islamic-names] }
+  shuhra: { value: "المتنبي", translit: "al-Mutanabbi", certainty: attested, sources: [source/jstor-schimmel-islamic-names] }
 names:
   - { value: "أبو الطيب أحمد بن الحسين المتنبي", kind: full }
 gender: male

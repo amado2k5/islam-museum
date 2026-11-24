@@ -1,0 +1,27 @@
+---
+id: person/maimonides-ibn-maymun
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-23), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-23, source: content/ar/person/maimonides-ibn-maymun.md}
+---
+## Özet
+Abu Imran Musa ibn Ubayd Allah ibn Maimun al-Qurtubi, İngilizce ve Almanca'da yaygın olarak Musa Maimonides olarak anılır, Yahudi bir ilahiyatçı, filozof ve hekimdi. 1135 yılında Cordoba'da doğdu ve 1204 yılında Fustat'ta öldü. {cite:encyclopaedia-of-islam-2 vol. 3 p. 908}
+
+## Hayatı
+Uzun süre Müslüman Endülüs'te yerleşmiş seçkin bir Yahudi ailesine mensuptur ve ilk eğitimini [[place/cordoba|Córdoba]]. M.S. 1149 civarında, aile Almohad istilası ve dini azınlıklara karşı düşmanca politikaları nedeniyle burayı terk etti. Özellikle Fas'ta yaklaşık on yıl kaldılar [[place/fes|Fes]], ve belki İslam'ı vahyettiler ve makale bunun kesin olmaktan çok uzak olduğunu söylüyor. {cite:encyclopaedia-of-islam-2 vol. 3 p. 908} Makale, dini ve dünyevi bilgisinin özünün İslam Batı'sında bulunduğunu ve edebi faaliyetlerinin muhtemelen orada başladığını savunuyor. {cite:encyclopaedia-of-islam-2 vol. 3 p. 908}
+
+1166'dan sonra aile Mısır'daydı. Musa ilk olarak Hindistan ile değerli taş ticareti yaparak geçimini sağladı. Kardeşi bir gemide battığında ve ticaret tehdit altındayken, önce hakimin koruması altında doktor olarak çalıştı [[person/al-qadi-al-fadil|erdemli]] Sonra Kral'ın Daha İyi Sarayında bir doktor. {cite:encyclopaedia-of-islam-2 vol. 3 p. 908} Makale, onun asla Saladin'in doktoru olmadığını ve Richard'ın Aslan Yürek'e yaptığı çağrının efsanevi olduğunu doğrular. Tarikatının başı ve temsilcisi oldu, İbranice pozisyonu Naged'in temsilcisi oldu ve on dördüncü yüzyıla kadar ailesinde kaldı. {cite:encyclopaedia-of-islam-2 vol. 3 p. 908}
+
+## Eserleri
+Makale, İslami çalışmalar ve Arap edebiyatının tarihi ile sınırlıdır. {cite:encyclopaedia-of-islam-2 vol. 3 p. 908} İlki, muhtemelen on altıncı yüzyılda yazılmış olan mantık bilimi üzerine bir makaledir ve yalnızca İbranice harfleri eksik bir el yazmasından biliniyordu; ta ki Mübahat Türker Arap alfabesiyle iki tam kopya bulana kadar; bu da onun ile yakın bağlantısını gösteriyor [[person/al-farabi|El-Farabi]]. {cite:encyclopaedia-of-islam-2 vol. 3 p. 908} Tıpta yaklaşık on iki kitap yazdı; bunların çoğu Galen'e atfedildi ve makalede uzmanların onu döneminin tıbbı arasında onurlu bir konuma yerleştirdiği belirtiliyor. Tedavi için planlanmıştı ve tıbbi kitapları İbranice ve Arap alfabesiyle yayıldı. {cite:encyclopaedia-of-islam-2 vol. 3 p. 908}
+
+## Kafası karışık olanın anlamı
+M.S. 1190 civarında, bilimsel ve felsefi bilgileri nedeniyle Tevrat ve rabbinik öğretilerin anlamı, dünyanın kökeni ve hukuk hakkındaki Yahudi entelektüeller için Şaşkınların Anlamı adlı eserini yazdı. Yarı metinlerin yorumlanması için bir metodoloji geliştirdi, teoloji metodolojilerini inceledi ve dünyanın eskiliği ile Tanrı'yı kısıtlayan zorunluluk yasasının felsefi kesinlikler olmadığını gösterdi. Al-Farabi tarafından tekrarlanan Platoncu geleneği takip ederek, yasama yoluyla belirlenmiş peygamber fikrini destekledi ve mükemmel örneği Musa'dır. {cite:encyclopaedia-of-islam-2 vol. 3 p. 908} Musa'ya açıklanan yasa, başlangıçta henüz putperestlikten tamamen kurtulmamış bir halka uygun olsa bile, onun için mümkün olduğunca eksiksizdir ve sonsuza dek yürürlükte kalır. {cite:encyclopaedia-of-islam-2 vol. 3 p. 909}
+
+Makale, kitabı kasıtlı çelişkilerle yazılmış gibi okunuyor ki, düşünceli okuyucu gerçek görüşünün ifadenin görünürdeki anlamıyla çeliştiğini anlayacak ve muhtemelen dünyanın sonsuzluğunu reddetmediği sonucuna varıyor. Astroloji ve okült bilimleri reddetmesinde gerçek bir akılcılık bulursunuz ve diriliş üzerine yazdığı blog ve makalede geleneksel eskatolojiyi ve yalnızca ruhun hayatta kalması bilimini yumuşattığını fark edersiniz. Bu, yazarın okumasıdır ve müze bunu ona atfeder. {cite:encyclopaedia-of-islam-2 vol. 3 p. 909}
+
+## İslami düşünürler arasında
+Makale, El-Farabi'yi Müslüman filozoflar arasında en büyük ilham kaynağı olarak tanımlar ve etkisine işaret eder [[person/ibn-sina|İbn Sina]] El-Gazali ve İbn Bacce hayal kırıklığı içindeydi. Ona saygı duyuluyordu [[person/ibn-rushd|Averroes]] Ancak kitaplarının eksik olduğu ve anlam açısından faydalanamayacak kadar geç olduğu biliniyordu. Makale, İbn Rüşd'ü birçok açıdan çağdaşı ve karşılığı olarak anmaktadır. {cite:encyclopaedia-of-islam-2 vol. 3 p. 909} Ve Müslüman âlim onun hakkında şöyle dedi. [[person/abd-al-latif-al-baghdadi|Abdul Latif el-Bağdadi]] Kahire'de onu açıkça tanıyan, inancının takipçileri için sapkın bir kitap yazdığı yüzündendi. {cite:encyclopaedia-of-islam-2 vol. 3 p. 909} Makale, Müslüman alimlerin anlamdan faydalandığına dair önemli bir kanıt bulmamaktadır, ancak Mısır'daki Hristiyan entelektüeller Arap alfabesiyle kısmi kopyalarını dolaşıma sokmuşlardır. {cite:encyclopaedia-of-islam-2 vol. 3 p. 909}
+
+İslam ile ilgili olarak, makalede peygamberlik kurucusunun ilhamını kabul etmeyi reddettiği, katı tek tanrıcılığına kesin koşullu sempati duyduğu, Arapların peygamberini müjdeleyen Tevrat'tan metinleri çıkarma girişimlerini reddettiği ve kutsal metnin bütünlüğünü sorguladıkları için Müslümanları eleştirdiği belirtilir. {cite:encyclopaedia-of-islam-2 vol. 3 p. 909}

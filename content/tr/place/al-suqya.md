@@ -1,0 +1,15 @@
+---
+id: place/al-suqya
+lang: tr
+source_lang: ar
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-23), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Google Translate documents)', model: google-translate, run: gt-docs-tr-2026-11-23, source: content/ar/place/al-suqya.md}
+---
+## Özet
+El-Sakiye, hac yolunda bulunan, El-Abva'ya yaklaşık yirmi yedi mil uzaklıkta bir yerdir. Meyve bahçesi ve hurma ağaçları vardır ve Tayy ve diğer Arap kabilelerinden insanlar tarafından iskan edilmektedir. {cite:nuzhat-al-mushtaq-2002 p.142}
+
+## Ülkeler sözlüğünde
+Yaqut bu isimle anılan yerlerden bahseder. İlki, Al-Fara' bölgesinde, Al-Juhfa'dan on dokuz mil uzaklıkta bulunan büyük bir köy olan Al-Suqya'dır (ancak Al-Khwarizmi'nin kitabında yirmi dokuz mil olduğu belirtilir). İbn Al-Faqih, Tihama'nın alt vadilerinde olduğunu söylerken, İbn Al-Kalbi, Tubba'nın orada susamış halde kamp kurduğunu ve yağmur yağdığı için köye Al-Suqya adını verdiğini söyler. Al-Khwarizmi de, denize yakın, bir günlük ve bir gecelik yolculuk mesafesinde büyük bir köy olduğunu belirtir. Abu Ubayd Al-Sakuni'nin kitabında ise, Mekke'ye çıkış için Samira'nın altında, dört mil uzaklıkta bir gölet ve kalın su birikintileri olarak tanımlanır. {cite:mujam-al-buldan-sader-1995 3 p.228} 'Aand maddesinde ise, Mekke ile Medine arasında, Al-Suqya'dan bir mil önce bulunan bir vadi olduğu ve Al-Suqya'nın Mekke ile Medine arasında olduğu belirtilir. {cite:mujam-al-buldan-sader-1995 4 p.72} İkincisi, Manbij'in kapısında, meyve bahçeleri ve akan suyu olan bir köy olan El-Sukya'dır. Bu köy, Ebu Ubede el-Buhturi'nin soyundan gelenlere bağışlanmış ve Ebu Firas şiirlerinde bundan bahsetmiştir. Üçüncüsü, Ebu Bekir ibn Musa'ya göre Peygamber için su çekilen Medine'deki bir kuyudur. "Medine" maddesinde sulama için kullanılan evlerden bahsedilmektedir. {cite:mujam-al-buldan-sader-1995 3 p.228; 5 p.83} Dördüncüsü, şarkıcı Tuveys'in öldüğü yer olan Udhra topraklarındaki, Vadi el-Kura yakınlarındaki el-Cezl sulama yeridir. {cite:mujam-al-buldan-sader-1995 3 p.228} Kitap ayrıca, Aws ibn Maghra'ya ait bir evde bulunan "Rawdat el-Saqya"dan da bahsetmektedir. {cite:mujam-al-buldan-sader-1995 3 p.91}
+
+## Müzenin Tanımı
+Kartta, el-İdrisi'ye (s. 142) atıfta bulunularak, el-Suqya'nın Hac yolunda, el-Abwa'dan yaklaşık yirmi yedi mil uzaklıkta, meyve bahçesi ve hurma ağaçları bulunan ve Tayy kabilesi ile diğer kabilelerden insanların yaşadığı bir yer olduğu belirtiliyor. Yaqut'un bahsettiği yer ise Mekke ile Medine arasındaki ilk el-Suqya'dır (cilt 3, s. 228; cilt 4, s. 72). Suqya Manbij, Bir el-Madina ve Suqya el-Jazl ise aynı giriş noktalarıyla ayrılmış diğer yerlerdir. Yaqut'un kaydında Tayy kabilesinden veya hurma ağaçlarından bahsedilmiyor. Mesafeler farklılık gösteriyor: Yaqut'a göre el-Juhfa'ya on dokuz veya yirmi dokuz mil, karta göre ise el-Abwa'ya yirmi yedi mil. Müze bu mesafeleri birbirine dönüştürmüyor. Kartın konumu (23.45, 39.1), müzenin bulunduğu El-Abva'ya 38,2 km uzaklıktadır. [[place/al-abwa|El-Abva'ya bakınız]].

@@ -1,0 +1,38 @@
+---
+id: question/is-sufi-sama-of-singing-lawful
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-23), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-23, source: content/ar/question/is-sufi-sama-of-singing-lawful.md}
+---
+## Özet
+'Sama' pozisyonu on ikincidir [[concept/al-maqamat-wal-ahwal|Evler]] içinde [[work/madarij-al-salikin|Yolcunun Yolları]], ve içinde sunum yapıyor [[person/ibn-qayyim-al-jawziyya|İbn el-Kayyim]] En uzun tartışmalarından biri: Arayıcıların yolundan enstrümanlarla şarkı söylemek ve şiir dinlemek onu Tanrı'ya daha da yaklaştırır mı? Bu kart önce onun pozisyonunu sunar, ardından izinli konuşmacıların argümanlarını anlatırken sunar. Kart, iki görüş arasında yargı yapmaz. Kartta işitme ile ilgili başka hukuk kararları da vardır [[concept/sama|İşitme]]. {cite:madarij-salikin-mukhtar-v1 p. 395}
+
+## Kur'an'da dinlemek
+İbn al-Qayyim, 'sama'nın bir fiil isim olduğunu ve Allah'ın onu emrettiğini, halkını övdüğünü ve aralarındaki iyiliğin bilgisinin bir işareti haline getirdiğini söyleyerek başlar. 'İşitmek kalbe iman elçisidir,' der ki, 'ama mesele tamamen duyulanla ilgilidir ve insanlar bunda kafası karışmış ve anlaşmazlık yaşamıştır.' Gerçekliğini, kalbi duyulanların anlamlarına uyandırmak ve arama, kaçma, sevgi ve nefret yoluyla ondan uzaklaştırmak olarak tanımlar. {cite:madarij-salikin-mukhtar-v1 p. 396} Sama' halkı üç tipe ayrılır: doğaları ve arzularıyla işitenler, halleri ve inançlarıyla duyanlar ve Allah'la işitenler. Sama' üzerindeki hükmün ancak işitenin biçimini, gerçeğini, nedenini ve meyvesini bilmekle netleştiğini ortaya koyarlar. {cite:madarij-salikin-mukhtar-v1 p. 396}
+
+## Üç tane fazlasıyla duyulabilir
+İbn el-Kayyim işitmeyi üç türe ayırır: Allah'ın sevdiği, hoşuna gittiği ve emreder; kendisinden dönenleri nefret eden, yasaklayan ve öven işit; ve ne sevilen ne de nefret edilen caiz işit. Onun hükmü, sahneler ve yiyecekler gibi tüm mücaiz şeylerin hükmüdür. Üçüncüde şöyle der: 'Bu üçüncü türü yasaklayan, Allah hakkında bilmediği bir şeyi söylemiştir.' Bunu bir din ve O'na yaklaşma aracı haline getiren kişi, 'Allah'ın izin vermediği bir dini yasalaştırmıştır.' {cite:madarij-salikin-mukhtar-v1 p. 397}
+
+## Övgüye Değer Sama: Kur'an'ı Dinlemek
+İbn el-Kayyim, Allah'ın övdüğü işitmenin, O'nun üç tür ayetini duymak olduğuna inanır: kulaktan algı duyma, anlayış ve aklı dinleme, anlama ve kabulü duymak, her biri için ayetler atıfta bulunulmuştur. {cite:madarij-salikin-mukhtar-v1 p. 397} Ve muhtemelen bir ayette yer alıyor [[passage/quran-9-47|Tövbe 47]] 'Onları duydular' ifadesi, casus değil, müdahale edenler ve müdahale edenler anlamına gelir ve bu açıklamayla açıklanır. {cite:madarij-salikin-mukhtar-v1 p. 398} Sonra belirli olanı dinlemenin, Kur'an'ı algıda, anlamada, tereddütte ve yanıtta dinlemek olduğunu, "ayetleri dinlediğini, ayetleri değil" der. {cite:madarij-salikin-mukhtar-v1 p. 398}
+
+## Kınanacak dinleme
+İbn el-Kayyim, kalbe ve dine zarar veren her şeyi dinlemeyi, reddetmek veya dikkate almak dışında tüm yalanlar gibi, ve ondan yüz çeviren Allah'ı öven boş konuşmaları suçlu sayar. Muhammed bin Hanefiye'den boş konuşmanın şarkı söylemek olduğunu ve [[person/abdullah-ibn-masud|İbn Mes'ud]] Şarkı söylemenin, suyun erik gibi kalpte ikiyüzlülüğü büyüttüğü söylemi. Kur'an'ın şarkı söyleyenlere ne kadar ağır geldiğini anlatır ve okunurken kapıyı çalan, şarkı söylerken dans edenleri eleştiren ayetler ekler. {cite:madarij-salikin-mukhtar-v1 p. 400} Ayrıca 'Şeytanın Kur'an'ı' raporunu da aktarır ve editör, Al-Haythami'nin iletim zincirinin zayıf ve marfu (marfu) olduğunu belirtir. {cite:madarij-salikin-mukhtar-v1 p. 399} {cite:madarij-salikin-mukhtar-v1 p. 400}
+
+## İzin verenin anlattıkları argümanlar
+İbn el-Kayyim, dinlemenin halk aracılığıyla olduğunu ve bunun mücaiz olduğunu savunanların argümanlarını sıralar, ancak bunu söyleyenlerin adını vermez: doğal olarak türevdir, hoş bir ses bir nimettir, Allah'ın en çok reddedilen sesleri kınadığı, cennet halkının mutluluğunu anlattığı ve Kur'an'ı söylerken Peygamber'in sesini övmekle ilgili hadisler vardır [[person/abu-musa-al-ashari|Ebu Musa]]. {cite:madarij-salikin-mukhtar-v1 p. 401} Ve Peygamber'in Şükrüsü [[person/aisha|Aisha]] Bayram gününde iki hizmetçinin şarkılarını söyledi, düğünlerde keyif alma izni aldı ve hendek günü ile Haybar'dan gelirken rayazları dinledi. {cite:madarij-salikin-mukhtar-v1 p. 402} ve Umayyah ibn Ebi Salt'ın şiirinden esinlenen Ka'b bin Zuhayr şiirini dinlemek ve onun için yaptığı yalvarış [[person/hassan-ibn-thabit|Hassan]]. {cite:madarij-salikin-mukhtar-v1 p. 403} {cite:madarij-salikin-mukhtar-v1 p. 404} Ve İbn Ömer, Abdullah ibn Ca'far ve Medine halkının buna izin verdiğini, azizlerin katıldığını, kuş seslerinin oybirliğiyle kabul edildiğini, işitmenin sevdiğine sevgi uyandırdığını, böylece merhametli olanlara yaklaştığını ve kulağın zevkinin göz, koku ve ağız zevki gibi olduğunu belirtti. {cite:madarij-salikin-mukhtar-v1 p. 404} Araştırmacı, bu hadisleri doğrulamak için iki Sahih ve diğerlerine dayanır ve kendi tefsirine atıfta bulunur [[work/talbis-iblis|Şeytanın Sosu]]. {cite:madarij-salikin-mukhtar-v1 p. 402}
+
+## İbn el-Kayyim'in Cevabı
+İbn al-Qayyim bu argümanları "amaçlanan amaçtan kopuk ve tartışma noktasından itibarsız" olarak görür: bir şeyin kullanılması onun izin edilebilirliğini veya yasaklandığını göstermez, çünkü zevk beş hükümün tamamında vardır ve bunu, yasak şeylerin caizliğini zevkleriyle çıkaranlarla karşılaştırır. {cite:madarij-salikin-mukhtar-v1 p. 404} Şiirin genel konuşma veya dinleme açısından yasaklanmadığına inanır, bu nedenle şiirin hadislerinden çıkarılan mantık tartışmaz ve enstrümanlarla şarkı söylemeyi kuş sesleriyle karşılaştırmak, dizede anlatılan benzetme ile aynı türden bir şey taşımaktadır [[passage/quran-2-275|El-Bakara 275]] Tefecilikle satanlar için. {cite:madarij-salikin-mukhtar-v1 p. 407}
+
+## Üç Kural
+İbn el-Kayyim, anlaşmazlığı çözdüğünü söylediği üç kural koyar:
+1. **Zevk ve durum yargılanır, yargılanmaz**: Zevkleri ve erdemleri metinlerin hükmesine dönüştürmenin, halkın yolunu bozanlar için yanlış yönlendirme kaynağı olduğuna ve zevklerin inançlara göre farklılık gösterdiğine inanır. Her grubun, varoluşun birliğini savunanlar ve Hristiyanlar bile, kendi zevki ve durumu vardır, bu yüzden gerçekler onlar tarafından tartılmaz; şunu belirtir [[person/umar-ibn-al-khattab|yaş]], ve o, Peygamber'den bir şey duyduğunda zevkine dikkat etmeyen 'hadis âlimi' idi. {cite:madarij-salikin-mukhtar-v1 p. 407} {cite:madarij-salikin-mukhtar-v1 p. 408}
+2. **Tartışmalı olduğunda verilen cevap vahiydir**: Arındıran ve kabul eden kabul edilir, geçersiz kılınan reddedilir. {cite:madarij-salikin-mukhtar-v1 p. 408}
+3. **Zarara ve Meyveye Bakış**: Güçlü bir zarar içeren ve Allah'ın yasakladığı yola giden bir yoldur, bu yüzden yasak O'nun için kesindir. Kanuna Yeten'in az miktarda sarhoş maddeyi yasakladığını çünkü bunun çok şeye yol açtığını savunur. İbn Mes'den şarkı söylemenin 'Rukyah al-Zina' (Ruqyah al-Zina) olduğunu anlatır. {cite:madarij-salikin-mukhtar-v1 p. 409}
+
+Tüm bu hükümler, burada kendisine atfedilen İbn el-Kayyim'in kitabında sunulan hükümlerdir.
+
+## Burada bahsedilmeyenler
+İşitme notları henüz eklenmedi [[person/al-ansari-al-harawi-abd-allah|El-Haravi]] İbn el-Kayyim bunu açıkladı (sayfa 412–414), ne "şarkı söylemenin sınavı, ağıtın sınavından daha büyüktür" ifadesini, ne kitaplarını kabul edenlerin Sufiler arasındaki Sama'sı incelemelerini ne de fıkhâr mezheblerinin şarkı söyleme konusundaki görüşlerini kendi kaynaklarından aldığı gibi.

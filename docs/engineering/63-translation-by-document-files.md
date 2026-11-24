@@ -138,6 +138,10 @@ Working folders under `local-mt-work/word-tr-id/` (gitignored): `prose/` (100 fi
 - `num`: everything as 10-digit numbers (`8000000001`, `8100000001`, `8200000001`).
 - `tags`: literal `<xN>label</xN>` text and `[[N]]` in plain text.
 
+- `frag` (**use this for every Microsoft Word run**, measured 23 November 2026): paragraph-per-fragment. Nothing is put inside a line that Word must hand back. Each stretch of text, and each link label, is a Word paragraph of its own; citations `[[N]]` and punctuation-only stretches are not sent at all. The map stores, per line, the order of its pieces (`spec`), and `import_gt.py` stitches the line back by position and then runs the usual checks. It relies on the one thing Word keeps reliably, paragraph boundaries.
+
+Measured on the same Turkish records (Arabic source, Word for Mac): the `link` scheme gave 5 of 226 records through the importer; `tags` on the hard retry set gave 13 of 40; `frag` gave 23 of 25 (the two refusals were "emphasis marks changed"). In `tags` and `link` Word dropped or garbled `[[N]]` tokens (1,068 of 1,136 survived, but only 363 of 406 paragraphs kept all of theirs); marking tokens as no-language text (`w:lang zxx`) changed nothing. Microsoft's documentation does not say how Translate Document treats hidden text, bookmarks or content controls, so none of those is relied on. Build with `build_gt.py --scheme frag`; the importer detects it from the map. Not yet read by a human: whether a sentence split around a link reads well in the target language.
+
 Word's Translate Document drops `w:anchor` ids and merges `#### n ####` paragraphs on hard records (long tafsir pages, dense link text): the importer then reports `markers lost` and the record is retried. Round two repackages only the failed ids (`--ids-file`); round three rebuilt the same ids with `--scheme tags` for Google, which recovered roughly two-thirds of what Word had lost. Both importers log per-record results so the failed-ids files can be rebuilt at any point.
 
 ## Reading-level records (`--leveled`)

@@ -1,0 +1,19 @@
+---
+id: concept/al-ithmid
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-23), draft translation']
+status: {review: draft}
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-23, source: content/ar/concept/al-ithmid.md}
+---
+## Özet
+El-İthamad siyah kohl taşıdır ve İbn Kayyim al-Jawziyyah en iyisinin İsfahan'dan getirilen taş olduğunu söyler {cite:zad-al-maad p.695}. Ebu Davud, Peygamber'in uyurken 'İtmed'in (Yükselen Yağ) okunmasını emrettiğini, 'Oruç tutan kişi bundan sakınsın' dediğini rivayet etmiştir. {cite:sunan-abi-dawud 2377}, ve İbn Majah şöyle anlattı: 'Ondan uzak durun, çünkü görüntüyü temizler ve saç çıkarır.' {cite:sunan-ibn-majah 3495}. İbn el-Kayyim, köhle (kohl tedavileri) sayısından bahseder: her gözde üç, sağ gözde üç, sol gözde ikişer ve Ahmed ile diğerlerinin görüşüne göre tek sayı hakkında iki görüş bildirir {cite:zad-al-maad p.695} {cite:zad-al-maad p.696}.
+
+## Haberler
+Ebu Davud, babasından ve büyükbabasından Al-Nu'man ibn Ma'bad ibn Hawdha'dan Peygamber'in 'İtmed'i (uyurken 'İsmed') kullanmasını emrettiğini ve 'Oruç tutan kişi ondan sakınsın' dediğini ve 'Mervah'in miskle kokulandırıldığını, Ebu Übeyd'in açıkladığı gibi anlatır. {cite:sunan-abi-dawud 2377} {cite:zad-al-maad p.695}. Ve babasından Salim'den İbn Majah'da: "İtmed'i gözlemlemelisin, çünkü gözü açar ve saç üretir." {cite:sunan-ibn-majah 3495}, ve İbn Abbas'tan: "Ahal'ınızın en iyisi İthamad'dır; gözleri temizler ve saçları uzatır." {cite:sunan-ibn-majah 3497} [[passage/tirmidhi-api-2048|El-Tirmidi 2048]]. İbn el-Kayyim ayrıca Peygamber'in her gözüne üç kez sürme taktığı bir kohl (kohl) olduğunu belirtir ve araştırmacı zincirinin zayıflığına dikkat çeker. İbn Abbas'tan al-Tirmidi'de, Peygamber köşeyi sağda üç kez, başlayarak ve sona ererek solda iki kez takardı {cite:zad-al-maad p.695} {cite:zad-al-maad p.696}.
+
+## Kolon ve Tendon Sayısı
+İbn el-Kayyim, Ebu Davud'dan şöyle der: 'Kim kahlsa, bıraksın,' ve araştırmacı, zincirinde bilinmeyen kaynaklar olduğunu belirtir {cite:zad-al-maad p.696}. Sonra soruyor: Witr her iki göz için mi, yani bu durumda üç ve bu iki göz var ve sağ göz baştan ve tercihe göre daha mı tercih edilir, yoksa her göze göre mi, yani burada üç, şu gözde üç mu var? Bunların Ahmed ve diğerlerinin okulunda iki görüş olduğunu söylüyor {cite:zad-al-maad p.696}. Bu anlaşmazlık kesinlikle anlatılıyor.
+
+## Sürme ve ithamad'ın onun için faydaları
+İbn al-Qayyim, köhlin gözün sağlığını koruduğunu, görünür ışığı güçlendirdiğini, onu netleştirdiğini, kirleri yatıştırdığını ve bazı türlerinde süsleme olarak kullanıldığını söyler; ayrıca uyku sırasında ayrıca gözün sürme ile kaplı olduğunu ve zararlı hareket ile doğanın hizmetinden sonra gözün durgunluğunu sağladığını belirtir. Ve buradan çıkan 'ithmed'in özel bir özelliği vardır. {cite:zad-al-maad p.695}. El-İthamd, Hamza mektubunda İsfahan'dan getirilmiş, en iyisi olan ve aynı zamanda Mağrip'ten getirilen siyah bir sürme taşı olarak tanımlanır. En iyisi çabuk parçalanır, içi hafif ve pürüzsüzdür, kirsiz {cite:zad-al-maad p.695}. Mizaç soğuk ve kurudur, gözleri güçlendirir, yaraları iyileştirir, kiri arındırır ve temizler. İnce su bazlı bal ile uygulandığında baş ağrılarını hafifletir. Onun için, özellikle misk eklenirse görüşü zayıflayan şeyhler için gözler için en iyi kohl olarak kabul edilir. {cite:zad-al-maad p.696} [[concept/asal|Bal]]. Al-Ghafiqi'den ayrıca, trüf suyunun göz için en uygun ilaç olduğu, yoğurtulup kohlal haline geldiği bildirilmektedir {cite:zad-al-maad p.726} [[concept/al-kamaa|trüf mantarı]]. Bunlar, İbn el-Kayyim'in kendi döneminde bilinen tıp hakkındaki ifadeleridir; müze tarafından aktarılmış, hiçbiri tarafından tavsiye edilmemiştir. Daha geniş bir konu için bkz. [[concept/al-tibb-al-nabawi|Kehanet tıp]].
