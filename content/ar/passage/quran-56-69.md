@@ -3,6 +3,11 @@ id: passage/quran-56-69
 lang: ar
 source_lang: ar
 translators: []
+provenance:
+  generated_by: "Claude Code (Sonnet 5.5 session)"
+  model: claude-sonnet-5-5
+  run: altafsir-tabari-batch-11-2026-11-24
+  source: source/altafsir-tabari
 ---
 
 ## موجز
@@ -10,3 +15,7 @@ translators: []
 
 ## موضعها
 موضعها: الآية 69 من أصل 96 آية في السورة. النص محفوظ من مصحف تنزيل المجمّد ولا يُعاد كتابته هنا.
+
+## تفسير الطبري
+
+يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل الآيات [[passage/quran-56-68|56:68]] إلى [[passage/quran-56-70|56:70]]، وخلاصتها: يقول الطبري إن الله يسأل الناس عن الماء الذي يشربونه: أأنتم أنزلتموه من المزن أي السحاب، ويروي عن مجاهد وقتادة أنه السحاب، أم نحن المنزلون، ولو شاء جعله أجاجاً أي مالحاً فلولا يشكرون. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=56&tAyahNo=69&tDisplay=yes&UserProfile=0&LanguageId=1

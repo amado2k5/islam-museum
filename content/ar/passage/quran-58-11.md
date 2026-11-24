@@ -3,6 +3,11 @@ id: passage/quran-58-11
 lang: ar
 source_lang: ar
 translators: []
+provenance:
+  generated_by: "Claude Code (Sonnet 5.5 session)"
+  model: claude-sonnet-5-5
+  run: altafsir-tabari-batch-11-2026-11-24
+  source: source/altafsir-tabari
 ---
 
 ## موجز
@@ -10,3 +15,7 @@ translators: []
 
 ## موضعها
 موضعها: الآية 11 من أصل 22 آية في السورة. النص محفوظ من مصحف تنزيل المجمّد ولا يُعاد كتابته هنا.
+
+## تفسير الطبري
+
+يقول الطبري إن الله يأمر المؤمنين إذا قيل لهم تفسّحوا في المجالس أن يتوسعوا، من المكان الفسيح أي الواسع، ويذكر اختلافهم في المجلس المقصود؛ فقال بعضهم مجلس النبي خاصة، ويروي ذلك عن مجاهد، ثم يذكر «انشزوا فانشزوا» ورفع الله الذين آمنوا والذين أوتوا العلم درجات. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=58&tAyahNo=11&tDisplay=yes&UserProfile=0&LanguageId=1
