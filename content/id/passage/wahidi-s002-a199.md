@@ -10,5 +10,12 @@ Riwayat al-Wahidi tentang sebab turunnya al-Baqara 2:199, diriwayatkan dari gene
 
 The verse, in al-Wahidi's heading: «ثم أفيضوا من حيث أفاض الناس».
 
+## Laporan lengkap (teks sumber Arab)
+<div dir="rtl" lang="ar">
+
+تفيض من جمع من المشعر الحرام، فأنزل الله: {ثم أفيضوا من حيث أفاض
+
+</div>
+
 ## Place in the museum
 Sumber: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an al-Wahidi]]. Ayatnya: [[passage/quran-2-199|Al-Qur'an 2-199]].

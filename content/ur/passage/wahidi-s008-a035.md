@@ -10,5 +10,12 @@ al-Anfal 8:35 کے سببِ نزول پر الواحدی کی روایت — «�
 
 The verse, in al-Wahidi's heading: «وما كان صلاتهم عند البيت ... .».
 
+## مکمل روایت ⁦(عربی ماخذ متن)⁩
+<div dir="rtl" lang="ar">
+
+صفيرهم، ويضعون خدودهم بالأرض، فنزلت هذه الآية.
+
+</div>
+
 ## Place in the museum
 ماخذ: [[work/asbab-nuzul-wahidi|الواحدی کی اسباب نزول القرآن]]۔ آیت: [[passage/quran-8-35|قرآن 8-35]]۔

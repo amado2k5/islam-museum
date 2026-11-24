@@ -10,5 +10,12 @@ at-Talaq 65:1 ayetinin nüzül sebebi hakkında El-Vahidi'nin rivayeti; Esbab N�
 
 The verse, in al-Wahidi's heading: «يا أيها النبي إذا طلقتم النساء فطلقوهن لعدتهن».
 
+## Tam rivayet (Arapça kaynak metin)
+<div dir="rtl" lang="ar">
+
+روى قتادة عن أنس قال: طلق رسول الله- حفصة، فأنزل
+
+</div>
+
 ## Place in the museum
 Kaynak: [[work/asbab-nuzul-wahidi|El-Vahidi'nin Esbab Nüzul el-Kur'an'ı]]. Ayet: [[passage/quran-65-1|Kur'an 65-1]].

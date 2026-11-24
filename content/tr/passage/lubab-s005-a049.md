@@ -10,5 +10,12 @@ al-Ma'ida 5:49 ayetinin nüzul sebebi hakkında es-Suyuti'nin rivayeti; Lübabü
 
 The verse, in al-Suyuti's heading: «وأن احكم بينهم بما أنزل الله روى ابن».
 
+## Tam rivayet (Arapça kaynak metin)
+<div dir="rtl" lang="ar">
+
+وأن احكم بينهم بما أنزل الله روى ابن إسحق عن ابن عباس قال قال كعب بن أسيد وعبد الله بن صوريا وشاس بن قيس اذهبوا بنا إلى محمد لعلنا نفتنه عن دينه فجاؤا فقالوا يا محمد إنك قد عرفت أنا أحبار يهود وأشرافهم وساداتهم وأنا
+
+</div>
+
 ## Place in the museum
 Kaynak: [[work/lubab-al-nuqul-suyuti|es-Suyuti'nin Lubab al-Nuqul]]. Ayet: [[passage/quran-5-49|Kur'an 5-49]].

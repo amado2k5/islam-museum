@@ -10,5 +10,12 @@ Informe de al-Wahidi sobre la ocasión de revelación de Al 'Imran 3:79, transmi
 
 The verse, in al-Wahidi's heading: «ما كان لبشر أن يؤتيه الله».
 
+## Informe completo (texto fuente en árabe)
+<div dir="rtl" lang="ar">
+
+قال الضحاك ومقاتل: نزلت في نصارى نجران عبدوا عيسى، وقوله: {لبشر} يعني
+
+</div>
+
 ## Place in the museum
 Fuente: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an de al-Wahidi]]. El versículo: [[passage/quran-3-79|Corán 3-79]].

@@ -10,5 +10,12 @@ Informe de al-Wahidi sobre la ocasión de revelación de Al 'Imran 3:110, transm
 
 The verse, in al-Wahidi's heading: «كنتم خير أمة».
 
+## Informe completo (texto fuente en árabe)
+<div dir="rtl" lang="ar">
+
+قال عكرمة ومقاتل: نزلت في ابن مسعود وأبي بن كعب ومعاذ بن جبل وسالم
+
+</div>
+
 ## Place in the museum
 Fuente: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an de al-Wahidi]]. El versículo: [[passage/quran-3-110|Corán 3-110]].

@@ -1,0 +1,36 @@
+id: passage/lubab-s022-a003
+class: passage
+unit: chapter
+work: work/lubab-al-nuqul-suyuti
+ref: "22:3"
+sura: 22
+aya: 3
+label:
+ ar: "al-Hajj 22:3 — سبب النزول ⁦(لباب النقول)⁩"
+ en: "al-Hajj 22:3 — occasion of revelation"
+ fr: "al-Hajj 22:3 — circonstance de révélation"
+ es: "al-Hajj 22:3 — ocasión de revelación"
+ ur: "al-Hajj 22:3 — سببِ نزول"
+ tr: "al-Hajj 22:3 — nüzul sebebi"
+ id: "al-Hajj 22:3 — sebab turunnya wahyu"
+text: "ومن الناس من يجادل الآية أخرج ابن أبي حاتم عن أبي مالك في قوله ومن الناس من يجادل في الله قال نزلت في النضر بن الحرث"
+summary:
+ ar: "رواية السيوطي في سبب نزول al-Hajj 22:3 من «لباب النقول في أسباب النزول» ⁦(شاملة 2247)⁩"
+ en: "Al-Suyuti's report on the occasion of revelation of al-Hajj 22:3, in Lubab al-Nuqul fi Asbab al-Nuzul (Shamela 2247)"
+ es: "Informe de al-Suyuti sobre la ocasión de revelación de al-Hajj 22:3, en Lubab al-Nuqul fi Asbab al-Nuzul (Shamela 2247)"
+ fr: "Rapport d'al-Suyuti sur la circonstance de révélation de al-Hajj 22:3, dans Lubab al-Nuqul fi Asbab al-Nuzul (Shamela 2247)"
+ ur: "al-Hajj 22:3 کے سببِ نزول پر سیوطی کی روایت — «لباب النقول» ⁦(شاملة 2247)⁩"
+ tr: "al-Hajj 22:3 ayetinin nüzul sebebi hakkında es-Suyuti'nin rivayeti; Lübabü'n-Nükul'den (Şamile 2247)"
+ id: "Riwayat as-Suyuti tentang sebab turunnya al-Hajj 22:3, dalam Lubab al-Nuqul fi Asbab an-Nuzul (Shamela 2247)"
+relations:
+ - { type: mentions, target: concept/asbab-al-nuzul, sources: [source/lubab-nuqul-shamela-2247] }
+ - { type: related_to, target: passage/quran-22-3, sources: [source/lubab-nuqul-shamela-2247] }
+
+provenance:
+ layer: own-research
+ source: "lubab-nuqul-shamela-2247 — 22:3 — asbab-nuzul-browser harvest"
+ generated_by: "Devin (SWE-2 Medium)"
+ run: asbab-nuzul-browser-harvest
+tags: [nuzul-browser, nuzul-books]
+sources: [source/lubab-nuqul-shamela-2247]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

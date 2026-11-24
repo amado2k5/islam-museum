@@ -10,5 +10,12 @@ Riwayat as-Suyuti tentang sebab turunnya al-Qasas 28:61, dalam Lubab al-Nuqul fi
 
 The verse, in al-Suyuti's heading: «أفمن وعدناه».
 
+## Laporan lengkap (teks sumber Arab)
+<div dir="rtl" lang="ar">
+
+أفمن وعدناه الآية أخرج ابن جرير عن مجاهد في قوله أفمن وعدناه الآية نقال زلت في النبي وفي أبي جهل بن هشام وأخرج من وجه آخر عنه أنها نزلت في حمزة وأبي جهل
+
+</div>
+
 ## Place in the museum
 Sumber: [[work/lubab-al-nuqul-suyuti|as-Suyuti Lubab al-Nuqul]]. Ayatnya: [[passage/quran-28-61|Al-Qur'an 28-61]].

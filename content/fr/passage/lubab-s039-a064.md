@@ -10,5 +10,12 @@ Rapport d'al-Suyuti sur la circonstance de révélation de az-Zumar 39:64, dans 
 
 The verse, in al-Suyuti's heading: «قل أفغير الله تأمروني أعبد».
 
+## Rapport complet (texte source arabe)
+<div dir="rtl" lang="ar">
+
+قل أفغير الله تأمروني أعبد الآية سيأتي سبب نزولها في سورة الكافرون وأخرج البيهقي في الدلائل عن الحسن البصري قال قال المشركون للنبي أتضلل آباءك وأجدادك يا محمد فأنزل الله قل أفغير الله تأمروني أعبد إلى قوله
+
+</div>
+
 ## Place in the museum
 Source : [[work/lubab-al-nuqul-suyuti|d'al-Suyuti Lubab al-Nuqul]]. Le verset: [[passage/quran-39-64|Coran 39-64]].

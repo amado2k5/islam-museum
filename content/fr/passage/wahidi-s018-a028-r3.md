@@ -10,5 +10,12 @@ Rapport d'al-Wahidi sur la circonstance de révélation de al-Kahf 18:28, transm
 
 The verse, in al-Wahidi's heading: «ولا تطع من أغفلنا قلبه عن ذكرنا».
 
+## Rapport complet (texte source arabe)
+<div dir="rtl" lang="ar">
+
+قال: نزلت في أمية بن خلف الجمحي، وذلك أنه دعا النبي- إلى أمر كرهه من طرد الفقراء عنه وتقريب صناديد أهل مكة، فأنزل الله
+
+</div>
+
 ## Place in the museum
 Source : [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an d'al-Wahidi]]. Le verset : [[passage/quran-18-28|Coran 18-28]].

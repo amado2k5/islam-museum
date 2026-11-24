@@ -10,5 +10,12 @@ Informe de al-Suyuti sobre la ocasión de revelación de al-Baqara 2:214, en Lub
 
 The verse, in al-Suyuti's heading: «أم حسبتم أن تدخلوا الجنة».
 
+## Informe completo (texto fuente en árabe)
+<div dir="rtl" lang="ar">
+
+أم حسبتم أن تدخلوا الجنة الآية قال عبد الرزاق أنبانا معمر عن قتاده قال نزلت هذه الآية في يوم الأحزاب أصاب النبي يومئذ بلاء وحصر
+
+</div>
+
 ## Place in the museum
 Fuente: [[work/lubab-al-nuqul-suyuti|de al-Suyuti Lubab al-Nuqul]]. El versículo: [[passage/quran-2-214|Corán 2-214]].

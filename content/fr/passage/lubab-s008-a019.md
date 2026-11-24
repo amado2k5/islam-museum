@@ -10,5 +10,12 @@ Rapport d'al-Suyuti sur la circonstance de révélation de al-Anfal 8:19, dans L
 
 The verse, in al-Suyuti's heading: «إن تستفتحوا».
 
+## Rapport complet (texte source arabe)
+<div dir="rtl" lang="ar">
+
+إن تستفتحوا الآية روى الحاكم عن عبد الله بن ثعلبة ابن صغير قال كان المستفتح أبا جهل فإنه قال حين التقى القوم اللهم أينا كان أقطع لرحم وأتى بما لا يعرف فاحنه الغداة وكان ذلك استفتاحا فأنزل الله إن تستفتحوا فقد جاءكم الفتح إلى قوله
+
+</div>
+
 ## Place in the museum
 Source : [[work/lubab-al-nuqul-suyuti|d'al-Suyuti Lubab al-Nuqul]]. Le verset: [[passage/quran-8-19|Coran 8-19]].

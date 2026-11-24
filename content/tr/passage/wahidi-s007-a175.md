@@ -10,5 +10,12 @@ al-A'raf 7:175 ayetinin nüzül sebebi hakkında El-Vahidi'nin rivayeti; Esbab N
 
 The verse, in al-Wahidi's heading: «واتل عليهم نبأ الذي آتيناه آياتنا فانسلخ منها».
 
+## Tam rivayet (Arapça kaynak metin)
+<div dir="rtl" lang="ar">
+
+قال ابن مسعود: نزلت في بلعم بن أبره رجل من بني إسرائيل.
+
+</div>
+
 ## Place in the museum
 Kaynak: [[work/asbab-nuzul-wahidi|El-Vahidi'nin Esbab Nüzul el-Kur'an'ı]]. Ayet: [[passage/quran-7-175|Kur'an 7-175]].

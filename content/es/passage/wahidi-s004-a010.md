@@ -10,5 +10,12 @@ Informe de al-Wahidi sobre la ocasión de revelación de an-Nisa 4:10, transmiti
 
 The verse, in al-Wahidi's heading: «إن الذين يأكلون أموال اليتامى ظلما».
 
+## Informe completo (texto fuente en árabe)
+<div dir="rtl" lang="ar">
+
+قال مقاتل بن حيان: نزلت في رجل من غطفان يقال له: مرثد بن زيد ولي مال
+
+</div>
+
 ## Place in the museum
 Fuente: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an de al-Wahidi]]. El versículo: [[passage/quran-4-10|Corán 4-10]].

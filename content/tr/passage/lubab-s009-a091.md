@@ -10,5 +10,12 @@ Bara'a (at-Tawba) 9:91 ayetinin nüzul sebebi hakkında es-Suyuti'nin rivayeti; 
 
 The verse, in al-Suyuti's heading: «ليس على الضعفاء».
 
+## Tam rivayet (Arapça kaynak metin)
+<div dir="rtl" lang="ar">
+
+ليس على الضعفاء الآية أخرج ابن أبي حاتم عن زيد بن ثابت قال كنت أكتب لرسول الله فكنت أكتب براءة فآني لواضع القلم على أذني إذ أمرنا بالقتال فجعل رسول الله ينظر ما ينزل عليه إذ جاءه
+
+</div>
+
 ## Place in the museum
 Kaynak: [[work/lubab-al-nuqul-suyuti|es-Suyuti'nin Lubab al-Nuqul]]. Ayet: [[passage/quran-9-91|Kur'an 9-91]].

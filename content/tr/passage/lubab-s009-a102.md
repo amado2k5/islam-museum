@@ -10,5 +10,12 @@ Bara'a (at-Tawba) 9:102 ayetinin nüzul sebebi hakkında es-Suyuti'nin rivayeti;
 
 The verse, in al-Suyuti's heading: «وآخرون اعترفوا».
 
+## Tam rivayet (Arapça kaynak metin)
+<div dir="rtl" lang="ar">
+
+وآخرون اعترفوا الآية أخرج ابن مردويه وابن أبي حاتم من طريق العوفي عن ابن عباس قال غزا رسول الله فتخلف أبو لبابة وخمسة معه ثم أن أبا لبابة ورجلين معه تفكروا وندموا وأيقنوا بالهلاك وقالوا نحن في الظلال والطمأنينة مع النساء
+
+</div>
+
 ## Place in the museum
 Kaynak: [[work/lubab-al-nuqul-suyuti|es-Suyuti'nin Lubab al-Nuqul]]. Ayet: [[passage/quran-9-102|Kur'an 9-102]].

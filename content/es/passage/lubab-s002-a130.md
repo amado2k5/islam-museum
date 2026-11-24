@@ -10,5 +10,12 @@ Informe de al-Suyuti sobre la ocasión de revelación de al-Baqara 2:130, en Lub
 
 The verse, in al-Suyuti's heading: «ومن يرغب عن ملة إبراهيم».
 
+## Informe completo (texto fuente en árabe)
+<div dir="rtl" lang="ar">
+
+ومن يرغب عن ملة إبراهيم الآية قال ابن عيينة روي أن عبد الله بن سلام دعا ابني أخي سلمة ومهاجرا إلى الإسلام فقال لهما قد علمتما أن الله تعالى قال في التوراة إني باعث من ولد إسماعيل نبيا اسمه أحمد فمن آمن به فقد اهتدى
+
+</div>
+
 ## Place in the museum
 Fuente: [[work/lubab-al-nuqul-suyuti|de al-Suyuti Lubab al-Nuqul]]. El versículo: [[passage/quran-2-130|Corán 2-130]].

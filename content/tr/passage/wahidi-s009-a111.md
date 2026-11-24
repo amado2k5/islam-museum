@@ -10,5 +10,12 @@ Bara'a (at-Tawba) 9:111 ayetinin nüzül sebebi hakkında El-Vahidi'nin rivayeti
 
 The verse, in al-Wahidi's heading: «إن الله اشترى من المؤمنين أنفسهم وأموالهم».
 
+## Tam rivayet (Arapça kaynak metin)
+<div dir="rtl" lang="ar">
+
+قالوا: ربح البيع لا نقيل ولا نستقيل، فنزلت
+
+</div>
+
 ## Place in the museum
 Kaynak: [[work/asbab-nuzul-wahidi|El-Vahidi'nin Esbab Nüzul el-Kur'an'ı]]. Ayet: [[passage/quran-9-111|Kur'an 9-111]].

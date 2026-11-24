@@ -10,5 +10,12 @@ Informe de al-Wahidi sobre la ocasión de revelación de al-Baqara 2:8, transmit
 
 The verse, in al-Wahidi's heading: «ومن الناس من يشري نفسه ابتغاء مرضاة الله».
 
+## Informe completo (texto fuente en árabe)
+<div dir="rtl" lang="ar">
+
+وسلم - فاتبعه نفر من قريش من المشركين، فنزل عن راحلته ونثر ما في كنانته
+
+</div>
+
 ## Place in the museum
 Fuente: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an de al-Wahidi]]. El versículo: [[passage/quran-2-8|Corán 2-8]].

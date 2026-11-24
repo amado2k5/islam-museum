@@ -10,5 +10,12 @@ Rapport d'al-Suyuti sur la circonstance de révélation de al-Hijr 15:45, dans L
 
 The verse, in al-Suyuti's heading: «إن المتقين».
 
+## Rapport complet (texte source arabe)
+<div dir="rtl" lang="ar">
+
+إن المتقين الآية أخرج الثعلبي عن سلمان الفارسي لما سمع
+
+</div>
+
 ## Place in the museum
 Source : [[work/lubab-al-nuqul-suyuti|d'al-Suyuti Lubab al-Nuqul]]. Le verset: [[passage/quran-15-45|Coran 15-45]].

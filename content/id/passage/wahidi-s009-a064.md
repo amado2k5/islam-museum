@@ -10,5 +10,12 @@ Riwayat al-Wahidi tentang sebab turunnya Bara'a (at-Tawba) 9:64, diriwayatkan da
 
 The verse, in al-Wahidi's heading: «يحذر المنافقون أن تنزل عليهم سورة تنبئهم».
 
+## Laporan lengkap (teks sumber Arab)
+<div dir="rtl" lang="ar">
+
+قال السدي: قال بعض المنافقين: والله لوددت أني قدمت فجلدت مائة ولا ينزل
+
+</div>
+
 ## Place in the museum
 Sumber: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an al-Wahidi]]. Ayatnya: [[passage/quran-9-64|Al-Qur'an 9-64]].

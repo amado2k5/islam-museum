@@ -10,5 +10,12 @@ Riwayat al-Wahidi tentang sebab turunnya al-Baqara 2:168, diriwayatkan dari gene
 
 The verse, in al-Wahidi's heading: «يا أيها الناس كلوا مما في الأرض حلالا طيبا».
 
+## Laporan lengkap (teks sumber Arab)
+<div dir="rtl" lang="ar">
+
+قال الكلبي عن أبي صالح: نزلت في ثقيف وخزاعة وعامر بن صعصعة حرموا على
+
+</div>
+
 ## Place in the museum
 Sumber: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an al-Wahidi]]. Ayatnya: [[passage/quran-2-168|Al-Qur'an 2-168]].

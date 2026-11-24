@@ -10,5 +10,12 @@ Informe de al-Wahidi sobre la ocasión de revelación de an-Nisa 4:136, transmit
 
 The verse, in al-Wahidi's heading: «يا أيها الذين آمنوا إذا ضربتم في سبيل الله فتبينوا».
 
+## Informe completo (texto fuente en árabe)
+<div dir="rtl" lang="ar">
+
+فنزلت هذه الآية: {ولا تقولوا لمن ألقى إليكم السلام لست مؤمنا تبتغون عرض
+
+</div>
+
 ## Place in the museum
 Fuente: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an de al-Wahidi]]. El versículo: [[passage/quran-4-136|Corán 4-136]].

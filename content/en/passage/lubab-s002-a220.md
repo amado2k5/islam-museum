@@ -10,5 +10,12 @@ Al-Suyuti's report on the occasion of revelation of al-Baqara 2:220, in Lubab al
 
 The verse, in al-Suyuti's heading: «ويسألونك عن اليتامى».
 
+## Full report (Arabic source text)
+<div dir="rtl" lang="ar">
+
+ويسألونك عن اليتامى أخرج أبو داود والنسائي والحاكم وغيرهم عن ابن عباس قال لما نزلت ولا تقربوا مال اليتيم إلا بالتي هي أحسن وإن الذين يأكلون أموال اليتامى [النساء: 10] الآية إنطلق من كان عنده يتيم فعزل طعامه من طعامه وشرابه من شرابه فجعل يفضل
+
+</div>
+
 ## Place in the museum
 Source: [[work/lubab-al-nuqul-suyuti|al-Suyuti's Lubab al-Nuqul]]. The verse: [[passage/quran-2-220|Qur'an 2-220]].

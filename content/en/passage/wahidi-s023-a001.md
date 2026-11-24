@@ -10,5 +10,12 @@ Al-Wahidi's report on the occasion of revelation of al-Mu'minun 23:1, narrated f
 
 The verse, in al-Wahidi's heading: «1».
 
+## Full report (Arabic source text)
+<div dir="rtl" lang="ar">
+
+عروة بن الزبير، عن عبد الرحمن بن عبد القاري قال: سمعت عمر بن الخطاب- يقول: كان إذا أنزل الوحي على رسول الله
+
+</div>
+
 ## Place in the museum
 Source: [[work/asbab-al-nuzul-wahidi|al-Wahidi's Asbab nuzul al-Qur'an]]. The verse: [[passage/quran-23-1|Qur'an 23-1]].

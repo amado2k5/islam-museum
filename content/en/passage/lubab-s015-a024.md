@@ -10,5 +10,12 @@ Al-Suyuti's report on the occasion of revelation of al-Hijr 15:24, in Lubab al-N
 
 The verse, in al-Suyuti's heading: «ولقد علمنا».
 
+## Full report (Arabic source text)
+<div dir="rtl" lang="ar">
+
+ولقد علمنا الآية روى الترمذي والنسائي والحاكم وغيرهم عن ابن عباس قال كانت امرأة تصلي خلف رسول الله حسناء من أحسن الناس فكان بعض القوم يتقدم حتى يكون في الصف الأول لئلا يراها ويستأخر بعضهم حتى يكون في الصف المؤخر فإذا
+
+</div>
+
 ## Place in the museum
 Source: [[work/lubab-al-nuqul-suyuti|al-Suyuti's Lubab al-Nuqul]]. The verse: [[passage/quran-15-24|Qur'an 15-24]].

@@ -10,5 +10,12 @@ Informe de al-Wahidi sobre la ocasión de revelación de al-Kahf 18:109, transmi
 
 The verse, in al-Wahidi's heading: «قل لو كان البحر مدادا لكلمات ربي».
 
+## Informe completo (texto fuente en árabe)
+<div dir="rtl" lang="ar">
+
+فقد أوتي خيرا كثيرا فنزلت: {قل لو كان البحر مدادا لكلمات ربي} الآية.
+
+</div>
+
 ## Place in the museum
 Fuente: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an de al-Wahidi]]. El versículo: [[passage/quran-18-109|Corán 18-109]].

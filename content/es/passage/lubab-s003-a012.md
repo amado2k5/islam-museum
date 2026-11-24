@@ -10,5 +10,12 @@ Informe de al-Suyuti sobre la ocasión de revelación de Al 'Imran 3:12, en Luba
 
 The verse, in al-Suyuti's heading: «قل للذين كفروا ستغلبون روى أبو داود في».
 
+## Informe completo (texto fuente en árabe)
+<div dir="rtl" lang="ar">
+
+قل للذين كفروا ستغلبون روى أبو داود في سننه والبيهقي في الدلائل من طريق ابن أسحق عن محمد بن أبي محمد عن سعيد أو عكرمة عن ابن عباس أن رسول الله لما أصاب من أهل بدر ما أصاب ورجع إلى المدينة
+
+</div>
+
 ## Place in the museum
 Fuente: [[work/lubab-al-nuqul-suyuti|de al-Suyuti Lubab al-Nuqul]]. El versículo: [[passage/quran-3-12|Corán 3-12]].

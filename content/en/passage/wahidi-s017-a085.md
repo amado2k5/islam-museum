@@ -10,5 +10,12 @@ Al-Wahidi's report on the occasion of revelation of Bani Isra'il 17:85, narrated
 
 The verse, in al-Wahidi's heading: «ويسألونك عن الروح».
 
+## Full report (Arabic source text)
+<div dir="rtl" lang="ar">
+
+بنا ناس من اليهود فقالوا: سلوه عن الروح، فقال بعضهم: لا تسألوه فيستقبلكم
+
+</div>
+
 ## Place in the museum
 Source: [[work/asbab-al-nuzul-wahidi|al-Wahidi's Asbab nuzul al-Qur'an]]. The verse: [[passage/quran-17-85|Qur'an 17-85]].

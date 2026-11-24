@@ -10,5 +10,12 @@ Informe de al-Wahidi sobre la ocasión de revelación de al-Insan 76:8, transmit
 
 The verse, in al-Wahidi's heading: «ويطعمون الطعام على حبه مسكينا».
 
+## Informe completo (texto fuente en árabe)
+<div dir="rtl" lang="ar">
+
+فأخرجوا إليه الطعام، ثم عمل الثلث الثاني، فلما تم إنضاجه أتى يتيم فسأل
+
+</div>
+
 ## Place in the museum
 Fuente: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an de al-Wahidi]]. El versículo: [[passage/quran-76-8|Corán 76-8]].

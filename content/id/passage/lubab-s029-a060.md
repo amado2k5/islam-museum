@@ -10,5 +10,12 @@ Riwayat as-Suyuti tentang sebab turunnya al-'Ankabut 29:60, dalam Lubab al-Nuqul
 
 The verse, in al-Suyuti's heading: «وكأين من دابة».
 
+## Laporan lengkap (teks sumber Arab)
+<div dir="rtl" lang="ar">
+
+وكأين من دابة الآية أخرج عبد بن حميد وابن أبي حاتم والبيهقي وابن عساكر بسند ضعيف عن ابن عمير قال خرجت مع رسول الله حتى دخل بعض حيطان المدينة فجعل يلتقط من التمر ويأكل فقال لي يا ابن عمر ما لك
+
+</div>
+
 ## Place in the museum
 Sumber: [[work/lubab-al-nuqul-suyuti|as-Suyuti Lubab al-Nuqul]]. Ayatnya: [[passage/quran-29-60|Al-Qur'an 29-60]].

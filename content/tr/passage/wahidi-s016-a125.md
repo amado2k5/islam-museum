@@ -10,5 +10,12 @@ an-Nahl 16:125 ayetinin nüzül sebebi hakkında El-Vahidi'nin rivayeti; Esbab N
 
 The verse, in al-Wahidi's heading: «ادع إلى سبيل ربك بالحكمة».
 
+## Tam rivayet (Arapça kaynak metin)
+<div dir="rtl" lang="ar">
+
+عليه سبعين صلاة، وكان القتلى سبعين فلما دفنوا وفرغ منهم نزلت هذه الآية:
+
+</div>
+
 ## Place in the museum
 Kaynak: [[work/asbab-nuzul-wahidi|El-Vahidi'nin Esbab Nüzul el-Kur'an'ı]]. Ayet: [[passage/quran-16-125|Kur'an 16-125]].

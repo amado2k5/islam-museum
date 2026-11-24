@@ -10,5 +10,12 @@ Rapport d'al-Wahidi sur la circonstance de révélation de al-Furqan 25:68, tran
 
 The verse, in al-Wahidi's heading: «والذين لا يدعون مع الله إلها آخر».
 
+## Rapport complet (texte source arabe)
+<div dir="rtl" lang="ar">
+
+تقول وتدعو إليه لحسن لو تخبرنا أن لما عملنا كفارة، فنزلت: {والذين لا
+
+</div>
+
 ## Place in the museum
 Source : [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an d'al-Wahidi]]. Le verset : [[passage/quran-25-68|Coran 25-68]].

@@ -10,5 +10,12 @@ Rapport d'al-Wahidi sur la circonstance de révélation de al-Baqara 2:159, tran
 
 The verse, in al-Wahidi's heading: «إن الذين يكتمون ما أنزلنا من البينات والهدى».
 
+## Rapport complet (texte source arabe)
+<div dir="rtl" lang="ar">
+
+نزلت في علماء أهل الكتاب وكتمانهم آية الرجم وأمر محمد
+
+</div>
+
 ## Place in the museum
 Source : [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an d'al-Wahidi]]. Le verset : [[passage/quran-2-159|Coran 2-159]].

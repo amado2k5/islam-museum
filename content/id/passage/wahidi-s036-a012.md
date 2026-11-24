@@ -10,5 +10,12 @@ Riwayat al-Wahidi tentang sebab turunnya Ya Sin 36:12, diriwayatkan dari generas
 
 The verse, in al-Wahidi's heading: «إنا نحن نحيي الموتى ونكتب ما قدموا وآثارهم».
 
+## Laporan lengkap (teks sumber Arab)
+<div dir="rtl" lang="ar">
+
+ينتقلوا إلى قرب المسجد، فنزلت هذه الآية: {إنا نحن نحيي الموتى ونكتب ما
+
+</div>
+
 ## Place in the museum
 Sumber: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an al-Wahidi]]. Ayatnya: [[passage/quran-36-12|Al-Qur'an 36-12]].

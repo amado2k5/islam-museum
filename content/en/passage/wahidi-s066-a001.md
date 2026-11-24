@@ -10,5 +10,12 @@ Al-Wahidi's report on the occasion of revelation of at-Tahrim 66:1, narrated fro
 
 The verse, in al-Wahidi's heading: «1».
 
+## Full report (Arabic source text)
+<div dir="rtl" lang="ar">
+
+وعشرين ليلة، فأنزل الله: {لم تحرم ما أحل الله لك} الآية.
+
+</div>
+
 ## Place in the museum
 Source: [[work/asbab-al-nuzul-wahidi|al-Wahidi's Asbab nuzul al-Qur'an]]. The verse: [[passage/quran-66-1|Qur'an 66-1]].

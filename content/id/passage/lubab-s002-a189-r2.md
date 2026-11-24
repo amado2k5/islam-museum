@@ -10,5 +10,12 @@ Riwayat as-Suyuti tentang sebab turunnya al-Baqara 2:189, dalam Lubab al-Nuqul f
 
 The verse, in al-Suyuti's heading: «يسألونك عن الأهلة (ك)».
 
+## Laporan lengkap (teks sumber Arab)
+<div dir="rtl" lang="ar">
+
+يسألونك عن الأهلة ⁦(ك)⁩ أخرج ابن أبى حاتم من طريق العوفي عن ابن عباس قال سأل الناس رسول الله عن الأهلة فنزلت هذه الآية وأخرج ابن أبي حاتم عن أبي العالية قال بلغنا أنهم قالوا يا رسول الله لم خلقت الأهلة
+
+</div>
+
 ## Place in the museum
 Sumber: [[work/lubab-al-nuqul-suyuti|as-Suyuti Lubab al-Nuqul]]. Ayatnya: [[passage/quran-2-189|Al-Qur'an 2-189]].

@@ -10,5 +10,12 @@ Informe de al-Wahidi sobre la ocasión de revelación de an-Nisa 4:127, transmit
 
 The verse, in al-Wahidi's heading: «ويستفتونك في النساء».
 
+## Informe completo (texto fuente en árabe)
+<div dir="rtl" lang="ar">
+
+استفتوا رسول الله- بعد هذه الآية فيهن، فأنزل الله
+
+</div>
+
 ## Place in the museum
 Fuente: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an de al-Wahidi]]. El versículo: [[passage/quran-4-127|Corán 4-127]].

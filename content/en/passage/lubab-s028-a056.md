@@ -10,5 +10,12 @@ Al-Suyuti's report on the occasion of revelation of al-Qasas 28:56, in Lubab al-
 
 The verse, in al-Suyuti's heading: «إنك لا تهدي ما أحببت».
 
+## Full report (Arabic source text)
+<div dir="rtl" lang="ar">
+
+إنك لا تهدي ما أحببت الآية أخرج مسلم وغيره عن أبي هريرة قال قال رسول الله لعمه قل لا إله إلا الله أشهد لك يوم القيامة قال لولا أن تعيرني نساء قريش يقلن أنه حمله على ذلك الجزع لأقررت بها عينك
+
+</div>
+
 ## Place in the museum
 Source: [[work/lubab-al-nuqul-suyuti|al-Suyuti's Lubab al-Nuqul]]. The verse: [[passage/quran-28-56|Qur'an 28-56]].

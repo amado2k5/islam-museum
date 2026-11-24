@@ -10,5 +10,12 @@ Informe de al-Suyuti sobre la ocasión de revelación de al-Baqara 2:223, en Lub
 
 The verse, in al-Suyuti's heading: «نساؤكم حرث لكم».
 
+## Informe completo (texto fuente en árabe)
+<div dir="rtl" lang="ar">
+
+نساؤكم حرث لكم الآية روى الشيخان وأبو داود والترمذي عن جابر قال كانت اليهود تقول إذا جامعها من ورائها جاء الولد أحول فنزلت نساؤكم حرث لكم فاتوا حرثكم أنى شئتم وأخرج أحمد والترمذي عن ابن عباس قال جاء عمر إلى رسول الله
+
+</div>
+
 ## Place in the museum
 Fuente: [[work/lubab-al-nuqul-suyuti|de al-Suyuti Lubab al-Nuqul]]. El versículo: [[passage/quran-2-223|Corán 2-223]].

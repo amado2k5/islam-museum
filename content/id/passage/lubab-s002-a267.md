@@ -10,5 +10,12 @@ Riwayat as-Suyuti tentang sebab turunnya al-Baqara 2:267, dalam Lubab al-Nuqul f
 
 The verse, in al-Suyuti's heading: «يا أيها الذين آمنوا أنفقوا من طيبات ما».
 
+## Laporan lengkap (teks sumber Arab)
+<div dir="rtl" lang="ar">
+
+يا أيها الذين آمنوا أنفقوا من طيبات ما كسبتم [267] الآية روى الحاكم والترمذي وابن ماجة وغيرهم عن البراء قال نزلت هذه الآية فينا معشر الأنصار كنا أصحاب نخل وكان الرجل يأتي من نخلة على قدر كثرته وقلته وكان ناس ممن لا يرغب في الخير
+
+</div>
+
 ## Place in the museum
 Sumber: [[work/lubab-al-nuqul-suyuti|as-Suyuti Lubab al-Nuqul]]. Ayatnya: [[passage/quran-2-267|Al-Qur'an 2-267]].

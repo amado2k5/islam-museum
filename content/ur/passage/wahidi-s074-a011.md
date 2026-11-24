@@ -10,5 +10,12 @@ al-Muddaththir 74:11 کے سببِ نزول پر الواحدی کی روایت 
 
 The verse, in al-Wahidi's heading: «ذرني ومن خلقت وحيدا».
 
+## مکمل روایت ⁦(عربی ماخذ متن)⁩
+<div dir="rtl" lang="ar">
+
+هذا سحر يؤثر يأثره عن غيره، فنزلت: {ذرني ومن خلقت وحيدا} الآيات كلها.
+
+</div>
+
 ## Place in the museum
 ماخذ: [[work/asbab-nuzul-wahidi|الواحدی کی اسباب نزول القرآن]]۔ آیت: [[passage/quran-74-11|قرآن 74-11]]۔

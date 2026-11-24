@@ -10,5 +10,12 @@ an-Nisa 4:136 ayetinin nüzül sebebi hakkında El-Vahidi'nin rivayeti; Esbab N�
 
 The verse, in al-Wahidi's heading: «يا أيها الذين آمنوا لا تقربوا الصلاة وأنتم سكارى».
 
+## Tam rivayet (Arapça kaynak metin)
+<div dir="rtl" lang="ar">
+
+نزلت في أناس من أصحاب رسول الله- كانوا يشربون
+
+</div>
+
 ## Place in the museum
 Kaynak: [[work/asbab-nuzul-wahidi|El-Vahidi'nin Esbab Nüzul el-Kur'an'ı]]. Ayet: [[passage/quran-4-136|Kur'an 4-136]].

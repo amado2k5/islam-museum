@@ -10,5 +10,12 @@ Riwayat al-Wahidi tentang sebab turunnya al-Baqara 2:177, diriwayatkan dari gene
 
 The verse, in al-Wahidi's heading: «ليس البر أن تولوا وجوهكم».
 
+## Laporan lengkap (teks sumber Arab)
+<div dir="rtl" lang="ar">
+
+قال قتادة: ذكر لنا أن رجلا سأل نبي الله- عن
+
+</div>
+
 ## Place in the museum
 Sumber: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an al-Wahidi]]. Ayatnya: [[passage/quran-2-177|Al-Qur'an 2-177]].

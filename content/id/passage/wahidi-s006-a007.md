@@ -10,5 +10,12 @@ Riwayat al-Wahidi tentang sebab turunnya al-An'am 6:7, diriwayatkan dari generas
 
 The verse, in al-Wahidi's heading: «ولو نزلنا عليك كتابا في قرطاس».
 
+## Laporan lengkap (teks sumber Arab)
+<div dir="rtl" lang="ar">
+
+رسوله فنزلت هذه الآية.
+
+</div>
+
 ## Place in the museum
 Sumber: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an al-Wahidi]]. Ayatnya: [[passage/quran-6-7|Al-Qur'an 6-7]].

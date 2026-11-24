@@ -10,5 +10,12 @@ Rapport d'al-Wahidi sur la circonstance de révélation de an-Nur 24:12, transmi
 
 The verse, in al-Wahidi's heading: «ولولا إذ سمعتموه قلتم ما يكون لنا أن نتكلم بهذا».
 
+## Rapport complet (texte source arabe)
+<div dir="rtl" lang="ar">
+
+عظيم، قالت: فأنزل الله- {ولولا إذ سمعتموه قلتم ما يكون لنا أن
+
+</div>
+
 ## Place in the museum
 Source : [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an d'al-Wahidi]]. Le verset : [[passage/quran-24-12|Coran 24-12]].

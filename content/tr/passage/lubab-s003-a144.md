@@ -10,5 +10,12 @@ Al 'Imran 3:144 ayetinin nüzul sebebi hakkında es-Suyuti'nin rivayeti; Lübab�
 
 The verse, in al-Suyuti's heading: «وما محمد إلا رسول».
 
+## Tam rivayet (Arapça kaynak metin)
+<div dir="rtl" lang="ar">
+
+وما محمد إلا رسول الآية أخرج ابن المنذر عن عمر قال تفرقنا عن رسول الله يوم أحد فصعدت الجبل فسمعت يهود تقول قتل محمد فقلت لا أسمع أحدا يقول قتل محمد إلا ضربت عنقه فنظرت فإذا رسول الله
+
+</div>
+
 ## Place in the museum
 Kaynak: [[work/lubab-al-nuqul-suyuti|es-Suyuti'nin Lubab al-Nuqul]]. Ayet: [[passage/quran-3-144|Kur'an 3-144]].

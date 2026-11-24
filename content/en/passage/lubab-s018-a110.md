@@ -10,5 +10,12 @@ Al-Suyuti's report on the occasion of revelation of al-Kahf 18:110, in Lubab al-
 
 The verse, in al-Suyuti's heading: «فمن كان يرجو لقاء ربه».
 
+## Full report (Arabic source text)
+<div dir="rtl" lang="ar">
+
+فمن كان يرجو لقاء ربه الآية أخرج ابن أبي حاتم وابن أبي الدنيا في كتاب الإخلاص عن طاوس قال قال رجل يا رسول الله إني أقف أريد وجه الله وأحب أن يرى موطني فلم يرد عليه شيئا حتى نزلت هذه الآية فمن كان يرجو لقاء
+
+</div>
+
 ## Place in the museum
 Source: [[work/lubab-al-nuqul-suyuti|al-Suyuti's Lubab al-Nuqul]]. The verse: [[passage/quran-18-110|Qur'an 18-110]].

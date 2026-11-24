@@ -10,5 +10,12 @@ an-Nisa 4:34 ayetinin nüzül sebebi hakkında El-Vahidi'nin rivayeti; Esbab Nü
 
 The verse, in al-Wahidi's heading: «الرجال قوامون على النساء».
 
+## Tam rivayet (Arapça kaynak metin)
+<div dir="rtl" lang="ar">
+
+قال مقاتل: نزلت هذه الآية في سعد بن الربيع وكان من النقباء، وامرأته
+
+</div>
+
 ## Place in the museum
 Kaynak: [[work/asbab-nuzul-wahidi|El-Vahidi'nin Esbab Nüzul el-Kur'an'ı]]. Ayet: [[passage/quran-4-34|Kur'an 4-34]].

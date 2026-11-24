@@ -10,5 +10,12 @@ Al-Suyuti's report on the occasion of revelation of an-Nisa 4:127, in Lubab al-N
 
 The verse, in al-Suyuti's heading: «ويستفتونك في النساء».
 
+## Full report (Arabic source text)
+<div dir="rtl" lang="ar">
+
+ويستفتونك في النساء الآية روى البخاري عن عائشة في هذه الآية قالت هو الرجل تكون عنده اليتيمة وهو وليها ووارثها قد شركته في مالها حتى في المذق فيرغب أن ينكحها ويكره أن يزوجها رجلا فيشركه في مالها فيعضلها فنزلت وأخرج ابن أبي حاتم عن السدي
+
+</div>
+
 ## Place in the museum
 Source: [[work/lubab-al-nuqul-suyuti|al-Suyuti's Lubab al-Nuqul]]. The verse: [[passage/quran-4-127|Qur'an 4-127]].

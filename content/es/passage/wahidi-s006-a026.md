@@ -10,5 +10,12 @@ Informe de al-Wahidi sobre la ocasión de revelación de al-An'am 6:26, transmit
 
 The verse, in al-Wahidi's heading: «وهم ينهون عنه وينأون عنه».
 
+## Informe completo (texto fuente en árabe)
+<div dir="rtl" lang="ar">
+
+ابن عباس في قوله: {وهم ينهون عنه وينأون عنه} قال: نزلت في أبي طالب كان
+
+</div>
+
 ## Place in the museum
 Fuente: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an de al-Wahidi]]. El versículo: [[passage/quran-6-26|Corán 6-26]].

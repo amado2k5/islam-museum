@@ -10,5 +10,12 @@ Rapport d'al-Wahidi sur la circonstance de révélation de at-Takathur 102:2, tr
 
 The verse, in al-Wahidi's heading: «ألهاكم التكاثر حتى زرتم المقابر».
 
+## Rapport complet (texte source arabe)
+<div dir="rtl" lang="ar">
+
+قال مقاتل والكلبي: نزلت في حيين من قريش: بني عبد مناف وبني سهم كان
+
+</div>
+
 ## Place in the museum
 Source : [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an d'al-Wahidi]]. Le verset : [[passage/quran-102-2|Coran 102-2]].

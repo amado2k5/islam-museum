@@ -10,5 +10,12 @@ Al-Wahidi's report on the occasion of revelation of al-Hashr 59:9, narrated in A
 
 The verse, in al-Wahidi's heading: «والذين تبوءوا الدار والإيمان من قبلهم».
 
+## Full report (Arabic source text)
+<div dir="rtl" lang="ar">
+
+يكفونكم المؤونة وتقاسمونهم الثمرة والأرض أرضكم"، قالوا: رضينا، فأنزل
+
+</div>
+
 ## Place in the museum
 Source: [[work/asbab-al-nuzul-wahidi|al-Wahidi's Asbab nuzul al-Qur'an]]. The verse: [[passage/quran-59-9|Qur'an 59-9]].

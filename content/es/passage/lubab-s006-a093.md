@@ -10,5 +10,12 @@ Informe de al-Suyuti sobre la ocasión de revelación de al-An'am 6:93, en Lubab
 
 The verse, in al-Suyuti's heading: «ومن أظلم».
 
+## Informe completo (texto fuente en árabe)
+<div dir="rtl" lang="ar">
+
+ومن أظلم الآية أخرج ابن جرير عن عكرمة في قوله ومن أظلم ممن افترى على الله كذبا أو قال أوحي إلي ولم يوح إليه شئ قال نزلت مسيلمة ومن قال سأنزل مثل ما أنزل الله قال نزلت في عبد الله بن سعد بي أبي سرح
+
+</div>
+
 ## Place in the museum
 Fuente: [[work/lubab-al-nuqul-suyuti|de al-Suyuti Lubab al-Nuqul]]. El versículo: [[passage/quran-6-93|Corán 6-93]].

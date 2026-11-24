@@ -10,5 +10,12 @@ Informe de al-Wahidi sobre la ocasión de revelación de al-Baqara 2:102, transm
 
 The verse, in al-Wahidi's heading: «واتبعوا ما تتلو الشياطين على ملك سليمان».
 
+## Informe completo (texto fuente en árabe)
+<div dir="rtl" lang="ar">
+
+فتناسخته الأمم فأنزل الله عذر سليمان {واتبعوا ما تتلو الشياطين
+
+</div>
+
 ## Place in the museum
 Fuente: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an de al-Wahidi]]. El versículo: [[passage/quran-2-102|Corán 2-102]].

@@ -10,5 +10,12 @@ Riwayat as-Suyuti tentang sebab turunnya an-Nur 24:48, dalam Lubab al-Nuqul fi A
 
 The verse, in al-Suyuti's heading: «وإذا دعوا».
 
+## Laporan lengkap (teks sumber Arab)
+<div dir="rtl" lang="ar">
+
+وإذا دعوا الآية أخرج ابن أبي حاتم من مرسل الحسن قال كان الرجل إذا كان بينه وبين الرجل منازعة فدعي إلى النبي وهو محق أذعن وعلم أن النبي سيقضي له بالحق وإذا أراد أن يظلم فدعي إلى
+
+</div>
+
 ## Place in the museum
 Sumber: [[work/lubab-al-nuqul-suyuti|as-Suyuti Lubab al-Nuqul]]. Ayatnya: [[passage/quran-24-48|Al-Qur'an 24-48]].

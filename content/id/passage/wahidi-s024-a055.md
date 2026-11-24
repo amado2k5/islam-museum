@@ -10,5 +10,12 @@ Riwayat al-Wahidi tentang sebab turunnya an-Nur 24:55, diriwayatkan dari generas
 
 The verse, in al-Wahidi's heading: «وعد الله الذين آمنوا منكم وعملوا الصالحات».
 
+## Laporan lengkap (teks sumber Arab)
+<div dir="rtl" lang="ar">
+
+منكم في الملأ العظيم محتبيا ليست فيهم حديدة، وأنزل الله: {وعد الله
+
+</div>
+
 ## Place in the museum
 Sumber: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an al-Wahidi]]. Ayatnya: [[passage/quran-24-55|Al-Qur'an 24-55]].

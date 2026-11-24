@@ -3,6 +3,11 @@ id: passage/quran-16-52
 lang: ar
 source_lang: ar
 translators: []
+provenance:
+  generated_by: "Claude Code (Sonnet 5.5 session)"
+  model: claude-sonnet-5-5
+  run: altafsir-tabari-batch-5-2026-11-24
+  source: source/altafsir-tabari
 ---
 
 ## موجز
@@ -10,3 +15,7 @@ translators: []
 
 ## موضعها
 موضعها: الآية 52 من أصل 128 آية في السورة. النص محفوظ من مصحف تنزيل المجمّد ولا يُعاد كتابته هنا.
+
+## تفسير الطبري
+
+يفسّر الطبري الآية بأن لله ملك كل ما في السموات والأرض لا شريك له، وهو الخالق الرازق المحيي المميت، وله الطاعة والإخلاص دائماً واجباً، ويتساءل منكراً على من يتقي غيره. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=16&tAyahNo=52&tDisplay=yes&UserProfile=0&LanguageId=1

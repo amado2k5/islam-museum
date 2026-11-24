@@ -10,5 +10,12 @@ Rapport d'al-Wahidi sur la circonstance de révélation de al-Baqara 2:121, tran
 
 The verse, in al-Wahidi's heading: «الذين آتيناهم الكتاب يتلونه حق تلاوته».
 
+## Rapport complet (texte source arabe)
+<div dir="rtl" lang="ar">
+
+قال ابن عباس في رواية عطاء والكلبي: نزلت في أصحاب السفينة الذين أقبلوا
+
+</div>
+
 ## Place in the museum
 Source : [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an d'al-Wahidi]]. Le verset : [[passage/quran-2-121|Coran 2-121]].

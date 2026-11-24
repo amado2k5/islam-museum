@@ -10,5 +10,12 @@ Riwayat al-Wahidi tentang sebab turunnya al-Baqara 2:121, diriwayatkan dari gene
 
 The verse, in al-Wahidi's heading: «الذين آتيناهم الكتاب يتلونه حق تلاوته».
 
+## Laporan lengkap (teks sumber Arab)
+<div dir="rtl" lang="ar">
+
+قال ابن عباس في رواية عطاء والكلبي: نزلت في أصحاب السفينة الذين أقبلوا
+
+</div>
+
 ## Place in the museum
 Sumber: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an al-Wahidi]]. Ayatnya: [[passage/quran-2-121|Al-Qur'an 2-121]].

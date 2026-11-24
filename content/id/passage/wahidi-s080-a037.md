@@ -10,5 +10,12 @@ Riwayat al-Wahidi tentang sebab turunnya 'Abasa 80:37, diriwayatkan dari generas
 
 The verse, in al-Wahidi's heading: «لكل امرئ منهم يومئذ شأن يغنيه».
 
+## Laporan lengkap (teks sumber Arab)
+<div dir="rtl" lang="ar">
+
+واسوأتاه، فأنزل الله: {لكل امرئ منهم يومئذ شأن يغنيه}.
+
+</div>
+
 ## Place in the museum
 Sumber: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an al-Wahidi]]. Ayatnya: [[passage/quran-80-37|Al-Qur'an 80-37]].

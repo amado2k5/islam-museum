@@ -10,5 +10,12 @@ Riwayat as-Suyuti tentang sebab turunnya Al 'Imran 3:118, dalam Lubab al-Nuqul f
 
 The verse, in al-Suyuti's heading: «يا أيها الذين آمنوا لا تتخذوا».
 
+## Laporan lengkap (teks sumber Arab)
+<div dir="rtl" lang="ar">
+
+يا أيها الذين آمنوا لا تتخذوا أخرج ابن جرير وابن أسحق عن ابن عباس قال كان رجال من المسلمين يواصلون رجالا من يهود لما كان بينهم من الجوار والحلف في الجاهلية فأنزل الله فيهم ينهاهم عن مباطنتهم تخوف الفتنة عليهم يا أيها الذين آمنوا لا
+
+</div>
+
 ## Place in the museum
 Sumber: [[work/lubab-al-nuqul-suyuti|as-Suyuti Lubab al-Nuqul]]. Ayatnya: [[passage/quran-3-118|Al-Qur'an 3-118]].

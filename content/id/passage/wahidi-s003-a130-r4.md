@@ -10,5 +10,12 @@ Riwayat al-Wahidi tentang sebab turunnya Al 'Imran 3:130, diriwayatkan dari gene
 
 The verse, in al-Wahidi's heading: «يا أيها الذين آمنوا لا تتخذوا بطانة من دونكم».
 
+## Laporan lengkap (teks sumber Arab)
+<div dir="rtl" lang="ar">
+
+قال ابن عباس ومجاهد: نزلت في قوم من المؤمنين كانوا يصافون المنافقين
+
+</div>
+
 ## Place in the museum
 Sumber: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an al-Wahidi]]. Ayatnya: [[passage/quran-3-130|Al-Qur'an 3-130]].

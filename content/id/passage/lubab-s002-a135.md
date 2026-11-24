@@ -10,5 +10,12 @@ Riwayat as-Suyuti tentang sebab turunnya al-Baqara 2:135, dalam Lubab al-Nuqul f
 
 The verse, in al-Suyuti's heading: «وقالوا كونوا هودا».
 
+## Laporan lengkap (teks sumber Arab)
+<div dir="rtl" lang="ar">
+
+وقالوا كونوا هودا الآية أخرج ابن ابي حاتم من طريق سعيد أو عكرمة عن ابن عباس قال قال ابن صوريا للنبي ما الهدي إلا ما نحن عليه فاتبعنا يا محمد تهتد وقالت النصارى مثل ذلك فأنزل الله فيهم وقالوا كونوا هودا
+
+</div>
+
 ## Place in the museum
 Sumber: [[work/lubab-al-nuqul-suyuti|as-Suyuti Lubab al-Nuqul]]. Ayatnya: [[passage/quran-2-135|Al-Qur'an 2-135]].

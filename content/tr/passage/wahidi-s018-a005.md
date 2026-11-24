@@ -10,5 +10,12 @@ al-Kahf 18:5 ayetinin nüzül sebebi hakkında El-Vahidi'nin rivayeti; Esbab Nü
 
 The verse, in al-Wahidi's heading: «فمن كان يرجوا لقاء ربه».
 
+## Tam rivayet (Arapça kaynak metin)
+<div dir="rtl" lang="ar">
+
+قال ابن عباس: نزلت في جندب بن زهير العامري، وذلك أنه قال: إني أعمل
+
+</div>
+
 ## Place in the museum
 Kaynak: [[work/asbab-nuzul-wahidi|El-Vahidi'nin Esbab Nüzul el-Kur'an'ı]]. Ayet: [[passage/quran-18-5|Kur'an 18-5]].

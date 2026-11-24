@@ -10,5 +10,12 @@ Riwayat as-Suyuti tentang sebab turunnya al-Baqara 2:221, dalam Lubab al-Nuqul f
 
 The verse, in al-Suyuti's heading: «ولا تنكحوا المشركات حتى يؤمن».
 
+## Laporan lengkap (teks sumber Arab)
+<div dir="rtl" lang="ar">
+
+ولا تنكحوا المشركات حتى يؤمن أخرج ابن المنذر وابن أبي حاتم والواحدي عن مقاتل قال نزلت هذه الآية في ابن أبي مرثد الغنوي إستأذن النبي في عناق أن يتزوجها وهي مشركة وكانت ذات حظ وجمال فنزلت
+
+</div>
+
 ## Place in the museum
 Sumber: [[work/lubab-al-nuqul-suyuti|as-Suyuti Lubab al-Nuqul]]. Ayatnya: [[passage/quran-2-221|Al-Qur'an 2-221]].

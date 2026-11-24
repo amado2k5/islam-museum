@@ -10,5 +10,12 @@ Riwayat al-Wahidi tentang sebab turunnya Luqman 31:34, diriwayatkan dari generas
 
 The verse, in al-Wahidi's heading: «إن الله عنده علم الساعة».
 
+## Laporan lengkap (teks sumber Arab)
+<div dir="rtl" lang="ar">
+
+نزلت في الحارث بن عمرو بن حارثة بن محارب بن حفصة، من أهل البادية، أتى
+
+</div>
+
 ## Place in the museum
 Sumber: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an al-Wahidi]]. Ayatnya: [[passage/quran-31-34|Al-Qur'an 31-34]].

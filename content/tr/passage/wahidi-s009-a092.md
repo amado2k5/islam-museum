@@ -10,5 +10,12 @@ Bara'a (at-Tawba) 9:92 ayetinin nüzül sebebi hakkında El-Vahidi'nin rivayeti;
 
 The verse, in al-Wahidi's heading: «ولا على الذين إذا ما أتوك لتحملهم».
 
+## Tam rivayet (Arapça kaynak metin)
+<div dir="rtl" lang="ar">
+
+نزلت في البكائين وكانوا سبعة: معقل بن يسار وصخر بن خنيس وعبد الله بن
+
+</div>
+
 ## Place in the museum
 Kaynak: [[work/asbab-nuzul-wahidi|El-Vahidi'nin Esbab Nüzul el-Kur'an'ı]]. Ayet: [[passage/quran-9-92|Kur'an 9-92]].

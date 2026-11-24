@@ -10,5 +10,12 @@ Rapport d'al-Wahidi sur la circonstance de révélation de Al 'Imran 3:130, tran
 
 The verse, in al-Wahidi's heading: «يا أيها الذين آمنوا إن تطيعوا فريقا».
 
+## Rapport complet (texte source arabe)
+<div dir="rtl" lang="ar">
+
+وأخذوا السلاح واصطفوا للقتال، فنزلت هذه الآية، فجاء النبي - صلى الله
+
+</div>
+
 ## Place in the museum
 Source : [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an d'al-Wahidi]]. Le verset : [[passage/quran-3-130|Coran 3-130]].

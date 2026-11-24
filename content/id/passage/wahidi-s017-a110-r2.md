@@ -10,5 +10,12 @@ Riwayat al-Wahidi tentang sebab turunnya Bani Isra'il 17:110, diriwayatkan dari 
 
 The verse, in al-Wahidi's heading: «110».
 
+## Laporan lengkap (teks sumber Arab)
+<div dir="rtl" lang="ar">
+
+في قوله: {ولا تجهر بصلاتك ولا تخافت بها} قال: نزلت ورسول الله- مختف بمكة وكانوا إذا سمعوا القرآن سبوا القرآن ومن
+
+</div>
+
 ## Place in the museum
 Sumber: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an al-Wahidi]]. Ayatnya: [[passage/quran-17-110|Al-Qur'an 17-110]].

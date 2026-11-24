@@ -10,5 +10,12 @@ al-Kahf 18:83 کے سببِ نزول پر الواحدی کی روایت — «�
 
 The verse, in al-Wahidi's heading: «ويسألونك عن ذي القرنين».
 
+## مکمل روایت ⁦(عربی ماخذ متن)⁩
+<div dir="rtl" lang="ar">
+
+قال قتادة: إن اليهود سألوا نبي الله- عن ذي
+
+</div>
+
 ## Place in the museum
 ماخذ: [[work/asbab-nuzul-wahidi|الواحدی کی اسباب نزول القرآن]]۔ آیت: [[passage/quran-18-83|قرآن 18-83]]۔

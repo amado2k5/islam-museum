@@ -10,5 +10,12 @@ Informe de al-Suyuti sobre la ocasión de revelación de al-Hijr 15:47, en Lubab
 
 The verse, in al-Suyuti's heading: «ونزعنا ما في صدورهم من غل».
 
+## Informe completo (texto fuente en árabe)
+<div dir="rtl" lang="ar">
+
+ونزعنا ما في صدورهم من غل الآية أخرج ابن أبي حاتم عن علي بن الحسين أن هذه الآية نزلت في أبي بكر وعمر ونزعنا ما في صدورهم من غل قيل وأي غل قال غل الجاهلية إن بني تميم وبني عدي وبني هاشم كان بينهم في
+
+</div>
+
 ## Place in the museum
 Fuente: [[work/lubab-al-nuqul-suyuti|de al-Suyuti Lubab al-Nuqul]]. El versículo: [[passage/quran-15-47|Corán 15-47]].

@@ -10,5 +10,12 @@ Riwayat al-Wahidi tentang sebab turunnya Al 'Imran 3:26, diriwayatkan dari gener
 
 The verse, in al-Wahidi's heading: «قل اللهم مالك الملك».
 
+## Laporan lengkap (teks sumber Arab)
+<div dir="rtl" lang="ar">
+
+فأنزل اللههذه الآية.
+
+</div>
+
 ## Place in the museum
 Sumber: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an al-Wahidi]]. Ayatnya: [[passage/quran-3-26|Al-Qur'an 3-26]].

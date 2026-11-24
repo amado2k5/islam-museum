@@ -1,0 +1,36 @@
+id: passage/lubab-s049-a001-r2
+class: passage
+unit: chapter
+work: work/lubab-al-nuqul-suyuti
+ref: "49:1"
+sura: 49
+aya: 1
+label:
+ ar: "al-Hujurat 49:1 — سبب النزول ⁦(لباب النقول)⁩"
+ en: "al-Hujurat 49:1 — occasion of revelation"
+ fr: "al-Hujurat 49:1 — circonstance de révélation"
+ es: "al-Hujurat 49:1 — ocasión de revelación"
+ ur: "al-Hujurat 49:1 — سببِ نزول"
+ tr: "al-Hujurat 49:1 — nüzul sebebi"
+ id: "al-Hujurat 49:1 — sebab turunnya wahyu"
+text: "يا أيها الذين آمنوا لا تقدموا بين يدي الله ورسوله إلى قوله ولو أنهم صبروا ⁦(ك)⁩ وأخرج ابن المنذر عن الحسن أن أناسا ذبحوا قبل رسول الله يوم النحر فأمرهم أن يعيدوا ذبحا فانزل الله يا أيها الذين آمنوا لا تقدموا"
+summary:
+ ar: "رواية السيوطي في سبب نزول al-Hujurat 49:1 من «لباب النقول في أسباب النزول» ⁦(شاملة 2247)⁩ — جيل التابعين."
+ en: "Al-Suyuti's report on the occasion of revelation of al-Hujurat 49:1, in Lubab al-Nuqul fi Asbab al-Nuzul (Shamela 2247) — Tabi'i generation."
+ es: "Informe de al-Suyuti sobre la ocasión de revelación de al-Hujurat 49:1, en Lubab al-Nuqul fi Asbab al-Nuzul (Shamela 2247) — generación de los Sucesores."
+ fr: "Rapport d'al-Suyuti sur la circonstance de révélation de al-Hujurat 49:1, dans Lubab al-Nuqul fi Asbab al-Nuzul (Shamela 2247) — génération des Successeurs."
+ ur: "al-Hujurat 49:1 کے سببِ نزول پر سیوطی کی روایت — «لباب النقول» ⁦(شاملة 2247)⁩ — تابعین کی نسل سے۔"
+ tr: "al-Hujurat 49:1 ayetinin nüzul sebebi hakkında es-Suyuti'nin rivayeti; Lübabü'n-Nükul'den (Şamile 2247) — tabiin neslinden."
+ id: "Riwayat as-Suyuti tentang sebab turunnya al-Hujurat 49:1, dalam Lubab al-Nuqul fi Asbab an-Nuzul (Shamela 2247) — generasi Tabi'in."
+relations:
+ - { type: mentions, target: concept/asbab-al-nuzul, sources: [source/lubab-nuqul-shamela-2247] }
+ - { type: related_to, target: passage/quran-49-1, sources: [source/lubab-nuqul-shamela-2247] }
+ - { type: related_to, target: passage/quran-15-6, sources: [source/lubab-nuqul-shamela-2247] }
+provenance:
+ layer: own-research
+ source: "lubab-nuqul-shamela-2247 — 49:1 — asbab-nuzul-browser harvest"
+ generated_by: "Devin (SWE-2 Medium)"
+ run: asbab-nuzul-browser-harvest
+tags: [nuzul-browser, nuzul-books, nuzul-tabii]
+sources: [source/lubab-nuqul-shamela-2247]
+status: { review: draft, completeness: 1, generated_by: "Devin (SWE-2 Medium)" }

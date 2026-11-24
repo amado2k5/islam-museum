@@ -10,5 +10,12 @@ Rapport d'al-Wahidi sur la circonstance de révélation de al-'Ankabut 29:60, tr
 
 The verse, in al-Wahidi's heading: «وكأين من دابة لا تحمل رزقها».
 
+## Rapport complet (texte source arabe)
+<div dir="rtl" lang="ar">
+
+فوالله ما برحنا حتى نزلت: {وكأين من دابة لا تحمل رزقها الله يرزقها
+
+</div>
+
 ## Place in the museum
 Source : [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an d'al-Wahidi]]. Le verset : [[passage/quran-29-60|Coran 29-60]].

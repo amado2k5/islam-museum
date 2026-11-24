@@ -10,5 +10,12 @@ Al-Wahidi's report on the occasion of revelation of Bani Isra'il 17:53, narrated
 
 The verse, in al-Wahidi's heading: «53».
 
+## Full report (Arabic source text)
+<div dir="rtl" lang="ar">
+
+نزلت في عمر بن الخطاب- وذلك أن رجلا من العرب شتمه،
+
+</div>
+
 ## Place in the museum
 Source: [[work/asbab-al-nuzul-wahidi|al-Wahidi's Asbab nuzul al-Qur'an]]. The verse: [[passage/quran-17-53|Qur'an 17-53]].

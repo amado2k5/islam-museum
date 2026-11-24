@@ -10,5 +10,12 @@ al-An'am 6:100 ayetinin nüzül sebebi hakkında El-Vahidi'nin rivayeti; Esbab N
 
 The verse, in al-Wahidi's heading: «وجعلوا لله شركاء الجن».
 
+## Tam rivayet (Arapça kaynak metin)
+<div dir="rtl" lang="ar">
+
+قال الكلبي: نزلت هذه الآية في الزنادقة، قالوا: إن اللهوإبليس
+
+</div>
+
 ## Place in the museum
 Kaynak: [[work/asbab-nuzul-wahidi|El-Vahidi'nin Esbab Nüzul el-Kur'an'ı]]. Ayet: [[passage/quran-6-100|Kur'an 6-100]].

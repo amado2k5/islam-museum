@@ -10,5 +10,12 @@ al-Baqara 2:113 ayetinin nüzul sebebi hakkında es-Suyuti'nin rivayeti; Lübab�
 
 The verse, in al-Suyuti's heading: «وقالت اليهود».
 
+## Tam rivayet (Arapça kaynak metin)
+<div dir="rtl" lang="ar">
+
+وقالت اليهود الآية أخرج ابن آبى حاتم من طريق سعيد أو عكرمة عن ابن عباس قال لما قدم أهل نجران من النصارى على رسول الله أتتهم أحبار يهود فتنازعوا فقال رافع ابن خزيمة ما أنتم على شئ وكفر بعيسى والإنجيل فقال
+
+</div>
+
 ## Place in the museum
 Kaynak: [[work/lubab-al-nuqul-suyuti|es-Suyuti'nin Lubab al-Nuqul]]. Ayet: [[passage/quran-2-113|Kur'an 2-113]].

@@ -10,5 +10,12 @@ an-Nur 24:48 ayetinin nüzül sebebi hakkında El-Vahidi'nin rivayeti; Esbab Nü
 
 The verse, in al-Wahidi's heading: «وإذا دعوا إلى الله ورسوله».
 
+## Tam rivayet (Arapça kaynak metin)
+<div dir="rtl" lang="ar">
+
+قال المفسرون: هذه الآية والتي بعدها نزلتا في "بشر" المنافق وخصمه
+
+</div>
+
 ## Place in the museum
 Kaynak: [[work/asbab-nuzul-wahidi|El-Vahidi'nin Esbab Nüzul el-Kur'an'ı]]. Ayet: [[passage/quran-24-48|Kur'an 24-48]].

@@ -10,5 +10,12 @@ Informe de al-Wahidi sobre la ocasión de revelación de al-'Ankabut 29:8, trans
 
 The verse, in al-Wahidi's heading: «وإن جاهداك لتشرك بي».
 
+## Informe completo (texto fuente en árabe)
+<div dir="rtl" lang="ar">
+
+سعد بن مالك قال: أنزلت في هذه الآية: {وإن جاهداك لتشرك بي ما ليس لك به
+
+</div>
+
 ## Place in the museum
 Fuente: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an de al-Wahidi]]. El versículo: [[passage/quran-29-8|Corán 29-8]].

@@ -10,5 +10,12 @@ Rapport d'al-Wahidi sur la circonstance de révélation de Yunus 10:15, transmis
 
 The verse, in al-Wahidi's heading: «وإذا تتلى عليهم آياتنا بينات قال الذين لا يرجون لقاءنا».
 
+## Rapport complet (texte source arabe)
+<div dir="rtl" lang="ar">
+
+قال مجاهد: نزلت في مشركي مكة.
+
+</div>
+
 ## Place in the museum
 Source : [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an d'al-Wahidi]]. Le verset : [[passage/quran-10-15|Coran 10-15]].

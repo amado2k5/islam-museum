@@ -10,5 +10,12 @@ Informe de al-Wahidi sobre la ocasión de revelación de an-Nisa 4:24, transmiti
 
 The verse, in al-Wahidi's heading: «والمحصنات من النساء إلا ما ملكت أيمانكم».
 
+## Informe completo (texto fuente en árabe)
+<div dir="rtl" lang="ar">
+
+أصبنا سبايا يوم أوطاس لهن أزواج، فكرهنا أن نقع عليهن، فسألنا النبي عليه
+
+</div>
+
 ## Place in the museum
 Fuente: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an de al-Wahidi]]. El versículo: [[passage/quran-4-24|Corán 4-24]].

@@ -10,5 +10,12 @@ Informe de al-Suyuti sobre la ocasión de revelación de Al 'Imran 3:58, en Luba
 
 The verse, in al-Suyuti's heading: «ذلك نتلوه عليك».
 
+## Informe completo (texto fuente en árabe)
+<div dir="rtl" lang="ar">
+
+ذلك نتلوه عليك أخرج ابن أبي حاتم عن الحسن قال أتى رسول الله راهبا نجران فقال أحدهما من أبو عيسى وكان رسول الله لا يعجل حتى يؤامر ربه فنزل عليه ذلك نتلوه عليك من الآيات والذكر الحكيم
+
+</div>
+
 ## Place in the museum
 Fuente: [[work/lubab-al-nuqul-suyuti|de al-Suyuti Lubab al-Nuqul]]. El versículo: [[passage/quran-3-58|Corán 3-58]].

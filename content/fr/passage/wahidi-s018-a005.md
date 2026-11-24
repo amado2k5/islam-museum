@@ -10,5 +10,12 @@ Rapport d'al-Wahidi sur la circonstance de révélation de al-Kahf 18:5, transmi
 
 The verse, in al-Wahidi's heading: «فمن كان يرجوا لقاء ربه».
 
+## Rapport complet (texte source arabe)
+<div dir="rtl" lang="ar">
+
+قال ابن عباس: نزلت في جندب بن زهير العامري، وذلك أنه قال: إني أعمل
+
+</div>
+
 ## Place in the museum
 Source : [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an d'al-Wahidi]]. Le verset : [[passage/quran-18-5|Coran 18-5]].

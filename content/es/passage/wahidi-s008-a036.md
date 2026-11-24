@@ -10,5 +10,12 @@ Informe de al-Wahidi sobre la ocasión de revelación de al-Anfal 8:36, transmit
 
 The verse, in al-Wahidi's heading: «إن الذين كفروا ينفقون أموالهم ليصدوا عن سبيل الله».
 
+## Informe completo (texto fuente en árabe)
+<div dir="rtl" lang="ar">
+
+قال مقاتل والكلبي: نزلت في المطعمين يوم بدر، وكانوا اثني عشر رجلا أبو
+
+</div>
+
 ## Place in the museum
 Fuente: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an de al-Wahidi]]. El versículo: [[passage/quran-8-36|Corán 8-36]].

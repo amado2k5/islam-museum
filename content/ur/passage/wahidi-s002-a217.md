@@ -10,5 +10,12 @@ al-Baqara 2:217 کے سببِ نزول پر الواحدی کی روایت — �
 
 The verse, in al-Wahidi's heading: «يسألونك عن الشهر الحرام».
 
+## مکمل روایت ⁦(عربی ماخذ متن)⁩
+<div dir="rtl" lang="ar">
+
+فأنزل الله: {يسألونك عن الشهر الحرام
+
+</div>
+
 ## Place in the museum
 ماخذ: [[work/asbab-nuzul-wahidi|الواحدی کی اسباب نزول القرآن]]۔ آیت: [[passage/quran-2-217|قرآن 2-217]]۔

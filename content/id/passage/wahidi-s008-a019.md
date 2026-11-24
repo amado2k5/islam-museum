@@ -10,5 +10,12 @@ Riwayat al-Wahidi tentang sebab turunnya al-Anfal 8:19, diriwayatkan dari genera
 
 The verse, in al-Wahidi's heading: «إن تستفتحوا فقد جاءكم الفتح».
 
+## Laporan lengkap (teks sumber Arab)
+<div dir="rtl" lang="ar">
+
+الغداة، وكان ذلك استفتاحه، فأنزل اللهفي ذلك: {إن تستفتحوا فقد
+
+</div>
+
 ## Place in the museum
 Sumber: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an al-Wahidi]]. Ayatnya: [[passage/quran-8-19|Al-Qur'an 8-19]].

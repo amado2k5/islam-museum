@@ -10,5 +10,12 @@ Rapport d'al-Wahidi sur la circonstance de révélation de Al 'Imran 3:139, tran
 
 The verse, in al-Wahidi's heading: «ولا تهنوا ولا تحزنوا».
 
+## Rapport complet (texte source arabe)
+<div dir="rtl" lang="ar">
+
+قوة لنا إلا بك، اللهم ليس يعبدك بهذه البلدة غير هؤلاء النفر"، فأنزل الله
+
+</div>
+
 ## Place in the museum
 Source : [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an d'al-Wahidi]]. Le verset : [[passage/quran-3-139|Coran 3-139]].

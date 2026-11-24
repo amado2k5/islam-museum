@@ -10,5 +10,12 @@ Riwayat al-Wahidi tentang sebab turunnya at-Talaq 65:4, diriwayatkan dari genera
 
 The verse, in al-Wahidi's heading: «واللائي يئسن من المحيض من نسائكم».
 
+## Laporan lengkap (teks sumber Arab)
+<div dir="rtl" lang="ar">
+
+قال مقاتل: لما نزلت: {والمطلقات يتربصن بأنفسهن} الآية.
+
+</div>
+
 ## Place in the museum
 Sumber: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an al-Wahidi]]. Ayatnya: [[passage/quran-65-4|Al-Qur'an 65-4]].

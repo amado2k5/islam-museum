@@ -10,5 +10,12 @@ Riwayat al-Wahidi tentang sebab turunnya Yusuf 12:3, diriwayatkan dari generasi 
 
 The verse, in al-Wahidi's heading: «نحن نقص عليك أحسن القصص».
 
+## Laporan lengkap (teks sumber Arab)
+<div dir="rtl" lang="ar">
+
+- {نحن نقص عليك أحسن القصص} قال: أنزل القرآن على رسول الله- فتلاه عليهم زمانا، فقالوا: يا رسول الله لو قصصت،
+
+</div>
+
 ## Place in the museum
 Sumber: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an al-Wahidi]]. Ayatnya: [[passage/quran-12-3|Al-Qur'an 12-3]].

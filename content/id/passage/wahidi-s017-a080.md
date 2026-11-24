@@ -10,5 +10,12 @@ Riwayat al-Wahidi tentang sebab turunnya Bani Isra'il 17:80, diriwayatkan dari g
 
 The verse, in al-Wahidi's heading: «وقل رب أدخلني مدخل صدق».
 
+## Laporan lengkap (teks sumber Arab)
+<div dir="rtl" lang="ar">
+
+مهاجرا إلى المدينة، ونزل قوله: {وقل رب أدخلني مدخل صدق وأخرجني
+
+</div>
+
 ## Place in the museum
 Sumber: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an al-Wahidi]]. Ayatnya: [[passage/quran-17-80|Al-Qur'an 17-80]].

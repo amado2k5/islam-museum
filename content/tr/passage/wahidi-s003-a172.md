@@ -10,5 +10,12 @@ Al 'Imran 3:172 ayetinin nüzül sebebi hakkında El-Vahidi'nin rivayeti; Esbab 
 
 The verse, in al-Wahidi's heading: «الذين استجابوا لله والرسول».
 
+## Tam rivayet (Arapça kaynak metin)
+<div dir="rtl" lang="ar">
+
+النبي- فسألهم عن أبي سفيان فقالوا: لقيناه في جمع
+
+</div>
+
 ## Place in the museum
 Kaynak: [[work/asbab-nuzul-wahidi|El-Vahidi'nin Esbab Nüzul el-Kur'an'ı]]. Ayet: [[passage/quran-3-172|Kur'an 3-172]].

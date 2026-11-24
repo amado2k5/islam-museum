@@ -10,5 +10,12 @@ Rapport d'al-Suyuti sur la circonstance de révélation de az-Zumar 39:53, dans 
 
 The verse, in al-Suyuti's heading: «قل يا عبادي الذين أسرفوا».
 
+## Rapport complet (texte source arabe)
+<div dir="rtl" lang="ar">
+
+قل يا عبادي الذين أسرفوا الآية تقدم حديث الشيخين في سورة الفرقان وأخرج بن أبي حاتم بسند صحيح عن ابن عباس قال أنزلت هذه الآية في مشركي أهل مكة وأخرج الحاكم والطبراني عن ابن عمر قال كنا نقول ما لمفتتن توبة إذا ترك دينه بعد
+
+</div>
+
 ## Place in the museum
 Source : [[work/lubab-al-nuqul-suyuti|d'al-Suyuti Lubab al-Nuqul]]. Le verset: [[passage/quran-39-53|Coran 39-53]].

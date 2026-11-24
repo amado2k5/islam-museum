@@ -10,5 +10,12 @@ Rapport d'al-Suyuti sur la circonstance de révélation de al-Baqara 2:189, dans
 
 The verse, in al-Suyuti's heading: «وليس البر».
 
+## Rapport complet (texte source arabe)
+<div dir="rtl" lang="ar">
+
+وليس البر الآية روى البخاري عن البراء قال كانوا إذا أحرموا في الجاهلية أتوا البيت من ظهره فأنزل الله وليس البر بأن تأتوا البيوت من ظهورها الآية وأخرج ابن أبي حاتم والحاكم وصححه عن جابر قال كانت قريش تدعى الحمس وكانوا يدخلون من الأبواب في
+
+</div>
+
 ## Place in the museum
 Source : [[work/lubab-al-nuqul-suyuti|d'al-Suyuti Lubab al-Nuqul]]. Le verset: [[passage/quran-2-189|Coran 2-189]].

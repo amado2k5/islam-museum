@@ -10,5 +10,12 @@ Riwayat as-Suyuti tentang sebab turunnya al-'Ankabut 29:10, dalam Lubab al-Nuqul
 
 The verse, in al-Suyuti's heading: «ومن الناس من يقول آمنا بالله».
 
+## Laporan lengkap (teks sumber Arab)
+<div dir="rtl" lang="ar">
+
+ومن الناس من يقول آمنا بالله الآية تقدم سبب نزولها في سورة النساء
+
+</div>
+
 ## Place in the museum
 Sumber: [[work/lubab-al-nuqul-suyuti|as-Suyuti Lubab al-Nuqul]]. Ayatnya: [[passage/quran-29-10|Al-Qur'an 29-10]].

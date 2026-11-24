@@ -10,5 +10,12 @@ al-Ahqaf 46:15 ayetinin nüzül sebebi hakkında El-Vahidi'nin rivayeti; Esbab N
 
 The verse, in al-Wahidi's heading: «حتى إذا بلغ أشده وبلغ أربعين سنة».
 
+## Tam rivayet (Arapça kaynak metin)
+<div dir="rtl" lang="ar">
+
+قال ابن عباس في رواية عطاء: أنزلت في أبي بكر الصديق-
+
+</div>
+
 ## Place in the museum
 Kaynak: [[work/asbab-nuzul-wahidi|El-Vahidi'nin Esbab Nüzul el-Kur'an'ı]]. Ayet: [[passage/quran-46-15|Kur'an 46-15]].

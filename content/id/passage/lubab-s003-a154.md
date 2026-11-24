@@ -10,5 +10,12 @@ Riwayat as-Suyuti tentang sebab turunnya Al 'Imran 3:154, dalam Lubab al-Nuqul f
 
 The verse, in al-Suyuti's heading: «ثم أنزل عليكم الآيات».
 
+## Laporan lengkap (teks sumber Arab)
+<div dir="rtl" lang="ar">
+
+ثم أنزل عليكم الآيات أخرج ابن راهويه عن الزبير قال لقد رأيتني يوم أحد حين اشتد علينا الخوف وأرسل علينا النوم فما منا أحد إلا ذقنه في صدره فوالله إني لأسمع كالحلم قول معتب بن قشير لو كان لنا من الأمر شما قتلنا ههنا فحفظتها
+
+</div>
+
 ## Place in the museum
 Sumber: [[work/lubab-al-nuqul-suyuti|as-Suyuti Lubab al-Nuqul]]. Ayatnya: [[passage/quran-3-154|Al-Qur'an 3-154]].

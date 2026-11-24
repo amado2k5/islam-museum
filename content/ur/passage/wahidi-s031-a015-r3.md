@@ -10,5 +10,12 @@ Luqman 31:15 کے سببِ نزول پر الواحدی کی روایت — «ا
 
 The verse, in al-Wahidi's heading: «واتبع سبيل من أناب إلي».
 
+## مکمل روایت ⁦(عربی ماخذ متن)⁩
+<div dir="rtl" lang="ar">
+
+نزلت في أبي بكر- قال عطاء عن ابن عباس: يريد أبا بكر،
+
+</div>
+
 ## Place in the museum
 ماخذ: [[work/asbab-nuzul-wahidi|الواحدی کی اسباب نزول القرآن]]۔ آیت: [[passage/quran-31-15|قرآن 31-15]]۔

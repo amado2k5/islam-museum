@@ -10,5 +10,12 @@ Informe de al-Wahidi sobre la ocasión de revelación de Bara'a (at-Tawba) 9:101
 
 The verse, in al-Wahidi's heading: «وممن حولكم من الأعراب منافقون».
 
+## Informe completo (texto fuente en árabe)
+<div dir="rtl" lang="ar">
+
+قال الكلبي: نزلت في جهينة ومزينة وأشجع وأسلم وغفار {ومن أهل المدينة}
+
+</div>
+
 ## Place in the museum
 Fuente: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an de al-Wahidi]]. El versículo: [[passage/quran-9-101|Corán 9-101]].

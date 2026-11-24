@@ -10,5 +10,12 @@ Riwayat as-Suyuti tentang sebab turunnya an-Nur 24:33, dalam Lubab al-Nuqul fi A
 
 The verse, in al-Suyuti's heading: «ولا تكرهوا فتياتكم».
 
+## Laporan lengkap (teks sumber Arab)
+<div dir="rtl" lang="ar">
+
+ولا تكرهوا فتياتكم الآية أخرج مسلم من طريق أبى سفيان عن جابر بن عبد الله قال كان عبد الله بن أبي يقول لجارية له اذهبي فأبغينا كما شيئا فأنزل الله ولا تكرهوا فتياتكم على البغاء الآية وأخرج أيضا من هذا الطريق أن جارية لعبد الله
+
+</div>
+
 ## Place in the museum
 Sumber: [[work/lubab-al-nuqul-suyuti|as-Suyuti Lubab al-Nuqul]]. Ayatnya: [[passage/quran-24-33|Al-Qur'an 24-33]].

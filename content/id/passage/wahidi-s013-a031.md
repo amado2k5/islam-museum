@@ -10,5 +10,12 @@ Riwayat al-Wahidi tentang sebab turunnya ar-Ra'd 13:31, diriwayatkan dari genera
 
 The verse, in al-Wahidi's heading: «ولو أن قرآنا سيرت به الجبال».
 
+## Laporan lengkap (teks sumber Arab)
+<div dir="rtl" lang="ar">
+
+والصيف، فإنك تزعم أنك كهيئتهم، فبينا نحن حوله إذ نزل عليه الوحي، فلما
+
+</div>
+
 ## Place in the museum
 Sumber: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an al-Wahidi]]. Ayatnya: [[passage/quran-13-31|Al-Qur'an 13-31]].

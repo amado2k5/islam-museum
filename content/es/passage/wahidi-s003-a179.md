@@ -10,5 +10,12 @@ Informe de al-Wahidi sobre la ocasión de revelación de Al 'Imran 3:179, transm
 
 The verse, in al-Wahidi's heading: «ما كان الله ليذر المؤمنين على ما أنتم عليه».
 
+## Informe completo (texto fuente en árabe)
+<div dir="rtl" lang="ar">
+
+يعرفنا، فأنزل اللههذه الآية.
+
+</div>
+
 ## Place in the museum
 Fuente: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an de al-Wahidi]]. El versículo: [[passage/quran-3-179|Corán 3-179]].

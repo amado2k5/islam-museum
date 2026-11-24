@@ -10,5 +10,12 @@ Riwayat as-Suyuti tentang sebab turunnya an-Nisa 4:60, dalam Lubab al-Nuqul fi A
 
 The verse, in al-Suyuti's heading: «ألم تر إلى الذين يزعمون».
 
+## Laporan lengkap (teks sumber Arab)
+<div dir="rtl" lang="ar">
+
+ألم تر إلى الذين يزعمون أخرج ابن أبي حاتم والطبراني بسند صحيح عن ابن عباس قال كان ابو بزره الأسلمي كاهنا يقضي بين اليهود فيما يتنافرون فيه فتنافر إليه ناس من المسلمين فأنزل الله ألم تر إلى الذين يزعمون أنهم آمنوا إلى قوله إلا إحسانا
+
+</div>
+
 ## Place in the museum
 Sumber: [[work/lubab-al-nuqul-suyuti|as-Suyuti Lubab al-Nuqul]]. Ayatnya: [[passage/quran-4-60|Al-Qur'an 4-60]].

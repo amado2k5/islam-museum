@@ -10,5 +10,12 @@ Rapport d'al-Wahidi sur la circonstance de révélation de Al 'Imran 3:23, trans
 
 The verse, in al-Wahidi's heading: «ألم تر إلى الذين أوتوا نصيبا من الكتاب».
 
+## Rapport complet (texte source arabe)
+<div dir="rtl" lang="ar">
+
+اختلفوا في سبب نزولها، فقال السدي: دعا النبي-
+
+</div>
+
 ## Place in the museum
 Source : [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an d'al-Wahidi]]. Le verset : [[passage/quran-3-23|Coran 3-23]].

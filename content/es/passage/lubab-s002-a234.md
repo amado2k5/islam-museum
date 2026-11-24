@@ -10,5 +10,12 @@ Informe de al-Suyuti sobre la ocasión de revelación de al-Baqara 2:234, en Lub
 
 The verse, in al-Suyuti's heading: «والذين يتوفون منكم ويذرون أزواجا».
 
+## Informe completo (texto fuente en árabe)
+<div dir="rtl" lang="ar">
+
+والذين يتوفون منكم ويذرون أزواجا الآية أخرج إسحق ابن راهويه في تفسيره عن مقاتل بن حبان أن رجلا من أهل الطائف قدم المدينة وله أولاد رجال ونساء ومعه أبواه وامرأته فمات بالمدينة فرفع ذلك إلى النبي فأعطى الوالدين وأعطى أولاده بالمعروف
+
+</div>
+
 ## Place in the museum
 Fuente: [[work/lubab-al-nuqul-suyuti|de al-Suyuti Lubab al-Nuqul]]. El versículo: [[passage/quran-2-234|Corán 2-234]].

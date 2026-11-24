@@ -10,5 +10,12 @@ Informe de al-Wahidi sobre la ocasión de revelación de an-Najm 53:32, transmit
 
 The verse, in al-Wahidi's heading: «32».
 
+## Informe completo (texto fuente en árabe)
+<div dir="rtl" lang="ar">
+
+شقي أو سعيد"، فأنزل اللهعند ذلك هذه الآية: {هو أعلم بكم إذ أنشأكم
+
+</div>
+
 ## Place in the museum
 Fuente: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an de al-Wahidi]]. El versículo: [[passage/quran-53-32|Corán 53-32]].

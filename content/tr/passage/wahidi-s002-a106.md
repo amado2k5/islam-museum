@@ -10,5 +10,12 @@ al-Baqara 2:106 ayetinin nüzül sebebi hakkında El-Vahidi'nin rivayeti; Esbab 
 
 The verse, in al-Wahidi's heading: «ما ننسخ من آية أو ننسها نأت بخير منها».
 
+## Tam rivayet (Arapça kaynak metin)
+<div dir="rtl" lang="ar">
+
+القرآن إلا كلام محمد يقوله من تلقاء نفسه وهو كلام يناقض بعضه بعضا فأنزل
+
+</div>
+
 ## Place in the museum
 Kaynak: [[work/asbab-nuzul-wahidi|El-Vahidi'nin Esbab Nüzul el-Kur'an'ı]]. Ayet: [[passage/quran-2-106|Kur'an 2-106]].

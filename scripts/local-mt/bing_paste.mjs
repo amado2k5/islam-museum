@@ -7,8 +7,9 @@ import { chromium } from "playwright";
 
 const arg = (k, d) => { const i = process.argv.indexOf("--" + k); return i > -1 ? process.argv[i + 1] : d; };
 const DIR = arg("dir"), LANGS = arg("lang", "tr,id,fr,es").split(","), LIMIT = +arg("limit", 0);
+const SHARD = (arg("shard", "0/1")).split("/").map(Number);  // K/N: this worker takes files where idx % N == K
 const ANS = path.join(DIR, "answers"); fs.mkdirSync(ANS, { recursive: true });
-const LEDGER = path.join(DIR, "bing-ledger.json");
+const LEDGER = path.join(DIR, `bing-ledger-${SHARD[0]}.json`);
 const ledger = fs.existsSync(LEDGER) ? JSON.parse(fs.readFileSync(LEDGER, "utf8")) : {};
 const save = () => fs.writeFileSync(LEDGER, JSON.stringify(ledger, null, 1));
 const srcOf = f => { const m = f.match(/^r3-(tr|id|fr|es)-(\d+)/);
@@ -23,7 +24,8 @@ let done = 0, curSrc = null, curTo = null;
 for (const lang of LANGS) {
   const ldir = path.join(DIR, lang);
   if (!fs.existsSync(ldir)) continue;
-  const files = fs.readdirSync(ldir).filter(f => f.endsWith(".txt")).sort((a, b) => a.localeCompare(b, undefined, { numeric: true }));
+  const files = fs.readdirSync(ldir).filter(f => f.endsWith(".txt")).sort((a, b) => a.localeCompare(b, undefined, { numeric: true }))
+    .filter((_, i) => i % SHARD[1] === SHARD[0]);
   for (const f of files) {
     const key = `${lang}/${f}`;
     if (ledger[key] && !ledger[key].failed) continue;

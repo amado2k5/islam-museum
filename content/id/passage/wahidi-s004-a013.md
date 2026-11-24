@@ -10,5 +10,12 @@ Riwayat al-Wahidi tentang sebab turunnya an-Nisa 4:13, diriwayatkan dari generas
 
 The verse, in al-Wahidi's heading: «ومن يطع الله والرسول».
 
+## Laporan lengkap (teks sumber Arab)
+<div dir="rtl" lang="ar">
+
+قال الكلبي: نزلت في ثوبان مولى رسول الله- وكان
+
+</div>
+
 ## Place in the museum
 Sumber: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an al-Wahidi]]. Ayatnya: [[passage/quran-4-13|Al-Qur'an 4-13]].

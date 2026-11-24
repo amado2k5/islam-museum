@@ -10,5 +10,12 @@ an-Nisa 4:127 کے سببِ نزول پر الواحدی کی روایت — «�
 
 The verse, in al-Wahidi's heading: «ويستفتونك في النساء».
 
+## مکمل روایت ⁦(عربی ماخذ متن)⁩
+<div dir="rtl" lang="ar">
+
+استفتوا رسول الله- بعد هذه الآية فيهن، فأنزل الله
+
+</div>
+
 ## Place in the museum
 ماخذ: [[work/asbab-nuzul-wahidi|الواحدی کی اسباب نزول القرآن]]۔ آیت: [[passage/quran-4-127|قرآن 4-127]]۔

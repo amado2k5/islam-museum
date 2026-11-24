@@ -1,0 +1,13 @@
+---
+id: passage/quran-19-91
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (bing.com/translator paste loop, 2026-11-24), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Bing Translator)', model: microsoft-translator, run: bing-web-tr-2026-11-24, source: content/ar/passage/quran-19-91.md}
+---
+
+## Özet
+[[passage/quran-19|Meryem Suresi'nin]] 91. ayeti, Mekke suresidir. {cite:tanzil-quran}
+
+## Konumu
+Konumu: Suredeki 98 ayetten 91. ayet. Metin, donmuş Tazil'in Mushaf'ından korunmuş olup burada yeniden yazılmamıştır.

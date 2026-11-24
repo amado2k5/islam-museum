@@ -10,5 +10,12 @@ Rapport d'al-Wahidi sur la circonstance de révélation de al-Mu'minun 23:76, tr
 
 The verse, in al-Wahidi's heading: «ولقد أخذناهم بالعذاب فما استكانوا لربهم».
 
+## Rapport complet (texte source arabe)
+<div dir="rtl" lang="ar">
+
+فأنزل الله: {ولقد أخذناهم بالعذاب فما استكانوا لربهم وما يتضرعون}
+
+</div>
+
 ## Place in the museum
 Source : [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an d'al-Wahidi]]. Le verset : [[passage/quran-23-76|Coran 23-76]].

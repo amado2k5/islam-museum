@@ -10,5 +10,12 @@ Al 'Imran 3:128 کے سببِ نزول پر الواحدی کی روایت — �
 
 The verse, in al-Wahidi's heading: «ليس لك من الأمر شيء».
 
+## مکمل روایت ⁦(عربی ماخذ متن)⁩
+<div dir="rtl" lang="ar">
+
+" قال: فأنزل الله: {ليس لك من الأمر شيء أو يتوب عليهم أو
+
+</div>
+
 ## Place in the museum
 ماخذ: [[work/asbab-nuzul-wahidi|الواحدی کی اسباب نزول القرآن]]۔ آیت: [[passage/quran-3-128|قرآن 3-128]]۔

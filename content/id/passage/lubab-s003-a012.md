@@ -10,5 +10,12 @@ Riwayat as-Suyuti tentang sebab turunnya Al 'Imran 3:12, dalam Lubab al-Nuqul fi
 
 The verse, in al-Suyuti's heading: «قل للذين كفروا ستغلبون روى أبو داود في».
 
+## Laporan lengkap (teks sumber Arab)
+<div dir="rtl" lang="ar">
+
+قل للذين كفروا ستغلبون روى أبو داود في سننه والبيهقي في الدلائل من طريق ابن أسحق عن محمد بن أبي محمد عن سعيد أو عكرمة عن ابن عباس أن رسول الله لما أصاب من أهل بدر ما أصاب ورجع إلى المدينة
+
+</div>
+
 ## Place in the museum
 Sumber: [[work/lubab-al-nuqul-suyuti|as-Suyuti Lubab al-Nuqul]]. Ayatnya: [[passage/quran-3-12|Al-Qur'an 3-12]].

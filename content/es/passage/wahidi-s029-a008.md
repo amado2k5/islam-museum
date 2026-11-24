@@ -10,5 +10,12 @@ Informe de al-Wahidi sobre la ocasión de revelación de al-'Ankabut 29:8, trans
 
 The verse, in al-Wahidi's heading: «ووصينا الإنسان بوالديه حسنا».
 
+## Informe completo (texto fuente en árabe)
+<div dir="rtl" lang="ar">
+
+قال المفسرون: نزلت في سعد بن أبي وقاص وذلك أنه لما أسلم قالت له أمه
+
+</div>
+
 ## Place in the museum
 Fuente: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an de al-Wahidi]]. El versículo: [[passage/quran-29-8|Corán 29-8]].

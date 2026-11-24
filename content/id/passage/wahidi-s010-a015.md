@@ -10,5 +10,12 @@ Riwayat al-Wahidi tentang sebab turunnya Yunus 10:15, diriwayatkan dari generasi
 
 The verse, in al-Wahidi's heading: «وإذا تتلى عليهم آياتنا بينات قال الذين لا يرجون لقاءنا».
 
+## Laporan lengkap (teks sumber Arab)
+<div dir="rtl" lang="ar">
+
+قال مجاهد: نزلت في مشركي مكة.
+
+</div>
+
 ## Place in the museum
 Sumber: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an al-Wahidi]]. Ayatnya: [[passage/quran-10-15|Al-Qur'an 10-15]].

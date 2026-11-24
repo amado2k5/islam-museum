@@ -10,5 +10,12 @@ Al-Wahidi's report on the occasion of revelation of az-Zumar 39:22, narrated in 
 
 The verse, in al-Wahidi's heading: «أفمن شرح الله صدره للإسلام فهو على نور من ربه».
 
+## Full report (Arabic source text)
+<div dir="rtl" lang="ar">
+
+نزلت في حمزة وعلي وأبي لهب وولده، فعلي وحمزة ممن شرح الله صدره، وأبو
+
+</div>
+
 ## Place in the museum
 Source: [[work/asbab-al-nuzul-wahidi|al-Wahidi's Asbab nuzul al-Qur'an]]. The verse: [[passage/quran-39-22|Qur'an 39-22]].

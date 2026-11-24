@@ -10,5 +10,12 @@ Informe de al-Suyuti sobre la ocasión de revelación de Al 'Imran 3:144, en Lub
 
 The verse, in al-Suyuti's heading: «وما محمد إلا رسول».
 
+## Informe completo (texto fuente en árabe)
+<div dir="rtl" lang="ar">
+
+وما محمد إلا رسول الآية أخرج ابن المنذر عن عمر قال تفرقنا عن رسول الله يوم أحد فصعدت الجبل فسمعت يهود تقول قتل محمد فقلت لا أسمع أحدا يقول قتل محمد إلا ضربت عنقه فنظرت فإذا رسول الله
+
+</div>
+
 ## Place in the museum
 Fuente: [[work/lubab-al-nuqul-suyuti|de al-Suyuti Lubab al-Nuqul]]. El versículo: [[passage/quran-3-144|Corán 3-144]].

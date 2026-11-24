@@ -10,5 +10,12 @@ Bani Isra'il 17:110 کے سببِ نزول پر الواحدی کی روایت �
 
 The verse, in al-Wahidi's heading: «قل ادعوا الله أو ادعوا الرحمن».
 
+## مکمل روایت ⁦(عربی ماخذ متن)⁩
+<div dir="rtl" lang="ar">
+
+اليمامة، يعنون مسيلمة الكذاب، فأنزل اللههذه الآية.
+
+</div>
+
 ## Place in the museum
 ماخذ: [[work/asbab-nuzul-wahidi|الواحدی کی اسباب نزول القرآن]]۔ آیت: [[passage/quran-17-110|قرآن 17-110]]۔

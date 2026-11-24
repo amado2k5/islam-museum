@@ -10,5 +10,12 @@ Rapport d'al-Suyuti sur la circonstance de révélation de al-Ma'ida 5:19, dans 
 
 The verse, in al-Suyuti's heading: «يا أهل الكتاب قد جاءكم رسولنا».
 
+## Rapport complet (texte source arabe)
+<div dir="rtl" lang="ar">
+
+يا أهل الكتاب قد جاءكم رسولنا الآية أخرج ابن جرير عن عكرمة قال إن نبي الله أتاه اليهود يسألونه عن الرجم فقال أيكم اعلم فأشاروا إلى ابن صوريا فناشده بالذي أنزل التوارة على موسى والذي رفع الطور والمواثيق التي أخذت عليهم
+
+</div>
+
 ## Place in the museum
 Source : [[work/lubab-al-nuqul-suyuti|d'al-Suyuti Lubab al-Nuqul]]. Le verset: [[passage/quran-5-19|Coran 5-19]].

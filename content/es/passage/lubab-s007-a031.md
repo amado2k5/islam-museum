@@ -10,5 +10,12 @@ Informe de al-Suyuti sobre la ocasión de revelación de al-A'raf 7:31, en Lubab
 
 The verse, in al-Suyuti's heading: «خذوا زينتكم عند كل مسجد».
 
+## Informe completo (texto fuente en árabe)
+<div dir="rtl" lang="ar">
+
+خذوا زينتكم عند كل مسجد الآية روى مسلم عن ابن عباس قال كانت المرأة تطوف بالبيت في الجاهلية وهي عريانة وعلى فرجها خرقة وهي تقول اليوم يبدو بعضه أو كله وما بدا منه فلا أحله فنزلت خذوا زينتكم عند كل مسجد ونزلت قل من حرم
+
+</div>
+
 ## Place in the museum
 Fuente: [[work/lubab-al-nuqul-suyuti|de al-Suyuti Lubab al-Nuqul]]. El versículo: [[passage/quran-7-31|Corán 7-31]].

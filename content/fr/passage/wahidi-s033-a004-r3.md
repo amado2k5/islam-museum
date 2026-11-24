@@ -10,5 +10,12 @@ Rapport d'al-Wahidi sur la circonstance de révélation de al-Ahzab 33:4, transm
 
 The verse, in al-Wahidi's heading: «وما جعل أدعياءكم أبناءكم».
 
+## Rapport complet (texte source arabe)
+<div dir="rtl" lang="ar">
+
+نزلت في زيد بن حارثة كان عبدا لرسول الله- فأعتقه
+
+</div>
+
 ## Place in the museum
 Source : [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an d'al-Wahidi]]. Le verset : [[passage/quran-33-4|Coran 33-4]].

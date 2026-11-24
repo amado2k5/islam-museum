@@ -10,5 +10,12 @@ Rapport d'al-Suyuti sur la circonstance de révélation de Bara'a (at-Tawba) 9:8
 
 The verse, in al-Suyuti's heading: «فرح المخلفون».
 
+## Rapport complet (texte source arabe)
+<div dir="rtl" lang="ar">
+
+فرح المخلفون الآية أخرج ابن جرير عن ابن عباس قال أمر رسول الله الناس أن ينبعثوا معه وذلك في الصيف فقال رجال يا رسول الله الحر شديد ولا نستطيع الخروج فلا تنفر في الحر فأنزل الله قل نار جهنم أشد حرا
+
+</div>
+
 ## Place in the museum
 Source : [[work/lubab-al-nuqul-suyuti|d'al-Suyuti Lubab al-Nuqul]]. Le verset: [[passage/quran-9-81|Coran 9-81]].

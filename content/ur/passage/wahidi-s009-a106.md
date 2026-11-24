@@ -10,5 +10,12 @@ Bara'a (at-Tawba) 9:106 کے سببِ نزول پر الواحدی کی روای
 
 The verse, in al-Wahidi's heading: «وآخرون مرجون لأمر الله».
 
+## مکمل روایت ⁦(عربی ماخذ متن)⁩
+<div dir="rtl" lang="ar">
+
+نزلت في كعب بن مالك ومرارة بن الربيع أحد بني عمرو بن عوف وهلال بن أمية
+
+</div>
+
 ## Place in the museum
 ماخذ: [[work/asbab-nuzul-wahidi|الواحدی کی اسباب نزول القرآن]]۔ آیت: [[passage/quran-9-106|قرآن 9-106]]۔

@@ -10,5 +10,12 @@ Al-Wahidi's report on the occasion of revelation of al-Baqara 2:219, narrated fr
 
 The verse, in al-Wahidi's heading: «يسألونك ماذا ينفقون».
 
+## Full report (Arabic source text)
+<div dir="rtl" lang="ar">
+
+قال ابن عباس في رواية أبي صالح: نزلت في عمرو بن الجموح الأنصاري وكان
+
+</div>
+
 ## Place in the museum
 Source: [[work/asbab-al-nuzul-wahidi|al-Wahidi's Asbab nuzul al-Qur'an]]. The verse: [[passage/quran-2-219|Qur'an 2-219]].

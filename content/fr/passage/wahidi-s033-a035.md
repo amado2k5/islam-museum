@@ -10,5 +10,12 @@ Rapport d'al-Wahidi sur la circonstance de révélation de al-Ahzab 33:35, trans
 
 The verse, in al-Wahidi's heading: «إن المسلمين والمسلمات».
 
+## Rapport complet (texte source arabe)
+<div dir="rtl" lang="ar">
+
+هل نزل فينا شيء من القرآن؟
+
+</div>
+
 ## Place in the museum
 Source : [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an d'al-Wahidi]]. Le verset : [[passage/quran-33-35|Coran 33-35]].

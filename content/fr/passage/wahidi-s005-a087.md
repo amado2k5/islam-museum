@@ -10,5 +10,12 @@ Rapport d'al-Wahidi sur la circonstance de révélation de al-Ma'ida 5:87, trans
 
 The verse, in al-Wahidi's heading: «يا أيها الذين آمنوا لا تحرموا طيبات ما أحل الله لكم».
 
+## Rapport complet (texte source arabe)
+<div dir="rtl" lang="ar">
+
+انتشرت إلى النساء، وإني حرمت علي اللحم، فنزلت: {يا أيها الذين آمنوا لا
+
+</div>
+
 ## Place in the museum
 Source : [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an d'al-Wahidi]]. Le verset : [[passage/quran-5-87|Coran 5-87]].

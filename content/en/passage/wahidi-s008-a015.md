@@ -10,5 +10,12 @@ Al-Wahidi's report on the occasion of revelation of al-Anfal 8:15, narrated in A
 
 The verse, in al-Wahidi's heading: «يا أيها الذين آمنوا لا تخونوا الله والرسول».
 
+## Full report (Arabic source text)
+<div dir="rtl" lang="ar">
+
+نزلت في أبي لبابة بن عبد المنذر الأنصاري، وذلك أن رسول الله - صلى الله
+
+</div>
+
 ## Place in the museum
 Source: [[work/asbab-al-nuzul-wahidi|al-Wahidi's Asbab nuzul al-Qur'an]]. The verse: [[passage/quran-8-15|Qur'an 8-15]].

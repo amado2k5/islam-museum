@@ -10,5 +10,12 @@ Riwayat al-Wahidi tentang sebab turunnya ad-Duha 93:2, diriwayatkan dari generas
 
 The verse, in al-Wahidi's heading: «والضحى والليل إذا سجى ما ودعك ربك وما قلى».
 
+## Laporan lengkap (teks sumber Arab)
+<div dir="rtl" lang="ar">
+
+وسلم - ما أرى سيطانك إلا قد ودعك، فنزل: {والضحى والليل إذا سجى ما ودعك
+
+</div>
+
 ## Place in the museum
 Sumber: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an al-Wahidi]]. Ayatnya: [[passage/quran-93-2|Al-Qur'an 93-2]].
