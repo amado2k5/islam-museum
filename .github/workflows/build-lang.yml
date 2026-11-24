@@ -73,8 +73,12 @@ jobs:
         run: npm ci && npm ci --prefix site && npm ci --prefix workers/r2-sync
       - name: Test
         run: npm test
+        env:
+          NODE_OPTIONS: --max-old-space-size=12288
       - name: Worker unit tests (site routing and rules; R2 publish diff, resume and retry)
         run: node --test 'workers/site/test/*.test.mjs' workers/r2-sync/test/publish.test.mjs
+        env:
+          NODE_OPTIONS: --max-old-space-size=12288
 
   build:
     # The job name is what the deploy looks for: "build (es)".
