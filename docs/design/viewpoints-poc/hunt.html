@@ -1,0 +1,77 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><title>Treasure hunt · islam.museum</title><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Source+Serif+4:ital,wght@0,400;0,600;1,400&display=swap"><style>
+:root{--ivory:#f9f8f6;--ink:#1a1a1a;--lapis:#0a2533;--teal:#113f4e;--gold:#c5a059;--sand:#e6d5b8;
+--bg:#f9f8f6;--fg:#1a1a1a;--muted:#4a4a4a;--card:#ffffff;--line:rgba(10,37,51,.16);--panel:#f1ece1;--gold-text:#654a15;--link:#113f4e;
+--vp:#3B6D11;--vpt:#EAF3DE;--vpd:#c5a059;--vptd:#113f4e;--on:#ffffff;
+--serif:"Source Serif 4",Georgia,"Times New Roman",serif;--sans:Inter,system-ui,-apple-system,"Segoe UI",sans-serif}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0a2533;--fg:#f9f8f6;--muted:#c9d3d6;--card:#113f4e;--line:rgba(249,248,246,.18);--panel:#0e3342;--gold-text:#c5a059;--link:#9fd3d9;--vp:var(--vpd);--vpt:var(--vptd);--on:#0a2533;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#0a2533;--fg:#f9f8f6;--muted:#c9d3d6;--card:#113f4e;--line:rgba(249,248,246,.18);--panel:#0e3342;--gold-text:#c5a059;--link:#9fd3d9;--vp:var(--vpd);--vpt:var(--vptd);--on:#0a2533;color-scheme:dark}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font-family:var(--serif);font-size:1.0625rem;line-height:1.65}
+.wrap{max-width:60rem;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+a{color:var(--link)}h1,h2,h3{text-wrap:balance;line-height:1.2;margin:0}
+.ui{font-family:var(--sans)}
+.gl{flex:none}
+.top{background:var(--lapis);color:#f9f8f6;font-family:var(--sans);font-size:.9rem}
+.top .wrap{display:flex;align-items:center;gap:16px;padding-block:10px;flex-wrap:wrap}
+.top b{font-family:var(--serif);font-size:1.15rem;font-weight:600;letter-spacing:.01em}
+.top a{color:#e6d5b8;text-decoration:none}.top a:hover{text-decoration:underline}
+.vbar{margin-inline-start:auto;display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+.vbar .chip{display:inline-flex;align-items:center;gap:6px;padding:3px 10px;border-radius:999px;background:var(--vp);color:var(--on);font-weight:500}
+.hero{background:linear-gradient(160deg,#0a2533 0%,#113f4e 100%);color:#f9f8f6;border-bottom:4px solid var(--vp)}
+.hero .wrap{padding-block:44px 40px}
+.eyebrow{font-family:var(--sans);font-size:.8rem;letter-spacing:.14em;text-transform:uppercase;color:#e6d5b8;margin:0 0 10px}
+.hero h1{font-size:clamp(1.9rem,4.4vw,2.9rem);font-weight:600;max-width:24ch}
+.hero p.lede{font-size:1.15rem;max-width:44ch;margin:14px 0 22px;color:#e6edf0}
+.btn{display:inline-flex;align-items:center;gap:8px;min-height:44px;padding:0 18px;border-radius:999px;font-family:var(--sans);font-weight:500;font-size:.95rem;text-decoration:none;border:1.5px solid transparent;transition:transform .2s,background .2s}
+.btn.main{background:var(--vp);color:var(--on)}.btn.main:hover{transform:translateY(-2px)}
+.btn.ghost{border-color:#e6d5b8;color:#f9f8f6}.btn.ghost:hover{background:rgba(249,248,246,.1)}
+:focus-visible{outline:3px solid var(--gold);outline-offset:3px}
+section.blk{padding-block:34px}
+.blk h2{font-size:1.5rem;margin-bottom:6px}
+.blk .sub{font-family:var(--sans);font-size:.92rem;color:var(--muted);margin:0 0 16px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(15rem,1fr));gap:12px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:6px;padding:16px 18px;min-width:0}
+.card h3{font-size:1.05rem;margin-bottom:4px}.card p{margin:0;font-size:.97rem;color:var(--muted)}
+.thought{font-style:italic;font-size:1.05rem;border-inline-start:4px solid var(--vp);background:var(--vpt);color:var(--fg);padding:12px 16px;border-radius:0}
+.steps{list-style:none;margin:0;padding:0;counter-reset:s;display:grid;gap:10px}
+.steps li{counter-increment:s;display:grid;grid-template-columns:2.4rem 1fr auto;gap:12px;align-items:center;background:var(--card);border:1px solid var(--line);border-radius:6px;padding:12px 16px;min-width:0}
+.steps li::before{content:counter(s);width:2.1rem;height:2.1rem;border-radius:50%;background:var(--vp);color:var(--on);display:grid;place-items:center;font-family:var(--sans);font-weight:600;font-size:.9rem}
+.steps a{font-weight:600;text-decoration:none;color:var(--fg)}.steps a:hover{text-decoration:underline}
+.steps small{display:block;font-family:var(--sans);color:var(--muted);font-size:.85rem}
+.steps .min{font-family:var(--sans);font-size:.82rem;color:var(--muted);white-space:nowrap}
+.tl{list-style:none;margin:0;padding:0;border-inline-start:3px solid var(--vp);display:grid;gap:14px}
+.tl li{padding-inline-start:18px;position:relative}.tl li::before{content:"";position:absolute;inset-inline-start:-9px;top:.5em;width:15px;height:15px;border-radius:50%;background:var(--bg);border:3px solid var(--vp)}
+.tl b{font-family:var(--sans);font-size:.85rem;letter-spacing:.06em;text-transform:uppercase;color:var(--vp);display:block}
+.voices{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.voice{background:var(--card);border:1px solid var(--line);padding:12px 14px;border-radius:6px;font-size:.95rem}
+.voice small{display:block;font-family:var(--sans);font-size:.75rem;letter-spacing:.08em;text-transform:uppercase;color:var(--vp);margin-bottom:4px}
+.q{margin:0 0 8px;font-weight:600}
+.poc{font-family:var(--sans);font-size:.82rem;color:var(--muted);border-top:1px solid var(--line);padding-block:18px}
+.tag{display:inline-block;font-family:var(--sans);font-size:.78rem;padding:2px 10px;border-radius:999px;background:var(--vpt);color:var(--fg);margin:0 6px 6px 0;border:1px solid var(--line)}
+@media (max-width:620px){.voices{grid-template-columns:1fr}.steps li{grid-template-columns:2.4rem 1fr}.steps .min{grid-column:2}}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
+:root{--vp:#c5a059;--vpt:#f1ece1;--vpd:#c5a059;--vptd:#113f4e;--on:#0a2533}
+.tr{list-style:none;margin:0;padding:0;display:grid;gap:12px;counter-reset:c}
+.tr li{counter-increment:c;display:grid;grid-template-columns:2.6rem 1fr;gap:12px;align-items:start;position:relative}
+.tr li::before{content:counter(c);width:2.4rem;height:2.4rem;border-radius:50%;display:grid;place-items:center;font-family:var(--sans);font-weight:600;background:var(--card);border:2px solid var(--line);color:var(--muted)}
+.tr li.open::before{border-color:var(--gold);color:var(--gold-text);background:var(--card)}
+.tr li.done::before{content:"✓";background:var(--gold);border-color:var(--gold);color:#0a2533}
+.tr li.lock{opacity:.6}.tr li:not(:last-child)::after{content:"";position:absolute;inset-inline-start:1.2rem;top:2.4rem;height:calc(100% - 1.2rem);border-inline-start:2px dashed var(--line)}
+.clue{background:var(--card);border:1px solid var(--line);border-radius:6px;padding:14px 16px;min-width:0}
+.clue h3{font-size:1.05rem;margin:0 0 4px}.clue p{margin:0 0 10px;font-size:.98rem}
+.ans{display:flex;gap:8px;flex-wrap:wrap}.ans input{flex:1;min-width:10rem;min-height:44px;padding:0 12px;border:1.5px solid var(--line);border-radius:6px;background:var(--bg);color:var(--fg);font:inherit;font-family:var(--sans)}
+.ans button{min-height:44px;padding:0 18px;border-radius:999px;border:0;background:var(--gold);color:#0a2533;font-family:var(--sans);font-weight:600;cursor:pointer}
+.msg{font-family:var(--sans);font-size:.88rem;margin:8px 0 0;min-height:1.3em;color:var(--muted)}
+.prog{font-family:var(--sans);font-size:.9rem;color:#e6d5b8;margin:6px 0 0}
+.chest{display:none;text-align:center;border:2px solid var(--gold);border-radius:8px;padding:22px;margin-top:16px;background:var(--card)}
+.chest.on{display:block}
+</style></head><body><div class="top"><div class="wrap"><b>islam.museum</b><a href="index.html">Home</a><a href="#">Halls</a><a href="hunt.html">Treasure hunt</a></div></div><header class="hero" style="border-bottom-color:#c5a059"><div class="wrap"><p class="eyebrow">Treasure hunt</p><h1>Seven clues. One treasure.</h1><p class="lede">Each clue points to a page in the museum. The answer is a word you find there. No account, nothing sent anywhere.</p><p class="prog ui" id="prog">0 of 7 found</p></div></header><main><div class="wrap"><section class="blk"><h2>The Prophet's road</h2><p class="sub">Today's hunt. Sample clues; the final hunts will each link to the real page.</p><ol class="tr" id="tr"><li data-a="jerusalem"><div class="clue"><h3>The Night Journey</h3><p>One night, from a sacred mosque to the farthest. Which city holds the farthest one?</p><div class="ans"><input type="text" aria-label="Your answer to clue 1" placeholder="Your answer"><button type="button">Check</button></div><p class="msg" role="status"></p></div></li><li data-a="hira"><div class="clue"><h3>The first revelation</h3><p>A cave on a mountain near Mecca, a single word to begin. What is the mountain called?</p><div class="ans"><input type="text" aria-label="Your answer to clue 2" placeholder="Your answer"><button type="button">Check</button></div><p class="msg" role="status"></p></div></li><li data-a="kaaba"><div class="clue"><h3>The year of the elephant</h3><p>A king came with an elephant to a house of worship and turned back. Which house?</p><div class="ans"><input type="text" aria-label="Your answer to clue 3" placeholder="Your answer"><button type="button">Check</button></div><p class="msg" role="status"></p></div></li><li data-a="khadija"><div class="clue"><h3>The first to believe</h3><p>The first person to accept the message, after hearing it at home. Who?</p><div class="ans"><input type="text" aria-label="Your answer to clue 4" placeholder="Your answer"><button type="button">Check</button></div><p class="msg" role="status"></p></div></li><li data-a="thawr"><div class="clue"><h3>A flight by night</h3><p>The Prophet and his friend hid in a cave on the road to Medina. Which mountain?</p><div class="ans"><input type="text" aria-label="Your answer to clue 5" placeholder="Your answer"><button type="button">Check</button></div><p class="msg" role="status"></p></div></li><li data-a="salman"><div class="clue"><h3>A trench</h3><p>A city defended by digging, a Persian idea. Whose?</p><div class="ans"><input type="text" aria-label="Your answer to clue 6" placeholder="Your answer"><button type="button">Check</button></div><p class="msg" role="status"></p></div></li><li data-a="arafat"><div class="clue"><h3>The farewell</h3><p>A last pilgrimage and a sermon to the people. On which plain?</p><div class="ans"><input type="text" aria-label="Your answer to clue 7" placeholder="Your answer"><button type="button">Check</button></div><p class="msg" role="status"></p></div></li></ol><div class="chest" id="chest"><h2>You found the treasure</h2><p>Open the museum's record of the day: a remarkable page chosen for you.</p><a class="btn main" href="#" style="--vp:#c5a059;--on:#0a2533">Open the treasure</a></div></section><section class="blk"><h2>More hunts</h2><div class="grid"><div class="card"><h3>Daily hunt</h3><p>Seven new clues every day.</p></div><div class="card"><h3>For children</h3><p>Shorter clues, bigger pictures.</p></div><div class="card"><h3>By viewpoint</h3><p>A hunt for each viewpoint: new to Islam, researching, curious.</p></div></div></section></div></main><script>
+(function(){var K="poc-hunt",done=[];try{done=JSON.parse(localStorage.getItem(K)||"[]")}catch(e){}
+var items=[].slice.call(document.querySelectorAll("#tr li"));
+function paint(){var n=0;items.forEach(function(li,i){var d=done.indexOf(i)>-1;if(d)n++;li.className=d?"done":(i===0||done.indexOf(i-1)>-1)?"open":"lock";li.querySelectorAll("input,button").forEach(function(x){x.disabled=li.className!=="open"})});
+document.getElementById("prog").textContent=n+" of 7 found";document.getElementById("chest").className="chest"+(n===7?" on":"")}
+items.forEach(function(li,i){var b=li.querySelector("button"),inp=li.querySelector("input"),m=li.querySelector(".msg");
+function go(){if(inp.value.trim().toLowerCase()===li.getAttribute("data-a")){m.textContent="Found it.";if(done.indexOf(i)<0)done.push(i);try{localStorage.setItem(K,JSON.stringify(done))}catch(e){}paint()}else{m.textContent="Not quite. Look again at the page the clue points to."}}
+b.addEventListener("click",go);inp.addEventListener("keydown",function(e){if(e.key==="Enter")go()})});
+paint()})();
+</script><div class="wrap"><p class="poc">Proof of concept. Sample text in English only; the real pages will be written in all five languages and checked against the museum's sources. Links to halls are placeholders.</p></div></body></html>
