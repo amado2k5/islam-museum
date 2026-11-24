@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-7-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن «تبارك» تفاعل من البركة، وينقل عن ابن عباس أنه كقولهم تقدس ربنا. ويفسّر بأن الله تبارك الذي نزّل الفرقان، أي الفصل بين الحق والباطل، على عبده ليكون للعالمين نذيراً. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=25&tAyahNo=1&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «تَبَارَكَ ٱلَّذِي نَزَّلَ ٱلْفُرْقَانَ عَلَىٰ عَبْدِهِ لِيَكُونَ لِلْعَالَمِينَ نَذِيراً»: قال أبو جعفر: تبارك: تَفاعَلَ من البركة، كما: وعن الضحاك، عن عبد الله بن عباس، قال: تبارك: تَفَاعَلَ من البركة. وهو كقول القائل: تقدّس ربنا، فقوله: «تَبارَكَ الَّذِي نَزَّلَ الفُرْقانَ» يقول: تبارك الذي نزّل الفصل بين الحقّ والباطل، فصلاً بعد فصل وسورة بعد سُورة، على عبده محمد، ليكون محمد لجميع الجنّ والإنس الذين بعثه الله إليهم داعياً إليه، نذيراً: يعني منذِراً يُنذرهم عِقابه ويخوّفهم عذابه، إن لم يوحدوه ولم يخلصوا له العبادة ويخلعوا كلّ ما دونه من الآلهة والأوثان. وينقل في المقطع أقوالاً عن الضحاك وابن زيد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=25&tAyahNo=1&tDisplay=yes&UserProfile=0&LanguageId=1

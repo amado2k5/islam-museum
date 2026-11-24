@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-7-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن الله يخاطب نبيه: انظر كيف ضربوا لك الأمثال، أي شبّهوا لك الأشباه بقولهم هو مسحور، فضلّوا فلا يستطيعون سبيلاً، أي لا يجدون إلى الحق طريقاً إلا فيما بعثك به. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=25&tAyahNo=9&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 9 إلى 10 مقطعاً واحداً. يفسّر قوله «ٱنظُرْ كَيْفَ ضَرَبُواْ لَكَ ٱلأَمْثَالَ فَضَلُّواْ فَلاَ يَسْتَطِيعُونَ سَبِيلاً»: انظر يا محمد إلى هؤلاء المشركين الذين شبهوا لك الأشباه بقولهم لك: هو مسحور، فضلُّوا بذلك عن قصد السبيل وأخطئوا طريق الهُدَى والرشاد «فلا يَسْتَطِيعُونَ» يقول: فلا يجدون «سَبِيلاً» إلى الحقّ، إلاَّ فيما بعثتك به، ومن الوجه الذي ضلوا عنه. وينقل في المقطع أقوالاً عن ابن عباس ومجاهد وابن إسحاق.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=25&tAyahNo=9&tDisplay=yes&UserProfile=0&LanguageId=1

@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-7-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن الكافرين قالوا إن هذا القرآن إلا إفك افتراه، أي كذب وبهتان اختلقه، وأعانه عليه قوم آخرون، ويذكر أنهم كانوا يقولون إن اليهود يعلّمونه، فقد جاؤوا ظلماً وزوراً. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=25&tAyahNo=4&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَقَالَ ٱلَّذِينَ كَفَرُوۤاْ إِنْ هَٰذَا إِلاَّ إِفْكٌ ٱفْتَرَاهُ وَأَعَانَهُ عَلَيْهِ قَوْمٌ آخَرُونَ فَقَدْ جَآءُوا ظُلْماً وَزُوراً»: وقال هؤلاء الكافرون بالله الذين اتخذوا من دونه آلهة: ما هذا القرآن الذي جاءنا به محمد «إلاَّ إفْكٌ» يعني: إلاَّ كذب وبُهتان، «افْتَرَاهُ» اختلقه وتخرّصه بقوله، «وأعانَهُ عَلَيْهِ قَوْمٌ آخَرُونَ» ذكر أنهم كانوا يقولون: إنما يُعَلِّم محمداً هذا الذي يجيئنا به اليهود، فذلك قوله: «وأعانَهُ عَلَيْهِ قَوْمٌ آخَرُونَ» يقول: وأعان محمداً على هذا الإفك الذي افتراه يهود. وينقل في المقطع أقوالاً عن مجاهد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=25&tAyahNo=4&tDisplay=yes&UserProfile=0&LanguageId=1

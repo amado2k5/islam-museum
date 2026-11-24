@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-8-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري الآيات 18 إلى 19 معاً في موضع واحد. يبيّن الطبري أن في الكلام محذوفاً دلّ عليه الظاهر، وهو أن موسى وهارون أبلغا فرعون الرسالة، فقال لموسى: ألم نربّك فينا وليداً ولبثت فينا سنين من عمرك، وفعلت فعلتك التي فعلت، يعني قتله القبطي، وأنت من الكافرين. وينقل عن مجاهد في فعلتك أنها قتل النفس. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=26&tAyahNo=18&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 18 إلى 19 مقطعاً واحداً. يفسّر قوله «قَالَ أَلَمْ نُرَبِّكَ فِينَا وَلِيداً وَلَبِثْتَ فِينَا مِنْ عُمُرِكَ سِنِينَ»: وفي هذا الكلام محذوف استغني بدلالة ما ظهر عليه منه، وهو: فأتيا فرعون فأبلغاه رسالة ربهما إليه، فقال فرعون: ألم نر بك فينا يا موسى وليداً، ولبثت فينا من عمرك سنين؟ وذلك مكثه عنده قبل قتله القتيل الذي قتله من القبط، وفعلت فعلتك التي فعلت يعني: قتله النفس التي قتل من القبط. وينقل في المقطع أقوالاً عن ابن عباس ومجاهد وابن زيد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=26&tAyahNo=18&tDisplay=yes&UserProfile=0&LanguageId=1

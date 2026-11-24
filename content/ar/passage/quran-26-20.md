@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-8-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري الآيات 20 إلى 21 معاً في موضع واحد. يفسّر الطبري جواب موسى بأنه فعل ذلك وهو من الضالين، أي من الجاهلين قبل أن يوحى إليه بتحريم القتل عليه، ويذكر أن العرب تضع الضلال موضع الجهل والعكس، وينقل ذلك عن مجاهد وابن جريج. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=26&tAyahNo=20&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 20 إلى 21 مقطعاً واحداً. يفسّر قوله «قَالَ فَعَلْتُهَآ إِذاً وَأَنَاْ مِنَ ٱلضَّالِّينَ»: قال موسى لفرعون: فعلت تلك الفعلة التي فعلت، أي قتلت تلك النفس التي قتلتُ إذن وأنا من الضالين. يقول: وأنا من الجاهلين قبل أن يأتيني من الله وحي بتحريم قتله عليّ. والعرب تضع من الضلال موضع الجهل، والجهل موضع الضلال، فتقول: قد جهل فلان الطريق وضلّ الطريق، بمعنى واحد. وينقل في المقطع أقوالاً عن ابن عباس ومجاهد وقتادة والسدي وابن زيد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=26&tAyahNo=20&tDisplay=yes&UserProfile=0&LanguageId=1

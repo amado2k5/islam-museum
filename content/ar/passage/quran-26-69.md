@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-8-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري الآيات 69 إلى 71 معاً في موضع واحد. يأمر الله نبيه أن يقصّ على قومه المشركين خبر إبراهيم حين سأل أباه وقومه عما يعبدون، فقالوا نعبد أصناماً فنظل لها عاكفين، أي مقيمين على عبادتها وخدمتها، وينقل عن ابن عباس أن المراد الصلاة لأصنامهم. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=26&tAyahNo=69&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 69 إلى 71 مقطعاً واحداً. يفسّر قوله «وَٱتْلُ عَلَيْهِمْ نَبَأَ إِبْرَاهِيمَ»: واقصص على قومك من المشركين يا محمد خبر إبراهيم حين قال لأبيه وقومه: أيَّ شيء تعبدون؟ «قَالوا» له: «نَعْبُدُ أصْنَاما فَنَظَلُّ لَهَا عَاكِفِين» يقول: فنظلّ لها خدما مقيمين على عبادتها وخدمتها. وقد بيَّنا معنى العكوف بشواهده فيما مضى قبل، بما أغنى عن إعادته في هذا الموضع. وكان ابن عباس فيما روي عنه يقول في معنى ذلك ما. وقال: ثني حجاج، عن ابن جُرَيج، قال: قال ابن عباس، قوله: وينقل في المقطع أقوالاً عن ابن عباس.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=26&tAyahNo=69&tDisplay=yes&UserProfile=0&LanguageId=1

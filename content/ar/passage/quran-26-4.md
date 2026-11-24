@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-8-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يذكر الطبري اختلاف أهل التأويل في معنى خضوع الأعناق: فقيل إن القوم الذين تنزل عليهم آية من السماء تخضع أعناقهم لها ذلة، وينقل ذلك عن مجاهد، وعن قتادة أن الله لو شاء لأنزل آية يذلون بها فلا يلوي أحد عنقه إلى معصية الله. ويعرض أقوالاً أخرى في المقطع نفسه. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=26&tAyahNo=4&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «إِن نَّشَأْ نُنَزِّلْ عَلَيْهِمْ مِّنَ ٱلسَّمَآءِ آيَةً فَظَلَّتْ أَعْنَاقُهُمْ لَهَا خَاضِعِينَ»: اختلف أهل التأويل في تأويل قوله: «فَظَلَّتْ أعْناقُهُمْ...» الآية، فقال بعضهم: معناه: فظلّ القوم الذين أنزل عليهم من السماء آية خاضعة أعناقهم لها من الذَلَّة. وينقل في المقطع أقوالاً عن ابن عباس ومجاهد وابن زيد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=26&tAyahNo=4&tDisplay=yes&UserProfile=0&LanguageId=1

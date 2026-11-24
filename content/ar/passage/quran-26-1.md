@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-8-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري الآيات 1 إلى 3 معاً في موضع واحد. يحيل الطبري في الحروف المقطعة التي تبدأ بها السورة إلى ما سبق أن فصّله في فواتح السور، ويقول إن الخلاف فيها واحد. وينقل عن ابن عباس أن «طسم» قسم أقسم الله به وهو من أسمائه، وعن قتادة أنه اسم من أسماء القرآن. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=26&tAyahNo=1&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 1 إلى 3 مقطعاً واحداً. يفسّر قوله «طسۤمۤ»: قال أبو جعفر: وقد ذكرنا اختلاف المختلفين فيما في ابتداء فواتح سور القرآن من حروف الهجاء، وما انتزع به كلّ قائل منهم لقوله ومذهبه من العلة. وقد بيَّنا الذي هو أولى بالصواب من القول فيه فيما مضى من كتابنا هذا بما أغنى عن إعادته، وقد ذكر عنهم من الاختلاف في قوله: طسم وطس، نظير الذي ذكر عنهم في: آلم والمر والمص. وقد: قال: ثني معاوية، عن عليّ، عن ابن عباس، في قوله «طسم» قال: فإنه قسم أقسمه الله، وهو من أسماء الله. اسم من أسماء القرآن. وينقل في المقطع أقوالاً عن ابن عباس.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=26&tAyahNo=1&tDisplay=yes&UserProfile=0&LanguageId=1

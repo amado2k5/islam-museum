@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-8-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يذكر الطبري اختلاف أهل التأويل في الزور الذي لا يشهده هؤلاء: فقيل الشرك بالله، وقيل الغناء، وقيل قول الكذب، وهي أقوال مروية عن الضحاك ومجاهد وابن زيد وابن جريج. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=25&tAyahNo=72&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَٱلَّذِينَ لاَ يَشْهَدُونَ الزُّورَ وَإِذَا مَرُّواْ بِاللَّغْوِ مَرُّوا كِراماً»: اختلف أهل التأويل في معنى الزور الذي وصف الله هؤلاء القوم بأنهم لا يشهدونه، فقال بعضهم: معناه الشرك بالله. وينقل في المقطع أقوالاً عن مجاهد والضحاك وابن زيد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=25&tAyahNo=72&tDisplay=yes&UserProfile=0&LanguageId=1

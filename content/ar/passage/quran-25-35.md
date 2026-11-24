@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-7-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن الله يتوعد مشركي قوم النبي على كفرهم وتكذيبهم رسوله، ويخوّفهم من حلول نقمته بهم، نظير ما حلّ بالأمم المكذبة رسلها، فقد آتى موسى الكتاب، وهو التوراة، وجعل معه أخاه هارون وزيراً، أي معيناً وظهيراً. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=25&tAyahNo=35&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 35 إلى 36 مقطعاً واحداً. يفسّر قوله «وَلَقَدْ آتَيْنَا مُوسَى ٱلْكِتَابَ وَجَعَلْنَا مَعَهُ أَخَاهُ هَارُونَ وَزِيراً»: يقول تعالى ذكره لنبيه محمد يتوعد مشركي قومه على كفرهم بالله، وتكذيبهم رسوله ويخوّفهم من حلول نقمته بهم، نظير الذي يحلّ بمن كان قبلهم من الأمم المكذّبة رسلها: «وَلَقَدْ آتَيْنا» يا محمد «مُوسَى الكِتابَ» يعني التوراة، كالذي آتيناك من الفرقان «وَجَعَلْنا مَعَهُ أخَاهُ هارُونَ وَزِيراً» يعني: معيناً وظهيراً «فقُلْنا اذْهَبا إلى القَوْمِ الَّذِينَ كَذَّبُوا بآياتِنا» يقول: فقلنا لهما: اذهبا إلى فرعون وقومه الذي كذّبوا بإعلامنا وأدلتنا، فدمرناهم تدميراً. وفي الكلام متروك استغني بدلالة ما ذكر من ذكره وهو: فذهبا فكذبوهما، فدمرناهم حينئذٍ.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=25&tAyahNo=35&tDisplay=yes&UserProfile=0&LanguageId=1

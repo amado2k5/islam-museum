@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-7-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن الظالم المشرك يعضّ يديه ندماً وأسفاً على ما فرّط في جنب الله وأهلك نفسه بالكفر في طاعة خليله الذي صدّه عن سبيل ربه، ويقول: يا ليتني اتخذت مع الرسول سبيلاً، أي طريقاً إلى النجاة من عذاب الله. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=25&tAyahNo=27&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 27 إلى 29 مقطعاً واحداً. يفسّر قوله «وَيَوْمَ يَعَضُّ ٱلظَّالِمُ عَلَىٰ يَدَيْهِ يَقُولُ يٰلَيْتَنِي ٱتَّخَذْتُ مَعَ ٱلرَّسُولِ سَبِيلاً»: ويوم يعضّ الظالم نفسه المشرك بربه على يديه ندماً وأسفاً على ما فرط في جنب الله وأوبق نفسه بالكفر به في طاعة خليله الذي صدّه عن سبيل ربه، يقول: يا ليتني اتخذت في الدنيا مع الرسول سبيلاً، يعني طريقاً إلى النجاة من عذاب الله. وقوله «يا وَيْلَتا لَيْتَنِي لَمْ أتَّخِذْ فُلانا خَلِيلاً» اختلف أهل التأويل في المعنيّ بقوله: «فُلاَناً»، فقال بعضهم: عني بالظالم: عقبة بن أبي مُعَيط، لأنه ارتدّ بعد إسلامه، طلباً لرضا أُبيّ بن خلف، وقالوا: فلان هو أُبيّ. وينقل في المقطع أقوالاً عن ابن عباس ومجاهد وعطاء.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=25&tAyahNo=27&tDisplay=yes&UserProfile=0&LanguageId=1

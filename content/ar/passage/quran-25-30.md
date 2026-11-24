@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-7-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن الرسول يقول يوم يعضّ الظالم على يديه: يا ربّ إن قومي الذين بعثتني إليهم لأدعوهم إلى توحيدك اتخذوا هذا القرآن مهجوراً. ويعرض اختلاف أهل التأويل في معنى هجره: فقيل قولهم فيه السيئ من القول، وقيل تركهم الاستماع إليه والعمل به. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=25&tAyahNo=30&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 30 إلى 31 مقطعاً واحداً. يفسّر قوله «وَقَالَ ٱلرَّسُولُ يٰرَبِّ إِنَّ قَوْمِي ٱتَّخَذُواْ هَٰذَا ٱلْقُرْآنَ مَهْجُوراً»: وقال الرسول يوم يعضّ الظالم على يديه: يا ربّ إن قومي الذين بعثتني إليهم لأدعوهم إلى توحيدك اتخذوا هذا القرآن مهجوراً. واختلف أهل التأويل في معنى اتخاذهم القرآن مهجوراً، فقال بعضهم: كان اتخاذهم ذلك هُجراً، قولهم فيه السيىء من القول، وزعمهم أنه سحر، وأنه شعر. وينقل في المقطع أقوالاً عن ابن عباس ومجاهد وابن زيد وإبراهيم.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=25&tAyahNo=30&tDisplay=yes&UserProfile=0&LanguageId=1

@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-8-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يذكر الطبري أن الله خلق من النطفة بشراً فجعله نسباً وصهراً، وينقل عن الضحاك أن النسب سبع من المحرمات في آية التحريم، والصهر خمس منها، ثم يقول إن ربك ذو قدرة على خلق ما يشاء وتصريفهم فيما أراد. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=25&tAyahNo=54&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَهُوَ ٱلَّذِي خَلَقَ مِنَ ٱلْمَآءِ بَشَراً فَجَعَلَهُ نَسَباً وَصِهْراً وَكَانَ رَبُّكَ قَدِيراً»: والله الذي خلق من النطف بشراً إنساناً فجعله نسباً، وذلك سبعة، وصهراً، وهو خمسة. كما: حُدثت عن الحسين، قال: سمعت أبا معاذ يقول: سمعت الضحاك يقول في قوله «فجَعَلَهُ نَسَباً وَصِهْراً»: النسب: سبع، قوله:«حُرّمَتْ عَلَيْكُمْ أُمَّهاتُكُمْ...» إلى قوله«وَبَناتُ الأُخْتِ» والصهر خمس، قوله:«وأُمَّهاتُكُمُ اللاَّتِي أرْضَعْنَكُمْ...» إلى قوله«وَحَلائِلُ أبْنائِكُمُ الَّذِينَ مِنْ أصْلابِكُمْ» وقوله: «وكانَ رَبُّكَ قَدِيراً» يقول: وربك يا محمد ذو قدرة على خلق ما يشاء من الخلق، وتصريفهم فيما شاء وأراد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=25&tAyahNo=54&tDisplay=yes&UserProfile=0&LanguageId=1

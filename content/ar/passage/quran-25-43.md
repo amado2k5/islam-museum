@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-7-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يذكر الطبري أن الله يخاطب نبيه: أرأيت من اتخذ إلهه هواه، أي شهوته التي يهواها، وكان الرجل من المشركين يعبد الحجر فإذا رأى أحسن منه رمى به وأخذ الآخر، فكان معبوده ما يختاره لنفسه. أفأنت تكون عليه وكيلاً، أي حفيظاً على أفعاله مع عظيم جهله. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=25&tAyahNo=43&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 43 إلى 44 مقطعاً واحداً. يفسّر قوله «أَرَأَيْتَ مَنِ ٱتَّخَذَ إِلَٰهَهُ هَوَاهُ أَفَأَنتَ تَكُونُ عَلَيْهِ وَكِيلاً»: يعني تعالى ذكره: «أرَأيْتَ» يا محمد «مَنِ اتَّخَذَ إلَههُ» شهوتَه التي يهواها وذلك أن الرجل من المشركين كان يعبد الحجر، فإذا رأى أحسن منه رمى به، وأخذ الآخر يعبده، فكان معبوده وإلهه ما يتخيره لنفسه فلذلك قال جلّ ثناؤه «أرأيْتَ مَنَ اتَّخَذَ إلَهَهُ هَوَاهُ، أفأنْتَ تَكُونُ عَلَيْهِ وَكِيلاً» يقول تعالى ذكره: أفأنت تكون يا محمد على هذا حفيظاً في أفعاله مع عظيم جهله؟ «أم تَحْسبُ» يا محمد أن أكثر هؤلاء المشركين «يَسْمعُونَ» ما يُتلى عليهم، فيعون «أوْ يَعْقِلُونَ» ما يعاينون من حجج الله، فيفهمون؟
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=25&tAyahNo=43&tDisplay=yes&UserProfile=0&LanguageId=1

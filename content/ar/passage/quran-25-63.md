@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-8-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يفسّر الطبري المشي هوناً بأنه المشي بالحلم والسكينة والوقار، غير مستكبرين ولا متجبرين ولا ساعين في الأرض بالفساد، وينقل عن مجاهد، ويذكر قولاً آخر أنه بمعنى التواضع. ويذكر في المقطع نفسه قولاً آخر في معنى الهون بأنه التواضع. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=25&tAyahNo=63&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَعِبَادُ ٱلرَّحْمَٰنِ ٱلَّذِينَ يَمْشُونَ عَلَىٰ ٱلأَرْضِ هَوْناً وَإِذَا خَاطَبَهُمُ الجَاهِلُونَ قَالُواْ سَلاَماً»: «وَعِبادُ الرَّحْمَنِ الَّذِينَ يَمْشُونَ عَلى الأرْضِ هَوْناً» بالحلم والسكينة والوقار غير مستكبرين، ولا متجبِّرين، ولا ساعين فيها بالفساد ومعاصي الله. وينقل في المقطع أقوالاً عن ابن عباس ومجاهد وعكرمة وابن زيد وسفيان.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=25&tAyahNo=63&tDisplay=yes&UserProfile=0&LanguageId=1

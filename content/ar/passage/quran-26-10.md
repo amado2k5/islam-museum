@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-8-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري الآيات 10 إلى 11 معاً في موضع واحد. يذكر الطبري أن الله نادى موسى بن عمران أن يأتي القوم الظالمين، وهم الكافرون من قوم فرعون، وأن يقول لهم ألا يتقون عقاب الله على كفرهم، وبيّن وجه النصب في «القوم» الثاني وعلّة التعبير بالياء، وأن التاء كانت تصح لو قُرئ بها. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=26&tAyahNo=10&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 10 إلى 11 مقطعاً واحداً. يفسّر قوله «وَإِذْ نَادَىٰ رَبُّكَ مُوسَىٰ أَنِ ٱئْتِ ٱلْقَوْمَ ٱلظَّالِمِينَ»: واذكر يا محمد إذ نادى ربك موسى بن عمران «أنِ ائْتِ القَوْمَ الظَّالِمِينَ» يعني الكافرين قوم فرعون، ونصب القوم الثاني ترجمة عن القوم الأوّل، وقوله «ألا يَتَّقُونَ» يقول: ألا يتقون عقاب الله على كفرهم به. ومعنى الكلام: قوم فرعون فقل لهم: ألا يتقون. وترك إظهار فقل لهم لدلالة الكلام عليه. وإنما قيل: ألا يتقون بالياء، ولم يقل ألا تتقون بالتاء، لأن التنزيل كان قبل الخطاب، ولو جاءت القراءة فيها بالتاء كان صواباً، كما قيل: قُلْ لِلَّذِينَ كَفَرُوا سيُغلبونَ و«ستُغلبونَ».
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=26&tAyahNo=10&tDisplay=yes&UserProfile=0&LanguageId=1

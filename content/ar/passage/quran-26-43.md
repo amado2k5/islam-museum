@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-8-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري الآيات 41 إلى 44 معاً في موضع واحد. يبيّن الطبري أن السحرة جاؤوا فرعون فسألوه أجراً إن كانوا الغالبين، فوعدهم بنعم وأنهم من المقربين، ثم قال لهم موسى ألقوا ما أنتم ملقون فألقوا حبالهم وعصيهم وأقسموا بعزة فرعون أنهم الغالبون، وهي قوة سلطانه ومنعة ملكه. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=26&tAyahNo=43&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 41 إلى 44 مقطعاً واحداً. يفسّر قوله «قَالَ لَهُمْ مُّوسَىٰ أَلْقُواْ مَآ أَنتُمْ مُّلْقُونَ»: من حبالكم وعصيكم «فَأَلَقُوا حِبالَهُمْ وَعِصِيَّهُمْ» من أيديهم «وَقالُوا بعزَّةِ فرْعَوْنَ» يقول: أقسموا بقوّة فرعون وشدّة سلطانه، ومنعة مملكته «إنَّا لَنَحْنُ الغالِبُونَ» موسى.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=26&tAyahNo=43&tDisplay=yes&UserProfile=0&LanguageId=1

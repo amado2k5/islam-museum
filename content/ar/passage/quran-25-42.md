@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-7-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن هؤلاء المشركين يقولون إذا رأوه إنه كاد ليضلنا عن آلهتنا لولا أن صبرنا عليها وثبتنا على عبادتها، ويقول الله إنهم سوف يعلمون حين يرون العذاب من أضلّ سبيلاً. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=25&tAyahNo=42&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «إِن كَادَ لَيُضِلُّنَا عَنْ آلِهَتِنَا لَوْلاَ أَن صَبْرَنَا عَلَيْهَا وَسَوْفَ يَعْلَمُونَ حِينَ يَرَوْنَ ٱلْعَذَابَ مَنْ أَضَلُّ سَبِيلاً»: يقول تعالى ذكره مخبراً عن هؤلاء المشركين الذين كانوا يهزءون برسول الله: إنهم يقولون إذا رأوه: قد كاد هذا يضلنا عن آلهتنا التي نعبدها، فيصدّنا عن عبادتها لولا صبرنا عليها، وثبوتنا على عبادتها. «وَسَوْفَ يَعْلَمُونَ حِينَ يَرَوْنَ العذَابَ» يقول جلّ ثناؤه: سيبين لهم حين يعاينون عذاب الله قد حلّ بهم على عبادتهم الآلهة «مَنْ أضَلُّ سَبِيلاً» يقول: من الراكب غير طريق الهدى، والسالك سبيل الردى أنت أوهم. وبنحو ما قلنا في تأويل قوله «لَوْلا أن صَبرْنا عَلَيْها» قال أهل التأويل.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=25&tAyahNo=42&tDisplay=yes&UserProfile=0&LanguageId=1

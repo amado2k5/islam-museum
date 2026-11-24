@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-7-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن أصحاب الجنة يومئذ خير مستقراً وأحسن مقيلاً من هؤلاء المجرمين، أي هم في منزل خير ومقام أحسن في الجنة، حين يقيلون عند انتهاء الحساب. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=25&tAyahNo=24&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 24 إلى 25 مقطعاً واحداً. يفسّر قوله «وَقَدِمْنَآ إِلَىٰ مَا عَمِلُواْ مِنْ عَمَلٍ فَجَعَلْنَاهُ هَبَآءً مَّنثُوراً»: «وَقَدِمْنَا» وعمدنا إلى ما عمل هؤلاء المجرمون «مِنْ عَمَلٍ» ومنه قول الراجز:وَقَدِمَ الخَوَارِجُ الضلاَّلُ إلى عِبادِ رَبِّهمْ وَقالُوا إنَّ دِماءَكُمْ لَنا حَلالُ يعني بقوله: قدم: عمد. وينقل في المقطع أقوالاً عن ابن عباس ومجاهد والحسن وسماك وعطاء.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=25&tAyahNo=24&tDisplay=yes&UserProfile=0&LanguageId=1

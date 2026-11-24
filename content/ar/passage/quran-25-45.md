@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-8-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري الآيات 45 إلى 46 معاً في موضع واحد. يفسّر الطبري الظل المذكور بأنه ما بين طلوع الفجر وطلوع الشمس، وينقل ذلك عن ابن عباس وسعيد بن جبير، ويذكر أقوالاً أخرى للمفسرين في معنى جعل الشمس دليلاً عليه، وفي قبضه إليه قبضاً يسيراً. فالمقطع واحد للآيتين، وهو آية على قدرة الله في تدبير الظل والشمس. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=25&tAyahNo=45&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 45 إلى 46 مقطعاً واحداً. يفسّر قوله «أَلَمْ تَرَ إِلَىٰ رَبِّكَ كَيْفَ مَدَّ ٱلظِّلَّ وَلَوْ شَآءَ لَجَعَلَهُ سَاكِناً ثُمَّ جَعَلْنَا ٱلشَّمْسَ عَلَيْهِ دَلِيلاً»: «ألَمْ تَرَ» يا محمد «كَيْفَ مَدَّ» ربك «الظِّلَّ»، وهو ما بين طلوع الفجر إلى طلوع الشمس. وينقل في المقطع أقوالاً عن ابن عباس ومجاهد وابن زيد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=25&tAyahNo=45&tDisplay=yes&UserProfile=0&LanguageId=1

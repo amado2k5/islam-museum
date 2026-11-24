@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-8-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن الذي مدّ الظل هو الذي جعل الليل لباساً، أي ستراً يسكن فيه الناس كما يستترون بالثياب، وجعل النوم راحة للأبدان وهدوءاً للجوارح، وجعل النهار يقظة وحياة بعد النوم الذي يشبه الموت، ويستشهد ببيت للأعشى في معنى النشور، وينقل عن مجاهد في ذلك. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=25&tAyahNo=47&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَهُوَ الَّذِي جَعَلَ لَكُمُ ٱلَّيلَ لِبَاساً وَٱلنَّوْمَ سُبَاتاً وَجَعَلَ ٱلنَّهَارَ نُشُوراً»: الذي مدّ الظلّ ثم جعل الشمس عليه دليلاً، هو الذي جعل لكم أيها الناس الليل لباساً. وإنما قال جلّ ثناؤه: «جَعَلَ لَكُمُ اللَّيْلَ لِباساً» لأنه جعله لخلقه جنة يجتنون فيها ويسكنون فصار لهم ستراً يستترون به، كما يستترون بالثياب التي يُكسونها. وقوله «والنَّوْمَ سُباتاً» يقول: وجعل لكم النوم راحة تستريح به أبدانكم، وتهدأ به جوارحكم. وينقل في المقطع أقوالاً عن مجاهد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=25&tAyahNo=47&tDisplay=yes&UserProfile=0&LanguageId=1

@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-8-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري الآيات 64 إلى 66 معاً في موضع واحد. يقول الطبري إن عباد الرحمن يبيتون لربهم يصلون ويراوحون بين السجود والقيام، ويدعون أن يصرف عنهم عذاب جهنم خوفاً ووجلاً. ويفسّر الغرام بأنه الملحّ اللازم الذي لا يفارق من عُذّب به، ويستشهد بشعر الأعشى، وأن جهنم ساءت مستقراً ومقاماً. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=25&tAyahNo=66&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 64 إلى 66 مقطعاً واحداً. يفسّر قوله «إِنَّهَا سَآءَتْ مُسْتَقَرّاً وَمُقَاماً»: إن جهنم ساءت مستقراً ومقاماً، يعني بالمستقرّ: القرار، وبالمقام: الإقامة كأن معنى الكلام: ساءت جهنم منزلاً ومقاماً. وإذا ضمت الميم من المقام فهو من الإقامة، وإذا فتحت فهو من: قمتُ، ويقال: المقام إذا فتحت الميم أيضاً هو المجلس. ومن المُقام بضمّ الميم بمعنى الإقامة، قول سلامة بن جندل:يَوْمانِ: يَوْمُ مُقاماتٍ وأنْدِيَةٍ وَيَوْمُ سَيْرٍ إلى الأعْداءِ تأْوِيَبا ومن المَقام الذي بمعنى المجلس، قول عباس بن مرداس:فَأي ما وأيُّكَ كانَ شَرًّا فَقِيدَ إلى المَقامَة لا يَرَاها يعني: المجلس. وينقل في المقطع أقوالاً عن الحسن وابن زيد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=25&tAyahNo=66&tDisplay=yes&UserProfile=0&LanguageId=1
