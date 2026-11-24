@@ -8,7 +8,7 @@ translators: ["machine translation, draft"]
 ## Summary
 al-Baqara 2:104 کے سببِ نزول پر سیوطی کی روایت — «لباب النقول» ⁦(شاملة 2247)⁩ — تابعین کی نسل سے۔
 
-The verse, in al-Suyuti's heading: «يا أيها الذين آمنوا لا تقولوا راعنا (ك)».
+The verse, in al-Suyuti's heading: «يا أيها الذين آمنوا لا تقولوا راعنا ⁦(ك)⁩».
 
 ## Place in the museum
 ماخذ: [[work/lubab-al-nuqul-suyuti|سیوطی کی «لباب النقول فی اسباب النزول»]]۔ آیت: [[passage/quran-2-104|قرآن 2-104]]۔
