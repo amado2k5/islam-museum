@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-13-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل [[passage/quran-94-1|94:1]] إلى [[passage/quran-94-8|94:8]]، وخلاصتها: يفسّر وضع الوزر بغفران ما سلف من ذنوبه وحطّ ثقل أيام الجاهلية، وينقل قراءة عبد الله «وحللنا عنك وقرك». {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=94&tAyahNo=2&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 2 إلى 9 مقطعاً واحداً. يفسّر قوله «أَلَمْ نَشْرَحْ لَكَ صَدْرَكَ»: يقول تعالى ذكره لنبيه محمد، مذكِّره آلاءه عنده، وإحسانه إليه، حاضاً له بذلك على شكره على ما أنعم عليه، ليستوجب بذلك المزيد منه: «أَلَمْ نَشْرَحْ لَكَ» يا محمد، للهدى والإيمان بالله ومعرفة الحقّ «صَدْرَكَ» فنلين لك قلبك، ونجعله وعاء للحكمة وينقل في المقطع أقوالاً عن مجاهد وقتادة وابن زيد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=94&tAyahNo=2&tDisplay=yes&UserProfile=0&LanguageId=1

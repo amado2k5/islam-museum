@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-13-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل [[passage/quran-95-7|95:7]] إلى [[passage/quran-95-8|95:8]]، وخلاصتها: لا يفرد لها تعليقاً، وإنما تظهر ضمن تفسير قتادة للآية السابقة، إذ يرى أن النبي يُؤمر أن يستيقن بعد ما جاءه من البيان أن الله أحكم الحاكمين. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=95&tAyahNo=8&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 8 إلى 9 مقطعاً واحداً. يفسّر قوله «فَمَا يُكَذِّبُكَ بَعْدُ بِٱلدِّينِ»: اختلف أهل التأويل في تأويل قوله: «فَمَا يُكَذِّبُكَ بَعْدُ» فقال بعضهم معناه: فمن يكذّبك يا محمد بعد هذه الحجج التي احتججنا بها، بالدين، يعني: بطاعة الله، وما بعثك به من الحقّ، وأن الله يبعث من في القبور؟ قالوا: «ما» في معنى «مَنْ»، لأنه عُني به ابن آدم، ومن بعث إليه النبيّ. وقال آخرون: بل معنى ذلك: فما يكذّبك أيها الإنسان بعد هذه الحجج بالدين. وينقل في المقطع أقوالاً عن ابن عباس ومجاهد وقتادة والكلبي وسفيان.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=95&tAyahNo=8&tDisplay=yes&UserProfile=0&LanguageId=1

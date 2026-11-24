@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-13-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل [[passage/quran-90-17|90:17]] إلى [[passage/quran-90-20|90:20]]، وخلاصتها: يقول إن الذين فعلوا هذه الأفعال هم أصحاب اليمين الذين يؤخذ بهم يوم القيامة إلى الجنة. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=90&tAyahNo=18&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 17 إلى 20 مقطعاً واحداً. يفسّر قوله «أُوْلَٰئِكَ أَصْحَابُ ٱلْمَيْمَنَةِ»: الذين فعلوا هذا الأفعال التي ذكرتها، من فكّ الرقاب، وإطعام اليتيم، وغير ذلك، أصحاب اليمين، الذين يؤخذ بهم يوم القيامة ذات اليمين إلى الجنة. وقوله:«وَالَّذِينَ كَفَرُوا بآياتِنا» يقول: والذين كفروا بأدلتنا وأعلامنا وحججنا من الكتب والرُّسل وغير ذلك «هُمْ أصحَابُ المَشأَمَةِ» يقول: هم أصحاب الشمال يوم القيامة الذين يؤخذ بهم ذات الشمال. وقد بيَّنا معنى المشأمة، ولم قيل لليسار المشأمة فيما مضى، بما أغنى عن إعادته في هذا الموضع. وقوله: وينقل في المقطع أقوالاً عن ابن عباس وقتادة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=90&tAyahNo=18&tDisplay=yes&UserProfile=0&LanguageId=1

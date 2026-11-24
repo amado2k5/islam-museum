@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-13-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل [[passage/quran-99-1|99:1]] إلى [[passage/quran-99-8|99:8]]، غير أن نص الصفحة المحفوظة في موقع التفسير لا يتضمن تعليقاً مستقلاً من الطبري على هذه الآية، فلا يُنسب إليه هنا قول فيها. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=99&tAyahNo=8&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 8 إلى 15 مقطعاً واحداً. يفسّر قوله «إِذَا زُلْزِلَتِ ٱلأَرْضُ زِلْزَالَهَا»: «إذَا زُلْزِلَتِ الأرْضُ» لقيام الساعة «زِلْزَالَهَا» فرُجَّت رجًّا والزِّلزال: مصدر إذا كسرت الزاي، وإذا فتحت كان اسماً وأضيف الزلزال إلى الأرض وهو صفتها، كما يقال: لأكرمنك كرامتك، بمعنى: لأكرمنك كرامة. وحَسُن ذلك في زلزالها، لموافقتها رؤوس الآيات التي بعدها. عن أشعث، عن جعفر، عن سعيد، قال: «زُلْزِلَتِ الأرْضُ» على عهد عبد الله، فقال لها عبدُ الله: مالك؟ أما إنها لو تكلَّمت قامت الساعة. وقوله: وينقل في المقطع أقوالاً عن ابن عباس ومجاهد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=99&tAyahNo=8&tDisplay=yes&UserProfile=0&LanguageId=1

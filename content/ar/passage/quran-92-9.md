@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-13-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل [[passage/quran-92-1|92:1]] إلى [[passage/quran-92-10|92:10]]، غير أن نص الصفحة المحفوظة في موقع التفسير لا يتضمن تعليقاً مستقلاً من الطبري على هذه الآية، فلا يُنسب إليه هنا قول فيها. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=92&tAyahNo=9&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 9 إلى 18 مقطعاً واحداً. يفسّر قوله «وَٱلْلَّيْلِ إِذَا يَغْشَىٰ»: يقول تعالى ذكره مُقسِماً بالليل إذا غَشَّى النهار بظلمته، فأذهب ضوءه، وجاءت ظُلمته: «واللَّيْلِ إذَا يَغْشَى» النهار وينقل في المقطع أقوالاً عن قتادة وإبراهيم.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=92&tAyahNo=9&tDisplay=yes&UserProfile=0&LanguageId=1
