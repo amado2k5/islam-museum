@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-12-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل الآيات [[passage/quran-80-11|80:11]] إلى [[passage/quran-80-17|80:17]]، وخلاصتها: يذكر الطبري في تفسير السفرة أنهم كرام بررة، ويروي ذلك عن ابن عباس أنهم الملائكة. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=80&tAyahNo=16&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 11 إلى 17 مقطعاً واحداً. يفسّر قوله «كِرَامٍ بَرَرَةٍ»: والبَرَرة: جمع بارّ، كما الكَفَرة جمع كافر، والسَّحَرة جمع ساحر، غير أن المعروف من كلام العرب إذا نطقوا بواحدة أن يقولوا: رجل بَرّ، وامرأة برّة، وإذا جمعوا ردّوه إلى جمع فاعل، كما قالوا: رجل سَرِيّ، ثم قالوا في جمعه: قوم سَراة، وكان القياس في واحده أن يكون سارياً. وقد حُكي سماعاً من بعض العرب: قوم خِيَرَة بَرَرَة، وواحد الخَيرة: خَيْر، والبَرَرَة: برّ. وقوله: وينقل في المقطع أقوالاً عن ابن عباس ومجاهد وقتادة وابن زيد والأعمش وسفيان.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=80&tAyahNo=16&tDisplay=yes&UserProfile=0&LanguageId=1

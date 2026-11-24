@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-12-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل الآيات [[passage/quran-80-18|80:18]] إلى [[passage/quran-80-23|80:23]]، وخلاصتها: يعرض الطبري اختلاف أهل التأويل في السبيل الذي يسّره: فقيل هو خروجه من بطن أمه، ويروي ذلك عن ابن عباس وأبي صالح، ويذكر غير ذلك. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=80&tAyahNo=20&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 20 إلى 25 مقطعاً واحداً. يفسّر قوله «مِنْ أَيِّ شَيءٍ خَلَقَهُ»: من أيّ شيء خلق الإنسانَ الكافرَ ربُّه حتي يَتَكَبَّرَ. ويتعظَّم عن طاعة ربه، والإقرار بتوحيده ثم بين جلّ ثناؤه الذي منه خلقه، فقال: وينقل في المقطع أقوالاً عن ابن عباس ومجاهد وقتادة والحسن وابن زيد وسفيان.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=80&tAyahNo=20&tDisplay=yes&UserProfile=0&LanguageId=1

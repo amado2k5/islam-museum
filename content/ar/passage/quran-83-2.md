@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-12-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل الآيات [[passage/quran-83-1|83:1]] إلى [[passage/quran-83-6|83:6]]، وخلاصتها: يذكر الطبري في سياق تفسير التطفيف أنهم ينقصون الناس إذا كالوهم أو وزنوا لهم عن الواجب لهم من الوفاء. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=83&tAyahNo=2&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 2 إلى 7 مقطعاً واحداً. يفسّر قوله «وَيْلٌ لِّلْمُطَفِّفِينَ»: الوادي الذي يسيل من صديد أهل جهنم في أسفلها للذين يُطَفِّفون، يعني: للذين ينقصون الناس، ويَبْخَسونهم حقوقهم في مكاييلهم إذا كالوهم، أو موازينهم إذا وزنوا لهم عن الواجب لهم من الوفاء وأصل ذلك من الشيء الطفيف، وهو القليل النَّزْر، والمطفِّف: المقلِّل حقّ صاحب الحقّ عما له من الوفاء والتمام في كيل أو وزن ومنه قيل للقوم الذين يكونون سواء في حسبة أو عدد: هم سواء كطَفّ الصاع، يعني بذلك: كقرب الممتلىء منه ناقص عن الملء. وينقل في المقطع أقوالاً عن ابن عباس.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=83&tAyahNo=2&tDisplay=yes&UserProfile=0&LanguageId=1

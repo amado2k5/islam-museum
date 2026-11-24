@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-12-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل الآيات [[passage/quran-80-11|80:11]] إلى [[passage/quran-80-17|80:17]]، وخلاصتها: يبيّن الطبري أن «كلا» ردّ لما فعله النبي من العبوس في وجه من جاءه يسعى وهو يخشى والتصدي لمن استغنى، وأن هذه السورة تذكرة، أي عظة وعبرة. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=80&tAyahNo=11&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 11 إلى 17 مقطعاً واحداً. يفسّر قوله «كَلاَّ إِنَّهَا تَذْكِرَةٌ»: «كَلاَّ» ما الأمر كما تفعل يا محمد، من أن تعبِس في وجه من جاءك يسعى وهو يخشى، وتتصدّى لمن استغنى «إنَّها تَذْكِرَةٌ» يقول: إن هذه العظة وهذه السورة «تذكرة» يقول: عظة وعبرة وينقل في المقطع أقوالاً عن ابن عباس ومجاهد وقتادة وابن زيد والأعمش وسفيان.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=80&tAyahNo=11&tDisplay=yes&UserProfile=0&LanguageId=1

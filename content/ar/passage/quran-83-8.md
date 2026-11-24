@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-12-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-لا يتضمن النص المحفوظ لهذه الصفحة تعليقاً مستقلاً على هذه الآية؛ إذ ينتهي التعليق المحفوظ عند تفسير سجين في الآية السابعة. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=83&tAyahNo=8&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 8 إلى 12 مقطعاً واحداً. يفسّر قوله «كَلاَّ إِنَّ كِتَابَ ٱلْفُجَّارِ لَفِي سِجِّينٍ»: كلا، أي ليس الأمر كما يظنّ هؤلاء الكفار، أنهم غير مبعوثين ولا معذّبين، إن كتابهم الذي كتب فيه أعمالهم التي كانوا يعملونها في الدنيا «لَفِي سِجِّينٍ» وهي الأرض السابعة السفلى، وهو «فعِّيلٌ» من السَّجن، كما قيل: رجل سِكِّير من السكر، وفِسيق من الفسق. وقد اختلف أهل التأويل في معنى ذلك، فقال بعضهم: مثل الذي قلنا في ذلك. وينقل في المقطع أقوالاً عن ابن عباس ومجاهد وقتادة وسفيان.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=83&tAyahNo=8&tDisplay=yes&UserProfile=0&LanguageId=1

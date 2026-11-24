@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-12-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل الآيات [[passage/quran-82-14|82:14]] إلى [[passage/quran-82-19|82:19]]، وخلاصتها: يشرح الطبري أن في يوم لا تملك نفس لنفس شيئاً وجهي الرفع والنصب بحسب الإضافة إلى فعل مضارع أو ماض. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=82&tAyahNo=19&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 14 إلى 19 مقطعاً واحداً. يفسّر قوله «يَوْمَ لاَ تَمْلِكُ نَفْسٌ لِنَفْسٍ شَيْئاً وَٱلأَمْرُ يَوْمَئِذٍ لِلَّهِ»: والأمر والله اليوم لله، ولكنه يومئذٍ لا ينازعه أحد. واختلفت القرّاء في قراءة قوله: «يَوْمَ لا تَمْلِكُ نَفْسٌ» فقرأته عامة قرّاء الحجاز والكوفة بنصب «يَوْمَ» إذ كانت إضافته غير محضة. وقرأه بعض قرّاء البصرة بضم «يَوْمُ» ورفعه ردًّا على اليوم الأوّل، والرفع فيه أفصح في كلام العرب، وذلك أن اليوم مضاف إلى يفعل، والعرب إذا أضافت اليوم إلى تفعل أو يفعل أو أفعل رفعوه فقالوا: هذا يوم أفعل كذا، وإذا أضافته إلى فعل ماضٍ نصبوه ومنه قول الشاعر:عَلى حِينَ عاتَبْتُ المَشِيبَ عَلى الصِّبا وقُلْتُ ألَمَّا تَصْحُ والشَّيْبُ وَازِعُ؟ وينقل في المقطع أقوالاً عن ابن عباس وقتادة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=82&tAyahNo=19&tDisplay=yes&UserProfile=0&LanguageId=1

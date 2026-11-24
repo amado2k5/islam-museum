@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-12-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل الآيات [[passage/quran-83-23|83:23]] إلى [[passage/quran-83-26|83:26]]، وخلاصتها: يفسّر الطبري نضرة النعيم بأنها حسنه وبريقه وتلألؤه، ويعرض قراءات «تعرف». {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=83&tAyahNo=24&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 23 إلى 26 مقطعاً واحداً. يفسّر قوله «تَعْرِفُ فِي وُجُوهِهِمْ نَضْرَةَ ٱلنَّعِيمِ»: تعرف في الأبرار الذين وصف الله صفتهم نَضْرة النعيم، يعني حُسنه وبريقه وتلألؤه. واختلفت القرّاء في قراءة قوله: «تَعْرِفُ» فقرأته عامة قرّاء الأمصار سوى أبي جعفر القارىء «تَعْرِفُ فِي وُجُوهِهِمْ» بفتح التاء من تعرف على وجه الخطاب «نَضْرَةَ النَّعِيمِ» بنصب نضرة. وقرأ ذلك أبو جعفر: «يُعْرَفُ» بضم التاء على وجه ما لم يسمّ فاعله، في وجوههم نضرةُ النعيم، برفع نضرة. والصواب من القراءة في ذلك عندنا: ما عليه قرّاء الأمصار، وذلك فتح التاء من «تَعْرِفُ»، ونصب «نَضْرَةَ». وقوله: وينقل في المقطع أقوالاً عن ابن عباس ومجاهد وقتادة والحسن وابن زيد والأعمش وغيرهم.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=83&tAyahNo=24&tDisplay=yes&UserProfile=0&LanguageId=1

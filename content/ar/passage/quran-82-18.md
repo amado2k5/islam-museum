@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-12-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل الآيات [[passage/quran-82-14|82:14]] إلى [[passage/quran-82-19|82:19]]، وخلاصتها: يبيّن الطبري أن تكرار السؤال تعظيم لشأن يوم الدين. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=82&tAyahNo=18&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 14 إلى 19 مقطعاً واحداً. يفسّر قوله «ثُمَّ مَآ أَدْرَاكَ مَا يَوْمُ ٱلدِّينِ»: ثم أيّ شيء أشعرك يوم المجازاة والحساب يا محمد، تعظيماً لأمره ثم فسَّر جلّ ثناؤه بعض شأنه فقال: «يَوْمَ لا تَمْلِكُ نَفْسٌ لِنَفْسٍ شَيْئاً»: يقول: ذلك اليوم، يوم لا تملك نفس، يقول: يوم لا تُغني نفس عن نفس شيئاً، فتدفع عنها بليَّة نزلت بها، ولا تنفعها بنافعة، وقد كانت في الدنيا تحميها، وتدفع عنها من بغاها سوءاً، فبطل ذلك يومئذٍ، لأن الأمر صار لله الذي لا يغلبه غالب، ولا يقهره قاهر، واضمحلت هنالك الممالك، وذهبت الرياسات، وحصل الملك للملك الجبار، وذلك قوله: «وَالأَمْرُ يَوْمَئِذٍ لِلّهِ» يقول: والأمر كله يومئذٍ، يعني الدين لله دون سائر خلقه، ليس لأحد من خلقه معه يومئذٍ أمر ولا نهي. وينقل في المقطع أقوالاً عن ابن عباس وقتادة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=82&tAyahNo=18&tDisplay=yes&UserProfile=0&LanguageId=1
