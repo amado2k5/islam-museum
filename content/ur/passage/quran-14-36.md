@@ -2,12 +2,8 @@
 id: passage/quran-14-36
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
-provenance:
-  generated_by: "Claude Code (Haiku 5.5 session)"
-  model: claude-haiku-5-5
-  run: altafsir-tabari-batch-1-2026-11-23
-  source: source/altafsir-tabari
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-14-36.md}
 ---
 ## موجز
 الآية 36 من [[passage/quran-14|سورۃ ابراہیم]]، وہ مکی سورت ہے۔ {cite:tanzil-quran}
@@ -17,6 +13,6 @@ provenance:
 
 ## تفسیر طبری
 
-طبری ابراہیم کے اس قول کو کہ بتوں نے بہت سے لوگوں کو گمراہ کیا، اس معنی میں لیتے ہیں کہ انہوں نے بہت سوں کو ہدایت اور حق سے دور کیا۔ جو ایمان اور اخلاصِ عبادت میں ان کی پیروی کرے وہ ان کی سنت پر ہے۔ قتادہ کے مطابق ابراہیم نہ طعن کرنے والے تھے نہ لعنت کرنے والے، اور اللہ اپنے فضل سے نافرمانوں کو بخشنے والا اور بندوں پر مہربان ہے۔
+الطبری آیت کی دوسری آیت میں ابراہیم کی دعا کے ساتھ آگے بڑھتا ہے: "اے میرے رب، بے شک انہوں نے بہت سے لوگوں کو گمراہ کر دیا ہے" یعنی بتوں اور جھوٹے معبودوں نے، یعنی انہوں نے بہت سے لوگوں کو ہدایت اور حق کے راستے سے بھٹکا دیا یہاں تک کہ وہ ان کی عبادت کرتے اور خدا کے ساتھ کفر کرتے۔ اس پر وہ قتادہ کا حوالہ دیتے ہیں۔ اور "پس جو میری پیروی کرتا ہے وہ مجھ میں سے ہے" میں جو کوئی بھی اس کی پیروی کرتا ہے خدا پر ایمان رکھتے ہوئے، اس کی سچی عبادت کرتا ہے، اور بتوں کی پرستش کو چھوڑ دیتا ہے، اس کی پیروی کرتا ہے اور اس جیسا عمل کرتا ہے۔ اور "اور جو میری نافرمانی کرے گا تو بے شک تو بخشنے والا اور رحم کرنے والا ہے" میں جو کوئی اس کے حکم کی نافرمانی کرتا ہے اور خدا کے ساتھ کسی کو شریک ٹھہراتا ہے تو خدا اپنے فضل سے گنہگاروں کے گناہوں کو بخشنے والا اور اپنے بندوں پر مہربان ہے، جسے چاہتا ہے بخش دیتا ہے۔ اس نے قتادہ کا حوالہ دیا ہے کہ وہ اس بیان میں ابراہیم کے کردار پر حیرت کا اظہار کرتے ہیں کیونکہ وہ بہتان لگانے اور لعنت کرنے والوں میں سے نہیں تھے اور اس کا تعلق عیسیٰ ابن مریم کے سورہ المائدہ میں اپنی قوم کا معاملہ خدا کے سپرد کرنے کے بیان سے ہے۔
 
 {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=14&tAyahNo=36&tDisplay=yes&UserProfile=0&LanguageId=1

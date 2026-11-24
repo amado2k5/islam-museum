@@ -2,11 +2,17 @@
 id: passage/quran-80-15
 lang: es
 source_lang: en
-translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
-provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate documents, managed by Claude Code)', model: google-translate, run: gt-docs-es-2026-11-19, source: content/en/passage/quran-80-15.md}
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-es-2026-11-24, source: content/ar/passage/quran-80-15.md}
 ---
 ## Resumen
 Versículo 15 de [[passage/quran-80|Surat 'Abasa]], una sura de La Meca. {cite:tanzil-quran}
 
 ## Lugar en el museo
 Su ubicación: versículo 15 de 42 versículos en la sura. El texto se conserva en el Mushaf congelado de Tanzil y no se reproduce aquí.
+
+## En el comentario de al-Tabari
+
+Al-Tabari interpreta los versículos 11 al 17 como una sola sección. Entiende que la frase «por manos de escribas» significa que las Sagradas Escrituras estaban en manos de escribas. Los eruditos discreparon sobre quiénes eran estos escribas; algunos afirmaron que eran escritores. En esta sección, cita declaraciones de Ibn Abbas, Mujahid, Qatadah, Ibn Zayd, Al-A'mash y Sufyan.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=80&tAyahNo=15&tDisplay=yes&UserProfile=0&LanguageId=1

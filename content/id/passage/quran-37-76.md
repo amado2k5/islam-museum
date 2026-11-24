@@ -2,8 +2,8 @@
 id: passage/quran-37-76
 lang: id
 source_lang: ar
-translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-23), draft translation']
-provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-23, source: content/ar/passage/quran-37-76.md}
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-23), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-id-2026-11-24, source: content/ar/passage/quran-37-76.md}
 ---
 
 ## Ringkasan
@@ -11,3 +11,7 @@ Ayat 76 Surah [[passage/quran-37|As-Saffat]], yang merupakan surah Mekah. {cite:
 
 ## Posisinya
 Lokasinya: ayat 76 dari 182 ayat dalam surat. Teks ini disimpan dari Mushaf Tazl al-Mujjard dan tidak ditulis ulang di sini.
+
+## Dalam Tafsir al-Tabari
+
+Al-Tabari tidak mendedikasikan tafsir terpisah untuk ayat ini pada halaman yang terpelihara; melainkan, penafsirannya termasuk dalam tafsir ayat 75–77. Al-Tabari menyatakan bahwa Nuh memohon kepada Tuhannya setelah ia memohon kepada kaumnya siang dan malam, tetapi permohonannya hanya menambah pelarian mereka. "Betapa hebatnya Kami sebagai Penjawab!" katanya, "dan Kami menyelamatkan dia dan keluarganya dari kesusahan besar dan menjadikan keturunannya sebagai orang-orang yang selamat." Penafsiran ini sama untuk ayat 75 dan 77. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=37&tAyahNo=76&tDisplay=yes&UserProfile=0&LanguageId=1

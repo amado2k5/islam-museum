@@ -2,10 +2,17 @@
 id: passage/quran-23-50
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-23-50.md}
 ---
 ## موجز
 الآية 50 من [[passage/quran-23|سورۃ المؤمنون]]، وہ مکی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 50، سورت کی کل 118 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+الطبری آیات 50-51 کے اندر آیت کو ایک اکائی کے طور پر پڑھتا ہے۔ وہ ان الفاظ کی تشریح کرتا ہے، "اور ہم نے موسیٰ کو کتاب دی تاکہ وہ ہدایت پائیں": ہم نے موسیٰ کو تورات دی تاکہ ان کی قوم، بنی اسرائیل، اس سے رہنمائی حاصل کریں اور سیکھیں کہ اس میں کیا ہے۔ "اور ہم نے مریم کے بیٹے اور اس کی ماں کو بنایا": ہم نے مریم کے بیٹے اور اس کی والدہ کو ان میں سے لوگوں کے خلاف اپنے لیے دلیل بنایا، اور بغیر بنیاد کے جسم بنانے کی اپنی طاقت کا، جیسا کہ ہم نے عیسیٰ کو بغیر باپ کے پیدا کیا۔ مزید برآں معمر نے قتادہ سے اس آیت کے بارے میں روایت کیا ہے کہ "اور ہم نے مریم کے بیٹے کو اور اس کی ماں کو بنایا" کہ انہوں نے کہا: اس نے اسے بغیر باپ کے جنا۔ اس لیے آیت واحد ہے، اگرچہ اس میں مریم اور ان کے بیٹے کا ذکر ہے۔ اس کے اس قول، "اور ہم نے انہیں ایک اونچی زمین پر پناہ دی،" کا مطلب ہے: ہم نے ان کو اکٹھا کیا اور اونچی زمین پر لے آئے۔ کہا جاتا ہے: فلاں نے فلاں جگہ پناہ لی تو وہیں پناہ لی۔ اگر وہ اس کے پاس جاتا ہے، اور "میں نے یہ کیا" کی طرز پر، تو وہ اسے پناہ دیتا ہے۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=23&tAyahNo=50&tDisplay=yes&UserProfile=0&LanguageId=1

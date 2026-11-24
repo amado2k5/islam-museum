@@ -2,11 +2,17 @@
 id: passage/quran-92-18
 lang: fr
 source_lang: en
-translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
-provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate documents, managed by Claude Code)', model: google-translate, run: gt-docs-fr-2026-11-19, source: content/en/passage/quran-92-18.md}
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-fr-2026-11-24, source: content/ar/passage/quran-92-18.md}
 ---
 ## Résumé
 Verset 18 de [[passage/quran-92|la sourate al-Layl]], une sourate mecquoise. {cite:tanzil-quran}
 
 ## Place dans le musée
 Il s'agit du verset 18 sur 21 de la sourate. Le texte est conservé dans le mushaf Tanzil et n'est pas reproduit ici.
+
+## Dans le commentaire d'al-Tabari
+
+Al-Tabari considère le verset inclus dans les versets 18 à 25 comme une seule section. Il explique la phrase : « Et que lui servira sa richesse lorsqu’il tombera ? » comme signifiant, que la louange soit exaltée, que la richesse de celui qui était avare et se croyait indépendant de son Seigneur sera protégée le Jour de la Résurrection « lorsqu’il tombera ». Les savants exégètes ont ensuite divergé quant à l’interprétation de « lorsqu’il tombera ». Certains disent que cela signifie : lorsqu’il tombera en Enfer, c’est-à-dire lorsqu’il y chutera. Dans cette section, il cite des propos de Mujahid, Qatadah et Sufyan.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=92&tAyahNo=18&tDisplay=yes&UserProfile=0&LanguageId=1

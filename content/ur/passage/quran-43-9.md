@@ -2,10 +2,17 @@
 id: passage/quran-43-9
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-43-9.md}
 ---
 ## موجز
 الآية 9 من [[passage/quran-43|سورۃ الزخرف]]، وہ مکی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 9، سورت کی کل 89 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+الطبری نے آیات 9 سے 10 تک کی آیت کو ایک حصے کے طور پر پڑھا ہے۔ وہ اپنے اس قول کی تشریح کرتا ہے: "اور اگر آپ ان سے پوچھیں کہ 'آسمانوں اور زمینوں کو کس نے پیدا کیا ہے؟' تو وہ ضرور کہیں گے،' غالب، سب کچھ جاننے والے نے انہیں پیدا کیا ہے'": اور اگر آپ، اے محمد، ان مشرکوں سے اپنی قوم سے پوچھیں: ساتوں آسمانوں اور زمینوں کو کس نے پیدا کیا، اور ان کو کس نے پیدا کیا؟ وہ ضرور کہیں گے: اس نے ان کو پیدا کیا، اس قادر مطلق نے، اپنے غلبہ اور اپنے دشمنوں سے انتقام لینے کے لیے، ان کو اور ان کے اندر کی تمام چیزوں کا جاننے والا، اس سے کوئی چیز پوشیدہ نہیں۔ ’’وہ جس نے تمہارے لیے زمین کو بچھونا بنایا‘‘ کا مطلب ہے: وہ جس نے تمہارے لیے زمین کو بچھونا بنایا، تاکہ تم اس پر اپنے پیروں سے چلو۔ ’’اور تمہارے لیے اس میں راستے بنائے‘‘ کا مطلب ہے: اس نے تمہارے لیے اس میں راستے آسان کر دیے ہیں کہ تم ایک بستی سے دوسری بستی تک، اپنی روزی اور تجارت کے لیے۔ جہاں تک قتادہ کا تعلق ہے، "اور اس میں تمہارے لیے راستے بنائے گئے" کا مطلب ہے: راستے۔ اس عبارت میں قتادہ سے منسوب بیانات بھی شامل ہیں۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=43&tAyahNo=9&tDisplay=yes&UserProfile=0&LanguageId=1

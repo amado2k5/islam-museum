@@ -2,11 +2,17 @@
 id: passage/quran-92-2
 lang: es
 source_lang: en
-translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
-provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate documents, managed by Claude Code)', model: google-translate, run: gt-docs-es-2026-11-19, source: content/en/passage/quran-92-2.md}
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-es-2026-11-24, source: content/ar/passage/quran-92-2.md}
 ---
 ## Resumen
 Versículo 2 de [[passage/quran-92|Surat al-Layl]], una sura de La Meca. {cite:tanzil-quran}
 
 ## Lugar en el museo
 Su ubicación: versículo 2 de 21 versículos en la sura. El texto se conserva en el Mushaf congelado de Tanzil y no se reproduce aquí.
+
+## En el comentario de al-Tabari
+
+Al-Tabari lee el versículo comprendido entre los versículos 2 y 11 como una sola sección. Explica Su dicho «Por la noche cuando cubre»: Dios Todopoderoso dice, jurando por la noche cuando cubre el día con su oscuridad, de modo que quita su luz y llega su oscuridad: «Por la noche cuando cubre» el día, y en la sección cita dichos de Qatadah e Ibrahim.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=92&tAyahNo=2&tDisplay=yes&UserProfile=0&LanguageId=1

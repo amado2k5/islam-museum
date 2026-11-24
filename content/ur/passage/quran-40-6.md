@@ -2,10 +2,17 @@
 id: passage/quran-40-6
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-40-6.md}
 ---
 ## موجز
 الآية 6 من [[passage/quran-40|سورۃ غافر]]، وہ مکی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 6، سورت کی کل 85 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+اس کا یہ قول کہ "اور اس طرح کافروں پر تیرے رب کا فرمان پورا ہوا کہ وہ دوزخ کے ساتھی ہیں" کی وضاحت اس طرح کی گئی ہے: جس طرح میرا عذاب ان قوموں پر پورا ہوا جنہوں نے اپنے رسولوں کو جھٹلایا، جن کے قصے میں نے آپ سے بیان کیے ہیں، اے محمد، اور میرا عذاب ان پر پڑا، ان کے جھٹلانے اور ان کے جھوٹے ہونے کی وجہ سے ان کے حق کو جھٹلانے کے لیے بھی میرا عذاب آیا۔ تمہاری قوم میں سے جو لوگ خدا کے ساتھ کفر کرتے ہیں اور اس کی آیات میں جھگڑتے ہیں ان پر تمہارے رب کی بات پوری ہوگئی۔ اس کے اس بیان کے بارے میں، "کہ وہ آگ کے ساتھی ہیں"، عربی کے علما نے "کہ وہ ہیں" کے گرامر کے فعل پر اختلاف کیا۔ بصرہ کے بعض گرامر نے کہا: اس کا مطلب ہے: آپ کے رب کا فرمان کافروں پر پورا ہو گیا کہ وہ جہنمی ہیں، یعنی وہ ہیں، یا اس وجہ سے کہ وہ ہیں۔ یہ الزام لگانے والے معاملے میں نہیں ہے، جیسا کہ اس جملے میں، "میں نے اس بات کی تصدیق کی ہے کہ وہ ہیں،" کیونکہ اگر ایسا ہوتا تو یہ بھی ہوتا کہ "میں نے معلوم کیا ہے کہ وہ ہیں۔" دوسرے لوگ اس لفظ کے بجائے کہیں گے: "وہ"، گویا اس لفظ نے صحیح معنوں میں ثابت کیا کہ وہ جہنمی ہیں۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=40&tAyahNo=6&tDisplay=yes&UserProfile=0&LanguageId=1

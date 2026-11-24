@@ -2,10 +2,17 @@
 id: passage/quran-41-22
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-41-22.md}
 ---
 ## موجز
 الآية 22 من [[passage/quran-41|سورۃ فصلت]]، وہ مکی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 22، سورت کی کل 54 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+الطبری نے آیت 22 سے 23 تک کی آیت کو ایک حصے کے طور پر پڑھا ہے۔ وہ اپنے قول کی وضاحت کرتا ہے، "اور وہ اپنی کھالوں سے کہیں گے، 'تم نے ہمارے خلاف گواہی کیوں دی؟' وہ کہیں گے، 'اللہ نے ہمیں بولنے دیا، وہ جو ہر چیز کو کہتا ہے، اور اسی نے تمہیں پہلی بار پیدا کیا، اور تم اسی کی طرف لوٹائے جاؤ گے۔'": اور یہ جو خداتعالیٰ کے دشمنوں میں سے جہنم کی طرف جمع کیے گئے ہیں، انہوں نے اپنی کھال کے خلاف دنیا میں کیوں کہا: جب سے انہوں نے اپنی کھال کو جانچنے کے لیے دنیا میں ایسا کیا ہے، کیوں؟ تم ہمارے خلاف گواہی دیتے ہو کہ ہم دنیا میں کیا کرتے تھے؟ اُن کی کھالوں نے اُن کو جواب دیا، ”خدا، جو ہر چیز کو بولتا ہے، اُس نے ہمیں بولنے کا سبب بنایا ہے۔ چنانچہ ہم نے بات کی، اور یہ ذکر کیا گیا کہ یہ اعضاء اپنے مالکوں کے خلاف گواہی دیں گے جب خدا انہیں ان کے خلاف گواہی دینے کے لئے بلائے گا اگر وہ اس دنیا میں ان کاموں کا انکار کریں جو انہوں نے خدا کو ناراض کیا۔ یہ وہی ہے جو رسول اللہ سے مروی ہے۔ اس حصے میں رسول اللہ سے منقول رپورٹوں کا ذکر ہے۔ اس میں سفیان سے منسوب بیانات بھی شامل ہیں۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=41&tAyahNo=22&tDisplay=yes&UserProfile=0&LanguageId=1

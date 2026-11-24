@@ -2,10 +2,17 @@
 id: passage/quran-40-77
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-40-77.md}
 ---
 ## موجز
 الآية 77 من [[passage/quran-40|سورۃ غافر]]، وہ مکی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 77، سورت کی کل 85 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+اس کا یہ قول، "پس صبر کرو، کیونکہ اللہ کا وعدہ سچا ہے، اور اگر ہم تمہیں کچھ دکھا دیں جو ہم نے ان سے کیا ہے یا تمہیں موت دے دیں گے، وہ ہماری طرف لوٹائے جائیں گے،" بیان کرتا ہے: اے محمد، یہ مشرکین آپ سے اللہ کی آیات کے بارے میں جو ہم نے آپ پر نازل کی ہیں، اس پر صبر کریں، اور آپ کے انکار پر، کیونکہ اللہ ان پر آپ کے لیے فتح اور وعدہ پورا کرے گا، جو ان پر غالب ہے، اللہ آپ کو ان پر غالب کرے گا۔ ان پر عذاب نازل ہو جیسا کہ موسیٰ بن عمران اور ان کو جھٹلانے والوں کے ساتھ ہمارا طریقہ تھا۔ "اور چاہے ہم آپ کو ان چیزوں میں سے کچھ دکھائیں جس کا ہم نے ان سے وعدہ کیا تھا"، وہ اس کی حمد و ثنا بیان فرماتا ہے: تو کیا اے محمد، آپ کی زندگی میں ہم آپ کو دکھائیں جن کا ہم نے ان مشرکوں سے وعدہ کیا ہے ان پر عذاب اور عذاب آنے سے پہلے "یا آپ کو موت دے دیں"۔ ’’پھر وہ ہماری طرف لوٹائے جائیں گے۔‘‘ وہ کہتا ہے: ہمارے لیے تمہاری تقدیر اور ان کی تقدیر ہے، پھر ہم تمہارے اور ان کے درمیان حق کے ساتھ فیصلہ کریں گے اور انہیں ہمیشہ کے لیے جہنم میں رکھ کر، اور تمہیں نعمتوں کے باغوں میں اپنے پاس رکھ کر عزت دیں گے۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=40&tAyahNo=77&tDisplay=yes&UserProfile=0&LanguageId=1

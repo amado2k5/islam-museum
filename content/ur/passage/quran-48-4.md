@@ -2,10 +2,17 @@
 id: passage/quran-48-4
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-48-4.md}
 ---
 ## موجز
 الآية 4 من [[passage/quran-48|سورۃ الفتح]]، وہ مدنی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 4، سورت کی کل 29 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+اس کا یہ فرمان کہ "وہی ہے جس نے مومنوں کے دلوں میں سکون نازل کیا تاکہ وہ اپنے ایمان کے ساتھ ساتھ ایمان میں بھی اضافہ کریں۔ اور اللہ ہی کے لیے زمین و آسمان کے لشکر ہیں اور اللہ ہمیشہ سے جاننے والا اور حکیم ہے" یعنی اس کی شان بلند ہو کہ یہ کہہ کر اللہ نے دلوں میں سکون اور اطمینان نازل کیا۔ ان لوگوں کے دل جو اللہ اور اس کے رسول پر ایمان لاتے ہیں، انہیں ایمان اور اس سچائی کی طرف لے جاتے ہیں جس کے ساتھ اللہ نے آپ کو بھیجا ہے، اے محمد۔ تسکین کے مفہوم کی مختلف تشریحات پہلے ہی زیر بحث آچکی ہیں اور اس معاملے میں صحیح قول کی تائید کافی دلائل سے ہوتی ہے، اس لیے یہاں ان کا اعادہ ضروری نہیں ہے۔ "کہ وہ اپنے موجودہ ایمان کے ساتھ ایمان میں بھی اضافہ کریں" کا مطلب ہے: وہ ان نئے فرائض پر ایمان لا کر ایمان میں اضافہ کریں جو خدا نے ان کے لیے مقرر کیے ہیں، جن کی پہلے ان سے ضرورت نہیں تھی۔ "ایمان کے ساتھ ان کے موجودہ ایمان" کا مطلب یہ ہے کہ وہ ان ذمہ داریوں کو تسلیم کر کے ایمان میں اضافہ کریں جو پہلے ان پر لازم تھے۔ اس عبارت میں ابن عباس سے منسوب بیانات کا بھی حوالہ دیا گیا ہے۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=48&tAyahNo=4&tDisplay=yes&UserProfile=0&LanguageId=1

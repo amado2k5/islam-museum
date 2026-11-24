@@ -2,10 +2,17 @@
 id: passage/quran-22-72
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-22-72.md}
 ---
 ## موجز
 الآية 72 من [[passage/quran-22|سورۃ الحج]]، وہ مدنی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 72، سورت کی کل 78 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+اس کا فرمان ہے کہ "اور جب ان کے سامنے ہماری واضح آیات پڑھی جاتی ہیں تو تم کافروں کے چہروں سے پہچان لیتے ہو، جو لوگ ان پر ہماری آیات پڑھتے ہیں، وہ قریباً ان پر حملہ کرتے ہیں، کہو کیا میں تمہیں اس سے بھی بدتر چیز کی خبر دوں؟ مشرکین قریش، جنہوں نے اللہ کے علاوہ ان چیزوں کی عبادت کی جو اس نے نازل نہیں کیں، ’’ہماری آیات‘‘ یعنی قرآن کی آیات ’’صاف‘‘ کا مطلب ہے: ان کے دلائل اور شواہد ان کے نازل ہونے سے ظاہر ہیں۔ اس میں ’’تم کافروں کے چہروں سے بدصورتی کو پہچانتے ہو‘‘ کا مطلب ہے: تم ان کے چہروں سے دیکھتے ہو کہ خدا کو ماننے والوں کو قرآن سن کر تبدیلی کی وجہ سے کیا اعتراض ہے۔ اور اس کا یہ قول کہ "وہ ان لوگوں پر حملہ کرتے ہیں جو ان پر ہماری آیات پڑھتے ہیں" کا مطلب ہے: وہ تقریباً ان لوگوں پر حملہ کرتے ہیں جو قرآن کو سننے اور ان پر تلاوت کرنے سے شدید نفرت کی وجہ سے نبی کے صحابہ میں سے ان کو کتاب الٰہی کی آیات سناتے ہیں۔ علمائے تفسیر نے کچھ ایسا ہی کہا ہے جیسا کہ ہم نے اس کے اس فرمان کی تفسیر میں کہا ہے کہ ’’وہ تقریباً حملہ کرتے ہیں‘‘۔ اس عبارت میں ابن عباس اور مجاہد کے بیانات بھی نقل کیے گئے ہیں۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=22&tAyahNo=72&tDisplay=yes&UserProfile=0&LanguageId=1

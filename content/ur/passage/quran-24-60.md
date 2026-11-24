@@ -2,10 +2,17 @@
 id: passage/quran-24-60
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-24-60.md}
 ---
 ## موجز
 الآية 60 من [[passage/quran-24|سورۃ النور]]، وہ مدنی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 60، سورت کی کل 64 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+اس کا یہ بیان کہ ’’اور وہ عورتیں جو اولاد پیدا کر چکی ہیں جو شادی کی توقع نہیں رکھتیں، ان پر اپنے کپڑے اتارنے میں کوئی مضائقہ نہیں ہے، بشرطیکہ وہ اپنی زینت کو ظاہر نہ کریں، لیکن اس سے پرہیز کرنا ان کے لیے بہتر ہے، اور اللہ سننے والا اور جاننے والا ہے،‘‘ وضاحت کرتا ہے کہ اس سے مراد وہ عورتیں ہیں جو حیض کی عمر کو پہنچ چکی ہیں، نہ بچے کو جنم دیتی ہیں۔ "جو شادی کی امید نہیں رکھتے" کا مطلب ہے وہ لوگ جنہوں نے شوہر تلاش کرنے کی امید چھوڑ دی ہے اور اس وجہ سے اب وہ شادی کی خواہش نہیں رکھتے ہیں۔ ’’ان پر کوئی گناہ نہیں کہ وہ اپنے بیرونی لباس کو ایک طرف رکھ دیں۔‘‘ اس کا مطلب ہے کہ اگر وہ اپنے بیرونی کپڑوں کو اتار دیں تو ان پر کوئی گناہ یا ظلم نہیں ہے، یعنی ان کی بیرونی چادریں، جو سر پر پہنا ہوا پردہ ہے اور کپڑے کے اوپر پہنا ہوا بیرونی لباس۔ اگر وہ اپنے مرد رشتہ داروں اور غیر رشتہ داروں کی موجودگی میں ان کو ہٹا دیں تو ان پر کوئی حرج نہیں، بشرطیکہ وہ اپنی زینت کی نمائش نہ کر رہے ہوں۔ اس عبارت میں ابن عباس، مجاہد اور ابن زید کے بیانات بھی نقل کیے گئے ہیں۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=24&tAyahNo=60&tDisplay=yes&UserProfile=0&LanguageId=1

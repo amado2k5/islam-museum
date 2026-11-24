@@ -2,11 +2,17 @@
 id: passage/quran-38-11
 lang: es
 source_lang: en
-translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
-provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate documents, managed by Claude Code)', model: google-translate, run: gt-docs-es-2026-11-19, source: content/en/passage/quran-38-11.md}
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-es-2026-11-24, source: content/ar/passage/quran-38-11.md}
 ---
 ## Resumen
 Versículo 11 de [[passage/quran-38|Surat Sad]], una sura de La Meca. {cite:tanzil-quran}
 
 ## Lugar en el museo
 Su ubicación: versículo 11 de 88 versículos en la sura. El texto se conserva en el Mushaf congelado de Tanzil y no se reproduce aquí.
+
+## En el comentario de al-Tabari
+
+Al-Tabari interpreta los versículos 10 y 11 como una sola unidad. Interpreta la frase «un ejército derrotado de los confederados» como: «un ejército» se refiere a aquellos que allí fueron arrogantes y discordantes, es decir: derrotados en Badr. La palabra «allí» está relacionada con «derrotados», y la frase «de los confederados» se refiere a los grupos de Iblis y sus seguidores que los precedieron, a quienes Dios destruyó por sus pecados. El «de» en «de los confederados» está relacionado con la palabra «ejército», y el significado es: son un ejército de los confederados derrotados allí. La frase «un ejército derrotado de los confederados» es una oración subordinada relativa. En esta sección, cita declaraciones de Ibn Abbas, Mujahid, Qatadah, al-Dahhak, Ibn Zayd y al-Rabi'.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=38&tAyahNo=11&tDisplay=yes&UserProfile=0&LanguageId=1

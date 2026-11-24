@@ -2,10 +2,17 @@
 id: passage/quran-40-59
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-40-59.md}
 ---
 ## موجز
 الآية 59 من [[passage/quran-40|سورۃ غافر]]، وہ مکی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 59، سورت کی کل 85 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+الطبری نے آیات 59 تا 60 کے اندر آیت کو ایک حصے کے طور پر پڑھا ہے۔ وہ اپنے اس قول کی تشریح کرتا ہے: "بے شک قیامت آنے والی ہے، اس میں کوئی شک نہیں، لیکن اکثر لوگ ایمان نہیں رکھتے": وہ قیامت آنے والی ہے جس میں اللہ تعالیٰ مردوں کو جزا و سزا کے لیے زندہ کرے گا، اے لوگو، اس کے آنے میں کوئی شک نہیں۔ فرماتا ہے: تو اس کے آنے کا یقین رکھو، اور یہ کہ تم اپنی موت کے بعد دوبارہ اٹھائے جاؤ گے، اور تمہارے اعمال کا بدلہ دیا جائے گا، لہذا اپنے رب کی طرف توبہ کرو۔ ’’لیکن اکثر لوگ ایمان نہیں لاتے‘‘ وہ کہتا ہے: لیکن اکثر قریش اس کے آنے پر یقین نہیں رکھتے۔ اور اس کا یہ فرمان کہ ’’اور تمہارا رب کہتا ہے کہ مجھے پکارو میں تمہاری دعا قبول کروں گا‘‘ کا مطلب ہے کہ تمہارا رب تم سے کہتا ہے کہ اے لوگو، ’’مجھے پکارو‘‘ یعنی ’’میری عبادت کرو اور میری ہی عبادت کرو، نہ کہ ان کی عبادت کرو جن کو تم میرے سوا پوجتے ہو جیسے کہ بت اور مورتیاں وغیرہ۔‘‘ میں تمہاری دعا قبول کروں گا، یعنی تمہاری دعاؤں پر، میں تمہاری دعاؤں کو معاف کروں گا۔ اس عبارت میں ابن عباس، الحسن اور العماش سے منسوب بیانات بھی شامل ہیں۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=40&tAyahNo=59&tDisplay=yes&UserProfile=0&LanguageId=1

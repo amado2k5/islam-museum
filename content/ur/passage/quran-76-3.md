@@ -2,10 +2,17 @@
 id: passage/quran-76-3
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-76-3.md}
 ---
 ## موجز
 الآية 3 من [[passage/quran-76|سورۃ الانسان]]، وہ مدنی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 3، سورت کی کل 31 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+الطبری آیات 3-4 کے اندر آیت کو ایک اکائی کے طور پر پڑھتا ہے۔ وہ اس جملے کی تشریح کرتا ہے "بے شک ہم نے اسے راستہ دکھایا، خواہ وہ شکر گزار ہو یا ناشکرا"، اس کی حمد و ثنا ہو، یہ کہہ کر ہم نے اسے جنت کا راستہ دکھایا اور اس پر واضح کر دیا، چاہے وہ شکر گزار ہو یا ناشکرا۔ اگر بیان کی اس طرح تشریح کی جائے تو "یا تو" اور "یا تو" نتیجہ کے معنی میں ہیں۔ یہ بھی ممکن ہے کہ "یا تو" اور "دوسرا" کا ایک ہی مطلب ہو جیسا کہ آیت میں ہے "یا تو وہ انہیں سزا دے گا یا معاف کر دے گا۔" اس معاملے میں، جملہ "چاہے وہ شکر گزار ہو یا ناشکرا" ایک حالاتی شق ہو گا جو "ہم نے اس کی رہنمائی کی" میں ضمیر "اس" کو بیان کیا ہے۔ پس اگر اس قول کی اس طرح تشریح کی جائے تو معنی یہ ہوگا کہ ہم نے اس کو راستہ دکھایا، خواہ وہ بدبخت ہو یا بابرکت۔ بصرہ کے بعض گرامر کے ماہرین نے کہا، جیسا کہ انہوں نے کہا، "یا تو عذاب یا قیامت،" گویا آپ نے "کسی بھی" کا ذکر نہیں کیا۔ آپ نے فرمایا: ”اور اگر تم چاہو تو اس کی پیروی شروع کر کے اسے بڑھا سکتے ہو۔ اس آیت میں مجاہد، قتادہ اور ابن زید کے بیانات بھی نقل کیے گئے ہیں۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=76&tAyahNo=3&tDisplay=yes&UserProfile=0&LanguageId=1

@@ -2,10 +2,17 @@
 id: passage/quran-55-54
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-55-54.md}
 ---
 ## موجز
 الآية 54 من [[passage/quran-55|سورۃ الرحمن]]، وہ مدنی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 54، سورت کی کل 78 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+الطبری آیات 54 تا 55 کے اندر آیت کو ایک حصے کے طور پر پڑھتا ہے۔ وہ اس کے اس قول کی تشریح کرتا ہے: "پلنگوں پر تکیہ لگانا، اور دونوں باغوں کے پھل قریب ہی ہیں": "اور جو اپنے رب کے سامنے کھڑے ہونے سے ڈرتا ہے اس کے لیے دو باغ ہیں" جن میں وہ مزے کریں گے، "صوفوں پر تکیہ لگا کر"۔ وہ الزامی صورت میں "تکیہ کرنے" کو سابقہ بیان کے معنی کے حالات کے لحاظ سے اہل قرار دیتا ہے، کیونکہ جو کچھ اس سے پہلے ہے وہ ان لوگوں کے بارے میں بیان ہے جو اپنے رب کے سامنے کھڑے ہونے سے ڈرتے ہیں کہ وہ خوشی اور مسرت میں ہیں، دونوں باغوں میں لطف اندوز ہو رہے ہیں۔ اس کے بیان، "بروکیڈ اور دو باغوں کے پھلوں کے ساتھ قطار میں لگے صوفوں پر،" کا مطلب ہے کہ ان صوفوں کے استر موٹے ریشم کے بروکیڈ سے بنے ہیں۔ عربوں میں، "بروکیڈ" سے مراد موٹا، موٹا ریشم ہے۔ بصرہ سے تعلق رکھنے والے عربی کے بعض علماء کہا کرتے تھے کہ وہ سامان جو نہ ریشم جیسا موٹا ہوتا ہے اور نہ ریشم جیسا پتلا ہوتا ہے اسے بھی "بروکیڈ" کہا جاتا ہے۔ اس کے بعد اس عبارت میں ابن عباس، قتادہ اور سفیان کے بیانات کا حوالہ دیا گیا ہے۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=55&tAyahNo=54&tDisplay=yes&UserProfile=0&LanguageId=1

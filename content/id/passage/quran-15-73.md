@@ -2,8 +2,8 @@
 id: passage/quran-15-73
 lang: id
 source_lang: ar
-translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-23), draft translation']
-provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-23, source: content/ar/passage/quran-15-73.md}
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-23), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-id-2026-11-24, source: content/ar/passage/quran-15-73.md}
 ---
 
 ## Ringkasan
@@ -11,3 +11,9 @@ Ayat 73 Surah [[passage/quran-15|Al-Hijr]], yang merupakan surah Mekah. {cite:ta
 
 ## Posisinya
 Lokasinya: ayat 73 dari 99 dalam surat. Teks ini dilestarikan dari Mushaf Tazil yang membeku dan tidak ditulis ulang di sini.
+
+## Dalam Tafsir al-Tabari
+
+Al-Tabari melanjutkan bagian tersebut: “Maka seruan itu menimpa mereka saat matahari terbit,” yang berarti bahwa petir azab, yaitu seruan itu, menimpa kaum Luth saat matahari terbit, yaitu ketika matahari terbit. Ia menjelaskan bahwa kasus akusatif dari “saat matahari terbit” dan “saat matahari terbit” memiliki arti “ketika mereka menjadi” dan “ketika mereka bangkit.”
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=15&tAyahNo=73&tDisplay=yes&UserProfile=0&LanguageId=1

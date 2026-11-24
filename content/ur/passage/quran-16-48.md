@@ -2,10 +2,17 @@
 id: passage/quran-16-48
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-16-48.md}
 ---
 ## موجز
 الآية 48 من [[passage/quran-16|سورۃ النحل]]، وہ مکی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 48، سورت کی کل 128 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+آیت: "کیا وہ نہیں دیکھتے کہ اللہ نے ایسی چیزوں سے کیا پیدا کیا ہے جن کے سائے دائیں بائیں جھکتے ہیں، اور وہ عاجزی کے ساتھ اللہ کو سجدہ کرتے ہیں؟" (17:11) کی وضاحت درج ذیل ہے: تلاوت کرنے والوں نے اس آیت کے پڑھنے میں اختلاف کیا۔ حجاز، مدینہ اور بصرہ کے اکثر قراء نے اسے "کیا وہ نہیں دیکھتے؟" ⁦(تیسرے شخص کے مذکر واحد ضمیر کا استعمال کرتے ہوئے)⁩، ان لوگوں کا حوالہ دیتے ہوئے جنہوں نے برے کاموں کی سازش کی۔ کوفہ کے بعض قاریوں نے اسے اس طرح پڑھا کہ کیا وہ نہیں دیکھتے؟ ⁦(دوسرے شخص کے مذکر واحد ضمیر کا استعمال کرتے ہوئے)⁩، لوگوں سے براہ راست خطاب کرنا۔ میری نظر میں، زیادہ درست پڑھنا ان لوگوں کا ہے جو اسے تیسرے شخص کے مذکر واحد ضمیر کے ساتھ پڑھتے ہیں، ان لوگوں کی طرف اشارہ کرتے ہیں جنہوں نے برے کاموں کی سازش کی، کیونکہ یہ ان کی کہانیوں اور ان کے اعمال کے حساب سے ہے۔ یہ ان کے خلاف خدا کے ثبوت سے منہ موڑنے اور اس کے ثبوت پر غور کرنے اور اس پر غور کرنے میں ان کی ناکامی کا بیان ہے۔ اس عبارت میں ابن عباس، قتادہ، الضحاک اور ابن جریج کے بیانات نقل کیے گئے ہیں۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=16&tAyahNo=48&tDisplay=yes&UserProfile=0&LanguageId=1

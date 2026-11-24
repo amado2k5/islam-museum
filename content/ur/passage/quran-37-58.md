@@ -2,10 +2,17 @@
 id: passage/quran-37-58
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-37-58.md}
 ---
 ## موجز
 الآية 58 من [[passage/quran-37|سورۃ الصافات]]، وہ مکی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 58، سورت کی کل 182 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+الطبری نے آیات 58 تا 61 کے اندر آیت کو ایک حصے کے طور پر پڑھا ہے۔ اس کا بیان، ’’کیا پھر ہم مرنے والے نہیں؟‘‘ بیان کرتے ہیں: خداتعالیٰ ہمیں اس مومن کے الفاظ سے آگاہ کرتا ہے، جسے خدا نے جنت میں اپنا فضل عطا کیا ہے، اس پر خوشی کا اظہار کرتے ہوئے جو اس نے اسے عطا کیا ہے: "کیا ہم اپنی پہلی موت کے علاوہ مرنے والے نہیں ہیں؟" وہ کہتا ہے: کیا ہم اس دنیا میں اپنی پہلی موت کے علاوہ مرنے والے نہیں؟ "اور ہمیں سزا نہیں دی جائے گی؟" فرمایا: جنت میں داخل ہونے کے بعد ہمیں عذاب نہیں دیا جائے گا۔ ’’درحقیقت یہ سب سے بڑی فتح ہے۔‘‘ وہ کہتا ہے: یہ احسان جو خدا نے ہمیں جنت میں عطا کیا ہے - کہ ہمیں سزا نہیں دی جائے گی اور نہ ہی مریں گے - اس دنیا میں جس چیز سے ہم خوفزدہ تھے اس سے بہترین نجات ہے: خدا کا عذاب اور ہمارے اعمال کے نتائج۔ ہم نے اپنے ایمان اور اپنے رب کی اطاعت کے ذریعے اس کی امید کی، جیسا کہ اس نے کہا: "کیا ہم مرنے والے نہیں ہیں؟" "دو مردہ لوگوں کے ساتھ..." اس کے بیان تک: "عظیم فتح۔" فرمایا: یہ اہل جنت کا بیان ہے۔ اور فرمایا: اور اس عبارت میں قتادہ کا قول نقل کیا ہے۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=37&tAyahNo=58&tDisplay=yes&UserProfile=0&LanguageId=1

@@ -2,10 +2,17 @@
 id: passage/quran-40-13
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-40-13.md}
 ---
 ## موجز
 الآية 13 من [[passage/quran-40|سورۃ غافر]]، وہ مکی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 13، سورت کی کل 85 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+الطبری نے آیت 13 سے 14 کے اندر آیت کو ایک حصے کے طور پر پڑھا ہے۔ اس کا یہ قول، "وہی ہے جو تمہیں اپنی نشانیاں دکھاتا ہے اور تمہارے لیے آسمان سے رزق نازل کرتا ہے، اور کوئی یاد نہیں کرے گا سوائے اس کے جو ⁦(اس کی طرف)⁩ رجوع کرے"، اس کی وضاحت اس طرح کی گئی ہے: وہ جو تمہیں دکھاتا ہے، اے لوگو، اپنی وحدانیت اور ربّیت کی دلیلیں اور دلیلیں دکھاتا ہے۔ ’’اور آسمان سے تمہارے لیے رزق نازل کرتا ہے‘‘ یعنی وہ بارش برسا کر آسمان سے تمہارا رزق نازل کرتا ہے، جس سے زمین سے تمہارا رزق اور تمہارے مویشیوں کی پرورش ہوتی ہے۔ "اور کوئی یاد نہیں کرے گا سوائے اس کے جو [اس کی طرف] رجوع کرے"، یعنی: کوئی بھی خدا کی دلیلوں کو یاد نہیں کرے گا، جو اس نے اپنی وحدانیت کی گواہی دی ہیں، اور ان پر دھیان دیں گے، اور جو کچھ وہ اشارہ کرتے ہیں اس کی حقیقت کو سیکھیں گے، سوائے اس کے جو رجوع کرے گا۔ وہ کہتا ہے: صرف وہی جو اس کی وحدانیت کی طرف لوٹتا ہے اور اس کی فرمانبرداری کرتا ہے، جیسا کہ السدی نے کہا، "سوائے اس کے جو [اس کی طرف] رجوع کرے۔" فرمایا: جو اللہ کی اطاعت کے لیے سر تسلیم خم کرے۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=40&tAyahNo=13&tDisplay=yes&UserProfile=0&LanguageId=1

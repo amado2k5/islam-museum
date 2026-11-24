@@ -2,12 +2,8 @@
 id: passage/quran-14-34
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
-provenance:
-  generated_by: "Claude Code (Haiku 5.5 session)"
-  model: claude-haiku-5-5
-  run: altafsir-tabari-batch-1-2026-11-23
-  source: source/altafsir-tabari
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-14-34.md}
 ---
 ## موجز
 الآية 34 من [[passage/quran-14|سورۃ ابراہیم]]، وہ مکی سورت ہے۔ {cite:tanzil-quran}
@@ -17,6 +13,6 @@ provenance:
 
 ## تفسیر طبری
 
-طبری اس جملے کے مطلب میں کئی اقوال بیان کرتے ہیں: مجاہد اور حسن کے مطابق اللہ نے وہ دیا جو تم نے مانگا اور جس کی تمنا کی، جبکہ رکانہ کے مطابق جو مانگا اور جو نہیں مانگا۔ نحویوں کے نزدیک «کل» سے کثرت مراد ہو سکتی ہے، یا معنی یہ ہو سکتا ہے کہ اگر تم مانگتے تو جو مانگتے وہ دیا جاتا۔
+الطبری کہتا ہے: "اور اس نے تم پر اپنی نعمتوں کے ساتھ، اس کے تابع کر کے تمہیں عطا کیا اور جو کچھ تم نے اس سے مانگا اور چاہا، اس میں سے کچھ تمہیں عطا کیا۔" وہ بتاتا ہے کہ دوسرا اعتراض اس لیے چھوڑ دیا گیا کہ "کیا" کافی ہے، چونکہ "میں سے" اس کے پیچھے آنے والے حصے کی طرف اشارہ کرتا ہے، اس لیے اس کا ذکر کرنا غیر ضروری ہے، جیسا کہ "اور مجھے سب کچھ دیا گیا تھا۔" اس کے بعد وہ تشریحات پیش کرتا ہے: کہا گیا کہ یہ کثرت کے لیے ہے، جیسے "فلاں سب کچھ جانتا ہے،" یعنی اس میں سے کچھ۔ اور کہا گیا کہ ایسی کوئی چیز نہیں ہے جس کے بارے میں بعض لوگوں نے نہ مانگا ہو، اور یہ بعض بصری گرامر کی رائے ہے۔ اور بعض کوفان گرامر نے کہا: "اور اس نے آپ کو وہ سب کچھ دیا جو آپ مانگتے اگر آپ اس سے مانگتے۔" اور مجاہد سے: "تم نے اس سے مانگا اور اس سے چاہا" اور حسن سے اسی طرح کی چیز۔ اور رکانہ بن ہاشم سے: "تم نے اس سے کیا مانگا اور کیا نہیں پوچھا۔" اور دوسرے "مل کل" کو "کل" کے تنوین کے ساتھ پڑھتے ہیں، یعنی وہ چیز جو آپ نے اس سے نہیں مانگی اور نہ ہی مانگی، جیسے سورج اور چاند۔
 
 {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=14&tAyahNo=34&tDisplay=yes&UserProfile=0&LanguageId=1

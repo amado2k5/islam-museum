@@ -2,10 +2,17 @@
 id: passage/quran-18-32
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-18-32.md}
 ---
 ## موجز
 الآية 32 من [[passage/quran-18|سورۃ الکہف]]، وہ مکی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 32، سورت کی کل 110 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+الطبری نے آیات 32 تا 34 کے اندر آیت کو ایک حصے کے طور پر پڑھا ہے۔ وہ اپنے اس قول کی وضاحت کرتا ہے: "اور ان کے سامنے دو آدمیوں کی مثال پیش کرو: ہم نے ان میں سے ایک کو انگور کے دو باغ عطا کیے، اور ہم نے ان کو کھجور کے درختوں سے گھیر لیا اور ان کے درمیان کھیتی رکھی": اور اے محمد، ان مشرکوں کو پیش کرو جنہوں نے تم سے ان لوگوں کو نکالنے کا مطالبہ کیا جو اپنے رب کو صبح و شام اس کی رضا حاصل کرنے کے لیے پکارتے ہیں، "ہم نے ان کے لیے ایک مثال" یعنی دو آدمیوں کو عطا کیا، جیسا کہ ہم نے ان کے لیے ایک باغ بنایا۔ انگور کے دو باغات، "اور ہم نے انہیں کھجور کے درختوں سے گھیر لیا،" وہ کہتے ہیں: اور ہم نے ان دونوں باغوں کو کھجور کے درختوں سے گھیر لیا۔ ان کے اس قول ’’اور ہم نے ان کے درمیان کھیتی رکھ دی‘‘ کا مطلب ہے: ہم نے ان دونوں باغوں کے درمیان کھیتی رکھی۔ ان کے اس قول، "ہر باغ نے اپنی پیداوار دی" کا مطلب ہے: ہر باغ اپنے پھل اور اس کے اندر موجود تمام پودے جیسے کھجور، انگور اور دیگر فصلیں دیتا ہے۔ اس عبارت میں مجاہد، قتادہ اور ابن جریج کے بیانات بھی شامل ہیں۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=18&tAyahNo=32&tDisplay=yes&UserProfile=0&LanguageId=1

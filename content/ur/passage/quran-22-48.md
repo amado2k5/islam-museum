@@ -2,10 +2,17 @@
 id: passage/quran-22-48
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-22-48.md}
 ---
 ## موجز
 الآية 48 من [[passage/quran-22|سورۃ الحج]]، وہ مدنی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 48، سورت کی کل 78 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+ان کے اس قول کہ ’’اور کتنی بستیوں کو میں نے مہلت دی جب کہ وہ ظلم کرتے تھے، پھر میں نے ان پر قبضہ کیا، اور میری ہی آخری منزل ہے‘‘ کی وضاحت اس طرح ہے: ’’اور کتنی بستیوں کو میں نے مہلت دی‘‘ کا مطلب ہے: میں نے انہیں مہلت دی اور ان کی سزا میں تاخیر کی، حالانکہ وہ اللہ کے حکم اور نافرمانی میں شریک تھے۔ یہ ان کا ظلم تھا جسے اللہ تعالیٰ نے ان کے ساتھ بیان کیا، اس لیے میں نے ان کی سزا میں جلدی نہیں کی۔ "پھر میں نے اسے پکڑ لیا" کا مطلب ہے: پھر میں نے اسے عذاب کے ساتھ پکڑا، اور میں نے اس کو دنیا میں اپنا عذاب ان پر مسلط کر دیا۔ ’’اور میری ہی منزل ہے۔‘‘ وہ کہتا ہے: اور میری ہی طرف ان کی منزل ہے اور ان کی ہلاکت کے بعد، اور وہ اس عذاب سے پائیں گے جس کی کوئی انتہا نہیں۔ ارشاد باری تعالیٰ ہے: ان لوگوں کا بھی یہی حال ہے جو تم کو تمہاری قوم کے مشرکوں سے عذاب میں جلدی کرتے ہیں اور اگر میں انہیں ان کے مقررہ وقت تک مہلت دوں جو میں نے ان کو دی ہے تو میں انہیں عذاب میں پکڑ کر تلوار سے ان سے لڑوں گا اور اس کے بعد ان کی منزل میری طرف ہے، پس میں ان پر وہ دردناک عذاب نازل کروں گا جو انہوں نے کیا تھا۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=22&tAyahNo=48&tDisplay=yes&UserProfile=0&LanguageId=1

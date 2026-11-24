@@ -2,10 +2,17 @@
 id: passage/quran-35-12
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-35-12.md}
 ---
 ## موجز
 الآية 12 من [[passage/quran-35|سورۃ فاطر]]، وہ مکی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 12، سورت کی کل 45 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+اس کا فرمان ہے کہ "اور دونوں سمندر یکساں نہیں ہیں: ایک تازہ اور لذیذ، پینے میں لذیذ اور دوسرا نمکین اور کڑوا ہے، اور ہر ایک سے تم نرم گوشت کھاتے ہو اور زیورات نکالتے ہو جسے پہنتے ہو، اور تم دیکھتے ہو کہ ان میں سے کشتیاں چلتی ہیں تاکہ تم اس کا فضل تلاش کرو؛ اور شاید تم شکر گزار ہو جاؤ، ان کے تازہ اور میزان میں دو برابر ہیں"۔ اور لذیذ تازہ پانیوں میں سب سے میٹھا ہے، "اور یہ نمکین اور کڑوا ہے۔" فرمایا: اور ان میں سے دوسرا کھارا اور کڑوا ہے اور وہ ہے سبز سمندر کا پانی اور کڑوا پانی۔ کڑوا پانی، تمام پانیوں میں سب سے زیادہ کھارا، جیسا کہ قتادہ نے اس آیت کے بارے میں کہا ہے کہ "اور یہ کھارا اور کڑوا پانی ہے" اور "کڑوا" کا مطلب کڑوا ہے۔ اور اس آیت کے بارے میں، "اور ہر ایک میں سے تم نرم گوشت کھاتے ہو،" وہ کہتا ہے: تم تمام سمندروں سے نرم گوشت کھاتے ہو، اور وہ مچھلی ان کے میٹھے پانیوں، فرات اور ان کے کھارے، کڑوے پانیوں سے ہے۔ ’’اور تم وہ زیور نکالتے ہو جو تم پہنتے ہو‘‘ یعنی موتی اور مرجان جو تم کھارے، کڑوے پانی سے نکالتے ہو۔ اس عبارت میں ابن عباس اور قتادہ کے بیانات بھی نقل کیے گئے ہیں۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=35&tAyahNo=12&tDisplay=yes&UserProfile=0&LanguageId=1

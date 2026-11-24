@@ -2,8 +2,8 @@
 id: passage/quran-95-5
 lang: id
 source_lang: ar
-translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-23), draft translation']
-provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-23, source: content/ar/passage/quran-95-5.md}
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-23), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-id-2026-11-24, source: content/ar/passage/quran-95-5.md}
 ---
 
 ## Ringkasan
@@ -11,3 +11,9 @@ Ayat 5 [[passage/quran-95|Surah At-Tin]], yang merupakan surah Mekah. {cite:tanz
 
 ## Posisinya
 Lokasinya: Ayat 5 dari 8 dalam surat. Teks ini dilestarikan dari Mushaf Wahyu Beku dan tidak ditulis ulang di sini.
+
+## Dalam Tafsir al-Tabari
+
+Al-Tabari membaca ayat dalam ayat 5 sampai 10 sebagai satu bagian. Ia menjelaskan frasa “Demi buah ara dan buah zaitun”: Para ulama penafsir berbeda pendapat mengenai frasa “Demi buah ara dan buah zaitun.” Sebagian mengatakan bahwa “buah ara” merujuk pada buah ara yang dimakan, dan “buah zaitun” merujuk pada buah zaitun yang diperas untuk diambil minyaknya. Dalam bagian ini, ia mengutip pendapat Mujahid, Qatadah, Al-Hasan, Al-Kalbi, Ibrahim, dan Sufyan.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=95&tAyahNo=5&tDisplay=yes&UserProfile=0&LanguageId=1

@@ -2,10 +2,17 @@
 id: passage/quran-18-61
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-18-61.md}
 ---
 ## موجز
 الآية 61 من [[passage/quran-18|سورۃ الکہف]]، وہ مکی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 61، سورت کی کل 110 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+اس کا یہ قول کہ "جب وہ دو سمندروں کے سنگم پر پہنچے تو وہ اپنی مچھلی کو بھول گئے اور اس نے سمندر میں اپنا راستہ بنا لیا، ایک سرنگ" یعنی جیسا کہ اللہ تعالیٰ نے فرمایا: جب موسیٰ اور ان کا بندہ دو سمندروں کے سنگم پر پہنچے جیسا کہ ابن ابی نجیح نے مجاہد سے روایت کیا ہے، اس فقرے کے حوالے سے فرمایا: دو سمندروں کا سنگم۔ مجھ سے حجاج نے ابن جریج کی سند سے اور مجاہد کی سند سے اسی طرح بیان کیا۔ اور اس کا یہ قول کہ "وہ اپنی مچھلی بھول گئے" یعنی "بھول گئے" کے معنی میں انہوں نے اسے چھوڑ دیا، جیسا کہ ابن ابی نجیح نے مجاہد سے روایت کی ہے کہ "وہ اپنی مچھلی بھول گئے" انہوں نے کہا: انہوں نے اسے کھو دیا۔ مجھ سے حجاج نے ابن جریج سے اور مجاہد کی سند سے بیان کیا، انہوں نے کہا: انہوں نے اسے کھو دیا۔ بعض عرب علماء نے کہا کہ مچھلی یوشع کے پاس تھی اور وہ اسے بھول گیا تھا، اس لیے بھولنے کی وجہ ان دونوں کی طرف منسوب کی گئی، جیسا کہ یہ کہتا ہے کہ "ان دونوں سے موتی اور مرجان نکلتے ہیں" حالانکہ موتی اور مرجان صرف نمکین پانی سے نکلتے ہیں، تازہ پانی سے نہیں۔ اس عبارت میں ابن عباس، مجاہد اور ابن جریج کے بیانات بھی نقل کیے گئے ہیں۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=18&tAyahNo=61&tDisplay=yes&UserProfile=0&LanguageId=1

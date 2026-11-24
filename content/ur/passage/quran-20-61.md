@@ -2,10 +2,17 @@
 id: passage/quran-20-61
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-20-61.md}
 ---
 ## موجز
 الآية 61 من [[passage/quran-20|سورۃ طٰہ]]، وہ مکی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 61، سورت کی کل 135 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+وہ اپنے بیان کی وضاحت کرتا ہے، "موسیٰ نے ان سے کہا، 'افسوس! خدا پر جھوٹ نہ باندھو، ورنہ وہ تمہیں عذاب سے ہلاک کردے گا۔ اور جو جھوٹ گھڑتا ہے وہ ناکام ہو گیا ہے۔'" خدا تعالیٰ فرماتا ہے، "موسیٰ نے جادوگروں سے کہا" جب فرعون انہیں لے کر آیا: "افسوس! خدا پر جھوٹ نہ باندھو۔" وہ کہتا ہے: جھوٹ بول کر خدا کے ساتھ اختلاف نہ کرو، اور اس کی طرف جھوٹی باتیں منسوب نہ کرو، "ایسا نہ ہو کہ وہ تمہیں عذاب کے ساتھ تباہ کر دے،" تو وہ تمہیں تباہی سے مٹا دے گا اور تمہیں فنا کر دے گا۔ عربوں میں اس لفظ کی دو صورتیں ہیں: *صحت* اور *اصحت*، *صحت* زیادہ عام ہے۔ اس کی جڑ سے کوئی کہتا ہے: *صحت الدہر* ⁦(وقت نے تباہی مچادی)⁩ اور *اصحت مال فلان* ⁦(فلاں کا مال برباد ہوگیا)⁩ یعنی اس نے اسے برباد کردیا۔ فعل ہے *یَسْحَتُوْ سَحَطَان*، اور فعل اسم *یَسْحَتُوْ اِسْحَطان* ہے۔ استحاضہ کی ایک مثال فرازدق کا قول ہے: "اور زمانے کے کاٹنے سے اے ابن مروان نے مال میں سے کوئی چیز نہیں چھوڑی سوائے ایک *مستحطان* یا *مجلف** کے۔" یہ بھی روایت ہے: "مگر ایک *مستحطان* یا *مجلف*۔" اس عبارت میں ابن عباس، قتادہ اور ابن زید سے منسوب بیانات بھی شامل ہیں۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=20&tAyahNo=61&tDisplay=yes&UserProfile=0&LanguageId=1

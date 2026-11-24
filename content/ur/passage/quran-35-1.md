@@ -2,10 +2,17 @@
 id: passage/quran-35-1
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-35-1.md}
 ---
 ## موجز
 الآية 1 من [[passage/quran-35|سورۃ فاطر]]، وہ مکی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 1، سورت کی کل 45 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+اس کا یہ بیان کہ "تمام تعریفیں اللہ کے لیے ہیں جو آسمانوں اور زمین کا خالق ہے، جس نے فرشتوں کو دو، تین، یا چار پروں سے رسول بنایا، وہ مخلوق میں جو چاہتا ہے بڑھاتا ہے، بے شک اللہ ہر چیز پر قادر ہے،" وضاحت کرتا ہے: اس ذات کا مکمل شکر ادا کرنا، جس کی عبادت کا حق ہے، صرف اسی کی عبادت کرنی چاہیے، اسی کی عبادت کرنی چاہیے۔ سات آسمان اور زمین، "جس نے فرشتوں کو قاصد بنایا" اپنے بندوں میں سے جس کے لیے چاہتا ہے، اور اپنے حکموں اور ممانعتوں میں سے جس میں چاہتا ہے، "پروں والے، دو، تین یا چار [جوڑے]،" یعنی: فرشتوں کے ساتھی۔ پنکھ: یعنی فرشتے۔ بعض کے دو پر ہوتے ہیں، بعض کے تین اور بعض کے چار ہوتے ہیں، جیسا کہ آیت میں ہے: قتادہ کے مطابق، "وہ جن کے پر ہیں، دو، تین اور چار"۔ بعض نے کہا: ان کے دو پر ہیں، کسی کے تین اور کسی کے چار۔ عربی کے علماء نے "پنکھوں" کی غیر معینہ شکل استعمال نہ کرنے کی وجہ پر اختلاف کیا ہے، جو "پنکھوں" کا ترجمہ ہے اور "پنکھ" غیر معینہ ہے۔ بصرہ کے بعض گرامر کے ماہرین نے اپنی رائے پیش کی۔ اس حوالے سے قتادہ کا حوالہ دیا گیا ہے۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=35&tAyahNo=1&tDisplay=yes&UserProfile=0&LanguageId=1

@@ -2,8 +2,8 @@
 id: passage/quran-81-21
 lang: tr
 source_lang: ar
-translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-23), draft translation']
-provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-23, source: content/ar/passage/quran-81-21.md}
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-23), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-tr-2026-11-24, source: content/ar/passage/quran-81-21.md}
 ---
 
 ## Özet
@@ -11,3 +11,9 @@ Mekke suresi olan At-Tekvir suresinin [[passage/quran-81|21. ayeti]]. {cite:tanz
 
 ## Konumu
 Konumu: Sure'deki 29 ayetten 21. ayet. Metin Mushaf Tazil al-Mujaddad'dan korunmuş olup burada yeniden yazılmamıştır.
+
+## El-Taberi'nin Tafsir'inde
+
+Taberi, 21-26. ayetler arasındaki bölümü tek bir kısım olarak okur. "Orada itaat edilen, güvenilir" ifadesini şöyle yorumlar: "Orada itaat edilen" ifadesi, cennette melekler tarafından itaat edilen Cebrail'i ifade eder. "Güvenilir" ise, Allah katında vahiy ve mesaj konusunda ve kendisine emanet edilen diğer konularda güvenilir olmayı ifade eder. Bu bölümde İbn Abb Mücahid ve Katade'den alıntılar yapar.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=81&tAyahNo=21&tDisplay=yes&UserProfile=0&LanguageId=1

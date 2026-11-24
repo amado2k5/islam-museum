@@ -2,8 +2,8 @@
 id: passage/quran-45-37
 lang: tr
 source_lang: ar
-translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-23), draft translation']
-provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-23, source: content/ar/passage/quran-45-37.md}
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-23), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-tr-2026-11-24, source: content/ar/passage/quran-45-37.md}
 ---
 
 ## Özet
@@ -11,3 +11,9 @@ Mekke suresi olan Jathiye suresinin [[passage/quran-45|37]]. ayeti. {cite:tanzil
 
 ## Konumu
 Konumu: Suredeki 37 ayetten 37. ayet. Metin Mushaf Tazil al-Mujjard'dan korunmuş olup burada yeniden yazılmamıştır.
+
+## El-Taberi'nin Tafsir'inde
+
+Taberi, bu ayeti 36-37. ayetleri kapsayan tek bir paragrafta ele alır ve özeti şöyledir: Taberi, "Övgüler ve yerin Rabbi olan Allah'a aittir, göklerde ve yerdeki yücelik O'nundur, O her şeye kadirdir, hikmet sahibidir ve her nimet O'ndandır, taptıkları şeylerden değil" diye açıklar. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=45&tAyahNo=37&tDisplay=yes&UserProfile=0&LanguageId=1
+
+Taberi, bu ayeti 36-37. ayetleri kapsayan tek bir paragrafta ele alır ve özeti şöyledir: Taberi, "Övgüler ve yerin Rabbi olan Allah'a aittir, göklerde ve yerdeki yücelik O'nundur, O her şeye kadirdir, hikmet sahibidir ve her nimet O'ndandır, taptıkları şeylerden değil" diye açıklar. {cite:altafsir-tabari} — https://www.altafsir.com/Taf ir. p?tMadhNo=0&tTafsirNo=1&tSoraNo=45&tAyahNo=37&tDisplay=yes&UserProfile=0&LanguageId=1

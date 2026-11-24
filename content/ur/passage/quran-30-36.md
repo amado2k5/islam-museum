@@ -2,10 +2,17 @@
 id: passage/quran-30-36
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-30-36.md}
 ---
 ## موجز
 الآية 36 من [[passage/quran-30|سورۃ الروم]]، وہ مکی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 36، سورت کی کل 60 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+ان کا یہ قول، ’’اور جب ہم لوگوں کو رحمت کا مزہ چکھاتے ہیں تو وہ اس پر خوش ہوتے ہیں، لیکن اگر ان کے ہاتھوں کے آگے بڑھنے کی وجہ سے ان پر کوئی برائی پہنچتی ہے تو وہ مایوس ہو جاتے ہیں،‘‘ بیان کرتا ہے: جب لوگوں کو ہماری طرف سے فراوانی اور خوشحالی، اور ان کے جسموں اور مال میں صحت ملتی ہے، تو وہ اس پر خوش ہوتے ہیں۔ لیکن اگر ان پر ہماری طرف سے کوئی مصیبت آتی ہے، جیسے خشک سالی، قحط اور ان کے مال اور جسم میں مصیبت، "ان کے ہاتھوں کے آگے بڑھنے کی وجہ سے"، یعنی: ان کے اپنے اور خدا کے درمیان برے کاموں اور گناہوں کی وجہ سے، "تو وہ مایوس ہو جاتے ہیں،" یعنی: وہ راحت کی امید کھو بیٹھتے ہیں۔ مایوسی ناامیدی ہے اور اسی سے حامد الارکات کا قول آتا ہے: "انہوں نے الحجاج کو مایوس نہیں پایا۔" اور اس کا یہ قول: "پھر وہ مایوس ہو گئے" apodosis ہے، کیونکہ "پھر" فعل کی طرف اشارہ کرتے ہوئے کھڑا ہوتا ہے، گویا یہ کہا گیا ہے: اور اگر ان کے ہاتھوں کے آگے بڑھنے کی وجہ سے ان پر کوئی برائی پہنچے تو آپ انہیں مایوس پائیں گے، یا آپ انہیں دیکھیں گے، یا آپ انہیں دیکھیں گے۔ اور بصرہ کے بعض گرائمر کہتے تھے: "پھر" ایک apodosis ہے کیونکہ یہ پہلے جملے سے اسی طرح جڑا ہوا ہے جس طرح "پھر" ہے۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=30&tAyahNo=36&tDisplay=yes&UserProfile=0&LanguageId=1

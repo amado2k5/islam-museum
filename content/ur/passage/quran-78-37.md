@@ -2,10 +2,17 @@
 id: passage/quran-78-37
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-78-37.md}
 ---
 ## موجز
 الآية 37 من [[passage/quran-78|سورۃ النبأ]]، وہ مکی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 37، سورت کی کل 40 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+الطبری نے آیات 37-39 کے اندر آیت کو ایک حصے کے طور پر پڑھا ہے۔ وہ اس جملہ کی تشریح کرتا ہے "آپ کے رب کی طرف سے ایک انعام، ایک تحفہ، ایک حساب": خدا، اس کی تعریف بلند ہو، اس کا مطلب یہ ہے کہ اس نے ان نیک لوگوں کو ان کے رب کی طرف سے ان کے اعمال کے بدلے، اس دنیا میں اس کی اطاعت کے بدلے میں دیا ہے۔ ان کے بیان "تحفہ" کا مطلب ہے کہ یہ انعام ان پر خدا کی طرف سے ایک احسان ہے، جیسا کہ اس نے انہیں بعض مواقع پر ہر عمل کا دس گنا اور بعض میں ہر عمل کا سات سو گنا اجر دیا۔ یہ اضافہ، اگرچہ ایک انعام ہے، خدا کی طرف سے ایک تحفہ ہے۔ ان کے بیان "حساب" کا مطلب ہے کہ وہ اس دنیا میں خدا کے سامنے اپنے اعمال کا جوابدہ ہوں گے۔ اس حصے میں انہوں نے مجاہد اور قتادہ کے بیانات نقل کیے ہیں۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=78&tAyahNo=37&tDisplay=yes&UserProfile=0&LanguageId=1

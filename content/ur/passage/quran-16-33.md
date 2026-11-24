@@ -2,10 +2,17 @@
 id: passage/quran-16-33
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-16-33.md}
 ---
 ## موجز
 الآية 33 من [[passage/quran-16|سورۃ النحل]]، وہ مکی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 33، سورت کی کل 128 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+اس کا بیان، "کیا وہ اس کے سوا کسی چیز کا انتظار کرتے ہیں کہ فرشتے ان کے پاس آئیں یا آپ کے رب کا حکم آئے؟ ایسا ہی ان سے پہلے لوگوں نے کیا، اور اللہ نے ان پر ظلم نہیں کیا، بلکہ انہوں نے اپنی جانوں پر ظلم کیا،" بیان کرتے ہیں: کیا یہ مشرک فرشتوں کے سوا کسی اور چیز کا انتظار کرتے ہیں کہ وہ آئیں اور ان کی روحیں قبض کریں، یا آپ کے رب کے حکم کا انتظار ہے کہ وہ انہیں قیامت کے دن جمع کریں؟ ’’ان سے پہلے والوں نے بھی ایسا ہی کیا تھا‘‘، آپؐ فرماتے ہیں: ’’جس طرح یہ لوگ خدا کے فرشتوں کا انتظار کرتے ہیں کہ وہ ان کی روح قبض کریں یا خدا کے حکم کے آنے کا، اسی طرح ان کے آباء و اجداد نے بھی جو خدا کے ساتھ کفر کیا، کیونکہ ہر مشرک کا یہی حال ہے۔ ’’اور اللہ نے ان پر ظلم نہیں کیا،‘‘ وہ، اس کی حمد و ثنا بیان فرماتا ہے: اللہ تعالیٰ نے ان پر اپنا غضب نازل کرکے ان پر ظلم نہیں کیا، ’’بلکہ انہوں نے اپنے رب کی نافرمانی کرکے اور اس سے کفر کرتے ہوئے اپنے آپ پر ظلم کیا، یہاں تک کہ وہ اس کے عذاب کے مستحق ہوگئے، اس لیے اس نے ان کے لیے جلد بازی کی۔ اس آیت میں مجاہد اور قتادہ کے بیانات بھی نقل کیے گئے ہیں۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=16&tAyahNo=33&tDisplay=yes&UserProfile=0&LanguageId=1

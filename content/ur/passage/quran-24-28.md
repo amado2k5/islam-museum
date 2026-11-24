@@ -2,10 +2,17 @@
 id: passage/quran-24-28
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-24-28.md}
 ---
 ## موجز
 الآية 28 من [[passage/quran-24|سورۃ النور]]، وہ مدنی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 28، سورت کی کل 64 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+اس کا فرمان ہے: "لیکن اگر تم اس میں کسی کو نہ پاؤ تو اس میں داخل نہ ہو جب تک کہ تمہیں اجازت نہ دے دی جائے، اور اگر تم سے کہا جائے کہ 'واپس جاؤ'، تو واپس چلے جاؤ، یہ تمہارے لیے زیادہ پاکیزہ ہے، اور جو کچھ تم کرتے ہو، اللہ اس سے باخبر ہے،" بیان کرتا ہے: اگر تم ان گھروں میں کسی کو نہ پاؤ جس میں تم داخل ہونے کی اجازت مانگ رہے ہو، تو تم ان میں داخل نہ ہو، کیونکہ وہ تمہارے ہیں۔ تمہارے لیے ان کے مالکوں کی اجازت کے بغیر ان میں داخل ہونا جائز نہیں۔ اگر ان کے مالک آپ کو ان میں داخل ہونے کی اجازت دیں تو ان میں داخل ہوں۔ "اور اگر تم سے کہا جائے، 'واپس جاؤ،' تو واپس چلے جاؤ۔" اس کا مطلب یہ ہے کہ جن گھروں میں تم داخل ہونے کی اجازت مانگ رہے ہو اگر وہ تم سے کہیں کہ واپس جاؤ اور داخل نہ ہو تو واپس جاؤ اور ان میں داخل نہ ہو۔ ’’یہ تمہارے لیے زیادہ پاکیزہ ہے۔‘‘ اس کا مطلب یہ ہے کہ جب آپ کو واپس جانے کے لیے کہا جائے اور آپ کو داخل ہونے کی اجازت نہ دی جائے تو ان سے آپ کا پلٹ جانا اللہ کے نزدیک آپ کے لیے زیادہ پاکیزہ ہے۔ یہاں لفظ "یہ" لفظی اسم کا استعارہ ہے، جس کا مطلب ہے "واپس جاؤ۔" اس حوالے میں مجاہد سے منسوب بیانات بھی شامل ہیں۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=24&tAyahNo=28&tDisplay=yes&UserProfile=0&LanguageId=1

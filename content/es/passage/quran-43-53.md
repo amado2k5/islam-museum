@@ -2,11 +2,17 @@
 id: passage/quran-43-53
 lang: es
 source_lang: en
-translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
-provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate documents, managed by Claude Code)', model: google-translate, run: gt-docs-es-2026-11-19, source: content/en/passage/quran-43-53.md}
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-es-2026-11-24, source: content/ar/passage/quran-43-53.md}
 ---
 ## Resumen
 Versículo 53 de [[passage/quran-43|Surat az-Zukhruf]], una sura de La Meca. {cite:tanzil-quran}
 
 ## Lugar en el museo
 Su ubicación: versículo 53 de 89 versículos en la sura. El texto se conserva en el Mushaf congelado de Tanzil y no se reproduce aquí.
+
+## En el comentario de al-Tabari
+
+Al-Tabari lee el versículo entre los versículos 53 y 54 como una sola sección. Interpreta Su dicho: "¿O soy yo mejor que este que es insignificante y apenas puede hablar con claridad?": Dios Todopoderoso dice, informándonos de lo que Faraón dijo a su pueblo después de discutir con ellos sobre su reino y autoridad, la elocuencia de su discurso, la perfección de su creación y la superioridad entre él y Moisés con los atributos que describió para sí mismo y Moisés: "Soy mejor, oh pueblo, y mi atributo es este que os he descrito. ¿O es este que es insignificante?" No tiene reino ni riqueza, y tiene una enfermedad en su cuerpo y un defecto en su habla, de modo que apenas puede hablar con claridad por ello. Hay desacuerdo sobre el significado de Su dicho "O" en este lugar. Algunos dijeron: Su significado es: Más bien, yo soy mejor. Dijeron: Eso es una afirmación, no una pregunta. El pasaje cita declaraciones de Qatada.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=43&tAyahNo=53&tDisplay=yes&UserProfile=0&LanguageId=1

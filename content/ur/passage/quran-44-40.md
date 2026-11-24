@@ -2,10 +2,17 @@
 id: passage/quran-44-40
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-44-40.md}
 ---
 ## موجز
 الآية 40 من [[passage/quran-44|سورۃ الدخان]]، وہ مکی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 40، سورت کی کل 59 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+الطبری آیات 40-42 کے اندر آیت کو ایک حصے کے طور پر پڑھتا ہے۔ وہ اس جملے کی تشریح کرتا ہے کہ "بے شک، یومِ جزا ان سب کا مقررہ وقت ہے" کے معنی کے طور پر: وہ دن جب خدا اپنی مخلوق کے درمیان فیصلہ کرے گا اس کی بنیاد پر جو انہوں نے اس دنیا میں کیا، خواہ وہ اچھا تھا یا برا، نیک لوگوں کو نیکی کا بدلہ دے گا اور بدکاروں کو برائی سے سزا دے گا۔ "ان کا وقت مقرر" کا مطلب ہے: ان سب کے جمع ہونے کا وقت۔ اسی طرح قتادہ نے اس آیت کے بارے میں کہا کہ "بے شک قیامت کا دن ان سب کا وقت مقرر ہے": جس دن لوگوں کے درمیان ان کے اعمال کی بنیاد پر فیصلہ کیا جائے گا۔ ان کے اس قول کہ ’’جس دن کوئی دوست کسی کے کچھ کام نہ آئے گا‘‘ کا مطلب یہ ہے کہ کوئی چچا زاد بھائی دوسرے کزن سے، نہ کوئی دوست اپنے دوست سے، خدا کی طرف سے ان پر آنے والے عذاب میں سے کوئی ٹال نہیں سکے گا۔ ’’نہ ان کی مدد کی جائے گی‘‘ کا مطلب یہ ہے کہ وہ ایک دوسرے کی مدد نہیں کر سکیں گے اور نہ ہی ان لوگوں سے پناہ مانگیں گے جنہوں نے انہیں عذاب میں مبتلا کیا ہے جیسا کہ وہ اس دنیا میں کیا کرتے تھے۔ اسی طرح قتادہ نے اس آیت کے بارے میں کہا کہ ’’جس دن کوئی دوست کسی کے کام نہ آئے گا‘‘۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=44&tAyahNo=40&tDisplay=yes&UserProfile=0&LanguageId=1

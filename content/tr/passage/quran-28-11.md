@@ -2,8 +2,8 @@
 id: passage/quran-28-11
 lang: tr
 source_lang: ar
-translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-23), draft translation']
-provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-23, source: content/ar/passage/quran-28-11.md}
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-23), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-tr-2026-11-24, source: content/ar/passage/quran-28-11.md}
 ---
 
 ## Özet
@@ -11,3 +11,9 @@ Mekke suresi olan Kasas suresinin [[passage/quran-28|11. ayeti]]. {cite:tanzil-q
 
 ## Konumu
 Konumu: Suredeki 88 ayetten 11. ayet. Metin Donmuş Vahiy'in Muşaf'ından korunmuş olup burada yeniden yazılmamıştır.
+
+## El-Taberi'nin Tafsir'inde
+
+“Ve kız kardeşine, ‘Onu izle,’ dedi ve onlar fark etmeden uzaktan onu izledi,” ayeti, Musa’nın annesinin onu nehre attığı sırada kız kardeşine “Onu izle” dediğini açıklamaktadır. Bu, Musa’nın izini takip et, ayak izlerini takip et anlamına gelir. “İnsanların izlerini takip ettim” ifadesi ise onların izlerini takip ettim anlamına gelir. Bu pasajda ayrıca İbn Abb Mücahid, Katade ve İbn İshak’ın yorumları da yer almaktadır.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=28&tAyahNo=11&tDisplay=yes&UserProfile=0&LanguageId=1

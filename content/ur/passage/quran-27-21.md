@@ -2,10 +2,17 @@
 id: passage/quran-27-21
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-27-21.md}
 ---
 ## موجز
 الآية 21 من [[passage/quran-27|سورۃ النمل]]، وہ مکی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 21، سورت کی کل 93 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+الطبری نے آیت 21-22 کے اندر آیت کو ایک حصے کے طور پر پڑھا ہے۔ وہ ان الفاظ کی تشریح کرتا ہے، "اور اس نے پرندوں کا معائنہ کیا اور کہا، 'میں ہدپو کو کیوں نہیں دیکھ رہا ہوں، یا وہ غائبوں میں سے ہے؟'" اس طرح: "اور سلیمان نے پرندوں کا معائنہ کیا اور کہا، 'میں کیوں نہیں دیکھ رہا ہوں؟'" اس کے پرندوں کے معائنے کی وجہ اور خاص طور پر پرندوں سے اس کی پوچھ گچھ کی وجہ یہ ہے: انہوں نے کہا: میں نے عمران کو ابو مجلّز سے روایت کرتے ہوئے سنا، انہوں نے کہا: ابن عباس عبداللہ بن سلام کے پاس بیٹھے اور ان سے ہدد کے بارے میں پوچھا: سلیمان نے تمام پرندوں میں سے اس کا معائنہ کیوں کیا؟ عبداللہ بن سلام نے کہا: سلیمان اپنے سفر میں ایک جگہ رکے اور نہیں جانتے تھے کہ پانی کتنی دور ہے۔ اس نے کہا کہ کون جانتا ہے کہ پانی کتنی دور ہے؟ انہوں نے کہا، "ہوپ"۔ جب اس نے اس کا معائنہ کیا۔ ابو مجلع کی سند سے، ابن عباس اور عبداللہ بن سلام کی سند سے بھی اسی طرح کی روایت نقل ہوئی ہے۔ اس عبارت میں ابن عباس، سعید ابن جبیر، ابن زید اور العماش سے منسوب بیانات بھی شامل ہیں۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=27&tAyahNo=21&tDisplay=yes&UserProfile=0&LanguageId=1

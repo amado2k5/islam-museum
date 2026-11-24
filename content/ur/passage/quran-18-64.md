@@ -2,10 +2,17 @@
 id: passage/quran-18-64
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-18-64.md}
 ---
 ## موجز
 الآية 64 من [[passage/quran-18|سورۃ الکہف]]، وہ مکی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 64، سورت کی کل 110 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+الطبری آیات 64-65 کے اندر آیت کو ایک حصے کے طور پر پڑھتا ہے۔ وہ الفاظ کی تشریح کرتا ہے، "اس نے کہا، 'یہ وہی ہے جس کی ہم تلاش کر رہے تھے۔' تو وہ اپنے قدم پیچھے ہٹ گئے،" اس طرح: موسیٰ نے اپنے نوکر سے کہا، "وہ" یعنی آپ کا مچھلی کو بھول جانا، "اور ہم کیا ڈھونڈ رہے تھے،" یعنی ہم جس کی تلاش اور تلاش کر رہے تھے، کیونکہ موسیٰ سے کہا گیا تھا، "تمہارا ساتھی جس کی تم تلاش کر رہے ہو وہ ہے جہاں تم مچھلی بھول گئے ہو۔" اور ابن ابی نجیح کی روایت سے، مجاہد کی سند سے، ان الفاظ کے بارے میں کہ "ہم اسی کی تلاش میں تھے"، موسیٰ نے کہا: "یہ وہ وقت ہے جب مجھے بتایا گیا کہ میں خضر کو تلاش کروں گا جہاں مچھلیاں مجھ سے بچ جائیں گی۔" اور اس نے کہا: حجاج نے مجھ سے ابن جریج کی سند سے اور مجاہد کی سند سے بیان کیا، سوائے اس کے کہ اس نے کہا کہ مچھلی مجھے کہاں چھوڑے گی۔ اس کے بیان، "لہذا انہوں نے اپنے قدم پیچھے ہٹائے،" کا مطلب ہے کہ وہ اسی راستے پر واپس آئے جس پر انہوں نے چلایا تھا، اپنے گھروں کو پیچھے ہٹاتے ہوئے اور ان پٹریوں کی پیروی کرتے ہوئے جس پر وہ چلے تھے۔ اس عبارت میں ابن عباس، مجاہد، قتادہ اور ابن جریج سے منسوب بیانات بھی شامل ہیں۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=18&tAyahNo=64&tDisplay=yes&UserProfile=0&LanguageId=1

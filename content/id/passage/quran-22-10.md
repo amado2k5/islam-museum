@@ -2,8 +2,8 @@
 id: passage/quran-22-10
 lang: id
 source_lang: ar
-translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-23), draft translation']
-provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-23, source: content/ar/passage/quran-22-10.md}
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-23), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-id-2026-11-24, source: content/ar/passage/quran-22-10.md}
 ---
 
 ## Ringkasan
@@ -11,3 +11,9 @@ Ayat 10 Surah [[passage/quran-22|Al-Haji]], yang merupakan surah Madinah. {cite:
 
 ## Posisinya
 Lokasinya: Ayat 10 dari 78 dalam Surah. Teks ini disimpan dari Mushaf Tazil Al-Mujaddim dan tidak ditulis ulang di sini.
+
+## Dalam Tafsir al-Tabari
+
+Al-Tabari membaca ayat dalam ayat 10-11 sebagai satu bagian. Ia menafsirkan kata-kata, “Menyimpang dengan sombong untuk menyesatkan [orang lain] dari jalan Allah. Baginya di dunia ini adalah kehinaan, dan Kami akan membuatnya merasakan azab api yang membakar pada Hari Kiamat”: Orang yang berdebat tentang Allah tanpa pengetahuan “menyimpang dengan sombong.” Para ulama penafsir berbeda pendapat tentang makna di balik deskripsi ini dan apa yang dimaksudkannya. Sebagian mengatakan itu merujuk pada kesombongan dan keangkuhannya. Disebutkan bahwa orang Arab berkata, “Si fulan datang kepadaku dengan sombong,” artinya dia datang dengan angkuh. Dalam bagian ini, ia mengutip pernyataan dari Ibnu Abbas, Mujahid, dan Ibnu Zaid.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=22&tAyahNo=10&tDisplay=yes&UserProfile=0&LanguageId=1

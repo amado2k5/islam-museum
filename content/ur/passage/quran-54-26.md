@@ -2,10 +2,17 @@
 id: passage/quran-54-26
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-54-26.md}
 ---
 ## موجز
 الآية 26 من [[passage/quran-54|سورۃ القمر]]، وہ مکی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 26، سورت کی کل 55 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+الطبری آیت 25-26 کے اندر آیت کو ایک اکائی کے طور پر پڑھتا ہے۔ وہ اس جملے کی تشریح اس طرح کرتے ہیں کہ "انہیں کل معلوم ہو جائے گا کہ متکبر جھوٹا کون ہے": خدا نے ان سے کہا، "تم کل قیامت کے دن جان لو گے کہ تم میں سے، قوم ثمود کون جھوٹا ہے، اور ہمارا رسول صالح کون ہے، جب تم اپنے رب کے سامنے پیش کیے جاؤ گے۔" یہ تشریح حرف "ط" ⁦(ت)⁩ کے ساتھ پڑھنے پر مبنی ہے، جسے عاصم اور کسائی کے علاوہ اکثر اہل کوفہ کا پڑھنا ہے۔ تاہم، حرف "ی" ⁦(ي)⁩ کے ساتھ پڑھنے کے مطابق، جو مدینہ اور بصرہ کے اکثر قاریوں کے ساتھ ساتھ عاصم اور الکساعی کا پڑھنا ہے، خدا نے کہا، "انہیں کل معلوم ہو جائے گا کہ متکبر جھوٹا کون ہے"، "خدا نے کہا" کے جملہ کو چھوڑ دیا، جیسا کہ معنی سیاق و سباق سے ظاہر ہوتا ہے۔ ہماری رائے میں صحیح قول یہ ہے کہ دونوں معروف قراء ات ہیں جن میں سے ہر ایک کو قرآنی قراء ت کے علما نے پڑھا ہے۔ لہٰذا، قاری جو بھی پڑھتا ہے وہ صحیح ہے، ان کے معانی کی مماثلت اور ان کی گرائمری اور تشریحی درستگی کی وجہ سے۔ اس حوالے میں مجاہد سے منسوب بیانات کا بھی حوالہ دیا گیا ہے۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=54&tAyahNo=26&tDisplay=yes&UserProfile=0&LanguageId=1

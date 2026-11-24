@@ -2,10 +2,17 @@
 id: passage/quran-46-27
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-46-27.md}
 ---
 ## موجز
 الآية 27 من [[passage/quran-46|سورۃ الاحقاف]]، وہ مکی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 27، سورت کی کل 35 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+الطبری نے آیت 27 سے 28 تک کی آیت کو ایک حصے کے طور پر پڑھا ہے۔ وہ اپنے اس قول کی وضاحت کرتا ہے: "اور یقیناً ہم نے تمہارے اردگرد کی بستیوں کو تباہ کر دیا ہے اور ہم نے نشانیوں کو متنوع کیا ہے تاکہ وہ واپس آجائیں": خدا تعالیٰ کفار قریش کو اپنی طاقت اور طاقت سے خبردار کرتے ہوئے فرماتا ہے کہ یہ ان کے کفر کی وجہ سے ان پر آئے گا، "اور ہم نے یقیناً تباہ کر دیا ہے، اے لوگو، تمھاری شہر حمود کے اردگرد کی بستیوں کو بھی تباہ کر دو۔ ماریب، اور اس طرح، تو ہم نے ان کے باشندوں کو عذاب سے ڈرایا، اور ان کے گھروں کو تباہ کر دیا، تو ہم نے انہیں ان کی بنیادوں پر ویران کر دیا۔ ان کے اس قول کہ ’’اور ہم نے نشانیاں بیان کیں‘‘ کا مطلب ہے: ہم نے ان کو طرح طرح کی نصیحتیں کیں، طرح طرح کی نصیحتیں اور دلائل سے یاد دلایا اور ان پر یہ بات واضح کردی۔ جیسا کہ ابن زید نے آیت "اور ہم نے نشانیوں کو بیان کیا" کے بارے میں کہا ہے کہ اس کا مطلب ہے: ہم نے ان کو واضح کیا تاکہ وہ ⁦(راستہ کی طرف)⁩ لوٹ آئیں، یعنی تاکہ وہ خدا اور اس کی نشانیوں کے ساتھ اپنے مسلسل کفر سے باز آجائیں۔ اس عبارت میں ابن عباس اور ابن زید کے بیانات بھی شامل ہیں۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=46&tAyahNo=27&tDisplay=yes&UserProfile=0&LanguageId=1

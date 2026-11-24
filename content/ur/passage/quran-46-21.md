@@ -2,10 +2,17 @@
 id: passage/quran-46-21
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-46-21.md}
 ---
 ## موجز
 الآية 21 من [[passage/quran-46|سورۃ الاحقاف]]، وہ مکی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 21، سورت کی کل 35 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+اس کا یہ قول، "اور اے محمد، عاد کے بھائی کا ذکر کرو، جب اس نے اپنی قوم کو ریت کے ٹیلوں میں ڈرایا تھا - اور ان سے پہلے اور ان کے بعد ڈرانے والے گزر چکے ہیں - [کہتے ہیں] کہ اللہ کے سوا عبادت نہ کرو، بے شک میں تم پر بڑے دن کے عذاب سے ڈرتا ہوں" بیان کرتا ہے: اور یاد کرو اے محمد، اپنی قوم کے لیے جنہوں نے حق کا انکار کیا، اس بھائی کو جو تم نے حق کے لیے بھیجا۔ تم ان کی طرف جس طرح اس نے اسے عاد کی طرف بھیجا تھا، تو انہیں خبردار کرو کہ وہ اپنے کفر کی وجہ سے خدا کے غضب میں مبتلا ہوں گے جو ان پر ہوا جب انہوں نے ہمارے رسول ہود کو ان سے جھٹلایا، جب انہوں نے اپنی قوم عاد کو ریت کے ٹیلوں میں ڈرایا۔ الاحقاف: حق کی جمع جو ریت کا ایک لمبا حصہ ہے جو پہاڑ کے سائز تک نہیں پہنچتا ہے۔ اس سے مراد یہ ہے کہ عائشہ ہا نے کہا: "اس نے رات ایک حق کے جھاؤ کے درخت کے پاس گزاری، جس کے گرد شمال کی آگ تھی جس سے اس کا چہرہ سیاہ ہو گیا تھا۔" ان احقاف کے مقام کے بارے میں علمائے تفسیر کا اختلاف ہے۔ بعض نے کہا کہ یہ لیونٹ میں ایک پہاڑ ہے۔ اس عبارت میں ابن عباس، مجاہد، قتادہ اور ابن اسحاق کے اقوال نقل کیے گئے ہیں۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=46&tAyahNo=21&tDisplay=yes&UserProfile=0&LanguageId=1

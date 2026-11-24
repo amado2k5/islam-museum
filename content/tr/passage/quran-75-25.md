@@ -2,8 +2,8 @@
 id: passage/quran-75-25
 lang: tr
 source_lang: ar
-translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-23), draft translation']
-provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-23, source: content/ar/passage/quran-75-25.md}
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-23), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-tr-2026-11-24, source: content/ar/passage/quran-75-25.md}
 ---
 
 ## Özet
@@ -11,3 +11,9 @@ Mekke suresi olan Kıyame Suresi [[passage/quran-75|'nin 25]]. ayeti. {cite:tanz
 
 ## Konumu
 Konumu: Surede 40 üzerinden 25. ayet. Metin, donmuş Tazl Mushaf'ın Mushaf'ından korunmuş olup burada yeniden yazılmamıştır.
+
+## El-Taberi'nin Tafsir'inde
+
+Taberi, 25-30. ayetler arasındaki bu bölümü tek bir kısım olarak okur. "Hayır, siz ahireti seviyorsunuz" sözünü şöyle yorumlar: Yüce Allah, bu Kur'an'ın hitap ettiği kullarına, ahiretten çok bu dünyanın süslerini tercih edenlere şöyle buyuruyor: Ey insanlar, sizin dediğiniz gibi, ölümden sonra diriltilmeyecek ve amellerinizin karşılığını almayacaksınız. Aksine, sizi bunu söylemeye sevk eden şey, bu dünyaya olan sevginiz ve onun arzularını ahiretin ebedi mutluluğuna tercih etmenizdir. Yani siz ahireti tercih edip ebedi hayatı inkar ediyorsunuz. Katade'nin "Hayır, siz ahireti sevip ahireti ihmal ediyorsunuz" sözüne gelince, Allah'ın rahmet ve korumasını bahşettiği kimseler dışında çoğu insan ahireti seçmiştir. Bu bölümde Mücahid, Katade, Hasan, İbn Zeyd ve Sufyan'dan alıntılar yapar.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=75&tAyahNo=25&tDisplay=yes&UserProfile=0&LanguageId=1

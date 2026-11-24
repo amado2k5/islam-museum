@@ -2,10 +2,17 @@
 id: passage/quran-21-4
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-21-4.md}
 ---
 ## موجز
 الآية 4 من [[passage/quran-21|سورۃ الانبیاء]]، وہ مکی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 4، سورت کی کل 112 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+اس کا یہ قول کہ "میرا رب جانتا ہے جو کچھ آسمانوں اور زمین میں کہا جاتا ہے، اور وہ سب کچھ سننے والا، سب کچھ جاننے والا ہے" اس حقیقت سے واضح ہوتا ہے کہ تلاوت کرنے والوں نے اپنے جملے "کہو اے میرے رب" کے پڑھنے میں اختلاف کیا۔ مدینہ اور بصرہ کے اکثر قاری اور کوفہ کے کچھ لوگ اسے حکم کے طور پر "میرے رب کہو" کے طور پر پڑھتے ہیں۔ مکہ کے کچھ قراء اور کوفہ کے زیادہ تر قراء نے اسے حقیقت کے بیان کے طور پر "میرے رب نے کہا" کے طور پر پڑھا۔ گویا وہ لوگ جو اسے حکم کے طور پر پڑھتے ہیں اس کی تعبیر یہ ہے کہ اے محمد ان لوگوں سے کہو جو کہتے ہیں کہ کیا تم دیکھتے ہو جادو کرتے ہو؟ میرا رب جانتا ہے جو کہنے والا آسمانوں اور زمین میں کہتا ہے۔ اس سے کچھ بھی پوشیدہ نہیں ہے۔ وہ سب کچھ سننے والا ہے اور جو کچھ وہ کہتے ہیں سب کچھ سننے والا ہے، میری سچائی اور حقیقت کو جانتا ہے جس کی طرف میں تمہیں بلاتا ہوں، اور جو کچھ تم کہتے ہو اس کے جھوٹ اور دیگر تمام چیزوں کو جانتا ہے۔ اور گویا اس کو بیان کے طور پر پڑھنے والوں کا مطلب یہ ہے کہ: محمد نے کہا، "میرا رب جانتا ہے،" خدا کی طرف سے ان کے بارے میں اپنے نبی کے جواب کے بارے میں ایک بیان۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=21&tAyahNo=4&tDisplay=yes&UserProfile=0&LanguageId=1

@@ -2,10 +2,17 @@
 id: passage/quran-39-45
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-39-45.md}
 ---
 ## موجز
 الآية 45 من [[passage/quran-39|سورۃ الزمر]]، وہ مکی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 45، سورت کی کل 75 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+اس کا یہ بیان کہ "اور جب اکیلے خدا کا ذکر کیا جاتا ہے تو آخرت پر ایمان نہ رکھنے والوں کے دل نفرت سے سکڑ جاتے ہیں، لیکن جب اس کے سوا اوروں کا ذکر کیا جاتا ہے تو فوراً خوش ہو جاتے ہیں" بیان کرتا ہے کہ جب خدا کی حمد و ثنا کا ذکر کیا جاتا ہے، صرف اسی کو پکارا جاتا ہے، اور کہا جاتا ہے کہ "کوئی معبود نہیں مگر ان کے دل جو قیامت کے بعد دوبارہ زندہ نہیں ہوتے، خدا کے سوا کوئی معبود نہیں"۔ موت نفرت کے ساتھ سکڑتی ہے۔ لفظ "عداوت کے ساتھ سرگرداں" کا مطلب ہے کہ وہ خدا کی وحدانیت سے دھتکار رہے ہیں۔ ’’اور جب اس کے سوا اوروں کا ذکر کیا جائے‘‘ یعنی جب خدا کے ساتھ جن معبودوں کو وہ پکارتے ہیں ان کا ذکر کیا جاتا ہے اور کہا جاتا ہے کہ ’’یہ بلندی والے ہیں اور ان کی شفاعت کی امید کی جاتی ہے‘‘ تو جو لوگ آخرت پر ایمان نہیں رکھتے وہ خوش ہوتے ہیں اور خوش ہوتے ہیں۔ جہاں تک قتادہ کا قول ہے کہ ’’اور جب صرف اللہ کا ذکر کیا جاتا ہے تو آخرت پر ایمان نہ رکھنے والوں کے دل نفرت سے سکڑ جاتے ہیں‘‘ یعنی ان کے دل دھڑک جاتے ہیں اور متکبر ہو جاتے ہیں، لیکن جب اس کے سوا اوروں کا ذکر کیا جاتا ہے تو وہ خوش ہوتے ہیں۔ اس عبارت میں مجاہد اور قتادہ کے بیانات بھی شامل ہیں۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=39&tAyahNo=45&tDisplay=yes&UserProfile=0&LanguageId=1

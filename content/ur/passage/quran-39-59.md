@@ -2,10 +2,17 @@
 id: passage/quran-39-59
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-39-59.md}
 ---
 ## موجز
 الآية 59 من [[passage/quran-39|سورۃ الزمر]]، وہ مکی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 59، سورت کی کل 75 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+اس کا یہ قول کہ "ہاں، میری نشانیاں تمہارے پاس پہنچی تھیں، لیکن تم نے ان کا انکار کیا اور تکبر کیا، اور تم کافروں میں سے تھے"، بیان کرتا ہے: خدا نے اس شخص کی تردید کی ہے جس نے کہا کہ اگر خدا مجھے ہدایت دیتا تو میں نیک لوگوں میں ہوتا اور جس نے کہا کہ اگر مجھے ایک اور موقع ملتا تو میں نیک لوگوں میں شامل ہوتا۔ وہ کہتا ہے، ’’ہاں، میری نشانیاں تمہارے پاس پہنچی ہیں،‘‘ یعنی اے وہ لوگو جو خدا سے تمھیں اس دنیا میں لوٹانا چاہتے ہیں تاکہ تم نیکی کرنے والوں میں سے ہو، ’’میری نشانیاں‘‘۔ وہ کہتا ہے: میری دلیلیں تمہارے پاس ایک رسول کے ذریعے پہنچی ہیں جو میں نے تمہاری طرف بھیجی ہیں اور ایک کتاب جو میں نے نازل کی ہے، جو تمہیں پڑھ کر سنائی جاتی ہے جس میں وعدے، تنبیہات اور نصیحتیں ہیں۔ ’’لیکن تم نے میری نشانیوں کو جھٹلایا اور ان پر عمل کرنے سے انکار کرتے ہوئے تکبر کیا‘‘۔ ’’اور میں کافروں میں سے تھا۔‘‘ وہ کہتا ہے: میں ان لوگوں میں سے تھا جنہوں نے کافروں کی طرح کام کیا، ان کے طریقے پر چلے اور ان کے راستے پر قائم رہے۔ اس عبارت میں قتادہ سے منسوب بیانات کا بھی حوالہ دیا گیا ہے۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=39&tAyahNo=59&tDisplay=yes&UserProfile=0&LanguageId=1

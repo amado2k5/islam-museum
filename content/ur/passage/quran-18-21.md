@@ -2,10 +2,17 @@
 id: passage/quran-18-21
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-18-21.md}
 ---
 ## موجز
 الآية 21 من [[passage/quran-18|سورۃ الکہف]]، وہ مکی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 21، سورت کی کل 110 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+اس کا بیان ہے کہ "اور اسی طرح ہم نے انہیں آگاہ کیا تاکہ وہ جان لیں کہ خدا کا وعدہ سچا ہے اور یہ کہ قیامت آنے والی ہے جس میں کوئی شک نہیں ہے - جب انہوں نے اپنے معاملے میں آپس میں جھگڑا کیا اور کہا کہ ان پر ایک عمارت بناؤ، ان کا رب ان کو خوب جانتا ہے۔" جو لوگ ان کے معاملے میں غالب رہے انہوں نے کہا: 'ہم ان کی مسجد کو دوبارہ قائم کریں گے، جیسا کہ ہم ان کی مسجد پر دوبارہ قبضہ کریں گے'۔ لمبی نیند، اسی حالت میں جب وہ سوتے تھے، تاکہ وہ ایک دوسرے سے سوال کریں اور خدا کی قدرت کی عظمت اور خدا کے ان کے دفاع کی فضیلت کے بارے میں بصیرت میں اضافہ کریں۔ اس کے حلیف جانتے ہیں کہ ’’اس طرح ہم نے انہیں ظاہر کیا۔‘‘ وہ کہتا ہے: اس طرح ہم نے انہیں دوسرے گروہ کے سامنے ظاہر کیا جو مردہ کو زندہ کرنے کی خدا کی قدرت کے بارے میں شک میں تھے اور اس کی مخلوق کے اجسام کی تخلیق کے بارے میں شک میں تھے، اسی شکل میں جس دن وہ بوسیدہ ہونے کے بعد اٹھائے گئے تھے، تاکہ وہ جان لیں کہ خدا کا وعدہ سچا ہے، اور یقین رکھیں کہ قیامت بلاشبہ آنے والی ہے۔ اس عبارت میں ابن عباس اور قتادہ کے بیانات بھی نقل کیے گئے ہیں۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=18&tAyahNo=21&tDisplay=yes&UserProfile=0&LanguageId=1

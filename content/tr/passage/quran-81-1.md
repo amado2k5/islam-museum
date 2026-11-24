@@ -2,8 +2,8 @@
 id: passage/quran-81-1
 lang: tr
 source_lang: ar
-translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-23), draft translation']
-provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-23, source: content/ar/passage/quran-81-1.md}
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-23), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-tr-2026-11-24, source: content/ar/passage/quran-81-1.md}
 ---
 
 ## Özet
@@ -11,3 +11,9 @@ Mekke suresi olan At-Tekvir suresinin [[passage/quran-81|1. ayeti]]. {cite:tanzi
 
 ## Konumu
 Konumu: Suredeki 29 ayetten 1. ayet. Metin Donmuş Vahiy'in Mushaf'ından korunmuş olup burada yeniden yazılmamıştır.
+
+## El-Taberi'nin Tafsir'inde
+
+Taberi, 1-4. ayetler arasındaki bölümü tek bir kısım olarak okur. "Güneşin kapandığı zaman" ifadesini şöyle açıklar: Tefsir âlimleri "Güneşin kapandığı zaman" ifadesinin tefsirinde farklı görüşlere sahiptiler. Kimileri bunun "Güneşin ışığının kaybolduğu zaman" anlamına geldiğini söylemiştir. Bu bölümde İbn Abb Mücahid, Katade ve Rabi'nin sözlerini aktarır.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=81&tAyahNo=1&tDisplay=yes&UserProfile=0&LanguageId=1

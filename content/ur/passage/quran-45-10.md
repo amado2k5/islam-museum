@@ -2,10 +2,17 @@
 id: passage/quran-45-10
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-45-10.md}
 ---
 ## موجز
 الآية 10 من [[passage/quran-45|سورۃ الجاثية]]، وہ مکی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 10، سورت کی کل 37 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+ان کا یہ بیان کہ ’’ان کے پیچھے جہنم ہے اور نہ تو انہوں نے جو کچھ کمایا ہے اور نہ ہی اللہ کے سوا جس کو انہوں نے کارساز بنایا ہے وہ ان کے کچھ کام نہیں آئے گا اور ان کے لیے بہت بڑا عذاب ہے،‘‘ بیان کرتے ہیں: ’’اللہ کی آیات کا مذاق اڑانے والوں کے پیچھے جہنم ہے‘‘ یعنی ان کے سامنے۔ اس کی وجہ ہم پہلے بیان کر چکے ہیں کہ جو کچھ آپ کے سامنے ہے اسے آپ کے پیچھے کیوں کہا جاتا ہے، اس لیے اسے دہرانے کی ضرورت نہیں۔ فرمایا: ان کے آگے جہنم کی آگ ہے جس میں وہ داخل ہوں گے۔ ’’اور جو کچھ انہوں نے کمایا ہے وہ ان کے کچھ کام نہیں آئے گا‘‘ یعنی دنیا میں جو کچھ بھی انہوں نے کمایا ہے، نہ مال و اولاد، جب وہ عذاب میں مبتلا ہوں گے تو جہنم کے عذاب سے ان کے کام آئے گا۔ اور اس کے اس قول: ’’نہ ہی انہوں نے اللہ کے سوا جن کو دوست بنا رکھا ہے‘‘ کا مطلب ہے: نہ ان کے وہ معبود جن کی وہ اللہ کے سوا عبادت کرتے تھے، اور ان کے وہ رہنما جن کی انہوں نے اللہ کے ساتھ کفر کیا اور جن کو انہوں نے دنیا میں مددگار بنایا، اس دن عذاب جہنم سے ان کے کچھ کام آئے گا۔ ’’اور ان کے لیے بڑا عذاب ہے‘‘ کا مطلب ہے: اور ان کے لیے اللہ کی طرف سے اس دن جہنم میں بڑا عذاب ہے۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=45&tAyahNo=10&tDisplay=yes&UserProfile=0&LanguageId=1

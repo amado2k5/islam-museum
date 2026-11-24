@@ -2,10 +2,17 @@
 id: passage/quran-23-15
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-23-15.md}
 ---
 ## موجز
 الآية 15 من [[passage/quran-23|سورۃ المؤمنون]]، وہ مکی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 15، سورت کی کل 118 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+الطبری آیات 15-16 کے اندر آیت کو ایک اکائی کے طور پر پڑھتا ہے۔ "پھر بے شک اس کے بعد تم ضرور مرو گے" کے جملے کی تشریح اس طرح کرتے ہیں: اے لوگو، جب ہم نے تمہیں ایک نئی تخلیق کے طور پر پیدا کیا اور تمہیں مکمل انسان بنا دیا تو تم مر جاؤ گے اور اسی طرح مٹی ہو جاؤ گے جیسے تم تھے۔ پھر، آپ کی موت کے بعد اور بوسیدہ باقیات میں واپس آنے کے بعد، آپ کو مٹی سے ایک نئی تخلیق کے طور پر زندہ کیا جائے گا، جس طرح ہم نے آپ کو پہلی بار پیدا کیا تھا۔ "پھر واقعی، اس کے بعد تم ضرور مر جاؤ گے" کا فقرہ اس لیے استعمال ہوتا ہے کہ یہ ایک ایسی حالت کو بیان کرتا ہے جو ان پر واقع ہو گی، ایسی حالت جو پہلے موجود نہیں تھی۔ اسی طرح عرب کسی ایسے شخص کے بارے میں کہتے ہیں جو ابھی فوت نہیں ہوا ہے، "وہ مر رہا ہے" یا "وہ جلد ہی مر جائے گا" لیکن وہ کسی ایسے شخص کے بارے میں نہیں کہتے جو پہلے ہی مر چکا ہو۔ اسی طرح اگر کسی کو اس چیز کا لالچ دیا جائے جو آپ کے پاس ہے، اور پھر اس کے بارے میں کہا جائے کہ وہ کچھ کرے گا لیکن نہیں کرتا، تو کہا جاتا ہے کہ "وہ اس چیز کا لالچی ہے جو کل تمہارے پاس ہے۔" یہ تمام ملتے جلتے معاملات پر لاگو ہوتا ہے۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=23&tAyahNo=15&tDisplay=yes&UserProfile=0&LanguageId=1

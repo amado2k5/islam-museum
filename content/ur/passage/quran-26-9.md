@@ -2,10 +2,17 @@
 id: passage/quran-26-9
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-26-9.md}
 ---
 ## موجز
 الآية 9 من [[passage/quran-26|سورۃ الشعراء]]، وہ مکی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 9، سورت کی کل 227 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+الطبری آیات 8-9 کے اندر آیت کو ایک اکائی کے طور پر پڑھتا ہے۔ وہ اس الفاظ کی تشریح کرتا ہے، "اور بے شک، تمہارا رب غالب، رحم کرنے والا ہے" اس طرح: "اور بے شک، تمہارا رب، اے محمد، اپنے عذاب میں غالب ہے، کوئی بھی اس سے بچ نہیں سکتا جب وہ ان سے انتقام لینے کا ارادہ کرے"۔ آپ فرماتے ہیں: "اور اے محمد اگر میں آپ کے ان جھٹلانے والوں پر اپنا عذاب نازل کروں، جو میری طرف سے ان کے پاس آنے والی نصیحت سے منہ موڑ لیں، آپ کے انکار کی وجہ سے، تو ان کو مجھ سے کوئی چیز نہیں روک سکتی، کیونکہ میں غالب، رحم کرنے والا ہوں۔" اس کا مطلب یہ ہے کہ وہ اپنی مخلوق میں سے ان لوگوں پر مہربان ہے جو اپنے کفر اور نافرمانی سے توبہ کرتے ہیں، اور وہ ان کے توبہ کے بعد ان کے پچھلے گناہوں کی سزا نہیں دیتا۔ اور ابن جریج نے اس کے معنی کے بارے میں کہا: اس نے کہا: مجھے الحجاج نے ابن جریج کی سند سے بیان کیا کہ اس کے کہنے والے "غالب و رحیم" سے شاعروں میں وہ سب کچھ ہے جو اس نے گزری ہوئی قوموں میں سے تباہ کر دیا۔ وہ غالب کہتا ہے، جب اس نے اپنے دشمنوں سے بدلہ لیا، مومنوں پر مہربان، جب اس نے ان کو اس سے بچایا جس سے اس نے اپنے دشمنوں کو تباہ کیا۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=26&tAyahNo=9&tDisplay=yes&UserProfile=0&LanguageId=1

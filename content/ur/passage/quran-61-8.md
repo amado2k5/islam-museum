@@ -2,10 +2,17 @@
 id: passage/quran-61-8
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-61-8.md}
 ---
 ## موجز
 الآية 8 من [[passage/quran-61|سورۃ الصف]]، وہ مدنی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 8، سورت کی کل 14 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+اس کا یہ بیان کہ "وہ اللہ کے نور کو اپنے منہ سے بجھا دینا چاہتے ہیں، لیکن اللہ اپنے نور کو مکمل کر دے گا، خواہ کفار اسے ناپسند ہی کیوں نہ ہوں"، اس بات کی وضاحت کرتا ہے کہ جن لوگوں نے محمد سے کہا، "یہ صریحاً جادوگر ہے،" "اللہ کے نور کو اپنے منہ سے بجھا دینا چاہتے ہیں۔" اس کا مطلب ہے کہ وہ اس سچائی کو باطل کرنا چاہتے ہیں جس کے ساتھ اللہ نے محمد کو بھیجا، یہ کہہ کر کہ وہ جادوگر ہے اور جو وہ لائے ہیں وہ جادو ہے۔ ’’لیکن اللہ اپنے نور کو کامل کرے گا۔‘‘ اس کا مطلب یہ ہے کہ اللہ حق کو ظاہر کرے گا، اپنے دین کو ظاہر کرے گا، اور اپنے دشمنوں کے مقابلے میں محمد کی حمایت کرے گا۔ یہ اس کے نور کا کمال ہے۔ اس تناظر میں "روشنی" سے مراد اسلام ہے۔ ابن زید نے کہا کہ اس سے مراد قرآن ہے۔ ابن زید نے اس آیت کے بارے میں کہا کہ "تاکہ وہ خدا کے نور کو اپنے منہ سے بجھا دیں" کہ اس سے مراد قرآن کا نور ہے۔ تلاوت کرنے والوں نے اس آیت کے پڑھنے میں اختلاف کیا، "اور خدا اپنے نور کو مکمل کرے گا۔" مدینہ اور بصرہ کے اکثر قراء کرام اور بعض کوفان اسے اس طرح پڑھتے ہیں کہ "وہ اپنے نور کو مکمل کرے گا" ⁦(الزام کے ساتھ)⁩۔ مندرجہ ذیل حصے میں اس نکتے پر ابن زید کا حوالہ دیا گیا ہے۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=61&tAyahNo=8&tDisplay=yes&UserProfile=0&LanguageId=1

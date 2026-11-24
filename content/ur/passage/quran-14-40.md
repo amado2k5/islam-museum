@@ -2,12 +2,8 @@
 id: passage/quran-14-40
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
-provenance:
-  generated_by: "Claude Code (Haiku 5.5 session)"
-  model: claude-haiku-5-5
-  run: altafsir-tabari-batch-1-2026-11-23
-  source: source/altafsir-tabari
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-14-40.md}
 ---
 ## موجز
 الآية 40 من [[passage/quran-14|سورۃ ابراہیم]]، وہ مکی سورت ہے۔ {cite:tanzil-quran}
@@ -17,6 +13,6 @@ provenance:
 
 ## تفسیر طبری
 
-طبری کے مطابق ابراہیم کی نماز قائم کرنے کی خواہش کا مطلب یہ ہے کہ وہ فرض نمازیں ادا کریں جو اللہ نے ان پر فرض کیں، اور ان کی اولاد میں بھی جو نماز قائم کرے۔ دعا کے قبول ہونے کی تفسیر میں طبری کہتے ہیں کہ دعا بھی عبادت ہے، اور نبی سے منسوب ایک حدیث اس پر پیش کرتے ہیں۔
+الطبری ابراہیم کی دعا کی تشریح کرتا ہے، "اے میرے رب، مجھے نماز قائم کرنے والا بنا،" کے معنی ہیں: مجھے نماز کا فرض پورا کرنے والا بنا دے جو تو نے مجھ پر عائد کیا ہے۔ اور "اور میری اولاد سے": میری اولاد میں سے بھی ایسے لوگوں کو بنا جو تیرے لیے نماز قائم کریں۔ اور "اے ہمارے رب، اور میری دعا قبول فرما": میرے وہ عمل جو میں تیرے لیے کرتا ہوں اور تیری عبادت کو قبول فرما۔ الطبری بتاتے ہیں کہ یہ نبی سے منقول حدیث سے ملتا جلتا ہے، "دعا عبادت ہے،" کیونکہ اس نے دعا کو عبادت کہا، اور اس طرح ابراہیم نے قبولیت کی درخواست کو عبادت قرار دیا۔
 
 {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=14&tAyahNo=40&tDisplay=yes&UserProfile=0&LanguageId=1

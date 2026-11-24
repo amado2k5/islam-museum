@@ -2,10 +2,17 @@
 id: passage/quran-19-33
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-19-33.md}
 ---
 ## موجز
 الآية 33 من [[passage/quran-19|سورۃ مریم]]، وہ مکی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 33، سورت کی کل 98 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+الطبری نے آیات 32 تا 33 کے اندر آیت کو ایک حصے کے طور پر پڑھا ہے۔ اس کا یہ قول، "اور مجھ پر سلامتی ہو جس دن میں پیدا ہوا، جس دن میں مروں گا، اور جس دن میں زندہ ہوں گا،" اس طرح بیان کیا گیا ہے: اللہ تعالیٰ مجھے شیطان اور اس کی قوتوں سے جس دن میں پیدا ہوا اس دن سلامتی عطا فرماتا ہے، تاکہ وہ مجھے اس طرح نقصان نہ پہنچائیں جیسا کہ پیدائش کے وقت کسی نوزائیدہ کو نقصان پہنچاتے ہیں، جیسا کہ مجھ پر حملہ کرنا۔ جس دن میں مروں گا اس دن قبر کی دہشت سے محفوظ رہوں گا۔ اور جس دن میں قیامت کے دن زندہ کیا جاؤں گا، میں اس دہشت سے محفوظ رہوں گا جو لوگ اس دن کی ہولناکیوں کو دیکھیں گے۔ جیسا کہ ابن اسحاق نے نقل کیا ہے، وہب بن منبیح کی سند سے جن پر وہ اعتماد کرتا ہے، اس آیت کے بارے میں کہ "اور سلام ہو مجھ پر جس دن میں پیدا ہوا، اور جس دن میں مروں گا، اور جس دن میں زندہ ہوں گا" انہوں نے کہا: وہ انہیں اپنی زندگی کے قصے میں بتاتا ہے کہ اس کا کوئی باپ نہیں ہے اور اس کے بعد وہ زندہ ہو گا۔ خدا، بابرکت اور بلند ہے، فرماتا ہے: "یہ عیسیٰ ابن مریم ہیں۔" حق کا بیان جس پر وہ اختلاف کرتے ہیں۔" اس عبارت میں قتادہ اور ابن اسحاق کے بیانات نقل کیے گئے ہیں۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=19&tAyahNo=33&tDisplay=yes&UserProfile=0&LanguageId=1

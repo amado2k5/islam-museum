@@ -2,10 +2,17 @@
 id: passage/quran-38-77
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-38-77.md}
 ---
 ## موجز
 الآية 77 من [[passage/quran-38|سورۃ ص]]، وہ مکی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 77، سورت کی کل 88 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+الطبری نے آیات 77 سے 79 تک آیت کو ایک اکائی کے طور پر پڑھا ہے۔ وہ اپنے اس قول کی تشریح کرتا ہے، "اس نے کہا، 'تو اس سے نکل جا، کیونکہ تو ملعون ہے'": خدا تعالیٰ ابلیس سے کہتا ہے، "اس سے نکل جا،" یعنی جنت سے، "کیونکہ تو ملعون ہے۔" وہ کہتا ہے: آپ کو لوگوں نے سنگسار کیا، گالی دی اور لعنت بھیجی۔ جہاں تک قتادہ کا قول ہے کہ "تو اس سے نکل جا، کیونکہ تم ملعون ہو،" انہوں نے کہا: ملعون وہ ہے جو ملعون ہو۔ مجھ سے محاربی نے جویبیر سے اور ضحاک سے اسی معنی کے ساتھ روایت کی ہے۔ اس کے اس قول، "اور بے شک، تم پر میری لعنت ہے" کا مطلب ہے: اور بے شک، آپ میرے جنت سے نکالے جانے کے ذمہ دار ہیں "قیامت کے دن تک"، یعنی: بندوں کے بدلے اور حساب کے دن تک۔ "اس نے کہا اے میرے رب، پھر مجھے اس دن تک مہلت دے جب تک کہ وہ دوبارہ زندہ نہیں کیے جائیں گے۔" اللہ تعالیٰ فرماتا ہے: ابلیس نے اپنے رب سے کہا: اے میرے رب، چونکہ تو نے مجھ پر لعنت کی ہے اور مجھے اپنی جنت سے نکال دیا ہے، اس لیے مجھے مہلت دے، یعنی: میری عمر کو مہلت دے اور مجھے ہلاک نہ کر، اس دن تک جب تک ان کے دوبارہ زندہ نہ ہو جائیں۔ قبریں اس عبارت میں قتادہ اور ضحاک سے منسوب بیانات بھی شامل ہیں۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=38&tAyahNo=77&tDisplay=yes&UserProfile=0&LanguageId=1

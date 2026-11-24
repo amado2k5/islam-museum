@@ -2,10 +2,17 @@
 id: passage/quran-58-18
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-58-18.md}
 ---
 ## موجز
 الآية 18 من [[passage/quran-58|سورۃ المجادلہ]]، وہ مدنی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 18، سورت کی کل 22 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+اس کا بیان، "جس دن خدا ان سب کو دوبارہ زندہ کرے گا، وہ اس کے سامنے اس کی قسمیں کھائیں گے جیسا کہ وہ تم سے قسم کھاتے ہیں، یہ سوچتے ہوئے کہ وہ کسی چیز پر ہیں، بلاشبہ، وہی جھوٹے ہیں،" وضاحت کرتا ہے کہ جن کا ذکر کیا گیا ہے وہ جہنم کے باشندے ہیں۔ جس دن خدا ان سب کو زندہ کرے گا تو وہ دوزخیوں میں سے ہوں گے۔ ’’جس دن خدا ان سب کو زندہ کرے گا‘‘ کا مطلب یہ ہے کہ وہ اپنی قبروں سے زندہ اسی حالت میں نکالے جائیں گے جس حالت میں وہ اپنی موت سے پہلے تھے۔ وہ اس کی قسمیں کھائیں گے جیسا کہ وہ آپ سے جھوٹی اور فریب سے قسم کھاتے ہیں۔ جیسا کہ معمر نے قتادہ کی روایت میں اس جملے کے بارے میں کہ "وہ اس کی قسم کھائیں گے" کے بارے میں کہا: منافق قیامت کے دن اس کی قسم کھائے گا جس طرح اس نے دنیا میں اپنے اتحادیوں سے قسم کھائی تھی۔ قتادہ کی اس آیت کی تفسیر کے بارے میں کہ "جس دن خدا ان سب کو زندہ کرے گا" منافقین قیامت کے دن اپنے رب کی قسم کھائیں گے، جس طرح انہوں نے اس دنیا میں اس کے اتحادیوں سے قسم کھائی تھی۔ اس کے بعد اس عبارت میں قتادہ، سماک اور سفیان کے بیانات کا حوالہ دیا گیا ہے۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=58&tAyahNo=18&tDisplay=yes&UserProfile=0&LanguageId=1

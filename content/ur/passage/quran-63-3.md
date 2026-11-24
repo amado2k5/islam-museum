@@ -2,10 +2,17 @@
 id: passage/quran-63-3
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-63-3.md}
 ---
 ## موجز
 الآية 3 من [[passage/quran-63|سورۃ المنافقون]]، وہ مدنی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 3، سورت کی کل 11 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+ان کا یہ قول کہ "یہ اس لیے کہ وہ ایمان لائے، پھر کافر ہوئے، تو ان کے دلوں پر مہر لگا دی گئی، اور وہ سمجھتے نہیں"، اس بات کی وضاحت کرتا ہے کہ ان منافقوں کا برا عمل تھا جنہوں نے اپنی قسموں کو ڈھال کے طور پر استعمال کیا کیونکہ وہ خدا اور اس کے رسول پر ایمان رکھتے تھے، پھر ان پر شک اور انکار کرکے کافر ہوگئے۔ ان کے اس بیان کا، "پس ان کے دلوں پر مہر لگا دی گئی،" کا مطلب ہے کہ خدا نے ان کے دلوں پر کفر کی مہر لگا دی، انہیں ایمان لانے سے روک دیا۔ دل کے اس مہر کی نوعیت ہم اس کے تائیدی شواہد اور اہل علم کے اقوال کے ساتھ دوسری جگہ بیان کر چکے ہیں، اس لیے اسے یہاں دہرانے کی ضرورت نہیں۔ اس کے بیان، "لہذا وہ نہیں سمجھتے،" کا مطلب یہ ہے کہ وہ صحیح اور غلط، سچ اور باطل میں فرق نہیں کر سکتے، کیونکہ خدا نے ان کے دلوں پر مہر لگا دی ہے۔ اس بارے میں قتادہ نے کہا: یہ اس لیے کہ وہ ایمان لائے پھر کافر ہوئے تو ان کے دلوں پر مہر لگا دی گئی اور وہ سمجھتے نہیں۔ انہوں نے یہ دعویٰ کیا کہ اللہ کے سوا کوئی معبود نہیں اور محمد اللہ کے رسول ہیں، لیکن ان کے دل انکاری تھے اور انکار کرتے تھے۔ اس کے بعد اس عبارت میں قتادہ کا قول نقل کیا گیا ہے۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=63&tAyahNo=3&tDisplay=yes&UserProfile=0&LanguageId=1

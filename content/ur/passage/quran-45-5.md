@@ -2,10 +2,17 @@
 id: passage/quran-45-5
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-45-5.md}
 ---
 ## موجز
 الآية 5 من [[passage/quran-45|سورۃ الجاثية]]، وہ مکی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 5، سورت کی کل 37 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+ان کا یہ فرمان کہ "اور رات اور دن کا بدلنا اور جو کچھ اللہ رزق کے آسمان سے نازل کرتا ہے، جس سے وہ زمین کو اس کے بے جان ہونے کے بعد زندگی بخشتا ہے، اور ہواؤں کا بدلنا ان لوگوں کے لیے نشانیاں ہیں جو سمجھتے ہیں" بیان کرتے ہیں: باری تعالیٰ فرماتا ہے: "رات اور دن کے ردوبدل میں" اے لوگو، تم پر ان کی جانشینی، اس کے اندھیروں اور تاریکیوں کے ساتھ، اللہ نے اس کے اندھیرے اور تاریکیوں کو کس چیز سے اتارا۔ رزق کا آسمان" وہ بارش ہے جس سے زمین اپنے بندوں کا رزق نکالتی ہے، اور زمین کو اس کے بے جان ہونے کے بعد زندگی بخشتی ہے: وہ کہتا ہے: وہ اُگاتا ہے جو وہ آسمان سے نازل کرتا ہے بارش مردہ زمین کو زندہ کرتا ہے، جس سے اس کے مرنے کے بعد پودوں اور فصلوں میں ہلچل پیدا ہوتی ہے، یعنی اس کے مرنے کے بعد بنجر، بنجر اور بنجر ہونے کی حالت۔ بے جان جگہ. اس کے اس قول ’’اور ہواؤں کا ردوبدل‘‘ کا مطلب ہے: وہ ہواؤں کو تمہاری طرف، کبھی شمال سے، کبھی جنوب سے، کبھی مشرق سے اور کبھی مغرب سے، تمہارے فائدے کے لیے چلاتا ہے۔ یہ بھی کہا گیا ہے کہ اس تبدیلی سے مراد یہ ہے کہ اس سے بعض اوقات رحمت اور دوسروں پر عذاب آتا ہے۔ اس عبارت میں قتادہ سے منسوب بیانات بھی شامل ہیں۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=45&tAyahNo=5&tDisplay=yes&UserProfile=0&LanguageId=1

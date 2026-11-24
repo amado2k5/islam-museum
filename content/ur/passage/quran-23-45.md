@@ -2,10 +2,17 @@
 id: passage/quran-23-45
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-23-45.md}
 ---
 ## موجز
 الآية 45 من [[passage/quran-23|سورۃ المؤمنون]]، وہ مکی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 45، سورت کی کل 118 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+الطبری آیات 45-46 کے اندر آیت کو ایک اکائی کے طور پر پڑھتا ہے۔ وہ اس الفاظ کی تشریح کرتا ہے، "پھر ہم نے موسیٰ اور اس کے بھائی ہارون کو اپنی نشانیوں اور واضح دلیل کے ساتھ بھیجا": پھر، ان رسولوں کے بعد جن کی خصوصیات اس آیت سے پہلے بیان کی گئی ہیں، ہم نے موسیٰ اور اس کے بھائی ہارون کو فرعون اور اس کی قوم کے رئیسوں، مصریوں کے پاس بھیجا، "ہماری نشانیوں کے ساتھ" یعنی: ہماری نشانیوں کے ساتھ۔ "لیکن وہ مغرور تھے" ان کی پیروی کرنے سے انکار کرنے اور اس پر یقین کرنے میں جو وہ انہیں خدا کی طرف سے لایا تھا۔ "اور وہ ایک متکبر لوگ تھے" یعنی: وہ اپنے علاقے کے لوگوں پر اور اپنی سرزمین کے لوگوں پر، جن میں بنی اسرائیل اور دوسرے لوگ شامل تھے، ان پر ناحق ظلم کرنے والے لوگ تھے۔ ابن زید نے اس کے بارے میں کہا: انہوں نے اس آیت کے بارے میں کہا: "اور وہ متکبر لوگ تھے" کہ انہوں نے اپنے رسولوں پر تکبر کیا اور اپنے رب کی نافرمانی کی۔ یہ ان کا غرور تھا۔ اس کے بعد آپ نے تلاوت فرمائی ’’وہ آخرت کا گھر ہے…‘‘ ⁦(آیت)⁩۔ اس عبارت میں ابن زید سے منسوب بیانات بھی شامل ہیں۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=23&tAyahNo=45&tDisplay=yes&UserProfile=0&LanguageId=1

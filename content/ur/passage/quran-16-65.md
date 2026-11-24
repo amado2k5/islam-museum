@@ -2,10 +2,17 @@
 id: passage/quran-16-65
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-16-65.md}
 ---
 ## موجز
 الآية 65 من [[passage/quran-16|سورۃ النحل]]، وہ مکی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 65، سورت کی کل 128 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+اس کا یہ فرمان کہ "اور اللہ آسمان سے بارش برساتا ہے اور اس سے زمین کو اس کے بے جان ہونے کے بعد زندگی بخشتا ہے، یقیناً اس میں ایک نشانی ہے ان لوگوں کے لیے جو سنتے ہیں،" بیان کرتے ہیں: وہ اپنی مخلوق کو اس کی وحدانیت کی دلیلیں یاد دلا رہا ہے، اور یہ کہ الوہیت صرف اسی کی ہے، اور عبادت اس کے سوا کسی چیز کے لیے مناسب نہیں ہے، اے لوگو، جس نے بارش نازل کی ہے، اس کے سوا کسی اور چیز کی عبادت مناسب نہیں۔ آسمان، مطلب: بارش۔ وہ کہتا ہے: اور وہ اُگاتا ہے، اُس پانی سے آسمان سے اُس مردہ زمین کو اُتاراتا ہے جس میں نہ کوئی فصل ہے، نہ گھاس اور نہ کوئی نباتات، ’’اس کے بے جان ہونے کے بعد،‘‘ مرنے کے بعد اور اس میں کچھ بھی نہیں۔ ’’بلاشبہ اس میں ایک نشانی ہے،‘‘ وہ کہتا ہے: بے شک ہم نے زمین کو اس کے بے جان ہونے کے بعد زندہ کرنے میں جو ہم نے پانی کے آسمان سے ایک واضح نشانی اور قطعی دلیل کے طور پر نازل کیا ہے، جو اس کے بارے میں سوچتا ہے، اس کے لیے عذر ہے، ’’سننے والوں کے لیے‘‘۔ فرماتے ہیں: ان لوگوں کے لیے جو اس قول کو سنتے ہیں، اس پر غور کرتے ہیں، اسے سمجھتے ہیں، اور جو کچھ خدا نے انہیں دکھایا ہے اس کے مطابق اس کی اطاعت کرتے ہیں۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=16&tAyahNo=65&tDisplay=yes&UserProfile=0&LanguageId=1

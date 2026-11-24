@@ -2,10 +2,17 @@
 id: passage/quran-49-4
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-49-4.md}
 ---
 ## موجز
 الآية 4 من [[passage/quran-49|سورۃ الحجرات]]، وہ مدنی سورت ہے۔ {cite:tanzil-quran} اہل علم کے نزدیک اس کا نزول [[event/delegation-of-banu-tamim|قدوم وفد بني تميم ومفاخرتهم النبي]] سے جڑا ہے۔ {cite:ibn-hisham-saqqa}
 
 ## موضعها
 موضعها: آیت 4، سورت کی کل 18 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+الطبری نے آیات 4 تا 5 کے اندر آیت کو ایک حصے کے طور پر پڑھا ہے۔ وہ اپنے اس بیان کی وضاحت کرتا ہے، "بے شک، وہ لوگ جو آپ کو حجروں کے پیچھے سے پکارتے ہیں - ان میں سے اکثر نہیں سمجھتے": "وہ لوگ جو آپ کو اے محمد، آپ کے حجروں کے پیچھے سے پکارتے ہیں۔" چیمبرز چیمبر کی جمع ہیں، اور تین چیمبرز ہیں۔ پھر چیمبر کو چیمبر اور چیمبر کے طور پر جمع کیا جاتا ہے۔ کچھ عرب جم پر فاتحہ کے ساتھ چیمبر کو چیمبر کے طور پر جمع کرتے ہیں۔ اسی طرح تین سے دس تک کے ہر جمع کو فضیل کی طرز پر فاعلات پر جمع کیا جاتا ہے جس کے دوسرے حرف پر فاتحہ ہوتا ہے۔ نامزد کیس زیادہ فصیح اور بہتر ہے۔ اسی سے شاعر کا قول ہے: کیا عباد داریم کے لیے میچ نہیں تھا؟ ہاں، اور ان گھروں کے لیے جن میں حجرے ہیں۔ وہ کہتا ہے: ہاں، اور بنو ہاشم کے لیے۔ ان کے اس قول، "اور ان میں سے اکثر نہیں سمجھتے" کا مطلب ہے کہ ان میں سے اکثر خدا کے دین اور آپ کی عزت و تکریم کے فرائض سے ناواقف ہیں۔ مذکور ہے کہ یہ آیت اور اس کے بعد والی آیت بدویوں کے ایک گروہ کے بارے میں نازل ہوئی ہے جو رسول اللہ کو اپنے حجروں کے پیچھے سے پکارتے ہوئے آئے تھے: اے محمد ہماری طرف نکل آؤ۔ اس حوالے میں مجاہد سے منسوب بیانات کا بھی حوالہ دیا گیا ہے۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=49&tAyahNo=4&tDisplay=yes&UserProfile=0&LanguageId=1

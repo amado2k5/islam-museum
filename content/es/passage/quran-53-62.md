@@ -2,11 +2,15 @@
 id: passage/quran-53-62
 lang: es
 source_lang: en
-translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
-provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate documents, managed by Claude Code)', model: google-translate, run: gt-docs-es-2026-11-19, source: content/en/passage/quran-53-62.md}
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-es-2026-11-24, source: content/ar/passage/quran-53-62.md}
 ---
 ## Resumen
 Versículo 62 de [[passage/quran-53|Surat an-Najm]], una sura de La Meca. Los eruditos relacionan su revelación con [[event/sajdat-al-najm|Sajdat al Najm]]. {cite:tanzil-quran} {cite:mubarakpuri-raheeq} {cite:sahih-al-bukhari}
 
 ## Lugar en el museo
 Su ubicación: versículo 62 de 62 versículos en la sura. El texto se conserva en el Mushaf congelado de Tanzil y no se reproduce aquí.
+
+## En el comentario de al-Tabari
+
+Al-Tabari aborda este versículo dentro de una sola sección que incluye los versículos [[passage/quran-53-59|53:59]] a [[passage/quran-53-62|53:62]] En resumen, Al-Tabari explica que Dios pregunta a los politeístas de Quraysh: "¿Acaso os maravilláis de este Corán y os burláis de sus advertencias, mientras permanecéis indiferentes?", refiriéndose a que están distraídos y apartándose de sus enseñanzas. Menciona que la indiferencia es distracción y, finalmente, les ordena postrarse ante Dios y adorarlo. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=53&tAyahNo=62&tDisplay=yes&UserProfile=0&LanguageId=1

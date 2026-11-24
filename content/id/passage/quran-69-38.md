@@ -2,8 +2,8 @@
 id: passage/quran-69-38
 lang: id
 source_lang: ar
-translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-23), draft translation']
-provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-23, source: content/ar/passage/quran-69-38.md}
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-23), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-id-2026-11-24, source: content/ar/passage/quran-69-38.md}
 ---
 
 ## Ringkasan
@@ -11,3 +11,9 @@ Ayat 38 Surah [[passage/quran-69|Al-Haqqah]], yang merupakan surah Mekah. {cite:
 
 ## Posisinya
 Lokasinya: Ayat 38 dari 52 dalam Surat. Teks ini disimpan dari Mushaf Tazil al-Mujjard dan tidak ditulis ulang di sini.
+
+## Dalam Tafsir al-Tabari
+
+Al-Tabari membaca ayat dalam ayat 38 sampai 42 sebagai satu bagian. Ia menafsirkan frasa "Maka aku bersumpah demi apa yang kalian lihat" sebagai berikut: Tidak, masalahnya tidak seperti yang kalian, para penolak Kitab Allah dan para Rasul-Nya, klaim. Aku bersumpah demi segala sesuatu, baik yang kalian lihat maupun yang tidak kalian lihat. Dalam bagian ini, ia mengutip pernyataan dari Ibnu Abbas, Qatadah, dan Ibnu Zaid.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=69&tAyahNo=38&tDisplay=yes&UserProfile=0&LanguageId=1

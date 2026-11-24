@@ -2,10 +2,17 @@
 id: passage/quran-16-21
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-16-21.md}
 ---
 ## موجز
 الآية 21 من [[passage/quran-16|سورۃ النحل]]، وہ مکی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 21، سورت کی کل 128 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+ان کا یہ قول کہ ’’وہ مردہ ہیں، زندہ نہیں، اور وہ نہیں جانتے کہ کب دوبارہ اٹھائے جائیں گے‘‘ کی وضاحت اس طرح کی گئی ہے: خدا تعالیٰ قریش کے ان مشرکین سے فرماتا ہے: ’’اے لوگو! وہ مردہ ہیں، زندہ نہیں۔‘‘ اُس نے، اُس کی حمد کی جائے، اُنہیں مردہ قرار دیا، زندہ نہیں، کیونکہ اُن کی کوئی روح نہیں ہے۔ جیسا کہ قتادہ نے اس آیت کے بارے میں کہا ہے کہ "وہ مردہ ہیں، زندہ نہیں ہیں، اور وہ نہیں جانتے کہ کب دوبارہ اٹھائے جائیں گے" کہ یہ بت جن کی پرستش خدا کے سوا کی جاتی ہے وہ مردہ ہیں، بے روح ہیں اور یہ اپنے پرستاروں کے لیے نہ نقصان اور فائدہ کے مالک ہیں۔ "مردہ" کے نامزد کیس کی دو تشریحات ہیں: ایک یہ کہ یہ "ان" کی پیشین گوئی ہے اور دوسری یہ کہ یہ ایک نیا جملہ ہے۔ اس کے اس قول کا مطلب ہے کہ ’’اور وہ نہیں جانتے‘‘ کا مطلب ہے: تمہارے بتوں کو جنہیں تم خدا کے سوا پکارتے ہو، یہ نہیں جانتے کہ وہ کب زندہ کئے جائیں گے۔ کہا گیا ہے کہ اس سے مراد کافر ہیں کہ وہ نہیں جانتے کہ وہ کب اٹھائے جائیں گے۔ اس عبارت میں قتادہ سے منسوب بیانات کا بھی حوالہ دیا گیا ہے۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=16&tAyahNo=21&tDisplay=yes&UserProfile=0&LanguageId=1

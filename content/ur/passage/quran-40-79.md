@@ -2,10 +2,17 @@
 id: passage/quran-40-79
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-40-79.md}
 ---
 ## موجز
 الآية 79 من [[passage/quran-40|سورۃ غافر]]، وہ مکی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 79، سورت کی کل 85 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+الطبری نے آیات 79 تا 81 کے اندر آیت کو ایک حصے کے طور پر پڑھا ہے۔ وہ ان الفاظ کی تشریح کرتا ہے، "اللہ وہ ہے جس نے تمہارے لیے مویشی بنائے تاکہ تم ان میں سے کچھ پر سوار ہو جاؤ اور ان میں سے کچھ کھاؤ": "اللہ" جس کی ذات واحد ہے، اے مشرکین قریش، "کیا وہی ہے جس نے تمہارے لیے مویشی بنائے، جیسے اونٹ، مویشی، بھیڑ، گھوڑے اور دوسرے جانور" یعنی مسلمان آپ کو کھانے اور گھوڑوں سے بچا سکتے ہیں، تاکہ آپ ان میں سے کسی پر سوار ہو سکیں۔ گدھے، "اور ان میں سے کچھ کھاؤ،" یعنی اونٹ، مویشی اور بھیڑ۔ وہ کہتا ہے، "تاکہ آپ ان میں سے کچھ پر سوار ہو جائیں،" مطلب یہ ہے کہ آپ ان میں سے کچھ پر سوار ہو سکتے ہیں اور ان میں سے کچھ کھا سکتے ہیں، اس کو سیاق و سباق سے سمجھا جا رہا ہے۔ اس کے بیان، "اور آپ کو ان میں فائدے ہیں،" اس حقیقت کی طرف اشارہ کرتا ہے کہ اس نے آپ کو ان کی کھالوں سے بنائے گئے خیمے مہیا کیے ہیں، جنہیں آپ سفر کے وقت یا قیام کے وقت ہلکے سے استعمال کر سکتے ہیں، اور ان کی اون، بالوں اور اون سے سامان اور سامان ایک وقت کے لیے فراہم کیا ہے۔ اس آیت میں مجاہد اور قتادہ کے بیانات بھی نقل کیے گئے ہیں۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=40&tAyahNo=79&tDisplay=yes&UserProfile=0&LanguageId=1

@@ -2,10 +2,17 @@
 id: passage/quran-42-21
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-42-21.md}
 ---
 ## موجز
 الآية 21 من [[passage/quran-42|سورۃ الشورى]]، وہ مکی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 21، سورت کی کل 53 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+اس کا بیان ہے کہ "یا ان کے ایسے شریک ہیں جنہوں نے ان کے لیے کوئی ایسا دین مقرر کیا ہے جس کی اللہ نے اجازت نہ دی ہو؟ اور اگر فیصلہ کن بات نہ ہوتی تو ان کے درمیان فیصلہ کر دیا جاتا۔ اور بے شک ظالموں کے لیے دردناک عذاب ہے،" اللہ تعالیٰ فرماتا ہے: "یا ان مشرکوں کے لیے ان کے شریک ہیں جنہوں نے ان کے لیے شرک کیا ہے یا اللہ نے ان کے لیے شرک اور بدعت نہیں دی ہے۔ اجازت؟" وہ کہتا ہے: انہوں نے ان کے لیے ایک ایسا دین ایجاد کیا ہے جس کے ایجاد کرنے کی خدا نے انہیں اجازت نہیں دی۔ "اور اگر فیصلہ کن بات نہ ہوتی تو ان کے درمیان فیصلہ کر دیا جاتا۔" خداتعالیٰ فرماتا ہے: اور اگر خدا کا یہ پہلے سے حکم نہ ہوتا کہ وہ ان کے عذاب کو دنیا میں جلدی نہیں کرے گا، اور اس نے پہلے ہی کہا ہے کہ ان کے عذاب میں قیامت تک تاخیر ہوگی، تاکہ وہ ان کے لیے دنیا میں عذاب میں جلدی کرکے تمہارے اور ان کے درمیان فیصلہ کردے، لیکن آخرت میں ان کے لیے دردناک عذاب ہوگا، جیسا کہ اس نے کہا: ’’اور بے شک ظالموں کے لیے دردناک عذاب ہے۔‘‘ فرمایا: اور بے شک اللہ کے منکروں کے لیے قیامت کے دن دردناک اور اذیت ناک عذاب ہوگا۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=42&tAyahNo=21&tDisplay=yes&UserProfile=0&LanguageId=1

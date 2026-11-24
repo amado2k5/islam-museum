@@ -2,8 +2,8 @@
 id: passage/quran-26-37
 lang: id
 source_lang: ar
-translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-23), draft translation']
-provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-23, source: content/ar/passage/quran-26-37.md}
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-23), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-id-2026-11-24, source: content/ar/passage/quran-26-37.md}
 ---
 
 ## Ringkasan
@@ -11,3 +11,7 @@ Ayat 37 Surah [[passage/quran-26|Ash-Shu'ara]], yang merupakan surah Mekah. {cit
 
 ## Posisinya
 Lokasinya: Ayat 37 dari 227 dalam surat. Teks ini disimpan dari Mushaf Tazl al-Mujmad dan tidak ditulis ulang di sini.
+
+## Dalam Tafsir al-Tabari
+
+Al-Tabari membahas ayat 34 hingga 37 secara bersamaan di satu tempat. Al-Tabari mengatakan bahwa Firaun berkata kepada para bangsawan di sekitarnya ketika ia melihat argumen Musa: "Ini adalah seorang penyihir yang terampil. Ia menyihir tongkatnya hingga tampak seperti ular bagi kalian. Ia ingin mengusir kalian dari negeri kalian dengan sihirnya." Ia menjelaskan bahwa sasaran yang dimaksud adalah Bani Israel, yang telah diperbudak dan dihina oleh orang Mesir, dan bahwa dewan menyarankan untuk menunda kedatangan Musa dan saudaranya serta mengirim utusan ke kota-kota untuk mengumpulkan para penyihir. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=26&tAyahNo=37&tDisplay=yes&UserProfile=0&LanguageId=1

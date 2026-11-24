@@ -2,11 +2,17 @@
 id: passage/quran-76-28
 lang: fr
 source_lang: en
-translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
-provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate documents, managed by Claude Code)', model: google-translate, run: gt-docs-fr-2026-11-19, source: content/en/passage/quran-76-28.md}
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-fr-2026-11-24, source: content/ar/passage/quran-76-28.md}
 ---
 ## Résumé
 Verset 28 de [[passage/quran-76|la sourate al-Insan]], une sourate médinoise. {cite:tanzil-quran}
 
 ## Place dans le musée
 Il s'agit du verset 28 sur 31 de la sourate. Le texte est conservé dans le mushaf Tanzil et n'est pas reproduit ici.
+
+## Dans le commentaire d'al-Tabari
+
+Al-Tabari considère le verset inclus dans les versets 28 et 29 comme une seule et même section. Il interprète les paroles : « Nous les avons créés et avons renforcé leurs articulations, et si Nous le voulons, Nous pouvons les remplacer par d’autres semblables » : « Nous avons créé » ces polythéistes qui désobéissent aux commandements et aux interdictions de Dieu, « et renforcé leurs articulations » : Nous avons renforcé leur création, à partir de l’expression : « Cet homme a été créé et sa création a été perfectionnée », signifiant : Il a été créé et sa création a été perfectionnée. Dans cette section, il cite des propos d’Ibn Abbas, de Mujahid, de Qatadah et d’Ibn Zayd.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=76&tAyahNo=28&tDisplay=yes&UserProfile=0&LanguageId=1

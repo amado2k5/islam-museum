@@ -2,10 +2,17 @@
 id: passage/quran-24-61
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-24-61.md}
 ---
 ## موجز
 الآية 61 من [[passage/quran-24|سورۃ النور]]، وہ مدنی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 61، سورت کی کل 64 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+آپ کا ارشاد ہے کہ ’’اگر تم اپنے گھر یا اپنے باپ کے گھر یا اپنی ماؤں کے گھر یا اپنے بھائیوں کے گھر یا اپنی بہنوں کے گھر یا اپنے بھابھی یا پھوپھی کے گھر سے کھاتے ہو تو اس میں نہ اندھے پر کوئی قصور ہے، نہ لنگڑے پر، نہ بیماروں پر کوئی الزام ہے اور نہ ہی تم پر کوئی الزام ہے۔ آپ کے ماموں یا "آپ کے ماموں کے گھر، یا جن کی چابیاں آپ کے پاس ہیں، یا آپ کے دوست کے - اگر آپ اکٹھے یا الگ الگ کھاتے ہیں تو آپ پر کوئی گناہ نہیں ہے۔ لیکن جب تم گھروں میں داخل ہو تو ایک دوسرے کو سلام کرو اللہ کی طرف سے مبارک اور اچھا۔ اس طرح اللہ تمہارے لیے آیتیں کھول کھول کر بیان کرتا ہے تاکہ تم سمجھو۔" ابو جعفر نے کہا: اس آیت کے مفہوم کے بارے میں علماء کا اختلاف ہے، بعض نے کہا: یہ آیت مسلمانوں کو اندھوں، لنگڑوں، بیماروں اور معذوروں کے ساتھ کھانے کی اجازت دی گئی تھی، کیونکہ وہ پہلے ان کے ساتھ کھانا کھانے سے منع کرتے تھے، اس خوف سے کہ اللہ تعالیٰ نے ایسا کیا ہے، جس سے آپ نے یہ فرمایا: ایک دوسرے کا مال ناحق کھاؤ، سوائے اس کے کہ باہمی رضامندی سے تجارت ہو۔ اس عبارت میں ابن عباس اور مجاہد کے بیانات بھی نقل کیے گئے ہیں۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=24&tAyahNo=61&tDisplay=yes&UserProfile=0&LanguageId=1

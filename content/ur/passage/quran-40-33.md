@@ -2,10 +2,17 @@
 id: passage/quran-40-33
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-40-33.md}
 ---
 ## موجز
 الآية 33 من [[passage/quran-40|سورۃ غافر]]، وہ مکی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 33، سورت کی کل 85 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+الطبری نے آیات 33 سے 34 تک آیت کو ایک حصے کے طور پر پڑھا ہے۔ وہ اس کے اس قول کی تشریح کرتا ہے: "اور میری قوم، میں تم پر بلانے کے دن سے ڈرتا ہوں": خدا تعالیٰ ہمیں اس بات سے آگاہ کرتے ہوئے کہتا ہے کہ اس مومن نے فرعون اور اس کی قوم سے کیا کہا: "اور میری قوم، میں تم سے ڈرتا ہوں" تمہارے موسیٰ کو قتل کرنے کی وجہ سے، اگر تم نے اسے قتل کیا تو خدا کے عذاب "بلانے کے دن"۔ تلاوت کرنے والوں نے "بلانے کا دن" کے فقرے کو پڑھنے میں اختلاف کیا۔ مختلف خطوں میں تلاوت کرنے والوں کی اکثریت اسے ہلکی "d" آواز کے ساتھ اور "y" کے بغیر "یومِ پکار" کے طور پر پڑھتی ہے، جس کا مطلب باہمی تبادلہ ہے، جیسے کہ لوگ ایک دوسرے کو پکارتے ہیں، جیسا کہ اللہ کی حمد ہے، فرمایا: "اور اہل جنت دوزخ والوں کو پکاریں گے، 'ہم نے تمہارے رب کا وعدہ سچا پایا جو تم نے تم سے وعدہ کیا تھا۔ وہ کہیں گے، ہاں۔‘‘ اور آپ نے فرمایا: ’’اور اہلِ دوزخ جنتیوں کو پکاریں گے کہ ہم پر تھوڑا سا پانی بہا دو۔‘‘ چنانچہ اس آیت کے قاری نے اس کی تشریح اس طرح کی۔ اس عبارت میں قتادہ اور ابن زید سے منسوب بیانات بھی شامل ہیں۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=40&tAyahNo=33&tDisplay=yes&UserProfile=0&LanguageId=1

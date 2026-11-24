@@ -2,10 +2,17 @@
 id: passage/quran-29-5
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-29-5.md}
 ---
 ## موجز
 الآية 5 من [[passage/quran-29|سورۃ العنكبوت]]، وہ مکی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 5، سورت کی کل 69 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+الطبری آیات 5 تا 6 کے اندر آیت کو ایک حصے کے طور پر پڑھتا ہے۔ وہ اپنے اس قول کی وضاحت کرتا ہے، "جو شخص خدا سے ملاقات کی امید رکھتا ہے، تو یقیناً خدا کا مقررہ وقت آنے والا ہے، اور وہ سب کچھ سننے والا، سب کچھ جاننے والا ہے": جو شخص خدا سے ملاقات کے دن کی امید رکھتا ہے، اور اس کا اجر چاہتا ہے، تو یقیناً خدا کا مقررہ وقت، جو اس نے اپنی مخلوق کے جی اٹھنے کے لئے مقرر کیا ہے اور جلد ہی اس کی سزا کا عذاب آنے والا ہے۔ "اور وہ سب کچھ سننے والا ہے،" وہ کہتا ہے: خدا جس کے انعام کی امید اس سے ملنے کی امید رکھتا ہے، وہ اس کے کہنے کی پوری سننے والا ہے: ہم خدا پر یقین رکھتے ہیں، اس کے قول کی سچائی کا "سب کچھ جاننے والا"، کہ وہ اس کے بارے میں اپنے جھوٹ پر ایمان لایا ہے۔ اس کے اس قول ’’اور جو کوشش کرتا ہے وہ صرف اپنے لیے کوشش کرتا ہے‘‘ کا مطلب ہے: جو مشرکوں میں سے اپنے دشمن کے خلاف جہاد کرتا ہے، وہ صرف اپنے لیے کوشش کرتا ہے، کیونکہ وہ اپنی کوشش اور عذاب سے بچنے کے لیے خدا سے اجر طلب کرتا ہے۔ خدا کو اس کے ایسا کرنے کی کوئی ضرورت نہیں ہے کیونکہ خدا اپنی تمام مخلوقات سے بے نیاز ہے۔ بادشاہی، تخلیق اور حکم اسی کا ہے۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=29&tAyahNo=5&tDisplay=yes&UserProfile=0&LanguageId=1

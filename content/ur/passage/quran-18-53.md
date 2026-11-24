@@ -2,10 +2,17 @@
 id: passage/quran-18-53
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-18-53.md}
 ---
 ## موجز
 الآية 53 من [[passage/quran-18|سورۃ الکہف]]، وہ مکی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 53، سورت کی کل 110 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+الطبری نے آیات 53 تا 54 کے اندر آیت کو ایک حصے کے طور پر پڑھا ہے۔ اس کا فرمان ہے: "اور جس دن وہ کہے گا کہ میرے شریکوں کو پکارو جن کا تم دعویٰ کرتے تھے، وہ انہیں پکاریں گے، لیکن وہ ان کی کوئی بات نہیں کریں گے، اور ہم ان کے درمیان پردہ ڈال دیں گے،" اللہ تعالیٰ فرماتا ہے، "اور جس دن وہ کہے گا کہ اللہ تعالیٰ ان مشرکوں سے کہے گا جنہوں نے تمھارے ساتھ میرا شریک ٹھہرایا، وہ کہے گا:" جن کے بارے میں تم یہ دعویٰ کرتے تھے کہ وہ میری عبادت میں تمہاری مدد کرنے اور تمہاری حفاظت کے لیے میرے شریک ہیں، "اور وہ ان کو پکاریں گے لیکن وہ ان کی دعا قبول نہیں کریں گے،" وہ فرماتا ہے: پس وہ ان سے مدد چاہیں گے لیکن وہ ان کی مدد نہیں کریں گے، اور ہم ان کے درمیان ایک پردہ ڈال دیں گے۔ اس آیت کے مفہوم میں علمائے تفسیر کا اختلاف ہے۔ بعض نے کہا: اس کا مطلب یہ ہے کہ "اور ہم نے ان مشرکوں اور ان لوگوں کے درمیان عداوت ڈال دی جنہیں وہ اللہ کے سوا اس دنیا میں شریک بنا کر پکارتے تھے۔" اس کے بعد اس عبارت میں ابن عباس، مجاہد، قتادہ، الضحاک، الحسن، ابن زید اور دیگر کے بیانات کا حوالہ دیا گیا ہے۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=18&tAyahNo=53&tDisplay=yes&UserProfile=0&LanguageId=1

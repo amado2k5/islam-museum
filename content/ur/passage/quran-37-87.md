@@ -2,10 +2,17 @@
 id: passage/quran-37-87
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-37-87.md}
 ---
 ## موجز
 الآية 87 من [[passage/quran-37|سورۃ الصافات]]، وہ مکی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 87، سورت کی کل 182 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+الطبری نے آیات 87 تا 92 کے اندر آیت کو ایک حصے کے طور پر پڑھا ہے۔ وہ اپنے اس قول کی تشریح کرتا ہے، "تو رب العالمین کے بارے میں تمہارا کیا خیال ہے؟": خدا تعالیٰ ہمیں بتاتا ہے کہ ابراہیم نے اپنے باپ اور اپنی قوم سے کیا کہا: "تو رب العالمین کے بارے میں تمہارا کیا خیال ہے؟" وہ کہتا ہے: اے لوگو تمہارا کیا خیال ہے اگر تم اس کے سوا کسی اور کی عبادت کرتے ہوئے اس سے ملو تو وہ تمہارا کیا کرے گا؟ جہاں تک قتادہ کا قول ہے کہ "تو رب العالمین کے بارے میں تمہارا کیا خیال ہے؟" وہ کہتا ہے: اگر تم اس سے اس کے سوا کسی اور کی عبادت کرتے ہوئے ملے۔ اس کا بیان، "پھر اس نے ستاروں کی طرف دیکھا اور کہا، 'واقعی، میں بیمار ہوں،'" اس بات کی طرف اشارہ کرتا ہے کہ اس کی قوم نجومی تھی۔ اس نے ایک ستارہ کو طلوع ہوتے دیکھا تو اس نے اپنے سر پر پٹی باندھی اور کہا کہ میں طاعون میں مبتلا ہوں۔ اُس کے لوگ طاعون سے بھاگ رہے تھے، اِس لیے اُس نے چاہا کہ وہ اُسے اپنے ہیکل میں چھوڑ دیں اور اُسے چھوڑ دیں، تاکہ وہ اُن کے خلاف جا کر اُسے تباہ کر دے۔ اس عبارت میں ابن عباس، قتادہ، ابن زید اور ابن اسحاق سے منسوب بیانات بھی شامل ہیں۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=37&tAyahNo=87&tDisplay=yes&UserProfile=0&LanguageId=1

@@ -2,10 +2,17 @@
 id: passage/quran-45-26
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-45-26.md}
 ---
 ## موجز
 الآية 26 من [[passage/quran-45|سورۃ الجاثية]]، وہ مکی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 26، سورت کی کل 37 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+اس کا بیان، ’’کہو کہ اللہ تمہیں زندگی بخشتا ہے، پھر تمہیں موت دیتا ہے، پھر وہ تمہیں قیامت کے دن جمع کرے گا، جس میں کوئی شک نہیں، لیکن اکثر لوگ نہیں جانتے،‘‘ بیان کرتے ہیں: اللہ تعالیٰ اپنے نبی محمد سے فرماتا ہے، ’’اے محمدؐ، ان مشرکوں سے جو قیامت کے منکر ہیں، کہہ دو کہ اگر تم ہمارے لیے سچے ہو، اگر تم ہماری بات مانتے ہو، تو وہ ہمارے لیے سچے ہیں۔ مشرکوں، اللہ تمہیں اس دنیا میں جب تک چاہتا ہے زندگی دیتا ہے، پھر جب چاہتا ہے اسی میں تمہیں موت دیتا ہے، پھر تمہیں قیامت کے دن اکٹھا کرے گا۔ اس کا مطلب ہے کہ وہ تم سب کو، اول و آخر، جوان اور بوڑھے، ’’قیامت کے دن‘‘ کے لیے جمع کرے گا۔ وہ کہتا ہے: قیامت کے دن کے لیے، یعنی وہ تم سب کو قیامت کے دن زندہ کر کے جمع کرے گا۔ ’’جس میں کوئی شک نہیں‘‘ کا مطلب ہے: اس میں کوئی شک نہیں۔ وہ کہتا ہے: پس اس میں شک نہ کرو، کیونکہ معاملہ وہی ہے جیسا کہ میں نے تم سے بیان کیا ہے: ’’لیکن اکثر لوگ نہیں جانتے‘‘۔ وہ کہتا ہے: لیکن اکثر لوگ جو قیامت کے منکر ہیں وہ اس کی حقیقت کو نہیں جانتے اور یہ کہ اللہ ان کو ان کی موت کے بعد دوبارہ زندہ کرے گا۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=45&tAyahNo=26&tDisplay=yes&UserProfile=0&LanguageId=1

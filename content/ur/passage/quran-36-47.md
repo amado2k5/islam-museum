@@ -2,10 +2,17 @@
 id: passage/quran-36-47
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-36-47.md}
 ---
 ## موجز
 الآية 47 من [[passage/quran-36|سورۃ یس]]، وہ مکی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 47، سورت کی کل 83 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+اس کا بیان ہے: ’’اور جب ان سے کہا جاتا ہے کہ اللہ نے تمہیں جو رزق دیا ہے اس میں سے خرچ کرو، تو کافر ایمان والوں سے کہتے ہیں کہ کیا ہم ان لوگوں کو کھلائیں جنہیں اللہ چاہتا تو کھلاتا ہے، تم تو صریح گمراہی میں مبتلا ہو،‘‘ اور جب ان مشرکوں سے کہا جاتا ہے کہ اللہ نے تمہیں جو رزق دیا ہے اس میں سے خرچ کرو اور جو اللہ نے تمہیں دیا ہے اس میں سے خرچ کرو۔ محتاجی اور مفلسی میں، جو اللہ کی وحدانیت کا انکار کرتے ہیں اور اس کے سوا کسی کی عبادت کرتے ہیں، وہ لوگ جو اللہ اور اس کے رسول پر ایمان رکھتے ہیں ان سے کہتے ہیں، کیا ہم اپنا مال اور کھانا ان لوگوں کو کھلائیں جنہیں اللہ چاہتا تو کھلاتا؟ اور اس کے اس قول: "تم تو صریح گمراہی میں ہو" کی دو تعبیریں ہیں: ان میں سے ایک یہ ہے کہ کافروں نے اہل ایمان سے جو کہا ہے، اس سے ہے، تو پھر اس تقریر کی تفسیر یہ ہے کہ: اے لوگو، تم اپنے اس قول میں کہ اللہ نے تمہیں جو رزق دیا ہے اس میں سے تمہارے غریبوں پر خرچ کرو، وہ صرف حق سے بھٹکنے میں ہے اور اس سے بھٹکنے میں ہے، جو اس کی طرف متوجہ ہوتا ہے، اور اس کی طرف متوجہ ہوتا ہے۔ یہ غلطی میں ہے. اور اس کی دو تعبیروں میں یہی زیادہ مناسب ہے۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=36&tAyahNo=47&tDisplay=yes&UserProfile=0&LanguageId=1

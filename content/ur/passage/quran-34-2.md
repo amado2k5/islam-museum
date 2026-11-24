@@ -2,10 +2,17 @@
 id: passage/quran-34-2
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-34-2.md}
 ---
 ## موجز
 الآية 2 من [[passage/quran-34|سورۃ سبا]]، وہ مکی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 2، سورت کی کل 54 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+اس کا یہ قول کہ "وہ جانتا ہے جو کچھ زمین میں داخل ہوتا ہے اور جو اس سے نکلتا ہے، اور جو کچھ آسمان سے اترتا ہے اور جو کچھ اس میں چڑھتا ہے، اور وہ بڑا رحم کرنے والا، بخشنے والا ہے"، بیان کرتا ہے: وہ جانتا ہے جو کچھ زمین میں داخل ہوتا ہے اور اس کے اندر کیا پوشیدہ ہے، اس اظہار سے، "میں فلاں فلاں میں داخل ہوا" یعنی شاعر نے کہا: "میں فلاں فلاں میں داخل ہوا" یعنی جب ایک شاعر نے کہا: "میں فلاں چیز میں داخل ہوا" کہ ان میں سے سوئیاں بھی نہیں گزر سکتی تھیں۔ "حصوں میں داخل ہونے" سے اس کا مطلب ہے: وہ داخلی راستوں میں داخل ہوتے ہیں۔ "اور جو اس سے نکلتا ہے،" وہ کہتا ہے: جو زمین سے نکلتا ہے۔ "اور جو آسمان سے اترتا ہے اور جو اس میں چڑھتا ہے" یعنی: جو آسمان پر چڑھتا ہے۔ یہ خدا کا بیان ہے کہ وہ ہر چیز کو جانتا ہے۔ وہ جاننے والا جس سے آسمانوں اور زمین کی کوئی چیز پوشیدہ نہیں، جو کچھ ظاہر ہے اور جو کچھ پوشیدہ ہے، "اور وہ بڑا مہربان اور بخشنے والا ہے۔" وہ اپنے بندوں میں سے توبہ کرنے والوں پر بڑا مہربان ہے کہ ان کی توبہ کے بعد انہیں عذاب نہیں دیتا اور اگر وہ ان سے توبہ کرلیں تو وہ ان کے گناہوں کو سب سے زیادہ بخشنے والا ہے۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=34&tAyahNo=2&tDisplay=yes&UserProfile=0&LanguageId=1

@@ -2,10 +2,17 @@
 id: passage/quran-43-23
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-43-23.md}
 ---
 ## موجز
 الآية 23 من [[passage/quran-43|سورۃ الزخرف]]، وہ مکی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 23، سورت کی کل 89 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+اس کا بیان ہے کہ "اور اسی طرح ہم نے تم سے پہلے کسی بستی میں کوئی ڈرانے والا نہیں بھیجا مگر اس کے مالداروں نے کہا کہ ہم نے اپنے باپ دادا کو ایک راستے پر پایا اور ہم ان کے نقش قدم پر چل رہے ہیں،" بیان کرتا ہے: اور اسی طرح جیسے ان مشرکین قریش نے کیا، اسی طرح ان سے پہلے کے لوگوں نے بھی کیا جنہوں نے تم سے پہلے کفر کیا، اے محمد نے ایسا ہی کہا، اے اللہ! بستی، اس کے باشندوں کے لیے، ہمارے ساتھ کفر کی وجہ سے ان کو ہمارے عذاب سے ڈرانے کے لیے رسول، لہٰذا انھیں ڈراؤ اور ہمارے غضب اور ان پر ہمارے عذاب کی آمد سے خبردار کرو، "سوائے اس کے کہ اس کے امیروں نے کہا" اور وہ ان کے سردار اور بزرگ ہیں۔ نیز: معمر کی سند سے، قتادہ کی روایت سے، اس آیت کے بارے میں کہ "سوائے اس کے کہ اس کے امیروں نے کہا،" انہوں نے کہا: ان کے سردار اور رئیس۔ اور قتادہ کی روایت سے ہے کہ اس آیت کے متعلق ہے کہ ’’اور اسی طرح ہم نے تم سے پہلے کسی بستی میں کوئی ڈرانے والا نہیں بھیجا مگر یہ کہ اس کے مالداروں نے کہا کہ ان کے سردار اور شرک میں سردار۔ اس آیت میں مجاہد اور قتادہ کے بیانات بھی نقل کیے گئے ہیں۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=43&tAyahNo=23&tDisplay=yes&UserProfile=0&LanguageId=1

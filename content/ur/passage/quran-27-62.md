@@ -2,10 +2,17 @@
 id: passage/quran-27-62
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-27-62.md}
 ---
 ## موجز
 الآية 62 من [[passage/quran-27|سورۃ النمل]]، وہ مکی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 62، سورت کی کل 93 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+اس کا بیان، "کیا وہ [بہترین نہیں ہے] جو مصیبت زدہ کی دعا قبول کرتا ہے جب وہ اسے پکارتا ہے اور برائی کو دور کرتا ہے اور تمہیں زمین پر جانشین بناتا ہے؟ کیا اللہ کے ساتھ کوئی معبود ہے؟ تمہیں بہت کم یاد ہے،" اس کی وضاحت اس طرح کی گئی ہے: کیا تم اللہ کے ساتھ شریک ٹھہراتے ہو بہتر ہے، یا وہ ہے جو مصیبت زدہ کو پکارتا ہے اور اس کی برائی کو دور کرتا ہے جو اس سے بہتر ہے؟ جیسا کہ حجاج نے مجھ سے ابن جریج کے اس قول کے بارے میں بیان کیا کہ "اور برائی کو دور کرتا ہے" اس نے کہا: نقصان۔ اور اُس کے اس قول، ’’اور تمہیں زمین پر جانشین بناتا ہے‘‘ کا مطلب ہے: وہ تم میں سے زمین پر تمہارے حکمرانوں کے بعد زندہ جانشین مقرر کرے گا جو ان کے بعد جانشین ہوں گے۔ اور اس کا یہ فرمان: کیا اللہ کے ساتھ کوئی معبود ہے؟ مطلب: کیا اللہ کے سوا کوئی معبود ہے جو تمہارے لیے یہ کام کرے اور تم پر یہ نعمتیں نازل کرے۔ اور اس کے اس قول: ’’تمہیں بہت کم یاد ہے‘‘ کا مطلب ہے: تم اللہ کی عظمت اور اس کے اپنے اوپر احسانات کو بہت کم یاد کرتے ہو۔ تم اپنے خلاف اللہ کی دلیلوں کو یاد کرتے ہو اور ان پر غور کرتے ہو، اسی لیے تم اللہ کے ساتھ اس کی عبادت میں شرک کرتے ہو۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=27&tAyahNo=62&tDisplay=yes&UserProfile=0&LanguageId=1

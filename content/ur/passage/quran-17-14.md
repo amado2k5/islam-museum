@@ -2,10 +2,17 @@
 id: passage/quran-17-14
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-17-14.md}
 ---
 ## موجز
 الآية 14 من [[passage/quran-17|سورۃ الاسراء]]، وہ مکی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 14، سورت کی کل 111 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+اس کا یہ قول کہ "اپنا نامہ اعمال پڑھو، آج کے دن تم ہی تمہارا محاسبہ کرنے کے لیے کافی ہو،" اس طرح بیان کیا گیا ہے: "اور ہم اس کے لیے قیامت کے دن ایک نامہ اعمال لائیں گے جسے وہ کھلا ہوا پائے گا۔" تو اس سے کہا جائے گا کہ اپنا نامہ اعمال پڑھ لے، آج کے دن تیرے مقابلے میں خود ہی کافی ہے۔ چنانچہ اس نے اپنے اس قول کا ذکر کرنا چھوڑ دیا: "تو ہم اس سے کہیں گے" کیونکہ یہ بیان اس کی نشاندہی کے لیے کافی ہے۔ اور اس کے کہنے سے کہ "اپنا نامہ اعمال پڑھو" اس کا مطلب ہے: اپنے اعمال کا ریکارڈ پڑھو جو تم نے اس دنیا میں کیے تھے، جو ہمارے دو کاتب لکھ رہے تھے، اور جسے ہم اب تمہارے لیے گن رہے ہیں۔ ’’تمہارے مقابلے میں آج کے دن خود ہی کافی ہے۔‘‘ وہ کہتا ہے: آج تیرا نفس تیرے حساب کے لیے کافی ہے، تیرے اعمال لکھنے اور تیرے لیے شمار کرنے کے لیے۔ ہم آپ کے خلاف کوئی گواہ نہیں چاہتے اور نہ ہی آپ کے علاوہ کسی اور کا محاسبہ چاہتے ہیں۔ اور قتادہ نے اس بارے میں کہا کہ "اپنا نامہ اعمال پڑھو، آج کے دن تم ہی تمہارے حساب کے لیے کافی ہو": اس دن وہ لوگ پڑھیں گے جو اس دنیا میں پڑھے لکھے تھے۔ اس عبارت میں قتادہ سے منسوب بیانات بھی شامل ہیں۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=17&tAyahNo=14&tDisplay=yes&UserProfile=0&LanguageId=1

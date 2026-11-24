@@ -2,8 +2,8 @@
 id: passage/quran-53-10
 lang: tr
 source_lang: ar
-translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-23), draft translation']
-provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-23, source: content/ar/passage/quran-53-10.md}
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-23), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-tr-2026-11-24, source: content/ar/passage/quran-53-10.md}
 ---
 
 ## Özet
@@ -11,3 +11,7 @@ Mekke suresi olan En-Najm suresinin [[passage/quran-53|10. ayeti]]. {cite:tanzil
 
 ## Konumu
 Konumu: Sure'nin 62 ayetinden 10. ayet. Metin Donmuş Vahiy'in Muşaf'ından korunmuş olup burada yeniden yazılmamıştır.
+
+## El-Taberi'nin Tafsir'inde
+
+Taberi bu ayeti, diğer ayetleri de içeren tek bir bölümde ele almaktadır. [[passage/quran-53-8|53:8]] ile [[passage/quran-53-11|53:11]] Özetle: Taberi, Cebrail'in Muhammed'e yaklaştığını ve ona indiğini, kelime yapısında bir yer değiştirme olduğunu, asıl anlamının indiği ve yaklaştığı olduğunu açıklıyor. Daha sonra, "iki yay boyu veya daha yakın" ifadesi ve kuluna vahyettiği vahyin anlamı konusunda tefsirciler arasında görüş ayrılığı olduğunu belirtiyor. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=53&tAyahNo=10&tDisplay=yes&UserProfile=0&LanguageId=1

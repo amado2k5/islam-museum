@@ -2,12 +2,8 @@
 id: passage/quran-14-48
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
-provenance:
-  generated_by: "Claude Code (Haiku 5.5 session)"
-  model: claude-haiku-5-5
-  run: altafsir-tabari-batch-1-2026-11-23
-  source: source/altafsir-tabari
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-14-48.md}
 ---
 ## موجز
 الآية 48 من [[passage/quran-14|سورۃ ابراہیم]]، وہ مکی سورت ہے۔ {cite:tanzil-quran}
@@ -17,6 +13,6 @@ provenance:
 
 ## تفسیر طبری
 
-طبری کے مطابق زمین کے بدل دیے جانے والے دن کا مطلب یہ ہو سکتا ہے کہ موجودہ زمین چاندی جیسی سفید زمین بن جائے گی، جس میں نہ خون بہایا جائے گا اور نہ گناہ ہوگا۔ ابن مسعود سے متعدد سندوں سے یہی منقول ہے، اور ایک روایت میں ہے کہ لوگوں کے درمیان سب سے پہلے خون کا فیصلہ ہوگا۔
+الطبری کہتا ہے کہ "جس دن زمین دوسری زمین میں بدل دی جائے گی اور آسمان بھی" پچھلی آیت میں "عذاب" سے متصل ہے: خدا اس دن مشرکین قریش اور ان تمام لوگوں سے جنہوں نے اس کے رسولوں کی نبوت کا انکار کیا ان سے انتقام لے گا۔ اس تبدیلی کے معنی کے بارے میں وہ عبداللہ بن مسعود ہ سے مروی ہے کہ عمرو بن میمون سے متعدد زنجیروں سے نقل ہوا ہے کہ: "زمین چاندی کی طرح ایک خالص سفید زمین میں تبدیل ہو جائے گی، گویا وہ چاندی کی انگوٹھی ہو، اس پر کوئی حرام خون نہیں بہایا جائے گا، اور نہ ہی کوئی پکارنے والا ان سے گناہ کرے گا، اور وہ ان سے بدگمان ہوں گے۔ ننگے پاؤں اور برہنہ ہو کر کھڑے رہیں، جب تک کہ ان کا پسینہ ان پر چھا نہ جائے اس دن لوگوں کے درمیان سب سے پہلے خونریزی کا فیصلہ کیا جائے گا۔ الطبری نے ان روایات کے حوالے سے نقل کی زنجیروں اور ان کے الفاظ کے تغیرات کی فہرست دی ہے، جن میں سے بعض میں "جنت کی سرزمین" کا ذکر ہے۔ پھر، "اور وہ خدا کے سامنے پیش ہوں گے، جو ایک، محکوم ہے": وہ اس کے سامنے پیش ہوں گے، اس سے انہیں چھپانے کے لیے کچھ بھی نہیں، وہ جس کا کوئی شریک نہیں، اس کی مخلوق کا محکوم۔
 
 {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=14&tAyahNo=48&tDisplay=yes&UserProfile=0&LanguageId=1

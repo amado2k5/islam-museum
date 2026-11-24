@@ -2,10 +2,15 @@
 id: passage/quran-56-68
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-56-68.md}
 ---
 ## موجز
 الآية 68 من [[passage/quran-56|سورۃ الواقعة]]، وہ مکی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 68، سورت کی کل 96 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+الطبری نے اس آیت کو ایک ہی حصے میں مخاطب کیا ہے جس میں آیات بھی شامل ہیں۔ [[passage/quran-56-68|56:68]] کو [[passage/quran-56-70|56:70]] خلاصہ: الطبری کہتے ہیں کہ خدا لوگوں سے اس پانی کے بارے میں پوچھتا ہے جو وہ پیتے ہیں: کیا تم نے اسے بادلوں سے اتارا؟ وہ مجاہد اور قتادہ سے روایت کرتے ہیں کہ یہ بادل ہے یا ہم اسے اتارنے والے ہیں؟ اور اگر وہ چاہتا تو اسے نمکین بنا دیتا، پھر یہ شکر کیوں نہیں کرتے؟ {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=56&tAyahNo=68&tDisplay=yes&UserProfile=0&LanguageId=1

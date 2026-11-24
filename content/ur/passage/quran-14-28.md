@@ -2,12 +2,8 @@
 id: passage/quran-14-28
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
-provenance:
-  generated_by: "Claude Code (Haiku 5.5 session)"
-  model: claude-haiku-5-5
-  run: altafsir-tabari-batch-1-2026-11-23
-  source: source/altafsir-tabari
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-14-28.md}
 ---
 ## موجز
 الآية 28 من [[passage/quran-14|سورۃ ابراہیم]]، وہ مکی سورت ہے۔ {cite:tanzil-quran}
@@ -17,6 +13,6 @@ provenance:
 
 ## تفسیر طبری
 
-طبری کے مطابق یہ آیت قریش کے اس انکار کے بارے میں ہے جو انہوں نے نبی محمد کے بارے میں کیا، حالانکہ وہ ان کے درمیان اللہ کی رحمت کے طور پر بھیجے گئے تھے۔ کئی روایات میں بنو امیہ اور بنو مخزوم کا ذکر ہے، اور «دار البوار» کی تفسیر جہنم سے کی گئی ہے۔ عمر بن خطاب سے منقول ایک روایت میں قریش کے دو بدکار گروہ مراد لیے گئے ہیں۔
+الطبری فرماتے ہیں کہ "کیا تم نے نہیں دیکھا؟" میں خطاب۔ پیغمبر کی طرف اشارہ کیا گیا ہے، اور یہ کہ جنہوں نے خدا کی نعمت کو کفر سے بدل دیا، وہ اس چیز کو بدل دیتے ہیں جو خدا نے ان کو عطا کیا تھا، اور اسے اس کے ساتھ کفر میں بدل دیا تھا۔ ان کی تبدیلی کا حکم نبی کی طرف تھا کیونکہ اللہ تعالیٰ نے قریش پر احسان کیا تھا کہ آپ کو ان میں سے نکال کر ان کے پاس بطور رحمت بھیج کر ان کی طرف رسول بنا کر بھیجا، پھر بھی انہوں نے آپ سے کفر کیا اور آپ کو جھٹلایا۔ وہ "تباہی کے گھر" کو تباہی کے گھر سے تعبیر کرتا ہے، اس کے اظہار سے "چیز فنا اور ختم ہو گئی" اور وہ ابن الزبیر کی ایک آیت کا حوالہ دیتے ہیں، یا جیسا کہ بعض کہتے ہیں، ابو سفیان بن حرب بن عبدالمطلب۔ اس کے بعد وہ کہتا ہے کہ "جہنم" تباہی کے گھر کا ترجمہ اور وضاحت ہے: "اور اس میں داخل ہونے والوں کے لیے کیا ہی برا ٹھکانہ ہے!" وہ عمر بن الخطاب کا حوالہ دیتے ہوئے کہتے ہیں کہ قریش کے دو "بدکار" قبیلے بنو المغیرہ اور بنو امیہ تھے۔ اللہ تعالیٰ نے جنگ بدر میں بنو المغیرہ کو تباہ کر دیا، جب کہ بنو امیہ کو ایک وقت کے لیے مہلت دی گئی۔ اسی طرح کی روایت علی ہ سے مروی ہے، اور ان کی سند کی ایک دوسری روایت میں ہے: بنو اسد اور بنو مخزوم، اور کہا گیا: بنو امیہ اور بنو مخزوم۔
 
 {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=14&tAyahNo=28&tDisplay=yes&UserProfile=0&LanguageId=1

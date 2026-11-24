@@ -2,10 +2,17 @@
 id: passage/quran-19-54
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-19-54.md}
 ---
 ## موجز
 الآية 54 من [[passage/quran-19|سورۃ مریم]]، وہ مکی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 54، سورت کی کل 98 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+ان کا یہ قول، "اور کتاب میں اسماعیل کا ذکر کرو، بے شک وہ اپنے وعدے کے سچے تھے، اور وہ ایک رسول اور نبی تھے،" اس طرح بیان کیا گیا ہے: اے محمد، ابراہیم کے بیٹے اسماعیل کا ذکر کتاب میں کرو اور ان کا قصہ بیان کرو۔ اس نے کبھی اپنا وعدہ نہیں توڑا اور نہ ہی اس کو پورا کرنے میں کوتاہی کی۔ بلکہ جب بھی اپنے رب سے یا اس کے بندوں میں سے کسی سے کوئی وعدہ کرتا تو اسے پورا کرتا۔ جیسا کہ حجاج نے مجھ سے ابن جریج کی سند سے اس آیت کے بارے میں بیان کیا ہے کہ "بے شک وہ اپنے وعدے پر سچا تھا" انہوں نے کہا: اس نے اپنے رب سے کبھی وعدہ نہیں کیا اور اسے پورا نہیں کیا۔ مجھے عمرو بن حارث نے خبر دی کہ سہل بن عقیل نے ان سے کہا کہ اسماعیل نے ایک آدمی سے ایک جگہ کا وعدہ کیا تھا کہ وہ اس سے ملاقات کرے گا۔ وہ آیا لیکن وہ آدمی بھول گیا۔ اسماعیل اس کے پاس رہے اور رات گزاری یہاں تک کہ وہ شخص دوسرے دن آیا اور کہا کیا تم یہاں سے نہیں گئے؟ اس نے کہا نہیں ۔ اس نے کہا میں بھول گیا تھا۔ آپ نے فرمایا جب تک تم نہ آؤ میں وہاں سے نہ نکلتا۔ اس طرح وہ سچا تھا۔ اس عبارت میں ابن جریج سے منسوب بیانات کا بھی حوالہ دیا گیا ہے۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=19&tAyahNo=54&tDisplay=yes&UserProfile=0&LanguageId=1

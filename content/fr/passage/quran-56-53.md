@@ -2,11 +2,17 @@
 id: passage/quran-56-53
 lang: fr
 source_lang: en
-translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
-provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate documents, managed by Claude Code)', model: google-translate, run: gt-docs-fr-2026-11-19, source: content/en/passage/quran-56-53.md}
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-fr-2026-11-24, source: content/ar/passage/quran-56-53.md}
 ---
 ## Résumé
 Verset 53 de [[passage/quran-56|la sourate al-Waqi'a]], une sourate mecquoise. {cite:tanzil-quran}
 
 ## Place dans le musée
 Il s'agit du verset 53 sur 96 dans la sourate. Le texte est conservé dans le mushaf Tanzil et n'est pas reproduit ici.
+
+## Dans le commentaire d'al-Tabari
+
+Al-Tabari considère le verset inclus dans les versets 51 à 53 comme une seule section. Il explique son affirmation « et ils s'en rassasieront » : ils s'en rassasieront du fruit de l'arbre Zaqqum. Les arabisants ont divergé quant à l'emploi du genre féminin pour le mot « arbre » dans cette affirmation : « et ils s'en rassasieront », c'est-à-dire du fruit de l'arbre, « et ils le boiront », car le mot « arbre » peut être masculin ou féminin, et il est féminin ici puisqu'il s'applique à l'arbre, étant donné que le mot « arbre » peut désigner toute chose. Les Arabes disent : « Un arbre amer et une mauvaise herbe poussaient devant nous », et ils entendent par là tout.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=56&tAyahNo=53&tDisplay=yes&UserProfile=0&LanguageId=1

@@ -2,10 +2,17 @@
 id: passage/quran-16-57
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-16-57.md}
 ---
 ## موجز
 الآية 57 من [[passage/quran-16|سورۃ النحل]]، وہ مکی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 57، سورت کی کل 128 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+الطبری نے آیات 57-58 کے اندر آیت کو ایک حصے کے طور پر پڑھا ہے۔ وہ ان الفاظ کی وضاحت کرتا ہے، "اور وہ اللہ کے لیے بیٹیاں مقرر کرتے ہیں - وہ بلند ہے - اور اپنے لیے جو وہ چاہتے ہیں": ان مشرکوں کی نادانی، ان کے اعمال کی شرارت، اور اپنے رب پر ان کی بہتان تراشی کی وجہ سے، وہ بیٹیوں کو اس کی طرف منسوب کرتے ہیں جس نے ان کو پیدا کیا، ان کی پرورش کی، اور ان پر احسان کرنے کے لیے بے شمار نعمتوں سے نوازا۔ یہ مناسب نہیں کہ اللہ کو کوئی بیٹا ہو، مرد ہو یا عورت، وہ پاک ہے! اس نے اپنی شان میں اس طرح اپنے آپ کو ان چیزوں سے آزاد قرار دیا ہے جو انہوں نے اس سے بیٹیوں میں شامل اور منسوب کیا ہے۔ وہ اپنی لاعلمی پر راضی نہیں تھے، کیونکہ انہوں نے اُس میں وہ اضافہ کیا جو اُس میں شامل نہیں کیا جانا چاہیے۔ یہ مناسب نہیں کہ اس کا بیٹا ہو کہ وہ اس کے ساتھ وہ اضافہ کریں جو وہ اپنے لیے چاہتے ہیں اور پسند کرتے ہیں۔ بلکہ، انہوں نے اس کے ساتھ وہ چیزیں شامل کیں جس سے وہ خود نفرت کرتے تھے اور اپنے لیے قبول نہیں کرتے تھے — بیٹیاں جنہیں اگر وہ اپنے پاس رکھتے تو انہیں قتل کر دیتے۔ اس عبارت میں ابن عباس، قتادہ، الضحاک اور ابن جریج کے بیانات نقل کیے گئے ہیں۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=16&tAyahNo=57&tDisplay=yes&UserProfile=0&LanguageId=1

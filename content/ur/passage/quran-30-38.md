@@ -2,10 +2,17 @@
 id: passage/quran-30-38
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-30-38.md}
 ---
 ## موجز
 الآية 38 من [[passage/quran-30|سورۃ الروم]]، وہ مکی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 38، سورت کی کل 60 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+آپ کا یہ فرمان کہ "پس رشتہ داروں کو اس کا حق دو اور مسکین اور مسافر کو، یہ ان لوگوں کے لیے بہتر ہے جو اللہ کی رضا چاہتے ہیں اور وہی فلاح پانے والے ہیں" اس کی وضاحت اس طرح کی گئی ہے: تو اے محمد، اپنے رشتہ داروں کو اپنے رشتہ داروں، احسان، مسکینوں اور مسافروں پر اس کا حق دو، جو اللہ تعالیٰ نے ان کے لیے مقرر کیا ہے۔ رشتہ دار کو اس کا حق دو، مسکین اور مسافر کو۔" آپ نے فرمایا: اگر تمہارے پاس اسباب ہیں تو انہیں ان کا حق دو اور اگر تمہارے پاس اسباب نہیں ہیں تو ان سے نرمی سے بات کرو، ان سے نرمی سے بات کرو۔ ان کے اس قول، ’’یہ ان لوگوں کے لیے بہتر ہے جو خدا کی رضا چاہتے ہیں،‘‘ کا مطلب یہ ہے کہ ان لوگوں کو ان کے وہ حقوق دینا، جن کو پورا کرنا خدا نے اپنے بندوں پر فرض کیا ہے، ان لوگوں کے لیے بہتر ہے جو ایسا کرکے خدا کی رضا چاہتے ہیں۔ ’’اور وہی کامیاب ہیں‘‘ یعنی جو کوئی یہ کام خدا کی رضا حاصل کرنے کے لیے کرتا ہے، تو وہی کامیاب ہیں، جو خدا کے ساتھ اپنی خواہشات کو حاصل کرتے ہیں، اور جو کچھ انہوں نے چاہا اور جو کچھ دیا اسے دے کر جیتتے ہیں۔ اس حوالے میں حسن سے منسوب بیانات بھی شامل ہیں۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=30&tAyahNo=38&tDisplay=yes&UserProfile=0&LanguageId=1

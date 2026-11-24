@@ -2,10 +2,17 @@
 id: passage/quran-34-38
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-34-38.md}
 ---
 ## موجز
 الآية 38 من [[passage/quran-34|سورۃ سبا]]، وہ مکی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 38، سورت کی کل 54 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+اس کا بیان، "اور جو لوگ ہماری آیات کے خلاف کوشش کرتے ہیں، ان کو مایوس کرنے کی کوشش کرتے ہیں، انہیں عذاب میں لایا جائے گا،" وضاحت کرتا ہے: وہ لوگ جو ہماری آیات، یعنی ہماری دلیلوں اور ہماری کتاب کی آیات کے خلاف کام کرتے ہیں، ان کو باطل کرنے اور ان کی روشنی کو بجھانے کی کوشش کرتے ہیں، یہ سوچتے ہیں کہ وہ ہم سے بچ سکتے ہیں اور ہمیں بے اختیار لایا جائے گا، "وہ عذاب میں مبتلا ہوں گے۔" قیامت کے دن جہنم کے عذاب کی طرف۔ ’’کہہ دو بے شک میرا رب اپنے بندوں میں سے جس کے لیے چاہتا ہے رزق کشادہ کرتا ہے۔‘‘ اللہ تعالیٰ فرماتا ہے: اے محمدؐ کہو کہ میرا رب اپنی مخلوق میں سے جس کے لیے چاہتا ہے رزق میں وسعت دیتا ہے، ان کے لیے احسان کے طور پر اور دیگر وجوہات کی بنا پر اسے کشادہ کرتا ہے۔ اور وہ ان میں سے جس کے لیے چاہتا ہے اسے محدود کر دیتا ہے، اسے ذلت اور دیگر وجوہات کی بنا پر تنگ اور محدود کر دیتا ہے۔ یہ ایک توہین ہے، بلکہ ایک آزمائش اور آزمائش ہے۔ ’’اور تم جو کچھ خرچ کرو گے وہ اس کا بدلہ دے گا۔‘‘ فرمایا: اے لوگو، تم جو کچھ بھی اللہ کی اطاعت میں خرچ کرو گے، اللہ اس کا بدلہ تمہیں دے گا۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=34&tAyahNo=38&tDisplay=yes&UserProfile=0&LanguageId=1

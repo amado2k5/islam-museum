@@ -2,10 +2,17 @@
 id: passage/quran-17-83
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-17-83.md}
 ---
 ## موجز
 الآية 83 من [[passage/quran-17|سورۃ الاسراء]]، وہ مکی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 83، سورت کی کل 111 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+اس کا یہ قول کہ "اور جب ہم انسان پر احسان کرتے ہیں تو وہ منہ پھیر لیتا ہے اور دور ہو جاتا ہے، اور جب اسے کوئی برائی پہنچتی ہے تو وہ مایوس ہو جاتا ہے،" اللہ تعالیٰ فرماتا ہے: اور جب ہم انسان پر احسان کرتے ہیں اور اسے اس خطرے سے بچاتے ہیں کہ وہ سمندر میں تھا، جو ہوا کے زور سے تباہی کے دہانے پر تھا، اور اس کو ہماری طرف سے دوسرے احسانوں سے دور کر دیتا ہے۔ یاد، اگرچہ وہ ہم سے مدد مانگتا تھا اور اس مصیبت میں جس میں وہ تھا ہمارے سوا کسی سے نہیں۔ "اور خود کو دور کرتا ہے" کا مطلب ہے: وہ اپنے آپ کو ہم سے دور کر لیتا ہے، یعنی اپنے آپ کو، گویا اس نے اس مصیبت میں مدد کے لیے نہیں پکارا تھا جو اس سے پہلے اسے پہنچا تھا۔ اور مجاہد نے اس کے اس قول کے بارے میں کہا: "اور خود کو دور کرتا ہے"، اس نے کہا: وہ ہم سے دور ہو جاتا ہے۔ انہوں نے کہا: مجھ سے حجاج نے ابن جریج سے اور مجاہد کی سند سے اسی طرح بیان کیا۔ الف سے پہلے "نع" میں ہمزہ کے ساتھ پڑھنا ہے، اور یہ فصیح زبان ہے، اور ہم اسے اسی طرح پڑھتے ہیں۔ اس آیت میں ابن عباس، مجاہد، قتادہ اور ابن جریج کے بیانات بھی نقل کیے گئے ہیں۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=17&tAyahNo=83&tDisplay=yes&UserProfile=0&LanguageId=1

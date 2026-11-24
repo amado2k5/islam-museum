@@ -2,10 +2,17 @@
 id: passage/quran-21-94
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-21-94.md}
 ---
 ## موجز
 الآية 94 من [[passage/quran-21|سورۃ الانبیاء]]، وہ مکی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 94، سورت کی کل 112 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+وہ اپنے اس قول کی وضاحت کرتے ہوئے فرماتے ہیں: ’’پس جو شخص ایمان کے ساتھ عمل صالح کرے گا تو اس کی کوشش کو رد نہیں کیا جائے گا، اور ہم اسے اس کے لیے لکھ رہے ہیں۔‘‘ وہ کہتا ہے: پس جو ان لوگوں میں سے جنہوں نے اپنے دین میں تفرقہ ڈالا ہے وہ وہی کرے گا جس کا خدا نے اسے حکم دیا ہے نیک کاموں کا، اور اس کے احکام و ممنوعات میں اس کی اطاعت کرتا ہے، اور وہ خدا کی وحدانیت کا اقرار کرتا ہے، اس کے وعدے اور اس کی دھمکی پر یقین رکھتا ہے، اور حریفوں اور معبودوں سے انکار کرتا ہے، "اس کی کوشش سے کوئی انکار نہیں ہوگا۔" وہ کہتا ہے: خدا اس کے اس عمل کی قدر کرتا ہے جو اس نے اس کی اطاعت میں اس کے لیے کیا تھا، اور وہ اس پر ایمان رکھتا ہے، اس لیے وہ اسے آخرت میں اس انعام سے نوازتا ہے جس کا اس نے وعدہ کیا تھا کہ وہ اس کی اطاعت کرنے والوں کو جزا دے گا، اور وہ اس کا انکار نہیں کرتا، اس لیے اس کا انکار نہیں کرتا اور اسے اس کے نیک عمل کے اجر سے محروم کرتا ہے۔ "اور واقعی، ہم اسے ریکارڈ کر رہے ہیں۔" وہ کہتا ہے: ہم اس کی تمام نیکیاں لکھ رہے ہیں، کچھ بھی نہیں چھوڑ رہے ہیں، تاکہ ہم اسے ہر چھوٹے بڑے، تھوڑے اور بہت سے بدلہ دیں۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=21&tAyahNo=94&tDisplay=yes&UserProfile=0&LanguageId=1

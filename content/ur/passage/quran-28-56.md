@@ -2,10 +2,17 @@
 id: passage/quran-28-56
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-28-56.md}
 ---
 ## موجز
 الآية 56 من [[passage/quran-28|سورۃ القصص]]، وہ مکی سورت ہے۔ {cite:tanzil-quran} اہل علم کے نزدیک اس کا نزول [[event/year-of-sorrow|عام الحزن]] سے جڑا ہے۔
 
 ## موضعها
 موضعها: آیت 56، سورت کی کل 88 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+اس کا یہ قول، "بے شک تم جس سے محبت کرتے ہو اسے ہدایت نہیں دیتے، بلکہ اللہ جسے چاہتا ہے ہدایت دیتا ہے، اور وہ ہدایت پانے والوں کو سب سے زیادہ جانتا ہے"، اس کی وضاحت اس طرح کی گئی ہے: "بے شک، اے محمد، آپ جس سے محبت کرتے ہیں، اس کی رہنمائی نہیں کرتے، بلکہ "اللہ جسے چاہتا ہے ہدایت دیتا ہے" اپنی مخلوقات میں سے انہیں اس قابل بنا کر کہ وہ اپنے اور اپنے رسول پر ایمان لے آئیں۔ اگر یہ کہا جائے کہ اس کا مفہوم یہ ہے کہ: "تم جس سے محبت کرتے ہو اس کی رہنمائی اس کی وجہ سے نہیں کرتے کہ تم ان کے رشتہ داروں سے محبت کرتے ہو، بلکہ اللہ جسے چاہتا ہے ہدایت دیتا ہے،" تو یہ صحیح تعبیر ہو گی۔ "اور وہ ہدایت یافتہ لوگوں کو زیادہ جانتا ہے" یعنی اس کی حمد و ثنا ہو، کہ اللہ خوب جانتا ہے کہ اس نے پہلے ہی کس کو راہ راست پر لانے کا حکم دیا ہے۔ یہ وہ ہے جسے اللہ ہدایت دیتا ہے، اس طرح ہدایت دیتا ہے اور ان کو اہل بناتا ہے۔ اس کا ذکر ہے کہ یہ آیت رسول اللہ پر اس لیے نازل ہوئی تھی کہ آپ کے چچا ابو طالب نے جب آپ کو اللہ پر ایمان لانے کے لیے بلایا تو انہوں نے جواب دینے سے انکار کر دیا۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=28&tAyahNo=56&tDisplay=yes&UserProfile=0&LanguageId=1

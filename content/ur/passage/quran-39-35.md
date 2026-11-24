@@ -2,10 +2,17 @@
 id: passage/quran-39-35
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-39-35.md}
 ---
 ## موجز
 الآية 35 من [[passage/quran-39|سورۃ الزمر]]، وہ مکی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 35، سورت کی کل 75 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+اس کا یہ بیان، "کہ خدا ان کے لیے ان کے برے کاموں کا کفارہ دے اور جو کچھ وہ کرتے تھے ان کے بہترین اعمال کے مطابق بدلہ دے،" بیان کرتا ہے: وہ ان صالح لوگوں کو ان کے اچھے اعمال کا بدلہ دیتا ہے، تاکہ وہ ان کے لیے اس دنیا میں ان کے اور ان کے رب کے درمیان، ان کی توبہ اور برائیوں سے باز آنے کے ذریعے ان کے لیے ان سب سے برے کاموں کا کفارہ دے دے۔ "اور ان کو ان کے اچھے اعمال کے مطابق جزا دو" یعنی وہ ان کو ان کا بدلہ اس دنیا میں "ان کے بہترین اعمال کے مطابق" دے گا، جو خدا کو خوش کرتا ہے، نہ کہ اس میں سے بدترین۔ جیسا کہ ابن زید نے کہا: "اور وہ جو حق لے کر آئے اور جو اس پر ایمان لائے، وہ وہ ہیں جو..." صالحین، یعنی وہ لوگ جن کے گناہ ہیں، یعنی رب، ہاں، "ان کے لیے" اس میں "جو کچھ وہ چاہیں گے" اپنے رب کے پاس ہوگا۔ یہ نیکی کرنے والوں کا بدلہ ہے، تاکہ اللہ ان کے لیے ان کے برے کاموں کا کفارہ دے اور ان کو ان کے بہترین اعمال کے مطابق جزا دے جو وہ کرتے تھے۔" اور آپ نے تلاوت فرمائی: ’’مومن صرف وہ ہیں جو جب اللہ کا ذکر کیا جائے تو عاجزی کرتے ہیں۔‘‘ اور اس نے ابن زید کے اقوال کا حوالہ دیا ہے۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=39&tAyahNo=35&tDisplay=yes&UserProfile=0&LanguageId=1

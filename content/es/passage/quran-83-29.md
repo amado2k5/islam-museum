@@ -2,11 +2,17 @@
 id: passage/quran-83-29
 lang: es
 source_lang: en
-translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
-provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate documents, managed by Claude Code)', model: google-translate, run: gt-docs-es-2026-11-19, source: content/en/passage/quran-83-29.md}
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-es-2026-11-24, source: content/ar/passage/quran-83-29.md}
 ---
 ## Resumen
 Versículo 29 de [[passage/quran-83|Surat al-Mutaffifin]], una sura de La Meca. {cite:tanzil-quran}
 
 ## Lugar en el museo
 Su ubicación: versículo 29 de 36 versículos en la sura. El texto se conserva en el Mushaf congelado de Tanzil y no se reproduce aquí.
+
+## En el comentario de al-Tabari
+
+Al-Tabari interpreta el versículo comprendido entre los versículos 29 y 31 como una sola sección. Explica la frase «y su mezcla es de Tasnim» de la siguiente manera: La mezcla de este néctar es de Tasnim. Tasnim deriva del verbo «Sannamathum al-‘Ayn Tasnim», que significa «Lo derramé sobre ellos desde arriba». Así, en este contexto, significa: Su mezcla es de agua que desciende sobre ellos desde arriba y fluye sobre ellos. Mujahid y al-Kalbi compartían esta opinión. Ibn Abi Najih, citando a Mujahid, dijo acerca de la palabra «Tasnim»: «Tasnim significa elevarse». Ma‘mar, citando a al-Kalbi, dijo acerca de la palabra «Tasnim»: «El Tasnim se derrama sobre ellos desde arriba, y es la bebida de aquellos que se acercan a Dios». Otros eruditos de la interpretación afirmaron: «Es un manantial con el que se mezcla el néctar para los Compañeros de la Rectitud, mientras que aquellos que se acercan a Dios lo beben puro». El pasaje cita declaraciones de Ibn Abbas, Mujahid, Al-A'mash, Al-Kalbi, Sufyan y Ata.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=83&tAyahNo=29&tDisplay=yes&UserProfile=0&LanguageId=1

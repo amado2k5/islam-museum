@@ -2,10 +2,17 @@
 id: passage/quran-15-20
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-15-20.md}
 ---
 ## موجز
 الآية 20 من [[passage/quran-15|سورۃ الحجر]]، وہ مکی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 20، سورت کی کل 99 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+الطبری اس جملے کی وضاحت کرتا ہے "اور ہم نے تمہارے لیے اس میں روزی کا سامان بنایا ہے" "روزی" کی جمع ہے۔ "اور جن کے لیے آپ فراہم کرنے والے نہیں ہیں" کے جملہ کے بارے میں علماء کا اختلاف ہے: مجاہد نے اسے جانوروں اور مویشیوں کے حوالے سے تعبیر کیا ہے، جب کہ منصور نے اسے خاص طور پر جنگلی درندوں سے تعبیر کیا ہے۔ الطبری نے اس تعبیر کی تائید کی ہے کہ اس سے مراد غلاموں، نر و مادہ، اور جانوروں اور مویشیوں کی طرف ہے، اس طرح یہ مطلب ہے: ہم نے تمہارے لیے ذریعہ معاش بنایا ہے اور تمہارے لیے ان لوگوں کو بنایا ہے جن کے لیے تم رزق دینے والے نہیں ہو۔ عرب بعض اوقات جانوروں کی جگہ "کون" کا استعمال کرتے ہیں جب وہ انسانوں کے ساتھ ان کا حوالہ دیتے ہیں، اور "کون" الزامی صورت میں ہوگا، جو "معاشی" سے جڑا ہوا ہے۔ یہ بھی تجویز کیا گیا ہے کہ یہ جینیاتی صورت میں ہے، جو "آپ" اور "ان" سے "آپ کے لیے" میں جڑا ہوا ہے۔ یہ خیال کیا جاتا ہے کہ منصور نے یہ مؤخر الذکر معنی مراد لیا تھا، اگرچہ اس میں کچھ خوبیاں ہیں، اور اس نے اس کے ناقص معیار کی دلیل کے طور پر ایک آیت کا حوالہ دیا ہے۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=15&tAyahNo=20&tDisplay=yes&UserProfile=0&LanguageId=1

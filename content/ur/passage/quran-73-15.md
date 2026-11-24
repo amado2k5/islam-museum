@@ -2,10 +2,17 @@
 id: passage/quran-73-15
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-73-15.md}
 ---
 ## موجز
 الآية 15 من [[passage/quran-73|سورۃ المزمل]]، وہ مکی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 15، سورت کی کل 20 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+الطبری نے آیات 15 سے 16 تک کی آیت کو ایک حصے کے طور پر پڑھا ہے۔ ان کا یہ قول کہ ’’بے شک ہم نے تم پر ایک رسول بھیجا ہے تم پر گواہ بنا کر، جس طرح ہم نے فرعون کی طرف رسول بھیجا تھا‘‘ اس طرح بیان کیا گیا ہے: ’’بے شک ہم نے تمہاری طرف بھیجا ہے، اے لوگو، تم پر ایک رسول گواہ بنا کر‘‘ تم میں سے ان لوگوں کے جواب کے بارے میں جنہوں نے میری پکار پر لبیک کہا اور تم میں سے ان لوگوں کے انکار کے بارے میں جنہوں نے قیامت کے دن مجھ سے ملاقات کے لیے بھیجا تھا۔ فرعون ایک رسول" وہ کہتا ہے: جس طرح ہم نے تم سے پہلے مصر کے فرعون کے پاس ایک رسول بھیجا تھا جو اسے حق کی طرف بلاتا تھا، لیکن فرعون نے اس رسول کی نافرمانی کی، جسے ہم نے اس کی طرف بھیجا، تو ہم نے اسے سخت عذاب میں پکڑ لیا۔ وہ کہتا ہے: تو ہم نے اسے سخت عذاب میں پکڑا، اور ہم نے اسے اور اس کے ساتھ والے تمام لوگوں کو ہلاک کر دیا، اور وہ ان لوگوں میں سے تھا جو کہتے ہیں: "ایک جڑی بوٹی جو بے ذائقہ ہے" یعنی یہ آسانی سے ہضم نہیں ہوتی، اور یہی بات کھانے پر بھی لاگو ہوتی ہے۔ اس عبارت میں ابن عباس، مجاہد، قتادہ اور ابن زید کے اقوال نقل کیے گئے ہیں۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=73&tAyahNo=15&tDisplay=yes&UserProfile=0&LanguageId=1

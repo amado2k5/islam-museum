@@ -2,10 +2,17 @@
 id: passage/quran-16-14
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-16-14.md}
 ---
 ## موجز
 الآية 14 من [[passage/quran-16|سورۃ النحل]]، وہ مکی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 14، سورت کی کل 128 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+اس کا بیان ہے: "اور وہی ہے جس نے سمندر کو تمہارے لیے مسخر کیا کہ اس سے نرم گوشت کھاؤ اور اس سے زیور نکالو جو تم پہنتے ہو، اور تم دیکھتے ہو کہ اس میں کشتیاں چل رہی ہیں، اور تاکہ تم اس کا فضل تلاش کرو، اور شاید تم شکر گزار ہو،" بیان کرتا ہے: جس نے تمہارے لیے یہ چیزیں کیں اور تم پر یہ نعمتیں نازل کیں، اے لوگو، جس نے تم پر یہ نعمتیں نازل کیں، اے لوگو، سمندر کا پانی ہے، چاہے ہر سمندر کا پانی ہے۔ نمکین ہے یا تازہ - "تم اس سے نرم گوشت کھاؤ،" جو مچھلی ہے جو اس سے پکڑی جاتی ہے، "اور اس سے زیور نکالنے کے لیے جو تم پہنتے ہو،" یعنی موتی اور مرجان۔ نیز: ہشام نے عمرو کی سند سے، سعید کی سند سے، قتادہ کی سند سے، ان کے اس قول کے بارے میں بیان کیا: "اور وہی ہے جس نے سمندر کو تمہارے لیے مسخر کیا کہ اس میں سے گوشت کھاؤ،" انہوں نے کہا: ان دونوں سے۔ ’’اور اس سے زیور نکالنے کے لیے جو تم پہنتے ہو،‘‘ اس نے کہا: ’’یہ موتی ہے۔‘‘ اور قتادہ کی روایت میں ہے: "تم اس سے نرم گوشت کھاؤ" یعنی سمندر کی وہیل۔ اور اس آیت میں انہوں نے مجاہد، قتادہ، الحسن، عکرمہ، ابن زید اور ابن جریج کے اقوال نقل کیے ہیں۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=16&tAyahNo=14&tDisplay=yes&UserProfile=0&LanguageId=1

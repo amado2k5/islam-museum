@@ -2,10 +2,17 @@
 id: passage/quran-34-31
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-34-31.md}
 ---
 ## موجز
 الآية 31 من [[passage/quran-34|سورۃ سبا]]، وہ مکی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 31، سورت کی کل 54 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+اس کا فرمان ہے: "اور کافروں نے کہا کہ ہم اس قرآن یا اس سے پہلے والی کتابوں پر ہرگز ایمان نہیں لائیں گے۔" کاش تم دیکھو جب ظالم اپنے رب کے سامنے کھڑے کیے جائیں گے اور ان کے درمیان الزام تراشی کی جائے گی، جو مظلوم تھے وہ متکبروں سے کہیں گے کہ اگر تم نہ ہوتے تو ہم کافروں میں سے ہوتے۔" عرب مشرکین، "ہم ہرگز نہیں مانیں گے" ہم اس قرآن کو نہیں مانیں گے" جو محمد ہمارے پاس لائے اور نہ ہی اس کتاب پر جو ان سے پہلے لائے تھے، جہاں تک قتادہ کا قول ہے کہ "ہم اس قرآن پر ایمان نہیں لائیں گے اور نہ ہی اس سے پہلے آنے والی چیزوں پر،" انہوں نے کہا: مشرکین نے کہا، "ہم اس قرآن پر ایمان نہیں لائیں گے، نہ اس سے پہلے آنے والی کتابوں اور انبیاء پر۔" اور اس کے اس فرمان کے بارے میں کہ "کاش تم دیکھو جب ظالموں کو اپنے رب کے سامنے کھڑا کیا جائے گا" وہ ایک دوسرے پر الزام تراشی کر رہے ہوں گے، آپس میں جھگڑ رہے ہوں گے، اس دنیا کے مظلوم ان لوگوں سے کہیں گے جو ان پر مغرور تھے، "اگر تم نہ ہوتے، اس دنیا کے سردار اور طاقت ور، تو ہم خدا اور اس کی نشانیوں پر ایمان لے آتے۔" اس عبارت میں قتادہ سے منسوب بیانات بھی شامل ہیں۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=34&tAyahNo=31&tDisplay=yes&UserProfile=0&LanguageId=1

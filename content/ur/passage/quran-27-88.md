@@ -2,10 +2,17 @@
 id: passage/quran-27-88
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-27-88.md}
 ---
 ## موجز
 الآية 88 من [[passage/quran-27|سورۃ النمل]]، وہ مکی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 88، سورت کی کل 93 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+اس کا بیان، "اور آپ پہاڑوں کو دیکھتے ہیں، انہیں بے حرکت سمجھتے ہیں، جب کہ وہ بادلوں کے گزرنے کی طرح گزرتے ہیں - خدا کا کام، جس نے ہر چیز کو مکمل کیا، یقیناً وہ اس سے باخبر ہے جو تم کرتے ہو،" بیان کرتا ہے: "اور آپ پہاڑوں کو دیکھتے ہیں،" اے محمد، "انہیں ساکن سمجھ کر" کھڑے ہیں، "جب وہ گزر رہے ہیں۔" بادلوں کے گزرنے کی طرح۔ انہوں نے کہا: مجھ سے معاویہ نے علی کی سند سے اور ابن عباس کی روایت سے اس آیت کے بارے میں بیان کیا: اور تم پہاڑوں کو دیکھتے ہو کہ ان کو بے حرکت سمجھتے ہو، یعنی ٹھہرے ہوئے ہیں۔ کہا جاتا ہے کہ "جب وہ بادلوں کی طرح گزرتے ہیں"، کیونکہ وہ جمع ہوتے ہیں اور پھر حرکت کرتے ہیں، اس لیے دیکھنے والا، ان کی کثرت کی وجہ سے، یہ سمجھتا ہے کہ وہ ساکن ہیں، جب کہ وہ تیزی سے حرکت کرتے ہیں، جیسا کہ الجادی نے کہا: "پہاڑی کی طرح ایک پہاڑ کے ساتھ، آپ کو لگتا ہے کہ وہ حاجیوں کے لیے کھڑے ہیں، جب کہ سوار چلتے ہیں۔" آیت کے بارے میں: "خدا کا کام جس نے تمام چیزوں کو مکمل کیا" اور اپنی مخلوق کو ثابت قدم بنایا۔ اس عبارت میں ابن عباس، مجاہد اور ابن جریج کے بیانات بھی شامل ہیں۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=27&tAyahNo=88&tDisplay=yes&UserProfile=0&LanguageId=1

@@ -2,10 +2,17 @@
 id: passage/quran-38-36
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-38-36.md}
 ---
 ## موجز
 الآية 36 من [[passage/quran-38|سورۃ ص]]، وہ مکی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 36، سورت کی کل 88 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+الطبری نے آیات 36 سے 40 تک کی آیت کو ایک حصے کے طور پر پڑھا ہے۔ وہ اپنے اس قول کی وضاحت کرتا ہے، "پس ہم نے ہوا کو اس کے تابع کر دیا، اس کے حکم سے جہاں وہ اسے چلاتا تھا، نرمی سے چلتی تھی": تو ہم نے اس کی دعا قبول کی، اور اسے ایک ایسی بادشاہی دی جو اس کے بعد کسی کو نہیں ہونی چاہیے۔ "پس ہم نے ہوا کو اس کے لیے مسخر کر دیا" ان گھوڑوں کی جگہ جس نے اسے نماز سے غافل کر دیا، "اس کے حکم سے نرمی سے پھونکنے والی" یعنی نرم اور نرم، اور یہ لفظ "نرمی" سے ہے۔ الحسن سے یہ بھی روایت ہے کہ جب حضرت سلیمان کو گھوڑے پیش کیے گئے تو آپ ان کی خوبصورتی سے اس قدر محو ہو گئے کہ آپ نے عصر کی نماز "یہاں تک کہ وہ پردے کے پیچھے غائب ہو گئے۔" وہ خدا کی خاطر ناراض ہوا اور انہیں ذبح کرنے کا حکم دیا۔ اس کے بعد خدا نے اسے تیز رفتار متبادل فراہم کیا، جس سے وہ جہاں چاہے ہوا اس کے حکم پر آہستہ سے چلائے۔ وہ صبح یروشلم سے سفر کرتے، دوپہر کو قزوین میں آرام کرتے، پھر شام کو قزوین سے واپس آتے اور رات کابل میں گزارتے۔ اس عبارت میں ابن عباس، مجاہد، قتادہ، الحسن اور ابن زید سے منسوب بیانات بھی شامل ہیں۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=38&tAyahNo=36&tDisplay=yes&UserProfile=0&LanguageId=1

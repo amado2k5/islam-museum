@@ -2,10 +2,17 @@
 id: passage/quran-41-28
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-41-28.md}
 ---
 ## موجز
 الآية 28 من [[passage/quran-41|سورۃ فصلت]]، وہ مکی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 28، سورت کی کل 54 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+ان کا یہ قول کہ "یہ خدا کے دشمنوں کا بدلہ ہے: آگ، اس میں ان کے لیے ابد کا گھر ہے، جس کا بدلہ وہ ہماری آیات کو جھٹلاتے تھے،" بیان کرتے ہیں: یہ وہ بدلہ ہے جس کے ساتھ مشرکین قریش میں سے کافروں کو خدا کے دشمنوں کی طرح بدلہ دیا جائے گا۔ پھر اس نے، اس کی حمد و ثناء، اس معاوضے کی نوعیت اور یہ کیا ہے اس کے بارے میں بتانا شروع کیا۔ فرمایا: وہ آگ ہے۔ آگ جزا کی وضاحت اور اس کی تشریح ہے، اور اس کے جواب سے اسے اٹھایا جاتا ہے۔ پھر فرمایا: ان کے لیے اس میں ہمیشگی کا گھر ہے۔ یعنی ان مشرکوں کے لیے آگ میں ہمیشگی کا ٹھکانہ ہے یعنی باقی رہنے کا ٹھکانہ اور اس میں بغیر انتہا اور حد کے رہنا۔ اور وہ ٹھکانہ کہ وہ، اس کی حمد بلند ہو، ہمیں بتایا گیا ہے کہ ان کے لیے آگ میں آگ ہے۔ یہ دونوں الفاظ کے فرق کی وجہ سے قابل قبول ہے، جیسا کہ کہا جاتا ہے: تمہارے شہر میں ایک اچھا گھر ہے، اور کوفہ میں ایک عمدہ گھر ہے۔ مکان کوفہ اور بستی ہے لہٰذا الفاظ کے اختلاف کی وجہ سے یہ قابل قبول ہے۔ اور ہمیں ابن مسعود کی قرأت میں ذکر کیا گیا ہے کہ: "یہی بدلہ ہے خدا کے دشمنوں کا: آگ، ہمیشہ کا ٹھکانہ۔" تو اس میں اس کی تصدیق ہے جو ہم نے تفسیر میں کہی ہے۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=41&tAyahNo=28&tDisplay=yes&UserProfile=0&LanguageId=1

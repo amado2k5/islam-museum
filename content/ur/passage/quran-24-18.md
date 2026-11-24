@@ -2,10 +2,17 @@
 id: passage/quran-24-18
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-24-18.md}
 ---
 ## موجز
 الآية 18 من [[passage/quran-24|سورۃ النور]]، وہ مدنی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 18، سورت کی کل 64 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+اس کا یہ فرمان، "اور اللہ تمہارے لیے آیات کو واضح کرتا ہے، اور اللہ جاننے والا اور حکمت والا ہے،" اس بات کی وضاحت کرتا ہے کہ جو لوگ اللہ اور اس کے رسول پر ایمان لانے والوں میں زنا کی بات کو پھیلانا پسند کرتے ہیں، اور ان میں یہ ظاہر ہو جائے، ان کے لیے دردناک عذاب ہے۔ اس کا مطلب ہے کہ ان کے لیے اس دنیا میں سخت عذاب ہو گا، جو عذاب اللہ نے ان لوگوں کے لیے مقرر کیا ہے جو پاکباز مردوں اور عورتوں پر زنا کا جھوٹا الزام لگاتے ہیں۔ اور آخرت میں وہ جہنم کے عذاب میں مبتلا ہوں گے اگر وہ بغیر توبہ کیے اسی پر قائم رہتے ہوئے مر گئے۔ جیسا کہ حجاج نے مجھ سے ابن جریج سے اور مجاہد کی سند سے اس آیت کے بارے میں بیان کیا کہ "وہ اس بات کو پسند کرتے ہیں کہ بے حیائی پھیلے" کہ اس سے عائشہ کا معاملہ ہے۔ ابن زید نے اس آیت کے بارے میں کہا ہے کہ "بے شک جو لوگ اس بات کو پسند کرتے ہیں کہ ایمان والوں میں بے حیائی پھیلے، ان کے لیے دردناک عذاب ہے" کہ اس سے مراد فاسق عبداللہ بن ابی بن سلول ہے، جو عائشہ پر بہتان پھیلانے والا منافق ہے۔ ’’ان کے لیے دردناک عذاب ہوگا۔‘‘ اس عبارت میں مجاہد اور ابن زید کے بیانات بھی شامل ہیں۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=24&tAyahNo=18&tDisplay=yes&UserProfile=0&LanguageId=1

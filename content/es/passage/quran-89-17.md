@@ -2,11 +2,15 @@
 id: passage/quran-89-17
 lang: es
 source_lang: en
-translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
-provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate documents, managed by Claude Code)', model: google-translate, run: gt-docs-es-2026-11-19, source: content/en/passage/quran-89-17.md}
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-es-2026-11-24, source: content/ar/passage/quran-89-17.md}
 ---
 ## Resumen
 Versículo 17 de [[passage/quran-89|Surat al-Fajr]], una sura de La Meca. {cite:tanzil-quran}
 
 ## Lugar en el museo
 Su ubicación: versículo 17 de 30 versículos en la sura. El texto se conserva en el Mushaf congelado de Tanzil y no se reproduce aquí.
+
+## En el comentario de al-Tabari
+
+Al-Tabari aborda este versículo en un solo pasaje que incluye [[passage/quran-89-16|89:16]] a [[passage/quran-89-19|89:19]] En resumen: Se mencionan dos interpretaciones del significado de «No», y se prefiere la interpretación de Qatadah: Dios no honra a quienes lo honran con abundancia de bienes materiales, ni humilla a quienes lo humillan con la falta de ellos. Más bien, honra a quienes lo honran con obediencia y humilla a quienes lo humillan con desobediencia, porque el contexto aclara la razón de la humillación: que no honran al huérfano. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=89&tAyahNo=17&tDisplay=yes&UserProfile=0&LanguageId=1

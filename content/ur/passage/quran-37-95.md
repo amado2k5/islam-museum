@@ -2,10 +2,17 @@
 id: passage/quran-37-95
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-37-95.md}
 ---
 ## موجز
 الآية 95 من [[passage/quran-37|سورۃ الصافات]]، وہ مکی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 95، سورت کی کل 182 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+الطبری آیات 95 تا 98 کے اندر آیت کو ایک حصے کے طور پر پڑھتا ہے۔ وہ اس جملے کی تشریح کرتا ہے "پھر وہ ان پر پلٹا، اپنے دائیں ہاتھ سے مارا" اس طرح: وہ اپنی قوم کے بتوں پر پلٹا، اپنے دائیں ہاتھ سے کلہاڑی سے مارا، انہیں توڑ دیا۔ یہ میرے والد نے روایت کی ہے، انہوں نے کہا: مجھ سے میرے چچا نے بیان کیا، انہوں نے کہا: مجھ سے میرے والد نے اپنے والد سے، ابن عباس ہما سے روایت کی، انہوں نے کہا: جب وہ اکیلے تھے تو اپنے دائیں ہاتھ سے ان کے بتوں کو مارنے لگے۔ حسین ہ سے روایت ہے، انہوں نے کہا: میں نے ابو معاذ ہ کو کہتے سنا: میں نے ضحاک کو سنا، اور انہوں نے اسی طرح کا ذکر کیا۔ قتادہ کی روایت میں، "پھر وہ ان پر پلٹا، اپنے داہنے ہاتھ سے مارا،" انہوں نے کہا: وہ ان کے قریب آیا اور انہیں توڑ دیا۔ ابن اسحاق کی سند سے، انہوں نے کہا: پھر وہ ان کے قریب پہنچا، جیسا کہ خدا نے کہا، اپنے دائیں ہاتھ سے مارا، اور پھر اپنے ہاتھ میں کلہاڑی سے انہیں توڑنا شروع کیا۔ اس حصے میں انہوں نے ابن عباس، مجاہد، قتادہ، الحسن، الکساعی اور ابن اسحاق کے اقوال نقل کیے ہیں۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=37&tAyahNo=95&tDisplay=yes&UserProfile=0&LanguageId=1

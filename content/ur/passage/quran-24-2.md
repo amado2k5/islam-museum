@@ -2,10 +2,17 @@
 id: passage/quran-24-2
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-24-2.md}
 ---
 ## موجز
 الآية 2 من [[passage/quran-24|سورۃ النور]]، وہ مدنی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 2، سورت کی کل 64 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+آیت "زانیہ اور زانی، ان میں سے ہر ایک کو سو سو کوڑے مارو، اگر تم خدا اور یوم آخرت پر ایمان رکھتے ہو تو ان پر ترس تمہیں خدا کی طرف سے مقرر کردہ سزا پر عمل کرنے سے نہ روکے، اور مومنوں کا ایک گروہ ان کی سزا کا مشاہدہ کرے" اس کی وضاحت ہے: اگر کوئی مرد یا عورت زنا کرے اور وہ آزاد ہو تو سو کوڑے مارو۔ جو کچھ انہوں نے خدا کی نافرمانی میں کیا اور کیا اس کی سزا۔ ’’اور ان کے لیے ہمدردی آپ کو خدا کی طرف سے مقرر کردہ سزا کو انجام دینے سے نہ روکے‘‘۔ اللہ تعالیٰ کا ارشاد ہے: اے ایمان والو، زناکار اور زانیہ کے لیے ہمدردی تمہیں خدا کی مقرر کردہ سزا پر عمل کرنے سے نہ روکے، یعنی اللہ تعالیٰ کی اس بات پر عمل کرنے سے جو اس نے ان پر مقررہ سزا کے نفاذ کے بارے میں تمہیں حکم دیا ہے، جیسا کہ اس نے تم پر فرض کیا ہے۔ اہل تفسیر کا اس بارے میں اختلاف ہے کہ مومنین کو ان کے ساتھ ہمدردی کرنے سے کن چیزوں سے منع کیا گیا ہے۔ بعض نے کہا کہ یہ ان پر خدا کے مقرر کردہ عذاب کو نافذ کرنے میں کوتاہی ہے۔ لیکن اگر ان پر عذاب نازل ہو جائے تو ان کے لیے ہمدردی آپ کو خدا کی مقرر کردہ سزا پر عمل کرنے سے نہ روکے۔ اس آیت میں مجاہد، سعید بن جبیر، ابراہیم اور عطاء کے بیانات نقل کیے گئے ہیں۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=24&tAyahNo=2&tDisplay=yes&UserProfile=0&LanguageId=1

@@ -2,10 +2,17 @@
 id: passage/quran-38-3
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-38-3.md}
 ---
 ## موجز
 الآية 3 من [[passage/quran-38|سورۃ ص]]، وہ مکی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 3، سورت کی کل 88 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+ان کا یہ قول، "ہم نے ان سے پہلے کتنی ہی نسلیں تباہ کیں، اور وہ پکار اٹھے، لیکن وہ فرار کا وقت نہیں تھا،" بیان کرتا ہے: ہم نے قریش کے ان مشرکوں سے پہلے کئی نسلوں کو ہلاک کیا جنہوں نے ہمارے رسول محمد کو اس بات میں جھٹلایا جو وہ ہمارے پاس سے حق لے کر آئے تھے۔ "ایک نسل" کا مطلب ہے: ان قوموں میں سے جو ان سے پہلے تھیں، اور انہوں نے اپنے رسولوں کی تکذیب کرتے ہوئے ان کے راستے پر چلتے ہوئے جو کچھ وہ خدا کی طرف سے لائے تھے۔ ’’اور وہ پکارے‘‘ کا مطلب ہے: انہوں نے اپنے رب سے فریاد کی اور فریاد کی اور اس سے توبہ کی پناہ مانگی، جب ان پر خدا کا عذاب نازل ہوا اور وہ اس کے عذاب کو دیکھ رہے تھے، اس کے عذاب سے بھاگتے ہوئے اور اس کے دردناک عذاب سے بچتے تھے۔ ’’مگر وہ فرار کا وقت نہیں تھا‘‘ کا مطلب ہے کہ وہ توبہ کرکے عذاب سے بھاگنے یا بچنے کا وقت نہیں تھا، اور ان پر عذاب کی بات پوری ہوچکی تھی، اور انہوں نے اس وقت توبہ کی جب توبہ ان کو فائدہ نہ پہنچاتی تھی، اور وہ ایسے وقت میں استغفار کرتے تھے جب معافی ممکن نہ تھی۔ اس عبارت میں ابن عباس، مجاہد اور قتادہ کے بیانات نقل کیے گئے ہیں۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=38&tAyahNo=3&tDisplay=yes&UserProfile=0&LanguageId=1

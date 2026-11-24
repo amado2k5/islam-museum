@@ -2,10 +2,17 @@
 id: passage/quran-39-68
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-39-68.md}
 ---
 ## موجز
 الآية 68 من [[passage/quran-39|سورۃ الزمر]]، وہ مکی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 68، سورت کی کل 75 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+اس کا یہ قول، "اور صور پھونکا جائے گا، اور جو لوگ آسمانوں اور زمین پر ہیں سب بے ہوش ہو جائیں گے، سوائے اللہ کے جس کے چاہیں، پھر دوبارہ پھونکا جائے گا، اور وہ فوراً کھڑے ہو کر دیکھ رہے ہوں گے،" بیان کرتا ہے: اسرافیل صور پھونک دے گا۔ ہم نے صور کا مطلب اس کے ثبوت کے ساتھ جو گزر چکا ہے اس میں بیان کیا ہے اور اس کے متعلق علماء کے اختلاف اور اس کے متعلق صحیح قول کو اس کے دلائل کے ساتھ ذکر کیا ہے، اس لیے اس جگہ اس کا اعادہ ضروری نہیں ہے۔ اُس کے بیان، ’’اور جتنے آسمانوں میں ہیں اور جتنے زمین پر ہیں بے ہوش ہو جائیں گے،‘‘ کا مطلب ہے کہ وہ مر جائیں گے۔ یہ صور کے پہلے پھونکنے کے وقت ہوگا جیسا کہ السدی نے اس آیت کے بارے میں کہا ہے کہ "اور صور پھونکا جائے گا، اور جو لوگ آسمانوں میں ہیں اور جو زمین پر ہیں سب بے ہوش ہو جائیں گے،" یعنی وہ مر جائیں گے۔ اس کے اس بیان کے بارے میں، "سوائے جس کو خدا چاہے"، تفسیر کے علما نے اس آیت میں استثنیٰ سے خدا کی مراد کس کے بارے میں اختلاف کیا ہے۔ بعض نے کہا کہ اس میں جبرائیل، میکائیل، اسرافیل اور موت کے فرشتے کا حوالہ دیا گیا ہے۔ اس عبارت میں سعید بن جبیر سے منسوب بیانات کا بھی حوالہ دیا گیا ہے۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=39&tAyahNo=68&tDisplay=yes&UserProfile=0&LanguageId=1

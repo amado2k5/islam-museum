@@ -2,10 +2,17 @@
 id: passage/quran-17-92
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-17-92.md}
 ---
 ## موجز
 الآية 92 من [[passage/quran-17|سورۃ الاسراء]]، وہ مکی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 92، سورت کی کل 111 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+اس کا یہ قول کہ "یا آسمان کو ہم پر ٹکڑے ٹکڑے کر کے گرا دے جیسا کہ آپ نے دعویٰ کیا ہے، یا خدا اور فرشتوں کو ہمارے سامنے لاؤ" اس حقیقت سے واضح ہوتا ہے کہ تلاوت کرنے والوں نے لفظ "ٹکڑوں" کے پڑھنے میں اختلاف کیا۔ کوفہ اور بصرہ کے اکثر قراء نے اسے "س" کے ساتھ پڑھا ہے، جس کا مطلب ہے: "یا آسمان کو ہم پر ٹکڑے ٹکڑے کر دے جیسا کہ آپ نے دعوی کیا ہے۔" اس کی وجہ یہ ہے کہ عربی میں "ٹکڑے" "ٹکڑا" کی جمع ہے جو کہ ایک قسم کے درخت کے لیے بڑی مقدار کی جمع ہے، جس طرح "سدرہ" "سدر" کی جمع ہے اور "تمرہ" تمر کی جمع ہے۔ عربوں سے روایت ہے کہ انہوں نے کہا: مجھے اس کپڑے کا ایک ٹکڑا دو، یعنی اس کا ایک ٹکڑا۔ اسی طرح، یہ کہا جاتا ہے: "وہ ہمارے لیے روٹی کے ٹکڑے لایا،" یعنی روٹی کے ٹکڑے۔ یہ بھی ممکن ہے کہ اگر اسے خاموش "s" کے ساتھ "ٹکڑوں" کے طور پر پڑھا جائے تو یہ "گرنے کا سبب بننا" کا زبانی اسم ہوسکتا ہے۔ جہاں تک لفظ "کساف" ⁦(گناہ پر فتح کے ساتھ)⁩ کا تعلق ہے، اس سے مراد تین سے دس تک کی تعداد ہے۔ ایک کہتا ہے: "ایک کساف،" "تین کساف،" اور اسی طرح دس تک۔ اس آیت میں ابن عباس، مجاہد، قتادہ اور ابن جریج کے بیانات بھی نقل کیے گئے ہیں۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=17&tAyahNo=92&tDisplay=yes&UserProfile=0&LanguageId=1

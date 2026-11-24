@@ -2,10 +2,17 @@
 id: passage/quran-19-51
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-19-51.md}
 ---
 ## موجز
 الآية 51 من [[passage/quran-19|سورۃ مریم]]، وہ مکی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 51، سورت کی کل 98 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+آیت، "اور کتاب میں موسیٰ کا ذکر کرو، بے شک وہ ایک برگزیدہ تھے، اور وہ ایک رسول اور نبی تھے،" اس بات کی وضاحت کرتا ہے کہ خدا، وہ اپنے نبی سے کہتا ہے: "اے محمد، اپنی کتاب میں جو ہم نے تم پر نازل کی ہے، موسی بن عمران کا ذکر کرو اور اپنی قوم سے بیان کرو کہ وہ برگزیدہ تھے۔ تلاوت کرنے والوں نے اس آیت کے پڑھنے میں اختلاف کیا۔ مدینہ اور بصرہ کے اکثر قاریوں اور بعض کوفان نے اسے "درحقیقت وہ ایک برگزیدہ تھا" کے طور پر پڑھا، جس میں "منتخب" کے "l" کا تلفظ کسرہ ⁦(یعنی "مخلص")⁩ کے ساتھ کیا گیا، مطلب یہ ہے کہ اس نے اپنی عبادت صرف خدا کے لیے وقف کی، اس کی وحدانیت کو تسلیم کیا اور اس کے ساتھ کسی کو شریک نہ ٹھہرایا۔ کوفان کے قراء کرام کی اکثریت، عاصم کے علاوہ، اسے پڑھتے ہیں "درحقیقت وہ ایک برگزیدہ تھا"، "چننے والے" کے "l" کے ساتھ فاتحہ ⁦(یعنی "مخلص")⁩ کے ساتھ پڑھا جاتا ہے، یعنی اللہ تعالیٰ نے اپنے پیغام کے لیے موسیٰ کو چنا اور منتخب کیا، اور انہیں ایک بھیجا ہوا نبی بنایا۔ ابو جعفر نے کہا: میرے نزدیک صحیح قول یہ ہے کہ وہ عبادت الٰہی میں مخلص اور اپنے مشن اور رسالت میں مخلص تھے، اس لیے قاری جو بھی نسخہ پڑھے وہ صحیح ہے۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=19&tAyahNo=51&tDisplay=yes&UserProfile=0&LanguageId=1

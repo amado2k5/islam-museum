@@ -2,10 +2,17 @@
 id: passage/quran-24-53
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-24-53.md}
 ---
 ## موجز
 الآية 53 من [[passage/quran-24|سورۃ النور]]، وہ مدنی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 53، سورت کی کل 64 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+وہ اپنے بیان کی وضاحت کرتا ہے: "اور انہوں نے خدا کی سخت قسمیں کھائی تھیں کہ اگر آپ نے انہیں حکم دیا تو وہ ضرور نکلیں گے، کہہ دو قسم نہ کھاؤ، اطاعت معلوم ہے، جو کچھ تم کرتے ہو، اللہ اس سے باخبر ہے۔" وہ کہتا ہے: یہ لوگ جنہوں نے خدا کے فیصلے اور فیصلے سے منہ موڑ لیا تھا، جب وہ خدا کے رسول کی طرف سے سخت ترین بلائے گئے تھے۔ وہ کہتے ہیں: ان کی سب سے پختہ اور مضبوط قسمیں: "اے محمد اگر آپ انہیں اپنے دشمن اور مومنین کے دشمن سے لڑنے کے لیے نکلنے کا حکم دیتے تو وہ ضرور نکل جاتے، آپ کہہ دیجئے کہ قسم نہ کھاؤ، قسم نہ کھاؤ، کیونکہ یہ تم سے "اطاعت معلوم" ہے، جس میں انکار ہے۔ جریج، مجاہد کی روایت سے، اس آیت کے بارے میں: "کہہ دو قسمیں نہ کھاؤ۔ اطاعت معروف ہے۔‘‘ آپ نے فرمایا: تمہاری میری اطاعت معروف ہے اور یہ بھی معلوم ہے کہ تم جھوٹ بولتے ہو، ’’بے شک اللہ تمہارے اعمال سے باخبر ہے۔‘‘ وہ کہتا ہے: تم جو کچھ کرتے ہو اللہ اس سے پوری طرح باخبر ہے، چاہے وہ اللہ اور اس کے رسول کی اطاعت ہو، ان کے احکام کی نافرمانی ہو، یا اس سے متعلق کوئی اور بات اس سے پوشیدہ نہیں ہے، اور وہ تمہیں اس سب کا بدلہ دے گا۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=24&tAyahNo=53&tDisplay=yes&UserProfile=0&LanguageId=1

@@ -2,10 +2,17 @@
 id: passage/quran-19-92
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-19-92.md}
 ---
 ## موجز
 الآية 92 من [[passage/quran-19|سورۃ مریم]]، وہ مکی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 92، سورت کی کل 98 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+الطبری نے آیات 91 تا 93 کے اندر آیت کو ایک حصے کے طور پر پڑھا ہے۔ وہ اپنے اس قول کی وضاحت کرتا ہے، "اور رحمٰن کے لیے بیٹا پیدا کرنا مناسب نہیں ہے": خدا کے لیے بیٹا پیدا کرنا مناسب نہیں ہے، کیونکہ وہ مخلوق کی طرح نہیں ہے، جو خواہشات سے مغلوب اور لذتوں کے ہاتھوں مجبور ہو کر عورتوں سے ہمبستری کرے۔ عورت کے علاوہ کوئی بچہ پیدا نہیں ہوتا، اور خدا اپنی مخلوق کی طرح بلند و بالا ہے۔ یہ ابن احمر کے قول کی طرح ہے: "بلند چوٹی کی چوٹی پر، اس کے نیچے کوئی میدان یا پہاڑ نہیں ہے۔" معنی: یہ مناسب نہیں ہے اور نہ ہی ممکن ہے۔ ’’آسمانوں اور زمین میں کوئی نہیں مگر یہ کہ وہ رحمٰن کے پاس بندہ بن کر آئے گا۔‘‘ اس کا مطلب یہ ہے کہ تمام آسمان والے، بشمول فرشتے، اور زمین پر، بشمول انسان، جن، رحمٰن کے پاس بندے کے طور پر آئیں گے۔ اس کا مطلب یہ ہے کہ وہ قیامت کے دن اپنے رب کے پاس اس کے بندوں کے طور پر حاضر ہوں گے، عاجزی اور مطیع، اس کی بندگی کو تسلیم کرتے ہوئے، ان کے درمیان کوئی رشتہ داری نہیں ہوگی۔ جملہ "رحمٰن کے پاس آنا" فعل "آنا" کا فعال حصہ ہے جس کا مطلب ہے "میں اس کے پاس آتا ہوں۔"
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=19&tAyahNo=92&tDisplay=yes&UserProfile=0&LanguageId=1

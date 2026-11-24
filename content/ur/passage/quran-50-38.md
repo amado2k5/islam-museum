@@ -2,10 +2,17 @@
 id: passage/quran-50-38
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-50-38.md}
 ---
 ## موجز
 الآية 38 من [[passage/quran-50|سورۃ ق]]، وہ مکی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 38، سورت کی کل 45 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+وہ اپنے بیان کی وضاحت کرتا ہے: "اور یقیناً ہم نے آسمانوں اور زمین کو اور جو کچھ ان کے درمیان ہے چھ دنوں میں پیدا کیا ہے، اور ہمیں کوئی تھکن نہیں چھوئی۔": یقیناً ہم نے ساتوں آسمان اور زمین اور جو کچھ ان کے درمیان ہے چھ دنوں میں پیدا کیا، اور ہمیں کوئی تھکن نہیں چھوئی۔ نیز: ابو سنان سے روایت ہے کہ ابو بکر ہ سے مروی ہے کہ: یہودی نبی کے پاس آئے اور کہا: اے محمد، خدا نے زمین کو اتوار اور پیر کو پیدا کیا، اور اس نے منگل کو پہاڑ بنائے، اور اس نے شہر، رزق، دریا، ان کی رہائش اور ان کی بربادی بدھ کے دن پیدا کی، اور اس نے آسمانوں اور فرشتوں کو جمعہ کے دن پیدا کیا، اس نے جمعہ کے دن تین گھڑیوں اور فرشتوں کو پہلی زندگی میں پیدا کیا۔ ان تین گھنٹوں میں سے دوسرے میں آفت اور تیسرے میں آدم۔ انہوں نے کہا کہ اگر تم نے اسے مکمل کیا تو تم ٹھیک کہتے ہو۔ تو نبی جان گئے کہ ان کا کیا مطلب ہے، اور وہ ناراض ہو گئے، اور خدا نے نازل کیا، "اور ہمیں آسمانوں اور زمین میں سے کسی چیز نے چھوا نہیں"۔ لغوب، لہذا ایم کے ساتھ صبر کرو۔ یہ حوالہ ابن عباس، مجاہد، قتادہ، ابن زید اور سفیان کے اقوال کا حوالہ دیتا ہے۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=50&tAyahNo=38&tDisplay=yes&UserProfile=0&LanguageId=1

@@ -2,10 +2,17 @@
 id: passage/quran-76-10
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-76-10.md}
 ---
 ## موجز
 الآية 10 من [[passage/quran-76|سورۃ الانسان]]، وہ مدنی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 10، سورت کی کل 31 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+الطبری آیات 10-11 کے اندر آیت کو ایک حصے کے طور پر پڑھتا ہے۔ وہ ان الفاظ کی تشریح کرتا ہے، "بے شک، ہم اپنے رب سے ایک ایسے دن سے ڈرتے ہیں جو سخت اور سخت ہے": اللہ تعالیٰ ہمیں ان لوگوں کے بارے میں بتاتا ہے، جن کی خصوصیات اس نے بیان کی ہیں، وہ ان لوگوں سے کہتے ہیں جنہیں وہ غریبوں اور مسکینوں میں سے کھانا کھلاتے ہیں: "ہم تمہیں اپنے کھانے کے بدلے یا شکر گزاری کے لیے نہیں کھلاتے ہیں، بلکہ ہم تمہیں اس امید پر کھلاتے ہیں کہ ہمارا رب اس کے بڑے عذاب اور عذاب سے ہماری حفاظت کرے گا۔ ایک آفت، جس دن اس کی سختیوں کی شدت سے چہرے جھک جائیں گے، اور اس کے لوگوں کی مصیبتیں طویل اور شدید ہوں گی۔" یہاں "شدید" کا مطلب شدید ہے۔ یہ کہا جاتا ہے، "یہ ایک سخت دن ہے،" یا "بڑی مشکل کا دن،" یا "ایک مشکل دن"۔ اور یہ بہت گرم تھا، اور آج بہت گرمی تھی، اور وہ سختی اور سختی کے لحاظ سے سب سے شدید اور طویل ترین دن تھا۔ ان میں سے بعض کا یہ قول ہے کہ اے ہمارے چچا کے بیٹو، کیا تمہیں یاد ہے کہ ہم نے تم پر کیا تھا جب وہ سخت گرمی کا دن تھا؟ اور اس عبارت میں ابن عباس، مجاہد، قتادہ اور سفیان سے اقوال منقول ہیں۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=76&tAyahNo=10&tDisplay=yes&UserProfile=0&LanguageId=1

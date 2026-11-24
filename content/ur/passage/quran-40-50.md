@@ -2,10 +2,17 @@
 id: passage/quran-40-50
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-40-50.md}
 ---
 ## موجز
 الآية 50 من [[passage/quran-40|سورۃ غافر]]، وہ مکی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 50، سورت کی کل 85 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+الطبری نے آیات 49-50 کے اندر آیت کو ایک حصے کے طور پر پڑھا ہے۔ وہ اس الفاظ کی تشریح کرتے ہیں، "وہ کہیں گے، 'کیا تمہارے پاس تمہارے رسول واضح دلیلیں لے کر نہیں آئے تھے؟' وہ کہیں گے، 'ہاں'، وہ کہیں گے، 'تو پھر [خدا کو] پکارو، لیکن کافروں کی دعا گمراہی کے سوا کچھ نہیں ہے۔" جہنم کے داروغے ان سے کہیں گے، "کیا تمہارے پاس تمہارے پیغمبر اس دنیا میں خدا کی روشن دلیل کے ساتھ نہیں آئے تھے؟ کیا آپ اس کی وحدانیت کو تسلیم کر سکتے ہیں، اس پر یقین رکھتے ہیں، اور دیگر تمام دیوتاؤں سے انکار کر سکتے ہیں؟ وہ جواب دیں گے کہ ہاں، ہمارے پاس ہمارے رسول اسی کو لے کر آئے تھے۔ اور یہ الفاظ، "وہ کہیں گے، 'پھر [خدا کو] پکارو،"" کا مطلب یہ ہے کہ جہنم کے داروغے ان سے کہیں گے، "تو پھر اپنے رب کو پکارو، جس کی طرف رسول تمہیں اس پر ایمان لانے کے لیے بلاتے آئے تھے۔" اور اس کا فرمان ہے: "اور کافروں کی دعا گمراہی کے سوا کچھ نہیں ہے" کا مطلب ہے: انہوں نے دعا کی ہے لیکن ان کی دعا گمراہی کے سوا کچھ نہیں ہے، کیونکہ یہ ایسی دعا ہے جو ان کو فائدہ نہیں دیتی اور نہ ہی ان کے لیے قبول ہوتی ہے۔ بلکہ ان سے کہا جاتا ہے کہ ’’اس میں دھکیلے جاؤ اور مجھ سے بات نہ کرو‘‘۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=40&tAyahNo=50&tDisplay=yes&UserProfile=0&LanguageId=1

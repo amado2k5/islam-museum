@@ -2,10 +2,17 @@
 id: passage/quran-24-11
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-24-11.md}
 ---
 ## موجز
 الآية 11 من [[passage/quran-24|سورۃ النور]]، وہ مدنی سورت ہے۔ {cite:tanzil-quran} اہل علم کے نزدیک اس کا نزول [[event/incident-of-the-slander|واقعۂ افک]] سے جڑا ہے۔
 
 ## موضعها
 موضعها: آیت 11، سورت کی کل 64 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+ان کا یہ فرمان، "بے شک غیبت کرنے والے تم میں سے ایک گروہ ہیں، اسے اپنے لیے برا نہ سمجھو، بلکہ یہ تمہارے لیے اچھا ہے، ان میں سے ہر شخص کے لیے وہ ہے جو اس نے گناہ میں کمایا، اور جس نے اس کا زیادہ حصہ اپنے اوپر لے لیا، اس کے لیے بہت بڑا عذاب ہے،" وضاحت کرتا ہے کہ جھوٹ اور بہتان لانے والے تم میں سے ایک گروہ ہیں۔ فرمایا: اے لوگو تم میں سے ایک گروہ۔ ’’اسے اپنے لیے برا نہ سمجھو، بلکہ یہ تمہارے لیے اچھا ہے۔‘‘ اس کا مطلب ہے: یہ مت سمجھو کہ وہ جو بہتان پھیلا رہے ہیں وہ خدا اور لوگوں کے نزدیک تمہارے لیے برا ہے۔ بلکہ اس کی نظر میں اور مومنین کی نظر میں تمہارے لیے اچھا ہے۔ اس کی وجہ یہ ہے کہ خدا اسے جھوٹے الزام لگانے والے کے لئے کفارہ بناتا ہے، اس کی بے گناہی کو ظاہر کرتا ہے جس کا اس پر الزام لگایا گیا تھا، اور اسے نکلنے کا راستہ فراہم کرتا ہے۔ یہ بھی کہا گیا ہے کہ جن کے بارے میں اللہ تعالیٰ نے اپنے اس فرمان سے مراد لیا ہے کہ "غیبت کرنے والے تم میں سے ایک گروہ ہیں" ان میں حسان بن ثابت، مستح بن عتثہ اور حمنہ بنت جحش بھی شامل تھے۔ اس عبارت میں ابن عباس، مجاہد اور ابن زید کے بیانات بھی نقل کیے گئے ہیں۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=24&tAyahNo=11&tDisplay=yes&UserProfile=0&LanguageId=1

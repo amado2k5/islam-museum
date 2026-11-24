@@ -2,10 +2,17 @@
 id: passage/quran-21-40
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-21-40.md}
 ---
 ## موجز
 الآية 40 من [[passage/quran-21|سورۃ الانبیاء]]، وہ مکی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 40، سورت کی کل 112 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+ان کا یہ قول کہ ’’بلکہ یہ ان پر اچانک آئے گی اور انہیں الجھائے گی، اور وہ اسے نہ ٹال سکیں گے اور نہ ہی انہیں مہلت دی جائے گی‘‘ اس بات کی وضاحت کرتا ہے کہ یہ آگ جو ان کافروں کے چہروں کو جھلسائے گی جن کا انجام اس باب میں بیان کیا گیا ہے، اپنے وقت کے پیشگی علم کے ساتھ ان کے پاس نہیں آئے گی۔ بلکہ، یہ ان پر غیر متوقع طور پر آئے گا، بغیر اس کے کہ وہ اس کے نقطہ نظر سے آگاہ ہیں۔ ’’اور ان کو الجھاؤ‘‘ کا مطلب یہ ہے کہ یہ اچانک ان پر مغلوب ہو جائے گا اور ان کے چہروں کو اس طرح جھلسا دے گا جو فوراً ظاہر ہو جائے گا، جیسے ایک آدمی جو کسی چیز سے چونکا ہو، اور حیران ہونے والے کو اس طرح چھوڑ دے گا جیسے حیران ہو جائے۔ "اور وہ اسے پیچھے نہیں ہٹا سکیں گے" کا مطلب یہ ہے کہ جب یہ اچانک اور انہیں الجھائے گا تو وہ اپنے دفاع کے لیے بے بس ہو جائیں گے۔ ’’نہ انہیں مہلت دی جائے گی۔‘‘ وہ کہتا ہے: اور نہ ہی انہیں، خواہ وہ اسے اپنے آپ سے دور نہ کر سکیں، اس کی سزا سے توبہ کرنے اور خدا کی طرف رجوع کرنے کی مہلت دی جائے گی، کیونکہ یہ عمل کا وقت اور توبہ اور خدا کی طرف رجوع کرنے کا وقت نہیں ہے، بلکہ اجر و ثواب کی گھڑی ہے۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=21&tAyahNo=40&tDisplay=yes&UserProfile=0&LanguageId=1

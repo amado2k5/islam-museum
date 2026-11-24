@@ -2,10 +2,17 @@
 id: passage/quran-16-60
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-16-60.md}
 ---
 ## موجز
 الآية 60 من [[passage/quran-16|سورۃ النحل]]، وہ مکی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 60، سورت کی کل 128 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+ان کا یہ فرمان، "جو لوگ آخرت پر ایمان نہیں رکھتے ان کے لیے بدترین مثال ہے، اور اللہ ہی کے لیے سب سے اعلیٰ نمونہ ہے، اور وہ غالب، حکمت والا ہے،" بیان کرتا ہے کہ یہ اللہ تعالیٰ کی طرف سے بیان ہے، اس کی حمد و ثنا ہے، اس کا یہ فرمان، "اور جب ان میں سے کسی کو لڑکی کی بشارت دی جاتی ہے، تو اس کے چہرے پر سیاہی چھا جاتی ہے۔ اس کی پیروی کرنا، یہ مثال ہے جو اللہ نے ان مشرکوں کے لیے دی ہے جو اللہ کے لیے بیٹیاں منسوب کرتے ہیں۔ اس نے اپنے اس بیان سے واضح کیا کہ "جو لوگ آخرت پر ایمان نہیں رکھتے ان کے لیے بدترین مثال ہے" کہ یہ ایک تمثیل ہے، اور اس کے بیان سے اس کی حمد و ثنا کی جائے، "ان کے لیے جو ایمان نہیں لاتے،" اس کا مطلب تھا... "آخرت میں" ان مشرکوں کے لیے جو قیامت، جزا اور سزا پر یقین نہیں رکھتے، مثال کے طور پر بدی کے لیے ایک مثال ہے، جس کا مطلب یہ ہے کہ بدی کی مثال ہے۔ جسے دیا جاتا ہے. "اور سب سے اعلیٰ صفت اللہ ہی کی ہے" یعنی: اللہ ہی کی سب سے اعلیٰ صفت ہے، جو سب سے اچھی، پاکیزہ، خوبصورت اور کامل صفت ہے۔ یہ خدا کی وحدانیت اور اس کے آگے سر تسلیم خم کرنا ہے کہ اس کے سوا کوئی معبود نہیں۔ اس عبارت میں قتادہ سے منسوب بیانات کا بھی حوالہ دیا گیا ہے۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=16&tAyahNo=60&tDisplay=yes&UserProfile=0&LanguageId=1

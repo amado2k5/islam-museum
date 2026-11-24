@@ -2,10 +2,17 @@
 id: passage/quran-35-9
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-35-9.md}
 ---
 ## موجز
 الآية 9 من [[passage/quran-35|سورۃ فاطر]]، وہ مکی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 9، سورت کی کل 45 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+اس کا بیان، "اور اللہ ہی ہے جو ہواؤں کو بھیجتا ہے، اور وہ بادلوں کو اٹھاتی ہیں، اور ہم انہیں مردہ زمین کی طرف لے جاتے ہیں اور اس کے ذریعے زمین کو اس کے بے جان ہونے کے بعد زندہ کرتے ہیں، اسی طرح قیامت ہے،" وضاحت کرتا ہے: اللہ ہی ہواؤں کو بھیجتا ہے، اور وہ بادلوں کو زندگی اور بارش کے لیے اٹھاتی ہیں۔ "اور ہم انہیں مردہ زمین کی طرف لے جاتے ہیں" یعنی: ہم انہیں ایک بنجر زمین کی طرف لے جاتے ہیں، ایک ویران جگہ، جس میں کوئی سبزہ اور فصل نہیں ہے۔ ’’اور ہم اس سے زمین کو اس کے بے جان ہونے کے بعد زندگی بخشتے ہیں‘‘ یعنی ہم ان بادلوں کی بارش سے اس زمین کو زرخیز بناتے ہیں جس کی طرف ہم ان کو اس کے بنجر ہونے کے بعد لے جاتے ہیں اور خشک سالی کے بعد اس میں فصلیں اگاتے ہیں۔ ’’اسی طرح قیامت ہے،‘‘ اعلیٰ ترین فرماتا ہے۔ اس نے ذکر کیا: اس طرح اللہ تعالیٰ مردوں کو ان کی قبروں میں ان کے بوسیدہ ہونے کے بعد زندہ کرتا ہے، ان کے فنا ہونے کے بعد انہیں دوبارہ زندہ کرتا ہے، جس طرح اس نے اس زمین کو اس کی موت کے بعد بارش سے زندہ کیا۔ اس عبارت میں قتادہ سے منسوب بیانات کا بھی حوالہ دیا گیا ہے۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=35&tAyahNo=9&tDisplay=yes&UserProfile=0&LanguageId=1

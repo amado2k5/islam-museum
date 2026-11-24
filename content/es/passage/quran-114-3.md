@@ -2,11 +2,17 @@
 id: passage/quran-114-3
 lang: es
 source_lang: en
-translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
-provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate documents, managed by Claude Code)', model: google-translate, run: gt-docs-es-2026-11-19, source: content/en/passage/quran-114-3.md}
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-es-2026-11-24, source: content/ar/passage/quran-114-3.md}
 ---
 ## Resumen
 Versículo 3 de [[passage/quran-114|Surat an-Nas]], una sura de La Meca. {cite:tanzil-quran}
 
 ## Lugar en el museo
 Su ubicación: versículo 3 de 6 versículos en la sura. El texto se conserva en el Mushaf congelado de Tanzil y no se reproduce aquí.
+
+## En el comentario de al-Tabari
+
+Al-Tabari lee el versículo comprendido entre los versículos 3 y 8 como una sola sección. Interpreta las palabras «Di: “Busco refugio en el Señor de la humanidad”» como: «Di, oh Muhammad, busco refugio en “el Señor de la humanidad, el Rey de la humanidad”, que es el Rey de toda la creación: humanos, genios y todo lo demás». Esto es para informar a quienes veneran a las personas como los creyentes veneran a su Señor, que Él es el Rey de quienes lo veneran, que esto está dentro de su dominio y autoridad, que su poder se ejerce sobre ellos, y que Él es más digno de veneración y adoración que quienes lo veneran y adoran entre otras personas. Luego cita en esta sección declaraciones de Ibn Abbas, Mujahid, Qatadah, Sa'id ibn Jubayr, Ibn Zayd y Sufyan.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=114&tAyahNo=3&tDisplay=yes&UserProfile=0&LanguageId=1

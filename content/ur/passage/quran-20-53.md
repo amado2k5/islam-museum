@@ -2,10 +2,17 @@
 id: passage/quran-20-53
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-20-53.md}
 ---
 ## موجز
 الآية 53 من [[passage/quran-20|سورۃ طٰہ]]، وہ مکی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 53، سورت کی کل 135 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+اس کا یہ قول کہ ’’جس نے تمہارے لیے زمین کو بچھونا بنایا اور اس میں تمہارے لیے راستے بنائے اور آسمان سے بارش برسائی اور اس سے مختلف پودوں کے جوڑے پیدا کیے،‘‘ اس کی وضاحت درج ذیل ہے: ’’بستر‘‘ کے لفظ کے پڑھنے میں مفسرین کا اختلاف ہے۔ مدینہ اور بصرہ کے اکثر قراء نے اسے "وہ جس نے تمہارے لیے زمین کو بچھونا بنایا" کے طور پر پڑھا، "بستر" میں "م" کو کسرہ ⁦(مختصر i آواز)⁩ کے ساتھ اور "ح" کے بعد الف کا اضافہ کیا گیا۔ پورے قرآن کو اس طرح پڑھتے ہیں۔ اس پڑھنے کا انتخاب کرنے والے کچھ لوگوں نے دعویٰ کیا کہ انہوں نے ایسا اس لیے کیا کیونکہ "بستر" جگہ کا اسم ہے، جبکہ "جھولا" فعل ہے، جو "فرنشننگ" اور "بیڈ" کی طرح ہے۔ کوفان کے قاریوں کا عام پڑھنا ہے: "مہدان"، یعنی: وہ جس نے تمہارے لیے زمین تیار کی۔ صحیح قول یہ ہے کہ بڑے شہروں کے قراء کرام میں دونوں قراءتیں مقبول اور معروف ہیں اور قاری جو بھی پڑھے وہ صحیح ہے۔ اس کے اس قول، ’’اور اس نے تمہارے لیے اس میں راستے بنائے،‘‘ کا مطلب ہے: اس نے تمہارے لیے زمین پر راستے بنائے۔ اس عبارت میں ابن عباس اور قتادہ سے منسوب بیانات بھی شامل ہیں۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=20&tAyahNo=53&tDisplay=yes&UserProfile=0&LanguageId=1

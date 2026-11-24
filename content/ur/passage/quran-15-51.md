@@ -2,10 +2,17 @@
 id: passage/quran-15-51
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-15-51.md}
 ---
 ## موجز
 الآية 51 من [[passage/quran-15|سورۃ الحجر]]، وہ مکی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 51، سورت کی کل 99 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+الطبری نے آیات 51-53 کو ایک ہی حوالے کے طور پر پڑھا: "اور انہیں ابراہیم کے مہمانوں کے بارے میں بتاؤ۔" اے محمدؐ، میرے بندوں کو ابراہیم کے مہمانوں کے بارے میں بتاؤ، جو فرشتے تھے جو ابراہیم کے دوست رحمن کے پاس آئے تھے، جب ان کے رب نے انہیں قوم لوط کی طرف بھیجا تھا کہ انہیں ہلاک کر دیں۔ "جب وہ اس کے پاس داخل ہوئے اور کہا، 'سلام'": مہمانوں نے ابراہیم سے کہا، "سلام۔" "اس نے کہا، 'یقینا، ہم تم سے ڈرتے ہیں'": ابراہیم نے کہا، "بے شک ہم تم سے ڈرتے ہیں۔" اس نے پہلے ہی "امن" کے الزام کی وجہ اور ابراہیم کے خوف کی وجہ کے ساتھ ساتھ مختلف آراء کی وضاحت کی ہے، اور صحیح پڑھنے کے لئے ثبوت فراہم کیا ہے. یہ قابل ذکر ہے کہ "انہوں نے کہا، 'امن'" مہمانوں کے لیے جمع کا استعمال کرتا ہے، حالانکہ وہ سب ایک ہی لفظ میں ہیں، کیونکہ "مہمان" ایک اسم ہے جو ایک، دو، یا بہت سے، جیسے "وزن،" "ڈراپ" اور "انصاف" کا حوالہ دے سکتا ہے۔ "انہوں نے کہا ڈرو مت، ہم تمہیں ایک پڑھے لکھے لڑکے کی بشارت دیتے ہیں": مت ڈرو۔ بے شک ہم تمہیں ایک پڑھے لکھے لڑکے کی بشارت دیتے ہیں۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=15&tAyahNo=51&tDisplay=yes&UserProfile=0&LanguageId=1

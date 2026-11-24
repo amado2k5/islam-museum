@@ -2,10 +2,17 @@
 id: passage/quran-16-53
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-16-53.md}
 ---
 ## موجز
 الآية 53 من [[passage/quran-16|سورۃ النحل]]، وہ مکی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 53، سورت کی کل 128 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+’’اور جو بھی نعمت تمہارے پاس ہے وہ اللہ کی طرف سے ہے، پھر جب تمہیں کوئی تکلیف پہنچتی ہے تو تم اسی سے مدد کے لیے پکارتے ہو‘‘ کی وضاحت اس طرح کی گئی ہے: عربی کے علماء کا اس جملے میں ’’ف‘‘ ⁦(پھر)⁩ کے استعمال کی وجہ کے بارے میں اختلاف ہے۔ بصری گرامر کے بعض ماہرین نے کہا کہ "فا" استعمال کیا گیا تھا کیونکہ "ما" ⁦(کیا)⁩ "انسان" ⁦(کون)⁩ کے برابر ہے، اس طرح پیشین گوئی کو "فا" پر منحصر کرتا ہے۔ بعض کوفان گرامر نے کہا کہ "ما" ایک مشروط شق کا مفہوم رکھتا ہے اور اس کا مفعول فعل ہے، گویا آپ نے فرمایا ہے، "جو نعمت آپ کو ہے وہ اللہ کی طرف سے ہے"، کیونکہ مشروط شق کا فعل متضاد مزاج میں ہونا چاہیے۔ اگر یہ واضح طور پر بیان کیا جائے تو یہ جوسیو موڈ میں ہے۔ اگر ایسا نہیں ہے تو اس کا مطلب ہے، جیسا کہ شاعر نے کہا: ’’درحقیقت حکمت ہماری دولت میں ہے، ہم اسے بوجھل نہیں سمجھتے، اور اگر صبر کی ضرورت ہے تو ہم صبر کو جانتے ہیں۔‘‘ اُنہوں نے کہا کہ اُس کا مطلب تھا، ’’اگر حکمت درکار ہے،‘‘ اور اُس نے اِس کا مطلب کیا۔ اس عبارت میں ابن عباس، مجاہد اور ابن جریج کے اقوال نقل کیے گئے ہیں۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=16&tAyahNo=53&tDisplay=yes&UserProfile=0&LanguageId=1

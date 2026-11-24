@@ -2,10 +2,17 @@
 id: passage/quran-37-62
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-37-62.md}
 ---
 ## موجز
 الآية 62 من [[passage/quran-37|سورۃ الصافات]]، وہ مکی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 62، سورت کی کل 182 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+الطبری آیات 62 تا 66 کے اندر آیت کو ایک حصے کے طور پر پڑھتا ہے۔ وہ ان الفاظ کی تشریح کرتا ہے، "کیا یہ بہتر رہائش ہے یا زقم کا درخت؟": کیا میں نے ان مومنوں کو جو کچھ دیا ہے، جن کی خوبیاں میں نے بیان کی ہیں، جنت میں میری نعمت ہے، اور جو نعمت میں نے انہیں وہاں فراہم کی ہے، وہ بہتر ہے، یا جو میں نے اہلِ زقم کے لیے تیار کیا ہے؟ یہاں لفظ "رہائش" کا مطلب ہے "احسان" اور اس کی دو صورتیں ہیں: "نزول" اور "نزل"۔ یہ کھانے کے بارے میں کہا جاتا ہے جو منافع بخشتا ہے: "یہ کھانا ہے جو منافع بخشتا ہے." "یا زقوم کا درخت" کے جملہ کے بارے میں وہ ذکر کرتے ہیں کہ جب اللہ تعالیٰ نے یہ آیت نازل کی تو مشرکین نے کہا: جب آگ درختوں کو جلاتی ہے تو جہنم میں درخت کیسے اگ سکتے ہیں؟ پھر اللہ تعالیٰ نے فرمایا، ’’بے شک ہم نے اسے ظالموں کے لیے آزمائش بنا دیا ہے،‘‘ یعنی ان مشرکوں کے لیے جنہوں نے اس کے بارے میں جو کچھ کہا، وہی کہا۔ پھر آپ نے انہیں اس درخت کی نوعیت سے آگاہ کرتے ہوئے فرمایا کہ یہ ایک درخت ہے جو جہنم کی تہہ میں اگتا ہے۔ اس آیت میں مجاہد اور قتادہ کے بیانات بھی نقل کیے گئے ہیں۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=37&tAyahNo=62&tDisplay=yes&UserProfile=0&LanguageId=1

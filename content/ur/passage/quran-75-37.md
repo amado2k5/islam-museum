@@ -2,10 +2,17 @@
 id: passage/quran-75-37
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-75-37.md}
 ---
 ## موجز
 الآية 37 من [[passage/quran-75|سورۃ القیامہ]]، وہ مکی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 37، سورت کی کل 40 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+الطبری آیات 37 سے 40 تک کی آیت کو ایک اکائی کے طور پر پڑھتا ہے۔ وہ اس جملے کی وضاحت کرتا ہے، "کیا وہ منی کا ایک قطرہ نہیں نکلا تھا؟" مندرجہ ذیل ہے: کیا یہ منکر خدا کی قدرت نہیں تھی کہ اس کی موت کے بعد اسے دوبارہ زندہ کرے اور اس کے فنا ہونے کے بعد اسے دوبارہ وجود میں لائے؟ "منی کا ایک قطرہ" کا مطلب ہے آدمی کی کمر میں پانی کی تھوڑی سی مقدار۔ تلاوت کرنے والوں نے لفظ "خارج" کو پڑھنے میں اختلاف کیا۔ مدینہ اور کوفہ کے اکثر قراء نے اسے "خارج شدہ" ⁦("ت" کے ساتھ)⁩ پڑھا ہے، جس کا مطلب ہے "نطفہ خارج ہوا"۔ مکہ اور بصرہ کے بعض قراء نے اسے "خارج" ⁦(ایک "ی" کے ساتھ)⁩ کے طور پر پڑھا ہے، جس کا مطلب ہے "منی خارج ہوا"۔ صحیح قول یہ ہے کہ دونوں قراءت معروف ہیں اور ایک ہی معنی رکھتی ہیں، لہٰذا قاری جو بھی پڑھے وہ صحیح ہے۔ اور اس کے اس قول: "پھر وہ ایک لوتھڑا تھا" کا مطلب یہ ہے کہ خدا تعالیٰ فرماتا ہے: پھر وہ نطفہ ہونے کے بعد خون تھا، پھر لوتھڑا تھا، پھر اس کو بولنے، سننے اور دیکھنے والا مکمل انسان بنا دیا۔ اور اس آیت میں قتادہ کے اقوال نقل کیے ہیں۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=75&tAyahNo=37&tDisplay=yes&UserProfile=0&LanguageId=1

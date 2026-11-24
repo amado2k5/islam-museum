@@ -2,10 +2,17 @@
 id: passage/quran-85-21
 lang: en
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-en-2026-11-24, source: content/ar/passage/quran-85-21.md}
 ---
 ## Summary
 Verse 21 of [[passage/quran-85|Surat al-Buruj]], a Meccan surah. {cite:tanzil-quran}
 
 ## Place in the museum
 Its place: verse 21 of 22 verses in the surah. The text is kept in the frozen Tanzil mushaf and is not retyped here.
+
+## Al-Tabari's commentary
+
+Al-Tabari reads the verse within verses 19 to 22 as a single section. He explains His statement, “Nay, it is a glorious Qur’an,” saying: He, may His praise be exalted, is refuting those who say the Qur’an is poetry and rhymed prose: It is not so, rather it is a noble Qur’an. And on the authority of Qatadah, regarding “Nay, it is a glorious Qur’an,” he says: A noble Qur’an. On the authority of Ash’ath ibn Ishaq, on the authority of Ja’far, on the authority of Sa’id, regarding His statement, “Nay, it is a glorious Qur’an,” he said: Noble. And he quotes in the section statements from Mujahid and Qatadah.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=85&tAyahNo=21&tDisplay=yes&UserProfile=0&LanguageId=1

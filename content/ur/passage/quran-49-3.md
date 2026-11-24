@@ -2,10 +2,17 @@
 id: passage/quran-49-3
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-49-3.md}
 ---
 ## موجز
 الآية 3 من [[passage/quran-49|سورۃ الحجرات]]، وہ مدنی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 3، سورت کی کل 18 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+اس کا یہ قول، "درحقیقت وہ لوگ ہیں جو اللہ کے رسول کے سامنے اپنی آوازیں پست رکھتے ہیں، یہ وہ لوگ ہیں جن کے دلوں کو اللہ نے تقویٰ کے لیے آزمایا ہے، ان کے لیے بخشش اور بڑا اجر ہے،" اس بات کی وضاحت کرتا ہے کہ جو لوگ اللہ کے رسول کے سامنے آواز بلند کرنے سے گریز کرتے ہیں، اور پست کرنے کی اصل وجہ نرمی سے پرہیز کرنا ہے۔ اور اس سے نگاہوں کا نیچا ہونا آتا ہے جو دیکھنے سے پرہیز کرتی ہے، جیسا کہ جریر نے کہا: اپنی نگاہیں نیچی رکھو، کیونکہ تم نمیر سے ہو، تم نہ کعب کے درجے پر پہنچے ہو اور نہ کلاب کے۔ اور اس کا یہ فرمان: "وہ وہ لوگ ہیں جن کے دلوں کو خدا نے تقویٰ کے لئے آزمایا ہے" خدا تعالیٰ فرماتا ہے: یہ وہ لوگ ہیں جو خدا کے رسول کے سامنے اپنی آواز کو پست رکھتے ہیں وہ لوگ ہیں جن کے دلوں کو خدا نے جانچ کر جانچا ہے اور اس نے انہیں چن لیا ہے اور انہیں تقویٰ کے لئے پاک کیا ہے، یعنی اس کی اطاعت کے ذریعہ اس سے ڈرنا اور اس سے بچنا اس کی نیکی ہے، اس طرح اس کی آگ سے بچنا نیکی ہے۔ اور اس کی نجاست دور ہو جاتی ہے۔ اور حوالہ میں مجاہد اور قتادہ کے اقوال نقل کیے گئے ہیں۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=49&tAyahNo=3&tDisplay=yes&UserProfile=0&LanguageId=1

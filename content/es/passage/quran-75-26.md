@@ -2,11 +2,17 @@
 id: passage/quran-75-26
 lang: es
 source_lang: en
-translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
-provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate documents, managed by Claude Code)', model: google-translate, run: gt-docs-es-2026-11-19, source: content/en/passage/quran-75-26.md}
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-es-2026-11-24, source: content/ar/passage/quran-75-26.md}
 ---
 ## Resumen
 Versículo 26 de [[passage/quran-75|Surat al-Qiyama]], una sura de La Meca. {cite:tanzil-quran}
 
 ## Lugar en el museo
 Su ubicación: versículo 26 de 40 versículos en la sura. El texto se conserva en el Mushaf congelado de Tanzil y no se reproduce aquí.
+
+## En el comentario de al-Tabari
+
+Al-Tabari interpreta los versículos 26 al 30 como una sola sección. Interpreta la frase «No, cuando el alma llegue a las clavículas»: La cuestión no es como piensan estos politeístas, que no serán castigados por su politeísmo y desobediencia a su Señor. Más bien, cuando el alma de uno de ellos llegue a las clavículas en el momento de la muerte y resuene en la garganta, será castigado. Ibn Zayd dijo, con respecto a la declaración de Dios «No, cuando el alma llegue a las clavículas», que las clavículas se refieren al alma. Ibn Zayd también cita en esta sección declaraciones de Ibn Abbas, Qatadah, al-Dahhak, Ibn Zayd, Simak y Sufyan.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=75&tAyahNo=26&tDisplay=yes&UserProfile=0&LanguageId=1

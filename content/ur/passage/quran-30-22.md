@@ -2,10 +2,17 @@
 id: passage/quran-30-22
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-30-22.md}
 ---
 ## موجز
 الآية 22 من [[passage/quran-30|سورۃ الروم]]، وہ مکی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 22، سورت کی کل 60 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+اس کا بیان ہے کہ "اور اس کی نشانیوں میں سے آسمانوں اور زمین کی تخلیق اور تمہاری زبانوں اور تمہارے رنگوں کا تنوع ہے، یقیناً اس میں علم والوں کے لیے نشانیاں ہیں،" بیان کرتے ہیں: اس کے دلائل اور شواہد میں سے کوئی چیز اس کی طاقت سے باہر نہیں ہے، اور یہ کہ اگر وہ چاہے تو اپنی مخلوقات میں سے کسی کو جو زندہ ہے اسے موت دے سکتا ہے، اور پھر اگر وہ ان کو دوبارہ زندہ کر سکتا ہے تو اسے دوبارہ زندہ کر سکتا ہے۔ مرنا، آسمانوں اور زمین کی اس کی تخلیق کسی بھی چیز سے ہے جسے اس نے وجود میں نہیں لایا، بلکہ اس کی قدرت سے، جسے وہ چاہے کوئی چیز کرنے سے نہیں روک سکتی۔ "اور آپ کی زبانوں کا تنوع" کا مطلب ہے: آپ کی زبانوں اور ان کی زبانوں کی تقریر کا تنوع۔ "اور آپ کے رنگ" کا مطلب ہے: آپ کے جسم کے رنگوں کا تنوع۔ ’’بے شک اس میں علم والوں کے لیے نشانیاں ہیں‘‘ کا مطلب ہے: اس کے ایسا کرنے میں اس کی مخلوق کے لیے عبرت اور دلائل ہیں۔ جو لوگ یہ سمجھتے ہیں کہ ان کی موت سے پہلے، ان کے فنا ہونے کے بعد انہیں اس صورت میں بحال کرنا اس کے لیے کوئی عیب نہیں ہے۔ "دو جہان" کے معنی ہم پہلے بیان کر چکے ہیں۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=30&tAyahNo=22&tDisplay=yes&UserProfile=0&LanguageId=1

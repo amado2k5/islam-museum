@@ -2,12 +2,8 @@
 id: passage/quran-14-30
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
-provenance:
-  generated_by: "Claude Code (Haiku 5.5 session)"
-  model: claude-haiku-5-5
-  run: altafsir-tabari-batch-1-2026-11-23
-  source: source/altafsir-tabari
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-14-30.md}
 ---
 ## موجز
 الآية 30 من [[passage/quran-14|سورۃ ابراہیم]]، وہ مکی سورت ہے۔ {cite:tanzil-quran}
@@ -17,6 +13,6 @@ provenance:
 
 ## تفسیر طبری
 
-طبری «انداد» کا مطلب وہ شریک بتاتے ہیں جو لوگ اللہ کے ساتھ ٹھہراتے تھے۔ گمراہ کرنے کے فعل میں دو قراءتیں بیان کرتے ہیں۔ آیت کے حکمِ «تمتع» کو اجازت نہیں بلکہ تنبیہ اور دھمکی سمجھتے ہیں، کیونکہ انجام آگ ہے۔
+الطبری نے "حریفوں" ⁦(الانداد)⁩ کو شراکت داروں سے تعبیر کیا ہے، جو "حریف" ⁦(نِد)⁩ کی جمع ہے، اور اشارہ کرتا ہے کہ وہ اس کے معنی کو تائیدی شواہد کے ساتھ پہلے ہی بیان کر چکا ہے۔ انہوں نے قتادہ کے حوالے سے کہا ہے کہ حریف شریک ہیں۔ "گمراہ کرنے کے لیے" (li-yuḍillū) کے پڑھنے کے بارے میں، وہ متغیر قرات پیش کرتا ہے: کوفان کے قراء کرام کی اکثریت اسے جوسی مزاج کے ساتھ پڑھتی ہے، "li-yudyllū"، یعنی "تاکہ وہ لوگوں کو اس کے ساتھ شرک کرنے کے اپنے اعمال کے ذریعے خدا کی راہ سے بھٹکا دیں۔" بصران پڑھنے والوں کی اکثریت اسے اشارے کے ساتھ پڑھتی ہے، "لی یَدِلُو" یعنی "تاکہ جو لوگ خدا کے ساتھ شریک ٹھہراتے ہیں وہ اس کے راستے سے بھٹک جائیں۔" پھر ’’کہو، مزے لو‘‘ ⁦(قل تمتعوم)⁩ کے بارے میں فرماتے ہیں: یہ تنبیہ، دھمکی اور ملامت کا حکم ہے، ان کے لیے دنیاوی لذتوں سے لطف اندوز ہونے کی اجازت نہیں، نہ عبادت کا حکم۔ اس کا ثبوت یہ ہے کہ "پھر تمہاری منزل آگ ہے" ⁦(فَاِنَّا مِسْرَتَکُمْ اِلَّا الَّذِیْنَ)⁩ کے ساتھ مل کر: دنیا ان کے لیے عارضی ہے، اور وہ آگ میں ختم ہوں گے، جہاں وہ خدا کی نافرمانی کے نتائج کو محسوس کریں گے۔
 
 {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=14&tAyahNo=30&tDisplay=yes&UserProfile=0&LanguageId=1

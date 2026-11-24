@@ -2,10 +2,17 @@
 id: passage/quran-58-4
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-58-4.md}
 ---
 ## موجز
 الآية 4 من [[passage/quran-58|سورۃ المجادلہ]]، وہ مدنی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 4، سورت کی کل 22 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+اس کا بیان ہے کہ "لیکن جو اس کی استطاعت نہ رکھتا ہو وہ ایک دوسرے کو ہاتھ لگانے سے پہلے دو ماہ کے لگاتار روزے رکھے، اور جو اس کی استطاعت نہ رکھتا ہو تو اس کا کفارہ ساٹھ مسکینوں کو کھانا کھلانا ہے، یہ اس لیے ہے کہ تم اللہ اور اس کے رسول پر ایمان لاؤ، اور یہ اللہ کی مقرر کردہ حدیں ہیں، اور کافروں کے لیے دردناک عذاب ہے،" بیان کرتے ہیں: جس نے اپنی بیوی کے خلاف کوئی دعویٰ کیا ہے، وہ آپ میں سے کسی کو نہیں مل سکتا۔ غلام کو آزاد کرنے کے لیے، پھر وہ ایک دوسرے کو چھونے سے پہلے دو مہینے لگاتار روزے رکھے۔ متواتر دو مہینے وہ ہیں جن میں کسی عذر کے سوا دن کا وقفہ نہیں ہوتا۔ اگر وقفہ کسی صحیح عذر کی وجہ سے ہو تو اس میں اہل علم کا اختلاف ہے۔ بعض کہتے ہیں: اگر اس نے کسی عذر کی وجہ سے روزہ توڑ دیا اور پھر وہ عذر ختم ہو جائے تو اس نے دوبارہ روزہ رکھا۔ اس نے اپنا روزہ مکمل کر لیا ہے۔ دوسروں نے کہا: بلکہ اسے دوبارہ شروع کرنا چاہیے، کیونکہ جس نے عذر کے ساتھ یا بغیر روزہ افطار کیا وہ دو مہینے کے روزے نہیں رکھ سکتا۔ اس عبارت میں قتادہ، الحسن اور عطا کے بیانات کا حوالہ دیا گیا ہے۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=58&tAyahNo=4&tDisplay=yes&UserProfile=0&LanguageId=1

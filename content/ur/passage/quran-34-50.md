@@ -2,10 +2,17 @@
 id: passage/quran-34-50
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-34-50.md}
 ---
 ## موجز
 الآية 50 من [[passage/quran-34|سورۃ سبا]]، وہ مکی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 50، سورت کی کل 54 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+وہ اپنے اس قول کی وضاحت کرتے ہوئے کہتے ہیں: ’’کہہ دو کہ اگر میں گمراہ ہوں تو صرف اپنے ہی نقصان کے لیے گمراہ ہوں، لیکن اگر میں ہدایت یافتہ ہوں تو وہی ہے جو میرا رب مجھ پر ظاہر کرتا ہے، بے شک وہ سننے والا اور قریب ہے۔‘‘: اے محمد اپنی قوم سے کہو: اگر میں ہدایت سے بھٹکا ہوں اور میں کسی اور راستے پر چلوں، تو میری راہ حق کے علاوہ میرا حق ہے۔ نقصان وہ کہتا ہے: میرا ہدایت سے بھٹک جانا میرا ہی نقصان ہے۔ ’’اور اگر میں ہدایت یافتہ ہوں،‘‘ وہ کہتا ہے: اور اگر میں حق پر قائم ہوں، ’’یہ وہی ہے جو میرا رب مجھ پر ظاہر کرتا ہے،‘‘ وہ کہتا ہے: خدا کی وحی سے جو وہ مجھ پر ظاہر کرتا ہے، اور اس کی توفیق سے کہ میں حق اور ہدایت کے راستے پر قائم رہوں۔ اس کے کہنے کا، "وہ سب کچھ سننے والا، قریب ہے" کا مطلب ہے: میرا رب سنتا ہے جو میں تم سے کہتا ہوں، وہ اس کی حفاظت کرتا ہے، اور وہ مجھے اس میں میری سچائی کا بدلہ دے گا۔ یہ مجھ سے دور نہیں ہے، اس لیے یہ ناممکن نہیں ہے کہ وہ سنے جو میں تم سے کہتا ہوں، تم کیا کہتے ہو، اور دوسرے کیا کہتے ہیں۔ لیکن وہ ہر بولنے والے کے قریب ہے، وہ ہر بات سنتا ہے، جو اس کی رگ رگ سے بھی زیادہ قریب ہے۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=34&tAyahNo=50&tDisplay=yes&UserProfile=0&LanguageId=1

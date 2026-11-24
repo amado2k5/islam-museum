@@ -2,11 +2,17 @@
 id: passage/quran-95-3
 lang: fr
 source_lang: en
-translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
-provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate documents, managed by Claude Code)', model: google-translate, run: gt-docs-fr-2026-11-19, source: content/en/passage/quran-95-3.md}
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-fr-2026-11-24, source: content/ar/passage/quran-95-3.md}
 ---
 ## Résumé
 Verset 3 de [[passage/quran-95|la sourate at-Tin]], une sourate mecquoise. {cite:tanzil-quran}
 
 ## Place dans le musée
 Il s'agit du verset 3 sur 8 de la sourate. Le texte est conservé dans le mushaf Tanzil et n'est pas reproduit ici.
+
+## Dans le commentaire d'al-Tabari
+
+Al-Tabari considère les versets 3 à 8 comme un ensemble cohérent. Il explique l'expression « Par la figue et l'olive » : les exégètes ont divergé quant à son interprétation. Certains affirment que « figues » désigne les figues consommées et « olives » les olives pressées pour en extraire l'huile. Dans cette section, il cite les avis de Mujahid, Qatadah, Al-Hasan, Al-Kalbi, Ibrahim et Sufyan.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=95&tAyahNo=3&tDisplay=yes&UserProfile=0&LanguageId=1

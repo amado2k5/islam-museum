@@ -2,10 +2,17 @@
 id: passage/quran-31-7
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-31-7.md}
 ---
 ## موجز
 الآية 7 من [[passage/quran-31|سورۃ لقمان]]، وہ مکی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 7، سورت کی کل 34 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+اس کا بیان ہے کہ "اور جب اس پر ہماری آیات پڑھی جاتی ہیں تو وہ تکبر سے منہ پھیر لیتا ہے گویا اس نے سنا ہی نہیں، گویا اس کے کانوں میں بہرا پن ہے، اس لیے اسے دردناک عذاب کی خوشخبری سنا دو،" بیان کرتے ہیں: جب اس شخص کو کتاب الٰہی کی آیات پڑھی جاتی ہیں جس نے لغو باتوں کو خریدا ہے، تو وہ دوسروں کو گمراہ کرنے کے لیے اسے پڑھ کر اللہ کی طرف پھیر دیتے ہیں۔ تکبر سے" یعنی وہ ان سے منہ موڑ لیتا ہے، اور تکبر کے ساتھ متکبر ہوتا ہے، اور سچائی کو سننے اور اس کا جواب دینے سے انکار کرتا ہے، "گویا اس نے سنا ہی نہیں، گویا اس کے کانوں میں بہرا پن آ گیا ہے" یعنی ایک بھاری پن، تاکہ وہ اسے سننا برداشت نہ کر سکے۔ اور ابن ابی نجیح کی سند سے، مجاہد کی سند سے، ان کے اس قول کے بارے میں کہ "گویا اس کے کانوں میں بہرا پن ہے،" انہوں نے کہا: ایک بوجھ۔ اور اس کے اس قول کہ "پس اسے دردناک عذاب کی بشارت دو" یعنی خدا تعالیٰ فرماتا ہے: تو اس شخص کو خوشخبری سنا دو جو خدا کی آیات سے روگردانی کرتا ہے جب وہ اس پر پڑھی جاتی ہیں، تکبر کی وجہ سے، قیامت کے دن خدا کی طرف سے دردناک عذاب کی، اور یہی اس کا عذاب ہے۔ اس حوالے میں مجاہد کے بیانات کا بھی حوالہ دیا گیا ہے۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=31&tAyahNo=7&tDisplay=yes&UserProfile=0&LanguageId=1

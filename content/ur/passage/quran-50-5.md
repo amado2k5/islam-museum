@@ -2,10 +2,17 @@
 id: passage/quran-50-5
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-50-5.md}
 ---
 ## موجز
 الآية 5 من [[passage/quran-50|سورۃ ق]]، وہ مکی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 5، سورت کی کل 45 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+الطبری آیات 5-6 کے اندر آیت کو ایک اکائی کے طور پر پڑھتا ہے۔ وہ اس بیان کی وضاحت کرتا ہے، "لیکن جب حق ان کے پاس آیا تو انہوں نے اس کو جھٹلایا، اس لیے وہ ایک الجھن میں پڑے ہوئے ہیں": ان مشرکوں کو کیا ہوا جنہوں نے کہا، "جب ہم مر کر خاک ہو جائیں گے تو یہ واپسی بہت دور کی بات ہے؟" ان کے بیان میں، "لیکن انہوں نے حق کا انکار کیا،" جو کہ قرآن ہے، "جب یہ ان کے پاس آیا" خدا کی طرف سے۔ جہاں تک قتادہ کا تعلق ہے، "لیکن انہوں نے حق کو جھٹلایا جب وہ ان کے پاس آیا" یعنی انہوں نے قرآن کا انکار کیا، "لہذا وہ ایک مبہم حالت میں ہیں،" وہ کہتے ہیں: وہ کنفیوزڈ اور مبہم حالت میں ہیں، یہ نہیں جانتے کہ صحیح کیا ہے اور کیا غلط ہے۔ کہا جاتا ہے کہ انسان کے معاملات اس وقت الجھ جاتے ہیں جب وہ گھل مل جاتے ہیں اور انہیں نظرانداز کیا جاتا ہے۔ اس آیت کی تفسیر علماء کے درمیان مختلف ہے، اگرچہ ان کے معنی ایک جیسے ہیں۔ بعض کہتے ہیں کہ اس کا مطلب ہے: وہ قابل مذمت حالت میں ہیں، اور "المرج" سے مراد قابل مذمت چیز ہے۔ اس آیت میں ابن عباس، مجاہد، قتادہ اور ابن زید کے اقوال بھی نقل کیے گئے ہیں۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=50&tAyahNo=5&tDisplay=yes&UserProfile=0&LanguageId=1

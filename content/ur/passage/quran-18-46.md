@@ -2,10 +2,17 @@
 id: passage/quran-18-46
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-18-46.md}
 ---
 ## موجز
 الآية 46 من [[passage/quran-18|سورۃ الکہف]]، وہ مکی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 46، سورت کی کل 110 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+ان کا یہ قول کہ "مال اور اولاد دنیوی زندگی کی زینت ہیں، لیکن باقی رہنے والی نیکیاں تمہارے رب کے نزدیک ثواب کے اعتبار سے بہتر اور امید کے لحاظ سے بہتر ہیں" بیان کرتے ہیں: اے لوگو، مال اور اولاد جن پر عیینہ اور الاقراء فخر کرتے ہیں اور سلمان، خباب اور صہیب کو دکھاوے کے لیے استعمال کرتے ہیں، یہ دنیا کی زندگی کی زینت نہیں اور دنیا کی زندگی کا حصہ نہیں ہیں۔ ’’لیکن باقی رہنے والی نیکیاں تمہارے رب کے ہاں اجر میں بہتر ہیں‘‘ کا مطلب ہے: سلمان، خباب اور صہیب کی خدا کی اطاعت، اور صبح و شام اپنے رب سے اس کی رضا کے لیے دعا کرنا، وہ اعمال صالحہ ہیں جو ان کے لیے دنیوی زندگی کے خاتمے کے بعد باقی ہیں۔ اے محمدؐ، یہ اعمال تمہارے رب کے نزدیک ان مال و اولاد سے بہتر ہیں جن پر یہ مشرک فخر کرتے ہیں، جو فنا ہو جاتے ہیں اور اپنے مالکوں کے لیے باقی نہیں رہتے۔ "اور امید میں بہتر" "امید،" وہ کہتا ہے، "اور سلمان، صہیب اور خباب سے جو امید کی جاتی ہے وہ اس سے بہتر ہے جو عیینہ اور اقراء سے ان کے مال اور اولاد سے کی جاتی ہے۔" اس عبارت میں ابن عباس، الحسن، سعید بن جبیر، العماش، ابراہیم اور سفیان کے بیانات بھی نقل کیے گئے ہیں۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=18&tAyahNo=46&tDisplay=yes&UserProfile=0&LanguageId=1
