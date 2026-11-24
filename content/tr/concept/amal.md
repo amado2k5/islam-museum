@@ -1,0 +1,19 @@
+---
+id: concept/amal
+lang: tr
+source_lang: ar
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-23), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Google Translate documents)', model: google-translate, run: gt-docs-tr-2026-11-23, source: content/ar/concept/amal.md}
+---
+## Özet
+Dilsel anlamıyla iş, bir meslek ve bir eylemdir. Uzuvların ve kalbin tüm eylemlerini kapsar. Ayrıca, söz veya fiil yoluyla bir şeyin gerçekleştirilmesi olarak da tanımlanmıştır {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.11839}. Beş hükme tabidir: Kanun Koyucunun zorunlu kıldığı şey farzdır; zorunlu kılmadığı şey müstehaptır; zorunlu kıldığı şey haramdır; zorunlu kılmadığı şey mekruhtur; ve yapmama konusunda seçim hakkı verdiği şey helaldir {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.11839}. Kul, itaat amelleri için ödüllendirilir ve günahları için cezalandırılır, ancak Allah bağışlarsa {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.11839}.
+
+## Omar Abdelkafi'nin 'Umut Bahçesi' programından
+## Ömer Abdül Kafi'nin görüşüne göre, çalışmanın onuru
+Şeyh, İslam'da, yapılan iş şerefli olduğu sürece, yüksek veya düşük meslek diye bir şey olmadığına inanıyor. Mahalle sakinleri adına sokakları temizleyen sokak temizleyicisinin başını öpmek istediğini, çünkü onun da inancın bir dalını yerine getirdiğini söylüyor. Ayrıca kanalizasyonları onarmak için yer altına inenlerden de bahsediyor. Sınıfçılığı ve Arapların bazı mesleklere yönelik küçümseyici bakış açısını eleştiriyor ve Arap kimlik kartlarında mesleğin sıklıkla belirtilmesinin aşağılayıcı olduğunu düşünüyor. {cite:assabile-omar-abdelkafy bustan-el-amal/ep20 00:02:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep20 00:03:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep20 00:03:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep20 00:04:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep20 00:04:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep20 00:05:00}
+[[person/dawud|Davud]] ve [[person/sulayman|Süleyman'ı]] örnek gösterir ; onlara, "Ey Davud ailesi, şükür için çalışın" denmişti. Ayrıca, Allah'ın ve Resulünün sevdiği, çalışmaktan nasırlaşmış ellerle ilgili hadisi ve Ömer'in, [[person/umar-ibn-al-khattab|camide]] boş boş oturan bir adama kırbacıyla vurduğu, topal bir karganın beslendiğini söylediği hikayeyi de aktarır. Ömer adama, "Neden sen o kargayı besleyen sağlıklı karga olmuyorsun?" demişti. ⁦(needs_source: الخبر كما رواه الشيخ)⁩. {cite:assabile-omar-abdelkafy bustan-el-amal/ep20 00:05:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep20 00:05:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep20 00:06:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep20 00:07:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep20 00:07:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep20 00:08:00}
+Akademik derecelerin başarının bir ölçütü olmadığına inanıyor. Üç doktora derecesi almış ama kırk dört yaşına kadar evliliği unutmuş, o noktada da "Bütün derecelerimi alın ve bana anne unvanını verin" demiş bir kadının hikayesini anlatıyor. Ayrıca Marilyn Monroe'ya atfedilen ve şöhret yerine koca ve çocuk istediği söylenen bir "vasiyetnameyi" de aktarıyor ⁦(needs_source: الخبران كما رواهما الشيخ، ونسبة الوصية غير ثابتة)⁩. Ebeveynlere, çocuklarının akademik olarak başarılı olmaması durumunda üzülmemelerini, çünkü başka alanlarda başarılı olabileceklerini söylüyor {cite:assabile-omar-abdelkafy bustan-el-amal/ep20 00:08:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep20 00:09:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep20 00:09:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep20 00:10:00}
+
+## Şeyh Ömer Abdül Kafi'nin dersinden: El-Fawa'id kitabının açıklaması (10. Bölüm)
+
+Şeyh, Tanrı'nın kibirli ve böbürlenen kimseyi sevmediğini belirtiyor. {cite:assabile-omar-abdelkafy sharh-ketab-al-fawaed/ep10 00:31:30} ⁦(needs_source: صياغة التسجيل مضطربة)⁩

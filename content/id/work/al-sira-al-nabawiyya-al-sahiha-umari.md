@@ -1,0 +1,27 @@
+---
+id: work/al-sira-al-nabawiyya-al-sahiha-umari
+lang: id
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-23), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-23, source: content/ar/work/al-sira-al-nabawiyya-al-sahiha-umari.md}
+---
+## Ringkasan
+"Biografi Nabi Otentik: Upaya untuk Menerapkan Prinsip Ulama Hadis dalam Mengkritik Narasi Biografi Nabi" oleh [[person/akram-diya-al-umari|Dr. Akram Diaa Al-Omari]], dan versi yang disetujui di sini adalah edisi keenam dari Perpustakaan Ilmu Pengetahuan dan Kebijaksanaan di Madinah pada tahun 1415 H / 1994 M. {cite:sahih-sira-umari-ulum-hikam-1994 p.2} {cite:sahih-sira-umari-ulum-hikam-1994 p.5}
+
+## Masalah yang ditangani
+Dalam pengantarnya, Al-Umari membedakan antara tulisan sejarawan seperti al-Waqidi dan al-Baladhuri, yang berfokus pada susunan peristiwa, dan tulisan para ulama hadis yang mematuhi aturan narasi dan melanggar satu narasi berdasarkan biografi buku mereka, seperti dalam kampanye al-Bukhari, dan mereka yang menggabungkan kedua atribut tersebut seperti Ibn Ishaq, Khalifa ibn Khayyat, Ya'qub ibn Sufyan, dan al-Tabari. {cite:sahih-sira-umari-ulum-hikam-1994 p.11} Ia percaya bahwa pengetahuan tentang narator dan rantai transmisi tidak lagi menjadi dasar budaya generasi berikutnya, karena tulisan kontemporer kurang membedakan dalam narasi, dan sejarawan terkemuka pada masa itu menguraikan metode kritik sejarah Barat yang tidak disesuaikan dengan narasi Islam yang didasarkan pada rantai transmisi. {cite:sahih-sira-umari-ulum-hikam-1994 p.12} Pendekatan ini tidak mengabaikan haknya; sebaliknya, pendekatan ini melihat kombinasi data metodologi ulama modern dan pendekatan kritis Barat jika diatur oleh standar konsepsi Islam. {cite:sahih-sira-umari-ulum-hikam-1994 p.13} {cite:sahih-sira-umari-ulum-hikam-1994 p.14}
+
+## Metodologi
+Metodologinya adalah mengandalkan narasi yang otentik dan memprioritaskannya, lalu perbuatan baik, kemudian apa yang didukung oleh yang lemah, dan yang lebih kuat diberi prioritas jika terjadi konflik; sedangkan bagi yang lemah yang tidak mendukungnya, berguna untuk mengisi kekosongan kecuali menyangkut kepercayaan atau hukum, karena aturannya adalah 'ketegasan terhadap ajaran atau Syariah,' dan tidak ada salahnya bersikap lunak dalam urusan perkotaan dan menggambarkan medan perang. {cite:sahih-sira-umari-ulum-hikam-1994 p.40} Ia percaya bahwa kitab-kitab hadis, terutama dua Sahih, mendukung apa yang ditemukan dalam kitab biografi dalam banyak aspek, khususnya biografi Ibn Ishaq dan Musa ibn Uqbah, dan bahwa biografi Ibn Ishaq lebih tepat dan dapat diandalkan dibandingkan ekspedisi-ekspedisi tersebut [[person/al-waqidi|Al-Waqidi]] yang kemudian dilemahkan oleh para modernis, bertentangan dengan tren beberapa Orientalis. {cite:sahih-sira-umari-ulum-hikam-1994 p.41} {cite:sahih-sira-umari-ulum-hikam-1994 p.42} Ia mencantumkan hasil dari pendekatan ini: meningkatkan kepastian atas akurasi informasi biografi, menambahkan aspek sosial, ekonomi, dan administratif, memperjelas apa yang tidak disepakati oleh sejarawan dan ulama hadits, seperti Ekspedisi Banu Mustaliq, memodifikasi beberapa topik seperti persaudaraan dan konstitusi Madinah, sambil memperingatkan agar tidak melebih-lebihkan amandemen tersebut. {cite:sahih-sira-umari-ulum-hikam-1994 p.42} {cite:sahih-sira-umari-ulum-hikam-1994 p.43}
+
+## Sumber biografinya
+Ia mengulas buku-buku Shama'il, Khasa'i, dan Al-Dalail, yang saat itu merupakan pelopor penulisan biografi dari para Pengikut dan mereka yang datang setelahnya, beserta statusnya dalam kritik dan pengautentikasi: [[person/aban-ibn-uthman|Aban bin Othman]]، و [[person/urwa-ibn-al-zubayr|Urwah ibn al-Zubayr]], dan Al-Sha'bi, dan Asim bin Umar bin Qatadah, dan [[person/muhammad-ibn-shihab-al-zuhri|sifilis]]، و [[person/shurahbil-ibn-sad-maghazi|Sharhabil bin Saad]]، و [[person/musa-ibn-uqba|Musa ibn Uqbah]]، و [[person/sulayman-ibn-tarkhan-al-taymi|Suleiman bin Tarkhan Al-Taymi]], dan Muammar ibn Rashid, dan [[person/ibn-ishaq|Muhammad bin Ishaq]]. {cite:sahih-sira-umari-ulum-hikam-1994 p.52} {cite:sahih-sira-umari-ulum-hikam-1994 p.53} {cite:sahih-sira-umari-ulum-hikam-1994 p.54} {cite:sahih-sira-umari-ulum-hikam-1994 p.55} {cite:sahih-sira-umari-ulum-hikam-1994 p.56} {cite:sahih-sira-umari-ulum-hikam-1994 p.57}
+
+## Konstruksinya
+Setelah pengantar, terdapat empat bab: Rasul di Mekah dari negara Mekah sebelum Islam hingga janji Aqaba dan Hijrah; Rasul di Madinah dan karakteristik serta organisasi awal masyarakat sipil, konstitusi Madinah, dan pengusiran orang Yahudi; jihad melawan para politeis dari barisan depan jihad dan Badr ke Tabuk; kemudian Ziarah Perpisahan dan kematian; kemudian bab "Pesan dan Rasulul" tentang yang tak terlihat, nubuat, kemanusiaan Nabi, mukjizat Al-Qur'an, mukjizat indra, Ibu-ibu Orang Beriman, dan kebajikan Para Sahabat. {cite:sahih-sira-umari-ulum-hikam-1994 p.689} {cite:sahih-sira-umari-ulum-hikam-1994 p.690} {cite:sahih-sira-umari-ulum-hikam-1994 p.691} {cite:sahih-sira-umari-ulum-hikam-1994 p.692}
+
+## Untuk pengunjung muda
+Sebuah buku tentang biografi Nabi yang penulisnya berusaha memilih laporan paling otentik dalam metode para ulama hadis dalam memeriksa narator.
+
+## Catatan untuk Peneliti
+- Halaman adalah halaman PDF, dan dicetak = PDF. Seluruh buku ada dalam satu file, meskipun halaman judul bertuliskan "Bagian Satu."

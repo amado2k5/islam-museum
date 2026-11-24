@@ -1,0 +1,24 @@
+---
+id: person/pedro-i-castile
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-23), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-23, source: content/ar/person/pedro-i-castile.md}
+---
+## Genel Bakış
+I. Petro, 1350'den 1369'daki suikasta uğramasına kadar Kastilya'yı yönetti. İslam Ansiklopedisi'nde bir makalesi yoktur, ancak Granada'daki Nazarenliler hakkındaki makalede yer alır ve bu makale Dönem boyunca yaptığı savaşları çerçeveler [[person/yusuf-i-nasrid|Yusuf I]] و [[person/muhammad-v-nasrid|Mohammed V]], ve sarayını amaçlayan İbn Haldun'un makalesinde. İbn Haldun'un makalesindeki çember ona 'Zalim Pedro' adını verir. Bu kayıt bu yerleri derler. {cite:encyclopaedia-of-islam-2 vol. 7 p. 1078} {cite:encyclopaedia-of-islam-2 vol. 3 p. 858}
+
+## El-Tavli ve Granada
+Nazarene makalesi, Alfonso XI'in 1349 yılında Granada ile ateşkesi bozarak Cebelitarık'ı ele geçirmeye çalıştığını ve kendisinin ve birçok askerinin Mart 1350'de veba nedeniyle öldüğünü anlatır. Oğlu Pedro I, Joseph I ile anlaşmaya varmak için acele etti. {cite:encyclopaedia-of-islam-2 vol. 7 p. 1078} Granada'nın Kastilya ile iyi ilişkileri ve isyancı Marinid prenslerini koruma istekliliği, Fez ile dostluğunu yavaş yavaş zayıflattı. {cite:encyclopaedia-of-islam-2 vol. 7 p. 1078} Pedro'ya haraç ödemeyi kabul eden Muhammed V bin Yusuf'un saltanatı sırasında, başından itibaren Kastilya ile iyi ilişkiler kuruldu. {cite:encyclopaedia-of-islam-2 vol. 7 p. 1078}
+
+## Sevilla'da İbn Haldun
+Bir makale şöyle diyor [[person/ibn-khaldun|İbn Haldun]] 765 Hicri / 1364 yılının sonunda, o sırada Granada'da bulunan tarihçi, Zalim Petro'ya Sevilla'ya kesin bir barış misyonu gönderdi. Hristiyan dünyasıyla bu temasın, dönüşüm sürecinden geçerken bunun üzerinde önemli bir etkisi olduğunu söylüyor. {cite:encyclopaedia-of-islam-2 vol. 3 p. 858} Bu müze, kayıtları şu isim altında yapmaktadır [[event/ibn-khaldun-embassy-seville-1365|Sevilla Büyükelçiliği]], ve oradaki tarihi başka bir kaynaktan yaklaşık 1365 MS civarındadır; iki tarih yakın ama aynı değildir.
+
+## Aragon ile savaş ve VI. Muhammed'in akıbeti
+Nasrid makalesi, 1359 yılında Kastilya filosunun Granada kadırgalarıyla takviye edilerek Malaga limanında imkânlar sağladığını belirtir. Muhammed V, Aragon'a karşı harekete geçmeye hazırlanıyordu, ancak daha sonra Ramazan ayında 760 Hicri / Ağustos 1359'da bir saray isyanıyla devrildi. Yerine Barmijo olarak bilinen Muhammed VI geçti; Aragon tarafını tuttu ve Kastilya'ya haraç ödemeyi durdurdu. Pedro, 1360 yılında Aragonluları nihayet yendikten ve Mayıs 1361'de Terrier Antlaşması'nı imzaladıktan sonra ona yöneldi. Muhammed V'nin Fes'ten dönmesine ve Randa'da bir hükümet kurmasına yardım etmişti. {cite:encyclopaedia-of-islam-2 vol. 7 p. 1078} 763 Hicri / 1362 yılında ittifak kale üstüne kale ele geçirdi, bu yüzden Muhammed VI Pedro'ya kaçtı ve onun insafına bırakıp, Sevilla'ya çok uzak olmayan Tabalada'da idamını emretti. {cite:encyclopaedia-of-islam-2 vol. 7 p. 1078} Muhammed V, ikinci saltanatına 20 Cumedül-Ahirah 763 Hicri / 16 Mart 1362'de başladı. {cite:encyclopaedia-of-islam-2 vol. 7 p. 1078}
+
+## İç Savaş ve Ölüm
+Bundan sonra, Peter, üvey kardeşi Henry de Terstmara'nın liderliğindeki isyancılarla savaş halindeydi; Terstmara, Aragon Kralı IV. Peter'ın desteğiyle. Kastilya'ya sadık olan Muhammed V, 1363'te Trouell'in fethine katılmak için süvari gönderdi, ancak Peter 1364'te sevilen Sevilla'ya çekilmek zorunda kaldı. {cite:encyclopaedia-of-islam-2 vol. 7 p. 1078} Henry, Bertrand de Guéclan liderliğinde Fransa'da toplanan paralı askerlerle birlikte Katalonya üzerinden İspanya'ya girdi ve 16 Mart 1366'da kral ilan edildi; Pedro'ya gelince, 'Müslübi aşığı' olarak damgalandı ve Sevilla'da bile hoş karşılanmadı, bu yüzden ülkesinden kaçtı. Muhammed daha sonra Enrique'ye bağlılık yemini etti ve 768 Hicri / Mart 1367 yılında Rajab ayında Aragon ile barış yaptı. 1367 yılının ilerleyen dönemlerinde, Pedro Kara Prens'in yardımıyla geri döndü ve Muhammed Kastilya'ya katıldı, Gián, Prigo, Abda ve Biasa'ya baskın düzenledi, ancak 1368 baharında Kordoba'yı ele geçiremedi. Mart 1369 sonuna gelindiğinde Pedro öldü ve makalede II. Henry onun fatihi ve savaşçısı olarak tanımlanıyor. {cite:encyclopaedia-of-islam-2 vol. 7 p. 1078}
+
+## Tarihler ve Şüpheler
+Wikidata, Jülyen takvimine göre 30 Ağustos 1334 ve 23 Mart 1369'u listeler. Çember, yukarıdaki olaylar dizisinin kaynağıdır, ancak Muhammed'in ittifaklarındaki dalgalanmalar hakkındaki ifadesi kısaltılmıştır ve 1367 MS olay sırası, bu kaydı yükseltmeden önce Kastilya yıllıklarında gözden geçirilmelidir. "Mohib al-Mor" makaleden rakiplerinin kendisini adlandırdığı ifadeyi alıntıladı, müze için bir yargıç olarak değil.

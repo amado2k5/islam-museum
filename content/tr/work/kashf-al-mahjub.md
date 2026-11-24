@@ -1,0 +1,27 @@
+---
+id: work/kashf-al-mahjub
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-23), draft translation']
+status: {review: published}
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-23, source: content/ar/work/kashf-al-mahjub.md}
+---
+## Özet
+"Kaşf el-Mahcub" Kitabı [[person/al-hujwiri|Ebu el-Hasan Ali bin Osman el-Celabi el-Hujviri el-Gaznavi]] Farsçada, Sufizm üzerine bir dilde. Badi Juma'a, Arapça çevirinin girişinde, kendisinin Farsça tasavvuf üzerine en eski eser olarak kabul edildiğini, Sufizmin teorik ve pratik ilkeleri üzerine ilk organize kitap olduğunu ve Al-Hujwiri'nin eserlerinden günümüze ulaşan tek kitap olduğunu belirtir. {cite:kashf-al-mahjub-qandil-2007-v1 p. 11} Yazarın bu esere yaklaşık 435 Hicri yılında başladığı ve yaklaşık 442 Hicri yılında tamamladığı muhtemeldir. {cite:kashf-al-mahjub-qandil-2007-v1 p. 11} Kitap, Sufizmin teorik ve pratik ilkeleri, imamlarının ve öğretmenlerinin biyografileri, Sufizmin, mezheplerinin, inançlarının, ibadetlerinin, işlemlerinin ve Sufi geleneklerinin ayetleri ve sembolleri üzerine yirmi beş bölüm içerir. {cite:kashf-al-mahjub-qandil-2007-v1 p. 12}
+
+## Cevap yazdığı soruya
+El-Hujwiri şu soruyla başlar: Ebu Sa'id el-Hujwiri ondan Sufiliğin yöntemini, Sufilerin rütbelerini, öğretimlerini, ayetlerini, sembollerini ve işaretlerini, Allah'a olan sevgilerini açıklamasını istemiştir. {cite:kashf-al-mahjub-qandil-2007-v1 p. 200} Bu bilimin "gerçekten de bizim zamanımızda incelendiğini" ve özellikle kendi topraklarında bu bilimin araştırmadan taklite kaydığını, öğrencilerin çabayı bırakıp varsayımlarını 'şahidah' olarak adlandırdıklarını yanıtladı; bu konuda daha önce kitaplar yazdığı, hepsinin kaybolduğu ve bazı iddia sahiplerinin bunlardan uydurma ifadeler uydurduğu belirtilir. {cite:kashf-al-mahjub-qandil-2007-v1 p. 200} Kitabı örtülü kalpler için bir rafinaj olarak yaptığını söylüyor. {cite:kashf-al-mahjub-qandil-2007-v1 p. 198}
+
+## Kaynakları ve Sufizm kitapları arasındaki yeri
+Çevirmen, El-Hujwiri'nin Sufizm öğretilerini İslam ile uzlaştırmak istediğini söylüyor; tıpkı kendisinden önce denediği gibi. [[person/abu-nasr-al-sarraj|Al, Sarraj]] içinde [[work/kitab-al-luma-fi-al-tasawwuf|Parıltı]] و [[person/al-qushayri-abu-l-qasim|El-Kuşayri]] içinde [[work/al-risala-al-qushayriyya|Misyon]], el-Gazali'nin ondan sonra Al-İhya'da yaptığı gibi; ve kitap, metodolojisi ve içeriği bakımından Al-Luma'ya benzer; bu da ona dayanmasını netleştirir ve Qushayriyya risalesinden bölümlerin Farsça çevirisini içerir, büyük ölçüde [[work/tabaqat-al-sufiyya-sulami|Sufi Sınıfları]] Al-Sulmi tarafından Yaşlıların Biyografileri'nde. {cite:kashf-al-mahjub-qandil-2007-v1 p. 12} Farid al-Din al-Attar'ın 'Tadhkirat al-Awliya'da ve al-Jami'nin 'Nafahat al-Uns'ta bundan faydalandığı belirtilir. {cite:kashf-al-mahjub-qandil-2007-v1 p. 12}
+
+## Birinci Bölüm Bölümleri
+Arapça çevirinin ilk bölümü, yazarın girişinden sonra on üç bölümden oluşur: {cite:kashf-al-mahjub-qandil-2007-v1 p. 396} {cite:kashf-al-mahjub-qandil-2007-v1 p. 397}
+- Bilgiyi onaylama bölümü (s. 206), yoksulluk bölümü (s. 218), Sufizm bölümü (s. 230), yamalı bohça giyme bölümü (s. 244) ve yoksulluk ile seçkinlik arasındaki farklılıklar bölümü (s. 258). {cite:kashf-al-mahjub-qandil-2007-v1 p. 206} {cite:kashf-al-mahjub-qandil-2007-v1 p. 218} {cite:kashf-al-mahjub-qandil-2007-v1 p. 230} {cite:kashf-al-mahjub-qandil-2007-v1 p. 244} {cite:kashf-al-mahjub-qandil-2007-v1 p. 258}
+- Bildiri Bölümü [[group/malamatiyya|suçlamak]] ⁦(ص 262)⁩. {cite:kashf-al-mahjub-qandil-2007-v1 p. 262}
+- İmamları üzerine bölümler: Sahabelerden (s. 270), Ahl al-Bayt'tan (s. 278), Sufa Halkından (s. 288), Takipçilerden (s. 294), Takipçilerin Takipçilerinden (s. 300) ve sonraki alimlerden (s. 378), ardından "toprak halkı"ndan sonraki Sufi erkekler üzerine bir bölüm (s. 390). {cite:kashf-al-mahjub-qandil-2007-v1 p. 270} {cite:kashf-al-mahjub-qandil-2007-v1 p. 278} {cite:kashf-al-mahjub-qandil-2007-v1 p. 288} {cite:kashf-al-mahjub-qandil-2007-v1 p. 294} {cite:kashf-al-mahjub-qandil-2007-v1 p. 300} {cite:kashf-al-mahjub-qandil-2007-v1 p. 378} {cite:kashf-al-mahjub-qandil-2007-v1 p. 390}
+
+Son bölümde El-Hücviri, Şam, Irak, İran, Kıhistan, Azerbaycan, Tabaristan, Kirman ve Horasan'daki şeyhlerle birlikte yaşadığı veya onlardan duyduğu kişilerden bahseder; bunlar arasında Ebu Ca'far el-Seydilani, İbn Salbah, kardeşim el-Zancani, Ebu el-Abbas el-Şermakani ve el-Muzaffar bin Şeyh Abi Seyd vardır. Ayrıca Ahmed bin Hammad el-Sarakhsi hakkında uzun süre onun yoldaşı olduğunu söyler. {cite:kashf-al-mahjub-qandil-2007-v1 p. 390} {cite:kashf-al-mahjub-qandil-2007-v1 p. 391} {cite:kashf-al-mahjub-qandil-2007-v1 p. 392} {cite:kashf-al-mahjub-qandil-2007-v1 p. 393}
+
+## Baskılar ve Çeviriler
+Çevirmen, kitabın ilk olarak 1926'da Leningrad'da, ardından 1336 Hicri Yıl'da Tahran'da basıldığını ve Nicholson'ın kitabı İngilizceye çevirip Londra'da yayımladığını belirtir. {cite:kashf-al-mahjub-qandil-2007-v1 p. 12} Burada kullanılan Arapça çeviri Esaad Abdelhadi Qandil tarafından yapılmış, Badi' Gomaa tarafından incelenmiş ve tanıtılmıştır; 2007'de Kahire'de Ulusal Çeviri Projesi tarafından yayımlanmıştır (sayı 1042) ve başlangıçta Al-Hujwiri dönemindeki çevirmenin biyografisi ve kitabı üzerine ayrıntılı bir incelemedir. {cite:kashf-al-mahjub-qandil-2007-v1 p. 3} {cite:kashf-al-mahjub-qandil-2007-v1 p. 13}

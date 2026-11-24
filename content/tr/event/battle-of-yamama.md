@@ -1,0 +1,65 @@
+---
+id: event/battle-of-yamama
+lang: tr
+source_lang: ar
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-23), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Google Translate documents)', model: google-translate, run: gt-docs-tr-2026-11-23, source: content/ar/event/battle-of-yamama.md}
+---
+## Özet
+Yamama Muharebesi, [[event/ridda-wars|İtaatsizlik Savaşlarından biriydi]]. Ebu Bekir, [[place/al-yamama|Halid]] [[person/khalid-ibn-al-walid|ibn el-Velid'i]] [[person/musaylima|Musaylima ile]] savaşması için Yamama'ya gönderdi ve bu olay, el-Baladhuri'ye göre Hicri 12 yılında gerçekleşti. {cite:futuh-buldan-maarif-1407 p.120-127}
+
+Bu sayfanın da atıfta bulunduğu İslam Ansiklopedisi, Ridda'yı İslam tarihinde Peygamberin ölümünden kısa bir süre önce başlayan ve Ebu Bekir'in halifeliği boyunca devam eden Bedevi ve yerleşik kabilelere karşı yapılan bir dizi savaşı tanımlamak için kullanılan bir terim olarak tanımlar. Makale, birçok kabilenin İslam devletiyle resmi bir bağlantısının olmaması ve Yamama'daki Beni Hanifa kabilesinin, peygamberlik iddiasında bulunan birkaç liderden biri olan Musaylima tarafından yönetiliyor olması nedeniyle bu terimin genellikle yanlış olduğunu ekler. {cite:encyclopaedia-of-islam-2 vol. 12 p. 765}
+
+## geleneksel İslami anlatı
+Bu bölüm, İslam Ansiklopedisi'nde özetlendiği üzere, Müslüman tarihçilerin anlatımlarını sunmaktadır. Peygamberimiz hayattayken, Yamama'daki [[group/banu-hanifa|Beni Hanife kabilesinden bir heyet Medine'de onu ziyaret etmiştir. Bunlar arasında, Müslüman yazarların daha sonra "Yalancı" olarak adlandırdığı Musaylima ibn Habib el-Hanafi de vardı]]. [[person/ibn-hisham|İbn Hişam'ın]] anlattığına göre, Yamama'ya döndüğünde İslam'dan dönmüş ve kendisini peygamber ilan ederek kabilenin şarap içmesine ve namazı terk etmesine izin vermiştir. Makalede, Halid önderliğindeki uzun süren çatışmanın tarihçileri olarak [[person/al-tabari|el-Taberi ve İbn el-Athir'den bahsedilmektedir. {cite:encyclopaedia-of-islam-2 vol. 11 p. 280}]] [[event/delegation-of-banu-hanifa|Beni Hanife heyetinin ayrı bir kaydı]], Musaylima'nın oradaki davranışlarına dair çeşitli anlatımları detaylandırmaktadır.
+
+Makalede, Peygamberin ölümünden sonra Beni Hanife arasında Musaylimah'ın takipçilerinin sayısının önemli ölçüde arttığı ve onun yeni kurulan İslam devletine ciddi bir tehdit olarak algılandığı belirtiliyor. [[person/abu-bakr|Ebu Bekir]], Halid komutasında ona karşı büyük bir ordu gönderdi. {cite:encyclopaedia-of-islam-2 vol. 7 p. 719} Savaş, her iki tarafta da çok sayıda kayıp nedeniyle Ölüm Bahçesi olarak bilinen surlarla çevrili bir bahçenin merkezinde yer alan el-Akrabe'de gerçekleşti. Müslümanlar zafer kazandı, ancak Kur'an okuyucuları arasında ağır kayıplar verdiler. Musaylimah'ı öldürme sorumluluğunu üstlenenler arasında, [[person/hamza|Hamza'yı öldüren Habeşli köle Vahşi de vardı]]. {cite:encyclopaedia-of-islam-2 vol. 7 p. 719}
+
+## Arazi ve savaş alanı
+Makalede, erken İslam döneminde El-Yamame'nin [[place/hajr-yamama|Hacer merkezli Necd'in bir bölgesi olduğu belirtiliyor]]. Bugün El-Yamame adı, Riyad'ın yaklaşık yetmiş kilometre güneydoğusunda bulunan Suudi Arabistan'daki küçük bir kasabayı ifade ediyor ve makale, bu ismin Arapça'da "yabani güvercin" anlamına gelen bir kelimeden türemiş olabileceğini öne sürüyor. {cite:encyclopaedia-of-islam-2 vol. 11 p. 280}
+
+El-Akrabah hakkındaki makale, bu yeri, Halid'in Musaylimah ve Beni Hanife'yi yendiği kanlı savaşla ünlü El-Yamame sınırlarında bir yer olarak tanımlıyor. Yakınlarda, savaştan önce El-Rahman Bahçesi olarak bilinen duvarla çevrili bir bahçe vardı. {cite:encyclopaedia-of-islam-2 vol. 1 p. 366}
+
+## Savaş Yılı
+Kaynaklar yıl konusunda hemfikir değil. Aşağıda anlatımı sunulan El-Baladhuri, Yamamah'ın fethini Hicri 12 yılına yerleştiriyor. {cite:futuh-buldan-maarif-1407 p.120-127} Yamamah hakkındaki makale ise Musaylimah'ın orada Hicri 11/Miladi 632 yılında öldürüldüğünü belirtiyor. {cite:encyclopaedia-of-islam-2 vol. 11 p. 280} Bu sayfa, ikisi arasında ayrım yapmadan her iki anlatımı da kaydetmektedir.
+
+## Savaş
+El-Baladhuri, Rijal ibn Unfuwa'nın Müslümanlarla ilk karşılaşan kişi olduğunu ve öldürüldüğünü anlatır. Birçok önemli şahsiyet ve Kur'an okuyucusu şehit edildi, ardından Müslümanlar toparlandı ve Allah onlara zafer verdi. Müslümanlar düşmanlarını o zamanlar [[place/hadiqat-al-mawt|Ölüm Bahçesi olarak adlandırılan bir bahçeye sürdüler]] ve orada Musaylima öldürüldü. {cite:futuh-buldan-maarif-1407 p.120-127}
+
+Musaylimah'ı kimin öldürdüğüne dair farklı rivayetler vardır; Khidash ibn Bashir, Abdullah ibn Zayd ibn Tha'labah, Abu Dujanah ve [[person/wahshi-ibn-harb|Wahshi ibn Harb'dan bahsedilir]]. Bazıları ise hepsinin onun öldürülmesinde yer aldığını söyler. {cite:futuh-buldan-maarif-1407 p.120-127}
+
+## Şehitlerinden
+El-Baladhuri şehit edilenler arasında [[person/zayd-ibn-al-khattab|Zeyd ibn el-Hattab]], Sabit [[person/thabit-ibn-qays|ibn Kays]], Ebu Hudeyfe ibn Utba ve Ebu Hudeyfe'nin azatlı kölesi Salim'i zikretmiştir. {cite:futuh-buldan-maarif-1407 p.120-127}
+
+## Uzlaşma
+[[person/mujjaa-ibn-murara|Maja'ah ibn Murarah]], Halid'e Yamamah halkının çoğunun onunla savaşmak için gelmediğini söyledi ve bunun üzerine Halid onunla barıştı. Ardından Halid Bahreyn'e yürüdü ve Yamamah'ta Samurah ibn Amr al-Anbari'yi vekili olarak atadı. {cite:futuh-buldan-maarif-1407 p.120-127}
+
+Gregoryen takvime göre tarih belirlenmiştir. Barış antlaşmasının detayları için ek kaynaklara ihtiyaç duyulmaktadır.
+
+## Musaylimah hareketinin akademik bir incelemesi
+W. Montgomery Watt'ın Musaylimah hakkındaki makalesi, yukarıdaki geleneksel anlatıdan bazı yerlerde farklılık gösteren bir okuma sunmaktadır ve burada yazarına atfedilerek sunulmaktadır. Makale, Musaylimah'ı Beni Hanife kabilesinden, kabilesinin büyük bir bölümünü isyana önderlik eden bir adam olarak tanımlamakta ve peygamberlik iddiasında bulunduğu için sık sık "Yalancı" olarak adlandırıldığını belirtmektedir. Ayrıca, "el-Rahman" (Rahman) olarak da adlandırıldığı yönündeki anlatıyı şüpheye düşürmektedir, çünkü bu Allah'ın isimlerinden biridir. {cite:encyclopaedia-of-islam-2 vol. 7 p. 718}
+
+[[person/hawdha-ibn-ali-al-hanafi|Hawdha ibn Ali'nin 630'daki]] ölümünden sonra öne çıktığını savunuyor. Hawdha, belki de Orta Arabistan'ın en güçlü adamıydı, Pers İmparatorluğu ile ittifak halindeydi ve Yemen ile Irak arasındaki güzergahın bir bölümünde kervanlarının güvenliğini sağlıyordu. Peygamberin elçisine olumlu yanıt verdiği ancak Arap Yarımadası'nda siyasi güçten pay talep ettiği ve İslam'ı kabul etmediği söylenir. Ölümünden sonra, kabilenin göçebe kesimi muhtemelen [[person/thumama-ibn-uthal|Thumamah ibn Uthal'ı]] liderleri olarak tanıdı ve kabilenin ayrıca büyük, yerleşik bir tarım kesimi de vardı. {cite:encyclopaedia-of-islam-2 vol. 7 p. 718}
+
+Bu yoruma göre, Musaylimah, belki de Thumamah'a rakip olarak, peygamberlik iddiasına dayanarak liderlik arayışındaydı. Heyette yer alan ve muhtemelen Medine'dekine benzer şekilde, peygamber merkezli bir siyasi sistem kurması için onu teşvik etmiş olabilecek Rijal ibn Unfuwah'dan güçlü destek aldı. Amacı, Pers İmparatorluğu'nun gerilemesi ve Yemen ile Irak arasındaki ticaretin potansiyel azalması göz önüne alındığında, Yamamah'ta güçlü bir emirlik kurmak gibi görünüyor. {cite:encyclopaedia-of-islam-2 vol. 7 p. 718} {cite:encyclopaedia-of-islam-2 vol. 7 p. 719}
+
+Yazar, hareketin düşmanca İslami propaganda tarafından tamamen gizlenemeyen gerçek bir dini temele sahip olduğunu ekliyor. Beni Hanife'nin çoğu Hristiyandı ve Musaylima'nın Hristiyan fikirlerinden etkilendiği, Cennet Krallığı'ndan bahsettiği, diriliş ve insanların amellerine göre yargılanacağı son bir gün hakkında öğrettiği anlaşılıyor. Takipçilerine günde üç vakit düzenli namaz kılmayı, oruç tutmayı ve alkolden uzak durmayı emretti. Yazar, İbn Hişam'daki karşıt anlatımı propaganda olarak değerlendirerek reddediyor. Ayrıca, Kur'an'ın ilk bölümlerine benzer şekilde kafiyeli nesir kullandı. Makalede, Musaylima'nın onuncu yılın sonlarına doğru Peygamber'e bir güç paylaşımı önerisinde bulunduğu, ancak önerisinin reddedildiği belirtiliyor. Savaştan kısa bir süre önce [[group/banu-tamim|Tamim kabilesinden]] bir peygamber olan [[person/sajah|Sajah ile evlendiği söyleniyor]]. {cite:encyclopaedia-of-islam-2 vol. 7 p. 719}
+
+Makalede, gezgin W. G. Palgrave'in 1862'de Necd'de Musaylimah'ın hâlâ peygamber olarak kabul edildiğini tespit ettiği belirtiliyor. {cite:encyclopaedia-of-islam-2 vol. 7 p. 719}
+
+## Dinden dönme hakkındaki makaleye göre Beni Hanifa ile uzlaşma
+Makale, mürtedlik hakkındaki anlatımların çelişkili ve çoğu zaman bir aşiret liderini yüceltmek veya bir rakibi karalamak amacıyla yazılmış savunmacı veya tartışmacı nitelikte olması nedeniyle olayların yeniden yapılandırılmasının zorluğuna dikkat çekiyor. {cite:encyclopaedia-of-islam-2 vol. 12 p. 766} Makale, Halid'in Beni Hanifa ile yaptığı antlaşmanın, antlaşmanın kapsadığı her köyde kendi seçtiği bir meyve bahçesi ve bir tarlayı almasını şart koştuğunu belirtiyor. Antlaşmanın kapsamı dışında kalan köyler ise yenilginin tüm yükünü çekti: Köylerin sakinleri köleleştirildi ve Beni Tamim'den bir grup oraya yerleşti. Musaylima kasabası olan El-Haddar da antlaşmanın dışındaydı, bu yüzden Halid sakinlerini köleleştirdi ve Beni Tamim'den bir grubu oraya yerleştirdi. Makale, bu değişiklikleri, Beni Tamim'den yerel grupların El-Yamamah'ta Halid ile işbirliğinden nasıl fayda sağladığının kanıtı olarak yorumluyor. {cite:encyclopaedia-of-islam-2 vol. 12 p. 767}
+
+Bu koşullar, el-Baladhuri'nin yukarıdaki uzlaşma bölümünde anlattıklarından farklıdır ve bu sayfa bunlar arasında bir ayrım yapmamaktadır. Makale ayrıca, dinden dönmeyi daha geniş fetihlerin bir öncüsü olarak ele almakta ve annesi Bedevi olan Halid'in bu fetihlerde belirleyici bir rol oynadığını belirtmektedir. {cite:encyclopaedia-of-islam-2 vol. 12 p. 767}
+
+## Tomurcuklar için
+Yamama Muharebesi, Hicri 12 yılında gerçekleşen Mürtedlik Savaşları'ndan biriydi. Ebu Bekir, Musaylima ile savaşması için Halid ibn el-Velid'i Yamama'ya gönderdi. Muharebede Kur'an'ın önde gelen isimleri ve okuyucuları şehit edildi, ardından Müslümanlar toparlandı ve muarbede Musaylima'nın düştüğü, o gün "Ölüm Bahçesi" olarak adlandırılan bir bahçede savaş sona erdi.
+
+## Kaşifler için
+Mürtedlik Savaşları'ndan biri olan Yamama Muharebesi, El-Baladhuri'ye göre, Ebu Bekir'in Halid ibn el-Velid'i Musaylima ile savaşması için Yamama'ya göndermesiyle Hicri 12 yılında (Miladi 630) gerçekleşti. Müslümanlarla ilk karşılaşan Rical ibn Unfuwa oldu ve şehit düştü. Birçok önemli şahsiyet ve Kur'an okuyucusu şehit edildi. Müslümanlar daha sonra toparlandılar ve Allah onlara zafer verdi. Düşmanlarını "Ölüm Bahçesi" olarak bilinen bir bahçeye sürdüler ve Musaylima burada öldürüldü. Onu kimin öldürdüğü konusunda farklı rivayetler vardır; bazıları Hızır ibn Beşir, Abdullah ibn Zeyd ibn Tha'labah, Ebu Dujana ve Vahşi ibn Harb'ı zikrederken, diğerleri hepsinin onun ölümüne katıldığını iddia eder. Şehit edilenler arasında Zeyd ibn el-Hattab, Sabit ibn Kays, Ebu Hudeyfa ibn Utbe ve Ebu Hudeyfa'nın azatlı kölesi Salim de vardı. Muja'a ibn Murara, Halid'e Yamama halkının çoğunun onunla savaşmaya gelmediğini söyledi, bunun üzerine Halid onunla barıştı. Halid daha sonra Bahreyn'e doğru ilerledi ve Yamama'nın yönetimini Samura ibn Amr al-Anbari'ye bıraktı.
+
+## Öğrenenler İçin
+Mürtedlik Savaşlarından biri olan Yamama Muharebesi, el-Baladhuri'ye göre Hicri 12 yılında gerçekleşmiştir. Ebu Bekir, Musaylima ile savaşması için Halid ibn el-Velid'i Yamama'ya göndermiştir. El-Baladhuri, Müslümanlarla ilk karşılaşanın Rıcal ibn Unfuva olduğunu ve öldürüldüğünü anlatır. Birçok önemli şahsiyet ve Kur'an okuyucusu şehit olmuştur, ancak Müslümanlar toparlanmış ve Allah onlara zafer bahşetmiştir. Müslümanlar düşmanlarını "Ölüm Bahçesi" olarak bilinen bir bahçeye sürmüş ve Musaylima burada öldürülmüştür. Musaylima'yı kimin öldürdüğü konusunda farklı rivayetler vardır. Bazıları Hızır ibn Beşir, Abdullah ibn Zeyd ibn Tha'labah, Ebu Dujana ve Vahşi ibn Harb'ı zikrederken, diğerleri hepsinin onun ölümüne katıldığını iddia eder. Şehit olanlar arasında Zeyd ibn el-Hattab, Sabit ibn Kays, Ebu Hudeyfa ibn Utbe ve Ebu Hudeyfa'nın azatlı kölesi Salim de bulunmaktadır. Müca'a ibn Murara, Halid'e Yamama halkının çoğunun onunla savaşmak için dışarı çıkmadığını söyledi ve bu yüzden onunla barıştı. El-Baladhuri'nin anlatımı, Halid'in Yamama valisi olarak atanmasıyla sona erer.
+
+## Halife ibn Khayyat ile
+[[person/khalifa-ibn-khayyat|Halife ibn Hayyat, Ebu Ma'şer'den, o da Zeyd ibn Aslam'dan]] rivayetle, Yamama günü Muhacir ve Ensar'dan yüz kırk kişinin öldürüldüğünü ve öldürülenlerin toplam sayısının dört yüz elli olduğunu; İbn el-Musayyab'dan ise beş yüz kişinin öldürüldüğünü, bunların arasında elli veya otuz kişinin Kur'an ezberci olduğunu nakletmiştir. {cite:tarikh-khalifa-umari-1985 p. 111} Sonra o gün şehit olanların isimlerini sıralamıştır. {cite:tarikh-khalifa-umari-1985 p. 111}
