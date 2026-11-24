@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-13-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل [[passage/quran-84-16|84:16]] إلى [[passage/quran-84-21|84:21]]، غير أن نص الصفحة المحفوظة في موقع التفسير لا يتضمن تعليقاً مستقلاً من الطبري على هذه الآية، فلا يُنسب إليه هنا قول فيها. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=84&tAyahNo=20&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 20 إلى 25 مقطعاً واحداً. يفسّر قوله «فَلاَ أُقْسِمُ بِٱلشَّفَقِ»: وهذا قَسَم أقسم ربنا بالشفق، والشفق: الحمرة في الأفق من ناحية المغرب من الشمس في قول بعضهم. واختلف أهل التأويل في ذلك، فقال بعضهم: هو الحمرة كما قلنا، وممن قال ذلك جماعة من أهل العراق. وقال آخرون: هو النهار. وينقل في المقطع أقوالاً عن ابن عباس ومجاهد وسفيان.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=84&tAyahNo=20&tDisplay=yes&UserProfile=0&LanguageId=1

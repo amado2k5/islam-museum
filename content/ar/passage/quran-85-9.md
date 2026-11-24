@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-13-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل [[passage/quran-85-9|85:9]] إلى [[passage/quran-85-10|85:10]]، وخلاصتها: يفسّر الآية بأن لله سلطان السماوات والأرض، وأنه شاهد على فعل كفار أصحاب الأخدود بالمؤمنين وعلى أفعال خلقه جميعاً ومجازيهم عليها. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=85&tAyahNo=9&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 9 إلى 10 مقطعاً واحداً. يفسّر قوله «ٱلَّذِي لَهُ مُلْكُ ٱلسَّمَاوَاتِ وَٱلأَرْضِ وَٱللَّهُ عَلَى كُلِّ شَيْءٍ شَهِيدٌ»: الذي له سلطان السموات السبع والأرضين وما فيهنّ «وَاللّهُ عَلى كُلِّ شَيْء شَهِيدٌ» يقول تعالى ذكره: والله على فعل هؤلاء الكفار من أصحاب الأخدود بالمؤمنين الذين فتنوهم شاهد، وعلى غير ذلك من أفعالهم وأفعال جميع خلقه، وهو مجازيهم جزاءهم. وقوله: «إنَّ الَّذِينَ فَتَنُوا المُؤْمِنِينَ وَالمُؤْمِناتِ» يقول: إن الذين ابتلوا المؤمنين والمؤمنات بالله بتعذيبهم، وإحراقهم بالنار. وينقل في المقطع أقوالاً عن ابن عباس ومجاهد وقتادة والربيع.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=85&tAyahNo=9&tDisplay=yes&UserProfile=0&LanguageId=1

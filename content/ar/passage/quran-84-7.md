@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-12-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل الآيات [[passage/quran-84-6|84:6]] إلى [[passage/quran-84-7|84:7]]، وخلاصتها: يبيّن الطبري أن من أُعطي كتاب أعماله بيمينه فسوف يحاسب حساباً يسيراً، بأن ينظر في أعماله فيُغفر له سيئها ويُجازى على حسنها، ويروي حديث عائشة عن النبي أن من نوقش الحساب هلك. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=84&tAyahNo=7&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 7 إلى 10 مقطعاً واحداً. يفسّر قوله «يٰأَيُّهَا ٱلإِنسَٰنُ إِنَّكَ كَادِحٌ إِلَىٰ رَبِّكَ كَدْحاً فَمُلاَقِيهِ»: يا أيها الإنسان إنك عامل إلى ربك عملاً فملاقيه به: خيراً كان عملُك ذلك أو شرًّا يقول: فليكن عملُك مما يُنجيك من سُخْطه، ويوجب لك رضاه، ولا يكن مما يُسخطه عليك فتهلك. وينقل في المقطع أقوالاً عن ابن عباس وقتادة وابن زيد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=84&tAyahNo=7&tDisplay=yes&UserProfile=0&LanguageId=1

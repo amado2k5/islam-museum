@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-13-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل [[passage/quran-84-10|84:10]] إلى [[passage/quran-84-15|84:15]]، وخلاصتها: يفسّر دعاء الثبور بأنه نداء بالهلاك، كأن يقول صاحبه واثبوراه واويلاه، ويحيل في معنى الثبور على ما سبق من بيانه، وينقل عن الضحاك أنه يدعو بالهلاك. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=84&tAyahNo=11&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 11 إلى 16 مقطعاً واحداً. يفسّر قوله «وَأَمَّا مَنْ أُوتِيَ كِتَٰبَهُ وَرَآءَ ظَهْرِهِ»: وأما من أعطي كتابه منكم أيها الناس يومئذٍ وراء ظهره، وذلك أن جعل يده اليمنى إلى عنقه، وجعل الشمال من يديه وراء ظهره، فيتناول كتابه بشماله من وراء ظهره، ولذلك وصفهم جلّ ثناؤه أحياناً، أنهم يُؤْتَوْن كتُبَهُم بشمائلهم، وأحياناً أنهم يُؤتَوْنَها من وراء ظهورهم. وينقل في المقطع أقوالاً عن مجاهد وقتادة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=84&tAyahNo=11&tDisplay=yes&UserProfile=0&LanguageId=1

@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-13-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل [[passage/quran-85-6|85:6]] إلى [[passage/quran-85-8|85:8]]، وخلاصتها: يبيّن أن الكفار لم يجدوا على المؤمنين والمؤمنات في شيء ولا فعلوا بهم ما فعلوا إلا لأنهم آمنوا بالله، ويفسّر العزيز بالشديد في انتقامه والحميد بالمحمود بإحسانه إلى خلقه. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=85&tAyahNo=8&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 6 إلى 8 مقطعاً واحداً. يفسّر قوله «وَمَا نَقَمُواْ مِنْهُمْ إِلاَّ أَن يُؤْمِنُواْ بِٱللَّهِ ٱلْعَزِيزِ ٱلْحَمِيدِ»: وما وجد هؤلاء الكفار الذين فتنوا المؤمنين على المؤمنين والمؤمنات بالنار في شيء، ولا فعلوا بهم ما فعلوا بسبب إلاَّ من أجل أنهم آمنوا بالله، وقال: إلاَّ أن يؤمنوا بالله، لأن المعنى إلاَّ إيمانهم بالله، فلذلك حسن في موضعه يؤمنوا، إذ كان الإيمان لهم صفة. «الْعَزِيزِ» يقول: الشديد في انتقامه ممن انتقم منه «الْحَمِيدِ» يقول: المحمود بإحسانه إلى خلقه. وينقل في المقطع أقوالاً عن قتادة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=85&tAyahNo=8&tDisplay=yes&UserProfile=0&LanguageId=1
