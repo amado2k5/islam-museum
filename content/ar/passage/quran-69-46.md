@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-12-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل الآيات [[passage/quran-69-43|69:43]] إلى [[passage/quran-69-46|69:46]]، وخلاصتها: يذكر الطبري أنه لو فعل ذلك لقطع الله منه الوتين، وهو نياط القلب، أي لأهلكه معاجلة. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=69&tAyahNo=46&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 43 إلى 46 مقطعاً واحداً. يفسّر قوله «ثُمَّ لَقَطَعْنَا مِنْهُ ٱلْوَتِينَ»: عرق القلب. ثني أبي، قال: ثني عمي، قال: ثني أبي، عن أبيه، عن ابن عباس، قوله «ثُمَّ لَقَطَعْنا مِنْهُ الوَتِينَ» يعني: عرقاً في القلب، ويقال: هو حبل في القلب. وعن ابن أبي نجيح، عن مجاهد، قوله: «الوَتِينَ» قال: حبل القلب الذي في الظهر. وعن قتادة، قوله: «ثُمَّ لَقَطَعْنا مِنْهُ الوَتِينَ» قال: حبل القلب. حُدثت عن الحسين، قال: سمعت أبا معاذ يقول: سمعت الضحاك يقول في قوله: «لَقَطَعْنا مِنْهُ الوَتِينَ» وتين القلب: وهو عرق يكون في القلب، فإذا قطع مات الإنسان. وينقل في المقطع أقوالاً عن ابن عباس ومجاهد وقتادة وسعيد بن جبير وابن زيد وعطاء.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=69&tAyahNo=46&tDisplay=yes&UserProfile=0&LanguageId=1

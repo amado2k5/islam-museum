@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-12-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل الآيات [[passage/quran-68-44|68:44]] إلى [[passage/quran-68-45|68:45]]، وخلاصتها: يفسّر الطبري هذه الآية بأن الله يأمر نبيه محمداً بأن يترك له أمر المكذّبين بالقرآن، على معنى دعني وإياه، وأن الله من وراء مساءتهم. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=68&tAyahNo=44&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 44 إلى 45 مقطعاً واحداً. يفسّر قوله «فَذَرْنِي وَمَن يُكَذِّبُ بِهَٰذَا ٱلْحَدِيثِ سَنَسْتَدْرِجُهُمْ مِّنْ حَيْثُ لاَ يَعْلَمُونَ»: كلْ يا محمد أمر هؤلاء المكذّبين بالقرآن إليّ وهذا كقول القائل لآخر غيره يتوعد رجلاً: دعني وإياه، وخلّني وإياه، بمعنى: أنه من وراء مساءته. و «مَن» في قوله: «وَمَنْ يُكَذّبُ بِهَذَا الْحَدِيثِ» في موضع نصب، لأن معنى الكلام ما ذكرت، وهو نظير قولهم: لو تُرِكْتَ ورأيَك ما أفلحت. والعرب تنصب «ورأيك»، لأن معنى الكلام: لو وكلتك إلى رأيك لم تفلح. وقوله: «سَنَسْتَدْرِجِهُمْ مِنْ حَيْثُ لا يَعْلَمُونَ» يقول جلّ ثناؤه: سنكيدهم من حيث لا يعلمون، وذلك بأن يمتعهم بمتاع الدنيا حتى يظنوا أنهم متعوا به بخير لهم عند الله، فيتمادوا في طغيانهم، ثم يأخذهم بغتة وهم لا يشعرون. وقوله:
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=68&tAyahNo=44&tDisplay=yes&UserProfile=0&LanguageId=1

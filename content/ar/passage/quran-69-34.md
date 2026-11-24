@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-12-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل الآيات [[passage/quran-69-34|69:34]] إلى [[passage/quran-69-37|69:37]]، وخلاصتها: يبيّن الطبري أنه كان في الدنيا لا يحض الناس على إطعام أهل المسكنة والحاجة. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=69&tAyahNo=34&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 34 إلى 37 مقطعاً واحداً. يفسّر قوله «وَلاَ يَحُضُّ عَلَىٰ طَعَامِ ٱلْمِسْكِينِ»: يقول تعالى ذكره مخبراً عن هذا الشقيّ الذي أوتي كتابه بشماله: إنه كان في الدنيا لا يحضُّ الناس على إطعام أهل المسكنة والحاجة. وقوله: «فَلَيْسَ لَهُ اليَوْمَ هَهُنا حَمِيمٌ» يقول جلّ ثناؤه: فليس له اليوم وذلك يوم القيامة ها هنا، يعني في الدار الآخرة حميم، يعني قريب يدفع عنه، ويغيثه مما هو فيه من البلاء، كما: قال ابن زيد، في قوله: «فَلَيْسَ لَهُ اليَوْمَ ههُنا حَمِيمٌ» القريب في كلام العرب وينقل في المقطع أقوالاً عن ابن عباس وقتادة وابن زيد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=69&tAyahNo=34&tDisplay=yes&UserProfile=0&LanguageId=1

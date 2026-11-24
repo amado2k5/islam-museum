@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-12-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل الآيات [[passage/quran-69-5|69:5]] إلى [[passage/quran-69-8|69:8]]، وخلاصتها: يذكر الطبري أن ثمود أهلكوا بالطاغية، ويعرض اختلاف أهل التأويل: فيروي عن مجاهد وابن زيد أن المراد طغيانهم وكفرهم وذنوبهم، ويعرض غير ذلك من الأقوال. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=69&tAyahNo=5&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 5 إلى 8 مقطعاً واحداً. يفسّر قوله «فَأَمَّا ثَمُودُ فَأُهْلِكُواْ بِٱلطَّاغِيَةِ»: «فأمَّا ثَمُودُ» قوم صالح، فأهلكهم الله بالطاغية. واختلف في معنى الطاغية التي أهلك الله بها ثمود أهل التأويل، فقال بعضهم: هي طغيانهم وكفرهم بالله. وينقل في المقطع أقوالاً عن ابن عباس ومجاهد وقتادة وابن زيد وسفيان.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=69&tAyahNo=5&tDisplay=yes&UserProfile=0&LanguageId=1

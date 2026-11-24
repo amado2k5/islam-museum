@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-11-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن الله ضرب مثلاً للذين آمنوا مريم ابنة عمران التي أحصنت فرجها، أي منعت جيب درعها جبريل، وأن الفرج يسمى كل خرق أو فتق في الدرع، فنفخ الله في جيبها من روحه، وصدّقت بكلمات ربها وكتبه وكانت من القانتين. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=66&tAyahNo=12&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَمَرْيَمَ ٱبْنَتَ عِمْرَانَ ٱلَّتِيۤ أَحْصَنَتْ فَرْجَهَا فَنَفَخْنَا فِيهِ مِن رُّوحِنَا وَصَدَّقَتْ بِكَلِمَاتِ رَبِّهَا وَكُتُبِهِ وَكَانَتْ مِنَ ٱلْقَانِتِينَ»: «وَضَرَبَ اللَّهُ مَثَلاً لِلَّذِينَ آمَنُوا مَرْيَمَ ابْنَةَ عِمْرَانَ الَّتِي أحْصَنَتْ فَرْجَها» يقول: التي منعت جيب درعها جبريل، وكلّ ما كان في الدرع من خرق أو فتق، فإنه يسمى فَرْجاً، وكذلك كلّ صدع وشقّ في حائط، أو فرج سقف فهو فرج. وقوله: «فَنَفَخْنا فِيهِ منْ رُوحِنا» يقول: فنفخنا فيه في جيب درعها، وذلك فرجها، من روحنا من جبرئيل، وهو الروح. وينقل في المقطع أقوالاً عن قتادة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=66&tAyahNo=12&tDisplay=yes&UserProfile=0&LanguageId=1

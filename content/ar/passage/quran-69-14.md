@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-12-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل الآيات [[passage/quran-69-13|69:13]] إلى [[passage/quran-69-15|69:15]]، وخلاصتها: يبيّن الطبري أن الأرض والجبال تُحمل فتُدكّ دكة واحدة، أي تزلزل زلزلة واحدة، ويروي عن ابن زيد أنها تصير غباراً، ويشرح مجيء الفعل بالتثنية. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=69&tAyahNo=14&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 13 إلى 15 مقطعاً واحداً. يفسّر قوله «وَحُمِلَتِ ٱلأَرْضُ وَٱلْجِبَالُ فَدُكَّتَا دَكَّةً وَاحِدَةً»: فزلزلتا زلزلة واحدة. وكان ابن زيد يقول في ذلك ما: قال ابن زيد، في قوله: «وحُمِلَتِ الأرْضُ والجِبالُ فَدُكَّتا دَكَّةً وَاحِدَةً» قال: صارت غباراً. وقيل: «فَدُكَّتا» وقد ذكر قبل الجبال والأرض، وهي جماع، ولم يقل: فدككن، لأنه جعل الجبال كالشيء الواحد، كما قال الشاعر:هُمَا سَيِّدَانِ يَزْعُمانِ وإنَّما يَسُودانِنا إنْ يَسَّرَتْ غَنَماهُمَا وكما قيل:«أنَّ السَّمَوَاتِ والأرْضَ كانَتا رَتْقاً» وينقل في المقطع أقوالاً عن ابن زيد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=69&tAyahNo=14&tDisplay=yes&UserProfile=0&LanguageId=1

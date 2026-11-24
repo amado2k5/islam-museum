@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-12-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل الآيات [[passage/quran-69-43|69:43]] إلى [[passage/quran-69-46|69:46]]، وخلاصتها: يشرح الطبري معنى الأخذ باليمين بوجهين: الأخذ بالقوة والقدرة، أو الأخذ باليد اليمنى على سبيل المثل في الإذلال. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=69&tAyahNo=45&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 43 إلى 46 مقطعاً واحداً. يفسّر قوله «لأَخَذْنَا مِنْهُ بِٱلْيَمِينِ»: لأخذنا منه بالقوّة منا والقدرة، ثم لقطعنا منه نياط القلب. وإنما يعني بذلك أنه كان يعاجله بالعقوبة، ولا يؤخره بها. وقد قيل: إن معنى قوله «لأخَذْنَا مِنْهُ باليَمِينِ»: لأخذنا منه باليد اليمنى من يديه قالوا: وإنما ذلك مثل، ومعناه: إنا كنا نذله ونهينه، ثم نقطع منه بعد ذلك الوتين قالوا: وإنما ذلك كقول ذي السلطان إذا أراد الاستخفاف ببعض من بين يديه لبعض أعوانه، خذ بيده فأقمه، وافعل به كذا وكذا قالوا: وكذلك معنى قوله: «لأَخَذْنا مِنْهُ باليَمِين»: أي لأهناه كالذي يفعل بالذي وصفنا حاله. وينقل في المقطع أقوالاً عن ابن عباس ومجاهد وقتادة وسعيد بن جبير وابن زيد وعطاء.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=69&tAyahNo=45&tDisplay=yes&UserProfile=0&LanguageId=1

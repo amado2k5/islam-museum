@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-12-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل الآيات [[passage/quran-68-21|68:21]] إلى [[passage/quran-68-25|68:25]]، وخلاصتها: يبيّن الطبري أن أصحاب الجنة نادى بعضهم بعضاً بعد أن أصبحوا، وهم عازمون على الغدو إلى زرعهم. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=68&tAyahNo=21&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 21 إلى 25 مقطعاً واحداً. يفسّر قوله «فَتَنَادَوْاْ مُصْبِحِينَ»: فتنادى هؤلاء القوم وهم أصحاب الجنة. يقول: نادى بعضهم بعضاً «مصبحين» يقول: بعد أن أصبحوا «أن اغْدُوا على حَرْثِكُمْ» وذلك الزرع «إنْ كُنْتُمْ صَارِمِينَ» يقول: إن كنتم حاصدي زرعكم وينقل في المقطع أقوالاً عن ابن عباس ومجاهد وقتادة والحسن وابن زيد وإبراهيم وغيرهم.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=68&tAyahNo=21&tDisplay=yes&UserProfile=0&LanguageId=1

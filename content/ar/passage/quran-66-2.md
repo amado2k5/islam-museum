@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-11-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن الله قد بيّن للمؤمنين تحلّة أيمانهم وحدّها، والله مولاهم يتولاهم بنصره، وهو العليم بمصالحهم الحكيم في تدبيره إياهم وفيما يصرفهم فيه. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=66&tAyahNo=2&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «قَدْ فَرَضَ ٱللَّهُ لَكُمْ تَحِلَّةَ أَيْمَانِكُمْ وَٱللَّهُ مَوْلاَكُمْ وَهُوَ ٱلْعَلِيمُ ٱلْحَكِيمُ»: قد بين الله عزّ وجلّ لكم تحلة أيمانكم، وحدّها لكم أيها الناس «وَاللَّهُ مَوْلاكُمْ» يتولاكم بنصره أيها المؤمنون «وَهُوَ العَلِيمُ» بمصالحكم «الْحَكِيمُ» في تدبيره إياكم، وصرفكم فيما هو أعلم به.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=66&tAyahNo=2&tDisplay=yes&UserProfile=0&LanguageId=1

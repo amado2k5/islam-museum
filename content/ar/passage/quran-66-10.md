@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-11-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن الله ضرب مثلاً للذين كفروا امرأة نوح وامرأة لوط كانتا تحت عبدين من عباده نوح ولوط فخانتاهما، وخيانة امرأة نوح أنها كانت كافرة تقول للناس إنه مجنون، وخيانة امرأة لوط أن لوطاً كان يسرّ الضيف وهي تدلّ عليه، فلم يغنيا عنهما من الله شيئاً. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=66&tAyahNo=10&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «ضَرَبَ ٱللَّهُ مَثَلاً لِّلَّذِينَ كَفَرُواْ ٱمْرَأَتَ نُوحٍ وَٱمْرَأَتَ لُوطٍ كَانَتَا تَحْتَ عَبْدَيْنِ مِنْ عِبَادِنَا صَالِحَيْنِ فَخَانَتَاهُمَا فَلَمْ يُغْنِيَا عَنْهُمَا مِنَ ٱللَّهِ شَيْئاً وَقِيلَ ٱدْخُلاَ ٱلنَّارَ مَعَ ٱلدَّاخِلِينَ»: مَثَّل الله مثلاً للذين كفروا من الناس وسائر الخلق امرأة نوح وامرأة لوط، كانتا تحت عبدين من عبادنا، وهما نوح ولوط فخانتاهما. ذُكر أن خيانة امرأة نوح زوجها أنها كانت كافرة، وكانت تقول للناس: إنه مجنون. وأن خيانة إمرأة لوط، أن لوطا كان يُسِرّ الضيف، وتَدُلّ عليه. وينقل في المقطع أقوالاً عن ابن عباس والضحاك وعكرمة وسفيان.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=66&tAyahNo=10&tDisplay=yes&UserProfile=0&LanguageId=1

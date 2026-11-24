@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-12-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل الآيات [[passage/quran-68-40|68:40]] إلى [[passage/quran-68-41|68:41]]، وخلاصتها: يذكر الطبري أن الله يأمر نبيه محمداً بأن يسأل المشركين أيهم كفيل بذلك الحكم، والزعيم عند العرب الضامن والمتكلم عن القوم، ويروي عن ابن عباس هذا المعنى. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=68&tAyahNo=40&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 40 إلى 41 مقطعاً واحداً. يفسّر قوله «سَلْهُمْ أَيُّهُم بِذَلِكَ زَعِيمٌ»: سل يا محمد هؤلاء المشركين أيهم بأن لهم علينا أيماناً بالغة بحكمهم إلى يوم القيامة «زَعِيمٌ» يعني: كفيل به، والزعيم عند العرب: الضامن والمتكلم عن القوم، كما: ثني أبي، قال: ثني عمي، قال: ثني أبي، عن أبيه، عن ابن عباس، قوله: «أيُّهُمْ بذَلكَ زَعِيمٌ» يقول: أيهم بذلك كفيل. وعن قتادة في قوله: «سَلْهُمْ أيُّهُمْ بِذَلكَ زَعِيمٌ» يقول: أيهم بذلك كفيل. وقوله: وينقل في المقطع أقوالاً عن ابن عباس وقتادة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=68&tAyahNo=40&tDisplay=yes&UserProfile=0&LanguageId=1

@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-12-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل الآيات [[passage/quran-69-21|69:21]] إلى [[passage/quran-69-24|69:24]]، وخلاصتها: يذكر الطبري أن قطوف الجنة قريبة من قاطفها، يتناولها كيف شاء قائماً وقاعداً دون أن يمنعه بعد أو شوك، ويروي عن البراء أن الرجل يتناول من فواكهها وهو نائم. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=69&tAyahNo=23&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 21 إلى 24 مقطعاً واحداً. يفسّر قوله «قُطُوفُهَا دَانِيَةٌ»: ما يقطف من الجنة من ثمارها دانٍ قريب من قاطفه. وذُكر أن الذي يريد ثمرها يتناوله كيف شاء قائماً وقاعداً، لا يمنعه منه بُعد، ولا يحول بينه وبينه شوك. وينقل في المقطع أقوالاً عن قتادة وابن زيد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=69&tAyahNo=23&tDisplay=yes&UserProfile=0&LanguageId=1

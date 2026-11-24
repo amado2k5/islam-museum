@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-12-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل الآيات [[passage/quran-69-1|69:1]] إلى [[passage/quran-69-4|69:4]]، وخلاصتها: يبيّن الطبري أن تكرار لفظ الحاقة في صورة سؤال للتعظيم والتهويل من شأنها، ويشرح وجه الإعراب في الحاقة الأولى والثانية. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=69&tAyahNo=2&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 1 إلى 4 مقطعاً واحداً. يفسّر قوله «مَا ٱلْحَآقَّةُ»: أيّ شيء الساعة الحاقة. وذُكر عن العرب أنها تقول: لما عرف الحاقة متى والحقة متى، وبالكسر بمعنى واحد في اللغات الثلاث، وتقول: وقد حقّ عليه الشيء إذا وجب، فهو يحقّ حقوقاً. والحاقة الأولى مرفوعة بالثانية، لأن الثانية بمنزلة الكناية عنها، كأنه عجب منها، فقال: الحاقة: ما هي كما يقال: زيد ما زيد. والحاقة الثانية مرفوعة بما، وما بمعنى أي، وما رفع بالحاقة الثانية، ومثله في القرآن«وأصحَابُ اليَمِين ما أصحَابُ اليَمِينِ» و«القارِعَةُ ما القارِعَةُ» فما في موضع رفع بالقارعة الثانية والأولى بجملة الكلام بعدها. وينقل في المقطع أقوالاً عن ابن عباس وقتادة وابن زيد وسفيان.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=69&tAyahNo=2&tDisplay=yes&UserProfile=0&LanguageId=1

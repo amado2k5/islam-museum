@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-11-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن الله يأمر نبيه أن يقول للمشركين: أرأيتم إن أهلكني الله ومن معي فأماتنا أو رحمنا فأخّر في آجالنا، فمن يجير الكافرين من عذاب أليم وهو عذاب النار، أي ليس ينجّي الكفار من عذاب الله موتنا ولا حياتنا. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=67&tAyahNo=28&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «قُلْ أَرَأَيْتُمْ إِنْ أَهْلَكَنِيَ ٱللَّهُ وَمَن مَّعِيَ أَوْ رَحِمَنَا فَمَن يُجِيرُ ٱلْكَافِرِينَ مِنْ عَذَابٍ أَلِيمٍ»: «قُلْ» يا محمد للمشركين من قومك: «أرأَيْتُمْ» أيها الناس «إنْ أهْلَكَنِيَ اللَّهُ» فأماتني «وَمَنْ مَعي أوْ رَحِمَنَا» فأخرَّ في آجالنا «فَمَنْ يُجِيرُ الكافِرِينَ» بالله «مِنْ عَذَاب» موجع مؤلم، وذلك عذاب النار. يقول: ليس ينجى الكفار من عذاب الله موتُنا وحياتنا، فلا حاجة بكم إلى أن تستعجلوا قيام الساعة، ونزول العذاب، فإن ذلك غير نافعكم، بل ذلك بلاء عليكم عظيم.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=67&tAyahNo=28&tDisplay=yes&UserProfile=0&LanguageId=1

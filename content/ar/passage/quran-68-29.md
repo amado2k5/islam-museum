@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-12-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل الآيات [[passage/quran-68-29|68:29]] إلى [[passage/quran-68-31|68:31]]، وخلاصتها: يذكر الطبري أن أصحاب الجنة قالوا تنزيهاً لله إنا كنا ظالمين في تركنا الاستثناء والتسبيح. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=68&tAyahNo=29&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 29 إلى 31 مقطعاً واحداً. يفسّر قوله «قَالُواْ سُبْحَانَ رَبِّنَآ إِنَّا كُنَّا ظَالِمِينَ»: قال أصحاب الجنة: «سُبْحانَ رَبِّنا إنَّا كُنَّا ظالِمِينَ» في تركنا الاستثناء في قسمنا وعزمنا على ترك إطعام المساكين من ثمر جنتنا. وقوله:
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=68&tAyahNo=29&tDisplay=yes&UserProfile=0&LanguageId=1
