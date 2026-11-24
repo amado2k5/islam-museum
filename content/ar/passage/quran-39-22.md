@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-9-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن من شرح الله صدره للإسلام فهو على نور من ربه كمن قسا قلبه، فويل للقاسية قلوبهم من ذكر الله أولئك في ضلال مبين. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=39&tAyahNo=22&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «أَفَمَن شَرَحَ ٱللَّهُ صَدْرَهُ لِلإِسْلاَمِ فَهُوَ عَلَىٰ نُورٍ مِّن رَّبِّهِ فَوَيْلٌ لِّلْقَاسِيَةِ قُلُوبُهُمْ مِّن ذِكْرِ ٱللَّهِ أُوْلَٰئِكَ فِي ضَلاَلٍ مُّبِينٍ»: أفمن فَسَح الله قلبه لمعرفته، والإقرار بوحدانيته، والإذعان لربوبيته، والخضوع لطاعته «فَهُوَ عَلى نُورٍ مِنْ رَبِّهِ» يقول: فهو على بصيرة مما هو عليه ويقين، بتنوير الحقّ في قلبه، فهو لذلك لأمر الله متبع، وعما نهاه عنه منته فيما يرضيه، كمن أقسى الله قلبه، وأخلاه من ذكره، وضيَّقه عن استماع الحق، واتِّباع الهدى، والعمل بالصواب؟ وترك ذكر الذي أقسى الله قلبه، وجوابَ الاستفهام اجتزاء بمعرفة السامعين المراد من الكلام، إذ ذكر أحد الصنفين، وجعل مكان ذكر الصنف الآخر الخبر عنه بقوله: «فَوَيْلٌ للْقاسِيَةِ قُلُوبُهمْ مِنْ ذِكْرِ اللّهِ». وينقل في المقطع أقوالاً عن مجاهد وقتادة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=39&tAyahNo=22&tDisplay=yes&UserProfile=0&LanguageId=1

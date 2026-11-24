@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-9-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن الله أهلك من قبل مشركي قريش كثيراً من القرون الذين سلكوا سبيلهم في تكذيب الرسل، فنادوا ولات حين مناص أي استغاثوا حين لا ينفع الاستغاثة. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=38&tAyahNo=3&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «كَمْ أَهْلَكْنَا مِن قَبْلِهِم مِّن قَرْنٍ فَنَادَواْ وَّلاَتَ حِينَ مَنَاصٍ»: كثيراً أهلكنا من قبل هؤلاء المشركين من قريش الذين كذّبوا رسولنا محمداً فيما جاءهم به من عندنا من الحقّ «مِنْ قَرْنٍ» يعني: من الأمم الذين كانوا قبلهم، فسلكوا سبيلهم في تكذيب رسلهم فيما أتوهم به من عند الله «فَنادَوْا» يقول: فعجوا إلى ربهم وضجوا واستغاثوا بالتوبة إليه، حين نزل بهم بأس الله وعاينوا به عذابه فراراً من عقابه، وهرباً من أليم عذابه «وَلاتَ حِينَ مَناصٍ» يقول: وليس ذلك حين فرار ولا هرب من العذاب بالتوبة، وقد حقَّت كلمة العذاب عليهم، وتابوا حين لا تنفعهم التوبة، واستقالوا في غير وقت الإقالة. وينقل في المقطع أقوالاً عن ابن عباس ومجاهد وقتادة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=38&tAyahNo=3&tDisplay=yes&UserProfile=0&LanguageId=1

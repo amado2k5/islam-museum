@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-9-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يأمر الله نبيه أن يقول إنما أنا منذر وما من إله إلا الله الواحد القهار، رب السماوات والأرض وما بينهما العزيز الغفار. وهذا التفسير مشترك بين الآيتين 65 و66. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=38&tAyahNo=65&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 65 إلى 66 مقطعاً واحداً. يفسّر قوله «قُلْ إِنَّمَآ أَنَاْ مُنذِرٌ وَمَا مِنْ إِلَٰهٍ إِلاَّ ٱللَّهُ ٱلْوَاحِدُ ٱلْقَهَّارُ»: «قُلْ» يا محمد لمشركي قومك: «إنَّمَا أنا مُنْذِرٌ» لكم يا معشر قريش بين يدي عذاب شديد، أنذركم عذاب الله وسخطه أن يحلّ بكم على كفركم به، فاحذروه وبادروا حلوله بكم بالتوبة «وَما مِنْ إلَهٍ إلاَّ اللّهُ الوَاحِدُ القهَّارُ» يقول: وما من معبود تصلح له العبادة، وتنبغي له الربوبية، إلا الله الذي يدين له كلّ شيء، ويعبدهُ كلّ خلق، الواحد الذي لا ينبغي أن يكون له في ملكه شريك، ولا ينبغي أن تكون له صاحبة، القهار لكلّ ما دونه بقدرته، ربّ السموات والأرض، يقول: مالك السموات والأرض وما بينهما من الخلق يقول: فهذا الذي هذه صفته، هو الإله الذي لا إله سواه، لا الذي لا يملك شيئاً، ولا يضرّ، ولا ينفع.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=38&tAyahNo=65&tDisplay=yes&UserProfile=0&LanguageId=1

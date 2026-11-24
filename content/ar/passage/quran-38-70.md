@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-9-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-لم يُفرد الطبري لهذه الآية تعليقاً مستقلاً في الصفحة المحفوظة، بل جاء تفسيرها ضمن تفسير الآيات 67–70. يأمر الله نبيه أن يقول لقومه إن القرآن نبأ عظيم أنتم عنه معرضون، وما كان لي من علم بالملأ الأعلى إذ يختصمون، إن يوحى إليّ إلا أنما أنا نذير مبين. وهذا التفسير مشترك بين الآيات 67 إلى 70. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=38&tAyahNo=70&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 70 إلى 73 مقطعاً واحداً. يفسّر قوله «قُلْ هُوَ نَبَأٌ عَظِيمٌ»: «قُلْ» يا محمد لقومك المكذّبيك فيما جئتهم به من عند الله من هذا القرآن، القائلين لك فيه: إن هذا إلا اختلاق «هُوَ نَبأٌ عَظِيمٌ» يقول: هذا القرآن خبر عظيم. وينقل في المقطع أقوالاً عن ابن عباس ومجاهد وقتادة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=38&tAyahNo=70&tDisplay=yes&UserProfile=0&LanguageId=1

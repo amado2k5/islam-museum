@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-9-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يذكر الطبري أن هذا مثل ضربه الخصمان لداود، فقال أحدهما إن هذا أخي له تسع وتسعون نعجة ولي نعجة واحدة فقال أكفلنيها وعزّني في الخطاب، ويورد روايات في سبب ذلك. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=38&tAyahNo=23&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «إِنَّ هَذَآ أَخِي لَهُ تِسْعٌ وَتِسْعُونَ نَعْجَةً وَلِي نَعْجَةٌ وَاحِدَةٌ فَقَالَ أَكْفِلْنِيهَا وَعَزَّنِي فِي ٱلْخِطَابِ»: وهذا مثل ضربه الخصم المتسوّرون على داود محرابه له، وذلك أن داود كانت له فيما قيل: تسع وتسعون امرأة، وكانت للرجل الذي أغزاه حتى قُتل امرأة واحدة فلما قُتل نكح فيما ذُكر داود امرأته، فقال له أحدهما: «إنَّ هَذَا أخي» يقول: أخي على ديني، كما: عن ابن إسحاق، عن بعض أهل العلم، عن وهب بن مبنه: «إنَّ هَذَا أَخي»: أي على ديني «لَهُ تِسْعٌ وَتِسْعُونَ نَعْجَةً ولي نَعْجَةٌ وَاحِدَةٌ». وينقل في المقطع أقوالاً عن ابن عباس وقتادة والضحاك وابن زيد والأعمش وابن إسحاق.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=38&tAyahNo=23&tDisplay=yes&UserProfile=0&LanguageId=1

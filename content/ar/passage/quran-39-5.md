@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-9-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن الله خلق السماوات والأرض بالحق يكوّر الليل على النهار ويكوّر النهار على الليل أي يغشّي هذا على هذا، وسخّر الشمس والقمر كل يجري لأجل مسمى، ألا هو العزيز الغفار. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=39&tAyahNo=5&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «خَلَقَ ٱلسَّمَٰوَٰتِ وَٱلأَرْضَ بِٱلْحَقِّ يُكَوِّرُ ٱللَّيْلَ عَلَى ٱلنَّهَارِ وَيُكَوِّرُ ٱلنَّهَارَ عَلَى ٱللَّيْلِ وَسَخَّرَ ٱلشَّمْسَ وَٱلْقَمَرَ كُلٌّ يَجْرِي لأَجَلٍ مُّسَمًّى أَلا هُوَ ٱلْعَزِيزُ ٱلْغَفَّارُ»: يقول تعالى ذكره واصفاً نفسه بصفتها: «خَلَقَ السَّمَوَاتِ والأرْضَ بالحَقّ يَكُوِّرُ اللَّيْلَ على النهارِ وَيُكَوّرُ النَّهارَ على اللَّيْلِ» يقول: يغشِّي هذا على هذا، وهذا على هذا، كما قال «يُولِجُ اللَّيْلَ فِي النَّهارِ وَيُولِجُ النَّهارَ فِي اللَّيْلِ» وينقل في المقطع أقوالاً عن ابن عباس ومجاهد وقتادة وابن زيد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=39&tAyahNo=5&tDisplay=yes&UserProfile=0&LanguageId=1

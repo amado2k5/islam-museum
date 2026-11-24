@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-10-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يذكر الطبري أن النبي يُؤمر بأن يدعو الله فاطر السماوات والأرض عالم الغيب والشهادة، وأنه سبحانه يحكم بين عباده يوم القيامة فيما كانوا فيه يختلفون، ويفسّر الغيب بما لا تراه الأبصار والشهادة بما تشهده. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=39&tAyahNo=46&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «قُلِ ٱللَّهُمَّ فَاطِرَ ٱلسَّمَٰوَٰتِ وَٱلأَرْضِ عَالِمَ ٱلْغَيْبِ وَٱلشَّهَادَةِ أَنتَ تَحْكُمُ بَيْنَ عِبَادِكَ فِي مَا كَانُواْ فِيهِ يَخْتَلِفُونَ»: قل يا محمد، الله خالق السموات والأرض «عالمَ الغَيْبِ والشَّهادَةِ» الذي لا تراه الأبصار، ولا تحسه العيون والشهادة الذي تشهده أبصار خلقه، وتراه أعينهم «أنْتَ تَحْكُمُ بينَ عِبادِكَ» فتفصل بينهم بالحقّ يوم تجمعهم لفصل القضاء بينهم «فيما كانُوا فِيهِ» في الدنيا «يَخْتَلِفُونَ» من القول فيك، وفي عظمتك وسلطانك، وغير ذلك من اختلافهم بينهم، فتقضي يومئذ بيننا وبين هؤلاء المشركين الذين إذا ذكرت وحدك اشمأزّت قلوبهم، وإذا ذكر مَنْ دونك استبشروا بالحقّ.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=39&tAyahNo=46&tDisplay=yes&UserProfile=0&LanguageId=1

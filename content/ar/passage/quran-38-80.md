@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-9-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن الله قال لإبليس إنك من المنظرين إلى يوم الوقت المعلوم، فقال فبعزتك لأغوينهم أجمعين إلا عبادك منهم المخلصين. وهذا التفسير مشترك بين الآيات 80 إلى 83. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=38&tAyahNo=80&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 80 إلى 83 مقطعاً واحداً. يفسّر قوله «قَالَ فَإِنَّكَ مِنَ ٱلْمُنظَرِينَ»: قال الله لإبليس: فإنك ممن أنظرته إلى يوم الوقت المعلوم، وذلك الوقت الذي جعله الله أجلاً لهلاكه. وقد بيَّنت وقت ذلك فيما مضى على اختلاف أهل العلم فيه وقال: «فَبِعِزَّتِكَ لاَغْوِيَنَّهُمْ أجمَعِينَ» يقول تعالى ذكره: قال إبليس: فبعزّتك: أي بقدرتك وسلطانك وقهرك ما دونك من خلقك «لاَغْوِينَّهُمْ أجمَعِينَ» يقول: لأُضلَّنّ بني آدم أجمعين وينقل في المقطع أقوالاً عن قتادة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=38&tAyahNo=80&tDisplay=yes&UserProfile=0&LanguageId=1

@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-9-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن الإنسان إذا مسّه ضرّ دعا ربه منيباً إليه، ثم إذا خوّله نعمة منه نسي ما كان يدعو إليه من قبل وجعل لله أنداداً ليضل عن سبيله، قل تمتع بكفرك قليلاً إنك من أصحاب النار. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=39&tAyahNo=8&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَإِذَا مَسَّ ٱلإِنسَانَ ضُرٌّ دَعَا رَبَّهُ مُنِيباً إِلَيْهِ ثُمَّ إِذَا خَوَّلَهُ نِعْمَةً مِّنْهُ نَسِيَ مَا كَانَ يَدْعُوۤ إِلَيْهِ مِن قَبْلُ وَجَعَلَ لِلَّهِ أَندَاداً لِّيُضِلَّ عَن سَبِيلِهِ قُلْ تَمَتَّعْ بِكُفْرِكَ قَلِيلاً إِنَّكَ مِنْ أَصْحَابِ ٱلنَّارِ»: وإذا مسّ الإنسان بلاء في جسده من مرض، أو عاهة، أو شدّة في معيشته، وجهد وضيق «دَعا رَبَّهُ» يقول: استغاث بربه الذي خلقه من شدّة ذلك، ورغب إليه في كشف ما نزل به من شدّة ذلك. وقوله: «مُنِيباً إلَيْهِ» يقول: تائباً إليه مما كان من قبل ذلك عليه من الكفر به، وإشراك الآلهة والأوثان به في عبادته، راجعاً إلى طاعته. وينقل في المقطع أقوالاً عن قتادة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=39&tAyahNo=8&tDisplay=yes&UserProfile=0&LanguageId=1

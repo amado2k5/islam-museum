@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-9-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن الله غفر لداود ذلك وأن له عنده لزلفى أي قربى يوم القيامة وحسن مآب، وأنه جعله خليفة في الأرض فاحكم بين الناس بالحق ولا تتبع الهوى. وهذا التفسير مشترك بين الآيتين 25 و26. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=38&tAyahNo=25&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 25 إلى 26 مقطعاً واحداً. يفسّر قوله «فَغَفَرْنَا لَهُ ذَلِكَ وَإِنَّ لَهُ عِندَنَا لَزُلْفَىٰ وَحُسْنَ مَآبٍ»: يعني تعالى ذكره بقوله: «فَغَفَرْنا لَهُ ذلكَ» فعفونا عنه، وصفحنا له عن أن نؤاخذه بخطيئته وذنبه ذلك «وإنَّ لَهُ عِنْدَنا لَزُلْفَى» يقول: وإن له عندنا لَلْقُرْبة منا يوم القيامة. وينقل في المقطع أقوالاً عن قتادة وعكرمة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=38&tAyahNo=25&tDisplay=yes&UserProfile=0&LanguageId=1

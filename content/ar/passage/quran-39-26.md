@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-9-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن الله عجّل لهؤلاء الأمم الذين كذّبوا رسلهم الخزي في الدنيا، ولعذاب الآخرة أكبر لو كانوا يعلمون. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=39&tAyahNo=26&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «فَأَذَاقَهُمُ ٱللَّهُ ٱلْخِزْيَ فِي ٱلْحَيَاةِ ٱلدُّنْيَا وَلَعَذَابُ ٱلآخِرَةِ أَكْبَرُ لَوْ كَانُواْ يَعْلَمُونَ»: فعجل الله لهؤلاء الأمم الذين كذّبوا رسلهم الهوان في الدنيا، والعذاب قبل الآخرة، ولم ينظِرهم إذ عتوا عن أمر ربهم «وَلَعَذابُ الآخِرَةِ أكْبَرُ» يقول: ولعذاب الله إياهم في الآخرة إذا أدخلهم النار، فعذّبهم بها، أكبر من العذاب الذي عذّبهم به في الدنيا، لو كانوا يعلمون يقول: لو علم هؤلاء المشركون من قريش ذلك.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=39&tAyahNo=26&tDisplay=yes&UserProfile=0&LanguageId=1

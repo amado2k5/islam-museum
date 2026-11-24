@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-9-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-لم يُفرد الطبري لهذه الآية تعليقاً مستقلاً في الصفحة المحفوظة، بل جاء تفسيرها ضمن تفسير الآيات 52–54. يذكر الطبري أن عند المتقين قاصرات الطرف أتراب، وهن نساء قصرن أبصارهن على أزواجهن، هذا ما توعدون ليوم الحساب إن هذا لرزقنا ما له من نفاد. وهذا التفسير مشترك بين الآيات 52 إلى 54. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=38&tAyahNo=53&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 52 إلى 54 مقطعاً واحداً. يفسّر قوله «هَٰذَا مَا تُوعَدُونَ لِيَوْمِ ٱلْحِسَابِ»: هذا الذي يعدكم الله في الدنيا أيها المؤمنون به من الكرامة لمن أدخله الله الجنة منكم في الآخرة، كما: وعن السديّ «هَذَا ما تُوعَدُونَ لِيَوْم الحِسابِ» قال: هو في الدنيا ليوم القيامة. وقوله: وينقل في المقطع أقوالاً عن مجاهد وقتادة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=38&tAyahNo=53&tDisplay=yes&UserProfile=0&LanguageId=1

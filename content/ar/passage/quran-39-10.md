@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-9-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يأمر الله نبيه أن يقول لعباده الذين آمنوا اتقوا ربكم، للذين أحسنوا في هذه الدنيا حسنة، ويذكر الطبري اختلاف أهل التأويل في معنى ذلك، وأرض الله واسعة إنما يوفى الصابرون أجرهم بغير حساب. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=39&tAyahNo=10&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «قُلْ يٰعِبَادِ ٱلَّذِينَ آمَنُواْ ٱتَّقُواْ رَبَّكُمْ لِلَّذِينَ أَحْسَنُواْ فِي هَٰذِهِ ٱلدُّنْيَا حَسَنَةٌ وَأَرْضُ ٱللَّهِ وَاسِعَةٌ إِنَّمَا يُوَفَّى ٱلصَّابِرُونَ أَجْرَهُمْ بِغَيْرِ حِسَابٍ»: «قُلْ» يا محمد لعبادي الذين آمنوا: «يا عِبادِ الَّذِينَ آمَنُوا» بالله، وصدقوا رسوله «اتَّقُوا رَبَّكُمْ» بطاعته واجتناب معاصيه «لِلَّذِينَ أحْسَنُوا فِي هَذِهِ الدُّنيْا حَسَنَةٌ». ثم اختلف أهل التأويل في تأويل ذلك، فقال بعضهم: معناه: للذين أطاعوا الله حسنة في هذه الدنيا وقال «في» من صلة حسنة، وجعل معنى الحسنة: الصحة والعافية. وينقل في المقطع أقوالاً عن مجاهد وقتادة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=39&tAyahNo=10&tDisplay=yes&UserProfile=0&LanguageId=1

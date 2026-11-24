@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-9-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن الله بعد وصف المتقين يخبر عن الطاغين أن لهم لشر مآب، جهنم يصلونها فبئس المهاد هذا فليذوقوه حميم وغساق وآخر من شكله أزواج، هذا فوج مقتحم معكم لا مرحباً بهم إنهم صالو النار. وهذا التفسير مشترك بين الآيات 55 إلى 60. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=38&tAyahNo=55&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 55 إلى 60 مقطعاً واحداً. يفسّر قوله «هَٰذَا وَإِنَّ لِلطَّاغِينَ لَشَرَّ مَآبٍ»: يعني تعالى ذكره بقوله: «هَذَا»: الذي وصفت لهؤلاء المتقين: ثم استأنف جلّ وعزّ الخبر عن الكافرين به الذين طَغَوا عليه وبَغَوا، فقال: «وإنَّ للطَّاغِينَ» وهم الذين تمّردوا على ربهم، فعَصَوا أمره مع إحسانه إليهم «لَشَرَّ مآبٍ» يقول: لشرّ مرجع ومصير يصيرون إليه في الآخرة بعد خروجهم من الدنيا، كما: وعن السديّ «وَإنَّ للطَّاغِينَ لَشرَّ مآبٍ» قال: لشرَّ مُنْقَلَبٍ. وينقل في المقطع أقوالاً عن قتادة وابن زيد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=38&tAyahNo=55&tDisplay=yes&UserProfile=0&LanguageId=1

@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-10-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل الآيات 61 إلى 62، وخلاصتها: يبيّن الطبري أن الله ينجي المتقين الذين أدوا فرائضه واجتنبوا معاصيه بفوزهم أي بمفازتهم، لا يمسهم السوء ولا هم يحزنون، ويورد أقوال أهل التأويل في معنى المفازة. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=39&tAyahNo=62&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 61 إلى 62 مقطعاً واحداً. يفسّر قوله «ٱللَّهُ خَالِقُ كُلِّ شَيْءٍ وَهُوَ عَلَىٰ كُلِّ شَيْءٍ وَكِيلٌ»: الله الذي له الألوهة من كل خلقه الذي لا تصلح العبادة إلا له، خالق كل شيء، لا ما لا يقدر على خلق شيء، وهو على كل شيء وكيل يقول: وهو على كل شيء قيم بالحفظ والكلاءة. وينقل في المقطع أقوالاً عن ابن زيد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=39&tAyahNo=62&tDisplay=yes&UserProfile=0&LanguageId=1

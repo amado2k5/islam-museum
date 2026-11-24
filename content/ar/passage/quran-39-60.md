@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-10-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يفسّر الطبري أن الذين كذبوا على الله فزعموا له ولداً وشريكاً ترى وجوههم يوم القيامة مسودّة، وأن في جهنم مثوى للمتكبرين. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=39&tAyahNo=60&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَيَوْمَ ٱلْقِيَامَةِ تَرَى ٱلَّذِينَ كَذَبُواْ عَلَى ٱللَّهِ وُجُوهُهُم مُّسْوَدَّةٌ أَلَيْسَ فِي جَهَنَّمَ مَثْوًى لِّلْمُتَكَبِّرِينَ»: «وَيَوْمَ القِيامَةِ تَرَى» يا محمد هؤلاء «الَّذِينَ كَذَبُوا على اللَّهِ» من قومك فزعموا أن له ولداً، وأن له شريكاً، وعبدوا آلهة من دونه «وُجُوهُهُمْ مُسْوَدَّةٌ» والوجوه وإن كانت مرفوعة بمسودة، فإن فيها معنى نصب، لأنها مع خبرها تمام ترى، ولو تقدّم قوله مسودّة قبل الوجوه، كان نصباً، ولو نصب الوجوه المسودّة ناصب في الكلام لا في القرآن، إذا كانت المسودّة مؤخرة كان جائزاً، كما قال الشاعر:ذَرِينِي إنَّ أمْرَكِ لَنْ يُطاعَا وَما ألْفَيْتَنِي حِلْمِي مُضَاعَا فنصب الحلم والمضاع على تكرير ألفيتني، وكذلك تفعل العرب في كلّ ما احتاج إلى اسم وخبر، مثل ظنّ وأخواتها وفي «مسودّة» للعرب لغتان: مسودّة، ومسوادّة، وهي في أهل الحجاز يقولون فيما ذكر عنهم: قد اس
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=39&tAyahNo=60&tDisplay=yes&UserProfile=0&LanguageId=1

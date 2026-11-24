@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-9-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يذكر الطبري أن الله فرّج عن أيوب فوهب له أهله ومثلهم معهم رحمة منا وذكرى لأولي الألباب، وأمره أن يأخذ بيده ضغثاً فيضرب به ولا يحنث إنا وجدناه صابراً نعم العبد إنه أواب. وهذا التفسير مشترك بين الآيتين 43 و44. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=38&tAyahNo=43&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 43 إلى 44 مقطعاً واحداً. يفسّر قوله «وَوَهَبْنَا لَهُ أَهْلَهُ وَمِثْلَهُمْ مَّعَهُمْ رَحْمَةً مِّنَّا وَذِكْرَىٰ لأُوْلِي ٱلأَلْبَابِ»: اختلف أهل التأويل في معنى قوله: «وَوَهَبْنا لَهُ أهْلَهُ وَمِثْلَهُمْ مَعَهُمْ» وقد ذكرنا اختلافهم في ذلك والصواب من القول عندنا فيه في سورة الأنبياء بما أغنى عن إعادته في هذا الموضع. فتأويل الكلام: فاغتسل وشرب، ففرّجنا عنه ما كان فيه من البلاء، ووهبنا له أهله، من زوجة وولد «وَمِثْلَهُمْ مَعَهُمْ رَحْمَةً مِنَّا» له ورأفة «وَذِكْرَى» يقول: وتذكيراً لأولي العقول، ليعتبروا بها فيتعظوا. وينقل في المقطع أقوالاً عن قتادة والحسن.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=38&tAyahNo=43&tDisplay=yes&UserProfile=0&LanguageId=1

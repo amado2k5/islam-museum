@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-10-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أنه ظهر للمشركين يوم القيامة سيئات ما كسبوا من الأعمال وأحاط بهم العذاب الذي كانوا في الدنيا يسخرون منه حين كان النبي يعدهم به. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=39&tAyahNo=48&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَبَدَا لَهُمْ سَيِّئَاتُ مَا كَسَبُواْ وَحَاقَ بِهِم مَّا كَانُواْ بِهِ يَسْتَهْزِئُونَ»: وظهر لهؤلاء المشركين يوم القيامة «سَيِّئاتُ ما كَسَبُوا» من الأعمال في الدنيا، إذ أعطوا كتبهم بشمائلهم «وَحاقَ بِهِمْ ما كانوا بِهِ يَسْتَهْزِئُونَ» ووجب عليهم حينئذ، فلزمهم عذاب الله الذي كان نبيّ الله في الدنيا يعدهم على كفرهم بربهم، فكانوا به يسخرون، إنكاراً أن يصيبهم ذلك، أو ينالهم تكذيباً منهم به، وأحاط ذلك بهم.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=39&tAyahNo=48&tDisplay=yes&UserProfile=0&LanguageId=1

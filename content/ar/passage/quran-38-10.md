@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-9-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن الله يسأل أم لهم ملك السماوات والأرض وما بينهما فليرتقوا في الأسباب، جند ما هنالك مهزوم من الأحزاب. وهذا التفسير مشترك بين الآيتين 10 و11. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=38&tAyahNo=10&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 10 إلى 11 مقطعاً واحداً. يفسّر قوله «أَمْ لَهُم مُّلْكُ ٱلسَّمَٰوَٰتِ وَٱلأَرْضِ وَمَا بَيْنَهُمَا فَلْيَرْتَقُواْ فِى ٱلأَسْبَابِ»: أم لهؤلاء المشركين الذين هم في عزّة وشقاق «مُلْكُ السَّمَواتِ والأرْضِ وَما بَيْنَهُما» فإنه لا يُعازُّني ويُشاقُّني من كان في مُلكي وسلطاني. وقوله: «فَلْيَرتَقُوا فِي الأسْبابِ» يقول: وإن كان لهم مُلك السموات والأرض وما بينهما، فليصعدوا في أبواب السماء وطرقها، فإن كان له مُلك شيء لم يتعذّر عليه الإشراف عليه، وتفقُّده وتعهُّده. واختلف أهل التأويل في معنى الأسباب التي ذكرها الله في هذا الموضع، فقال بعضهم: عُنِي بها أبواب السماء. وينقل في المقطع أقوالاً عن ابن عباس ومجاهد وقتادة والضحاك وابن زيد والربيع.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=38&tAyahNo=10&tDisplay=yes&UserProfile=0&LanguageId=1

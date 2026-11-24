@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-9-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-لم يُفرد الطبري لهذه الآية تعليقاً مستقلاً في الصفحة المحفوظة، بل جاء تفسيرها ضمن تفسير الآيات 24–25. يذكر الطبري اختلاف أهل التأويل في صفة اتقاء هذا الضال بوجهه سوء العذاب، فقال بعضهم هو أن يُرمى به في جهنم مكبوباً على وجهه، وقيل لهم ذوقوا ما كنتم تكسبون. وهذا التفسير مشترك بين الآيتين 24 و25. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=39&tAyahNo=25&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 24 إلى 25 مقطعاً واحداً. يفسّر الطبري الآية ضمن المقطع نفسه. وينقل في المقطع أقوالاً عن ابن عباس ومجاهد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=39&tAyahNo=25&tDisplay=yes&UserProfile=0&LanguageId=1

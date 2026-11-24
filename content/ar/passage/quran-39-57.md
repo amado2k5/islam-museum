@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-10-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل الآيات 57 إلى 58، وخلاصتها: يذكر الطبري أقوالاً متوقعة في الآخرة: نفس تقول لو أن الله هداني لكنت من المتقين، وأخرى تتمنى كرّة أي رجعة إلى الدنيا لتكون من المحسنين، ويفسّر الآيتين بأنهما تمنٍّ لا ينفع بعد معاينة العذاب. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=39&tAyahNo=57&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 57 إلى 58 مقطعاً واحداً. يفسّر قوله «أَوْ تَقُولَ لَوْ أَنَّ ٱللَّهَ هَدَانِي لَكُنتُ مِنَ ٱلْمُتَّقِينَ»: وأنيبوا إلى ربكم أيها الناس، وأسلموا له، أن لا تقول نفس يوم القيامة: يا حسرتا على ما فرّطت في جنب الله، في أمر الله، وأن لا تقول نفس أخرى: لو أن الله هداني للحقّ، فوفقني للرشاد لكنت ممن اتقاه بطاعته واتباع رضاه، أو أن لا تقول أخرى حين ترى عذاب الله فتعاينه «لَوْ أنَّ لي كَرَّةً» تقول: لو أن لي رجعة إلى الدنيا «فأكُونَ مِنَ المُحْسِنينَ» الذين أحسنوا في طاعة ربهم، والعمل بما أمرتهم به الرسل. وينقل في المقطع أقوالاً عن ابن عباس وقتادة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=39&tAyahNo=57&tDisplay=yes&UserProfile=0&LanguageId=1

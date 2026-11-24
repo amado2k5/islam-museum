@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-9-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يأمر الله نبيه أن يقول إني أمرت أن أعبد الله مخلصاً له الدين وأمرت لأن أكون أول المسلمين، وإني أخاف إن عصيت ربي عذاب يوم عظيم. وهذا التفسير مشترك بين الآيات 11 إلى 13. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=39&tAyahNo=11&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 11 إلى 13 مقطعاً واحداً. يفسّر قوله «قُلْ إِنِّيۤ أُمِرْتُ أَنْ أَعْبُدَ ٱللَّهَ مُخْلِصاً لَّهُ ٱلدِّينَ»: قل يا محمد لمشركي قومك: إن الله أمرني أن أعبده مُفْرِداً له الطاعة، دون كلّ ما تدعون من دونه من الآلهة والأنداد
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=39&tAyahNo=11&tDisplay=yes&UserProfile=0&LanguageId=1

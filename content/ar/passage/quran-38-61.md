@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-9-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يذكر الطبري أن الأتباع في النار يقولون ربنا من قدّم لنا هذا فزده عذاباً ضعفاً في النار، يعنون من دعاهم في الدنيا إلى العمل الموجب لها. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=38&tAyahNo=61&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «قَالُواْ رَبَّنَا مَن قَدَّمَ لَنَا هَٰذَا فَزِدْهُ عَذَاباً ضِعْفاً فِي ٱلنَّارِ»: وهذا أيضاً قول الفوج المقتحم على الطاغين، وهم كانوا أتباع الطاغين في الدنيا، يقول جلّ ثناؤه: وقال الأتباع: «رَبَّنا مَنْ قَدَّمَ لَنا هَذَا» يعنون: من قدّم لهم في الدنيا بدعائهم إلى العمل الذي يوجب لهم النار التي ورودها، وسُكنى المنزل الذي سكنوه منها. ويعنون بقولهم «هَذَا»: العذاب الذي وردناه «فَزِدْهُ عَذَاباً ضِعْفاً في النَّارِ» يقولون: فأضعف له العذاب في النار على العذاب الذي هو فيه فيها، وهذا أيضاً من دعاء الأتباع للمتبوعين.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=38&tAyahNo=61&tDisplay=yes&UserProfile=0&LanguageId=1

@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-10-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن الله يرد على المتمني بأن حججه قد جاءته من رسل وكتب فكذّب بها واستكبر وكان من الكافرين، فلا حجة له. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=39&tAyahNo=59&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «بَلَىٰ قَدْ جَآءَتْكَ آيَاتِي فَكَذَّبْتَ بِهَا وَٱسْتَكْبَرْتَ وَكُنتَ مِنَ ٱلْكَافِرِينَ»: يقول تعالى ذكره مكذباً للقائل:«لَوْ أنَّ اللَّهَ هَدَانِي لَكُنْتُ مِنَ المُتَّقِينَ» وللقائل:«لَوْ أنَّ لي كَرَّةً فأكُونَ مِنَ المُحْسِنِينَ» ما القول كما تقولون «بَلَى قَدْ جاءَتْكَ» أيها المتمني على الله الرد إلى الدنيا لتكون فيها من المحسنين «آياتِي» يقول: قد جاءتك حججي من بين رسول أرسلته إليك، وكتاب أنزلته يتلى عليك ما فيه من الوعد والوعيد والتذكير «فَكَذَّبْتَ» بآياتي «واسْتَكْبَرْتَ» عن قبولها واتباعها «وكُنْتُ مِنَ الكافِرِينَ» يقول: وكنت ممن يعمل عمل الكافرين، ويستنّ بسنتهم، ويتبع منهاجهم. وينقل في المقطع أقوالاً عن قتادة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=39&tAyahNo=59&tDisplay=yes&UserProfile=0&LanguageId=1

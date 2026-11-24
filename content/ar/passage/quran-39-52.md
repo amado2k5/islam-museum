@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-10-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن الله يبسط الرزق لمن يشاء ويضيّقه على من يشاء، وإن ذلك من حججه على عباده ليعتبروا، وفي ذلك دلالات لقوم يؤمنون. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=39&tAyahNo=52&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «أَوَلَمْ يَعْلَمُوۤاْ أَنَّ ٱللَّهَ يَبْسُطُ ٱلرِّزْقَ لِمَن يَشَآءُ وَيَقْدِرُ إِنَّ فِي ذَلِكَ لآيَاتٍ لِّقَوْمٍ يُؤْمِنُونَ»: أو لم يعلم يا محمد هؤلاء الذين كشفنا عنهم ضرهم، فقالوا: إنما أوتيناه على علم منا، أن الشدة والرخاء والسعة والضيق والبلاء بيد الله، دون كلّ من سواه، يبسط الرزق لمن يشاء، فيوسعه عليه، ويقدر ذلك على من يشاء من عباده، فيضيقه، وأن ذلك من حجج الله على عباده، ليعتبروا به ويتذكروا، ويعلموا أن الرغبة إليه والرهبة دون الآلهة والأنداد. «إنّ فِي ذلك لآياتٍ» يقول: إن في بسط الله الرزق لمن يشاء، وتقتيره على من أراد الآيات، يعني: دلالات وعلامات «لِقَوْمٍ يُؤْمِنُونَ» يعني: يصدّقون بالحقّ، فيقرّون به إذا تبيَّنوه وعلموا حقيقته أن الذي يفعل ذلك هو الله دون كل ما سواه.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=39&tAyahNo=52&tDisplay=yes&UserProfile=0&LanguageId=1
