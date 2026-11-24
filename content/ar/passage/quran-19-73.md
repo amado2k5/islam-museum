@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-6-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن الكافرين من قريش كانوا إذا تُتلي عليهم الآيات البينات قالوا للمؤمنين أي الفريقين خير مقاماً وأحسن ندياً، يفخرون بمجالسهم وغناهم. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=19&tAyahNo=73&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَإِذَا تُتْلَىٰ عَلَيْهِمْ آيَاتُنَا بَيِّنَٰتٍ قَالَ ٱلَّذِينَ كَفَرُواْ لِلَّذِينَ آمَنُوۤاْ أَيُّ ٱلْفَرِيقَيْنِ خَيْرٌ مَّقَاماً وَأَحْسَنُ نَدِيّاً»: «وإذا تتلى» على الناس «آياتنا» التي أنزلناها على رسولنا محمد «بينات»، يعني واضحات لمن تأمَّلها وفكَّر فيها أنها أدلة على ما جعلها الله أدلة عليه لعباده، «قال الذين كفروا» بالله وبكتابه وآياته، وهم قريش، «للذين آمنوا» فصدّقوا به، وهم أصحاب محمد «أيُّ الفَرِيقَيْنِ خَيْرٌ مَقاماً» يَعْني بالمَقام: موضع إقامتهم، وهي مساكنهم ومنازلهم «وأحْسَنُ نَدِيًّا» وهو المجلس، يقال منه: ندوت القوم أندوهم نَدْوا: إذا جمعتهم في مجلس، ويقال: هو في نديّ قومه وفي ناديهم: بمعنى واحد. وينقل في المقطع أقوالاً عن ابن عباس ومجاهد وقتادة وابن جريج والأعمش.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=19&tAyahNo=73&tDisplay=yes&UserProfile=0&LanguageId=1

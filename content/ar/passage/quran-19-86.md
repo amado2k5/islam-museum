@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-6-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن المجرمين يُساقون إلى جهنم وِرداً، أي عطاشاً، في مقابل وفد المتقين. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=19&tAyahNo=86&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 86 إلى 87 مقطعاً واحداً. يفسّر قوله «يَوْمَ نَحْشُرُ ٱلْمُتَّقِينَ إِلَى ٱلرَّحْمَٰنِ وَفْداً»: يوم نجمع الذين اتقوا في الدنيا فخافوا عقابه، فاجتنبوا لذلك معاصيه، وأدّوا فرائضه إلى ربهم «وَفْداً» يعني بالوفد: الركبان. يقال: وفدت على فلان: إذا قدمت عليه، وأوفد القوم وفدا على أميرهم، إذا بعثوا من قبلهم بعثاً. والوفد في هذا الموضع بمعنى الجمع، ولكنه واحد، لأنه مصدر واحدهم وافد، وقد يجمع الوفد: الوفود، كما قال بعض بني حنيفة:إنّي لَمُمْتَدِحٌ فَمَا هُوَ صَانِعٌ رأسُ الُوفُودِ مُزاحمُ بنَ جِساسِ وقد يكون الوفود في هذا الموضع جمع وافد، كما الجلوس جمع جالس. وينقل في المقطع أقوالاً عن ابن عباس وقتادة وابن جريج.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=19&tAyahNo=86&tDisplay=yes&UserProfile=0&LanguageId=1

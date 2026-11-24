@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-6-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن زكريا نادى ربه نداءً خفياً قائلاً وهن العظم مني، أي ضعف ورقّ من الكبر، واشتعل الرأس شيباً، ولم يكن بدعائه شقياً. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=19&tAyahNo=3&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 2 إلى 4 مقطعاً واحداً. يفسّر قوله «إِذْ نَادَىٰ رَبَّهُ نِدَآءً خَفِيّاً»: يقول حين دعا ربه، وسأله بنداء خفيّ، يعني: وهو مستسرّ بدعائه ومسألته إياه ما سأل كراهته منه للرياء، كما: وعن قتادة، قوله: «إذْ نادَى رَبَّهُ نِدَاءً خَفِيًّا» أي سرّا، وإن الله يعلم القلب النقيّ، ويسمع الصوت الخفيّ. وقال: ثني حجاج، عن ابن جريج، قوله: «إذْ نادَى رَبَّهُ نِدَاءً خَفِيًّا» قال: لا يريد رياء. وعن السديّ، قال: رغب زكريا في الولد، فقام فصلى، ثم دعا ربه سرّاً، فقال: «رَبّ إنّي وَهَنَ العَظْمُ مِنِّي... وينقل في المقطع أقوالاً عن مجاهد وقتادة وابن جريج.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=19&tAyahNo=3&tDisplay=yes&UserProfile=0&LanguageId=1

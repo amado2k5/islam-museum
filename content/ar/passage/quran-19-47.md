@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-6-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يذكر الطبري أن إبراهيم قال لأبيه سلام عليك أي أماناً مني، سأستغفر لك ربي إنه كان بي حفياً، وأعتزلكم وما تدعون من دون الله وأدعو ربي عسى ألا أكون بدعاء ربي شقياً. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=19&tAyahNo=47&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 47 إلى 48 مقطعاً واحداً. يفسّر قوله «قَالَ سَلاَمٌ عَلَيْكَ سَأَسْتَغْفِرُ لَكَ رَبِّيۤ إِنَّهُ كَانَ بِي حَفِيّاً»: قال إبراهيم لأبيه حين توعَّده على نصيحته إياه ودعائه إلى الله بالقول السيىء والعقوبة: سلام عليك يا أبت، يقول: أمنة مني لك أن أعاودك فيما كرهت، ولدعائك إليّ ما توعدتني عليه بالعقوبة، ولكني «سأسْتَغْفِرُ لَكَ رَبّي» يقول: ولكني سأسأل ربي أن يستر عليك ذنوبك بعفوه إياك عن عقوبتك عليها «إنَّهُ كانَ بِي حَفِيًّا» يقول: إن ربي عهدته بي لطيفاً يجيب دعائي إذا دعوته يقال منه: تحفى بي فلان. وقد بيَّنت ذلك بشواهده فيما مضى، بما أغنى عن إعادته هاهنا. وبنحو ما قلنا في ذلك قال أهل التأويل. وينقل في المقطع أقوالاً عن ابن عباس وابن زيد وإبراهيم.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=19&tAyahNo=47&tDisplay=yes&UserProfile=0&LanguageId=1

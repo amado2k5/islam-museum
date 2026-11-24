@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-6-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن الله يرث الأرض ومن عليها وإليه يُرجعون، فلا يحزن النبي من تكذيب المشركين، وعلى الله جزاء كل عامل بعمله. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=19&tAyahNo=40&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «إِنَّا نَحْنُ نَرِثُ ٱلأَرْضَ وَمَنْ عَلَيْهَا وَإِلَيْنَا يُرْجَعُونَ»: لا يحزنك تكذيب هؤلاء المشركين يا محمد فيما أتيتهم به من الحقّ، فإن إلينا مرجعهم ومصيرهم ومصير جميع الخلق غيرهم، ونحن وارثو الأرض ومن عليها من الناس، بفنائهم منها، وبقائها لا مالك لها غيرنا، ثم علينا جزاء كلّ عامل منهم بعمله، عند مرجعه إلينا، المحسن منهم بإحسانه، والمسيء بإساءته.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=19&tAyahNo=40&tDisplay=yes&UserProfile=0&LanguageId=1

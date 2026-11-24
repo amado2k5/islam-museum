@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-6-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن الله لما اعتزل إبراهيم قومه آنس وحشته بإسحاق ويعقوب وجعلهم أنبياء، ووهب لهم من رحمته وجعل لهم لسان صدق علياً أي ثناء حسناً. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=19&tAyahNo=49&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 49 إلى 50 مقطعاً واحداً. يفسّر قوله «فَلَمَّا ٱعْتَزَلَهُمْ وَمَا يَعْبُدُونَ مِن دُونِ ٱللَّهِ وَهَبْنَا لَهُ إِسْحَاقَ وَيَعْقُوبَ وَكُلاًّ جَعَلْنَا نَبِيّاً»: فلما اعتزل إبراهيم قومه وعبادة ما كانوا يعبدون من دون الله من الأوثان آنسنا وحشته من فراقهم، وأبدلناه منهم بمن هو خير منهم وأكرم على الله منهم، فوهبنا له ابنه إسحاق، وابن ابنه يعقوب بن إسحاق «وكُلاّ جَعَلْنا نَبِيًّا» يقول: وجعلناهم كلهم، يعني بالكلّ إبراهيم وإسحاق ويعقوب أنبياء وقال تعالى ذكره: «وكُلاّ جَعَلْنا نَبِيًّا» فوحد، ولم يقل أنبياء، لتوحيد لفظ كلّ «وَوَهَبْنا لَهُمْ مِنْ رَحَمتِنا» يقول جلّ ثناؤه: ورزقنا جميعهم، يعني إبراهيم وإسحاق ويعقوب من رحمتنا، وكان الذي وهب لهم من رحمته، ما بسط لهم في عاجل الدنيا من سعة رزقه، وأغناهم بفضله. وينقل في المقطع أقوالاً عن ابن عباس.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=19&tAyahNo=49&tDisplay=yes&UserProfile=0&LanguageId=1

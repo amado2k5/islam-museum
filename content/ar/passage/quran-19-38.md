@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-6-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يشرح الطبري أن الكافرين الذين كانوا في الدنيا عمياً صماً عن الحق ما أسمعهم وما أبصرهم يوم يأتوننا، لكن الظالمين اليوم في ضلال مبين. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=19&tAyahNo=38&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «أَسْمِعْ بِهِمْ وَأَبْصِرْ يَوْمَ يَأْتُونَنَا لَٰكِنِ ٱلظَّالِمُونَ ٱلْيَوْمَ فِي ضَلاَلٍ مُّبِينٍ»: يقول تعالى ذكره مخبراً عن حال الكافرين به، الجاعلين له أنداداً، والزاعمين أن له ولداً يوم ورودهم عليه في الآخرة: لئن كانوا في الدنيا عمياً عن إبصار الحقّ، والنظر إلى حجج الله التي تدلّ على وحدانيته، صماً عن سماع آي كتابه، وما دعتهم إليه رسل الله فيها من الإقرار بتوحيده، وما بعث به أنبياءه، فما أسمعهم يوم قدومهم على ربهم في الآخرة، وأبصرهم يومئذٍ حين لا ينفعهم الإبصار والسماع. وينقل في المقطع أقوالاً عن قتادة وابن زيد والربيع.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=19&tAyahNo=38&tDisplay=yes&UserProfile=0&LanguageId=1

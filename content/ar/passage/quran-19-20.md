@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-6-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يفسّر الطبري سؤال مريم أنّى يكون لي غلام ولم يمسسني بشر ولم أك بغياً، وجواب جبريل أن ذلك على ربك هين، وأن الغلام آية للناس ورحمة منه وكان أمراً مقضياً. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=19&tAyahNo=20&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 20 إلى 21 مقطعاً واحداً. يفسّر قوله «قَالَتْ أَنَّىٰ يَكُونُ لِي غُلاَمٌ وَلَمْ يَمْسَسْنِي بَشَرٌ وَلَمْ أَكُ بَغِيّاً»: قالت مريم لجبريل: «أنَّي يَكُونُ لي غُلامٌ» من أيّ وجه يكون لي غلام؟ أمن قِبَل زوج أتزوّج، فأرزقه منه، أم يبتدىء الله فيّ خلقه ابتداء «ولَمْ يَمْسَسْنِي بَشَرٌ» من ولد آدم بنكاح حلال «ولَمْ أكُ» إذ لم يمسسني منهم أحد على وجه الحلال «بَغِيًّا» بغيت ففعلت ذلك من الوجه الحرام، فحملته من زنا، كما: وعن السديّ «ولَمْ أكُ بَغِيًّا» يقول: زانية. «قالَ كَذلكِ قالَ رَبُّكِ هُوَ عَليَّ هَيِّنٌ» يقول تعالى ذكره: قال لها جبريل: هكذا الأمر كما تصفين، من أنك لم يمسسك بشر ولم تكوني بغياً، ولكن ربك قال: هو عليّ هين: أي خَلْق الغلام الذي قلت أن أهبه لك عليّ هين لا يتعذّر عليّ خلقه وهبته لك من غير فحل يفتحلك. وينقل في المقطع أقوالاً عن ابن إسحاق.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=19&tAyahNo=20&tDisplay=yes&UserProfile=0&LanguageId=1

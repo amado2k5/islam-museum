@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-6-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن أبا إبراهيم قال له: أراغب أنت عن آلهتي، لئن لم تنته لأرجمنك أي بالسبّ والقول القبيح، واهجرني ملياً. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=19&tAyahNo=46&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «قَالَ أَرَاغِبٌ أَنتَ عَنْ آلِهَتِي يٰإِبْرَاهِيمُ لَئِن لَّمْ تَنتَهِ لأَرْجُمَنَّكَ وَٱهْجُرْنِي مَلِيّاً»: «قال» أبو إبراهيم لإبراهيم، حين دعاه إبراهيم إلى عبادة الله وترك عبادة الشيطان، والبراءة من الأوثان والأصنام: «أرَاغِبٌ أنْتَ» يا إبراهيم «عن» عبادة «آلهتي؟ لَئِن» أنت «لَمْ تَنْتَهِ» عن ذكرها بسوء «لأَرْجُمَنَّكَ» يقول: لأرجمنك بالكلام، وذلك السبّ، والقول القبيح. وبنحو ما قلنا في ذلك قال أهل التأويل. وينقل في المقطع أقوالاً عن ابن عباس ومجاهد وقتادة والحسن وسعيد بن جبير وابن جريج وغيرهم.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=19&tAyahNo=46&tDisplay=yes&UserProfile=0&LanguageId=1

@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-6-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن الله اختار موسى للرسالة وأمره أن يستمع لما يوحى إليه. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=20&tAyahNo=13&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 13 إلى 14 مقطعاً واحداً. يفسّر قوله «وَأَنَا ٱخْتَرْتُكَ فَٱسْتَمِعْ لِمَا يُوحَىۤ»: اختلفت القرّاء في قراءة ذلك، فقرأته عامة القرّاء الذين قرأوا: «وأنَّا» بتشديد النون، و «أنا» بفتح الألف من «أنا» ردّاً على: نودي يا موسى، كأنه معنى الكلام عندهم: نودي يا موسى إني أنا ربك، وأنا اخترناك، وبهذه القراءة قرأ ذلك عامَّة قرّاء الكوفة. وأما عامة قرّاء المدينة والبصرة وبعض أهل الكوفة فقرأوه: «وأنا اخْتَرْتُكَ» بتخفيف النون على وجه الخبر من الله عن نفسه أنه اختاره. قال أبو جعفر: والصواب من القول في ذلك عندي أن يقال: إنهما قراءتان قد قرأ بكلّ واحدة منهما قرّاء أهل العلم بالقرآن، مع اتفاق معنييهما. فبأيتهما قرأ القارىء فمصيب الصواب فيه. وتأويل الكلام: نودي أنَّا اخترناك. وينقل في المقطع أقوالاً عن مجاهد وإبراهيم.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=20&tAyahNo=13&tDisplay=yes&UserProfile=0&LanguageId=1

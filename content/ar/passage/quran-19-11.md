@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-6-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن زكريا خرج على قومه من المحراب بعد أن حُبس لسانه عن الكلام، فأوحى إليهم أن سبّحوا بكرة وعشياً، وهو آية من الله على صدق وعده. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=19&tAyahNo=11&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «فَخَرَجَ عَلَىٰ قَوْمِهِ مِنَ ٱلْمِحْرَابِ فَأَوْحَىٰ إِلَيْهِمْ أَن سَبِّحُواْ بُكْرَةً وَعَشِيّاً»: فخرج زكريا على قومه من مُصَلاه حين حُبس لسانه عن كلام الناس، آية من الله له على حقيقة وعده إياه ما وعد. فكان ابن جريج يقول في معنى خروجه من محرابه، ما: قال: ثني حجاج، عن ابن جريج «فَخَرَجَ على قَوْمِهِ مِنَ المِحْرابِ» قال: أشرف على قومه من المحراب. قال أبو جعفر: وقد بيَّنا معنى المحراب فيما مضى قبل، بما أغنى عن إعادته في هذا الموضع. قال ابن زيد، في قوله: «فَخَرَجَ عَلى قومِهِ مِنَ المِحْرابِ» قال: المحراب: مُصَلاه، وقرأ:«فَنادَتْهُ المَلائِكَةُ وَهُوَ قائمٌ يُصَلِّي فِي المِحْرَابِ» وقوله: «فَأوْحَى إلَيْهِمْ» يقول: أشار إليهم، وقد تكون تلك الإشارة باليد وبالكتاب وبغير ذلك، مما يفهم به عنه ما يريد. وينقل في المقطع أقوالاً عن مجاهد وقتادة وابن زيد وابن جريج وابن إسحاق وسفيان.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=19&tAyahNo=11&tDisplay=yes&UserProfile=0&LanguageId=1

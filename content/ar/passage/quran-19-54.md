@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-6-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن إسماعيل بن إبراهيم كان صادق الوعد لا يخلف، وكان رسولاً نبياً. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=19&tAyahNo=54&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَٱذْكُرْ فِي ٱلْكِتَابِ إِسْمَاعِيلَ إِنَّهُ كَانَ صَادِقَ ٱلْوَعْدِ وَكَانَ رَسُولاً نَّبِيّاً»: واذكر يا محمد في الكتاب إسماعيل بن إبراهيم، فاقصص خبره إنه كان لا يكذب وعده، ولا يخلف، ولكنه كان إذا وعد ربه، أو عبداً من عباده وعداً وفى به، كما: قال: ثني حجاج، عن ابن جريج، قوله: «إنَّهُ كانَ صَادِقَ الوَعْدِ» قال: لم يَعِدْ ربه عِدة إلا أنجزها. أخبرني عمرو بن الحارث أن سهل بن عقيل، حدّثه أن إسماعيل وعد رجلاً مكاناً أن يأتيه، فجاء ونسي الرجل، فظلّ به إسماعيل، وبات حتى جاء الرجل من الغد، فقال: ما برحت من هاهنا؟ قال: لا، قال: إني نسيت، قال: لم أكن لأبرح حتى تأتي، فبذلك كان صادقاً. وينقل في المقطع أقوالاً عن ابن جريج.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=19&tAyahNo=54&tDisplay=yes&UserProfile=0&LanguageId=1

@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-6-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن الله ربّ السماوات والأرض وما بينهما لا ينسى، فعلى النبي أن يعبده ويصطبر لعبادته، ولا يعلم له سمياً أي نظيراً. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=19&tAyahNo=65&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «رَّبُّ ٱلسَّمَٰوَٰتِ وَٱلأَرْضِ وَمَا بَيْنَهُمَا فَٱعْبُدْهُ وَٱصْطَبِرْ لِعِبَادَتِهِ هَلْ تَعْلَمُ لَهُ سَمِيّاً»: لم يكن ربك يا محمد ربّ السموات والأرض وما بينهما نسيا، لأنه لو كان نسيا لم يستقم ذلك، ولهلك لولا حفظه إياه، فالربّ مرفوع ردّاً على قوله«رَبُّكَ» وقوله: «فاعْبُدْه» يقول: فالزم طاعته، وذلّ لأمره ونهيه «وَاصْطَبِرْ لِعِبادَتِهِ» يقول: واصبر نفسك على النفوذ لأمره ونهيه، والعمل بطاعته، تفز برضاه عنك، فإنه الإله الذي لا مثل له ولا عدل ولا شبيه في جوده وكرمه وفضله «هَلْ تَعْلَمُ لَهُ سَمِيًّا» يقول: هل تعلم يا محمد لربك هذا الذي أمرناك بعبادته، والصبر على طاعته مثلاً في كرمه وجوده، فتعبده رجاء فضله وطوله دونه؟ كلا، ما ذلك بموجود. وينقل في المقطع أقوالاً عن ابن عباس ومجاهد وقتادة والحسن وابن جريج والأعمش.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=19&tAyahNo=65&tDisplay=yes&UserProfile=0&LanguageId=1

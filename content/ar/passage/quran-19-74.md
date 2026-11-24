@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-6-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يرد الطبري على هذا الفخر بأن الله أهلك قروناً كثيرة هم أحسن أثاثاً ورئياً، أي أحسن متاعاً ومنظراً. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=19&tAyahNo=74&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَكَمْ أَهْلَكْنَا قَبْلَهُمْ مِّن قَرْنٍ هُمْ أَحْسَنُ أَثَاثاً وَرِءْياً»: وكم أهلكنا يا محمد قبل هؤلاء القائلين من أهل الكفر للمؤمنين، إذا تُتلى عليهم آيات الرحمن، أيّ الفريقين خير مقاماً، وأحسن ندياً، مجالس من قرن هم أكثر متاع منازل من هؤلاء، وأحسن منهم منظراً وأجمل صوراً، فأهلكنا أموالهم، وغيرنا صورهم ومن ذلك قول علقمة بن عبدة:كُمَيْتٌ كَلَوْنِ الأُرْجُوَانِ نَشَرْتهُ لبَيْعِ الرّئيِ فِي الصّوَانِ المُكَعَّبِ يعني بالصوان: التخت الذي تصان فيه الثياب. وينقل في المقطع أقوالاً عن ابن عباس ومجاهد وقتادة والحسن وابن زيد وابن جريج وغيرهم.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=19&tAyahNo=74&tDisplay=yes&UserProfile=0&LanguageId=1

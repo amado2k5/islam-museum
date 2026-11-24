@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-6-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن لله ما في السماوات وما في الأرض وما بينهما وما تحت الثرى ملكاً وتدبيراً، ويفسّر الثرى بالتراب الرطب. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=20&tAyahNo=6&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «لَهُ مَا فِي ٱلسَّمَٰوَٰتِ وَمَا فِي ٱلأَرْضِ وَمَا بَيْنَهُمَا وَمَا تَحْتَ ٱلثَّرَىٰ»: لله ما في السموات وما في الأرض وما بينهما، وما تحت الثرى، ملكاً له، وهو مدبر ذلك كله، ومصرّف جميعه. ويعني بالثرى: الندى. يقال للتراب الرطب المبتلّ: ثرى منقوص، يقال منه: ثريت الأرض تثرى، ثرى منقوص، والثرى: مصدر. وينقل في المقطع أقوالاً عن قتادة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=20&tAyahNo=6&tDisplay=yes&UserProfile=0&LanguageId=1

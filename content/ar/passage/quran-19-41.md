@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-6-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن إبراهيم كان صدّيقاً أي صادقاً في حديثه ومواعيده نبياً، وإنه قال لأبيه: لِمَ تعبد ما لا يسمع ولا يبصر ولا يغني عنك شيئاً. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=19&tAyahNo=41&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 41 إلى 42 مقطعاً واحداً. يفسّر قوله «وَٱذْكُرْ فِي ٱلْكِتَابِ إِبْرَاهِيمَ إِنَّهُ كَانَ صِدِّيقاً نَّبِيّاً»: يقول تعالى ذكره لنبيه: «وَاذْكُرْ» يا محمد في كتاب الله «إِبْرَاهِيمَ» خليل الرحمن، فاقصص على هؤلاء المشركين قصصه وقصص أبيه، «إِنَّه كَانَ صِدِّيقاً» يقول: كان من أهل الصدق في حديثه وأخباره ومواعيده لا يكذب، والصدّيق هو الفعيل من الصدق. وقد بيَّنا ذلك فيما مضى، بما أغنى عن إعادته في هذا الموضع. «نَبِيَّاً» يقول: كان الله قد نبأه وأوحى إليه. وقوله: «إذْ قالَ لأبِيهِ» يقول: اذكره حين قال لأبيه «يا أبَتِ لِمَ تَعْبُدُ ما لا يَسْمَعُ» يقول: ما تصنع بعبادة الوَثَن الذي لا يسمع «وَلا يُبْصرُ» شيئا «وَلا يُغْنِي عَنْكَ شَيْئاً» يقول: ولا يدفع عنك ضرّ شيء، إنما هو صورة مصوّرة لا تضرّ ولا تنفع.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=19&tAyahNo=41&tDisplay=yes&UserProfile=0&LanguageId=1

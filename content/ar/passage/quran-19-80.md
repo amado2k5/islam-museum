@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-6-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يوضح الطبري أن «كلا» ردّ لقولهم، وأن الله سيكتب ما يقول ويمدّ له من العذاب مداً ويرثه ما يقول، ويأتيه فرداً لا مال له ولا ولد. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=19&tAyahNo=80&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 80 إلى 81 مقطعاً واحداً. يفسّر قوله «كَلاَّ سَنَكْتُبُ مَا يَقُولُ وَنَمُدُّ لَهُ مِنَ ٱلْعَذَابِ مَدّاً»: يعني تعالى ذكره بقوله «كلا»: ليس الأمر كذلك، ما اطلع الغيب، فعلم صدق ما يقول، وحقيقة ما يذكر، ولا اتخذ عند الرحمن عهدا بالإيمان بالله ورسوله، والعمل بطاعته، بل كذب وكفر. ثم قال تعالى ذكره: «سَنَكْتُبُ ما يَقُولُ»: أي سنكتب ما يقول هذا الكافر بربه، القائل«لأُوتيَنَّ» في الآخرة«مالاً وَوَلَداً ونَمُدُّ لَهُ مِنَ العَذَابِ مَدًّا» يقول: ونزيده من العذاب في جهنم بقيله الكذب والباطل في الدنيا، زيادة على عذابه بكفره بالله. وقوله: «وَنَرِثُهُ ما يَقُولُ» يقول عزّ ذكره: ونسلب هذا القائل: لأوتينّ في الآخرة مالاً وولداً، ماله وولده، ويصير لنا ماله وولده دونه، ويأتينا هو يوم القيامة فردا، وحدَه لا مال معه ولا ولد. وينقل في المقطع أقوالاً عن ابن عباس ومجاهد وقتادة وابن زيد وابن جريج.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=19&tAyahNo=80&tDisplay=yes&UserProfile=0&LanguageId=1

@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-6-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن تلك الجنة هي التي يورثها الله من عباده من كان تقياً، أي ذا اتقاء لعذاب الله بأداء فرائضه واجتناب معاصيه. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=19&tAyahNo=63&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «تِلْكَ ٱلْجَنَّةُ ٱلَّتِي نُورِثُ مِنْ عِبَادِنَا مَن كَانَ تَقِيّاً»: هذه الجنة التي وصفت لكم أيها الناس صفتها، هي الجنة التي نورثها، يقول: نورث مساكن أهل النار فيها «مِنْ عِبادِنا مَنْ كانَ تَقِيًّا» يقول: من كان ذا اتقاء عذاب الله بأداء فرائضه، واجتناب معاصيه.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=19&tAyahNo=63&tDisplay=yes&UserProfile=0&LanguageId=1

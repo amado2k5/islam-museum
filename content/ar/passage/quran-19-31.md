@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-6-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن عيسى قال إن الله جعله مباركاً أينما كان وأوصاه بالصلاة والزكاة ما دام حياً. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=19&tAyahNo=31&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 31 إلى 32 مقطعاً واحداً. يفسّر قوله «قَالَ إِنِّي عَبْدُ ٱللَّهِ آتَانِيَ ٱلْكِتَابَ وَجَعَلَنِي نَبِيّاً»: فلما قال قوم مريم لها«كَيْفَ نُكَلِّمُ مَنْ كانَ فِي المَهْدِ صَبِيًّا» وظنوا أن ذلك منها استهزاء بهم، قال عيسى لها متكلماً عن أمه: «إنّي عَبْدُ اللَّهِ آتانِيَ الكِتاب». وكانوا حين أشارت لهم إلى عيسى فيما ذُكر عنهم غضبوا، كما: وعن السديّ، قال: لما أشارت لهم إلى عيسى غضبوا، وقالوا: لسخريتها بنا حين تأمرنا أن نكلم هذا الصبيّ أشدّ علينا من زناها«قالُوا كَيْفَ نُكَلِّمُ مَنْ كانَ فِي المَهْدِ صَبِيًّا» عن ابن إسحاق، عمن لا يتهم، عن وهب بن منبه«قالُوا كَيْفَ نُكَلِّمُ مَنْ كانَ فِي المَهْدِ صَبِيًّا» فأجابهم عيسى عنها فقال لهم «إنّي عَبْدُ اللَّهِ آتانِيَ الكِتابَ وَجَعَلَنِي نَبِيًّا...» الآية. وينقل في المقطع أقوالاً عن مجاهد وعكرمة وابن زيد وابن إسحاق وسماك وسفيان.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=19&tAyahNo=31&tDisplay=yes&UserProfile=0&LanguageId=1

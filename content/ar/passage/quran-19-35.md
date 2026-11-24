@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-6-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن الله ينفي أن يتخذ ولداً، تنزّه سبحانه، وإذا قضى أمراً فإنما يقول له كن فيكون، وأن الله ربّ عيسى وربنا فاعبدوه، هذا صراط مستقيم. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=19&tAyahNo=35&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 35 إلى 36 مقطعاً واحداً. يفسّر قوله «مَا كَانَ للَّهِ أَن يَتَّخِذَ مِن وَلَدٍ سُبْحَانَهُ إِذَا قَضَىٰ أَمْراً فَإِنَّمَا يَقُولُ لَهُ كُن فَيَكُونُ»: لقد كفرت الذين قالوا: إن عيسى ابن الله، وأعظموا الفِرْية عليه، فما ينبغي لله أن يتخذ ولداً، ولا يصلح ذلك له ولا يكون، بل كلّ شيء دونه فخلقه، وذلك نظير قول عمرو بن أحمر:في رأسِ خَلْقاءَ مِنْ عَنْقاءَ مُشْرِفَةٍ لا يُبْتَغَى دُوَنها سَهْلٌ وَلا جَبَلُ وأن من قوله «أنْ يَتَّخِذَ» في موضع رفع بكان. وقوله: «سُبْحانَهُ» يقول: تنزيهاً لله وتبرئة له أن يكون له ما أضاف إليه الكافرون القائلون: عيسى ابن الله. وينقل في المقطع أقوالاً عن ابن إسحاق.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=19&tAyahNo=35&tDisplay=yes&UserProfile=0&LanguageId=1

@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-6-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن يحيى كان براً بوالديه غير جبار عصيّ، متواضعاً لله ولوالديه، وأن السلام عليه يوم ولد ويوم يموت ويوم يبعث حياً. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=19&tAyahNo=14&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 14 إلى 15 مقطعاً واحداً. يفسّر قوله «وَبَرّاً بِوَالِدَيْهِ وَلَمْ يَكُن جَبَّاراً عَصِيّاً»: وكان برّاً بوالديه، مسارعاً في طاعتهما ومحبتهما، غير عاقّ بهما «ولَمْ يَكُنْ جَبَّاراً عَصِيًّا» يقول جلّ ثناؤه: ولم يكن مستكبراً عن طاعة ربه وطاعة والديه، ولكنه كان لله ولوالديه متواضعاً متذللاً، يأتمر لما أمر به، وينتهى عما نُهِي عنه، لا يَعْصِي ربه، ولا والديه. وقوله: «عَصِيًّا» فعيل بمعنى أنه ذو عصيان، من قول القائل: عَصَى فلان ربه، فهو يعصيه عصياً. وينقل في المقطع أقوالاً عن قتادة وابن إسحاق.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=19&tAyahNo=14&tDisplay=yes&UserProfile=0&LanguageId=1

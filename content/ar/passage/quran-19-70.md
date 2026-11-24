@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-6-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن الله أعلم بالذين هم أولى بصليّها أي بدخول النار وأحق بشدة العذاب، وينقل عن ابن جريج قولاً في ذلك. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=19&tAyahNo=70&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «ثُمَّ لَنَحْنُ أَعْلَمُ بِٱلَّذِينَ هُمْ أَوْلَىٰ بِهَا صِلِيّاً»: ثم لنحن أعلم من هؤلاء الذين ننزعهم من كلّ شيعة أولاهم بشدّة العذاب، وأحقهم بعظيم العقوبة. وذكر عن ابن جريج أنه كان يقول في ذلك ما: قال: ثني حجاج، عن ابن جريج «ثُمَّ لَنَحْنُ أعْلَمُ بالَّذِينَ هُمْ أوْلَى بِها صِليًّا» قال: أولى بالخلود في جهنم. قال أبو جعفر: وهذا الذي قاله ابن جريج، قول لا معنى له، لأن الله تعالى ذكره أخبر أن الذين ينزعهم من كلّ شيعة من الكفرة أشدّهم كفراً، ولا شكّ أنه لا كافر بالله إلا مخلَّد في النار، فلا وجه، وجميعهم مخلدون في جهنم، لأن يقال: ثم لنحن أعلم بالذين هم أحقّ بالخلود من هؤلاء المخلدين، ولكن المعنى في ذلك ما ذكرنا. وقد يحتمل أن يكون معناه: ثم لنحن أعلم بالذين هم أولى ببعض طبقات جهنم صلياً. وينقل في المقطع أقوالاً عن ابن جريج.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=19&tAyahNo=70&tDisplay=yes&UserProfile=0&LanguageId=1

@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-6-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن الله أمرها أن تهزّ إليها بجذع النخلة تساقط عليها رطباً جنياً، وهي معجزة تُروى بشأنها أقوال القراء. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=19&tAyahNo=25&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 25 إلى 26 مقطعاً واحداً. يفسّر قوله «فَنَادَاهَا مِن تَحْتِهَآ أَلاَّ تَحْزَنِي قَدْ جَعَلَ رَبُّكِ تَحْتَكِ سَرِيّاً»: اختلفت القرّاء في قراءة ذلك، فقرأته عامة قرّاء الحجاز والعراق «فَنادَاها مِنْ تَحْتِها» بمعنى: فناداها جبرائيل من بين يديها على اختلاف منهم في تأويله فمن متأوّل منهم إذا قرأه «مِنْ تحْتِها» كذلك ومن متأوّل منهم أنه عيسى، وأنه ناداها من تحتها بعد ما ولدته. وقرأ ذلك بعض قرّاء أهل الكوفة والبصرة: «فَنادَاها مِنْ تَحْتِها» بفتح التاءين من تحت، بمعنى: فناداها الذي تحتها، على أن الذي تحتها عيسى، وأنه الذي نادى أمه. وينقل في المقطع أقوالاً عن ابن عباس ومجاهد وقتادة والضحاك والأعمش وإبراهيم وغيرهم.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=19&tAyahNo=25&tDisplay=yes&UserProfile=0&LanguageId=1

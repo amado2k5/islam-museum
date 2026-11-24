@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-6-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يفسّر الطبري نهي إبراهيم لأبيه عن عبادة الشيطان لأن الشيطان كان للرحمن عصياً أي كثير العصيان، ويورد أقوال أهل العربية في وزن «فعيل». {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=19&tAyahNo=44&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «يٰأَبَتِ لاَ تَعْبُدِ ٱلشَّيْطَانَ إِنَّ ٱلشَّيْطَانَ كَانَ لِلرَّحْمَٰنِ عَصِيّاً»: يا أبت لا تعبد الشيطان إن الشيطان كان لله عاصيا. والعصيّ هو ذو العصيان، كما العليم ذو العلم. وقد قال قوم من أهل العربية: العصيّ: هو العاصي، والعليم هو العالم، والعريف هو العارف، واستشهدوا لقولهم ذلك، بقول طريف بن تميم العنبريّ.أوَ كُلَّما وَرَدَتْ عُكاظَ قَبِيلَةٌ بَعَثُوا إليَّ عَرِيفَهُمْ يَتَوَسَّمُ وقالوا: قال عريفهم وهو يريد: عارفهم، والله أعلم.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=19&tAyahNo=44&tDisplay=yes&UserProfile=0&LanguageId=1
