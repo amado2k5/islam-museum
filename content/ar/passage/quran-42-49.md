@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-10-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل الآيات 49 إلى 50، وخلاصتها: يفسّر الطبري أن لله ملك السماوات والأرض يخلق ما يشاء يهب لمن يشاء إناثاً ويهب لمن يشاء الذكور أو يزوجهم ذكراناً وإناثاً ويجعل من يشاء عقيماً إنه عليم قدير. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=42&tAyahNo=49&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 49 إلى 50 مقطعاً واحداً. يفسّر قوله «لِلَّهِ مُلْكُ ٱلسَّمَٰوَٰتِ وَٱلأَرْضِ يَخْلُقُ مَا يَشَآءُ يَهَبُ لِمَن يَشَآءُ إِنَاثاً وَيَهَبُ لِمَن يَشَآءُ ٱلذُّكُورَ»: لله سلطان السموات السبع والأرضين، يفعل في سلطانه ما يشاء، ويخلق ما يحبّ خلقه، يهب لمن يشاء من خلقه من الولد الإناث دون الذكور، بأن يجعل كل ما حملت زوجته من حمل منه أنثى «وَيَهبُ لِمُنْ يَشاءُ الذُّكُورَ» يقول: ويهب لمن يشاء منهم الذكور، بأن يجعل كلّ حمل حملته امرأته ذكراً لا أنثى فيهم. وعن ابن أبي نجيح، عن مجاهد «أوْ يُزَوّجُهُمْ ذُكْرَاناً وَإناثاً» قال: يخلط بينهم يقول: التزويج: أن تلد المرأة غلاماً، ثم تلد جارية، ثم تلد غلاماً، ثم تلد جارية. وينقل في المقطع أقوالاً عن ابن عباس ومجاهد وقتادة وابن زيد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=42&tAyahNo=49&tDisplay=yes&UserProfile=0&LanguageId=1

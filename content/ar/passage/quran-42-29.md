@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-10-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن من آياته خلق السماوات والأرض وما بثّ فيهما من دابة وهو على جمعهم إذا يشاء قدير. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=42&tAyahNo=29&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَمِنْ آيَاتِهِ خَلْقُ ٱلسَّمَٰوَٰتِ وَٱلأَرْضِ وَمَا بَثَّ فِيهِمَا مِن دَآبَّةٍ وَهُوَ عَلَىٰ جَمْعِهِمْ إِذَا يَشَآءُ قَدِيرٌ»: ومن حججه عليكم أيها الناس أنه القادر على إحيائكم بعد فنائكم، وبعثكم من قبوركم من بعد بلائكم، خلقه السموات والأرض، وما بثّ فيهما من دابة. يعني وما فرّق في السموات والأرض من دابة. كما: وعن ابن أبي نجيح، عن مجاهد، قوله: «وَما بَثَّ فِيهِما مِنْ دَابَّةٍ» قال: الناس والملائكة «وَهُوَ على جَمْعِهِمْ إذَا يَشاءُ قَدِيرٌ» يقول: وهو على جمع ما بثّ فيهما من دابة إذا شاء جمعه، ذو قدرة لا يتعذّر عليه، كما لم يتعذر عليه خلقه وتفريقه، يقول تعالى ذكره: فكذلك هو القادر على جمع خلقه بحشر يوم القيامة بعد تفرّق أوصالهم في القبور. وينقل في المقطع أقوالاً عن مجاهد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=42&tAyahNo=29&tDisplay=yes&UserProfile=0&LanguageId=1

@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-10-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن الذين كفروا يقولون يوم القيامة ربنا أرنا الذين أضلانا من الجن والإنس نجعلهما تحت أقدامنا ليكونا من الأسفلين، وينقل قولاً بأن الجني إبليس والإنسي ابن آدم الذي قتل أخاه. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=41&tAyahNo=29&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَقَال الَّذِينَ كَفَرُواْ رَبَّنَآ أَرِنَا ٱلَّذَيْنِ أَضَلاَّنَا مِنَ ٱلْجِنِّ وَٱلإِنسِ نَجْعَلْهُمَا تَحْتَ أَقْدَامِنَا لِيَكُونَا مِنَ ٱلأَسْفَلِينَ»: وقال الذين كفروا بالله ورسوله يوم القيامة بعد ما أدخلوا جهنم: يا ربنا أرنا اللذين أضلاَّنا من خلقك من جنهم وإنسهم. وقيل: إن الذي هو من الجنّ إبليس، والذي هو من الإنس ابن آدم الذي قتل أخاه. وينقل في المقطع أقوالاً عن قتادة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=41&tAyahNo=29&tDisplay=yes&UserProfile=0&LanguageId=1

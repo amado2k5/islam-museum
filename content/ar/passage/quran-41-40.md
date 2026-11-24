@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-10-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يفسّر الطبري أن الذين يُلحدون في آيات الله أي يميلون عن الحق فيها ويجحدونها لا يخفون على الله، ويقارن بين من يُلقى في النار ومن يأتي آمناً يوم القيامة، ويورد أقوال ابن عباس وقتادة في معنى الإلحاد. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=41&tAyahNo=40&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «إِنَّ ٱلَّذِينَ يُلْحِدُونَ فِيۤ آيَاتِنَا لاَ يَخْفَوْنَ عَلَيْنَآ أَفَمَن يُلْقَىٰ فِي ٱلنَّارِ خَيْرٌ أَم مَّن يَأْتِيۤ آمِناً يَوْمَ ٱلْقِيَامَةِ ٱعْمَلُواْ مَا شِئْتُمْ إِنَّهُ بِمَا تَعْمَلُونَ بَصِيرٌ»: يعني جلّ ثناؤه بقوله: «إنَّ الَّذِينَ يُلْحِدُونَ فِي آياتِنا» إن الذين يميلون عن الحقّ في حججنا وأدلتنا، ويعدلون عنها تكذيباً بها وجحوداً لها. وقد بيَّنت فيما مضى معنى اللحد بشواهده المغنية عن إعادتها في هذا الموضع. وسنذكر بعض اختلاف المختلفين في المراد به من معناه في هذا الموضع. اختلف أهل التأويل في المراد به من معنى الإلحاد في هذا الموضع، فقال بعضهم: أريد به معارضة المشركين القرآن باللغط والصفير استهزاء به. وينقل في المقطع أقوالاً عن ابن عباس ومجاهد وقتادة وابن زيد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=41&tAyahNo=40&tDisplay=yes&UserProfile=0&LanguageId=1

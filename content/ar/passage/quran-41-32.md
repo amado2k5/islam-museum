@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-10-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل الآيات 31 إلى 32، وخلاصتها: يقول الطبري إن الملائكة تقول للمؤمنين نحن أولياؤكم في الحياة الدنيا وفي الآخرة ولكم فيها ما تشتهي أنفسكم ولكم فيها ما تدّعون نزلاً من غفور رحيم، ويذكر أنهم الحفظة الذين كانوا يكتبون الأعمال. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=41&tAyahNo=32&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 31 إلى 32 مقطعاً واحداً. يفسّر قوله «نُزُلاً مِّنْ غَفُورٍ رَّحِيمٍ»: أعطاكم ذلك ربكم نزلاً لكم من ربّ غفور لذنوبكم، رحيم بكم أن يعاقبكم بعد توبتكم ونصب نُزُلاً على المصدر من معنى قوله: «وَلَكُمْ فِيها ما تَشْتَهِي أنْفُسُكُمْ ولَكُمْ فِيها ما تَدَّعُونَ» لأن في ذلك تأويل أنزلكم ربكم بما تشتهون من النعيم نُزُلاً.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=41&tAyahNo=32&tDisplay=yes&UserProfile=0&LanguageId=1

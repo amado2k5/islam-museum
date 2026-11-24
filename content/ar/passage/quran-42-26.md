@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-10-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يذكر الطبري أن الله يستجيب للذين آمنوا وعملوا الصالحات ويزيدهم من فضله، والكافرون لهم عذاب شديد، ويورد في معنى الاستجابة أقوال التابعين. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=42&tAyahNo=26&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَيَسْتَجِيبُ ٱلَّذِينَ آمَنُواْ وَعَمِلُواْ ٱلصَّالِحَاتِ وَيَزِيدُهُم مِّن فَضْلِهِ وَٱلْكَافِرُونَ لَهُمْ عَذَابٌ شَدِيدٌ»: ويجيب الذين آمنوا بالله ورسوله، وعملوا بما أمرهم الله به، وانتهوا عما نهاهم عنه لبعضهم دعاء بعض. وينقل في المقطع أقوالاً عن قتادة وإبراهيم.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=42&tAyahNo=26&tDisplay=yes&UserProfile=0&LanguageId=1

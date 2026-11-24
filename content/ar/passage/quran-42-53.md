@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-10-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-تأتي الآية في صفحة الروح، وفيها يبيّن الطبري أن النبي يهدي إلى صراط مستقيم صراط الله الذي له ما في السماوات وما في الأرض، ألا إلى الله تصير الأمور. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=42&tAyahNo=53&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 53 إلى 54 مقطعاً واحداً. يفسّر قوله «وَكَذَلِكَ أَوْحَيْنَآ إِلَيْكَ رُوحاً مِّنْ أَمْرِنَا مَا كُنتَ تَدْرِي مَا ٱلْكِتَابُ وَلاَ ٱلإِيمَانُ وَلَٰكِن جَعَلْنَاهُ نُوراً نَّهْدِي بِهِ مَن نَّشَآءُ مِنْ عِبَادِنَا وَإِنَّكَ لَتَهْدِيۤ إِلَىٰ صِرَاطٍ مُّسْتَقِيمٍ»: يعني تعالى ذكره بقوله: «وكَذلكَ أوْحَيْنا إلَيْكَ رُوحاً مِنْ أمْرِنا» وكما كنا نوحي في سائر رسلنا، كذلك أوحينا إليك يا محمد هذا القرآن، روحاً من أمرنا: يقول: وحياً ورحمة من أمرنا. واختلف أهل التأويل في معنى الروح في هذا الموضع، فقال بعضهم: عنى به الرحمة. وينقل في المقطع أقوالاً عن قتادة والحسن.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=42&tAyahNo=53&tDisplay=yes&UserProfile=0&LanguageId=1

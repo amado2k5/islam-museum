@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-10-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل الآيات 48 إلى 49، وخلاصتها: يبيّن الطبري أن آلهة المشركين تضلّ عنهم يوم القيامة فلا تنفعهم، ويوقنون أن لا مهرب لهم من العذاب، ثم أن الإنسان لا يسأم من دعاء الخير وإن مسّه الشر فيؤوس قنوط. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=41&tAyahNo=48&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 48 إلى 49 مقطعاً واحداً. يفسّر قوله «وَضَلَّ عَنْهُم مَّا كَانُواْ يَدْعُونَ مِن قَبْلُ وَظَنُّواْ مَا لَهُمْ مِّن مَّحِيصٍ»: وضلّ عن هؤلاء المشركين يوم القيامة آلهتهم التي كانوا يعبدونها في الدنيا، فأخذ بها طريق غير طريقهم، فلم تنفعهم، ولم تدفع عنهم شيئاً من عذاب الله الذي حلّ بهم. وقوله: «وَظَنُّوا ما لَهُمْ مِنْ مَحِيصٍ» يقول: وأيقنوا حينئذٍ ما لهم من ملجأ: أي ليس لهم ملجأ يلجأون إليه من عذاب الله. وينقل في المقطع أقوالاً عن ابن زيد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=41&tAyahNo=48&tDisplay=yes&UserProfile=0&LanguageId=1

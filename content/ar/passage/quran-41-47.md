@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-10-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يفسّر الطبري أن علم الساعة يُردّ إلى الله، وما تخرج من ثمرات من أكمامها وما تحمل من أنثى ولا تضع إلا بعلمه، ويوم ينادي المشركين أين شركائي قالوا آذناك ما منا من شهيد، ويفسّر «آذناك» بأعلمناك. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=41&tAyahNo=47&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «إِلَيْهِ يُرَدُّ عِلْمُ ٱلسَّاعَةِ وَمَا تَخْرُجُ مِن ثَمَرَاتٍ مِّنْ أَكْمَامِهَا وَمَا تَحْمِلُ مِنْ أُنْثَىٰ وَلاَ تَضَعُ إِلاَّ بِعِلْمِهِ وَيَوْمَ يُنَادِيهِمْ أَيْنَ شُرَكَآئِي قَالُوۤاْ آذَنَّاكَ مَا مِنَّا مِن شَهِيدٍ»: إلى الله يردّ العالمون به علم الساعة، فإنه لا يعلم ما قيامها غيره «وَما تَخْرُجُ مِنْ ثَمَرَاتٍ مِنْ أكمَامِها» يقول: وما تظهر من ثمرة شجرة من أكمامها التي هي متغيبة فيها، فتخرج منها بارزة «وَما تَحْمِلُ مِنْ أُنْثَى» يقول: وما تحمل من أنثى من حمل حين تحمله، ولا تضع ولدها إلا بعلم من الله، لا يخفى عليه شيء من ذلك. وينقل في المقطع أقوالاً عن ابن عباس ومجاهد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=41&tAyahNo=47&tDisplay=yes&UserProfile=0&LanguageId=1

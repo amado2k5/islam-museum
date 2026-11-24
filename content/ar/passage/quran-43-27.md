@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-10-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-تأتي الآية في صفحة براءة إبراهيم من عبادة قومه، وفيها يبيّن الطبري أن الله جعل كلمة التوحيد باقية في عقب إبراهيم لعلهم يرجعون، ويورد أقوال قتادة ومجاهد وابن زيد. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=43&tAyahNo=27&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 27 إلى 29 مقطعاً واحداً. يفسّر قوله «وَإِذْ قَالَ إِبْرَاهِيمُ لأَبِيهِ وَقَوْمِهِ إِنَّنِي بَرَآءٌ مِّمَّا تَعْبُدُونَ»: «وَإذْ قالَ إبْراهِيمُ لأبِيهِ وَقَوْمِهِ» الذين كانوا يعبدون ما يعبده مشركو قومك يا محمد «إنَّنِي بَرَاءٌ مِمَّا تَعْبُدُونَ» من دون الله، فكذّبوه، فانتقمنا منهم كما انتقمنا ممن قبلهم من الأمم المكذّبة رسلها. وقيل: «إنَّنِي بَرَاءٌ مِمَّا تَعْبُدُونَ» فوضع البراء وهو مصدر موضع النعت، والعرب لا تثني البراء ولا تجمع ولا تؤنث، فتقول: نحن البَرَاء والخلاء: لِما ذكرت أنه مصدر، وإذا قالوا: هو برىء منك ثنوا وجمعوا وأنَّثوا، فقالوا: هما بريئان منك، وهم بريئون منك. وينقل في المقطع أقوالاً عن مجاهد وقتادة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=43&tAyahNo=27&tDisplay=yes&UserProfile=0&LanguageId=1

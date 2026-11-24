@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-10-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل الآيات 31 إلى 32، وخلاصتها: يقول الطبري إن الملائكة تقول للمؤمنين نحن أولياؤكم في الحياة الدنيا وفي الآخرة ولكم فيها ما تشتهي أنفسكم ولكم فيها ما تدّعون نزلاً من غفور رحيم، ويذكر أنهم الحفظة الذين كانوا يكتبون الأعمال. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=41&tAyahNo=31&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 31 إلى 32 مقطعاً واحداً. يفسّر قوله «نَحْنُ أَوْلِيَآؤُكُمْ فِي ٱلْحَيَاةِ ٱلدُّنْيَا وَفِي ٱلآخِرَةِ وَلَكُمْ فِيهَا مَا تَشْتَهِيۤ أَنفُسُكُمْ وَلَكُمْ فِيهَا مَا تَدَّعُونَ»: يقول تعالى ذكره مخبراً عن قيل ملائكته التي تتنزل على هؤلاء المؤمنين الذين استقاموا على طاعته عند موتهم: «نَحْنُ أوْلَياؤكُمْ» أيها القوم «فِي الحَياةِ الدُّنْيا» كنا نتولاكم فيها وذكر أنهم الحفظة الذين كانوا يكتبون أعمالهم.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=41&tAyahNo=31&tDisplay=yes&UserProfile=0&LanguageId=1

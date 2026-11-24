@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-10-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يفسّر الطبري أن الله أوحى إلى نبيه قرآناً عربياً بلسان قومه لينذر أم القرى ومن حولها، وينذر يوم الجمع لا ريب فيه فريق في الجنة وفريق في السعير، ويورد أقوال أهل العلم في أم القرى بأنها مكة. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=42&tAyahNo=7&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَكَذَلِكَ أَوْحَيْنَآ إِلَيْكَ قُرْآناً عَرَبِيّاً لِّتُنذِرَ أُمَّ ٱلْقُرَىٰ وَمَنْ حَوْلَهَا وَتُنذِرَ يَوْمَ ٱلْجَمْعِ لاَ رَيْبَ فِيهِ فَرِيقٌ فِي ٱلْجَنَّةِ وَفَرِيقٌ فِي ٱلسَّعِيرِ»: وهكذا «أوْحَيْنا إلَيْكَ» يا محمد «قُرْآنا عَرَبِيّاً» بلسان العرب، لأن الذين أرسلتك إليهم قوم عرب، فأوحينا إليك هذا القرآن بألسنتهم، ليفهموا ما فيه من حجج الله وذكره، لأنا لا نرسل رسولاً إلا بلسان قومه، ليبين لهم «لِتُنْذِرَ أُمَّ القُرَى» وهي مكة «وَمَنْ حَوْلَهَا» يقول: ومن حول أمّ القرى من سائر الناس.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=42&tAyahNo=7&tDisplay=yes&UserProfile=0&LanguageId=1

@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-10-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن النبي يُؤمر بأن يسأل المشركين: أولو جئتكم بأهدى مما وجدتم عليه آباءكم قالوا إنا بما أرسلتم به كافرون. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=43&tAyahNo=24&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «قَٰلَ أَوَلَوْ جِئْتُكُمْ بِأَهْدَىٰ مِمَّا وَجَدتُّمْ عَلَيْهِ آبَآءَكُمْ قَالُوۤاْ إِنَّا بِمَآ أُرْسِلْتُمْ بِهِ كَافِرُونَ»: قل يا محمد لهؤلاء المشركين من قومك، القائلين إنا وجدنا آباءنا على أمة وإنا على آثارهم مقتدون «أوَ لَوْ جِئْتُكُمْ» أيها القوم من عند ربكم «بأَهْدَى» إلى طريق الحقّ، وأدلّ لكم على سبيل الرشاد «مِمَّا وَجَدْتُمْ» أنتم عليه آباءكم من الدين والمِلَّة، «قالُوا إنَّا بِمَا أُرْسِلْتُمْ بِهِ كافِرُونَ» يقول: فقال ذلك لهم، فأجابوه بأن قالوا له كما قال الذين من قبلهم من الأمم المكذّبة رسلها لأنبيائها: إنا بما أرسلتم به يا أيها القوم كافرون، يعني: جاحدون منكرون. وقرأ ذلك قرّاء الأمصار سوى أبي جعفر «قُلْ أوَ لَوْ جِئْتُكُمْ» بالتاء. وذُكر عن أبي جعفر القارىء أنه قرأه «قُلْ أوَ لَوْ جِئْناكُمْ» بالنون والألف.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=43&tAyahNo=24&tDisplay=yes&UserProfile=0&LanguageId=1

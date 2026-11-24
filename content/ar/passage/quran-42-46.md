@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-10-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل الآيات 46 إلى 47، وخلاصتها: يبيّن الطبري أنه لم يكن للكافرين أولياء ينصرونهم من دون الله، ومن يضلل الله فما له من سبيل، ويأمر باستجابة الله من قبل أن يأتي يوم لا مردّ له من الله. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=42&tAyahNo=46&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 46 إلى 47 مقطعاً واحداً. يفسّر قوله «وَمَا كَانَ لَهُم مِّنْ أَوْلِيَآءَ يَنصُرُونَهُم مِّن دُونِ ٱللَّهِ وَمَن يُضْلِلِ ٱللَّهُ فَمَا لَهُ مِن سَبِيلٍ»: ولم يكن لهؤلاء الكافرين حين يعذّبهم الله يوم القيامة أولياء يمنعونهم من عذاب الله ولا ينتصرون لهم من ربهم على ما نالهم به من العذاب من دون الله «وَمَنْ يُضْلِلِ اللّهُ فَمَا لَهُ مِنْ سَبِيلٍ» يقول: ومن يخذله عن طريق الحقّ فما له من طريق إلى الوصول إليه، لأن الهداية والإضلال بيده دون كلّ أحد سواه. وينقل في المقطع أقوالاً عن مجاهد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=42&tAyahNo=46&tDisplay=yes&UserProfile=0&LanguageId=1

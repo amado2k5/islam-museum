@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-10-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أمر النبي بأن يقول للمكذبين: أرأيتم إن كان من عند الله ثم كفرتم به من أضلّ ممن هو في شقاق بعيد، أي في خلاف وعداوة للحق. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=41&tAyahNo=52&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «قُلْ أَرَأَيْتُمْ إِن كَانَ مِنْ عِندِ ٱللَّهِ ثُمَّ كَفَرْتُمْ بِهِ مَنْ أَضَلُّ مِمَّنْ هُوَ فِي شِقَاقٍ بَعِيدٍ»: يقول تعالى ذكره لنبيه محمد «قُلْ» يا محمد للمكذّبين بما جئتهم به من عند ربِّك من هذا القرآن «أرَأَيْتُمْ» أيها القوم «إنْ كانَ» هذا الذي تكذّبون به «مِنْ عِنْدِ اللّهِ ثُمَّ كَفَرْتُمْ بِهِ» ألستم فِي فِراقٍ للحق وبعدٍ من الصواب، فجعل مكان التفريق الخبر، فقال: «مَنْ أضَلُّ مِمَّنْ هُوَ في شِقاقٍ بَعَيدٍ» إذا كان مفهوماً معناه. وقوله: «مَنْ أضَلُّ مِمَّنْ هُوَ في شِقاقٍ بَعَيدٍ» يقول: قل لهم من أشدّ ذهاباً عن قصد السبيل، وأسلك لغير طريق الصواب، ممن هو في فراقٍ لأمر الله وخوفٍ له، بعيد من الرشاد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=41&tAyahNo=52&tDisplay=yes&UserProfile=0&LanguageId=1

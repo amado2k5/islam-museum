@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-10-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن للمشركين شركاء من شياطينهم شرعوا لهم من الدين ما لم يأذن به الله، ولولا كلمة الفصل لقُضي بينهم، وأن الظالمين لهم عذاب أليم. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=42&tAyahNo=21&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «أَمْ لَهُمْ شُرَكَاءُ شَرَعُواْ لَهُمْ مِّنَ ٱلدِّينِ مَا لَمْ يَأْذَن بِهِ ٱللَّهُ وَلَوْلاَ كَلِمَةُ ٱلْفَصْلِ لَقُضِيَ بَيْنَهُمْ وَإِنَّ ٱلظَّالِمِينَ لَهُمْ عَذَابٌ أَلِيمٌ»: يقول تعالى ذكره أم لهؤلاء المشركين بالله شركاء في شركهم وضلالتهم «شَرَعُوا لَهُمْ مِنَ الدّينِ ما لَمْ يَأْذَنْ بِهِ اللّهُ» يقول: ابتدعوا لهم من الدين ما لم يبح الله لهم ابتداعه «وَلَوْلا كَلِمَةُ الفَصلِ لَقُضِيَ بَيْنَهُمْ» يقول تعالى ذكره: ولولا السابق من الله في أنه لا يعجل لهم العذاب في الدنيا، وأنه مضى من قيله إنهم مؤخرون بالعقوبة إلى قيام الساعة، لفرغ من الحكم بينكم وبينهم بتعجيله العذاب لهم في الدنيا، ولكن لهم في الآخرة من العذاب الأليم، كما قال جلّ ثناؤه: «وَإنَّ الظَّالِمِينَ لَهُمْ عَذَابٌ ألِيمٌ» يقول: وإن الكافرين بالله لهم يوم القيامة عذاب مؤلم مُوجِع.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=42&tAyahNo=21&tDisplay=yes&UserProfile=0&LanguageId=1

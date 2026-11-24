@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-10-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن الله لم يعطهم كتاباً بذلك فهم به مستمسكون، بل قالوا إنا وجدنا آباءنا على أمة وإنا على آثارهم مهتدون، ويفسّر «أمة» بملة ودين. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=43&tAyahNo=22&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «بَلْ قَالُوۤاْ إِنَّا وَجَدْنَآ ءَابَآءَنَا عَلَىٰ أُمَّةٍ وَإِنَّا عَلَىٰ ءَاثَارِهِم مُّهْتَدُونَ»: ما آتينا هؤلاء القائلين: لو شاء الرحمن ما عبدنا هؤلاء الأوثان بالأمر بعبادتها، كتاباً من عندنا، ولكنهم قالوا: وجدنا آباءنا الذين كانوا قبلنا يعبدونها، فنحن نعبدها كما كانوا يعبدونها وعنى جلّ ثناؤه بقوله: «بَلْ وَجَدْنا آباءَنا على أُمَّةٍ» بل وجدنا آباءنا على دين وملة، وذلك هو عبادتهم الأوثان. وينقل في المقطع أقوالاً عن ابن عباس ومجاهد وقتادة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=43&tAyahNo=22&tDisplay=yes&UserProfile=0&LanguageId=1

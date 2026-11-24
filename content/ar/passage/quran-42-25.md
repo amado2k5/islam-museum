@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-10-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن الله هو الذي يقبل التوبة عن عباده ويعفو عن السيئات ويعلم ما يفعلون. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=42&tAyahNo=25&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَهُوَ ٱلَّذِي يَقْبَلُ ٱلتَّوْبَةَ عَنْ عِبَادِهِ وَيَعْفُواْ عَنِ ٱلسَّيِّئَاتِ وَيَعْلَمُ مَا تَفْعَلُونَ»: والله الذي يقبل مراجعة العبد إذا رجع إلى توحيد الله وطاعته من بعد كفره «وَيَعْفُوا عَنِ السَّيِّئاتِ» يقول: ويعفو أن يعاقبه على سيئاته من الأعمال، وهي معاصيه التي تاب منها «وَيَعْلَمُ ما تَفْعَلُونَ» اختلفت القرّاء في قراءة ذلك، فقرأته عامة قرّاء المدينة والبصرة «يَفْعَلُونَ» بالياء، بمعنى: ويعلم ما يفعل عباده، وقرأته عامة قرّاء الكوفة «تَفْعَلُونَ» بالتاء على وجه الخطاب. وينقل في المقطع أقوالاً عن إبراهيم.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=42&tAyahNo=25&tDisplay=yes&UserProfile=0&LanguageId=1

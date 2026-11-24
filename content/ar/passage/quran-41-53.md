@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-10-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يعرض الطبري اختلاف أهل التأويل في الآيات التي وعد الله بإراءتها في الآفاق وفي أنفسهم: فقيل وقائع النبي بالمشركين وفتوح البلاد، وقيل غير ذلك، ثم يبيّن أن ذلك حتى يتبيّن لهم أنه الحق، أو لم يكفِ بربك أنه على كل شيء شهيد. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=41&tAyahNo=53&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «سَنُرِيهِمْ آيَاتِنَا فِي ٱلآفَاقِ وَفِيۤ أَنفُسِهِمْ حَتَّىٰ يَتَبَيَّنَ لَهُمْ أَنَّهُ ٱلْحَقُّ أَوَلَمْ يَكْفِ بِرَبِّكَ أَنَّهُ عَلَىٰ كُلِّ شَيْءٍ شَهِيدٌ»: سنُري هؤلاء المكذّبين، ما أنزلنا على محمد عبدنا من الذكر، آياتنا في الآفاق. واختلف أهل التأويل في معنى الآيات التي وعد الله هؤلاء القوم أن يريهم، فقال بعضهم: عنى بالآيات في الآفاق وقائع النبيّ بنواحي بلد المشركين من أهل مكة وأطرافها، وبقوله: «وفِي أنْفُسِهِمْ» فتح مكة. وينقل في المقطع أقوالاً عن ابن زيد وسفيان.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=41&tAyahNo=53&tDisplay=yes&UserProfile=0&LanguageId=1

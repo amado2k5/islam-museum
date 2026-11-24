@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-10-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن الله انتقم من الأمم المكذبة، فانظر كيف كان عاقبة المكذبين، أي آخر أمرهم بالهلاك. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=43&tAyahNo=25&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «فَٱنتَقَمْنَا مِنْهُمْ فَٱنظُرْ كَيْفَ كَانَ عَاقِبَةُ ٱلْمُكَذِّبِينَ»: فانتقمنا من هؤلاء المكذّبة رسلها من الأمم الكافرة بربها، بإحلالنا العقوبة بهم، فانظر يا محمد كيف كان عقبى أمرهم، إذ كذّبوا بآيات الله. ويعني بقوله: «عاقِبَةُ المُكَذّبِينَ» آخر أمر الذين كذّبوا رسل الله إلام صار، يقول: ألم نهلكهم فنجعلهم عبرة لغيرهم؟ كما: وعن قتادة «فانْتَقَمْنا مِنْهُمْ فانْظُرْ كَيْفَ كانَ عاقِبَةُ المُكَذّبِينَ» قال: شرّ والله، أخذهم بخسف وغرق، ثم أهلكهم فأدخلهم النار. وينقل في المقطع أقوالاً عن قتادة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=43&tAyahNo=25&tDisplay=yes&UserProfile=0&LanguageId=1

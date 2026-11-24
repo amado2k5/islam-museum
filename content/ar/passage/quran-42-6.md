@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-10-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن الذين اتخذوا من دونه أولياء الله حفيظ عليهم يحصي أعمالهم ليجازيهم بها، وما أنت عليهم بوكيل. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=42&tAyahNo=6&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَٱلَّذِينَ ٱتَّخَذُواْ مِن دُونِهِ أَوْلِيَآءَ ٱللَّهُ حَفِيظٌ عَلَيْهِمْ وَمَآ أَنتَ عَلَيْهِم بِوَكِيلٍ»: يقول تعالى ذكره لنبيه محمد «وَالَّذِينَ اتَّخَذُوا» يا محمد من مشركي قومك «مِنْ دُونِهِ اللّهِ» آلهة يتولونها ويعبدونها «اللّهُ حَفِيظٌ عَلَيْهِمْ» يُحْصِي عليهم أفعالهم، ويحفظ أعمالهم، ليجازيهم بها يوم القيامة جزاءهم «وَما أنْتَ عَلَيْهِمْ بِوَكِيلٍ» يقول: ولست أنت يا محمد بالوكيل عليهم بحفظ أعمالهم، وإنما أنت منذر، فبلغهم ما أرسلت به إليهم، فإنما عليك البلاغ وعلينا الحساب.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=42&tAyahNo=6&tDisplay=yes&UserProfile=0&LanguageId=1

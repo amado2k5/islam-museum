@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-10-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل الآيات 38 إلى 39، وخلاصتها: يذكر الطبري قراءتي «جاءنا» و«جاءانا» ثم يبيّن أن الكافر يقول لقرينه يا ليت بيني وبينك بعد المشرقين فبئس القرين، ولن ينفعكم اليوم إذ ظلمتم أنكم في العذاب مشتركون. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=43&tAyahNo=38&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 38 إلى 39 مقطعاً واحداً. يفسّر قوله «حَتَّىٰ إِذَا جَآءَنَا قَالَ يٰلَيْتَ بَيْنِي وَبَيْنَكَ بُعْدَ ٱلْمَشْرِقَيْنِ فَبِئْسَ ٱلْقَرِينُ»: اختلفت القرّاء في قراءة قوله: «حتى إذَا جاءَنا» فقرأته عامة قرّاء الحجاز سوى ابن محيصن، وبعض الكوفيين وبعض الشاميين «حتى إذَا جاءانا» على التثنية بمعنى: حتى إذا جاءنا هذا الذي عَشِيَ عن ذكر الرحمن، وقرينه الذي قيض له من الشياطين. وقرأ ذلك عامة قرّاء الكوفة والبصرة وابن محيصن: حتى إذَا جاءَنا على التوحيد، بمعنى: حتى إذا جاءنا هذا العاشي من بني آدم عن ذكر الرحمن. وينقل في المقطع أقوالاً عن قتادة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=43&tAyahNo=38&tDisplay=yes&UserProfile=0&LanguageId=1

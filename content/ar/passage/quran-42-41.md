@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-10-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل الآيات 41 إلى 42، وخلاصتها: يبيّن الطبري أن من انتصر بعد ظلمه فلا سبيل عليه لأنه انتصر بحق، وإنما السبيل على الذين يظلمون الناس ويبغون في الأرض بغير الحق أولئك لهم عذاب أليم. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=42&tAyahNo=41&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 41 إلى 42 مقطعاً واحداً. يفسّر قوله «وَلَمَنِ ٱنتَصَرَ بَعْدَ ظُلْمِهِ فَأُوْلَٰئِكَ مَا عَلَيْهِمْ مِّن سَبِيلٍ»: ولمن انتصر ممن ظلمه من بعد ظلمه إياه «فَأُولَئِكَ ما عَلَيْهِمْ مِنْ سَبِيلٍ» يقول: فأولئك المنتصرون منهم لا سبيل للمنتصر منهم عليهم بعقوبة ولا أذى، لأنهم انتصروا منهم بحقّ، ومن أخذ حقه ممن وجب ذلك له عليه، ولم يتعدّ، لم يظلم، فيكون عليه سبيل. وقد اختلف أهل التأويل في المعنيّ بذلك، فقال بعضهم: عني به كلّ منتصر ممن أساء إليه، مسلماً كان المسيء أو كافراً. وينقل في المقطع أقوالاً عن قتادة وابن زيد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=42&tAyahNo=41&tDisplay=yes&UserProfile=0&LanguageId=1
