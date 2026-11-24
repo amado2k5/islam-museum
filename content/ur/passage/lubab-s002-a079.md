@@ -8,7 +8,7 @@ translators: ["machine translation, draft"]
 ## Summary
 al-Baqara 2:79 کے سببِ نزول پر سیوطی کی روایت — «لباب النقول» ⁦(شاملة 2247)⁩ — صحابہ کی نسل سے۔
 
-The verse, in al-Suyuti's heading: «فويل للذين يكتبون الكتاب بأيديهم (ك)».
+The verse, in al-Suyuti's heading: «فويل للذين يكتبون الكتاب بأيديهم ⁦(ك)⁩».
 
 ## Place in the museum
 ماخذ: [[work/lubab-al-nuqul-suyuti|سیوطی کی «لباب النقول فی اسباب النزول»]]۔ آیت: [[passage/quran-2-79|قرآن 2-79]]۔

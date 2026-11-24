@@ -1,0 +1,57 @@
+id: person/alexander-russell-webb
+class: person
+label: { ar: "ألكسندر راسل ويب", en: "Alexander Russell Webb (Muhammad Webb)", ur: "الیگزینڈر رسل ویب ⁦(محمد ویب)⁩", fr: "Alexander Russell Webb (Muhammad Webb)", es: "Alexander Russell Webb (Muhammad Webb)", tr: "Alexander Russell Webb", id: "Alexander Russell Webb" }
+names:
+  - { value: "Alexander Russell Webb", kind: full }
+  - { value: "Muhammad Alexander Russell Webb", kind: full }
+  - { value: "Mohammed Webb", kind: full }
+  - { value: "ألكسندر راسل ويب", kind: full }
+  - { value: "الیگزینڈر رسل ویب", kind: full }
+gender: male
+summary:
+  ar: "صحفي وناشر ودبلوماسي أمريكي (1846–1916)، قنصل الولايات المتحدة في مانيلا، واعتنق الإسلام سنة 1888 ⁦(وتذكر مصادر 1887)⁩، من أوائل الأمريكيين البارزين الذين فعلوا ذلك. زار الهند ومصر وتركيا، وأسّس في نيويورك «دار النشر الشرقية» ومجلة «العالم الإسلامي»، وكان الممثل الوحيد للإسلام تقريبًا في برلمان الأديان بشيكاغو سنة 1893."
+  en: "American journalist, publisher and diplomat (1846–1916), United States consul at Manila, who embraced Islam in 1888 (one source says 1887) and is among the first prominent Americans to do so. He visited India, Egypt and Turkey, founded the Oriental Publishing Company and the journal The Moslem World in New York, and was apparently the only representative of Islam at the Parliament of the World's Religions in Chicago in 1893."
+  ur: "امریکی صحافی، ناشر اور سفارت کار (1846–1916)، منیلا میں امریکی قونصل، جنھوں نے 1888 میں اسلام قبول کیا ⁦(ایک ماخذ کے مطابق 1887)⁩ اور ایسا کرنے والے ابتدائی نمایاں امریکیوں میں شمار ہوتے ہیں۔ انھوں نے ہندوستان، مصر اور ترکی کا سفر کیا، نیویارک میں «اورینٹل پبلشنگ کمپنی» اور رسالہ «دی مسلم ورلڈ» قائم کیا اور 1893 میں شکاگو کی پارلیمنٹ آف دی ورلڈز ریلیجنز میں بظاہر اسلام کے واحد نمائندے تھے۔"
+  fr: "Journaliste, éditeur et diplomate américain (1846–1916), consul des États-Unis à Manille, qui embrassa l'islam en 1888 (une source dit 1887) et compte parmi les premiers Américains éminents à le faire. Il visita l'Inde, l'Égypte et la Turquie, fonda à New York l'Oriental Publishing Company et la revue *The Moslem World*, et fut apparemment le seul représentant de l'islam au Parlement des religions du monde de Chicago en 1893."
+  es: "Periodista, editor y diplomático estadounidense (1846–1916), cónsul de Estados Unidos en Manila, que abrazó el islam en 1888 (una fuente dice 1887) y figura entre los primeros estadounidenses destacados en hacerlo. Visitó la India, Egipto y Turquía, fundó en Nueva York la Oriental Publishing Company y la revista *The Moslem World*, y fue al parecer el único representante del islam en el Parlamento de las Religiones del Mundo en Chicago en 1893."
+roles: [journalist, diplomat, writer]
+regions: [americas-oceania]
+wings: [people]
+themes: [converts-and-leavers]
+born:
+  edtf: "1846-11-09"
+  hijri: "1262"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born on 9 November 1846 per the English Wikipedia article; no second source read gives the day, so the birth place, which the sources read leave unclear, is not recorded. The Hijri year is derived by tabular conversion."
+  sources: [source/wikipedia-alexander-russell-webb-en, source/wikidata-alexander-russell-webb]
+died:
+  edtf: "1916-10-01"
+  hijri: "1334"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died on 1 October 1916 at Rutherford, New Jersey, and was buried at Hillside Cemetery, Lyndhurst, per the English Wikipedia article (its infobox also names Hudson, New York, as a possible place of death). The Hijri year is derived by tabular conversion."
+  sources: [source/wikipedia-alexander-russell-webb-en, source/wikidata-alexander-russell-webb]
+relations:
+  - { type: lived_in, target: place/new-york-city, sources: [source/wikipedia-alexander-russell-webb-en, source/harvard-shelf-alexander-russell-webb-2011] }
+story_roles:
+  - { role: convert, start: { edtf: "1888" }, status: historical, note: "Declared himself a Muslim in 1888 (English Wikipedia and the Harvard Library post); the AramcoWorld note says 1887. The Harvard post adds that he declared it before meeting any Muslims.", sources: [source/wikipedia-alexander-russell-webb-en, source/harvard-shelf-alexander-russell-webb-2011, source/aramcoworld-muslim-in-victorian-america-review] }
+faith:
+  - value: unknown
+    basis: unknown
+    start: { edtf: "1888" }
+    note: "Declared himself a Muslim in 1888 (two sources; one says 1887). He was raised a Presbyterian (Harvard Library post), recorded in the prose as background. The English article records that he was drawn to the writings of Mirza Ghulam Ahmad and says Ahmadiyya sources do not record whether he was an Ahmadi, so no school or order is recorded."
+    sources: [source/wikipedia-alexander-russell-webb-en, source/harvard-shelf-alexander-russell-webb-2011, source/aramcoworld-muslim-in-victorian-america-review]
+external_ids: { wikidata: "Q4719996" }
+sources: [source/wikipedia-alexander-russell-webb-en, source/wikidata-alexander-russell-webb, source/harvard-shelf-alexander-russell-webb-2011, source/aramcoworld-muslim-in-victorian-america-review]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Alexander Russell Webb', Wikidata Q4719996, the Harvard Library THE SHELF post of 31 March 2011 and the AramcoWorld note on A Muslim in Victorian America, all read on 23 November 2026. No earlier record existed in data/person/. Wikipedia is used for entity facts only; the article carries tags for insufficient citations."
+  generated_by: "Claude Code"
+  model: "claude-sonnet-5-5"
+  run: converts-wave2
+status: { review: published, completeness: 3, generated_by: "Claude Code" }

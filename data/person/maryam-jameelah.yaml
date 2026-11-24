@@ -1,0 +1,58 @@
+id: person/maryam-jameelah
+class: person
+label: { ar: "مريم جميلة", en: "Maryam Jameelah", ur: "مریم جمیلہ", fr: "Maryam Jameelah", es: "Maryam Jameelah", tr: "Maryam Jameelah", id: "Maryam Jameelah" }
+names:
+  - { value: "Maryam Jameelah", kind: full }
+  - { value: "Margaret Marcus", kind: full }
+  - { value: "Maryam Jameela", kind: full }
+  - { value: "مريم جميلة", kind: full }
+  - { value: "مریم جمیلہ", kind: full }
+gender: female
+summary:
+  ar: "كاتبة أمريكية المولد باكستانية الإقامة، وُلدت باسم مارغريت ماركوس سنة 1934 في نيو روشيل بولاية نيويورك لأسرة يهودية، واعتنقت الإسلام في 24 مايو 1961 بعد قراءة القرآن وكتب محمد أسد، ثم راسلت أبا الأعلى المودودي وانتقلت إلى لاهور سنة 1962 وتزوجت وأقامت فيها حتى وفاتها سنة 2012. كتبت ما يزيد على ثلاثين كتابًا ومقالًا في الدفاع عن فهم محافظ للإسلام ونقد الحداثة والغرب."
+  en: "American-born writer who lived in Pakistan. Born Margaret Marcus at New Rochelle, New York, in 1934 to a Jewish family, she embraced Islam on 24 May 1961 after reading the Qur'an and the work of Muhammad Asad, corresponded with Abul Ala Mawdudi, moved to Lahore in 1962, married there and lived in the city until her death in 2012. She wrote more than thirty books and essays defending a conservative reading of Islam and criticising modernism and the West."
+  ur: "امریکہ میں پیدا ہونے والی مصنفہ جو پاکستان میں مقیم رہیں۔ وہ 1934 میں نیو روشیل، نیویارک میں ایک یہودی خاندان میں مارگریٹ مارکس کے نام سے پیدا ہوئیں، قرآن اور محمد اسد کی تحریریں پڑھ کر 24 مئی 1961 کو مسلمان ہوئیں، ابو الاعلیٰ مودودی سے خط و کتابت کی، 1962 میں لاہور منتقل ہوئیں، وہیں شادی کی اور 2012 میں وفات تک وہیں رہیں۔ انھوں نے اسلام کی ایک قدامت پسند تعبیر کے دفاع اور جدیدیت و مغرب پر تنقید میں تیس سے زیادہ کتابیں اور مضامین لکھے۔"
+  fr: "Écrivaine née aux États-Unis qui vécut au Pakistan. Née Margaret Marcus à New Rochelle (New York) en 1934 dans une famille juive, elle embrassa l'islam le 24 mai 1961 après avoir lu le Coran et l'œuvre de Muhammad Asad, correspondit avec Abul Ala Mawdudi, s'installa à Lahore en 1962, s'y maria et y vécut jusqu'à sa mort en 2012. Elle écrivit plus de trente livres et essais défendant une lecture conservatrice de l'islam et critiquant la modernité et l'Occident."
+  es: "Escritora nacida en Estados Unidos que vivió en Pakistán. Nacida como Margaret Marcus en New Rochelle (Nueva York) en 1934 en una familia judía, abrazó el islam el 24 de mayo de 1961 tras leer el Corán y la obra de Muhammad Asad, mantuvo correspondencia con Abul Ala Mawdudi, se trasladó a Lahore en 1962, se casó allí y vivió en la ciudad hasta su muerte en 2012. Escribió más de treinta libros y ensayos que defienden una lectura conservadora del islam y critican la modernidad y Occidente."
+roles: [writer]
+regions: [south-asia, americas-oceania]
+wings: [people]
+themes: [converts-and-leavers]
+born:
+  edtf: "1934-05-23"
+  hijri: "1353"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born on 23 May 1934, at New Rochelle, New York (the English article's infobox and body and the Sailan Muslim obituary agree; the article's lead says New York City). No place entity for New Rochelle exists, so no born_in relation is written. The Hijri year is derived by tabular conversion."
+  sources: [source/wikipedia-maryam-jameelah-en, source/wikidata-maryam-jameelah, source/sailanmuslim-maryam-jameelah-obituary-2012]
+died:
+  edtf: "2012-10-31"
+  hijri: "1433"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died on 31 October 2012 at Lahore, Pakistan; the obituary of 1 November 2012 reports the death as 'today' after a long illness. The Hijri year is derived by tabular conversion."
+  sources: [source/wikipedia-maryam-jameelah-en, source/wikidata-maryam-jameelah, source/sailanmuslim-maryam-jameelah-obituary-2012]
+relations:
+  - { type: lived_in, target: place/lahore, sources: [source/wikipedia-maryam-jameelah-en, source/sailanmuslim-maryam-jameelah-obituary-2012] }
+  - { type: corresponded_with, target: person/abul-ala-maududi, sources: [source/wikipedia-maryam-jameelah-en, source/sailanmuslim-maryam-jameelah-obituary-2012] }
+story_roles:
+  - { role: convert, start: { edtf: "1961-05-24" }, status: historical, note: "Embraced Islam on 24 May 1961, in New York, at the age of 27, per the Sailan Muslim obituary; the English article also gives 24 May 1961.", sources: [source/sailanmuslim-maryam-jameelah-obituary-2012, source/wikipedia-maryam-jameelah-en] }
+faith:
+  - value: unknown
+    basis: unknown
+    start: { edtf: "1961" }
+    note: "Embraced Islam on 24 May 1961 (two sources); she was born into a Jewish family of German descent, which is family background and is recorded in the prose, not as a faith segment. Her writing is that of a conservative, Mawdudi-influenced reading, but no source read names a legal school or an order for her, so none is recorded."
+    sources: [source/sailanmuslim-maryam-jameelah-obituary-2012, source/wikipedia-maryam-jameelah-en, source/express-tribune-khaled-ahmed-maryam-jameela-2011]
+external_ids: { wikidata: "Q3696204" }
+sources: [source/wikipedia-maryam-jameelah-en, source/wikidata-maryam-jameelah, source/sailanmuslim-maryam-jameelah-obituary-2012, source/express-tribune-khaled-ahmed-maryam-jameela-2011]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Maryam Jameelah' (revision 1371370126 of 26 August 2026), Wikidata Q3696204, the Sailan Muslim obituary of 1 November 2012 and Khaled Ahmed's Express Tribune column of 12 June 2011, all read on 23 November 2026. No earlier record existed in data/person/. The Wikipedia article is used for entity facts only."
+  generated_by: "Claude Code"
+  model: "claude-sonnet-5-5"
+  run: converts-wave2
+status: { review: published, completeness: 3, generated_by: "Claude Code" }

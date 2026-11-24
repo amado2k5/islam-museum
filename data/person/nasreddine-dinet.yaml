@@ -1,0 +1,57 @@
+id: person/nasreddine-dinet
+class: person
+label: { ar: "ناصر الدين دينيه", en: "Nasreddine Dinet (Étienne Dinet)", ur: "ناصر الدین دینے ⁦(ایتیین دینے)⁩", fr: "Nasreddine Dinet (Étienne Dinet)", es: "Nasreddine Dinet (Étienne Dinet)", tr: "Nasreddine Dinet", id: "Nasreddine Dinet" }
+names:
+  - { value: "Nasreddine Dinet", kind: full }
+  - { value: "Étienne Dinet", kind: full }
+  - { value: "Alphonse Étienne Dinet", kind: full }
+  - { value: "Nasr ad-Din Dinet", kind: full }
+  - { value: "ناصر الدين دينيه", kind: full }
+  - { value: "إتيان دينيه", kind: full }
+  - { value: "ناصر الدین دینے", kind: full }
+gender: male
+summary:
+  ar: "رسّام فرنسي استشراقي ⁦(باريس 1861 – باريس 24 ديسمبر 1929)⁩، زار بوسعادة في الجزائر منذ 1884 واستقر فيها منذ مطلع القرن العشرين، وأعلن إسلامه في رسالة خاصة سنة 1908 وأتمّه رسميًا سنة 1913 متسمّيًا ناصر الدين، وحجّ سنة 1929 قبل وفاته بأشهر، ودُفن في مقبرة المسلمين في بوسعادة بحسب وصيته."
+  en: "French Orientalist painter (Paris 1861 – Paris, 24 December 1929). He first visited Bou Saâda in Algeria in 1884 and settled there from the early twentieth century, announced his conversion to Islam in a private letter in 1908 and completed it formally in 1913 under the name Nasr ad-Din, made the Hajj in 1929 a few months before his death, and was buried in the Muslim cemetery of Bou Saâda at his own request."
+  ur: "فرانسیسی مستشرقانہ مصور ⁦(پیرس 1861 – پیرس، 24 دسمبر 1929)⁩۔ انھوں نے 1884 میں الجزائر کے بو سعادہ کا پہلا دورہ کیا اور بیسویں صدی کے آغاز سے وہیں مقیم رہے، 1908 میں ایک نجی خط میں اسلام لانے کا اعلان کیا اور 1913 میں ناصر الدین نام کے ساتھ اسے باقاعدہ مکمل کیا، وفات سے چند ماہ پہلے 1929 میں حج کیا، اور اپنی خواہش کے مطابق بو سعادہ کے مسلم قبرستان میں دفن ہوئے۔"
+  fr: "Peintre orientaliste français (Paris 1861 – Paris, 24 décembre 1929). Il visita Bou Saâda, en Algérie, pour la première fois en 1884 et s'y fixa dès le début du XXe siècle, annonça sa conversion à l'islam dans une lettre privée en 1908 et l'acheva formellement en 1913 sous le nom de Nasr ad-Din, fit le pèlerinage en 1929 quelques mois avant sa mort et fut inhumé, selon son vœu, dans le cimetière musulman de Bou Saâda."
+  es: "Pintor orientalista francés (París 1861 – París, 24 de diciembre de 1929). Visitó por primera vez Bou Saâda, en Argelia, en 1884 y se estableció allí desde principios del siglo XX, anunció su conversión al islam en una carta privada en 1908 y la completó formalmente en 1913 con el nombre de Nasr ad-Din, hizo la peregrinación en 1929 pocos meses antes de morir y fue enterrado, por deseo propio, en el cementerio musulmán de Bou Saâda."
+roles: [artist, writer]
+regions: [maghreb, andalus-europe]
+wings: [people]
+themes: [converts-and-leavers]
+born:
+  edtf: "1861"
+  hijri: "1277"
+  calendar: gregorian
+  precision: year
+  status: historical
+  derived: true
+  note: "Born in Paris in 1861 (Dawn, English Wikipedia and Wikidata agree on the year; none of the texts read gives the day with a second source). The Hijri year is derived by tabular conversion."
+  sources: [source/dawn-french-orientalist-exhibition-2024, source/wikipedia-nasreddine-dinet-en, source/wikidata-nasreddine-dinet]
+died:
+  edtf: "1929-12-24"
+  hijri: "1348"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died in Paris on 24 December 1929 (Al Jazeera; Dawn and the English article give the year and place), and was buried at Bou Saâda. The Hijri year is derived by tabular conversion."
+  sources: [source/aljazeera-dinet-french-orientalist-2019, source/dawn-french-orientalist-exhibition-2024, source/wikipedia-nasreddine-dinet-en]
+story_roles:
+  - { role: convert, start: { edtf: "1908" }, status: historical, note: "Announced his conversion in a private letter in 1908 and formally converted in 1913, taking the name Nasr ad-Din (Al Jazeera and the English article); Dawn dates the conversion to 1913.", sources: [source/aljazeera-dinet-french-orientalist-2019, source/dawn-french-orientalist-exhibition-2024, source/wikipedia-nasreddine-dinet-en] }
+faith:
+  - value: unknown
+    basis: unknown
+    start: { edtf: "1913" }
+    note: "Formally converted in 1913 after announcing it in 1908 (three texts), and made the Hajj in 1929 (Al Jazeera, Dawn, English Wikipedia). No source read names a legal school or an order for him, so none is recorded."
+    sources: [source/aljazeera-dinet-french-orientalist-2019, source/dawn-french-orientalist-exhibition-2024, source/wikipedia-nasreddine-dinet-en]
+external_ids: { wikidata: "Q3048295" }
+sources: [source/wikipedia-nasreddine-dinet-en, source/wikidata-nasreddine-dinet, source/aljazeera-dinet-french-orientalist-2019, source/dawn-french-orientalist-exhibition-2024]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Nasreddine Dinet', Wikidata Q3048295, the Al Jazeera World programme page of 10 April 2019 and Zafar Masud's Dawn article of 3 March 2024, all read on 23 November 2026. No earlier record existed in data/person/. Wikipedia is used for entity facts only."
+  generated_by: "Claude Code"
+  model: "claude-sonnet-5-5"
+  run: converts-wave2
+status: { review: published, completeness: 3, generated_by: "Claude Code" }

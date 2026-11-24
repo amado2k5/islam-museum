@@ -14,7 +14,7 @@ export const wingCountLabel = (lang: Lang, w: Wing | string) => fmt(ui(lang).win
 /** The "{n} events" template of a counted wing, or null for a wing that shows a phrase (rendered as static text). */
 export const wingCountTemplate = (lang: Lang, w: Wing | string): string | null => { const t = ui(lang).wings.counts[w]; return typeof t === "string" && t.includes("{n}") ? t : null; };
 
-export interface ExplorePage { key: "quran" | "qudsi" | "tafsir" | "hadith" | "timeline" | "journeys" | "graph" | "revelation" | "surahmaps" | "cards" | "sighar" | "calendar" | "khutab" | "fatwa" | "timeexplorer" | "poetry" | "jobs" | "inventions" | "modern" | "map" | "asma" | "khulafa" | "battles" | "ghayb" | "companions" | "seerah" | "nature" | "angels" | "dreams" | "dua" | "sayyiat" | "hudud" | "arkan" | "ahkam" | "halal" | "hasanat" | "hisab" | "mukatabat" | "nuzul" | "islamiceconomy" | "jinn-devils" | "magic" | "cosmos" | "qiraat" | "wasaya" | "messengers" | "miracles" | "madhahib" | "bayt" | "signs" | "nubuwat" | "ibadat" | "places" | "nar" | "janna" | "qiyama" | "qurun" | "akhlaq" | "usra" | "ukhuwwa" | "bunuwwa" | "umuma" | "ubuwwa" | "tibb" | "ansab" | "umam" | "sport" | "i3lam" | "trade" | "munazarat" | "ritha" | "ulama" | "heroes" | "juha" | "maajim" | "arabiyya"; href: string; ready: boolean }
+export interface ExplorePage { key: "quran" | "qudsi" | "tafsir" | "hadith" | "timeline" | "journeys" | "graph" | "revelation" | "surahmaps" | "cards" | "sighar" | "calendar" | "khutab" | "fatwa" | "timeexplorer" | "poetry" | "jobs" | "inventions" | "modern" | "map" | "asma" | "khulafa" | "battles" | "ghayb" | "companions" | "seerah" | "nature" | "angels" | "dreams" | "dua" | "sayyiat" | "hudud" | "arkan" | "ahkam" | "halal" | "hasanat" | "hisab" | "mukatabat" | "nuzul" | "islamiceconomy" | "jinn-devils" | "magic" | "cosmos" | "qiraat" | "wasaya" | "messengers" | "miracles" | "madhahib" | "bayt" | "signs" | "nubuwat" | "ibadat" | "places" | "nar" | "janna" | "qiyama" | "qurun" | "akhlaq" | "usra" | "ukhuwwa" | "bunuwwa" | "umuma" | "ubuwwa" | "tibb" | "ansab" | "umam" | "sport" | "i3lam" | "trade" | "munazarat" | "ritha" | "ulama" | "heroes" | "juha" | "maajim" | "arabiyya" | "tajwid"; href: string; ready: boolean }
 
 /** The interactive explorers; `ready` flips as each phase ships, and an unfinished one links to the nearest page that exists. */
 export const explorePages = (lang: Lang): ExplorePage[] => [
@@ -47,6 +47,7 @@ export const explorePages = (lang: Lang): ExplorePage[] => [
   { key: "ghayb", href: `/${lang}/ghayb/`, ready: true },
   { key: "maajim", href: `/${lang}/maajim/`, ready: true },
   { key: "arabiyya", href: `/${lang}/arabiyya/`, ready: true },
+  { key: "tajwid", href: `/${lang}/tajwid/`, ready: true },
   { key: "nature", href: `/${lang}/nature/`, ready: true },
   { key: "angels", href: `/${lang}/angels/`, ready: true },
   { key: "dreams", href: `/${lang}/dreams/`, ready: true },
@@ -102,7 +103,7 @@ export const explorePages = (lang: Lang): ExplorePage[] => [
  * left out or named twice. No destination is removed or renamed by the grouping.
  */
 export const EXPLORE_GROUPS: { id: "texts" | "people" | "places" | "unseen" | "conduct" | "tools"; keys: ExplorePage["key"][] }[] = [
-  { id: "texts", keys: ["quran", "hadith", "qudsi", "tafsir", "qiraat", "surahmaps", "revelation", "poetry", "khutab", "fatwa", "dua", "mukatabat", "nuzul", "munazarat", "juha", "ritha", "maajim", "arabiyya"] },
+  { id: "texts", keys: ["quran", "hadith", "qudsi", "tafsir", "qiraat", "surahmaps", "revelation", "poetry", "khutab", "fatwa", "dua", "mukatabat", "nuzul", "munazarat", "juha", "ritha", "maajim", "arabiyya", "tajwid"] },
   { id: "people", keys: ["seerah", "companions", "khulafa", "ulama", "wasaya", "messengers", "nubuwat", "bayt", "usra", "ukhuwwa", "bunuwwa", "umuma", "ubuwwa", "ansab", "i3lam", "madhahib", "umam", "qurun", "jobs", "modern", "heroes"] },
   { id: "places", keys: ["timeline", "timeexplorer", "calendar", "map", "places", "journeys", "battles", "trade"] },
   { id: "unseen", keys: ["ghayb", "angels", "jinn-devils", "dreams", "magic", "cosmos", "miracles", "asma", "signs", "qiyama", "janna", "nar"] },

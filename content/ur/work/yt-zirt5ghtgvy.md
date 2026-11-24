@@ -14,7 +14,7 @@ provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Word fo
 - وہ کہتے ہیں کہ وفود کے سال میں صحرا کی سڑکیں ہر سمت سے سوار سے بھری ہوئی ہیں۔ {cite:youtube-muftimenkofficial ziRT5GhtgvY 00:00:39}
 - وہ کہتے ہیں کہ کچھ وفود اپنے شاعروں اور رہنماؤں کی تعریف کرنے آئے تھے۔ {cite:youtube-muftimenkofficial ziRT5GhtgvY 00:02:24}
 - وہ کہتے ہیں کہ عبد قیس کی وفد کی قیادت جارد ابن عمرو نے کی، جو ایک سابق عیسائی تھے اور مذہب تبدیل کر چکے تھے۔ {cite:youtube-muftimenkofficial ziRT5GhtgvY 00:03:55}
-- وہ کہتے ہیں کہ نبی صلى الله عليه وسلم نے ایک سردار کا نام بدل کر زید الخیل رکھا اور انہیں زمین اور عزت عطا کی۔ {cite:youtube-muftimenkofficial ziRT5GhtgvY 00:05:00}
+- وہ کہتے ہیں کہ نبی نے ایک سردار کا نام بدل کر زید الخیل رکھا اور انہیں زمین اور عزت عطا کی۔ {cite:youtube-muftimenkofficial ziRT5GhtgvY 00:05:00}
 - وہ کہتے ہیں کہ کندہ کے ایک سابق سردار نے اسلام قبول کیا۔ {cite:youtube-muftimenkofficial ziRT5GhtgvY 00:06:17}
 
 ## چھوڑ دیا گیا

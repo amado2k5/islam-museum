@@ -6106,6 +6106,10 @@ explore:
       desc: 'Yedi mektup, okumalar ve imamları, Kur''an''ın derlenmesi ve Kur''anların kopyalanması, Muşaf''ın yazısı, yazım farklılıkları, nokta ve şekli, yazıldığı yazılar: her ayet, rivayet ve doğrulanmış
         rapor ile yazarına atfedilen her ifade.'
       menu: Okumaları, Kur'an çizimlerini, yazılarını ve noktalarını inceleyin
+    tajwid:
+      title: "Tecvid ve Tilavet Tarayıcısı"
+      desc: "On yedi mahrec ve harflerin sıfatları, tecvid hükümleri, tertil ve okuma ile dinleme adabı, nağmeler, okuyucular ve öğretim metinleri — her ayet, rivayet ve kitap pasajı kaynağıyla."
+      menu: "Tecvid hükümlerine ve tilavet sanatına göz atın"
     ulama:
       title: Düşünürler, bilim insanları, yazarlar, hadis âlimleri ve yazarlar için tarayıcı
       desc: 'Müzedeki her düşünür, alim, yazar, hadis âlimi ve yazar—Kur''an''da, Sünnet''te, Seere''de ve her toplu kitapta söylenen her şey: hayatları, görevleri, sözleri, kitapları, toplantıları ve eserleri—ve
@@ -8769,3 +8773,75 @@ nuzul:
     sky_title: "Sureler, mushaf sırasıyla"
     sky_note: "{total} surenin {n} tanesinde sebep rivayeti vardır; gerisi soluktur."
     count_in: "{n} kayıt"
+
+tajwid:
+  title: "Tecvid ve Tilavet Tarayıcısı"
+  lede: "Müzenin kaynaklarının Kur'an harflerinin nasıl telaffuz edildiği ve tilavetinin nasıl icra edildiği hakkında söylediği her şey: on yedi mahrec ve harflerin sıfatları, medler, gunne, kalkale ve sakin nun, sakin mim ve tenvin hükümleri, vakıf ve ibtida; Kur'an'ın emrettiği tertil, okuma ve dinleme adabı, sahiplerinin adlarıyla anılan ve tartışılan nağmeler, ve bu sanatı taşıyan okuyucular ile öğretim metinleri. Her ayet, rivayet ve kitap pasajı kaynağıyla verilir ve her görüş sahibine atfedilir."
+  badge: Tecvid ve tilavet gezgini
+  hero_ayah: "وَرَتِّلِ الْقُرْآنَ تَرْتِيلًا"
+  hero_naskh: "Harfler mahreçlerinden nasıl yükselir ve tilavet nasıl icra edilir"
+  status: "Bu derleme {s} bölümde {n} kayıt içeriyor; her kayıt kaynaklarını listeler ve metinler bu kaynaklardan yapay zeka ajanları tarafından yazılmış olup henüz bir insan tarafından okunmamıştır."
+  method_title: Tarayıcının yöntemi
+  method_note: "Bu tarayıcı, birbiriyle bağlantılı iki konuda söylenen ve yazılanları toplar: harflerin nasıl telaffuz edildiği — mahreçleri, sıfatları ve hükümleri — ve tilavetin nasıl icra edildiği, dinlendiği ve öğretildiği. Kur'an ayetleri gözden geçirilmiş bir tablodan gelir: tertil ve hak tilavet ayetleri, okuyanın ve dinleyenin adabı, öğretilen ve işitilen tilavet. Kur'an metni müzede yalnızca dondurulmuş dosyalarından görünür; bir ayetin sözleri asla yeniden yazılmaz. Diğer her metin — hadis, siret, sahabe ve tabiin haberleri ve kitaplar — derleme sırasında her pasaj üzerinde korunaklı bir sözlükle bulunur; böylece daha sonra hasat edilen bir kitaptaki bir anma, pasajının geldiği gün görünür. Tarayıcı hüküm vermez: alimlerin ayrıştığı yerde, nağmeler ve makamlarda olduğu gibi, kayıt her görüşü sahibiyle birlikte verir."
+  api: "Tüm küme şurada mevcuttur"
+  topics_title: Tarayıcının yedi konusu
+  sections_title: Tarayıcının bölümleri
+  filter_label: Tecvid ve tilavet kayıtlarını süz
+  filter_none: Eşleşme yok.
+  empty: Bu derlemede henüz tecvid veya tilavet kaydı yok.
+  kin_title: Kardeş tarayıcılar
+  topics:
+    tartil: Ölçülü okuma
+    adab: Tilavetin adabı
+    ahkam: "Hükümler: mahreçler ve sıfatlar"
+    qurra: Okuyucular ve hocalar
+    mutun: Öğretim metinleri
+    maqamat: Nağmeler
+    taalim: Öğretmek ve öğrenmek
+  topics_desc:
+    tartil: "Kur'an'ı tertil ile okuma, kıraatine uyma ve dili ağır tutma emri, ve ölçülü okuma tempoları hakkında rivayet edilenler: tahzir, tedvir, hedr ve tersil."
+    adab: "Euzü ve besmele, Kur'an ile güzel ses, dinleme ve susma, tilavet secdeleri ve hatim, ve sesli ya da içten okuma."
+    ahkam: "On yedi mahrec ve harflerin sıfatları, medler, gunne, kalkale, tefhim ve terkik, sakin nun, sakin mim ve tenvin hükümleri, ve vakıf ile ibtida."
+    qurra: "Sahabe ve tabiin arasındaki okuyucular, yedi ve on imam ile ravileri, icazet hocaları ve kurranın tabakaları."
+    mutun: "Okutulan ve ezberlenen tecvid metinleri: Tuhfetü'l-Etfal, Cezriyye, Şatıbiyye, Tayyibetü'n-Neşr ve kıraatlerin diğer öğretim metinleri."
+    maqamat: "Tilavette nağme ve makamlar: tartışmalı bir sanat; kayıt her görüşü sahibinin adıyla verir."
+    taalim: "Tilaveti öğretmek ve öğrenmek: «içinizde en hayırlınız Kur'an'ı öğrenen ve öğretendir», halkalar ve kuttaplar, ve hocaların huzurunda okumak."
+  sections:
+    quran:
+      title: Kur'an'da
+      desc: "Tertil ve hak tilaveti emreden ayetler, okuyanın ve dinleyenin adabı ve öğretilen ve işitilen tilavet — ayetlere ve kitaplara karşı gözden geçirilmiş bir tablodan."
+    sunnah:
+      title: Sünnette
+      desc: "Hadis külliyatının Peygamber'in kıraati ve tilaveti, Kur'an ile güzel ses, okuma ve dinleme adabı ve okuyucu ve hoca haberleri hakkında rivayet ettikleri."
+    seerah:
+      title: Sirette
+      desc: "Siret kitaplarının davet olayları içinde Kur'an'ın okunması ve öğretilmesi hakkında taşıdıkları — bu bölüm, bu tür anmaları taşıyan yeni siret metinleri geldikçe kendiliğinden dolar."
+    tafsir:
+      title: Tefsirde
+      desc: "Hasat edilen tefsirlerin tilavet ve tertil ayetleri ve hükümleri hakkında söyledikleri."
+    books:
+      title: Diğer kitaplarda
+      desc: "Kur'an ilimleri, kıraatler, tarih, biyografi ve edebiyat: Kur'an, hadis, siret ve tefsir ötesinde bu konuları işleyen her hasat edilmiş kitap ve bundan sonra gelecekler."
+    ahkam:
+      title: Hükümler
+      desc: "Müzenin on yedi mahrec ve harflerin sıfatları, sakin nun, sakin mim ve tenvin hükümleri, medler ve gunne, ve vakıf ile ibtida hakkındaki kayıtları."
+    adab:
+      title: Adab
+      desc: "Tilavetin adabı: euzü ve besmele, huşu, dinleme, tilavet secdeleri ve Kitab'ın hatmedilmesi."
+    taalim:
+      title: Öğretmek ve öğrenmek
+      desc: "Kur'an'ın sahabe ve tabiin arasında öğretilmesi, okunması ve taşınması hikâyeleri, halkaları ve mektepleri, senetleriyle."
+    qurra:
+      title: Okuyucular
+      desc: "Sahabe ve tabiin arasındaki okuyucular, yedi ve on imam ile ravileri, ve icazet hocaları ile öğrencileri."
+    mutun:
+      title: Öğretim metinleri
+      desc: "Müzenin tanımladığı tecvid ve kıraat metinleri, şerhleri ve baskılarıyla."
+    maqamat:
+      title: Nağmeler
+      desc: "Tilavetin nağmeleri ve makamları ve onlar hakkında söylenenler, her görüş sahibinin adıyla, hükümsüz."
+  map:
+    title: Mahreçlerin haritası
+    note: "İbnü'l-Cezeri'nin el-Mukaddime el-Cezriyye'de saydığı on yedi telaffuz noktası, nefesin yoluna boğazın boşluğundan dudaklara ve geniz boşluğuna kadar dizilmiş — her harf bölgesinin renginde bir diskte."
+    aria: "Arapça harflerin on yedi telaffuz noktasının, boğazdan dudaklara ve geniz boşluğuna kadar şematik haritası"
+    counts: "Kur'an'da {v} ayet, kitaplarda {p} pasaj, bu tarayıcıda {r} derlenmiş kayıt."

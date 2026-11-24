@@ -1,0 +1,32 @@
+id: event/ghazan-death-and-succession-703
+class: event
+kind: other
+label:
+  ar: "وفاة غازان خان وتثبيت ولاية العهد سنة 703"
+  en: "Death of Ghazan Khan and confirmation of the succession, 703 AH"
+  ur: "غازان خان کی وفات اور ولی عہدی کی توثیق، 703ھ"
+  fr: "Mort de Ghazan Khan et confirmation de la succession, 703 de l'Hégire"
+  es: "Muerte de Ghazan Jan y confirmación de la sucesión, 703 de la Hégira"
+summary:
+  ar: "توفي السلطان غازان خان، بحسب جامع التواريخ، في حدود قزوين في 11 من شوال سنة 703 هـ. وقبل وفاته بأيام جدّد العهد الذي كان قد قطعه منذ خمس سنوات، وأملى بحضور الأمراء والأركان والحضرة أن يتولى العرش أخوه، فأمر بذلك أولجايتو {cite:jami-al-tawarikh-khashshab-1960 p. 210}{cite:jami-al-tawarikh-khashshab-1960 p. 211}. ويقدّم المؤلف الوصية بوصفها كلاماً بليغاً من غازان، ويبدو من النص أن المؤلف كان حاضراً لها وأنه كتبها في أثناء إقامته في الحضرة. وتصف الصفحة اسم الأخ بأنه «الأكبر»، وقد نقلناه كما هو في النص، وهو موضع تحقق."
+  en: "According to the Jami al-Tawarikh, Sultan Ghazan Khan died on 11 Shawwal 703 AH in the region of Qazvin. A few days before his death he renewed a pledge he had made five years earlier and, in the presence of princes, officers and the court, named his brother as his successor, and Oljeitu was to take the throne. The author gives the will as a rhetorical speech by Ghazan {cite:jami-al-tawarikh-khashshab-1960 p. 210}{cite:jami-al-tawarikh-khashshab-1960 p. 211}. The printed text calls the brother 'the elder', a phrase recorded here as printed and flagged for the page image."
+  ur: "جامع التواریخ کے مطابق سلطان غازان خان 11 شوال 703ھ کو قزوین کی حدود میں فوت ہوئے۔ وفات سے چند دن پہلے انہوں نے پانچ سال پہلے کیا ہوا عہد دہرایا، اور امرا، ارکان اور دربار کی موجودگی میں اپنے بھائی کو جانشین مقرر کیا، تاکہ تخت اولجایتو کو ملے {cite:jami-al-tawarikh-khashshab-1960 p. 210}{cite:jami-al-tawarikh-khashshab-1960 p. 211}۔ مصنف وصیت کو غازان کی بلیغ تقریر کے طور پر پیش کرتے ہیں۔ متن میں بھائی کو «بڑا» کہا گیا ہے، جسے صفحے کی تصویر سے تصدیق ضروری ہے۔"
+  fr: "Selon le Jami al-Tawarikh, le sultan Ghazan Khan mourut le 11 chawwal 703 AH près de Qazvin. Quelques jours avant sa mort, il renouvela un engagement pris cinq ans plus tôt et, en présence des princes, des officiers et de la cour, désigna son frère pour lui succéder, Oljeytu devant monter sur le trône {cite:jami-al-tawarikh-khashshab-1960 p. 210}{cite:jami-al-tawarikh-khashshab-1960 p. 211}. L'auteur présente le testament comme un discours éloquent de Ghazan. Le texte imprimé qualifie le frère d'« aîné », formule relevée ici telle qu'imprimée et à vérifier sur l'image de la page."
+  es: "Según el Jami al-Tawarikh, el sultán Ghazan Jan murió el 11 de chawwal de 703 AH en los alrededores de Qazvin. Pocos días antes renovó un compromiso asumido cinco años antes y, en presencia de príncipes, oficiales y la corte, nombró a su hermano como sucesor, para que Oljeitu ocupara el trono {cite:jami-al-tawarikh-khashshab-1960 p. 210}{cite:jami-al-tawarikh-khashshab-1960 p. 211}. El autor presenta el testamento como un discurso elocuente de Ghazan. El texto impreso califica al hermano de «mayor», fórmula que se registra tal como está impresa y que debe verificarse en la imagen de la página."
+date:
+  start: { hijri: "0703-10-11", calendar: julian, precision: day, status: historical, note: "11 شوال سنة 703 هـ كما يذكرها المؤلف {cite:jami-al-tawarikh-khashshab-1960 p. 210}. التحويل الميلادي غير مذكور في هذه الصفحات ولم يُشتق." }
+wings: [people, time]
+regions: [persia-central-asia]
+periods: [period/mongol-post-mongol]
+relations:
+  - { type: had_participant, target: person/ghazan-khan, role: "السلطان المتوفى، وصاحب الوصية", sources: [source/jami-al-tawarikh-khashshab-1960] }
+  - { type: had_participant, target: person/oljaitu, role: "الأخ الذي عُيّن للعرش بالوصية", sources: [source/jami-al-tawarikh-khashshab-1960] }
+  - { type: had_participant, target: person/rashid-al-din-hamadani, role: "المؤلف، الحاضر لدى كتابة الوصية بحسب سياق النص", sources: [source/jami-al-tawarikh-khashshab-1960] }
+sources: [source/jami-al-tawarikh-khashshab-1960]
+provenance:
+  layer: own-research
+  source: "Scan pages 210 to 211 of source/jami-al-tawarikh-khashshab-1960, OCR by Apple Vision, read by the packet drafter. OCR flag: the phrase 'akhahu al-akbar' (his elder brother) on scan 211 is read as printed; the relation of Oljeitu to Ghazan is not settled by these pages, so the word is kept as the book's phrase and not corrected. The date 11 Shawwal 703 is printed on scan 210 and is read as written. The line about the author's presence at the will is inferred from the text and marked as such."
+  generated_by: "Claude Haiku 5.5"
+  model: claude-haiku-5-5
+  run: "jami-tawarikh-v2p1-p181-240"
+status: { review: published, generated_by: "Claude Haiku 5.5" }

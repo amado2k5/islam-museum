@@ -16,6 +16,7 @@ summary:
   id: "Seorang cendekiawan Inggris di bidang studi Islam, lahir di London pada tahun 1960 dengan nama Timothy John Winter, ia memeluk Islam di masa mudanya. Ia mendirikan Cambridge Islamic College pada tahun 2009 dan menjabat sebagai dekan di sana. Ia adalah dosen di Kursi Sheikh Zayed untuk Studi Islam di Universitas Cambridge. Ia dikenal karena tulisannya tentang Islam neo-tradisional dan terjemahannya atas teks-teks klasik."
 roles: [scholar, writer]
 wings: [people, living]
+themes: [converts-and-leavers]
 born:
   edtf: "1960-05-15"
   hijri: "1379"
@@ -25,6 +26,8 @@ born:
   derived: true
   note: "Gregorian date from English Wikipedia (15 May 1960, London); the Arabic article gives the year and city only. The Hijri year 1379 is converter-derived."
   sources: [source/wikipedia-abdal-hakim-murad-en, source/wikipedia-abdal-hakim-murad-ar]
+story_roles:
+  - { role: convert, status: historical, note: "Converted to Islam in his youth per the cited article; no date is given.", sources: [source/wikipedia-abdal-hakim-murad-en] }
 faith:
   - value: sunni
     basis: documented
