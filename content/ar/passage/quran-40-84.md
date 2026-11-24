@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-10-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أنهم لما رأوا بأس الله قالوا آمنا بالله وحده وكفرنا بما كنا به مشركين، ويورد قول السدي في أن البأس هو النقمات التي نزلت بهم. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=40&tAyahNo=84&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «فَلَمَّا رَأَوْاْ بَأْسَنَا قَالُوۤاْ آمَنَّا بِٱللَّهِ وَحْدَهُ وَكَفَرْنَا بِمَا كُنَّا بِهِ مُشْرِكِينَ»: فلما رأت هذه الأمم المكذّبة رسلها بأسنا، يعني عقاب الله الذي وعدتهم به رسُلهم قد حلّ بهم، كما: وعن السديّ «فَلَمَّارأَوْا بأسَنا» قال: النقمات التي نزلت بهم. وقوله: «قَالُوا آمَنَّا باللَّهِ وَحْدَهُ» يقول: قالوا: أقررنا بتوحيد الله، وصدّقنا أنه لا آله غيره «وَكَفَرْنا بِمَا كُنَّا بِهِ مُشْرِكِينَ» يقول: وجحدنا الآلهة التي كنا قبل وقتنا هذا نشركها في عبادتنا الله ونعبدها معه، ونتخذها آلهة، فبرئنا منها.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=40&tAyahNo=84&tDisplay=yes&UserProfile=0&LanguageId=1

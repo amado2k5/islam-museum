@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-10-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل الآيات 30 إلى 31، وخلاصتها: يبيّن الطبري أن المؤمن حذّرهم مثل يوم الأحزاب ومثل ما حلّ بقوم نوح وعاد وثمود والذين من بعدهم، وأن الله لا يريد ظلماً للعباد. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=40&tAyahNo=30&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 30 إلى 31 مقطعاً واحداً. يفسّر قوله «وَقَالَ ٱلَّذِيۤ آمَنَ يٰقَوْمِ إِنِّيۤ أَخَافُ عَلَيْكُمْ مِّثْلَ يَوْمِ ٱلأَحْزَابِ»: وقال المؤمن من آل فرعون لفرعون وملئه: يا قوم إني أخاف عليكم بقتلكم موسى إن قتلتموه مثل يوم الأحزاب الذين تحزّبوا على رسل الله نوح وهود وصالح، فأهلكهم الله بتجرئهم عليه، فيهلككم كما أهلكهم. وقوله: «مِثْلَ دَأْبِ قَوْمِ نُوحٍ» يقول: يفعل ذلك بكم فيهلككم مثل سنته في قوم نوح وعاد وثمود وفعله بهم. وقد بيَّنا معنى الدأب فيما مضى بشواهده، المغنية عن إعادته، مع ذكر أقوال أهل التأويل فيه. وقد: قال: ثني معاوية، عن عليّ، عن ابن عباس «مِثْلَ دَأْبِ قَوْمِ نُوحٍ» يقول: مثل حال. قال ابن زيد، في قوله: «مِثْلَ دَأْبِ قَوْمِ نُوحٍ» قال: مثل ما أصابهم. وينقل في المقطع أقوالاً عن ابن عباس وقتادة وابن زيد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=40&tAyahNo=30&tDisplay=yes&UserProfile=0&LanguageId=1

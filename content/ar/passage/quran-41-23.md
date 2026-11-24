@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-10-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن ظنكم الذي ظننتم بربكم أهلككم فأصبحتم من الخاسرين، ويفسّر «أرداكم» بأهلككم، ويربط ذلك بظنهم أن الله لا يعلم كثيراً من أعمالهم. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=41&tAyahNo=23&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَذَلِكُمْ ظَنُّكُمُ ٱلَّذِي ظَنَنتُم بِرَبِّكُمْ أَرْدَاكُمْ فَأَصْبَحْتُمْ مِّنَ ٱلُخَاسِرِينَ»: وهذا الذي كان منكم في الدنيا من ظنكم أن الله لا يعلم كثيراً مما تعملون من قبائح أعمالكم ومساويها، هو ظنكم الذي ظننتم بربكم في الدنيا أرداكم، يعني أهلككم. يقال منه: أردى فلاناً كذا وكذا: إذا أهلكه، ورَدِيَ هو: إذا هلك، فهو يردى ردًى ومنه قول الأعشى:أفِي الطَّوْفِ خِفْتِ عَليَّ الرَّدَى وكَمْ مِنْ رَدٍ أهْلَهُ لَمْ يَرِمْ يعني: وكم من هالك أهله لم يرم. وينقل في المقطع أقوالاً عن قتادة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=41&tAyahNo=23&tDisplay=yes&UserProfile=0&LanguageId=1

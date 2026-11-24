@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-10-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل الآيات 13 إلى 14، وخلاصتها: يقول الطبري إن النبي يُؤمر بإنذار المعرضين صاعقة مثل صاعقة عاد وثمود إذ جاءتهم الرسل من بين أيديهم ومن خلفهم أن لا تعبدوا إلا الله، فقالوا لو شاء ربنا لأنزل ملائكة فإنا بما أُرسلتم به كافرون. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=41&tAyahNo=13&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 13 إلى 14 مقطعاً واحداً. يفسّر قوله «فَإِنْ أَعْرَضُواْ فَقُلْ أَنذَرْتُكُمْ صَاعِقَةً مِّثْلَ صَاعِقَةِ عَادٍ وَثَمُودَ»: فإن أعرض هؤلاء المشركون عن هذه الحجة التي بيَّنتها لهم يا محمد، ونبهتهم عليها فلم يؤمنوا بها ولم يقرّوا أن فاعل ذلك هو الله الذي لا إله غيره، فقل لهم: أنذرتكم أيها الناس صاعقة تهلككم مثل صاعقة عاد وثمود. وقد بيَّنا فيما مضى أن معنى الصاعقة: كلّ ما أفسد الشيء وغيره عن هيئته. وقيل في هذا الموضع عنى بها وقيعة من الله وعذاب. وينقل في المقطع أقوالاً عن ابن عباس وقتادة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=41&tAyahNo=13&tDisplay=yes&UserProfile=0&LanguageId=1

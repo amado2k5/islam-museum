@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-10-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إنه يوم القيامة تُجزى كل نفس بما كسبت فيُوفّى كل عامل أجر عمله، لا ظلم اليوم أي لا بخس لأحد، وإن الله سريع الحساب. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=40&tAyahNo=17&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «ٱلْيَوْمَ تُجْزَىٰ كُلُّ نَفْسٍ بِمَا كَسَبَتْ لاَ ظُلْمَ ٱلْيَوْمَ إِنَّ ٱللَّهَ سَرِيعُ ٱلْحِسَابِ»: يقول تعالى ذكره مخبراً عن قيله يوم القيامة حين يبعث خلقه من قبورهم لموقف الحساب: «اليَوْمَ تُجْزَى كُلُّ نَفْسٍ بِما كَسَبَتْ» يقول: اليوم يثاب كلّ عامل بعمله، فيوفى أجر عمله، فعامل الخير يجزى الخير، وعامل الشر يجزى جزاءه. وقوله: «لا ظُلْمَ اليَوْمَ» يقول: لا بخس على أحد فيما استوجبه من أجر عمله في الدنيا، فينقص منه إن كان محسناً، ولا حُمِل على مسيء إثم ذنب لم يعمله فيعاقب عليه «إنَّ اللَّهَ سَرِيعُ الْحسابِ» يقول: إن اللَّهَ ذو سرعة في محاسبة عباده يومئذ على أعمالهم التي عملوها في الدنيا ذُكر أن ذلك اليوم لا يَنْتَصِف حتى يقيل أهل الجنة في الجنة، وأهل النار في النار، وقد فرغ من حسابهم، والقضاء بينهم.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=40&tAyahNo=17&tDisplay=yes&UserProfile=0&LanguageId=1

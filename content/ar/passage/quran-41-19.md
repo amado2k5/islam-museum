@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-10-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل الآيات 19 إلى 20، وخلاصتها: يفسّر الطبري حشر أعداء الله إلى النار وهم يُوزَعون أي يُحبس أولهم على آخرهم، حتى إذا جاؤوها شهد عليهم سمعهم وأبصارهم وجلودهم بما كانوا يعملون، ويورد ذلك عن السدي وغيره. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=41&tAyahNo=19&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 19 إلى 20 مقطعاً واحداً. يفسّر قوله «وَيَوْمَ يُحْشَرُ أَعْدَآءُ ٱللَّهِ إِلَى ٱلنَّارِ فَهُمْ يُوزَعُونَ»: ويوم يجمع هؤلاء المشركون أعداء الله إلى النار، إلى نار جهنم، فهم يحبس أوّلهم على آخرهم، كما: وعن السديّ «فَهُمْ يُوزَعُونَ» قال: يحبس أوّلهم على آخرهم. وعن قتادة «فَهُمْ يُوزَعُونَ» قال: عليهم وزعة تردّ أولاهم على أُخراهم. وقوله: «حتى إذَا ما جاؤها شَهِدَ عَلَيْهِمْ سَمْعُهُمْ وأبْصَارُهُمْ» يقول: حتى إذا ما جاؤوا النار شهد عليهم سمعهم بما كانوا يصغون به في الدنيا إليه، ويستمعون له، وأبصارهم بما كانوا يبصرون به وينظرون إليه في الدنيا «وَجُلُودُهُمْ بِما كانُوا يَعْمَلُونَ». وقد قيل: عُني بالجلود في هذا الموضع: الفروج. وينقل في المقطع أقوالاً عن قتادة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=41&tAyahNo=19&tDisplay=yes&UserProfile=0&LanguageId=1

@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-10-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن الساعة آتية لا ريب فيها فتوبوا قبل مجيئها، ويفسّر قول الله ادعوني أستجب لكم بأنه أمر بالدعاء ووعد بالإجابة، وأن الذين يستكبرون عن عبادته سيدخلون جهنم داخرين، ويورد في ذلك أقوال السلف وأحاديث. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=40&tAyahNo=59&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 59 إلى 60 مقطعاً واحداً. يفسّر قوله «إِنَّ ٱلسَّاعَةَ لآتِيَةٌ لاَّ رَيْبَ فِيهَا وَلَٰكِنَّ أَكْثَرَ ٱلنَّاسِ لاَ يُؤْمِنُونَ»: إن الساعة التي يحيي الله فيها الموتى للثواب والعقاب لجائية أيها الناس لا شكّ في مجيئها يقول: فأيقنوا بمجيئها، وأنكم مبعوثون من بعد مماتكم، ومجازون بأعمالكم، فتوبوا إلى ربكم «وَلَكِنَّ أكْثَرَ النَّاسِ لا يُؤْمِنُونَ» يقول: ولكن أكثر قريش لا يصدّقون بمجيئها. وقوله: «وَقالَ رَبُّكُمُ ادْعُونِي أَسْتَجِيبْ لَكُمْ» يقول تعالى ذكره: ويقول ربكم أيها الناس لكم ادعوني: يقول: اعبدوني وأخلصوا لي العبادة دون من تعبدون من دوني من الأوثان والأصنام وغير ذلك «أسْتَجِبْ لَكُمْ» يقول: أُجِبْ دعاءكم فأعفو عنكم وأرحمكم. وينقل في المقطع أقوالاً عن ابن عباس والحسن والأعمش.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=40&tAyahNo=59&tDisplay=yes&UserProfile=0&LanguageId=1

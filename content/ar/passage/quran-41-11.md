@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-10-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يفسّر الطبري أن الله استوى إلى السماء وهي دخان فقال لها وللأرض ائتيا طوعاً أو كرهاً قالتا أتينا طائعين، ويورد أقوال السلف في معنى الاستواء والدخان والطوع والكره. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=41&tAyahNo=11&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 11 إلى 12 مقطعاً واحداً. يفسّر قوله «وَجَعَلَ فِيهَا رَوَاسِيَ مِن فَوْقِهَا وَبَارَكَ فِيهَا وَقَدَّرَ فِيهَآ أَقْوَاتَهَا فِيۤ أَرْبَعَةِ أَيَّامٍ سَوَآءً لِّلسَّآئِلِينَ»: وجعل في الأرض التي خلق في يومين جبالاً رواسي، وهي الثوابت في الأرض من فوقها، يعني: من فوق الأرض على ظهرها. وقوله: «وَبارَكَ فِيها» يقول: وبارك في الأرض فجعلها دائمة الخير لأهلها. وقد ذكر عن السديّ في ذلك ما: وعن السدي: «وبَارَكَ فِيها» قال: أنبت شجرها. «وَقَدَّرَ فِيها أقواتها». اختلف أهل التأويل في ذلك، فقال بعضهم: وقدر فيها أقوات أهلها بمعنى أرزاقهم ومعايشهم. وينقل في المقطع أقوالاً عن مجاهد وقتادة والحسن وعكرمة وابن زيد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=41&tAyahNo=11&tDisplay=yes&UserProfile=0&LanguageId=1

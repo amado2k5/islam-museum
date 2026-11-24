@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-10-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري قول فرعون ذروني أقتل موسى وليدع ربه، إني أخاف أن يبدّل دينكم أو أن يظهر في الأرض الفساد، ويذكر اختلاف القرّاء في قراءة «أو أن يظهر». {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=40&tAyahNo=26&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَقَالَ فِرْعَوْنُ ذَرُونِيۤ أَقْتُلْ مُوسَىٰ وَلْيَدْعُ رَبَّهُ إِنِّيۤ أَخَافُ أَن يُبَدِّلَ دِينَكُمْ أَوْ أَن يُظْهِرَ فِي ٱلأَرْضِ ٱلْفَسَادَ»: «وَقالَ فِرْعَوْنُ» لملئه: «ذَرُونِي أقْتُلْ مُوسَى وَلْيَدْعُ رَبَّهُ» الذي يزعم أنه أرسله إلينا فيمنعه منا «إنّي أخاف أنْ يُبَدّلَ دِينَكُمْ» يقول: إني أخاف أن يغير دينكم الذي أنتم عليه بسحره. واختلفت القرّاء في قراءة قوله: «أو أن يُظْهِرَ فِي الأرْضِ الفَسادَ» فقرأ ذلك عامة قرّاء المدينة والشام والبصرة: «وأنْ يُظْهِرَ فِي الأرْضِ الفَسادَ» بغير ألف، وكذلك ذلك في مصاحف أهل المدينة، وقرأ ذلك عامة قرّاء الكوفة: «أوْ أنْ» بالألف، وكذلك ذلك في مصاحفهم «يَظْهَرَ فِي الأرْضِ» بفتح الياء ورفع الفساد. وينقل في المقطع أقوالاً عن قتادة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=40&tAyahNo=26&tDisplay=yes&UserProfile=0&LanguageId=1

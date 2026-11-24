@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-10-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن الله فرغ من خلق سبع سماوات في يومين وأوحى في كل سماء أمرها، وزيّن السماء الدنيا بمصابيح وحفظاً، ذلك تقدير العزيز العليم، وينقل عن السدي أن ذلك كان يوم الخميس ويوم الجمعة. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=41&tAyahNo=12&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «فَقَضَٰهُنَّ سَبْعَ سَمَٰوَٰتٍ فِي يَوْمَيْنِ وَأَوْحَىٰ فِي كُلِّ سَمَآءٍ أَمْرَهَا وَزَيَّنَّا ٱلسَّمَآءَ ٱلدُّنْيَا بِمَصَٰبِيحَ وَحِفْظاً ذَلِكَ تَقْدِيرُ ٱلْعَزِيزِ ٱلْعَلِيمِ»: ففرغ من خلقهن سبع سموات في يومين، وذلك يوم الخميس ويوم الجمعة، كما: وعن السديّ، قال: استوى إلى السماء وهي دخان من تنفس الماء حين تنفس، فجعلها سماء واحدة، ففتقها، فجعلها سبع سموات في يومين، في الخميس والجمعة. وإنما سُمّي يوم الجمعة لأنه جمع فيه خلق السموات والأرض. وقوله: «وأوْحَى فِي كُلّ سَماءٍ أمْرَها» يقول: وألقى في كل سماء من السموات السبع ما أراد من الخلق. وينقل في المقطع أقوالاً عن مجاهد وقتادة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=41&tAyahNo=12&tDisplay=yes&UserProfile=0&LanguageId=1

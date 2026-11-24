@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-10-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتابع الطبري في هذه الصفحة تفسير قول الكافرين: ربنا أمتنا اثنتين وأحييتنا اثنتين فاعترفنا بذنوبنا فهل إلى خروج من سبيل، ويعرض أقوال أهل التأويل في معنى الإماتتين والإحيائين، ويبيّن أنهم يسألون الخروج فلا يُجابون. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=40&tAyahNo=11&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 11 إلى 12 مقطعاً واحداً. يفسّر قوله «إِنَّ ٱلَّذِينَ كَفَرُواْ يُنَادَوْنَ لَمَقْتُ ٱللَّهِ أَكْبَرُ مِن مَّقْتِكُمْ أَنفُسَكُمْ إِذْ تُدْعَوْنَ إِلَى ٱلإِيمَانِ فَتَكْفُرُونَ»: إن الذين كفروا بالله ينادون في النار يوم القيامة إذا دخلوها، فمقتوا بدخولهموها أنفسهم حين عاينوا ما أعدّ الله لهم فيها من أنواع العذاب، فيقال لهم: لَمَقْتُ الله إياكم أيها القوم في الدنيا، إذ تدعون فيها للإيمان بالله فتكفرون، أكبر من مقتكم اليوم أنفسكم لما حلّ بكم من سخط الله عليكم. وينقل في المقطع أقوالاً عن مجاهد وقتادة والسدي وابن زيد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=40&tAyahNo=11&tDisplay=yes&UserProfile=0&LanguageId=1

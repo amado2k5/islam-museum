@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-10-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يأمر الله نبيه بالصبر على أذى المشركين فإن وعد الله حق، فإما يُريه بعض الذي يعدهم من العذاب في حياته أو يتوفاه، فإلى الله يُرجعون، ويذكّره بسنته في الرسل السابقين. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=40&tAyahNo=77&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «فَٱصْبِرْ إِنَّ وَعْدَ ٱللَّهِ حَقٌّ فَإِمَّا نُرِيَنَّكَ بَعْضَ ٱلَّذِي نَعِدُهُمْ أَوْ نَتَوَفَّيَنَّكَ فَإِلَيْنَا يُرْجَعُونَ»: فاصبر يا محمد على ما يجادلك به هؤلاء المشركون في آيات الله التي أنزلناها عليك، وعلى تكذيبهم إياك، فإن الله منجز لك فيهم ما وعدك من الظفر عليهم، والعلو عليهم، وإحلال العقاب بهم، كسنتنا في موسى بن عمران ومن كذّبه «فإمَّا نُرِيَنَّكَ بَعْضَ الَّذِي نَعِدُهُمْ» يقول جلّ ثناؤه: فإما نرينك يا محمد في حياتك بعض الذي نعد هؤلاء المشركين من العذاب والنقمة أن يحلّ بهم «أوْ نَتَوَفَّيَنَّكَ» قبل أن يحلّ ذلك بهم «فَإلَيْنا يُرْجَعُونَ» يقول: فإلينا مصيرك ومصيرهم، فنحكم عند ذلك بينك وبينهم بالحقّ بتخليدنا هم في النار، وإكرامناك بجوارنا في جنات النعيم.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=40&tAyahNo=77&tDisplay=yes&UserProfile=0&LanguageId=1

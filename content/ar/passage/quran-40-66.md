@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-10-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن النبي يُؤمر بأن يقول لمشركي قريش إنه نُهي عن عبادة ما يدعون من دون الله لما جاءته البينات من ربه، وأُمر أن يسلم لرب العالمين. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=40&tAyahNo=66&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «قُلْ إِنِّي نُهِيتُ أَنْ أَعْبُدَ ٱلَّذِينَ تَدْعُونَ مِن دُونِ ٱللَّهِ لَمَّا جَآءَنِيَ ٱلْبَيِّنَٰتُ مِن رَّبِّي وَأُمِرْتُ أَنْ أُسْلِمَ لِرَبِّ ٱلْعَٰلَمِينَ»: قل يا محمد لمشركي قومك من قريش «إنّي نُهِيتُ» أيها القوم «أنْ أَعْبُدَ الَّذِينَ تَدْعُونَ مِنْ دُونِ اللَّهِ» من الآلهة والأوثان «لَمَّا جاءَنِي البَيِّناتُ مِنْ رَبّي» يقول: لما جاءني الآيات الواضحات من عند ربي، وذلك آيات كتاب الله الذي أنزله «وأمِرْت أنْ أُسْلِمَ لِرَب العَالَمِينَ» يقول: وأمرني ربي أن أذلّ لربّ كلّ شيء، ومالك كلّ خلق بالخضوع، وأخضع له بالطاعة دون غيره من الأشياء.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=40&tAyahNo=66&tDisplay=yes&UserProfile=0&LanguageId=1

@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-10-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن كلمة الله بالعذاب حقّت على الأمم المكذبة التي همّت برسلها وجادلت بالباطل، وكذلك حقّت على الذين كفروا من قوم النبي الذين يجادلون في آيات الله، أنهم أصحاب النار، ويذكر أقوال أهل العربية في موضع «أنهم». {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=40&tAyahNo=6&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَكَذَلِكَ حَقَّتْ كَلِمَةُ رَبِّكَ عَلَى ٱلَّذِينَ كَفَرُوۤاْ أَنَّهُمْ أَصْحَابُ ٱلنَّارِ»: وكما حقّ على الأمم التي كذّبت رسلها التي قصصت عليك يا محمد قصصها عذابي، وحلّ بها عقابي بتكذيبهم رسلهم، وجدالهم إياهم بالباطل، ليدحضوا به الحقّ، كذلك وجبت كلمة ربك على الذين كفروا بالله من قومك، الذين يجادلون في آيات الله. وقوله: «أنَّهُمْ أصحَابُ النَّارِ» اختلف أهل العربية في موضع قوله «أنَّهُمْ»، فقال بعض نحوييّ البصرة: معنى ذلك: حقت كلمة ربك على الذين كفروا أنهم أصحاب النار: أي لأنهم، أو بأنهم، وليس أنهم في موضع مفعول ليس مثل قولك: أحققت أنهم لو كان كذلك كان أيضاً أحققت، لأنهم. وكان غيره يقول: «أنهم» بدل من الكلمة، كأنه أحقت الكلمة حقاً أنهم أصحاب النار.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=40&tAyahNo=6&tDisplay=yes&UserProfile=0&LanguageId=1

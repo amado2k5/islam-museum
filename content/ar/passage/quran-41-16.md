@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-10-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يفسّر الطبري إرسال الريح الصرصر على عاد في أيام نحسات، ويورد أقوال أهل التأويل في معنى الصرصر بأنها الشديدة أو الباردة أو ذات الصوت، ويذكر عذاب الخزي في الحياة الدنيا وأن عذاب الآخرة أخزى وهم لا يُنصرون. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=41&tAyahNo=16&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «فَأَرْسَلْنَا عَلَيْهِمْ رِيحاً صَرْصَراً فِيۤ أَيَّامٍ نَّحِسَاتٍ لِّنُذِيقَهُمْ عَذَابَ ٱلْخِزْيِ فِي ٱلْحَيَاةِ ٱلدُّنْيَا وَلَعَذَابُ ٱلآخِرَةِ أَخْزَىٰ وَهُمْ لاَ يُنصَرُونَ»: فأرسلنا على عاد ريحاً صرصراً. واختلف أهل التأويل في معنى الصرصر، فقال بعضهم: عني بذلك أنها ريح شديدة. وينقل في المقطع أقوالاً عن ابن عباس ومجاهد وقتادة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=41&tAyahNo=16&tDisplay=yes&UserProfile=0&LanguageId=1

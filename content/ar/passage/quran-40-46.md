@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-10-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يذكر الطبري أن آل فرعون يُعرضون على النار غدواً وعشياً، ويورد آثاراً في أن أرواحهم تُعرض عليها صباحاً ومساءً إلى قيام الساعة، فإذا قامت أُدخلوا أشد العذاب، وتشمل الصفحة ما بعد ذلك من تحاج أهل النار. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=40&tAyahNo=46&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «ٱلنَّارُ يُعْرَضُونَ عَلَيْهَا غُدُوّاً وَعَشِيّاً وَيَوْمَ تَقُومُ ٱلسَّاعَةُ أَدْخِلُوۤاْ آلَ فِرْعَوْنَ أَشَدَّ ٱلْعَذَابِ»: يقول تعالى ذكره مبيناً عن سوء العذاب الذي حلّ بهؤلاء الأشقياء من قوم فرعون ذلك الذي حاق بهم من سوء عذاب الله «النَّارُ يُعْرَضُونَ عَلَيْها» إنهم لها هلكوا وغرّقهم الله، جُعلت أرواحهم في أجواف طير سود، فهي تعرض على النار كلّ يوم مرتين «غُدُوّا وَعَشِيًّا» إلى أن تقوم الساعة. وينقل في المقطع أقوالاً عن مجاهد وقتادة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=40&tAyahNo=46&tDisplay=yes&UserProfile=0&LanguageId=1

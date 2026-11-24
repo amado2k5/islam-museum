@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-10-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يذكر الطبري أن الله هو الذي جعل لكم الليل لتسكنوا فيه والنهار مبصراً تبصرون فيه لمعاشكم، وأنه ذو فضل على الناس ولكن أكثرهم لا يشكرون. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=40&tAyahNo=61&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «ٱللَّهُ ٱلَّذِي جَعَلَ لَكُمُ ٱللَّيْلَ لِتَسْكُنُواْ فِيهِ وَٱلنَّهَارَ مُبْصِراً إِنَّ ٱللَّهَ لَذُو فَضْلٍ عَلَى ٱلنَّاسِ وَلَٰكِنَّ أَكْثَرَ ٱلنَّاسِ لاَ يَشْكُرُونَ»: الله الذي لا تصلح الألوهية إلا له، ولا تنبغي العبادة لغيره، الذي صفته أنه جعل لكم أيها الناس الليل سكناً لتسكنوا فيه، فتهدؤا من التصرفّ والاضطراب للمعاش، والأسباب التي كنتم تتصرفون فيها في نهاركم «والنَّهارَ مُبْصِراً» يقول: وجعل النهار مبصراً من اضطرب فيه لمعاشه، وطلب حاجاته، نعمة منه بذلك عليكم «إنَّ اللَّهَ لَذُو فَضْلِ على النَّاسِ» يقول: إن الله لمتفضل عليكم أيها الناس بما لا كفء له من الفضل «وَلَكِنَّ أكْثَرَ النَّاسِ لا يَشْكُرُونَ» يقول: ولكن أكثرهم لا يشكرونه بالطاعة له، وإخلاص الألوهية والعبادة له، ولا يد تقدمت له عنده استوجب بها منه الشكر عليها.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=40&tAyahNo=61&tDisplay=yes&UserProfile=0&LanguageId=1

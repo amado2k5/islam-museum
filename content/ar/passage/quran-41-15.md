@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-10-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يذكر الطبري أن عاداً قوم هود استكبروا في الأرض بغير الحق وقالوا من أشد منا قوة، فردّ الله عليهم بأنه الذي خلقهم وهو أشد منهم قوة وكانوا بآياتنا يجحدون. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=41&tAyahNo=15&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «فَأَمَّا عَادٌ فَٱسْتَكْبَرُواْ فِي ٱلأَرْضِ بِغَيْرِ ٱلْحَقِّ وَقَالُواْ مَنْ أَشَدُّ مِنَّا قُوَّةً أَوَلَمْ يَرَوْاْ أَنَّ ٱللَّهَ ٱلَّذِي خَلَقَهُمْ هُوَ أَشَدُّ مِنْهُمْ قُوَّةً وَكَانُواْ بِآيَاتِنَا يَجْحَدُونَ»: «فأمَّا عادٌ» قوم هود «فاسْتَكْبَرُوا» على ربهم وتجبروا «فِي الأرْضِ» تكبراً وعتوّاً بغير ما أذن الله لهم به «وَقالُوا مَنْ أشَدُّ مِنَّا قُوَّةً أوَلَمْ يَرَوْا أنَّ اللَّهَ الَّذِي خَلَقَهُمْ» وأعطاهم ما أعطاهم من عظم الخلق، وشدّة البطش «هُو أشَدُّ مِنْهُمْ قُوَّةً» فيحذروا عقابه، ويتقوا سطوته لكفرهم به، وتكذيبهم رسله «وكانُوا بآياتِنا يَجْحَدُونَ» يقول: وكانوا بأدلتنا وحججنا عليهم يجحدون.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=41&tAyahNo=15&tDisplay=yes&UserProfile=0&LanguageId=1

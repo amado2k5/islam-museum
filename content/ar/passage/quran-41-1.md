@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-10-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل الآيات 1 إلى 4، وخلاصتها: يبيّن الطبري أن القول في «حم» كما سبق، ثم يفسّر أن هذا القرآن تنزيل من الرحمن الرحيم كتاب فُصّلت آياته قرآناً عربياً لقوم يعلمون بشيراً ونذيراً فأعرض أكثرهم فهم لا يسمعون، وتضم الصفحة الآيات الأربع الأولى من سورة فصلت. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=41&tAyahNo=1&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 1 إلى 4 مقطعاً واحداً. يفسّر قوله «حمۤ»: قال أبو جعفر: قد تقدم القول منا فيما مضى قبلُ في معنى «حم»، والقول في هذا الموضع كالقول في ذلك. وقوله:
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=41&tAyahNo=1&tDisplay=yes&UserProfile=0&LanguageId=1
