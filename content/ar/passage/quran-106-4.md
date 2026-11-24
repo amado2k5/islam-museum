@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-13-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل [[passage/quran-106-1|106:1]] إلى [[passage/quran-106-4|106:4]]، غير أن نص الصفحة المحفوظة في موقع التفسير لا يتضمن تعليقاً مستقلاً من الطبري على هذه الآية، فلا يُنسب إليه هنا قول فيها. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=106&tAyahNo=4&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 4 إلى 7 مقطعاً واحداً. يفسّر قوله «لإِيلاَفِ قُرَيْشٍ»: اختلفت القراء في قراءة: «لإيلافِ قُرَيْشٍ إيلافِهِمْ»، فقرأ ذلك عامة قرّاء الأمصار بياء بعد همز لإيلاف وإيلافهم، سوى أبي جعفر، فإنه وافق غيره في قوله «لإيلافِ» فقرأه بياء بعد همزة، واختلف عنه في قوله «إيلافِهِمْ» فروي عنه أنه كان يقرؤه: «إلْفِهِمْ» على أنه مصدر من ألف يألف إلفاً، بغير ياء. وحَكى بعضهم عنه أنه كان يقرؤه: «إلافِهِمْ» بغير ياء مقصورة الألف. والصواب من القراءة في ذلك عندي: من قرأه: «لإيلافِ قُرَيْشٍ إيلافِهِمْ» بإثبات الياء فيهما بعد الهمزة، من آلفت الشيء أُولفه إيلافاً، لإجماع الحجة من القرّاء عليه. وينقل في المقطع أقوالاً عن ابن عباس ومجاهد وإبراهيم وسفيان.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=106&tAyahNo=4&tDisplay=yes&UserProfile=0&LanguageId=1

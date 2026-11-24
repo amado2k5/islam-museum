@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-13-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل [[passage/quran-111-1|111:1]] إلى [[passage/quran-111-5|111:5]]، غير أن نص الصفحة المحفوظة في موقع التفسير لا يتضمن تعليقاً مستقلاً من الطبري على هذه الآية، فلا يُنسب إليه هنا قول فيها. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=111&tAyahNo=5&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 5 إلى 9 مقطعاً واحداً. يفسّر قوله «تَبَّتْ يَدَآ أَبِي لَهَبٍ وَتَبَّ»: خَسِرت يدا أبي لهب، وخَسِر هو. وإنما عُنِي بقوله: «تَبَّتْ يَدَا أبِي لَهَبٍ» تبّ عمله. وكان بعض أهل العربية يقول: قوله: «تَبَّتْ يَدَا أَبِي لَهَبٍ»: دعاء عليه من الله. وأما قوله: «وَتَبَّ» فإنه خبر. ويُذكر أن ذلك في قراءة عبد الله: «تَبَّتْ يَدَا أبِي لَهَبٍ وَقَدْ تَبَّ». وفي دخول «قد» فيه دلالة على أنه خبر، ويمثَّل ذلك بقول القائل لآخر: أهلَكك الله، وقد أهلكك، وجعلك صالحاً وقد جعلك. وينقل في المقطع أقوالاً عن ابن عباس وقتادة وابن زيد والأعمش.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=111&tAyahNo=5&tDisplay=yes&UserProfile=0&LanguageId=1

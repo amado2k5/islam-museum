@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-13-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل [[passage/quran-109-1|109:1]] إلى [[passage/quran-109-6|109:6]]، وخلاصتها: يبيّن أنهم لا يعبدون فيما يستقبلون أبداً ما يعبد، ويقول إن ذلك لأن الخطاب لأشخاص بأعيانهم علم الله أنهم لا يؤمنون. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=109&tAyahNo=5&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 5 إلى 10 مقطعاً واحداً. يفسّر قوله «قُلْ يٰأَيُّهَا ٱلْكَافِرُونَ»: يقول تعالى ذكره لنبيه محمد، وكان المشركون من قومه فيما ذُكر عرضوا عليه أن يعبدوا الله سنة، على أن يعبد نبيُّ الله آلهتهم سنة، فأنزل الله مُعَرِّفه جوابهم في ذلك: «قُلْ» يا محمد لهؤلاء المشركين الذين سألوك عبادة آلهتهم سنة، على أن يعبدوا إلهك سنة «يا أيُّها الكافِرُونَ» بالله وينقل في المقطع أقوالاً عن ابن عباس.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=109&tAyahNo=5&tDisplay=yes&UserProfile=0&LanguageId=1

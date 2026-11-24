@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-13-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل [[passage/quran-113-1|113:1]] إلى [[passage/quran-113-5|113:5]]، وخلاصتها: يذكر في مطلع تعليقه أن الاستعاذة من شر ما خلق من الخلق، ولا يفرد لهذه الآية شرحاً. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=113&tAyahNo=2&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 2 إلى 6 مقطعاً واحداً. يفسّر قوله «قُلْ أَعُوذُ بِرَبِّ ٱلْفَلَقِ»: قل يا محمد: أستجير بربّ الفلق من شرّ ما خلق من الخلق. واختلف أهل التأويل في معنى الفلق، فقال بعضهم: هو سجن في جهنم يسمى هذا الاسم. وينقل في المقطع أقوالاً عن ابن عباس والحسن وسفيان.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=113&tAyahNo=2&tDisplay=yes&UserProfile=0&LanguageId=1
