@@ -18,7 +18,7 @@ translators: []
 
 اس حصے سے متعلق عجائب گھر کے اندراجات: [[event/battle-of-the-trench|خندق کی جنگ ⁦(الاحزاب)⁩]]، [[event/battle-of-badr|بدر کی جنگ]]، [[event/battle-of-uhud|جنگ احد]]، [[event/conquest-of-mecca|فتح مکہ ⁦(فتح مکہ)⁩]]، [[event/treaty-of-hudaybiyya|معاہدہ حدیبیہ]]، [[event/expedition-to-tabuk|تبوک کی مہم]]، [[event/battle-of-hunayn|حنین کی جنگ]]، [[event/expedition-of-banu-al-nadir|بنو النضیر کا محاصرہ اور بے دخلی]]، [[person/muhammad|محمد]]
 
-### اسباب: یہودی سازش اور قبائل کا اجتماع
+### غزوے کے اسباب اور قبائل کا اجتماع
 
 - وہ روایت کرتے ہیں کہ اہل سیر یہود کی کوششوں کو مشرکین کے مدینہ آنے کے اہم ترین اسباب میں شمار کرتے ہیں۔ {cite:podcast-ahmed-el-sayed seerah-lilmuslihin/ep23}
 - وہ بتاتے ہیں کہ احد کے بعد یہود کو فیصلہ کن ضرب کی امید ہوئی، اس لیے انھوں نے کہا کہ صرف قریش نہیں بلکہ عرب قبائل کو گروہ بنا کر جمع کیا جائے۔ {cite:podcast-ahmed-el-sayed seerah-lilmuslihin/ep23}
@@ -91,6 +91,7 @@ translators: []
 - وہ روایت کرتے ہیں کہ یہ بات پھیلی کہ بنو قریظہ، جو مدینہ کے اندر تھے اور نبی سے ان کا عہد تھا، عہد توڑ چکے ہیں اور پیچھے سے شہر میں داخل ہوں گے۔ {cite:podcast-ahmed-el-sayed seerah-lilmuslihin/ep23}
 - وہ کہتے ہیں کہ خطرہ یہ تھا کہ مسلمانوں کی عورتوں اور گھروں کے آگے کوئی آڑ نہیں تھی، اور لشکر الجھا ہو تو مشرکین خندق پار کر سکتے تھے۔ {cite:podcast-ahmed-el-sayed seerah-lilmuslihin/ep23}
 - وہ روایت کرتے ہیں کہ نبی نے زبیر بن العوام کو تحقیق کے لیے بھیجا، اور زبیر نے لوٹ کر بتایا کہ قریظہ نے واقعی غداری کی ہے۔ {cite:podcast-ahmed-el-sayed seerah-lilmuslihin/ep23}
+- وہ کہتے ہیں کہ بنو قریظہ نے مسلمانوں کے لیے سب سے مشکل گھڑی میں عہد توڑا۔ {cite:podcast-ahmed-el-sayed seerah-lilmuslihin/ep23}
 
 یہ مقرر کا نقطۂ نظر ہے؛ عجائب گھر اسے انہی کا بیان کر کے نقل کرتا ہے اور اپناتا نہیں۔
 

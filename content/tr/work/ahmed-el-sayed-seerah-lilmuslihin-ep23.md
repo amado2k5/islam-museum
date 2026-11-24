@@ -92,6 +92,7 @@ Müzedeki kayıtlar bu bölüme bağlıdır: [[event/battle-of-the-trench|Konfed
 - Banu Qurayza'nın şehir içinde ve Peygamber ile aralarında bir antlaşma yaptıkları ve arkadan girecekleri söylentilerin sızdığını anlatır. {cite:podcast-ahmed-el-sayed seerah-lilmuslihin/ep23}
 - Tehlikenin Müslüman kadınların ve evlerinin engelsiz olması ve ordu işgal altındayken çoktanrılıların siperleri geçebilmesi olduğunu belirtmek gerekir. {cite:podcast-ahmed-el-sayed seerah-lilmuslihin/ep23}
 - Peygamber'in bunu doğrulaması için el-Zubeyr bin el-Avvem'i gönderdiği rivayet edilir ve o da geri dönerek Kurayza gerçekten ihanet ettiğini bildirmiştir. {cite:podcast-ahmed-el-sayed seerah-lilmuslihin/ep23}
+- Beni Kurayza'nın Müslümanlar için en zor anda ihanet ettiğini söyler. {cite:podcast-ahmed-el-sayed seerah-lilmuslihin/ep23}
 
 Bu öğretim görevlisinin görüşüdür; müze bunu ona atfeder ancak benimsemez.
 

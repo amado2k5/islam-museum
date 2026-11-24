@@ -110,7 +110,7 @@ translators: []
 
 - يروي عن البخاري عن أبي هريرة أن امرأة يهودية من خيبر أهدت النبي بعد الفتح شاة مطبوخة ومشوية وقد جعلت فيها سما. {cite:podcast-ahmed-el-sayed seerah-lilmuslihin/ep28}
 - يقول إن النبي تنبه بعد أن أكل وأكل بعض أصحابه، فجمع اليهود الحاضرين وسألهم، فأقروا أنهم فعلوا ذلك ليستريحوا منه إن كان كاذبا، ولا يضره إن كان نبيا. {cite:podcast-ahmed-el-sayed seerah-lilmuslihin/ep28}
-- يعمم هذا الحكم على الحاضر فيرى أن الشر نفسه باق فيهم تجاه المصلحين وسالكي طريق الأنبياء، وهذا رأيه الخاص في تعميم الحكم. {cite:podcast-ahmed-el-sayed seerah-lilmuslihin/ep28}
+- يروي من رواية أنس عند البخاري أن المرأة قالت إنها أرادت قتله، فقال النبي إن الله لم يكن ليسلطها عليه، ونهى الصحابة عن قتلها. {cite:podcast-ahmed-el-sayed seerah-lilmuslihin/ep28}
 - يروي أن أنسا قال إنه لا يزال يعرف أثر السم في فم النبي. {cite:podcast-ahmed-el-sayed seerah-lilmuslihin/ep28}
 - يرى أن هذا يدل على حلم النبي وعفوه في حقه الشخصي. {cite:podcast-ahmed-el-sayed seerah-lilmuslihin/ep28}
 - يروي أنه لما مات بشر بن البراء من أثر السم أمر النبي بقتل المرأة. {cite:podcast-ahmed-el-sayed seerah-lilmuslihin/ep28}

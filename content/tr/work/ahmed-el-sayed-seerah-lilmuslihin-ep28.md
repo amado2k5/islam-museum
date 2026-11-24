@@ -111,7 +111,7 @@ Müzedeki kayıtlar bu bölüme bağlıdır: [[event/battle-of-khaybar|Haybar Mu
 
 - Ebu Huraira'dan Al-Buhari'den, Fetihten sonra Haybar'dan bir Yahudi kadının Peygamber'e pişmiş ve ızgara edilmiş bir koyun hediye ettiği ve içine zehir koyduğu rivoyat edilir. {cite:podcast-ahmed-el-sayed seerah-lilmuslihin/ep28}
 - Peygamber'in yemek yedikten sonra uyanık olduğunu ve bazı sahabelerinin yediğini söyler. Oradaki Yahudileri topladı ve onlara sordu; onlar da eğer yalancıysa rahatlamak için bunu yaptıklarını, peygamberse zarar vermeyeceğini itiraf ettiler. {cite:podcast-ahmed-el-sayed seerah-lilmuslihin/ep28}
-- Bu yargıyı günümüze genelleştirir; çünkü aynı kötülüğün onların arasında reformcular ve peygamberlerin yolunun takipçilerine karşı da devam ettiğini görür ve bu, hükmü genelleştirme konusundaki kendi görüşüdür. {cite:podcast-ahmed-el-sayed seerah-lilmuslihin/ep28}
+- Buhari'de Enes'ten, kadının onu öldürmek istediğini söylediğini, Peygamber'in Allah'ın ona bu gücü vermeyeceğini söyleyip sahabelerin onu öldürmesini yasakladığını aktarır. {cite:podcast-ahmed-el-sayed seerah-lilmuslihin/ep28}
 - Anasa'nın, peygamberin ağzındaki zehir izini hâlâ bildiğini söylediği anlatılır. {cite:podcast-ahmed-el-sayed seerah-lilmuslihin/ep28}
 - Bunun Peygamber'in kişisel hakkı konusunda affettiğini ve affettiğini gösterdiğine inanır. {cite:podcast-ahmed-el-sayed seerah-lilmuslihin/ep28}
 - Anlatılanlara göre, Bişr bin el-Bara' zehirden öldüğünde, Peygamber'in kadının öldürülmesini emrettiği rivayet edilir. {cite:podcast-ahmed-el-sayed seerah-lilmuslihin/ep28}

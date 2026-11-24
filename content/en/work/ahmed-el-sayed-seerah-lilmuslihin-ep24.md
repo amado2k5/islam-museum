@@ -41,6 +41,7 @@ Museum records linked to this part: [[person/jibril|Jibril (Gabriel)]], [[person
 
 - He says that the homes of Banu Qurayza now lie within built-up Medina, a few kilometres south of the Quba Mosque. {cite:podcast-ahmed-el-sayed seerah-lilmuslihin/ep24}
 - He says the Prophet went with about three thousand fighters and besieged them at their strongholds. {cite:podcast-ahmed-el-sayed seerah-lilmuslihin/ep24}
+- He says Banu Qurayza relied on strongholds, and gives those of Khaybar as the clearest surviving example. {cite:podcast-ahmed-el-sayed seerah-lilmuslihin/ep24}
 
 This is the speaker's view; the museum reports it as his and does not adopt it.
 
@@ -60,7 +61,7 @@ Museum records linked to this part: [[event/siege-of-banu-qurayza|The Siege and 
 - He relates that Sa'd's people carried him and tried to persuade him to be lenient because of their old alliance, and that in a report Sa'd answered that he would let no censure move him in matters of God. {cite:podcast-ahmed-el-sayed seerah-lilmuslihin/ep24}
 - He relates that when Sa'd drew near, the Prophet told those around him to stand for their leader, as a mark of honour. {cite:podcast-ahmed-el-sayed seerah-lilmuslihin/ep24}
 - He says Sa'd judged that their fighters be killed and their children taken captive, and that the Prophet said he had judged by the judgment of God, with a version saying from above seven heavens. {cite:podcast-ahmed-el-sayed seerah-lilmuslihin/ep24}
-- He relates that trenches were dug in Medina, the fighters were brought and executed, and he describes this as ending the plotting and treachery of the Jews in the city. {cite:podcast-ahmed-el-sayed seerah-lilmuslihin/ep24}
+- He relates that trenches were dug in Medina, the fighters were brought and executed, and he describes this as ending the plotting and treachery of Banu Qurayza in the city. {cite:podcast-ahmed-el-sayed seerah-lilmuslihin/ep24}
 - He notes that Banu Qurayza had betrayed once before and been pardoned, and holds that this second betrayal left no room for pardon. {cite:podcast-ahmed-el-sayed seerah-lilmuslihin/ep24}
 
 This is the speaker's view; the museum reports it as his and does not adopt it.

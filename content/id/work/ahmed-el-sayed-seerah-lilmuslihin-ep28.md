@@ -111,7 +111,7 @@ Catatan di museum terhubung ke bagian ini: [[event/battle-of-khaybar|Pertempuran
 
 - Diceritakan dari Al-Bukhari dari Abu Huraira bahwa seorang wanita Yahudi dari Khaybar memberikan Nabi seekor domba yang dimasak dan dipanggang setelah penaklukan, lalu ia menaruh racun di dalamnya. {cite:podcast-ahmed-el-sayed seerah-lilmuslihin/ep28}
 - Ia mengatakan bahwa Nabi menjadi sadar setelah makan dan beberapa sahabatnya makan. Ia mengumpulkan orang Yahudi yang hadir dan bertanya kepada mereka, dan mereka mengakui bahwa mereka melakukan ini untuk merasa lega jika ia seorang pembohong, dan tidak akan merugikan jika ia seorang nabi. {cite:podcast-ahmed-el-sayed seerah-lilmuslihin/ep28}
-- Ia menggeneralisasi penilaian ini hingga saat ini, melihat bahwa kejahatan yang sama tetap ada di antara mereka terhadap para reformis dan pengikut jalan para nabi, dan ini adalah pendapatnya sendiri tentang generalisasi keputusan. {cite:podcast-ahmed-el-sayed seerah-lilmuslihin/ep28}
+- Ia meriwayatkan dari Anas, dalam al-Bukhari, bahwa perempuan itu mengaku hendak membunuhnya, bahwa Nabi menjawab Allah tidak akan memberinya kuasa atas beliau, dan bahwa beliau melarang para sahabat membunuhnya. {cite:podcast-ahmed-el-sayed seerah-lilmuslihin/ep28}
 - Diceritakan bahwa Anasa mengatakan dia masih mengetahui jejak racun di mulut nabi. {cite:podcast-ahmed-el-sayed seerah-lilmuslihin/ep28}
 - Ia percaya bahwa ini menunjukkan pengampunan dan pengampunan Nabi atas hak pribadinya. {cite:podcast-ahmed-el-sayed seerah-lilmuslihin/ep28}
 - Diceritakan bahwa ketika Bishr ibn al-Bara' meninggal karena racun, Nabi memerintahkan agar wanita itu dibunuh. {cite:podcast-ahmed-el-sayed seerah-lilmuslihin/ep28}

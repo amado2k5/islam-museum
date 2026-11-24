@@ -32,6 +32,9 @@ open a new block on top with the new version and today's date.
 ### Changed
 - **About 1,400 more Turkish and about 580 more Indonesian prose pages, machine-translated from Arabic through Microsoft Word with the paragraph-per-fragment scheme.** The new pages are Word's machine translation and no human has read them; each carries its provenance and cites the same sources as its Arabic page. Records the importer refused (lost placeholders, changed emphasis marks, typed honorifics) and 16 files that failed the validator's perspectives or reading-level rules were left untranslated rather than loosening any check; the gap to Arabic is now about 300 pages in Turkish and about 80 in Indonesian.
 
+### Fixed
+- **Three Ahmed El-Sayed lecture records no longer generalise about a people.** In the Reformers Seerah, episodes 23, 24 and 28, wording about Jews in general now names the group the lecturer speaks of or is removed, two historical statements about Banu Qurayza are restored in neutral wording, and a report from Anas on the poisoned sheep that had been displaced in four languages is back. In all seven languages.
+
 ## v2.28.0 — 2026-11-23
 ### Added
 - **Seven new person records for notable converts to Islam (converts section, wave 2): Maryam Jameelah, Murad Wilfried Hofmann, Martin Lings, Jeffrey Lang, Alexander Russell Webb, Nasreddine (Étienne) Dinet and Yahiya Emerick.** Each tells who the person was, the path to Islam as the cited sources report it, what they did afterwards, the difficulties and reactions, and criticism where the sources give it, in Arabic, English, Urdu, French and Spanish, with two or more independent sources read in full, the `convert` story role and the theme `converts-and-leavers`. Faith values are recorded only on their documented basis. Gary Miller was held because no independent source could be read (`docs/delegation/converts-wave2-held.md`).

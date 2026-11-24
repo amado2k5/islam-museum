@@ -110,7 +110,7 @@ Museum records linked to this part: [[event/battle-of-khaybar|The Conquest of Kh
 
 - He relates from al-Bukhari, on the authority of Abu Hurayra, that after the conquest a Jewish woman from Khaybar sent the Prophet a cooked and roasted sheep as a gift, and that it contained poison. {cite:podcast-ahmed-el-sayed seerah-lilmuslihin/ep28}
 - He says the Prophet noticed after he and some Companions had eaten, gathered the Jews present, and asked whether they had poisoned it; they said they had, to be rid of him if he was a liar, or to cause him no harm if he was a prophet. {cite:podcast-ahmed-el-sayed seerah-lilmuslihin/ep28}
-- He extends this judgement to the present, saying the same malice remains in them toward reformers and those who follow the prophets' path; this is his own generalising opinion. {cite:podcast-ahmed-el-sayed seerah-lilmuslihin/ep28}
+- He relates from Anas, in al-Bukhari, that the woman said she had meant to kill him, that the Prophet answered that God would not give her power over him, and that he forbade the Companions to kill her. {cite:podcast-ahmed-el-sayed seerah-lilmuslihin/ep28}
 - He relates that Anas said he could still see the trace of the poison in the Prophet's mouth. {cite:podcast-ahmed-el-sayed seerah-lilmuslihin/ep28}
 - He holds that this shows the Prophet's forbearance in a matter that touched him personally. {cite:podcast-ahmed-el-sayed seerah-lilmuslihin/ep28}
 - He relates that later, when Bishr ibn al-Bara died from the poison, the Prophet ordered the woman killed. {cite:podcast-ahmed-el-sayed seerah-lilmuslihin/ep28}
