@@ -2,6 +2,13 @@ id: person/muhammad
 tags: ["ansab-browser", "ansab-shajara", bunuwwa-browser]
 class: person
 label: { en: Muhammad, ar: محمد, es: "Muhammad", fr: "Muhammad", ur: "محمد" }
+name_parts:
+  ism:
+    - { value: "محمد", translit: "Muhammad", certainty: attested, sources: [source/jstor-schimmel-islamic-names], note: "Facts in this name block come from a research summary supplied to the museum (classical-arabic-names.md); the museum did not open the pages it cites; founder approval to use the file without re-verification, 21 Nov 2026." }
+  kunya:
+    - { value: "أبو القاسم", translit: "Abu al-Qasim", certainty: attested, note: "Father of his son al-Qasim, as the research summary explains it.", sources: [source/jstor-schimmel-islamic-names] }
+  nasab:
+    - { value: "بن عبد الله بن عبد المطلب بن هاشم", certainty: attested, sources: [source/ibn-hisham-sira, source/beeston-arabic-nomenclature] }
 names:
   - { kind: full, lang: ar, value: محمد بن عبد الله بن عبد المطلب بن هاشم }
   - { kind: kunya, lang: ar-Latn, value: Abu al-Qasim }

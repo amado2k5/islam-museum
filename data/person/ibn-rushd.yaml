@@ -2,6 +2,12 @@ id: person/ibn-rushd
 class: person
 tags: [madhahib-browser, mh-maliki, tibb-browser, tibb-tibb]
 label: { ar: "ابن رشد الحفيد", en: "Ibn Rushd al-Hafid (Averroes)", ur: "ابن رشد الحفید", es: "Ibn Rushd al-Hafid (Averroes)", fr: "Ibn Rushd al-Hafid (Averroes)" }
+name_parts:
+  ism:
+    - { value: "محمد", translit: "Muhammad", certainty: attested, sources: [source/jstor-schimmel-islamic-names], note: "Facts in this name block come from a research summary supplied to the museum (classical-arabic-names.md); the museum did not open the pages it cites; founder approval to use the file without re-verification, 21 Nov 2026." }
+  ancestral:
+    - { value: "ابن رشد", translit: "Ibn Rushd", certainty: attested, note: "An ancestral designation: the family became known by a distinguished ancestor.", sources: [source/jstor-schimmel-islamic-names] }
+  shuhra: { value: "ابن رشد", translit: "Ibn Rushd", certainty: attested, sources: [source/jstor-schimmel-islamic-names] }
 names:
   - { value: "أبو الوليد محمد بن أحمد بن رشد الأندلسي", kind: full }
   - { value: "Averroes", kind: latinized }

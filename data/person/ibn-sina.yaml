@@ -2,6 +2,12 @@ id: person/ibn-sina
 class: person
 aliases: [person/avicenna]
 label: { en: Ibn Sina (Avicenna), ar: ابن سينا, fa: ابن سینا, ur: ابن سینا, es: "Ibn Sina (Avicenna)", fr: "Ibn Sina (Avicenna)" }
+name_parts:
+  ism:
+    - { value: "الحسين", translit: "al-Husayn", certainty: attested, sources: [source/jstor-schimmel-islamic-names], note: "Facts in this name block come from a research summary supplied to the museum (classical-arabic-names.md); the museum did not open the pages it cites; founder approval to use the file without re-verification, 21 Nov 2026." }
+  ancestral:
+    - { value: "ابن سينا", translit: "Ibn Sina", certainty: attested, note: "The designation of an ancestral name, by which he is remembered.", sources: [source/jstor-schimmel-islamic-names] }
+  shuhra: { value: "ابن سينا", translit: "Ibn Sina", certainty: attested, sources: [source/jstor-schimmel-islamic-names] }
 names:
   - { kind: full, lang: ar, value: أبو علي الحسين بن عبد الله بن الحسن بن علي بن سينا }
   - { kind: kunya, lang: ar-Latn, value: Abu Ali }

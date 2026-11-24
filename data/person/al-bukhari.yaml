@@ -1,6 +1,12 @@
 id: person/al-bukhari
 class: person
 label: { ar: "محمد بن إسماعيل البخاري", en: "Al Bukhari", fr: "Al-Bukhari", ur: "محمد بن اسماعیل بخاری", es: "Al Bukhari" }
+name_parts:
+  ism:
+    - { value: "محمد", translit: "Muhammad", certainty: attested, sources: [source/jstor-schimmel-islamic-names], note: "Facts in this name block come from a research summary supplied to the museum (classical-arabic-names.md); the museum did not open the pages it cites; founder approval to use the file without re-verification, 21 Nov 2026." }
+  nisba:
+    - { value: "البخاري", translit: "al-Bukhari", certainty: attested, link: place/bukhara, link_kind: place, note: "A geographical nisba associates a person with Bukhara; it does not by itself state birthplace.", sources: [source/jstor-schimmel-islamic-names] }
+  shuhra: { value: "البخاري", translit: "al-Bukhari", certainty: attested, sources: [source/jstor-schimmel-islamic-names] }
 born: { edtf: "0810", hijri: "0194", calendar: julian, precision: year, status: tradition, derived: true, note: "مولده في شوال سنة أربع وتسعين ومائة ببخارى {cite:tabaqat-shafiiyya-subki j.2 p. 14} = ١٩٤هـ/٨١٠م {cite:encyclopaedia-of-islam-2 vol. 1 p. 1360}؛ التحويل مشتق." }
 died: { edtf: "0870-08-31", hijri: "0256-10-01", calendar: julian, precision: day, status: tradition, derived: true, note: "مات ليلة الفطر أول ليلة من شوال سنة ست وخمسين ومائتين بخرتنك، وكان بلغ اثنتين وستين سنة غير ثلاث عشرة ليلة {cite:tabaqat-shafiiyya-subki j.2 p. 14} = ٢٥٦هـ/٨٧٠م {cite:encyclopaedia-of-islam-2 vol. 1 p. 1360}؛ التحويل مشتق." }
 summary:

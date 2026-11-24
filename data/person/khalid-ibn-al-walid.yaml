@@ -1,6 +1,9 @@
 id: person/khalid-ibn-al-walid
 class: person
 label: { en: "Khalid ibn al-Walid", ar: "خالد بن الوليد", ur: "خالد بن الوليد", es: "Khalid ibn al-Walid", fr: "Khalid ibn al-Walid" }
+name_parts:
+  laqab:
+    - { value: "سيف الله", translit: "Sayf Allah", meaning: { en: "Sword of God", ar: "سيف الله", ur: "اللہ کی تلوار", fr: "Épée de Dieu", es: "Espada de Dios" }, certainty: attested, sources: [source/jstor-schimmel-islamic-names], note: "Facts in this name block come from a research summary supplied to the museum (classical-arabic-names.md); the museum did not open the pages it cites; founder approval to use the file without re-verification, 21 Nov 2026." }
 names:
   - { kind: full, lang: ar, value: "خالد بن الوليد بن المغيرة المخزومي" }
   - { kind: laqab, lang: ar-Latn, value: "Sayf Allah (the Sword of God)" }
