@@ -3,6 +3,11 @@ id: passage/quran-34-1
 lang: ar
 source_lang: ar
 translators: []
+provenance:
+  generated_by: "Claude Code (Sonnet 5.5 session)"
+  model: claude-sonnet-5-5
+  run: altafsir-tabari-batch-9-2026-11-24
+  source: source/altafsir-tabari
 ---
 
 ## موجز
@@ -10,3 +15,7 @@ translators: []
 
 ## موضعها
 موضعها: الآية 1 من أصل 54 آية في السورة. النص محفوظ من مصحف تنزيل المجمّد ولا يُعاد كتابته هنا.
+
+## تفسير الطبري
+
+يبيّن الطبري أن الحمد والشكر الكامل لله مالك ما في السماوات وما في الأرض، وله الحمد في الآخرة كما هو له في الدنيا لأن منه النعم كلها، وهو الحكيم الخبير. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=34&tAyahNo=1&tDisplay=yes&UserProfile=0&LanguageId=1

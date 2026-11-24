@@ -3,6 +3,11 @@ id: passage/quran-33-70
 lang: ar
 source_lang: ar
 translators: []
+provenance:
+  generated_by: "Claude Code (Sonnet 5.5 session)"
+  model: claude-sonnet-5-5
+  run: altafsir-tabari-batch-9-2026-11-24
+  source: source/altafsir-tabari
 ---
 
 ## موجز
@@ -10,3 +15,7 @@ translators: []
 
 ## موضعها
 موضعها: الآية 70 من أصل 73 آية في السورة. النص محفوظ من مصحف تنزيل المجمّد ولا يُعاد كتابته هنا.
+
+## تفسير الطبري
+
+يأمر الله المؤمنين بتقواه وبقول سديد، أي قاصد حق غير باطل، ووعد أنه يصلح لهم أعمالهم ويغفر ذنوبهم، ومن يطع الله ورسوله فقد فاز فوزاً عظيماً. وهذا التفسير مشترك بين الآيتين 70 و71. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=33&tAyahNo=70&tDisplay=yes&UserProfile=0&LanguageId=1

@@ -3,6 +3,11 @@ id: passage/quran-33-58
 lang: ar
 source_lang: ar
 translators: []
+provenance:
+  generated_by: "Claude Code (Sonnet 5.5 session)"
+  model: claude-sonnet-5-5
+  run: altafsir-tabari-batch-9-2026-11-24
+  source: source/altafsir-tabari
 ---
 
 ## موجز
@@ -10,3 +15,7 @@ translators: []
 
 ## موضعها
 موضعها: الآية 58 من أصل 73 آية في السورة. النص محفوظ من مصحف تنزيل المجمّد ولا يُعاد كتابته هنا.
+
+## تفسير الطبري
+
+لم يُفرد الطبري لهذه الآية تعليقاً مستقلاً في الصفحة المحفوظة، بل جاء تفسيرها ضمن تفسير الآيات 57–58. يذكر الطبري أن الذين يؤذون الله بمعصيته وركوب ما حرّم، ويؤذون رسوله، لعنهم الله في الدنيا والآخرة وأعدّ لهم عذاباً مهيناً، وأن الذين يؤذون المؤمنين والمؤمنات بغير ما اكتسبوا فقد احتملوا بهتاناً وإثماً مبيناً، ويذكر قولاً في أن المراد بعضهم أصحاب التصاوير. وهذا التفسير مشترك بين الآيتين 57 و58. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=33&tAyahNo=58&tDisplay=yes&UserProfile=0&LanguageId=1
