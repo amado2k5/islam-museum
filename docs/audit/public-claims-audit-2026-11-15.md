@@ -29,24 +29,24 @@ once, not on the audit date), **UNVERIFIED** (the auditor could not find the evi
 
 ## 1. The measured state
 
-Measured at `ec410cdc7a 2026-11-24` by `python3 scripts/report/claims_audit.py`. Counts are pattern matches over `data/`.
+Measured at `bbad2968bc 2026-11-24` by `python3 scripts/report/claims_audit.py`. Counts are pattern matches over `data/`.
 
 | Measure | Count | Share |
 |---|---|---|
-| Record files under `data/` (content + source) | 88,810 | |
-| Source (bibliography) records | 11,993 | 13.5% of all |
-| ... of type book, chapter, manuscript or thesis | 894 | 7.5% of sources |
-| ... Wikipedia or Wikidata pages | 7,703 | 64.2% of sources |
-| Content records (everything but sources) | 76,817 | |
+| Record files under `data/` (content + source) | 88,833 | |
+| Source (bibliography) records | 12,009 | 13.5% of all |
+| ... of type book, chapter, manuscript or thesis | 894 | 7.4% of sources |
+| ... Wikipedia or Wikidata pages | 7,704 | 64.2% of sources |
+| Content records (everything but sources) | 76,824 | |
 | Content records in review state `draft` | 58,324 | 75.9% |
-| Content records in review state `published` | 18,402 | 24.0% |
+| Content records in review state `published` | 18,409 | 24.0% |
 | Content records in any other review state, or none | 91 | 0.1% |
-| Content records whose `generated_by` is AI-named | 70,349 | 91.6% |
+| Content records whose `generated_by` is AI-named | 70,356 | 91.6% |
 | Content records whose `generated_by` is script-made | 6,377 | 8.3% |
 | Content records whose `generated_by` is no tag | 91 | 0.1% |
-| `published` content records whose `generated_by` is AI-named | 18,402 | 100.0% of published |
-| Grounding: cites at least one book source | 49,860 | 64.9% |
-| Grounding: other sources only (text editions online, datasets, websites, catalogues) | 11,393 | 14.8% |
+| `published` content records whose `generated_by` is AI-named | 18,409 | 100.0% of published |
+| Grounding: cites at least one book source | 49,861 | 64.9% |
+| Grounding: other sources only (text editions online, datasets, websites, catalogues) | 11,399 | 14.8% |
 | Grounding: preliminary card (sources not yet checked on the page) | 11,253 | 14.6% |
 | Grounding: Wikipedia or Wikidata only | 4,289 | 5.6% |
 | Grounding: no source record cited | 22 | 0.0% |
@@ -61,14 +61,14 @@ Measured at `ec410cdc7a 2026-11-24` by `python3 scripts/report/claims_audit.py`.
 | building | 5,794 |
 | event | 5,672 |
 | concept | 5,024 |
-| work | 4,149 |
+| work | 4,155 |
 | place | 3,964 |
 | media | 895 |
 | course | 645 |
 | object | 556 |
 | group | 547 |
 | question | 329 |
-| exhibit | 318 |
+| exhibit | 319 |
 | screen | 315 |
 | polity | 233 |
 | job | 209 |
@@ -259,3 +259,5 @@ Append a dated line for every re-run, correction or closed row. Never rewrite an
 - 2026-11-18: section 1 measure and by-class tables re-measured with `python3 scripts/report/claims_audit.py` after the Ulama Browser 210-book batches (categories 1–11): drafts 79.9% of content records (the "four in five" line in section 4 still holds), published 19.9%, Wikipedia or Wikidata pages 68.2% of sources. The prose figures in section 1 (15 November) are not re-measured here. (Devin, run ulama-books210-cat11a)
 - 2026-11-18: section 1 measure and by-class tables re-measured with `python3 scripts/report/claims_audit.py` after part 2 of category 11 of the 210-book list. (Devin, run ulama-books210-cat11b)
 - 2026-11-24: section 1 measure and by-class tables re-measured with `python3 scripts/report/claims_audit.py` after part 1 of category 12 of the 210-book list. (Devin, run ulama-books210-cat12a)
+- 2026-11-24: section 1 measure and by-class tables re-measured with `python3 scripts/report/claims_audit.py` after part 2 of category 12 of the 210-book list. (Devin, run ulama-books210-cat12b)
+- 2026-11-24: section 1 measure and by-class tables re-measured with `python3 scripts/report/claims_audit.py` after article batch 1 of the 210-book list. (Devin, run ulama-books210-art1a)

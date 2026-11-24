@@ -659,7 +659,14 @@
           }
         },
         "note": {
-          "type": "string"
+          "oneOf": [
+            {
+              "type": "string"
+            },
+            {
+              "$ref": "_base.schema.json#/$defs/localized"
+            }
+          ]
         }
       }
     }
