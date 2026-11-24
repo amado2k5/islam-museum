@@ -138,7 +138,7 @@ def main():
     ap.add_argument("--txt", default="", help="a plain-text answer instead of a Word file (Gemini): one paragraph per line")
     ap.add_argument("--log", required=True)
     ap.add_argument("--out", default=ROOT)
-    ap.add_argument("--engine", default="google", choices=["google", "word", "gemini", "azure"], help="who translated the file: Google Translate documents, Word for Mac, Gemini, or Azure AI Document Translation (async batch)")
+    ap.add_argument("--engine", default="google", choices=["google", "word", "gemini", "azure", "bing"], help="who translated the file: Google Translate documents, Word for Mac, Gemini, or Azure AI Document Translation (async batch)")
     ap.add_argument("--taken", default="", help="file of ids another lane is translating; never written")
     ap.add_argument("--date", default=time.strftime("%Y-%m-%d"), help="day the file was translated on translate.google.com")
     ap.add_argument("--leveled", action="store_true", help="allow reading-level (For Sprouts/Explorers/Scholars) records")
@@ -167,6 +167,11 @@ def main():
             m = re.match(r"^---\n(.*?)\n---\n?(.*)$", raw, re.S)
             todo = [l for l in rec["lines"] if "en" in l]
             got = chunks.get(n)
+            if a.engine == "bing" and got is not None:
+                segs = re.split(r"⟦(\d+)⟧\s*", "\n".join(got))
+                numbered = {int(segs[i]): segs[i + 1].strip() for i in range(1, len(segs) - 1, 2)}
+                got = [numbered.get(i) for i in range(1, len(todo) + 1)]
+                if any(g is None for g in got): raise ValueError("line markers lost")
             try:
                 if not m: raise ValueError("no frontmatter")
                 fm, body = yaml.safe_load(m.group(1)), m.group(2)
@@ -210,6 +215,7 @@ def main():
                 who = (f"Google Translate (document translation on translate.google.com, {a.date})", "google-translate", "Google Translate documents", "gt-docs") if a.engine == "google" else \
                       (f"Azure AI Document Translation (async batch API, resource translationregion1/eastus, {a.date})", "azure-ai-translator-nmt", "Azure AI Document Translation", "azdocs") if a.engine == "azure" else \
                       (f"Google Gemini (gemini.google.com, Task mode, model shown as Hydrogen, {a.date})", "gemini (Hydrogen)", "Google Gemini in the browser", "gemini") if a.engine == "gemini" else \
+                      (f"Microsoft Translator (bing.com/translator paste loop, {a.date})", "microsoft-translator", "Bing Translator", "bing-web") if a.engine == "bing" else \
                       (f"Microsoft Translator (Translate Document in Word for Mac, {a.date})", "microsoft-translator", "Word for Mac Translate Document", "word-docs")
                 new = {"id": ident, "lang": lang, "source_lang": a.src, "translators": [f"{who[0]}, draft translation"]}
                 for k, v in fm.items():
