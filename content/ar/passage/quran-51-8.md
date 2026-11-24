@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-10-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يفسّر الطبري جواب القسم إنكم لفي قول مختلف أي في قول متناقض في أمر النبي والقرآن والبعث، فبعضهم يقول ساحر وبعضهم شاعر. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=51&tAyahNo=8&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 8 إلى 10 مقطعاً واحداً. يفسّر قوله «وَٱلسَّمَآءِ ذَاتِ ٱلْحُبُكِ»: والسماء ذات الخَلْق الحسن. وعنى بقوله: «ذَاتِ الحُبُكِ»: ذات الطرائق، وتكسير كل شيء: حُبُكُه، وهو جمع حِباك وحَبيكة يقال لتكسير الشعرة الجعدة: حُبك وللرملة إذا مرّت بها الريح الساكنة، والماء القائم، والدرع من الحديد لها: حُبُك ومنه قول الراجز:كأنَّمَا جَلَّلَهَا الحَوَّاكُ طِنْفِسَةً فِي وَشْيِها حِباكُ أذْهَبها الخُفُوقُ والدّرَاكُ وينقل في المقطع أقوالاً عن ابن عباس وقتادة والحسن والربيع وسفيان وعطاء.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=51&tAyahNo=8&tDisplay=yes&UserProfile=0&LanguageId=1

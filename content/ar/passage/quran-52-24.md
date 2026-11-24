@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-11-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل الآيات [[passage/quran-52-24|52:24]] إلى [[passage/quran-52-25|52:25]]، وخلاصتها: يقول الطبري إن غلماناً يطوفون على أهل الجنة كأنهم لؤلؤ مكنون، أي مصون في كنّ فهو أنقى وأصفى لبياضه، يطوفون عليهم بكؤوس الشراب، ويروي عن قتادة خبراً في وصفهم. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=52&tAyahNo=24&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 24 إلى 25 مقطعاً واحداً. يفسّر قوله «وَيَطُوفُ عَلَيْهِمْ غِلْمَانٌ لَّهُمْ كَأَنَّهُمْ لُؤْلُؤٌ مَّكْنُونٌ»: ويطوف على هؤلاء القوم الذين وصف صفتهم في الجنة غلمان لهم، كأنهم لؤلؤ في بياضه وصفائه مكنون، يعني: مصون في كنّ، فهو أنقى له، وأصفى لبياضه. وإنما عنى بذلك أن هؤلاء الغلمان يطوفون على هؤلاء المؤمنين في الجنة بكؤوس الشراب التي وصف جلّ ثناؤه صفتها. وقد: وعن قتادة قوله: «وَيَطُوفُ عَلَيْهِمْ غِلْمان لَهُمْ كأنَّهُمْ لُؤلؤٌ مَكْنُونٌ» ذُكر لنا أن رجلاً قال: يا نبيّ الله هذا الخادم، فكيف المخدوم؟ قال: " والذي نفس محمد بيده، إن فضل المخدوم على الخادم كفضل القمر ليلة البدر على سائر الكواكب ". وينقل في المقطع أقوالاً عن ابن عباس وقتادة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=52&tAyahNo=24&tDisplay=yes&UserProfile=0&LanguageId=1

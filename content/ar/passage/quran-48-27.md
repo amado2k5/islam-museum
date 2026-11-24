@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-10-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن الله صدّق رسوله الرؤيا بالحق لتدخلنّ المسجد الحرام إن شاء الله آمنين محلّقين رؤوسكم ومقصّرين لا تخافون، فعلم ما لم تعلموا فجعل من دون ذلك فتحاً قريباً، ويورد روايات في أمر الرؤيا قبل الحديبية. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=48&tAyahNo=27&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «لَّقَدْ صَدَقَ ٱللَّهُ رَسُولَهُ ٱلرُّءْيَا بِٱلْحَقِّ لَتَدْخُلُنَّ ٱلْمَسْجِدَ ٱلْحَرَامَ إِن شَآءَ ٱللَّهُ آمِنِينَ مُحَلِّقِينَ رُءُوسَكُمْ وَمُقَصِّرِينَ لاَ تَخَافُونَ فَعَلِمَ مَا لَمْ تَعْلَمُواْ فَجَعَلَ مِن دُونِ ذَلِكَ فَتْحاً قَرِيباً»: لقد صدق الله رسوله محمداً رؤياه التي أراها إياه أنه يدخل هو وأصحابه بيت الله الحرام آمنين، لا يخافون أهل الشرك، مقصِّراً بعضهم رأسه، ومحلِّقاً بعضهم. وينقل في المقطع أقوالاً عن ابن عباس ومجاهد وقتادة وابن زيد وابن إسحاق.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=48&tAyahNo=27&tDisplay=yes&UserProfile=0&LanguageId=1

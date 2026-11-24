@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-10-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن الأعراب يمنّون على النبي أن أسلموا، قل لا تمنوا عليّ إسلامكم بل الله يمنّ عليكم أن هداكم للإيمان إن كنتم صادقين. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=49&tAyahNo=17&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «يَمُنُّونَ عَلَيْكَ أَنْ أَسْلَمُواْ قُل لاَّ تَمُنُّواْ عَلَيَّ إِسْلاَمَكُمْ بَلِ ٱللَّهُ يَمُنُّ عَلَيْكُمْ أَنْ هَداكُمْ لِلإِيمَانِ إِن كُنْتُمْ صَادِقِينَ»: يمنّ عليك هؤلاء الأعراب يا محمد أن أسلموا «قُلْ لا تَمُنَّوا عَليَّ إسْلاَمَكُمْ بَلِ اللَّهُ يَمُنُّ عَلَيْكُمْ أنْ هَدَاكُمْ للإيمَانِ» يقول: بل الله يمن عليكم أيها القوم أن وفقكم للإيمان به وبرسوله «إنْ كُنْتُمْ صَادِقِينَ» يقول: إن كنتم صادقين في قولكم آمنا، فإن الله هو الذي منّ عليكم بأن هداكم له، فلا تمنوا عليّ بإسلامكم. وذُكر أن هؤلاء الأعراب من بني أسد، امتنوا على رسول الله، فقالوا: آمنا من غير قتال، ولم نقاتلك كما قاتلك غيرنا، فأنزل الله فيهم هذه الآيات: وينقل في المقطع أقوالاً عن قتادة وابن زيد وسفيان.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=49&tAyahNo=17&tDisplay=yes&UserProfile=0&LanguageId=1

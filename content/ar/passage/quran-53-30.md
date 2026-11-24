@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-11-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن تسميتهم الملائكة تسمية الأنثى غاية علمهم، أي أن مبلغهم من العلم هو الكفر بالله والشرك به ظناً بغير يقين، ويروي عن ابن زيد في قوله «فأعرض عمن تولى عن ذكرنا»، ويذكر أن الله أعلم بمن ضلّ عن سبيله وأعلم بمن اهتدى. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=53&tAyahNo=30&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «ذَلِكَ مَبْلَغُهُمْ مِّنَ ٱلْعِلْمِ إِنَّ رَبَّكَ هُوَ أَعْلَمُ بِمَن ضَلَّ عَن سَبِيلِهِ وَهُوَ أَعْلَمُ بِمَنِ ٱهْتَدَىٰ»: هذا الذي يقوله هؤلاء الذين لا يؤمنون بالآخرة في الملائكة من تسميتهم إياها تسمية الأنثى «مَبْلَغُهُمْ مِنَ العِلْمِ» يقول: ليس لهم علم إلا هذا الكفر بالله، والشرك به على وجه الظنّ بغير يقين علم. وكان ابن زيد يقول في ذلك، ما: قال ابن زيد، في قوله:«فأَعْرِضْ عَمَّنْ تَوَلَّى عَنْ ذِكْرِنا ولَمْ يُرِدْ إلاَّ الحَياةَ الدُّنيْا ذَلَكَ مَبْلَغُهُمْ مِنَ العِلْمِ» قال: يقول ليس لهم علم إلا الذي هم فيه من الكفر برسول الله، ومكايدتهم لما جاء من عند الله، قال: وهؤلاء أهل الشرك. وينقل في المقطع أقوالاً عن ابن زيد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=53&tAyahNo=30&tDisplay=yes&UserProfile=0&LanguageId=1

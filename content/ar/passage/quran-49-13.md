@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-10-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن الله خلق الناس من ذكر وأنثى وجعلهم شعوباً وقبائل ليتعارفوا إن أكرمكم عند الله أتقاكم، ويورد أقوال أهل التأويل في معنى الشعوب والقبائل وفي التفاضل بالتقوى. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=49&tAyahNo=13&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «يٰأَيُّهَا ٱلنَّاسُ إِنَّا خَلَقْنَاكُم مِّن ذَكَرٍ وَأُنْثَىٰ وَجَعَلْنَاكُمْ شُعُوباً وَقَبَآئِلَ لِتَعَارَفُوۤاْ إِنَّ أَكْرَمَكُمْ عَندَ ٱللَّهِ أَتْقَاكُمْ إِنَّ ٱللَّهَ عَلِيمٌ خَبِيرٌ»: يا أيها الناس إنا أنشأنا خلقكم من ماء ذكر من الرجال، وماء أنثى من النساء وينقل في المقطع أقوالاً عن ابن عباس ومجاهد وقتادة وسعيد بن جبير.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=49&tAyahNo=13&tDisplay=yes&UserProfile=0&LanguageId=1

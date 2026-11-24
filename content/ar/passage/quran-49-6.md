@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-10-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يفسّر الطبري أن الله يأمر المؤمنين إذا جاءهم فاسق بنبأ أن يتبيّنوا أن تصيبوا قوماً بجهالة فتصبحوا على ما فعلتم نادمين، ويذكر قراءتي «فتبيّنوا» و«فتثبّتوا»، ويورد ما رُوي في نزولها في شأن الوليد بن عقبة. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=49&tAyahNo=6&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «يٰأَيُّهَا ٱلَّذِينَ آمَنُوۤاْ إِن جَآءَكُمْ فَاسِقٌ بِنَبَإٍ فَتَبَيَّنُوۤاْ أَن تُصِيبُواْ قَوْمًا بِجَهَالَةٍ فَتُصْبِحُواْ عَلَىٰ مَا فَعَلْتُمْ نَادِمِينَ»: يا أيها الذين صدّقوا الله ورسوله «إنْ جاءَكُمْ فاسِقٌ بِنَبَإٍ» عن قوم «فَتَبَيَّنُوا». واختلفت القرّاء في قراءة قوله: «فَتَبَيَّنُوا» فقرأ ذلك عامة قرّاء أهل المدينة «فَتَثَبَّتُوا» بالثاء، وذُكر أنها في مصحف عبد الله منقوطة بالثاء. وقرأ ذلك بعض القرّاء فتبيَّنوا بالباء، بمعنى: أمهلوا حتى تعرفوا صحته، لا تعجلوا بقبوله، وكذلك معنى «فَتَثَبَّتُوا». والصواب من القول في ذلك أنهما قراءتان معروفتان متقاربتا المعنى، فبأيتهما قرأ القارىء فمصيب. وذُكر أن هذه الآية نزلت في الوليد بن عقبة بن أبي مُعَيط. وينقل في المقطع أقوالاً عن ابن عباس.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=49&tAyahNo=6&tDisplay=yes&UserProfile=0&LanguageId=1

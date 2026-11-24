@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-10-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يفسّر الطبري أن الذين يغضّون أصواتهم عند رسول الله أولئك الذين امتحن الله قلوبهم للتقوى لهم مغفرة وأجر عظيم، ويشرح الغضّ بالكفّ في لين ويستشهد ببيت لجرير. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=49&tAyahNo=3&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «إِنَّ ٱلَّذِينَ يَغُضُّونَ أَصْوَاتَهُمْ عِندَ رَسُولِ ٱللَّهِ أُوْلَٰئِكَ ٱلَّذِينَ ٱمْتَحَنَ ٱللَّهُ قُلُوبَهُمْ لِلتَّقْوَىٰ لَهُم مَّغْفِرَةٌ وَأَجْرٌ عَظِيمٌ»: إن الذين يكفون رفع أصواتهم عند رسول الله، وأصل الغضّ: الكفّ في لين. ومنه: غضّ البصر، وهو كفه عن النظر، كما قال جرير:فَغُضَّ الطَّرْفَ إنَّكَ مِنْ نُمَيْرٍ فَلا كَعْبا بَلَغْتَ وَلا كِلابا وقوله: «أُولَئِكَ الَّذِينَ امْتَحَنَ اللَّهُ قُلُوبَهُمْ للتَّقْوى» يقول تعالى ذكره: هؤلاء الذين يغضون أصواتهم عند رسول الله، هم الذين اختبر الله قلوبهم بامتحانه إياها، فاصطفاها وأخلصها للتقوى، يعني لاتقائه بأداء طاعته، واجتناب معاصيه، كما يمتحن الذهب بالنار، فيخلص جيدها، ويبطل خبثها. وينقل في المقطع أقوالاً عن مجاهد وقتادة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=49&tAyahNo=3&tDisplay=yes&UserProfile=0&LanguageId=1

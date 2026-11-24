@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-10-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن كل نفس جاءت معها سائق وشهيد، ويورد أقوال أهل التأويل في السائق والشهيد: فقيل ملكان أحدهما يسوقها والآخر يشهد عليها. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=50&tAyahNo=21&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 21 إلى 22 مقطعاً واحداً. يفسّر قوله «وَجَآءَتْ كُلُّ نَفْسٍ مَّعَهَا سَآئِقٌ وَشَهِيدٌ»: وجاءت يوم ينفخ في الصور كلّ نفس ربها، معها سائق يسوقها إلى الله، وشهيد يشهد عليها بما عملت في الدنيا من خير أو شرّ. وينقل في المقطع أقوالاً عن ابن عباس ومجاهد وقتادة والحسن والربيع.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=50&tAyahNo=21&tDisplay=yes&UserProfile=0&LanguageId=1

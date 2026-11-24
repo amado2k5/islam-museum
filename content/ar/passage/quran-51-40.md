@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-11-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن الله أخذ فرعون وجنوده بغضبه فألقاهم في البحر فأغرقهم، وفرعون «مليم»، أي أتى ما يُلام عليه من الفعل، ويروي عن قتادة أنه مليم في نعمة الله وفي عباد الله، ويذكر قراءة عبد الله. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=51&tAyahNo=40&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «فَأَخَذْنَاهُ وَجُنُودَهُ فَنَبَذْنَاهُمْ فِي ٱلْيَمِّ وَهُوَ مُلِيمٌ»: فأخذنا فرعون وجنوده بالغضب منا والأسف «فَنَبَذْناهُمْ فِي الْيَمّ» يقول فألقيناهم في البحر، فغرّقناهم فيه «وَهُوَ مُلِيمٌ» يقول: وفرعون مليم، والمليم: هو الذي قد أتى ما يُلام عليه من الفعل. وكان قتادة يقول في ذلك ما: وعن قتادة، قوله: «وَهُوَ مُلِيمٌ»: أي مليم في نعمة الله. عن معمر، عن قتادة، في قوله: «وَهُوَ مُلِيمٌ» قال: مُليم في عباد الله. وذُكر أن ذلك في قراءة عبد الله «فأَخَذْناهُ وَجُنُودَهُ فَنَبَذْناهُ». وينقل في المقطع أقوالاً عن قتادة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=51&tAyahNo=40&tDisplay=yes&UserProfile=0&LanguageId=1

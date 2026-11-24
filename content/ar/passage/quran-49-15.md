@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-10-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن المؤمنين هم الذين آمنوا بالله ورسوله ثم لم يرتابوا وجاهدوا بأموالهم وأنفسهم في سبيل الله أولئك هم الصادقون. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=49&tAyahNo=15&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «إِنَّمَا ٱلْمُؤْمِنُونَ ٱلَّذِينَ آمَنُواْ بِٱللَّهِ وَرَسُولِهِ ثُمَّ لَمْ يَرْتَابُواْ وَجَاهَدُواْ بِأَمْوَالِهِمْ وَأَنفُسِهِمْ فِي سَبِيلِ ٱللَّهِ أُوْلَٰئِكَ هُمُ ٱلصَّادِقُونَ»: يقول تعالى ذكره للأعراب الذين قالوا آمنا ولما يدخل الإيمان في قلوبهم: إنما المؤمنون أيها القوم الذين صدّقوا الله ورسوله، ثم لم يرتابوا، يقول: ثم لم يشكوا في وحدانية الله، ولا في نبوّة نبيه، وألزم نفسه طاعة الله وطاعة رسوله، والعمل بما وجب عليه من فرائض الله بغير شكّ منه في وجوب ذلك عليه «وَجاهَدُوا بأمْوَالِهِمْ وأنْفُسِهِمْ فِي سَبِيلِ اللَّهِ» يقول: جاهدوا المشركين بإنفاق أموالهم، وبذل مُهَجِهم في جهادهم، على ما أمرهم الله به من جهادهم، وذلك سبيله لتكون كلمة الله العليا، وكلمة الذين كفروا السفَلى. وينقل في المقطع أقوالاً عن ابن زيد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=49&tAyahNo=15&tDisplay=yes&UserProfile=0&LanguageId=1
