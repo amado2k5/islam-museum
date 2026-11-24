@@ -3,10 +3,10 @@
 // in its hosting and content-delivery configuration against the Open Access Policy, what it
 // found, and what it corrected. The robots.txt correction (PR #8189) is recorded as pending
 // merge and deploy, not live. Plain prose from i18n, no scripts.
-import BaseLayout from "../../../layouts/BaseLayout.astro";
-import PageHeader from "../../../components/PageHeader.astro";
-import { ui, LANGS, type Lang } from "../../../lib/i18n";
-import { REPO } from "../../../lib/graph";
+import BaseLayout from "../../../../layouts/BaseLayout.astro";
+import PageHeader from "../../../../components/PageHeader.astro";
+import { ui, LANGS, type Lang } from "../../../../lib/i18n";
+import { REPO } from "../../../../lib/graph";
 
 export function getStaticPaths() { return LANGS.map((lang) => ({ params: { lang }, props: { lang } })); }
 const { lang } = Astro.props as { lang: Lang };
