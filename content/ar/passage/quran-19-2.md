@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-6-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن زكريا نادى ربه نداءً خفياً قائلاً وهن العظم مني، أي ضعف ورقّ من الكبر، واشتعل الرأس شيباً، ولم يكن بدعائه شقياً. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=19&tAyahNo=2&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 2 إلى 4 مقطعاً واحداً. يفسّر قوله «ذِكْرُ رَحْمَتِ رَبِّكَ عَبْدَهُ زَكَرِيَّآ»: اختلف أهل العربية في الرافع للذكر، والناصب للعبد، فقال بعض نحويي البصرة في معنى ذلك كأنه قال: مما نقصّ عليك ذكر رحمة ربك عبده، وانتصب العبد بالرحمة كما تقول: ذكر ضرب زيد عمراً. وقال بعض نحويي الكوفة: رفعت الذكر بكهيعص، وإن شئت أضمرت هذا ذكر رحمة ربك، قال: والمعنى ذكر ربك عبده برحمته تقديم وتأخير. قال أبو جعفر: والقول الذي هو الصواب عندي في ذلك أن يقال: الذكر مرفوع بمضمر محذوف، وهو هذا كما فعل ذلك في غيرها من السور، وذلك كقول الله:«بَرَاءَةٌ مِنَ اللَّهِ وَرَسُولِهِ» وكقوله:«سُورَةٌ أنْزَلْناها» ونحو ذلك. والعبد منصوب بالرحمة، وزكريا في موضع نصب، لأنه بيان عن العبد، فتأويل الكلام: هذا ذكر رحمة ربك عبده زكريا. وقوله: وينقل في المقطع أقوالاً عن مجاهد وقتادة وابن جريج.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=19&tAyahNo=2&tDisplay=yes&UserProfile=0&LanguageId=1

@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-6-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يذكر الطبري أن الله أهلك قبلهم كثيراً من القرون، فهل تحسّ منهم أحداً أو تسمع لهم ركزاً، أي صوتاً، فقد بادوا وخلت منهم ديارهم. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=19&tAyahNo=98&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَكَمْ أَهْلَكْنَا قَبْلَهُمْ مِّن قَرْنٍ هَلْ تُحِسُّ مِنْهُمْ مِّنْ أَحَدٍ أَوْ تَسْمَعُ لَهُمْ رِكْزاً»: وكثيراً أهلكنا يا محمد قبل قومك من مشركي قريش، من قرن، يعني من جماعة من الناس، إذا سلكوا في خلافي وركوب معاصيّ مسلكهم، هل تحس منهم من أحد: يقول: فهل تحسّ أنت منهم أحداً يا محمد، فتراه وتعاينه «أوْ تَسْمَعُ لَهُمْ رِكْزاً» يقول: أو تسمع لهم صوتاً، بل بادوا وهلكوا، وخَلَت منهم دورهم، وأوحشت منهم منازلهم، وصاروا إلى دار لا ينفعهم فيها إلا صالح من عمل قدّموه، فكذلك قومك هؤلاء، صائرون إلى ما صار إليه أولئك، إن لم يُعاجلوا التوبة قبل الهلاك. وينقل في المقطع أقوالاً عن ابن عباس وقتادة وابن زيد وسفيان وعطاء.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=19&tAyahNo=98&tDisplay=yes&UserProfile=0&LanguageId=1

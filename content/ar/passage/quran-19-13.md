@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-6-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يوضح الطبري أن الله آتاه حناناً من لدنه وزكاة، أي رحمة وتطهيراً، وكان تقياً، ضمن شرحه لصفات يحيى. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=19&tAyahNo=13&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 13 إلى 14 مقطعاً واحداً. يفسّر قوله «يٰيَحْيَىٰ خُذِ ٱلْكِتَابَ بِقُوَّةٍ وَآتَيْنَاهُ ٱلْحُكْمَ صَبِيّاً»: فولد لزكريا يحيى، فلما ولد، قال الله له: يا يحيى، خذ هذا الكتاب بقوّة، يعني كتاب الله الذي أنزله على موسى، وهو التوراة. بقوّة، يقول: بجدّ. كما: أخبرنا معمر، عن قتادة، في قوله: «خُذِ الكِتابَ بِقُوَّةٍ» قال: بجدّ. وعن ابن أبي نجيح، عن مجاهد «خُذِ الكِتابَ بِقُوَّةٍ» قال: بجدّ. وقال: ثني حجاج، عن ابن جريج، عن مجاهد، مثله. وقال ابن زيد في ذلك ما: قال ابن زيد، في قوله: «يا يَحْيَى خُذِ الكِتابَ بِقُوَّةٍ» قال: القوّة: أن يعمل ما أمره الله به، ويجانب فيه ما نهاه الله. قال أبو جعفر: وقد بيَّنت معنى ذلك بشواهده فيما مضى من كتابنا هذا، في سورة آل عمران، فأغنى ذلك عن إعادته في هذا الموضع. وينقل في المقطع أقوالاً عن ابن عباس ومجاهد وقتادة والضحاك وعكرمة وابن زيد وغيرهم.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=19&tAyahNo=13&tDisplay=yes&UserProfile=0&LanguageId=1

@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-6-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يذكر الطبري أن الله يأمر نبيه أن ينذر الناس يوم الحسرة إذ قُضي الأمر، حين يُدخل أهل الجنة الجنة وأهل النار النار وهم في غفلة لا يؤمنون. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=19&tAyahNo=39&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَأَنْذِرْهُمْ يَوْمَ ٱلْحَسْرَةِ إِذْ قُضِيَ ٱلأَمْرُ وَهُمْ فِي غَفْلَةٍ وَهُمْ لاَ يُؤْمِنُونَ»: وأنذر يا محمد هؤلاء المشركين بالله يوم حسرتهم وندمهم، على ما فرّطوا في جنب الله، وأورثت مساكنهم من الجنة أهل الإيمان بالله والطاعة له، وأدخلوهم مساكن أهل الإيمان بالله من النار، وأيقن الفريقان بالخلود الدائم، والحياة التي لا موت بعدها، فيا لها حسرةً وندامة. وينقل في المقطع أقوالاً عن ابن عباس وابن جريج والأعمش.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=19&tAyahNo=39&tDisplay=yes&UserProfile=0&LanguageId=1

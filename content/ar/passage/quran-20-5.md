@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-6-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن القرآن تنزيل ممن خلق الأرض والسماوات العلى، ويعرض أوجه إعراب «تنزيلاً»، ثم يفسّر «الرحمن على العرش استوى» بأنه ارتفع وعلا، محيلاً على ما فصّله قبل في معنى الاستواء. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=20&tAyahNo=5&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 5 إلى 6 مقطعاً واحداً. يفسّر قوله «تَنزِيلاً مِّمَّنْ خَلَقَ ٱلأَرْضَ وَٱلسَّمَٰوَٰتِ ٱلْعُلَى»: هذا القرآن تنزيل من الربّ الذي خلق الأرض والسموات العلى. والعُلَى: جمع عليا. واختلف أهل العربية في وجه نصب قوله: «تَنْزِيلاً» فقال بعض نحويي البصرة: نصب ذلك بمعنى: نزّل الله ذلك تنزيلاً. وقال بعض من أنكر ذلك من قيله هذا من كلامين، ولكن المعنى: هو تنزيل، ثم أسقط هو، واتصل بالكلام الذي قبله، فخرج منه، ولم يكن من لفظه. قال أبو جعفر: والقولان جميعاً عندي غير خطأ. وقوله:
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=20&tAyahNo=5&tDisplay=yes&UserProfile=0&LanguageId=1

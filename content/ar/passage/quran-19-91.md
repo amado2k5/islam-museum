@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-6-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يفسّر الطبري أن الجبال تكاد تخرّ انقضاضاً لأنهم دعوا للرحمن ولداً، وما ينبغي للرحمن أن يتخذ ولداً، وأن كل من في السماوات والأرض يأتي الرحمن عبداً. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=19&tAyahNo=91&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 91 إلى 93 مقطعاً واحداً. يفسّر قوله «أَن دَعَوْا لِلرَّحْمَٰنِ وَلَداً»: وتكاد الجبال أن تخرّ انقضاضاً، لأنْ دَعَوا للرحمن ولداً. ف «أن» في موضع نصب في قول بعض أهل العربية، لاتصالها بالفعل، وفي قول غيره في موضع خفض بضمير الخافض وقد بيَّنا الصواب من القول في ذلك في غير موضع من كتابنا هذا بما أغنى عن إعادته في هذا الموضع. وقال: «أنْ دَعَوْا للرَّحْمَنِ وَلَداً» يعني بقوله: «أنْ دَعَوْا»: أن جعلوا له ولدا، كما قال الشاعر:ألا رُبَّ مَنْ تَدْعُو نَصِيحاً وَإنْ تَغِبْ تَجِدْهُ بغَيْبٍ غيرَ مُنْتَصِحِ الصَّدْرِ وقال ابن أحمر:أهْوَى لَهَا مِشْقَصاً حَشْراً فَشَبْرَقَها وكنتُ أدْعُو قَذَاها الإئمِدَ القَرِدَا وقوله:
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=19&tAyahNo=91&tDisplay=yes&UserProfile=0&LanguageId=1

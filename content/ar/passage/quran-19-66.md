@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-6-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن الإنسان الكافر ينكر البعث ويقول أئذا ما مت لسوف أخرج حياً، فيردّ الله عليه بأنه خلقه من قبل ولم يك شيئاً، فمن قدر على الابتداء قدر على الإعادة. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=19&tAyahNo=66&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 66 إلى 67 مقطعاً واحداً. يفسّر قوله «وَيَقُولُ ٱلإِنسَانُ أَءِذَا مَا مِتُّ لَسَوْفَ أُخْرَجُ حَيّاً»: «ويقولُ الإنسانُ» الكافر الذي لا يصدق بالبعث بعد الموت: أخرج حيا، فأُبعث بعد الممات وبعد البلاء والفناء إنكاراً منه ذلك. يقول الله تعالى ذكره: «أَوَ لاَ يذكرُ الإنسانُ» المتعجب من ذلك المنكر قدرة الله على إحيائه بعد فنائه، وإيجاده بعد عدمه في خلق نفسه، أن الله خلقه من قبل مماته، فأنشأه بشرا سويا من غير شيء «ولمْ يكُ» من قبل إنشائه إياه «شَيئاً» فيعتبر بذلك ويعلم أن من أنشأه من غير شيء لا يعجز عن إحيائه بعد مماته، وإيجاده بعد فنائه.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=19&tAyahNo=66&tDisplay=yes&UserProfile=0&LanguageId=1

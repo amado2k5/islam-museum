@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-6-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يوضح الطبري أن هذا الخبر عن عيسى ابن مريم قول الحق، أي كلام الله وخبره الذي لا شك فيه ولا زيادة ولا نقصان، والذي فيه يمتري اليهود والنصارى. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=19&tAyahNo=34&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «ذٰلِكَ عِيسَى ٱبْنُ مَرْيَمَ قَوْلَ ٱلْحَقِّ ٱلَّذِي فِيهِ يَمْتُرُونَ»: هذا الذي بيَّنت لكم صفته، وأخبرتكم خبره، من أمر الغلام الذي حملته مريم، هو عيسى ابن مريم، وهذه الصفة صفته، وهذا الخبر خبره، وهو «قَوْلَ الحَقّ» يعني أن هذا الخبر الذي قصصته عليكم قول الحقّ، والكلام الذي تلوته عليكم قول الله وخبره، لا خبر غيره، الذي يقع فيه الوهم والشكّ، والزيادة والنقصان، على ما كان يقول الله تعالى ذكره: فقولوا في عيسى أيها الناس، هذا القول الذي أخبركم الله به عنه، لا ما قالته اليهود، الذين زعموا أنه لغير رِشْدَة، وأنه كان ساحراً كذّاباً، ولا ما قالته النصارى، من أنه كان لله ولداً، وإن الله لم يتخذ ولداً، ولا ينبغي ذلك له. وينقل في المقطع أقوالاً عن مجاهد وابن جريج والأعمش وإبراهيم.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=19&tAyahNo=34&tDisplay=yes&UserProfile=0&LanguageId=1

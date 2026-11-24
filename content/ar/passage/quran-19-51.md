@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-6-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يوضح الطبري أن الله أمر نبيه أن يذكر موسى في الكتاب، إنه كان مخلَصاً أو مخلِصاً، ويعرض اختلاف القراء في ذلك، وكان رسولاً نبياً. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=19&tAyahNo=51&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَٱذْكُرْ فِي ٱلْكِتَابِ مُوسَىٰ إِنَّهُ كَانَ مُخْلِصاً وَكَانَ رَسُولاً نَّبِيّاً»: يقول تعالى ذكره لنبيه: واذكر يا محمد في كتابنا الذي أنزلناه إليك موسى بن عمران، واقصص على قومك أنه كان مخلصاً. واختلفت القراء في قراءة ذلك، فقرأته عامة قرّاء المدينة والبصرة وبعض الكوفيين: «إنَّهُ كانَ مُخْلِصاً» بكسر اللام من المُخْلِص، بمعنى: إنه كان يخلص لله العبادة، ويفرده بالألوهة، من غير أن يجعل له فيها شريكاً. وقرأ ذلك عامة قرّاء أهل الكوفة خلا عاصم: «إنَّهُ كانَ مُخْلَصاً» بفتح اللام من مُخْلَص، بمعنى: إن موسى كان الله قد أخلصه واصطفاه لرسالته، وجعله نبياً مرسلاً. قال أبو جعفر: والصواب من القول في ذلك عندي: أنه كان مُخْلِصاً عبادة الله، مُخْلَصاً للرسالة والنبوّة، فبأيتهما قرأ القارىء فمصيب الصواب.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=19&tAyahNo=51&tDisplay=yes&UserProfile=0&LanguageId=1

@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-6-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن الله استجاب لزكريا فبشّره بغلام اسمه يحيى لم يجعل له من قبل سمياً، وينقل عن قتادة أنه سُمّي يحيى لأن الله أحياه بالإيمان. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=19&tAyahNo=7&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «يٰزَكَرِيَّآ إِنَّا نُبَشِّرُكَ بِغُلاَمٍ ٱسْمُهُ يَحْيَىٰ لَمْ نَجْعَل لَّهُ مِن قَبْلُ سَمِيّاً»: فاستجاب له ربه، فقال له: يا زكريا إنا نبشرك بهبتنا لك غلاماً اسمه يحيى. كان قتادة يقول: إنما سماه الله يحيى لإحيائه إياه بالإيمان. وعن قتادة، قوله «يا زَكَرِيَّا إنَّا نُبَشِّرُكَ بغُلام اسمُهُ يَحْيَى» عبد أحياه الله للإيمان. وقوله: «لَمْ نَجْعَلْ لَهُ مِنْ قَبْلُ سَمِيًّا» اختلف أهل التأويل في تأويل ذلك، فقال بعضهم: معناه لم تلد مثله عاقر قط. وينقل في المقطع أقوالاً عن ابن عباس ومجاهد وقتادة وابن جريج.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=19&tAyahNo=7&tDisplay=yes&UserProfile=0&LanguageId=1

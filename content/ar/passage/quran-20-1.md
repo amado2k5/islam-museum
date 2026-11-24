@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-6-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يعرض الطبري اختلاف أهل التأويل في معنى «طه»: فقال بعضهم معناه يا رجل، وغير ذلك من الأقوال التي يوردها عن السلف. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=20&tAyahNo=1&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 1 إلى 3 مقطعاً واحداً. يفسّر قوله «طه»: قال أبو جعفر محمد بن جرير: اختلف أهل التأويل في تأويل قوله: «طَهَ» فقال بعضهم: معناه يا رجل. وينقل في المقطع أقوالاً عن ابن عباس ومجاهد وقتادة والضحاك والحسن وعكرمة وغيرهم.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=20&tAyahNo=1&tDisplay=yes&UserProfile=0&LanguageId=1

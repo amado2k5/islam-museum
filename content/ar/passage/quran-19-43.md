@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-6-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يوضح الطبري أن إبراهيم قال لأبيه إنه جاءه من العلم ما لم يأته فاتبعه ليهديه صراطاً سوياً، وهو دين الله الذي لا اعوجاج فيه. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=19&tAyahNo=43&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «يٰأَبَتِ إِنِّي قَدْ جَآءَنِي مِنَ ٱلْعِلْمِ مَا لَمْ يَأْتِكَ فَٱتَّبِعْنِيۤ أَهْدِكَ صِرَاطاً سَوِيّاً»: قال إبراهيم لأبيه: يا أبت إني قد آتاني الله من العلم ما لم يؤتك فاتبعني: يقول: فاقبل مني نصيحتي «أهْدِكَ صِرَاطاً سَوِيًّا» يقول: أبصرك هدى الطريق المستوى الذي لا تضلّ فيه إن لزمته، وهو دين الله الذي لا اعوجاج فيه. وينقل في المقطع أقوالاً عن إبراهيم.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=19&tAyahNo=43&tDisplay=yes&UserProfile=0&LanguageId=1

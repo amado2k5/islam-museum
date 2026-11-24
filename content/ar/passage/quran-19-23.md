@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-6-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يوضح الطبري أن مريم قالت يا ليتني مت قبل هذا وكنت نسياً منسياً، تمنّياً منها للموت من شدة ما لقيت. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=19&tAyahNo=23&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 23 إلى 24 مقطعاً واحداً. يفسّر قوله «فَحَمَلَتْهُ فَٱنْتَبَذَتْ بِهِ مَكَاناً قَصِيّاً»: وفي هذا الكلام متروك تُرِك ذكره استغناء بدلالة ما ذكر منه عنه«فَنَفَخْنا فِيهِ مِنْ رُوحِنا» بغلام «فحَمَلَتْهُ فانْتَبَذَتْ بِهِ مَكاناً قَصيًّا» وبذلك جاء تأويل أهل التأويل. وينقل في المقطع أقوالاً عن ابن عباس ومجاهد وابن جريج وابن إسحاق.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=19&tAyahNo=23&tDisplay=yes&UserProfile=0&LanguageId=1

@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-6-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يوضح الطبري أن قومها لما أنكروا عليها أشارت إليهم أن كلّموا عيسى، فقالوا كيف نكلم من كان في المهد صبياً. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=19&tAyahNo=29&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «فَأَشَارَتْ إِلَيْهِ قَالُواْ كَيْفَ نُكَلِّمُ مَن كَانَ فِي ٱلْمَهْدِ صَبِيّاً»: فلما قال قومها ذلك لها قالت لهم ما أمرها عيسى بقيله لهم، ثم أشارت لهم إلى عيسى أن كلِّموه، كما: وعن السديّ، قال: لما قالوا لها:«ما كانَ أبُوكِ امْرأَ سَوْءٍ وَما كانَتْ أُمُّكِ بَغِيًّا» قالت لهم ما أمرها الله به، فلما أرادوها بعد ذلك على الكلام أشارت إليه، إلى عيسى. وعن قتادة، قوله: «فأشارَتْ إلَيهِ» قال: أمرتهم بكلامه. عن ابن إسحاق، عمن لا يتهم، عن وهب بن منبه «فأشارَتْ إلَيهِ» يقول: أشارت إليه أن كلِّموه. وقال: ثني حجاج، عن ابن جريج، قوله «فأشارَتْ إلَيهِ» أن كَلِّموه. وينقل في المقطع أقوالاً عن قتادة وابن جريج وابن إسحاق.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=19&tAyahNo=29&tDisplay=yes&UserProfile=0&LanguageId=1

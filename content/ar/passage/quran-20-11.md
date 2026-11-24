@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-6-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن موسى لما أتى النار ناداه ربه: يا موسى إني أنا ربك، ويورد الروايات في ذلك. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=20&tAyahNo=11&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 11 إلى 12 مقطعاً واحداً. يفسّر قوله «فَلَمَّآ أَتَاهَا نُودِيَ يٰمُوسَىٰ»: فلما أتى النار موسى، ناداه ربه: «يا مِوسَى إنّي رَبُّك فاخْلَعْ نَعْلَيْكَ» كما: عن ابن إسحاق، عن وهب بن منبه، قال: خرج موسى نحوها، يعني نحو النار، فإذا هي في شجر من العليق، وبعض أهل الكتاب يقول في عوسجة فلما دنا استأخرت عنه فلما رأى استئخارها رجع عنها، وأوجس في نفسه منها خيفة فلما أراد الرجعة، دنت منه ثم كلم من الشجرة، فلما سمع الصوت استأنس، وقال الله تبارك وتعالى: «يا مُوسَى اخْلَعْ نَعْلَيْكَ إنَّكَ بالوَادِى المُقَدَّسِ طُوًى» فخلعها فألقاها. واختلف أهل العلم في السبب الذي من أجله أمر الله موسى بخلع نعليه، فقال بعضهم: أمره بذلك، لأنهما كانتا من جلد حمار ميت، فكره أن يطأ بهما الوادي المقدّس، وأراد أن يمسه من بركة الوادي. وينقل في المقطع أقوالاً عن الحسن وعكرمة وابن جريج وابن إسحاق.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=20&tAyahNo=11&tDisplay=yes&UserProfile=0&LanguageId=1

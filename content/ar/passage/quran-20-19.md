@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-6-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يذكر الطبري أن الله أمر موسى أن يلقي عصاه فألقاها فصارت حية تسعى بأمر الله بعد أن كانت خشبة يابسة. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=20&tAyahNo=19&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 19 إلى 21 مقطعاً واحداً. يفسّر قوله «قَالَ أَلْقِهَا يٰمُوسَىٰ»: قال الله لموسى: ألق عصاك التي بيمينك يا موسى، يقول الله جل جلاله: فألقاها موسى، فجعلها الله حية تسعى، وكانت قبل ذلك خشبة يابسة، وعصا يتوكأ عليها موسى ويهشّ بها على غنمه، فصارت حية بأمر الله، كما: وعن عكرِمة، عن ابن عباس قال: لما قيل لموسى: ألقها يا موسى، ألقاها «فإذَا هِيَ حَيَّةٌ تَسْعَى» ولم تكن قبل ذلك حية قال: فمرّت بشجرة فأكلتها، ومرّت بصخرة فابتلعتها قال: فجعل موسى يسمع وقع الصخرة في جوفها قال: فولى مدبراً، فنودي أن يا موسى خذها، فلم يأخذها ثم نودي الثانية: أن «خُذْهَا وَلا تخفْ»، فلم يأخذها فقيل له في الثالثة: إنَّكَ مِنَ الآمِنِين فأخذها. وعن السديّ، قال: قال له، يعني لموسى ربه: «ألْقِها يا مُوسَى» يعني وينقل في المقطع أقوالاً عن ابن عباس ومجاهد وقتادة وابن إسحاق.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=20&tAyahNo=19&tDisplay=yes&UserProfile=0&LanguageId=1

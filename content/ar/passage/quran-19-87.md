@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-6-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يوضح الطبري أن الكفار لا يملكون الشفاعة إلا من اتخذ عند الرحمن عهداً، أي آمن به وصدّق رسوله وعمل بما أُمر به. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=19&tAyahNo=87&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «لاَّ يَمْلِكُونَ ٱلشَّفَاعَةَ إِلاَّ مَنِ ٱتَّخَذَ عِندَ ٱلرَّحْمَٰنِ عَهْداً»: لا يملك هؤلاء الكافرون بربهم يا محمد، يوم يحشر الله لمتقين إليه وفدا الشفاعة، حين يشفع أهل الإيمان بعضهم لبعض عند الله، فيشفع بعضهم لبعض «إلاَّ مَنِ اتَّخَذَ» منهم «عِنْدَ الرَّحْمَنِ» في الدنيا «عَهْداً» بالإيمان به، وتصديق رسوله، والإقرار بما جاء به، والعمل بما أمر به. كما: قال: ثني معاوية، عن عليّ، عن ابن عباس، قوله: «إلاَّ مَنِ اتَّخَذَ عِنْدَ الرَّحْمَنِ عَهْداً» قال: العهد: شهادة أن لا إله إلا الله، ويتبرأ إلى الله من الحول والقوّة ولا يرجو إلا الله. وينقل في المقطع أقوالاً عن ابن عباس وقتادة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=19&tAyahNo=87&tDisplay=yes&UserProfile=0&LanguageId=1

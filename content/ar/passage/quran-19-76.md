@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-6-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن الله يزيد الذين اهتدوا هدى بما يجدّده لهم من الإيمان بالفرائض، والباقيات الصالحات خير عند ربك ثواباً وخير مرداً. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=19&tAyahNo=76&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَيَزِيدُ ٱللَّهُ ٱلَّذِينَ ٱهْتَدَواْ هُدًى وَٱلْبَاقِيَاتُ ٱلصَّالِحَاتُ خَيْرٌ عِندَ رَبِّكَ ثَوَاباً وَخَيْرٌ مَّرَدّاً»: ويزيد الله من سلك قصد المحجة، واهتدى لسبيل الرشد، فآمن بربه، وصدّق بآياته، فعمل بما أمره به، وانتهى عما نهاه عنه هدى بما يتجدّد له من الإيمان بالفرائض التي يفرضها عليه. ويقرّ بلزوم فرضها إياه، ويعمل بها، فذلك زيادة من الله في اهتدائه بآياته هدى على هداه، وذلك نظير قوله:«وإذَا أُنْزِلَتْ سُورَةٌ فَمِنْهُمْ مَنْ يَقُولُ أيُّكُمْ زَادَتْهُ هَذِهِ إيماناً فأمَّا الَّذِينَ آمَنُوا فَزَادَتْهُمْ إيمَاناً وَهُمْ يَسْتَبْشِرُونَ» وقد كان بعضهم يتأوّل ذلك: ويزيد الله الذين اهتدوا هُدىً بناسخ القرآن ومنسوخه، فيؤمن بالناسخ، كما آمن من قبل بالمنسوخ، فذلك زيادة هدىً من الله له على هُداه من قبل «وَالباقِياتُ الصّالحات خَيْرٌ عِنْدَ رَبِّكَ ثَوَاباً» يقول ت
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=19&tAyahNo=76&tDisplay=yes&UserProfile=0&LanguageId=1

@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-6-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يفسّر الطبري إرسال الشياطين على الكافرين تؤزّهم أزاً، أي تحركهم بالإغواء وتزعجهم إلى المعاصي، فلا يعجل النبي عليهم إنما يعدّ لهم عداً. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=19&tAyahNo=84&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 83 إلى 84 مقطعاً واحداً. يفسّر قوله «فَلاَ تَعْجَلْ عَلَيْهِمْ إِنَّمَا نَعُدُّ لَهُمْ عَدّاً»: يقول عزّ ذكره: فلا تعجل على هؤلاء الكافرين بطلب العذاب لهم والهلاك، يا محمد «إنما نعدّ لهم عدّاً» يقول: فإنما نؤخر إهلاكهم ليزدادوا إثماً، ونحن نعدّ أعمالهم كلها ونحصيها حتى أنفاسهم لنجازيهم على جميعها، ولم نترك تعجيل هلاكهم لخير أردناه بهم. وينقل في المقطع أقوالاً عن ابن عباس وقتادة والضحاك وابن زيد وابن جريج.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=19&tAyahNo=84&tDisplay=yes&UserProfile=0&LanguageId=1

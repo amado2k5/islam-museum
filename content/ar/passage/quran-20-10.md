@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-6-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن موسى رأى ناراً فقال لأهله امكثوا إني آنست ناراً لعلي آتيكم منها بقبس أو أجد على النار هدى، أي من يدلّه على الطريق. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=20&tAyahNo=10&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 10 إلى 11 مقطعاً واحداً. يفسّر قوله «وَهَلْ أَتَاكَ حَدِيثُ مُوسَىٰ»: يقول تعالى ذكره لنبيه محمد مسليه عما يلقى من الشدّة من مشركي قومه، ومعرفه ما إليه صائر أمره وأمرهم، وأنه معليه عليهم، وموهن كيد الكافرين، ويحثه على الجدّ في أمره، والصبر على عبادته، وأن يتذكر فيما ينوبه فيه من أعدائه من مُشركي قومه وغيرهم، وفيما يزاول من الاجتهاد في طاعته ما ناب أخاه موسى صلوات الله عليه من عدوّه، ثم من قومه، ومن بني إسرائيل وما لقي فيه من البلاء والشدّة طفلاً صغيراً، ثم يافعاً مترعرعاً، ثم رجلاً كاملاً: «وَهَل أتاكَ» يا محمد «حَدِيثُ مُوسَى» ابن عمران «إذْ رأى ناراً»؟ ذكر أن ذلك كان في الشتاء ليلاً، وأن موسى كان أضلّ الطريق فلما رأى ضوء النار «قالَ لأَهْلِهِ» ما قال. وينقل في المقطع أقوالاً عن ابن عباس وابن إسحاق.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=20&tAyahNo=10&tDisplay=yes&UserProfile=0&LanguageId=1

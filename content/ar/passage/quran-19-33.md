@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-6-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يفسّر الطبري قول عيسى إنه بارّ بوالدته ولم يجعله الله جباراً شقياً، وأن السلام عليه يوم ولد ويوم يموت ويوم يبعث حياً، ثم قوله تعالى: ذلك عيسى ابن مريم قول الحق الذي فيه يمترون. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=19&tAyahNo=33&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 32 إلى 33 مقطعاً واحداً. يفسّر قوله «وَٱلسَّلاَمُ عَلَيَّ يَوْمَ وُلِدْتُّ وَيَوْمَ أَمُوتُ وَيَوْمَ أُبْعَثُ حَيّاً»: والأمنة من الله عليّ من الشيطان وجنده يوم ولدت أن ينالوا مني ما ينالون ممن يولد عند الولادة، من الطعن فيه، ويوم أموت، من هول المطلع، ويوم أبعث حيا يوم القيامة أن ينالني الفزع الذي ينال الناس بمعاينتهم أهوال ذلك اليوم، كما: عن ابن إسحاق، عمن لايتهم، عن وهب بن منبه «وَالسَّلامُ عَليَّ يَوْمَ وُلِدْتُ وَيَوَمْ أمُوتُ وَيَوْمَ أُبْعَثُ حَيًّا» قال: يخبرهم في قصة خبره عن نفسه، أنه لا أب له وأنه سيموت ثم يُبعث حياً، يقول الله تبارك وتعالى:«ذلكَ عِيسَى ابْنُ مَرْيَمَ قَوْلَ الحَقّ الَّذِي فِيهِ يَمْتَرُونَ» وينقل في المقطع أقوالاً عن قتادة وابن إسحاق.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=19&tAyahNo=33&tDisplay=yes&UserProfile=0&LanguageId=1

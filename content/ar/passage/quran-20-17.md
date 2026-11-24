@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-6-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن الله سأل موسى ما تلك بيمينك يا موسى، ويفسّر صلة اسم الإشارة في كلام العرب، ويجيب عن سؤال: لماذا يسأل الله وهو أعلم؟ {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=20&tAyahNo=17&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَمَا تِلْكَ بِيَمِينِكَ يٰمُوسَىٰ»: وما هذه التي في يمينك يا موسى؟ فالباء في قوله «بِيَمِينِكَ» من صلة تلك، والعرب تصل تلك وهذه كما تصل الذي ومنه قول يزيد بن مفرغ:عَدسْ ما لِعَبَّادٍ عَلَيْكِ إمارَةٌ أمِنْتِ وَهَذَا تَحْمَلِينَ طَلِيقُ كأنه قال: والذي تحملين طليق. ولعلّ قائلاً أن يقول: وما وجه استخبار الله موسى عما في يده؟ ألم يكن عالماً بأن الذي في يده عصا؟ قيل له: إن ذلك على غير الذي ذهبتَ إليه، وإنما قال ذلك عزّ ذكره له إذا أراد أن يحوّلها حية تسعى، وهي خشبة، فنبهه عليها، وقرّره بأنها خشبة يتوكأ عليها، ويهشّ بها على غنمه، ليعرّفه قُدرته على ما يشاء، وعظم سلطانه، ونفاذ أمره فيما أحبّ بتحويله إياها حيَّة تسعى، إذا أراد ذلك به ليجعل ذلك لموسى آية مع سائر آياته إلى فرعون وقومه.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=20&tAyahNo=17&tDisplay=yes&UserProfile=0&LanguageId=1

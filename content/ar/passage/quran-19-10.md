@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-6-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يذكر الطبري أن زكريا طلب آية فجعل الله آيته ألا يكلم الناس ثلاث ليال سوياً، أي وهو صحيح لا علة به. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=19&tAyahNo=10&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 10 إلى 11 مقطعاً واحداً. يفسّر قوله «قَالَ كَذٰلِكَ قَالَ رَبُّكَ هُوَ عَلَيَّ هَيِّنٌ وَقَدْ خَلَقْتُكَ مِن قَبْلُ وَلَمْ تَكُ شَيْئاً»: قال الله لزكريا مجيبا له «قالَ كَذلكَ» يقول: هكذا الأمر كما تقول من أنّ امرأتك عاقر، وأنك قد بلغت من الكبر العتيّ، ولكن ربك يقول: خلْق ما بشَّرتك به من الغلام الذي ذكرت لك أن اسمه يحيى عليّ هين، فهو إذن من قوله: «قالَ رَبُّكَ هُوَ عَليَّ هَيِّنٌ» كناية عن الخلق. وقوله: «وَقَدْ خلَقْتُكَ مِنْ قَبْلُ ولَمْ تَك شَيْئاً» يقول تعالى ذكره: وليس خلق ما وعدتك أن أهبه لك من الغلام الذي ذكرت لك أمره منك مع كبر سنك، وعقم زوجتك بأعجب من خلقيك، فإني قد خلقتك، فأنشأتك بشراً سوياً من قبل خلقي ما بشرتك بأني واهبه لك من الولد، ولم تك شيئاً، فكذلك أخلق لك الولد الذي بشرتك به من زوجتك العاقر، مع عِتيك ووهن عظامك، واشتعال شيب رأسك. وينقل في المقطع أقوالاً عن ابن عباس ومجاهد وقتادة وابن زيد وابن جريج وعطاء.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=19&tAyahNo=10&tDisplay=yes&UserProfile=0&LanguageId=1

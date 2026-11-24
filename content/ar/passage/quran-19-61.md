@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-6-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يفسّر الطبري جنات عدن ببساتين إقامة وعدها الرحمن عباده بالغيب، إنه كان وعده مأتياً أي لا بد أن يأتيه الموعودون. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=19&tAyahNo=61&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «جَنَّاتِ عَدْنٍ ٱلَّتِي وَعَدَ ٱلرَّحْمَٰنُ عِبَادَهُ بِٱلْغَيْبِ إِنَّهُ كَانَ وَعْدُهُ مَأْتِيّاً»: فأولئك يدخلون الجنة «جَنَّاتِ عَدْنٍ». ولوله: «جَنَّاتِ عَدْنٍ» نصب ترجمة عن الجنة. ويعني بقوله: «جَنَّاتِ عَدْنٍ»: بساتين إقامة. وقد بيَّنت ذلك فيما مضى قبل بشواهده المغنية عن إعادته. وقوله: «التي وَعَدَ الرَّحْمَنُ عِبادَهُ بالغَيْبِ» يقول: هذه الجنات هي الجنات التي وعد الرحمن عباده المؤمنين أن يدخلوها بالغيب، لأنهم لم يروها ولم يعاينوها، فهي غيب لهم. وقوله: «إنَّهُ كانَ وَعْدهُ مأتِيّاً» يقول تعالى ذكره: إن الله كان وعده، ووعده في هذا الموضع موعوده، وهو الجنة مأتيا يأتيه أولياؤه وأهل طاعته الذين يدخلهموها الله.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=19&tAyahNo=61&tDisplay=yes&UserProfile=0&LanguageId=1

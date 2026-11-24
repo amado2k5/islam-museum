@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-6-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يوضح الطبري أن من كان في الضلالة فليمدد له الرحمن مداً، أي يطيل له في ضلاله إملاءً، حتى إذا رأوا ما يوعدون من العذاب أو الساعة علموا من هو شر مكاناً وأضعف جنداً. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=19&tAyahNo=75&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «قُلْ مَن كَانَ فِي ٱلضَّلَٰلَةِ فَلْيَمْدُدْ لَهُ ٱلرَّحْمَٰنُ مَدّاً حَتَّىٰ إِذَا رَأَوْاْ مَا يُوعَدُونَ إِمَّا ٱلعَذَابَ وَإِمَّا ٱلسَّاعَةَ فَسَيَعْلَمُونَ مَنْ هُوَ شَرٌّ مَّكَاناً وَأَضْعَفُ جُنداً»: قل يا محمد لهؤلاء المشركين بربهم، القائلين: إذا تتلى عليهم آياتنا، أيّ الفريقين منا ومنكم خير مقاماً وأحسن ندياً، من كان منا ومنكم في الضلالة جائراً عن طريق الحقّ. سالكاً غير سبيل الهدى، «فليمدد له الرحمن مدًّا» يقول: فليطوِّل له الله في ضلالته، وليمله فيها إملاء. وينقل في المقطع أقوالاً عن مجاهد وابن جريج.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=19&tAyahNo=75&tDisplay=yes&UserProfile=0&LanguageId=1
