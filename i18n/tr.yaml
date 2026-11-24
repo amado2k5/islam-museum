@@ -9002,3 +9002,65 @@ hunt:
   all: "Yedi yerin tamamı"
   reset: "Baştan başla"
   about: "Hesap yok, izleme yok: ilerlemeniz yalnızca bu cihazda kalır."
+traffic:
+  title: Trafik ve erişim
+  lede: Dünyanın ve makinelerin müzeyi nasıl bulduğuna dair açık, tarihli bir anlık görüntü — uç analitiği, sıralama kilometre taşları ve makine keşfi, kaynaklarıyla.
+  snapshot_tpl: "{date} tarihli anlık görüntü: canlı bir panel değil, tarihsel bir temeldir."
+  window: "Raporlama dönemi: 25 Ekim – 24 Kasım 2026 (Cloudflare etiketleri)."
+  welcome: Müze her tür ziyareti memnuniyetle karşılar — insan okurlar, arama motorları, yapay zekâ asistanları, tarayıcılar, arşivler ve programlı kullanıcılar. Burada hiçbir şey engellenmez, kısıtlanmaz veya caydırılmaz.
+  h_world: Otuz günde dünya
+  world_note: Bu rakamlar Cloudflare'in uç analitiğinden gelir. Sayfa görüntüleme ve ziyaretler istek ölçümleridir, kişi sayımı değildir; tekil kişi sayısı mevcut değildir.
+  pageviews: sayfa görüntüleme
+  visits: ziyaret
+  h_rank: Sıralama kilometre taşları
+  rank_head_list: Liste
+  rank_head_result: Sonuç
+  rank_head_date: Tarih / kapsam
+  rank_head_status: Kanıt
+  rank_tranco_result: "Tranco ilk bir milyon listesinde {rank}. sıra"
+  rank_radar_result: "Cloudflare Radar'ın küresel ilk {tier} alan adı listesine dahil"
+  rank_verified: Kaynak dosyadan doğrulandı
+  rank_reported: Daha önce bildirildi, doğrulama bekliyor
+  rank_note: Tranco listesi müzeyi 657.206. sıraya koyar (23 Kasım 2026 tarihli dosya, satır satır doğrulandı). Cloudflare Radar, alan adını 16–23 Kasım 2026 için sırasız ilk 200.000 listesine dahil etti — bir popülerlik grubuna üyelik, kesin bir sıra değil. Önceki Tranco gözlemleri (23 Eki ≈ 4,6 M; 20 Kas ≈ 858 B; 21 Kas ≈ 717 B) bildirilmiştir, henüz yeniden doğrulanmadı. Tranco girdileri arasında Radar'ı da kullanır; iki liste tamamen bağımsız değildir.
+  h_countries: Sayfa görüntülemeler nereden geliyor
+  countries_note: İstek yapan adresin ülkesi — okuyanın uyruğu ya da bulunduğu yer değil. Rakamlar yuvarlatılmıştır.
+  ctry_us: Amerika Birleşik Devletleri
+  ctry_sg: Singapur
+  ctry_br: Brezilya
+  ctry_ca: Kanada
+  ctry_cn: Çin
+  ctry_de: Almanya
+  ctry_ar: Arjantin
+  ctry_fr: Fransa
+  ctry_fi: Finlandiya
+  ctry_bd: Bangladeş
+  th_country: Ülke
+  th_pageviews: Sayfa görüntüleme
+  th_share: Pay
+  h_crawlers: Makine keşfi
+  crawlers_note: Cloudflare'in AI Crawl Control'ü algılanan tarayıcı isteklerini raporlar — kimliği bilinen botların getirmeleri; tekil belgeler, tamamlanmış eğitim turları ya da kullanıcılara verilen yanıtlar değil. Bu rakamlar ülke tablosuyla örtüşür ve ona eklenmemelidir.
+  crawlers_detected: algılanan tarayıcı isteği
+  crawlers_ok: HTTP 200 yanıtı aldı
+  crawlers_perplexity: yalnızca Perplexity tarayıcılarına sunulan HTML
+  th_operator: İşletmeci
+  th_requests: İstekler (yaklaşık)
+  th_referrals: Yönlendirmeler
+  h_referrals: Bağlantılar nereden geliyor — ve nereye varıyor
+  referrals_note: Aynı dönemin tam yönlendiren dışa aktarımları. Bir yönlendiren izlenen bir bağlantıyı gösterir — tıklama, önizleme veya getirme — illa bir kişi, yapay zekâ yanıtı veya onay değil.
+  th_source: Kaynak
+  th_group: Hedef
+  th_count: Sayı
+  destinations_note: Hedef toplamları, kaynak toplamlarından farklı bir dışa aktarma kapsamından gelir; ikisi birbiriyle mutabık kılınmaz.
+  ref_wave: "Dönemdeki dikkat çekici hareketler: Google yönlendirmeleri 29 Ekim'de 18.420 ile zirve yapıp azaldı; mobil Facebook yönlendirmeleri 22–23 Kasım civarında keskin biçimde arttı. Neden belirlenmedi — olağan paylaşım, önizlemeler, reklamlar ya da otomatik getiricilerin hepsi olasıdır ve artışa özel bir gönderi bağlanamadı."
+  h_networks: Singapur'daki iki bulut ağı yakından
+  networks_note: Singapur'daki iki bulut ağı olağandışı yoğun istek trafiği üretti — ikisi birlikte yaklaşık 2,9 milyon istek; çoğunlukla sayfalar, API üstverileri ve yönlendirmeler. Ağ adresleri çıkış altyapısını gösterir, üzerinde çalışan uygulamanın işletmecisini değil; hangi servisin sayfaları istediğini tek başına söylemez.
+  th_network: Ağ
+  th_req: İstekler
+  th_transfer: Aktarım
+  th_redirects: Yönlendirmeler (301)
+  th_api: API ana makinesi istekleri
+  h_method: Bu sayfa nasıl okunmalı
+  method_founder: Rakamlar, kurucunun özel Cloudflare paneli dışa aktarımları ve ekran görüntülerinden, ayrıca satır satır yeniden doğrulanan iki kamu sıralama dosyasından (Tranco ve Cloudflare Radar) gelir. Panel rakamları yuvarlatılmıştır; görüntüler yuvarlatılmış değerler olarak aktarılmıştır.
+  method_metrics: Sayfa görüntüleme, ziyaret, istek, yönlendirme ve tarayıcı algılamaları farklı ölçümlerdir ve görünümler arasında asla toplanmaz. Hiçbir ziyaretçi kişi olarak sayılmaz; bir IP bir insan değil, bir adres gösterir.
+  method_full: Tam kanıt raporu, kaynak manifestosu ve arkasındaki mühendislik araştırması projenin açık deposunda saklanır.
+  method_repo: Mühendislik kaydını oku

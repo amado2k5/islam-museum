@@ -1,0 +1,123 @@
+---
+// Traffic and reach: a dated, public snapshot of edge analytics — pageviews, ranking
+// milestones, detected AI crawlers and referrals. Every figure renders from
+// site/src/data/traffic.json (the canonical aggregate record); wording comes from i18n.
+// The evidence behind it lives in docs/analytics/ (private exports are not in git).
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import PageHeader from "../../../components/PageHeader.astro";
+import { ui, LANGS, type Lang } from "../../../lib/i18n";
+import { num } from "../../../lib/nav";
+import data from "../../../data/traffic.json";
+
+export function getStaticPaths() { return LANGS.map((lang) => ({ params: { lang }, props: { lang } })); }
+const { lang } = Astro.props as { lang: Lang };
+const T = ui(lang);
+const TR = T.traffic;
+const n = (v: number) => num(v, lang);
+const pct = (v: number) => `${((v / data.worldwide.pageviews) * 100).toFixed(1)}%`;
+const snap = new Intl.DateTimeFormat(lang === "ar" ? "ar-EG-u-nu-latn" : "en-GB", { dateStyle: "long", timeZone: "UTC" }).format(new Date(data.generated));
+const ctry = (key: string) => TR[`ctry_${key}`] ?? key;
+const td: any = { style: "padding:6px 10px;border-bottom:1px solid var(--line,#e5e0d5);text-align:start" };
+const tn: any = { style: "padding:6px 10px;border-bottom:1px solid var(--line,#e5e0d5);text-align:end;font-variant-numeric:tabular-nums" };
+const th: any = { style: "padding:6px 10px;border-bottom:2px solid var(--line,#e5e0d5);text-align:start" };
+const tbl: any = { style: "width:100%;border-collapse:collapse" };
+---
+<BaseLayout lang={lang} title={TR.title} description={TR.lede} path={`/${lang}/traffic/`}>
+  <PageHeader title={TR.title} lede={TR.lede} crumbs={[{ label: T.nav.home, href: `/${lang}/` }, { label: TR.title }]} crumbsLabel={T.entity.breadcrumb} />
+  <div class="wrap" style="padding-block:40px 20px">
+    <article class="reading ui-body">
+      <p class="ui muted">{TR.snapshot_tpl.replace("{date}", snap)} {TR.window}</p>
+      <p>{TR.welcome}</p>
+
+      <section aria-labelledby="w-h">
+        <h2 id="w-h">{TR.h_world}</h2>
+        <p><b>{n(data.worldwide.pageviews)}</b> {TR.pageviews} · <b>{n(data.worldwide.visits)}</b> {TR.visits}</p>
+        <p class="muted">{TR.world_note}</p>
+      </section>
+
+      <section aria-labelledby="r-h">
+        <h2 id="r-h">{TR.h_rank}</h2>
+        <div class="panel ui" style="overflow-x:auto">
+          <table {...tbl}>
+            <thead><tr><th {...th}>{TR.rank_head_list}</th><th {...th}>{TR.rank_head_result}</th><th {...th}>{TR.rank_head_date}</th><th {...th}>{TR.rank_head_status}</th></tr></thead>
+            <tbody>
+              <tr><td {...td}>Tranco</td><td {...td}>{TR.rank_tranco_result.replace("{rank}", n(657206))}</td><td {...td}>2026-11-23</td><td {...td}>{TR.rank_verified}</td></tr>
+              <tr><td {...td}>Cloudflare Radar</td><td {...td}>{TR.rank_radar_result.replace("{tier}", n(200000))}</td><td {...td}>2026-11-16 – 23</td><td {...td}>{TR.rank_verified}</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p class="muted">{TR.rank_note}</p>
+      </section>
+
+      <section aria-labelledby="c-h">
+        <h2 id="c-h">{TR.h_countries}</h2>
+        <div class="panel ui" style="overflow-x:auto">
+          <table {...tbl}>
+            <thead><tr><th {...th}>{TR.th_country}</th><th {...th} style="text-align:end">{TR.th_pageviews}</th><th {...th} style="text-align:end">{TR.th_share}</th></tr></thead>
+            <tbody>
+              {data.countries.map((c) => <tr><td {...td}>{ctry(c.key)}</td><td {...tn}>{n(c.pageviews)}</td><td {...tn}>{pct(c.pageviews)}</td></tr>)}
+            </tbody>
+          </table>
+        </div>
+        <p class="muted">{TR.countries_note}</p>
+      </section>
+
+      <section aria-labelledby="m-h">
+        <h2 id="m-h">{TR.h_crawlers}</h2>
+        <p><b>{n(data.ai_crawlers.detected_requests)}</b> {TR.crawlers_detected} · <b>{n(data.ai_crawlers.ok_200)}</b> {TR.crawlers_ok} · <b>{data.ai_crawlers.perplexity_html_gb} GB</b> {TR.crawlers_perplexity}</p>
+        <div class="panel ui" style="overflow-x:auto">
+          <table {...tbl}>
+            <thead><tr><th {...th}>{TR.th_operator}</th><th {...th} style="text-align:end">{TR.th_requests}</th><th {...th} style="text-align:end">{TR.th_referrals}</th></tr></thead>
+            <tbody>
+              {data.ai_crawlers.operators.map((o) => <tr><td {...td}>{o.name}</td><td {...tn}>{n(o.requests)}</td><td {...tn}>{n(o.referrals)}</td></tr>)}
+            </tbody>
+          </table>
+        </div>
+        <p class="muted">{TR.crawlers_note}</p>
+      </section>
+
+      <section aria-labelledby="ref-h">
+        <h2 id="ref-h">{TR.h_referrals}</h2>
+        <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px" class="ui">
+          <div class="panel" style="overflow-x:auto">
+            <table {...tbl}>
+              <thead><tr><th {...th}>{TR.th_source}</th><th {...th} style="text-align:end">{TR.th_count}</th></tr></thead>
+              <tbody>{data.referrers.groups.map((g) => <tr><td {...td}>{g.name}</td><td {...tn}>{n(g.count)}</td></tr>)}</tbody>
+            </table>
+          </div>
+          <div class="panel" style="overflow-x:auto">
+            <table {...tbl}>
+              <thead><tr><th {...th}>{TR.th_group}</th><th {...th} style="text-align:end">{TR.th_count}</th></tr></thead>
+              <tbody>{data.destinations.groups.map((g) => <tr><td {...td}><code>{g.path}</code></td><td {...tn}>{n(g.count)}</td></tr>)}</tbody>
+            </table>
+          </div>
+        </div>
+        <p class="muted">{TR.referrals_note} {TR.destinations_note}</p>
+        <p class="muted">{TR.ref_wave}</p>
+      </section>
+
+      <section aria-labelledby="n-h">
+        <h2 id="n-h">{TR.h_networks}</h2>
+        <div class="panel ui" style="overflow-x:auto">
+          <table {...tbl}>
+            <thead><tr><th {...th}>{TR.th_network}</th><th {...th} style="text-align:end">{TR.th_req}</th><th {...th} style="text-align:end">{TR.th_transfer}</th><th {...th} style="text-align:end">{TR.th_redirects}</th><th {...th} style="text-align:end">{TR.th_api}</th></tr></thead>
+            <tbody>
+              {data.singapore_networks.asns.map((a) => <tr><td {...td}>{a.operator} (AS{a.asn})</td><td {...tn}>{n(a.requests)}</td><td {...tn}>{a.transfer_gb} GB</td><td {...tn}>{n(a.redirects_301)}</td><td {...tn}>{n(a.api_host_requests)}</td></tr>)}
+            </tbody>
+          </table>
+        </div>
+        <p class="muted">{TR.networks_note}</p>
+      </section>
+
+      <section aria-labelledby="me-h">
+        <h2 id="me-h">{TR.h_method}</h2>
+        <ul>
+          <li>{TR.method_founder}</li>
+          <li>{TR.method_metrics}</li>
+          <li>{TR.method_full}</li>
+        </ul>
+        <p><a href="https://github.com/amado2k5/islam-museum/blob/main/docs/analytics/README.md" rel="noopener">{TR.method_repo}</a></p>
+      </section>
+    </article>
+  </div>
+</BaseLayout>
