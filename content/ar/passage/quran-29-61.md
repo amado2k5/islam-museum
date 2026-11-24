@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-8-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن النبي لو سأل هؤلاء المشركين من خلق السماوات والأرض وسخّر الشمس والقمر لعباده لقالوا الله، فأنى يؤفكون أي كيف يُصرفون عمن صنع ذلك فيعدلون عن إخلاص العبادة له، وينقل عن قتادة. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=29&tAyahNo=61&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَلَئِن سَأَلْتَهُمْ مَّنْ خَلَقَ ٱلسَّمَٰوَٰتِ وَٱلأَرْضَ وَسَخَّرَ ٱلشَّمْسَ وَٱلْقَمَرَ لَيَقُولُنَّ ٱللَّهُ فَأَنَّىٰ يُؤْفَكُونَ»: ولئن سألت يا محمد هؤلاء المشركين بالله من خلق السموات والأرض فَسَوّاهن، وسخَّر الشمس والقمر لعباده، يجريان دائبين لمصالح خلق الله، ليقولنّ الذي خلق ذلك وفَعَلَه الله «فأنَّى يُؤْفَكُونَ» يقول جلّ ثناؤه: فأنى يُصْرفون عمن صنع ذلك، فيعدلون عن إخلاص العبادة له. كما: وعن قَتادة «فأنَّى يُؤْفَكُونَ»: أي يعدلون.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=29&tAyahNo=61&tDisplay=yes&UserProfile=0&LanguageId=1

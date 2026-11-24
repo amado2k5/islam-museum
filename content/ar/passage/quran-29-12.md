@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-8-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن كفار قريش قالوا للذين آمنوا منهم اتبعوا سبيلنا، أي كونوا على مثل ما نحن عليه من التكذيب بالبعث وجحود الثواب والعقاب، ولنحمل خطاياكم، أي نتحمل آثامكم إن بُعثتم وجوزيتم، وما هم بحاملين من خطاياهم من شيء إنهم لكاذبون. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=29&tAyahNo=12&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَقَالَ ٱلَّذِينَ كَفَرُواْ لِلَّذِينَ آمَنُواْ ٱتَّبِعُواْ سَبِيلَنَا وَلْنَحْمِلْ خَطَايَاكُمْ وَمَا هُمْ بِحَامِلِينَ مِنْ خَطَايَاهُمْ مِّن شَيْءٍ إِنَّهُمْ لَكَاذِبُونَ»: وقال الذين كفروا بالله من قريش للذين آمنوا بالله منهم: «اتَّبِعُوا سَبِيلَنا» يقول: قالوا: كونوا على مثل ما نحن عليه من التكذيب بالبعث بعد الممات وجحود الثواب والعقاب على الأعمال «وَلْنَحْمِلْ خَطاياكُمْ» يقول: قالوا فإنكم إن اتبعتم سبيلنا في ذلك، فبعثتم من بعد الممات، وجوزيتم على الأعمال، فإنا نتحمل آثام خطاياكم حينئذٍ. وينقل في المقطع أقوالاً عن مجاهد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=29&tAyahNo=12&tDisplay=yes&UserProfile=0&LanguageId=1

@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-8-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يذكر الطبري أن النبي مأمور أن يقول للقائلين لولا أُنزلت عليك آية كفى بالله بيني وبينكم شهيداً، لأنه يعلم المحق منا من المبطل ويعلم ما في السماوات والأرض لا يخفى عليه شيء، وهو المجازي كل فريق بما هو أهله، والذين آمنوا بالباطل وكفروا بالله أولئك هم الخاسرون. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=29&tAyahNo=52&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «قُلْ كَفَىٰ بِٱللَّهِ بَيْنِي وَبَيْنَكُمْ شَهِيداً يَعْلَمُ مَا فِي ٱلسَّمَٰوَٰتِ وَٱلأَرْضِ وَٱلَّذِينَ آمَنُواْ بِٱلْبَاطِلِ وَكَفَرُواْ بِٱللَّهِ أُوْلَٰئِكَ هُمُ ٱلْخَاسِرُونَ»: قل يا محمد للقائلين لك: لولا أنزل عليك آية من ربك، الجاحدين بآياتنا من قومك: كفى الله يا هؤلاء بيني وبينكم شاهداً لي وعليّ، لأنه يعلم المحقّ منا من المبطل، ويعلم ما في السموات وما في الأرض، لا يخفى عليه شيء فيهما، وهو المجازي كل فريق منا بما هو أهله، المحقّ على ثباته على الحقّ، والمبطل على باطله، بما هو أهله «وَالَّذِينَ آمَنُوا بالباطِلِ» يقول: صدّقوا بالشرك، فأقرّوا به وكفروا به. يقول: وجحدوا الله «أُولَئِكَ هُمُ الخاسِرُونَ» يقول: هم المغبونون في صفقتهم.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=29&tAyahNo=52&tDisplay=yes&UserProfile=0&LanguageId=1

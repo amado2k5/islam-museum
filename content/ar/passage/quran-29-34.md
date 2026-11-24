@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-8-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن الرسل قالوا للوط إنا منزلون على أهل هذه القرية سدوم رجزاً من السماء، أي عذاباً، بما كانوا يفسقون، وينقل عن قتادة، ويحيل إلى ما بيّنه في معنى الرجز. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=29&tAyahNo=34&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «إِنَّا مُنزِلُونَ عَلَىٰ أَهْلِ هَٰذِهِ ٱلْقَرْيَةِ رِجْزاً مِّنَ ٱلسَّمَآءِ بِمَا كَانُواْ يَفْسُقُونَ»: يقول تعالى ذكره مخبراً عن قيل الرسل للوط «إنَّا مُنْزِلُونَ» يا لُوط «عَلى أهْلِ هَذِهِ القَرْيَةِ» سَدُوم «رِجْزاً مِنَ السَّماءِ» يعني عذاباً. كما: وعن قَتادة «إنَّا مُنْزِلُونَ عَلى أهْلِ هَذِهِ القَرْيَةِ رِجْزاً»: أي عذاباً. وقد بيَّنا معنى الرجز وما فيه من أقوال أهل التأويل فيما مضى، بما أغنى عن إعادته في هذا الموضع. وقوله: «بِمَا كانُوا يَفْسُقُونَ» يقول: بما كانوا يأتون من معصية الله، ويركبون من الفاحشة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=29&tAyahNo=34&tDisplay=yes&UserProfile=0&LanguageId=1

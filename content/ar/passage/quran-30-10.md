@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-8-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن آخر أمر من كفر من هؤلاء الذين أثاروا الأرض وعمروها وجاءتهم رسلهم بالبينات فكذّبوهم وأساؤوا هو السوأى، أي الحال الأسوأ من فعلهم، ففي الدنيا البوار والهلاك وفي الآخرة النار لا يخرجون منها ولا هم يستعتبون، وينقل في ذلك عن أهل التأويل. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=30&tAyahNo=10&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «ثُمَّ كَانَ عَاقِبَةَ ٱلَّذِينَ أَسَاءُواْ ٱلسُّوۤأَىٰ أَن كَذَّبُواْ بِآيَاتِ ٱللَّهِ وَكَانُواْ بِهَا يَسْتَهْزِئُونَ»: ثم كان آخر أمر من كفر من هؤلاء الذين أثاروا الأرض وعمروها، وجاءتهم رسلهم بالبينات بالله، وكذّبوا رسلهم، فأساءوا بذلك في فعلهم. السوأى: يعني الخلة التي هي أسوأ من فعلهم أما في الدنيا، فالبوار والهلاك، وأما في الآخرة فالنار لا يخرجون منها ولا هم يستعتبون وينقل في المقطع أقوالاً عن ابن عباس وقتادة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=30&tAyahNo=10&tDisplay=yes&UserProfile=0&LanguageId=1

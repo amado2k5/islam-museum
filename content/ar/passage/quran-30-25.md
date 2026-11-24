@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-8-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن من حججه على قدرته قيام السماء والأرض بأمره خضوعاً له بغير عمد ترى، ثم إذا دعاكم دعوة من الأرض إذا أنتم تخرجون مستجيبين لدعوته، وينقل عن قتادة. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=30&tAyahNo=25&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَمِنْ آيَاتِهِ أَن تَقُومَ ٱلسَّمَآءُ وَٱلأَرْضُ بِأَمْرِهِ ثُمَّ إِذَا دَعَاكُمْ دَعْوَةً مِّنَ ٱلأَرْضِ إِذَآ أَنتُمْ تَخْرُجُونَ»: ومن حججه أيها القوم على قُدرته على ما يشاء، قيام السماء والأرض بأمره خضوعاً له بالطاعة بغير عمد ترى «ثُمَّ إذا دَعاكُمْ دَعْوَةً مِنَ الأرْضِ إذَا أنْتُمْ تَخْرَجُونَ» يقول: إذا أنتم تخرجون من الأرض، إذا دعاكم دعوة مستجيبين لدعوته إياكم.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=30&tAyahNo=25&tDisplay=yes&UserProfile=0&LanguageId=1

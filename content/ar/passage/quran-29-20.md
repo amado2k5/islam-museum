@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-8-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري الآيات 19 إلى 20 معاً في موضع واحد. يذكر الطبري أن الله يبدأ الخلق طفلاً صغيراً ثم غلاماً يافعاً ثم رجلاً مجتمعاً ثم كهلاً، وأبدأ وبدأ لغتان بمعنى واحد، ثم يعيده بعد فنائه كما بدأه أول مرة لا يتعذر عليه ذلك، إن ذلك على الله يسير، وأن يسيروا في الأرض فينظروا كيف بدأ الخلق. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=29&tAyahNo=20&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 19 إلى 20 مقطعاً واحداً. يفسّر الطبري الآية ضمن المقطع نفسه. وينقل في المقطع أقوالاً عن ابن عباس.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=29&tAyahNo=20&tDisplay=yes&UserProfile=0&LanguageId=1

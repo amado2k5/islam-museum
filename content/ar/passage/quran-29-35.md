@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-8-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن الله أبقى من فعلته بهم آية بينة وعبرة وعظة لقوم يعقلون عن الله حججه، ويرى أنها عفو آثارهم ودروس معالمهم، وينقل عن قتادة أنها الحجارة التي أُمطروا بها. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=29&tAyahNo=35&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَلَقَد تَّرَكْنَا مِنْهَآ آيَةً بَيِّنَةً لِّقَوْمٍ يَعْقِلُونَ»: ولقد أبقينا من فَعْلتنا التي فَعَلْنا بهم آية، يقول: عبرة بينة وعظة واعظة، لقوم يعقلون عن الله حُجَجه، ويتفكرون في مواعظه، وتلك الآية البينة هي عندي عُفُوُّ آثارهم، ودروس معالمهم. وذُكر عن قتادة في ذلك ما: وعن قَتادة «وَلَقَدْ تَرَكْنا مِنْها آيَةً بَيِّنَةً لقَوْمٍ يَعْقِلُونَ» قال: هي الحجارة التي أُمطرت عليهم. وعن ابن أبي نجيح، عن مجاهد، قوله «مِنْها آيَةً بَيِّنَةً» قال: عِبرة. وينقل في المقطع أقوالاً عن مجاهد وقتادة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=29&tAyahNo=35&tDisplay=yes&UserProfile=0&LanguageId=1

@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-8-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن الله ضرب لهم مثلاً من أنفسهم: هل لكم من مماليككم من شركاء فيما رزقناكم من مال فأنتم فيه سواء، فإذا لم ترضوا ذلك لأنفسكم فكيف رضيتم أن تكون آلهتكم التي تعبدونها شركاء لله في عبادتكم، وأنتم وهم عبيده ومماليكه وهو مالك جميعكم. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=30&tAyahNo=28&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «ضَرَبَ لَكُمْ مَّثَلاً مِّنْ أَنفُسِكُمْ هَلْ لَّكُمْ مِّن مَّا مَلَكَتْ أَيْمَانُكُمْ مِّن شُرَكَآءَ فِي مَا رَزَقْنَاكُمْ فَأَنتُمْ فِيهِ سَوَآءٌ تَخَافُونَهُمْ كَخِيفَتِكُمْ أَنفُسَكُمْ كَذَلِكَ نُفَصِّلُ ٱلآيَاتِ لِقَوْمٍ يَعْقِلُونَ»: مثل لكم أيها القوم ربكم مثلاً من أنفسكم، «هل لكم مما ملكت أيمانكم» يقول: من مماليككم من شركاء، «فيما رزقناكم» من مال، «فأنتم فيه سواء» وهم. يقول: فإذا لم ترضوا بذلك لأنفسكم فكيف رضيتم أن تكون آلهتكم التي تعبدونها لي شركاء في عبادتكم إياي، وأنتم وهم عبيدي ومماليكي، وأنا مالك جميعكم. وينقل في المقطع أقوالاً عن ابن عباس وابن زيد وعطاء.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=30&tAyahNo=28&tDisplay=yes&UserProfile=0&LanguageId=1

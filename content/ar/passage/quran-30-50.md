@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-8-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن القراء اختلفوا في «آثار رحمة الله»: فقرأت عامة قراء المدينة والبصرة وبعض الكوفيين «أثر» بالإفراد، بمعنى انظر إلى أثر الغيث كيف يحيي الأرض بعد موتها، وقرأ عامة الكوفة بالجمع، إن ذلك لمحيي الموتى وهو على كل شيء قدير. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=30&tAyahNo=50&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «فَٱنظُرْ إِلَىٰ آثَارِ رَحْمَتِ ٱللَّهِ كَيْفَ يُحْيِ ٱلأَرْضَ بَعْدَ مَوْتِهَآ إِنَّ ذَلِكَ لَمُحْيِ ٱلْمَوْتَىٰ وَهُوَ عَلَىٰ كُلِّ شَيْءٍ قَدِيرٌ»: اختلفت القرّاء في قوله: «فانْظُرْ إلى آثارِ رَحْمَةِ اللّهِ» فقرأته عامة قرّاء أهل المدينة والبصرة وبعض الكوفيين: «إلى أثَرِ رَحْمَةِ اللّهِ» على التوحيد، بمعنى: فانظر يا محمد إلى أثر الغيث الذي أصاب الله به من أصاب من عباده، كيف يحيي ذلك الغيث الأرض من بعد موتها. وقرأ ذلك عامة قرّاء الكوفة: «فانْظُرْ إلى آثارِ رَحْمَةِ اللّهِ» على الجماع، بمعنى: فانظر إلى آثاء الغيث الذي أصاب الله به من أصاب كيف يحيي الأرض بعد موتها.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=30&tAyahNo=50&tDisplay=yes&UserProfile=0&LanguageId=1

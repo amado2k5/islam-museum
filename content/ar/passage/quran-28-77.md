@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-8-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن قوم قارون قالوا له لا تبغ على قومك بكثرة مالك والتمس فيما آتاك الله خيرات الآخرة بالعمل بطاعته، ولا تنس نصيبك من الدنيا، أي لا تترك حظك منها بأن تعمل فيها بما ينجيك غداً، وأحسن كما أحسن الله إليك، ولا تبغ الفساد في الأرض. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=28&tAyahNo=77&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَٱبْتَغِ فِيمَآ آتَاكَ ٱللَّهُ ٱلدَّارَ ٱلآخِرَةَ وَلاَ تَنسَ نَصِيبَكَ مِنَ ٱلدُّنْيَا وَأَحْسِن كَمَآ أَحْسَنَ ٱللَّهُ إِلَيْكَ وَلاَ تَبْغِ ٱلْفَسَادَ فِي ٱلأَرْضِ إِنَّ ٱللَّهَ لاَ يُحِبُّ ٱلْمُفْسِدِينَ»: يقول تعالى ذكره، مخبراً عن قيل قوم قارون له: لا تبغ يا قارون على قومك، بكثرة مالك، والتمس فيما آتاك الله من الأموال خيرات الآخرة، بالعمل فيها بطاعة الله في الدنيا. وقوله: «وَلا تَنسَ نَصِيبَكَ مِنَ الدُّنْيا» يقول: ولا تترك نصيبك وحظك من الدنيا، أن تأخذ فيها بنصيبك من الآخرة، فتعمل فيه بما ينجيك غداً من عقاب الله. وينقل في المقطع أقوالاً عن ابن عباس ومجاهد والحسن وابن زيد والأعمش وسفيان.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=28&tAyahNo=77&tDisplay=yes&UserProfile=0&LanguageId=1

@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-8-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن النبي لو سأل هؤلاء المشركين من نزّل من السماء ماء فأحيا به الأرض من بعد موتها، أي إنبات النبات فيها بعد جدوبها، ليقولن الله، قل الحمد لله بل أكثرهم لا يعقلون. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=29&tAyahNo=63&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَلَئِن سَأَلْتَهُمْ مَّن نَّزَّلَ مِنَ ٱلسَّمَآءِ مَآءً فَأَحْيَا بِهِ ٱلأَرْضَ مِن بَعْدِ مَوْتِهَا لَيَقُولُنَّ ٱللَّهُ قُلِ ٱلْحَمْدُ لِلَّهِ بَلْ أَكْثَرُهُمْ لاَ يَعْقِلُونَ»: ولئن سألت يا محمد هؤلاء المشركين بالله من قومك من نزل من السماء ماء، وهو المطر الذي ينزله الله من السحاب «فأحْيا بِه الأرْضِ» يقول: فأحيا بالماء الذي نزل من السماء الأرض، وإحياؤها: إنباتُه النباتَ فيها «منْ بعدِ مَوْتها» من بعد جدوبها وقحوطها. وقوله: «لَيَقُولُنَّ اللّهُ» يقول: ليقولنّ الذي فعل ذلك الله الذي له عبادة كل شيء.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=29&tAyahNo=63&tDisplay=yes&UserProfile=0&LanguageId=1

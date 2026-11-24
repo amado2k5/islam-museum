@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-8-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يذكر الطبري أن الله أمر نبيه أن يذكر إبراهيم خليل الرحمن إذ قال لقومه اعبدوا الله دون غيره من الأوثان فإنه لا إله لكم غيره واتقوا سخطه بأداء فرائضه واجتناب معاصيه، ذلكم خير لكم إن كنتم تعلمون ما هو خير لكم مما هو شر. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=29&tAyahNo=16&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَإِبْرَاهِيمَ إِذْ قَالَ لِقَوْمِهِ ٱعْبُدُواْ ٱللَّهَ وَٱتَّقُوهُ ذٰلِكُمْ خَيْرٌ لَّكُمْ إِن كُنتُمْ تَعْلَمُونَ»: واذكر أيضا يا محمد إبراهيم خليل الرحمن، إذ قال لقومه: اعبدوا الله أيها القوم دون غيره من الأوثان والأصنام، فإنه لا إله لكم غيره، «واتقوه» يقول: واتقوا سخطه بأداء فرائضه، واجتناب معاصيه «ذَلِكُمْ خَيْرٌ لَكُمْ إن كُنْتُمْ تَعْلَمُونَ» ما هو خير لكم مما هو شرّ لكم.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=29&tAyahNo=16&tDisplay=yes&UserProfile=0&LanguageId=1

@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-8-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري الآيات 17 إلى 18 معاً في موضع واحد. يبيّن الطبري أن معنى التسبيح هنا الصلاة، فسبحوا الله حين تمسون وهي صلاة المغرب وحين تصبحون وهي صلاة الصبح، وله الحمد في السماوات والأرض من جميع خلقه من الملائكة وأهل الأرض، وعشياً وهي صلاة العصر، وحين تظهرون وهي صلاة الظهر. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=30&tAyahNo=17&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 17 إلى 18 مقطعاً واحداً. يفسّر قوله «فَسُبْحَانَ ٱللَّهِ حِينَ تُمْسُونَ وَحِينَ تُصْبِحُونَ»: فسبحوا الله أيها الناس: أي صلوا له حين تمسون، وذلك صلاة المغرب، وحين تصبحون، وذلك صلاة الصبح «وَلَهُ الحَمْدُ فِي السَّمَوَاتِ والأرْضِ» يقول: وله الحمد من جميع خلقه دون غيره في السموات من سكانها من الملائكة، والأرض من أهلها، من جميع أصناف خلقه فيها، «وَعَشِيًّا» يقول: وسَبِّحوه أيضا عشياً، وذلك صلاة العصر «وَحِينَ تُظْهِرُونَ» يقول: وحين تَدْخلون في وقت الظهر. وينقل في المقطع أقوالاً عن ابن عباس ومجاهد وابن زيد وسفيان.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=30&tAyahNo=17&tDisplay=yes&UserProfile=0&LanguageId=1

@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-8-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري الآيات 1 إلى 2 معاً في موضع واحد. يحيل الطبري في «الم» إلى ما سبق من بيان معناها وأقوال أهل التأويل فيها، ثم يفسّر السؤال في الآية بأنه: أظنّ الذين خرجوا من أصحاب النبي من أذى المشركين أن يُتركوا بغير اختبار ولا ابتلاء بقولهم آمنا، فالله يفتنهم ويمتحنهم ليميّز المؤمن الصادق. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=29&tAyahNo=1&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 1 إلى 2 مقطعاً واحداً. يفسّر قوله «الۤمۤ»: قال أبو جعفر: وقد بيَّنا معنى قول الله تعالى ذكره «آلم» وذكرنا أقوال أهل التأويل في تأويله، والذي هو أولى بالصواب من أقوالهم عندنا، بشواهده فيما مضى، بما أغنى عن إعادته في هذا الموضع. وأما قوله: «أحَسِبَ النَّاسُ أنْ يُتْرَكُوا أنْ يَقُولُوا آمَنَّا وَهُمْ لا يُفْتَنُونَ» فإن معناه: أظَنَّ الذين خرجوا يا محمد من أصحابك من أذى المشركين إياهم، أن نتركَهم بغير اختبار، ولا ابتلاء امتحان، بأن قالوا: آمنا بك يا محمد، فصدّقناك فيما جئتنا به من عند الله، كَلاَّ لنختبرهم، ليتبين الصادق منهم من الكاذب. وينقل في المقطع أقوالاً عن مجاهد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=29&tAyahNo=1&tDisplay=yes&UserProfile=0&LanguageId=1

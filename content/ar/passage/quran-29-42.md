@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-8-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري الآيات 42 إلى 43 معاً في موضع واحد. يذكر الطبري اختلاف القراء في «يدعون»: فقرأت عامة قراء الأمصار بالتاء على خطاب مشركي قريش، وقرأ أبو عمرو بالياء على الخبر عن الأمم، وأن الله يعلم ما يدعون من دونه من شيء وهو العزيز الحكيم، وتلك الأمثال نضربها للناس وما يعقلها إلا العالمون. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=29&tAyahNo=42&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 42 إلى 43 مقطعاً واحداً. يفسّر قوله «إِنَّ ٱللَّهَ يَعْلَمُ مَا يَدْعُونَ مِن دُونِهِ مِن شَيْءٍ وَهُوَ ٱلْعَزِيزُ ٱلْحَكِيمُ»: اختلف القرّاء في قراءة قوله: «إنَّ اللّهَ يَعْلَمُ ما يدْعُونَ» فقرأته عامة قرّاء الأمصار «تَدْعُونَ» بالتاء بمعنى الخطاب لمشركي قريش «إنَّ اللّهَ» أيها الناس «يَعْلَمُ ما تَدْعُونَ إلَيْهِ مِنْ دُونِهِ مِنْ شَيْءٍ». وقرأ ذلك أبو عمرو: «إنَّ اللّهَ يَعْلَمُ ما يَدْعُونَ» بالياء بمعنى الخبر عن الأمم، إن الله يعلم ما يدعو هؤلاء الذين أهلكناهم من الأمم من دونه من شيء.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=29&tAyahNo=42&tDisplay=yes&UserProfile=0&LanguageId=1

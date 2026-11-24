@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-8-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن الله أنجى نوحاً وأصحاب سفينته، وهم الذين حملهم من ولده وأزواجهم، ويحيل إلى ما سبق، وجعل السفينة آية للعالمين أي عبرة وعظة لهم وحجة عليهم، وينقل عن قتادة. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=29&tAyahNo=15&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «فأَنْجَيْناهُ وأَصْحَابَ ٱلسَّفِينَةِ وَجَعَلْنَاهَآ آيَةً لِّلْعَالَمِينَ»: فأنجينا نوحا وأصحاب سفينته، وهم الذين حملهم في سفينته من ولده وأزواجهم. وقد بيَّنا ذلك فيما مضى قبل، وذكرنا الروايات فيه، فأغنى ذلك عن إعادته في هذا الموضع. «وَجَعَلْناها آيَةً للْعالَمِينَ» يقول: وجعلنا السفينة التي أنجيناه وأصحابه فيها عبرة وعظة للعالمين، وحجة عليهم. وينقل في المقطع أقوالاً عن قتادة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=29&tAyahNo=15&tDisplay=yes&UserProfile=0&LanguageId=1

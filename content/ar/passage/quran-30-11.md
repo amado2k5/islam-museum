@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-8-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن الله يبدأ إنشاء جميع الخلق منفرداً من غير شريك ولا ظهير، فيحدثه من غير شيء بقدرته، ثم يعيده خلقاً جديداً بعد إفنائه، ثم إليه ترجعون أي تُردّون فتُحشرون لفصل القضاء بينهم. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=30&tAyahNo=11&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «ٱللَّهُ يَبْدَؤُاْ ٱلْخَلْقَ ثُمَّ يُعِيدُهُ ثُمَّ إِلَيْهِ تُرْجَعُونَ»: الله تعالى يبدأ إنشاء جميع الخلق منفرداً بإنشائه من غير شريك ولا ظهير، فيحدثه من غير شيء، بل بقدرته عزّ وجل، ثم يعيد خلقاً جديداً بعد إفنائه وإعدامه، كما بدأه خلقاً سوياً، ولم يك شيئاً «ثُمَّ إلَيْهِ تُرْجَعُونَ» يقول: ثم إليه من بعد إعادتهم خلقاً جديداً يردّون، فيحشرون لفصل القضاء بينهم«و لِيَجْزِيَ الَّذِينَ أسَاءُوا بِمَا عَمِلُوا، وَيَجْزِيَ الَّذِينَ أحْسَنُوا بالحُسْنَى»
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=30&tAyahNo=11&tDisplay=yes&UserProfile=0&LanguageId=1

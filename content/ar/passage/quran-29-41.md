@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-8-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن مثل الذين اتخذوا من دون الله أولياء يرجون نصرهم ونفعهم كمثل العنكبوت في ضعفها وقلة احتيالها اتخذت بيتاً لتكنّها فلم يغن عنها عند حاجتها، فكذلك المشركون لم تغن عنهم أولياؤهم حين نزل بهم أمر الله، وإن أوهن البيوت لبيت العنكبوت لو كانوا يعلمون. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=29&tAyahNo=41&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «مَثَلُ ٱلَّذِينَ ٱتَّخَذُواْ مِن دُونِ ٱللَّهِ أَوْلِيَآءَ كَمَثَلِ ٱلْعَنكَبُوتِ ٱتَّخَذَتْ بَيْتاً وَإِنَّ أَوْهَنَ ٱلْبُيُوتِ لَبَيْتُ ٱلْعَنكَبُوتِ لَوْ كَانُواْ يَعْلَمُونَ»: مثل الذين اتخذوا الآلهة والأوثان من دون الله أولياء يرجون نَصْرها ونفعها عند حاجتهم إليها في ضعف احتيالهم، وقبح رواياتهم، وسوء اختيارهم لأنفسهم، كمَثلِ العنكبوت في ضعفها، وقلة احتيالها لنفسها، اتخذت بيتاً لنفسها، كيما يُكِنَّها، فلم يغن عنها شيئاً عند حاجتها إليه، فكذلك هؤلاء المشركون لم يغن عنهم حين نزل بهم أمر الله، وحلّ بهم سخطه أولياؤُهم الذين اتخذوهم من دون الله شيئاً، ولم يدفعوا عنهم ما أحلّ الله بهم من سخطه بعبادتهم إياهم. وينقل في المقطع أقوالاً عن ابن عباس وابن زيد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=29&tAyahNo=41&tDisplay=yes&UserProfile=0&LanguageId=1

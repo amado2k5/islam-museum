@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-8-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إنه يخاطب القوم أن يذكروا عاداً وثمود وقد تبيّن لهم من مساكنهم خرابها وخلاؤها بوقائع الله بهم، وزيّن لهم الشيطان أعمالهم أي حسّن لهم الكفر وتكذيب الرسل فصدّهم عن سبيل الله وكانوا مستبصرين. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=29&tAyahNo=38&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَعَاداً وَثَمُودَاْ وَقَد تَّبَيَّنَ لَكُم مِّن مَّسَاكِنِهِمْ وَزَيَّنَ لَهُمُ ٱلشَّيْطَانُ أَعْمَالَهُمْ فَصَدَّهُمْ عَنِ ٱلسَّبِيلِ وَكَانُواْ مُسْتَبْصِرِينَ»: واذكروا أيها القوم عاداً وثمود، وقد تبين لكم من مساكنهم خرابُها وخلاؤُها منهم بوقائعنا بهم، وحلول سَطْوتنا بجميعهم «وَزَيَّنَ لَهُمُ الشَّيْطانُ أعْمالَهمْ» يقول: وحسَّن لهم الشيطان كفرهم بالله، وتكذيبَهم رسله «فَصَدَّهُمْ عَنِ السَّبِيلِ» يقول: فردّهم بتزيينه لهم ما زيَّن لهم من الكفر، عن سبيل الله، التي هي الإيمان به ورسله، وما جاءوهم به من عند ربهم «وكانُوا مُسْتَبْصِرِينَ» يقول: وكانوا مستبصرين في ضلالتهم، مُعْجَبين بها، يحسِبون أنهم على هدى وصواب، وهم على الضلال. وينقل في المقطع أقوالاً عن ابن عباس ومجاهد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=29&tAyahNo=38&tDisplay=yes&UserProfile=0&LanguageId=1

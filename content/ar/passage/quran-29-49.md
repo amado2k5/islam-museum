@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-8-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يذكر الطبري اختلاف أهل التأويل في المراد بقوله إنه آيات بينات في صدور الذين أوتوا العلم: فقال بعضهم المراد النبي، ومعناه أن وجود أهل الكتاب في كتبهم أنه أمي لا يكتب ولا يقرأ آيات بينات في صدورهم، وقال آخرون إنه القرآن، وينقل عن ابن عباس، وما يجحد بآياتنا إلا الظالمون. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=29&tAyahNo=49&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «بَلْ هُوَ آيَاتٌ بَيِّنَاتٌ فِي صُدُورِ ٱلَّذِينَ أُوتُواْ ٱلْعِلْمَ وَمَا يَجْحَدُ بِآيَاتِنَآ إِلاَّ ٱلظَّالِمُونَ»: اختلف أهل التأويل في المعنيّ بقوله: «بَلْ هُوَ آياتٌ بَيِّناتٌ فِي صُدُورِ الَّذِينَ أُوتُوا العِلْمَ» فقال بعضهم: عنى به نبيّ الله، وقالوا: معنى الكلام: بل وجود أهل الكتاب في كتبهم أن محمداً لا يكتب ولا يقرأ، وأنه أميّ، آيات بينات في صدورهم. وينقل في المقطع أقوالاً عن ابن عباس والحسن.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=29&tAyahNo=49&tDisplay=yes&UserProfile=0&LanguageId=1

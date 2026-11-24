@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-8-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن الذين كفروا بحجج الله وأنكروا أدلته وجحدوا لقاءه يوم تقوم الساعة أولئك يئسوا من رحمته في الآخرة لما عاينوا من العذاب، ولهم عذاب موجع، ويجيب عن سؤال عن وجه الاعتراض بهذه الآيات في وسط قصة إبراهيم. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=29&tAyahNo=23&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَٱلَّذِينَ كَفَرُواْ بِآيَاتِ ٱللَّهِ وَلِقَآئِهِ أُوْلَٰئِكَ يَئِسُواْ مِن رَّحْمَتِي وَأُوْلَٰئِكَ لَهُمْ عَذَابٌ أَلِيمٌ»: والذين كفروا حُجَجَ الله، وأنكروا أدلته، وجحدوا لقاءه والورود عليه، يوم تقوم الساعة «أُولَئِكَ يَئِسُوا مِنْ رَحْمَتِي» يقول تعالى ذكره: أولئك يئسوا من رحمتي في الآخرة لما عاينوا ما أعدّ لهم من العذاب، وأولئك لهم عذاب مُوجِع. فإن قال قائل: وكيف اعْترض بهذه الآيات من قوله«وَإنْ تُكَذّبُوا فَقَدْ كَذَّبَ أُمَمٌ مِنْ قَبْلَكُمْ...» إلى قوله«إنَّ فِي ذلكَ لآياتٍ لِقَوْمٍ يُؤْمِنُونَ» وترك ضمير قوله«فَمَا كانَ جَوَابَ قَوْمِهِ» وهو من قصة إبراهيم. وقوله«إنَّ الَّذِينَ تَعْبُدُونَ مِنْ دُونِ اللّهِ... وينقل في المقطع أقوالاً عن إبراهيم.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=29&tAyahNo=23&tDisplay=yes&UserProfile=0&LanguageId=1

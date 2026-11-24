@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-8-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يذكر الطبري أن هؤلاء المشركين سيحملون أوزار أنفسهم وأوزار من أضلّوا وصدّوا عن سبيل الله مع أوزارهم، وليسألنّ يوم القيامة عما كانوا يفترون من وعدهم الأباطيل وقولهم اتبعوا سبيلنا ولنحمل خطاياكم، وينقل عن قتادة. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=29&tAyahNo=13&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَلَيَحْمِلُنَّ أَثْقَالَهُمْ وَأَثْقَالاً مَّعَ أَثْقَالِهِمْ وَلَيُسْأَلُنَّ يَوْمَ ٱلْقِيَامَةِ عَمَّا كَانُواْ يَفْتَرُونَ»: وليحملنّ هؤلاء المشركون بالله القائلون للذين آمنوا به اتبعوا سبيلنا ولنحمل خطاياكم أوزار أنفسهم وآثامها، وأوزار من أضلوا وصدّوا عن سبيل الله مع أوزارهم، وليسئلنّ يوم القيامة عما كانوا يكذّبونهم في الدنيا بوعدهم إياهم الأباطيل، وقيلهم لهم: اتبعوا سبيلنا ولنحمل خطاياكم فيفترون الكذب بذلك. وينقل في المقطع أقوالاً عن ابن زيد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=29&tAyahNo=13&tDisplay=yes&UserProfile=0&LanguageId=1

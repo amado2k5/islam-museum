@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-8-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن مشركي قريش قالوا هلا أُنزل على محمد آية من ربه كما جُعلت الناقة لصالح والمائدة لعيسى، فيأمره الله أن يقول إنما الآيات عند الله لا يقدر على الإتيان بها غيره، وإنما أنا نذير مبين أنذركم بأس الله وعقابه. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=29&tAyahNo=50&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَقَالُواْ لَوْلاَ أُنزِلَ عَلَيْهِ آيَاتٌ مِّن رَّبِّهِ قُلْ إِنَّمَا ٱلآيَاتُ عِندَ ٱللَّهِ وَإِنَّمَآ أَنَاْ نَذِيرٌ مُّبِينٌ»: وقالت المشركون من قريش: هلا أنزل على محمد آية من ربه تكون حجة لله علينا كما جعلت الناقة لصالح، والمائدة آية لعيسى، قل يا محمد، إنما الآيات عند الله لا يقدر على الإتيان بها غيره «وَإنمَا أنَا نَذِيرٌ مُبِينٌ» وإنما أنا نذير لكم أنذركم بأس الله وعقابه على كفركم برسوله. وما جاءكم به من عند ربكم «مبين» يقول: قد أبان لكم إنذاره.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=29&tAyahNo=50&tDisplay=yes&UserProfile=0&LanguageId=1

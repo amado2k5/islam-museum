@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-8-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن هؤلاء المشركين إذا مسّهم ضر من شدة وجدوب دعوا ربهم أي أخلصوا له التوحيد وأفردوه بالدعاء منيبين تائبين من شركهم، ثم إذا أذاقهم منه رحمة بكشف ذلك الضر عنهم إذا فريق منهم بربهم يشركون. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=30&tAyahNo=33&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَإِذَا مَسَّ ٱلنَّاسَ ضُرٌّ دَعَوْاْ رَبَّهُمْ مُّنِيبِينَ إِلَيْهِ ثُمَّ إِذَآ أَذَاقَهُمْ مِّنْهُ رَحْمَةً إِذَا فَرِيقٌ مِّنْهُمْ بِرَبِّهِمْ يُشْرِكُونَ»: وإذا مسّ هؤلاء المشركين الذين يجعلون مع الله إلهاً آخر ضُرٌّ، فأصابتهم شدة وجدوب وقحوط «دَعَوْا رَبَّهُمْ» يقول: أخلصوا لربهم التوحيد، وأفردوه بالدعاء والتضرّع إليه، واستغاثوا به منيبين إليه، تائبين إليه من شركهم وكفرهم «ثُمَّ إذَا أذاقَهُمْ مِنْهُ رَحْمَةً» يقول: ثم إذا كشف ربهم تعالى ذكره عنهم ذلك الضرّ وفرّجه عنهم وأصابهم برخاء وخصب وسعة، «إذا فريق منهم» يقول: إذا جماعة منهم بربهم «يشركون» يقول: يعبدون معه الآلهة والأوثان.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=30&tAyahNo=33&tDisplay=yes&UserProfile=0&LanguageId=1

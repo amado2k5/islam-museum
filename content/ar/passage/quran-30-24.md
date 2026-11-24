@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-8-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن من حججه أن يريكم البرق خوفاً لكم إذا كنتم سفراً أن تُمطروا فتتأذوا وطمعاً إذا كنتم مقيمين أن تُمطروا فتحيوا وتخصبوا، وينزّل من السماء مطراً فيحيي به الأرض بعد موتها، إن في ذلك لآيات لقوم يعقلون. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=30&tAyahNo=24&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَمِنْ آيَاتِهِ يُرِيكُمُ ٱلْبَرْقَ خَوْفاً وَطَمَعاً وَيُنَزِّلُ مِنَ ٱلسَّمَآءِ مَآءً فَيُحْيِي بِهِ ٱلأَرْضَ بَعْدَ مَوْتِهَا إِنَّ فِي ذَلِكَ لآيَاتٍ لِّقَوْمٍ يَعْقِلُونَ»: ومن حججه «يُرِيكُمُ البَرْقَ خَوْفاً» لكم إذا كنتم سفراً، أن تمطروا فتتأذّوا به «وطَمَعاً» لكم، إذا كنتم في إقامة أن تمطروا، فتحيوا وتخصبوا «وَيُنَزِّلُ منَ السَّماءِ ماءً» يقول: وينزّل من السماء مطراً، فيحيي بذلك الماء الأرض الميتة، فتنبت ويخرج زرعها بعد موتها، يعني جدوبها ودروسها «إن فِي ذلكَ لآياتٍ» يقول: إن في فعله ذلك كذلك لعبراً وأدلة «لِقَوْمٍ يَعْقِلُونَ» عن الله حججه وأدلته.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=30&tAyahNo=24&tDisplay=yes&UserProfile=0&LanguageId=1

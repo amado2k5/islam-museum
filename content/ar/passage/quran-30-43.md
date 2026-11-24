@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-8-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يذكر الطبري أن النبي مأمور أن يوجّه وجهه للدين القيم لطاعة ربه وهي الملة المستقيمة التي لا اعوجاج فيها، من قبل مجيء يوم لا مردّ له من الله لأن الله قد قضى بمجيئه فهو لا محالة جاء، يومئذ يصّدّعون أي يتفرقون. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=30&tAyahNo=43&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «فَأَقِمْ وَجْهَكَ لِلدِّينِ ٱلْقِيِّمِ مِن قَبْلِ أَن يَأْتِيَ يَوْمٌ لاَّ مَرَدَّ لَهُ مِنَ ٱللَّهِ يَوْمَئِذٍ يَصَّدَّعُونَ»: فوجِّه وجْهَك يا محمد نحوَ الوجه الذي وجَّهك إليه ربك «للدّينِ القَيِّمِ» لطاعة ربك، والمِلةِ المستقيمةِ التي لا اعوجاج فيها عن الحقّ «مِنْ قَبْلِ أنْ يَأتِيَ يَوْمٌ لا مَرَدَّ لَهُ مِنَ اللّهِ» يقول تعالى ذكره: من قبل مجيءِ يومٍ من أيام الله لا مردّ له لمجيئه، لأن الله قد قضى بمجيئه فهو لا محالة جاء «يَوْمَئِذٍ يَصَّدَّعُونَ» يقول: يوم يجيء ذلك اليومُ يصدّع الناسُ، يقول: يتفرّق الناس فرقتين من قولهم: صَدَعتُ الغنم صدعتين: إذا فرقتها فرقتين: فريق في الجنة، وفريق في السعير. وينقل في المقطع أقوالاً عن ابن عباس وابن زيد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=30&tAyahNo=43&tDisplay=yes&UserProfile=0&LanguageId=1

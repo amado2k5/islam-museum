@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-8-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن الذي فرض على النبي القرآن هو الذي أعطاه إياه، عن مجاهد، ويذكر اختلاف أهل التأويل في معنى «لرادّك إلى معاد»، ثم قل ربي أعلم من جاء بالهدى ومن هو في ضلال مبين. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=28&tAyahNo=85&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «إِنَّ ٱلَّذِي فَرَضَ عَلَيْكَ ٱلْقُرْآنَ لَرَآدُّكَ إِلَىٰ مَعَادٍ قُل رَّبِّيۤ أَعْلَمُ مَن جَآءَ بِٱلْهُدَىٰ وَمَنْ هُوَ فِي ضَلاَلٍ مُّبِينٍ»: إن الذي أنزل عليك يا محمد القرآن. كما: قال: ثني حجاج، عن ابن جُرَيج، عن مجاهد، في قوله «إنَّ الَّذِي فَرَضَ عَلَيْكَ القُرآنَ» قال: الذي أعطاك القرآن. وعن ابن أبي نجيح، عن مجاهد، في قول الله «إنَّ الَّذِي فَرَضَ عَلَيْكَ القُرآنَ» قال: الذي أعطاكه. واختلف أهل التأويل في تأويل قوله: «لَرَادُّكَ إلى مَعادٍ» فقال بعضهم: معناه: لمصيرك إلى الجنة. وينقل في المقطع أقوالاً عن ابن عباس ومجاهد والحسن وعكرمة والأعمش وإبراهيم وغيرهم.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=28&tAyahNo=85&tDisplay=yes&UserProfile=0&LanguageId=1

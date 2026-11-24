@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-8-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يذكر الطبري أنه وعيد للمشركين الذين إذا كشف الضر عنهم كفروا، ليكفروا بما آتيناهم أي ليجحدوا النعمة التي أنعمها الله عليهم بكشف الضر وإبدالهم الرخاء والخصب والعافية، فتمتعوا فسوف تعلمون. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=30&tAyahNo=34&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «لِيَكْفُرُواْ بِمَآ آتَيْنَاهُمْ فَتَمَتَّعُواْ فَسَوْفَ تَعْلَمُونَ»: يقول تعالى ذكره متوعداً لهؤلاء المشركين الذين أخبر عنهم أنه إذا كشف الضرّ عنهم كفروا به، ليكفروا بما أعطيناهم، يقول: إذا هم بربهم يشركون، كي يكفروا: أي يجحدوا النعمة التي أنعمتها عليهم بكشفي عنهم الضرّ الذي كانوا فيه، وإبدالي ذلك لهم بالرخاء والخصب والعافية، وذلك الرخاء والسعة هو الذي آتاهم تعالى ذكره، الذي قال: «بما آتيناهم». وقوله «فَتَمَتَّعُوا» يقول: فتمتعوا أيها القوم بالذي آتيناكم من الرخاء والسعة في هذه الدنيا «فَسَوْف تَعْلَمُونَ» إذا وردتم على ربكم ما تلقون من عذابه، وعظيم عقابه على كفركم به في الدنيا. وقد قرأ بعضهم: «فَسَوْفَ يَعْلَمُونَ» بالياء، بمعنى: ليكفروا بما آتيناهم، فقد تمتعوا على وجه الخبر، فسوف يعلمون.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=30&tAyahNo=34&tDisplay=yes&UserProfile=0&LanguageId=1

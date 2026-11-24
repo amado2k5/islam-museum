@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-8-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن جهنم محيطة بالكافرين يوم يغشاهم العذاب من فوقهم ومن تحت أرجلهم أي في النار، وينقل عن قتادة، ويقول الله لهم ذوقوا ما كنتم تعملون. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=29&tAyahNo=55&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «يَوْمَ يَغْشَاهُمُ ٱلْعَذَابُ مِن فَوْقِهِمْ وَمِن تَحْتِ أَرْجُلِهِمْ وَيِقُولُ ذُوقُواْ مَا كُنْتُمْ تَعْمَلُونَ»: «وَإنَّ جَهَنَّمَ لَمُحِيطَةٌ بالكافِرِينَ» يوم يغشى الكافرين العذاب من فوقهم في جهنم، ومن تحت أرجلهم. كما: وعن قَتادة «يَوْمَ يَغْشاهُمُ العَذَابُ مِنْ فَوْقِهِمْ وَمِنْ تَحْتِ أرْجُلهِمْ»: أي في النار. وقوله: «وَيَقُولُ ذُوقُوا ما كُنْتُمْ تَعْمَلُونَ» يقول جلّ ثناؤه: ويقول الله لهم: ذوقوا ما كنتم تعملون في الدنيا من معاصي الله، وما يسخطه فيها. وبالياء في «ويقول ذُوقُوا» قرأت عامة قرّاء الأمصار خلا أبي جعفر، وأبي عمرو، فإنهما قرآ ذلك بالنون: «وَنَقُولُ». والقراءة التي هي القراءة عندنا بالياء لإجماع الحجة من القرّاء عليها.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=29&tAyahNo=55&tDisplay=yes&UserProfile=0&LanguageId=1

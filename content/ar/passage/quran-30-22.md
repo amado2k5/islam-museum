@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-8-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن من حججه على أنه لا يعجزه شيء وأنه إذا شاء أمات من كان حياً ثم أنشره خلقه السماوات والأرض من غير شيء بقدرته، واختلاف ألسنتكم أي منطق لغاتكم وألوانكم أي ألوان خلقكم، إن في ذلك لآيات للعالمين. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=30&tAyahNo=22&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَمِنْ آيَاتِهِ خَلْقُ ٱلسَّمَٰوَٰتِ وَٱلأَرْضِ وَٱخْتِلاَفُ أَلْسِنَتِكُمْ وَأَلْوَانِكُمْ إِنَّ فِي ذٰلِكَ لآيَاتٍ لِّلْعَالِمِينَ»: ومن حججه وأدلته أيضاً على أنه لا يُعجزه شيء، وأنه إذا شاء أمات من كان حياً من خلقه، ثم إذا شاء أنشره وأعاده كما كان قبل إماتته إياه خلقه السموات والأرض من غير شيء أحدث ذلك منه، بل بقدرته التي لا يمتنع معها عليه شيء أراده «وَاخْتِلافُ ألْسِنَتِكُمْ» يقول: واختلاف منطق ألسنتكم ولغاتها «وألْوَانِكُمْ» يقول: واختلاف ألوان أجسامكم «إنَّ فِي ذلكَ لآياتٍ للْعالَمِينَ» يقول: إن في فعله ذلك كذلك لعبراً وأدلة لخلقه الذين يعقلون أنه لا يعيبه إعادتهم لهيئتهم التي كانوا بها قبل مماتهم من بعد فنائهم. وقد بيَّنا معنى العالمين فيما مضى قبل.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=30&tAyahNo=22&tDisplay=yes&UserProfile=0&LanguageId=1

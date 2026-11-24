@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-8-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يذكر الطبري أن الله يوسع من رزقه لمن يشاء من خلقه ويضيّق على من يشاء، فأرزاقهم وقسمتها بيده دون غيره، فلا يمنعنّهم عن الهجرة وجهاد العدو خوف الفقر، إن الله بكل شيء عليم بمصالحكم ومن لا يصلح له إلا البسط في الرزق ومن لا يصلح له إلا التضييق. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=29&tAyahNo=62&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «ٱللَّهُ يَبْسُطُ ٱلرِّزْقَ لِمَن يَشَآءُ مِنْ عِبَادِهِ وَيَقْدِرُ لَهُ إِنَّ ٱللَّهَ بِكُلِّ شَيْءٍ عَلِيمٌ»: الله يوسع من رزقه لمن يشاء من خلقه، ويضيق فيُقتِّر لمن يشاء منهم. يقول: فأرزاقكم وقسمتها بينكم أيها الناس بيدي دون كل أحد سواي أبسط لمن شئت منها، وأقتر على من شئت، فلا يخلفنكم عن الهجرة وجهاد عدوّكم خوف العيلة «إنَّ اللّهَ بكُلّ شَيْءٍ عَلِيمٌ» يقول: إن الله عليم بمصالحكم، ومن لا يصلُح له إلاَّ البسط في الرزق، ومن لا يصلح له إلاَّ التقتير عليه، وهو عالم بذلك.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=29&tAyahNo=62&tDisplay=yes&UserProfile=0&LanguageId=1

@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-8-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن هؤلاء المشركين يستعجلون بمجيء العذاب والنار بهم محيطة لم يبق إلا أن يدخلوها، ويذكر قولاً أن المراد بالمحيطة البحر، وينقل ذلك عن عكرمة. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=29&tAyahNo=54&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «يَسْتَعْجِلُونَكَ بِٱلْعَذَابِ وَإِنَّ جَهَنَّمَ لَمُحِيطَةٌ بِٱلْكَافِرِينَ»: يستعجلكَ يا محمد هؤلاء المشركون بمجيء العذاب ونزوله بهم، والنار بهم محيطة لم يبق إلاَّ أن يدخلوها. وقيل: إن ذلك هو البحر. وينقل في المقطع أقوالاً عن سماك.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=29&tAyahNo=54&tDisplay=yes&UserProfile=0&LanguageId=1
