@@ -101,12 +101,12 @@ landing:
   featured: Pilihan · Perubahan di setiap kunjungan
   last_updated: 'Pembaruan terakhir: {date} GMT'
   pillars:
-    0: Gratis tanpa iklan, selalu
-    1: Data Terbuka dan Teks Terbuka
-    2: Setiap informasi didokumentasikan dari sumbernya.
-    3: Semua sekte dan tradisi, dengan adil
-    4: Arab dulu, Inggris datang, lalu bahasa lain
-    5: Ditulis untuk orang asing yang penasaran terlebih dahulu
+    - Gratis tanpa iklan, selalu
+    - Data Terbuka dan Teks Terbuka
+    - Setiap informasi didokumentasikan dari sumbernya.
+    - Semua sekte dan tradisi, dengan adil
+    - Arab dulu, Inggris datang, lalu bahasa lain
+    - Ditulis untuk orang asing yang penasaran terlebih dahulu
   shop_cats:
     apparel: Pakaian dan Mode
     art: Kaligrafi dan Cetakan Seni
@@ -723,11 +723,11 @@ search:
   hint: 'Coba misalnya:'
   zero_results: 'Kami tidak menemukan hasil untuk «[SEARCH_TERM]». Coba kata yang lebih pendek atau periksa ejaan, atau coba: Mekah, doa, Andalusia.'
   examples:
-    0: Migrasi
-    1: Badr
-    2: Mekah
-    3: Aisha
-    4: Al-Qur'an
+    - Migrasi
+    - Badr
+    - Mekah
+    - Aisha
+    - Al-Qur'an
 wander:
   title: Wander
   lede: Biarkan museum memilih untuk Anda. Setiap klik membawa Anda ke materi yang tidak Anda minta.
@@ -5062,24 +5062,39 @@ grand_tour:
   ribbon_label: Posisi Anda dalam sejarah
   ribbon_now: 'Aku meraih di sirkusmu: {c}'
   centuries:
-    0: Sebelum Migrasi
-    1: Abad Hijriyah Pertama
-    2: Abad Hijriyah Kedua
-    3: Abad ketiga AH
-    4: Abad keempat AH
-    5: Abad ke-5 AH
-    6: Abad keenam AH
-    7: Abad ketujuh AH
-    8: Abad kedelapan AH
-    9: Abad Hijriyah Kesembilan
-    10: Abad kesepuluh AH
-    11: Abad Kesebelas Hijriyah
-    12: Abad kedua belas AH
-    13: Abad Ketiga Belas Hijriyah
-    14: Abad keempat belas AH
-    15: Abad kelima belas AH
+    - Sebelum Migrasi
+    - Abad Hijriyah Pertama
+    - Abad Hijriyah Kedua
+    - Abad ketiga AH
+    - Abad keempat AH
+    - Abad ke-5 AH
+    - Abad keenam AH
+    - Abad ketujuh AH
+    - Abad kedelapan AH
+    - Abad Hijriyah Kesembilan
+    - Abad kesepuluh AH
+    - Abad Kesebelas Hijriyah
+    - Abad kedua belas AH
+    - Abad Ketiga Belas Hijriyah
+    - Abad keempat belas AH
+    - Abad kelima belas AH
   centuries_short:
-    0: Q.H
+    - "SH"
+    - "1"
+    - "2"
+    - "3"
+    - "4"
+    - "5"
+    - "6"
+    - "7"
+    - "8"
+    - "9"
+    - "10"
+    - "11"
+    - "12"
+    - "13"
+    - "14"
+    - "15"
   timeless: 'Ratusan yang melintasi: Catatan ini tidak memuat satu pun tanggal'
   anchor:
     died: Kematian
