@@ -37,6 +37,7 @@ open a new block on top with the new version and today's date.
 - **About 1,400 more Turkish and about 580 more Indonesian prose pages, machine-translated from Arabic through Microsoft Word with the paragraph-per-fragment scheme.** The new pages are Word's machine translation and no human has read them; each carries its provenance and cites the same sources as its Arabic page. Records the importer refused (lost placeholders, changed emphasis marks, typed honorifics) and 16 files that failed the validator's perspectives or reading-level rules were left untranslated rather than loosening any check; the gap to Arabic is now about 300 pages in Turkish and about 80 in Indonesian.
 
 ### Fixed
+- **Bookkeeping caught up.** The Ahmed El-Sayed ledger marks Reformers episodes 25 to 32 as merged, and `docs/coverage.md` counts the treasure hunt exhibit.
 - **Three Ahmed El-Sayed lecture records no longer generalise about a people.** In the Reformers Seerah, episodes 23, 24 and 28, wording about Jews in general now names the group the lecturer speaks of or is removed, two historical statements about Banu Qurayza are restored in neutral wording, and a report from Anas on the poisoned sheep that had been displaced in four languages is back. In all seven languages.
 
 ## v2.28.0 — 2026-11-23
