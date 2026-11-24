@@ -3,6 +3,11 @@ id: passage/quran-43-65
 lang: ar
 source_lang: ar
 translators: []
+provenance:
+  generated_by: "Claude Code (Sonnet 5.5 session)"
+  model: claude-sonnet-5-5
+  run: altafsir-tabari-batch-10-2026-11-24
+  source: source/altafsir-tabari
 ---
 
 ## موجز
@@ -10,3 +15,7 @@ translators: []
 
 ## موضعها
 موضعها: الآية 65 من أصل 89 آية في السورة. النص محفوظ من مصحف تنزيل المجمّد ولا يُعاد كتابته هنا.
+
+## تفسير الطبري
+
+يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل الآيات 65 إلى 66، وخلاصتها: يبيّن الطبري اختلاف أهل التأويل في المراد بالأحزاب: فقيل الجماعات التي تناظرت في أمر عيسى واختلفت فيه، وقيل غيرهم، فويل للذين ظلموا من عذاب يوم أليم. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=43&tAyahNo=65&tDisplay=yes&UserProfile=0&LanguageId=1

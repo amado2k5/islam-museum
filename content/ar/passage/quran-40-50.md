@@ -3,6 +3,11 @@ id: passage/quran-40-50
 lang: ar
 source_lang: ar
 translators: []
+provenance:
+  generated_by: "Claude Code (Sonnet 5.5 session)"
+  model: claude-sonnet-5-5
+  run: altafsir-tabari-batch-10-2026-11-24
+  source: source/altafsir-tabari
 ---
 
 ## موجز
@@ -10,3 +15,7 @@ translators: []
 
 ## موضعها
 موضعها: الآية 50 من أصل 85 آية في السورة. النص محفوظ من مصحف تنزيل المجمّد ولا يُعاد كتابته هنا.
+
+## تفسير الطبري
+
+يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل الآيات 49 إلى 50، وخلاصتها: يبيّن الطبري أن أهل جهنم يستغيثون بخزنتها: ادعوا ربكم يخفف عنا يوماً من العذاب، فيجيبهم الخزنة بأن الرسل كانت تأتيهم بالبينات فيقولون بلى، فيُقال لهم فادعوا وما دعاء الكافرين إلا في ضلال. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=40&tAyahNo=50&tDisplay=yes&UserProfile=0&LanguageId=1

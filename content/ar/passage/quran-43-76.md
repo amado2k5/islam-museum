@@ -3,6 +3,11 @@ id: passage/quran-43-76
 lang: ar
 source_lang: ar
 translators: []
+provenance:
+  generated_by: "Claude Code (Sonnet 5.5 session)"
+  model: claude-sonnet-5-5
+  run: altafsir-tabari-batch-10-2026-11-24
+  source: source/altafsir-tabari
 ---
 
 ## موجز
@@ -10,3 +15,7 @@ translators: []
 
 ## موضعها
 موضعها: الآية 76 من أصل 89 آية في السورة. النص محفوظ من مصحف تنزيل المجمّد ولا يُعاد كتابته هنا.
+
+## تفسير الطبري
+
+يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل الآيات 74 إلى 76، وخلاصتها: يبيّن الطبري أن المجرمين في عذاب جهنم خالدون لا يُفتّر عنهم وهم فيه مبلسون أي آيسون من الخير، وما ظلمناهم ولكن كانوا هم الظالمين. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=43&tAyahNo=76&tDisplay=yes&UserProfile=0&LanguageId=1
