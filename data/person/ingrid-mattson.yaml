@@ -14,6 +14,7 @@ summary:
   id: "Sebagai peneliti Kanada dalam studi Islam dan aktivis dialog antaragama, lahir pada tahun 1963, ia memeluk Islam pada tahun 1987 selama studinya. Ia meraih gelar PhD dari University of Chicago pada tahun 1999 dan belajar di Hartford Institute, di mana ia mendirikan program terakreditasi pertama untuk imam dan pembimbing Muslim yang memenuhi syarat di Amerika. Ia memimpin Islamic Association of North America (2006–2010), menjadi perempuan pertama dan mualaf pertama yang memegang jabatan presidennya. Ia memegang London Windsor Chair dalam Studi Islam di Huron College, University of Western Ontario."
 roles: [scholar, professor, activist]
 wings: [people, living]
+themes: [converts-and-leavers]
 born:
   edtf: "1963-08-24"
   hijri: "1383"
@@ -26,6 +27,8 @@ born:
 relations:
   - { type: born_in, target: place/kitchener, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-ingrid-mattson] }
   - { type: lived_in, target: place/ontario, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-ingrid-mattson] }
+story_roles:
+  - { role: convert, start: { edtf: "1987" }, status: historical, note: "Raised Catholic; converted to Islam in 1987 after reading the Qur'an, per the cited article.", sources: [source/wikipedia-ingrid-mattson-en] }
 faith:
   - value: unknown
     basis: unknown

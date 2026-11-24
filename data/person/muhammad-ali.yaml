@@ -16,6 +16,7 @@ summary:
   id: "Seorang petinju dan aktivis Amerika, lahir dengan nama Cassius Marcellus Clay Jr. di Louisville, Kentucky, pada tahun 1942, memenangkan Kejuaraan Dunia Heakey sebanyak tiga kali (1964, 1974, dan 1978). Ia memeluk Islam pada tahun 1960-an, lalu berpindah ke Islam Sunni pada tahun 1970-an. Ia menolak untuk mendaftar dalam Perang Vietnam, sehingga gelarnya dicabut hingga Mahkamah Agung membatalkan vonisnya pada tahun 1971, dan ia meninggal pada tahun 2016."
 roles: [boxer, activist]
 wings: [people]
+themes: [converts-and-leavers]
 born:
   edtf: "1942-01-17"
   hijri: "1360"
@@ -38,6 +39,8 @@ relations:
   - { type: born_in, target: place/louisville, sources: [source/wikidata-muhammad-ali], confidence: medium, note: "Wikidata P19 place of birth (Wikidata Q43668)" }
   - { type: died_in, target: place/scottsdale, sources: [source/wikidata-muhammad-ali], confidence: medium, note: "Wikidata P20 place of death (Wikidata Q49221)" }
   - { type: lived_in, target: place/cherry-hill, sources: [source/wikidata-muhammad-ali], confidence: low, note: "Wikidata P551 residence (Wikidata Q2710598)" }
+story_roles:
+  - { role: convert, status: historical, note: "Joined the Nation of Islam in the early 1960s (a movement distinct from Sunni Islam) and moved to Sunni Islam in 1975, as the cited sources record.", sources: [source/wikipedia-muhammad-ali-en, source/islamicity-muhammad-ali] }
 faith:
   - value: sunni
     basis: documented

@@ -78,9 +78,45 @@ def load_graph(path):
         if len(p) < 3:
             continue
         ar = norm(p[1])
-        if len(ar) >= 5 and len(ar.split()) <= 6:
+        words = len(ar.split())
+        cls = p[0].split("/")[0]
+        # A single common word names too many things (God's names, generic concepts): multi-word labels only, except places.
+        if words <= 6 and ((words >= 2 and len(ar) >= 7) or (cls == "place" and len(ar) >= 4)):
             out.append((p[0], f" {ar} "))
     return out
+
+
+HON_AR = re.compile(r"\s*(صلى الله عليه وسلم|صلى الله عليه وآله وسلم|صلي الله عليه وسلم|ﷺ|عليه السلام|عليهم السلام|عليها السلام|عليه الصلاة والسلام|رضي الله عنهما|رضي الله عنهم|رضي الله عنها|رضي الله عنه|رحمه الله|رحمهم الله|رحمها الله)")
+HON_EN = re.compile(r"[,]?\s*\(?\b(peace (and blessings )?be upon (him|them|her)|upon (him|whom) be peace|may (God|Allah) (be pleased with|have mercy on|bless) (him|them|her)( and grant (him|them) peace)?|may (God|Allah) bless him and grant him peace|pbuh|saws|\(s\))\)?", re.I)
+GROUP = re.compile(r"اليهود|يهود|الشيعة|الرافضة|النصارى|المسيحيين|المستشرقين|العلمانيين|الليبراليين|الكفار|المشركين|الغرب")
+SWEEP = re.compile(r"دائما|دائماً|أبدا|أبداً|طبع|خبث|حقد|غدر|مكر|كل |جميع|لا يزالون|ما زالوا|عداوة|عدوان")
+
+
+def scrub(text, lang):
+    if lang == "ar":
+        return re.sub(r"\s{2,}", " ", HON_AR.sub("", text)).strip()
+    text = HON_AR.sub("", HON_EN.sub("", text))
+    text = re.sub(r"\bAllah\b", "God", text)
+    text = re.sub(r"\s+([,.;])", r"\1", text)
+    return re.sub(r"\s{2,}", " ", text).strip()
+
+
+def review(sections):
+    """Drop claims that attach a sweeping trait to a group; flag the sections that speak of groups. Returns the dropped claims."""
+    dropped = []
+    for s in sections:
+        keep_ar, keep_en = [], []
+        grouped = False
+        for ar, en in zip(s["claims_ar"], s["claims_en"]):
+            if GROUP.search(ar):
+                grouped = True
+                if SWEEP.search(ar):
+                    dropped.append(ar); continue
+            keep_ar.append(ar); keep_en.append(en)
+        s["claims_ar"], s["claims_en"] = keep_ar, keep_en
+        if grouped or GROUP.search(s["topic_ar"]):
+            s["flags"] = ["polemical"]
+    return [d for d in dropped]
 
 
 def extract(a):
@@ -112,17 +148,21 @@ def extract(a):
         en = (r or {}).get("claims", [])
         if len(en) != len(s["claims_ar"]):
             en = ["He says that (translation failed)" for _ in s["claims_ar"]]
-        s["claims_en"] = [str(x).strip() for x in en]
-        s["topic_en"] = str((r or {}).get("topic", s["topic_ar"])).strip()
+        s["claims_ar"] = [scrub(x, "ar") for x in s["claims_ar"]]
+        s["topic_ar"] = scrub(s["topic_ar"], "ar")
+        s["claims_en"] = [scrub(str(x), "en") for x in en]
+        s["topic_en"] = scrub(str((r or {}).get("topic", s["topic_ar"])), "en")
     # entities by label match
     for s in sections:
         blob = " " + norm(" ".join(s["claims_ar"]) + " " + s["topic_ar"]) + " "
         s["entities"] = list(dict.fromkeys(i for i, lab in graph if lab in blob))[:30]
         s["stated_sources"] = []
         s["flags"] = []
+    dropped = review(sections)
+    sections = [s for s in sections if s["claims_ar"]]
     summary = " ".join(s["topic_en"] for s in sections[:6])
     out = {"episode": a.episode, "title_ar": a.ledger_title, "summary_en": f"The episode covers: {summary}.", "sections": sections,
-           "unmatched": [], "excluded": [{"what": "opening and closing praise, prayers, recitation, preaching and chat", "why": "not museum facts"}],
+           "unmatched": [], "excluded": [{"what": "opening and closing praise, prayers, recitation, preaching and chat", "why": "not museum facts"}] + [{"what": d[:80], "why": "generalising judgement about a people"} for d in dropped],
            "_local": {"model": a.model, "claims_kept": kept, "claims_total": total, "seconds": int(time.time() - t0), "rejects": rejects[:20]}}
     Path(a.out).write_text(json.dumps(out, ensure_ascii=False, indent=1) + "\n", encoding="utf8")
     print(f"{len(sections)} sections, {kept}/{total} claims kept, {int(time.time() - t0)}s -> {a.out}")
