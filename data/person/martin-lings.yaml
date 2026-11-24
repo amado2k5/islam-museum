@@ -1,0 +1,59 @@
+id: person/martin-lings
+class: person
+label: { ar: "مارتن لينغز", en: "Martin Lings (Abu Bakr Siraj al-Din)", ur: "مارٹن لنگز ⁦(ابوبکر سراج الدین)⁩", fr: "Martin Lings (Abu Bakr Siraj al-Din)", es: "Martin Lings (Abu Bakr Siraj al-Din)", tr: "Martin Lings", id: "Martin Lings" }
+names:
+  - { value: "Martin Lings", kind: full }
+  - { value: "Abu Bakr Siraj al-Din", kind: full }
+  - { value: "Abu Bakr Siraj ad-Din", kind: full }
+  - { value: "مارتن لينغز", kind: full }
+  - { value: "أبو بكر سراج الدين", kind: full }
+  - { value: "مارٹن لنگز", kind: full }
+gender: male
+summary:
+  ar: "كاتب وباحث إنجليزي، وُلد سنة 1909 في بيرناج بلانكشاير وتوفي سنة 2005 في كنت. درس الأدب الإنجليزي في أكسفورد، وانتقل إلى القاهرة سنة 1939، واعتنق الإسلام في مصر في نحو 1939–1940 وتسمّى أبا بكر سراج الدين، وتبع الطريقة الشاذلية العلوية. عمل في المتحف البريطاني، وأشهر كتبه «محمد: سيرته من أقدم المصادر» (1983)."
+  en: "English writer and scholar, born in 1909 at Burnage, Lancashire, who died in 2005 in Kent. After studying English at Oxford he moved to Cairo in 1939, embraced Islam in Egypt around 1939–1940 under the name Abu Bakr Siraj al-Din, and followed the Shadhili-Alawi Sufi path. He worked at the British Museum, and his best-known book is Muhammad: His Life Based on the Earliest Sources (1983)."
+  ur: "انگریز مصنف اور عالم، جو 1909 میں لنکاشائر کے بَرنیج میں پیدا ہوئے اور 2005 میں کینٹ میں وفات پائی۔ آکسفورڈ میں انگریزی ادب پڑھنے کے بعد وہ 1939 میں قاہرہ گئے، مصر میں تقریباً 1939–1940 میں ابوبکر سراج الدین کے نام سے مسلمان ہوئے اور شاذلی علوی صوفی راہ کی پیروی کی۔ انھوں نے برٹش میوزیم میں کام کیا اور ان کی سب سے معروف کتاب «محمد: ابتدائی مآخذ پر مبنی ان کی سیرت» (1983) ہے۔"
+  fr: "Écrivain et érudit anglais, né en 1909 à Burnage (Lancashire) et mort en 2005 dans le Kent. Après des études d'anglais à Oxford, il s'installa au Caire en 1939, embrassa l'islam en Égypte vers 1939–1940 sous le nom d'Abu Bakr Siraj al-Din et suivit la voie soufie chadhilie-alawite. Il travailla au British Museum ; son livre le plus connu est *Muhammad: His Life Based on the Earliest Sources* (1983)."
+  es: "Escritor y erudito inglés, nacido en 1909 en Burnage (Lancashire) y fallecido en 2005 en Kent. Tras estudiar inglés en Oxford se trasladó a El Cairo en 1939, abrazó el islam en Egipto hacia 1939–1940 con el nombre de Abu Bakr Siraj al-Din y siguió la vía sufí shadhilí-alawí. Trabajó en el Museo Británico y su libro más conocido es *Muhammad: His Life Based on the Earliest Sources* (1983)."
+roles: [writer, scholar, teacher]
+regions: [andalus-europe, egypt-nile]
+wings: [people]
+themes: [converts-and-leavers]
+born:
+  edtf: "1909-01-24"
+  hijri: "1327"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born on 24 January 1909 at Burnage, Lancashire (now Manchester); English Wikipedia, Encyclopedia.com's Contemporary Authors notice and Living Islam's reproduced obituaries agree. No place entity for Burnage exists. The Hijri year is derived by tabular conversion."
+  sources: [source/wikipedia-martin-lings-en, source/encyclopedia-com-lings-contemporary-authors, source/livingislam-lings-obituaries-2005]
+died:
+  edtf: "2005-05-12"
+  hijri: "1426"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Died on 12 May 2005 at Westerham, Kent, at his home (Wikipedia, Encyclopedia.com, the Guardian obituary); Wikidata carries a second value, 11 May. No place entity for Westerham exists. The Hijri year is derived by tabular conversion."
+  sources: [source/wikipedia-martin-lings-en, source/encyclopedia-com-lings-contemporary-authors, source/livingislam-lings-obituaries-2005]
+relations:
+  - { type: lived_in, target: place/cairo, sources: [source/wikipedia-martin-lings-en, source/encyclopedia-com-lings-contemporary-authors, source/livingislam-lings-obituaries-2005] }
+  - { type: authored, target: work/muhammad-his-life-based-on-the-earliest-sources, sources: [source/wikipedia-martin-lings-en, source/livingislam-lings-obituaries-2005] }
+story_roles:
+  - { role: convert, start: { edtf: "1939" }, status: historical, note: "Embraced Islam in Egypt: the Times obituary dates it to 1939, the Guardian to about 1940; Encyclopedia.com places it in Cairo after 1939. The date is therefore recorded as 1939 with this range stated.", sources: [source/livingislam-lings-obituaries-2005, source/encyclopedia-com-lings-contemporary-authors, source/wikipedia-martin-lings-en] }
+faith:
+  - value: sufi
+    basis: documented
+    start: { edtf: "1939" }
+    note: "Two independent texts name the order for the man himself: English Wikipedia says he joined the Alawiyya branch of the Shadhili order that Frithjof Schuon led and remained his disciple, and the Times and Guardian obituaries (Living Islam) say he followed Schuon as a Sufi master and later became shaykh of a branch of the Shadhiliyya. The record notes membership of the man, not headship."
+    sources: [source/wikipedia-martin-lings-en, source/livingislam-lings-obituaries-2005]
+external_ids: { wikidata: "Q957553" }
+sources: [source/wikipedia-martin-lings-en, source/wikidata-martin-lings, source/encyclopedia-com-lings-contemporary-authors, source/livingislam-lings-obituaries-2005]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Martin Lings' (revision 1378701564), Wikidata Q957553, the Contemporary Authors obituary notice on Encyclopedia.com and the Times and Guardian obituaries reproduced by Living Islam (4 June 2005), all read on 23 November 2026. No earlier record existed in data/person/. Wikipedia is used for entity facts only."
+  generated_by: "Claude Code"
+  model: "claude-sonnet-5-5"
+  run: converts-wave2
+status: { review: published, completeness: 3, generated_by: "Claude Code" }
