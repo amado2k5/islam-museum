@@ -24,7 +24,7 @@ Catatan di museum terhubung ke bagian ini: [[concept/al-sira-al-nabawiyya|Biogra
 - Ia menceritakan kisah Jubayr ibn Mut'im, yang kehilangan unta dan melihat Nabi berdiri di Arafah, sehingga ia terkejut mengira itu berasal dari al-Hams. {cite:podcast-ahmed-el-sayed seerah-2026/ep4}
 - Ia menjelaskan bahwa ayat-ayat Safa dan Marwah disebutkan untuk menghilangkan kesulitan karena beberapa Ansar biasa pergi ke Manat dan takut akan kemiripan. Dalam kisah lain, dua patung disebutkan: Isaf dan Na'ilah. {cite:podcast-ahmed-el-sayed seerah-2026/ep4}
 - Penunjukan Rajab Mudar oleh Nabi dalam Hadis Bulan-bulan Suci menjelaskan bahwa ia memutuskan perselisihan antara Rabia dan Mudar mengenai bulan keempat bulan-bulan suci. {cite:podcast-ahmed-el-sayed seerah-2026/ep4}
-- Ia menjelaskan bahwa ayat tentang mengenakan hiasan di setiap masjid terungkap karena beberapa orang Arab selain Hamas biasa mengelilingi rumah dalam keadaan telanjang. {cite:podcast-ahmed-el-sayed seerah-2026/ep4}
+- Ia menjelaskan bahwa ayat tentang mengenakan hiasan di setiap masjid terungkap karena beberapa orang Arab selain Hums biasa mengelilingi rumah dalam keadaan telanjang. {cite:podcast-ahmed-el-sayed seerah-2026/ep4}
 - Diceritakan dari Ibn Abbas bahwa siapa pun yang ingin mengetahui ketidaktahuan orang Arab harus membaca setelah seratus tiga puluh ayat Surah Al-An'am. {cite:podcast-ahmed-el-sayed seerah-2026/ep4}
 
 Catatan di museum terhubung ke bagian ini: [[concept/hums|antusiasme]]، [[place/muzdalifa|Muzdalifah]]، [[place/arafat|Arafat]]، [[person/jubayr-ibn-mutim|Jubeir bin Mut'im]]، [[object/manat|Manat]]، [[person/abdullah-ibn-abbas|Abdullah bin Abbas]]، [[building/kaaba|Ka'bah]]

@@ -32,7 +32,7 @@ Catatan di museum terhubung ke bagian ini: [[place/al-safa|Safa]]، [[practice/s
 
 - Perlu disebutkan bahwa ayat yang memerintah kelimpahan dalam konteks masyarakat berkaitan dengan susunan pra-Islam, dan interpretasi ini ditemukan dalam Sahih al-Bukhari. {cite:podcast-ahmed-el-sayed seerah-lilmuslihin/ep3}
 - Diceritakan bahwa Quraisy disebut Al-Hams, dan memiliki aturan khusus mengenai Haji, dan bahwa aliran itu mengalir dari Muzdalifah tetapi tidak berhenti di Arafat, sementara orang lain meluap dari Arafat. {cite:podcast-ahmed-el-sayed seerah-lilmuslihin/ep3}
-- Ia menceritakan sebuah laporan dari Jubayr ibn Mut'im bahwa ia melihat Nabi berdiri di Arafah sebelum Islam, dan ia terkejut karena berasal dari Hamas, dan ia ragu-ragu untuk menyebutkan waktu pasti laporan tersebut. {cite:podcast-ahmed-el-sayed seerah-lilmuslihin/ep3}
+- Ia menceritakan sebuah laporan dari Jubayr ibn Mut'im bahwa ia melihat Nabi berdiri di Arafah sebelum Islam, dan ia terkejut karena beliau berasal dari Hums, dan ia ragu-ragu untuk menyebutkan waktu pasti laporan tersebut. {cite:podcast-ahmed-el-sayed seerah-lilmuslihin/ep3}
 - Disebutkan bahwa orang-orang biasa mengelilingi rumah dalam keadaan telanjang, dan Quraisy memberikan apa yang mereka tutupi. Diceritakan bahwa ayat tentang memakai hiasan di setiap masjid diungkapkan mengenai hal ini. {cite:podcast-ahmed-el-sayed seerah-lilmuslihin/ep3}
 
 Catatan di museum terhubung ke bagian ini: [[concept/hums|antusiasme]]، [[group/quraysh|Quraisy]]، [[place/muzdalifa|Muzdalifah]]، [[place/arafat|Arafat]]، [[person/jubayr-ibn-mutim|Jubeir bin Mut'im]]، [[person/muhammad|Muhammad]]، [[practice/tawaf|Tawaf]]، [[practice/hajj|Haji]]، [[work/sahih-al-bukhari|Sahih al-Bukhari]]
