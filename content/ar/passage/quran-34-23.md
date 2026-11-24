@@ -3,6 +3,11 @@ id: passage/quran-34-23
 lang: ar
 source_lang: ar
 translators: []
+provenance:
+  generated_by: "Claude Code (Sonnet 5.5 session)"
+  model: claude-sonnet-5-5
+  run: altafsir-tabari-batch-9-2026-11-24
+  source: source/altafsir-tabari
 ---
 
 ## موجز
@@ -10,3 +15,7 @@ translators: []
 
 ## موضعها
 موضعها: الآية 23 من أصل 54 آية في السورة. النص محفوظ من مصحف تنزيل المجمّد ولا يُعاد كتابته هنا.
+
+## تفسير الطبري
+
+يفسّر الطبري أن الشفاعة عند الله لا تنفع إلا لمن أذن له، وأن الله لا يأذن لأحد في الشفاعة للكافرين، فإذا فُزّع عن قلوبهم قالوا ماذا قال ربكم قالوا الحق وهو العلي الكبير. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=34&tAyahNo=23&tDisplay=yes&UserProfile=0&LanguageId=1
