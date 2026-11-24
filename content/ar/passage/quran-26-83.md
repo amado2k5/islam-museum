@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-8-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري الآيات 83 إلى 84 معاً في موضع واحد. يفسّر الطبري دعاء إبراهيم أن يهب الله له حكماً بأنه نبوة، وأن يلحقه بالصالحين بأن يجعله رسولاً إلى خلقه في عداد رسله المؤتمنين على وحيه، وأن يجعل له لسان صدق في الآخرين أي ذكراً جميلاً وثناءً حسناً باقياً فيمن يجيء بعده من القرون، وينقل عن عكرمة. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=26&tAyahNo=83&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 83 إلى 84 مقطعاً واحداً. يفسّر قوله «رَبِّ هَبْ لِي حُكْماً وَأَلْحِقْنِي بِٱلصَّالِحِينَ»: يقول تعالى ذكره مخبرا عن مسألة خليله إبراهيم إياه «رَبّ هَبْ لي حُكْماً» يقول: ربّ هب لي نبوّة «وألْحِقْنِي بالصَّالِحِينَ» يقول: واجعلني رسولاً إلى خلقك، حتى تلحقني بذلك بِعداد من أرسلته من رسلك إلى خلقك، واتمنته على وحيك، واصطفيته لنفسك. وقوله: وينقل في المقطع أقوالاً عن عكرمة وابن زيد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=26&tAyahNo=83&tDisplay=yes&UserProfile=0&LanguageId=1

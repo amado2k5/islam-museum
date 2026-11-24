@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-8-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري الآيات 96 إلى 98 معاً في موضع واحد. يقول الطبري إن الغاوين والأنداد التي عبدوها وجنود إبليس يختصمون في الجحيم فيقولون إنهم كانوا في ضلال مبين حين سوّوا بين أندادهم وبين رب العالمين فعبدوهم من دونه، وينقل عن ابن زيد. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=26&tAyahNo=98&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 96 إلى 98 مقطعاً واحداً. يفسّر قوله «إِذْ نُسَوِّيكُمْ بِرَبِّ ٱلْعَالَمِينَ»: يقول الغاوون للذين يعبدونهم من دون الله: تالله إن كنا لفي ذهاب عن الحق حين نعد لكم برب العالمين فنعبدكم من دونه. وينقل في المقطع أقوالاً عن ابن زيد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=26&tAyahNo=98&tDisplay=yes&UserProfile=0&LanguageId=1
