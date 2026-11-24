@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-12-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل الآيات [[passage/quran-71-5|71:5]] إلى [[passage/quran-71-7|71:7]]، وخلاصتها: يبيّن الطبري أن نوحاً قال لربه إنه دعا قومه ليلاً ونهاراً إلى توحيده وعبادته وحذّرهم بأسه. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=71&tAyahNo=5&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 5 إلى 7 مقطعاً واحداً. يفسّر قوله «قَالَ رَبِّ إِنِّي دَعَوْتُ قَوْمِي لَيْلاً وَنَهَاراً»: قال نوح لما بلغ قومه رسالة ربه، أو أنذرهم ما أمره به أن ينذرهموه فعصوه، وردّوا عليه ما أتاهم به من عنده: «رَبّ إنّي دَعَوْتُ قَوْمي لَيْلاً وَنهاراً» إلى توحيدك وعبادتك، وحذّرتهم بأسك وسطوتك، «فَلَمْ يَزِدْهُمْ دُعائي إلاَّ فِرَاراً» يقول: فلم يزدهم دعائي إياهم إلى ما دعوتهم إليه من الحقّ الذي أرسلتني به لهم «إلاَّ فِرَاراً» يقول: إلا إدباراً عنه وهرباً منه وإعراضاً عنه. وقد: عن معمر، عن قتادة، في قوله: «فَلَمْ يَزِدْهُمْ دُعائي إلاَّ فِرَاراً» قال: بلغنا أنهم كانوا يذهب الرجل بابنه إلى نوح، فيقول لابنه: احذر هذا لايغوينك، فأراني قد ذهب بي أبي إليه وأنا مثلك، فحذرني كما حذّرتك. وينقل في المقطع أقوالاً عن قتادة وابن زيد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=71&tAyahNo=5&tDisplay=yes&UserProfile=0&LanguageId=1

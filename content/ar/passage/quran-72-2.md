@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-12-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل الآيات [[passage/quran-72-1|72:1]] إلى [[passage/quran-72-3|72:3]]، وخلاصتها: يذكر الطبري أن النفر من الجن قالوا لقومهم إنهم سمعوا قرآناً عجباً يهدي إلى الرشد، أي يدل على الحق والصواب، فآمنوا به ولن يشركوا بربهم أحداً. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=72&tAyahNo=2&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 2 إلى 4 مقطعاً واحداً. يفسّر قوله «قُلْ أُوحِيَ إِلَيَّ أَنَّهُ ٱسْتَمَعَ نَفَرٌ مِّنَ ٱلْجِنِّ فَقَالُوۤاْ إِنَّا سَمِعْنَا قُرْآناً عَجَباً»: يقول جلّ ثناؤه لنبيه محمد: قل يا محمد أوحى الله إليّ «أنَّهُ اسْتَمَعَ نَفَرٌ مِنَ الجِنّ» هذا القرآن «فَقالُوا» لقومهم لما سمعوه «إنَّا سَمِعْنا قُرْآناً عَجَباً يَهْدِي إلى الرُّشْدِ» يقول: يدلّ على الحقّ وسبيل الصواب «فآمَنَّا بِهِ» يقول: فصدّقناه «وَلَن نُشْرِكَ برَبِّنا أحَداً» من خلقه. وينقل في المقطع أقوالاً عن ابن عباس وسفيان.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=72&tAyahNo=2&tDisplay=yes&UserProfile=0&LanguageId=1

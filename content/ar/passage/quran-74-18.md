@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-12-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل الآيات [[passage/quran-74-18|74:18]] إلى [[passage/quran-74-25|74:25]]، وخلاصتها: يبيّن الطبري أن هذا الذي خلقه الله وحيداً فكّر فيما أنزل على محمد من القرآن، وقدّر ما يقول فيه. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=74&tAyahNo=18&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 18 إلى 25 مقطعاً واحداً. يفسّر قوله «إِنَّهُ فَكَّرَ وَقَدَّرَ»: إن هذا الذي خلقته وحيداً، فكَّر فيما أنزل على عبده محمد من القرآن، وقدّر فيما يقول فيه «فَقُتِلَ كَيْفَ قَدَّرَ» يقول: ثم لعن كيف قدّر النازل فيه «ثُمَّ نَظَرَ» يقول: ثم روّي في ذلك «ثُمَّ عَبَس» يقول: ثم قبض ما بين عينيه «وَبَسَرَ» يقول: كلح وجهه ومنه قول توبة بن الحُمَيِّر:وَقَدْ رَابَنِي مِنْها صُدُودٌ رأيتُهُ وإعْراضُها عَنْ حاجَتِي وبُسُورُها وينقل في المقطع أقوالاً عن ابن عباس وقتادة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=74&tAyahNo=18&tDisplay=yes&UserProfile=0&LanguageId=1

@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-12-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل الآيات [[passage/quran-70-29|70:29]] إلى [[passage/quran-70-31|70:31]]، وخلاصتها: يبيّن الطبري أن من التمس لفرجه منكحاً سوى زوجته أو ملك يمينه فهو من العادين الذين تجاوزوا ما أحل الله إلى ما حرّم عليهم. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=70&tAyahNo=31&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 29 إلى 31 مقطعاً واحداً. يفسّر قوله «فَمَنِ ٱبْتَغَىٰ وَرَآءَ ذَلِكَ فَأُوْلَٰئِكَ هُمُ ٱلْعَادُونَ»: فمن التمس لفرجه منكحاً سوى زوجته، أو ملك يمينه، ففاعلو ذلك هم العادون، الذي عدوا ما أحلّ الله لهم إلى ما حرّم عليهم فهم الملومون.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=70&tAyahNo=31&tDisplay=yes&UserProfile=0&LanguageId=1

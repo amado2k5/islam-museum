@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-12-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن العقوبات المذكورة تكون يوم ترجف الأرض والجبال، أي تضطرب بمن عليها، وهو يوم القيامة، وتكون الجبال رملاً سائلاً متناثراً، ويروي ذلك عن ابن عباس. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=73&tAyahNo=14&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «يَوْمَ تَرْجُفُ ٱلأَرْضُ وَٱلْجِبَالُ وَكَانَتِ ٱلْجِبَالُ كَثِيباً مَّهِيلاً»: إن لدينا لهؤلاء المشركين من قريش الذين يؤذونك يا محمد العقوبات التي وصفها في يوم ترجف الأرض والجبال ورُجفان ذلك: اضطرابه بمن عليه، وذلك يوم القيامة. وقوله: «وكانَتِ الجبالُ كَثِيباً مَهِيلاً» يقول: وكانت الجبال رملاً سائلاً متناثراً. والمهيل: مفعول من قول القائل: هلت الرمل فأنا أهيله، وذلك إذا حُرِّك أسفله، فانهال عليه من أعلاه وللعرب في ذلك لغتان، تقول: مهيل ومهيول، ومكيل ومكيول ومنه قول الشاعر:قدْ كانَ قَوْمُكَ يَحْسَبُونَكَ سَيِّداً وإخالُ أنَّكَ سَيِّدٌ مَغْيُونُ وينقل في المقطع أقوالاً عن ابن عباس ومجاهد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=73&tAyahNo=14&tDisplay=yes&UserProfile=0&LanguageId=1

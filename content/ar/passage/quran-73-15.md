@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-12-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل الآيات [[passage/quran-73-15|73:15]] إلى [[passage/quran-73-16|73:16]]، وخلاصتها: يذكر الطبري أن الله أرسل إلى الناس رسولاً شاهداً عليهم بإجابة من أجاب وامتناع من امتنع، كما أرسل إلى فرعون مصر رسولاً. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=73&tAyahNo=15&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 15 إلى 16 مقطعاً واحداً. يفسّر قوله «إِنَّآ أَرْسَلْنَآ إِلَيْكُمْ رَسُولاً شَاهِداً عَلَيْكُمْ كَمَآ أَرْسَلْنَآ إِلَىٰ فِرْعَوْنَ رَسُولاً»: «إنا أرْسَلْنا إلَيْكُمْ» أيها الناس «رَسُولاً شاهِداً عَلَيْكُمْ» بإجابة من أجاب منكم دعوتي، وامتناع من امتنع منكم من الإجابة، يوم تلقوني في القيامة «كمَا أرْسَلْنا إلى فِرْعَوْنَ رَسُولاً» يقول: مثل إرسالنا من قبلكم إلى فرعون مصر رسولاً بدعائه إلى الحقّ، «فَعَصَى فِرْعَوْنُ الرَّسُولَ» الذي أرسلناه إليه «فأَخَذْناهُ أخْذاً وَبِيلاً» يقول: فأخذناه أخذاً شديداً، فأهلكناه ومن معه جميعاً وهو من قولهم: كلأٌ مستَوْبل، إذا كان لا يُستمرأ، وكذلك الطعام. وينقل في المقطع أقوالاً عن ابن عباس ومجاهد وقتادة وابن زيد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=73&tAyahNo=15&tDisplay=yes&UserProfile=0&LanguageId=1

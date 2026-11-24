@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-12-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل الآيات [[passage/quran-71-15|71:15]] إلى [[passage/quran-71-18|71:18]]، وخلاصتها: يبيّن الطبري أن الله أنشأ الناس من تراب الأرض نباتاً. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=71&tAyahNo=17&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 15 إلى 18 مقطعاً واحداً. يفسّر قوله «وَٱللَّهُ أَنبَتَكُمْ مِّنَ ٱلأَرْضِ نَبَاتاً»: والله أنشأكم من تراب الأرض، فخلقكم منه إنشاء «ثُمَّ يُعِيدُكُمْ فِيها» يقول: ثم يعيدكم في الأرض كما كنتم تراباً فيصيركم كما كنتم من قبل أن يخلقكم «ويُخْرِجُكُمْ إخْرَاجاً» يقول ويخرجكم منها إذا شاء أحياء كما كنتم بشراً من قبل أن يعيدكم فيها، فيصيركم تراباً إخراجاً. وينقل في المقطع أقوالاً عن قتادة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=71&tAyahNo=17&tDisplay=yes&UserProfile=0&LanguageId=1

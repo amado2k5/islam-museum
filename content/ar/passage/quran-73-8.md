@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-12-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل الآيات [[passage/quran-73-8|73:8]] إلى [[passage/quran-73-10|73:10]]، وخلاصتها: يشرح الطبري أن الله يأمر نبيه بذكر اسمه والانقطاع إليه، وأن التبتل الانقطاع إلى الله في الحاجات والعبادة، ويروي عن ابن عباس ومجاهد أنه إخلاص له إخلاصاً. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=73&tAyahNo=8&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 8 إلى 10 مقطعاً واحداً. يفسّر قوله «وَٱذْكُرِ ٱسْمَ رَبِّكَ وَتَبَتَّلْ إِلَيْهِ تَبْتِيلاً»: «وَاذْكُرْ» يا محمد «اسْمَ رَبِّكَ» فادعه به «وَتَبَتَّلْ إلَيْهِ تَبْتِيلاً» يقول: وانقطع إليه انقطاعاً لحوائجك وعبادتك دون سائر الأشياء غيره وهو من قولهم: تبتَّلتُ هذا الأمر ومنه قيل لأمّ عيسى بن مريم البتول، لانقطاعها إلى الله ويقال للعابد المنقطع عن الدنيا وأسبابها إلى عبادة الله: قد تبتل ومنه الخبر الذي رُوي عن النبيّ «أنه نهى عن التبتُّل». وينقل في المقطع أقوالاً عن ابن عباس ومجاهد وقتادة والحسن وابن زيد وسفيان.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=73&tAyahNo=8&tDisplay=yes&UserProfile=0&LanguageId=1

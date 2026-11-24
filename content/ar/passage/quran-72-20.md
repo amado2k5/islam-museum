@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-12-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل الآيات [[passage/quran-72-20|72:20]] إلى [[passage/quran-72-22|72:22]]، وخلاصتها: يعرض الطبري قراءتين في «قل» و«قال»: على الخبر عن النبي أنه قال، أو على الأمر له بأن يقول، ويرى أنهما قراءتان صحيحتان، والمعنى أنه يدعو ربه ولا يشرك به أحداً. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=72&tAyahNo=20&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 20 إلى 22 مقطعاً واحداً. يفسّر قوله «قُلْ إِنَّمَآ أَدْعُواْ رَبِّي وَلاَ أُشْرِكُ بِهِ أَحَداً»: اختلفت القرّاء في قراءة قوله: «قُلْ إنَّمَا أدْعُو رَبي» فقرأته عامة قرّاء المدينة والبصرة وبعض الكوفيين على وجه الخبر «قال» بالألف ومن قرأ ذلك كذلك، جعله خبراً من الله عن نبيه محمد أنه قال، فيكون معنى الكلام: وأنه لما قام عبد الله يدعوه تلبدوا عليه، قال لهم: إنما أدعو ربي، ولا أشرك به أحداً. وقرأ ذلك بعض المدنيين وعامة قرّاء الكوفة على وجه الأمر من الله عزّ وجلّ لنبيه: قل يا محمد للناس الذين كادوا يكونوا عليك لبداً، إنما أدعو ربي ولا أشرك به أحداً. والصواب من القول في ذلك أنهما قراءتان معروفتان، فبأيتهما قرأ القارىء فمصيب. وقوله: وينقل في المقطع أقوالاً عن قتادة وسفيان.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=72&tAyahNo=20&tDisplay=yes&UserProfile=0&LanguageId=1

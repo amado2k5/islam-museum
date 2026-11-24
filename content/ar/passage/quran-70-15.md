@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-12-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل الآيات [[passage/quran-70-15|70:15]] إلى [[passage/quran-70-18|70:18]]، وخلاصتها: يبيّن الطبري أن «كلا» ردّ لما تمنوه، أي ليس ينجيه من عذاب الله شيء، ثم يخبر عما أُعدّ له، فلظى اسم من أسماء جهنم، ويعرض أوجه إعراب لظى ونزاعة. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=70&tAyahNo=15&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 15 إلى 18 مقطعاً واحداً. يفسّر قوله «كَلاَّ إِنَّهَا لَظَىٰ»: كلا ليس ذلك كذلك، ليس ينجيه من عذاب الله شيء. ثم ابتدأ الخبر عما أعدّه له هنالك جلّ ثناؤه، فقال: «إنَّها لَظَى» ولظى: اسم من أسماء جهنم، ولذلك لم يجز. واختلف أهل العربية في موضعها، فقال بعض نحويي البصرة: موضعها نصب على البدل من الهاء، وخبر إن: «نَزَّاعةً» قال: وإن شئت جعلت لظَى رفعاً على خبر إن، ورفعت «نَزَّاعَةً» على الابتداء. وقال بعض من أنكر ذلك: لا ينبغي أن يتبع الظاهر المكنى إلا في الشذوذ قال: والاختيار «إنَّها لَظَى نَزَّاعَةً للشَّوَى» لظى: الخبر، ونزاعة: حال قال: ومن رفع استأنف، لأنه مدح أو ذمّ قال: ولا تكون ابتداء إلا كذلك. وينقل في المقطع أقوالاً عن ابن عباس ومجاهد وسفيان.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=70&tAyahNo=15&tDisplay=yes&UserProfile=0&LanguageId=1

@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-12-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل الآيات [[passage/quran-72-9|72:9]] إلى [[passage/quran-72-10|72:10]]، وخلاصتها: يبيّن الطبري أن الجن كانوا يقعدون من السماء مقاعد للسمع، فمن يستمع الآن يجد له شهاباً قد رُصد له، ويروي أنهم لما حُرست السماء بعد البعثة طلبوا السبب حتى وجدوا النبي يصلي بأصحابه. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=72&tAyahNo=9&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 9 إلى 10 مقطعاً واحداً. يفسّر قوله «وَأَنَّا كُنَّا نَقْعُدُ مِنْهَا مَقَاعِدَ لِلسَّمْعِ فَمَن يَسْتَمِعِ ٱلآنَ يَجِدْ لَهُ شِهَاباً رَّصَداً»: يقول عزّ وجلّ: وإنا كنا معشر الجنّ نقعد من السماء مقاعد لنسمع ما يحدث، وما يكون فيها، «فَمَنْ يَسْتَمِع الآنَ» فيها منا «يَجدْ لَهُ شِهاباً رَصَداً» يعني: شهاب نار قد رصد له به. وينقل في المقطع أقوالاً عن قتادة وابن زيد والكلبي.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=72&tAyahNo=9&tDisplay=yes&UserProfile=0&LanguageId=1

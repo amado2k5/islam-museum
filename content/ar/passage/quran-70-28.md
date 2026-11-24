@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-12-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-لا يتضمن النص المحفوظ لهذه الصفحة تعليقاً مستقلاً على هذه الآية؛ إذ ينتهي التعليق المحفوظ عند الآية الخامسة والعشرين. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=70&tAyahNo=28&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 28 إلى 32 مقطعاً واحداً. يفسّر قوله «وَٱلَّذِينَ فِيۤ أَمْوَٰلِهِمْ حَقٌّ مَّعْلُومٌ»: وإلا الذين في أموالهم حقّ مؤقت، وهو الزكاة للسائل الذي يسأله من ماله، والمحروم الذي قد حرم الغنى، فهو فقير لا يسأل. واختلف أهل التأويل في المعنيّ بالحقّ المعلوم الذي ذكره الله في هذا الموضع، فقال بعضهم: هو الزكاة. وينقل في المقطع أقوالاً عن ابن عباس ومجاهد وقتادة وسعيد بن جبير والأعمش وإبراهيم وغيرهم.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=70&tAyahNo=28&tDisplay=yes&UserProfile=0&LanguageId=1

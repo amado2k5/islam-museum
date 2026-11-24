@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-12-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل الآيات [[passage/quran-70-29|70:29]] إلى [[passage/quran-70-31|70:31]]، وخلاصتها: يبيّن الطبري أن الذين هم لفروجهم حافظون يحفظونها عن كل ما حرّم الله وضعها فيه. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=70&tAyahNo=29&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 29 إلى 31 مقطعاً واحداً. يفسّر قوله «وَٱلَّذِينَ هُمْ لِفُرُوجِهِمْ حَافِظُونَ»: «وَالَّذِينَ هُمْ لِفُرُوجِهِمْ حافِظُونَ» يعني أقبالهم حافظون عن كلّ ما حرّم الله عليهم وضعها فيه «إلاَّ» أنهم غير ملومين في ترك حفظها «على أزْوَاجِهِم أوْ ما مَلَكَتْ أيمَانُهُمْ» من إمائهم. وقيل: «لِفُرُوجِهمْ حافِظُونَ إلاَّ على أزْوَاجِهِمْ» ولم يتقدم ذلك جحد لدلالة قوله: «فإنَّهُمْ غَيرُ مَلُومِينَ» على أن في الكلام معنى جحد، وذلك كقول القائل: اعمل ما بدا لك إلا على ارتكاب المعصية، فإنك معاقب عليه، ومعناه: اعمل ما بدا لك إلا أنك معاقب على ارتكاب المعصية. وقوله:
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=70&tAyahNo=29&tDisplay=yes&UserProfile=0&LanguageId=1

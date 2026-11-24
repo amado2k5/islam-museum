@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-12-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل الآيات [[passage/quran-73-1|73:1]] إلى [[passage/quran-73-4|73:4]]، وخلاصتها: يذكر الطبري أن الله خيّره في قيام الليل بين منازل: نصفه أو أنقص منه قليلاً. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=73&tAyahNo=3&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 3 إلى 6 مقطعاً واحداً. يفسّر قوله «يٰأَيُّهَا ٱلْمُزَّمِّلُ»: يعني بقوله: «يأَيُّها المُزَّمِّلُ» هو الملتفّ بثيابه. وإنما عني بذلك نبيّ الله. واختلف أهل التأويل في المعنى الذي وصف الله به نبيه في هذه الآية من التزمُّل، فقال بعضهم: وصفه بأنه مُتَزمل في ثيابه، متأهب للصلاة. وينقل في المقطع أقوالاً عن قتادة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=73&tAyahNo=3&tDisplay=yes&UserProfile=0&LanguageId=1

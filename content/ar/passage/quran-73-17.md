@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-12-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل الآيات [[passage/quran-73-17|73:17]] إلى [[passage/quran-73-18|73:18]]، وخلاصتها: يشرح الطبري أن الله يسأل المشركين كيف يخافون يوماً يجعل الولدان شيباً إن كفروا به، وهو يوم القيامة. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=73&tAyahNo=17&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 17 إلى 18 مقطعاً واحداً. يفسّر قوله «فَكَيْفَ تَتَّقُونَ إِن كَفَرْتُمْ يَوْماً يَجْعَلُ ٱلْوِلْدَانَ شِيباً»: يقول تعالى ذكره للمشركين به: فكيف تخافون أيها الناس يوماً يجعل الولدان شيباً إن كفرتم بالله، ولم تصدّقوا به. وذُكر أن ذلك كذلك في قراءة عبد الله بن مسعود. وينقل في المقطع أقوالاً عن ابن عباس ومجاهد وقتادة والحسن وابن زيد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=73&tAyahNo=17&tDisplay=yes&UserProfile=0&LanguageId=1

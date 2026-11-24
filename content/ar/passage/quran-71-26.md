@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-12-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل الآيات [[passage/quran-71-25|71:25]] إلى [[passage/quran-71-26|71:26]]، وخلاصتها: يفسّر الطبري الديّار بمن يدور في الأرض ويذهب فيها ويجيء، ويشرح صيغة اللفظ، ويبيّن أن نوحاً دعا ألا يترك على الأرض أحداً من الكافرين. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=71&tAyahNo=26&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 25 إلى 26 مقطعاً واحداً. يفسّر قوله «وَقَالَ نُوحٌ رَّبِّ لاَ تَذَرْ عَلَى ٱلأَرْضِ مِنَ ٱلْكَافِرِينَ دَيَّاراً»: ويعني بالدَّيار من يدور في الأرض، فيذهب ويجيء فيها وهو فَيْعال من الدوران ديواراً، اجتمعت الياء والواو، فسبقت الياء الواو وهي ساكنة، وأدغمت الواو فيها، وصيرتا ياء مشددة، كما قيل: الحيّ القيام من قمت، وإنما هو قيوام: والعرب تقول: ما بها ديار ولا عريب، ولا دويّ، ولا صافر، ولا نافخ ضرمة، يعني بذلك كله: ما بها أحد. وينقل في المقطع أقوالاً عن ابن زيد وسفيان.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=71&tAyahNo=26&tDisplay=yes&UserProfile=0&LanguageId=1

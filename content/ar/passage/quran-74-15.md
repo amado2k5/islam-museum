@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-12-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل الآيات [[passage/quran-74-13|74:13]] إلى [[passage/quran-74-17|74:17]]، وخلاصتها: يبيّن الطبري أنه يطمع ويأمل أن يزيده الله من المال والولد على ما أُعطي. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=74&tAyahNo=15&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 15 إلى 19 مقطعاً واحداً. يفسّر قوله «وَبَنِينَ شُهُوداً»: وجعلت له بنين شهوداً، ذُكر أنهم كانوا عشرة. وينقل في المقطع أقوالاً عن ابن عباس ومجاهد وقتادة وسفيان وعطية.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=74&tAyahNo=15&tDisplay=yes&UserProfile=0&LanguageId=1

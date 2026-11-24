@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-12-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل الآيات [[passage/quran-71-8|71:8]] إلى [[passage/quran-71-11|71:11]]، وخلاصتها: يذكر الطبري أن نوحاً قال لهم: اطلبوا من ربكم مغفرة ذنوبكم وتوبوا من الكفر ووحّدوه وأخلصوا له العبادة، فإنه كان غفاراً لمن أناب. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=71&tAyahNo=10&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 8 إلى 11 مقطعاً واحداً. يفسّر قوله «فَقُلْتُ ٱسْتَغْفِرُواْ رَبَّكُمْ إِنَّهُ كَانَ غَفَّاراً»: فقلت لهم: سلوا ربكم غُفْران ذنوبكم، وتوبوا إليه من كفركم، وعبادة ما سواه من الآلهة ووحدوه، وأخلصوا له العبادة، يغفر لكم، إنه كان غفارا لذنوب من أناب إليه، وتاب إليه من ذنوبه. وقوله: وينقل في المقطع أقوالاً عن مجاهد وسفيان.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=71&tAyahNo=10&tDisplay=yes&UserProfile=0&LanguageId=1
