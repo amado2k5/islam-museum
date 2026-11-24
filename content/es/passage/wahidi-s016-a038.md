@@ -12,7 +12,7 @@ The verse, in al-Wahidi's heading: «وأقسموا بالله جهد أيمان
 
 ## Informe completo (texto fuente en árabe)
 
-يموت، فأنزل اللههذه الآية.
+{38}. قال الربيع بن أنس، عن أبي العالية: كان لرجل من المسلمين على رجل من المشركين دين، فأتاه يتقاضاه، فكان فيما تكلم به: والذي أرجوه بعد الموت، فقال المشرك: وإنك لتزعم أنك لتبعث بعد الموت، فأقسم بالله لا يبعث الله من يموت، فأنزل الله هذه الآية.
 
 ## Place in the museum
 Fuente: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an de al-Wahidi]]. El versículo: [[passage/quran-16-38|Corán 16-38]].

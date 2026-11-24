@@ -12,7 +12,7 @@ The verse, in al-Wahidi's heading: «قل لا أملك لنفسي نفعا ول
 
 ## Full report (Arabic source text)
 
-فأنزل اللههذه الآية.
+قال الكلبي: إن أهل مكة قالوا: يا محمد ألا يخبرك ربك بالسعر الرخيص قبل أن يغلو فتشري فتربح؟ وبالأرض التي يريد أن تجدب فترحل عنها إلى ما قد أخصب؟ فأنزل الله هذه الآية.
 
 ## Place in the museum
 Source: [[work/asbab-al-nuzul-wahidi|al-Wahidi's Asbab nuzul al-Qur'an]]. The verse: [[passage/quran-7-188|Qur'an 7-188]].

@@ -12,7 +12,7 @@ The verse, in al-Wahidi's heading: «ولو نزلنا عليك كتابا في 
 
 ## Full report (Arabic source text)
 
-رسوله فنزلت هذه الآية.
+قال الكلبي إن مشركي مكة قالوا: يا محمد والله لا نؤمن لك حتى تأتينا بكتاب من عند الله ومعه أربعة من الملائكة يشهدون أنه من عند الله وأنك رسوله فنزلت هذه الآية.
 
 ## Place in the museum
 Source: [[work/asbab-al-nuzul-wahidi|al-Wahidi's Asbab nuzul al-Qur'an]]. The verse: [[passage/quran-6-7|Qur'an 6-7]].

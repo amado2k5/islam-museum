@@ -12,7 +12,7 @@ The verse, in al-Wahidi's heading: «لا يحب الله الجهر بالسو�
 
 ## Full report (Arabic source text)
 
-إن ضيفا تضيف قوما فأساءوا قراه فاشتكاهم، فنزلت هذه الآية
+قال مجاهد. إن ضيفا تضيف قوما فأساءوا قراه فاشتكاهم، فنزلت هذه الآية رخصة في أن يشكوا. قوله: {يسألك أهل الكتاب أن تنزل عليهم كتابا} الآية {153}. نزلت في اليهود قالوا للنبي- إن كنت نبيا فأتنا بالكتاب جملة من السماء كما أتى به موسى، فأنزل الله هذه الآية.
 
 ## Place in the museum
 Source: [[work/asbab-al-nuzul-wahidi|al-Wahidi's Asbab nuzul al-Qur'an]]. The verse: [[passage/quran-4-148|Qur'an 4-148]].

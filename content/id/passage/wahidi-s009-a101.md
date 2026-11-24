@@ -12,7 +12,7 @@ The verse, in al-Wahidi's heading: «وممن حولكم من الأعراب م�
 
 ## Laporan lengkap (teks sumber Arab)
 
-قال الكلبي: نزلت في جهينة ومزينة وأشجع وأسلم وغفار {ومن أهل المدينة}
+قال الكلبي: نزلت في جهينة ومزينة وأشجع وأسلم وغفار {ومن أهل المدينة} يعني عبد الله بن أبي وجد بن قيس، ومعتب بن قشير والجلاس بن سويد، وأبا عامر الراهب.
 
 ## Place in the museum
 Sumber: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an al-Wahidi]]. Ayatnya: [[passage/quran-9-101|Al-Qur'an 9-101]].

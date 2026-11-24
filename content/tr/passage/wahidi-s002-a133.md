@@ -12,7 +12,7 @@ The verse, in al-Wahidi's heading: «أم كنتم شهداء إذ حضر يعق
 
 ## Tam rivayet (Arapça kaynak metin)
 
-نزلت في اليهود حين قالوا للنبي- ألست تعلم أن
+نزلت في اليهود حين قالوا للنبي- ألست تعلم أن يعقوب يوم مات أوصى بنيه باليهودية.
 
 ## Place in the museum
 Kaynak: [[work/asbab-nuzul-wahidi|El-Vahidi'nin Esbab Nüzul el-Kur'an'ı]]. Ayet: [[passage/quran-2-133|Kur'an 2-133]].

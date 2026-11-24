@@ -12,7 +12,7 @@ The verse, in al-Wahidi's heading: «إن الذين كفروا بعد إيما�
 
 ## Informe completo (texto fuente en árabe)
 
-قال الحسن وقتادة وعطاء الخراساني: نزلت في اليهود كفروا بعيسى والإنجيل،
+قال الحسن وقتادة وعطاء الخراساني: نزلت في اليهود كفروا بعيسى والإنجيل، ثم ازدادوا كفرا بمحمد والقرآن. وقال أبو العالية: نزلت في اليهود والنصارى، كفروا بمحمد - بعد إيمانهم بنعته وصفته، ثم ازدادوا كفرا بإقامتهم على كفرهم.
 
 ## Place in the museum
 Fuente: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an de al-Wahidi]]. El versículo: [[passage/quran-3-90|Corán 3-90]].

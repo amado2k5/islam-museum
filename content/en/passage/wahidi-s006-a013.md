@@ -12,7 +12,7 @@ The verse, in al-Wahidi's heading: «وله ما سكن في الليل والن
 
 ## Full report (Arabic source text)
 
-عليه، فنزلت هذه الآية.
+قال الكلبي عن ابن عباس: إن كفار مكة أتوا رسول الله - فقالوا: يا محمد إنا قد علمنا أنه إنما يحملك على ما تدعو إليه الحاجة، فنحن نجعل لك نصيبا في أموالنا حتى تكون أغنانا رجلا وترجع عما أنت عليه، فنزلت هذه الآية.
 
 ## Place in the museum
 Source: [[work/asbab-al-nuzul-wahidi|al-Wahidi's Asbab nuzul al-Qur'an]]. The verse: [[passage/quran-6-13|Qur'an 6-13]].

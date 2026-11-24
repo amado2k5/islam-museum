@@ -12,7 +12,7 @@ The verse, in al-Wahidi's heading: «3».
 
 ## Full report (Arabic source text)
 
-نزلت في عدي بن ربيعة، وذلك أنه أتى النبي- فقال:
+نزلت في عدي بن ربيعة، وذلك أنه أتى النبي- فقال: حدثني عن يوم القيامة متى يكون وكيف يكون أمرها وحالها؟ فأخبره النبي - بذلك، فقال: لو عاينت ذلك اليوم لم أصدقك يا محمد ولم أؤمن به، أو يجمع الله هذه العظام، فأنزل الله هذه الآية.
 
 ## Place in the museum
 Source: [[work/asbab-al-nuzul-wahidi|al-Wahidi's Asbab nuzul al-Qur'an]]. The verse: [[passage/quran-75-3|Qur'an 75-3]].

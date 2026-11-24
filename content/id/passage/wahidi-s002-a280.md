@@ -12,7 +12,7 @@ The verse, in al-Wahidi's heading: «وإن كان ذو عسرة».
 
 ## Laporan lengkap (teks sumber Arab)
 
-أن تدرك الثمرة، فأبوا أن يؤخروهم فأنزل الله: {وإن كان ذو عسرة}
+قال الكلبي: قالت بنو عمرو بن عمير لبني المغيرة: هاتوا رؤوس أموالنا ولكن الربا ندعه لكم، فقالت بنو المغيرة: نحن اليوم أهل عسرة فأخرونا إلى أن تدرك الثمرة، فأبوا أن يؤخروهم فأنزل الله: {وإن كان ذو عسرة} الآية.
 
 ## Place in the museum
 Sumber: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an al-Wahidi]]. Ayatnya: [[passage/quran-2-280|Al-Qur'an 2-280]].

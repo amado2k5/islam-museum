@@ -12,7 +12,7 @@ The verse, in al-Wahidi's heading: «يا أيها الذين آمنوا لا ت
 
 ## Rapport complet (texte source arabe)
 
-قال ابن عباس ومجاهد: نزلت في قوم من المؤمنين كانوا يصافون المنافقين
+{118}. قال ابن عباس ومجاهد: نزلت في قوم من المؤمنين كانوا يصافون المنافقين ويواصلون رجالا من اليهود لما كان بينهم من القرابة والصداقة والحلف والجوار والرضاع، فأنزل الله هذه الآية ينهاهم عن مباطنتهم خوف الفتنة منهم عليهم.
 
 ## Place in the museum
 Source : [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an d'al-Wahidi]]. Le verset : [[passage/quran-3-130|Coran 3-130]].

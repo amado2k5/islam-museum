@@ -12,7 +12,7 @@ The verse, in al-Wahidi's heading: «كنتم خير أمة».
 
 ## Rapport complet (texte source arabe)
 
-قال عكرمة ومقاتل: نزلت في ابن مسعود وأبي بن كعب ومعاذ بن جبل وسالم
+قال عكرمة ومقاتل: نزلت في ابن مسعود وأبي بن كعب ومعاذ بن جبل وسالم مولى أبي حذيفة، وذلك أن مالك بن الضيف، ووهب بن يهوذا اليهوديين قالا لهم: إن ديننا خير مما تدعونا إليه، ونحن خير وأفضل منكم، فأنزل الله هذه الآية.
 
 ## Place in the museum
 Source : [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an d'al-Wahidi]]. Le verset : [[passage/quran-3-110|Coran 3-110]].

@@ -12,7 +12,7 @@ The verse, in al-Wahidi's heading: «53».
 
 ## Rapport complet (texte source arabe)
 
-نزلت في عمر بن الخطاب- وذلك أن رجلا من العرب شتمه،
+نزلت في عمر بن الخطاب- وذلك أن رجلا من العرب شتمه، فأمره الله بالعفو. وقال الكلبي: كان المشركون يؤذون أصحاب رسول الله - بالقول والفعل، فشكوا ذلك إلى رسول الله- فأنزل الله هذه الآية.
 
 ## Place in the museum
 Source : [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an d'al-Wahidi]]. Le verset : [[passage/quran-17-53|Coran 17-53]].

@@ -12,7 +12,7 @@ The verse, in al-Wahidi's heading: «لا تغلوا في دينكم».
 
 ## Full report (Arabic source text)
 
-نزلت في طوائف من النصارى حين قالوا عيسى ابن الله، فأنزل الله:
+نزلت في طوائف من النصارى حين قالوا عيسى ابن الله، فأنزل الله: {لا تغلوا في دينكم ولا تقولوا على الله إلا الحق} الآية.
 
 ## Place in the museum
 Source: [[work/asbab-al-nuzul-wahidi|al-Wahidi's Asbab nuzul al-Qur'an]]. The verse: [[passage/quran-4-171|Qur'an 4-171]].

@@ -12,7 +12,7 @@ The verse, in al-Wahidi's heading: «يا أيها الذين آمنوا آمن�
 
 ## Tam rivayet (Arapça kaynak metin)
 
-قال الكلبي: نزلت في عبد الله بن سلام وأسد وأسيد ابني كعب وثعلبة بن قيس
+قال الكلبي: نزلت في عبد الله بن سلام وأسد وأسيد ابني كعب وثعلبة بن قيس وجماعة من مؤمني أهل الكتاب، قالوا: يا رسول الله إنا نؤمن بك وبكتابك وبموسى والتوراة وعزير، ونكفر بما سواه من الكتب والرسل، فأنزل الله هذه الآية.
 
 ## Place in the museum
 Kaynak: [[work/asbab-nuzul-wahidi|El-Vahidi'nin Esbab Nüzul el-Kur'an'ı]]. Ayet: [[passage/quran-4-136|Kur'an 4-136]].

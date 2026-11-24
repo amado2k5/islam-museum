@@ -12,7 +12,7 @@ The verse, in al-Wahidi's heading: «أيطمع كل امرئ منهم أن يد
 
 ## Tam rivayet (Arapça kaynak metin)
 
-هؤلاء الجنة لندخلنها قبلهم، وليكونن لنا فيها أكثر مما لهم، فأنزل الله
+قال المفسرون: كان المشركون يجتمعون حول النبي- يستمعون كلامه ولا ينتفعون به، بل يكذبون به ويستهزءون ويقولون: لئن دخل هؤلاء الجنة لندخلنها قبلهم، وليكونن لنا فيها أكثر مما لهم، فأنزل الله هذه الآية.
 
 ## Place in the museum
 Kaynak: [[work/asbab-nuzul-wahidi|El-Vahidi'nin Esbab Nüzul el-Kur'an'ı]]. Ayet: [[passage/quran-70-38|Kur'an 70-38]].

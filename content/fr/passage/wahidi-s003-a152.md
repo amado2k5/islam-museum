@@ -12,7 +12,7 @@ The verse, in al-Wahidi's heading: «ولقد صدقكم الله وعده».
 
 ## Rapport complet (texte source arabe)
 
-فأنزل الله: {ولقد صدقكم الله وعده} الآية إلى قوله: {منكم من يريد
+قال محمد بن كعب القرظي: لما رجع رسول الله- إلى المدينة وقد أصيبوا بما أصيبوا يوم أحد، قال ناس من أصحابه: من أين أصابنا هذا وقد وعدنا الله النصر؟ فأنزل الله: {ولقد صدقكم الله وعده} الآية إلى قوله: {منكم من يريد الدنيا} يعني الرماة الذين فعلوا ما فعلوا يوم أحد.
 
 ## Place in the museum
 Source : [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an d'al-Wahidi]]. Le verset : [[passage/quran-3-152|Coran 3-152]].

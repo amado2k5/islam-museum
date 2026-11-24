@@ -12,7 +12,7 @@ The verse, in al-Wahidi's heading: «لكن الله يشهد بما أنزل إ
 
 ## Informe completo (texto fuente en árabe)
 
-فقالوا: سألنا عنك اليهود فزعموا
+قال الكلبي: إن رؤساء أهل مكة أتوا رسول الله- فقالوا: سألنا عنك اليهود فزعموا أنهم لا يعرفونك، فأتنا بمن يشهد لك أن الله بعثك إلينا رسولا، فنزلت هذه الآية: {لكن الله يشهد}
 
 ## Place in the museum
 Fuente: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an de al-Wahidi]]. El versículo: [[passage/quran-4-166|Corán 4-166]].
