@@ -1,6 +1,12 @@
 id: person/abu-hurayra
 class: person
 label: { en: "Abu Hurayra", ar: "أبو هريرة" , ur: "ابو ہریرہ", fr: "Abu Hurayra", es: "Abu Hurayra" }
+name_parts:
+  ism:
+    - { value: "عبد الرحمن", translit: "Abd al-Rahman", certainty: disputed, note: "His underlying personal name is disputed in historical sources; Abd al-Rahman is the one commonly given. Facts in this name block come from a research summary supplied to the museum (classical-arabic-names.md); the museum did not open the pages it cites; founder approval to use the file without re-verification, 21 Nov 2026.", sources: [source/ibn-hajar-isaba, source/jstor-schimmel-islamic-names] }
+  kunya:
+    - { value: "أبو هريرة", translit: "Abu Hurayra", meaning: { en: "Associated with a kitten", ar: "المنسوب إلى هرّة صغيرة", ur: "بلی کے بچے سے نسبت", fr: "Associé à un chaton", es: "Asociado a un gatito" }, certainty: attested, note: "By his own account in Jami al-Tirmidhi (hadith 3839) he acquired the kunya because he cared for a small kitten.", sources: [source/sunnah-com-tirmidhi-3839, source/ibn-hajar-isaba] }
+  shuhra: { value: "أبو هريرة", translit: "Abu Hurayra", certainty: attested, sources: [source/jstor-schimmel-islamic-names] }
 names:
   - { kind: full, lang: ar, value: "عبد الرحمن بن صخر الدوسي" }
 gender: male

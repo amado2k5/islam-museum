@@ -9,6 +9,14 @@ aliases: [person/al-jahiz-amr-ibn-bahr]   # same person; merged the Mawsuat A'la
 class: person
 tags: [juha-browser, juha-kind-anecdote, arabiyya-browser, arabiyya-scholars]
 label: { ar: "الجاحظ", en: "al-Jahiz", es: "al-Jahiz", fr: "al-Jahiz", ur: "الجحیز" }
+name_parts:
+  ism:
+    - { value: "عمرو", translit: "Amr", certainty: attested, sources: [source/jstor-schimmel-islamic-names], note: "Facts in this name block come from a research summary supplied to the museum (classical-arabic-names.md); the museum did not open the pages it cites; founder approval to use the file without re-verification, 21 Nov 2026." }
+  nasab:
+    - { value: "بن بحر", translit: "ibn Bahr", certainty: attested, sources: [source/beeston-arabic-nomenclature] }
+  laqab:
+    - { value: "الجاحظ", translit: "al-Jahiz", meaning: { en: "The one with protruding eyes", ar: "ذو العينين البارزتين", ur: "ابھری ہوئی آنکھوں والا", fr: "Celui aux yeux saillants", es: "El de ojos saltones" }, certainty: attested, sources: [source/jstor-schimmel-islamic-names] }
+  shuhra: { value: "الجاحظ", translit: "al-Jahiz", certainty: attested, sources: [source/jstor-schimmel-islamic-names] }
 names:
   - { kind: full, lang: ar, value: "أبو عثمان عمرو بن بحر بن محبوب الكناني الليثي الجاحظ" }
 roles: [writer, scholar]

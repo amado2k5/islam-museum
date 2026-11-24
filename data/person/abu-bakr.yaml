@@ -1,6 +1,14 @@
 id: person/abu-bakr
 class: person
 label: { en: Abu Bakr al-Siddiq, ar: أبو بكر الصديق, ur: "ابوبکر صدیق", fr: "Abu Bakr al-Siddiq", es: "Abu Bakr al-Siddiq" }
+name_parts:
+  ism:
+    - { value: "عبد الله", translit: "Abd Allah", certainty: attested, sources: [source/jstor-schimmel-islamic-names], note: "Facts in this name block come from a research summary supplied to the museum (classical-arabic-names.md); the museum did not open the pages it cites; founder approval to use the file without re-verification, 21 Nov 2026." }
+  kunya:
+    - { value: "أبو بكر", translit: "Abu Bakr", certainty: attested, note: "Famous by his kunya rather than his ism.", sources: [source/jstor-schimmel-islamic-names] }
+  laqab:
+    - { value: "الصديق", translit: "al-Siddiq", meaning: { en: "The truthful", ar: "الصادق", ur: "سچا", fr: "Le véridique", es: "El veraz" }, certainty: attested, sources: [source/jstor-schimmel-islamic-names] }
+  shuhra: { value: "أبو بكر", translit: "Abu Bakr", certainty: attested, sources: [source/jstor-schimmel-islamic-names] }
 gender: male
 born: { edtf: "0573~", calendar: julian, precision: year, status: tradition }
 died: { edtf: "0634-08", hijri: "0013-06", calendar: julian, precision: month, status: tradition }
