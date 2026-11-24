@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-8-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن الله ردّ موسى إلى أمه بعد أن التقطه آل فرعون لتقرّ عينها بابنها إذ رجع إليها سليماً ولا تحزن على فراقه، ولتعلم أن وعد الله الذي وعدها حق، ولكن أكثرهم لا يعلمون، وينقل عن قتادة. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=28&tAyahNo=13&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «فَرَدَدْنَاهُ إِلَىٰ أُمِّهِ كَيْ تَقَرَّ عَيْنُهَا وَلاَ تَحْزَنَ وَلِتَعْلَمَ أَنَّ وَعْدَ ٱللَّهِ حَقٌّ وَلَٰكِنَّ أَكْثَرَهُمْ لاَ يَعْلَمُونَ»: «فَرَدَدْنَا» موسى «إلَى أُمِّهِ» بعد أن التقطه آل فرعون، لتقرّ عينها بابنها، إذ رجع إليها سليماً من قَتل فرعون «وَلا تَحْزَنْ» على فراقه إياها «وَلِتَعْلَمَ أنَّ وَعْدَ اللّهِ» الذي وعدها إذ قال لها«فإذَا خِفْتِ عَلَيْهِ فأَلْقِيهِ فِي الْيَمّ وَلا تَخافِي وَلا تَحْزَنِي...» الآية، حقّ.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=28&tAyahNo=13&tDisplay=yes&UserProfile=0&LanguageId=1

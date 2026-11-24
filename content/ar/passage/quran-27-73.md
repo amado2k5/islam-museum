@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-8-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري الآيات 73 إلى 74 معاً في موضع واحد. يقول الطبري إن ربك لذو فضل على الناس بتركه معاجلتهم بالعقوبة على كفرهم، لكن أكثرهم لا يشكرون فيخلصوا له العبادة، وإن ربك ليعلم ضمائر صدورهم ومكنون أنفسهم وما يعلنون. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=27&tAyahNo=73&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 73 إلى 74 مقطعاً واحداً. يفسّر قوله «وَإِنَّ رَبَّكَ لَذُو فَضْلٍ عَلَى ٱلنَّاسِ وَلَٰكِنَّ أَكْثَرَهُمْ لاَ يَشْكُرُونَ»: «وَإنَّ رَبكَ» يا محمد «لَذُو فَضْلٍ عَلَى النَّاسِ» بتركه معاجلتهم بالعقوبة على معصيتهم إياه، وكفرهم به، وذو إحسان إليهم في ذلك وفي غيره من نعمه عندهم «وَلَكِنَّ أكْثَرَهُمْ لاَ يَشْكُرُونَ» هُ على ذلك من إحسانه وفضله عليهم، فيخلصوا له العبادة، ولكنهم يشركون معه في العبادة ما يضرّهم ولا ينفعهم ومن لا فضل له عندهم ولا إحسان. وقوله:
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=27&tAyahNo=73&tDisplay=yes&UserProfile=0&LanguageId=1

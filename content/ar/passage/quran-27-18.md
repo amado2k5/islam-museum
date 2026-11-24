@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-8-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يذكر الطبري أن سليمان وجنوده لما أتوا وادي النمل قالت نملة لقومها ادخلوا مساكنكم لا يكسرنكم ويقتلنكم سليمان وجنوده وهم لا يشعرون، وينقل عن عوف أن نمل سليمان كان مثل الذباب. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=27&tAyahNo=18&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «حَتَّىٰ إِذَآ أَتَوْا عَلَىٰ وَادِ ٱلنَّمْلِ قَالَتْ نَمْلَةٌ يٰأَيُّهَا ٱلنَّمْلُ ٱدْخُلُواْ مَسَاكِنَكُمْ لاَ يَحْطِمَنَّكُمْ سُلَيْمَانُ وَجُنُودُهُ وَهُمْ لاَ يَشْعُرُونَ»: يعني تعالى ذكره بقوله: «حتى إذَا أتَوْا عَلى وَادِي النَّمْلِ» حتى إذا أتى سليمان وجنوده على وادي النمل «قالَتْ نَمْلَةٌ يا أيُّها النَّمْلُ ادْخُلُوا مَساكِنَكُمْ لا يحْطِمَنَّكُمْ سلَيْمانُ وَجُنُودُهُ» يقول: لا يكسرنكم ويقتلنكم سليمان وجنوده «وَهُمْ لا يَشْعُرُونَ» يقول: وهم لا يعلمون أنهم يحطمونكم. قالا عن الأعمش، عن رجل يقال له الحكم، عن عوف، في قوله: «قالَتْ نَمْلَةٌ يا أيها النَّمْلُ» قال: كان نمل سليمان بن داود مثل الذباب. وينقل في المقطع أقوالاً عن الأعمش.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=27&tAyahNo=18&tDisplay=yes&UserProfile=0&LanguageId=1

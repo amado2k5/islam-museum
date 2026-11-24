@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-8-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن ملكة سبأ قالت إن الملوك إذا دخلوا قرية عنوة وغلبة أفسدوها أي خربوها، وجعلوا أعزة أهلها أذلة باستعبادهم الأحرار واسترقاقهم، وأن الله قال وكذلك يفعلون، أي كما قالت تفعل الملوك إذا دخلت قرية عنوة. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=27&tAyahNo=34&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «قَالَتْ إِنَّ ٱلْمُلُوكَ إِذَا دَخَلُواْ قَرْيَةً أَفْسَدُوهَا وَجَعَلُوۤاْ أَعِزَّةَ أَهْلِهَآ أَذِلَّةً وَكَذٰلِكَ يَفْعَلُونَ»: قالت صاحبة سبأ للملأ من قومها، إذا عرضوا عليها أنفسهم لقتال سليمان، إن أَمَرَتَهم بذلك: «إنَّ المُلُوكَ إذَا دَخَلُوا قَرْيَةً» عَنْوةً وغَلَبةً «أفْسَدُوها» يقول: خرّبوها «وَجَعَلُوا أعِزَّةَ أهْلِها أذِلَّةً» وذلك باستعبادهم الأحرار، واسترقاقهم إياهم وتناهى الخبر منها عن الملوك في هذا الموضع، فقال الله: «وكذلكَ يَفْعَلُونَ» يقول تعالى ذكره: وكما قالت صاحبة سبأ تفعل الملوك، إذا دخلوا قرية عَنْوة. وينقل في المقطع أقوالاً عن ابن عباس.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=27&tAyahNo=34&tDisplay=yes&UserProfile=0&LanguageId=1

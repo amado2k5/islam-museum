@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-8-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري الآيات 5 إلى 6 معاً في موضع واحد. يبيّن الطبري أن «ونريد» معطوف على استضعاف فرعون لطائفة من بني إسرائيل، فالله يريد أن يمنّ على الذين استُضعفوا ويجعلهم أئمة ويجعلهم الوارثين، ويمكّن لهم في الأرض، ويري فرعون وهامان وجنودهما منهم ما كانوا يحذرون، وينقل عن قتادة في ذلك. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=28&tAyahNo=6&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 6 إلى 7 مقطعاً واحداً. يفسّر قوله «وَنُرِيدُ أَن نَّمُنَّ عَلَى ٱلَّذِينَ ٱسْتُضْعِفُواْ فِي ٱلأَرْضِ وَنَجْعَلَهُمْ أَئِمَّةً وَنَجْعَلَهُمُ ٱلْوَارِثِينَ»: قوله: «وَنُرِيدُ» عطف على قوله«يَسْتَضْعفُ طائِفَة مِنْهُمْ» ومعنى الكلام: أن فرعون علا في الأرض وجعل أهلها من بني إسرائيل فِرَقاً يستضعِف طائفة منهم «وَ» نَحْنُ «نُرِيدُ أنْ نَمُنَّ عَلَى الَّذِينَ» استضعفهم فرعون من بني إسرائيل «وَنَجْعَلَهُمْ أئِمَّةً». وينقل في المقطع أقوالاً عن قتادة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=28&tAyahNo=6&tDisplay=yes&UserProfile=0&LanguageId=1

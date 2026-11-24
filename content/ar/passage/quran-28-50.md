@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-8-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إنه إن لم يجبك هؤلاء القائلون للتوراة والإنجيل إنهما سحران إلى أن يأتوك بكتاب هو أهدى منهما فاعلم أنما يتبعون أهواءهم، وأن ما ينطقون به كذب وباطل، ويناقش سؤالاً عن علم النبي بذلك، ومن أضلّ ممن اتبع هواه بغير هدى من الله، إن الله لا يهدي القوم الظالمين. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=28&tAyahNo=50&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «فَإِن لَّمْ يَسْتَجِيبُواْ لَكَ فَٱعْلَمْ أَنَّمَا يَتَّبِعُونَ أَهْوَآءَهُمْ وَمَنْ أَضَلُّ مِمَّنِ ٱتَّبَعَ هَوَاهُ بِغَيْرِ هُدًى مِّنَ ٱللَّهِ إِنَّ ٱللَّهَ لاَ يَهْدِي ٱلْقَوْمَ ٱلظَّالِمِينَ»: فإن لم يجبك هؤلاء القائلون للتوراة والإنجيل: سحران تظاهرا، الزاعمون أن الحقّ في غيرهما، من اليهود يا محمد، إلى أن يأتوك بكتاب من عند الله، هو أهدى منهما، فاعلم أنما يتبعون أهواءهم، وأن الذي ينطقون به، ويقولون في الكتابين، قول كذب وباطل، لا حقيقة له، ولعل قائلاً أن يقول: أو لم يكن النبيّ يعلم أن ما قال القائلون من اليهود وغيرهم في التوراة والإنجيل من الإفك والزور، المسموهما سحرين: باطل من القول، إلاَّ بأن لا يجيبوه إلى إتيانهم بكتاب هو أهدى منهما؟
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=28&tAyahNo=50&tDisplay=yes&UserProfile=0&LanguageId=1

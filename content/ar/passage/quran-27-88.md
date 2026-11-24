@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-8-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يفسّر الطبري أن النبي يرى الجبال يحسبها قائمة جامدة وهي تمر مرّ السحاب، وينقل عن ابن عباس أن «جامدة» بمعنى قائمة، وأن ذلك صنع الله الذي أتقن كل شيء، إنه خبير بما تفعلون. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=27&tAyahNo=88&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَتَرَى ٱلْجِبَالَ تَحْسَبُهَا جَامِدَةً وَهِيَ تَمُرُّ مَرَّ ٱلسَّحَابِ صُنْعَ ٱللَّهِ ٱلَّذِيۤ أَتْقَنَ كُلَّ شَيْءٍ إِنَّهُ خَبِيرٌ بِمَا تَفْعَلُونَ»: «وَتَرى الجِبَالَ» يا محمد «تَحْسَبُها» قائمة «وَهِيَ تَمُرُ». كالذي. وقال: ثني معاوية، عن عليّ، عن ابن عباس، قوله: «وَتَرَى الجبالَ تَحْسَبُها جامِدَةً» يقول: قائمة، وإنما قيل: «وَهِيَ تَمُرُّ مَرَّ السَّحابِ» لأنها تجمع ثم تسير، فيحسب رائيها لكثرتها أنها واقفة، وهي تسير سيراً حثيثاً، كما قال الجعدي:بأرْعَنَ مِثْلِ الطَّوْدِ تَحْسِبُ أنَّهُمْ وُقُوفٌ لِحاجٍ والرّكابُ تُهَمْلجُ قوله: «صُنْعَ اللّهِ الَّذِي أتْقَنَ كُلَّ شَيْءٍ» وأوثق خلقه. وينقل في المقطع أقوالاً عن ابن عباس ومجاهد وابن جريج.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=27&tAyahNo=88&tDisplay=yes&UserProfile=0&LanguageId=1

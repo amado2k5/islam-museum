@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-8-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن ما أُعطي الناس من أموال وأولاد فإنما هو متاع الحياة الدنيا وزينتها لا يغني عنهم عند الله شيئاً ولا ينفعهم في معادهم، وما عند الله لأهل طاعته وولايته خير وأبقى لأنه دائم لا نفاد له، أفلا تعقلون. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=28&tAyahNo=60&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَمَآ أُوتِيتُم مِّن شَيْءٍ فَمَتَاعُ ٱلْحَيَاةِ ٱلدُّنْيَا وَزِينَتُهَا وَمَا عِندَ ٱللَّهِ خَيْرٌ وَأَبْقَىٰ أَفَلاَ تَعْقِلُونَ»: وما أُعطيتم أيها الناس من شيء من الأموال والأولاد، فإنما هو متاع تتمتعون به في هذه الحياة الدنيا، وهو من زينتها التي يترين به فيها، لا يغنى عنكم عند الله شيئا، ولا ينفعكم شيء منه في معادكم، وما عند الله لأهل طاعته وولايته خير مما أوتيتموه أنتم في هذه الدنيا من متاعها وزينتها وأبقى، يقول: وأبقى لأهله، لأنه دائم لا نفاد له. وينقل في المقطع أقوالاً عن ابن إسحاق.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=28&tAyahNo=60&tDisplay=yes&UserProfile=0&LanguageId=1

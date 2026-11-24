@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-8-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري الآيات 79 إلى 80 معاً في موضع واحد. يبيّن الطبري أن الله أمر نبيه بتفويض أموره إليه والثقة به لأنه كافيه، وأنه على الحق المبين دون ما عليه اليهود والنصارى المختلفون ودون أهل الأوثان، فلا يحزنه تكذيب من كذّبه، وأنه لا يُسمع الموتى، أي لا يقدر أن يُفهم الحق من طبع الله على قلبه. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=27&tAyahNo=79&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 79 إلى 80 مقطعاً واحداً. يفسّر قوله «فَتَوَكَّلْ عَلَى ٱللَّهِ إِنَّكَ عَلَى ٱلْحَقِّ ٱلْمُبِينِ»: ففوِّض إلى الله يا محمد أمورك، وثق به فيها، فإنه كافيك «إنَّكَ عَلى الحَقّ المُبِين» لمن تأمَّله، وفكر ما فيه بعقل، وتدبره بفهم، أنه الحقّ، دون ما عليه اليهود والنصارى المختلفون من بني إسرائيل، ودون ما عليه أهل الأوثان المكذّبوك فيما أتيتهم به من الحقّ، يقول: فلا يحزنك تكذيب من كذّبك، وخلاف من خالفك، وامض لأمر ربك الذي بعثك به.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=27&tAyahNo=79&tDisplay=yes&UserProfile=0&LanguageId=1

@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-8-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن النبي مأمور أن يكون من المسلمين وأن يتلو القرآن، فمن اهتدى فإنما يهتدي لنفسه لأنه يأمن بإيمانه نقمة الله في الدنيا وعذابه في الآخرة، ومن ضلّ فيقول له إنما أنا من المنذرين الذين ينذرون قومهم عذاب الله وسخطه على معصيتهم. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=27&tAyahNo=92&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَأَنْ أَتْلُوَاْ ٱلْقُرْآنَ فَمَنِ ٱهْتَدَىٰ فَإِنَّمَا يَهْتَدِي لِنَفْسِهِ وَمَن ضَلَّ فَقُلْ إِنَّمَآ أَنَاْ مِنَ ٱلْمُنذِرِينَ»: «قُلِ إنَّما أُمِرْتُ أَنْ أَعْبُدَ رَبَّ هذِه البَلْدَةِ» و «أَنْ أَكُونَ مِنَ المُسْلِمِين وأنْ أتْلُوَا القُرآنَ، فَمَنِ اهْتَدَى» يقول: فمن تبعني وآمن بي وبما جئت به، فسلك طريق الرشاد «فإنَّمَا يَهْتَدِي لِنَفْسِهِ» يقول: فإنما يسلك سبيل الصواب باتباعه إياي، وإيمانه بي، وبما جئت به لنفسه، لأنه بإيمانه بي، وبما جئت به يأمن نقمته في الدنيا وعذابه في الآخرة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=27&tAyahNo=92&tDisplay=yes&UserProfile=0&LanguageId=1

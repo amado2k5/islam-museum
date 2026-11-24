@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-8-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن النبي لا يهدي من أحب هدايته، لكن الله يهدي من يشاء بتوفيقه للإيمان به وبرسوله، ويذكر أن المعنى يصح أيضاً على أن لا تهدي من أحببت لقرابته منك، والله أعلم بالمهتدين، أي بمن سبق في علمه أنه يهتدي للرشاد فيوفقه. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=28&tAyahNo=56&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «إِنَّكَ لاَ تَهْدِي مَنْ أَحْبَبْتَ وَلَٰكِنَّ ٱللَّهَ يَهْدِي مَن يَشَآءُ وَهُوَ أَعْلَمُ بِٱلْمُهْتَدِينَ»: «إنَّكَ» يا محمد «لا تَهْدِي مَنْ أحْبَبْتَ» هدايته، «وَلَكِنَّ اللّهَ يَهْدِي مَنْ يَشاءُ» أن يهديه من خلقه، بتوفيقه للإيمان به وبرسوله. ولو قيل: معناه: إنك لا تهدي من أحببته، لقرابته منك، ولكن الله يهدي من يشاء، كان مذهباً. «وَهُوَ أعْلَمُ بالمُهْتَدِينَ»: يقول جلّ ثناؤه: والله أعلم من سبق له في علمه أنه يهتدي للرشاد، ذلك الذي يهديه الله فيسدّده ويوفِّقه. وذُكر أن هذه الآية نزلت على رسول الله من أجل امتناع أبي طالب عمه من إجابته، إذ دعاه إلى الإيمان بالله، إلى ما دعاه إليه من ذلك.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=28&tAyahNo=56&tDisplay=yes&UserProfile=0&LanguageId=1

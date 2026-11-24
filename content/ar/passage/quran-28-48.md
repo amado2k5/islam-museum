@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-8-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن هؤلاء لما جاءهم الحق من عند الله، وهو محمد بالرسالة، قالوا تمرداً هلا أوتي مثل ما أوتي موسى من الكتاب، فيقول الله لنبيه قل لقريش القائلين: أولم يكفروا بما أوتي موسى من قبل، قالوا سحران تظاهرا وقالوا إنا بكل كافرون. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=28&tAyahNo=48&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «فَلَمَّا جَآءَهُمُ ٱلْحَقُّ مِنْ عِندِنَا قَالُواْ لَوْلاۤ أُوتِيَ مِثْلَ مَآ أُوتِيَ مُوسَىٰ أَوَلَمْ يَكْفُرُواْ بِمَآ أُوتِيَ مُوسَىٰ مِن قَبْلُ قَالُواْ سِحْرَانِ تَظَاهَرَا وَقَالُواْ إِنَّا بِكُلٍّ كَافِرُونَ»: فلما جاء هؤلاء الذين لم يأتهم من قبلك يا محمد نذير فبعثناك إليهم نذيراً «الحقّ من عِنْدِنَا»، وهو محمد بالرسالة من الله إليهم، قالوا تمْرداً على الله، وتمادياً في الغيّ: هلا أوتي هذا الذي أرسل إلينا، وهو محمد مثل ما أوتي موسى بن عمران من الكتاب؟ يقول الله تبارك وتعالى ذكره لنبيه محمد: قل يا محمد لقومك من قريش، القائلين لك «لَوْلاَ أُوتِيَ مِثْلَ ما أُوتِيَ مُوسَى»: أو لم يكفر الذين علموا هذه الحجة من اليهود بما أوتي موسى من قبلك؟. وينقل في المقطع أقوالاً عن ابن عباس ومجاهد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=28&tAyahNo=48&tDisplay=yes&UserProfile=0&LanguageId=1

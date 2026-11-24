@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-8-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يذكر الطبري أن سليمان لما أقبلت صاحبة سبأ أمر الشياطين فبنوا له صرحاً كهيئة السطح من قوارير وأجرى من تحته الماء ليختبر عقلها، وينقل عن وهب بن منبه صفته، ثم قيل لها ادخلي الصرح فحسبته لجة وكشفت عن ساقيها، فقال إنه صرح ممرد من قوارير، فقالت ربّ إني ظلمت نفسي وأسلمت مع سليمان لله رب العالمين. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=27&tAyahNo=44&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «قِيلَ لَهَا ٱدْخُلِي ٱلصَّرْحَ فَلَمَّا رَأَتْهُ حَسِبَتْهُ لُجَّةً وَكَشَفَتْ عَن سَاقَيْهَا قَالَ إِنَّهُ صَرْحٌ مُّمَرَّدٌ مِّن قَوارِيرَ قَالَتْ رَبِّ إِنِّي ظَلَمْتُ نَفْسِي وَأَسْلَمْتُ مَعَ سُلَيْمَانَ لِلَّهِ رَبِّ ٱلْعَالَمِينَ»: ذُكر أن سليمان لما أقبلت صاحبة سبأ تريده، أمر الشياطين فبنوا له صرحاً، وهو كهيئة السطح من قوارير، وأجرى من تحته الماء ليختبر عقلها بذلك، وفهمها على نحو الذي كانت تفعل هي من توجيهها إليه الوصائف والوصفاء ليميز بين الذكور منهم والإناث معاتبة بذلك كذلك. وينقل في المقطع أقوالاً عن مجاهد وابن إسحاق.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=27&tAyahNo=44&tDisplay=yes&UserProfile=0&LanguageId=1

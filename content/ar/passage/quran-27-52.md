@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-8-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري الآيات 52 إلى 53 معاً في موضع واحد. يفسّر الطبري البيوت الخاوية بأنها مساكنهم الخالية منهم بعد أن أهلكهم الله بظلمهم أنفسهم، أي بشركهم وتكذيب رسولهم، وفي ذلك عظة لمن يعلم من قوم النبي، وأنجى الله الذين آمنوا وكانوا يتقون. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=27&tAyahNo=52&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 52 إلى 53 مقطعاً واحداً. يفسّر قوله «فَتِلْكَ بُيُوتُهُمْ خَاوِيَةً بِمَا ظَلَمُوۤاْ إِنَّ فِي ذٰلِكَ لآيَةً لِّقَوْمٍ يَعْلَمُونَ»: يعني تعالى ذكره بقوله: «فَتِلْكَ بُيُوتُهُمْ خاوِيَةً» فتلك مساكنهم خاوية خالية منهم، ليس فيها منهم أحد، قد أهلكهم الله فأبادهم «بما ظلموا»: يقول تعالى ذكره: بظلمهم أنفسهم، بشركهم بالله، وتكذيبهم رسولهم «إنَّ فِي ذلكَ لآيَةً لِقَوْمٍ يَعْلَمُونَ» يقول تعالى ذكره: إن في فعلنا بثمود ما قصصنا عليك يا محمد من القصة، لعظةً لمن يعلم فعلنا بهم ما فعلنا، من قومك الذين يكذّبونك فيما جئتهم به من عند ربك وعبرة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=27&tAyahNo=52&tDisplay=yes&UserProfile=0&LanguageId=1

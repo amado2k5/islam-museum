@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-8-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يفسّر الطبري الالتقاط بأنه أخذ ما وُجد فجأة من غير طلب، ويستشهد بشعر للراجز، ويذكر اختلاف أهل التأويل في المراد بآل فرعون، فقيل جواري امرأة فرعون، ليكون لهم عدواً وحزناً، إن فرعون وهامان وجنودهما كانوا خاطئين. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=28&tAyahNo=8&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «فَٱلْتَقَطَهُ آلُ فِرْعَوْنَ لِيَكُونَ لَهُمْ عَدُوّاً وَحَزَناً إِنَّ فِرْعَوْنَ وَهَامَانَ وَجُنُودَهُمَا كَانُواْ خَاطِئِينَ»: فالتقطه آل فرعون فأصابوه وأخذوه وأصله من اللقطة، وهو ما وُجد ضالاً فأخذ. والعرب تقول لما وردت عليه فجأة من غير طلب له ولا إرادة: أصبته التقاطاً، ولقيت فلاناً التقاطاً ومنه قول الراجز:وَمَنْهَلٍ وَرَدْتُهُ الْتِقاطا لَمْ أَلْقَ إذْ وَرَدْتُهُ فُرَّاطا يعني فجأة. واختلف أهل التأويل في المعنيّ بقوله: «آلُ فِرْعَوْنَ» في هذا الموضع، فقال بعضهم: عنى بذلك: جواري امرأة فرعون. وينقل في المقطع أقوالاً عن ابن إسحاق.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=28&tAyahNo=8&tDisplay=yes&UserProfile=0&LanguageId=1

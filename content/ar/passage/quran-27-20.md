@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-8-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري الآيات 20 إلى 21 معاً في موضع واحد. يبيّن الطبري أن سليمان تفقّد الطير فسأل عن الهدهد، وينقل في سبب تفقده الهدهد عن ابن عباس وعبد الله بن سلام أنه نزل منزلاً ولم يدرِ بُعد الماء فسأل من يعلم ذلك فقالوا الهدهد. ثم توعّده سليمان بعذاب شديد أو ذبح إلا أن يأتيه بسلطان مبين. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=27&tAyahNo=20&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 20 إلى 21 مقطعاً واحداً. يفسّر قوله «وَتَفَقَّدَ ٱلطَّيْرَ فَقَالَ مَالِيَ لاَ أَرَى ٱلْهُدْهُدَ أَمْ كَانَ مِنَ ٱلْغَآئِبِينَ»: «وَتَفَقَّدَ» سليمان «الطيْرَ فَقالَ ماليَ لا أرَى الهُدْهُدَ». وكان سبب تفقده الطير وسؤاله عن الهدهد خاصة من بين الطير، ما: قال: سمعت عمران عن أبي مُجَلِّز، قال: جلس ابن عباس إلى عبد الله بن سلام، فسأله عن الهدهد: لم تفقَّده سليمان من بين الطير فقال عبد الله بن سلام: إن سليمان نزل منزلة في مسير له، فلم يدر ما بُعْدَ الماء، فقال: من يعلم بُعْدَ الماء؟ قالوا: الهدهد، فذاك حين تفقده. وعن أبي مجلِّز، عن ابن عباس وعبد الله ابن سلام بنحوه. وينقل في المقطع أقوالاً عن ابن عباس وسعيد بن جبير وابن زيد والأعمش.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=27&tAyahNo=20&tDisplay=yes&UserProfile=0&LanguageId=1

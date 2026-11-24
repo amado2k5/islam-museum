@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-8-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يفسّر الطبري الآية بأن النبي مأمور أن يقول الحمد لله على نعمه وتوفيقه للهداية، وسلام أي أمنة من عقاب الله على عباده الذين اصطفاهم، وهم أصحاب نبيه ووزراؤه على الدين، ثم يسأل المشركين آلله خير أما يشركون. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=27&tAyahNo=59&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «قُلِ ٱلْحَمْدُ لِلَّهِ وَسَلاَمٌ عَلَىٰ عِبَادِهِ ٱلَّذِينَ ٱصْطَفَىٰ ءَآللَّهُ خَيْرٌ أَمَّا يُشْرِكُونَ»: يقول تعالى ذكره لنبيه محمد «قُل» يا محمد «الحَمْدُ لِلّهِ» على نعمه علينا، وتوفيقه إيانا لما وفَّقنا من الهداية «وَسَلامٌ» يقول: وأَمنة منه من عقابه الذي عاقب به قوم لوط، وقوم صالح، على الذين اصطفاهم، يقول: الذين اجتباهم لنبيه محمد، فجعلهم أصحابه ووزراءه على الدّين الذي بعثه بالدعاء إليه دون المشركين به، الجاحدين نبوّة نبيه. وينقل في المقطع أقوالاً عن ابن عباس وسفيان.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=27&tAyahNo=59&tDisplay=yes&UserProfile=0&LanguageId=1

@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-8-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن إحدى المرأتين قالت لأبيها يا أبت استأجره إن خير من استأجرت القوي الأمين، ويذكر اسميهما فيما رُوي: ليّا وصفّورا، وأن صفورا ابنة يثرون كاهن مدين، وكان الكاهن حبراً، وينقل عن شعيب الجبئي وابن إسحاق، وأن الخلاف قائم في اسمهما. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=28&tAyahNo=26&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «قَالَتْ إِحْدَاهُمَا يٰأَبَتِ ٱسْتَئْجِرْهُ إِنَّ خَيْرَ مَنِ ٱسْتَئْجَرْتَ ٱلْقَوِيُّ ٱلأَمِينُ»: قالت إحدى المرأتين اللتين سقى لهما موسى لأبيها حين أتاهُ موسى، وكان اسم إحداهما صَفُّوراً، واسم الأخرى لَيّا، وقيل: شَرْفا كذلك. وقال: ثني حجاجِ، عن ابن جُرَيج، وأخبرني وهب بن سليمان الرمادي، عن شعيب الجَبَئِي، قال: اسم الجاريتين لَيّا، وصَفُّوراً، وامرأة موسى صفوراً ابنة يثرون كاهن مدين، والكاهن: حبر. عن ابن إسحاق، قال: إحداهما صَفُّوراً ابنة يثرون وأختها شرفاً، ويقال: ليا، وهما اللتان كانتا تذودان. وأما أبوهما ففي اسمه اختلاف، فقال بعضهم: كان اسمه يثرون. وينقل في المقطع أقوالاً عن ابن عباس والأعمش وابن إسحاق.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=28&tAyahNo=26&tDisplay=yes&UserProfile=0&LanguageId=1

@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-8-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن فرعون قال لأشراف قومه ما علمت لكم من إله غيري، فأوقد لي يا هامان على الطين فاعمل لي آجراً، وذُكر أنه أول من طبخ الآجر وبنى به، فاجعل لي صرحاً لعلي أطلع إلى إله موسى، وإني لأظنه من الكاذبين، وينقل عن مجاهد. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=28&tAyahNo=38&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَقَالَ فِرْعَوْنُ يٰأَيُّهَا ٱلْملأُ مَا عَلِمْتُ لَكُمْ مِّنْ إِلَٰهٍ غَيْرِي فَأَوْقِدْ لِي يٰهَامَانُ عَلَى ٱلطِّينِ فَٱجْعَل لِّي صَرْحاً لَّعَلِّيۤ أَطَّلِعُ إِلَىٰ إِلَٰهِ مُوسَىٰ وَإِنِّي لأَظُنُّهُ مِنَ ٱلْكَاذِبِينَ»: وقال فرعون لأشراف قومه وسادتهم: «يا أيُّها المَلأُ ما عَلِمْتُ لَكُمْ مِنْ إلَهٍ غَيْرِي» فتعبدوه، وتصدّقوا قول موسى فيما جاءكم به من أن لكم وله رباً غيري ومعبوداً سواي، «فَأوْقِدْ لي يا هامانُ عَلى الطِّينِ» يقول: فاعمل لي آجراً، وذُكر أنه أوّل من طبخ الآجر وبنى به. وينقل في المقطع أقوالاً عن مجاهد وابن زيد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=28&tAyahNo=38&tDisplay=yes&UserProfile=0&LanguageId=1

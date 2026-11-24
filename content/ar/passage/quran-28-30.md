@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-8-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يفسّر الطبري الشاطئ بأنه الشط وهو جانب الوادي، والأيمن نعت للشاطئ عن يمين موسى، وأنه نودي من الشجرة في البقعة المباركة أن يا موسى إني أنا الله رب العالمين، وينقل عن مجاهد وغيره. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=28&tAyahNo=30&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «فَلَمَّآ أَتَاهَا نُودِيَ مِن شَاطِىءِ ٱلْوَادِي ٱلأَيْمَنِ فِي ٱلْبُقْعَةِ ٱلْمُبَارَكَةِ مِنَ ٱلشَّجَرَةِ أَن يٰمُوسَىٰ إِنِّيۤ أَنَا ٱللَّهُ رَبُّ ٱلْعَالَمِينَ»: فلما أتى موسى النارَ التي «آنَسَ مِنْ جَانِبِ الطُّورِ نُودِيَ مِنْ شَاطِىء الْوَادِ الأَيمَنِ» يعني بالشاطىء: الشطّ، وهو جانب الوادي وعدوته، والشاطىء يجمع شواطىء وشطآن. والشطّ: الشُطوطَ. والأيمن: نعت من الشاطىء عن يمين موسى. وينقل في المقطع أقوالاً عن مجاهد والأعمش وابن إسحاق.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=28&tAyahNo=30&tDisplay=yes&UserProfile=0&LanguageId=1

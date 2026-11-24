@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-8-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يذكر الطبري أن من وعده الله الجنة على طاعته فآمن وصدّق فاستحق أن ينجز له ما وعده فهو لاقيه، كمن متّعه الله متاع الدنيا فنسي العمل بما وعد به أهل الطاعة وآثر اللذة العاجلة، ثم هو يوم القيامة من المحضرين أي المشهدين عذاب الله وأليم عقابه. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=28&tAyahNo=61&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «أَفَمَن وَعَدْنَاهُ وَعْداً حَسَناً فَهُوَ لاَقِيهِ كَمَن مَّتَّعْنَاهُ مَتَاعَ ٱلْحَيَاةِ ٱلدُّنْيَا ثُمَّ هُوَ يَوْمَ ٱلْقِيَامَةِ مِنَ ٱلْمُحْضَرِينَ»: أفمن وعدناه من خلقنا على طاعته إيانا الجنة، فآمن بما وعدناه وصدّق وأطاعنا، فاستحقّ بطاعته إيانا أن ننجز له ما وعدناه، فهو لاق ما وعد، وصائر إليه كمن متَّعناه في الحياة الدنيا متاعها، فتمتع به، ونسي العمل بما وعدنا أهل الطاعة، وترك طلبه، وآثر لذّة عاجلة على آجله، ثم هو يوم القيامة إذا ورد على الله من المحضرين، يعني من المُشْهَدِين عذابَ الله، وأليمَ عقابه. وينقل في المقطع أقوالاً عن مجاهد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=28&tAyahNo=61&tDisplay=yes&UserProfile=0&LanguageId=1

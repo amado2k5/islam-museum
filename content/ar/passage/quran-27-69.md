@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-8-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري الآيات 69 إلى 70 معاً في موضع واحد. يقول الطبري إن الله أمر نبيه أن يقول للمكذّبين سيروا في الأرض فانظروا إلى ديار من قبلكم من المكذبين كيف خلت منهم الديار، فتلك سنته في كل من سلك سبيلهم، وأمره ألا يحزن عليهم ولا يكن في ضيق مما يمكرون. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=27&tAyahNo=69&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 69 إلى 70 مقطعاً واحداً. يفسّر قوله «قُلْ سِيرُواْ فِي ٱلأَرْضِ فَٱنظُرُواْ كَيْفَ كَانَ عَٰقِبَةُ ٱلْمُجْرِمِينَ»: «قُلْ» يا محمد لهؤلاء المكذّبين ما جئتهم به من الأنباء من عند ربك: «سِيرُوا فِي الأَرْضِ فَانْظُرُوا» إلى ديار من كان قبلكم من المكذّبين رسلَ الله ومساكنهم كيف هي، ألم يخرّبها الله، ويهلك أهلها بتكذيبهم رسلهم، وردّهم عليهم نصائحهم فخلت منهم الديار وتعَّفت منهم الرسوم والآثار، فإن ذلك كان عاقبة إجرامهم، وذلك سنة ربكم في كلّ من سلك سبيلهم في تكذيب رسل ربهم، والله فاعل ذلك بكم إن أنتم لم تبادروا الإنابة من كفركم وتكذيبكم رسول ربكم.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=27&tAyahNo=69&tDisplay=yes&UserProfile=0&LanguageId=1

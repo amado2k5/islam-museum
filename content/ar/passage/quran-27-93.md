@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-8-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يذكر الطبري أن النبي مأمور أن يقول لمشركي قومه الذين يسألون متى هذا الوعد: الحمد لله، سيريكم آياته فتعرفونها، ويبيّن أنها آيات عذابه وسخطه فتعرفون صدق نصحه، وينقل عن مجاهد أنها في أنفسكم وفي السماء والأرض والرزق، وما ربك بغافل عما تعملون. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=27&tAyahNo=93&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَقُلِ ٱلْحَمْدُ للَّهِ سَيُرِيكُمْ آيَاتِهِ فَتَعْرِفُونَهَا وَمَا رَبُّكَ بِغَافِلٍ عَمَّا تَعْمَلُونَ»: «قُلْ» يا محمد لهؤلاء القائلين لك من مشركي قومك:«مَتى هَذَا الوَعْدُ إنْ كُنْتُمْ صَادِقِينَ: الحَمْدُ لِلّهِ» على نعمته علينا بتوفيقه إيانا للحقّ الذي أنتم عنه عمون، سيريكم ربكم آيات عذابه وسخطه، فتعرفون بها حقيقة نصحى كان لكم، ويتبين صدق ما دعوتكم إليه من الرشاد. وينقل في المقطع أقوالاً عن مجاهد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=27&tAyahNo=93&tDisplay=yes&UserProfile=0&LanguageId=1

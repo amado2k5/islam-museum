@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-8-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن النبي مأمور أن يقول للمشركين أرأيتم إن جعل الله عليكم الليل سرمداً أي دائماً لا ينقطع إلى يوم القيامة، والعرب تسمي كل متصل لا ينقطع سرمداً، وينقل عن مجاهد، من إله غير الله يأتيكم بضياء أفلا تسمعون. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=28&tAyahNo=71&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «قُلْ أَرَأَيْتُمْ إِن جَعَلَ ٱللَّهُ عَلَيْكُمُ ٱلْلَّيْلَ سَرْمَداً إِلَىٰ يَوْمِ ٱلْقِيَامَةِ مَنْ إِلَٰهٌ غَيْرُ ٱللَّهِ يَأْتِيكُمْ بِضِيَآءٍ أَفَلاَ تَسْمَعُونَ»: قل يا محمد لهؤلاء المشركين بالله: أيها القوم أرأيتم إن جعل الله عليكم الليل دائما لا نهار إلى يوم القيامة يعقبه. والعرب تقول لكلّ ما كان متصلاً لا ينقطع من رخاء أو بلاء أو نعمة هو سرمد. وينقل في المقطع أقوالاً عن ابن عباس ومجاهد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=28&tAyahNo=71&tDisplay=yes&UserProfile=0&LanguageId=1

@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-8-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري الآيات 32 إلى 33 معاً في موضع واحد. يقول الطبري إن ملكة سبأ قالت لأشراف قومها أفتوني في أمري، أي أشيروا عليّ، فجعلت المشورة فتيا، وأنها ما كانت قاطعة أمراً حتى يشهدوا، فتشاورهم، وينقل عن ابن زيد أنها دعت قومها تشاورهم، فقالوا نحن أولو قوة وأولو بأس شديد والأمر إليها. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=27&tAyahNo=33&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 32 إلى 33 مقطعاً واحداً. يفسّر الطبري الآية ضمن المقطع نفسه. وينقل في المقطع أقوالاً عن ابن عباس ومجاهد وابن زيد والأعمش وعطاء.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=27&tAyahNo=33&tDisplay=yes&UserProfile=0&LanguageId=1

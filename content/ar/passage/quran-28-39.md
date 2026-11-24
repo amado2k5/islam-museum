@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-8-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري الآيات 39 إلى 40 معاً في موضع واحد. يقول الطبري إن فرعون وجنوده استكبروا في أرض مصر عن تصديق موسى بغير الحق تعدياً وعتواً على ربهم، وظنوا أنهم إلى الله لا يرجعون بعد موتهم ولا ثواب ولا عقاب، ولم يعلموا أن الله لهم بالمرصاد، فأخذهم وجنوده فنبذهم في اليم فانظر كيف كان عاقبة الظالمين. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=28&tAyahNo=39&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 39 إلى 40 مقطعاً واحداً. يفسّر قوله «وَٱسْتَكْبَرَ هُوَ وَجُنُودُهُ فِي ٱلأَرْضِ بِغَيْرِ ٱلْحَقِّ وَظَنُّوۤاْ أَنَّهُمْ إِلَيْنَا لاَ يُرْجَعُونَ»: واستكبر فرعون وجنوده في أرض مصر عن تصديق موسى، واتباعه على ما دعاهم إليه من توحيد الله، والإقرار بالعبودية له «بغير الحقّ» يعني تعدّياً وعتوّاً على ربهم «وَظَنُّوا أنَّهُمْ إلَيْنا لا يُرْجَعُونَ» يقول: وحسبوا أنهم بعد مماتهم لا يبعثون، ولا ثواب، ولا عقاب، فركبوا أهواءهم، ولم يعلموا أن الله لهم بالمرصاد، وأنه لهم مجاز على أعمالهم الخبيثة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=28&tAyahNo=39&tDisplay=yes&UserProfile=0&LanguageId=1

@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-8-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن الذين آتاهم الله الكتاب من قبل القرآن إذا تُلي عليهم قالوا آمنا به إنه الحق من ربنا، إنا كنا من قبله مسلمين، لأنهم كانوا مؤمنين بما جاء به الأنبياء وفي كتبهم صفة محمد ونعته، فكانوا به وببعثته وكتابه مصدّقين. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=28&tAyahNo=53&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَإِذَا يُتْلَىٰ عَلَيْهِمْ قَالُوۤاْ آمَنَّا بِهِ إِنَّهُ ٱلْحَقُّ مِن رَّبِّنَآ إنَّا كُنَّا مِن قَبْلِهِ مُسْلِمِينَ»: وإذا يُتلى هذا القرآن على الذين آتيناهم الكتاب من قبل نزول هذا القرآن «قالُوا آمَنَّا بِهِ» يقول: يقولون: صدّقنا به «إنَّهُ الحَقُّ مِنْ رَبِّنا» يعني من عند ربنا نزل، «إنّا كُنَا مِنَ قَبْلهِ» نزول هذا القرآن مسلمين، وذلك أنهم كانوا مؤمنين بما جاء به الأنبياء قبل مجيء نبينا محمد، وعليهم من الكتب، وفي كتبهم صفة محمد ونعته، فكانوا به وبمبعثه وبكتابه مصدّقين قبل نزول القرآن، فلذلك قالوا: «إنَّا كُنَّا مِنْ قَبْلِهِ مُسْلِمِينَ».
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=28&tAyahNo=53&tDisplay=yes&UserProfile=0&LanguageId=1

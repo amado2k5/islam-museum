@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-8-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يذكر الطبري أن قول الإسرائيلي سمعه سامع فأفشاه وأعلم به أهل القتيل، فطلب فرعون موسى وأمر بقتله، فجاءه رجل من أقصى المدينة يسعى يقول إن الملأ يأتمرون بك ليقتلوك فاخرج، وينقل رواية عن ابن عباس بالتفصيل. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=28&tAyahNo=20&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَجَآءَ رَجُلٌ مِّنْ أَقْصَا ٱلْمَدِينَةِ يَسْعَىٰ قَالَ يٰمُوسَىٰ إِنَّ ٱلْمَلأَ يَأْتَمِرُونَ بِكَ لِيَقْتُلُوكَ فَٱخْرُجْ إِنِّي لَكَ مِنَ ٱلنَّاصِحِينَ»: ذُكِر أن قول الإسرائيليّ سمعه سامع فأفشاه، وأعلم به أهل القتيل، فحينئذٍ طلب فرعون موسى، وأمر بقتله فلما أمر بقتله، جاء موسى مخبر، وخبره بما قد أمر به فرعون في أمره، وأشار عليه بالخروج من مصر، بلد فرعون وقومه. وينقل في المقطع أقوالاً عن ابن عباس.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=28&tAyahNo=20&tDisplay=yes&UserProfile=0&LanguageId=1

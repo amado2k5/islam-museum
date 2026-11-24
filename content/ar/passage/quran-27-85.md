@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-8-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري الآيات 85 إلى 86 معاً في موضع واحد. يبيّن الطبري أن السخط وقع على المكذّبين بسبب ظلمهم أي تكذيبهم بآيات الله يوم يُحشرون، فلا ينطقون بحجة يدفعون بها عن أنفسهم، ثم يذكّرهم بأن الله جعل الليل ليسكنوا فيه والنهار مبصراً، وفي ذلك آيات لقوم يؤمنون. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=27&tAyahNo=85&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 85 إلى 86 مقطعاً واحداً. يفسّر قوله «وَوَقَعَ ٱلْقَوْلُ عَلَيهِم بِمَا ظَلَمُواْ فَهُمْ لاَ يَنطِقُونَ»: ووجب السخط والغضب من الله على المكذّبين بآياته «بِمَا ظَلَمُوا» يعني بتكذيبهم بآيات الله، يوم يحشرون «فَهُمْ لاَ يَنَطِقُونَ» يقول: فهم لا ينطقون بحجة يدفعون بها عن أنفسهم عظيم ما حلّ بهم ووقع عليهم من القول.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=27&tAyahNo=85&tDisplay=yes&UserProfile=0&LanguageId=1

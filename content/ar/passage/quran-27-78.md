@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-8-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن القرآن هدى أي بيان من الله بيّن به الحق فيما اختلف فيه خلقه من أمور دينهم، ورحمة للمؤمنين لمن صدّق به وعمل بما فيه، وإن ربك يقضي بين المختلفين من بني إسرائيل بحكمه فينتقم من المبطل ويجازي المحسن المحق، وهو العزيز العليم. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=27&tAyahNo=78&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «إِن رَبَّكَ يَقْضِي بَيْنَهُم بِحُكْمِهِ وَهُوَ ٱلْعَزِيزُ ٱلْعَلِيمُ»: إن هذا القرآن لهدى، يقول: لبيان من الله، بين به الحقّ فيما اختُلف فيه خلقه من أمور دينهم «وَرَحْمَةٌ للْمُؤْمِنِينَ» يقول: ورحمة لمن صدق به وعمل بما فيه «إنَّ رَبَّكَ يَقْضِي بَيْنَهُمْ» يقول: إن ربك يقضي بين المختلفين من بين إسرائيل بحكمه فيهم، فينتقم من المبطل منهم، ويجازي المحسن منهم المحقّ بجزائه «وَهُوَ العَزِيزُ العَلِيمُ» يقول: وربك العزيز في انتقامه من المبطل منهم ومن غيرهم، لا يقدر أحد على منعه من الانتقام منه إذا انتقم العليم بالمحقّ المحسن من هؤلاء المختلفين من بني إسرائيل فيما اختلفوا فيه، ومن غيرهم من المبطل الضالّ عن الهدى.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=27&tAyahNo=78&tDisplay=yes&UserProfile=0&LanguageId=1

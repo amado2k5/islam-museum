@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-8-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن النبي مأمور أن يقول إنما أمرت أن أعبد رب هذه البلدة وهي مكة، الذي حرّمها على خلقه فلا يُسفك فيها دم حرام ولا يُظلم فيها أحد ولا يُصاد صيدها، ينقل ذلك عن قتادة، وله كل شيء ملكاً، فإياه أُمر أن يعبد دون الأوثان، وخصّ مكة بالذكر تشريفاً لها. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=27&tAyahNo=91&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «إِنَّمَآ أُمِرْتُ أَنْ أَعْبُدَ رَبَّ هَذِهِ ٱلْبَلْدَةِ ٱلَّذِي حَرَّمَهَا وَلَهُ كُلُّ شَيءٍ وَأُمِرْتُ أَنْ أَكُونَ مِنَ ٱلْمُسْلِمِينَ»: يا محمد «قُلِ إنَّمَا أُمِرْتُ أَنْ أَعُبُدَ رَبَّ هِذِهِ الْبَلْدَةِ» وهي مكة «الَّذِي حَرَّمَهَا» على خلقه أن يسفكوا فيها دماً حراماً، أو يظلموا فيها أحداً، أو يُصادَ صَيدُها، أو يتخلى خلاها دون الأوثان التي تعبدونها أيها المشركون.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=27&tAyahNo=91&tDisplay=yes&UserProfile=0&LanguageId=1

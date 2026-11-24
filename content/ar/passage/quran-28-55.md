@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-8-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أنهم إذا سمعوا اللغو، وهو الباطل من القول، أعرضوا عنه وقالوا لنا أعمالنا ولكم أعمالكم سلام عليكم لا نبتغي الجاهلين، فلا يجارون أهل الجهل في باطلهم، وينقل عن قتادة، ويذكر قولاً آخر في المراد باللغو. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=28&tAyahNo=55&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَإِذَا سَمِعُواْ ٱللَّغْوَ أَعْرَضُواْ عَنْهُ وَقَالُواْ لَنَآ أَعْمَالُنَا وَلَكُمْ أَعْمَالُكُمْ سَلاَمٌ عَلَيْكُمْ لاَ نَبْتَغِي ٱلْجَاهِلِينَ»: وإذا سمع هؤلاء القوم الذين آتيناهم الكتاب اللغو، وهو الباطل من القول، كما: وعن قَتادة «وَإذَا سَمِعُوا اللَّغْوَ أعْرَضُوا عَنْهُ وَقالُوا لَنا أعمالُنا وَلَكُمْ أعمالُكُمْ، سَلامٌ عَلَيْكُمْ لا نَبْتَغِي الجاهِلِينَ» لا يجارون أهل الجهل والباطل في باطلهم، أتاهم من أمر الله ما وقذهم عن ذلك. وقال آخرون: عُنِي باللغو في هذا الموضع: ما كان أهل الكتاب ألحقوه في كتاب الله، مما ليس هو منه. وينقل في المقطع أقوالاً عن مجاهد وابن زيد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=28&tAyahNo=55&tDisplay=yes&UserProfile=0&LanguageId=1

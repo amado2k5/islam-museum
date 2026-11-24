@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-8-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري الآيات 71 إلى 72 معاً في موضع واحد. يذكر الطبري أن مشركي قوم النبي قالوا متى هذا الوعد إن كنتم صادقين، فقال له الله قل عسى أن يكون ردف لكم أي اقترب ودنا بعض الذي تستعجلون من عذاب الله، وينقل عن ابن عباس في معنى ردف. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=27&tAyahNo=71&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 71 إلى 72 مقطعاً واحداً. يفسّر قوله «وَيَقُولُونَ مَتَىٰ هَٰذَا ٱلْوَعْدُ إِن كُنتُمْ صَادِقِينَ»: ويقول مشركو قومك يا محمد، المكذّبوك فيما أتيتهم به من عند ربك. «مَتى» يكون «هَذَا الوَعْدُ» الذي تعدُناه من العذاب، الذي هو بنا فيما تقول حالّ «إنْ كُنْتُمْ صَادِقِينَ» فيما تعدوننا به «قُلْ عَسَى أنْ يَكُونَ رَدِفَ لَكُمْ» يقول جلّ جلاله: قل لهم يا محمد: عسى أن يكون اقترب لكم ودنا «بَعْضُ الَّذِي تَسْتَعْجِلُونَ» من عذاب الله. وينقل في المقطع أقوالاً عن ابن عباس ومجاهد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=27&tAyahNo=71&tDisplay=yes&UserProfile=0&LanguageId=1
