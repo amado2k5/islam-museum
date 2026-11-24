@@ -171,7 +171,7 @@ def main():
                 segs = re.split(r"⟦(\d+)⟧\s*", "\n".join(got))
                 numbered = {int(segs[i]): segs[i + 1].strip() for i in range(1, len(segs) - 1, 2)}
                 got = [numbered.get(i) for i in range(1, len(todo) + 1)]
-                if any(g is None for g in got): raise ValueError("line markers lost")
+                if any(g is None for g in got): got = None  # Bing dropped a line marker: treat as lost, keep going
             try:
                 if not m: raise ValueError("no frontmatter")
                 fm, body = yaml.safe_load(m.group(1)), m.group(2)
