@@ -25,9 +25,9 @@ Al-Baidhawi berargumen untuk pendapat pertama dengan hadis-hadis, di antaranya r
 ## Perbedaan dan pendapat
 
 :::perspectives
-- **Ahlusunah ⁦(Syafi'iyah)⁩: asy-Syafi'i dan para qari Makkah dan Kufah, dan al-Baidhawi berargumen untuknya**: basmalah adalah ayat dari al-Fatihah {cite:anwar-al-tanzil-fleischer-v1 p.6}.
-- **Ahlusunah ⁦(Malikiyah)⁩: Malik, al-Auza'i, dan para qari Madinah, Basrah, dan Syam**: ia bukan bagian dari al-Fatihah {cite:anwar-al-tanzil-fleischer-v1 p.6}.
-- **Ahlusunah ⁦(Hanafiyah)⁩: Abu Hanifah dan Muhammad bin al-Hasan**: Abu Hanifah tidak menyatakan sesuatu pun tentangnya, dan Muhammad bin al-Hasan berkata: apa yang di antara dua sampul adalah firman Allah {cite:anwar-al-tanzil-fleischer-v1 p.6}.
-- **Ahlusunah ⁦(Hanabilah)⁩: Ahmad, sebagaimana dikisahkan Ibnu al-Jauzi**: darinya ada dua riwayat tentang apakah ia ayat dari al-Fatihah, dan sekelompok perawi menukil darinya bahwa mengeraskannya tidak disunahkan {cite:zad-al-masir-maktab-islami-v1 p.7} {cite:zad-al-masir-maktab-islami-v1 p.8}.
+- **Ahlussunnah ⁦(Syafi'iyah)⁩: asy-Syafi'i dan para qari Makkah dan Kufah, dan al-Baidhawi berargumen untuknya**: basmalah adalah ayat dari al-Fatihah {cite:anwar-al-tanzil-fleischer-v1 p.6}.
+- **Ahlussunnah ⁦(Malikiyah)⁩: Malik, al-Auza'i, dan para qari Madinah, Basrah, dan Syam**: ia bukan bagian dari al-Fatihah {cite:anwar-al-tanzil-fleischer-v1 p.6}.
+- **Ahlussunnah ⁦(Hanafiyah)⁩: Abu Hanifah dan Muhammad bin al-Hasan**: Abu Hanifah tidak menyatakan sesuatu pun tentangnya, dan Muhammad bin al-Hasan berkata: apa yang di antara dua sampul adalah firman Allah {cite:anwar-al-tanzil-fleischer-v1 p.6}.
+- **Ahlussunnah ⁦(Hanabilah)⁩: Ahmad, sebagaimana dikisahkan Ibnu al-Jauzi**: darinya ada dua riwayat tentang apakah ia ayat dari al-Fatihah, dan sekelompok perawi menukil darinya bahwa mengeraskannya tidak disunahkan {cite:zad-al-masir-maktab-islami-v1 p.7} {cite:zad-al-masir-maktab-islami-v1 p.8}.
 - **Yang belum disebutkan di sini**: kajian-kajian akademik tentang penghitungan ayat belum ditambahkan; buku-buku selanjutnya akan menambahkannya.
 :::

@@ -12,7 +12,7 @@ Surah Ali Imran: surah ke-3 dalam urutan mushaf, Madaniyah, berjumlah 200 ayat, 
 
 ## Isi
 
-Ayat-ayatnya didokumentasikan di museum satu per satu dalam catatan passage/quran-3-<nomor ayat>.
+Ayat-ayatnya didokumentasikan di museum satu per satu dalam catatan passage/quran-3-‹nomor ayat›.
 
 ## Dalam «at-Tafsir al-Wasith» karya Thanthawi
 
