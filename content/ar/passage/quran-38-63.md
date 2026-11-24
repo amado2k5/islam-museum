@@ -3,6 +3,11 @@ id: passage/quran-38-63
 lang: ar
 source_lang: ar
 translators: []
+provenance:
+  generated_by: "Claude Code (Sonnet 5.5 session)"
+  model: claude-sonnet-5-5
+  run: altafsir-tabari-batch-9-2026-11-24
+  source: source/altafsir-tabari
 ---
 
 ## موجز
@@ -10,3 +15,7 @@ translators: []
 
 ## موضعها
 موضعها: الآية 63 من أصل 88 آية في السورة. النص محفوظ من مصحف تنزيل المجمّد ولا يُعاد كتابته هنا.
+
+## تفسير الطبري
+
+لم يُفرد الطبري لهذه الآية تعليقاً مستقلاً في الصفحة المحفوظة، بل جاء تفسيرها ضمن تفسير الآيات 62–64. يذكر الطبري أن الطاغين، وقيل هم أبو جهل والوليد بن المغيرة وأمثالهما، يقولون ما لنا لا نرى رجالاً كنا نعدهم من الأشرار أتخذناهم سخرياً أم زاغت عنهم الأبصار، إن ذلك لحق تخاصم أهل النار. وهذا التفسير مشترك بين الآيات 62 إلى 64. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=38&tAyahNo=63&tDisplay=yes&UserProfile=0&LanguageId=1
