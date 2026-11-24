@@ -814,6 +814,28 @@ describe("one API export per browser or explorer (AGENTS.md: every feature is gr
     expect(items.find((i) => i.id === "work/sab-a-x")).toMatchObject({ section: "works", topics: ["readings"] }); // no section tag: filed by class
   });
 
+  it("exports tajwid: Qur'an verses from the reviewed table, lexicon passages by corpus and topic, tagged records by section, guarded lexemes", () => {
+    const tartil = makeNode("passage/quran-73-4t", "passage", { unit: "ayah", work: "work/quran", sura: 73, aya: 4, text: "x" });
+    const notListed = makeNode("passage/quran-2-1t", "passage", { unit: "ayah", work: "work/quran", sura: 2, aya: 1, text: "الم" });
+    const makhraj = makeNode("passage/itqan-t-1", "passage", { unit: "chapter", work: "work/al-itqan-fi-ulum-al-quran", ref: "1", text: "فصل في مخارج الحروف والغنة والمدود" });
+    const teaching = makeNode("passage/bukhari-t-2", "passage", { unit: "hadith", work: "work/sahih-al-bukhari", ref: "5027", text: "خيركم من تعلم القرآن وعلمه" });
+    const ordinary = makeNode("passage/muwatta-t-3", "passage", { unit: "hadith", work: "work/muwatta-malik", ref: "3", text: "باب الميراث: قرأ الرجل الكتاب وكانت القرية كبيرة" });
+    const matn = { ...makeNode("work/jazariyya-x", "work", {}), tags: ["tajwid-browser", "tajwid-mutun", "tajwid-ahkam"] };
+    const qari = { ...makeNode("person/jazari-x", "person", {}), tags: ["tajwid-browser", "tajwid-qurra"] };
+    const data = featureApiData({ ...compiled, nodes: [...compiled.nodes, tartil, notListed, makhraj, teaching, ordinary, matn, qari], edges: compiled.edges });
+    const items = data["tajwid.json"].items;
+    const ids = items.map((i) => i.id);
+    expect(data["tajwid.json"].feature).toBe("tajwid-browser");
+    expect(ids).toContain("passage/quran-73-4t");
+    expect(ids).not.toContain("passage/quran-2-1t"); // a verse is in only because the reviewed table lists it
+    expect(ids).not.toContain("passage/muwatta-t-3"); // a bare «قرأ» in ordinary prose is not the topic
+    expect(items.find((i) => i.id === "passage/quran-73-4t")).toMatchObject({ section: "quran", topics: ["tartil"] });
+    expect(items.find((i) => i.id === "passage/itqan-t-1")).toMatchObject({ section: "books", topics: ["ahkam"] });
+    expect(items.find((i) => i.id === "passage/bukhari-t-2")).toMatchObject({ section: "sunnah", topics: ["taalim"] });
+    expect(items.find((i) => i.id === "work/jazariyya-x")).toMatchObject({ section: "mutun", topics: ["mutun", "ahkam"] });
+    expect(items.find((i) => i.id === "person/jazari-x")).toMatchObject({ section: "qurra" });
+  });
+
   it("exports wasaya: Qur'an verses from the reviewed table, lexicon passages by corpus and topic, tagged records by section, guarded lexemes", () => {
     const yaqub = makeNode("passage/quran-2-133x", "passage", { unit: "ayah", work: "work/quran", sura: 2, aya: 133, text: "x" });
     const notListed = makeNode("passage/quran-2-1z", "passage", { unit: "ayah", work: "work/quran", sura: 2, aya: 1, text: "الم" });
