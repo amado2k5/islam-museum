@@ -13,4 +13,4 @@ provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Docu
 
 ## تفسیر طبری
 
-الطبری کہتے ہیں کہ ابراہیم نے ان کے جواب میں کہا کہ وہ اور ان کے آباء و اجداد صریح گمراہی میں تھے، یعنی حق کے راستے سے بھٹک گئے اور مطلوبہ راستے سے ہٹ گئے، جو ہر اس شخص پر واضح ہے جو اسے عقل کے ساتھ سمجھتا ہے۔ {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=21&tAyahNo=54&tDisplay=yes&UserProfile=0&LanguageId=1
+الطبری کہتے ہیں کہ ابراہیم نے ان کے جواب میں کہا کہ وہ اور ان کے باپ واضح طور پر گمراہ تھے، یعنی وہ سچائی کے راستے سے ہٹ رہے تھے اور جان بوجھ کر راستے سے بھٹک رہے تھے، جو ان لوگوں کے لیے واضح ہے جو اس پر عقل کے ساتھ غور کرتے ہیں۔ {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=21&tAyahNo=54&tDisplay=yes&UserProfile=0&LanguageId=1

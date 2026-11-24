@@ -13,4 +13,4 @@ provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Docu
 
 ## تفسیر طبری
 
-الطبری کے پاس محفوظ صفحہ پر اس آیت کی کوئی تفسیر نہیں ہے، کیونکہ منظور شدہ جگہ پر اس کے لیے جو متن بیان کیا گیا ہے اس میں کہا گیا ہے کہ اس کی تفسیر نہیں ملتی، اس لیے ہم اس کی کوئی تفسیر درج نہیں کرتے۔ {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=27&tAyahNo=77&tDisplay=yes&UserProfile=0&LanguageId=1
+الطبری کی طرف سے اس آیت کی کوئی تشریح محفوظ شدہ صفحے پر موجود نہیں؛ معتبر ماخذ میں ملنے والا متن کہتا ہے کہ اس کی تشریح موجود نہیں، اس لیے ہم وضاحت درج نہیں کرتے۔ {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=27&tAyahNo=77&tDisplay=yes&UserProfile=0&LanguageId=1

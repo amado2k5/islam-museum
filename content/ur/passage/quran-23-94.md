@@ -13,4 +13,4 @@ provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Docu
 
 ## تفسیر طبری
 
-الطبری نے ذکر کیا ہے کہ جس دعا کا حکم دیا گیا ہے وہ یہ ہے: "اے میرے رب مجھے ظالم لوگوں میں شامل نہ کر" یعنی اگر تو ان پر عذاب نازل کرے تو مجھے ان میں شامل نہ کرنا۔ یہ ایک ایسی شرط کا جواب ہے جو کال میں رکاوٹ بنی تھی۔ {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=23&tAyahNo=94&tDisplay=yes&UserProfile=0&LanguageId=1
+الطبری ذکر کرتے ہیں کہ حکم شدہ دعا ہے: 'میرے رب، مجھے ظالموں میں نہ ڈالو'، یعنی اگر تم ان پر سزا نازل کرو تو مجھے ان میں نہ رکھو۔ یہ ایک مشروط جواب ہے جو دعوت کے جواب کے ساتھ جڑا ہوا ہے۔ {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=23&tAyahNo=94&tDisplay=yes&UserProfile=0&LanguageId=1

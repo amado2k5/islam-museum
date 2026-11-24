@@ -13,4 +13,4 @@ provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Docu
 
 ## تفسیر طبری
 
-الطبری وضاحت کرتا ہے کہ لوگوں کے پاس جو کچھ دنیوی مال ہے وہ ختم ہو جائے گا، لیکن خدا کی نعمتیں باقی رہیں گی، اور یہ کہ خدا ان لوگوں کو اجر دے گا جنہوں نے صبر کے ساتھ اپنے عہد کو پورا کیا جو وہ کر سکتے تھے۔ {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=16&tAyahNo=96&tDisplay=yes&UserProfile=0&LanguageId=1
+الطبری وضاحت کرتے ہیں کہ لوگوں کے پاس جو کچھ دنیاوی ہے وہ ختم ہو جائے گا، اور اللہ کے ساتھ خوشی باقی رہے گی، اور اللہ صبر کرنے والوں کو ان کے عہد کی تکمیل میں بہترین اجر دیتا ہے۔ {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=16&tAyahNo=96&tDisplay=yes&UserProfile=0&LanguageId=1

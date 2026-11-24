@@ -13,4 +13,4 @@ provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Docu
 
 ## تفسیر طبری
 
-الطبری کہتے ہیں کہ اللہ تعالیٰ نے موسیٰ کو جواب دیا اور ان کی درخواست قبول کی، اور جب اس نے ان کی والدہ پر جو کچھ نازل کیا تھا، اسے ایک بار پھر ان پر اپنی نعمتیں یاد دلائیں۔ {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=20&tAyahNo=38&tDisplay=yes&UserProfile=0&LanguageId=1
+الطبری کہتے ہیں کہ اللہ نے موسیٰ کا جواب دیا، اس کا سوال دیا، اور جب اس نے اپنی ماں کو وہ سب کچھ ظاہر کیا جو نازل ہوا تھا تو اللہ نے اسے دوبارہ اپنی برکتوں کی یاد دلائی۔ {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=20&tAyahNo=38&tDisplay=yes&UserProfile=0&LanguageId=1

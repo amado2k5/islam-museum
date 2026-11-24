@@ -13,4 +13,4 @@ provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Docu
 
 ## تفسیر طبری
 
-الطبری نے ذکر کیا ہے کہ لوگوں کے اعمال اور نعمتوں کا حساب قریب آ رہا ہے اور وہ غافل اور منہ پھیر رہے ہیں اور یہ کہ ان کے پاس ان کے رب کی طرف سے کوئی نصیحت نہیں آتی سوائے اس کے کہ وہ کھیلتے ہوئے اسے سنیں۔ {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=21&tAyahNo=2&tDisplay=yes&UserProfile=0&LanguageId=1
+الطبری ذکر کرتے ہیں کہ لوگوں کے اعمال اور برکتوں کا حساب قریب آ رہا ہے جبکہ وہ لاپرواہ اور منہ موڑ رہے ہیں، اور جب بھی ان کے رب کی طرف سے کوئی یاد آتی ہے جو جعلی یادداشت کے ساتھ آتی ہے تو وہ صرف بجاتے ہوئے سنتے ہیں۔ {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=21&tAyahNo=2&tDisplay=yes&UserProfile=0&LanguageId=1
