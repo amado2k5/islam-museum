@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-7-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يذكر الطبري أن الله ينهى المؤمنين عن دخول بيوت غير بيوتهم حتى يستأنسوا ويسلموا على أهلها، ويعرض اختلاف أهل التأويل في معنى الاستئناس: فقيل الاستئذان، وينقل قراءة ابن عباس «تستأذنوا»، وذلك خير لهم لعلهم يتذكرون. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=24&tAyahNo=27&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «يٰأَيُّهَا ٱلَّذِينَ آمَنُواْ لاَ تَدْخُلُواْ بُيُوتاً غَيْرَ بُيُوتِكُمْ حَتَّىٰ تَسْتَأْنِسُواْ وَتُسَلِّمُواْ عَلَىٰ أَهْلِهَا ذٰلِكُمْ خَيْرٌ لَّكُمْ لَعَلَّكُمْ تَذَكَّرُونَ»: اختلف أهل التأويل في ذلك، فقال بعضهم: تأويله يا أيها الذين آمنوا لا تدخلوا بيوتاً غير بيوتكم حتى تستأذنوا. وينقل في المقطع أقوالاً عن ابن عباس ومجاهد وسعيد بن جبير والأعمش وإبراهيم وسفيان.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=24&tAyahNo=27&tDisplay=yes&UserProfile=0&LanguageId=1

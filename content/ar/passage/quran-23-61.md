@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-7-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يذكر الطبري أن أولئك يسارعون في الخيرات وهم لها سابقون، أي يبادرون إلى الأعمال الصالحة ويسبقون غيرهم إلى نيل الثواب لأنهم خائفون من الرجوع إلى ربهم. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=23&tAyahNo=61&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 61 إلى 62 مقطعاً واحداً. يفسّر قوله «وَٱلَّذِينَ يُؤْتُونَ مَآ آتَواْ وَّقُلُوبُهُمْ وَجِلَةٌ أَنَّهُمْ إِلَىٰ رَبِّهِمْ رَاجِعُونَ»: يعني تعالى ذكره بقوله: «والَّذِينَ يُؤْتُونَ ما آتَوْا» والذين يعطون أهل سُهْمان الصدقة ما فرض الله لهم في أموالهم. «ما آتَوْا» يعني: ما أعطوهم إياه من صدقة، ويؤدّون حقوق الله عليهم في أموالهم إلى أهلها. «وَقُلُوبُهُمْ وَجِلَةٌ» يقول: خائفة من أنهم إلى ربهم راجعون، فلا ينجيهم ما فعلوا من ذلك من عذاب الله، فهم خائفون من المرجع إلى الله لذلك، كما قال الحسن: إن المؤمن جمع إحساناً وشفقة. وينقل في المقطع أقوالاً عن ابن عباس ومجاهد والحسن وعكرمة وسعيد بن جبير وابن جريج.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=23&tAyahNo=61&tDisplay=yes&UserProfile=0&LanguageId=1

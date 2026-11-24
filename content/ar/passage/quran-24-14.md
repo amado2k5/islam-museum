@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-7-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يذكر الطبري أن الله يخاطب الخائضين في أمر عائشة: لولا فضل الله عليكم ورحمته في الدنيا والآخرة بتركه تعجيل عقوبتكم ولعفوه عنكم بقبول توبتكم لمسّكم فيما أفضتم فيه عذاب عظيم. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=24&tAyahNo=14&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَلَوْلاَ فَضْلُ ٱللَّهِ عَلَيْكُمْ وَرَحْمَتُهُ فِي ٱلدُّنْيَا وَٱلآخِرَةِ لَمَسَّكُمْ فِي مَآ أَفَضْتُمْ فِيهِ عَذَابٌ عَظِيمٌ»: «وَلَوْلا فَضْلُ اللّهَ عَلَيْكُمْ» أيها الخائضون في أمر عائشة، المُشِيعُون فيها الكذب والإثم، بتركه تعجيل عقوبتكم «وَرَحْمَتُهِ» إياكم، لعفوه عنكم «في الدُّنْيا والآخِرَةِ» بقبول توبتكم مما كان منكم في ذلك، «لَمسَّكُمْ فِيما» خضتم فيه من أمرها عاجلاً في الدنيا «عَذَابٌ عَظِيمٌ». وينقل في المقطع أقوالاً عن ابن زيد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=24&tAyahNo=14&tDisplay=yes&UserProfile=0&LanguageId=1

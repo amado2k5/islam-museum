@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-7-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يذكر الطبري أنهم مستكبرين به سامراً تهجرون، أي يستكبرون بالحرم أو بالقرآن ويسمرون في الليل مجتمعين يتكلمون فيه بالباطل، فيعرضون عن آيات ربهم ويهجرونها. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=23&tAyahNo=67&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 67 إلى 68 مقطعاً واحداً. يفسّر قوله «قَدْ كَانَتْ آيَاتِي تُتْلَىٰ عَلَيْكُمْ فَكُنتُمْ عَلَىٰ أَعْقَابِكُمْ تَنكِصُونَ»: يقول تعالى ذكره لهؤلاء المشركين من قريش: لا تضجوا اليوم وقد نزل بكم سخط الله وعذابه، بما كسبت أيديكم واستوجبتموه بكفركم بآيات ربكم. «قَد كانَتْ آيَاتِي تُتْلَى عَلَيْكُمْ» يعني: آيات كتاب الله، يقول: كانت آيات كتابي تقرأ عليكم فتكذّبون بها وترجعون مولّين عنها إذا سمعتموها، كراهية منكم لسماعها. وكذلك يقال لكلّ من رجع من حيث جاء: نكص فلان على عقبه. وينقل في المقطع أقوالاً عن ابن عباس ومجاهد والحسن وسعيد بن جبير وابن جريج وسفيان.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=23&tAyahNo=67&tDisplay=yes&UserProfile=0&LanguageId=1

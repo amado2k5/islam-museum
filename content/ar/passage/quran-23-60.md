@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-7-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن الذين يؤتون ما آتوا، أي يعطون أهل سهمان الصدقة ما فرض الله لهم في أموالهم ويؤدّون حقوق الله إلى أهلها، وقلوبهم وجلة أنهم إلى ربهم راجعون، أي خائفة من أن لا ينجيهم ما فعلوا من عذاب الله. وينقل عن الحسن في ذلك. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=23&tAyahNo=60&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 60 إلى 61 مقطعاً واحداً. يفسّر قوله «وَٱلَّذِينَ يُؤْتُونَ مَآ آتَواْ وَّقُلُوبُهُمْ وَجِلَةٌ أَنَّهُمْ إِلَىٰ رَبِّهِمْ رَاجِعُونَ»: يعني تعالى ذكره بقوله: «والَّذِينَ يُؤْتُونَ ما آتَوْا» والذين يعطون أهل سُهْمان الصدقة ما فرض الله لهم في أموالهم. «ما آتَوْا» يعني: ما أعطوهم إياه من صدقة، ويؤدّون حقوق الله عليهم في أموالهم إلى أهلها. «وَقُلُوبُهُمْ وَجِلَةٌ» يقول: خائفة من أنهم إلى ربهم راجعون، فلا ينجيهم ما فعلوا من ذلك من عذاب الله، فهم خائفون من المرجع إلى الله لذلك، كما قال الحسن: إن المؤمن جمع إحساناً وشفقة. وينقل في المقطع أقوالاً عن ابن عباس ومجاهد والحسن وعكرمة وسعيد بن جبير وابن جريج.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=23&tAyahNo=60&tDisplay=yes&UserProfile=0&LanguageId=1

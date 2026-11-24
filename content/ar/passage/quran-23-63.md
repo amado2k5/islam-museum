@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-7-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن الأمر ليس كما يحسب المشركون من أن إمداد الله لهم بالمال والبنين خير يُساق إليهم ورضاً عنهم، بل قلوبهم في غمرة عمى عن هذا القرآن، والغمرة ما غمر قلوبهم فغطاها عن فهم ما أودع الله كتابه من المواعظ والعبر والحجج، ولهم أعمال من دون ذلك هم لها عاملون. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=23&tAyahNo=63&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «بَلْ قُلُوبُهُمْ فِي غَمْرَةٍ مِّنْ هَٰذَا وَلَهُمْ أَعْمَالٌ مِّن دُونِ ذٰلِكَ هُمْ لَهَا عَامِلُونَ»: ما الأمر كما يحسب هؤلاء المشركون، من أن إمدادناهم بما نمدّهم به من مال وبنين، بخير نسوقه بذلك إليهم والرضا منا عنهم ولكن قلوبهم في غمرة عمى عن هذا القرآن. وعنى بالغمرة: ما غمر قلوبهم فغطاها عن فهم ما أودع الله كتابه من المواعظ والعبر والحجج. وعنى بقوله: «مِنْ هَذَا» من القرآن. وينقل في المقطع أقوالاً عن مجاهد وابن جريج والربيع.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=23&tAyahNo=63&tDisplay=yes&UserProfile=0&LanguageId=1

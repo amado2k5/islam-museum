@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-7-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن الله لا يكلف نفساً إلا وسعها، أي ما يسعها ويصلح لها من العبادة، ولذلك كلّفها معرفة وحدانيته وشرع لها الشرائع. وعند الله كتاب ينطق بالحق، أي يبيّن بالصدق عما عملوا من خير وشر لا زيادة فيه ولا نقصان، وهم لا يظلمون. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=23&tAyahNo=62&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَلاَ نُكَلِّفُ نَفْساً إِلاَّ وُسْعَهَا وَلَدَيْنَا كِتَابٌ يَنطِقُ بِٱلْحَقِّ وَهُمْ لاَ يُظْلَمُونَ»: ولا نكلف نفساً إلاَّ ما يَسَعها ويصلح لها من العبادة ولذلك كلَّفناها ما كلفناها من معرفة وحدانية الله، وشرعنا لها ما شرعنا من الشرائع. «وَلَدَيْنا كِتابٌ يَنْطِقُ بالحَقّ» يقول: وعندنا كتاب أعمال الخلق بما عملوا من خير وشرّ «يَنْطِقُ بِالْحَقِّ وَهُمْ لا يُظْلَمُونَ» يقول: يبين بالصدق عما عملوا من عمل في الدنيا، لا زيادة عليه ولا نقصان، ونحن موفو جميعهم أجورهم، المحسن منهم بإحسانه والمسيء بإساءته. «وَهُمْ لا يُظْلَمُونَ» يقول: وهم لا يظلمون، بأن يزاد على سيئات المسيء منهم ما لم يعمله فيعاقب على غير جُرْمه، وينقص المحسن عما عمل من إحسانه فينقص عما له من الثواب.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=23&tAyahNo=62&tDisplay=yes&UserProfile=0&LanguageId=1

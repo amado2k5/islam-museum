@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-7-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يعرض الطبري اختلاف أهل التأويل: فقيل نزلت في من استأذن النبي في نكاح نسوة معروفات بالزنا من أهل الشرك، فأنزل الله تحريمهن على المؤمنين، فالزاني لا ينكح إلا زانية أو مشركة، وحُرّم ذلك على المؤمنين. ويذكر أقوالاً أخرى في معنى النكاح هنا. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=24&tAyahNo=3&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «ٱلزَّانِي لاَ يَنكِحُ إِلاَّ زَانِيَةً أَوْ مُشْرِكَةً وَٱلزَّانِيَةُ لاَ يَنكِحُهَآ إِلاَّ زَانٍ أَوْ مُشْرِكٌ وَحُرِّمَ ذٰلِكَ عَلَى ٱلْمُؤْمِنِينَ»: اختلف أهل التأويل في تأويل ذلك، فقال بعضهم: نزلت هذه الآية في بعض من استأذن رسول الله في نكاح نسوة كنّ معروفات بالزنا من أهل الشرك، وكنّ أصحاب رايات، يُكْرِين أنفسهنّ، فأنزل الله تحريمهنّ على المؤمنين، فقال: الزاني من المؤمنين لا يتزوّج إلاَّ زانية أو مشركة، لأنهنّ كذلك والزانية من أولئك البغايا لا ينكحها إلاَّ زان من المؤمنين أو المشركين أو مشرك مثلها، لأنهنّ كنّ مشركات. «وَحُرِّمَ ذلكَ عَلى المُؤْمِنِينَ» فحرّم الله نكاحهنّ في قول أهل هذه المقالة بهذه الآية.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=24&tAyahNo=3&tDisplay=yes&UserProfile=0&LanguageId=1

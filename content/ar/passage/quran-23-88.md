@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-7-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن الله يأمر نبيه أن يقول: من بيده ملكوت كل شيء، أي خزائن كل شيء، وهو يجير ولا يجار عليه إن كنتم تعلمون؟ ويورد قول مجاهد أن الملكوت خزائن كل شيء. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=23&tAyahNo=88&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 88 إلى 89 مقطعاً واحداً. يفسّر قوله «قُلْ مَن بِيَدِهِ مَلَكُوتُ كُلِّ شَيْءٍ وَهُوَ يُجْيِرُ وَلاَ يُجَارُ عَلَيْهِ إِن كُنتُمْ تَعْلَمُونَ»: قل يا محمد: من بيده خزائن كلّ شيء؟ كما: وعن ابن أبي نجيح، عن مجاهد، في قول الله: «مَلَكُوتُ كُلِّ شَيْءٍ» قال: خزائن كلّ شيء. وقال: ثني حجاج، عن مجاهد، في قول الله: «قُلْ مَنْ بِيَدِهِ مَلَكُوتُ كُلِّ شَيْءٍ» قال: خزائن كلّ شيء. وقوله: «وَهُوَ يُجِيرُ» من أراد ممن قصده بسوء. «وَلا يُجارُ عَلَيْهِ» يقول: ولا أحد يمتنع ممن أراده هو بسوء فيدفع عنه عذابه وعقابه. «إنْ كُنْتُمْ تَعْلَمُونَ» من ذلك صفته، فإنهم يقولون: إن ملكوت كلّ شيء والقدرة على الأشياء كلها لله. وينقل في المقطع أقوالاً عن ابن عباس ومجاهد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=23&tAyahNo=88&tDisplay=yes&UserProfile=0&LanguageId=1

@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-7-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن من لم يجد في البيوت التي يستأذن فيها أحداً فلا يدخلها لأنها ليست له إلا بإذن أربابها، فإن أذنوا فيدخلوا، وإن قيل لهم ارجعوا فليرجعوا فهو أزكى لهم، والله بما يعملون عليم. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=24&tAyahNo=28&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «فَإِن لَّمْ تَجِدُواْ فِيهَآ أَحَداً فَلاَ تَدْخُلُوهَا حَتَّىٰ يُؤْذَنَ لَكُمْ وَإِن قِيلَ لَكُمْ ٱرْجِعُواْ فَٱرْجِعُواْ هُوَ أَزْكَىٰ لَكُمْ وَٱللَّهُ بِمَا تَعْمَلُونَ عَلِيمٌ»: فإن لم تجدوا في البيوت التي تستأذنون فيها أحداً يأذن لكم بالدخول إليها، فلا تدخلوها، لأنها ليست لكم، فلا يحلّ لكم دخولها إلا بإذن أربابها، فإن أذن لكم أربابها أن تدخلوها فادخلوها. «وَإنْ قِيلَ لَكُمُ ارْجِعُوا فارْجِعُوا» يقول: وإن قال لكم أهل البيوت التي تستأذنون فيها ارجعوا فلا تدخلوها، فارجعوا عنها ولا تدخلوها «هُوَ أزْكَى لَكُمْ» يقول: رجوعكم عنها إذا قيل لكم ارجعوا، ولم يؤذن لكم بالدخول فيها، أطهر لكم عند الله. وقوله: «هُوَ» كناية من اسم الفعل، أعنى من قوله: «فارْجِعُوا». وينقل في المقطع أقوالاً عن مجاهد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=24&tAyahNo=28&tDisplay=yes&UserProfile=0&LanguageId=1

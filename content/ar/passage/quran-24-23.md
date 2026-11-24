@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-7-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يذكر الطبري أن الذين يرمون المحصنات الغافلات المؤمنات، أي العفيفات عن الفواحش، لُعنوا في الدنيا والآخرة ولهم عذاب عظيم، أي أُبعدوا من رحمة الله. ويعرض اختلاف أهل التأويل في المحصنات: فقيل هي عائشة خاصة، وقيل غير ذلك. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=24&tAyahNo=23&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «إِنَّ ٱلَّذِينَ يَرْمُونَ ٱلْمُحْصَنَاتِ ٱلْغَافِلاَتِ ٱلْمُؤْمِناتِ لُعِنُواْ فِي ٱلدُّنْيَا وَٱلآخِرَةِ وَلَهُمْ عَذَابٌ عَظِيمٌ»: «إنَّ الَّذِينَ يَرْمُونَ» بالفاحشة «المُحْصَناتِ» يعني العفيفات «الغافِلاتِ» عن الفواحش «المُؤْمِناتِ» بالله ورسوله، وما جاء به من عند الله، «لُعِنُوا فِي الدُّنيْا والآخِرَةِ» يقول: أُبْعِدوا من رحمة الله في الدنيا والآخرة. «وَلَهُمْ» في الآخرة «عَذَابٌ عَظِيمٌ» وذلك عذاب جهنم. واختلف أهل التأويل في المحصنات اللاتي هذا حكمهن، فقال بعضهم: إنما ذلك لعائشة خاصة، وحكم من الله فيها وفيمن رماها، دون سائر نساء أمة نبينا. وينقل في المقطع أقوالاً عن ابن عباس.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=24&tAyahNo=23&tDisplay=yes&UserProfile=0&LanguageId=1

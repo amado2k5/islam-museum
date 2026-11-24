@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-7-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن الله يبيّن لهم الآيات، وهو عليم حكيم، أي يوضح لهم ما فيه صلاحهم وما ينفعهم من الأحكام والآداب، عالم بأمورهم حكيم في تدبيره. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=24&tAyahNo=18&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَيُبَيِّنُ ٱللَّهُ لَكُمُ ٱلآيَاتِ وَٱللَّهُ عَلِيمٌ حَكِيمٌ»: إن الذين يحبون أن يذيع الزنا في الذين صدّقوا بالله ورسوله ويظهر ذلك فيهم، «لهم عَذَابٌ أليمٌ» يقول: لهم عذاب وجيع في الدنيا، بالحدّ الذي جعله الله حدًّا لرامي المحصَناتِ والمحصَنين إذا رموهم بذلك، وفي الآخرة عذاب جهنم إن مات مُصِرّاً على ذلك غير تائب. كما: قال: ثني حجاج، عن ابن جُرَيج، عن مجاهد، قوله: «يُحِبُّونَ أنْ تَشِيعَ الفاحِشَةُ» قال: تظهر في شأن عائشة. قال ابن زيد، في قوله: «إنَّ الَّذِينَ يُحِبُّونَ أنْ تَشِيعَ الفاحِشَةُ فِي الَّذِينَ آمَنُوا لَهُمْ عَذَابٌ ألِيمٌ» قال: الخبيث عبد الله بن أبيّ ابن سَلول، المنافق، الذي أشاع على عائشة ما أشاع عليها من الفرية، «لهم عَذَابٌ أليمٌ». وينقل في المقطع أقوالاً عن مجاهد وابن زيد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=24&tAyahNo=18&tDisplay=yes&UserProfile=0&LanguageId=1

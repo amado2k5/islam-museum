@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-7-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن أحد هؤلاء المشركين إذا جاءه الموت وعاين نزول أمر الله به قال تندماً على ما فات: ربّ ارجعون، أي ردّوني إلى الدنيا كي أعمل صالحاً فيما تركت من طاعة الله. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=23&tAyahNo=99&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 99 إلى 100 مقطعاً واحداً. يفسّر قوله «حَتَّىٰ إِذَا جَآءَ أَحَدَهُمُ ٱلْمَوْتُ قَالَ رَبِّ ٱرْجِعُونِ»: حتى إذا جاء أحدَ هؤلاء المشركين الموتُ، وعاين نزول أمر الله به، قال لعظيم ما يعاين مما يَقْدَم عليه من عذاب الله تندّما على ما فات وتلهُّفا على ما فرّط فيه قبل ذلك من طاعة الله ومسئلته للإقالة: «رَبّ ارْجِعُونِ» إلى الدنيا فردّوني إليها، «لَعَلِّي أعْمَلُ صَالِحاً» يقول: كي أعمل صالحا فيما تركت قبل اليوم من العمل فضيعته وفرّطت فيه. وينقل في المقطع أقوالاً عن ابن زيد وابن جريج.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=23&tAyahNo=99&tDisplay=yes&UserProfile=0&LanguageId=1

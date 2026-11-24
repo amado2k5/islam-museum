@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-7-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إنه إن يكن الحق لهؤلاء يأتوا إلى رسول الله مذعنين، أي منقادين لحكمه مقرّين به طائعين غير مكرهين، يقال أذعن فلان بحقه إذا أقر به طائعاً. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=24&tAyahNo=49&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 49 إلى 50 مقطعاً واحداً. يفسّر قوله «وَإِن يَكُنْ لَّهُمُ ٱلْحَقُّ يَأْتُوۤاْ إِلَيْهِ مُذْعِنِينَ»: وإن يكن الحقّ لهؤلاء الذين يدعون إلى الله ورسوله ليحكم بينهم، فيأبَون ويُعْرِضون عن الإجابة إلى ذلك، قِبَلَ الذين يدعونهم إلى الله ورسوله، يأتوا إلى رسول الله مذعنين، يقول «مُذْعِنِينَ» منقادين لحكمه، مقرّين به طائعين غير مكرهين يقال منه: قد أذعن فلان بحقه: إذا أقرّ به طائعاً غير مستكْرَه وانقاد له وسلَّم. وكان مجاهد فيما ذكر عنه يقول في ذلك، ما: قال: ثني حجاج، عن ابن جُرَيج، عن مجاهد، قوله: «يَأْتُوا إلَيهِ مُذْعِنِينَ» قال: سِراعاً. وقوله: «أفِي قُلُوبِهِمْ مَرَضٌ» يقول تعالى ذكره: أفي قلوب هؤلاء الذين يُعْرِضون إذا دُعُوا إلى الله ورسوله ليحكم بينهم، شكٌّ في رسول الله أنه لله رسول فهم يمتنعون من الإجابة إلى حكمه والرضا به. وينقل في المقطع أقوالاً عن مجاهد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=24&tAyahNo=49&tDisplay=yes&UserProfile=0&LanguageId=1

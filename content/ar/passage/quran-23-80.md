@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-7-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يذكر الطبري أن الله هو الذي يحيي خلقه، أي يجعلهم أحياء بعد أن كانوا نطفاً أمواتاً بنفخ الروح فيها، ويميتهم بعد أن أحياهم، وله اختلاف الليل والنهار، أي هو الذي جعلهما مختلفين، أفلا تعقلون. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=23&tAyahNo=80&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَهُوَ ٱلَّذِي يُحْيِي وَيُمِيتُ وَلَهُ ٱخْتِلاَفُ ٱللَّيْلِ وَٱلنَّهَارِ أَفَلاَ تَعْقِلُونَ»: والله الذي يحيي خلقه يقول: يجعلهم أحياء بعد أن كانوا نُطَفاً أمواتاً، بنفخ الروح فيها بعد التارات التي تأتي عليها. «ويُمِيتُ» يقول: ويميتهم بعد أن أحياهم. «وَلَهُ اخْتِلافُ اللَّيْلِ والنَّهارِ» يقول: وهو الذي جعل الليل والنهار مختلفين، كما يقال في الكلام: لك المنُّ والفضل، بمعنى: إنك تَمُنّ وتُفْضِلْ. وقوله: «أفَلا تَعْقِلُونَ» يقول: أفلا تعقلون أيها الناس أن الذي فعل هذه الأفعال ابتداء من غير أصل لا يمتنع عليه إحياء الأموات بعد فنائهم وإنشاء ما شاء إعدامه بعد إنشائه.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=23&tAyahNo=80&tDisplay=yes&UserProfile=0&LanguageId=1

@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-7-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن الله يعاتب الخائضين: هلّا قلتم لما سمعتموه ما يكون لنا أن نتكلم بهذا، سبحانك هذا بهتان عظيم، أي ما يحلّ لنا ولا ينبغي أن نتفوه به، تنزيهاً لله وبراءة إليه مما جاء به هؤلاء. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=24&tAyahNo=16&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَلَوْلاۤ إِذْ سَمِعْتُمُوهُ قُلْتُمْ مَّا يَكُونُ لَنَآ أَن نَّتَكَلَّمَ بِهَٰذَا سُبْحَانَكَ هَٰذَا بُهْتَانٌ عَظِيمٌ»: «ولوْلاَ» أيها الخائضون في الإفك الذي جاءت به عصبة منكم، «إذْ سَمِعْتُمُوهُ» ممن جاء به، «قلتُمْ» ما يحلّ لنا أن نتكلم بهذا، وما ينبغي لنا أن نتفوّه به «سُبْحَانَكَ هَذَا بُهْتانٌ عَظِيمٌ»، تنزيها لك يا ربّ وبراءة إليك مما جاء به هؤلاء «هَذَا بُهْتانٌ عَظِيمٌ» يقول: هذا القول بهتان عظيم.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=24&tAyahNo=16&tDisplay=yes&UserProfile=0&LanguageId=1

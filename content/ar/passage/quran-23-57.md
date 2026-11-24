@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-7-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن الذين هم من خشية ربهم مشفقون، أي خائفون من عذاب الله فهم دائبون في طاعته جادّون في طلب مرضاته، والذين هم بآيات ربهم يؤمنون، أي مصدقون بكتابه وحججه، وأولئك يسارعون في الخيرات. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=23&tAyahNo=57&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 57 إلى 59 مقطعاً واحداً. يفسّر قوله «إِنَّ ٱلَّذِينَ هُم مِّنْ خَشْيةِ رَبِّهِمْ مُّشْفِقُونَ»: يعني تعالى ذكره: «إنَّ الَّذِينَ هُمْ مِنْ خَشْيَةِ رَبِّهِمْ مُشْفِقُونَ» إن الذين هم من خشيتهم وخوفهم من عذاب الله مشفقون، فهم من خشيتهم من ذلك دائبون في طاعته جادّون في طلب مرضاته.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=23&tAyahNo=57&tDisplay=yes&UserProfile=0&LanguageId=1

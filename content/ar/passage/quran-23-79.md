@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-7-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن الله هو الذي خلق الناس في الأرض وإليه يحشرون من بعد مماتهم ثم يبعثون من قبورهم إلى موقف الحساب. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=23&tAyahNo=79&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَهُوَ ٱلَّذِي ذَرَأَكُمْ فِي ٱلأَرْضِ وَإِلَيْهِ تُحْشَرُونَ»: والله الذي خلقكم في الأرض وإليه تُحْشَرون من بعد مماتكم، ثم تُبعثون من قبوركم إلى موقف الحساب.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=23&tAyahNo=79&tDisplay=yes&UserProfile=0&LanguageId=1
