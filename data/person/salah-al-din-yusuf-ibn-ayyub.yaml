@@ -1,6 +1,14 @@
 id: person/salah-al-din-yusuf-ibn-ayyub
 class: person
 label: { ar: "صلاح الدين الأيوبي", en: "Saladin (Salah al-Din Yusuf ibn Ayyub)", ur: "صلاح الدین ایوبی", es: "Saladin (Salah al-Din Yusuf ibn Ayyub)", fr: "Saladin (Salah al-Din Yusuf ibn Ayyub)" }
+name_parts:
+  ism:
+    - { value: "يوسف", translit: "Yusuf", certainty: attested, sources: [source/jstor-schimmel-islamic-names], note: "Facts in this name block come from a research summary supplied to the museum (classical-arabic-names.md); the museum did not open the pages it cites; founder approval to use the file without re-verification, 21 Nov 2026." }
+  nasab:
+    - { value: "بن أيوب", translit: "ibn Ayyub", certainty: attested, sources: [source/beeston-arabic-nomenclature] }
+  laqab:
+    - { value: "صلاح الدين", translit: "Salah al-Din", meaning: { en: "Righteousness of the religion", ar: "صلاح الدين", ur: "دین کی صالحیت", fr: "Rectitude de la religion", es: "Rectitud de la religión" }, certainty: attested, sources: [source/jstor-schimmel-islamic-names] }
+  spellings: ["Saladin"]
 names:
   - { kind: full, lang: ar, value: "صلاح الدين يوسف بن أيوب" }
   - { kind: latinized, lang: en, value: Saladin }
