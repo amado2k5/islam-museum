@@ -19,6 +19,7 @@ import { ULAMA_TAG, isUlamaPerson, isUlamaPassage, ulamaCategoriesOf, ulamaPerso
 import { BAYT_TAG, baytCorpusOf, baytTagSection, isBaytPassage } from "./bayt.js";
 import { MAGIC_TAG, magicCorpusOf, magicTagSection, magicTagTopics, isMagicPassage, magicTopicsOf } from "./magic.js";
 import { QIRAAT_TAG, qiraatCorpusOf, qiraatTagSection, qiraatTagTopics, isQiraatPassage, qiraatTopicsOf } from "./qiraat.js";
+import { TAJWID_TAG, tajwidCorpusOf, tajwidTagSection, tajwidTagTopics, isTajwidPassage, tajwidTopicsOf } from "./tajwid.js";
 import { WASAYA_TAG, wasayaCorpusOf, wasayaTagSection, wasayaTagTopics, isWasayaPassage, wasayaTopicsOf } from "./wasaya.js";
 import { COSMOS_TAG, cosmosCorpusOf, cosmosTagSection, cosmosTagTopics, isCosmosPassage, cosmosTopicsOf } from "./cosmos.js";
 import { ESCH_TAG, eschCorpusOf, eschTagSection, eschTagTopics, isEschatologyPassage, eschatologyTopicsOf, signStepOf } from "./eschatology.js";
@@ -529,6 +530,16 @@ const FEATURE_EXPORTS: { file: string; feature: string; pick: (n: Node) => boole
         ? qiraatCorpusOf(n.data.work as string | undefined, byId?.get(n.data.work as string)?.data.genre as string[] | undefined, n.data.unit as string | undefined)
         : qiraatTagSection(n),
       topics: n.class === "passage" ? [...new Set([...qiraatTopicsOf(n), ...qiraatTagTopics(n)])] : qiraatTagTopics(n),
+    }) },
+  { file: "tajwid.json", feature: "tajwid-browser",
+    // tajwid and tilawah: the makharij and sifat, the recitation's measure and etiquette, the melodies and the teachers (docs/plan/76-tajwid-tilawah-browser.md): the same records the page shows
+    pick: (n) => n.tags.includes(TAJWID_TAG) || isTajwidPassage(n),
+    fields: ["kind", "work", "ref", "unit", "text", "sura", "aya", "wings", "themes", "tags"],
+    extra: (n, ef, byId) => ({
+      section: n.class === "passage"
+        ? tajwidCorpusOf(n.data.work as string | undefined, byId?.get(n.data.work as string)?.data.genre as string[] | undefined, n.data.unit as string | undefined)
+        : tajwidTagSection(n),
+      topics: n.class === "passage" ? [...new Set([...tajwidTopicsOf(n), ...tajwidTagTopics(n)])] : tajwidTagTopics(n),
     }) },
   { file: "wasaya.json", feature: "wasaya-browser",
     // testaments, last hours, estates, relics and graves (docs/plan/62-wasaya-browser.md): the same records the page shows

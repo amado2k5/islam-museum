@@ -1992,6 +1992,10 @@ explore:
       desc: Les sept ahruf, les lectures et leurs imams, la collecte du Coran et la copie des codex, l''orthographe du mushaf et le débat sur l''orthographe ordinaire, ses points et voyelles, et les écritures
         dans lesquelles il fut écrit — chaque verset et récit cité, chaque point de vue attribué.
       menu: Parcourir les lectures, le rasm, les écritures et les points du Coran
+    tajwid:
+      title: "Navigateur du Tajwid et de la Tilawa"
+      desc: "Les dix-sept makharij et les sifat des lettres, les règles du tajwid, le tartil et l'étiquette de la récitation et de l'écoute, les mélodies, les récitateurs et les textes d'enseignement — chaque verset, récit et passage cité."
+      menu: "Parcourir les règles du tajwid et l'art de la récitation"
     ulama:
       title: 'Navigateur des ulama : penseurs, savants, littérateurs, muhaddiths et écrivains'
       desc: 'Chaque penseur, savant, littérateur, muhaddith et écrivain du musée — et tout ce que le Coran, la Sunna, la sira et chaque livre récolté disent d''''eux : leurs vies, leur mission, leurs citations,
@@ -9030,3 +9034,75 @@ nuzul:
     sky_title: "Les sourates, dans l'ordre du mushaf"
     sky_note: "{n} des {total} sourates portent un récit d'occasion ; les autres sont pâles."
     count_in: "{n} notices"
+
+tajwid:
+  title: "Navigateur du Tajwid et de la Tilawa"
+  lede: "Tout ce que les sources du musée disent sur la manière dont les lettres du Coran se prononcent et dont sa récitation s'accomplit : les dix-sept makharij et les sifat des lettres, les mudud, la ghunna, la qalqala et les règles du nun sakina, du mim sakina et du tanwin, le waqf et l'ibtida' ; le tartil que le Coran ordonne, l'étiquette de la récitation et de l'écoute, les mélodies débattues sous les noms de leurs tenants, et les récitateurs et les textes d'enseignement qui portent le savoir-faire. Chaque verset, récit et passage de livre est cité, et chaque opinion est attribuée à celui qui l'a portée."
+  badge: Explorateur du tajwid et de la tilawa
+  hero_ayah: "وَرَتِّلِ الْقُرْآنَ تَرْتِيلًا"
+  hero_naskh: "Comment les lettres s'élèvent de leurs makharij et comment la récitation s'accomplit"
+  status: "Cette construction contient {n} fiches en {s} sections ; chaque fiche liste ses sources, et les textes ont été écrits par des agents IA à partir de ces sources et n'ont pas encore été lus par un humain."
+  method_title: La méthode du navigateur
+  method_note: "Ce navigateur rassemble ce qui est dit et écrit sur deux questions liées : comment les lettres se prononcent — leurs makharij, sifat et règles — et comment la récitation s'accomplit, s'écoute et s'enseigne. Les versets du Coran viennent d'une table revue : les versets du tartil et de la vraie tilawa, l'étiquette de celui qui récite et de celui qui écoute, et la récitation enseignée et entendue. Le texte du Coran n'apparaît au musée que depuis ses fichiers figés, de sorte que les mots d'un verset ne sont jamais retapés. Tout autre texte — hadith, sira, récits des Compagnons et des Suivants, et livres — est trouvé à la construction par un lexique surveillé sur chaque passage, de sorte qu'une mention dans un livre récolté plus tard apparaît le jour où son passage arrive. Le navigateur ne tranche pas : là où les savants divergent, comme sur les mélodies et les maqamat, la fiche donne chaque vue avec son tenant."
+  api: "L'ensemble est disponible à"
+  topics_title: Les sept sujets du navigateur
+  sections_title: Les sections du navigateur
+  filter_label: Filtrer les fiches de tajwid et de tilawa
+  filter_none: Aucun résultat.
+  empty: Pas encore de fiches de tajwid ou de tilawa dans cette construction.
+  kin_title: Navigateurs frères
+  topics:
+    tartil: La récitation mesurée
+    adab: L'étiquette de la récitation
+    ahkam: "Les règles : makharij et sifat"
+    qurra: Les récitateurs et les maîtres
+    mutun: Les textes d'enseignement
+    maqamat: Les mélodies
+    taalim: Enseigner et apprendre
+  topics_desc:
+    tartil: "L'ordre de réciter le Coran avec tartil, de suivre sa récitation et de retenir la langue, et ce qui est rapporté des cadences mesurées : tahzir, tadwir, hadr et tarsil."
+    adab: "L'isti'adha et la basmala, une belle voix avec le Coran, l'écoute et le silence, les prosternations de la récitation et l'achèvement, et réciter à haute voix ou à voix basse."
+    ahkam: "Les dix-sept makharij et les sifat des lettres, les mudud, la ghunna, la qalqala, le tafkhim et le tarqiq, les règles du nun sakina, du mim sakina et du tanwin, et le waqf et l'ibtida'."
+    qurra: "Les lecteurs parmi les Compagnons et les Suivants, les sept et les dix imams et leurs transmetteurs, les shaykhs de l'enseignement et les classes des qurra'."
+    mutun: "Les matns de tajwid qui s'étudient et se mémorisent : Tuhfat al-Atfal, la Jazariyya, la Shatibiyya, Tayyibat al-Nashr et les autres textes d'enseignement des lectures."
+    maqamat: "Mélodie et maqamat dans la récitation : un art débattu ; la fiche donne chaque vue sous le nom de son tenant."
+    taalim: "Enseigner et apprendre la récitation : « les meilleurs d'entre vous sont ceux qui apprennent le Coran et l'enseignent », les cercles et le kuttab, et réciter devant les shaykhs."
+  sections:
+    quran:
+      title: Dans le Coran
+      desc: "Les versets ordonnant le tartil et la vraie tilawa, l'étiquette de celui qui récite et de celui qui écoute, et la récitation enseignée et entendue — d'une table revue sur les versets et les livres."
+    sunnah:
+      title: Dans la Sunna
+      desc: "Ce que les recueils de hadith rapportent de la récitation du Prophète, d'une belle voix avec le Coran, de l'étiquette de réciter et d'écouter, et les récits de lecteurs et de maîtres."
+    seerah:
+      title: Dans la sira
+      desc: "Ce que les livres de sira portent de la récitation et de l'enseignement du Coran dans les événements de l'appel — cette section se remplit d'elle-même à mesure que de nouveaux textes de sira arrivent."
+    tafsir:
+      title: Dans le tafsir
+      desc: "Ce que les commentaires récoltés disent des versets de la tilawa et du tartil et de leurs règles."
+    books:
+      title: Dans les autres livres
+      desc: "Sciences coraniques, lectures, histoire, biographie et adab : tout livre récolté au-delà du Coran, du hadith, de la sira et du tafsir qui traite de ces questions, et ce qui viendra ensuite."
+    ahkam:
+      title: Les règles
+      desc: "Les fiches du musée sur les dix-sept makharij et les sifat des lettres, les règles du nun sakina, du mim sakina et du tanwin, les mudud et la ghunna, et le waqf et l'ibtida'."
+    adab:
+      title: L'étiquette
+      desc: "L'étiquette de la tilawa : isti'adha et basmala, khushu', écoute, prosternations de la récitation et achèvement du Livre."
+    taalim:
+      title: Enseigner et apprendre
+      desc: "Les récits du Coran enseigné, récité et porté parmi les Compagnons et les Suivants, ses cercles et ses écoles, sur leurs isnads."
+    qurra:
+      title: Les récitateurs
+      desc: "Les lecteurs parmi les Compagnons et les Suivants, les sept et les dix imams et leurs transmetteurs, et les shaykhs de l'enseignement et leurs élèves."
+    mutun:
+      title: Les textes d'enseignement
+      desc: "Les matns de tajwid et de qira'at que le musée décrit, avec leurs commentaires et leurs éditions."
+    maqamat:
+      title: Les mélodies
+      desc: "Les mélodies et maqamat de la récitation et ce qui en a été dit, chaque vue sous le nom de son tenant, sans verdict."
+  map:
+    title: La carte des makharij
+    note: "Les dix-sept points d'articulation tels qu'Ibn al-Jazari les compte dans al-Muqaddima al-Jazariyya, posés sur le chemin du souffle, du creux de la gorge aux lèvres et au conduit nasal — chaque lettre dans un disque de la couleur de sa région."
+    aria: "Carte schématique des dix-sept points d'articulation des lettres arabes, de la gorge aux lèvres et au conduit nasal"
+    counts: "{v} versets dans le Coran, {p} passages dans les livres, {r} fiches éditées dans ce navigateur."
