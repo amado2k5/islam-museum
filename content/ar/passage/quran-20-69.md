@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-6-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن موسى أوجس في نفسه خيفة فطمأنه الله: لا تخف إنك أنت الأعلى، وألقِ ما في يمينك تلقف ما صنعوا، إنما صنعوا كيد ساحر ولا يفلح الساحر حيث أتى. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=20&tAyahNo=69&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 67 إلى 69 مقطعاً واحداً. يفسّر قوله «وَأَلْقِ مَا فِي يَمِينِكَ تَلْقَفْ مَا صَنَعُوۤاْ إِنَّمَا صَنَعُواْ كَيْدُ سَاحِرٍ وَلاَ يُفْلِحُ ٱلسَّاحِرُ حَيْثُ أَتَىٰ»: وألق عصاك تبتلع حبالهم وعصيهم التي سحروها حتى خيل إليك أنها تسعى. وقوله: «إنَّمَا صَنَعُوا كَيْدُ ساحِرٍ» اختلفت القرّاء في قراءة قوله، فقرأته عامة قرّاء المدينة والبصرة وبعض قرّاء الكوفة «إنَّمَا صَنَعُوا كَيْدُ ساحِرٍ» برفع كيد وبالألف في ساحر بمعنى: إن الذي صنعه هؤلاء السحرة كيد من ساحر. وقرأ ذلك عامة قرّاء الكوفة: «إنَّمَا صَنَعُوا كَيْدُ سِحْرٍ» برفع الكيد وبغير الألف في السحر بمعنى إن الذي صنعوه كيد سحر.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=20&tAyahNo=69&tDisplay=yes&UserProfile=0&LanguageId=1

@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-7-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن الملأ قالوا لقومهم: أيعدكم أنكم إذا متم وكنتم تراباً وعظاماً أنكم مخرجون من قبوركم أحياء، فاستبعدوا البعث وأنكروه. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=23&tAyahNo=35&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 34 إلى 35 مقطعاً واحداً. يفسّر قوله «أَيَعِدُكُمْ أَنَّكُمْ إِذَا مِتُّمْ وَكُنتُمْ تُرَاباً وَعِظاماً أَنَّكُمْ مُّخْرَجُونَ»: ... الآية، يقول تعالى ذكره: قالوا لهم: أيعدكم صالح أنكم إذا متم وكنتم تراباً في قبوركم وعظاماً قد ذهبت لحوم أجسادكم وبقيت عظامها، أنكم مخرجون من قبوركم أحياء كما كنتم قبل مماتكم؟ وأعيدت «أنكم» مرّتين، والمعنى: أيعدكم أنكم إذا متم وكنتم تراباً وعظاماً مخرجون مرّة واحدة، لما فرق بين «أنكم» الأولى وبين خبرها ب«إذا»، وكذلك تفعل العرب بكل اسم أوقعت عليه الظنّ وأخواته، ثم اعترضت بالجزاء دون خبره، فتكرّر اسمه مرّة وتحذفه أخرى، فتقول: أظنّ أنك إن جالستنا أنك محسن، فإن حذفت «أنك» الأولى الثانية صلح، وإن أثبتهما صلح، وإن لم تعترض بينهما بشيء لم يجز، خطأ أن يقال: أظنّ أنك أنك جالس.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=23&tAyahNo=35&tDisplay=yes&UserProfile=0&LanguageId=1

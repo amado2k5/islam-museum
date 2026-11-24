@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-6-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن السحرة قالوا إنه من يأت ربه مجرماً فإن له جهنم لا يموت فيها ولا يحيى، ومن يأته مؤمناً قد عمل الصالحات فأولئك لهم الدرجات العلى. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=20&tAyahNo=75&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 74 إلى 75 مقطعاً واحداً. يفسّر قوله «وَمَن يَأْتِهِ مُؤْمِناً قَدْ عَمِلَ ٱلصَّالِحَاتِ فَأُوْلَٰئِكَ لَهُمُ ٱلدَّرَجَاتُ ٱلْعُلَىٰ»: موحداً لا يُشرك به «قَدْ عَمِلَ الصَّالِحاتِ» يقول: قد عمل ما أمره به ربه، وانتهى عما نهاه عنه «فأُولَئِكَ لَهُمُ الدَّرَجاتُ العُلَى» يقول: فأولئك الذين لهم درجات الجنة العُلَى.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=20&tAyahNo=75&tDisplay=yes&UserProfile=0&LanguageId=1

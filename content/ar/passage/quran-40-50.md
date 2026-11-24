@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-10-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل الآيات 49 إلى 50، وخلاصتها: يبيّن الطبري أن أهل جهنم يستغيثون بخزنتها: ادعوا ربكم يخفف عنا يوماً من العذاب، فيجيبهم الخزنة بأن الرسل كانت تأتيهم بالبينات فيقولون بلى، فيُقال لهم فادعوا وما دعاء الكافرين إلا في ضلال. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=40&tAyahNo=50&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 49 إلى 50 مقطعاً واحداً. يفسّر قوله «قَالُوۤاْ أَوَلَمْ تَكُ تَأْتِيكُمْ رُسُلُكُمْ بِٱلْبَيِّنَاتِ قَالُواْ بَلَىٰ قَالُواْ فَٱدْعُواْ وَمَا دُعَاءُ ٱلْكَافِرِينَ إِلاَّ فِي ضَلاَلٍ»: قالت خزنة جهنم لهم: أو لم تك تأتيكم في الدنيا رسلكم بالبينات من الحجج على توحيد الله، فتوحدوه وتؤمنوا به، وتتبرؤوا مما دونه من الآلهة؟ قالوا: بلى، قد أتتنا رسلنا بذلك. وقوله: «قالُوا فادْعُوا» يقول جلّ ثناؤه: قالت الخزنة لهم: فادعوا إذن ربكم الذي أتتكم الرسل بالدعاء إلى الإيمان به. وقوله: «وَما دُعاءُ الكافِرِينَ إلاَّ فِي ضَلالٍ» يقول: قد دعوا وما دعاؤهم إلا في ضلال، لأنه دعاء لا ينفعهم، ولا يستجاب لهم، بل يقال لهم:«اخْسَئُوا فِيهَا وَلا تُكَلِّمُونَ»
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=40&tAyahNo=50&tDisplay=yes&UserProfile=0&LanguageId=1

@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-6-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يفسّر الطبري أن الجبال تكاد تخرّ انقضاضاً لأنهم دعوا للرحمن ولداً، وما ينبغي للرحمن أن يتخذ ولداً، وأن كل من في السماوات والأرض يأتي الرحمن عبداً. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=19&tAyahNo=93&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 91 إلى 93 مقطعاً واحداً. يفسّر قوله «إِن كُلُّ مَن فِي ٱلسَّمَٰوَٰتِ وَٱلأَرْضِ إِلاَّ آتِي ٱلرَّحْمَٰنِ عَبْداً»: ما جميع من في السموات من الملائكة، وفي الأرض من البشر والإنس والجنّ «إلاَّ آتى الرَّحْمَنِ عَبْداً» يقول: إلا يأتي ربه يوم القيامة عبداً له، ذليلاً خاضعاً، مقرّاً له بالعبودية، لا نسب بينه وبينه. وقوله: «آتى الرَّحْمَنِ» إنما هو فاعل من أتيته، فأنا آتيه.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=19&tAyahNo=93&tDisplay=yes&UserProfile=0&LanguageId=1

@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-10-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل الآيات 7 إلى 8، وخلاصتها: يفسّر الطبري الويل لكل أفاك أثيم يسمع آيات الله تُتلى عليه ثم يصرّ مستكبراً كأن لم يسمعها فبشّره بعذاب أليم، ويذكر أن الويل وادٍ في جهنم. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=45&tAyahNo=8&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 7 إلى 8 مقطعاً واحداً. يفسّر قوله «يَسْمَعُ ءَايَٰتِ ٱللَّهِ تُتْلَىٰ عَلَيْهِ ثُمَّ يُصِرُّ مُسْتَكْبِراً كَأَن لَّمْ يَسْمَعْهَا فَبَشِّرْهُ بِعَذَابٍ أَلِيمٍ»: يسمع آيات كتاب الله تُقرأ عليه «ثُمَّ يُصِرُّ» على كفره وإثمه فيقيم عليه غير تائب منه، ولا راجع عنه «مُسْتَكْبِراً» على ربه أن يذعن لأمره ونهيه «كأنْ لَمْ يَسْمَعْها» يقول: كأن لم يسمع ما تلي عليه من آيات الله بإصراره على كفره «فَبَشِّرْهُ بعَذَابٍ ألِيمٍ» يقول: فبشر يا محمد هذا الأفَّاك الأثيم الذي هذه صفته بعذاب من الله له. «أليم»: يعني موجع في نار جهنم يوم القيامة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=45&tAyahNo=8&tDisplay=yes&UserProfile=0&LanguageId=1

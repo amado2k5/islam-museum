@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-7-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن الله ما اتخذ من ولد وما كان معه من إله، إذن لذهب كل إله بما خلق ولعلا بعضهم على بعض، سبحان الله عما يصفون، فلو كانت معه آلهة لانفرد كل إله بخلقه وغلب بعضهم بعضاً. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=23&tAyahNo=91&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 90 إلى 92 مقطعاً واحداً. يفسّر قوله «مَا ٱتَّخَذَ ٱللَّهُ مِن وَلَدٍ وَمَا كَانَ مَعَهُ مِنْ إِلَهٍ إِذاً لَّذَهَبَ كُلُّ إِلَٰهٍ بِمَا خَلَقَ وَلَعَلاَ بَعْضُهُمْ عَلَىٰ بَعْضٍ سُبْحَانَ ٱللَّهِ عَمَّا يَصِفُونَ»: ما لله من ولد، ولا كان معه في القديم ولا حين ابتدع الأشياء مَنْ تصلح عبادته، ولو كان معه في القديم أو عند خلقه الأشياء مَنْ تصلح عبادته «مِنْ إلهٍ إذاً لَذَهَب» يقول: إذن لاعتزل كلّ إله منهم «بِما خَلَقَ» من شيء، فانفرد به، ولتغالبوا، فلَعَلا بعضهم على بعض، وغلب القويّ منهم الضعيف لأن القويّ لا يرضى أن يعلُوَه ضعيف، والضعيف لا يصلح أن يكون إلها.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=23&tAyahNo=91&tDisplay=yes&UserProfile=0&LanguageId=1

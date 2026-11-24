@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-12-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل الآيات [[passage/quran-77-41|77:41]] إلى [[passage/quran-77-45|77:45]]، وخلاصتها: يبيّن الطبري أنه يقال لهم كلوا واشربوا هنيئاً، أي دون تكدير ولا تنغيص، لكم دائم لا يزول، وهو بما كانوا يعملون في الدنيا. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=77&tAyahNo=43&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 41 إلى 45 مقطعاً واحداً. يفسّر قوله «كُلُواْ وَٱشْرَبُواْ هَنِيۤئاً بِمَا كُنتُمْ تَعْمَلُونَ»: يقال لهم: كلوا أيها القوم من هذه الفواكه، واشربوا من هذه العيون كلما اشتهيتم «هنيئاً» يقول: لا تكدير عليكم، ولا تنغيص فيما تأكلونه وتشربون منه، ولكنه لكم دائم لا يزول، ومرىء لا يورثكم أذى في أبدانكم. وقوله: «بِمَا كُنْتُمْ تَعْمَلُونَ» يقول جلّ ثناؤه يقال لهم: هذا جزاء بما كنتم في الدنيا تعملون من طاعة الله، وتجتهدون فيما يقرّبكم منه. وقوله:
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=77&tAyahNo=43&tDisplay=yes&UserProfile=0&LanguageId=1

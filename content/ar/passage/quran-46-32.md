@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-10-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل الآيات 31 إلى 32، وخلاصتها: يبيّن الطبري أن الجن قالوا لقومهم أجيبوا داعي الله وآمنوا به يغفر لكم من ذنوبكم ويجركم من عذاب أليم، ومن لا يجب داعي الله فليس بمعجز في الأرض. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=46&tAyahNo=32&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 31 إلى 32 مقطعاً واحداً. يفسّر قوله «وَمَن لاَّ يُجِبْ دَاعِيَ ٱللَّهِ فَلَيْسَ بِمُعْجِزٍ فِي ٱلأَرْضِ وَلَيْسَ لَهُ مِن دُونِهِ أَوْلِيَآءُ أُوْلَٰئِكَ فِي ضَلاَلٍ مُّبِينٍ»: يقول تعالى ذكره مخبراً عن قيل هؤلاء النفر لقومهم: ومن لا يجب أيُّها القوم رسول الله محمداً، وداعيه إلى ما بعثه بالدعاء إليه من توحيده، والعمل بطاعته «فَلَيْسَ بِمُعْجِزٍ فِي الأرْضِ» يقول: فليس بمعجز ربه بهربه، إذا أراد عقوبته على تكذيبه داعيه، وتركه تصديقه وإن ذهب في الأرض هارباً، لأنه حيث كان فهو في سلطانه وقبضته «وَلَيْسَ لَهُ مِنْ دُونِهِ أوْلِياءُ» يقول: وليس لمن لم يجب داعي الله من دون ربه نُصراء ينصرونه من الله إذا عاقبه ربه على كفره به وتكذيبه داعيه.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=46&tAyahNo=32&tDisplay=yes&UserProfile=0&LanguageId=1

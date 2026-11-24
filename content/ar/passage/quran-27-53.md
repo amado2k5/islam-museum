@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-8-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري الآيات 52 إلى 53 معاً في موضع واحد. يفسّر الطبري البيوت الخاوية بأنها مساكنهم الخالية منهم بعد أن أهلكهم الله بظلمهم أنفسهم، أي بشركهم وتكذيب رسولهم، وفي ذلك عظة لمن يعلم من قوم النبي، وأنجى الله الذين آمنوا وكانوا يتقون. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=27&tAyahNo=53&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 52 إلى 53 مقطعاً واحداً. يفسّر قوله «وَأَنجَيْنَا ٱلَّذِينَ آمَنُواْ وَكَانُواْ يَتَّقُونَ»: وأنجينا من نقمتنا وعذابنا الذي أحللناه بثمود رسولنا صالحاً والمؤمنين به «وكانُوا يَتَّقُونَ» يقول: وكانوا يتقون بإيمانهم، وبتصديقهم صالحاً الذي حلّ بقومهم من ثمود ما حلّ بهم من عذاب الله، فكذلك ننجيك يا محمد وأتباعك، عند إحلالنا عقوبتنا بمشركي قومك من بين أظهرهم. وذُكر أن صالحاً لما أحلّ الله بقومه ما أحلّ، خرج هو والمؤمنون به إلى الشام، فنزل رملة فلسطين.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=27&tAyahNo=53&tDisplay=yes&UserProfile=0&LanguageId=1

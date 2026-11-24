@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-4-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن الآية أمر للنبي بأن يسبّح بحمد ربه ويكون من الساجدين، فيفزع إلى الشكر والصلاة حين يضيق صدره بقول المشركين، ويورد الخبر في فزعه إلى الصلاة إذا أهمّه أمر. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=15&tAyahNo=98&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 97 إلى 98 مقطعاً واحداً. يفسّر قوله «فَسَبِّحْ بِحَمْدِ رَبِّكَ وَكُنْ مِّنَ ٱلسَّاجِدِينَ»: فافزع فيما نابك من أمر تكرهه منهم إلى الشكر لله والثناء عليه والصلاة، يكفك الله من ذلك ما أهمّك. وهذا نحو الخبر الذي رُوي عن رسول الله: " أنه كان إذا حزَبَه أمر فَزِع إلى الصلاة ".
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=15&tAyahNo=98&tDisplay=yes&UserProfile=0&LanguageId=1

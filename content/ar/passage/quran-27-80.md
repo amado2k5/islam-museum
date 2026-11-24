@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-8-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري الآيات 79 إلى 80 معاً في موضع واحد. يبيّن الطبري أن الله أمر نبيه بتفويض أموره إليه والثقة به لأنه كافيه، وأنه على الحق المبين دون ما عليه اليهود والنصارى المختلفون ودون أهل الأوثان، فلا يحزنه تكذيب من كذّبه، وأنه لا يُسمع الموتى، أي لا يقدر أن يُفهم الحق من طبع الله على قلبه. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=27&tAyahNo=80&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 79 إلى 80 مقطعاً واحداً. يفسّر قوله «إِنَّكَ لاَ تُسْمِعُ ٱلْمَوْتَىٰ وَلاَ تُسْمِعُ ٱلصُّمَّ ٱلدُّعَآءَ إِذَا وَلَّوْاْ مُدْبِرِينَ»: إنك يا محمد لا تقدر أن تُفهِم الحقّ من طبع الله على قلبه فأماته، لأن الله قد ختم عليه أن لا يفهمه «ولاَ تُسْمِعَ الصُّمَّ الدُّعاءَ» يقول: ولا تقدر أن تسمع ذلك من أصمّ الله عن سماعه سمعه «إذَا وَلَّوْا مُدْبِرِينَ» يقول: إذا هم أدبروا معرضين عنه، لا يسمعون له لغلبة دين الكفر على قلوبهم، ولا يُصغون للحقّ، ولا يتدبرونه، ولا ينصتون لقائله، ولكنهم يعرضون عنه، وينكرون القول به، والاستماع له.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=27&tAyahNo=80&tDisplay=yes&UserProfile=0&LanguageId=1

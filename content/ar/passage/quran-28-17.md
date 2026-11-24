@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-8-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري الآيات 16 إلى 17 معاً في موضع واحد. يذكر الطبري ندم موسى على قتل النفس وتوبته وسؤاله المغفرة، قال رب إني ظلمت نفسي بقتل النفس التي لم تأمرني بقتلها فاغفر لي واستر عليّ، فغفر له، وقال رب بما أنعمت عليّ فلن أكون ظهيراً للمجرمين. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=28&tAyahNo=17&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 16 إلى 17 مقطعاً واحداً. يفسّر قوله «قَالَ رَبِّ بِمَآ أَنْعَمْتَ عَلَيَّ فَلَنْ أَكُونَ ظَهِيراً لِّلْمُجْرِمِينَ»: قال موسى ربّ بانعامك عليّ بعفوك عن قتل هذه النفس «فَلَنْ أكُونَ ظَهِيراً للْمُجْرِمِينَ» يعني المشركين، كأنه أقسم بذلك، وقد ذكر أن ذلك في قراءة عبد الله: «فَلا تَجْعَلْنِي ظَهِيراً للْمُجْرِمِينَ» كأنه على هذه القراءة دعا ربه، فقال: اللهمّ لن أكون ظهيراً ولم يستثن حين قال «فَلَنْ أكُونَ ظَهِيراً للْمُجْرِمِينَ» فابتلي. وكان قَتادة يقول في ذلك ما: وعن قَتادة «فَلَنْ أكُونَ ظَهِيراً للْمُجْرِمِينَ» يقول: فلن أعين بعدها ظالِما على فُجره، قال: وقلما قالها رجل إلا ابتُلي، قال: فابتلي كما تسمعون.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=28&tAyahNo=17&tDisplay=yes&UserProfile=0&LanguageId=1

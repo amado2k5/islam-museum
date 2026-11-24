@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-7-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن الله نصر نوحاً على القوم الذين كذّبوا بآياته، إنهم كانوا قوم سوء فأغرقهم أجمعين، ويربط ذلك بما سبق من إجابة دعائه ونجاته من الكرب العظيم. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=21&tAyahNo=77&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 76 إلى 77 مقطعاً واحداً. يفسّر قوله «وَنَصَرْنَاهُ مِنَ ٱلْقَوْمِ ٱلَّذِينَ كَذَّبُواْ بِآيَاتِنَا إِنَّهُمْ كَانُواْ قَوْمَ سَوْءٍ فَأَغْرَقْنَاهُمْ أَجْمَعِينَ»: ونصرنا نوحاً على القوم الذي كذّبوا بحججنا وأدلتنا، فأنجيناه منهم، فأغرقناهم أجمعين. «إنّهم كَانُوا قَوْمَ سَوْءٍ» يقول تعالى ذكره: إن قوم نوح الذين كذّبوا بآياتنا كانوا قوم سوء، يسيئون الأعمال، فيعصون الله ويخالفون أمره.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=21&tAyahNo=77&tDisplay=yes&UserProfile=0&LanguageId=1

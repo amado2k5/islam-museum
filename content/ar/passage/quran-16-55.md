@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-5-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يشرح الطبري في الموضع نفسه أن لام «ليكفروا» لام العاقبة، وأن الأمر «فتمتعوا» تهديد، وأن عاقبة من كفر بنعمة الله وأشرك به ستظهر لهم، فسوف يعلمون. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=16&tAyahNo=55&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 54 إلى 55 مقطعاً واحداً. يفسّر قوله «لِيَكْفُرُواْ بِمَآ آتَيْنَاهُمْ فَتَمَتَّعُواْ فَسَوْفَ تَعْلَمُونَ»: ليجحدوا الله نعمته فيما آتاهم من كشف الضرّ عنهم. «فَتَمَتَّعُوا فَسَوْفَ تَعْلَمُونَ»، وهذا من الله وعيد لهؤلاء الذين وصف صفتهم في هذه الآيات وتهديد لهم، يقول لهم جلّ ثناؤه: تمتعوا في هذه الحياة الدنيا إلى أن توافيكم آجالكم، وتبلغوا الميقات الذي وقته لحياتكم وتمتعكم فيها، فإنكم من ذلك ستصيرون إلى ربكم، فتعلمون بلقائه وبال ما كسبت أيديكم، وتعرفون سوء مغبة أمركم، وتندمون حين لا ينفعكم الندم.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=16&tAyahNo=55&tDisplay=yes&UserProfile=0&LanguageId=1

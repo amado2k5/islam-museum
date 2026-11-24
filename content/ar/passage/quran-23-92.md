@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-7-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يذكر الطبري أن الله عالم الغيب والشهادة فتعالى عما يشركون، أي هو العالم بما غاب عن الخلق وما شاهدوه، فتنزّه وتعظّم عن شركهم وما يضيفونه إليه. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=23&tAyahNo=92&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 90 إلى 92 مقطعاً واحداً. يفسّر قوله «عَالِمِ ٱلْغَيْبِ وَٱلشَّهَادَةِ فَتَعَالَىٰ عَمَّا يُشْرِكُونَ»: هو عالم ما غاب عن خلقه من الأشياء، فلم يَرَوْه ولم يشاهدوه، وما رأوه وشاهدوه. إنما هذا من الله خبر عن هؤلاء الذين قالوا من المشركين: اتخذ الله ولداً وعبدوا من دونه آلهة، أنهم فيما يقولون ويفعلون مُبْطِلون مخطئون، فإنهم يقولون ما يقولون من قول في ذلك عن غير علم، بل عن جهل منهم به وإن العالم بقديم الأمور وبحديثها وشاهدها وغائبها عنهم، الله الذي لا يخفى عليه شيء، فخبره هو الحق دون خبرهم. وقال: «عالمُ الغَيْب» فرفع على الابتداء، بمعنى: هو عالم الغيب، ولذلك دخلت الفاء في قوله: «فَتَعالَى» كما يقال: مررت بأخيك المحسنُ فأحسنت إليه، فترفع المحسن إذا جعلت فأحسنت إليه بالفاء، لأن معنى الكلام إذا كان كذلك: مررت بأخيك هو المحسن، فأحسنت إليه.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=23&tAyahNo=92&tDisplay=yes&UserProfile=0&LanguageId=1
