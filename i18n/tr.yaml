@@ -100,12 +100,12 @@ landing:
   featured: Seçimler · Her ziyarette değişen
   last_updated: 'Son güncelleme: {date} GMT'
   pillars:
-    0: Reklamsız, her zaman ücretsiz
-    1: Açık Veri ve Açık Metinler
-    2: Her bilgi kaynağında belgelenmiştir.
-    3: Tüm mezhepler ve gelenekler, adaletle
-    4: Önce Arapça, İngilizce geliyor, sonra diğer diller
-    5: Önce meraklı yabancı için yazıldı
+    - Reklamsız, her zaman ücretsiz
+    - Açık Veri ve Açık Metinler
+    - Her bilgi kaynağında belgelenmiştir.
+    - Tüm mezhepler ve gelenekler, adaletle
+    - Önce Arapça, İngilizce geliyor, sonra diğer diller
+    - Önce meraklı yabancı için yazıldı
   shop_cats:
     apparel: Giyim ve Moda
     art: Hat Sanatı ve Sanat Baskıları
@@ -722,11 +722,11 @@ search:
   hint: 'Örneğin şunları deneyin:'
   zero_results: '«[SEARCH_TERM]» için sonuç bulamadık. Daha kısa bir kelime deneyin, yazımını kontrol edin, ya da deneyin: Mekke, dua, Endülüs.'
   examples:
-    0: Göç
-    1: Badr
-    2: Mekke
-    3: Aisha
-    4: Kur'an
+    - Göç
+    - Badr
+    - Mekke
+    - Aisha
+    - Kur'an
 wander:
   title: dolaşmak
   lede: Müze sizin için seçsin. Her tıklama sizi istemediğiniz materyale götürür.
@@ -4965,24 +4965,39 @@ grand_tour:
   ribbon_label: Tarihteki konumunuz
   ribbon_now: 'Sirkinize ulaştım: {c}'
   centuries:
-    0: Göçten Önce
-    1: Birinci Hicri Yüzyılı
-    2: İkinci Hicri Yüzyıl
-    3: Üçüncü yüzyıl Hicri
-    4: Dördüncü yüzyıl Hicri
-    5: 5. yüzyıl Hicri
-    6: Altıncı yüzyıl Hicri
-    7: Yedinci yüzyıl Hicri
-    8: Sekizinci yüzyıl Hicri
-    9: Dokuzuncu Hicri Yüzyıl
-    10: Onuncu yüzyıl Hicri
-    11: On birinci Hicri Yüzyıl
-    12: On ikinci yüzyıl AH
-    13: On Üçüncü Hicri Yüzyıl
-    14: On dördüncü yüzyıl Hicri
-    15: On beşinci yüzyıl AH
+    - Göçten Önce
+    - Birinci Hicri Yüzyılı
+    - İkinci Hicri Yüzyıl
+    - Üçüncü yüzyıl Hicri
+    - Dördüncü yüzyıl Hicri
+    - 5. yüzyıl Hicri
+    - Altıncı yüzyıl Hicri
+    - Yedinci yüzyıl Hicri
+    - Sekizinci yüzyıl Hicri
+    - Dokuzuncu Hicri Yüzyıl
+    - Onuncu yüzyıl Hicri
+    - On birinci Hicri Yüzyıl
+    - On ikinci yüzyıl AH
+    - On Üçüncü Hicri Yüzyıl
+    - On dördüncü yüzyıl Hicri
+    - On beşinci yüzyıl AH
   centuries_short:
-    0: Soru
+    - "HÖ"
+    - "1"
+    - "2"
+    - "3"
+    - "4"
+    - "5"
+    - "6"
+    - "7"
+    - "8"
+    - "9"
+    - "10"
+    - "11"
+    - "12"
+    - "13"
+    - "14"
+    - "15"
   timeless: 'Yüzyıllar geçişi: Kayıtta tek bir tarih yok'
   anchor:
     died: Ölüm
