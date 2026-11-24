@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-10-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل الآيات 19 إلى 20، وخلاصتها: يفسّر الطبري مجيء سكرة الموت بالحق بوجهين: أن سكرة الموت جاءت بحقيقة أمر الآخرة فيتبيّنه الإنسان، أو جاءت بالموت الحق، ذلك ما كنت منه تحيد، ونُفخ في الصور ذلك يوم الوعيد. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=50&tAyahNo=20&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 19 إلى 20 مقطعاً واحداً. يفسّر قوله «وَنُفِخَ فِي ٱلصُّورِ ذَلِكَ يَوْمُ ٱلْوَعِيدِ»: قد تقدّم بياننا عن معنى الصُّور، وكيف النَّفخ فيه بذكر اختلاف المختلفين. والذي هو أولى الأقوال عندنا فيه بالصواب، بما أغنى عن إعادته في هذا الموضع. وقوله: «ذلكَ يَوْمُ الوَعِيدِ» يقول: هذا اليوم الذي ينفخ فيه هو يوم الوعيد الذي وعده الله الكفار أن يعذّبهم فيه.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=50&tAyahNo=20&tDisplay=yes&UserProfile=0&LanguageId=1

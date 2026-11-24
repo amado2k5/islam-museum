@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-11-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل الآيات [[passage/quran-53-44|53:44]] إلى [[passage/quran-53-47|53:47]]، وخلاصتها: يقول الطبري إن الله هو أمات وأحيا، والإحياء هو نفخ الروح في النطفة الميتة، وإنه خلق الزوجين الذكر والأنثى من نطفة إذا تمنى، ثم يذكر أن عليه النشأة الأخرى، أي البعث بعد الموت. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=53&tAyahNo=47&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 44 إلى 47 مقطعاً واحداً. يفسّر قوله «وَأَنَّ عَلَيْهِ ٱلنَّشْأَةَ ٱلأُخْرَىٰ»: وأن على ربك يا محمد أن يخلق هذين الزوجين بعد مماتهم، وبلاهم في قبورهم الخلق الآخر، وذلك إعادتهم أحياء خلقاً جديداً، كما كانوا قبل مماتهم.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=53&tAyahNo=47&tDisplay=yes&UserProfile=0&LanguageId=1

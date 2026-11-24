@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-10-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن المؤمنين نُهوا أن يرفعوا أصواتهم فوق صوت النبي أو يجهروا له بالقول كجهر بعضهم لبعض أن تحبط أعمالهم وهم لا يشعرون، ويورد ما رُوي في نزولها في شأن أبي بكر وعمر وثابت بن قيس. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=49&tAyahNo=2&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «يٰأَيُّهَا ٱلَّذِينَ آمَنُواْ لاَ تَرْفَعُوۤاْ أَصْوَاتَكُمْ فَوْقَ صَوْتِ ٱلنَّبِيِّ وَلاَ تَجْهَرُواْ لَهُ بِٱلْقَوْلِ كَجَهْرِ بَعْضِكُمْ لِبَعْضٍ أَن تَحْبَطَ أَعْمَالُكُمْ وَأَنتُمْ لاَ تَشْعُرُونَ»: يا أيها الذين صدّقوا الله ورسوله، لا ترفعوا أصواتكم فوق صوت رسول الله تتجهموه بالكلام، وتغلظون له في الخطاب «وَلا تجْهَرُوا لَهُ بالقَوْلِ كَجَهْرِ بَعْضِكُمْ لِبَعْضٍ» يقول: ولا تنادوه كما ينادي بعضكم بعضاً: يا محمد، يا محمد، يا نبيّ الله، يا نبي الله، يا رسول الله. وينقل في المقطع أقوالاً عن مجاهد وقتادة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=49&tAyahNo=2&tDisplay=yes&UserProfile=0&LanguageId=1

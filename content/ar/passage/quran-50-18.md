@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-10-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن الإنسان ما يلفظ من قول إلا لديه رقيب عتيد أي حافظ حاضر، ويورد أقوال أهل التأويل في أن الملكين يكتبان ما كان من خير وشر. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=50&tAyahNo=18&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 18 إلى 19 مقطعاً واحداً. يفسّر قوله «إِذْ يَتَلَقَّى ٱلْمُتَلَقِّيَانِ عَنِ ٱلْيَمِينِ وَعَنِ ٱلشِّمَالِ قَعِيدٌ»: ونحن أقرب إلى الإنسان من وريد حلقه، حين يتلقى الملَكان، وهما المتلقيان «عَنِ اليَمِينِ وَعَنِ الشّمالِ قَعِيد» وقيل: عنى بالقعيد: الرصد. وينقل في المقطع أقوالاً عن مجاهد والأعمش وإبراهيم.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=50&tAyahNo=18&tDisplay=yes&UserProfile=0&LanguageId=1

@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-11-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل الآيات [[passage/quran-52-9|52:9]] إلى [[passage/quran-52-10|52:10]]، وخلاصتها: يبيّن الطبري أن عذاب الله واقع يوم تمور السماء موراً، أي تدور وتتحرك، ويستشهد بشعر الأعشى في معنى المور، ويورد أقوال أهل التأويل في ذلك، ويتصل به قوله «وتسير الجبال سيراً». {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=52&tAyahNo=9&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 8 إلى 9 مقطعاً واحداً. يفسّر قوله «وَتَسِيرُ ٱلْجِبَالُ سَيْراً»: وتسير الجبال عن أماكنها من الأرض سيراً، فتصير هباء منبثاً. وينقل في المقطع أقوالاً عن ابن عباس ومجاهد وقتادة والضحاك وابن زيد وسفيان.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=52&tAyahNo=9&tDisplay=yes&UserProfile=0&LanguageId=1

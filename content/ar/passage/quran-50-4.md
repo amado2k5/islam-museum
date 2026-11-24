@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-10-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن الله علم ما تنقص الأرض منهم أي ما تأكل من لحومهم وعظامهم وعنده كتاب حفيظ أي محفوظ فيه ما يكون منهم. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=50&tAyahNo=4&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 4 إلى 5 مقطعاً واحداً. يفسّر قوله «أَءِذَا مِتْنَا وَكُنَّا تُرَاباً ذَلِكَ رَجْعٌ بَعِيدٌ»: يقول القائل: لم يجر للبعث ذكر، فيخبر عن هؤلاء القوم بكفرهم ما دعوا إليه من ذلك، فما وجه الخبر عنهم بإنكارهم ما لم يدعوا إليه، وجوابهم عما لم يُسألوا عنه. قيل: قد اختلف أهل العربية في ذلك، فنذكر ما قالوا في ذلك، ثم نتبعه البيان إن شاء الله تعالى، فقال في ذلك بعض نحوِّيي البصرة قال: «أئذا مِتْنا وكُنَّا تُرَاباً ذَلكَ رَجْعٌ بَعِيدٌ»، لم يذكر أنه راجع، وذلك والله أعلم لأنه كان على جواب، كأنه قيل لهم: إنكم ترجعون، فقالوا: «أئِذَا متنا وكُنَّا تُرَاباً ذَلكَ رَجْعٌ بَعِيدٌ» وقال بعض نحوِّيي الكوفة قوله: «أئِذَا متْنا وكُنَّا تُرَاباً» كلام لم يظهر قبله، ما يكون هذا جواباً له، ولكن معناه مضمر، إنما كان والله أعلم:«ق والقرآن المجيد» لَتُبْعثنّ بعد
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=50&tAyahNo=4&tDisplay=yes&UserProfile=0&LanguageId=1

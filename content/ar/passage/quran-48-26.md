@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-10-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يفسّر الطبري أن الذين كفروا جعلوا في قلوبهم الحمية حمية الجاهلية، ويذكر ما كان من سهيل بن عمرو في كتاب الصلح يوم الحديبية حين امتنع عن كتابة بسم الله الرحمن الرحيم، فأنزل الله سكينته على رسوله وعلى المؤمنين وألزمهم كلمة التقوى. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=48&tAyahNo=26&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «إِذْ جَعَلَ ٱلَّذِينَ كَفَرُواْ فِي قُلُوبِهِمُ ٱلْحَمِيَّةَ حَمِيَّةَ ٱلْجَاهِلِيَّةِ فَأَنزَلَ ٱللَّهُ سَكِينَتَهُ عَلَىٰ رَسُولِهِ وَعَلَى ٱلْمُؤْمِنِينَ وَأَلْزَمَهُمْ كَلِمَةَ ٱلتَّقْوَىٰ وَكَانُوۤاْ أَحَقَّ بِهَا وَأَهْلَهَا وَكَانَ ٱللَّهُ بِكُلِّ شَيْءٍ عَلِيماً»: يعني تعالى ذكره بقوله: «إذْ جَعَلَ الَّذِينَ كَفَرُوا فِي قُلُوبِهِم الْحَمِيَّةَ حَمِيَّةَ الجاهِلِيَّةِ» حين جعل سُهيل بن عمرو في قلبه الحمية، فامتنع أن يكتب في كتاب المقاضاة الذي كتب بين يدي رسول الله والمشركين: بسم الله الرحمن الرحيم، وأن يكتب فيه: محمد رسول الله، وامتنع هو وقومه من دخول رسول الله عامه ذلك.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=48&tAyahNo=26&tDisplay=yes&UserProfile=0&LanguageId=1

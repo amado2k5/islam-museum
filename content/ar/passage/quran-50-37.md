@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-10-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن في إهلاك القرون الماضية لذكرى لمن كان له قلب أي عقل أو ألقى السمع وهو شهيد أي استمع بقلب حاضر، ويورد أقوال أهل التأويل. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=50&tAyahNo=37&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «إِنَّ فِي ذَلِكَ لَذِكْرَىٰ لِمَن كَانَ لَهُ قَلْبٌ أَوْ أَلْقَى ٱلسَّمْعَ وَهُوَ شَهِيدٌ»: إن في إهلاكنا القرون التي أهلكناها من قبل قريش «لَذِكْرَى» يُتَذَكَّر بها «لِمَنْ كانَ لَهُ قَلْبٌ» يعني: لمن كان له عقل من هذه الأمة، فينتهي عن الفعل الذي كانوا يفعلونه من كفرهم بربهم، خوفاً من أن يحلّ بهم مثل الذي حلّ بهم من العذاب. وينقل في المقطع أقوالاً عن ابن عباس ومجاهد وقتادة وابن زيد وسفيان.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=50&tAyahNo=37&tDisplay=yes&UserProfile=0&LanguageId=1

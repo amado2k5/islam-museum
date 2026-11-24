@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-11-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل الآيات [[passage/quran-55-35|55:35]] إلى [[passage/quran-55-38|55:38]]، وخلاصتها: يقول الطبري إن الله يرسل على الثقلين يوم القيامة شواظاً من نار، وهو اللهب الخالص بلا دخان، ويستشهد بشعر رؤبة، ويروي عن ابن عباس أنه لهب النار، ثم يذكر النحاس وأن أحداً لا ينتصر. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=55&tAyahNo=38&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 38 إلى 41 مقطعاً واحداً. يفسّر قوله «يُرْسَلُ عَلَيْكُمَا شُوَاظٌ مِّن نَّارٍ وَنُحَاسٌ فَلاَ تَنتَصِرَانِ»: «يُرْسَلُ عَليكُمَا» أيها الثقلان يوم القيامة «شُوَاظٌ مِنْ نَارٍ» وهو لهبها من حيث تشتعل وتؤجَّج بغير دخان كان فيه ومنه قول رُؤْبة بن العجَّاج:إنَّ لَهُمْ مِنْ وَقْعِنا أقْياظا ونارُ حَرْب تُسْعِرُ الشُّوَاظا وينقل في المقطع أقوالاً عن ابن عباس ومجاهد وقتادة والضحاك وابن زيد وسفيان.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=55&tAyahNo=38&tDisplay=yes&UserProfile=0&LanguageId=1

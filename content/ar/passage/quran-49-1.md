@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-10-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن الذين آمنوا نُهوا أن يقدّموا بين يدي الله ورسوله أي أن يقولوا أو يفعلوا قبل أن يأذن الله ورسوله، ويورد أقوال ابن عباس ومجاهد وغيرهم وسبب نزول الآية، واتقوا الله إن الله سميع عليم. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=49&tAyahNo=1&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «يٰأَيُّهَا ٱلَّذِينَ آمَنُواْ لاَ تُقَدِّمُواْ بَيْنَ يَدَيِ ٱللَّهِ وَرَسُولِهِ وَٱتَّقُواْ ٱللَّهَ إِنَّ ٱللَّهَ سَمِيعٌ عَلِيمٌ»: يعني تعالى ذكره بقوله: «يا أيُّها الَّذِينَ آمَنُوا»: يا أيها الذين أقروا بوحدانية الله، وبنبوّة نبيه محمد «لا تُقَدِّمُوا بَينَ يَدَي اللَّهَ وَرَسُولِهِ» يقول: لا تعجلوا بقضاء أمر في حروبكم أو دينكم، قبل أن يقضي الله لكم فيه ورسوله، فتقضوا بخلاف أمر الله وأمر رسوله، محكيّ عن العرب فلان يقدّم بين يدي إمامه، بمعنى يعجل بالأمر والنهي دونه. وينقل في المقطع أقوالاً عن ابن عباس ومجاهد وقتادة والحسن وابن زيد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=49&tAyahNo=1&tDisplay=yes&UserProfile=0&LanguageId=1

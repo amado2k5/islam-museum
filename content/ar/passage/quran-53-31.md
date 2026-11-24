@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-11-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن لله ملك ما في السماوات والأرض، وهو يضلّ من يشاء وهو أعلم بهم، ليجزي الذين أساؤوا بما عملوا بالنار، ويجزي الذين أحسنوا بالحسنى وهي الجنة، ثم يذكر قولاً أن المراد بالذين أحسنوا من آمنوا وعملوا الصالحات، ويتصل بذلك ذكر اجتناب كبائر الإثم والفواحش. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=53&tAyahNo=31&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَلِلَّهِ مَا فِي ٱلسَّمَٰوَٰتِ وَمَا فِي ٱلأَرْضِ لِيَجْزِيَ ٱلَّذِينَ أَسَاءُواْ بِمَا عَمِلُواْ وَيَجْزِيَ ٱلَّذِينَ أَحْسَنُواْ بِٱلْحُسْنَى»: «وَلِلّهِ» مُلك «ما في السَّمَوَاتِ وَما فِي الأرْضِ» من شيء، وهو يضلّ من يشاء، وهو أعلم بهم «لِيَجْزِيَ الَّذِينَ أساءُوا بِمَا عَمِلُوا» يقول: ليجزي الذين عَصَوْه من خلقه، فأساءوا بمعصيتهم إياه، فيثيبهم بها النار «وَيجْزِيَ الَّذِينَ أحْسَنُوا بالحُسْنَى» يقول: وليجزيَ الذين أطاعوه فأحسنوا بطاعتهم إياه في الدنيا بالحسنى وهي الجنة، فيثيبهم بها. وقيل: عُنِي بذلك أهل الشرك والإيمان. وينقل في المقطع أقوالاً عن ابن عباس وابن زيد وزيد بن أسلم.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=53&tAyahNo=31&tDisplay=yes&UserProfile=0&LanguageId=1

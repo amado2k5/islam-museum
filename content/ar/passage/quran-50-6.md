@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-10-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن الله يوبّخهم أفلم ينظروا إلى السماء فوقهم كيف بنيناها وزيّناها وما لها من فروج، ويفسّر الفروج بالشقوق والصدوع. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=50&tAyahNo=6&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 6 إلى 7 مقطعاً واحداً. يفسّر قوله «بَلْ كَذَّبُواْ بِٱلْحَقِّ لَمَّا جَآءَهُمْ فَهُمْ فِيۤ أَمْرٍ مَّرِيجٍ»: ما أصاب هؤلاء المشركون القائلون «أئِذَا مِتْنا وكُنَّا تُرَاباً ذَلِكَ رَجْعٌ بَعِيدٌ» في قيلهم هذا «بَلْ كَذَّبُوا بالحَقّ»، وهو القرآن «لَمَّا جَاءَهُمْ» من الله. كالذي: وعن قتادة «بَلْ كَذَّبُوا بالحَقِّ لَمَّا جاءَهُمْ» أي كذّبوا بالقرآن «فَهُمْ فِي أمْرٍ مَرِيجٍ» يقول: فهم في أمر مختلط عليهم ملتبس، لا يعرفون حقه من باطله، يقال قد مرج أمر الناس إذا اختلط وأهمل. وقد اختلفت عبارات أهل التأويل في تأويلها، وإن كانت متقاربات المعاني، فقال بعضهم: معناها: فهم في أمر منكر وقال: المريج: هو الشيء المنكر. وينقل في المقطع أقوالاً عن ابن عباس ومجاهد وقتادة وابن زيد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=50&tAyahNo=6&tDisplay=yes&UserProfile=0&LanguageId=1

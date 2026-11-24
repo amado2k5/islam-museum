@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-10-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يفسّر الطبري أن الله هو الذي كفّ أيدي المشركين عنكم وأيديكم عنهم ببطن مكة من بعد أن أظفركم عليهم، ويذكر الروايات في الذين هبطوا على عسكر النبي من أهل مكة وكيف أُخذوا ثم خُلّي سبيلهم. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=48&tAyahNo=24&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَهُوَ ٱلَّذِي كَفَّ أَيْدِيَهُمْ عَنكُمْ وَأَيْدِيَكُمْ عَنْهُم بِبَطْنِ مَكَّةَ مِن بَعْدِ أَنْ أَظْفَرَكُمْ عَلَيْهِمْ وَكَانَ ٱللَّهُ بِمَا تَعْمَلُونَ بَصِيراً»: يقول تعالى ذكره لرسوله: والذين بايعوا بيعة الرضوان، «وهو الذي كف أيْدِيَهُمْ عَنْكُمْ» يعني أن الله كفّ أيدي المشركين الذين كانوا خرجوا على عسكر رسول الله، بالحديبية يلتمسون غِرَّتَهُمْ ليصيبوا منهم، فبعث رسول الله فأتى بهم أسرى، فخلى عنهم رسول الله، ومن عليهم ولم يقتلهم فقال الله للمؤمنين: وهو الذي كفّ أيدي هؤلاء المشركين عنكم، وأيديكم عنهم ببطن مكة، من بعد أن أظفركم عليهم.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=48&tAyahNo=24&tDisplay=yes&UserProfile=0&LanguageId=1

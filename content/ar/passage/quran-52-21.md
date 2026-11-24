@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-11-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يذكر الطبري أن أهل التأويل اختلفوا في الآية؛ فقال بعضهم إن الذين آمنوا واتبعتهم ذريتهم بإيمان ألحقهم الله بهم في الجنة وإن لم تبلغ أعمال الذرية درجات آبائهم، تكرمةً لآبائهم ولا ينقص من أجورهم شيئاً، ويروي ذلك عن ابن عباس وسعيد بن جبير، ويذكر الأقوال الأخرى. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=52&tAyahNo=21&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَٱلَّذِينَ آمَنُواْ وَٱتَّبَعَتْهُمْ ذُرِّيَّتُهُم بِإِيمَانٍ أَلْحَقْنَا بِهِمْ ذُرِّيَّتَهُمْ وَمَآ أَلَتْنَاهُمْ مِّنْ عَمَلِهِم مِّن شَيْءٍ كُلُّ ٱمْرِىءٍ بِمَا كَسَبَ رَهَينٌ»: اختلف أهل التأويل في تأويل ذلك، فقال بعضهم: معناه: والذين آمنوا وأتبعناهم ذرّياتهم بإيمان، ألحقنا بهم ذرّياتهم المؤمنين في الجنة، وإن كانوا لم يبلغوا بأعمالهم درجات آبائهم، تكرمة لآبائهم المؤمنين، وما ألتنا آباءهم المؤمنين من أجور أعمالهم من شيء. وينقل في المقطع أقوالاً عن ابن عباس وسفيان.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=52&tAyahNo=21&tDisplay=yes&UserProfile=0&LanguageId=1

@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-11-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل الآيات [[passage/quran-55-43|55:43]] إلى [[passage/quran-55-45|55:45]]، وخلاصتها: يقول الطبري إنه يقال للمجرمين: هذه جهنم التي يكذّب بها المجرمون، ويذكر قراءة عبد الله، وأنهم يطوفون بينها وبين حميم آنٍ أي ماء حار انتهى حره، ثم يتابع وصف الجزاء. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=55&tAyahNo=44&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 43 إلى 45 مقطعاً واحداً. يفسّر قوله «يَطُوفُونَ بَيْنَهَا وَبَيْنَ حَمِيمٍ آنٍ»: يطوف هؤلاء المجرمون الذين وصف صفتهم في جهنم بين أطباقها «وَبينَ حَمِيمٍ آنٍ» يقول: وبين ماء قد أسخن وأغلي حتى انتهى حرّه وأنى طبخه وكل شيء قد أدرك وبلغ فقد أنى ومنه قوله: غَيرَ ناظِرِينَ إناهُ يعني: إدراكه وبلوغه، كما قال نابغة بني ذُبيان:ويُخْضَبْ لِحْيَةٌ غَدَرَتْ وخانَتْ بأحمَرَ مِنْ نَجِيعِ الجَوْفِ آني يعني: مدرك. وينقل في المقطع أقوالاً عن ابن عباس ومجاهد وقتادة والحسن وابن زيد وسفيان.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=55&tAyahNo=44&tDisplay=yes&UserProfile=0&LanguageId=1

@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-10-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يفسّر الطبري أن يوم الدين هو يوم هم على النار يُفتنون أي يُحرقون ويُعذّبون، ويورد أقوال أهل التأويل في معنى الفتنة هنا بالإحراق. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=51&tAyahNo=13&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 13 إلى 16 مقطعاً واحداً. يفسّر قوله «قُتِلَ ٱلْخَرَّاصُونَ»: لُعِن المتكهنون الذين يتخرّصون الكذب والباطل فيتظننونه. واختلف أهل التأويل في الذين عُنُوا بقوله «قُتِلَ الخَرَّاصُونَ» فقال بعضهم: عُنَي به المرتابون. وينقل في المقطع أقوالاً عن ابن عباس ومجاهد وقتادة وابن زيد وسفيان.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=51&tAyahNo=13&tDisplay=yes&UserProfile=0&LanguageId=1

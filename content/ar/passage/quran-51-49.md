@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-11-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن الله خلق من كل شيء زوجين، وإن أهل التأويل اختلفوا في معنى ذلك؛ فقال بعضهم نوعين مختلفين كالكفر والإيمان والشقاوة والسعادة والهدى والضلالة والليل والنهار والسماء والأرض والإنس والجن، ويذكر بقية الأقوال. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=51&tAyahNo=49&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَمِن كُلِّ شَيْءٍ خَلَقْنَا زَوْجَيْنِ لَعَلَّكُمْ تَذَكَّرُونَ»: وخلقنا من كلّ شيء خلقنا زوجين، وترك خلقنا الأولى استغناء بدلالة الكلام عليها. واختلُف في معنى «خَلَقْنا زَوْجَيْنِ» فقال بعضهم: عنى به: ومن كلّ شيء خلقنا نوعين مختلفين كالشقاء والسعادة والهدى والضلالة، ونحو ذلك. وينقل في المقطع أقوالاً عن مجاهد والحسن وابن زيد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=51&tAyahNo=49&tDisplay=yes&UserProfile=0&LanguageId=1
