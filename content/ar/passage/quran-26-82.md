@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-8-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري الآيات 81 إلى 82 معاً في موضع واحد. يقول الطبري إن ربّ إبراهيم هو الذي يميته إذا شاء ثم يحييه، والذي يطمع أن يغفر له خطيئته يوم الدين، وإنما هو احتجاج على قومه بأن الألوهية لا تصلح إلا لمن يفعل ذلك لا لمن لا ينفع ولا يضر. ويذكر قولاً أن المراد بخطيئته أقواله التي قالها كقوله إني سقيم. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=26&tAyahNo=82&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 81 إلى 82 مقطعاً واحداً. يفسّر الطبري الآية ضمن المقطع نفسه. وينقل في المقطع أقوالاً عن مجاهد وعكرمة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=26&tAyahNo=82&tDisplay=yes&UserProfile=0&LanguageId=1

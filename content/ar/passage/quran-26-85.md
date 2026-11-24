@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-8-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري الآيات 85 إلى 89 معاً في موضع واحد. يقول الطبري إن إبراهيم سأل ربه أن يورثه من منازل أعدائه المشركين في الجنة، وأن يغفر لأبيه شركه ويصفح عنه لأنه من الضالين، ويحيل في سبب استغفاره له إلى ما فصّله من قبل، ثم دعاؤه ألا يذلّه يوم البعث، وأن يوم لا ينفع مال ولا بنون إلا من أتى الله بقلب سليم. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=26&tAyahNo=85&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 85 إلى 89 مقطعاً واحداً. يفسّر قوله «وَٱجْعَلْنِي مِن وَرَثَةِ جَنَّةِ ٱلنَّعِيمِ»: يعني إبراهيم صلوات الله عليه بقوله: «وَاجْعَلْنِي مِنْ وَرَثَةِ جَنَّةِ النَّعِيمِ» أورثني يا ربّ من منازل مَن هلك مِن أعدائك المشركين بك من الجنة، وأسكني ذلك «وَاغْفِرْ لأبِي» يقول: واصفح لأبي عن شركه بك، ولا تعاقبه عليه «إنَّه كانَ مِنَ الضَّالِّينَ» يقول: إنه كان ممن ضلّ عن سبيل الهدى، فكفر بك. وقد بيَّنا المعنى الذي من أجله استغفر إبراهيم لأبيه صلوات الله عليه، واختلاف أهل العلم في ذلك، والصواب عندنا من القول فيه فيما مضى، بما أغنى عن إعادته في هذا الموضع. و قوله: وينقل في المقطع أقوالاً عن مجاهد وقتادة والضحاك وابن زيد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=26&tAyahNo=85&tDisplay=yes&UserProfile=0&LanguageId=1
