@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-9-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يأمر الله أن يُنسب الأدعياء إلى آبائهم، وفي ذلك يُلحق نسب زيد بأبيه حارثة ولا يُدعى زيد بن محمد، وهذا أعدل وأصوب عند الله، فإن لم يُعرف الآباء فهم إخوانكم في الدين ومواليكم، ولا إثم فيما أخطأتم به. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=33&tAyahNo=5&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «ٱدْعُوهُمْ لآبَآئِهِمْ هُوَ أَقْسَطُ عِندَ ٱللَّهِ فَإِن لَّمْ تَعْلَمُوۤاْ آبَاءَهُمْ فَإِخوَانُكُمْ فِي ٱلدِّينِ وَمَوَالِيكُمْ وَلَيْسَ عَلَيْكُمْ جُنَاحٌ فِيمَآ أَخْطَأْتُمْ بِهِ وَلَٰكِن مَّا تَعَمَّدَتْ قُلُوبُكُمْ وَكَانَ ٱللَّهُ غَفُوراً رَّحِيماً»: يقول الله تعالى ذكره: انسبوا أدعياءكم الذين ألحقتم أنسابهم بكم لآبائهم. يقول لنبيه محمد: ألحق نسب زيد بأبيه حارثة، ولا تدعه زيداً بن محمد. وقوله «هُوَ أقْسَطُ عِنْدَ الله» يقول: دعاؤكم إياهم لآبائهم هو أعدل عند الله، وأصدق وأصوب من دعائكم إياهم لغير آبائهم ونسبتكموهم إلى من تبنَّاهم وادّعاهم وليسوا له بنين. وينقل في المقطع أقوالاً عن مجاهد وقتادة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=33&tAyahNo=5&tDisplay=yes&UserProfile=0&LanguageId=1

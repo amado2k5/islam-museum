@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-9-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري حكم المؤمنات المنكوحات إذا طُلّقن قبل الدخول: لا عدة عليهن، ويُعطين متعة، ويُسرّحن سراحاً جميلاً، ويختلف في تفاصيل المتعة بحسب ما إذا سُمّي لهن مهر أم لا. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=33&tAyahNo=49&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «يٰأَيُّهَا ٱلَّذِينَ آمَنُوۤاْ إِذَا نَكَحْتُمُ ٱلْمُؤْمِنَاتِ ثُمَّ طَلَّقْتُمُوهُنَّ مِن قَبْلِ أَن تَمَسُّوهُنَّ فَمَا لَكُمْ عَلَيْهِنَّ مِنْ عِدَّةٍ تَعْتَدُّونَهَا فَمَتِّعُوهُنَّ وَسَرِّحُوهُنَّ سَرَاحاً جَمِيلاً»: يا أيها الذين صدقوا الله ورسوله «إذَا نَكَحْتُمُ المُؤْمِناتِ ثُمَّ طَلَّقْتُمُوهُنَّ مِنْ قَبْلِ أنْ تَمَسُّوهُنَّ» يعني من قبل أن تجامعوهنّ «فَمَا لَكُمْ عَلَيْهِنَّ مِنْ عِدَّةٍ تَعْتَدُّوَنها» يعني: من إحصاء أقراء، ولا أشهر تحصونها عليهنّ، «فمتعوهنّ» يقول: أعطوهنّ ما يستمتعن به من عرض أو عين مال. وقوله: «وَسَرّحُوهُنَّ سَرَاحاً جَمِيلاً» يقول: وخلوا سبيلهنّ تخلية بالمعروف، وهو التسريح الجميل. وينقل في المقطع أقوالاً عن ابن عباس وقتادة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=33&tAyahNo=49&tDisplay=yes&UserProfile=0&LanguageId=1

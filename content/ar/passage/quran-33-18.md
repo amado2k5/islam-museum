@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-9-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن الله يعلم المعوّقين الذين يصدّون الناس عن شهود الحرب مع النبي نفاقاً، والقائلين لإخوانهم هلم إلينا، وهم لا يأتون البأس إلا قليلاً، أشحة عليكم، ثم يصف جبنهم وخوفهم من القتال. وهذا التفسير مشترك بين الآيتين 18 و19. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=33&tAyahNo=18&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 18 إلى 19 مقطعاً واحداً. يفسّر قوله «قَدْ يَعْلَمُ ٱللَّهُ ٱلْمُعَوِّقِينَ مِنكُمْ وَٱلْقَآئِلِينَ لإِخْوَانِهِمْ هَلُمَّ إِلَيْنَا وَلاَ يَأْتُونَ ٱلْبَأْسَ إِلاَّ قَلِيلاً»: قد يعلم الله الذين يعوّقون الناس منكم عن رسول الله فيصدّونهم عنه، وعن شهود الحرب معه، نفاقاً منهم، وتخذيلاً عن الإسلام وأهله «والقائِلِينَ لإخْوَانِهِمْ هَلُمَّ إلَيْنا»: أي تعالوا إلينا، ودعوا محمداً، فلا تشهدوا معه مشهده، فإنا نخاف عليكم الهلاك بهلاكه. «وَلا يَأْتُونَ البأْسَ إلاَّ قَلِيلاً» يقول: ولا يشهدون الحرب والقتال إن شهدوا إلاَّ تعذيراً، ودفعاً عن أنفسهم المؤمنين. وينقل في المقطع أقوالاً عن مجاهد وقتادة وابن زيد وابن إسحاق.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=33&tAyahNo=18&tDisplay=yes&UserProfile=0&LanguageId=1

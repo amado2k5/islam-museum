@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-8-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يذكر الطبري أن من أسلم وجهه إلى الله متذللاً بالعبودية مقراً بالألوهية وهو محسن أي مطيع لله في أمره ونهيه فقد استمسك بالعروة الوثقى أي بالطرف الأوثق الذي لا يخاف انقطاعه، وهذا مثل يعني أنه تمسك من رضا الله بإسلامه ما لا يخاف معه عذاب الله، وينقل عن ابن عباس أنها لا إله إلا الله، وإلى الله عاقبة الأمور. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=31&tAyahNo=22&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَمَن يُسْلِمْ وَجْهَهُ إِلَى ٱللَّهِ وَهُوَ مُحْسِنٌ فَقَدِ ٱسْتَمْسَكَ بِٱلْعُرْوَةِ ٱلْوُثْقَىٰ وَإِلَىٰ ٱللَّهِ عَاقِبَةُ ٱلأَمُورِ»: ومن يعبد وجهه متذللاً بالعبودة، مقرّاً له بالألوهة «وَهُوَ مُحْسِنٌ» يقول: وهو مطيع لله في أمره ونهيه «فَقَدِ اسْتَمْسَكَ بالعُرْوَةِ الوُثْقَى» يقول: فقد تمسك بالطرف الأوثق الذي لا يخاف انقطاعه من تمسك به وهذا مثل إنما يعني بذلك أنه قد تمسك من رضا الله بإسلامه وجهه إليه وهو محسن، ما لا يخاف معه عذاب الله يوم القيامة. وينقل في المقطع أقوالاً عن ابن عباس وسفيان.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=31&tAyahNo=22&tDisplay=yes&UserProfile=0&LanguageId=1

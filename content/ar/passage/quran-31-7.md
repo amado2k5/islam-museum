@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-8-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن من اشترى لهو الحديث للإضلال عن سبيل الله إذا قرئت عليه آيات كتاب الله ولّى مستكبراً أي أدبر واستكبر وأعرض عن سماع الحق، كأن لم يسمعها كأن في أذنيه وقراً أي ثقلاً لا يطيق معه سماعه، فبشّره بعذاب أليم. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=31&tAyahNo=7&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَإِذَا تُتْلَىٰ عَلَيْهِ ءَايَاتُنَا وَلَّىٰ مُسْتَكْبِراً كَأَن لَّمْ يَسْمَعْهَا كَأَنَّ فِيۤ أُذُنَيْهِ وَقْراً فَبَشِّرْهُ بِعَذَابٍ أَلِيمٍ»: وإذا تُتلى على هذا الذي اشترى لهو الحديث للإضلال عن سبيل الله، آيات كتاب الله، فقرئت عليه «ولَّى مُسْتَكْبراً» يقول: أدبر عنها، واستكبر استكباراً، وأعرض عن سماع الحقّ والإجابة عنه «كأَنْ لَمْ يَسْمَعْها كأنَّ فِي أُذُنَيهِ وَقْراً» يقول: ثقلاً، فلا يطيق من أجله سماعه، كما: وعن ابن أبي نجيح، عن مجاهد، في قوله: «فِي أُذُنَيْهِ وَقْراً» قال: ثِقْلاً. وقوله «فَبَشِّرْهُ بعَذَابٍ ألِيمٍ» يقول تعالى ذكره: فبشر هذا المعرض عن آيات الله إذا تُلِيت عليه استكباراً بعذاب له من الله يوم القيامة مُوجع، وذلك عذاب النار. وينقل في المقطع أقوالاً عن مجاهد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=31&tAyahNo=7&tDisplay=yes&UserProfile=0&LanguageId=1

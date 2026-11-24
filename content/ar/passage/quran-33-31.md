@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-9-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يذكر الطبري أن من تطع الله ورسوله من نساء النبي وتعمل صالحاً يؤتها الله أجرها مرتين، أي مثلي ثواب غيرهن، وأعدّ لها رزقاً كريماً في الجنة. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=33&tAyahNo=31&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَمَن يَقْنُتْ مِنكُنَّ للَّهِ وَرَسُولِهِ وَتَعْمَلْ صَالِحاً نُؤْتِهَآ أَجْرَهَا مَرَّتَيْنِ وَأَعْتَدْنَا لَهَا رِزْقاً كَرِيماً»: ومن يطع الله ورسوله منكنّ، وتعمل بما أمر الله به «نُؤْتها أجْرَها مَرَّتَيْنِ» يقول: يعطها الله ثواب عملها، مثلي ثواب عمل غيرهنّ من سائر نساء الناس «وأعْتَدْنا لَهَا رِزْقاً كَرِيماً» يقول: وأعتدنا لها في الآخرة عيشاً هنيئاً في الجنة. وينقل في المقطع أقوالاً عن ابن عباس وقتادة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=33&tAyahNo=31&tDisplay=yes&UserProfile=0&LanguageId=1

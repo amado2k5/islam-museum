@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-9-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن هؤلاء المستأذنين كانوا قد عاهدوا الله من قبل ألا يولّوا الأدبار، وكان عهد الله مسؤولاً، ويذكر أن ذلك نزل في بني حارثة بعد ما فعلوه في الخندق. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=33&tAyahNo=15&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَلَقَدْ كَانُواْ عَاهَدُواْ ٱللَّهَ مِن قَبْلُ لاَ يُوَلُّونَ ٱلأَدْبَارَ وَكَانَ عَهْدُ ٱللَّهِ مَسْئُولاً»: ولقد كان هؤلاء الذين يستأذنون رسول الله في الانصراف عنه، ويقولون إن بيوتنا عورة، عاهدوا الله من قبل ذلك، إن لا يولوا عدوّهم الأدبار، إن لقولهم في مشهد لرسول الله معهم، فما أوفوا بعهدهم «وكانَ عَهْد اللّهِ مَسْئُولاً» يقول: فيسأل الله ذلك من أعطاه إياه من نفسه. وذُكر أن ذلك نزل في بني حارثة لما كان من فعلهم في الخندق بعد الذي كان منهم بأُحد. وينقل في المقطع أقوالاً عن قتادة وابن إسحاق.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=33&tAyahNo=15&tDisplay=yes&UserProfile=0&LanguageId=1

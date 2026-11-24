@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-9-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يفسّر الطبري جري السفن في البحر بأنه نعمة من الله يُري بها الناس حججه، وأن فيه دلالة لكل صبّار على محارم الله وشكور لنعمه. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=31&tAyahNo=31&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «أَلَمْ تَرَ أَنَّ ٱلْفُلْكَ تَجْرِي فِي ٱلْبَحْرِ بِنِعْمَتِ ٱللَّهِ لِيُرِيَكُمْ مِّنْ آيَاتِهِ إِنَّ فِي ذَلِكَ لآيَاتٍ لِّكُلِّ صَبَّارٍ شَكُورٍ»: ألم تر يا محمد أن السفن تجري في البحر نعمة من الله على خلقه «لِيُرِيَكُمْ مِنْ آياتِهِ» يقول: ليريكم من عبره وحججه عليكم إنَّ فِي «ذلكَ لآياتٍ لِكُلّ صَبَّارٍ شَكُورٍ» يقول: إن في جري الفلك في البحر دلالة على أن الله الذي أجراها هو الحقّ، وأنّ ما يدعون من دونه الباطل «لكُلّ صَبَّارٍ شَكُورٍ» يقول: لكلّ من صبر نفسه عن محارم الله، وشكره على نعمه فلم يكفره. وعن قَتادة، قال: كان مطرف يقول: إنّ من أحبّ عباد الله إليه: الصبَّار الشَّكور.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=31&tAyahNo=31&tDisplay=yes&UserProfile=0&LanguageId=1

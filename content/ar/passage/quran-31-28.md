@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-9-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن خلق الناس جميعاً وبعثهم على الله كخلق نفس واحدة وبعثها، لأنه لا يتعذر عليه شيء، وأن أمره إذا أراد شيئاً أن يقول له كن فيكون، فسواء عنده الواحد والجميع. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=31&tAyahNo=28&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «مَّا خَلْقُكُمْ وَلاَ بَعْثُكُمْ إِلاَّ كَنَفْسٍ وَاحِدَةٍ إِنَّ ٱللَّهَ سَمِيعٌ بَصِيرٌ»: ما خلقكم أيها الناس ولا بعثكم على الله إلاَّ كخلق نفس واحدة وبعثها، وذلك أن الله لا يتعذّر عليه شيء أراده، ولا يمتنع منه شيء شاءه«إنَّما أَمْرُهُ إذَا أرَادَ شَيْئاً أنْ يَقُولَ لَهُ كُنْ فَيَكُونُ» فسواء خَلْق واحد وبعثه، وخلق الجميع وبعثهم. وينقل في المقطع أقوالاً عن مجاهد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=31&tAyahNo=28&tDisplay=yes&UserProfile=0&LanguageId=1

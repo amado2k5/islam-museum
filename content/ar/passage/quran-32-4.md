@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-9-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن المعبود الذي لا تصلح العبادة إلا له هو الذي خلق السماوات والأرض وما بينهما في ستة أيام، ثم استوى على العرش في اليوم السابع، وما لكم من دونه من ولي ولا شفيع، أفلا تتذكرون. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=32&tAyahNo=4&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «ٱللَّهُ ٱلَّذِي خَلَقَ ٱلسَّمَٰوَٰتِ وَٱلأَرْضَ وَمَا بَيْنَهُمَا فِي سِتَّةِ أَيَّامٍ ثُمَّ ٱسْتَوَىٰ عَلَى ٱلْعَرْشِ مَا لَكُمْ مِّن دُونِهِ مِن وَلِيٍّ وَلاَ شَفِيعٍ أَفَلاَ تَتَذَكَّرُونَ»: المعبود الذي لا تصلح العبادة إلاَّ له أيها الناس «الَّذِي خَلَقَ السَّمَوَاتِ والأرْضَ وَما بَيْنَهُما» من خلق «فِي سِتَّةِ أيَّامٍ» ثم استوى على عرشه في اليوم السابع بعد خلقه السموات والأرض وما بينهما. كما: وعن قَتادة «اللّهُ الَّذِي خَلَقَ السَّمَوَاتِ والأرْضَ وَما بَيْنَهُما فِي سِتَّةِ أيَّامٍ ثُمَّ اسْتَوَى عَلى العَرْشِ» في اليوم السابع. يقول: مالكم أيها الناس إله إلاَّ من فعل هذا الفعل، وخلَق هذا الخَلْق العجيب في ستة أيام.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=32&tAyahNo=4&tDisplay=yes&UserProfile=0&LanguageId=1

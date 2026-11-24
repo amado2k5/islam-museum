@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-9-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يخاطب الله نبيه بأنه أرسله شاهداً على أمته بإبلاغ الرسالة ومبشراً بالجنة ونذيراً من النار، وداعياً إلى الله بإذنه وسراجاً منيراً، ويأمره ألا يطيع الكافرين والمنافقين ويدع أذاهم ويتوكل على الله وكفى بالله وكيلاً. وهذا التفسير مشترك بين الآيات 45 إلى 48. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=33&tAyahNo=45&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 45 إلى 48 مقطعاً واحداً. يفسّر قوله «يٰأَيُّهَا ٱلنَّبِيُّ إِنَّآ أَرْسَلْنَٰكَ شَٰهِداً وَمُبَشِّراً وَنَذِيراً»: يا محمد «إنَّا أرْسَلْنَاكَ شَاهِداً» على أمتك بإبلاغك إياهم ما أرسلناك به من الرسالة، ومبشرهم بالجنة إن صدّقوك وعملوا بما جئتهم به من عند ربك، «وَنَذِيراً» من النار أن يدخلوها، فيعذّبوا بها إن هم كذّبوك، وخالفوا ما جئتهم به من عند الله. وبالذي قلنا في ذلك قال أهل التأويل. وينقل في المقطع أقوالاً عن مجاهد وقتادة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=33&tAyahNo=45&tDisplay=yes&UserProfile=0&LanguageId=1

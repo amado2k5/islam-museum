@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-9-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يفسّر الطبري الآية بأن الله وملائكته يصلّون على النبي، ويأمر المؤمنين بالصلاة عليه والتسليم تسليماً، ويذكر مرويات في صيغة الصلاة عليه. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=33&tAyahNo=56&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «إِنَّ ٱللَّهَ وَمَلاَئِكَتَهُ يُصَلُّونَ عَلَى ٱلنَّبِيِّ يٰأَيُّهَا ٱلَّذِينَ آمَنُواْ صَلُّواْ عَلَيْهِ وَسَلِّمُواْ تَسْلِيماً»: إن الله وملائكته يبرّكون على النبيّ محمد، كما: قال: ثني معاوية، عن عليّ، عن ابن عباس، قوله: «إنَّ اللَّهَ وَمَلائِكَتَهُ يُصَلُّونَ على النَّبِيّ يا أيُّها الَّذِينَ آمَنُوا صَلُّوا عَلَيْهِ» يقول: يباركون على النبيّ. وقد يحتمل أن يقال: إن معنى ذلك: أن الله يرحم النبيّ، وتدعو له ملائكته ويستغفرون، وذلك أن الصلاة في كلام العرب من غير الله إنما هو دعاء. وقد بيَّنا ذلك فيما مضى من كتابنا هذا بشواهده، فأغنى ذلك عن إعادته. «يا أيُّها الَّذِينَ آمَنُوا صَلُّوا عَلَيْهِ» يقول تعالى ذكره: يا أيها الذين آمنوا ادعوا لنبيّ الله محمد «وَسَلِّمُوا عَلَيْهِ تَسْلِيماً» يقول: وحيوه تحية الإسلام. وينقل في المقطع أقوالاً عن ابن عباس وإبراهيم.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=33&tAyahNo=56&tDisplay=yes&UserProfile=0&LanguageId=1

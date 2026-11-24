@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-9-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يخاطب الله نساء النبي بأن من تأتِ منهن بفاحشة مبيّنة يضاعف لها العذاب ضعفين، وكان ذلك على الله يسيراً، ويشرح الطبري معنى الفاحشة المبيّنة ومعنى المضاعفة. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=33&tAyahNo=30&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «يٰنِسَآءَ ٱلنَّبِيِّ مَن يَأْتِ مِنكُنَّ بِفَاحِشَةٍ مُّبَيِّنَةٍ يُضَاعَفْ لَهَا ٱلْعَذَابُ ضِعْفَيْنِ وَكَانَ ذَلِكَ عَلَى ٱللَّهِ يَسِيراً»: يقول تعالى ذكره لأزواج النبيّ: «يا نِساء النَّبِيّ مَنْ يَأْتِ مِنْكُنَّ بفاحِشَةٍ مَبَيِّنَةٍ» يقول: من يزن منكنّ الزنى المعروف الذي أوجب الله عليه الحدّ، يضاعف لها العذاب على فجورها في الآخرة ضعفين على فجور أزواج الناس غيرهم، كما: ثني أبي، قال: ثني عمي، قال: ثني أبي، عن أبيه، عن ابن عباس «يُضَاعَفْ لَهَا العَذَابُ ضِعْفَيْنِ» قال: يعني عذاب الآخرة. وينقل في المقطع أقوالاً عن ابن عباس.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=33&tAyahNo=30&tDisplay=yes&UserProfile=0&LanguageId=1

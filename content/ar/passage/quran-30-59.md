@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-8-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يذكر الطبري أن الله كذلك يختم على قلوب الذين لا يعلمون حقيقة ما يأتيهم به النبي من العبر والعظات والآيات البينات، فلا يفقهون عن الله حجة ولا يفهمون ما يتلو عليهم من آيات كتابه، فهم لذلك في طغيانهم يترددون. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=30&tAyahNo=59&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «كَذَلِكَ يَطْبَعُ ٱللَّهُ عَلَىٰ قُلُوبِ ٱلَّذِينَ لاَ يَعْلَمُونَ»: كذلك يختم الله على قلوب الذين لا يعلمون حقيقة ما تأتيهم به يا محمد من عند الله من هذه العِبر والعظات، والآيات البيِّنات، فلا يفقهون عن الله حُجة، ولا يفهمون عنه ما يتلو عليهم من آي كتابه، فهم لذلك في طغيانهم يتردّدون.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=30&tAyahNo=59&tDisplay=yes&UserProfile=0&LanguageId=1

@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-8-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن الله ضرب للناس في هذا القرآن من كل مثل احتجاجاً عليهم وتنبيهاً لهم على وحدانيته، ولئن جاءهم النبي بآية دالة على صدق ما يقول ليقولن الذين كفروا إن أنتم أيها المصدّقون محمداً إلا مبطلون فيما تجيئوننا به. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=30&tAyahNo=58&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَلَقَدْ ضَرَبْنَا لِلنَّاسِ فِي هَٰذَا ٱلْقُرْآنِ مِن كُلِّ مَثَلٍ وَلَئِن جِئْتَهُمْ بِآيَةٍ لَّيَقُولَنَّ ٱلَّذِينَ كَفَرُوۤاْ إِنْ أَنتُمْ إِلاَّ مُبْطِلُونَ»: ولقد مثلنا للناس في هذا القرآن من كل مثل احتجاجاً عليهم، وتنبيهاً لهم عن وحدانية الله. وقوله «وَلِئنْ جِئْتَهُمْ بآيَةٍ» يقول: ولئن جئت يا محمد هؤلاء القوم بآية: يقول: بدلالة على صدق ما تقول «لَيَقُولَنَّ الَّذِينَ كَفَرُوا إنْ أنْتُمْ إلاَّ مُبْطِلُونَ» يقول: ليقولنّ الذين جحدوا رسالتك، وأنكروا نبوّتك: إن أنتم أيها المصدّقون محمداً فيما أتاكم به إلاَّ مبطلون فيما تَجيئوننا به من هذه الأمور.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=30&tAyahNo=58&tDisplay=yes&UserProfile=0&LanguageId=1

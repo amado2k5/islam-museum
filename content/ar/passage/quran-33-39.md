@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-9-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يذكر الطبري أن سنة الله في الرسل السابقين الذين يبلّغون رسالاته أنهم يخشونه ولا يخشون أحداً إلا الله، فيأمر النبي أن يقتدي بهم، وكفى بالله حسيباً. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=33&tAyahNo=39&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «ٱلَّذِينَ يُبَلِّغُونَ رِسَالاَتِ ٱللَّهِ وَيَخْشَوْنَهُ وَلاَ يَخْشَوْنَ أَحَداً إِلاَّ ٱللَّهَ وَكَفَىٰ بِٱللَّهِ حَسِيباً»: سنة الله في الذين خلوا من قبل محمد من الرسل، الذي يبلغون رسالات الله إلى من أُرسلوا إليه، ويخافون الله في تركهم تبليغ ذلك إياهم، ولا يخافون أحداً إلا الله، فإنهم إياه يرهبون إن هم قصروا عن تبليغهم رسالة الله إلى من أُرسلوا إليه. يقول لنبيه محمد: فمن أولئك الرسل الذين هذه صفتهم، فكن ولا تخش أحداً إلا الله، فإن الله يمنعك من جميع خلقه، ولا يمنعك أحد من خلقه منه، إن أراد بك سوءاً. «والذين» من قوله: «الَّذِينَ يُبَلِّغونَ رِسالاَتِ اللَّهِ» خفض ردّاً على «الذين» التي في قوله:«سَنَّةَ اللَّهِ فِي الَّذِينَ خَلَوْا» وقوله: «وكَفَى باللَّهِ حَسِيباً» يقول تعالى ذكره: وكفاك يا محمد بالله حافظاً لأعمال خلقه، ومحاسباً لهم عليها.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=33&tAyahNo=39&tDisplay=yes&UserProfile=0&LanguageId=1

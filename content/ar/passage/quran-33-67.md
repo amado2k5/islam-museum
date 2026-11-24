@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-9-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يذكر الطبري أن الكافرين يقولون في جهنم ربنا إنا أطعنا سادتنا وكبراءنا فأضلونا السبيلا، ويسألون الله أن يضاعف لهم العذاب ويلعنهم لعناً كبيراً. وهذا التفسير مشترك بين الآيتين 67 و68. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=33&tAyahNo=67&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 67 إلى 68 مقطعاً واحداً. يفسّر قوله «وَقَالُواْ رَبَّنَآ إِنَّآ أَطَعْنَا سَادَتَنَا وَكُبَرَآءَنَا فَأَضَلُّونَا ٱلسَّبِيلاْ»: وقال الكافرون يوم القيامة في جهنم: ربنا إنا أطعنا أئمتنا في الضلالة وكبراءنا في الشرك «فَأَضَلُّونا السَّبِيلَ» يقول: فأزالونا عن محجة الحقّ، وطريق الهدى، والإيمان بك، والإقرار بوحدانيتك، وإخلاص طاعتك في الدنيا «رَبَّنا آتِهِمْ ضِعْفَيْنِ مِنَ العَذَابِ» يقول: عذّبهم من العذاب مِثْلَى عذابنا الذي تعذّبنا «وَالْعَنْهُمْ لَعْناً كَبيراً» يقول: واخزهم خزياً كبيراً. وينقل في المقطع أقوالاً عن قتادة والحسن وابن زيد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=33&tAyahNo=67&tDisplay=yes&UserProfile=0&LanguageId=1

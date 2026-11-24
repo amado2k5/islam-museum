@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-9-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يذكر الطبري أن الذين يؤذون الله بمعصيته وركوب ما حرّم، ويؤذون رسوله، لعنهم الله في الدنيا والآخرة وأعدّ لهم عذاباً مهيناً، وأن الذين يؤذون المؤمنين والمؤمنات بغير ما اكتسبوا فقد احتملوا بهتاناً وإثماً مبيناً، ويذكر قولاً في أن المراد بعضهم أصحاب التصاوير. وهذا التفسير مشترك بين الآيتين 57 و58. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=33&tAyahNo=57&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 57 إلى 58 مقطعاً واحداً. يفسّر قوله «إِنَّ ٱلَّذِينَ يُؤْذُونَ ٱللَّهَ وَرَسُولَهُ لَعَنَهُمُ ٱللَّهُ فِي ٱلدُّنْيَا وَٱلآخِرَةِ وَأَعَدَّ لَهُمْ عَذَاباً مُّهِيناً»: يعني بقوله تعالى ذكره: «إنَّ الَّذِينَ يُؤْذُونَ اللَّهَ» إنّ الذين يؤذون ربهم بمعصيتهم إياه، وركوبهم ما حرّم عليهم. وقد قيل: إنه عنى بذلك أصحاب التصاوير، وذلك أنهم يرومون تكوين خلق مثل خلق الله. وينقل في المقطع أقوالاً عن ابن عباس ومجاهد وقتادة والأعمش.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=33&tAyahNo=57&tDisplay=yes&UserProfile=0&LanguageId=1

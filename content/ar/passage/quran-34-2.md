@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-9-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يفسّر الطبري أن الله يعلم ما يدخل الأرض وما يخرج منها وما ينزل من السماء وما يعرج فيها، ويشرح معنى «يلج» في اللغة، وأنه الرحيم الغفور. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=34&tAyahNo=2&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «يَعْلَمُ مَا يَلِجُ فِي ٱلأَرْضِ وَمَا يَخْرُجُ مِنْهَا وَمَا يَنزِلُ مِنَ ٱلسَّمَآءِ وَمَا يَعْرُجُ فِيهَا وَهُوَ ٱلرَّحِيمُ ٱلْغَفُورُ»: يعلم ما يدخل الأرض وما يغيب فيها من شيء من قولهم: ولجت في كذا: إذا دخلت فيه، كما قال الشاعر:رأيْتُ القَوَافِي يَتَّلِجْنَ مَوَالِجاً تَضَايَقُ عَنْها أنْ تَوَلَّجَها الإبَرْ يعني بقوله: «يتَّلجن موالجاً»: يدخلن مداخل «وَما يخْرُجُ مِنْها» يقول: وما يخرج من الأرض «وَما يَنْزِلِ مِنَ السَّماءِ وَما يَعْرُجُ فِيها» يعني: وما يصعد في السماء وذلك خبر من الله أنه العالم الذي لا يخفى عليه شيء في السموات والأرض، مما ظهر فيها وما بطن، «وهو الرحيم الغفور» وهو الرحيم بأهل التوبة من عباده أن يعذّبهم بعد توبتهم، الغفور لذنوبهم إذا تابوا منها.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=34&tAyahNo=2&tDisplay=yes&UserProfile=0&LanguageId=1

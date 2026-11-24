@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-8-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن القراء اختلفوا في «ولا تصعّر» و«ولا تصاعر» وكلتاهما قراءتان لعلماء من القراء فبأيتهما قرأ القارئ فمصيب، ومعنى الكلام ولا تعرض بوجهك عمن تكلّمه تكبراً واحتقاراً، ولا تمش في الأرض مرحاً أي بطراً وأشراً، إن الله لا يحب كل مختال فخور. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=31&tAyahNo=18&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَلاَ تُصَعِّرْ خَدَّكَ لِلنَّاسِ وَلاَ تَمْشِ فِي ٱلأَرْضِ مَرَحاً إِنَّ ٱللَّهَ لاَ يُحِبُّ كُلَّ مُخْتَالٍ فَخُورٍ»: اختلفت القرّاء في قراءة قوله: «وَلا تُصَعِّرْ» فقرأه بعض قراء الكوفة والمدنيين والكوفيين: «ولا تصعر» على مثال تفعل. وقرأ ذلك بعض المكيين وعامة قرّاء المدينة والكوفة والبصرة: «وَلا تُصَاعِرْ» على مثال تفاعل. والصواب من القول في ذلك أن يقال إنهما قراءتان قد قرأ بكل واحدة منهما علماء من القرّاء، فبأيتهما قرأ القارىء فمصيب. وينقل في المقطع أقوالاً عن ابن عباس ومجاهد وعكرمة وابن زيد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=31&tAyahNo=18&tDisplay=yes&UserProfile=0&LanguageId=1

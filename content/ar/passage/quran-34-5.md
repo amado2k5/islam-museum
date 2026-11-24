@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-9-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن الله أثبت ذلك ليجزي أيضاً الذين سعوا في إبطال حججه وآياته معاجزين يظنون أنهم يفوتونه، فلهم عذاب من رجز أليم أي موجع. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=34&tAyahNo=5&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَٱلَّذِينَ سَعَوْا فِيۤ آيَاتِنَا مُعَاجِزِينَ أُوْلَٰئِكَ لَهُمْ عَذَابٌ مِّن رِّجْزٍ أَلِيمٌ»: أثبت ذلك في الكتاب، ليجزي المؤمنين ما وصف، وليجزي الذين سعوا في آياتنا معاجزين يقول: وكي يثيب الذين عملوا في إبطال أدلتنا وحججنا معاونين، يحسبون أنهم يسبقوننا بأنفسهم فلا نقدر عليهم «أُولَئِكَ لَهُمْ عَذَابٌ» يقول: هؤلاء لهم عذاب من شديد العذاب الأليم ويعني بالأليم: الموجع. وينقل في المقطع أقوالاً عن قتادة وابن زيد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=34&tAyahNo=5&tDisplay=yes&UserProfile=0&LanguageId=1

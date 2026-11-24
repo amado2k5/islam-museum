@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-8-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري الآيات 8 إلى 9 معاً في موضع واحد. يقول الطبري إن الذين آمنوا بالله فوحّدوه وصدّقوا رسوله واتبعوه وعملوا الصالحات فأطاعوا الله ولهم جنات النعيم أي بساتين النعيم خالدين فيها ماكثين إلى غير نهاية، وعد الله حقاً لا شك فيه، وهو العزيز الحكيم. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=31&tAyahNo=8&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 8 إلى 9 مقطعاً واحداً. يفسّر قوله «إِنَّ ٱلَّذِينَ آمَنُواْ وَعَمِلُواْ ٱلصَّالِحَاتِ لَهُمْ جَنَّاتُ ٱلنَّعِيمِ»: «إنَّ الَّذِينَ آمَنُوا» بالله فوحدوه، وصدّقوا رسوله واتبعوه «وعَمِلُوا الصَّالِحَاتِ» يقول: فأطاعوا الله، فعملوا بما أمرهم في كتابه وعلى لسان رسوله، وانتهوا عما نهاهم عنه «لَهُمْ جَنَّاتُ النَّعِيمِ» يقول: لهؤلاء بساتين النعيم «خالدين فِيها» يقول: ماكثين فيها إلى غير نهاية «وَعْدَ اللّهِ حَقًّا» يقول: وعدهم الله وعداً حقاً، لا شكّ فيه ولا خلف له «وَهُوَ العَزِيزُ» يقول: وهو الشديد في انتقامه من أهل الشرك به، والصادّين عن سبيله، «الحَكِيمُ» في تدبير خلقه.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=31&tAyahNo=8&tDisplay=yes&UserProfile=0&LanguageId=1

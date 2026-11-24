@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-9-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يذكّر الله أزواج النبي بنعمته أن جعلهن في بيوت تُتلى فيها آيات الله والحكمة، ويفسّر الطبري الحكمة بما أُوحي إلى النبي من أحكام الدين مما لم ينزل به قرآن، وأن الله كان لطيفاً خبيراً. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=33&tAyahNo=34&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَٱذْكُرْنَ مَا يُتْلَىٰ فِي بُيُوتِكُنَّ مِنْ آيَاتِ ٱللَّهِ وَٱلْحِكْمَةِ إِنَّ ٱللَّهَ كَانَ لَطِيفاً خَبِيراً»: يقول تعالى ذكره لأزواج نبيه محمد: واذكرْنَ نعمة الله عليكنّ، بأن جعلكنّ في بيوت تُتلى فيها آيات الله والحكمة، فاشكرن الله على ذلك، واحمدنه عليه وعنى بقوله: «وَاذْكُرْنَ ما يُتْلَى فِي بُيُوتِكُنَّ مِنْ آياتِ اللَّهِ» واذكرن ما يقرأ في بيوتكنّ من آيات كتاب الله والحكمة ويعني بالحكمة: ما أُوحي إلى رسول الله من أحكام دين الله، ولم ينزل به قرآن، وذلك السنة. وينقل في المقطع أقوالاً عن قتادة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=33&tAyahNo=34&tDisplay=yes&UserProfile=0&LanguageId=1

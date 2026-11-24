@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-9-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يذكر الطبري أن أهل العلم من أهل الكتاب الذين قرأوا الكتب السابقة كعبد الله بن سلام ونظرائه يرون أن ما أُنزل إلى النبي من ربه هو الحق، وأنه يهدي إلى صراط العزيز الحميد. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=34&tAyahNo=6&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَيَرَى ٱلَّذِينَ أُوتُواْ ٱلْعِلْمَ ٱلَّذِيۤ أُنزِلَ إِلَيْكَ مِن رَّبِّكَ هُوَ ٱلْحَقَّ وَيَهْدِيۤ إِلَىٰ صِرَاطِ ٱلْعَزِيزِ ٱلْحَمِيدِ»: أثبت ذلك في كتاب مبين، ليجزي الذين آمنوا، والذين سعوا في آياتنا ما قد بين لهم، وليرى الذين أوتوا العلم فيرى في موضع نصب عطفاً به على قوله: يَجزي، في قوله:«لِيَجْزِيَ الَّذِينَ آمَنُوا» وعنى بالذين أوتوا العلم: مسلمة أهل الكتاب كعبد الله بن سلام، ونظرائه الذين قد قرؤوا كتب الله التي أُنزلت قبل الفرقان، فقال تعالى ذكره: وليرى هؤلاء الذين أوتوا العلم بكتاب الله الذي هو التوراة، الكتاب الذي أُنزل إليك يا محمد من ربك هو الحقّ. وقيل: عني بالذين أوتوا العلم: أصحاب رسول الله. وينقل في المقطع أقوالاً عن قتادة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=34&tAyahNo=6&tDisplay=yes&UserProfile=0&LanguageId=1

@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-9-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يذكر الطبري أن المشركين إذا سُئلوا عمن خلق السماوات والأرض أقرّوا بأنه الله، فيأمر النبي أن يقول لهم «الحمد لله» الذي خلق لا من لا يخلق شيئاً، ثم يبيّن أن أكثرهم لا يعلمون لمن الحمد وأين موضع الشكر. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=31&tAyahNo=25&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 25 إلى 26 مقطعاً واحداً. يفسّر قوله «وَلَئِن سَأَلْتَهُمْ مَّنْ خَلَقَ ٱلسَّمَٰوَٰتِ وَٱلأَرْضَ لَيَقُولُنَّ ٱللَّهُ قُلِ ٱلْحَمْدُ لِلَّهِ بَلْ أَكْثَرُهُمْ لاَ يَعْلَمُونَ»: ولئن سألت يا محمد هؤلاء المشركين بالله من قومك «مَنْ خَلَقَ السَّمَوَاتِ والأرْضِ لَيَقُولُنَّ اللّهُ، قُلِ الحَمْدُ لِلّهِ» يقول تعالى ذكره لنبيه محمد، فإذا قالوا ذلك، فقل لهم: الحمد لله الذي خلق ذلك، لا لمن لا يخلق شيئاً وهم يخلقون. ثم قال تعالى ذكره: «بَلْ أكْثَرُهُمْ لا يعْلَمون» يقول: بل أكثر هؤلاء المشركون لا يعلمون من الذي له الحمد، وأين موضع الشكر.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=31&tAyahNo=25&tDisplay=yes&UserProfile=0&LanguageId=1

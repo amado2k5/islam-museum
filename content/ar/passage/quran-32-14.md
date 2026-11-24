@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-9-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يذكر الطبري أنه يقال للمشركين إذا دخلوا النار ذوقوا العذاب بما نسيتم لقاء يومكم هذا، إنا تركناكم اليوم في النار، وذوقوا عذاب الخلد بما كنتم تعملون من المعاصي. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=32&tAyahNo=14&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «فَذُوقُواْ بِمَا نَسِيتُمْ لِقَآءَ يَوْمِكُمْ هَٰذَآ إِنَّا نَسِينَاكُمْ وَذُوقُواْ عَذَابَ ٱلْخُلْدِ بِمَا كُنتُمْ تَعْمَلُونَ»: يقال لهؤلاء المشركين بالله إذا هم دخلوا النار: ذوقوا عذاب الله بما نسيتم لقاء يومكم هذا في الدنيا، «إنَّا نَسِيناكُمْ» يقول: إنا تركناكم اليوم في النار. وقوله: «وَذُوقُوا عَذَابَ الخُلْدِ» يقول: يقال لهم أيضاً: ذوقوا عذاباً تخلدون فيه إلى غير نهاية «بِما كُنْتُمْ» في الدنيا «تَعْمَلُونَ» من معاصي الله. وبنحو ما قلنا في ذلك قال أهل التأويل. وينقل في المقطع أقوالاً عن ابن عباس.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=32&tAyahNo=14&tDisplay=yes&UserProfile=0&LanguageId=1

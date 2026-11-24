@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-9-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يذكر الطبري أن الله يسوق الماء بقدرته إلى الأرض الجرز اليابسة التي لا نبات فيها، ويشرح معنى «الجرز» في اللغة، فيخرج به زرعاً تأكل منه أنعامهم وأنفسهم، دليلاً على قدرته على البعث، أفلا يبصرون. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=32&tAyahNo=27&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «أَوَلَمْ يَرَوْاْ أَنَّا نَسُوقُ ٱلْمَآءَ إِلَى ٱلأَرْضِ ٱلْجُرُزِ فَنُخْرِجُ بِهِ زَرْعاً تَأْكُلُ مِنْهُ أَنْعَامُهُمْ وَأَنفُسُهُمْ أَفَلاَ يُبْصِرُونَ»: أو لم ير هؤلاء المكذّبون بالبعث بعد الموت والنشر بعد الفناء، أنا بقُدرتنا نسوق الماء إلى الأرض اليابسة الغليظة التي لا نبات فيها وأصله من قولهم: ناقة جرز: إذا كانت تأكل كلّ شيء، وكذلك الأرض الجروز: التي لا يبقى على ظهرها شيء إلاَّ أفسدته، نظير أكل الناقة الجراز كلّ ما وجدته، ومنه قولهم للإنسان الأكول: جَرُوز، كما قال الراجز.خَبّ جَرُوزٌ وَإذَات...... ومنه قيل للسيف إذا كان لا يبقي شيئاً إلاَّ قطعه: سيف جراز، فيه لغات أربع: أرض جُرُز، وجَرْز، وجِرز وجُرْز، والفتح لبني تميم فيما بلغني. وينقل في المقطع أقوالاً عن ابن عباس ومجاهد وقتادة والضحاك وابن زيد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=32&tAyahNo=27&tDisplay=yes&UserProfile=0&LanguageId=1

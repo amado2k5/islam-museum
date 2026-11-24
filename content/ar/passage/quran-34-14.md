@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-9-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يذكر الطبري أن الله لما قضى على سليمان بالموت لم يدلّ الجن على موته إلا دابة الأرض أي الأرضة التي أكلت عصاه التي كان متكئاً عليها، فلما خرّ تبينت الجن أنهم لو كانوا يعلمون الغيب ما لبثوا في العذاب المهين. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=34&tAyahNo=14&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «فَلَمَّا قَضَيْنَا عَلَيْهِ ٱلْمَوْتَ مَا دَلَّهُمْ عَلَىٰ مَوْتِهِ إِلاَّ دَابَّةُ الأَرْضِ تَأْكُلُ مِنسَأَتَهُ فَلَمَّا خَرَّ تَبَيَّنَتِ ٱلْجِنُّ أَن لَّوْ كَانُواْ يَعْلَمُونَ ٱلْغَيْبَ مَا لَبِثُواْ فِي ٱلْعَذَابِ ٱلْمُهِينِ»: فلما أمضينا قضاءنا على سليمان بالموت فمات «ما دَلَّهُمْ عَلى مَوْتِهِ» يقول: لم يدلّ الجنّ على موت سليمان «إلاَّ دَابَّةُ الأرْضِ» وهي الأَرَضَة وقعت في عصاه، التي كان متكئاً عليها فأكلتها، فذلك قول الله عزّ وجلّ «تَأْكُلُ مِنْسأَتَهُ». وينقل في المقطع أقوالاً عن ابن عباس ومجاهد وقتادة وابن زيد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=34&tAyahNo=14&tDisplay=yes&UserProfile=0&LanguageId=1

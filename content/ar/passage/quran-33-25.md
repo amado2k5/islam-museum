@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-9-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن الله ردّ الذين كفروا من قريش وغطفان بغيظهم لم ينالوا خيراً، وكفى المؤمنين القتال بجنود من الملائكة والريح، وكان الله قوياً عزيزاً. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=33&tAyahNo=25&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَرَدَّ ٱللَّهُ ٱلَّذِينَ كَفَرُواْ بِغَيْظِهِمْ لَمْ يَنَالُواْ خَيْراً وَكَفَى ٱللَّهُ ٱلْمُؤْمِنِينَ ٱلْقِتَالَ وَكَانَ ٱللَّهُ قَوِيّاً عَزِيزاً»: «ورَدَّ اللّهُ الَّذِينَ كَفَرُوا» به وبرسوله من قُرَيش وغطفان «بِغَيْظِهِمْ» يقول: بكربهم وغمهم، بفوتهم ما أمَّلوا من الظفر، وخيبتهم مما كانوا طَمِعوا فيه من الغَلَبة «لَمْ ينَالوا خَيْراً» يقول: لم يصيبوا من المسلمين مالاً ولا إساراً «وكَفَى اللّهُ المُؤْمِنِينَ القِتالَ» بجنود من الملائكة والريح التي بعثها عليهم. وينقل في المقطع أقوالاً عن مجاهد وقتادة وابن إسحاق.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=33&tAyahNo=25&tDisplay=yes&UserProfile=0&LanguageId=1

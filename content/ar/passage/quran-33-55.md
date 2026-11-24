@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-9-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يذكر الطبري أنه لا حرج على أزواج النبي في آبائهن وأبنائهن وإخوانهن وأبناء إخوانهن وأخواتهن ونسائهن وما ملكت أيمانهن، ويختلف أهل التأويل في معنى رفع الجناح هنا، فقال بعضهم هو وضع جلابيبهن عندهم، وأمرهن بتقوى الله. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=33&tAyahNo=55&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «لاَّ جُنَاحَ عَلَيْهِنَّ فِيۤ آبَآئِهِنَّ وَلاَ أَبْنَآئِهِنَّ وَلاَ إِخْوَانِهِنَّ وَلاَ أَبْنَآءِ إِخْوَانِهِنَّ وَلاَ أَبْنَآءِ أَخَوَاتِهِنَّ وَلاَ نِسَآئِهِنَّ وَلاَ مَا مَلَكَتْ أَيْمَانُهُنَّ وَٱتَّقِينَ ٱللَّهَ إِنَّ ٱللَّهَ كَانَ عَلَىٰ كُلِّ شَيْءٍ شَهِيداً»: لا حرج على أزواج رسول الله في آبائهنّ ولا إثم. ثم اختلف أهل التأويل في المعنى الذي وضع عنهنّ الجناح في هؤلاء، فقال بعضهم: وضع عنهنّ الجناح في وضع جلابيبهنّ عندهم. وينقل في المقطع أقوالاً عن مجاهد وقتادة وعكرمة وابن زيد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=33&tAyahNo=55&tDisplay=yes&UserProfile=0&LanguageId=1

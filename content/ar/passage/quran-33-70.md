@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-9-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يأمر الله المؤمنين بتقواه وبقول سديد، أي قاصد حق غير باطل، ووعد أنه يصلح لهم أعمالهم ويغفر ذنوبهم، ومن يطع الله ورسوله فقد فاز فوزاً عظيماً. وهذا التفسير مشترك بين الآيتين 70 و71. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=33&tAyahNo=70&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 70 إلى 71 مقطعاً واحداً. يفسّر قوله «يٰأَيُّهَا ٱلَّذِينَ آمَنُواْ ٱتَّقُواْ ٱللَّهَ وَقُولُواْ قَوْلاً سَدِيداً»: يا أيها الذين صدّقوا الله ورسوله، اتقوا الله أن تعصوه، فتستحقوا بذلك عقوبته. وقوله: «وَقولوا قَوْلاً سَدِيداً» يقول: قولوا في رسول الله والمؤمنين قولاً قاصداً غير جائز، حقاً غير باطل، كما: وعن ابن أبي نجيح، عن مجاهد «وَقُولُوا قَوْلاً سَدِيداً» يقول: سداداً. عن الكلبي «وَقُولُوا قَوْلاً سَدِيداً» قال: صدقاً. وعن قتادة، قوله: «اتَّقُوا اللَّهَ وَقُولُوا قَوْلاً سَدِيداً» أي عدلاً، قال قتادة: يعني به في منطقه وفي عمله كله، والسديد: الصدق. عن الحكم بن أبان، عن عكرمة في قول الله: «وَقُولُوا قَوْلاً سَدِيداً» قولوا: لا إله إلا الله. وينقل في المقطع أقوالاً عن مجاهد وقتادة وعكرمة والكلبي.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=33&tAyahNo=70&tDisplay=yes&UserProfile=0&LanguageId=1

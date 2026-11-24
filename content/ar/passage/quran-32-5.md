@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-9-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يذكر الطبري أن الله يدبر أمر خلقه من السماء إلى الأرض ثم يعرج إليه في يوم مقداره ألف سنة مما يعدّ الناس، ويعرض اختلاف أهل التأويل: فمنهم من قال إن الأمر ينزل ويصعد في يوم واحد قدره ألف سنة لأن ما بين السماء والأرض مسيرة خمسمئة عام، ومنهم من حمله على أقوال أخرى. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=32&tAyahNo=5&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «يُدَبِّرُ ٱلأَمْرَ مِنَ ٱلسَّمَآءِ إِلَى ٱلأَرْضِ ثُمَّ يَعْرُجُ إِلَيْهِ فِي يَوْمٍ كَانَ مِقْدَارُهُ أَلْفَ سَنَةٍ مِّمَّا تَعُدُّونَ»: الله هو الذي يدبر الأمر من أمر خلقه من السماء إلى الأرض، ثم يعرُج إليه. واختلف أهل التأويل في المعنيّ بقوله «ثُمَّ يَعْرُجُ إلَيْهِ فِي يَوْمٍ كانَ مِقْدَارُهُ ألْفَ سَنَةٍ مِمَّا تَعُدُّونَ» فقال بعضهم: معناه: أن الأمر ينزل من السماء إلى الأرض، ويصعد من الأرض إلى السماء في يوم واحد، وقدر ذلك ألف سنة مما تعدّون من أيام الدنيا، لأن ما بين الأرض إلى السماء خمس مئة عام، وما بين السماء إلى الأرض مثل ذلك، فذلك ألف سنة. وينقل في المقطع أقوالاً عن ابن عباس ومجاهد وقتادة والضحاك وعكرمة وسماك وغيرهم.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=32&tAyahNo=5&tDisplay=yes&UserProfile=0&LanguageId=1

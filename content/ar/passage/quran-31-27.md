@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-9-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يفسّر الطبري الآية بأن أشجار الأرض كلها لو صارت أقلاماً والبحر مداداً يمدّه من بعده سبعة أبحر، ثم كُتب بها كلام الله لتكسّرت الأقلام ونفد المداد ولم تنفد كلمات الله. ويذكر محذوفاً دلّ عليه السياق. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=31&tAyahNo=27&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَلَوْ أَنَّمَا فِي ٱلأَرْضِ مِن شَجَرَةٍ أَقْلاَمٌ وَٱلْبَحْرُ يَمُدُّهُ مِن بَعْدِهِ سَبْعَةُ أَبْحُرٍ مَّا نَفِدَتْ كَلِمَاتُ ٱللَّهِ إِنَّ ٱللَّهَ عَزِيزٌ حَكِيمٌ»: ولو أن شجر الأرض كلها بريت أقلاماً «والبَحْرُ يَمُدُّهُ» يقول: والبحر له مداد، والهاء في قوله «يَمُدُّهُ» عائدة على البحر. وقوله «منْ بَعْدِهِ سَبْعَةُ أبْحُرٍ ما نَفِدَتْ كَلِماتُ اللّهِ» وفي هذا الكلام محذوف استغنى بدلالة الظاهر عليه منه، وهو يكتب كلام الله بتلك الأقلام وبذلك المداد، لتكسرت تلك الأقلام، ولنفد ذلك المداد، ولم تنفد كلمات الله. وينقل في المقطع أقوالاً عن ابن عباس وعكرمة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=31&tAyahNo=27&tDisplay=yes&UserProfile=0&LanguageId=1

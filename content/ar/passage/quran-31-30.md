@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-9-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يذكر الطبري أن ما ذُكر من إيلاج الليل في النهار وسائر دلائل القدرة دليل على أن الله هو الحق وحده، وأن ما يعبده المشركون من دونه باطل لا ينفع ولا يضر، وأنه سبحانه العلي الكبير. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=31&tAyahNo=30&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «ذَلِكَ بِأَنَّ ٱللَّهَ هُوَ ٱلْحَقُّ وَأَنَّ مَا يَدْعُونَ مِن دُونِهِ ٱلْبَاطِلُ وَأَنَّ ٱللَّهَ هُوَ ٱلْعَلِيُّ ٱلْكَبِيرُ»: هذا الذي أخبرتك يا محمد أن الله فعله من إيلاجه الليل في النهار، والنهار في الليل، وغير ذلك من عظيم قُدرته، إنما فعله بأنه الله حقا، دون ما يدعوه هؤلاء المشركون به، وأنه لا يقدر على فعل ذلك سواه، ولا تصلح الألوهة إلاَّ لمن فعل ذلك بقُدرته. وقوله: «وأنَّ ما يَدْعُونَ مِنْ دُونِهِ الباطِلُ» يقول تعالى ذكره: وبأن الذي يعبد هؤلاء المشركون من دون الله الباطل الذي يضمحلّ، فيبيد ويفني «وأنَّ اللّهَ هُوَ العَلِيُّ الكَبِيرُ» يقول تعالى ذكره: وبأن الله هو العليّ، يقول: ذو العلوّ على كلّ شيء، وكلّ ما دونه فله متذلل منقاد، الكبير الذي كل شيء دونه، فله متصاغر.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=31&tAyahNo=30&tDisplay=yes&UserProfile=0&LanguageId=1

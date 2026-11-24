@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-9-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أنه ليس لمؤمن ولا مؤمنة إذا قضى الله ورسوله أمراً أن يختاروا غيره، ومن يعص فقد ضل ضلالاً مبيناً، ويذكر أنها نزلت في زينب بنت جحش حين خطبها النبي لزيد بن حارثة. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=33&tAyahNo=36&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَمَا كَانَ لِمُؤْمِنٍ وَلاَ مُؤْمِنَةٍ إِذَا قَضَى ٱللَّهُ وَرَسُولُهُ أَمْراً أَن يَكُونَ لَهُمُ ٱلْخِيَرَةُ مِنْ أَمْرِهِمْ وَمَن يَعْصِ ٱللَّهَ وَرَسُولَهُ فَقَدْ ضَلَّ ضَلاَلاً مُّبِيناً»: لم يكن لمؤمن بالله ورسوله، ولا مؤمنة إذا قضى الله ورسوله في أنفسهم قضاء أن يتخيروا من أمرهم غير الذي قضى فيهم، ويخالفوا أمر الله وأمر رسوله وقضاءهما فيعصوهما، ومن يعص الله ورسوله فيما أَمَراً أو نَهَياً «فَقَدْ ضَلَّ ضَلالاً مُبِيناً» يقول: فقد جار عن قصد السبيل، وسلك غير سبيل الهدى والرشاد. وذُكر أن هذه الآية نزلت في زينب بنت جحش حين خطبها رسول الله على فتاه زيد بن حارثة، فامتنعت من إنكاحه نفسها. وينقل في المقطع أقوالاً عن ابن عباس ومجاهد وقتادة وعكرمة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=33&tAyahNo=36&tDisplay=yes&UserProfile=0&LanguageId=1

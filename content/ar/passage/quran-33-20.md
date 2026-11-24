@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-9-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن هؤلاء المنافقين يحسبون الأحزاب، وهم قريش وغطفان، لم يذهبوا، وإن يأتِ الأحزاب يودّوا لو أنهم بادون في الأعراب يسألون عن أنبائكم، ولو كانوا فيكم ما قاتلوا إلا قليلاً. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=33&tAyahNo=20&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «يَحْسَبُونَ ٱلأَحْزَابَ لَمْ يَذْهَبُواْ وَإِن يَأْتِ ٱلأَحْزَابُ يَوَدُّواْ لَوْ أَنَّهُمْ بَادُونَ فِي ٱلأَعْرَابِ يَسْأَلُونَ عَنْ أَنبَآئِكُمْ وَلَوْ كَانُواْ فِيكُمْ مَّا قَاتَلُوۤاْ إِلاَّ قَلِيلاً»: يحسب هؤلاء المنافقون الأحزاب، وهم قريش وغطفان. كما: عن ابن إسحاق، قال: ثني يزيد بن رومان «يَحْسَبُونَ الأحْزَابُ لَمْ يَذْهَبُوا» قريش وغطفان. وقوله: «لَمْ يَذْهَبُوا» يقول: لم ينصرفوا، وإن كانوا قد انصرفوا جبناً وهَلعاً منهم. وينقل في المقطع أقوالاً عن مجاهد وابن إسحاق.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=33&tAyahNo=20&tDisplay=yes&UserProfile=0&LanguageId=1
