@@ -29,26 +29,26 @@ once, not on the audit date), **UNVERIFIED** (the auditor could not find the evi
 
 ## 1. The measured state
 
-Measured at `a8c14fcc30b 2026-11-24` by `python3 scripts/report/claims_audit.py`. Counts are pattern matches over `data/`.
+Measured at `701afeaac3a 2026-11-24` by `python3 scripts/report/claims_audit.py`. Counts are pattern matches over `data/`.
 
 | Measure | Count | Share |
 |---|---|---|
-| Record files under `data/` (content + source) | 88,848 | |
-| Source (bibliography) records | 12,024 | 13.5% of all |
+| Record files under `data/` (content + source) | 88,866 | |
+| Source (bibliography) records | 12,030 | 13.5% of all |
 | ... of type book, chapter, manuscript or thesis | 894 | 7.4% of sources |
-| ... Wikipedia or Wikidata pages | 7,704 | 64.1% of sources |
-| Content records (everything but sources) | 76,824 | |
-| Content records in review state `draft` | 58,324 | 75.9% |
+| ... Wikipedia or Wikidata pages | 7,704 | 64.0% of sources |
+| Content records (everything but sources) | 76,836 | |
+| Content records in review state `draft` | 58,336 | 75.9% |
 | Content records in review state `published` | 18,409 | 24.0% |
 | Content records in any other review state, or none | 91 | 0.1% |
-| Content records whose `generated_by` is AI-named | 70,356 | 91.6% |
+| Content records whose `generated_by` is AI-named | 70,368 | 91.6% |
 | Content records whose `generated_by` is script-made | 6,377 | 8.3% |
 | Content records whose `generated_by` is no tag | 91 | 0.1% |
 | `published` content records whose `generated_by` is AI-named | 18,409 | 100.0% of published |
-| Grounding: cites at least one book source | 49,861 | 64.9% |
-| Grounding: other sources only (text editions online, datasets, websites, catalogues) | 11,399 | 14.8% |
+| Grounding: cites at least one book source | 49,873 | 64.9% |
+| Grounding: other sources only (text editions online, datasets, websites, catalogues) | 11,400 | 14.8% |
 | Grounding: preliminary card (sources not yet checked on the page) | 11,253 | 14.6% |
-| Grounding: Wikipedia or Wikidata only | 4,289 | 5.6% |
+| Grounding: Wikipedia or Wikidata only | 4,288 | 5.6% |
 | Grounding: no source record cited | 22 | 0.0% |
 | Grand Tour stops (`tour/grand-tour.yaml`) | 40 | |
 | Grand Tour languages (`TOUR_LANGS`) | ar, en | |
@@ -56,7 +56,7 @@ Measured at `a8c14fcc30b 2026-11-24` by `python3 scripts/report/claims_audit.py`
 
 | Content records by class | Count |
 |---|---|
-| passage | 35,306 |
+| passage | 35,318 |
 | person | 12,160 |
 | building | 5,794 |
 | event | 5,672 |
@@ -267,3 +267,4 @@ Append a dated line for every re-run, correction or closed row. Never rewrite an
 - 2026-11-24: section 1 measure and by-class tables re-measured with `python3 scripts/report/claims_audit.py` after article batch 5 of the 210-book list. (Devin, run ulama-books210-art2b)
 - 2026-11-24: section 1 measure and by-class tables re-measured with `python3 scripts/report/claims_audit.py` after article batch 6 of the 210-book list. (Devin, run ulama-books210-art2c)
 - 2026-11-24: section 1 measure and by-class tables re-measured with `python3 scripts/report/claims_audit.py` after article batch 7 of the 210-book list. (Devin, run ulama-books210-art3a)
+- 2026-11-24: section 1 measure and by-class tables re-measured with `python3 scripts/report/claims_audit.py` after article batch 8 of the 210-book list. (Devin, run ulama-books210-art3b)
