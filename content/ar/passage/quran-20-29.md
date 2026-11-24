@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-6-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يندرج في شرح الطبري لسؤال موسى أن يجعل له ربه وزيراً من أهله، وهو هارون أخوه، وهي من الآيات المتتابعة في دعائه. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=20&tAyahNo=29&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 29 إلى 35 مقطعاً واحداً. يفسّر قوله «ٱذْهَبْ إِلَىٰ فِرْعَوْنَ إِنَّهُ طَغَىٰ»: «اذْهَبْ» يا موسى «إلى فِرْعَوْنَ إنَّهُ طَغَى» يقول: إنه تجاوز قدره، وتمرّد على ربه وقد بيَّنا معنى الطغيان بما مضى بما أغنى عن إعادته، في هذا الموضع وفي الكلام محذوف استغني بفهم السامع بما ذكر منه، وهو قوله: «اذْهَبْ إلى فِرْعَوْنَ إنَّهُ طَغَى» فادعه إلى توحيد الله وطاعته، وإرسال بني إسرائيل معك وينقل في المقطع أقوالاً عن مجاهد وسعيد بن جبير وابن زيد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=20&tAyahNo=29&tDisplay=yes&UserProfile=0&LanguageId=1

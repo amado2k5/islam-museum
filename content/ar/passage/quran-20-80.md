@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-6-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن الله ذكّر بني إسرائيل بإنجائهم من عدوهم وإنزال المن والسلوى عليهم، وأمرهم أن يأكلوا من طيبات رزقه ولا يطغوا فيه فيحل عليهم غضبه. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=20&tAyahNo=80&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 80 إلى 81 مقطعاً واحداً. يفسّر قوله «يٰبَنِي إِسْرَائِيلَ قَدْ أَنجَيْنَاكُمْ مِّنْ عَدُوِّكُمْ وَوَاعَدْنَاكُمْ جَانِبَ ٱلطُّورِ ٱلأَيْمَنَ وَنَزَّلْنَا عَلَيْكُمُ ٱلْمَنَّ وَٱلسَّلْوَىٰ»: فلما نجا موسى بقومه من البحر، وغَشِيَ فرعون قومه من اليم ما غشيهم، قلنا لقوم موسى: «يَا بَنِي إسْرَائِيلَ قَدْ أنْجَيْناكُمْ مِنْ عَدُوّكُمْ» فرعون «وَوَاعَدْناكُمْ جانِبَ الطُّورِ الأيمَنَ وَنَزَّلْنا عَلَيْكُمُ المَنَّ والسَّلْوَى» وقد ذكرنا كيف كانت مواعدة الله موسى وقومه جانب الطور الأيمن. وقد بيَّنا المنّ والسلوى باختلاف المختلفين فيهما، وذكرنا الشواهد على الصواب من القول في ذلك فيما مضى قبل، بما أغنى عن إعادته في هذا الموضع. وينقل في المقطع أقوالاً عن ابن عباس وقتادة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=20&tAyahNo=80&tDisplay=yes&UserProfile=0&LanguageId=1

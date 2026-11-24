@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-6-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن الله أوحى إلى موسى أن أسرِ بعبادي من بني إسرائيل ليلاً فاضرب لهم طريقاً في البحر يبساً لا تخاف دركاً ولا تخشى. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=20&tAyahNo=77&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَلَقَدْ أَوْحَيْنَآ إِلَىٰ مُوسَىٰ أَنْ أَسْرِ بِعِبَادِي فَٱضْرِبْ لَهُمْ طَرِيقاً فِي ٱلْبَحْرِ يَبَساً لاَّ تَخَافُ دَرَكاً وَلاَ تَخْشَىٰ»: «وَلَقَدْ أوْحَيْنا إلى» نبينا «مُوسَى» إذ تابعنا له الحجج على فرعون، فأبى أن يستجيب لأمر ربه، وطغى وتمادى في طغيانه «أنْ أسْرِ» ليلاً «بِعبادِي» يعني بعبادي من بني إسرائيل «فاضْرِبْ لَهُمْ طَرِيقاً فِي البَحْرِ يَبَساً» يقول: فاتخذ لهم في البحر طريقاً يابساً. واليَبَس واليَبْس: يجمع أيباس، تقول: وقفوا في أيباس من الأرض. واليَبْس المخفف: يجمع يبوس. وينقل في المقطع أقوالاً عن ابن عباس ومجاهد وقتادة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=20&tAyahNo=77&tDisplay=yes&UserProfile=0&LanguageId=1

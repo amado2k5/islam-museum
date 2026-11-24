@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-6-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن قلوبهم لاهية غافلة لا يتدبرون حكمه ولا يتفكرون في الحجج، وأسرّ الذين ظلموا النجوى هل هذا إلا بشر مثلكم أفتأتون السحر وأنتم تبصرون. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=21&tAyahNo=3&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «لاَهِيَةً قُلُوبُهُمْ وَأَسَرُّواْ ٱلنَّجْوَى ٱلَّذِينَ ظَلَمُواْ هَلْ هَٰذَآ إِلاَّ بَشَرٌ مِّثْلُكُمْ أَفَتَأْتُونَ ٱلسِّحْرَ وَأَنتُمْ تُبْصِرُونَ»: «لاهيَةً قُلُوبُهُمْ» غافلة، يقول: ما يستمع هؤلاء القوم الذين وصف صفتهم هذا القرآن إلا وهم يلعبون غافلة عنه قلوبهم، لا يتدبرون حكمه ولا يتفكرون فيما أودعه الله من الحجج عليهم. كما: وعن قتادة، قوله: «لاهِيَةً قُلُوبُهُمْ» يقول: غافلة قلوبهم. وقوله: «وأَسَرُّوا النَّجْوَى الَّذِينَ ظَلَمُوا» يقول: وأسرّ هؤلاء الناس الذين اقتربت الساعة منهم وهم في غفلة معرضون، لاهية قلوبهم، النجوى بينهم، يقول: وأظهروا المناجاة بينهم فقالوا: هل هذا الذي يزعم أنه رسول من الله أرسله إليكم «إلاّ بَشَرٌ مِثْلُكُمْ»؟ يقولون: هل هو إلا إنسان مثلكم في صوركم وخلقكم؟ يعنون بذلك محمدا. وينقل في المقطع أقوالاً عن قتادة وابن زيد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=21&tAyahNo=3&tDisplay=yes&UserProfile=0&LanguageId=1

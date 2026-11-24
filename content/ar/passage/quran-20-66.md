@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-6-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن السحرة جمعوا كيدهم ثم أتوا صفاً، وأن موسى قال لهم ألقوا، فإذا حبالهم وعصيّهم يخيّل إليه من سحرهم أنها تسعى، ويذكر خلافاً في عددهم. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=20&tAyahNo=66&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 66 إلى 67 مقطعاً واحداً. يفسّر قوله «قَالُواْ يٰمُوسَىٰ إِمَّآ أَن تُلْقِيَ وَإِمَّآ أَن نَّكُونَ أَوَّلَ مَنْ أَلْقَىٰ»: فأجمعت السحرة كيدهم، ثم أتوا صفاً فقالوا لموسى: «يا مُوسى إمَّا أنْ تُلْقِيَ وإمَّا أنْ نَكُونَ أوَّلَ مَنْ ألْقَى» وترك ذكر ذلك من الكلام اكتفاء بدلالة الكلام عليه. واختلف في مبلغ عدد السحرة الذين أتوا يومئذٍ صفاً، فقال بعضهم: كانوا سبعين ألف ساحر، مع كلّ ساحر منهم حبل وعصا. وينقل في المقطع أقوالاً عن ابن إسحاق.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=20&tAyahNo=66&tDisplay=yes&UserProfile=0&LanguageId=1

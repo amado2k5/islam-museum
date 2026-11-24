@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-6-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن الله أمر موسى أن يضمّ يده إلى جناحه، والجناح اليد أو الجنب بحسب أهل العربية، فتخرج بيضاء من غير سوء، آية أخرى ليريه من آياته الكبرى. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=20&tAyahNo=23&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 22 إلى 23 مقطعاً واحداً. يفسّر قوله «لِنُرِيَكَ مِنْ آيَاتِنَا ٱلْكُبْرَىٰ»: واضمم يدك يا موسى إلى جناحك، تخرج بيضاء من غير سوء، كي نريك من أدلتنا الكبرى على عظيم سلطاننا وقُدرتنا. وقال: الكبرى، فوحَّد، وقد قال: «مِنْ آياتِنا» كما قال:«لَهُ الأسْماءُ الحُسْنَى» وقد بيَّنا ذلك هنالك. وكان بعض أهل البصرة يقول: إنما قيل الكبرى، لأنه أريد بها التقديم، كأن معناها عنده: لنريك الكبرى من آياتنا. وينقل في المقطع أقوالاً عن ابن عباس ومجاهد وقتادة والحسن وابن إسحاق.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=20&tAyahNo=23&tDisplay=yes&UserProfile=0&LanguageId=1

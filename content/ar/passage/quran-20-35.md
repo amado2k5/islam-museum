@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-6-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن موسى سأل ربه أن يشدّ أزره بهارون، أي يقوي ظهره ويعينه، وأن يشركه في أمره كي يسبحا الله كثيراً ويذكراه كثيراً، إنه كان بهما بصيراً. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=20&tAyahNo=35&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 31 إلى 35 مقطعاً واحداً. يفسّر قوله «إِنَّكَ كُنتَ بِنَا بَصِيراً»: إنك كنت ذا بصر بنا لا يخفى عليك من أفعالنا شيء. وذُكر عن عبد الله بن أبي إسحاق أنه كان يقرأ: «أَشْدُد بِهِ أزْرِي» بفتح الألف من أشدد «وأُشْرِكْه فِي أمْرِي» بضم الألف من أشركه، بمعنى الخبر من موسى عن نفسه، أنه يفعل ذلك، لا على وجه الدعاء. وإذا قرىء ذلك كذلك جزم أشدد وأشرك على الجزاء، أو جواب الدعاء، وذلك قراءة لا أرى القراءة بها، وإن كان لها وجه مفهوم، لخلافها قراءة الحجة التي لا يجوز خلافها. وينقل في المقطع أقوالاً عن ابن عباس وابن زيد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=20&tAyahNo=35&tDisplay=yes&UserProfile=0&LanguageId=1

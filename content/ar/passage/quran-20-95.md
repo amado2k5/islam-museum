@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-6-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يفسّر الطبري قول موسى فما خطبك يا سامري بأنه سؤاله عن شأنه وما حمله على ما فعل. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=20&tAyahNo=95&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 95 إلى 96 مقطعاً واحداً. يفسّر قوله «قَالَ فَمَا خَطْبُكَ يٰسَامِرِيُّ»: يعني تعالى ذكره بقوله: «فمَا خَطْبُكَ يا سامِرِيّ» قال موسى للسامري: فما شأنك يا سامري، وما الذي دعاك إلى ما فعلته، كما: قال ابن زيد، في قوله «فَمَا خَطْبُكَ يا سامِرِيّ» قال: ما أمرك؟ ما شأنك؟ ما هذا الذي أدخلك فيما دخلت فيه. وعن السديّ «قالَ فما خَطْبُكَ يا سامِرِيّ» قال: مالك يا سامريّ؟ وقوله: «بَصُرْتُ بِمَا لَمْ يَبْصُرُوا بِهِ» يقول: قال السامريّ: علمت ما لم يعلموه، وهو فعلت من البصيرة: أي صرت بما عملت بصيراً عالماً. وينقل في المقطع أقوالاً عن ابن عباس ومجاهد وسعيد بن جبير وابن زيد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=20&tAyahNo=95&tDisplay=yes&UserProfile=0&LanguageId=1

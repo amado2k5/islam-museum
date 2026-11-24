@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-6-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن موسى قال للسحرة ويلكم لا تفتروا على الله كذباً فيسحتكم بعذاب، أي يستأصلكم ويهلككم، وقد خاب من افترى. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=20&tAyahNo=61&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «قَالَ لَهُمْ مُّوسَىٰ وَيْلَكُمْ لاَ تَفْتَرُواْ عَلَى ٱللَّهِ كَذِباً فَيُسْحِتَكُم بِعَذَابٍ وَقَدْ خَابَ مَنِ ٱفْتَرَىٰ»: يقل تعالى ذكره:«قَالَ مُوسَى» للسحرة لما جاء بهم فرعون: «وَيْلَكُمْ لا تَفْتَرُوا عَلى اللّهِ كَذِباً» يقول: لا تختلفوا على الله كذباً، ولا تتقوّلوه «فَيُسْحِتَكُمْ بِعَذَابٍ» فيستأصلكم بهلاك فيبيدكم. وللعرب فيه لغتان: سَحَت، وأسحت، وَسَحت، أكثر من أسحت، يقال منه: سحت الدهر، وأسحت مال فلان: إذا أهلكه فهو يَسْحَته سحتا، وأسحته يُسْحته إسحاتا. ومن الإسحات قول الفرزدق:وَعَضُّ زَمانٍ يا ابْنَ مَرْوَانَ لَمْ يَدَعْ مِنَ المَالِ إلاَّ مُسْحَتا أوْ مُجَلَّفُ ويُروى: إلا مسحت أو مجلف. وينقل في المقطع أقوالاً عن ابن عباس وقتادة وابن زيد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=20&tAyahNo=61&tDisplay=yes&UserProfile=0&LanguageId=1

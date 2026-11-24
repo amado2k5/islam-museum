@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-6-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يذكر الطبري أن الله يقص على نبيه من أنباء ما قد سبق وقد آتاه من لدنه ذكراً، وأن من أعرض عنه فإنه يحمل يوم القيامة وزراً أي إثماً عظيماً. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=20&tAyahNo=99&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 99 إلى 100 مقطعاً واحداً. يفسّر قوله «كَذٰلِكَ نَقُصُّ عَلَيْكَ مِنْ أَنْبَآءِ مَا قَدْ سَبَقَ وَقَدْ آتَيْنَاكَ مِن لَّدُنَّا ذِكْراً»: كما قصصنا عليك يا محمد نبأ موسى وفرعون وقومه وأخبار بني إسرائيل مع موسى «كَذَلكَ نَقُصُّ عَلَيْكَ مِنْ أنْباءِ ما قَدْ سَبَقَ» يقول: كذلك نخبرك بأنباء الأشياء التي قد سبقت من قبلك، فلم تشاهدها ولم تعاينها. وقوله: «وَقَدْ آتَيْناكَ مِنْ لَدُنَّا ذِكْراً» يقول تعالى ذكره لمحمد: وقد آتيناك يا محمد من عندنا ذكراً يَتذكر به، ويتعظ به أهل العقل والفهم، وهو هذا القرآن الذي أنزله الله عليه، فجعله ذكرى للعالمين. وينقل في المقطع أقوالاً عن مجاهد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=20&tAyahNo=99&tDisplay=yes&UserProfile=0&LanguageId=1

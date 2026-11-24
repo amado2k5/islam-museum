@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-6-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن من يحلل عليه غضب الله فقد هوى أي شقي، وأن الله غفار لمن تاب وآمن وعمل صالحاً ثم اهتدى. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=20&tAyahNo=82&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَإِنِّي لَغَفَّارٌ لِّمَن تَابَ وَآمَنَ وَعَمِلَ صَالِحَاً ثُمَّ ٱهْتَدَىٰ»: ومن يجب عليه غضبي، فينزل به. فقد هوى، يقول فقد تردّى فشقي، كما: قال: ثني معاوية، عن عليّ، عن ابن عباس، قوله:«فَقَدْ هَوَى» يقول: فقد شقِي. وقوله: «وإنّي لَغَفَّارٌ لِمَنْ تابَ» يقول: وإني لذو غفر لمن تاب من شركه، فرجع منه إلى الإيمان لي «وآمن»، يقول: وأخلص لي الألوهة، ولم يشرك في عبادته إياي غيري. «وَعمِلَ صَالِحاً» يقول: وأدّى فرائضي التي افترضتها عليه، واجتنب معاصيّ. «ثُمَّ اهْتَدَى» يقول: ثم لزم ذلك، فاستقام ولم يضيع شيئاً منه. وينقل في المقطع أقوالاً عن ابن عباس وقتادة وابن زيد والكلبي والربيع.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=20&tAyahNo=82&tDisplay=yes&UserProfile=0&LanguageId=1
