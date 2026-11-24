@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-7-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن الله جعل لكل أمة من أهل الإيمان منسكاً، أي ذبحاً يهريقون دمه ليذكروا اسم الله على ما رزقهم من بهيمة الأنعام، وإلهكم إله واحد فله أسلموا. ويقول إن البهائم سُمّيت بهائم لأنها لا تتكلم، وإن من البهائم ما ليس من الأنعام كالخيل والبغال والحمير. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=22&tAyahNo=34&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَلِكُلِّ أُمَّةٍ جَعَلْنَا مَنسَكاً لِّيَذْكُرُواْ ٱسْمَ ٱللَّهِ عَلَىٰ مَا رَزَقَهُمْ مِّن بَهِيمَةِ ٱلأَنْعَامِ فَإِلَٰهُكُمْ إِلَٰهٌ وَاحِدٌ فَلَهُ أَسْلِمُواْ وَبَشِّرِ ٱلْمُخْبِتِينَ»: «وَلِكُلّ أُمَّةٍ» ولكلّ جماعة سَلَف فيكم من أهل الإيمان بالله أيها الناس، جعلنا ذبحاً يُهَرِيقون دمه «لِيَذْكُرُوا اسْمَ اللَّهِ عَلى ما رَزَقَهُمْ مِنْ بَهِيمَةِ الأنْعامِ» بذلك لأن من البهائم ما ليس من الأنعام، كالخيل والبغال والحمير. وقيل: إنما قيل للبهائم بهائم لأنها لا تتكلم. وينقل في المقطع أقوالاً عن مجاهد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=22&tAyahNo=34&tDisplay=yes&UserProfile=0&LanguageId=1

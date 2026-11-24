@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-7-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يذكر الطبري أن مشركي قوم النبي يستعجلونه بالعذاب الذي يعدهم، ولن يخلف الله وعده، وقد وفّى لهم بذلك فقتلهم يوم بدر. ويعرض اختلاف أهل التأويل في اليوم الذي هو عند الله كألف سنة مما يعدّون. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=22&tAyahNo=47&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَيَسْتَعْجِلُونَكَ بِٱلْعَذَابِ وَلَن يُخْلِفَ ٱللَّهُ وَعْدَهُ وَإِنَّ يَوْماً عِندَ رَبِّكَ كَأَلْفِ سَنَةٍ مِّمَّا تَعُدُّونَ»: ويستعجلونك يا محمد مشركو قومك بما تَعِدهم من عذاب الله على شركهم به وتكذيبهم إياك فيما أتيتهم به من عند الله في الدنيا، ولن يخلف الله وعده الذي وعدك فيهم من إحلال عذابه ونقمته بهم في عاجل الدنيا. ففعل ذلك، ووفى لهم بما وعدهم، فقتلهم يوم بدر. واختلف أهل التأويل في اليوم الذي قال جلّ ثناؤه: «وَإنَّ يَوْماً عِنْدَ رَبِّكَ كألْفِ سَنَةٍ مِمَّا تَعُدُّونَ» أيّ يوم هو؟ فقال بعضهم: هو من الأيام التي خلق الله فيها السموات والأرض. وينقل في المقطع أقوالاً عن ابن عباس ومجاهد وعكرمة وسماك.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=22&tAyahNo=47&tDisplay=yes&UserProfile=0&LanguageId=1

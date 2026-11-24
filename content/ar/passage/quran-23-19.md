@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-7-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن الله أحدث للناس بالماء الذي أنزله بساتين من نخيل وأعناب، لهم فيها فواكه كثيرة ومنها يأكلون، وخصّ هذه الجنات بالذكر لأنها من أجلّ ثمار العرب. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=23&tAyahNo=19&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «فَأَنشَأْنَا لَكُمْ بِهِ جَنَّاتٍ مِّن نَّخِيلٍ وَأَعْنَابٍ لَّكُمْ فِيهَا فَوَاكِهُ كَثِيرَةٌ وَمِنْهَا تَأْكُلُونَ»: فأحدبساتين من نخيل وأعناب «لَكُمْ فِيهَا» يقول: لكم في الجنات فواكه كثيرة. «وَمِنْها تَأْكُلُونَ» يقول: ومن الفواكه تأكلون. وقد يجوز أن تكون الهاء والألف من ذكر الجنات، ويحتمل أن تكون من ذكر النخيل والأعناب. وخصّ جلّ ثناؤه الجنات التي ذكرها في هذا الموضع، فوصفها بأنها من نخيل وأعناب دون وصفها بسائر ثمار الأرض لأن هذين النوعين من الثماء كانا هما أعظم ثمار الحجاز وما قرب منها، فكانت النخيل لأهل المدينة، والأعناب لأهل الطائف، فذكر القوم بما يعرفون من نعمة الله عليهم، بما أنعم به عليهم من ثمارها.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=23&tAyahNo=19&tDisplay=yes&UserProfile=0&LanguageId=1

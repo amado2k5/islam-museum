@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-7-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن من صفات المفلحين أنهم عن اللغو معرضون، ويعرض اختلاف أهل التأويل في اللغو: فقيل الباطل، وقيل الشرك، وقيل المعاصي، وقيل الكلام الذي لا فائدة فيه، فهم يتركونه تنزهاً وإعراضاً. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=23&tAyahNo=3&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 3 إلى 5 مقطعاً واحداً. يفسّر قوله «قَدْ أَفْلَحَ ٱلْمُؤْمِنُونَ»: قال أبو جعفر: يعني جلّ ثناؤه بقوله: «قَدْ أفلَحَ المُؤْمِنُونَ»: قد أدرك الذين صدقوا الله ورسوله محمدا، وأقرّوا بما جاءهم به من عند الله، وعملوا بما دعاهم إليه مما سمي في هذه الأيات، الخلودَ في جنَّات ربهم وفازوا بطَلِبتهم لديه. كما: أخبرنا عبد الرّزاق، عن معمر، عن قَتادة، في قوله: «قَدْ أفْلَحَ المُؤْمِنُونَ» قال: قال كعب: لم يخلق الله بيده إلاَّ ثلاثة: خلق آدم بيده، وكتب التوراة بيده، وغرس جنة عَدْن بيده، ثم قال لها: تكلمي فقالت: قَدْ أفْلَحَ المُؤْمِنُونَ لما علمت فيها من الكرامة. عن عمرو بن أبي قيس، عن عبد العزيز بن رفيع، عن مجاهد، قال: لما غرس الله تبارك وتعالى الجنة، نظر إليها فقال: «قَدْ أفْلَحَ المُؤْمِنُونَ». وينقل في المقطع أقوالاً عن مجاهد وعطاء.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=23&tAyahNo=3&tDisplay=yes&UserProfile=0&LanguageId=1

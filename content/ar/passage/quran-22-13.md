@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-7-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن هذا المنقلب يدعو آلهة ضرّها في الآخرة أقرب من نفعها، وبئس المولى وبئس العشير. وينقل أن ابن مسعود قرأها «يدعو من ضره أقرب من نفعه»، ويعرض اختلاف أهل العربية في موضع «من» من الإعراب. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=22&tAyahNo=13&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «يَدْعُو لَمَنْ ضَرُّهُ أَقْرَبُ مِن نَّفْعِهِ لَبِئْسَ ٱلْمَوْلَىٰ وَلَبِئْسَ ٱلْعَشِيرُ»: يدعو هذا المنقلب على وجهه من إن أصابته فتنة آلهة لضرّها في الآخرة له، أقرب وأسرع إليه من نفعها. وذكر أن ابن مسعود كان يقرؤه: «يدعو مَنْ ضَرّه أقرب من نفعه». واختلف أهل العربية في موضع «مَنْ»، فكان بعض نحوِّيي البصرة يقول: موضعه نصب ب «يدعو»، ويقول: معناه: يدعو لآلهة ضرّها أقرب من نفعها، ويقول: هو شاذّ لأنه لم يوجد في الكلام: يدعو لزيداً. وكان بعض نحويِّي الكوفة يقول: اللام من صلة «ما» بعد «مَنْ» كأن معنى الكلام عنده: يدعو من لَضَرّه أقرب من نفعه وحُكي عن العرب سماعاً منها: عندي لَمَا غيرُه خير منه، بمعنى: عندي ما لغيره خير منه وأعطيتك لما غيرُه خير منه، بمعنى: ما لغيره خير منه. وينقل في المقطع أقوالاً عن مجاهد وابن زيد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=22&tAyahNo=13&tDisplay=yes&UserProfile=0&LanguageId=1

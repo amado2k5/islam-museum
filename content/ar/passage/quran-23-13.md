@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-7-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن الله جعل الإنسان نطفة في قرار مكين، وهو حيث استقرت نطفة الرجل في رحم المرأة، ووصفه بالمكين لأنه هُيّئ ومُكّن ليستقر فيه إلى بلوغ أمره. ثم صيّر النطفة علقة، ثم المضغة. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=23&tAyahNo=13&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 13 إلى 14 مقطعاً واحداً. يفسّر قوله «ثُمَّ جَعَلْنَاهُ نُطْفَةً فِي قَرَارٍ مَّكِينٍ»: يعني تعالى ذكره بقوله: «ثُمَّ جَعَلْناهُ نطْفَةً فِي قَرَارٍ مَكِينٍ» ثم جعلنا الإنسان الذي جعلناه من سلالة من طين، نطفة في قرار مكين، وهو حيث استقرّت فيه نطفة الرجل من رحم المرأة. ووصفه بأنه مكين، لأنه مُكّن لذلك وهيىء له ليستقرّ فيه إلى بلوغ أمره الذي جعله له قراراً. وقوله: «ثُمَّ خَلَقْنا النطْفَةَ عَلَقَةً» يقول: ثم صيرنا النطفة التي جعلناها في قرار مكين علقة، وهي القطعة من الدم. «فَخَلَقْنا العَلَقَةَ مُضْغَةً» يقول: فَجعلنا ذلك الدم مضغة، وهي القطعة من اللحم. وقوله: «فخَلَقْنا المُضْغَةَ عِظاماً» يقول: فجعلنا تلك المضغة اللحم عظاماً. وينقل في المقطع أقوالاً عن ابن عباس ومجاهد وعكرمة والربيع وعطاء.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=23&tAyahNo=13&tDisplay=yes&UserProfile=0&LanguageId=1

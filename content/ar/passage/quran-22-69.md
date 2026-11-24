@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-7-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن الله يحكم بين المختلفين يوم القيامة فيما كانوا فيه يختلفون، فيفصل بين المؤمنين والكافرين، فيعلم المحق من المبطل ويجازي كلاً بعمله. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=22&tAyahNo=69&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 68 إلى 69 مقطعاً واحداً. يفسّر قوله «ٱللَّهُ يَحْكُمُ بَيْنَكُمْ يَوْمَ ٱلْقِيَامَةِ فِيمَا كُنتُمْ فِيهِ تَخْتَلِفُونَ»: والله يقضي بينكم يوم القيامة فيما كنتم فيه من أمر دينكم تختلفون، فتعلمون حينئذ أيها المشركون المحقّ من المبطل. وينقل في المقطع أقوالاً عن مجاهد وابن جريج.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=22&tAyahNo=69&tDisplay=yes&UserProfile=0&LanguageId=1

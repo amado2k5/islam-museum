@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-7-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يعرض الطبري اختلاف القراء في قراءة «وأنّ هذه أمتكم»: فقرأ أهل المدينة والبصرة بفتح الهمزة عطفاً على «ما»، وقرأها آخرون بالكسر، ويبين المعنى: أن هذه أمتكم أمة واحدة أي دينكم دين واحد، وأنا ربكم فاتقون. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=23&tAyahNo=52&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَإِنَّ هَٰذِهِ أُمَّتُكُمْ أُمَّةً وَاحِدَةً وَأَنَاْ رَبُّكُمْ فَٱتَّقُونِ»: اختلفت القرّاء في قراءة قوله: «وَإنَّ هَذِهِ أمَّتُكُمْ أُمَّةً وَاحدَةً»، فقرأ ذلك عامة قرّاء أهل المدينة والبصرة: «وأنَّ» بالفتح، بمعنى: إني بما تعملون عليم، وأن هذه أمتكم أمة واحدة. فعلى هذا التأويل «أنّ» في موضع خفض، عطف بها على «ما» من قوله: «بِما تَعْمَلُونَ»، وقد يحتمل أن تكون في موضع نصب إذا قرىء ذلك كذلك، ويكون معنى الكلام حينئذٍ: واعلموا أن هذه، ويكون نصبها بفعل مضمر. وقرأ ذلك عامة قرّاء الكوفيين بالكسر: «وَإنَّ» هذه على الاستئناف.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=23&tAyahNo=52&tDisplay=yes&UserProfile=0&LanguageId=1

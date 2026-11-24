@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-7-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن من صفاتهم أنهم لزكاة أموالهم التي فرضها الله عليهم مؤدّون، وأن فعلهم الذي وصفوا به هو أداؤها. ثم يذكر أنهم لفروجهم حافظون، يحفظونها من أن تُستعمل في غير ما أحلّ الله. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=23&tAyahNo=4&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 4 إلى 7 مقطعاً واحداً. يفسّر قوله «وَٱلَّذِينَ هُمْ لِلزَّكَاةِ فَاعِلُونَ»: والذين هم لزكاة أموالهم التي فرضها الله عليهم فيها مؤدّون، وفعلهم الذي وصفوا به هو أداؤهموها. وقوله: «وَالَّدِينَ هُمْ لِفُرُوجهِمْ حافِظُونَ إلاَّ عَلى أزْوَاجِهِمْ» يقول: والذين هم لفروج أنفسهم. وعنى بالفروج في هذا الموضع: فروج الرجال، وذلك أقبالهم. «حَافِظُونَ» يحفظونها من أعمالها في شيء من الفروج. إلاَّ عَلى أزْوَاجِهمْ } يقول: إلاَّ من أزواجهم اللاتي أحلهنّ الله للرجال بالنكاح. «أوْ ما مَلَكَتْ أيْمَانُهُمْ» يعني بذلك: إماءهم. و «ما» التي في قوله: «أوْ ما مَلَكَتْ أيْمَانُهُمْ» في محلّ خفض عطفاً على الأزواج. وينقل في المقطع أقوالاً عن ابن عباس وابن زيد وعطاء.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=23&tAyahNo=4&tDisplay=yes&UserProfile=0&LanguageId=1

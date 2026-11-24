@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-7-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن الله ينسخ ما يلقي الشيطان ثم يحكم آياته، ليجعل ما يلقي الشيطان فتنة واختباراً للذين في قلوبهم مرض من النفاق وهو الشك، والقاسية قلوبهم، وأن الظالمين لفي شقاق بعيد. ويورد في ذلك الرواية المتعلقة بسبب النزول. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=22&tAyahNo=53&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «لِّيَجْعَلَ مَا يُلْقِي ٱلشَّيْطَانُ فِتْنَةً لِّلَّذِينَ فِي قُلُوبِهِم مَّرَضٌ وَٱلْقَاسِيَةِ قُلُوبُهُمْ وَإِنَّ ٱلظَّالِمِينَ لَفِي شِقَاقٍ بَعِيدٍ»: فينسخ الله ما يلقي الشيطان، ثُم يُحكم الله آياته، كي يجعل ما يلقي الشيطان في أمنية نبيه من الباطل، كقول النبيّ: " تلك الغرانيق العُلَى، وإن شفاعتهن لُترَتَجَى " «فِتْنَةً» يقول: اختباراً يختبر به الذين في قلوبهم مرض من النفاق وذلك الشكّ في صد رسول الله وحقيقة ما يخبرهم به. وينقل في المقطع أقوالاً عن قتادة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=22&tAyahNo=53&tDisplay=yes&UserProfile=0&LanguageId=1

@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-7-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن من صفاتهم أنهم لأماناتهم، أي ما ائتُمنوا عليه، وعهدهم، وهو عقودهم التي عاقدوا الناس عليها، راعون حافظون لا يضيّعون بل يوفون بذلك كله. ويعرض اختلاف القراء في «لأماناتهم» بين الجمع والإفراد، ويختار الجمع لإجماع الأكثر. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=23&tAyahNo=8&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 8 إلى 10 مقطعاً واحداً. يفسّر قوله «وَٱلَّذِينَ هُمْ لأَمَانَاتِهِمْ وَعَهْدِهِمْ رَاعُونَ»: «وَالَّذِينَ هُمْ لأَماناتِهمْ» التي ائتمنوا عليها وعهدهم، وهو عقودهم التي عاقدوا الناس «راعُونَ» يقول: حافظون لا يضيعون، ولكنهم يوفون بذلك كله. واختلفت القرّاء في قراءة ذلك، فقرأته عامة قرّاء الأمصار إلا ابن كثير: «وَالَّذِينَ هُمْ لأَماناتِهِمْ» على الجمع. وقرأ ذلك ابن كثير: «لأَمانَتِهِم» على الواحدة. والصواب من القراءة في ذلك عندنا: «لأَماناتِهِمْ» لإجماع الحجة من القرّاء عليها. وقوله: وينقل في المقطع أقوالاً عن مجاهد وابن جريج والأعمش وإبراهيم.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=23&tAyahNo=8&tDisplay=yes&UserProfile=0&LanguageId=1

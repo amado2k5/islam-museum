@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-7-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يذكر الطبري أن الذي قالته الأشراف من قوم الرسول الذي أُرسل بعد نوح هو صالح، وأن قومه ثمود، وأنهم الذين جحدوا توحيد الله وكذّبوا بلقاء الآخرة، وأن الله نعّمهم في حياتهم الدنيا بسعة المعاش حتى بطروا وعتوا، فقالوا ما هذا إلا بشر مثلكم يأكل مما تأكلون ويشرب مما تشربون. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=23&tAyahNo=33&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَقَالَ ٱلْمَلأُ مِن قَوْمِهِ ٱلَّذِينَ كَفَرُواْ وَكَذَّبُواْ بِلِقَآءِ ٱلآخِرَةِ وَأَتْرَفْنَاهُمْ فِي ٱلْحَياةِ ٱلدُّنْيَا مَا هَٰذَا إِلاَّ بَشَرٌ مِّثْلُكُمْ يَأْكُلُ مِمَّا تَأْكُلُونَ مِنْهُ وَيَشْرَبُ مِمَّا تَشْرَبُونَ»: وقالت الأشراف من قوم الرسول الذي أرسلنا بعد نوح. وعَنَى بالرسول في هذا الموضع: صالحاً، وبقومه: ثمود. «الَّذِينَ كَفَرُوا وكَذَّبُوا بِلِقاءِ الآخِرَةِ» يقول: الذين جحدوا توحيد الله «وكَذَّبُوا بِلِقَاءِ الآخِرَةِ» يعني كذّبوا بلقاء الله في الآخرة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=23&tAyahNo=33&tDisplay=yes&UserProfile=0&LanguageId=1

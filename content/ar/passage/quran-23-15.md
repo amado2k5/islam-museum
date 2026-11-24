@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-7-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يذكر الطبري أن الناس بعد إنشائهم خلقاً آخر وتصييرهم إنساناً سويّاً ميتون، عائدون تراباً كما كانوا. وإنما قيل «ميتون» لأنه خبر عن حال تحدث لهم. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=23&tAyahNo=15&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 15 إلى 16 مقطعاً واحداً. يفسّر قوله «ثُمَّ إِنَّكُمْ بَعْدَ ذٰلِكَ لَمَيِّتُونَ»: ثم إنكم أيها الناس من بعد إنشائكم خلقاً آخل وتصييرناكم إنساناً سويًّا ميتون وعائدون تراباً كما كنتم، ثم إنكم بعد موتكم وعودكم رفاتاً بالياً مبعوثون من التراب خلقاً جديداً كما بدأناكم أوّل مرّة. وإنما قيل: «ثُمَّ إنَّكُمْ بَعْدَ ذلكَ لَمَيِّتُونَ» لأنه خبر عن حال لهم يحدث لم يكن. وكذلك تقول العرب لمن لم يمت: هو مائت وميت عن قليل، ولا يقولون لمن قد مات مائت، وكذلك هو طَمِع فيما عندك إذا وصف بالطمع، فإذا أخبر عنه أنه سيفعل ولم يفعل قيل هو طامع فيما عندك غداً، وكذلك ذلك في كلّ ما كان نظيراً لما ذكرناه.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=23&tAyahNo=15&tDisplay=yes&UserProfile=0&LanguageId=1

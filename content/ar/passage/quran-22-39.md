@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-7-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن الله أذن للمؤمنين الذين يقاتلون المشركين في سبيله لأن المشركين ظلموهم بقتالهم، وإن الله على نصرهم لقدير. ويعرض اختلاف القراء في ضبط «أُذن» و«يُقاتَلون» بين البناء للمجهول وغيره. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=22&tAyahNo=39&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «أُذِنَ لِلَّذِينَ يُقَاتَلُونَ بِأَنَّهُمْ ظُلِمُواْ وَإِنَّ ٱللَّهَ عَلَىٰ نَصْرِهِمْ لَقَدِيرٌ»: أَذن الله للمؤمنين الذين يقاتلون المشركين في سبيله بأن المشركين ظلموهم بقتالهم. واختلفت القرّاء في قراءة ذلك، فقرأته عامة قرّاء المدينة: «أُذِنَ» بضم الألف، «يُقاتَلُونَ» بفتح التاء بترك تسمية الفاعل في «أُذِنَ» و«يُقاتَلُون» جميعاً. وقرأ ذلك بعض الكوفيين وعامة قرّاء البصرة: «أُذِنَ» بترك تسمية الفاعل، و«يُقاتِلُونَ» بكسر التاء، بمعنى يقاتل المأذون لهم في القتال المشركين. وقرأ ذلك عامة قرّاء الكوفيين وبعض المكيين: «أَذِنَ» بفتح الألف، بمعنى: أذن الله، و«يُقاتِلُونَ» بكسر التاء، بمعنى: إن الذين أذن الله لهم بالقتال يقاتلون المشركين. وينقل في المقطع أقوالاً عن ابن عباس والأعمش وسفيان.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=22&tAyahNo=39&tDisplay=yes&UserProfile=0&LanguageId=1

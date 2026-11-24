@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-7-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن نوحاً قال: ربّ انصرني بما كذّبون، أي أعنّي عليهم بإهلاكهم لتكذيبهم إياي، فدعا ربه أن ينصره على قومه المكذبين. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=23&tAyahNo=26&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 25 إلى 27 مقطعاً واحداً. يفسّر قوله «قَالَ رَبِّ ٱنصُرْنِي بِمَا كَذَّبُونِ»: قال نوح داعياً ربه مستنصراً به على قومه، لما طال أمره وأمرهم وتمادَوا في غيهم: «رَبِّ انْصُرْنِي عَلى قَوْمِي بِما كَذَّبُونِ» يعني بتكذيبهم إياي، فيما بلَّغتهم من رسالتك ودعوتهم إليه من توحيدك. وقوله: «فأَوْحَيْنا إلَيْهِ أنه اصْنَعِ الفُلْكَ بأَعْيُنِنا وَوَحْينا» يقول: فقلنا له حين استنصرَنا على كَفَرة قومه: اصنع الفُلْك، وهي السفينة «بأَعْيُنِنا» يقول: بمرأى ومنظر، «ووَحْينَا» يقول: وبتعليمنا إياك صنعتها. «فإذَا جاء أمْرُنا» يقول: فإذا جاء قضاؤنا في قومك، بعذابهم وهلاكهم «وَفارَ التَّنُّورُ»، وقد ذكرنا فيما مضى اختلاف المختلفين في صفة فور التنور، والصواب عندنا من القول فيه بشواهده، بما أغنى عن إعادته في هذا الموضع. وينقل في المقطع أقوالاً عن ابن عباس.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=23&tAyahNo=26&tDisplay=yes&UserProfile=0&LanguageId=1

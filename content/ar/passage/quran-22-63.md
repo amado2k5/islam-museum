@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-7-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يذكر الطبري أن الله ينزل من السماء مطراً فتصبح الأرض مخضرّة بما ينبت فيها من النبات، وأن الله لطيف خبير، ويفسّر رفع «فتصبح» بأن الكلام خبر فكأنه قيل: أعلم أن الله ينزل من السماء ماء فتصبح الأرض مخضرة. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=22&tAyahNo=63&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «أَلَمْ تَرَ أَنَّ ٱللَّهَ أَنزَلَ مِنَ ٱلسَّمَآءِ مَآءً فَتُصْبِحُ ٱلأَرْضُ مُخْضَرَّةً إِنَّ ٱللَّهَ لَطِيفٌ خَبِيرٌ»: «ألَمْ تَرَ» يا محمد «أنَّ اللَّهَ أنْزَلَ مِنَ السَّماءِ ماءً» يعني مطراً، «فَتُصْبِحُ الأرْضُ مُخْضَرَّةً» بما ينبت فيها من النبات. «إنَّ اللَّهَ لَطِيفٌ» باستخراج النبات من الأرض بذلك الماء وغير ذلك من ابتداع ما شاء أن يبتدعه. «خَبِيرٌ» بما يحدث عن ذلك النبت من الحبّ وبه. وقال: «فَتُصْبِحُ الأرْضُ» فرفع، وقد تقدمه قوله: «ألَمْ تَرَ» وإنما قيل ذلك كذلك لأن معنى الكلام الخبر، كأنه قيل: أعلم يا محمد أن الله ينزل من السماء ماء فتصبح الأرض ونظير ذلك قول الشاعر:ألَمْ تَسْأَلِ الرّبْعَ القَدِيمَ فيَنْطِقُ وهلْ تُخْبِرَنْكَ اليوْمَ بَيْداءُ سَمْلَقُ لأن معناه: قد سألته فنطق.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=22&tAyahNo=63&tDisplay=yes&UserProfile=0&LanguageId=1
