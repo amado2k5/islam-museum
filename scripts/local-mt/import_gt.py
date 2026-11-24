@@ -178,6 +178,20 @@ def main():
                 if (LEVELED.search(body) and not a.leveled) or BROKEN.search(body): raise ValueError("held")
                 if body.split("\n") != [l["fixed"] if "fixed" in l else l["prefix"] + l["en"] for l in rec["lines"]]:
                     raise ValueError("English changed since the file was built")
+                if rec.get("scheme") == "frag" and got is not None:  # paragraph-per-fragment: stitch the line back together by position
+                    need = sum(1 for l in todo for it in l["spec"] if it[0] in ("t", "x"))
+                    if len(got) != need: raise ValueError("paragraphs do not line up")
+                    it_got, rebuilt = iter(got), []
+                    for l in todo:
+                        buf = ""
+                        for it in l["spec"]:
+                            if it[0] == "t": buf += it[1] + next(it_got).strip() + it[2]
+                            elif it[0] == "l": buf += it[1]
+                            elif it[0] == "c": buf += f"[[{it[1]}]]"
+                            elif it[0] == "x": buf += f"<x{it[1]}>" + next(it_got).strip() + f"</x{it[1]}>"
+                            elif it[0] == "xl": buf += f"<x{it[1]}>{it[2]}</x{it[1]}>"
+                        rebuilt.append(buf)
+                    got = rebuilt
                 if got is None or len(got) != len(todo): raise ValueError("paragraphs do not line up")
                 out, it = [], iter(got)
                 for l in rec["lines"]:
