@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-7-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن الكفار المستعجلين عذاب ربهم لو علموا ما ينتظرهم حين تلفح النار وجوههم وظهورهم فلا يكفّونها عن أنفسهم ولا ينصرهم ناصر، لسارعوا إلى التوبة والإيمان ولما استعجلوا لأنفسهم البلاء. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=21&tAyahNo=39&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «لَوْ يَعْلَمُ ٱلَّذِينَ كَفَرُواْ حِينَ لاَ يَكُفُّونَ عَن وُجُوهِهِمُ ٱلنَّارَ وَلاَ عَن ظُهُورِهِمْ وَلاَ هُمْ يُنصَرُونَ»: لو يعلم هؤلاء الكفار المستعجلون عذاب ربهم ماذا لهم من البلاء حين تلفح وجوههم النار، وهم فيها كالحون، فلا يكفّون عن وجوههم النار التي تلفحها، ولا عن ظهورهم فيدفعونها عنها بأنفسهم «وَلا هُمْ يُنْصَرُونَ» يقول: ولا لهم ناصر ينصرهم، فيستنقذهم حينئذ من عذاب الله لما أقاموا على ما هم عليه مقيمون من الكفر بالله، ولسارعوا إلى التوبة منه والإيمان بالله، ولما استعجلوا لأنفسهم البلاء.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=21&tAyahNo=39&tDisplay=yes&UserProfile=0&LanguageId=1

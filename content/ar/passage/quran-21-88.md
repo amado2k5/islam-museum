@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-7-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يذكر الطبري أن الله استجاب دعاء يونس إذ دعاه في بطن الحوت، ونجّاه من الغمّ الذي كان فيه بسبب حبسه وخطيئته. ويقول إنه كما أنجاه كذلك ينجي المؤمنين من كربهم إذا استغاثوا به ودعوه. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=21&tAyahNo=88&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «فَٱسْتَجَبْنَا لَهُ وَنَجَّيْنَاهُ مِنَ ٱلْغَمِّ وَكَذٰلِكَ نُنجِي ٱلْمُؤْمِنِينَ»: «فاسَتْجَبْنَا» ليونس دعاءه إيانا، إذ دعانا في بطن الحوت، ونجيناه من الغمّ الذي كان فيه بحبْسناه في بطن الحوت وغمه بخطيئته وذنبه «وكذَلكَ نُنْجِي المُؤْمِنِينَ» يقول جلّ ثناؤه: وكما أنجينا يونس من كرب الحبس في بطن الحوت في البحر إذ دعانا، كذلك ننجي المؤمنين من كربهم إذا استغاثوا بنا ودعونا.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=21&tAyahNo=88&tDisplay=yes&UserProfile=0&LanguageId=1

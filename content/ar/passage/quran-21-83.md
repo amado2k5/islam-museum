@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-7-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يذكر الطبري أن الله أمر نبيه أن يذكر أيوب إذ نادى ربه أنه مسّه الضر وأنه أرحم الراحمين، فاستجاب له وكشف ما به من ضر وبلاء. ويبين أن ما أصابه كان امتحاناً من الله واختباراً، ويورد في سببه رواية عن محمد بن سهل بن عسكر. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=21&tAyahNo=83&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 83 إلى 84 مقطعاً واحداً. يفسّر قوله «وَأَيُّوبَ إِذْ نَادَىٰ رَبَّهُ أَنِّي مَسَّنِيَ ٱلضُّرُّ وَأَنتَ أَرْحَمُ ٱلرَّاحِمِينَ»: واذكر أيوب يا محمد، إذ نادى ربه وقد مسه الضرّ والبلاء. «رَبّ إنّي مَسَّنِيَ الضُّرُّ وأنْتَ أرْحَمُ الرَّاحِمِين فَاسْتَجَبْنا لَهُ» يقول تعالى ذكره: فاستجبنا لأيوب دعاءه إذ نادانا، فكشفنا ما كان به من ضرّ وبلاء وجهد. وكان الضرّ الذي أصابه والبلاء الذي نزل به، امتحانا من الله له واختبارا. وكان سبب ذلك كما: قال: ثني عبد الصمد بن معقل، قال: سمعت وهب بن منبه يقول: كان بدء أمر أيوب الصديق صلوات الله عليه، أنه كان صابرا نعم العبد. وينقل في المقطع أقوالاً عن وهب.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=21&tAyahNo=83&tDisplay=yes&UserProfile=0&LanguageId=1

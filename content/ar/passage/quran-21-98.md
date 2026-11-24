@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-7-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن المشركين العابدين الأوثان وما يعبدونه من دون الله حصب جهنم، ويعني بالحصب الوقود والشجر عند بعضهم، وينقل عن ابن عباس والضحاك أن المراد الآلهة ومن يعبدها، وأنهم لها واردون. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=21&tAyahNo=98&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «إِنَّكُمْ وَمَا تَعْبُدُونَ مِن دُونِ ٱللَّهِ حَصَبُ جَهَنَّمَ أَنتُمْ لَهَا وَارِدُونَ»: إنكم أيها المشركون بالله، العابدون من دونه الأوثان والأصنام، وما تعبدون من دون الله من الآلهة. كما: حُدثت عن الحسين، قال: سمعت أبا معاذ يقول: سمعت الضحاك يقول في قوله: «إنَّكُمْ وَما تَعْبُدُونَ مِنْ دُونِ اللَّهِ» يعني الآلهة ومن يعبدها، «حَصَبُ جَهَنَّمَ». وأما حصب جهنم، فقال بعضهم: معناه: وقود جهنم وشجرها. وينقل في المقطع أقوالاً عن ابن عباس ومجاهد وعكرمة وابن جريج.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=21&tAyahNo=98&tDisplay=yes&UserProfile=0&LanguageId=1

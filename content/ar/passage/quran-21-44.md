@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-7-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن الله متّع المشركين وآباءهم بالدنيا حتى طال عليهم العمر وهم مقيمون على كفرهم، فنسوا عهده وجهلوا نعمته. ثم يذكر أنهم ألا يرون أنا نأتي الأرض ننقصها من أطرافها، أفهم الغالبون؟ ويعرض أقوال أهل التأويل في نقص الأرض. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=21&tAyahNo=44&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «بَلْ مَتَّعْنَا هَٰؤُلاۤءِ وَآبَآءَهُمْ حَتَّىٰ طَالَ عَلَيْهِمُ ٱلْعُمُرُ أَفَلاَ يَرَوْنَ أَنَّا نَأْتِي ٱلأَرْضَ نَنقُصُهَا مِنْ أَطْرَافِهَآ أَفَهُمُ ٱلْغَالِبُونَ»: ما لهؤلاء المشركين من آلهة تمنعهم من دوننا، ولا جار يجيرهم من عذابنا، إذا نحن أردنا عذابهم، فاتكلوا على ذلك، وعصوا رسلنا اتكالاً منهم على ذلك ولكنا متَّعناهم بهذه الحياة الدنيا وآباءهم من قبلهم حتى طال عليهم العمر، وهم على كفرهم مقيمون، لا تأتيهم منا واعظة من عذاب ولا زاجرة من عقاب على كفرهم وخلافهم أمرنا وعبادتهم الأوثان والأصنام، فنسوا عهدنا وجهلوا موقع نعمتنا عليهم، ولم يعرفوا موضع الشكر. وينقل في المقطع أقوالاً عن قتادة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=21&tAyahNo=44&tDisplay=yes&UserProfile=0&LanguageId=1

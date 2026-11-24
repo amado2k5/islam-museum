@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-6-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن «القصم» أصله الكسر، ومعناه هنا الإهلاك، وإن الله أنشأ بعد المهلَكين قوماً آخرين، فلما أحسوا بأسه إذا هم منها يركضون، أي يهربون. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=21&tAyahNo=11&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 11 إلى 12 مقطعاً واحداً. يفسّر قوله «وَكَمْ قَصَمْنَا مِن قَرْيَةٍ كَانَتْ ظَالِمَةً وَأَنشَأْنَا بَعْدَهَا قَوْماً آخَرِينَ»: وكثيرا قصمنا من قرية. والقصم: أصله الكسر، يقال منه: قصمت ظهر فلان إذا كسرته، وانْقَصَمَتْ سِنُّه: إذا انكسرت. وهو ههنا معنيّ به «أهلكنا»، وكذلك تأوّله أهل التأويل. وينقل في المقطع أقوالاً عن مجاهد وابن زيد وابن جريج.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=21&tAyahNo=11&tDisplay=yes&UserProfile=0&LanguageId=1

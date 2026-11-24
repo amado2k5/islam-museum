@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-6-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يفسّر الطبري أن الرسل لم يُجعلوا جسداً لا يأكل الطعام ولا كانوا خالدين، بل كانوا بشراً يأكلون الطعام كغيرهم. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=21&tAyahNo=8&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَمَا جَعَلْنَاهُمْ جَسَداً لاَّ يَأْكُلُونَ ٱلطَّعَامَ وَمَا كَانُواْ خَالِدِينَ»: وما جعلنا الرسل الذين أرسلناهم من قبلك يا محمد إلى الأمم الماضية قبل أمتك، «جَسَدا لا يَأْكُلُونَ الطَّعامَ» يقول: لم نجعلهم ملائكة لا يأكلون الطعام، ولكن جعلناهم أجسادا مثلك يأكلون الطعام. كما: وعن قَتادة، قوله: «وَما جَعَلْناهُمْ جَسَدا لا يَأْكُلُونَ الطَّعام» يقول: ما جعلناهم جسدا إلا ليأكلوا الطعام. حُدثت عن الحسين، قال: سمعت أبا معاذ يقول: سمعت الضحاك يقول في قوله: «ومَا جَعَلْناهُمْ جَسَدا لا يَأْكُلُونَ الطَّعامَ» يقول: لم أجعلهم جسدا ليس فيهم أرواح لا يأكلون الطعام، ولكن جعلناهم جسدا فيها أرواح يأكلون الطعام. وينقل في المقطع أقوالاً عن قتادة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=21&tAyahNo=8&tDisplay=yes&UserProfile=0&LanguageId=1

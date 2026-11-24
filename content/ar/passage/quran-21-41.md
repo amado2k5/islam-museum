@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-7-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن الكفار اتخذوا النبي هزواً حين رأوه، وأن الله يسلّيه بأن رسلاً من قبله استُهزئ بهم، فنزل بمن سخر منهم الذي كانوا يستهزئون به من البلاء والعذاب. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=21&tAyahNo=41&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَلَقَدِ ٱسْتُهْزِىءَ بِرُسُلٍ مِّن قَبْلِكَ فَحَاقَ بِٱلَّذِينَ سَخِرُواْ مِنْهُمْ مَّا كَانُواْ بِهِ يَسْتَهْزِئُونَ»: إن يتخذك يا محمد هؤلاء القائلون لك: هل هذا إلا بشر مثلكم، أفتأتون السحر وأنتم تبصرون، إذ رأوك هُزُوا ويقولون: هذا الذي يذكر آلهتكم كفرا منهم بالله، واجتراء عليه. فلقد استهزىء برسل من رسلنا الذين أرسلناهم من قبلك إلى أممهم، يقول: فوجب ونزل بالذين استهزءوا بهم، وسخروا منهم من أممهم «ما كَانُوا به يَسْتْهِزءُونَ» يقول جلّ ثناؤه: حلّ بهم الذي كانوا به يستهزءون من البلاء والعذاب الذي كانت رسلهم تخوّفهم نزوله بهم، يستهزءون: يقول جلّ ثناؤه، فلن يعدو هؤلاء المستهزءون بك من هؤلاء الكفرة أن يكونوا كأسلافهم من الأمم المكذّبة رسلها، فينزل بهم من عذاب الله وسخطه باستهزائهم بك نظير الذي نزل بهم.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=21&tAyahNo=41&tDisplay=yes&UserProfile=0&LanguageId=1

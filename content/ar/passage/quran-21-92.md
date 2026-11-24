@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-7-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن هذه ملتكم ملة واحدة وأن الله ربكم فاعبدوه دون الآلهة والأوثان، وينقل عن ابن عباس أن المراد دينكم دين واحد، وعن مجاهد مثله. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=21&tAyahNo=92&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «إِنَّ هَٰذِهِ أُمَّتُكُمْ أُمَّةً وَاحِدَةً وَأَنَاْ رَبُّكُمْ فَٱعْبُدُونِ»: إن هذه مِلتكم ملة واحدة، وأنا ربكم أيها الناس فاعبدون دون الآلهة والأوثان وسائر ما تعبدون من دوني. وينقل في المقطع أقوالاً عن ابن عباس ومجاهد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=21&tAyahNo=92&tDisplay=yes&UserProfile=0&LanguageId=1

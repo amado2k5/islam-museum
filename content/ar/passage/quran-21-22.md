@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-6-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إنه لو كان في السماوات والأرض آلهة إلا الله لفسدتا، أي لفسد أهلهما، فتنزيه الله رب العرش عما يصفون. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=21&tAyahNo=22&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «لَوْ كَانَ فِيهِمَآ آلِهَةٌ إِلاَّ ٱللَّهُ لَفَسَدَتَا فَسُبْحَانَ ٱللَّهِ رَبِّ ٱلْعَرْشِ عَمَّا يَصِفُونَ»: لو كان في السموات والأرض آلهة تصلح لهم العبادة سوى الله الذي هو خالق الأشياء، وله العبادة والألوهة التي لا تصلح إلا له «لَفَسَدَتا» يقول: لفسد أهل السموات والأرض. «فَسُبْحانَ اللَّهِ رَبّ العَرْشِ عَمَّا يَصِفُونَ» يقول جلّ ثناؤه: فتنزيه لله وتبرئة له مما يفتري به عليه هؤلاء المشركون به من الكذب. كما: وعن قَتادة، قوله: «لَوْ كانَ فِيهِما آلِهَةٌ إلاَّ اللَّهُ لَفَسَدَتا فَسُبْحانَ اللَّهِ رَبّ العَرْشِ عَمَّا يَصِفُونَ» يسبح نفسه إذا قيل عليه البهتان.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=21&tAyahNo=22&tDisplay=yes&UserProfile=0&LanguageId=1

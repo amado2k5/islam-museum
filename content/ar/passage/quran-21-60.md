@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-7-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن بعضهم دلّ عليه بأنهم سمعوا فتى يذكر الآلهة بالعيب يقال له إبراهيم، فكان ذلك من غير علم منهم بفاعل معيّن، وعنوا به أنه المتّهم الأول. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=21&tAyahNo=60&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 59 إلى 61 مقطعاً واحداً. يفسّر قوله «قَالُواْ سَمِعْنَا فَتًى يَذْكُرُهُمْ يُقَالُ لَهُ إِبْرَاهِيمُ»: قال الذين سمعوه يقول«وَتاللَّهِ لأَكِيدَنَّ أصْنامَكُمْ بَعْدَ أنْ تُوَلُّوا مُدْبِرِينَ» سمعنا فتى يذكرهم بعيب يقال له إبراهيم. كما: قال: ثني حجاج، عن ابن جُرَيج: «قالُوا سَمِعْنا فَتًى يَذْكُرُهُمْ» قال ابن جُرَيج: يذكرهم يعيبهم. عن ابن إسحاق، قوله: «سَمَعْنا فَتَىً يَذْكُرُهُمْ يُقالُ لَهُ إبْرَاهِيمُ» سمعناه يسبّها ويعيبها ويستهزىء بها، لم نسمع أحدا يقول ذلك غيره، وهو الذي نظن صنع هذا بها. وينقل في المقطع أقوالاً عن قتادة وابن إسحاق.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=21&tAyahNo=60&tDisplay=yes&UserProfile=0&LanguageId=1

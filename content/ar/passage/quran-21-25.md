@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-7-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يذكر الطبري أن كل رسول أُرسل إلى أمة من الأمم أُوحي إليه أنه لا معبود تصلح له العبادة سوى الله، فعليهم أن يخلصوا له العبادة ويفردوه بالألوهية. وينقل عن قتادة أن الرسل أُرسلت بالإخلاص والتوحيد، ولا يُقبل من أحد عمل حتى يقرّ بذلك. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=21&tAyahNo=25&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَمَآ أَرْسَلْنَا مِن قَبْلِكَ مِن رَّسُولٍ إِلاَّ نُوحِيۤ إِلَيْهِ أَنَّهُ لاۤ إِلَٰهَ إِلاَّ أَنَاْ فَٱعْبُدُونِ»: وما أرسلنا يا محمد من قبلك من رسول إلى أمة من الأمم إلا نوحي إليه أنه لا معبود في السموات والأرض تصلح العبادة له سواي «فاعْبُدُونِ» يقول: فأخلصوا لي العبادة، وأفردوا لي الألوهة. وينقل في المقطع أقوالاً عن قتادة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=21&tAyahNo=25&tDisplay=yes&UserProfile=0&LanguageId=1

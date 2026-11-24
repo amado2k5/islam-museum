@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-7-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن الله لا يُسأل عمّا يفعل بخلقه من تصريف في الحياة والموت والإعزاز والإذلال، لأنهم خلقه وعبيده وهم في ملكه وسلطانه، ولا شيء فوقه يحاسبه. أما العباد فهم مسؤولون عن أعمالهم ومحاسَبون عليها، والله هو الذي يسألهم ويحاسبهم. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=21&tAyahNo=23&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «لاَ يُسْأَلُ عَمَّا يَفْعَلُ وَهُمْ يُسْأَلُونَ»: لا سائل يسأل ربّ العرش عن الذي يفعل بخلقه من تصريفهم فيما شاء من حياة وموت وإعزاز وإذلال وغير ذلك من حكمه فيهم لأنهم خلقه وعبيده، وجميعهم في ملكه وسلطانه، والحكم حكمه، والقضاء قضاؤه، لا شيء فوقه يسأله عما يفعل فيقول له لم فعلت؟ ولمَ لم تفعل؟ «وَهُمْ يُسْئَلُونَ» يقول جلّ ثناؤه: وجميع من في السموات والأرض من عباده مسؤولون عن أفعالهم، ومحاسبون على أعمالهم، وهو الذي يسألهم عن ذلك ويحاسبهم عليه لأنه فوقهم ومالكهم، وهم في سلطانه. وينقل في المقطع أقوالاً عن قتادة وابن جريج.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=21&tAyahNo=23&tDisplay=yes&UserProfile=0&LanguageId=1

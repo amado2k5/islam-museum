@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-6-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن الله لو أراد أن يتخذ لهواً لاتخذه من لدنه لو كان فاعلاً، وأنه لا ينبغي له أن يكون له ولد ولا صاحبة. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=21&tAyahNo=17&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «لَوْ أَرَدْنَآ أَن نَّتَّخِذَ لَهْواً لاَّتَّخَذْنَاهُ مِن لَّدُنَّآ إِن كُنَّا فَاعِلِينَ»: لو أردنا أن نتخذ زوجة وولدا لاتخذنا ذلك من عندنا، ولكنا لا نفعل ذلك، ولا يصلح لنا فعله ولا ينبغي لأنه لا ينبغي أن يكون لله ولد ولا صاحبة. وينقل في المقطع أقوالاً عن مجاهد والحسن.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=21&tAyahNo=17&tDisplay=yes&UserProfile=0&LanguageId=1

@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-7-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يذكر الطبري أن المراد التي أحصنت فرجها هي مريم بنت عمران، وأن الإحصان الحفظ والمنع مما حرّم الله، ويعرض الخلاف: قيل حفظت فرجها من الفاحشة، وقيل إن المراد جيب درعها حين منعت جبريل منه قبل أن تعرف أنه رسول ربها. ونفخ الله فيها من روحه وجعلها وابنها آية للعالمين. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=21&tAyahNo=91&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَٱلَّتِيۤ أَحْصَنَتْ فَرْجَهَا فَنَفَخْنَا فِيهَا مِن رُّوحِنَا وَجَعَلْنَاهَا وَٱبْنَهَآ آيَةً لِّلْعَالَمِينَ»: واذكر التي أحصنت فرجها، يعني مريم بنت عمران. ويعني بقوله: «أحْصَنَتْ»: حفظت، ومنعت فرجها مما حرّم الله عليها إباحته فيه. واختُلف في الفرّج الذي عنى الله جلّ ثناؤه أنها أحصنته، فقال بعضهم: عَنَى بذلك فَرْجَ نفسها أنها حفظته من الفاحشة. وقال آخرون: عَنَى بذلك جيب درعها أنها منعت جبرئيل منه قبل أن تعلم أنه رسول ربها وقبل أن تثبته معرفة. قالوا: والذي يدلّ على ذلك قوله: «فَنَفَخْنا فِيها» ويعقب ذلك قوله: «والَّتِي أحْصَنَتْ فَرْجَها» قالوا: وكان معلوما بذلك أن معنى الكلام: والتي أحصنت جيبها «فَنَفَخْنا فِيها مِنْ رُوحِنا».
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=21&tAyahNo=91&tDisplay=yes&UserProfile=0&LanguageId=1

@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-7-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يذكر الطبري أن المراد بفتح يأجوج ومأجوج فتح ردمهما، وهما أمتان من الأمم. ويورد روايات في علامات الساعة، منها رواية عن حذيفة بن اليمان في أول الآيات، ويذكر خروجهما وانتشارهم من كل حدب ينسلون. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=21&tAyahNo=96&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «حَتَّىٰ إِذَا فُتِحَتْ يَأْجُوجُ وَمَأْجُوجُ وَهُمْ مِّن كُلِّ حَدَبٍ يَنسِلُونَ»: حتى إذا فُتح عن يأجوج ومأجوج، وهما أمَّتان من الأمم ردمهما كما: ثني أبي، وعن رِبْعِيّ بن حِرَاش، قال: سمعت حُذيفة بن اليمان يقول: قال رسول الله: " أوَّلُ الآياتِ: الدَّجَّالُ، وَنُزُولُ عِيسَى، وَنارٌ تَخْرُجُ مِنْ قَعْرِ عَدَنِ أبْيَنَ، تَسُوق النَّاسَ إلى المَحْشَرِ، تَقِيلُ مَعَهُمْ إذَا قالُوا. وينقل في المقطع أقوالاً عن الربيع.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=21&tAyahNo=96&tDisplay=yes&UserProfile=0&LanguageId=1

@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-7-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن زكريا نادى ربه وحيداً لا ولد له ولا عقب فسأل وارثاً من آل يعقوب، وردّ الأمر إلى الله فقال وأنت خير الوارثين. فاستجاب له ووهب له يحيى ولداً ووارثاً. ويعرض في الصلاح أقوال أهل التأويل، منها أن امرأته كانت عقيماً فأصلحها. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=21&tAyahNo=89&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 89 إلى 90 مقطعاً واحداً. يفسّر قوله «وَزَكَرِيَّآ إِذْ نَادَىٰ رَبَّهُ رَبِّ لاَ تَذَرْنِي فَرْداً وَأَنتَ خَيْرُ ٱلْوَارِثِينَ»: واذكر يا محمد زكريا حين نادى ربه «رَبّ لا تَذَرْنِي» وحيداً «فَرْداً» لا ولد لي ولا عَقِب «وأنْتَ خَيْرُ الوَارِثِينَ» يقول: فارزقني وارثاً من آل يعقوب يرثني. ثم ردّ الأمر إلى الله فقال: «وأنْتَ خَيْرُ الوَارِثِينَ» يقول الله جلّ ثناؤه: فاستجبنا لزكريا دعاءه، ووهبنا له يحيى ولداً ووارثاً يرثه، «وأصلحنا له زوجه». واختلف أهل التأويل في معنى الصلاح الذي عناه الله جلّ ثناؤه بقوله: «وأصْلَحْنا لَهُ زَوْجَه» فقال بعضهم: كانت عقيماً فأصلحها بأن جعلها وَلُوداً. وينقل في المقطع أقوالاً عن ابن عباس وقتادة وابن زيد وابن جريج والأعمش.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=21&tAyahNo=89&tDisplay=yes&UserProfile=0&LanguageId=1

@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-7-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن الذكر الذي أُوتيه موسى وهارون هو للمتقين الذين يخافون ربهم بالغيب، فيحافظون على حدوده وفرائضه خشيةً من عقابه في الآخرة، ويشفقون من الساعة ويحذرون أن تقوم عليهم وقد فرّطوا في الواجب عليهم. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=21&tAyahNo=49&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «ٱلَّذِينَ يَخْشَوْنَ رَبَّهُمْ بِٱلْغَيْبِ وَهُمْ مِّنَ ٱلسَّاعَةِ مُشْفِقُونَ»: آتينا موسى وهارون الفرقان الذِّكْر الذي آتيناهما للمتقين الذين يخافون ربهم بالغيب، يعني في الدنيا أن يعاقبهم في الآخرة إذا قدموا عليه بتضييعهم ما ألزمهم من فرائضه فهم من خشيته يحافظون على حدوده وفرائضه، وهم من الساعة التي تقوم فيها القيامة مشفقون، حذرون أن تقوم عليهم، فيردوا على ربهم قد فرّطوا في الواجب عليهم لله، فيعاقبهم من العقوبة بما لا قِبَل لهم به.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=21&tAyahNo=49&tDisplay=yes&UserProfile=0&LanguageId=1

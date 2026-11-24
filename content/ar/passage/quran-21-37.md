@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-7-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يذكر الطبري أن الإنسان، ويعني آدم، خُلق من عجل، ويعرض اختلاف أهل التأويل: منهم من قال إنه عجِل في بنيته وخلقته، ومنهم من روى أن الله لما نفخ فيه الروح أراد أن ينهض قبل تمام خلقه. ثم يبيّن أن الله سيريهم آياته فلا يستعجلون. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=21&tAyahNo=37&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 37 إلى 38 مقطعاً واحداً. يفسّر قوله «خُلِقَ ٱلإنْسَانُ مِنْ عَجَلٍ سَأُوْرِيكُمْ آيَاتِي فَلاَ تَسْتَعْجِلُونِ»: «خُلِقَ الإنْسانُ» يعني آدم «مِنْ عَجَلٍ». واختلف أهل التأويل في تأويله، فقال بعضهم: معناه: من عَجَل في بنيته وخلقته كان من العجلة، وعلى العجلة. وينقل في المقطع أقوالاً عن مجاهد وقتادة وابن زيد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=21&tAyahNo=37&tDisplay=yes&UserProfile=0&LanguageId=1

@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-7-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يذكر الطبري أن الناس يوم ترونها تذهل كل مرضعة عما أرضعت وتضع كل ذات حمل حملها، ويُرون سكارى وما هم بسكارى، أي من هول ما يرون، ولكن عذاب الله شديد، وينقل الاختلاف في وقت ذلك: في الدنيا أم عند النفخ في الصور. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=22&tAyahNo=2&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 2 إلى 3 مقطعاً واحداً. يفسّر قوله «يٰأَيُّهَا ٱلنَّاسُ ٱتَّقُواْ رَبَّكُمْ إِنَّ زَلْزَلَةَ ٱلسَّاعَةِ شَيْءٌ عَظِيمٌ»: قال أبو جعفر: يقول تعالى ذكره: يا أيها الناس احذروا عقاب ربكم بطاعته، فأطيعوه ولا تعصُوه، فإن عقابه لمن عاقبه يوم القيامة شديد. ثم وصف جلّ ثناؤه هول أشراط ذلك اليوم وبدوّه، فقال: «إنَّ زَلْزَلَةَ السَّاعَةٍ شَيْءٌ عَظِيمٌ». واختلف أهل العلم في وقت كون الزلزلة التي وصفها جلّ ثناؤه بالشدّة، فقال بعضهم: هي كائنة في الدنيا قبل يوم القيامة. وينقل في المقطع أقوالاً عن الأعمش وإبراهيم وعطاء.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=22&tAyahNo=2&tDisplay=yes&UserProfile=0&LanguageId=1

@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-6-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يوضح الطبري أن الله ما خلق السماء والأرض وما بينهما لاعبين، بل حجة على الناس ليعتبروا فيعلموا أن لا إله غيره. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=21&tAyahNo=16&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَمَا خَلَقْنَا ٱلسَّمَآءَ وَٱلأَرْضَ وَمَا بَيْنَهُمَا لَٰعِبِينَ»: «ومَا خَلَقْنَا السَّماءَ والأرْض ومَا بَيْنَهُما» إلا حجة عليكم أيها الناس، ولتعتبروا بذلك كله، فتعلموا أن الذي دبره وخلقه لا يشبهه شيء، وأنه لا تكون الألوهة إلا له، ولا تصلح العبادة لشيء غيره، ولم يَخْلق ذلك عبثا ولعبا. كما: وعن قتادة، قوله: «وَما خَلَقْنا السَّماءَ والأرْضَ ومَا بَيْنَهُما لاعِبِينِ» يقول: ما خلقناهما عَبَثا ولا باطلاً. وينقل في المقطع أقوالاً عن قتادة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=21&tAyahNo=16&tDisplay=yes&UserProfile=0&LanguageId=1

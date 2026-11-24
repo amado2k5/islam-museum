@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-7-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يذكر الطبري أن قوم إبراهيم لما رأوا آلهتهم قد جُذّت قالوا: من فعل هذا بآلهتنا؟ إنه لمن الظالمين، أي الفاعلين بها ما لم يكن له فعله. وقال الذين سمعوه: سمعنا فتى يذكرهم يقال له إبراهيم، أي يعيبهم، كما رُوي عن ابن جريج. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=21&tAyahNo=59&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 59 إلى 61 مقطعاً واحداً. يفسّر قوله «قَالُواْ مَن فَعَلَ هَٰذَا بِآلِهَتِنَآ إِنَّهُ لَمِنَ ٱلظَّالِمِينَ»: قال قوم إبراهيم لما رأوا آلهتهم قد جُذَّت، إلا الذي رَبَط به الفأسَ إبراهيم: من فعل هذا بآلهتنا؟ إن الذي فعل هذا بآلهتنا لمن الظالمين أي لمن الفاعلين بها ما لم يكن له فعله. وينقل في المقطع أقوالاً عن قتادة وابن إسحاق.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=21&tAyahNo=59&tDisplay=yes&UserProfile=0&LanguageId=1

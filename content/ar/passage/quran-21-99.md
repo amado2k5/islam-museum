@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-7-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن المشركين وما يعبدون واردو جهنم، ولو كانت آلهة ما وردوها بل منعت من أراد أن يوردهم إياها، لكنها لا تنفع نفسها ولا تدفع عنها ضراً، وكلهم خالدون فيها، فاستدلّ بذلك على بطلان ألوهيتها. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=21&tAyahNo=99&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «لَوْ كَانَ هَٰؤُلاۤءِ آلِهَةً مَّا وَرَدُوهَا وَكُلٌّ فِيهَا خَالِدُونَ»: يقول تعالى ذكره لهؤلاء المشركين الذين وصف صفتهم أنهم ما يأتيهم من ذكر من ربهم محدث إلا استمعوه وهم يلعبون، وهم مشركو قريش: أنتم أيها المشركون، وما تعبدون من دون الله واردو جهنم، ولو كان ما تعبدون من دون الله آلهة ما وردوها، بل كانت تمنع من أراد أن يوردكموها إذ كنتم لها في الدنيا عابدين، ولكنها إذ كانت لا نفع عندها لأنفسها ولا عندها دفع ضرّ عنها، فهي من أن يكون ذلك عندها لغيرها أبعد، ومن كان كذلك كان بينا بعده من الألوهة، وأن الإله هو الذي يقدر على ما يشاء ولا يقدر عليه شيء، فأما من كان مقدورا عليه فغير جائز أن يكون إلها. وينقل في المقطع أقوالاً عن ابن زيد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=21&tAyahNo=99&tDisplay=yes&UserProfile=0&LanguageId=1
