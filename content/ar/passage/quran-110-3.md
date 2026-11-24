@@ -3,6 +3,11 @@ id: passage/quran-110-3
 lang: ar
 source_lang: ar
 translators: []
+provenance:
+  generated_by: "Claude Code (Sonnet 5.5 session)"
+  model: claude-sonnet-5-5
+  run: altafsir-tabari-batch-13-2026-11-24
+  source: source/altafsir-tabari
 ---
 
 ## موجز
@@ -10,3 +15,7 @@ translators: []
 
 ## موضعها
 موضعها: الآية 3 من أصل 3 آية في السورة. النص محفوظ من مصحف تنزيل المجمّد ولا يُعاد كتابته هنا.
+
+## تفسير الطبري
+
+يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل [[passage/quran-110-1|110:1]] إلى [[passage/quran-110-3|110:3]]، وخلاصتها: يروي حديث عائشة أن النبي كان يكثر من قول سبحان الله وبحمده وأستغفر الله وأتوب إليه، لعلامة أخبره بها ربه فرآها في فتح مكة ودخول الناس في الدين أفواجاً. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=110&tAyahNo=3&tDisplay=yes&UserProfile=0&LanguageId=1
