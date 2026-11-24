@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-12-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل الآيات [[passage/quran-68-26|68:26]] إلى [[passage/quran-68-28|68:28]]، وخلاصتها: يبيّن الطبري أنهم لما بلغوا الجنة ورأوها محترقاً حرثها أنكروها، فقال بعضهم ظناً أنهم أخطأوا الطريق إنا لضالون عن جنتنا، ويروي عن قتادة أن المعنى أضللنا الطريق. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=68&tAyahNo=26&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 26 إلى 28 مقطعاً واحداً. يفسّر قوله «فَلَمَّا رَأَوْهَا قَالُوۤاْ إِنَّا لَضَآلُّونَ»: فلما صار هؤلاء القوم إلى جنتهم، ورأوها محترقاً حرثها، أنكروها وشكوا فيها، هل هي جنتهم أم لا؟ فقال بعضهم لأصحابه ظناً منه أنهم قد أغفلوا طريق جنتهم، وأن التي رأوا غيرها: إنا أيها القوم لضالون طريق جنتنا، فقال من علم أنها جنتهم، وأنهم لم يخطئوا الطريق: بل نحن أيها القوم محرومون، حُرِمنا منفعة جنتنا بذهاب حرثها. وينقل في المقطع أقوالاً عن ابن عباس ومجاهد وقتادة وإبراهيم وسفيان.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=68&tAyahNo=26&tDisplay=yes&UserProfile=0&LanguageId=1

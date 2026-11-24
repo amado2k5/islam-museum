@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-12-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل الآيات [[passage/quran-68-40|68:40]] إلى [[passage/quran-68-41|68:41]]، وخلاصتها: يشرح الطبري أن الآية تسأل هل لهم شركاء فيما يزعمون، وإن كان كذلك فليأتوا بشركائهم إن كانوا صادقين فيما يدّعون. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=68&tAyahNo=41&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 40 إلى 41 مقطعاً واحداً. يفسّر قوله «أَمْ لَهُمْ شُرَكَآءُ فَلْيَأتُواْ بِشُرَكَآئِهِمْ إِن كَانُواْ صَادِقِينَ»: ألهؤلاء القوم شركاء فيما يقولون ويصفون من الأمور التي يزعمون أنها لهم، فليأتوا بشركائهم في ذلك إن كانوا فيما يدّعون من الشركاء صادقين. وينقل في المقطع أقوالاً عن ابن عباس وقتادة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=68&tAyahNo=41&tDisplay=yes&UserProfile=0&LanguageId=1

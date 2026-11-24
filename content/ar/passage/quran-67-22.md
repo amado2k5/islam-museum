@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-11-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن الله يقول: أفمن يمشي مكبّاً على وجهه لا يبصر ما بين يديه أهدى أي أشد استقامة على الطريق، أم من يمشي سوياً على صراط مستقيم أي طريق لا اعوجاج فيه، ويذكر وجه قوله «مكباً» في العربية. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=67&tAyahNo=22&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «أَفَمَن يَمْشِي مُكِبّاً عَلَىٰ وَجْهِهِ أَهْدَىٰ أَمَّن يَمْشِي سَوِيّاً عَلَى صِرَاطٍ مُّسْتَقِيمٍ»: «أَفَمَنْ يَمْشِي» أيها الناس «مُكِبًّا على وَجْهِهِ» لا يبصر ما بين يديه، وما عن يمينه وشماله «أهْدَى»: أشدّ استقامة على الطريق، وأهدى له، «أمْ مَنْ يَمْشِي سَويًّا» مَشْيٍ بني آدم على قدميه «على صِرَاطٍ مُسْتَقِيمٍ» يقول: على طريق لا اعوجاج فيه وقيل «مُكِبًّا» لأنه فعل غير واقع، وإذا لم يكن واقعاً أدخلوا فيه الألف، فقالوا: أكبّ فلان على وجهه، فهو مكبّ ومنه قول الأعشي:مُكبّاً عَلى رَوْقَيْه يحْفِرُ عِرْقَها عَلَى ظَهْر عُرْيان الطَّرِيقةِ أهْيَما فقال: مكباً، لأنه فعل غير واقع، فإذا كان واقعا حُذفت منه الألف، فقيل: كببت فلاناً على وجهه وكبَّه الله على وجهه. وينقل في المقطع أقوالاً عن ابن عباس ومجاهد وقتادة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=67&tAyahNo=22&tDisplay=yes&UserProfile=0&LanguageId=1

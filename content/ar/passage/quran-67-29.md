@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-11-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن الله يأمر نبيه أن يقول: هو الرحمن آمنا به أي صدّقنا به، وعليه توكلنا أي اعتمدنا عليه في أمورنا ووثقنا به، فستعلمون أيها المشركون من هو في ضلال مبين أي في ذهاب عن الحق، منا ومنكم. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=67&tAyahNo=29&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «قُلْ هُوَ ٱلرَّحْمَٰنُ آمَنَّا بِهِ وَعَلَيْهِ تَوَكَّلْنَا فَسَتَعْلَمُونَ مَنْ هُوَ فِي ضَلاَلٍ مُّبِينٍ»: قل يا محمد: ربنا «الرَّحْمَنُ آمَنَّا بِهِ» يقول: صدّقنا به «وَعَلَيْهِ تَوَكَّلْنا» يقول: وعليه اعتمدنا في أمورنا، وبه وثقنا فيها «فَسَتَعْلَمُونَ مَنْ هُوَ فِي ضَلالٍ مُبِينٍ» يقول: فستعلمون أيها المشركون بالله الذي هو في ذهاب عن الحقّ، والذي هو على غير طريق مستقيم منا ومنكم إذا صرنا إليه، وحشرنا جميعاً.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=67&tAyahNo=29&tDisplay=yes&UserProfile=0&LanguageId=1

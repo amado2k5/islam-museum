@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-12-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل الآيات [[passage/quran-68-34|68:34]] إلى [[passage/quran-68-36|68:36]]، وخلاصتها: يبيّن الطبري أن في الآية إنكاراً على من يجعل المطيع والعاصي في الكرامة سواء، فللمطيع الكرامة الدائمة وللعاصي الهوان الباقي. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=68&tAyahNo=36&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 34 إلى 36 مقطعاً واحداً. يفسّر قوله «مَا لَكُمْ كَيْفَ تَحْكُمُونَ»: أتجَعلون المطيع لله من عبيده، والعاصي له منهم في كرامته سواء. يقول جلّ ثناؤه: لا تسوّوا بينهما فإنهما لا يستويان عند الله، بل المطيع له الكرامة الدائمة، والعاصي له الهوان الباقي.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=68&tAyahNo=36&tDisplay=yes&UserProfile=0&LanguageId=1

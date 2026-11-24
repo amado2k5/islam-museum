@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-11-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن الله يسأل مشركي قريش: من هذا الذي هو جند لكم ينصركم من دون الرحمن إن أراد بكم سوءاً، وما الكافرون إلا في غرور من ظنهم أن آلهتهم تقرّبهم إلى الله زلفى وأنها تنفع أو تضر. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=67&tAyahNo=20&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «أَمَّنْ هَٰذَا ٱلَّذِي هُوَ جُندٌ لَّكُمْ يَنصُرُكُمْ مِّن دُونِ ٱلرَّحْمَٰنِ إِنِ ٱلْكَافِرُونَ إِلاَّ فِي غُرُورٍ»: للمشركين به من قريش: من هذا الذي هو جند لكم أيها الكافرون به، ينصركم من دون الرحمن إن أراد بكم سوءاً، فيدفع عنكم ما أراد بكم من ذلك «إن الكافِرونَ إلاَّ فِي غُرُور» يقول تعالى ذكره: ما الكافرون بالله إلا في غرور من ظنهم أن آلهتهم تقرّبهم إلى الله زلفى، وأنها تنفع أو تضرّ.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=67&tAyahNo=20&tDisplay=yes&UserProfile=0&LanguageId=1

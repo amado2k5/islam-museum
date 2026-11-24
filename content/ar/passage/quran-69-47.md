@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-12-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل الآيات [[passage/quran-69-47|69:47]] إلى [[passage/quran-69-52|69:52]]، وخلاصتها: يبيّن الطبري أنه ما من أحد منكم يحجز الله عن عقوبة محمد لو تقوّل، ويشرح مجيء حاجزين بصيغة الجمع لأن أحداً في المعنى يشمل الجمع. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=69&tAyahNo=47&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 47 إلى 52 مقطعاً واحداً. يفسّر قوله «فَمَا مِنكُمْ مِّنْ أَحَدٍ عَنْهُ حَاجِزِينَ»: فما منكم أيها الناس من أحد عن محمد لو تقوّل علينا بعض الأقاويل، فأخذنا منه باليمين، ثم لقطعنا منه الوتين، حاجزين يحجزوننا عن عقوبته، وما نفعله به. وقيل: حاجزين، فجمع، وهو فعل لأحد، وأحد في لفظ واحد ردّاً على معناه، لأن معناه الجمع، والعرب تجعل أحداً للواحد والاثنين والجمع، كما قيل«لا نُفَرِّقُ بَينَ أحَدٍ مِنْ رُسُلِهِ» وبين: لا تقع إلا على اثنين فصاعداً. وقوله: وينقل في المقطع أقوالاً عن قتادة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=69&tAyahNo=47&tDisplay=yes&UserProfile=0&LanguageId=1

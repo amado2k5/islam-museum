@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-11-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن الله زيّن السماء الدنيا بمصابيح وهي النجوم، وجعلها رجوماً للشياطين تُرجم بها، ويروي عن قتادة في ذلك، وأعتد لهم عذاب السعير. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=67&tAyahNo=5&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَلَقَدْ زَيَّنَّا ٱلسَّمَآءَ ٱلدُّنْيَا بِمَصَٰبِيحَ وَجَعَلْنَٰهَا رُجُوماً لِّلشَّيَٰطِينِ وَأَعْتَدْنَا لَهُمْ عَذَابَ ٱلسَّعِيرِ»: «وَلَقَدْ زَيَّنا السَّماءَ الدُّنْيَا بِمَصَابِيحَ» وهي النجوم، وجعلها مصابيح لإضاءتها، وكذلك الصبح إنما قيل له صبح للضوء الذي يضيء للناس من النهار «وَجَعلْناها رُجُوماً للشَّياطِينِ» يقول: وجعلنا المصابيح التي زيَّنا بها السماء الدنيا رجوماً للشياطين تُرْجم بها. وقد: وعن قتادة «وَلَقَدْ زَيَّنا السَّماءَ الدُّنْيا بِمَصَابِيحَ وَجَعَلْناها رُجُوماً للشَّاطِينِ» إن الله جلّ ثناؤه إنما خلق هذه النجوم لثلاث خصال: خلقها زينة للسماء الدنيا، ورجوماً للشياطين، وعلامات يهتدي بها فمن يتأوّل منها غير ذلك، فقد قال برأيه، وأخطأ حظه، وأضاع نصيبه، وتكلَّف ما لا علم له به. وينقل في المقطع أقوالاً عن قتادة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=67&tAyahNo=5&tDisplay=yes&UserProfile=0&LanguageId=1

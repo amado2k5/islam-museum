@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-11-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن ما بيّنه من حكم الطلاق والرجعة والعدة هو أمر الله الذي أنزله ليأتمروا له ويعملوا به، ومن يتق الله باجتناب المعاصي وأداء الفرائض يكفّر عنه سيئاته ويعظم له أجراً أي يجزل له ثوابه. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=65&tAyahNo=5&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «ذَلِكَ أَمْرُ ٱللَّهِ أَنزَلَهُ إِلَيْكُمْ وَمَن يَتَّقِ ٱللَّهَ يُكَفِّرْ عَنْهُ سَيِّئَاتِهِ وَيُعْظِمْ لَهُ أَجْراً»: هذا الذي بيَّنت لكم من حكم الطلاق والرجعة والعدّة، أمر الله الذي أمركم به، أنزله إليكم أيها الناس، لتأتمروا له، وتعملوا به. وقوله: «وَمَنْ يَتَّقِ اللَّهَ يُكَفِّرْ عَنْهُ سَيِّئاتِهِ» يقول: ومن يخف الله فيتقه باجتناب معاصيه، وأداء فرائضه، يمح الله عنه ذنوبه وسيئات أعماله «وَيُعْظِمْ لَهُ أجْراً» يقول: ويجزل له الثواب على عمله ذلك وتقواه، ومن إعظامه له الأجر عليه أن يُدخله جنته، فيخلده فيها.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=65&tAyahNo=5&tDisplay=yes&UserProfile=0&LanguageId=1

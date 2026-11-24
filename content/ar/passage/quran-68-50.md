@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-12-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل الآيات [[passage/quran-68-50|68:50]] إلى [[passage/quran-68-52|68:52]]، وخلاصتها: يبيّن الطبري أن ربه اصطفاه واختاره لنبوته فجعله من الصالحين، أي من المرسلين العاملين بما أمروا به. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=68&tAyahNo=50&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 50 إلى 52 مقطعاً واحداً. يفسّر قوله «فَٱجْتَبَاهُ رَبُّهُ فَجَعَلَهُ مِنَ ٱلصَّالِحِينَ»: فاجتبى صاحبَ الحوت ربُّه، يعني اصطفاه واختاره لنبوّته «فَجَعَلَهُ منَ الصَّالِحِينَ» يعني من المرسلين العاملين بما أمرهم به ربهم، المنتهين عما نهاهم عنه. وقوله: «وَإنْ يَكادُ الَّذِينَ كَفَرُوا لَيُزْلِقُونَكَ بأبْصَارِهِمْ» يقول جلّ ثناؤه: وإن يكاد الذين كفروا يا محمد يَنْفُذونك بأبصارهم من شدة عداوتهم لك ويزيلونك فيرموا بك عند نظرهم إليك غيظاً عليك. وينقل في المقطع أقوالاً عن ابن عباس ومجاهد وقتادة والكلبي وإبراهيم وعطاء.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=68&tAyahNo=50&tDisplay=yes&UserProfile=0&LanguageId=1

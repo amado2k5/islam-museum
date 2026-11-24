@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-11-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن الله يخاطب نبيه: يا أيها النبي لم تحرّم على نفسك الحلال الذي أحله الله لك تلتمس بذلك مرضاة أزواجك، ويذكر اختلاف أهل العلم في الحلال الذي حرّمه على نفسه؛ فقال بعضهم كان جاريته مارية، ويورد روايات أخرى فيه، والله غفور رحيم. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=66&tAyahNo=1&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «يٰأَيُّهَا ٱلنَّبِيُّ لِمَ تُحَرِّمُ مَآ أَحَلَّ ٱللَّهُ لَكَ تَبْتَغِي مَرْضَاتَ أَزْوَاجِكَ وَٱللَّهُ غَفُورٌ رَّحِيمٌ»: يا أيها النبيّ المحرّم على نفسه ما أحلّ الله له، يبتغي بذلك مرضاة أزواجه، لم تحرّم على نفسك الحلال الذي أحله الله لك، تلتمس بتحريمك ذلك مرضاة أزواجك. واختلف أهل العلم في الحلال الذي كان الله جلّ ثناؤه أحله لرسوله، فحرّمه على نفسه ابتغاء مرضاة أزواجه، فقال بعضهم: كان ذلك مارية مملوكته القبطية، حرّمها على نفسه بيمين أنه لا يقربها طالباً بذلك رضا حفصة بنت عمر زوجته، لأنها كانت غارت بأن خلا بها رسول الله في يومها وفي حجرتها. وينقل في المقطع أقوالاً عن قتادة وابن زيد وزيد بن أسلم.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=66&tAyahNo=1&tDisplay=yes&UserProfile=0&LanguageId=1

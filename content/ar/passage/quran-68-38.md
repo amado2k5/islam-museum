@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-12-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل الآيات [[passage/quran-68-37|68:37]] إلى [[passage/quran-68-39|68:39]]، وخلاصتها: يذكر الطبري أن المراد: هل في ذلك الكتاب أن لكم ما تختارون وتشتهون، فهم يتمنون الأماني الكاذبة. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=68&tAyahNo=38&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 37 إلى 39 مقطعاً واحداً. يفسّر قوله «إِنَّ لَكُمْ فِيهِ لَمَا تَخَيَّرُونَ»: يقول جلّ ثناؤه: إن لكم في ذلك الذي تخيرون من الأمور لأنفسكم، وهذا أمر من الله، توبيخ لهؤلاء القوم وتقريع لهم فيما كانوا يقولون من الباطل، ويتمنون من الأمانيّ الكاذبة. وقوله: «أمْ لَكُمْ» فيه «أيمَانٌ عَلَيْنا بالِغَةٌ إلى يَوْمِ القِيامَةِ» يقول: هل لكم أيمان علينا تنتهي بكم إلى يوم القيامة، بأن لكم ما تحكمون أي بأن لكم حكمكم، ولكن الألف كسرت من «إن» لما دخل في الخبر اللام: أي هل لكم أيمان بأن لكم حكمكم. وينقل في المقطع أقوالاً عن ابن زيد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=68&tAyahNo=38&tDisplay=yes&UserProfile=0&LanguageId=1

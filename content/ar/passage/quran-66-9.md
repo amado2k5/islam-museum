@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-11-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن الله يأمر نبيه أن يجاهد الكفار بالسيف والمنافقين بالوعيد واللسان، ويروي عن قتادة أن الله أمره أن يجاهد الكفار بالسيف والمنافقين بالغلظة، ويغلظ عليهم، ومأواهم جهنم وبئس المصير. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=66&tAyahNo=9&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «يٰأَيُّهَا ٱلنَّبِيُّ جَاهِدِ ٱلْكُفَّارَ وَٱلْمُنَافِقِينَ وَٱغْلُظْ عَلَيْهِمْ وَمَأْوَاهُمْ جَهَنَّمُ وَبِئْسَ ٱلْمَصِيرُ»: يقول تعالى ذكره لنبيه محمد «يا أيُّها النَّبِيُّ جاهِد الكُفَّارَ» بالسيف «وَالمُنافِقينَ» بالوعيد واللسان. وكان قتادة يقول في ذلك ما: وعن قتادة، قوله: «يا أيُّها النَّبِيُّ جاهِدِ الكُفَّارَ والمُنافِقِينَ» قال: أمر الله نبيه أن يجاهد الكفار بالسيف، ويغلظ على المنافقين بالحدود. «وَاغْلُظْ عَلَيْهِمْ» يقول: واشدد عليهم في ذات الله «ومَأْوَاهُمْ جَهَنَّمُ» يقول: ومكثهم جهنم، ومصيرهم الذي يصيرون إليه نار جهنم «وَبِئْسَ المَصِيرُ» قال: وبئس الموضع الذي يصيرون إليه جهنم. وينقل في المقطع أقوالاً عن قتادة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=66&tAyahNo=9&tDisplay=yes&UserProfile=0&LanguageId=1

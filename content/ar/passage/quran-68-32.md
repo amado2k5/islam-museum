@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-12-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل الآيات [[passage/quran-68-32|68:32]] إلى [[passage/quran-68-33|68:33]]، وخلاصتها: يفسّر الطبري رجاءهم أن يبدلهم ربهم خيراً من جنتهم بسبب توبتهم من خطئهم، وأنهم إلى ربهم راغبون في أن يعوضهم عما هلك. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=68&tAyahNo=32&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 32 إلى 33 مقطعاً واحداً. يفسّر قوله «عَسَىٰ رَبُّنَآ أَن يُبْدِلَنَا خَيْراً مِّنْهَآ إِنَّآ إِلَىٰ رَبِّنَا رَاغِبُونَ»: يقول تعالى ذكره مخبراً عن قيل أصحاب الجنة: «عَسَى رَبُّنا أنْ يُبْدِلَنا خَيْراً مِنْها» بتوبتنا من خطأ فعلنا الذي سبق منا خيراً من جنتنا «إنَّا إلى رَبِّنا رَاغِبُونَ» يقول: إنا إلى ربنا راغبون في أن يبدلنا من جنتنا إذ هلَكت خيراً منها. قوله تعالى ذكره «كَذلكَ العَذَابُ» يقول جلّ ثناؤه: كفعلنا بجنة أصحاب الجنة، إذ أصبحت كالصريم بالذي أرسلنا عليها من البلاء والآفة المفسدة، فعلنا بمن خالف أمرنا وكفر برسلنا في عاجل الدنيا، «وَلَعَذَابُ الآخِرَة أكْبَرُ» يعني عقوبة الآخرة بمن عصى ربه وكفر به، أكبر يوم القيامة من عقوبة الدنيا وعذابها. وينقل في المقطع أقوالاً عن ابن عباس وقتادة وابن زيد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=68&tAyahNo=32&tDisplay=yes&UserProfile=0&LanguageId=1

@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-12-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل الآيات [[passage/quran-69-21|69:21]] إلى [[passage/quran-69-24|69:24]]، وخلاصتها: يبيّن الطبري أن من أوتي كتابه بيمينه في عيشة راضية، أي مرضية أو فيها الرضا، ويشرح أن العرب تصف الشيء بالفاعل وهو مفعول لقصد المدح أو الذم. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=69&tAyahNo=21&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 21 إلى 24 مقطعاً واحداً. يفسّر قوله «فَهُوَ فِي عِيشَةٍ رَّاضِيَةٍ»: فالذي وصفت أمره، وهو الذي أوتي كتابه بيمينه، في عيشة مرضية، أو عيشة فيها الرضا، فوصفت العيشة بالرضا وهي مرضية، لأن ذلك مدح للعيشة، والعرب تفعل ذلك في المدح والذمّ فتقول: هذا ليل نائم، وسرّ كاتم، وماء دافق، فيوجهون الفعل إليه، وهو في الأصل مفعول لما يراد من المدح أو الذمّ، ومن قال ذلك لم يجز له أن يقول للضارب مضروب، ولا للمضروب ضارب، لأنه لا مدح فيه ولا ذمّ. وقوله: وينقل في المقطع أقوالاً عن قتادة وابن زيد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=69&tAyahNo=21&tDisplay=yes&UserProfile=0&LanguageId=1

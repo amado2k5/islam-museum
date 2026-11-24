@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-11-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل الآيات [[passage/quran-68-12|68:12]] إلى [[passage/quran-68-13|68:13]]، وخلاصتها: يقول الطبري إن هذا الحلاف مناع للخير أي بخيل بالمال ضنين به عن الحقوق، معتدٍ على الناس أثيم أي ذو إثم بربه، ويروي عن قتادة، وعتلّ بعد ذلك زنيم أي جاف غليظ مع ذلك دعيّ في نسبه. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=68&tAyahNo=12&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 12 إلى 13 مقطعاً واحداً. يفسّر قوله «مَّنَّاعٍ لِّلْخَيْرِ مُعْتَدٍ أَثِيمٍ»: وقوله: «منَّاعٍ لِلْخَيْر». يقول تعالى ذكره: بخيل بالمال ضنين به عن الحقوق. وقوله: «مُعْتَدٍ» يقول: معتد على الناس «أثِيمٍ»: ذي إثم بربه. وينقل في المقطع أقوالاً عن ابن عباس وقتادة والحسن وزيد بن أسلم وسفيان وعطاء.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=68&tAyahNo=12&tDisplay=yes&UserProfile=0&LanguageId=1

@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-11-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن ربّ محمد عسى إن طلّق أزواجه أن يبدله أزواجاً خيراً منهن، وأن الآية نزلت تحذيراً لنسائه لما اجتمعن عليه في الغيرة، ويروي عن أنس بن مالك خبر ذلك، ثم يصف الأزواج بأنهن مسلمات مؤمنات قانتات تائبات عابدات سائحات. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=66&tAyahNo=5&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «عَسَىٰ رَبُّهُ إِن طَلَّقَكُنَّ أَن يُبْدِلَهُ أَزْوَاجاً خَيْراً مِّنكُنَّ مُسْلِمَاتٍ مُّؤْمِنَاتٍ قَانِتَاتٍ تَائِبَاتٍ عَابِدَاتٍ سَائِحَاتٍ ثَيِّبَاتٍ وَأَبْكَاراً»: عسى ربّ محمد إن طلقكنّ يا معشر أزواج محمد أن يبدله منكنّ أزواجاً خيراً منكن. وقيل: إن هذه الآية نزلت على رسول الله تحذيراً من الله نساءه لما اجتمعن عليه في الغيرة. وينقل في المقطع أقوالاً عن قتادة وابن زيد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=66&tAyahNo=5&tDisplay=yes&UserProfile=0&LanguageId=1

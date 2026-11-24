@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-12-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-لا يتضمن النص المحفوظ لهذه الصفحة تعليقاً مستقلاً على هذه الآية؛ إذ ينتهي التعليق المحفوظ عند الآية الثالثة. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=70&tAyahNo=4&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 4 إلى 8 مقطعاً واحداً. يفسّر قوله «سَأَلَ سَآئِلٌ بِعَذَابٍ وَاقِعٍ»: قال أبو جعفر: اختلفت القرّاء في قراءة قوله: «سأَلَ سائِلٌ» فقرأته عامة قرّاء الكوفة والبصرة: «سأَلَ سائِلٌ» بهمز سأل سائل، بمعنى سأل سائل من الكفار عن عذاب الله، بمن هو واقع وقرأ ذلك بعض قرّاء المدينة: «سال سائِلٌ» فلم يهمز سأل، ووجهه إلى أنه فعل من السيل. والذي هو أولى القراءتين بالصواب قراءة من قرأه بالهمز لإجماع الحجة من القرّاء على ذلك، وأن عامة أهل التأويل من السلف بمعنى الهمز تأوّلوه. ذكر من تأوّل ذلك كذلك، وقال تأويله نحو قولنا فيه: ثني أبي، قال: ثني عمي، قال: ثني أبي، عن أبيه، عن ابن عباس، قوله: «سألَ سائِلٌ بعَذَابٍ وَاقِعٍ» قال: ذاك سؤال الكفار عن عذاب الله وهو واقع. وينقل في المقطع أقوالاً عن ابن عباس ومجاهد وقتادة وابن زيد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=70&tAyahNo=4&tDisplay=yes&UserProfile=0&LanguageId=1

@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-12-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل الآيات [[passage/quran-69-19|69:19]] إلى [[passage/quran-69-20|69:20]]، وخلاصتها: يبيّن الطبري أن من أُعطي كتاب أعماله بيمينه يقول للناس: هاؤم اقرؤوا كتابيه، ويروي عن ابن زيد أن معنى هاؤم تعالوا. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=69&tAyahNo=19&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 19 إلى 20 مقطعاً واحداً. يفسّر قوله «فَأَمَّا مَنْ أُوتِيَ كِتَٰبَهُ بِيَمِينِهِ فَيَقُولُ هَآؤُمُ ٱقْرَءُواْ كِتَٰبيَهْ»: فأما من أعطي كتاب أعماله بيمينه، فيقول تعالى «اقْرءَوُا كِتَابِيَهْ»، كما: قال ابن زيد، في قول الله: «هاؤُمُ اقْرَءُوا كِتابِيَهْ» قال: تعالوا. وعن قتادة، قال: كان بعض أهل العلم يقول: وجدت أكيس الناس من قال: «هاؤُمُ اقْرَءُوا كِتابِيَهْ». وقوله: وينقل في المقطع أقوالاً عن ابن عباس ومجاهد وقتادة وابن زيد وسفيان.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=69&tAyahNo=19&tDisplay=yes&UserProfile=0&LanguageId=1

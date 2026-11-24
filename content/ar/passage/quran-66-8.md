@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-11-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن الله يأمر الذين صدّقوا بأن يتوبوا إلى الله أي يرجعوا من ذنوبهم إلى طاعته توبة نصوحاً أي رجوعاً لا يعودون فيه أبداً، ويروي ذلك عن أهل التأويل، عسى ربكم أن يكفّر عنكم سيئاتكم ويدخلكم جنات تجري من تحتها الأنهار. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=66&tAyahNo=8&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «يٰأَيُّهَا ٱلَّذِينَ آمَنُواْ تُوبُوۤاْ إِلَى ٱللَّهِ تَوْبَةً نَّصُوحاً عَسَىٰ رَبُّكُمْ أَن يُكَفِّرَ عَنكُمْ سَيِّئَاتِكُمْ وَيُدْخِلَكُمْ جَنَّاتٍ تَجْرِي مِن تَحْتِهَا ٱلأَنْهَارُ يَوْمَ لاَ يُخْزِى ٱللَّهُ ٱلنَّبِيَّ وَٱلَّذِينَ آمَنُواْ مَعَهُ نُورُهُمْ يَسْعَىٰ بَيْنَ أَيْدِيهِمْ وَبِأَيْمَانِهِمْ يَقُولُونَ رَبَّنَآ أَتْمِمْ لَنَا نُورَنَا وَٱغْفِرْ لَنَآ إِنَّكَ عَلَىٰ كُلِّ شَيْءٍ قَدِيرٌ»: يا أيها الذين صدّقوا الله «تُوبُوا إلى اللَّهِ» يقول: ارجعوا من ذنوبكم إلى طاعة الله، وإلى ما يرضيه عنكم «تَوْبَةً نَصُوحاً» يقول: رجوعاً لا تعودون فيها أبداً. وينقل في المقطع أقوالاً عن ابن عباس ومجاهد والأعمش وسماك وسفيان.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=66&tAyahNo=8&tDisplay=yes&UserProfile=0&LanguageId=1

@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-11-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن الله يقول يوم القيامة للذين جحدوا وحدانيته: لا تعتذروا اليوم إنما تجزون ما كنتم تعملون، أي تُثابون اليوم جزاء أعمالكم فلا تطلبوا المعاذير منها. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=66&tAyahNo=7&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «يٰأَيُّهَا ٱلَّذِينَ كَفَرُواْ لاَ تَعْتَذِرُواْ ٱلْيَوْمَ إِنَّمَا تُجْزَوْنَ مَا كُنتُمْ تَعْمَلُونَ»: يقول تعالى ذكره مخبراً عن قيله يوم القيامة للذين جحدوا وحدانيته في الدنيا «يا أيُّها الَّذِينَ كَفَرُوا» باللَّهِ «لا تَعْتَذِرُوا اليَوْمَ إنَّما تُجْزَوْنَ ما كُنْتُمْ تَعْمَلُونَ» يقول: يقال لهم: إنما تثابون اليوم، وذلك يوم القيامة، وتعطون جزاء أعمالكم التي كنتم في الدنيا تعملون، فلا تطلبوا المعاذير منها.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=66&tAyahNo=7&tDisplay=yes&UserProfile=0&LanguageId=1

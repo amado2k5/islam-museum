@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-12-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل الآيات [[passage/quran-69-16|69:16]] إلى [[passage/quran-69-18|69:18]]، وخلاصتها: يفسّر الطبري انشقاق السماء بأنها تتصدع وتكون واهية، أي منشقة ضعيفة، ويروي عن الضحاك صورة نزول ملائكة السماوات وإحاطتهم بالأرض يوم القيامة. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=69&tAyahNo=16&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 16 إلى 18 مقطعاً واحداً. يفسّر قوله «وَٱنشَقَّتِ ٱلسَّمَآءُ فَهِيَ يَوْمَئِذٍ وَاهِيَةٌ»: وانصدعت السماء «فَهِيَ يَوْمَئِذٍ وَاهِيَةٌ» يقول: منشقة متصدّعة. وينقل في المقطع أقوالاً عن ابن عباس ومجاهد وقتادة وسفيان وعطاء.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=69&tAyahNo=16&tDisplay=yes&UserProfile=0&LanguageId=1

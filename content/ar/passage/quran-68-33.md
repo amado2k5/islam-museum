@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-12-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل الآيات [[passage/quran-68-32|68:32]] إلى [[passage/quran-68-33|68:33]]، وخلاصتها: يشرح الطبري أن هذا العذاب مثل ما أصاب جنتهم، يصيب في الدنيا من خالف أمر الله وكفر برسله، وأن عذاب الآخرة أكبر، ولو علم المشركون ذلك لارتدعوا وتابوا. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=68&tAyahNo=33&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 32 إلى 33 مقطعاً واحداً. يفسّر قوله «كَذَلِكَ ٱلْعَذَابُ وَلَعَذَابُ ٱلآخِرَةِ أَكْبَرُ لَوْ كَانُواْ يَعْلَمُونَ»: يعني بذلك عذاب الدنيا. وعن قتادة، قال: الله: «كَذَلكَ العَذَابُ»: أي عقوبة الدنيا «وَلَعَذَابُ الآخِرَةِ أكْبَرُ لَوْ كانُوا يَعْلَمُونَ». قال ابن زيد، في قوله: «كَذَلكَ العَذَابُ» قال: عذاب الدنيا: هلاك أموالهم: أي عقوبة الدينا. وقوله: «لَوْ كانُوا يَعْلَمُونَ» يقول: لو كان هؤلاء المشركون يعلمون أن عقوبة الله لأهل الشرك به أكبر من عقوبته لهم في الدنيا، لارتدعوا وتابوا وأنابوا، ولكنهم بذلك جهال لا يعلمون. وينقل في المقطع أقوالاً عن ابن عباس وقتادة وابن زيد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=68&tAyahNo=33&tDisplay=yes&UserProfile=0&LanguageId=1

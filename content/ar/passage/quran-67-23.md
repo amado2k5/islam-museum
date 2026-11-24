@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-11-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن الله يأمر نبيه أن يقول للمكذّبين بالبعث من المشركين: الله الذي أنشأكم فخلقكم وجعل لكم السمع تسمعون به والأبصار تبصرون بها والأفئدة تعقلون بها، قليلاً ما تشكرون ربكم على هذه النعم. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=67&tAyahNo=23&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «قُلْ هُوَ ٱلَّذِيۤ أَنشَأَكُمْ وَجَعَلَ لَكُمُ ٱلسَّمْعَ وَٱلأَبْصَارَ وَٱلأَفْئِدَةَ قَلِيلاً مَّا تَشْكُرُونَ»: قل يا محمد للذين يكذّبون بالبعث من المشركين. الله الذي أنشأكم فخلقكم، «وَجَعَلَ لَكُمُ السَّمْعَ» تسمعون به «والأبْصَارَ» تبصرون بها «والأفْئِدَةَ» تعقلون بها «قَلِيلاً ما تَشْكُرُونَ» يقول: قليلاً ما تشكرون ربكم على هذه النعم التي أنعمها عليكم.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=67&tAyahNo=23&tDisplay=yes&UserProfile=0&LanguageId=1

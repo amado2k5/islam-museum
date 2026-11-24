@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-11-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن من أزواج المؤمنين وأولادهم عدواً لهم يصدّونهم عن سبيل الله ويثبّطونهم عن طاعته فليحذروهم أن يقبلوا منهم ترك الطاعة، ويذكر أنها نزلت في قوم أرادوا الإسلام والهجرة فثبّطهم أزواجهم وأولادهم، ويروي الأخبار، ثم يذكر أن من يعفو ويصفح فإن الله غفور رحيم. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=64&tAyahNo=14&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «يٰأَيُّهَا ٱلَّذِينَ آمَنُوۤاْ إِنَّ مِنْ أَزْوَاجِكُمْ وَأَوْلاَدِكُمْ عَدُوّاً لَّكُمْ فَٱحْذَرُوهُمْ وَإِن تَعْفُواْ وَتَصْفَحُواْ وَتَغْفِرُواْ فَإِنَّ ٱللَّهَ غَفُورٌ رَّحِيمٌ»: يا أيها الذين صدّقوا الله ورسوله «إن مِنْ أزْوَاجِكُمْ وأوْلادِكُمْ عَدُوًّا لكُمْ» يَصدّونكم عن سبيل الله، ويثبطونكم عن طاعة الله «فاحْذَرُوهُمْ» أن تقبلوا منهم ما يأمرونكم به من ترك طاعة الله. وذُكر أن هذه الآية نزلت في قوم كانوا أرادوا الإسلام والهجرة، فثَّبطهم عن ذلك أزواجهم وأولادهم. وينقل في المقطع أقوالاً عن ابن عباس وعكرمة وسماك وعطاء.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=64&tAyahNo=14&tDisplay=yes&UserProfile=0&LanguageId=1

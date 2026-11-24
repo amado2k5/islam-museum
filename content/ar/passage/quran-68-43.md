@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-12-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-لا يتضمن النص المحفوظ للصفحة تعليقاً مستقلاً على هذه الآية؛ وفي ختام الفقرة السابقة رواية في سياق الكشف عن ساق تنتهي بأن المنافقين يُقال لهم إنهم كانوا يُدعون إلى السجود وهم سالمون. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=68&tAyahNo=43&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 43 إلى 44 مقطعاً واحداً. يفسّر قوله «يَوْمَ يُكْشَفُ عَن سَاقٍ وَيُدْعَوْنَ إِلَى ٱلسُّجُودِ فَلاَ يَسْتَطِيعُونَ»: يقول تعالى ذكره «يَوْمَ يُكْشَفُ عَنْ ساقٍ» قال جماعة من الصحابة والتابعين من أهل التأويل: يبدو عن أمر شديد. وينقل في المقطع أقوالاً عن ابن عباس ومجاهد وقتادة وسعيد بن جبير وابن جريج وإبراهيم وغيرهم.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=68&tAyahNo=43&tDisplay=yes&UserProfile=0&LanguageId=1

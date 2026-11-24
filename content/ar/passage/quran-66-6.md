@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-11-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن الله ينادي المؤمنين: قوا أنفسكم، أي علّموا بعضكم ما تقون به أنفسكم من النار من طاعة الله واعملوا بها، وأهليكم ناراً أي علّموهم من العمل بطاعة الله ما يقون به أنفسهم من النار، ويروي أقوال أهل التأويل، وعليها ملائكة غلاظ شداد لا يعصون الله. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=66&tAyahNo=6&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «يٰأَيُّهَا ٱلَّذِينَ آمَنُواْ قُوۤاْ أَنفُسَكُمْ وَأَهْلِيكُمْ نَاراً وَقُودُهَا ٱلنَّاسُ وَٱلْحِجَارَةُ عَلَيْهَا مَلاَئِكَةٌ غِلاَظٌ شِدَادٌ لاَّ يَعْصُونَ ٱللَّهَ مَآ أَمَرَهُمْ وَيَفْعَلُونَ مَا يُؤْمَرُونَ»: يا أيها الذين صدّقوا الله ورسوله «قُوا أنْفُسَكُمْ» يقول: علموا بعضكم بعضا ما تقون به من تعلمونه النار، وتدفعونها عنه إذا عمل به من طاعة الله، واعملوا بطاعة الله. وقوله: «وأهْلِيكُمْ ناراً» يقول: وعلموا أهليكم من العمل بطاعة الله ما يقون به أنفسهم من النار. وينقل في المقطع أقوالاً عن ابن عباس ومجاهد وقتادة وسفيان.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=66&tAyahNo=6&tDisplay=yes&UserProfile=0&LanguageId=1
