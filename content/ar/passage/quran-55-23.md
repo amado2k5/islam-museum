@@ -3,6 +3,11 @@ id: passage/quran-55-23
 lang: ar
 source_lang: ar
 translators: []
+provenance:
+  generated_by: "Claude Code (Sonnet 5.5 session)"
+  model: claude-sonnet-5-5
+  run: altafsir-tabari-batch-11-2026-11-24
+  source: source/altafsir-tabari
 ---
 
 ## موجز
@@ -10,3 +15,7 @@ translators: []
 
 ## موضعها
 موضعها: الآية 23 من أصل 78 آية في السورة. النص محفوظ من مصحف تنزيل المجمّد ولا يُعاد كتابته هنا.
+
+## تفسير الطبري
+
+يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل الآيات [[passage/quran-55-22|55:22]] إلى [[passage/quran-55-25|55:25]]، وخلاصتها: يبيّن الطبري أن الله يخرج من البحرين اللؤلؤ والمرجان، واختلف أهل التأويل فيهما؛ فقال بعضهم اللؤلؤ ما عظُم من الدر والمرجان ما صغُر منه، ويروي ذلك عن ابن عباس ومجاهد وقتادة، ثم يذكر أن له الجوار المنشآت في البحر كالأعلام. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=55&tAyahNo=23&tDisplay=yes&UserProfile=0&LanguageId=1
