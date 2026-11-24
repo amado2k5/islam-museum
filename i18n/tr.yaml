@@ -121,8 +121,8 @@ reader:
   lede: Sürekli okunma için Kur'an'ın tam metni, Sure'den Sureye — Donmuş Vahiy metninden ve her ayet müzedeki kartına bir bölüm olarak sunulur.
   index_note: Kur'an sureleri Kur'an sırasına göre düzenlenmiştir; bir sureyi tamamını okumak için tıklayın, içindeki herhangi bir ayete tıklayarak kartını bağlamı ve bağlantılarıyla birlikte açın.
   sura_n: 'Sure: {n}'
-  read_title: '{isim} suresi — Okuma'
-  read_lede: Osmanlı Vahiy metnine göre tam {isim}, {n} ayeti okuyun; her ayet müzede kendi etiketine götürür.
+  read_title: '{name} suresi — Okuma'
+  read_lede: Osmanlı Vahiy metnine göre tam {name}, {n} ayeti okuyun; her ayet müzede kendi etiketine götürür.
   open_ayah: Müzede Kıta kartı {ref}
   map_link: Surenin Tematik Haritası
   revelation_link: Kur'an, vahiy sırasına göre
@@ -180,7 +180,7 @@ hall:
   year_ce: m
   year_go: Git
   year_invalid: Yılı bir sayı olarak yazın, örneğin 656.
-  year_none: Pavyonda henüz MS yüzyılına tarihlenen bir kayıt yoktur.
+  year_none: Pavyonda henüz MS {year} yüzyılına tarihlenen bir kayıt yoktur.
   other_timeline: 'Bütün eksen budur: her giriş yıl yıl tarihlidir. Ve bir karakteri, bir dönemi ya da bir şehri takip etmek için istasyonu açın.'
   promise:
     living: İbadet, bayramlar, yemek, giyim ve müzik
@@ -197,7 +197,7 @@ hall:
   coming: 'Bu süitte şimdiye kadar olanlar şunlar:'
   coming_time: Şimdiye kadar bu pavyonda kronolojik olarak düzenlenmiş olanlar bunlardır; yukarıdaki Hicri zaman haritası bunu tek bir eksende birleştirir.
   empty: Henüz burada bir şey yok. Bu kanat grup büyüdükçe açılıyor.
-  phase: 'Yol haritası: Tüm "{kanat}" kanadı daha sonraki bir aşamada gelir.'
+  phase: 'Yol haritası: Tüm "{wing}" kanadı daha sonraki bir aşamada gelir.'
   map_note: Bu pavyonun konumlarının şematik haritası (ve zaman çizelgesi içeren etkileşimli bir harita).
   gallery: Parça Sergisi
   collections: Müze Koleksiyonları
@@ -233,8 +233,8 @@ entity:
   contemporaries: çağdaşlar
   connections: Bağlantılar
   sources: Kaynaklar
-  recording_line: '{dizi}, bölüm {ep}'
-  recording_at: '{zaman}'
+  recording_line: '{series}, bölüm {ep}'
+  recording_at: '{time}'
   listen_at_archive: Arşivde dinleme (ses bu anda açılıyor)
   contested_label: uyumsuz
   contested_notice: Bu materyal, alimlerin farklı görüş bildirdiği konuları içerir. Şeyh'in görüşleri ona atfedilir ve henüz kaynak atıfta bulunmayan diğer görüşler öğrenilir.
@@ -260,7 +260,7 @@ entity:
   alternate_names: Ayrıca olarak da bilinir
   figurative: Bu müzede peygamberlerin herhangi bir tanısal tasviri sergilenmemektedir.
   sunni_frame: Ehl-sünnet (Müze Çerçevesi)
-  view: Görüş {etiket}
+  view: Görüş {label}
   opinions_title: Konuya ilişkin görüşler
   issue: Sorun
   lead_opinion: İlk görüş
@@ -463,7 +463,7 @@ modern:
   new_title: Son otuz günde neler yeni?
   new_none: Son otuz gün içinde hiçbir kayıt eklenmedi veya değiştirilmedi.
   new_lede: Bu inşaattan otuz gün önce eklenen veya değiştirilen kayıtlar, en son ilk.
-  new_capped: İşte {toplam} değişen kayıtların en son {n} sayısı. Her kayıt ayrıca tarayıcı bölümünde listelenmiştir.
+  new_capped: İşte {total} değişen kayıtların en son {n} sayısı. Her kayıt ayrıca tarayıcı bölümünde listelenmiştir.
   top_title: Yaygınlık Göstergeleri
   top_note: İşin belgelenme kapsamı, her listede basılı bir denklemle belgelenen girdilerden hesaplanıyor. Hiç de hoş bir sipariş değil.
   top_lede: '{list}: {n} en yaygın dolaşıma giren ilk olan bir yerleşik kayıt.'
@@ -486,8 +486,8 @@ modern:
   formula_title: Puan nasıl hesaplanır
   formula_version: Denklem versiyonu {v}
   tie_break: Berabere kalındığında, en eski versiyon ilerler.
-  formula_honours: '{kazandı} her ödül puanı ve her adaylık, kısa liste veya son pozisyon için {aday}; en fazla {cap}.'
-  formula_certified: Altın {altın}, platin, çoklu platin; maksimum {cap}.
+  formula_honours: '{won} her ödül puanı ve her adaylık, kısa liste veya son pozisyon için {nominated}; en fazla {cap}.'
+  formula_certified: Altın {gold}, platin {platinum}, çoklu platin {multi}; maksimum {cap}.
   formula_chart: İlk on {top10}, ilk kırk {top40}, {charted} listesine girin; maksimum {cap}.
   formula_reach: Her platformda tarihlenen en büyük sayının ondalık logaritması, {max} platformların toplamı; en fazla {cap}.
   formula_wikipedia: Wikipedia'da dil başına {per}; {cap}'e kadar.
@@ -815,7 +815,7 @@ revelation:
 surahmap:
   title: Duvar haritaları
   lede: 'Her sure etkileşimli bir haritadır: istasyonları ve konuları baştan sona ayet ayet anlatılır.'
-  map_title: Harita {isim}
+  map_title: Harita {name}
   map_lede: Surenin başından sonuna kadar {n} ayet arasında etkileşimli bir yolculuk.
   hint: Yol üzerindeki tutamağı sürükleyerek ayetler arasında gezinin, haritadaki herhangi bir durağa tıklayın — ya da otomatik bir yolculuğa başlayın.
   journey: Otomatik Uçuş
@@ -1270,7 +1270,7 @@ map:
     panel_hide: Çakmak paneli
     regions_h: Yan Kısımlar
     time_note: Yıl Çubuğu, seçilen yıla ait kayıtların olduğu yerleri vurgular ve her bölgenin dönemini belirtir. Listesi o yılın kayıtlarıyla sınırlı olan bir yer açın.
-    year_only: sadece {yıl}
+    year_only: sadece {year}
     year_nearest: '{year}''a gidin, en eski tarihli yıl'
     year_none: Burada tarihlenen ve {n} numaralı kayıtların hiçbiri seçilen yılda yer almaz.
     year_empty: Seçilen yıla ait tarihli kayıt yoktur. Yıl sınırlaması etkin olduğu sürece tarihsiz kayıtları göstermeyin.
@@ -1297,7 +1297,7 @@ map:
     pause: Yılların geçişini durdur
     step_back: On yıl önce
     step_fwd: On yıl ileride
-    era: 'Yaş: {isim}'
+    era: 'Yaş: {name}'
     fullscreen: Ekranı haritayla doldurun
     exit_fullscreen: Tam ekran çıkışı
     reset: Tam görünüm
@@ -1424,7 +1424,7 @@ qiyama:
     title: İniş sırasındaki son gün
     note: Bu tarayıcının bildiği her pasaj türünde üç şerit vardır ve surelerin sırasına göre uzanır. Surede o türden ayetlerin bulunduğu yerde bir nokta belirir ve nokta ne kadar büyükse, içinde o kadar
       çok ayet kaydedilir, böylece her konunun nerede vahy edildiğini görmek daha kolay olur. Alt şerit, her surenin kayıtlarında yer aldığı şekilde renklendirilmiştir.
-    headline: En az bu üç ayet türünden birini içeren kökeni {toplam} bir suredir
+    headline: En az bu üç ayet türünden birini içeren kökeni {total} bir suredir
     legend_title: Görüntü nasıl okunur
     legend_dot: Nokta bir suredir ve uzunluğu ayet sayısıdır.
     meccan: Mekke'ye indim
@@ -1990,8 +1990,8 @@ islamic_economy:
       desc: 'Para, tapu ve vakıflarla ilgili seçilmiş müze kayıtları: vakıf kümesi, ticaret ve finans kavramları, araç ve sözleşme kayıtları, vakıf ve antlaşma olayları ile İslami ekonomi üzerine çalışmalar.'
   viz:
     title: Para birimi, araçlar ve vakıflar zaman içinde
-    note: Her defter konusu için üç defter, Hicri yüzyıllarında tek bir kronolojik eksen ve Gregoryen tarihini paylaşır. Sadece tarihli kayıt eksenlere yerleştirilir; {tarihli} toplam {toplam} kayıttan
-      tarihlenirken, geri kalan ve {tarihsiz} kayıtlar her defterin altındaki kaynak bölümüne göre sayılır. İki konuya ait kayıt iki defterde yer alır ve bir iplikle birbirine bağlıdır. Benzer işaretler
+    note: Her defter konusu için üç defter, Hicri yüzyıllarında tek bir kronolojik eksen ve Gregoryen tarihini paylaşır. Sadece tarihli kayıt eksenlere yerleştirilir; {dated} toplam {total} kayıttan
+      tarihlenirken, geri kalan ve {undated} kayıtlar her defterin altındaki kaynak bölümüne göre sayılır. İki konuya ait kayıt iki defterde yer alır ve bir iplikle birbirine bağlıdır. Benzer işaretler
       zaman açısından biraz farklılık gösterir, çünkü işaret okuma tahtasındaki tam yıl ve tarihten farklı olabilir.
     hint: İmleci üzerine getirin, odaklanın veya bir işaretçiye dokunun; tarihini, yazısını ve özetinin ilk cümlesini görün.
     region: Hicri yüzyıllarına ait eksen üzerinde üç kayıt bulunmaktadır
@@ -2015,7 +2015,7 @@ islamic_economy:
     sec_curated: Formatlı kayıtlar
     also: 'Ayrıca şu kategoride de yer alıyor: {topic}'
     no_topic: Ve {n}, hiçbir defterde yer almayan bir öznesi olmayan bir kayıttır.
-    mark: '{isim}، {date}'
+    mark: '{name}، {date}'
 trade:
   title: Kış ve Yaz Karavan Gezicisi, İpek Yolu ve Müslüman Ticareti
   lede: 'Müze kaynaklarında kış ve yaz yolculukları, Qureyş''in aşinalığı, İpek Yolu ve Müslümanların ticareti hakkında her atıfta bulunulur: Kureyş Sures''indeki sevgi ayeti; Sünnet''teki kervanlar, kervanlar
@@ -2071,9 +2071,7 @@ trade:
 ibadat:
   viz:
     title: İbadet Eylemleri
-    caption: 'İbadet edilen ailelerden {aileler} bir gül. Her yaprağın alanı, müzenin kaynaklarındaki o aileyi taşıyan bölümlerin sayısıdır; bantlar halinde olur: Kur''an, merkeze en yakın olan, sonra Sünnet,
-      sonra biyografi, sonra diğer tüm kitaplar. Bölüm birden fazla aileye ait olabilir ve toplam yaprak sayısı bir bölüm {pasaj}ı aşabilir. Gülün etrafında, seçilen her uygulama kaydı ve onun sayısı için
-      bir boncuk bulunur.'
+    caption: "İbadet ailelerinden {families} bir gül. Her yaprağın alanı, müzenin kaynaklarında o aileyi taşıyan pasajların sayısıdır; bantlar halinde: merkeze en yakın Kur'an, sonra Sünnet, sonra siyer ve diğer kitaplar. Bir pasaj birden fazla aileye ait olabilir, bu yüzden yapraklar {passages} pasajdan fazlasına ulaşır. Gülün etrafında, seçilmiş {practices} uygulama kaydının her biri için bir boncuk bulunur."
     centre: Klip
     corpus_title: Klipler nerede bulunuyor?
     corpus:
@@ -2090,7 +2088,7 @@ ibadat:
       unstated: Bahsedilmedi
     families: İbadet ailelerini hece sayısına göre
     passages_n: '{n} segmenti'
-    none_yet: 'Henüz klip yok: {isimler}.'
+    none_yet: 'Henüz klip yok: {names}.'
     hint: Bir yaprağın veya boncuğun üzerine gelin, odaklanın veya dokunarak ailesini ve klipslerinin, uygulamalarının nerede olduğunu görün. Bir yaprağa veya giriş tuşuna ikinci dokunuş aşağıdaki listeyi
       filtreler ve boncuk uygulamasını açar.
     show_in_list: Bunları aşağıdaki listede gösterin
@@ -2489,7 +2487,7 @@ hudud:
     title: Kaynakların dediği gibi cezalar ve büyük günahlar
     note: Bunlar, müzenin kaynaklarındaki bu kelimelerin geçtiği bölümlerdir ve arkasında hiçbir şey yoktur. Bir panel, Al-Kashif'in Tanrı'nın sınırları altında eşleştirdiği kelime ve ifadeleri gösterirken,
       diğer panelde büyük günahlar altında kendisiyle eşleşen kelimeler gösterilir. Her satır segment sayısına göre işaretlenir ve her referans paneli kaydı açar. Bu indeks, kaynaklarda yer alanlardır ve
-      yargı veya düzen vermez. {küratörlük}, aşağıdaki listedeki konuyla ilgili koordineli bir kayıttır ve içinde buna uyan bir metin yoktur.
+      yargı veya düzen vermez. {curated}, aşağıdaki listedeki konuyla ilgili koordineli bir kayıttır ve içinde buna uyan bir metin yoktur.
     region: Geçtikleri kelimeler ve heceler için iki panel
     panel_hudud: Sınırlar
     panel_kabair: Büyük günahlar
@@ -2708,7 +2706,7 @@ hasanat:
     how: Sadece o formülle sütunları renklendirmek için bir sözlü formül seçin ve hepsini görmek için tekrar seçin.
     hint: İmleci bir sütunun üzerine getirin, üzerine odaklanın veya nereye gittiğini görmek için dokunun.
     quran_title: Kur'an, Muşaf sırasıyla
-    quran_note: '{n}''de orijinal {toplam} suresi, iyi işlerin bahsedildiği bir bölümdür ve solmuş sütunlar ise bölümler olarak parçalanmamıştır.'
+    quran_note: '{n}''de orijinal {total} suresi, iyi işlerin bahsedildiği bir bölümdür ve solmuş sütunlar ise bölümler olarak parçalanmamıştır.'
     sunnah_title: Çalışmalara göre yıl
     sunnah_note: '{n} hadis koleksiyonunda bir parça vardır ve en çok parçayı önce ben veririm.'
     count_in: 'Bölüm sayısı: {n}'
@@ -2777,7 +2775,7 @@ mukatabat:
     sec_seerah: Biyografi
     sec_books: Diğer kitaplar
     sec_curated: Formatlı kayıtlar
-    count: '{n} {toplam} kayıt'
+    count: '{n} {total} kayıt'
     samples: Üçü
     open: Aşağıdaki menüden açın
     table: Tablodaki sayılar
@@ -2856,7 +2854,7 @@ munazarat:
     sec_seerah: Biyografi
     sec_books: Diğer kitaplar
     sec_curated: Formatlı kayıtlar
-    count: '{n} {toplam} kayıt'
+    count: '{n} {total} kayıt'
     samples: Üçü
     open: Aşağıdaki menüden açın
     table: Tablodaki sayılar
@@ -3052,7 +3050,7 @@ places:
     close: Seçimi kaldır
     open: Sayfayı açın
     no_mentions: Müzenin kaynaklarında şu ana kadar kendisinden bahsedilmeyen bir bölüm yoktur
-    lens_title: '{şehir} hakkında'
+    lens_title: '{city} hakkında'
     lens_sub: Yerler yaklaşık {km} km
     km: '{n} km'
     outline_title: Metindeki yerler
@@ -3225,7 +3223,7 @@ jinn-devils:
     legend_title: Kayıt nedir
     region: 'Dört bölümlü kesişim diyagramı: her kurulum için bir sütun'
     axis: Kayıtlar yalnızca bu kurulumda yer alıyor
-    col: '{setler}: {n} kaydedildi'
+    col: '{sets}: {n} kaydedildi'
     hint: Bu kurulumun kayıtlarını ne olduklarına göre gruplanmış görmek için bir sütun seçin.
     close: Listeyi kapat
     outline: Bir metin listesindeki tüm yapılar
@@ -3289,7 +3287,7 @@ messengers:
       child: Son {p}, müze ağında kaydedilen bir baba-oğul ilişkisi
       progeny: 'Soyundan gelenler arasında sayılır ve müzede atalarına ait kayıtlı bir soy hattı yoktur. Ayet:'
       kin: Kayıtlı bir soğan, ağaca bağlı, belirlenmiş oranlarla değil
-      lineage_agreed: Çocuğu olan her kimse, aralarında soybilim halkı tarafından kabul edilen bir baba vardır
+      lineage_agreed: '{p} soyundan gelir; aralarında soybilimcilerin üzerinde anlaştığı {n} ata vardır'
       lineage_disputed: Kim doğarsa {p}, aralarında {n} soybilimciler arasında farklı bir isim vardır
       order: '{p}''den sonraki konumu erkek sırasına göre olur, kayıtlı soy hattına göre değil'
       order_stem: Bacak üzerindeki pozisyonu erkek sırasındadır, kaydedilmiş oranlarda değil
@@ -3849,7 +3847,7 @@ wasaya:
     title: İlk vasiyetten sonuna kadar
     lede: 'Tarayıcı kayıtları tek bir satırda tarihleniyordu: vasiyetler, ölümler ve defin tarihleri ile yazıldıkları zamandaki kitaplar.'
     caption: '{n} tarihli bir kayıt; ve {u} aşağıdaki listelerde tarihsiz bir kayıt.'
-    century: M.S. yüzyılı
+    century: M.S. {c} yüzyılı
 qiraat:
   title: Kur'an Okumaları, Yazım Yazıları, Yazı Tipleri ve Nokta Tarayıcı
   lede: 'Müzenin kaynaklarının Kur''an''ın okunması ve yazımı hakkında söylediği her şey: yedi mektup, okumalar, imamları ve rivayetleri, Ebu Bekir döneminde Kur''an''ın derlenmesi, Osman döneminde Kur''anların
@@ -3948,7 +3946,7 @@ qiraat:
     title: İlk gazetelerden basılı Kur'an'a kadar
     lede: 'Tarayıcı kayıtları tek bir satırda tarihlendiriliyordu: tarihlerine dair gerçekler, ölümlerindeki figürler ve yazarlarına ait kitaplar.'
     caption: '{n} tarihli bir kayıt; ve {u} tarihsiz bir kayıt, aşağıdaki listelerde bulabilirsiniz.'
-    century: M.S. yüzyılı
+    century: M.S. {c} yüzyılı
   chains:
     title: 'On İmam: Kime okunan'
     lede: Kur'an okumalarının on İmam için yayımlanma sırasına göre bir kart, onların çalıştıkları öğretmenleri ve doğrudan onlara okuyanlar ile müze kayıtları dahil. İmamlarından bu yollarla öğrenenler
@@ -3962,7 +3960,7 @@ qudsi:
   lede: Kutsal hadis, Peygamber'in Kur'an'ın metni olmadan Rabbinden rivayet ettiği şeydir. Burada, altı kitaptaki ve Malik'in Muwatta'sındaki her kutsal hadis, her kitapta rivayetleriyle birlikte konulara
     göre düzenlenmiş ve her rivayet müzede bir sayfa olarak yer alır.
   badge: Taslak inceleme aşamasında
-  status: Bu versiyonda, {hadis} {rivayet} içinde kutsal bir hadis içerir; bu roman {eserler} tarafından yazılmıştır. Metinler, kırk kelimeyi geçmeyen metinlerden alınmıştır ve başlıklar ile özetler müze
+  status: Bu versiyonda, {hadiths} {narrations} içinde kutsal bir hadis içerir; bu roman {works} tarafından yazılmıştır. Metinler, kırk kelimeyi geçmeyen metinlerden alınmıştır ve başlıklar ile özetler müze
     tarafından yazılmış olup insan incelemesi için taslaklardır.
   themes_title: Konu Başlıkları
   themes_note: Her hadis tek bir konuya odaklanır; altı kitapta ve Muwatta'da rivayetleri vardır; rivayeti metni ve kaynağını görmek için açın.
@@ -4001,7 +3999,7 @@ qudsi:
     region: Kitaplara göre konu matrisi; ekran darsa yatay olarak kaydırılır
     col_theme: Konu
     col_total: Hadisler
-    cell: '{tema}, {eser}, hadisler: {n}'
+    cell: '{theme}, {work}, hadisler: {n}'
     foot: Kitapta anlatılanlar
     caption: Satırlar, konuda ayırt edilen hadis sayısına göre düzenlenmiştir; bu sayı satırın sonundaki sayıdır. Birkaç kitapta rivayet edilen hadisler her sütunda bir kez sayılır, böylece sütunların toplamı
       hadis sayısını aşar; ekteki son sayı ise farklı hadislerin sayısıdır.
@@ -4012,7 +4010,7 @@ qudsi:
 companions:
   title: Al-Sahaba Tarayıcısı
   lede: 'Peygamber''in inanarak tanıştığı nesil: soyları bağlantılı, hangi gruba mensup oldukları, hangi olaylara tanık oldukları ve ne zaman öldüğü. Müzede kayıtları açılan her isim.'
-  status: 'Bu yapıdaki Yoldaşların sayısı: {n}, bunlar arasında {kadınlar} kadın Yoldaşlar ve {makaleler} bir makaleye sahiptir. Sayılar, yapım zamanındaki kayıtlardan hesaplanır.'
+  status: 'Bu yapıdaki Yoldaşların sayısı: {n}, bunlar arasında {women} kadın Yoldaşlar ve {articles} bir makaleye sahiptir. Sayılar, yapım zamanındaki kayıtlardan hesaplanır.'
   ten_title: On cennet vaat edildi
   ten_note: Müzedeki Doktrin Kaydı'nda Onlar, Al-Tahawi'nin İnancı'ndan alıntılanmıştır; İnanç ve kaynakları kavram sayfasında yer almaktadır.
   ten_trail: Yolda yürü
@@ -4062,7 +4060,7 @@ jobs:
   lede: 'İslam tarihinde geçimini sağlamak için insanların neler yaptıkları—hakim ve yazıcıdan doktora, inşaatçıya ve dokumacıya: müzenin şimdiye kadar kaydettiği her iş için. Ve henüz kimsenin kayıt yaptırmadığı
     birçok iş için ve her biri bunu söylüyor.'
   badge: İş Gezgini
-  status: 'Kayıtlar aranırken tarayıcı genişler. Bu yapıdaki iş kayıtları: {işler}, {articles} makalesi ve kayıtlı kişilerin işi {holders}. Ve henüz kimsenin kayıt olmadığı işler: {empty}. Ve sayılar son
+  status: 'Kayıtlar aranırken tarayıcı genişler. Bu yapıdaki iş kayıtları: {jobs}, {articles} makalesi ve kayıtlı kişilerin işi {holders}. Ve henüz kimsenin kayıt olmadığı işler: {empty}. Ve sayılar son
     yapıdaki haliyle aynıdır.'
   domains_title: Alan adına göre göz atın
   domains_note: Her işin bir alan adı vardır. Her kart, kendi alanındaki iş kayıtlarını ve içinde kayıtlı kişileri gösterir.
@@ -4168,7 +4166,7 @@ battles:
   title: İstilalar, Savaşlar ve Fetihler Tarayıcısı
   lede: İslam tarihinin seferleri, savaşları, kuşatmaları, fetihleri ve savaşları — Bedr'den modern çağa kadar — her gerçekliğin kendi tarihsel takvimleri, yeri, liderleri ve kaynakları vardır.
   badge: Savaş Kaşifi
-  status: Bu baskı, {ghazwa} bir baskın ve {sariya} peygamberlik döneminden bir sır dahil olmak üzere {kinds} ve {eras} olarak bir askeri gerçekliği içerir. Her kart, müzenin tüm kaynak kaydına açılır.
+  status: Bu sürüm, {kinds} tür ve {eras} dönem boyunca {battles} askeri olay içerir; aralarında peygamberlik döneminden {ghazwa} gazve ve {sariya} seriyye de vardır. Her kart müzenin tam kaynaklı kaydına açılır.
   status_ghazawat: 'Bu baskı, Peygamberlik döneminin olaylarını içerir: {ghazwa} bir savaş, {sariya} ise kronolojik olarak bir sır.'
   note: Baskın, Peygamber'in kendisinin katıldığı veya liderlik ettiği bir savaştır; eskort ise kendisinin gönderdiği ve katılmadığı savaştır. Sınıflandırma, kayıtların bağlantılarından türetilir ve bunların
     eksiksizliğiyle tamamlanır.
@@ -4214,14 +4212,13 @@ battles:
     mutiny: Askeri İsyanlar
   viz:
     cent_title: Hicri yüzyılları boyunca savaşlar ve seferler
-    cent_caption: Bir yüzyılın her sütunu Hicri ve yüksekliği Bu bölümde tarihlenen kayıtların sayısı, çatışma türüne bölünür. {Yerleşmemiş}, belirli bir yüzyıla ait tarih taşımayan ve çizilmemiş bir {toplam}
-      kaydı. Bir sütunun üzerine gelin, odaklanın veya dokunarak numaralarını doğru görebilirsiniz.
+    cent_caption: Her sütun bir Hicri yüzyıldır; yüksekliği, bu bölümde o yüzyılda başlayan {placed} tarihli kaydı gösterir ve çatışma türüne göre katmanlanır. {total} kayıttan {unplaced} tanesi onu bir yüzyıla yerleştirecek tarih taşımadığı için çizilmez. Tam sayılar için bir sütunun üzerine gelin, odaklanın ya da dokunun.
     cent_axis: Her sütunun altında Hicri yüzyılının numarası, altında ise o yüzyılın başladığı Gregoryen yılı yer alır. Yalnızca Gregoryen takvimine göre tarihlendirilen kayıtlar, Hicri'ye dönüştürülerek
       yüzyıllarına yerleştirilir.
     cent_legend: Çatışma Türleri
     cent_group: Hicri Yüzyıl Kayıtları
     cent_hint: Numaralarını göstermek için bir sütun seçin.
-    cent_century: Hicri Yüzyılı
+    cent_century: Hicri {n}. yüzyıl
     cent_begins: Yıl {y} yılında başlar
     cent_total: '{n} Rekorlar'
     cent_table: Tablodaki aynı sayılar
@@ -4229,7 +4226,7 @@ battles:
     th_begins: Gregoryen takvimine göre başladı
     th_total: Toplam
     map_title: Peygamber'in haritadaki seferleri
-    map_caption: '{location}, orijinal {total} baskınından ve bilinen konumu olan bir şirketten, koordinatlardan alınmıştır, bu yüzden burada tarihine göre numaralandırılmıştır. Geri kalan ve {rest} numarası
+    map_caption: '{located}, orijinal {total} baskınından ve bilinen konumu olan bir şirketten, koordinatlardan alınmıştır, bu yüzden burada tarihine göre numaralandırılmıştır. Geri kalan ve {rest} numarası
       ise listede noktasız olarak görünür. Bir yerde veya yakınında gerçekleşen kampanyalar, her birinin gösterilmesi için tarihe göre etrafında dağıtılır, böylece nokta konumuna yakın olur ve tam olarak
       üzerinde değildir.'
     map_legend: Şirket, Baskın ve Sefer Türleri
@@ -4241,7 +4238,7 @@ asma:
   lede: 'Allah''ın En Güzel İsimlerinden doksan dokuz isim, her birinin kendi anlamı ve hikayesi vardır: bahsettiği ayetler, bahsettiği hadisler, ortaya çıktığı biyografideki olaylar ve Sahabelerin ve doğruların
     kaydedilen biyografileri.'
   badge: Hazırlık aşamasında
-  status: 'Tirmidhi nüfus sayımında doksan dokuz isim. Bu versiyondaki isim kayıtları: {isimler}. İsim sayfasındaki her bölüm, belgelenmiş müze kayıtlarına dayanır ve ağ büyüdükçe büyür.'
+  status: 'Tirmidhi nüfus sayımında doksan dokuz isim. Bu versiyondaki isim kayıtları: {names}. İsim sayfasındaki her bölüm, belgelenmiş müze kayıtlarına dayanır ve ağ büyüdükçe büyür.'
   hadith_note: '"Gerçekten Allah''ın doksan dokuz adı vardır, yüz kişi hariç; kim sayarsa, cennete girer." — El-Buhari ve Müslüman tarafından anlatılmıştır. Burada sunulan liste, Cemi''l-Tirmidi (3507)
     sayımıdır; İbn Majah''ın sayımından farklı olduğu yerlerde, isim kaydı bunu belirtir.'
   filter_label: İsimle aday gösterildi
@@ -4288,7 +4285,7 @@ khulafa:
   lede: İslam halifeleri, yönettikleri halifelik devletlerine göre düzenlenmiştir—Raşidun Halifeliği, Şam ve Kordoba'daki Emevililer, Bağdat ve Kahire'deki Abbasiler, Fatımiler, Muvahatlar, Osmanlılar ve
     Sokoto—her halifenin kendi hükümdarlığı, serideki konumu, döneminin olayları ve kaynakları vardı.
   badge: Halifeler Kaşifi
-  status: 'Bu baskıda kaydedilen halefler: {halifeler}. Her kartın ve zincirinin sözleşmesi belgelenmiş müze kayıtlarına dayanır ve ağ büyüdükçe büyür.'
+  status: 'Bu baskıda kaydedilen halefler: {caliphs}. Her kartın ve zincirinin sözleşmesi belgelenmiş müze kayıtlarına dayanır ve ağ büyüdükçe büyür.'
   note: Talep hatları—Zubayrid, Hammudid ve Şerafi halifeliği—sonunda iddia olarak adlandırılır. Müze, her ili kaynaklarının anlattığı şekilde tanımlar ve meşruiyetini değerlendirmez.
   filter_label: İsimle aday gösterildi
   filter_none: Bu adaylığa ulaşacak başka bir halef yok.
@@ -4309,7 +4306,7 @@ inventions:
   title: Buluşlar Tarayıcısı
   lede: İslam uygarlığından icatlar ve keşifler, her biri kendi yapımı, öncesinde ne olmuş, üzerine inşa edilenler ve bunu belirten kaynaklar.
   badge: Buluş Keşfi
-  status: 'Tarayıcı, belgelenmiş bir kaydı kayda büyütür. Bu sürümdeki buluş kayıtları: {icatlar}, bunlardan {articles} bir makaleye sahiptir. Kayıtlı yapımcılar: {makers}. Son yapıya göre sayılar.'
+  status: 'Tarayıcı, belgelenmiş bir kaydı kayda büyütür. Bu sürümdeki buluş kayıtları: {inventions}, bunlardan {articles} bir makaleye sahiptir. Kayıtlı yapımcılar: {makers}. Son yapıya göre sayılar.'
   domains_title: Alan adına göre göz atın
   domains_note: Her buluşun bir alanı vardır. Henüz kaydedilmemiş bir alan gösterir ve bütünün şeklini gösterir.
   count_inventions: 'Kayıtlar: {n}'
@@ -4416,7 +4413,7 @@ inventions:
     group_label: Bölge ve Hicri yılına göre buluşlar
     hint: Bir işaretçinin üzerine gelin, odaklanın veya dokunarak burada okuyun.
     open: Buluşu aç
-    latest: Hayır, henüz değil.
+    latest: en geç {d}
     more_makers: ve {n} diğerleri
     arc_from: 'Üzerine inşa edilmiştir:'
     arc_to: 'Sonuç olarak:'
@@ -4425,22 +4422,22 @@ tafsir:
   title: Yorumlama tarayıcısı
   lede: 'Müzede korunan tefsir kitaplarında şöyle der: önce bir sure, sonra bir ayet, sonra tafsiri oku.'
   by_verse: Ayete göre okuyun
-  by_verse_note: '{covered} {sureler} Bugün bir surede bir ayet yorumun özetini içerir. Önce bir sure, sonra bir ayet seçin.'
+  by_verse_note: '{covered} {surahs} Bugün bir surede bir ayet yorumun özetini içerir. Önce bir sure, sonra bir ayet seçin.'
   surah_cov: '{k} ({n} ayeti'
   not_yet: Henüz sonuca ulaşmamış bir duvar
   not_yet_note: Bu surelerin hiçbir ayeti henüz yorum özeti içermemektedir. Her isim surenin sayfasını açar.
   commentaries: Tafsir Kitapları İndeks'te
-  catalogue_note: 'Müze bu tefhitleri eser olarak kaydetmektedir. Burada şimdiye kadar ayet ayet okunan tefhit: {isimler}. Diğer tüm kayıtlar tafsir ve yazarı olarak bilinir ve henüz ayet düzeyinde sonuçlar
+  catalogue_note: 'Müze bu tefhitleri eser olarak kaydetmektedir. Burada şimdiye kadar ayet ayet okunan tefhit: {names}. Diğer tüm kayıtlar tafsir ve yazarı olarak bilinir ve henüz ayet düzeyinde sonuçlar
     taşımazlar.'
   wired: Ayet ayet oku
   catalogue_only: Dizin Girişi
   volumes: Klasörler
-  volumes_of: '{eser} müze tarafından okunan ciltler'
-  covers: '{n} Dahil edilen dize, {ilk}''den {sonuncu}''ya'
+  volumes_of: '{work} müze tarafından okunan ciltler'
+  covers: '{n} Dahil edilen dize, {first}''den {last}''ya'
   verses: Bu ciltte ele alınan dizeler
   belongs: Bu klasör, {work} yani {author} yorumunun bir parçasıdır.
   belongs_work: Bu klasör {work} dosyasının bir parçasıdır.
-  vol_range: Dizeler {aralıklar}
+  vol_range: Dizeler {ranges}
   vol_gap: '{ref} — henüz dahil edilmedi'
   gaps_note: '"Henüz dahil edilmemiş" olarak etiketlenen ayet bu cildin kapsamına girmektedir, ancak müze henüz özetini sunmamıştır.'
   surah_title: '{name} yorumu'
@@ -4463,12 +4460,12 @@ tafsir:
   section_note: Müzenin bu ayette koruduğu tefsir kitaplarının söylediklerini her biri sahibine atfeder. Müze aktarır ve karar vermez.
   ai_note: Bu akışlar, içinde bahsedilen bölüm ve sayfadan yapay zeka yardımıyla yazıldı ve henüz bir insan editör tarafından okunmadı.
   section_cited: Alıntı
-  section_none: Bu ayetin henüz herhangi bir yorumu sunulmamıştır. Müzenin kataloğunda {n} Kur'an'ın bir yorumunu içermektedir; şimdiye kadar en çok okunan ayet ayet {isim} olup, okuması bu ayete ulaşmamıştır.
+  section_none: Bu ayetin henüz herhangi bir yorumu sunulmamıştır. Müzenin kataloğunda {n} Kur'an'ın bir yorumunu içermektedir; şimdiye kadar en çok okunan ayet ayet {names} olup, okuması bu ayete ulaşmamıştır.
   section_surah_link: Bu surenin yorumu olan ayetleri
   section_browse: Açıklama tarayıcısını açın
   viz:
     title: Kur'an ve Tafsir'in ulaştığı yer
-    headline: Müzede yorumun özetini taşıyan orijinal {toplam} ayetinden bir ayet, {sureler} içinde bir sure.
+    headline: Müzede yorumun özetini taşıyan orijinal {total} ayetinden bir ayet, {surahs} içinde bir sure.
     note: Kur'an, her sure için kare şeklinde düzenlenmiştir. Altın renkli gölgeleme, müzede korunan ayetleri ve yorum özetini suredeki yerlerinde gösterir.
     caption: Her kutu, suredeki ayet sayısına göre gösterilir; en kısa surelerin kolayca seçilebilmesi için minimum genişlik belirlenir. Kapsam, ciltlerden birinin sunulan ayetin özetini içermesi anlamına
       gelir; bu, yorumun kalitesini veya eksiksizliğini değerlendirmez. İmleci kutunun üzerine getirin, üzerine odaklanın veya hakkında okumak için dokunun ve dokunmatik ekranda iki kez dokunarak açın.
@@ -4687,7 +4684,7 @@ hisab:
 akhlaq:
   viz:
     title: Erdemler ve Kötü Alışkanlıklar Yüz Yüze
-    caption: Her çubuk, müze kaynaklarındaki tek bir tema taşıyan pasajların sayısıdır; {pasajlar} arasında bir pasaj ve {topics} bir tema arasında. Erdemler orta çizginin bir tarafına, diğer tarafına ise
+    caption: Her çubuk, müze kaynaklarındaki tek bir tema taşıyan pasajların sayısıdır; {passages} arasında bir pasaj ve {topics} bir tema arasında. Erdemler orta çizginin bir tarafına, diğer tarafına ise
       zıt olarak uzanır ve her taraf kendi sayısına göre düzenlenir. Bir kurdelenin üzerine gelin, odaklanın veya pasajlarının nerede olduğunu görmek için dokunun.
     virtues: Erdemler
     vices: Kötü Alışkanlıklar
@@ -4927,9 +4924,7 @@ ansab:
       desc: Kayıtlar otomatik olarak bölümlerde bahsedilmek veya tarayıcı etiketiyle yüklenmek üzere birleştirilir — bu, hasat edilen bir kitapta yeni bir isim, kabile veya beden göründüğünde ilerler.
   viz:
     title: Kabile ağacı
-    note: 'Kabileler, halklar ve klanlar yalnızca epistemik diyagramın ilişkilerinden oluşturulur: grup, parçası veya üyesi olduğu grubun altında ya da kaydının kurucusu olarak adlandırdığı grubun altında
-      asılıdır ve kurucu ata, onu kuran grubun yanında durur. {e}, {r} ağaçlarındaki {n} grup kayıtlarına bağlıdır; ve {u} aşağıda yer alan başka bir özneyle ilişkili değildir. Çemberin boyutu, müze kaynaklarındaki
-      konunun bahsedilme sayısına uygundur; karekök ise üst sınırlıdır.'
+    note: "Kabileler, halklar ve klanlar yalnızca grafiğin bağlarından çizilir: bir grup, parçası ya da üyesi olduğu grubun altında ya da kaydının kurucu olarak adlandırdığı grubun altında durur ve kurucu ata, kurduğu grubun yanında yer alır. {t} grup kaydından {n} tanesi {e} bağla {r} ağaca bağlanır; {u} kaydın ise henüz başka bir özneyle bağı yoktur ve aşağıda bekler. Çemberin boyutu, müze kaynaklarında öznenin anılma sayısına göredir (karekök, üst sınırlı)."
     legend_title: Anahtar
     lg_part: Bir parçası veya üyesi
     lg_founder: Kuruluş
@@ -5063,7 +5058,7 @@ courses:
   q_recognise: Bu derste hangisiyle karşılaştınız?
   right: Evet. Bu derste bahsedilen buydu.
   wrong: Bu derste değil. Yukarıdaki kartlara geri dön.
-  tell_back: 'Kendi sözlerinizle: {konu} bu dersle ne ilgili?'
+  tell_back: 'Kendi sözlerinizle: {subject} bu dersle ne ilgili?'
   tell_back_reveal: Kartla karşılaştır
   i_can: Artık yapabilirim
   mark_done: Bu dersi ver, tamamlandı.
@@ -5094,7 +5089,7 @@ courses:
   promo_p3_t: Sınıf için yapılmıştı.
   promo_p3: Öğretmen için sergi, basılı sayfa ve resmi müfredat kodlarının adım adım gösterilmesi.
   promo_sample: Şehid Dorsa
-  promo_stats: 'Şimdi mevcut: kurslar, dersler, keşifler {kartlar}. Yapay zeka yardımıyla yazılmış taslaklar ve insan editör beklemektedir.'
+  promo_stats: "Şimdi açık: {courses} kurs, {lessons} ders, {cards} keşif. Yapay zekâ yardımıyla yazılmış taslaklar, insan editör bekliyor."
   draft_course: 'Taslak: Bu dersler yapay zeka yardımıyla yazıldı ve henüz bir insan editör tarafından okunmadılar.'
   you_are_here: Buradasın
   lang_names:
@@ -5119,7 +5114,7 @@ paged:
   subject:
     title: Bölümler
     page_lede: Bu bölümde sayfa sahibinden bahseden tüm metinler tamamlanmıştır. Sayfası başlangıçları gösterir.
-    page_count: '{pasajlar} metinlerden.'
+    page_count: '{passages} metinlerden.'
     back: Sahibin sayfasına dön
 journeys:
   title: Geziler
@@ -5368,7 +5363,7 @@ i3lam:
 heroes:
   title: İslam'ın Kahramanları
   lede: 'Erkekler ve kadınlar başkaları için çok şey fedakarlık etmişlerdir: altı erdem salonu, her salonda dört kahraman vardır ve hikaye kaynağıyla tamamlanmıştır.'
-  status: 'Bu salonlardaki kahraman sayısı: {n} {patika} boyunca dağılmış. Her isim kahramanın kaydını açar ve her salon tam hikayesini açar.'
+  status: 'Bu salonlardaki kahraman sayısı: {n} {trails} boyunca dağılmış. Her isim kahramanın kaydını açar ve her salon tam hikayesini açar.'
   trail_link: Tüm Salon Hikayesinin Sırrı ({n} Kahraman)
   record_link: Kaydı aç
   note_title: Bu salonlar hakkında
@@ -5673,7 +5668,7 @@ pathway:
   pk_starter: Buradan başlayın
 calendar:
   months_index: Aylar ve Yıllar
-  months_of: Yılın ayları {yıl} AH
+  months_of: Yılın ayları {year} AH
   static_note: '{from}''dan {to} H''ye kadar olan her ayın kendi sayfası vardır. Diğer tüm yıllar yukarıdaki takvimde açıktır.'
   open_calendar: Takvim ve Adaptör
   title: Hicri Takvimi
@@ -6247,7 +6242,7 @@ kids:
   bee_start: Başlangıç
   bee_next: Yeni soru
   bee_correct: Aferin! Doğru cevap
-  bee_wrong: 'Tam olarak değil — doğru cevap: Sure: {cevap}'
+  bee_wrong: 'Tam olarak değil — doğru cevap: Sure: {answer}'
   bee_score: 'Noktalarınız: {n}'
   quest_title: Peygamberlerin Yolculuğu
   quest_lede: Beş istasyon ve beş peygamber — yıldızlar toplayın ve her istasyonda değer öğrenin!
@@ -6258,7 +6253,7 @@ kids:
   quest_stars: 'Yıldızlarınız: {n}'
   quest_done: Aferin! İstasyon tamamlandı
   finale_title: Muhteşem! Yolculuğu tamamladım
-  finale_lede: 'Beş yıldız topladım ve öğrendim: {değerler}. Seninle gurur duyan bir hoopoe!'
+  finale_lede: 'Beş yıldız topladım ve öğrendim: {values}. Seninle gurur duyan bir hoopoe!'
   finale_restart: Tekrar oyna
   grownups_title: Yetişkinler için
   grownups_hub: 'Çocuk pavyonu, müzenin içeriğini çocuk diliyle temsil ediyor: düzleştirmeden basitleştirilmiş, yaş çerçevesi ve yaş engelli hassas materyaller.'
@@ -6434,11 +6429,11 @@ tour:
   nojs_journeys: Zaman Yolculukları
   brand_name: İslam Müzesi
   hall_sub: Sanal Tur
-  gallery_hall: Salon {kanat}
-  gallery_sub: Kanat {kanat} · {tur}
+  gallery_hall: Salon {wing}
+  gallery_sub: Kanat {wing} · {tour}
   gallery_back: Büyük Salon'a Dönüş
   journey_tag: Zaman yolculuğu
-  portal_toast: '"{kanat}" pavyonunun kapısı — yakında açılacak 3D salon.'
+  portal_toast: '"{wing}" pavyonunun kapısı — yakında açılacak 3D salon.'
   portal_explore: Süiti şimdi keşfedin
   joy_label: Joystick — yürümek için sürükleme
   logo_alt: İslam Müzesi logosu
@@ -6462,7 +6457,7 @@ tour:
   map_title: Müze Haritası
   map_close: Haritayı kapat
   map_here: 'Buradasınız: {place}'
-  map_door: BÖLÜM {kanat}
+  map_door: BÖLÜM {wing}
   map_stop: '{label}, {total}''in {n} istasyonu'
   map_centre: Ana salonun ortasında
   strip_label: Salonlar ve İstasyonlar
@@ -6741,7 +6736,7 @@ backstage:
   intro_2a: Bu sayfayı yazdığım sırada, müze
   intro_2b: doğum girdisi
   intro_2c: Arapça, İngilizce, Urduca, Fransızca, İspanyolca, Türkçe ve Endonezce dillerinde bir sayfa,
-  repo_stats: Açık depo, arkasında bir {commit} ve {pulls} entegre pull request ile oluşturuldu.
+  repo_stats: Açık depo, arkasında bir {commits} ve {pulls} entegre pull request ile oluşturuldu.
   intro_2d: 'Yönlendirilmiş bir yol. {repo}CC0 lisansı altında yayımlanan müze verileri, metinleri CC BY-SA 4.0 altında, genel programlama arayüzü üzerinden erişilebilen her şey ve veri setinin anlık görüntüsü
     Zenodo arşivinde kalıcı bir kimlik (DOI: 10.5281/zenodo.23692511) ile saklanır — herkes tüm müzeyi indirip bu sayfadaki her numarayı kontrol edebilir.'
   repo_cta: GitHub'da açık depo
@@ -7042,7 +7037,7 @@ developers:
     sahiptir ve tüm koleksiyon tek bir bağlı çizim sunar: kayıtlar (düğümler) ve aralarındaki kaynaklarla belgelenmiş ilişkiler (kenarlar).'
   intro_2: Erişim anahtarı yok, hesap yok, kimlik yok. CC0 1.0 lisansı altında aynı veriler — kamu malı, indirebilir, kaydedebilir ve üzerine inşa edebilirsiniz. Yazılı makaleler ise Wikipedia'daki gibi
     CC BY-SA 4.0 lisansı altındadır. Sisteminiz bir web adresi açabiliyorsa, müzeyi okuyabilir.
-  live_stats: 'Bu sürümdeki canlı koleksiyon: {kayıtlar} kayıt · {kenarlar} belgelenmiş ilişki · {sınıflar} bir tür kayıt · {taslaklar} Diğer kayıtlar tarafından bahsedilen ancak henüz yazılmamış bir taslak.'
+  live_stats: 'Bu sürümdeki canlı koleksiyon: {records} kayıt · {edges} belgelenmiş ilişki · {classes} bir tür kayıt · {stubs} Diğer kayıtlar tarafından bahsedilen ancak henüz yazılmamış bir taslak.'
   quickstart_title: 'Üç Giriş: Bir Dönem Eserinden Bir Platforma'
   quickstart_intro: Organizasyonunuza uygun derinliği seçin; her seviye üzerinde olanları içerir.
   level1_title: Seviye Bir — Bağla
@@ -7111,8 +7106,7 @@ developers:
   agents_intro: 'Bu betiklerden birini programlama asistanınıza — Claude, Devin, Copilot veya diğerlerine — bu sayfanın başlığıyla gönderin. Her metin kendi kendine yeterlidir: erişim noktalarını, lisansı
     ve istenen sonucu adlandırır. Ve İngilizce scriptler çalışma metinleri olarak kabul edilir.'
   roadmap_title: Ne kadar kaldı — ve neden yaşayan kaynak önemli?
-  roadmap_1: Bu versiyonun kayıtları arasında {kayıtlar} yer alıyor; geri kalanlar ve numaraları {taslaklar} hâlâ söylenmekte, ayrıca {taslaklar} tamamlanmasını bekleyen bir taslak var. Bugünkü indirme
-    bir atölye gibi, tamamlanmış raflar değil.
+  roadmap_1: Bu sürümdeki {records} kayıttan {published} yayımlanmış durumda; diğer {drafts} hâlâ zenginleştirilmekte olan taslaklar ve {stubs} kadarı da tamamlanmasını bekleyen taslaklar. Bugünkü indirme bir atölye fotoğrafı, tamamlanmış raflar değil.
   roadmap_2: 'Ayrıca, müzenin boşluk haritası hasat edilmemiş yazıtları isimlendiriyor: Türk İslami TDV Ansiklopedisi (~16.800 madde, şimdiye kadar sadece tek kayıtlar için kullanıldı), modern kadınlar
     üzerine 57 ciltlik Nadavi Sözlüğü (~9.000–10.000 güncellenmiş, neredeyse hiçbiri müzede yok), hadis anlatıcılarının çizimlerinin arkasındaki başlıca sözlükler, daha sonra İslami Ansiklopedi koleksiyonları,
     onların koruduğu el yazmaları ve kütüphane envanterleri ile Güneydoğu Asya, Afrika, Çin ve Amerika kıtasının yeni başlayan araştırmaları. Sadece üç isimli sözlük, bugün müzenin kayıtlarını aşan yaklaşık
@@ -7298,12 +7292,12 @@ edu:
   privacy_accounts: hesaplamasız
   privacy_tracking: Takip veya profil yok
   privacy_open: 'Serbest ve açık: öğretmen yazdırır ve düzenler.'
-  band_hub_for: Uzun süre {yaşlar}
+  band_hub_for: Uzun süre {ages}
   next_title: Bir sonraki adımınız
   next_go: Başlangıç
   activities_title: Faaliyetlerim
   ladder_title: Bu kategoride mi büyüdün?
-  ladder_text: '{grup} seni bekliyor ve pasaportun da seninle geliyor.'
+  ladder_text: '{band} seni bekliyor ve pasaportun da seninle geliyor.'
   ladder_go: '{band}''a'
   ladder_soon: Son bölümler — gençlik kanadı kendisi.
   grownups_band: Her yaş grubunun kendi sayfası ve en kolaydan en zoruna sıralanmış aktiviteleri vardır. İlerleme yalnızca bu tarayıcıda hesap veya takip olmadan kaydedilir ve tek tıkla silinir.
@@ -7319,7 +7313,7 @@ edu:
   passport_due_go: Göz atın
   passport_earned: Araştırmacının Sonu
   passport_todo: henüz soruşturulmamıştır
-  passport_band_title: '{bant} mühürleri'
+  passport_band_title: '{band} mühürleri'
   passport_erase: Pasaportu sil
   passport_erase_confirm: Emin misin? Pasaport bu cihazda taranacak.
   passport_erased: Temizlendi! Faaliyetleri tekrar tamamladığınızda mühürler geri gelir.
@@ -7350,7 +7344,7 @@ edu:
   test_lede: Bu setten on soru cihazınızda değerlendirilir ve kimseye gönderilmez.
   test_start: Testi başlat
   test_q: '{n}''den {i} sorusu'
-  test_result: 'Sonucunuz: {n} içinde {toplam}'
+  test_result: 'Sonucunuz: {n} içinde {total}'
   test_pass: Mükemmel! Pasaportuna damga var.
   test_review: Kaçırdıklarım yarın bugünkü incelemede yer alacak.
   test_again: Yeni test
@@ -7381,9 +7375,9 @@ edu:
   hw_lede: 'Hiçbir şey bulamadım mı? Bu elli okul konusu her zaman bir noktaya gelir:'
   wh_title: Neredeyim?
   wh_lede: On iki yer birinci tekil şahıs dilinde konuşur. Her birinin bulmacasını dinleyin, sonra bir cevaba bakın—burada yanlış cevap yok.
-  wh_guess: '{isim} mi olmalıyım?'
+  wh_guess: '{name} mi olmalıyım?'
   wh_yes: Evet! Ben {name}'im.
-  wh_notquite: Güzel tahmin — aslında {cevap} verdim. Ama {name} da harika bir yer!
+  wh_notquite: Güzel tahmin — aslında {answer} verdim. Ama {name} da harika bir yer!
   wh_visit: Kayıt ol düğmesi
   wh_note: Her tahmin güzel bir cevap alır ve her cevap müzede gerçek bir yer açar.
   pk_season: Mevsimlik paket
@@ -7439,7 +7433,7 @@ edu:
   tp_hub_lede: 'Ders parçaları müzenin sayfalarından alınmış, her biri Ontario müfredatına bakanlığın sözleriyle değil, müzenin sözleriyle bağlantılıdır: not, materyal, eksen ve beklenti, ayrıca bir çalışma
     sayfası, yeterlilik kontrolü ve QR kodu ile birlikte.'
   tp_mapped: Müze bunu müfredatla ilişkilendirdi, ancak bakanlık onaylamadı.
-  tp_title_fmt: '{topic}: Sınıf {grade} için ders {konu} ve ücretsiz basılı baskı'
+  tp_title_fmt: '{topic}: Sınıf {grade} için ders {subject} ve ücretsiz basılı baskı'
   tp_curriculum: Müfredata Bağlantı
   tp_jurisdiction: Ontario, Kanada
   tp_course: Makale
@@ -7510,7 +7504,7 @@ edu:
   dl_day: Programın {d} günü
   dl_answers: Cevaplar
   dl_round: '{n}''nin {i} turu'
-  dl_question: Bu olay hangi yüzyılda gerçekleşti?
+  dl_question: '{event} olayı hangi yüzyılda gerçekleşti?'
   dl_choice: '{n} yüzyıl MS'
   dl_score: 'Sonuç: {n} {total}'
   dl_copy: Sonucu kopyala
@@ -7980,8 +7974,8 @@ fatwa:
   by_subject: Konuya bağlı olarak
   by_subject_note: Her fetvanın kaydında verilen fetvaların ele aldığı konular. Sorulan ve kimin yanıt verdiği hakkında okumak için bir konu seçin.
   no_subject: '{n} Kaydı özne olarak adlandırılmayan; kaynağı altında listelenen fetva.'
-  subject_title: '{Konu} üzerine fetvalar'
-  subject_record: '{konu} üzerine müze kaydı'
+  subject_title: '{subject} üzerine fetvalar'
+  subject_record: '{subject} üzerine müze kaydı'
   back: Fetva Kâşifine Geri Dön
   title: Fetva Kaşifi
   lede: Fetvalar, kaynaklarına göre toplanan fetva kitaplarından ve resmi ve tanınmış fetva sitelerinden alınmıştır. Müze, bu fetvaları tarih ve metinler olarak yazarlarına atfedilen metinler olarak kaydeder
@@ -8432,7 +8426,7 @@ dreams:
 dua:
   viz:
     title: Yerlerine göre dualar
-    headline: Kur'an bölümlerinden en az bir kayıtlı dua formu içeren bir sure, {toplam}
+    headline: Kur'an bölümlerinden en az bir kayıtlı dua formu içeren bir sure, {total}
     caption: Her lamba, Kur'an'da altı asılı ip üzerinde düzenlenmiş bir suredir; numaralar ipin başlangıcını ve sonunu gösterir. Mum, mum en az bir namaz kaydederse yakılır ve parıltısı sayısı arttıkça
       artar. İkinci grup iplerinde, her hadis grubu için bu tür ayetleri içeren bir lamba bulunur.
     mode_label: Sayım
@@ -8466,7 +8460,7 @@ dua:
   occasions:
     title: Duruma bağlı olarak
     note: '{n}, al-Nawawi''nin "Adhkar" bölümlerinin {d} kısmında kaydedilmiştir ve kitabın sırasına göre {t}''ye kadar ulaşır. Bölüm bir kayıt içerdiğinde ortaya çıkar ve geri kalanı henüz okunmamıştır.'
-    page_title: 'Dualar: {vesileyle}'
+    page_title: 'Dualar: {occasion}'
     lede: Müze kayıtları, bu vesileyle belirtildiği gibi, Al-Nawawi'nin 'Adhkarları'nda yer aldığı kapıdan alınan her bir yazılı kayıttır; alıntıladığı hadisler ve ona atfedilen kitaplar ile bunlarla ilgili
       verdiği kararlar dahildir.
     division: 'Nükleer terimlerle yemin:'

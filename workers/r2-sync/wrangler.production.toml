@@ -17,7 +17,7 @@ bucket_name = "islam-museum-search"
 
 [vars]
 # Only these prefixes may be written or deleted by an archive.
-ALLOWED_PREFIXES = "pagefind-ar/,pagefind-en/,pagefind-ur/,pagefind-fr/,pagefind-es/,api/,ar/,en/,ur/,fr/,es/,media/,edu/,timeline-data/,gift-shop/,brand/,openapi/,podcast/"
+ALLOWED_PREFIXES = "pagefind-ar/,pagefind-en/,pagefind-ur/,pagefind-fr/,pagefind-es/,pagefind-tr/,pagefind-id/,api/,ar/,en/,ur/,fr/,es/,tr/,id/,media/,edu/,timeline-data/,gift-shop/,brand/,openapi/,podcast/"
 # Also allow the bucket-root data files listed in ROOT_FILES in src/index.js (sitemaps,
 # feed, llms.txt, search synonyms, favicons), which batch/publish.mjs uploads.
 ALLOW_ROOT_FILES = "true"
@@ -37,7 +37,7 @@ binding = "SYNC_BUCKET"
 bucket_name = "islam-museum-uat"
 
 [env.uat.vars]
-ALLOWED_PREFIXES = "pagefind-ar/,pagefind-en/,pagefind-ur/,pagefind-fr/,pagefind-es/,api/,ar/,en/,ur/,fr/,es/,media/,edu/,timeline-data/,gift-shop/,brand/,openapi/,podcast/"
+ALLOWED_PREFIXES = "pagefind-ar/,pagefind-en/,pagefind-ur/,pagefind-fr/,pagefind-es/,pagefind-tr/,pagefind-id/,api/,ar/,en/,ur/,fr/,es/,tr/,id/,media/,edu/,timeline-data/,gift-shop/,brand/,openapi/,podcast/"
 ALLOW_ROOT_FILES = "true"
 # No shared progress file: up to 42 invocations wrote _r2-sync/status.json at once, against R2's limit of one write per
 # second to a key (429 above that). Tried on UAT on 13 November 2026 (run 43334841849: 0 failed operations).
