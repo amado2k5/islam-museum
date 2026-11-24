@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-9-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -22,4 +22,6 @@ provenance:
 
 ## تفسير الطبري
 
-لم يُفرد الطبري لهذه الآية تعليقاً مستقلاً في الصفحة المحفوظة، بل جاء تفسيرها ضمن تفسير الآيات 56–58. يبيّن الطبري أن أصحاب الجنة وأزواجهم في ظلال على الأرائك متكئون، لهم فيها فاكهة ولهم ما يدّعون، سلام قولاً من رب رحيم. وهذا التفسير مشترك بين الآيات 56 إلى 58. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=36&tAyahNo=58&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 56 إلى 58 مقطعاً واحداً. يفسّر قوله «سَلاَمٌ قَوْلاً مِّن رَّبٍّ رَّحِيمٍ»: في رفع سلامٌ وجهان في قول بعض نحوييّ الكوفة أحدهما: أن يكون خبراً لما يدّعون، فيكون معنى الكلام: ولهم ما يدّعون مسلَّم لهم خالص. وإذا وُجِّه معنى الكلام إلى ذلك كان القول حينئذٍ منصوباً توكيداً خارجاً من السلام، كأنه قيل: ولهم فيها ما يدّعون مسلَّم خالص حقاً، كأنه قيل: قاله قولاً. 1 2 3 وينقل في المقطع أقوالاً عن ابن عباس ومجاهد وقتادة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=36&tAyahNo=58&tDisplay=yes&UserProfile=0&LanguageId=1

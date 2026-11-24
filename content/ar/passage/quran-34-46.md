@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-9-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يأمر الله نبيه أن يقول لهم إنما أعظكم بواحدة هي أن تقوموا لله مثنى وفرادى ثم تتفكروا، فما بصاحبكم من جنة، إن هو إلا نذير لكم بين يدي عذاب شديد. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=34&tAyahNo=46&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «قُلْ إِنَّمَآ أَعِظُكُمْ بِوَاحِدَةٍ أَن تَقُومُواْ لِلَّهِ مَثْنَىٰ وَفُرَادَىٰ ثُمَّ تَتَفَكَّرُواْ مَا بِصَاحِبِكُمْ مِّن جِنَّةٍ إِنْ هُوَ إِلاَّ نَذِيرٌ لَّكُمْ بَيْنَ يَدَيْ عَذَابٍ شَدِيدٍ»: قل يا محمد لهؤلاء المشركين من قومك: إنما أعظكم أيُّها القوم بواحدة وهي طاعة الله، كما: وعن ابن أبي نجيح، عن مجاهد، قوله: «إنَّما أعِظُكُمْ بِوَاحِدَةٍ» قال: بطاعة الله. وقوله: «أنْ تَقُومُوا لِلّهِ مَثْنَى وَفُرَادَى» يقول: وتلك الواحدة التي أعظكم بها هي أن تقوموا لله اثنين اثنين، «وفُرادَى» فُرادَى، فإن في موضع خفض ترجمة عن الواحدة. وينقل في المقطع أقوالاً عن مجاهد وقتادة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=34&tAyahNo=46&tDisplay=yes&UserProfile=0&LanguageId=1

@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-9-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن الله لم ينزل على قوم هذا المؤمن بعد قتلهم إياه جنداً من السماء وما كان منزلين، ويذكر أقوالاً في معنى الجند، ثم إن عقابهم كان صيحة واحدة فإذا هم خامدون. وهذا التفسير مشترك بين الآيتين 28 و29. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=36&tAyahNo=28&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 28 إلى 29 مقطعاً واحداً. يفسّر قوله «وَمَآ أَنزَلْنَا عَلَىٰ قَوْمِهِ مِن بَعْدِهِ مِن جُندٍ مِّنَ ٱلسَّمَآءِ وَمَا كُنَّا مُنزِلِينَ»: وما أنزلنا على قوم هذا المؤمن الذي قتله قومه لدعائه إياهم إلى الله ونصيحته لهم «مِنْ بَعْدِهِ» يعني: من بعد مهلكه «مِنْ جُنْدٍ مِنَ السَّماءِ». واختلف أهل التأويل في معنى الجند الذي أخبر الله أنه لم ينزل إلى قوم هذا المؤمن بعد قتلهموه فقال بعضهم: عُنِي بذلك أنه لم ينزل الله بعد ذلك إليهم رسالة، ولا بعث إليهم نبياً. وينقل في المقطع أقوالاً عن مجاهد وقتادة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=36&tAyahNo=28&tDisplay=yes&UserProfile=0&LanguageId=1

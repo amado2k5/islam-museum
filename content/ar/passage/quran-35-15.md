@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-9-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن الناس هم الفقراء إلى الله وهو الغني عن عبادتهم الحميد على نعمه، وكل نعمة بهم فمنه. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=35&tAyahNo=15&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «يٰأَيُّهَا ٱلنَّاسُ أَنتُمُ ٱلْفُقَرَآءُ إِلَى ٱللَّهِ وَٱللَّهُ هُوَ ٱلْغَنِيُّ ٱلْحَمِيدُ»: يا أيها الناس أنتم أولو الحاجة والفقر إلى ربكم، فإياه فاعبدوا، وفي رضاه فسارعوا، يغنكم من فقركم، وتُنْجح لديه حوائجكم «وَاللّهُ هُوَ الغَنِيُّ» عن عبادتكم إياه، وعن خدمتكم، وعن غير ذلك من الأشياء، منكم ومن غيركم، «الحَمِيدُ» يعني: المحمود على نِعَمه، فإن كلّ نعمة بكم وبغيركم فمنه، فله الحمد والشكر بكلّ حال.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=35&tAyahNo=15&tDisplay=yes&UserProfile=0&LanguageId=1

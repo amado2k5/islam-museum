@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-9-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن مفاتيح الخير ومغاليقه بيد الله، فما يفتحه للناس من رحمة فلا ممسك لها، وما يمسكه فلا مرسل له من بعده، وهو العزيز الحكيم. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=35&tAyahNo=2&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «مَّا يَفْتَحِ ٱللَّهُ لِلنَّاسِ مِن رَّحْمَةٍ فَلاَ مُمْسِكَ لَهَا وَمَا يُمْسِكْ فَلاَ مُرْسِلَ لَهُ مِن بَعْدِهِ وَهُوَ ٱلْعَزِيزُ ٱلْحَكِيمُ»: مفاتيح الخير ومغالقه كلها بيده فما يفتح الله للناس من خير فلا مُغلق له، ولا ممسك عنهم، لأن ذلك أمره لا يستطيع أمره أحد، وكذلك ما يغلق من خير عنهم فلا يبسطه عليهم، ولا يفتحه لهم، فلا فاتح له سواه، لأن الأمور كلها إليه وله. وينقل في المقطع أقوالاً عن قتادة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=35&tAyahNo=2&tDisplay=yes&UserProfile=0&LanguageId=1

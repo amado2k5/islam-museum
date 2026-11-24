@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-9-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن الله لو يؤاخذ الناس بما كسبوا ما ترك على ظهرها من دابة، ولكن يؤخرهم إلى أجل مسمى، فإذا جاء أجلهم فإن الله كان بعباده بصيراً. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=35&tAyahNo=45&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَلَوْ يُؤَاخِذُ ٱللَّهُ ٱلنَّاسَ بِمَا كَسَبُواْ مَا تَرَكَ عَلَىٰ ظَهْرِهَا مِن دَآبَّةٍ وَلَٰكِن يُؤَخِّرُهُمْ إِلَىٰ أَجَلٍ مُّسَمًّى فَإِذَا جَآءَ أَجَلُهُمْ فَإِنَّ ٱللَّهَ كَانَ بِعِبَادِهِ بَصِيراً»: ولو يؤاخذ الله الناس. يقول: ولو يعاقب الله الناس، ويكافئهم بما عملوا من الذنوب والمعاصي، واجترحوا من الآثام، ما تَرَك على ظهرها من دابة تدبّ عليها «وَلَكِنْ يُؤَخِّرُهُمْ إلى أجَلٍ مُسَمًّى» يقول: ولكن يؤخر عقابهم ومؤاخذتهم بما كسبوا إلى أجل معلوم عنده، محدود لا يقصرون دونه، ولا يجاوزونه إذا بلغوه. وينقل في المقطع أقوالاً عن قتادة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=35&tAyahNo=45&tDisplay=yes&UserProfile=0&LanguageId=1

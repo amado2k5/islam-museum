@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-9-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن النبي يقول للمشركين لا تُسألون عما أجرمنا ولا نُسأل عما تعملون، ثم يجمع الله بيننا يوم القيامة ثم يفتح بيننا بالحق وهو الفتاح العليم. وهذا التفسير مشترك بين الآيتين 25 و26. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=34&tAyahNo=25&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 25 إلى 26 مقطعاً واحداً. يفسّر قوله «قُل لاَّ تُسْأَلُونَ عَمَّآ أَجْرَمْنَا وَلاَ نُسْأَلُ عَمَّا تَعْمَلُونَ»: قل لهؤلاء المشركين: أحد فريقينا على هدى والآخر على ضلال، لا تُسْألون أنتم عما أجرمنا نحن من جرم، وركبنا من إثم، ولا نُسأَلُ نحن عما تعملون أنتم من عمل، قل لهم: يجمع بيننا ربنا يوم القيامة عنده، ثم يفتح بيننا بالحقّ. يقول: ثم يقضي بيننا بالعدل، فيتبين عند ذلك المهتدي منا من الضالّ «وَهُوَ الفَتَّاحُ العَلِيمُ» يقول: والله القاضي العليم بالقضاء بين خلقه، لأنه لا تخفى عنه خافية، ولا يحتاج إلى شهود تعرّفه المُحقّ من المبطل. وينقل في المقطع أقوالاً عن ابن عباس وقتادة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=34&tAyahNo=25&tDisplay=yes&UserProfile=0&LanguageId=1

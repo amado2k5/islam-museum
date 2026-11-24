@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-9-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يذكر الطبري أن الله جعل بين سبأ والقرى التي بارك فيها، وهي الشام، قرى ظاهرة متصلة، وقدّر فيها السير، وقال سيروا فيها ليالي وأياماً آمنين. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=34&tAyahNo=18&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَجَعَلْنَا بَيْنَهُمْ وَبَيْنَ ٱلْقُرَى ٱلَّتِي بَارَكْنَا فِيهَا قُرًى ظَاهِرَةً وَقَدَّرْنَا فِيهَا ٱلسَّيْرَ سِيرُواْ فِيهَا لَيَالِيَ وَأَيَّاماً آمِنِينَ»: يقول تعالى ذكره مخبراً عن نعمته التي كان أنعمها على هؤلاء القوم الذين ظلموا أنفسهم. وجعلنا بين بلدهم وبين القُرى التي باركنا فيها وهي الشأم، قُرًى ظاهرة. وينقل في المقطع أقوالاً عن ابن عباس ومجاهد وقتادة وابن زيد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=34&tAyahNo=18&tDisplay=yes&UserProfile=0&LanguageId=1

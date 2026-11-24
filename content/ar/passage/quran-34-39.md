@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-9-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يذكر الطبري أن الله يحشر الكفار جميعاً ثم يقول للملائكة أهؤلاء إياكم كانوا يعبدون، فتتبرأ الملائكة وتقول سبحانك أنت ولينا من دونهم بل كانوا يعبدون الجن أكثرهم بهم مؤمنون. وهذا التفسير مشترك بين الآيات 39 إلى 41. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=34&tAyahNo=39&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 39 إلى 41 مقطعاً واحداً. يفسّر قوله «قُلْ إِنَّ رَبِّي يَبْسُطُ ٱلرِّزْقَ لِمَن يَشَآءُ مِنْ عِبَادِهِ وَيَقْدِرُ لَهُ وَمَآ أَنفَقْتُمْ مِّن شَيْءٍ فَهُوَ يُخْلِفُهُ وَهُوَ خَيْرُ ٱلرَّازِقِينَ»: ويوم نحشر هؤلاء الكفار بالله جميعاً، ثم نقول للملائكة: أهؤلاء كانوا يعبدونكم من دوننا؟ فتتبرأ منهم الملائكة «قَالُوا سُبْحَانَكَ» ربنا، تنزيهاً لك وتبرئة مما أضاف إليك هؤلاء من الشركاء والأنداد «أَنْتَ وَلِيُّنَا مِنْ دونِهِمْ» لا نتخذ ولياً دونك «بَلْ كَانُوا يَعْبُدُونَ الْجِنَّ». وينقل في المقطع أقوالاً عن قتادة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=34&tAyahNo=39&tDisplay=yes&UserProfile=0&LanguageId=1

@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-9-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يأمر الله نبيه أن يسأل المشركين من يرزقكم من السماوات والأرض، ثم يأمره أن يقول الله، وأنا أو إياكم لعلى هدى أو في ضلال مبين. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=34&tAyahNo=24&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «قُلْ مَن يَرْزُقُكُمْ مِّنَ ٱلسَّمَٰوَٰتِ وَٱلأَرْضِ قُلِ ٱللَّهُ وَإِنَّآ أَوْ إِيَّاكُمْ لَعَلَىٰ هُدًى أَوْ فِي ضَلاَلٍ مُّبِينٍ»: قل يا محمد لهؤلاء المشركين بربهم الأوثان والأصنام: من يرزقكم من السموات والأرض بإنزاله الغيث عليكم منها حياة لحروثكم، وصلاحاً لمعايشكم، وتسخيره الشمس والقمر والنجوم لمنافعكم، ومنافع أقواتكم، والأرض بإخراجه منها أقواتكم وأقوات أنعامكم؟ وترك الخبر عن جواب القوم استغناء بدلالة الكلام عليه، ثم ذكره، وهو: فإن قالوا: لا ندري، فقل: الذي يرزقكم ذلك الله، «وإنا أو إياكم» أيها القوم «لعلي هُدًى أو في ضلال مبين» يقول: قل لهم: إنا لعلى هدى أو في ضلال، أو إنكم على ضلال أو هُدًى. وينقل في المقطع أقوالاً عن قتادة وعكرمة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=34&tAyahNo=24&tDisplay=yes&UserProfile=0&LanguageId=1

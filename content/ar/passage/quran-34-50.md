@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-9-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يأمر الله نبيه أن يقول إن ضللت فإنما أضل على نفسي، وإن اهتديت فبما يوحي إليّ ربي، إنه سميع قريب. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=34&tAyahNo=50&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «قُلْ إِن ضَلَلْتُ فَإِنَّمَآ أَضِلُّ عَلَىٰ نَفْسِي وَإِنِ ٱهْتَدَيْتُ فَبِمَا يُوحِي إِلَيَّ رَبِّي إِنَّهُ سَمِيعٌ قَرِيبٌ»: قل يا محمد لقومك: إن ضَلَلتُ عن الهدى، فسلكت غير طريق الحقّ، فإنما ضلالي عن الصواب على نفسي، يقول: فإن ضلالي عن الهدى على نفسي ضرّه «وَإنِ اهْتَدَيْتُ» يقول: وإن استقمت على الحقّ «فِيما يُوحِي إليَّ رَبّي» يقول: فبوحي الله الذي يوحِي إليّ، وتوفيقه للاستقامة على محجة الحق وطريق الهُدى. وقوله: «إنَّهُ سَمِيعٌ قَرِيبٌ» يقول: إن ربي سميع لما أقول لكم، حافظ له، وهو المجازِي لي على صدقي في ذلك، وذلك مني غير بعيد، فيتعذّر عليه سماع ما أقول لكم، وما تقولون، وما يقوله غيرنا، ولكنه قريب من كلّ متكلم يسمع كل ما ينطق به، أقرب إليه من حبل الوريد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=34&tAyahNo=50&tDisplay=yes&UserProfile=0&LanguageId=1

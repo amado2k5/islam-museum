@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-9-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن الله خلق الناس من تراب، يعني خلق أباهم آدم منه، ثم من نطفة، ثم جعلهم أزواجاً، وأنه لا تحمل أنثى ولا تضع إلا بعلمه، وما يعمّر من معمّر ولا ينقص من عمره إلا في كتاب. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=35&tAyahNo=11&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَٱللَّهُ خَلَقَكُمْ مِّن تُرَابٍ ثُمَّ مِن نُّطْفَةٍ ثُمَّ جَعَلَكُمْ أَزْوَاجاً وَمَا تَحْمِلُ مِنْ أُنْثَىٰ وَلاَ تَضَعُ إِلاَّ بِعِلْمِهِ وَمَا يُعَمَّرُ مِن مُّعَمَّرٍ وَلاَ يُنقَصُ مِنْ عُمُرِهِ إِلاَّ فِي كِتَابٍ إِنَّ ذَلِكَ عَلَى ٱللَّهِ يَسِيرٌ»: «وَاللّهُ خَلَقَكُمْ» أيها الناس «مِنْ تُرابٍ» يعني بذلك أنه خلق أباهم آدم من تراب، فجعل خلق أبيهم منه لهم خلقاً «ثُمَّ مِنْ نُطْفَةٍ» يقول: ثم خلقكم من نطفة الرجل والمرأة «ثُمَّ جَعَلَكُمْ أزْوَاجاً» يعني أنه زوّج منهم الأنثى من الذكر. وينقل في المقطع أقوالاً عن ابن عباس وقتادة وابن زيد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=35&tAyahNo=11&tDisplay=yes&UserProfile=0&LanguageId=1

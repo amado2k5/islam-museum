@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-9-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن الله يمسك السماوات والأرض أن تزولا، ولو زالتا ما أمسكهما أحد من بعده، إنه كان حليماً غفوراً. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=35&tAyahNo=41&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «إِنَّ ٱللَّهَ يُمْسِكُ ٱلسَّمَٰوَٰتِ وَٱلأَرْضَ أَن تَزُولاَ وَلَئِن زَالَتَآ إِنْ أَمْسَكَهُمَا مِنْ أَحَدٍ مِّن بَعْدِهِ إِنَّهُ كَانَ حَلِيماً غَفُوراً»: «إنَّ اللّهَ يُمْسِكُ السَّمَوَاتِ وَالأرْضَ» لئلا تزولا من أماكنهما «وَلَئِنْ زَالَتا» يقول: ولو زالتا «إنْ أمْسَكَهُما مِنْ أحَدٍ مِنْ بَعْدِهِ» يقول: ما أمسكهما أحد سواه. ووضعت «لئن» في قوله «وَلَئِنْ زَالَتا» في موضع «لو» لأنهما يجابان بجواب واحد، فيتشابهان في المعنى ونظير ذلك قوله:«وَلَئِنْ أرْسَلْنا رِيحاً فَرَأَوْهُ مُصْفَرًّا لَظَلُّوا مِنْ بَعْدِهِ يكْفُرُونَ» بمعنى: ولو أرسلنا ريحاً، وكما قال:«ولئن أتَيْتَ الَّذِينَ أُوتُوا الكِتابَ» بمعنى: لو أتيت. وقد بيَّنا ذلك فيما مضى بما أغنى عن إعادته في هذا الموضع. وينقل في المقطع أقوالاً عن قتادة والأعمش وإبراهيم.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=35&tAyahNo=41&tDisplay=yes&UserProfile=0&LanguageId=1

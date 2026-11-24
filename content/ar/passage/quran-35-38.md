@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-9-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أنه يقال للكافرين ذوقوا العذاب فما للظالمين من نصير، وأن الله عالم غيب السماوات والأرض إنه عليم بذات الصدور. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=35&tAyahNo=38&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «إِنَّ ٱللَّهَ عَالِمُ غَيْبِ ٱلسَّمَٰوَٰتِ وَٱلأَرْضِ إِنَّهُ عَلِيمٌ بِذَاتِ ٱلصُّدُورِ»: «فَذُوقُوا» نار عذاب جهنم الذي قد صَلِيتموه أيها الكافرون بالله «فَمَا للظَّالِمِينَ مِنْ نَصِير» يقول: فما للكافرين الذين ظلموا أنفسهم فأكسَبُوها غضب الله بكفرهم بالله في الدنيا من نصير ينصرهم من الله ليستنقذهم من عقابه. وقوله: «إنَّ اللّهَ عالِمُ غَيْبِ السَّمَوَاتِ والأرْضِ» يقول تعالى ذكره: إن الله عالم ما تُخْفون أيها الناس في أنفسكم وتُضْمرونه، وما لم تضمروه ولم تنوُوه مما ستنوُونه، وما هو غائب عن أبصاركم في السموات والأرض، فاتقوه أن يَطَّلع عليكم، وأنتم تضمرون في أنفسكم من الشكّ في وحدانية الله، أو في نبوّة محمد، غير الذي تبدونه بألسنتكم، «إِنَّه عَلِيمٌ بِذَاتِ الصُّدُورِ».
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=35&tAyahNo=38&tDisplay=yes&UserProfile=0&LanguageId=1

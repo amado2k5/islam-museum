@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-9-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يذكر الطبري أن أصحاب القرية قالوا للرسل إنا تطيّرنا بكم أي تشاءمنا، لئن لم تنتهوا لنرجمنكم وليمسنكم منا عذاب أليم. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=36&tAyahNo=18&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «قَالُوۤاْ إِنَّا تَطَيَّرْنَا بِكُمْ لَئِن لَّمْ تَنتَهُواْ لَنَرْجُمَنَّكُمْ وَلَيَمَسَّنَّكُمْ مِّنَّا عَذَابٌ أَلِيمٌ»: قال أصحاب القرية للرسل: «أنَّا تَطَيَّرْنا بِكُمْ» يعنون: إنا تشاءمنا بكم، فإن أصابنا بَلاء فمن أجلكم، كما: وعن قتادة «قالُوا إنَّا تَطَيَّرْنا بِكُمْ» قالوا: إن أصابنا شرّ، فإنما هو من أجلكم. وقوله: «لَئِنْ لَمْ تَنْتَهُوا لَنرْجُمَنَّكُمْ» يقول: لئن لم تنتهوا عما ذكرتم من أنكم أرسلتم إلينا بالبراءة من آلهتنا، والنهي عن عبادتنا لنرجمنكم، قيل: عُني بذلك لنرجُمَنَّكم بالحجارة. وينقل في المقطع أقوالاً عن قتادة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=36&tAyahNo=18&tDisplay=yes&UserProfile=0&LanguageId=1

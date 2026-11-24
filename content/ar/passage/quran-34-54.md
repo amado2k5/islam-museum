@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-9-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يذكر الطبري أنه حيل بين المشركين وبين ما يشتهون من الإيمان، كما فُعل بأشباههم من قبل إنهم كانوا في شك مريب. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=34&tAyahNo=54&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَحِيلَ بَيْنَهُمْ وَبَيْنَ مَا يَشْتَهُونَ كَمَا فُعِلَ بِأَشْيَاعِهِم مِّن قَبْلُ إِنَّهُمْ كَانُواْ فِي شَكٍّ مُّرِيبٍ»: وحيل بين هؤلاء المشركين حين فزعوا، فلا فوت، وأخذوا من مكان قريب، فقالوا آمنا به «وَبَينَ ما يَشْتَهُونَ» حينئذ من الإيمان بما كانوا به في الدنيا قبل ذلك يكفرون ولا سبيل لهم إليه. وينقل في المقطع أقوالاً عن مجاهد وقتادة والحسن وابن زيد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=34&tAyahNo=54&tDisplay=yes&UserProfile=0&LanguageId=1

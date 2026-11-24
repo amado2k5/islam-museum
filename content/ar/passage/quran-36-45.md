@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-9-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يذكر الطبري أنه إذا قيل لهم اتقوا ما بين أيديكم وما خلفكم لعلكم ترحمون أعرضوا، فيفسّر ما بين أيديهم بما مضى من نقم الله بالأمم قبلهم وما خلفهم بما يلاقونه بعد هلاكهم، وما تأتيهم من آية من آيات ربهم إلا كانوا عنها معرضين. وهذا التفسير مشترك بين الآيتين 45 و46. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=36&tAyahNo=45&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 45 إلى 46 مقطعاً واحداً. يفسّر قوله «وَإِذَا قِيلَ لَهُمُ ٱتَّقُواْ مَا بَيْنَ أَيْدِيكُمْ وَمَا خَلْفَكُمْ لَعَلَّكُمْ تُرْحَمُونَ»: وإذا قيل لهؤلاء المشركين بالله، المكذّبين رسوله محمداً: احذروا ما مضى بين أيديكم من نقم الله وَمثُلاته بمن حلّ ذلك به من الأمم قبلكم أن يحلّ مثله بكم بشرككم وتكذيبكم رسوله. «وَما خَلْفَكُمْ» يقول: وما بعد هلاككم مما أنتم لاقوه إن هلكتم على كفركم الذي أنت عليه «لَعَلَّكُمْ تُرْحَمُونَ» يقول: ليرحمكم ربكم إن أنتم حذرتم ذلك، واتقيتموه بالتوبة من شرككم والإيمان به، ولزوم طاعته فيما أوجب عليكم من فرائضه. وينقل في المقطع أقوالاً عن مجاهد وقتادة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=36&tAyahNo=45&tDisplay=yes&UserProfile=0&LanguageId=1

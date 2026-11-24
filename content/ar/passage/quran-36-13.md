@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-9-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يذكر الطبري أن الله يأمر نبيه أن يضرب لمشركي قومه مثلاً أصحاب القرية، وقيل إنها أنطاكية، إذ جاءها المرسلون، ويذكر اختلاف أهل العلم في هؤلاء الرسل: فقال بعضهم هم رسل عيسى ابن مريم، فكذّبوهم فعزّزهم الله بثالث. وهذا التفسير مشترك بين الآيتين 13 و14. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=36&tAyahNo=13&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 13 إلى 14 مقطعاً واحداً. يفسّر قوله «وَٱضْرِبْ لَهُمْ مَّثَلاً أَصْحَابَ ٱلقَرْيَةِ إِذْ جَآءَهَا ٱلْمُرْسَلُونَ»: ومثل يا محمد لمشركي قومك مثلاً أصحابَ القرية ذُكر أنها أنطاكية، «إذْ جاءَها المُرْسَلُونَ». اختلف أهل العلم في هؤلاء الرسل، وفيمن كان أرسلهم إلى أصحاب القرية، فقال بعضهم: كانوا رسل عيسى بن مريم، وعيسى الذي أرسلهم إليهم. وينقل في المقطع أقوالاً عن ابن عباس ومجاهد وقتادة وعكرمة وابن زيد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=36&tAyahNo=13&tDisplay=yes&UserProfile=0&LanguageId=1

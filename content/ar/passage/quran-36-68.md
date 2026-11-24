@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-9-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن من يطل الله عمره ننكسه في الخلق، أي نردّه إلى ضعف الكبر فلا يعلم شيئاً بعد علم، أفلا يعقلون، وأن الله ما علّم نبيه الشعر وما ينبغي له، إن هو إلا ذكر وقرآن مبين لينذر من كان حياً ويحقّ القول على الكافرين. وهذا التفسير مشترك بين الآيات 68 إلى 70. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=36&tAyahNo=68&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 68 إلى 70 مقطعاً واحداً. يفسّر قوله «وَمَن نُّعَمِّرْهُ نُنَكِّسْهُ فِي ٱلْخَلْقِ أَفَلاَ يَعْقِلُونَ»: «وَمَنْ نُعَمِّرْهُ» فنمُدّ له في العمر «نُنَكِّسْهُ فِي الخَلْقِ» نردّه إلى مثل حاله في الصبا من الهرم والكبر، وذلك هو النكس في الخلق، فيصير لا يعلم شيئاً بعد العلم الذي كان يعلمه. وبالذي قلنا في ذلك قال أهل التأويل. وينقل في المقطع أقوالاً عن قتادة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=36&tAyahNo=68&tDisplay=yes&UserProfile=0&LanguageId=1

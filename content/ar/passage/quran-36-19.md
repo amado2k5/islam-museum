@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-9-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن الرسل قالوا طائركم معكم، أي أعمالكم وحظكم من الخير والشر مكتوب عليكم لا من شؤمنا، أئن ذُكّرتم بل أنتم قوم مسرفون، وجاء من أقصى المدينة رجل يسعى قال يا قوم اتبعوا المرسلين اتبعوا من لا يسألكم أجراً وهم مهتدون. وهذا التفسير مشترك بين الآيات 19 إلى 21. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=36&tAyahNo=19&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 19 إلى 21 مقطعاً واحداً. يفسّر قوله «قَالُواْ طَائِرُكُم مَّعَكُمْ أَئِن ذُكِّرْتُم بَلْ أَنتُمْ قَوْمٌ مُّسْرِفُونَ»: قالت الرسل لأصحاب القرية: «طائِرُكُمْ مَعَكُمْ أئِنْ ذُكِّرْتُمْ» يقولون: أعمالكم وأرزاقكم وحظُّكم من الخير والشرّ مَعكم، ذلك كله في أعناقكم، وما ذلك من شؤمنا إن أصابكم سوء فيما كتب عليكم، وسبق لكم من الله. وينقل في المقطع أقوالاً عن ابن عباس وقتادة وابن إسحاق.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=36&tAyahNo=19&tDisplay=yes&UserProfile=0&LanguageId=1

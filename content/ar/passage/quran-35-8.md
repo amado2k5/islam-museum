@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-9-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يفسّر الطبري أن من زيّن له الشيطان سوء عمله فرآه حسناً كمن هداه الله، فلا تذهب نفسك عليهم حسرات، فإن الله يضل من يشاء ويهدي من يشاء وهو عليم بما يصنعون. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=35&tAyahNo=8&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «أَفَمَن زُيِّنَ لَهُ سُوۤءُ عَمَلِهِ فَرَآهُ حَسَناً فَإِنَّ ٱللَّهَ يُضِلُّ مَن يَشَآءُ وَيَهْدِي مَن يَشَآءُ فَلاَ تَذْهَبْ نَفْسُكَ عَلَيْهِمْ حَسَرَاتٍ إِنَّ ٱللَّهَ عَلِيمٌ بِمَا يَصْنَعُونَ»: أفمن حسَّن له الشيطان أعماله السيئة من معاصي الله والكفر به، وعبادة ما دونه من الآلهة والأوثان، فرآه حسناً، فحسب سيىء ذلك حسناً، وظنّ أن قُبحه جميل، لتزيين الشيطان ذلك له، ذهبت نفسك عليهم حسرات وحذف من الكلام: ذهبت نفسك عليهم حسرات، اكتفاء بدلالة قوله: «فَلا تَذْهَبْ نَفْسُكَ عَلَيْهِمْ حَسَرَاتٍ» منه. وينقل في المقطع أقوالاً عن قتادة وابن زيد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=35&tAyahNo=8&tDisplay=yes&UserProfile=0&LanguageId=1

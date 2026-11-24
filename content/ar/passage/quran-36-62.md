@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-9-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يذكر الطبري أن الشيطان قد أضلّ منهم جبلاً كثيراً أي خلقاً كثيراً فأطاعوه وعبدوه، أفلم تكونوا تعقلون، هذه جهنم التي كنتم توعدون اصلوها اليوم بما كنتم تكفرون. وهذا التفسير مشترك بين الآيات 62 إلى 64. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=36&tAyahNo=62&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 62 إلى 64 مقطعاً واحداً. يفسّر قوله «وَلَقَدْ أَضَلَّ مِنْكُمْ جِبِلاًّ كَثِيراً أَفَلَمْ تَكُونُواْ تَعْقِلُونَ»: يعني تعالى ذكره بقوله: «وَلَقَدْ أضَلَّ مِنْكُمْ جِبِلاًّ كَثِيراً»: ولقد صدّ الشيطان منكم خلقاً كثيراً عن طاعتي، وإفرادي بالألوهة حتى عبدوه، واتخذوا من دوني آلهة يعبدونها، كما: وعن ابن أبي نجيح، عن مجاهد «وَلَقَدْ أضَلَّ مِنْكُمْ جِبِلاًّ» قال: خلقاً. واختلف القرّاء في قراءة ذلك، فقرأته عامة قرّاء المدينة وبعض الكوفيين «جِبِلاًّ» بكسر الجيم وتشديد اللام، وكان بعض المكِّيين وعامة قرّاء الكوفة يقرؤونه: «جُبُلاً» بضم الجيم والباء وتخفيف اللام. وينقل في المقطع أقوالاً عن مجاهد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=36&tAyahNo=62&tDisplay=yes&UserProfile=0&LanguageId=1

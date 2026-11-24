@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-9-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يذكر الطبري أن النفخة الثانية هي نفخة البعث، فإذا هم من الأجداث وهي القبور إلى ربهم ينسلون، ويقولون يا ويلنا من بعثنا من مرقدنا، هذا ما وعد الرحمن وصدق المرسلون، إن كانت إلا صيحة واحدة فإذا هم جميع لدينا محضرون. وهذا التفسير مشترك بين الآيات 51 إلى 53. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=36&tAyahNo=51&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 51 إلى 53 مقطعاً واحداً. يفسّر قوله «وَنُفِخَ فِي ٱلصُّورِ فَإِذَا هُم مِّنَ ٱلأَجْدَاثِ إِلَىٰ رَبِّهِمْ يَنسِلُونَ»: «ونُفِخَ فِي الصُّورِ»، وقد ذكرنا اختلاف المختلفين والصواب من القول فيه بشواهده فيما مضى قبل بما أغنى عن إعادته في هذا الموضع، ويُعْنَى بهذه النفخة، نفخة البعث. وقوله: «فإذَا هُمْ مِنَ الأجْدَاثِ» يعني من أجداثهم، وهي قبورهم، واحدها جَدَث، وفيها لغتان، فأما أهل العالية، فتقوله بالثاء: جَدَث، وأما أهل السافلة فتقوله بالفاء جَدَف. وينقل في المقطع أقوالاً عن ابن عباس ومجاهد وقتادة والحسن.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=36&tAyahNo=51&tDisplay=yes&UserProfile=0&LanguageId=1

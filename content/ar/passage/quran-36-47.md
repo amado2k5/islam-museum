@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-9-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يذكر الطبري أنه إذا قيل للمشركين أنفقوا مما رزقكم الله قالوا للذين آمنوا أنطعم من لو يشاء الله أطعمه، إن أنتم إلا في ضلال مبين. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=36&tAyahNo=47&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَإِذَا قِيلَ لَهُمْ أَنفِقُواْ مِمَّا رَزَقَكُمُ ٱلله قَالَ ٱلَّذِينَ كَفَرُواْ لِلَّذِينَ آمَنُوۤاْ أَنُطْعِمُ مَن لَّوْ يَشَآءُ ٱللَّهُ أَطْعَمَهُ إِنْ أَنتُمْ إِلاَّ فِي ضَلاَلٍ مُّبِينٍ»: وإذا قيل لهؤلاء المشركين بالله: أنفقوا من رزق الله الذي رزقكم، فأدُّوا منه ما فرض الله عليكم فيه لأهل حاجتكم ومسكنتكم، قال الذين أنكروا وحدانية الله، وعبدوا مَنْ دونه للذين آمنوا بالله ورسوله: أنطعم أموالنا وطعامنا مَنْ لو يشاء الله أطعمه؟. وفي قوله: «إنْ أنْتُمْ إلاَّ فِي ضَلالٍ مُبِين» وجهان: أحدهما أن يكون من قيل الكفار للمؤمنين، فيكون تأويل الكلام حينئذٍ: ما أنتم أيها القومُ في قيلكم لنا: أنفقوا مما رزقكم الله على مساكينكم، إلا في ذهاب عن الحقّ، وجور عن الرشد مُبِين لمن تأمله وتدبره، أنه في ضلال وهذا أَوْلى وجهيه بتأويله.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=36&tAyahNo=47&tDisplay=yes&UserProfile=0&LanguageId=1

@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-9-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أنه في ذلك اليوم لا يملك بعضهم لبعض نفعاً ولا ضراً، ويقال للذين ظلموا ذوقوا عذاب النار التي كنتم بها تكذبون. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=34&tAyahNo=42&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «فَٱلْيَوْمَ لاَ يَمْلِكُ بَعْضُكُمْ لِبَعْضٍ نَّفْعاً وَلاَ ضَرّاً وَنَقُولُ لِلَّذِينَ ظَلَمُواْ ذُوقُواْ عَذَابَ ٱلنَّارِ ٱلَّتِي كُنتُم بِهَا تُكَذِّبُونَ»: فاليوم لا يملك بعضكم أيها الملائكة للذين كانوا في الدنيا يعبدونكم نفعاً ينفعونكم به ولا ضرًّا ينالونكم به، أو تنالونهم به «وَنَقُولُ للَّذِينَ ظَلَمُوا» يقول: ونقول للذين عبدوا غير الله فوضعوا العبادة في غير موضعها، وجعلوها لغير من تنبغي أن تكون له: «ذُوقُوا عَذَابَ النَّارِ التي كُنْتُم بها» في الدنيا «تُكَذّبونَ» فقد وردتموها.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=34&tAyahNo=42&tDisplay=yes&UserProfile=0&LanguageId=1

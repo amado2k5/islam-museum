@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-9-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يذكر الطبري أن المشركين يقولون استعجالاً متى هذا الوعد إن كنتم صادقين، يقولون ذلك للمؤمنين. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=36&tAyahNo=48&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَيَقُولُونَ مَتَىٰ هَذَا ٱلْوَعْدُ إِن كُنتُمْ صَادِقِينَ»: ويقول هؤلاء المشركون المكذّبون وعيدَ الله، والبعثَ بعد الممات، يستعجلون ربهم بالعذاب «مَتى هَذَا الوَعْدُ»: أي الوعد بقيام الساعة «إنْ كُنْتُمْ صَادِقِينَ» أيها القوم، وهذا قولهم لأهل الإيمان بالله ورسوله.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=36&tAyahNo=48&tDisplay=yes&UserProfile=0&LanguageId=1
