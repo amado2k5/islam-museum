@@ -3,6 +3,11 @@ id: passage/quran-47-4
 lang: ar
 source_lang: ar
 translators: []
+provenance:
+  generated_by: "Claude Code (Sonnet 5.5 session)"
+  model: claude-sonnet-5-5
+  run: altafsir-tabari-batch-10-2026-11-24
+  source: source/altafsir-tabari
 ---
 
 ## موجز
@@ -10,3 +15,7 @@ translators: []
 
 ## موضعها
 موضعها: الآية 4 من أصل 38 آية في السورة. النص محفوظ من مصحف تنزيل المجمّد ولا يُعاد كتابته هنا.
+
+## تفسير الطبري
+
+يعرض الطبري تفسير قوله تعالى في لقاء الذين كفروا من أهل الحرب فضرب الرقاب حتى إذا أُثخنوا شُدّ الوثاق ثم المنّ بعد والفداء حتى تضع الحرب أوزارها، ويورد اختلاف أهل التأويل والفقهاء في حكم الأسرى بين المنّ والفداء والقتل، وفي هل هي منسوخة، منسوباً كل قول إلى قائله. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=47&tAyahNo=4&tDisplay=yes&UserProfile=0&LanguageId=1
