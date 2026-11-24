@@ -2,6 +2,13 @@ id: person/al-ghazali-abu-hamid
 class: person
 tags: [madhahib-browser, mh-shafii]
 label: { ar: "أبو حامد الغزالي", en: "Abu Hamid al-Ghazali", fr: "Abu Hamid al-Ghazali", es: "Abu Hamid al-Ghazali", ur: "ابو حامد الغزالی" }
+name_parts:
+  ism:
+    - { value: "محمد", translit: "Muhammad", certainty: attested, sources: [source/jstor-schimmel-islamic-names], note: "Facts in this name block come from a research summary supplied to the museum (classical-arabic-names.md); the museum did not open the pages it cites; founder approval to use the file without re-verification, 21 Nov 2026." }
+  nasab:
+    - { value: "بن محمد", translit: "ibn Muhammad", certainty: attested, sources: [source/beeston-arabic-nomenclature] }
+  laqab:
+    - { value: "حجة الإسلام", translit: "Hujjat al-Islam", meaning: { en: "Proof of Islam", ar: "حجة الإسلام", ur: "اسلام کی حجت", fr: "Preuve de l'islam", es: "Prueba del islam" }, certainty: attested, sources: [source/jstor-schimmel-islamic-names] }
 names:
   - { value: "أبو حامد محمد بن محمد الغزالي الشافعي", kind: full }
 gender: male
