@@ -3,6 +3,11 @@ id: passage/quran-71-16
 lang: ar
 source_lang: ar
 translators: []
+provenance:
+  generated_by: "Claude Code (Sonnet 5.5 session)"
+  model: claude-sonnet-5-5
+  run: altafsir-tabari-batch-12-2026-11-24
+  source: source/altafsir-tabari
 ---
 
 ## موجز
@@ -10,3 +15,7 @@ translators: []
 
 ## موضعها
 موضعها: الآية 16 من أصل 28 آية في السورة. النص محفوظ من مصحف تنزيل المجمّد ولا يُعاد كتابته هنا.
+
+## تفسير الطبري
+
+يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل الآيات [[passage/quran-71-15|71:15]] إلى [[passage/quran-71-18|71:18]]، وخلاصتها: يشرح الطبري أن القمر جُعل فيهن نوراً والشمس سراجاً، ويروي عن عبد الله بن عمرو بن العاص أن ضوءهما نورهما في السماء، ويذكر قول بعض أهل العربية إن ذلك على المجاز كقولهم أتيت بني تميم. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=71&tAyahNo=16&tDisplay=yes&UserProfile=0&LanguageId=1
