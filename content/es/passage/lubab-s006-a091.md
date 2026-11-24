@@ -11,11 +11,8 @@ Informe de al-Suyuti sobre la ocasión de revelación de al-An'am 6:91, en Lubab
 The verse, in al-Suyuti's heading: «وما قدروا الله».
 
 ## Informe completo (texto fuente en árabe)
-<div dir="rtl" lang="ar">
 
 وما قدروا الله الآية أخرج ابن أبي حاتم عن سعيد ابن جبير قال جاء رجل من اليهود يقال له مالك بن الصيف فخاصم النبي فقال له النبي أنشدك بالذي أنزل التوراة على موسى هل تجد في التوراة أن الله يبغض الحبر
-
-</div>
 
 ## Place in the museum
 Fuente: [[work/lubab-al-nuqul-suyuti|de al-Suyuti Lubab al-Nuqul]]. El versículo: [[passage/quran-6-91|Corán 6-91]].

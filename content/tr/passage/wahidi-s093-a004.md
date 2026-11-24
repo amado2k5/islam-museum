@@ -11,11 +11,8 @@ ad-Duha 93:4 ayetinin nüzül sebebi hakkında El-Vahidi'nin rivayeti; Esbab Nü
 The verse, in al-Wahidi's heading: «وللآخرة خير لك من الأولى».
 
 ## Tam rivayet (Arapça kaynak metin)
-<div dir="rtl" lang="ar">
 
 وسلم - ما يفتح على أمته من بعده، فسر بذلك، فأنزل الله-
-
-</div>
 
 ## Place in the museum
 Kaynak: [[work/asbab-nuzul-wahidi|El-Vahidi'nin Esbab Nüzul el-Kur'an'ı]]. Ayet: [[passage/quran-93-4|Kur'an 93-4]].

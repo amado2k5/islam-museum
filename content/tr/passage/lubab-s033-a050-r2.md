@@ -11,11 +11,8 @@ al-Ahzab 33:50 ayetinin nüzul sebebi hakkında es-Suyuti'nin rivayeti; Lübabü
 The verse, in al-Suyuti's heading: «وامرأة مؤمنة».
 
 ## Tam rivayet (Arapça kaynak metin)
-<div dir="rtl" lang="ar">
 
 وامرأة مؤمنة الآية أخرج ابن سعد عن عكرمة في قوله وامرأة مؤمنة الآية قال نزلت في أم شريك الدوسية وأخرج ابن سعد عن منير بن عبد الله الدؤلي أن أم شريك غزية بنت جابر ابن حكيم الدوسية عرضت نفسها على النبي
-
-</div>
 
 ## Place in the museum
 Kaynak: [[work/lubab-al-nuqul-suyuti|es-Suyuti'nin Lubab al-Nuqul]]. Ayet: [[passage/quran-33-50|Kur'an 33-50]].

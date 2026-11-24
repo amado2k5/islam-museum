@@ -11,11 +11,8 @@ Riwayat al-Wahidi tentang sebab turunnya Bara'a (at-Tawba) 9:111, diriwayatkan d
 The verse, in al-Wahidi's heading: «إن الله اشترى من المؤمنين أنفسهم وأموالهم».
 
 ## Laporan lengkap (teks sumber Arab)
-<div dir="rtl" lang="ar">
 
 قالوا: ربح البيع لا نقيل ولا نستقيل، فنزلت
-
-</div>
 
 ## Place in the museum
 Sumber: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an al-Wahidi]]. Ayatnya: [[passage/quran-9-111|Al-Qur'an 9-111]].

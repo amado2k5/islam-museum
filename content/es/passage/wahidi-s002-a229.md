@@ -11,11 +11,8 @@ Informe de al-Wahidi sobre la ocasión de revelación de al-Baqara 2, transmitid
 The verse, in al-Wahidi's heading: «الطلاق مرتان فإمساك بمعروف».
 
 ## Informe completo (texto fuente en árabe)
-<div dir="rtl" lang="ar">
 
 عدتها ارتجعها، ثم طلقها وقال: والله لا آويك إلي ولا تحلين أبدا، فأنزل
-
-</div>
 
 ## Place in the museum
 Fuente: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an de al-Wahidi]]. El versículo: [[passage/quran-2-229|Corán 2-229]].

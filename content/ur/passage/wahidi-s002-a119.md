@@ -11,11 +11,8 @@ al-Baqara 2:119 کے سببِ نزول پر الواحدی کی روایت — �
 The verse, in al-Wahidi's heading: «ولا تسأل عن ms022 أصحاب الجحيم».
 
 ## مکمل روایت ⁦(عربی ماخذ متن)⁩
-<div dir="rtl" lang="ar">
 
 " فنزلت هذه الآية.
-
-</div>
 
 ## Place in the museum
 ماخذ: [[work/asbab-nuzul-wahidi|الواحدی کی اسباب نزول القرآن]]۔ آیت: [[passage/quran-2-119|قرآن 2-119]]۔

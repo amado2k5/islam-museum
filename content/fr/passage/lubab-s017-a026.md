@@ -11,11 +11,8 @@ Rapport d'al-Suyuti sur la circonstance de révélation de al-Isra 17:26, dans L
 The verse, in al-Suyuti's heading: «وآت ذا القربى».
 
 ## Rapport complet (texte source arabe)
-<div dir="rtl" lang="ar">
 
 وآت ذا القربى الآية أخرج الطبراني وغيره عن أبي سعيد الخدري قال لما أنزلت وآت ذا القربى حقه دعا رسول الله فاطمة فأعطاها فدك قال ابن كثير هذا مشكل فانه يشعر بأن الآية مدنية والمشهور خلافه وروى مردويه عن ابن عباس
-
-</div>
 
 ## Place in the museum
 Source : [[work/lubab-al-nuqul-suyuti|d'al-Suyuti Lubab al-Nuqul]]. Le verset: [[passage/quran-17-26|Coran 17-26]].

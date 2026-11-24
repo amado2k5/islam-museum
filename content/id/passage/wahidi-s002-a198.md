@@ -11,11 +11,8 @@ Riwayat al-Wahidi tentang sebab turunnya al-Baqara 2:198, diriwayatkan dari gene
 The verse, in al-Wahidi's heading: «ليس عليكم جناح أن تبتغوا فضلا من ربكم».
 
 ## Laporan lengkap (teks sumber Arab)
-<div dir="rtl" lang="ar">
 
 سألت ابن عمر فقلت: إنا قوم نكرى في هذا الوجه، وإن
-
-</div>
 
 ## Place in the museum
 Sumber: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an al-Wahidi]]. Ayatnya: [[passage/quran-2-198|Al-Qur'an 2-198]].

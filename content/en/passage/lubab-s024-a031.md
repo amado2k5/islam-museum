@@ -11,11 +11,8 @@ Al-Suyuti's report on the occasion of revelation of an-Nur 24:31, in Lubab al-Nu
 The verse, in al-Suyuti's heading: «وقل للمؤمنات».
 
 ## Full report (Arabic source text)
-<div dir="rtl" lang="ar">
 
 وقل للمؤمنات الآية أخرج ابن أبي حاتم عن مقاتل قال بلغنا أن جابر بن عبد الله حدث أن أسماء بنت مرثد كانت في نخل لها فجعل النساء يدخلن عليها غير متأزرات فيبدو ما في أرجلهن يعني الخلاخل وتبدو صدورهن وذوائبهن فقالت أسماء ما أقبح هذا
-
-</div>
 
 ## Place in the museum
 Source: [[work/lubab-al-nuqul-suyuti|al-Suyuti's Lubab al-Nuqul]]. The verse: [[passage/quran-24-31|Qur'an 24-31]].

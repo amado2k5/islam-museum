@@ -11,11 +11,8 @@ Al-Wahidi's report on the occasion of revelation of al-Ma'arij 70:38, narrated i
 The verse, in al-Wahidi's heading: «أيطمع كل امرئ منهم أن يدخل جنة نعيم كلا».
 
 ## Full report (Arabic source text)
-<div dir="rtl" lang="ar">
 
 هؤلاء الجنة لندخلنها قبلهم، وليكونن لنا فيها أكثر مما لهم، فأنزل الله
-
-</div>
 
 ## Place in the museum
 Source: [[work/asbab-al-nuzul-wahidi|al-Wahidi's Asbab nuzul al-Qur'an]]. The verse: [[passage/quran-70-38|Qur'an 70-38]].

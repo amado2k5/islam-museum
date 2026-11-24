@@ -11,11 +11,8 @@ Al-Wahidi's report on the occasion of revelation of al-Hijr 15:11, narrated from
 The verse, in al-Wahidi's heading: «ولا نساء من نساء عسى أن يكن خيرا منهن».
 
 ## Full report (Arabic source text)
-<div dir="rtl" lang="ar">
 
 نزلت في امرأتين من أزواج النبي- سخرتا من أم
-
-</div>
 
 ## Place in the museum
 Source: [[work/asbab-al-nuzul-wahidi|al-Wahidi's Asbab nuzul al-Qur'an]]. The verse: [[passage/quran-15-11|Qur'an 15-11]].

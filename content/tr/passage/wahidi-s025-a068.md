@@ -11,11 +11,8 @@ al-Furqan 25:68 ayetinin nüzül sebebi hakkında El-Vahidi'nin rivayeti; Esbab 
 The verse, in al-Wahidi's heading: «والذين لا يدعون مع الله إلها آخر».
 
 ## Tam rivayet (Arapça kaynak metin)
-<div dir="rtl" lang="ar">
 
 تقول وتدعو إليه لحسن لو تخبرنا أن لما عملنا كفارة، فنزلت: {والذين لا
-
-</div>
 
 ## Place in the museum
 Kaynak: [[work/asbab-nuzul-wahidi|El-Vahidi'nin Esbab Nüzul el-Kur'an'ı]]. Ayet: [[passage/quran-25-68|Kur'an 25-68]].

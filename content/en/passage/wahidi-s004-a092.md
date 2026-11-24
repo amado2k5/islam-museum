@@ -11,11 +11,8 @@ Al-Wahidi's report on the occasion of revelation of an-Nisa 4:92, narrated from 
 The verse, in al-Wahidi's heading: «وما كان لمؤمن أن يقتل مؤمنا إلا خطأ».
 
 ## Full report (Arabic source text)
-<div dir="rtl" lang="ar">
 
 فقتله، فأنزل الله: {وما كان لمؤمن أن يقتل مؤمنا إلا خطأ} الآية.
-
-</div>
 
 ## Place in the museum
 Source: [[work/asbab-al-nuzul-wahidi|al-Wahidi's Asbab nuzul al-Qur'an]]. The verse: [[passage/quran-4-92|Qur'an 4-92]].

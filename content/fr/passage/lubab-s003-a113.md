@@ -11,11 +11,8 @@ Rapport d'al-Suyuti sur la circonstance de révélation de Al 'Imran 3:113, dans
 The verse, in al-Suyuti's heading: «ليسوا سواء».
 
 ## Rapport complet (texte source arabe)
-<div dir="rtl" lang="ar">
 
 ليسوا سواء الآية أخرج ابن أبي حاتم والطبراني وابن منده في الصحابة عن ابن عباس قال لما اسلم عبد الله بن سلام وثعلبة بن سعية وأسيد بن سعية وأسد بن عبد ومن أسلم من يهود معهم فآمنوا وصدقوا ورغبوا في الإسلام قالت أحبار اليهود وأهل
-
-</div>
 
 ## Place in the museum
 Source : [[work/lubab-al-nuqul-suyuti|d'al-Suyuti Lubab al-Nuqul]]. Le verset: [[passage/quran-3-113|Coran 3-113]].

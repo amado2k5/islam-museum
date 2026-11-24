@@ -11,11 +11,8 @@ Riwayat as-Suyuti tentang sebab turunnya al-A'raf 7, dalam Lubab al-Nuqul fi Asb
 The verse, in al-Suyuti's heading: «أو لم يفتكروا».
 
 ## Laporan lengkap (teks sumber Arab)
-<div dir="rtl" lang="ar">
 
 أو لم يفتكروا الآية أخرج ابن أبي حاتم وأبو الشيخ عن قتادة قال ذكر لنا أن النبي قام على الصفا فدعا قريشا فجعل يدعوهم فخذا فخذا يا بني فلان يا بني فلان يحذرهم بأس الله ووقائعه فقال قائلهم إن صاحبكم هذا
-
-</div>
 
 ## Place in the museum
 Sumber: [[work/lubab-al-nuqul-suyuti|as-Suyuti Lubab al-Nuqul]]. Ayatnya: [[passage/quran-7-184|Al-Qur'an 7-184]].

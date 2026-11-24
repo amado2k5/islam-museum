@@ -11,11 +11,8 @@ Riwayat al-Wahidi tentang sebab turunnya al-Anfal 8:17, diriwayatkan dari genera
 The verse, in al-Wahidi's heading: «وما رميت إذ رميت ولكن الله رمى».
 
 ## Laporan lengkap (teks sumber Arab)
-<div dir="rtl" lang="ar">
 
 أجمعين، فمات أبي إلى النار، فسحقا لأصحاب السعير قبل أن يقدم مكة، فأنزل
-
-</div>
 
 ## Place in the museum
 Sumber: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an al-Wahidi]]. Ayatnya: [[passage/quran-8-17|Al-Qur'an 8-17]].

@@ -11,11 +11,8 @@ Rapport d'al-Wahidi sur la circonstance de révélation de al-Baqara 2:138, tran
 The verse, in al-Wahidi's heading: «صبغة الله ومن أحسن من الله صبغة».
 
 ## Rapport complet (texte source arabe)
-<div dir="rtl" lang="ar">
 
 الختان، فإذا فعلوا ذلك قالوا: الآن صار نصرانيا حقا، فأنزل اللههذه
-
-</div>
 
 ## Place in the museum
 Source : [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an d'al-Wahidi]]. Le verset : [[passage/quran-2-138|Coran 2-138]].

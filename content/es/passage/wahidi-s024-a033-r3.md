@@ -11,11 +11,8 @@ Informe de al-Wahidi sobre la ocasión de revelación de an-Nur 24:33, transmiti
 The verse, in al-Wahidi's heading: «ولا تكرهوا فتياتكم على البغاء».
 
 ## Informe completo (texto fuente en árabe)
-<div dir="rtl" lang="ar">
 
 جابر قال: كان عبد الله بن أبي يقول لجارية له: اذهبي فابغينا شيئا، فأنزل
-
-</div>
 
 ## Place in the museum
 Fuente: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an de al-Wahidi]]. El versículo: [[passage/quran-24-33|Corán 24-33]].

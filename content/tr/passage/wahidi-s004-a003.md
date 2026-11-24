@@ -11,11 +11,8 @@ an-Nisa 4:3 ayetinin nüzül sebebi hakkında El-Vahidi'nin rivayeti; Esbab Nüz
 The verse, in al-Wahidi's heading: «وإن خفتم ألا تقسطوا في اليتامى».
 
 ## Tam rivayet (Arapça kaynak metin)
-<div dir="rtl" lang="ar">
 
 أنزلت هذه في الرجل يكون له اليتيمة وهو وليها ولها مال وليس لها أحد يخاصم
-
-</div>
 
 ## Place in the museum
 Kaynak: [[work/asbab-nuzul-wahidi|El-Vahidi'nin Esbab Nüzul el-Kur'an'ı]]. Ayet: [[passage/quran-4-3|Kur'an 4-3]].

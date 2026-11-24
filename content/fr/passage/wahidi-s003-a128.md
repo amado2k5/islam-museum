@@ -11,11 +11,8 @@ Rapport d'al-Wahidi sur la circonstance de révélation de Al 'Imran 3:128, tran
 The verse, in al-Wahidi's heading: «ليس لك من الأمر شيء».
 
 ## Rapport complet (texte source arabe)
-<div dir="rtl" lang="ar">
 
 " قال: فأنزل الله: {ليس لك من الأمر شيء أو يتوب عليهم أو
-
-</div>
 
 ## Place in the museum
 Source : [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an d'al-Wahidi]]. Le verset : [[passage/quran-3-128|Coran 3-128]].

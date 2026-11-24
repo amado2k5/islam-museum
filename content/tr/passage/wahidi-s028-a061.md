@@ -11,11 +11,8 @@ al-Qasas 28:61 ayetinin nüzül sebebi hakkında El-Vahidi'nin rivayeti; Esbab N
 The verse, in al-Wahidi's heading: «أفمن وعدناه وعدا حسنا فهو لاقيه».
 
 ## Tam rivayet (Arapça kaynak metin)
-<div dir="rtl" lang="ar">
 
 أخبرنا شعبة، عن أبان، عن مجاهد في هذه الآية قال: نزلت في علي وحمزة وأبي
-
-</div>
 
 ## Place in the museum
 Kaynak: [[work/asbab-nuzul-wahidi|El-Vahidi'nin Esbab Nüzul el-Kur'an'ı]]. Ayet: [[passage/quran-28-61|Kur'an 28-61]].

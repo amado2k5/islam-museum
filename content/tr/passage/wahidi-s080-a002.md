@@ -11,11 +11,8 @@ translators: ["machine translation, draft"]
 The verse, in al-Wahidi's heading: «عبس وتولى أن جاءه الأعمى».
 
 ## Tam rivayet (Arapça kaynak metin)
-<div dir="rtl" lang="ar">
 
 على القوم الذين يكلمهم، فأنزل اللههذه الآيات، فكان رسول الله- بعد ذلك يكرمه، وإذا رآه يقول: "مرحبا بمن عاتبني فيه
-
-</div>
 
 ## Place in the museum
 Kaynak: [[work/asbab-nuzul-wahidi|El-Vahidi'nin Esbab Nüzul el-Kur'an'ı]]. Ayet: [[passage/quran-80-2|Kur'an 80-2]].

@@ -11,11 +11,8 @@ Informe de al-Suyuti sobre la ocasión de revelación de Bara'a (at-Tawba) 9:102
 The verse, in al-Suyuti's heading: «وآخرون اعترفوا».
 
 ## Informe completo (texto fuente en árabe)
-<div dir="rtl" lang="ar">
 
 وآخرون اعترفوا الآية أخرج ابن مردويه وابن أبي حاتم من طريق العوفي عن ابن عباس قال غزا رسول الله فتخلف أبو لبابة وخمسة معه ثم أن أبا لبابة ورجلين معه تفكروا وندموا وأيقنوا بالهلاك وقالوا نحن في الظلال والطمأنينة مع النساء
-
-</div>
 
 ## Place in the museum
 Fuente: [[work/lubab-al-nuqul-suyuti|de al-Suyuti Lubab al-Nuqul]]. El versículo: [[passage/quran-9-102|Corán 9-102]].

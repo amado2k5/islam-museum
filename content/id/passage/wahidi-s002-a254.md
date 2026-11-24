@@ -11,11 +11,8 @@ Riwayat al-Wahidi tentang sebab turunnya al-Baqara 2:254, diriwayatkan dari gene
 The verse, in al-Wahidi's heading: «يا أيها الذين آمنوا لا تقولوا راعنا».
 
 ## Laporan lengkap (teks sumber Arab)
-<div dir="rtl" lang="ar">
 
 فأنزل الله: {يا أيها
-
-</div>
 
 ## Place in the museum
 Sumber: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an al-Wahidi]]. Ayatnya: [[passage/quran-2-254|Al-Qur'an 2-254]].

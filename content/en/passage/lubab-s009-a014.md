@@ -11,11 +11,8 @@ Al-Suyuti's report on the occasion of revelation of Bara'a (at-Tawba) 9:14, in L
 The verse, in al-Suyuti's heading: «قاتلوهم يعذبهم الله».
 
 ## Full report (Arabic source text)
-<div dir="rtl" lang="ar">
 
 قاتلوهم يعذبهم الله الآية أخرج أبو الشيخ عن قتادة قال ذكر لنا أن هذه الآية نزلت في خزاعة حين جعلوا يقتلون بني بكر بمكة وأخرج عن عكرمة قال نزلت هذه الآية في خزاعة وأخرج عن السدي ويشف صدور قوم مؤمنين قال هم خزاعة حلفاء النبي
-
-</div>
 
 ## Place in the museum
 Source: [[work/lubab-al-nuqul-suyuti|al-Suyuti's Lubab al-Nuqul]]. The verse: [[passage/quran-9-14|Qur'an 9-14]].

@@ -11,11 +11,8 @@ Riwayat al-Wahidi tentang sebab turunnya al-Insan 76:8, diriwayatkan dari genera
 The verse, in al-Wahidi's heading: «ويطعمون الطعام على حبه مسكينا».
 
 ## Laporan lengkap (teks sumber Arab)
-<div dir="rtl" lang="ar">
 
 فأخرجوا إليه الطعام، ثم عمل الثلث الثاني، فلما تم إنضاجه أتى يتيم فسأل
-
-</div>
 
 ## Place in the museum
 Sumber: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an al-Wahidi]]. Ayatnya: [[passage/quran-76-8|Al-Qur'an 76-8]].

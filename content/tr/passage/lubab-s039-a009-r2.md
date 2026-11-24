@@ -11,11 +11,8 @@ az-Zumar 39:9 ayetinin nüzul sebebi hakkında es-Suyuti'nin rivayeti; Lübabü'
 The verse, in al-Suyuti's heading: «أمن هو قانت».
 
 ## Tam rivayet (Arapça kaynak metin)
-<div dir="rtl" lang="ar">
 
 أمن هو قانت الآية قال نزلت في عثمان ابن عفان وأخرج ابن سعد من طريق الكلبي عن أبي صالح عن ابن عباس قال نزلت في عمار بن ياسر وأخرج جويبر عن ابن عباس قال نزلت في ابن مسعود وعمار بن ياسر وسالم مولى أبي حذيفة
-
-</div>
 
 ## Place in the museum
 Kaynak: [[work/lubab-al-nuqul-suyuti|es-Suyuti'nin Lubab al-Nuqul]]. Ayet: [[passage/quran-39-9|Kur'an 39-9]].

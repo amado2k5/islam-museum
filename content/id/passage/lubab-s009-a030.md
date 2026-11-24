@@ -11,11 +11,8 @@ Riwayat as-Suyuti tentang sebab turunnya Bara'a (at-Tawba) 9:30, dalam Lubab al-
 The verse, in al-Suyuti's heading: «وقالت اليهود».
 
 ## Laporan lengkap (teks sumber Arab)
-<div dir="rtl" lang="ar">
 
 وقالت اليهود الآية أخرج ابن أبي حاتم عن ابن عباس قال أتى رسول الله سلام بن مشكم ونعمان ابن أوفي ومحمد بن دحية وشاس بن قيس ومالك بن الصيف فقالوا كيف نتبعك وقد تركت قبلتنا وأنت لا تزعم أن عزيرا ابن
-
-</div>
 
 ## Place in the museum
 Sumber: [[work/lubab-al-nuqul-suyuti|as-Suyuti Lubab al-Nuqul]]. Ayatnya: [[passage/quran-9-30|Al-Qur'an 9-30]].

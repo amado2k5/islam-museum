@@ -11,11 +11,8 @@ Bani Isra'il 17:53 ayetinin nüzül sebebi hakkında El-Vahidi'nin rivayeti; Esb
 The verse, in al-Wahidi's heading: «53».
 
 ## Tam rivayet (Arapça kaynak metin)
-<div dir="rtl" lang="ar">
 
 نزلت في عمر بن الخطاب- وذلك أن رجلا من العرب شتمه،
-
-</div>
 
 ## Place in the museum
 Kaynak: [[work/asbab-nuzul-wahidi|El-Vahidi'nin Esbab Nüzul el-Kur'an'ı]]. Ayet: [[passage/quran-17-53|Kur'an 17-53]].

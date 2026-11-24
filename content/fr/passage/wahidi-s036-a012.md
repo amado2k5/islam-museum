@@ -11,11 +11,8 @@ Rapport d'al-Wahidi sur la circonstance de révélation de Ya Sin 36:12, transmi
 The verse, in al-Wahidi's heading: «إنا نحن نحيي الموتى ونكتب ما قدموا وآثارهم».
 
 ## Rapport complet (texte source arabe)
-<div dir="rtl" lang="ar">
 
 ينتقلوا إلى قرب المسجد، فنزلت هذه الآية: {إنا نحن نحيي الموتى ونكتب ما
-
-</div>
 
 ## Place in the museum
 Source : [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an d'al-Wahidi]]. Le verset : [[passage/quran-36-12|Coran 36-12]].

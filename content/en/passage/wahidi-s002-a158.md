@@ -11,11 +11,8 @@ Al-Wahidi's report on the occasion of revelation of al-Baqara 2:158, narrated fr
 The verse, in al-Wahidi's heading: «إن الصفا والمروة من شعائر الله».
 
 ## Full report (Arabic source text)
-<div dir="rtl" lang="ar">
 
 قال: حدثني مالك، عن هشام، عن أبيه، عن عائشة قالت: أنزلت هذه الآية في
-
-</div>
 
 ## Place in the museum
 Source: [[work/asbab-al-nuzul-wahidi|al-Wahidi's Asbab nuzul al-Qur'an]]. The verse: [[passage/quran-2-158|Qur'an 2-158]].

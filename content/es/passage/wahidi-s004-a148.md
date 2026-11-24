@@ -11,11 +11,8 @@ Informe de al-Wahidi sobre la ocasión de revelación de an-Nisa 4:148, transmit
 The verse, in al-Wahidi's heading: «لا يحب الله الجهر بالسوء من القول».
 
 ## Informe completo (texto fuente en árabe)
-<div dir="rtl" lang="ar">
 
 إن ضيفا تضيف قوما فأساءوا قراه فاشتكاهم، فنزلت هذه الآية
-
-</div>
 
 ## Place in the museum
 Fuente: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an de al-Wahidi]]. El versículo: [[passage/quran-4-148|Corán 4-148]].

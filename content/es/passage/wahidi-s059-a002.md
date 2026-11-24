@@ -11,11 +11,8 @@ Informe de al-Wahidi sobre la ocasión de revelación de al-Hashr 59:2, transmit
 The verse, in al-Wahidi's heading: «هو الذي أخرج الذين كفروا من أهل الكتاب».
 
 ## Informe completo (texto fuente en árabe)
-<div dir="rtl" lang="ar">
 
 قال المفسرون: نزلت هذه الآية في بني النضير، وذلك أن النبي - صلى الله
-
-</div>
 
 ## Place in the museum
 Fuente: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an de al-Wahidi]]. El versículo: [[passage/quran-59-2|Corán 59-2]].

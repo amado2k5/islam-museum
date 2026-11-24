@@ -11,11 +11,8 @@ al-Baqara 2:102 ayetinin nüzul sebebi hakkında es-Suyuti'nin rivayeti; Lübab�
 The verse, in al-Suyuti's heading: «واتبعوا ما تتلو».
 
 ## Tam rivayet (Arapça kaynak metin)
-<div dir="rtl" lang="ar">
 
 واتبعوا ما تتلو الآية ك أخرج ابن جرير عن شهر بن حوشب قال قالت اليهود انظروا إلى محمد يخلط الحق بالباطل يذكر سليمان مع الأنبياء أفما كان ساحرا يركب الريح فأنزل الله تعالى واتبعوا ما تتلو الشياطين الآية وأخرج ابن أبي حاتم عن أبي العالية
-
-</div>
 
 ## Place in the museum
 Kaynak: [[work/lubab-al-nuqul-suyuti|es-Suyuti'nin Lubab al-Nuqul]]. Ayet: [[passage/quran-2-102|Kur'an 2-102]].

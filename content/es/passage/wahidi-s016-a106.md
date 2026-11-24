@@ -11,11 +11,8 @@ Informe de al-Wahidi sobre la ocasión de revelación de an-Nahl 16:106, transmi
 The verse, in al-Wahidi's heading: «من كفر بالله من بعد إيمانه».
 
 ## Informe completo (texto fuente en árabe)
-<div dir="rtl" lang="ar">
 
 قال ابن عباس: نزلت في عمار بن ياسر، وذلك أن المشركين أخذوه وأباه ياسرا
-
-</div>
 
 ## Place in the museum
 Fuente: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an de al-Wahidi]]. El versículo: [[passage/quran-16-106|Corán 16-106]].

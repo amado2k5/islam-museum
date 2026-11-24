@@ -11,11 +11,8 @@ Riwayat as-Suyuti tentang sebab turunnya Ghafir 40, dalam Lubab al-Nuqul fi Asba
 The verse, in al-Suyuti's heading: «لخلق السموات والأرض أكبر من خلق الناس قال:».
 
 ## Laporan lengkap (teks sumber Arab)
-<div dir="rtl" lang="ar">
 
 لخلق السموات والأرض أكبر من خلق الناس قال: من خلق الدجال وأخرج عن كعب الأحبار في قوله الذين يجادلون في آيات الله بغير سلطان قال هم اليهود نزلت فيما ينتظرونه من أمر الدجال وأخرج جويبر عن ابن عباس أن الوليد بن المغيرة وشيبة بن ربيعة
-
-</div>
 
 ## Place in the museum
 Sumber: [[work/lubab-al-nuqul-suyuti|as-Suyuti Lubab al-Nuqul]]. Ayatnya: [[passage/quran-40-57|Al-Qur'an 40-57]].

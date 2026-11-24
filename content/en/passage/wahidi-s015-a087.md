@@ -11,11 +11,8 @@ Al-Wahidi's report on the occasion of revelation of al-Hijr 15:87, narrated in A
 The verse, in al-Wahidi's heading: «ولقد آتيناك سبعا من المثاني والقرآن العظيم».
 
 ## Full report (Arabic source text)
-<div dir="rtl" lang="ar">
 
 سبيل الله، فأنزل الله
-
-</div>
 
 ## Place in the museum
 Source: [[work/asbab-al-nuzul-wahidi|al-Wahidi's Asbab nuzul al-Qur'an]]. The verse: [[passage/quran-15-87|Qur'an 15-87]].

@@ -11,11 +11,8 @@ Rapport d'al-Wahidi sur la circonstance de révélation de al-Baqara 2:143, tran
 The verse, in al-Wahidi's heading: «وما كان الله ليضيع إيمانكم».
 
 ## Rapport complet (texte source arabe)
-<div dir="rtl" lang="ar">
 
 فأنزل الله: {وما كان الله ليضيع إيمانكم} الآية.
-
-</div>
 
 ## Place in the museum
 Source : [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an d'al-Wahidi]]. Le verset : [[passage/quran-2-143|Coran 2-143]].

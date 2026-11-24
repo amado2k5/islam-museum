@@ -11,11 +11,8 @@ Al-Wahidi's report on the occasion of revelation of al-Ma'ida 5:55, narrated fro
 The verse, in al-Wahidi's heading: «إنما وليكم الله ورسوله والذين آمنوا».
 
 ## Full report (Arabic source text)
-<div dir="rtl" lang="ar">
 
 يلقى من اليهود، فنزلت هذه الآية، فقرأها عليه رسول الله
-
-</div>
 
 ## Place in the museum
 Source: [[work/asbab-al-nuzul-wahidi|al-Wahidi's Asbab nuzul al-Qur'an]]. The verse: [[passage/quran-5-55|Qur'an 5-55]].

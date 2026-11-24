@@ -11,11 +11,8 @@ an-Nisa 4:2 ayetinin nüzül sebebi hakkında El-Vahidi'nin rivayeti; Esbab Nüz
 The verse, in al-Wahidi's heading: «2».
 
 ## Tam rivayet (Arapça kaynak metin)
-<div dir="rtl" lang="ar">
 
 قال مقاتل والكلبي: نزلت في رجل من غطفان كان عنده مالك كثير لابن أخ له
-
-</div>
 
 ## Place in the museum
 Kaynak: [[work/asbab-nuzul-wahidi|El-Vahidi'nin Esbab Nüzul el-Kur'an'ı]]. Ayet: [[passage/quran-4-2|Kur'an 4-2]].

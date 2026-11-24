@@ -11,11 +11,8 @@ Informe de al-Wahidi sobre la ocasión de revelación de Luqman 31:15, transmiti
 The verse, in al-Wahidi's heading: «وإن جاهداك على أن تشرك بي».
 
 ## Informe completo (texto fuente en árabe)
-<div dir="rtl" lang="ar">
 
 نزلت في سعد بن أبي وقاص على ما ذكرناه في سورة العنكبوت.
-
-</div>
 
 ## Place in the museum
 Fuente: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an de al-Wahidi]]. El versículo: [[passage/quran-31-15|Corán 31-15]].

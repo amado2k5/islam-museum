@@ -11,11 +11,8 @@ Riwayat al-Wahidi tentang sebab turunnya Bara'a (at-Tawba) 9:41, diriwayatkan da
 The verse, in al-Wahidi's heading: «انفروا خفافا وثقالا».
 
 ## Laporan lengkap (teks sumber Arab)
-<div dir="rtl" lang="ar">
 
 نزلت في الذين اعتذروا بالضيعة والشغل وانتشار الأمر، فأبى اللهأن
-
-</div>
 
 ## Place in the museum
 Sumber: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an al-Wahidi]]. Ayatnya: [[passage/quran-9-41|Al-Qur'an 9-41]].

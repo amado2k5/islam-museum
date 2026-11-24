@@ -11,11 +11,8 @@ Rapport d'al-Suyuti sur la circonstance de révélation de al-Baqara 2:229, dans
 The verse, in al-Suyuti's heading: «الطلاق مرتان».
 
 ## Rapport complet (texte source arabe)
-<div dir="rtl" lang="ar">
 
 الطلاق مرتان الآية أخرج الترمذي والحاكم وغيرهما عن عائشة قالت كان الرجل يطلق امرأته ما شاء أن يطلقها وهي امرأته إذا ارتجعها وهي في العدة وإن طلقها مائة مرة وأكثر حتى قال رجل لامرأته والله لا أطلقك فتبيني مني ولا آويك أبدا قالت وكيف ذلك
-
-</div>
 
 ## Place in the museum
 Source : [[work/lubab-al-nuqul-suyuti|d'al-Suyuti Lubab al-Nuqul]]. Le verset: [[passage/quran-2-229|Coran 2-229]].

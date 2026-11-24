@@ -11,11 +11,8 @@ Rapport d'al-Suyuti sur la circonstance de révélation de al-Baqara 2:284, dans
 The verse, in al-Suyuti's heading: «آمن الرسول».
 
 ## Rapport complet (texte source arabe)
-<div dir="rtl" lang="ar">
 
 آمن الرسول الآية روى أحمد ومسلم وغيرهما عن أبي هريرة لما نزلت وإن تبدوا ما في أنفسكم أو تخفوه يحاسبكم به الله [284] اشتد ذلك على الصحابة فأتوا رسول الله ثم جثوا على الركب فقالوا قد أنزل عليك هذه الآية ولا
-
-</div>
 
 ## Place in the museum
 Source : [[work/lubab-al-nuqul-suyuti|d'al-Suyuti Lubab al-Nuqul]]. Le verset: [[passage/quran-2-285|Coran 2-285]].

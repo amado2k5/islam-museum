@@ -11,11 +11,8 @@ Rapport d'al-Suyuti sur la circonstance de révélation de an-Nur 24:55, dans Lu
 The verse, in al-Suyuti's heading: «وعد الله الذين آمنوا».
 
 ## Rapport complet (texte source arabe)
-<div dir="rtl" lang="ar">
 
 وعد الله الذين آمنوا الآية أخرج الحاكم وصححه والطبراني عن أبي بن كعب قال لما قدم رسول الله وأصحابه المدينة وآوتهم الأنصار رمتهم العرب عن قوس واحدة وكانوا لا يبيتون الا بالسلاح ولا يصبحون إلا فيه فقالوا ترون أنا نعيش حتى
-
-</div>
 
 ## Place in the museum
 Source : [[work/lubab-al-nuqul-suyuti|d'al-Suyuti Lubab al-Nuqul]]. Le verset: [[passage/quran-24-55|Coran 24-55]].

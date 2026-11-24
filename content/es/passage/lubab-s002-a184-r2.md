@@ -11,11 +11,8 @@ Informe de al-Suyuti sobre la ocasión de revelación de al-Baqara 2:184, en Lub
 The verse, in al-Suyuti's heading: «فمن كان منكم مريضا».
 
 ## Informe completo (texto fuente en árabe)
-<div dir="rtl" lang="ar">
 
 فمن كان منكم مريضا الآية روى البخاري عن كعب بن عجرة أنه سئل عن قوله ففدية من صيام قال حملت إلى النبي والقمل يتناثر على وجهي فقال ماكنت أرى أن الجهد بلغ بك هذا أما تجد شاة قلت لا قال صم
-
-</div>
 
 ## Place in the museum
 Fuente: [[work/lubab-al-nuqul-suyuti|de al-Suyuti Lubab al-Nuqul]]. El versículo: [[passage/quran-2-184|Corán 2-184]].

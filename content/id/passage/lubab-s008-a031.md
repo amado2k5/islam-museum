@@ -11,11 +11,8 @@ Riwayat as-Suyuti tentang sebab turunnya al-Anfal 8:31, dalam Lubab al-Nuqul fi 
 The verse, in al-Suyuti's heading: «وإذا تتلى».
 
 ## Laporan lengkap (teks sumber Arab)
-<div dir="rtl" lang="ar">
 
 وإذا تتلى الآية أخرج ابن جرير عن سعيد بن جبير قال قتل النبي يوم بدر صبرا عقبة بن أبي معيط وطعيمة ابن عدي والنضر بن الحرث وكان المقداد أسر النضر فلما أمر بقتله قال المقداد يا رسول الله أسيري فقال رسول
-
-</div>
 
 ## Place in the museum
 Sumber: [[work/lubab-al-nuqul-suyuti|as-Suyuti Lubab al-Nuqul]]. Ayatnya: [[passage/quran-8-31|Al-Qur'an 8-31]].

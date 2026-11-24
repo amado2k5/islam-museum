@@ -11,11 +11,8 @@ al-Baqara 2:256 کے سببِ نزول پر الواحدی کی روایت — �
 The verse, in al-Wahidi's heading: «لا إكراه في الدين».
 
 ## مکمل روایت ⁦(عربی ماخذ متن)⁩
-<div dir="rtl" lang="ar">
 
 كان فيهم من أبناء الأنصار، فقالوا: لا ندع أبناءنا، فأنزل الله: {لا
-
-</div>
 
 ## Place in the museum
 ماخذ: [[work/asbab-nuzul-wahidi|الواحدی کی اسباب نزول القرآن]]۔ آیت: [[passage/quran-2-256|قرآن 2-256]]۔

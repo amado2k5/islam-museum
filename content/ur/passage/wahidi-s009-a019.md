@@ -11,11 +11,8 @@ Bara'a (at-Tawba) 9:19 کے سببِ نزول پر الواحدی کی روای�
 The verse, in al-Wahidi's heading: «أجعلتم سقاية الحاج».
 
 ## مکمل روایت ⁦(عربی ماخذ متن)⁩
-<div dir="rtl" lang="ar">
 
 فأنزل الله: {أجعلتم سقاية الحاج وعمارة المسجد الحرام}
-
-</div>
 
 ## Place in the museum
 ماخذ: [[work/asbab-nuzul-wahidi|الواحدی کی اسباب نزول القرآن]]۔ آیت: [[passage/quran-9-19|قرآن 9-19]]۔

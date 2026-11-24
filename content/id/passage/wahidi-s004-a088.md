@@ -11,11 +11,8 @@ Riwayat al-Wahidi tentang sebab turunnya an-Nisa 4:88, diriwayatkan dari generas
 The verse, in al-Wahidi's heading: «فما لكم في المنافقين فئتين».
 
 ## Laporan lengkap (teks sumber Arab)
-<div dir="rtl" lang="ar">
 
 فرقة: لا نقتلهم، فنزلت هذه الآية.
-
-</div>
 
 ## Place in the museum
 Sumber: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an al-Wahidi]]. Ayatnya: [[passage/quran-4-88|Al-Qur'an 4-88]].

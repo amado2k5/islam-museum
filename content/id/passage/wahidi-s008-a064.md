@@ -11,11 +11,8 @@ Riwayat al-Wahidi tentang sebab turunnya al-Anfal 8:64, diriwayatkan dari genera
 The verse, in al-Wahidi's heading: «يا أيها النبي حسبك الله ومن اتبعك من المؤمنين».
 
 ## Laporan lengkap (teks sumber Arab)
-<div dir="rtl" lang="ar">
 
 رجلا، ثم إن عمر أسلم فصاروا أربعين، فنزل جبريلبقوله:
-
-</div>
 
 ## Place in the museum
 Sumber: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an al-Wahidi]]. Ayatnya: [[passage/quran-8-64|Al-Qur'an 8-64]].

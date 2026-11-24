@@ -11,11 +11,8 @@ Riwayat al-Wahidi tentang sebab turunnya Ya Sin 36:78, diriwayatkan dalam Asbab 
 The verse, in al-Wahidi's heading: «قال من يحيي العظام وهي رميم».
 
 ## Laporan lengkap (teks sumber Arab)
-<div dir="rtl" lang="ar">
 
 ويدخلك النار"، فأنزل اللههذه الآية: {وضرب لنا مثلا ونسي خلقه قال
-
-</div>
 
 ## Place in the museum
 Sumber: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an al-Wahidi]]. Ayatnya: [[passage/quran-36-78|Al-Qur'an 36-78]].

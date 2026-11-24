@@ -11,11 +11,8 @@ Informe de al-Wahidi sobre la ocasión de revelación de Al 'Imran 3:96, transmi
 The verse, in al-Wahidi's heading: «إن أول بيت وضع للناس».
 
 ## Informe completo (texto fuente en árabe)
-<div dir="rtl" lang="ar">
 
 الكعبة أفضل، فأنزل اللههذه الآية.
-
-</div>
 
 ## Place in the museum
 Fuente: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an de al-Wahidi]]. El versículo: [[passage/quran-3-96|Corán 3-96]].

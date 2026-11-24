@@ -11,11 +11,8 @@ Informe de al-Suyuti sobre la ocasión de revelación de al-An'am 6:52, en Lubab
 The verse, in al-Suyuti's heading: «ولا تطرد».
 
 ## Informe completo (texto fuente en árabe)
-<div dir="rtl" lang="ar">
 
 ولا تطرد الآية روى ابن حبان والحاكم عن سعد ابن أبي وقاص قال لقد نزلت هذه الآية في ستة أنا وعبد الله ابن مسعود وأربعة قالوا لرسول الله اطردهم فإنا نستحي أن نكون تبعا لك كهؤلاء فوقع في نفس النبي صلى
-
-</div>
 
 ## Place in the museum
 Fuente: [[work/lubab-al-nuqul-suyuti|de al-Suyuti Lubab al-Nuqul]]. El versículo: [[passage/quran-6-52|Corán 6-52]].

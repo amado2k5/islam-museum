@@ -11,11 +11,8 @@ Rapport d'al-Suyuti sur la circonstance de révélation de al-Baqara 2:219, dans
 The verse, in al-Suyuti's heading: «يسألونك عن الخمر يأتي حديثها في سورة المائدة».
 
 ## Rapport complet (texte source arabe)
-<div dir="rtl" lang="ar">
 
 يسألونك عن الخمر يأتي حديثها في سورة المائدة
-
-</div>
 
 ## Place in the museum
 Source : [[work/lubab-al-nuqul-suyuti|d'al-Suyuti Lubab al-Nuqul]]. Le verset: [[passage/quran-2-219|Coran 2-219]].

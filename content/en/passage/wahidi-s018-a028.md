@@ -11,11 +11,8 @@ Al-Wahidi's report on the occasion of revelation of al-Kahf 18:28, narrated from
 The verse, in al-Wahidi's heading: «واصبر نفسك».
 
 ## Full report (Arabic source text)
-<div dir="rtl" lang="ar">
 
 وحادثناك وأخذنا عنك، فأنزل الله: {واتل ما أوحي إليك من كتاب ربك لا
-
-</div>
 
 ## Place in the museum
 Source: [[work/asbab-al-nuzul-wahidi|al-Wahidi's Asbab nuzul al-Qur'an]]. The verse: [[passage/quran-18-28|Qur'an 18-28]].

@@ -11,11 +11,8 @@ Informe de al-Wahidi sobre la ocasión de revelación de ad-Dukhan 44:49, transm
 The verse, in al-Wahidi's heading: «ذق إنك أنت العزيز الكريم».
 
 ## Informe completo (texto fuente en árabe)
-<div dir="rtl" lang="ar">
 
 قال قتادة: نزلت في عدو الله أبي جهل، وذلك أنه قال: أبو عدني محمد والله
-
-</div>
 
 ## Place in the museum
 Fuente: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an de al-Wahidi]]. El versículo: [[passage/quran-44-49|Corán 44-49]].

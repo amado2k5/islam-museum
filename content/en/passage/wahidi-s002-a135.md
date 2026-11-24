@@ -11,11 +11,8 @@ Al-Wahidi's report on the occasion of revelation of al-Baqara 2:135, narrated fr
 The verse, in al-Wahidi's heading: «وقالوا كونوا هودا أو نصارى تهتدوا».
 
 ## Full report (Arabic source text)
-<div dir="rtl" lang="ar">
 
 قال ابن عباس: نزلت في رؤوس يهود المدينة: كعب بن الأشرف، ومالك بن
-
-</div>
 
 ## Place in the museum
 Source: [[work/asbab-al-nuzul-wahidi|al-Wahidi's Asbab nuzul al-Qur'an]]. The verse: [[passage/quran-2-135|Qur'an 2-135]].

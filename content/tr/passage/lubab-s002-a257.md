@@ -11,11 +11,8 @@ al-Baqara 2:257 ayetinin nüzul sebebi hakkında es-Suyuti'nin rivayeti; Lübab�
 The verse, in al-Suyuti's heading: «الله ولي الذين آمنوا».
 
 ## Tam rivayet (Arapça kaynak metin)
-<div dir="rtl" lang="ar">
 
 الله ولي الذين آمنوا أخرج ابن جرير عن عبده بن أبي لبابة في قوله الله ولي الذين آمنوا قال هم الذين كانوا آمنوا بعيسى فلما جاءهم محمد آمنوا به وأنزلت فيهم هذه الآية وأخرج عن مجاهد قال كان قوم آمنوا بعيسى
-
-</div>
 
 ## Place in the museum
 Kaynak: [[work/lubab-al-nuqul-suyuti|es-Suyuti'nin Lubab al-Nuqul]]. Ayet: [[passage/quran-2-257|Kur'an 2-257]].

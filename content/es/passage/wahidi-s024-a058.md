@@ -11,11 +11,8 @@ Informe de al-Wahidi sobre la ocasión de revelación de an-Nur 24:58, transmiti
 The verse, in al-Wahidi's heading: «يا أيها الذين آمنوا لا تدخلوا بيوتا غير ms221 بيوتكم».
 
 ## Informe completo (texto fuente en árabe)
-<div dir="rtl" lang="ar">
 
 فنزلت هذه الآية: {لا تدخلوا بيوتا غير بيوتكم حتى
-
-</div>
 
 ## Place in the museum
 Fuente: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an de al-Wahidi]]. El versículo: [[passage/quran-24-58|Corán 24-58]].

@@ -11,11 +11,8 @@ al-Baqara 2:121 ayetinin nüzül sebebi hakkında El-Vahidi'nin rivayeti; Esbab 
 The verse, in al-Wahidi's heading: «الذين آتيناهم الكتاب يتلونه حق تلاوته».
 
 ## Tam rivayet (Arapça kaynak metin)
-<div dir="rtl" lang="ar">
 
 قال ابن عباس في رواية عطاء والكلبي: نزلت في أصحاب السفينة الذين أقبلوا
-
-</div>
 
 ## Place in the museum
 Kaynak: [[work/asbab-nuzul-wahidi|El-Vahidi'nin Esbab Nüzul el-Kur'an'ı]]. Ayet: [[passage/quran-2-121|Kur'an 2-121]].

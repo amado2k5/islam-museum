@@ -11,11 +11,8 @@ Al-Suyuti's report on the occasion of revelation of al-Hijr 15, in Lubab al-Nuqu
 The verse, in al-Suyuti's heading: «ومن الناس من يعبد الله على حرف».
 
 ## Full report (Arabic source text)
-<div dir="rtl" lang="ar">
 
 ومن الناس من يعبد الله على حرف الآية أخرج البخاري عن ابن عباس قال كان الرجل يقدم المدينة فيسلم فإن ولدت امرأته غلاما ونتجت خيله قال هذا دين صالح وإن لم تلد امرأته ولدا ذكرا ولم تنتج خيله قال هذا دين سوء فأنزل الله ومن
-
-</div>
 
 ## Place in the museum
 Source: [[work/lubab-al-nuqul-suyuti|al-Suyuti's Lubab al-Nuqul]]. The verse: [[passage/quran-22-11|Qur'an 22-11]].

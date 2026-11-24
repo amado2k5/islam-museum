@@ -11,11 +11,8 @@ Informe de al-Suyuti sobre la ocasión de revelación de an-Nisa 4:11, en Lubab 
 The verse, in al-Suyuti's heading: «يوصيكم الله».
 
 ## Informe completo (texto fuente en árabe)
-<div dir="rtl" lang="ar">
 
 يوصيكم الله أخرج الأئمة الستة عن جابر بن عبد الله قال عادني رسول الله وأبو بكر في بني سلمة ماشين فوجدني النبي لا أعقل شيئا فدعا بماء فتوضأ ثم رش علي فأفقت فقلت ما تأمرني أن أصنع
-
-</div>
 
 ## Place in the museum
 Fuente: [[work/lubab-al-nuqul-suyuti|de al-Suyuti Lubab al-Nuqul]]. El versículo: [[passage/quran-4-11|Corán 4-11]].

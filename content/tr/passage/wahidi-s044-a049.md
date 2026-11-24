@@ -11,11 +11,8 @@ ad-Dukhan 44:49 ayetinin nüzül sebebi hakkında El-Vahidi'nin rivayeti; Esbab 
 The verse, in al-Wahidi's heading: «ذق إنك أنت العزيز الكريم».
 
 ## Tam rivayet (Arapça kaynak metin)
-<div dir="rtl" lang="ar">
 
 قال قتادة: نزلت في عدو الله أبي جهل، وذلك أنه قال: أبو عدني محمد والله
-
-</div>
 
 ## Place in the museum
 Kaynak: [[work/asbab-nuzul-wahidi|El-Vahidi'nin Esbab Nüzul el-Kur'an'ı]]. Ayet: [[passage/quran-44-49|Kur'an 44-49]].

@@ -11,11 +11,8 @@ an-Nur 24:33 ayetinin nüzül sebebi hakkında El-Vahidi'nin rivayeti; Esbab Nü
 The verse, in al-Wahidi's heading: «والذين يبتغون الكتاب مما ملكت أيمانكم فكاتبوهم».
 
 ## Tam rivayet (Arapça kaynak metin)
-<div dir="rtl" lang="ar">
 
 نزلت في غلام لحويطب بن عبد العزى يقال له "صبيح" سأل مولاه أن يكاتبه
-
-</div>
 
 ## Place in the museum
 Kaynak: [[work/asbab-nuzul-wahidi|El-Vahidi'nin Esbab Nüzul el-Kur'an'ı]]. Ayet: [[passage/quran-24-33|Kur'an 24-33]].

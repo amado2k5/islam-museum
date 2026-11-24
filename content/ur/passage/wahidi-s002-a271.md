@@ -11,11 +11,8 @@ al-Baqara 2:271 کے سببِ نزول پر الواحدی کی روایت — �
 The verse, in al-Wahidi's heading: «إن تبدوا الصدقات».
 
 ## مکمل روایت ⁦(عربی ماخذ متن)⁩
-<div dir="rtl" lang="ar">
 
 قال الكلبي: لما نزل قوله: {وما أنفقتم من نفقة} الآية، قالوا: يا
-
-</div>
 
 ## Place in the museum
 ماخذ: [[work/asbab-nuzul-wahidi|الواحدی کی اسباب نزول القرآن]]۔ آیت: [[passage/quran-2-271|قرآن 2-271]]۔

@@ -11,11 +11,8 @@ Riwayat al-Wahidi tentang sebab turunnya an-Nur 24:48, diriwayatkan dalam Asbab 
 The verse, in al-Wahidi's heading: «وإذا دعوا إلى الله ورسوله».
 
 ## Laporan lengkap (teks sumber Arab)
-<div dir="rtl" lang="ar">
 
 قال المفسرون: هذه الآية والتي بعدها نزلتا في "بشر" المنافق وخصمه
-
-</div>
 
 ## Place in the museum
 Sumber: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an al-Wahidi]]. Ayatnya: [[passage/quran-24-48|Al-Qur'an 24-48]].

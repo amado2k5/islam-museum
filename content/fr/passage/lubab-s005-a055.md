@@ -11,11 +11,8 @@ Rapport d'al-Suyuti sur la circonstance de révélation de al-Ma'ida 5:55, dans 
 The verse, in al-Suyuti's heading: «إنما وليكم الله».
 
 ## Rapport complet (texte source arabe)
-<div dir="rtl" lang="ar">
 
 إنما وليكم الله الآية أخرج الطبراني في الأوسط بسند فيه مجاهيل عن عمار بن ياسر قال وقف على علي بن أبي طالب سائل وهو راكع في تطوع فنزع خاتمه فأعطاه السائل فنزلت إنما وليكم الله وسوله الآية وله شاهد قال عبد الرازق حدثنا عبد الوهاب
-
-</div>
 
 ## Place in the museum
 Source : [[work/lubab-al-nuqul-suyuti|d'al-Suyuti Lubab al-Nuqul]]. Le verset: [[passage/quran-5-55|Coran 5-55]].

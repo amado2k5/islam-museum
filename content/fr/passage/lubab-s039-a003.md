@@ -11,11 +11,8 @@ Rapport d'al-Suyuti sur la circonstance de révélation de az-Zumar 39:3, dans L
 The verse, in al-Suyuti's heading: «والذين اتخذوا».
 
 ## Rapport complet (texte source arabe)
-<div dir="rtl" lang="ar">
 
 والذين اتخذوا الآية أخرج جويبر عن ابن عباس في هذه الآية قال أنزلت في ثلاثة أحياء عامر وكنانة وبني سلمة كانوا يعبدون الأوثان ويقولون الملائكة بناته فقالوا ما نعبدهم إلا ليقربونا إلى الله زلفى
-
-</div>
 
 ## Place in the museum
 Source : [[work/lubab-al-nuqul-suyuti|d'al-Suyuti Lubab al-Nuqul]]. Le verset: [[passage/quran-39-3|Coran 39-3]].

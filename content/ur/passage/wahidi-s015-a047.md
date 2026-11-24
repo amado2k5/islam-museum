@@ -11,11 +11,8 @@ al-Hijr 15:47 کے سببِ نزول پر الواحدی کی روایت — «�
 The verse, in al-Wahidi's heading: «ونزعنا ما في صدورهم».
 
 ## مکمل روایت ⁦(عربی ماخذ متن)⁩
-<div dir="rtl" lang="ar">
 
 علي بن الحسينأن هذه الآية نزلت في أبي بكر وعمر وعلي رضي
-
-</div>
 
 ## Place in the museum
 ماخذ: [[work/asbab-nuzul-wahidi|الواحدی کی اسباب نزول القرآن]]۔ آیت: [[passage/quran-15-47|قرآن 15-47]]۔

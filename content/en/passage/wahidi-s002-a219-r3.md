@@ -11,11 +11,8 @@ Al-Wahidi's report on the occasion of revelation of al-Baqara 2:219, narrated fr
 The verse, in al-Wahidi's heading: «يسألونك عن الخمر والميسر».
 
 ## Full report (Arabic source text)
-<div dir="rtl" lang="ar">
 
 نزلت في عمر بن الخطاب ومعاذ بن جبل ونفر من الأنصار أتوا رسول الله- فقالوا: أفتنا في الخمر والميسر فإنهما مذهبة للعقل
-
-</div>
 
 ## Place in the museum
 Source: [[work/asbab-al-nuzul-wahidi|al-Wahidi's Asbab nuzul al-Qur'an]]. The verse: [[passage/quran-2-219|Qur'an 2-219]].

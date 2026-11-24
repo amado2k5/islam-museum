@@ -11,11 +11,8 @@ Riwayat al-Wahidi tentang sebab turunnya Al 'Imran 3:110, diriwayatkan dari gene
 The verse, in al-Wahidi's heading: «كنتم خير أمة».
 
 ## Laporan lengkap (teks sumber Arab)
-<div dir="rtl" lang="ar">
 
 قال عكرمة ومقاتل: نزلت في ابن مسعود وأبي بن كعب ومعاذ بن جبل وسالم
-
-</div>
 
 ## Place in the museum
 Sumber: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an al-Wahidi]]. Ayatnya: [[passage/quran-3-110|Al-Qur'an 3-110]].

@@ -11,11 +11,8 @@ Al-Suyuti's report on the occasion of revelation of Bara'a (at-Tawba) 9:84, in L
 The verse, in al-Suyuti's heading: «ولا تصل على أحد منهم».
 
 ## Full report (Arabic source text)
-<div dir="rtl" lang="ar">
 
 ولا تصل على أحد منهم الآية روى الشيخان عن ابن عمر قال لما توفي عبد الله ابن أبي جاء ابنه إلى رسول الله فسأله أن يعطيه قميصه يكفن فيه أباه فأعطاه ثم سأله أن يصلي عليه فقام ليصلي عليه فقام عمر
-
-</div>
 
 ## Place in the museum
 Source: [[work/lubab-al-nuqul-suyuti|al-Suyuti's Lubab al-Nuqul]]. The verse: [[passage/quran-9-84|Qur'an 9-84]].

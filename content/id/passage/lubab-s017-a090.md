@@ -11,11 +11,8 @@ Riwayat as-Suyuti tentang sebab turunnya al-Isra 17:90, dalam Lubab al-Nuqul fi 
 The verse, in al-Suyuti's heading: «وقالوا لن نؤمن لك».
 
 ## Laporan lengkap (teks sumber Arab)
-<div dir="rtl" lang="ar">
 
 وقالوا لن نؤمن لك الآية أخرج ابن جرير من طريق ابن إسحق عن شيخ من أهل مصر عن عكرمة عن ابن عباس أن عتبة وشيبة ابني ربيعة وأبا سفيان بن حرب ورجلا من بني عبد الدار وأبا البحتري والأسود بن المطلب وربيعة بن الأسود والوليد
-
-</div>
 
 ## Place in the museum
 Sumber: [[work/lubab-al-nuqul-suyuti|as-Suyuti Lubab al-Nuqul]]. Ayatnya: [[passage/quran-17-90|Al-Qur'an 17-90]].

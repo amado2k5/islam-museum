@@ -11,11 +11,8 @@ Riwayat al-Wahidi tentang sebab turunnya al-Kahf 18:109, diriwayatkan dari gener
 The verse, in al-Wahidi's heading: «قل لو كان البحر مدادا لكلمات ربي».
 
 ## Laporan lengkap (teks sumber Arab)
-<div dir="rtl" lang="ar">
 
 فقد أوتي خيرا كثيرا فنزلت: {قل لو كان البحر مدادا لكلمات ربي} الآية.
-
-</div>
 
 ## Place in the museum
 Sumber: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an al-Wahidi]]. Ayatnya: [[passage/quran-18-109|Al-Qur'an 18-109]].

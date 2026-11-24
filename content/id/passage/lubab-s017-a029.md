@@ -11,11 +11,8 @@ Riwayat as-Suyuti tentang sebab turunnya al-Isra 17:29, dalam Lubab al-Nuqul fi 
 The verse, in al-Suyuti's heading: «ولا تجعل يدك».
 
 ## Laporan lengkap (teks sumber Arab)
-<div dir="rtl" lang="ar">
 
 ولا تجعل يدك الآية ⁦(ك)⁩ أخرج سعيد بن منصور عن سيار أبي الحكم قال أتى رسول الله بر وكان معطيا كريما فقسمه بين الناس فأتاه قوم فوجدوه قد فرغ منه فأنزل الله ولا تجعل يدك مغلولة إلى عنقك ولا تبسطها الآية
-
-</div>
 
 ## Place in the museum
 Sumber: [[work/lubab-al-nuqul-suyuti|as-Suyuti Lubab al-Nuqul]]. Ayatnya: [[passage/quran-17-29|Al-Qur'an 17-29]].

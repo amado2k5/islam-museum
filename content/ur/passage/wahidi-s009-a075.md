@@ -11,11 +11,8 @@ Bara'a (at-Tawba) 9:75 کے سببِ نزول پر الواحدی کی روای�
 The verse, in al-Wahidi's heading: «ومنهم من عاهد الله».
 
 ## مکمل روایت ⁦(عربی ماخذ متن)⁩
-<div dir="rtl" lang="ar">
 
 فاتخذ غنما فنمت كما ينمو الدود، فضاقت عليه المدينة فتنحى عنها، فنزل
-
-</div>
 
 ## Place in the museum
 ماخذ: [[work/asbab-nuzul-wahidi|الواحدی کی اسباب نزول القرآن]]۔ آیت: [[passage/quran-9-75|قرآن 9-75]]۔

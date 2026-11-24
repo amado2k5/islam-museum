@@ -11,11 +11,8 @@ an-Nisa 4:92 ayetinin nüzül sebebi hakkında El-Vahidi'nin rivayeti; Esbab Nü
 The verse, in al-Wahidi's heading: «وما كان لمؤمن أن يقتل مؤمنا إلا خطأ».
 
 ## Tam rivayet (Arapça kaynak metin)
-<div dir="rtl" lang="ar">
 
 فقتله، فأنزل الله: {وما كان لمؤمن أن يقتل مؤمنا إلا خطأ} الآية.
-
-</div>
 
 ## Place in the museum
 Kaynak: [[work/asbab-nuzul-wahidi|El-Vahidi'nin Esbab Nüzul el-Kur'an'ı]]. Ayet: [[passage/quran-4-92|Kur'an 4-92]].

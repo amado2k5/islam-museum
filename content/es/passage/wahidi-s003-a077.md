@@ -11,11 +11,8 @@ Informe de al-Wahidi sobre la ocasión de revelación de Al 'Imran 3:77, transmi
 The verse, in al-Wahidi's heading: «إن الذين يشترون بعهد الله وأيمانهم ثمنا قليلا».
 
 ## Informe completo (texto fuente en árabe)
-<div dir="rtl" lang="ar">
 
 امرئ مسلم لقي الله وهو عليه غضبان"، فقال الأشعث بن قيس: في والله نزلت
-
-</div>
 
 ## Place in the museum
 Fuente: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an de al-Wahidi]]. El versículo: [[passage/quran-3-77|Corán 3-77]].

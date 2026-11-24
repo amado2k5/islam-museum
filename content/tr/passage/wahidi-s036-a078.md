@@ -11,11 +11,8 @@ Ya Sin 36:78 ayetinin nüzül sebebi hakkında El-Vahidi'nin rivayeti; Esbab Nü
 The verse, in al-Wahidi's heading: «قال من يحيي العظام وهي رميم».
 
 ## Tam rivayet (Arapça kaynak metin)
-<div dir="rtl" lang="ar">
 
 ويدخلك النار"، فأنزل اللههذه الآية: {وضرب لنا مثلا ونسي خلقه قال
-
-</div>
 
 ## Place in the museum
 Kaynak: [[work/asbab-nuzul-wahidi|El-Vahidi'nin Esbab Nüzul el-Kur'an'ı]]. Ayet: [[passage/quran-36-78|Kur'an 36-78]].

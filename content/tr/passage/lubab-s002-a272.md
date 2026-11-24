@@ -11,11 +11,8 @@ al-Baqara 2:272 ayetinin nüzul sebebi hakkında es-Suyuti'nin rivayeti; Lübab�
 The verse, in al-Suyuti's heading: «ليس عليك هداهم روى النسائي والحاكم والبزار والطبراني».
 
 ## Tam rivayet (Arapça kaynak metin)
-<div dir="rtl" lang="ar">
 
 ليس عليك هداهم روى النسائي والحاكم والبزار والطبراني وغيرهم عن ابن عباس قال كانوا يكرهون أن يرضخوا لأنسابهم من المشركين فسألوا فرخص لهم فنزلت هذه الآية ليس عليك هداهم إلى قوله وأنتم لا تظلمون [272] وأخرج ابن أبي حاتم عن ابن عباس أن النبي صلى
-
-</div>
 
 ## Place in the museum
 Kaynak: [[work/lubab-al-nuqul-suyuti|es-Suyuti'nin Lubab al-Nuqul]]. Ayet: [[passage/quran-2-272|Kur'an 2-272]].

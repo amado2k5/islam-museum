@@ -11,11 +11,8 @@ al-Qalam 68:4 کے سببِ نزول پر الواحدی کی روایت — «�
 The verse, in al-Wahidi's heading: «4».
 
 ## مکمل روایت ⁦(عربی ماخذ متن)⁩
-<div dir="rtl" lang="ar">
 
 من أهل بيته إلا قال: "لبيك" ولذلك أنزل الله- {وإنك لعلى خلق
-
-</div>
 
 ## Place in the museum
 ماخذ: [[work/asbab-nuzul-wahidi|الواحدی کی اسباب نزول القرآن]]۔ آیت: [[passage/quran-68-4|قرآن 68-4]]۔

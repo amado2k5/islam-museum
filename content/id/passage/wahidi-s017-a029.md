@@ -11,11 +11,8 @@ Riwayat al-Wahidi tentang sebab turunnya Bani Isra'il 17:29, diriwayatkan dari g
 The verse, in al-Wahidi's heading: «29».
 
 ## Laporan lengkap (teks sumber Arab)
-<div dir="rtl" lang="ar">
 
 رسول الله- فقال: إن أمي تسألك كذا وكذا، فقال: "ما
-
-</div>
 
 ## Place in the museum
 Sumber: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an al-Wahidi]]. Ayatnya: [[passage/quran-17-29|Al-Qur'an 17-29]].

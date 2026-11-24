@@ -11,11 +11,8 @@ an-Najm 53:32 ayetinin nüzül sebebi hakkında El-Vahidi'nin rivayeti; Esbab N�
 The verse, in al-Wahidi's heading: «32».
 
 ## Tam rivayet (Arapça kaynak metin)
-<div dir="rtl" lang="ar">
 
 شقي أو سعيد"، فأنزل اللهعند ذلك هذه الآية: {هو أعلم بكم إذ أنشأكم
-
-</div>
 
 ## Place in the museum
 Kaynak: [[work/asbab-nuzul-wahidi|El-Vahidi'nin Esbab Nüzul el-Kur'an'ı]]. Ayet: [[passage/quran-53-32|Kur'an 53-32]].

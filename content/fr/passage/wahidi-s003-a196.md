@@ -11,11 +11,8 @@ Rapport d'al-Wahidi sur la circonstance de révélation de Al 'Imran 3:196, tran
 The verse, in al-Wahidi's heading: «لا يغرنك تقلب الذين كفروا في البلاد».
 
 ## Rapport complet (texte source arabe)
-<div dir="rtl" lang="ar">
 
 نزلت في مشركي مكة، وذلك أنهم كانوا في رخاء ولين من العيش، وكانوا
-
-</div>
 
 ## Place in the museum
 Source : [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an d'al-Wahidi]]. Le verset : [[passage/quran-3-196|Coran 3-196]].

@@ -11,11 +11,8 @@ Informe de al-Wahidi sobre la ocasión de revelación de Al 'Imran 3:144, transm
 The verse, in al-Wahidi's heading: «وما محمد إلا رسول».
 
 ## Informe completo (texto fuente en árabe)
-<div dir="rtl" lang="ar">
 
 ما تمضون على ما مضى عليه نبيكم حتى تلحقوا به، فأنزل اللهفي ذلك:
-
-</div>
 
 ## Place in the museum
 Fuente: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an de al-Wahidi]]. El versículo: [[passage/quran-3-144|Corán 3-144]].

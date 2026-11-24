@@ -11,11 +11,8 @@ Riwayat al-Wahidi tentang sebab turunnya al-Baqara 2:164, diriwayatkan dari gene
 The verse, in al-Wahidi's heading: «إن في خلق السماوات والأرض».
 
 ## Laporan lengkap (teks sumber Arab)
-<div dir="rtl" lang="ar">
 
 شبل عن ابن أبي نجيح عن عطاء قال: أنزلت بالمدينة على النبي - صلى الله
-
-</div>
 
 ## Place in the museum
 Sumber: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an al-Wahidi]]. Ayatnya: [[passage/quran-2-164|Al-Qur'an 2-164]].

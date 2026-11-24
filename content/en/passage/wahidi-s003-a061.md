@@ -11,11 +11,8 @@ Al-Wahidi's report on the occasion of revelation of Al 'Imran 3:61, narrated fro
 The verse, in al-Wahidi's heading: «فقل تعالوا ندع أبناءنا وأبناءكم».
 
 ## Full report (Arabic source text)
-<div dir="rtl" lang="ar">
 
 الله عليه وسلم - ونزل القرآن: {ذلك نتلوه عليك من الآيات والذكر الحكيم}
-
-</div>
 
 ## Place in the museum
 Source: [[work/asbab-al-nuzul-wahidi|al-Wahidi's Asbab nuzul al-Qur'an]]. The verse: [[passage/quran-3-61|Qur'an 3-61]].

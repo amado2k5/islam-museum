@@ -11,11 +11,8 @@ Informe de al-Wahidi sobre la ocasión de revelación de Al 'Imran 3:93, transmi
 The verse, in al-Wahidi's heading: «كل الطعام كان حلا لبني إسرائيل».
 
 ## Informe completo (texto fuente en árabe)
-<div dir="rtl" lang="ar">
 
 قال أبو روق والكلبي: نزلت حين قال النبي- إنه على
-
-</div>
 
 ## Place in the museum
 Fuente: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an de al-Wahidi]]. El versículo: [[passage/quran-3-93|Corán 3-93]].

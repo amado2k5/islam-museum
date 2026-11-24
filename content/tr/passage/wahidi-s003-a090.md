@@ -11,11 +11,8 @@ Al 'Imran 3:90 ayetinin nüzül sebebi hakkında El-Vahidi'nin rivayeti; Esbab N
 The verse, in al-Wahidi's heading: «إن الذين كفروا بعد إيمانهم».
 
 ## Tam rivayet (Arapça kaynak metin)
-<div dir="rtl" lang="ar">
 
 قال الحسن وقتادة وعطاء الخراساني: نزلت في اليهود كفروا بعيسى والإنجيل،
-
-</div>
 
 ## Place in the museum
 Kaynak: [[work/asbab-nuzul-wahidi|El-Vahidi'nin Esbab Nüzul el-Kur'an'ı]]. Ayet: [[passage/quran-3-90|Kur'an 3-90]].

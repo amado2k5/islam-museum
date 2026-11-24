@@ -11,11 +11,8 @@ Riwayat al-Wahidi tentang sebab turunnya ash-Shura 42:51, diriwayatkan dalam Asb
 The verse, in al-Wahidi's heading: «وما كان لبشر أن يكلمه الله إلا وحيا».
 
 ## Laporan lengkap (teks sumber Arab)
-<div dir="rtl" lang="ar">
 
 فقال: "لم ينظر موسى إلى الله"، وأنزلت هذه الآية.
-
-</div>
 
 ## Place in the museum
 Sumber: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an al-Wahidi]]. Ayatnya: [[passage/quran-42-51|Al-Qur'an 42-51]].

@@ -11,11 +11,8 @@ Riwayat al-Wahidi tentang sebab turunnya as-Sajda 32:16, diriwayatkan dari gener
 The verse, in al-Wahidi's heading: «تتجافى ms237 جنوبهم عن المضاجع».
 
 ## Laporan lengkap (teks sumber Arab)
-<div dir="rtl" lang="ar">
 
 قال مالك بن دينار: سألت أنس بن مالك عن هذه الآية فيمن نزلت، فقال: كان
-
-</div>
 
 ## Place in the museum
 Sumber: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an al-Wahidi]]. Ayatnya: [[passage/quran-32-16|Al-Qur'an 32-16]].

@@ -11,11 +11,8 @@ Informe de al-Wahidi sobre la ocasión de revelación de Bani Isra'il 17:59, tra
 The verse, in al-Wahidi's heading: «وما منعنا أن نرسل بالآيات».
 
 ## Informe completo (texto fuente en árabe)
-<div dir="rtl" lang="ar">
 
 سأل أهل مكة النبي- أن يجعل الصفا ذهبا وأن ينحي
-
-</div>
 
 ## Place in the museum
 Fuente: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an de al-Wahidi]]. El versículo: [[passage/quran-17-59|Corán 17-59]].

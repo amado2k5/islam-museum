@@ -11,11 +11,8 @@ Al-Suyuti's report on the occasion of revelation of an-Nur 24:61, in Lubab al-Nu
 The verse, in al-Suyuti's heading: «ليس على الأعمى».
 
 ## Full report (Arabic source text)
-<div dir="rtl" lang="ar">
 
 ليس على الأعمى الآية قال عبد الرزاق أخبرنا معمر عن ابن أبي نجيح عن مجاهد قال كان الرجل يذهب بالأعمى والأعرج والمريض إلى بيت أبيه أو بيت أخيه أو بيت أخته أو بيت عمته أو بيت خالته فكانت الزمنى يتحرجون من ذلك يقولون إنما يذهبون
-
-</div>
 
 ## Place in the museum
 Source: [[work/lubab-al-nuqul-suyuti|al-Suyuti's Lubab al-Nuqul]]. The verse: [[passage/quran-24-61|Qur'an 24-61]].

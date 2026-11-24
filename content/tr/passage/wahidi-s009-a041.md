@@ -11,11 +11,8 @@ Bara'a (at-Tawba) 9:41 ayetinin nüzül sebebi hakkında El-Vahidi'nin rivayeti;
 The verse, in al-Wahidi's heading: «انفروا خفافا وثقالا».
 
 ## Tam rivayet (Arapça kaynak metin)
-<div dir="rtl" lang="ar">
 
 نزلت في الذين اعتذروا بالضيعة والشغل وانتشار الأمر، فأبى اللهأن
-
-</div>
 
 ## Place in the museum
 Kaynak: [[work/asbab-nuzul-wahidi|El-Vahidi'nin Esbab Nüzul el-Kur'an'ı]]. Ayet: [[passage/quran-9-41|Kur'an 9-41]].

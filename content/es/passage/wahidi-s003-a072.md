@@ -11,11 +11,8 @@ Informe de al-Wahidi sobre la ocasión de revelación de Al 'Imran 3:72, transmi
 The verse, in al-Wahidi's heading: «وقالت طائفة من أهل الكتاب آمنوا».
 
 ## Informe completo (texto fuente en árabe)
-<div dir="rtl" lang="ar">
 
 به منا، فيرجعون عن دينهم إلى دينكم، فأنزل اللههذه الآية، وأخبر
-
-</div>
 
 ## Place in the museum
 Fuente: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an de al-Wahidi]]. El versículo: [[passage/quran-3-72|Corán 3-72]].

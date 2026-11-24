@@ -11,11 +11,8 @@ Riwayat al-Wahidi tentang sebab turunnya al-Jathiya 45:14, diriwayatkan dari gen
 The verse, in al-Wahidi's heading: «قل للذين آمنوا يغفروا للذين لا يرجون أيام الله».
 
 ## Laporan lengkap (teks sumber Arab)
-<div dir="rtl" lang="ar">
 
 يرجون أيام الله عبد الله بن أبي، وذلك أنهم نزلوا في غزاة بني المصطلق على
-
-</div>
 
 ## Place in the museum
 Sumber: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an al-Wahidi]]. Ayatnya: [[passage/quran-45-14|Al-Qur'an 45-14]].

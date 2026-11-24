@@ -11,11 +11,8 @@ Informe de al-Suyuti sobre la ocasión de revelación de al-Qasas 28:57, en Luba
 The verse, in al-Suyuti's heading: «وقالوا إن نتبع الهدى معك».
 
 ## Informe completo (texto fuente en árabe)
-<div dir="rtl" lang="ar">
 
 وقالوا إن نتبع الهدى معك الآية أخرج ابن جرير من طريق العوفي عن ابن عباس أن أناسا من قريش قالوا للنبي إن نتبعك تخطفنا الناس فنزلت وأخرج النسائي عن ابن عباس أن الحرث بن عامر بن نوفل هو الذي قال ذلك
-
-</div>
 
 ## Place in the museum
 Fuente: [[work/lubab-al-nuqul-suyuti|de al-Suyuti Lubab al-Nuqul]]. El versículo: [[passage/quran-28-57|Corán 28-57]].

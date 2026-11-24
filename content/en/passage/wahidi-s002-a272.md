@@ -11,11 +11,8 @@ Al-Wahidi's report on the occasion of revelation of al-Baqara 2:272, narrated fr
 The verse, in al-Wahidi's heading: «ليس عليك هداهم».
 
 ## Full report (Arabic source text)
-<div dir="rtl" lang="ar">
 
 رسول الله- "لا تصدقوا إلا على أهل دينكم" فأنزل
-
-</div>
 
 ## Place in the museum
 Source: [[work/asbab-al-nuzul-wahidi|al-Wahidi's Asbab nuzul al-Qur'an]]. The verse: [[passage/quran-2-272|Qur'an 2-272]].

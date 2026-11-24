@@ -11,11 +11,8 @@ Informe de al-Suyuti sobre la ocasión de revelación de an-Nisa 4:148, en Lubab
 The verse, in al-Suyuti's heading: «لا يحب الله الجهر».
 
 ## Informe completo (texto fuente en árabe)
-<div dir="rtl" lang="ar">
 
 لا يحب الله الجهر الآية أخرج هناد بن السرى في كتاب الزهد عن مجاهد قال أنزلت لا يحب الله الجهر بالسوء من القول إلا من ظلم في رجل أضاف رجلا بالمدينة فأساء قراه فتحول عنه فجعل يثني عليه بما أولاه فرخص له أن يثني عليه
-
-</div>
 
 ## Place in the museum
 Fuente: [[work/lubab-al-nuqul-suyuti|de al-Suyuti Lubab al-Nuqul]]. El versículo: [[passage/quran-4-148|Corán 4-148]].

@@ -11,11 +11,8 @@ Informe de al-Wahidi sobre la ocasión de revelación de al-Qamar 54:1, transmit
 The verse, in al-Wahidi's heading: «1».
 
 ## Informe completo (texto fuente en árabe)
-<div dir="rtl" lang="ar">
 
 عليه وسلم - فقالت قريش: هذا سحر ابن أبي كبشة سحركم، فاسألوا السفار
-
-</div>
 
 ## Place in the museum
 Fuente: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an de al-Wahidi]]. El versículo: [[passage/quran-54-1|Corán 54-1]].

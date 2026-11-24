@@ -11,11 +11,8 @@ Informe de al-Wahidi sobre la ocasión de revelación de al-Mujadila 58:8, trans
 The verse, in al-Wahidi's heading: «ألم تر إلى الذين تولوا قوما غضب الله عليهم».
 
 ## Informe completo (texto fuente en árabe)
-<div dir="rtl" lang="ar">
 
 ومقاتل: نزلت في عبد الله بن نبتل المنافق كان يجالس النبي
-
-</div>
 
 ## Place in the museum
 Fuente: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an de al-Wahidi]]. El versículo: [[passage/quran-58-8|Corán 58-8]].

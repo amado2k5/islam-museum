@@ -11,11 +11,8 @@ Rapport d'al-Wahidi sur la circonstance de révélation de ash-Shura 42:27, tran
 The verse, in al-Wahidi's heading: «ولو بسط الله الرزق لعباده لبغوا في الأرض».
 
 ## Rapport complet (texte source arabe)
-<div dir="rtl" lang="ar">
 
 نزلت في قوم من أهل الصفة تمنوا سعة الدنيا والغنى.
-
-</div>
 
 ## Place in the museum
 Source : [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an d'al-Wahidi]]. Le verset : [[passage/quran-42-27|Coran 42-27]].

@@ -11,11 +11,8 @@ Rapport d'al-Wahidi sur la circonstance de révélation de Bani Isra'il 17:80, t
 The verse, in al-Wahidi's heading: «وقل رب أدخلني مدخل صدق».
 
 ## Rapport complet (texte source arabe)
-<div dir="rtl" lang="ar">
 
 مهاجرا إلى المدينة، ونزل قوله: {وقل رب أدخلني مدخل صدق وأخرجني
-
-</div>
 
 ## Place in the museum
 Source : [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an d'al-Wahidi]]. Le verset : [[passage/quran-17-80|Coran 17-80]].

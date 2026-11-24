@@ -11,11 +11,8 @@ al-Baqara 2:119 ayetinin nüzul sebebi hakkında es-Suyuti'nin rivayeti; Lübab�
 The verse, in al-Suyuti's heading: «إنا أرسلناك».
 
 ## Tam rivayet (Arapça kaynak metin)
-<div dir="rtl" lang="ar">
 
 إنا أرسلناك الآية قال عبد الرزاق أنبأنا الثوري عن موسى بن عبيدة عن محمد بن كعب القرظي قال قال رسول الله ليت شعري ما فعل أبواي فنزلت إنا أرسلناك بالحق بشيرا ونذيرا ولا تسأل عن أصحاب الحجيم فما ذكرها حتى توفاه
-
-</div>
 
 ## Place in the museum
 Kaynak: [[work/lubab-al-nuqul-suyuti|es-Suyuti'nin Lubab al-Nuqul]]. Ayet: [[passage/quran-2-119|Kur'an 2-119]].

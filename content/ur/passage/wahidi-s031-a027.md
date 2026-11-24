@@ -11,11 +11,8 @@ Luqman 31:27 کے سببِ نزول پر الواحدی کی روایت — «ا
 The verse, in al-Wahidi's heading: «ولو أنما في الأرض من شجرة أقلام».
 
 ## مکمل روایت ⁦(عربی ماخذ متن)⁩
-<div dir="rtl" lang="ar">
 
 قال المفسرون: سألت اليهود رسول الله- عن الروح،
-
-</div>
 
 ## Place in the museum
 ماخذ: [[work/asbab-nuzul-wahidi|الواحدی کی اسباب نزول القرآن]]۔ آیت: [[passage/quran-31-27|قرآن 31-27]]۔

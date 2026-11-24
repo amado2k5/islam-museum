@@ -11,11 +11,8 @@ Al-Suyuti's report on the occasion of revelation of al-Ahzab 33:37, in Lubab al-
 The verse, in al-Suyuti's heading: «وإذ تقول الآيات».
 
 ## Full report (Arabic source text)
-<div dir="rtl" lang="ar">
 
 وإذ تقول الآيات أخرج البخاري عن أنس أن هذه الآية وتخفي في نفسك ما الله مبديه نزلت في بنت جحش وزيد بن حارثة وأخرج الحاكم عن أنس قال جاء زيد بن حارثة يشكو إلى رسول من زينب بنت جحش فقال النبي
-
-</div>
 
 ## Place in the museum
 Source: [[work/lubab-al-nuqul-suyuti|al-Suyuti's Lubab al-Nuqul]]. The verse: [[passage/quran-33-37|Qur'an 33-37]].

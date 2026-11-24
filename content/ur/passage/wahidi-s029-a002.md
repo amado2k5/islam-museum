@@ -11,11 +11,8 @@ al-'Ankabut 29 کے سببِ نزول پر الواحدی کی روایت — «
 The verse, in al-Wahidi's heading: «الم أحسب الناس».
 
 ## مکمل روایت ⁦(عربی ماخذ متن)⁩
-<div dir="rtl" lang="ar">
 
 قال الشعبي نزلت في أناس كانوا بمكة قد أقروا بالإسلام، فكتب إليهم أصحاب
-
-</div>
 
 ## Place in the museum
 ماخذ: [[work/asbab-nuzul-wahidi|الواحدی کی اسباب نزول القرآن]]۔ آیت: [[passage/quran-29-2|قرآن 29-2]].

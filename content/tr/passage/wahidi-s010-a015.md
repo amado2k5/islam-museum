@@ -11,11 +11,8 @@ Yunus 10:15 ayetinin nüzül sebebi hakkında El-Vahidi'nin rivayeti; Esbab Nüz
 The verse, in al-Wahidi's heading: «وإذا تتلى عليهم آياتنا بينات قال الذين لا يرجون لقاءنا».
 
 ## Tam rivayet (Arapça kaynak metin)
-<div dir="rtl" lang="ar">
 
 قال مجاهد: نزلت في مشركي مكة.
-
-</div>
 
 ## Place in the museum
 Kaynak: [[work/asbab-nuzul-wahidi|El-Vahidi'nin Esbab Nüzul el-Kur'an'ı]]. Ayet: [[passage/quran-10-15|Kur'an 10-15]].

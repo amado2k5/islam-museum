@@ -11,11 +11,8 @@ Al-Wahidi's report on the occasion of revelation of al-Ma'ida 5:2, narrated from
 The verse, in al-Wahidi's heading: «لا تحلوا شعائر الله».
 
 ## Full report (Arabic source text)
-<div dir="rtl" lang="ar">
 
 قال ابن عباس: نزلت في الحطم - اسمه شريح بن ضبيعة الكندي - أتى النبيمن اليمامة إلى المدينة، فخلف خيله خارج المدينة
-
-</div>
 
 ## Place in the museum
 Source: [[work/asbab-al-nuzul-wahidi|al-Wahidi's Asbab nuzul al-Qur'an]]. The verse: [[passage/quran-5-2|Qur'an 5-2]].

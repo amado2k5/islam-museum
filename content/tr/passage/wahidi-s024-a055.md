@@ -11,11 +11,8 @@ an-Nur 24:55 ayetinin nüzül sebebi hakkında El-Vahidi'nin rivayeti; Esbab Nü
 The verse, in al-Wahidi's heading: «وعد الله الذين آمنوا منكم وعملوا الصالحات».
 
 ## Tam rivayet (Arapça kaynak metin)
-<div dir="rtl" lang="ar">
 
 منكم في الملأ العظيم محتبيا ليست فيهم حديدة، وأنزل الله: {وعد الله
-
-</div>
 
 ## Place in the museum
 Kaynak: [[work/asbab-nuzul-wahidi|El-Vahidi'nin Esbab Nüzul el-Kur'an'ı]]. Ayet: [[passage/quran-24-55|Kur'an 24-55]].

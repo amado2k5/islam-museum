@@ -11,11 +11,8 @@ Rapport d'al-Wahidi sur la circonstance de révélation de al-A'raf 7:175, trans
 The verse, in al-Wahidi's heading: «واتل عليهم نبأ الذي آتيناه آياتنا فانسلخ منها».
 
 ## Rapport complet (texte source arabe)
-<div dir="rtl" lang="ar">
 
 قال ابن مسعود: نزلت في بلعم بن أبره رجل من بني إسرائيل.
-
-</div>
 
 ## Place in the museum
 Source : [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an d'al-Wahidi]]. Le verset : [[passage/quran-7-175|Coran 7-175]].

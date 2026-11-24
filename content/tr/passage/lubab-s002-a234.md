@@ -11,11 +11,8 @@ al-Baqara 2:234 ayetinin nüzul sebebi hakkında es-Suyuti'nin rivayeti; Lübab�
 The verse, in al-Suyuti's heading: «والذين يتوفون منكم ويذرون أزواجا».
 
 ## Tam rivayet (Arapça kaynak metin)
-<div dir="rtl" lang="ar">
 
 والذين يتوفون منكم ويذرون أزواجا الآية أخرج إسحق ابن راهويه في تفسيره عن مقاتل بن حبان أن رجلا من أهل الطائف قدم المدينة وله أولاد رجال ونساء ومعه أبواه وامرأته فمات بالمدينة فرفع ذلك إلى النبي فأعطى الوالدين وأعطى أولاده بالمعروف
-
-</div>
 
 ## Place in the museum
 Kaynak: [[work/lubab-al-nuqul-suyuti|es-Suyuti'nin Lubab al-Nuqul]]. Ayet: [[passage/quran-2-234|Kur'an 2-234]].

@@ -11,11 +11,8 @@ Rapport d'al-Wahidi sur la circonstance de révélation de al-Baqara 2:224, tran
 The verse, in al-Wahidi's heading: «ولا تجعلوا الله عرضة لأيمانكم».
 
 ## Rapport complet (texte source arabe)
-<div dir="rtl" lang="ar">
 
 قال الكلبي: نزلت في
-
-</div>
 
 ## Place in the museum
 Source : [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an d'al-Wahidi]]. Le verset : [[passage/quran-2-224|Coran 2-224]].

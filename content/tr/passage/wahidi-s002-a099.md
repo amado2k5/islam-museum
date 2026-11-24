@@ -11,11 +11,8 @@ al-Baqara 2:99 ayetinin nüzül sebebi hakkında El-Vahidi'nin rivayeti; Esbab N
 The verse, in al-Wahidi's heading: «ولقد أنزلنا إليك آيات بينات».
 
 ## Tam rivayet (Arapça kaynak metin)
-<div dir="rtl" lang="ar">
 
 وسلم - يا محمد ما جئتنا بشيء نعرفه، ما أنزل عليك من آية بينة فنتبعك، بها
-
-</div>
 
 ## Place in the museum
 Kaynak: [[work/asbab-nuzul-wahidi|El-Vahidi'nin Esbab Nüzul el-Kur'an'ı]]. Ayet: [[passage/quran-2-99|Kur'an 2-99]].

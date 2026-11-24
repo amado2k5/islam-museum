@@ -11,11 +11,8 @@ Rapport d'al-Wahidi sur la circonstance de révélation de al-An'am 6:25, transm
 The verse, in al-Wahidi's heading: «ومنهم من يستمع إليك».
 
 ## Rapport complet (texte source arabe)
-<div dir="rtl" lang="ar">
 
 الأولى، وكان يحدث قريشا فيستملحون حديثه، فأنزل اللههذه الآية.
-
-</div>
 
 ## Place in the museum
 Source : [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an d'al-Wahidi]]. Le verset : [[passage/quran-6-25|Coran 6-25]].

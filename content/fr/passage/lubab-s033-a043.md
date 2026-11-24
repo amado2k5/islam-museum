@@ -11,11 +11,8 @@ Rapport d'al-Suyuti sur la circonstance de révélation de al-Ahzab 33:43, dans 
 The verse, in al-Suyuti's heading: «هو الذي يصلي عليكم».
 
 ## Rapport complet (texte source arabe)
-<div dir="rtl" lang="ar">
 
 هو الذي يصلي عليكم الآية أخرج عبد بن حميد عن مجاهد قال لما نزلت إن الله وملائكته يصلون على النبي قال ابو بكر يا رسول الله ما أنزل الله عليك خيرا إلا أشركنا فيه فنزلت هو الذي يصلي عليكم وملائكته
-
-</div>
 
 ## Place in the museum
 Source : [[work/lubab-al-nuqul-suyuti|d'al-Suyuti Lubab al-Nuqul]]. Le verset: [[passage/quran-33-43|Coran 33-43]].

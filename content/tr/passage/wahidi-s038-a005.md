@@ -11,11 +11,8 @@ Sad 38:5 ayetinin nüzül sebebi hakkında El-Vahidi'nin rivayeti; Esbab Nüzul 
 The verse, in al-Wahidi's heading: «أجعل الآلهة إلها واحدا ... .».
 
 ## Tam rivayet (Arapça kaynak metin)
-<div dir="rtl" lang="ar">
 
 الله عليه وسلم - فدعاه فقال له: يا ابن أخي هؤلاء قومك يسألونك ذا السواء
-
-</div>
 
 ## Place in the museum
 Kaynak: [[work/asbab-nuzul-wahidi|El-Vahidi'nin Esbab Nüzul el-Kur'an'ı]]. Ayet: [[passage/quran-38-5|Kur'an 38-5]].

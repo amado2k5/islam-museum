@@ -11,11 +11,8 @@ Rapport d'al-Wahidi sur la circonstance de révélation de al-Qasas 28:68, trans
 The verse, in al-Wahidi's heading: «وربك يخلق ما يشاء ويختار».
 
 ## Rapport complet (texte source arabe)
-<div dir="rtl" lang="ar">
 
 قال أهل التفسير: نزلت جوابا للوليد بن المغيرة حين قال فيما أخبر الله
-
-</div>
 
 ## Place in the museum
 Source : [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an d'al-Wahidi]]. Le verset : [[passage/quran-28-68|Coran 28-68]].

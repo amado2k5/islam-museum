@@ -11,11 +11,8 @@ Rapport d'al-Suyuti sur la circonstance de révélation de al-Ma'ida 5:100, dans
 The verse, in al-Suyuti's heading: «قل لا يستوي».
 
 ## Rapport complet (texte source arabe)
-<div dir="rtl" lang="ar">
 
 قل لا يستوي الآية أخرج الواحدي والأصبهاني في الترغيب عن جابر أن النبي ذكر تحريم الخمر فقام أعرابي فقال إني كنت رجلا كانت هذه تجارتي فاعتقبت كل منها مالا فهل ينفع ذلك المال بطاعة الله تعالى فقال النبي
-
-</div>
 
 ## Place in the museum
 Source : [[work/lubab-al-nuqul-suyuti|d'al-Suyuti Lubab al-Nuqul]]. Le verset: [[passage/quran-5-100|Coran 5-100]].

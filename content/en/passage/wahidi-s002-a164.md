@@ -11,11 +11,8 @@ Al-Wahidi's report on the occasion of revelation of al-Baqara 2:164, narrated fr
 The verse, in al-Wahidi's heading: «إن في خلق السماوات والأرض».
 
 ## Full report (Arabic source text)
-<div dir="rtl" lang="ar">
 
 شبل عن ابن أبي نجيح عن عطاء قال: أنزلت بالمدينة على النبي - صلى الله
-
-</div>
 
 ## Place in the museum
 Source: [[work/asbab-al-nuzul-wahidi|al-Wahidi's Asbab nuzul al-Qur'an]]. The verse: [[passage/quran-2-164|Qur'an 2-164]].

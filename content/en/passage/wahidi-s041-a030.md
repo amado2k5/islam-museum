@@ -11,11 +11,8 @@ Al-Wahidi's report on the occasion of revelation of Fussilat 41:30, narrated fro
 The verse, in al-Wahidi's heading: «إن الذين قالوا ربنا الله ثم استقاموا».
 
 ## Full report (Arabic source text)
-<div dir="rtl" lang="ar">
 
 قال عطاء عن ابن عباس: نزلت هذه الآية في أبي بكر الصديق- وذلك أن المشركين قالوا: ربنا الله والملائكة بناته وهؤلاء شفعاؤنا عند
-
-</div>
 
 ## Place in the museum
 Source: [[work/asbab-al-nuzul-wahidi|al-Wahidi's Asbab nuzul al-Qur'an]]. The verse: [[passage/quran-41-30|Qur'an 41-30]].

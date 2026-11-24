@@ -11,11 +11,8 @@ Informe de al-Wahidi sobre la ocasión de revelación de al-Waqi'a 56:82, transm
 The verse, in al-Wahidi's heading: «وتجعلون رزقكم أنكم تكذبون».
 
 ## Informe completo (texto fuente en árabe)
-<div dir="rtl" lang="ar">
 
 وقال بعضهم: لقد صدق نوء كذا وكذا"، فنزلت هذه الآيات: {فلا أقسم بمواقع
-
-</div>
 
 ## Place in the museum
 Fuente: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an de al-Wahidi]]. El versículo: [[passage/quran-56-82|Corán 56-82]].

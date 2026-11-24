@@ -11,11 +11,8 @@ Al-Suyuti's report on the occasion of revelation of al-Isra 17:45, in Lubab al-N
 The verse, in al-Suyuti's heading: «وإذا قرأت القرآن».
 
 ## Full report (Arabic source text)
-<div dir="rtl" lang="ar">
 
 وإذا قرأت القرآن الآية أخرج ابن المنذر عن ابن شهاب قال كان رسول الله إذا تلا القرآن على مشركي قريش ودعاهم إلى الكتاب قالوا يهزؤون به قلوبنا في أكنة مما تدعونا الله وفي آذاننا وقر ومن بيننا وبينك حجاب فأنزل الله
-
-</div>
 
 ## Place in the museum
 Source: [[work/lubab-al-nuqul-suyuti|al-Suyuti's Lubab al-Nuqul]]. The verse: [[passage/quran-17-45|Qur'an 17-45]].

@@ -11,11 +11,8 @@ al-Hijr 15:24 ayetinin nüzul sebebi hakkında es-Suyuti'nin rivayeti; Lübabü'
 The verse, in al-Suyuti's heading: «ولقد علمنا».
 
 ## Tam rivayet (Arapça kaynak metin)
-<div dir="rtl" lang="ar">
 
 ولقد علمنا الآية روى الترمذي والنسائي والحاكم وغيرهم عن ابن عباس قال كانت امرأة تصلي خلف رسول الله حسناء من أحسن الناس فكان بعض القوم يتقدم حتى يكون في الصف الأول لئلا يراها ويستأخر بعضهم حتى يكون في الصف المؤخر فإذا
-
-</div>
 
 ## Place in the museum
 Kaynak: [[work/lubab-al-nuqul-suyuti|es-Suyuti'nin Lubab al-Nuqul]]. Ayet: [[passage/quran-15-24|Kur'an 15-24]].

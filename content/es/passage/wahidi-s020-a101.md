@@ -11,11 +11,8 @@ Informe de al-Wahidi sobre la ocasión de revelación de Ta Ha 20:101, transmiti
 The verse, in al-Wahidi's heading: «إن الذين سبقت لهم منا الحسنى».
 
 ## Informe completo (texto fuente en árabe)
-<div dir="rtl" lang="ar">
 
 عن أبي يحيى، عن ابن عباس قال: آية لا يسألني الناس عنها، لا أدري أعرفوها
-
-</div>
 
 ## Place in the museum
 Fuente: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an de al-Wahidi]]. El versículo: [[passage/quran-20-101|Corán 20-101]].

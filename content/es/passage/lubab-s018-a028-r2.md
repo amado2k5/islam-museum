@@ -11,11 +11,8 @@ Informe de al-Suyuti sobre la ocasión de revelación de al-Kahf 18:28, en Lubab
 The verse, in al-Suyuti's heading: «ولا تطع».
 
 ## Informe completo (texto fuente en árabe)
-<div dir="rtl" lang="ar">
 
 ولا تطع الآية أخرج ابن مردويه من طريق جويبر عن الضحاك عن ابن عباس في قوله ولا تطع من أغفلنا قلبه عن ذكرنا قال نزلت في أمية بن خلف الجمحي وذلك أنه دعا النبي إلى أمر كرهه الله من طرد الفقراء
-
-</div>
 
 ## Place in the museum
 Fuente: [[work/lubab-al-nuqul-suyuti|de al-Suyuti Lubab al-Nuqul]]. El versículo: [[passage/quran-18-28|Corán 18-28]].

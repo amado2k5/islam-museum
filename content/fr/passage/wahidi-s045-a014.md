@@ -11,11 +11,8 @@ Rapport d'al-Wahidi sur la circonstance de révélation de al-Jathiya 45:14, tra
 The verse, in al-Wahidi's heading: «قل للذين آمنوا يغفروا للذين لا يرجون أيام الله».
 
 ## Rapport complet (texte source arabe)
-<div dir="rtl" lang="ar">
 
 يرجون أيام الله عبد الله بن أبي، وذلك أنهم نزلوا في غزاة بني المصطلق على
-
-</div>
 
 ## Place in the museum
 Source : [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an d'al-Wahidi]]. Le verset : [[passage/quran-45-14|Coran 45-14]].

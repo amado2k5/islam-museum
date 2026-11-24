@@ -11,11 +11,8 @@ al-Mujadila 58:2 ayetinin nüzül sebebi hakkında El-Vahidi'nin rivayeti; Esbab
 The verse, in al-Wahidi's heading: «الذين يظاهرون منكم من نسائهم».
 
 ## Tam rivayet (Arapça kaynak metin)
-<div dir="rtl" lang="ar">
 
 الأشعث قال: أخبرنا محمد بن بكار قال: أخبرنا سعيد بن بشير أنه سأل قتادة
-
-</div>
 
 ## Place in the museum
 Kaynak: [[work/asbab-nuzul-wahidi|El-Vahidi'nin Esbab Nüzul el-Kur'an'ı]]. Ayet: [[passage/quran-58-2|Kur'an 58-2]].

@@ -11,11 +11,8 @@ al-Qiyama 75:3 کے سببِ نزول پر الواحدی کی روایت — «
 The verse, in al-Wahidi's heading: «3».
 
 ## مکمل روایت ⁦(عربی ماخذ متن)⁩
-<div dir="rtl" lang="ar">
 
 نزلت في عدي بن ربيعة، وذلك أنه أتى النبي- فقال:
-
-</div>
 
 ## Place in the museum
 ماخذ: [[work/asbab-nuzul-wahidi|الواحدی کی اسباب نزول القرآن]]۔ آیت: [[passage/quran-75-3|قرآن 75-3]]۔

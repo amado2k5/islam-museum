@@ -11,11 +11,8 @@ Riwayat as-Suyuti tentang sebab turunnya az-Zumar 39:9, dalam Lubab al-Nuqul fi 
 The verse, in al-Suyuti's heading: «أمن هو قانت آناء الليل».
 
 ## Laporan lengkap (teks sumber Arab)
-<div dir="rtl" lang="ar">
 
 أمن هو قانت آناء الليل الآية أخرج ابن أبي حاتم عن ابن عمر في
-
-</div>
 
 ## Place in the museum
 Sumber: [[work/lubab-al-nuqul-suyuti|as-Suyuti Lubab al-Nuqul]]. Ayatnya: [[passage/quran-39-9|Al-Qur'an 39-9]].

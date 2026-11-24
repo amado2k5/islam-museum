@@ -11,11 +11,8 @@ Riwayat as-Suyuti tentang sebab turunnya al-Anfal 8:55, dalam Lubab al-Nuqul fi 
 The verse, in al-Suyuti's heading: «إن شر الدواب عند الله الذين كفروا».
 
 ## Laporan lengkap (teks sumber Arab)
-<div dir="rtl" lang="ar">
 
 إن شر الدواب عند الله الذين كفروا الآية أخرج أبو الشيخ عن سعيد بن جبير قال نزلت إن شر الدواب عند الله الذين كفروا فهم لا يؤمنون في ستة رهط من اليهود فيهم ابن التابوت
-
-</div>
 
 ## Place in the museum
 Sumber: [[work/lubab-al-nuqul-suyuti|as-Suyuti Lubab al-Nuqul]]. Ayatnya: [[passage/quran-8-55|Al-Qur'an 8-55]].

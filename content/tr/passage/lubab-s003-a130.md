@@ -11,11 +11,8 @@ Al 'Imran 3:130 ayetinin nüzul sebebi hakkında es-Suyuti'nin rivayeti; Lübab�
 The verse, in al-Suyuti's heading: «يا أيها الذين آمنوا اخرج الفريابي عن مجاهد».
 
 ## Tam rivayet (Arapça kaynak metin)
-<div dir="rtl" lang="ar">
 
 يا أيها الذين آمنوا اخرج الفريابي عن مجاهد قال كانوا يتبايعون إلى الأجل فإذا حل الأجل زادوا عليهم وزادوا في الأجل فنزلت يا أيها الذين آمنوا لا تأكلوا الربا أضعافا مضاعفة وأخرج أيضا عن عطاء قال كانت ثقيف تداين بني النضير في الجاهلية فإذا جاء
-
-</div>
 
 ## Place in the museum
 Kaynak: [[work/lubab-al-nuqul-suyuti|es-Suyuti'nin Lubab al-Nuqul]]. Ayet: [[passage/quran-3-130|Kur'an 3-130]].

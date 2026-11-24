@@ -11,11 +11,8 @@ al-Baqara 2:187 ayetinin nüzul sebebi hakkında es-Suyuti'nin rivayeti; Lübab�
 The verse, in al-Suyuti's heading: «ولا تباشروهن».
 
 ## Tam rivayet (Arapça kaynak metin)
-<div dir="rtl" lang="ar">
 
 ولا تباشروهن الآية أخرج ابن جرير عن قتادة قال كان الرجل اذا اعتكف فخرج من المسجد جامع إن شاء فنزلت ولا تباشروهن وأنتم عاكفون في المساجد قوله تعالي ولا تأكلوا الآية أخرج ابن أبي حاتم عن سعيد بن جبير قال إن امرأ القيس بن عابس
-
-</div>
 
 ## Place in the museum
 Kaynak: [[work/lubab-al-nuqul-suyuti|es-Suyuti'nin Lubab al-Nuqul]]. Ayet: [[passage/quran-2-187|Kur'an 2-187]].

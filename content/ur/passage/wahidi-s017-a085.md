@@ -11,11 +11,8 @@ Bani Isra'il 17:85 کے سببِ نزول پر الواحدی کی روایت �
 The verse, in al-Wahidi's heading: «ويسألونك عن الروح».
 
 ## مکمل روایت ⁦(عربی ماخذ متن)⁩
-<div dir="rtl" lang="ar">
 
 بنا ناس من اليهود فقالوا: سلوه عن الروح، فقال بعضهم: لا تسألوه فيستقبلكم
-
-</div>
 
 ## Place in the museum
 ماخذ: [[work/asbab-nuzul-wahidi|الواحدی کی اسباب نزول القرآن]]۔ آیت: [[passage/quran-17-85|قرآن 17-85]]۔

@@ -11,11 +11,8 @@ al-'Ankabut 29:10 ayetinin nüzül sebebi hakkında El-Vahidi'nin rivayeti; Esba
 The verse, in al-Wahidi's heading: «ومن الناس من يقول آمنا بالله».
 
 ## Tam rivayet (Arapça kaynak metin)
-<div dir="rtl" lang="ar">
 
 قال مجاهد: نزلت في أناس كانوا يؤمنون بألسنتهم، فإذا أصابهم بلاء من
-
-</div>
 
 ## Place in the museum
 Kaynak: [[work/asbab-nuzul-wahidi|El-Vahidi'nin Esbab Nüzul el-Kur'an'ı]]. Ayet: [[passage/quran-29-10|Kur'an 29-10]].

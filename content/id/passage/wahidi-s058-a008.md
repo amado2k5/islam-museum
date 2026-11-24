@@ -11,11 +11,8 @@ Riwayat al-Wahidi tentang sebab turunnya al-Mujadila 58:8, diriwayatkan dari gen
 The verse, in al-Wahidi's heading: «ألم تر إلى الذين نهوا عن النجوى».
 
 ## Laporan lengkap (teks sumber Arab)
-<div dir="rtl" lang="ar">
 
 قال ابن عباس ومجاهد: نزلت في اليهود والمنافقين؛ وذلك أنهم كانوا
-
-</div>
 
 ## Place in the museum
 Sumber: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an al-Wahidi]]. Ayatnya: [[passage/quran-58-8|Al-Qur'an 58-8]].

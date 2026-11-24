@@ -11,11 +11,8 @@ Riwayat al-Wahidi tentang sebab turunnya al-Mu'minun 23:2, diriwayatkan dalam As
 The verse, in al-Wahidi's heading: «2».
 
 ## Laporan lengkap (teks sumber Arab)
-<div dir="rtl" lang="ar">
 
 الله- كان إذا صلى رفع بصره إلى السماء، فنزل:
-
-</div>
 
 ## Place in the museum
 Sumber: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an al-Wahidi]]. Ayatnya: [[passage/quran-23-2|Al-Qur'an 23-2]].

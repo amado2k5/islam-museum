@@ -11,11 +11,8 @@ an-Nur 24:33 ayetinin nüzül sebebi hakkında El-Vahidi'nin rivayeti; Esbab Nü
 The verse, in al-Wahidi's heading: «ولا تكرهوا فتياتكم على البغاء».
 
 ## Tam rivayet (Arapça kaynak metin)
-<div dir="rtl" lang="ar">
 
 جابر قال: كان عبد الله بن أبي يقول لجارية له: اذهبي فابغينا شيئا، فأنزل
-
-</div>
 
 ## Place in the museum
 Kaynak: [[work/asbab-nuzul-wahidi|El-Vahidi'nin Esbab Nüzul el-Kur'an'ı]]. Ayet: [[passage/quran-24-33|Kur'an 24-33]].

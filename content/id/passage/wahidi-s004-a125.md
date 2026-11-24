@@ -11,11 +11,8 @@ Riwayat al-Wahidi tentang sebab turunnya an-Nisa 4:125, diriwayatkan dari genera
 The verse, in al-Wahidi's heading: «واتبع ملة إبراهيم حنيفا واتخذ الله إبراهيم خليلا».
 
 ## Laporan lengkap (teks sumber Arab)
-<div dir="rtl" lang="ar">
 
 فقال: بإذن رب المنزل،
-
-</div>
 
 ## Place in the museum
 Sumber: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an al-Wahidi]]. Ayatnya: [[passage/quran-4-125|Al-Qur'an 4-125]].

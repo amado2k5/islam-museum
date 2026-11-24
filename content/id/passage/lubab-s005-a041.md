@@ -11,11 +11,8 @@ Riwayat as-Suyuti tentang sebab turunnya al-Ma'ida 5:41, dalam Lubab al-Nuqul fi
 The verse, in al-Suyuti's heading: «يا أيها الرسول».
 
 ## Laporan lengkap (teks sumber Arab)
-<div dir="rtl" lang="ar">
 
 يا أيها الرسول الآية ⁦(ك)⁩ روى أحمد وأبو داود عن ابن عباس قال أنزلها الله في طائفتين من اليهود قهرت إحداهما الأخرى في الجاهلية حتى ارتضوا فاصطلحوا على أن كل قتيل قتلته العزيزة من الذليلة فديته خمسون وسقا وكل قتيل قتلته الذليلة من العزيزة فديته
-
-</div>
 
 ## Place in the museum
 Sumber: [[work/lubab-al-nuqul-suyuti|as-Suyuti Lubab al-Nuqul]]. Ayatnya: [[passage/quran-5-41|Al-Qur'an 5-41]].

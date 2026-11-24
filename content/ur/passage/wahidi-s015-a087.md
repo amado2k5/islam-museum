@@ -11,11 +11,8 @@ al-Hijr 15:87 کے سببِ نزول پر الواحدی کی روایت — «�
 The verse, in al-Wahidi's heading: «ولقد آتيناك سبعا من المثاني والقرآن العظيم».
 
 ## مکمل روایت ⁦(عربی ماخذ متن)⁩
-<div dir="rtl" lang="ar">
 
 سبيل الله، فأنزل الله
-
-</div>
 
 ## Place in the museum
 ماخذ: [[work/asbab-nuzul-wahidi|الواحدی کی اسباب نزول القرآن]]۔ آیت: [[passage/quran-15-87|قرآن 15-87]]۔

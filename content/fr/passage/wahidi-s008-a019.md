@@ -11,11 +11,8 @@ Rapport d'al-Wahidi sur la circonstance de révélation de al-Anfal 8:19, transm
 The verse, in al-Wahidi's heading: «إن تستفتحوا فقد جاءكم الفتح».
 
 ## Rapport complet (texte source arabe)
-<div dir="rtl" lang="ar">
 
 الغداة، وكان ذلك استفتاحه، فأنزل اللهفي ذلك: {إن تستفتحوا فقد
-
-</div>
 
 ## Place in the museum
 Source : [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an d'al-Wahidi]]. Le verset : [[passage/quran-8-19|Coran 8-19]].

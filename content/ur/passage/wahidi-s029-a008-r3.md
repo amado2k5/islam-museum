@@ -11,11 +11,8 @@ al-'Ankabut 29:8 کے سببِ نزول پر الواحدی کی روایت — 
 The verse, in al-Wahidi's heading: «وإن جاهداك لتشرك بي».
 
 ## مکمل روایت ⁦(عربی ماخذ متن)⁩
-<div dir="rtl" lang="ar">
 
 سعد بن مالك قال: أنزلت في هذه الآية: {وإن جاهداك لتشرك بي ما ليس لك به
-
-</div>
 
 ## Place in the museum
 ماخذ: [[work/asbab-nuzul-wahidi|الواحدی کی اسباب نزول القرآن]]۔ آیت: [[passage/quran-29-8|قرآن 29-8]]۔

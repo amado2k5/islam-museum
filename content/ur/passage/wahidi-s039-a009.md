@@ -11,11 +11,8 @@ az-Zumar 39 کے سببِ نزول پر الواحدی کی روایت — «ا�
 The verse, in al-Wahidi's heading: «أم من هو قانت آناء الليل».
 
 ## مکمل روایت ⁦(عربی ماخذ متن)⁩
-<div dir="rtl" lang="ar">
 
 قال ابن عباس في رواية عطاء: نزلت في أبي بكر الصديق-.
-
-</div>
 
 ## Place in the museum
 ماخذ: [[work/asbab-nuzul-wahidi|الواحدی کی اسباب نزول القرآن]]۔ آیت: [[passage/quran-39-9|قرآن 39-9]].

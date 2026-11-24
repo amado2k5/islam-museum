@@ -11,11 +11,8 @@ Riwayat al-Wahidi tentang sebab turunnya an-Nur 24:11, diriwayatkan dari generas
 The verse, in al-Wahidi's heading: «إن الذين جاءوا بالإفك عصبة منكم».
 
 ## Laporan lengkap (teks sumber Arab)
-<div dir="rtl" lang="ar">
 
 فخرجت مع رسول الله- وذلك بعدما نزلت آية الحجاب
-
-</div>
 
 ## Place in the museum
 Sumber: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an al-Wahidi]]. Ayatnya: [[passage/quran-24-11|Al-Qur'an 24-11]].

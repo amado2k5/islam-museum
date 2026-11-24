@@ -11,11 +11,8 @@ al-Mujadila 58:8 ayetinin nüzül sebebi hakkında El-Vahidi'nin rivayeti; Esbab
 The verse, in al-Wahidi's heading: «ألم تر إلى الذين تولوا قوما غضب الله عليهم».
 
 ## Tam rivayet (Arapça kaynak metin)
-<div dir="rtl" lang="ar">
 
 ومقاتل: نزلت في عبد الله بن نبتل المنافق كان يجالس النبي
-
-</div>
 
 ## Place in the museum
 Kaynak: [[work/asbab-nuzul-wahidi|El-Vahidi'nin Esbab Nüzul el-Kur'an'ı]]. Ayet: [[passage/quran-58-8|Kur'an 58-8]].

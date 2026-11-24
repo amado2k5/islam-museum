@@ -11,11 +11,8 @@ Informe de al-Suyuti sobre la ocasión de revelación de an-Nisa 4:92, en Lubab 
 The verse, in al-Suyuti's heading: «وما كان لمؤمن».
 
 ## Informe completo (texto fuente en árabe)
-<div dir="rtl" lang="ar">
 
 وما كان لمؤمن الآية أخرج ابن جرير عن عكرمة قال كان الحرث بن يزيد من بني عامر بن لؤي يعذب عياش بن أبي ربيعة مع أبي جهل ثم خرج الحرث مهاجرا إلى النبي فلقيه عياش بالحرة فعلاه بالسيف وهو يحسب انه
-
-</div>
 
 ## Place in the museum
 Fuente: [[work/lubab-al-nuqul-suyuti|de al-Suyuti Lubab al-Nuqul]]. El versículo: [[passage/quran-4-92|Corán 4-92]].

@@ -11,11 +11,8 @@ ad-Duha 93:4 کے سببِ نزول پر الواحدی کی روایت — «ا
 The verse, in al-Wahidi's heading: «وللآخرة خير لك من الأولى».
 
 ## مکمل روایت ⁦(عربی ماخذ متن)⁩
-<div dir="rtl" lang="ar">
 
 وسلم - ما يفتح على أمته من بعده، فسر بذلك، فأنزل الله-
-
-</div>
 
 ## Place in the museum
 ماخذ: [[work/asbab-nuzul-wahidi|الواحدی کی اسباب نزول القرآن]]۔ آیت: [[passage/quran-93-4|قرآن 93-4]]۔

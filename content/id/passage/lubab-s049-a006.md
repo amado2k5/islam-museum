@@ -11,11 +11,8 @@ Riwayat as-Suyuti tentang sebab turunnya al-Hijr 15:6, dalam Lubab al-Nuqul fi A
 The verse, in al-Suyuti's heading: «يا أيها الذين آمنوا إن جاءكم فاسق».
 
 ## Laporan lengkap (teks sumber Arab)
-<div dir="rtl" lang="ar">
 
 يا أيها الذين آمنوا إن جاءكم فاسق أخرج أحمد وغيره بسند جيد عن الحرث بن ضرار الخزامي قال قدمت على رسول الله فدعاني إلى الإسلام فأقررت به ودخلت فيه ودعاني إلى الزكاة فأقررت بها وقلت يا رسول الله أرجع إلى قومي
-
-</div>
 
 ## Place in the museum
 Sumber: [[work/lubab-al-nuqul-suyuti|as-Suyuti Lubab al-Nuqul]]. Ayatnya: [[passage/quran-49-6|Al-Qur'an 49-6]].

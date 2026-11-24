@@ -11,11 +11,8 @@ Rapport d'al-Wahidi sur la circonstance de révélation de al-Hijr 15:14, transm
 The verse, in al-Wahidi's heading: «قالت الأعراب آمنا».
 
 ## Rapport complet (texte source arabe)
-<div dir="rtl" lang="ar">
 
 نزلت في أعراب من بني أسد بن خزيمة قدموا على رسول الله
-
-</div>
 
 ## Place in the museum
 Source : [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an d'al-Wahidi]]. Le verset : [[passage/quran-15-14|Coran 15-14]].

@@ -11,11 +11,8 @@ al-Baqara 2:146 ayetinin nüzül sebebi hakkında El-Vahidi'nin rivayeti; Esbab 
 The verse, in al-Wahidi's heading: «الذين آتيناهم الكتاب يعرفونه كما يعرفون أبناءهم».
 
 ## Tam rivayet (Arapça kaynak metin)
-<div dir="rtl" lang="ar">
 
 نزلت في مؤمني أهل الكتاب عبد الله بن سلام وأصحابه كانوا يعرفون رسول
-
-</div>
 
 ## Place in the museum
 Kaynak: [[work/asbab-nuzul-wahidi|El-Vahidi'nin Esbab Nüzul el-Kur'an'ı]]. Ayet: [[passage/quran-2-146|Kur'an 2-146]].

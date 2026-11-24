@@ -11,11 +11,8 @@ Al-Wahidi's report on the occasion of revelation of al-Baqara 2:140, narrated fr
 The verse, in al-Wahidi's heading: «ومن أظلم ممن منع مساجد الله».
 
 ## Full report (Arabic source text)
-<div dir="rtl" lang="ar">
 
 نزلت في ططوس الرومي وأصحابه من النصارى، وذلك أنهم غزوا بني إسرائيل،
-
-</div>
 
 ## Place in the museum
 Source: [[work/asbab-al-nuzul-wahidi|al-Wahidi's Asbab nuzul al-Qur'an]]. The verse: [[passage/quran-2-140|Qur'an 2-140]].

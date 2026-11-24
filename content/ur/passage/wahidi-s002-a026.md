@@ -11,11 +11,8 @@ al-Baqara 2:26 کے سببِ نزول پر الواحدی کی روایت — «
 The verse, in al-Wahidi's heading: «إن الله لا يستحيي أن يضرب مثلا».
 
 ## مکمل روایت ⁦(عربی ماخذ متن)⁩
-<div dir="rtl" lang="ar">
 
 فأنزل الله هذه الآية.
-
-</div>
 
 ## Place in the museum
 ماخذ: [[work/asbab-nuzul-wahidi|الواحدی کی اسباب نزول القرآن]]۔ آیت: [[passage/quran-2-26|قرآن 2-26]]۔

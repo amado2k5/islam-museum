@@ -11,11 +11,8 @@ Yusuf 12:3 ayetinin nüzül sebebi hakkında El-Vahidi'nin rivayeti; Esbab Nüzu
 The verse, in al-Wahidi's heading: «نحن نقص عليك أحسن القصص».
 
 ## Tam rivayet (Arapça kaynak metin)
-<div dir="rtl" lang="ar">
 
 - {نحن نقص عليك أحسن القصص} قال: أنزل القرآن على رسول الله- فتلاه عليهم زمانا، فقالوا: يا رسول الله لو قصصت،
-
-</div>
 
 ## Place in the museum
 Kaynak: [[work/asbab-nuzul-wahidi|El-Vahidi'nin Esbab Nüzul el-Kur'an'ı]]. Ayet: [[passage/quran-12-3|Kur'an 12-3]].

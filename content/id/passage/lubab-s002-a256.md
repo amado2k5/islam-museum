@@ -11,11 +11,8 @@ Riwayat as-Suyuti tentang sebab turunnya al-Baqara 2:256, dalam Lubab al-Nuqul f
 The verse, in al-Suyuti's heading: «لا إكراه في الدين روى أبو داود والنسائي».
 
 ## Laporan lengkap (teks sumber Arab)
-<div dir="rtl" lang="ar">
 
 لا إكراه في الدين روى أبو داود والنسائي وابن حبان عن ابن عباس قال كانت المرأة تكون مقلاة فتجعل على نفسها إن عاش لها ولد أن تهوده فلما أجليت بنو النضير كان فيهم من أبناء الأنصار فقالوا لا ندع أبناءنا فأنزل الله لا إكراه في
-
-</div>
 
 ## Place in the museum
 Sumber: [[work/lubab-al-nuqul-suyuti|as-Suyuti Lubab al-Nuqul]]. Ayatnya: [[passage/quran-2-256|Al-Qur'an 2-256]].

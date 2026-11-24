@@ -11,11 +11,8 @@ al-Baqara 2:184 ayetinin nüzul sebebi hakkında es-Suyuti'nin rivayeti; Lübab�
 The verse, in al-Suyuti's heading: «وعلى الذين يطيقونه».
 
 ## Tam rivayet (Arapça kaynak metin)
-<div dir="rtl" lang="ar">
 
 وعلى الذين يطيقونه الآية أخرج ابن سعد في طبقاته عن مجاهد قال هذه الآية نزلت في مولاي قيس بن السائب وعلى الذين يطيقونه فدية طعام مسكين فأفطر وأطعم لكل يوم مسكينا
-
-</div>
 
 ## Place in the museum
 Kaynak: [[work/lubab-al-nuqul-suyuti|es-Suyuti'nin Lubab al-Nuqul]]. Ayet: [[passage/quran-2-184|Kur'an 2-184]].

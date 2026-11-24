@@ -11,11 +11,8 @@ Rapport d'al-Suyuti sur la circonstance de révélation de al-Hijr 15, dans Luba
 The verse, in al-Suyuti's heading: «وعلى كل ضامر».
 
 ## Rapport complet (texte source arabe)
-<div dir="rtl" lang="ar">
 
 وعلى كل ضامر الآية أخرج ابن جرير عن مجاهد قال كانوا لا يركبون فأنزل الله يأتوك رجالا وعلى كل ضامر فأمرهم بالزاد ورخص لهم في الركوب والمتجر
-
-</div>
 
 ## Place in the museum
 Source : [[work/lubab-al-nuqul-suyuti|d'al-Suyuti Lubab al-Nuqul]]. Le verset: [[passage/quran-22-27|Coran 22-27]].

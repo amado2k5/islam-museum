@@ -11,11 +11,8 @@ Informe de al-Suyuti sobre la ocasión de revelación de Al 'Imran 3:65, en Luba
 The verse, in al-Suyuti's heading: «يا أهل الكتاب لم تحاجون».
 
 ## Informe completo (texto fuente en árabe)
-<div dir="rtl" lang="ar">
 
 يا أهل الكتاب لم تحاجون الآية روى ابن أسحق بسنده المتكرر إلى ابن عباس قال إجتمعت نصارى نجران وأحبار يهود عند رسول الله فتنازعوا عنده فقالت الأحبار ما كان إبراهيم إلا يهوديا وقالت النصارى ما كان إبراهيم إلا نصرانيا فأنزل الله
-
-</div>
 
 ## Place in the museum
 Fuente: [[work/lubab-al-nuqul-suyuti|de al-Suyuti Lubab al-Nuqul]]. El versículo: [[passage/quran-3-65|Corán 3-65]].

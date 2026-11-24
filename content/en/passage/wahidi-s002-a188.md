@@ -11,11 +11,8 @@ Al-Wahidi's report on the occasion of revelation of al-Baqara 2:188, narrated fr
 The verse, in al-Wahidi's heading: «ولا تأكلوا أموالكم بينكم بالباطل».
 
 ## Full report (Arabic source text)
-<div dir="rtl" lang="ar">
 
 قال مقاتل بن حيان: نزلت هذه الآية في امرئ القيس بن عابس الكندي، وفي
-
-</div>
 
 ## Place in the museum
 Source: [[work/asbab-al-nuzul-wahidi|al-Wahidi's Asbab nuzul al-Qur'an]]. The verse: [[passage/quran-2-188|Qur'an 2-188]].

@@ -11,11 +11,8 @@ Informe de al-Suyuti sobre la ocasión de revelación de al-Baqara 2:244, en Lub
 The verse, in al-Suyuti's heading: «وقاتلوا في سبيل الله».
 
 ## Informe completo (texto fuente en árabe)
-<div dir="rtl" lang="ar">
 
 وقاتلوا في سبيل الله أخرج الواحدي من طريق الكلبي عن أبي صالح عن ابن عباس قال نزلت هذه الآية في صلح الحديبية وذلك أن رسول الله لما صد عن البيت ثم صالحه المشركون على أن يرجع عامه القابل فلما كان العام
-
-</div>
 
 ## Place in the museum
 Fuente: [[work/lubab-al-nuqul-suyuti|de al-Suyuti Lubab al-Nuqul]]. El versículo: [[passage/quran-2-244|Corán 2-244]].

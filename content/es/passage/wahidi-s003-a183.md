@@ -11,11 +11,8 @@ Informe de al-Wahidi sobre la ocasión de revelación de Al 'Imran 3:183, transm
 The verse, in al-Wahidi's heading: «الذين قالوا إن الله عهد إلينا».
 
 ## Informe completo (texto fuente en árabe)
-<div dir="rtl" lang="ar">
 
 قال الكلبي: نزلت في كعب بن الأشرف ومالك بن الضيف ووهب بن يهوذا وزيد بن
-
-</div>
 
 ## Place in the museum
 Fuente: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an de al-Wahidi]]. El versículo: [[passage/quran-3-183|Corán 3-183]].

@@ -11,11 +11,8 @@ Riwayat as-Suyuti tentang sebab turunnya al-Ma'ida 5:90, dalam Lubab al-Nuqul fi
 The verse, in al-Suyuti's heading: «يا أيها الذين آمنوا إنما الخمر».
 
 ## Laporan lengkap (teks sumber Arab)
-<div dir="rtl" lang="ar">
 
 يا أيها الذين آمنوا إنما الخمر الآية روى أحمد عن أبي هريرة قال قدم رسول الله المدينة وهم يشربون الخمر ويأكلون الميسر فسألوا رسول الله عنهما فأنزل الله يسألونك عن الخمر والميسر [البقرة 219] الآية فقال الناس
-
-</div>
 
 ## Place in the museum
 Sumber: [[work/lubab-al-nuqul-suyuti|as-Suyuti Lubab al-Nuqul]]. Ayatnya: [[passage/quran-5-90|Al-Qur'an 5-90]].

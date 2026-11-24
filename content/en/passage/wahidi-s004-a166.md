@@ -11,11 +11,8 @@ Al-Wahidi's report on the occasion of revelation of an-Nisa 4:166, narrated from
 The verse, in al-Wahidi's heading: «لكن الله يشهد بما أنزل إليك».
 
 ## Full report (Arabic source text)
-<div dir="rtl" lang="ar">
 
 فقالوا: سألنا عنك اليهود فزعموا
-
-</div>
 
 ## Place in the museum
 Source: [[work/asbab-al-nuzul-wahidi|al-Wahidi's Asbab nuzul al-Qur'an]]. The verse: [[passage/quran-4-166|Qur'an 4-166]].

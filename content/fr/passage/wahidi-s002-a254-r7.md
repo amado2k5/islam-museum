@@ -11,11 +11,8 @@ Rapport d'al-Wahidi sur la circonstance de révélation de al-Baqara 2:254, tran
 The verse, in al-Wahidi's heading: «يا أيها الذين آمنوا أنفقوا من طيبات ما كسبتم».
 
 ## Rapport complet (texte source arabe)
-<div dir="rtl" lang="ar">
 
 بتمر رديء، فنزل القرآن: {يا أيها الذين آمنوا أنفقوا
-
-</div>
 
 ## Place in the museum
 Source : [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an d'al-Wahidi]]. Le verset : [[passage/quran-2-254|Coran 2-254]].

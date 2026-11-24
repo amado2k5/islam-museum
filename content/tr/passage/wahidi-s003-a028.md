@@ -11,11 +11,8 @@ Al 'Imran 3:28 ayetinin nüzül sebebi hakkında El-Vahidi'nin rivayeti; Esbab N
 The verse, in al-Wahidi's heading: «لا يتخذ المؤمنون الكافرين أولياء من دون المؤمنين».
 
 ## Tam rivayet (Arapça kaynak metin)
-<div dir="rtl" lang="ar">
 
 النفر إلا مباطنتهم وملازمتهم، فأنزل اللههذه الآية.
-
-</div>
 
 ## Place in the museum
 Kaynak: [[work/asbab-nuzul-wahidi|El-Vahidi'nin Esbab Nüzul el-Kur'an'ı]]. Ayet: [[passage/quran-3-28|Kur'an 3-28]].

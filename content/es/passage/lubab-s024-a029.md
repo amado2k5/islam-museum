@@ -11,11 +11,8 @@ Informe de al-Suyuti sobre la ocasión de revelación de an-Nur 24:29, en Lubab 
 The verse, in al-Suyuti's heading: «ليس عليكم جناح».
 
 ## Informe completo (texto fuente en árabe)
-<div dir="rtl" lang="ar">
 
 ليس عليكم جناح الآية أخرج البزار بسند صحيح عن عائشة قالت كان المسلمون يرغبون في النفر مع رسول الله فيدفعون مفاتحهم إلى زمانهم ويقولون لهم قد أحللنا لكم أن تأكلوا مما أحببتم وكانوا يقولون أنه لا يحل لنا انهم أذنوا عن
-
-</div>
 
 ## Place in the museum
 Fuente: [[work/lubab-al-nuqul-suyuti|de al-Suyuti Lubab al-Nuqul]]. El versículo: [[passage/quran-24-29|Corán 24-29]].

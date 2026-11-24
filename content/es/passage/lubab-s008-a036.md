@@ -11,11 +11,8 @@ Informe de al-Suyuti sobre la ocasión de revelación de al-Anfal 8:36, en Lubab
 The verse, in al-Suyuti's heading: «إن الذين كفروا».
 
 ## Informe completo (texto fuente en árabe)
-<div dir="rtl" lang="ar">
 
 إن الذين كفروا الآية قال ابن أسحق حدثني الزهري ومحمد بن يحيى بن حبان وعاصم بن عمير بن قتادة والحصين بن عبد الرحمن قالوا لما أصيبت قريش يوم بدر ورجعوا إلى مكة مشى عبد الله بن أبي ربيعة وعكرمة بن أبي جهل وصفوان بن أبي
-
-</div>
 
 ## Place in the museum
 Fuente: [[work/lubab-al-nuqul-suyuti|de al-Suyuti Lubab al-Nuqul]]. El versículo: [[passage/quran-8-36|Corán 8-36]].

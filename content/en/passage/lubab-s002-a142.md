@@ -11,11 +11,8 @@ Al-Suyuti's report on the occasion of revelation of al-Baqara 2:142, in Lubab al
 The verse, in al-Suyuti's heading: «سيقول السفهاء من الناس الآيات».
 
 ## Full report (Arabic source text)
-<div dir="rtl" lang="ar">
 
 سيقول السفهاء من الناس الآيات قال ابن إسحاق حدثني إسماعيل بن ابي خالد عن أبي إسحاق عن البراء قال كان رسول الله يصلي نحو بيت المقدس ويكثر النظر إلى السماء ينظر أمر الله فأنزل الله قد نرى تقلب وجهك في السماء
-
-</div>
 
 ## Place in the museum
 Source: [[work/lubab-al-nuqul-suyuti|al-Suyuti's Lubab al-Nuqul]]. The verse: [[passage/quran-2-142|Qur'an 2-142]].

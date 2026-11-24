@@ -11,11 +11,8 @@ Al-Wahidi's report on the occasion of revelation of az-Zalzala 99:8, narrated fr
 The verse, in al-Wahidi's heading: «فمن يعمل مثقال ذرة خيرا يره ومن يعمل مثقال ذرة شرا يره».
 
 ## Full report (Arabic source text)
-<div dir="rtl" lang="ar">
 
 قال مقاتل: نزلت في رجلين كان أحدهما يأتيه السائل فيستقل أن يعطيه
-
-</div>
 
 ## Place in the museum
 Source: [[work/asbab-al-nuzul-wahidi|al-Wahidi's Asbab nuzul al-Qur'an]]. The verse: [[passage/quran-99-8|Qur'an 99-8]].

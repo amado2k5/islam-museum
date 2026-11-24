@@ -11,11 +11,8 @@ Informe de al-Wahidi sobre la ocasión de revelación de al-Baqara 2:99, transmi
 The verse, in al-Wahidi's heading: «ولقد أنزلنا إليك آيات بينات».
 
 ## Informe completo (texto fuente en árabe)
-<div dir="rtl" lang="ar">
 
 وسلم - يا محمد ما جئتنا بشيء نعرفه، ما أنزل عليك من آية بينة فنتبعك، بها
-
-</div>
 
 ## Place in the museum
 Fuente: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an de al-Wahidi]]. El versículo: [[passage/quran-2-99|Corán 2-99]].

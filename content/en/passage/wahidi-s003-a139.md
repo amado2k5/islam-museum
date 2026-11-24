@@ -11,11 +11,8 @@ Al-Wahidi's report on the occasion of revelation of Al 'Imran 3:139, narrated fr
 The verse, in al-Wahidi's heading: «ولا تهنوا ولا تحزنوا».
 
 ## Full report (Arabic source text)
-<div dir="rtl" lang="ar">
 
 قوة لنا إلا بك، اللهم ليس يعبدك بهذه البلدة غير هؤلاء النفر"، فأنزل الله
-
-</div>
 
 ## Place in the museum
 Source: [[work/asbab-al-nuzul-wahidi|al-Wahidi's Asbab nuzul al-Qur'an]]. The verse: [[passage/quran-3-139|Qur'an 3-139]].

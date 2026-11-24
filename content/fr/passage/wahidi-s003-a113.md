@@ -11,11 +11,8 @@ Rapport d'al-Wahidi sur la circonstance de révélation de Al 'Imran 3:113, tran
 The verse, in al-Wahidi's heading: «ليسوا سواء».
 
 ## Rapport complet (texte source arabe)
-<div dir="rtl" lang="ar">
 
 خسرتم حين استبدلتم بدينكم دينا غيره، فأنزل الله: {ليسوا سواء}
-
-</div>
 
 ## Place in the museum
 Source : [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an d'al-Wahidi]]. Le verset : [[passage/quran-3-113|Coran 3-113]].

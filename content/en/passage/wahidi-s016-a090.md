@@ -11,11 +11,8 @@ Al-Wahidi's report on the occasion of revelation of an-Nahl 16:90, narrated from
 The verse, in al-Wahidi's heading: «إن الله يأمر بالعدل والإحسان».
 
 ## Full report (Arabic source text)
-<div dir="rtl" lang="ar">
 
 أخبرنا أبو إسحاق أحمد بن محمد بن إبراهيم قال: أخبرنا شعيب بن محمد البيهقي قال: أخبرنا مكي بن عبدان قال: حدثنا أبو الأزهر قال: حدثنا روح بن عبادة عن عبد الحميد بن بهرام قال: حدثنا شهر بن حوشب قال: حدثنا عبد الله بن عباس قال:
-
-</div>
 
 ## Place in the museum
 Source: [[work/asbab-al-nuzul-wahidi|al-Wahidi's Asbab nuzul al-Qur'an]]. The verse: [[passage/quran-16-90|Qur'an 16-90]].

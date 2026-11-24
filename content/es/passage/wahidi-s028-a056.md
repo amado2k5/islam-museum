@@ -11,11 +11,8 @@ Informe de al-Wahidi sobre la ocasión de revelación de al-Qasas 28:56, transmi
 The verse, in al-Wahidi's heading: «إنك لا تهدي من أحببت».
 
 ## Informe completo (texto fuente en árabe)
-<div dir="rtl" lang="ar">
 
 عليه وسلم - "والله لأستغفرن لك ما لم أنه عنك"، فأنزل الله- {ما
-
-</div>
 
 ## Place in the museum
 Fuente: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an de al-Wahidi]]. El versículo: [[passage/quran-28-56|Corán 28-56]].

@@ -11,11 +11,8 @@ Bara'a (at-Tawba) 9:99 ayetinin nüzul sebebi hakkında es-Suyuti'nin rivayeti; 
 The verse, in al-Suyuti's heading: «ومن الأعراب من يؤمن بالله».
 
 ## Tam rivayet (Arapça kaynak metin)
-<div dir="rtl" lang="ar">
 
 ومن الأعراب من يؤمن بالله الآية أخرج ابن جرير عن مجاهد أنها نزلت في بني مقرن الذين نزلت فيهم ولا على الذين إذا ما أتوك لتحملهم وأخرج عبد الرحمن بن معقل المزني قال كنا عشرة ولد مقرن فنزلت فينا هذه الآية
-
-</div>
 
 ## Place in the museum
 Kaynak: [[work/lubab-al-nuqul-suyuti|es-Suyuti'nin Lubab al-Nuqul]]. Ayet: [[passage/quran-9-99|Kur'an 9-99]].

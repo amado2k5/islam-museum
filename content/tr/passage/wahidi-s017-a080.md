@@ -11,11 +11,8 @@ Bani Isra'il 17:80 ayetinin nüzül sebebi hakkında El-Vahidi'nin rivayeti; Esb
 The verse, in al-Wahidi's heading: «وقل رب أدخلني مدخل صدق».
 
 ## Tam rivayet (Arapça kaynak metin)
-<div dir="rtl" lang="ar">
 
 مهاجرا إلى المدينة، ونزل قوله: {وقل رب أدخلني مدخل صدق وأخرجني
-
-</div>
 
 ## Place in the museum
 Kaynak: [[work/asbab-nuzul-wahidi|El-Vahidi'nin Esbab Nüzul el-Kur'an'ı]]. Ayet: [[passage/quran-17-80|Kur'an 17-80]].

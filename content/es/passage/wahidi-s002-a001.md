@@ -11,11 +11,8 @@ Informe de al-Wahidi sobre la ocasión de revelación de al-Baqara 2:1, transmit
 The verse, in al-Wahidi's heading: «1، 2».
 
 ## Informe completo (texto fuente en árabe)
-<div dir="rtl" lang="ar">
 
 أبي نجيح، عن مجاهد قال: أربع آيات من أول هذه السورة نزلت في المؤمنين،
-
-</div>
 
 ## Place in the museum
 Fuente: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an de al-Wahidi]]. El versículo: [[passage/quran-2-1|Corán 2-1]].

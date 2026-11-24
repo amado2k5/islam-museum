@@ -11,11 +11,8 @@ Rapport d'al-Suyuti sur la circonstance de révélation de al-Ma'ida 5:11, dans 
 The verse, in al-Suyuti's heading: «يا أيها الذين آمنوا اذكروا نعمة الله عليكم».
 
 ## Rapport complet (texte source arabe)
-<div dir="rtl" lang="ar">
 
 يا أيها الذين آمنوا اذكروا نعمة الله عليكم ألآية أخرج ابن جرير عن عكرمة ويزيد بن أبي زياد واللفظ له أن النبي خرج ومعه أبو بكر وعمر وعثمان وعلي وطلحة وعبد الرحمن بن عوف حتى دخلوا على كعب بن الأشرف ويهود
-
-</div>
 
 ## Place in the museum
 Source : [[work/lubab-al-nuqul-suyuti|d'al-Suyuti Lubab al-Nuqul]]. Le verset: [[passage/quran-5-11|Coran 5-11]].

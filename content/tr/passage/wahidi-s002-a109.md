@@ -11,11 +11,8 @@ al-Baqara 2:109 ayetinin nüzül sebebi hakkında El-Vahidi'nin rivayeti; Esbab 
 The verse, in al-Wahidi's heading: «ود كثير من أهل الكتاب».
 
 ## Tam rivayet (Arapça kaynak metin)
-<div dir="rtl" lang="ar">
 
 قال ابن عباس: نزلت في نفر من اليهود قالوا للمسلمين بعد وقعة بدر ألم تروا إلى ما أصابكم ولو كنتم على الحق ما هزمتم، فارجعوا إلى ديننا فهو
-
-</div>
 
 ## Place in the museum
 Kaynak: [[work/asbab-nuzul-wahidi|El-Vahidi'nin Esbab Nüzul el-Kur'an'ı]]. Ayet: [[passage/quran-2-109|Kur'an 2-109]].
