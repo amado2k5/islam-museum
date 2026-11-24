@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-9-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يذكر الطبري أن الذين كفروا لهم عذاب شديد وهو عذاب النار، والذين آمنوا وعملوا الصالحات لهم مغفرة لذنوبهم وأجر كبير هو الجنة. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=35&tAyahNo=7&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «ٱلَّذِينَ كَفَرُواْ لَهُمْ عَذَابٌ شَدِيدٌ وَٱلَّذِينَ آمَنُواْ وَعَمِلُواْ ٱلصَّالِحَاتِ لَهُم مَّغْفِرَةٌ وَأَجْرٌ كَبِيرٌ»: «الَّذِينَ كَفَروا» بالله ورسوله «لَهُمْ عَذَابٌ» من الله «شَدِيدٌ»، وذلك عذاب النار. وقوله: «وَالَّذِينَ آمَنُوا» يقول: والذين صدّقوا الله ورسوله، وعملوا بما أمرهم الله، وانتهوا عما نهاهم عنه «لَهُمْ مَغْفِرَةٌ» من الله لذنوبهم «وأجْرٌ كَبِيرٌ» وذلك الجنة، كما: وعن قتادة «لَهُمْ مَغْفِرَةٌ وأجْرٌ كَبِيرٌ» وهي الجنة. وينقل في المقطع أقوالاً عن قتادة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=35&tAyahNo=7&tDisplay=yes&UserProfile=0&LanguageId=1

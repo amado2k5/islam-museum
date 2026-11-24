@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-9-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن ما أوحاه الله إلى نبيه من الكتاب وهو القرآن هو الحق مصدّقاً لما بين يديه من الكتب السابقة، إن الله بعباده لخبير بصير. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=35&tAyahNo=31&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَٱلَّذِيۤ أَوْحَيْنَآ إِلَيْكَ مِنَ ٱلْكِتَابِ هُوَ ٱلْحَقُّ مُصَدِّقاً لِّمَا بَيْنَ يَدَيْهِ إِنَّ ٱللَّهَ بِعِبَادِهِ لَخَبِيرٌ بَصِيرٌ»: «وَالَّذِي أوْحَيْنا إلَيْكَ مِنَ الكِتابِ» يا محمد، وهو هذا القرآن الذي أنزله الله عليه «هُوَ الحَقُّ» يقول: هو الحقّ عليك وعلى أمتك أن تعمل به، وتتبع ما فيه دون غيره من الكتب التي أُوحيت إلى غيرك «مُصَدّقاً لِمَا بَينَ يَدَيْهِ» يقول: هو يصدّق ما مضى بين يديه، فصار أمامه من الكتب التي أنزلتها إلى من قبلك من الرسل، كما: وعن قتادة، قوله: «وَالَّذِي أوْحَيْنا إلَيْكَ مِنَ الكِتابِ هُوَ الحَقُّ مُصَدّقاً لِمَا بينَ يَدَيْهِ» للكتب التي خلت قبله. وقوله: «إنَّ اللّهَ بِعِبادِهِ لخَبِيرٌ بَصِيرٌ» يقول تعالى ذكره: إن الله بعباده لذو علم وخبرة بما يعملون بصير بما يصلحهم من التدبير. وينقل في المقطع أقوالاً عن قتادة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=35&tAyahNo=31&tDisplay=yes&UserProfile=0&LanguageId=1

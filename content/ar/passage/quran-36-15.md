@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-9-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يذكر الطبري أن أصحاب القرية قالوا للرسل ما أنتم إلا بشر مثلنا وما أنزل الرحمن من شيء إن أنتم إلا تكذبون، فقال الرسل ربنا يعلم إنا إليكم لمرسلون وما علينا إلا البلاغ المبين. وهذا التفسير مشترك بين الآيات 15 إلى 17. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=36&tAyahNo=15&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 15 إلى 17 مقطعاً واحداً. يفسّر قوله «قَالُواْ مَآ أَنتُمْ إِلاَّ بَشَرٌ مِّثْلُنَا وَمَآ أَنَزلَ ٱلرَّحْمَٰنُ مِن شَيْءٍ إِنْ أَنتُمْ إِلاَّ تَكْذِبُونَ»: قال أصحاب القرية للثلاثة الذين أُرسلوا إليهم حين أخبروهم أنهم أرسلوا إليهم بما أرسلوا به: ما أنتم أيها القوم إلاَّ أُناس مثلنا، ولو كنتم رسلاً كما تقولون، لكنتم ملائكة «وَما أنْزَلَ الرَّحْمَنُ مِنْ شَيْءٍ» يقول: قالوا: وما أنزل الرحمن إليكم من رسالة ولا كتاب ولا أمركم فينا بشيء «إنْ أنْتُمْ إلاَّ تَكْذِبُونَ» في قيلكم إنكم إلينا مرسلون
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=36&tAyahNo=15&tDisplay=yes&UserProfile=0&LanguageId=1

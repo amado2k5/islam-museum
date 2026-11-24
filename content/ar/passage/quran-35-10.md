@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-9-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يذكر الطبري اختلاف أهل التأويل في معنى «من كان يريد العزة فلله العزة جميعاً»: فقال بعضهم من أراد العزة بعبادة الآلهة فإن العزة لله، ثم يبيّن أن الكلم الطيب يصعد إليه والعمل الصالح يرفعه، وأن الذين يمكرون السيئات لهم عذاب شديد ومكر أولئك هو يبور. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=35&tAyahNo=10&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «مَن كَانَ يُرِيدُ ٱلْعِزَّةَ فَلِلَّهِ ٱلْعِزَّةُ جَمِيعاً إِلَيْهِ يَصْعَدُ ٱلْكَلِمُ ٱلطَّيِّبُ وَٱلْعَمَلُ ٱلصَّالِحُ يَرْفَعُهُ وَٱلَّذِينَ يَمْكُرُونَ ٱلسَّيِّئَاتِ لَهُمْ عَذَابٌ شَدِيدٌ وَمَكْرُ أُوْلَئِكَ هُوَ يَبُورُ»: اختلف أهل التأويل في معنى قوله: «مَنْ كانَ يُرِيدُ العِزَّةَ فَلِلَّهِ العِزَّةُ جَمِيعاً» فقال بعضهم: معنى ذلك: من كان يريد العزّة بعبادة الآلهة والأوثان، فإن العزة لله جميعاً. وينقل في المقطع أقوالاً عن مجاهد وقتادة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=35&tAyahNo=10&tDisplay=yes&UserProfile=0&LanguageId=1

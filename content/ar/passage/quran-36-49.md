@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-9-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أنهم ما ينظرون إلا صيحة واحدة وهي نفخة الفزع عند قيام الساعة تأخذهم وهم يخصّمون، فلا يستطيعون توصية ولا إلى أهلهم يرجعون. وهذا التفسير مشترك بين الآيتين 49 و50. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=36&tAyahNo=49&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 49 إلى 50 مقطعاً واحداً. يفسّر قوله «مَا يَنظُرُونَ إِلاَّ صَيْحَةً وَاحِدَةً تَأْخُذُهُمْ وَهُمْ يَخِصِّمُونَ»: ما ينتظر هؤلاء المشركون الذين يستعجلون بوعيد الله إياهم، إلا صيحة واحدة تأخذهم، وذلك نفخة الفَزَع عند قيام الساعة. وينقل في المقطع أقوالاً عن قتادة وابن زيد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=36&tAyahNo=49&tDisplay=yes&UserProfile=0&LanguageId=1

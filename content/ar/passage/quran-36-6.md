@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-9-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يذكر الطبري اختلاف أهل التأويل في «لتنذر قوماً ما أنذر آباؤهم»: فقال بعضهم لتنذر قوماً لم يُنذر آباؤهم من قبلهم فهم غافلون، وقيل غير ذلك، ثم يبيّن أنه حقّ القول على أكثرهم فهم لا يؤمنون. وهذا التفسير مشترك بين الآيتين 6 و7. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=36&tAyahNo=6&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 6 إلى 7 مقطعاً واحداً. يفسّر قوله «لِتُنذِرَ قَوْماً مَّآ أُنذِرَ آبَآؤُهُمْ فَهُمْ غَافِلُونَ»: اختلف أهل التأويل في تأويل قوله: «لِتُنْذِرَ قَوْماً ما أُنْذِرَ آباؤُهُمْ» فقال بعضهم: معناه: لتنذر قوماً ما أنذر الله من قبلهم من آبائهم. وينقل في المقطع أقوالاً عن قتادة وعكرمة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=36&tAyahNo=6&tDisplay=yes&UserProfile=0&LanguageId=1

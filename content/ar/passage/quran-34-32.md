@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-9-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يذكر الطبري أن الذين استكبروا يقولون للمستضعفين أنحن صددناكم عن الهدى بعد إذ جاءكم، بل كنتم مجرمين، ردّاً على اتهامهم. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=34&tAyahNo=32&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «قَالَ ٱلَّذِينَ ٱسْتَكْبَرُواْ لِلَّذِينَ ٱسْتُضْعِفُوۤاْ أَنَحْنُ صَدَدنَاكُمْ عَنِ ٱلْهُدَىٰ بَعْدَ إِذْ جَآءَكُمْ بَلْ كُنتُمْ مُّجْرِمِينَ»: «قالَ الَّذِينَ اسْتَكْبَرُوا» في الدنيا، فرأسوا في الضلالة والكفر بالله «لِلَّذِينَ اسْتُضْعِفُوا» فيها فكانوا أتباعاً لأهل الضلالة منهم، إذ قالوا لهم «لَوْلا أنْتُمْ لَكُنَّا مُؤْمِنِينَ أَنحْنُ صَدَدْناكُمْ عَنِ الهُدَى» ومنعناكم من اتباع الحقّ «بَعْدَ إذْ جاءَكُمْ» من عند الله، يبين لكم «بَلْ كُنْتُمْ مُجْرِمِينَ» فمنعكم إيثاركم الكفر بالله على الإيمان من اتباع الهدى، والإيمان بالله ورسوله.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=34&tAyahNo=32&tDisplay=yes&UserProfile=0&LanguageId=1

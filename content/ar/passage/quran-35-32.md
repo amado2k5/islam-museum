@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-9-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يذكر الطبري اختلاف أهل التأويل في معنى «ثم أورثنا الكتاب الذين اصطفينا من عبادنا فمنهم ظالم لنفسه ومنهم مقتصد ومنهم سابق بالخيرات»: فقال بعضهم هم أمة محمد، والظالم لنفسه أهل الإجرام منهم، ويذكر أقوالاً أخرى في توزيع الأصناف الثلاثة، وأن ذلك هو الفضل الكبير. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=35&tAyahNo=32&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «ثُمَّ أَوْرَثْنَا ٱلْكِتَابَ ٱلَّذِينَ ٱصْطَفَيْنَا مِنْ عِبَادِنَا فَمِنْهُمْ ظَالِمٌ لِّنَفْسِهِ وَمِنْهُمْ مُّقْتَصِدٌ وَمِنْهُمْ سَابِقٌ بِٱلْخَيْرَاتِ بِإِذُنِ ٱللَّهِ ذَلِكَ هُوَ ٱلْفَضْلُ ٱلْكَبِيرُ»: اختلف أهل التأويل في معنى الكتاب الذي ذكر الله في هذه الآية أنه أورثه الذين اصطفاهم من عباده، ومن المصطفون من عباده، والظالم لنفسه، فقال بعضهم: الكتاب: هو الكتب التي أنزلها الله من قبل الفُرقان، والمصطفون من عباده: أمة محمد، والظالم لنفسه: أهل الإجرام منهم. وينقل في المقطع أقوالاً عن ابن عباس.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=35&tAyahNo=32&tDisplay=yes&UserProfile=0&LanguageId=1

@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-9-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يذكر الطبري أن من الدلائل الليل نسلخ منه النهار، أي ننزعه فإذا هم مظلمون، والشمس تجري لمستقر لها ذلك تقدير العزيز العليم، ويشرح معنى الانسلاخ. وهذا التفسير مشترك بين الآيتين 37 و38. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=36&tAyahNo=37&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 37 إلى 38 مقطعاً واحداً. يفسّر قوله «وَآيَةٌ لَّهُمُ ٱلَّيلُ نَسْلَخُ مِنْهُ ٱلنَّهَارَ فَإِذَا هُم مُّظْلِمُونَ»: ودليل لهم أيضاً على قدرة الله على فعل كل ما شاء «اللَّيْلُ نَسْلَخُ مِنْهُ النَّهارَ» يقول: ننزع عنه النهار. ومعنى «منه» في هذا الموضع: عنه، كأنه قيل: نسلَخ عنه النهار، فنأتي بالظلمة ونذهب بالنهار. ومنه قوله:«وَاتْلُ عَلَيْهِمْ نَبَأَ الَّذِي آتَيْناهُ فانْسَلَخَ مِنْها» أي خرج منها وتركها، فكذلك انسلاخ الليل من النهار. وقوله: «فإذَا هُمْ مُظْلِمُونَ» يقول: فإذا هم قد صاروا في ظلمة بمجيء الليل. وقال قتادة في ذلك ما: وعن قتادة، قوله: «وآيَةٌ لَهُمُ اللَّيْلُ نَسْلَخُ مِنْهُ النَّهارَ فإذَا هُمْ مُظْلِمُونَ» قال: يولج الليل في النهار، ويولج النهار في الليل. وينقل في المقطع أقوالاً عن قتادة وإبراهيم.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=36&tAyahNo=37&tDisplay=yes&UserProfile=0&LanguageId=1

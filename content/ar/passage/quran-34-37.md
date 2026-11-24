@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-9-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن أموال المشركين وأولادهم ليست مما يقرّبهم إلى الله زلفى، إلا من آمن وعمل صالحاً فأولئك لهم جزاء الضعف بما عملوا وهم في الغرفات آمنون. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=34&tAyahNo=37&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَمَآ أَمْوَالُكُمْ وَلاَ أَوْلاَدُكُمْ بِٱلَّتِي تُقَرِّبُكُمْ عِندَنَا زُلْفَىٰ إِلاَّ مَنْ آمَنَ وَعَمِلَ صَالِحاً فَأُوْلَٰئِكَ لَهُمْ جَزَآءُ ٱلضِّعْفِ بِمَا عَمِلُواْ وَهُمْ فِي ٱلْغُرُفَاتِ آمِنُونَ»: يقول جلّ ثناؤه: وما أموالكم التي تفتخرون بها أيُّها القوم على الناس، ولا أولادكم الذين تتكبرون بهم بالتي تقرّبكم منا قُرْبَةً. وينقل في المقطع أقوالاً عن مجاهد وقتادة وابن زيد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=34&tAyahNo=37&tDisplay=yes&UserProfile=0&LanguageId=1

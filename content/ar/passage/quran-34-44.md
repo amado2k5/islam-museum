@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-9-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن الله لم يؤتِ هؤلاء كتباً يدرسونها ولا أرسل إليهم قبل النبي نذيراً، وأن الذين من قبلهم كذّبوا وما بلغوا معشار ما آتاهم الله، فكذّبوا رسلي فكيف كان نكير. وهذا التفسير مشترك بين الآيتين 44 و45. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=34&tAyahNo=44&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 44 إلى 45 مقطعاً واحداً. يفسّر قوله «وَمَآ آتَيْنَاهُمْ مِّنْ كُتُبٍ يَدْرُسُونَهَا وَمَآ أَرْسَلْنَا إِلَيْهِمْ قَبْلَكَ مِّن نَّذِيرٍ»: وما أنزلنا على المشركين القائلين لمحمد لما جاءهم بآياتنا: هذا سحر مبين بما يقولون من ذلك كتباً يدرسونها: يقول: يقرؤونها، كما: وعن قتادة، قوله: «وَما ءاتَيْناهُمْ مِنْ كُتُبٍ يَدْرُسُونَها»: أي يقرؤونها. «وَما أرْسَلْنا إلَيْهِمْ قَبْلَكَ مِنْ نَذِيرٍ» يقول: وما أرسلنا إلى هؤلاء المشركين من قومك يا محمد فيما يقولون ويعملون قبلك من نبيّ ينذرهم بأسنا عليه. وينقل في المقطع أقوالاً عن ابن عباس وقتادة وابن زيد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=34&tAyahNo=44&tDisplay=yes&UserProfile=0&LanguageId=1

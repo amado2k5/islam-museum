@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-9-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن النبي لم يرسل إلى قومه خاصة بل إلى الناس كافة بشيراً ونذيراً، ولكن أكثر الناس لا يعلمون ذلك. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=34&tAyahNo=28&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَمَآ أَرْسَلْنَاكَ إِلاَّ كَآفَّةً لِّلنَّاسِ بَشِيراً وَنَذِيراً وَلَٰكِنَّ أَكْثَرَ ٱلنَّاسِ لاَ يَعْلَمُونَ»: وما أرسلناك يا محمد إلى هؤلاء المشركين بالله من قومك خاصة، ولكنا أرسلناك كافة للناس أجمعين، العرب منهم والعجم، والأحمر والأسود، بشيراً من أطاعك، ونذيراً من كذّبك، «وَلَكِنَّ أكْثَرَ النَّاسِ لا يَعْلَمُونَ» أن الله أرسلك كذلك إلى جميع البشر. وينقل في المقطع أقوالاً عن قتادة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=34&tAyahNo=28&tDisplay=yes&UserProfile=0&LanguageId=1

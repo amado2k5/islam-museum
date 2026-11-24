@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-9-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن الشيطان عدو للناس فينبغي أن يتخذوه عدواً ويحذروه فلا يطيعوه، لأنه إنما يدعو حزبه ليكونوا من أصحاب السعير. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=35&tAyahNo=6&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «إِنَّ ٱلشَّيْطَانَ لَكُمْ عَدُوٌّ فَٱتَّخِذُوهُ عَدُوّاً إِنَّمَا يَدْعُواْ حِزْبَهُ لِيَكُونُواْ مِنْ أَصْحَابِ ٱلسَّعِيرِ»: «إنَّ الشَّيْطانَ» الذي نهيتكم أيها الناس أن تغترّوا بغروره إياكم بالله «لَكُمْ عَدُوّ فاتَّخِذُوهُ عَدُوّاً» يقول: فأنزلوه من أنفسكم منزل العدوّ منكم، واحذروه بطاعة الله واستغشاشكم إياه، خذركم من عدوّكم الذي تخافون غائلته على أنفسكم، فلا تطيعوه ولا تتَّبعوا خطواته، فإنه إنما يدعو حزبه، يعني شيعته، ومن أطاعه إلى طاعته والقبول منه، والكفر بالله «لِيَكُونُوا منْ أصحَابِ السَّعِيرِ» يقول: ليكونوا من المخلدين في نار جهنم التي تتوقد على أهلها. وينقل في المقطع أقوالاً عن قتادة وابن زيد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=35&tAyahNo=6&tDisplay=yes&UserProfile=0&LanguageId=1

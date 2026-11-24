@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-9-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن الله لا يظلم نفساً شيئاً يوم القيامة، ولا تجزون إلا ما كنتم تعملون، وأن أصحاب الجنة اليوم في شغل فاكهون. وهذا التفسير مشترك بين الآيتين 54 و55. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=36&tAyahNo=54&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 54 إلى 55 مقطعاً واحداً. يفسّر قوله «فَٱلْيَوْمَ لاَ تُظْلَمُ نَفْسٌ شَيْئاً وَلاَ تُجْزَوْنَ إِلاَّ مَا كُنْتُمْ تَعْمَلُونَ»: «فالْيَوْمَ» يعني يوم القيامة «لا تُظْلَمُ نَفْسٌ شَيْئاً» كذلك ربنا لا يظلم نفساً شيئاً، فلا يوفيها جزاء عملها الصالح، ولا يحمل عليها وِزْر غيرها، ولكنه يوفي كل نفس أجر ما عملت من صالح، ولا يعاقبها إلا بما اجترمت واكتسبت من شيء «وَلا تُجْزَوْنَ إلاَّ ما كُنْتُمْ تَعْمَلُونَ» يقول: ولا تكافؤون إلا مكافأة أعمالكم التي كنتم تعملونها في الدنيا. وقوله: وينقل في المقطع أقوالاً عن ابن عباس ومجاهد والحسن وعكرمة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=36&tAyahNo=54&tDisplay=yes&UserProfile=0&LanguageId=1

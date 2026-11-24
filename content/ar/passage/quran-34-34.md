@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-9-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أنه ما أرسل الله في قرية نذيراً إلا قال مترفوها إنا بما أرسلتم به كافرون، كما قال قوم فرعون. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=34&tAyahNo=34&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَمَآ أَرْسَلْنَا فِي قَرْيَةٍ مِّن نَّذِيرٍ إِلاَّ قَالَ مُتْرَفُوهَآ إِنَّا بِمَآ أُرْسِلْتُمْ بِهِ كَافِرُونَ»: وما بعثنا إلى أهل قرية نذيراً يُنذرهم بأسَنا أن ينزل بهم على معصيتهم إيانا، إلاَّ قال كُبراؤها ورؤساؤها في الضلالة كما قال قوم فرعون من المشركين له: إنا بما أُرسلتم به من النِّذارة، وبُعثتم به من توحيد الله، والبراءة من الآلهة والأنداد كافرون. وينقل في المقطع أقوالاً عن قتادة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=34&tAyahNo=34&tDisplay=yes&UserProfile=0&LanguageId=1

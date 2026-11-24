@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-9-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن الله أنشأ هذه الجنات ليأكلوا من ثمره وما عملته أيديهم مما غرسوا، أفلا يشكرون. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=36&tAyahNo=35&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «لِيَأْكُلُواْ مِن ثَمَرِهِ وَمَا عَمِلَتْهُ أَيْدِيهِمْ أَفَلاَ يَشْكُرُونَ»: أنشأنا هذه الجنات في هذه الأرض ليأكل عبادي من ثمره، وما عملت أيديهم يقول: ليأكلوا من ثمر الجنات التي أنشأنا لهم، وما عملت أيديهم مما غرسوا هم وزرعوا. و«ما» التي في قوله: «وَما عَمِلَتْهُ أيْدِيهِمْ» في موضع خفض عطفاً على الثمر، بمعنى: ومن الذي عملت وهي في قراءة عبد الله فيما ذُكر: «وَممَّا عَمِلَتْهُ» بالهاء على هذا المعنى فالهاء في قراءتنا مضمرة، لأن العرب تضمرها أحياناً، وتظهرها في صلات: من، وما، والذي. ولو قيل: «ما» بمعنى المصدر كان مذهباً، فيكون معنى الكلام: ومن عمل أيديهم. ولو قيل: إنها بمعنى الجحد ولا موضع لها كان أيضاً مذهباً، فيكون معنى الكلام: ليأكلوا من ثمره ولم تعمله أيديهم.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=36&tAyahNo=35&tDisplay=yes&UserProfile=0&LanguageId=1

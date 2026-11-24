@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-9-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يذكر الطبري اختلاف القراء في «ربنا باعد بين أسفارنا» بين الدعاء والخبر، ويبيّن أن أهل سبأ ظلموا أنفسهم فجعلهم الله أحاديث ومزّقهم كل ممزق، وأن في ذلك لآيات لكل صبّار شكور. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=34&tAyahNo=19&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «فَقَالُواْ رَبَّنَا بَاعِدْ بَيْنَ أَسْفَارِنَا وَظَلَمُوۤاْ أَنفُسَهُمْ فَجَعَلْنَاهُمْ أَحَادِيثَ وَمَزَّقْنَاهُمْ كُلَّ مُمَزَّقٍ إِنَّ فِي ذَلِكَ لآيَاتٍ لِّكُلِّ صَبَّارٍ شَكُورٍ»: اختلف القرّاء في قراءة قوله: «رَبَّنا باعِدْ بينَ أسْفارِنا» فقرأته عامة قرّاء المدينة والكُوفة: «رَبَّنا باعِدْ بينَ أسْفارِنا» على وجه الدعاء والمسألة بالألف وقرأ ذلك بعض أهل مكة والبصرة: «بَعِّدْ» بتشديد العين على الدعاء أيضاً. وذُكر عن المتقدمين أنه كان يقرؤه: «رَبَّنا باعَدَ بَينَ أسْفارِنا» على وجه الخبر من الله أن الله فعل ذلك بهم. وحكي عن آخر أنه قرأه: «ربنا بَعَّد» على وجه الخبر أيضاً غير أنّ الربّ منادي. وينقل في المقطع أقوالاً عن ابن عباس وقتادة وابن زيد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=34&tAyahNo=19&tDisplay=yes&UserProfile=0&LanguageId=1

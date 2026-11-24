@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-9-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يذكر الطبري أن المشركين يقولون متى هذا الوعد إن كنتم صادقين، فيأمره الله أن يقول لهم لكم ميعاد يوم لا تستأخرون عنه ساعة ولا تستقدمون. وهذا التفسير مشترك بين الآيتين 29 و30. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=34&tAyahNo=29&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 29 إلى 30 مقطعاً واحداً. يفسّر قوله «وَيَقُولُونَ مَتَىٰ هَٰذَا ٱلْوَعْدُ إِن كُنتُمْ صَادِقِينَ»: ويقول هؤلاء المشركون بالله إذا سمعوا وعيد الله الكفار وما هو فاعل بهم في معادهم مما أنزل الله في كتابه: «مَتى هَذَا الوَعْدُ» جائياً، وفي أيّ وقت هو كائن «إنْ كُنْتُمْ فيما تَعِدُوننا» من ذلك «صَادِقِينَ» أنه كائن، قال الله لنبيه: «قُلْ» لهم يا محمد: «لَكُمْ» أيها القوم «مِيعادُ يَوْمٍ» هو آتيكم «لا تَسْتأْخِرُونَ عَنْهُ» إذا جاءكم «ساعَةً» فتنظروا للتوبة والإنابة «وَلا تسْتَقدِمونَ» قبله بالعذاب، لأن الله جعل لكم ذلك أجلاً.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=34&tAyahNo=29&tDisplay=yes&UserProfile=0&LanguageId=1

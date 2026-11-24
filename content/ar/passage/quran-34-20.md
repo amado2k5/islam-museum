@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-9-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يذكر الطبري اختلاف القراء في «صدّق» بتخفيف الدال وتشديدها، ويبيّن أن إبليس ظنّ أن أكثرهم لا يشكرون فصدّق عليهم ظنه فاتبعوه إلا فريقاً من المؤمنين. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=34&tAyahNo=20&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَلَقَدْ صَدَّقَ عَلَيْهِمْ إِبْلِيسُ ظَنَّهُ فَٱتَّبَعُوهُ إِلاَّ فَرِيقاً مِّنَ ٱلْمُؤْمِنِينَ»: اختلفت القرّاء في قراءة قوله: «وَلَقَدْ صَدَّقَ عَلَيْهِمْ إبْلِيسُ ظَنَّهُ» فقرأ ذلك عامة قرّاء الكوفيين: «وَلَقَدْ صَدَّقَ» بتشديد الدال من صَدَّق، بمعنى أنه قال ظناً منه:«وَلا تَجِد أَكَثرَهُمْ شاكِرِينَ» وقال:«فَبِعِزَّتِكَ لأُغَوْيَنَّهُمْ أجَمعِينَ إلاَّ عِبادَكَ مِنْهُمُ المُخْلَصِينَ» ثم صدّق ظنه ذلك فيهم، فحقَّق ذلك بهم، وباتباعهم إياه. وقرأ ذلك عامة قرّاء المدينة والشأم والبصرة «وَلَقَدْ صَدَقَ» بتخفيف الدال، بمعنى: ولقد صدق عليهم ظنه. وينقل في المقطع أقوالاً عن ابن عباس ومجاهد وقتادة وابن زيد وسفيان.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=34&tAyahNo=20&tDisplay=yes&UserProfile=0&LanguageId=1

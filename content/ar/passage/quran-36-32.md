@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-9-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-لم يُفرد الطبري لهذه الآية تعليقاً مستقلاً في الصفحة المحفوظة، بل جاء تفسيرها ضمن تفسير الآيات 31–32. يبيّن الطبري أن الله يسأل المشركين ألم يروا كم أهلكنا قبلهم من القرون أنهم إليهم لا يرجعون، وأن كلاً منهم جميع لدينا محضرون. وهذا التفسير مشترك بين الآيتين 31 و32. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=36&tAyahNo=32&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 31 إلى 32 مقطعاً واحداً. يفسّر قوله «وَإِن كُلٌّ لَّمَّا جَمِيعٌ لَّدَيْنَا مُحْضَرُونَ»: وإن كل هذه القرون التي أهلكناها والذين لم نهلكهم وغيرهم عندنا يوم القيامة جميعهم محضرون، كما: قال: ثنا سعيد عن قتادة «وَإنْ كُلّ لمَّا جَميعٌ لَدَيْنا مُحْضَرُونَ» أي هم يوم القيامة. واختلفت القرّاء في قراءة ذلك، فقرأته عامة قرّاء المدينة والبصرة وبعض الكوفيين: «وَإنْ كُلٌّ لَمَا» بالتخفيف توجيهاً منهم إلى أن ذلك «ما» أدخلت عليها اللام التي تدخل جواباً لإنْ وأن معنى الكلام: وإن كلّ لجميع لدينا محضرون. وقرأ ذلك عامة قرّاء أهل الكوفة: «لَمَّا» بتشديد الميم. وينقل في المقطع أقوالاً عن قتادة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=36&tAyahNo=32&tDisplay=yes&UserProfile=0&LanguageId=1

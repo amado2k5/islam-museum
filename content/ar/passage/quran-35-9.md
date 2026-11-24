@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-9-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يذكر الطبري أن الله يرسل الرياح فتثير السحاب فيسوقه إلى بلد ميت لا نبات فيه فيحيي به الأرض بعد موتها، كذلك النشور، دليلاً على قدرة الله على البعث. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=35&tAyahNo=9&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَٱللَّهُ ٱلَّذِيۤ أَرْسَلَ ٱلرِّيَاحَ فَتُثِيرُ سَحَاباً فَسُقْنَاهُ إِلَىٰ بَلَدٍ مَّيِّتٍ فَأَحْيَيْنَا بِهِ ٱلأَرْضَ بَعْدَ مَوْتِهَا كَذَلِكَ ٱلنُّشُورُ»: والله الذي أرسل الرياح فتثير السحاب للحَيا والغيث «فَسقْناهُ إلى بَلَدٍ مَيِّتٍ» يقول: فسقناه إلى بلد مجدب الأهل، محل الأرض، داثر لا نبت فيه ولا زرع «فَأحْيَيْنا بِهِ الأرْضَ بَعْدَ مَوْتِها» يقول: فأخصبنا بغيث ذلك السحاب الأرض التي سقناه إليها بعد جدوبها، وأنبتنا فيها الزرع بعد المحل «كَذلكَ النُّشُورُ» يقول تعالى ذكره: هكذا يُنْشِر الله الموتى بعد بلائهم في قبورهم، فيحييهم بعد فنائهم، كما أحيينا هذه الأرض بالغيث بعد مماتها. وينقل في المقطع أقوالاً عن قتادة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=35&tAyahNo=9&tDisplay=yes&UserProfile=0&LanguageId=1

@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-9-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يذكر الطبري أن الذين كفروا لهم نار جهنم لا يُقضى عليهم فيموتوا ولا يخفف عنهم من عذابها، وهم يصطرخون فيها ربنا أخرجنا نعمل صالحاً، فيقال لهم أولم نعمّركم ما يتذكر فيه من تذكر وجاءكم النذير. وهذا التفسير مشترك بين الآيتين 36 و37. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=35&tAyahNo=36&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 36 إلى 37 مقطعاً واحداً. يفسّر قوله «وَٱلَّذِينَ كَفَرُواْ لَهُمْ نَارُ جَهَنَّمَ لاَ يُقْضَىٰ عَلَيْهِمْ فَيَمُوتُواْ وَلاَ يُخَفَّفُ عَنْهُمْ مِّنْ عَذَابِهَا كَذَلِكَ نَجْزِي كُلَّ كَفُورٍ»: «وَالَّذِينَ كَفَرُوا» بالله ورسوله «لَهُمْ نارُ جَهَنَّمَ» يقول: لهم نار جهنم مخلَّدين فيها، لا حظّ لهم في الجنة ولا نعيمها، كما: وعن قتادة «لَهُمْ نَارُ جَهَنَّمَ لاَ يُقْضَى عَلَيْهِمْ» بالموت فيموتوا، لأنهم لو ماتوا لاستراحوا. «وَلا يُخَفَّفُ عَنْهُمْ مِنْ عَذابِها» يقول: ولا يخفف عنهم من عذاب نار جهنم بإماتتهم، فيخفف ذلك عنهم، كما: وعن قتادة عن أبي السوداء، قال: مساكين أهل النار لا يموتون، لو ماتوا لاستراحوا. وينقل في المقطع أقوالاً عن مجاهد وقتادة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=35&tAyahNo=36&tDisplay=yes&UserProfile=0&LanguageId=1

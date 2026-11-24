@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-9-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يذكر الطبري أن الذين يسعون في إبطال آيات الله معاجزين هم في العذاب محضرون، ثم يأمر الله نبيه أن يقول إن ربي يبسط الرزق لمن يشاء من عباده ويقدر له، وما أنفقتم من شيء فهو يخلفه وهو خير الرازقين. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=34&tAyahNo=38&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَٱلَّذِينَ يَسْعَوْنَ فِيۤ آيَاتِنَا مُعَاجِزِينَ أُوْلَٰئِكَ فِي ٱلْعَذَابِ مُحْضَرُونَ»: والذين يعملون في آياتنا، يعني: في حججنا وآي كتابنا، يبتغون إبطاله، ويريدون إطفاء نوره معاونين، يحسبون أنهم يفوتوننا بأنفسهم، ويُعْجزوننا «أُولَئكَ في العَذابِ مُحْضَرونَ» يعني في عذاب جهنم محضرون يوم القيامة «قُلْ إنَّ رَبّي يَبْسُطُ الرِّزْقَ لِمَنْ يَشاءُ مِنْ عِبادِهِ» يقول تعالى ذكره: قل يا محمد إن ربي يبسط الرزق لمن يشاء من خَلْقه، فيوسعه عليه تكرمة له وغير تكرمة، ويَقْدِر على من يشاء منهم فيضيقه ويقتره إهانة له وغير إهانة، بل مِحنة واختباراً «وَما أنْفَقْتُمْ مِنْ شَيْءٍ فَهُوَ يُخْلِفُهُ» يقول: وما أنفقتم أيها الناس من نفقة في طاعة الله، فإن الله يخلفها عليكم.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=34&tAyahNo=38&tDisplay=yes&UserProfile=0&LanguageId=1

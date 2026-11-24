@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-9-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يأمر الله نبيه أن يقول للمشركين أروني الذين ألحقتموهم به شركاء، ويرد عليهم كلا بل هو الله العزيز الحكيم. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=34&tAyahNo=27&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «قُلْ أَرُونِيَ ٱلَّذيِنَ أَلْحَقْتُمْ بِهِ شُرَكَآءَ كَلاَّ بَلْ هُوَ ٱللَّهُ ٱلْعَزِيزُ ٱلْحْكِيمُ»: قل يا محمد لهؤلاء المشركين بالله الآلهة والأصنام: أَرُوني أيُّها القوم الَّذين ألحقتموهم بالله فصيَّرتموهم له شركاء في عبادتكم إياهم: ماذا خلقوا من الأرض، أم لهم شرك في السموات، «كلاّ» يقول تعالى ذكره: كذبوا، ليس الأمر كما وصفوا، ولا كما جعلوا وقالوا من أن لله شريكاً، بل هو المعبود الذي لا شريك له، ولا يصلح أن يكون له شريك في ملكه، العزيز في انتقامه ممن أشرك به من خلقه، الحكيم في تدبيره خلقه.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=34&tAyahNo=27&tDisplay=yes&UserProfile=0&LanguageId=1

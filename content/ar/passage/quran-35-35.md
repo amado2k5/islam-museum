@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-9-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن أهل الجنة يقولون إن ربنا لغفور شكور الذي أحلّنا دار المقامة من فضله لا يمسنا فيها نصب ولا يمسنا فيها لغوب، ودار المقامة هي دار الإقامة التي لا انتقال عنها. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=35&tAyahNo=35&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «ٱلَّذِيۤ أَحَلَّنَا دَارَ ٱلْمُقَامَةِ مِن فَضْلِهِ لاَ يَمَسُّنَا فِيهَا نَصَبٌ وَلاَ يَمَسُّنَا فِيهَا لُغُوبٌ»: يقول تعالى ذكره مخبراً عن قيل الذين أدخلوا الجنة «إنَّ رَبَّنا لَغَفُورٌ شَكُورٌ الَّذِي أحَلَّنا دَارَ المُقامَةِ»: أي ربنا الذي أنزلنا هذه الدار، يعنون الجنة فدار المُقامة: دار الإقامة التي لا نقلة معها عنها، ولا تحوّل والميم إذا ضمت من المُقامة، فهي من الإقامة، فإذا فتحت فهي من المجلس، والمكان الذي يُقام فيه، قال الشاعر:يَوْمانِ يَوْمُ مَقاماتٍ وأنْدِيَةٍ وَيَوْمُ سَيْرٍ إلى الأعْدَاءِ تأْوِيبِ وينقل في المقطع أقوالاً عن ابن عباس وقتادة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=35&tAyahNo=35&tDisplay=yes&UserProfile=0&LanguageId=1
