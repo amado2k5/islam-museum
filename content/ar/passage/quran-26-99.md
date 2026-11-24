@@ -3,6 +3,11 @@ id: passage/quran-26-99
 lang: ar
 source_lang: ar
 translators: []
+provenance:
+  generated_by: "Claude Code (Sonnet 5.5 session)"
+  model: claude-sonnet-5-5
+  run: altafsir-tabari-batch-8-2026-11-24
+  source: source/altafsir-tabari
 ---
 
 ## موجز
@@ -10,3 +15,7 @@ translators: []
 
 ## موضعها
 موضعها: الآية 99 من أصل 227 آية في السورة. النص محفوظ من مصحف تنزيل المجمّد ولا يُعاد كتابته هنا.
+
+## تفسير الطبري
+
+يتناول الطبري الآيات 99 إلى 102 معاً في موضع واحد. يذكر الطبري أن الغاوين يقولون ما أضلنا إلا المجرمون، ويعني بهم إبليس وابن آدم الذي سنّ القتل، عن عكرمة، وأنه ليس لهم شافع من الأباعد ولا صديق حميم من الأقارب، ويذكر اختلافهم في الشافعين فقيل الملائكة، وأنهم يتمنون كرّة فيكونوا من المؤمنين. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=26&tAyahNo=99&tDisplay=yes&UserProfile=0&LanguageId=1

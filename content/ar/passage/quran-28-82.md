@@ -3,6 +3,11 @@ id: passage/quran-28-82
 lang: ar
 source_lang: ar
 translators: []
+provenance:
+  generated_by: "Claude Code (Sonnet 5.5 session)"
+  model: claude-sonnet-5-5
+  run: altafsir-tabari-batch-8-2026-11-24
+  source: source/altafsir-tabari
 ---
 
 ## موجز
@@ -10,3 +15,7 @@ translators: []
 
 ## موضعها
 موضعها: الآية 82 من أصل 88 آية في السورة. النص محفوظ من مصحف تنزيل المجمّد ولا يُعاد كتابته هنا.
+
+## تفسير الطبري
+
+يذكر الطبري أن الذين تمنّوا مكان قارون بالأمس أصبحوا يقولون «ويكأن الله»، ويذكر الخلاف في معناها، وأن لقتادة فيها قولين، ويقولون يبسط الرزق لمن يشاء من عباده ويقدر، لولا أن منّ الله علينا لخسف بنا، ويكأنه لا يفلح الكافرون. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=28&tAyahNo=82&tDisplay=yes&UserProfile=0&LanguageId=1
