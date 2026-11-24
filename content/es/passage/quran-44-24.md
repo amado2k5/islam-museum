@@ -13,6 +13,6 @@ Su ubicación: versículo 24 de 59 versículos en la sura. El texto se conserva 
 
 ## En el comentario de al-Tabari
 
-Al-Tabari lee el versículo dentro de los versículos 22-24 como una sola sección. Interpreta las palabras, “Y dejad el mar como está, porque son un ejército ahogado” (2:22). Se ha informado que “como está” significa dejarlo como está, porque no escaparán más allá de él. Hamid nos informó, con autoridad de Ishaq, con autoridad de Abdullah ibn al-Harith, con autoridad de su padre, que Ibn Abbas preguntó a Ka’b acerca de las palabras de Dios, “Y dejad el mar como está”, y él dijo: “Un camino”.<sup>1</sup> En esta sección, cita declaraciones de Ibn Abbas y Qatadah.
+Al-Tabari lee el versículo dentro de los versículos 22-24 como una sola sección. Interpreta las palabras, “Y dejad el mar como está, porque son un ejército ahogado” (2:22). Se ha informado que “como está” significa dejarlo como está, porque no escaparán más allá de él. Hamid nos informó, con autoridad de Ishaq, con autoridad de Abdullah ibn al-Harith, con autoridad de su padre, que Ibn Abbas preguntó a Ka’b acerca de las palabras de Dios, “Y dejad el mar como está”, y él dijo: “Un camino”. En esta sección, cita declaraciones de Ibn Abbas y Qatadah.
 
 {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=44&tAyahNo=24&tDisplay=yes&UserProfile=0&LanguageId=1
