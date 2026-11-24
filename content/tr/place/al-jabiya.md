@@ -1,0 +1,37 @@
+---
+id: place/al-jabiya
+lang: tr
+source_lang: ar
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-23), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Google Translate documents)', model: google-translate, run: gt-docs-tr-2026-11-23, source: content/ar/place/al-jabiya.md}
+---
+## Özet
+Ghassanid prenslerinin ana ikametgahı olması nedeniyle "Kralların Cebiyesi" olarak da bilinen El-Cabiye, [[place/damascus|Şam'ın yaklaşık 80 km güneyinde ve günümüzdeki]] [[place/nawa|Neva'ya]] yakın bir konumda, Golan Tepeleri'nde yer almaktadır. {cite:encyclopaedia-of-islam-2 vol. 2 p. 385} Birkaç tepeye yayılmış olması, şiirsel çoğul biçimini açıklayabilir. İslam Ansiklopedisi, bu ismi suyun toplandığı bir havza anlamına bağlayarak cömertliği sembolize eder. {cite:encyclopaedia-of-islam-2 vol. 2 p. 385}
+
+## Ghassanid karargahı
+Makale, burayı eski Bedevi kampının bir modeli, göçebelerin yerleştiği, çadır ve binaların karışımından oluşan büyük bir kamp olarak tanımlıyor ve hatta orada bir Hristiyan manastırından bile bahsediyor. {cite:encyclopaedia-of-islam-2 vol. 2 p. 385} Bugün, bu yer, Suriye Çölü Bedevileri tarafından hala sıkça ziyaret edilen bol bir kaynak ve otlaklarla işaretleniyor ve adı, Şam surlarının güneybatı kapısının adı olan Bab el-Cabiye'de hala yaşıyor. {cite:encyclopaedia-of-islam-2 vol. 2 p. 385} İlk sakinleri [[polity/ghassanid-kingdom|Gazaniler idi]].
+
+## Fetih ve Yermuk Seferi
+Arap fetihlerinden sonra, Levant'ın tamamında türünün ilk örneği olan büyük bir kamp orada kuruldu ve uzun süre Şam ordusunun karargâhı olarak kaldı. {cite:encyclopaedia-of-islam-2 vol. 2 p. 385} Yermuk makalesi, "Yarmuk veya Cabiye" olarak adlandırılan savaşın, geleneksel Gazani üssü olan Cabiye yakınlarındaki manevralarla başladığını ve Müslümanların 13 Cemadi el-Sani, 15 Hicri'de (23 Temmuz 636 Miladi) orada ilk çatışmayı kazandığını ekliyor. [[event/battle-of-al-jabiya|Cabiye yakınlarındaki çatışmaya]] ve [[event/battle-of-yarmuk|Yermuk Savaşı'na bakın]]. {cite:encyclopaedia-of-islam-2 vol. 11 p. 302} Cabiye makalesi ayrıca, orada Romalılarla bir çatışma yaşandığını ve zaferden sonra ganimetlerin toplandığını belirtiyor. {cite:encyclopaedia-of-islam-2 vol. 2 p. 385}
+
+## Ömer, Jabiyah'ta
+Bu nedenle, makalede belirtildiği gibi, Halife [[person/umar-ibn-al-khattab|Ömer]], Ali hariç Hicaz'dan kıdemli Sahabelerle birlikte, yeni fetihlerin şartlarını belirlemek üzere Hicaz'ın 17. yılında/638. yılında oraya gitti. {cite:encyclopaedia-of-islam-2 vol. 2 p. 385} Komutanlar ve kıdemli subayların katıldığı, Cebiye Günü olarak bilinen bir toplantı yapıldı ve Ömer'in hadislerde sıkça zikredilen konuşması Cebiye Hutbesi olarak adlandırılır. {cite:encyclopaedia-of-islam-2 vol. 2 p. 385} Makalenin yazarı, toplantının öneminin rivayetlerde kabul edilenden daha büyük olduğuna ve muhtemelen Divan sisteminin, yani düzenli maaş sisteminin başlangıcı olduğuna ve fatihlere yardım eden Levant'taki asıl Arap kabilelerini dışlama girişiminin, onların muhalefeti nedeniyle başarısız olduğuna inanmaktadır. {cite:encyclopaedia-of-islam-2 vol. 2 p. 385} Makale, ziyareti Hicri 17/Miladi 638 yılına tarihlendirirken, müzedeki bir diğer kayıt olan [[event/umar-land-policy-al-jabiya|Mu'adh'ın Levant'taki el-Cabiye'deki istişareleri]], el-Baladhuri'ye dayanarak ilgili bir ziyareti Hicri 16/Miladi 637 civarına tarihlendiriyor. Dolayısıyla, yıl tüm kaynaklarda tutarlı değil.
+
+Sağlıklı iklimi nedeniyle Jabiyah, Emmaus Vebası sırasında bitkin düşmüş askerler için bir sığınak haline geldi; bkz. [[event/plague-of-amwas|Emmaus Vebası]]. Daha sonra askerlerin maaşları orada dağıtıldı. {cite:encyclopaedia-of-islam-2 vol. 2 p. 385}
+
+## Emevi döneminde
+Makalede, şehrin eski zamanlardan beri minberli bir cemaat camisine sahip olduğu, bu özelliğiyle büyük şehirler ve başkentlerle aynı seviyede olduğu ve [[person/muawiya-ibn-abi-sufyan|Muaviye zamanından beri tüm Emevi halifelerinin buradan geçtiği belirtiliyor]]. [[person/abd-al-malik-ibn-marwan|Abdülmalik]], Şam'a dönmeden önce Sanbara'daki kışlık ikametgahından döndüğünde bir ay boyunca burada kalırdı. {cite:encyclopaedia-of-islam-2 vol. 2 p. 385}
+
+İbn el-Zübeyr halife ilan edildiğinde ve Emeviler Hicaz'dan sürüldüğünde, Suriye halkı Muaviye II'nin halefini seçmek için el-Cabiye'de toplandı. İbn Bahdal, Kelb kabilesiyle birlikte ilk gelen oldu; Şam valisi el-Dahhak ibn Kays ise katılmadı, Kays da katılmadı. Tartışmalar sonucunda, genç yaşları nedeniyle I. Yezid'in oğulları kabul edilebilir bulundu. Beni Cüdham kabilesinin lideri Ravh ibn Zinba'nın müdahalesiyle [[person/marwan-ibn-al-hakam|Mervan ibn el-Hakam halife ilan edildi]]. [[event/bayah-of-marwan-at-jabiya|Mervan'ın el-Cabiye'deki Biat Sözü'ne]] bakınız. {cite:encyclopaedia-of-islam-2 vol. 2 p. 385} Makale, el-Cabiye'nin böylece Mervani hanedanlığının beşiği haline geldiğini ve Merj Rahit'teki zaferin orada alınan kararı doğruladığını belirtiyor. [[event/battle-of-marj-rahit|Merj Rahit Muharebesi'ne bakınız]]. {cite:encyclopaedia-of-islam-2 vol. 2 p. 385} Oradaki son büyük siyasi olay, Abdülmalik'in en büyük iki oğlunun tahtın varisi olarak tanınmasıydı. {cite:encyclopaedia-of-islam-2 vol. 2 p. 385}
+
+## geri çekilme
+Süleyman döneminde, İstanbul'a karşı yapılan seferler nedeniyle büyük askeri kamp, El-Cabiye'den Halep'in kuzeyindeki Dabik'e taşındı. El-Cabiye, Şam'ın yönetimi altındaki bir bölgenin merkezi olarak kaldı, ancak önemi özellikle Abbasi döneminde azalmaya devam etti. {cite:encyclopaedia-of-islam-2 vol. 2 p. 385} İsmi hadislerde yaşamaya devam etti; makalede anlatıldığı üzere İbn Abbas'tan rivayet edildiğine göre, müminlerin ruhları Kıyamet Günü El-Cabiye'de buluşacaktır. {cite:encyclopaedia-of-islam-2 vol. 2 p. 385}
+
+## Kaynakların doğrulamadığı şeyler
+Makalede Gassanî kampının kuruluşuna dair ne koordinatlar ne de tarih verilmektedir. Okunan pasajlarda kalıntıların tam konumu belirtilmemekte, bunun yerine Şam'a olan uzaklığı ve Nev'a yakınlığı ifade edilmektedir. {cite:encyclopaedia-of-islam-2 vol. 2 p. 385}
+
+## Ülkeler sözlüğünde
+Yaqut, el-Cabiye'yi develer için su toplanan yalak olarak açıklıyor ve el-A'şa'dan alıntı yapıyor. Ona göre, " [[place/damascus|Şam bölgesinde]], daha sonra Golan bölgesindeki el-Ceydur bölgesinde, kuzey Hawran'daki Marj el-Saffar yakınlarında bir köydür." Bir kişi el-Sanamayn'da durup kuzeye bakarsa, bu yer ona görünür. Ayrıca Nawa'dan da görünür [[place/nawa|]]. Yakınında, Umm el-Sawt adı verilen küçük, son derece zehirli yılanların yaşadığı Tell el-Cabiye adlı bir tepe vardır. Ömer ibn el-Hattab ünlü hutbesini burada vermiştir. Şam'daki Bab el-Cabiye kapısı bu yerin adını taşır ve Golan'ın Cabiyesi olarak da adlandırılır. El-Cevas ibn el-Ka'tal ve Hasan ibn Sabit'in şiirleri bu yer hakkında okunmaktadır {cite:mujam-al-buldan-sader-1995 2 p.91}. İbn Abbas'tan rivayet edildiğine göre, "Müminlerin ruhları Şam diyarındaki el-Cabiye'de, kâfirlerin ruhları ise Hadramavt diyarındaki Barhut'tadır" demiştir. Bu rivayet, ravîsinden {cite:mujam-al-buldan-sader-1995 2 p.91} aktarılmıştır.
+
+## Müzenin Tanımı
+Karttaki sarnıç, girişin kendisinin de atıfta bulunduğu Golan sarnıcıdır - Ömer'in vaazının verildiği yer ve Şam Kapısı - ve müzenin yorumu, Yaqut'un Nawa, Jadur ve Hauran civarına ilişkin açıklamasıyla, kartta Şam'ın güneyindeki Golan'da bulunan Gassanid karargâhının yer aldığı bilgisiyle örtüşmektedir.

@@ -60,6 +60,28 @@ def render(src, scheme):
     return out + run(src[pos:])
 
 
+TOK = re.compile(r"<x(\d+)>([^<]*)</x\1>|\[\[(\d+)\]\]")
+
+
+def fragments(src, lang_re):
+    """scheme 'frag': nothing is put inside a line that Word must hand back. Each stretch of text, and each link label, is a
+    paragraph of its own; citations and punctuation-only stretches are not sent, the importer puts them back by position."""
+    spec, sent, pos = [], [], 0
+    def text(t):
+        if re.search(lang_re, t):
+            lead, trail = t[:len(t) - len(t.lstrip())], t[len(t.rstrip()):]
+            spec.append(["t", lead, trail]); sent.append(t.strip())
+        elif t: spec.append(["l", t])
+    for m in TOK.finditer(src):
+        text(src[pos:m.start()]); pos = m.end()
+        if m.group(3): spec.append(["c", int(m.group(3))]); continue
+        lab = m.group(2)
+        if re.search(lang_re, lab): spec.append(["x", int(m.group(1)), "", ""]); sent.append(lab.strip())
+        else: spec.append(["xl", int(m.group(1)), lab])
+    text(src[pos:])
+    return spec, sent
+
+
 def numeric(src):
     src = re.sub(r"\[\[(\d+)\]\]", lambda m: f"({8000000000 + int(m.group(1))})", src)
     src = re.sub(r"<x(\d+)>", lambda m: f"{8100000000 + int(m.group(1))} ", src)
@@ -103,7 +125,12 @@ for ident in ids:
     if a.chars and records and chars + size > a.chars: break
     chars += size
     for scheme in a.scheme.split(","):
-        new = [run(f"#### {len(records) + 1} ####")] + [render(x, scheme) for x in srcs]
+        if scheme == "frag":
+            todo = [l for l in lines if "en" in l]; new = [run(f"#### {len(records) + 1} ####")]
+            for l, x in zip(todo, srcs):
+                l["spec"], sent = fragments(x, r"[A-Za-z]{2}" if a.src == "en" else r"[\u0621-\u064A]{2}"); new += [run(t) for t in sent]
+        else:
+            new = [run(f"#### {len(records) + 1} ####")] + [render(x, scheme) for x in srcs]
         est += sum(len(x.encode("utf-8")) for x in srcs) * 0.36
         records.append({"id": ident, "scheme": scheme, "src": a.src, "lines": lines}); paras += new; sizes.append(len(new)); words += len(body.split())
     if est > a.bytes * 1.05: break

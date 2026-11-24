@@ -1,0 +1,40 @@
+---
+id: person/hajar
+lang: tr
+source_lang: ar
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-23), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-23, source: content/ar/person/hajar.md}
+---
+
+## Özet
+Hajar veya [[person/ismail|İsmail]]; Mısır Firavununa hizmet et [[person/sara|Sarah]] Böylece onunla evlendim [[person/ibrahim|İbrahim]], sonra İbrahim onu bebeğiyle birlikte bir vadide yerleştirdi [[place/mecca|Mekke]] Sonra Zamzam onlar için patladı ve ezan çağrısı geldi [[group/jurhum|onları sürüklemek]] Soyu {cite:mubarakpuri-raheeq p.18}.
+
+## Köken
+Mısır Firavunu, Sarah'nın Tanrı ile güçlü bağını biliyordu, ta ki onun lütfunu için ona göç edene kadar, bu yüzden Sarah İbrahim ile evlendi {cite:mubarakpuri-raheeq p.18} {cite:sahih-al-bukhari 1/474}. Yazar, Hacer'in köle bir ulus olduğu bilindiğini, ancak Hakim Muhammed Süleyman el-Mansur'un hemen onun özgür olduğunu ve Firavun'un kızı olduğunu doğruladığını belirtir {cite:mubarakpuri-raheeq p.18} {cite:rahma-lil-alamin 2/36-37}; kökeni, bilinen anlatım ile Al-Mansur Fauri tarafından doğrulanan arasında tartışmalıdır.
+
+## Mekke Vadisi'ne
+Allah, İbrahim'e İsmail'in göçünü kutsadı. Sara o kadar gayretliydi ki İbrahim Hacer ve küçük oğluyla birlikte ayrılmak istedi. Onları Hicaz'a götürdü ve kutsal evin yakınındaki çorak bir vadide yerleştirdi. Onları Doha yakınlarında, zamzamın üstünde, o zamanlar Mekke'de kimsenin olmadığı yerde yerleştirdi, hurma dolu bir çuval ve su ile su koydu, ardından Filistin'e döndü {cite:mubarakpuri-raheeq p.18} {cite:sahih-al-bukhari 1/474-475}. Birkaç gün içinde erzaklar ve su tükendi, orada Zamzam kuyusu patladı; bir süre onların besin kaynağı ve taziye kaynağı oldu. Hikaye uzunluğuyla iyi bilinir {cite:mubarakpuri-raheeq p.18}. bak [[event/settlement-of-hajar-and-ismail|Mekke'de Hajar ve İsmail konutları]].
+
+## Suç
+İkinci Jurhum olan bir Yemen kabilesi, Um İsmail'in izniyle Mekke'ye yerleşti ve El-Buhari'nin anlatımı, onun yerleşmesinden ve büyümeden önce Mekke'ye yerleştiklerini belirtir {cite:mubarakpuri-raheeq p.18} {cite:mubarakpuri-raheeq p.19} {cite:sahih-al-bukhari 1/474-475}.
+
+## Ölümü
+İsmail'in annesi, İsmail büyüyüp Jarhum ile evlendikten sonra, İbrahim'in ikinci korunmuş yolculuğundan önce öldü {cite:mubarakpuri-raheeq p.19} {cite:sahih-al-bukhari 1/475-476}.
+
+## Genç ziyaretçiler için
+İsmail'in annesi Hagar, bebeğiyle birlikte Mekke'de kaldı ve Tanrı onlara hâlâ ayakta olan Zamzam kuyusundan su verdi.
+
+## Omar Abdelkafi'nin "Wanafs wa wa Othera" programından
+Şeyh Bahacar Tanrı'ya güvenerek şöyle der: Su kıtken ve bebeği yanında olduğunda, Safa ile Merve arasında yedi kez seyahat etti. Bu, gerekli yolları kullanarak ona göre gerçekleşti. Tanrı'nın onu orada bırakmasının bir emri olduğunu öğrendiğinde Tanrı'ya güvenmişti ve O'nun onları boşa harcamayacağını söyledi. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep02 00:06:30} Suyun Safa veya Merve yakınından gelmediğine, ölçüsüne göre adlandırıldığına, Allah'ın da ölçüsüne göre verdiğine inanır; bu nedenle zamzam, hacıların, umre idamcılarının ve Mekke halkının içtiği yer olmuştur. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep02 00:07:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep02 00:07:30}
+Başka bir bölümde, örneğin onun ve bebeğinin ekilenmemiş bir vadide olduğunu söyler; iyiliğin bir kişinin sevmediği şeylerde olabileceğini, çünkü İsmail'in en iyi yaratılışından gelen soyundan geldiğini belirtir. {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep06 00:07:00} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep06 00:07:30} {cite:assabile-omar-abdelkafy wa-nafsun-ma-sawaha/ep06 00:08:00}
+
+## Omar Abdelkafi'nin 'Umut Bahçesi' programından
+Şeyh, Hacer'in bazı tarih kitaplarında söylendiği gibi bir millet olmadığını, devleti yok edilen bir kral soyundan geldiğini ve bu yüzden Hacer'in Firavun'un sarayına esir alındığını ve Mısır'da İbrahim'e hediye edildiğini söyler ⁦(needs_source: هذا قوله)⁩. {cite:assabile-omar-abdelkafy bustan-el-amal/ep08 00:01:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep08 00:02:00} Anlatılanlara göre, İbrahim onu bebeğiyle evde bıraktığında, ona 'Tanrı sana bunu emretti mi?' diye sormuştur. İbrahim evet dediğinde, Amzem şöyle dedi: O zaman bizi bırakmaz ve gerçek rahatlamayı görür. Sonra Zamzam fırladı ve onların yerine geldi, İsmail onlarla evlendi ve onun soyundan Peygamber geldi. {cite:assabile-omar-abdelkafy bustan-el-amal/ep08 00:09:00} {cite:assabile-omar-abdelkafy bustan-el-amal/ep08 00:09:30} {cite:assabile-omar-abdelkafy bustan-el-amal/ep08 00:10:00}
+
+## Mostafa Hosni'nin "Anı Yaşa" programında
+Bahsetme [[person/mustafa-hosny|Mostafa Hosni]] Hajar, programının yirmi ikinci bölümünde [[work/ich-allahda|"Anı Yaşa"]], çatışma anını anlattı; kocası yok ya da boşanmış olan her kadın için rol model oldu, böylece hem erkek hem kadın rollerini üstlendi. {cite:assabile-mustafa-hosny ich-allahda/ep22 00:23:30} {cite:assabile-mustafa-hosny ich-allahda/ep22 00:24:00} İbrahim'in Filistin'e gitmesini ve onu ve bebeğini insan ya da su olmayan bir yerde bırakmasını emrettiğini söyler. İbrahim ona Tanrı'nın bunu emredip emretmediğini sorar, İbrahim evet işareti yapar ve Tanrı'nın onları terk etmeyeceğinden emindi, İbrahim Kutsal Ev'deki yalvarışını da anmıştır. {cite:assabile-mustafa-hosny ich-allahda/ep22 00:24:00} Mekke'nin tüm nimetlerinin, o anı dayandıkları için geldiğini söylüyor. {cite:assabile-mustafa-hosny ich-allahda/ep22 00:24:30}
+
+## Tariq Al-Suwaidan'ın "Ölümsüz Kadınlar" programında
+o sulanıyor [[person/tariq-al-suwaidan|Tariq Al-Suwaidan]] Programının on ikinci bölümünde [[work/nesaa-khalidat-program|"Ölümsüz Kadınlar"]] Hacer'in hikayesi, Sara'nın hikayesinden sonra. Onun, Mısır kralı tarafından Sarah'ya hediye edilen ve Sara'ya verilen köle kız olduğu belirtilir. İsmail ve İbrahim seksen altı yaşında doğmuşlardır. {cite:assabile-tareq-al-suwaidan nesaa-khalidat/ep12 00:06:00} {cite:assabile-tareq-al-suwaidan nesaa-khalidat/ep12 00:07:30} {cite:assabile-tareq-al-suwaidan nesaa-khalidat/ep12 00:08:00} Sonra Tanrı, İbrahim'e onu ve bebeği Arap Yarımadası'na, binalardan ve insanlardan yoksun Mekke vadisine götürmesini emretti. {cite:assabile-tareq-al-suwaidan nesaa-khalidat/ep12 00:08:30} {cite:assabile-tareq-al-suwaidan nesaa-khalidat/ep12 00:09:00} Nereye bırakacağını sorduğumda cevap vermedi. Sorduğumda Tanrı ona bunu yapmasını emretti, o da "Evet, Tanrı'nın onları yoldan çıkarmayacağından eminim." dedi. {cite:assabile-tareq-al-suwaidan nesaa-khalidat/ep12 00:09:30} {cite:assabile-tareq-al-suwaidan nesaa-khalidat/ep12 00:11:00} {cite:assabile-tareq-al-suwaidan nesaa-khalidat/ep12 00:11:30}
+
+Su bittiğinde ve bebek ağladığında, birini aramak için avluya çıktı, sonra Marwah'a doğru yürüdü, aralarındaki vadiden koştu, her seferinde çocuğundan ayrı kalmaya dayanamadığı için yedi kez geri döndü. {cite:assabile-tareq-al-suwaidan nesaa-khalidat/ep12 00:13:30} {cite:assabile-tareq-al-suwaidan nesaa-khalidat/ep12 00:14:30} {cite:assabile-tareq-al-suwaidan nesaa-khalidat/ep12 00:15:00} {cite:assabile-tareq-al-suwaidan nesaa-khalidat/ep12 00:15:30} Hacıların iki dağ arasındaki yolculuğunun bir kadının anısını koruduğunu belirtir. {cite:assabile-tareq-al-suwaidan nesaa-khalidat/ep12 00:16:00} {cite:assabile-tareq-al-suwaidan nesaa-khalidat/ep12 00:17:00} Cebrail'in İsmail'in yakınında toprağa vurduğu ve Zemzem'in filizlendiği ve Hacer'in suyu akmasını engellemesi için çevrelediği rivayet edilir; Peygamber, eğer onu terk etseydi akan bir kaynak olurdu dediğinde bunu belirtmiştir. {cite:assabile-tareq-al-suwaidan nesaa-khalidat/ep12 00:18:00} {cite:assabile-tareq-al-suwaidan nesaa-khalidat/ep12 00:19:00} Jurhum kabilesi kuşların etrafta süzüldüğünü görüp yaşamak için izin istemeye geldiler, bu yüzden su için ödedikleri para geçim kaynağı oldu. {cite:assabile-tareq-al-suwaidan nesaa-khalidat/ep12 00:18:30} {cite:assabile-tareq-al-suwaidan nesaa-khalidat/ep12 00:19:30}

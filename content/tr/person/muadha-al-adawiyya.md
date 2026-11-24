@@ -1,0 +1,21 @@
+---
+id: person/muadha-al-adawiyya
+lang: tr
+source_lang: ar
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-23), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Google Translate documents)', model: google-translate, run: gt-docs-tr-2026-11-23, source: content/ar/person/muadha-al-adawiyya.md}
+---
+## Özet
+Mu'adha bint Abdullah al-'Adawiyya, diğer adıyla Umm al-Sahba', Basra'daki Beni Adi kabilesinden dindar bir kadındı [[place/basra|. İbn al-Jawzi]] [[work/sifat-al-safwa|, "Sifat al-Safwa" adlı kitabında (584. madde) "Basra'nın dindar kadınları arasından seçilmiş kadınlar" hakkındaki anlatımına]] onunla başlar. {cite:sifat-al-safwa-tartusi-2012 p.704} [[person/aisha|Aişe]] ile görüşmüş ve ondan hadisler rivayet etmiştir. [[person/al-hasan-al-basri|Al-Hasan al-Basri]], [[person/abu-qilaba-abd-allah-ibn-zayd|Abu Qilabah]] ve Yezid al-Rashk ondan hadisler rivayet etmişlerdir. {cite:sifat-al-safwa-tartusi-2012 p.706}
+
+## ona tapınmak
+Muhammed ibn Fadil'den, babasından rivayet edildiğine göre, gündüz olduğunda, "Bugün öleceğim gün," der ve akşama kadar uyumazdı. Gece olduğunda da, "Bu gece öleceğim gece," der ve sabaha kadar uyumazdı. Soğuk olduğunda ise, uyumasına engel olması için ince elbiseler giyerdi. {cite:sifat-al-safwa-tartusi-2012 p.704} {cite:sifat-al-safwa-tartusi-2012 p.705} Hizmetçisinden rivayet edildiğine göre, geceyi namazla geçirir, uykuya daldığında ise kalkıp evin içinde dolaşır ve kendi kendine, kabirdeki uykusunun uzun süreceğini söylerdi. Asiya bint Amr el-Adaviyye'den rivayet edildiğine göre, bir günde ve bir gecede altı yüz rekat namaz kılardı ve şöyle derdi: "Kabirin karanlığında uykunun ne kadar uzun süreceğini bilen bir gözün uyumasına hayret ederim." {cite:sifat-al-safwa-tartusi-2012 p.705} Ebu el-Suver el-Adavi, Beni Adi'nin Basra halkının en çalışkanları olduğunu söyledi: Ebu el-Sahabe geceleri uyumaz, gündüzleri de orucunu açmazdı ve karısı Muadha kırk yıl boyunca başını göğe kaldırmadı. {cite:sifat-al-safwa-tartusi-2012 p.705}
+
+## Kocası ve oğlunun öldürüldüğü gün
+Kocası [[person/sila-ibn-ashyam|Silah ibn Aşim]], Ebu el-Sahabe idi. İbn el-Cevzi, Sabit el-Banani'den rivayetle, Silah'ın oğluyla birlikte bir askeri sefere çıktığını anlatır. Oğlunu önden gönderdi ve oğlu öldürülene kadar savaştı. Sonra Silah kendisi de ilerledi ve öldürüldü. Kadınlar Mu'azha'nın evinde toplandılar ve Mu'azha, "Beni tebrik etmeye geldiyseniz hoş geldiniz. Ama başka bir sebeple geldiyseniz, geri dönün." dedi. {cite:sifat-al-safwa-tartusi-2012 p.705} El-Baladhuri, "Futuh el-Buldan"da Silah'ın Kabil Muharebesi'nde Yezid ibn Ziyad ile birlikte Cenaz'da şehit edildiğini belirtir. {cite:futuh-buldan-maarif-1407} El-Hasan'dan rivayet edildiğine göre, Ebu el-Sahabe'den sonra ölene kadar başka bir yatakta uyumadı. Mu'aza'nın emzirdiği Ümmü'l-Esved bint Zeyd el-Adaviyye'den rivayet edildiğine göre, o, Mu'aza'ya bu dünyada hayatın zevkleri için kalmayı sevmediğini, aksine Rabbine daha yakın olmak istediğini, böylece O'nun kendisini Ebu'l-Sahabe ve oğluyla cennette yeniden bir araya getireceğini söylemiştir. {cite:sifat-al-safwa-tartusi-2012 p.705}
+
+## Onun vasiyeti ve ölümü
+Ona bakıcılık yapan bir kadın, Allah'la karşılaşma konusunda temkinli ve umutlu olmasını tavsiye etmiş, bunun üzerine gözyaşlarına boğulana kadar ağlamıştır. {cite:sifat-al-safwa-tartusi-2012 p.705} Rivayet edilir ki, dindar kadın Afira, ölüm anında ağlamış, sonra da gülmüştür. Neden diye sorulduğunda, oruç, namaz ve Allah'ı anmanın kaybı için ağladığını, evin avlusunda iki yeşil elbise giymiş Ebu el-Sahba'nın yaklaştığını gördüğü için güldüğünü ve bir daha asla farz namaz kılamayacağını düşündüğünü söylemiştir. Namaz vakti gelmeden önce vefat etmiştir. {cite:sifat-al-safwa-tartusi-2012 p.705} Editör, onun biyografisinde, İbn el-Cevzi'nin "El-Muntazam" adlı eserine Hicri 83 yılı altında ve İbn Sa'd'ın "Tabaqat", "El-Kashif" ve "Tahdhib el-Tahdhib" adlı eserlerine atıfta bulunmaktadır. {cite:sifat-al-safwa-tartusi-2012 p.704}
+
+## Genç ziyaretçiler için
+Muadha, Basra'lı bir kadındı ve gecelerini dua ederek geçirirdi. Kocası ve oğlu cihatta şehit düştüğünde, sabretti ve Tanrı'ya daha çok ibadet edebilmek için hayatı sevdiğini söyledi.

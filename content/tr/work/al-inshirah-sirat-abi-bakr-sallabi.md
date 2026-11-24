@@ -1,0 +1,25 @@
+---
+id: work/al-inshirah-sirat-abi-bakr-sallabi
+lang: tr
+source_lang: ar
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-23), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Google Translate documents)', model: google-translate, run: gt-docs-tr-2026-11-23, source: content/ar/work/al-inshirah-sirat-abi-bakr-sallabi.md}
+---
+## Özet
+[[person/ali-muhammad-al-sallabi|Ali Muhammed Muhammed el-Sallabi'nin Ebu Bekir el-Siddik'in]] biyografisi üzerine yaptığı " [[person/abu-bakr|Ebu Bekir el-Siddik'in]] Biyografisinde Rahatlama ve Sıkıntıların Giderilmesi: Kişiliği ve Dönemi" adlı çalışma, "Doğru Yolda Yürüyen Halifelerin Tarihi" serisinin ilk bölümüdür ve bunu Ömer, Osman ve Ali hakkındaki bölümler takip etmektedir. {cite:sallabi-abu-bakr-tawzi-2003 p.5} Eser, Kahire'deki İslami Dağıtım ve Yayınevi tarafından ilk baskısı 1423 Hicri/2002 Miladi ve ikinci baskısı 1424 Hicri/2003 Miladi yıllarında yayımlanmıştır. {cite:sallabi-abu-bakr-tawzi-2003 p.6}
+
+## Kitabın amacı ve metodolojisi
+Yazar, bazı çağdaş tarihçilerin ve yazarların, Sahabeleri iktidar hırsı ve dünyevi emellerle hareket eden kişiler olarak tasvir ederek, Peygamber ekolünde yetişmiş neslin anlayışından çok uzak bir şekilde, onların imajını çarpıttığına inanmaktadır. Bunun, savaşlardan başka tarihini bilmeyen bir nesil yarattığını savunmaktadır. {cite:sallabi-abu-bakr-tawzi-2003 p.13} Ardından, yalan yayanların uydurmalarını çürütmek için, önde gelen fıkıh ve hadis âlimleri tarafından korunmuş sahih rivayetlere dayanarak, Ehl-i Sünnet ve'l-Cemaat (Sünni topluluk) metodolojisine göre İslam tarihinin yeniden yazılmasını savunmaktadır. {cite:sallabi-abu-bakr-tawzi-2003 p.13} Ebu Bekir'in rivayetlerini çeşitli kaynak ve referanslarda araştırdığını, bunları vaizlere, hatiplere, âlimlere, politikacılara, askeri liderlere ve ilim talebelerine erişilebilir kılmak için düzenlediğini, belgelediğini ve analiz ettiğini belirtmektedir. {cite:sallabi-abu-bakr-tawzi-2003 p.14}
+
+## Kitabı oluşturmak
+Yazar kitabını bir giriş, dört bölüm ve bir sonuç olmak üzere üç kısma ayırmıştır. {cite:sallabi-abu-bakr-tawzi-2003 p.17}
+- **Birinci Bölüm: Ebu Bekir Mekke'de**, beş bölümden oluşmaktadır: İslam öncesi dönemdeki adı, soyu, ailesi ve hayatı; İslam'a geçişi, İslam'a daveti, imtihanları ve ilk hicreti; Peygamber ile birlikte Medine'ye hicreti; Ebu Bekir'in cihat alanlarındaki yaşamı; Ebu Bekir'in Medine toplumundaki yeri, özellikleri ve erdemleri. {cite:sallabi-abu-bakr-tawzi-2003 p.17} Bu bölüm, el yazmasının 21. sayfasında başlamaktadır. {cite:sallabi-abu-bakr-tawzi-2003 p.21}
+- **İkinci Bölüm: Peygamberin Vefatı ve Beni Sa'ide'nin Sakifası**, iki bölümden oluşmaktadır: Vefat ve Sakifa, ardından Kamuoyu Önünde Biat ve Devlet Yönetimi. {cite:sallabi-abu-bakr-tawzi-2003 p.17} {cite:sallabi-abu-bakr-tawzi-2003 p.115}
+- **Üçüncü Bölüm: Usame'nin Ordusu ve Ebu Bekir'in Mürtedlere Karşı Cihadı**, beş bölümden oluşmaktadır: Usame'nin Ordusu, Mürtedlere Karşı Cihad, Mürtedlere Karşı Kapsamlı Saldırı, Musaylima ve Beni Hanifa ve Mürtedlik Savaşlarından Çıkarılacak En Önemli Dersler. {cite:sallabi-abu-bakr-tawzi-2003 p.18} {cite:sallabi-abu-bakr-tawzi-2003 p.179}
+- **Dördüncü Bölüm: Ebu Bekir'in Fetihleri, Ömer'i Halife Olarak Ataması ve Ölümü**, dört bölümden oluşmaktadır: Irak'ın Fethi, Suriye'nin Fethi, Alınan Dersler ve Ömer'in Halife Olarak Atanması ve Ebu Bekir'in Ölümü. {cite:sallabi-abu-bakr-tawzi-2003 p.18} {cite:sallabi-abu-bakr-tawzi-2003 p.307}
+
+## Öne çıkan konular
+Yazar, giriş bölümünde [[event/expedition-of-usama|Usame'nin ordusunun gönderilmesini]] ve bunun istişare, kararlılık ve Peygamber'in örneğini izleme konusunda sunduğu dersleri incelediğini belirtiyor. Ayrıca [[event/ridda-wars|mürtedlik olaylarını]], nedenlerini ve türlerini ve Ebu Bekir'in bunu bastırmak için planını ve yöntemlerini de ele alıyor. {cite:sallabi-abu-bakr-tawzi-2003 p.15} Daha sonra [[person/khalid-ibn-al-walid|Halid ibn el-Velid]], el-Muthanna ibn Haritha ve el-Ka'ka' ibn Amr ile Irak'ın fethini, ardından Ebu Bekir'in Suriye'nin fethi planını, komutanlara verdiği talimatları, Halid'i Suriye'ye transferini ve Ebu Bekir'in Ecnadayn ve Yermuk'taki olayları anlatıyor. {cite:sallabi-abu-bakr-tawzi-2003 p.15} {cite:sallabi-abu-bakr-tawzi-2003 p.16} Buradan, savaşın amacını belirleme, ikmal organize etme ve komutanlarla iletişim hatlarını koruma gibi Ebu Bekir'in askeri planlamasının ayırt edici özelliklerini çıkarıyor. {cite:sallabi-abu-bakr-tawzi-2003 p.16} Ömer'i halefi olarak atamasını ve son günlerini anlatarak sözlerini sonlandırıyor. {cite:sallabi-abu-bakr-tawzi-2003 p.16}
+
+## Eserin basım ve yayın tarihi
+Yazar, kitabı Hicri 1422 yılının Muharrem ayının beşinci günü, Cuma akşam namazından sonra, yani Miladi 30 Mart 2001 tarihinde tamamlamıştır. {cite:sallabi-abu-bakr-tawzi-2003 p.18} Burada kullanılan versiyon, Dar al-Tawzi’ wa al-Nashr al-Islamiyya tarafından yayımlanan, 2002/8486 numaralı nüshadan alınmıştır. {cite:sallabi-abu-bakr-tawzi-2003 p.6}

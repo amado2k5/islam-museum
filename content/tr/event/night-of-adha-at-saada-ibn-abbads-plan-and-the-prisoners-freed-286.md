@@ -1,0 +1,18 @@
+---
+id: event/night-of-adha-at-saada-ibn-abbads-plan-and-the-prisoners-freed-286
+lang: tr
+source_lang: ar
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-23), draft translation']
+provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Google Translate documents)', model: google-translate, run: gt-docs-tr-2026-11-23, source: content/ar/event/night-of-adha-at-saada-ibn-abbads-plan-and-the-prisoners-freed-286.md}
+---
+## Özet
+Ali bin Muhammed şöyle dedi: Sonra [[person/al-hadi-yahya-al-rassi|el-Hadi]], el-Mahra'ya ve Havlan'a haber gönderdi; bu metin Mahra Müzesi'nde basılıp okunmaktadır ve [[person/abu-jafar-muhammad-ibn-ubaydallah-al-abbasi|Muhammed bin Ubeydullah'a]] onları kendisine getirmesini emreden bir mektup yazdı {cite:sira-hadi-ila-al-haqq p.163}. Beni el-Harith'ten hapsedilenler Sa'de'de onlarla birlikteydiler, bu yüzden [[person/ahmad-ibn-abbad-al-akili|Ahmed bin Abbad el-Akili onlarla ilgilendi]], ta ki onlara bir törpü gönderene kadar; onlar da bu törpüyü kullanarak üzerlerindeki demiri törpülediler ve arkadaşlarına katılana kadar hapisten çıktılar {cite:sira-hadi-ila-al-haqq p.163}.
+
+## İbn Abbad'ın planı
+Daha önce takipçilerinden bir grup toplamış ve Muhammed ibn Ubeydullah'a saldırmayı, onu yakalamak, içeridekileri ortadan kaldırmak ve tutsakları serbest bırakmak için hemen [[place/al-ghayl-saada|el-Ghayl'e yürümeyi planlamıştı]]. Bu, Kurban Bayramı gecesi gerçekleşecekti {cite:sira-hadi-ila-al-haqq p.163}. Haber Muhammed'e ulaştığında, bazı Yarsamiyyinlere haber göndererek, Beni Sa'd'dan yardım çağrıları kendisine ulaşana kadar evinde kendisiyle birlikte duracak otuz adam sağlamalarını istedi. Onlar, "Kendimizi yıkıma götürebilecek bir meseleye maruz bırakmak istemiyoruz" diyerek reddettiler {cite:sira-hadi-ila-al-haqq p.163}. Bundan önce, [[person/al-hasan-ibn-ali-al-futaymi|el-Hasan ibn Ali el-Fatimi'den]] İbn Abbad'ın planını ve bazı Yarsamiyyinlerin ona yardım ettiğini bildiren mektuplar ulaşmıştı {cite:sira-hadi-ila-al-haqq p.163}.
+
+## Muhammed ibn Ubeyd Allah'ın yaptığı
+Muhammed, rivayetçi ve iki hizmetçiyle birlikte Hasan ibn Ali'nin yanına gitti. Gayl'e vardıklarında, [[group/banu-sad-khawlan|Havlan'daki Beni Sa'd'a elçiler gönderdiler]] ve büyük bir ordu toplanıp Gayl'de kamp kurdu. Rivayetçinin babası Ebu Muhammed ibn Ubeyd Allah, halk bayram namazını bitirinceye kadar mevzilerinden ayrılmamalarını emretti {cite:sira-hadi-ila-al-haqq p.163}. Sonra arkadaşlarından biri olan [[person/muhammad-ibn-abi-hisham|Muhammed ibn Ebu Hişam]] geldi ve düşmanının elinden ölüm korkusuyla bayram namazı kılmaması için Allah adına ona yalvardı. Bunu beğenmedi ve o gece kendisine itaat edenleri topladığını bildirdi. Sabah olunca dışarı çıktı ve bayram namazını kıldı {cite:sira-hadi-ila-al-haqq p.163} {cite:sira-hadi-ila-al-haqq p.164}.
+
+## mahkumların serbest bırakılması
+İbn Abbad, Muhammed'in yaptıklarını öğrenince, umduğu şeyden umudunu kesti ve belirtildiği gibi tutsakların serbest bırakılması için çalıştı. Serbest bırakılanlar arasında [[person/abu-al-wajih-ibn-musa-al-khushaymi|Ebu el-Vajih]] ve Yahya da vardı. [[person/marzuq-ibn-muhammad-al-khushaymi|Marzuk ise]] bunu bir utanç olarak görüp geride kaldı ve daha sonra el-Hadi onu serbest bırakıncaya kadar orada kaldı {cite:sira-hadi-ila-al-haqq p.164}. Bu rivayet Zeydi'ye aittir ve içindeki suçlamalar anlatıcının kendi suçlamalarıdır. Anlatım sırasına göre [[event/al-hadis-charge-at-sawhan-286]]'nin devamı niteliğindedir ve ardından [[event/al-hadi-breaches-the-wall-of-al-hajar-286]] gelir. Müze, 120. sayfada bahsedilen kişinin Muhammed ibn Abi Hişam olduğunu kesin olarak belirtmemektedir.
