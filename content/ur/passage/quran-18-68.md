@@ -2,10 +2,17 @@
 id: passage/quran-18-68
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-18-68.md}
 ---
 ## موجز
 الآية 68 من [[passage/quran-18|سورۃ الکہف]]، وہ مکی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 68، سورت کی کل 110 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+الطبری نے آیات 68 تا 69 کے اندر آیت کو ایک حصے کے طور پر پڑھا ہے۔ وہ اپنے بیان کی وضاحت کرتا ہے، "اور آپ اس پر صبر کیسے کر سکتے ہیں جو آپ نہیں سمجھتے؟" اس کا نام جلال ہو، اس کے بارے میں بتاتے ہوئے کہتا ہے کہ عالم نے موسیٰ سے کیا کہا: اے موسیٰ، تم مجھ سے ان اعمال پر کیسے صبر کر سکتے ہو جن کی درستی کو تم نہیں جانتے اور ان میں میرے ساتھ رہو، جب کہ تم صرف صحیح کی درستی اور غلط کی غلطی کا فیصلہ جو کچھ تم پر ظاہر ہے اس سے کرتے ہو، اور تمہاری آنکھ کے بغیر ان کے عمل کو دیکھنے کے لیے ان کے علم کی حد تک اور ان کے عمل کو میری آنکھوں کے سامنے دیکھ کر۔ درستگی، کیونکہ وہ مستقبل میں واقع ہونے والی وجوہات سے شروع ہوتی ہیں، فوری طور پر نہیں، جن کے بارے میں آپ کو کوئی علم نہیں، کیونکہ وہ غیب ہیں، اور آپ علم غیب کو علم سے نہیں سمجھتے۔ اس نے کہا: "تم مجھے، اگر خدا نے چاہا، صبر کرو گے" جو میں تم سے دیکھتا ہوں، چاہے وہ میرے ساتھ صحیح کے خلاف ہو، "اور میں کسی معاملے میں تمہاری نافرمانی نہیں کروں گا،" وہ کہتا ہے: اور میں اس کی تعمیل کروں گا جو تم مجھے حکم دو گے، چاہے وہ میری خواہش کے مطابق نہ ہو۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=18&tAyahNo=68&tDisplay=yes&UserProfile=0&LanguageId=1

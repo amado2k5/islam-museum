@@ -2,10 +2,17 @@
 id: passage/quran-59-24
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-59-24.md}
 ---
 ## موجز
 الآية 24 من [[passage/quran-59|سورۃ الحشر]]، وہ مدنی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 24، سورت کی کل 24 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+اس کا یہ قول، "وہی اللہ ہے، خالق، پیدا کرنے والا، وضع کرنے والا، اسی کے خوبصورت نام ہیں، جو کچھ آسمانوں اور زمین میں ہے سب اس کی تسبیح کرتے ہیں، اور وہ غالب، حکمت والا ہے،" بیان کرتا ہے: وہ خالق ہے، عبادت کے لائق ہے، اور اس کے سوا کوئی عبادت کے لائق نہیں، اس کے سوا کوئی معبود نہیں، اس کے سوا کوئی مخلوق نہیں۔ وہی موجد ہے جس نے مخلوق کو پیدا کیا اور اپنی قدرت سے ان کو وجود میں لایا، وہ وضع کرنے والا ہے جس نے اپنی مخلوق کو جیسا چاہا اور جیسا چاہا۔ اور اس کے اس قول: "خوبصورت نام اسی کے ہیں" کا مطلب یہ ہے کہ خدا تعالیٰ فرماتا ہے: سب سے خوبصورت نام خدا کے ہیں، اور یہ وہ نام ہیں جن سے خدا نے اپنا نام لیا ہے، جن کا ذکر اس نے ان دو آیات میں کیا ہے۔ ’’جو کچھ آسمانوں اور زمین میں ہے اس کی تسبیح کرتا ہے‘‘ کا مطلب ہے: زمین و آسمان کی ہر چیز اس کی تسبیح کرتی ہے اور خوشی اور ناخوشی سے اس کو سجدہ کرتی ہے۔ ’’اور وہ غالب ہے‘‘ کا مطلب ہے: وہ ہے جو اپنے دشمنوں سے انتقام لینے میں سخت ہے۔ "دانشمند" اپنی تخلیق کے انتظام میں اور ان کی رہنمائی کرتا ہے جو ان کے لئے اچھا ہے۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=59&tAyahNo=24&tDisplay=yes&UserProfile=0&LanguageId=1

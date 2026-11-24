@@ -2,10 +2,17 @@
 id: passage/quran-75-2
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-75-2.md}
 ---
 ## موجز
 الآية 2 من [[passage/quran-75|سورۃ القیامہ]]، وہ مکی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 2، سورت کی کل 40 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+الطبری آیات 2 سے 5 تک آیت کو ایک اکائی کے طور پر پڑھتا ہے۔ وہ "میں قیامت کے دن کی قسم نہیں کھاتا" کے جملہ کی وضاحت کرتا ہے: تلاوت کرنے والوں نے اس جملے کو پڑھنے میں اختلاف کیا کہ "میں قیامت کے دن کی قسم نہیں کھاتا"۔ مختلف خطوں میں اکثر قراء نے اسے "میں قسم نہیں کھاتا" کے طور پر پڑھا، "لا" کو "اقسم" سے الگ کیا گیا ہے، سوائے الحسن اور العرج کے، جن کے بارے میں بتایا گیا ہے کہ اسے "لا اقسمو با یومی القیامۃ" کے طور پر پڑھتے ہیں، یعنی میں قسم کھاتا ہوں قیامت کے دن، پھر اس کے ساتھ "لام" کا اضافہ کیا گیا۔ اس تناظر میں جس قراءت کو میں جائز سمجھتا ہوں وہ "لا" کو الگ کر کے "اقسم" کے ساتھ ایک نئی شق شروع کر رہا ہے، جیسا کہ بڑے قاریوں کا پڑھنا ہے، اس نکتے پر مستند قاریوں کا اتفاق ہے۔ جن لوگوں نے اسے اس انداز میں پڑھا جس طرح ہم نے اس کی تعبیر کا انتخاب کیا ہے ان کا اختلاف ہے۔ بعض نے کہا کہ "نہیں" فالتو ہے اور اس قول کا مفہوم یہ ہے کہ میں قیامت کے دن کی قسم کھاتا ہوں۔ اس عبارت میں قتادہ، الحسن، سعید بن جبیر، ابن جریج اور سفیان کے بیانات نقل کیے گئے ہیں۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=75&tAyahNo=2&tDisplay=yes&UserProfile=0&LanguageId=1

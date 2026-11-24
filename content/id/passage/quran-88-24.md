@@ -2,8 +2,8 @@
 id: passage/quran-88-24
 lang: id
 source_lang: ar
-translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-23), draft translation']
-provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-23, source: content/ar/passage/quran-88-24.md}
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-23), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-id-2026-11-24, source: content/ar/passage/quran-88-24.md}
 ---
 
 ## Ringkasan
@@ -11,3 +11,9 @@ Ayat 24 Surah [[passage/quran-88|Al-Ghashiyah]], yang merupakan surah Mekah. {ci
 
 ## Posisinya
 Lokasinya: Ayat 24 dari 26 dalam surat. Teks ini disimpan dari Mushaf Tazil al-Mujjad dan tidak ditulis ulang di sini.
+
+## Dalam Tafsir al-Tabari
+
+Al-Tabari membaca ayat dalam ayat 24-29 sebagai satu bagian. Ia menafsirkan kata-kata, “Maka ingatkanlah, wahai Muhammad, hamba-hamba-Ku tentang tanda-tanda-Ku, nasihatilah mereka dengan bukti-bukti-Ku, dan sampaikanlah pesan-Ku kepada mereka. ‘Karena engkau hanyalah pengingat’ artinya: Aku hanya mengutusmu kepada mereka sebagai pengingat, untuk mengingatkan mereka tentang nikmat-Ku kepada mereka, untuk membuat mereka menyadari apa yang dituntut dari mereka, dan untuk menasihati mereka.” Dan kata-kata, “Engkau bukanlah penguasa atas mereka,” artinya: Engkau bukanlah penguasa atas mereka, dan engkau bukanlah seorang tiran yang memaksa mereka untuk melakukan apa yang engkau kehendaki. Ia berfirman: Serahkanlah mereka kepada-Ku, serahkanlah mereka kepada-Ku dan keputusan-Ku atas mereka. Dikatakan: Si fulan telah menguasai kaumnya: ketika ia memiliki kekuasaan atas mereka. Dalam bagian ini, ia mengutip perkataan Ibnu Abbas, Mujahid, Qatadah, Ibnu Zayd, dan Sufyan.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=88&tAyahNo=24&tDisplay=yes&UserProfile=0&LanguageId=1

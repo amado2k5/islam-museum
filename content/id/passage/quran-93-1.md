@@ -2,8 +2,8 @@
 id: passage/quran-93-1
 lang: id
 source_lang: ar
-translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-23), draft translation']
-provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-23, source: content/ar/passage/quran-93-1.md}
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-23), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-id-2026-11-24, source: content/ar/passage/quran-93-1.md}
 ---
 
 ## Ringkasan
@@ -11,3 +11,9 @@ Ayat 1 Surah [[passage/quran-93|Ad-Duha]], yang merupakan surah Mekah. {cite:tan
 
 ## Posisinya
 Lokasinya: Ayat 1 dari 11 dalam surat. Teks ini disimpan dari Mushaf Tazil al-Mujjard dan tidak ditulis ulang di sini.
+
+## Dalam Tafsir al-Tabari
+
+Al-Tabari membaca ayat dalam ayat 1-8 sebagai satu bagian. Ia menjelaskan frasa “Demi terang fajar”: Tuhan kita, Maha Suci Dia, bersumpah demi terang fajar, yaitu sepanjang hari. Saya percaya itu berasal dari ungkapan, “Si fulan terkena sinar matahari,” artinya dia terlihat. Dari sinilah muncul ayat, “Dan kamu tidak akan haus di dalamnya dan tidak akan terkena terik matahari,” artinya matahari tidak akan membahayakan kamu di dalamnya. Saya telah menyebutkan berbagai interpretasi ulama mengenai maknanya dalam ayat, “Demi matahari dan terang fajarnya,” beserta interpretasi pilihan saya sendiri. Ada juga yang mengatakan bahwa itu merujuk pada waktu terang fajar. Dalam bagian ini, ia mengutip pernyataan dari Ibnu Abbas, Mujahid, Qatadah, Al-Hasan, Ibnu Zayd, dan Sufyan.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=93&tAyahNo=1&tDisplay=yes&UserProfile=0&LanguageId=1

@@ -2,8 +2,8 @@
 id: passage/quran-35-19
 lang: id
 source_lang: ar
-translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-23), draft translation']
-provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-23, source: content/ar/passage/quran-35-19.md}
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-23), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-id-2026-11-24, source: content/ar/passage/quran-35-19.md}
 ---
 
 ## Ringkasan
@@ -11,3 +11,7 @@ Ayat 19 [[passage/quran-35|Surah Fatir]], yang merupakan surah Mekah. {cite:tanz
 
 ## Posisinya
 Lokasinya: Ayat 19 dari 45 dalam surat. Teks ini disimpan dari Mushaf Tazil al-Mujmad dan tidak ditulis ulang di sini.
+
+## Dalam Tafsir al-Tabari
+
+Allah memberikan contoh untuk menggambarkan ketidaksetaraan antara orang buta dan orang yang melihat, kegelapan dan cahaya, naungan dan panas, serta orang hidup dan orang mati. At-Tabari menafsirkan orang buta sebagai orang yang buta terhadap agama Allah, orang yang melihat sebagai orang yang telah memperoleh petunjuk dan mengikuti Muhammad, dan orang hidup dan orang mati sebagai orang beriman dan orang kafir. Ia juga menyatakan bahwa Allah membuat siapa pun yang Dia kehendaki dapat mendengar, tetapi Nabi tidak dapat membuat orang-orang di dalam kubur mendengar; beliau hanyalah pemberi peringatan. Penafsiran ini umum untuk ayat 19-23. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=35&tAyahNo=19&tDisplay=yes&UserProfile=0&LanguageId=1

@@ -2,11 +2,17 @@
 id: passage/quran-25-20
 lang: fr
 source_lang: en
-translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
-provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate documents, managed by Claude Code)', model: google-translate, run: gt-docs-fr-2026-11-19, source: content/en/passage/quran-25-20.md}
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-fr-2026-11-24, source: content/ar/passage/quran-25-20.md}
 ---
 ## Résumé
 Verset 20 de [[passage/quran-25|la sourate al-Furqan]], une sourate mecquoise. {cite:tanzil-quran}
 
 ## Place dans le musée
 Il s'agit du verset 20 sur 77 dans la sourate. Le texte est conservé dans le mushaf Tanzil et n'est pas reproduit ici.
+
+## Dans le commentaire d'al-Tabari
+
+Sa déclaration : « Nous n'avons envoyé avant toi aucun messager qui ne se soit nourri et n'ait parcouru les marchés. Nous avons fait de certains d'entre vous une épreuve pour les autres. Aurez-vous patience ? Votre Seigneur est parfaitement Voyant. » Cette déclaration s'explique ainsi : Il s'agit d'un argument de Dieu, exalté soit-Il, adressé à Son Prophète contre les polythéistes de son peuple qui disaient : « Quel genre de messager est-ce là qui se nourrit et parcourt les marchés ? » et d'une réponse à leur apporter. Il, que Sa louange soit glorifiée, leur dit : « Ô Muhammad, qu'est-ce qui, chez ceux qui disent : « Quel genre de messager est-ce là qui se nourrit et parcourt les marchés ? », leur pose problème, alors que tu es un messager de Dieu ? Ils le savent. Nous n'avons envoyé avant toi aucun messager qui ne se soit nourri et n'ait parcouru les marchés, tout comme toi. Leurs propos sont donc sans fondement. » Ce passage cite également des paroles attribuées à al-Hasan.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=25&tAyahNo=20&tDisplay=yes&UserProfile=0&LanguageId=1

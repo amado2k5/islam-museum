@@ -2,11 +2,17 @@
 id: passage/quran-16-98
 lang: es
 source_lang: en
-translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
-provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate documents, managed by Claude Code)', model: google-translate, run: gt-docs-es-2026-11-19, source: content/en/passage/quran-16-98.md}
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-es-2026-11-24, source: content/ar/passage/quran-16-98.md}
 ---
 ## Resumen
 Versículo 98 de [[passage/quran-16|Surat an-Nahl]], una sura de La Meca. {cite:tanzil-quran}
 
 ## Lugar en el museo
 Su ubicación: versículo 98 de 128 versículos en la sura. El texto se conserva en el Mushaf congelado de Tanzil y no se reproduce aquí.
+
+## En el comentario de al-Tabari
+
+Al-Tabari interpreta los versículos 98 al 100 como una sola unidad. Interpreta la frase: «Así que, cuando recites el Corán, busca refugio en Alá del maldito Satanás», como: «Y si tú, oh Muhammad, estás recitando el Corán, entonces busca refugio en Alá del maldito Satanás». Algunos eruditos árabes afirmaron que se trataba de una frase cuyo significado debía entenderse como «y cuando busques refugio en Alá del maldito Satanás, entonces recita el Corán». Sin embargo, esta interpretación carece de fundamento, pues, de ser cierta, cada vez que alguien buscara refugio de Satanás, estaría obligado a recitar el Corán. Su significado, no obstante, es el que hemos descrito. Su afirmación, «Busca refugio en Alá del maldito Satanás», no es un mandato vinculante, sino una instrucción y una recomendación. No existe desacuerdo entre los eruditos en que quien recita el Corán sin buscar refugio en Alá del maldito Satanás, antes o después de recitarlo, no incumple un deber obligatorio. Ibn Zayd sostenía una opinión similar al respecto. El pasaje también cita declaraciones de Mujahid, Ibn Zayd, Ibn Jurayj, al-Rabi' y Sufyan.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=16&tAyahNo=98&tDisplay=yes&UserProfile=0&LanguageId=1

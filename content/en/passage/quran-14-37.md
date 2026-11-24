@@ -2,12 +2,8 @@
 id: passage/quran-14-37
 lang: en
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
-provenance:
-  generated_by: "Claude Code (Haiku 5.5 session)"
-  model: claude-haiku-5-5
-  run: altafsir-tabari-batch-1-2026-11-23
-  source: source/altafsir-tabari
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-en-2026-11-24, source: content/ar/passage/quran-14-37.md}
 ---
 ## Summary
 Verse 37 of [[passage/quran-14|Surat Ibrahim]], a Meccan surah. {cite:tanzil-quran}
@@ -17,6 +13,6 @@ Its place: verse 37 of 52 verses in the surah. The text is kept in the frozen Ta
 
 ## Al-Tabari's commentary
 
-Al-Tabari gives a long narration from Ibn Abbas through Sa'id ibn Jubayr. Hagar, the mother of Isma'il, ran between Safa and Marwa looking for water, and the spring of Zamzam then gushed out where the angel struck the ground with his foot. A caravan of Jurhum settled there, and Isma'il married among them. The narration reports a saying attributed to the Prophet about God's mercy on Umm Isma'il, and a later visit by Abraham, after which Isma'il divorced a wife whom Abraham had found harsh and married another.
+Al-Tabari narrates a long narration from Ibn Abbas via Sa'id ibn Jubayr: that Hagar, the mother of Ishmael, traveled between Safa and Marwah seeking water, then the Zamzam spring began when the king struck the ground with his foot. A caravan from Jurhum camped there, and Ismail married one of them. It is narrated from the Prophet a saying about God's mercy to Umm Ismail, and that Abraham visited his son later but did not find with him the woman he found rude, so Ismail divorced her and married another.
 
 {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=14&tAyahNo=37&tDisplay=yes&UserProfile=0&LanguageId=1

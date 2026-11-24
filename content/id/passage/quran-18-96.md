@@ -2,8 +2,8 @@
 id: passage/quran-18-96
 lang: id
 source_lang: ar
-translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-23), draft translation']
-provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-23, source: content/ar/passage/quran-18-96.md}
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-23), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-id-2026-11-24, source: content/ar/passage/quran-18-96.md}
 ---
 
 ## Ringkasan
@@ -11,3 +11,9 @@ Ayat 96 Surah [[passage/quran-18|Al-Kahf]], yang merupakan surah Mekah. {cite:ta
 
 ## Posisinya
 Lokasinya: Ayat 96 dari 110 ayat dalam surat. Teks ini disimpan dari Mushaf Tazl al-Mujjad dan tidak ditulis ulang di sini.
+
+## Dalam Tafsir al-Tabari
+
+Al-Tabari membaca ayat dalam ayat 96-97 sebagai satu bagian. Ia menafsirkan kata-kata, “Bawalah kepadaku potongan-potongan besi,” hingga, ketika ia telah meratakan kedua sisi gunung, ia berkata, “Tiup [dengan alat peniup api],” hingga, ketika ia telah menyalakan api, ia berkata, “Bawalah kepadaku tembaga [cair] untuk dituangkan di atasnya.” Ia berkata: Yang Maha Tinggi Dia, berfirman: Dzul-Qarnayn berkata kepada orang-orang yang memintanya untuk membangun penghalang antara mereka dan Gog dan Magog, “Bawalah kepadaku,” yang berarti, bawalah kepadaku potongan-potongan besi. Kata “potongan” di sini adalah bentuk jamak dari “potongan,” dan sepotong besi disebut “potongan.” Ia juga berkata: Mu’awiyah meriwayatkan kepadaku, dari Ali, dari Ibnu Abbas, mengenai frasa “potongan-potongan besi,” bahwa itu berarti potongan-potongan besi. Ayahku memberitahuku, katanya: Pamanku memberitahuku, katanya: Ayahku memberitahuku, berdasarkan riwayat ayahnya, berdasarkan riwayat Ibnu Abbas, mengenai ayat: “Bawalah kepadaku potongan-potongan besi,” katanya: potongan-potongan besi. Berdasarkan riwayat Ismail, berdasarkan riwayat Abu Salih, mengenai ayat: “Bawalah kepadaku potongan-potongan besi,” katanya: potongan-potongan besi. Dan Israel memberitahukan kepada kami, berdasarkan riwayat Abu Yahya, berdasarkan riwayat Mujahid, mengenai ayat: “Bawalah kepadaku potongan-potongan besi,” katanya: potongan-potongan besi. Dan berdasarkan riwayat Qatadah, mengenai “Bawalah kepadaku potongan-potongan besi,” katanya: maksudnya pemisahan hadits. Ma’mar memberitahukan kepada kami, berdasarkan riwayat Qatadah, mengenai ayat: “Bawalah kepadaku potongan-potongan besi,” katanya: potongan-potongan besi. Dan dalam bagian ini, pernyataan-pernyataan diriwayatkan dari Ibnu Abbas, Mujahid, Qatadah, Ibnu Jurayj, dan Ibrahim.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=18&tAyahNo=96&tDisplay=yes&UserProfile=0&LanguageId=1

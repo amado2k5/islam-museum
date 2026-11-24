@@ -2,10 +2,17 @@
 id: passage/quran-46-32
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-46-32.md}
 ---
 ## موجز
 الآية 32 من [[passage/quran-46|سورۃ الاحقاف]]، وہ مکی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 32، سورت کی کل 35 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+الطبری نے آیت 31 سے 32 کے اندر آیت کو ایک حصے کے طور پر پڑھا ہے۔ اس کا یہ بیان، "اور جو کوئی خدا کے پکارنے والے کی بات نہیں مانے گا وہ زمین پر اس سے بچ نہیں سکے گا، اور نہ ہی اس کے سوا اس کا کوئی محافظ ہوگا، یہ لوگ صریح گمراہی میں ہیں،" بیان کرتا ہے: خدا تعالیٰ ہمیں اس بات سے آگاہ کرتا ہے کہ ان لوگوں نے اپنی قوم سے کیا کہا: "جو شخص خدا کے رسول محمد اور اس کے پکارنے والے کی بات کا جواب نہیں دیتا ہے جس کی طرف وہ بلانے کے لئے بھیجا گیا تھا - زمین پر اس کی اطاعت سے بچنے والا نہیں ہے۔" اس کا مطلب ہے: وہ اپنے رب سے بھاگ کر نہیں بچ سکے گا، اگر وہ اسے اپنے پکارنے والے کے انکار اور اس پر ایمان چھوڑنے کی سزا دینا چاہے، چاہے وہ زمین پر بھاگ جائے، کیونکہ وہ جہاں بھی ہے، اس کی حکومت اور کنٹرول میں ہے۔ "اور نہ ہی اس کے سوا اس کا کوئی محافظ ہوگا۔" اس کا مطلب ہے: جو شخص خدا کے پکارنے والے کی بات کا جواب نہیں دیتا ہے اس کا اس کے سوا کوئی حمایتی نہیں ہوگا۔ اس کے رب کے مددگار ہیں جو اللہ کے مقابلے میں اس کی مدد کریں گے اگر اس کا رب اسے اس کے کفر اور اس کے پکارنے والے کے انکار کی سزا دے گا۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=46&tAyahNo=32&tDisplay=yes&UserProfile=0&LanguageId=1

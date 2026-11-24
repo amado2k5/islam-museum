@@ -2,10 +2,17 @@
 id: passage/quran-31-20
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-31-20.md}
 ---
 ## موجز
 الآية 20 من [[passage/quran-31|سورۃ لقمان]]، وہ مکی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 20، سورت کی کل 34 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+ان کا یہ فرمان کہ "کیا تم نہیں دیکھتے کہ اللہ نے جو کچھ آسمانوں اور زمین میں ہے تمہارے لیے مسخر کر دیا ہے اور تم پر اپنی ظاہری اور پوشیدہ نعمتیں نازل کر دی ہیں؟ اور لوگوں میں وہ لوگ ہیں جو بغیر علم و ہدایت اور روشن کتاب کے اللہ کے بارے میں جھگڑتے ہیں"، بیان کرتے ہیں: "اے لوگو، کیا تم نہیں دیکھتے کہ اللہ نے سورج اور ستاروں کو تمہارے لیے مسخر کر رکھا ہے، جیسے آسمانوں اور ستاروں میں۔ بادل، "اور جو کچھ زمین پر ہے،" جیسے جانور، درخت، پانی، سمندر، آسمانی اجسام، اور دیگر فوائد، یہ سب آپ کے فائدے اور بہبود کے لیے ہیں۔ آپ کے کھانے، رزق، رزق اور لذتوں کے لیے، آپ اس میں سے کچھ سے لطف اندوز ہوتے ہیں اور اس سے فائدہ اٹھاتے ہیں، "اور اس نے آپ پر ظاہر اور پوشیدہ نعمتیں عطا کی ہیں۔" تلاوت کرنے والوں نے اس آیت کے پڑھنے میں اختلاف کیا۔ بعض مکی اور اکثر کوفانی اسے "اور اس نے تم پر احسان کیا ہے" کے طور پر پڑھا، اور انہوں نے اس کے معنی اسلام سے تعبیر کیے، یا اس بات کی گواہی کے طور پر کہ خدا کے سوا کوئی معبود نہیں۔ اس عبارت میں ابن عباس، مجاہد، عکرمہ اور سفیان کے بیانات بھی نقل کیے گئے ہیں۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=31&tAyahNo=20&tDisplay=yes&UserProfile=0&LanguageId=1

@@ -2,10 +2,17 @@
 id: passage/quran-57-29
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-57-29.md}
 ---
 ## موجز
 الآية 29 من [[passage/quran-57|سورۃ الحدید]]، وہ مدنی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 29، سورت کی کل 29 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+اس کا بیان، "تاکہ اہل کتاب جان لیں کہ وہ خدا کے فضل میں سے کسی چیز کا اختیار نہیں رکھتے اور تمام فضل خدا کے ہاتھ میں ہے، وہ جسے چاہتا ہے عطا کرتا ہے اور خدا بڑے فضل کا مالک ہے،" اس بات کی وضاحت کرتا ہے کہ خدا اپنے اور محمد پر ایمان لانے والوں سے کہہ رہا ہے کہ تم لوگوں میں سے یہ کلام خداوندی میں سے ہے کہ تم لوگوں میں سے محمد پر ایسا کر رہے ہو۔ صحیفہ یہ جان سکتا ہے کہ وہ خدا کے فضل میں سے کسی چیز کا اختیار نہیں رکھتے جو اس نے آپ کو عطا کی ہے اور آپ کو مخصوص کیا ہے، کیونکہ وہ سمجھتے تھے کہ خدا نے ان کو تمام مخلوقات پر فضیلت دی ہے، اس لئے خدا نے ان کو بتایا کہ اس نے محمد کی امت کو وہ فضل اور عزت بخشی ہے جو اس نے انہیں نہیں دی تھی، اور یہ کہ اہل کتاب نے اس پر ایمان لایا تھا: اللہ سے ڈرو اور اس کے رسول پر ایمان لاؤ، وہ تمہیں اپنی رحمت کا دوہرا حصہ دے گا اور تمہارے لیے ایسا نور پیدا کرے گا جس پر تم چلو گے اور تمہیں بخش دے گا۔ اور خدا بخشنے والا مہربان ہے۔" پھر خدائے بزرگ و برتر نے فرمایا: میں نے یہ اس لیے کیا تاکہ اہل کتاب کو معلوم ہو جائے کہ ان کا خدا کے کسی فضل پر کوئی اختیار نہیں ہے۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=57&tAyahNo=29&tDisplay=yes&UserProfile=0&LanguageId=1

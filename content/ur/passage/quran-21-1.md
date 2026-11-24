@@ -2,10 +2,17 @@
 id: passage/quran-21-1
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-21-1.md}
 ---
 ## موجز
 الآية 1 من [[passage/quran-21|سورۃ الانبیاء]]، وہ مکی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 1، سورت کی کل 112 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+الطبری نے آیت 1 تا 2 کے اندر آیت کو ایک حصے کے طور پر پڑھا ہے۔ وہ اپنے اس قول کی وضاحت کرتا ہے، "انسانوں کا حساب قریب آ گیا ہے، جب کہ وہ غافل اور منہ پھیر رہے ہیں": بنی نوع انسان کا حساب قریب آ گیا ہے ان کے اعمال کا جو انہوں نے اپنی دنیوی زندگی میں کیے تھے اور ان نعمتوں کا جو اس نے ان کو ان کے جسموں، ان کے کھانے، ان کے پینے، ان کے لباس اور دیگر نعمتوں سے عطا کیے تھے جو ان کے ساتھ ان کے پاس تھیں، اور وہ اس سے پوچھیں گے کہ کیا انہوں نے ان کے ساتھ کیا کیا؟ ان سب میں اس کے حکم اور ممانعت کی پابندی کی، یا اس کی نافرمانی کی اور ان میں اس کے حکم کے خلاف چلے گئے؟ ’’اور وہ غافل اور منہ پھیر رہے ہیں۔‘‘ فرمایا: وہ اس دنیا میں اس بات سے غافل اور غافل ہیں کہ اللہ تعالیٰ قیامت کے دن ان کے ساتھ کیا کرے گا، اور ان کے ساتھ اپنے حساب کتاب کے قریب آنے سے، اور وہ اس سے غافل اور غافل ہیں، اور وہ اس سے منہ موڑ چکے ہیں، اس لیے انہوں نے اس کے بارے میں سوچنا اور اس کے لیے تیاری کرنا چھوڑ دیا ہے، اور اس وقت کی شدید جہالت اور اس وقت کی شدید جہالت کی وجہ سے وہ اس سے غافل ہیں۔ ہولناکیاں
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=21&tAyahNo=1&tDisplay=yes&UserProfile=0&LanguageId=1

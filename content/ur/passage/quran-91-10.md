@@ -2,10 +2,17 @@
 id: passage/quran-91-10
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-91-10.md}
 ---
 ## موجز
 الآية 10 من [[passage/quran-91|سورۃ الشمس]]، وہ مکی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 10، سورت کی کل 15 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+الطبری آیات 9 سے 15 تک کی آیت کو ایک اکائی کے طور پر پڑھتا ہے۔ وہ اس جملے کی تشریح کرتا ہے "اور جس نے اسے خراب کیا وہ ناکام ہو گیا" معنی کے طور پر: وہ اپنے تعاقب میں ناکام رہا ہے، وہ راستبازی حاصل نہیں کرسکا جس کی اس نے اپنے لیے تلاش اور خواہش کی تھی۔ "وہ جو اسے بگاڑتا ہے" کا مطلب ہے: وہ جس کے نفس کو خدا خراب کرتا ہے، بوجھ ڈالتا ہے اور اس میں کمی کرتا ہے، اسے ہدایت کی طرف چھوڑ دیتا ہے یہاں تک کہ وہ گناہ کرتا ہے اور خدا کی اطاعت کو چھوڑ دیتا ہے۔ یہ بھی کہا گیا ہے کہ "دساہ" "دساسہ" کی طرح ہے، جس کے "س" کے حروف میں سے ایک کو "ی" میں تبدیل کیا گیا ہے، جیسا کہ العجاج کے قول میں ہے: "جب فالکن ٹوٹتا ہے تو فالکن کا جھپٹنا،" معنی: "جھپٹنا۔" اور میں نے یہ معاملہ سوچا، یعنی: میں نے سوچا، اور عرب بہت زیادہ ایسا کرتے ہیں، اس لیے وہ دوگنا حرف کے بعض حروف کو بدل دیتے ہیں، کبھی ی، اور کبھی واؤ۔ اور اسی سے دوسرے کا قول ہے: وہ مجھے شاعری، ہر فن میں لے جاتا ہے، یہاں تک کہ وہ مجھ سے خیال کو دور کر دیتا ہے۔ اس کا مطلب ہے: خیال۔ اور اس نے ابن عباس، مجاہد، قتادہ، ابن زید اور سفیان کے اقوال نقل کیے ہیں۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=91&tAyahNo=10&tDisplay=yes&UserProfile=0&LanguageId=1

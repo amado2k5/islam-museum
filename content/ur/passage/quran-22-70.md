@@ -2,10 +2,17 @@
 id: passage/quran-22-70
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-22-70.md}
 ---
 ## موجز
 الآية 70 من [[passage/quran-22|سورۃ الحج]]، وہ مدنی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 70، سورت کی کل 78 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+اس کا یہ فرمان، "کیا تم نہیں جانتے کہ اللہ جانتا ہے جو کچھ آسمانوں اور زمین میں ہے؟ بے شک وہ ایک ریکارڈ میں ہے، بے شک یہ اللہ کے لیے آسان ہے،" کا مطلب ہے: اے محمد، کیا آپ نہیں جانتے کہ اللہ ساتوں آسمانوں اور ساتوں زمینوں میں سب کچھ جانتا ہے؟ اس سے کوئی چیز پوشیدہ نہیں ہے۔ وہ قیامت کے دن اپنی مخلوق کے درمیان فیصلہ کرے گا، یہ جانتے ہوئے کہ انہوں نے اس دنیا میں کیا کیا۔ وہ نیک لوگوں کو ان کے اچھے کاموں کا بدلہ دے گا اور بدکاروں کو ان کے برے کاموں کی سزا دے گا۔ "درحقیقت، یہ ایک ریکارڈ میں ہے" کا مطلب ہے کہ اس کا علم ایک کتاب میں ہے، کتاب کی ماں، جس میں ہمارے رب، اس کی تعریف بلند کرے، اس نے اپنی مخلوق کو تخلیق کرنے سے پہلے لکھا ہے کہ وہ قیامت تک موجود رہے گی۔ ’’بے شک یہ اللہ کے لیے آسان ہے۔‘‘ نیز: اوزاعی کی سند سے، عبدہ بن ابی لبابہ کی روایت سے، جنہوں نے کہا: خدا جانتا تھا کہ وہ کیا پیدا کرے گا اور اس کی مخلوق کیا کرے گی، پھر اس نے اسے لکھ دیا، پھر اس نے اپنے نبی سے کہا: "کیا تم نہیں جانتے کہ اللہ جانتا ہے جو کچھ آسمانوں اور زمین میں ہے، بے شک یہ اللہ کے لیے آسان ریکارڈ میں ہے۔" اس عبارت میں ابن عباس سے منسوب بیانات بھی شامل ہیں۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=22&tAyahNo=70&tDisplay=yes&UserProfile=0&LanguageId=1

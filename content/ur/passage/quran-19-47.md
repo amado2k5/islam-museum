@@ -2,10 +2,17 @@
 id: passage/quran-19-47
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-19-47.md}
 ---
 ## موجز
 الآية 47 من [[passage/quran-19|سورۃ مریم]]، وہ مکی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 47، سورت کی کل 98 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+الطبری نے آیات 47-48 کے اندر آیت کو ایک حصے کے طور پر پڑھا ہے۔ وہ اس الفاظ کی تشریح کرتا ہے، "اس نے کہا، 'السلام علیکم، میں اپنے رب سے آپ کے لیے معافی مانگوں گا، بے شک وہ ہمیشہ مجھ پر مہربان رہا ہے'": ابراہیم نے اپنے والد سے کہا جب بعد میں اسے نصیحت کرنے اور اسے خدا کی طرف بلانے پر سخت الفاظ اور سزا کی دھمکی دی: "السلام علیکم، میرے والد، میں آپ کو ناپسند کروں گا، "میں آپ کو ناپسند کروں گا، اور میں آپ کو اس بات کا اعادہ نہیں کروں گا"۔ جس چیز کی تم نے مجھے دھمکی دی ہے اس کی وجہ سے تمہیں عذاب نہ دوں لیکن میں تمہارے لیے اپنے رب سے معافی مانگوں گا، یعنی میں اپنے رب سے تمہارے گناہوں کو چھپانے کے لیے کہوں گا کہ وہ تمہیں معاف کر دے اور ان کی سزا نہ دے۔ اس کے بارے میں کہا جاتا ہے، ’’فلاں نے مجھ پر احسان کیا‘‘۔ میں پہلے بھی اس کی تائیدی شواہد کے ساتھ وضاحت کر چکا ہوں، جس کی وجہ سے اسے یہاں دہرانا غیر ضروری ہے۔ علمائے تفسیر نے کچھ ایسا ہی کہا جو ہم نے بیان کیا ہے۔ اس عبارت میں ابن عباس، ابن زید اور ابراہیم کے بیانات کا حوالہ دیا گیا ہے۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=19&tAyahNo=47&tDisplay=yes&UserProfile=0&LanguageId=1

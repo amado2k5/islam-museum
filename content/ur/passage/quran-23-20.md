@@ -2,10 +2,17 @@
 id: passage/quran-23-20
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-23-20.md}
 ---
 ## موجز
 الآية 20 من [[passage/quran-23|سورۃ المؤمنون]]، وہ مکی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 20، سورت کی کل 118 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+اس کا یہ قول کہ ’’اور ایک درخت جو کوہ سینا سے اگتا ہے جو کھانے والوں کے لیے تیل اور مسالہ پیدا کرتا ہے‘‘ کی وضاحت اس طرح کی گئی ہے: ’’اور ہم نے تمہارے لیے ایک درخت بھی پیدا کیا ہے جو کوہ سینا سے اگتا ہے۔‘‘ لفظ "درخت" الزامی صورت میں ہے، جو "باغوں" سے جڑا ہوا ہے اور زیتون کے درخت سے مراد ہے۔ اُس کے بیان، ’’جو کوہِ سینا سے اُگتا ہے،‘‘ کا مطلب ہے کہ یہ ایک پہاڑ سے اگتا ہے جو درخت پیدا کرتا ہے۔ میں پہلے ہی "ماؤنٹ" ⁦(یا "سینائی")⁩ کے معنی اس کے تائیدی شواہد اور مختلف تشریحات کے ساتھ بیان کر چکا ہوں، اس لیے اسے یہاں دہرانا غیر ضروری ہے۔ جہاں تک لفظ "سینائی" کا تعلق ہے، تلاوت کرنے والے اس کے تلفظ میں مختلف تھے۔ مدینہ اور بصرہ کے اکثر قراء نے اسے گناہ پر کسرہ کے ساتھ "سینائی" پڑھا ہے۔ کوفہ کے اکثر قراء نے اسے گناہ پر فتحہ کے ساتھ "سینائی" پڑھا ہے اور دونوں حرف کے لمبا ہونے پر متفق ہیں۔ اس معاملے میں صحیح قول یہ ہے کہ دونوں مختلف خطوں کے قراء کرام کے درمیان معروف قراءت ہیں جو ایک ہی معنی کو بیان کرتی ہیں۔ قاری جو بھی پڑھتا ہے وہ صحیح ہے۔ اس عبارت میں ابن عباس، مجاہد، ابن زید اور عطا سے منسوب بیانات بھی شامل ہیں۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=23&tAyahNo=20&tDisplay=yes&UserProfile=0&LanguageId=1

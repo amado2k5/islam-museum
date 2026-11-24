@@ -2,10 +2,17 @@
 id: passage/quran-44-15
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-44-15.md}
 ---
 ## موجز
 الآية 15 من [[passage/quran-44|سورۃ الدخان]]، وہ مکی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 15، سورت کی کل 59 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+الطبری نے آیت 13 سے 15 کے اندر آیت کو ایک حصے کے طور پر پڑھا ہے۔ وہ ان الفاظ کی تشریح کرتا ہے، "بے شک، ہم تھوڑی دیر کے لیے عذاب کو ہٹا دیں گے، لیکن تم ضرور کفر کی طرف پلٹ جاؤ گے": خدا تعالیٰ ان مشرکوں کے بارے میں فرماتا ہے، جن کے بارے میں اس نے ہمیں بتایا کہ وہ اترتے ہوئے دھوئیں اور ان پر پڑنے والی مصیبت سے اس کی مدد مانگ رہے ہیں، اور جن کے بارے میں اس نے ان کو بتایا کہ اگر وہ اس پر ایمان لے آتے تو وہ اس عذاب کو دور کر دیتے۔ ’’بے شک ہم عذاب کو ہٹا دیں گے‘‘ یعنی وہ نقصان جو ان پر پہنچا تھا، ’’تھوڑی دیر کے لیے، لیکن تم ضرور کفر کی طرف پلٹ جاؤ گے۔‘‘ وہ کہتا ہے: اے مشرک، اگر میں تم سے اس تکلیف کو دور کردوں جو تم پر پہنچی ہے تو تم ایمان کے بارے میں اپنے رب سے جو وعدہ اور عہد کیا تھا اسے پورا نہیں کرو گے، بلکہ تم اپنی گمراہی اور گمراہی کی طرف لوٹ جاؤ گے، جیسا کہ تم سے اس کے دور ہونے سے پہلے تھے۔ قتادہ نے کہا : اس کا معنی ہے : تم عذاب الٰہی کی طرف لوٹو گے ۔ اسے معمر نے اپنی سند سے روایت کیا ہے۔ اس عبارت میں ابن عباس، مجاہد، قتادہ اور ابن زید کے اقوال نقل کیے گئے ہیں۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=44&tAyahNo=15&tDisplay=yes&UserProfile=0&LanguageId=1

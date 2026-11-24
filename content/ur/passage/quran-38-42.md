@@ -2,10 +2,17 @@
 id: passage/quran-38-42
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-38-42.md}
 ---
 ## موجز
 الآية 42 من [[passage/quran-38|سورۃ ص]]، وہ مکی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 42، سورت کی کل 88 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+الطبری نے آیات 42 تا 43 کے اندر آیت کو ایک حصے کے طور پر پڑھا ہے۔ اس کا بیان، "اور ہمارے بندے ایوب کو یاد کرو، جب اس نے اپنے رب کو پکارا، 'بے شک، شیطان نے مجھے سختی اور تکلیف میں مبتلا کیا ہے'،" اس طرح بیان کیا گیا ہے: "اور یاد رکھو، اے محمد، ہمارے بندے ایوب، جب اس نے اپنے رب کو پکارا، اس مصیبت میں اس سے مدد طلب کی: "اے رب، شیطان نے مجھ پر سخت مصیبت ڈالی ہے۔" تلاوت کرنے والوں کا لفظ "مشکل" پڑھنے میں اختلاف تھا۔ ابو جعفر القاری کے علاوہ مختلف خطوں میں زیادہ تر قراء نے اسے "مشکل کے ساتھ" کے طور پر پڑھا ہے جس میں راہبہ پر دمہ اور غمگین پر سکن ہے۔ ابو جعفر نے اسے راہبہ اور غمگین دونوں پر دم کے ساتھ پڑھا۔ یہ بھی بتایا گیا ہے کہ اس نے اسے نون اور غم دونوں پر فاتحہ کے ساتھ پڑھا۔ "مشکلات" اور "مصیبت" "دکھ" کے مترادف ہیں۔ اور غم، اور کمی، اور رہنمائی، اور استحکام. الفارع کہتے ہیں: اگر پہلے حرف کو دَمّہ دیا جائے تو وہ بھاری نہیں ہے، کیونکہ انہوں نے اسے دو صورتوں میں بنا دیا، اگر پہلے حرف کو فتحہ دیا تو اسے بھاری کر دیا، اور اگر پہلے حرف کو دَمّہ دیا تو اسے ہلکا کر دیا۔ اور حصہ میں قتادہ اور ضحاک کے اقوال نقل کیے ہیں۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=38&tAyahNo=42&tDisplay=yes&UserProfile=0&LanguageId=1

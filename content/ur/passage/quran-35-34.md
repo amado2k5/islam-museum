@@ -2,10 +2,17 @@
 id: passage/quran-35-34
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-35-34.md}
 ---
 ## موجز
 الآية 34 من [[passage/quran-35|سورۃ فاطر]]، وہ مکی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 34، سورت کی کل 45 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+الطبری نے آیات 34 تا 35 کے اندر آیت کو ایک حصے کے طور پر پڑھا ہے۔ وہ اپنے اس قول کی وضاحت کرتا ہے: "ہمیشہ رہنے کے باغات جن میں وہ داخل ہوں گے، جن میں وہ سونے اور موتیوں کے کنگنوں سے آراستہ ہوں گے، اور وہاں ان کے لباس ریشم کے ہوں گے": ہمیشہ رہنے کے باغات جن کو ہم نے کتاب وراثت میں دی ہے، جن کو ہم نے اپنے بندوں میں سے چنا ہے، وہ قیامت کے دن اس جگہ داخل ہوں گے جہاں وہ داخل ہوں گے۔ سونے کے کنگن" وہ ہمیشہ رہنے والے باغوں میں سونے کے کنگن پہنیں گے، "اور موتی، اور وہاں ان کے لباس ریشم کے ہوں گے،" وہ کہتا ہے: اور جنت میں ان کے لباس ریشم کے ہوں گے۔ اور اس کا یہ قول، ’’اور وہ کہیں گے کہ اللہ کا شکر ہے جس نے ہم سے [سب] غم دور کر دیے ہیں،‘‘ علمائے تفسیر نے اس غم کے بارے میں اختلاف کیا جس کے لیے ان لوگوں نے اللہ کی حمد و ثنا کی تھی کہ اس کو ان سے دور کیا۔ بعض نے کہا کہ یہ وہ دکھ تھا جو انہوں نے جنت میں داخل ہونے سے پہلے محسوس کیا تھا، جہنم کے خوف کی وجہ سے، کیونکہ وہ اس میں داخل ہونے سے ڈرتے تھے۔ اس عبارت میں ابن عباس، قتادہ، الحسن، العمش اور عطیہ کے اقوال نقل کیے گئے ہیں۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=35&tAyahNo=34&tDisplay=yes&UserProfile=0&LanguageId=1

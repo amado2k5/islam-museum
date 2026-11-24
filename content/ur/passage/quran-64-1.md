@@ -2,10 +2,17 @@
 id: passage/quran-64-1
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-64-1.md}
 ---
 ## موجز
 الآية 1 من [[passage/quran-64|سورۃ التغابن]]، وہ مدنی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 1، سورت کی کل 18 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+اس کے اس قول کہ "جو کچھ آسمانوں میں ہے اور جو کچھ زمین پر ہے اللہ کی تسبیح کرتا ہے، بادشاہی اسی کی ہے اور اسی کی حمد ہے، اور وہ ہر چیز پر قادر ہے" کا مطلب ہے کہ جو کچھ ساتوں آسمانوں اور زمین پر اس کی مخلوقات میں ہے سب اسی کو سجدہ کرتے ہیں اور اس کی تسبیح کرتے ہیں۔ اور اُس کے اس قول کا کہ ’’ بادشاہی اُسی کی ہے‘‘ کا مطلب یہ ہے کہ وہ آسمانوں اور زمین کی بادشاہی کا مالک ہے اور اس کا اختیار مطلق ہے اور اس کا حکم نافذ ہے۔ اور اس کے اس قول: "اور اسی کے لیے تمام تعریفیں ہیں" کا مطلب ہے: اس کے لیے تمام تعریفیں ہیں جو مخلوقات میں ہے، اس لیے کہ تمام مخلوقات اس کے سوا خیر نہیں جانتی، اور اس کے سوا ان کا کوئی رازق نہیں، اس لیے ان سب کی تعریف اسی کے لیے ہے۔ ’’اور وہ ہر چیز پر قادر ہے‘‘ کا مطلب ہے: وہ ہر چیز پر قادر ہے، وہ کہتا ہے: وہ جو چاہتا ہے پیدا کرتا ہے، جسے چاہتا ہے موت دیتا ہے، جسے چاہتا ہے غنی کر دیتا ہے، جسے چاہتا ہے غریب کر دیتا ہے، جسے چاہتا ہے عزت دیتا ہے، اور جسے چاہتا ہے ذلت دیتا ہے۔ اس کے لیے کوئی بھی چیز ناممکن نہیں ہے کیونکہ وہ کامل قدرت والا ہے جس کے ساتھ اس کے لیے کچھ بھی ناممکن نہیں ہے۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=64&tAyahNo=1&tDisplay=yes&UserProfile=0&LanguageId=1

@@ -2,10 +2,17 @@
 id: passage/quran-50-40
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-50-40.md}
 ---
 ## موجز
 الآية 40 من [[passage/quran-50|سورۃ ق]]، وہ مکی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 40، سورت کی کل 45 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+الطبری آیات 40-41 کے اندر آیت کو ایک اکائی کے طور پر پڑھتا ہے۔ وہ ان الفاظ کی تشریح کرتا ہے، "پس صبر کرو ان کی باتوں پر اور سورج نکلنے سے پہلے اور غروب ہونے سے پہلے اپنے رب کی حمد کے ساتھ تسبیح کرو": "اے محمد، صبر کرو ان باتوں پر جو یہ یہودی کہتے ہیں اور اللہ پر جھوٹ باندھتے ہیں، کیونکہ اللہ ان پر ہمیشہ نگہبان ہے۔" اور طلوع آفتاب سے پہلے اپنے رب کی تسبیح کرو۔ طلوع آفتاب اور غروب آفتاب سے پہلے عصر کی نماز، اپنے رب کی حمد کے ساتھ۔ اسی طرح قتادہ نے کہا: "اور سورج نکلنے سے پہلے اپنے رب کی حمد کے ساتھ تسبیح کرو" سے مراد فجر کی نماز ہے اور "اس کے غروب ہونے سے پہلے" سے مراد عصر کی نماز ہے۔ ابن زید نے اس آیت کے بارے میں کہا: "اور اپنے رب کی تسبیح کرو سورج کے نکلنے سے پہلے اور اس کے غروب ہونے سے پہلے" کہ "سورج کے نکلنے سے پہلے" سے مراد صبح کی نماز ہے اور "ڈوبنے سے پہلے" سے مراد عصر کی نماز ہے۔ آیت "اور رات میں اس کی تسبیح کرو" کے بارے میں علمائے تفسیر کا رات کے وقت تسبیح کا حکم دینے پر اختلاف ہے۔ بعض نے کہا کہ اس سے مراد رات کی نماز ⁦(عشاء)⁩ ہے۔ اس کے بعد آیت میں مجاہد، قتادہ اور ابن زید کے اقوال نقل کیے گئے ہیں۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=50&tAyahNo=40&tDisplay=yes&UserProfile=0&LanguageId=1

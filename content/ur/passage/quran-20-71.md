@@ -2,10 +2,17 @@
 id: passage/quran-20-71
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-20-71.md}
 ---
 ## موجز
 الآية 71 من [[passage/quran-20|سورۃ طٰہ]]، وہ مکی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 71، سورت کی کل 135 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+الطبری نے آیت 71 تا 72 کے اندر آیت کو ایک حصے کے طور پر پڑھا ہے۔ وہ اپنے اس قول کی وضاحت کرتا ہے: "تو جادوگر سجدے میں گر پڑے، انہوں نے کہا کہ ہم ہارون اور موسیٰ کے رب پر ایمان لے آئے ہیں": اس بیان میں ایک بھول ہے جو چھوڑی ہوئی چیز سے سمجھ میں آتی ہے: تو موسیٰ نے اپنا عصا گرا دیا، اور اس نے جو کچھ بنایا تھا اسے نگل گیا۔ "تو جادوگر سجدے میں گر پڑے، انہوں نے کہا کہ ہم ہارون اور موسیٰ کے رب پر ایمان لے آئے ہیں" اور اس نے ذکر کیا کہ جب موسیٰ نے جو کچھ ان کے ہاتھ میں تھا اسے نیچے پھینکا تو وہ سانپ بن گیا اور وہ سب کچھ نگل گیا جو جادوگروں نے رسیوں اور لاٹھیوں سے گرایا تھا۔ یہ کہنے والے کی روایت یہ ہے: جعفر کی سند سے، سعید کی سند سے، انہوں نے کہا: جب انہوں نے جادو کو جمع کیا اور پھینک دیا تو ان کے جادو سے یہ معلوم ہوا کہ وہ حرکت کر رہا ہے، اور موسیٰ نے اپنے اندر خوف محسوس کیا، اور ہم نے کہا: جو نیچے پھینکا گیا ہے، ہم نے کہا، وہ نیچے نہیں ہے۔ تیرا داہنا ہاتھ اُس چیز کو نگل جائے گا جو اُنہوں نے بنایا ہے۔‘‘ چنانچہ اُس نے اپنا عصا نیچے پھینکا تو وہ ایک کھلا ہوا سانپ تھا۔ اس عبارت میں ابن اسحاق سے منسوب بیانات بھی شامل ہیں۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=20&tAyahNo=71&tDisplay=yes&UserProfile=0&LanguageId=1

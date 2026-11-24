@@ -2,10 +2,17 @@
 id: passage/quran-16-4
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-16-4.md}
 ---
 ## موجز
 الآية 4 من [[passage/quran-16|سورۃ النحل]]، وہ مکی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 4، سورت کی کل 128 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+اس کا یہ بیان، "اس نے انسان کو نطفہ سے پیدا کیا، اور پھر وہ کھلا مخالف ہے،" وضاحت کرتا ہے: اے لوگو، تمہارے خلاف اس کی دلیلوں میں سے ایک یہ ہے کہ اس نے انسان کو نطفے سے پیدا کیا، ایک حقیر رطوبت سے ایک حیرت انگیز تخلیق پیدا کی۔ اس نے اسے تبدیل کیا، اسے اندھیرے کی تین تہوں میں بار بار پیدا کیا، پھر اس کی تخلیق مکمل ہونے کے بعد اسے اس دنیا کی روشنی میں لایا اور اس میں زندگی پھونک دی۔ اس کی پرورش کی، اسے رزق دیا، اور اس کی پرورش کی یہاں تک کہ وہ بالغ ہو گیا۔ پھر اس نے اپنے رب کی نعمت کا انکار کیا، اس کے رب کا انکار کیا اور اس چیز کی عبادت کی جو نہ نقصان پہنچا سکتی ہے اور نہ فائدہ۔ اُس نے اپنے خُدا سے بحث کرتے ہوئے کہا، ’’ہڈیوں کو کون زندہ کرے گا جب وہ گل جائیں گی؟‘‘ وہ اُس کو بھول گیا جس نے اُسے پیدا کیا اور ایک حقیر سیال سے اُسے کامل شکل میں ڈھالا۔ "کھلے مخالف" سے اس کا مطلب ہے کہ وہ اپنے دلائل کو اپنی منطق سے واضح کرتا ہے اور اپنی زبان سے بحث کرتا ہے۔ یہ اس کی واضح دلیل ہے۔ "انسان" سے اس کا مطلب پوری انسانیت ہے، واحد شکل کا استعمال کرتے ہوئے سب کو گھیرے میں لے لیا ہے۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=16&tAyahNo=4&tDisplay=yes&UserProfile=0&LanguageId=1

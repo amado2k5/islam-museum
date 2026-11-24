@@ -2,10 +2,17 @@
 id: passage/quran-23-88
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-23-88.md}
 ---
 ## موجز
 الآية 88 من [[passage/quran-23|سورۃ المؤمنون]]، وہ مکی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 88، سورت کی کل 118 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+الطبری نے آیات 88-89 کے اندر آیت کو ایک حصے کے طور پر پڑھا ہے۔ وہ اس الفاظ کی تشریح کرتا ہے، ’’کہو، 'ہر چیز کی بادشاہت کس کے ہاتھ میں ہے، اور وہ حفاظت کرتا ہے، جب کہ اس سے کوئی حفاظت نہیں کرسکتا، اگر تم جانو؟‘‘ اس طرح: اے محمد کہو، ’’ہر چیز کے خزانے کس کے ہاتھ میں ہیں؟‘‘ انہوں نے ابن ابی نجیح کا بھی حوالہ دیا ہے، مجاہد کی سند سے، خدا کے اس قول، "ہر چیز پر غلبہ" کے معنی ہر چیز کے خزانے کے بارے میں۔ وہ حجاج کا مزید حوالہ دیتے ہوئے، مجاہد کی سند سے، خدا کے اس قول کے بارے میں کہ: ’’کہہ دو کہ ہر چیز کی بادشاہی کس کے ہاتھ میں ہے؟‘‘ کے معنی ہر چیز کے خزانے ہیں۔ اور اس جملے کے بارے میں، "اور وہ حفاظت کرتا ہے،" وہ وضاحت کرتا ہے کہ اس سے مراد وہ ہے جو کسی کے خلاف نقصان کا ارادہ رکھتا ہے۔ "جب کہ اس کے خلاف کوئی نہیں بچا سکتا،" وہ کہتا ہے، "کوئی بھی کسی کو نقصان پہنچانے سے نہیں روک سکتا اور اس طرح اس کے عذاب اور عذاب کو ٹال سکتا ہے۔" اگر تم اس صفت کو جانتے ہو تو کہتے ہیں: ہر چیز پر غلبہ اور ہر چیز پر قدرت خدا کی ہے۔ اس عبارت میں ابن عباس اور مجاہد کے بیانات بھی نقل کیے گئے ہیں۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=23&tAyahNo=88&tDisplay=yes&UserProfile=0&LanguageId=1

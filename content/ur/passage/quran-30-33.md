@@ -2,10 +2,17 @@
 id: passage/quran-30-33
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-30-33.md}
 ---
 ## موجز
 الآية 33 من [[passage/quran-30|سورۃ الروم]]، وہ مکی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 33، سورت کی کل 60 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+اس کا بیان ہے کہ "اور جب لوگوں کو کوئی تکلیف پہنچتی ہے تو وہ اپنے رب کو پکارتے ہیں، اس کی طرف رجوع کرتے ہوئے، پھر جب وہ انہیں اپنی رحمت کا مزہ چکھنے دیتا ہے، تو ان میں سے ایک جماعت اپنے رب کے ساتھ شرک کرنے لگتی ہے،" بیان کرتے ہیں: جب ان مشرکوں کو تکلیف پہنچتی ہے جو خدا کے ساتھ دوسرے معبودوں کو شریک ٹھہراتے ہیں، جیسے کہ سختی، قحط اور قحط اپنے رب کو پکارتے ہیں۔ اس کا مطلب ہے کہ وہ خلوص دل سے اپنی توحید کا اقرار کرتے ہیں، اپنی دعا اور التجا کو صرف اسی کے لیے وقف کرتے ہیں، اس سے مدد چاہتے ہیں اور اپنے شرک اور کفر سے توبہ کرتے ہوئے اس کی طرف رجوع کرتے ہیں۔ ’’پھر جب وہ انہیں اپنی رحمت کا مزہ چکھنے دیتا ہے،‘‘ یعنی جب ان کا رب، وہ ان سے اس تکلیف کو دور کرتا ہے، ان کو اس سے دور کرتا ہے، اور انہیں خوشحالی، فراوانی اور فراوانی عطا کرتا ہے، ’’ان میں سے ایک جماعت یکایک اپنے رب کے ساتھ شرک کرتی ہے۔‘‘ ’’ان میں سے،‘‘ وہ کہتا ہے: اگر ان میں سے کوئی گروہ اپنے رب کے ساتھ کسی کو شریک ٹھہرائے تو وہ کہتا ہے: وہ اس کے ساتھ معبودوں اور بتوں کی پرستش کرتے ہیں۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=30&tAyahNo=33&tDisplay=yes&UserProfile=0&LanguageId=1

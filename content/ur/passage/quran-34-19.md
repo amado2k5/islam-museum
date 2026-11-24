@@ -2,10 +2,17 @@
 id: passage/quran-34-19
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-34-19.md}
 ---
 ## موجز
 الآية 19 من [[passage/quran-34|سورۃ سبا]]، وہ مکی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 19، سورت کی کل 54 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+اس کا یہ قول، "تو انہوں نے کہا اے ہمارے رب، ہمارے سفر کی مسافتیں بڑھا دے، اور انہوں نے اپنی جانوں پر ظلم کیا، تو ہم نے ان کو کہانیاں بنا دیں اور انہیں ہر ممکن طریقے سے منتشر کر دیا، یقیناً اس میں ہر صبر کرنے والے، شکر گزار کے لیے نشانیاں ہیں،" اس بات کی وضاحت ہے کہ تلاوت کرنے والوں نے اس کے اس قول کو پڑھنے میں اختلاف کیا کہ "اے ہمارے رب، ہمارے سفر کی مسافتیں بڑھا دے"۔ مدینہ اور کوفہ کے اکثر قاری اسے الف کے ساتھ دعا اور درخواست کے طور پر پڑھتے ہیں، "اے ہمارے رب، ہمارے سفر کی مسافتیں بڑھا دے"۔ مکہ اور بصرہ کے بعض لوگ اسے "طویل کر دیں" کے حرف 'عین دوگنا' کے ساتھ دعا کے طور پر بھی پڑھتے ہیں۔ یہ اطلاع دی گئی ہے کہ ابتدائی تلاوت کرنے والوں میں سے کچھ نے اسے اس طرح پڑھا، "ہمارے رب نے ہمارے سفر کے درمیان فاصلہ بڑھا دیا ہے،" خدا کے بیان کے طور پر کہ اس نے ان کے ساتھ یہ کیا ہے۔ ایک اور قاری نے اسے اس طرح پڑھا، "ہمارے رب نے لمبا کر دیا ہے،" بھی ایک بیان کے طور پر، سوائے اس کے کہ "رب" پکارنے والا ہے۔ اس عبارت میں ابن عباس، قتادہ اور ابن زید سے منسوب بیانات بھی شامل ہیں۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=34&tAyahNo=19&tDisplay=yes&UserProfile=0&LanguageId=1

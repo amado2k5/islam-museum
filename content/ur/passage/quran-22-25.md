@@ -2,10 +2,17 @@
 id: passage/quran-22-25
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-22-25.md}
 ---
 ## موجز
 الآية 25 من [[passage/quran-22|سورۃ الحج]]، وہ مدنی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 25، سورت کی کل 78 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+اس کا فرمان ہے: "بے شک وہ لوگ جنہوں نے کفر کیا اور [لوگوں کو] اللہ کے راستے سے اور مسجد حرام سے روکا جسے ہم نے تمام لوگوں کے لیے بنایا، خواہ اس میں رہنے والے ہوں یا آنے والے، اور جو کوئی اس میں انحراف یا ظلم کا ارادہ کرے گا، ہم اسے اللہ کے عذاب کا مزہ چکھائیں گے۔ رسول، اور جو کچھ وہ اپنے رب کی طرف سے لائے ہیں اس کا انکار کرتے ہیں، "اور [لوگوں کو] اللہ کے راستے سے روکتے ہیں" یعنی وہ لوگوں کو اللہ کے دین اور مسجد حرام میں داخل ہونے سے روکتے ہیں، جسے اللہ نے ان تمام لوگوں کے لیے بنایا ہے جو اس پر ایمان رکھتے ہیں، بغیر کسی گروہ کو دوسرے پر "برابر"۔ ’’مقیم اور ملاقاتی‘‘ کا مطلب یہ ہے کہ جو مسجد حرام کی حرمت کا احترام کرنے میں اعتدال رکھتا ہے، وہاں اپنی عبادات ادا کرتا ہے، اور جہاں چاہے قیام کرتا ہے وہ مقیم ہے ⁦(یعنی وہاں رہنے والا)⁩ اور آنے والا ⁦(یعنی دوسری جگہ سے آنے والا)⁩۔ علمائے تفسیر کا اس کی وضاحت میں اختلاف ہے۔ بعض نے کہا کہ اس کا مطلب ہے کہ رہنے والا اور آنے والا دونوں برابر ہیں کہ وہاں ٹھہرنے کا دوسرے سے زیادہ حق نہیں ہے۔ اس عبارت میں ابن عباس، مجاہد، قتادہ اور ابن زید کے اقوال نقل کیے گئے ہیں۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=22&tAyahNo=25&tDisplay=yes&UserProfile=0&LanguageId=1

@@ -2,10 +2,17 @@
 id: passage/quran-16-13
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-16-13.md}
 ---
 ## موجز
 الآية 13 من [[passage/quran-16|سورۃ النحل]]، وہ مکی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 13، سورت کی کل 128 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+اس کا بیان، "اور جو کچھ اس نے تمہارے لیے زمین پر مختلف رنگوں کے پیدا کیا ہے، یقیناً اس میں یاد رکھنے والوں کے لیے نشانی ہے" یعنی اس کی حمد بلند ہو، کہ اس نے تمہارے لیے پیدا کیا ہے اور جو کچھ اس نے پیدا کیا ہے اسے تمہارے لیے مسخر کر دیا ہے: یعنی اس نے تمہارے لیے زمین پر مختلف رنگوں کے جانور اور پھل پیدا کیے ہیں۔ جیسا کہ قتادہ نے اپنے اس قول کے بارے میں کہا ہے کہ "اور جو اس نے تمہارے لیے زمین پر پیدا کیا ہے،" اس کا مطلب ہے: اس نے تمہارے لیے مختلف رنگوں جیسے جانور، درخت اور پھل پیدا کیے ہیں، یہ اللہ کی طرف سے کھلی ہوئی نعمتیں ہیں، اس لیے ان پر اس کا شکر ادا کرو۔ لفظ "مختلف" الزامی کیس میں ہے کیونکہ "کیا" الزامی کیس میں ہے، جیسا کہ وضاحت کی گئی ہے۔ اگر ایسا ہے تو، پھر "اس کے رنگوں میں مختلف" لازمی طور پر "کیا" کا ایک حالاتی کوالیفائر ہونا چاہئے اور اس کے بغیر پیش گوئی مکمل ہے۔ اگر الزام لگانے والے کیس میں "کیا" نہیں ہوتا، اور جملہ "جو اس نے آپ کے لیے بنایا ہے" سے شروع ہوتا ہے، تو "مختلف" صرف نامزد صورت میں ہوگا، کیونکہ یہ تب "کیا" کا موضوع ہوگا۔ اس عبارت میں قتادہ سے منسوب بیانات کا بھی حوالہ دیا گیا ہے۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=16&tAyahNo=13&tDisplay=yes&UserProfile=0&LanguageId=1

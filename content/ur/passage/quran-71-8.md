@@ -2,10 +2,17 @@
 id: passage/quran-71-8
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-71-8.md}
 ---
 ## موجز
 الآية 8 من [[passage/quran-71|سورۃ نوح]]، وہ مکی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 8، سورت کی کل 28 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+الطبری آیات 8 تا 11 کے اندر آیت کو ایک حصے کے طور پر پڑھتا ہے۔ وہ اپنے اس قول کی تشریح کرتا ہے، "پھر میں نے انہیں کھلم کھلا بلایا،" کے معنی ہیں: "پھر میں نے انہیں بلایا" جس کا تو نے مجھے حکم دیا تھا کہ میں انہیں کھلے اور کھلے طور پر، بغیر رازداری کے بلاؤں۔ اور ابن ابی نجیح سے، مجاہد کی سند سے، ان کے اس قول کے بارے میں کہ "پھر میں نے انہیں کھلم کھلا بلایا،" انہوں نے کہا: "کھلم کھلا" کا مطلب ہے کھلے عام بات کرنا۔ اور اس کے کہنے کا، "پھر میں نے ان کے سامنے اعلان کیا اور ان پر اعتماد کیا،" کا مطلب ہے: میں نے ان کو آواز دی اور وہ اعلان کیا جس کا تو نے مجھے حکم دیا تھا کہ میں ان کو متنبہ کروں۔ اور ابن ابی نجیح سے، مجاہد کی سند سے، ان کے اس قول کے بارے میں کہ "اور میں نے ان کو اعلان کیا،" انہوں نے کہا: "میں نے چیخا۔ سفیان کی روایت سے، مجاہد کی سند سے، "میں نے ان سے اعلان کیا"، اس نے کہا: "میں نے انہیں پکارا۔" اس کے بیان، "اور میں نے خفیہ طور پر ان پر اعتماد کیا،" کا مطلب ہے: میں نے اپنے اور ان کے درمیان یہ بات ان کے سامنے رازداری سے بتائی۔ اس حوالے سے مجاہد اور سفیان کے بیانات بھی نقل کیے گئے ہیں۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=71&tAyahNo=8&tDisplay=yes&UserProfile=0&LanguageId=1

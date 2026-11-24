@@ -2,10 +2,17 @@
 id: passage/quran-23-24
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-23-24.md}
 ---
 ## موجز
 الآية 24 من [[passage/quran-23|سورۃ المؤمنون]]، وہ مکی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 24، سورت کی کل 118 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+وہ اپنے بیان کی وضاحت کرتے ہیں: "پھر ان کی قوم کے کافر سرداروں نے کہا، 'یہ کچھ نہیں ہے مگر آپ جیسا ایک انسان جو تم پر فضیلت حاصل کرنا چاہتا ہے، اگر اللہ چاہتا تو فرشتے بھیج دیتا، ہم نے اپنے آباء و اجداد میں ایسا کبھی نہیں سنا۔'" تو قوم نوح کے سرداروں کے گروہ نے، جنہوں نے ان کی قوم کا انکار کیا، کہا، اے اللہ کی قوم کا انکار نہیں کیا، اور کہا: آپ جیسے انسان کے سوا کچھ نہیں۔ وہ صرف آپ جیسا اور آپ میں سے کچھ جیسا انسان ہے۔ ’’وہ تم پر فضیلت حاصل کرنا چاہتا ہے‘‘ یعنی: وہ چاہتا ہے کہ تم پر فضیلت حاصل کرے، تاکہ اس کی پیروی کی جائے اور تم اس کے پیروکار ہو۔ ’’اور اگر خدا چاہتا تو فرشتوں کو اتارتا‘‘۔ اس کا مطلب یہ ہے کہ اگر خدا چاہتا کہ ہم اس کے سوا کسی کی عبادت نہ کریں تو وہ فرشتے بھیجتا۔ اس کا مطلب ہے: اس نے فرشتے بھیجے ہوں گے جو پیغام پہنچانے کے لیے نوح تمہیں بلا رہا تھا۔ اور اس کا بیان، "ہم نے اس کے بارے میں نہیں سنا،" اس بات کی طرف اشارہ کرتا ہے جس کی طرف نوح ہمیں بلا رہا تھا - کہ خدا کے علاوہ ہمارے لیے کوئی معبود نہیں ہے - پچھلی نسلوں میں اپنے آباؤ اجداد کا حوالہ دیتے ہوئے
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=23&tAyahNo=24&tDisplay=yes&UserProfile=0&LanguageId=1

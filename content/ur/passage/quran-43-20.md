@@ -2,10 +2,17 @@
 id: passage/quran-43-20
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-43-20.md}
 ---
 ## موجز
 الآية 20 من [[passage/quran-43|سورۃ الزخرف]]، وہ مکی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 20، سورت کی کل 89 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+الطبری نے آیت 20 سے 21 کے اندر آیت کو ایک حصے کے طور پر پڑھا ہے۔ وہ اپنے اس قول کی وضاحت کرتا ہے، "اور وہ کہتے ہیں کہ اگر رحمٰن چاہتا تو ہم ان کی عبادت نہ کرتے، انہیں اس کا کوئی علم نہیں، وہ صرف گمان کر رہے ہیں۔" قریش کے ان مشرکین نے کہا: اگر رحمٰن چاہتا تو ہم اپنے ان بتوں کی پوجا نہ کرتے جن کی ہم اس کے سوا عبادت کرتے ہیں اور اس نے ہمیں ان کی عبادت کی وجہ سے عذاب نہیں دیا کیونکہ وہ ہم سے ان کی عبادت پر راضی تھا۔ نیز: ابن ابی نجیح کی روایت سے، مجاہد کی سند سے، اس آیت کے بارے میں کہ ’’اگر رحمٰن چاہتا تو ہم ان کی عبادت نہ کرتے‘‘ ⁦(بتوں کی طرف اشارہ کرتے ہوئے)⁩ اللہ تعالیٰ فرماتا ہے: ’’انہیں اس کا کوئی علم نہیں۔ وہ کہتا ہے: وہ جو کچھ کہتے ہیں اس کی حقیقت کا انہیں علم نہیں۔ بلکہ وہ یہ گمان اور جھوٹ پر کہتے ہیں، کیونکہ ان کے پاس اس کی کوئی خبر نہیں ہے اور نہ ہی کوئی دلیل ہے۔ وہ صرف قیاس اور قیاس کی بنیاد پر کہتے ہیں۔ ’’وہ صرف اندازہ لگا رہے ہیں۔‘‘ وہ کہتا ہے: وہ اپنے اس قول کو صرف قیاس کر رہے ہیں جو ان کا یہ قول ہے کہ اگر رحمٰن چاہتا تو ہم ان کی عبادت نہ کرتے۔ اس حوالے میں مجاہد سے منسوب بیانات بھی شامل ہیں۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=43&tAyahNo=20&tDisplay=yes&UserProfile=0&LanguageId=1

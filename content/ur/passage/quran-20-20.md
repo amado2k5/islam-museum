@@ -2,10 +2,17 @@
 id: passage/quran-20-20
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-20-20.md}
 ---
 ## موجز
 الآية 20 من [[passage/quran-20|سورۃ طٰہ]]، وہ مکی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 20، سورت کی کل 135 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+الطبری نے آیات 19 سے 21 تک کی آیت کو ایک حصے کے طور پر پڑھا ہے۔ اس کا یہ بیان، "چنانچہ اس نے اسے نیچے پھینک دیا، اور دیکھو، یہ ایک سانپ تھا، جو تیزی سے چل رہا تھا،" اس طرح بیان کیا گیا ہے: "جب اس نے اسے سانپ کی طرح ڈگمگاتا ہوا دیکھا تو وہ پیچھے ہٹ گیا، بھاگا اور پیچھے مڑ کر نہ دیکھا۔" پھر اسے پکارا گیا: اے موسیٰ ڈرو نہیں، مجھ سے پہلے رسول نہیں ڈرتے۔ اسے ابن اسحاق نے وہب بن منبیح سے روایت کیا ہے، انہوں نے کہا: "اے موسیٰ، اسے نیچے پھینک دو، اور اس نے اسے نیچے پھینک دیا، اور دیکھو، وہ ایک سانپ تھا، جو تیزی سے چل رہا تھا، ڈنکے کے ساتھ اور ایک شکل تھی جیسا کہ اللہ نے چاہا۔ اُس نے ایک خوفناک چیز دیکھی، اُس نے مُڑ کر بھاگا اور پیچھے مڑ کر نہ دیکھا۔ پھر اس کے رب نے اسے پکارا کہ اے موسیٰ آگے بڑھو اور مت ڈرو ہم اسے اس کی پہلی حالت پر لوٹا دیں گے۔ اور اس کا بیان: "اس نے کہا، 'اسے پکڑو اور مت کرو...'" "ڈرو" - خداتعالیٰ کہتا ہے کہ خدا نے موسیٰ سے کہا: "سانپ کو لے لو" اور "ہا" اور "الف" لفظ "سانپ" سے ہیں۔ اس عبارت میں ابن عباس، مجاہد، قتادہ اور ابن اسحاق کے بیانات بھی نقل کیے گئے ہیں۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=20&tAyahNo=20&tDisplay=yes&UserProfile=0&LanguageId=1

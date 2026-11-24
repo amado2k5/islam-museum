@@ -2,10 +2,17 @@
 id: passage/quran-15-47
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-15-47.md}
 ---
 ## موجز
 الآية 47 من [[passage/quran-15|سورۃ الحجر]]، وہ مکی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 47، سورت کی کل 99 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+الطبری نے اس عبارت کو جاری رکھتے ہوئے کہا: "اور جو کچھ ان کے دلوں میں ہے ہم اسے دور کر دیں گے۔" خدا نیک لوگوں کے دلوں سے کینہ، بغض اور دشمنی نکال دے گا- ابن عیینہ اور ضحاک کے مطابق بغض دشمنی ہے- اور ان کا اس بات پر اختلاف ہے کہ اسے کب دور کیا جائے گا: ابوامامہ کی ایک روایت میں ہے کہ وہ جنت میں اس دنیا کی کینہ کے ساتھ داخل ہوں گے، یہاں تک کہ اللہ تعالیٰ ان کے دلوں سے اس کو ختم کر دے گا۔ ان کی ایک اور روایت میں ہے کہ کوئی مومن جنت میں اس وقت تک داخل نہیں ہو گا جب تک کہ اللہ تعالیٰ ان کے دلوں میں موجود کینہ کو دور نہ کر دے اور ان سے وحشی درندے کو دور نہ کر دے۔ حضرت علی ہ سے حسن بصری سے روایت ہے کہ یہ آیت اہل بدر کے بارے میں نازل ہوئی۔ اور ابراہیم کی روایت میں ہے کہ جب زبیر کے قاتل ابن جرمز نے علی سے داخل ہونے کی اجازت طلب کی تو انہوں نے کہا: "میں امید کرتا ہوں کہ میں، طلحہ اور زبیر ان لوگوں میں ہوں گے جنہیں خدا نے "بھائی، تختوں پر ایک دوسرے کے آمنے سامنے" قرار دیا ہے۔ فرمایا: اگر ہم نہیں تو کون ہیں؟ "بھائی، ایک دوسرے کے آمنے سامنے تختوں پر" کا مطلب ہے پیار میں بھائی، تختوں پر ایک دوسرے کے آمنے سامنے، ایک دوسرے سے منہ نہ موڑیں۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=15&tAyahNo=47&tDisplay=yes&UserProfile=0&LanguageId=1

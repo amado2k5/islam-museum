@@ -2,10 +2,17 @@
 id: passage/quran-50-43
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-50-43.md}
 ---
 ## موجز
 الآية 43 من [[passage/quran-50|سورۃ ق]]، وہ مکی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 43، سورت کی کل 45 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+الطبری آیات 43-44 کے اندر آیت کو ایک اکائی کے طور پر پڑھتا ہے۔ وہ اپنے اس قول کی تشریح کرتا ہے، "بے شک، ہم ہی زندگی دیتے ہیں اور موت دیتے ہیں، اور ہماری ہی آخری منزل ہے": ہم ہی مردوں کو زندہ کرتے ہیں اور زندہ کو مارتے ہیں، اور قیامت کے دن ان سب کی آخری منزل ہماری طرف ہے، "جس دن زمین پھٹ جائے گی، ان کو ظاہر کر کے دوڑتی ہوئی نکلے گی۔" وہ، اس کی حمد و ثنا بیان کرتا ہے، کہتا ہے، "اور ہماری طرف ان کی آخری منزل ہے جس دن زمین پھٹ جائے گی، اس لیے 'دن' 'آخری منزل' سے جڑا ہوا ہے۔" اور اس کے کہنے کا، "زمین پھٹ جائے گی، ان کو ظاہر کرے گی،" کا مطلب ہے: زمین پھٹ جائے گی، ان کو ظاہر کر دے گی۔ اور اس کا کہنا، "آگے بڑھنا"، الزامی صورت میں اس کے قول میں ضمیر "انہیں" کے حالاتی کوالیفائر کے طور پر ہے، "ان کو ظاہر کرنا۔" مفہوم یہ ہے کہ جس دن زمین ان کے لیے پھٹ جائے گی اور وہ اس سے تیزی سے نکلیں گے۔ ’’جس دن زمین ان کے لیے پھٹ جائے گی‘‘ کا جملہ اس مفہوم کو بیان کرنے کے لیے کافی ہے۔ اور اس قول کہ ’’وہ ہمارے لیے آسان اجتماع ہے‘‘ کا مطلب ہے: ان کا یوم حساب کے لیے جمع ہونا ہمارے لیے آسان اور آسان ہے۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=50&tAyahNo=43&tDisplay=yes&UserProfile=0&LanguageId=1

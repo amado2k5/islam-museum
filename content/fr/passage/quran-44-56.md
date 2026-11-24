@@ -2,11 +2,17 @@
 id: passage/quran-44-56
 lang: fr
 source_lang: en
-translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
-provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate documents, managed by Claude Code)', model: google-translate, run: gt-docs-fr-2026-11-19, source: content/en/passage/quran-44-56.md}
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-fr-2026-11-24, source: content/ar/passage/quran-44-56.md}
 ---
 ## Résumé
 Verset 56 de [[passage/quran-44|la sourate ad-Dukhan]], une sourate mecquoise. {cite:tanzil-quran}
 
 ## Place dans le musée
 Il s'agit du verset 56 sur 59 de la sourate. Le texte est conservé dans le mushaf Tanzil et n'est pas reproduit ici.
+
+## Dans le commentaire d'al-Tabari
+
+Al-Tabari considère le verset inclus dans les versets 56 à 59 comme une seule section. Il interprète la phrase « Ainsi, Nous les marierons à des jeunes filles aux yeux clairs » comme suit : De même que Nous avons accordé à ces vertueux, dans l'au-delà, l'honneur de les admettre au Paradis et de les y vêtir de soie et de brocart, de même Nous les avons honorés en les mariant à des femmes aux yeux clairs, d'une blancheur immaculée, dont le singulier est « houra ». Mujahid a dit, au sujet de la signification de « houris », et Ibn Abi Najih a rapporté de Mujahid, concernant le verset « Et Nous les marierons à des jeunes filles aux yeux clairs », qu'il a dit : Nous les marierons à des jeunes filles aux yeux clairs. Dans cette section, il cite également des propos de Mujahid et de Qatadah.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=44&tAyahNo=56&tDisplay=yes&UserProfile=0&LanguageId=1

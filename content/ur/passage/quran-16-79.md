@@ -2,10 +2,17 @@
 id: passage/quran-16-79
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-16-79.md}
 ---
 ## موجز
 الآية 79 من [[passage/quran-16|سورۃ النحل]]، وہ مکی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 79، سورت کی کل 128 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+اس کا یہ فرمان کہ "کیا وہ پرندوں کو نہیں دیکھتے جو آسمان کی ہوا میں پکڑے ہوئے ہیں، انہیں اللہ کے سوا کوئی نہیں تھامتا، یقیناً اس میں ان لوگوں کے لیے نشانیاں ہیں جو ایمان رکھتے ہیں،" بیان کرتے ہیں: اللہ تعالیٰ ان مشرکوں سے فرماتا ہے: کیا تم ان پرندوں کو نہیں دیکھتے جو آسمان کی ہوا میں پکڑے ہوئے ہیں، یعنی: آسمان کی ہوا میں ابراھیم نے کہا: ابراھیم اور اس کے درمیان زمین کے درمیان۔ آسمان کی ہوا سے ماں، تلاش، اور اس طرح نہیں جو زمین پر تلاش کی جاتی ہے، مطلب: آسمان کی ہوا میں. "ان کو خدا کے سوا کوئی نہیں تھام سکتا۔" اس کا مطلب یہ ہے کہ ہوا میں ان کی اڑان صرف خدا کی مرضی اور اس کی اجازت سے ہے۔ اگر وہ ان کی اڑنے کی صلاحیت کو چھین لے تو وہ چڑھنے سے قاصر ہوں گے۔ ان کے اس قول کہ ’’درحقیقت اس میں ایمان لانے والوں کے لیے نشانیاں ہیں‘‘ کا مطلب یہ ہے کہ خدا کا پرندوں کو آسمان پر اڑنے کی اجازت دینا اس بات کی نشانیاں اور ثبوت ہیں کہ خدا کے سوا کوئی معبود نہیں، وہ اکیلا ہے، اس کا کوئی شریک نہیں، اور یہ کہ بتوں اور جھوٹے دیوتاؤں کا الوہیت میں کوئی حصہ نہیں۔ اس عبارت میں قتادہ اور ابراہیم سے منسوب بیانات بھی شامل ہیں۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=16&tAyahNo=79&tDisplay=yes&UserProfile=0&LanguageId=1

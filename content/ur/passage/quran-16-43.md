@@ -2,10 +2,17 @@
 id: passage/quran-16-43
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-16-43.md}
 ---
 ## موجز
 الآية 43 من [[passage/quran-16|سورۃ النحل]]، وہ مکی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 43، سورت کی کل 128 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+وہ اپنے بیان کی وضاحت کرتے ہوئے فرماتے ہیں: "اور ہم نے تم سے پہلے مردوں کے سوا کوئی نہیں بھیجا جن پر ہم نے وحی بھیجی تھی، پس اگر تم نہیں جانتے تو اہل علم سے پوچھو۔" وہ کہتا ہے: اے محمدؐ، ہم نے آپ سے پہلے کسی قوم کی طرف نہیں بھیجا کہ وہ اپنی وحدانیت کی طرف بلائیں اور ہمارے احکام و ممنوعات کو مانیں، سوائے بنی آدم کے آدمیوں کے جن پر ہم نے اپنی وحی نازل کی، فرشتے نہیں۔ وہ کہتا ہے: ہم نے تمہاری قوم کی طرف کچھ بھی نہیں بھیجا مگر وہی جو ہم نے ان سے پہلے کی امتوں پر بھیجا، ان کی قسم اور ان کے طریقے کے مطابق۔ "پس اہل علم سے پوچھو،" وہ مشرکین قریش سے کہتا ہے: یہاں تک کہ اگر تم نہیں جانتے کہ ہم نے جن لوگوں کو تم سے پہلے قوموں میں بھیجا تھا وہ بنی آدم میں سے تھے، جیسے محمد، اور تم کہتے ہو کہ وہ فرشتے ہیں، یعنی تم سمجھتے ہو کہ خدا نے ان سے پہلے بات کی تھی- تو پھر اہل علم سے پوچھو، جنہوں نے ان سے پہلے صحیفے پڑھے ہیں: تورات، اس کے بندے پر نازل ہونے والی کتابیں: اس عبارت میں ابن عباس، مجاہد، الضحاک، ابن زید، ابن جریج اور سفیان کے بیانات بھی نقل کیے گئے ہیں۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=16&tAyahNo=43&tDisplay=yes&UserProfile=0&LanguageId=1

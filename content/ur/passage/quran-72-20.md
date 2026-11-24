@@ -2,10 +2,17 @@
 id: passage/quran-72-20
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-72-20.md}
 ---
 ## موجز
 الآية 20 من [[passage/quran-72|سورۃ الجن]]، وہ مکی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 20، سورت کی کل 28 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+الطبری آیت 20-22 کے اندر ایک اکائی کے طور پر پڑھتا ہے۔ وہ اس جملے کی وضاحت کرتے ہوئے کہتے ہیں: "کہو، میں صرف اپنے رب کو پکارتا ہوں، اور میں اس کے ساتھ کسی کو شریک نہیں کرتا۔": تلاوت کرنے والوں نے اس جملے کے پڑھنے میں اختلاف کیا، "کہو، 'میں صرف اپنے رب کو پکارتا ہوں۔'" مدینہ اور بصرہ کے اکثر قاریوں اور بعض کوفوں نے اسے حقیقت کے طور پر پڑھا، "اگر اس نے کہا،" اس طرح پڑھنے والوں نے اسے خدا کی طرف سے اپنے نبی محمد کی طرف سے ایک قول سمجھا کہ آپ نے فرمایا، چنانچہ اس بیان کا مفہوم یہ ہے کہ جب بندہ خدا اسے پکارنے کے لیے کھڑا ہوا تو ان کے گرد ہجوم ہو گیا، تو آپ نے ان سے کہا کہ میں صرف اپنے رب کو پکارتا ہوں اور اس کے ساتھ کسی کو شریک نہیں کرتا۔ مدینہ کے بعض قاری اور کوفان کی اکثریت اسے اللہ تعالیٰ کی طرف سے اپنے نبی کو حکم کے طور پر پڑھتے ہیں: اے محمد ان لوگوں سے جو آپ کے گرد ہجوم کرنے والے تھے کہہ دو کہ میں صرف اپنے رب کو پکارتا ہوں اور اس کے ساتھ کسی کو شریک نہیں کرتا۔ صحیح قول یہ ہے کہ دونوں معروف قراءت ہیں اور قاری جو بھی انتخاب کرے وہ صحیح ہے۔ ان کا بیان: "اور اس نے قتادہ اور سفیان کے حوالہ جات میں نقل کیا ہے۔"
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=72&tAyahNo=20&tDisplay=yes&UserProfile=0&LanguageId=1

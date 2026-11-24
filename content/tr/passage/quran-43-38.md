@@ -2,8 +2,8 @@
 id: passage/quran-43-38
 lang: tr
 source_lang: ar
-translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-23), draft translation']
-provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-23, source: content/ar/passage/quran-43-38.md}
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-23), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-tr-2026-11-24, source: content/ar/passage/quran-43-38.md}
 ---
 
 ## Özet
@@ -11,3 +11,9 @@ Mekke suresi olan Ez-Zükhruf suresinin [[passage/quran-43|38]]. ayeti. {cite:ta
 
 ## Konumu
 Konumu: Suredeki 89 ayetten 38. ayet. Metin Mushaf Tazil al-Mujjad'dan korunmuş olup burada yeniden yazılmamıştır.
+
+## El-Taberi'nin Tafsir'inde
+
+Taberi, 38-39. ayetler içindeki bu ayeti tek bir bölüm olarak okur. “O bize geldiğinde, ‘Keşke aranızda iki doğu kadar mesafe olsaydı!’ diyecektir. Ne zavallı bir arkadaş!” ifadesini şöyle açıklar: “O bize geldiğinde” ifadesinin okunuşunda Hicazlı okuyucuların çoğu, İbn Muhaysin hariç, Kufeli ve Suriyeli okuyucuların bazıları bunu “O bize geldiğinde” şeklinde, yani ‘Rahman’ı anmaktan yüz çeviren bu kimse ve onun için şeytanlardan seçilmiş olan arkadaşı bize geldiğinde’ anlamında okurlar. Kufe ve Basralı okuyucuların çoğu ve İbn Muhaysin ise bunu “O bize geldiğinde” şeklinde, yani ‘Rahman’ı anmaktan yüz çeviren bu kimse bize geldiğinde’ anlamında okurlar. Bu bölümde, Katade'ye atfedilen sözlerden alıntılar yapıyor.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=43&tAyahNo=38&tDisplay=yes&UserProfile=0&LanguageId=1

@@ -2,10 +2,17 @@
 id: passage/quran-47-6
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-47-6.md}
 ---
 ## موجز
 الآية 6 من [[passage/quran-47|سورۃ محمد]]، وہ مدنی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 6، سورت کی کل 38 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+الطبری آیات 5-7 کے اندر آیت کو ایک اکائی کے طور پر پڑھتا ہے۔ وہ اس جملے کی تشریح کرتا ہے "اور وہ انہیں جنت میں داخل کرے گا، جو اس نے ان کو بتا دیا ہے": خدا انہیں اپنی جنت میں داخل کرے گا، جو اس نے ان کو بتا دیا ہے۔ وہ کہتا ہے: اس نے یہ بات ان کے لیے واضح اور واضح کر دی ہے، تاکہ آدمی اس میں اپنے گھر کے قریب جائے جیسا کہ وہ اس دنیا میں اپنے گھر کے قریب پہنچتا ہے، بغیر کسی الجھن کے۔ اسی طرح معمر کی روایت سے، قتادہ کی روایت سے، ابو سعید الخدری کی روایت سے، جنہوں نے کہا: جب خدا مومنوں کو جہنم کی آگ سے بچاتا ہے، تو انہیں جنت اور جہنم کے درمیان ایک پُل پر روک دیا جائے گا، جہاں وہ اس دنیا میں ان کے درمیان بہت سے مسائل کا ازالہ کریں گے۔ پھر انہیں جنت میں داخل ہونے کی اجازت دی جائے گی۔ آپ نے فرمایا: مومن اس دنیا میں اپنی رہائش سے اتنا زیادہ واقف نہیں ہو گا جتنا کہ وہ جنت میں داخل ہونے کے بعد اپنے گھر سے واقف ہوگا۔ اور قتادہ کی سند پر، اس جملے کے بارے میں کہ "اور وہ ان کو جنت میں داخل کرے گا، جس کی اس نے ان کو خبر دی ہے"، اس نے کہا: اس سے مراد ان کی رہائشیں ہیں۔ اس آیت میں مجاہد، قتادہ اور ابن زید کے بیانات نقل کیے گئے ہیں۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=47&tAyahNo=6&tDisplay=yes&UserProfile=0&LanguageId=1

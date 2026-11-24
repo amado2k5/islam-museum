@@ -2,10 +2,17 @@
 id: passage/quran-22-46
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-22-46.md}
 ---
 ## موجز
 الآية 46 من [[passage/quran-22|سورۃ الحج]]، وہ مدنی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 46، سورت کی کل 78 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+ان کا یہ بیان کہ "کیا انہوں نے زمین میں سیر نہیں کی تاکہ ان کے پاس دل ہوں جن سے سمجھ سکیں یا کان ہوں جن سے سن سکیں؟ کیونکہ آنکھیں اندھی نہیں ہوتیں بلکہ وہ دل اندھے ہوتے ہیں جو سینوں میں ہوتے ہیں" اس کی وضاحت یوں کی گئی ہے: کیا یہ خدا کی نشانیوں کے منکر اور منکر ہیں جو اس کی طاقت کا مقابلہ کرتے ہیں تاکہ ان کی طاقت کو زمین سے نہ دیکھ سکیں۔ ان سے پہلے خدا کے رسولوں کو جھٹلایا، جیسے کہ قوم عاد، ثمود، قوم لوط اور شعیب اور ان کے آبائی وطن اور مکانات، تاکہ وہ ان پر غور کریں، ان سے سبق حاصل کریں، اور ان کی تقدیر اور اپنے باشندوں کی تقدیر کے بارے میں غور و فکر کے ذریعے، خدا کا قائم کردہ طریقہ، اس کے منکرین اور نشانیوں کے علاوہ دوسرے لوگوں کے ساتھ اس کا انکار کیا؟ اس کے رسول، تاکہ وہ اپنے تکبر اور کفر سے توبہ کریں، اور اگر وہ اس پر غور کریں، اس پر دھیان دیں، اور سچائی کی طرف توبہ کریں، تو ان کے پاس "ایسے دل ہوں گے جن سے وہ سمجھتے ہیں" خدا کی مخلوق کے لیے دلیلیں ہوں گی اور جو کچھ ہم نے بیان کیا ہے اس پر اس کی قدرت ہے، یا کان جن سے وہ سنتے ہیں۔ فرمایا: یا وہ کان جو حق کو سنتے ہیں، تاکہ وہ اسے سمجھیں اور اس میں اور باطل میں فرق کریں۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=22&tAyahNo=46&tDisplay=yes&UserProfile=0&LanguageId=1

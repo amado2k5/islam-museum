@@ -2,11 +2,17 @@
 id: passage/quran-19-24
 lang: fr
 source_lang: en
-translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
-provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate documents, managed by Claude Code)', model: google-translate, run: gt-docs-fr-2026-11-19, source: content/en/passage/quran-19-24.md}
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-fr-2026-11-24, source: content/ar/passage/quran-19-24.md}
 ---
 ## Résumé
 Verset 24 de [[passage/quran-19|la sourate Maryam]], une sourate mecquoise. {cite:tanzil-quran}
 
 ## Place dans le musée
 Il s'agit du verset 24 sur 98 dans la sourate. Le texte est conservé dans le mushaf Tanzil et n'est pas reproduit ici.
+
+## Dans le commentaire d'al-Tabari
+
+Al-Tabari lit le verset inclus dans les versets 24 et 25 comme un tout. Il explique la phrase : « Puis il l’appela d’en bas : “Ne t’afflige pas ; ton Seigneur a fait jaillir sous toi une source” » : les récitants ont divergé dans leur interprétation. La majorité des récitants du Hedjaz et d’Irak l’ont traduite par « Puis il l’appela d’en bas », signifiant que Gabriel l’appela devant elle. Cependant, leurs interprétations différaient. Certains l’ont interprété comme « d’en bas », tandis que d’autres l’ont interprété comme Jésus l’appelant d’en bas après sa naissance. Certains récitants de Koufa et de Bassora l’ont traduite par « Puis il l’appela d’en bas », avec les deux « ta » de « d’en bas » prononcés avec une fatha, signifiant que celui qui était en dessous d’elle l’appelait, faisant référence à Jésus qui appela sa mère. Le passage cite des déclarations d'Ibn Abbas, Mujahid, Qatadah, Al-Dahhak, Al-A'mash, Ibrahim et d'autres.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=19&tAyahNo=24&tDisplay=yes&UserProfile=0&LanguageId=1

@@ -2,10 +2,17 @@
 id: passage/quran-41-35
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-41-35.md}
 ---
 ## موجز
 الآية 35 من [[passage/quran-41|سورۃ فصلت]]، وہ مکی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 35، سورت کی کل 54 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+الطبری آیات 35-36 کے اندر آیت کو ایک اکائی کے طور پر پڑھتا ہے۔ وہ ان الفاظ کی تشریح کرتا ہے، "اور کسی کو یہ عطا نہیں کیا جاتا سوائے صبر کرنے والوں کے، اور کسی کو نہیں دیا جاتا سوائے بڑے خوش نصیبوں کے": "برائی کو بھلائی کے ساتھ دور کرنے کی صلاحیت ان لوگوں کے سوا کسی کو نہیں دی گئی جو خدا کی خاطر سختیوں اور مشکلات کو صبر سے برداشت کرتے ہیں۔" وہ کہتا ہے، "اور کسی کو یہ عطا نہیں کیا جاتا ہے،" اور نہیں، "کسی کو عطا نہیں کیا جاتا ہے،" کیونکہ معنی یہ ہے: "برائی کو بہتر سے دور کرنے کا یہ عمل کسی کو نہیں دیا جاتا۔" اور اس کے اس قول کہ ’’اور کسی کو یہ نہیں دیا جاتا سوائے بڑے خوش نصیبوں کے‘‘ کا مطلب ہے: ’’یہ کسی کو نہیں دیا جاتا سوائے ان کے جن کے پاس نیک اعمال کا حصہ اور طویل تاریخ ہے۔‘‘ السدی نے اس آیت کے بارے میں کہا ہے کہ "اور یہ بڑے نصیب والوں کے سوا کسی کو نہیں دیا جاتا" اس کا مطلب ہے: "بڑے نصیب والے"۔ کہا گیا ہے کہ اللہ تعالیٰ نے جس حصہ کا ذکر اس آیت میں ان لوگوں کے لیے کیا ہے وہ جنت ہے۔ اس عبارت میں ابن عباس، قتادہ اور ابن زید کے بیانات نقل کیے گئے ہیں۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=41&tAyahNo=35&tDisplay=yes&UserProfile=0&LanguageId=1

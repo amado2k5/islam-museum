@@ -2,10 +2,17 @@
 id: passage/quran-40-49
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-40-49.md}
 ---
 ## موجز
 الآية 49 من [[passage/quran-40|سورۃ غافر]]، وہ مکی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 49، سورت کی کل 85 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+الطبری نے آیات 49-50 کے اندر آیت کو ایک حصے کے طور پر پڑھا ہے۔ وہ ان الفاظ کی تشریح کرتا ہے، "اور آگ والے جہنم کے محافظوں سے کہیں گے، 'اپنے رب سے دعا کرو کہ وہ ہمارے لیے عذاب کا ایک دن ہلکا کر دے'": جہنم کے باشندے اس کے محافظوں اور محافظوں سے کہیں گے، اپنے مصائب کی شدت سے ان کی مدد طلب کرتے ہوئے اور ان سے نجات کی امید رکھتے ہوئے، "اپنے رب سے دعا کرو، ہمارے لیے اس دنیا کے ایک روشن دن کے لیے، ہمارے لیے ایک روشن دن۔" "سزا کا" ہم برداشت کر رہے ہیں۔ ہم کہتے ہیں کہ اس کا مطلب دنیا میں ایک دن کے برابر ہے کیونکہ آخرت ایک دن ہے جس میں رات نہیں ہے اس لیے کہا جاتا ہے کہ ان کے لیے ایک دن ہلکا کر دو۔ اور اس کا یہ قول: "انہوں نے کہا، کیا تمہارے پاس تمہارے رسول واضح دلیلوں کے ساتھ نہیں آئے تھے؟" اللہ تعالیٰ فرماتا ہے: جہنم کے محافظوں نے ان سے کہا: کیا تمہارے پاس اس دنیا میں تمہارے رسول خدا کی وحدانیت کی واضح دلیلیں لے کر نہیں آئے تھے کہ تم اس پر ایمان لاتے اور اس کے علاوہ تمام معبودوں سے انکار کرتے؟ انہوں نے کہا: ہاں، ہمارے پاس ہمارے رسول اسے لے کر آئے تھے۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=40&tAyahNo=49&tDisplay=yes&UserProfile=0&LanguageId=1

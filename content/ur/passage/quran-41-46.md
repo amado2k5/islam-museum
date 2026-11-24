@@ -2,10 +2,17 @@
 id: passage/quran-41-46
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-41-46.md}
 ---
 ## موجز
 الآية 46 من [[passage/quran-41|سورۃ فصلت]]، وہ مکی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 46، سورت کی کل 54 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+ان کا یہ بیان کہ ’’جو کوئی نیکی کرے گا وہ اپنی جان کے لیے ہے اور جو برائی کرے گا وہ اس کی اپنی جان کے لیے ہے۔ اور تمہارا رب اپنے بندوں پر ظلم کرنے والا نہیں ہے‘‘، اس کا بیان ہے: جو کوئی اس دنیا میں اللہ کی اطاعت کرتا ہے، اس کے احکام کی پیروی کرتا ہے اور اس کی ممانعت سے باز رہتا ہے، یہ اس کی اپنی جان کے لیے ہے۔ وہ کہتا ہے: وہ اس نیک عمل کو اپنی جان کے لیے انجام دیتا ہے، کیونکہ اسے اس کا اجر ملے گا، اس طرح وہ آخرت میں خدا کی طرف سے جنت اور جہنم سے نجات کا مستحق ہے۔ ’’اور جو کوئی برائی کرے گا وہ اس کی اپنی جان پر ہے‘‘۔ وہ کہتا ہے: جو کوئی اس دنیا میں خدا کے خلاف گناہ کرتا ہے، اس کا خمیازہ اپنے آپ کو بھگتنا پڑتا ہے، کیونکہ اس نے خدا کا غضب اور دردناک عذاب حاصل کیا ہے۔ ’’اور تمہارا رب اپنے بندوں پر ظلم کرنے والا نہیں ہے۔‘‘ اللہ تعالیٰ فرماتا ہے: اے محمد، آپ کا رب کسی دوسرے کے گناہوں کا ذمہ دار نہیں ٹھہراتا جس نے وہ گناہ نہ کیے ہوں۔ بلکہ وہ کسی کو سزا نہیں دیتا سوائے اس کے کہ اس نے اس دنیا میں گناہ کیے ہوں، یا کسی وجہ سے اس کا انجام ہوا ہو۔ وہ اس کی طرف سے اس کا مستحق تھا، اور خدا بہتر جانتا ہے۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=41&tAyahNo=46&tDisplay=yes&UserProfile=0&LanguageId=1

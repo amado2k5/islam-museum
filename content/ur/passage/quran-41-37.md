@@ -2,10 +2,17 @@
 id: passage/quran-41-37
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-41-37.md}
 ---
 ## موجز
 الآية 37 من [[passage/quran-41|سورۃ فصلت]]، وہ مکی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 37، سورت کی کل 54 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+اس کا بیان، "اور اس کی نشانیوں میں سے رات اور دن اور سورج اور چاند ہیں، سورج یا چاند کو سجدہ نہ کرو، بلکہ اس خدا کو سجدہ کرو جس نے ان کو پیدا کیا ہے، اگر تم اسی کی عبادت کرتے ہو،" وضاحت کرتا ہے: خدا کی اس کی مخلوق اور اس کی وحدانیت اور اس کی قدرت کی وسعت کی دلیلوں میں سے ہے، سورج اور دن کی کامیابی، سورج اور دن کا ایک دوسرے کا بدل جانا۔ سورج چاند سے آگے نہیں نکلتا، نہ ہی رات دن سے آگے نکلتی ہے اور ہر ایک مدار میں تیرتا ہے۔ اے لوگو، سورج اور چاند کو سجدہ نہ کرو، کیونکہ وہ اگرچہ اپنے مدار میں تمہارے فائدے کے لیے چلتے ہیں، لیکن وہ صرف اس لیے کرتے ہیں کہ اللہ تعالیٰ نے انہیں تمہارے لیے حرکت میں لایا ہے، ان کی حرکت اور عمل میں اس کی اطاعت کی ہے۔ کہ وہ خدا کی ہدایت اور کنٹرول کے بغیر خود ہی چلنے اور چلانے کے قابل ہیں، یا یہ کہ وہ آپ کو فائدہ یا نقصان پہنچا سکتے ہیں۔ بلکہ اللہ تعالیٰ نے ان کو آپ کے مفادات اور مفادات کے لیے آپ کے تابع کر دیا ہے، لہٰذا اسی کو سجدہ کرو اور صرف اسی کی عبادت کرو، ان کی نہیں۔ کیونکہ اگر وہ چاہے تو ان کی روشنی کو بجھا سکتا ہے، آپ کو تاریکی میں الجھا کر، راستہ تلاش کرنے سے قاصر، اور کچھ بھی دیکھنے کے قابل نہیں۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=41&tAyahNo=37&tDisplay=yes&UserProfile=0&LanguageId=1

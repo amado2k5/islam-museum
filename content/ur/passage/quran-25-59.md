@@ -2,10 +2,17 @@
 id: passage/quran-25-59
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-25-59.md}
 ---
 ## موجز
 الآية 59 من [[passage/quran-25|سورۃ الفرقان]]، وہ مکی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 59، سورت کی کل 77 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+وہ اپنے اس قول کی وضاحت کرتا ہے: "جس نے آسمانوں اور زمین کو اور جو کچھ ان کے درمیان ہے چھ دنوں میں پیدا کیا، پھر اس نے اپنے آپ کو عرش پر فائز کیا، جو رحمن ہے، پس اس کے بارے میں کسی باخبر سے پوچھو۔" "اور اس ہمیشہ زندہ رہنے والے پر بھروسہ کرو جو نہیں مرتا۔" ’’وہ جس نے آسمانوں اور زمین کو اور جو کچھ ان کے درمیان ہے چھ دنوں میں پیدا کیا۔‘‘ اس نے کہا: "اور جو ان کے درمیان ہے" اور اس نے آسمانوں اور زمین کا ذکر کیا، اور آسمان جمع ہیں، کیونکہ اس نے اسے دو قسموں اور دو چیزوں کی طرف ہدایت کی ہے، جیسا کہ القطمی نے کہا: "کیا تمہیں اس بات سے دکھ نہیں ہوا کہ قیس اور تغلب کی رسیاں ہیں..." انہوں نے بالکل اختلاف کیا، مطلب: اور تغلب کی رسیاں، اس لیے کہ دوغلی اور دوغلی کی صورتیں استعمال ہوتی ہیں۔ اس کی مراد دو چیزیں اور دو قسمیں تھیں۔ اور اس کا یہ قول: "چھ دنوں میں" کہا گیا: اس کی ابتدا اتوار کو تھی اور تکمیل جمعہ کو۔ "پھر رحمٰن عرش پر چڑھا،" وہ کہتے ہیں: پھر رحمٰن عرش پر چڑھا اور اس کے اوپر چڑھ گیا، اور یہ ہفتہ کے دن تھا، جیسا کہ کہا جاتا ہے۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=25&tAyahNo=59&tDisplay=yes&UserProfile=0&LanguageId=1

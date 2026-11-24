@@ -2,10 +2,17 @@
 id: passage/quran-29-40
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-29-40.md}
 ---
 ## موجز
 الآية 40 من [[passage/quran-29|سورۃ العنكبوت]]، وہ مکی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 40، سورت کی کل 69 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+ان کا بیان ہے کہ "پس ہم نے ان میں سے ہر ایک کو ان کے گناہ کے سبب پکڑا، اور ان میں سے وہ تھے جن پر ہم نے پتھروں کا طوفان بھیجا، اور ان میں وہ بھی تھے جن کو ایک جھٹکے سے پکڑا گیا، اور ان میں وہ بھی تھے جنہیں ہم نے زمین میں دھنسا دیا، اور ان میں وہ بھی تھے جنہیں ہم نے غرق کر دیا، اور اللہ ان پر ظلم نہیں کرتا تھا، لیکن ہم نے ان سب قوموں کا ذکر کیا جو ہم نے خود اپنے اوپر ظلم کیے تھے"۔ اے محمد ہمارے عذاب کے ساتھ۔ "اور ان میں سے وہ بھی تھے جن پر ہم نے پتھروں کا طوفان بھیجا" اور وہ قوم لوط ہیں جن پر اللہ نے مٹی کے پتھر برسائے۔ مندود اور عرب اس طوفانی ہوا کو کہتے ہیں جس میں چھوٹے چھوٹے کنکر، برف، اولے اور برف ہوتی ہے اور اس میں سے الاختل کا قول ہے: "اور میں جانتا تھا کہ جب حاملہ اونٹ صبح ہوتی ہیں تو جوان اونٹوں کی ہوا انہیں شمال کی طرف پھینک دیتی ہے، یا درخت پر برف کے اولے گرنے تک یا درخت پر برف کے اولے گرا دیتی ہے۔ ڈھیر۔" اور الفرازدق نے کہا: "شام کے شمال کا رخ کرتے ہوئے، یہ ہم پر بکھری ہوئی روئی کی طرح اولوں سے حملہ کرتا ہے۔" اور حوالہ میں ابن عباس سے اقوال منقول ہیں۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=29&tAyahNo=40&tDisplay=yes&UserProfile=0&LanguageId=1

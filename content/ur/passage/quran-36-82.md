@@ -2,10 +2,17 @@
 id: passage/quran-36-82
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-36-82.md}
 ---
 ## موجز
 الآية 82 من [[passage/quran-36|سورۃ یس]]، وہ مکی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 82، سورت کی کل 83 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+الطبری آیات 82-83 کے اندر آیت کو ایک اکائی کے طور پر پڑھتا ہے۔ وہ اپنے اس قول کی تشریح کرتا ہے، "اس کا حکم، جب وہ کسی چیز کا ارادہ کرتا ہے، تو صرف یہ ہے کہ وہ اسے کہتا ہے، ہو جا، اور وہ ہو جاتا ہے": "اس کا حکم صرف یہ ہے کہ جب وہ کسی چیز کا ارادہ کرتا ہے، تو وہ اسے کہتا ہے کہ ہو جا، اور وہ ہو جاتی ہے۔ قتادہ نے اس بارے میں کہا: قتادہ کی روایت ہے: "کیا وہ اس بات پر قادر نہیں ہے کہ جس نے آسمانوں اور زمین کو پیدا کیا ہے کہ ان جیسا پیدا کر سکے؟ ہاں، اور وہ سب کچھ جاننے والا ہے۔" فرمایا: یہ اس طرح ہے کہ جب وہ کسی چیز کا ارادہ کرتا ہے تو اس کا حکم صرف یہ ہوتا ہے کہ وہ اسے کہتا ہے کہ ہو جا اور وہ ہو جاتی ہے۔ فرمایا: عربی زبان میں اس سے ہلکی اور آسان کوئی چیز نہیں ہے اور خدا کا حکم بھی ایسا ہی ہے۔ اُس کے بیان، ’’وہ ذات پاک ہے جس کے ہاتھ میں ہر چیز کی بادشاہت ہے‘‘ کا مطلب یہ ہے کہ وہ، وہ بلند و بالا ہے، وہ بڑا ہے، جس کے ہاتھ میں ہر چیز اور ان کے خزانوں کی بادشاہی ہے۔ اُس کے بیان، ’’اور تم اُسی کی طرف لوٹائے جاؤ گے‘‘ کا مطلب ہے کہ تم اُسی کی طرف لوٹائے جاؤ گے اور مرنے کے بعد وہی بن جاؤ گے۔ اس عبارت میں قتادہ سے منسوب بیانات بھی شامل ہیں۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=36&tAyahNo=82&tDisplay=yes&UserProfile=0&LanguageId=1

@@ -2,10 +2,17 @@
 id: passage/quran-42-29
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-42-29.md}
 ---
 ## موجز
 الآية 29 من [[passage/quran-42|سورۃ الشورى]]، وہ مکی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 29، سورت کی کل 53 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+اس کا بیان ہے کہ "اور اس کی نشانیوں میں سے آسمانوں اور زمین کی تخلیق ہے اور جو کچھ اس نے ان میں پھیلا دیا ہے، اور وہ جب چاہے، ان کو جمع کرنے پر پوری طرح قادر ہے،" بیان کرتا ہے: اے لوگو، تمھارے لیے اس کی دلیلوں میں سے یہ ہے کہ وہ تم کو تمہاری موت کے بعد دوبارہ زندہ کر سکتا ہے اور تم کو تمہاری قبروں سے زندہ کر سکتا ہے۔ اس نے آسمانوں اور زمین کو پیدا کیا اور جو کچھ اس نے ان میں مخلوقات میں پھیلا دیا ہے۔ یعنی جو اس نے تمام مخلوقات کے آسمانوں اور زمین میں بکھیر دی ہے۔ نیز: ابن ابی نجیح کی سند سے، مجاہد کی سند سے، اس آیت کے بارے میں کہ "اور اس نے تمام مخلوقات کو پھیلا دیا ہے،" انہوں نے کہا: "لوگ اور فرشتے، اور وہ جب چاہے ان کو جمع کرنے پر قادر ہے۔" وہ کہتا ہے: وہ تمام مخلوقات کو جمع کرنے پر قادر ہے جب اس نے ان میں منتشر کردیا ہے۔ وہ قادر مطلق ہے اور اس کے لیے کوئی چیز ناممکن نہیں ہے، جس طرح ان کو پیدا کرنے اور پھیلانے میں اس کے لیے کوئی چیز ناممکن نہیں ہے۔ اللہ تعالیٰ فرماتے ہیں: اسی طرح وہ قیامت کے دن اپنی مخلوقات کو قبروں میں بکھر جانے کے بعد جمع کرنے پر قادر ہے۔ اس حوالے میں مجاہد سے منسوب بیانات بھی شامل ہیں۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=42&tAyahNo=29&tDisplay=yes&UserProfile=0&LanguageId=1

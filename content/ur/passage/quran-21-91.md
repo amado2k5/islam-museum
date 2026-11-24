@@ -2,10 +2,17 @@
 id: passage/quran-21-91
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-21-91.md}
 ---
 ## موجز
 الآية 91 من [[passage/quran-21|سورۃ الانبیاء]]، وہ مکی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 91، سورت کی کل 112 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+آیت، "اور جس نے اپنی عصمت کی حفاظت کی، تو ہم نے اس میں اپنی روح پھونک دی، اور ہم نے اسے اور اس کے بیٹے کو تمام لوگوں کے لیے نشانی بنایا،" بیان کرتی ہے: اس شخص کا ذکر کریں جس نے اپنی عصمت کی حفاظت کی، یعنی مریم بنت عمران کا۔ لفظ "محفوظ" کا مطلب ہے کہ اس نے اپنی عفت کی حفاظت کی اور اس سے روکا جس سے خدا نے اسے منع کیا تھا۔ عفت کے بارے میں اختلاف ہے کہ خدا، اس کی حمد بلند کرے، اس سے مراد وہ حفاظت کرتی تھی۔ بعض کہتے ہیں کہ اس سے مراد اس کی اپنی شرمگاہ ہے، کہ اس نے انہیں بے حیائی سے بچایا۔ دوسرے کہتے ہیں کہ اس سے مراد اس کے لباس کے کھلنے کا ہے، کہ اس نے جبرائیل کو اس میں داخل ہونے سے روک دیا اس سے پہلے کہ وہ جانتی کہ وہ اپنے رب کے رسول ہیں اور اس سے پہلے کہ وہ اس کی شناخت کی تصدیق کر دیں۔ انہوں نے کہا: اس بات پر دلالت کرتا ہے اس کا یہ قول: "پھر ہم نے اس میں پھونک ماری،" اس کے بعد اس کا یہ فرمان: "اور وہ جس نے اپنی عصمت کی حفاظت کی۔" انہوں نے کہا: اس سے معلوم ہوا کہ اس قول کا مفہوم یہ تھا: اور وہ جس نے اپنے سینے کی حفاظت کی، پھر ہم نے اس میں اپنی روح پھونکی۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=21&tAyahNo=91&tDisplay=yes&UserProfile=0&LanguageId=1

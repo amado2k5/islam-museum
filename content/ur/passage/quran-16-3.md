@@ -2,10 +2,17 @@
 id: passage/quran-16-3
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-16-3.md}
 ---
 ## موجز
 الآية 3 من [[passage/quran-16|سورۃ النحل]]، وہ مکی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 3، سورت کی کل 128 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+وہ اپنے قول کی وضاحت کرتا ہے، "اس نے آسمانوں اور زمین کو حق کے ساتھ پیدا کیا، وہ ان چیزوں سے بلند ہے جن کو وہ اس کے ساتھ شریک کرتے ہیں۔" وہ اپنی مخلوق کو اس کی وحدانیت کی دلیل بتاتے ہوئے کہتا ہے، اور یہ کہ الوہیت صرف اسی کے لیے موزوں ہے: اے لوگو، تمہارے رب نے آسمانوں اور زمین کو عدل کے ساتھ پیدا کیا، اور وہی حق ہے، ان کو پیدا کرنے میں اکیلا ہے۔ ان کی تخلیق اور ابتداء میں اس کے ساتھ کوئی شریک نہیں تھا اور نہ ہی اس میں اس کا کوئی مددگار تھا تو اس کا کوئی شریک کیسے ہوسکتا ہے؟ "وہ ان چیزوں سے بلند ہے جن کو یہ اس کے ساتھ شریک کرتے ہیں۔" وہ اپنی حمد و ثناء کے ساتھ فرماتا ہے: اے لوگو، تمہارا رب تمہاری رفاقت اور اس کے سوا کوئی معبود ہونے کے دعوے سے بلند ہے۔ وہ اس سے بالاتر ہے کہ اس کی مثل، شریک یا حمایتی ہو، کیونکہ اس کے سوا کوئی معبود نہیں جو اپنی قدرت سے آسمانوں اور زمین کی طرح کو پیدا کرتا ہے اور وجود میں لاتا ہے اور جسموں کو پیدا کرتا ہے اور ان کو عدم سے وجود میں لاتا ہے۔ اور یہ خدا کے سوا کسی کے بس میں نہیں ہے، وہ واحد، محکوم ہے، جس کی عبادت صرف واجب ہے اور جس کے لیے الوہیت مناسب نہیں۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=16&tAyahNo=3&tDisplay=yes&UserProfile=0&LanguageId=1

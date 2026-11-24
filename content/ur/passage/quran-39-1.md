@@ -2,10 +2,17 @@
 id: passage/quran-39-1
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-39-1.md}
 ---
 ## موجز
 الآية 1 من [[passage/quran-39|سورۃ الزمر]]، وہ مکی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 1، سورت کی کل 75 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+الطبری آیات 1-2 کے اندر آیت کو ایک اکائی کے طور پر پڑھتا ہے۔ وہ "کتاب کا نزول خدا کی طرف سے ہے جو غالب اور حکیم ہے" کی تشریح اس طرح کرتا ہے: "کتاب کا نزول، جو ہم نے آپ پر نازل کیا ہے، اے محمد، "خدا کی طرف سے ہے، غالب ہے" اپنے دشمنوں سے انتقام لینے کے لیے، "حکمت والا" اپنی مخلوق کے انتظام میں، نہ کہ کسی اور کی طرف سے۔ تو اس میں شک نہ کرو۔ وہ لفظ "وحی" کو "خدا کی طرف سے" کے فقرے کے ساتھ اٹھاتا ہے۔ اس بیان کی تشریح یہ ہے: کتاب کا نزول خدا کی طرف سے ہے جو غالب اور حکمت والا ہے۔ اس کا مطلب یہ لے کر بڑھانا جائز ہے، جیسا کہ اس جملے میں ہے کہ "ایک سورہ جسے ہم نے نازل کیا ہے۔" تاہم، اسے "کتاب کے نزول" کے فقرے میں اس کے بعد والی چیز سے اٹھانا اس کے بعد والی سورت کو اٹھانے سے بہتر ہے، کیونکہ "وحی" اگرچہ ایک فعل ہے، قطعی ہونے کے زیادہ قریب ہے، چونکہ یہ ایک متعین اسم کے ساتھ تعمیری حالت میں ہے، اس لیے اس کے بعد والی چیز سے اسے بڑھانا بہتر ہے۔ یہ "سورہ" کے ساتھ بہتر نہیں ہے کیونکہ یہ غیر معینہ ہے۔ اس عبارت میں قتادہ کے بیانات کا بھی حوالہ دیا گیا ہے۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=39&tAyahNo=1&tDisplay=yes&UserProfile=0&LanguageId=1

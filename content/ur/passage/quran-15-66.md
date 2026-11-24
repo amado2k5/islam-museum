@@ -2,10 +2,17 @@
 id: passage/quran-15-66
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-15-66.md}
 ---
 ## موجز
 الآية 66 من [[passage/quran-15|سورۃ الحجر]]، وہ مکی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 66، سورت کی کل 99 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+الطبری آیات 66 اور 67 کو ایک ہی جملہ کے طور پر پڑھتے ہیں: "اور ہم نے اس کو یہ حکم دیا کہ ان لوگوں کا آخری حصہ صبح تک کاٹ دیا جائے گا۔" اللہ تعالیٰ نے یہ بات لوط تک پہنچائی اور اس پر وحی کی کہ ان کی قوم کے آخری اور ان میں سے سب سے پہلے صبح تک بالکل تباہ ہو جائیں گے، ابن عباس کے مطابق ان کی تباہی صبح تک پوری ہو جائے گی، اور ابن زید کے مطابق، ہم نے ان پر وحی بھیجی۔ وہ "وہ" ⁦(أن)⁩ کے گرائمر فنکشن کی وضاحت کرتا ہے کیونکہ یہ الزام لگانے والے معاملے میں ہے، یا تو اس وجہ سے کہ حکم نامہ جاری کیا گیا تھا یا اس وجہ سے کہ پیشن گوئی کو چھوڑ دیا گیا تھا۔ انہوں نے عبداللہ کے پڑھنے کا ذکر کیا: "اور ہم نے کہا، 'بے شک، ان لوگوں کی آخری باقیات صبح تک کاٹ دی جائیں گی،'" اور "صبح" کا مطلب ہے جب وہ بیدار ہوں گے یا صبح کے وقت۔ "اور شہر کے لوگ خوشی مناتے ہوئے آئے": اہل سدوم یعنی لوط کی قوم اس وقت آئے جب انہوں نے سنا کہ لوط کے شہر میں ایک مہمان آیا ہے، ان کی آمد پر خوش ہوئے اور اپنے مکروہ فعل کے ارتکاب کی امید رکھتے تھے- قتادہ کے مطابق، وہ لوط کے مہمانوں پر خوش ہوئے کیونکہ ان کا ارادہ ان کے ساتھ بدی کرنا تھا۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=15&tAyahNo=66&tDisplay=yes&UserProfile=0&LanguageId=1

@@ -2,10 +2,17 @@
 id: passage/quran-33-69
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-33-69.md}
 ---
 ## موجز
 الآية 69 من [[passage/quran-33|سورۃ الاحزاب]]، وہ مدنی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 69، سورت کی کل 73 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+وہ اپنے بیان کی وضاحت کرتا ہے، "اے ایمان والو، ان لوگوں کی طرح نہ بنو جنہوں نے موسیٰ کو گالی دی، لیکن اللہ نے انہیں ان کی باتوں سے پاک کر دیا، اور وہ اللہ کے نزدیک معزز تھے۔" اللہ تعالیٰ رسول اللہ کے اصحاب سے فرماتا ہے: اے اللہ اور اس کے رسول پر ایمان لانے والو، رسول اللہ کو ایسی باتوں سے تکلیف نہ دو جو وہ تم سے ناپسند کرتے ہیں، اور نہ ایسے عمل سے جو وہ تم سے ناپسند کرتے ہیں، اور ان لوگوں کی طرح نہ بنو جنہوں نے موسیٰ کو گالی دی اور ان پر جھوٹا الزام لگایا۔ "لیکن خدا نے ان کے جھوٹ اور فریب سے ان کے جھوٹ کا ثبوت دکھا کر ان کے بارے میں جو کچھ کہا تھا اس سے پاک کر دیا"۔ ’’اور وہ خدا کے نزدیک معزز تھا۔‘‘ وہ کہتا ہے: موسیٰ اللہ کے ہاں سفارش کرنے والے تھے اور ان کی اطاعت کی وجہ سے اس کے نزدیک عزت اور مقام تھا۔ پھر علمائے تفسیر نے موسیٰ کو پہنچنے والے نقصان کے بارے میں اختلاف کیا جس کا ذکر خدا نے اس آیت میں کیا ہے۔ بعض نے کہا: انہوں نے اس پر ہرنیا کا الزام لگایا۔ اس بارے میں رسول اللہ سے روایت ہے۔ اس عبارت میں ابن عباس، عکرمہ، سعید بن جبیر، ابن زید، العمش اور سفیان سے منسوب بیانات بھی شامل ہیں۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=33&tAyahNo=69&tDisplay=yes&UserProfile=0&LanguageId=1

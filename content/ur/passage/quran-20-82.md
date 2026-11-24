@@ -2,10 +2,17 @@
 id: passage/quran-20-82
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-20-82.md}
 ---
 ## موجز
 الآية 82 من [[passage/quran-20|سورۃ طٰہ]]، وہ مکی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 82، سورت کی کل 135 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+اس کا بیان، "اور بے شک میں معاف کرنے والا ہوں جو کوئی توبہ کرے، ایمان لائے، نیک عمل کرے اور پھر ہدایت پائے،" جس پر میرا غضب نازل ہوگا، اس پر وہ نازل ہوگا۔ وہ گرا ہے یعنی وہ تباہی میں گرا ہے اور بدبخت ہو گیا ہے۔ جیسا کہ معاویہ نے مجھ سے علی کی سند سے اور ابن عباس سے ان کے اس قول کے بارے میں بیان کیا کہ "وہ گر گیا" انہوں نے کہا: وہ بدبخت ہو گیا ہے۔ اور اس کے اس قول، "اور بے شک میں توبہ کرنے والا معاف کرنے والا ہوں" کا مطلب ہے: جو شخص اپنے شرک سے توبہ کرتا ہے اور مجھ پر ایمان کی طرف لوٹتا ہے اس کے لیے میں یقیناً معاف کرنے والا ہوں۔ "اور ایمان لاتا ہے" یعنی: وہ اپنی عبادت صرف میرے لیے وقف کرتا ہے اور اپنی عبادت میں میرے ساتھ کسی چیز کو شریک نہیں کرتا۔ "اور عمل صالح کرتا ہے" یعنی: وہ ان ذمہ داریوں کو پورا کرتا ہے جو میں نے اس کے لیے مقرر کی ہیں اور میرے گناہوں سے بچتا ہے۔ ’’اور پھر ہدایت پاتا ہے‘‘ یعنی: وہ اس پر قائم رہتا ہے، ثابت قدم رہتا ہے اور اس میں سے کسی چیز کو نظرانداز نہیں کرتا۔ اس عبارت میں ابن عباس، قتادہ، ابن زید، الکلبی اور الربیع کے اقوال نقل کیے گئے ہیں۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=20&tAyahNo=82&tDisplay=yes&UserProfile=0&LanguageId=1

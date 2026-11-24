@@ -2,10 +2,17 @@
 id: passage/quran-49-16
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-49-16.md}
 ---
 ## موجز
 الآية 16 من [[passage/quran-49|سورۃ الحجرات]]، وہ مدنی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 16، سورت کی کل 18 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+ان کا یہ قول کہ ’’کیا تم خدا کو اپنے دین کی خبر دیتے ہو حالانکہ خدا جانتا ہے جو کچھ آسمانوں میں ہے اور جو کچھ زمین میں ہے اور خدا سب کچھ جانتا ہے‘‘، اس کی وضاحت اس طرح کی گئی ہے: ’’اے محمدؐ، ان بدویوں سے جو ایمان کا دعویٰ کرتے ہیں لیکن جن کے دلوں نے ابھی تک ایمان نہیں لایا ہے، کہو: ’’کیا تم خدا کو خبر دیتے ہو، اے لوگو، اپنے رب کو اپنے مذہب کے بارے میں کیا جانتے ہو؟‘‘ آسمانوں میں ہے اور زمین پر کیا ہے؟" وہ کہتا ہے: جس خدا کے بارے میں تم دعویٰ کرتے ہو کہ تم مومن ہو وہ ساتوں آسمانوں اور ساتوں زمینوں کی ہر چیز کو جانتا ہے۔ اس سے کوئی چیز پوشیدہ نہیں ہے۔ پس تم اسے اپنے دین اور ایمان کے بارے میں کیسے آگاہ کر سکتے ہو جب کہ اس سے کوئی چیز پوشیدہ نہیں ہے، نہ آسمانوں میں اور نہ زمین میں، تاکہ جو کچھ تمہارا ایمان ہے وہ اس سے پوشیدہ رہے۔ آیت "اور اللہ ہر چیز کو جاننے والا ہے" کا مطلب ہے: اللہ ہر چیز کو جانتا ہے جو تھا، ہے اور ہو گا۔ یہ ان بدوؤں کے لیے اللہ کی طرف سے ایک تنبیہ ہے، ان کو کفر کرنے اور اپنے مذہب کے ماننے کے علاوہ کچھ کہنے سے منع کرتا ہے۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=49&tAyahNo=16&tDisplay=yes&UserProfile=0&LanguageId=1

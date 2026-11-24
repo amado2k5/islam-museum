@@ -2,8 +2,8 @@
 id: passage/quran-16-47
 lang: id
 source_lang: ar
-translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-23), draft translation']
-provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-23, source: content/ar/passage/quran-16-47.md}
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-23), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-id-2026-11-24, source: content/ar/passage/quran-16-47.md}
 ---
 
 ## Ringkasan
@@ -11,3 +11,9 @@ Ayat 47 Surah [[passage/quran-16|An-Nahl]], yang merupakan surah Mekah. {cite:ta
 
 ## Posisinya
 Lokasinya: Ayat 47 dari 128 ayat dalam surat. Teks ini disimpan dari Mushaf Tazil al-Mujaddim dan tidak ditulis ulang di sini.
+
+## Dalam Tafsir al-Tabari
+
+Al-Tabari membaca ayat dalam ayat 47-48 sebagai satu bagian. Ia menafsirkan frasa, “Atau Dia mungkin menangkap mereka dalam keadaan mereka bergerak, dan mereka tidak akan dapat melarikan diri,” yang berarti bahwa Allah, Maha Tinggi, bermaksud dengan firman-Nya, “Atau Dia mungkin menangkap mereka dalam keadaan mereka bergerak,” atau Dia mungkin membinasakan mereka ketika mereka sedang bepergian dan bergerak di muka bumi. “Dan mereka tidak akan dapat melarikan diri,” artinya mereka tidak dapat lolos dari kekuasaan Allah jika Dia berkehendak untuk menangkap mereka dengan cara itu. Dalam bagian ini, ia mengutip pernyataan dari Ibnu Abbas, Qatadah, Ibnu Jurayj, dan Ibrahim.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=16&tAyahNo=47&tDisplay=yes&UserProfile=0&LanguageId=1

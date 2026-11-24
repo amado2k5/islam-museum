@@ -2,8 +2,8 @@
 id: passage/quran-51-43
 lang: id
 source_lang: ar
-translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-23), draft translation']
-provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-23, source: content/ar/passage/quran-51-43.md}
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-23), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-id-2026-11-24, source: content/ar/passage/quran-51-43.md}
 ---
 
 ## Ringkasan
@@ -11,3 +11,7 @@ Ayat 43 Surah [[passage/quran-51|Adh-Dhariyat]], yang merupakan surah Mekah. {ci
 
 ## Posisinya
 Lokasinya: Ayat 43 dari 60 dalam surat. Teks ini disimpan dari Mushaf Tazl al-Mujjard dan tidak ditulis ulang di sini.
+
+## Dalam Tafsir al-Tabari
+
+Al-Tabari membahas ayat ini dalam satu bagian yang mencakup ayat-ayat berikut: [[passage/quran-51-43|51:43]] ke [[passage/quran-51-44|51:44]] Singkatnya: Al-Tabari menjelaskan bahwa ada pelajaran dalam diri kaum Tsamud juga, karena mereka sombong terhadap perintah Tuhan mereka dan memberontak terhadap ketaatan kepada-Nya. Ia meriwayatkan dari Mujahid bahwa "memberontak" berarti mereka sombong, dan dari Ibn Zaid bahwa orang yang memberontak adalah orang yang tidak taat kepada perintah Allah. Kemudian ia menyebutkan bahwa petir menyambar mereka secara tiba-tiba. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=51&tAyahNo=43&tDisplay=yes&UserProfile=0&LanguageId=1

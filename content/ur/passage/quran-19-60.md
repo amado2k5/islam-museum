@@ -2,10 +2,17 @@
 id: passage/quran-19-60
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-19-60.md}
 ---
 ## موجز
 الآية 60 من [[passage/quran-19|سورۃ مریم]]، وہ مکی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 60، سورت کی کل 98 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+وہ اپنے بیان کی وضاحت کرتا ہے، "سوائے ان لوگوں کے جو توبہ کریں، ایمان لائیں اور نیک عمل کریں، وہ جنت میں داخل ہوں گے اور ان پر ذرا بھی ظلم نہیں کیا جائے گا۔" وہ کہتا ہے: یہ برے جانشین، جن کی خصوصیات اس نے بیان کی ہیں، گمراہی سے دوچار ہوں گے، سوائے ان لوگوں کے جو توبہ کرتے ہیں اور خدا کے حکم کی طرف لوٹ آتے ہیں، اور اس پر اور اس کے رسول پر ایمان لاتے ہیں، اور "نیک کام کرتے ہیں۔" فرمایا: اور اللہ کی اطاعت کرو جس کا اس نے حکم دیا ہے اور جس سے منع کیا ہے، اور اس کے فرائض کو بجا لاؤ اور اس کی ممانعتوں سے بچو۔ ’’وہ جنت میں داخل ہوں گے۔‘‘ فرمایا: ان میں سے خاص طور پر وہ لوگ جنت میں داخل ہوں گے جو ان میں سے اپنے کفر میں ہلاک ہوئے اور نماز کو چھوڑ دیا اور خواہشات کی پیروی کی۔ اس کے اس قول کہ "اور ان پر ذرا بھی ظلم نہیں کیا جائے گا" کا مطلب ہے: وہ اپنے اعمال کے اجر میں کسی چیز سے محروم نہیں ہوں گے، اور نہ ہی وہ ان لوگوں کے ساتھ جمع کیے جائیں گے جو ان کے برے جانشینوں میں سے ہلاک ہوئے، اس سے پہلے کہ وہ اپنی غلطی سے توبہ کریں اور جہنم میں اپنے رب کی فرمانبرداری کی طرف لوٹ آئیں، بلکہ وہ اہل ایمان کے دروازے میں داخل ہوں گے۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=19&tAyahNo=60&tDisplay=yes&UserProfile=0&LanguageId=1

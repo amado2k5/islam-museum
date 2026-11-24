@@ -2,10 +2,17 @@
 id: passage/quran-23-4
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-23-4.md}
 ---
 ## موجز
 الآية 4 من [[passage/quran-23|سورۃ المؤمنون]]، وہ مکی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 4، سورت کی کل 118 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+الطبری آیات 4-7 کے اندر آیت کو ایک اکائی کے طور پر پڑھتا ہے۔ "اور وہ لوگ جو زکوٰۃ کی ادائیگی میں سرگرم ہیں" کے فقرے کی وضاحت کرتے ہوئے کہتے ہیں کہ وہ لوگ جو اپنے مال کی زکوٰۃ ادا کرتے ہیں جس کی ادائیگی اللہ تعالیٰ نے ان پر فرض کی ہے، اور ان کا وہ عمل، جس سے وہ بیان کیا گیا ہے، اس کی ادائیگی ہے۔ ’’اور جو اپنی شرمگاہوں کی حفاظت کرتے ہیں سوائے اپنی بیویوں کے‘‘ کے بارے میں فرماتے ہیں: وہ لوگ جو اپنی شرمگاہوں کی حفاظت کرتے ہیں۔ اس تناظر میں "پرائیویٹ پارٹس" سے اس کا مطلب ہے مردوں کے شرمگاہ، یعنی ان کے جنسی تعلقات۔ "گارڈ" کا مطلب ہے کہ وہ ان کو کسی بھی ایسی حرکت سے بچاتے ہیں جو جنسی طور پر ناپاک سمجھے جاتے ہیں۔ "سوائے ان کی بیویوں سے" کا مطلب ہے سوائے ان بیویوں کے جن کو خدا نے مردوں کے لیے نکاح کے ذریعے حلال کیا ہے۔ "یا جو ان کے دائیں ہاتھ کے پاس ہے" سے مراد ان کی لونڈیاں ہیں۔ لفظ "کیا" کے جملے میں "یا ان کے دائیں ہاتھ جو کچھ ہے" جینیاتی صورت میں ہے، جو "میاں بیوی" سے جڑا ہوا ہے۔ اس عبارت میں ابن عباس، ابن زید اور عطا کے بیانات بھی نقل کیے گئے ہیں۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=23&tAyahNo=4&tDisplay=yes&UserProfile=0&LanguageId=1

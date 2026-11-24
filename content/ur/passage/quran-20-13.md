@@ -2,10 +2,17 @@
 id: passage/quran-20-13
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-20-13.md}
 ---
 ## موجز
 الآية 13 من [[passage/quran-20|سورۃ طٰہ]]، وہ مکی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 13، سورت کی کل 135 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+الطبری آیت 13-14 کے اندر آیت کو ایک اکائی کے طور پر پڑھتا ہے۔ وہ اس جملے کی وضاحت کرتا ہے، "اور میں نے تمہیں چن لیا ہے، لہٰذا جو نازل ہوا ہے اسے سنو": تلاوت کرنے والوں نے اس کے پڑھنے میں اختلاف کیا۔ تلاوت کرنے والوں کی اکثریت نے "اے موسیٰ" کی پکار کے جواب میں راہبہ پر شدّہ کے ساتھ "اور میں" اور "میں" کے الف پر فاتحہ کے ساتھ پڑھا، گویا ان کے لیے معنی یہ تھا: "اے موسیٰ، میں تمہارا رب ہوں اور میں نے تجھے چن لیا ہے۔" یہ کوفہ کے اکثر قاریوں کا پڑھنا تھا۔ جہاں تک مدینہ اور بصرہ کے اکثر قراء کرام اور بعض اہل کوفہ کا تعلق ہے، وہ اسے ہلکی راہبہ کے ساتھ "اور میں نے آپ کو چن لیا ہے" کے طور پر پڑھتے ہیں، یہ اپنے بارے میں خدا کی طرف سے بیان کے طور پر کہ اس نے اسے منتخب کیا ہے۔ ابو جعفر نے کہا: اس معاملے میں میرے نزدیک صحیح قول یہ ہے کہ یہ دو قراءتیں ہیں جن میں سے ہر ایک کو قرآن کے علم والے قاریوں نے پڑھا ہے اور ان کے معنی ایک ہیں۔ پڑھنے والا جو بھی پڑھتا ہے وہ صحیح ہے۔ بیان کی تشریح یہ ہے: "یہ اعلان کیا گیا تھا، 'ہم نے آپ کو منتخب کیا ہے۔'" حوالہ مجاہد اور ابراہیم کے بیانات کا بھی حوالہ دیتا ہے۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=20&tAyahNo=13&tDisplay=yes&UserProfile=0&LanguageId=1

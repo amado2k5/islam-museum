@@ -2,10 +2,17 @@
 id: passage/quran-40-44
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-40-44.md}
 ---
 ## موجز
 الآية 44 من [[passage/quran-40|سورۃ غافر]]، وہ مکی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 44، سورت کی کل 85 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+الطبری نے آیات 44 تا 45 کے اندر آیت کو ایک حصے کے طور پر پڑھا ہے۔ وہ اس کے اس قول کی تشریح کرتا ہے: "پھر تم یاد کرو گے جو میں تم سے کہہ رہا ہوں، اور میں اپنا معاملہ خدا کے سپرد کرتا ہوں، بے شک، خدا [اپنے] بندوں کو دیکھنے والا ہے": خدا تعالیٰ فرماتا ہے کہ فرعون کے خاندان کے مومن نے فرعون اور اس کی قوم سے کیا کہا تھا: "پھر تم یاد کرو گے، اے لوگو، جب تم دیکھو گے کہ اللہ نے تم پر کیا عذاب کیا ہے اور تم پر کیا ہوا ہے۔ تم نے جو کچھ کہا ہے اس کی حقیقت اور جو کچھ میں نے تمہیں بتایا ہے اس کی حقیقت تم نے دیکھ لی ہے کہ فاسق لوگ جہنمی ہیں۔ جیسا کہ ابن زید نے اپنے اس قول کے بارے میں کہا: "پھر آپ کو یاد ہوگا جو میں آپ سے کہہ رہا ہوں" میں نے اس سے کہا: "کیا یہ آخرت میں ہے؟" اس نے کہا: ہاں۔ اس کے اس قول کہ ’’اور میں اپنا معاملہ خدا کے سپرد کرتا ہوں‘‘ کا مطلب ہے: میں اپنا معاملہ خدا کے سپرد کرتا ہوں، اس کے ہاتھ میں دیتا ہوں اور اسی پر بھروسہ کرتا ہوں، کیونکہ جو اس پر بھروسہ کرتا ہے اس کے لیے وہ کافی ہے۔ اس عبارت میں قتادہ اور ابن زید کے بیانات بھی نقل کیے گئے ہیں۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=40&tAyahNo=44&tDisplay=yes&UserProfile=0&LanguageId=1

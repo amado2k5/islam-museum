@@ -2,10 +2,17 @@
 id: passage/quran-60-9
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-60-9.md}
 ---
 ## موجز
 الآية 9 من [[passage/quran-60|سورۃ الممتحنہ]]، وہ مدنی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 9، سورت کی کل 13 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+اس کا یہ فرمان کہ "اللہ تمہیں صرف ان لوگوں سے دوستی کرنے سے منع کرتا ہے جنہوں نے تم سے تمہارے دین کی وجہ سے جنگ کی، تمہیں تمہارے گھروں سے نکالا اور تمہارے نکالنے میں مدد کی، اور جو ان سے دوستی کرے گا وہی ظالم ہیں"، اس کا بیان ہے: "اے ایمان والو، اللہ تمہیں صرف ان لوگوں سے دوستی کرنے سے روکتا ہے جنہوں نے تمہارے دین کی وجہ سے تم سے جنگ کی، اور تمہارے دین سے نکالے گئے"۔ گھر، اور آپ کے اخراج میں مدد کی۔ فرمایا: اور ان لوگوں کی حمایت نہ کرو جنہوں نے تمہیں تمہارے گھروں سے نکالا۔ تمہارے گھر تمہاری پناہ گاہ ہیں، تاکہ تم ان کے ساتھی اور مددگار بنو۔ ’’اور جو کوئی ان کے ساتھ اتحاد کرے‘‘ کا مطلب ہے: جو بھی ان کو بنائے، خواہ تم میں سے ہو یا دوسروں میں سے، ان کا حلیف، ’’تو وہی ظالم ہیں‘‘۔ اس کا مطلب یہ ہے کہ: یہ وہ لوگ ہیں جنہوں نے ان لوگوں کو اپنا ساتھی بنا لیا ہے جن سے انہیں دوستی کی اجازت نہیں ہے، اور ان کی بیعت کو غلط جگہ پر رکھا ہے، اور اس معاملے میں خدا کے حکم کی نافرمانی کی ہے۔ اس حوالے میں مجاہد سے منسوب بیانات کا بھی حوالہ دیا گیا ہے۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=60&tAyahNo=9&tDisplay=yes&UserProfile=0&LanguageId=1

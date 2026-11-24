@@ -2,10 +2,17 @@
 id: passage/quran-23-3
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-23-3.md}
 ---
 ## موجز
 الآية 3 من [[passage/quran-23|سورۃ المؤمنون]]، وہ مکی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 3، سورت کی کل 118 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+الطبری نے آیات 3 سے 5 تک کی آیت کو ایک حصے کے طور پر پڑھا ہے۔ وہ اپنے اس قول کی وضاحت کرتا ہے: "بے شک ایمان والے کامیاب ہیں": ابو جعفر نے کہا: اس کی تعریف کیا جائے، اس کے اس قول سے مراد ہے: "حقیقت میں کامیاب وہ مومن ہیں": وہ لوگ جو خدا اور اس کے رسول محمد پر ایمان لائے اور جو کچھ وہ خدا کی طرف سے لایا اس کو تسلیم کیا اور اس پر عمل کیا جس کی طرف اس نے انہیں بلایا، جس کا تذکرہ ان کے باغ میں آیا ہے اور ان کا ذکر ان کے باغ میں ہے۔ جو وہ اس سے مانگتے تھے۔ نیز: عبد الرزاق نے ہمیں معمر کی سند سے قتادہ کی روایت سے اس آیت کے بارے میں بیان کیا کہ "بے شک مومن کامیاب ہوئے" کہ کعب نے کہا: اللہ تعالیٰ نے صرف تین چیزیں اپنے ہاتھ سے پیدا کیں: اس نے آدم کو اپنے ہاتھ سے پیدا کیا، اس نے اپنے ہاتھ سے تورات لکھی، اور اس نے اپنے ہاتھ سے باغ عدن کو لگایا۔ پھر اس سے کہا کہ بولو، اور اس نے کہا کہ ایمان والے کامیاب ہوئے، کیونکہ اس کی عزت تھی۔ عمرو بن ابی قیس سے، عبد العزیز بن رافع کی روایت سے، مجاہد کی سند سے، انہوں نے کہا: جب اللہ تعالیٰ نے باغ لگایا تو اس کی طرف دیکھا اور فرمایا: یقیناً مومن کامیاب ہو گئے۔ اس عبارت میں مجاہد اور عطاء کے بیانات بھی شامل ہیں۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=23&tAyahNo=3&tDisplay=yes&UserProfile=0&LanguageId=1

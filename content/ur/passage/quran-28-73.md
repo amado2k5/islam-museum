@@ -2,10 +2,17 @@
 id: passage/quran-28-73
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-28-73.md}
 ---
 ## موجز
 الآية 73 من [[passage/quran-28|سورۃ القصص]]، وہ مکی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 73، سورت کی کل 88 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+اس کا یہ قول، "اور اپنی رحمت سے اس نے تمہارے لیے رات اور دن بنائے تاکہ تم اس میں آرام کرو اور اس کا فضل تلاش کرو، اور شاید تم شکر گزار ہو جاؤ،" اس طرح بیان کیا گیا ہے: "اور اس کی رحمت سے" تم پر اے لوگو، "اس نے تمہارے لیے رات اور دن بنائے،" اس طرح ان میں فرق پیدا ہو گیا۔ اس نے رات کو تاریک بنا دیا "تاکہ تم اس میں آرام کرو" اور امن و سکون حاصل کریں، جس سے آپ کے جسموں کو آپ کی روزمرہ کی مصروفیات سے آپ کی روزی روٹی کے لیے آرام ملے۔ اس کے اس بیان میں اسم ضمیر کے بارے میں، "تاکہ تم اس میں آرام کرو،" دو تعبیریں ہیں: ایک یہ کہ اس سے خاص طور پر رات مراد ہے، دوسرا ضمیر دن اور تلاش کے عمل کے لیے ہے۔ دوسری تعبیر یہ ہے کہ اس سے مراد رات اور دن کا ذکر ہے اور اس کی یکسانیت کی وجہ وہی ہے جو عربوں کے اس قول میں ہے کہ ’’تمہارا آنا جانا مجھے پریشان کرتا ہے‘‘ کیونکہ آنا اور جانا اعمال ہیں اور افعال واحد ہوتے ہیں خواہ ان کی تعدد کچھ بھی ہو۔ اس نے اس دن کو ایک روشنی بنایا جس سے تم دیکھتے ہو، تاکہ تم اپنی بینائی کو اپنی روزی کے لیے استعمال کرو اور اس رزق کو تلاش کرو جو اس نے اپنے فضل و کرم سے تمہارے درمیان تقسیم کیا ہے۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=28&tAyahNo=73&tDisplay=yes&UserProfile=0&LanguageId=1

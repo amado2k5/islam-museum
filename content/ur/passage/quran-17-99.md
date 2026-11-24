@@ -2,10 +2,17 @@
 id: passage/quran-17-99
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-17-99.md}
 ---
 ## موجز
 الآية 99 من [[passage/quran-17|سورۃ الاسراء]]، وہ مکی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 99، سورت کی کل 111 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+اس کا یہ قول کہ "کیا وہ نہیں دیکھتے کہ اللہ جس نے آسمانوں اور زمین کو پیدا کیا ہے وہ ان جیسی مخلوقات کو پیدا کرنے پر قادر ہے؟ اور اس نے ان کے لیے ایک میعاد مقرر کی ہے جس میں کوئی شک نہیں، لیکن ظالموں نے سوائے کفر کے انکار کیا ہے" کی وضاحت اس طرح کی گئی ہے: کیا یہ مشرک کہتے ہیں کہ جب ہم ہڈیاں اور مٹی ہیں تو کیا واقعی ہم دوبارہ زندہ کیے جائیں گے؟ ان کے دلوں کی آنکھوں سے غور نہ کرو، تاکہ وہ جان لیں کہ جس اللہ نے آسمانوں اور زمین کو پیدا کیا، ان کو کسی چیز سے پیدا نہیں کیا اور اپنی قدرت سے قائم کیا، اسی قدرت سے ان جیسی، ان کی شکلیں اور ان کے ہمنوا پیدا کرنے پر ان کے فنا ہونے کے بعد اور اس سے پہلے جو ایسا کرنے پر قادر ہے وہ یقیناً اس بات پر قادر ہے کہ وہ ان کو دوبارہ پیدا کر کے دوبارہ پیدا کر دیں اور اس کے اس قول کہ "اور اس نے ان کے لیے ایک مدت مقرر کی ہے جس میں کوئی شک نہیں" یعنی اللہ تعالیٰ نے ان مشرکوں کے لیے ان کی ہلاکت کا ایک وقت اور ان کے عذاب کا ایک وقت مقرر کیا ہے جس میں کوئی شک نہیں۔ وہ کہتا ہے: اس میں کوئی شک نہیں کہ وہ مدت پوری ہو جائے گی۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=17&tAyahNo=99&tDisplay=yes&UserProfile=0&LanguageId=1

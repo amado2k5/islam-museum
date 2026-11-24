@@ -2,10 +2,17 @@
 id: passage/quran-38-8
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-38-8.md}
 ---
 ## موجز
 الآية 8 من [[passage/quran-38|سورۃ ص]]، وہ مکی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 8، سورت کی کل 88 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+الطبری نے آیات 8 تا 9 کے اندر آیت کو ایک حصے کے طور پر پڑھا ہے۔ وہ اپنے اس قول کی وضاحت کرتا ہے، "کیا ان پر نصیحت ہم میں سے نازل ہوئی ہے؟ بلکہ وہ میری یاد دہانی کے بارے میں شک میں ہیں، بلکہ انہوں نے ابھی تک میرا عذاب نہیں چکھا۔" قریش کے ان مشرکوں نے جو کچھ کہا اس کی خبر دیتے ہوئے خدا تعالیٰ فرماتا ہے: کیا ہم میں سے محمد پر نصیحت نازل ہوئی ہے تاکہ وہ اس کے لیے مخصوص ہو اور وہ نسب میں ہم سے زیادہ شریف نہیں ہیں۔ اور اس کے کہنے کا کہ ’’لیکن وہ میری نصیحت کے بارے میں شک میں ہیں‘‘ کا مطلب یہ ہے کہ یہ مشرک اس بات سے ناواقف نہیں ہیں کہ محمدؐ سچے ہیں، بلکہ وہ ہماری طرف سے ان کی وحی اور اس قرآن کے بارے میں شک میں ہیں جو ہم نے ان پر نازل کیا ہے کہ یہ ہماری طرف سے ہے۔ ’’لیکن انہوں نے ابھی تک میرے عذاب کا مزہ نہیں چکھا‘‘ یعنی ہمارا عذاب ابھی تک ان پر نہیں آیا تاکہ وہ محمد کے انکار اور اس پر قرآن نازل کرنے کے بارے میں اپنے شک کا مزہ چکھیں۔ اگر وہ اس کی سزا کا مزہ چکھتے تو وہ جان لیں گے اور اس بات کا یقین کر لیں گے کہ وہ کس چیز کا انکار کر رہے ہیں، اس مقام پر ان کا علم انہیں فائدہ نہیں دے گا۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=38&tAyahNo=8&tDisplay=yes&UserProfile=0&LanguageId=1

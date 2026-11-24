@@ -2,10 +2,17 @@
 id: passage/quran-33-23
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-33-23.md}
 ---
 ## موجز
 الآية 23 من [[passage/quran-33|سورۃ الاحزاب]]، وہ مدنی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 23، سورت کی کل 73 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+الطبری نے آیت 23 سے 24 تک کی آیت کو ایک حصے کے طور پر پڑھا ہے۔ اس کا بیان، "مومنوں میں سے وہ لوگ ہیں جنہوں نے اللہ کے ساتھ اپنے عہد کو سچا کیا، ان میں سے کچھ نے اپنی نذر پوری کر دی، اور کچھ ابھی تک انتظار میں ہیں، اور انہوں نے اس میں ذرا سی بھی تبدیلی نہیں کی،" اللہ تعالیٰ فرماتا ہے، "مومنوں میں سے" اللہ اور اس کے رسول پر، "وہ لوگ ہیں جنہوں نے اللہ سے کیے ہوئے اپنے عہد کو سچا کیا۔" وہ کہتا ہے: انہوں نے مصیبت اور سختی اور جنگ کے وقت صبر کے بارے میں جو وعدہ کیا تھا اسے پورا کیا۔ "ان میں سے کچھ نے اپنی منت پوری کر دی ہے۔" فرماتے ہیں: ان میں سے بعض نے وہ کام پورا کیا جس کا اللہ تعالیٰ نے انہیں حکم دیا تھا اور ان پر فرض کیا تھا، چنانچہ بعض جنگ بدر میں، بعض احد کی جنگ میں اور بعض دیگر غزوات میں شہید ہوئے۔ اور ان میں ایسے بھی ہیں جو اس کی تکمیل اور تکمیل کے منتظر ہیں، جس طرح ان سے پہلے آنے والوں نے خدا کے ساتھ اپنے عہد کو پورا کیا اور خدا کی طرف سے فتح حاصل کی اور اپنے دشمن پر فتح پائی۔ لفظ "نحب" کا مطلب عربی میں نذر ہے۔ اس آیت میں مجاہد، ابن جریج، ابن اسحاق اور سفیان کے بیانات بھی نقل کیے گئے ہیں۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=33&tAyahNo=23&tDisplay=yes&UserProfile=0&LanguageId=1

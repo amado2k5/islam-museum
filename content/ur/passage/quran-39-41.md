@@ -2,10 +2,17 @@
 id: passage/quran-39-41
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-39-41.md}
 ---
 ## موجز
 الآية 41 من [[passage/quran-39|سورۃ الزمر]]، وہ مکی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 41، سورت کی کل 75 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+وہ اپنے بیان کی وضاحت کرتے ہوئے فرماتے ہیں: ’’بے شک ہم نے آپ پر یہ کتاب لوگوں کے لیے حق کے ساتھ نازل کی ہے، پس جو کوئی ہدایت یافتہ ہو وہ اس کے اپنے لیے ہے، اور جو گمراہ ہوا تو اس کا اپنا ہی نقصان ہے، اور آپ ان پر نگہبان نہیں ہیں۔ ’’پس جو شخص ہدایت پاتا ہے وہ اس کی اپنی جان کے لیے ہے۔‘‘ فرمایا: جس نے اس کتاب کے مطابق عمل کیا جو ہم نے اس پر نازل کی ہے اور اس کی پیروی کرے گا تو یہ اس کے اپنے نفس کے لیے ہے۔ وہ کہتا ہے: وہ صرف اپنے نفس کے لیے اس کے مطابق عمل کرتا ہے، اور یہ اپنے نفس کے لیے ہے کہ وہ بھلائی کی تلاش کرتا ہے، کسی اور چیز کے لیے نہیں، کیونکہ وہ اس سے خدا کی رضا، جنت کا حصول اور جہنم سے نجات حاصل کرتا ہے۔ ’’اور جو گمراہ ہو جائے‘‘ کا مطلب ہے: جو کوئی اس کتاب سے جو ہم نے آپ پر نازل کی ہے اور اس کی واضح وضاحت سے جو ہم نے فراہم کی ہے انحراف کرتا ہے، اس طرح سیدھے راستے سے بھٹک جاتا ہے اور راہ راست سے ہٹ جاتا ہے، وہ صرف اپنے آپ پر ظلم کرتا ہے اور اپنے آپ پر تباہی اور بربادی لاتا ہے، کیونکہ وہ خدا کا غضب، اس کا دردناک عذاب اور ہمیشہ کی رسوائی حاصل کرتا ہے۔ اس عبارت میں قتادہ سے منسوب بیانات کا بھی حوالہ دیا گیا ہے۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=39&tAyahNo=41&tDisplay=yes&UserProfile=0&LanguageId=1

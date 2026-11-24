@@ -2,8 +2,8 @@
 id: passage/quran-27-26
 lang: tr
 source_lang: ar
-translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-23), draft translation']
-provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-23, source: content/ar/passage/quran-27-26.md}
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-23), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-tr-2026-11-24, source: content/ar/passage/quran-27-26.md}
 ---
 
 ## Özet
@@ -11,3 +11,9 @@ Mekke suresi olan En-Naml Suresi [[passage/quran-27|'nin 26]]. ayeti. {cite:tanz
 
 ## Konumu
 Konumu: Suredeki 93 ayetten 26. ayet. Metin Mushaf Tazil al-Mujjard'dan korunmuş olup burada yeniden yazılmamıştır.
+
+## El-Taberi'nin Tafsir'inde
+
+Taberi, 26-27. ayetler içindeki bu ayeti tek bir bölüm olarak okur. “Göklerde ve yerde gizli olanı açığa çıkaran, gizlediğinizi ve açıkladığınızı bilen Allah’a neden secde etmiyorlar?” sözünü şöyle açıklar: “Allah’a neden secde etmiyorlar?” ayetinin okunuşunda bazı okuyucular farklı görüşler belirtmişlerdir. Mekkelilerden, Medinelilerden ve Küfelilerden bazıları bunu “Ey insanlar, secde edin!” şeklinde, hafif bir telaffuzla okumuşlardır; bu nedenle “bu insanlar” ibaresini atlamışlardır, çünkü “Ey” edatı yeterlidir. Bazıları ise Araplardan duyduklarını belirtmişlerdir: “Ey Allah, bize merhamet et! Ey Allah, bize sadaka ver!” Ayrıca el-Akhtal’ın şu ayetini de aktarmışlardır: “Ey Hind, güvende ol! Ey Hind, Bedir Peygamberi, canlarımız sonsuza dek düşman olsa bile!” Bu okumaya göre, bu durumda "secde etmek" fiili emir kipindedir ve "O" kelimesinin gramerde bir işlevi yoktur. Medine, Kufe ve Basra'daki okuyucuların çoğu bunu "secde etmesinler diye" şeklinde okur ve "ki" vurgulanır, yani: "Ve şeytan onların amellerini onlara güzel gösterdi ki Allah'a secde etmesinler." "Ki" fiili anlamından dolayı belirtme halindedir, "ki" fiili de ima edilen "ki" nedeniyle belirtme halindedir. Bu pasaj ayrıca Mücahid ve İbn Zeyd'den de ifadeler içermektedir.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=27&tAyahNo=26&tDisplay=yes&UserProfile=0&LanguageId=1

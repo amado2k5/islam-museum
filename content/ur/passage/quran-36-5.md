@@ -2,10 +2,17 @@
 id: passage/quran-36-5
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-36-5.md}
 ---
 ## موجز
 الآية 5 من [[passage/quran-36|سورۃ یس]]، وہ مکی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 5، سورت کی کل 83 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+فقرہ "سب غالب، رحمٰن کی طرف سے ایک وحی" کی وضاحت اس طرح کی گئی ہے: تلاوت کرنے والوں نے اس فقرے کو پڑھنے میں اختلاف کیا ہے کہ "اللہ تعالیٰ کی طرف سے ایک وحی ہے"۔ مدینہ اور بصرہ کے اکثر قراء نے اسے "اللہ تعالیٰ کی طرف سے ایک وحی" کے طور پر پڑھا ہے اور نامزد صورت میں "وحی" کے ساتھ۔ اس پڑھنے کی دو طرح سے تشریح کی جا سکتی ہے: پہلا، پیشین گوئی کے طور پر، جس کا مطلب ہے "یہ سب غالب، رحمٰن کی طرف سے نازل ہوا ہے۔" دوسرا، موضوع کے طور پر، جس کا مطلب ہے کہ "آپ رسولوں میں سے ہیں؛ یہ سب غالب، رحمٰن کی طرف سے نازل کردہ ہے۔" کوفہ کے اکثر قراء کرام اور بعض اہل شام اس کو "وحی" کے طور پر پڑھتے ہیں، الزامی صورت میں، "تم رسولوں میں سے ہو" کے لفظی اسم کے طور پر پڑھتے ہیں، کیونکہ رسولوں کے بھیجنے کا تعلق وحی سے ہے۔ اس طرح گویا کہا گیا ہے کہ ’’اس کے لیے جو حقیقی طور پر غالب اور رحمٰن کی وحی نازل کرتا ہے۔‘‘ اس معاملے میں میری رائے میں صحیح قول یہ ہے کہ مختلف خطوں کے قراء ات میں یہ دو معروف قراء ات ہیں اور معنی میں ایک جیسے ہیں۔ قاری جس میں سے بھی انتخاب کرے وہ صحیح ہے۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=36&tAyahNo=5&tDisplay=yes&UserProfile=0&LanguageId=1

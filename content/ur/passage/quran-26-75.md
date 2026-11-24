@@ -2,10 +2,17 @@
 id: passage/quran-26-75
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-26-75.md}
 ---
 ## موجز
 الآية 75 من [[passage/quran-26|سورۃ الشعراء]]، وہ مکی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 75، سورت کی کل 227 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+الطبری نے آیات 75-77 کے اندر آیت کو ایک حصے کے طور پر پڑھا ہے۔ وہ ان الفاظ کی تشریح کرتا ہے، "اس نے کہا، 'کیا تم نے غور کیا ہے کہ تم کس چیز کی پوجا کرتے رہے ہو؟'" اس طرح: ابراہیم نے اپنی قوم سے کہا، "اے لوگو، کیا تم نے غور کیا ہے کہ تم اور تمہارے آباؤ اجداد ان بتوں کی کیا پوجا کرتے رہے ہیں؟" "آباؤ اجداد" سے اس کا مطلب ہے وہ لوگ جو ان سے پہلے آئے، وہ جو ابرہام کی طرح بتوں کی پوجا کرتے تھے۔ "وہ میرے دشمن ہیں، سوائے رب العالمین کے۔" کوئی پوچھ سکتا ہے کہ لکڑی، لوہا اور تانبا ابن آدم کا دشمن کیسے قرار دیا جا سکتا ہے؟ اس کا مطلب یہ ہے کہ اگر میں قیامت کے دن ان کی پرستش کروں تو وہ میرے دشمن ہوں گے، جیسا کہ اللہ تعالیٰ نے فرمایا: "اور انہوں نے اللہ کے سوا معبود بنا لیے ہیں تاکہ وہ ان کے لیے طاقت کا سرچشمہ بنیں، نہیں، وہ ان کی عبادت کا انکار کریں گے اور ان کے مخالف ہوں گے۔" اور اس کا یہ قول: "سوائے رب العالمین" استثنیٰ کے طور پر الزامی صورت میں ہے، اور "دشمن" جمع میں ہے، لیکن یہ واحد میں ہے کیونکہ یہ لفظی اسم کے طور پر استعمال ہوتا ہے، جیسے "بیٹھنا" اور "بیٹھنا۔" اس عبارت میں ابراہیم سے منسوب بیانات بھی شامل ہیں۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=26&tAyahNo=75&tDisplay=yes&UserProfile=0&LanguageId=1

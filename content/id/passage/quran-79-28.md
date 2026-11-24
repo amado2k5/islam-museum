@@ -2,8 +2,8 @@
 id: passage/quran-79-28
 lang: id
 source_lang: ar
-translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-23), draft translation']
-provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-23, source: content/ar/passage/quran-79-28.md}
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-23), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-id-2026-11-24, source: content/ar/passage/quran-79-28.md}
 ---
 
 ## Ringkasan
@@ -11,3 +11,9 @@ Ayat 28 Surah [[passage/quran-79|An-Nazi'at]], yang merupakan surah Mekah. {cite
 
 ## Posisinya
 Lokasinya: ayat 28 dari 46 dalam surat. Teks ini disimpan dari Mushaf Tazl al-Mujmad dan tidak ditulis ulang di sini.
+
+## Dalam Tafsir al-Tabari
+
+Al-Tabari membaca ayat dalam ayat 28 sampai 31 sebagai satu bagian. Ia menjelaskan firman-Nya, “Maka Allah menimpanya dengan azab akhirat dan dunia pertama,” yang berarti bahwa Allah, Maha Tinggi, bermaksud dengan firman-Nya, “Maka Allah menimpanya,” bahwa Allah menghukumnya dengan “azab akhirat dan dunia pertama.” Ia mengatakan bahwa azab akhirat berasal dari dua pernyataan-Nya, yaitu firman-Nya, “Aku adalah Tuhanmu, Yang Maha Tinggi,” dan yang pertama adalah firman-Nya, “Aku tidak mengenal tuhan selain Aku bagimu.” Dalam bagian tersebut, ia mengutip perkataan dari Ibnu Abbas, Mujahid, Ibnu Zayd, Al-A’mash, dan Sufyan.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=79&tAyahNo=28&tDisplay=yes&UserProfile=0&LanguageId=1

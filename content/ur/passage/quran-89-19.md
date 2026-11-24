@@ -2,10 +2,17 @@
 id: passage/quran-89-19
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-89-19.md}
 ---
 ## موجز
 الآية 19 من [[passage/quran-89|سورۃ الفجر]]، وہ مکی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 19، سورت کی کل 30 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+الطبری نے آیات 19 سے 22 تک کی آیت کو ایک حصے کے طور پر پڑھا ہے۔ وہ اپنے اس قول کی وضاحت کرتا ہے: "لیکن جب وہ اسے آزماتا ہے اور اس کے رزق کو محدود کرتا ہے تو کہتا ہے کہ 'میرے رب نے مجھے ذلیل کیا ہے'": اور اس کا یہ کہنا کہ "لیکن جب وہ اسے آزماتا ہے اور اس کا رزق تنگ کرتا ہے" کا مطلب ہے: لیکن جب اس کا رب اسے غربت سے آزماتا ہے ، "اور اس کے رزق کو محدود کردیتا ہے" تو وہ کہتا ہے: وہ اس کے رزق کو تنگ کرتا ہے اور اس کی تنگی نہیں کرتا ہے ، لہذا اس کی دولت میں اضافہ نہیں ہوتا ہے۔ کہتا ہے کہ میرے رب نے مجھے ذلیل کیا، وہ کہتا ہے: وہ شخص کہتا ہے: میرے رب نے مجھے ذلیل کیا، وہ کہتا ہے: اس نے مجھے غربت میں پست کر دیا، اور وہ اللہ کا شکر ادا نہیں کرتا جو اس نے اسے اعضاء صحت اور جسم میں صحت بخشی ہے۔ اور قتادہ نے اس آیت کے بارے میں کہا: "لیکن جب وہ اسے آزماتا ہے اور اس کا رزق تنگ کر دیتا ہے تو کہتا ہے کہ میرے رب نے مجھے ذلیل کر دیا ہے": ابن آدم کتنی جلدی ناشکرا ہو جاتا ہے۔ ابن زید نے اس جملے کے بارے میں کہا کہ "اور اس کے رزق کو محدود کرتا ہے" اس کا مطلب ہے کہ وہ اسے مشکل بناتا ہے۔ اس عبارت میں قتادہ اور ابن زید کے بیانات بھی شامل ہیں۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=89&tAyahNo=19&tDisplay=yes&UserProfile=0&LanguageId=1

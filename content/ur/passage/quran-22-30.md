@@ -2,10 +2,17 @@
 id: passage/quran-22-30
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-22-30.md}
 ---
 ## موجز
 الآية 30 من [[passage/quran-22|سورۃ الحج]]، وہ مدنی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 30، سورت کی کل 78 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+اس کا فرمان ہے کہ "ایسا ہی ہے اور جو اللہ کے مقدس احکام کی تعظیم کرے گا، یہ اس کے رب کے نزدیک اس کے لیے بہتر ہے، اور تمہارے لیے مویشی چرانے کی اجازت دی گئی ہے، سوائے اس کے جو تم پر پڑھی جاتی ہے، لہٰذا بتوں سے بچو اور جھوٹی باتوں سے بچو،" کا مطلب یہ ہے کہ اس کے فرمان کا مطلب یہ ہے کہ اس کا فرمان ہے: عبادات، منتیں پوری کرنا اور قدیم گھر کا طواف کرنا، اے لوگو، تمہارے حج میں تم پر فرض ہے۔ "اور جو شخص خدا کے مقدس احکام کی تعظیم کرتا ہے، یہ اس کے رب کے نزدیک اس کے لیے بہتر ہے۔" اس کا مطلب ہے: جو شخص احرام کی حالت میں خدا کی حدود اور اس کے مقدس احکام کی تعظیم کی وجہ سے جس چیز سے بچنے کا خدا نے اسے حکم دیا ہے اس سے بچتا ہے تو یہ اس کے لئے آخرت میں اس کے رب کے نزدیک بہتر ہے۔ جیسا کہ حجاج نے ابن جریج کی روایت سے کہا ہے کہ: مجاہد نے اس آیت کے بارے میں کہا: "ایسا ہی ہے، اور جو شخص خدا کے مقدس احکام کی تعظیم کرتا ہے" کہ مقدس احکام مکہ، حج، عمرہ اور وہ تمام چیزیں ہیں جن کو خدا نے اس کے گناہوں سے منع کیا ہے۔ اسی طرح کی روایت مجاہد کی سند سے ابن ابی نجیح سے بھی منقول ہے۔ اس عبارت میں ابن عباس، مجاہد اور ابن زید کے بیانات بھی شامل ہیں۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=22&tAyahNo=30&tDisplay=yes&UserProfile=0&LanguageId=1

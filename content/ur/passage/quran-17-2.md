@@ -2,10 +2,17 @@
 id: passage/quran-17-2
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-17-2.md}
 ---
 ## موجز
 الآية 2 من [[passage/quran-17|سورۃ الاسراء]]، وہ مکی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 2، سورت کی کل 111 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+اس کا یہ قول، "اور ہم نے موسیٰ کو کتاب دی اور اسے بنی اسرائیل کے لیے ہدایت بنایا، [حکم دیا] کہ وہ میرے سوا کسی کو سرپرست نہ بنائیں،" اس طرح بیان کیا گیا ہے: پاک ہے وہ جس نے اپنے بندے کو راتوں رات لے لیا اور موسیٰ کو کتاب دی۔ بیان "اور ہم نے دیا" پر واپس آتا ہے، اگرچہ یہ "لیا" سے شروع ہوتا ہے کیونکہ جیسا کہ ہم نے پہلے ذکر کیا ہے، عرب اکثر تیسرے شخص کے بارے میں بیانیہ شروع کرتے ہیں اور پھر براہ راست خطاب پر واپس آتے ہیں۔ موسیٰ کو دی گئی کتاب تورات سے مراد ہے۔ ’’اور ہم نے اسے بنی اسرائیل کے لیے ہدایت بنایا‘‘ کا مطلب ہے: ہم نے اس کتاب کو بنایا جو تورات ہے، حق کی واضح وضاحت اور ان کے لیے نیکی کی راہ کی طرف رہنمائی کرنے والی اس چیز میں جس کا اس نے ان پر فرض کیا، ان کو کرنے کا حکم دیا اور ان سے منع کیا۔ ان کا یہ قول کہ ’’میرے علاوہ کسی کو سرپرست نہ بناؤ‘‘ کو تلاوت کرنے والوں نے مختلف انداز میں پڑھا ہے۔ مدینہ اور کوفہ کے اکثر قراء نے اسے "ط" کے حرف کے ساتھ "مت لو" کے طور پر پڑھا ہے: "اور ہم نے موسیٰ کو کتاب دی تھی کہ اے بنی اسرائیل تم میرے علاوہ کسی کو ولی نہ بنانا۔" اس عبارت میں مجاہد اور قتادہ سے منسوب بیانات بھی شامل ہیں۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=17&tAyahNo=2&tDisplay=yes&UserProfile=0&LanguageId=1

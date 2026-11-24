@@ -2,11 +2,17 @@
 id: passage/quran-89-14
 lang: es
 source_lang: en
-translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
-provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate documents, managed by Claude Code)', model: google-translate, run: gt-docs-es-2026-11-19, source: content/en/passage/quran-89-14.md}
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-es-2026-11-24, source: content/ar/passage/quran-89-14.md}
 ---
 ## Resumen
 Versículo 14 de [[passage/quran-89|Surat al-Fajr]], una sura de La Meca. {cite:tanzil-quran}
 
 ## Lugar en el museo
 Su ubicación: versículo 14 de 30 versículos en la sura. El texto se conserva en el Mushaf congelado de Tanzil y no se reproduce aquí.
+
+## En el comentario de al-Tabari
+
+Al-Tabari lee el versículo comprendido entre los versículos 12 y 15 como una sola sección. Interpreta la frase «En verdad, tu Señor está siempre atento»: «¡Oh Muhammad!, tu Señor está siempre atento a aquellos cuyas historias te he relatado, y a otros como ellos entre los incrédulos, observando sus obras en este mundo y en el Más Allá, en los puentes del Infierno, para arrojarlos a él cuando lleguen el Día de la Resurrección». Los eruditos de la interpretación discreparon en su comprensión de este versículo. Algunos dijeron que el significado de «siempre atento» es que Él ve y oye. En esta sección, cita interpretaciones de Ibn Abbas, Mujahid, Qatadah, al-Dahhak, al-Hasan, Ibn Zayd y otros.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=89&tAyahNo=14&tDisplay=yes&UserProfile=0&LanguageId=1

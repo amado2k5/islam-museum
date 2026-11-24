@@ -2,10 +2,17 @@
 id: passage/quran-18-7
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-18-7.md}
 ---
 ## موجز
 الآية 7 من [[passage/quran-18|سورۃ الکہف]]، وہ مکی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 7، سورت کی کل 110 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+الطبری نے آیات 7 سے 9 تک آیت کو ایک حصے کے طور پر پڑھا ہے۔ وہ اس کے اس قول کی تشریح کرتا ہے، "شاید تم اپنے آپ کو ان کے قدموں پر غم سے تباہ کر دو گے اگر وہ اس پیغام پر ایمان نہ لائیں"، اس کا مطلب یہ ہے کہ، وہ اس کے معنی میں ہے: شاید، اے محمد، آپ اپنے آپ کو مار ڈالیں گے اور اپنے آپ کو اپنی قوم کے نقش قدم پر تباہ کر دیں گے جنہوں نے آپ سے کہا تھا، "ہم آپ پر اس وقت تک ایمان نہیں لائیں گے جب تک کہ آپ ایک چشمہ جاری نہ کریں"، اگر وہ آپ کے خلاف اس کتاب پر ایمان نہ لائیں جو ان کے رب کے خلاف ہمارے لیے بغاوت نہ کریں۔ آپ پر نازل ہوا اور تسلیم کریں کہ یہ خدا کی طرف سے ہے، غم، آرزو اور غم کی وجہ سے، ان کے آپ سے منہ موڑنے، آپ کے لائے ہوئے چیزوں سے انکار، اور آپ پر ایمان چھوڑنے کی وجہ سے۔ اس کے بارے میں کہا جاتا ہے: فلاں نے اپنے آپ کو قربان کیا، وہ اپنے آپ کو قربان کرتا ہے، اور اسی سے ذوالرمہ کا قول ہے: اے اپنے آپ کو اس چیز کی تمنا میں قربان کرنے والے جو تقدیر نے تمہارے ہاتھ سے ہٹا دی، یعنی اسے ہٹا دیا، پس اس نے اسے ہلکا کر دیا۔ اور اس آیت میں مجاہد، قتادہ، ابن جریج اور ابن اسحاق کے اقوال نقل کیے ہیں۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=18&tAyahNo=7&tDisplay=yes&UserProfile=0&LanguageId=1

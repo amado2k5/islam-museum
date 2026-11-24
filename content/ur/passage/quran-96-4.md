@@ -2,10 +2,17 @@
 id: passage/quran-96-4
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-96-4.md}
 ---
 ## موجز
 الآية 4 من [[passage/quran-96|سورۃ العلق]]، وہ مکی سورت ہے۔ {cite:tanzil-quran} اہل علم کے نزدیک اس کا نزول [[event/first-revelation|بدء الوحي في غار حراء]] سے جڑا ہے۔ {cite:mubarakpuri-raheeq} {cite:sahih-al-bukhari}
 
 ## موضعها
 موضعها: آیت 4، سورت کی کل 19 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+الطبری نے آیات 4 سے 11 تک کی آیت کو ایک حصے کے طور پر پڑھا ہے۔ وہ "پڑھ اپنے رب کے نام سے جس نے پیدا کیا" کے جملے کی وضاحت کرتا ہے: وہ، اس کی حمد بلند کرے، اس کے الفاظ سے مراد ہے، "پڑھ اپنے رب کے نام سے" کہ محمد کہہ رہا ہے: پڑھ اے محمد، اپنے رب کا ذکر کرتے ہوئے "جس نے پیدا کیا۔" پھر وہ واضح کرتا ہے کہ کس نے پیدا کیا، یہ کہتے ہوئے، "اس نے انسان کو لوتھڑے سے پیدا کیا،" یعنی خون سے۔ وہ کہتا ہے "جمے سے"، لیکن جس کا مطلب ہے "جمے سے"، کیونکہ اس نے جمع کا استعمال کیا ہے، جس طرح وہ کہتا ہے "درخت" اور "درخت" یا "سرکنڈوں" اور "سرکنڈوں" اور اسی طرح "کلٹ" اور "کلٹ"۔ اس نے ایک ہی لفظ میں "ایک جمنے سے" اور "انسان" کہا کیونکہ یہ ایک ہی لفظ میں ہونے کے باوجود جمع معنی رکھتا ہے۔ لہذا، یہ کہا جاتا ہے "ایک جمنے سے." اس کے اس قول، "پڑھو، اور آپ کا رب سب سے زیادہ کریم ہے" کا مطلب ہے: پڑھو، اے محمد، اور آپ کا رب سب سے زیادہ کریم ہے، "جس نے قلم سے سکھایا،" یعنی اس نے تحریر اور رسم الخط پیدا کیا۔ جہاں تک قتادہ کا تعلق ہے، "پڑھ اپنے رب کے نام سے جس نے پیدا کیا"، اس نے تلاوت کی یہاں تک کہ وہ "قلم سے سکھائے گئے" تک پہنچ گئے۔ فرمایا: قلم خدا کی عظیم نعمت ہے؛ اگر یہ نہ ہوتا تو زندگی نہ ہوتی اور نہ ہی یہ صالح ہوتی۔ اس عبارت میں قتادہ سے منسوب بیانات بھی شامل ہیں۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=96&tAyahNo=4&tDisplay=yes&UserProfile=0&LanguageId=1

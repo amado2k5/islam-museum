@@ -2,10 +2,17 @@
 id: passage/quran-33-38
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-33-38.md}
 ---
 ## موجز
 الآية 38 من [[passage/quran-33|سورۃ الاحزاب]]، وہ مدنی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 38، سورت کی کل 73 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+ان کا یہ قول کہ "جو کچھ اللہ نے ان کے لیے حلال کیا ہے اس میں نبی پر کوئی گناہ نہیں ہے، یہ اللہ کا طریقہ ہے جو پہلے گزر چکے ہیں، اور اللہ کا حکم طے شدہ ہے،" بیان کرتے ہیں: نبی پر اس بات میں کوئی حرج نہیں ہے کہ اللہ نے ان کے لیے اپنے لے پالک بیٹے کی عورت سے شادی کرنے کے بارے میں جو ان سے علیحدگی کے بعد حلال کیا ہے، جیسا کہ نبی نے فرمایا: "قضاً اللہ نے اس کے لیے حلال کر دیا ہے۔‘‘ اس کے بیان، "ان کے ساتھ جو پہلے گزر چکے ہیں خدا کا قائم کردہ طریقہ" کا مطلب یہ ہے کہ خدا اپنے نبی کو اس چیز کے لئے جوابدہ نہیں ٹھہرائے گا جس کی اس نے اسے اجازت دی تھی، جس طرح اس نے انبیاء کو اس کے لئے جوابدہ نہیں ٹھہرایا جس کی اس نے انہیں اجازت دی تھی۔ اس کے نبی کے پاس لوگوں سے ڈرنے کی کوئی وجہ نہیں تھی کہ اس نے اسے کیا حکم دیا یا اس کی اجازت دی۔ فقرہ "خدا کا قائم کردہ طریقہ" الزامی صورت میں ہے، جس کا مطلب ہے "خدا کی طرف سے ایک حق،" گویا اس نے کہا، "ہم نے یہ اپنے قائم کردہ عمل کے مطابق کیا۔" اس کے بیان، "اور خدا کا حکم ایک مقررہ حکم ہے،" کا مطلب یہ ہے کہ خدا کا حکم پہلے سے طے شدہ حکم تھا۔ اس عبارت میں قتادہ اور ابن زید کے بیانات بھی شامل ہیں۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=33&tAyahNo=38&tDisplay=yes&UserProfile=0&LanguageId=1

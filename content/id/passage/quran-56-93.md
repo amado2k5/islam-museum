@@ -2,8 +2,8 @@
 id: passage/quran-56-93
 lang: id
 source_lang: ar
-translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-23), draft translation']
-provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-23, source: content/ar/passage/quran-56-93.md}
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-23), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-id-2026-11-24, source: content/ar/passage/quran-56-93.md}
 ---
 
 ## Ringkasan
@@ -11,3 +11,7 @@ Ayat 93 Surah [[passage/quran-56|Al-Waqi'ah]], yang merupakan surah Mekah. {cite
 
 ## Posisinya
 Lokasinya: Ayat 93 dari 96 dalam surat. Teks ini disimpan dari Mushaf Tazil al-Mujjard dan tidak ditulis ulang di sini.
+
+## Dalam Tafsir al-Tabari
+
+Al-Tabari membahas ayat ini dalam satu bagian yang mencakup ayat-ayat berikut: [[passage/quran-56-90|56:90]] ke [[passage/quran-56-94|56:94]] Singkatnya: Al-Tabari menjelaskan bahwa jika orang yang meninggal termasuk golongan orang-orang yang benar yang dibawa ke Surga, maka salam sejahtera dari mereka menyertai Anda. Ia meriwayatkan dari Qatadah bahwa itu adalah salam dari Allah dan para malaikat-Nya memberi salam kepadanya. Ia menyebutkan hadits-hadis lain, kemudian ia menyebutkan bahwa jika ia termasuk golongan orang-orang yang mengingkari dan sesat, maka ia akan turun dari air mendidih dan terbakar di Neraka. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=56&tAyahNo=93&tDisplay=yes&UserProfile=0&LanguageId=1

@@ -2,12 +2,8 @@
 id: passage/quran-14-31
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
-provenance:
-  generated_by: "Claude Code (Haiku 5.5 session)"
-  model: claude-haiku-5-5
-  run: altafsir-tabari-batch-1-2026-11-23
-  source: source/altafsir-tabari
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-14-31.md}
 ---
 ## موجز
 الآية 31 من [[passage/quran-14|سورۃ ابراہیم]]، وہ مکی سورت ہے۔ {cite:tanzil-quran}
@@ -17,6 +13,6 @@ provenance:
 
 ## تفسیر طبری
 
-ابن عباس کی روایت کے مطابق طبری آیت میں نماز سے پانچ فرض نمازیں اور خرچ سے مال کی زکوٰۃ مراد لیتے ہیں۔ اس دن خرید و فروخت اور دوستی کی نفی کو وہ اس معنی میں لیتے ہیں کہ کوئی فدیہ قبول نہیں ہوگا۔ قتادہ کے مطابق وہ دوستیاں ختم ہو جائیں گی جو اللہ کے لیے نہ ہوں۔
+الطبری کہتے ہیں کہ خدا اپنے نبی کو حکم دیتا ہے کہ وہ اپنے بندوں سے کہے جو ان پر ایمان لائے اور جو کچھ وہ ان کے لیے لائے ہیں ان سے کہو: وہ پانچوں نمازیں اپنی مقررہ حدود کے مطابق قائم کریں، اور جو کچھ خدا نے ان کے لیے دیا ہے اور اپنے فضل سے انہیں دیا ہے اس میں سے وہ چھپے اور کھلے طور پر خرچ کریں، اس طرح اپنی ذمہ داریوں کو ظاہر اور خفیہ طور پر پورا کریں۔ وہ اس کی تشریح کرتا ہے "اس سے پہلے کہ ایک ایسا دن آئے جس میں کوئی تبادلہ نہ ہو" اس کا مطلب یہ ہے کہ اس روح کے لیے کوئی فدیہ یا معاوضہ قبول نہیں کیا جائے گا جس پر اس دنیا میں کیے گئے گناہ کے لیے خدا کی سزا واجب ہے۔ کوئی تاوان ادا نہیں کیا جائے گا اور نہ ہی جان کو بخشا جائے گا۔ وہ تاوان معاوضہ کہتا ہے کیونکہ یہ کسی چیز کے متبادل کے طور پر لیا جاتا ہے۔ "کوئی دوستی نہیں" کا مطلب ہے کہ کوئی قریبی دوستی نہیں ہوگی جہاں کوئی کسی ایسے شخص کو معاف کر دے جو سزا کا مستحق ہو۔ بلکہ عدل و انصاف ہو گا۔ "یکجہتی" ⁦(خلال)⁩ اس جملے سے ماخوذ ہے "میں نے فلاں سے دوستی کی" اور اس نے ثبوت کے طور پر عمرو القیس کی ایک آیت کا حوالہ دیا۔
 
 {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=14&tAyahNo=31&tDisplay=yes&UserProfile=0&LanguageId=1

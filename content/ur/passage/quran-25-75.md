@@ -2,10 +2,17 @@
 id: passage/quran-25-75
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-25-75.md}
 ---
 ## موجز
 الآية 75 من [[passage/quran-25|سورۃ الفرقان]]، وہ مکی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 75، سورت کی کل 77 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+وہ اپنے اس قول کی وضاحت کرتا ہے، "ان لوگوں کو جنت میں اعلیٰ مقام سے نوازا جائے گا جس کا انہوں نے صبر کیا، اور وہاں ان کا استقبال سلام اور سلامتی سے کیا جائے گا۔" یہ وہ لوگ ہیں جن کی خصوصیات میں نے اپنے بندوں میں سے بیان کی ہیں، اس کے اس فرمان کے آغاز سے، "اور رحمٰن کے بندے وہ ہیں جو زمین پر آسانی سے چلتے ہیں..." اس کے اس فرمان سے، "اور جو کہتے ہیں کہ اے ہمارے رب، ہمیں ہماری بیویوں میں سے عطا فرما..." آیت "ثواب ملے گا" کا مطلب ہے: ان کو اس جنت میں اعلیٰ مقام دیا جائے گا، جس کا بدلہ انہیں دنیا میں دیا جائے گا۔ جو کہ جنت کے مقامات میں سے ایک بلند مقام ہے "جو انہوں نے صبر کیا،" یعنی: ان اعمال کے ساتھ ان کے صبر اور ان کی سختیوں کو برداشت کرنے کے لیے۔ اس آیت کے بارے میں کہ "اور ان کا اس میں سلام اور سلامتی سے استقبال کیا جائے گا" کے بارے میں تلاوت کرنے والوں نے اپنے پڑھنے میں اختلاف کیا۔ مدینہ اور بصرہ کے اکثر قراء نے اسے "و یَلَقَوْنَا" کے ساتھ یَا پر دَم اور قَف پر شَد کے ساتھ پڑھا ہے، اور فرشتے وہاں ان کو سلام کریں گے۔ کوفہ کے اکثر قراء نے اسے یٰ پر فتحہ اور ہلکا قاف کے ساتھ "و یلقونا" پڑھا ہے۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=25&tAyahNo=75&tDisplay=yes&UserProfile=0&LanguageId=1

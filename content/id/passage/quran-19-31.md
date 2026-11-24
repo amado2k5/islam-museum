@@ -2,8 +2,8 @@
 id: passage/quran-19-31
 lang: id
 source_lang: ar
-translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-23), draft translation']
-provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-23, source: content/ar/passage/quran-19-31.md}
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-23), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-id-2026-11-24, source: content/ar/passage/quran-19-31.md}
 ---
 
 ## Ringkasan
@@ -11,3 +11,9 @@ Ayat 31 [[passage/quran-19|Surah Maryam]], yang merupakan surah Mekah. {cite:tan
 
 ## Posisinya
 Lokasinya: Ayat 31 dari 98 dalam surat. Teks ini disimpan dari Mushaf Tazl al-Mujaddad dan tidak ditulis ulang di sini.
+
+## Dalam Tafsir al-Tabari
+
+Al-Tabari membaca ayat dalam ayat 31 sampai 32 sebagai satu bagian. Ia menjelaskan pernyataannya, “Ia berkata, ‘Sesungguhnya aku adalah hamba Allah. Dia telah memberiku Kitab Suci dan menjadikanku seorang nabi’”: Ketika kaum Maryam berkata kepadanya, “Bagaimana mungkin kami berbicara kepada seseorang yang masih di dalam buaian, seorang anak kecil?” dan mereka mengira bahwa ini adalah ejekan darinya, Isa berkata kepadanya, berbicara atas nama ibunya, “Sesungguhnya aku adalah hamba Allah. Dia telah memberiku Kitab Suci.” Dan ketika ia menunjuk kepada Isa, sebagaimana telah dilaporkan tentang mereka, mereka menjadi marah. As-Suddi berkata: Ketika ia menunjuk kepada Isa, mereka menjadi marah dan berkata, “Ejekannya kepada kami ketika ia memerintahkan kami untuk berbicara kepada anak ini lebih buruk bagi kami daripada perzinahannya.” Mereka berkata, “Bagaimana mungkin kami berbicara kepada seseorang yang masih di dalam buaian?” Ini diriwayatkan oleh Ibnu Ishaq, dari seseorang yang tidak dituduh berbohong, dari Wahb bin Munabbih. Mereka berkata, “Bagaimana mungkin kami berbicara kepada seseorang yang masih bayi di dalam buaian?” Kemudian Yesus menjawab mereka, katanya, “Aku adalah hamba Allah. Dia telah memberikan kepadaku Kitab Suci dan menjadikan aku seorang nabi…” (Quran 2:28). Ayat ini juga memuat pernyataan dari Mujahid, Ikrimah, Ibn Zayd, Ibn Ishaq, Simak, dan Sufyan.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=19&tAyahNo=31&tDisplay=yes&UserProfile=0&LanguageId=1

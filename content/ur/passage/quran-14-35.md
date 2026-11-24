@@ -2,12 +2,8 @@
 id: passage/quran-14-35
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
-provenance:
-  generated_by: "Claude Code (Haiku 5.5 session)"
-  model: claude-haiku-5-5
-  run: altafsir-tabari-batch-1-2026-11-23
-  source: source/altafsir-tabari
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-14-35.md}
 ---
 ## موجز
 الآية 35 من [[passage/quran-14|سورۃ ابراہیم]]، وہ مکی سورت ہے۔ {cite:tanzil-quran}
@@ -17,6 +13,6 @@ provenance:
 
 ## تفسیر طبری
 
-طبری کے مطابق ابراہیم کی دعا تھی کہ حرم کو امن والا شہر بنایا جائے اور وہ اور ان کی اولاد بتوں کی عبادت سے دور رہیں۔ «صنم» تراشی ہوئی مورت ہے، اور جو تراشا ہوا نہ ہو وہ «وثن» ہے۔ مجاہد کے مطابق یہ دعا قبول ہوئی، اور ابراہیم کی اولاد میں کسی نے اس کے بعد بت نہیں پوجا۔
+الطبری آیات 35 اور 36 کو ایک ساتھ پڑھتا ہے: وہ بیان کرتا ہے کہ "یہ شہر" سے مراد حرم ہے، اور یہ کہ ابراہیم نے خدا سے دعا کی کہ وہ اسے اپنے باشندوں کے لیے محفوظ بنائے۔ وہ زبانی طور پر "مجھے دور رکھو" کی وضاحت کرتا ہے: "میں نے اسے برائی سے دور رکھا،" اور وہ شاعری کی ایک سطر کا حوالہ دیتے ہیں، جس کا مطلب ہے: "مجھے اور میرے بچوں کو بُت پرستی سے دور رکھو۔" بت بت کی جمع ہے، جو ایک مجسمہ ہے۔ وہ روبہ بن العجاج کی ایک سطر کا حوالہ دیتے ہیں۔ وہ مجاہد سے روایت کرتے ہیں کہ اللہ تعالیٰ نے ابراہیم کی اولاد کے لیے دعا قبول فرمائی، اس کے بعد ان میں سے کسی نے بھی بت کی پرستش نہیں کی۔ وہ بتاتا ہے کہ بت ایک مجسمہ ہے، اور جو بھی بت نہیں ہے وہ جھوٹا خدا ہے۔ وہ یہ بھی بیان کرتا ہے کہ خدا نے اس کی دعا کا جواب اس شہر کو امن دے کر، اس کے باشندوں کو پھل دے کر، اسے امام بنایا، اور اس بات کو یقینی بنایا کہ اس کی اولاد میں سے کچھ نماز قائم کریں گے۔ اس نے اس کی دعا قبول کی، اسے حج کے مناسک دکھائے اور اس کی توبہ قبول کی۔ وہ ابراہیم التیمی سے روایت کرتے ہیں، جنہوں نے اپنی کہانیوں میں کہا: "خدا کے دوست ابراہیم کے بعد کون مصیبت سے محفوظ رہ سکتا ہے، جب اس نے اس کے ساتھ اپنے اور اپنی اولاد کے لیے دعا کی؟"
 
 {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=14&tAyahNo=35&tDisplay=yes&UserProfile=0&LanguageId=1

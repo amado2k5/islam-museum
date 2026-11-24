@@ -2,10 +2,17 @@
 id: passage/quran-62-5
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-62-5.md}
 ---
 ## موجز
 الآية 5 من [[passage/quran-62|سورۃ الجمعہ]]، وہ مدنی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 5، سورت کی کل 11 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+آیت ’’ان لوگوں کی مثال جن کو تورات سونپی گئی اور پھر اس کو برقرار نہ رکھا وہ کتابیں اٹھائے ہوئے گدھے کی سی ہے، بری مثال ان لوگوں کی ہے جو اللہ کی آیات کا انکار کرتے ہیں اور اللہ ظالم لوگوں کو ہدایت نہیں دیتا،‘‘ ان یہودیوں اور عیسائیوں کی مثال بیان کی گئی ہے جنہیں تورات سونپی گئی تھی اور پھر اس پر عمل نہیں کیا، پھر اس پر عمل نہ کیا۔ تعلیمات اور محمد کا انکار کیا، حالانکہ انہیں ان پر ایمان لانے، اس کی پیروی کرنے اور اس کی سچائی کی تصدیق کرنے کا حکم دیا گیا تھا۔ "یہ کتابیں لے جانے والے گدھے کی طرح ہے،" یعنی کتابیں لے جانے والے گدھے کی طرح ہے۔ جو شخص علم کی کتابیں اٹھائے پھر بھی ان سے فائدہ نہ اٹھا سکے اور نہ ہی ان میں کیا ہے اسے سمجھ سکے وہ ان لوگوں کی طرح ہے جنہیں تورات دی گئی جس میں محمد کے مشن کی وضاحت ہے۔ اگر اس میں جو کچھ ہے اس سے فائدہ نہ اٹھائیں تو وہ اس گدھے کی طرح ہیں جو علم کی کتابیں اٹھائے ہوئے ہے۔ یہ نہ ان کو سمجھتا ہے اور نہ ہی اس سے فائدہ ہوتا ہے۔ اس کے بعد اس عبارت میں ابن عباس، قتادہ اور ابن زید کے اقوال نقل کیے گئے ہیں۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=62&tAyahNo=5&tDisplay=yes&UserProfile=0&LanguageId=1

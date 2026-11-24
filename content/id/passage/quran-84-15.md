@@ -2,8 +2,8 @@
 id: passage/quran-84-15
 lang: id
 source_lang: ar
-translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-23), draft translation']
-provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-23, source: content/ar/passage/quran-84-15.md}
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-23), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-id-2026-11-24, source: content/ar/passage/quran-84-15.md}
 ---
 
 ## Ringkasan
@@ -11,3 +11,9 @@ Ayat 15 Surah [[passage/quran-84|Al-Inshiqaq]], yang merupakan surah Mekah. {cit
 
 ## Posisinya
 Lokasinya: Ayat 15 dari 25 dalam surat. Teks ini disimpan dari Mushaf Tazil al-Mujjard dan tidak ditulis ulang di sini.
+
+## Dalam Tafsir al-Tabari
+
+Al-Tabari membaca ayat dalam ayat 15 sampai 20 sebagai satu bagian. Ia menafsirkan frasa, “Tetapi bagi orang yang diberi catatan amalnya di belakang punggungnya,” sebagai: “Adapun orang yang diberi catatan amalnya di antara kalian, wahai manusia, pada Hari itu di belakang punggungnya, yaitu, ia akan meletakkan tangan kanannya di lehernya dan tangan kirinya di belakang punggungnya, sehingga ia akan menerima catatan amalnya dengan tangan kirinya dari belakang punggungnya. Itulah sebabnya Allah, Maha Suci Dia, kadang-kadang menggambarkan mereka diberi catatan amalnya di tangan kiri mereka, dan kadang-kadang diberi catatan amalnya dari belakang punggung mereka.” Dalam bagian ini, ia mengutip pernyataan dari Mujahid dan Qatadah.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=84&tAyahNo=15&tDisplay=yes&UserProfile=0&LanguageId=1

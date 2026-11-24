@@ -2,11 +2,17 @@
 id: passage/quran-56-84
 lang: fr
 source_lang: en
-translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
-provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate documents, managed by Claude Code)', model: google-translate, run: gt-docs-fr-2026-11-19, source: content/en/passage/quran-56-84.md}
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-fr-2026-11-24, source: content/ar/passage/quran-56-84.md}
 ---
 ## Résumé
 Verset 84 de [[passage/quran-56|la sourate al-Waqi'a]], une sourate mecquoise. {cite:tanzil-quran}
 
 ## Place dans le musée
 Il s'agit du verset 84 sur 96 dans la sourate. Le texte est conservé dans le mushaf Tanzil et n'est pas reproduit ici.
+
+## Dans le commentaire d'al-Tabari
+
+Al-Tabari considère le verset inclus dans les versets 84 à 88 comme une seule section. Il interprète la phrase : « Est-ce cette déclaration que vous prenez à la légère ? » comme suit : « Est-ce ce Coran, dont je vous ai relaté l’histoire et dont je vous ai exposé les préceptes, que vous, ô gens, chuchotez à ceux qui le renient, vous rangeant ainsi de leur côté dans leur déni et leur incrédulité ? » Les exégètes ont divergé quant à son sens, et certains ont avancé une interprétation proche de la nôtre. Dans cette section, il cite des propos d’Ibn Abbas et de Mujahid.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=56&tAyahNo=84&tDisplay=yes&UserProfile=0&LanguageId=1

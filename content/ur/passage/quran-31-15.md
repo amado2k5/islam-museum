@@ -2,10 +2,17 @@
 id: passage/quran-31-15
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-31-15.md}
 ---
 ## موجز
 الآية 15 من [[passage/quran-31|سورۃ لقمان]]، وہ مکی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 15، سورت کی کل 34 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+اس کا یہ قول ’’لیکن اگر وہ تجھ کو میرے ساتھ شریک کرنے کی کوشش کریں جس کا تجھے کوئی علم نہیں تو ان کی بات نہ مانو بلکہ دنیا میں ان کے ساتھ حسن سلوک کے ساتھ چلو اور میری طرف رجوع کرنے والوں کی راہ پر چلو، پھر میری طرف تمہاری واپسی ہوگی اور میں تمہیں بتاؤں گا کہ تم کیا کرتے تھے‘‘، اس طرح بیان کیا گیا ہے: اے انسان اگر تم میرے ساتھ اپنے والدین کے علاوہ کسی اور کی عبادت کرو تو میرے ساتھ میری عبادت کرو۔ تم نہیں جانتے کہ اس کا کوئی شریک ہے، اور اس کا کوئی شریک نہیں ہے، وہ کسی شریک سے بہت بلند ہے، پھر ان کی بات نہ مانو جو تم سے میرے ساتھ شرک کرنا چاہتے ہیں۔ "لیکن [اس] دنیا میں مناسب احسان کے ساتھ ان کے ساتھ رہو" کا مطلب ہے: ان کی اطاعت کرتے ہوئے اس دنیا میں ان کا ساتھ دو۔ تمہارے اور تمہارے رب کے درمیان اس معاملے میں تم پر کوئی الزام یا گناہ نہیں ہے۔ اس کے اس قول، "اور میری طرف رجوع کرنے والوں کے راستے پر چلو" کا مطلب ہے: ان لوگوں کے راستے پر چلو جو اپنے شرک سے توبہ کرتے ہیں، اسلام کی طرف لوٹتے ہیں اور محمد کی پیروی کرتے ہیں۔ اس عبارت میں قتادہ سے منسوب بیانات کا بھی حوالہ دیا گیا ہے۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=31&tAyahNo=15&tDisplay=yes&UserProfile=0&LanguageId=1

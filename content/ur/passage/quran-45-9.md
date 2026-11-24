@@ -2,10 +2,17 @@
 id: passage/quran-45-9
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-45-9.md}
 ---
 ## موجز
 الآية 9 من [[passage/quran-45|سورۃ الجاثية]]، وہ مکی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 9، سورت کی کل 37 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+وہ اپنے بیان کی وضاحت کرتا ہے، "اور جب اسے ہماری کوئی آیت معلوم ہوتی ہے تو وہ ان کا مذاق اڑانے لگتا ہے، ان لوگوں کے لیے ذلت آمیز عذاب ہے۔" "اور جب اس جھوٹے گنہگار کو خدا کی کسی آیت کا علم ہوتا ہے تو وہ ان کا مذاق اڑانے لگتا ہے۔" وہ کہتا ہے: وہ ان آیات کو لیتا ہے جو اس نے سیکھی ہیں، ان کا مذاق اڑاتے ہیں، اور یہی ابوجہل نے کیا تھا جب یہ آیت "بے شک زقوم کا درخت گنہگاروں کی خوراک ہے" نازل ہوئی، جب اس نے کھجور اور مکھن منگوایا اور کہا: یہ کھاؤ، محمد تم سے شہد اور ان کے اسی طرح کے دوسرے اعمال کا وعدہ کرتے ہیں۔ اور اس کے اس قول: "ان کے لیے ذلت آمیز عذاب ہے" کا مطلب یہ ہے کہ خدا تعالیٰ فرماتا ہے: یہ وہ لوگ ہیں جو یہ کام کرتے ہیں، اور یہ وہ ہیں جو خدا کی آیات کو سنتے ہیں اور پھر تکبر سے اپنے کفر پر اڑے رہتے ہیں، اور وہ خدا کی آیات کو مذاق کے طور پر لیتے ہیں جو انہوں نے سیکھی ہیں۔ قیامت کے دن ان پر خدا کی طرف سے ذلت آمیز عذاب ہو گا جو انہیں جہنم کی آگ میں رسوا اور رسوا کرے گا کیونکہ اس دنیا میں وہ خدا کی اطاعت اور اس کی آیات پر عمل کرنے میں تکبر کرتے تھے۔ خدا تعالیٰ نے کہا: "وہ" اور اس نے جمع کا استعمال کیا۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=45&tAyahNo=9&tDisplay=yes&UserProfile=0&LanguageId=1

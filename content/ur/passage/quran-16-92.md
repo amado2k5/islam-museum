@@ -2,10 +2,17 @@
 id: passage/quran-16-92
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-16-92.md}
 ---
 ## موجز
 الآية 92 من [[passage/quran-16|سورۃ النحل]]، وہ مکی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 92، سورت کی کل 128 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+اس کا فرمان ہے کہ "اور اس شخص کی طرح نہ بنو جس نے مضبوط ہونے کے بعد اپنی قسموں کو آپس میں دھوکہ دہی کا ذریعہ بنا لیا ہے، کیونکہ ایک جماعت دوسری جماعت سے زیادہ ہے، اللہ صرف اس کے ذریعے تمہارا امتحان لیتا ہے، اور وہ قیامت کے دن تم پر ضرور واضح کر دے گا کہ تم کس چیز میں اختلاف کرتے تھے"۔ ان کی تصدیق کے بعد انہیں اپنے عہد کو پورا کرنے کا حکم دیتا ہے، اور توڑنے والے کو اس شخص سے تشبیہ دیتا ہے جس نے مضبوطی کے بعد اس کا کاتا ہوا دھاگہ کھول دیا اور اس کے پختہ ہونے کے بعد اس کی قسم توڑ دی: کیا اے لوگو، اپنی قسموں کو پختہ کرنے کے بعد توڑنا اور ان عہدوں اور عہدوں کو پورا کرنے کے لئے خدا سے وعدہ کرنا ایسا نہیں ہے جیسے اس نے اس کے غیر قائم ہونے کے بعد اس کو پڑھا ہے۔ اس کا مطلب ہے مضبوطی سے کاتا جانے کے بعد۔ بعض عربوں کا کہنا ہے کہ "مضبوطی" سے مراد وہ چیز ہے جسے ایک ہی پٹی پر کاتا جاتا ہے اور دوگنا نہیں ہوتا ہے۔ یہ بھی کہا گیا کہ جس عورت نے یہ کام کیا وہ مکہ میں مشہور بیوقوف عورت تھی۔ اس آیت میں مجاہد، قتادہ، ابن زید اور ابن جریج کے بیانات بھی نقل کیے گئے ہیں۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=16&tAyahNo=92&tDisplay=yes&UserProfile=0&LanguageId=1

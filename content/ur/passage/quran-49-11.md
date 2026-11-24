@@ -2,10 +2,17 @@
 id: passage/quran-49-11
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-49-11.md}
 ---
 ## موجز
 الآية 11 من [[passage/quran-49|سورۃ الحجرات]]، وہ مدنی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 11، سورت کی کل 18 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+اس کا فرمان ہے: "اے ایمان والو، کوئی قوم دوسرے لوگوں کا مذاق نہ اڑائے، شاید وہ ان سے بہتر ہوں، اور نہ عورتیں [دوسری] عورتوں کا مذاق اڑائیں، ہوسکتا ہے کہ وہ ان سے بہتر ہوں، اور ایک دوسرے کو برا بھلا نہ کہو اور ایک دوسرے کو برے القابات سے نہ پکارو، برا ہے وہ نام ہے جو بدکاری کے بعد ایمان نہ لائے اور پھر وہ ایمان نہ لائے۔ وہ لوگ جو ظالم ہیں، وضاحت کرتے ہیں: اے وہ لوگ جو خدا اور اس کے رسول پر ایمان لائے ہو، کیا کچھ مومن دوسرے مومنوں کا مذاق اڑاتے ہیں، شاید وہ ان سے بہتر ہوں۔ اس کا مطلب یہ ہے کہ جن کا مذاق اڑایا جاتا ہے وہ ان لوگوں سے بہتر ہیں جو ان کا مذاق اڑاتے ہیں۔ اسی طرح، "اور نہ ہی عورتیں دوسری عورتوں کا مذاق اڑاتی ہیں،" یعنی مومن عورتیں دوسری مومن عورتوں کا مذاق نہیں اڑا سکتیں، کیونکہ جن کا مذاق اڑایا جاتا ہے وہ ان سے بہتر ہے جو ان کا مذاق اڑاتی ہے۔ اس آیت میں اللہ تعالیٰ نے اہل ایمان کو اس تمسخر سے منع کیا ہے اس بارے میں علمائے تفسیر کا اختلاف ہے۔ بعض نے کہا کہ اس سے مراد امیر غریبوں کا مذاق اڑانا ہے۔ غریبوں کی غربت کی وجہ سے ان کا مذاق اڑانا حرام ہے۔ اس آیت میں مجاہد اور ابن زید کے بیانات بھی نقل کیے گئے ہیں۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=49&tAyahNo=11&tDisplay=yes&UserProfile=0&LanguageId=1

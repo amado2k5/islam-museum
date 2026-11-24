@@ -2,10 +2,17 @@
 id: passage/quran-23-87
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-23-87.md}
 ---
 ## موجز
 الآية 87 من [[passage/quran-23|سورۃ المؤمنون]]، وہ مکی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 87، سورت کی کل 118 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+الطبری آیات 86-87 کے اندر آیت کو ایک اکائی کے طور پر پڑھتا ہے۔ وہ اس فقرے کی وضاحت کرتے ہیں کہ "وہ کہیں گے، 'خدا سے۔' کہو، 'پھر کیا تم اس سے نہیں ڈرو گے؟'": حجاز، عراق اور شام میں قراء کرام کی اکثریت اسے اس طرح پڑھتی ہے "وہ کہیں گے، 'خدا کے لیے'" سوائے ابو عمرو کے، جو ان سے مختلف تھے اور اسے اس طرح پڑھتے ہیں کہ "وہ کہیں گے، 'خدا'" اس کے بعد اور اس کے بعد قرآن کے ایک مصرعے میں۔ بڑے شہروں کے قرآنی نسخوں میں اس طرح لکھا گیا ہے، سوائے اہل بصرہ کے نسخوں کے، جس میں دونوں صورتوں میں الف ہے۔ وہ اپنے مخطوطہ کے اسکرپٹ کی پیروی کرتے ہوئے اسے الف کے ساتھ پڑھتے ہیں۔ جہاں تک اسے الف کے ساتھ پڑھنے والوں کا تعلق ہے تو ان کے پڑھنے میں کوئی دشواری نہیں ہے، کیونکہ انہوں نے جواب کو ابتدائی بیان کے جواب کے طور پر سمجھا اور اسماء کو اسم کی طرف لوٹایا۔ اس لیے کہ ان کے پڑھنے کے مطابق اس بیان کا مفہوم یہ ہے کہ: کہو کہ ساتوں آسمانوں کا رب اور عرش عظیم کا رب کون ہے؟ وہ کہیں گے کہ اس کا رب اللہ ہے۔ اس لیے اس کو اس طرح پڑھنے میں کوئی دشواری نہیں ہے۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=23&tAyahNo=87&tDisplay=yes&UserProfile=0&LanguageId=1

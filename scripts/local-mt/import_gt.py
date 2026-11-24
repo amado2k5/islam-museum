@@ -123,7 +123,7 @@ def check_any(src_body, tr_body, src, lang):
     m = (UR_HONORIFIC if lang == "ur" else HONORIFIC).search(tr_body)
     if m: return f"typed honorific: {m.group(0)}"
     if re.search("[﴿﴾]", tr_body): return "Qur'an brackets"
-    plain = re.sub(r"\[\[[^\]|]+\||\{cite:[^}]*\}", "", tr_body); letters = len(re.findall(r"[A-Za-z\u0600-\u06FF]", plain)) or 1
+    plain = re.sub(r"https?://\S+|\[\[[^\]|]+\||\{cite:[^}]*\}", "", tr_body); letters = len(re.findall(r"[A-Za-z\u0600-\u06FF]", plain)) or 1
     if lang == "en" and len(ARABIC.findall(plain)) / letters > 0.15: return "looks untranslated"
     if lang == "ur" and len(re.findall(r"[A-Za-z]", plain)) / letters > 0.35: return "looks untranslated"
     return None

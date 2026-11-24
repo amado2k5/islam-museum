@@ -2,10 +2,17 @@
 id: passage/quran-28-46
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-28-46.md}
 ---
 ## موجز
 الآية 46 من [[passage/quran-28|سورۃ القصص]]، وہ مکی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 46، سورت کی کل 88 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+وہ اپنے بیان کی وضاحت کرتا ہے: "اور جب ہم نے پکارا تو آپ پہاڑ کے کنارے پر نہیں تھے، لیکن آپ کے رب کی رحمت تھی تاکہ آپ ان لوگوں کو خبردار کریں جن کے لیے آپ سے پہلے کوئی ڈرانے والا نہیں آیا، تاکہ وہ یاد رکھیں۔": اور اے محمد، جب ہم نے موسیٰ کو پکار کر کہا کہ میں اسے ان لوگوں کے لیے لکھوں گا جو اللہ سے ڈرتے اور زکوٰۃ دیتے ہیں۔ وہ لوگ جو رسول، ان پڑھ نبی کی پیروی کرتے ہیں..." ⁦(قرآن 24:27)⁩ جیسا کہ العمش نے روایت کیا ہے، علی بن مدرک کی سند سے، ابو زرعہ کی سند سے، خدا کے اس فرمان کے بارے میں: "اور جب ہم نے پکارا تو تم پہاڑ کے کنارے پر نہیں تھے،" انہوں نے کہا: اس نے پکارا، "اے محمد کی قوم میں نے تم سے پہلے تم سے پوچھا تھا، میں نے تم سے پوچھا تھا اور میں نے تم سے پہلے جواب دیا تھا۔ میں۔" اور قتادہ کی روایت ہے کہ ان کے اس قول کے بارے میں کہ: "اور جب ہم نے پکارا تو تم پہاڑ کے کنارے پر نہیں تھے"، انہوں نے کہا: ان کو پکارا گیا: "اے محمد کی قوم، میں نے تمھیں اس سے پہلے دیا کہ تم مجھ سے مانگو اور میں نے تمھیں جواب دیا اس سے پہلے کہ تم مجھے پکارتے۔" اس عبارت میں مجاہد، ابن زید اور العماش کے بیانات بھی شامل ہیں۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=28&tAyahNo=46&tDisplay=yes&UserProfile=0&LanguageId=1

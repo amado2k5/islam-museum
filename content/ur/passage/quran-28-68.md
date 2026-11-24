@@ -2,10 +2,17 @@
 id: passage/quran-28-68
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-28-68.md}
 ---
 ## موجز
 الآية 68 من [[passage/quran-28|سورۃ القصص]]، وہ مکی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 68، سورت کی کل 88 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+اس کا یہ قول، "اور تمہارا رب جو چاہتا ہے پیدا کرتا ہے اور چنتا ہے، ان کے پاس کوئی چارہ نہیں، اللہ اس سے بلند ہے جو وہ اس کے ساتھ شریک کرتے ہیں،" وضاحت کرتا ہے: "اور آپ کا رب، اے محمد، وہ جو چاہتا ہے پیدا کرتا ہے"، اور اپنی سرپرستی کے لیے اپنی مخلوق میں سے سب سے بہتر، اور جن کے لیے خوشی مقرر کی گئی ہے، "اور چن لیتا ہے"۔ بلکہ، اس نے، اس کی حمد و ثنا بیان کی، کہا، "اور وہ چنتا ہے جو ان کے لیے بہتر ہے۔" معنی جیسا کہ میں نے بیان کیا ہے، کیونکہ مشرکین جیسا کہ ان کے بارے میں آیا ہے، اپنے مال کو چن کر اپنے بتوں کے لیے وقف کرتے تھے۔ تو خدا نے اپنے نبی محمد سے فرمایا: "اے محمد، تیرا رب جو چاہتا ہے پیدا کرتا ہے، اور اپنی مخلوق میں سے ہدایت، ایمان اور عمل صالح کے لیے وہ چیز چن لیتا ہے جو وہ پہلے سے جانتا ہے کہ ان کے لیے بہتر ہے، جس طرح ان مشرکوں نے اپنی بہترین دولت اپنے بتوں کو دے دی، اسی طرح، میری ذات کے لیے میرا انتخاب، میری ولایت کے لیے میرا انتخاب، اور میری خدمت کے لیے میرا انتخاب اور میری عبادت سب سے بہتر ہے۔ میری تخلیق۔" اس عبارت میں ابن عباس سے منسوب بیانات بھی شامل ہیں۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=28&tAyahNo=68&tDisplay=yes&UserProfile=0&LanguageId=1

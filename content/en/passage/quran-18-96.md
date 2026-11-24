@@ -2,10 +2,17 @@
 id: passage/quran-18-96
 lang: en
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-en-2026-11-24, source: content/ar/passage/quran-18-96.md}
 ---
 ## Summary
 Verse 96 of [[passage/quran-18|Surat al-Kahf]], a Meccan surah. {cite:tanzil-quran}
 
 ## Place in the museum
 Its place: verse 96 of 110 verses in the surah. The text is kept in the frozen Tanzil mushaf and is not retyped here.
+
+## Al-Tabari's commentary
+
+Al-Tabari reads the verse within verses 96 to 97 in a single segment. He explains His saying, "Bring me a piece of iron until it equals the two shells." He said, "Blow until he makes it fire." He says, 'Bring me, pour on it.' He says: Dhul-Qarnayn said to those who asked him to make a barrier between them and Gog and Magog, 'Atoni,' meaning they brought me to the iron rod, which is the plural of 'zabra,' and 'zabrah' is a piece of iron. Also: he said: Muawiyah told us, from Ali, from Ibn Abbas, regarding the phrase: 'Zabar al-Hadid' means to cut the iron. My father told me, he said: My uncle told me, he said: My father told me, from his father, from Ibn Abbas, regarding His saying: 'Give me the Zabar al-Hadid' he said: cut the iron. From Isma'il, from Abu Salih, regarding the phrase: 'Zabar al-Hadid' he said: cut the iron. And Isra'il told us, from Abu Yahya from Mujahid, regarding the phrase: 'Give me the Zabar al-Hadid' he said: cut the iron. And from Qatadah: 'Give me the Zabar al-Hadid': meaning the hadith was split. Muammar informed us, from Qatadah, regarding the phrase: "Give me the iron rod," he said: cut the iron. In the Maqta', he quotes from Ibn Abbas, Mujahid, Qatadah, Ibn Jurayj, and Ibrahim.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=18&tAyahNo=96&tDisplay=yes&UserProfile=0&LanguageId=1

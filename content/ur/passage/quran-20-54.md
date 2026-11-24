@@ -2,10 +2,17 @@
 id: passage/quran-20-54
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-20-54.md}
 ---
 ## موجز
 الآية 54 من [[passage/quran-20|سورۃ طٰہ]]، وہ مکی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 54، سورت کی کل 135 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+اس کا یہ قول کہ "کھاؤ اور اپنے مویشیوں کو چراؤ، یقیناً عقل والوں کے لیے اس میں نشانیاں ہیں" اس طرح بیان کی گئی ہے: اے لوگو، کھاؤ ان پاکیزہ چیزوں میں سے جو ہم نے تمہارے لیے بارش کے ذریعے نازل کی ہیں، ہم نے آسمان سے زمین پر اس کے پھل اور خوراک سمیت اتارا ہے اور جو کچھ تمہارے رزق اور پرورش کے لیے ہے۔ اور اپنے مویشیوں کو چراؤ جو تمہارے جانوروں اور ان کے رزق کے لیے ہے۔ ’’بے شک اس میں نشانیاں ہیں‘‘ کا مطلب ہے: بے شک اس آیت میں جو کچھ میں نے آپ کے رب کی قدرت اور اس کی بادشاہی کی عظمت کو بیان کیا ہے اس میں نشانیاں ہیں، یعنی وہ نشانیاں اور دلائل ہیں جو آپ کے رب کی وحدانیت کی طرف اشارہ کرتے ہیں، اور اس کے سوا آپ کے لیے کوئی معبود نہیں۔ ’’سمجھ والے‘‘ کا مطلب ہے: عقلمند اور عقل والے۔ "تفہیم" "سمجھنا" کی جمع ہے جس طرح "سمجھنا" "سمجھنا" کی جمع ہے۔ ابو جعفر نے کہا: الکوشے وہ چربی ہے جو چھپکلی کے اندر ناف کی طرح ہوتی ہے۔ خداتعالیٰ نے تصریح فرمائی کہ یہ عقل والوں کے لیے نشانی ہے، کیونکہ وہ غور و فکر کرنے والے اور غور و فکر کرنے والے لوگ ہیں۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=20&tAyahNo=54&tDisplay=yes&UserProfile=0&LanguageId=1

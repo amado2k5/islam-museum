@@ -2,10 +2,17 @@
 id: passage/quran-18-39
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-18-39.md}
 ---
 ## موجز
 الآية 39 من [[passage/quran-18|سورۃ الکہف]]، وہ مکی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 39، سورت کی کل 110 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+اس کا یہ قول، "اور جب آپ اپنے باغ میں داخل ہوئے تو آپ نے یہ کیوں نہیں کہا کہ 'جو خدا چاہے ہوتا ہے، خدا کے سوا کوئی طاقت نہیں'، اگر آپ مجھے مال اور اولاد میں اپنے سے کم دیکھتے ہیں، تو اس کی وضاحت اس طرح کی گئی ہے: وہ، اس کے نام کی تسبیح کرے، کہتا ہے: کیوں، جب آپ اپنے باغ میں داخل ہوئے اور جو کچھ آپ نے دیکھا، اس سے متاثر ہوئے، کیا آپ نے یہ نہیں کہا، "خدا ہو جائے گا؟" بیان میں ایک مضمر عنصر ہے، جسے سیاق و سباق سے سمجھا جاتا ہے، جو مشروط شق کا اپوڈوسس ہے، "اور وہ تھا۔" اگر بیان کی اس طرح تشریح کی جائے تو الزامی صورت میں "کیا" خدا کے عمل کی وجہ سے ہے، "مرضی"، اور apodosis کو چھوڑ دیا جاتا ہے کیونکہ معنی واضح ہے، جیسا کہ اس بیان میں، "اگر آپ زمین میں سرنگ تلاش کرنے کے قابل ہیں"، جہاں apodosis کو چھوڑ دیا جاتا ہے کیونکہ اس کا مطلب سمجھا جاتا ہے۔ عربی کے بعض لوگوں نے کہا کہ "ما" نے اپنے اس قول میں کہا: "جو خدا چاہے" اسم ضمیر "وہ" کے ساتھ نامزد صورت میں ہے گویا یہ کہا گیا ہے: میں نے کہا، "وہ وہی ہے جو خدا چاہتا ہے۔" "خدا کے سوا کوئی طاقت نہیں ہے" کا مطلب ہے: اس کے سوا کوئی طاقت نہیں ہے جو ہم اس کی اطاعت میں کرنے کی کوشش کرتے ہیں۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=18&tAyahNo=39&tDisplay=yes&UserProfile=0&LanguageId=1

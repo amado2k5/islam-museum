@@ -2,10 +2,17 @@
 id: passage/quran-16-24
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-16-24.md}
 ---
 ## موجز
 الآية 24 من [[passage/quran-16|سورۃ النحل]]، وہ مکی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 24، سورت کی کل 128 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+ان کا یہ قول، ’’اور جب ان سے کہا جاتا ہے کہ تمہارے رب نے کیا نازل کیا ہے؟‘‘ تو وہ کہتے ہیں، ’’پہلے لوگوں کے افسانے‘‘ بیان کرتے ہیں: جب ان مشرکوں سے کہا جاتا ہے جو آخرت پر ایمان نہیں رکھتے، ’’تمہارے رب نے کیا نازل کیا ہے؟‘‘ یعنی تمہارے رب نے کیا نازل کیا ہے؟- تو وہ کہتے ہیں، ’’اس نے وہی کچھ نازل کیا جو ہم سے پہلے کے لوگوں نے لکھا تھا۔‘‘ اور یہ اس طرح تھا: قتادہ نے اپنے اس قول کے بارے میں کہا: "تمہارے رب نے کیا نازل کیا ہے؟ وہ کہتے ہیں کہ سابقہ لوگوں کے افسانے" یعنی اس کا مطلب ہے: اگلوں کے قصے اور جھوٹ۔ یہ بات عرب مشرکین کے ایک گروہ نے کہی تھی جو رسول اللہ کے پاس آنے والوں کے راستے پر بیٹھا کرتے تھے۔ اگر مومنین میں سے کوئی ان کے پاس سے پیغمبر خدا کے پاس گزرتا تو وہ ان سے کہتے: "پہلے لوگوں کے افسانے" یعنی: اگلوں کے قصے اور جھوٹ۔ انہوں نے کہا: مجھ سے معاویہ نے علی کی سند سے اور ابن عباس کی سند سے ان کے اس قول کے بارے میں بیان کیا: "پہلوں کی کہانیاں" یعنی: اگلوں کی کہانیاں۔ اس عبارت میں ابن عباس اور قتادہ کے بیانات بھی شامل ہیں۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=16&tAyahNo=24&tDisplay=yes&UserProfile=0&LanguageId=1

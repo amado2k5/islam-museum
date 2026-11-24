@@ -2,8 +2,8 @@
 id: passage/quran-21-79
 lang: tr
 source_lang: ar
-translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-23), draft translation']
-provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-23, source: content/ar/passage/quran-21-79.md}
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-23), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-tr-2026-11-24, source: content/ar/passage/quran-21-79.md}
 ---
 
 ## Özet
@@ -11,3 +11,9 @@ Mekke suresi olan Enbiye Suresi [[passage/quran-21|'nin 79. ayeti]]. {cite:tanzi
 
 ## Konumu
 Konumu: Suredeki 112 ayetten 79. ayet. Metin Mushaf Tazil al-Mujjard'dan korunmuş olup burada yeniden yazılmamıştır.
+
+## El-Taberi'nin Tafsir'inde
+
+Taberi, 79-80. ayetler arasındaki bu bölümü tek bir kısım olarak okur. “Davud ve Süleyman’ı hatırla; onlar tarlaya hükmettiler; orada geceleyin insanların koyunları otluyordu ve biz onların hükmüne şahittik” sözlerini şöyle yorumlar: “Ey Muhammed, Davud ve Süleyman’ı hatırla; onlar tarlaya hükmettiler.” Tefsir âlimleri, bu tarlanın ne olduğu konusunda farklı görüşler belirtmişlerdir. Kimileri bunun bitki örtüsü olduğunu söylemiştir. Bu bölümde İbn Abb ve İbn İshak’tan alıntılar yapmıştır.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=21&tAyahNo=79&tDisplay=yes&UserProfile=0&LanguageId=1

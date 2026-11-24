@@ -2,10 +2,17 @@
 id: passage/quran-17-65
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-17-65.md}
 ---
 ## موجز
 الآية 65 من [[passage/quran-17|سورۃ الاسراء]]، وہ مکی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 65، سورت کی کل 111 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+اس کا یہ قول کہ "بے شک میرے بندوں پر تیرا کوئی اختیار نہیں اور تیرا رب ہی امانت دار کے طور پر کافی ہے" کی وضاحت اس طرح کی گئی ہے: اللہ تعالیٰ شیطان سے فرماتا ہے: میرے وہ بندے جنہوں نے میری اطاعت کی، میرے حکم کی پیروی کی اور تیری نافرمانی کی، اے شیطان، تیرے پاس ان پر کوئی دلیل نہیں ہے۔ اور اس کے اس قول کہ "اور آپ کا رب امانت دار کے طور پر کافی ہے" کا مطلب یہ ہے کہ خدا، اس کی حمد و ثناء، اپنے نبی محمد سے فرماتا ہے: اے محمد، آپ کے لیے آپ کا رب ہی کافی ہے، آپ کے امور کا محافظ اور محافظ۔ پس اس کے حکم کے آگے سر تسلیم خم کرو اور ان مشرکوں تک اس کے پیغامات پہنچا دو۔ کسی سے مت ڈرو، کیونکہ اس نے تمہاری حفاظت اور مدد کرنے کا ذمہ خود لیا ہے۔ جیسا کہ قتادہ نے اپنے اس قول کے بارے میں کہا کہ "بے شک میرے بندوں پر تیرا کوئی اختیار نہیں ہے اور تیرا رب امانت دار کے طور پر کافی ہے" کہ اس کے بندے مومن ہیں۔ اور خدا نے ایک اور آیت میں کہا، "اس کا اختیار صرف ان لوگوں پر ہے جو اسے حلیف مانتے ہیں اور جو اس کے ساتھ شرک کرتے ہیں۔" اس عبارت میں قتادہ کا قول نقل کیا گیا ہے۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=17&tAyahNo=65&tDisplay=yes&UserProfile=0&LanguageId=1

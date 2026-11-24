@@ -2,10 +2,17 @@
 id: passage/quran-29-33
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-29-33.md}
 ---
 ## موجز
 الآية 33 من [[passage/quran-29|سورۃ العنكبوت]]، وہ مکی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 33، سورت کی کل 69 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+اس کا بیان، "اور جب ہمارے رسول لوط کے پاس آئے تو وہ ان سے پریشان ہوئے اور ان کی طرف سے مجبور ہوئے، انہوں نے کہا، خوف نہ کرو، نہ غم کرو، ہم تمہیں اور تمہارے گھر والوں کو بچا لیں گے، سوائے تمہاری بیوی کے، وہ پیچھے رہ جانے والوں میں سے ہو گی،" بیان کرتی ہے: "اور جب ہمارے رسول لوط کے پاس آئے، تو ان میں سے فرشتوں میں سے" وہ پریشان تھا۔ وہ کہتا ہے: فرشتوں نے اس کے پاس آنے سے اسے تکلیف پہنچائی، کیونکہ وہ اس کے مہمان تھے، اور اس نے اسے تکلیف دی۔ تو اس کے اس قول کا، "وہ ان سے پریشان تھا" کا مطلب ہے: ان کے ساتھ ان لوگوں کے ساتھ تکلیف تھی جنہوں نے اس سے اسے تکلیف دی۔ مروی ہے کہ قتادہ نے کہا: وہ اپنی قوم کے بارے میں برا خیال رکھتا تھا اور اپنے مہمان کے بارے میں بے صبری کرتا تھا۔ معمر نے ہمیں اپنی سند سے آیت "اور ان کے لیے بے صبری" کے بارے میں بتایا کہ اس نے کہا: وہ ان کی مہمان نوازی کے لیے اس وجہ سے بے صبرے تھے کہ اسے اپنی قوم کی بدکاری کا علم تھا۔ وہ اپنے لوگوں کی برائیوں کے بارے میں جاننے کی وجہ سے ان کے خوف سے مہمان نوازی سے بھی بے چین تھا۔ اس عبارت میں قتادہ سے منسوب بیانات بھی شامل ہیں۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=29&tAyahNo=33&tDisplay=yes&UserProfile=0&LanguageId=1

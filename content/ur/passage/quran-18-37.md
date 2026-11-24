@@ -2,10 +2,17 @@
 id: passage/quran-18-37
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-18-37.md}
 ---
 ## موجز
 الآية 37 من [[passage/quran-18|سورۃ الکہف]]، وہ مکی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 37، سورت کی کل 110 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+الطبری نے آیات 37 سے 38 تک کی آیت کو ایک حصے کے طور پر پڑھا ہے۔ اس کا بیان، "اس کے ساتھی نے اس سے گفتگو کرتے ہوئے کہا، 'کیا تم نے اس کے ساتھ کفر کیا ہے جس نے تجھے مٹی سے پیدا کیا اور پھر نطفہ سے اور پھر تجھے مرد بنایا؟'" بیان کرتے ہیں کہ اس نے یہ بات ان دونوں باغوں کے مالک سے کہی، اس کے ساتھی نے جو اس سے کم مالدار تھا اور اس سے کم بچے تھے، "جب تم اس سے مخاطب ہو رہے تھے، تو تم اس سے مخاطب ہو رہے تھے: اس کے ساتھ کفر کیا جس نے تمہیں مٹی سے پیدا کیا، یعنی اس نے تمہارے باپ آدم کو مٹی سے پیدا کیا، پھر نطفہ سے پیدا کیا، یعنی اس نے تمہیں مرد اور عورت کے نطفہ سے پیدا کیا، پھر تمہیں مرد کی طرح بنایا، یعنی اس نے تمہیں ایک مکمل انسان بنایا، مرد، مرد، عورت نہیں۔ وہ کہہ رہا ہے: کیا تم نے اس کے ساتھ کفر کیا جس نے تمہارے لیے یہ کیا کہ وہ تمہیں مٹی ہو جانے کے بعد نئے سرے سے پیدا کرے گا؟ "لیکن وہ اللہ میرا رب ہے" یعنی: جہاں تک میرا تعلق ہے، میں کافر نہیں ہوں۔ میرے رب کی قسم، لیکن میں خدا ہوں، میرا رب، یعنی وہ کہتا ہے: لیکن میں کہتا ہوں: وہ اللہ ہے، میرا رب، "اور میں اپنے رب کے ساتھ کسی کو شریک نہیں کرتا۔"
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=18&tAyahNo=37&tDisplay=yes&UserProfile=0&LanguageId=1

@@ -2,10 +2,17 @@
 id: passage/quran-22-54
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-22-54.md}
 ---
 ## موجز
 الآية 54 من [[passage/quran-22|سورۃ الحج]]، وہ مدنی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 54، سورت کی کل 78 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+اس کا فرمان ہے کہ "اور جن کو علم دیا گیا ہے وہ جان لیں کہ یہ تمہارے رب کی طرف سے حق ہے اور وہ اس پر ایمان لے آئیں اور ان کے دل اس کے آگے جھک جائیں، اور بے شک اللہ ایمان والوں کو سیدھے راستے کی طرف ہدایت کرنے والا ہے" کا مطلب ہے: تاکہ جو لوگ خدا کے علم والے ہیں وہ جان لیں کہ خدا نے اپنی آیات میں سے جو کچھ نازل کیا ہے، جو اس نے اپنے رب کی طرف سے سچا کیا ہے اور جو تمہارے رب کی طرف سے سچا ہے، اس میں وہ سچا ہے جو تمہارے رب کی طرف سے ہے۔ اے محمد، "اور وہ اس پر ایمان لائیں" یعنی: تاکہ وہ اس کی تصدیق کریں۔ "اور ان کے دل اس کے آگے سر تسلیم خم کر دیں" یعنی: تاکہ ان کے دل قرآن سے عاجز ہو جائیں اور اس پر ایمان لانے اور اس میں موجود چیزوں کو تسلیم کرنے کے لیے سر تسلیم خم کر دیں۔ "اور بے شک اللہ ایمان والوں کو سیدھی راہ کی طرف رہنمائی کرنے والا ہے۔" اور بے شک اللہ ان لوگوں کا رہنما ہے جو اللہ اور اس کے رسول پر ایمان لاتے ہیں واضح اور واضح حق کی طرف، شیطان نے اپنے رسول کی خواہش پر جو کچھ ڈالا اسے منسوخ کر کے، اس لیے شیطان کی چال اور ان کے نبی کی زبان پر اس کا جھوٹ ڈالنا ان کو نقصان نہیں پہنچا سکتا۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=22&tAyahNo=54&tDisplay=yes&UserProfile=0&LanguageId=1

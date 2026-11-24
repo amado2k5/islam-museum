@@ -2,10 +2,17 @@
 id: passage/quran-44-22
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-44-22.md}
 ---
 ## موجز
 الآية 22 من [[passage/quran-44|سورۃ الدخان]]، وہ مکی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 22، سورت کی کل 59 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+الطبری نے آیت 22 سے 24 تک کی آیت کو ایک حصے کے طور پر پڑھا ہے۔ وہ اپنے بیان کی وضاحت کرتا ہے، "پس اس نے اپنے رب کو پکارا کہ یہ مجرم لوگ ہیں": تو موسیٰ نے اپنے رب کو پکارا جب انہوں نے اس کا انکار کیا اور اس پر ایمان نہیں لایا، اور خدا کے بندوں کو اس کے حوالے نہیں کیا، اور اسے قتل کرنے کی سازش کی، کہ یہ لوگ، یعنی فرعون اور اس کی قوم، "مجرم لوگ ہیں،" یعنی: یہ مشرک اور کافر ہیں۔ اس کا بیان، "تو میرے بندوں کو راتوں رات لے جاؤ،" سیاق و سباق سے سمجھا جانے والا ایک مضمر جملہ ہے۔ یہ مفہوم یہ ہے: "تو اس کے رب نے اسے جواب دیا کہ میرے بندوں کو رات کو لے جا، کیونکہ یہ معاملہ بنی اسرائیل کا تھا۔" اس کا مفہوم یہ ہے: ’’میرے ان بندوں کو لے لو جو تجھ پر ایمان لائے اور تیری پیروی کی، نہ کہ ان لوگوں کو جنہوں نے تجھ سے کفر کیا اور جو نصیحت آپ کی لائی ہے اسے ماننے سے انکار کیا۔‘‘ اس زمانے میں جو لوگ اس زمرے میں تھے وہ بنی اسرائیل تھے۔ اس نے کہا، "میرے بندوں کو رات کو لے جاؤ،" کیونکہ اس کا مطلب ہے: "ان کو رات کو صبح سے پہلے لے جاؤ۔" اس عبارت میں ابن عباس اور قتادہ سے منسوب بیانات بھی شامل ہیں۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=44&tAyahNo=22&tDisplay=yes&UserProfile=0&LanguageId=1

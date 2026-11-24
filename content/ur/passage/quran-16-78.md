@@ -2,10 +2,17 @@
 id: passage/quran-16-78
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-16-78.md}
 ---
 ## موجز
 الآية 78 من [[passage/quran-16|سورۃ النحل]]، وہ مکی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 78، سورت کی کل 128 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+وہ اپنے قول کی وضاحت کرتا ہے: "اور اللہ نے تمہیں تمہاری ماؤں کے پیٹوں سے نکالا جب کہ تم کچھ نہیں جانتے تھے، اور اس نے تمہیں کان، آنکھیں اور دل عطا کیے تاکہ تم شکر کرو۔" اللہ تعالیٰ نے تمہیں وہ کچھ سکھایا جو تم نہیں جانتے تھے اس کے بعد کہ اس نے تمہیں تمہاری ماؤں کے پیٹوں سے نکالا جبکہ تم نہ کچھ سمجھتے تھے اور نہ کچھ جانتے تھے۔ اس نے تمہیں دماغ عطا کیے جن سے تم سمجھ سکتے ہو اور بھلائی میں تمیز کرتے ہو، اس نے تمہیں وہ بصارت عطا کی جس سے تم نہیں دیکھتے تھے، اور اس نے تمہیں سماعت دی جس سے تم آوازیں سنتے ہو، تاکہ تم ایک دوسرے کو سمجھو جس سے تم گفتگو کرتے ہو، اور وہ نگاہ جس سے تم لوگوں کو دیکھتے ہو، تاکہ تم ایک دوسرے کو پہچانو اور ایک دوسرے سے ممتاز ہو جاؤ۔ "اور دلوں" کا مطلب ہے: وہ دل جن سے آپ چیزوں کو جانتے ہیں، تاکہ آپ انہیں یاد رکھیں، اور آپ ان کے ساتھ سوچیں اور سمجھیں۔ ’’تاکہ تم شکر گزار بنو‘‘ کا مطلب ہے: ہم نے یہ تمہارے لیے کیا ہے، لہٰذا شکر گزاری کے ساتھ اس کے ساتھ کسی کو شریک کرنے کے بجائے جو کچھ اس نے تمہیں ان نعمتوں سے نوازا ہے اس پر اللہ کا شکر ادا کرو، جب کہ اس نے جو نعمتیں تمہیں عطا کی ہیں اس میں اس کا کوئی شریک نہیں۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=16&tAyahNo=78&tDisplay=yes&UserProfile=0&LanguageId=1

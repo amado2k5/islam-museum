@@ -2,10 +2,17 @@
 id: passage/quran-15-91
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-15-91.md}
 ---
 ## موجز
 الآية 91 من [[passage/quran-15|سورۃ الحجر]]، وہ مکی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 91، سورت کی کل 99 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+الطبری نے آیات 89-91 کے اندر آیت کو ایک حصے کے طور پر پڑھا ہے۔ وہ "جن لوگوں نے قرآن کو حصوں میں تقسیم کیا ہے" کی تشریح اس طرح کی ہے: یہ روایت کیا گیا ہے کہ وہ بعض حصوں پر ایمان رکھتے ہیں اور بعض پر کفر کرتے ہیں۔ سعید بن جبیر نے اس آیت کے بارے میں کہا کہ جیسا کہ ہم نے تقسیم کرنے والوں پر نازل کیا کہ وہ اہل کتاب ہیں۔ ابو بشر نے سعید بن جبیر سے روایت کی ہے کہ انہوں نے اس آیت کے بارے میں کہا کہ "جیسا کہ ہم نے تفرقہ ڈالنے والوں پر نازل کیا، جنہوں نے قرآن کو ٹکڑے ٹکڑے کر دیا" کہ وہ اہل کتاب ہیں۔ وہ بعض حصوں پر ایمان لائے اور بعض میں کفر۔ ابوبشر نے ہمیں سعید بن جبیر سے اور ابن عباس کی روایت سے اس آیت کے بارے میں بتایا کہ "جن لوگوں نے قرآن کو حصوں میں تقسیم کیا ہے" کہ وہ اہل کتاب ہیں۔ انہوں نے اسے حصوں میں تقسیم کیا، کچھ حصوں میں یقین رکھتے ہیں اور کچھ حصوں میں کفر کرتے ہیں. آپ نے فرمایا: انہوں نے اس کے ٹکڑے ٹکڑے کر دیئے، جیسے ذبح شدہ جانور کے ٹکڑے۔ فرمایا: وہ اہل کتاب ہیں۔ اس عبارت میں ابن عباس، الضحاک، الحسن، سعید بن جبیر اور العماش کے بیانات کا حوالہ دیا گیا ہے۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=15&tAyahNo=91&tDisplay=yes&UserProfile=0&LanguageId=1

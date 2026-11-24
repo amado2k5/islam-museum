@@ -2,8 +2,8 @@
 id: passage/quran-55-49
 lang: id
 source_lang: ar
-translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-23), draft translation']
-provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-23, source: content/ar/passage/quran-55-49.md}
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-23), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-id-2026-11-24, source: content/ar/passage/quran-55-49.md}
 ---
 
 ## Ringkasan
@@ -11,3 +11,7 @@ Ayat 49 Surah [[passage/quran-55|Ar-Rahman]], yang merupakan surah Madinah. {cit
 
 ## Posisinya
 Lokasinya: Ayat 49 dari 78 dalam surat. Teks ini dilestarikan dari Mushaf Tazil yang membeku dan tidak ditulis ulang di sini.
+
+## Dalam Tafsir al-Tabari
+
+Al-Tabari membahas ayat ini dalam satu bagian yang mencakup ayat-ayat berikut: [[passage/quran-55-46|55:46]] ke [[passage/quran-55-49|55:49]] Singkatnya: Al-Tabari menjelaskan bahwa siapa pun yang takut kepada Allah dan takut berdiri di hadapan-Nya, dan menaati-Nya dengan melaksanakan kewajiban dan menghindari dosa, akan memiliki dua taman, artinya dua kebun. Ia meriwayatkan dari Ibnu Abbas bahwa Allah menjanjikan hal ini kepada orang-orang beriman yang takut berdiri di hadapan-Nya, kemudian ia menyebutkan bahwa kedua taman tersebut memiliki cabang-cabang. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=55&tAyahNo=49&tDisplay=yes&UserProfile=0&LanguageId=1

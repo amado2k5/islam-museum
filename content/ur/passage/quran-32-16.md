@@ -2,10 +2,17 @@
 id: passage/quran-32-16
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-32-16.md}
 ---
 ## موجز
 الآية 16 من [[passage/quran-32|سورۃ السجدة]]، وہ مکی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 16، سورت کی کل 30 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+اس کا یہ قول، "ان کے پہلو اپنے بستروں کو چھوڑ دیتے ہیں جب وہ اپنے رب کو خوف اور امید سے پکارتے ہیں، اور جو کچھ ہم نے ان کو دیا ہے اس میں سے خرچ کرتے ہیں"، وضاحت کرتا ہے: جو لوگ خدا کی نشانیوں پر ایمان رکھتے ہیں، جن کی خصوصیات بیان کی گئی ہیں، ان کے پہلو ہٹ جاتے ہیں اور اپنے بستروں سے اٹھتے ہیں جہاں وہ سوتے ہیں، اور وہ سوتے نہیں ہیں۔ "وہ اپنے رب کو خوف اور امید کے ساتھ پکارتے ہیں" ان کے لیے اس کی بخشش، اور اس کی رحمت ان پر اپنی رحمت اور بخشش کے ساتھ۔ "اور جو کچھ ہم نے ان کو دیا ہے اس میں سے وہ راہ خدا میں خرچ کرتے ہیں" اور اس میں سے خدا کے وہ حقوق پورے کرتے ہیں جو اس نے ان پر فرض کئے ہیں۔ اور وہ اجنبی ہیں: وہ اصل لفظ سے اجنبی ہیں جس کا مطلب ہے اجنبیت یا رد کرنا، جیسا کہ شاعر نے کہا: "اور میرا ساتھی وہ ہے جس کا رنگ دمشق کا سیاہ ہے، اور ابن ملات اجنبی ہے، زیادہ نرم ہے۔" مطلب: اس کی سخاوت ابن ملات کی پیدائشی خوبی ہے۔ اور خداتعالیٰ نے انہیں اپنے بستروں سے اجنبی قرار دیا کیونکہ انہوں نے سونے کے لیے لیٹنا چھوڑ دیا، نماز میں مشغول ہو گئے۔ اس عبارت میں قتادہ، ابن جریج، سفیان اور عطا کے بیانات بھی نقل کیے گئے ہیں۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=32&tAyahNo=16&tDisplay=yes&UserProfile=0&LanguageId=1

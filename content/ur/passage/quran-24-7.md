@@ -2,10 +2,17 @@
 id: passage/quran-24-7
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-24-7.md}
 ---
 ## موجز
 الآية 7 من [[passage/quran-24|سورۃ النور]]، وہ مدنی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 7، سورت کی کل 64 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+الطبری نے آیات 7 تا 8 کی آیت کو ایک حصے کے طور پر پڑھا ہے۔ وہ اپنے اس قول کی وضاحت کرتا ہے: "اور جو لوگ اپنی بیویوں پر تہمت لگاتے ہیں اور ان کے پاس اپنے سوا کوئی گواہ نہیں، تو ان میں سے ایک کی گواہی اللہ کی طرف سے چار گواہیاں ہوں گی کہ وہ سچوں میں سے ہے۔" "اور جو لوگ" مردوں پر "اپنی بیویوں" پر زنا کی تہمت لگاتے ہیں، تو وہ ان پر زنا کا الزام لگاتے ہیں، "اور ان کے پاس کوئی گواہ نہیں ہوتا" کہ وہ ان کے حق کی گواہی دے جو انہوں نے ان پر زنا کا الزام لگایا، "تو ان میں سے کسی کی گواہی اللہ کی طرف سے چار شہادتیں ہوں گی کہ وہ سچا ہے۔" تلاوت کرنے والوں کا اس کے پڑھنے میں اختلاف ہے۔ مدینہ اور بصرہ کے اکثر قراء نے اسے الزامی کیس میں "چار شہادتیں" کے طور پر پڑھا۔ ان کے الزامی مقدمہ کے استعمال کی دو وجوہات ہیں: ان میں سے ایک یہ ہے کہ اس کے بیان میں گواہی، "پھر ان میں سے ایک کی گواہی،" نامزد مقدمے میں اس سے پہلے مضمر مضمون کے ساتھ ہے، اور "چار" الزامی صورت میں گواہی کے معنی کے ساتھ ہے۔ اس کے بعد اس بیان کی تشریح یہ ہوگی: پس ان میں سے ایک کو چار مرتبہ خدا کی گواہی دینا ہوگی۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=24&tAyahNo=7&tDisplay=yes&UserProfile=0&LanguageId=1

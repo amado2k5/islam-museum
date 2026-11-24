@@ -2,10 +2,17 @@
 id: passage/quran-42-43
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-42-43.md}
 ---
 ## موجز
 الآية 43 من [[passage/quran-42|سورۃ الشورى]]، وہ مکی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 43، سورت کی کل 53 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+الطبری نے آیات 43 تا 44 کے اندر آیت کو ایک حصے کے طور پر پڑھا ہے۔ اس کا بیان، "اور جو صبر کرتا ہے اور معاف کر دیتا ہے - درحقیقت، یہ عزم کے معاملات میں سے ہے [ضروری] ہے"، وضاحت کرتا ہے: جو شخص اس کی غلطی پر صبر کرتا ہے جس نے اس پر ظلم کیا ہے، اور ظالم کو اس کی خطا پر معاف کر دیتا ہے، بدلہ نہیں لینے کے باوجود اس کی طاقت رکھتا ہے، صرف خدا کی خوشنودی اور اس کی فراوانی کا طلب گار ہے عزم." اس کا مطلب یہ ہے کہ اس کا صبر اور ظالم کے گناہ کی معافی ان امور میں سے ہے جن کا خدا نے اپنے بندوں کو حکم دیا ہے اور جن پر عمل کرنے کا حکم دیا ہے۔ ’’اور جس کو خدا گمراہ کر دے اس کے بعد اس کا کوئی مددگار نہیں۔‘‘ اس کا مطلب یہ ہے کہ جس کو خدا ہدایت سے چھوڑ دیتا ہے اس کا کوئی محافظ نہیں ہوتا کہ وہ اسے راہ راست پر لائے اور اسے راہ راست پر لائے جب کہ خدا اسے گمراہ کر دے ۔ ’’اور تم ظالموں کو دیکھو گے جب وہ عذاب دیکھیں گے۔‘‘ اللہ تعالیٰ اپنے نبی محمد سے فرماتا ہے: اور تم اللہ کے منکروں کو قیامت کے دن دیکھو گے، جب وہ اللہ کے عذاب کا مشاہدہ کریں گے اور اپنے رب سے کہیں گے: "اے رب، ہمارے لیے کوئی راستہ ہے؟" یہ اس کے قول کی طرح ہے: "اور اگر تم دیکھ سکتے ہو..."
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=42&tAyahNo=43&tDisplay=yes&UserProfile=0&LanguageId=1

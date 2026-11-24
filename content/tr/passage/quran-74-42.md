@@ -2,8 +2,8 @@
 id: passage/quran-74-42
 lang: tr
 source_lang: ar
-translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-23), draft translation']
-provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-23, source: content/ar/passage/quran-74-42.md}
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-23), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-tr-2026-11-24, source: content/ar/passage/quran-74-42.md}
 ---
 
 ## Özet
@@ -11,3 +11,9 @@ Mekke suresi olan Sürehir Suresi [[passage/quran-74|'nin 42. ayeti]]. {cite:tan
 
 ## Konumu
 Konumu: Suredeki 56 ayetten 42. ayet. Metin Donmuş Vahiy'in Mushaf'ından korunmuş olup burada yeniden yazılmamıştır.
+
+## El-Taberi'nin Tafsir'inde
+
+Taberi, 42-49. ayetler arasındaki bölümü tek bir kısım olarak okur. "Her nefis, amellerinin hesabını verir" ifadesini, her nefisin bu dünyada Allah'a karşı işlediği isyanların hesabını verdiği ve cehennemde de hesap vereceği şeklinde yorumlar; "ancak doğru yolda olanlar hariç," çünkü onlar hesap vermezler, aksine "cennetlerde birbirlerini sorguya çekerler" ve suçluları sorgularlar. Bu bölümde İbn Abb Mücahid, Katade, İbn Zeyd, El-A'maş ve Sufyan'dan alıntılar yapar.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=74&tAyahNo=42&tDisplay=yes&UserProfile=0&LanguageId=1

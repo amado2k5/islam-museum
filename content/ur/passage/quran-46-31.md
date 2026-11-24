@@ -2,10 +2,17 @@
 id: passage/quran-46-31
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-46-31.md}
 ---
 ## موجز
 الآية 31 من [[passage/quran-46|سورۃ الاحقاف]]، وہ مکی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 31، سورت کی کل 35 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+الطبری نے آیت 31 سے 32 کے اندر آیت کو ایک حصے کے طور پر پڑھا ہے۔ اس کا یہ قول، "اے ہماری قوم، خدا کے پکارنے والے کی دعا قبول کرو اور اس پر ایمان لاؤ، وہ تمہارے بعض گناہ معاف کر دے گا اور تمہیں دردناک عذاب سے محفوظ رکھے گا" اس کی وضاحت اس طرح کی گئی ہے: خدا تعالیٰ ہمیں ان جنات کے بارے میں بتاتا ہے: "اے ہماری قوم" یعنی جن، "خدا کے پکارنے والے کو جواب دو"۔ انہوں نے کہا: خدا کے رسول محمد کو اس بات پر لبیک کہو جس کی طرف وہ تمہیں خدا کی اطاعت کی طرف بلاتے ہیں۔ "اور اس پر ایمان لاؤ" یعنی: اس پر یقین کرو جو وہ اور اس کے لوگ تمہیں خدا کے احکام اور ممانعتیں لائے ہیں، اور دوسری چیزیں جن پر اس نے تمہیں ایمان لانے کے لیے بلایا ہے۔ "وہ تمہیں معاف کر دے گا" یعنی تمہارا رب تمہارے گناہوں کو درگزر کرے گا اور ان کو تمہارے لیے چھپائے گا، اور آخرت میں ان کے لیے تمہیں عذاب دے کر ان کے لیے بے نقاب نہیں کرے گا۔ "اور وہ تمہیں دردناک عذاب سے محفوظ رکھے گا۔" وہ کہتا ہے: وہ تمہیں دردناک عذاب سے بچا لے گا اگر تم اپنے گناہوں سے توبہ کر لو اور اپنے کفر سے خدا اور اس کی دعوت پر ایمان لے آؤ۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=46&tAyahNo=31&tDisplay=yes&UserProfile=0&LanguageId=1

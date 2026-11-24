@@ -2,11 +2,15 @@
 id: passage/quran-77-17
 lang: fr
 source_lang: en
-translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
-provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate documents, managed by Claude Code)', model: google-translate, run: gt-docs-fr-2026-11-19, source: content/en/passage/quran-77-17.md}
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-fr-2026-11-24, source: content/ar/passage/quran-77-17.md}
 ---
 ## Résumé
 Verset 17 de [[passage/quran-77|la sourate al-Mursalat]], une sourate mecquoise. {cite:tanzil-quran}
 
 ## Place dans le musée
 Il s'agit du verset 17 sur 50 dans la sourate. Le texte est conservé dans le mushaf Tanzil et n'est pas reproduit ici.
+
+## Dans le commentaire d'al-Tabari
+
+Al-Tabari aborde ce verset dans une seule section qui comprend les versets [[passage/quran-77-16|77:16]] à [[passage/quran-77-19|77:19]] En résumé : Al-Tabari mentionne que Dieu suit les premiers jusqu’aux derniers qui ont suivi leur voie dans l’incrédulité, tels que le peuple d’Abraham, le peuple de Lot et le peuple de Madyan, et les détruit comme Il a détruit les premiers. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=77&tAyahNo=17&tDisplay=yes&UserProfile=0&LanguageId=1

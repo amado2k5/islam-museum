@@ -2,10 +2,17 @@
 id: passage/quran-26-25
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-26-25.md}
 ---
 ## موجز
 الآية 25 من [[passage/quran-26|سورۃ الشعراء]]، وہ مکی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 25، سورت کی کل 227 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+الطبری نے آیت 25 سے 29 تک کی آیت کو ایک حصے کے طور پر پڑھا ہے۔ اس کا بیان، ’’اس نے اپنے اردگرد والوں سے کہا، کیا تم نہیں سنتے؟‘‘ مطلب یہ ہے کہ فرعون نے اپنے آس پاس والوں سے کہا، ’’کیا تم سنتے نہیں؟‘‘ تو موسیٰ نے لوگوں کو فرعون کے اس سوال کے جواب سے آگاہ کیا کہ "اور رب العالمین کیا ہے؟" یہ اس لیے تھا کہ فرعون کے لوگ فرعون کے سامنے اس کے بیان اور اس کے پوچھے گئے جواب کو سمجھیں۔ جب فرعون نے ان سے کہا کیا تم سنتے نہیں؟ موسیٰ کی بات پر اس نے جواب دیا کہ جس کی طرف میں نے تجھے بلایا اور جس کی عبادت کے لیے میں نے تجھے بلایا وہی تیرا رب ہے، وہی ہے جس نے تجھے پیدا کیا اور تیرے باپ دادا کا رب ہے۔ جب موسیٰ نے انہیں یہ بتایا اور فرعون اور اس کی قوم کو جس چیز کی طرف بلایا گیا تھا اس کی خبر دی تو فرعون نے کہا: "درحقیقت تمہارا وہ رسول جو تمہاری طرف بھیجا گیا تھا..." وہ دیوانہ ہے، یعنی: تمہارا یہ قاصد جو یہ دعویٰ کرتا ہے کہ تمہارے پاس بھیجا گیا ہے، اس کے دماغ سے باہر ہے، کیونکہ وہ ایسی باتیں کہتا ہے جو ہم نہیں جانتے اور نہ سمجھتے ہیں۔ اس نے صرف اتنا کہا اور اسے موسیٰ کی طرف منسوب کیا جو کہ دشمن کے دشمن ہیں...
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=26&tAyahNo=25&tDisplay=yes&UserProfile=0&LanguageId=1

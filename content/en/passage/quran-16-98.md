@@ -2,10 +2,17 @@
 id: passage/quran-16-98
 lang: en
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-en-2026-11-24, source: content/ar/passage/quran-16-98.md}
 ---
 ## Summary
 Verse 98 of [[passage/quran-16|Surat an-Nahl]], a Meccan surah. {cite:tanzil-quran}
 
 ## Place in the museum
 Its place: verse 98 of 128 verses in the surah. The text is kept in the frozen Tanzil mushaf and is not retyped here.
+
+## Al-Tabari's commentary
+
+Al-Tabari recites the verse within verses 98 to 100 in a single segment. He explains the phrase "So when you recite the Qur'an, seek refuge in Allah from the accursed Satan": And if, O Muhammad, you are reciting the Qur'an, seek refuge in Allah from the accursed Satan. Some Arabs claimed it is from the delayed one, which means 'to move forward.' It seems that the meaning of the statement for him is: 'And if you seek refuge with Allah from the accursed Satan, then recite the Qur'an.' There is no basis for what he said, because if that were the case, whenever someone sought refuge from the accursed Satan, he would have to recite the Qur'an, but its meaning is as we have described. His saying: "So seek refuge in Allah from the accursed Satan" is not a necessary command; rather, it is a warning and recommendation, because there is no disagreement among all that whoever recites the Qur'an and does not seek refuge with Allah from the accursed Satan before or after reading it has not neglected a mandatory obligation. Ibn Zayd used to say about this similar to what we have said. In the passage, he quotes from Mujahid, Ibn Zayd, Ibn Jurayj, Al-Rabi', and Sufyan.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=16&tAyahNo=98&tDisplay=yes&UserProfile=0&LanguageId=1

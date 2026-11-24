@@ -2,10 +2,17 @@
 id: passage/quran-36-35
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-36-35.md}
 ---
 ## موجز
 الآية 35 من [[passage/quran-36|سورۃ یس]]، وہ مکی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 35، سورت کی کل 83 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+اس کا قول ہے کہ ’’وہ اس کے پھل اور جو کچھ ان کے ہاتھوں نے پیدا کیا ہے کھائیں، تو کیا وہ شکر ادا نہیں کریں گے؟‘‘ بیان کرتے ہیں: ہم نے یہ باغات اس زمین پر اس لیے بنائے ہیں کہ میرے بندے اس کے پھل اور ان کے ہاتھوں کی پیداوار کھائیں ۔ وہ کہتا ہے: تاکہ وہ ان باغوں کے پھل کھائیں جو ہم نے ان کے لیے بنائے ہیں اور جو کچھ ان کے ہاتھوں نے لگایا اور جو بویا اس میں سے۔ اس کے بیان میں "کیا"، "اور ان کے ہاتھوں نے کیا پیدا کیا ہے،" جینیاتی صورت میں، "پھل" سے جڑا ہوا ہے، مطلب: اور جو انہوں نے پیدا کیا ہے۔ عبداللہ کے پڑھنے میں، جیسا کہ ذکر کیا گیا ہے، یہ ہے: "اور جو انہوں نے پیدا کیا ہے،" اس معنی میں اسم ضمیر کے ساتھ۔ ہماری پڑھائی میں ضمیر "یہ" مراد ہے، کیونکہ عربوں نے کبھی اس کا مطلب لیا اور کبھی اسے "کون،" "کیا" اور "وہ جو" کے ملاپ میں واضح کیا ہے۔ اگر یہ کہا جائے کہ "کیا" سے لفظی اسم مراد ہے، تو یہ ایک صحیح تفسیر ہوگی، اور بیان کا معنی یہ ہوگا: اور جو ان کے ہاتھوں نے پیدا کیا ہے۔ اگر یہ کہا جائے کہ اس کا مطلب انکار ہے اور اس کی کوئی جگہ نہیں ہے تو یہ بھی ایک عقیدہ ہوگا اور اس قول کا معنی یہ ہوگا کہ وہ اس کا پھل کھائیں جو ان کے ہاتھوں نے پیدا نہیں کیا۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=36&tAyahNo=35&tDisplay=yes&UserProfile=0&LanguageId=1

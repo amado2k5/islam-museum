@@ -2,10 +2,17 @@
 id: passage/quran-23-68
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-23-68.md}
 ---
 ## موجز
 الآية 68 من [[passage/quran-23|سورۃ المؤمنون]]، وہ مکی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 68، سورت کی کل 118 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+الطبری آیات 68-70 کے اندر آیت کو ایک اکائی کے طور پر پڑھتا ہے۔ وہ الفاظ کی تشریح کرتا ہے، "کیا انہوں نے کلام پر غور نہیں کیا، یا ان کے پاس وہ چیز آئی ہے جو ان کے آباؤ اجداد کے پاس نہیں آئی؟" مندرجہ ذیل ہے: کیا ان مشرکوں نے خدا کی وحی اور اس کے کلام میں غور و فکر نہیں کیا تاکہ وہ اس میں موجود اسباق کو سیکھیں اور اپنے خلاف خدا کے دلائل کو پہچان سکیں؟ ’’کیا ان کے پاس وہ چیز آئی ہے جو ان کے آباؤ اجداد کے پاس نہیں آئی؟‘‘ وہ کہتا ہے: یا ان کے پاس کوئی ایسی چیز آئی ہے جو ان کے آباء و اجداد کے پاس نہیں آئی تھی، پس وہ تکبر کرتے رہے اور منہ پھیرتے رہے، حالانکہ ان سے پہلے رسول آئے اور ان کے ساتھ صحیفے نازل ہوئے۔ یہ بھی ممکن ہے کہ اس سیاق و سباق میں "یا" کا مطلب "بلکہ" ہو، اس صورت میں تشریح یہ ہوگی: کیا انہوں نے اس لفظ پر غور نہیں کیا؟ بلکہ ان کے پاس ایک ایسی چیز آئی جو ان کے آباؤ اجداد کے پاس نہیں تھی، تو انہوں نے اس پر غور کرنا چھوڑ دیا اور اس سے منہ موڑ لیا، کیونکہ یہ وہ چیز نہیں تھی جس کا تجربہ ان کے آباؤ اجداد کو ہوا تھا۔ اس عبارت میں ابن عباس اور عکرمہ کے بیانات بھی نقل کیے گئے ہیں۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=23&tAyahNo=68&tDisplay=yes&UserProfile=0&LanguageId=1

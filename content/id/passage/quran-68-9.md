@@ -2,8 +2,8 @@
 id: passage/quran-68-9
 lang: id
 source_lang: ar
-translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-23), draft translation']
-provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-23, source: content/ar/passage/quran-68-9.md}
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-23), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-id-2026-11-24, source: content/ar/passage/quran-68-9.md}
 ---
 
 ## Ringkasan
@@ -11,3 +11,7 @@ Ayat 9 Surah [[passage/quran-68|Al-Qalam]], yang merupakan surah Mekah. {cite:ta
 
 ## Posisinya
 Lokasinya: Ayat 9 dari 52 dalam surat. Teks ini disimpan dari Mushaf Tazil al-Mujmad dan tidak ditulis ulang di sini.
+
+## Dalam Tafsir al-Tabari
+
+Al-Tabari membahas ayat ini dalam satu bagian yang mencakup ayat-ayat berikut: [[passage/quran-68-8|68:8]] ke [[passage/quran-68-11|68:11]] Singkatnya: Al-Tabari menjelaskan bahwa Allah melarang Nabi-Nya untuk menaati orang-orang yang mengingkari tanda-tanda-Nya dan Rasul-Nya, dan mereka berharap agar Anda berkompromi sehingga mereka pun berkompromi. Ia menyebutkan perbedaan pendapat di antara para ahli tafsir; sebagian dari mereka mengatakan bahwa mereka berharap agar Anda mengingkari Allah sehingga mereka pun mengingkari. Ia meriwayatkan berdasarkan riwayat Ibnu Abbas dan lainnya, kemudian ia melarang beliau untuk menaati setiap orang yang bersumpah palsu dan tercela. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=68&tAyahNo=9&tDisplay=yes&UserProfile=0&LanguageId=1

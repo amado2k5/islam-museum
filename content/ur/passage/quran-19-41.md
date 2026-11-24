@@ -2,10 +2,17 @@
 id: passage/quran-19-41
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-19-41.md}
 ---
 ## موجز
 الآية 41 من [[passage/quran-19|سورۃ مریم]]، وہ مکی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 41، سورت کی کل 98 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+الطبری نے آیات 41-42 کے اندر آیت کو ایک حصے کے طور پر پڑھا ہے۔ وہ ان الفاظ کی تشریح کرتا ہے، "اور کتاب میں ابراہیم کا ذکر کرو، بے شک وہ ایک سچے آدمی اور نبی تھے": اللہ تعالیٰ اپنے نبی سے کہتا ہے، "اور اے محمد، خدا کی کتاب میں، "ابراہیم" کا ذکر کرو، جو رحمٰن کا دوست ہے، تو ان مشرکوں سے اس کی کہانی اور اس کے باپ کا قصہ بیان کرو، "بے شک وہ سچا آدمی تھا۔" وہ کہتا ہے: وہ اپنی بات، اپنی رپورٹ اور اپنے وعدوں میں سچا تھا۔ اس نے جھوٹ نہیں بولا. "سچائی کا آدمی" جڑ سے ماخوذ ہے جس کا مطلب ہے "سچائی"۔ اس کی وضاحت ہم پہلے کر چکے ہیں، جس کی وجہ سے اسے یہاں دہرانا غیر ضروری ہو جاتا ہے۔ ’’نبی‘‘ کا مطلب ہے: خدا نے اسے نبی بنایا اور اس پر وحی کی۔ اور اس کا یہ قول: "جب اس نے اپنے باپ سے کہا،" وہ کہتا ہے: یاد کرو جب اس نے اپنے باپ سے کہا، "اے میرے ابا، تم اس کی عبادت کیوں کرتے ہو جو نہیں سنتا؟" وہ کہتا ہے: تم اس بت کی پرستش سے کیا کرتے ہو جو نہ کچھ سنتا ہے، نہ دیکھتا ہے اور نہ ہی تمہارے کچھ کام آتا ہے، وہ کہتا ہے: یہ تمھارے کسی نقصان کو نہیں ٹالتا، یہ محض ایک مجسمہ ہے جو نہ نقصان پہنچاتا ہے اور نہ فائدہ۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=19&tAyahNo=41&tDisplay=yes&UserProfile=0&LanguageId=1

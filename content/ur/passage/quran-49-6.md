@@ -2,10 +2,17 @@
 id: passage/quran-49-6
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-49-6.md}
 ---
 ## موجز
 الآية 6 من [[passage/quran-49|سورۃ الحجرات]]، وہ مدنی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 6، سورت کی کل 18 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+’’اے لوگو جو ایمان لائے ہو، اگر کوئی فاسق تمہارے پاس خبر لے کر آئے تو تحقیق کر لیا کرو، ایسا نہ ہو کہ تم کسی قوم کو جہالت کی وجہ سے نقصان پہنچا بیٹھو اور اپنے کیے پر پشیمان ہو جاؤ‘‘ کی وضاحت اس طرح کی گئی ہے: اے خدا اور اس کے رسول پر ایمان والو، اگر کوئی فاسق تمہارے پاس کسی قوم کی خبر لے کر آئے تو تحقیق کرو۔ تلاوت کرنے والوں کا لفظ "تحقیقات" کے پڑھنے میں اختلاف تھا۔ مدینہ کے اکثر قاری اسے "th" آواز کے ساتھ "تصدیق" کے طور پر پڑھتے ہیں، اور یہ ذکر کیا گیا ہے کہ عبداللہ کے لکھے ہوئے قرآن کے نسخے میں، اس کی ہجے "th" کی آواز سے کی گئی ہے۔ بعض قراء نے اسے "فتابیانو" کے طور پر "با" کے ساتھ پڑھا ہے، مطلب: اس وقت تک انتظار کرو جب تک تم اس کی حقیقت معلوم نہ کر لو۔ اسے قبول کرنے میں جلدی نہ کرو. یہی بات "فتحبتو" کے معنی پر بھی لاگو ہوتی ہے۔ صحیح قول یہ ہے کہ دونوں ایک جیسے معانی کے ساتھ معروف قراءت ہیں، لہٰذا قاری جو بھی پڑھے وہ قابل قبول ہے۔ مذکور ہے کہ یہ آیت ولید بن عقبہ بن ابی معیط کے بارے میں نازل ہوئی تھی۔ اس عبارت میں ابن عباس سے منسوب بیانات بھی شامل ہیں۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=49&tAyahNo=6&tDisplay=yes&UserProfile=0&LanguageId=1

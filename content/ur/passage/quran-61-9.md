@@ -2,10 +2,17 @@
 id: passage/quran-61-9
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-61-9.md}
 ---
 ## موجز
 الآية 9 من [[passage/quran-61|سورۃ الصف]]، وہ مدنی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 9، سورت کی کل 14 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+اس کا یہ قول کہ "وہی ہے جس نے اپنے رسول کو ہدایت اور دین حق کے ساتھ بھیجا تاکہ اسے تمام ادیان پر غالب کر دے، خواہ مشرکین اس سے ناگوار کیوں نہ ہوں" اس کی وضاحت اس طرح کی گئی ہے: خدا نے اپنے رسول محمد کو ہدایت اور دین حق کے ساتھ بھیجا، یعنی حق اور دین حق کی واضح وضاحت کے ساتھ، جو اسلام ہے۔ اُس کے بیان، ’’اسے تمام مذاہب پر غالب کرنا‘‘ کا مطلب یہ ہے کہ اپنے سچے مذہب کو، جس کے ساتھ اس نے اپنے رسول کو بھیجا، باقی تمام مذاہب پر غالب کرے۔ یہ عیسیٰ ابن مریم کے نزول پر اس وقت ہوگا جب ایک دین ہوگا اور اسلام کے علاوہ کوئی دین نہیں ہوگا۔ جیسا کہ سفیان نے ابو المقدم ثابت بن ہرمز کی روایت سے، ابو ہریرہ کی سند سے، "اس کو تمام مذاہب پر غالب کرنے کے حوالے سے" کہا: "اس سے مراد عیسیٰ ابن مریم کا آنا ہے۔" ہم پہلے ہی اس جملے کی مختلف تشریحات کا ذکر کر چکے ہیں کہ "اسے تمام مذاہب پر غالب کیا جائے" اور اس معاملے پر ہمارا نظریہ اور اس کی تائیدی وجوہات پہلے بھی زیر بحث آچکی ہیں، اس لیے اسے یہاں دہرانا غیر ضروری ہے۔ اس عبارت میں سفیان سے منسوب بیانات بھی شامل ہیں۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=61&tAyahNo=9&tDisplay=yes&UserProfile=0&LanguageId=1

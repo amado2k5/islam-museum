@@ -2,10 +2,17 @@
 id: passage/quran-22-39
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-22-39.md}
 ---
 ## موجز
 الآية 39 من [[passage/quran-22|سورۃ الحج]]، وہ مدنی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 39، سورت کی کل 78 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+آیت، "جن لوگوں سے جنگ کی جا رہی ہے، ان کو [لڑنے کی] اجازت دی گئی ہے، کیونکہ ان پر ظلم کیا گیا تھا، اور بے شک اللہ انہیں فتح دینے پر پوری طرح قادر ہے،" اس طرح بیان کیا گیا ہے: اللہ نے ان مومنوں کو اجازت دی ہے جو اس کی راہ میں مشرکوں سے لڑتے ہیں، کیونکہ مشرکوں نے ان پر ظلم کیا ہے۔ تلاوت کرنے والوں نے اس آیت کے پڑھنے میں اختلاف کیا۔ مدینہ کے اکثر قراء نے اسے "أُذِنَ" ⁦(الف پر دمہ کے ساتھ)⁩ اور "يُقاتَلُونَ" ⁦(طا پر فاتحہ کے ساتھ)⁩ پڑھا، اور "أُذِنَ" اور "يُقاتَلُونَ" دونوں میں مضمون کو چھوڑ دیا۔ کوفان کے بعض قراء اور بصران کی اکثریت اسے "أُذِنَ" ⁦(بغیر مضمون کے)⁩ اور "يُقاتِلُونَ" ⁦(ط پر کسرہ کے ساتھ)⁩ پڑھتے ہیں، یعنی جن لوگوں کو جنگ کی اجازت ہے وہ مشرکوں سے لڑیں گے۔ کوفان کے اکثر قاری اور بعض اہل مکہ اسے "أَذِنَ" ⁦(الف پر فاتحہ کے ساتھ)⁩ کے طور پر پڑھتے ہیں، یعنی: خدا نے اجازت دی ہے، اور "یُقاتِلُونَ" ⁦(ط پر کسرہ کے ساتھ)⁩، یعنی: جن کو خدا نے مشرکوں سے لڑنے کی اجازت دی ہے۔ اس عبارت میں ابن عباس، العمش اور سفیان کے بیانات بھی نقل کیے گئے ہیں۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=22&tAyahNo=39&tDisplay=yes&UserProfile=0&LanguageId=1

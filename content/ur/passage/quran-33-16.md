@@ -2,10 +2,17 @@
 id: passage/quran-33-16
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-33-16.md}
 ---
 ## موجز
 الآية 16 من [[passage/quran-33|سورۃ الاحزاب]]، وہ مدنی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 16، سورت کی کل 73 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+الطبری نے آیات 16 سے 17 تک کی آیت کو ایک حصے کے طور پر پڑھا ہے۔ وہ اس کے اس قول کی تشریح کرتا ہے، "کہو، 'اگر تم موت سے یا مارے جانے سے بھاگو تو پرواز تمہیں فائدہ نہیں دے گی، اور پھر تم کو تھوڑی دیر کے لیے لطف نہیں دیا جائے گا'": "اے محمد، ان لوگوں سے کہو جو تم سے رخصت ہونے کی اجازت مانگتے ہیں اور کہتے ہیں کہ ہمارے گھر کمزور ہیں: "اگر تم موت یا مارے جانے سے بھاگو تو پرواز تمہیں فائدہ نہیں دے گی۔" وہ کہتا ہے: کیونکہ وہ، یا اللہ نے ان کے بارے میں جو حکم دیا ہے، وہ ہر حال میں آپ تک پہنچے گا، چاہے آپ اسے پسند کریں یا نہ کریں۔ "اور پھر تم تھوڑی دیر کے علاوہ اس سے لطف اندوز نہیں ہو پاؤ گے۔" وہ کہتا ہے: اگر تم موت سے بھاگتے ہو یا مارے جاتے ہو تو تمہاری پرواز تمہاری عمر یا مقررہ مدت میں اضافہ نہیں کرے گی۔ بلکہ تم اس دنیا میں صرف اس وقت تک لطف اندوز رہو گے جب تک کہ تمہارے لیے وقت مقرر نہ ہو جائے، پھر وہی ہو گا جو تمہارے لیے اور تمہارے خلاف مقرر کیا گیا ہے۔ اس عبارت میں قتادہ، العمش، ابن اسحاق، الربیع اور سفیان کے بیانات بھی نقل کیے گئے ہیں۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=33&tAyahNo=16&tDisplay=yes&UserProfile=0&LanguageId=1

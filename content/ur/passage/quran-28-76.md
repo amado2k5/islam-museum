@@ -2,10 +2,17 @@
 id: passage/quran-28-76
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-28-76.md}
 ---
 ## موجز
 الآية 76 من [[passage/quran-28|سورۃ القصص]]، وہ مکی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 76، سورت کی کل 88 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+آیت: ’’بے شک قارون موسیٰ کی قوم میں سے تھا لیکن اس نے ان پر زیادتی کی اور ہم نے اسے خزانوں میں سے اتنا دیا کہ اس کی کنجیاں طاقتوروں کے ایک گروہ کے وزن میں پڑ جائیں گی، جب اس کی قوم نے اس سے کہا کہ خوش نہ ہو، کیونکہ اللہ خوش کرنے والوں کو پسند نہیں کرتا۔‘‘ بیان کرتی ہے کہ قارون سے مراد قارون بن یعقوبی ہے۔ "موسیٰ کی قوم میں سے تھا" یعنی وہ موسیٰ بن عمران کے قبیلے سے تھا، نبی اور ان کے والد اور والدہ دونوں طرف سے ان کے چچازاد بھائی تھے۔ اس کی وجہ یہ ہے کہ قارون قارون بن یسار بن قحط اور موسیٰ تھے: وہ موسیٰ بن عمران بن قحط ہیں، جیسا کہ ابن جریج نے ان کے نسب کا پتہ لگایا ہے۔ انہوں نے کہا: حجاج نے مجھ سے ابن جریج کی سند سے اس قول کے بارے میں بیان کیا کہ: "بے شک قارون موسیٰ کی قوم میں سے تھا۔" اس نے کہا: اس کا چچازاد، اپنے باپ کے بھائی کا بیٹا۔ قارون بن یسفر کے لیے، جیسا کہ القاسم نے کہا، دراصل یشر بن قحط اور موسیٰ بن عومر بن قحط ہیں۔ عربی میں عومر کا مطلب عمران ہے۔ جہاں تک ابن اسحاق کا تعلق ہے تو وہ ابن حمید ہیں۔ سیکشن میں، اس نے ابراہیم، سماک اور سفیان کے بیانات کا حوالہ دیا ہے۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=28&tAyahNo=76&tDisplay=yes&UserProfile=0&LanguageId=1

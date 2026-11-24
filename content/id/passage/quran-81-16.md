@@ -2,8 +2,8 @@
 id: passage/quran-81-16
 lang: id
 source_lang: ar
-translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-23), draft translation']
-provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-id-2026-11-23, source: content/ar/passage/quran-81-16.md}
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-23), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-id-2026-11-24, source: content/ar/passage/quran-81-16.md}
 ---
 
 ## Ringkasan
@@ -11,3 +11,9 @@ Ayat 16 Surah [[passage/quran-81|At-Takwir]], yang merupakan surah Mekah. {cite:
 
 ## Posisinya
 Lokasinya: ayat 16 dari 29 dalam surat. Teks ini disimpan dari Mushaf Tanzil yang membeku dan tidak ditulis ulang di sini.
+
+## Dalam Tafsir al-Tabari
+
+Al-Tabari membaca ayat dalam ayat 16 sampai 21 sebagai satu bagian. Ia menafsirkan frasa “Dan ketika langit disingkirkan” sebagai: ketika langit disingkirkan dan ditarik ke bawah, kemudian dilipat kembali. Dalam bagian ini, ia mengutip pernyataan dari Mujahid, Qatadah, Al-Rabi’, dan Sufyan.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=81&tAyahNo=16&tDisplay=yes&UserProfile=0&LanguageId=1

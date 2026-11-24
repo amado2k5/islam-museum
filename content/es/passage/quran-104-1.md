@@ -2,11 +2,17 @@
 id: passage/quran-104-1
 lang: es
 source_lang: en
-translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
-provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate documents, managed by Claude Code)', model: google-translate, run: gt-docs-es-2026-11-19, source: content/en/passage/quran-104-1.md}
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-es-2026-11-24, source: content/ar/passage/quran-104-1.md}
 ---
 ## Resumen
 Verso 1 de [[passage/quran-104|Surat al-Humaza]], una sura de La Meca. {cite:tanzil-quran}
 
 ## Lugar en el museo
 Su ubicación: versículo 1 de 9 versículos en la sura. El texto se conserva en el Mushaf congelado de Tanzil y no se reproduce aquí.
+
+## En el comentario de al-Tabari
+
+Al-Tabari interpreta los versículos 1 al 9 como una sola sección. Interpreta la frase «¡Ay de todo calumniador y difamador!», en el sentido de que Dios Todopoderoso dice: «¡Ay de todo calumniador!», refiriéndose al valle rebosante de pus y suciedad de los habitantes del Infierno. «¡Ay de todo calumniador!» significa todo aquel que difama a los demás, provocándoles ira, como dijo Ziyad al-A'jam: «Simulas afecto cuando me encuentras, pero cuando estoy ausente, eres el calumniador y difamador». Por «difamador», se refiere a aquel que critica y ataca a los demás. En esta sección, cita declaraciones de Ibn Abbas, Mujahid, Qatadah, al-Rabi' y Sufyan.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=104&tAyahNo=1&tDisplay=yes&UserProfile=0&LanguageId=1

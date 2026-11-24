@@ -2,10 +2,17 @@
 id: passage/quran-24-40
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-24-40.md}
 ---
 ## موجز
 الآية 40 من [[passage/quran-24|سورۃ النور]]، وہ مدنی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 40، سورت کی کل 64 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+اس کا یہ قول کہ "یا ان کے اعمال ایسے ہیں جیسے گہرے سمندر میں اندھیرے، موجوں سے ڈھکی ہوئی ہیں، جن پر موجیں ہیں، اندھیرے پر اندھیرا، جب کوئی اپنا ہاتھ باہر نکالے تو اسے مشکل سے نظر آتا ہے، اور جس کے لیے اللہ نے روشنی مقرر نہیں کی، اس کے لیے کوئی روشنی نہیں،" اس کی وضاحت اللہ تعالیٰ نے ایک اور مثال کے طور پر فرمائی ہے جیسے کہ بدکاروں کے لیے اللہ تعالیٰ نے ایک اور مثال دی ہے۔ ارشاد باری تعالیٰ ہے: ان کافروں کے اعمال، اس میں گمراہی، فسق، گمراہی اور انتشار پر مبنی ہیں اور ان کے انجام دینے والوں کی طرف سے ہدایت کے بغیر، گہرے سمندر میں اندھیرے کی طرح ہیں۔ سمندر کو "گہرا" ⁦(لوجا)⁩ کے طور پر بیان کیا گیا ہے، جو اس کی گہرائی اور پانی کی کثرت کو ظاہر کرتا ہے۔ سمندر کی وسعت: اس کی وسیع وسعت۔ "ایک لہر اسے ڈھانپ لیتی ہے" کا مطلب ہے کہ لہریں سمندر کو ڈھانپ لیتی ہیں۔ "اس کے اوپر ایک اور لہر ہے" کا مطلب ہے کہ پہلی لہر کے اوپر ایک اور لہر اسے ڈھانپ رہی ہے۔ "اس کے اوپر بادل ہیں" کا مطلب ہے کہ دوسری لہر کے اوپر جو پہلی کو ڈھانپتی ہے ایک بادل ہے۔ اس عبارت میں ابن عباس، ابن زید اور الربیع کے بیانات بھی نقل کیے گئے ہیں۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=24&tAyahNo=40&tDisplay=yes&UserProfile=0&LanguageId=1

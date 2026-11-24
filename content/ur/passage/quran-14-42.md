@@ -2,12 +2,8 @@
 id: passage/quran-14-42
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
-provenance:
-  generated_by: "Claude Code (Haiku 5.5 session)"
-  model: claude-haiku-5-5
-  run: altafsir-tabari-batch-1-2026-11-23
-  source: source/altafsir-tabari
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-14-42.md}
 ---
 ## موجز
 الآية 42 من [[passage/quran-14|سورۃ ابراہیم]]، وہ مکی سورت ہے۔ {cite:tanzil-quran}
@@ -17,6 +13,6 @@ provenance:
 
 ## تفسیر طبری
 
-طبری کے مطابق آیت کا خطاب نبی سے ہے: اللہ ان ظالموں کے عمل سے غافل نہیں، بلکہ انہیں اس دن تک مہلت دیتا ہے جب آنکھیں ساکت ہو کر رہ جائیں گی۔ میمون بن مہران کے مطابق یہ ظالم کے لیے وعید اور مظلوم کے لیے تسلی ہے۔
+الطبری آیات 42 اور 43 کو ایک ساتھ پڑھتے ہیں: "اور یہ ہرگز نہ سمجھو کہ خدا ظالموں کے اعمال سے بے خبر ہے۔" نبی کے لیے یہ ممانعت ہے کہ وہ یہ نہ سوچیں کہ اللہ تعالیٰ اس سے غافل ہے جو اس کی قوم کے یہ مشرک کر رہے ہیں۔ بلکہ وہ ان سے پوری طرح باخبر ہے اور اس نے ان کے اعمال ان کے خلاف درج کر رکھے ہیں تاکہ وہ انہیں اس کے مطابق بدلہ دے جیسا کہ وہ پہلے سے جانتا ہے۔ میمون بن مہران سے روایت ہے کہ یہ ظالم کے لیے تنبیہ اور ظالم کے لیے تسلی ہے۔ "وہ انہیں صرف ایک دن کے لیے مؤخر کرتا ہے جب آنکھیں [خوف سے] گھور رہی ہوں گی۔" وہ ان کے عذاب اور ان پر عذاب کو قیامت کے دن تک مؤخر کرتا ہے جب تمام مخلوقات کی آنکھیں خوف زدہ ہوں گی اور ان کی طرف واپس نہیں آئیں گی جیسا کہ قتادہ سے روایت ہے۔ "جلد بازی" کے بارے میں دو تعبیریں ہیں: پہلی جلد بازی ہے- سعید بن جبیر کے نزدیک یہ ٹروٹ یا اس سے کم چیز ہے، اور قتادہ کے نزدیک اس کا مطلب ہے دوڑنا اور پکارنے والے کی طرف بڑھنا- دوسری یہ ہے کہ پلک جھپکائے بغیر نظریں جمائے رکھیں، جو مسلسل گھور رہی ہے، ابن الضحاء اور ابن عباس ہما کے مطابق۔
 
 {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=14&tAyahNo=42&tDisplay=yes&UserProfile=0&LanguageId=1

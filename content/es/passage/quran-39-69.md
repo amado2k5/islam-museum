@@ -2,11 +2,17 @@
 id: passage/quran-39-69
 lang: es
 source_lang: en
-translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation']
-provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Google Translate documents, managed by Claude Code)', model: google-translate, run: gt-docs-es-2026-11-19, source: content/en/passage/quran-39-69.md}
+translators: ['Google Translate (document translation on translate.google.com, 2026-11-19), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-es-2026-11-24, source: content/ar/passage/quran-39-69.md}
 ---
 ## Resumen
 Versículo 69 de [[passage/quran-39|Surat az-Zumar]], una sura de La Meca. {cite:tanzil-quran}
 
 ## Lugar en el museo
 Su ubicación: versículo 69 de 75 versículos en la sura. El texto se conserva en el Mushaf congelado de Tanzil y no se reproduce aquí.
+
+## En el comentario de al-Tabari
+
+Su afirmación: «Y la tierra resplandecerá con la luz de su Señor, y se abrirá el registro [de las obras], y se traerán a los profetas y a los testigos, y se juzgará entre ellos con verdad, y no se les hará injusticia», se explica así: La tierra será iluminada por la luz de su Señor. Se dice que el sol «brilló» cuando se hizo claro y brillante, y «salió» cuando apareció. Esto ocurrirá cuando el Misericordioso aparezca para juzgar entre Su creación. El pasaje también cita declaraciones de Ibn Abbas y Qatadah.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=39&tAyahNo=69&tDisplay=yes&UserProfile=0&LanguageId=1

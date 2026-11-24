@@ -2,10 +2,17 @@
 id: passage/quran-39-52
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-39-52.md}
 ---
 ## موجز
 الآية 52 من [[passage/quran-39|سورۃ الزمر]]، وہ مکی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 52، سورت کی کل 75 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+اس کا یہ قول کہ "کیا وہ نہیں جانتے کہ اللہ جس کے لیے چاہتا ہے رزق بڑھاتا ہے اور تنگ کر دیتا ہے، یقیناً اس میں ایمان والوں کے لیے نشانیاں ہیں،" بیان کرتے ہیں: اے محمد جن سے ہم نے ان کی تکلیف کو دور کیا، کیا یہ لوگ نہیں جانتے کہ یہ ہمارے علم کی وجہ سے دی گئی ہیں، کہ تنگی اور آسانی، فراوانی اور تنگی اور مصیبت کسی اور کے ہاتھ میں نہیں؟ وہ جس کے لیے چاہتا ہے رزق کشادہ کر دیتا ہے اور اپنے بندوں میں سے جس کے لیے چاہتا ہے تنگ کر دیتا ہے۔ اور یہ کہ یہ اللہ کی نشانیوں میں سے ہے اس کے بندوں کے لیے، تاکہ وہ نصیحت حاصل کریں اور یاد رکھیں اور جان لیں کہ خواہش اسی کے لیے ہے اور خوف اسی کے لیے ہے، معبودوں اور حریفوں کے لیے نہیں۔ ’’درحقیقت اس میں نشانیاں ہیں،‘‘ وہ کہتا ہے: بے شک، خدا جس کے لیے چاہتا ہے رزق میں توسیع کرتا ہے، اور جس کے لیے چاہتا ہے، اس کی محدودیت میں، نشانیاں ہیں، یعنی نشانیاں اور نشانیاں، ’’ان لوگوں کے لیے جو ایمان لائے،‘‘ یعنی: جو لوگ حق پر یقین رکھتے ہیں، اور جب اسے پہچان لیتے ہیں تو اس کو تسلیم کرتے ہیں، اور جو اس کی حقیقت کو نہیں جانتا، وہ کسی اور کو نہیں جانتا۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=39&tAyahNo=52&tDisplay=yes&UserProfile=0&LanguageId=1

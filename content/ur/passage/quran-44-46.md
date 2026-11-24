@@ -2,10 +2,17 @@
 id: passage/quran-44-46
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-44-46.md}
 ---
 ## موجز
 الآية 46 من [[passage/quran-44|سورۃ الدخان]]، وہ مکی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 46، سورت کی کل 59 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+الطبری آیات 46 سے 49 تک آیت کو ایک اکائی کے طور پر پڑھتا ہے۔ وہ "بے شک، زقم کا درخت" کے فقرے کی وضاحت اس طرح کرتا ہے: "درحقیقت، زقم کا درخت" جس کے بارے میں اس نے کہا کہ وہ جہنم کی تہہ میں اگتا ہے، اور جسے اس نے جہنم والوں کے لیے کھانا بنایا، اس کا جہنم کا پھل اس دنیا میں اس گنہگار کی خوراک ہے جو اپنے رب کی نافرمانی کرتا ہے۔ گنہگار وہ ہے جو گناہ کرتا ہے، اور گناہ کی جڑ ’’آتما‘‘ ⁦(گناہ کرنا)⁩ ہے۔ اس تناظر میں اس سے مراد وہ ہے جس کا گناہ اپنے رب سے کفر ہے نہ کہ کوئی اور گناہ۔ عماش سے، ابراہیم سے، ہمام بن حارث سے، کہ ابو الدرداء ایک آدمی کو یہ پڑھنا سکھا رہے تھے کہ "بے شک زقوم کا درخت گنہگار کی خوراک ہے۔" اس شخص نے کہا: یتیم کا کھانا۔ ابو الدرداء ہ کہتے ہیں کہ ”کہو، ”بے شک زقوم کا درخت بدکاروں کی خوراک ہے۔“ ابو یحییٰ کی روایت سے، مجاہد کی روایت سے، ابن عباس ہ کی روایت سے، انہوں نے کہا: ”اگر جہنم کے درخت زقوم کا ایک قطرہ بھی اس دنیا میں اتارا جائے تو اس سے لوگ فساد برپا کر دیں گے۔ اس عبارت میں ابن عباس، مجاہد، الحسن، ابن زید، العمش، ابراہیم اور دیگر کے بیانات بھی شامل ہیں۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=44&tAyahNo=46&tDisplay=yes&UserProfile=0&LanguageId=1

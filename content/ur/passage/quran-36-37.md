@@ -2,10 +2,17 @@
 id: passage/quran-36-37
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-36-37.md}
 ---
 ## موجز
 الآية 37 من [[passage/quran-36|سورۃ یس]]، وہ مکی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 37، سورت کی کل 83 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+الطبری نے آیات 37-38 کے اندر آیت کو ایک حصے کے طور پر پڑھا ہے۔ وہ ان الفاظ کی تشریح کرتا ہے، "اور ان کے لیے ایک نشانی رات ہے، ہم اس سے دن کو چھین لیتے ہیں، اور دیکھو، وہ اندھیرے میں ہیں" (3:121): یہ بھی ان کے لیے خدا کی قدرت کا ثبوت ہے جو وہ چاہتا ہے۔ "رات - ہم اس سے دن کو چھین لیتے ہیں" کا مطلب ہے: ہم دن کو اس سے نکال دیتے ہیں۔ اس سیاق میں "اس سے" کا معنی ہے: اس سے، گویا کہا گیا ہے: ہم اس سے دن چھین لیتے ہیں، پس ہم اندھیرے کو لاتے ہیں اور دن کو چھین لیتے ہیں۔ اسی طرح آیت، "اور انہیں اس شخص کا قصہ سناؤ جسے ہم نے [تحفہ] دیا تھا، لیکن وہ اس سے پیچھے ہٹ گیا" (3:121) کا مطلب ہے کہ اس نے اسے چھوڑ دیا اور اسے چھوڑ دیا۔ اسی طرح دن سے رات چھن جاتی ہے۔ اس کے بیان، "پھر وہ اندھیرے میں ہیں،" کا مطلب ہے کہ رات کی آمد سے وہ تاریکی میں ڈوب گئے ہیں۔ قتادہ نے اس بارے میں اور قتادہ کے قول کے بارے میں کہا: اور ان کے لیے ایک نشانی رات ہے، ہم اس سے دن کو چھین لیتے ہیں، پھر وہ اندھیرے میں پڑ جاتے ہیں، انہوں نے کہا: وہ رات کو دن میں داخل کرتا ہے اور وہ دن کو رات میں داخل کرتا ہے۔ اس عبارت میں قتادہ اور ابراہیم سے منسوب بیانات بھی شامل ہیں۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=36&tAyahNo=37&tDisplay=yes&UserProfile=0&LanguageId=1

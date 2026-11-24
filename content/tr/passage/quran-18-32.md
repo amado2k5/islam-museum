@@ -2,8 +2,8 @@
 id: passage/quran-18-32
 lang: tr
 source_lang: ar
-translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-23), draft translation']
-provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-23, source: content/ar/passage/quran-18-32.md}
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-23), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-tr-2026-11-24, source: content/ar/passage/quran-18-32.md}
 ---
 
 ## Özet
@@ -11,3 +11,9 @@ Mekke suresi olan Kahf suresinin [[passage/quran-18|32. ayeti]]. {cite:tanzil-qu
 
 ## Konumu
 Konumu: Surede 110 ayetten 32. ayet. Metin Mushaf Tazil al-Mujmad'dan korunmuş olup burada yeniden yazılmamıştır.
+
+## El-Taberi'nin Tafsir'inde
+
+Taberi, 32-34. ayetler arasındaki bu ayeti tek bir bölüm olarak okur. “Ve onlara iki adam örneği göster: Biz onlardan birine iki bağ bahçesi verdik ve onları hurma ağaçlarıyla çevreledik ve aralarına ekinler diktik” sözünü şöyle açıklar: “Ey Muhammed, sana sabah ve akşam Rablerine yalvaranları kovmanı isteyen bu müşriklere, ‘iki adam’ gibi bir örnek göster: Biz onlardan birine iki bağ bahçesi verdik”, yani ona iki bağ bahçesi yaptık ve onları hurma ağaçlarıyla çevreledik. “Ve aralarına ekinler diktik” ifadesi, “Bu iki bağın ortasına ekinler diktik” anlamına gelir. “Her bağ ürün verdi” ifadesi ise, “Her bağ meyve verdi ve içindeki hurma ağaçları, üzüm bağları ve çeşitli diğer ürünler gibi tüm bitkiler ürün verdi” anlamına gelir. Bu pasajda ayrıca Mücahid, Katade ve İbn Cüreyc'in de ifadeleri yer almaktadır.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=18&tAyahNo=32&tDisplay=yes&UserProfile=0&LanguageId=1

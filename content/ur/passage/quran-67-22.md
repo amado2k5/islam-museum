@@ -2,10 +2,17 @@
 id: passage/quran-67-22
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-67-22.md}
 ---
 ## موجز
 الآية 22 من [[passage/quran-67|سورۃ الملک]]، وہ مکی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 22، سورت کی کل 30 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+ان کا بیان، ’’کیا وہ جو منہ کے بل چلتا ہے زیادہ ہدایت یافتہ ہے یا وہ جو سیدھے راستے پر چلتا ہے؟‘‘ وضاحت کرتا ہے: "کیا وہ چلتا ہے،" اے لوگو، "اپنے چہرے پر جھکاؤ"، اپنے سامنے کی چیزوں کو دیکھنے سے قاصر ہے، یا اپنے دائیں بائیں، "بہتر ہدایت یافتہ": راستے پر زیادہ سیدھا، اور زیادہ ہدایت یافتہ، "یا وہ جو سیدھا چلتا ہے،" جس طرح سے انسان اپنے قدموں پر چلتے ہیں، "سیدھی راہ پر،" مطلب: بغیر کسی ٹیڑھی کے راستے پر۔ اسے "پرون" کہا جاتا ہے کیونکہ یہ ایک ایسا عمل ہے جو ابھی تک نہیں ہوا ہے۔ جب وہ ابھی نہیں آیا تو اس کے ساتھ "الف" کا حرف جوڑ کر کہتے ہیں: "فلاں نے اپنے چہرے پر سجدہ کیا" تو وہ سجدہ کرتا ہے۔ اس سے عائشہ ہا کا قول ہے: ’’اس کے دونوں طرف سجدہ کرو‘‘۔ اس نے سڑک کے ایک ننگے کی پشت پر اس کی جڑ کھود کر کہا: "اس نے اسے نیچے پھینک دیا،" کیونکہ یہ ایک غیر حقیقی فعل ہے۔ اگر یہ ایک غیر حقیقی فعل ہوتا تو الف کو چھوڑ دیا جاتا، اس لیے کہا جائے گا: "میں نے فلاں کو اس کے چہرے پر پھینک دیا،" اور "خدا نے اسے منہ کے بل گرا دیا۔" اس عبارت میں ابن عباس، مجاہد اور قتادہ کے اقوال نقل کیے گئے ہیں۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=67&tAyahNo=22&tDisplay=yes&UserProfile=0&LanguageId=1

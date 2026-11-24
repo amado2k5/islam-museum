@@ -2,10 +2,17 @@
 id: passage/quran-17-18
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-17-18.md}
 ---
 ## موجز
 الآية 18 من [[passage/quran-17|سورۃ الاسراء]]، وہ مکی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 18، سورت کی کل 111 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+اس کا یہ قول، "جو کوئی فوری زندگی چاہتا ہے، ہم اس کے لیے اس میں جو چاہتے ہیں، جس کے لیے چاہتے ہیں جلدی کر دیتے ہیں، پھر ہم نے اس کے لیے جہنم مقرر کر دی ہے، جس میں وہ جلے گا، ذلیل و خوار ہو کر نکلے گا،" بیان کرتا ہے: جو شخص دنیا کی تلاش کرتا ہے اور کام کرتا ہے اور اس کے لیے کوشش کرتا ہے، اور اس کی خواہش رکھتا ہے، اور رب سے اپنے عذاب کی امید نہیں رکھتا، وہ اپنے رب سے عذاب کی امید نہیں رکھتا۔ کام کرتے ہیں، "ہم اس کے لیے اس میں جلدی کرتے ہیں جس کے لیے ہم چاہتے ہیں۔" وہ کہتا ہے: خدا اس کے لئے اس دنیا میں جلدی کرتا ہے جو چاہتا ہے اس کے لئے دنیا کو وسعت دیتا ہے، یا جس کے لئے خدا چاہتا ہے اسے محدود کر دیتا ہے، یا اس کو اپنے عذابوں میں سے جس طرح چاہتا ہے تباہ کر دیتا ہے۔ ’’پھر ہم جہنم کو اس کا ٹھکانہ بنائیں گے‘‘، یعنی: ہم اسے آخرت میں اپنے سامنے آنے پر جہنم میں داخل کریں گے، ہمارے ساتھ اس کی شکرگزاری کی کمی اور اس دنیا میں جو نعمتیں ہم نے اسے عطا کی ہیں ان کے برے اعمال کی وجہ سے ’’ذلیل‘‘ کیا جائے گا، ’’دفع کیا گیا‘‘، یعنی: نکال دیا گیا: آگ میں پھینک دیا گیا۔ اس آیت میں ابن عباس، قتادہ اور ابن زید کے بیانات بھی نقل کیے گئے ہیں۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=17&tAyahNo=18&tDisplay=yes&UserProfile=0&LanguageId=1

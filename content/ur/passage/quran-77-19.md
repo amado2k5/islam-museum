@@ -2,10 +2,17 @@
 id: passage/quran-77-19
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-77-19.md}
 ---
 ## موجز
 الآية 19 من [[passage/quran-77|سورۃ المرسلات]]، وہ مکی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 19، سورت کی کل 50 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+الطبری نے آیات 16 سے 19 تک آیت کو ایک حصے کے طور پر پڑھا ہے۔ وہ اپنے اس قول کی تشریح کرتا ہے، "اس دن جھٹلانے والوں کے لیے تباہی،" خدا کی اس خبر کی طرف اشارہ کرتے ہوئے جس کا ہم نے اس آیت میں ذکر کیا ہے، وہ لوگ جو اس کی قدرت کا انکار کرتے ہیں جو وہ چاہے۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=77&tAyahNo=19&tDisplay=yes&UserProfile=0&LanguageId=1

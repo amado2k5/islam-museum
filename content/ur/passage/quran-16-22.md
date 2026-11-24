@@ -2,10 +2,17 @@
 id: passage/quran-16-22
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-16-22.md}
 ---
 ## موجز
 الآية 22 من [[passage/quran-16|سورۃ النحل]]، وہ مکی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 22، سورت کی کل 128 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+اس کا یہ قول، "تمہارا معبود ایک ہی معبود ہے، لیکن جو لوگ آخرت پر ایمان نہیں رکھتے، ان کے دل منکر ہیں، اور وہ تکبر کرتے ہیں،" وضاحت کرتا ہے: تمہارا خدا جو صرف اسی کی عبادت اور اطاعت کا مستحق ہے، وہ ایک ہی خدا ہے، کیونکہ عبادت صرف اسی کے لیے جائز ہے۔ لہٰذا اپنی اطاعت صرف اسی کے لیے وقف کرو اور خلوص نیت سے اسی کی عبادت کرو اور اس کے ساتھ کسی کو شریک نہ ٹھہراؤ۔ ’’جو لوگ آخرت کو نہیں مانتے ان کے دل انکاری ہیں۔‘‘ خداتعالیٰ فرماتا ہے: جو لوگ خدا کے وعدے اور اس کی تنبیہ پر یقین نہیں رکھتے اور نہ ہی موت کے بعد اس کی طرف واپسی کو تسلیم کرتے ہیں، ان کے دل انکاری ہیں۔ خدا تعالیٰ کا ارشاد ہے: وہ خدا کی قدرت، اس کی عظمت اور اس کی نعمتوں کی خوبصورتی کے بارے میں جس چیز سے محروم رہے ہیں، اس کے منکر ہیں، اور یہ کہ عبادت صرف اسی کی ہے اور یہ کہ الوہیت اس کے سوا کسی اور کی نہیں۔ وہ کہتا ہے: وہ متکبر ہیں اور اپنے آباؤ اجداد کی شرک کی پیروی کرتے ہوئے خدا کی وحدانیت کو تسلیم کرنے اور اس کی وحدانیت کا اقرار کرنے سے انکاری ہیں۔ اس عبارت میں قتادہ سے منسوب بیانات کا بھی حوالہ دیا گیا ہے۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=16&tAyahNo=22&tDisplay=yes&UserProfile=0&LanguageId=1

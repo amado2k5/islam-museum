@@ -2,10 +2,17 @@
 id: passage/quran-24-15
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-24-15.md}
 ---
 ## موجز
 الآية 15 من [[passage/quran-24|سورۃ النور]]، وہ مدنی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 15، سورت کی کل 64 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+ان کا یہ بیان کہ "جب تم نے اسے اپنی زبانوں سے قبول کیا اور اپنے منہ سے وہ بات کہی جس کا تمہیں علم نہ تھا اور اسے ہلکی پھلکی بات سمجھ رہے تھے جب کہ اللہ کے نزدیک وہ بہت بڑا تھا"، بیان کرتے ہیں: عائشہ کے بارے میں جو کچھ تم نے پھیلایا، اس کی وجہ سے تمہیں بڑی سزا ملی، جب تم نے اسے اپنی زبانوں سے قبول کیا۔ "جب" اس جملے سے منسلک ہے "آپ کو تکلیف ہوئی۔" اس کے بیان، "آپ کو یہ موصول ہوا،" کا مطلب ہے کہ آپ نے بہتان لگانے والوں کے گروہ کی طرف سے لائی گئی بہتان وصول کی، اسے قبول کیا، اور اسے ایک دوسرے تک پہنچا دیا۔ کہا جاتا ہے کہ "مجھے یہ بیان فلاں سے ملا ہے" یعنی میں نے اس سے لیا ہے۔ یہ اس لیے بھی کہا جاتا ہے کہ جیسا کہ ذکر کیا گیا ہے کہ ان میں سے ایک دوسرے سے ملتا اور کہتا: کیا تم نے عائشہ کے بارے میں فلاں فلاں نہیں سنا؟ اس کے خلاف بہتان پھیلانے کے لیے۔ انہوں نے ذکر کیا کہ ابی کی قرأت میں یہ دو طاعوں کے ساتھ "ادطلقوناہو" تھا، اور بڑے شہر اسے اسی طرح پڑھتے ہیں، سوائے اس کے کہ وہ اسے ایک طاع کے ساتھ "طلاقوناہو" پڑھتے ہیں، کیونکہ ان کے قرآن کے نسخوں میں ایسا ہی ہے۔ اس حوالے میں مجاہد سے منسوب بیانات کا بھی حوالہ دیا گیا ہے۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=24&tAyahNo=15&tDisplay=yes&UserProfile=0&LanguageId=1

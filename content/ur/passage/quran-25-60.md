@@ -2,10 +2,17 @@
 id: passage/quran-25-60
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-25-60.md}
 ---
 ## موجز
 الآية 60 من [[passage/quran-25|سورۃ الفرقان]]، وہ مکی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 60، سورت کی کل 77 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+ان کا بیان ہے کہ "اور جب ان سے کہا جاتا ہے کہ رحمٰن کو سجدہ کرو، تو وہ کہتے ہیں، 'اور رحمٰن کیا ہے؟ کیا ہم اس کو سجدہ کریں جس کا آپ ہمیں حکم دیتے ہیں؟' اور اس سے ان کی نفرت میں اضافہ ہی ہوتا ہے،" بیان کرتے ہیں: جب ان لوگوں سے کہا جاتا ہے جو اللہ کے سوا ایسی چیزوں کی عبادت کرتے ہیں جو نہ ان کو فائدہ پہنچاتے ہیں اور نہ نقصان پہنچاتے ہیں، تو وہ کہتے ہیں، "خدا کو سجدہ کرو، صرف رحمٰن کو سجدہ نہ کرو،" بت اور جھوٹے معبود کہتے ہیں کیا ہم اس کو سجدہ کریں جس کا تو ہمیں حکم دیتا ہے؟ تلاوت کرنے والوں نے اس کے پڑھنے میں اختلاف کیا۔ مدینہ اور بصرہ کے اکثر قاری اسے اس طرح پڑھتے ہیں، "جس کا آپ ہمیں حکم دیتے ہیں"، یعنی "اے محمدؐ، کیا ہم اس کو سجدہ کریں جس کا آپ ہمیں حکم دیتے ہیں؟" کوفہ کے عام قارئین اسے "جب وہ ہمیں حکم دیتا ہے" کے ساتھ "ی" کے طور پر پڑھتے ہیں، مطلب: کیا ہم رحمن کے حکم کو سجدہ کریں؟ ان میں سے بعض نے ذکر کیا کہ مسیلمہ کو "رحمٰن" کہا جاتا ہے، تو جب نبی نے ان سے کہا: رحمٰن کو سجدہ کرو، تو انہوں نے کہا: کیا ہم اسے سجدہ کریں جو یمامہ کا رحمن ہمیں حکم دیتا ہے؟ ان کی مراد مسیلمہ تھی جس کو سجدہ کرنا چاہیے۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=25&tAyahNo=60&tDisplay=yes&UserProfile=0&LanguageId=1

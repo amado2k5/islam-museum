@@ -2,10 +2,17 @@
 id: passage/quran-44-39
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-44-39.md}
 ---
 ## موجز
 الآية 39 من [[passage/quran-44|سورۃ الدخان]]، وہ مکی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 39، سورت کی کل 59 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+الطبری آیات 38 تا 39 کے اندر آیت کو ایک حصے کے طور پر پڑھتا ہے۔ وہ اپنے اس قول کی تشریح کرتا ہے، "ہم نے انہیں حق کے سوا پیدا نہیں کیا، لیکن ان میں سے اکثر نہیں جانتے": ہم نے آسمانوں اور زمین کو حق کے سوا پیدا نہیں کیا، جس کے بغیر حکومت ممکن نہیں۔ بلکہ اس سے مراد قیامت اور جزا کی حقیقت پر زور دینا ہے۔ اللہ تعالیٰ فرماتا ہے: ہم نے مخلوق کو بیکار پیدا نہیں کیا، ان کو وجود میں لایا اور جیسا کہ ہم نے چاہا زندگی بخشی، پھر اطاعت، احکام اور ممنوعات کا امتحان لیے بغیر، اور فرمانبرداروں کو ان کی نافرمانی کا بدلہ دیے بغیر انہیں فنا کر دیا۔ بلکہ ہم نے ان کو اس لیے پیدا کیا کہ ہم اپنی مخلوق میں سے جس کو چاہیں آزمائیں ان کو حکموں اور ممانعتوں کے ساتھ آزمانے کے لیے، "تاکہ ہم برے کام کرنے والوں کو ان کے کیے کا بدلہ دیں، اور یہ کہ ہم اچھے کام کرنے والوں کو بہترین بدلہ دیں۔" ’’لیکن ان میں سے اکثر نہیں جانتے۔‘‘ فرمایا: لیکن ان مشرکوں میں سے اکثر یہ نہیں جانتے کہ اللہ نے انہیں پیدا کیا ہے، اس لیے وہ اپنے کیے کے لیے اللہ کی طرف سے عذاب سے نہیں ڈرتے اور نہ ہی اگر وہ کرے تو کسی خیر کی امید رکھتے ہیں۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=44&tAyahNo=39&tDisplay=yes&UserProfile=0&LanguageId=1

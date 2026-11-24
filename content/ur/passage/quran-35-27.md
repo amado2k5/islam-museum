@@ -2,10 +2,17 @@
 id: passage/quran-35-27
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-35-27.md}
 ---
 ## موجز
 الآية 27 من [[passage/quran-35|سورۃ فاطر]]، وہ مکی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 27، سورت کی کل 45 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+الطبری نے آیت 27 سے 28 تک کی آیت کو ایک حصے کے طور پر پڑھا ہے۔ اس کا یہ فرمان کہ "کیا تم نہیں دیکھتے کہ اللہ آسمان سے بارش برساتا ہے، اور ہم اس سے مختلف رنگوں کے پھل پیدا کرتے ہیں، اور پہاڑوں میں سفید اور سرخ، مختلف رنگوں کے اور دوسرے سیاہ رنگ کے دھارے ہیں،" بیان کرتا ہے: اے محمد، کیا تم نہیں دیکھتے کہ اللہ آسمان سے بارش برساتا ہے، اور ہم اس سے مختلف رنگوں کے پھل پیدا کرتے ہیں؟ وہ کہتا ہے: ہم اس سے زمین کے درختوں کو سیراب کرتے ہیں اور ان درختوں سے مختلف رنگوں کے پھل پیدا کرتے ہیں، کچھ سرخ، کچھ کالے، کچھ پیلے اور کچھ مختلف رنگوں کے۔ ’’اور پہاڑوں میں سفید اور سرخ لکیریں ہیں،‘‘ خدا تعالیٰ فرماتا ہے: اور پہاڑوں میں راستے ہیں، جو لکیریں ہیں، اور یہ وہ لکیریں ہیں جو پہاڑوں میں ہیں، سفید اور سرخ۔ اور سیاہ، سڑکوں کی طرح، جس کا واحد واحد *جدہ* ہے، اور اسی سے گدھے کے بارے میں عمرو القیس کا قول ہے: "گویا اس کی پیٹھ اور اس کی *جدہ* حیا ہیں جن کے اوپر سے نہر بہتی ہے۔" *جدہ* سے مراد وہ سیاہ لکیر ہے جو گدھے کی پیٹھ پر ہوتی ہے۔ اور اس آیت میں ابن عباس، قتادہ اور ضحاک کے اقوال نقل کیے ہیں۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=35&tAyahNo=27&tDisplay=yes&UserProfile=0&LanguageId=1

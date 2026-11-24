@@ -2,10 +2,17 @@
 id: passage/quran-40-34
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-40-34.md}
 ---
 ## موجز
 الآية 34 من [[passage/quran-40|سورۃ غافر]]، وہ مکی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 34، سورت کی کل 85 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+وہ اپنے بیان کی وضاحت کرتے ہیں: "اور یوسف اس سے پہلے تمہارے پاس واضح دلیلیں لے کر آئے تھے، لیکن تم اس کے بارے میں شک میں رہے جو وہ تمہارے پاس لائے، یہاں تک کہ جب وہ فوت ہو گئے، تو تم نے کہا کہ اللہ اس کے بعد کبھی کوئی رسول نہیں بھیجے گا، اس طرح اللہ اسے گمراہ کر دیتا ہے جو فاسق اور شک کرنے والا ہو۔" السدی، "اور یوسف پہلے بھی تمہارے پاس آ چکے تھے،" اس نے کہا: موسیٰ سے پہلے۔ اور اس کے اس قول: "پس تم اس کے بارے میں شک میں رہے جو وہ تمہارے پاس لے کر آیا" کا مطلب ہے: تم اس کے بارے میں شک میں رہے جو یوسف تمہارے پاس تمہارے رب کی طرف سے لائے تھے، دلوں کو اس کی سچائی کا یقین نہیں تھا۔ ’’یہاں تک کہ جب وہ مر گیا‘‘ کا مطلب ہے: یہاں تک کہ جب یوسف فوت ہوگئے، تم لوگوں نے کہا: اللہ تعالیٰ یوسف کے بعد تمہارے پاس حق کی طرف بلانے کے لیے کوئی رسول نہیں بھیجے گا۔ "اور اس طرح خدا ہر اس شخص کو گمراہ کر دیتا ہے جو فاسق اور شک کرنے والا ہو" یعنی: اس طرح خدا اس کو حق تک پہنچنے اور راستے کی طرف جانے سے روکتا ہے جو اس کا منکر اور شک کرنے والا ہے، اس کے رسولوں کی خبروں کی سچائی میں شک کرتا ہے۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=40&tAyahNo=34&tDisplay=yes&UserProfile=0&LanguageId=1

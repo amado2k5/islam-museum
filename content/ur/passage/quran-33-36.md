@@ -2,10 +2,17 @@
 id: passage/quran-33-36
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-33-36.md}
 ---
 ## موجز
 الآية 36 من [[passage/quran-33|سورۃ الاحزاب]]، وہ مدنی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 36، سورت کی کل 73 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+ان کا یہ فرمان کہ ’’کسی مومن مرد یا مومن عورت کے لیے نہیں ہے کہ جب اللہ اور اس کا رسول کسی معاملے کا فیصلہ کر دیں تو انہیں اپنے معاملے کے بارے میں کوئی اختیار حاصل ہو اور جو اللہ اور اس کے رسول کی نافرمانی کرے گا وہ یقیناً صریح گمراہی میں پڑ گیا ہے‘‘، بیان کرتے ہیں: اللہ اور اس کے رسول کو ماننے والے مرد یا عورت کے لیے یہ کام نہیں ہے کہ جب اللہ اور اس کے رسول نے کسی دوسرے معاملے کا فیصلہ خود کیا ہو تو اس کے لیے اللہ اور اس کے رسول کا فیصلہ کیا ہے۔ ان کے بارے میں فیصلہ کیا، اور اللہ کے حکم اور اس کے رسول کے حکم اور ان کے فیصلے کی نافرمانی کی، اور جس نے اللہ اور اس کے رسول کی ان چیزوں کی نافرمانی کی جس کا انہوں نے حکم دیا یا جس سے منع کیا وہ یقیناً صریح گمراہی میں پڑ گیا۔ وہ کہتا ہے: اس نے سیدھے راستے سے ہٹ کر ہدایت اور راستی کے علاوہ کسی اور راستے کی پیروی کی۔ روایت ہے کہ یہ آیت زینب بنت جحش کے بارے میں اس وقت نازل ہوئی جب رسول اللہ نے انہیں اپنے خادم زید بن حارثہ کی طرف سے شادی کی پیشکش کی، لیکن انہوں نے ان سے نکاح کرنے سے انکار کردیا۔ اس عبارت میں ابن عباس، مجاہد، قتادہ اور عکرمہ کے بیانات نقل کیے گئے ہیں۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=33&tAyahNo=36&tDisplay=yes&UserProfile=0&LanguageId=1

@@ -2,10 +2,17 @@
 id: passage/quran-46-11
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-46-11.md}
 ---
 ## موجز
 الآية 11 من [[passage/quran-46|سورۃ الاحقاف]]، وہ مکی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 11، سورت کی کل 35 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+آیت: "اور کافروں نے ایمان والوں سے کہا کہ اگر یہ اچھا ہوتا تو وہ اس میں ہم سے آگے نہ بڑھتے، اور جب وہ اس کی طرف رہنمائی نہ کریں گے تو کہیں گے کہ یہ قدیم جھوٹ ہے،" بیان کرتا ہے کہ بنی اسرائیل کے یہودیوں میں سے جنہوں نے محمد کی نبوت کا انکار کیا، انہوں نے ان لوگوں سے کہا جو تم پر ایمان لاتے اور تم پر محمد کا ایمان لایا تو تم میں بھلائی تھی۔ اس پر ایمان لانے میں ہم سے سبقت نہ لیتا۔ یہ تفسیر ان لوگوں کے قول پر مبنی ہے جو اس آیت کی تفسیر کرتے ہیں، "اور بنی اسرائیل میں سے ایک گواہ نے اسی طرح کی گواہی دی" جیسا کہ عبداللہ بن سلام کا حوالہ ہے۔ البتہ جو لوگ مانتے ہیں ان کی تشریح کے مطابق اس سے مراد مشرکین قریش ہیں، آیت ’’اور کافروں نے کہا‘‘ کی تشریح مختلف ہونی چاہیے۔ انہوں نے ایمان والوں سے کفر کیا۔ ’’اگر یہ اچھا ہوتا تو وہ ہم سے آگے نہ بڑھتے‘‘۔ اس سے مراد مشرکین قریش ہیں اور قتادہ نے بھی اس کی یہی تشریح کی ہے۔ اپنی تشریح میں، انہوں نے ایک اور تشریح کو بھی چھوڑ دیا: "اور بنی اسرائیل میں سے ایک گواہ نے اسی طرح کی گواہی دی۔" اس سے مراد عبداللہ بن سلام ہیں۔ اس عبارت میں قتادہ کے بیانات کا بھی حوالہ دیا گیا ہے۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=46&tAyahNo=11&tDisplay=yes&UserProfile=0&LanguageId=1

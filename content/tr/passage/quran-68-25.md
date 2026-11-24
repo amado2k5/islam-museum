@@ -2,8 +2,8 @@
 id: passage/quran-68-25
 lang: tr
 source_lang: ar
-translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-23), draft translation']
-provenance: {generated_by: 'scripts/local-mt/import_gt.py (turkish-indonesian lane, Word for Mac Translate Document)', model: microsoft-translator, run: word-docs-tr-2026-11-23, source: content/ar/passage/quran-68-25.md}
+translators: ['Microsoft Translator (Translate Document in Word for Mac, 2026-11-23), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-tr-2026-11-24, source: content/ar/passage/quran-68-25.md}
 ---
 
 ## Özet
@@ -11,3 +11,9 @@ Mekke suresi olan Kâlem Suresi [[passage/quran-68|'nin 25. ayeti]]. {cite:tanzi
 
 ## Konumu
 Konumu: Suredeki 52 ayetten 25. ayet. Metin Muşaf Tazil al-Mujmad'dan korunmuş olup burada yeniden yazılmamıştır.
+
+## El-Taberi'nin Tafsir'inde
+
+Taberi, 25-29. ayetler arasındaki bölümü tek bir kısım olarak okur. “Sonra şafak vakti birbirlerine seslendiler” ifadesini şöyle yorumlar: Bu insanlar, bahçenin sahipleri, birbirlerine seslendiler. Şöyle der: “Şafak vakti” yani sabahtan sonra birbirlerine “Erkenden tarlanıza gidin” yani ekinlerinize, “eğer hasat edecekseniz” yani ekinlerinizi biçecekseniz diye seslendiler. Bu bölümde İbn Abb Mücahid, Katade, Hasan, İbn Zeyd, İbrahim ve diğerlerinden alıntılar yapar.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=68&tAyahNo=25&tDisplay=yes&UserProfile=0&LanguageId=1

@@ -2,10 +2,17 @@
 id: passage/quran-16-66
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-16-66.md}
 ---
 ## موجز
 الآية 66 من [[passage/quran-16|سورۃ النحل]]، وہ مکی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 66، سورت کی کل 128 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+اس کا یہ قول کہ "اور درحقیقت مویشیوں میں تمہارے لیے عبرت ہے، ہم تمہیں ان کے پیٹوں میں سے جو پاخانہ اور خون کے درمیان ہے، خالص دودھ پلاتے ہیں، جو پینے والوں کے لیے لذیذ ہے،" اس طرح بیان کیا گیا ہے: اے لوگو، تمہارے لیے مویشیوں میں سبق ہے جس سے ہم تمہیں پلاتے ہیں۔ تلاوت کرنے والوں نے لفظ "ہم تمہیں پینے کے لیے دیتے ہیں" کے پڑھنے میں اختلاف کیا۔ مکہ، عراق، کوفہ اور بصرہ کے لوگوں کی اکثریت، سوائے عاصم اور مدینہ کے ابو جعفر کے، راہبہ پر دمہ کے ساتھ اسے "ہم تمہیں پیتے ہیں" پڑھتے ہیں۔ اس کا مطلب یہ ہے کہ اس نے انہیں مسلسل شراب پلائی۔ کسائی نے کہا: عرب کہتے ہیں کہ ہم نے انہیں پینے کے لیے ایک دریا دیا اور ہم نے انہیں دودھ پلایا، یعنی انہوں نے اسے مستقل پینے کے لیے بنایا۔ لیکن اگر ان کا مطلب یہ ہے کہ انہوں نے انہیں پیا تو انہوں نے کہا کہ ہم نے انہیں پیا ہے، بغیر الف کے۔ مدینہ کے اکثر قاریوں نے سوائے ابو جعفر اور عراق کے عاصم کے، اسے "ہم تمھیں پیتے ہیں" کے طور پر پڑھتے ہیں، راہبہ کے پاس فاتحہ ہے، "خدا نے اسے پلایا ہے" تو وہ اسے پلاتی ہے۔ اس کے بعد اس حصے میں الکیسائی سے منسوب بیانات کا حوالہ دیا گیا ہے۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=16&tAyahNo=66&tDisplay=yes&UserProfile=0&LanguageId=1

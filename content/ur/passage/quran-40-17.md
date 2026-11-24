@@ -2,10 +2,17 @@
 id: passage/quran-40-17
 lang: ur
 source_lang: ar
-translators: ["Claude Haiku 5.5 (claude-haiku-5-5), draft translation"]
+translators: ['Claude Haiku 5.5 (claude-haiku-5-5), draft translation', 'Microsoft Translator (Translate Document in Word for Mac, 2026-11-24), draft translation']
+provenance: {generated_by: 'altafsir section splice (Word for Mac Translate Document, managed by Devin)', model: microsoft-translator, run: word-docs-ur-2026-11-24, source: content/ar/passage/quran-40-17.md}
 ---
 ## موجز
 الآية 17 من [[passage/quran-40|سورۃ غافر]]، وہ مکی سورت ہے۔ {cite:tanzil-quran}
 
 ## موضعها
 موضعها: آیت 17، سورت کی کل 85 آیات میں سے۔ متن تنزیل کے منجمد مصحف سے محفوظ ہے اور یہاں دوبارہ نہیں لکھا جاتا۔
+
+## تفسیر طبری
+
+ان کا یہ بیان، "آج ہر شخص کو اس کی کمائی کا بدلہ دیا جائے گا، اس دن کوئی ظلم نہیں ہوگا، بے شک اللہ جلد حساب لینے والا ہے،" بیان کرتے ہیں: اللہ تعالیٰ ہمیں بتاتا ہے کہ وہ قیامت کے دن کیا کہے گا جب وہ اپنی مخلوق کو ان کی قبروں سے حساب کے لیے اٹھائے گا: "اس دن اس کا حساب لیا جائے گا۔" فرمایا: آج ہر مزدور کو اس کے کام کا بدلہ دیا جائے گا اور اسے اس کے کام کا پورا پورا اجر دیا جائے گا۔ تو نیکی کرنے والے کو نیکی کا بدلہ دیا جائے گا اور برائی کرنے والے کو اس کا اجر ملے گا۔ اور اس کے فرمان: "آج کوئی ظلم نہیں ہو گا" کا مطلب ہے: کوئی بھی اس دنیا میں اپنے کام کے بدلے جس کا حقدار تھا اس سے محروم نہیں کیا جائے گا، تاکہ اگر وہ نیک آدمی تھا تو اس میں کمی کی جائے، اور کسی پر اس گناہ کا بوجھ نہیں ڈالا جائے گا جو اس نے نہ کیا ہو، تاکہ اسے اس کی سزا ملے۔ ’’بے شک خدا جلد حساب لینے والا ہے‘‘ کا مطلب ہے: خدا اس دن اپنے بندوں سے ان اعمال کا حساب لینے میں بہت جلد ہے جو انہوں نے اس دنیا میں کئے۔ اس دن کا ذکر ہے کہ اس دن انصاف نہیں ہوگا جب تک کہ اہل جنت جنت میں نہ ہوں اور اہل جہنم جہنم میں ہوں اور اللہ نے ان کا حساب اور ان کے درمیان فیصلہ کر دیا۔
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=40&tAyahNo=17&tDisplay=yes&UserProfile=0&LanguageId=1
