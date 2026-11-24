@@ -1,0 +1,89 @@
+---
+// Depth blocks under the signature block of a viewpoint page: first-week list, sourced questions, shared-figures table and
+// shelves of checked resources. Reads records from the graph at build time; no script. Styles use the page's own variables.
+import { readFileSync, existsSync } from "node:fs";
+import { parse } from "yaml";
+import { ui, type Lang } from "../lib/i18n";
+import { byId, labelOf, summaryOf, href } from "../lib/graph";
+import { repoPath } from "../lib/paths";
+import { QUESTIONS, CHECKLIST, COMPARE, COMPARE_IDS, SHELVES } from "../lib/viewpoint-depth";
+import type { Viewpoint } from "../lib/viewpoints";
+const { lang, viewpoint } = Astro.props as { lang: Lang; viewpoint: Viewpoint };
+const D = ui(lang).vpdepth;
+const teaser = (t: string, n = 230) => (t.length > n ? t.slice(0, n).replace(/\s+\S*$/, "") + "…" : t);
+const card = (id: string) => { const n: any = byId.get(id); return n ? { id, label: labelOf(n, lang), text: teaser(summaryOf(n, lang)), url: href(lang, id) } : null; };
+const cards = (slugs: string[], cls = "question") => slugs.map((s) => card(`${cls}/${s}`)).filter(Boolean) as any[];
+const questions = cards(QUESTIONS[viewpoint]);
+const checklist = cards(CHECKLIST[viewpoint] ?? []);
+const compare = COMPARE.includes(viewpoint) ? cards(COMPARE_IDS) : [];
+const shelves = SHELVES[viewpoint].map((sh) => ({
+  title: D.shelves[sh.key],
+  items: sh.ids.map((slug) => {
+    const c = card(`listing/${slug}`); if (!c) return null;
+    const f = repoPath("data", "listing", `${slug}.yaml`);
+    const rec = existsSync(f) ? parse(readFileSync(f, "utf8")) : null;
+    return { ...c, site: rec?.links?.official ?? rec?.external_ids?.official };
+  }).filter(Boolean) as any[],
+})).filter((sh) => sh.items.length);
+---
+{checklist.length > 0 && (
+  <section class="v-blk" aria-labelledby="dp-chk-t">
+    <h2 id="dp-chk-t">{D.check_title}</h2>
+    <p class="v-sub ui">{D.check_lede}</p>
+    <ul class="dp-check">{checklist.map((c) => <li><label><input type="checkbox" /> <a href={c.url}>{c.label}</a></label></li>)}</ul>
+  </section>
+)}
+{questions.length > 0 && (
+  <section class="v-blk" aria-labelledby="dp-q-t">
+    <h2 id="dp-q-t">{D.q_title}</h2>
+    <p class="v-sub ui">{D.q_lede}</p>
+    <ul class="dp-q">{questions.map((c) => <li><details><summary>{c.label}</summary><p>{c.text}</p><p class="ui"><a href={c.url}>{D.q_open} <span class="flip" aria-hidden="true">→</span></a></p></details></li>)}</ul>
+  </section>
+)}
+{compare.length > 0 && (
+  <section class="v-blk" aria-labelledby="dp-cmp-t">
+    <h2 id="dp-cmp-t">{D.cmp_title}</h2>
+    <p class="v-sub ui">{D.cmp_lede}</p>
+    <div class="dp-table"><table><thead><tr><th scope="col">{D.cmp_figure}</th><th scope="col">{D.cmp_says}</th></tr></thead>
+      <tbody>{compare.map((c) => <tr><th scope="row"><a href={c.url}>{c.label}</a></th><td>{c.text}</td></tr>)}</tbody></table></div>
+  </section>
+)}
+{shelves.length > 0 && (
+  <section class="v-blk" aria-labelledby="dp-sh-t">
+    <h2 id="dp-sh-t">{D.shelf_title}</h2>
+    <p class="v-sub ui">{D.shelf_lede}</p>
+    {shelves.map((sh) => (
+      <div class="dp-shelf">
+        <h3>{sh.title}</h3>
+        <div class="v-grid">{sh.items.map((c) => (
+          <div class="v-card"><h4><a href={c.url}>{c.label}</a></h4><p>{c.text}</p>{c.site && <p class="ui"><a href={c.site} rel="noopener noreferrer external">{D.visit} <span aria-hidden="true">↗</span></a></p>}</div>
+        ))}</div>
+      </div>
+    ))}
+    <p class="v-sub ui">{D.shelf_note}</p>
+  </section>
+)}
+<style>
+  .v-blk { margin-block: 2rem; }
+  .v-blk h2 { font-size: 1.45rem; margin: 0 0 .3rem; }
+  .v-sub { margin: 0 0 1rem; font-size: .92rem; color: var(--muted); }
+  .v-grid { display: grid; gap: 12px; grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr)); }
+  .v-card { background: var(--card); border: 1px solid var(--line); border-radius: 6px; padding: 16px 18px; min-width: 0; }
+  .v-card p { margin: 0 0 .4rem; color: var(--muted); }
+  @media (forced-colors: active) { .v-card { border: 1px solid CanvasText; } }
+  .dp-check, .dp-q { list-style: none; margin: 0; padding: 0; display: grid; gap: .5rem; }
+  .dp-check li { background: var(--card); border: 1px solid var(--line); border-radius: 6px; padding: .6rem 1rem; }
+  .dp-check input { width: 1.2rem; height: 1.2rem; accent-color: var(--vp); vertical-align: middle; margin-inline-end: .4rem; }
+  .dp-q details { background: var(--card); border: 1px solid var(--line); border-inline-start: 5px solid var(--vp); border-radius: 6px; padding: .7rem 1rem; }
+  .dp-q summary { cursor: pointer; font-weight: 600; }
+  .dp-q summary:focus-visible, .dp-check a:focus-visible, .dp-table a:focus-visible { outline: 3px solid #c5a059; outline-offset: 2px; }
+  .dp-q p { margin: .5rem 0 0; color: var(--muted); }
+  .dp-table { overflow-x: auto; }
+  .dp-table table { border-collapse: collapse; width: 100%; min-width: 520px; }
+  .dp-table th, .dp-table td { text-align: start; padding: .6rem .8rem; border-bottom: 1px solid var(--line); vertical-align: top; line-height: 1.55; }
+  .dp-table thead th { background: var(--vp); color: var(--on); }
+  .dp-shelf { margin-block: 1.4rem; }
+  .dp-shelf h3 { margin: 0 0 .7rem; font-size: 1.1rem; }
+  .v-card h4 { font-size: 1.02rem; margin: 0 0 4px; }
+  @media (forced-colors: active) { .dp-check li, .dp-q details { border: 1px solid CanvasText; } }
+</style>

@@ -3,6 +3,7 @@
 // the five earlier persona URLs (/for/convert/ and so on). Same records, a different door. No script is needed to read it;
 // /shell/viewpoint.js only remembers the choice on this device.
 import Door from "../../../components/Door.astro";
+import ViewpointDepth from "../../../components/ViewpointDepth.astro";
 import BaseLayout from "../../../layouts/BaseLayout.astro";
 import { ui, LANGS, type Lang } from "../../../lib/i18n";
 import { SITE } from "../../../lib/graph";
@@ -94,6 +95,8 @@ const dir = lang === "ar" || lang === "ur" ? "rtl" : "ltr";
           </div>
         ))}
       </section>
+
+      <ViewpointDepth lang={lang} viewpoint={viewpoint} />
 
       <aside class="v-about" aria-labelledby="ab-t">
         <h2 id="ab-t">{P.about_title}</h2>
