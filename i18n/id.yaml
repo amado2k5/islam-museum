@@ -6221,6 +6221,10 @@ explore:
       desc: 'Tujuh surat, bacaan dan imamnya, penyusunan Al-Qur''an dan penyalinan Al-Qur''an, aksara Mushaf, perbedaan ortografi, titik dan bentuknya, aksara yang digunakan untuk menulis: setiap ayat,
         riwayat, dan laporan yang terumat, serta setiap pernyataan yang dikaitkan dengan penulisnya.'
       menu: Jelajahi bacaan, gambar Al-Qur'an, aksara-naskahnya, dan titik-titik
+    tajwid:
+      title: "Peramban Tajwid dan Tilawah"
+      desc: "Tujuh belas makhraj dan sifat huruf, hukum-hukum tajwid, tartil dan adab membaca serta mendengar, lagu-lagu, para qari dan teks pengajaran — setiap ayat, riwayat dan petikan kitab dicantumkan sumbernya."
+      menu: "Jelajahi hukum tajwid dan seni tilawah"
     ulama:
       title: Penjelajah para pemikir, ilmuwan, penulis, ulama hadis, dan penulis
       desc: 'Setiap pemikir, cendekiawan, penulis, ulama hadis, dan penulis di museum—dan segala sesuatu yang dikatakan tentang mereka dalam Al-Quran, Sunnah, dan Seerah, serta setiap buku yang dikumpulkan:
@@ -8948,3 +8952,75 @@ nuzul:
     sky_title: "Surah-surah, dalam urutan mushaf"
     sky_note: "{n} dari {total} surah membawa riwayat sebab; sisanya pucat."
     count_in: "{n} catatan"
+
+tajwid:
+  title: "Peramban Tajwid dan Tilawah"
+  lede: "Semua yang dikatakan sumber-sumber museum tentang bagaimana huruf-huruf Al-Qur'an diucapkan dan bagaimana tilawahnya dilakukan: tujuh belas makhraj dan sifat huruf, mad, ghunnah, qalqalah serta hukum nun sukun, mim sukun dan tanwin, waqf dan ibtida'; tartil yang diperintahkan Al-Qur'an, adab membaca dan mendengar, nada-nada yang diperdebatkan atas nama para pemegangnya, serta para qari dan teks-teks pengajaran yang memikul keahlian itu. Setiap ayat, riwayat dan petikan kitab dicantumkan sumbernya, dan setiap pendapat dinisbahkan kepada pemegangnya."
+  badge: Penjelajah tajwid dan tilawah
+  hero_ayah: "وَرَتِّلِ الْقُرْآنَ تَرْتِيلًا"
+  hero_naskh: "Bagaimana huruf-huruf terbit dari makhrajnya dan bagaimana tilawah dilakukan"
+  status: "Bilangan ini memuat {n} rekaman dalam {s} bagian; setiap rekaman mencantumkan sumbernya, dan teks-teksnya ditulis oleh agen AI dari sumber-sumber itu dan belum dibaca manusia."
+  method_title: Metode peramban
+  method_note: "Peramban ini menghimpun apa yang dikatakan dan ditulis tentang dua hal yang saling terkait: bagaimana huruf-huruf diucapkan — makhraj, sifat dan hukumnya — dan bagaimana tilawah dilakukan, didengar dan diajarkan. Ayat-ayat Al-Qur'an datang dari tabel yang telah ditinjau: ayat-ayat tartil dan tilawah yang benar, adab pembaca dan pendengar, dan tilawah yang diajarkan dan didengar. Teks Al-Qur'an hanya muncul di museum dari berkas-berkasnya yang beku, sehingga lafaz sebuah ayat tidak pernah diketik ulang. Setiap teks lain — hadis, sirah, laporan para Sahabat dan Tabi'in, dan kitab-kitab — ditemukan saat pembangunan oleh leksikon yang dijaga atas setiap petikan, sehingga sebutan dalam kitab yang dipanen kemudian muncul pada hari petikannya tiba. Peramban tidak memutuskan: di mana ulama berbeda pendapat, seperti pada lagu dan maqamat, rekaman memberi setiap pandangan beserta pemegangnya."
+  api: "Seluruh himpunan tersedia di"
+  topics_title: Tujuh topik peramban
+  sections_title: Bagian-bagian peramban
+  filter_label: Saring rekaman tajwid dan tilawah
+  filter_none: Tidak ada yang cocok.
+  empty: Belum ada rekaman tajwid atau tilawah dalam bilangan ini.
+  kin_title: Peramban-peramban saudara
+  topics:
+    tartil: Bacaan terukur
+    adab: Adab tilawah
+    ahkam: "Hukum: makhraj dan sifat"
+    qurra: Para qari dan pengajar
+    mutun: Teks-teks pengajaran
+    maqamat: Lagu-lagu
+    taalim: Mengajar dan belajar
+  topics_desc:
+    tartil: "Perintah membaca Al-Qur'an dengan tartil, mengikuti bacaannya dan menahan lidah, serta apa yang diriwayatkan tentang tempo-tempo terukur: tahzir, tadwir, hadr dan tarsil."
+    adab: "Isti'adzah dan basmalah, suara indah bersama Al-Qur'an, mendengar dan berdiam, sujud tilawah dan khatam, serta membaca dengan suara keras atau lirih."
+    ahkam: "Tujuh belas makhraj dan sifat huruf, mad, ghunnah, qalqalah, tafkhim dan tarqiq, hukum nun sukun, mim sukun dan tanwin, serta waqf dan ibtida'."
+    qurra: "Para pembaca di kalangan Sahabat dan Tabi'in, tujuh dan sepuluh imam beserta perawinya, para syekh pengajar dan tingkatan-tingkatan qurra."
+    mutun: "Matn-matn tajwid yang dipelajari dan dihafal: Tuhfat al-Athfal, Jazariyah, Syathibiyah, Thayyibat al-Nasyr dan teks pengajaran qiraat lainnya."
+    maqamat: "Lagu dan maqamat dalam tilawah: seni yang diperdebatkan; rekaman memberi setiap pandangan atas nama pemegangnya."
+    taalim: "Mengajar dan mempelajari tilawah: «sebaik-baik kalian adalah yang belajar Al-Qur'an dan mengajarkannya», halaqah dan kuttab, serta membaca di hadapan para syekh."
+  sections:
+    quran:
+      title: Dalam Al-Qur'an
+      desc: "Ayat-ayat yang memerintahkan tartil dan tilawah yang benar, adab pembaca dan pendengar, serta tilawah yang diajarkan dan didengar — dari tabel yang ditinjau terhadap ayat dan kitab."
+    sunnah:
+      title: Dalam Sunnah
+      desc: "Apa yang diriwayatkan koleksi hadis tentang bacaan dan tilawah Nabi, suara indah bersama Al-Qur'an, adab membaca dan mendengar, serta laporan para pembaca dan pengajar."
+    seerah:
+      title: Dalam sirah
+      desc: "Apa yang dibawa kitab-kitab sirah tentang pembacaan dan pengajaran Al-Qur'an dalam peristiwa-peristiwa dakwah — bagian ini terisi sendiri seiring datangnya teks sirah baru yang memuat sebutan seperti itu."
+    tafsir:
+      title: Dalam tafsir
+      desc: "Apa yang dikatakan kitab-kitab tafsir yang dipanen tentang ayat-ayat tilawah dan tartil beserta hukumnya."
+    books:
+      title: Dalam kitab-kitab lain
+      desc: "Ulum Al-Qur'an, qiraat, sejarah, biografi dan adab: setiap kitab hasil panen di luar Al-Qur'an, hadis, sirah dan tafsir yang membahas hal-hal ini, dan apa pun yang datang kemudian."
+    ahkam:
+      title: Hukum-hukum
+      desc: "Rekaman museum tentang tujuh belas makhraj dan sifat huruf, hukum nun sukun, mim sukun dan tanwin, mad dan ghunnah, serta waqf dan ibtida'."
+    adab:
+      title: Adab
+      desc: "Adab tilawah: isti'adzah dan basmalah, khusyuk, mendengar, sujud tilawah dan mengkhatamkan Kitab."
+    taalim:
+      title: Mengajar dan belajar
+      desc: "Kisah-kisah Al-Qur'an diajarkan, dibaca dan dibawa di kalangan Sahabat dan Tabi'in, halaqah dan sekolahnya, dengan sanad masing-masing."
+    qurra:
+      title: Para qari
+      desc: "Para pembaca di kalangan Sahabat dan Tabi'in, tujuh dan sepuluh imam beserta perawinya, serta para syekh pengajar dan murid-muridnya."
+    mutun:
+      title: Teks-teks pengajaran
+      desc: "Matn-matn tajwid dan qiraat yang digambarkan museum, beserta syarah dan cetakannya."
+    maqamat:
+      title: Lagu-lagu
+      desc: "Lagu dan maqamat tilawah dan apa yang dikatakan tentangnya, setiap pandangan atas nama pemegangnya, tanpa vonis."
+  map:
+    title: Peta makhraj
+    note: "Tujuh belas titik artikulasi sebagaimana dihitung Ibn al-Jazari dalam al-Muqaddimah al-Jazariyah, dibentangkan di sepanjang jalan napas dari rongga tenggorokan hingga bibir dan rongga hidung — setiap huruf dalam piringan warna wilayahnya."
+    aria: "Peta skematik tujuh belas titik artikulasi huruf Arab, dari tenggorokan ke bibir dan rongga hidung"
+    counts: "{v} ayat dalam Al-Qur'an, {p} petikan dalam kitab-kitab, {r} rekaman terpilih dalam peramban ini."

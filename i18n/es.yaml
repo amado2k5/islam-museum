@@ -1868,6 +1868,10 @@ explore:
       title: "Explorador de las lecturas, ortografía, escrituras y puntuación del Corán"
       desc: "Los siete ahruf, las lecturas y sus imames, la recopilación del Corán y la copia de los códices, la ortografía del mushaf y el debate sobre la ortografía ordinaria, sus puntos y signos vocálicos, y las escrituras en que se escribió, con cada aleya y relato citado y cada opinión atribuida."
       menu: "Explorar las lecturas, el rasm, las escrituras y la puntuación del Corán"
+    tajwid:
+      title: "Navegador del Taywid y la Tilawa"
+      desc: "Los diecisiete majariy y las sifat de las letras, las reglas del taywid, el tartil y la etiqueta de recitar y escuchar, las melodías, los recitadores y los textos de enseñanza — cada versículo, relato y pasaje citado."
+      menu: "Explorar las reglas del taywid y el arte de la recitación"
     ulama:
       title: "Explorador de los ulemas: pensadores, eruditos, literatos, muhaddiz y escritores"
       desc: "Cada pensador, erudito, literato, muhaddiz y escritor del museo, y todo lo que el Corán, la Sunna, la sira y cada libro recopilado dicen de ellos: sus vidas, su misión, sus citas, sus libros, sus entrevistas y su legado, cada mención con su fuente."
@@ -7862,3 +7866,75 @@ nuzul:
     sky_title: "Las suras, en el orden del mushaf"
     sky_note: "{n} de las {total} suras llevan un relato de ocasión; las demás aparecen pálidas."
     count_in: "{n} fichas"
+
+tajwid:
+  title: "Navegador del Taywid y la Tilawa"
+  lede: "Todo lo que las fuentes del museo dicen sobre cómo se pronuncian las letras del Corán y cómo se realiza su recitación: los diecisiete majariy y las sifat de las letras, los mudud, la gunna, la qalqala y las reglas del nun sakina, del mim sakina y del tanwin, el waqf y el ibtida'; el tartil que el Corán ordena, la etiqueta de recitar y escuchar, las melodías debatidas bajo los nombres de quienes las sostienen, y los recitadores y los textos de enseñanza que portan el oficio. Cada versículo, relato y pasaje de libro va citado, y cada opinión se atribuye a quien la sostuvo."
+  badge: Explorador del taywid y la tilawa
+  hero_ayah: "وَرَتِّلِ الْقُرْآنَ تَرْتِيلًا"
+  hero_naskh: "Cómo se elevan las letras desde sus majariy y cómo se realiza la recitación"
+  status: "Esta compilación contiene {n} registros en {s} secciones; cada registro lista sus fuentes, y los textos fueron escritos por agentes de IA a partir de esas fuentes y aún no han sido leídos por un humano."
+  method_title: El método del navegador
+  method_note: "Este navegador reúne lo dicho y escrito sobre dos cuestiones ligadas: cómo se pronuncian las letras — sus majariy, sifat y reglas — y cómo se realiza, se escucha y se enseña la recitación. Los versículos del Corán vienen de una tabla revisada: los versículos del tartil y de la verdadera tilawa, la etiqueta de quien recita y de quien escucha, y la recitación enseñada y oída. El texto del Corán aparece en el museo solo desde sus archivos congelados, de modo que las palabras de un versículo nunca se vuelven a escribir. Todo otro texto — hadiz, sira, relatos de los Compañeros y los Sucesores, y libros — se encuentra en la compilación por un léxico vigilado sobre cada pasaje, de modo que una mención en un libro recolectado después aparece el día en que llega su pasaje. El navegador no falla: donde los sabios difieren, como en las melodías y los maqamat, el registro da cada visión con su titular."
+  api: "El conjunto completo está disponible en"
+  topics_title: Los siete temas del navegador
+  sections_title: Las secciones del navegador
+  filter_label: Filtrar los registros de taywid y tilawa
+  filter_none: Sin coincidencias.
+  empty: Todavía no hay registros de taywid ni de tilawa en esta compilación.
+  kin_title: Navegadores hermanos
+  topics:
+    tartil: La recitación medida
+    adab: La etiqueta de la recitación
+    ahkam: "Las reglas: majariy y sifat"
+    qurra: Los recitadores y los maestros
+    mutun: Los textos de enseñanza
+    maqamat: Las melodías
+    taalim: Enseñar y aprender
+  topics_desc:
+    tartil: "La orden de recitar el Corán con tartil, de seguir su recitación y de detener la lengua, y lo relatado de los ritmos medidos: tahzir, tadwir, hadr y tarsil."
+    adab: "La isti'adha y la basmala, una voz hermosa con el Corán, escuchar y callar, las prosternaciones de la recitación y la conclusión, y recitar en voz alta o en voz baja."
+    ahkam: "Los diecisiete majariy y las sifat de las letras, los mudud, la gunna, la qalqala, el tafjim y el tarqiq, las reglas del nun sakina, del mim sakina y del tanwin, y el waqf y el ibtida'."
+    qurra: "Los lectores entre los Compañeros y los Sucesores, los siete y los diez imames y sus transmisores, los shéijs de la enseñanza y las clases de los qurra'."
+    mutun: "Los matns de taywid que se estudian y memorizan: Tuhfat al-Atfal, la Yazariyya, la Shatibiyya, Tayyibat al-Nashr y los demás textos de enseñanza de las lecturas."
+    maqamat: "Melodía y maqamat en la recitación: un arte debatido; el registro da cada visión bajo el nombre de su titular."
+    taalim: "Enseñar y aprender la recitación: «los mejores de ustedes son quienes aprenden el Corán y lo enseñan», los círculos y el kuttab, y recitar ante los shéijs."
+  sections:
+    quran:
+      title: En el Corán
+      desc: "Los versículos que ordenan el tartil y la verdadera tilawa, la etiqueta de quien recita y de quien escucha, y la recitación enseñada y oída — de una tabla revisada contra los versículos y los libros."
+    sunnah:
+      title: En la Sunna
+      desc: "Lo que las colecciones de hadiz relatan de la recitación del Profeta, de una voz hermosa con el Corán, de la etiqueta de recitar y escuchar, y los relatos de lectores y maestros."
+    seerah:
+      title: En la sira
+      desc: "Lo que los libros de sira llevan de la recitación y la enseñanza del Corán en los hechos de la llamada — esta sección se llena sola a medida que llegan nuevos textos de sira."
+    tafsir:
+      title: En el tafsir
+      desc: "Lo que los comentarios recolectados dicen sobre los versículos de la tilawa y del tartil y sobre sus reglas."
+    books:
+      title: En los demás libros
+      desc: "Ciencias coránicas, lecturas, historia, biografía y adab: todo libro recolectado más allá del Corán, el hadiz, la sira y el tafsir que trate estas cuestiones, y lo que venga después."
+    ahkam:
+      title: Las reglas
+      desc: "Los registros del museo sobre los diecisiete majariy y las sifat de las letras, las reglas del nun sakina, del mim sakina y del tanwin, los mudud y la gunna, y el waqf y el ibtida'."
+    adab:
+      title: La etiqueta
+      desc: "La etiqueta de la tilawa: isti'adha y basmala, jushu', escucha, las prosternaciones de la recitación y la conclusión del Libro."
+    taalim:
+      title: Enseñar y aprender
+      desc: "Los relatos del Corán enseñado, recitado y llevado entre los Compañeros y los Sucesores, sus círculos y escuelas, sobre sus isnads."
+    qurra:
+      title: Los recitadores
+      desc: "Los lectores entre los Compañeros y los Sucesores, los siete y los diez imames y sus transmisores, y los shéijs de la enseñanza y sus alumnos."
+    mutun:
+      title: Los textos de enseñanza
+      desc: "Los matns de taywid y de qira'at que el museo describe, con sus comentarios y ediciones."
+    maqamat:
+      title: Las melodías
+      desc: "Las melodías y maqamat de la recitación y lo que se dijo de ellas, cada visión bajo el nombre de su titular, sin veredicto."
+  map:
+    title: El mapa de los majariy
+    note: "Los diecisiete puntos de articulación según los cuenta Ibn al-Yazari en al-Muqaddima al-Yazariyya, tendidos sobre el camino del aliento, desde el hueco de la garganta hasta los labios y el conducto nasal — cada letra en un disco del color de su región."
+    aria: "Mapa esquemático de los diecisiete puntos de articulación de las letras árabes, de la garganta a los labios y al conducto nasal"
+    counts: "{v} versículos en el Corán, {p} pasajes en los libros, {r} registros editados en este navegador."

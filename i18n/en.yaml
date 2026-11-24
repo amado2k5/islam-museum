@@ -1882,6 +1882,10 @@ explore:
       title: "Qur'an Readings, Orthography, Scripts and Dotting Browser"
       desc: "The seven ahruf, the readings and their imams, the collection of the Qur'an and the copying of the codices, the orthography of the mushaf and the debate over ordinary spelling, its dots and vowel marks, and the scripts it was written in — every verse and report cited, every view attributed."
       menu: "Browse the readings, rasm, scripts and dotting of the Qur'an"
+    tajwid:
+      title: "Tajwid and Tilawah Browser"
+      desc: "The seventeen makharij and the letters' sifat, the rules of tajwid, the tartil and the etiquette of reciting and listening, the melodies, the reciters and the teaching texts — every verse, report and book passage cited."
+      menu: "Browse the rules of tajwid and the art of recitation"
     ulama:
       title: "Ulama Browser: Thinkers, Scholars, Litterateurs, Muhaddiths and Writers"
       desc: "Every thinker, scholar, litterateur, muhaddith and writer in the museum — and everything the Qur'an, the Sunnah, the seerah and every harvested book says about them: their lives, their mission, their quotes, their books, their interviews and their legacy — each mention with its source."
@@ -7928,3 +7932,75 @@ nuzul:
     sky_title: "The surahs, in Mushaf order"
     sky_note: "{n} of the {total} surahs carry an occasion report; the rest are faint."
     count_in: "{n} records"
+
+tajwid:
+  title: "Tajwid and Tilawah Browser"
+  lede: "Everything the museum's sources say about how the letters of the Qur'an are pronounced and how its recitation is performed: the seventeen makharij and the letters' sifat, the mudud, the ghunna, the qalqala and the rules of nun sakinah, mim sakinah and the tanwin, the waqf and the ibtida'; the tartil the Qur'an commands, the etiquette of reciting and listening, the melodies debated under their holders' names, and the reciters and the teaching texts that carry the craft. Every verse, report and book passage is cited, and every opinion is attributed to the one who held it."
+  badge: Tajwid and tilawah explorer
+  hero_ayah: "وَرَتِّلِ الْقُرْآنَ تَرْتِيلًا"
+  hero_naskh: "How the letters rise from their makharij and how the recitation is performed"
+  status: "This build holds {n} records in {s} sections; each record lists its sources, and the texts were written by AI agents from those sources and have not yet been read by a human."
+  method_title: The browser's method
+  method_note: "This browser gathers what is said and written on two connected matters: how the letters are pronounced — their makharij, sifat and rulings — and how the recitation is performed, heard and taught. Qur'an verses come from a reviewed table: the verses of tartil and true tilawa, the etiquette of the one who recites and the one who hears, and the recitation taught and heard. Qur'an text appears in the museum only from its frozen files, so a verse's words are never retyped. Every other text — hadith, seerah, reports of the Companions and Successors, and books — is found at build time by a guarded lexicon over each passage, so a mention in a book harvested later appears the day its passage lands. The browser gives no verdict: where scholars differ, as on melodies and maqamat, the record gives each view with its holder."
+  api: "The whole set is available at"
+  topics_title: The browser's seven topics
+  sections_title: The browser's sections
+  filter_label: Filter the tajwid and tilawah records
+  filter_none: No matches.
+  empty: No tajwid or tilawah records in this build yet.
+  kin_title: Sister browsers
+  topics:
+    tartil: Measured recitation
+    adab: The etiquette of recitation
+    ahkam: "The rules: makharij and sifat"
+    qurra: The reciters and teachers
+    mutun: The teaching texts
+    maqamat: The melodies
+    taalim: Teaching and learning
+  topics_desc:
+    tartil: "The command to recite the Qur'an with tartil, to follow its recitation and to hold the tongue steady, and what is reported of the measured paces: tahzir, tadwir, hadr and tarsil."
+    adab: "The isti'adha and the basmala, a beautiful voice with the Qur'an, listening and keeping silent, the prostrations of recitation and the completion, and reciting aloud or under the breath."
+    ahkam: "The seventeen makharij and the letters' sifat, the mudud, the ghunna, the qalqala, tafkhim and tarqiq, the rules of nun sakinah, mim sakinah and the tanwin, and the waqf and ibtida'."
+    qurra: "The readers among the Companions and Successors, the seven and the ten imams and their transmitters, the shaykhs of the teaching, and the classes of the qurra'."
+    mutun: "The tajwid matns that are studied and memorised: Tuhfat al-Atfal, the Jazariyya, the Shatibiyya, Tayyibat al-Nashr and the other teaching texts of the readings."
+    maqamat: "Melody and maqamat in recitation: a debated art; the record gives each view under its holder."
+    taalim: "Teaching and learning the recitation: 'the best of you are those who learn the Qur'an and teach it', the circles and the kuttab, and reciting to the shaykhs."
+  sections:
+    quran:
+      title: In the Qur'an
+      desc: "The verses commanding tartil and true tilawa, the etiquette of the one who recites and the one who hears, and the recitation taught and heard — from a table reviewed against the verses and the books."
+    sunnah:
+      title: In the Sunnah
+      desc: "What the hadith collections report of the Prophet's recitation, of a beautiful voice with the Qur'an, of the etiquette of reciting and listening, and the reports of readers and teachers."
+    seerah:
+      title: In the seerah
+      desc: "What the seerah books carry of the reciting and teaching of the Qur'an in the events of the call — this section fills itself as new seerah texts with such mentions land."
+    tafsir:
+      title: In the tafsir
+      desc: "What the harvested commentaries say on the verses of tilawa and tartil and on their rulings."
+    books:
+      title: In the other books
+      desc: "Qur'anic sciences, the readings, history, biography and adab: every harvested book beyond the Qur'an, the hadith, the seerah and the tafsir that treats these matters, and whatever comes next."
+    ahkam:
+      title: The rules
+      desc: "The museum's records on the seventeen makharij and the letters' sifat, the rules of nun sakinah, mim sakinah and the tanwin, the mudud and the ghunna, and the waqf and ibtida'."
+    adab:
+      title: The etiquette
+      desc: "The etiquette of tilawa: isti'adha and basmala, khushu', listening, the prostrations of recitation and the completion of the Book."
+    taalim:
+      title: Teaching and learning
+      desc: "The stories of the Qur'an being taught, recited and carried among the Companions and Successors, its circles and schools, on their isnads."
+    qurra:
+      title: The reciters
+      desc: "The readers among the Companions and Successors, the seven and the ten imams and their transmitters, and the shaykhs of the teaching and their students."
+    mutun:
+      title: The teaching texts
+      desc: "The tajwid and qira'at matns the museum describes, with their commentaries and editions."
+    maqamat:
+      title: The melodies
+      desc: "The melodies and maqamat of recitation and what was said of them, each view under its holder's name, no verdict."
+  map:
+    title: The map of the makharij
+    note: "Seventeen points of articulation as Ibn al-Jazari counts them in al-Muqaddima al-Jazariyya, laid on the path of the breath from the empty space of the throat to the lips and the nasal passage — each letter in a disc of its region's colour."
+    aria: "A schematic map of the seventeen articulation points of the Arabic letters, from the throat to the lips and the nasal passage"
+    counts: "{v} verses in the Qur'an, {p} passages in the books, {r} curated records in this browser."
