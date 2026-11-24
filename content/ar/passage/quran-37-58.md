@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-9-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يذكر الطبري أن المؤمن يقول سروراً بنعمة الله أفما نحن بميتين إلا موتتنا الأولى وما نحن بمعذبين، إن هذا لهو الفوز العظيم، لمثل هذا فليعمل العاملون. وهذا التفسير مشترك بين الآيات 58 إلى 61. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=37&tAyahNo=58&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 58 إلى 61 مقطعاً واحداً. يفسّر قوله «أَفَمَا نَحْنُ بِمَيِّتِينَ»: يقول تعالى ذكره مخبراً عن قيل هذا المؤمن الذي أعطاه الله ما أعطاه من كرامته في جنته سروراً منه بما أعطاه فيها «أفمَا نَحْنُ بِمَيِّتِينَ إلاَّ مَوْتَتَنا الأُولى» يقول: أفما نحن بميتين غير موتتنا الأولى في الدنيا، «وَما نَحْنُ بِمُعَذّبِينَ» يقول: وما نحن بمعذَّبين بعد دخولنا الجنة «إنَّ هَذا لَهُوَ الفَوْزُ العَظِيمُ» يقول: إن هذا الذي أعطاناه الله من الكرامة في الجنة، أنا لا نعذّب ولا نموت، لهو النَّجاء العظيم مما كنا في الدنيا نحذر من عقاب الله، وإدراك ما كنا فيها، نؤمل بإيماننا، وطاعتنا ربنا، كما: قال: قوله: «أَفَمَا نَحْنُ بِمَيِّتِينَ»... إلى قوله: «الفَوْزُ العَظِيمُ» قال: هذا قول أهل الجنة. وقوله: وينقل في المقطع أقوالاً عن قتادة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=37&tAyahNo=58&tDisplay=yes&UserProfile=0&LanguageId=1

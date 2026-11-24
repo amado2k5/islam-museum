@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-9-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يذكر الطبري اختلاف أهل التأويل فيمن عُني بالإنسان في «أولم ير الإنسان أنا خلقناه من نطفة»: فقال بعضهم هو أُبي بن خلف، فإذا هو خصيم مبين، وضرب لنا مثلاً ونسي خلقه قال من يحيي العظام وهي رميم. وهذا التفسير مشترك بين الآيات 77 إلى 79. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=36&tAyahNo=77&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 77 إلى 79 مقطعاً واحداً. يفسّر قوله «أَوَلَمْ يَرَ ٱلإِنسَانُ أَنَّا خَلَقْنَاهُ مِن نُّطْفَةٍ فَإِذَا هُوَ خَصِيمٌ مُّبِينٌ»: «أوَ لَمْ يَرَ الإنْسانُ أنَّا خَلَقْناهُ». واختُلف في الإنسان الذي عُني بقوله: «أوَ لَمْ يَرَ الإنْسانُ» فقال بعضهم: عُني به أُبّي بن خلف. وينقل في المقطع أقوالاً عن ابن عباس ومجاهد وقتادة وسعيد بن جبير.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=36&tAyahNo=77&tDisplay=yes&UserProfile=0&LanguageId=1

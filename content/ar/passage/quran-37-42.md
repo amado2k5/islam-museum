@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-9-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يصف الطبري نعيم عباد الله المخلصين في جنات النعيم على سرر متقابلين، يطاف عليهم بكأس من معين بيضاء لذة للشاربين، لا فيها غول ولا هم عنها ينزفون. وهذا التفسير مشترك بين الآيات 42 إلى 47. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=37&tAyahNo=42&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 42 إلى 47 مقطعاً واحداً. يفسّر قوله «فَوَاكِهُ وَهُم مُّكْرَمُونَ»: قوله فَوَاكِهُ ردّاً على الرزق المعلوم تفسيراً له، ولذلك رفعت. وقوله: «وَهُمْ مُكْرَمُونَ» يقول: وهم مع الذي لهم من الرزق المعلوم في الجنة، مكرمون بكرامة الله التي أكرمهم الله بها وينقل في المقطع أقوالاً عن ابن عباس وقتادة والضحاك.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=37&tAyahNo=42&tDisplay=yes&UserProfile=0&LanguageId=1

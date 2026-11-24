@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-9-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن أمر الله إذا أراد شيئاً أن يقول له كن فيكون، فسبحان الذي بيده ملكوت كل شيء وإليه ترجعون. وهذا التفسير مشترك بين الآيتين 82 و83. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=36&tAyahNo=82&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 82 إلى 83 مقطعاً واحداً. يفسّر قوله «إِنَّمَآ أَمْرُهُ إِذَآ أَرَادَ شَيْئاً أَن يَقُولَ لَهُ كُن فَيَكُونُ»: «إنَّمَا أمْرهُ إذَا أرَادّ شَيْئاً أنْ يَقُولَ لَهُ كُنْ فَيَكُونُ». وكان قتادة يقول في ذلك ما: وعن قتادة«أوَ لَيْسَ الَّذِي خَلَقَ السَمَوَاتِ والأرْضَ بقادِرٍ عَلى أنْ يَخْلُقَ مِثْلَهُمْ بَلى وَهُوَ الخَلاَّقُ العَلِيمُ» قال: هذا مثل إنما أمره إذا أراد شيئاً أن يقول له كن فيكون، قال: ليس من كلام العرب شيء هو أخفّ من ذلك، ولا أهون، فأمر الله كذلك. وقوله: «فَسُبْحانَ الَّذِي بِيَدِهِ مَلَكُوتُ كُلِّ شَيْءٍ» يقول تعالى ذكره: فتنزيه الذي بيده ملك كلّ شيء وخزائنه. وقوله: «وَإلَيْهِ تُرْجَعُونَ» يقول: وإليه تردّون وتصيرون بعد مماتكم. وينقل في المقطع أقوالاً عن قتادة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=36&tAyahNo=82&tDisplay=yes&UserProfile=0&LanguageId=1

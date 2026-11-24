@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-9-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يذكر الطبري أن إبراهيم قال لأبيه وقومه فما ظنكم برب العالمين، ثم نظر نظرة في النجوم فقال إني سقيم فتولوا عنه مدبرين، فراغ إلى آلهتهم فقال ألا تأكلون ما لكم لا تنطقون. وهذا التفسير مشترك بين الآيات 87 إلى 92. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=37&tAyahNo=87&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 87 إلى 92 مقطعاً واحداً. يفسّر قوله «فَمَا ظَنُّكُم بِرَبِّ ٱلْعَالَمِينَ»: يقول تعالى ذكره مخبراً عن قيل إبراهيم لأبيه وقومه: «فَما ظَنُّكُمْ بِرَبّ العالَمِينَ»؟ يقول: فأيّ شيء تظنون أيها القوم أنه يصنع بكم إن لقيتموه وقد عبدتم غيره، كما: وعن قتادة «فَمَا ظَنُّكُمْ بِرَبِّ العالَمِينَ» يقول: إذا لقيتموه وقد عبدتم غيره. وقوله: «فَنَظَرَ نَظْرَةً فِي النُّجُومِ فَقالَ إنّي سَقِيمٌ» ذكر أن قومه كانوا أهل تنجيم، فرأى نجماً قد طلع، فعصب رأسه وقال: إني مَطْعُون، وكان قومه يهربُون من الطاعون، فأراد أن يتركوه في بيت آلهتهم، ويخرجوا عنه، ليخالفهم إليها فيكسرها. وينقل في المقطع أقوالاً عن ابن عباس وقتادة وابن زيد وابن إسحاق.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=37&tAyahNo=87&tDisplay=yes&UserProfile=0&LanguageId=1

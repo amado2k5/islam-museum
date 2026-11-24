@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-9-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يذكر الطبري أن قوم إبراهيم قالوا ابنوا له بنياناً فألقوه في الجحيم، فأرادوا به كيداً فجعلهم الله الأسفلين، وقال إني ذاهب إلى ربي سيهدين ربّ هب لي من الصالحين. وهذا التفسير مشترك بين الآيات 97 إلى 100. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=37&tAyahNo=97&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 97 إلى 100 مقطعاً واحداً. يفسّر قوله «قَالُواْ ٱبْنُواْ لَهُ بُنْيَاناً فَأَلْقُوهُ فِي ٱلْجَحِيمِ»: قال قوم إبراهيم لما قال لهم إبراهيم:«أتَعْبُدُونَ ما تَنْحِتُونَ وَاللّهُ خَلَقَكُمْ وَما تَعْمَلُونَ» ابنُوا لإبراهيم بنياناً ذُكر أنهم بنوا له بنياناً يشبه التَّنُّور، ثم نقَلوا إليه الحطب، وأوقدوا عليه «فأَلْقُوهُ في الجَحِيمِ» والجحيم عند العرب: جمر النار بعضُه على بعض، والنار على النار. وقوله: «فأَرَادُوا بِهِ كَيْداً» يقول تعالى ذكره: فأراد قوم إبراهيم بإبراهيم كيداً، وذلك ما كانوا أرادوا من إحراقه بالنار. وينقل في المقطع أقوالاً عن قتادة وإبراهيم.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=37&tAyahNo=97&tDisplay=yes&UserProfile=0&LanguageId=1

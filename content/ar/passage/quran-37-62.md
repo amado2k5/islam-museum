@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-9-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يسأل الله أذلك خير نزلاً أم شجرة الزقوم، وقد جعلها فتنة للظالمين، إنها شجرة تخرج في أصل الجحيم طلعها كأنه رؤوس الشياطين، فإنهم لآكلون منها فمالئون منها البطون. ويشرح الطبري معنى النزل. وهذا التفسير مشترك بين الآيات 62 إلى 66. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=37&tAyahNo=62&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 62 إلى 66 مقطعاً واحداً. يفسّر قوله «أَذَلِكَ خَيْرٌ نُّزُلاً أَمْ شَجَرَةُ ٱلزَّقُّومِ»: أهذا الذي أعطيت هؤلاء المؤمنين الذين وصفت صفتهم من كرامتي في الجنة، ورزقتهم فيها من النعيم خير، أو ما أعددت لأهل النار من الزَّقُوم. وعُنِي بالنزل: الفضل، وفيه لغتان: نُزُل ونُزْل يقال للطعام الذي له ريع: هو طعام له نُزْل ونُزُل. وقوله: «أمْ شَجَرَةُ الزَّقُّومِ» ذكر أن الله تعالى لما أنزل هذه الآية قال المشركون: كيف ينبتُ الشجر في النار، والنار تُحْرق الشجر؟ فقال الله: «إنَّا جَعَلْناها فِتْنَةً للظَّالِمِينَ» يعني لهؤلاء المشركين الذين قالوا في ذلك ما قالوا، ثم أخبرهم بصفة هذه الشجرة «فَقالَ إنَّها شَجَرَةُ تَخْرُجُ فِي أصْلِ الجَحِيمِ». وينقل في المقطع أقوالاً عن مجاهد وقتادة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=37&tAyahNo=62&tDisplay=yes&UserProfile=0&LanguageId=1

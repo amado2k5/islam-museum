@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-9-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن لهم في الأنعام منافع من أصوافها وأوبارها وجلودها ومشارب من ألبانها، أفلا يشكرون. وهذا التفسير مشترك بين الآيتين 73 و74، وفي الآية 74 أنهم اتخذوا من دون الله آلهة لعلهم ينصرون. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=36&tAyahNo=73&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 73 إلى 74 مقطعاً واحداً. يفسّر قوله «وَلَهُمْ فِيهَا مَنَافِعُ وَمَشَارِبُ أَفَلاَ يَشْكُرُونَ»: ولهم في هذه الأنعام منافع، وذلك منافع في أصوافها وأوبارها وأشعارها باتخاذهم من ذلك أثاثاً ومتاعاً، ومن جلودها أكناناً، ومشارب يشربون ألبانها، كما: وعن قتادة «ولَهُمْ فِيها مَنافِعُ» يَلْبسون أصوافها «وَمَشارِبُ» يشربون ألبانها. وقوله: «أفَلا يَشْكُرُونَ» يقول: أفلا يشكرون نعمتي هذه، وإحساني إليهم بطاعتي، وإفراد الألوهية والعبادة، وترك طاعة الشيطان وعبادة الأصنام. قوله: «واتَّخَذُوا مِنْ دُونِ اللّهِ آلِهَةً» يقول: واتخذ هؤلاء المشركون من دون الله آلهة يعبدونها «لَعَلَّهُمْ يُنْصَرُونَ» يقول: طمعاً أن تنصرهم تلك الآلهة من عقاب الله وعذابه. وينقل في المقطع أقوالاً عن قتادة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=36&tAyahNo=73&tDisplay=yes&UserProfile=0&LanguageId=1

@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-9-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن الله أبقى على نوح ذكراً جميلاً وثناءً حسناً في الآخرين، سلام على نوح في العالمين، إنا كذلك نجزي المحسنين إنه من عبادنا المؤمنين ثم أغرقنا الآخرين. وهذا التفسير مشترك بين الآيات 78 إلى 82. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=37&tAyahNo=78&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 78 إلى 82 مقطعاً واحداً. يفسّر قوله «وَتَرَكْنَا عَلَيْهِ فِي ٱلآخِرِينَ»: يعني تعالى ذكره بقوله: «وَتَركْنا عَلَيْهِ فِي الآخِرِينَ» وأبقينا عليه، يعني على نوح ذكراً جميلاً، وثناء حسناً في الآخِرين، يعني: فيمن تأخَّر بعده من الناس يذكرونه به. وينقل في المقطع أقوالاً عن ابن عباس ومجاهد وقتادة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=37&tAyahNo=78&tDisplay=yes&UserProfile=0&LanguageId=1

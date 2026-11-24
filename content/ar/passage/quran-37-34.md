@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-9-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-لم يُفرد الطبري لهذه الآية تعليقاً مستقلاً في الصفحة المحفوظة، بل جاء تفسيرها ضمن تفسير الآيات 31–34. يبيّن الطبري أنهم يقولون فحق علينا قول ربنا إنا لذائقون العذاب، فأغويناكم إنا كنا غاوين، فإنهم يومئذ في العذاب مشتركون، إنا كذلك نفعل بالمجرمين. وهذا التفسير مشترك بين الآيات 31 إلى 34. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=37&tAyahNo=34&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 31 إلى 34 مقطعاً واحداً. يفسّر قوله «إِنَّا كَذَلِكَ نَفْعَلُ بِٱلْمُجْرِمِينَ»: إنا هكذا نفعل بالذين اختاروا معاصيَ الله في الدنيا على طاعته، والكفر به على الإيمان، فنذيقهم العذاب الأليم، ونجمع بينهم وبين قرنائهم في النار. وينقل في المقطع أقوالاً عن قتادة وابن زيد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=37&tAyahNo=34&tDisplay=yes&UserProfile=0&LanguageId=1

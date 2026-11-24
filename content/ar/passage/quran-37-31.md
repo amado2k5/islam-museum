@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-9-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أنهم يقولون فحق علينا قول ربنا إنا لذائقون العذاب، فأغويناكم إنا كنا غاوين، فإنهم يومئذ في العذاب مشتركون، إنا كذلك نفعل بالمجرمين. وهذا التفسير مشترك بين الآيات 31 إلى 34. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=37&tAyahNo=31&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 31 إلى 34 مقطعاً واحداً. يفسّر قوله «فَحَقَّ عَلَيْنَا قَوْلُ رَبِّنَآ إِنَّا لَذَآئِقُونَ»: فحقّ علينا قول ربنا، فوجب علينا عذاب ربنا، إنا لذائقون العذاب نحن وأنتم بما قدّمنا من ذنوبنا ومعصيتنا في الدنيا فهذا خبر من الله عن قيل الجنّ والإنس، كما: وعن قتادة «فَحَقَّ عَلَيْنا قَوْلُ رَبِّنا»... الآية، قال: هذا قول الجنّ. وقوله: وينقل في المقطع أقوالاً عن قتادة وابن زيد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=37&tAyahNo=31&tDisplay=yes&UserProfile=0&LanguageId=1
