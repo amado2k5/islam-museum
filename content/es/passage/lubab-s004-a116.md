@@ -6,7 +6,7 @@ translators: ["machine translation, draft"]
 ---
 
 ## Summary
-Informe de al-Suyuti sobre la ocasión de revelación de an-Nisa 4:116, en Lubab al-Nuqul fi Asbab al-Nuzul (Shamela 2247) — generación de los Sucesores.
+Informe de al-Suyuti sobre la ocasión de revelación de an-Nisa 4:48, en Lubab al-Nuqul fi Asbab al-Nuzul (Shamela 2247) — generación de los Sucesores.
 
 The verse, in al-Suyuti's heading: «إن الله لا يغفر أن يشرك به».
 
@@ -15,4 +15,4 @@ The verse, in al-Suyuti's heading: «إن الله لا يغفر أن يشرك �
 إن الله لا يغفر أن يشرك به أخرج ابن أبي حاتم والطبراني عن أبي أيوب الأنصاري قال جاء رجل إلى النبي فقال إن لي ابن أخ لا ينتهي عن الحرام قال وما دينه قال يصلي ويوحد الله قال استوهب منه دينه فإن أبى فاتبعه منه فطلب الرجل ذلك منه فأبى عليه فأتى النبي فأخبره فقال وجدته شحيحا على دينه فنزلت إن الله لا يغفر أن يشرك به ويغفر ما دون ذلك لمن يشاء
 
 ## Place in the museum
-Fuente: [[work/lubab-al-nuqul-suyuti|de al-Suyuti Lubab al-Nuqul]]. El versículo: [[passage/quran-4-116|Corán 4-116]].
+Fuente: [[work/lubab-al-nuqul-suyuti|de al-Suyuti Lubab al-Nuqul]]. El versículo: [[passage/quran-4-48|Corán 4-48]].

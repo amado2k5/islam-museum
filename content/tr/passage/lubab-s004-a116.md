@@ -6,7 +6,7 @@ translators: ["machine translation, draft"]
 ---
 
 ## Summary
-an-Nisa 4:116 ayetinin nüzul sebebi hakkında es-Suyuti'nin rivayeti; Lübabü'n-Nükul'den (Şamile 2247) — tabiin neslinden.
+an-Nisa 4:48 ayetinin nüzul sebebi hakkında es-Suyuti'nin rivayeti; Lübabü'n-Nükul'den (Şamile 2247) — tabiin neslinden.
 
 The verse, in al-Suyuti's heading: «إن الله لا يغفر أن يشرك به».
 
@@ -15,4 +15,4 @@ The verse, in al-Suyuti's heading: «إن الله لا يغفر أن يشرك �
 إن الله لا يغفر أن يشرك به أخرج ابن أبي حاتم والطبراني عن أبي أيوب الأنصاري قال جاء رجل إلى النبي فقال إن لي ابن أخ لا ينتهي عن الحرام قال وما دينه قال يصلي ويوحد الله قال استوهب منه دينه فإن أبى فاتبعه منه فطلب الرجل ذلك منه فأبى عليه فأتى النبي فأخبره فقال وجدته شحيحا على دينه فنزلت إن الله لا يغفر أن يشرك به ويغفر ما دون ذلك لمن يشاء
 
 ## Place in the museum
-Kaynak: [[work/lubab-al-nuqul-suyuti|es-Suyuti'nin Lubab al-Nuqul]]. Ayet: [[passage/quran-4-116|Kur'an 4-116]].
+Kaynak: [[work/lubab-al-nuqul-suyuti|es-Suyuti'nin Lubab al-Nuqul]]. Ayet: [[passage/quran-4-48|Kur'an 4-48]].

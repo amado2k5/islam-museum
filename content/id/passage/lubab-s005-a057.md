@@ -6,7 +6,7 @@ translators: ["machine translation, draft"]
 ---
 
 ## Summary
-Riwayat as-Suyuti tentang sebab turunnya al-Ma'ida 5:57, dalam Lubab al-Nuqul fi Asbab an-Nuzul (Shamela 2247).
+Riwayat as-Suyuti tentang sebab turunnya al-Ma'ida 5:51, dalam Lubab al-Nuqul fi Asbab an-Nuzul (Shamela 2247).
 
 The verse, in al-Suyuti's heading: «يا أيها الذين آمنوا لا تتخذوا».
 
@@ -15,4 +15,4 @@ The verse, in al-Suyuti's heading: «يا أيها الذين آمنوا لا ت
 يا أيها الذين آمنوا لا تتخذوا الآية أخرج ابن إسحق وابن جرير وابن ابي حاتم والبيهقي عن عبادة بن الصامت قال لما حاربت بنو قينقاع تشبث بأمرهم عبد الله بن أبي بن سلول وقام دونهم ومشى عبادة بن الصامت إلى رسول الله وتبرأ إلى الله والى رسوله من حلفهم وكان أحد بني عوف بن الخزرج وله من حلفهم مثل الذي لهم من عبد الله بن أبي فحالفهم إلى رسول الله وتبرأ من حلف الكفار وولايتهم قال ففيه وفي عبد الله بن أبي نزلت القصة في المائدة يا أيها الذين آمنوا لا تتخذوا اليهود والنصارى أولياء الآية
 
 ## Place in the museum
-Sumber: [[work/lubab-al-nuqul-suyuti|as-Suyuti Lubab al-Nuqul]]. Ayatnya: [[passage/quran-5-57|Al-Qur'an 5-57]].
+Sumber: [[work/lubab-al-nuqul-suyuti|as-Suyuti Lubab al-Nuqul]]. Ayatnya: [[passage/quran-5-51|Al-Qur'an 5-51]].

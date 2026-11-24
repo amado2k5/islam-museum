@@ -6,7 +6,7 @@ translators: ["machine translation, draft"]
 ---
 
 ## Summary
-Rapport d'al-Suyuti sur la circonstance de révélation de al-Ahzab 33:59, dans Lubab al-Nuqul fi Asbab al-Nuzul (Shamela 2247) — génération des Compagnons.
+Rapport d'al-Suyuti sur la circonstance de révélation de al-Ahzab 33:28, dans Lubab al-Nuqul fi Asbab al-Nuzul (Shamela 2247) — génération des Compagnons.
 
 The verse, in al-Suyuti's heading: «يا أيها النبي قل لأزواجك».
 
@@ -15,4 +15,4 @@ The verse, in al-Suyuti's heading: «يا أيها النبي قل لأزواج�
 يا أيها النبي قل لأزواجك الآية أخرج مسلم وأحمد والنسائي من طريق أبي الزبير عن جابر قال أقبل أبو بكر يستأذن على رسول الله فلم يؤذن له ثم أقبل عمر فاستأذن فلم يؤذن له ثم أذن لهما فدخلا والنبي جالس وحوله نساؤه وهو ساكت فقال عمر لأكلمن النبي لعله يضحك فقال عمر يا رسول الله لو رأيت ابنة زيد امرأة عمر سألتني النفقة آنفا فوجأت عنقها فضحك النبي حتى بدا ناجذه وقال هن حولي يسألنني النفقة فقام أبو بكر إلى عائشة ليضربها وقام عمر إلى حفصة كلاهما يقولان تسألان النبي ما ليس عنده وأنزل الله الخيار فبدأ بعائشة فقال إني ذاكر لك أمرا ما أحب أن تعجلي فيه حتى تستأمري أبويك قالت ما هو فتلا عليها يا أيها النبي قل لأزواجك الآية قالت عائشة أفيك أستأمر أبوي بل أختار الله ورسوله
 
 ## Place in the museum
-Source : [[work/lubab-al-nuqul-suyuti|d'al-Suyuti Lubab al-Nuqul]]. Le verset: [[passage/quran-33-59|Coran 33-59]].
+Source : [[work/lubab-al-nuqul-suyuti|d'al-Suyuti Lubab al-Nuqul]]. Le verset: [[passage/quran-33-28|Coran 33-28]].

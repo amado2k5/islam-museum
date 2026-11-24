@@ -6,7 +6,7 @@ translators: ["machine translation, draft"]
 ---
 
 ## Summary
-Informe de al-Suyuti sobre la ocasión de revelación de an-Nur 24:29, en Lubab al-Nuqul fi Asbab al-Nuzul (Shamela 2247) — generación de los Compañeros.
+Informe de al-Suyuti sobre la ocasión de revelación de an-Nur 24:61, en Lubab al-Nuqul fi Asbab al-Nuzul (Shamela 2247) — generación de los Compañeros.
 
 The verse, in al-Suyuti's heading: «ليس عليكم جناح».
 
@@ -15,4 +15,4 @@ The verse, in al-Suyuti's heading: «ليس عليكم جناح».
 ليس عليكم جناح الآية أخرج البزار بسند صحيح عن عائشة قالت كان المسلمون يرغبون في النفر مع رسول الله فيدفعون مفاتحهم إلى زمانهم ويقولون لهم قد أحللنا لكم أن تأكلوا مما أحببتم وكانوا يقولون أنه لا يحل لنا انهم أذنوا عن غير طيب نفس فأنزل الله ليس عليكم جناح إلى قوله أو ما ملكتم مفاتحه وأخرج ابن جرير عن الزهري أنه سئل عن قوله ليس على الأعمى حرج ما بال الأعمى والأعرج والمريض ذكروا هنا فقال أخبرني عبد الله بن عبد الله قال أن المسلمين كانوا إذا غزوا خلفوا زمانهم وكانوا يدفعون إليهم مفاتيح أبوابهم ويقولون قد أحللنا لكم أن تأكلوا مما في بيوتنا وكانوا يتحرجون من ذلك ويقولون لا ندخلها وهم غيب فأنزلت هذه الآية رخصة لهم وأخرج عن قتادة قال نزلت ليس عليكم جناح أن تأكلوا جميعا أو أشتاتا في حي من العرب كان الرجل منهم لا يأكل طعامه وحده وكان يحمله بعض يوم حتى يجد من يأكله معه وأخرج عن عكرمة وأبي صالح قالا كانت الأنصار إذا نزل بهم الضيف لا يأكلون حتى يأكل الضيف معهم فنزلت رخصة لهم
 
 ## Place in the museum
-Fuente: [[work/lubab-al-nuqul-suyuti|de al-Suyuti Lubab al-Nuqul]]. El versículo: [[passage/quran-24-29|Corán 24-29]].
+Fuente: [[work/lubab-al-nuqul-suyuti|de al-Suyuti Lubab al-Nuqul]]. El versículo: [[passage/quran-24-61|Corán 24-61]].
