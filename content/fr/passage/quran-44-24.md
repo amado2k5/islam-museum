@@ -13,6 +13,6 @@ Il s'agit du verset 24 sur 59 de la sourate. Le texte est conservé dans le mush
 
 ## Dans le commentaire d'al-Tabari
 
-Al-Tabari considère le verset inclus dans les versets 22 à 24 comme une seule section. Il interprète les paroles : « Et laissez la mer telle qu’elle est, car ils sont une armée engloutie » (2:22). Il a été rapporté que « telle qu’elle est » signifie la laisser telle quelle, car ils ne pourront pas s’échapper au-delà. Hamid nous a informés, d’après Ishaq, d’après Abdullah ibn al-Harith, d’après son père, qu’Ibn Abbas a interrogé Ka’b au sujet des paroles de Dieu : « Et laissez la mer telle qu’elle est », et celui-ci a répondu : « Un chemin. »<sup>1</sup> Dans cette section, il cite des propos d’Ibn Abbas et de Qatadah.
+Al-Tabari considère le verset inclus dans les versets 22 à 24 comme une seule section. Il interprète les paroles : « Et laissez la mer telle qu’elle est, car ils sont une armée engloutie » (2:22). Il a été rapporté que « telle qu’elle est » signifie la laisser telle quelle, car ils ne pourront pas s’échapper au-delà. Hamid nous a informés, d’après Ishaq, d’après Abdullah ibn al-Harith, d’après son père, qu’Ibn Abbas a interrogé Ka’b au sujet des paroles de Dieu : « Et laissez la mer telle qu’elle est », et celui-ci a répondu : « Un chemin. » Dans cette section, il cite des propos d’Ibn Abbas et de Qatadah.
 
 {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=44&tAyahNo=24&tDisplay=yes&UserProfile=0&LanguageId=1
