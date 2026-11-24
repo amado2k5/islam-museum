@@ -11,11 +11,8 @@ Informe de al-Wahidi sobre la ocasión de revelación de Maryam 19, transmitido 
 The verse, in al-Wahidi's heading: «ويقول الإنسان أئذا ما مت لسوف أخرج حيا».
 
 ## Informe completo (texto fuente en árabe)
-<div dir="rtl" lang="ar">
 
 قال الكلبي: نزلت في أبي بن خلف حين أخذ عظاما بالية يفتها بيده ويقول:
-
-</div>
 
 ## Place in the museum
 Fuente: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an de al-Wahidi]]. El versículo: [[passage/quran-19-66|Corán 19-66]].

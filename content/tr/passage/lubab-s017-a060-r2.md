@@ -11,11 +11,8 @@ al-Isra 17:60 ayetinin nüzul sebebi hakkında es-Suyuti'nin rivayeti; Lübabü'
 The verse, in al-Suyuti's heading: «والشجرة الملعونة في القرآن».
 
 ## Tam rivayet (Arapça kaynak metin)
-<div dir="rtl" lang="ar">
 
 والشجرة الملعونة في القرآن الآية أخرج ابن أبي حاتم والبيهقي في البعث عن ابن عباس قال ذكر الله الزقوم خوف به هذا الحي من قريش قال أبو جهل هل تدرون ما هذا الزقوم الذي يخوفكم به محمد قالوا لا قال الثريد بالزبد أما لئن أمكننا
-
-</div>
 
 ## Place in the museum
 Kaynak: [[work/lubab-al-nuqul-suyuti|es-Suyuti'nin Lubab al-Nuqul]]. Ayet: [[passage/quran-17-60|Kur'an 17-60]].

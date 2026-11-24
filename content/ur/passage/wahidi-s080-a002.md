@@ -11,11 +11,8 @@ translators: ["machine translation, draft"]
 The verse, in al-Wahidi's heading: «عبس وتولى أن جاءه الأعمى».
 
 ## مکمل روایت ⁦(عربی ماخذ متن)⁩
-<div dir="rtl" lang="ar">
 
 على القوم الذين يكلمهم، فأنزل اللههذه الآيات، فكان رسول الله- بعد ذلك يكرمه، وإذا رآه يقول: "مرحبا بمن عاتبني فيه
-
-</div>
 
 ## Place in the museum
 ماخذ: [[work/asbab-nuzul-wahidi|الواحدی کی اسباب نزول القرآن]]۔ آیت: [[passage/quran-80-2|قرآن 80-2]]۔

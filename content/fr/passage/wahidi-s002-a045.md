@@ -11,11 +11,8 @@ Rapport d'al-Wahidi sur la circonstance de révélation de al-Baqara 2:45, trans
 The verse, in al-Wahidi's heading: «واستعينوا بالصبر والصلاة».
 
 ## Rapport complet (texte source arabe)
-<div dir="rtl" lang="ar">
 
 عند أكثر أهل العلم أن هذه الآية خطاب لأهل الكتاب وهو مع ذلك أدب لجميع العباد. وقال بعضهم: رجع بهذا الخطاب إلى خطاب المسلمين والقول الأول أظهر.
-
-</div>
 
 ## Place in the museum
 Source : [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an d'al-Wahidi]]. Le verset : [[passage/quran-2-45|Coran 2-45]].

@@ -11,11 +11,8 @@ Al-Suyuti's report on the occasion of revelation of an-Nahl 16:76, in Lubab al-N
 The verse, in al-Suyuti's heading: «ضرب الله مثلا».
 
 ## Full report (Arabic source text)
-<div dir="rtl" lang="ar">
 
 ضرب الله مثلا الآية أخرج ابن جرير عن ابن عباس في قوله ضرب الله مثلا عبدا مملوكا قال نزلت في رجل من قريش وعبده وفي قوله رجلين أحدهما أبكم قال نزلت في عثمان ومولى له كان يكره الإسلام ويأباه وينهاه عن الصدقة والمعروف فنزلت فيهما
-
-</div>
 
 ## Place in the museum
 Source: [[work/lubab-al-nuqul-suyuti|al-Suyuti's Lubab al-Nuqul]]. The verse: [[passage/quran-16-76|Qur'an 16-76]].

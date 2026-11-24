@@ -11,11 +11,8 @@ Informe de al-Wahidi sobre la ocasión de revelación de al-Jumu'a 62:11, transm
 The verse, in al-Wahidi's heading: «11».
 
 ## Informe completo (texto fuente en árabe)
-<div dir="rtl" lang="ar">
 
 فخرجوا إليها حتى لم يبق معه إلا اثنا عشر رجلا، فأنزل الله:
-
-</div>
 
 ## Place in the museum
 Fuente: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an de al-Wahidi]]. El versículo: [[passage/quran-62-11|Corán 62-11]].

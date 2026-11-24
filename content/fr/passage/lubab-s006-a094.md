@@ -11,11 +11,8 @@ Rapport d'al-Suyuti sur la circonstance de révélation de al-An'am 6:94, dans L
 The verse, in al-Suyuti's heading: «ولقد جئتمونا فرادى».
 
 ## Rapport complet (texte source arabe)
-<div dir="rtl" lang="ar">
 
 ولقد جئتمونا فرادى الآية أخرج ابن جرير وغيره عن عكرمة قال قال النضر بن الحرث سوف تشفع إلى اللات والعزي فنزلت هذه الآية ولقد جئتمونا فرداى إلى قوله شركاء
-
-</div>
 
 ## Place in the museum
 Source : [[work/lubab-al-nuqul-suyuti|d'al-Suyuti Lubab al-Nuqul]]. Le verset: [[passage/quran-6-94|Coran 6-94]].

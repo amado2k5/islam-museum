@@ -11,11 +11,8 @@ Al-Suyuti's report on the occasion of revelation of al-Baqara 2:159, in Lubab al
 The verse, in al-Suyuti's heading: «إن الذين يكتمون».
 
 ## Full report (Arabic source text)
-<div dir="rtl" lang="ar">
 
 إن الذين يكتمون الآية أخرج ابن جرير عن عكرمة في قوله إن الذين يكتمون ما أنزل الله من الكتاب والتي في آل عمران إن الذين يشترون بعهد الله نزلتا جميعا في يهود وأخرج الثعلبي من طريق الكلبي عن أبي صالح عن ابن عباس قال نزلت
-
-</div>
 
 ## Place in the museum
 Source: [[work/lubab-al-nuqul-suyuti|al-Suyuti's Lubab al-Nuqul]]. The verse: [[passage/quran-2-159|Qur'an 2-159]].

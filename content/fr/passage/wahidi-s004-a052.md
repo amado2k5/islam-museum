@@ -11,11 +11,8 @@ Rapport d'al-Wahidi sur la circonstance de révélation de an-Nisa 4:52, transmi
 The verse, in al-Wahidi's heading: «أولئك الذين لعنهم الله».
 
 ## Rapport complet (texte source arabe)
-<div dir="rtl" lang="ar">
 
 قتادة قال: نزلت هذه الآية في كعب بن الأشرف وحيي بن أخطب - رجلين من
-
-</div>
 
 ## Place in the museum
 Source : [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an d'al-Wahidi]]. Le verset : [[passage/quran-4-52|Coran 4-52]].

@@ -11,11 +11,8 @@ Rapport d'al-Wahidi sur la circonstance de révélation de al-Fath 48:24, transm
 The verse, in al-Wahidi's heading: «وهو الذي كف أيديهم عنكم وأيديكم عنهم».
 
 ## Rapport complet (texte source arabe)
-<div dir="rtl" lang="ar">
 
 فأخذهم أسراء فاستحياهم، فأنزل الله: {وهو الذي كف أيديهم عنكم
-
-</div>
 
 ## Place in the museum
 Source : [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an d'al-Wahidi]]. Le verset : [[passage/quran-48-24|Coran 48-24]].

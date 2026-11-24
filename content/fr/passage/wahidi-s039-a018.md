@@ -11,11 +11,8 @@ Rapport d'al-Wahidi sur la circonstance de révélation de az-Zumar 39:18, trans
 The verse, in al-Wahidi's heading: «فبشر عبادي الذين يستمعون القول فيتبعون أحسنه».
 
 ## Rapport complet (texte source arabe)
-<div dir="rtl" lang="ar">
 
 وسعيد بن زيد وسعد بن أبي وقاص فسألوه، فأخبرهم بإيمانه فآمنوا، ونزلت
-
-</div>
 
 ## Place in the museum
 Source : [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an d'al-Wahidi]]. Le verset : [[passage/quran-39-18|Coran 39-18]].

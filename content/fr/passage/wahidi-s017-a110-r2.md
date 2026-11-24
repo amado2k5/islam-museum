@@ -11,11 +11,8 @@ Rapport d'al-Wahidi sur la circonstance de révélation de Bani Isra'il 17:110, 
 The verse, in al-Wahidi's heading: «110».
 
 ## Rapport complet (texte source arabe)
-<div dir="rtl" lang="ar">
 
 في قوله: {ولا تجهر بصلاتك ولا تخافت بها} قال: نزلت ورسول الله- مختف بمكة وكانوا إذا سمعوا القرآن سبوا القرآن ومن
-
-</div>
 
 ## Place in the museum
 Source : [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an d'al-Wahidi]]. Le verset : [[passage/quran-17-110|Coran 17-110]].

@@ -11,11 +11,8 @@ Riwayat al-Wahidi tentang sebab turunnya Ta Ha 20:1, diriwayatkan dari generasi 
 The verse, in al-Wahidi's heading: «1، 2».
 
 ## Laporan lengkap (teks sumber Arab)
-<div dir="rtl" lang="ar">
 
 وذلك لما رأياه من طول عبادته وشدة اجتهاده، فأنزل
-
-</div>
 
 ## Place in the museum
 Sumber: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an al-Wahidi]]. Ayatnya: [[passage/quran-20-1|Al-Qur'an 20-1]].

@@ -11,11 +11,8 @@ Bara'a (at-Tawba) 9:79 ayetinin nüzül sebebi hakkında El-Vahidi'nin rivayeti;
 The verse, in al-Wahidi's heading: «الذين يلمزون المطوعين من المؤمنين في الصدقات».
 
 ## Tam rivayet (Arapça kaynak metin)
-<div dir="rtl" lang="ar">
 
 أبي مسعود قال: لما نزلت آية الصدقة كنا نحامل، فجاء رجل فتصدق بشيء كثير
-
-</div>
 
 ## Place in the museum
 Kaynak: [[work/asbab-nuzul-wahidi|El-Vahidi'nin Esbab Nüzul el-Kur'an'ı]]. Ayet: [[passage/quran-9-79|Kur'an 9-79]].

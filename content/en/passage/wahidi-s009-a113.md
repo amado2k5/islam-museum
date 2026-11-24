@@ -11,11 +11,8 @@ Al-Wahidi's report on the occasion of revelation of Bara'a (at-Tawba) 9:113, nar
 The verse, in al-Wahidi's heading: «ما كان للنبي والذين آمنوا أن يستغفروا للمشركين».
 
 ## Full report (Arabic source text)
-<div dir="rtl" lang="ar">
 
 فقال النبي- "لأستغفرن لك ما لم أنه عنك"، فنزلت:
-
-</div>
 
 ## Place in the museum
 Source: [[work/asbab-al-nuzul-wahidi|al-Wahidi's Asbab nuzul al-Qur'an]]. The verse: [[passage/quran-9-113|Qur'an 9-113]].

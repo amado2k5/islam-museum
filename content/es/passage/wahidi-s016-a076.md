@@ -11,11 +11,8 @@ Informe de al-Wahidi sobre la ocasión de revelación de an-Nahl 16:76, transmit
 The verse, in al-Wahidi's heading: «ضرب الله مثلا عبدا مملوكا».
 
 ## Informe completo (texto fuente en árabe)
-<div dir="rtl" lang="ar">
 
 ينفق ماله سرا وجهرا، ومولاه أبو الجوزاء الذي كان ينهاه ونزلت: {وضرب الله
-
-</div>
 
 ## Place in the museum
 Fuente: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an de al-Wahidi]]. El versículo: [[passage/quran-16-76|Corán 16-76]].

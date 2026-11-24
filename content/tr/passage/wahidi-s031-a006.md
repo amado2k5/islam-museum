@@ -11,11 +11,8 @@ Luqman 31:6 ayetinin nüzül sebebi hakkında El-Vahidi'nin rivayeti; Esbab Nüz
 The verse, in al-Wahidi's heading: «ومن الناس من يشتري لهو الحديث».
 
 ## Tam rivayet (Arapça kaynak metin)
-<div dir="rtl" lang="ar">
 
 قال الكلبي ومقاتل: نزلت في النضر بن الحارث، وذلك أنه كان يخرج تاجرا
-
-</div>
 
 ## Place in the museum
 Kaynak: [[work/asbab-nuzul-wahidi|El-Vahidi'nin Esbab Nüzul el-Kur'an'ı]]. Ayet: [[passage/quran-31-6|Kur'an 31-6]].

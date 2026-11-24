@@ -11,11 +11,8 @@ az-Zalzala 99:8 ayetinin nüzül sebebi hakkında El-Vahidi'nin rivayeti; Esbab 
 The verse, in al-Wahidi's heading: «فمن يعمل مثقال ذرة خيرا يره ومن يعمل مثقال ذرة شرا يره».
 
 ## Tam rivayet (Arapça kaynak metin)
-<div dir="rtl" lang="ar">
 
 قال مقاتل: نزلت في رجلين كان أحدهما يأتيه السائل فيستقل أن يعطيه
-
-</div>
 
 ## Place in the museum
 Kaynak: [[work/asbab-nuzul-wahidi|El-Vahidi'nin Esbab Nüzul el-Kur'an'ı]]. Ayet: [[passage/quran-99-8|Kur'an 99-8]].

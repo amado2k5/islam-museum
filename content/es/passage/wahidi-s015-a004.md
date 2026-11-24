@@ -11,11 +11,8 @@ Informe de al-Wahidi sobre la ocasión de revelación de al-Hijr 15:4, transmiti
 The verse, in al-Wahidi's heading: «إن الذين ينادونك من وراء الحجرات أكثرهم لا يعقلون».
 
 ## Informe completo (texto fuente en árabe)
-<div dir="rtl" lang="ar">
 
 محمد بن إسحاق وغيره: نزلت في جفاة بني تميم، قدم وفد منهم على النبي - صلى
-
-</div>
 
 ## Place in the museum
 Fuente: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an de al-Wahidi]]. El versículo: [[passage/quran-15-4|Corán 15-4]].

@@ -11,11 +11,8 @@ Riwayat al-Wahidi tentang sebab turunnya Ta Ha 20:131, diriwayatkan dari generas
 The verse, in al-Wahidi's heading: «131».
 
 ## Laporan lengkap (teks sumber Arab)
-<div dir="rtl" lang="ar">
 
 الربذي قال: أخبرني يزيد بن عبد الله بن قسيط، عن أبي رافع مولى رسول الله- أن ضيفا نزل برسول الله-
-
-</div>
 
 ## Place in the museum
 Sumber: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an al-Wahidi]]. Ayatnya: [[passage/quran-20-131|Al-Qur'an 20-131]].

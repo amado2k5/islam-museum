@@ -11,11 +11,8 @@ Informe de al-Suyuti sobre la ocasión de revelación de al-Hijr 15, en Lubab al
 The verse, in al-Suyuti's heading: «وإن طائفتان».
 
 ## Informe completo (texto fuente en árabe)
-<div dir="rtl" lang="ar">
 
 وإن طائفتان الآية أخرج الشيخان عن أنس أن النبي ركب حمارا وانطلق إلى عبد الله بن أبي فقال إليك عني فوالله لقد آذاني نتن حمارك فقال رجل من الأنصار والله لحماره أطيب ريحا منك فغضب لعبد الله رجل من قومه وغضب
-
-</div>
 
 ## Place in the museum
 Fuente: [[work/lubab-al-nuqul-suyuti|de al-Suyuti Lubab al-Nuqul]]. El versículo: [[passage/quran-49-9|Corán 49-9]].

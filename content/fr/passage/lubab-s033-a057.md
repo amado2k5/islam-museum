@@ -11,11 +11,8 @@ Rapport d'al-Suyuti sur la circonstance de révélation de al-Ahzab 33:57, dans 
 The verse, in al-Suyuti's heading: «إن الذين يؤذون».
 
 ## Rapport complet (texte source arabe)
-<div dir="rtl" lang="ar">
 
 إن الذين يؤذون الآية أخرج ابن أبي حاتم من طريق العوفي عن ابن عباس في قوله إن الذين يؤذون الله ورسوله الآية قال نزلت في الذين طعنوا على النبي حين اتخذ صفية بنت حيي وقال جويبر عن الضحاك عن ابن عباس
-
-</div>
 
 ## Place in the museum
 Source : [[work/lubab-al-nuqul-suyuti|d'al-Suyuti Lubab al-Nuqul]]. Le verset: [[passage/quran-33-57|Coran 33-57]].

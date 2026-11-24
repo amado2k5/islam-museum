@@ -11,11 +11,8 @@ an-Nisa 4:88 کے سببِ نزول پر الواحدی کی روایت — «ا
 The verse, in al-Wahidi's heading: «فما لكم في المنافقين فئتين».
 
 ## مکمل روایت ⁦(عربی ماخذ متن)⁩
-<div dir="rtl" lang="ar">
 
 فرقة: لا نقتلهم، فنزلت هذه الآية.
-
-</div>
 
 ## Place in the museum
 ماخذ: [[work/asbab-nuzul-wahidi|الواحدی کی اسباب نزول القرآن]]۔ آیت: [[passage/quran-4-88|قرآن 4-88]]۔

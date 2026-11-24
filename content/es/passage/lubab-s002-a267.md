@@ -11,11 +11,8 @@ Informe de al-Suyuti sobre la ocasión de revelación de al-Baqara 2:267, en Lub
 The verse, in al-Suyuti's heading: «يا أيها الذين آمنوا أنفقوا من طيبات ما».
 
 ## Informe completo (texto fuente en árabe)
-<div dir="rtl" lang="ar">
 
 يا أيها الذين آمنوا أنفقوا من طيبات ما كسبتم [267] الآية روى الحاكم والترمذي وابن ماجة وغيرهم عن البراء قال نزلت هذه الآية فينا معشر الأنصار كنا أصحاب نخل وكان الرجل يأتي من نخلة على قدر كثرته وقلته وكان ناس ممن لا يرغب في الخير
-
-</div>
 
 ## Place in the museum
 Fuente: [[work/lubab-al-nuqul-suyuti|de al-Suyuti Lubab al-Nuqul]]. El versículo: [[passage/quran-2-267|Corán 2-267]].

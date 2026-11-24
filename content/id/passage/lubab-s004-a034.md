@@ -11,11 +11,8 @@ Riwayat as-Suyuti tentang sebab turunnya an-Nisa 4:34, dalam Lubab al-Nuqul fi A
 The verse, in al-Suyuti's heading: «الرجال قوامون».
 
 ## Laporan lengkap (teks sumber Arab)
-<div dir="rtl" lang="ar">
 
 الرجال قوامون أخرج ابن أبي حاتم عن الحسن قال جاءت امرأة إلى النبي تستعدي على زوجها أنه لطمها فقال رسول الله القصاص فأنزل الله الرجال قوامون على النساء الآية فرجعت بغير القصاص وأخرج ابن جرير من طرق
-
-</div>
 
 ## Place in the museum
 Sumber: [[work/lubab-al-nuqul-suyuti|as-Suyuti Lubab al-Nuqul]]. Ayatnya: [[passage/quran-4-34|Al-Qur'an 4-34]].

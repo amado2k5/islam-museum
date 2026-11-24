@@ -11,11 +11,8 @@ Al-Wahidi's report on the occasion of revelation of Bara'a (at-Tawba) 9:102, nar
 The verse, in al-Wahidi's heading: «وآخرون اعترفوا بذنوبهم».
 
 ## Full report (Arabic source text)
-<div dir="rtl" lang="ar">
 
 قال ابن عباس في رواية الوالبي: نزلت في قوم كانوا قد تخلفوا عن رسول
-
-</div>
 
 ## Place in the museum
 Source: [[work/asbab-al-nuzul-wahidi|al-Wahidi's Asbab nuzul al-Qur'an]]. The verse: [[passage/quran-9-102|Qur'an 9-102]].

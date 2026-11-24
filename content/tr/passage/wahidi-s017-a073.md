@@ -11,11 +11,8 @@ Bani Isra'il 17:73 ayetinin nüzül sebebi hakkında El-Vahidi'nin rivayeti; Esb
 The verse, in al-Wahidi's heading: «وإن كادوا ليفتنونك عن الذي أوحينا إليك».
 
 ## Tam rivayet (Arapça kaynak metin)
-<div dir="rtl" lang="ar">
 
 قال عطاء عن ابن عباس: نزلت في وفد ثقيف أتوا رسول الله
-
-</div>
 
 ## Place in the museum
 Kaynak: [[work/asbab-nuzul-wahidi|El-Vahidi'nin Esbab Nüzul el-Kur'an'ı]]. Ayet: [[passage/quran-17-73|Kur'an 17-73]].

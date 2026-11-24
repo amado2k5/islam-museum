@@ -11,11 +11,8 @@ Informe de al-Suyuti sobre la ocasión de revelación de Bara'a (at-Tawba) 9:41,
 The verse, in al-Suyuti's heading: «انفروا خفافا وثقالا».
 
 ## Informe completo (texto fuente en árabe)
-<div dir="rtl" lang="ar">
 
 انفروا خفافا وثقالا الآية أخرج ابن جرير عن حضرمي أنه ذكر له أناسا كانوا عسى أن يكون أحدهم عليلا أو كبيرا فيقول إني آثم فأنزل الله انفروا خفافا وثقالا
-
-</div>
 
 ## Place in the museum
 Fuente: [[work/lubab-al-nuqul-suyuti|de al-Suyuti Lubab al-Nuqul]]. El versículo: [[passage/quran-9-41|Corán 9-41]].

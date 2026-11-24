@@ -11,11 +11,8 @@ Riwayat as-Suyuti tentang sebab turunnya Ta Ha 20:105, dalam Lubab al-Nuqul fi A
 The verse, in al-Suyuti's heading: «ويسألونك عن الجبال».
 
 ## Laporan lengkap (teks sumber Arab)
-<div dir="rtl" lang="ar">
 
 ويسألونك عن الجبال الآية أخرج ابن المنذر عن ابن جريج قالت قريش يا محمد كيف يفعل ربك بهذه الجبال يوم القيامة فنزلت ويسألونك عن الجبال الآية
-
-</div>
 
 ## Place in the museum
 Sumber: [[work/lubab-al-nuqul-suyuti|as-Suyuti Lubab al-Nuqul]]. Ayatnya: [[passage/quran-20-105|Al-Qur'an 20-105]].

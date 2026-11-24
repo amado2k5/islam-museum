@@ -11,11 +11,8 @@ Al-Wahidi's report on the occasion of revelation of al-Baqara 2:222, narrated fr
 The verse, in al-Wahidi's heading: «ويسألونك عن المحيض».
 
 ## Full report (Arabic source text)
-<div dir="rtl" lang="ar">
 
 يشاربوها ولم يجامعوها في البيوت، فسئل رسول الله-
-
-</div>
 
 ## Place in the museum
 Source: [[work/asbab-al-nuzul-wahidi|al-Wahidi's Asbab nuzul al-Qur'an]]. The verse: [[passage/quran-2-222|Qur'an 2-222]].

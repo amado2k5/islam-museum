@@ -11,11 +11,8 @@ Informe de al-Suyuti sobre la ocasión de revelación de Al 'Imran 3:100, en Lub
 The verse, in al-Suyuti's heading: «يا أيها الذين آمنوا إن تطيعوا».
 
 ## Informe completo (texto fuente en árabe)
-<div dir="rtl" lang="ar">
 
 يا أيها الذين آمنوا إن تطيعوا الآية أخرج الفريابي وابن أبي حاتم عن ابن عباس قال كانت الأوس والخزرج في الجاهلية بينهم شر فبينما هم جلوس ذكروا ما بينهم حتى غضبوا وقام بعضهم إلى بعض بالسلاح فنزلت وكيف تكفرون الآية والآيتان بعدها وأخرج ابن إسحق
-
-</div>
 
 ## Place in the museum
 Fuente: [[work/lubab-al-nuqul-suyuti|de al-Suyuti Lubab al-Nuqul]]. El versículo: [[passage/quran-3-100|Corán 3-100]].

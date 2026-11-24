@@ -11,11 +11,8 @@ al-Mujadila 58:1 ayetinin nüzül sebebi hakkında El-Vahidi'nin rivayeti; Esbab
 The verse, in al-Wahidi's heading: «قد سمع الله قول التي تجادلك في زوجها».
 
 ## Tam rivayet (Arapça kaynak metin)
-<div dir="rtl" lang="ar">
 
 قال: فما برحت حتى نزل
-
-</div>
 
 ## Place in the museum
 Kaynak: [[work/asbab-nuzul-wahidi|El-Vahidi'nin Esbab Nüzul el-Kur'an'ı]]. Ayet: [[passage/quran-58-1|Kur'an 58-1]].

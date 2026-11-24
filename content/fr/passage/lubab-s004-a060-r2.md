@@ -11,11 +11,8 @@ Rapport d'al-Suyuti sur la circonstance de révélation de an-Nisa 4:60, dans Lu
 The verse, in al-Suyuti's heading: «ألم تر إلى الذين يزعمون».
 
 ## Rapport complet (texte source arabe)
-<div dir="rtl" lang="ar">
 
 ألم تر إلى الذين يزعمون أخرج ابن أبي حاتم والطبراني بسند صحيح عن ابن عباس قال كان ابو بزره الأسلمي كاهنا يقضي بين اليهود فيما يتنافرون فيه فتنافر إليه ناس من المسلمين فأنزل الله ألم تر إلى الذين يزعمون أنهم آمنوا إلى قوله إلا إحسانا
-
-</div>
 
 ## Place in the museum
 Source : [[work/lubab-al-nuqul-suyuti|d'al-Suyuti Lubab al-Nuqul]]. Le verset: [[passage/quran-4-60|Coran 4-60]].

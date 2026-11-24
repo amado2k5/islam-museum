@@ -11,11 +11,8 @@ an-Nisa 4:19 ayetinin nüzul sebebi hakkında es-Suyuti'nin rivayeti; Lübabü'n
 The verse, in al-Suyuti's heading: «يا أيها الذين آمنوا لا يحل لكم أن».
 
 ## Tam rivayet (Arapça kaynak metin)
-<div dir="rtl" lang="ar">
 
 يا أيها الذين آمنوا لا يحل لكم أن ترثوا النساء كرها [19] روى البخاري وأبو داود والنسائي عن ابن عباس قال كانوا إذا مات الرجل كان أولياؤه أحق بامرأته إن شاء بعضهم تزوجها وإن شاءوا زوجوها فهم أحق بها من أهلها فنزلت هذه الآية وأخرج
-
-</div>
 
 ## Place in the museum
 Kaynak: [[work/lubab-al-nuqul-suyuti|es-Suyuti'nin Lubab al-Nuqul]]. Ayet: [[passage/quran-4-19|Kur'an 4-19]].

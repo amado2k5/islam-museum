@@ -11,11 +11,8 @@ Al-Wahidi's report on the occasion of revelation of Ta Ha 20:1, narrated from th
 The verse, in al-Wahidi's heading: «1، 2».
 
 ## Full report (Arabic source text)
-<div dir="rtl" lang="ar">
 
 وذلك لما رأياه من طول عبادته وشدة اجتهاده، فأنزل
-
-</div>
 
 ## Place in the museum
 Source: [[work/asbab-al-nuzul-wahidi|al-Wahidi's Asbab nuzul al-Qur'an]]. The verse: [[passage/quran-20-1|Qur'an 20-1]].

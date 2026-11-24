@@ -11,11 +11,8 @@ at-Takathur 102:2 ayetinin nüzül sebebi hakkında El-Vahidi'nin rivayeti; Esba
 The verse, in al-Wahidi's heading: «ألهاكم التكاثر حتى زرتم المقابر».
 
 ## Tam rivayet (Arapça kaynak metin)
-<div dir="rtl" lang="ar">
 
 قال مقاتل والكلبي: نزلت في حيين من قريش: بني عبد مناف وبني سهم كان
-
-</div>
 
 ## Place in the museum
 Kaynak: [[work/asbab-nuzul-wahidi|El-Vahidi'nin Esbab Nüzul el-Kur'an'ı]]. Ayet: [[passage/quran-102-2|Kur'an 102-2]].

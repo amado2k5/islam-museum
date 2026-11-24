@@ -11,11 +11,8 @@ Informe de al-Suyuti sobre la ocasión de revelación de al-Baqara 2:272, en Lub
 The verse, in al-Suyuti's heading: «ليس عليك هداهم روى النسائي والحاكم والبزار والطبراني».
 
 ## Informe completo (texto fuente en árabe)
-<div dir="rtl" lang="ar">
 
 ليس عليك هداهم روى النسائي والحاكم والبزار والطبراني وغيرهم عن ابن عباس قال كانوا يكرهون أن يرضخوا لأنسابهم من المشركين فسألوا فرخص لهم فنزلت هذه الآية ليس عليك هداهم إلى قوله وأنتم لا تظلمون [272] وأخرج ابن أبي حاتم عن ابن عباس أن النبي صلى
-
-</div>
 
 ## Place in the museum
 Fuente: [[work/lubab-al-nuqul-suyuti|de al-Suyuti Lubab al-Nuqul]]. El versículo: [[passage/quran-2-272|Corán 2-272]].

@@ -11,11 +11,8 @@ Informe de al-Wahidi sobre la ocasión de revelación de az-Zumar 39:67, transmi
 The verse, in al-Wahidi's heading: «وما قدروا الله حق قدره».
 
 ## Informe completo (texto fuente en árabe)
-<div dir="rtl" lang="ar">
 
 نواجذه، فأنزل الله: {وما قدروا الله حق قدره} الآية.
-
-</div>
 
 ## Place in the museum
 Fuente: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an de al-Wahidi]]. El versículo: [[passage/quran-39-67|Corán 39-67]].

@@ -11,11 +11,8 @@ Rapport d'al-Wahidi sur la circonstance de révélation de Al 'Imran 3:188, tran
 The verse, in al-Wahidi's heading: «لا تحسبن الذين يفرحون بما أتوا».
 
 ## Rapport complet (texte source arabe)
-<div dir="rtl" lang="ar">
 
 يحمدوا بما لم يفعلوا، فنزلت: {لا تحسبن الذين يفرحون بما أتوا} الآية.
-
-</div>
 
 ## Place in the museum
 Source : [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an d'al-Wahidi]]. Le verset : [[passage/quran-3-188|Coran 3-188]].

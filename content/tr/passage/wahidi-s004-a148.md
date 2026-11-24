@@ -11,11 +11,8 @@ an-Nisa 4:148 ayetinin nüzül sebebi hakkında El-Vahidi'nin rivayeti; Esbab N�
 The verse, in al-Wahidi's heading: «لا يحب الله الجهر بالسوء من القول».
 
 ## Tam rivayet (Arapça kaynak metin)
-<div dir="rtl" lang="ar">
 
 إن ضيفا تضيف قوما فأساءوا قراه فاشتكاهم، فنزلت هذه الآية
-
-</div>
 
 ## Place in the museum
 Kaynak: [[work/asbab-nuzul-wahidi|El-Vahidi'nin Esbab Nüzul el-Kur'an'ı]]. Ayet: [[passage/quran-4-148|Kur'an 4-148]].

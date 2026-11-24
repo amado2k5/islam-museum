@@ -11,11 +11,8 @@ az-Zukhruf 43:57 ayetinin nüzül sebebi hakkında El-Vahidi'nin rivayeti; Esbab
 The verse, in al-Wahidi's heading: «ولما ضرب ابن مريم مثلا».
 
 ## Tam rivayet (Arapça kaynak metin)
-<div dir="rtl" lang="ar">
 
 كآلهتهم، فأنزل الله: {ولما ضرب ابن مريم مثلا} الآية.
-
-</div>
 
 ## Place in the museum
 Kaynak: [[work/asbab-nuzul-wahidi|El-Vahidi'nin Esbab Nüzul el-Kur'an'ı]]. Ayet: [[passage/quran-43-57|Kur'an 43-57]].

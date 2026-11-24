@@ -11,11 +11,8 @@ Riwayat al-Wahidi tentang sebab turunnya Al 'Imran 3:83, diriwayatkan dari gener
 The verse, in al-Wahidi's heading: «أفغير دين الله يبغون».
 
 ## Laporan lengkap (teks sumber Arab)
-<div dir="rtl" lang="ar">
 
 وقالوا: والله ما نرضى بقضائك ولا نأخذ بدينك، فأنزل الله: {أفغير
-
-</div>
 
 ## Place in the museum
 Sumber: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an al-Wahidi]]. Ayatnya: [[passage/quran-3-83|Al-Qur'an 3-83]].

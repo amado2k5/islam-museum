@@ -11,11 +11,8 @@ Riwayat al-Wahidi tentang sebab turunnya Al 'Imran 3:23, diriwayatkan dari gener
 The verse, in al-Wahidi's heading: «ألم تر إلى الذين أوتوا نصيبا من الكتاب».
 
 ## Laporan lengkap (teks sumber Arab)
-<div dir="rtl" lang="ar">
 
 اختلفوا في سبب نزولها، فقال السدي: دعا النبي-
-
-</div>
 
 ## Place in the museum
 Sumber: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an al-Wahidi]]. Ayatnya: [[passage/quran-3-23|Al-Qur'an 3-23]].

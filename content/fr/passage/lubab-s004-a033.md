@@ -11,11 +11,8 @@ Rapport d'al-Suyuti sur la circonstance de révélation de an-Nisa 4, dans Lubab
 The verse, in al-Suyuti's heading: «والذين عاقدت أيمانكم».
 
 ## Rapport complet (texte source arabe)
-<div dir="rtl" lang="ar">
 
 والذين عاقدت أيمانكم الآية أخرج أبو داود في سننه من طريق ابن أسحق عن داود بن الحصين قال كنت اقرأ على أم سعد ابنة الربيع وكانت مقيمة في حجر أبي بكر فقرأت والذين عاقدت أيمانكم فقالت لا ولكن والذين عقدت وإنما نزلت في أبي بكر
-
-</div>
 
 ## Place in the museum
 Source : [[work/lubab-al-nuqul-suyuti|d'al-Suyuti Lubab al-Nuqul]]. Le verset: [[passage/quran-4-33|Coran 4-33]].

@@ -11,11 +11,8 @@ Rapport d'al-Wahidi sur la circonstance de révélation de an-Nur 24:61, transmi
 The verse, in al-Wahidi's heading: «ليس على الأعمى حرج».
 
 ## Rapport complet (texte source arabe)
-<div dir="rtl" lang="ar">
 
 قال ابن عباس: لما أنزل الله: {لا تأكلوا أموالكم بينكم}
-
-</div>
 
 ## Place in the museum
 Source : [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an d'al-Wahidi]]. Le verset : [[passage/quran-24-61|Coran 24-61]].

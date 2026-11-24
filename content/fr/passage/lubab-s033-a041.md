@@ -11,11 +11,8 @@ Rapport d'al-Suyuti sur la circonstance de révélation de al-Ahzab 33:41, dans 
 The verse, in al-Suyuti's heading: «يا أيها الذين آمنوا اذكروا عمة الله عليكم».
 
 ## Rapport complet (texte source arabe)
-<div dir="rtl" lang="ar">
 
 يا أيها الذين آمنوا اذكروا عمة الله عليكم الآية أخرج البيهقي في الدلائل عن حذيفة قال لقد رأيتنا ليلة الأحزاب ونحن صافون قعودا وأبو سفيان ومن معه من الأحزاب فوقنا وقريظة أسفل منا نخافهم على ذرارينا وما أتت قط علينا ليلة أشد ظلمة ولا أشد
-
-</div>
 
 ## Place in the museum
 Source : [[work/lubab-al-nuqul-suyuti|d'al-Suyuti Lubab al-Nuqul]]. Le verset: [[passage/quran-33-41|Coran 33-41]].

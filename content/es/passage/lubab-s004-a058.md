@@ -11,11 +11,8 @@ Informe de al-Suyuti sobre la ocasión de revelación de an-Nisa 4:58, en Lubab 
 The verse, in al-Suyuti's heading: «إن الله يأمركم».
 
 ## Informe completo (texto fuente en árabe)
-<div dir="rtl" lang="ar">
 
 إن الله يأمركم أخرج ابن مردويه من طريق الكلبي عن أبي صالح عن ابن عباس قال لما فتح رسول الله مكة دعا عثمان بن طلحة فلما أتاه قال أرني المفتاح فأتاه به فلما بسط يده إليه قام العباس فقال يا رسول
-
-</div>
 
 ## Place in the museum
 Fuente: [[work/lubab-al-nuqul-suyuti|de al-Suyuti Lubab al-Nuqul]]. El versículo: [[passage/quran-4-58|Corán 4-58]].

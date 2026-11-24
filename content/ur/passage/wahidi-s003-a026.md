@@ -11,11 +11,8 @@ Al 'Imran 3:26 کے سببِ نزول پر الواحدی کی روایت — «
 The verse, in al-Wahidi's heading: «قل اللهم مالك الملك».
 
 ## مکمل روایت ⁦(عربی ماخذ متن)⁩
-<div dir="rtl" lang="ar">
 
 فأنزل اللههذه الآية.
-
-</div>
 
 ## Place in the museum
 ماخذ: [[work/asbab-nuzul-wahidi|الواحدی کی اسباب نزول القرآن]]۔ آیت: [[passage/quran-3-26|قرآن 3-26]]۔

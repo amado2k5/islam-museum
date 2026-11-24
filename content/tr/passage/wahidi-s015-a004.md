@@ -11,11 +11,8 @@ al-Hijr 15:4 ayetinin nüzül sebebi hakkında El-Vahidi'nin rivayeti; Esbab Nü
 The verse, in al-Wahidi's heading: «إن الذين ينادونك من وراء الحجرات أكثرهم لا يعقلون».
 
 ## Tam rivayet (Arapça kaynak metin)
-<div dir="rtl" lang="ar">
 
 محمد بن إسحاق وغيره: نزلت في جفاة بني تميم، قدم وفد منهم على النبي - صلى
-
-</div>
 
 ## Place in the museum
 Kaynak: [[work/asbab-nuzul-wahidi|El-Vahidi'nin Esbab Nüzul el-Kur'an'ı]]. Ayet: [[passage/quran-15-4|Kur'an 15-4]].

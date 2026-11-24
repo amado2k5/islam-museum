@@ -11,11 +11,8 @@ Riwayat al-Wahidi tentang sebab turunnya Bara'a (at-Tawba) 9:58, diriwayatkan da
 The verse, in al-Wahidi's heading: «ومنهم من يلمزك في الصدقات».
 
 ## Laporan lengkap (teks sumber Arab)
-<div dir="rtl" lang="ar">
 
 وقال الكلبي: نزلت في المؤلفة قلوبهم وهم المنافقون، قال رجل منهم يقال
-
-</div>
 
 ## Place in the museum
 Sumber: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an al-Wahidi]]. Ayatnya: [[passage/quran-9-58|Al-Qur'an 9-58]].

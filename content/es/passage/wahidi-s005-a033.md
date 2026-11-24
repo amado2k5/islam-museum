@@ -11,11 +11,8 @@ Informe de al-Wahidi sobre la ocasión de revelación de al-Ma'ida 5:33, transmi
 The verse, in al-Wahidi's heading: «إنما جزاء الذين يحاربون الله ورسوله».
 
 ## Informe completo (texto fuente en árabe)
-<div dir="rtl" lang="ar">
 
 الآية نزلت فيهم: {إنما جزاء الذين يحاربون الله ورسوله ويسعون في الأرض
-
-</div>
 
 ## Place in the museum
 Fuente: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an de al-Wahidi]]. El versículo: [[passage/quran-5-33|Corán 5-33]].

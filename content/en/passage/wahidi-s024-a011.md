@@ -11,11 +11,8 @@ Al-Wahidi's report on the occasion of revelation of an-Nur 24:11, narrated from 
 The verse, in al-Wahidi's heading: «إن الذين جاءوا بالإفك عصبة منكم».
 
 ## Full report (Arabic source text)
-<div dir="rtl" lang="ar">
 
 فخرجت مع رسول الله- وذلك بعدما نزلت آية الحجاب
-
-</div>
 
 ## Place in the museum
 Source: [[work/asbab-al-nuzul-wahidi|al-Wahidi's Asbab nuzul al-Qur'an]]. The verse: [[passage/quran-24-11|Qur'an 24-11]].

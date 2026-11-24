@@ -11,11 +11,8 @@ Informe de al-Suyuti sobre la ocasión de revelación de az-Zumar 39:64, en Luba
 The verse, in al-Suyuti's heading: «قل أفغير الله تأمروني أعبد».
 
 ## Informe completo (texto fuente en árabe)
-<div dir="rtl" lang="ar">
 
 قل أفغير الله تأمروني أعبد الآية سيأتي سبب نزولها في سورة الكافرون وأخرج البيهقي في الدلائل عن الحسن البصري قال قال المشركون للنبي أتضلل آباءك وأجدادك يا محمد فأنزل الله قل أفغير الله تأمروني أعبد إلى قوله
-
-</div>
 
 ## Place in the museum
 Fuente: [[work/lubab-al-nuqul-suyuti|de al-Suyuti Lubab al-Nuqul]]. El versículo: [[passage/quran-39-64|Corán 39-64]].

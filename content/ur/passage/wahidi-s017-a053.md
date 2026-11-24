@@ -11,11 +11,8 @@ Bani Isra'il 17:53 کے سببِ نزول پر الواحدی کی روایت �
 The verse, in al-Wahidi's heading: «53».
 
 ## مکمل روایت ⁦(عربی ماخذ متن)⁩
-<div dir="rtl" lang="ar">
 
 نزلت في عمر بن الخطاب- وذلك أن رجلا من العرب شتمه،
-
-</div>
 
 ## Place in the museum
 ماخذ: [[work/asbab-nuzul-wahidi|الواحدی کی اسباب نزول القرآن]]۔ آیت: [[passage/quran-17-53|قرآن 17-53]]۔

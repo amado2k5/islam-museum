@@ -11,11 +11,8 @@ Al-Wahidi's report on the occasion of revelation of Al 'Imran 3:12, narrated fro
 The verse, in al-Wahidi's heading: «قل للذين كفروا ستغلبون».
 
 ## Full report (Arabic source text)
-<div dir="rtl" lang="ar">
 
 لتكونن كلمتنا واحدة، ثم رجعوا إلى المدينة، فأنزل اللهفيهم هذه
-
-</div>
 
 ## Place in the museum
 Source: [[work/asbab-al-nuzul-wahidi|al-Wahidi's Asbab nuzul al-Qur'an]]. The verse: [[passage/quran-3-12|Qur'an 3-12]].

@@ -11,11 +11,8 @@ an-Nisa 4:37 ayetinin nüzül sebebi hakkında El-Vahidi'nin rivayeti; Esbab Nü
 The verse, in al-Wahidi's heading: «الذين يبخلون ويأمرون الناس بالبخل».
 
 ## Tam rivayet (Arapça kaynak metin)
-<div dir="rtl" lang="ar">
 
 قال أكثر المفسرين: نزلت في اليهود حين كتموا صفة محمد
-
-</div>
 
 ## Place in the museum
 Kaynak: [[work/asbab-nuzul-wahidi|El-Vahidi'nin Esbab Nüzul el-Kur'an'ı]]. Ayet: [[passage/quran-4-37|Kur'an 4-37]].

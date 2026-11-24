@@ -11,11 +11,8 @@ Riwayat al-Wahidi tentang sebab turunnya al-Ahzab 33:50, diriwayatkan dari gener
 The verse, in al-Wahidi's heading: «يا أيها النبي اتق الله ولا تطع الكافرين والمنافقين».
 
 ## Laporan lengkap (teks sumber Arab)
-<div dir="rtl" lang="ar">
 
 نزلت في أبي سفيان وعكرمة بن أبي جهل وأبي الأعور عمرو بن سفيان السلمي
-
-</div>
 
 ## Place in the museum
 Sumber: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an al-Wahidi]]. Ayatnya: [[passage/quran-33-50|Al-Qur'an 33-50]].

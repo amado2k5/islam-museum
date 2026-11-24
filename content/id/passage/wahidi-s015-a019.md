@@ -11,11 +11,8 @@ Riwayat al-Wahidi tentang sebab turunnya al-Hijr 15:19, diriwayatkan dari genera
 The verse, in al-Wahidi's heading: «هذان خصمان اختصموا في ربهم».
 
 ## Laporan lengkap (teks sumber Arab)
-<div dir="rtl" lang="ar">
 
 ذر يقول: أقسم بالله لنزلت: {هذان خصمان اختصموا في ربهم} في هؤلاء الستة:
-
-</div>
 
 ## Place in the museum
 Sumber: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an al-Wahidi]]. Ayatnya: [[passage/quran-15-19|Al-Qur'an 15-19]].

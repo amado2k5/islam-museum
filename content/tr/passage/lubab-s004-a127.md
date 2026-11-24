@@ -11,11 +11,8 @@ an-Nisa 4:127 ayetinin nüzul sebebi hakkında es-Suyuti'nin rivayeti; Lübabü'
 The verse, in al-Suyuti's heading: «ويستفتونك في النساء».
 
 ## Tam rivayet (Arapça kaynak metin)
-<div dir="rtl" lang="ar">
 
 ويستفتونك في النساء الآية روى البخاري عن عائشة في هذه الآية قالت هو الرجل تكون عنده اليتيمة وهو وليها ووارثها قد شركته في مالها حتى في المذق فيرغب أن ينكحها ويكره أن يزوجها رجلا فيشركه في مالها فيعضلها فنزلت وأخرج ابن أبي حاتم عن السدي
-
-</div>
 
 ## Place in the museum
 Kaynak: [[work/lubab-al-nuqul-suyuti|es-Suyuti'nin Lubab al-Nuqul]]. Ayet: [[passage/quran-4-127|Kur'an 4-127]].

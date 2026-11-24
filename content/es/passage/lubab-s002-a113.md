@@ -11,11 +11,8 @@ Informe de al-Suyuti sobre la ocasión de revelación de al-Baqara 2:113, en Lub
 The verse, in al-Suyuti's heading: «وقالت اليهود».
 
 ## Informe completo (texto fuente en árabe)
-<div dir="rtl" lang="ar">
 
 وقالت اليهود الآية أخرج ابن آبى حاتم من طريق سعيد أو عكرمة عن ابن عباس قال لما قدم أهل نجران من النصارى على رسول الله أتتهم أحبار يهود فتنازعوا فقال رافع ابن خزيمة ما أنتم على شئ وكفر بعيسى والإنجيل فقال
-
-</div>
 
 ## Place in the museum
 Fuente: [[work/lubab-al-nuqul-suyuti|de al-Suyuti Lubab al-Nuqul]]. El versículo: [[passage/quran-2-113|Corán 2-113]].

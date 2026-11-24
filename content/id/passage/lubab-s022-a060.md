@@ -11,11 +11,8 @@ Riwayat as-Suyuti tentang sebab turunnya al-Hijr 15, dalam Lubab al-Nuqul fi Asb
 The verse, in al-Suyuti's heading: «ومن عاقب بمثل ما عوقب به».
 
 ## Laporan lengkap (teks sumber Arab)
-<div dir="rtl" lang="ar">
 
 ومن عاقب بمثل ما عوقب به الآية أخرج ابن أبي حاتم عن مقاتل أنها نزلت في سرية بعثها النبي فلقوا المشركين لليلتين بقيتا من المحرم فقال المشركون بعضهم لبعض قاتلوا أصحاب محمد فإنهم يحرمون القتال في الشهر الحرام فناشدهم الصحابة وذكروهم
-
-</div>
 
 ## Place in the museum
 Sumber: [[work/lubab-al-nuqul-suyuti|as-Suyuti Lubab al-Nuqul]]. Ayatnya: [[passage/quran-22-60|Al-Qur'an 22-60]].

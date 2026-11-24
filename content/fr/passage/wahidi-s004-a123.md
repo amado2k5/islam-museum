@@ -11,11 +11,8 @@ Rapport d'al-Wahidi sur la circonstance de révélation de an-Nisa 4:123, transm
 The verse, in al-Wahidi's heading: «ليس بأمانيكم ولا أماني أهل الكتاب».
 
 ## Rapport complet (texte source arabe)
-<div dir="rtl" lang="ar">
 
 كل صنف يقول لصاحبه: نحن خير منكم، فنزلت هذه الآية.
-
-</div>
 
 ## Place in the museum
 Source : [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an d'al-Wahidi]]. Le verset : [[passage/quran-4-123|Coran 4-123]].

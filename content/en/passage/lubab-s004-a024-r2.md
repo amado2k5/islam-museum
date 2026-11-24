@@ -11,11 +11,8 @@ Al-Suyuti's report on the occasion of revelation of an-Nisa 4:24, in Lubab al-Nu
 The verse, in al-Suyuti's heading: «ولا جناح عليكم».
 
 ## Full report (Arabic source text)
-<div dir="rtl" lang="ar">
 
 ولا جناح عليكم أخرج البخاري عن ابن عباس قال نزلت إن كان بكم أذى من مطر أو كنتم مرضى في عبد الرحمن بن عوف كان جريحا
-
-</div>
 
 ## Place in the museum
 Source: [[work/lubab-al-nuqul-suyuti|al-Suyuti's Lubab al-Nuqul]]. The verse: [[passage/quran-4-24|Qur'an 4-24]].

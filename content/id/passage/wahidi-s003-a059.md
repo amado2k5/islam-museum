@@ -11,11 +11,8 @@ Riwayat al-Wahidi tentang sebab turunnya Al 'Imran 3:59, diriwayatkan dari gener
 The verse, in al-Wahidi's heading: «إن مثل عيسى عند الله».
 
 ## Laporan lengkap (teks sumber Arab)
-<div dir="rtl" lang="ar">
 
 فإن كنت صادقا فأرنا مثله، فأنزل الله
-
-</div>
 
 ## Place in the museum
 Sumber: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an al-Wahidi]]. Ayatnya: [[passage/quran-3-59|Al-Qur'an 3-59]].

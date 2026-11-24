@@ -11,11 +11,8 @@ Bara'a (at-Tawba) 9:102 کے سببِ نزول پر الواحدی کی روای
 The verse, in al-Wahidi's heading: «وآخرون اعترفوا بذنوبهم».
 
 ## مکمل روایت ⁦(عربی ماخذ متن)⁩
-<div dir="rtl" lang="ar">
 
 قال ابن عباس في رواية الوالبي: نزلت في قوم كانوا قد تخلفوا عن رسول
-
-</div>
 
 ## Place in the museum
 ماخذ: [[work/asbab-nuzul-wahidi|الواحدی کی اسباب نزول القرآن]]۔ آیت: [[passage/quran-9-102|قرآن 9-102]]۔

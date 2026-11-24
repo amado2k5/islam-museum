@@ -11,11 +11,8 @@ Al-Wahidi's report on the occasion of revelation of an-Najm 53:33, narrated from
 The verse, in al-Wahidi's heading: «أفرأيت الذي تولى وأعطى قليلا وأكدى».
 
 ## Full report (Arabic source text)
-<div dir="rtl" lang="ar">
 
 قال ابن عباس والسدي والكلبي والمسيب بن شريك: نزلت في عثمان بن عفان كان
-
-</div>
 
 ## Place in the museum
 Source: [[work/asbab-al-nuzul-wahidi|al-Wahidi's Asbab nuzul al-Qur'an]]. The verse: [[passage/quran-53-33|Qur'an 53-33]].

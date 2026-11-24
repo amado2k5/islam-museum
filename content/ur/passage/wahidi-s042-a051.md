@@ -11,11 +11,8 @@ ash-Shura 42:51 کے سببِ نزول پر الواحدی کی روایت — �
 The verse, in al-Wahidi's heading: «وما كان لبشر أن يكلمه الله إلا وحيا».
 
 ## مکمل روایت ⁦(عربی ماخذ متن)⁩
-<div dir="rtl" lang="ar">
 
 فقال: "لم ينظر موسى إلى الله"، وأنزلت هذه الآية.
-
-</div>
 
 ## Place in the museum
 ماخذ: [[work/asbab-nuzul-wahidi|الواحدی کی اسباب نزول القرآن]]۔ آیت: [[passage/quran-42-51|قرآن 42-51]]۔

@@ -11,11 +11,8 @@ al-Ma'arij 70:1 ayetinin nüzül sebebi hakkında El-Vahidi'nin rivayeti; Esbab 
 The verse, in al-Wahidi's heading: «سأل سائل بعذاب واقع».
 
 ## Tam rivayet (Arapça kaynak metin)
-<div dir="rtl" lang="ar">
 
 نزلت في النضر بن الحارث حين قال: {اللهم إن كان هذا هو الحق من عندك}
-
-</div>
 
 ## Place in the museum
 Kaynak: [[work/asbab-nuzul-wahidi|El-Vahidi'nin Esbab Nüzul el-Kur'an'ı]]. Ayet: [[passage/quran-70-1|Kur'an 70-1]].

@@ -11,11 +11,8 @@ Riwayat al-Wahidi tentang sebab turunnya Bani Isra'il 17:53, diriwayatkan dari g
 The verse, in al-Wahidi's heading: «53».
 
 ## Laporan lengkap (teks sumber Arab)
-<div dir="rtl" lang="ar">
 
 نزلت في عمر بن الخطاب- وذلك أن رجلا من العرب شتمه،
-
-</div>
 
 ## Place in the museum
 Sumber: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an al-Wahidi]]. Ayatnya: [[passage/quran-17-53|Al-Qur'an 17-53]].

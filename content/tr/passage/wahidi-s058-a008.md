@@ -11,11 +11,8 @@ al-Mujadila 58:8 ayetinin nüzül sebebi hakkında El-Vahidi'nin rivayeti; Esbab
 The verse, in al-Wahidi's heading: «ألم تر إلى الذين نهوا عن النجوى».
 
 ## Tam rivayet (Arapça kaynak metin)
-<div dir="rtl" lang="ar">
 
 قال ابن عباس ومجاهد: نزلت في اليهود والمنافقين؛ وذلك أنهم كانوا
-
-</div>
 
 ## Place in the museum
 Kaynak: [[work/asbab-nuzul-wahidi|El-Vahidi'nin Esbab Nüzul el-Kur'an'ı]]. Ayet: [[passage/quran-58-8|Kur'an 58-8]].

@@ -11,11 +11,8 @@ Al-Suyuti's report on the occasion of revelation of Al 'Imran 3:172, in Lubab al
 The verse, in al-Suyuti's heading: «الذين استجابوا».
 
 ## Full report (Arabic source text)
-<div dir="rtl" lang="ar">
 
 الذين استجابوا الآية أخرج ابن جرير من طريق العوفي عن ابن عباس قال أن الله قذف الرعب في قلب أبي سفيان يوم أحد بعد الذي كان منه فرجع إلى مكة فقال النبي إن أبا سفيان قد أصاب منكم طرفا وقد رجع
-
-</div>
 
 ## Place in the museum
 Source: [[work/lubab-al-nuqul-suyuti|al-Suyuti's Lubab al-Nuqul]]. The verse: [[passage/quran-3-172|Qur'an 3-172]].

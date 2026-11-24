@@ -11,11 +11,8 @@ al-Qasas 28:56 ayetinin nüzül sebebi hakkında El-Vahidi'nin rivayeti; Esbab N
 The verse, in al-Wahidi's heading: «إنك لا تهدي من أحببت».
 
 ## Tam rivayet (Arapça kaynak metin)
-<div dir="rtl" lang="ar">
 
 عليه وسلم - "والله لأستغفرن لك ما لم أنه عنك"، فأنزل الله- {ما
-
-</div>
 
 ## Place in the museum
 Kaynak: [[work/asbab-nuzul-wahidi|El-Vahidi'nin Esbab Nüzul el-Kur'an'ı]]. Ayet: [[passage/quran-28-56|Kur'an 28-56]].

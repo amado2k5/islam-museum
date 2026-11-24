@@ -11,11 +11,8 @@ az-Zumar 39 ayetinin nüzül sebebi hakkında El-Vahidi'nin rivayeti; Esbab Nüz
 The verse, in al-Wahidi's heading: «أم من هو قانت آناء الليل».
 
 ## Tam rivayet (Arapça kaynak metin)
-<div dir="rtl" lang="ar">
 
 قال ابن عباس في رواية عطاء: نزلت في أبي بكر الصديق-.
-
-</div>
 
 ## Place in the museum
 Kaynak: [[work/asbab-nuzul-wahidi|El-Vahidi'nin Esbab Nüzul el-Kur'an'ı]]. Ayet: [[passage/quran-39-9|Kur'an 39-9]].

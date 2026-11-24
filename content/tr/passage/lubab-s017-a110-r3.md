@@ -11,11 +11,8 @@ al-Isra 17:110 ayetinin nüzul sebebi hakkında es-Suyuti'nin rivayeti; Lübabü
 The verse, in al-Suyuti's heading: «ولا تجهر».
 
 ## Tam rivayet (Arapça kaynak metin)
-<div dir="rtl" lang="ar">
 
 ولا تجهر الآية أخرج البخاري وغيره عن ابن عباس في قوله ولا تجهر بصلاتك ولا تخافت بها قال نزلت ورسول الله مختف بمكة وكان إذا صلى بأصحابه رفع صوته بالقرآن فكان المشركون إذا سمعوا القرآن سبوه ومن أنزله ومن جاء به
-
-</div>
 
 ## Place in the museum
 Kaynak: [[work/lubab-al-nuqul-suyuti|es-Suyuti'nin Lubab al-Nuqul]]. Ayet: [[passage/quran-17-110|Kur'an 17-110]].

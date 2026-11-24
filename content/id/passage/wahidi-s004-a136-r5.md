@@ -11,11 +11,8 @@ Riwayat al-Wahidi tentang sebab turunnya an-Nisa 4:136, diriwayatkan dari genera
 The verse, in al-Wahidi's heading: «يا أيها الذين آمنوا إذا ضربتم في سبيل الله فتبينوا».
 
 ## Laporan lengkap (teks sumber Arab)
-<div dir="rtl" lang="ar">
 
 فنزلت هذه الآية: {ولا تقولوا لمن ألقى إليكم السلام لست مؤمنا تبتغون عرض
-
-</div>
 
 ## Place in the museum
 Sumber: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an al-Wahidi]]. Ayatnya: [[passage/quran-4-136|Al-Qur'an 4-136]].

@@ -11,11 +11,8 @@ Al-Wahidi's report on the occasion of revelation of ad-Duha 93:4, narrated from 
 The verse, in al-Wahidi's heading: «وللآخرة خير لك من الأولى».
 
 ## Full report (Arabic source text)
-<div dir="rtl" lang="ar">
 
 وسلم - ما يفتح على أمته من بعده، فسر بذلك، فأنزل الله-
-
-</div>
 
 ## Place in the museum
 Source: [[work/asbab-al-nuzul-wahidi|al-Wahidi's Asbab nuzul al-Qur'an]]. The verse: [[passage/quran-93-4|Qur'an 93-4]].

@@ -11,11 +11,8 @@ Al-Suyuti's report on the occasion of revelation of al-Baqara 2:118, in Lubab al
 The verse, in al-Suyuti's heading: «وقال الذين لا يعلمون».
 
 ## Full report (Arabic source text)
-<div dir="rtl" lang="ar">
 
 وقال الذين لا يعلمون الآية أخرج ابن جرير وابن آبى حاتم من طريق سعيد أو عكرمة عن ابن عباس قال قال رافع بن خزيمة لرسول لله إن كنت رسولا من الله كما تقول فقل لله فيكلمنا حتى نسمع كلامه فأنزل الله في ذلك وقال الذين
-
-</div>
 
 ## Place in the museum
 Source: [[work/lubab-al-nuqul-suyuti|al-Suyuti's Lubab al-Nuqul]]. The verse: [[passage/quran-2-118|Qur'an 2-118]].

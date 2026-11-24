@@ -11,11 +11,8 @@ an-Nisa 4:13 ayetinin nüzul sebebi hakkında es-Suyuti'nin rivayeti; Lübabü'n
 The verse, in al-Suyuti's heading: «ومن يطع الله».
 
 ## Tam rivayet (Arapça kaynak metin)
-<div dir="rtl" lang="ar">
 
 ومن يطع الله أخرج الطبراني وابن مردويه بسند لا بأس به عن عائشة قالت جاء رجل إلى النبي فقال يا رسول الله إنك لأحب إلى من نفسي وأنك لأحب إلى من ولدي وإني لأكون في البيت فأذكرك فما أصبر حتى آتي
-
-</div>
 
 ## Place in the museum
 Kaynak: [[work/lubab-al-nuqul-suyuti|es-Suyuti'nin Lubab al-Nuqul]]. Ayet: [[passage/quran-4-13|Kur'an 4-13]].

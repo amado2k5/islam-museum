@@ -11,11 +11,8 @@ Informe de al-Suyuti sobre la ocasión de revelación de al-Baqara 2:278, en Lub
 The verse, in al-Suyuti's heading: «يا أيها الذين آمنوا اتقوا الله وذروا».
 
 ## Informe completo (texto fuente en árabe)
-<div dir="rtl" lang="ar">
 
 يا أيها الذين آمنوا اتقوا الله وذروا الآية أخرج أبو يعلي في مسنده وابن منده من طريق الكلبي عن أبي صالح عن ابن عباس قال بلغنا أن هذه الآية نزلت في بني عمرو بن عوف من ثقيف وفي بني المغيرة وكانت بنو المغيرة يربون لثقيف
-
-</div>
 
 ## Place in the museum
 Fuente: [[work/lubab-al-nuqul-suyuti|de al-Suyuti Lubab al-Nuqul]]. El versículo: [[passage/quran-2-278|Corán 2-278]].

@@ -11,11 +11,8 @@ Al-Wahidi's report on the occasion of revelation of al-Qalam 68:4, narrated from
 The verse, in al-Wahidi's heading: «4».
 
 ## Full report (Arabic source text)
-<div dir="rtl" lang="ar">
 
 من أهل بيته إلا قال: "لبيك" ولذلك أنزل الله- {وإنك لعلى خلق
-
-</div>
 
 ## Place in the museum
 Source: [[work/asbab-al-nuzul-wahidi|al-Wahidi's Asbab nuzul al-Qur'an]]. The verse: [[passage/quran-68-4|Qur'an 68-4]].

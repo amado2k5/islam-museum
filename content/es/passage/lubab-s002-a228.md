@@ -11,11 +11,8 @@ Informe de al-Suyuti sobre la ocasión de revelación de al-Baqara 2:228, en Lub
 The verse, in al-Suyuti's heading: «والمطلقات يتربصن».
 
 ## Informe completo (texto fuente en árabe)
-<div dir="rtl" lang="ar">
 
 والمطلقات يتربصن الآية أخرج أبو داود وابن أبي حاتم عن أسماء بنت يزيد بن السكن الأنصارية قالت طلقت على عهد رسول الله ولم يكن للمطلقة عدة فأنزل الله العدة للطلاق والمطلقات يتربصن بأنفسهن ثلاثة قروء وذكر الثعلبي وهبة الله بن سلامة
-
-</div>
 
 ## Place in the museum
 Fuente: [[work/lubab-al-nuqul-suyuti|de al-Suyuti Lubab al-Nuqul]]. El versículo: [[passage/quran-2-228|Corán 2-228]].

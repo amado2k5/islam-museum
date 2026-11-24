@@ -11,11 +11,8 @@ Riwayat al-Wahidi tentang sebab turunnya Maryam 19, diriwayatkan dari generasi T
 The verse, in al-Wahidi's heading: «ويقول الإنسان أئذا ما مت لسوف أخرج حيا».
 
 ## Laporan lengkap (teks sumber Arab)
-<div dir="rtl" lang="ar">
 
 قال الكلبي: نزلت في أبي بن خلف حين أخذ عظاما بالية يفتها بيده ويقول:
-
-</div>
 
 ## Place in the museum
 Sumber: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an al-Wahidi]]. Ayatnya: [[passage/quran-19-66|Al-Qur'an 19-66]].

@@ -11,11 +11,8 @@ Rapport d'al-Wahidi sur la circonstance de révélation de al-Ma'ida 5:77, trans
 The verse, in al-Wahidi's heading: «قل يا أهل الكتاب هل تنقمون منا إلا أن آمنا بالله».
 
 ## Rapport complet (texte source arabe)
-<div dir="rtl" lang="ar">
 
 فسألوه عمن يؤمن به من الرسل، فقال: أومن {بالله وما أنزل إلينا وما أنزل
-
-</div>
 
 ## Place in the museum
 Source : [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an d'al-Wahidi]]. Le verset : [[passage/quran-5-77|Coran 5-77]].

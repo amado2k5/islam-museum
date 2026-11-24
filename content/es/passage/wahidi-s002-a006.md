@@ -11,11 +11,8 @@ Informe de al-Wahidi sobre la ocasión de revelación de al-Baqara 2:6, transmit
 The verse, in al-Wahidi's heading: «إن الذين كفروا».
 
 ## Informe completo (texto fuente en árabe)
-<div dir="rtl" lang="ar">
 
 قال الضحاك: نزلت في أبي جهل وخمسة من أهل بيته، وقال الكلبي: يعني
-
-</div>
 
 ## Place in the museum
 Fuente: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an de al-Wahidi]]. El versículo: [[passage/quran-2-6|Corán 2-6]].

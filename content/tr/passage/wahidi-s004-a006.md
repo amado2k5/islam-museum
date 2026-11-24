@@ -11,11 +11,8 @@ an-Nisa 4:6 ayetinin nüzül sebebi hakkında El-Vahidi'nin rivayeti; Esbab Nüz
 The verse, in al-Wahidi's heading: «وابتلوا اليتامى».
 
 ## Tam rivayet (Arapça kaynak metin)
-<div dir="rtl" lang="ar">
 
 نزلت في ثابت بن رفاعة وفي عمه، وذلك أن رفاعة توفي وترك ابنه ثابتا وهو
-
-</div>
 
 ## Place in the museum
 Kaynak: [[work/asbab-nuzul-wahidi|El-Vahidi'nin Esbab Nüzul el-Kur'an'ı]]. Ayet: [[passage/quran-4-6|Kur'an 4-6]].

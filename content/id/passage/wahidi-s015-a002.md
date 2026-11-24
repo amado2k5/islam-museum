@@ -11,11 +11,8 @@ Riwayat al-Wahidi tentang sebab turunnya al-Hijr 15:2, diriwayatkan dari generas
 The verse, in al-Wahidi's heading: «يا أيها الذين آمنوا لا ترفعوا أصواتكم فوق صوت النبي».
 
 ## Laporan lengkap (teks sumber Arab)
-<div dir="rtl" lang="ar">
 
 نزلت في ثابت بن قيس بن شماس كان في أذنه وقر، وكان جهوري الصوت، وكان
-
-</div>
 
 ## Place in the museum
 Sumber: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an al-Wahidi]]. Ayatnya: [[passage/quran-15-2|Al-Qur'an 15-2]].

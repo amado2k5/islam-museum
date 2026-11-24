@@ -11,11 +11,8 @@ Informe de al-Suyuti sobre la ocasión de revelación de Al 'Imran 3, en Lubab a
 The verse, in al-Suyuti's heading: «وإذا غدوت».
 
 ## Informe completo (texto fuente en árabe)
-<div dir="rtl" lang="ar">
 
 وإذا غدوت أخرج ابن أبي حاتم وأبو يعلي عن المسور ابن مخرمة قال قلت لعبد الرحمن بن عوف أخبرني عن قصتكم يوم أحد فقال اقرأ بعد العشرين ومائة من آل عمران تجد قصتنا وإذا غدوت من أهلك تبوئ المؤمنين مقاعد للقتال إلى قوله إذ همت
-
-</div>
 
 ## Place in the museum
 Fuente: [[work/lubab-al-nuqul-suyuti|de al-Suyuti Lubab al-Nuqul]]. El versículo: [[passage/quran-3-121|Corán 3-121]].

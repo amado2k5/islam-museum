@@ -11,11 +11,8 @@ Al-Wahidi's report on the occasion of revelation of al-Ahzab 33:50, narrated fro
 The verse, in al-Wahidi's heading: «يا أيها النبي اتق الله ولا تطع الكافرين والمنافقين».
 
 ## Full report (Arabic source text)
-<div dir="rtl" lang="ar">
 
 نزلت في أبي سفيان وعكرمة بن أبي جهل وأبي الأعور عمرو بن سفيان السلمي
-
-</div>
 
 ## Place in the museum
 Source: [[work/asbab-al-nuzul-wahidi|al-Wahidi's Asbab nuzul al-Qur'an]]. The verse: [[passage/quran-33-50|Qur'an 33-50]].

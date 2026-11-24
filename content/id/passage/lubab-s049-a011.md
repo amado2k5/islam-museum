@@ -11,11 +11,8 @@ Riwayat as-Suyuti tentang sebab turunnya al-Hijr 15, dalam Lubab al-Nuqul fi Asb
 The verse, in al-Suyuti's heading: «ولا تنابزوا بالألقاب».
 
 ## Laporan lengkap (teks sumber Arab)
-<div dir="rtl" lang="ar">
 
 ولا تنابزوا بالألقاب الآية أخرج أصحاب السنن الأربعة عن أبي جبير بن الضحاك قال كان الرجل منا يكون له الأسمان والثلاثة فيدعي ببعضها فعسى أن يكرهه فنزلت ولا تنابزوا بالألقاب قال الترمذي حسن وأخرج الحاكم وغيره من حديثه أيضا قال كانت الأبقاب ثنا في الجاهلية
-
-</div>
 
 ## Place in the museum
 Sumber: [[work/lubab-al-nuqul-suyuti|as-Suyuti Lubab al-Nuqul]]. Ayatnya: [[passage/quran-49-11|Al-Qur'an 49-11]].

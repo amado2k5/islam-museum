@@ -11,11 +11,8 @@ Al 'Imran 3:111 ayetinin nüzül sebebi hakkında El-Vahidi'nin rivayeti; Esbab 
 The verse, in al-Wahidi's heading: «لن يضروكم إلا أذى».
 
 ## Tam rivayet (Arapça kaynak metin)
-<div dir="rtl" lang="ar">
 
 صوريا عمدوا إلى مؤمنهم عبد الله بن سلام وأصحابه فآذوهم لإسلامهم، فأنزل
-
-</div>
 
 ## Place in the museum
 Kaynak: [[work/asbab-nuzul-wahidi|El-Vahidi'nin Esbab Nüzul el-Kur'an'ı]]. Ayet: [[passage/quran-3-111|Kur'an 3-111]].

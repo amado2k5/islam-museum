@@ -11,11 +11,8 @@ Informe de al-Wahidi sobre la ocasión de revelación de Bara'a (at-Tawba) 9:58,
 The verse, in al-Wahidi's heading: «ومنهم من يلمزك في الصدقات».
 
 ## Informe completo (texto fuente en árabe)
-<div dir="rtl" lang="ar">
 
 وقال الكلبي: نزلت في المؤلفة قلوبهم وهم المنافقون، قال رجل منهم يقال
-
-</div>
 
 ## Place in the museum
 Fuente: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an de al-Wahidi]]. El versículo: [[passage/quran-9-58|Corán 9-58]].

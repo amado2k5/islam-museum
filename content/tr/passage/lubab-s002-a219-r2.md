@@ -11,11 +11,8 @@ al-Baqara 2:219 ayetinin nüzul sebebi hakkında es-Suyuti'nin rivayeti; Lübab�
 The verse, in al-Suyuti's heading: «يسألونك عن الخمر يأتي حديثها في سورة المائدة».
 
 ## Tam rivayet (Arapça kaynak metin)
-<div dir="rtl" lang="ar">
 
 يسألونك عن الخمر يأتي حديثها في سورة المائدة
-
-</div>
 
 ## Place in the museum
 Kaynak: [[work/lubab-al-nuqul-suyuti|es-Suyuti'nin Lubab al-Nuqul]]. Ayet: [[passage/quran-2-219|Kur'an 2-219]].

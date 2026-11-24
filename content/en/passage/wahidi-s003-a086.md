@@ -11,11 +11,8 @@ Al-Wahidi's report on the occasion of revelation of Al 'Imran 3:86, narrated fro
 The verse, in al-Wahidi's heading: «كيف يهدي الله قوما كفروا بعد إيمانهم».
 
 ## Full report (Arabic source text)
-<div dir="rtl" lang="ar">
 
 عكرمة، عن ابن عباس: أن رجلا من الأنصار ارتد فلحق بالمشركين، فأنزل الله
-
-</div>
 
 ## Place in the museum
 Source: [[work/asbab-al-nuzul-wahidi|al-Wahidi's Asbab nuzul al-Qur'an]]. The verse: [[passage/quran-3-86|Qur'an 3-86]].

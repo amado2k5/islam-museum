@@ -11,11 +11,8 @@ Informe de al-Suyuti sobre la ocasión de revelación de Ghafir 40, en Lubab al-
 The verse, in al-Suyuti's heading: «لخلق السموات والأرض أكبر من خلق الناس قال:».
 
 ## Informe completo (texto fuente en árabe)
-<div dir="rtl" lang="ar">
 
 لخلق السموات والأرض أكبر من خلق الناس قال: من خلق الدجال وأخرج عن كعب الأحبار في قوله الذين يجادلون في آيات الله بغير سلطان قال هم اليهود نزلت فيما ينتظرونه من أمر الدجال وأخرج جويبر عن ابن عباس أن الوليد بن المغيرة وشيبة بن ربيعة
-
-</div>
 
 ## Place in the museum
 Fuente: [[work/lubab-al-nuqul-suyuti|de al-Suyuti Lubab al-Nuqul]]. El versículo: [[passage/quran-40-57|Corán 40-57]].

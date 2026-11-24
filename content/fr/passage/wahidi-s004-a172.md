@@ -11,11 +11,8 @@ Rapport d'al-Wahidi sur la circonstance de révélation de an-Nisa 4:172, transm
 The verse, in al-Wahidi's heading: «لن يستنكف المسيح».
 
 ## Rapport complet (texte source arabe)
-<div dir="rtl" lang="ar">
 
 فقال لهم: "إنه ليس بعار لعيسى أن يكون عبد الله"، قالوا: بلى، فنزلت: {لن
-
-</div>
 
 ## Place in the museum
 Source : [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an d'al-Wahidi]]. Le verset : [[passage/quran-4-172|Coran 4-172]].

@@ -11,11 +11,8 @@ Ta Ha 20:1 ayetinin nüzül sebebi hakkında El-Vahidi'nin rivayeti; Esbab Nüzu
 The verse, in al-Wahidi's heading: «1، 2».
 
 ## Tam rivayet (Arapça kaynak metin)
-<div dir="rtl" lang="ar">
 
 وذلك لما رأياه من طول عبادته وشدة اجتهاده، فأنزل
-
-</div>
 
 ## Place in the museum
 Kaynak: [[work/asbab-nuzul-wahidi|El-Vahidi'nin Esbab Nüzul el-Kur'an'ı]]. Ayet: [[passage/quran-20-1|Kur'an 20-1]].

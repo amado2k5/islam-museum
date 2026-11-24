@@ -11,11 +11,8 @@ Informe de al-Suyuti sobre la ocasión de revelación de al-Baqara 2:231, en Lub
 The verse, in al-Suyuti's heading: «ولا تتخذوا آيات الله هزوا».
 
 ## Informe completo (texto fuente en árabe)
-<div dir="rtl" lang="ar">
 
 ولا تتخذوا آيات الله هزوا أخرج ابن أبي عمر في مسنده وابن مردويه عن أبي الدرداء قال كان الرجل يطلق ثم يقول لعبت ويعتق ثم يقول لعبت فأنزل الله ولا تتخذوا آيات الله هزوا وأخرج ابن المنذر عن عبادة بن الصامت نحوه وأخرج ابن مردويه
-
-</div>
 
 ## Place in the museum
 Fuente: [[work/lubab-al-nuqul-suyuti|de al-Suyuti Lubab al-Nuqul]]. El versículo: [[passage/quran-2-231|Corán 2-231]].

@@ -11,11 +11,8 @@ Riwayat al-Wahidi tentang sebab turunnya Fussilat 41:30, diriwayatkan dari gener
 The verse, in al-Wahidi's heading: «إن الذين قالوا ربنا الله ثم استقاموا».
 
 ## Laporan lengkap (teks sumber Arab)
-<div dir="rtl" lang="ar">
 
 قال عطاء عن ابن عباس: نزلت هذه الآية في أبي بكر الصديق- وذلك أن المشركين قالوا: ربنا الله والملائكة بناته وهؤلاء شفعاؤنا عند
-
-</div>
 
 ## Place in the museum
 Sumber: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an al-Wahidi]]. Ayatnya: [[passage/quran-41-30|Al-Qur'an 41-30]].

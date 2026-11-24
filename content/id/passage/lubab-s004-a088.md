@@ -11,11 +11,8 @@ Riwayat as-Suyuti tentang sebab turunnya an-Nisa 4:88, dalam Lubab al-Nuqul fi A
 The verse, in al-Suyuti's heading: «فما لكم في المنافقين».
 
 ## Laporan lengkap (teks sumber Arab)
-<div dir="rtl" lang="ar">
 
 فما لكم في المنافقين الآية روى الشيخان وغيرهما عن زيد بن ثابت أن رسول الله عليه الصلاة والسلام خرج إلى أحد فرجع ناس خرجوا معه فكان أصحاب رسول الله فيهم فرقتين فرقة تقول نقتلهم وفرقة تقول لا فأنزل الله فما لكم
-
-</div>
 
 ## Place in the museum
 Sumber: [[work/lubab-al-nuqul-suyuti|as-Suyuti Lubab al-Nuqul]]. Ayatnya: [[passage/quran-4-88|Al-Qur'an 4-88]].

@@ -11,11 +11,8 @@ az-Zumar 39:3 ayetinin nüzul sebebi hakkında es-Suyuti'nin rivayeti; Lübabü'
 The verse, in al-Suyuti's heading: «والذين اتخذوا».
 
 ## Tam rivayet (Arapça kaynak metin)
-<div dir="rtl" lang="ar">
 
 والذين اتخذوا الآية أخرج جويبر عن ابن عباس في هذه الآية قال أنزلت في ثلاثة أحياء عامر وكنانة وبني سلمة كانوا يعبدون الأوثان ويقولون الملائكة بناته فقالوا ما نعبدهم إلا ليقربونا إلى الله زلفى
-
-</div>
 
 ## Place in the museum
 Kaynak: [[work/lubab-al-nuqul-suyuti|es-Suyuti'nin Lubab al-Nuqul]]. Ayet: [[passage/quran-39-3|Kur'an 39-3]].

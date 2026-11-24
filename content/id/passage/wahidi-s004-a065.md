@@ -11,11 +11,8 @@ Riwayat al-Wahidi tentang sebab turunnya an-Nisa 4:65, diriwayatkan dari generas
 The verse, in al-Wahidi's heading: «فلا وربك لا يؤمنون حتى يحكموك فيما شجر بينهم».
 
 ## Laporan lengkap (teks sumber Arab)
-<div dir="rtl" lang="ar">
 
 نزلت في الزبير بن العوام وخصمه حاطب بن أبي بلتعة، وقيل: هو ثعلبة بن
-
-</div>
 
 ## Place in the museum
 Sumber: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an al-Wahidi]]. Ayatnya: [[passage/quran-4-65|Al-Qur'an 4-65]].

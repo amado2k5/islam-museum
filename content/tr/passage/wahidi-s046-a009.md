@@ -11,11 +11,8 @@ al-Ahqaf 46:9 ayetinin nüzül sebebi hakkında El-Vahidi'nin rivayeti; Esbab N�
 The verse, in al-Wahidi's heading: «وما أدري ما يفعل بي ولا بكم».
 
 ## Tam rivayet (Arapça kaynak metin)
-<div dir="rtl" lang="ar">
 
 فسكت رسول الله- فأنزل الله
-
-</div>
 
 ## Place in the museum
 Kaynak: [[work/asbab-nuzul-wahidi|El-Vahidi'nin Esbab Nüzul el-Kur'an'ı]]. Ayet: [[passage/quran-46-9|Kur'an 46-9]].

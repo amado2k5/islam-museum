@@ -11,11 +11,8 @@ Al 'Imran 3:161 کے سببِ نزول پر الواحدی کی روایت — �
 The verse, in al-Wahidi's heading: «وما كان لنبي أن يغل».
 
 ## مکمل روایت ⁦(عربی ماخذ متن)⁩
-<div dir="rtl" lang="ar">
 
 الله عليه وسلم - أخذها، فأنزل الله: {وما كان لنبي أن يغل} قال
-
-</div>
 
 ## Place in the museum
 ماخذ: [[work/asbab-nuzul-wahidi|الواحدی کی اسباب نزول القرآن]]۔ آیت: [[passage/quran-3-161|قرآن 3-161]]۔

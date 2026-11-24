@@ -11,11 +11,8 @@ Riwayat as-Suyuti tentang sebab turunnya al-Anfal 8:17, dalam Lubab al-Nuqul fi 
 The verse, in al-Suyuti's heading: «وما رميت وروى الحاكم عن سعيد بن المسيب».
 
 ## Laporan lengkap (teks sumber Arab)
-<div dir="rtl" lang="ar">
 
 وما رميت وروى الحاكم عن سعيد بن المسيب عن أبيه قال أقبل أبي بن خلف يوم أحد إلى النبي فخلوا سبيله فاستقبله مصعب بن عمير ورأى رسول الله ترقوه أبي من فرجة بين سابغة الدرع والبيضة فطعنه
-
-</div>
 
 ## Place in the museum
 Sumber: [[work/lubab-al-nuqul-suyuti|as-Suyuti Lubab al-Nuqul]]. Ayatnya: [[passage/quran-8-17|Al-Qur'an 8-17]].

@@ -11,11 +11,8 @@ Bara'a (at-Tawba) 9:49 کے سببِ نزول پر الواحدی کی روای�
 The verse, in al-Wahidi's heading: «ومنهم من يقول ائذن لي».
 
 ## مکمل روایت ⁦(عربی ماخذ متن)⁩
-<div dir="rtl" lang="ar">
 
 نزلت في جد بن قيس المنافق، وذلك أن رسول الله-
-
-</div>
 
 ## Place in the museum
 ماخذ: [[work/asbab-nuzul-wahidi|الواحدی کی اسباب نزول القرآن]]۔ آیت: [[passage/quran-9-49|قرآن 9-49]]۔

@@ -11,11 +11,8 @@ Riwayat al-Wahidi tentang sebab turunnya an-Nisa 4:136, diriwayatkan dari genera
 The verse, in al-Wahidi's heading: «يا أيها الذين آمنوا لا تقربوا الصلاة وأنتم سكارى».
 
 ## Laporan lengkap (teks sumber Arab)
-<div dir="rtl" lang="ar">
 
 نزلت في أناس من أصحاب رسول الله- كانوا يشربون
-
-</div>
 
 ## Place in the museum
 Sumber: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an al-Wahidi]]. Ayatnya: [[passage/quran-4-136|Al-Qur'an 4-136]].

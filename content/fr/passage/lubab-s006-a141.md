@@ -11,11 +11,8 @@ Rapport d'al-Suyuti sur la circonstance de révélation de al-An'am 6:141, dans 
 The verse, in al-Suyuti's heading: «وآتوا حقه يوم حصاده ولا تسرفوا».
 
 ## Rapport complet (texte source arabe)
-<div dir="rtl" lang="ar">
 
 وآتوا حقه يوم حصاده ولا تسرفوا الآية أخرج ابن جرير عن أبي العالية قال كانوا يعطون شيئا سوى الزكاة ثم تسارفوا ونزلت هذه الآية وأخرج عن ابن جريج أنها نزلت في ثابت بن قيس بن شماس جد نخلة فأطعم حتى أمسى وليست له ثمرة
-
-</div>
 
 ## Place in the museum
 Source : [[work/lubab-al-nuqul-suyuti|d'al-Suyuti Lubab al-Nuqul]]. Le verset: [[passage/quran-6-141|Coran 6-141]].

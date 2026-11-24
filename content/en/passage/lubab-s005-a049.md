@@ -11,11 +11,8 @@ Al-Suyuti's report on the occasion of revelation of al-Ma'ida 5:49, in Lubab al-
 The verse, in al-Suyuti's heading: «وأن احكم بينهم بما أنزل الله روى ابن».
 
 ## Full report (Arabic source text)
-<div dir="rtl" lang="ar">
 
 وأن احكم بينهم بما أنزل الله روى ابن إسحق عن ابن عباس قال قال كعب بن أسيد وعبد الله بن صوريا وشاس بن قيس اذهبوا بنا إلى محمد لعلنا نفتنه عن دينه فجاؤا فقالوا يا محمد إنك قد عرفت أنا أحبار يهود وأشرافهم وساداتهم وأنا
-
-</div>
 
 ## Place in the museum
 Source: [[work/lubab-al-nuqul-suyuti|al-Suyuti's Lubab al-Nuqul]]. The verse: [[passage/quran-5-49|Qur'an 5-49]].

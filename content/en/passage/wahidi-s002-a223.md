@@ -11,11 +11,8 @@ Al-Wahidi's report on the occasion of revelation of al-Baqara 2:223, narrated fr
 The verse, in al-Wahidi's heading: «نساؤكم حرث لكم».
 
 ## Full report (Arabic source text)
-<div dir="rtl" lang="ar">
 
 قبلها: إن الولد يكون أحول، فنزل {نساؤكم حرث لكم فأتوا حرثكم أنى شئتم}
-
-</div>
 
 ## Place in the museum
 Source: [[work/asbab-al-nuzul-wahidi|al-Wahidi's Asbab nuzul al-Qur'an]]. The verse: [[passage/quran-2-223|Qur'an 2-223]].

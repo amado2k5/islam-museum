@@ -11,11 +11,8 @@ Informe de al-Wahidi sobre la ocasión de revelación de ar-Ra'd 13:38, transmit
 The verse, in al-Wahidi's heading: «ولقد أرسلنا رسلا من قبلك وجعلنا لهم أزواجا».
 
 ## Informe completo (texto fuente en árabe)
-<div dir="rtl" lang="ar">
 
 عن النساء، فأنزل اللههذه الآية.
-
-</div>
 
 ## Place in the museum
 Fuente: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an de al-Wahidi]]. El versículo: [[passage/quran-13-38|Corán 13-38]].

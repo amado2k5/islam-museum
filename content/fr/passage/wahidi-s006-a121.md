@@ -11,11 +11,8 @@ Rapport d'al-Wahidi sur la circonstance de révélation de al-An'am 6:121, trans
 The verse, in al-Wahidi's heading: «ولا تأكلوا مما لم يذكر اسم ms151 الله عليه».
 
 ## Rapport complet (texte source arabe)
-<div dir="rtl" lang="ar">
 
 قتله الله حرام، فأنزل اللههذه الآية.
-
-</div>
 
 ## Place in the museum
 Source : [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an d'al-Wahidi]]. Le verset : [[passage/quran-6-121|Coran 6-121]].

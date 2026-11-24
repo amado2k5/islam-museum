@@ -11,11 +11,8 @@ Al-Suyuti's report on the occasion of revelation of al-Baqara 2:189, in Lubab al
 The verse, in al-Suyuti's heading: «يسألونك عن الأهلة (ك)».
 
 ## Full report (Arabic source text)
-<div dir="rtl" lang="ar">
 
 يسألونك عن الأهلة ⁦(ك)⁩ أخرج ابن أبى حاتم من طريق العوفي عن ابن عباس قال سأل الناس رسول الله عن الأهلة فنزلت هذه الآية وأخرج ابن أبي حاتم عن أبي العالية قال بلغنا أنهم قالوا يا رسول الله لم خلقت الأهلة
-
-</div>
 
 ## Place in the museum
 Source: [[work/lubab-al-nuqul-suyuti|al-Suyuti's Lubab al-Nuqul]]. The verse: [[passage/quran-2-189|Qur'an 2-189]].

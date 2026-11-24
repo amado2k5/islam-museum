@@ -11,11 +11,8 @@ Informe de al-Wahidi sobre la ocasión de revelación de at-Taghabun 64:14, tran
 The verse, in al-Wahidi's heading: «يا أيها الذين آمنوا إن من أزواجكم وأولادكم عدوا لكم».
 
 ## Informe completo (texto fuente en árabe)
-<div dir="rtl" lang="ar">
 
 ولا مال، فمنهم من يرق لهم ويقيم ولا يهاجر، فأنزل الله هذه الآية.
-
-</div>
 
 ## Place in the museum
 Fuente: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an de al-Wahidi]]. El versículo: [[passage/quran-64-14|Corán 64-14]].

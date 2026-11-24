@@ -11,11 +11,8 @@ Informe de al-Suyuti sobre la ocasión de revelación de al-Isra 17, en Lubab al
 The verse, in al-Suyuti's heading: «وقل ربي أدخلني».
 
 ## Informe completo (texto fuente en árabe)
-<div dir="rtl" lang="ar">
 
 وقل ربي أدخلني الآية أخرج الترمذي عن ابن عباس قال كان النبي بمكة ثم أمر بالهجرة فنزلت عليه وقل رب أدخلني مدخل صدق وأخرجني مخرج صدق واجعل لي من لدنك سلطانا نصيرا وهذا صريح في أن الآية مكية وأخرجه ابن مردويه
-
-</div>
 
 ## Place in the museum
 Fuente: [[work/lubab-al-nuqul-suyuti|de al-Suyuti Lubab al-Nuqul]]. El versículo: [[passage/quran-17-80|Corán 17-80]].

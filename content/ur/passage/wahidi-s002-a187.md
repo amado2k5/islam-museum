@@ -11,11 +11,8 @@ al-Baqara 2:187 کے سببِ نزول پر الواحدی کی روایت — �
 The verse, in al-Wahidi's heading: «أحل لكم ليلة الصيام الرفث إلى نسائكم».
 
 ## مکمل روایت ⁦(عربی ماخذ متن)⁩
-<div dir="rtl" lang="ar">
 
 لرسول الله- فأنزل الله هذه الآية.
-
-</div>
 
 ## Place in the museum
 ماخذ: [[work/asbab-nuzul-wahidi|الواحدی کی اسباب نزول القرآن]]۔ آیت: [[passage/quran-2-187|قرآن 2-187]]۔

@@ -11,11 +11,8 @@ al-Waqi'a 56:82 ayetinin nüzül sebebi hakkında El-Vahidi'nin rivayeti; Esbab 
 The verse, in al-Wahidi's heading: «وتجعلون رزقكم أنكم تكذبون».
 
 ## Tam rivayet (Arapça kaynak metin)
-<div dir="rtl" lang="ar">
 
 وقال بعضهم: لقد صدق نوء كذا وكذا"، فنزلت هذه الآيات: {فلا أقسم بمواقع
-
-</div>
 
 ## Place in the museum
 Kaynak: [[work/asbab-nuzul-wahidi|El-Vahidi'nin Esbab Nüzul el-Kur'an'ı]]. Ayet: [[passage/quran-56-82|Kur'an 56-82]].

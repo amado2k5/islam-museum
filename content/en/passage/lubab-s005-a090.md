@@ -11,11 +11,8 @@ Al-Suyuti's report on the occasion of revelation of al-Ma'ida 5:90, in Lubab al-
 The verse, in al-Suyuti's heading: «يا أيها الذين آمنوا إنما الخمر».
 
 ## Full report (Arabic source text)
-<div dir="rtl" lang="ar">
 
 يا أيها الذين آمنوا إنما الخمر الآية روى أحمد عن أبي هريرة قال قدم رسول الله المدينة وهم يشربون الخمر ويأكلون الميسر فسألوا رسول الله عنهما فأنزل الله يسألونك عن الخمر والميسر [البقرة 219] الآية فقال الناس
-
-</div>
 
 ## Place in the museum
 Source: [[work/lubab-al-nuqul-suyuti|al-Suyuti's Lubab al-Nuqul]]. The verse: [[passage/quran-5-90|Qur'an 5-90]].

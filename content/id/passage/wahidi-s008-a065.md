@@ -11,11 +11,8 @@ Riwayat al-Wahidi tentang sebab turunnya al-Anfal 8:65, diriwayatkan dari genera
 The verse, in al-Wahidi's heading: «يا أيها النبي قل لمن في أيديكم من الأسرى».
 
 ## Laporan lengkap (teks sumber Arab)
-<div dir="rtl" lang="ar">
 
 قال الكلبي: نزلت في العباس بن عبد المطلب وعقيل بن أبي طالب ونوفل بن
-
-</div>
 
 ## Place in the museum
 Sumber: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an al-Wahidi]]. Ayatnya: [[passage/quran-8-65|Al-Qur'an 8-65]].

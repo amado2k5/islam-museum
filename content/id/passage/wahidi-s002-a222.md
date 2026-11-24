@@ -11,11 +11,8 @@ Riwayat al-Wahidi tentang sebab turunnya al-Baqara 2:222, diriwayatkan dari gene
 The verse, in al-Wahidi's heading: «ويسألونك عن المحيض».
 
 ## Laporan lengkap (teks sumber Arab)
-<div dir="rtl" lang="ar">
 
 يشاربوها ولم يجامعوها في البيوت، فسئل رسول الله-
-
-</div>
 
 ## Place in the museum
 Sumber: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an al-Wahidi]]. Ayatnya: [[passage/quran-2-222|Al-Qur'an 2-222]].

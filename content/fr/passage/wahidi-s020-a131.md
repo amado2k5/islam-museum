@@ -11,11 +11,8 @@ Rapport d'al-Wahidi sur la circonstance de révélation de Ta Ha 20:131, transmi
 The verse, in al-Wahidi's heading: «131».
 
 ## Rapport complet (texte source arabe)
-<div dir="rtl" lang="ar">
 
 الربذي قال: أخبرني يزيد بن عبد الله بن قسيط، عن أبي رافع مولى رسول الله- أن ضيفا نزل برسول الله-
-
-</div>
 
 ## Place in the museum
 Source : [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an d'al-Wahidi]]. Le verset : [[passage/quran-20-131|Coran 20-131]].

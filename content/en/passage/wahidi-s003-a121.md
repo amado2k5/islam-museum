@@ -11,11 +11,8 @@ Al-Wahidi's report on the occasion of revelation of Al 'Imran 3:121, narrated fr
 The verse, in al-Wahidi's heading: «وإذ غدوت من أهلك».
 
 ## Full report (Arabic source text)
-<div dir="rtl" lang="ar">
 
 نزلت هذه الآية في غزوة أحد، أخبرنا سعيد بن محمد الزاهد قال: أخبرنا أبو
-
-</div>
 
 ## Place in the museum
 Source: [[work/asbab-al-nuzul-wahidi|al-Wahidi's Asbab nuzul al-Qur'an]]. The verse: [[passage/quran-3-121|Qur'an 3-121]].

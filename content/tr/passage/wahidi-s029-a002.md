@@ -11,11 +11,8 @@ al-'Ankabut 29 ayetinin nüzül sebebi hakkında El-Vahidi'nin rivayeti; Esbab N
 The verse, in al-Wahidi's heading: «الم أحسب الناس».
 
 ## Tam rivayet (Arapça kaynak metin)
-<div dir="rtl" lang="ar">
 
 قال الشعبي نزلت في أناس كانوا بمكة قد أقروا بالإسلام، فكتب إليهم أصحاب
-
-</div>
 
 ## Place in the museum
 Kaynak: [[work/asbab-nuzul-wahidi|El-Vahidi'nin Esbab Nüzul el-Kur'an'ı]]. Ayet: [[passage/quran-29-2|Kur'an 29-2]].

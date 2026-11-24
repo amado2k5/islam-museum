@@ -11,11 +11,8 @@ an-Nahl 16:92 ayetinin nüzul sebebi hakkında es-Suyuti'nin rivayeti; Lübabü'
 The verse, in al-Suyuti's heading: «ولا تكونوا».
 
 ## Tam rivayet (Arapça kaynak metin)
-<div dir="rtl" lang="ar">
 
 ولا تكونوا الآية ⁦(ك)⁩ أخرج ابن أبي حاتم عن أبي بكر بن أبي حفص قال كانت سعيدة الأسدية مجنونة تجمع الشعر والليف فنزلت هذه الآية ولا تكونوا كالتي نقضت غزلها
-
-</div>
 
 ## Place in the museum
 Kaynak: [[work/lubab-al-nuqul-suyuti|es-Suyuti'nin Lubab al-Nuqul]]. Ayet: [[passage/quran-16-92|Kur'an 16-92]].

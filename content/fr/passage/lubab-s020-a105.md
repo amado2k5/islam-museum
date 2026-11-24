@@ -11,11 +11,8 @@ Rapport d'al-Suyuti sur la circonstance de révélation de Ta Ha 20:105, dans Lu
 The verse, in al-Suyuti's heading: «ويسألونك عن الجبال».
 
 ## Rapport complet (texte source arabe)
-<div dir="rtl" lang="ar">
 
 ويسألونك عن الجبال الآية أخرج ابن المنذر عن ابن جريج قالت قريش يا محمد كيف يفعل ربك بهذه الجبال يوم القيامة فنزلت ويسألونك عن الجبال الآية
-
-</div>
 
 ## Place in the museum
 Source : [[work/lubab-al-nuqul-suyuti|d'al-Suyuti Lubab al-Nuqul]]. Le verset: [[passage/quran-20-105|Coran 20-105]].

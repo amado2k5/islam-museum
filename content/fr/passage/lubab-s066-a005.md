@@ -11,11 +11,8 @@ Rapport d'al-Suyuti sur la circonstance de révélation de at-Tahrim 66:5, dans 
 The verse, in al-Suyuti's heading: «عسى ربه إن طلقكن».
 
 ## Rapport complet (texte source arabe)
-<div dir="rtl" lang="ar">
 
 عسى ربه إن طلقكن الآية تقدم سبب نزولها وهو قول عمر في سورة البقرة
-
-</div>
 
 ## Place in the museum
 Source : [[work/lubab-al-nuqul-suyuti|d'al-Suyuti Lubab al-Nuqul]]. Le verset: [[passage/quran-66-5|Coran 66-5]].

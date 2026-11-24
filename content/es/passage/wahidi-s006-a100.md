@@ -11,11 +11,8 @@ Informe de al-Wahidi sobre la ocasión de revelación de al-An'am 6:100, transmi
 The verse, in al-Wahidi's heading: «وجعلوا لله شركاء الجن».
 
 ## Informe completo (texto fuente en árabe)
-<div dir="rtl" lang="ar">
 
 قال الكلبي: نزلت هذه الآية في الزنادقة، قالوا: إن اللهوإبليس
-
-</div>
 
 ## Place in the museum
 Fuente: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an de al-Wahidi]]. El versículo: [[passage/quran-6-100|Corán 6-100]].

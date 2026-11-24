@@ -11,11 +11,8 @@ Riwayat al-Wahidi tentang sebab turunnya al-Ma'ida 5:58, diriwayatkan dari gener
 The verse, in al-Wahidi's heading: «وإذا ناديتم إلى الصلاة اتخذوها هزوا ولعبا».
 
 ## Laporan lengkap (teks sumber Arab)
-<div dir="rtl" lang="ar">
 
 على طريق الاستهزاء والضحك فأنزل اللههذه الآية.
-
-</div>
 
 ## Place in the museum
 Sumber: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an al-Wahidi]]. Ayatnya: [[passage/quran-5-58|Al-Qur'an 5-58]].

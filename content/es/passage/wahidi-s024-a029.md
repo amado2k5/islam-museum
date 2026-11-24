@@ -11,11 +11,8 @@ Informe de al-Wahidi sobre la ocasión de revelación de an-Nur 24:29, transmiti
 The verse, in al-Wahidi's heading: «ليس عليكم جناح أن تأكلوا جميعا أو أشتاتا».
 
 ## Informe completo (texto fuente en árabe)
-<div dir="rtl" lang="ar">
 
 قال قتادة والضحاك: نزلت في حي من كنانة يقال لهم بنو ليث بن عمرو،
-
-</div>
 
 ## Place in the museum
 Fuente: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an de al-Wahidi]]. El versículo: [[passage/quran-24-29|Corán 24-29]].

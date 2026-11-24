@@ -11,11 +11,8 @@ Riwayat as-Suyuti tentang sebab turunnya al-'Ankabut 29, dalam Lubab al-Nuqul fi
 The verse, in al-Suyuti's heading: «أو لم يروا».
 
 ## Laporan lengkap (teks sumber Arab)
-<div dir="rtl" lang="ar">
 
 أو لم يروا الآية أخرج جويبر عن الضحاك عن ابن عباس أنهم قالوا يا محمد ما يمنعنا أن ندخل في دينك إلا مخافة أن يتخطفنا الناس لتقتلنا إن والأعراب أكثر منا فمتى ما يبلغهم أنا قد دخلنا في دينك اختطفنا فكنا أكلة رأس فأنزل الله
-
-</div>
 
 ## Place in the museum
 Sumber: [[work/lubab-al-nuqul-suyuti|as-Suyuti Lubab al-Nuqul]]. Ayatnya: [[passage/quran-29-67|Al-Qur'an 29-67]].

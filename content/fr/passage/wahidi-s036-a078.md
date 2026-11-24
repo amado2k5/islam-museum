@@ -11,11 +11,8 @@ Rapport d'al-Wahidi sur la circonstance de révélation de Ya Sin 36:78, transmi
 The verse, in al-Wahidi's heading: «قال من يحيي العظام وهي رميم».
 
 ## Rapport complet (texte source arabe)
-<div dir="rtl" lang="ar">
 
 ويدخلك النار"، فأنزل اللههذه الآية: {وضرب لنا مثلا ونسي خلقه قال
-
-</div>
 
 ## Place in the museum
 Source : [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an d'al-Wahidi]]. Le verset : [[passage/quran-36-78|Coran 36-78]].

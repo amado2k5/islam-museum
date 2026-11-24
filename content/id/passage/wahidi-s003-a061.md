@@ -11,11 +11,8 @@ Riwayat al-Wahidi tentang sebab turunnya Al 'Imran 3:61, diriwayatkan dari gener
 The verse, in al-Wahidi's heading: «فقل تعالوا ندع أبناءنا وأبناءكم».
 
 ## Laporan lengkap (teks sumber Arab)
-<div dir="rtl" lang="ar">
 
 الله عليه وسلم - ونزل القرآن: {ذلك نتلوه عليك من الآيات والذكر الحكيم}
-
-</div>
 
 ## Place in the museum
 Sumber: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an al-Wahidi]]. Ayatnya: [[passage/quran-3-61|Al-Qur'an 3-61]].

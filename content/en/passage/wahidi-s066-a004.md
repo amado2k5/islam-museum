@@ -11,11 +11,8 @@ Al-Wahidi's report on the occasion of revelation of at-Tahrim 66:4, narrated fro
 The verse, in al-Wahidi's heading: «إن تتوبا إلى الله».
 
 ## Full report (Arabic source text)
-<div dir="rtl" lang="ar">
 
 شهرا، فأنزل الله: {إن تتوبا إلى الله فقد صغت قلوبكما}
-
-</div>
 
 ## Place in the museum
 Source: [[work/asbab-al-nuzul-wahidi|al-Wahidi's Asbab nuzul al-Qur'an]]. The verse: [[passage/quran-66-4|Qur'an 66-4]].

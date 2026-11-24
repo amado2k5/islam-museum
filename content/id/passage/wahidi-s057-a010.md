@@ -11,11 +11,8 @@ Riwayat al-Wahidi tentang sebab turunnya al-Hadid 57:10, diriwayatkan dari gener
 The verse, in al-Wahidi's heading: «لا يستوي منكم من أنفق من قبل الفتح وقاتل».
 
 ## Laporan lengkap (teks sumber Arab)
-<div dir="rtl" lang="ar">
 
 روى محمد بن فضيل عن الكلبي أن هذه الآية نزلت في أبي بكر الصديق - رضي
-
-</div>
 
 ## Place in the museum
 Sumber: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an al-Wahidi]]. Ayatnya: [[passage/quran-57-10|Al-Qur'an 57-10]].

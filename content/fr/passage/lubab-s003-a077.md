@@ -11,11 +11,8 @@ Rapport d'al-Suyuti sur la circonstance de révélation de Al 'Imran 3:77, dans 
 The verse, in al-Suyuti's heading: «إن الذين يشترون».
 
 ## Rapport complet (texte source arabe)
-<div dir="rtl" lang="ar">
 
 إن الذين يشترون الآية روى الشيخان وغيرهما إن الأشعث قال كان بيني وبين رجل من اليهود أرض فجحدني فقدمته إلى النبي فقال ألك بينة قلت لا فقال لليهودي أحلف فقلت يا رسول الله إذن يحلف فيذهب مالي فأنزل الله إن الذين
-
-</div>
 
 ## Place in the museum
 Source : [[work/lubab-al-nuqul-suyuti|d'al-Suyuti Lubab al-Nuqul]]. Le verset: [[passage/quran-3-77|Coran 3-77]].

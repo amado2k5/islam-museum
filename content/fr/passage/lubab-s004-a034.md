@@ -11,11 +11,8 @@ Rapport d'al-Suyuti sur la circonstance de révélation de an-Nisa 4:34, dans Lu
 The verse, in al-Suyuti's heading: «الرجال قوامون».
 
 ## Rapport complet (texte source arabe)
-<div dir="rtl" lang="ar">
 
 الرجال قوامون أخرج ابن أبي حاتم عن الحسن قال جاءت امرأة إلى النبي تستعدي على زوجها أنه لطمها فقال رسول الله القصاص فأنزل الله الرجال قوامون على النساء الآية فرجعت بغير القصاص وأخرج ابن جرير من طرق
-
-</div>
 
 ## Place in the museum
 Source : [[work/lubab-al-nuqul-suyuti|d'al-Suyuti Lubab al-Nuqul]]. Le verset: [[passage/quran-4-34|Coran 4-34]].

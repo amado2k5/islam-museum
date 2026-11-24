@@ -11,11 +11,8 @@ an-Nur 24:55 ayetinin nüzul sebebi hakkında es-Suyuti'nin rivayeti; Lübabü'n
 The verse, in al-Suyuti's heading: «وعد الله الذين آمنوا».
 
 ## Tam rivayet (Arapça kaynak metin)
-<div dir="rtl" lang="ar">
 
 وعد الله الذين آمنوا الآية أخرج الحاكم وصححه والطبراني عن أبي بن كعب قال لما قدم رسول الله وأصحابه المدينة وآوتهم الأنصار رمتهم العرب عن قوس واحدة وكانوا لا يبيتون الا بالسلاح ولا يصبحون إلا فيه فقالوا ترون أنا نعيش حتى
-
-</div>
 
 ## Place in the museum
 Kaynak: [[work/lubab-al-nuqul-suyuti|es-Suyuti'nin Lubab al-Nuqul]]. Ayet: [[passage/quran-24-55|Kur'an 24-55]].

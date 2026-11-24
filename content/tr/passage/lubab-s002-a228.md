@@ -11,11 +11,8 @@ al-Baqara 2:228 ayetinin nüzul sebebi hakkında es-Suyuti'nin rivayeti; Lübab�
 The verse, in al-Suyuti's heading: «والمطلقات يتربصن».
 
 ## Tam rivayet (Arapça kaynak metin)
-<div dir="rtl" lang="ar">
 
 والمطلقات يتربصن الآية أخرج أبو داود وابن أبي حاتم عن أسماء بنت يزيد بن السكن الأنصارية قالت طلقت على عهد رسول الله ولم يكن للمطلقة عدة فأنزل الله العدة للطلاق والمطلقات يتربصن بأنفسهن ثلاثة قروء وذكر الثعلبي وهبة الله بن سلامة
-
-</div>
 
 ## Place in the museum
 Kaynak: [[work/lubab-al-nuqul-suyuti|es-Suyuti'nin Lubab al-Nuqul]]. Ayet: [[passage/quran-2-228|Kur'an 2-228]].

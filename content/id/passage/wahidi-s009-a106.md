@@ -11,11 +11,8 @@ Riwayat al-Wahidi tentang sebab turunnya Bara'a (at-Tawba) 9:106, diriwayatkan d
 The verse, in al-Wahidi's heading: «وآخرون مرجون لأمر الله».
 
 ## Laporan lengkap (teks sumber Arab)
-<div dir="rtl" lang="ar">
 
 نزلت في كعب بن مالك ومرارة بن الربيع أحد بني عمرو بن عوف وهلال بن أمية
-
-</div>
 
 ## Place in the museum
 Sumber: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an al-Wahidi]]. Ayatnya: [[passage/quran-9-106|Al-Qur'an 9-106]].

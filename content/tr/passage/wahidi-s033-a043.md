@@ -11,11 +11,8 @@ al-Ahzab 33:43 ayetinin nüzül sebebi hakkında El-Vahidi'nin rivayeti; Esbab N
 The verse, in al-Wahidi's heading: «هو الذي يصلي عليكم وملائكته».
 
 ## Tam rivayet (Arapça kaynak metin)
-<div dir="rtl" lang="ar">
 
 قال مجاهد: لما نزلت: {إن الله وملائكته يصلون على النبي} الآية قال أبو
-
-</div>
 
 ## Place in the museum
 Kaynak: [[work/asbab-nuzul-wahidi|El-Vahidi'nin Esbab Nüzul el-Kur'an'ı]]. Ayet: [[passage/quran-33-43|Kur'an 33-43]].

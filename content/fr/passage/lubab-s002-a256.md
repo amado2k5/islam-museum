@@ -11,11 +11,8 @@ Rapport d'al-Suyuti sur la circonstance de révélation de al-Baqara 2:256, dans
 The verse, in al-Suyuti's heading: «لا إكراه في الدين روى أبو داود والنسائي».
 
 ## Rapport complet (texte source arabe)
-<div dir="rtl" lang="ar">
 
 لا إكراه في الدين روى أبو داود والنسائي وابن حبان عن ابن عباس قال كانت المرأة تكون مقلاة فتجعل على نفسها إن عاش لها ولد أن تهوده فلما أجليت بنو النضير كان فيهم من أبناء الأنصار فقالوا لا ندع أبناءنا فأنزل الله لا إكراه في
-
-</div>
 
 ## Place in the museum
 Source : [[work/lubab-al-nuqul-suyuti|d'al-Suyuti Lubab al-Nuqul]]. Le verset: [[passage/quran-2-256|Coran 2-256]].

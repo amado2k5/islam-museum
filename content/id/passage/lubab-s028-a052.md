@@ -11,11 +11,8 @@ Riwayat as-Suyuti tentang sebab turunnya al-Qasas 28, dalam Lubab al-Nuqul fi As
 The verse, in al-Suyuti's heading: «والذين آتيناهم الكتاب».
 
 ## Laporan lengkap (teks sumber Arab)
-<div dir="rtl" lang="ar">
 
 والذين آتيناهم الكتاب الآية سيأتي سبب نزولها في سورة الحديد
-
-</div>
 
 ## Place in the museum
 Sumber: [[work/lubab-al-nuqul-suyuti|as-Suyuti Lubab al-Nuqul]]. Ayatnya: [[passage/quran-28-52|Al-Qur'an 28-52]].

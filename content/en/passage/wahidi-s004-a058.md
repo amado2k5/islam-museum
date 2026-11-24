@@ -11,11 +11,8 @@ Al-Wahidi's report on the occasion of revelation of an-Nisa 4:58, narrated from 
 The verse, in al-Wahidi's heading: «إن الله يأمركم أن تؤدوا الأمانات إلى أهلها».
 
 ## Full report (Arabic source text)
-<div dir="rtl" lang="ar">
 
 نزلت في عثمان بن طلحة الحجبي من بني عبد الدار كان سادن الكعبة، فلما
-
-</div>
 
 ## Place in the museum
 Source: [[work/asbab-al-nuzul-wahidi|al-Wahidi's Asbab nuzul al-Qur'an]]. The verse: [[passage/quran-4-58|Qur'an 4-58]].

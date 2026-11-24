@@ -11,11 +11,8 @@ Al-Suyuti's report on the occasion of revelation of al-Ma'ida 5:4, in Lubab al-N
 The verse, in al-Suyuti's heading: «يسألونك ما أحل لهم».
 
 ## Full report (Arabic source text)
-<div dir="rtl" lang="ar">
 
 يسألونك ما أحل لهم الآية روى الطبراني والحاكم والبيهقي وغيرهم عن أبي رافع قال جاء جبريل إلى النبي فاستأذن عليه فأذن له فأبطأ فأخذ رداءه فخرج إليه وهو قائم بالباب فقال قد أذنا لك قال أجل ولكنا لا ندخل بيتا فيه
-
-</div>
 
 ## Place in the museum
 Source: [[work/lubab-al-nuqul-suyuti|al-Suyuti's Lubab al-Nuqul]]. The verse: [[passage/quran-5-4|Qur'an 5-4]].

@@ -11,11 +11,8 @@ Riwayat as-Suyuti tentang sebab turunnya Al 'Imran 3:140, dalam Lubab al-Nuqul f
 The verse, in al-Suyuti's heading: «ويتخذ منكم شهداء».
 
 ## Laporan lengkap (teks sumber Arab)
-<div dir="rtl" lang="ar">
 
 ويتخذ منكم شهداء أخرج ابن أبي حاتم عن عكرمة قال لما أبطأ على النساء الخبر خرجن ليستخبرن بين فإذا رجلان مقبلان على بعير فقالت امرأة ما فعل رسول الله قالا حي قالت فلا أبالي يتخذ الله من عباده الشهداء ونزل القرآن
-
-</div>
 
 ## Place in the museum
 Sumber: [[work/lubab-al-nuqul-suyuti|as-Suyuti Lubab al-Nuqul]]. Ayatnya: [[passage/quran-3-140|Al-Qur'an 3-140]].

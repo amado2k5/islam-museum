@@ -11,11 +11,8 @@ al-An'am 6:19 ayetinin nüzul sebebi hakkında es-Suyuti'nin rivayeti; Lübabü'
 The verse, in al-Suyuti's heading: «قل أي شئ أكبر شهادة».
 
 ## Tam rivayet (Arapça kaynak metin)
-<div dir="rtl" lang="ar">
 
 قل أي شئ أكبر شهادة الآية أخرج ابن إسحق وابن جرير من طريق سعيد أو عكرمة عن ابن عباس قال جاء النحام بن زيد وقروم بن كعب وبحري بن عمرو فقالوا يا محمد ما نعلم مع الله إلها غيره فقال لا إله إلا الله بذلك
-
-</div>
 
 ## Place in the museum
 Kaynak: [[work/lubab-al-nuqul-suyuti|es-Suyuti'nin Lubab al-Nuqul]]. Ayet: [[passage/quran-6-19|Kur'an 6-19]].

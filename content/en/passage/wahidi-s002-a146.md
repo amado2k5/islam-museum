@@ -11,11 +11,8 @@ Al-Wahidi's report on the occasion of revelation of al-Baqara 2:146, narrated fr
 The verse, in al-Wahidi's heading: «الذين آتيناهم الكتاب يعرفونه كما يعرفون أبناءهم».
 
 ## Full report (Arabic source text)
-<div dir="rtl" lang="ar">
 
 نزلت في مؤمني أهل الكتاب عبد الله بن سلام وأصحابه كانوا يعرفون رسول
-
-</div>
 
 ## Place in the museum
 Source: [[work/asbab-al-nuzul-wahidi|al-Wahidi's Asbab nuzul al-Qur'an]]. The verse: [[passage/quran-2-146|Qur'an 2-146]].

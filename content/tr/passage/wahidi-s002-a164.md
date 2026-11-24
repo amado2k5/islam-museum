@@ -11,11 +11,8 @@ al-Baqara 2:164 ayetinin nüzül sebebi hakkında El-Vahidi'nin rivayeti; Esbab 
 The verse, in al-Wahidi's heading: «إن في خلق السماوات والأرض».
 
 ## Tam rivayet (Arapça kaynak metin)
-<div dir="rtl" lang="ar">
 
 شبل عن ابن أبي نجيح عن عطاء قال: أنزلت بالمدينة على النبي - صلى الله
-
-</div>
 
 ## Place in the museum
 Kaynak: [[work/asbab-nuzul-wahidi|El-Vahidi'nin Esbab Nüzul el-Kur'an'ı]]. Ayet: [[passage/quran-2-164|Kur'an 2-164]].

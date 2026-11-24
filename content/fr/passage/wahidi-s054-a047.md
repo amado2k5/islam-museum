@@ -11,11 +11,8 @@ Rapport d'al-Wahidi sur la circonstance de révélation de al-Qamar 54:47, trans
 The verse, in al-Wahidi's heading: «إن المجرمين في ضلال وسعر».
 
 ## Rapport complet (texte source arabe)
-<div dir="rtl" lang="ar">
 
 جعفر، عن أبي هريرة قال: جاءت قريش يختصمون في القدر، فأنزل الله:
-
-</div>
 
 ## Place in the museum
 Source : [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an d'al-Wahidi]]. Le verset : [[passage/quran-54-47|Coran 54-47]].

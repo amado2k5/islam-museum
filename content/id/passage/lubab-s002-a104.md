@@ -11,11 +11,8 @@ Riwayat as-Suyuti tentang sebab turunnya al-Baqara 2:104, dalam Lubab al-Nuqul f
 The verse, in al-Suyuti's heading: «يا أيها الذين آمنوا لا تقولوا راعنا (ك)».
 
 ## Laporan lengkap (teks sumber Arab)
-<div dir="rtl" lang="ar">
 
 يا أيها الذين آمنوا لا تقولوا راعنا ⁦(ك)⁩ أخرج ابن المنذر عن السدي قال كان رجلان من اليهود مالك بن الصيف ورفاعه بن زيد إذا لقيا النبي قالا وهما يكلمانه راعنا سمعك واسمع غير مسمع فظن المسلمون أن هذا الشئ كان
-
-</div>
 
 ## Place in the museum
 Sumber: [[work/lubab-al-nuqul-suyuti|as-Suyuti Lubab al-Nuqul]]. Ayatnya: [[passage/quran-2-104|Al-Qur'an 2-104]].

@@ -11,11 +11,8 @@ Bani Isra'il 17:59 کے سببِ نزول پر الواحدی کی روایت �
 The verse, in al-Wahidi's heading: «وما منعنا أن نرسل بالآيات».
 
 ## مکمل روایت ⁦(عربی ماخذ متن)⁩
-<div dir="rtl" lang="ar">
 
 سأل أهل مكة النبي- أن يجعل الصفا ذهبا وأن ينحي
-
-</div>
 
 ## Place in the museum
 ماخذ: [[work/asbab-nuzul-wahidi|الواحدی کی اسباب نزول القرآن]]۔ آیت: [[passage/quran-17-59|قرآن 17-59]]۔

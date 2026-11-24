@@ -11,11 +11,8 @@ al-Baqara 2:194 ayetinin nüzül sebebi hakkında El-Vahidi'nin rivayeti; Esbab 
 The verse, in al-Wahidi's heading: «الشهر الحرام بالشهر الحرام».
 
 ## Tam rivayet (Arapça kaynak metin)
-<div dir="rtl" lang="ar">
 
 الحديبية، فأقصه اللهمنهم، فأنزل الله: {الشهر الحرام بالشهر
-
-</div>
 
 ## Place in the museum
 Kaynak: [[work/asbab-nuzul-wahidi|El-Vahidi'nin Esbab Nüzul el-Kur'an'ı]]. Ayet: [[passage/quran-2-194|Kur'an 2-194]].

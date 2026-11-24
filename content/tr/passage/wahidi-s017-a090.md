@@ -11,11 +11,8 @@ Bani Isra'il 17:90 ayetinin nüzül sebebi hakkında El-Vahidi'nin rivayeti; Esb
 The verse, in al-Wahidi's heading: «وقالوا لن نؤمن لك حتى تفجر لنا من الأرض ينبوعا».
 
 ## Tam rivayet (Arapça kaynak metin)
-<div dir="rtl" lang="ar">
 
 الله- بعثني إليكم رسولا وأنزل علي كتابا وأمرني أن أكون لكم
-
-</div>
 
 ## Place in the museum
 Kaynak: [[work/asbab-nuzul-wahidi|El-Vahidi'nin Esbab Nüzul el-Kur'an'ı]]. Ayet: [[passage/quran-17-90|Kur'an 17-90]].

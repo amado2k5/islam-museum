@@ -11,11 +11,8 @@ at-Takwir 81:29 ayetinin nüzül sebebi hakkında El-Vahidi'nin rivayeti; Esbab 
 The verse, in al-Wahidi's heading: «وما تشاءون إلا أن يشاء الله رب العالمين».
 
 ## Tam rivayet (Arapça kaynak metin)
-<div dir="rtl" lang="ar">
 
 سعيد بن عبد العزيز، عن سليمان بن موسى قال: لما أنزل الله- {لمن
-
-</div>
 
 ## Place in the museum
 Kaynak: [[work/asbab-nuzul-wahidi|El-Vahidi'nin Esbab Nüzul el-Kur'an'ı]]. Ayet: [[passage/quran-81-29|Kur'an 81-29]].

@@ -11,11 +11,8 @@ Bara'a (at-Tawba) 9:34 کے سببِ نزول پر الواحدی کی روای�
 The verse, in al-Wahidi's heading: «والذين يكنزون الذهب والفضة ولا ينفقونها في سبيل الله».
 
 ## مکمل روایت ⁦(عربی ماخذ متن)⁩
-<div dir="rtl" lang="ar">
 
 فقلت له: ما أنزلك منزلك هذا؟
-
-</div>
 
 ## Place in the museum
 ماخذ: [[work/asbab-nuzul-wahidi|الواحدی کی اسباب نزول القرآن]]۔ آیت: [[passage/quran-9-34|قرآن 9-34]]۔

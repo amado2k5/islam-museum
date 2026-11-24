@@ -11,11 +11,8 @@ al-Baqara 2:272 کے سببِ نزول پر الواحدی کی روایت — �
 The verse, in al-Wahidi's heading: «ليس عليك هداهم».
 
 ## مکمل روایت ⁦(عربی ماخذ متن)⁩
-<div dir="rtl" lang="ar">
 
 رسول الله- "لا تصدقوا إلا على أهل دينكم" فأنزل
-
-</div>
 
 ## Place in the museum
 ماخذ: [[work/asbab-nuzul-wahidi|الواحدی کی اسباب نزول القرآن]]۔ آیت: [[passage/quran-2-272|قرآن 2-272]]۔

@@ -11,11 +11,8 @@ al-'Ankabut 29:51 ayetinin nüzul sebebi hakkında es-Suyuti'nin rivayeti; Lüba
 The verse, in al-Suyuti's heading: «أولم يكفهم».
 
 ## Tam rivayet (Arapça kaynak metin)
-<div dir="rtl" lang="ar">
 
 أولم يكفهم الآية أخرج ابن جرير وابن أبي حاتم والدارمي في مسنده من طريق عمرو بن دينار عن يحيى بن جعده قال جاء أناس من المسلمين بكتب قد كتبوا فيها بعض ما سمعوه من اليهود فقال النبي كفى بقوم ضلاله أن
-
-</div>
 
 ## Place in the museum
 Kaynak: [[work/lubab-al-nuqul-suyuti|es-Suyuti'nin Lubab al-Nuqul]]. Ayet: [[passage/quran-29-51|Kur'an 29-51]].

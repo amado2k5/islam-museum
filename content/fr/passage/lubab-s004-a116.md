@@ -11,11 +11,8 @@ Rapport d'al-Suyuti sur la circonstance de révélation de an-Nisa 4:116, dans L
 The verse, in al-Suyuti's heading: «إن الله لا يغفر أن يشرك به».
 
 ## Rapport complet (texte source arabe)
-<div dir="rtl" lang="ar">
 
 إن الله لا يغفر أن يشرك به أخرج ابن أبي حاتم والطبراني عن أبي أيوب الأنصاري قال جاء رجل إلى النبي فقال إن لي ابن أخ لا ينتهي عن الحرام قال وما دينه قال يصلي ويوحد الله قال استوهب منه دينه
-
-</div>
 
 ## Place in the museum
 Source : [[work/lubab-al-nuqul-suyuti|d'al-Suyuti Lubab al-Nuqul]]. Le verset: [[passage/quran-4-116|Coran 4-116]].

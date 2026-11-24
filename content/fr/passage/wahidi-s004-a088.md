@@ -11,11 +11,8 @@ Rapport d'al-Wahidi sur la circonstance de révélation de an-Nisa 4:88, transmi
 The verse, in al-Wahidi's heading: «فما لكم في المنافقين فئتين».
 
 ## Rapport complet (texte source arabe)
-<div dir="rtl" lang="ar">
 
 فرقة: لا نقتلهم، فنزلت هذه الآية.
-
-</div>
 
 ## Place in the museum
 Source : [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an d'al-Wahidi]]. Le verset : [[passage/quran-4-88|Coran 4-88]].

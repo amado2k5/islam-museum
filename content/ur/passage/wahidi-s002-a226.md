@@ -11,11 +11,8 @@ al-Baqara 2:226 کے سببِ نزول پر الواحدی کی روایت — �
 The verse, in al-Wahidi's heading: «للذين يؤلون من نسائهم».
 
 ## مکمل روایت ⁦(عربی ماخذ متن)⁩
-<div dir="rtl" lang="ar">
 
 ما عند الرجل في المرأة أربعة أشهر وأنزل الله: {للذين يؤلون من
-
-</div>
 
 ## Place in the museum
 ماخذ: [[work/asbab-nuzul-wahidi|الواحدی کی اسباب نزول القرآن]]۔ آیت: [[passage/quran-2-226|قرآن 2-226]]۔

@@ -11,11 +11,8 @@ Riwayat al-Wahidi tentang sebab turunnya al-Hijr 15:11, diriwayatkan dalam Asbab
 The verse, in al-Wahidi's heading: «ومن الناس من يعبد الله على حرف».
 
 ## Laporan lengkap (teks sumber Arab)
-<div dir="rtl" lang="ar">
 
 قال المفسرون: نزلت في أعراب كانوا يقدمون على رسول الله
-
-</div>
 
 ## Place in the museum
 Sumber: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an al-Wahidi]]. Ayatnya: [[passage/quran-15-11|Al-Qur'an 15-11]].

@@ -11,11 +11,8 @@ an-Nisa 4:58 ayetinin nüzül sebebi hakkında El-Vahidi'nin rivayeti; Esbab Nü
 The verse, in al-Wahidi's heading: «إن الله يأمركم أن تؤدوا الأمانات إلى أهلها».
 
 ## Tam rivayet (Arapça kaynak metin)
-<div dir="rtl" lang="ar">
 
 نزلت في عثمان بن طلحة الحجبي من بني عبد الدار كان سادن الكعبة، فلما
-
-</div>
 
 ## Place in the museum
 Kaynak: [[work/asbab-nuzul-wahidi|El-Vahidi'nin Esbab Nüzul el-Kur'an'ı]]. Ayet: [[passage/quran-4-58|Kur'an 4-58]].

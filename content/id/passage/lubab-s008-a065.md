@@ -11,11 +11,8 @@ Riwayat as-Suyuti tentang sebab turunnya al-Anfal 8:65, dalam Lubab al-Nuqul fi 
 The verse, in al-Suyuti's heading: «إن يكن منكم عشرون صابرون».
 
 ## Laporan lengkap (teks sumber Arab)
-<div dir="rtl" lang="ar">
 
 إن يكن منكم عشرون صابرون الآية أخرج إسحق بن راهوية في مسنده عن ابن عباس قال لما افترض الله عليهم أن يقاتل الواحد عشرة ثقل ذلك عليهم وشق فوضع الله عنهم إلى أن يقاتل الواحد الرجلين فأنزل الله إن يكن منكم عشرون صابرون يغلبوا مائتين
-
-</div>
 
 ## Place in the museum
 Sumber: [[work/lubab-al-nuqul-suyuti|as-Suyuti Lubab al-Nuqul]]. Ayatnya: [[passage/quran-8-65|Al-Qur'an 8-65]].

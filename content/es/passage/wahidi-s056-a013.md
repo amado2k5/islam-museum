@@ -11,11 +11,8 @@ Informe de al-Wahidi sobre la ocasión de revelación de al-Waqi'a 56:13, transm
 The verse, in al-Wahidi's heading: «ثلة من الأولين وقليل من الآخرين».
 
 ## Informe completo (texto fuente en árabe)
-<div dir="rtl" lang="ar">
 
 قال عروة بن رويم: أنزل الله: {ثلة من الأولين وقليل من الآخرين}
-
-</div>
 
 ## Place in the museum
 Fuente: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an de al-Wahidi]]. El versículo: [[passage/quran-56-13|Corán 56-13]].

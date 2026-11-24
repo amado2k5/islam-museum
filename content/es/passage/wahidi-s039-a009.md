@@ -11,11 +11,8 @@ Informe de al-Wahidi sobre la ocasión de revelación de az-Zumar 39, transmitid
 The verse, in al-Wahidi's heading: «أم من هو قانت آناء الليل».
 
 ## Informe completo (texto fuente en árabe)
-<div dir="rtl" lang="ar">
 
 قال ابن عباس في رواية عطاء: نزلت في أبي بكر الصديق-.
-
-</div>
 
 ## Place in the museum
 Fuente: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an de al-Wahidi]]. El versículo: [[passage/quran-39-9|Corán 39-9]].

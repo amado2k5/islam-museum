@@ -11,11 +11,8 @@ al-Qasas 28:56 ayetinin nüzul sebebi hakkında es-Suyuti'nin rivayeti; Lübabü
 The verse, in al-Suyuti's heading: «إنك لا تهدي ما أحببت».
 
 ## Tam rivayet (Arapça kaynak metin)
-<div dir="rtl" lang="ar">
 
 إنك لا تهدي ما أحببت الآية أخرج مسلم وغيره عن أبي هريرة قال قال رسول الله لعمه قل لا إله إلا الله أشهد لك يوم القيامة قال لولا أن تعيرني نساء قريش يقلن أنه حمله على ذلك الجزع لأقررت بها عينك
-
-</div>
 
 ## Place in the museum
 Kaynak: [[work/lubab-al-nuqul-suyuti|es-Suyuti'nin Lubab al-Nuqul]]. Ayet: [[passage/quran-28-56|Kur'an 28-56]].

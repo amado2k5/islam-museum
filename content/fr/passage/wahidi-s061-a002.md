@@ -11,11 +11,8 @@ Rapport d'al-Wahidi sur la circonstance de révélation de as-Saff 61:2, transmi
 The verse, in al-Wahidi's heading: «يا أيها الذين آمنوا لم تقولون ما لا تفعلون».
 
 ## Rapport complet (texte source arabe)
-<div dir="rtl" lang="ar">
 
 فابتلوا يوم أحد بذلك فولوا مدبرين، فأنزل الله
-
-</div>
 
 ## Place in the museum
 Source : [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an d'al-Wahidi]]. Le verset : [[passage/quran-61-2|Coran 61-2]].

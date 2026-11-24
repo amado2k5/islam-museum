@@ -11,11 +11,8 @@ Riwayat as-Suyuti tentang sebab turunnya an-Nisa 4:13, dalam Lubab al-Nuqul fi A
 The verse, in al-Suyuti's heading: «ومن يطع الله».
 
 ## Laporan lengkap (teks sumber Arab)
-<div dir="rtl" lang="ar">
 
 ومن يطع الله أخرج الطبراني وابن مردويه بسند لا بأس به عن عائشة قالت جاء رجل إلى النبي فقال يا رسول الله إنك لأحب إلى من نفسي وأنك لأحب إلى من ولدي وإني لأكون في البيت فأذكرك فما أصبر حتى آتي
-
-</div>
 
 ## Place in the museum
 Sumber: [[work/lubab-al-nuqul-suyuti|as-Suyuti Lubab al-Nuqul]]. Ayatnya: [[passage/quran-4-13|Al-Qur'an 4-13]].

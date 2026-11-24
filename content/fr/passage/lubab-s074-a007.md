@@ -11,11 +11,8 @@ Rapport d'al-Suyuti sur la circonstance de révélation de al-Muddaththir 74:7, 
 The verse, in al-Suyuti's heading: «ولربك فاصبر».
 
 ## Rapport complet (texte source arabe)
-<div dir="rtl" lang="ar">
 
 ولربك فاصبر وأخرج الحاكم وصححه عن ابن عباس ان الويد بن المغيرة جاء إلى النبي فقرأ عليه القرآن فكأنه رق له فبلغ ذلك أبا جهل فأتاه فقال يا عم أن قومك يريدون أن يجمعوا لك مالا ليعطوكه فإنك أتيت محمدا لتتعرض
-
-</div>
 
 ## Place in the museum
 Source : [[work/lubab-al-nuqul-suyuti|d'al-Suyuti Lubab al-Nuqul]]. Le verset: [[passage/quran-74-7|Coran 74-7]].

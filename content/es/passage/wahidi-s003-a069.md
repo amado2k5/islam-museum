@@ -11,11 +11,8 @@ Informe de al-Wahidi sobre la ocasión de revelación de Al 'Imran 3:69, transmi
 The verse, in al-Wahidi's heading: «ودت طائفة من أهل الكتاب لو يضلونكم».
 
 ## Informe completo (texto fuente en árabe)
-<div dir="rtl" lang="ar">
 
 نزلت في معاذ بن جبل وحذيفة وعمار بن ياسر حين دعاهم اليهود إلى دينهم،
-
-</div>
 
 ## Place in the museum
 Fuente: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an de al-Wahidi]]. El versículo: [[passage/quran-3-69|Corán 3-69]].

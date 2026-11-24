@@ -11,11 +11,8 @@ Al 'Imran 3:110 کے سببِ نزول پر الواحدی کی روایت — �
 The verse, in al-Wahidi's heading: «كنتم خير أمة».
 
 ## مکمل روایت ⁦(عربی ماخذ متن)⁩
-<div dir="rtl" lang="ar">
 
 قال عكرمة ومقاتل: نزلت في ابن مسعود وأبي بن كعب ومعاذ بن جبل وسالم
-
-</div>
 
 ## Place in the museum
 ماخذ: [[work/asbab-nuzul-wahidi|الواحدی کی اسباب نزول القرآن]]۔ آیت: [[passage/quran-3-110|قرآن 3-110]]۔

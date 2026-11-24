@@ -11,11 +11,8 @@ Rapport d'al-Wahidi sur la circonstance de révélation de ar-Ra'd 13:13, transm
 The verse, in al-Wahidi's heading: «ويرسل الصواعق فيصيب بها من يشاء».
 
 ## Rapport complet (texte source arabe)
-<div dir="rtl" lang="ar">
 
 فرعدت فوقعت منها صاعقة فذهبت بقحف رأسه، فأنزل الله: {ويرسل الصواعق
-
-</div>
 
 ## Place in the museum
 Source : [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an d'al-Wahidi]]. Le verset : [[passage/quran-13-13|Coran 13-13]].

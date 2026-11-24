@@ -11,11 +11,8 @@ Riwayat al-Wahidi tentang sebab turunnya al-Ma'un 107:1, diriwayatkan dari gener
 The verse, in al-Wahidi's heading: «أرأيت الذي يكذب بالدين».
 
 ## Laporan lengkap (teks sumber Arab)
-<div dir="rtl" lang="ar">
 
 قال مقاتل والكلبي: نزلت في العاص بن وائل السهمي.
-
-</div>
 
 ## Place in the museum
 Sumber: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an al-Wahidi]]. Ayatnya: [[passage/quran-107-1|Al-Qur'an 107-1]].

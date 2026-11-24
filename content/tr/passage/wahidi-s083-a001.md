@@ -11,11 +11,8 @@ al-Mutaffifin 83:1 ayetinin nüzül sebebi hakkında El-Vahidi'nin rivayeti; Esb
 The verse, in al-Wahidi's heading: «ويل للمطففين».
 
 ## Tam rivayet (Arapça kaynak metin)
-<div dir="rtl" lang="ar">
 
 وسلم - المدينة كانوا من أخبث الناس كيلا، فأنزل الله: {ويل
-
-</div>
 
 ## Place in the museum
 Kaynak: [[work/asbab-nuzul-wahidi|El-Vahidi'nin Esbab Nüzul el-Kur'an'ı]]. Ayet: [[passage/quran-83-1|Kur'an 83-1]].

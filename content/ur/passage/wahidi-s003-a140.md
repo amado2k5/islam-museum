@@ -11,11 +11,8 @@ Al 'Imran 3:140 کے سببِ نزول پر الواحدی کی روایت — �
 The verse, in al-Wahidi's heading: «إن يمسسكم قرح».
 
 ## مکمل روایت ⁦(عربی ماخذ متن)⁩
-<div dir="rtl" lang="ar">
 
 " فأنزل الله: {إن يمسسكم قرح} الآية.
-
-</div>
 
 ## Place in the museum
 ماخذ: [[work/asbab-nuzul-wahidi|الواحدی کی اسباب نزول القرآن]]۔ آیت: [[passage/quran-3-140|قرآن 3-140]]۔

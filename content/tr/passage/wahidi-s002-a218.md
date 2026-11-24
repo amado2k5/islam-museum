@@ -11,11 +11,8 @@ al-Baqara 2:218 ayetinin nüzül sebebi hakkında El-Vahidi'nin rivayeti; Esbab 
 The verse, in al-Wahidi's heading: «إن الذين آمنوا والذين هادوا».
 
 ## Tam rivayet (Arapça kaynak metin)
-<div dir="rtl" lang="ar">
 
 قال: "هم في النار" قال سلمان: فأظلمت علي الأرض فنزلت: {إن الذين آمنوا
-
-</div>
 
 ## Place in the museum
 Kaynak: [[work/asbab-nuzul-wahidi|El-Vahidi'nin Esbab Nüzul el-Kur'an'ı]]. Ayet: [[passage/quran-2-218|Kur'an 2-218]].

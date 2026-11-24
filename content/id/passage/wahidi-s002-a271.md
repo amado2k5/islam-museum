@@ -11,11 +11,8 @@ Riwayat al-Wahidi tentang sebab turunnya al-Baqara 2:271, diriwayatkan dari gene
 The verse, in al-Wahidi's heading: «إن تبدوا الصدقات».
 
 ## Laporan lengkap (teks sumber Arab)
-<div dir="rtl" lang="ar">
 
 قال الكلبي: لما نزل قوله: {وما أنفقتم من نفقة} الآية، قالوا: يا
-
-</div>
 
 ## Place in the museum
 Sumber: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an al-Wahidi]]. Ayatnya: [[passage/quran-2-271|Al-Qur'an 2-271]].

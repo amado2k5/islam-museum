@@ -11,11 +11,8 @@ al-Mujadila 58:8 ayetinin nüzül sebebi hakkında El-Vahidi'nin rivayeti; Esbab
 The verse, in al-Wahidi's heading: «وإذا جاءوك حيوك بما لم يحيك به الله».
 
 ## Tam rivayet (Arapça kaynak metin)
-<div dir="rtl" lang="ar">
 
 أقول: وعليكم"، ونزلت هذه الآية في ذلك: {وإذا جاءوك حيوك بما لم يحيك به
-
-</div>
 
 ## Place in the museum
 Kaynak: [[work/asbab-nuzul-wahidi|El-Vahidi'nin Esbab Nüzul el-Kur'an'ı]]. Ayet: [[passage/quran-58-8|Kur'an 58-8]].

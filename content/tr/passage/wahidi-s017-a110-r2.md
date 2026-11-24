@@ -11,11 +11,8 @@ Bani Isra'il 17:110 ayetinin nüzül sebebi hakkında El-Vahidi'nin rivayeti; Es
 The verse, in al-Wahidi's heading: «110».
 
 ## Tam rivayet (Arapça kaynak metin)
-<div dir="rtl" lang="ar">
 
 في قوله: {ولا تجهر بصلاتك ولا تخافت بها} قال: نزلت ورسول الله- مختف بمكة وكانوا إذا سمعوا القرآن سبوا القرآن ومن
-
-</div>
 
 ## Place in the museum
 Kaynak: [[work/asbab-nuzul-wahidi|El-Vahidi'nin Esbab Nüzul el-Kur'an'ı]]. Ayet: [[passage/quran-17-110|Kur'an 17-110]].

@@ -11,11 +11,8 @@ an-Nisa 4:6 کے سببِ نزول پر الواحدی کی روایت — «ا�
 The verse, in al-Wahidi's heading: «وابتلوا اليتامى».
 
 ## مکمل روایت ⁦(عربی ماخذ متن)⁩
-<div dir="rtl" lang="ar">
 
 نزلت في ثابت بن رفاعة وفي عمه، وذلك أن رفاعة توفي وترك ابنه ثابتا وهو
-
-</div>
 
 ## Place in the museum
 ماخذ: [[work/asbab-nuzul-wahidi|الواحدی کی اسباب نزول القرآن]]۔ آیت: [[passage/quran-4-6|قرآن 4-6]]۔

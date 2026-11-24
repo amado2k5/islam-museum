@@ -11,11 +11,8 @@ Al-Suyuti's report on the occasion of revelation of al-Baqara 2:115, in Lubab al
 The verse, in al-Suyuti's heading: «ولله المشرق والمغرب».
 
 ## Full report (Arabic source text)
-<div dir="rtl" lang="ar">
 
 ولله المشرق والمغرب أخرج مسلم والترمذي والنسائي عن ابن عمر قال كان النبي يصلي على راحلته تطوعا أينما توجهت به وهو جاء من مكة إلى المدينة ثم قرأ ابن عمر ولله المشرق والمغرب وقال في هذا نزلت هذه الآية وأخرج الحاكم
-
-</div>
 
 ## Place in the museum
 Source: [[work/lubab-al-nuqul-suyuti|al-Suyuti's Lubab al-Nuqul]]. The verse: [[passage/quran-2-115|Qur'an 2-115]].

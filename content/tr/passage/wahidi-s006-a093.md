@@ -11,11 +11,8 @@ al-An'am 6:93 ayetinin nüzül sebebi hakkında El-Vahidi'nin rivayeti; Esbab N�
 The verse, in al-Wahidi's heading: «ومن قال سأنزل مثل ما أنزل الله».
 
 ## Tam rivayet (Arapça kaynak metin)
-<div dir="rtl" lang="ar">
 
 نزلت في عبد الله بن سعد بن أبي سرح كان قد تكلم بالإسلام، فدعاه رسول
-
-</div>
 
 ## Place in the museum
 Kaynak: [[work/asbab-nuzul-wahidi|El-Vahidi'nin Esbab Nüzul el-Kur'an'ı]]. Ayet: [[passage/quran-6-93|Kur'an 6-93]].

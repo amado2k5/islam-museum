@@ -11,11 +11,8 @@ Rapport d'al-Wahidi sur la circonstance de révélation de al-Mulk 67:13, transm
 The verse, in al-Wahidi's heading: «وأسروا قولكم أو اجهروا به».
 
 ## Rapport complet (texte source arabe)
-<div dir="rtl" lang="ar">
 
 قال ابن عباس: نزلت في المشركين كانوا ينالون من رسول الله - صلى الله
-
-</div>
 
 ## Place in the museum
 Source : [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an d'al-Wahidi]]. Le verset : [[passage/quran-67-13|Coran 67-13]].

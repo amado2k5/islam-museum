@@ -11,11 +11,8 @@ Al-Suyuti's report on the occasion of revelation of an-Nahl 16:106, in Lubab al-
 The verse, in al-Suyuti's heading: «إلا من أكره».
 
 ## Full report (Arabic source text)
-<div dir="rtl" lang="ar">
 
 إلا من أكره أخرج الآيه ابن أبي حاتم عن ابن عباس قال لما أراد النبي أن يهاجر إلى المدينة أخذ المشركون بلالا وخبابا وعمار بن ياسر فأما عمار فقال لهم كلمة أعجبتهم تقية فلما رجع إلى رسول الله
-
-</div>
 
 ## Place in the museum
 Source: [[work/lubab-al-nuqul-suyuti|al-Suyuti's Lubab al-Nuqul]]. The verse: [[passage/quran-16-106|Qur'an 16-106]].

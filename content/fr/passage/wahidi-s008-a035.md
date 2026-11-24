@@ -11,11 +11,8 @@ Rapport d'al-Wahidi sur la circonstance de révélation de al-Anfal 8:35, transm
 The verse, in al-Wahidi's heading: «وما كان صلاتهم عند البيت ... .».
 
 ## Rapport complet (texte source arabe)
-<div dir="rtl" lang="ar">
 
 صفيرهم، ويضعون خدودهم بالأرض، فنزلت هذه الآية.
-
-</div>
 
 ## Place in the museum
 Source : [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an d'al-Wahidi]]. Le verset : [[passage/quran-8-35|Coran 8-35]].

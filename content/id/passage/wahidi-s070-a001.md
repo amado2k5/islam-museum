@@ -11,11 +11,8 @@ Riwayat al-Wahidi tentang sebab turunnya al-Ma'arij 70:1, diriwayatkan dalam Asb
 The verse, in al-Wahidi's heading: «سأل سائل بعذاب واقع».
 
 ## Laporan lengkap (teks sumber Arab)
-<div dir="rtl" lang="ar">
 
 نزلت في النضر بن الحارث حين قال: {اللهم إن كان هذا هو الحق من عندك}
-
-</div>
 
 ## Place in the museum
 Sumber: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an al-Wahidi]]. Ayatnya: [[passage/quran-70-1|Al-Qur'an 70-1]].

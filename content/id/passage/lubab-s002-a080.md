@@ -11,11 +11,8 @@ Riwayat as-Suyuti tentang sebab turunnya al-Baqara 2:80, dalam Lubab al-Nuqul fi
 The verse, in al-Suyuti's heading: «وقالوا لن تمسنا النار».
 
 ## Laporan lengkap (teks sumber Arab)
-<div dir="rtl" lang="ar">
 
 وقالوا لن تمسنا النار الآية أخرج الطبراني في الكبير وابن جرير وابن أبي حاتم من طريق ابن اسحق عن محمد بن أبي محمد عن عكرمة أو سعيد بن جبير عن ابن عباس قال قدم رسول الله المدينة ويهود تقول إنما مدة الدنيا سبعة آلاف سنة
-
-</div>
 
 ## Place in the museum
 Sumber: [[work/lubab-al-nuqul-suyuti|as-Suyuti Lubab al-Nuqul]]. Ayatnya: [[passage/quran-2-80|Al-Qur'an 2-80]].

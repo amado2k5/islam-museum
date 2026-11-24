@@ -11,11 +11,8 @@ Informe de al-Suyuti sobre la ocasión de revelación de Bara'a (at-Tawba) 9:28,
 The verse, in al-Suyuti's heading: «وإن خفتم عيلة».
 
 ## Informe completo (texto fuente en árabe)
-<div dir="rtl" lang="ar">
 
 وإن خفتم عيلة الآية أخرج ابن أبي حاتم عن ابن عباس قال كان المشركون يجيئون إلى البيت ويجيئون معهم بالطعام يتجرون فيه فلما نهوا عن أن يأتوا البيت قال المسلمون من أين لنا الطعام فأنزل الله وإن خفتم عيلة فسوف يغنيكم الله من فضله وأخرج
-
-</div>
 
 ## Place in the museum
 Fuente: [[work/lubab-al-nuqul-suyuti|de al-Suyuti Lubab al-Nuqul]]. El versículo: [[passage/quran-9-28|Corán 9-28]].

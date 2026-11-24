@@ -11,11 +11,8 @@ Informe de al-Wahidi sobre la ocasión de revelación de an-Nahl 16:38, transmit
 The verse, in al-Wahidi's heading: «وأقسموا بالله جهد أيمانهم لا يبعث الله من يموت».
 
 ## Informe completo (texto fuente en árabe)
-<div dir="rtl" lang="ar">
 
 يموت، فأنزل اللههذه الآية.
-
-</div>
 
 ## Place in the museum
 Fuente: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an de al-Wahidi]]. El versículo: [[passage/quran-16-38|Corán 16-38]].

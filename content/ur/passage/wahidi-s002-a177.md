@@ -11,11 +11,8 @@ al-Baqara 2:177 کے سببِ نزول پر الواحدی کی روایت — �
 The verse, in al-Wahidi's heading: «ليس البر أن تولوا وجوهكم».
 
 ## مکمل روایت ⁦(عربی ماخذ متن)⁩
-<div dir="rtl" lang="ar">
 
 قال قتادة: ذكر لنا أن رجلا سأل نبي الله- عن
-
-</div>
 
 ## Place in the museum
 ماخذ: [[work/asbab-nuzul-wahidi|الواحدی کی اسباب نزول القرآن]]۔ آیت: [[passage/quran-2-177|قرآن 2-177]]۔

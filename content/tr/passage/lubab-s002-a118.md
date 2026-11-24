@@ -11,11 +11,8 @@ al-Baqara 2:118 ayetinin nüzul sebebi hakkında es-Suyuti'nin rivayeti; Lübab�
 The verse, in al-Suyuti's heading: «وقال الذين لا يعلمون».
 
 ## Tam rivayet (Arapça kaynak metin)
-<div dir="rtl" lang="ar">
 
 وقال الذين لا يعلمون الآية أخرج ابن جرير وابن آبى حاتم من طريق سعيد أو عكرمة عن ابن عباس قال قال رافع بن خزيمة لرسول لله إن كنت رسولا من الله كما تقول فقل لله فيكلمنا حتى نسمع كلامه فأنزل الله في ذلك وقال الذين
-
-</div>
 
 ## Place in the museum
 Kaynak: [[work/lubab-al-nuqul-suyuti|es-Suyuti'nin Lubab al-Nuqul]]. Ayet: [[passage/quran-2-118|Kur'an 2-118]].

@@ -11,11 +11,8 @@ Al 'Imran 3:179 ayetinin nüzül sebebi hakkında El-Vahidi'nin rivayeti; Esbab 
 The verse, in al-Wahidi's heading: «ما كان الله ليذر المؤمنين على ما أنتم عليه».
 
 ## Tam rivayet (Arapça kaynak metin)
-<div dir="rtl" lang="ar">
 
 يعرفنا، فأنزل اللههذه الآية.
-
-</div>
 
 ## Place in the museum
 Kaynak: [[work/asbab-nuzul-wahidi|El-Vahidi'nin Esbab Nüzul el-Kur'an'ı]]. Ayet: [[passage/quran-3-179|Kur'an 3-179]].

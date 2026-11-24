@@ -11,11 +11,8 @@ Riwayat as-Suyuti tentang sebab turunnya al-Ma'ida 5:19, dalam Lubab al-Nuqul fi
 The verse, in al-Suyuti's heading: «يا أهل الكتاب قد جاءكم رسولنا».
 
 ## Laporan lengkap (teks sumber Arab)
-<div dir="rtl" lang="ar">
 
 يا أهل الكتاب قد جاءكم رسولنا الآية أخرج ابن جرير عن عكرمة قال إن نبي الله أتاه اليهود يسألونه عن الرجم فقال أيكم اعلم فأشاروا إلى ابن صوريا فناشده بالذي أنزل التوارة على موسى والذي رفع الطور والمواثيق التي أخذت عليهم
-
-</div>
 
 ## Place in the museum
 Sumber: [[work/lubab-al-nuqul-suyuti|as-Suyuti Lubab al-Nuqul]]. Ayatnya: [[passage/quran-5-19|Al-Qur'an 5-19]].

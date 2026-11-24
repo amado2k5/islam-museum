@@ -11,11 +11,8 @@ Rapport d'al-Wahidi sur la circonstance de révélation de an-Nahl 16:1, transmi
 The verse, in al-Wahidi's heading: «أتى أمر الله».
 
 ## Rapport complet (texte source arabe)
-<div dir="rtl" lang="ar">
 
 قال ابن عباس: لما أنزل الله: {اقتربت الساعة وانشق القمر} قال
-
-</div>
 
 ## Place in the museum
 Source : [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an d'al-Wahidi]]. Le verset : [[passage/quran-16-1|Coran 16-1]].

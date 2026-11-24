@@ -11,11 +11,8 @@ Informe de al-Wahidi sobre la ocasión de revelación de al-Baqara 2:221, transm
 The verse, in al-Wahidi's heading: «ولا تنكحوا المشركات حتى يؤمن».
 
 ## Informe completo (texto fuente en árabe)
-<div dir="rtl" lang="ar">
 
 حدثنا بكير بن معروف، عن مقاتل بن حيان قال: نزلت في أبي مرثد الغنوي،
-
-</div>
 
 ## Place in the museum
 Fuente: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an de al-Wahidi]]. El versículo: [[passage/quran-2-221|Corán 2-221]].

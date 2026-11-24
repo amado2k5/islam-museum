@@ -11,11 +11,8 @@ Rapport d'al-Wahidi sur la circonstance de révélation de Al 'Imran 3:111, tran
 The verse, in al-Wahidi's heading: «لن يضروكم إلا أذى».
 
 ## Rapport complet (texte source arabe)
-<div dir="rtl" lang="ar">
 
 صوريا عمدوا إلى مؤمنهم عبد الله بن سلام وأصحابه فآذوهم لإسلامهم، فأنزل
-
-</div>
 
 ## Place in the museum
 Source : [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an d'al-Wahidi]]. Le verset : [[passage/quran-3-111|Coran 3-111]].

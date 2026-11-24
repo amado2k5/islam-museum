@@ -11,11 +11,8 @@ Riwayat as-Suyuti tentang sebab turunnya an-Nahl 16:76, dalam Lubab al-Nuqul fi 
 The verse, in al-Suyuti's heading: «ضرب الله مثلا».
 
 ## Laporan lengkap (teks sumber Arab)
-<div dir="rtl" lang="ar">
 
 ضرب الله مثلا الآية أخرج ابن جرير عن ابن عباس في قوله ضرب الله مثلا عبدا مملوكا قال نزلت في رجل من قريش وعبده وفي قوله رجلين أحدهما أبكم قال نزلت في عثمان ومولى له كان يكره الإسلام ويأباه وينهاه عن الصدقة والمعروف فنزلت فيهما
-
-</div>
 
 ## Place in the museum
 Sumber: [[work/lubab-al-nuqul-suyuti|as-Suyuti Lubab al-Nuqul]]. Ayatnya: [[passage/quran-16-76|Al-Qur'an 16-76]].

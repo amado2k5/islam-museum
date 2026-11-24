@@ -11,11 +11,8 @@ al-Ahzab 33:51 کے سببِ نزول پر الواحدی کی روایت — «
 The verse, in al-Wahidi's heading: «ترجي من تشاء منهن».
 
 ## مکمل روایت ⁦(عربی ماخذ متن)⁩
-<div dir="rtl" lang="ar">
 
 قال المفسرون: نزلت حين غار بعض نساء النبي-
-
-</div>
 
 ## Place in the museum
 ماخذ: [[work/asbab-nuzul-wahidi|الواحدی کی اسباب نزول القرآن]]۔ آیت: [[passage/quran-33-51|قرآن 33-51]]۔
