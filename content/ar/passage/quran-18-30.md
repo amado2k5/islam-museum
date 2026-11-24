@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-6-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن الذين آمنوا وعملوا الصالحات لا يضيع الله أجر من أحسن عملاً، بل يجازيهم بجنات عدن تجري من تحتها الأنهار. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=18&tAyahNo=30&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «إِنَّ ٱلَّذِينَ آمَنُواْ وَعَمِلُواْ ٱلصَّالِحَاتِ إِنَّا لاَ نُضِيعُ أَجْرَ مَنْ أَحْسَنَ عَمَلاً»: إن الذين صدقوا الله ورسوله، وعملوا بطاعة الله، وانتهوا إلى أمره ونهيه، إنا لا نضيع ثواب من أحسن عملاً، فأطاع الله، واتبع أمره ونهيه، بل نجازيه بطاعته وعمله الحسن جنات عدن تجري من تحتها الأنهار. فإن قال قائل: وأين خَبَر «إنّ» الأولى؟
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=18&tAyahNo=30&tDisplay=yes&UserProfile=0&LanguageId=1

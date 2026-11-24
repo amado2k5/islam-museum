@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-6-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يفيد الطبري أن الله يقصّ نبأهم بالحق، فهم فتية آمنوا بربهم فزادهم هدى وربط على قلوبهم فقاموا وقالوا ربنا رب السماوات والأرض، ولو دعوا غيره لقالوا شططاً أي غلواً في الكذب. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=18&tAyahNo=13&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 13 إلى 14 مقطعاً واحداً. يفسّر قوله «نَحْنُ نَقُصُّ عَلَيْكَ نبَأَهُم بِٱلْحَقِّ إِنَّهُمْ فِتْيَةٌ آمَنُواْ بِرَبِّهِمْ وَزِدْنَاهُمْ هُدًى»: نحن يا محمد نقصّ عليك خبر هؤلاء الفتية الذين أوَوْا إلى الكهف بالحقّ، يعني: بالصدق واليقين الذي لا شكّ فيه «إنَّهُمْ فِتْيَةٌ آمَنُوا بِرَبِّهِمْ» يقول: إن الفتية الذين أوَوْا إلى الكهف الذين سألك عن نبئهم الملأ من مشركي قومك، فتية آمنوا بربهم، «وَزِدْناهُمْ هُدًى» يقول: وزدناهم إلى إيمانهم بربهم إيماناً، وبصيرة بدينهم، حتى صبروا على هجران دار قومهم، والهرب من بين أظهرهم بدينهم إلى الله، وفراق ما كانوا فيه من خفض العيش ولينه، إلى خشونة المكث في كهف الجبل. وينقل في المقطع أقوالاً عن قتادة وابن زيد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=18&tAyahNo=13&tDisplay=yes&UserProfile=0&LanguageId=1

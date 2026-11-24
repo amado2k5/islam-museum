@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-6-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن العالم ذكّر موسى بقوله إنك لن تستطيع معي صبراً، فاعتذر موسى بقوله لا تؤاخذني بما نسيت، ويعرض خلاف أهل التأويل: أكان نسياناً حقيقياً أم معارضة لا نسياناً للعهد. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=18&tAyahNo=72&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 72 إلى 73 مقطعاً واحداً. يفسّر قوله «قَالَ أَلَمْ أَقُلْ إِنَّكَ لَن تَسْتَطِيعَ مَعِيَ صَبْراً»: يقول عزّ ذكره: «قَالَ» العالم لموسى إذ قال له ما قال «أَلمْ أقُل إنَّكَ لَنْ تَسْتَطِيعَ مَعِيَ صَبْراً» على ما ترى من أفعالي، لأنك ترى ما لم تُحِط به خبراً قال له موسى: «لا تُؤَاخِذْنِي بِمَا نَسِيتُ». فاختلف أهل التأويل في معنى ذلك، فقال بعضهم: كان هذا الكلام من موسى للعالِم معارضة، لا أنه كان نسي عهده، وما كان تقدّم فيه حين استصحبه بقوله:«فإنِ اتَّبَعْتَنِي فَلا تَسألْنِي عَنْ شَيْءٍ حتى أُحْدِثَ لَكَ مِنْهُ ذِكْراً» وينقل في المقطع أقوالاً عن ابن عباس والحسن وسعيد بن جبير.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=18&tAyahNo=72&tDisplay=yes&UserProfile=0&LanguageId=1

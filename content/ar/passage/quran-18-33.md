@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-6-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري في وصف الجنتين إن كل واحدة منهما آتت ثمرها كاملاً ولم تنقص منه شيئاً، وفجّر الله خلالهما نهراً، ضمن شرحه للمثل. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=18&tAyahNo=33&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 33 إلى 35 مقطعاً واحداً. يفسّر قوله «وَٱضْرِبْ لهُمْ مَّثَلاً رَّجُلَيْنِ جَعَلْنَا لأَحَدِهِمَا جَنَّتَيْنِ مِنْ أَعْنَابٍ وَحَفَفْنَاهُمَا بِنَخْلٍ وَجَعَلْنَا بَيْنَهُمَا زَرْعاً»: واضرب يا محمد لهؤلاء المشركين بالله، الذين سألوك أن تطرُد الذين يدعون ربهم بالغداة والعشيّ يريدون وجهه، «مَثلاً» مثل «رَجُلَينِ جَعَلْنا لأَحَدهِما جَنَّتَيْنِ» أي جعلنا له بساتين من كروم «وحَفَفْناهُمَا بنَخْلٍ» يقول: وأطفنا هذين البساتين بنخل. وقوله: «وَجَعَلْنا بَيْنَهُما زَرْعاً» يقول: وجعلنا وسط هذين البساتين زرعاً. وقوله: «كِلْتا الجَنَّتَيْنِ آتَتْ أُكُلَها» يقول: كلا البستانين أطعم ثمره وما فيه من الغروس من النخل والكرم وصنوف الزرع. وينقل في المقطع أقوالاً عن مجاهد وقتادة وابن جريج.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=18&tAyahNo=33&tDisplay=yes&UserProfile=0&LanguageId=1

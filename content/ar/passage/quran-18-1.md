@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-6-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن الله حمد نفسه إذ اختص محمداً برسالته وأنزل عليه كتاباً قيماً لا عوج فيه. ويفسّر «قيّماً» بالمعتدل المستقيم، وقيل: القيّم على سائر الكتب تصدّقها. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=18&tAyahNo=1&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «ٱلْحَمْدُ لِلَّهِ ٱلَّذِي أَنْزَلَ عَلَىٰ عَبْدِهِ ٱلْكِتَابَ وَلَمْ يَجْعَل لَّهُ عِوَجَا»: قال أبو جعفر: يقول تعالى ذكره: الحمد لله الذي خصّ برسالته محمداً وانتخبه لبلاغها عنه، فابتعثه إلى خلقه نبياً مرسلاً، وأنزل عليه كتابه قيما، ولم يجعل له عِوَجاً. وعُنِي بقوله عزّ ذكره: «قَيِّما» معتدلاً مستقيماً. وقيل: عُنِي به: أنه قيم على سائر الكتب يصدّقها ويحفظها. وينقل في المقطع أقوالاً عن ابن عباس وقتادة والضحاك وابن إسحاق.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=18&tAyahNo=1&tDisplay=yes&UserProfile=0&LanguageId=1

@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-6-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يعرض الطبري اختلاف أهل التأويل في مدة لبثهم: قيل إن الآية حكاية عن أهل الكتاب، وقيل خبر من الله عن مدتهم، ويناقش حجة كل فريق. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=18&tAyahNo=25&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 25 إلى 26 مقطعاً واحداً. يفسّر قوله «وَلَبِثُواْ فِي كَهْفِهِمْ ثَلاثَ مِاْئَةٍ سِنِينَ وَٱزْدَادُواْ تِسْعاً»: اختلف أهل التأويل في معنى قوله «وَلَبَثُوا فِي كَهْفِهِمْ ثَلاثَ مِئَةٍ سِنِينَ وَازْدَادُوا تِسْعاً» فقال بعضهم: ذلك خبر من الله تعالى ذكره عن أهل الكتاب أنهم يقولون ذلك كذلك، واستشهدوا على صحة قولهم ذلك بقوله: «قُلِ اللّهُ أعْلَمُ بِمَا لَبِثُوا» وقالوا: لو كان ذلك خبرا من الله عن قدر لبثهم في الكهف، لم يكن لقوله «قُلِ اللّهُ أعْلَمُ بِمَا لَبِثُوا» وجه مفهوم، وقد أعلم الله خلقه مبلغ لبثهم فيه وقدره. وينقل في المقطع أقوالاً عن مجاهد وقتادة والضحاك وابن جريج وابن إسحاق.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=18&tAyahNo=25&tDisplay=yes&UserProfile=0&LanguageId=1

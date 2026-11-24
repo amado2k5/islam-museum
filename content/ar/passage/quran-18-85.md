@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-6-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يوضح الطبري أن ذا القرنين أتبع سبباً، أي سلك طريقاً ومنزلاً في سيره، ضمن شرحه لخبره الذي سأل عنه المشركون. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=18&tAyahNo=85&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 85 إلى 87 مقطعاً واحداً. يفسّر قوله «وَيَسْأَلُونَكَ عَن ذِي ٱلْقَرْنَيْنِ قُلْ سَأَتْلُواْ عَلَيْكُم مِّنْهُ ذِكْراً»: ويسألك يا محمد هؤلاء المشركون عن ذي القرنين ما كان شأنه، وما كانت قصته، فقل لهم: سأتلو عليكم من خبره ذكراً يقول: سأقصّ عليكم منه خبراً. وقد قيل: إن الذين سألوا رسول الله عن أمر ذي القرنين، كانوا قوما من أهل الكتاب. فأما الخبر بأن الذين سألوه عن ذلك كانوا مشركي قومه فقد ذكرناه قبل. وأما الخبر بأن الذين سألوه، كانوا قوماً من أهل الكتاب.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=18&tAyahNo=85&tDisplay=yes&UserProfile=0&LanguageId=1

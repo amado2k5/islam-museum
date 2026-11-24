@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-6-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يوضح الطبري أن الله صرّف في القرآن من كل مثل ليتذكروا، وكان الإنسان أكثر شيء جدلاً وخصومة لا ينيب إلى الحق. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=18&tAyahNo=54&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَلَقَدْ صَرَّفْنَا فِي هَٰذَا ٱلْقُرْآنِ لِلنَّاسِ مِن كُلِّ مَثَلٍ وَكَانَ ٱلإِنْسَانُ أَكْثَرَ شَيْءٍ جَدَلاً»: يقول عزّ ذكره: ولقد مثلنا في هذا القرآن للناس من كلّ مثل، ووعظناهم فيه من كلّ عظة، واحتججنا عليهم فيه بكلّ حجة ليتذكَّروا فينيبوا، ويعتبروا فيتعظوا، وينزجروا عما هم عليه مقيمون من الشرك بالله وعبادة الأوثان «وكانَ الإنْسانُ أكْثَرَ شَيْءٍ جَدَلاً» يقول: وكان الإنسان أكثر شيء مراء وخصومة، لا ينيب لحقّ، ولا ينزجر لموعظة، كما: قال ابن زيد، في قوله: «وكانَ الإنْسانُ أكْثَرَ شَيْءٍ جَدَلاً» قال: الجدل: الخصومة، خصومة القوم لأنبيائهم، وردّهم عليهم ما جاءوا به. وقرأ:«ما هَذَا إلاَّ بَشرٌ مِثْلُكُمْ يَأْكُلُ مِمَّا تَأْكُلُونَ» منه«وَيَشْرَبُ مِمِّا تَشْرَبُونَ» وقرأ:«يُرِيدُ أنْ يَتَفَضَّلَ عَلَيْكُمْ» وقرأ:«حتى تُوَفَّى... وينقل في المقطع أقوالاً عن ابن زيد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=18&tAyahNo=54&tDisplay=yes&UserProfile=0&LanguageId=1

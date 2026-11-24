@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-6-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن ذا القرنين قال إن ما مكّنه فيه ربه خير من أجرتهم، وطلب منهم أن يعينوه بقوة أي بعمّال وصناع يحسنون البناء، ليجعل بينهم وبين يأجوج ومأجوج ردماً. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=18&tAyahNo=95&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «قَالَ مَا مَكَّنِّي فِيهِ رَبِّي خَيْرٌ فَأَعِينُونِي بِقُوَّةٍ أَجْعَلْ بَيْنَكُمْ وَبَيْنَهُمْ رَدْماً»: قال ذو القرنين: الذي مكنني في عمل ما سألتموني من السدّ بينكم وبين هؤلاء القوم ربي، ووطأه لي، وقوّاني عليه، خير من جُعلكم، والأجرة التي تعرضونها عليّ لبناء ذلك، وأكثر وأطيب، ولكن أعينوني منكم بقوّة، أعينوني بفَعلة وصناع يُحسنون البناء والعمل. كما: قال: ثني حجاج، عن ابن جريج، عن مجاهد «ما مَكَّنِّي فِيهِ رَبّي خَيْرٌ فَأَعِينوني بقُوَةٍ» قال: برجال «أجْعَلْ بَيْنَكُمْ وَبَيْنَهُمْ رَدْماً» وقال ما مكني، فأدغم إحدى النونين في الأخرى، وإنما هو ما مكنني فيه. وقوله: «أجعَلْ بَيْنَكُمْ وَبَيْنَهُمْ رَدْماً» يقول: أجعل بينكم وبين يأجوج ومأجوج ردماً. وينقل في المقطع أقوالاً عن ابن عباس ومجاهد وقتادة وابن جريج.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=18&tAyahNo=95&tDisplay=yes&UserProfile=0&LanguageId=1

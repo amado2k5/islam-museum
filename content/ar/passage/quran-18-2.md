@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-6-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن القرآن أُنزل مستقيماً لينذر الناس بأساً شديداً من عند الله، وهو العذاب العاجل، وليبشّر المؤمنين الذين يعملون الصالحات بأن لهم أجراً حسناً ماكثين فيه أبداً. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=18&tAyahNo=2&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 2 إلى 3 مقطعاً واحداً. يفسّر قوله «قَيِّماً لِّيُنْذِرَ بَأْساً شَدِيداً مِّن لَّدُنْهُ وَيُبَشِّرَ ٱلْمُؤْمِنِينَ ٱلَّذِينَ يَعْمَلُونَ ٱلصَّالِحَاتِ أَنَّ لَهُمْ أَجْراً حَسَناً»: أنزل على عبده القرآن معتدلاً مستقيماً لا عوج فيه لينذركم أيها الناس بأساً من الله شديداً. وعنى بالبأس العذاب العاجل، والنكال الحاضر والسطوة. وقوله: «مِنْ لَدُنْه» يعني: من عند الله. وينقل في المقطع أقوالاً عن قتادة وابن إسحاق.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=18&tAyahNo=2&tDisplay=yes&UserProfile=0&LanguageId=1

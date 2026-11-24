@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-6-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن صاحبه المؤمن حاوره منكراً عليه الكفر بمن خلقه من تراب ثم من نطفة ثم سوّاه رجلاً، وقال: لكنّ أنا هو الله ربي ولا أشرك بربي أحداً. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=18&tAyahNo=37&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 37 إلى 38 مقطعاً واحداً. يفسّر قوله «قَالَ لَهُ صَاحِبُهُ وَهُوَ يُحَاوِرُهُ أَكَفَرْتَ بِٱلَّذِي خَلَقَكَ مِن تُرَابٍ ثُمَّ مِن نُّطْفَةٍ ثُمَّ سَوَّاكَ رَجُلاً»: قال لصاحب الجنتين صاحبه الذي هو أقلّ منه مالاً وولداً، «وَهُوَ يُحاوِرُهُ»: يقول: وهو يخاطبه ويكلمه: «أكَفَرْتَ بالَّذِي خَلَقَكَ مِنْ تُرَابٍ» يعني خلق أباك آدم من تراب «ثُمَّ مِنْ نُطْفَةٍ» يقول: ثم أنشأك من نطفة الرجل والمرأة، «ثم سوّاك رَجُلاً» يقول: ثم عَد لك بشراً سوياً رجلاً، ذكراً لا أنثى، يقول: أكفرت بمن فعل بك هذا أن يعيدك خلقاً جديداً بعد ما تصير رفاتاً «لَكِنَّ هُوَ اللّهُ رَبّي» يقول: أما أنا فلا أكفر بربي، ولكن أنا هو الله ربي، معناه أنه يقول: ولكن أنا أقول: هو الله ربي «وَلا أُشْرِكُ بِرَبيّ أحَداً».
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=18&tAyahNo=37&tDisplay=yes&UserProfile=0&LanguageId=1

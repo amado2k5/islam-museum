@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-6-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يفسّر الطبري «باخع نفسك» بقاتل نفسك ومهلكها حزناً على إعراض قومه عن الإيمان، ويستشهد بشعر ذي الرمة في استعمال الفعل. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=18&tAyahNo=6&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 6 إلى 8 مقطعاً واحداً. يفسّر قوله «فَلَعَلَّكَ بَاخِعٌ نَّفْسَكَ عَلَىٰ آثَارِهِمْ إِن لَّمْ يُؤْمِنُواْ بِهَٰذَا ٱلْحَدِيثِ أَسَفاً»: يعني تعالى ذكره بذلك: فلعلك يا محمد قاتلُ نفسك ومهلكها على آثار قومك الذين قالوا لك«لَنْ نُؤْمِنَ لَكَ حتى تَفْجُرَ لَنا مِنَ الأرْضِ يَنْبُوعاً» تمرّدا منهم على ربهم، إن هم لم يؤمنوا بهذا الكتاب الذي أنزلته عليك فيصدِّقوا بأنه من عند الله حزناً وتلهفاً ووجداً، بإدبارهم عنك، وإعراضهم عما أتيتهم به وتركهم الإيمان بك. يقال منه: بخع فلان نفسه يبخعها بَخْعا وبخوعا ومنه قول ذي الرُّمة:ألا أيُّهَذَا الباخِعُ الوَجْدُ نَفْسَهُ لِشَيْءٍ نَحَتْهُ عَنْ يَدَيْهِ المَقادِرُ يريد: نحَّته فخفف. وينقل في المقطع أقوالاً عن مجاهد وقتادة وابن جريج وابن إسحاق.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=18&tAyahNo=6&tDisplay=yes&UserProfile=0&LanguageId=1

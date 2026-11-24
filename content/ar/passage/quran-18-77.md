@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-6-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إنهما أتيا أهل قرية استطعماهم فأبوا أن يضيّفوهما، فوجدا فيها جداراً يريد أن ينقضّ أي يسقط، فأقامه، ويستشهد بشعر ذي الرمة. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=18&tAyahNo=77&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «فَٱنطَلَقَا حَتَّىٰ إِذَآ أَتَيَآ أَهْلَ قَرْيَةٍ ٱسْتَطْعَمَآ أَهْلَهَا فَأَبَوْاْ أَن يُضَيِّفُوهُمَا فَوَجَدَا فِيهَا جِدَاراً يُرِيدُ أَن يَنقَضَّ فَأَقَامَهُ قَالَ لَوْ شِئْتَ لَتَّخَذْتَ عَلَيْهِ أَجْراً»: فانطلق موسى والعالم «حَتَّى إذَا أتَيَا أهْلَ قَرْيَةٍ اسْتَطْعمَا أهْلَها» من الطعام فلم يطعموهما واستضافاهم «فَأبَوْا أن يُضَيِّفُوهُما فَوَجَدَا فِيها جِدَارا يُرِيدُ أنْ يَنْقَضَّ» يقول: وجدا في القرية حائطا يريد أن يسقط ويقع يقال منه: انقضّت الدار: إذا انهدمت وسقطت ومنه انقضاض الكوكب، وذلك سقوطه وزواله عن مكانه ومنه قول ذي الرُّمة:فانْقَضَّ كالكَوْكَبِ الدُّرّي مُنْصَلِتا وقد رُوي عن يحيى بن يعمر أنه قرأ ذلك: «يُرِيدُ أنْ يَنْقاضَّ». وينقل في المقطع أقوالاً عن قتادة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=18&tAyahNo=77&tDisplay=yes&UserProfile=0&LanguageId=1

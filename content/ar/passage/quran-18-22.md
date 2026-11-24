@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-6-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يذكر الطبري أن الخائضين اختلفوا في عدد الفتية فقال بعضهم ثلاثة رابعهم كلبهم، وبعضهم خمسة سادسهم كلبهم، وكلاهما رجم بالغيب أي ظن بلا علم. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=18&tAyahNo=22&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «سَيَقُولُونَ ثَلاثَةٌ رَّابِعُهُمْ كَلْبُهُمْ وَيَقُولُونَ خَمْسَةٌ سَادِسُهُمْ كَلْبُهُمْ رَجْماً بِٱلْغَيْبِ وَيَقُولُونَ سَبْعَةٌ وَثَامِنُهُمْ كَلْبُهُمْ قُل رَّبِّي أَعْلَمُ بِعِدَّتِهِم مَّا يَعْلَمُهُمْ إِلاَّ قَلِيلٌ فَلاَ تُمَارِ فِيهِمْ إِلاَّ مِرَآءً ظَاهِراً وَلاَ تَسْتَفْتِ فِيهِمْ مِّنْهُمْ أَحَداً»: سيقول بعض الخائضين في أمر الفِتْية من أصحاب الكهف، هم ثلاثة رابعهم كلبهم، ويقول بعضهم: هم خمسة سادسهم كلبهم «رجْماً بالغَيْبِ»: يقول: قذفا بالظنّ غير يقين علم، كما قال الشاعر:وأجْعَلُ مِنِّي الحَقَّ غَيْباً مُرَجَّمَا وينقل في المقطع أقوالاً عن ابن عباس وقتادة وعكرمة وابن زيد وابن جريج وسماك وغيرهم.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=18&tAyahNo=22&tDisplay=yes&UserProfile=0&LanguageId=1

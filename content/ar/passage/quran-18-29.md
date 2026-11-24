@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-6-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن على النبي أن يقول: الحق من ربكم، فمن شاء فليؤمن ومن شاء فليكفر، وأن الله أعدّ للظالمين ناراً أحاط بهم سرادقها. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=18&tAyahNo=29&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَقُلِ ٱلْحَقُّ مِن رَّبِّكُمْ فَمَن شَآءَ فَلْيُؤْمِن وَمَن شَآءَ فَلْيَكْفُرْ إِنَّا أَعْتَدْنَا لِلظَّالِمِينَ نَاراً أَحَاطَ بِهِمْ سُرَادِقُهَا وَإِن يَسْتَغِيثُواْ يُغَاثُواْ بِمَآءٍ كَٱلْمُهْلِ يَشْوِي ٱلْوجُوهَ بِئْسَ ٱلشَّرَابُ وَسَآءَتْ مُرْتَفَقاً»: وقل يا محمد لهؤلاء الذين أغفلنا قلوبهم عن ذكرنا، واتبعوا أهواءهم: الحقّ أيها الناس من عند ربكم، وإليه التوفيق والحذلان، وبيده الهدى والضلال يهدي من يشاء منكم للرشاد، فيؤمن، ويضلّ من يشاء عن الهدى فيكفر، ليس إليّ من ذلك شيء، ولست بطارد لهواكم من كان للحقّ متبعا، وبالله وبما أنزل عليّ مؤمناً، فإن شئتم فآمنوا، وإن شئتم فاكفروا، فإنكم إن كفرتم فقد أعدّ لكم ربكم على كفركم به نار أحاط بكم سرادقها، وإن آمنتم به وعملتم بطاعته، فإن لكم ما وصف الله لأهل طاعته. وينقل في المقطع أقوالاً عن ابن عباس ومجاهد وابن زيد وابن جريج.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=18&tAyahNo=29&tDisplay=yes&UserProfile=0&LanguageId=1

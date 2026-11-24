@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-6-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن الله ما أشهد إبليس وذريته خلق السماوات والأرض ولا خلق أنفسهم، وتفرّد بالخلق دون معين، فكيف يتخذونهم أولياء من دونه؟ {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=18&tAyahNo=51&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «مَّآ أَشْهَدتُّهُمْ خَلْقَ ٱلسَّمَٰوَٰتِ وَٱلأَرْضِ وَلاَ خَلْقَ أَنْفُسِهِمْ وَمَا كُنتُ مُتَّخِذَ ٱلْمُضِلِّينَ عَضُداً»: يقول عزّ ذكره: ما أشهدت إبليس وذرّيته «خَلْقَ السمَوَاتِ والأرْضِ» يقول: ما أحضرتهم ذلك فأستعين بهم على خلقها «وَلا خَلْقَ أنْفُسِهِمْ» يقول: ولا أشهدت بعضهم أيضاً خلق بعض منهم، فأستعين به على خلقه، بل تفرّدت بخلق جميع ذلك بغير معين ولا ظهير، يقول: فكيف اتخذوا عدوّهم أولياء من دوني، وهم خلق من خلق أمثالهم، وتركوا عبادتي وأنا المنعم عليهم وعلى أسلافهم، وخالقهم وخالق من يوالونه من دوني منفردا بذلك من غير معين ولا ظهير. وقوله: «وَما كُنْتُ مُتَّخِذَ المُضِلِّينَ عَضُداً» يقول: وما كنت متخذ من لا يهدى إلى الحقّ، ولكنه يضلّ، فمن تبعه يجور به عن قصد السبيل أعواناً وأنصاراً وهو من قولهم: فلان يعضد فلاناً إذا كان يقوّيه ويعينه. وينقل في المقطع أقوالاً عن قتادة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=18&tAyahNo=51&tDisplay=yes&UserProfile=0&LanguageId=1

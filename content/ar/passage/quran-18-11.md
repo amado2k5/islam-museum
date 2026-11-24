@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-6-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يذكر الطبري أن الله ضرب على آذانهم في الكهف سنين عدداً ثم بعثهم ليعلم أي الحزبين أحصى لما لبثوا أمداً، وفي الأمد قولان: البعيد، أو العدد. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=18&tAyahNo=11&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 11 إلى 12 مقطعاً واحداً. يفسّر قوله «فَضَرَبْنَا عَلَىٰ آذَانِهِمْ فِي ٱلْكَهْفِ سِنِينَ عَدَداً»: يعني جلّ ثناؤه بقوله: «فَضَرَبْنا على آذَانِهِمْ فِي الكَهْفِ»: فضربنا على آذانهم بالنوم في الكهف: أي ألقينا عليهم النوم، كما يقول القائل لآخر: ضربك الله بالفالِج، بمعنى ابتلاه الله به، وأرسله عليه. وقوله: «سِنِينَ عَدَداً» يعني سنين معدودة، ونصب العدد بقوله «فَضَرَبْنا». وينقل في المقطع أقوالاً عن ابن عباس ومجاهد وقتادة وابن جريج.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=18&tAyahNo=11&tDisplay=yes&UserProfile=0&LanguageId=1

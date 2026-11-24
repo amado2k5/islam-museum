@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-6-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يذكر الطبري أن الجدار كان لغلامين يتيمين في المدينة وتحته كنز لهما، ويعرض اختلاف أهل التأويل في الكنز، وأرجحها عنده ما رُوي عن ابن عباس أنه كنز علم أي صحف فيها علم. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=18&tAyahNo=82&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَأَمَّا ٱلْجِدَارُ فَكَانَ لِغُلاَمَيْنِ يَتِيمَيْنِ فِي ٱلْمَدِينَةِ وَكَانَ تَحْتَهُ كَنزٌ لَّهُمَا وَكَانَ أَبُوهُمَا صَالِحاً فَأَرَادَ رَبُّكَ أَن يَبْلُغَآ أَشُدَّهُمَا وَيَسْتَخْرِجَا كَنزَهُمَا رَحْمَةً مِّن رَّبِّكَ وَمَا فَعَلْتُهُ عَنْ أَمْرِي ذَلِكَ تَأْوِيلُ مَا لَمْ تَسْطِع عَّلَيْهِ صَبْراً»: يقول تعالى ذكره مخبراً عن قول صاحب موسى: وأما الحائط الذي أقمته، فإنه كان لغلامين يتيمين في المدينة، وكان تحته كنزلهما. اختلف أهل التأويل في ذلك الكنز، فقال بعضهم: كان صُحُفاً فيها علِم مدفونة. وينقل في المقطع أقوالاً عن ابن عباس ومجاهد والحسن وسعيد بن جبير وابن جريج.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=18&tAyahNo=82&tDisplay=yes&UserProfile=0&LanguageId=1

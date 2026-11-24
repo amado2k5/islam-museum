@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-6-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يفسّر الطبري قول ذي القرنين: أما من ظلم أي كفر فسوف نعذبه، أي نقتله، ثم يردّ إلى ربه فيعذبه عذاباً نكراً. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=18&tAyahNo=87&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «قَالَ أَمَّا مَن ظَلَمَ فَسَوْفَ نُعَذِّبُهُ ثُمَّ يُرَدُّ إِلَىٰ رَبِّهِ فَيُعَذِّبُهُ عَذَاباً نُّكْراً»: يقول جلّ ثناؤه «قال أمَّا مَنْ ظَلَمَ فَسَوْفَ نُعَذّبُهُ» يقول: أما من كفر فسوف نقتله، كما: أخبرنا معمر، عن قتادة، في قوله: «أمَّا مَنْ ظَلَمَ فَسَوْفَ نُعَذّبُهُ» قال: هو القتل. وقوله: «ثُمَّ يُرَدُّ إلى رَبِّهِ فَيُعَذّبُهُ عَذَاباً نُكْراً» يقول: ثم يرجع إلى الله تعالى بعد قتله، فيعذّبه عذاباًعظيماً، وهو النكر، وذلك عذاب جهنم. وينقل في المقطع أقوالاً عن قتادة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=18&tAyahNo=87&tDisplay=yes&UserProfile=0&LanguageId=1

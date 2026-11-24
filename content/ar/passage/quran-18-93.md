@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-6-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يذكر الطبري أنه وجد من دونهما قوماً لا يكادون يفقهون قولاً، ضمن شرحه لوصوله بين السدين. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=18&tAyahNo=93&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 93 إلى 95 مقطعاً واحداً. يفسّر قوله «ثُمَّ أَتْبَعَ سَبَباً»: ثم سار طرقاً ومنازل، وسلك سبلاً «حَتَى إذَا بَلَغَ بينَ السَّدَّيْنِ». واختلفت القرّاء في قراءة ذلك، فقرأته عامة قرّاء المدينة بعض الكوفيين: «حَتَى إذَا بَلَغَ بينَ السَّدَّيْنِ» بضمّ السين وكذلك جميع ما في القرآن من ذلك بضم السين. وكان بعض قرّاء المكيين يقرؤه بفتح ذلك كله. وكان أبو عمرو بن العلاء يفتح السين في هذه السورة، ويضمّ السين في يس، ويقول: السدَّ بالفتح: هو الحاجز بينك وبين الشيء والسدُّ بالضم: ما كان من غشاوة في العين. وأما الكوفيون فإن قراءة عامتهم في جميع القرآن بفتح السين غير قوله: «حَتَى إذَا بَلَغَ بينَ السَّدَّيْنِ» فإنهم ضموا السين في ذلك خاصة. وينقل في المقطع أقوالاً عن ابن عباس وقتادة وعكرمة وابن جريج وعطاء.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=18&tAyahNo=93&tDisplay=yes&UserProfile=0&LanguageId=1

@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-6-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن الله يقول لنبيه: لا تحسب أصحاب الكهف والرقيم عجباً من آياتنا، فما خلق من السماوات والأرض أعجب من أمرهم، وحجته ثابتة على المشركين. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=18&tAyahNo=9&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «أَمْ حَسِبْتَ أَنَّ أَصْحَابَ ٱلْكَهْفِ وَٱلرَّقِيمِ كَانُواْ مِنْ آيَاتِنَا عَجَباً»: أم حسبت يا محمد أن أصحاب الكهف والرقيم كانوا من آياتنا عَجَبا، فإن ما خلقت من السموات والأرض، وما فيهنّ من العجائب أعجب من أمر أصحاب الكهف، وحجتي بكل ذلك ثابتة على هؤلاء المشركين من قومك، وغيرهم من سائر عبادي. وينقل في المقطع أقوالاً عن ابن عباس ومجاهد وقتادة وابن جريج وابن إسحاق.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=18&tAyahNo=9&tDisplay=yes&UserProfile=0&LanguageId=1
