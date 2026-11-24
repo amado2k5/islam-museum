@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-9-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يذكر الطبري أن إبراهيم مال على آلهة قومهم ضرباً باليمين بفأس في يده يكسرها، فأقبلوا إليه يزفون، فقال أتعبدون ما تنحتون والله خلقكم وما تعملون. وهذا التفسير مشترك بين الآيات 93 إلى 96. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=37&tAyahNo=93&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 93 إلى 96 مقطعاً واحداً. يفسّر قوله «فَرَاغَ عَلَيْهِمْ ضَرْباً بِٱلْيَمِينِ»: فمال على آلهة قومه ضرباً لها باليمين بفأس في يده يكسرهنّ، كما: ثني أبي، قال: ثني عمي، قال: ثني أبي، عن أبيه، عن ابن عباس قال: لما خلا جعل يضرب آلهتهم باليمين. حُدثت عن الحسين، قال: سمعت أبا معاذ يقول: سمعت الضحاك، فذكر مثله. وعن قتادة «فَرَاغَ عَلَيْهِمْ ضَرْباً باليَمِينِ» فأقبل عليهم يكسرهم. عن ابن إسحاق: ثم أقبل عليهم كما قال الله ضرباً باليمين، ثم جعل يكسرهنّ بفأس في يده. وينقل في المقطع أقوالاً عن ابن عباس ومجاهد وقتادة والحسن والكسائي وابن إسحاق.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=37&tAyahNo=93&tDisplay=yes&UserProfile=0&LanguageId=1

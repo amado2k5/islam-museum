@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-9-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-لم يُفرد الطبري لهذه الآية تعليقاً مستقلاً في الصفحة المحفوظة، بل جاء تفسيرها ضمن تفسير الآيات 54–57. يذكر الطبري أن هذا المؤمن يقول لأصحابه هل أنتم مطلعون، فاطلع فرآه في سواء الجحيم، أي في وسطها، وقال تالله إن كدت لتردين ولولا نعمة ربي لكنت من المحضرين. وهذا التفسير مشترك بين الآيات 54 إلى 57. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=37&tAyahNo=55&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 55 إلى 58 مقطعاً واحداً. يفسّر قوله «قَالَ هَلْ أَنتُمْ مُّطَّلِعُونَ»: قال هذا المؤمن الذي أُدخل الجنة لأصحابه: «هل أنتم مُطَّلِعون» في النار، لعليّ أرى قريني الذي كان يقول لي: إنك لمن المصَدِّقين بأنا مبعوثون بعد الممات. وقوله: وينقل في المقطع أقوالاً عن ابن عباس وقتادة والحسن.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=37&tAyahNo=55&tDisplay=yes&UserProfile=0&LanguageId=1

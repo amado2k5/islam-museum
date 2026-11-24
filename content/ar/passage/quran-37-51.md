@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-9-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يذكر الطبري قول قائل من أهل الجنة إني كان لي قرين، ويختلف أهل التأويل في القرين: فقال بعضهم كان شيطاناً يقول له أئنك لمن المصدقين بالبعث، أئذا متنا وكنا تراباً وعظاماً أئنا لمدينون. وهذا التفسير مشترك بين الآيات 51 إلى 53. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=37&tAyahNo=51&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 51 إلى 53 مقطعاً واحداً. يفسّر قوله «قَالَ قَآئِلٌ مِّنْهُمْ إِنِّي كَانَ لِي قَرِينٌ»: قال قائل من أهل الجنة إذ أقبل بعضهم على بعض يتساءلون: «إني كانَ لي قَرِينٌ» فاختلف أهل التأويل في القرين الذي ذُكر في هذا الموضع، فقال بعضهم: كان ذلك القرين شيطاناً، وهو الذي كان يقول له: «أئِنَّكَ لَمِنَ المُصَدِّقِينَ» بالبعث بعد الممات. وينقل في المقطع أقوالاً عن ابن عباس ومجاهد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=37&tAyahNo=51&tDisplay=yes&UserProfile=0&LanguageId=1

@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-9-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يذكر الطبري أن نوحاً نادى ربه بعد أن دعا قومه ليلاً ونهاراً فلم يزدهم دعاؤه إلا فراراً، فنعم المجيبون نحن، ونجّيناه وأهله من الكرب العظيم وجعلنا ذريته هم الباقين. وهذا التفسير مشترك بين الآيات 75 إلى 77. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=37&tAyahNo=75&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 75 إلى 77 مقطعاً واحداً. يفسّر قوله «وَلَقَدْ نَادَانَا نُوحٌ فَلَنِعْمَ ٱلْمُجِيبُونَ»: لقد نادانا نوح بمسألته إيانا هلاك قومه، فقال:«رَبّ إنّي دَعَوْتُ قَوْمي لَيْلاً ونهاراً فَلَمْ يَزِدْهُمْ دُعائي إلاَّ فِرَاراً» إلى قوله:«رَبّ لا تَذَرْ على الأرْضِ مِنَ الكافِرِينَ دَيَّاراً» وقوله: «فَلَنِعْمَ المُجِيبُونَ» يقول: فلنعم المجيبون كنا له إذ دعانا، فأجبنا له دعاءه، فأهلكنا قومه «وَنَجَّيْناهُ وأهْلَهُ» يعني: أهل نوح الذين ركبوا معه السفينة. وقد ذكرناهم فيما مضى قبل، وبيَّنا اختلاف العلماء في عددهم. وينقل في المقطع أقوالاً عن ابن عباس وقتادة والحسن.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=37&tAyahNo=75&tDisplay=yes&UserProfile=0&LanguageId=1

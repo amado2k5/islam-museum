@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-9-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-لم يُفرد الطبري لهذه الآية تعليقاً مستقلاً في الصفحة المحفوظة، بل جاء تفسيرها ضمن تفسير الآيات 38–41. يخاطب الله المشركين بأنهم لذائقو العذاب الأليم وما تجزون إلا ما كنتم تعملون، إلا عباد الله المخلصين أولئك لهم رزق معلوم فواكه وهم مكرمون. وهذا التفسير مشترك بين الآيات 38 إلى 41. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=37&tAyahNo=41&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 38 إلى 41 مقطعاً واحداً. يفسّر قوله «أُوْلَئِكَ لَهُمْ رِزْقٌ مَّعْلُومٌ»: هؤلاء هم عباد الله المخلَصون لهم رزق معلوم وذلك الرزق المعلوم: هو الفواكه التي خلقها الله لهم في الجنة، كما: وعن قتادة «أُولَئِكَ لَهُمْ رِزْقٌ معْلُومٌ» في الجنة. وعن السديّ، في قوله: «أُولئكَ لَهُمْ رِزْقٌ مَعْلُومٌ» قال: في الجنة. وينقل في المقطع أقوالاً عن قتادة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=37&tAyahNo=41&tDisplay=yes&UserProfile=0&LanguageId=1

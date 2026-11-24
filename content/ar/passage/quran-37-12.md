@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-9-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-لم يُفرد الطبري لهذه الآية تعليقاً مستقلاً في الصفحة المحفوظة، بل جاء تفسيرها ضمن تفسير الآيات 11–12. يأمر الله نبيه أن يسأل المنكرين للبعث أهم أشد خلقاً أم من خلقنا من الملائكة والسماوات والأرض، فإنا خلقناهم من طين لازب. وهذا التفسير مشترك بين الآيتين 11 و12. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=37&tAyahNo=12&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 12 إلى 13 مقطعاً واحداً. يفسّر قوله «فَٱسْتَفْتِهِمْ أَهُمْ أَشَدُّ خَلْقاً أَم مَّنْ خَلَقْنَآ إِنَّا خَلَقْنَاهُم مِّن طِينٍ لاَّزِبٍ»: فاستفت يا محمد هؤلا المشركين الذي يُنكرون البعث بعد الممات والنشور بعد البلاء: يقول: فسَلْهم: أهم أشدّ خلقاً؟ يقول: أخلقُهم أشدّ؟ أم يخلق من عددنا خلقه من الملائكة والشياطين والسموات والأرض؟ وذُكر أن ذلك في قراءة عبد الله بن مسعود: «أهُمْ أشَدُّ خَلْقاً أمْ مَنْ عَدَدْنا»؟. وينقل في المقطع أقوالاً عن ابن عباس ومجاهد وقتادة والضحاك والأعمش.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=37&tAyahNo=12&tDisplay=yes&UserProfile=0&LanguageId=1

@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-9-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-لم يُفرد الطبري لهذه الآية تعليقاً مستقلاً في الصفحة المحفوظة، بل جاء تفسيرها ضمن تفسير الآيات 71–74. يبيّن الطبري أنه ضلّ قبل مشركي قريش أكثر الأمم الخالية، وأن الله أرسل فيهم منذرين فانظر كيف كان عاقبة المنذَرين، إلا عباد الله المخلصين. وهذا التفسير مشترك بين الآيات 71 إلى 74. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=37&tAyahNo=73&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 71 إلى 74 مقطعاً واحداً. يفسّر قوله «فَٱنظُرْ كَيْفَ كَانَ عَاقِبَةُ ٱلْمُنذَرِينَ»: فتأمل وتبين كيف كان غِبُّ أمر الذين أنذَرْتهم أنبياؤنا، وإلاَمَ صار أمرهم، وما الذي أعقبهم كفرهم بالله، ألم نهلكهم فنصيرهم للعباد عِبرة ولمن بعدهم عظة؟. وقوله:
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=37&tAyahNo=73&tDisplay=yes&UserProfile=0&LanguageId=1

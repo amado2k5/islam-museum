@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-9-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-لم يُفرد الطبري لهذه الآية تعليقاً مستقلاً في الصفحة المحفوظة، بل جاء تفسيرها ضمن تفسير الآيات 13–14. يبيّن الطبري أن هؤلاء المشركين إذا ذُكّروا بحجج الله لا ينتفعون بالتذكير، وإذا رأوا آية استسخروا، وقالوا إن هذا إلا سحر مبين. وهذا التفسير مشترك بين الآيتين 13 و14. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=37&tAyahNo=14&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 13 إلى 14 مقطعاً واحداً. يفسّر قوله «وَإِذَا رَأَوْاْ آيَةً يَسْتَسْخِرُونَ»: وإذا رأوا حُجَّة من حجج الله عليهم، ودلالة على نبوّة نبيه محمد يستسخرون: يقول: يسخرون ويستهزئون. وينقل في المقطع أقوالاً عن مجاهد وقتادة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=37&tAyahNo=14&tDisplay=yes&UserProfile=0&LanguageId=1

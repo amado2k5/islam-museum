@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-9-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-لم يُفرد الطبري لهذه الآية تعليقاً مستقلاً في الصفحة المحفوظة، بل جاء تفسيرها ضمن تفسير الآيات 48–50. يذكر الطبري أن عندهم قاصرات الطرف عين، وهنّ نساء قصرن أبصارهن على أزواجهن، كأنهن بيض مكنون. وهذا التفسير مشترك بين الآيات 48 إلى 50. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=37&tAyahNo=50&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 50 إلى 52 مقطعاً واحداً. يفسّر قوله «وَعِندَهُمْ قَاصِرَاتُ ٱلطَّرْفِ عِينٌ»: وعند هؤلاء المخلَصين من عباد الله في الجنة قاصرات الطرف، وهنّ النساء اللواتي قَصَرْن أطرافهنّ على بُعُولتهنّ، لا يُرِدْن غيرهم، ولا يَمْدُدْن أبصارهنّ إلى غيرهم. وينقل في المقطع أقوالاً عن ابن عباس ومجاهد وقتادة وابن زيد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=37&tAyahNo=50&tDisplay=yes&UserProfile=0&LanguageId=1

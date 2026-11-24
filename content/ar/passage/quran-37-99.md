@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-9-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-لم يُفرد الطبري لهذه الآية تعليقاً مستقلاً في الصفحة المحفوظة، بل جاء تفسيرها ضمن تفسير الآيات 97–100. يذكر الطبري أن قوم إبراهيم قالوا ابنوا له بنياناً فألقوه في الجحيم، فأرادوا به كيداً فجعلهم الله الأسفلين، وقال إني ذاهب إلى ربي سيهدين ربّ هب لي من الصالحين. وهذا التفسير مشترك بين الآيات 97 إلى 100. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=37&tAyahNo=99&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 97 إلى 100 مقطعاً واحداً. يفسّر قوله «وَقَالَ إِنِّي ذَاهِبٌ إِلَىٰ رَبِّي سَيَهْدِينِ»: وقال إبراهيم لما أفْلَجَه الله على قومه ونجاه من كيدهم: «إنّي ذاهِبٌ إلى رَبّي» يقول: إني مهاجِرٌ من بلدة قومي إلى الله: أي إلى الأرض المقدَّسة، ومفارقهم، فمعتزلهم لعبادة الله. وكان قتادة يقول في ذلك ما: وعن قتادة: «وَقالَ إنّي ذاهِبٌ إلى رَبِّي سَيَهْدِينِ»: ذاهب بعمله وقلبه ونيته. وقال آخرون في ذلك: إنما قال إبراهيم «إنّي ذاهِبٌ إلى رَبّي» حني أرادوا أن يُلْقُوه في النار. وينقل في المقطع أقوالاً عن قتادة وإبراهيم.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=37&tAyahNo=99&tDisplay=yes&UserProfile=0&LanguageId=1

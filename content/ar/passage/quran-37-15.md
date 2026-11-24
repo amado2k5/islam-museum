@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-9-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يذكر الطبري أن المشركين قالوا للنبي ما جئتنا به إلا سحر مبين، وأنكروا البعث بعد أن يصيروا تراباً وعظاماً هم وآباؤهم الأولون، فيأمره الله أن يقول نعم وأنتم داخرون، فإنما هي زجرة واحدة فإذا هم ينظرون. وهذا التفسير مشترك بين الآيات 15 إلى 19. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=37&tAyahNo=15&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 15 إلى 19 مقطعاً واحداً. يفسّر قوله «وَقَالُوۤاْ إِن هَٰذَآ إِلاَّ سِحْرٌ مُّبِينٌ»: وقال هؤلاء المشركون من قُرَيش بالله لمحمد: ما هذا الذي جئتنا به إلاَّ سحرٌ مبين. يقول: يبين لمن تأمله ورآه أنه سحر «أئِذَا مِتْنا وكُنَّا تُرَاباً وَعِظاماً أئِنَّا لَمَبْعُوثُونَ» يقولون، منكرين بعث الله إياهم بعد بلائهم: أئنا لمبعوثون أحياء من قبورنا بعد مماتنا، ومصيرنا تراباً وعظاماً، قد ذهب عنها اللحوم وينقل في المقطع أقوالاً عن قتادة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=37&tAyahNo=15&tDisplay=yes&UserProfile=0&LanguageId=1
