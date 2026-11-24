@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-6-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يشرح الطبري أن بعض الفتية قال لبعض: إذا اعتزلتم قومكم وما يعبدون من دون الله فأووا إلى الكهف ينشر لكم ربكم من رحمته، ويفسّر الاستثناء في الكلام. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=18&tAyahNo=16&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَإِذِ ٱعْتَزَلْتُمُوهُمْ وَمَا يَعْبُدُونَ إِلاَّ ٱللَّهَ فَأْوُوا إِلَى ٱلْكَهْفِ يَنْشُرْ لَكُمْ رَبُّكُم مِّن رَّحْمَتِهِ وَيُهَيِّئْ لَكُمْ مِّنْ أَمْرِكُمْ مِّرْفَقاً»: يقول تعالى ذكره مخبراً عن قيل بعض الفتية لبعض: وإذا اعتزلتم أيها الفتية قومكم الذين اتخذوا من دون الله آلهة «وَما يَعْبُدُونَ إلاَّ اللّهَ» يقول: وإذا اعتزلتم قومكم الذين يعبدون من الآلهة سوى الله، ف «ما» إذ كان ذلك معناه في موضع نصب عطفاً لها على الهاء، والميم التي في قوله «وإذِ اعْتَزَلْتُمُوهُمْ». وينقل في المقطع أقوالاً عن قتادة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=18&tAyahNo=16&tDisplay=yes&UserProfile=0&LanguageId=1

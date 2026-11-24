@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-6-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن ما منع هؤلاء الإيمان بعد مجيء الهدى إلا أن تأتيهم سنة الأولين أو يأتيهم العذاب قُبُلاً، أي عياناً أو فجأة، وفي «قبل» خلاف أهل التأويل. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=18&tAyahNo=55&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَمَا مَنَعَ ٱلنَّاسَ أَن يُؤْمِنُوۤاْ إِذْ جَآءَهُمُ ٱلْهُدَىٰ وَيَسْتَغْفِرُواْ رَبَّهُمْ إِلاَّ أَن تَأْتِيَهُمْ سُنَّةُ ٱلأَوَّلِينَ أَوْ يَأْتِيَهُمُ ٱلْعَذَابُ قُبُلاً»: يقول عزّ ذكره: وما منع هؤلاء المشركين يا محمد الإيمان بالله إذ جاءهم الهدى بيان الله، وعلموا صحة ما تدعوهم إليه وحقيقته، والاستغفار مما هم عليه مقيمون من شركهم، إلا مجيئهم سنتنا في أمثالهم من الأمم المكذبة رسلها قبلهم، أو إتيانهم العذاب قُبُلا. واختلف أهل التأويل في تأويل ذلك، فقال بعضهم: معناه: أو يأتيهم العذاب فجأة. وينقل في المقطع أقوالاً عن مجاهد وابن زيد وابن جريج.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=18&tAyahNo=55&tDisplay=yes&UserProfile=0&LanguageId=1

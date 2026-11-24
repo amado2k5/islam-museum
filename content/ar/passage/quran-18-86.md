@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-6-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يعرض الطبري اختلاف القراء في «عين حمئة» أي ذات حمأة و«حامية» أي حارة، ويذكر أن ذا القرنين وجد الشمس تغرب عند قوم، وخيّره الله في أمرهم. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=18&tAyahNo=86&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «حَتَّىٰ إِذَا بَلَغَ مَغْرِبَ ٱلشَّمْسِ وَجَدَهَا تَغْرُبُ فِي عَيْنٍ حَمِئَةٍ وَوَجَدَ عِندَهَا قَوْماً قُلْنَا يٰذَا ٱلْقَرْنَيْنِ إِمَّآ أَن تُعَذِّبَ وَإِمَّآ أَن تَتَّخِذَ فِيهِمْ حُسْناً»: «حتى إذَا بَلَغَ» ذو القرنين «مَغْرِبَ الشَّمْسِ وَجَدَها تَغْرُبُ في عَيْنٍ حَمِئَةٍ»، فاختلفت القرّاء في قراءة ذلك، فقرأه بعض قرّاء المدينة والبصرة: «في عَيْنٍ حَمِئَةٍ» بمعنى: أنها تغرب في عين ماء ذات حمأة، وقرأته جماعة من قراء المدينة، وعامَّة قرّاء الكوفة: «في عَيْنٍ حَامِيَةٍ» يعني أنها تغرب في عين ماء حارّة. واختلف أهل التأويل في تأويلهم ذلك على نحو اختلاف القرّاء في قراءته. وينقل في المقطع أقوالاً عن ابن عباس ومجاهد وقتادة وعكرمة وابن جريج وعطاء.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=18&tAyahNo=86&tDisplay=yes&UserProfile=0&LanguageId=1

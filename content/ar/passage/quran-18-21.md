@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-6-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن الله أطلع الناس عليهم ليعلموا أن وعده حق وأن الساعة لا ريب فيها، وتنازعوا في أمرهم فقال بعضهم ابنوا عليهم بنياناً، وقال الغالبون نتخذنّ عليهم مسجداً. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=18&tAyahNo=21&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَكَذٰلِكَ أَعْثَرْنَا عَلَيْهِمْ لِيَعْلَمُوۤاْ أَنَّ وَعْدَ ٱللَّهِ حَقٌّ وَأَنَّ ٱلسَّاعَةَ لاَ رَيْبَ فِيهَا إِذْ يَتَنَازَعُونَ بَيْنَهُمْ أَمْرَهُمْ فَقَالُواْ ٱبْنُواْ عَلَيْهِمْ بُنْيَاناً رَّبُّهُمْ أَعْلَمُ بِهِمْ قَالَ ٱلَّذِينَ غَلَبُواْ عَلَىٰ أَمْرِهِمْ لَنَتَّخِذَنَّ عَلَيْهِمْ مَّسْجِداً»: وكما بعثناهم بعد طول رقدتهم كهيئتهم ساعة رقدوا، ليتساءلوا بينهم، فيزدادوا بعظيم سلطان الله بصيرة، وبحسن دفاع الله عن أوليائه معرفة «كَذلكَ أعْثَرْنا عَلَيْهِمْ» يقول: كذلك أطلعنا عليهم الفريق الآخر الذين كانوا في شكّ من قُدرة الله على إحياء الموتى، وفي مِرْية من إنشاء أجسام خلقه، كهيئتهم يوم قبضهم بعد البِلَى، فيعلموا أن وعْد الله حقّ، ويُوقنوا أن الساعة آتية لا ريب فيها. وينقل في المقطع أقوالاً عن ابن عباس وقتادة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=18&tAyahNo=21&tDisplay=yes&UserProfile=0&LanguageId=1

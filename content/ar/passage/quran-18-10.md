@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-6-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يشرح الطبري أن الفتية أووا إلى الكهف هرباً بدينهم، فدعوا ربهم أن يؤتيهم رحمة من عنده ويهيّئ لهم من أمرهم رشداً، أي يسّر لهم ما يبتغون من رضاه. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=18&tAyahNo=10&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «إِذْ أَوَى ٱلْفِتْيَةُ إِلَى ٱلْكَهْفِ فَقَالُواْ رَبَّنَآ آتِنَا مِن لَّدُنكَ رَحْمَةً وَهَيِّىءْ لَنَا مِنْ أَمْرِنَا رَشَداً»: «أمْ حَسِبْتَ أنَّ أصحَابَ الكَهْفِ والرَّقِيمِ كانُوا مِنْ آياتِنا عَجَباً» حين أوى الفتية أصحاب الكهف إلى كهف الجبل، هرباً بدينهم إلى الله، فقالوا إذ أووه: «رَبَّنا آتِنا مِنْ لَدُنْكَ رَحْمَةً» رغبة منهم إلى ربهم، في أن يرزقهم من عنده رحمة. وقوله: «وَهَيِّىءْ لَنا مِنْ أمْرِنا رَشَداً» يقول: وقالوا: يسِّر لنا بما نبتغي وما نلتمس من رضاك والهرب من الكفر بك، ومن عبادة الأوثان التي يدعونا إليها قومنا، «رَشَداً» يقول: سَداداً إلى العمل بالذي تحبّ. وينقل في المقطع أقوالاً عن ابن إسحاق.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=18&tAyahNo=10&tDisplay=yes&UserProfile=0&LanguageId=1

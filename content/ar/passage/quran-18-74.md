@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-6-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يذكر الطبري قتل العالم للغلام وإنكار موسى عليه قتل نفس زكية، ويعرض اختلاف القراء بين «زاكية» أي المطهرة التي لا ذنب لها، و«زكية» أي التائبة المغفور لها. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=18&tAyahNo=74&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «فَٱنْطَلَقَا حَتَّىٰ إِذَا لَقِيَا غُلاَماً فَقَتَلَهُ قَالَ أَقَتَلْتَ نَفْساً زَكِيَّةً بِغَيْرِ نَفْسٍ لَّقَدْ جِئْتَ شَيْئاً نُّكْراً»: «فانطلقا حتى إذا لقيا غلاماً فقتله» العالم، ف «قال» له موسى: «أقتلت نفساً زكية». واختلفت القرّاء في قراءة ذلك، فقرأته عامة قرّاء الحجاز والبصرة: «أقَتَلْتَ نَفْساً زَاكِيَةً» وقالوا معنى ذلك: المطهرة التي لا ذنب لها، ولم تذنب قطّ لصغرها. وقرأ ذلك عامة قرّاء أهل الكوفة: «نَفْساً زَكِيَّةً» بمعنى: التائبة المغفور لها ذنوبها. وينقل في المقطع أقوالاً عن ابن عباس وقتادة والحسن وابن جريج.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=18&tAyahNo=74&tDisplay=yes&UserProfile=0&LanguageId=1

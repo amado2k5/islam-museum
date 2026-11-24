@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-6-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يفسّر الطبري أن الله أمر نبيه أن يصبر نفسه مع الذين يدعون ربهم بالغداة والعشي يريدون وجهه، وألا يطيع من أغفل الله قلبه عن ذكره واتبع هواه. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=18&tAyahNo=28&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَٱصْبِرْ نَفْسَكَ مَعَ ٱلَّذِينَ يَدْعُونَ رَبَّهُم بِٱلْغَدَاةِ وَٱلْعَشِيِّ يُرِيدُونَ وَجْهَهُ وَلاَ تَعْدُ عَيْنَاكَ عَنْهُمْ تُرِيدُ زِينَةَ ٱلْحَيَاةِ ٱلدُّنْيَا وَلاَ تُطِعْ مَنْ أَغْفَلْنَا قَلْبَهُ عَن ذِكْرِنَا وَٱتَّبَعَ هَوَاهُ وَكَانَ أَمْرُهُ فُرُطاً»: «وَاصْبِرْ» يا محمد «نَفْسَكَ مَعَ» أصحابك «الَّذِينَ يَدْعُونَ رَبَّهُمْ بالغَدَاةِ والعَشِيّ» بذكرهم إياه بالتسبيح والتحميد والتهليل والدعاء والأعمال الصالحة من الصلوات المفروضة وغيرها «يُرِيدُونَ» بفعلهم ذلك «وَجْهَهُ» لا يريدون عرضا من عرض الدنيا. وقد ذكرنا اختلاف المختلفين في قوله «يَدْعُونَ رَبَّهُمْ بالغَدَاةِ والعَشِيّ» في سورة الأنعام، والصواب من القول في ذلك عندنا، فأغنى ذلك عن إعادته في هذا الموضع. وينقل في المقطع أقوالاً عن ابن عباس وابن زيد وابن جريج.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=18&tAyahNo=28&tDisplay=yes&UserProfile=0&LanguageId=1

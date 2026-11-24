@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-6-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن المجرمين يرون النار فيظنون أنهم مواقعوها ولم يجدوا عنها مصرفاً، ضمن شرحه لما سيلقاه المشركون يوم القيامة. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=18&tAyahNo=53&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 53 إلى 54 مقطعاً واحداً. يفسّر قوله «وَيَوْمَ يَقُولُ نَادُواْ شُرَكَآئِيَ ٱلَّذِينَ زَعَمْتُمْ فَدَعَوْهُمْ فَلَمْ يَسْتَجِيبُواْ لَهُمْ وَجَعَلْنَا بَيْنَهُم مَّوْبِقاً»: يقول عزّ ذكره «وَيَوْمَ يَقُولُ» الله عزّ ذكره للمشركين به الآلهة والأنداد «نادُوا شُرَكائيَ الَذِينَ زَعَمْتُمْ» يقول لهم: ادعوا الذين كنتم تزعمون أنهم شركائي في العبادة لينصروكم ويمنعوكم مني «فَدَعَوهُمْ فَلَمْ يَسْتَجِيبُوا لَهُمْ» يقول: فاستغاثوا بهم فلم يغيثوهم «وجَعَلْنا بَيْنَهُمْ مَوْبِقاً». فاختلف أهل التأويل في معنى ذلك، فقال بعضهم: معناه: وجعلنا بين هؤلاء المشركين وما كانوا يدعون من دون الله شركاء في الدنيا يومئذٍ عداوة. وينقل في المقطع أقوالاً عن ابن عباس ومجاهد وقتادة والضحاك والحسن وابن زيد وغيرهم.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=18&tAyahNo=53&tDisplay=yes&UserProfile=0&LanguageId=1

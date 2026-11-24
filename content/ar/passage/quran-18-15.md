@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-6-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن الفتية قالوا عن قومهم الذين اتخذوا آلهة: هلا يأتون عليها بحجة بيّنة، ومن أظلم ممن افترى على الله كذباً. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=18&tAyahNo=15&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «هَٰؤُلاۤءِ قَوْمُنَا ٱتَّخَذُواْ مِن دُونِهِ آلِهَةً لَّوْلاَ يَأْتُونَ عَلَيْهِم بِسُلْطَانٍ بَيِّنٍ فَمَنْ أَظْلَمُ مِمَّنِ ٱفْتَرَىٰ عَلَى ٱللَّهِ كَذِباً»: يقول عزّ ذكره مخبراً عن قيل الفتية من أصحاب الكهف: هؤلاء قومنا اتخذوا من دون الله آلهة يعبدونها من دونه «لَوْلا يَأْتُونَ عَلَيْهمْ بسُلْطانٍ بَيِّنٍ» يقول: هلا يأتون على عبادتهم إياها بحجة بينة. وفي الكلام محذوف اجتزىء بما ظهر عما حذف، وذلك في قوله: «لَوْلا يَأْتُونَ عَلَيْهمْ بسُلْطانٍ بَيِّنٍ» فالهاء والميم في عليهم من ذكر الآلِهة، والآلهة لا يؤتى عليها بسلطان، ولا يُسأل السلطان عليها، وإنما يسأل عابدوها السلطان على عبادتهموها، فمعلوم إذ كان الأمر كذلك، أن معنى الكلام: لولا يأتون على عبادتهموها، واتخاذهموها آلهة من دون الله بسلطان بين. وبنحو ما قلنا في معنى السلطان، قال أهل التأويل. وينقل في المقطع أقوالاً عن قتادة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=18&tAyahNo=15&tDisplay=yes&UserProfile=0&LanguageId=1

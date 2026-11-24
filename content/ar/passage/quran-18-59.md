@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-6-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن تلك القرى، كعاد وثمود وأصحاب الأيكة، أهلكها الله لما ظلموا وجعل لهلاكهم موعداً، وكذلك سيفعل بالمشركين من قومك. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=18&tAyahNo=59&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَتِلْكَ ٱلْقُرَىٰ أَهْلَكْنَاهُمْ لَمَّا ظَلَمُواْ وَجَعَلْنَا لِمَهْلِكِهِم مَّوْعِداً»: وتلك القُرى من عاد وثمود وأصحاب الأيكة أهلكنا أهلها لما ظلموا، فكفروا بالله وآياته، «وَجَعَلْنا لِمَهْلِكِهِمْ مَوْعِداً» يعني ميقاتاً وأجلاً، حين بلغوه جاءهم عذاب فأهلكناهم به، يقول: فكذلك جعلنا لهؤلاء المشركين من قومك يا محمد الذين لا يؤمنون بك أبداً موعداً، إذا جاءهم ذلك الموعد أهلكناهم سنتنا في الذين خلوا من قبلهم من ضربائهم كما: وعن ابن أبي نجيح، عن مجاهد، قوله: «لِمَهْلِكِهِمْ مَوْعِداً» قال: أجلاً. ثني الحسين، قال: ثني حجاج، عن ابن جريج، عن مجاهد، مثله. واختلفت القرّاء في قراءة قوله «لِمَهْلِكِهِمْ» فقرأ ذلك عامَّة قرّاء الحجاز والعراق: «لِمُهْلِكِهمْ» بضمّ الميم وفتح اللام على توجيه ذلك إلى أنه مصدر من أهلكوا إهلاكاً. وينقل في المقطع أقوالاً عن مجاهد وابن جريج.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=18&tAyahNo=59&tDisplay=yes&UserProfile=0&LanguageId=1

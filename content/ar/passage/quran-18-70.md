@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-6-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن العالم اشترط على موسى إن اتبعه ألا يسأله عن شيء حتى يحدث له منه ذكراً، أي يبيّن له شأنه. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=18&tAyahNo=70&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «قَالَ فَإِنِ ٱتَّبَعْتَنِي فَلاَ تَسْأَلْني عَن شَيءٍ حَتَّىٰ أُحْدِثَ لَكَ مِنْهُ ذِكْراً»: يقول تبارك وتعالى: قال العالم لموسى: فإن اتبعتني الآن فلا تسألني عن شيء أعمله مما تستنكره، فإني قد أعلمتك أني أعمل العمل على الغيب الذي لا تحيط به علما «حتى أُحْدِثَ لَكَ مِنْهُ ذِكْراً» يقول: حتى أحدث أنا لك مما ترى من الأفعال التي أفعلها التي تستنكرها أذكرها لك وأبين لك شأنها، وأبتدئك الخبر عنها، كما: ثني أبي، قال: ثني عمي، قال: ثني أبي، عن أبيه، عن ابن عباس «فَلا تَسأَلْنِي عَنْ شَيْءٍ حتى أُحْدِثَ لَكَ مِنْهُ ذِكْراً» يعني عن شيء أصنعه حتى أبين لك شأنه. وينقل في المقطع أقوالاً عن ابن عباس.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=18&tAyahNo=70&tDisplay=yes&UserProfile=0&LanguageId=1

@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-6-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يفسّر الطبري الآية بقول المؤمن لصاحبه: هلا قلتَ عند دخولك بستانك ما شاء الله لا قوة إلا بالله، وإن ترنِ أنا أقلّ منك مالاً وولداً. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=18&tAyahNo=39&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَلَوْلاۤ إِذْ دَخَلْتَ جَنَّتَكَ قُلْتَ مَا شَآءَ ٱللَّهُ لاَ قُوَّةَ إِلاَّ بِٱللَّهِ إِن تَرَنِ أَنَاْ أَقَلَّ مِنكَ مَالاً وَوَلَداً»: يقول عزّ ذكره: وهلا إذ دخلت بستانك، فأعجبك ما رأيت منه، قلت ما شاء الله كان وفي الكلام محذوف استغني بدلالة ما ظهر عليه منه، وهو جواب الجزاء، وذلك كان. وإذا وجه الكلام إلى هذا المعنى الذي قلنا كانت «ما» نصباً بوقوع فعل الله عليه، وهو شاء وجاز طرح الجواب، لأن معنى الكلام معروف، كما قيل: فإن استطعت أن تبتغي نفقاً في الأرض، وترك الجواب، إذ كان مفهوماً معناه. وكان بعض أهل العربية يقول «ما» من قوله: «ما شاءَ اللّهُ» في موضع رفع بإضمار هو، كأنه قيل: قلت هو ما شاء الله «لا قُوَّةَ إلاَّ باللّهِ» يقول: لا قوّة على ما نحاول من طاعته إلا به.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=18&tAyahNo=39&tDisplay=yes&UserProfile=0&LanguageId=1

@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-6-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن ذا القرنين قال هذا رحمة من ربي، فإذا جاء وعد ربي جعله دكاء أي مستوياً بالأرض، وكان وعد ربي حقاً. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=18&tAyahNo=98&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «قَالَ هَٰذَا رَحْمَةٌ مِّن رَّبِّي فَإِذَا جَآءَ وَعْدُ رَبِّي جَعَلَهُ دَكَّآءَ وَكَانَ وَعْدُ رَبِّي حَقّاً»: يقول عزّ ذكره: فلما رأى ذو القرنين أن يأجوج ومأجوج لا يستطيعون أن يظهروا ما بني من الردم، ولا يقدرون عل نقبه، قال: هذا الذي بنيته وسوّيته حاجزاً بين هذه الأمة، ومن دون الردم رحمة من ربي رحم بها من دون الردم من الناس، فأعانني برحمته لهم حتى بنيته وسوّيته ليكفّ بذلك غائلة هذه الأمة عنهم. وقوله: «فإذَا جاءَ وَعْدُ رَبّي جَعَلَهُ دَكَّاءَ» يقول: فإذا جاء وعد ربي الذي جعله ميقاتاً لظهور هذه الأمة وخروجها من وراء هذا الردم لهم، جعله دكاء، يقول: سوّاه بالأرض، فألزقه بها، من قولهم: ناقة دكاء: مستوية الظهر لا سنام لها. وإنما معنى الكلام: جعله مدكوكا، فقيل: دكاء. وينقل في المقطع أقوالاً عن قتادة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=18&tAyahNo=98&tDisplay=yes&UserProfile=0&LanguageId=1

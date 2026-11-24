@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-6-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن المؤمن رجا أن يرزقه ربه خيراً من بستان صاحبه وأن يرسل على جنته حسباناً من السماء أي عذاباً يُرمى به، فتصبح صعيداً زلقاً، أو يغور ماؤها فلا يُدرك. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=18&tAyahNo=40&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 40 إلى 41 مقطعاً واحداً. يفسّر قوله «فعسَىٰ رَبِّي أَن يُؤْتِيَنِ خَيْراً مِّن جَنَّتِكَ وَيُرْسِلَ عَلَيْهَا حُسْبَاناً مِّنَ ٱلسَّمَآءِ فَتُصْبِحَ صَعِيداً زَلَقاً»: يقول تعالى ذكره مخبراً عن قيل المؤمن الموقن للمعاد إلى الله للكافر المرتاب في قيام الساعة: إن تَرَن أيها الرجل أنا أقلّ مالاً وولداً في الدنيا، فعسى ربي أن يرزقني خيراً من بستانك هذا «وَيُرْسِلَ عَلَيْها» يعني على جنة الكافر التي قال لها: ما أظنّ أن تبيد هذه أبداً «حُسْباناً مِنَ السَّماءِ» يقول: عذابا من السماء ترمي به رميا، وتقذف. والحُسْبان: جمع حُسْبانة، وهي المرامي. وينقل في المقطع أقوالاً عن ابن عباس وقتادة والضحاك وابن زيد وابن جريج.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=18&tAyahNo=40&tDisplay=yes&UserProfile=0&LanguageId=1

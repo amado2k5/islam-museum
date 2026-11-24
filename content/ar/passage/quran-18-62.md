@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-6-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن موسى قال لفتاه لما جاوزا المكان: آتنا غداءنا لقد لقينا من سفرنا هذا نصباً، أي تعباً، وإنما أصابه الجوع ليتذكر الحوت فيرجع. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=18&tAyahNo=62&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «فَلَمَّا جَاوَزَا قَالَ لِفَتَٰهُ آتِنَا غَدَآءَنَا لَقَدْ لَقِينَا مِن سَفَرِنَا هَٰذَا نَصَباً»: «فلما جاوز» موسى وفتاه مجمع البحرين، «قال» موسى «لفتاه» يوشع «آتِنا غَدَاءَنا» يقول: جئنا بغدائنا وأعطناه، وقال: آتنا غداءنا، كما يقال: أتى الغداء وأتيته، مثل ذهب وأذهبته، «لَقَدْ لَقِينا مِنْ سَفَرِنا هَذَا نَصَباً» يقول: لقد لقينا من سفرنا هذا عناء وتعباً وقال ذلك موسى، فيما ذُكر، بعد ما جاوز الصخرة، حين ألقي عليه الجوع ليتذكر الحوت، ويرجع إلى موضع مطلبه.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=18&tAyahNo=62&tDisplay=yes&UserProfile=0&LanguageId=1

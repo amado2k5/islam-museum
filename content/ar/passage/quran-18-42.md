@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-6-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن الهلاك أحاط بثمره فأصبح الكافر يقلّب كفيه تلهفاً وأسفاً على ما أنفق فيها وهي خاوية على عروشها، وقال: يا ليتني لم أشرك بربي أحداً. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=18&tAyahNo=42&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَأُحِيطَ بِثَمَرِهِ فَأَصْبَحَ يُقَلِّبُ كَفَّيْهِ عَلَى مَآ أَنْفَقَ فِيهَا وَهِيَ خَاوِيَةٌ عَلَىٰ عُرُوشِهَا وَيَقُولُ يٰلَيْتَنِي لَمْ أُشْرِكْ بِرَبِّي أَحَداً»: وأحاط الهلاك والجوائح بثمره، وهي صنوف ثمار جنته التي كان يقول لها:«ما أظُنُّ أنْ تَبِيدَ هَذِهِ أبَداً» فأصبح هذا الكافر صاحب هاتين الجنتين، يقلب كفَّيه ظهرا لبطن، تلهفاً وأسفاً على ذهاب نفقته التي أنفق في جنته «وَهِيَ خاوِيَةٌ على عُرُوشِها» يقول: وهي خالية على نباتها وبيوتها. وينقل في المقطع أقوالاً عن قتادة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=18&tAyahNo=42&tDisplay=yes&UserProfile=0&LanguageId=1

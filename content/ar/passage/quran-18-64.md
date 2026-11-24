@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-6-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يذكر الطبري قول موسى: ذلك ما كنا نبغي، لأنه أُخبر أن صاحبه حيث ينسى الحوت، فارتدا على آثارهما قصصاً. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=18&tAyahNo=64&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 64 إلى 65 مقطعاً واحداً. يفسّر قوله «قَالَ ذَلِكَ مَا كُنَّا نَبْغِ فَٱرْتَدَّا عَلَىٰ آثَارِهِمَا قَصَصاً»: ف «قال» موسى لفتاه «ذلكَ» يعني بذلك: نسيانك الحوت «وما كُنَّا نَبْغِ» يقول: الذي كنا نلتمس ونطلب، لأن موسى كان قيل له صاحبك الذي تريده حيث تنسى الحوت، كما: وعن ابن أبي نجيح، عن مجاهد، قوله: «ذلكَ ما كُنَّا نَبْغِ» قال موسى: فذلك حين أخبرت أني واجد خضراً حيث يفوتني الحوت. وقال: ثني حجاج، عن ابن جريج، عن مجاهد، مثله، إلا أنه قال: حيث يفارقني الحوت. وقوله: «فارْتَدَّا على آثارِهِما قَصَصَاً» يقول: فرجعا في الطريق الذي كانا قطعاه ناكصين على أديارهما يقصان آثارهما التي كانا سلكاهما. وينقل في المقطع أقوالاً عن ابن عباس ومجاهد وقتادة وابن جريج.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=18&tAyahNo=64&tDisplay=yes&UserProfile=0&LanguageId=1

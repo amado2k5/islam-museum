@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-6-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري كذلك وقد أحطنا بما لديه خبراً، أي أن الله علم ما عند ذي القرنين من علم وقوة، ضمن شرحه لخبر سيره. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=18&tAyahNo=91&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 91 إلى 93 مقطعاً واحداً. يفسّر قوله «ثُمَّ أَتْبَعَ سَبَباً»: ثم سار وسلك ذو القرنين طرقا ومنازل، كما: ثني أبي، قال: ثني عمي، قال: ثني أبي، عن أبيه، عن ابن عباس قوله: «ثُمَّ أتْبَعَ سَبَباً» يعني منزلاً. وعن قتادة «ثُمَّ أتْبَعَ سَبَباً»: منازل الأرض ومعالمها. وينقل في المقطع أقوالاً عن ابن عباس وقتادة والحسن وابن جريج.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=18&tAyahNo=91&tDisplay=yes&UserProfile=0&LanguageId=1

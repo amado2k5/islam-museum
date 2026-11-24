@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-6-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يوضح الطبري أن الولاية يومئذ لله الحق، وهو خير ثواباً وخير عقباً، ضمن شرحه لخاتمة المثل وأنه لا ناصر للكافر من دون الله. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=18&tAyahNo=44&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 44 إلى 45 مقطعاً واحداً. يفسّر قوله «وَلَمْ تَكُن لَّهُ فِئَةٌ يَنصُرُونَهُ مِن دُونِ ٱللَّهِ وَمَا كَانَ مُنْتَصِراً»: ولم يكن لصاحب هاتين الجنتين فِئَة، وهم الجماعة كما قال العَجَّاج:كمَا يَحُوزُّ الفِئَةُ الكَمِيّ وبنحو ما قلنا في ذلك، قال أهل التأويل، وإن خالف بعضهم في العبارة عنه عبارتنا، فإن معناهم نظير معنانا فيه. وينقل في المقطع أقوالاً عن مجاهد وقتادة وابن جريج.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=18&tAyahNo=44&tDisplay=yes&UserProfile=0&LanguageId=1

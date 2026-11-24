@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-6-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يوضح الطبري أنهما حين بلغا مجمع البحرين نسيا حوتهما فاتخذ سبيله في البحر سرباً، وينقل عن مجاهد أن المجمع بين البحرين. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=18&tAyahNo=61&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «فَلَمَّا بَلَغَا مَجْمَعَ بَيْنِهِمَا نَسِيَا حُوتَهُمَا فَٱتَّخَذَ سَبِيلَهُ فِي ٱلْبَحْرِ سَرَباً»: يعني تعالى ذكره: فلما بلغ موسى وفتاه مجمع البحرين، كما: قال: جميعا عن ابن أبي نجيح، عن مجاهد، قوله «مَجْمَعَ بَيْنِهِما» قال: بين البحرين. وقال: ثني حجاج، عن ابن جريج، عن مجاهد، مثله. وقوله: «نَسيا حُوَتهُما» يعني بقوله: نسيا: تركا، كما: قال: جميعا عن ابن أبي نجيح، عن مجاهد «نَسيَا حُوَتهُما» قال: أضلاه. وقال: ثني حجاج، عن ابن جريج، عن مجاهد، قال: أضلاه. قال بعض أهل العربية: إن الحوت كان مع يوشع، وهو الذي نسيه، فأضيف النسيان إليهما، كما قال:«يَخْرُجُ مِنْهُما اللُّؤْلُؤُ والمَرْجانُ» وإنما يخرج من الملح دون العذب. وينقل في المقطع أقوالاً عن ابن عباس ومجاهد وابن جريج.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=18&tAyahNo=61&tDisplay=yes&UserProfile=0&LanguageId=1

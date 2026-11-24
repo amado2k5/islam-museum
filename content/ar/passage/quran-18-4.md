@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-6-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يوضح الطبري أن النبي يُنذر أيضاً الذين قالوا اتخذ الله ولداً، ويرى أن المقصود قريش حين زعموا أن الملائكة بنات الله، وأنهم لا علم لهم بذلك وقولهم كذب. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=18&tAyahNo=4&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 4 إلى 5 مقطعاً واحداً. يفسّر قوله «وَيُنْذِرَ ٱلَّذِينَ قَالُواْ ٱتَّخَذَ ٱللَّهُ وَلَداً»: ويحذر أيضاً محمد القوم الَّذِين قالُوا «اتَّخَذَ اللّهُ وَلَداً» من مشركي قومه وغيرهم، بأسَ الله وعاجلَ نقمته، وآجل عذابه، على قيلهم ذلك، كما: عن ابن إسحاق «وَيُنْذِرَ الَّذِينَ قالُوا اتَّخَذَ اللّهُ وَلَداً» يعني قريشا في قولهم: إنما نعبد الملائكة، وهنّ بنات الله. وقولهم: «ما لَهُمْ بِهِ مِنْ عِلْمٍ» يقول: ما لقائلي هذا القول، يعني قولهم «اتَّخَذَ اللّهُ وَلَداً» «بِهِ»: يعني بالله من علم، والهاء في قوله «بِهِ» من ذكر الله. وإنما معنى الكلام: ما لهؤلاء القائلين هذا القول بالله، إنه لا يجوز أن يكون له ولد من علم، فلجهلهم بالله وعظمته قالوا ذلك. وينقل في المقطع أقوالاً عن ابن إسحاق.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=18&tAyahNo=4&tDisplay=yes&UserProfile=0&LanguageId=1
