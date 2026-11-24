@@ -1,0 +1,47 @@
+id: person/jeffrey-lang
+class: person
+label: { ar: "جيفري لانغ", en: "Jeffrey Lang", ur: "جیفری لینگ", fr: "Jeffrey Lang", es: "Jeffrey Lang", tr: "Jeffrey Lang", id: "Jeffrey Lang" }
+names:
+  - { value: "Jeffrey Lang", kind: full }
+  - { value: "Jeffrey Lang (mathematician)", kind: full }
+  - { value: "جيفري لانغ", kind: full }
+  - { value: "جیفری لینگ", kind: full }
+gender: male
+summary:
+  ar: "عالم رياضيات وكاتب أمريكي، وُلد في 30 يناير 1954 في بريدجبورت بولاية كونيتيكت لأسرة كاثوليكية، وصار ملحدًا في الثامنة عشرة، ثم اعتنق الإسلام سنة 1982 وهو في الثامنة والعشرين بعد حوارات مع زملاء وطلاب مسلمين وقراءته القرآن. يعمل أستاذًا للرياضيات في جامعة كانساس، وله «حتى الملائكة تسأل: رحلة إلى الإسلام في أمريكا»."
+  en: "American mathematician and writer, born on 30 January 1954 at Bridgeport, Connecticut, into a Catholic family. He became an atheist by the age of eighteen and embraced Islam in 1982, aged 28, after conversations with Muslim colleagues and students and his own reading of the Qur'an. He is a professor of mathematics at the University of Kansas and the author of Even Angels Ask: A Journey to Islam in America."
+  ur: "امریکی ریاضی دان اور مصنف، جو 30 جنوری 1954 کو برج پورٹ، کنیکٹی کٹ میں ایک کیتھولک گھرانے میں پیدا ہوئے۔ وہ اٹھارہ برس کی عمر تک ملحد ہو چکے تھے، اور 1982 میں 28 برس کی عمر میں مسلمان رفقا اور طلبہ سے گفتگو اور قرآن کے اپنے مطالعے کے بعد اسلام لائے۔ وہ یونیورسٹی آف کنساس میں ریاضی کے پروفیسر ہیں اور «ایون اینجلز آسک: امریکہ میں اسلام کی طرف ایک سفر» کے مصنف ہیں۔"
+  fr: "Mathématicien et écrivain américain, né le 30 janvier 1954 à Bridgeport (Connecticut) dans une famille catholique. Devenu athée à dix-huit ans, il embrassa l'islam en 1982, à 28 ans, après des conversations avec des collègues et des étudiants musulmans et sa propre lecture du Coran. Il est professeur de mathématiques à l'Université du Kansas et l'auteur de *Even Angels Ask: A Journey to Islam in America*."
+  es: "Matemático y escritor estadounidense, nacido el 30 de enero de 1954 en Bridgeport (Connecticut) en una familia católica. Se hizo ateo hacia los dieciocho años y abrazó el islam en 1982, a los 28, tras conversaciones con colegas y estudiantes musulmanes y su propia lectura del Corán. Es profesor de matemáticas en la Universidad de Kansas y autor de *Even Angels Ask: A Journey to Islam in America*."
+roles: [mathematician, professor, writer]
+regions: [americas-oceania]
+wings: [people, living]
+themes: [converts-and-leavers]
+born:
+  edtf: "1954-01-30"
+  hijri: "1373"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born on 30 January 1954 at Bridgeport, Connecticut (IslamReligion.com and Islamweb; Wikidata gives the same date). No place entity for Bridgeport exists, so no born_in relation is written. The Hijri year is derived by tabular conversion."
+  sources: [source/islamreligion-jeffrey-lang-2006, source/islamweb-jeffrey-lang-2008, source/wikidata-jeffrey-lang]
+relations:
+  - { type: authored, target: work/even-angels-ask, sources: [source/meq-pipes-review-lang-1998, source/islamreligion-jeffrey-lang-2006] }
+story_roles:
+  - { role: convert, start: { edtf: "1982" }, status: historical, note: "Embraced Islam in 1982 at the age of 28 per Daniel Pipes's review in the Middle East Quarterly; IslamReligion.com describes the same step without a year.", sources: [source/meq-pipes-review-lang-1998, source/islamreligion-jeffrey-lang-2006] }
+faith:
+  - value: unknown
+    basis: unknown
+    start: { edtf: "1982" }
+    note: "Embraced Islam in 1982 (two texts: IslamReligion.com and the Middle East Quarterly review). He was born into a Catholic family and was an atheist from about eighteen, recorded in the prose as background. No source read names a legal school or an order for him, so none is recorded. Living person: only what the published sources state."
+    sources: [source/islamreligion-jeffrey-lang-2006, source/meq-pipes-review-lang-1998]
+external_ids: { wikidata: "Q3176711" }
+sources: [source/wikidata-jeffrey-lang, source/islamreligion-jeffrey-lang-2006, source/islamweb-jeffrey-lang-2008, source/meq-pipes-review-lang-1998]
+provenance:
+  layer: own-research
+  source: "Wikidata Q3176711, the IslamReligion.com profile (16 January 2006), the Islamweb piece (30 July 2008) and Daniel Pipes's Middle East Quarterly review (Winter 1998), all read on 23 November 2026. No English Wikipedia article was found, so none is cited. No earlier record existed in data/person/. A living person: only what these published sources state, nothing private."
+  generated_by: "Claude Code"
+  model: "claude-sonnet-5-5"
+  run: converts-wave2
+status: { review: published, completeness: 3, generated_by: "Claude Code" }

@@ -1,0 +1,55 @@
+id: person/murad-wilfried-hofmann
+class: person
+label: { ar: "مراد فيلفريد هوفمان", en: "Murad Wilfried Hofmann", ur: "مراد ولفریڈ ہوف مین", fr: "Murad Wilfried Hofmann", es: "Murad Wilfried Hofmann", tr: "Murad Wilfried Hofmann", id: "Murad Wilfried Hofmann" }
+names:
+  - { value: "Murad Wilfried Hofmann", kind: full }
+  - { value: "Murad Hofmann", kind: full }
+  - { value: "Wilfried Hofmann", kind: full }
+  - { value: "مراد هوفمان", kind: full }
+  - { value: "مراد ولفریڈ ہوف مین", kind: full }
+gender: male
+summary:
+  ar: "دبلوماسي وحقوقي وكاتب ألماني وُلد سنة 1931 في أشافنبورغ ببافاريا لأسرة كاثوليكية، وخدم في السلك الدبلوماسي الألماني من 1961 إلى 1994، وكان سفيرًا لبلاده في الجزائر ثم المغرب. اعتنق الإسلام سنة 1980، وكتب «الإسلام كبديل» و«رحلة إلى مكة»، وكان مستشارًا وعضوًا فخريًا في المجلس المركزي لمسلمي ألمانيا. توفي في بون سنة 2020."
+  en: "German diplomat, jurist and author, born in 1931 at Aschaffenburg, Bavaria, into a Catholic family. He served in the German Foreign Service from 1961 to 1994, as ambassador to Algeria and then to Morocco. He embraced Islam in 1980, wrote Islam: The Alternative and Journey to Makkah, and was an honorary member and adviser of the Central Council of Muslims in Germany. He died at Bonn in 2020."
+  ur: "جرمن سفارت کار، قانون دان اور مصنف جو 1931 میں باویریا کے شہر اشافنبرگ میں ایک کیتھولک گھرانے میں پیدا ہوئے۔ انھوں نے 1961 سے 1994 تک جرمن فارن سروس میں کام کیا اور الجزائر اور پھر مراکش میں سفیر رہے۔ انھوں نے 1980 میں اسلام قبول کیا، «اسلام: متبادل» اور «سفر مکہ» لکھیں اور جرمنی کی مسلم مرکزی کونسل کے اعزازی رکن اور مشیر رہے۔ 2020 میں بون میں وفات پائی۔"
+  fr: "Diplomate, juriste et auteur allemand, né en 1931 à Aschaffenburg (Bavière) dans une famille catholique. Il servit dans le service diplomatique allemand de 1961 à 1994, comme ambassadeur en Algérie puis au Maroc. Il embrassa l'islam en 1980, écrivit *L'Islam comme alternative* et *Voyage à La Mecque*, et fut membre d'honneur et conseiller du Conseil central des musulmans d'Allemagne. Il mourut à Bonn en 2020."
+  es: "Diplomático, jurista y autor alemán, nacido en 1931 en Aschaffenburg (Baviera) en una familia católica. Sirvió en el servicio exterior alemán de 1961 a 1994, como embajador en Argelia y luego en Marruecos. Abrazó el islam en 1980, escribió *El islam como alternativa* y *Viaje a La Meca*, y fue miembro honorario y asesor del Consejo Central de los Musulmanes de Alemania. Murió en Bonn en 2020."
+roles: [diplomat, lawyer, writer]
+regions: [andalus-europe, maghreb]
+wings: [people]
+themes: [converts-and-leavers]
+born:
+  edtf: "1931-07-06"
+  hijri: "1350"
+  calendar: gregorian
+  precision: day
+  status: historical
+  derived: true
+  note: "Born on 6 July 1931 at Aschaffenburg, Bavaria (English Wikipedia, Wikidata and Radiance Weekly agree). No place entity for Aschaffenburg exists, so no born_in relation is written. The Hijri year is derived by tabular conversion."
+  sources: [source/wikipedia-murad-hofmann-en, source/wikidata-murad-hofmann, source/radiance-murad-hofmann-1931-2020]
+died:
+  edtf: "2020-01"
+  hijri: "1441"
+  calendar: gregorian
+  precision: month
+  status: historical
+  derived: true
+  note: "Died at Bonn in January 2020: the English Wikipedia and Wikidata give 12 January, About Islam gives Monday 13 January. The two days are not reconciled, so only the month is recorded. The Hijri year is derived by tabular conversion."
+  sources: [source/wikipedia-murad-hofmann-en, source/wikidata-murad-hofmann, source/aboutislam-murad-hofmann-obituary-2020]
+story_roles:
+  - { role: convert, start: { edtf: "1980" }, status: historical, note: "Embraced Islam in 1980 per three independent texts (the English article, About Islam and Radiance Weekly); the circumstances are given only in the biography the English article cites.", sources: [source/aboutislam-murad-hofmann-obituary-2020, source/radiance-murad-hofmann-1931-2020, source/wikipedia-murad-hofmann-en] }
+faith:
+  - value: unknown
+    basis: unknown
+    start: { edtf: "1980" }
+    note: "Embraced Islam in 1980 (three sources); he was born into a Catholic family, recorded in the prose as background. No source read names a legal school or an order for him, so none is recorded."
+    sources: [source/aboutislam-murad-hofmann-obituary-2020, source/radiance-murad-hofmann-1931-2020, source/wikipedia-murad-hofmann-en]
+external_ids: { wikidata: "Q216168" }
+sources: [source/wikipedia-murad-hofmann-en, source/wikidata-murad-hofmann, source/aboutislam-murad-hofmann-obituary-2020, source/radiance-murad-hofmann-1931-2020]
+provenance:
+  layer: own-research
+  source: "English Wikipedia 'Murad Wilfried Hofmann', Wikidata Q216168, the About Islam notice of 14 January 2020 and the Radiance Weekly note of 30 November 2022, all read on 23 November 2026. No earlier record existed in data/person/. Wikipedia is used for entity facts only."
+  generated_by: "Claude Code"
+  model: "claude-sonnet-5-5"
+  run: converts-wave2
+status: { review: published, completeness: 3, generated_by: "Claude Code" }
