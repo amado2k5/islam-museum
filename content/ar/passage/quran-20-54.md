@@ -3,6 +3,11 @@ id: passage/quran-20-54
 lang: ar
 source_lang: ar
 translators: []
+provenance:
+  generated_by: "Claude Code (Sonnet 5.5 session)"
+  model: claude-sonnet-5-5
+  run: altafsir-tabari-batch-6-2026-11-24
+  source: source/altafsir-tabari
 ---
 
 ## موجز
@@ -10,3 +15,7 @@ translators: []
 
 ## موضعها
 موضعها: الآية 54 من أصل 135 آية في السورة. النص محفوظ من مصحف تنزيل المجمّد ولا يُعاد كتابته هنا.
+
+## تفسير الطبري
+
+يبيّن الطبري أن الله يأمر الناس أن يأكلوا من طيب ما أخرجه وأن يرعوا أنعامهم، وأن في ذلك لآيات لأولي النهى أي لذوي العقول. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=20&tAyahNo=54&tDisplay=yes&UserProfile=0&LanguageId=1
