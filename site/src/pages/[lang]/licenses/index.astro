@@ -92,6 +92,12 @@ const layers = [
         <h2 id="lic-versions">{L.versions_title}</h2>
         <p set:html={fmt(L.versions_body, { url: `${REPO}/commits/main` })} />
       </section>
+
+      <section aria-labelledby="lic-openaccess">
+        <h2 id="lic-openaccess">{T.open_access.nav_label}</h2>
+        <p>{T.open_access.licences_body}</p>
+        <p><a href={`/${lang}/open-access/`}>{T.open_access.title}</a></p>
+      </section>
     </article>
   </div>
 </BaseLayout>
