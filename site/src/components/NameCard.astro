@@ -17,6 +17,14 @@ const shuhra = np.shuhra as any | undefined;
 const spellings = (np.spellings ?? []) as string[];
 const variants = (np.variants ?? []) as any[];
 const gloss = (m: any) => (m && typeof m === "object" ? m[lang] ?? m.en ?? m.ar : undefined);
+// A note is plain English text, or a block keyed by language; the reader's language first, then English.
+const noteOf = (x: any): { text: string; lang: string } | undefined => {
+  const v = x?.note;
+  if (!v) return undefined;
+  if (typeof v === "string") return { text: v, lang: "en" };
+  const l = v[lang] ? lang : v.en ? "en" : Object.keys(v)[0];
+  return l ? { text: v[l], lang: l } : undefined;
+};
 const certain = (c: string | undefined) => (c === "disputed" ? T.disputed : c === "uncertain" ? T.uncertain : undefined);
 const hasLink = [...rows.flatMap((r) => r.items), ...variants].some((x) => x.link);
 ---
@@ -37,7 +45,7 @@ const hasLink = [...rows.flatMap((r) => r.items), ...variants].some((x) => x.lin
             {gloss(x.meaning) && <span class="muted"> · {gloss(x.meaning)}</span>}
             {certain(x.certainty) && <span class="chip" style="margin-inline-start:6px">{certain(x.certainty)}</span>}
             {x.link && byId.get(x.link) && <a class="chip" style="margin-inline-start:6px" href={href(lang, x.link)}>{labelOf(byId.get(x.link)!, lang)}</a>}
-            {x.note && <span class="muted" lang="en" style="display:block;font-size:.9rem">{x.note}</span>}
+            {noteOf(x) && <span class="muted" lang={noteOf(x)!.lang} style="display:block;font-size:.9rem">{noteOf(x)!.text}</span>}
           </dd>
         ))}
       </div>
@@ -51,7 +59,7 @@ const hasLink = [...rows.flatMap((r) => r.items), ...variants].some((x) => x.lin
           <li>
             <span lang={x.lang ?? "ar"} dir="auto">{x.value}</span>
             {certain(x.certainty) && <span class="chip" style="margin-inline-start:6px">{certain(x.certainty)}</span>}
-            {x.note && <span class="muted" lang="en"> · {x.note}</span>}
+            {noteOf(x) && <span class="muted" lang={noteOf(x)!.lang}> · {noteOf(x)!.text}</span>}
           </li>
         ))}
       </ul>
