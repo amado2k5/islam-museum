@@ -22,6 +22,7 @@ open a new block on top with the new version and today's date.
 
 ### Changed
 - **The persona text (the five doors and their views) in Spanish, Turkish and Indonesian is now Microsoft Word document-translation output, and in Urdu it is Google Translate output (uploaded by the founder), replacing the earlier language-model draft.** Spanish was translated from the English file; Turkish and Indonesian from the Arabic file, as the language rule requires. It is machine translation that no human has read. French keeps its earlier text for now, because the importer flagged three one-word headings (Supplications, Miracles, Licences) as left in English.
+- **The Tranco ranking log gains the 23 November reading.** islam.museum stands at #657,206 on the Tranco list dated 23 November 2026, up 26,098 places in a day from #683,304, read from the published list file itself (list Q2464).
 
 ### Data
 - `main` validates again with 0 errors: the Suyuti asbab passages (the `wahidi` and `lubab` records) use the `related_to` predicate where they link to a verse, which the schema allows, their Arabic parentheses are isolated, and the source and work records were corrected to the schema's fields.
