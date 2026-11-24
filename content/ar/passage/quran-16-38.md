@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-5-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن المشركين حلفوا بالله جهد أيمانهم أن الله لا يبعث من يموت، فكذّبهم الله بأنه سيبعثهم وعداً عليه حقاً، وأن أكثر الناس لا يعلمون ذلك. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=16&tAyahNo=38&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَأَقْسَمُواْ بِٱللَّهِ جَهْدَ أَيْمَانِهِمْ لاَ يَبْعَثُ ٱللَّهُ مَن يَمُوتُ بَلَىٰ وَعْداً عَلَيْهِ حَقّاً وَلٰكِنَّ أَكْثَرَ ٱلْنَّاسِ لاَ يَعْلَمُونَ»: وحلف هؤلاء المشركون من قريش بالله جَهْد أيْمانِهِمْ حلفهم، لا يبعث الله من يموت بعد مماته، وكذبوا وأبطلوا في أيمانهم التي حلفوا بها كذلك، بل سيبعثه الله بعد مماته، وعداً عليه أن يبعثهم وعد عباده، والله لا يخلف الميعاد. «ولَكِنَّ أكْثَرَ النَّاسِ لا يَعْلَمُونَ» يقول: ولكن أكثر قريش لا يعلمون وعد الله عباده أنه باعثهم يوم القيامة بعد مماتهم أحياء. وينقل في المقطع أقوالاً عن ابن عباس وقتادة والربيع وعطاء.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=16&tAyahNo=38&tDisplay=yes&UserProfile=0&LanguageId=1

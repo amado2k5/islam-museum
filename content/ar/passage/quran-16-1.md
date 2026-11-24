@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-4-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن أمر الله أتى فقرب ودنا، فلا يستعجل الناس وقوعه. ويعرض الخلاف في المراد بالأمر، فمنهم من قال هو فرائضه وأحكامه وينقل عن الضحاك، ومنهم من قال هو وعيد لأهل الشرك بقرب الساعة. وتنزّه الله وتعالى عما يشركون. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=16&tAyahNo=1&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «أَتَىٰ أَمْرُ ٱللَّهِ فَلاَ تَسْتَعْجِلُوهُ سُبْحَانَهُ وَتَعَالَىٰ عَمَّا يُشْرِكُونَ»: أتى أمر الله فقرُب منكم أيها الناس ودنا، فلا تستعجلوا وقوعه. ثم اختلف أهل التأويل في الأمر الذي أعلم الله عباده مجيئه وقُربه منهم ما هو، وأيّ شيء هو؟ فقال بعضهم: هو فرائضه وأحكامه. وينقل في المقطع أقوالاً عن الضحاك وابن جريج.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=16&tAyahNo=1&tDisplay=yes&UserProfile=0&LanguageId=1

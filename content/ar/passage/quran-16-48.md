@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-5-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يعرض الطبري اختلاف القراء في «أولم يروا» بالياء أو التاء ويرجّح الياء، ثم يفسّر تفيؤ الظلال عن اليمين والشمائل بأنها تسجد لله وهي داخرة، أي ذليلة خاضعة لأمره. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=16&tAyahNo=48&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «أَوَلَمْ يَرَوْاْ إِلَىٰ مَا خَلَقَ ٱللَّهُ مِن شَيْءٍ يَتَفَيَّؤُاْ ظِلاَلُهُ عَنِ ٱلْيَمِينِ وَٱلْشَّمَآئِلِ سُجَّداً لِلَّهِ وَهُمْ دَاخِرُونَ»: اختلفت القرّاء في قراءة ذلك، فقرأته عامَّة قرّاء الحجاز والمدينة والبصرة: «أو لَمْ يَرَوْا» بالياء على الخبر عن الذين مكروا السيئات. وقرأ ذلك بعض قراء الكوفيين: «أو لَمْ تَرَوا» بالتاء على الخطاب. وأولى القراءتين عندي الصواب قراءة من قرأ بالياء على وجه الخبر عن الذين مكروا السيئات لأن ذلك في سياق قَصَصِهم والخبر عنهم، ثم عقب ذلك الخبر عن ذهابهم عن حجة الله عليهم وتركهم النظر في أدلته والاعتبار بها. وينقل في المقطع أقوالاً عن ابن عباس وقتادة والضحاك وابن جريج.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=16&tAyahNo=48&tDisplay=yes&UserProfile=0&LanguageId=1

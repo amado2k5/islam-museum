@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-4-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن الذي أنعم هذه النعم هو الذي أنزل من السماء ماء، أي مطراً، لكم منه شراب ومنه شجر فيه تسيمون، أي ترعون، ويذكر أن يقال أسام فلان إبله إذا أرعاها. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=16&tAyahNo=10&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «هُوَ ٱلَّذِي أَنْزَلَ مِنَ ٱلسَّمَاءِ مَآءً لَّكُم مِّنْهُ شَرَابٌ وَمِنْهُ شَجَرٌ فِيهِ تُسِيمُونَ»: والذي أنعم عليكم هذه النعم وخلق لكم الأنعام والخيل وسائر البهائم لمنافعكم ومصالحكم، هو الربّ الذي أنزل من السماء ماء، يعني: مطراً لكم من ذلك الماء شراب تشربونه ومنه شراب أشجاركم وحياة غروسكم ونباتها. «فِيهِ تُسِيمُونَ» يقول: في الشجر الذي ينبت من الماء الذي أنزل من السماء تسيمون، يعني ترعون، يقال منه: أسام فلان إبله يسيمها إسامة إذا أرعاها، وسوّمها أيضاً يسوّمها، وسامت هي إذا رعت، فهي تسوم، وهي إبل سائمة ومن ذلك قيل للمواشي المطلقة في الفلاة وغيرها للرعي سائمة. وينقل في المقطع أقوالاً عن ابن عباس وقتادة والضحاك وعكرمة وابن زيد وابن جريج وغيرهم.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=16&tAyahNo=10&tDisplay=yes&UserProfile=0&LanguageId=1

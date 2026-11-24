@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-5-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يفسّر الطبري إلقاء السلم بأنه استسلام المشركين يومئذ وذلهم لحكم الله فيهم، وأن آلهتهم لم تغن عنهم وتبرأت منهم، وأن ما كانوا يفترونه ضاع عنهم ولم ينفعهم قومهم ولا عشائرهم. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=16&tAyahNo=87&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَأَلْقَوْاْ إِلَىٰ ٱللَّهِ يَوْمَئِذٍ ٱلسَّلَمَ وَضَلَّ عَنْهُم مَّا كَانُواْ يَفْتَرُونَ»: وألقى المشركون إلى الله يومئذ السلم يقول: استسلموا يومئذ وذَلُّوا لحكمه فيهم، ولم تغن عنهم آلهتهم التي كانوا يدعون في الدنيا من دون الله، وتبرأت منهم، ولا قومهم، ولا عشائرُهم الذين كانوا في الدنيا يدافعون عنهم. والعرب تقول: ألقيت إليه كذا تعني بذلك قلت له. وقوله: «وَضَلَّ عَنْهُمْ ما كانُوا يَفْتَرُونَ» يقول: وأخطأهم من آلهتهم ما كانوا يَأْملون من الشفاعة عند الله بالنجاة. وينقل في المقطع أقوالاً عن قتادة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=16&tAyahNo=87&tDisplay=yes&UserProfile=0&LanguageId=1

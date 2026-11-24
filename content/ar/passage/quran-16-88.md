@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-5-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن الذين جحدوا نبوة محمد وصدّوا عن سبيل الله يزيدهم الله عذاباً فوق العذاب يوم القيامة في جهنم بما كانوا يفسدون، ويذكر ما قيل في تلك الزيادة. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=16&tAyahNo=88&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «ٱلَّذِينَ كَفَرُواْ وَصَدُّواْ عَن سَبِيلِ ٱللَّهِ زِدْنَاهُمْ عَذَاباً فَوْقَ ٱلْعَذَابِ بِمَا كَانُواْ يُفْسِدُونَ»: الذين جحدوا يا محمد نبوّتك وكذّبوك فيما جئتهم به من عند ربك، وصَدُّوا عن الإيمان بالله وبرسوله ومن أراده، زدناهم عذاباً يوم القيامة في جهنم فوق العذاب الذي هم فيه قبل أن يزادوه. وقيل: تلك الزيادة التي وعدهم الله أن يزيدهموها عقارب وحيات. وينقل في المقطع أقوالاً عن مجاهد والأعمش وسفيان.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=16&tAyahNo=88&tDisplay=yes&UserProfile=0&LanguageId=1

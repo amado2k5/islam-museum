@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-5-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن في ثمرات النخيل والأعناب عبرة أيضاً، مما يتخذ منه الناس سكراً ورزقاً حسناً، ويذكر اختلاف أهل التأويل في السكر: فقال بعضهم هو الخمر وأن الآية نزلت قبل تحريمها والرزق الحسن هو التمر والزبيب، وينقل ذلك عن ابن عباس وغيره. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=16&tAyahNo=67&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَمِن ثَمَرَاتِ ٱلنَّخِيلِ وَٱلأَعْنَابِ تَتَّخِذُونَ مِنْهُ سَكَراً وَرِزْقاً حَسَناً إِنَّ فِي ذٰلِكَ لآيَةً لِّقَوْمٍ يَعْقِلُونَ»: ولكم أيضاً أيها الناسُ عِبرةٌ فيما نسقيكم من ثمرات النخيل والأعناب ما «تَتَّخِذُونَ منه سَكَراً ورِزْقاً حَسَناً» مع ما نسقيكم من بطون الأنعام من اللبن الخارج من بين الفرث والدم. وحذف من قوله: «وَمِنْ ثَمَراتِ النَّخِيلِ والأعنابِ» الاسم، والمعنى ما وصفت، وهو: ومن ثمرات النخيل والأعناب ما تتخذون منه لدلالة «من» عليه، لأن «من» تدخل في الكلام مُبَعِّضة، فاستغني بدلالتها ومعرفة السامعين بما يقتضي من ذكر الاسم معها. وينقل في المقطع أقوالاً عن ابن عباس وسفيان.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=16&tAyahNo=67&tDisplay=yes&UserProfile=0&LanguageId=1

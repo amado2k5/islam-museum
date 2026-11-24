@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-4-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يفسّر الطبري «الذين جعلوا القرآن عضين» بأنهم الذين اقتسموا القرآن وجزّؤوه، فآمنوا ببعضه وكفروا ببعضه، وينقل عن ابن عباس وسعيد بن جبير أن المراد اليهود والنصارى، ويعرض ما قيل في المقتسمين من أقوال أخرى. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=15&tAyahNo=91&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 89 إلى 91 مقطعاً واحداً. يفسّر قوله «ٱلَّذِينَ جَعَلُواْ ٱلْقُرْآنَ عِضِينَ»: ونُقل: يؤمنون ببعض، ويكفرون ببعض. وعن سعيد بن جبير، أنه قال في قوله: «كمَا أنْزَلْنا على المُقْتَسِمِينَ» قال: هم أهل الكتاب. وعن أبي بشر، عن سعيد بن جبير أنه قال في هذه الآية: «كمَا أنْزَلْنا على المُقْتَسِمِينَ الَّذِينَ جَعَلُوا القُرآنَ عِضِينَ» قال: هم أهل الكتاب، آمنوا ببعضه وكفروا ببعضه. وأخبرنا أبو بشر، عن سعيد بن جبير، عن ابن عباس، في قوله: «الَّذِينَ جَعَلُوا القُرآنَ عِضِينَ» قال: هم أهل الكتاب جزّأوه فجعلوه أعضاء، فأمنوا ببعضه وكفروا ببعضه. وقال: جزّأوه فجعلوه أعضاء كأعضاء الجزور. وقال: هم أهل الكتاب. وينقل في المقطع أقوالاً عن ابن عباس والضحاك والحسن وسعيد بن جبير والأعمش.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=15&tAyahNo=91&tDisplay=yes&UserProfile=0&LanguageId=1

@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-5-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يفسّر الطبري الآية بأن الله يبعث الموتى ليبيّن للناس ما يختلفون فيه من أمر الإحياء بعد الفناء، وليعلم الجاحدون أنهم كانوا كاذبين في إنكارهم البعث. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=16&tAyahNo=39&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «لِيُبَيِّنَ لَهُمُ ٱلَّذِي يَخْتَلِفُونَ فِيهِ وَلِيَعْلَمَ ٱلَّذِينَ كَفَرُواْ أَنَّهُمْ كَانُواْ كَاذِبِينَ»: بل لَيبعثنّ الله من يموت وعداً عليه حقًّا، ليبين لهؤلاء الذين يزعمون أن الله لا يبعث من يموت ولغيرهم الذي يختلفون فيه من إحياء الله خلقه بعد فنائهم، وليعلم الذين جحدوا صحة ذلك وأنكروا حقيقته أنهم كانوا كاذبين في قيلهم لا يبعث الله من يموت. كما: وعن قتادة، قوله: «لِيُبَيِّنَ لَهُمُ الَّذِي يَخْتَلِفُونَ فِيهِ» قال: للناس عامَّة. وينقل في المقطع أقوالاً عن قتادة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=16&tAyahNo=39&tDisplay=yes&UserProfile=0&LanguageId=1

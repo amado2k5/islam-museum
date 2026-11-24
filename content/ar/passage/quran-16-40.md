@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-5-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن الله إذا أراد إحياء الموتى أو خلق أي شيء فلا تعب عليه ولا مشقة، إنما يقول له كن فيكون، فالبعث سهل عليه كغيره من خلقه. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=16&tAyahNo=40&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 40 إلى 41 مقطعاً واحداً. يفسّر قوله «إِنَّمَا قَوْلُنَا لِشَيْءٍ إِذَآ أَرَدْنَاهُ أَن نَّقُولَ لَهُ كُنْ فَيَكُونُ»: إنا إذا أردنا أن نبعث من يموت فلا تعب علينا ولا نصب في إحيائناهم، ولا في غير ذلك مما نخلق ونكوّن ونحدث لأنا إذا أردنا خلقه وإنشاءه فإنما نقول له كن فيكون، لا معاناة فيه ولا كُلفة علينا. واختلفت القرّاء في قراءة قوله: «يكون» فقرأه أكثر قرّاء الحجاز والعراق على الابتداء، وعلى أن قوله: «إنَّمَا قَوْلُنَا لِشَيْءٍ إذَا أرَدْناهُ أنْ نَقُولَ لَهُ كُنْ» كلام تامّ مكتف بنفسه عما بعده، ثم يبتدأ فيقال: «فيكونُ»، كما قال الشاعر:يُريدُ أنْ يُعْرِبَهُ فيعجِمُهْ وقرأ ذلك بعض قرّاء أهل الشام وبعض المتأخرين من قرّاء الكوفيين: «فَيَكُونَ» نصباً، عطفاً على قوله: «أنْ نَقُولَ لَهُ». وينقل في المقطع أقوالاً عن ابن عباس ومجاهد وقتادة وابن جريج.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=16&tAyahNo=40&tDisplay=yes&UserProfile=0&LanguageId=1

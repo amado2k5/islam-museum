@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-5-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يخاطب الله نبيه بأنه مهما حرص على هداية المشركين فإن الله لا يهدي من يضلّه ولا ناصر لهم، ويعرض الطبري اختلاف القراء في ضبط «يهدي» و«يضل»، ويرجّح قراءة منها. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=16&tAyahNo=37&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «إِن تَحْرِصْ عَلَىٰ هُدَاهُمْ فَإِنَّ ٱللَّهَ لاَ يَهْدِي مَن يُضِلُّ وَمَا لَهُمْ مِّن نَّاصِرِينَ»: إن تحرص يا محمد على هدى هؤلاء المشركين إلى الإيمان بالله واتباع الحقّ «فإنَّ اللّهَ لا يَهْدِي مَنْ يُضِلُّ». واختلفت القرّاء في قراءة ذلك، فقرأته عامَّة قرّاء الكوفيين: «فإنَّ اللّهَ لا يَهْدِي مَنْ يَضِلُّ» بفتح الياء من «يهدي»، وضمها من «يضلّ». وقد اختلف في معنى ذلك قارئوه كذلك، فكان بعض نحويي الكوفة يزعم أن معناه: فإن الله من أضله لا يهتدي، وقال: العرب تقول: قد هُدي الرجل يريدون قد اهتدى، وهُدي واهتدى بمعنى واحد. وكان آخرون منهم يزعمون أن معناه: فإن الله لا يهدي من أضله، بمعنى: أن من أضله الله فإن الله لا يهديه.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=16&tAyahNo=37&tDisplay=yes&UserProfile=0&LanguageId=1

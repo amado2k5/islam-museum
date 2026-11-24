@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-5-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يعدّ الطبري من نعم الله أن جعل لهم ظلالاً مما خلق من الأشجار وغيرها، وأكناناً من الجبال، وسرابيل تقيهم الحر وسرابيل تقيهم بأسهم أي الحرب، وبهذا يتمّ نعمته عليهم لعلهم يسلمون. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=16&tAyahNo=81&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَٱللَّهُ جَعَلَ لَكُمْ مِّمَّا خَلَقَ ظِلاَلاً وَجَعَلَ لَكُمْ مِّنَ ٱلْجِبَالِ أَكْنَاناً وَجَعَلَ لَكُمْ سَرَابِيلَ تَقِيكُمُ ٱلْحَرَّ وَسَرَابِيلَ تَقِيكُم بَأْسَكُمْ كَذَلِكَ يُتِمُّ نِعْمَتَهُ عَلَيْكُمْ لَعَلَّكُمْ تُسْلِمُونَ»: ومن نعمة الله عليكم أيها الناس أن جعل لكم مما خلق من الأشجار وغيرها ظلالاً تستظلّون بها من شدّة الحرّ، وهي جمع ظلّ. وينقل في المقطع أقوالاً عن ابن عباس وقتادة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=16&tAyahNo=81&tDisplay=yes&UserProfile=0&LanguageId=1

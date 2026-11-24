@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-4-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يفسّر الطبري «اليقين» بأنه الموت الذي هو موقن به، فالمعنى اعبد ربك حتى يأتيك الموت، وينقل ذلك عن سالم بن عبد الله وغيره، ويقول إنه قيل «يقين» لأنه موقن به. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=15&tAyahNo=99&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَٱعْبُدْ رَبَّكَ حَتَّىٰ يَأْتِيَكَ ٱلْيَقِينُ»: يقول تعالى ذكره لنبيه: واعبد ربك حتى يأتيك الموت، الذي هو مُوقَن به. وقيل: يقين، وهو موقَن به، كما قيل: خمر عتيق، وهي معتَّقَة. وينقل في المقطع أقوالاً عن مجاهد وقتادة والحسن وابن زيد وسفيان.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=15&tAyahNo=99&tDisplay=yes&UserProfile=0&LanguageId=1

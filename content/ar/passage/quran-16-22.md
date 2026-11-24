@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-5-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن معبودكم واحد لا تصلح العبادة إلا له، وإن الذين لا يؤمنون بالآخرة قلوبهم منكرة لما قصّه الله من قدرته وعظمته ونعمه وهم مستكبرون عن توحيده. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=16&tAyahNo=22&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «إِلٰهُكُمْ إِلٰهٌ وَاحِدٌ فَٱلَّذِينَ لاَ يُؤْمِنُونَ بِٱلآخِرَةِ قُلُوبُهُم مُّنكِرَةٌ وَهُم مُّسْتَكْبِرُونَ»: معبودكم الذي يستحقّ عليكم العبادة وإفراد الطاعة له دون سائر الأشياء معبود واحد، لأنه لا تصلح العبادة إلا له، فأفردوا له الطاعة وأخلصوا له العبادة ولا تجعلوا معه شريكاً سواه. «فالَّذِينَ لا يُؤْمِنُونَ بالآخِرَةِ قُلُوبُهُمْ مُنْكِرَةٌ» يقول تعالى ذكره: فالذين لا يصدّقون بوعد الله ووعيده ولا يقرّون بالمعاد إليه بعد الممات «قُلُوبُهُمْ مُنْكِرَةٌ» يقول تعالى ذكره: مستنكرة لما نقص عليهم من قدرة الله وعظمته وجميل نعمة عليهم، وأن العبادة لا تصلح إلا له والألوهة ليست لشيء غيره يقول: وهم مستكبرون عن إفراد الله بالألوهة والإقرار له بالوحدانية، اتباعاً منهم لما مضى عليه من الشرك بالله أسلافهم. وينقل في المقطع أقوالاً عن قتادة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=16&tAyahNo=22&tDisplay=yes&UserProfile=0&LanguageId=1

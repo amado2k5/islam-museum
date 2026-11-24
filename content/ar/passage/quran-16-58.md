@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-5-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يشرح الطبري في الموضع نفسه أن الرجل منهم إذا بُشّر بولادة أنثى ظلّ وجهه مسوداً من الغمّ والكرب، وهو يكظم غيظه وحزنه، مع أنهم ينسبون البنات إلى الله. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=16&tAyahNo=58&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 57 إلى 58 مقطعاً واحداً. يفسّر قوله «وَإِذَا بُشِّرَ أَحَدُهُمْ بِٱلأُنْثَىٰ ظَلَّ وَجْهُهُ مُسْوَدّاً وَهُوَ كَظِيمٌ»: وهذا صنيع مشركي العرب، أخبرهم الله تعالى ذكره بخبث صنيعهم فأما المؤمن فهو حقيق أن يرضى بما قسم الله له، وقضاء الله خير من قضاء المرء لنفسه، ولعمري ما يدري أنه خير، لرُبّ جارية خير لأهلها من غلام. وإنما أخبركم الله بصنيعهم لتجتنبوه وتنتهوا عنه، وكان أحدهم يغذو كلبه ويئد ابنته. وقال: ثني حجاج، عن ابن جريج، قال: قال ابن عباس: «وَهُوَ كَظِيمٌ» قال: حزين. وأخبرنا هشيم، عن جويبر، عن الضحاك، في قوله: «وَهُوَ كَظِيمٌ» قال: الكظيم: الكميد. وقد بيَّنا ذلك بشواهده في غير هذا الموضع. وينقل في المقطع أقوالاً عن ابن عباس وقتادة والضحاك وابن جريج.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=16&tAyahNo=58&tDisplay=yes&UserProfile=0&LanguageId=1

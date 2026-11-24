@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-5-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن ما سبق مثل ضربه الله للمشركين الذين جعلوا لله البنات، فلمن لا يؤمن بالآخرة مثل السوء من القبح والنقص، ولله المثل الأعلى من الكمال والجلال، وهو العزيز الحكيم. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=16&tAyahNo=60&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «لِلَّذِينَ لاَ يُؤْمِنُونَ بِٱلآخِرَةِ مَثَلُ ٱلسَّوْءِ وَلِلَّهِ ٱلْمَثَلُ ٱلأَعْلَىٰ وَهُوَ ٱلْعَزِيزُ ٱلْحَكِيمُ»: وهذا خبر من الله جلّ ثناؤه أن قوله:«وَإذَا بُشِّرَ أحدَهُمْ بالأنْثَى ظَلَّ وَجْهُهُ مُسْوَدّاً وَهُوَ كَظِيمٌ» والآية التي بعدها مثل ضربه الله لهؤلاء المشركين الذين جعلوا لله البنات، فبين بقوله: «للَّذِينَ لا يُؤْمِنُونَ بالآخِرَةِ مَثَلُ السَّوْءِ» أنه مثل، وعنى بقوله جلّ ثناؤه: «للَّذِينَ لا يُؤْمِنُونَ بالآخِرَةِ» للذين لا يصدّقون بالمعاد والثواب والعقاب من المشركين «مَثَلُ السَّوْءِ» وهو القبيح من المثل، وما يسوء من ضرب له ذلك المثل. «ولِلَّهِ المَثَلُ الأعْلى» يقول: ولله المثل الأعلى، وهو الأفضل والأطيب، والأحسن، والأجمل، وذلك التوحيد والإذعان له بأنه لا إله غيره. وينقل في المقطع أقوالاً عن قتادة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=16&tAyahNo=60&tDisplay=yes&UserProfile=0&LanguageId=1

@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-5-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يفسّر الطبري «لا جرم» بمعنى حقاً، ويبيّن أن الله يعلم ما يسرّه المشركون من إنكار التوحيد وما يعلنونه من كفر، وأنه لا يحب المستكبرين عليه، ويورد خبراً عن الحسن بن علي أنه كان يجلس إلى المساكين ويتلو الآية. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=16&tAyahNo=23&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «لاَ جَرَمَ أَنَّ ٱللَّهَ يَعْلَمُ مَا يُسِرُّونَ وَمَا يُعْلِنُونَ إِنَّهُ لاَ يُحِبُّ ٱلْمُسْتَكْبِرِينَ»: يعني تعالى ذكره بقوله: لا جرم حقًّا أن الله يعلم ما يسرّ هؤلاء المشركون من إنكارهم ما ذكرنا من الأنباء في هذه السورة، واعتقادهم نكير قولنا لهم: إلهكم إله واحد، واستكبارهم على الله، وما يعلنون من كفرهم بالله وفريتهم عليه. «إنَّهُ لا يُحِبُّ المُسْتَكْبِرينَ» يقول: إن الله لا يحبّ المستكبرين عليه أن يوحدوه ويخلعوا ما دونه من الآلهة والأنداد. كما: وعن رجل: أن الحسن بن عليّ كان يجلس إلى المساكين، ثم يقول: «إنَّهُ لا يُحِبُّ المُسْتَكْبِرينَ».
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=16&tAyahNo=23&tDisplay=yes&UserProfile=0&LanguageId=1

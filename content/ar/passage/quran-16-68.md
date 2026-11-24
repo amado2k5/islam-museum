@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-5-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن الله ألهم النحل أن تتخذ من الجبال بيوتاً ومن الشجر ومما يبنيه الناس من السقوف، ويورد في ذلك أقوال السلف. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=16&tAyahNo=68&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَأَوْحَىٰ رَبُّكَ إِلَىٰ ٱلنَّحْلِ أَنِ ٱتَّخِذِي مِنَ ٱلْجِبَالِ بُيُوتاً وَمِنَ ٱلشَّجَرِ وَمِمَّا يَعْرِشُونَ»: وألهم ربك يا محمد النحل إيحاء إليها «أنِ أتَّخِذِي مِنَ الجبِالِ بُيُوتاً وَمِنَ الشَّجَرِ وممَّا يَعْرِشُونَ» يعني: مما يبنون من السقوف، فرفعوها بالبناء. وينقل في المقطع أقوالاً عن ابن عباس ومجاهد وابن زيد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=16&tAyahNo=68&tDisplay=yes&UserProfile=0&LanguageId=1

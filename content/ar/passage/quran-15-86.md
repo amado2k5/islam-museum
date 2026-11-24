@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-4-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن الله هو الخلاق العليم، أي الذي خلق المشركين وكل شيء وهو عالم بهم وبتدبيرهم وما يأتون من الأفعال، ويفسّر الأمر بالصفح بأنه إعراض جميل وعفو حسن عنهم. ويذكر أن جماعة من أهل التأويل قالوا إن هذا الصفح منسوخ، وينقل ذلك عن قتادة. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=15&tAyahNo=86&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 85 إلى 86 مقطعاً واحداً. يفسّر قوله «إِنَّ رَبَّكَ هُوَ ٱلْخَلاَّقُ ٱلْعَلِيمُ»: إن ربك هو الذي خلقهم وخلق كلّ شيء، وهو عالم بهم وبتدبيرهم وما يأتون من الأفعال. وكان جماعة من أهل التأويل تقول: هذه الآية منسوخة. وينقل في المقطع أقوالاً عن مجاهد وقتادة والضحاك وسفيان.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=15&tAyahNo=86&tDisplay=yes&UserProfile=0&LanguageId=1

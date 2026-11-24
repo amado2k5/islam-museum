@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-5-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن الذين ظلموا إذا عاينوا عذاب الله فلا ينجيهم منه شيء، إذ لا يؤذن لهم في الاعتذار فيُخفَّف عنهم، ولا هم يؤخَّرون ولا يُمهلون. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=16&tAyahNo=85&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَإِذَا رَأى ٱلَّذِينَ ظَلَمُواْ ٱلْعَذَابَ فَلاَ يُخَفَّفُ عَنْهُمْ وَلاَ هُمْ يُنظَرُونَ»: وإذا عاين الذين كذّبوك يا محمد وجَحَدوا نُبوّتك والأمم الذين كانوا على منهاج مشركي قومك عذاب الله، فلا ينجيهم من عذاب الله شيء لأنهم لا يؤذن لهم فيعتذرون فيخفَّف عنهم العذاب بالعذر الذي يدّعونه، «وَلا هُمْ يُنْظَرُونَ» يقول: ولا يُرْجَؤن بالعقاب، لأن وقت التوبة والإنابة قد فات، فليس ذلك وقتاً لهما، وإنما هو وقت للجزاء على الأعمال، فلا ينظر بالعتاب ليعتب بالتوبة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=16&tAyahNo=85&tDisplay=yes&UserProfile=0&LanguageId=1

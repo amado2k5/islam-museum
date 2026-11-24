@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-5-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يرى الطبري أن الآية توبيخ لعبدة الأصنام: كيف يسوّون من يخلق هذه الخلائق وينعم بهذه النعم بمن لا يخلق شيئاً، ويدعوهم إلى التذكر لنعم الله وعظيم قدرته وعجز أوثانهم. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=16&tAyahNo=17&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 17 إلى 18 مقطعاً واحداً. يفسّر قوله «أَفَمَن يَخْلُقُ كَمَن لاَّ يَخْلُقُ أَفَلا تَذَكَّرُونَ»: يقول تعالى ذكره لعبدة الأوثان والأصنام: أفمن يخلق هذه الخلائق العجيبة التي عددناها عليكم وينعم عليكم هذه النعم العظيمة، كمن لا يخلق شيئاً ولا ينعم عليكم نعمة صغيرة ولا كبيرة؟ يقول: أتشركون هذا في عبادة هذا؟ يعرّفهم بذلك عظم جهلهم وسوء نظرهم لأنفسهم وقلَّة شكرهم لمن أنعم عليهم بالنعم التي عدّدها عليهم التي لا يحصيها أحد غيره، قال لهم جلّ ثناؤه موبخهم: «أفَلا تَذَكَّرُونَ» أيها الناس يقول: أفلا تذكرون نعم الله عليكم وعظيم سُلطانه وقُدرته على ما شاء، وعجز أوثانكم وضعفها ومهانتها، وأنها لا تجلب إلى نفسها نفعاً ولا تدفع عنها ضرًّا، فتعرفوا بذلك خطأ ما أنتم عليه مقيمون من عبادتكموها وإقراركم لها بالألوهة؟ وينقل في المقطع أقوالاً عن قتادة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=16&tAyahNo=17&tDisplay=yes&UserProfile=0&LanguageId=1

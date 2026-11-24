@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-4-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن «المقتسمين» الذين أنزل الله بهم البلاء هم الذين اقتسموا القرآن فجعلوه عضين، ويعرض الخلاف في المراد بهم. فمن أهل التأويل من قال هم اليهود والنصارى، وينقل عن ابن عباس أنهم آمنوا ببعضه وكفروا ببعضه، ومنهم من ذكر غيرهم. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=15&tAyahNo=90&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 89 إلى 91 مقطعاً واحداً. يفسّر قوله «كَمَآ أَنْزَلْنَا عَلَى ٱلْمُقْتَسِمِينَ»: مثل الذي أنزل الله تعالى من البلاء والعقاب على الذين اقتسموا القرآن، فجعلوه عِضِين. ثم اختلف أهل التأويل في الذين عُنُوا بقوله: «المُقْتَسِمِينَ»، فقال بعضهم: عني به. اليهود والنصارى، وقال: كان اقتسامهم أنهم اقتسموا القرآن وعضّوه، فآمنوا ببعضه وكفروا ببعضه. وينقل في المقطع أقوالاً عن ابن عباس والضحاك والحسن وسعيد بن جبير والأعمش.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=15&tAyahNo=90&tDisplay=yes&UserProfile=0&LanguageId=1

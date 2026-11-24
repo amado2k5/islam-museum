@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-5-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يذكر الطبري أن المشركين احتجّوا بأن الله لو شاء ما عبدوا الأصنام ولا حرّموا ما حرّموه من البحائر والسوائب، فجعلوا عبادتهم رضا من الله، وأن الأمم السابقة قالت مثل ذلك، وأن الرسل ليس عليهم إلا البلاغ المبين. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=16&tAyahNo=35&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَقَالَ ٱلَّذِينَ أَشْرَكُواْ لَوْ شَآءَ ٱللَّهُ مَا عَبَدْنَا مِن دُونِهِ مِن شَيْءٍ نَّحْنُ وَلاۤ آبَاؤُنَا وَلاَ حَرَّمْنَا مِن دُونِهِ مِن شَيْءٍ كَذٰلِكَ فَعَلَ ٱلَّذِينَ مِن قَبْلِهِمْ فَهَلْ عَلَى ٱلرُّسُلِ إِلاَّ ٱلْبَلاغُ ٱلْمُبِينُ»: وقال الذين أشركوا بالله فعبدوا الأوثان والأصنام من دون الله: ما نعبد هذه الأصنام إلا لأن الله قد رضي عبادتنا هؤلاء، ولا نحرم ما حرمنا من البحائر والسوائب إلا أن الله شاء منا ومن آبائنا تحريمناها ورضيه، لولا ذلك لقد غير ذلك ببعض عقوباته أو بهدايته إيانا إلى غيره من الأفعال. يقول تعالى ذكره: كذلك فعل الذين من قبلهم من الأمم المشركة الذين استنّ هؤلاء سنتهم، فقالوا مثل قولهم، وسلكوا سبيلهم في تكذيب رسل الله واتباع أفعال آبائهم الضلال.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=16&tAyahNo=35&tDisplay=yes&UserProfile=0&LanguageId=1

@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-4-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن الله نهى نبيه أن يتمنى ما متّع به أصنافاً من أغنياء قومه الذين لا يؤمنون، فإن من ورائهم عذاباً غليظاً، ولا يحزن عليهم، فله في الآخرة خير منه، وأن يخفض جناحه للمؤمنين، أي يلين لهم. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=15&tAyahNo=88&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «لاَ تَمُدَّنَّ عَيْنَيْكَ إِلَىٰ مَا مَتَّعْنَا بِهِ أَزْوَاجاً مِّنْهُمْ وَلاَ تَحْزَنْ عَلَيْهِمْ وَٱخْفِضْ جَنَاحَكَ لِلْمُؤْمِنِينَ»: لا تتمنينّ يا محمد ما جعلنا من زينة هذه الدنيا متاعاً للأغنياء من قومك الذين لا يؤمنون بالله واليوم الآخر، يتمتعون فيها، فإن مِنْ ورائهم عذاباً غليظاً. «وَلا تَحْزَنْ عَلَيْهِمْ» يقول: ولا تحزن على ما مُتِّعوا به فعجِّل لهم، فإن لك في الآخرة ما هو خير منه، مع الذي قد عَجَّلنا لك في الدنيا من الكرامة بإعطائنا السبع المثاني والقرآن العظيم يقال منه: مَدَّ فلانٌ عينه إلى مال فلان: إذا اشتهاه وتمناه وأراده. وينقل في المقطع أقوالاً عن ابن عباس ومجاهد وابن جريج.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=15&tAyahNo=88&tDisplay=yes&UserProfile=0&LanguageId=1

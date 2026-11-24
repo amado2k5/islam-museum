@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-5-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يعرض الطبري اختلاف القراء في «نسقيكم» بفتح النون أو ضمها، ويفسّر الآية بأن في الأنعام عبرة لمن يعتبر، إذ يسقي الله الناس لبناً خالصاً سائغاً للشاربين يخرج من بين فرث ودم في بطونها. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=16&tAyahNo=66&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَإِنَّ لَكُمْ فِي ٱلأَنْعَامِ لَعِبْرَةً نُّسْقِيكُمْ مِّمَّا فِي بُطُونِهِ مِن بَيْنِ فَرْثٍ وَدَمٍ لَّبَناً خَالِصاً سَآئِغاً لِلشَّارِبِينَ»: وإن لكم أيها الناس لعظة في الأنعام التي نُسْقيكم مما في بطونه. واختلفت القرّاء في قراءة قوله: «نُسْقِيكُمْ» فقرأته عامة أهل مكة والعراق والكوفة والبصرة، سوى عاصم، ومن أهل المدينة أبو جعفر: «نُسْقِيكُمْ» بضم النون. بمعنى: أنه أسقاهم شراباً دائماً. وكان الكسائي يقول: العرب تقول: أسقيناهم نَهْراً وأسقيناهم لبناً: إذا جعلته شِرْباً دائماً، فإذا أرادوا أنهم أعطوه شربة قالوا: سقيناهم فنحن نَسْقِيهم بغير ألف. وقرأ ذلك عامة قرّاء أهل المدينة سوى أبي جعفر، ومن أهل العراق عاصم: «نَسْقِيكم» بفتح النون من سقَاه الله فهو يَسْقيه. وينقل في المقطع أقوالاً عن الكسائي.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=16&tAyahNo=66&tDisplay=yes&UserProfile=0&LanguageId=1

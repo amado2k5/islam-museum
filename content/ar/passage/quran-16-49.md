@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-5-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن لله يخضع ويستسلم لأمره كل ما في السموات والأرض من دابة، وكذلك الملائكة وهم لا يستكبرون عن طاعته. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=16&tAyahNo=49&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَلِلَّهِ يَسْجُدُ مَا فِي ٱلسَّمَٰوَٰتِ وَمَا فِي ٱلأَرْضِ مِن دَآبَّةٍ وَٱلْمَلاۤئِكَةُ وَهُمْ لاَ يَسْتَكْبِرُونَ»: ولله يخضع ويستسلم لأمره ما في السموات وما في الأرض من دابَّة يدبّ عليها، والملائكة التي في السموات، وهم لا يستكبرون عن التذلل له بالطاعة. «وَالَّذِينَ لا يُؤْمِنُونَ بالآخِرَةِ قُلُوبهُمْ مُنْكِرَةٌ وَهُمْ مُسْتَكْبِرُونَ» وظلالهم تتفيأ عن اليمين والشمائل سجداً لله وهم داخرون. وكان بعض نحويِّي البصرة يقول: اجتزىء بذكر الواحد من الدوابّ عن ذكر الجميع. وإنما معنى الكلام: ولله يسجد ما في السموات وما في الأرض من الدوابّ والملائكة، كما يقال: ما أتاني من رجل، بمعنى: ما أتاني من الرجال.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=16&tAyahNo=49&tDisplay=yes&UserProfile=0&LanguageId=1
