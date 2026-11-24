@@ -16,6 +16,7 @@ summary:
   id: "Seorang ulama Muslim Amerika yang lahir pada tahun 1958 dengan nama Mark Hanson di Negara Bagian Washington, ia memeluk Islam pada tahun 1977, mempelajari ilmu Islam selama satu dekade di UEA, Afrika Utara, dan Mauritania. Ia mendirikan Zaytuna Institute pada tahun 1996, yang kemudian menjadi Zaytuna College di Berkeley, perguruan tinggi Muslim terakreditasi pertama di Amerika Serikat. Ia telah banyak menerbitkan terjemahan, buku, dan kuliah di dunia berbahasa Inggris."
 roles: [scholar, teacher, writer, preacher]
 wings: [people, living]
+themes: [converts-and-leavers]
 born:
   edtf: "1958"
   calendar: gregorian
@@ -26,6 +27,8 @@ born:
   sources: [source/wikipedia-hamza-yusuf-en, source/wikidata-hamza-yusuf, source/wikipedia-hamza-yusuf-ar]
 relations:
   - { type: born_in, target: place/walla-walla, confidence: medium, note: "Place link from Wikidata; pending a second source.", sources: [source/wikidata-hamza-yusuf] }
+story_roles:
+  - { role: convert, start: { edtf: "1977" }, status: historical, note: "Converted to Islam in 1977 per the cited article.", sources: [source/wikipedia-hamza-yusuf-en] }
 faith:
   - value: sunni-maliki
     basis: documented

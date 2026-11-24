@@ -16,6 +16,7 @@ summary:
   id: "Seorang penulis, pemikir, jurnalis, penerjemah, dan diplomat Austria-Pakistan, lahir dengan nama Leopold Weiss di Lemberg pada tahun 1900 dari keluarga Yahudi, memeluk Islam Sunni di Berlin pada tahun 1926, berkeliling dunia Arab sebagai koresponden, dan menjadi dekat dengan Raja Abdulaziz di Hejaz. Ia kemudian bertugas di Pakistan yang baru berdiri sebagai direktur Departemen Rekonstruksi Islam dan utusan untuk Perserikatan Bangsa-Bangsa. Buku terkenalnya adalah 'The Road to Mecca' (1954), serta terjemahan dan interpretasi Al-Qur'an 'Risalat al-Qur'an'."
 roles: [scholar, writer, translator, journalist, diplomat]
 wings: [people]
+themes: [converts-and-leavers]
 born:
   edtf: "1900-07-02"
   hijri: "1318"
@@ -53,6 +54,8 @@ occupations:
 relations:
   - { type: lived_in, target: place/lahore, sources: [source/wikipedia-muhammad-asad-en] }
   - { type: buried_in, target: place/granada, sources: [source/wikipedia-muhammad-asad-en, source/wikipedia-muhammad-asad-ar, source/wikidata-muhammad-asad] }
+story_roles:
+  - { role: convert, start: { edtf: "1926" }, status: historical, note: "Declared his Islam in Berlin in 1926 per the cited biographical sources.", sources: [source/wikipedia-muhammad-asad-en, source/institute-of-objective-studies-asad] }
 faith:
   - value: sunni
     basis: documented
