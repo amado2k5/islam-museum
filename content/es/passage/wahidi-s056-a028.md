@@ -12,7 +12,7 @@ The verse, in al-Wahidi's heading: «في سدر مخضود».
 
 ## Informe completo (texto fuente en árabe)
 
-فأعجبهم سدره، فقالوا: يا ليت لنا مثل هذا، فأنزل اللههذه الآية.
+قال أبو العالية والضحاك: نظر المسلمون إلى وج - وهو واد مخصب بالطائف - فأعجبهم سدره، فقالوا: يا ليت لنا مثل هذا، فأنزل الله هذه الآية.
 
 ## Place in the museum
 Fuente: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an de al-Wahidi]]. El versículo: [[passage/quran-56-28|Corán 56-28]].

@@ -12,7 +12,7 @@ The verse, in al-Wahidi's heading: «يا أيها الذين آمنوا كون�
 
 ## Informe completo (texto fuente en árabe)
 
-روى أسباط عن السدي قال: نزلت في النبي- اختصم
+روى أسباط عن السدي قال: نزلت في النبي- اختصم إليه غني وفقير، وكان ضلعه مع الفقير، رأى أن الفقير لا يظلم الغني فأبى الله إلا أن يقوم بالقسط في الغني والفقير، فقال: {يا أيها الذين آمنوا كونوا قوامين بالقسط} حتى بلغ {إن يكن غنيا أو فقيرا فالله أولى بهما}
 
 ## Place in the museum
 Fuente: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an de al-Wahidi]]. El versículo: [[passage/quran-4-136|Corán 4-136]].

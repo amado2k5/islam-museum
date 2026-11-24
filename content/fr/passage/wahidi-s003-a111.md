@@ -12,7 +12,7 @@ The verse, in al-Wahidi's heading: «لن يضروكم إلا أذى».
 
 ## Rapport complet (texte source arabe)
 
-صوريا عمدوا إلى مؤمنهم عبد الله بن سلام وأصحابه فآذوهم لإسلامهم، فأنزل
+قال مقاتل: إن رؤوس اليهود كعب وبحرى والنعمان وأبو رافع وأبو ياسر وابن صوريا عمدوا إلى مؤمنهم عبد الله بن سلام وأصحابه فآذوهم لإسلامهم، فأنزل الله هذه الآية.
 
 ## Place in the museum
 Source : [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an d'al-Wahidi]]. Le verset : [[passage/quran-3-111|Coran 3-111]].

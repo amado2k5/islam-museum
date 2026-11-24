@@ -12,7 +12,7 @@ The verse, in al-Wahidi's heading: «1، 2».
 
 ## Rapport complet (texte source arabe)
 
-أبي نجيح، عن مجاهد قال: أربع آيات من أول هذه السورة نزلت في المؤمنين،
+أخبرنا أبو عثمان الثقفي الزعفراني قال: أخبرنا أبو عمرو بن مطر قال: أخبرنا جعفر بن محمد بن الليث قال: أخبرنا أبو حذيفة قال: حدثنا شبل عن ابن أبي نجيح، عن مجاهد قال: أربع آيات من أول هذه السورة نزلت في المؤمنين، وآيتان بعدها نزلتا في الكافرين، وثلاث عشرة بعدها نزلت في المنافقين.
 
 ## Place in the museum
 Source : [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an d'al-Wahidi]]. Le verset : [[passage/quran-2-1|Coran 2-1]].

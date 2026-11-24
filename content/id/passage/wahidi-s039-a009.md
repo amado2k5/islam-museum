@@ -12,7 +12,7 @@ The verse, in al-Wahidi's heading: «أم من هو قانت آناء الليل
 
 ## Laporan lengkap (teks sumber Arab)
 
-قال ابن عباس في رواية عطاء: نزلت في أبي بكر الصديق-.
+قال ابن عباس في رواية عطاء: نزلت في أبي بكر الصديق-. وقال ابن عمر نزلت في عثمان بن عفان. وقال مقاتل: نزلت في عمار بن ياسر.
 
 ## Place in the museum
 Sumber: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an al-Wahidi]]. Ayatnya: [[passage/quran-39-9|Al-Qur'an 39-9]].

@@ -12,7 +12,7 @@ The verse, in al-Wahidi's heading: «الذين آتيناهم الكتاب يت
 
 ## Full report (Arabic source text)
 
-قال ابن عباس في رواية عطاء والكلبي: نزلت في أصحاب السفينة الذين أقبلوا
+قال ابن عباس في رواية عطاء والكلبي: نزلت في أصحاب السفينة الذين أقبلوا مع جعفر ابن أبي طالب من أرض الحبشة كانوا أربعين رجلا من الحبشة وأهل الشام. وقال الضحاك: نزلت فيمن آمن من اليهود. وقال قتادة وعكرمة: نزلت في أصحاب محمد-.
 
 ## Place in the museum
 Source: [[work/asbab-al-nuzul-wahidi|al-Wahidi's Asbab nuzul al-Qur'an]]. The verse: [[passage/quran-2-121|Qur'an 2-121]].

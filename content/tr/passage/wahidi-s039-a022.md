@@ -12,7 +12,7 @@ The verse, in al-Wahidi's heading: «أفمن شرح الله صدره للإس�
 
 ## Tam rivayet (Arapça kaynak metin)
 
-نزلت في حمزة وعلي وأبي لهب وولده، فعلي وحمزة ممن شرح الله صدره، وأبو
+. نزلت في حمزة وعلي وأبي لهب وولده، فعلي وحمزة ممن شرح الله صدره، وأبو لهب وأولاده الذين قست قلوبهم عن ذكر الله، وهو قوله: {فويل للقاسية قلوبهم من ذكر الله}
 
 ## Place in the museum
 Kaynak: [[work/asbab-nuzul-wahidi|El-Vahidi'nin Esbab Nüzul el-Kur'an'ı]]. Ayet: [[passage/quran-39-22|Kur'an 39-22]].

@@ -12,7 +12,7 @@ The verse, in al-Wahidi's heading: «صبغة الله ومن أحسن من ال
 
 ## Laporan lengkap (teks sumber Arab)
 
-الختان، فإذا فعلوا ذلك قالوا: الآن صار نصرانيا حقا، فأنزل اللههذه
+قال ابن عباس: إن النصارى كان إذا ولد لأحدهم ولد فأتى عليه سبعة أيام، صبغوه في ماء لهم يقال له: المعمودي ليظهروه بذلك، ويقولون: هذا طهور مكان الختان، فإذا فعلوا ذلك قالوا: الآن صار نصرانيا حقا، فأنزل الله هذه الآية. نزلت في تحويل القبلة.
 
 ## Place in the museum
 Sumber: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an al-Wahidi]]. Ayatnya: [[passage/quran-2-138|Al-Qur'an 2-138]].

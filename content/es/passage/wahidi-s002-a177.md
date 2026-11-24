@@ -12,7 +12,7 @@ The verse, in al-Wahidi's heading: «ليس البر أن تولوا وجوهك�
 
 ## Informe completo (texto fuente en árabe)
 
-قال قتادة: ذكر لنا أن رجلا سأل نبي الله- عن
+قال قتادة: ذكر لنا أن رجلا سأل نبي الله- عن البر، فأنزل الله هذه الآية. قال: وقد كان الرجل قبل الفرائض إذا شهد أن لا إله إلا الله، وأن محمدا عبده ورسوله، ثم مات على ذلك، وجبت له الجنة، فأنزل الله هذه الآية.
 
 ## Place in the museum
 Fuente: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an de al-Wahidi]]. El versículo: [[passage/quran-2-177|Corán 2-177]].

@@ -12,7 +12,7 @@ The verse, in al-Wahidi's heading: «إن الذين كفروا».
 
 ## Tam rivayet (Arapça kaynak metin)
 
-قال الضحاك: نزلت في أبي جهل وخمسة من أهل بيته، وقال الكلبي: يعني
+قال الضحاك: نزلت في أبي جهل وخمسة من أهل بيته، وقال الكلبي: يعني اليهود.
 
 ## Place in the museum
 Kaynak: [[work/asbab-nuzul-wahidi|El-Vahidi'nin Esbab Nüzul el-Kur'an'ı]]. Ayet: [[passage/quran-2-6|Kur'an 2-6]].

@@ -12,7 +12,7 @@ The verse, in al-Wahidi's heading: «أم كنتم شهداء إذ حضر يعق
 
 ## Full report (Arabic source text)
 
-نزلت في اليهود حين قالوا للنبي- ألست تعلم أن
+نزلت في اليهود حين قالوا للنبي- ألست تعلم أن يعقوب يوم مات أوصى بنيه باليهودية.
 
 ## Place in the museum
 Source: [[work/asbab-al-nuzul-wahidi|al-Wahidi's Asbab nuzul al-Qur'an]]. The verse: [[passage/quran-2-133|Qur'an 2-133]].

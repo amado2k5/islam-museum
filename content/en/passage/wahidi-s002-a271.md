@@ -12,7 +12,7 @@ The verse, in al-Wahidi's heading: «إن تبدوا الصدقات».
 
 ## Full report (Arabic source text)
 
-قال الكلبي: لما نزل قوله: {وما أنفقتم من نفقة} الآية، قالوا: يا
+قال الكلبي: لما نزل قوله: {وما أنفقتم من نفقة} الآية، قالوا: يا رسول الله صدقة السر أفضل أم صدقة العلانية؟ فأنزل الله هذه الآية.
 
 ## Place in the museum
 Source: [[work/asbab-al-nuzul-wahidi|al-Wahidi's Asbab nuzul al-Qur'an]]. The verse: [[passage/quran-2-271|Qur'an 2-271]].

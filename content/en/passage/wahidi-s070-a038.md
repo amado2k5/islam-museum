@@ -12,7 +12,7 @@ The verse, in al-Wahidi's heading: «أيطمع كل امرئ منهم أن يد
 
 ## Full report (Arabic source text)
 
-هؤلاء الجنة لندخلنها قبلهم، وليكونن لنا فيها أكثر مما لهم، فأنزل الله
+قال المفسرون: كان المشركون يجتمعون حول النبي- يستمعون كلامه ولا ينتفعون به، بل يكذبون به ويستهزءون ويقولون: لئن دخل هؤلاء الجنة لندخلنها قبلهم، وليكونن لنا فيها أكثر مما لهم، فأنزل الله هذه الآية.
 
 ## Place in the museum
 Source: [[work/asbab-al-nuzul-wahidi|al-Wahidi's Asbab nuzul al-Qur'an]]. The verse: [[passage/quran-70-38|Qur'an 70-38]].

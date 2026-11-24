@@ -12,7 +12,7 @@ The verse, in al-Wahidi's heading: «يا أيها الذين آمنوا لا ت
 
 ## Laporan lengkap (teks sumber Arab)
 
-نزلت في ناس من فقراء المسلمين كانوا يخبرون اليهود بأخبار المسلمين
+{13}. نزلت في ناس من فقراء المسلمين كانوا يخبرون اليهود بأخبار المسلمين ويواصلونهم فيصيبون بذلك من ثمارهم، فنهاهم الله عن ذلك.
 
 ## Place in the museum
 Sumber: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an al-Wahidi]]. Ayatnya: [[passage/quran-60-13|Al-Qur'an 60-13]].

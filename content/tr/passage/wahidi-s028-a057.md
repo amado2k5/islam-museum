@@ -12,7 +12,7 @@ The verse, in al-Wahidi's heading: «وقالوا إن نتبع الهدى مع�
 
 ## Tam rivayet (Arapça kaynak metin)
 
-نزلت في الحارث بن عثمان بن نوفل بن عبد مناف، وذلك أنه قال للنبي - صلى
+نزلت في الحارث بن عثمان بن نوفل بن عبد مناف، وذلك أنه قال للنبي - إنا لنعلم أن الذي تقول حق، لكن يمنعنا من اتباعك أن العرب تخطفنا من أرضنا لإجماعهم على خلافنا ولا طاقة لنا بهم، فأنزل الله هذه الآية.
 
 ## Place in the museum
 Kaynak: [[work/asbab-nuzul-wahidi|El-Vahidi'nin Esbab Nüzul el-Kur'an'ı]]. Ayet: [[passage/quran-28-57|Kur'an 28-57]].

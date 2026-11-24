@@ -12,7 +12,7 @@ The verse, in al-Wahidi's heading: «إن يمسسكم قرح».
 
 ## Informe completo (texto fuente en árabe)
 
-" فأنزل الله: {إن يمسسكم قرح} الآية.
+قال راشد بن سعد: لما انصرف رسول الله كئيبا حزينا يوم أحد، جعلت المرأة تجيء بزوجها وابنها مقتولين وهي تلتدم، فقال رسول الله - "أهكذا يفعل برسولك؟ " فأنزل الله: {إن يمسسكم قرح} الآية.
 
 ## Place in the museum
 Fuente: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an de al-Wahidi]]. El versículo: [[passage/quran-3-140|Corán 3-140]].

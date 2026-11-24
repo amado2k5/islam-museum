@@ -12,7 +12,7 @@ The verse, in al-Wahidi's heading: «ما يود الذين كفروا من أه
 
 ## Full report (Arabic source text)
 
-نحن عليه ولوددنا لو كان خيرا فأنزل اللهتكذيبا لهم هذه الآية.
+قال المفسرون: إن المسلمين كانوا إذا قالوا لحلفائهم من اليهود: آمنوا بمحمد- قالوا: هذا الذي تدعوننا إليه ليس بخير مما نحن عليه ولوددنا لو كان خيرا فأنزل الله تكذيبا لهم هذه الآية.
 
 ## Place in the museum
 Source: [[work/asbab-al-nuzul-wahidi|al-Wahidi's Asbab nuzul al-Qur'an]]. The verse: [[passage/quran-2-105|Qur'an 2-105]].
