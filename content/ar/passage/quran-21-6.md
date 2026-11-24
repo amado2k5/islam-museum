@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-6-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن أهل قرية قبلهم لم يؤمنوا بعد مجيء الآيات فأهلكهم الله، فهل يؤمن هؤلاء إن جاءتهم آية. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=21&tAyahNo=6&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «مَآ آمَنَتْ قَبْلَهُمْ مِّن قَرْيَةٍ أَهْلَكْنَاهَآ أَفَهُمْ يُؤْمِنُونَ»: ما آمن قبل هؤلاء المكذّبين محمدا من مشركي قومه الذين قالوا فليأتنا محمد بآية كما جاءت به الرسل قبله من أهل قرية عذّبناهم بالهلاك في الدنيا، إذ جاءهم رسولنا إليهم بآية معجزة. «أفَهُمْ يُؤْمِنُونَ» يقول: أفهؤلاء المكذّبون محمدا السائلوه الآية يؤمنون به إن جاءتهم آية ولم تؤمن قبلهمْ أسلافهم من الأمم الخالية التي أهلكناها برسلها مع مجيئها؟ وينقل في المقطع أقوالاً عن مجاهد وقتادة وابن جريج.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=21&tAyahNo=6&tDisplay=yes&UserProfile=0&LanguageId=1

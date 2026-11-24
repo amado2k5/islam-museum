@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-7-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن معنى «كُتب» هنا قُضي، والهاء في «عليه» تعود على الشيطان، أي قضي عليه أنه من اتبعه من خلق الله أضلّه ويهديه إلى عذاب السعير. وينقل ذلك عن قتادة ومجاهد وغيرهما. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=22&tAyahNo=4&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «كُتِبَ عَلَيْهِ أَنَّهُ مَن تَوَلاَّهُ فَأَنَّهُ يُضِلُّهُ وَيَهْدِيهِ إِلَىٰ عَذَابِ ٱلسَّعِيرِ»: قُضي على الشيطان فمعنى: «كُتِبَ» ههنا قُضِي، والهاء التي في قوله «عليه» من ذكر الشيطان. كما: عن معمر عن قتادة: «كُتِبَ عَلَيْهِ أنَّهُ مَنْ تَوَلاَّهُ» قال: كُتب على الشيطان، أنه من اتبع الشيطان من خلق الله. وعن ابن أبي نجيح، عن مجاهد، في قول الله: «كُتِبَ عَلَيْهِ أنَّهُ مَنْ تَوَلاَّهُ» قال: الشيطان اتبعه. وقال: ثني حجاج، عن ابن جُرَيج، عن مجاهد «أنَّهُ مَنْ تَوَلاَّهُ»، قال: اتبعه. وقوله: «فأنَّهُ يُضِلُّهُ» يقول: فإن الشيطان يضله، يعني: يضلّ من تولاه. والهاء التي في «يضله» عائدة على «من» التي في قوله: «مَنْ تَوَلاَّهُ» وتأويل الكلام: قُضِي على الشيطان أنه يضلّ أتباعه ولا يهديهم إلى الحقّ. وينقل في المقطع أقوالاً عن مجاهد وقتادة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=22&tAyahNo=4&tDisplay=yes&UserProfile=0&LanguageId=1

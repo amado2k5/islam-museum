@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-7-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يذكر الطبري أن من عمل الصالحات من هؤلاء المتفرقين وهو مؤمن مقرّ بوحدانية الله مصدّق بوعده ووعيده متبرّئ من الأنداد، فالله يشكر عمله ولا يجحده ولا يحرمه ثوابه، وهو يكتبه له. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=21&tAyahNo=94&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «فَمَن يَعْمَلْ مِنَ ٱلصَّالِحَاتِ وَهُوَ مُؤْمِنٌ فَلاَ كُفْرَانَ لِسَعْيِهِ وَإِنَّا لَهُ كَاتِبُونَ»: فمن عمل من هؤلاء الذين تفرّقوا في دينهم بما أمره الله به من العمل الصالح، وأطاعه في أمره ونهيه، وهو مقرّ بواحدانية الله مصدّق بوعده ووعيده متبرّىء من الأنداد والآلهة «فَلا كُفْرَانَ لِسَعْيِهِ» يقول: فإن الله يشكر عمله الذي عمل له مطيعاً له، وهو به مؤمن، فيثيبه في الآخرة ثوابه الذي وعد أهل طاعته أن يثيبهموه، ولا يكفر ذلك له فيجحده ويحرمه ثوابه على عمله الصالح. «وَإنَّا لَهُ كاتِبُونَ» يقول: ونحن نكتب أعماله الصالحة كلها فلا نترك منها شيئاً، لنجزيه على صغير ذلك وكبيره وقليله وكثيره.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=21&tAyahNo=94&tDisplay=yes&UserProfile=0&LanguageId=1

@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-6-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن الله يقذف بالحق على الباطل فيدمغه أي يهلكه، فإذا هو زاهق أي هالك مضمحل، ولكم الويل مما تصفون. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=21&tAyahNo=18&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «بَلْ نَقْذِفُ بِٱلْحَقِّ عَلَى ٱلْبَاطِلِ فَيَدْمَغُهُ فَإِذَا هُوَ زَاهِقٌ وَلَكُمُ ٱلْوَيْلُ مِمَّا تَصِفُونَ»: ولكن ننزل الحقّ من عندنا، وهو كتاب الله وتنزيله على الكفر به وأهله، «فيَدْمَغُهُ» يقول: فيهلكه كما يدمغ الرجل الرجل بأن يشجّه على رأسه شجة تبلغ الدماغ، وإذا بلغت الشجة ذلك من المشجوج لم يكن له بعدها حياة. وقوله «فإذَا هُوَ زَاهِقٌ» يقول: فإذا هو هالك مضمحلّ كما: عن معمر، عن قَتادة: «فإذَا هَوَ زَاهِقٌ» قال: هالك. وعن قتادة: فإذَا هُوَ زَاهِقٌ قال: ذاهب. وينقل في المقطع أقوالاً عن مجاهد وقتادة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=21&tAyahNo=18&tDisplay=yes&UserProfile=0&LanguageId=1

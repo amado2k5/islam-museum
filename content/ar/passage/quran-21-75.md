@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-7-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن الله أدخل لوطاً في رحمته إذ أنجاه مما أحلّه بقومه، لأنه من الصالحين الذين يعملون بطاعته وينتهون إلى أمره ونهيه. وينقل عن ابن زيد أن معنى «الصالحين» أنه في الإسلام. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=21&tAyahNo=75&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَأَدْخَلْنَاهُ فِي رَحْمَتِنَآ إِنَّهُ مِنَ ٱلصَّالِحِينَ»: وأدخلنا لوطاً في رحمتنا بانجائنا مما أحللنا بقومه من العذاب والبلاء وإنقاذناه منه. «إنَّهُ مِنَ الصَّالِحِينَ» يقول: إن لوطا من الذين كانوا يعملون بطاعتنا وينتهون إلى أمرنا ونهينا ولا يعصوننا. وكان ابن زيد يقول في معنى قوله: «وأدْخَلْناهُ فِي رَحْمَتِنا» ما: قال ابن زيد، في قوله: «وأدْخَلْناهُ فِي رَحْمَتِنا» قال: في الإسلام. وينقل في المقطع أقوالاً عن ابن زيد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=21&tAyahNo=75&tDisplay=yes&UserProfile=0&LanguageId=1

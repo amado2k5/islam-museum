@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-7-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن من يقل من الملائكة إني إله من دون الله فجزاؤه جهنم، وكذلك يجزي الله كل ظالم لنفسه بالكفر وعبادة غيره. ويذكر قولاً بأن الآية في إبليس وحده، لأنه لا أحد من الملائكة قال ذلك سواه على قول أصحاب هذا الرأي. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=21&tAyahNo=29&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَمَن يَقُلْ مِنْهُمْ إِنِّيۤ إِلَٰهٌ مِّن دُونِهِ فَذٰلِكَ نَجْزِيهِ جَهَنَّمَ كَذَلِكَ نَجْزِي ٱلظَّالِمِينَ»: ومن يقل من الملائكة إني إله من دون الله، «فَذَلِكَ» الذي يقول ذلك منهم «نَجْزِيهِ جَهَنّمَ» يقول: نثيبه على قيله ذلك جهنم. «كَذلِكَ نَجْزِي الظَّالِمينَ» يقول: كما نجزي من قال من الملائكة إني إله من دون الله جهنم، كذلك نجزي ذلك كل من ظلم نفسه فكفر بالله وعبد غيره. وقيل: عني بهذه الآية إبليس. وقال قائلو ذلك: إنما قلنا ذلك، لأنه لا أحد من الملائكة قال إني إله من دون الله سواه
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=21&tAyahNo=29&tDisplay=yes&UserProfile=0&LanguageId=1

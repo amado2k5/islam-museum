@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-7-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يذكر الطبري أن الله يعلم ما بين أيدي ملائكته وما خلفهم، أي ما لم يبلغوه وما مضى من أعمالهم في الأزمان والدهور، وكل ذلك محصًى لهم وعليهم لا يخفى عليه منه شيء. وينقل عن ابن عباس أن المراد ما قدّموا وما أخّروا. ويذكر في الشفاعة أنها لا تكون إلا لمن ارتضاه الله. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=21&tAyahNo=28&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «يَعْلَمُ مَا بَيْنَ أَيْدِيهِمْ وَمَا خَلْفَهُمْ وَلاَ يَشْفَعُونَ إِلاَّ لِمَنِ ٱرْتَضَىٰ وَهُمْ مِّنْ خَشْيَتِهِ مُشْفِقُونَ»: يعلم ما بين أيدي ملائكته ما لم يبلغوه ما هو وما هم فيه قائلون وعاملون، «وَمَا خَلْفَهُمْ» يقول: وما مضى من قبل اليوم مما خلفوه وراءهم من الأزمان والدهور ما عملوا فيه، قالوا: ذلك كله مُحْصًى لهم وعليهم، لا يخفى عليه من ذلك شيء. وينقل في المقطع أقوالاً عن ابن عباس ومجاهد وقتادة وابن جريج.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=21&tAyahNo=28&tDisplay=yes&UserProfile=0&LanguageId=1

@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-7-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يفسّر الطبري وصف الملائكة بأنهم لا يسبقون ربهم بالقول، بل ينتظرون ما يأمرهم به ولا يتقدمون بين يديه بقول، وهم بأمره يعملون، فلا يخالفونه ولا يفعلون إلا ما أُمروا به، وهو جزء من بيان كونهم عباداً مكرمين. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=21&tAyahNo=27&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 26 إلى 27 مقطعاً واحداً. يفسّر الطبري الآية ضمن المقطع نفسه. وينقل في المقطع أقوالاً عن قتادة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=21&tAyahNo=27&tDisplay=yes&UserProfile=0&LanguageId=1

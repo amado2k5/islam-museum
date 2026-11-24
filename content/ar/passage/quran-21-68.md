@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-7-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يذكر الطبري أن بعض قوم إبراهيم قال لبعض: حرّقوه وانصروا آلهتكم إن كنتم فاعلين، أي إن أردتم نصرتها ولم ترغبوا في ترك عبادتها. ويورد قولاً بأن القائل رجل من أكراد فارس، وروايات في إيقاد النار وإلقائه فيها. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=21&tAyahNo=68&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 68 إلى 70 مقطعاً واحداً. يفسّر قوله «قَالُواْ حَرِّقُوهُ وَٱنصُرُوۤاْ آلِهَتَكُمْ إِن كُنتُمْ فَاعِلِينَ»: قال بعض قوم إبراهيم لبعض: حرّقوا إبراهيم بالنار «وَانْصُرُوا آلِهَتَكُمْ إنْ كُنْتُمْ فاعِلِينَ» يقول: إن كنتم ناصريها ولم تريدوا ترك عبادتها. وقيل: إن الذي قال ذلك رجل من أكراد فارس. وينقل في المقطع أقوالاً عن ابن عباس ومجاهد والحسن وابن إسحاق وإبراهيم.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=21&tAyahNo=68&tDisplay=yes&UserProfile=0&LanguageId=1

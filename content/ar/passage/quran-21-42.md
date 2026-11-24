@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-7-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يذكر الطبري أن الله يأمر نبيه أن يسأل المستعجلين بالعذاب: من يحفظكم ويحرسكم بالليل إذا نمتم وبالنهار إذا تصرفتم من الرحمن، أي من أمره وعذابه إن حلّ بكم؟ ثم يبيّن أنهم عن ذكر ربهم معرضون. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=21&tAyahNo=42&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «قُلْ مَن يَكْلَؤُكُم بِٱلْلَّيْلِ وَٱلنَّهَارِ مِنَ ٱلرَّحْمَٰنِ بَلْ هُمْ عَن ذِكْرِ رَبِّهِمْ مُّعْرِضُونَ»: قل يا محمد لهؤلاء المستعجليك بالعذاب، القائلين: متى هذا الوعد إن كنتم صادقين: «مَنْ يَكْلَؤُكُمْ» أيُّها القَوْمُ، يقول: من يحفظكم ويحرسكم بالليل إذا نمتم، وبالنهار إذا تصرّفتم من الرحمن؟ يقول: من أمر الرحمن إن نزل بكم، ومن عذابه إن حلّ بكم. وترك ذكر «الأمر» وقيل «من الرحمن» اجتزاء بمعرفة السامعين لمعناه من ذكره. وينقل في المقطع أقوالاً عن ابن عباس وقتادة وابن جريج.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=21&tAyahNo=42&tDisplay=yes&UserProfile=0&LanguageId=1

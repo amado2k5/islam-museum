@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-6-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن الملائكة تقول لهم لا تركضوا وارجعوا إلى ما أُترفتم فيه ومساكنكم لعلكم تُسألون، أي لعلكم تُسألون عن نعمكم. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=21&tAyahNo=13&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «لاَ تَرْكُضُواْ وَٱرْجِعُوۤاْ إِلَىٰ مَآ أُتْرِفْتُمْ فِيهِ وَمَسَاكِنِكُمْ لَعَلَّكُمْ تُسْأَلُونَ»: لا تهربوا وارجعوا إلى ما أُترفتم فيه: يقول: إلى ما أُنعمتم فيه من عيشتكم ومساكنكم كما: ثني أبي، قال: ثني عمي، قال: ثني أبي، عن أبيه، عن ابن عباس قوله: «لا تَرْكُضُوا وَارْجِعُوا إلى ما أُتْرِفْتُمْ فِيهِ ومَسَاكِنِكُمْ لَعَلَّكُمْ تُسْئَلُونَ» يعني من نزل به العذاب في الدنيا ممن كان يعصي الله من الأمم. وعن ابن أبي نجيح، عن مجاهد، قوله: «لا تَرْكُضُوا»: لا تفرّوا. وقال: ثني حجاج، عن ابن جريج، عن مجاهد، مثله. وعن قَتادة: «وَارْجِعُوا إلى ما أُتْرِفْتُمْ فِيهِ» يقول: ارجعوا إلى دنياكم التي أُترفتم فيها. عن قتادة: «وَارْجِعُوا إلى ما أُتْرِفْتُمْ فِيهِ» قال: إلى ما أُترفتم فيه من دنياكم. وينقل في المقطع أقوالاً عن ابن عباس ومجاهد وقتادة وابن جريج.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=21&tAyahNo=13&tDisplay=yes&UserProfile=0&LanguageId=1

@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-6-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن الملائكة يسبّحون الليل والنهار لا يفترون، وأن المشركين اتخذوا آلهة من الأرض هم ينشرون أي يحيون الموتى، وهي لا تفعل ذلك. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=21&tAyahNo=20&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 20 إلى 21 مقطعاً واحداً. يفسّر قوله «يُسَبِّحُونَ ٱلَّيلَ وَٱلنَّهَارَ لاَ يَفْتُرُونَ»: يسبح هؤلاء الذين عنده من ملائكة ربهم الليل والنهار لا يفترون من تسبيحهم إياه. كما: وأخبرنا حميد، عن إسحاق بن عبد الله بن الحارث، عن أبيه أن ابن عباس سأل كعبا عن قوله: «يُسَبِّحُون اللَّيْلَ وَالنَّهَارَ لاَ يَفْتُرُونَ» و «يسبحون الليل والنهار لا يسأمون» فقال: هل يَئُودك طرفك؟ هل يَئُودك نَفَسُك؟ قال: لا قال: فإنهم أُلهموا التسبيح كما أُلهمتم الطَّرْف والنَّفَس. وينقل في المقطع أقوالاً عن مجاهد وقتادة وابن زيد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=21&tAyahNo=20&tDisplay=yes&UserProfile=0&LanguageId=1

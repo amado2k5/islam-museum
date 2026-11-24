@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-7-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن أبا إبراهيم وقومه أجابوا بأنهم وجدوا آباءهم لها عابدين، فهم على ملة آبائهم يعبدونها كما كانوا يعبدون، فاحتجّوا بتقليد الآباء لا بحجة. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=21&tAyahNo=53&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 53 إلى 55 مقطعاً واحداً. يفسّر قوله «قَالُواْ وَجَدْنَآ آبَآءَنَا لَهَا عَابِدِينَ»: قال أبو إبراهيم وقومه لإبراهيم: وجدنا آباءنا لهذه الأوثان عابدين، فنحن على ملة آبائنا نعبدها كما كانوا يعبدون. «قالَ» إبراهيم: «لَقَدْ كُنْتُمْ» أيها القوم «أنْتُمْ وَآباؤُكُمْ» بعبادتكم إياها «فِي ضَلالٍ مُبِينٍ» يقول: في ذهاب عن سبيل الحقّ، وجور عن قصد السبيل مبين يقول: بَيِّنٌ لمن تأمله بعقل أنكم كذلك في جور عن الحقّ. «قالُوا أجِئْتَنا بالحَقّ»؟ يقول: قال أبوه وقومه له: أجئتنا بالحقّ فيما تقول «أمْ أنْتَ» هازل لاعب «مِنَ اللاَّعِبِينَ».
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=21&tAyahNo=53&tDisplay=yes&UserProfile=0&LanguageId=1

@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-7-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يفسّر الطبري الآية على معنى: أم لهم آلهة من دوننا تمنعهم منا؟ ثم يصف الآلهة بالضعف، فهي لا تستطيع نصر أنفسها. ويذكر اختلاف أهل التأويل في معنى «يُصحبون»: فقيل إن الآلهة لا تصحَب من الله بنصر، وقيل غير ذلك. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=21&tAyahNo=43&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «أَمْ لَهُمْ آلِهَةٌ تَمْنَعُهُمْ مِّن دُونِنَا لاَ يَسْتَطِيعُونَ نَصْرَ أَنْفُسِهِمْ وَلاَ هُمْ مِّنَّا يُصْحَبُونَ»: ألهؤلاء المستعجلي ربهم بالعذاب آلهة تمنعهم، إن نحن أحللنا بهم عذابنا، وأنزلنا بهم بأسنا من دوننا؟ ومعناه: أم لهم آلهة من دوننا تمنعهم منا؟ ثم وصف جلّ ثناؤه الآلهة بالضعف والمهانة، وما هي به من صفتها، فقال: وكيف تستطيع آلهتهم التي يدعونها من دوننا أن تمنعهم منا وهي لا تستطيع نصر أنفسها. وقوله: «وَلا هُمْ مِنَّا يُصْحَبُونَ» اختلف أهل التأويل في المعنيّ بذلك، وفي معنى «يُصْحَبُون»، فقال بعضهم: عني بذلك الآلهة، وأنها لا تصحب من الله بخير. وينقل في المقطع أقوالاً عن ابن عباس ومجاهد وقتادة وابن جريج.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=21&tAyahNo=43&tDisplay=yes&UserProfile=0&LanguageId=1

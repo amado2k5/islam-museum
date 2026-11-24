@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-7-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يذكر الطبري أن النار لا تأتي الكفار عن علم بوقتها، بل تأتيهم فجأة فتبهتهم وتغشاهم كالمبهوت الحيران، فلا يطيقون دفعها عن أنفسهم ولا يؤخَّرون بالعذاب لتوبة يحدثونها. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=21&tAyahNo=40&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «بَلْ تَأْتِيهِم بَغْتَةً فَتَبْهَتُهُمْ فَلاَ يَسْتَطِيعُونَ رَدَّهَا وَلاَ هُمْ يُنظَرُونَ»: لا تأتي هذه النار التي تلفح وجوه هؤلاء الكفار الذين وصف أمرهم في هذه السورة حين تأتيهم عن علم منهم بوقتها، ولكنها تأتيهم مفاجأة لا يشعرون بمجيئها «فتَبْهَتُهُمْ» يقول: فتغشاهم فجأة، وتلفح وجوههم معاينة كالرجل يبهت الرجل في وجهه بالشيء، حتى يبقى المبهوت كالحيران منه. «فلاَ يَسْتَطِيعُونَ رَدَّها» يقول: فلا يطيقون حين تبغتهم فتبهتهم دفعها عن أنفسهم. «وَلا هُمْ يُنْظَرُونَ» يقول: ولا هم وإن لم يطيقوا دفعها عن أنفسهم يؤخرون بالعذاب بها لتوبة يحدثونها وإنابة ينيبون، لأنها ليست حين عمل وساعة توبة وإنابة، بل هي ساعة مجازاة وإثابة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=21&tAyahNo=40&tDisplay=yes&UserProfile=0&LanguageId=1

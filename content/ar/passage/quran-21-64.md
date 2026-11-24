@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-7-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إنهم رجعوا إلى أنفسهم وعقولهم ونظر بعضهم إلى بعض، فقالوا: إنكم أنتم الظالمون، أي في سؤالكم إياه وقولكم من فعل هذا بآلهتنا، وهذه آلهتكم حاضرتكم فاسألوها. وينقل عن ابن إسحاق أنهم ارعووا ورجعوا عن اتهامه. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=21&tAyahNo=64&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 64 إلى 65 مقطعاً واحداً. يفسّر قوله «فَرَجَعُوۤاْ إِلَىٰ أَنفُسِهِمْ فَقَالُوۤاْ إِنَّكُمْ أَنتُمُ ٱلظَّالِمُونَ»: فذكروا حين قال لهم إبراهيم صلوات الله عليه:«بَلْ فَعَلَهُ كَبِيرُهِمْ هَذَا فاسْئَلُوهُمْ إنْ كانُوا يَنْطِقُونَ» في أنفسهم، ورجعوا إلى عقولهم، ونظر بعضهم إلى بعض، فقالوا: إنكم معشر القوم الظالمون هذا الرجل في مسألتكم إياه وقيلكم له من فعل هذا بآلهتنا يا إبراهيم؟ وهذه آلهتكم التي فعل بها ما فعل حاضرتكم فاسألوها وينقل في المقطع أقوالاً عن ابن إسحاق وإبراهيم.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=21&tAyahNo=64&tDisplay=yes&UserProfile=0&LanguageId=1

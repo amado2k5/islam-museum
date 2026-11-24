@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-7-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن الآية نزلت في النضر بن الحارث، وينقل ذلك عن ابن جريج. ويعني بالمجادلة في الله أن يخاصم فيزعم أن الله غير قادر على إحياء من بلي وصار تراباً، بغير علم، بل بجهل بما يقول، ويتبع في ذلك كل شيطان مريد. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=22&tAyahNo=3&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَمِنَ ٱلنَّاسِ مَن يُجَادِلُ فِي ٱللَّهِ بِغَيْرِ عِلْمٍ وَيَتَّبِعُ كُلَّ شَيْطَانٍ مَّرِيدٍ»: ذكر أن هذه الآية: نزلت في النضر بن الحارث. وقال: ثني حجاج، عن ابن جُرَيج: «وَمِنَ النَّاسِ مَنْ يُجادِلُ في اللَّهِ بغَيْرِ عِلْمٍ» قال: النضْر بن الحارث. ويعني بقوله: «مَنْ يُجادِلُ في اللَّهِ بغَيْرِ عِلْمٍ» من يخاصم في الله، فيزعم أن الله غير قادر على إحياء من قد بَلي وصار تراباً، بغير علم يعلمه، بل بجهل منه بما يقول. «وَيَتَّبِعُ» في قيله ذلك وجداله في الله بغير علم «كُلَّ شَيْطانٍ مَّرِيدٍ».
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=22&tAyahNo=3&tDisplay=yes&UserProfile=0&LanguageId=1

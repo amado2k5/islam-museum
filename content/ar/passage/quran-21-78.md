@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-7-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يذكر الطبري أن الله أمر نبيه أن يذكر داود وسليمان إذ يحكمان في الحرث، ويعرض اختلاف أهل التأويل فيه: فقيل إنه نبت، وروي عن قتادة أن غنم القوم وقعت فيه ليلاً فأفسدته، وأن الحكم اختلف بين داود وسليمان. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=21&tAyahNo=78&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 78 إلى 79 مقطعاً واحداً. يفسّر قوله «وَدَاوُودَ وَسُلَيْمَانَ إِذْ يَحْكُمَانِ فِي ٱلْحَرْثِ إِذْ نَفَشَتْ فِيهِ غَنَمُ ٱلْقَوْمِ وَكُنَّا لِحُكْمِهِمْ شَاهِدِينَ»: واذكر داود وسليمان يا محمد إذ يحكمان في الحرث. واختلف أهل التأويل في ذلك الحرث ما كان؟ فقال بعضهم: كان نبتاً. وينقل في المقطع أقوالاً عن ابن عباس وابن إسحاق.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=21&tAyahNo=78&tDisplay=yes&UserProfile=0&LanguageId=1

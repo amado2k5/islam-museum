@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-7-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن الكافرين إذا رأوا النبي ما يتخذونه إلا سخرية، يقول بعضهم لبعض: أهذا الذي يذكر آلهتكم بسوء؟ ويتعجبون من ذكره آلهتهم بالسوء، وهم أولى بالتعجب من كفرهم بالرحمن، الذي خلقهم وإليه مرجعهم. وتضع العرب الذكر موضع المدح والذم. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=21&tAyahNo=36&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَإِذَا رَآكَ ٱلَّذِينَ كَفَرُوۤاْ إِن يَتَّخِذُونَكَ إِلاَّ هُزُواً أَهَٰذَا ٱلَّذِي يَذْكُرُ آلِهَتَكُمْ وَهُمْ بِذِكْرِ ٱلرَّحْمَٰنِ هُمْ كَافِرُونَ»: «وَإذَا رآكَ» يا محمد «الَّذِينَ كَفَرُوا» بالله، «إنْ يَتَّخِذُونَكَ إلاَّ هُزُوا» يقول: ما يتخذونك إلا سخرّيا يقول بعضهم لبعض: «أهَذَا الَّذِي يَذْكُرُ آلِهَتَكُمْ» يعني بقوله: يذكر آلهتكم بسوء ويعيبها، تعجبا منهم من ذلك. يقول الله تعالى ذكره: فيعجبون من ذكرك يا محمد آلهتهم التي لا تضرّ ولا تنفع بسوء.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=21&tAyahNo=36&tDisplay=yes&UserProfile=0&LanguageId=1

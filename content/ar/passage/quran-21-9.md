@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-6-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يوضح الطبري أن الله صدقهم الوعد فأنجاهم ومن شاء وأهلك المسرفين، أي المتجاوزين الحد في الكفر. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=21&tAyahNo=9&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «ثُمَّ صَدَقْنَاهُمُ ٱلْوَعْدَ فَأَنجَيْنَاهُمْ وَمَن نَّشَآءُ وَأَهْلَكْنَا ٱلْمُسْرفِينَ»: ثم صدقنا رسلنا الذين كذبتهم أممهم وسألتهم الآيات، فأتيناهم ما سألوه من ذلك ثم أقاموا على تكذيبهم إياها، وأصرّوا على جحودهم نبوّتها بعد الذي أتتهم به من آيات ربها، وعدَنا الذي وعدناهم من الهلاك على إقامتهم على الكفر بربهم بعد مجيء الآية التي سألوا. وذلك كقوله جلّ ثناؤه:«فَمَنْ يَكْفُرْ بَعْدُ مِنْكُمْ فإنِّي أُعَذّبُهُ عَذَابا لا أُعَذّبُهُ أحَدا مِنَ العالَمِينَ» وكقوله:«وَلا تَمَسُّوها بِسُوءٍ فَيَأْخْذَكُمْ عَذَابٌ قَرِيبٌ» ونحو ذلك من المواعيد التي وعد الأمم مع مجيء الآيات. وقوله: «فَأَنْجَيْناهُمْ» يقول تعالى ذكره: فأنجينا الرسل عند إصرار أممها على تكذيبها بعد الآيات، «وَمَنْ نَشاءُ» وهم أتباعها الذين صدّقوها وآمنوا بها. وينقل في المقطع أقوالاً عن قتادة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=21&tAyahNo=9&tDisplay=yes&UserProfile=0&LanguageId=1

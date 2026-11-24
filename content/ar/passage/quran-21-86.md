@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-7-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن الله أدخل هؤلاء الصابرين في رحمته، وإنهم من الصالحين، أي من أهل الطاعة والاستقامة، وقد أثنى عليهم بصبرهم ووفائهم، كما سبق في بيان إسماعيل وإدريس وذي الكفل. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=21&tAyahNo=86&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 86 إلى 87 مقطعاً واحداً. يفسّر قوله «وَإِسْمَاعِيلَ وَإِدْرِيسَ وَذَا ٱلْكِفْلِ كُلٌّ مِّنَ ٱلصَّابِرِينَ»: يعني تعالى ذكره بإسماعيل بن إبراهيم صادق الوعد، وبإدريس: أخنوخ، وبذي الكفل: رجلاً تكفل من بعض الناس، إما من نبيّ وإما من ملك من صالحي الملوك بعمل من الأعمال، فقام به من بعده، فأثنى الله عليه حسن وفائه بما تكفل به وجعله من المعدودين في عباده، مع من حمد صبره على طاعة الله. وبالذي قلنا في أمره جاءت الأخبار عن سلف العلماء. ذكر الرواية بذلك عنهم: وعن الأعمش، عن المنهال بن عمرو، عن عبد الله بن الحارث: أن نبيًّا من الأنبياء، قال: من تكفل لي أن يصوم النهار ويقوم الليل ولا يغضب؟ فقام شاب فقال: أنا. فقال: اجلس: ثم عاد فقال: من تكفل لي أن يقوم الليل ويصوم النهار ولا يغضب؟ فقام ذلك الشاب فقال: أنا. وينقل في المقطع أقوالاً عن مجاهد والأعمش.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=21&tAyahNo=86&tDisplay=yes&UserProfile=0&LanguageId=1

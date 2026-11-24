@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-7-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن الناس تفرّقوا في دينهم الذي أمرهم الله به فصاروا أحزاباً، فتهوّدت اليهود وتنصّرت النصارى وعُبدت الأوثان، ثم أخبر أن مرجع الجميع إليه، وأنه لأهل الزيغ بالمرصاد، ويجازي المحسن بإحسانه والمسيء بإساءته. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=21&tAyahNo=93&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَتَقَطَّعُوۤاْ أَمْرَهُمْ بَيْنَهُمْ كُلٌّ إِلَيْنَا رَاجِعُونَ»: وتفرّق الناس في دينهم الذي أمرهم الله به ودعاهم إليه، فصاروا فيه أحزاباً فهوّدت اليهود، وتنصَّرت النصارى وعُبدت الأوثان. ثم أخبر جلّ ثناؤه عما هم إليه صائرون، وأن مرجع جميع أهل الأديان إليه متوعداً بذلك أهل الزيغ منهم والضلال، ومعلمهم أنه لهم بالمرصاد، وأنه مجاز جميعهم جزاء المحسن بإحسانه والمسيء بإساءته. وينقل في المقطع أقوالاً عن ابن زيد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=21&tAyahNo=93&tDisplay=yes&UserProfile=0&LanguageId=1

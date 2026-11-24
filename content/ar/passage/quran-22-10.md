@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-7-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن ما ينزل بهذا المجادل من العذاب هو بما قدّمت يداه، أي بما كسب من الأعمال، وأن الله ليس بظلام للعبيد، فلا يعاقب أحداً بغير ذنب ولا يظلمه شيئاً. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=22&tAyahNo=10&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 10 إلى 11 مقطعاً واحداً. يفسّر قوله «ثَانِيَ عِطْفِهِ لِيُضِلَّ عَن سَبِيلِ ٱللَّهِ لَهُ فِي ٱلدُّنْيَا خِزْيٌ وَنُذِيقُهُ يَوْمَ ٱلْقِيَامَةِ عَذَابَ ٱلْحَرِيقِ»: يجادل هذا الذي يجادل في الله بغير علم «ثانِيَ عِطْفِهِ». واختلف أهل التأويل في المعنى الذي من أجله وصف بأنه يثني عطفه وما المراد من وصفه إياه بذلك، فقال بعضهم: وصفه بذلك لتكبره وتبختره. وذكر عن العرب أنها تقول: جاءني فلان ثاني عطفه: إذا جاء متبخترا من الكبر وينقل في المقطع أقوالاً عن ابن عباس ومجاهد وابن زيد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=22&tAyahNo=10&tDisplay=yes&UserProfile=0&LanguageId=1
