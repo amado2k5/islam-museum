@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-12-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل الآيات [[passage/quran-83-30|83:30]] إلى [[passage/quran-83-33|83:33]]، وخلاصتها: يشرح الطبري أن هؤلاء المجرمين لم يُرسلوا على المؤمنين حافظين، إنما كُلّفوا الإيمان بالله وطاعته ولم يُجعلوا رقباء على غيرهم. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=83&tAyahNo=33&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 30 إلى 33 مقطعاً واحداً. يفسّر قوله «وَمَآ أُرْسِلُواْ عَلَيْهِمْ حَافِظِينَ»: يقول جلّ ثناؤه: وما بُعث هؤلاء الكفار القائلون للمؤمنين إن هؤلاء لضالون، حافظين عليهم أعمالهم يقول: إنما كُلِّفوا الإيمان بالله، والعمل بطاعته، ولم يُجعلوا رُقباء على غيرهم يحفظون عليهم، أعمالهم ويتفقدونها. وينقل في المقطع أقوالاً عن ابن عباس وابن زيد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=83&tAyahNo=33&tDisplay=yes&UserProfile=0&LanguageId=1

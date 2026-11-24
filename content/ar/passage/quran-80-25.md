@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-12-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل الآيات [[passage/quran-80-24|80:24]] إلى [[passage/quran-80-30|80:30]]، وخلاصتها: يعرض الطبري قراءتين في «أنا صببنا»: بكسر الألف على الاستئناف، وبفتحها على نية تكرير الخافض. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=80&tAyahNo=25&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 24 إلى 30 مقطعاً واحداً. يفسّر قوله «أَنَّا صَبَبْنَا ٱلْمَآءَ صَبّاً»: فقرأته عامة قرّاء المدينة والبصرة بكسر الألف من «أنَّا»، على وجه الاستئناف، وقرأ ذلك عامة قرّاء الكوفة «أنَّا» بفتح الألف، بمعنى: فلينظر الإنسان إلى أنا، فيجعل «أنَّا» في موضع خفض، على نية تكرير الخافض، وقد يجوز أن يكون رفعاً إذا فُتحت، بنية طعامه أنَّا صببنا الماء صباً. والصواب من القول في ذلك عندي: أنهما قراءتان معروفتان: فبأيتهما قرأ القارىء فمصيب. وقوله: «أنَّا صَبَبْنا الماءَ صَبًّا» يقول: أنا أنزلنا الغيث من السماء إنزالاً، وصببناه عليها صباً وينقل في المقطع أقوالاً عن ابن عباس ومجاهد وقتادة والحسن وسفيان.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=80&tAyahNo=25&tDisplay=yes&UserProfile=0&LanguageId=1

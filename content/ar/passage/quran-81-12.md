@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-12-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل الآيات [[passage/quran-81-11|81:11]] إلى [[passage/quran-81-16|81:16]]، وخلاصتها: يبيّن الطبري أن الجحيم أُوقدت عليها فأُحميت، ويروي ذلك عن قتادة. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=81&tAyahNo=12&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 12 إلى 17 مقطعاً واحداً. يفسّر قوله «وَإِذَا ٱلسَّمَآءُ كُشِطَتْ»: وإذا السماء نُزعت وجُذبت، ثم طُويت. وينقل في المقطع أقوالاً عن مجاهد وقتادة والربيع وسفيان.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=81&tAyahNo=12&tDisplay=yes&UserProfile=0&LanguageId=1

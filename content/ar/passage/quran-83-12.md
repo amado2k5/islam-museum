@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-12-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل الآيات [[passage/quran-83-12|83:12]] إلى [[passage/quran-83-14|83:14]]، وخلاصتها: يبيّن الطبري أنه لا يكذّب بيوم الدين إلا كل معتد اعتدى على الله في قوله فخالف أمره، أثيم بربه، ويروي عن قتادة. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=83&tAyahNo=12&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 12 إلى 14 مقطعاً واحداً. يفسّر قوله «وَمَا يُكَذِّبُ بِهِ إِلاَّ كُلُّ مُعْتَدٍ أَثِيمٍ»: وما يكذّب بيوم الدين «إلاَّ كُلُّ مُعْتَدٍ» اعتدى على الله في قوله، فخالف أمره، «أثِيمٍ» بربه، كما: وعن قتادة«وَيْلٌ يَوْمَئِذٍ للْمُكَذِّبِينَ» قال الله: «وَما يُكَذِّبُ بِهِ إلاَّ كُلُّ مُعْتَدٍ أثِيمٍ»: أي بيوم الدين، إلاَّ كلّ معتد في قوله، أثيم بربه. «إذَا تُتْلَى عَلَيْهِ آياتُنا» يقول تعالى ذكره: إذا قُرِىء عليه حججنا وأدلتنا التي بيَّنَّاها في كتابنا الذي أنزلناه إلى محمد، «قالَ أساطِيرُ الأوَّلِينَ» يقول: قال: هذا ما سطَّره الأوّلون فكتبوه، من الأحاديث والأخبار. وينقل في المقطع أقوالاً عن قتادة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=83&tAyahNo=12&tDisplay=yes&UserProfile=0&LanguageId=1

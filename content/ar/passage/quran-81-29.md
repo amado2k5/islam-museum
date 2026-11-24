@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-12-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل الآيات [[passage/quran-81-27|81:27]] إلى [[passage/quran-81-29|81:29]]، وخلاصتها: يذكر الطبري أنه لما نزلت الآية السابقة قال أبو جهل إن ذلك إلينا إن شئنا استقمنا، فنزلت الآية بأن المشيئة لله رب العالمين. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=81&tAyahNo=29&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 27 إلى 29 مقطعاً واحداً. يفسّر قوله «وَمَا تَشَآءُونَ إِلاَّ أَن يَشَآءَ ٱللَّهُ رَبُّ ٱلْعَالَمِينَ»: وما تشاءون أيها الناس الاستقامة على الحقّ، إلا أن يشاء الله ذلك لكم وذُكر أن السبب الذي من أجله نزلت هذه الآية ما: عن سفيان، عن سعيد بن عبد العزيز، عن سليمان بن موسى، لما نزلت «لِمَنْ شاءَ مِنْكُمْ أنْ يَسْتَقِيمَ» قال أبو جهل: ذلك إلينا، إن شئنا استقمنا، فنزلت: «وَما تَشاءُونَ إلاَّ أنْ يَشاءَ اللّهُ رَب الْعَالَمِينَ». وعن سعيد بن عبد العزيز، عن سليمان بن موسى، قال: لما نزلت هذه الآية: «لِمَنْ شاءَ مِنْكُمْ أنْ يَسْتَقِيمَ» قال أبو جهل: الأمر إلينا، إن شئنا استقمنا، وإن شئنا لم نستقم، فأنزل الله: «وَما تَشاءُونَ إلاَّ أنْ يَشاءَ اللّهُ رَبُّ العالَمِينَ». وينقل في المقطع أقوالاً عن مجاهد وسفيان.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=81&tAyahNo=29&tDisplay=yes&UserProfile=0&LanguageId=1
