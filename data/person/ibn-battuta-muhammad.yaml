@@ -1,6 +1,12 @@
 id: person/ibn-battuta-muhammad
 class: person
 label: { ar: "ابن بطوطة محمد بن عبد الله", en: "Ibn Battuta, Muhammad ibn Abd Allah", es: "Ibn Battuta, Muhammad ibn Abd Allah", fr: "Ibn Battuta, Muhammad ibn Abd Allah", ur: "ابن بطوطہ، محمد بن عبد اللہ" }
+name_parts:
+  ism:
+    - { value: "محمد", translit: "Muhammad", certainty: attested, sources: [source/jstor-schimmel-islamic-names], note: "Facts in this name block come from a research summary supplied to the museum (classical-arabic-names.md); the museum did not open the pages it cites; founder approval to use the file without re-verification, 21 Nov 2026." }
+  ancestral:
+    - { value: "ابن بطوطة", translit: "Ibn Battuta", certainty: attested, sources: [source/beeston-arabic-nomenclature] }
+  shuhra: { value: "ابن بطوطة", translit: "Ibn Battuta", certainty: attested, sources: [source/beeston-arabic-nomenclature] }
 names:
   - { kind: full, lang: ar, value: "أبو عبد الله محمد بن عبد الله بن محمد اللواتي الطنجي" }
 gender: male
