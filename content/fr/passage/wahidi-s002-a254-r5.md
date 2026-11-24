@@ -12,7 +12,7 @@ The verse, in al-Wahidi's heading: «يا أيها الذين آمنوا كتب 
 
 ## Rapport complet (texte source arabe)
 
-الآخر، فقالوا: نقتل بالعبد منا الحر منكم، وبالمرأة الرجل، فنزلت هذه
+الآية {178}. قال الشعبي: كان بين حيين من أحياء العرب قتال، وكان لأحد الحيين طول على الآخر، فقالوا: نقتل بالعبد منا الحر منكم، وبالمرأة الرجل، فنزلت هذه الآية.
 
 ## Place in the museum
 Source : [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an d'al-Wahidi]]. Le verset : [[passage/quran-2-254|Coran 2-254]].

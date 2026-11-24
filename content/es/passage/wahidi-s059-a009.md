@@ -12,7 +12,7 @@ The verse, in al-Wahidi's heading: «والذين تبوءوا الدار وال
 
 ## Informe completo (texto fuente en árabe)
 
-يكفونكم المؤونة وتقاسمونهم الثمرة والأرض أرضكم"، قالوا: رضينا، فأنزل
+روى جعفر بن برقان عن يزيد بن الأصم: أن الأنصار قالوا: يا رسول الله، اقسم بيننا وبين إخواننا من المهاجرين الأرض نصفين، قال: "لا، ولكنهم يكفونكم المؤونة وتقاسمونهم الثمرة والأرض أرضكم"، قالوا: رضينا، فأنزل الله: {والذين تبوءوا الدار والإيمان من قبلهم}
 
 ## Place in the museum
 Fuente: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an de al-Wahidi]]. El versículo: [[passage/quran-59-9|Corán 59-9]].

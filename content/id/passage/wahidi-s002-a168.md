@@ -12,7 +12,7 @@ The verse, in al-Wahidi's heading: «يا أيها الناس كلوا مما ف
 
 ## Laporan lengkap (teks sumber Arab)
 
-قال الكلبي عن أبي صالح: نزلت في ثقيف وخزاعة وعامر بن صعصعة حرموا على
+قال الكلبي عن أبي صالح: نزلت في ثقيف وخزاعة وعامر بن صعصعة حرموا على أنفسهم من الحرث والأنعام وحرموا البحيرة والسائبة والوصيلة والحامي.
 
 ## Place in the museum
 Sumber: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an al-Wahidi]]. Ayatnya: [[passage/quran-2-168|Al-Qur'an 2-168]].

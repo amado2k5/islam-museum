@@ -12,7 +12,7 @@ The verse, in al-Wahidi's heading: «وقل رب أدخلني مدخل صدق».
 
 ## Informe completo (texto fuente en árabe)
 
-مهاجرا إلى المدينة، ونزل قوله: {وقل رب أدخلني مدخل صدق وأخرجني
+قال الحسن: إن كفار قريش لما أرادوا أن يوثقوا النبي - ويخرجوه من مكة أراد الله بقاء أهل مكة، وأمر نبيه أن يخرج مهاجرا إلى المدينة، ونزل قوله: {وقل رب أدخلني مدخل صدق وأخرجني مخرج صدق}
 
 ## Place in the museum
 Fuente: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an de al-Wahidi]]. El versículo: [[passage/quran-17-80|Corán 17-80]].

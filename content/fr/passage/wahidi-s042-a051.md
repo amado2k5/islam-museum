@@ -12,7 +12,7 @@ The verse, in al-Wahidi's heading: «وما كان لبشر أن يكلمه ال
 
 ## Rapport complet (texte source arabe)
 
-فقال: "لم ينظر موسى إلى الله"، وأنزلت هذه الآية.
+وذلك أن اليهود قالوا للنبي- ألا تكلم الله وتنظر إليه إن كنت نبيا كما كلمه موسى ونظر إليه؟ فإنا لن نؤمن لك حتى تفعل ذلك، فقال: "لم ينظر موسى إلى الله"، وأنزلت هذه الآية.
 
 ## Place in the museum
 Source : [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an d'al-Wahidi]]. Le verset : [[passage/quran-42-51|Coran 42-51]].

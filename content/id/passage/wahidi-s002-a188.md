@@ -12,7 +12,7 @@ The verse, in al-Wahidi's heading: «ولا تأكلوا أموالكم بينك
 
 ## Laporan lengkap (teks sumber Arab)
 
-قال مقاتل بن حيان: نزلت هذه الآية في امرئ القيس بن عابس الكندي، وفي
+قال مقاتل بن حيان: نزلت هذه الآية في امرئ القيس بن عابس الكندي، وفي عبدان بن أشوع الحضرمي، وذلك أنهما اختصما إلى النبي- في أرض وكان امرؤ القيس المطلوب وعبدان الطالب، فأنزل الله هذه الآية، فحكم عبدان في أرضه، ولم يخاصمه.
 
 ## Place in the museum
 Sumber: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an al-Wahidi]]. Ayatnya: [[passage/quran-2-188|Al-Qur'an 2-188]].

@@ -12,7 +12,7 @@ The verse, in al-Wahidi's heading: «ولا تجعلوا الله عرضة لأ�
 
 ## Informe completo (texto fuente en árabe)
 
-قال الكلبي: نزلت في
+قال الكلبي: نزلت في عبد الله بن رواحة ينهاه عن قطيعة ختنه بشير بن النعمان، وذلك أن ابن رواحة حلف أن لا يدخل عليه أبدا، ولا يكلمه، ولا يصلح بينه وبين امرأته ويقول: قد حلفت بالله أن لا أفعل، ولا يحل لي إلا أن أبر في يميني، فأنزل الله هذه الآية.
 
 ## Place in the museum
 Fuente: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an de al-Wahidi]]. El versículo: [[passage/quran-2-224|Corán 2-224]].

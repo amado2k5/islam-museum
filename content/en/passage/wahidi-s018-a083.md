@@ -12,7 +12,7 @@ The verse, in al-Wahidi's heading: «ويسألونك عن ذي القرنين»
 
 ## Full report (Arabic source text)
 
-قال قتادة: إن اليهود سألوا نبي الله- عن ذي
+قال قتادة: إن اليهود سألوا نبي الله- عن ذي القرنين، فأنزل الله هذه الآيات.
 
 ## Place in the museum
 Source: [[work/asbab-al-nuzul-wahidi|al-Wahidi's Asbab nuzul al-Qur'an]]. The verse: [[passage/quran-18-83|Qur'an 18-83]].

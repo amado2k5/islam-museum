@@ -12,7 +12,7 @@ The verse, in al-Wahidi's heading: «يا أيها الذين آمنوا لا ت
 
 ## Tam rivayet (Arapça kaynak metin)
 
-نزلت في ناس من فقراء المسلمين كانوا يخبرون اليهود بأخبار المسلمين
+{13}. نزلت في ناس من فقراء المسلمين كانوا يخبرون اليهود بأخبار المسلمين ويواصلونهم فيصيبون بذلك من ثمارهم، فنهاهم الله عن ذلك.
 
 ## Place in the museum
 Kaynak: [[work/asbab-nuzul-wahidi|El-Vahidi'nin Esbab Nüzul el-Kur'an'ı]]. Ayet: [[passage/quran-60-13|Kur'an 60-13]].

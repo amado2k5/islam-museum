@@ -12,7 +12,7 @@ The verse, in al-Wahidi's heading: «أرأيت الذي يكذب بالدين»
 
 ## Informe completo (texto fuente en árabe)
 
-قال مقاتل والكلبي: نزلت في العاص بن وائل السهمي.
+قال مقاتل والكلبي: نزلت في العاص بن وائل السهمي. وقال ابن جريج: كان أبو سفيان بن حرب ينحر كل أسبوع جزورين، فأتاهم يتيم فسأله شيئا فقرعه بعصا، فأنزل الله: {أرأيت الذي يكذب بالدين فذلك الذي يدع اليتيم}
 
 ## Place in the museum
 Fuente: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an de al-Wahidi]]. El versículo: [[passage/quran-107-1|Corán 107-1]].

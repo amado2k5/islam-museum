@@ -12,7 +12,7 @@ The verse, in al-Wahidi's heading: «قل أي شيء أكبر شهادة».
 
 ## Laporan lengkap (teks sumber Arab)
 
-أمر الرسالة، ولقد سألنا عنك اليهود والنصارى فزعموا أن ليس لك عندهم ذكر
+قال الكلبي: إن رؤساء مكة قالوا: يا محمد ما نرى أحدا يصدقك بما تقول من أمر الرسالة، ولقد سألنا عنك اليهود والنصارى فزعموا أن ليس لك عندهم ذكر ولا صفة، فأرنا من يشهد لك أنك رسول كما تزعم، فأنزل الله هذه الآية.
 
 ## Place in the museum
 Sumber: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an al-Wahidi]]. Ayatnya: [[passage/quran-6-19|Al-Qur'an 6-19]].

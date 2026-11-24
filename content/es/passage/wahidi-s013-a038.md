@@ -12,7 +12,7 @@ The verse, in al-Wahidi's heading: «ولقد أرسلنا رسلا من قبل�
 
 ## Informe completo (texto fuente en árabe)
 
-عن النساء، فأنزل اللههذه الآية.
+قال الكلبي: عيرت اليهود رسول الله- وقالت: ما نرى لهذا الرجل همة إلا النساء والنكاح، ولو كان نبيا كما زعم لشغله أمر النبوة عن النساء، فأنزل الله هذه الآية.
 
 ## Place in the museum
 Fuente: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an de al-Wahidi]]. El versículo: [[passage/quran-13-38|Corán 13-38]].

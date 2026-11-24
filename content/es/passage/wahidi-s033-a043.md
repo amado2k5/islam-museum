@@ -12,7 +12,7 @@ The verse, in al-Wahidi's heading: «هو الذي يصلي عليكم وملا�
 
 ## Informe completo (texto fuente en árabe)
 
-قال مجاهد: لما نزلت: {إن الله وملائكته يصلون على النبي} الآية قال أبو
+قال مجاهد: لما نزلت: {إن الله وملائكته يصلون على النبي} الآية قال أبو بكر: ما أعطاك الله من خير إلا أشركنا فيه، فنزلت: {هو الذي يصلي عليكم وملائكته}
 
 ## Place in the museum
 Fuente: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an de al-Wahidi]]. El versículo: [[passage/quran-33-43|Corán 33-43]].

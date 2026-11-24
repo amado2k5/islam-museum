@@ -12,7 +12,7 @@ The verse, in al-Wahidi's heading: «وما كان المؤمنون لينفرو
 
 ## Informe completo (texto fuente en árabe)
 
-قال ابن عباس في رواية الكلبي: لما أنزل اللهعيوب المنافقين
+قال ابن عباس في رواية الكلبي: لما أنزل الله عيوب المنافقين لتخلفهم عن الجهاد قال المؤمنون: والله لا نتخلف عن غزوة يغزوها رسول الله- ولا سرية أبدا، فلما أمر رسول الله - بالسرايا إلى العدو نفر المسلمون جميعا وتركوا رسول الله - وحده بالمدينة، فأنزل الله هذه الآية.
 
 ## Place in the museum
 Fuente: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an de al-Wahidi]]. El versículo: [[passage/quran-9-122|Corán 9-122]].

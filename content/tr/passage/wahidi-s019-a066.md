@@ -12,7 +12,7 @@ The verse, in al-Wahidi's heading: «ويقول الإنسان أئذا ما م�
 
 ## Tam rivayet (Arapça kaynak metin)
 
-قال الكلبي: نزلت في أبي بن خلف حين أخذ عظاما بالية يفتها بيده ويقول:
+قال الكلبي: نزلت في أبي بن خلف حين أخذ عظاما بالية يفتها بيده ويقول: زعم لكم محمد أنا نبعث بعدما نموت.
 
 ## Place in the museum
 Kaynak: [[work/asbab-nuzul-wahidi|El-Vahidi'nin Esbab Nüzul el-Kur'an'ı]]. Ayet: [[passage/quran-19-66|Kur'an 19-66]].

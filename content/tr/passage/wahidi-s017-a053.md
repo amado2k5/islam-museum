@@ -12,7 +12,7 @@ The verse, in al-Wahidi's heading: «53».
 
 ## Tam rivayet (Arapça kaynak metin)
 
-نزلت في عمر بن الخطاب- وذلك أن رجلا من العرب شتمه،
+نزلت في عمر بن الخطاب- وذلك أن رجلا من العرب شتمه، فأمره الله بالعفو. وقال الكلبي: كان المشركون يؤذون أصحاب رسول الله - بالقول والفعل، فشكوا ذلك إلى رسول الله- فأنزل الله هذه الآية.
 
 ## Place in the museum
 Kaynak: [[work/asbab-nuzul-wahidi|El-Vahidi'nin Esbab Nüzul el-Kur'an'ı]]. Ayet: [[passage/quran-17-53|Kur'an 17-53]].

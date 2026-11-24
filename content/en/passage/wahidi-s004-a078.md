@@ -12,7 +12,7 @@ The verse, in al-Wahidi's heading: «أينما تكونوا يدرككم الم
 
 ## Full report (Arabic source text)
 
-قتلوا عندنا ما ماتوا وما قتلوا، فأنزل اللههذه الآية.
+قال ابن عباس في رواية أبي صالح: لما استشهد الله من المسلمين من استشهد يوم "أحد" قال المنافقون الذين تخلفوا عن الجهاد: لو كان إخواننا الذين قتلوا عندنا ما ماتوا وما قتلوا، فأنزل الله هذه الآية.
 
 ## Place in the museum
 Source: [[work/asbab-al-nuzul-wahidi|al-Wahidi's Asbab nuzul al-Qur'an]]. The verse: [[passage/quran-4-78|Qur'an 4-78]].

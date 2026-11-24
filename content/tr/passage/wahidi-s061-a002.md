@@ -12,7 +12,7 @@ The verse, in al-Wahidi's heading: «يا أيها الذين آمنوا لم ت
 
 ## Tam rivayet (Arapça kaynak metin)
 
-فابتلوا يوم أحد بذلك فولوا مدبرين، فأنزل الله
+قال المفسرون: كان المسلمون يقولون: لو نعلم أحب الأعمال إلى الله لبذلنا فيه أموالنا وأنفسنا، فدلهم الله على أحب الأعمال إليه فقال: {إن الله يحب الذين يقاتلون في سبيله صفا} الآية. فابتلوا يوم أحد بذلك فولوا مدبرين، فأنزل الله: {لم تقولون ما لا تفعلون}.
 
 ## Place in the museum
 Kaynak: [[work/asbab-nuzul-wahidi|El-Vahidi'nin Esbab Nüzul el-Kur'an'ı]]. Ayet: [[passage/quran-61-2|Kur'an 61-2]].

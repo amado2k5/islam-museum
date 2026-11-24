@@ -12,7 +12,7 @@ The verse, in al-Wahidi's heading: «قل لو كان البحر مدادا لك
 
 ## Tam rivayet (Arapça kaynak metin)
 
-فقد أوتي خيرا كثيرا فنزلت: {قل لو كان البحر مدادا لكلمات ربي} الآية.
+قال ابن عباس: قالت اليهود لما قال لهم النبي- "وما أوتيتم من العلم إلا قليلا" كيف وقد أوتينا التوارة، ومن أوتي التوارة فقد أوتي خيرا كثيرا فنزلت: {قل لو كان البحر مدادا لكلمات ربي} الآية.
 
 ## Place in the museum
 Kaynak: [[work/asbab-nuzul-wahidi|El-Vahidi'nin Esbab Nüzul el-Kur'an'ı]]. Ayet: [[passage/quran-18-109|Kur'an 18-109]].

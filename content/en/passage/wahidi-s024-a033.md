@@ -12,7 +12,7 @@ The verse, in al-Wahidi's heading: «والذين يبتغون الكتاب مم
 
 ## Full report (Arabic source text)
 
-نزلت في غلام لحويطب بن عبد العزى يقال له "صبيح" سأل مولاه أن يكاتبه
+{33}. نزلت في غلام لحويطب بن عبد العزى يقال له "صبيح" سأل مولاه أن يكاتبه فأبى عليه، فأنزل الله هذه الآية، وكاتبه حويطب على مائة دينار ووهب له منها عشرين دينارا فأداها، وقتل يوم حنين في الحرب.
 
 ## Place in the museum
 Source: [[work/asbab-al-nuzul-wahidi|al-Wahidi's Asbab nuzul al-Qur'an]]. The verse: [[passage/quran-24-33|Qur'an 24-33]].
