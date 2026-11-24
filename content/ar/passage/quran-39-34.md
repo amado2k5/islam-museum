@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-10-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يعرض الطبري اختلاف أهل التأويل فيمن جاء بالصدق ومن صدّق به: فقيل الذي جاء به النبي والصدق هو لا إله إلا الله والمصدِّق به النبي أيضاً، وقيل المصدِّق به أبو بكر أو المؤمنون، وغير ذلك، وينقل الأقوال بأسانيدها عن ابن عباس وغيره، ثم يرجّح ما يراه أولى بظاهر الآية. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=39&tAyahNo=34&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 34 إلى 35 مقطعاً واحداً. يفسّر قوله «وَٱلَّذِي جَآءَ بِٱلصِّدْقِ وَصَدَّقَ بِهِ أُوْلَٰئِكَ هُمُ ٱلْمُتَّقُونَ»: اختلف أهل التأويل في الذي جاء بالصدق وصدّق به، وما ذلك، فقال بعضهم: الذي جاء بالصدق رسول الله. قالوا: والصدق الذي جاء به: لا إله إلا الله، والذي صدّق به أيضاً، هو رسول الله. وينقل في المقطع أقوالاً عن ابن عباس ومجاهد وقتادة وابن زيد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=39&tAyahNo=34&tDisplay=yes&UserProfile=0&LanguageId=1

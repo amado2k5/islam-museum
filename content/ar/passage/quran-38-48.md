@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-9-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يأمر الله نبيه أن يذكر إسماعيل واليسع وذا الكفل وكل من الأخيار، فيقتدي بصبرهم، وهذا ذكر وإن للمتقين لحسن مآب. وهذا التفسير مشترك بين الآيتين 48 و49. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=38&tAyahNo=48&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 48 إلى 49 مقطعاً واحداً. يفسّر قوله «وَٱذْكُرْ إِسْمَاعِيلَ وَٱلْيَسَعَ وَذَا ٱلْكِفْلِ وَكُلٌّ مِّنَ ٱلأَخْيَارِ»: يقول تعالى ذكره لنبيه: واذكر يا محمد إسماعيل واليسع وذا الكِفل، وما أبلْوا في طاعة الله، فتأسَّ بهم، واسلك منهاجَهم في الصبر على ما نالك في الله، والنفاذ لبلاغ رسالته. وقد بيَّنا قبل من أخبار إسماعيل واليسع وذا الكفل فيما مضى من كتابنا هذا ما أغنى عن إعادته في هذا الموضع. والكِفْل في كلامِ العرب: الحظّ والجَدّ. وقوله: «هَذَا ذِكْرٌ» يقول تعالى ذكره: هذا القرآن الذي أنزلناه إليك يا محمد ذكر لك ولقومك، ذكرناك وإياهم به.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=38&tAyahNo=48&tDisplay=yes&UserProfile=0&LanguageId=1

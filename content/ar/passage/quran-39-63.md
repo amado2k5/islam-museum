@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-10-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يفسّر الطبري «مقاليد السماوات والأرض» بمفاتيح خزائنها، فبيد الله وحده يفتح منها لمن يشاء ويمسك عمن يشاء، ويورد أقوال ابن عباس وقتادة في أن المقاليد هي المفاتيح، ثم يذكر أن الذين كفروا بآيات الله هم الخاسرون. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=39&tAyahNo=63&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «لَّهُ مَقَالِيدُ ٱلسَّمَٰوَٰتِ وَٱلأَرْضِ وَٱلَّذِينَ كَفَرُواْ بِآيَاتِ ٱللَّهِ أُوْلَٰئِكَ هُمُ ٱلْخَاسِرُونَ»: له مفاتيح خزائن السموات والأرض، يفتح منها على من يشاء، ويمسكها عمن أحب من خلقه واحدها: مقليد. وأما الإقليد: فواحد الأقاليد. وينقل في المقطع أقوالاً عن ابن عباس وقتادة وابن زيد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=39&tAyahNo=63&tDisplay=yes&UserProfile=0&LanguageId=1

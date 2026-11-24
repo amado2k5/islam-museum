@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-9-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يذكر الطبري أن الله أنزل من السماء ماءً فسلكه ينابيع في الأرض ثم يخرج به زرعاً مختلفاً ألوانه ثم يهيج فتراه مصفراً ثم يجعله حطاماً، إن في ذلك لذكرى لأولي الألباب. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=39&tAyahNo=21&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «أَلَمْ تَرَ أَنَّ ٱللَّهَ أَنزَلَ مِنَ ٱلسَّمَآءِ مَآءً فَسَلَكَهُ يَنَابِيعَ فِي ٱلأَرْضِ ثُمَّ يُخْرِجُ بِهِ زَرْعاً مُّخْتَلِفاً أَلْوَانُهُ ثُمَّ يَهِيجُ فَتَرَاهُ مُصْفَرّاً ثُمَّ يَجْعَلُهُ حُطَاماً إِنَّ فِي ذَلِكَ لَذِكْرَىٰ لأُوْلِي ٱلأَلْبَابِ»: «ألَمْ تَرَ» يا محمد «أنَّ اللّهَ أنْزَلَ مِنَ السَّماءِ ماءً» وهو المطر «فَسَلَكَهُ يَنابِيعَ فِي الأرْضِ» يقول: فأجراه عيوناً في الأرض واحدها ينبوع، وهو ما جاش من الأرض. وينقل في المقطع أقوالاً عن الحسن وسفيان.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=39&tAyahNo=21&tDisplay=yes&UserProfile=0&LanguageId=1

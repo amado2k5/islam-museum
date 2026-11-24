@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-9-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يذكر الطبري أن الله خلق الناس من نفس واحدة وهي آدم ثم جعل منها زوجها حواء، وأنزل لهم من الأنعام ثمانية أزواج ويخلقهم في بطون أمهاتهم خلقاً من بعد خلق في ظلمات ثلاث، ذلكم الله ربكم له الملك لا إله إلا هو فأنى تصرفون. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=39&tAyahNo=6&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «خَلَقَكُمْ مِّن نَّفْسٍ وَاحِدَةٍ ثُمَّ جَعَلَ مِنْهَا زَوْجَهَا وَأَنزَلَ لَكُمْ مِّنَ ٱلأَنْعَامِ ثَمَانِيَةَ أَزْوَاجٍ يَخْلُقُكُمْ فِي بُطُونِ أُمَّهَاتِكُمْ خَلْقاً مِّن بَعْدِ خَلْقٍ فِي ظُلُمَاتٍ ثَلاَثٍ ذَٰلِكُمُ ٱللَّهُ رَبُّكُمْ لَهُ ٱلْمُلْكُ لاۤ إِلَٰهَ إِلاَّ هُوَ فَأَنَّىٰ تُصْرَفُونَ»: «خَلَقَكُمْ» أيها الناس «مِنْ نَفْسٍ وَاحِدَةٍ» يعني من آدم «ثُمَّ جَعَلَ مِنْها زَوْجَها» يقول: ثم جعل من آدم زوجه حواء، وذلك أن الله خلقها من ضِلَع من أضلاعه. وينقل في المقطع أقوالاً عن مجاهد وقتادة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=39&tAyahNo=6&tDisplay=yes&UserProfile=0&LanguageId=1

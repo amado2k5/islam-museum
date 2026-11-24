@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-10-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن الظالمين لو ملكوا ما في الأرض جميعاً ومثله معه لافتدوا به من سوء العذاب يوم القيامة، وإنه ظهر لهم من الله من العذاب ما لم يكونوا يحتسبون. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=39&tAyahNo=47&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَلَوْ أَنَّ لِلَّذِينَ ظَلَمُواْ مَا فِي ٱلأَرْضِ جَمِيعاً وَمِثْلَهُ مَعَهُ لاَفْتَدَوْاْ بِهِ مِن سُوۤءِ ٱلْعَذَابِ يَوْمَ ٱلْقِيَامَةِ وَبَدَا لَهُمْ مِّنَ ٱللَّهِ مَا لَمْ يَكُونُواْ يَحْتَسِبُونَ»: ولو أن لهؤلاء المشركين بالله يوم القيامة، وهم الذين ظلموا أنفسهم «ما فِي الأرْض جَمِيعاً» في الدنيا من أموالها وزينتها «وَمِثْلَهُ مَعَهُ» مضاعفاً، فقبل ذلك منهم عوضاً من أنفسهم، لفدوا بذلك كله أنفسهم عوضاً منها، لينجو من سوء عذاب الله، الذي هو معذّبهم به يومئذ «وَبَدَا لَهُمْ مِنَ اللَّهِ» يقول: وظهر لهم يومئذ من أمر الله وعذابه، الذي كان أعدّه لهم، ما لم يكونوا قبل ذلك يحتسبون أنه أعدّه لهم.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=39&tAyahNo=47&tDisplay=yes&UserProfile=0&LanguageId=1

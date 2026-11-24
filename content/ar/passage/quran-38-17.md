@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-9-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يأمر الله نبيه أن يصبر على ما يقولون ويذكر عبده داود ذا الأيد إنه أواب، سخّر الجبال معه يسبحن بالعشي والإشراق والطير محشورة، وشددنا ملكه وآتيناه الحكمة وفصل الخطاب. وهذا التفسير مشترك بين الآيات 17 إلى 20. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=38&tAyahNo=17&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 17 إلى 20 مقطعاً واحداً. يفسّر قوله «ٱصْبِر عَلَىٰ مَا يَقُولُونَ وَٱذْكُرْ عَبْدَنَا دَاوُودَ ذَا ٱلأَيْدِ إِنَّهُ أَوَّابٌ»: اصبر يا محمد على ما يقول مشركو قومك لك مما تكره قيلهم لك، فإنا ممتحنوك بالمكاره امتحاننا سائر رسلنا قبلك، ثم جاعلو العلوّ والرفعة والظفر لك على من كذبك وشاقَّك سنتنا في الرسل الذين أرسلناهم إلى عبادنا قبلك فمنهم عبدنا أيوب وداود بن إيشا، فاذكره ذا الأيد ويعني بقوله: «ذَا الأَيْدِ» ذا القوّة والبطش الشديد في ذات الله والصبر على طاعته. وينقل في المقطع أقوالاً عن ابن عباس ومجاهد وقتادة وابن زيد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=38&tAyahNo=17&tDisplay=yes&UserProfile=0&LanguageId=1

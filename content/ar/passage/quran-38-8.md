@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-9-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يذكر الطبري أن المشركين قالوا أأنزل عليه الذكر من بيننا، فيبيّن الله أنهم في شك من ذكره وأنهم لم يذوقوا عذاب بعد. وهذا التفسير مشترك بين الآيتين 8 و9. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=38&tAyahNo=8&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 8 إلى 9 مقطعاً واحداً. يفسّر قوله «أَءُنزِلَ عَلَيْهِ ٱلذِّكْرُ مِن بَيْنِنَا بَلْ هُمْ فَي شَكٍّ مِّن ذِكْرِي بَل لَّمَّا يَذُوقُواْ عَذَابِ»: يقول تعالى ذكره مخبراً عن قيل هؤلاء المشركين من قريش: أأُنزل على محمد الذكر من بيننا فخُصَّ به، وليس بأشرف منا حسباً. وقوله: «بَلْ هُمْ فِي شَكّ مِنْ ذِكرِي» يقول تعالى ذكره: ما بهؤلاء المشركين أن لا يكونوا أهل علم بأن محمداً صادق، ولكنهم في شكّ من وحينا إليه، وفي هذا القرآن الذي أنزلناه إليه أنه من عندنا «بَلْ لَمَّا يَذُوقُوا عَذَابِ» يقول بل لم ينزل بهم بأسنا، فيذوقوا وبال تكذيبهم محمداً، وشكهم في تنزيلنا هذا القرآن عليه، ولو ذاقوا العذاب على ذلك علموا وأيقنوا حقيقة ما هم به مكذِّبون، حين لا ينفعهم علمهم
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=38&tAyahNo=8&tDisplay=yes&UserProfile=0&LanguageId=1

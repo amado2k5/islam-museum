@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-9-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يذكر الطبري أن الله قال للملائكة إني خالق بشراً من طين فإذا سوّيته ونفخت فيه من روحي فقعوا له ساجدين، فسجد الملائكة كلهم أجمعون إلا إبليس استكبر وكان من الكافرين. وهذا التفسير مشترك بين الآيات 71 إلى 74. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=38&tAyahNo=71&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 71 إلى 74 مقطعاً واحداً. يفسّر قوله «إِذْ قَالَ رَبُّكَ لِلْمَلاَئِكَةِ إِنِّي خَالِقٌ بَشَراً مِّن طِينٍ»: وقوله: «إذْ قالَ رَبُّكَ» من صلة قوله:«إذْ يَخْتَصِمُونَ» وتأويل الكلام: ما كان لي من علم بالملأ الأعلى إذ يختصمون حين قال ربك يا محمد «للْمَلائِكَةِ إنّي خالِقٌ بَشَراً مِنْ طِينٍ» يعني بذلك خلق آدم. وقوله: «فإذَا سَوَّيْتُهُ وَنَفَخْتُ فِيهِ مِنْ رُوحي» يقول تعالى ذكره: فإذا سوّيت خلقه، وعَدَّلْت صورته، ونفخت فيه من روحي، قيل: عنى بذلك: ونفخت فيه من قُدرتي. وينقل في المقطع أقوالاً عن ابن عباس والضحاك.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=38&tAyahNo=71&tDisplay=yes&UserProfile=0&LanguageId=1

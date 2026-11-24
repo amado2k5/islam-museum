@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-10-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل الآيات 50 إلى 51، وخلاصتها: يذكر الطبري أن الذين من قبل كفار قريش قالوا المقالة نفسها فلم يغنِ عنهم ما كسبوا، وأصابتهم سيئات ما عملوا، وأن ظالمي هؤلاء سيصيبهم مثل ذلك وما هم بمعجزين الله. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=39&tAyahNo=50&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 50 إلى 51 مقطعاً واحداً. يفسّر قوله «قَدْ قَالَهَا ٱلَّذِينَ مِن قَبْلِهِمْ فَمَآ أَغْنَىٰ عَنْهُمْ مَّا كَانُواْ يَكْسِبُونَ»: قد قال هذه المقالة يعني قولهم: لنعمة الله التي خولهم وهم مشركون: أوتيناه على علم عندنا «الَّذِينَ مِنْ قَبْلِهِمْ» يعني: الذي من قبل مشركي قُرَيش من الأمم الخالية لرسلها، تكذيباً منهم لهم، واستهزاء بهم. وقوله: «فَمَا أغْنَى عَنْهُمْ ما كانُوا يَكْسَبُونَ» يقول: فلم يغن عنهم حين أتاهم بأس الله على تكذيبهم رسل الله واستهزائهم بهم ما كانوا يكسبون من الأعمال، وذلك عبادتهم الأوثان. يقول: لم تنفعهم خدمتهم إياها، ولم تشفع آلهتهم لهم عند الله حينئذ، ولكنها أسلمتهم وتبرأت منهم.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=39&tAyahNo=50&tDisplay=yes&UserProfile=0&LanguageId=1

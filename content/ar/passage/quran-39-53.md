@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-10-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يعرض الطبري اختلاف أهل التأويل فيمن نزلت فيهم هذه الآية الداعية إلى عدم القنوط من رحمة الله: فقيل في قوم من المشركين قد أكثروا القتل والزنا وظنوا أنه لا توبة لهم، وقيل في غيرهم، ويورد الروايات بأسانيدها، ثم يبيّن معنى أن الله يغفر الذنوب جميعاً لمن تاب، ويتناول الاختلاف فيما يشمله هذا الوعد. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=39&tAyahNo=53&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «قُلْ يٰعِبَادِيَ ٱلَّذِينَ أَسْرَفُواْ عَلَىٰ أَنفُسِهِمْ لاَ تَقْنَطُواْ مِن رَّحْمَةِ ٱللَّهِ إِنَّ ٱللَّهَ يَغْفِرُ ٱلذُّنُوبَ جَمِيعاً إِنَّهُ هُوَ ٱلْغَفُورُ ٱلرَّحِيمُ»: اختلف أهل التأويل في الذين عُنُوا بهذه الآية، فقال بعضهم: عني بها قوم من أهل الشرك، قالوا لما دعوا إلى الإيمان بالله: كيف نؤمن وقد أشركنا وزنينا، وقتلنا النفس التي حرّم الله، والله يعد فاعل ذلك النار، فما ينفعنا مع ما قد سلف منا الإيمان، فنزلت هذه الآية. وينقل في المقطع أقوالاً عن ابن عباس ومجاهد وقتادة وزيد بن أسلم وعطاء.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=39&tAyahNo=53&tDisplay=yes&UserProfile=0&LanguageId=1

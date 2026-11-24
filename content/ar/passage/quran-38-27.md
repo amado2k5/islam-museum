@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-9-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن الله ما خلق السماء والأرض وما بينهما باطلاً بل ليُعمل فيهما بطاعته، وذلك ظن الذين كفروا فويل للذين كفروا من النار، أم نجعل الذين آمنوا كالمفسدين، وهذا كتاب أنزلناه إليك مبارك ليدّبروا آياته. وهذا التفسير مشترك بين الآيات 27 إلى 29. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=38&tAyahNo=27&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 27 إلى 29 مقطعاً واحداً. يفسّر قوله «وَمَا خَلَقْنَا ٱلسَّمَآءَ وَٱلأَرْضَ وَمَا بَيْنَهُمَا بَاطِلاً ذَلِكَ ظَنُّ ٱلَّذِينَ كَفَرُواْ فَوَيْلٌ لِّلَّذِينَ كَفَرُواْ مِنَ ٱلنَّارِ»: «وَما خَلَقْنا السَّماءَ والأرْضَ وَما بَيْنَهُما» عبثاً ولهواً، ما خلقناهما إلاَّ ليُعمل فيهما بطاعتنا، ويُنتهى إلى أمرنا ونهينا، «ذلكَ ظَنُّ الَّذِينَ كَفَرُوا» يقول: أي ظنّ أنا خلقنا ذلك باطلاً ولعبا، ظنّ الذين كفروا بالله فلم يوحِّدوه، ولم يعرفوا عظمته، وأنه لا ينبغي أن يَعْبَث، فيتيقنوا بذلك أنه لا يخلق شيئاً باطلاً «فَوَيْلٌ للَّذِينَ كَفَرُوا مِنَ النَّارِ» يعني: من نار جهنم.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=38&tAyahNo=27&tDisplay=yes&UserProfile=0&LanguageId=1

@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-9-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يذكر الطبري أن الطاغين، وقيل هم أبو جهل والوليد بن المغيرة وأمثالهما، يقولون ما لنا لا نرى رجالاً كنا نعدهم من الأشرار أتخذناهم سخرياً أم زاغت عنهم الأبصار، إن ذلك لحق تخاصم أهل النار. وهذا التفسير مشترك بين الآيات 62 إلى 64. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=38&tAyahNo=62&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 62 إلى 64 مقطعاً واحداً. يفسّر قوله «وَقَالُواْ مَا لَنَا لاَ نَرَىٰ رِجَالاً كُنَّا نَعُدُّهُمْ مِّنَ ٱلأَشْرَارِ»: قال الطاغون الذين وصف جلّ ثناؤه صفتهم في هذه الآيات، وهم فيما ذُكر أبو جهل والوليد بن المُغيرة وذووهما: «ما لَنا لا نَرَى رِجالاً» يقول: ما بالنا لا نرى معنا في النار رجالاً «كُنَّا نَعُدُّهُمْ مِنَ الأشْرَارِ» يقول: كنا نعدّهم في الدنيا من أشرارنا، وعنوا بذلك فيما ذُكر صُهَيْباً وخَبَّاباً وبِلالاً وسَلْمان. وينقل في المقطع أقوالاً عن مجاهد والضحاك.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=38&tAyahNo=62&tDisplay=yes&UserProfile=0&LanguageId=1

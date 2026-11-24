@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-9-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يصف الطبري حال الخاسرين في جهنم، لهم من فوقهم ظلل من النار ومن تحتهم ظلل، ذلك يخوّف الله به عباده يا عباد فاتقون، والذين اجتنبوا الطاغوت أن يعبدوها وأنابوا إلى الله لهم البشرى فبشّر عباد الذين يستمعون القول فيتبعون أحسنه. وهذا التفسير مشترك بين الآيات 16 إلى 18. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=39&tAyahNo=16&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 16 إلى 18 مقطعاً واحداً. يفسّر قوله «لَهُمْ مِّن فَوْقِهِمْ ظُلَلٌ مِّنَ ٱلنَّارِ وَمِن تَحْتِهِمْ ظُلَلٌ ذَلِكَ يُخَوِّفُ ٱللَّهُ بِهِ عِبَادَهُ يٰعِبَادِ فَٱتَّقُونِ»: يقول تعالى ذكره لهؤلاء الخاسرين يوم القامة في جهنم: «مِنْ فَوقِهِمْ ظُلَلٌ مِنَ النَّار» وذلك كهيئة الظلل المبنية من النار «وَمِنْ تَحْتهمْ ظُلَلٌ» يقول: ومن تحتهم من النار ما يعلوهم، حتى يصير ما يعلوهم منها من تحتهم ظللاً، وذلك نظير قوله جلّ ثناؤه لَهُمْ:«مِنْ جَهَنَمَ مِهادٌ وَمِنْ فَوْقهِمْ غَواشٍ» يغشاهم مما تحتهم فيها من المهاد. وينقل في المقطع أقوالاً عن مجاهد وقتادة وابن زيد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=39&tAyahNo=16&tDisplay=yes&UserProfile=0&LanguageId=1

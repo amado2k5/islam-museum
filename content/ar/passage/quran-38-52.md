@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-9-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يذكر الطبري أن عند المتقين قاصرات الطرف أتراب، وهن نساء قصرن أبصارهن على أزواجهن، هذا ما توعدون ليوم الحساب إن هذا لرزقنا ما له من نفاد. وهذا التفسير مشترك بين الآيات 52 إلى 54. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=38&tAyahNo=52&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 52 إلى 54 مقطعاً واحداً. يفسّر قوله «وَعِندَهُمْ قَاصِرَاتُ ٱلطَّرْفِ أَتْرَابٌ»: عند هؤلاء المتقين الذين أكرمهم الله بما وصف في هذه الآية من إسكانهم جنات عدن «قاصِراتُ الطَّرْفِ» يعني: نساء قصرت أطرافهنّ على أزواجهنّ، فلا يردن غيرهم، ولا يمددن أعينهن إلى سواهم. كما وعن قتادة «وَعِنْدَهُمْ قاصِرَاتُ الطَّرْفِ» قال: قصرن طرفهنّ على أزواجهنّ، فلا يردن غيرهم. وعن السديّ «قاصِرات الطَّرْفِ» قال: قصَرن أبصارهنّ وقلوبهنّ وأسماعهنّ على أزواجهنّ، فلا يردن غيرهم. وقوله: «أتْرَابٌ» يعني: أسنان واحدة. وينقل في المقطع أقوالاً عن مجاهد وقتادة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=38&tAyahNo=52&tDisplay=yes&UserProfile=0&LanguageId=1

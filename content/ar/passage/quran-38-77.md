@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-9-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يذكر الطبري أن الله أمر إبليس أن يخرج من الجنة فإنه رجيم أي مرجوم ملعون، وإن عليه لعنتي إلى يوم الدين. وهذا التفسير مشترك بين الآيات 77 إلى 79، وفيها طلب إبليس الإنظار إلى يوم يبعثون. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=38&tAyahNo=77&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 77 إلى 79 مقطعاً واحداً. يفسّر قوله «قَالَ فَٱخْرُجْ مِنْهَا فَإِنَّكَ رَجِيمٌ»: يقول تعالى ذكره لإبليس: «فاخْرُجْ مِنْها» يعني من الجنة «فإنَّكَ رَجِيمٌ» يقول: فإنك مرجوم بالقوم، مشتوم ملعون، كما: وعن قتادة، قوله: «فاخْرُجْ مِنْها فإنَّكَ رَجِيمٌ» قال: والرجيم: اللعين. حُدثت عن المحاربيّ، عن جُوَيبر، عن الضحاك بمثله. وقوله: «وَإنَّ عَلَيْكَ لَعْنَتِي» يقول: وإن لك طردي من الجنة «إلى يَوْمِ الدّينِ» يعني: إلى يوم مجازاة العباد ومحاسبتهم «قال رَبّ فأنْظِرْنِي إلى يَوْمِ يُبْعَثُونَ» يقول تعالى ذكره: قال إبليس لربه: ربّ فإذ لعنتني، وأخرجتني من جنتك «فأنْظِرْنِي» يقول: فأخِّرني في الأجل، ولا تهلكني «إلى يَوْمِ يُبْعَثُونَ» يقول: إلى يوم تَبْعَثُ خلقك من قبورهم. وينقل في المقطع أقوالاً عن قتادة والضحاك.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=38&tAyahNo=77&tDisplay=yes&UserProfile=0&LanguageId=1

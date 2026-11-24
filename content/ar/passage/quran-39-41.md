@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-10-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن الله أنزل على نبيه الكتاب للناس بالحق، فمن اهتدى فنفعُ هدايته لنفسه ومن ضلّ فعلى نفسه ضرر ضلاله، وأن النبي ليس عليهم بوكيل يُجبرهم على الهدى. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=39&tAyahNo=41&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «إِنَّآ أَنزَلْنَا عَلَيْكَ ٱلْكِتَابَ لِلنَّاسِ بِٱلْحَقِّ فَمَنِ ٱهْتَدَىٰ فَلِنَفْسِهِ وَمَن ضَلَّ فَإنَّمَا يَضِلُّ عَلَيْهَا وَمَآ أَنتَ عَلَيْهِم بِوَكِيلٍ»: إنا أنزلنا عليك يا محمد الكتاب تبيانا للناس بالحقّ «فَمَن اهْتَدَى فَلِنَفْسِهِ» يقول: فمن عمل بما في الكتاب الذي أنزلناه إليه واتبعه فلنفسه، يقول: فإنما عمل بذلك لنفسه، وإياها بغى الخير لا غيرها، لأنه أكسبها رضا الله والفوز بالجنة، والنجاة من النار. «وَمَنْ ضَلَّ» يقول: ومن جار عن الكتاب الذي أنزلناه إليك، والبيان الذي بيَّناه لك، فضل عن قصد المحجة، وزال عن سواء السبيل، فإنما يجور على نفسه، وإليها يسوق العطب والهلاك، لأنه يكسبها سخط الله، وأليم عقابه، والخزي الدائم. وينقل في المقطع أقوالاً عن قتادة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=39&tAyahNo=41&tDisplay=yes&UserProfile=0&LanguageId=1

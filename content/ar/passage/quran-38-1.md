@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-9-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يذكر الطبري اختلاف أهل التأويل في معنى «ص»: فقال بعضهم هو من المصاداة أي عارض القرآن بعملك، وقيل غير ذلك، ثم يبيّن أن الله أقسم بالقرآن ذي الذكر على أن الذين كفروا في عزة وشقاق. وهذا التفسير مشترك بين الآيتين 1 و2. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=38&tAyahNo=1&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 1 إلى 2 مقطعاً واحداً. يفسّر قوله «صۤ وَٱلْقُرْآنِ ذِي ٱلذِّكْرِ»: قال أبو جعفر: اختلف أهل التأويل في معنى قول الله عزّ وجلّ: «ص»، فقال بعضهم: هو من المصاداة، من صاديت فلاناً، وهو أمر من ذلك، كأن معناه عندهم: صادٍ بعملك القرآن: أي عارضه به، ومن قال هذا تأويله، فإنه يقرؤه بكسر الدال، لأنه أمر، وكذلك رُوي عن الحسن ذكر الرواية بذلك: وعن قتادة، قال: قال الحسن «ص» قال: حادث القرآن. وحُدثت عن عليّ بن عاصم، عن عمرو بن عبيد، عن الحسن، في قوله: «ص» قال: عارض القرآن بعملك. حدثت عن عبد الوهاب، عن سعيد، عن قتادة، عن الحسن، في قوله: «ص والقرآن» قال: عارض القرآن، قال عبد الوهاب: يقول اعرضه على عملك، فانظر أين عملك من القرآن. وينقل في المقطع أقوالاً عن ابن عباس وقتادة والضحاك والحسن.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=38&tAyahNo=1&tDisplay=yes&UserProfile=0&LanguageId=1

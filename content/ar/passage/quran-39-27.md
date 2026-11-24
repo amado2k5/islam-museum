@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-9-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن الله ضرب للناس في هذا القرآن من كل مثل لعلهم يتذكرون، قرآناً عربياً غير ذي عوج لعلهم يتقون. وهذا التفسير مشترك بين الآيتين 27 و28. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=39&tAyahNo=27&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 27 إلى 28 مقطعاً واحداً. يفسّر قوله «وَلَقَدْ ضَرَبْنَا لِلنَّاسِ فِي هَٰذَا ٱلْقُرْآنِ مِن كُلِّ مَثَلٍ لَّعَلَّهُمْ يَتَذَكَّرُونَ»: ولقد مثَّلنا لهؤلاء المشركين بالله من كلّ مثل من أمثال القرون للأمم الخالية، تخويفاً منَّا لهم وتحذيراً «لَعَلَّهُمْ يَتَذَكَّرُونَ» يقول: ليتذكروا فينزجروا عما هم عليه مقيمون من الكفر بالله. وقوله: «قُرآناً عَرَبِيًّا» يقول تعالى ذكره: لقد ضربنا للناس في هذا القرآن من كلّ مثل قرآناً عربياً «غيرَ ذِي عِوَجٍ» يعني: ذي لبس، كما: وعن ابن أبي نجيح، عن مجاهد «قُرآناً عَرَبيًّا غيرَ ذِي عِوَجٍ»: غير ذي لبس. ونصب قوله: «قُرآناً عَرَبيًّا» على الحال من قوله: هذا القرآن، لأن القرآن معرفة، وقوله «قُرآناً عَرَبِيًّا» نكرة. وينقل في المقطع أقوالاً عن مجاهد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=39&tAyahNo=27&tDisplay=yes&UserProfile=0&LanguageId=1

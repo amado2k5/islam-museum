@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-10-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن الأمر بالإنابة كي لا تقول نفس يوم القيامة يا حسرتا على ما فرّطت في جنب الله، ويفسّر «في جنب الله» بما قصّرت في أمره وطاعته، وينقل أقوال السلف في ذلك، وأن القائل كان من الساخرين. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=39&tAyahNo=56&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «أَن تَقُولَ نَفْسٌ يٰحَسْرَتَا عَلَىٰ مَا فَرَّطَتُ فِي جَنبِ ٱللَّهِ وَإِن كُنتُ لَمِنَ ٱلسَّاخِرِينَ»: وأنيبوا إلى ربكم، وأسلموا له «أنْ تَقُولَ نَفْسٌ» بمعنى لئلا تقول نفس: «يا حَسْرَتا على ما فَرَّطْتُ في جَنْبِ اللَّهِ»، وهو نظير قوله:«وألْقَى فِي الأرْضِ رَوَاسي أنْ تَمِيدَ بِكُمْ» بمعنى: أن لا تميد بكم، فأن، إذ كان ذلك معناه، في موضع نصب. وقولهُّ: «يا حَسْرَتا» يعني أن تقول: يا ندما، كما: ثني أحمد بن المفضل، وعن السدي، في قوله: «يا حَسْرَتا» قال: الندامة. وينقل في المقطع أقوالاً عن مجاهد وقتادة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=39&tAyahNo=56&tDisplay=yes&UserProfile=0&LanguageId=1

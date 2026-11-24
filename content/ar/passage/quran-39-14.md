@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-9-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يأمر الله نبيه أن يقول إني أعبد الله مخلصاً له ديني، فاعبدوا ما شئتم من دونه، إن الخاسرين الذين خسروا أنفسهم وأهليهم يوم القيامة. وهذا التفسير مشترك بين الآيتين 14 و15. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=39&tAyahNo=14&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 14 إلى 15 مقطعاً واحداً. يفسّر قوله «قُلِ ٱللَّهَ أَعْبُدُ مُخْلِصاً لَّهُ دِينِي»: قل يا محمد لمشركي قومك: الله أعبد مخلصاً، مفرداً له طاعتي وعبادتي، لا أجعل له في ذلك شريكاً، ولكني أُفرده بالألوهة، وأبرأ مما سواه من الأنداد والآلهة، فاعبدوا أنتم أيها القوم ما شئتم من الأوثان والأصنام، وغير ذلك مما تعبدون من سائر خلقه، فستعلمون وبال عاقبة عبادتكم ذلك إذا لقيتم ربكم. وقوله: «قُلْ إنَّ الخاسِرِينَ الَّذِينَ خَسِرُوا أنْفُسَهُمْ» يقول تعالى ذكره: قل يا محمد لهم: إن الهالكين الذين غَبَنوا أنفسهم، وهلكت بعذاب الله أهلوهم مع أنفسهم، فلم يكن لهم إذ دخلوا النار فيها أهل، وقد كان لهم في الدنيا أهلون. وينقل في المقطع أقوالاً عن ابن عباس ومجاهد وابن زيد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=39&tAyahNo=14&tDisplay=yes&UserProfile=0&LanguageId=1

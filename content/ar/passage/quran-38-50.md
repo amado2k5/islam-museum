@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-9-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن «جنات عدن» بيان لحسن المآب، أي بساتين إقامة مفتحة لهم الأبواب متكئين فيها يدعون بفاكهة كثيرة وشراب. وهذا التفسير مشترك بين الآيتين 50 و51. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=38&tAyahNo=50&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 50 إلى 51 مقطعاً واحداً. يفسّر قوله «جَنَّاتِ عَدْنٍ مُّفَتَّحَةً لَّهُمُ ٱلأَبْوَابُ»: قوله تعالى ذكره: «جَنَّاتِ عَدْنٍ»: بيان عن حسن المآب، وترجمة عنه، ومعناه: بساتينُ إقامة. وقد بيَّنا معنى ذلك بشواهده، وذكرنا ما فيه من الاختلاف فيما مضى بما أغنى عن إعادته في هذا الموضع. وقد: وعن قتادة، قوله: «جَنَّاتِ عَدْنٍ» قال: سأل عمر كعباً ما عَدَن؟ قال: يا أمير المؤمنين، قصور في الجنة من ذهب يسكنها النبيون والصدّيقون والشهداء وأئمةُ العدل. وينقل في المقطع أقوالاً عن قتادة والحسن.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=38&tAyahNo=50&tDisplay=yes&UserProfile=0&LanguageId=1

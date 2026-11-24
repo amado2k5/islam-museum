@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-9-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-لم يُفرد الطبري لهذه الآية تعليقاً مستقلاً في الصفحة المحفوظة، بل جاء تفسيرها ضمن تفسير الآيات 87–88. يبيّن الطبري أن القرآن ما هو إلا ذكر للعالمين من الجن والإنس، ولتعلمن نبأه بعد حين. وهذا التفسير مشترك بين الآيتين 87 و88. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=38&tAyahNo=88&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 87 إلى 88 مقطعاً واحداً. يفسّر قوله «وَلَتَعْلَمُنَّ نَبَأَهُ بَعْدَ حِينِ»: : أي بعد الموت وقال الحسن: يا ابن آدم عند الموت يأتيك الخبر اليقين. وقال بعضهم: كانت نهايتها إلى يوم بدر. وينقل في المقطع أقوالاً عن قتادة والحسن وعكرمة وابن زيد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=38&tAyahNo=88&tDisplay=yes&UserProfile=0&LanguageId=1

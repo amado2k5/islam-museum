@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-9-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن الله استجاب لسليمان فأعطاه ملكاً لا ينبغي لأحد من بعده، وسخّر له الريح تجري بأمره رخاءً حيث أصاب، والشياطين كل بناء وغواص وآخرين مقرنين في الأصفاد، هذا عطاؤنا فامنن أو أمسك بغير حساب، وإن له عندنا لزلفى وحسن مآب. وهذا التفسير مشترك بين الآيات 36 إلى 40. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=38&tAyahNo=36&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 36 إلى 40 مقطعاً واحداً. يفسّر قوله «فَسَخَّرْنَا لَهُ ٱلرِّيحَ تَجْرِي بِأَمْرِهِ رُخَآءً حَيْثُ أَصَابَ»: فاستجبنا له دعاءه، فأعطيناه مُلكاً لا ينبغي لأحد من بعده «فَسَخَّرَنَا لَهُ الرِّيحَ» مكان الخيل التي شغلته عن الصلاة «تَجْرِي بأمْرِهِ رُخاءً» يعني: رخوة لينة، وهي من الرخاوة. كما وعن الحسن، أن نبيّ الله سليمان لما عرضت عليه الخيل، فشغله النظر إليها عن صلاة العصر«حتى تَوَارَتْ بالحِجابِ» فغضب لله، فأمر بها فعُقرت، فأبدله الله مكانها أسرع منها، سخر الريح تجري بأمره رُخاء حيث شاء، فكان يغدو من إيلياء، ويقيل بقَزْوين، ثم يروح من قزوين ويبيت بكابُل. وينقل في المقطع أقوالاً عن ابن عباس ومجاهد وقتادة والحسن وابن زيد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=38&tAyahNo=36&tDisplay=yes&UserProfile=0&LanguageId=1
