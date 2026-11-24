@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-12-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل الآيات [[passage/quran-74-54|74:54]] إلى [[passage/quran-74-56|74:56]]، وخلاصتها: يبيّن الطبري أن «كلا» ردّ على المشركين في زعمهم أن القرآن سحر يؤثر وقول البشر، فهو تذكرة من الله لخلقه، ويروي عن قتادة أنه القرآن. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=74&tAyahNo=54&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 54 إلى 56 مقطعاً واحداً. يفسّر قوله «كَلاَّ إِنَّهُ تَذْكِرَةٌ»: يعني جلّ ثناؤه بقوله: «كَلاَّ إنَّهُ تَذْكِرَةٌ» ليس الأمر كما يقول هؤلاء المشركون في هذا القرآن من أنه سحر يؤثر، وأنه قول البشر، ولكنه تذكرة من الله لخلقه، ذكرهم به. وينقل في المقطع أقوالاً عن قتادة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=74&tAyahNo=54&tDisplay=yes&UserProfile=0&LanguageId=1

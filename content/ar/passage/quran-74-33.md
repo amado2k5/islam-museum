@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-12-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل الآيات [[passage/quran-74-32|74:32]] إلى [[passage/quran-74-37|74:37]]، وخلاصتها: يفسّر الطبري إدبار الليل بتوليه ذاهباً، ويروي عن قتادة وابن عباس، ويعرض قراءتي «إذ أدبر» و«إذا دبر» ويرى أنهما صحيحتان. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=74&tAyahNo=33&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 32 إلى 37 مقطعاً واحداً. يفسّر قوله «وَٱللَّيْلِ إِذْ أَدْبَرَ»: : إذ ولَّى. وقال آخرون في ذلك ما: ثني أبي، قال: ثني عمي، قال: ثني أبي عن أبيه، عن ابن عباس: «والليل إذْ أدْبَرَ» دبوره: إظلامه. واختلفت القرّاء في قراءة ذلك، فقرأته عامة قرّاء المدينة والبصرة «إذْ أدْبَرَ»، وبعض قرّاء مكة والكوفة: «إذا دَبَرَ». والصواب من القول في ذلك عندنا، أنهما قراءتان معروفتان صحيحتا المعنى، فبأيتهما قرأ القارىء فمصيب. وقد اختلف أهل العلم بكلام العرب في ذلك، فقال بعض الكوفيين: هما لغتان، يقال: دبر النهار وأدبر، ودبر الصيف وأدبر قال: وكذلك قَبل وأقبل فإذا قالوا: أقبل الراكب وأدبر لم يقولوه إلا بالألف. وينقل في المقطع أقوالاً عن ابن عباس ومجاهد وقتادة وابن زيد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=74&tAyahNo=33&tDisplay=yes&UserProfile=0&LanguageId=1

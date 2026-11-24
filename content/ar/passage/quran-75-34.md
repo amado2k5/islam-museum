@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-12-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل الآيات [[passage/quran-75-31|75:31]] إلى [[passage/quran-75-36|75:36]]، وخلاصتها: يذكر الطبري أن هذا وعيد من الله على وعيد، وأنه نزل في أبي جهل، ويروي عن قتادة أن النبي أخذ بمجامع ثيابه وقال له هذه الكلمات. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=75&tAyahNo=34&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 34 إلى 39 مقطعاً واحداً. يفسّر قوله «فَلاَ صَدَّقَ وَلاَ صَلَّىٰ»: فلم يصدّق بكتاب الله، ولم يصلّ له صلاة، ولكنه كذّب بكتاب الله، وتولى فأدبر عن طاعة الله. وينقل في المقطع أقوالاً عن مجاهد وقتادة وابن زيد وزيد بن أسلم.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=75&tAyahNo=34&tDisplay=yes&UserProfile=0&LanguageId=1

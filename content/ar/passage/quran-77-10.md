@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-12-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل الآيات [[passage/quran-77-7|77:7]] إلى [[passage/quran-77-15|77:15]]، وخلاصتها: يبيّن الطبري أن الجبال تُنسف من أصلها فتكون هباءً منبثاً. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=77&tAyahNo=10&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 10 إلى 18 مقطعاً واحداً. يفسّر قوله «إِنَّمَا تُوعَدُونَ لَوَٰقِعٌ»: والمرسلات عرفاً، إن الذي توعدون أيها الناس من الأمور لواقع، وهو كائن لا محالة، يعني بذلك يوم القيامة، وما ذكر الله أنه أعدّ لخلقه يومئذ من الثواب والعذاب. وقوله: وينقل في المقطع أقوالاً عن ابن عباس ومجاهد وابن زيد وإبراهيم وسفيان.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=77&tAyahNo=10&tDisplay=yes&UserProfile=0&LanguageId=1

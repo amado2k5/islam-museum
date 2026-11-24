@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-12-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل الآيات [[passage/quran-76-12|76:12]] إلى [[passage/quran-76-13|76:13]]، وخلاصتها: يبيّن الطبري أن الله أثابهم بما صبروا على طاعته وعن معصيته جنة وحريراً، ويروي ذلك عن قتادة. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=76&tAyahNo=12&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 12 إلى 13 مقطعاً واحداً. يفسّر قوله «وَجَزَاهُمْ بِمَا صَبَرُواْ جَنَّةً وَحَرِيراً»: وأثابهم الله بما صبروا في الدنيا على طاعته، والعمل بما يرضيه عنهم جنة وحريراً. وينقل في المقطع أقوالاً عن ابن عباس ومجاهد وقتادة وسفيان.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=76&tAyahNo=12&tDisplay=yes&UserProfile=0&LanguageId=1

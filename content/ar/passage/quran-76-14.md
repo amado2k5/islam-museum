@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-12-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل الآيات [[passage/quran-76-14|76:14]] إلى [[passage/quran-76-15|76:15]]، وخلاصتها: يبيّن الطبري أن ظلال أشجارها قريبة منهم، ويعرض أوجه نصب دانية، ويذكر قراءة عبد الله بالتذكير، ثم يفسّر أن قطوفها ذُلّلت تذليلاً. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=76&tAyahNo=14&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 14 إلى 15 مقطعاً واحداً. يفسّر قوله «وَدَانِيَةً عَلَيْهِمْ ظِلاَلُهَا وَذُلِّلَتْ قُطُوفُهَا تَذْلِيلاً»: يعني تعالى ذكره بقوله: «وَدَانِيَةً عَلَيْهِمْ ظِلالُهَا» وقَرُبت منهم ظلال أشجارها. ولنصب دانية أوجه: أحدها: العطف به على قوله«مُتَّكِئيِن فِيها» والثاني: العطف به على موضع قوله«لا يَرَوْنَ فِيها شَمْساً» لأن موضعه نصب، وذلك أن معناه: متكئين فيها الأرائك، غير رائين فيها شمساً. والثالث: نصبه على المدح، كأنه قيل: متكئين فيها على الأرائك، ودانية بعد عليهم ظلالها، كما يقال: عند فلان جارية جميلة، وشابة بعد طرية، تضمر مع هذه الواو فعلاً ناصباً للشابة، إذا أريد به المدح، ولم يُرَد به النَّسَق وأُنِّثَتْ دانيةً لأن الظلال جمع. وينقل في المقطع أقوالاً عن ابن عباس ومجاهد وقتادة وابن زيد وسفيان.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=76&tAyahNo=14&tDisplay=yes&UserProfile=0&LanguageId=1

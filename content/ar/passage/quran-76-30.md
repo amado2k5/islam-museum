@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-12-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل الآيات [[passage/quran-76-30|76:30]] إلى [[passage/quran-76-31|76:31]]، وخلاصتها: يبيّن الطبري أنهم لا يشاؤون اتخاذ السبيل إلا أن يشاء الله، لأن الأمر إليه، ويذكر قراءة عبد الله. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=76&tAyahNo=30&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 30 إلى 31 مقطعاً واحداً. يفسّر قوله «وَمَا تَشَآءُونَ إِلاَّ أَن يَشَآءَ ٱللَّهُ إِنَّ ٱللَّهَ كَانَ عَلِيماً حَكِيماً»: «وَما تَشاءُونَ» اتخاذ السبيل إلى ربكم أيها الناس «إلاَّ أنْ يَشاءَ اللَّهُ» ذلك لكم لأن الأمر إليه لا إليكم وهو في قراءة عبد الله فيما ذُكر: «وَما تَشاءُونَ إلاَّ ما شاءَ اللَّهُ». وقوله «إنَّ اللَّهَ كانَ عَلِيماً حَكِيماً» فلن يعدو منكم أحد ما سبق له في علمه بتدبيركم. وقوله: «يُدْخِلُ مَنْ يَشاءُ فِي رَحْمَتِهِ» يقول: يدخل ربكم من يشاء منكم في رحمته، فيتوب عليه حتى يموت تائبا من ضلالته، فيغفر له ذنوبه، ويُدخله جنته «والظَّالَمِيِنَ أعَدَّ لَهُمْ عَذَاباً ألِيماً» يقول: الذين ظلموا أنفسهم، فماتوا على شركهم، أعدّ لهم في الآخرة عذاباً مؤلماً موجعاً، وهو عذاب جهنم.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=76&tAyahNo=30&tDisplay=yes&UserProfile=0&LanguageId=1

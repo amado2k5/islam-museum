@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-12-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل الآيات [[passage/quran-76-19|76:19]] إلى [[passage/quran-76-20|76:20]]، وخلاصتها: يبيّن الطبري أن ولداناً هم الوصفاء يطوفون على الأبرار مخلدون، ويعرض اختلاف أهل التأويل: لا يموتون، أو مسوّرون، أو مقرّطون، أو دائم شبابهم، ويرجّح أن معناه ثبات الحال. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=76&tAyahNo=19&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 19 إلى 20 مقطعاً واحداً. يفسّر قوله «وَيَطُوفُ عَلَيْهِمْ وِلْدَانٌ مُّخَلَّدُونَ إِذَا رَأَيْتَهُمْ حَسِبْتَهُمْ لُؤْلُؤاً مَّنثُوراً»: ويطوف على هؤلاء الأبرار ولدان، وهم الوصفاء، مخلَّدون. اختلف أهل التأويل في معنى: «مُخَلَّدُونَ» فقال بعضهم: معنى ذلك: أنهم لا يموتون. وينقل في المقطع أقوالاً عن قتادة وسفيان.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=76&tAyahNo=19&tDisplay=yes&UserProfile=0&LanguageId=1

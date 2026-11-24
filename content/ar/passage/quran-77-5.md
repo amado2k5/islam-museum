@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-12-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-لا يتضمن النص المحفوظ لهذه الصفحة تعليقاً مستقلاً على هذه الآية؛ إذ يقتصر التعليق المحفوظ على الآية الأولى. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=77&tAyahNo=5&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 5 إلى 10 مقطعاً واحداً. يفسّر قوله «وَٱلْمُرْسَلاَتِ عُرْفاً»: اختلف أهل التأويل في معنى قول الله: «وَالمُرْسَلاتِ عُرْفاً» فقال بعضهم: معنى ذلك: والرياح المرسلات يتبع بعضها بعضاً، قالوا: والمرسَلات: هي الرياح. وينقل في المقطع أقوالاً عن ابن عباس ومجاهد وقتادة والأعمش وسفيان.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=77&tAyahNo=5&tDisplay=yes&UserProfile=0&LanguageId=1

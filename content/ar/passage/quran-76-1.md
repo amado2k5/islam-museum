@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-12-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل الآيات [[passage/quran-76-1|76:1]] إلى [[passage/quran-76-2|76:2]]، وخلاصتها: يبيّن الطبري أن هل بمعنى قد في هذا الموضع، وأن الإنسان المقصود هو آدم، وأنه أتى عليه حين من الدهر لم يكن فيه شيئاً مذكوراً، ويروي ذلك عن قتادة وسفيان. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=76&tAyahNo=1&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 1 إلى 2 مقطعاً واحداً. يفسّر قوله «هَلْ أَتَىٰ عَلَى ٱلإِنسَانِ حِينٌ مِّنَ ٱلدَّهْرِ لَمْ يَكُن شَيْئاً مَّذْكُوراً»: يعني جلّ ثناؤه بقوله: «هَلْ أتى عَلى الإنْسانِ» قد أتى على الإنسان وهل في هذا الموضع خبر لا جحد، وذلك كقول القائل لآخر يقرّره: هل أكرمتك؟ وقد أكرمه أو هل زرتك؟ وقد زاره وقد تكون جحداً في غير هذا الموضع، وذلك كقول القائل لآخر: هل يفعل مثل هذا أحد؟ بمعنى: أنه لا يفعل ذلك أحد. والإنسان الذي قال جلّ ثناؤه في هذا الموضع «هَل أتَى عَلى الإنْسانِ حِينٌ مِنَ الدَّهْرِ»: هو آدم كذلك: وعن قتادة، قوله: «هَلْ أتى عَلى الإنْسانِ» آدم أتى عليه «حِينٌ مِنَ الدَّهْرِ لَمْ يَكُنْ شَيْئاً مَذْكُوراً» إنما خلق الإنسان ههنا حديثاً ما يعلم من خليقة الله خليقةٌ كانت بعد الإنسان. وينقل في المقطع أقوالاً عن قتادة وسفيان.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=76&tAyahNo=1&tDisplay=yes&UserProfile=0&LanguageId=1

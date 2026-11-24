@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-12-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل الآيات [[passage/quran-75-37|75:37]] إلى [[passage/quran-75-40|75:40]]، وخلاصتها: يبيّن الطبري أن الإنسان المنكر لقدرة الله ألم يكن نطفة، وهي ماء قليل من المني، ويعرض قراءتي «تمنى» بالتاء و«يمنى» بالياء ويرى أنهما صحيحتان. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=75&tAyahNo=37&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 37 إلى 40 مقطعاً واحداً. يفسّر قوله «أَلَمْ يَكُ نُطْفَةً مِّن مَّنِيٍّ يُمْنَىٰ»: ألم يك هذا المنكر قدرة الله على إحيائه من بعد مماته، وإيجاده من بعد فنائه «نُطْفَةً» يعني: ماء قليلاً في صلب الرجل من منيّ. واختلفت القرّاء في قراءة قوله: «يُمْنَى» فقرأه عامة قرّاء المدينة والكوفة: «تُمْنَى» بالتاء بمعنى: تمنى النطفة، وقرأ ذلك بعض قرّاء مكة والبصرة: «يُمْنَى» بالياء، بمعنى: يمنى المنيّ. والصواب من القول أنهما قراءتان معروفتان صحيحتا المعنى، فبأيتهما قرأ القارىء فمصيب. وقوله: «ثُمَّ كانَ عَلَقَةً» يقول تعالى ذكره: ثم كان دماً من بعد ما كان نطفة، ثم علقة، ثم سوّاه بشراً سوياً، ناطقاً سميعاً بصيراً وينقل في المقطع أقوالاً عن قتادة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=75&tAyahNo=37&tDisplay=yes&UserProfile=0&LanguageId=1

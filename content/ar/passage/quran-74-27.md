@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-12-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل الآيات [[passage/quran-74-26|74:26]] إلى [[passage/quran-74-31|74:31]]، وخلاصتها: يذكر الطبري أن الله بعد أن سأل عن سقر بيّن أنها نار. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=74&tAyahNo=27&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 27 إلى 32 مقطعاً واحداً. يفسّر قوله «سَأُصْلِيهِ سَقَرَ»: يعني تعالى ذكره بقوله: «سأُصْلِيهِ سَقَرَ» سأورده باباً من أبواب جهنم اسمه سقر ولم يُجرَّ سقر لأنه اسم من أسماء جهنم وينقل في المقطع أقوالاً عن ابن عباس ومجاهد وقتادة وابن زيد وزيد بن أسلم وسفيان.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=74&tAyahNo=27&tDisplay=yes&UserProfile=0&LanguageId=1
