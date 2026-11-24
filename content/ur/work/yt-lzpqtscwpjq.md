@@ -14,9 +14,9 @@ provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Word fo
 - وہ کہتے ہیں کہ عثمان ابن عفان نے ہزار سونے کے دینار لائے اور انہیں نبی کی گود میں رکھ دیا۔ {cite:youtube-muftimenkofficial LZPqtScwpJQ 00:04:04}
 - وہ کہتے ہیں کہ سات غریب ساتھی روتے ہوئے آئے اور مہم پر لے جانے کی درخواست کی۔ {cite:youtube-muftimenkofficial LZPqtScwpJQ 00:04:35}
 - وہ کہتے ہیں کہ ان کا غم ایمان اور خواہش کی علامت تھا، کمزوری کی نہیں۔ {cite:youtube-muftimenkofficial LZPqtScwpJQ 00:05:13}
-- وہ کہتے ہیں کہ ابو خیثمہ نے اپنی آرام گاہ چھوڑ کر نبی صلى الله عليه وسلم سے ملنے کے لیے تبوک کی طرف سفر کیا۔ {cite:youtube-muftimenkofficial LZPqtScwpJQ 00:06:32}
-- وہ کہتے ہیں کہ نبی صلى الله عليه وسلم نے ایک معاہدہ قبول کیا اور یوحنا کی حفاظت کی ضمانت دی۔ {cite:youtube-muftimenkofficial LZPqtScwpJQ 00:08:10}
-- ان کا کہنا ہے کہ نبی صلى الله عليه وسلم بیس راتیں تبوک میں رہے۔ {cite:youtube-muftimenkofficial LZPqtScwpJQ 00:08:33}
+- وہ کہتے ہیں کہ ابو خیثمہ نے اپنی آرام گاہ چھوڑ کر نبی سے ملنے کے لیے تبوک کی طرف سفر کیا۔ {cite:youtube-muftimenkofficial LZPqtScwpJQ 00:06:32}
+- وہ کہتے ہیں کہ نبی نے ایک معاہدہ قبول کیا اور یوحنا کی حفاظت کی ضمانت دی۔ {cite:youtube-muftimenkofficial LZPqtScwpJQ 00:08:10}
+- ان کا کہنا ہے کہ نبی بیس راتیں تبوک میں رہے۔ {cite:youtube-muftimenkofficial LZPqtScwpJQ 00:08:33}
 
 ## چھوڑ دیا گیا
 - ریکارڈنگ میں اعداد و شمار اور عمریں ان کے اپنے ہیں اور کسی ماخذ کے ساتھ متوقع نہیں ہیں۔

@@ -12,10 +12,10 @@ provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Word fo
 ## ریکارڈنگ، منٹ بہ منٹ
 - وہ کہتے ہیں کہ اگر جعفر شہید ہو گیا تو عبداللہ ابن رواحہ کو کمان سنبھالنی چاہیے۔ {cite:youtube-muftimenkofficial mu0BjJXXExY 00:02:06}
 - وہ کہتے ہیں کہ جعفر ابن ابی طالب نے زید کے زوال کے بعد جھنڈا اٹھایا۔ {cite:youtube-muftimenkofficial mu0BjJXXExY 00:03:29}
-- وہ کہتے ہیں کہ نبی صلى الله عليه وسلم نے جعفر کے بازوؤں کی جگہ دو پروں کی جگہ جنت بنا دی۔ {cite:youtube-muftimenkofficial mu0BjJXXExY 00:03:50}
+- وہ کہتے ہیں کہ نبی نے جعفر کے بازوؤں کی جگہ دو پروں کی جگہ جنت بنا دی۔ {cite:youtube-muftimenkofficial mu0BjJXXExY 00:03:50}
 - وہ کہتے ہیں کہ نبی نے عبداللہ ابن روہا کو جھنڈا اٹھانے اور گرنے کا ذکر کیا۔ {cite:youtube-muftimenkofficial mu0BjJXXExY 00:04:43}
 - وہ کہتے ہیں کہ خالد بن الولید نے بڑی بہادری سے لڑائی کی اور ایک دن میں نو تلواریں توڑیں۔ {cite:youtube-muftimenkofficial mu0BjJXXExY 00:05:13}
-- وہ کہتے ہیں کہ نبی صلى الله عليه وسلم نے فرار کے الزامات کا جواب دیتے ہوئے واپس آنے والے فوجیوں کو اسلام کا محافظ قرار دیا۔ {cite:youtube-muftimenkofficial mu0BjJXXExY 00:05:42}
+- وہ کہتے ہیں کہ نبی نے فرار کے الزامات کا جواب دیتے ہوئے واپس آنے والے فوجیوں کو اسلام کا محافظ قرار دیا۔ {cite:youtube-muftimenkofficial mu0BjJXXExY 00:05:42}
 
 ## چھوڑ دیا گیا
 - ریکارڈنگ میں اعداد و شمار اور عمریں ان کے اپنے ہیں اور کسی ماخذ کے ساتھ متوقع نہیں ہیں۔

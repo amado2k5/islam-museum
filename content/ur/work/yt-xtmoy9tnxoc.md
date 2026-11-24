@@ -16,7 +16,7 @@ provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Word fo
 - وہ کہتے ہیں کہ اللہ ان دس دنوں میں نیک اعمال کو سب سے زیادہ پسند کرتا ہے۔ {cite:youtube-muftimenkofficial xTMOY9TNXOc 00:09:24}
 - ان کا کہنا ہے کہ زکات دولت کا لازمی حصہ ہے جو ضرورت مندوں کو دیا جاتا ہے۔ {cite:youtube-muftimenkofficial xTMOY9TNXOc 00:12:33}
 - وہ کہتے ہیں کہ مومن کے دل میں خوشی لانا خود ایک قسم کی خیرات ہے۔ {cite:youtube-muftimenkofficial xTMOY9TNXOc 00:16:14}
-- وہ کہتے ہیں کہ نبی صلى الله عليه وسلم دن میں سو بار تک معافی مانگتے تھے۔ {cite:youtube-muftimenkofficial xTMOY9TNXOc 00:19:51}
+- وہ کہتے ہیں کہ نبی دن میں سو بار تک معافی مانگتے تھے۔ {cite:youtube-muftimenkofficial xTMOY9TNXOc 00:19:51}
 
 ## چھوڑ دیا گیا
 - ریکارڈنگ میں اعداد و شمار اور عمریں ان کے اپنے ہیں اور کسی ماخذ کے ساتھ متوقع نہیں ہیں۔

@@ -13,7 +13,7 @@ provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Word fo
 - وہ کہتے ہیں کہ خیبر قلعے اور دولت کی سرزمین تھی، جہاں قبائل رہتے تھے جنہوں نے قریش کی حمایت کی تھی۔ {cite:youtube-muftimenkofficial Ay8sLvO2jGQ 00:01:16}
 - وہ کہتے ہیں عمر نے کہا کہ فتح اللہ کی ضمانت ہے۔ {cite:youtube-muftimenkofficial Ay8sLvO2jGQ 00:02:04}
 - وہ کہتے ہیں کہ محمد بن مسلمہ نے مرحب کو لڑائی میں مارا۔ {cite:youtube-muftimenkofficial Ay8sLvO2jGQ 00:03:35}
-- وہ کہتے ہیں کہ نبی صلى الله عليه وسلم نے کہا کہ فتح اس شخص کے ذریعے آئے گی جو اللہ اور اس کے رسول سے محبت کرتا ہے۔ {cite:youtube-muftimenkofficial Ay8sLvO2jGQ 00:04:01}
+- وہ کہتے ہیں کہ نبی نے کہا کہ فتح اس شخص کے ذریعے آئے گی جو اللہ اور اس کے رسول سے محبت کرتا ہے۔ {cite:youtube-muftimenkofficial Ay8sLvO2jGQ 00:04:01}
 - وہ کہتے ہیں کہ خیبر کے لوگوں نے اپنی شکست کا احساس ہونے کے بعد امن کی درخواست کی۔ {cite:youtube-muftimenkofficial Ay8sLvO2jGQ 00:04:58}
 - وہ کہتے ہیں کہ خیبر کے بعد نبی اکرم وادی القری کی طرف گئے، جس نے پرامن طور پر ہتھیار ڈال دیے۔ {cite:youtube-muftimenkofficial Ay8sLvO2jGQ 00:05:54}
 

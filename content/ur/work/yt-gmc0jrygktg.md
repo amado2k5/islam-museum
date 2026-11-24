@@ -12,8 +12,8 @@ provenance: {generated_by: 'scripts/local-mt/import_gt.py (spanish lane, Word fo
 ## ریکارڈنگ، منٹ بہ منٹ
 - وہ کہتے ہیں کہ ہر انسان زندگی میں آسانی اور نرمی چاہتا ہے۔ {cite:youtube-muftimenkofficial gMc0jRygktg 00:00:11}
 - وہ کہتے ہیں کہ نظم و ضبط، جیسے جلدی اٹھنا اور سونا، اسلام کا حصہ ہے۔ {cite:youtube-muftimenkofficial gMc0jRygktg 00:06:21}
-- وہ کہتے ہیں کہ نبی صلى الله عليه وسلم اپنے والد کے انتقال کے بعد پیدا ہوئے۔ {cite:youtube-muftimenkofficial gMc0jRygktg 00:08:45}
-- وہ کہتے ہیں کہ نبی صلى الله عليه وسلم نے چھ سال کی عمر میں اپنی والدہ کو کھو دیا۔ {cite:youtube-muftimenkofficial gMc0jRygktg 00:11:08}
+- وہ کہتے ہیں کہ نبی اپنے والد کے انتقال کے بعد پیدا ہوئے۔ {cite:youtube-muftimenkofficial gMc0jRygktg 00:08:45}
+- وہ کہتے ہیں کہ نبی نے چھ سال کی عمر میں اپنی والدہ کو کھو دیا۔ {cite:youtube-muftimenkofficial gMc0jRygktg 00:11:08}
 - وہ کہتے ہیں کہ کسی کی طرح بننے کی خواہش اس شخص کی ڈپریشن کی جدوجہد کو چھپا سکتی ہے۔ {cite:youtube-muftimenkofficial gMc0jRygktg 00:20:46}
 - وہ کہتے ہیں کہ مشورہ نرمی سے، مہربانی اور احترام کے ساتھ دیا جانا چاہیے۔ {cite:youtube-muftimenkofficial gMc0jRygktg 00:26:26}
 - وہ کہتے ہیں کہ جو ریورٹ دن میں پانچ بار دعا کرتا ہے اسے اس کے ماضی کی وجہ سے رد نہیں کیا جانا چاہیے۔ {cite:youtube-muftimenkofficial gMc0jRygktg 00:28:55}
