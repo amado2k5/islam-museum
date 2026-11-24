@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-5-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن الله يمدّ الفريقين، مريدي العاجلة ومريدي الآخرة، من عطائه في الدنيا إلى انقضاء الأجل، وما كان عطاء ربك ممنوعاً من أحد. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=17&tAyahNo=20&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «كُلاًّ نُّمِدُّ هَٰؤُلاۤءِ وَهَٰؤُلاۤءِ مِنْ عَطَآءِ رَبِّكَ وَمَا كَانَ عَطَآءُ رَبِّكَ مَحْظُوراً»: يمدّ ربك يا محمد كلا الفريقين من مريدي العاجلة، ومريدي الآخرة، الساعي لها سعيها وهو مؤمن في هذه الدنيا من عطائه، فيرزقهما جميعاً من رزقه إلى بلوغهما الأمد، واستيفائهما الأجل ما كتب لهما، ثم تختلف بهما الأحوال بعد الممات، وتفترق بهما بعد الورود المصادر، ففريق مريدي العاجلة إلى جهنم مصدَرهم، وفريق مريدي الآخرة إلى الجنة مآبهم «وَما كانَ عَطاء رَبِّكَ مَحْظُوراً» يقول: وما كان عطاء ربك الذي يؤتيه من يشاء من خلقه في الدنيا ممنوعاً عمن بسطه عليه لا يقدر أحد من خلقه منعه من ذلك، وقد آتاه الله إياه. وينقل في المقطع أقوالاً عن ابن عباس وقتادة وابن زيد وابن جريج.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=17&tAyahNo=20&tDisplay=yes&UserProfile=0&LanguageId=1

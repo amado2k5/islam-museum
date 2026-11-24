@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-6-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن ما منع المشركين من الإيمان بعد مجيء الهدى إلا قولهم إنكاراً: أبعث الله بشراً رسولاً، وهو قول صدر عن جهل. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=17&tAyahNo=94&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَمَا مَنَعَ ٱلنَّاسَ أَن يُؤْمِنُوۤاْ إِذْ جَآءَهُمُ ٱلْهُدَىٰ إِلاَّ أَن قَالُوۤاْ أَبَعَثَ ٱللَّهُ بَشَراً رَّسُولاً»: وما منع يا محمد مشركي قومك الإيمان بالله، وبما جئتهم به من الحقّ «إذْ جاءَهُمُ الهُدَى» يقول: إذ جاءهم البيان من عند الله بحقيقة ما تدعوهم وصحة ما جئتهم به، إلاَّ قولهم جهلاً منهم «أبَعَثَ اللّهُ بَشَراً رَسُولاً» فأن الأولى في موضع نصب بوقوع منع عليها، والثانية في موضع رفع، لأن الفعل لها.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=17&tAyahNo=94&tDisplay=yes&UserProfile=0&LanguageId=1

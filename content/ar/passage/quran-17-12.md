@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-5-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يعدّ الطبري من نعم الله جعل علامة الليل وعلامة النهار آيتين، فمحا آية الليل وجعل آية النهار مبصرة ليبتغي الناس فضله ويعلموا عدد السنين والحساب، وأن الله فصّل كل شيء تفصيلاً. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=17&tAyahNo=12&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَجَعَلْنَا ٱلَّيلَ وَٱلنَّهَارَ آيَتَيْنِ فَمَحَوْنَآ آيَةَ ٱلَّيلِ وَجَعَلْنَآ آيَةَ ٱلنَّهَارِ مُبْصِرَةً لِتَبْتَغُواْ فَضْلاً مِّن رَّبِّكُمْ وَلِتَعْلَمُواْ عَدَدَ ٱلسِّنِينَ وَٱلْحِسَابَ وَكُلَّ شَيْءٍ فَصَّلْنَاهُ تَفْصِيلاً»: ومن نعمه عليكم أيها الناس، مخالفته بين علامة الليل وعلامة النهار، بإظلامه علامة الليل، وإضاءته علامة النهار، لتسكنوا في هذا، وتتصرّفوا في ابتغاء رزق الله الذي قدره لكم بفضله في هذا، ولتعلموا باختلافهما عدد السنين وانقضاءها، وابتداء دخولها، وحساب ساعات النهار والليل وأوقاتها «وكُلَّ شَيْءٍ فَصَّلْناه تَفْصِيلاً» يقول: وكلّ شيء بيناه بيانا شافيا لكم أيها الناس لتشكروا الله على ما أنعم به عليكم من نعمه، وتخلصوا له العبادة، دون الآلهة والأوثان. وينقل في المقطع أقوالاً عن ابن عباس ومجاهد وابن جريج.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=17&tAyahNo=12&tDisplay=yes&UserProfile=0&LanguageId=1

@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-6-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يفسّر الطبري «شاكلته» بناحية كل إنسان وطريقته، فكل واحد يعمل على ما يوافق نهجه، وربّ الناس أعلم بمن هو أهداهم طريقاً إلى الحق. ثم يسوق أقوال أهل التأويل في ذلك. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=17&tAyahNo=84&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «قُلْ كُلٌّ يَعْمَلُ عَلَىٰ شَاكِلَتِهِ فَرَبُّكُمْ أَعْلَمُ بِمَنْ هُوَ أَهْدَىٰ سَبِيلاً»: يقول عزّ وجلّ لنبيه محمد: قل يا محمد للناس: كلكم يعمل على شاكلته: على ناحيته وطريقته «فَرَبُّكُمْ أعْلَمُ بِمَنْ» هو منكم «أهْدَى سَبِيلاً» يقول: ربكم أعلم بمن هو منكم أهدى طريقاً إلى الحقّ من غيره. وينقل في المقطع أقوالاً عن ابن عباس ومجاهد وقتادة وابن زيد وابن جريج.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=17&tAyahNo=84&tDisplay=yes&UserProfile=0&LanguageId=1

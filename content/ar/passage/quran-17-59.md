@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-5-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن الله ما منعه من إرسال الآيات التي سألها قوم النبي إلا أن الأمم المكذّبة قبلهم سألوا مثلها فلما أتتهم كذّبوا بها فأُهلكوا، ويذكر ناقة ثمود آية مبصرة فظلموا بها، وأن الآيات إنما تُرسل تخويفاً. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=17&tAyahNo=59&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَمَا مَنَعَنَآ أَن نُّرْسِلَ بِٱلآيَاتِ إِلاَّ أَن كَذَّبَ بِهَا ٱلأَوَّلُونَ وَآتَيْنَا ثَمُودَ ٱلنَّاقَةَ مُبْصِرَةً فَظَلَمُواْ بِهَا وَمَا نُرْسِلُ بِٱلآيَاتِ إِلاَّ تَخْوِيفاً»: وما منعنا يا محمد أن نرسل بالآيات التي سألها قومك، إلا أن كان من قبلهم من الأمم المكذّبة، سألوا ذلك مثل سؤالهم فلما أتاهم ما سألوا منه كذّبوا رسلهم، فلم يصدّقوا مع مجيء الآيات، فعوجلوا فلم نرسل إلى قومك بالآيات، لأنَّا لو أرسلنا بها إليها، فكذّبوا بها، سلكنا في تعجيل العذاب لهم مسلك الأمم قبلها. وبالذي قلنا في ذلك، قال أهل التأويل. وينقل في المقطع أقوالاً عن ابن عباس وقتادة والحسن وسعيد بن جبير وابن جريج والأعمش.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=17&tAyahNo=59&tDisplay=yes&UserProfile=0&LanguageId=1

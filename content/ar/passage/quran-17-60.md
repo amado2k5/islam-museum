@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-5-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يرى الطبري أن الآية حضّ من الله لنبيه على تبليغ رسالته وإعلام له بأن ربه أحاط بالناس، وأن الرؤيا التي أراه الله والشجرة الملعونة في القرآن فتنة للناس، وأن تخويفهم لا يزيدهم إلا طغياناً كبيراً. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=17&tAyahNo=60&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَإِذْ قُلْنَا لَكَ إِنَّ رَبَّكَ أَحَاطَ بِٱلنَّاسِ وَمَا جَعَلْنَا ٱلرُّءْيَا ٱلَّتِي أَرَيْنَاكَ إِلاَّ فِتْنَةً لِّلنَّاسِ وَٱلشَّجَرَةَ ٱلْمَلْعُونَةَ فِي ٱلقُرْآنِ وَنُخَوِّفُهُمْ فَمَا يَزِيدُهُمْ إِلاَّ طُغْيَاناً كَبِيراً»: وهذا حضّ من الله تعالى ذكره نبيه محمداً، على تبليغ رسالته، وإعلام منه أنه قد تقدّم منه إليه القول بأنه سيمنعه من كلّ من بغاه سوءاً وهلاكاً، يقول جلّ ثناؤه: واذكر يا محمد إذ قلنا لك إن ربك أحاط بالناس قدرة، فهم في قبضته لا يقدرون على الخروج من مشيئته، ونحن مانعوك منهم، فلا تتهيَّب منهم أحدا، وامض لما أمرناك به من تبليغ رسالتنا. وينقل في المقطع أقوالاً عن ابن عباس ومجاهد وقتادة والحسن وعكرمة وابن جريج.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=17&tAyahNo=60&tDisplay=yes&UserProfile=0&LanguageId=1

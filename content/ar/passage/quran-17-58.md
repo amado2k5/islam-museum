@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-5-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن الله ما من قرية إلا هو مهلك أهلها بالفناء قبل يوم القيامة أو معذبها بقتل أو بغيره من صنوف العذاب الشديد، وكان ذلك في الكتاب مسطوراً أي مكتوباً مقضياً. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=17&tAyahNo=58&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَإِن مِّن قَرْيَةٍ إِلاَّ نَحْنُ مُهْلِكُوهَا قَبْلَ يَوْمِ ٱلْقِيَامَةِ أَوْ مُعَذِّبُوهَا عَذَاباً شَدِيداً كَانَ ذٰلِك فِي ٱلْكِتَابِ مَسْطُوراً»: وما من قرية من القرى إلا نحن مهلكوا أهلها بالفناء، فمبيدوهم استئصالاً قبل يوم القيامة، أو معذّبوها، إما ببلاء من قتل بالسيف، أو غير ذلك من صنوف العذاب عذاباً شديداً. كما: وعن ابن أبي نجيح، عن مجاهد، في قول الله عزّ وجلّ: «وَإنَ مِنْ قَرْيَةٍ إلاَّ نَحْن مُهْلِكُوها قَبْلَ يَوْمِ القِيامَة» فمبيدوها «أوْ معذّبُوها» بالقتل والبلاء، قال: كل قرية في الأرض سيصيبها بعض هذا. وقال: ثني حجاج، عن ابن جريج، عن مجاهد، بنحوه، إلا أنه قال: سيصيبها هذا أو بعضه. وينقل في المقطع أقوالاً عن مجاهد وقتادة وابن زيد وابن جريج وسماك.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=17&tAyahNo=58&tDisplay=yes&UserProfile=0&LanguageId=1

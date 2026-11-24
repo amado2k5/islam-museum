@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-5-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن الله قال لإبليس اذهب فقد أخّرتك، فمن تبعك من ذرية آدم فأطاعك فإن جهنم جزاؤك وجزاؤهم جزاءً وافراً، أي ثواباً مكتملاً لا ينقص. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=17&tAyahNo=63&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «قَالَ ٱذْهَبْ فَمَن تَبِعَكَ مِنْهُمْ فَإِنَّ جَهَنَّمَ جَزَآؤُكُمْ جَزَاءً مَّوْفُوراً»: يقول تعالى ذكره قال الله لإبليس إذ قال له«لَئِنْ أخَّرْتَنِ إلى يَوْمِ القِيامَةِ لأَحْتَنِكَنَّ ذُرّيَّتَهُ إلاَّ قَلِيلاً» اذهب فقد أخرتك، فمن تبعك منهم، يعني من ذرّية آدم فأطاعك، فإن جهنم جزاؤك وجزاؤهم، يقول: ثوابك على دعائك إياهم على معصيتي، وثوابهم على اتباعهم إياك وخلافهم أمري «جزاءً مَوْفوْراً»: يقول: ثواباً مكثوراً مكملاً. كما: وعن قتادة، قوله «قالَ اذْهَبْ فَمَنْ تَبِعَكَ مِنْهُمْ فإنَّ جَهَنَّمَ جَزَاؤُكُمْ جَزَاءً مَوْفُوراً» عذاب جهنم جزاؤهم، ونقمة من الله من أعدائه فلا يعدل عنهم من عذابها شيء. وقال: ثني حجاج، عن ابن جريج، عن مجاهد «فإنَّ جَهَنَّمَ جَزَاؤُكُمْ جَزَاءً مَوْفُوراً» قال: وافراً. وينقل في المقطع أقوالاً عن مجاهد وقتادة وابن جريج.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=17&tAyahNo=63&tDisplay=yes&UserProfile=0&LanguageId=1

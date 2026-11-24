@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-5-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يأمر الله نبيه بإقامة الصلاة لدلوك الشمس إلى غسق الليل وقرآن الفجر، ويعرض الطبري اختلاف أهل التأويل في وقت دلوك الشمس، فقال بعضهم هو غروبها، ويبيّن أن قرآن الفجر كان مشهوداً. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=17&tAyahNo=78&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «أَقِمِ ٱلصَّلاَةَ لِدُلُوكِ ٱلشَّمْسِ إِلَىٰ غَسَقِ ٱلَّيلِ وَقُرْآنَ ٱلْفَجْرِ إِنَّ قُرْآنَ ٱلْفَجْرِ كَانَ مَشْهُوداً»: «أقِمِ الصَّلاةَ» يا محمد «لِدُلُوكِ الشَّمْسِ». واختلف أهل التأويل في الوقت الذي عناه الله بدلوك الشمس، فقال بعضهم: هو وقت غروبها، والصلاة التي أمر بإقامتها حينئذٍ: صلاة المغرب. وينقل في المقطع أقوالاً عن ابن عباس ومجاهد وقتادة وابن زيد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=17&tAyahNo=78&tDisplay=yes&UserProfile=0&LanguageId=1

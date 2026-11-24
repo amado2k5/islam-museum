@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-5-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يخاطب الله المشركين بأن ربهم هو الذي يسيّر لهم السفن في البحر ليحملهم إلى أماكن تجارتهم ومعايشهم وليبتغوا من فضله، وأنه كان بهم رحيماً. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=17&tAyahNo=66&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «رَّبُّكُمُ ٱلَّذِي يُزْجِي لَكُمُ ٱلْفُلْكَ فِي ٱلْبَحْرِ لِتَبْتَغُواْ مِن فَضْلِهِ إِنَّهُ كَانَ بِكُمْ رَحِيماً»: يقول تعالى ذكره للمشركين به: ربكم أيها القوم هو الذي يسير لكم السفن في البحر. فيحملكم فيها «لَتْبتَغُوا مِنْ فَضْلِهِ» لتوصلوا بالركوب فيها إلى أماكن تجاراتكم ومطالبكم ومعايشكم، وتلتمسون من رزقه «إنَّه كانَ بِكُمْ رَحِيماً» يقول: إن الله كان بكم رحيماً حين أجرى لكم الفلك في البحر، تسهيلاً منه بذلك عليكم التصرّف في طلب فضله في البلاد النائية التي لولا تسهيله ذلك لكم لصعب عليكم الوصول إليها. وبنحو ما قلنا في قوله: «يُزْجِي لَكُمْ» قال أهل التأويل. وينقل في المقطع أقوالاً عن ابن عباس وقتادة وابن زيد وابن جريج.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=17&tAyahNo=66&tDisplay=yes&UserProfile=0&LanguageId=1

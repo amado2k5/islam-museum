@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-5-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن الإنسان قد يدعو على نفسه وولده وماله بالشر عند ضجره وغضبه كما يدعو بالخير، ولو استجاب الله له في الشر لهلك، وأن الإنسان عجول يستعجل ما لا يدري عاقبته. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=17&tAyahNo=11&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَيَدْعُ ٱلإِنْسَانُ بِٱلشَّرِّ دُعَآءَهُ بِٱلْخَيْرِ وَكَانَ ٱلإِنْسَانُ عَجُولاً»: يقول تعالى ذكره مذكراً عباده أياديه عندهم، ويدعو الإنسان على نفسه وولده وماله بالشرّ، فيقول: اللهمّ أهلكه والعنه عند ضجره وغضبه، كدعائه بالخير: يقول: كدعائه ربه بأن يهب له العافية، ويرزقه السلامة في نفسه وماله وولده، يقول: فلو استجيب له في دعائه على نفسه وماله وولده بالشرّ كما يستجاب له في الخير هلك، ولكن الله بفضله لا يستجيب له في ذلك. وينقل في المقطع أقوالاً عن ابن عباس ومجاهد وقتادة والضحاك وابن جريج وإبراهيم.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=17&tAyahNo=11&tDisplay=yes&UserProfile=0&LanguageId=1

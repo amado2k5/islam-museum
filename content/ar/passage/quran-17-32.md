@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-5-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن الله قضى أيضاً ألا يقرب الناس الزنا لأنه فاحشة وساء طريقاً، إذ هو طريق أهل المعصية يورد صاحبه نار جهنم. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=17&tAyahNo=32&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَلاَ تَقْرَبُواْ ٱلزِّنَىٰ إِنَّهُ كَانَ فَاحِشَةً وَسَآءَ سَبِيلاً»: وقضى أيضاً أن «لا تَقْرَبُوا» أيها الناس «الزّنا إنَّهُ كانَ فاحِشَةً» يقول: إن الزّنا كان فاحشة «وَساءَ سَبيلاً» يقول: وساء طريق الزنا طريقاً، لأن طريق أهل معصية الله، والمخالفين أمره، فأسوىءْ به طريقاً يورد صاحبه نار جهنم.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=17&tAyahNo=32&tDisplay=yes&UserProfile=0&LanguageId=1

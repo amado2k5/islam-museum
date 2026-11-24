@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-6-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يذكر الطبري مطلب المشركين أن يأتي الله والملائكة «قبيلاً»، ويعرض خلاف أهل التأويل في معنى القبيل، منها أن يأتي كل قبيلة فيعاينوهم. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=17&tAyahNo=92&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «أَوْ تُسْقِطَ ٱلسَّمَآءَ كَمَا زَعَمْتَ عَلَيْنَا كِسَفاً أَوْ تَأْتِيَ بِٱللَّهِ وَٱلْمَلاۤئِكَةِ قَبِيلاً»: اختلفت القرّاء في قراءة قوله: «كِسَفاً» فقرأته عامَّة قرّاء الكوفة والبصرة بسكون السين، بمعنى: أو تسقط السماء كما زعمت علينا كِسفاً، وذلك أن الكِسْف في كلام العرب: جمع كِسْفة، وهو جمع الكثير من العدد للجنس، كما تجمع السِّدْرة بسِدْر، والتمرة بتمر، فحُكي عن العرب سماعاً: أعطني كِسْفة من هذا الثوب: أي قطعة منه، يقال منه: جاءنا بثريد كِسْف: أي قطع خبز. وقد يحتمل إذا قرىء كذلك «كِسْفاً» بسكون السين أن يكون مرادا به المصدر من كسف. فأما الكِسَفُ بفتح السين، فإنه جمع ما بين الثلاث إلى العشر، يقال: كِسَفة واحدة، وثلاث كِسَف، وكذلك إلى العشر. وينقل في المقطع أقوالاً عن ابن عباس ومجاهد وقتادة وابن جريج.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=17&tAyahNo=92&tDisplay=yes&UserProfile=0&LanguageId=1

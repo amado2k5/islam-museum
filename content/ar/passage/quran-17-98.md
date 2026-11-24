@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-6-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن ما وُصف من حشرهم وعذابهم جزاء كفرهم بآيات الله وبقولهم إنكاراً للبعث: أئذا كنا عظاماً ورفاتاً أئنا لمبعوثون. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=17&tAyahNo=98&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «ذَلِكَ جَزَآؤُهُم بِأَنَّهُمْ كَفَرُواْ بِآيَاتِنَا وَقَالُواْ أَءِذَا كُنَّا عِظَاماً وَرُفَاتاً أَءِنَّا لَمَبْعُوثُونَ خَلْقاً جَدِيداً»: هذا الذي وصفنا من فعلنا يوم القيامة بهؤلاء المشركين، ما ذكرت أن نفعل بهم من حشرهم على وجوههم عمياً وبكماً وصماً، وإصلائنا إياهم النار على ما بيَّنا من حالتهم فيها ثوابَهم بكفرهم في الدنيا بآياتنا، يعني بأدلته وحججه، وهم رسله الذين دعوهم إلى عبادته، وإفرادهم إياه بالألوهة دون الأوثان والأصنام، وبقولهم إذا أُمروا بالإيمان بالميعاد، وبثواب الله وعقابه في الآخرة «أئِذَا كُنَّا عِظاماً» بالية «وَرُفاتاً» قد صرنا تراباً «أئِنَّا لَمَبْعُوثُونَ خَلْقاً جَدِيداً» يقولون: نُبعث بعد ذلك خلقاً جديداً كما ابتدأناه أوّل مرّة في الدنيا استنكاراً منهم لذلك، واستعظاماً وتعجباً من أن يكون ذلك.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=17&tAyahNo=98&tDisplay=yes&UserProfile=0&LanguageId=1

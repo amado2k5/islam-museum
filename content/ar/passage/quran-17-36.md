@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-5-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يعرض الطبري اختلاف أهل التأويل في «ولا تقف ما ليس لك به علم»، فقال بعضهم لا تقل ما ليس لك به علم، وينقل عن ابن عباس وغيره، ثم يبيّن أن السمع والبصر والفؤاد كل منها يُسأل صاحبه عنه. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=17&tAyahNo=36&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَلاَ تَقْفُ مَا لَيْسَ لَكَ بِهِ عِلْمٌ إِنَّ ٱلسَّمْعَ وَٱلْبَصَرَ وَٱلْفُؤَادَ كُلُّ أُولٰئِكَ كَانَ عَنْهُ مَسْؤُولاً»: اختلف أهل التأويل في تأويل قوله: «وَلا تَقْفُ ما لَيْسَ لَكَ بِهِ عِلْمٌ» فقال بعضهم: معناه: ولا تقل ما ليس لك به علم. وينقل في المقطع أقوالاً عن ابن عباس ومجاهد وقتادة وابن جريج.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=17&tAyahNo=36&tDisplay=yes&UserProfile=0&LanguageId=1

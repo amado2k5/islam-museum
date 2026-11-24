@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-5-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن من أراد الآخرة وعمل لها عملها الذي هو طاعة الله ورضاه وهو مؤمن، فأولئك كان سعيهم مشكوراً عند الله. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=17&tAyahNo=19&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَمَنْ أَرَادَ ٱلآخِرَةَ وَسَعَىٰ لَهَا سَعْيَهَا وَهُوَ مُؤْمِنٌ فَأُولَئِكَ كَانَ سَعْيُهُم مَّشْكُوراً»: من أراد الآخرة وإياها طلب، ولها عمل عملها، الذي هو طاعة الله وما يرضيه عنه. وأضاف السعي إلى الهاء والألف، وهي كناية عن الآخرة، فقال: وسعى للآخرة سعى الآخرة، ومعناه: وعمل لها عملها لمعرفة السامعين بمعنى ذلك، وأن معناه: وسعى لها سعيه لها وهو مؤمن، يقول: هو مؤمن مصدّق بثواب الله، وعظيم جزائه على سعيه لها، غير مكذّب به تكذيب من أراد العاجلة، يقول الله جلّ ثناؤه: «فَأوُلئِكَ» يعني: فمن فعل ذلك «كانَ سَعْيُهُمْ» يعني عملهم بطاعة الله «مَشْكُوراً» وشكر الله إياهم على سعيهم ذلك حسن جزائه لهم على أعمالهم الصالحة، وتجاوزه لهم عن سيئها برحمته. وينقل في المقطع أقوالاً عن قتادة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=17&tAyahNo=19&tDisplay=yes&UserProfile=0&LanguageId=1

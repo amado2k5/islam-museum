@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-5-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن الله ينزّه نفسه عما يصفه به المشركون علواً كبيراً، وأن السموات السبع والأرض ومن فيهن يسبّحون له وكل شيء يسبّح بحمده ولكن الناس لا يفقهون تسبيحهم، وأنه كان حليماً غفوراً. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=17&tAyahNo=43&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 43 إلى 44 مقطعاً واحداً. يفسّر قوله «سُبْحَانَهُ وَتَعَالَىٰ عَمَّا يَقُولُونَ عُلُوّاً كَبِيراً»: وهذا تنزيه من الله تعالى ذكره نفسه عما وصفه به المشركون، الجاعلون معه آلهة غيره، المضيفون إليه البنات، فقال: تنزيها لله وعلوّا له عما تقولون أيها القوم، من الفرية والكذب، فإن ما تضيفون إليه من هذه الأمور ليس من صفته، ولا ينبغي أن يكون له صفة. كما: وعن قتادة «سُبْحانَهُ وَتَعالى عَمَّا يَقُولُونَ عُلُوّاً كَبِيراً» يسبح نفسه إذ قيل عليه البهتان. وينقل في المقطع أقوالاً عن قتادة والضحاك والحسن وعكرمة وزيد بن أسلم وإبراهيم.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=17&tAyahNo=43&tDisplay=yes&UserProfile=0&LanguageId=1

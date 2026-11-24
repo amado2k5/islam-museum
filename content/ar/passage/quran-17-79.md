@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-5-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن الله أمر نبيه أن يسهر من الليل بعد نومة بالقرآن نافلة له خالصة دون أمته، ويبيّن أن التهجد هو التيقظ بعد النوم، وأن الله عسى أن يبعثه مقاماً محموداً. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=17&tAyahNo=79&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَمِنَ ٱلْلَّيْلِ فَتَهَجَّدْ بِهِ نَافِلَةً لَّكَ عَسَىٰ أَن يَبْعَثَكَ رَبُّكَ مَقَاماً مَّحْمُوداً»: يقول تعالى ذكره لنبيه محمد ومن الليل فاسهر بعد نومة يا محمد بالقرآن، نافلة لك خالصة دون أمتك. والتهجد: التيقظ والسهر بعد نومة من الليل. وأما الهجود نفسه: فالنوم، كما قال الشاعر:ألا طَرَقْتَنا والرّفاقُ هُجُودُ فَباتَتْ بِعُلاَّتِ النَّوَالِ تَجُودُ وقال الحُطَيئة:ألا طَرَقَتْ هِنْدُ الهُنُودِ وُصحْبَتِي بِحَوْرَانَ حَوَرَانِ الجُنُودِ هُجُودُ وينقل في المقطع أقوالاً عن مجاهد والحسن والأعمش وإبراهيم.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=17&tAyahNo=79&tDisplay=yes&UserProfile=0&LanguageId=1

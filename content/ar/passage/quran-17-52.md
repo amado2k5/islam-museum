@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-5-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن البعث قريب يوم يدعوهم الله فيستجيبون بحمده ويظنون أنهم لم يلبثوا في الدنيا إلا قليلاً، ثم يأمر الله نبيه أن يأمر عباده بأن يقولوا التي هي أحسن لأن الشيطان ينزغ بينهم. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=17&tAyahNo=52&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 52 إلى 53 مقطعاً واحداً. يفسّر قوله «يَوْمَ يَدْعُوكُمْ فَتَسْتَجِيبُونَ بِحَمْدِهِ وَتَظُنُّونَ إِن لَّبِثْتُمْ إِلاَّ قَلِيلاً»: قل عسى أن يكون بعثكم أيها المشركون قريباً، ذلك يوم يدعوكم ربكم بالخروج من قبوركم إلى موقف القيامة، «فتستجيبون بحمده». اختلف أهل التأويل في معنى قوله: «فتَسْتَجِيبُونَ بِحَمْدِهِ» فقال بعضهم: فتستجيبون بأمره. وينقل في المقطع أقوالاً عن ابن عباس وقتادة والحسن وابن جريج.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=17&tAyahNo=52&tDisplay=yes&UserProfile=0&LanguageId=1

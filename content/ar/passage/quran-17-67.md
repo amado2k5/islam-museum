@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-5-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أنه إذا أصابتهم الشدة في البحر ضلّ عنهم من يدعون من دون الله من الأنداد والآلهة فلم يغثهم إلا الله، فلما نجّاهم إلى البر أعرضوا، وكان الإنسان كفوراً. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=17&tAyahNo=67&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَإِذَا مَسَّكُمُ ٱلْضُّرُّ فِي ٱلْبَحْرِ ضَلَّ مَن تَدْعُونَ إِلاَّ إِيَّاهُ فَلَمَّا نَجَّاكُمْ إِلَى ٱلْبَرِّ أَعْرَضْتُمْ وَكَانَ ٱلإِنْسَانُ كَفُوراً»: وإذا نالتكم الشدّة والجهد في البحر ضلّ من تدعون: يقول: فقد تمّ من تدعون من دون الله من الأنداد والآلهة، وجار عن طريقكم فلم يغثكم، ولم تجدوا غير الله مغيثاً يغيثكم دعوتموه، فلما دعوتموه وأغاثكم، وأجاب دعاءكم ونجاكم من هول ما كنتم فيه في البحر، أعرضتم عما دعاكم إليه ربكم من خلع الأنداد، والبراءة من الآلهة، وإفراده بالألوهة كفرا منكم بنعمته «وكانَ الإنْسانُ كَفُوراً» يقول: وكان الإنسان إذا جحد لنعم ربه.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=17&tAyahNo=67&tDisplay=yes&UserProfile=0&LanguageId=1

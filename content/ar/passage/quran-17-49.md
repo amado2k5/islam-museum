@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-5-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يذكر الطبري أن مشركي قريش قالوا مستبعدين البعث: أإذا كنا عظاماً ورفاتاً أي تراباً في القبور أإنا لمبعوثون خلقاً جديداً، ويورد تفسير الرفات عن السلف. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=17&tAyahNo=49&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَقَالُوۤاْ أَءِذَا كُنَّا عِظَاماً وَرُفَاتاً أَءِنَّا لَمَبْعُوثُونَ خَلْقاً جَدِيداً»: يقول تعالى ذكره مخبراً عن قيل هؤلاء الذين لا يؤمنون بالآخرة من مشركي قريش، وقالوا بعنتهم: «أئِذَا كُنَّا عِظاماً» لم نتحطم ولم نتكسَّر بعد مماتنا وبلانا «وَرُفاتاً» يعني تراباً في قبورنا، كما: قال: جميعا عن ابن أبي نجيح، عن مجاهد، يقول الله: «رُفاتاً» قال: تراباً. وقال: ثني حجاج، عن ابن جريج، عن مجاهد، مثله. وقال: ثني معاوية، عن عليّ، عن ابن عباس، في قوله: وَقالُوا «أئذَا كُنَّا عِظاماً وَرُفاتاً» يقول: غُباراً، ولا واحد للرُّفات، وهو بمنزلة الدُّقاق والحُطَام، يقال منه: رُفِتَ يُرْفَت رَفْتاً فهو مرفوت: إذا صُيِّر كالحُطام والرُّضاض. وينقل في المقطع أقوالاً عن ابن عباس ومجاهد وابن جريج.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=17&tAyahNo=49&tDisplay=yes&UserProfile=0&LanguageId=1

@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-5-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يذكر الطبري أن الله أمر نبيه أن يقول ربّ أدخلني مدخل صدق وأخرجني مخرج صدق واجعل لي من لدنك سلطاناً نصيراً، ويعرض اختلاف أهل التأويل في معنى مدخل الصدق ومخرج الصدق. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=17&tAyahNo=80&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَقُل رَّبِّ أَدْخِلْنِي مُدْخَلَ صِدْقٍ وَأَخْرِجْنِي مُخْرَجَ صِدْقٍ وَٱجْعَل لِّي مِن لَّدُنْكَ سُلْطَاناً نَّصِيراً»: يقول تعالى ذكره لنبيه: وقل يا محمد يا ربّ أدخلني مدخل صدق. واختلف أهل التأويل في معنى مُدْخل الصدق الذي أمره الله نبيه أن يرغب إليه في أن يدخله إياه، وفي مخرج الصدق الذي أمره أن يرغب إليه في أن يخرجه إياه، فقال بعضهم: عَنَى بمُدْخل الصِّدق: مُدْخل رسول الله المدينة، حين هاجر إليها، ومُخْرج الصدق: مُخْرجه من مكة، حين خرج منها مهاجرا إلى المدينة. وينقل في المقطع أقوالاً عن ابن عباس ومجاهد وقتادة والحسن وابن زيد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=17&tAyahNo=80&tDisplay=yes&UserProfile=0&LanguageId=1

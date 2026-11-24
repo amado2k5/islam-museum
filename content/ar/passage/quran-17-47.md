@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-5-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن الله أعلم بما يستمع به المشركون حين يستمعون إلى النبي وهو يقرأ القرآن، وحين يتناجون فيقول الظالمون إنما تتبعون رجلاً مسحوراً. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=17&tAyahNo=47&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «نَّحْنُ أَعْلَمُ بِمَا يَسْتَمِعُونَ بِهِ إِذْ يَسْتَمِعُونَ إِلَيْكَ وَإِذْ هُمْ نَجْوَىٰ إِذْ يَقُولُ ٱلظَّالِمُونَ إِن تَتَّبِعُونَ إِلاَّ رَجُلاً مَّسْحُوراً»: نحن أعلم يا محمد بما يستمع به هؤلاء الذين لا يؤمنون بالآخرة من مشركي قومك، إذ يستمعون إليك وأنت تقرأ كتاب الله «وَإذْ هُمْ نَجْوَى». وكان بعض أهل العربية من أهل البصرة يقول: النجوى: فعلهم، فجعلهم هم النجوى، كما يقول: هم قوم رضا، وإنما رضا: فعلهم. وقوله «إذْ يَقُولُ الظَّالِمُونَ إنْ تَتَّبِعُونَ إلاَّ رَجُلاً مَسْحُوراً» يقول: حين يقول المشركون بالله ما تتبعون إلا رجلاً مسحوراً. وعنى فيما ذُكِر بالنجوى: الذين تشاوروا في أمر رسول الله في دار النَّدوة. وينقل في المقطع أقوالاً عن مجاهد وقتادة وابن جريج.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=17&tAyahNo=47&tDisplay=yes&UserProfile=0&LanguageId=1

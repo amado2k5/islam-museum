@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-5-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يخاطب الطبري النبي بأن ينظر كيف ضربوا له الأمثال بقولهم مسحور وشاعر ومجنون، فضلّوا عن قصد السبيل فلا يهتدون إلى حق. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=17&tAyahNo=48&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «ٱنْظُرْ كَيْفَ ضَرَبُواْ لَكَ ٱلأَمْثَالَ فَضَلُّواْ فَلاَ يَسْتَطِيعْونَ سَبِيلاً»: انظر يا محمد بعين قلبك فاعتبر كيف مثَّلوا لك الأمثال، وشبهوا لك الأشباه، بقولهم: هو مسحور، وهو شاعر، وهو مجنون «فَضَلُّوا» يقول: فجاروا عن قصد السبيل بقيلهم ما قالوا «فَلا يَسْتَطِيعُونَ سَبِيلاً» يقول: فلا يهتدون لطريق الحقّ لضلالهم عنه وبُعدهم منه، وأن الله قد خذلهم عن إصابته، فهم لا يقدرون على المَخْرَج مما هم فيه من كفرهم بتوفقُّهم إلى الإيمان به، كما: وعن ابن أبي نجيح، عن مجاهد ووعن ابن أبي نجيح، عن مجاهد «فَلا يَسْتَطِيعُونَ سَبِيلاً» قال: مخرجا، الوليد بن المغيرة وأصحابه أيضاً. وقال: ثني حجاج، عن ابن جريج، عن مجاهد «انْظُرْ كَيْفَ ضَرَبُوا لَكَ الأمْثالَ فَضَلُّوا فَلا يَسْتَطِيعُونَ سَبِيلاً» مخرجا الوليد بن المغيرة وأصحابه. وينقل في المقطع أقوالاً عن مجاهد وابن جريج.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=17&tAyahNo=48&tDisplay=yes&UserProfile=0&LanguageId=1

@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-6-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يشرح الطبري أن المعنى: لو شاء الله لأذهب القرآن من صدر النبي فلا يجد من يقوم له بذلك أو ينصره. وينقل عن ابن مسعود أن المراد رفعه من صدور حفظته. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=17&tAyahNo=86&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَلَئِن شِئْنَا لَنَذْهَبَنَّ بِٱلَّذِي أَوْحَيْنَا إِلَيْكَ ثُمَّ لاَ تَجِدُ لَكَ بِهِ عَلَيْنَا وَكِيلاً»: يقول ذكره: ولئن شئنا لنذهبنّ بالذي آتيناك من العلم الذي أوحينا إليك من هذا القرآن لنذهبنّ به، فلا تعلمه، ثم لا تجد لنفسك بما نفعل بك من ذلك وكيلاً، يعني: قيِّماً يقوم لك، فيمنعنا من فعل ذلك بك، ولا ناصراً ينصرك، فيحول بيننا وبين ما نريد بك، قال: وكان عبد الله بن مسعود يتأوّل معنى ذهاب الله عزّ وجلّ به رفعه من صدور قارئيه. ذكر الرواية بذلك: عن عبد العزيز بن رفيع، عن بُنْدار، عن معقل، قال: قلت لعبد الله، وذكر أنه يُسرى على القرآن: كيف وقد أثبتناه في صدورنا ومصاحفنا؟ قال: يُسرى عليه ليلاً، فلا يبقى منه في مصحف ولا في صدر رجل، ثم قرأ عبد الله: «وَلَئِنْ شِئْنا لَنَذْهَبنَّ بالَّذِي أوْحَيْنا إلَيْكَ».
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=17&tAyahNo=86&tDisplay=yes&UserProfile=0&LanguageId=1

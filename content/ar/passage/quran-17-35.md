@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-5-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن الله أمر بإيفاء الكيل إذا كاله الناس لغيرهم دون بخس، وبالوزن بالميزان المستقيم، وأن ذلك خير في الدنيا وأحسن عاقبة في الآخرة. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=17&tAyahNo=35&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَأَوْفُوا ٱلْكَيْلَ إِذا كِلْتُمْ وَزِنُواْ بِٱلقِسْطَاسِ ٱلْمُسْتَقِيمِ ذٰلِكَ خَيْرٌ وَأَحْسَنُ تَأْوِيلاً»: «وَ» قضى أن «أوْفُوا الكَيْلَ» للناس «إذَا كِلْتُمْ» لهم حقوقهم قِبَلَكم، ولا تبخَسُوهم «وَزِنُوا بالقِسْطاسِ المُسْتَقِيمِ» يقول: وقَضَى أو زنوا أيضاً إذا وزنتم لهم بالميزان المستقيم، وهو العدل الذي لا اعوجاج فيه، ولا دَغَل، ولا خديعة. وقد اختلف أهل التأويل في معنى القسطاس، فقال بعضهم: هو القبان. وينقل في المقطع أقوالاً عن مجاهد وقتادة والحسن وابن جريج.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=17&tAyahNo=35&tDisplay=yes&UserProfile=0&LanguageId=1

@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-5-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يشرح الطبري في الموضع نفسه أن كل ما نُهي عنه في الآيات السابقة من الأعمال السيئة مكروه عند الله، وأن النهي عن الخيلاء ختام تلك الأحكام. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=17&tAyahNo=38&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 38 إلى 39 مقطعاً واحداً. يفسّر قوله «وَلاَ تَمْشِ فِي ٱلأَرْضِ مَرَحاً إِنَّكَ لَن تَخْرِقَ ٱلأَرْضَ وَلَن تَبْلُغَ ٱلْجِبَالَ طُولاً»: ولا تمش في الأرض مختالاً مستكبراً «إنَّكَ لَنْ تَخْرِقَ الأرْضَ» يقول: إنك لن تقطع الأرض باختيالك، كما قال رُؤْبة:وقاتِمِ الأعماقِ خاوِي المُخْتَرَق يعني بالمخترق: المقطع «وَلَنْ تَبلُغَ الجِبالَ طُولاً» بفخرك وكبرك، وإنما هذا نهي من الله عباده عن الكبر والفخر والخُيَلاء، وتقدم منه إليهم فيه معرِّفهم بذلك أنهم لا ينالون بكبرهم وفخارهم شيئا يقصر عنه غيرهم. وينقل في المقطع أقوالاً عن قتادة وابن جريج.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=17&tAyahNo=38&tDisplay=yes&UserProfile=0&LanguageId=1

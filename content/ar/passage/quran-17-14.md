@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-5-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إنه يقال للإنسان يوم القيامة اقرأ كتاب عملك، وكفى بنفسك اليوم عليك حسيباً، أي محاسباً يشهد على ما عملت. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=17&tAyahNo=14&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «ٱقْرَأْ كِتَٰبَكَ كَفَىٰ بِنَفْسِكَ ٱلْيَوْمَ عَلَيْكَ حَسِيباً»: «ونُخرِجُ لَهُ يَوْمَ القِيامَةِ كِتاباً يَلقاهُ مَنْشُوراً» فيقال له: «اقرأْ كِتابَكَ كَفَى بِنَفسكَ اليَوْمَ عَلَيكَ حَسِيباً» فترك ذكر قوله: فنقول له، اكتفاء بدلالة الكلام عليه. وعنى بقوله: «اقرأْ كِتابَكَ»: اقرأ كتاب عملك الذي عملته في الدنيا، الذي كان كاتبانا يكتبانه، ونحصيه عليك «كَفَى بَنَفسِكَ اليَوْمَ عَلَيكَ حَسِيباً» يقول: حسبك اليوم نفسك عليك حاسباً يحسب عليك أعمالك، فيحصيها عليك، لا نبتغي عليك شاهداً غيرها، ولا نطلب عليك محصياً سواها. وعن قتادة «اقرأ كِتابَكَ كَفَى بِنَفسِكَ اليَوْمَ عَلَيكَ حَسِيباً» سيقرأ يومئذٍ من لم يكن قارئاً في الدنيا. وينقل في المقطع أقوالاً عن قتادة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=17&tAyahNo=14&tDisplay=yes&UserProfile=0&LanguageId=1

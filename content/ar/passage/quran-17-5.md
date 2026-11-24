@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-5-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يشرح الطبري أنه إذا جاء وعد المرة الأولى من إفسادهم بعث الله عليهم عباداً له أولي بأس شديد فتخللوا الديار، وكان وعداً مفعولاً، ويعرض أقوال أهل التأويل في تعيين هؤلاء العباد. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=17&tAyahNo=5&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 5 إلى 6 مقطعاً واحداً. يفسّر قوله «وَقَضَيْنَآ إِلَىٰ بَنِي إِسْرَائِيلَ فِي ٱلْكِتَابِ لَتُفْسِدُنَّ فِي ٱلأَرْضِ مَرَّتَيْنِ وَلَتَعْلُنَّ عُلُوّاً كَبِيراً»: وقد بيَّنا فيما مضى قبل أن معنى القضاء: الفراغ من الشيء، ثم يستعمل في كلّ مفروغ منه، فتأويل الكلام في هذا الموضع: وفرغ ربك إلى بني إسرائيل فيما أنزل من كتابه على موسى بإعلامه إياهم، وإخباره لهم «لَتُفْسِدُنَّ فِي الأرْضِ مَرَّتَيْنِ» يقول: لتعصنّ الله يا معشر بني إسرائيل ولتخالفنّ أمره في بلاده مرّتين «وَلَتَعْلُنَّ عَلُوًّا كَبِيراً» يقول: ولتستكبرنّ على الله باجترائكم عليه استكباراً شديداً. وينقل في المقطع أقوالاً عن ابن عباس ومجاهد وقتادة وابن زيد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=17&tAyahNo=5&tDisplay=yes&UserProfile=0&LanguageId=1

@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-5-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يفسّر الطبري «قضينا إلى بني إسرائيل» بأن الله أعلمهم في الكتاب الذي أنزله على موسى أنهم سيفسدون في الأرض مرتين ويستكبرون استكباراً كبيراً، ويورد قول من حمله على الإعلام وقول من حمله على القضاء في أم الكتاب عن ابن عباس وقتادة وابن زيد. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=17&tAyahNo=4&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 4 إلى 5 مقطعاً واحداً. يفسّر قوله «وَقَضَيْنَآ إِلَىٰ بَنِي إِسْرَائِيلَ فِي ٱلْكِتَابِ لَتُفْسِدُنَّ فِي ٱلأَرْضِ مَرَّتَيْنِ وَلَتَعْلُنَّ عُلُوّاً كَبِيراً»: وقد بيَّنا فيما مضى قبل أن معنى القضاء: الفراغ من الشيء، ثم يستعمل في كلّ مفروغ منه، فتأويل الكلام في هذا الموضع: وفرغ ربك إلى بني إسرائيل فيما أنزل من كتابه على موسى بإعلامه إياهم، وإخباره لهم «لَتُفْسِدُنَّ فِي الأرْضِ مَرَّتَيْنِ» يقول: لتعصنّ الله يا معشر بني إسرائيل ولتخالفنّ أمره في بلاده مرّتين «وَلَتَعْلُنَّ عَلُوًّا كَبِيراً» يقول: ولتستكبرنّ على الله باجترائكم عليه استكباراً شديداً. وينقل في المقطع أقوالاً عن ابن عباس ومجاهد وقتادة وابن زيد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=17&tAyahNo=4&tDisplay=yes&UserProfile=0&LanguageId=1

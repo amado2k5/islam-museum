@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-5-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يفسّر الطبري الآية بأن الله نهى عن قرب مال اليتيم بالأكل إسرافاً ومبادرة إلى كبره، بل يتصرف فيه الوصي بالتي هي أحسن حتى يبلغ اليتيم أشده، وأمر بالوفاء بالعهد لأنه كان مسؤولاً. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=17&tAyahNo=34&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَلاَ تَقْرَبُواْ مَالَ ٱلْيَتِيمِ إِلاَّ بِٱلَّتِي هِيَ أَحْسَنُ حَتَّىٰ يَبْلُغَ أَشُدَّهُ وَأَوْفُواْ بِالْعَهْدِ إِنَّ ٱلْعَهْدَ كَانَ مَسْؤُولاً»: وقضى أيضا أن لا تقربوا مال اليتيم بأكل، إسرافاً وبداراً أن يَكْبَروا، ولكن اقرَبوه بالفَعْلَة التي هي أحسن، والخَلَّة التي هي أجمل، وذلك أن تتصرّفوا فيه له بالتثمير والإصلاح والحيطة. وكان قتادة يقول في ذلك ما: وعن قتادة، قوله: «وَلا تَقْرَبُوا مالَ اليَتِيمِ إلاَّ بالَّتِي هِيَ أحْسَنُ» لما نزلت هذه الآية، اشتدّ ذلك على أصحاب رسول الله، فكانوا لا يخالطونهم في طعام أو أكل ولا غيره، فأنزل الله تبارك وتعالى«وَإن تُخالِطُوهُمْ فإخْوانُكُمْ وَاللّهُ يَعْلَمُ المُفْسِدَ مِنَ المُصْلِحِ» فكانت هذه لهم فيها رُخْصة. وينقل في المقطع أقوالاً عن قتادة وابن زيد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=17&tAyahNo=34&tDisplay=yes&UserProfile=0&LanguageId=1

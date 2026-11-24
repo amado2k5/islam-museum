@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-5-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن النبي لو ركن إلى المشركين شيئاً قليلاً فيما سألوه لأذاقه الله ضعف عذاب الحياة وضعف عذاب الممات، ثم لا يجد نصيراً. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=17&tAyahNo=75&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «إِذاً لأذَقْنَاكَ ضِعْفَ ٱلْحَيَاةِ وَضِعْفَ ٱلْمَمَاتِ ثُمَّ لاَ تَجِدُ لَكَ عَلَيْنَا نَصِيراً»: لو ركنت إلى هؤلاء المشركين يا محمد شيئاً قليلاً فيما سألوك إذن لأذقناك ضعف عذاب الحياة، وضعف عذاب الممات. وينقل في المقطع أقوالاً عن ابن عباس ومجاهد وقتادة وابن جريج.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=17&tAyahNo=75&tDisplay=yes&UserProfile=0&LanguageId=1

@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-5-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يعرض الطبري اختلاف أهل التأويل في «الإمام» الذي يُدعى به كل أناس يوم القيامة، فقال بعضهم هو نبيهم ومن كانوا يقتدون به في الدنيا، ثم يبيّن أن من أُوتي كتابه بيمينه فأولئك يقرؤون كتابهم ولا يُظلمون فتيلاً. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=17&tAyahNo=71&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «يَوْمَ نَدْعُواْ كُلَّ أُنَاسٍ بِإِمَامِهِمْ فَمَنْ أُوتِيَ كِتَابَهُ بِيَمِينِهِ فَأُوْلَٰئِكَ يَقْرَؤونَ كِتَابَهُمْ وَلاَ يُظْلَمُونَ فَتِيلاً»: اختلفت أهل التأويل في معنى الإمام الذي ذكر الله جلّ ثناؤه أنه يدعو كلّ أناس به، فقال بعضهم: هو نبيه، ومن كان يقتدي به في الدنيا ويأتمّ به. وينقل في المقطع أقوالاً عن ابن عباس ومجاهد وقتادة والحسن وابن جريج والربيع.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=17&tAyahNo=71&tDisplay=yes&UserProfile=0&LanguageId=1

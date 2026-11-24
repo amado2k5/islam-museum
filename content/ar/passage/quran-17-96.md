@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-6-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن الله كافٍ شاهداً بين النبي وقومه، وهو خبير ببصير بعباده يعلم المحقّ منهم والمبطل والمهتدي والضال، وسيجازي كلاً بما قدّم. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=17&tAyahNo=96&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «قُلْ كَفَىٰ بِٱللَّهِ شَهِيداً بَيْنِي وَبَيْنَكُمْ إِنَّهُ كَانَ بِعِبَادِهِ خَبِيراً بَصِيراً»: يقول تعالى ذكره لنبيه: قل يا محمد للقائلين لك: «أبَعَثَ اللّهُ بَشَراً رَسُولاً كَفَى باللّهِ شَهِيداً بَيْنِي وَبَيْنِكُمْ» فإنه نعم الكافي والحاكم «إنَّهُ كانَ بِعِبادِهِ خَبِيراً» يقول: إن الله بعباده ذو خبرة وعلم بأمورهم وأفعالهم، والمحقّ منهم والمُبطل، والمهْديّ والضالّ «بَصِيراً» بتدبيرهم وسياستهم وتصريفهم فيما شاء، وكيف شاء وأحبّ، لا يخفى عليه شيء من أمورهم، وهو مجازٍ جميعَهم بما قدّم عند ورودهم عليه.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=17&tAyahNo=96&tDisplay=yes&UserProfile=0&LanguageId=1

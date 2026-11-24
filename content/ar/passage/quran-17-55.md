@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-5-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن ربك أعلم بمن في السموات والأرض وبما يصلحهم لأنه خالقهم ورازقهم ومدبرهم، وقد فضّل بعض النبيين على بعض وآتى داود زبوراً. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=17&tAyahNo=55&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَرَبُّكَ أَعْلَمُ بِمَنْ فِي ٱلسَّمَٰوَٰتِ وَٱلأَرْضِ وَلَقَدْ فَضَّلْنَا بَعْضَ ٱلنَّبِيِّينَ عَلَىٰ بَعْضٍ وَآتَيْنَا دَاوُودَ زَبُوراً»: يقول تعالى ذكره لنبيه: وربك يا محمد أعلم بمن في السموات والأرض وما يصلحهم فإنه هو خالقهم ورازقهم ومدبرهم، وهو أعلم بمن هو أهل للتوبة والرحمة، ومن هو أهل للعذاب، أهدى للحقّ من سبق له مني الرحمة والسعادة، وأُضلّ من سبق له مني الشقاء والخذلان، يقول: فلا يكبرنّ ذلك عليك، فإن ذلك من فعلي بهم لتفضيلي بعض النبيين على بعض، بإرسال بعضهم إلى بعض الخلق، وبعضهم إلى الجميع، ورفعي بعضهم على بعض درجات. وينقل في المقطع أقوالاً عن قتادة وابن جريج.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=17&tAyahNo=55&tDisplay=yes&UserProfile=0&LanguageId=1

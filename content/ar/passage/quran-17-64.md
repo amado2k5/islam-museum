@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-5-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يفسّر الطبري «استفزز» بمعنى استخفّ واستجهل، ويبيّن أن الله أذن لإبليس في أن يستفزّ من استطاع من الناس بصوته ويجلب عليهم بخيله ورجله ويشاركهم في الأموال والأولاد ويعدهم، وما يعدهم الشيطان إلا غروراً. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=17&tAyahNo=64&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَٱسْتَفْزِزْ مَنِ ٱسْتَطَعْتَ مِنْهُمْ بِصَوْتِكَ وَأَجْلِبْ عَلَيْهِم بِخَيْلِكَ وَرَجِلِكَ وَشَارِكْهُمْ فِي ٱلأَمْوَالِ وَٱلأَوْلادِ وَعِدْهُمْ وَمَا يَعِدُهُمُ ٱلشَّيْطَانُ إِلاَّ غُرُوراً»: يقول تعالى ذكره بقوله «وَاسْتَفزِزْ» واستخفف واستجهل، من قولهم: استفزّ فلاناً كذا وكذا فهو يستفزّه «مَنِ اسْتَطَعْتَ مِنْهُم بِصَوتِكَ». اختلف أهل التأويل في الصوت الذي عناه جلّ ثناؤه بقوله «وَاسْتَفْزِز من اسْتَطَعْتَ مِنْهُم بِصَوتِك» فقال بعضهم: عنى به: صوت الغناء واللعب. وينقل في المقطع أقوالاً عن ابن عباس ومجاهد وقتادة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=17&tAyahNo=64&tDisplay=yes&UserProfile=0&LanguageId=1

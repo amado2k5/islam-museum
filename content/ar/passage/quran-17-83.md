@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-5-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن الله إذا أنعم على الإنسان فنجّاه مما أشرف عليه من الهلاك في البحر وأوصله إلى البر أعرض عن ذكر ربه بعدما كان به مستغيثاً، وإذا مسّه الشر كان يؤوساً. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=17&tAyahNo=83&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَإِذَآ أَنْعَمْنَا عَلَى ٱلإنْسَانِ أَعْرَضَ وَنَأَى بِجَانِبِهِ وَإِذَا مَسَّهُ ٱلشَّرُّ كَانَ يَئُوساً»: يقول تبارك وتعالى: وإذا أنعمنا على الإنسان، فنجَّيناه من رب ما هو فيه في البحر، وهو ما قد أشرف فيه عليه من الهلاك بعصوف الريح عليه إلى البرّ، وغير ذلك من نعمنا، أعرض عن ذكرنا، وقد كان بنا مستغيثاً دون كلّ أحد سوانا في حال الشدّة التي كان فيها «وَنأَي بِجانِبِهِ» يقول: وبعد منا بجانبه، يعني بنفسه، كَأَنْ لَمْ يَدْعُنَا إِلَيَ ضُرَ مَسَّهُ قبل ذلك، كما: وعن مجاهد، في قوله: «وَنأَي بِجانِبِهِ» قال: تباعد منا. وقال: ثني حجاج، عن ابن جريج، عن مجاهد، مثله. والقراءة على تصيير الهمزة في نَأَى قبل الألف، وهي اللغة الفصيحة، وبها نقرأ. وينقل في المقطع أقوالاً عن ابن عباس ومجاهد وقتادة وابن جريج.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=17&tAyahNo=83&tDisplay=yes&UserProfile=0&LanguageId=1
