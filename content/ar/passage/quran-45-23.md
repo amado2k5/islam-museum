@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-10-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يعرض الطبري اختلاف أهل التأويل في «أفرأيت من اتخذ إلهه هواه»: فقيل اتخذ دينه بهواه فلا يهوى شيئاً إلا ركبه، وقيل كان يعبد حجراً فإذا رأى ما هو أحسن منه عبده، ويورد الروايات. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=45&tAyahNo=23&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «أَفَرَأَيْتَ مَنِ ٱتَّخَذَ إِلَٰهَهُ هَوَاهُ وَأَضَلَّهُ ٱللَّهُ عَلَىٰ عِلْمٍ وَخَتَمَ عَلَىٰ سَمْعِهِ وَقَلْبِهِ وَجَعَلَ عَلَىٰ بَصَرِهِ غِشَاوَةً فَمَن يَهْدِيهِ مِن بَعْدِ ٱللَّهِ أَفَلاَ تَذَكَّرُونَ»: اختلف أهل التأويل في تأويل قوله: «أفَرأيْتَ مَنِ اتَّخَذَ إلَهَهُ هَوَاهُ» فقال بعضهم: معنى ذلك: أفرأيت من اتخذ دينه بهواه، فلا يهوى شيئاً إلا ركبه، لأنه لا يؤمن بالله، ولا يحرِّم ما حَرّمَ، ولا يحلل ما حَلَّلَ، إنما دينه ما هويته نفسه يعمل به. وينقل في المقطع أقوالاً عن ابن عباس وقتادة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=45&tAyahNo=23&tDisplay=yes&UserProfile=0&LanguageId=1

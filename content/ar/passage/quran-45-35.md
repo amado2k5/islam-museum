@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-10-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يفسّر الطبري أن ما حلّ بهم من العذاب بسبب أنهم اتخذوا آيات الله هزواً وغرّتهم الحياة الدنيا، فاليوم لا يُخرجون منها ولا هم يُستعتبون. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=45&tAyahNo=35&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «ذَلِكُم بِأَنَّكُمُ ٱتَّخَذْتُمْ ءَايَٰتِ ٱللَّهِ هُزُواً وَغَرَّتْكُمُ ٱلْحَيَاةُ ٱلدُّنْيَا فَٱلْيَوْمَ لاَ يُخْرَجُونَ مِنْهَا وَلاَ هُمْ يُسْتَعَتَبُونَ»: يقال لهم: هذا الذي حلّ بكم من عذاب الله اليوم «بِأَنَّكُم» في الدنيا «اتَّخَذْتُمْ آياتِ اللّهِ هُزُواً»، وهي حججه وأدلته وآي كتابه التي أنزلها على رسوله «هُزُواً» يعني سخرية تسخرون منها «وَغَرَّتْكُمُ الحَياةُ الدُّنْيا» يقول: وخدعتكم زينة الحياة الدنيا. فآثرتموها على العمل لما ينجيكم اليوم من عذاب الله، يقول تعالى ذكره: «فالْيَوْمَ لا يُخْرَجُونَ مِنْها» من النار «وَلا هُمْ يُسْتَعْتَبُونَ» يقول: ولا هم يردّون إلى الدنيا ليتوبوا ويراجعوا الإنابة مما عوقبوا عليه.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=45&tAyahNo=35&tDisplay=yes&UserProfile=0&LanguageId=1

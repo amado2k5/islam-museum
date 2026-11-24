@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-10-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن الذين كفروا قالوا للذين آمنوا لو كان خيراً ما سبقونا إليه، وإذ لم يهتدوا به فسيقولون هذا إفك قديم. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=46&tAyahNo=11&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَقَالَ ٱلَّذِينَ كَفَرُواْ لِلَّذِينَ آمَنُواْ لَوْ كَانَ خَيْراً مَّا سَبَقُونَآ إِلَيْهِ وَإِذْ لَمْ يَهْتَدُواْ بِهِ فَسَيَقُولُونَ هَٰذَآ إِفْكٌ قَدِيمٌ»: وقال الذين جحدوا نبوّة محمد من يهود بني إسرائيل للذين آمنوا به، لو كان تصديقكم محمداً على ما جاءكم به خيراً، ما سبقتمونا إلى التصديق به، وهذا التأويل على مذهب من تأوّل قوله:«وشَهِدَ شاهِدٌ مِنْ بَني إسْرائِيلَ عَلى مِثْلِهِ» أنه معنيّ به عبد الله بن سلام، فأما على تأويل من تأوّل أنه عُني به مشركو قريش، فإنه ينبغي أن يوجه تأويل قوله: «وَقالَ الَّذِين كَفَرُوا لِلَّذِينَ آمَنُوا لَوْ كانَ خَيْراً ما سَبَقُونا إلَيْهِ» أنه عُنِي به مشركو قريش وكذلك كان يتأوّله قتادة، وفي تأويله إياه كذلك ترك منه تأويله، قوله:«وشَهِدَ شاهِدٌ مِنْ بَني إسْرائِيلَ عَلى مِثْلِهِ» أنه معنيّ به عبد الله بن سلام. وينقل في المقطع أقوالاً عن قتادة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=46&tAyahNo=11&tDisplay=yes&UserProfile=0&LanguageId=1

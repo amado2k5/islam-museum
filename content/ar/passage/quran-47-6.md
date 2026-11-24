@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-10-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل الآيات 5 إلى 7، وخلاصتها: يبيّن الطبري أن الله سيهدي الذين قاتلوا في سبيله ويصلح بالهم ويدخلهم الجنة عرّفها لهم، وأن من ينصر الله ينصره ويثبّت أقدامه. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=47&tAyahNo=6&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 5 إلى 7 مقطعاً واحداً. يفسّر قوله «وَيُدْخِلُهُمُ ٱلْجَنَّةَ عَرَّفَهَا لَهُمْ»: ويُدخلهم الله جنته عرّفها، يقول: عرّفها وبيَّنها لهم، حتى إن الرجل ليأتي منزله منها إذا دخلها كما كان يأتي منزله في الدنيا، لا يُشْكِلُ عليه ذلك. كما: عن معمر، عن قتادة، عن أبي سعيد الخُدْريّ، قال: إذا نجَّى الله المؤمنين من النار حُبسوا على قنطرة بين الجنة والنار، فاقتصّ بعضهم من بعض مظالم كثيرة كانت بينهم في الدنيا، ثم يُؤذن لهم بالدخول في الجنة، قال: فما كان المؤمن بأدلَّ بمنزله في الدنيا منه بمنزله في الجنة حين يدخلها. وعن قتادة، قوله «وَيُدْخِلُهُمُ الجَنَّةَ عَرَّفَها لَهُمْ» قال: أي منازلهم فيها. وينقل في المقطع أقوالاً عن مجاهد وقتادة وابن زيد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=47&tAyahNo=6&tDisplay=yes&UserProfile=0&LanguageId=1

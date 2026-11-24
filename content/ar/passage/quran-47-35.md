@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-10-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن المؤمنين لا يهنوا وتدعوا إلى السلم وأنتم الأعلون والله معكم ولن يترككم أعمالكم، وينهاهم عن الضعف والجبن عن قتال المشركين، ويورد الروايات في المراد بالسلم. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=47&tAyahNo=35&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «فَلاَ تَهِنُواْ وَتَدْعُوۤاْ إِلَى ٱلسَّلْمِ وَأَنتُمُ ٱلأَعْلَوْنَ وَٱللَّهُ مَعَكُمْ وَلَن يَتِرَكُمْ أَعْمَالَكُمْ»: فلا تضعفوا أيها المؤمنون بالله عن جهاد المشركين وتجبُنوا عن قتالهم. كما: وعن ابن أبي نجيح، عن مجاهد «فَلا تَهِنُوا» قال: لا تضعفوا. قال ابن زيد، في قوله: «فَلا تَهِنُوا» لا تضعف أنت. وقوله: «وَتَدْعُوا إلى السَّلْمِ وأنْتُمُ الأعْلَوْنَ» يقول: لا تضعفوا عنهم وتدعوهم إلى الصلح والمسالمة، وأنتم القاهرون لهم والعالون عليهم «وَاللَّهُ مَعَكُمْ» يقول: والله معكم بالنصر لكم عليهم. وينقل في المقطع أقوالاً عن مجاهد وقتادة وابن زيد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=47&tAyahNo=35&tDisplay=yes&UserProfile=0&LanguageId=1

@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-10-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل الآيات 36 إلى 37، وخلاصتها: يبيّن الطبري أن الحمد لله رب السماوات ورب الأرض رب العالمين وله الكبرياء في السماوات والأرض وهو العزيز الحكيم، وأن كل نعمة منه دون ما يعبدون. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=45&tAyahNo=36&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 36 إلى 37 مقطعاً واحداً. يفسّر قوله «فَلِلَّهِ ٱلْحَمْدُ رَبِّ ٱلسَّمَٰوَٰتِ وَرَبِّ ٱلأَرْضِ رَبِّ ٱلْعَالَمِينَ»: «فَلِلَّهِ الحَمْدُ» على نِعمه وأياديه عند خلقه، فإياه فاحمدوا أيها الناس، فإن كلّ ما بكم من نعمة فمنه دون ما تعبدون من دونه من آلهة ووثن، ودون ما تتخذونه من دونه رباً، وتشركون به معه «رَبِّ السَّمَوَاتِ وَرَبِّ الأرْضِ» يقول: مالك السموات السبع، ومالك الأرضين السبع و «رَبِّ العالَمِينَ» يقول: مالك جميع ما فيهنّ من أصناف الخلق، وله الكبرياء في السموات والأرض يقول: وله العظمة والسلطان في السموات والأرض دون ما سواه من الآلهة والأنداد «وَهُوَ العَزِيزُ» في نقمته من أعدائه، القاهر كل ما دونه، ولا يقهره شيء «الحَكِيمُ» في تدبيره خلقه وتصريفه إياهم فيما شاء كيف شاء، والله أعلم.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=45&tAyahNo=36&tDisplay=yes&UserProfile=0&LanguageId=1

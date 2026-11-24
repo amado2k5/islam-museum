@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-10-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل الآيات 13 إلى 14، وخلاصتها: يفسّر الطبري أن من لم يؤمن بالله ورسوله فإنا أعتدنا للكافرين سعيراً، ولله ملك السماوات والأرض يغفر لمن يشاء ويعذب من يشاء وكان الله غفوراً رحيماً. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=48&tAyahNo=13&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 13 إلى 14 مقطعاً واحداً. يفسّر قوله «وَمَن لَّمْ يُؤْمِن بِٱللَّهِ وَرَسُولِهِ فَإِنَّآ أَعْتَدْنَا لِلْكَافِرِينَ سَعِيراً»: يقول تعالى ذكره لهؤلاء المنافقين من الأعراب، ومن لم يؤمن أيها الأعراب بالله ورسوله منكم ومن غيركم، فيصدّقه على ما أخبر به، ويقرّ بما جاء به من الحقّ من عند ربه، فإنا أعددنا لهم جميعاً سعيراً من النار تستعر عليهم في جهنم إذا وردوها يوم القيامة يقال من ذلك: سعرت النار: إذا أوقدتها، فأنا أسعرها سعراً ويقال: سعرتها أيضا إذا حرّكتها. وإنما قيل للمِسْعر مِسْعر، لأنه يحرّك به النار، ومنه قولهم: إنه لمِسْعر حرب: يراد به موقدها ومهيجها.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=48&tAyahNo=13&tDisplay=yes&UserProfile=0&LanguageId=1

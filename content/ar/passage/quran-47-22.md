@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-10-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل الآيات 22 إلى 23، وخلاصتها: يفسّر الطبري قوله فهل عسيتم إن توليتم أن تفسدوا في الأرض وتقطعوا أرحامكم أولئك الذين لعنهم الله فأصمّهم وأعمى أبصارهم. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=47&tAyahNo=22&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 22 إلى 23 مقطعاً واحداً. يفسّر قوله «فَهَلْ عَسَيْتُمْ إِن تَوَلَّيْتُمْ أَن تُفْسِدُواْ فِي ٱلأَرْضِ وَتُقَطِّعُوۤاْ أَرْحَامَكُمْ»: يقول تعالى ذكره لهؤلاء الذين وصف أنهم إذا نزلت سورة محكمة، وذُكر فيها القتال نظروا إلى رسول الله نظر المغشيّ عليه «فَهَلْ عَسَيْتُمْ» أيها القوم، يقول: فلعلكم إن توليتم عن تنزيل الله جلّ ثناؤه، وفارقتم أحكام كتابه، وأدبرتم عن محمد وعما جاءكم به «أنْ تُفْسِدُوا فِي الأرْضِ» يقول: أن تعصوا الله في الأرض، فتكفروا به، وتسفكوا فيها الدماء «وَتُقَطِّعُوا أرْحامَكُمْ» وتعودوا لما كنتم عليه في جاهليتكم من التشتت والتفرّق بعد ما قد جمعكم الله بالإسلام، وألَّف به بين قلوبكم. وينقل في المقطع أقوالاً عن قتادة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=47&tAyahNo=22&tDisplay=yes&UserProfile=0&LanguageId=1

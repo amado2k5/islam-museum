@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-10-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أنه لا أضلّ ممن يدعو من دون الله من لا يستجيب له إلى يوم القيامة وهم عن دعائهم غافلون. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=46&tAyahNo=5&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَمَنْ أَضَلُّ مِمَّن يَدْعُواْ مِن دُونِ ٱللَّهِ مَن لاَّ يَسْتَجِيبُ لَهُ إِلَىٰ يَوْمِ ٱلْقِيَامَةِ وَهُمْ عَن دُعَآئِهِمْ غَافِلُونَ»: وأيّ عبد أضلّ من عبد يدعو من دون الله آلهة لا تستجيب له إلى يوم القيامة: يقول: لا يُجيب دعاءه أبداً، لأنها حجر أو خشب أو نحو ذلك. وقوله: «وهُمْ عَنْ دُعائهِمْ غافِلُون» يقول تعالى ذكره: وآلهتهم التي يدعونهم عن دعائهم إياهم في غفلة، لأنها لا تسمع ولا تنطق، ولا تعقل. وإنما عنى بوصفها بالغفلة، تمثيلها بالإنسان الساهي عما يقال له، إذ كانت لا تفهم مما يقال لها شيئاً، كما لا يفهم الغافل عن الشيء ما غفل عنه. وإنما هذا توبيخ من الله لهؤلاء المشركين لسوء رأيهم، وقُبح اختيارهم في عبادتهم، من لا يعقل شيئاً ولا يفهم، وتركهم عبادة من جميع ما بهم من نعمته، ومن به استغاثتهم عندما ينزل بهم من الحوائج والمصائب.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=46&tAyahNo=5&tDisplay=yes&UserProfile=0&LanguageId=1

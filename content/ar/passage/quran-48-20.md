@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-10-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يعرض الطبري اختلاف أهل التأويل في المغانم الكثيرة التي وعدها الله أهل بيعة الرضوان: فقيل مغانم خيبر، وقيل مغانم الفتوح اللاحقة إلى يوم القيامة، ويورد الروايات في ذلك، وأن الله عجّل لهم هذه. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=48&tAyahNo=20&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 20 إلى 21 مقطعاً واحداً. يفسّر قوله «وَعَدَكُمُ ٱللَّهُ مَغَانِمَ كَثِيرَةً تَأْخُذُونَهَا فَعَجَّلَ لَكُمْ هَٰذِهِ وَكَفَّ أَيْدِيَ ٱلنَّاسِ عَنْكُمْ وَلِتَكُونَ آيَةً لِّلْمُؤْمِنِينَ وَيَهْدِيَكُمْ صِرَاطاً مُّسْتَقِيماً»: يقول تعالى ذكره لأهل بيعة الرضوان: «وَعَدَكُمُ اللَّهُ» أيها القوم «مَغانِمَ كَثِيرَةً تأْخُذُونَها». اختلف أهل التأويل في هذه المغانم التي ذكر الله أنه وعدها هؤلاء القوم أيّ المغانم هي، فقال بعضهم: هي كل مغنم غنمها الله المؤمنين به من أموال أهل الشرك من لدن أنزل هذه الآية على لسان نبيه. وينقل في المقطع أقوالاً عن ابن عباس ومجاهد وقتادة وابن زيد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=48&tAyahNo=20&tDisplay=yes&UserProfile=0&LanguageId=1

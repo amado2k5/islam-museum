@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-10-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أنه يُقال لهم وإذا قيل إن وعد الله حق والساعة لا ريب فيها قلتم ما ندري ما الساعة إن نظن إلا ظناً وما نحن بمستيقنين. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=45&tAyahNo=32&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَإِذَا قِيلَ إِنَّ وعْدَ ٱللَّهِ حَقٌّ وَٱلسَّاعَةُ لاَ رَيْبَ فِيهَا قُلْتُم مَّا نَدْرِي مَا ٱلسَّاعَةُ إِن نَّظُنُّ إِلاَّ ظَنّاً وَمَا نَحْنُ بِمُسْتَيْقِنِينَ»: ويقال لهم حينئذٍ: «وَإذَا قِيلَ» لكم «إنَّ وَعْدَ اللّهِ» الذي وعد عباده، أنه محييهم من بعد مماتهم، وباعثهم من قبورهم «حَقٌّ، وَالسَّاعَةُ» التي أخبرهم أنه يقيمها لحشرهم، وجمعهم للحساب والثواب على الطاعة، والعقاب على المعصية، آتية «لا رَيْبَ» فِيها يقول: لا شكّ فيها، يعني في الساعة، والهاء في قوله: «فِيها» من ذكر الساعة. ومعنى الكلام: والساعة لا ريب في قيامها، فاتقوا الله وآمنوا بالله ورسوله، واعملوا لما ينجيكم من عقاب الله فيها «قُلْتُم ما نَدْرِي ما السَّاعَةُ» تكذيباً منكم بوعد الله جلّ ثناؤه، وردًّا لخبره، وإنكاراً لقُدرته على إحيائكم من بعد مماتكم.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=45&tAyahNo=32&tDisplay=yes&UserProfile=0&LanguageId=1

@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-10-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن الله يأمر نبيه بأن يذكر لقومه هوداً أخا عاد إذ أنذر قومه بالأحقاف، وقد خلت النذر من بين يديه ومن خلفه، ويورد أقوال أهل التأويل في الأحقاف. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=46&tAyahNo=21&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَٱذْكُرْ أَخَا عَادٍ إِذْ أَنذَرَ قَوْمَهُ بِٱلأَحْقَافِ وَقَدْ خَلَتِ ٱلنُّذُرُ مِن بَيْنِ يَدَيْهِ وَمِنْ خَلْفِهِ أَلاَّ تَعْبُدُوۤاْ إِلاَّ ٱللَّهَ إِنَّيۤ أَخَافُ عَلَيْكُمْ عَذَابَ يَوْمٍ عَظِيمٍ»: واذكر يا محمد لقومك الرّادّين عليك ما جئتهم به من الحقّ هود أخا عاد، فإن الله بعثك إليهم كالذي بعثه إلى عاد، فخوّفهم أن يحلّ بهم من نقمة الله على كفرهم ما حلّ بهم إذ كذّبوا رسولنا هوداً إليهم، إذ أنذر قومه عاداً بالأحقاف. والأحقاف: جمع حقف وهو من الرمل ما استطال، ولم يبلغ أن يكون جبلاً، وإياه عنى الأعشى:فَباتَ إلى أرْطاةِ حِقْفٍ تَلُفُّهُ حرِيقُ شَمالٍ يَتْرُكُ الوَجْهَ أقْتَما واختلف أهل التأويل في الموضع الذي به هذه الأحقاف، فقال بعضهم: هي جبل بالشام. وينقل في المقطع أقوالاً عن ابن عباس ومجاهد وقتادة وابن إسحاق.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=46&tAyahNo=21&tDisplay=yes&UserProfile=0&LanguageId=1

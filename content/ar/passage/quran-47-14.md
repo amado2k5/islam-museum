@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-10-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يفسّر الطبري أن من كان على بينة من ربه كمن زُيّن له سوء عمله واتبعوا أهواءهم، فلا يستوي من يعبد على بصيرة ومن اتبع هواه. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=47&tAyahNo=14&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «أَفَمَن كَانَ عَلَىٰ بَيِّنَةٍ مِّن رَّبِّهِ كَمَن زُيِّنَ لَهُ سُوۤءُ عَمَلِهِ وَٱتَّبَعُوۤاْ أَهْوَاءَهُمْ»: «أَفَمَنْ كَانَ» على برهان وحجة وبيان «مِنْ» أمر «رَبِّهِ» والعلم بوحدانيته، فهو يعبده على بصيرة منه، بأن له ربًّا يجازيه على طاعته إياه الجنة، وعلى إساءته ومعصيته إياه النار، «كمَنْ زُيِّنَ لَه سُوءُ عَمَلِهِ» يقول: كمن حسَّن له الشيطان قبيح عمله وسيئه، فأراه جميلاً، فهو على العمل به مقيم، «واتَّبَعُوا أهْوَاءَهُمْ» واتبعوا ما دعتهم إليه أنفسهم من معصية الله، وعبادة الأوثان من غير أن يكون عندهم بما يعملون من ذلك برهان وحجة. وقيل: إن الذي عُني بقوله: «أفمَنْ كانَ على بَيِّنَةٍ مِنْ رَبِّهِ» نبينا، وإن الذي عُنِي بقوله: «كمَنْ زُيِّنَ لَهُ سُوءُ عَمَلِهِ» هم المشركون.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=47&tAyahNo=14&tDisplay=yes&UserProfile=0&LanguageId=1

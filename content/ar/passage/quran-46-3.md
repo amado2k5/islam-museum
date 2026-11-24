@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-10-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل الآيات 1 إلى 3، وخلاصتها: يحيل الطبري على ما سبق في «حم»، ثم يفسّر أن الله ما خلق السماوات والأرض وما بينهما إلا بالحق وأجل مسمى، والذين كفروا عمّا أُنذروا معرضون، وتضم الصفحة الآيات الثلاث الأولى من سورة الأحقاف. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=46&tAyahNo=3&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 3 إلى 5 مقطعاً واحداً. يفسّر قوله «حمۤ»: قد تقدّم بيانُنا في معنى قوله: «حم* تَنْزِيلُ الكِتابِ» بما أغنى عن إعادته في هذا الموضع. وقوله: «ما خَلَقْنا السَّمَوَاتِ والأرْضَ وَما بَيْنَهُما إلاَّ بالحَقّ» يقول تعالى ذكره: ما أحدوما بينهما من أصناف العالم إلا بالحقّ، يعني: إلا لإقامة الحقّ والعدل في الخلق. وقوله: «وأجَلٍ مُسَمًّى» يقول: وإلاّ بأجل لكل ذلك معلوم عنده يفنيه إذا هو بلغه، ويعدمه بعد أن كان موجوداً بإيجاده إياه. وقوله: «وَالَّذِينَ كَفَرُوا عَمَّا أُنْذِرُوا مُعْرِضُونَ» يقول تعالى ذكره: والذين جحدوا وحدانية الله عن إنذار الله إياهم معرضون، لا يتعظون به، ولا يتفكرون فيعتبرون.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=46&tAyahNo=3&tDisplay=yes&UserProfile=0&LanguageId=1

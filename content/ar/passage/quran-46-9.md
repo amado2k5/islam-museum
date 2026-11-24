@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-10-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن النبي يُؤمر بأن يقول ما كنت بدعاً من الرسل أي أول رسول، وما أدري ما يُفعل بي ولا بكم إن أتبع إلا ما يوحى إلي وما أنا إلا نذير مبين، ويورد أقوال أهل التأويل في معنى ما لا يدريه. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=46&tAyahNo=9&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «قُلْ مَا كُنتُ بِدْعاً مِّنَ ٱلرُّسُلِ وَمَآ أَدْرِي مَا يُفْعَلُ بِي وَلاَ بِكُمْ إِنْ أَتَّبِعُ إِلاَّ مَا يُوحَىٰ إِلَيَّ وَمَآ أَنَاْ إِلاَّ نَذِيرٌ مُّبِينٌ»: قل يا محمد لمشركي قومك من قريش «ما كُنْتُ بِدْعا مِنَ الرُّسُل» يعني: ما كنت أوّل رسل الله التي أرسلها إلى خلقه، قد كان من قبلي له رسل كثيرة أُرسلت إلى أمم قبلكم يقال منه: هو بدع في هذا الأمر، وبديع فيه، إذا كان فيه أوّل. ومن البدع قول عديّ بن زيدفَلا أنا بِدْعٌ مِنْ حَوَادِثَ تَعْتَرِي رِجالاً عَرَتْ مِنْ بَعْدِ بُؤْسَي وأسْعُدِ ومن البديع قول الأحوص:فَخَرَتْ فانْتَمَتْ فقُلْتُ انْظُرِيني ليسَ جَهْلٌ أتَيْتِهِ بِبَدِيعِ يعني بأوّل، يقال: هو بدع من قوم أبداع. وينقل في المقطع أقوالاً عن ابن عباس ومجاهد وقتادة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=46&tAyahNo=9&tDisplay=yes&UserProfile=0&LanguageId=1

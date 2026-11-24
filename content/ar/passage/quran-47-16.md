@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-10-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن من الكفار والمنافقين من يستمع إليك حتى إذا خرجوا من عندك قالوا للذين أوتوا العلم ماذا قال آنفاً أولئك الذين طبع الله على قلوبهم واتبعوا أهواءهم. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=47&tAyahNo=16&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَمِنْهُمْ مَّن يَسْتَمِعُ إِلَيْكَ حَتَّىٰ إِذَا خَرَجُواْ مِنْ عِندِكَ قَالُواْ لِلَّذِينَ أُوتُواْ ٱلْعِلْمَ مَاذَا قَالَ آنِفاً أُوْلَٰئِكَ ٱلَّذِينَ طَبَعَ ٱللَّهُ عَلَىٰ قُلُوبِهِمْ وَٱتَّبَعُوۤاْ أَهْوَآءَهُمْ»: ومن هؤلاء الكفار يا محمد «من يَسْتَمِع إِلَيْكَ» وهو المنافِق، فيستمع ما تقول فلا يعيه ولا يفهمه، تهاوناً منه بما تتلو عليه من كتاب ربك، وتغافلاً عما تقوله، وتدعو إليه من الإيمان، «حَتَّى إِذَا خَرَجَوُا مِنْ عِنْدِكَ» قالوا إعلاماً منهم لمن حضر معهم مجلسك من أهل العلم بكتاب الله، وتلاوتك عليهم ما تلوت، وقِيلك لهم ما قلت إنهم لن يُصْغوا أسماعهم لقولك وتلاوتك «ماذَا قالَ» لنا محمد «آنِفاً»؟ وينقل في المقطع أقوالاً عن ابن عباس وقتادة وابن زيد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=47&tAyahNo=16&tDisplay=yes&UserProfile=0&LanguageId=1

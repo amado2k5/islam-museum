@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-10-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يفسّر الطبري قوله إنا فتحنا لك فتحاً مبيناً بأن الله حكم له وقضى له على من خالفه من كفار قومه، ويعرض اختلاف أهل التأويل في هذا الفتح: فقيل فتح مكة، وقيل صلح الحديبية، ويورد الروايات في ذلك ويبيّن ما يراه الأولى. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=48&tAyahNo=1&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 1 إلى 3 مقطعاً واحداً. يفسّر قوله «إِنَّا فَتَحْنَا لَكَ فَتْحاً مُّبِيناً»: يعني بقوله تعالى ذكره لنبيه محمد «إنَّا فَتَحْنا لَكَ فَتْحاً مُبِيناً» يقول: إنا حكمنا لك يا محمد حكماً لمن سمعه أو بلغه على من خالفك وناصبك من كفار قومك، وقضينا لك عليهم بالنصر والظفر، لتشكر ربك، وتحمده على نعمته بقضائه لك عليهم، وفتحه ما فتح لك، ولتسبحه وتستغفره، فيغفر لك بفعالك ذلك ربك، ما تقدّم من ذنبك قبل فتحه لك ما فتح، وما تأخَّر بعد فتحه لك ذلك ما شكرته واستغفرته.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=48&tAyahNo=1&tDisplay=yes&UserProfile=0&LanguageId=1

@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-10-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن الله يحييكم ثم يميتكم ثم يجمعكم إلى يوم القيامة لا ريب فيه ولكن أكثر الناس لا يعلمون. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=45&tAyahNo=26&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «قُلِ ٱللَّهُ يُحْيِيكُمْ ثُمَّ يُمِيتُكُمْ ثُمَّ يَجْمَعُكُمْ إِلَىٰ يَوْمِ ٱلْقِيَامَةِ لاَ رَيْبَ فِيهِ وَلَٰكِنَّ أَكْثَرَ ٱلنَّاسِ لاَ يَعْلَمُونَ»: يقول تعالى ذكره لنبيه محمد قل يا محمد لهؤلاء المشركين المكذّبين بالبعث، القائلين لك ائتنا بآبائنا إن كنت صادقاً: الله أيها المشركون يحييكم ما شاء أن يحييكم في الدنيا، ثم يميتكم فيها إذا شاء، ثم يجمعكم إلى يوم القيامة، يعني أنه يجمعكم جميعاً أوّلكم وآخركم، وصغيركم وكبيركم «إلى يوم القيامة» يقول: ليوم القيامة، يعني أنه يجمعكم جميعاً أحياء ليوم القيامة «لا رَيْبَ فِيهِ» يقول: لا شكّ فيه، يقول: فلا تشكوا في ذلك، فإن الأمر كما وصفت لكم «وَلَكِنَّ أكْثَرَ النَّاسَ لا يَعْلَمُونَ» يقول: ولكن أكثر الناس الذين هم أهل تكذيب بالبعث، لا يعلمون حقيقة ذلك، وأن الله محييهم من بعد مماتهم.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=45&tAyahNo=26&tDisplay=yes&UserProfile=0&LanguageId=1

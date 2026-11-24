@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-10-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن آيات الله إذا تُليت على المشركين بينات ما كان حجتهم إلا أن قالوا ائتوا بآبائنا إن كنتم صادقين. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=45&tAyahNo=25&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَإِذَا تُتْلَىٰ عَلَيْهِمْ ءَايَٰتُنَا بَيِّنَاتٍ مَّا كَانَ حُجَّتَهُمْ إِلاَّ أَن قَالُواْ ٱئْتُواْ بِآبَآئِنَآ إِن كُنتُمْ صَادِقِينَ»: وإذا تُتلى على هؤلاء المشركين المكذّبين بالبعث آياتنا، بأن الله باعث خلقه من بعد مماتهم، فجامعهم يوم القيامة عنده للثواب والعقاب «بَيِّناتٍ» يعني: واضحات جليات، تنفي الشكّ عن قلب أهل التصديق بالله في ذلك «ما كانَ حُجَّتَهُمْ إلاَّ أنْ قالُوا ائْتُوا بآبائِنا إنْ كُنْتُمْ صَادِقِينَ». يقول جلّ ثناؤه: لم يكن لهم حجة على رسولنا الذي يتلو ذلك عليهم إلا قولهم له: ائتنا بآبائنا الذين قد هلكوا أحياء، وانشرهم لنا إن كنت صادقاً فيما تتلو علينا وتخبرنا، حتى نصدّق بحقيقة ما تقول بأن الله باعومحيينا من بعد فنائنا.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=45&tAyahNo=25&tDisplay=yes&UserProfile=0&LanguageId=1

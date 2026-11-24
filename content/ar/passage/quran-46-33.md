@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-10-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يفسّر الطبري أن المنكرين للبعث ألم يروا أن الله الذي خلق السماوات والأرض ولم يعيَ بخلقهن بقادر على أن يحيي الموتى بلى إنه على كل شيء قدير. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=46&tAyahNo=33&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «أَوَلَمْ يَرَوْاْ أَنَّ ٱللَّهَ ٱلَّذِي خَلَقَ ٱلسَّمَٰوَٰتِ وَٱلأَرْضَ وَلَمْ يَعْيَ بِخَلْقِهِنَّ بِقَادِرٍ عَلَىٰ أَن يُحْيِيَ ٱلْمَوْتَىٰ بَلَىٰ إِنَّهُ عَلَىٰ كُلِّ شَيْءٍ قَدِيرٌ»: أو لم ينظر هؤلاء المنكرون إحياء الله خلقه من بعد وفاتهم، وبعثه إياهم من قبورهم بعد بلائهم، القائلون لآبائهم وأمهاتهم«أفِّ لكما أتعدانني أن أخرج وقد خلَت القرون من قبلي» فلم يبعثوا بأبصار قلوبهم، فيروا ويعلموا أن الله الذي خلق السموات السبع والأرض، فابتدعهنّ من غير شيء، ولم يعي بإنشائهنّ، فيعجز عن اختراعهنّ وإحداثهنّ «بِقادِرٍ على أنْ يُحْيِي المَوْتَى» فيخرجهم من بعد بلائهم في قبورهم أحياء كهيئتهم قبل وفاتهم.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=46&tAyahNo=33&tDisplay=yes&UserProfile=0&LanguageId=1

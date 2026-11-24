@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-10-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن الذين بايعوا النبي بالحديبية على ألا يفروا عند لقاء العدو إنما يبايعون الله يد الله فوق أيديهم، فمن نكث فإنما ينكث على نفسه ومن أوفى بما عاهد عليه الله فسيؤتيه أجراً عظيماً. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=48&tAyahNo=10&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «إِنَّ ٱلَّذِينَ يُبَايِعُونَكَ إِنَّمَا يُبَايِعُونَ ٱللَّهَ يَدُ ٱللَّهِ فَوْقَ أَيْدِيهِمْ فَمَن نَّكَثَ فَإِنَّمَا يَنكُثُ عَلَىٰ نَفْسِهِ وَمَنْ أَوْفَىٰ بِمَا عَاهَدَ عَلَيْهُ ٱللَّهَ فَسَيُؤْتِيهِ أَجْراً عَظِيماً»: «إنَّ الَّذِينَ يُبايِعُونَكَ» بالحديبية من أصحابك على أن لا يفرّوا عند لقاء العدوّ، ولا يولُّوهم الأدبار «إنَّمَا يُبايِعُونَ اللَّهَ» يقول: إنما يبايعون ببيعتهم إياك الله، لأن الله ضمن لهم الجنة بوفائهم له بذلك. وينقل في المقطع أقوالاً عن مجاهد وقتادة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=48&tAyahNo=10&tDisplay=yes&UserProfile=0&LanguageId=1

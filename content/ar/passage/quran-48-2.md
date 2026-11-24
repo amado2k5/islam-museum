@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-10-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن الغاية من الفتح ليغفر لك الله ما تقدم من ذنبك وما تأخر، ويتم نعمته عليك ويهديك صراطاً مستقيماً، ويورد أقوال أهل التأويل في معنى المغفرة وما ذُكر عن صلح الحديبية. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=48&tAyahNo=2&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 2 إلى 4 مقطعاً واحداً. يفسّر قوله «إِنَّا فَتَحْنَا لَكَ فَتْحاً مُّبِيناً»: يعني بقوله تعالى ذكره لنبيه محمد «إنَّا فَتَحْنا لَكَ فَتْحاً مُبِيناً» يقول: إنا حكمنا لك يا محمد حكماً لمن سمعه أو بلغه على من خالفك وناصبك من كفار قومك، وقضينا لك عليهم بالنصر والظفر، لتشكر ربك، وتحمده على نعمته بقضائه لك عليهم، وفتحه ما فتح لك، ولتسبحه وتستغفره، فيغفر لك بفعالك ذلك ربك، ما تقدّم من ذنبك قبل فتحه لك ما فتح، وما تأخَّر بعد فتحه لك ذلك ما شكرته واستغفرته.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=48&tAyahNo=2&tDisplay=yes&UserProfile=0&LanguageId=1

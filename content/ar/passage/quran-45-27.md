@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-10-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يفسّر الطبري أن لله ملك السماوات والأرض ويوم تقوم الساعة يومئذ يخسر المبطلون، فمن كان له شريك في ملكه وهو جارٍ عليه حكمه. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=45&tAyahNo=27&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَلِلَّهِ مُلْكُ ٱلسَّمَاوَاتِ وَٱلأَرْضِ وَيَوْمَ تَقُومُ ٱلسَّاَعةُ يَوْمَئِذٍ يَخْسَرُ ٱلْمُبْطِلُونَ»: ولله سلطان السموات السبع والأرض، دون ما تدعونه له شريكاً، وتعبدونه من دونه، والذي تدعونه من دونه من الآلهة والأنداد في مُلكه وسلطانه، جارٍ عليه حكمه، فكيف يكون ما كان كذلك له شريكاً، أم كيف تعبدونه، وتتركون عبادة مالككم، ومالك ما تعبدونه من دونه «وَيَوْمَ تَقُومُ السَّاعَةُ» يقول تعالى ذكره: ويوم تجيء الساعة التي يُنْشِر الله فيها الموتى من قبورهم، ويجمعهم لموقف العرض، «يَخْسَرُ المُبْطِلُونَ»: يقول: يغبن فيها الذين أبطلوا في الدنيا في أقوالهم ودعواهم لله شريكاً، وعبادتهم آلهة دونه بأن يفوز بمنازله من الجنة المحقون، ويبدّلوا بها منازل من النار كانت للمحقين، فجعلت لهم بمنازلهم من الجنة، ذلك هو الخسران المبين.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=45&tAyahNo=27&tDisplay=yes&UserProfile=0&LanguageId=1
