@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-10-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يفسّر الطبري إشراق الأرض بنور ربها بإضاءتها حين يبرز الرحمن لفصل القضاء بين خلقه، ويورد عن قتادة وغيره أقوالاً في ذلك، ثم يذكر وضع الكتاب وجيء بالنبيين والشهداء وقُضي بينهم بالحق وهم لا يُظلمون. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=39&tAyahNo=69&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَأَشْرَقَتِ ٱلأَرْضُ بِنُورِ رَبِّهَا وَوُضِعَ ٱلْكِتَابُ وَجِيءَ بِٱلنَّبِيِّيْنَ وَٱلشُّهَدَآءِ وَقُضِيَ بَيْنَهُم بِٱلْحَقِّ وَهُمْ لاَ يُظْلَمُونَ»: فأضاءت الأرض بنور ربها، يقال: أشرقت الشمس: إذا صفت وأضاءت، وشرقت: إذا طلعت، وذلك حين يبرز الرحمن لفصل القضاء بين خلقه. وينقل في المقطع أقوالاً عن ابن عباس وقتادة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=39&tAyahNo=69&tDisplay=yes&UserProfile=0&LanguageId=1

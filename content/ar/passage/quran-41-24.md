@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-10-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يفسّر الطبري أن الكافرين إن يصبروا على النار فهي مثوى لهم، وإن يستعتبوا أي يطلبوا الرجعة وتخفيف العذاب فما هم من المعتَبين أي لا يُجابون إلى ذلك. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=41&tAyahNo=24&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «فَإِن يَصْبِرُواْ فَٱلنَّارُ مَثْوًى لَّهُمْ وَإِن يَسْتَعْتِبُواْ فَمَا هُم مِّنَ ٱلْمُعْتَبِينَ»: فإن يصبر هؤلاء الذين يحشرون إلى النار على النار، فالنار مسكن لهم ومنزل، «وإنْ يَسْتَعْتِبُوا» يقول: وإن يسألوا العُتبى، وهي الرجعة لهم إلى الذي يحبون بتخفيف العذاب عنهم «فَمَا هُمْ مِنَ المُعْتَبِينَ» يقول: فليسوا بالقوم الذين يرجع بهم إلى الجنة، فيخفف عنهم ما هم فيه من العذاب، وذلك كقوله جلّ ثناؤه مخبراً عنهم:«قالُوا رَبَّنا غَلَبَتْ عَلَيْنا شقْوَتَنا» إلى قوله«وَلا تُكَلِّمُونِ» وكقولهم لخزنة جهنم:«ادْعُوا رَبَّكُمْ يُخَفِّفْ عَنَّا يَوْما مِنَ العَذابِ» إلى قوله:«وَما دعاءُ الكافرَينَ إلاَّ فِي ضَلالِ»
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=41&tAyahNo=24&tDisplay=yes&UserProfile=0&LanguageId=1

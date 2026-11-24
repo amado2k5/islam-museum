@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-10-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن الملائكة تسأل الله أن يقي المؤمنين سوء عاقبة سيئاتهم، وأن من وقاه السيئات يومئذ فقد رحمه، وذلك هو الفوز العظيم. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=40&tAyahNo=9&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَقِهِمُ ٱلسَّيِّئَاتِ وَمَن تَقِ ٱلسَّيِّئَاتِ يَوْمَئِذٍ فَقَدْ رَحِمْتَهُ وَذَلِكَ هُوَ ٱلْفَوْزُ ٱلْعَظِيمُ»: يقول تعالى ذكره بقوله مخبراً عن قيل ملائكته: وقِهم: اصرف عنهم سوء عاقبة سيئاتهم التي كانوا أتوها قبل توبتهم وإنابتهم، يقولون: لا تؤاخذهم بذلك، فتعذّبهم به «وَمَنْ تَقِ السَّيِّئاتِ يَوْمَئِذٍ فَقَدْ رَحِمْتَهُ» يقول: ومن تصرف عنه سوء عاقبة سيئاته بذلك يوم القيامة، فقد رحمته، فنجيته من عذابك «وذَلكَ هُوَ الفَوْزُ العَظِيمُ» لأنه من نجا من النار وأدخل الجنة فقد فاز، وذلك لا شك هو الفوز العظيم. وينقل في المقطع أقوالاً عن قتادة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=40&tAyahNo=9&tDisplay=yes&UserProfile=0&LanguageId=1

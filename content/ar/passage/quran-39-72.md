@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-10-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن خزنة جهنم يقولون للكفار: ادخلوا أبوابها السبعة على قدر منازلكم فيها ماكثين لا تُنقلون عنها، فبئس مسكن المتكبرين عن توحيد الله. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=39&tAyahNo=72&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «قِيلَ ٱدْخُلُوۤاْ أَبْوَابَ جَهَنَّمَ خَالِدِينَ فِيهَا فَبِئْسَ مَثْوَى ٱلْمُتَكَبِّرِينَ»: فتقول خزنة جهنم للذين كفروا حينئذ: «ادْخُلُوا أبْوَابَ جَهَنَّمَ» السبعة على قدر منازلكم فيها «خالِدِينَ فِيها» يقول: ماكثين فيها لا يُنقلون عنها إلى غيرها. «فَبئْسَ مَثْوَى المُتَكَبرين» يقول: فبئس مسكن المتكبرين على الله في الدنيا، أن يوحدوه ويفردوا له الألوهية، جهنم يوم القيامة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=39&tAyahNo=72&tDisplay=yes&UserProfile=0&LanguageId=1

@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-10-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن إسرافيل ينفخ في الصور فيصعق من في السماوات ومن في الأرض، أي يموتون في النفخة الأولى إلا من شاء الله، ثم ينفخ نفخة أخرى فإذا هم قيام ينظرون، ويورد أقوال السلف فيمن استثناهم الله وفي ما بين النفختين. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=39&tAyahNo=68&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَنُفِخَ فِي ٱلصُّورِ فَصَعِقَ مَن فِي ٱلسَّمَٰوَٰتِ وَمَن فِي ٱلأَرْضِ إِلاَّ مَن شَآءَ ٱللَّهُ ثُمَّ نُفِخَ فِيهِ أُخْرَىٰ فَإِذَا هُمْ قِيَامٌ يَنظُرُونَ»: ونفخ إسرافيل في القرن، وقد بيّنا معنى الصور فيما مضى بشواهده، وذكرنا اختلاف أهل العلم فيه، والصواب من القول فيه بشواهده، فأغنى ذلك عن إعادته في هذا الموضع. وقوله «فَصَعِقَ مَنْ فِي السَّمَوَاتِ وَمَنْ فِي الأرْضِ» يقول: مات، وذلك في النفخة الأولى، كما: وعن السديّ «وَنُفِخَ فِي الصورِ فَصَعِقَ مَنْ فِي السَّمَوَاتِ وَمَنْ فَي الأرْضِ» قال: مات. وقوله: «إلاَّ مَنْ شَاءَ اللَّهُ» اختلف أهل التأويل في الذي عني الله بالاستثناء في هذه الآية، فقال بعضهم عني به جبريل وميكائيل وإسرافيل وملك الموت. وينقل في المقطع أقوالاً عن سعيد بن جبير.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=39&tAyahNo=68&tDisplay=yes&UserProfile=0&LanguageId=1

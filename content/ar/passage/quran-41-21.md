@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-10-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن الكافرين يقولون لجلودهم لم شهدتم علينا فتجيب أنطقنا الله الذي أنطق كل شيء، وهو خلقكم أول مرة وإليه تُرجعون، ويذكر ما ورد من أخبار الصحابة في شهادة الجوارح. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=41&tAyahNo=21&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 21 إلى 22 مقطعاً واحداً. يفسّر قوله «وَقَالُواْ لِجُلُودِهِمْ لِمَ شَهِدتُّمْ عَلَيْنَا قَالُوۤاْ أَنطَقَنَا ٱللَّهُ ٱلَّذِي أَنطَقَ كُلَّ شَيْءٍ وَهُوَ خَلَقَكُمْ أَوَّلَ مَرَّةٍ وَإِلَيْهِ تُرْجَعُونَ»: وقال هؤلاء الذين يحشرون إلى النار من أعداء الله سبحانه لجلودهم إذ شهدت عليهم بما كانوا في الدنيا يعملون: لم شهدتم علينا بما كنا نعمل في الدنيا؟ فأجابتهم جلودهم: «أنْطَقَنا اللَّهَ الَّذِي أَنْطَقَ كُلَّ شَيْءٍ» فنطقنا وذُكر أن هذه الجوارح تشهد على أهلها عند استشهاد الله إياها عليهم إذا هم أنكروا الأفعال التي كانوا فعلوها في الدنيا بما يسخط الله، وبذلك جاء الخبر عن رسول الله. ذكر الأخبار التي رُويت عن رسول الله. وينقل في المقطع أقوالاً عن سفيان.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=41&tAyahNo=21&tDisplay=yes&UserProfile=0&LanguageId=1

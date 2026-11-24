@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-10-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يفسّر الطبري سَوق المتقين إلى الجنة زمراً بأنه حشرهم جماعات وفداً إلى منازلهم، حتى إذا جاءوها وقد فُتحت أبوابها قالت لهم الخزنة سلام عليكم طبتم فادخلوها خالدين، وينقل ما قيل في أبواب الجنة وفتحها، ويشير إلى ما بيّنه في سورة مريم. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=39&tAyahNo=73&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 73 إلى 74 مقطعاً واحداً. يفسّر قوله «وَسِيقَ ٱلَّذِينَ ٱتَّقَوْاْ رَبَّهُمْ إِلَى ٱلّجَنَّةِ زُمَراً حَتَّىٰ إِذَا جَآءُوهَا وَفُتِحَتْ أَبْوَابُهَا وَقَالَ لَهُمْ خَزَنَتُهَا سَلاَمٌ عَلَيْكُمْ طِبْتُمْ فَٱدْخُلُوهَا خَالِدِينَ»: وحُشر الذين اتقوا ربهم بأداء فرائضه، واجتناب معاصيه في الدنيا، وأخلصوا له فيها الألوهية، وأفردوا له العبادة، فلم يشركوا في عبادتهم إياه شيئاً «إلى الجَنَّةِ زُمَراً» يعني جماعات، فكان سوق هؤلاء إلى منازلهم من الجنة وفدا على ما قد بيَّنا قبل في سورة مريم على نجائب من نجائب الجنة، وسوق الآخرين إلى النار دعًّا وورداً، كما قال الله. وينقل في المقطع أقوالاً عن ابن زيد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=39&tAyahNo=73&tDisplay=yes&UserProfile=0&LanguageId=1

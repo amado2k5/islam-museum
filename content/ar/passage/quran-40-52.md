@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-10-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-تأتي الآية في صفحة نصر الله رسله، وفيها يبيّن الطبري أن الظالمين لا ينفعهم يومئذ اعتذارهم ولهم اللعنة ولهم سوء الدار، ويربط ذلك بيوم يقوم الأشهاد. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=40&tAyahNo=52&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 52 إلى 53 مقطعاً واحداً. يفسّر قوله «إِنَّا لَنَنصُرُ رُسُلَنَا وَٱلَّذِينَ آمَنُواْ فِي ٱلْحَيَاةِ ٱلدُّنْيَا وَيَوْمَ يَقُومُ ٱلأَشْهَادُ»: يقول القائل: وما معنى: «إنَّا لَنَنْصُرُ رُسُلَنا وَالَّذِينَ آمَنُوا فِي الحَياةِ الدُّنْيا» وقد علمنا أن منهم من قتله أعداؤه، ومثَّلوا به، كشعياء ويحيى بن زكريا وأشباههما، ومنهم من همّ بقتله قومه، فكان أحسن أحواله أن يخلص منهم حتى فارقهم ناجياً بنفسه، كإبراهيم الذي هاجر إلى الشام من أرضه مفارقا لقومه، وعيسى الذي رفع إلى السماء إذ أراد قومه قتله، فأين النصرة التي أخبرنا أنه ينصرها رسله، والمؤمنين به في الحياة الدنيا، وهؤلاء أنبياؤه قد نالهم من قومهم ما قد علمت، وما نصروا على من نالهم بما نالهم به؟ قيل: إن لقوله: «إنَّا لَنَنْصُرُ رُسُلَنا وَالَّذِينَ آمَنُوا فِي الحَياةِ الدُّنْيا» وجهين كلاهما صحيح معناه.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=40&tAyahNo=52&tDisplay=yes&UserProfile=0&LanguageId=1

@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-10-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن العذاب الذي لهم سببه أنهم كفروا إذا دُعي الله وحده وأنكروا خلوص الألوهية له وقالوا أجعل الآلهة إلهاً واحداً، وصدّقوا إن أُشرك به، فالحكم لله العلي الكبير. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=40&tAyahNo=12&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «ذَلِكُم بِأَنَّهُ إِذَا دُعِيَ ٱللَّهُ وَحْدَهُ كَفَرْتُمْ وَإِن يُشْرَكْ بِهِ تُؤْمِنُواْ فَٱلْحُكْمُ للَّهِ ٱلْعَلِيِّ ٱلْكَبِيرِ»: وفي هذا الكلام متروك استغني بدلالة الظاهر من ذكره عليه وهو: فأجيبوا أن لا سبيل إلى ذلك هذا الذي لكم من العذاب أيها الكافرون «بأنَّهُ إذا دُعِيَ اللَّهُ وَحْدَه كَفَرْتُمْ»، فأنكرتم أن تكون الألوهية له خالصة، وقلتم«أجَعَلَ الآلِهَةَ إلَها وَاحداً» «وإنْ يُشْرَكْ بِهِ تُؤْمِنُوا» يقول: وإن يجعل لله شريك تصدّقوا من جعل ذلك له «فالحُكْمُ لِلَّهِ العَلِيّ الكَبِيرِ» يقول: فالقضاء لله العليّ على كل شيء، الكبير الذي كلّ شيء دونه متصاغراً له اليوم.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=40&tAyahNo=12&tDisplay=yes&UserProfile=0&LanguageId=1

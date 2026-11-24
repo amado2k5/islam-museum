@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-10-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-تأتي الآية في صفحة تفسير الصرح، وفيها يبيّن الطبري أن فرعون زُيّن له سوء عمله وصُدّ عن السبيل، وما كيد فرعون إلا في تباب أي في خسار وهلاك. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=40&tAyahNo=37&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 37 إلى 38 مقطعاً واحداً. يفسّر قوله «وَقَالَ فَرْعَوْنُ يٰهَامَانُ ٱبْنِ لِي صَرْحاً لَّعَلِّيۤ أَبْلُغُ ٱلأَسْبَابَ»: وقال فرعون لما وعظه المؤمن من آله بما وعظه به وزجره عن قتل موسى نبيّ الله وحذره من بأس الله على قيله أقتله ما حذره لوزيره وزير السوء هامان: «يا هامانُ ابْنِ لي صَرْحاً لَعَلِّي أبْلُغُ الأسْبابَ» يعني بناءً. وقد بيَّنا معنى الصرح فيما مضى بشواهده بما أغنى عن إعادته في هذا الموضع. «لَعَلِّي أبْلُغُ الأسْبابَ» اختلف أهل التأويل في معنى الأسباب في هذا الموضع، فقال بعضهم: أسباب السموات: طرقها. وينقل في المقطع أقوالاً عن ابن عباس وقتادة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=40&tAyahNo=37&tDisplay=yes&UserProfile=0&LanguageId=1

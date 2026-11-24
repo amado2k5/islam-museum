@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-10-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل الآيات 23 إلى 24، وخلاصتها: يذكر الطبري أن الله يسلّي نبيه بما لقي موسى من التكذيب، فأرسله بآياته وسلطان مبين إلى فرعون وهامان وقارون فقالوا ساحر كذاب، ويفيد أن الله يعلي رسله ويجعل دائرة السوء على من عاداهم. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=40&tAyahNo=24&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 23 إلى 24 مقطعاً واحداً. يفسّر قوله «إِلَىٰ فِرْعَوْنَ وَهَامَانَ وَقَارُونَ فَقَالُواْ سَاحِرٌ كَذَّابٌ»: فقال هؤلاء الذين أرسل إليهم موسى لموسى: هو ساحر يسحر العصا، فيرى الناظر إليها أنها حية تسعى، «كذّاب» يقول: يكذب على الله، ويزعم أنه أرسله إلى الناس رسولاً. وينقل في المقطع أقوالاً عن قتادة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=40&tAyahNo=24&tDisplay=yes&UserProfile=0&LanguageId=1

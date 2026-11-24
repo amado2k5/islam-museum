@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-10-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل الآيات 13 إلى 14، وخلاصتها: يفسّر الطبري أن الله يُري الناس حججه وآياته على وحدانيته وربوبيته وينزّل لهم من السماء رزقاً بإدرار الغيث، وأنه لا يتذكر إلا من ينيب، ثم يأمر بدعاء الله مخلصين له الدين ولو كره الكافرون. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=40&tAyahNo=13&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 13 إلى 14 مقطعاً واحداً. يفسّر قوله «هُوَ ٱلَّذِي يُرِيكُمْ آيَاتِهِ وَيُنَزِّلُ لَكُم مِّنَ ٱلسَّمَآءِ رِزْقاً وَمَا يَتَذَكَّرُ إِلاَّ مَن يُنِيبُ»: الذي يريكم أيها الناس حججه وأدلته على وحدانيته وربوبيته «وَيُنَزَّلُ لَكُمْ مِنَ السَّمَاءِ رِزْقاً» يقول ينزّل لكم من أرزاقكم من السماء بإدرار الغيث الذي يخرج به أقواتكم من الأرض، وغذاء أنعامكم عليكم «وَما يَتَذَكَّرُ إلاَّ مَنْ يُنِيبُ» يقول: وما يتذكر حجج الله التي جعلها أدلة على وحدانيته، فيعتبر بها ويتعظ، ويعلم حقيقة ما تدلّ عليه، إلا من ينيب، يقول: إلا من يرجع إلى توحيده، ويقبل على طاعته، كما: وعن السديّ «إلاَّ مَنْ يُنِيبُ» قال: من يقبل إلى طاعة الله.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=40&tAyahNo=13&tDisplay=yes&UserProfile=0&LanguageId=1

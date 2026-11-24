@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-10-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يفسّر الطبري المثل بالأعمى والبصير: الأعمى الكافر الذي لا يتدبر حجج الله، والبصير المؤمن الذي يعتبر بها، ولا يستوي الذين آمنوا وعملوا الصالحات مع المسيء، قليلاً ما يتذكرون. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=40&tAyahNo=58&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَمَا يَسْتَوِي ٱلأَعْمَىٰ وَٱلْبَصِيرُ وَٱلَّذِينَ آمَنُواْ وَعَمِلُواْ ٱلصَّالِحَاتِ وَلاَ ٱلْمُسِيۤءُ قَلِيلاً مَّا تَتَذَكَّرُونَ»: وما يستوي الأعمى الذي لا يبصر شيئاً، وهو مثل الكافر الذي لا يتأمل حجج الله بعينيه، فيتدبرها ويعتبر بها، فيعلم وحدانيته وقُدرته على خلق ما شاء من شيء، ويؤمن به ويصدّق. والبصير الذي يرى بعينيه ما شخص لهما ويبصره، وذلك مَثل للمؤمن الذي يرى بعينيه حجج الله، فيتفكَّر فيها ويتعظ، ويعلم ما دلت عليه من توحيد صانعه، وعظيم سلطانه وقُدرته على خلق ما يشاء يقول جلّ ثناؤه: كذلك لا يستوي الكافر والمؤمن.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=40&tAyahNo=58&tDisplay=yes&UserProfile=0&LanguageId=1

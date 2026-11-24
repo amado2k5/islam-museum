@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-10-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن إهلاك تلك الأمم كان بسبب أن رسلها جاءتها بالبينات فكفروا وجحدوا التوحيد، فأخذهم الله إنه قوي شديد العقاب. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=40&tAyahNo=22&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «ذَلِكَ بِأَنَّهُمْ كَانَت تَّأْتِيهِمْ رُسُلُهُم بِٱلْبَيِّنَاتِ فَكَفَرُواْ فَأَخَذَهُمُ ٱللَّهُ إِنَّهُ قَوِيٌّ شَدِيدُ ٱلْعِقَابِ»: هذا الذي فعلت بهؤلاء الأمم الذين من قبل مشركي قريش من إهلاكناهم بذنوبهم فعلنا بهم بأنهم كانت تأتيهم رسل الله إليهم بالبينات، يعني بالآيات الدالات على حقيقة ما تدعوهم إليه من توحيد الله، والانتهاء إلى طاعته «فَكَفَرُوا» يقول: فأنكروا رسالتها، وجحدوا توحيد الله، وأبوا أن يطيعوا الله «فأخَذَهُمُ اللَّهُ» يقول: فأخذهم الله بعذابه فأهلكهم «إنَّهُ قَوِيّ شَديدُ العِقابِ» يقول: إن الله ذو قوّة لا يقهره شيء، ولا يغلبه، ولا يعجزه شيء أراده، شديد عقابه من عاقب من خلقه وهذا وعيد من الله مشركي قريش، المكذّبين رسوله محمداً يقول لهم جلّ ثناؤه: فاحذروا أيها القوم أن تسلكوا سبيلهم في تكذيب محمد وجحود توحيد الله، ومخالفة أمره ونهيه فيسلك بكم في تعجيل الهلاك ل
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=40&tAyahNo=22&tDisplay=yes&UserProfile=0&LanguageId=1

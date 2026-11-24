@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-10-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن من عمل سيئة فلا يُجزى إلا مثلها، ومن عمل صالحاً من ذكر أو أنثى وهو مؤمن فأولئك يدخلون الجنة يُرزقون فيها بغير حساب. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=40&tAyahNo=40&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «مَنْ عَمِلَ سَيِّئَةً فَلاَ يُجْزَىٰ إِلاَّ مِثْلَهَا وَمَنْ عَمِلَ صَالِحاً مِّن ذَكَرٍ أَوْ أُنْثَىٰ وَهُوَ مُؤْمِنٌ فَأُوْلَٰئِكَ يَدْخُلُونَ ٱلْجَنَّةَ يُرْزَقُونَ فِيهَا بِغَيْرِ حِسَابٍ»: من عمل بمعصية الله في هذه الحياة الدنيا، فلا يجزيه الله في الآخرة إلا سيئة مثلها، وذلك أن يعاقبه بها «وَمَنْ عَمِلَ صَالِحاً مِنْ ذَكَرٍ أوْ أُنْثَى» يقول: ومن عمل بطاعة الله في الدنيا، وأتمر لأمره، وانتهى فيها عما نهاه عنه من رجل أو امرأة، وهو مؤمن بالله «فأُولَئِكَ يَدْخُلُونَ الجَنَّةَ» يقول: فالذين يعملون ذلك من عباد الله يدخلون في الآخرة الجنة. وينقل في المقطع أقوالاً عن قتادة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=40&tAyahNo=40&tDisplay=yes&UserProfile=0&LanguageId=1

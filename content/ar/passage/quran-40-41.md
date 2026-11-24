@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-10-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل الآيات 41 إلى 42، وخلاصتها: يبيّن الطبري قول المؤمن لقومه: ما لي أدعوكم إلى النجاة من عذاب الله وتدعونني إلى النار، تدعونني لأكفر بالله وأشرك به ما ليس لي به علم وأنا أدعوكم إلى العزيز الغفار. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=40&tAyahNo=41&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 41 إلى 42 مقطعاً واحداً. يفسّر قوله «وَيٰقَوْمِ مَا لِيۤ أَدْعُوكُمْ إِلَى ٱلنَّجَاةِ وَتَدْعُونَنِيۤ إِلَى ٱلنَّارِ»: يقول تعالى ذكره مخبراً عن قيل هذا المؤمن لقومه من الكفرة: «مَالِي أدْعُوكُمْ إلَى النَّجَاة» من عذاب الله وعقوبته بالإيمان به، واتباع رسوله موسى، وتصديقه فيما جاءكم به من عند ربه «وَتَدْعُونَنِي إلى النَّارِ» يقول: وتدعونني إلى عمل أهل النار. وينقل في المقطع أقوالاً عن مجاهد وابن زيد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=40&tAyahNo=41&tDisplay=yes&UserProfile=0&LanguageId=1

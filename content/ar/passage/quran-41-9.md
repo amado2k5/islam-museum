@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-10-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يفسّر الطبري خلق الله الأرض في يومين وأنه ربّ العالمين، ويذكر أقوال أهل التأويل في معنى جعل الأنداد وفي ترتيب الأيام، وتأتي الآية ضمن الصفحة التي تتناول أجر المؤمنين وخلق الأرض. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=41&tAyahNo=9&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 9 إلى 10 مقطعاً واحداً. يفسّر قوله «إِنَّ ٱلَّذِينَ آمَنُواْ وَعَمِلُواْ ٱلصَّالِحَاتِ لَهُمْ أَجْرٌ غَيْرُ مَمْنُونٍ»: إن الذين صدّقوا الله ورسوله، وعملوا بما أمرهم الله به ورسوله، وانتهوا عما نهياهم عنه، وذلك هو الصالحات من الأعمال «لَهُمْ أجْرٌ غَيْرُ مَمْنُونٍ» يقول: لمن فعل ذلك أجر غير منقوص عما وعدهم أن يأجرهم عليه. وقد اختلف في تأويل ذلك أهل التأويل، وقد بيَّناه فيما مضى بما أغنى عن إعادته في هذا الموضع. وقد: وعن السديّ «لَهُمْ أجْرٌ غَيْرُ مَمْنُونٍ» قال بعضهم: غير منقوص. وقال بعضهم: غير ممنون عليهم. وقال: ثني معاوية، عن عليّ، عن ابن عباس، قوله: «أجْرٌ غَيْرُ مَمْنُونٍ» يقول: غير منقوص. وقال: ثناء ورقاء، جميعاً عن ابن أبي نجيح، قوله: «لَهُمْ أجْرٌ غَيْرُ مَمْنُونٍ» قال: محسوب. وينقل في المقطع أقوالاً عن ابن عباس وعكرمة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=41&tAyahNo=9&tDisplay=yes&UserProfile=0&LanguageId=1

@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-10-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن الذين يجادلون في آيات الله بغير حجة ما في صدورهم إلا كبر ما هم ببالغيه، فيأمر النبي بالاستعاذة بالله إنه هو السميع البصير. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=40&tAyahNo=56&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «إِنَّ ٱلَّذِينَ يُجَادِلُونَ فِيۤ آيَاتِ ٱللَّهِ بِغَيْرِ سُلْطَانٍ أَتَاهُمْ إِن فِي صُدُورِهِمْ إِلاَّ كِبْرٌ مَّا هُم بِبَالِغِيهِ فَٱسْتَعِذْ بِٱللَّهِ إِنَّهُ هُوَ ٱلسَّمِيعُ ٱلْبَصِيرُ»: إن الذين يخاصمونك يا محمد فيما أتيتهم به من عند ربك من الآيات «بغير سلطان أتاهمْ» يقول: بغير حجة جاءتهم من عند الله بمخاصمتك فيها «إنْ فِي صُدُورهِمْ إلاَّ كِبْرٌ» يقول: ما في صدورهم إلا كبر يتكبرون من أجله عن اتباعك، وقبول الحقّ الذي أتيتهم به حسداً منهم على الفضل الذي آتاك الله، والكرامة التي أكرمك بها من النبوّة «ما هُمْ بِبالِغِيهِ» يقول: الذي حسدوك عليه أمر ليسوا بمُدركيه ولا نائليه، لأن ذلك فضل الله يؤتيه من يشاء، وليس بالأمر الذي يدرك بالأمانيّ وقد قيل: إن معناه: إن في صدورهم إلا عظمة ما هم ببالغي تلك العظمة لأن الله مذلُّهم. وينقل في المقطع أقوالاً عن مجاهد وقتادة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=40&tAyahNo=56&tDisplay=yes&UserProfile=0&LanguageId=1
