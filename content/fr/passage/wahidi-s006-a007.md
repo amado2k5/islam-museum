@@ -10,5 +10,12 @@ Rapport d'al-Wahidi sur la circonstance de révélation de al-An'am 6:7, transmi
 
 The verse, in al-Wahidi's heading: «ولو نزلنا عليك كتابا في قرطاس».
 
+## Rapport complet (texte source arabe)
+<div dir="rtl" lang="ar">
+
+رسوله فنزلت هذه الآية.
+
+</div>
+
 ## Place in the museum
 Source : [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an d'al-Wahidi]]. Le verset : [[passage/quran-6-7|Coran 6-7]].

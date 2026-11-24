@@ -10,5 +10,12 @@ Al-Wahidi's report on the occasion of revelation of al-Baqara 2:120, narrated fr
 
 The verse, in al-Wahidi's heading: «ولن ترضى عنك اليهود ولا النصارى».
 
+## Full report (Arabic source text)
+<div dir="rtl" lang="ar">
+
+قال المفسرون: إنهم كانوا يسألون النبي- الهدنة
+
+</div>
+
 ## Place in the museum
 Source: [[work/asbab-al-nuzul-wahidi|al-Wahidi's Asbab nuzul al-Qur'an]]. The verse: [[passage/quran-2-120|Qur'an 2-120]].

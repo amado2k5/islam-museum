@@ -10,5 +10,12 @@ Al-Wahidi's report on the occasion of revelation of al-An'am 6:19, narrated from
 
 The verse, in al-Wahidi's heading: «قل أي شيء أكبر شهادة».
 
+## Full report (Arabic source text)
+<div dir="rtl" lang="ar">
+
+أمر الرسالة، ولقد سألنا عنك اليهود والنصارى فزعموا أن ليس لك عندهم ذكر
+
+</div>
+
 ## Place in the museum
 Source: [[work/asbab-al-nuzul-wahidi|al-Wahidi's Asbab nuzul al-Qur'an]]. The verse: [[passage/quran-6-19|Qur'an 6-19]].

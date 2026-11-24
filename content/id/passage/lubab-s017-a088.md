@@ -10,5 +10,12 @@ Riwayat as-Suyuti tentang sebab turunnya al-Isra 17:88, dalam Lubab al-Nuqul fi 
 
 The verse, in al-Suyuti's heading: «قل لئن اجتمعت الإنس والجن على أن يأتوا».
 
+## Laporan lengkap (teks sumber Arab)
+<div dir="rtl" lang="ar">
+
+قل لئن اجتمعت الإنس والجن على أن يأتوا الآية أخرج ابن إسحق وابن جرير من طريق سعيد أو عكرمة عن ابن عباس قال أتى النبي ابن مشكم في عامة من يهود سماهم فقالوا كيف نتبعك قد تركت قبلتنا وإن هذا الذي
+
+</div>
+
 ## Place in the museum
 Sumber: [[work/lubab-al-nuqul-suyuti|as-Suyuti Lubab al-Nuqul]]. Ayatnya: [[passage/quran-17-88|Al-Qur'an 17-88]].

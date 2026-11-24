@@ -10,5 +10,12 @@ al-A'raf 7:189 ayetinin nüzül sebebi hakkında El-Vahidi'nin rivayeti; Esbab N
 
 The verse, in al-Wahidi's heading: «هو الذي خلقكم من نفس واحدة».
 
+## Tam rivayet (Arapça kaynak metin)
+<div dir="rtl" lang="ar">
+
+إلى قوله: {وهم يخلقون} قال مجاهد: كان لا يعيش لآدم وامرأة ولد، فقال لهما الشيطان: إذا ولد لكما ولد، فسمياه عبد الحارث، وكان اسم الشيطان قبل ذلك: الحارث، ففعلا، فذلك قوله: {فلما آتاهما صالحا جعلا له شركاء} الآية.
+
+</div>
+
 ## Place in the museum
 Kaynak: [[work/asbab-nuzul-wahidi|El-Vahidi'nin Esbab Nüzul el-Kur'an'ı]]. Ayet: [[passage/quran-7-189|Kur'an 7-189]].

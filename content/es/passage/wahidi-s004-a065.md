@@ -10,5 +10,12 @@ Informe de al-Wahidi sobre la ocasión de revelación de an-Nisa 4:65, transmiti
 
 The verse, in al-Wahidi's heading: «فلا وربك لا يؤمنون حتى يحكموك فيما شجر بينهم».
 
+## Informe completo (texto fuente en árabe)
+<div dir="rtl" lang="ar">
+
+نزلت في الزبير بن العوام وخصمه حاطب بن أبي بلتعة، وقيل: هو ثعلبة بن
+
+</div>
+
 ## Place in the museum
 Fuente: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an de al-Wahidi]]. El versículo: [[passage/quran-4-65|Corán 4-65]].

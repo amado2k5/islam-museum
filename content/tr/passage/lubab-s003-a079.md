@@ -10,5 +10,12 @@ Al 'Imran 3:79 ayetinin nüzul sebebi hakkında es-Suyuti'nin rivayeti; Lübabü
 
 The verse, in al-Suyuti's heading: «ما كان لبشر».
 
+## Tam rivayet (Arapça kaynak metin)
+<div dir="rtl" lang="ar">
+
+ما كان لبشر الآية أخرج ابن إسحق والبيهقي عن ابن عباس قال قال أبو رافع القرظي حين اجتمعت الأحبار من اليهود والنصارى من أهل نجران عند رسول الله ودعاهم إلى الإسلام أتريد يا محمد أن نعبدك كما تعبد النصارى عيسى قال
+
+</div>
+
 ## Place in the museum
 Kaynak: [[work/lubab-al-nuqul-suyuti|es-Suyuti'nin Lubab al-Nuqul]]. Ayet: [[passage/quran-3-79|Kur'an 3-79]].

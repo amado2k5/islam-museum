@@ -10,5 +10,12 @@ Rapport d'al-Wahidi sur la circonstance de révélation de al-Haqqa 69:12, trans
 
 The verse, in al-Wahidi's heading: «12».
 
+## Rapport complet (texte source arabe)
+<div dir="rtl" lang="ar">
+
+وحق على الله أن تعي"، فنزلت: {وتعيها أذن واعية}
+
+</div>
+
 ## Place in the museum
 Source : [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an d'al-Wahidi]]. Le verset : [[passage/quran-69-12|Coran 69-12]].

@@ -10,5 +10,12 @@ Riwayat as-Suyuti tentang sebab turunnya an-Nisa 4:90, dalam Lubab al-Nuqul fi A
 
 The verse, in al-Suyuti's heading: «إلا الذين يصلون».
 
+## Laporan lengkap (teks sumber Arab)
+<div dir="rtl" lang="ar">
+
+إلا الذين يصلون الآية أخرج ابن ابي حاتم وابن مردويه عن الحسن أن سراقة بن مالك المدلجي حدثهم قال لما ظهر النبي على أهل بدر وأحد وأسلم من حولهم قال سراقة بلغني أنه يريد أن يبعث خالد بن الوليد إلى قومي
+
+</div>
+
 ## Place in the museum
 Sumber: [[work/lubab-al-nuqul-suyuti|as-Suyuti Lubab al-Nuqul]]. Ayatnya: [[passage/quran-4-90|Al-Qur'an 4-90]].

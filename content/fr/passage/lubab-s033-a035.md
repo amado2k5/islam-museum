@@ -10,5 +10,12 @@ Rapport d'al-Suyuti sur la circonstance de révélation de al-Ahzab 33:35, dans 
 
 The verse, in al-Suyuti's heading: «إن المسلمين».
 
+## Rapport complet (texte source arabe)
+<div dir="rtl" lang="ar">
+
+إن المسلمين الآية ⁦(ك)⁩ وأخرج الترمذي وحسنه من طريق عكرمة عن أم عمارة الأنصاري أنها أتت النبي فقالت ما أرى كل شئ الا للرجال وما أرى النساء يذكرن بشئ فنزلت إن المسلمين والمسلمات الآية ⁦(ك)⁩ وأخرج الطبراني بسند لا بأس به
+
+</div>
+
 ## Place in the museum
 Source : [[work/lubab-al-nuqul-suyuti|d'al-Suyuti Lubab al-Nuqul]]. Le verset: [[passage/quran-33-35|Coran 33-35]].

@@ -10,5 +10,12 @@ Riwayat as-Suyuti tentang sebab turunnya an-Nisa 4:100, dalam Lubab al-Nuqul fi 
 
 The verse, in al-Suyuti's heading: «ومن يخرج من بيته».
 
+## Laporan lengkap (teks sumber Arab)
+<div dir="rtl" lang="ar">
+
+ومن يخرج من بيته الآية أخرج ابن أبي حاتم وأبو يعلي بسند جيد عن ابن عباس قال خرج ضمرة بن جندب من بيته مهاجرا فقال لأهله احملوني فأخرجوني من أرض المشركين إلى رسول الله فمات في الطريق قبل أن يصل إلى
+
+</div>
+
 ## Place in the museum
 Sumber: [[work/lubab-al-nuqul-suyuti|as-Suyuti Lubab al-Nuqul]]. Ayatnya: [[passage/quran-4-100|Al-Qur'an 4-100]].

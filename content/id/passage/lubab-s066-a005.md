@@ -10,5 +10,12 @@ Riwayat as-Suyuti tentang sebab turunnya at-Tahrim 66:5, dalam Lubab al-Nuqul fi
 
 The verse, in al-Suyuti's heading: «عسى ربه إن طلقكن».
 
+## Laporan lengkap (teks sumber Arab)
+<div dir="rtl" lang="ar">
+
+عسى ربه إن طلقكن الآية تقدم سبب نزولها وهو قول عمر في سورة البقرة
+
+</div>
+
 ## Place in the museum
 Sumber: [[work/lubab-al-nuqul-suyuti|as-Suyuti Lubab al-Nuqul]]. Ayatnya: [[passage/quran-66-5|Al-Qur'an 66-5]].

@@ -10,5 +10,12 @@ Informe de al-Suyuti sobre la ocasión de revelación de al-Baqara 2:241, en Lub
 
 The verse, in al-Suyuti's heading: «وللمطلقات متاع بالمعروف الاية».
 
+## Informe completo (texto fuente en árabe)
+<div dir="rtl" lang="ar">
+
+وللمطلقات متاع بالمعروف الاية أخرج ابن جرير عن ابن زيد قال لما نزلت ومتعوهن على الموسع قدره وعلى المقتر قدره متاعا بالمعروف حقا على المحسنين قال رجل إن أحسنت فعلت وإن لم أرد ذلك لم أفعل فأنزل الله وللمطلقات متاع بالمعروف حقا على المتقين
+
+</div>
+
 ## Place in the museum
 Fuente: [[work/lubab-al-nuqul-suyuti|de al-Suyuti Lubab al-Nuqul]]. El versículo: [[passage/quran-2-241|Corán 2-241]].

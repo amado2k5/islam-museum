@@ -10,5 +10,12 @@ Informe de al-Wahidi sobre la ocasión de revelación de an-Nisa 4:6, transmitid
 
 The verse, in al-Wahidi's heading: «وابتلوا اليتامى».
 
+## Informe completo (texto fuente en árabe)
+<div dir="rtl" lang="ar">
+
+نزلت في ثابت بن رفاعة وفي عمه، وذلك أن رفاعة توفي وترك ابنه ثابتا وهو
+
+</div>
+
 ## Place in the museum
 Fuente: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an de al-Wahidi]]. El versículo: [[passage/quran-4-6|Corán 4-6]].

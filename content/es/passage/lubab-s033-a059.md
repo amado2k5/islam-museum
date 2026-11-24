@@ -10,5 +10,12 @@ Informe de al-Suyuti sobre la ocasión de revelación de al-Ahzab 33:59, en Luba
 
 The verse, in al-Suyuti's heading: «يا أيها النبي قل لأزواجك».
 
+## Informe completo (texto fuente en árabe)
+<div dir="rtl" lang="ar">
+
+يا أيها النبي قل لأزواجك الآية أخرج مسلم وأحمد والنسائي من طريق أبي الزبير عن جابر قال أقبل أبو بكر يستأذن على رسول الله فلم يؤذن له ثم أقبل عمر فاستأذن فلم يؤذن له ثم أذن لهما فدخلا والنبي صلى الله
+
+</div>
+
 ## Place in the museum
 Fuente: [[work/lubab-al-nuqul-suyuti|de al-Suyuti Lubab al-Nuqul]]. El versículo: [[passage/quran-33-59|Corán 33-59]].

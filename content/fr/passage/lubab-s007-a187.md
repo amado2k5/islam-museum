@@ -10,5 +10,12 @@ Rapport d'al-Suyuti sur la circonstance de révélation de al-A'raf 7:187, dans 
 
 The verse, in al-Suyuti's heading: «يسألونك عن الساعة الخ اخرج ابن جرير وغيره».
 
+## Rapport complet (texte source arabe)
+<div dir="rtl" lang="ar">
+
+يسألونك عن الساعة الخ اخرج ابن جرير وغيره عن ابن عباس قال قال حمل بن أبي تشير وسموءل فلا بن زيد لرسول الله أخبرنا متى الساعة إن كنت نبيا كما تقول فإنا نعلم ما هي فأنزل الله يسألونك عن الساعة أيان
+
+</div>
+
 ## Place in the museum
 Source : [[work/lubab-al-nuqul-suyuti|d'al-Suyuti Lubab al-Nuqul]]. Le verset: [[passage/quran-7-187|Coran 7-187]].

@@ -10,5 +10,12 @@ Al-Wahidi's report on the occasion of revelation of an-Nisa 4:3, narrated from t
 
 The verse, in al-Wahidi's heading: «وإن خفتم ألا تقسطوا في اليتامى».
 
+## Full report (Arabic source text)
+<div dir="rtl" lang="ar">
+
+أنزلت هذه في الرجل يكون له اليتيمة وهو وليها ولها مال وليس لها أحد يخاصم
+
+</div>
+
 ## Place in the museum
 Source: [[work/asbab-al-nuzul-wahidi|al-Wahidi's Asbab nuzul al-Qur'an]]. The verse: [[passage/quran-4-3|Qur'an 4-3]].

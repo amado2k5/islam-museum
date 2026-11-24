@@ -10,5 +10,12 @@ Rapport d'al-Suyuti sur la circonstance de révélation de al-Baqara 2:80, dans 
 
 The verse, in al-Suyuti's heading: «وقالوا لن تمسنا النار».
 
+## Rapport complet (texte source arabe)
+<div dir="rtl" lang="ar">
+
+وقالوا لن تمسنا النار الآية أخرج الطبراني في الكبير وابن جرير وابن أبي حاتم من طريق ابن اسحق عن محمد بن أبي محمد عن عكرمة أو سعيد بن جبير عن ابن عباس قال قدم رسول الله المدينة ويهود تقول إنما مدة الدنيا سبعة آلاف سنة
+
+</div>
+
 ## Place in the museum
 Source : [[work/lubab-al-nuqul-suyuti|d'al-Suyuti Lubab al-Nuqul]]. Le verset: [[passage/quran-2-80|Coran 2-80]].

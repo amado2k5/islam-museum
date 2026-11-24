@@ -10,5 +10,12 @@ al-A'raf 7:188 کے سببِ نزول پر الواحدی کی روایت — «
 
 The verse, in al-Wahidi's heading: «قل لا أملك لنفسي نفعا ولا ضرا».
 
+## مکمل روایت ⁦(عربی ماخذ متن)⁩
+<div dir="rtl" lang="ar">
+
+فأنزل اللههذه الآية.
+
+</div>
+
 ## Place in the museum
 ماخذ: [[work/asbab-nuzul-wahidi|الواحدی کی اسباب نزول القرآن]]۔ آیت: [[passage/quran-7-188|قرآن 7-188]]۔

@@ -10,5 +10,12 @@ al-Baqara 2:120 کے سببِ نزول پر الواحدی کی روایت — �
 
 The verse, in al-Wahidi's heading: «ولن ترضى عنك اليهود ولا النصارى».
 
+## مکمل روایت ⁦(عربی ماخذ متن)⁩
+<div dir="rtl" lang="ar">
+
+قال المفسرون: إنهم كانوا يسألون النبي- الهدنة
+
+</div>
+
 ## Place in the museum
 ماخذ: [[work/asbab-nuzul-wahidi|الواحدی کی اسباب نزول القرآن]]۔ آیت: [[passage/quran-2-120|قرآن 2-120]]۔

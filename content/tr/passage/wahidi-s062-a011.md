@@ -10,5 +10,12 @@ al-Jumu'a 62:11 ayetinin nüzül sebebi hakkında El-Vahidi'nin rivayeti; Esbab 
 
 The verse, in al-Wahidi's heading: «11».
 
+## Tam rivayet (Arapça kaynak metin)
+<div dir="rtl" lang="ar">
+
+فخرجوا إليها حتى لم يبق معه إلا اثنا عشر رجلا، فأنزل الله:
+
+</div>
+
 ## Place in the museum
 Kaynak: [[work/asbab-nuzul-wahidi|El-Vahidi'nin Esbab Nüzul el-Kur'an'ı]]. Ayet: [[passage/quran-62-11|Kur'an 62-11]].

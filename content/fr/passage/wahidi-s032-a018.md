@@ -10,5 +10,12 @@ Rapport d'al-Wahidi sur la circonstance de révélation de as-Sajda 32:18, trans
 
 The verse, in al-Wahidi's heading: «أفمن كان مؤمنا كمن كان فاسقا».
 
+## Rapport complet (texte source arabe)
+<div dir="rtl" lang="ar">
+
+نزلت في علي بن أبي طالب والوليد بن عقبة.
+
+</div>
+
 ## Place in the museum
 Source : [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an d'al-Wahidi]]. Le verset : [[passage/quran-32-18|Coran 32-18]].

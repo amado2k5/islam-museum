@@ -10,5 +10,12 @@ Rapport d'al-Suyuti sur la circonstance de révélation de an-Nahl 16:41, dans L
 
 The verse, in al-Suyuti's heading: «والذين هاجروا».
 
+## Rapport complet (texte source arabe)
+<div dir="rtl" lang="ar">
+
+والذين هاجروا الآية أخرج ابن جرير عن داود بن أبي هند قال نزلت والذين هاجروا في الله من بعد ما ظلموا إلى قوله وعلى ربهم يتوكلون في أبي جندل بن سهيل
+
+</div>
+
 ## Place in the museum
 Source : [[work/lubab-al-nuqul-suyuti|d'al-Suyuti Lubab al-Nuqul]]. Le verset: [[passage/quran-16-41|Coran 16-41]].

@@ -10,5 +10,12 @@ Riwayat al-Wahidi tentang sebab turunnya an-Nisa 4:60, diriwayatkan dari generas
 
 The verse, in al-Wahidi's heading: «ألم تر إلى الذين قيل لهم كفوا أيديكم».
 
+## Laporan lengkap (teks sumber Arab)
+<div dir="rtl" lang="ar">
+
+قال الكلبي: نزلت هذه الآية في نفر من أصحاب رسول الله
+
+</div>
+
 ## Place in the museum
 Sumber: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an al-Wahidi]]. Ayatnya: [[passage/quran-4-60|Al-Qur'an 4-60]].

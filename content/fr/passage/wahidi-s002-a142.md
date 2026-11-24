@@ -10,5 +10,12 @@ Rapport d'al-Wahidi sur la circonstance de révélation de al-Baqara 2:142, tran
 
 The verse, in al-Wahidi's heading: «سيقول السفهاء من الناس».
 
+## Rapport complet (texte source arabe)
+<div dir="rtl" lang="ar">
+
+الله- يحب أن يتوجه نحو الكعبة، فأنزل الله:
+
+</div>
+
 ## Place in the museum
 Source : [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an d'al-Wahidi]]. Le verset : [[passage/quran-2-142|Coran 2-142]].

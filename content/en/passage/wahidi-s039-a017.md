@@ -10,5 +10,12 @@ Al-Wahidi's report on the occasion of revelation of az-Zumar 39:17, narrated fro
 
 The verse, in al-Wahidi's heading: «والذين اجتنبوا الطاغوت أن يعبدوها».
 
+## Full report (Arabic source text)
+<div dir="rtl" lang="ar">
+
+قال ابن زيد: نزلت في ثلاثة أنفار كانوا في الجاهلية يقولون: لا إله إلا
+
+</div>
+
 ## Place in the museum
 Source: [[work/asbab-al-nuzul-wahidi|al-Wahidi's Asbab nuzul al-Qur'an]]. The verse: [[passage/quran-39-17|Qur'an 39-17]].

@@ -10,5 +10,12 @@ Informe de al-Wahidi sobre la ocasión de revelación de Bani Isra'il 17:60, tra
 
 The verse, in al-Wahidi's heading: «60».
 
+## Informe completo (texto fuente en árabe)
+<div dir="rtl" lang="ar">
+
+فأنزل الله: {والشجرة الملعونة في القرآن} يقول: المذمومة
+
+</div>
+
 ## Place in the museum
 Fuente: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an de al-Wahidi]]. El versículo: [[passage/quran-17-60|Corán 17-60]].

@@ -10,5 +10,12 @@ Rapport d'al-Suyuti sur la circonstance de révélation de an-Nur 24:3, dans Lub
 
 The verse, in al-Suyuti's heading: «الزاني لا ينكح إلا زانية».
 
+## Rapport complet (texte source arabe)
+<div dir="rtl" lang="ar">
+
+الزاني لا ينكح إلا زانية أخرج النسائي عن عبد الله ابن عمرو قال كانت امرأة يقال لها أم مهزول وكانت تسافح فأراد رجل من أصحاب النبي أن يتزوجها فأنزل الله والزانية لا ينكحها إلا زان أو مشرك وحرم ذلك على المؤمنين
+
+</div>
+
 ## Place in the museum
 Source : [[work/lubab-al-nuqul-suyuti|d'al-Suyuti Lubab al-Nuqul]]. Le verset: [[passage/quran-24-3|Coran 24-3]].

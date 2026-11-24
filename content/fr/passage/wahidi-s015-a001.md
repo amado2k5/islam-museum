@@ -10,5 +10,12 @@ Rapport d'al-Wahidi sur la circonstance de révélation de al-Hijr 15:1, transmi
 
 The verse, in al-Wahidi's heading: «يا أيها الذين آمنوا لا تقدموا بين يدي الله ورسوله».
 
+## Rapport complet (texte source arabe)
+<div dir="rtl" lang="ar">
+
+خلافك، فتماريا حتى ارتفعت أصواتهما، فنزل في ذلك قوله: {يا أيها
+
+</div>
+
 ## Place in the museum
 Source : [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an d'al-Wahidi]]. Le verset : [[passage/quran-15-1|Coran 15-1]].

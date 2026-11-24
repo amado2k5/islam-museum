@@ -10,5 +10,12 @@ Al-Wahidi's report on the occasion of revelation of al-Ma'ida 5:3, narrated from
 
 The verse, in al-Wahidi's heading: «اليوم أكملت لكم دينكم».
 
+## Full report (Arabic source text)
+<div dir="rtl" lang="ar">
+
+نزلت هذه الآية يوم الجمعة، وكان يوم عرفة بعد العصر في حجة الوداع سنة
+
+</div>
+
 ## Place in the museum
 Source: [[work/asbab-al-nuzul-wahidi|al-Wahidi's Asbab nuzul al-Qur'an]]. The verse: [[passage/quran-5-3|Qur'an 5-3]].

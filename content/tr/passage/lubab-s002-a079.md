@@ -10,5 +10,12 @@ al-Baqara 2:79 ayetinin nüzul sebebi hakkında es-Suyuti'nin rivayeti; Lübabü
 
 The verse, in al-Suyuti's heading: «فويل للذين يكتبون الكتاب بأيديهم (ك)».
 
+## Tam rivayet (Arapça kaynak metin)
+<div dir="rtl" lang="ar">
+
+فويل للذين يكتبون الكتاب بأيديهم ⁦(ك)⁩ أخرج النسائي عن ابن عباس قال نزلت هذه الآية في أهل الكتاب ⁦(ك)⁩ وأخرج ابن أبي حاتم من طريق عكرمة عن ابن عباس قال نزلت في أحبار اليهود وجدوا صفة النبي مكتوبة في التوراة أكحل
+
+</div>
+
 ## Place in the museum
 Kaynak: [[work/lubab-al-nuqul-suyuti|es-Suyuti'nin Lubab al-Nuqul]]. Ayet: [[passage/quran-2-79|Kur'an 2-79]].

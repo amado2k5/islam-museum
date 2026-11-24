@@ -10,5 +10,12 @@ Al-Wahidi's report on the occasion of revelation of ad-Duha 93:6, narrated from 
 
 The verse, in al-Wahidi's heading: «ألم يجدك يتيما فآوى».
 
+## Full report (Arabic source text)
+<div dir="rtl" lang="ar">
+
+وسلم - "لقد سألت ربي مسألة وددت أني لم أكن سألته، قلت: يا رب إنه قد كانت
+
+</div>
+
 ## Place in the museum
 Source: [[work/asbab-al-nuzul-wahidi|al-Wahidi's Asbab nuzul al-Qur'an]]. The verse: [[passage/quran-93-6|Qur'an 93-6]].

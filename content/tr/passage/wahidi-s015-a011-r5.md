@@ -10,5 +10,12 @@ al-Hijr 15:11 ayetinin nüzül sebebi hakkında El-Vahidi'nin rivayeti; Esbab N�
 
 The verse, in al-Wahidi's heading: «ولا تنابزوا بالألقاب».
 
+## Tam rivayet (Arapça kaynak metin)
+<div dir="rtl" lang="ar">
+
+أخبرنا أحمد بن محمد بن إبراهيم المهرجاني قال: أخبرنا أبو عبد الله بن بطة قال: أخبرنا عبد الله بن محمد بن عبد العزيز قال: أخبرنا إسحاق بن إبراهيم المروزي قال: أخبرنا حفص بن غياث، عن داود بن أبي هند، عن الشعبي، عن أبي جبيرة بن
+
+</div>
+
 ## Place in the museum
 Kaynak: [[work/asbab-nuzul-wahidi|El-Vahidi'nin Esbab Nüzul el-Kur'an'ı]]. Ayet: [[passage/quran-15-11|Kur'an 15-11]].

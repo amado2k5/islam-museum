@@ -10,5 +10,12 @@ Riwayat al-Wahidi tentang sebab turunnya al-Kahf 18:5, diriwayatkan dari generas
 
 The verse, in al-Wahidi's heading: «فمن كان يرجوا لقاء ربه».
 
+## Laporan lengkap (teks sumber Arab)
+<div dir="rtl" lang="ar">
+
+قال ابن عباس: نزلت في جندب بن زهير العامري، وذلك أنه قال: إني أعمل
+
+</div>
+
 ## Place in the museum
 Sumber: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an al-Wahidi]]. Ayatnya: [[passage/quran-18-5|Al-Qur'an 18-5]].

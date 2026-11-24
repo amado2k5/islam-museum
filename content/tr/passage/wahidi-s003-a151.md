@@ -10,5 +10,12 @@ Al 'Imran 3:151 ayetinin nüzül sebebi hakkında El-Vahidi'nin rivayeti; Esbab 
 
 The verse, in al-Wahidi's heading: «سنلقي في قلوب الذين كفروا الرعب».
 
+## Tam rivayet (Arapça kaynak metin)
+<div dir="rtl" lang="ar">
+
+على ذلك ألقى اللهفي قلوبهم الرعب حتى رجعوا عما عزموا، وأنزل الله
+
+</div>
+
 ## Place in the museum
 Kaynak: [[work/asbab-nuzul-wahidi|El-Vahidi'nin Esbab Nüzul el-Kur'an'ı]]. Ayet: [[passage/quran-3-151|Kur'an 3-151]].

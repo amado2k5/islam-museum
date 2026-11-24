@@ -10,5 +10,12 @@ Al-Wahidi's report on the occasion of revelation of Bani Isra'il 17:73, narrated
 
 The verse, in al-Wahidi's heading: «وإن كادوا ليفتنونك عن الذي أوحينا إليك».
 
+## Full report (Arabic source text)
+<div dir="rtl" lang="ar">
+
+قال عطاء عن ابن عباس: نزلت في وفد ثقيف أتوا رسول الله
+
+</div>
+
 ## Place in the museum
 Source: [[work/asbab-al-nuzul-wahidi|al-Wahidi's Asbab nuzul al-Qur'an]]. The verse: [[passage/quran-17-73|Qur'an 17-73]].

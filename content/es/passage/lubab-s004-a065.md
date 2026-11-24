@@ -10,5 +10,12 @@ Informe de al-Suyuti sobre la ocasión de revelación de an-Nisa 4:65, en Lubab 
 
 The verse, in al-Suyuti's heading: «فلا وربك».
 
+## Informe completo (texto fuente en árabe)
+<div dir="rtl" lang="ar">
+
+فلا وربك أخرج الائمة الستة عن عبد الله بن الزبير قال خاصم الزبير رجلا من الأنصار في شراج الحرة فقال النبي اسق يا زبير ثم أرسل الماء إلى جارك فقال الأنصاري يا رسول الله إن كان ابن عمتك فتلون وجهه ثم
+
+</div>
+
 ## Place in the museum
 Fuente: [[work/lubab-al-nuqul-suyuti|de al-Suyuti Lubab al-Nuqul]]. El versículo: [[passage/quran-4-65|Corán 4-65]].

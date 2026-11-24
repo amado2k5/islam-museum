@@ -10,5 +10,12 @@ Riwayat al-Wahidi tentang sebab turunnya al-'Alaq 96:17, diriwayatkan dari gener
 
 The verse, in al-Wahidi's heading: «فليدع ناديه سندع الزبانية».
 
+## Laporan lengkap (teks sumber Arab)
+<div dir="rtl" lang="ar">
+
+نزلت في أبي جهل.
+
+</div>
+
 ## Place in the museum
 Sumber: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an al-Wahidi]]. Ayatnya: [[passage/quran-96-17|Al-Qur'an 96-17]].

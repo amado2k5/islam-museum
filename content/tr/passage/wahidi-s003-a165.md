@@ -10,5 +10,12 @@ Al 'Imran 3:165 ayetinin nüzül sebebi hakkında El-Vahidi'nin rivayeti; Esbab 
 
 The verse, in al-Wahidi's heading: «أولما أصابتكم مصيبة».
 
+## Tam rivayet (Arapça kaynak metin)
+<div dir="rtl" lang="ar">
+
+وكسرت رباعيته وهشمت البيضة على رأسه، وسال الدم على وجهه، فأنزل الله
+
+</div>
+
 ## Place in the museum
 Kaynak: [[work/asbab-nuzul-wahidi|El-Vahidi'nin Esbab Nüzul el-Kur'an'ı]]. Ayet: [[passage/quran-3-165|Kur'an 3-165]].

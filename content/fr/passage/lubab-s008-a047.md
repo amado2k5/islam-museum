@@ -10,5 +10,12 @@ Rapport d'al-Suyuti sur la circonstance de révélation de al-Anfal 8:47, dans L
 
 The verse, in al-Suyuti's heading: «ولا تكونوا».
 
+## Rapport complet (texte source arabe)
+<div dir="rtl" lang="ar">
+
+ولا تكونوا الآية أخرج ابن جرير عن محمد ابن كعب القرظي قال لما خرجت قريش من مكة إلى بدر خرجوا بالقيان والدفوف فأنزل الله ولا تكونوا كالذين خرجوا من ديارهم بطرا الآية
+
+</div>
+
 ## Place in the museum
 Source : [[work/lubab-al-nuqul-suyuti|d'al-Suyuti Lubab al-Nuqul]]. Le verset: [[passage/quran-8-47|Coran 8-47]].

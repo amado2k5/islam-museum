@@ -10,5 +10,12 @@ Rapport d'al-Wahidi sur la circonstance de révélation de al-Ma'ida 5:67, trans
 
 The verse, in al-Wahidi's heading: «يا أيها الرسول بلغ ما أنزل إليك من ربك».
 
+## Rapport complet (texte source arabe)
+<div dir="rtl" lang="ar">
+
+وسلم - يهاب قريشا واليهود والنصارى، فأنزل اللههذه الآية.
+
+</div>
+
 ## Place in the museum
 Source : [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an d'al-Wahidi]]. Le verset : [[passage/quran-5-67|Coran 5-67]].

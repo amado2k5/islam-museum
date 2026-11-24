@@ -10,5 +10,12 @@ Informe de al-Suyuti sobre la ocasión de revelación de al-Baqara 2:154, en Lub
 
 The verse, in al-Suyuti's heading: «ولا تقولوا لمن يقتل».
 
+## Informe completo (texto fuente en árabe)
+<div dir="rtl" lang="ar">
+
+ولا تقولوا لمن يقتل الآية أخرج ابن منده في الصحابة من طريق السدي الصغير عن الكلبي عن أبي صالح عن ابن عباس قال قتل تميم بن الحمام ببدر وفيه وفي غيره نزلت ولا تقولوا لمن يقتل في سبيل الله أموات الآية قال أبو نعيم اتفقوا
+
+</div>
+
 ## Place in the museum
 Fuente: [[work/lubab-al-nuqul-suyuti|de al-Suyuti Lubab al-Nuqul]]. El versículo: [[passage/quran-2-154|Corán 2-154]].

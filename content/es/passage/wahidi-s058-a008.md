@@ -10,5 +10,12 @@ Informe de al-Wahidi sobre la ocasión de revelación de al-Mujadila 58:8, trans
 
 The verse, in al-Wahidi's heading: «ألم تر إلى الذين نهوا عن النجوى».
 
+## Informe completo (texto fuente en árabe)
+<div dir="rtl" lang="ar">
+
+قال ابن عباس ومجاهد: نزلت في اليهود والمنافقين؛ وذلك أنهم كانوا
+
+</div>
+
 ## Place in the museum
 Fuente: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an de al-Wahidi]]. El versículo: [[passage/quran-58-8|Corán 58-8]].

@@ -10,5 +10,12 @@ al-Hijr 15:14 کے سببِ نزول پر الواحدی کی روایت — «�
 
 The verse, in al-Wahidi's heading: «قالت الأعراب آمنا».
 
+## مکمل روایت ⁦(عربی ماخذ متن)⁩
+<div dir="rtl" lang="ar">
+
+نزلت في أعراب من بني أسد بن خزيمة قدموا على رسول الله
+
+</div>
+
 ## Place in the museum
 ماخذ: [[work/asbab-nuzul-wahidi|الواحدی کی اسباب نزول القرآن]]۔ آیت: [[passage/quran-15-14|قرآن 15-14]]۔

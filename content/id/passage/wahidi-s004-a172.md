@@ -10,5 +10,12 @@ Riwayat al-Wahidi tentang sebab turunnya an-Nisa 4:172, diriwayatkan dari genera
 
 The verse, in al-Wahidi's heading: «لن يستنكف المسيح».
 
+## Laporan lengkap (teks sumber Arab)
+<div dir="rtl" lang="ar">
+
+فقال لهم: "إنه ليس بعار لعيسى أن يكون عبد الله"، قالوا: بلى، فنزلت: {لن
+
+</div>
+
 ## Place in the museum
 Sumber: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an al-Wahidi]]. Ayatnya: [[passage/quran-4-172|Al-Qur'an 4-172]].

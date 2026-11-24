@@ -10,5 +10,12 @@ Riwayat as-Suyuti tentang sebab turunnya an-Nisa 4:116, dalam Lubab al-Nuqul fi 
 
 The verse, in al-Suyuti's heading: «إن الله لا يغفر أن يشرك به».
 
+## Laporan lengkap (teks sumber Arab)
+<div dir="rtl" lang="ar">
+
+إن الله لا يغفر أن يشرك به أخرج ابن أبي حاتم والطبراني عن أبي أيوب الأنصاري قال جاء رجل إلى النبي فقال إن لي ابن أخ لا ينتهي عن الحرام قال وما دينه قال يصلي ويوحد الله قال استوهب منه دينه
+
+</div>
+
 ## Place in the museum
 Sumber: [[work/lubab-al-nuqul-suyuti|as-Suyuti Lubab al-Nuqul]]. Ayatnya: [[passage/quran-4-116|Al-Qur'an 4-116]].

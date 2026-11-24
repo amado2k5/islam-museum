@@ -10,5 +10,12 @@ Informe de al-Wahidi sobre la ocasión de revelación de al-Munafiqun 63:7, tran
 
 The verse, in al-Wahidi's heading: «هم الذين يقولون لا تنفقوا على من عند رسول الله».
 
+## Informe completo (texto fuente en árabe)
+<div dir="rtl" lang="ar">
+
+المصطلق، فنزل على ماء من مياههم يقال له: المريسيع، فوردت واردة الناس ومع
+
+</div>
+
 ## Place in the museum
 Fuente: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an de al-Wahidi]]. El versículo: [[passage/quran-63-7|Corán 63-7]].

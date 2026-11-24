@@ -10,5 +10,12 @@ Rapport d'al-Wahidi sur la circonstance de révélation de ar-Ra'd 13:31, transm
 
 The verse, in al-Wahidi's heading: «ولو أن قرآنا سيرت به الجبال».
 
+## Rapport complet (texte source arabe)
+<div dir="rtl" lang="ar">
+
+والصيف، فإنك تزعم أنك كهيئتهم، فبينا نحن حوله إذ نزل عليه الوحي، فلما
+
+</div>
+
 ## Place in the museum
 Source : [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an d'al-Wahidi]]. Le verset : [[passage/quran-13-31|Coran 13-31]].

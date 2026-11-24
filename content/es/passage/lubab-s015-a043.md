@@ -10,5 +10,12 @@ Informe de al-Suyuti sobre la ocasión de revelación de al-Hijr 15:43, en Lubab
 
 The verse, in al-Suyuti's heading: «وان جهنم لموعد هم أجمعين فر ثلاثة أيام».
 
+## Informe completo (texto fuente en árabe)
+<div dir="rtl" lang="ar">
+
+وان جهنم لموعد هم أجمعين فر ثلاثة أيام هاربا من الخوف لا يعقل فجئ به النبي فسأله فقال يا رسول الله أنزلت هذه الآية وإن جهنم لموعدهم أجمعين فوالذي بعثك بالحق لقد قطعت قلبي فأنزل الله إن المتقين في جنات وعيون
+
+</div>
+
 ## Place in the museum
 Fuente: [[work/lubab-al-nuqul-suyuti|de al-Suyuti Lubab al-Nuqul]]. El versículo: [[passage/quran-15-43|Corán 15-43]].

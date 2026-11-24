@@ -10,5 +10,12 @@ Informe de al-Suyuti sobre la ocasión de revelación de al-Ahzab 33:51, en Luba
 
 The verse, in al-Suyuti's heading: «ترجي من تشاء».
 
+## Informe completo (texto fuente en árabe)
+<div dir="rtl" lang="ar">
+
+ترجي من تشاء أخرج الشيخان عن عائشة أنها كانت تقول أما تستحي المرأة أن تهب نفسها فأنزل الله ترجي من تشاء الآية فقالت عائشة أرى ربك يسارع لك في هواك وأخرج ابن سعد عن أبي رزين قال هم رسول الله أن
+
+</div>
+
 ## Place in the museum
 Fuente: [[work/lubab-al-nuqul-suyuti|de al-Suyuti Lubab al-Nuqul]]. El versículo: [[passage/quran-33-51|Corán 33-51]].

@@ -10,5 +10,12 @@ Informe de al-Suyuti sobre la ocasión de revelación de al-Baqara 2:26, en Luba
 
 The verse, in al-Suyuti's heading: «إن الله لا يستحي أن يضرب مثلا».
 
+## Informe completo (texto fuente en árabe)
+<div dir="rtl" lang="ar">
+
+إن الله لا يستحي أن يضرب مثلا الآية ⁦(ك)⁩ أخرج ابن جرير عن السدي بأسانيده لما ضرب الله هذين المثلين للمنافقين قوله مثله كمثل الذي استوقد نارا وقوله أو كصيب من السماء قال المنافقون الله أعلى وأجل من أن يضرب هذه الأمثال فأنزل الله إن
+
+</div>
+
 ## Place in the museum
 Fuente: [[work/lubab-al-nuqul-suyuti|de al-Suyuti Lubab al-Nuqul]]. El versículo: [[passage/quran-2-26|Corán 2-26]].

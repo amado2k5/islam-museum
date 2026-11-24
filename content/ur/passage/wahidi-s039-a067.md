@@ -10,5 +10,12 @@ az-Zumar 39:67 کے سببِ نزول پر الواحدی کی روایت — «
 
 The verse, in al-Wahidi's heading: «وما قدروا الله حق قدره».
 
+## مکمل روایت ⁦(عربی ماخذ متن)⁩
+<div dir="rtl" lang="ar">
+
+نواجذه، فأنزل الله: {وما قدروا الله حق قدره} الآية.
+
+</div>
+
 ## Place in the museum
 ماخذ: [[work/asbab-nuzul-wahidi|الواحدی کی اسباب نزول القرآن]]۔ آیت: [[passage/quran-39-67|قرآن 39-67]]۔

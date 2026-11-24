@@ -10,5 +10,12 @@ Riwayat al-Wahidi tentang sebab turunnya al-Mu'minun 23:14, diriwayatkan dari ge
 
 The verse, in al-Wahidi's heading: «فتبارك الله أحسن الخالقين».
 
+## Laporan lengkap (teks sumber Arab)
+<div dir="rtl" lang="ar">
+
+قلت: يا رسول الله لو صلينا خلف المقام، فأنزل الله: {واتخذوا من
+
+</div>
+
 ## Place in the museum
 Sumber: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an al-Wahidi]]. Ayatnya: [[passage/quran-23-14|Al-Qur'an 23-14]].

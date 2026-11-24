@@ -10,5 +10,12 @@ Rapport d'al-Wahidi sur la circonstance de révélation de al-Baqara 2:168, tran
 
 The verse, in al-Wahidi's heading: «يا أيها الناس كلوا مما في الأرض حلالا طيبا».
 
+## Rapport complet (texte source arabe)
+<div dir="rtl" lang="ar">
+
+قال الكلبي عن أبي صالح: نزلت في ثقيف وخزاعة وعامر بن صعصعة حرموا على
+
+</div>
+
 ## Place in the museum
 Source : [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an d'al-Wahidi]]. Le verset : [[passage/quran-2-168|Coran 2-168]].

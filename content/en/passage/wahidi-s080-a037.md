@@ -10,5 +10,12 @@ Al-Wahidi's report on the occasion of revelation of 'Abasa 80:37, narrated from 
 
 The verse, in al-Wahidi's heading: «لكل امرئ منهم يومئذ شأن يغنيه».
 
+## Full report (Arabic source text)
+<div dir="rtl" lang="ar">
+
+واسوأتاه، فأنزل الله: {لكل امرئ منهم يومئذ شأن يغنيه}.
+
+</div>
+
 ## Place in the museum
 Source: [[work/asbab-al-nuzul-wahidi|al-Wahidi's Asbab nuzul al-Qur'an]]. The verse: [[passage/quran-80-37|Qur'an 80-37]].

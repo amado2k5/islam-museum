@@ -10,5 +10,12 @@ al-Baqara 2:262 ayetinin nüzül sebebi hakkında El-Vahidi'nin rivayeti; Esbab 
 
 The verse, in al-Wahidi's heading: «الذين ينفقون أموالهم بالليل والنهار سرا وعلانية».
 
+## Tam rivayet (Arapça kaynak metin)
+<div dir="rtl" lang="ar">
+
+عن رسول الله- قال: "نزلت هذه الآية: {الذين ينفقون
+
+</div>
+
 ## Place in the museum
 Kaynak: [[work/asbab-nuzul-wahidi|El-Vahidi'nin Esbab Nüzul el-Kur'an'ı]]. Ayet: [[passage/quran-2-262|Kur'an 2-262]].

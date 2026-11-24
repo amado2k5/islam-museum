@@ -10,5 +10,12 @@ Riwayat as-Suyuti tentang sebab turunnya al-Anfal 8:64, dalam Lubab al-Nuqul fi 
 
 The verse, in al-Suyuti's heading: «يا أيها النبي حسبك الله».
 
+## Laporan lengkap (teks sumber Arab)
+<div dir="rtl" lang="ar">
+
+يا أيها النبي حسبك الله الآية ك روى البزار بسند ضعيف من طريق عكرمة عن ابن عباس قال لما أسلم عمر قال المشركون قد انتصف القوم منا اليوم وانزل الله يا أيها النبي حسبك الله ومن اتبعك من المؤمنين وله شواهد ⁦(ك)⁩ وأخرج الطبراني وغيره
+
+</div>
+
 ## Place in the museum
 Sumber: [[work/lubab-al-nuqul-suyuti|as-Suyuti Lubab al-Nuqul]]. Ayatnya: [[passage/quran-8-64|Al-Qur'an 8-64]].

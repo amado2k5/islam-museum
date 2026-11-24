@@ -10,5 +10,12 @@ Riwayat as-Suyuti tentang sebab turunnya Al 'Imran 3:190, dalam Lubab al-Nuqul f
 
 The verse, in al-Suyuti's heading: «إن في خلق السموات».
 
+## Laporan lengkap (teks sumber Arab)
+<div dir="rtl" lang="ar">
+
+إن في خلق السموات الآية أخرج الطبراني وابن أبي حاتم عن ابن عباس قال أتت قريش اليهود فقالوا بم جاءكم موسى من الآيات قالوا عصاه ويد بيضاء للناظرين وأتوا النصارى فقالوا كيف كان عيسى قالوا كان يبرئ الآكمة أهل والأبرص ويحيى الموتى فأتوا النبي صلى
+
+</div>
+
 ## Place in the museum
 Sumber: [[work/lubab-al-nuqul-suyuti|as-Suyuti Lubab al-Nuqul]]. Ayatnya: [[passage/quran-3-190|Al-Qur'an 3-190]].

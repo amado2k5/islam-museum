@@ -10,5 +10,12 @@ Informe de al-Suyuti sobre la ocasión de revelación de al-Ma'ida 5:77, en Luba
 
 The verse, in al-Suyuti's heading: «قل يا أهل الكتاب».
 
+## Informe completo (texto fuente en árabe)
+<div dir="rtl" lang="ar">
+
+قل يا أهل الكتاب الآية روى ابن جرير وابن أبي حاتم عن ابن عباس قال جاء رافع وسلام بن مشكم ومالك بن الصيف فقالوا يا محمد ألست تزعم أنك على ملة إبراهيم ودينه وتؤمن بما عندنا قال بلى ولكنكم أحدثتم وجحدتم بما فيها وكتمتم ما
+
+</div>
+
 ## Place in the museum
 Fuente: [[work/lubab-al-nuqul-suyuti|de al-Suyuti Lubab al-Nuqul]]. El versículo: [[passage/quran-5-77|Corán 5-77]].

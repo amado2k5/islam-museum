@@ -10,5 +10,12 @@ al-Qalam 68:4 ayetinin nüzül sebebi hakkında El-Vahidi'nin rivayeti; Esbab N�
 
 The verse, in al-Wahidi's heading: «4».
 
+## Tam rivayet (Arapça kaynak metin)
+<div dir="rtl" lang="ar">
+
+من أهل بيته إلا قال: "لبيك" ولذلك أنزل الله- {وإنك لعلى خلق
+
+</div>
+
 ## Place in the museum
 Kaynak: [[work/asbab-nuzul-wahidi|El-Vahidi'nin Esbab Nüzul el-Kur'an'ı]]. Ayet: [[passage/quran-68-4|Kur'an 68-4]].

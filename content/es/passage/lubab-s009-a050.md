@@ -10,5 +10,12 @@ Informe de al-Suyuti sobre la ocasión de revelación de Bara'a (at-Tawba) 9:50,
 
 The verse, in al-Suyuti's heading: «إن تصبك حسنة».
 
+## Informe completo (texto fuente en árabe)
+<div dir="rtl" lang="ar">
+
+إن تصبك حسنة الآية أخرج ابن أبي حاتم عن جابر ابن عبد الله قال جعل المنافقون الذين تخلفوا بالمدينة يخبرون عن النبي أخبار السوء يقولون إن محمدا وأصحابه قد جهدوا في سفرهم وهلكوا فبلغهم تكذيب حديثهم وعافية النبي
+
+</div>
+
 ## Place in the museum
 Fuente: [[work/lubab-al-nuqul-suyuti|de al-Suyuti Lubab al-Nuqul]]. El versículo: [[passage/quran-9-50|Corán 9-50]].

@@ -10,5 +10,12 @@ Bani Isra'il 17:59 ayetinin nüzül sebebi hakkında El-Vahidi'nin rivayeti; Esb
 
 The verse, in al-Wahidi's heading: «وما منعنا أن نرسل بالآيات».
 
+## Tam rivayet (Arapça kaynak metin)
+<div dir="rtl" lang="ar">
+
+سأل أهل مكة النبي- أن يجعل الصفا ذهبا وأن ينحي
+
+</div>
+
 ## Place in the museum
 Kaynak: [[work/asbab-nuzul-wahidi|El-Vahidi'nin Esbab Nüzul el-Kur'an'ı]]. Ayet: [[passage/quran-17-59|Kur'an 17-59]].

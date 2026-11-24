@@ -10,5 +10,12 @@ Informe de al-Wahidi sobre la ocasión de revelación de al-An'am 6:93, transmit
 
 The verse, in al-Wahidi's heading: «ومن قال سأنزل مثل ما أنزل الله».
 
+## Informe completo (texto fuente en árabe)
+<div dir="rtl" lang="ar">
+
+نزلت في عبد الله بن سعد بن أبي سرح كان قد تكلم بالإسلام، فدعاه رسول
+
+</div>
+
 ## Place in the museum
 Fuente: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an de al-Wahidi]]. El versículo: [[passage/quran-6-93|Corán 6-93]].

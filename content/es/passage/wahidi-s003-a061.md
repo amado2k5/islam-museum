@@ -10,5 +10,12 @@ Informe de al-Wahidi sobre la ocasión de revelación de Al 'Imran 3:61, transmi
 
 The verse, in al-Wahidi's heading: «فقل تعالوا ندع أبناءنا وأبناءكم».
 
+## Informe completo (texto fuente en árabe)
+<div dir="rtl" lang="ar">
+
+الله عليه وسلم - ونزل القرآن: {ذلك نتلوه عليك من الآيات والذكر الحكيم}
+
+</div>
+
 ## Place in the museum
 Fuente: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an de al-Wahidi]]. El versículo: [[passage/quran-3-61|Corán 3-61]].

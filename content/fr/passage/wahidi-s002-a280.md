@@ -10,5 +10,12 @@ Rapport d'al-Wahidi sur la circonstance de révélation de al-Baqara 2:280, tran
 
 The verse, in al-Wahidi's heading: «وإن كان ذو عسرة».
 
+## Rapport complet (texte source arabe)
+<div dir="rtl" lang="ar">
+
+أن تدرك الثمرة، فأبوا أن يؤخروهم فأنزل الله: {وإن كان ذو عسرة}
+
+</div>
+
 ## Place in the museum
 Source : [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an d'al-Wahidi]]. Le verset : [[passage/quran-2-280|Coran 2-280]].

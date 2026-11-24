@@ -10,5 +10,12 @@ al-Ahzab 33:59 ayetinin nüzul sebebi hakkında es-Suyuti'nin rivayeti; Lübabü
 
 The verse, in al-Suyuti's heading: «يا أيها النبي قل لأزواجك».
 
+## Tam rivayet (Arapça kaynak metin)
+<div dir="rtl" lang="ar">
+
+يا أيها النبي قل لأزواجك الآية أخرج مسلم وأحمد والنسائي من طريق أبي الزبير عن جابر قال أقبل أبو بكر يستأذن على رسول الله فلم يؤذن له ثم أقبل عمر فاستأذن فلم يؤذن له ثم أذن لهما فدخلا والنبي صلى الله
+
+</div>
+
 ## Place in the museum
 Kaynak: [[work/lubab-al-nuqul-suyuti|es-Suyuti'nin Lubab al-Nuqul]]. Ayet: [[passage/quran-33-59|Kur'an 33-59]].

@@ -10,5 +10,12 @@ Al-Suyuti's report on the occasion of revelation of Bara'a (at-Tawba) 9:65, in L
 
 The verse, in al-Suyuti's heading: «ولئن سألتهم الآيات».
 
+## Full report (Arabic source text)
+<div dir="rtl" lang="ar">
+
+ولئن سألتهم الآيات أخرج ابن أبي حاتم عن ابن عمر قال قال رجل في غزوة تبوك في مجلس يوما ما رأينا مثل قرآن هؤلاء ولا أرغب بطونا وأكذب ألسنة ولا أجبن عند اللقاء منهم فقال له رجل كذبت ولكنك منافق لأخبرن رسول الله صلى الله
+
+</div>
+
 ## Place in the museum
 Source: [[work/lubab-al-nuqul-suyuti|al-Suyuti's Lubab al-Nuqul]]. The verse: [[passage/quran-9-65|Qur'an 9-65]].

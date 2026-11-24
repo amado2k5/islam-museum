@@ -10,5 +10,12 @@ Hud 11:5 ayetinin nüzül sebebi hakkında El-Vahidi'nin rivayeti; Esbab Nüzul 
 
 The verse, in al-Wahidi's heading: «ألا إنهم يثنون صدورهم».
 
+## Tam rivayet (Arapça kaynak metin)
+<div dir="rtl" lang="ar">
+
+نزلت في الأخنس بن شريق، وكان رجلا حلو الكلام حلو المنظر، يلقى رسول
+
+</div>
+
 ## Place in the museum
 Kaynak: [[work/asbab-nuzul-wahidi|El-Vahidi'nin Esbab Nüzul el-Kur'an'ı]]. Ayet: [[passage/quran-11-5|Kur'an 11-5]].

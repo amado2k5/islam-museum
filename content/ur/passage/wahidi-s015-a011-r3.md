@@ -10,5 +10,12 @@ al-Hijr 15:11 کے سببِ نزول پر الواحدی کی روایت — «�
 
 The verse, in al-Wahidi's heading: «11».
 
+## مکمل روایت ⁦(عربی ماخذ متن)⁩
+<div dir="rtl" lang="ar">
+
+نزلت في ثابت بن قيس بن شماس.
+
+</div>
+
 ## Place in the museum
 ماخذ: [[work/asbab-nuzul-wahidi|الواحدی کی اسباب نزول القرآن]]۔ آیت: [[passage/quran-15-11|قرآن 15-11]]۔

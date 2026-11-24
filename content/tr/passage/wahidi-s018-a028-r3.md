@@ -10,5 +10,12 @@ al-Kahf 18:28 ayetinin nüzül sebebi hakkında El-Vahidi'nin rivayeti; Esbab N�
 
 The verse, in al-Wahidi's heading: «ولا تطع من أغفلنا قلبه عن ذكرنا».
 
+## Tam rivayet (Arapça kaynak metin)
+<div dir="rtl" lang="ar">
+
+قال: نزلت في أمية بن خلف الجمحي، وذلك أنه دعا النبي- إلى أمر كرهه من طرد الفقراء عنه وتقريب صناديد أهل مكة، فأنزل الله
+
+</div>
+
 ## Place in the museum
 Kaynak: [[work/asbab-nuzul-wahidi|El-Vahidi'nin Esbab Nüzul el-Kur'an'ı]]. Ayet: [[passage/quran-18-28|Kur'an 18-28]].

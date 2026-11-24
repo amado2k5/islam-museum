@@ -10,5 +10,12 @@ Al-Wahidi's report on the occasion of revelation of al-Mujadila 58:2, narrated f
 
 The verse, in al-Wahidi's heading: «الذين يظاهرون منكم من نسائهم».
 
+## Full report (Arabic source text)
+<div dir="rtl" lang="ar">
+
+الأشعث قال: أخبرنا محمد بن بكار قال: أخبرنا سعيد بن بشير أنه سأل قتادة
+
+</div>
+
 ## Place in the museum
 Source: [[work/asbab-al-nuzul-wahidi|al-Wahidi's Asbab nuzul al-Qur'an]]. The verse: [[passage/quran-58-2|Qur'an 58-2]].

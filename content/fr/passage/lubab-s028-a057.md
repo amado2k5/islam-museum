@@ -10,5 +10,12 @@ Rapport d'al-Suyuti sur la circonstance de révélation de al-Qasas 28:57, dans 
 
 The verse, in al-Suyuti's heading: «وقالوا إن نتبع الهدى معك».
 
+## Rapport complet (texte source arabe)
+<div dir="rtl" lang="ar">
+
+وقالوا إن نتبع الهدى معك الآية أخرج ابن جرير من طريق العوفي عن ابن عباس أن أناسا من قريش قالوا للنبي إن نتبعك تخطفنا الناس فنزلت وأخرج النسائي عن ابن عباس أن الحرث بن عامر بن نوفل هو الذي قال ذلك
+
+</div>
+
 ## Place in the museum
 Source : [[work/lubab-al-nuqul-suyuti|d'al-Suyuti Lubab al-Nuqul]]. Le verset: [[passage/quran-28-57|Coran 28-57]].

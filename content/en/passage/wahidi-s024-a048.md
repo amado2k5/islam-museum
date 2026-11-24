@@ -10,5 +10,12 @@ Al-Wahidi's report on the occasion of revelation of an-Nur 24:48, narrated in As
 
 The verse, in al-Wahidi's heading: «وإذا دعوا إلى الله ورسوله».
 
+## Full report (Arabic source text)
+<div dir="rtl" lang="ar">
+
+قال المفسرون: هذه الآية والتي بعدها نزلتا في "بشر" المنافق وخصمه
+
+</div>
+
 ## Place in the museum
 Source: [[work/asbab-al-nuzul-wahidi|al-Wahidi's Asbab nuzul al-Qur'an]]. The verse: [[passage/quran-24-48|Qur'an 24-48]].

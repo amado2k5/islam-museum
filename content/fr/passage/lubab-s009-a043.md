@@ -10,5 +10,12 @@ Rapport d'al-Suyuti sur la circonstance de révélation de Bara'a (at-Tawba) 9:4
 
 The verse, in al-Suyuti's heading: «عفا الله عنك».
 
+## Rapport complet (texte source arabe)
+<div dir="rtl" lang="ar">
+
+عفا الله عنك الآية أخرج ابن جرير عن عمرو بن ميمون الأزدي قال اثنتان فعلهما رسول الله لم يؤمر فيها بشئ: إذنه للمنافقين وأخذه الفداء من الآسارى فأنزل الله عفا الله عنك لم أذنت لهم [43]
+
+</div>
+
 ## Place in the museum
 Source : [[work/lubab-al-nuqul-suyuti|d'al-Suyuti Lubab al-Nuqul]]. Le verset: [[passage/quran-9-43|Coran 9-43]].

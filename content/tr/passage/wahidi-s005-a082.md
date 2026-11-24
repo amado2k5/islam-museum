@@ -10,5 +10,12 @@ al-Ma'ida 5:82 ayetinin nüzül sebebi hakkında El-Vahidi'nin rivayeti; Esbab N
 
 The verse, in al-Wahidi's heading: «لتجدن أشد الناس عداوة للذين آمنوا اليهود».
 
+## Tam rivayet (Arapça kaynak metin)
+<div dir="rtl" lang="ar">
+
+إلى قوله: {والذين كفروا وكذبوا} نزلت في النجاشي وأصحابه.
+
+</div>
+
 ## Place in the museum
 Kaynak: [[work/asbab-nuzul-wahidi|El-Vahidi'nin Esbab Nüzul el-Kur'an'ı]]. Ayet: [[passage/quran-5-82|Kur'an 5-82]].

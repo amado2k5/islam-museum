@@ -10,5 +10,12 @@ Al-Wahidi's report on the occasion of revelation of al-Baqara 2:89, narrated fro
 
 The verse, in al-Wahidi's heading: «وكانوا من قبل يستفتحون على الذين كفروا».
 
+## Full report (Arabic source text)
+<div dir="rtl" lang="ar">
+
+فعاذت اليهود بهذا الدعاء وقالت: اللهم إنا نسألك بحق النبي الأمي الذي
+
+</div>
+
 ## Place in the museum
 Source: [[work/asbab-al-nuzul-wahidi|al-Wahidi's Asbab nuzul al-Qur'an]]. The verse: [[passage/quran-2-89|Qur'an 2-89]].

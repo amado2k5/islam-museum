@@ -10,5 +10,12 @@ Rapport d'al-Suyuti sur la circonstance de révélation de Al 'Imran 3:143, dans
 
 The verse, in al-Suyuti's heading: «ولقد كنتم».
 
+## Rapport complet (texte source arabe)
+<div dir="rtl" lang="ar">
+
+ولقد كنتم الآية أخرج ابن أبي حاتم من طريق العوفي عن ابن عباس أن رجالا من الصحابة كانوا يقولون ليتنا نقتل كما قتل اصحاب بدر أو ليت لنا يوما كيوم بدر نقاتل فيه المشركين ونبلى فيه خيرا أو نلتمس الشهادة والجنة أو الحياة والرزق فأشهدهم
+
+</div>
+
 ## Place in the museum
 Source : [[work/lubab-al-nuqul-suyuti|d'al-Suyuti Lubab al-Nuqul]]. Le verset: [[passage/quran-3-143|Coran 3-143]].

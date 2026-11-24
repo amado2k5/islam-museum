@@ -10,5 +10,12 @@ Informe de al-Wahidi sobre la ocasión de revelación de an-Nisa 4:95, transmiti
 
 The verse, in al-Wahidi's heading: «لا يستوي القاعدون من المؤمنين».
 
+## Informe completo (texto fuente en árabe)
+<div dir="rtl" lang="ar">
+
+ثابت قال: كنت عند النبي- حين نزلت عليه: {لا يستوي
+
+</div>
+
 ## Place in the museum
 Fuente: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an de al-Wahidi]]. El versículo: [[passage/quran-4-95|Corán 4-95]].

@@ -10,5 +10,12 @@ Riwayat al-Wahidi tentang sebab turunnya al-Hijr 15:47, diriwayatkan dalam Asbab
 
 The verse, in al-Wahidi's heading: «ونزعنا ما في صدورهم».
 
+## Laporan lengkap (teks sumber Arab)
+<div dir="rtl" lang="ar">
+
+علي بن الحسينأن هذه الآية نزلت في أبي بكر وعمر وعلي رضي
+
+</div>
+
 ## Place in the museum
 Sumber: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an al-Wahidi]]. Ayatnya: [[passage/quran-15-47|Al-Qur'an 15-47]].

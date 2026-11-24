@@ -10,5 +10,12 @@ Al-Wahidi's report on the occasion of revelation of al-Muddaththir 74:11, narrat
 
 The verse, in al-Wahidi's heading: «ذرني ومن خلقت وحيدا».
 
+## Full report (Arabic source text)
+<div dir="rtl" lang="ar">
+
+هذا سحر يؤثر يأثره عن غيره، فنزلت: {ذرني ومن خلقت وحيدا} الآيات كلها.
+
+</div>
+
 ## Place in the museum
 Source: [[work/asbab-al-nuzul-wahidi|al-Wahidi's Asbab nuzul al-Qur'an]]. The verse: [[passage/quran-74-11|Qur'an 74-11]].

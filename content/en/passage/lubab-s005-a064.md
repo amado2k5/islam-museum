@@ -10,5 +10,12 @@ Al-Suyuti's report on the occasion of revelation of al-Ma'ida 5:64, in Lubab al-
 
 The verse, in al-Suyuti's heading: «وقالت اليهود الآيات روى ابن أسحق عن ابن».
 
+## Full report (Arabic source text)
+<div dir="rtl" lang="ar">
+
+وقالت اليهود الآيات روى ابن أسحق عن ابن عباس قال أتى رسول الله نعمان بن قصي وبحر بن عمر وشاش ابن عدي فكلموه وكلمهم ودعاهم إلى الله وحذرهم نقمته فقالوا ما تخوفنا يا محمد نحن والله أبناء الله وأحباؤه كقول النصارى
+
+</div>
+
 ## Place in the museum
 Source: [[work/lubab-al-nuqul-suyuti|al-Suyuti's Lubab al-Nuqul]]. The verse: [[passage/quran-5-64|Qur'an 5-64]].

@@ -10,5 +10,12 @@ al-Kahf 18:28 ayetinin nüzul sebebi hakkında es-Suyuti'nin rivayeti; Lübabü'
 
 The verse, in al-Suyuti's heading: «ولا تطع».
 
+## Tam rivayet (Arapça kaynak metin)
+<div dir="rtl" lang="ar">
+
+ولا تطع الآية أخرج ابن مردويه من طريق جويبر عن الضحاك عن ابن عباس في قوله ولا تطع من أغفلنا قلبه عن ذكرنا قال نزلت في أمية بن خلف الجمحي وذلك أنه دعا النبي إلى أمر كرهه الله من طرد الفقراء
+
+</div>
+
 ## Place in the museum
 Kaynak: [[work/lubab-al-nuqul-suyuti|es-Suyuti'nin Lubab al-Nuqul]]. Ayet: [[passage/quran-18-28|Kur'an 18-28]].

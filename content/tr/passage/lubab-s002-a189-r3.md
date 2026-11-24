@@ -10,5 +10,12 @@ al-Baqara 2:189 ayetinin nüzul sebebi hakkında es-Suyuti'nin rivayeti; Lübab�
 
 The verse, in al-Suyuti's heading: «وليس البر».
 
+## Tam rivayet (Arapça kaynak metin)
+<div dir="rtl" lang="ar">
+
+وليس البر الآية روى البخاري عن البراء قال كانوا إذا أحرموا في الجاهلية أتوا البيت من ظهره فأنزل الله وليس البر بأن تأتوا البيوت من ظهورها الآية وأخرج ابن أبي حاتم والحاكم وصححه عن جابر قال كانت قريش تدعى الحمس وكانوا يدخلون من الأبواب في
+
+</div>
+
 ## Place in the museum
 Kaynak: [[work/lubab-al-nuqul-suyuti|es-Suyuti'nin Lubab al-Nuqul]]. Ayet: [[passage/quran-2-189|Kur'an 2-189]].

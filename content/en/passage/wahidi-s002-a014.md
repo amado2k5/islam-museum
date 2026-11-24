@@ -10,5 +10,12 @@ Al-Wahidi's report on the occasion of revelation of al-Baqara 2:14, narrated fro
 
 The verse, in al-Wahidi's heading: «وإذا لقوا الذين آمنوا».
 
+## Full report (Arabic source text)
+<div dir="rtl" lang="ar">
+
+الكلبي عن أبي صالح عن ابن عباس: نزلت هذه الآية في عبد الله بن أبي
+
+</div>
+
 ## Place in the museum
 Source: [[work/asbab-al-nuzul-wahidi|al-Wahidi's Asbab nuzul al-Qur'an]]. The verse: [[passage/quran-2-14|Qur'an 2-14]].

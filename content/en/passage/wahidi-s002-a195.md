@@ -10,5 +10,12 @@ Al-Wahidi's report on the occasion of revelation of al-Baqara 2:195, narrated fr
 
 The verse, in al-Wahidi's heading: «وأنفقوا في سبيل الله ولا تلقوا بأيديكم إلى التهلكة».
 
+## Full report (Arabic source text)
+<div dir="rtl" lang="ar">
+
+الشعبي قال: نزلت في الأنصار، أمسكوا عن النفقة في سبيل الله،
+
+</div>
+
 ## Place in the museum
 Source: [[work/asbab-al-nuzul-wahidi|al-Wahidi's Asbab nuzul al-Qur'an]]. The verse: [[passage/quran-2-195|Qur'an 2-195]].

@@ -10,5 +10,12 @@ Informe de al-Wahidi sobre la ocasión de revelación de an-Nisa 4:60, transmiti
 
 The verse, in al-Wahidi's heading: «ألم تر إلى الذين قيل لهم كفوا أيديكم».
 
+## Informe completo (texto fuente en árabe)
+<div dir="rtl" lang="ar">
+
+قال الكلبي: نزلت هذه الآية في نفر من أصحاب رسول الله
+
+</div>
+
 ## Place in the museum
 Fuente: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an de al-Wahidi]]. El versículo: [[passage/quran-4-60|Corán 4-60]].

@@ -10,5 +10,12 @@ Riwayat al-Wahidi tentang sebab turunnya Al 'Imran 3:188, diriwayatkan dari gene
 
 The verse, in al-Wahidi's heading: «لا تحسبن الذين يفرحون بما أتوا».
 
+## Laporan lengkap (teks sumber Arab)
+<div dir="rtl" lang="ar">
+
+يحمدوا بما لم يفعلوا، فنزلت: {لا تحسبن الذين يفرحون بما أتوا} الآية.
+
+</div>
+
 ## Place in the museum
 Sumber: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an al-Wahidi]]. Ayatnya: [[passage/quran-3-188|Al-Qur'an 3-188]].

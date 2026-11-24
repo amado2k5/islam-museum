@@ -10,5 +10,12 @@ Riwayat as-Suyuti tentang sebab turunnya al-Baqara 2:19, dalam Lubab al-Nuqul fi
 
 The verse, in al-Suyuti's heading: «أو كصيب».
 
+## Laporan lengkap (teks sumber Arab)
+<div dir="rtl" lang="ar">
+
+أو كصيب الآية ك أخرج ابن جرير من طريق السدي الكبير عن أبي مالك وأبي صالح عن ابن عباس وعن مرة عن ابن مسعود وناس من الصحابة قالوا كان رجلان من المنافقين من أهل المدينة هربا من رسول الله إلى المشركين فأصابهما هذا المطر الذي
+
+</div>
+
 ## Place in the museum
 Sumber: [[work/lubab-al-nuqul-suyuti|as-Suyuti Lubab al-Nuqul]]. Ayatnya: [[passage/quran-2-19|Al-Qur'an 2-19]].

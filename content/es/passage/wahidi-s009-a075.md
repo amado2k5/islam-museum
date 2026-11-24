@@ -10,5 +10,12 @@ Informe de al-Wahidi sobre la ocasión de revelación de Bara'a (at-Tawba) 9:75,
 
 The verse, in al-Wahidi's heading: «ومنهم من عاهد الله».
 
+## Informe completo (texto fuente en árabe)
+<div dir="rtl" lang="ar">
+
+فاتخذ غنما فنمت كما ينمو الدود، فضاقت عليه المدينة فتنحى عنها، فنزل
+
+</div>
+
 ## Place in the museum
 Fuente: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an de al-Wahidi]]. El versículo: [[passage/quran-9-75|Corán 9-75]].

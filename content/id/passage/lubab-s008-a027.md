@@ -10,5 +10,12 @@ Riwayat as-Suyuti tentang sebab turunnya al-Anfal 8:27, dalam Lubab al-Nuqul fi 
 
 The verse, in al-Suyuti's heading: «يا أيها الذين آمنوا لا تخونوا الله روى».
 
+## Laporan lengkap (teks sumber Arab)
+<div dir="rtl" lang="ar">
+
+يا أيها الذين آمنوا لا تخونوا الله روى سعيد بن منصور وغيره عن عبد الله بن أبي قتادة قال نزلت هذه الآية لا تخونوا الله والرسول في أبي لبابة بن عبد المنذر سأله بنو قريظة يوم قريظة ما هذا الأمر فأشار إلى حلقة يقول الذبح
+
+</div>
+
 ## Place in the museum
 Sumber: [[work/lubab-al-nuqul-suyuti|as-Suyuti Lubab al-Nuqul]]. Ayatnya: [[passage/quran-8-27|Al-Qur'an 8-27]].

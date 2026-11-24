@@ -10,5 +10,12 @@ an-Nisa 4:93 ayetinin nüzül sebebi hakkında El-Vahidi'nin rivayeti; Esbab Nü
 
 The verse, in al-Wahidi's heading: «ومن يقتل مؤمنا متعمدا».
 
+## Tam rivayet (Arapça kaynak metin)
+<div dir="rtl" lang="ar">
+
+فنزلت هذه الآية: {ومن يقتل مؤمنا متعمدا} الآية.
+
+</div>
+
 ## Place in the museum
 Kaynak: [[work/asbab-nuzul-wahidi|El-Vahidi'nin Esbab Nüzul el-Kur'an'ı]]. Ayet: [[passage/quran-4-93|Kur'an 4-93]].

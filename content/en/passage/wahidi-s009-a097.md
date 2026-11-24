@@ -10,5 +10,12 @@ Al-Wahidi's report on the occasion of revelation of Bara'a (at-Tawba) 9:97, narr
 
 The verse, in al-Wahidi's heading: «الأعراب أشد كفرا ونفاقا».
 
+## Full report (Arabic source text)
+<div dir="rtl" lang="ar">
+
+نزلت في أعاريب من أسد وغطفان، وأعاريب من أعراب حاضري المدينة.
+
+</div>
+
 ## Place in the museum
 Source: [[work/asbab-al-nuzul-wahidi|al-Wahidi's Asbab nuzul al-Qur'an]]. The verse: [[passage/quran-9-97|Qur'an 9-97]].

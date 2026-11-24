@@ -10,5 +10,12 @@ an-Nahl 16:76 ayetinin nüzül sebebi hakkında El-Vahidi'nin rivayeti; Esbab N�
 
 The verse, in al-Wahidi's heading: «ضرب الله مثلا عبدا مملوكا».
 
+## Tam rivayet (Arapça kaynak metin)
+<div dir="rtl" lang="ar">
+
+ينفق ماله سرا وجهرا، ومولاه أبو الجوزاء الذي كان ينهاه ونزلت: {وضرب الله
+
+</div>
+
 ## Place in the museum
 Kaynak: [[work/asbab-nuzul-wahidi|El-Vahidi'nin Esbab Nüzul el-Kur'an'ı]]. Ayet: [[passage/quran-16-76|Kur'an 16-76]].

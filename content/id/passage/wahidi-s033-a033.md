@@ -10,5 +10,12 @@ Riwayat al-Wahidi tentang sebab turunnya al-Ahzab 33:33, diriwayatkan dari gener
 
 The verse, in al-Wahidi's heading: «إنما يريد الله ليذهب عنكم الرجس أهل البيت».
 
+## Laporan lengkap (teks sumber Arab)
+<div dir="rtl" lang="ar">
+
+{إنما يريد الله ليذهب عنكم الرجس أهل البيت ويطهركم تطهيرا} قال: نزلت في
+
+</div>
+
 ## Place in the museum
 Sumber: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an al-Wahidi]]. Ayatnya: [[passage/quran-33-33|Al-Qur'an 33-33]].

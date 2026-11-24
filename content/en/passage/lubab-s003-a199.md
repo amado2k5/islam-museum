@@ -10,5 +10,12 @@ Al-Suyuti's report on the occasion of revelation of Al 'Imran 3:199, in Lubab al
 
 The verse, in al-Suyuti's heading: «وإن من أهل الكتاب».
 
+## Full report (Arabic source text)
+<div dir="rtl" lang="ar">
+
+وإن من أهل الكتاب الآية روى النسائي عن أنس قال لما جاء نعي النجاشي قال رسول الله صلوا عليه قالوا يا رسول الله نصلي على عبد حبشي فأنزل الله وإن من أهل الكتاب لمن يؤمن بالله وروى ابن جرير نحوه عن
+
+</div>
+
 ## Place in the museum
 Source: [[work/lubab-al-nuqul-suyuti|al-Suyuti's Lubab al-Nuqul]]. The verse: [[passage/quran-3-199|Qur'an 3-199]].

@@ -10,5 +10,12 @@ Informe de al-Wahidi sobre la ocasión de revelación de Luqman 31:6, transmitid
 
 The verse, in al-Wahidi's heading: «ومن الناس من يشتري لهو الحديث».
 
+## Informe completo (texto fuente en árabe)
+<div dir="rtl" lang="ar">
+
+قال الكلبي ومقاتل: نزلت في النضر بن الحارث، وذلك أنه كان يخرج تاجرا
+
+</div>
+
 ## Place in the museum
 Fuente: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an de al-Wahidi]]. El versículo: [[passage/quran-31-6|Corán 31-6]].

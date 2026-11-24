@@ -10,5 +10,12 @@ Riwayat as-Suyuti tentang sebab turunnya Al 'Imran 3:169, dalam Lubab al-Nuqul f
 
 The verse, in al-Suyuti's heading: «ولا تحسبن».
 
+## Laporan lengkap (teks sumber Arab)
+<div dir="rtl" lang="ar">
+
+ولا تحسبن الآية روى أحمد وأبو داود والحاكم عن ابن عباس قال رسول الله لما أصيب أخوانكم بأحد جعل الله أرواحهم في أجواف طير خضر ترد أنهار الجنة وتاكل من ثمارها وتأوي إلى قناديل من ذهب في ظل العرش فلما وجدوا
+
+</div>
+
 ## Place in the museum
 Sumber: [[work/lubab-al-nuqul-suyuti|as-Suyuti Lubab al-Nuqul]]. Ayatnya: [[passage/quran-3-169|Al-Qur'an 3-169]].

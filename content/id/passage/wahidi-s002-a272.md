@@ -10,5 +10,12 @@ Riwayat al-Wahidi tentang sebab turunnya al-Baqara 2:272, diriwayatkan dari gene
 
 The verse, in al-Wahidi's heading: «ليس عليك هداهم».
 
+## Laporan lengkap (teks sumber Arab)
+<div dir="rtl" lang="ar">
+
+رسول الله- "لا تصدقوا إلا على أهل دينكم" فأنزل
+
+</div>
+
 ## Place in the museum
 Sumber: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an al-Wahidi]]. Ayatnya: [[passage/quran-2-272|Al-Qur'an 2-272]].

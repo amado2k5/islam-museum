@@ -10,5 +10,12 @@ Riwayat al-Wahidi tentang sebab turunnya al-Ahzab 33:4, diriwayatkan dalam Asbab
 
 The verse, in al-Wahidi's heading: «ما جعل الله لرجل من قلبين في جوفه».
 
+## Laporan lengkap (teks sumber Arab)
+<div dir="rtl" lang="ar">
+
+نزلت في جميل بن معمر الفهري، وكان رجلا لبيبا حافظا لما سمع، فقالت
+
+</div>
+
 ## Place in the museum
 Sumber: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an al-Wahidi]]. Ayatnya: [[passage/quran-33-4|Al-Qur'an 33-4]].

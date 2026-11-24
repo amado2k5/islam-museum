@@ -10,5 +10,12 @@ Riwayat as-Suyuti tentang sebab turunnya al-Baqara 2:221, dalam Lubab al-Nuqul f
 
 The verse, in al-Suyuti's heading: «ولأمة مؤمنة».
 
+## Laporan lengkap (teks sumber Arab)
+<div dir="rtl" lang="ar">
+
+ولأمة مؤمنة الآية أخرج الواحدي من طريق السدي عن أبي مالك عن ابن عباس قال نزلت هذه الآية في عبد الله بن رواحة كانت له أمة سوداء وأنه غضب عليها فلطمها ثم أنه فزع فأتى النبي فأخبره وقال لأعتنقها قبل ولأتزوجنها
+
+</div>
+
 ## Place in the museum
 Sumber: [[work/lubab-al-nuqul-suyuti|as-Suyuti Lubab al-Nuqul]]. Ayatnya: [[passage/quran-2-221|Al-Qur'an 2-221]].

@@ -10,5 +10,12 @@ Informe de al-Wahidi sobre la ocasión de revelación de an-Nisa 4:2, transmitid
 
 The verse, in al-Wahidi's heading: «2».
 
+## Informe completo (texto fuente en árabe)
+<div dir="rtl" lang="ar">
+
+قال مقاتل والكلبي: نزلت في رجل من غطفان كان عنده مالك كثير لابن أخ له
+
+</div>
+
 ## Place in the museum
 Fuente: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an de al-Wahidi]]. El versículo: [[passage/quran-4-2|Corán 4-2]].

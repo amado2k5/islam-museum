@@ -10,5 +10,12 @@ Riwayat as-Suyuti tentang sebab turunnya an-Nisa 4:97, dalam Lubab al-Nuqul fi A
 
 The verse, in al-Suyuti's heading: «إن الذين توفاهم».
 
+## Laporan lengkap (teks sumber Arab)
+<div dir="rtl" lang="ar">
+
+إن الذين توفاهم الآية روى البخاري عن ابن عباس أن أناسا من المسلمين كانوا مع المشركين يكثرون سواد المشركين على رسول الله فيأتي السهم يرمي به فيصيب أحدهم فيقتله أو يضرب فيقتل فأنزل الله إن الذين توفاهم الملائكة ظالمي أنفسهم وأخرجه
+
+</div>
+
 ## Place in the museum
 Sumber: [[work/lubab-al-nuqul-suyuti|as-Suyuti Lubab al-Nuqul]]. Ayatnya: [[passage/quran-4-97|Al-Qur'an 4-97]].

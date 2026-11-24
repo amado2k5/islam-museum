@@ -10,5 +10,12 @@ al-Mu'minun 23:76 ayetinin nüzül sebebi hakkında El-Vahidi'nin rivayeti; Esba
 
 The verse, in al-Wahidi's heading: «ولقد أخذناهم بالعذاب فما استكانوا لربهم».
 
+## Tam rivayet (Arapça kaynak metin)
+<div dir="rtl" lang="ar">
+
+فأنزل الله: {ولقد أخذناهم بالعذاب فما استكانوا لربهم وما يتضرعون}
+
+</div>
+
 ## Place in the museum
 Kaynak: [[work/asbab-nuzul-wahidi|El-Vahidi'nin Esbab Nüzul el-Kur'an'ı]]. Ayet: [[passage/quran-23-76|Kur'an 23-76]].

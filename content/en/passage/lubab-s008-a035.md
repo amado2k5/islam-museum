@@ -10,5 +10,12 @@ Al-Suyuti's report on the occasion of revelation of al-Anfal 8:35, in Lubab al-N
 
 The verse, in al-Suyuti's heading: «وما كان صلاتهم».
 
+## Full report (Arabic source text)
+<div dir="rtl" lang="ar">
+
+وما كان صلاتهم الآية اخرج الواحدي عن ابن عمر قال كانوا يطوفون بالبيت ويصفقون ويصفرون فنزلت هذه الآية وأخرج ابن جرير عن سعيد قال كانت قريش يعارضون النبي في الطواف يستهزئون به يصفرون ويصفقون فنزلت
+
+</div>
+
 ## Place in the museum
 Source: [[work/lubab-al-nuqul-suyuti|al-Suyuti's Lubab al-Nuqul]]. The verse: [[passage/quran-8-35|Qur'an 8-35]].

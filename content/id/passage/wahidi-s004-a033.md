@@ -10,5 +10,12 @@ Riwayat al-Wahidi tentang sebab turunnya an-Nisa 4:33, diriwayatkan dari generas
 
 The verse, in al-Wahidi's heading: «ولكل جعلنا موالي».
 
+## Laporan lengkap (teks sumber Arab)
+<div dir="rtl" lang="ar">
+
+سعيد بن المسيب: نزلت هذه الآية: {ولكل جعلنا موالي مما ترك الوالدان
+
+</div>
+
 ## Place in the museum
 Sumber: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an al-Wahidi]]. Ayatnya: [[passage/quran-4-33|Al-Qur'an 4-33]].

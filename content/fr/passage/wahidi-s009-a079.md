@@ -10,5 +10,12 @@ Rapport d'al-Wahidi sur la circonstance de révélation de Bara'a (at-Tawba) 9:7
 
 The verse, in al-Wahidi's heading: «الذين يلمزون المطوعين من المؤمنين في الصدقات».
 
+## Rapport complet (texte source arabe)
+<div dir="rtl" lang="ar">
+
+أبي مسعود قال: لما نزلت آية الصدقة كنا نحامل، فجاء رجل فتصدق بشيء كثير
+
+</div>
+
 ## Place in the museum
 Source : [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an d'al-Wahidi]]. Le verset : [[passage/quran-9-79|Coran 9-79]].

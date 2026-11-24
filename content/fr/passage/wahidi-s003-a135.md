@@ -10,5 +10,12 @@ Rapport d'al-Wahidi sur la circonstance de révélation de Al 'Imran 3:135, tran
 
 The verse, in al-Wahidi's heading: «والذين إذا فعلوا فاحشة».
 
+## Rapport complet (texte source arabe)
+<div dir="rtl" lang="ar">
+
+قال ابن عباس في رواية عطاء: نزلت الآية في نبهان التمار، أتته امرأة
+
+</div>
+
 ## Place in the museum
 Source : [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an d'al-Wahidi]]. Le verset : [[passage/quran-3-135|Coran 3-135]].

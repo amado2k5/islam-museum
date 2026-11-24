@@ -10,5 +10,12 @@ Al-Wahidi's report on the occasion of revelation of al-Baqara 2:197, narrated fr
 
 The verse, in al-Wahidi's heading: «وتزودوا فإن خير الزاد التقوى».
 
+## Full report (Arabic source text)
+<div dir="rtl" lang="ar">
+
+اليمن يحجون ولا يتزودون يقولون: نحن المتوكلون فإذا قدموا مكة سألوا الناس
+
+</div>
+
 ## Place in the museum
 Source: [[work/asbab-al-nuzul-wahidi|al-Wahidi's Asbab nuzul al-Qur'an]]. The verse: [[passage/quran-2-197|Qur'an 2-197]].

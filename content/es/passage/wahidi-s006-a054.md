@@ -10,5 +10,12 @@ Informe de al-Wahidi sobre la ocasión de revelación de al-An'am 6:54, transmit
 
 The verse, in al-Wahidi's heading: «وإذا جاءك الذين يؤمنون بآياتنا فقل سلام عليكم».
 
+## Informe completo (texto fuente en árabe)
+<div dir="rtl" lang="ar">
+
+قال عكرمة: نزلت في الذين نهى اللهنبيه- عن
+
+</div>
+
 ## Place in the museum
 Fuente: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an de al-Wahidi]]. El versículo: [[passage/quran-6-54|Corán 6-54]].

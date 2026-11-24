@@ -10,5 +10,12 @@ Al-Wahidi's report on the occasion of revelation of al-Baqara 2:262, narrated fr
 
 The verse, in al-Wahidi's heading: «الذين ينفقون أموالهم بالليل والنهار سرا وعلانية».
 
+## Full report (Arabic source text)
+<div dir="rtl" lang="ar">
+
+عن رسول الله- قال: "نزلت هذه الآية: {الذين ينفقون
+
+</div>
+
 ## Place in the museum
 Source: [[work/asbab-al-nuzul-wahidi|al-Wahidi's Asbab nuzul al-Qur'an]]. The verse: [[passage/quran-2-262|Qur'an 2-262]].

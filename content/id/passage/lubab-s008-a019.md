@@ -10,5 +10,12 @@ Riwayat as-Suyuti tentang sebab turunnya al-Anfal 8:19, dalam Lubab al-Nuqul fi 
 
 The verse, in al-Suyuti's heading: «إن تستفتحوا».
 
+## Laporan lengkap (teks sumber Arab)
+<div dir="rtl" lang="ar">
+
+إن تستفتحوا الآية روى الحاكم عن عبد الله بن ثعلبة ابن صغير قال كان المستفتح أبا جهل فإنه قال حين التقى القوم اللهم أينا كان أقطع لرحم وأتى بما لا يعرف فاحنه الغداة وكان ذلك استفتاحا فأنزل الله إن تستفتحوا فقد جاءكم الفتح إلى قوله
+
+</div>
+
 ## Place in the museum
 Sumber: [[work/lubab-al-nuqul-suyuti|as-Suyuti Lubab al-Nuqul]]. Ayatnya: [[passage/quran-8-19|Al-Qur'an 8-19]].

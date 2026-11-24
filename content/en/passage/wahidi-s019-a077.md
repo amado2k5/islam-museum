@@ -10,5 +10,12 @@ Al-Wahidi's report on the occasion of revelation of Maryam 19:77, narrated from 
 
 The verse, in al-Wahidi's heading: «أفرأيت الذي كفر بآياتنا».
 
+## Full report (Arabic source text)
+<div dir="rtl" lang="ar">
+
+وسيكون لي ثم مال وولد فأعطيك، فأنزل اللههذه الآية.
+
+</div>
+
 ## Place in the museum
 Source: [[work/asbab-al-nuzul-wahidi|al-Wahidi's Asbab nuzul al-Qur'an]]. The verse: [[passage/quran-19-77|Qur'an 19-77]].

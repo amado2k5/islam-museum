@@ -10,5 +10,12 @@ Rapport d'al-Wahidi sur la circonstance de révélation de al-Baqara 2:194, tran
 
 The verse, in al-Wahidi's heading: «الشهر الحرام بالشهر الحرام».
 
+## Rapport complet (texte source arabe)
+<div dir="rtl" lang="ar">
+
+الحديبية، فأقصه اللهمنهم، فأنزل الله: {الشهر الحرام بالشهر
+
+</div>
+
 ## Place in the museum
 Source : [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an d'al-Wahidi]]. Le verset : [[passage/quran-2-194|Coran 2-194]].

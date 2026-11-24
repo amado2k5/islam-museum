@@ -10,5 +10,12 @@ Informe de al-Suyuti sobre la ocasión de revelación de Bara'a (at-Tawba) 9:99,
 
 The verse, in al-Suyuti's heading: «ومن الأعراب من يؤمن بالله».
 
+## Informe completo (texto fuente en árabe)
+<div dir="rtl" lang="ar">
+
+ومن الأعراب من يؤمن بالله الآية أخرج ابن جرير عن مجاهد أنها نزلت في بني مقرن الذين نزلت فيهم ولا على الذين إذا ما أتوك لتحملهم وأخرج عبد الرحمن بن معقل المزني قال كنا عشرة ولد مقرن فنزلت فينا هذه الآية
+
+</div>
+
 ## Place in the museum
 Fuente: [[work/lubab-al-nuqul-suyuti|de al-Suyuti Lubab al-Nuqul]]. El versículo: [[passage/quran-9-99|Corán 9-99]].

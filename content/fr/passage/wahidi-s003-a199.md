@@ -10,5 +10,12 @@ Rapport d'al-Wahidi sur la circonstance de révélation de Al 'Imran 3:199, tran
 
 The verse, in al-Wahidi's heading: «وإن من أهل الكتاب لمن يؤمن بالله».
 
+## Rapport complet (texte source arabe)
+<div dir="rtl" lang="ar">
+
+قال جابر بن عبد الله وأنس وابن عباس وقتادة: نزلت في النجاشي، وذلك أنه
+
+</div>
+
 ## Place in the museum
 Source : [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an d'al-Wahidi]]. Le verset : [[passage/quran-3-199|Coran 3-199]].

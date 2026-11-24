@@ -10,5 +10,12 @@ al-Anfal 8:36 ayetinin nüzül sebebi hakkında El-Vahidi'nin rivayeti; Esbab N�
 
 The verse, in al-Wahidi's heading: «إن الذين كفروا ينفقون أموالهم ليصدوا عن سبيل الله».
 
+## Tam rivayet (Arapça kaynak metin)
+<div dir="rtl" lang="ar">
+
+قال مقاتل والكلبي: نزلت في المطعمين يوم بدر، وكانوا اثني عشر رجلا أبو
+
+</div>
+
 ## Place in the museum
 Kaynak: [[work/asbab-nuzul-wahidi|El-Vahidi'nin Esbab Nüzul el-Kur'an'ı]]. Ayet: [[passage/quran-8-36|Kur'an 8-36]].

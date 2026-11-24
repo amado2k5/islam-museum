@@ -10,5 +10,12 @@ Rapport d'al-Suyuti sur la circonstance de révélation de al-Baqara 2:187, dans
 
 The verse, in al-Suyuti's heading: «ولا تباشروهن».
 
+## Rapport complet (texte source arabe)
+<div dir="rtl" lang="ar">
+
+ولا تباشروهن الآية أخرج ابن جرير عن قتادة قال كان الرجل اذا اعتكف فخرج من المسجد جامع إن شاء فنزلت ولا تباشروهن وأنتم عاكفون في المساجد قوله تعالي ولا تأكلوا الآية أخرج ابن أبي حاتم عن سعيد بن جبير قال إن امرأ القيس بن عابس
+
+</div>
+
 ## Place in the museum
 Source : [[work/lubab-al-nuqul-suyuti|d'al-Suyuti Lubab al-Nuqul]]. Le verset: [[passage/quran-2-187|Coran 2-187]].

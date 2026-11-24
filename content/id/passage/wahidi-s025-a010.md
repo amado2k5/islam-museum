@@ -10,5 +10,12 @@ Riwayat al-Wahidi tentang sebab turunnya al-Furqan 25:10, diriwayatkan dari gene
 
 The verse, in al-Wahidi's heading: «تبارك الذي إن شاء جعل لك خيرا من ذلك».
 
+## Laporan lengkap (teks sumber Arab)
+<div dir="rtl" lang="ar">
+
+عليه وسلم - فنزل جبريلمن عند ربه معزيا له، فقال: "السلام
+
+</div>
+
 ## Place in the museum
 Sumber: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an al-Wahidi]]. Ayatnya: [[passage/quran-25-10|Al-Qur'an 25-10]].

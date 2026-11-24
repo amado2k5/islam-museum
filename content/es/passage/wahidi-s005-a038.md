@@ -10,5 +10,12 @@ Informe de al-Wahidi sobre la ocasión de revelación de al-Ma'ida 5:38, transmi
 
 The verse, in al-Wahidi's heading: «. والسارق والسارقة فاقطعوا أيديهما».
 
+## Informe completo (texto fuente en árabe)
+<div dir="rtl" lang="ar">
+
+قال الكلبي: نزلت في طعمة بن أبيرق سارق الدرع وقد مضت قصته.
+
+</div>
+
 ## Place in the museum
 Fuente: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an de al-Wahidi]]. El versículo: [[passage/quran-5-38|Corán 5-38]].

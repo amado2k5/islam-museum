@@ -10,5 +10,12 @@ Informe de al-Suyuti sobre la ocasión de revelación de an-Nisa 4:77, en Lubab 
 
 The verse, in al-Suyuti's heading: «ألم تر إلى الذين قيل لهم كفوا أيديكم».
 
+## Informe completo (texto fuente en árabe)
+<div dir="rtl" lang="ar">
+
+ألم تر إلى الذين قيل لهم كفوا أيديكم الآية أخرج النسائي والحاكم عن ابن عباس أن عبد الرحمن بن عوف وأصحابا له أتوا النبي فقالوا يا نبي الله كنا في عز ونحن مشركون فلما آمنا صرنا أذلة قال إني أمرت بالعفو
+
+</div>
+
 ## Place in the museum
 Fuente: [[work/lubab-al-nuqul-suyuti|de al-Suyuti Lubab al-Nuqul]]. El versículo: [[passage/quran-4-77|Corán 4-77]].

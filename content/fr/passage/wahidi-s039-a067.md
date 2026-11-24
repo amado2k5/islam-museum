@@ -10,5 +10,12 @@ Rapport d'al-Wahidi sur la circonstance de révélation de az-Zumar 39:67, trans
 
 The verse, in al-Wahidi's heading: «وما قدروا الله حق قدره».
 
+## Rapport complet (texte source arabe)
+<div dir="rtl" lang="ar">
+
+نواجذه، فأنزل الله: {وما قدروا الله حق قدره} الآية.
+
+</div>
+
 ## Place in the museum
 Source : [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an d'al-Wahidi]]. Le verset : [[passage/quran-39-67|Coran 39-67]].

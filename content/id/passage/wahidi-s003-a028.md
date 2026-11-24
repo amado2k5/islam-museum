@@ -10,5 +10,12 @@ Riwayat al-Wahidi tentang sebab turunnya Al 'Imran 3:28, diriwayatkan dari gener
 
 The verse, in al-Wahidi's heading: «لا يتخذ المؤمنون الكافرين أولياء من دون المؤمنين».
 
+## Laporan lengkap (teks sumber Arab)
+<div dir="rtl" lang="ar">
+
+النفر إلا مباطنتهم وملازمتهم، فأنزل اللههذه الآية.
+
+</div>
+
 ## Place in the museum
 Sumber: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an al-Wahidi]]. Ayatnya: [[passage/quran-3-28|Al-Qur'an 3-28]].

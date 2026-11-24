@@ -10,5 +10,12 @@ Informe de al-Wahidi sobre la ocasión de revelación de an-Nisa 4:78, transmiti
 
 The verse, in al-Wahidi's heading: «أينما تكونوا يدرككم الموت».
 
+## Informe completo (texto fuente en árabe)
+<div dir="rtl" lang="ar">
+
+قتلوا عندنا ما ماتوا وما قتلوا، فأنزل اللههذه الآية.
+
+</div>
+
 ## Place in the museum
 Fuente: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an de al-Wahidi]]. El versículo: [[passage/quran-4-78|Corán 4-78]].

@@ -10,5 +10,12 @@ al-Mumtahina 60:13 ayetinin nüzül sebebi hakkında El-Vahidi'nin rivayeti; Esb
 
 The verse, in al-Wahidi's heading: «يا أيها الذين آمنوا لا تتخذوا عدوي وعدوكم أولياء».
 
+## Tam rivayet (Arapça kaynak metin)
+<div dir="rtl" lang="ar">
+
+قال جماعة من المفسرين: نزلت في حاطب بن أبي بلتعة وذلك أن سارة مولاة
+
+</div>
+
 ## Place in the museum
 Kaynak: [[work/asbab-nuzul-wahidi|El-Vahidi'nin Esbab Nüzul el-Kur'an'ı]]. Ayet: [[passage/quran-60-13|Kur'an 60-13]].

@@ -10,5 +10,12 @@ Riwayat as-Suyuti tentang sebab turunnya al-Baqara 2:245, dalam Lubab al-Nuqul f
 
 The verse, in al-Suyuti's heading: «من ذا الذي يقرض الله».
 
+## Laporan lengkap (teks sumber Arab)
+<div dir="rtl" lang="ar">
+
+من ذا الذي يقرض الله الآية روى ابن حبان في صحيحه وابن أبي حاتم وابن مردويه عن ابن عمر قال لما نزلت مثل الذين ينفقون أموالهم في سبيل الله كمثل حبة إلى آخرها قال رسول الله رب زد أمتي فنزلت من
+
+</div>
+
 ## Place in the museum
 Sumber: [[work/lubab-al-nuqul-suyuti|as-Suyuti Lubab al-Nuqul]]. Ayatnya: [[passage/quran-2-245|Al-Qur'an 2-245]].

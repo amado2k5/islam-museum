@@ -10,5 +10,12 @@ Al-Wahidi's report on the occasion of revelation of Bara'a (at-Tawba) 9:34, narr
 
 The verse, in al-Wahidi's heading: «والذين يكنزون الذهب والفضة ولا ينفقونها في سبيل الله».
 
+## Full report (Arabic source text)
+<div dir="rtl" lang="ar">
+
+فقلت له: ما أنزلك منزلك هذا؟
+
+</div>
+
 ## Place in the museum
 Source: [[work/asbab-al-nuzul-wahidi|al-Wahidi's Asbab nuzul al-Qur'an]]. The verse: [[passage/quran-9-34|Qur'an 9-34]].

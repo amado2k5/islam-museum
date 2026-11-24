@@ -10,5 +10,12 @@ Riwayat as-Suyuti tentang sebab turunnya al-Isra 17:59, dalam Lubab al-Nuqul fi 
 
 The verse, in al-Suyuti's heading: «وما منعنا».
 
+## Laporan lengkap (teks sumber Arab)
+<div dir="rtl" lang="ar">
+
+وما منعنا الآية أخرج الحاكم والطبراني وغيرهما عن ابن عباس قال سأل أهل مكة النبي أن يجعل لهم الصفا ذهبا وأن ينحي عنهم الجبال فيزرعوا فقيل له إن شئت أن تستأني بهم وإن شئت تؤتهم تعالى الذي سألوا فإن كفروا أهلكوا
+
+</div>
+
 ## Place in the museum
 Sumber: [[work/lubab-al-nuqul-suyuti|as-Suyuti Lubab al-Nuqul]]. Ayatnya: [[passage/quran-17-59|Al-Qur'an 17-59]].

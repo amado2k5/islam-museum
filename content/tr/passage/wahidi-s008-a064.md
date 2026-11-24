@@ -10,5 +10,12 @@ al-Anfal 8:64 ayetinin nüzül sebebi hakkında El-Vahidi'nin rivayeti; Esbab N�
 
 The verse, in al-Wahidi's heading: «يا أيها النبي حسبك الله ومن اتبعك من المؤمنين».
 
+## Tam rivayet (Arapça kaynak metin)
+<div dir="rtl" lang="ar">
+
+رجلا، ثم إن عمر أسلم فصاروا أربعين، فنزل جبريلبقوله:
+
+</div>
+
 ## Place in the museum
 Kaynak: [[work/asbab-nuzul-wahidi|El-Vahidi'nin Esbab Nüzul el-Kur'an'ı]]. Ayet: [[passage/quran-8-64|Kur'an 8-64]].

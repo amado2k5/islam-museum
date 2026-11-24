@@ -10,5 +10,12 @@ Riwayat al-Wahidi tentang sebab turunnya al-Hijr 15:52, diriwayatkan dari genera
 
 The verse, in al-Wahidi's heading: «وما أرسلنا من قبلك من رسول ولا نبي».
 
+## Laporan lengkap (teks sumber Arab)
+<div dir="rtl" lang="ar">
+
+ينفرون عنه، وتمنى ذلك، فأنزل اللهسورة: {والنجم إذا هوى} فقرأها
+
+</div>
+
 ## Place in the museum
 Sumber: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an al-Wahidi]]. Ayatnya: [[passage/quran-15-52|Al-Qur'an 15-52]].

@@ -10,5 +10,12 @@ at-Tahrim 66:5 ayetinin nüzul sebebi hakkında es-Suyuti'nin rivayeti; Lübabü
 
 The verse, in al-Suyuti's heading: «عسى ربه إن طلقكن».
 
+## Tam rivayet (Arapça kaynak metin)
+<div dir="rtl" lang="ar">
+
+عسى ربه إن طلقكن الآية تقدم سبب نزولها وهو قول عمر في سورة البقرة
+
+</div>
+
 ## Place in the museum
 Kaynak: [[work/lubab-al-nuqul-suyuti|es-Suyuti'nin Lubab al-Nuqul]]. Ayet: [[passage/quran-66-5|Kur'an 66-5]].

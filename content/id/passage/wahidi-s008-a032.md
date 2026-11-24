@@ -10,5 +10,12 @@ Riwayat al-Wahidi tentang sebab turunnya al-Anfal 8:32, diriwayatkan dari genera
 
 The verse, in al-Wahidi's heading: «وإذ قالوا اللهم إن كان هذا هو الحق».
 
+## Laporan lengkap (teks sumber Arab)
+<div dir="rtl" lang="ar">
+
+التفسير: نزلت في النضر بن الحارث، وهو الذي قال: إن كان ما يقوله محمد
+
+</div>
+
 ## Place in the museum
 Sumber: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an al-Wahidi]]. Ayatnya: [[passage/quran-8-32|Al-Qur'an 8-32]].

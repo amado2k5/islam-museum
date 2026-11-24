@@ -10,5 +10,12 @@ Riwayat as-Suyuti tentang sebab turunnya al-Kahf 18:28, dalam Lubab al-Nuqul fi 
 
 The verse, in al-Suyuti's heading: «واصبر نفسك».
 
+## Laporan lengkap (teks sumber Arab)
+<div dir="rtl" lang="ar">
+
+واصبر نفسك الآية تقدم سبب النزول في سورة الأنعام في حديث خباب
+
+</div>
+
 ## Place in the museum
 Sumber: [[work/lubab-al-nuqul-suyuti|as-Suyuti Lubab al-Nuqul]]. Ayatnya: [[passage/quran-18-28|Al-Qur'an 18-28]].

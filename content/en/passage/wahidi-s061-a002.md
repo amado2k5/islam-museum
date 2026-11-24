@@ -10,5 +10,12 @@ Al-Wahidi's report on the occasion of revelation of as-Saff 61:2, narrated in As
 
 The verse, in al-Wahidi's heading: «يا أيها الذين آمنوا لم تقولون ما لا تفعلون».
 
+## Full report (Arabic source text)
+<div dir="rtl" lang="ar">
+
+فابتلوا يوم أحد بذلك فولوا مدبرين، فأنزل الله
+
+</div>
+
 ## Place in the museum
 Source: [[work/asbab-al-nuzul-wahidi|al-Wahidi's Asbab nuzul al-Qur'an]]. The verse: [[passage/quran-61-2|Qur'an 61-2]].
