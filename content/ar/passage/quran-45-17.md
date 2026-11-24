@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-10-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يفسّر الطبري أن الله آتاهم بينات من الأمر فما اختلفوا إلا من بعد ما جاءهم العلم بغياً بينهم، وأن ربك يقضي بينهم يوم القيامة فيما كانوا فيه يختلفون. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=45&tAyahNo=17&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَآتَيْنَاهُم بَيِّنَاتٍ مِّنَ ٱلأَمْرِ فَمَا ٱخْتَلَفُوۤاْ إِلاَّ مِن بَعْدِ مَا جَآءَهُمُ ٱلْعِلْمُ بَغْياً بَيْنَهُمْ إِنَّ رَبَّكَ يَقْضِي بَيْنَهُمْ يَوْمَ ٱلْقِيَامَةِ فِيمَا كَانُواْ فِيهِ يَخْتَلِفُونَ»: وأعطينا بني إسرائيل واضحات من أمرنا بتنزيلنا إليهم التوراة فيها تفصيل كل شيء «فَمَا اخْتَلَفُوا إلاَّ مِنْ بَعْدِ ما جاءَهُمُ العِلْمُ بَغْيا بَيْنَهُمْ» طلباً للرياسات، وتركاً منهم لبيان الله تبارك وتعالى في تنزيله. وقوله: «إنَّ رَبَّكَ يَقْضِي بَيْنَهُمْ يَوْمَ القِيامَةِ فِيما كانُوا فيهِ يَخْتَلِفُونَ» يقول تعالى ذكره لنبيه محمد: إن ربك يا محمد يقضي بين المختلفين من بني إسرائيل بغياً بينهم يوم القيامة، فيما كانوا فيه في الدنيا يختلفون بعد العلم الذي آتاهم، والبيان الذي جاءهم منه، فيفلج المحقّ حينئذٍ على المبطل بفصل الحكم بينهم.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=45&tAyahNo=17&tDisplay=yes&UserProfile=0&LanguageId=1

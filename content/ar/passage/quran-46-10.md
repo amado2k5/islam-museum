@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-10-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن النبي يُؤمر بأن يسأل أرأيتم إن كان من عند الله وكفرتم به وشهد شاهد من بني إسرائيل على مثله فآمن واستكبرتم، ويورد أقوال أهل التأويل في تعيين الشاهد. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=46&tAyahNo=10&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «قُلْ أَرَأَيْتُمْ إِن كَانَ مِنْ عِندِ ٱللَّهِ وَكَفَرْتُمْ بِهِ وَشَهِدَ شَاهِدٌ مِّن بَنِيۤ إِسْرَائِيلَ عَلَىٰ مِثْلِهِ فَآمَنَ وَٱسْتَكْبَرْتُمْ إِنَّ ٱللَّهَ لاَ يَهْدِي ٱلْقَوْمَ ٱلظَّالِمِينَ»: قل يا محمد لهؤلاء المشركين القائلين لهذا القرآن لما جاءهم هذا سحر مبين «أرأيْتُمْ» أيها القوم «إنْ كانَ» هذا القرآن «مِنْ عِنْدِ اللَّهِ» أنزله عليّ «وكَفَرْتُمْ» أنتم «بِهِ» يقول: وكذّبتم أنتم به. وقوله: «وَشَهِدَ شاهِدٌ مِنْ بَني إسْرائِيلَ عَلى مِثْلِهِ» اختلف أهل التأويل في تأويل ذلك، فقال بعضهم: معناه: وشهد شاهد من بني إسرائيل، وهو موسى بن عمران على مثله، يعني على مثل القرآن، قالوا: ومثل القرآن الذي شهد عليه موسى بالتصديق التوراة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=46&tAyahNo=10&tDisplay=yes&UserProfile=0&LanguageId=1

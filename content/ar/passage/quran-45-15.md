@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-10-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن من عمل صالحاً فلنفسه ومن أساء فعليها ثم إلى ربكم ترجعون. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=45&tAyahNo=15&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «مَنْ عَمِلَ صَٰلِحاً فَلِنَفْسِهِ وَمَنْ أَسَآءَ فَعَلَيْهَا ثُمَّ إِلَىٰ رَبِّكُمْ تُرْجَعُونَ»: من عمل من عباد الله بطاعته فانتهى إلى أمره، وانزجر لنهيه، فلنفسه عمل ذلك الصالح من العمل، وطلب خلاصها من عذاب الله، أطاع ربه لا لغير ذلك، لأنه لا ينفع ذلك غيره، والله عن عمل كل عامل غنيّ «وَمَنْ أساءَ فَعَلَيْها» يقول: ومن أساء عمله في الدنيا بمعصيته فيها ربه، وخلافه فيها أمره ونهيه، فعلى نفسه جنى، لأنه أوبقها بذلك، وأكسبها به سخطه، ولم يضرّ أحداً سوى نفسه «ثُمَّ إلى رَبِّكُمْ تُرْجَعُونَ» يقول: ثم أنتم أيها الناس أجمعون إلى ربكم تصيرون من بعد مماتكم، فيجازي المحسن بإحسانه، والمسيء بإساءته، فمن ورد عليه منكم بعمل صالح، جوزي من الثواب صالحاً، ومن ورد عليه منكم بعمل سيىء جوزي من الثواب سيئاً.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=45&tAyahNo=15&tDisplay=yes&UserProfile=0&LanguageId=1

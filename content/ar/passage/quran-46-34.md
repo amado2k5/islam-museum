@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-10-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إنه يوم يُعرض الذين كفروا على النار يُقال أليس هذا بالحق قالوا بلى وربنا، قال فذوقوا العذاب بما كنتم تكفرون. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=46&tAyahNo=34&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَيَوْمَ يُعْرَضُ ٱلَّذِينَ كَفَرُواْ عَلَىٰ ٱلنَّارِ أَلَيْسَ هَٰذَا بِٱلْحَقِّ قَالُواْ بَلَىٰ وَرَبِّنَا قَالَ فَذُوقُواْ ٱلْعَذَابَ بِمَا كُنتُمْ تَكْفُرُونَ»: ويوم يعرض هؤلاء المكذّبون بالبعث، وثواب الله عباده على أعمالهم الصالحة، وعقابه إياهم على أعمالهم السيئة، على النار، نار جهنم، يقال لهم حينئذٍ: أليس هذا العذاب الذي تعذّبونه اليوم، وقد كنتم تكذّبون به في الدنيا بالحقّ، توبيخاً من الله لهم على تكذيبهم به، كان في الدنيا «قالُوا بَلى وَرَبِّنا» يقول: فيجيب هؤلاء الكفرة من فورهم بذلك، بأن يقولوا بلى هو الحقّ والله قال: «فَذُوقُوا العَذَابَ بِمَا كُنْتُمْ تَكْفُرُونَ» يقول: فقال لهم المقرّر بذلك: فذوقوا عذاب النار الآن بما كنتم تجحدونه في الدنيا، وتنكرونه، وتأبَون الإقرار إذا دُعيتم إلى التصديق به.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=46&tAyahNo=34&tDisplay=yes&UserProfile=0&LanguageId=1

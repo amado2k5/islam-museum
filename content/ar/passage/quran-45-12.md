@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-10-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يفسّر الطبري أن الله سخّر لكم البحر لتجري الفلك فيه بأمره ولتبتغوا من فضله ولعلكم تشكرون. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=45&tAyahNo=12&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «ٱللَّهُ ٱلَّذِي سَخَّرَ لَكُمُ ٱلْبَحْرَ لِتَجْرِيَ ٱلْفُلْكُ فِيهِ بِأَمْرِهِ وَلِتَبْتَغُواْ مِن فَضْلِهِ وَلَعَلَّكُمْ تَشْكُرُونَ»: الله أيها القوم، الذي لا تنبغي الألوهة إلاَّ له، الذي أنعم عليكم هذه النعم، التي بيَّنها لكم في هذه الآيات، وهو أنه «سَخَّرَ لَكُم الْبَحْر لِتَجْرِيَ» السفن «فيه بأمره» لمعايشكم وتصرّفكم في البلاد لطلب فضله فيها، ولتشكروا ربكم على تسخيره ذلك لكم فتعبدوه وتطيعوه فيما يأمركم به، وينهاكم عنه.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=45&tAyahNo=12&tDisplay=yes&UserProfile=0&LanguageId=1

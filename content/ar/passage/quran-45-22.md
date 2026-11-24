@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-10-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن الله خلق السماوات والأرض بالحق ولتُجزى كل نفس بما كسبت وهم لا يظلمون. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=45&tAyahNo=22&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَخَلَقَ ٱللَّهُ ٱلسَّمَٰوَٰتِ وَٱلأَرْضَ بِٱلْحَقِّ وَلِتُجْزَىٰ كُلُّ نَفْسٍ بِمَا كَسَبَتْ وَهُمْ لاَ يُظْلَمُونَ»: «وَخَلَق اللّهُ السَّمَوَاتِ والأرْضَ بالحَقّ» للعدل والحقّ، لا لما حَسِب هؤلاء الجاهلون بالله، من أنه يجعل من اجترح السيئات، فعصاه وخالف أمره، كالذين آمنوا وعملوا الصالحات، في المحيا والممات، إذ كان ذلك من فعل غير أهل العدل والإنصاف، يقول جلّ ثناؤه: فلم يخلق الله السموات والأرض للظلم والجور، ولكنا خلقناهما للحقّ والعدل. ومن الحقّ أن نخالف بين حكم المسيء والمحسن، في العاجل والآجل.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=45&tAyahNo=22&tDisplay=yes&UserProfile=0&LanguageId=1

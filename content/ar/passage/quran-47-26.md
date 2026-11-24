@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-10-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن الله أملى لهؤلاء المنافقين لأنهم قالوا للذين كرهوا ما نزّل الله سنطيعكم في بعض الأمر والله يعلم إسرارهم. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=47&tAyahNo=26&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «ذَلِكَ بِأَنَّهُمْ قَالُواْ لِلَّذِينَ كَرِهُواْ مَا نَزَّلَ ٱللَّهُ سَنُطِيعُكُمْ فِي بَعْضِ ٱلأَمْرِ وَٱللَّهُ يَعْلَمُ إِسْرَارَهُمْ»: أملى الله لهؤلاء المنافقين وتركهم، والشيطان سوّل لهم، فلم يوفقهم للهدى من أجل أنهم «قَالُوا لِلَّذِينَ كَرِهُوا ما نَزَّلَ اللَّهُ» من الأمر بقتال أهل الشرك به من المنافقين: «سَنُطِيعُكُمْ في بَعْضِ الأَمْرِ» الذي هو خلاف لأمر الله تبارك وتعالى، وأمر رسوله. كما: وعن قتادة «ذلكَ بأنَّهُمْ قالُوا للَّذِينَ كَرِهُوا ما نَزَّلَ اللَّهُ سَنُطِيعُكُمْ فِي بَعْضِ الأمْرِ» فهؤلاء المنافقون «وَاللَّهُ يَعْلَمُ إسْرَارَهُمْ» يقول تعالى ذكره: والله يعلم إسرار هذين الحزبين المتظاهرين من أهل النفاق، على خلاف أمر الله وأمر رسوله، إذ يتسارّون فيما بينهم بالكفر بالله ومعصية الرسول، ولا يخفى عليه ذلك ولا غيره من الأمور كلها. وينقل في المقطع أقوالاً عن قتادة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=47&tAyahNo=26&tDisplay=yes&UserProfile=0&LanguageId=1

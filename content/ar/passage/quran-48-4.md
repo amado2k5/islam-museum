@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-10-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن الله هو الذي أنزل السكينة في قلوب المؤمنين ليزدادوا إيماناً مع إيمانهم ولله جنود السماوات والأرض وكان الله عليماً حكيماً. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=48&tAyahNo=4&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «هُوَ ٱلَّذِيۤ أَنزَلَ ٱلسَّكِينَةَ فِي قُلُوبِ ٱلْمُؤْمِنِينَ لِيَزْدَادُوۤاْ إِيمَٰناً مَّعَ إِيمَٰنِهِمْ وَلِلَّهِ جُنُودُ ٱلسَّمَٰوَٰتِ وَٱلأَرْضِ وَكَانَ ٱللَّهُ عَلِيماً حَكِيماً»: يعني جلّ ذكره بقوله: «هُوَ الَّذِي أنْزَلَ السَّكِينَةَ فِي قُلُوبِ المُؤْمِنِينَ» الله أنزل السكون والطمأنينة في قلوب المؤمنين بالله ورسوله إلى الإيمان، والحقّ الذي بعثك الله به يا محمد. وقد مضى ذكر اختلاف أهل التأويل في معنى السكينة قبل، والصحيح من القول في ذلك بالشواهد المغنية، عن إعادتها في هذا الموضع. «لِيَزْدَادُوا إيماناً مَعَ إيمانِهِمْ» يقول: ليزدادوا بتصديقهم بما جدّد الله من الفرائض التي ألزمهموها، التي لم تكن لهم لازمة «إيماناً مع إيمانهم»، يقول: ليزدادوا إلى أيمانهم بالفرائض التي كانت لهم لازمة قبل ذلك. وينقل في المقطع أقوالاً عن ابن عباس.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=48&tAyahNo=4&tDisplay=yes&UserProfile=0&LanguageId=1

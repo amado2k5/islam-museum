@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-10-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن النبي يُؤمر بأن يقول للمؤمنين يغفروا للذين لا يرجون أيام الله ليجزي قوماً بما كانوا يكسبون، ويذكر ما قيل في نزولها وأن حكمها منسوخ بآيات القتال عند بعض أهل التأويل. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=45&tAyahNo=14&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «قُل لِّلَّذِينَ ءَامَنُواْ يَغْفِرُواْ لِلَّذِينَ لاَ يَرْجُونَ أَيَّامَ ٱللَّهِ لِيَجْزِيَ قَوْماً بِمَا كَانُواْ يَكْسِبُونَ»: قل يا محمد للذين صدّقوا الله واتبعوك، يغفروا للذين لا يخافون بأس الله ووقائعه ونقمه إذا هم نالوهم بالأذى والمكروه «لِيَجْزِيَ قَوْماً بِمَا كانُوا يَكْسِبُونَ» يقول: ليجزي الله هؤلاء الذين يؤذونهم من المشركين في الآخرة، فيصيبهم عذابه بما كانوا في الدنيا يكسبون من الإثم، ثم بأذاهم أهل الإيمان بالله. وينقل في المقطع أقوالاً عن ابن عباس ومجاهد وقتادة وابن زيد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=45&tAyahNo=14&tDisplay=yes&UserProfile=0&LanguageId=1

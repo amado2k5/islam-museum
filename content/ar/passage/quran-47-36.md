@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-10-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل الآيات 36 إلى 37، وخلاصتها: يفسّر الطبري أن الحياة الدنيا لعب ولهو وإن تؤمنوا وتتقوا يؤتكم أجوركم ولا يسألكم أموالكم، إن يسألكموها فيُحفِكم تبخلوا ويخرج أضغانكم. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=47&tAyahNo=36&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 36 إلى 37 مقطعاً واحداً. يفسّر قوله «إِنَّمَا ٱلْحَيَٰوةُ ٱلدُّنْيَا لَعِبٌ وَلَهْوٌ وَإِن تُؤْمِنُواْ وَتَتَّقُواْ يُؤْتِكُمْ أُجُورَكُمْ وَلاَ يَسْأَلْكُمْ أَمْوَٰلَكُمْ»: حاضاً عباده المؤمنين على جهاد أعدائه، والنفقة في سبيله، وبذل مهجتهم في قتال أهل الكفر به: قاتلوا أيها المؤمنون أعداء الله وأعداءكم من أهل الكفر، ولا تدعكم الرغبة في الحياة إلى ترك قتالهم، فإنما الحياة الدنيا لعب ولهو، إلا ما كان منها لله من عمل في سبيله، وطلب رضاه. وينقل في المقطع أقوالاً عن ابن زيد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=47&tAyahNo=36&tDisplay=yes&UserProfile=0&LanguageId=1

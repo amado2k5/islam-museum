@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-10-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يفسّر الطبري الأمر بالعلم بأنه لا إله إلا الله، والاستغفار لذنبه وللمؤمنين والمؤمنات، والله يعلم متقلّبكم ومثواكم. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=47&tAyahNo=19&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «فَٱعْلَمْ أَنَّهُ لاَ إِلَٰهَ إِلاَّ ٱللَّهُ وَٱسْتَغْفِرْ لِذَنبِكَ وَلِلْمُؤْمِنِينَ وَٱلْمُؤْمِنَاتِ وَٱللَّهُ يَعْلَمُ مُتَقَلَّبَكُمْ وَمَثْوَاكُمْ»: فاعلم يا محمد أنه لا معبود تنبغي أو تصلح له الألوهة، ويجوز لك وللخلق عبادته، إلا الله الذي هو خالق الخلق، ومالك كلّ شيء، يدين له بالربوبية كلّ ما دونه «وَاسْتَغْفِرْ لِذَنْبِكَ» وسل ربك غفران سالف ذنوبك وحادثها، وذنوب أهل الإيمان بك من الرجال والنساء «وَاللَّهُ يَعْلَمُ مُتَقَلَّبَكُمْ وَمَثْوَاكُم» يقول: فإن الله يعلم متصرّفكم فيما تتصرّفون فيه في يقظتكم من الأعمال، ومثواكم إذا ثويتم في مضاجعكم للنوم ليلاً، لا يخفى عليه شيء من ذلك، وهو مجازيكم على جميع ذلك.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=47&tAyahNo=19&tDisplay=yes&UserProfile=0&LanguageId=1

@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-10-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-تأتي الآية في صفحة إرسال النبي شاهداً ومبشراً ونذيراً، وفيها يفسّر الطبري أن التعزير والتوقير والتسبيح بكرة وأصيلاً هي ما يُطلب من المؤمنين بالله ورسوله. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=48&tAyahNo=9&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 9 إلى 10 مقطعاً واحداً. يفسّر قوله «إِنَّآ أَرْسَلْنَٰكَ شَٰهِداً وَمُبَشِّراً وَنَذِيراً»: «إنَّا أرْسَلْناكَ» يا محمد «شاهِداً» على أمتك بما أجابوك فيما دعوَتهم إليه، مما أرسلتك به إليهم من الرسالة، «ومُبَشِّراً» لهم بالجنة إن أجابوك إلى ما دعوتهم إليه من الدين القيِّم، ونذيرا لهم عذاب الله إن هم تولَّوْا عما جئتهم به من عند ربك. ثم اختلفت القرّاء في قراءة قوله: «لِتُؤْمِنُوا باللَّهِ وَرَسُولِهِ وَتُعَزِّرُوهُ وَتُوَقِّرُوهُ وَتُسَبِّحُوهِ» فقرأ جميع ذلك عامة قرّاء الأمصار خلا أبي جعفر المدني وأبي عمرو بن العلاء، بالتاء «لِتُؤْمِنُوا، وتُعَزّرُوهُ، وَتُوَقِّرُوهُ، وَتُسَبِّحُوهُ» بمعنى: لتؤمنوا بالله ورسوله أنتم أيها الناس. وينقل في المقطع أقوالاً عن ابن عباس وقتادة وابن زيد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=48&tAyahNo=9&tDisplay=yes&UserProfile=0&LanguageId=1

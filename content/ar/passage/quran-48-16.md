@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-10-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن المخلفين من الأعراب سيُدعون إلى قوم أولي بأس شديد، ويعرض اختلاف أهل التأويل في تعيين هؤلاء القوم: فقيل هوازن وثقيف، وقيل بنو حنيفة أصحاب مسيلمة، وقيل فارس والروم، ويورد الروايات بأسانيدها، وإن تطيعوا يؤتكم الله أجراً حسناً. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=48&tAyahNo=16&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «قُل لِّلْمُخَلَّفِينَ مِنَ ٱلأَعْرَابِ سَتُدْعَوْنَ إِلَىٰ قَوْمٍ أُوْلِي بَأْسٍ شَدِيدٍ تُقَاتِلُونَهُمْ أَوْ يُسْلِمُونَ فَإِن تُطِيعُواْ يُؤْتِكُمُ ٱللَّهُ أَجْراً حَسَناً وَإِن تَتَوَلَّوْاْ كَمَا تَوَلَّيْتُمْ مِّن قَبْلُ يُعَذِّبْكُمْ عَذَاباً أَلِيماً»: «قُلْ» يا محمد «للْمُخَلَّفِينَ مِنَ الأْعْرَابِ» عن المسير معك، «سَتُدْعَوْنَ إلَى» قتال «قَوْمٍ أُولي بَأْسٍ» في القتال «شَدِيدٍ». واختلف أهل التأويل في هؤلاء الذين أخبر الله عزّ وجلّ عنهم أن هؤلاء المخلفين من الأعراب يُدْعَوْن إلى قتالهم، فقال بعضهم: هم أهل فارس. وينقل في المقطع أقوالاً عن ابن عباس ومجاهد وقتادة والحسن وسعيد بن جبير وابن زيد وغيرهم.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=48&tAyahNo=16&tDisplay=yes&UserProfile=0&LanguageId=1

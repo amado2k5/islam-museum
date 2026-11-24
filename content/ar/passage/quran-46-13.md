@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-10-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل الآيات 13 إلى 14، وخلاصتها: يقول الطبري إن الذين قالوا ربنا الله ثم استقاموا فلا خوف عليهم ولا هم يحزنون أولئك أصحاب الجنة خالدين فيها جزاء بما كانوا يعملون. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=46&tAyahNo=13&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 13 إلى 14 مقطعاً واحداً. يفسّر قوله «إِنَّ ٱلَّذِينَ قَالُواْ رَبُّنَا ٱللَّهُ ثُمَّ ٱسْتَقَامُواْ فَلاَ خَوْفٌ عَلَيْهِمْ وَلاَ هُمْ يَحْزَنُونَ»: «إنَّ الَّذِينَ قالُوا رَبُّنا اللَّهُ» الذي لا إله غيره «ثُمَّ اسْتَقامُوا» على تصديقهم بذلك فلم يخلطوه بشرك، ولم يخالفوا الله في أمره ونهيه «فَلا خَوْفٌ عَلَيْهِمْ» من فزع يوم القيامة وأهواله «وَلا هُمْ يَحْزَنُونَ» على ما خلفوا وراءهم بعد مماتهم. وقوله: «أُولَئِكَ أصَحابُ الجَنَّةِ» يقول تعالى ذكره: هؤلاء الذين قالوا هذا القول، واستقاموا أهل الجنة وسكانها «خالِدِينَ فِيها» يقول: ماكثين فيها أبدا «جَزَاءً بمَا كانُوا يَعْمَلُونَ» يقول: ثواباً منا لهم آتيناهم ذلك على أعمالهم الصالحة التي كانوا في الدنيا يعملونها.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=46&tAyahNo=13&tDisplay=yes&UserProfile=0&LanguageId=1

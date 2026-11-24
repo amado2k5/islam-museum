@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-10-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل الآيات 22 إلى 23، وخلاصتها: يقول الطبري إن الذين كفروا لو قاتلوكم لولّوا الأدبار ثم لا يجدون ولياً ولا نصيراً، سنة الله التي قد خلت من قبل ولن تجد لسنة الله تبديلاً. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=48&tAyahNo=22&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 22 إلى 23 مقطعاً واحداً. يفسّر قوله «وَلَوْ قَٰتَلَكُمُ ٱلَّذِينَ كفَرُواْ لَوَلَّوُاْ ٱلأَدْبَارَ ثُمَّ لاَ يَجِدُونَ وَلِيّاً وَلاَ نَصِيراً»: يقول تعالى ذكره للمؤمنين به من أهل بيعة الرضوان: «وَلَوْ قاتَلَكُم الَّذِينَ كَفَرُوا» بالله أيها المؤمنون بمكة «لَوَلَّوُا الأدْبارَ» يقول: لانهزموا عنكم، فولوكم أعجازهم، وكذلك يفعل المنهزم من قرنه في الحرب «ثُمَّ لا يَجدُونَ وَلِيّاً وَلا نَصِيراً» يقول: ثم لا يجد هؤلاء الكفار المنهزمون عنكم، المولوكم الأدبار، ولياً يواليهم على حربكم، ولا نصيرا ينصرهم عليكم، لأن الله تعالى ذكره معكم، ولن يُغْلَبَ حِزْبٌ اللَّهُ ناصِرُهُ. وينقل في المقطع أقوالاً عن قتادة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=48&tAyahNo=22&tDisplay=yes&UserProfile=0&LanguageId=1

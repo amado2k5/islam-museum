@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-10-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن الذين يُتقبل عنهم أحسن ما عملوا ويُتجاوز عن سيئاتهم في أصحاب الجنة وعد الصدق الذي كانوا يوعدون. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=46&tAyahNo=16&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «أُوْلَٰئِكَ ٱلَّذِينَ نَتَقَبَّلُ عَنْهُمْ أَحْسَنَ مَا عَمِلُواْ وَنَتَجَاوَزُ عَن سَيِّئَاتِهِمْ فِيۤ أَصْحَابِ ٱلْجَنَّةِ وَعْدَ ٱلصِّدْقِ ٱلَّذِي كَانُواْ يُوعَدُونَ»: هؤلاء الذين هذه الصفة صفتهم، هم الذين يتُقبل عنهم أحسن ما عملوا في الدنيا من صالحات الأعمال، فيجازيهم به، ويثيبهم عليه «ونَتَجاوَزُ عَنْ سَيِّئاتِهِم» يقول: ويصفح لهم عن سيئات أعمالهم التي عملوها في الدنيا، فلا يعاقبهم عليها في أصحَابِ الجَنَّةِ يقول: نفعل ذلك بهم فعلنا مثل ذلك في أصحاب الجنة وأهلها الذين هم أهلها. وينقل في المقطع أقوالاً عن ابن عباس ومجاهد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=46&tAyahNo=16&tDisplay=yes&UserProfile=0&LanguageId=1

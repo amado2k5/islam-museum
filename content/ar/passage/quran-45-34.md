@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-10-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إنه يُقال للكفرة اليوم ننساكم أي نترككم في العذاب كما نسيتم لقاء يومكم هذا، ومأواكم النار وما لكم من ناصرين، ويورد قول ابن عباس. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=45&tAyahNo=34&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَقِيلَ ٱلْيَوْمَ نَنسَاكُمْ كَمَا نَسِيتُمْ لِقَآءَ يَوْمِكُمْ هَٰذَا وَمَأْوَاكُمُ ٱلنَّارُ وَمَا لَكُمْ مِّن نَّاصِرِينَ»: وقيل لهؤلاء الكفرة الذين وصف صفتهم: اليوم نترككم في عذاب جهنم، كما تركتم العمل للقاء ربكم يومكم هذا. كما: قال: ثني معاوية، عن عليّ، عن ابن عباس، قوله: «وَقِيلَ اليَوْمَ نَنْساكُمْ» نترككم. وقوله: «وَمأْوَاكُمُ النَّارُ» يقول: ومأواكم التي تأوون إليها نار جهنم، «وَما لَكُمْ مِنْ ناصِرِينَ» يقول: وما لكم من مستنقذ ينقذكم اليوم من عذاب الله، ولا منتصر ينتصر لكم ممن يعذّبكم، فيستنقذ لكم منه. وينقل في المقطع أقوالاً عن ابن عباس.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=45&tAyahNo=34&tDisplay=yes&UserProfile=0&LanguageId=1

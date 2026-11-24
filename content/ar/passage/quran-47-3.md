@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-10-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن ذلك جزاء لكل فريق على فعله: الذين كفروا اتبعوا الباطل والذين آمنوا اتبعوا الحق من ربهم، كذلك يضرب الله للناس أمثالهم. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=47&tAyahNo=3&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «ذَلِكَ بِأَنَّ ٱلَّذِينَ كَفَرُواْ ٱتَّبَعُواْ ٱلْبَاطِلَ وَأَنَّ ٱلَّذِينَ آمَنُواْ ٱتَّبَعُواْ ٱلْحَقَّ مِن رَّبِّهِمْ كَذَلِكَ يَضْرِبُ ٱللَّهُ لِلنَّاسِ أَمْثَالَهُمْ»: هذا الذي فعلنا بهذين الفريقين من إضلالنا أعمال الكافرين، وتكفيرنا عن الذين آمنوا وعملوا الصالحات، جزاء منا لكلّ فريق منهم على فعله. أما الكافرون فأضللنا أعمالهم، وجعلناها على غير استقامة وهدى، بأنهم اتبعوا الشيطان فأطاعوه، وهو الباطل. كما: حدثني زكريا بن يحيى بن أبي زائدة، وعباس بن محمد، قالا: قال: قال ابن جُرَيج: أخبرني خالد أنه سمع مجاهداً يقول «ذلكَ بأنَّ الَّذِينَ كَفَرُوا اتَّبَعُوا الباطِلَ» قال: الباطل: الشيطان.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=47&tAyahNo=3&tDisplay=yes&UserProfile=0&LanguageId=1

@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-10-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل الآيات 8 إلى 9، وخلاصتها: يفسّر الطبري أن الذين كفروا فتعساً لهم أي خزياً وشقاءً وأضل أعمالهم، ذلك بأنهم كرهوا ما أنزل الله فأحبط أعمالهم. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=47&tAyahNo=8&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 8 إلى 9 مقطعاً واحداً. يفسّر قوله «وَٱلَّذِينَ كَفَرُواْ فَتَعْساً لَّهُمْ وَأَضَلَّ أَعْمَالَهُمْ»: «وَالَّذِينَ كَفَرُوا» بالله، فجحدوا توحيده «فَتَعْساً لَهُمْ» يقول: فخزياً لهم وشقاء وبلاء. كما: قال ابن زيد، في قوله: «وَالَّذِينَ كَفَرُوا فَتَعْساً لَهُمْ» قال: شقاء لهم. وقوله: «وأضَلَّ أعمالَهُمْ» يقول وجعل أعمالهم معمولة على غير هدى ولا استقامة، لأنها عملت في طاعة الشيطان، لا في طاعة الرحمن. وينقل في المقطع أقوالاً عن قتادة وابن زيد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=47&tAyahNo=8&tDisplay=yes&UserProfile=0&LanguageId=1

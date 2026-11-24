@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-10-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن المشركين قالوا ما هي إلا حياتنا الدنيا نموت ونحيا وما يهلكنا إلا الدهر، وما لهم بذلك من علم إن هم إلا يظنون، ويفسّر إنكارهم للبعث. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=45&tAyahNo=24&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَقَالُواْ مَا هِيَ إِلاَّ حَيَاتُنَا ٱلدُّنْيَا نَمُوتُ وَنَحْيَا وَمَا يُهْلِكُنَآ إِلاَّ ٱلدَّهْرُ وَمَا لَهُمْ بِذَلِكَ مِنْ عِلْمٍ إِنْ هُمْ إِلاَّ يَظُنُّونَ»: وقال هؤلاء المشركون الذين تقدّم خبره عنهم: ما حياة إلا حياتنا الدنيا التي نحن فيها لا حياة سواها تكذيباً منهم بالبعث بعد الممات. كما: وعن قتادة «وَقالُوا ما هِيَ إلاَّ حَياتُنا الدُّنيْا»: أي لعمري هذا قول مشركي العرب. وينقل في المقطع أقوالاً عن مجاهد وقتادة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=45&tAyahNo=24&tDisplay=yes&UserProfile=0&LanguageId=1

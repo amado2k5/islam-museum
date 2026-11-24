@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-10-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل الآيات 18 إلى 19، وخلاصتها: يقول الطبري إن الله جعل النبي على شريعة من الأمر أي منهاج وسنة، فاتبعها ولا تتبع أهواء الذين لا يعلمون إنهم لن يغنوا عنك من الله شيئاً، وإن الظالمين بعضهم أولياء بعض والله ولي المتقين. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=45&tAyahNo=18&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 18 إلى 19 مقطعاً واحداً. يفسّر قوله «ثُمَّ جَعَلْنَاكَ عَلَىٰ شَرِيعَةٍ مِّنَ ٱلأَمْرِ فَٱتَّبِعْهَا وَلاَ تَتَّبِعْ أَهْوَآءَ ٱلَّذِينَ لاَ يَعْلَمُونَ»: ثم جعلناك يا محمد من بعد الذي آتينا بني إسرائيل، الذين وصفت لك صفتهم «عَلى شَرِيعَةٍ مِنَ الأمْرِ» يقول: على طريقة وسنة ومنهاج من أمرنا الذي أمرنا به من قبلك من رسلنا «فاتَّبِعْها» يقول: فاتبع تلك الشريعة التي جعلناها لك «وَلا تَتَّبِعْ أهْوَاءَ الذِينَ لا يَعْلَمُونَ» يقول: ولا تتبع ما دعاك إليه الجاهلون بالله، الذين لا يعرفون الحقّ من الباطل، فتعمل به، فتهلك إن عملت به. وينقل في المقطع أقوالاً عن ابن عباس وقتادة وابن زيد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=45&tAyahNo=18&tDisplay=yes&UserProfile=0&LanguageId=1

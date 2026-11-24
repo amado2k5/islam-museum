@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-10-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن الله سخّر لكم ما في السماوات وما في الأرض جميعاً منه، وإن في ذلك لآيات لقوم يتفكرون. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=45&tAyahNo=13&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَسَخَّرَ لَكُمْ مَّا فِي ٱلسَّمَٰوَٰتِ وَمَا فِي ٱلأَرْضِ جَمِيعاً مِّنْهُ إِنَّ فِي ذَلِكَ لأيَٰتٍ لِّقَوْمٍ يَتَفَكَّرُونَ»: «وَسَخَّرَ لَكُمْ ما في السَّمَوَاتِ» من شمس وقمر ونجوم «وَما فِي الأرْضِ» من دابة وشجر وجبل وجماد وسفن لمنافعكم ومصالحكم «جَمِيعاً منه». يقول تعالى ذكره: جميع ما ذكرت لكم أيها الناس من هذه النعم، نعم عليكم من الله أنعم بها عليكم، وفضل منه تفضّل به عليكم، فإياه فاحمدوا لا غيره، لأنه لم يشركه في إنعام هذه النعم عليكم شريك، بل تفرّد بإنعامها عليكم وجميعها منه، ومن نعمه فلا تجعلوا له في شكركم له شريكاً بل أفردوه بالشكر والعبادة، وأخلصوا له الألوهة، فإنه لا إله لكم سواه. وينقل في المقطع أقوالاً عن ابن عباس.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=45&tAyahNo=13&tDisplay=yes&UserProfile=0&LanguageId=1

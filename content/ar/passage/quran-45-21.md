@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-10-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يفسّر الطبري أن المسيئين لا يُجعلون كالذين آمنوا وعملوا الصالحات سواء محياهم ومماتهم ساء ما يحكمون، ويورد الآثار في تردد السلف عند هذه الآية. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=45&tAyahNo=21&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 21 إلى 22 مقطعاً واحداً. يفسّر قوله «هَٰذَا بَصَائِرُ لِلنَّاسِ وَهُدًى وَرَحْمَةٌ لِّقَوْمٍ يُوقِنُونَ»: يقول تعالى ذكره «هَذَا» الكتاب الذي أنزلناه إليك يا محمد «بَصَائِرُ لِلنَّاسِ» يُبْصِرون به الحقّ من الباطل، ويعرفون به سبيل الرشاد، والبصائر: جمع بصيرة. وينقل في المقطع أقوالاً عن مجاهد وقتادة وابن زيد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=45&tAyahNo=21&tDisplay=yes&UserProfile=0&LanguageId=1

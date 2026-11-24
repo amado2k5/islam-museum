@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-10-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن الله مكّن عاداً فيما لم يمكّن قريشاً فيه من كثرة المال وبسطة الأجسام وجعل لهم سمعاً وأبصاراً وأفئدة فما أغنى عنهم ذلك إذ جحدوا بآيات الله. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=46&tAyahNo=26&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَلَقَدْ مَكَّنَاهُمْ فِيمَآ إِن مَّكَّنَّاكُمْ فِيهِ وَجَعَلْنَا لَهُمْ سَمْعاً وَأَبْصَاراً وَأَفْئِدَةً فَمَآ أَغْنَىٰ عَنْهُمْ سَمْعُهُمْ وَلاَ أَبْصَارُهُمْ وَلاَ أَفْئِدَتُهُمْ مِّن شَيْءٍ إِذْ كَانُواْ يَجْحَدُونَ بِآيَاتِ ٱللَّهِ وَحَاقَ بِهم مَّا كَانُواْ بِهِ يَسْتَهْزِئُونَ»: يقول تعالى ذكره لكفار قريش: ولقد مكَّنا أيها القوم عاداً الذين أهلكناهم بكفرهم فيما لم نمكنكم فيه من الدنيا، وأعطيناهم منها الذي لم نعطكم منهم من كثرة الأموال، وبسطة الأجسام، وشدّة الأبدان. وينقل في المقطع أقوالاً عن ابن عباس وقتادة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=46&tAyahNo=26&tDisplay=yes&UserProfile=0&LanguageId=1

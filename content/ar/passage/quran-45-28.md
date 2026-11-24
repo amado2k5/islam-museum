@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-10-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يذكر الطبري أن كل أمة جاثية أي مجتمعة مستوفزة على ركبها من هول اليوم، كل أمة تُدعى إلى كتابها اليوم تُجزون ما كنتم تعملون، ويورد أقوال مجاهد وغيره. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=45&tAyahNo=28&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَتَرَىٰ كُلَّ أُمَّةٍ جَاثِيَةً كُلُّ أمَّةٍ تُدْعَىٰ إِلَىٰ كِتَابِهَا ٱلْيَوْمَ تُجْزَوْنَ مَا كُنتُمْ تَعْمَلُونَ»: وترى يا محمد يوم تقوم الساعة أهل كل ملة ودين جاثية: يقول: مجتمعة مستوفزة على ركبها من هول ذلك اليوم. كما: وعن ابن أبي نجيح، عن مجاهد في قوله: «وَتَرَى كُلَّ أُمَّةٍ جاثِيَةً» قال على الركب مستوفِزِين. قال ابن زيد، في قوله: «وَتَرَى كُلَّ أُمَّةٍ جاثِيَةً» قال: هذا يوم القيامة جاثية على ركبهم. حُدثت عن الحسين، قال: سمعت أبا معاذ، يقول: قال: سمعت الضحاك يقول، في قوله: «وَتَرَى كُلَّ أمَّةٍ جاثِيَةً» يقول: على الركب عند الحساب. وقوله: «كُلُّ أُمَّةٍ تُدْعَى إلى كِتابِها» يقول: كل أهل ملة ودين تُدعى إلى كتابها الذي أملت على حفظتها. وينقل في المقطع أقوالاً عن مجاهد وقتادة وابن زيد وعطاء.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=45&tAyahNo=28&tDisplay=yes&UserProfile=0&LanguageId=1

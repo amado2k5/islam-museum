@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-10-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل الآيات 29 إلى 30، وخلاصتها: يفسّر الطبري أن المنافقين الذين في قلوبهم مرض يحسبون أن لن يُخرج الله أضغانهم، ولو نشاء لأريناكهم فلعرفتهم بسيماهم ولتعرفنهم في لحن القول والله يعلم أعمالكم. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=47&tAyahNo=29&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 29 إلى 30 مقطعاً واحداً. يفسّر قوله «أَمْ حَسِبَ ٱلَّذِينَ فِي قُلُوبِهِمْ مَّرَضٌ أَن لَّن يُخْرِجَ ٱللَّهُ أَضْغَانَهُمْ»: أحسب هؤلاء المنافقون الذين في قلوبهم شكّ في دينهم، وضعف في يقينهم، فهم حيارَى في معرفة الحقّ أن لن يُخرج الله ما في قلوبهم من الأضغان على المؤمنين، فيبديه لهم ويظهره، حتى يعرفوا نفاقهم، وحيرتهم في دينهم «وَلَوْ نَشاءُ لأَرَيْناكَهُمْ» يقول تعالى ذكره: ولو نشاء يا محمد لعرّفناك هؤلاء المنافقين حتى تعرفهم من قول القائل: سأريك ما أصنع، بمعنى سأعلمك. وقوله: «فَلَعَرَفْتَهُمْ بِسِيماهُمْ» يقول: فلتعرفنهم بعلامات النفاق الظاهرة منهم في فحوى كلامهم، وظاهر أفعالهم، ثم إن الله تعالى ذكره عرّفه إياهم. وينقل في المقطع أقوالاً عن ابن عباس وابن زيد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=47&tAyahNo=29&tDisplay=yes&UserProfile=0&LanguageId=1

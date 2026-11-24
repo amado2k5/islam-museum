@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-10-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن هوداً قال إنما العلم عند الله وأبلّغكم ما أُرسلت به ولكني أراكم قوماً تجهلون. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=46&tAyahNo=23&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «قَالَ إِنَّمَا ٱلْعِلْمُ عِندَ ٱللَّهِ وَأُبَلِّغُكُمْ مَّآ أُرْسِلْتُ بِهِ وَلَٰكِنِّيۤ أَرَاكُمْ قَوْماً تَجْهَلُونَ»: قال هود لقومه عاد: «إنَّمَا العِلْمُ» بوقت مجيء ما أعِدُكم به من عذاب الله على كفركم به عند الله، لا أعلم من ذلك إلا ما علمني «وأُبَلِّغَكُمْ ما أُرْسِلْتُ بِهِ» يقول: وإنما أنا رسول إليكم من الله، مبلغ أبلغكم عنه ما أرسلني به من الرسالة «وَلَكِنِّي أرَاكُمْ قَوْماً تَجْهَلُونَ» مواضع حظوظ أنفسكم، فلا تعرفون ما عليها من المضرّة بعبادتكم غير الله، وفي استعجال عذابه.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=46&tAyahNo=23&tDisplay=yes&UserProfile=0&LanguageId=1

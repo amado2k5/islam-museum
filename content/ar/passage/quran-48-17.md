@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-10-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إنه ليس على الأعمى حرج ولا على الأعرج حرج ولا على المريض حرج في التخلف عن الجهاد لأعذارهم، ومن يطع الله ورسوله يدخله جنات تجري من تحتها الأنهار. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=48&tAyahNo=17&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «لَّيْسَ عَلَى ٱلأَعْمَىٰ حَرَجٌ وَلاَ عَلَى ٱلأَعْرَجِ حَرَجٌ وَلاَ عَلَى ٱلْمَرِيضِ حَرَجٌ وَمَن يُطِعِ ٱللَّهَ وَرَسُولَهُ يُدْخِلْهُ جَنَّٰتٍ تَجْرِي مِن تَحْتِهَا ٱلأَنْهَٰرُ وَمَن يَتَوَلَّ يُعَذِّبْهُ عَذَاباً أَلِيماً»: ليس على الأعمى منكم أيها الناس ضيق، ولا على الأعرج ضيق، ولا على المريض ضيق أن يتخلفوا عن الجهاد مع المؤمنين، وشهود الحرب معهم إذا هم لقوا عدوّهم، للعلل التي بهم، والأسباب التي تمنعهم من شهودها. وينقل في المقطع أقوالاً عن قتادة وابن زيد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=48&tAyahNo=17&tDisplay=yes&UserProfile=0&LanguageId=1
