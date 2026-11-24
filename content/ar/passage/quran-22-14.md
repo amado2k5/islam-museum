@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-7-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يذكر الطبري أن الله يدخل الذين صدقوا الله ورسوله وعملوا بما أمرهم وانتهوا عما نهاهم جنات تجري من تحتها الأنهار، وأن الله يفعل ما يريد، فيعطي ما شاء من كرامته أهل طاعته وما شاء من الهوان أهل معصيته. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=22&tAyahNo=14&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «إِنَّ ٱللَّهَ يُدْخِلُ ٱلَّذِينَ آمَنُواْ وَعَمِلُواْ ٱلصَّالِحَاتِ جَنَاتٍ تَجْرِي مِن تَحْتِهَا ٱلأَنْهَارُ إِنَّ ٱللَّهَ يَفْعَلُ مَا يُرِيدُ»: إن الله يدخل الذين صدقوا الله ورسوله، وعملوا بما أمرهم الله في الدنيا، وانتهوا عما نهاهم عنه فيها «جَنَّاتٍ» يعني بساتين، «تَجْرِي مِنْ تَحْتِها الأنهارُ» يقول: تجري الأنهار من تحت أشجارها. «إنَّ اللَّهَ يَفْعَلُ ما يُرِيدُ» فيعطي ما شاء من كرامته أهل طاعته وما شاء من الهوان أهل معصيته.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=22&tAyahNo=14&tDisplay=yes&UserProfile=0&LanguageId=1

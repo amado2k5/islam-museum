@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-7-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن الله يأمر نوحاً أن يقول إذا أسلمه الله وأخرجه من الفلك ونزل منها: ربّ أنزلني منزلاً مباركاً وأنت خير المنزلين، أي خير من أنزل عباده المنازل. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=23&tAyahNo=29&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 29 إلى 30 مقطعاً واحداً. يفسّر قوله «وَقُل رَّبِّ أَنزِلْنِي مُنزَلاً مُّبَارَكاً وَأَنتَ خَيْرُ ٱلْمُنزِلِينَ»: وقل إذا سلمك الله وأخرجك من الفلك فنزلت عنها: «رَبّ أَنْزِلْنِي مُنَزلاً» من الأرض «مُبارَكا وأَنْتَ خَيرُ» من أنزل عباده المنازل. وينقل في المقطع أقوالاً عن مجاهد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=23&tAyahNo=29&tDisplay=yes&UserProfile=0&LanguageId=1

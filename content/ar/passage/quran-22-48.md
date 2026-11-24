@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-7-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن الله أمهل أهل القرى وهم ظالمون ولم يعجّل بعذابهم، ثم أخذهم بالعذاب في الدنيا، وإليه المصير بعد هلاكهم، فيلقون عذاباً لا انقطاع له، وكذلك حال مستعجلي النبي بالعذاب. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=22&tAyahNo=48&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَكَأَيِّن مِّن قَرْيَةٍ أَمْلَيْتُ لَهَا وَهِيَ ظَالِمَةٌ ثُمَّ أَخَذْتُهَا وَإِلَيَّ ٱلْمَصِيرُ»: «وكأيِّنْ مِنْ قَرْيَةٍ أمْلَيْتُ لَهَا» يقول: أمهلتهم وأخَّرت عذابهم، وهم بالله مشركون ولأمره مخالفون وذلك كان ظلمهم الذي وصفهم الله به جلّ ثناؤه فلم أعجَلْ بعذابهم. «ثُمَّ أخَذْتُها» يقول: ثم أخذتها بالعذاب، فعذّبتها في الدنيا بإحلال عقوبتنا بهم. «وإليَّ المَصِيرُ» يقول: وإليّ مصيرهم أيضاً بعد هلاكهم، فيلقون من العذاب حينئذ ما لا انقطاع له يقول تعالى ذكره: فكذلك حال مستعجليك بالعذاب من مشركي قومك، وإن أمليت لهم إلى آجالهم التي أجلتها لهم، فإني آخِذُهم بالعذاب فقاتِلُهم بالسيف ثم إليّ مصيرهم بعد ذلك فموجعهم إذن عقوبة على ما قدّموا من آثامهم.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=22&tAyahNo=48&tDisplay=yes&UserProfile=0&LanguageId=1

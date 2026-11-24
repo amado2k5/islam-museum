@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-7-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن الله يدخل المقتول في سبيله من المهاجرين والميت منهم مدخلاً يرضونه وهو الجنة، وأن الله لعليم حليم، أي عليم بمن يهاجر في سبيله وبمن يخرج طلباً لغنيمة أو عَرَض من الدنيا، وحليم عن عصاة خلقه بتركه معاجلتهم بالعقوبة. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=22&tAyahNo=59&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «لَيُدْخِلَنَّهُمْ مُّدْخَلاً يَرْضَوْنَهُ وَإِنَّ ٱللَّهَ لَعَلِيمٌ حَلِيمٌ»: ليدخلنّ الله المقتول في سبيله من المهاجرين والميت منهم «مُدْخَلاً يَرْضَوْنَهُ» وذلك المدخل هو الجنة. «وَإنَّ اللَّهَ لَعَلِيمٌ» بمن يهاجر في سبيله ممن يخرج من داره طلب الغنيمة أو عَرَض من عروض الدنيا. «حَلِيمٌ» عن عصاة خلقه، بتركه معاجلتهم بالعقوبة والعذاب.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=22&tAyahNo=59&tDisplay=yes&UserProfile=0&LanguageId=1

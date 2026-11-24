@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-7-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن الله أرسل نوحاً إلى قومه داعياً إلى طاعته وتوحيده والبراءة من كل معبود سواه، فقال لهم: يا قوم اعبدوا الله، ما لكم من إله غيره، أفلا تتقون، أي تخشون عقابه أن يحلّ بكم بعبادتكم غيره. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=23&tAyahNo=23&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَلَقَدْ أَرْسَلْنَا نُوحاً إِلَىٰ قَوْمِهِ فَقَالَ يٰقَوْمِ ٱعْبُدُواْ ٱللَّهَ مَا لَكُمْ مِّنْ إِلَٰهٍ غَيْرُهُ أَفَلاَ تَتَّقُونَ»: «وَلَقَدْ أرْسَلْنا نُوحا إلى قَوْمِهِ» داعيهم إلى طاعتنا وتوحيدنا والبراءة من كلّ معبود سوانا. «فَقالَ» لهم نوح: «يا قَوْمِ اعْبُدُوا اللّهَ» يقول: قال لهم: ذلوا يا قوم لله بالطاعة. «ما لَكُمْ مِنْ إلَهٍ غَيْرُهُ» يقول: ما لكم من معبود يجوز لكم أن تعبدوه غيره. «أفَلا تَتَّقُونَ» يقول: أفلا تخشون بعبادتكم غيره عقابه أن يحلّ بكم.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=23&tAyahNo=23&tDisplay=yes&UserProfile=0&LanguageId=1

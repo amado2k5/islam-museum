@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-7-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يعرض الطبري اختلاف أهل التأويل في مرجع الهاء في «ينصره»، فقيل هي للنبي، فمن ظن أن لن ينصر الله محمداً في الدنيا والآخرة فليمدد بسبب إلى السماء، وهو سقف البيت، ثم ليقطع، أي ليختنق به، فلينظر هل يذهبن كيده ما يغيظ، أي هل يذهب ذلك غيظه. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=22&tAyahNo=15&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 15 إلى 16 مقطعاً واحداً. يفسّر قوله «مَن كَانَ يَظُنُّ أَن لَّن يَنصُرَهُ ٱللَّهُ فِي ٱلدُّنْيَا وَٱلآخِرَةِ فَلْيَمْدُدْ بِسَبَبٍ إِلَى ٱلسَّمَآءِ ثُمَّ لْيَقْطَعْ فَلْيَنْظُرْ هَلْ يُذْهِبَنَّ كَيْدُهُ مَا يَغِيظُ»: اختلف أهل التأويل في المعنيّ بالهاء التي في قوله: «أنْ لَنْ يَنْصُرَهُ اللَّهُ». فقال بعضهم: عُنِي بها نبي الله. فتأويله على قوله بعض قائلي ذلك: من كان من الناس يحسب أن لن ينصر الله محمدا في الدنيا والآخرة، فليمدد بحبل وهو السبب إلى السماء: يعني سماء البيت، وهو سقفه، ثم ليقطع السبب بعد الاختناق به، فلينظر هل يذهبن اختناقه ذلك وقطعه السبب بعد الاختناق ما يغيظ يقول: هل يذهبن ذلك ما يجد في صدره من الغيظ وينقل في المقطع أقوالاً عن ابن زيد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=22&tAyahNo=15&tDisplay=yes&UserProfile=0&LanguageId=1

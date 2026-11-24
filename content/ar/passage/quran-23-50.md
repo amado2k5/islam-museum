@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-7-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن الله آوى مريم وابنها إلى ربوة ذات قرار ومعين، ويعرض اختلاف أهل التأويل في الربوة: فقيل هي دمشق، وقيل بيت المقدس، وقيل أرض فلسطين أو مصر، والقرار المستقر والمعين الماء الجاري. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=23&tAyahNo=50&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 50 إلى 51 مقطعاً واحداً. يفسّر قوله «وَلَقَدْ آتَيْنَا مُوسَىٰ ٱلْكِتَابَ لَعَلَّهُمْ يَهْتَدُونَ»: ولقد آتينا موسى التوراة، ليهتدي بها قومه من بني إسرائيل، ويعلموا بما فيها. «وَجَعَلْنا ابْنَ مَرْيَمَ وأُمَّهُ» يقول: وجعلنا ابن مريم وأمه حجة لنا على من كان بينهم، وعلى قدرتنا على إنشاء الأجسام من غير أصل، كما أنشأنا خلق عيسى من غير أب. كما: أخبرنا مَعْمر، عن قَتادة، في قوله: «وَجَعَلْنا ابْنَ مَرْيَمَ وأُمَّهُ» قال: ولدته من غير أب هو له. ولذلك وُحِّدت الآية، وقد ذكر مريم وابنها. وقوله «وآوَيْناهما إلى رَبْوَةٍ» يقول: وضممناهما وصيرناهما إلى ربوة، يقال: أوى فلان إلى موضع كذا، فهو يأوِي إليه. إذا صار إليه وعلى مثال «أفعلته» فهو يُؤْويه.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=23&tAyahNo=50&tDisplay=yes&UserProfile=0&LanguageId=1

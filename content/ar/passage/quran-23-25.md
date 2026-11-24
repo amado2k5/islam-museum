@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-7-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن الملأ قالوا إن نوحاً رجل به جنة، أي جنون، فتربصوا به حتى حين، أي إلى وقت ما، ولم يريدوا وقتاً معلوماً، وإنما هو كقول القائل دعه إلى يوم ما. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=23&tAyahNo=25&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 25 إلى 27 مقطعاً واحداً. يفسّر قوله «إِنْ هُوَ إِلاَّ رَجُلٌ بِهِ جِنَّةٌ فَتَرَبَّصُواْ بِهِ حَتَّىٰ حِينٍ»: يعني ذكره مخبراً عن قيل الملأ الذين كفروا من قوم نوح «إنْ هُوَ إلاَّ رَجُلٌ بِهِ جِنَّةٌ»: ما نوح إلا رجل به جنون. وقد يقال أيضاً للجنّ جنة، فيتفق الاسم والمصدر، و«هو» من قوله: إن هو كناية اسم نوح. وقوله: «فَتَرَبَّصُوا بِهِ حتى حِينٍ» يقول: فتلبثوا به، وتنظروا به حتى حين يقول: إلى وقت ما. ولم يَعْنُوا بذلك وقتاً معلوماً، إنما هو كقول القائل: دعه إلى يوم مَّا، أو إلى وقت مَّا. وقوله: وينقل في المقطع أقوالاً عن ابن عباس.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=23&tAyahNo=25&tDisplay=yes&UserProfile=0&LanguageId=1

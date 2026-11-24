@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-7-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن لله ملك ما في السماوات وما في الأرض، وكلهم عبيده وخلقه لا شريك له في ذلك، وإنه هو الغني عن كل ما في السماوات والأرض من خلقه وهم المحتاجون إليه، والحميد عند عباده في إفضاله عليهم. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=22&tAyahNo=64&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «لَّهُ مَا فِي ٱلسَّمَٰوَٰتِ وَمَا فِي ٱلأَرْضِ وَإِنَّ ٱللَّهَ لَهُوَ ٱلْغَنِيُّ ٱلْحَمِيدُ»: له مُلك ما في السموات وما في الأرض من شيء هم عبيده ومماليكه وخلقه، لا شريك له في ذلك ولا في شيء منه، وإن الله هو الغنيّ عن كل ما في السموات وما في الأرض من خلقه وهم المحتاجون إليه، الحميد عند عباده في إفضاله عليهم وأياديه عندهم.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=22&tAyahNo=64&tDisplay=yes&UserProfile=0&LanguageId=1

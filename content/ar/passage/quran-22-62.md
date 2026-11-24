@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-7-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن إيلاج الليل في النهار وإيلاج النهار في الليل كان لأن الله هو الحق الذي لا مثل له ولا شريك، وأن ما يدعوه المشركون من دونه هو الباطل الذي لا يقدر على صنعة شيء بل هو المصنوع، وأن الله هو العلي الكبير. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=22&tAyahNo=62&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «ذٰلِكَ بِأَنَّ ٱللَّهَ هُوَ ٱلْحَقُّ وَأَنَّ مَا يَدْعُونَ مِن دُونِهِ هُوَ ٱلْبَاطِلُ وَأَنَّ ٱللَّهَ هُوَ ٱلْعَلِيُّ ٱلْكَبِيرُ»: يعني تعالى ذكره بقوله «ذَلكَ» هذا الفعل الذي فعلت من إيلاجي الليل في النهار وإيلاجِي النهار في الليل لأني أنا الحقّ الذي لا مثل لي ولا شريك ولا ندّ، وأن الذي يدعوه هؤلاء المشركون إلهاً من دونه هو الباطل الذي لا يقدر على صنعة شيء، بل هو المصنوع يقول لهم تعالى ذكره: أفتتركون أيها الجهال عبادة من منه النفع وبيده الضر وهو القادر على كل شيء وكلّ شيء دونه، وتعبدون الباطل الذي لا تنفعكم عبادته. وقوله: «وأنَّ اللَّهَ هُوَ العَلِيُّ الكَبيرُ» يعني بقوله: «العَلِيّ» ذو العلوّ على كل شيء، هو فوق كلّ شيء وكل شيء دونه. «الكَبِيرُ» يعني العظيم، الذي كل شيء دونه ولا شيء أعظم منه.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=22&tAyahNo=62&tDisplay=yes&UserProfile=0&LanguageId=1

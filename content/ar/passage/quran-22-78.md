@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-7-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يعرض الطبري اختلاف أهل التأويل في معنى «وجاهدوا في الله حق جهاده»: فقيل المراد جهاد المشركين في سبيل الله، وينقل رواية عن ابن عباس وعمر في ذلك. ثم يذكر أن الله اجتباهم وما جعل عليهم في الدين من حرج، ملة أبيهم إبراهيم، وسمّاهم المسلمين، ويأمرهم بإقامة الصلاة وإيتاء الزكاة والاعتصام بالله. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=22&tAyahNo=78&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَجَاهِدُوا فِي ٱللَّهِ حَقَّ جِهَادِهِ هُوَ ٱجْتَبَاكُمْ وَمَا جَعَلَ عَلَيْكُمْ فِي ٱلدِّينِ مِنْ حَرَجٍ مِّلَّةَ أَبِيكُمْ إِبْرَاهِيمَ هُوَ سَمَّاكُمُ ٱلْمُسْلِمِينَ مِن قَبْلُ وَفِي هَٰذَا لِيَكُونَ ٱلرَّسُولُ شَهِيداً عَلَيْكُمْ وَتَكُونُواْ شُهَدَآءَ عَلَى ٱلنَّاسِ فَأَقِيمُواْ ٱلصَّلاَةَ وَآتُواْ ٱلزَّكَاةَ وَٱعْتَصِمُواْ بِٱللَّهِ هُوَ مَوْلاَكُمْ فَنِعْمَ ٱلْمَوْلَىٰ وَنِعْمَ ٱلنَّصِيرُ»: واختلف أهل التأويل في تأويل قوله: «وَجاهِدُوا فِي اللَّهِ حَقَّ جِهادِهِ» فقال بعضهم: معناه: وجاهدوا المشركين في سبيل الله حقّ جهاده. وينقل في المقطع أقوالاً عن ابن عباس والضحاك وابن زيد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=22&tAyahNo=78&tDisplay=yes&UserProfile=0&LanguageId=1

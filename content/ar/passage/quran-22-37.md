@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-7-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن لحوم البدن ودماءها لن تصل إلى الله، ولكن يناله تقواكم إن اتقيتموه فيها وأردتم بها وجهه وعملتم فيها بما أمركم به وعظّمتم حرماته. وكذلك سخّرها الله لكم لتكبروا الله على ما هداكم، وبشّر المحسنين. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=22&tAyahNo=37&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «لَن يَنَالَ ٱللَّهَ لُحُومُهَا وَلاَ دِمَآؤُهَا وَلَٰكِن يَنَالُهُ ٱلتَّقْوَىٰ مِنكُمْ كَذٰلِكَ سَخَّرَهَا لَكُمْ لِتُكَبِّرُواْ ٱللَّهَ عَلَىٰ مَا هَدَاكُمْ وَبَشِّرِ ٱلْمُحْسِنِينَ»: لن يصل إلى الله لحوم بدنكم ولا دماؤها، ولكن يناله اتقاؤكم إياه إن اتقيتموه فيها فأردتم بها وجهه وعملتم فيها بما ندبكم إليه وأمركم به في أمرها وعظمتم بها حرماته. وينقل في المقطع أقوالاً عن ابن زيد وإبراهيم وسفيان.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=22&tAyahNo=37&tDisplay=yes&UserProfile=0&LanguageId=1

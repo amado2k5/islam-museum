@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-7-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يذكر الطبري أن الله أنزل من السماء ماء بقدر فأسكنه في الأرض، وهو على الماء الذي أسكنه في الأرض قادر على أن يذهب به فيهلك الناس عطشاً وتخرب أرضهم فلا تنبت زرعاً ولا غراساً. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=23&tAyahNo=18&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَأَنزَلْنَا مِنَ ٱلسَّمَآءِ مَآءً بِقَدَرٍ فَأَسْكَنَّٰهُ فِي ٱلأَرْضِ وَإِنَّا عَلَىٰ ذَهَابٍ بِهِ لَقَٰدِرُونَ»: وأنزلنا من السماء ما في الأرض من ماء، فأسكناه فيها. كما: قال: ثني حجاج، عن ابن جُرَيج: «وأنْزَلْنا مِنَ السَّماءِ ماءً بِقَدَرٍ فأسْكَنَّاهُ فِي الأرْضِ» ماء هو من السماء. وقوله: «وَإنَّا على ذهابٍ بِهِ لَقادِرُونَ» يقول جلّ ثناؤه: وإنا على الماء الذي أسكناه في الأرض لقادرون أن نذهب به فتهلكوا أيها الناس عطشاً وتخرب أرضوكم، فلا تنبت زرعاً ولا غرساً، وتهلك مواشيكم، يقول: فمن نعمتي عليكم تركي ذلك لكم في الأرض جارياً.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=23&tAyahNo=18&tDisplay=yes&UserProfile=0&LanguageId=1

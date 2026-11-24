@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-7-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يذكر الطبري أن الرسول دعا ربه قائلاً: ربّ انصرني بما كذّبون، أي أعنّي عليهم بما كذّبوني، يسأل الله أن ينتقم له من المكذبين. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=23&tAyahNo=39&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 38 إلى 40 مقطعاً واحداً. يفسّر قوله «قَالَ رَبِّ ٱنْصُرْنِي بِمَا كَذَّبُونِ»: قال صالح لما أيس من إيمان قومه بالله ومن تصديقهم إياه بقولهم «وَما نَحْنُ لَهُ بِمُؤْمِنِينَ: ربِّ انْصُرْنِي» على هؤلاء «بما كَذَّبُونِ» يقول: بتكذيبهم إياي فيما دعوتهم إليه من الحقّ. فاستغاث صلوات الله عليه بربه من أذاهم إياه وتكذيبهم له، فقال الله له مجيباً في مسئلته إياه ما سأل: عن قليل يا صالح ليصبحُنّ مكذّبوك من قومك على تكذيبهم إياك نادمين، وذلك حين تَنزل بهم نقمتنا فلا ينفعهم الندم.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=23&tAyahNo=39&tDisplay=yes&UserProfile=0&LanguageId=1

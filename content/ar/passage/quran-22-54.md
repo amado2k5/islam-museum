@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-7-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن الله يفعل ذلك ليعلم أهل العلم به أن ما أنزله من آياته المحكمة هو الحق من ربك فيصدقوا به، فتخضع للقرآن قلوبهم وتذعن بالتصديق، وأن الله لهادي الذين آمنوا إلى صراط مستقيم، أي حق قاصد واضح. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=22&tAyahNo=54&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَلِيَعْلَمَ ٱلَّذِينَ أُوتُواْ ٱلْعِلْمَ أَنَّهُ ٱلْحَقُّ مِن رَّبِّكَ فَيُؤْمِنُواْ بِهِ فَتُخْبِتَ لَهُ قُلُوبُهُمْ وَإِنَّ ٱللَّهَ لَهَادِ ٱلَّذِينَ آمَنُوۤاْ إِلَىٰ صِرَاطٍ مُّسْتَقِيمٍ»: وكي يعلم أهل العلم بالله أن الذي أنزله الله من آياته التي أحكمها لرسوله ونسخ ما ألقي الشيطان فيه، أنه الحقّ من عند ربك يا محمد «فُيؤْمِنُوا بِهِ» يقول: فيصدّقوا به. «فتُخْبِتَ له قُلُوبُهُمْ» يقول: فتخضع للقرآن قلوبهم، وتذعن بالتصديق به والإقرار بما فيه. «وَإنَّ اللَّهَ لَهَادِ الَّذِينَ آمَنُوا إلى صِرَاطٍ مُسْتَقِيمٍ» وإن الله لمرشد الذين آمنوا بالله ورسوله إلى الحقّ القاصد والحقّ الواضح، بنسخ ما ألقي الشيطان في أمنية رسوله، فلا يضرّهم كيد الشيطان وإلقاؤه الباطل على لسان نبيهم.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=22&tAyahNo=54&tDisplay=yes&UserProfile=0&LanguageId=1

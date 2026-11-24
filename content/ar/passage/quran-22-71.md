@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-7-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن المشركين يعبدون من دون الله ما لم ينزل به حجة من السماء في كتاب من كتبه، وما ليس لهم به علم أنها آلهة. وما للظالمين من ناصر ينصرهم يوم القيامة فينقذهم من عذاب الله. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=22&tAyahNo=71&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَيَعْبُدُونَ مِن دُونِ ٱللَّهِ مَا لَمْ يُنَزِّلْ بِهِ سُلْطَاناً وَمَا لَيْسَ لَهُمْ بِهِ عِلْمٌ وَمَا لِلظَّالِمِينَ مِن نَّصِيرٍ»: ويعبد هؤلاء المشركون بالله من دونه ما لم ينزل به جلّ ثناؤه لهم حجة من السماء في كتاب من كتبه التي أنزلها إلى رسله، بأنها آلهة تصلح عبادتها فيعبدوها، بأن الله أذن لهم في عبادتها، وما ليس لهم به علم أنها آلهة. «وما للظَّالِمِينَ مِنْ نَصيِر» يقول: وما للكافرين بالله الذين يعبدون هذه الأوثان من ناصر ينصرهم يوم القيامة، فينقذهم من عذاب الله ويدفع عنهم عقابه إذا أراد عقابهم.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=22&tAyahNo=71&tDisplay=yes&UserProfile=0&LanguageId=1

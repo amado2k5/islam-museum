@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-7-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن الله جعل الأنعام كالإبل التي يُحمل عليها ويُركب ظهرها ويُشرب درّها، وعلى الفلك أيضاً يُحملون، فهي نعمة من الله عليهم يستوجب الشكر. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=23&tAyahNo=22&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 21 إلى 22 مقطعاً واحداً. يفسّر قوله «وَعَلَيْهَا وَعَلَى ٱلْفُلْكِ تُحْمَلُونَ»: وعلى الأنعام وعلى السفن تحملون، على هذه في البرّ وعلى هذه في البحر.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=23&tAyahNo=22&tDisplay=yes&UserProfile=0&LanguageId=1

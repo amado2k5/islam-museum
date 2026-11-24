@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-7-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يذكر الطبري أن الله يأمر نبيه أن يبشّر المخبتين الذين تخشع قلوبهم لذكر الله وتخضع من خشيته وجلاً من عقابه، والصابرين على ما أصابهم، والمقيمي الصلاة، والمنفقين مما رزقهم. وينقل عن ابن زيد أن معنى الإخبات أن لا تقسو قلوبهم. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=22&tAyahNo=35&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «ٱلَّذِينَ إِذَا ذُكِرَ ٱللَّهُ وَجِلَتْ قُلُوبُهُمْ وَٱلصَّٰبِرِينَ عَلَىٰ مَآ أَصَابَهُمْ وَٱلْمُقِيمِي ٱلصَّلَٰوةِ وَمِمَّا رَزَقْنَٰهُمْ يُنفِقُونَ»: فهذا من نعت المخبتين يقول تعالى ذكره لنبيه محمد: وبشِّر يا محمد المخبتين الذين تخشع قلوبهم لذكر الله وتخضع من خشيته، وَجَلاً من عقابه وخوفا من سخطه. كما: قال ابن زيد في قوله: «الَّذِينَ إذَا ذُكِرَ اللَّهُ وَجِلَتْ قُلُوبُهُمْ» قال: لا تقسو قلوبهم. «والصَّابِرِينَ عَلى ما أصَابَهُمْ» من شدّة في أمر الله، ونالهم من مكروه في جنبه. «والمُقِيمِي الصَّلاَةِ» المفروضة. «وَمِمَّا رَزَقْناهُمْ» من الأموال. «يُنْفِقُونَ» في الواجب عليهم إنفاقها فيه، في زكاة ونفقة عيال ومن وجبت عليه نفقته وفي سبيل الله. وينقل في المقطع أقوالاً عن ابن زيد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=22&tAyahNo=35&tDisplay=yes&UserProfile=0&LanguageId=1

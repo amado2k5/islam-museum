@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-7-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يذكر الطبري أن الله أرسل بعد الرسل موسى وأخاه هارون إلى فرعون وأشراف قومه من القبط بآياته وحججه وسلطان مبين، فاستكبروا عن اتباعها، وكانوا قوماً عالين على أهل ناحيتهم من بني إسرائيل وغيرهم بالظلم، قاهرين لهم. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=23&tAyahNo=45&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 45 إلى 46 مقطعاً واحداً. يفسّر قوله «ثُمَّ أَرْسَلْنَا مُوسَىٰ وَأَخَاهُ هَارُونَ بِآيَاتِنَا وَسُلْطَانٍ مُّبِينٍ»: ثم أرسلنا بعد الرسل الذين وصف صفتهم قبل هذه الآية، موسى وأخاه هارون إلى فرعون وأشراف قومه من القبط «بآياتِنَا» يقول: بحججنا، «فاسْتَكْبَرُوا» عن اتّباعها والإيمان بما جاءهم به من عند الله. «وكانُوا قَوْماً عالِينَ» يقول: وكانوا قوماً عالين على أهل ناحيتهم ومن في بلادهم من بني إسرائيل وغيرهم بالظلم، قاهرين لهم. وكان ابن زيد يقول في ذلك ما: قال ابن زيد، وقوله: «وكانُوا قَوْماً عالِينَ» قال: عَلَوا على رسلهم وعصَوا ربهم ذلك علوّهم. وقرأ: «تِلكَ الدَّارُ الآخِرَةُ»... الآية. وينقل في المقطع أقوالاً عن ابن زيد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=23&tAyahNo=45&tDisplay=yes&UserProfile=0&LanguageId=1

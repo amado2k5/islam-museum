@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-7-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن الوارثين يرثون الفردوس، وهو البستان ذو الكرم عند العرب، وينقل عن مجاهد أنه بالرومية بستان. ويقول إن عدناً حديقة في الجنة، وأنهم فيها خالدون. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=23&tAyahNo=11&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «ٱلَّذِينَ يَرِثُونَ ٱلْفِرْدَوْسَ هُمْ فِيهَا خَالِدُونَ»: «الَّذِينَ يَرِثُونَ» البستان ذا الكَرْم، وهو الفِرْدَوْسُ عند العرب. وكان مجاهد يقول: هو بالرومية. وقال: ثني حجاج، عن ابن جُرَيج، عن مجاهد، في قوله: «الَّذِينَ يَرِثُونَ الفِرْدَوْسَ» قال: الفردوس: بستان بالرومية. وقال: ثني حجاج، عن ابن جُرَيج، عن مجاهد، قال: عدن حديقة في الجنة قصرها فيها عدنها خلقها بيده، تفتح كل فجر فينظر فيها ثم يقول:«قَدْ أفْلَحَ المُؤْمِنُونَ»، قال: هي الفردوس أيضا تلك الحديقة، قال مجاهد: غرسها الله بيده فلما بلغت قال:«قَدْ أفْلَحَ المُؤْمِنُونَ» ثم أمر بها تغلق، فلا ينظر فيها خلق ولا ملك مقرّب، ثم تفتح كل سحر فينظر فيها فيقول: «قَدْ أفْلَحَ المُؤْمِنونَ» ثم تغلق إلى مثلها. وينقل في المقطع أقوالاً عن مجاهد وقتادة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=23&tAyahNo=11&tDisplay=yes&UserProfile=0&LanguageId=1

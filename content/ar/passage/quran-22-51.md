@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-7-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن الذين سعوا في آيات الله معاجزين، أي ساعين في إبطالها ظانين أنهم يعجزون الله ويفوتونه، أولئك أصحاب الجحيم، أي أهل النار الماكثون فيها. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=22&tAyahNo=51&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 51 إلى 53 مقطعاً واحداً. يفسّر قوله «قُلْ يٰأَيُّهَا ٱلنَّاسُ إِنَّمَآ أَنَاْ لَكُمْ نَذِيرٌ مُّبِينٌ»: قل يا محمد لمشركي قومك الذين يجادلونك في الله بغير علم، اتباعاً منهم لكل شيطان مريد: «يا أيها النَّاسُ إنَّمَا أنا لَكُمْ نَذِيرٌ مُبِينٌ» أنذركم عقاب الله أن ينزل بكم في الدنيا وعذابه في الآخرة أن تَصْلَوْه «مُبِينٌ» يقول: أبين لكم إنذاري ذلك وأظهره لتنيبوا من شرككم وتحذروا ما أنذركم من ذلك لا أملك لكم غير ذلك، فأما تعجيل العقاب وتأخيره الذي تستعجلونني به فإلى الله، ليس ذلك إليّ ولا أقدر عليه. وينقل في المقطع أقوالاً عن ابن عباس ومجاهد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=22&tAyahNo=51&tDisplay=yes&UserProfile=0&LanguageId=1

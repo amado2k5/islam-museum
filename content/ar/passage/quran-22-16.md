@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-7-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن الله أنزل القرآن آيات بيّنات، وأن الله يهدي من يريد، أي يوفّق من يشاء للإيمان، فلا يملك أحد هداية غيره، وأن ما نزل من بيّنات هو على هذا النحو. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=22&tAyahNo=16&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 16 إلى 17 مقطعاً واحداً. يفسّر قوله «مَن كَانَ يَظُنُّ أَن لَّن يَنصُرَهُ ٱللَّهُ فِي ٱلدُّنْيَا وَٱلآخِرَةِ فَلْيَمْدُدْ بِسَبَبٍ إِلَى ٱلسَّمَآءِ ثُمَّ لْيَقْطَعْ فَلْيَنْظُرْ هَلْ يُذْهِبَنَّ كَيْدُهُ مَا يَغِيظُ»: اختلف أهل التأويل في المعنيّ بالهاء التي في قوله: «أنْ لَنْ يَنْصُرَهُ اللَّهُ». فقال بعضهم: عُنِي بها نبي الله. فتأويله على قوله بعض قائلي ذلك: من كان من الناس يحسب أن لن ينصر الله محمدا في الدنيا والآخرة، فليمدد بحبل وهو السبب إلى السماء: يعني سماء البيت، وهو سقفه، ثم ليقطع السبب بعد الاختناق به، فلينظر هل يذهبن اختناقه ذلك وقطعه السبب بعد الاختناق ما يغيظ يقول: هل يذهبن ذلك ما يجد في صدره من الغيظ وينقل في المقطع أقوالاً عن ابن زيد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=22&tAyahNo=16&tDisplay=yes&UserProfile=0&LanguageId=1

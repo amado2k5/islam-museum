@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-7-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يذكر الطبري في سبب نزول الآية رواية بأن الشيطان ألقى على لسان النبي في بعض ما كان يتلوه ما لم ينزله الله، فاغتمّ لذلك، فسلّاه الله بهذه الآيات، وأن ما أرسل الله من رسول ولا نبي إلا إذا تمنّى ألقى الشيطان في أمنيته، فينسخ الله ما يلقي الشيطان ثم يحكم آياته. وينقل في ذلك الروايات عن أهل التأويل. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=22&tAyahNo=52&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَمَآ أَرْسَلْنَا مِن قَبْلِكَ مِن رَّسُولٍ وَلاَ نَبِيٍّ إِلاَّ إِذَا تَمَنَّىٰ أَلْقَى ٱلشَّيْطَانُ فِيۤ أُمْنِيَّتِهِ فَيَنسَخُ ٱللَّهُ مَا يُلْقِي ٱلشَّيْطَانُ ثُمَّ يُحْكِمُ ٱللَّهُ آيَاتِهِ وَٱللَّهُ عَلِيمٌ حَكِيمٌ»: قيل: إن السبب الذي من أجله أنزلت هذه الآية على رسول الله، أن الشيطان كان ألقى على لسانه في بعض ما يتلوه مما أنزل الله عليه من القرآن ما لم ينزله الله عليه، فاشتدّ ذلك على رسول الله واغتمّ به، فسلاّه الله مما به من ذلك بهذه الآيات. وينقل في المقطع أقوالاً عن ابن إسحاق.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=22&tAyahNo=52&tDisplay=yes&UserProfile=0&LanguageId=1

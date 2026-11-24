@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-7-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن الله آتى موسى التوراة ليهتدي بها قومه من بني إسرائيل ويعملوا بما فيها، وجعل ابن مريم وأمه آية، أي حجة لله على قدرته على إنشاء الأجسام من غير أصل كما أنشأ خلق عيسى من غير أب. ويورد رواية عن قتادة في ذلك. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=23&tAyahNo=49&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 49 إلى 50 مقطعاً واحداً. يفسّر قوله «وَلَقَدْ آتَيْنَا مُوسَىٰ ٱلْكِتَابَ لَعَلَّهُمْ يَهْتَدُونَ»: ولقد آتينا موسى التوراة، ليهتدي بها قومه من بني إسرائيل، ويعلموا بما فيها. «وَجَعَلْنا ابْنَ مَرْيَمَ وأُمَّهُ» يقول: وجعلنا ابن مريم وأمه حجة لنا على من كان بينهم، وعلى قدرتنا على إنشاء الأجسام من غير أصل، كما أنشأنا خلق عيسى من غير أب. كما: أخبرنا مَعْمر، عن قَتادة، في قوله: «وَجَعَلْنا ابْنَ مَرْيَمَ وأُمَّهُ» قال: ولدته من غير أب هو له. ولذلك وُحِّدت الآية، وقد ذكر مريم وابنها. وقوله «وآوَيْناهما إلى رَبْوَةٍ» يقول: وضممناهما وصيرناهما إلى ربوة، يقال: أوى فلان إلى موضع كذا، فهو يأوِي إليه. إذا صار إليه وعلى مثال «أفعلته» فهو يُؤْويه.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=23&tAyahNo=49&tDisplay=yes&UserProfile=0&LanguageId=1

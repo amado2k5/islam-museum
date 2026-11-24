@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-7-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يذكر الطبري أن لهم مقامع من حديد، وهي المطارق ونحوها يضربون بها، وقد نقل في ذلك ما رُوي عن أهل التأويل في وصفها، وهي جزء من العذاب الذي ذكر في الآية قبلها. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=22&tAyahNo=21&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 21 إلى 24 مقطعاً واحداً. يفسّر قوله «هَٰذَانِ خَصْمَانِ ٱخْتَصَمُواْ فِي رَبِّهِمْ فَٱلَّذِينَ كَفَرُواْ قُطِّعَتْ لَهُمْ ثِيَابٌ مِّن نَّارٍ يُصَبُّ مِن فَوْقِ رُءُوسِهِمُ ٱلْحَمِيمُ»: اختلف أهل التأويل في المعنيّ بهذين الخصمين اللذين ذكرهما الله، فقال بعضهم: أحد الفريقين: أهل الإيمان، والفريق الآخر: عبدة الأوثان من مشركي قريش الذين تبارزوا يوم بدر. وينقل في المقطع أقوالاً عن ابن عباس وعطاء.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=22&tAyahNo=21&tDisplay=yes&UserProfile=0&LanguageId=1

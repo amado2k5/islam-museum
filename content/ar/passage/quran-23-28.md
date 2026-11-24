@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-7-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن معنى الآية: فإذا اعتدلت في السفينة أنت ومن حملتهم معك من أهلك، راكباً فيها عالياً فوقها، فقل الحمد لله الذي نجّانا من القوم الظالمين، يعني من المشركين. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=23&tAyahNo=28&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «فَإِذَا ٱسْتَوَيْتَ أَنتَ وَمَن مَّعَكَ عَلَى ٱلْفُلْكِ فَقُلِ ٱلْحَمْدُ للَّهِ ٱلَّذِي نَجَّانَا مِنَ ٱلْقَوْمِ ٱلظَّالِمِينَ»: يعني تعالى ذكره بقوله «فإذَا اسْتَوَيْتَ أنْتَ وَمَنْ مَعَكَ عَلى الفُلْكِ»: فإذا اعتدلت في السفينة أنت ومعك ممن حملته معك من أهلك، راكباً فيها عالياً فوقها «فَقُلِ الحَمْدُ لِلّهِ الَّذِي نَجَّانا مِنَ القَوْمِ الظَّالِمِينَ» يعني من المشركين.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=23&tAyahNo=28&tDisplay=yes&UserProfile=0&LanguageId=1

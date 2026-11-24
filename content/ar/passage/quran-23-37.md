@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-7-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إنهم قالوا: إن هي إلا حياتنا الدنيا نموت ونحيا وما نحن بمبعوثين، أي لا حياة إلا هذه الحياة الدنيا يموت قوم ويولد آخرون، ولا بعث بعد الموت. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=23&tAyahNo=37&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 36 إلى 37 مقطعاً واحداً. يفسّر قوله «إِنْ هِيَ إِلاَّ حَيَاتُنَا ٱلدُّنْيَا نَمُوتُ وَنَحْيَا وَمَا نَحْنُ بِمَبْعُوثِينَ»: ونُقل: يقول ليس آخره ولا بعث، يكفرون بالبعث، يقولون: إنما هي حياتنا هذه ثم نموت ولا نحيا، يموت هؤلاء ويحيا هؤلاء، يقولون: إنا الناس كالزرع يحصد هذا وينبت هذا: يقولون: يموت هؤلاء ويأتي آخرون. وقرأ:«وَقالَ الَّذِينَ كَفَرُوا هَلْ نَدُلُّكُمْ عَلى رَجُلٍ يُنْبِّئُكُمْ إذَا مُزِّقْتمْ كُلَّ مُمَزَّقٍ إنَّكُمْ لَفِي خَلْقٍ جَدِيدٍ» وقرأ:«لا تَأْتِينا السَّاعَةُ قُلْ بَلى وَرَبّي لَتَأْتِيَنَّكُمْ» وينقل في المقطع أقوالاً عن ابن عباس وابن زيد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=23&tAyahNo=37&tDisplay=yes&UserProfile=0&LanguageId=1

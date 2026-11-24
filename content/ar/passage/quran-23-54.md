@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-7-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن الله يأمر نبيه أن يدع هؤلاء الذين تقطعوا أمرهم بينهم في ضلالتهم وغيهم، فذرهم في غمرتهم حتى حين، أي إلى أجل سيأتيهم عند مجيئه عذابه. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=23&tAyahNo=54&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 54 إلى 56 مقطعاً واحداً. يفسّر قوله «فَذَرْهُمْ فِي غَمْرَتِهِمْ حَتَّىٰ حِينٍ»: قال أبو جعفر: يقول تعالى ذكره لنبيه محمد: فدع يا محمد هؤلاء الذين تقطَّعوا أمرهم بينهم زبراً، «في غَمْرَتِهِمْ» في ضلالتهم وغيهم، «حَتَّى حِينٍ» يعني إلى أجل سيأتيهم عند مجيئه عذابي. وينقل في المقطع أقوالاً عن مجاهد وابن زيد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=23&tAyahNo=54&tDisplay=yes&UserProfile=0&LanguageId=1
