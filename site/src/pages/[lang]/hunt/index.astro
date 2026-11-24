@@ -1,0 +1,108 @@
+---
+// The treasure hunt (founder request of 23 November 2026; docs/site/viewpoints.md, phase 2). Seven riddles on a locked trail and a
+// final secret. Everything it says about a stop comes from the exhibit record; /shell/hunt.js adds the locks and the answers.
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import { ui, fmt, LANGS, NUM_LOCALE, type Lang } from "../../../lib/i18n";
+import { byId, href, labelOf } from "../../../lib/graph";
+import { HUNT_ID, HUNT_KEYS, HUNT_VERSE, huntPath } from "../../../lib/hunt";
+export function getStaticPaths() { return LANGS.map((lang) => ({ params: { lang }, props: { lang } })); }
+const { lang } = Astro.props as { lang: Lang };
+const T = ui(lang);
+const H = T.hunt;
+const rooms = byId.get(HUNT_ID)!.data.rooms as any[];
+if (rooms.length !== HUNT_KEYS.length) throw new Error(`${HUNT_ID} has ${rooms.length} rooms, lib/hunt.ts expects ${HUNT_KEYS.length}`);
+const nf = new Intl.NumberFormat(NUM_LOCALE[lang]);
+---
+<BaseLayout lang={lang} title={H.title} description={H.lede} path={huntPath(lang)}>
+  <div class="hunt" data-hunt>
+    <div class="wrap">
+      <header data-pagefind-body>
+        <p class="eyebrow">{H.title}</p>
+        <h1 class="h-title">{H.h}</h1>
+        <p class="h-lede">{H.lede}</p>
+      </header>
+      <div class="h-tools ui" data-tools hidden>
+        <p class="h-prog" data-prog data-tpl={H.progress} data-loc={NUM_LOCALE[lang]} aria-live="polite"></p>
+        <div class="h-bar" data-bar aria-hidden="true">{rooms.map(() => <span></span>)}</div>
+        <button type="button" data-reset>{H.reset}</button>
+      </div>
+      <ol class="trail">
+        {rooms.map((r, i) => {
+          const n = byId.get(r.features[0])!;
+          const hint = byId.get(HUNT_KEYS[i].hint)!;
+          return (
+            <li class="clue" data-clue data-keys={JSON.stringify(HUNT_KEYS[i].keys)}>
+              <span class="num ui" aria-hidden="true">{nf.format(i + 1)}</span>
+              <h2 class="c-h ui">{fmt(H.clue, { n: nf.format(i + 1) })}</h2>
+              <p class="c-lock ui" data-lock hidden>{H.locked}</p>
+              <div data-body>
+                <p class="riddle">{r.body[lang]}</p>
+                <div data-form hidden>
+                  <form class="ans ui"><label for={`a${i}`}>{H.answer}</label><input id={`a${i}`} type="text" autocomplete="off" autocapitalize="off" spellcheck="false" aria-describedby={`m${i}`} /><button type="submit">{H.check}</button></form>
+                  <p class="msg ui" id={`m${i}`} data-msg data-wrong={H.wrong} aria-live="polite"></p>
+                </div>
+                <p class="c-hint ui">{H.hint} <a href={href(lang, hint.id)}>{labelOf(hint, lang)}</a></p>
+                <details data-reveal class="ui"><summary>{H.reveal}</summary><p><a href={href(lang, n.id)}>{labelOf(n, lang)}</a></p></details>
+                <div class="c-found" data-found hidden><p><b>{H.right}</b> <a href={href(lang, n.id)}>{labelOf(n, lang)}</a></p>{r.why_next && <p>{r.why_next[lang]}</p>}</div>
+              </div>
+            </li>
+          );
+        })}
+        <li class="clue chest" data-chest>
+          <span class="num" aria-hidden="true"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M3 11V9a5 5 0 0 1 5-5h8a5 5 0 0 1 5 5v2M3 11h18v9H3zM10 10h4v4h-4z" /></svg></span>
+          <h2 class="c-h ui">{H.secret_title}</h2>
+          <p class="c-lock ui" data-wait hidden>{H.secret_locked}</p>
+          <div data-secret>
+            <svg class="star" viewBox="0 0 100 100" aria-hidden="true"><path d="M22 22H78V78H22zM50 10.4L89.6 50L50 89.6L10.4 50z" /></svg>
+            <p class="riddle">{H.secret}</p>
+            <p class="ui"><a class="h-btn" href={href(lang, HUNT_VERSE)}>{H.secret_link}</a> <a href={href(lang, HUNT_ID)}>{H.all}</a></p>
+          </div>
+        </li>
+      </ol>
+      <p class="ui h-about">{H.about}</p>
+    </div>
+  </div>
+  <script is:inline src="/shell/hunt.js" defer></script>
+</BaseLayout>
+<style>
+  .hunt { --line: #c5a059; --paper: #fffdf7; --lock: #8a8271; --gold-ink: #654a15; padding-block: clamp(24px, 5vh, 56px); }
+  .hunt .wrap { max-width: 50rem; }
+  .h-title { font-size: clamp(1.9rem, 4.4vw, 2.8rem); font-weight: 400; line-height: 1.2; margin: 0 0 .6rem; }
+  .h-lede { font-size: 1.15rem; color: var(--muted); margin: 0 0 1.4rem; }
+  .h-tools { display: flex; flex-wrap: wrap; gap: 8px 18px; align-items: center; margin-bottom: 1.6rem; }
+  .h-prog { margin: 0; font-weight: 600; }
+  .h-bar { display: flex; gap: 5px; flex: 1 1 12rem; }
+  .h-bar span { flex: 1; height: 8px; border: 1px solid var(--line); border-radius: 2px; }
+  .h-bar span.on { background: var(--line); }
+  .h-tools button { background: none; border: 0; min-height: 44px; padding: 0 4px; font: inherit; color: var(--link, inherit); text-decoration: underline; cursor: pointer; }
+  .trail { list-style: none; margin: 0; padding: 0; }
+  .clue { position: relative; padding-inline-start: 64px; padding-bottom: 34px; }
+  .clue:not(:last-child)::before { content: ""; position: absolute; inset-inline-start: 21px; top: 44px; bottom: 0; border-inline-start: 2px dashed var(--line); }
+  .num { position: absolute; inset-inline-start: 0; top: 0; width: 44px; height: 44px; border-radius: 50%; display: grid; place-items: center; border: 2px solid var(--line); background: var(--paper); color: var(--gold-ink); font-weight: 600; }
+  .clue[data-state="done"] .num { background: #c5a059; color: #0a2533; }
+  .clue[data-state="lock"] .num { border-style: dashed; border-color: var(--lock); color: var(--muted); }
+  .clue[data-state="done"]:not(:last-child)::before { border-inline-start-style: solid; }
+  .c-h { font-size: 1rem; font-weight: 600; line-height: 44px; margin: 0; }
+  .c-lock, .c-hint, .msg { margin: .3rem 0; color: var(--muted); }
+  .riddle { font-size: 1.22rem; line-height: 1.6; margin: .2rem 0 .9rem; }
+  .ans { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 6px 10px; }
+  .ans label { grid-column: 1 / -1; font-size: .92rem; }
+  .ans input { min-height: 46px; padding: 0 14px; border: 1.5px solid var(--lock); border-radius: 4px; background: var(--paper); color: var(--fg); font: inherit; min-width: 0; }
+  .ans input[aria-invalid] { border-color: #a32d2d; }
+  .ans button, .h-btn { min-height: 46px; padding: 0 22px; border: 0; border-radius: 4px; background: #c5a059; color: #0a2533; font: inherit; font-weight: 600; cursor: pointer; }
+  .h-btn { display: inline-flex; align-items: center; text-decoration: none; margin-inline-end: 14px; }
+  .msg { min-height: 1.5em; }
+  details summary { cursor: pointer; min-height: 44px; display: flex; align-items: center; color: var(--link, inherit); text-decoration: underline; }
+  .c-found p { margin: .3rem 0; }
+  .ans input:focus-visible, .hunt button:focus-visible, .hunt summary:focus-visible { outline: 3px solid var(--focus); outline-offset: 3px; }
+  .c-found:focus { outline: none; }
+  .star { width: 84px; fill: none; stroke: var(--line); stroke-width: 2; display: block; margin: .6rem 0; }
+  .chest[data-state="done"] .star { animation: turn 1.4s ease-out; }
+  @keyframes turn { from { transform: rotate(-90deg) scale(.5); opacity: 0; } }
+  .h-about { color: var(--muted); font-size: .92rem; margin: 0; }
+  @media (prefers-reduced-motion: reduce) { .chest[data-state="done"] .star { animation: none; } }
+  @media (max-width: 480px) { .clue { padding-inline-start: 54px; } .ans { grid-template-columns: 1fr; } }
+  @media (prefers-color-scheme: dark) { :global(:root:not([data-theme="light"])) .hunt { --paper: #113f4e; --lock: #8fa9b0; --gold-ink: #e6d5b8; } :global(:root:not([data-theme="light"])) .ans input[aria-invalid] { border-color: #f09595; } }
+  :global(:root[data-theme="dark"]) .hunt { --paper: #113f4e; --lock: #8fa9b0; --gold-ink: #e6d5b8; }
+  :global(:root[data-theme="dark"]) .ans input[aria-invalid] { border-color: #f09595; }
+</style>
