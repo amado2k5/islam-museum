@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-13-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل [[passage/quran-98-6|98:6]] إلى [[passage/quran-98-7|98:7]]، وخلاصتها: يقول إن الذين آمنوا وعبدوا الله مخلصين وأقاموا الصلاة وآتوا الزكاة وأطاعوه هم خير البرية، ويورد في آخر التعليق رواية تُنسب إلى النبي في تفسير ذلك. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=98&tAyahNo=7&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 6 إلى 7 مقطعاً واحداً. يفسّر قوله «إِنَّ ٱلَّذِينَ آمَنُواْ وَعَمِلُواْ ٱلصَّالِحَاتِ أُوْلَٰئِكَ هُمْ خَيْرُ ٱلْبَرِيَّةِ»: إن الذين آمنوا بالله ورسوله محمد، وعبدوا الله مخلصين له الدين حنفاء، وأقاموا الصلاة، وآتُوا الزكاة، وأطاعوا الله فيما أمر ونهى «أُولَئِكَ هُمْ خَيْرُ البَرِيَّةِ» يقول: من فعل ذلك من الناس فهم خير البرية. وقد: عن أبي الجارود، عن محمد بن عليّ «أُولَئِكَ هُمْ خَيْرُ البَرِيَّةِ» فقال النبيّ: " أنْتَ يا عَليُّ وَشِيعَتُكَ ".
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=98&tAyahNo=7&tDisplay=yes&UserProfile=0&LanguageId=1

@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-13-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل [[passage/quran-92-1|92:1]] إلى [[passage/quran-92-10|92:10]]، وخلاصتها: يذكر في «ما» وجهين: أن تكون بمعنى «من»، فيكون القسم بخالق الذكر والأنثى، أو مصدرية فيكون القسم بخلقه. ويروي أن ابن مسعود وأبا الدرداء قرآ «والذكر والأنثى» ونسبه أبو الدرداء إلى النبي. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=92&tAyahNo=3&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 1 إلى 10 مقطعاً واحداً. يفسّر قوله «وَمَا خَلَقَ ٱلذَّكَرَ وَٱلأُنثَىٰ»: يحتمل الوجهين اللذين وصفت في قوله:«وَالسَّماءِ وَما بَناها والأرْضِ وَما طَحاها» وهو أن يجعل «ما» بمعنى «مَنْ»، فيكون ذلك قسماً من الله جلّ ثناؤه بخالق الذّكر والأنثى، وهو ذلك الخلق، وأن تجعل «ما» مع ما بعدها بمعنى المصدر، ويكون قسماً بخلقه الذكر والأنثى. وقد ذُكر عن عبد الله بن مسعود وأبي الدرداء: أنهما كانا يقرآن ذلك «وَالذَّكَرِ وَالأُنْثَىَ» ويأثُرُه أبو الدرداء عن رسول الله. ذكر الخبر بذلك: وعن أبي إسحاق قال: في قراءة عبد الله: «وَاللَّيْلِ إذَا يَغْشَى وَالنَّهارِ إذَا تَجَلَّى وَالذَّكَرِ والأُنْثَى». وينقل في المقطع أقوالاً عن قتادة وإبراهيم.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=92&tAyahNo=3&tDisplay=yes&UserProfile=0&LanguageId=1

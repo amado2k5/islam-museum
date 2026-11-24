@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-13-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل [[passage/quran-92-19|92:19]] إلى [[passage/quran-92-21|92:21]]، وخلاصتها: ينقل عن بعض أهل العربية أن المراد أنه لا يُنفق ماله مكافأة لنعمة سلفت من أحد عنده، ويشرح لفظ النعمة التي تجزى بأنها يد يكافأ عليها. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=92&tAyahNo=19&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 19 إلى 21 مقطعاً واحداً. يفسّر قوله «وَمَا لأَحَدٍ عِندَهُ مِن نِّعْمَةٍ تُجْزَىٰ»: كان بعض أهل العربية يوجه تأويل ذلك إلى: وما لأحد من خلق الله عند هذا الذي يؤتى ماله في سبيل الله يتزكى «مِنْ نِعْمَةٍ تُجْزَى» يعني: من يد يكافئه عليها، يقول: ليس ينفق ما ينفق من ذلك، ويعطى ما يعطى، مجازاة إنسان يجازيه على يد له عنده، ولا مكافأة له على نعمة سلفت منه إليه، أنعمها عليه، ولكن يؤتيه في حقوق الله ابتغاء وجه الله. وينقل في المقطع أقوالاً عن قتادة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=92&tAyahNo=19&tDisplay=yes&UserProfile=0&LanguageId=1

@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-13-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل [[passage/quran-91-9|91:9]] إلى [[passage/quran-91-15|91:15]]، وخلاصتها: يبيّن أن من خاب فلم يدرك ما طلب لنفسه من الصلاح هو من أخمل الله نفسه بخذلانه حتى ركب المعاصي وترك الطاعة، ويشرح «دسّاها» بأنها دسّسها. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=91&tAyahNo=10&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 9 إلى 15 مقطعاً واحداً. يفسّر قوله «وَقَدْ خَابَ مَن دَسَّاهَا»: وقد خاب في طِلبته، فلم يُدرك ما طلب والتمس لنفسه من الصلاح «مَنْ دسَّاهَا» يعني: من دَسَّس الله نفسه فأحْملها، ووضع منها، بخُذلانه إياها عن الهدى حتى ركب المعاصِيَ، وترك طاعة الله. وقيل: دسَّاها وهي دَسَّسها، فقُلبت إحدى سيناتها ياء، كما قال العجَّاج:تَقَضِّيَ الْبازِي إذا البازِي كَسَرْ يريد: تَقَضُّض. وتظنَّيت هذا الأمر، بمعنى: تظننت، والعرب تفعل ذلك كثيراً، فتبدل في الحرف المشدّد بعضَ حروفه، ياء أحياناً، وواواً أحياناً ومنه قول الآخر:يَذْهَبُ بِي فِي الشِّعْرِ كُلَّ فَنَّ حتى يَرُدَّ عَنِّي التَظَنِّي يريد: التظنن: وينقل في المقطع أقوالاً عن ابن عباس ومجاهد وقتادة وابن زيد وسفيان.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=91&tAyahNo=10&tDisplay=yes&UserProfile=0&LanguageId=1

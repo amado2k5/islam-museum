@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-13-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل [[passage/quran-96-14|96:14]] إلى [[passage/quran-96-19|96:19]]، وخلاصتها: يقول إن أبا جهل لم يعلم أن الله يراه إذ ينهى محمداً عن عبادة ربه والصلاة له، فيخاف سطوته وعقابه. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=96&tAyahNo=14&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 14 إلى 19 مقطعاً واحداً. يفسّر قوله «أَلَمْ يَعْلَم بِأَنَّ ٱللَّهَ يَرَىٰ»: ألم يعلم أبو جهل إذ ينهى محمداً عن عبادة ربه، والصلاة له، بأن الله يراه فيخاف سطوته وعقابه. وقيل: أرأيت الذي ينهى عبداً إذا صلى، أرأيت إن كان على الهدى، فكررت أرأيت مرات ثلاثاً على البدل. والمعنى: أرأيت الذي ينهى عبداً إذا صلى، وهو مكذّب متولّ عن ربه، ألم يعلم بأن الله يراه. وقوله: «كَلاَّ لَئِن لَمْ يَنْتَهِ» يقول: ليس كما قال: إنه يطأ عنق محمد، يقول: لا يقدر على ذلك، ولا يصل إليه. وقوله: «لَئِنْ لَمْ يَنْتَهِ» يقول: لئن لم ينته أبو جهل عن محمد «لَنَسْفَعاً بالنَّاصِيَةِ» يقول: لنأخذن بمقدّم رأسه، فلنضمنه ولنذلنه يقال منه: سَفَعْتُ بيده: إذا أخذت بيده. وينقل في المقطع أقوالاً عن ابن عباس.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=96&tAyahNo=14&tDisplay=yes&UserProfile=0&LanguageId=1

@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-13-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري هذه الآية في فقرة مستقلة، وخلاصتها: يبيّن أن أبا جهل كذّب بالحق الذي بُعث به محمد وأدبر عنه فلم يصدّق به. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=96&tAyahNo=13&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «أَرَأَيْتَ إِن كَذَّبَ وَتَوَلَّىٰ»: «أرأَيْتَ إنْ كَذَّبَ» أبو جهل بالحقّ الذي بَعَث به محمداً «وَتَوَلَّى» يقول: وأدبر عنه، فلم يصدق به. وينقل في المقطع أقوالاً عن قتادة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=96&tAyahNo=13&tDisplay=yes&UserProfile=0&LanguageId=1

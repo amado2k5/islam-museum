@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-13-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل [[passage/quran-98-6|98:6]] إلى [[passage/quran-98-7|98:7]]، وخلاصتها: يبيّن أن الكافرين من اليهود والنصارى والمشركين في نار جهنم ماكثين فيها أبداً لا يخرجون ولا يموتون، وأنهم شر من خلق الله، ويذكر خلاف القراء في همز البرية. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=98&tAyahNo=6&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 6 إلى 7 مقطعاً واحداً. يفسّر قوله «إِنَّ ٱلَّذِينَ كَفَرُواْ مِنْ أَهْلِ ٱلْكِتَابِ وَٱلْمُشْرِكِينَ فِي نَارِ جَهَنَّمَ خَالِدِينَ فِيهَآ أَوْلَٰئِكَ هُمْ شَرُّ ٱلْبَرِيَّةِ»: إن الذين كفروا بالله ورسوله محمد، فجحدوا نبوّته، من اليهود والنصارى والمشركين جميعهم «فِي نارِ جَهَنَّمَ خالِدِينَ فيها» يقول: ماكثين، لابثين فيها «أبَداً» لا يخرجون منها، ولا يموتون فيها «أُولَئكَ هُمْ شَرُّ البَرِيَّةِ» يقول جلّ ثناؤه: هؤلاء الذين كفروا من أهل الكتاب والمشركين، هم شرّ من بَرأَه الله وخلقه والعرب لا تهمز البرية، وبترك الهمز فيها قَرَأتها قرّاء الأمصار، غير شيء يُذكر عن نافع بن أبي نعيم، فإنه حكى بعضهم عنه أنه كان يهمزها، وذهب بها إلى قول الله:«مِنْ قَبْلِ أنْ نَبْرأَها» وأنها فعيلة من ذلك.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=98&tAyahNo=6&tDisplay=yes&UserProfile=0&LanguageId=1

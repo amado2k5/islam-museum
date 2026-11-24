@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-13-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل [[passage/quran-90-17|90:17]] إلى [[passage/quran-90-20|90:20]]، وخلاصتها: يبيّن أن هذا القائل كان ينبغي أن يكون من الذين آمنوا وتواصوا بالصبر على ما نابهم في ذات الله وتواصوا بالمرحمة، أي رحمة الناس. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=90&tAyahNo=17&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 17 إلى 20 مقطعاً واحداً. يفسّر قوله «ثُمَّ كَانَ مِنَ ٱلَّذِينَ آمَنُواْ وَتَوَاصَوْاْ بِٱلصَّبْرِ وَتَوَاصَوْاْ بِٱلْمَرْحَمَةِ»: ثم كان هذا الذي قال:«أهْلَكْتُ مالاً لُبَداً» من الذين آمنوا بالله ورسوله، فيؤمن معهم كما آمنوا «وَتَواصَوْا بالصَّبْرِ» يقول: وممن أوصى بعضهم بعضاً بالصبر على ما نابهم في ذات الله «وَتَوَاصَوْا بِالمَرْحَمَةِ» يقول: وأوصى بعضهم بعضاً بالمرحمة، كما: عن شبيب، عن عكرِمة، عن ابن عباس «وَتَوَاصَوْا بِالمَرْحَمَةِ» قال: مَرْحَمة الناس. وقوله: وينقل في المقطع أقوالاً عن ابن عباس وقتادة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=90&tAyahNo=17&tDisplay=yes&UserProfile=0&LanguageId=1
