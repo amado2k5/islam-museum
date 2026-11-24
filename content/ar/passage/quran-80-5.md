@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-12-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل الآيات [[passage/quran-80-5|80:5]] إلى [[passage/quran-80-10|80:10]]، وخلاصتها: يبيّن الطبري أن من استغنى بماله فالنبي له يتعرّض رجاء أن يسلم، ويروي عن سفيان أنها نزلت في العباس، وعن غيره أنهم عتبة وشيبة ابنا ربيعة. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=80&tAyahNo=5&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 5 إلى 10 مقطعاً واحداً. يفسّر قوله «أَمَّا مَنِ ٱسْتَغْنَىٰ»: أما من استغنى بماله، فأنت له تتعرّض، رجاء أن يُسلِم. عن سفيان «أمَّا مَنِ اسْتَغْنَى فأنْتَ لَهُ تَصَدَّى» قال: نزلت في العباس. وعن ابن أبي نجيح، عن مجاهد، قوله: «أمَّا مَنِ اسْتَغْنَى» قال: عتبة بن ربيعة وشبية بن ربيعة وينقل في المقطع أقوالاً عن مجاهد وسفيان.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=80&tAyahNo=5&tDisplay=yes&UserProfile=0&LanguageId=1

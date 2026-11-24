@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-12-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل الآيات [[passage/quran-77-41|77:41]] إلى [[passage/quran-77-45|77:45]]، وخلاصتها: يشرح الطبري أن الله يجزي المحسنين كذلك على إحسانهم في طاعته وعبادته في الدنيا فلا يضيع أجرهم في الآخرة. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=77&tAyahNo=44&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 41 إلى 45 مقطعاً واحداً. يفسّر قوله «إِنَّا كَذَلِكَ نَجْزِي ٱلْمُحْسِنِينَ»: إنا كما جزينا هؤلاء المتقين بما وصفنا من الجزاء على طاعتهم إيانا في الدنيا، كذلك نجزي ونثيب أهل الإحسان في طاعتهم إيانا، وعبادتهم لنا في الدنيا على إحسانهم لا نضيع في الآخرة أجرهم. وقوله:
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=77&tAyahNo=44&tDisplay=yes&UserProfile=0&LanguageId=1

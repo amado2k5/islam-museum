@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-12-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-لا يتضمن النص المحفوظ لهذه الصفحة تعليقاً مستقلاً على هذه الآية؛ إذ ينتهي التعليق المحفوظ عند الآية السابعة والثلاثين. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=78&tAyahNo=38&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 38 إلى 40 مقطعاً واحداً. يفسّر قوله «جَزَآءً مِّن رَّبِّكَ عَطَآءً حِسَاباً»: يعني بقوله جلّ ثناؤه: «جَزَاءً مِنْ رَبكَ عَطاءً» أعطى الله هؤلاء المتقين ما وصف في هذه الآيات ثواباً من ربك بأعمالهم، على طاعتهم إياه في الدنيا. وقوله: «عَطاءً» يقول: تفضلاً من الله عليهم بذلك الجزاء، وذلك أنه جزاهم بالواحد عشراً في بعض، وفي بعض بالواحد سبع مِئَة، فهذه الزيادة وإن كانت جزاء فعطاء من الله. وقوله: «حِساباً» يقول: محاسبة لهم بأعمالهم لله في الدنيا. وينقل في المقطع أقوالاً عن مجاهد وقتادة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=78&tAyahNo=38&tDisplay=yes&UserProfile=0&LanguageId=1

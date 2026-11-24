@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-12-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل الآيات [[passage/quran-79-37|79:37]] إلى [[passage/quran-79-41|79:41]]، وخلاصتها: يذكر الطبري أنه آثر متاع الحياة الدنيا على كرامة الآخرة فعمل للدنيا وترك العمل للآخرة. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=79&tAyahNo=38&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 37 إلى 41 مقطعاً واحداً. يفسّر قوله «وَآثَرَ ٱلْحَيَاةَ ٱلدُّنْيَا»: وآثر متاع الحياة الدنيا على كرامة الآخرة، وما أعدّ الله فيها لأوليائه، فعمل للدنيا، وسعى لها، وترك العمل للآخرة وينقل في المقطع أقوالاً عن مجاهد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=79&tAyahNo=38&tDisplay=yes&UserProfile=0&LanguageId=1

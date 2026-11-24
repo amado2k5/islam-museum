@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-12-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل الآيات [[passage/quran-78-6|78:6]] إلى [[passage/quran-78-11|78:11]]، وخلاصتها: يبيّن الطبري أن الله جعل النوم سباتاً، أي راحة ودعة يهدأ بها الإنسان كأنه ميت لا يشعر. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=78&tAyahNo=9&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 6 إلى 11 مقطعاً واحداً. يفسّر قوله «وَجَعَلْنَا نَوْمَكُمْ سُبَاتاً»: وجعلنا نومكم لكم راحة ودَعة، تهدؤن به وتسكنون، كأنكم أموات لا تشعرون، وأنتم أحياء لم تفارقكم الأرواح والسبت والسبات: هو السكون، ولذلك سمي السبت سبتاً، لأنه يوم راحة ودعة. «وَجَعَلْنا اللَّيْلَ لِباساً» يقول تعالى ذكره: وجعلنا الليل لكم غِشاء يتغشاكم سواده، وتغطيكم ظلمته، كما يغطي الثوبُ لابسَه، لتسكنوا فيه عن التصرّف لما كنتم تتصرّفون له نهاراً ومنه قول الشاعر:فلمَّا لَبِسْن اللَّيْلَ أوْ حِينَ نَصَّبَتْ له مِنْ خَذا آذانِها وَهْوَ دَالِجُ يعني بقوله «لبسن الليل»: أدخلن في سواده فاستترن به. وينقل في المقطع أقوالاً عن مجاهد وقتادة وسفيان.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=78&tAyahNo=9&tDisplay=yes&UserProfile=0&LanguageId=1

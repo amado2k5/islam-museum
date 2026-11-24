@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-12-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل الآيات [[passage/quran-77-25|77:25]] إلى [[passage/quran-77-28|77:28]]، وخلاصتها: يبيّن الطبري أن الأرض كفات أحياء وأموات، فيسكن فيها الحي ويُدفن فيها الميت، ويروي عن قتادة، ويعرض اختلاف أهل العربية في نصب أحياء وأمواتاً. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=77&tAyahNo=26&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 26 إلى 29 مقطعاً واحداً. يفسّر قوله «أَلَمْ نَجْعَلِ ٱلأَرْضَ كِفَاتاً»: يقول تعالى ذكره منبهاً عباده على نعمه عليهم: «أَلمْ نَجْعَلِ» أيها الناس «الأرْضَ» لكم «كِفاتاً» يقول: وعاء تقول: هذا كفت هذا وكفيته، إذا كان وعاءه. وإنما معنى الكلام: ألم نجعل الأرض كِفاتَ أحيائكم وأمواتكم، تَكْفِت أحياءكم في المساكن والمنازل، فتضمهم فيها وتجمعهم، وأمواتَكم في بطونها في القبور، فيُدفَنون فيها. وجائز أن يكون عُني بقوله: «كِفاتاً أحْياءاً وأمْوَاتاً» تكفت أذاهم في حال حياتهم، وجيفهم بعد مماتهم. وينقل في المقطع أقوالاً عن ابن عباس ومجاهد وقتادة والربيع وسفيان.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=77&tAyahNo=26&tDisplay=yes&UserProfile=0&LanguageId=1

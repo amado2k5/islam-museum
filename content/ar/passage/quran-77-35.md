@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-12-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل الآيات [[passage/quran-77-35|77:35]] إلى [[passage/quran-77-40|77:40]]، وخلاصتها: يبيّن الطبري أن هذا يوم لا ينطق فيه أهل التكذيب، ويجيب عن إشكال أنهم ينطقون في مواضع أخرى بأن ذلك في بعض أحوال ذلك اليوم لا في اليوم كله. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=77&tAyahNo=35&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 35 إلى 40 مقطعاً واحداً. يفسّر قوله «هَٰذَا يَوْمُ لاَ يَنطِقُونَ»: يقول تعالى ذكره لهؤلاء المكذّبين بثواب الله وعقابه: «هَذَا يَوْمُ لا يَنْطِقُونَ» أهل التكذيب بثواب الله وعقابه
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=77&tAyahNo=35&tDisplay=yes&UserProfile=0&LanguageId=1

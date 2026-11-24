@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-12-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل الآيات [[passage/quran-78-6|78:6]] إلى [[passage/quran-78-11|78:11]]، وخلاصتها: يشرح الطبري أن الله خلق الناس أزواجاً، أي ذكراناً وإناثاً، وطوالاً وقصاراً، وذوي جمال ودمامة. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=78&tAyahNo=8&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 6 إلى 11 مقطعاً واحداً. يفسّر قوله «وَخَلَقْنَاكُمْ أَزْوَاجاً»: ذُكراناً وإناثاً، وطوالاً وقصاراً، أو ذوي دَمامة وجمال، مثل قوله: «الَّذِينَ ظَلَموا وَأزْوَاجَهُمْ» يعني به: صيرناهم. وينقل في المقطع أقوالاً عن مجاهد وقتادة وسفيان.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=78&tAyahNo=8&tDisplay=yes&UserProfile=0&LanguageId=1

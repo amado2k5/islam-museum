@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-12-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل الآيات [[passage/quran-77-29|77:29]] إلى [[passage/quran-77-34|77:34]]، وخلاصتها: يبيّن الطبري أن الله يقول للمكذبين يوم القيامة انطلقوا إلى ما كنتم به تكذبون في الدنيا من عذاب الله لأهل الكفر به. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=77&tAyahNo=29&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 29 إلى 34 مقطعاً واحداً. يفسّر قوله «ٱنطَلِقُوۤاْ إِلَىٰ مَا كُنتُمْ بِهِ تُكَذِّبُونَ»: يقول تعالى ذكره لهؤلاء المكذّبين بهذه النِّعم والحجج التي احتجّ بها عليهم يوم القيامة: «انْطَلِقُوا إلى ما كُنْتُمْ بِهِ» في الدنيا «تُكَذّبُونَ» من عذاب الله لأهل الكفر به «انْطَلِقُوا إلى ظِلِّ ذِي ثَلاثِ شُعَبٍ» يعني تعالى ذكره: إلى ظلّ دخان ذي ثلاث شعب «لا ظَلِيلٍ»، وذلك أنه يرتفع من وقودها الدخان فيما ذُكر، فإذا تصاعد تفرّق شعباً ثلاثاً، فذلك قوله: «ذِي ثَلاثِ شُعَبٍ». وعن ابن أبي نجيح، عن مجاهد، قوله: «إلى ظِلّ ذِي ثَلاثِ شُعَبٍ» قال: دخان جهنم. وينقل في المقطع أقوالاً عن ابن عباس ومجاهد وقتادة وسفيان.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=77&tAyahNo=29&tDisplay=yes&UserProfile=0&LanguageId=1

@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-12-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل الآيات [[passage/quran-78-6|78:6]] إلى [[passage/quran-78-11|78:11]]، وخلاصتها: يبيّن الطبري أن الله يعدّد على المشركين نعمه ويتوعدهم بما أعدّ لهم، فيسألهم: ألم نجعل الأرض لكم مهاداً تفترشونها، ويروي عن قتادة أنها بساط. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=78&tAyahNo=6&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 6 إلى 11 مقطعاً واحداً. يفسّر قوله «أَلَمْ نَجْعَلِ ٱلأَرْضَ مِهَٰداً»: يقول تعالى ذكره معدِّداً على هؤلاء المشركين نِعَمه وأياديه عندهم، وإحسانه إليهم، وكفرانهم ما أنعم به عليهم، ومتوعدهم بما أعدّ لهم عند ورودهم عليه، من صنوف عقابه، وأليم عذابه، فقال لهم: «أَلَمْ نَجْعَلِ الأرْضَ» لكم «مِهاداً» تمتهدونها وتفترشونها. عن سعيد، عن قتادة «ألَمْ نَجْعَلِ الأرْضَ مِهاداً»: أي بساطاً وينقل في المقطع أقوالاً عن مجاهد وقتادة وسفيان.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=78&tAyahNo=6&tDisplay=yes&UserProfile=0&LanguageId=1

@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-12-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل الآيات [[passage/quran-78-26|78:26]] إلى [[passage/quran-78-30|78:30]]، وخلاصتها: يشرح الطبري أن هذا العقاب جزاء موافق لأعمالهم وأقوالهم الرديئة في الدنيا، ويروي عن ابن عباس والربيع وابن زيد أن الجزاء وافق الأعمال. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=78&tAyahNo=26&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 26 إلى 30 مقطعاً واحداً. يفسّر قوله «جَزَآءً وِفَاقاً»: هذا العقاب الذي عُوقِب به هؤلاء الكفار في الآخرة، فعلَه بهم ربهم جزاء، يعني: ثواباً لهم على أفعالهم وأقوالهم الرديئة التي كانوا يعملونها في الدنيا، وهو مصدر من قول القائل: وافق هذا العقاب هذا العلم وِفاقاً. وينقل في المقطع أقوالاً عن ابن عباس ومجاهد وقتادة وابن زيد والربيع وسفيان.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=78&tAyahNo=26&tDisplay=yes&UserProfile=0&LanguageId=1
