@@ -1,0 +1,24 @@
+---
+id: passage/quran-12-97
+lang: tr
+source_lang: ar
+translators: ['Claude (Anthropic), model translation, 2026-11-24, not read by a human']
+provenance: {generated_by: 'Claude Code (model translation)', model: claude-sonnet-5-5, run: model-tr-id-fr-es-2026-11-24, source: content/ar/passage/quran-12-97.md}
+---
+## Özet
+
+[[passage/quran-12|Yusuf suresi]]'nin 97. ayeti; sure Mekke'de inmiştir. {cite:tanzil-quran}
+
+## Yeri
+
+Yeri: surenin 111 ayeti içinde 97. ayet. Metin, dondurulmuş Tanzil mushafından alınır ve burada yeniden yazılmaz.
+
+**97. ve 98. ayetlerin tefsiri ⁦(s. 261-263)⁩**
+
+Taberî, «قالوا يا أبانا استغفر لنا ذنوبنا إنا كنا خاطئين * قال سوف أستغفر لكم ربي إنه هو الغفور الرحيم» sözü hakkında şöyle der [97. ve 98. ayetleri Taberî birlikte açıkladığı için burada 97. ayetin altında toplanmıştır]: Yakub'un, kendisi ile Yusuf arasını ayıran oğulları dedi ki: Babamız, Rabbinden bizim için dile, ona ve Yusuf'a karşı işlediğimiz günahları affetsin, üzerimizi örtsün ve kıyamette bizi bunlarla cezalandırmasın; «إنا كنا خاطئين» yani ona yaptığımız hususta hata ettik, günahlarımızı itiraf ettik. «قال سوف أستغفر لكم ربي» yani Yakub dedi ki: Rabbimden, bana ve Yusuf'a karşı işlediğiniz günahlarınızı bağışlamasını isteyeceğim. Sonra ilim ehli, Yakub'un oğulları için istiğfarı erteleyeceği vakit konusunda ihtilaf etti. Bazıları bunu seher vaktine ertelediğini söyledi. 19870 numaralı rivayet, Muharib b. Disâr'dan, Ebu's-Sâib, İbn İdris ve Abdurrahman b. İshak yoluyla: Amcam mescide gelirdi; birinin şöyle dediğini işitti: Allahım, beni çağırdın, icabet ettim; bana emrettin, itaat ettim; işte seher vakti, beni bağışla. Dedi ki: Sesi dinledi, ses Abdullah b. Mes'ud'un evinden geliyordu; Abdullah'a bunu sordu, o da şöyle dedi: Yakub oğullarını «سوف أستغفر لكم ربي» diyerek seher vaktine erteledi. Muhakkik, Abdurrahman b. İshak b. Sem'ân el-Vâsıtî Ebû Şeybe hakkında Ahmed'in «bir şey değil, hadisi münker» dediğini, diğerlerinin onu zayıf saydığını ve Muharib b. Disâr'ın sika olduğunu belirtir. {cite:tafsir-tabari-shakir-v16 p. 261}
+
+19871 numaralı rivayet Abdullah b. Mes'ud'dan, İbn Vekî', İbn Fudayl, Abdurrahman b. İshak ve Muharib b. Disâr yoluyla: Onları seher vaktine erteledi. 19872 numaralı rivayet İbrahim et-Teymî'den, Ebû Süfyân el-Humeyrî ve el-Avvâm yoluyla: Onları seher vaktine erteledi; muhakkik, Ebû Süfyân el-Humeyrî'nin Said b. Yahya b. Mehdî olduğunu ve sadûk olduğunu belirtir. 19873 numaralı rivayet Amr b. Kays'tan, Amr ve Hallâd es-Saffâr yoluyla: gece namazında. 19874 numaralı rivayet İbn Cüreyc'ten, el-Kâsım, el-Hüseyn ve Haccâc yoluyla: Bunu seher vaktine erteledi. Diğerleri ise cuma gecesine erteledi dedi. 19875 numaralı rivayet İbn Abbas'tan, Resulullah'tan, el-Müsennâ, Süleyman b. Abdurrahman Ebû Eyyûb ed-Dımaşkî, el-Velîd, İbn Cüreyc, Ata ve İkrime yoluyla: «سوف أستغفر لكم ربي» yani cuma gecesi gelinceye kadar; bu, kardeşim Yakub'un oğullarına söylediği sözdür. Muhakkik, Süleyman b. Abdurrahman et-Temîmî Ebû Eyyûb ed-Dımaşkî'nin sika olduğunu, ancak münker rivayetler naklettiğini ve sika olmayanlardan rivayeti hakkında konuşulduğunu, el-Velîd b. Müslim ed-Dımaşkî el-Kuraşî'nin ise sika olduğunu ve Cemaat'in ondan rivayet ettiğini belirtir. {cite:tafsir-tabari-shakir-v16 p. 262}
+
+19876 numaralı rivayet İbn Abbas'tan, Ahmed b. el-Hasan et-Tirmizî, Süleyman b. Abdurrahman ed-Dımaşkî, el-Velîd b. Müslim, İbn Cüreyc, Ata ve İkrime yoluyla: Resulullah dedi ki: Kardeşim Yakub «سوف أستغفر لكم ربي» dedi, yani cuma gecesi gelinceye kadar. «إنه هو الغفور الرحيم» sözü ise şu anlama gelir: Rabbim, kendisine tövbe edenlerin günahlarını örten ve tövbelerinden sonra onlara azap etmeyerek merhamet edendir. Muhakkik uzun bir haşiyede, haberin diğer ricalinin sika olduğunu, İbn Kesîr'in bunu andığını ve «Bu yönden garibtir, merfu oluşunda nazar vardır» dediğini, Tirmizî'nin bunu Da'avât bablarında rivayet edip «Bu hasen garib bir hadistir, ancak el-Velîd b. Müslim'in hadisinden biliriz» dediğini, Hâkim'in bunu el-Müstedrek'te rivayet edip «Şeyhayn'ın şartına göre sahihtir» dediğini, Zehebî'nin ise bunun münker, şâz bir hadis olduğunu, uydurma olmasından korkulduğunu ve isnadının kendisini şaşırttığını söyleyerek ona şerh düştüğünü, muhakkikin Yakub b. Süfyân'ın Süleyman b. Abdurrahman hakkında söylediği, yani kitabının sahih olduğu ancak (isnadı) çevirdiği sözünün bunu açıklayabileceğini düşündüğünü, çünkü bu haberin isnadlarının hepsinin Süleyman b. Abdurrahman'da döndüğünü ve onu el-Velîd b. Müslim'den ondan başkasının rivayet ettiğini bulamadığını belirtir. Bu rivayet bir öncekinin tekrarıdır; Taberî'nin şeyhi Ahmed b. el-Hasan et-Tirmizî de hadis kaplarından (vi'â) biriydi. {cite:tafsir-tabari-shakir-v16 p. 263}
+
+Bu sözler nakledildiği gibidir; Taberî'nin tercihleri ve bunlara dair delilleri ile muhakkikin haşiyeleri ve tahricleri ona aittir; müzenin bunlar hakkında hükmü yoktur.
