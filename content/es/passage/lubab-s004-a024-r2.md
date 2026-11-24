@@ -6,7 +6,7 @@ translators: ["machine translation, draft"]
 ---
 
 ## Summary
-Informe de al-Suyuti sobre la ocasión de revelación de an-Nisa 4:24, en Lubab al-Nuqul fi Asbab al-Nuzul (Shamela 2247) — generación de los Compañeros.
+Informe de al-Suyuti sobre la ocasión de revelación de an-Nisa 4:102, en Lubab al-Nuqul fi Asbab al-Nuzul (Shamela 2247) — generación de los Compañeros.
 
 The verse, in al-Suyuti's heading: «ولا جناح عليكم».
 
@@ -15,4 +15,4 @@ The verse, in al-Suyuti's heading: «ولا جناح عليكم».
 ولا جناح عليكم أخرج البخاري عن ابن عباس قال نزلت إن كان بكم أذى من مطر أو كنتم مرضى في عبد الرحمن بن عوف كان جريحا
 
 ## Place in the museum
-Fuente: [[work/lubab-al-nuqul-suyuti|de al-Suyuti Lubab al-Nuqul]]. El versículo: [[passage/quran-4-24|Corán 4-24]].
+Fuente: [[work/lubab-al-nuqul-suyuti|de al-Suyuti Lubab al-Nuqul]]. El versículo: [[passage/quran-4-102|Corán 4-102]].

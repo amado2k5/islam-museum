@@ -6,7 +6,7 @@ translators: ["machine translation, draft"]
 ---
 
 ## Summary
-Riwayat as-Suyuti tentang sebab turunnya an-Nur 24:29, dalam Lubab al-Nuqul fi Asbab an-Nuzul (Shamela 2247) — generasi Sahabat.
+Riwayat as-Suyuti tentang sebab turunnya an-Nur 24:61, dalam Lubab al-Nuqul fi Asbab an-Nuzul (Shamela 2247) — generasi Sahabat.
 
 The verse, in al-Suyuti's heading: «ليس عليكم جناح».
 
@@ -15,4 +15,4 @@ The verse, in al-Suyuti's heading: «ليس عليكم جناح».
 ليس عليكم جناح الآية أخرج البزار بسند صحيح عن عائشة قالت كان المسلمون يرغبون في النفر مع رسول الله فيدفعون مفاتحهم إلى زمانهم ويقولون لهم قد أحللنا لكم أن تأكلوا مما أحببتم وكانوا يقولون أنه لا يحل لنا انهم أذنوا عن غير طيب نفس فأنزل الله ليس عليكم جناح إلى قوله أو ما ملكتم مفاتحه وأخرج ابن جرير عن الزهري أنه سئل عن قوله ليس على الأعمى حرج ما بال الأعمى والأعرج والمريض ذكروا هنا فقال أخبرني عبد الله بن عبد الله قال أن المسلمين كانوا إذا غزوا خلفوا زمانهم وكانوا يدفعون إليهم مفاتيح أبوابهم ويقولون قد أحللنا لكم أن تأكلوا مما في بيوتنا وكانوا يتحرجون من ذلك ويقولون لا ندخلها وهم غيب فأنزلت هذه الآية رخصة لهم وأخرج عن قتادة قال نزلت ليس عليكم جناح أن تأكلوا جميعا أو أشتاتا في حي من العرب كان الرجل منهم لا يأكل طعامه وحده وكان يحمله بعض يوم حتى يجد من يأكله معه وأخرج عن عكرمة وأبي صالح قالا كانت الأنصار إذا نزل بهم الضيف لا يأكلون حتى يأكل الضيف معهم فنزلت رخصة لهم
 
 ## Place in the museum
-Sumber: [[work/lubab-al-nuqul-suyuti|as-Suyuti Lubab al-Nuqul]]. Ayatnya: [[passage/quran-24-29|Al-Qur'an 24-29]].
+Sumber: [[work/lubab-al-nuqul-suyuti|as-Suyuti Lubab al-Nuqul]]. Ayatnya: [[passage/quran-24-61|Al-Qur'an 24-61]].

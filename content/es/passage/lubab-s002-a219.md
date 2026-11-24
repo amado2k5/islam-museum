@@ -6,7 +6,7 @@ translators: ["machine translation, draft"]
 ---
 
 ## Summary
-Informe de al-Suyuti sobre la ocasión de revelación de al-Baqara 2:219, en Lubab al-Nuqul fi Asbab al-Nuzul (Shamela 2247).
+Informe de al-Suyuti sobre la ocasión de revelación de al-Baqara 2:215, en Lubab al-Nuqul fi Asbab al-Nuzul (Shamela 2247).
 
 The verse, in al-Suyuti's heading: «يسألونك ماذا ينفقون».
 
@@ -15,4 +15,4 @@ The verse, in al-Suyuti's heading: «يسألونك ماذا ينفقون».
 يسألونك ماذا ينفقون الآية أخرج ابن جرير عن ابن جريج قال سأل المؤمنون رسول الله أين يضعون أموالهم فنزلت يسألونك ماذا ينفقون قل ما أنفقتم من خير الآية وأخرج ابن المنذر عن أبي حيان أن عمرو بن الجموح سأل النبي ماذا ننفق من أموالنا وأين نضعها فنزلت
 
 ## Place in the museum
-Fuente: [[work/lubab-al-nuqul-suyuti|de al-Suyuti Lubab al-Nuqul]]. El versículo: [[passage/quran-2-219|Corán 2-219]].
+Fuente: [[work/lubab-al-nuqul-suyuti|de al-Suyuti Lubab al-Nuqul]]. El versículo: [[passage/quran-2-215|Corán 2-215]].

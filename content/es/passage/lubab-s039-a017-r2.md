@@ -15,4 +15,4 @@ The verse, in al-Suyuti's heading: «فبشر عبادي».
 فبشر عبادي الآية أخرج جويبر بسنده عن جابر ابن عبد الله قال لما نزلت لها سبعة أبواب الآية أتى رجل من الأنصار النبي فقال يا رسول الله أن لي سبعة مماليك وأني قد عتقت لكل باب منها مملوكا فنزلت فيه هذه الآية فبشر عبادي الذين يستمعون القول فيتبعون أحسنه
 
 ## Place in the museum
-Fuente: [[work/lubab-al-nuqul-suyuti|de al-Suyuti Lubab al-Nuqul]]. El versículo: [[passage/quran-39-17|Corán 39-17]].
+Fuente: [[work/lubab-al-nuqul-suyuti|de al-Suyuti Lubab al-Nuqul]]. El versículo: [[passage/quran-39-18|Corán 39-18]].

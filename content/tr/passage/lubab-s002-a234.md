@@ -6,7 +6,7 @@ translators: ["machine translation, draft"]
 ---
 
 ## Summary
-al-Baqara 2:234 ayetinin nüzul sebebi hakkında es-Suyuti'nin rivayeti; Lübabü'n-Nükul'den (Şamile 2247) — tabiin neslinden.
+al-Baqara 2:240 ayetinin nüzul sebebi hakkında es-Suyuti'nin rivayeti; Lübabü'n-Nükul'den (Şamile 2247) — tabiin neslinden.
 
 The verse, in al-Suyuti's heading: «والذين يتوفون منكم ويذرون أزواجا».
 
@@ -15,4 +15,4 @@ The verse, in al-Suyuti's heading: «والذين يتوفون منكم ويذر
 والذين يتوفون منكم ويذرون أزواجا الآية أخرج إسحق ابن راهويه في تفسيره عن مقاتل بن حبان أن رجلا من أهل الطائف قدم المدينة وله أولاد رجال ونساء ومعه أبواه وامرأته فمات بالمدينة فرفع ذلك إلى النبي فأعطى الوالدين وأعطى أولاده بالمعروف ولم يعط امرأته شيئا غير أنهم أمروا أن ينفقوا عليها تركة زوجها إلى الحول وفيه نزلت والذين يتوفون منكم ويذرون أزواجا الآية
 
 ## Place in the museum
-Kaynak: [[work/lubab-al-nuqul-suyuti|es-Suyuti'nin Lubab al-Nuqul]]. Ayet: [[passage/quran-2-234|Kur'an 2-234]].
+Kaynak: [[work/lubab-al-nuqul-suyuti|es-Suyuti'nin Lubab al-Nuqul]]. Ayet: [[passage/quran-2-240|Kur'an 2-240]].

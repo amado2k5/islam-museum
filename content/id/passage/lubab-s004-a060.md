@@ -6,7 +6,7 @@ translators: ["machine translation, draft"]
 ---
 
 ## Summary
-Riwayat as-Suyuti tentang sebab turunnya an-Nisa 4:60, dalam Lubab al-Nuqul fi Asbab an-Nuzul (Shamela 2247) — generasi Sahabat.
+Riwayat as-Suyuti tentang sebab turunnya an-Nisa 4:44, dalam Lubab al-Nuqul fi Asbab an-Nuzul (Shamela 2247) — generasi Sahabat.
 
 The verse, in al-Suyuti's heading: «ألم تر».
 
@@ -15,4 +15,4 @@ The verse, in al-Suyuti's heading: «ألم تر».
 ألم تر أخرج ابن أسحق عن ابن عباس قال كان رفاعة بن زيد بن التابوت من عظماء اليهود وإذا كلم رسول الله لوى لسانه وقال ارعنا سمعك يا محمد حتى نفهمك ثم طعن في الإسلام دعابة فأنزل الله فيه ألم تر إلى الذين أوتوا نصيبا من الكتاب يشترون الضلالة [44]
 
 ## Place in the museum
-Sumber: [[work/lubab-al-nuqul-suyuti|as-Suyuti Lubab al-Nuqul]]. Ayatnya: [[passage/quran-4-60|Al-Qur'an 4-60]].
+Sumber: [[work/lubab-al-nuqul-suyuti|as-Suyuti Lubab al-Nuqul]]. Ayatnya: [[passage/quran-4-44|Al-Qur'an 4-44]].
