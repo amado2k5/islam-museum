@@ -12,6 +12,8 @@ describe("indexAlternates: the other-language addresses of a letter page", () =>
     ur: groupPages([{ id: "u0627", items: Array(200) }, { id: "u06d2", items: Array(5) }], 300),
     fr: groupPages([{ id: "a", items: Array(50) }, { id: "other", items: Array(400) }], 300),
     es: groupPages([{ id: "a", items: Array(50) }, { id: "other", items: Array(400) }], 300),
+    tr: groupPages([{ id: "a", items: Array(50) }, { id: "other", items: Array(400) }], 300),
+    id: groupPages([{ id: "a", items: Array(50) }, { id: "other", items: Array(400) }], 300),
   };
   const alt = (id: string, n: number) => indexAlternates(LANGS, (l) => pages[l], id, n, (l) => `/${l}/people/all/${id}/${n > 1 ? `${n}/` : ""}`, (l) => `/${l}/people/`);
 
@@ -19,12 +21,12 @@ describe("indexAlternates: the other-language addresses of a letter page", () =>
     expect([...pages.ar]).toEqual([["u0627", 3], ["other", 1]]);
   });
   it("keeps the twin where the same letter and page exist, and falls back to the landing where they do not", () => {
-    expect(alt("u0627", 1)).toEqual({ ar: "/ar/people/all/u0627/", en: "/en/people/", ur: "/ur/people/all/u0627/", fr: "/fr/people/", es: "/es/people/" });
-    expect(alt("a", 1)).toEqual({ ar: "/ar/people/", en: "/en/people/all/a/", ur: "/ur/people/", fr: "/fr/people/all/a/", es: "/es/people/all/a/" });
-    expect(alt("u06d2", 1)).toEqual({ ar: "/ar/people/", en: "/en/people/", ur: "/ur/people/all/u06d2/", fr: "/fr/people/", es: "/es/people/" });
+    expect(alt("u0627", 1)).toEqual({ ar: "/ar/people/all/u0627/", en: "/en/people/", ur: "/ur/people/all/u0627/", fr: "/fr/people/", es: "/es/people/", tr: "/tr/people/", id: "/id/people/" });
+    expect(alt("a", 1)).toEqual({ ar: "/ar/people/", en: "/en/people/all/a/", ur: "/ur/people/", fr: "/fr/people/all/a/", es: "/es/people/all/a/", tr: "/tr/people/all/a/", id: "/id/people/all/a/" });
+    expect(alt("u06d2", 1)).toEqual({ ar: "/ar/people/", en: "/en/people/", ur: "/ur/people/all/u06d2/", fr: "/fr/people/", es: "/es/people/", tr: "/tr/people/", id: "/id/people/" });
   });
   it("falls back to the landing when the letter exists but runs to fewer pages in the other language", () => {
-    expect(alt("u0627", 3)).toEqual({ ar: "/ar/people/all/u0627/3/", en: "/en/people/", ur: "/ur/people/", fr: "/fr/people/", es: "/es/people/" });
-    expect(alt("other", 2)).toEqual({ ar: "/ar/people/", en: "/en/people/all/other/2/", ur: "/ur/people/", fr: "/fr/people/all/other/2/", es: "/es/people/all/other/2/" });
+    expect(alt("u0627", 3)).toEqual({ ar: "/ar/people/all/u0627/3/", en: "/en/people/", ur: "/ur/people/", fr: "/fr/people/", es: "/es/people/", tr: "/tr/people/", id: "/id/people/" });
+    expect(alt("other", 2)).toEqual({ ar: "/ar/people/", en: "/en/people/all/other/2/", ur: "/ur/people/", fr: "/fr/people/all/other/2/", es: "/es/people/all/other/2/", tr: "/tr/people/all/other/2/", id: "/id/people/all/other/2/" });
   });
 });
