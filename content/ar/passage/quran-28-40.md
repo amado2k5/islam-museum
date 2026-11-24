@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-8-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري الآيات 39 إلى 40 معاً في موضع واحد. يقول الطبري إن فرعون وجنوده استكبروا في أرض مصر عن تصديق موسى بغير الحق تعدياً وعتواً على ربهم، وظنوا أنهم إلى الله لا يرجعون بعد موتهم ولا ثواب ولا عقاب، ولم يعلموا أن الله لهم بالمرصاد، فأخذهم وجنوده فنبذهم في اليم فانظر كيف كان عاقبة الظالمين. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=28&tAyahNo=40&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 39 إلى 40 مقطعاً واحداً. يفسّر قوله «فَأَخَذْنَاهُ وَجُنُودَهُ فَنَبَذْنَاهُمْ فِي ٱلْيَمِّ فَٱنظُرْ كَيْفَ كَانَ عَاقِبَةُ ٱلظَّالِمِينَ»: فجمعنا فرعون وجنوده من القبط «فَنَبَذْناهُمْ فِي الْيَمّ» يقول: فألقيناهم جميعهم في البحر، فغرقناهم فيه، كما قال أبو الأسود الدُّؤَلِيّ:نَظَرْتُ إلى عُنْوَانِهِ فَنَبَذْتُه كَنَبْذِكَ نَعْلاً أخْلَقَتْ مِنْ نِعالِكا وذُكر أن ذلك بحر من وراء مصر، كما: وعن قَتادة: «فَنَبَذْناهُمْ فِي الْيَمّ» قال: كان اليم بحرا يقال له إساف، من وراء مصر، غرّقهم الله فيه.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=28&tAyahNo=40&tDisplay=yes&UserProfile=0&LanguageId=1

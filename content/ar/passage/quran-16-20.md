@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-5-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري الآية ضمن الموضع المشترك مع سابقتها، فيقرر أن الأصنام التي تُعبد من دون الله لا تخلق شيئاً بل هي مخلوقة، وفيه حجة على المشركين في عبادتها. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=16&tAyahNo=20&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 19 إلى 20 مقطعاً واحداً. يفسّر قوله «وَٱلَّذِينَ يَدْعُونَ مِن دُونِ ٱللَّهِ لاَ يَخْلُقُونَ شَيْئاً وَهُمْ يُخْلَقُونَ»: وأوثانكم الذين تدعون من دون الله أيها الناس آلهة لا تَخْلُق شيئاً وهي تُخْلَقَ، فكيف يكون إلها ما كان مصنوعاً مدَّبراً لا تملك لأنفسها نفعاً ولا ضرًّا؟
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=16&tAyahNo=20&tDisplay=yes&UserProfile=0&LanguageId=1

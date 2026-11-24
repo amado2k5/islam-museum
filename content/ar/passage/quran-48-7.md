@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-10-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل الآيات 6 إلى 7، وخلاصتها: يفسّر الطبري أن الله يعذّب المنافقين والمنافقات والمشركين والمشركات الظانين بالله ظن السوء عليهم دائرة السوء وغضب الله عليهم ولعنهم وأعدّ لهم جهنم وساءت مصيراً. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=48&tAyahNo=7&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 6 إلى 7 مقطعاً واحداً. يفسّر قوله «وَلِلَّهِ جُنُودُ ٱلسَّمَٰوَٰتِ وَٱلأَرْضِ وَكَانَ ٱللَّهُ عَزِيزاً حَكِيماً»: يقول جلّ ثناؤه: ولله جنود السموات والأرض أنصاراً على أعدائه، إن أمرهم بإهلاكهم أهلكوهم، وسارعوا إلى ذلك بالطاعة منهم له «وكانَ اللَّهُ عَزيزاً حَكِيماً» يقول تعالى ذكره: ولم يزل الله ذا عزّة، لا يغلبه غالب، ولا يمتنع عليه مما أراده به ممتنع، لعظم سلطانه وقدرته، حكيم في تدبيره خلقه.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=48&tAyahNo=7&tDisplay=yes&UserProfile=0&LanguageId=1

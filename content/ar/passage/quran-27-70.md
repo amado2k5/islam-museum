@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-8-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري الآيات 69 إلى 70 معاً في موضع واحد. يقول الطبري إن الله أمر نبيه أن يقول للمكذّبين سيروا في الأرض فانظروا إلى ديار من قبلكم من المكذبين كيف خلت منهم الديار، فتلك سنته في كل من سلك سبيلهم، وأمره ألا يحزن عليهم ولا يكن في ضيق مما يمكرون. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=27&tAyahNo=70&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 69 إلى 70 مقطعاً واحداً. يفسّر قوله «وَلاَ تَحْزَنْ عَلَيْهِمْ وَلاَ تَكُن فِي ضَيْقٍ مِّمَّا يَمْكُرُونَ»: ولا تحزن على إدبار هؤلاء المشركين عنك وتكذيبهم لك «وَلا تَكُنْ فِي ضَيْقٍ مِمَّا يَمْكُرُونَ» يقول: ولا يضق صدرك من مكرهم بك، فإن الله ناصرك عليهم، ومهلكهم قتلاً بالسيف.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=27&tAyahNo=70&tDisplay=yes&UserProfile=0&LanguageId=1

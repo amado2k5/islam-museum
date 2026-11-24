@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-11-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل الآيات [[passage/quran-67-12|67:12]] إلى [[passage/quran-67-13|67:13]]، وخلاصتها: يبيّن الطبري أن الذين يخافون ربهم بالغيب أي وهم لم يروه لهم مغفرة وعفو عن ذنوبهم وأجر كبير وثواب جزيل على خشيتهم إياه، ثم يقول وأسرّوا قولكم أو اجهروا به إنه عليم بذات الصدور. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=67&tAyahNo=13&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 12 إلى 13 مقطعاً واحداً. يفسّر قوله «وَأَسِرُّواْ قَوْلَكُمْ أَوِ ٱجْهَرُواْ بِهِ إِنَّهُ عَلِيمٌ بِذَاتِ ٱلصُّدُورِ»: يقول جلّ ثناؤه: وأخفوا قولكم وكلامكم أيها الناس أو أعلنوه وأظهروه «إنَّهُ عَلِيمٌ بذَاتِ الصُّدُورِ» يقول: إنه ذو علم بضمائر الصدور التي لم يُتَكَلَّم بها، فكيف بما نطق به وتكلم به، أخفى ذلك أو أعلن، لأن من لم تخف عليه ضمائر الصدور فغيرها أحرى أن لا يخفى عليه.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=67&tAyahNo=13&tDisplay=yes&UserProfile=0&LanguageId=1

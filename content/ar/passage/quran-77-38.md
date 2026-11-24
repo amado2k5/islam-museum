@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-12-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل الآيات [[passage/quran-77-35|77:35]] إلى [[passage/quran-77-40|77:40]]، وخلاصتها: يشرح الطبري أن هذا يوم الفصل جمع الله فيه الخلق والأولين، وأن الله منجز ما وعدهم في الدنيا من العقاب على تكذيبهم بالبعث. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=77&tAyahNo=38&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 35 إلى 40 مقطعاً واحداً. يفسّر قوله «هَٰذَا يَوْمُ ٱلْفَصْلِ جَمَعْنَٰكُمْ وَٱلأَوَّلِينَ»: يقول تعالى ذكره لهؤلاء المكذّبين بالبعث يوم يبعثون: هذا يوم الفصل الذي يَفْصل الله فيه بالحقّ بين عباده «جَمَعْناكُمْ والأوَّلِينَ» يقول: جمعناكم فيه لموعدكم الذي كنا نعدكم في الدنيا الجمع فيه بينكم وبين سائر من كان قبلكم من الأمم الهالكة، فقد وفَّينا لكم بذلك
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=77&tAyahNo=38&tDisplay=yes&UserProfile=0&LanguageId=1

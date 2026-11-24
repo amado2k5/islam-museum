@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-8-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري الآيات 54 إلى 55 معاً في موضع واحد. يذكر الطبري أن الله أرسل لوطاً إلى قومه، فقال لهم أتأتون الفاحشة وأنتم تبصرون أنها فاحشة لأنه لم يسبقكم إليها أحد، أئنكم لتأتون الرجال شهوة من دون فروج النساء التي أباحها الله لكم، بل أنتم قوم تجهلون، أي سفهاء جاهلون بعظيم حق الله عليكم. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=27&tAyahNo=55&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 54 إلى 55 مقطعاً واحداً. يفسّر قوله «أَإِنَّكُمْ لَتَأْتُونَ ٱلرِّجَالَ شَهْوَةً مِّن دُونِ ٱلنِّسَآءِ بَلْ أَنتُمْ قَوْمٌ تَجْهَلُونَ»: بذلك من دون فروج النساء التي أباحها الله لكم بالنكاح وقوله «بل أنتم قوم تجهلون» يقول ما ذلك منكم إلا أنكم قوم سفهاء جهلة بعظيم حق الله عليكم فخالفتم لذلك أمره وعصيتم رسوله.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=27&tAyahNo=55&tDisplay=yes&UserProfile=0&LanguageId=1

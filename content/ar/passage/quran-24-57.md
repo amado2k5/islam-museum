@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-7-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن الذين كفروا لا يفوتون الله في الأرض إذا أراد إهلاكهم، وأن مصيرهم إلى النار، وبئس المصير، فلا ملجأ لهم ولا ناصر. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=24&tAyahNo=57&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 56 إلى 57 مقطعاً واحداً. يفسّر قوله «لاَ تَحْسَبَنَّ ٱلَّذِينَ كَفَرُواْ مُعْجِزِينَ فِي ٱلأَرْضِ وَمَأْوَٰهُمُ ٱلنَّارُ وَلَبِئْسَ ٱلْمَصِيرُ»: لا تحسبنّ يا محمد الذين كفروا بالله معجزيه في الأرض إذا أراد إهلاكهم. «ومأْوَاهُم» بعد هلاكهم «النَّارُ وَلَبِئْسَ المَصِيرُ» الذي يصيرون إليه ذلك المأوى. وقد كان بعضهم يقول: «لا يحسبنّ الذين كفروا» بالياء. وهو مذهب ضعيف عند أهل العربية وذلك أن «تحسب» محتاج إلى منصوبين. وإذا قرىء «يَحْسَبنَّ» لم يكن واقعاً إلاَّ على منصوب واحد، غير أني أحسب أن قائله بالياء ظنّ أنه قد عمل في «معجزين»، وأن منصوبه الثاني في «الأرض»، وذلك لا معنى له إن كان ذلك قصد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=24&tAyahNo=57&tDisplay=yes&UserProfile=0&LanguageId=1

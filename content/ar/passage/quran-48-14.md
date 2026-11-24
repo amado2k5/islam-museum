@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-10-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل الآيات 13 إلى 14، وخلاصتها: يفسّر الطبري أن من لم يؤمن بالله ورسوله فإنا أعتدنا للكافرين سعيراً، ولله ملك السماوات والأرض يغفر لمن يشاء ويعذب من يشاء وكان الله غفوراً رحيماً. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=48&tAyahNo=14&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 13 إلى 14 مقطعاً واحداً. يفسّر قوله «وَلِلَّهِ مُلْكُ ٱلسَّمَٰوَٰتِ وَٱلأَرْضِ يَغْفِرُ لِمَن يَشَآءُ وَيُعَذِّبُ مَن يَشَآءُ وَكَانَ ٱللَّهُ غَفُوراً رَّحِيماً»: ولله سلطان السموات والأرض، فلا أحد يقدر أيها المنافقون على دفعه عما أراد بكم من تعذيب على نفاقكم إن أصررتم عليه أو منعه من عفوه عنكم إن عفا، إن أنتم تبتم من نفاقكم وكفركم، وهذا من الله جلّ ثناؤه حثّ لهؤلاء الأعراب المتخلفين عن رسول الله على التوبة والمراجعة إلى أمر الله في طاعة رسوله، يقول لهم: بادروا بالتوبة من تخلفكم عن رسول الله، فإن الله يغفر للتائبين «وكانَ اللَّهُ غَفُوراً رَحِيماً» يقول: ولم يزل الله ذا عفو عن عقوبة التائبين إليه من ذنوبهم ومعاصيهم من عباده، وذا رحمة بهم أن يعاقبهم على ذنوبهم بعد توبتهم منها.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=48&tAyahNo=14&tDisplay=yes&UserProfile=0&LanguageId=1

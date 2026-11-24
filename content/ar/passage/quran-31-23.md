@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-9-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يذكر الطبري أن من كفر فلا ينبغي أن يحزن النبي كفره ولا تذهب نفسه عليهم حسرات، لأن مرجعهم إلى الله فيخبرهم بأعمالهم ويجازيهم عليها، وأن الله عليم بما تخفيه صدورهم. ثم يفسّر «نمتعهم قليلاً» بأنه إمهال في الدنيا ثم يُساقون إلى عذاب غليظ لا مفرّ منه. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=31&tAyahNo=23&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 22 إلى 23 مقطعاً واحداً. يفسّر قوله «نُمَتِّعُهُمْ قَلِيلاً ثُمَّ نَضْطَرُّهُمْ إِلَىٰ عَذَابٍ غَلِيظٍ»: نمهلهم في هذه الدنيا مهلاً قليلاً يتمتعون فيها «ثُمَّ نَضْطَّرُّهُمْ إلى عَذَاب غَلِيظٍ» يقول: ثم نوردهم على كره منهم عذابا غليظا، وذلك عذاب النار، نعوذ بالله منها، ومن عمل يقرّب منها.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=31&tAyahNo=23&tDisplay=yes&UserProfile=0&LanguageId=1

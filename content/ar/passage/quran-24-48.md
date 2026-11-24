@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-7-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أنهم إذا دُعوا إلى الله ورسوله ليحكم بينهم إذا فريق منهم معرضون، أي يعرضون عن الإجابة إلى حكم الله وحكم رسوله بعد قولهم أطعنا. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=24&tAyahNo=48&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 47 إلى 48 مقطعاً واحداً. يفسّر قوله «وَإِذَا دُعُوۤاْ إِلَى ٱللَّهِ وَرَسُولِهِ لِيَحْكُمَ بَيْنَهُمْ إِذَا فَرِيقٌ مِّنْهُمْ مُّعْرِضُونَ»: وإذا دُعِي هؤلاء المنافقون إلى كتاب الله وإلى رسوله «لِيَحْكُمَ بَيْنَهُمْ» فيما اختصموا فيه بحكم الله، «إذَا فَرِيقٌ مِنْهُمْ مُعْرِضُونَ» عن قبول الحقّ والرضا بحكم رسول الله.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=24&tAyahNo=48&tDisplay=yes&UserProfile=0&LanguageId=1

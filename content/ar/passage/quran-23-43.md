@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-7-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن الله أنشأ من بعد أولئك قروناً، وما تسبق من أمة أجلها وما يستأخرون، فلا تقدّم الهلاك ولا تأخير له عن وقته الذي كتبه الله. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=23&tAyahNo=43&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 42 إلى 43 مقطعاً واحداً. يفسّر قوله «مَا تَسْبِقُ مِنْ أُمَّةٍ أَجَلَهَا وَمَا يَسْتَأْخِرُونَ»: ما يتقدم هلاك أمة من تلك الأمم التي أنشأناها بعد ثمود قبل الأجل الذي أجلنا لهلاكها، ولا يستأخِر هلاكها عن الأجل الذي أجلنا لهلاكها والوقت الذي وقتنا لفنائها ولكنها تهلك لمجيئه. وهذا وعيد من الله لمشركي قوم نبينا محمد وإعلام منه لهم أن تأخيره في آجالهم مع كفرهم به وتكذيبهم رسوله، ليبلغوا الأجل الذي أجِّل لهم فيحلّ بهم نقمته، كسنته فيمن قبلهم من الأمم السالفة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=23&tAyahNo=43&tDisplay=yes&UserProfile=0&LanguageId=1

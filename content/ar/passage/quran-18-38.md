@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-6-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن صاحبه المؤمن حاوره منكراً عليه الكفر بمن خلقه من تراب ثم من نطفة ثم سوّاه رجلاً، وقال: لكنّ أنا هو الله ربي ولا أشرك بربي أحداً. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=18&tAyahNo=38&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 37 إلى 38 مقطعاً واحداً. يفسّر قوله «لَّٰكِنَّاْ هُوَ ٱللَّهُ رَبِّي وَلاَ أُشْرِكُ بِرَبِّي أَحَداً»: أما أنا فلا أكفر بربي، ولكن أنا هو الله ربي، معناه أنه يقول: ولكن أنا أقول: هو الله ربي «وَلا أُشْرِكُ بِرَبيّ أحَداً». وفي قراءة ذلك وجهان: أحدهما لكنّ هو الله ربي بتشديد النون وحذف الألف في حال الوصل، كما يقال: أنا قائم فتحذف الألف من أنا، وذلك قراءة عامة قرّاء أهل العراق. وأما في الوقف فإن القرأة كلها تثبت فيها الألف، لأن النون إنما شدّدت لاندغام النون من لكن، وهي ساكنة في النون التي من أنا، إذ سقطت الهمزة التي في أنا، فإذا وقف عليها ظهرت الألف التي في أنا، فقيل: لكنا، لأنه يقال في الوقف على أنا بإثبات الألف لا بإسقاطها.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=18&tAyahNo=38&tDisplay=yes&UserProfile=0&LanguageId=1

@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-11-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل الآيات [[passage/quran-54-32|54:32]] إلى [[passage/quran-54-35|54:35]]، وخلاصتها: يقول الطبري إن الله هوّن القرآن وبيّنه لمن أراد أن يتذكر، ثم يذكر تكذيب قوم لوط بالنذر وأن الله أرسل عليهم حاصباً أي حجارة، إلا آل لوط نجّاهم بسحر نعمةً من عنده. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=54&tAyahNo=34&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 32 إلى 35 مقطعاً واحداً. يفسّر قوله «إِنَّآ أَرْسَلْنَا عَلَيْهِمْ حَاصِباً إِلاَّ آلَ لُوطٍ نَّجَّيْنَاهُم بِسَحَرٍ»: إنا أرسلنا عليهم حجارة. وقوله: «إلاَّ آلَ لُوطٍ نَجَّيْناهُمْ بسَحَرٍ» يقول: غير آل لوط الذين صدّقوه واتبعوه على دينه فإنا نجَّيناهم من العذاب الذي عذّبنا به قومه الذين كذّبوه، والحاصب الذي حصبناهم به بسحر: بنعمة من عندنا: يقول: نعمة أنعمناها على لوط وآله، وكرامة أكرمناهم بها من عندنا. وقوله: «كَذلَكَ نَجْزي مَنْ شَكَر» يقول: وكما أثبنا لوطاً وآله، وأنعمنا عليه، فأنجيناهم من عذابنا بطاعتهم إيانا كذلك نثيب من شكرنا على نعمتنا عليه، فأطاعنا وانتهى إلى أمرنا ونهينا من جميع خلقنا. وأجرى قوله بسحر، لأنه نكرة، وإذا قالوا: فعلت هذا سحر بغير باء لم يجروه.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=54&tAyahNo=34&tDisplay=yes&UserProfile=0&LanguageId=1
