@@ -3,6 +3,11 @@ id: passage/quran-68-45
 lang: ar
 source_lang: ar
 translators: []
+provenance:
+  generated_by: "Claude Code (Sonnet 5.5 session)"
+  model: claude-sonnet-5-5
+  run: altafsir-tabari-batch-12-2026-11-24
+  source: source/altafsir-tabari
 ---
 
 ## موجز
@@ -10,3 +15,7 @@ translators: []
 
 ## موضعها
 موضعها: الآية 45 من أصل 52 آية في السورة. النص محفوظ من مصحف تنزيل المجمّد ولا يُعاد كتابته هنا.
+
+## تفسير الطبري
+
+يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل الآيات [[passage/quran-68-44|68:44]] إلى [[passage/quran-68-45|68:45]]، وخلاصتها: يبيّن الطبري أن الله سيستدرج المكذبين من حيث لا يعلمون، ويمهلهم زمناً على كفرهم ليتكامل الحجج عليهم، وأن كيده بأهل الكفر قوي شديد. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=68&tAyahNo=45&tDisplay=yes&UserProfile=0&LanguageId=1
