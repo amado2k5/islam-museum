@@ -1,0 +1,27 @@
+id: work/tarikh-al-ghazani
+class: work
+kind: book
+label:
+  ar: "التاريخ الغازاني"
+  en: "Tarikh-i Ghazani (The Ghazan History)"
+  ur: "تاریخ غازانی"
+  fr: "Tarikh-i Ghazani (Histoire de Ghazan)"
+  es: "Tarikh-i Ghazani (Historia de Ghazan)"
+summary:
+  ar: "الاسم الذي يذكره رشيد الدين لجزء من كتابه التاريخي الأكبر، وهو جامع التواريخ، ألّفه بأمر السلطان غازان خان. ويذكر المؤلف أن أولجايتو أمر بأن يُقدَّم الكتاب باسم غازان، وأن تظل مقدمته موشحة بألقابه، فلم يتردد المؤلف في تحريره على هذا النحو {cite:jami-al-tawarikh-khashshab-1960 p. 220}. وفي باب الكتاب يعرض المؤلف عنوانه الخاص تحت عنوان «ذكر تأليف الكتاب الموسوم بالتاريخ الغازاني» {cite:jami-al-tawarikh-khashshab-1960 p. 235}. ويتبين من هذه الصفحات أن الكتاب لم يُعرف في عصره بهذا الاسم وحده."
+  en: "The name Rashid al-Din gives to the part of his great history that he wrote at Ghazan's command, within the Jami al-Tawarikh. The author says that Oljeitu ordered the work to be presented in Ghazan's name, with the preface carrying his titles, and the author wrote it on that footing {cite:jami-al-tawarikh-khashshab-1960 p. 220}. The author gives it its own section under the heading 'the account of the composition of the book called the Ghazan History' {cite:jami-al-tawarikh-khashshab-1960 p. 235}. These pages do not show the name as the only one the work was known by."
+  ur: "رشید الدین نے اپنی بڑی تاریخ، جامع التواریخ، کے اس حصے کو، جو غازان خان کے حکم سے لکھا گیا، یہ نام دیا۔ مصنف کے مطابق اولجایتو نے حکم دیا کہ کتاب غازان کے نام سے پیش کی جائے اور اس کے دیباچے میں ان کے القاب درج ہوں، اور مصنف نے اسی طرح لکھا {cite:jami-al-tawarikh-khashshab-1960 p. 220}۔ مصنف نے اسے «التاریخ الغازانی» کے نام سے ایک الگ عنوان کے تحت بیان کیا ہے {cite:jami-al-tawarikh-khashshab-1960 p. 235}۔ ان صفحات سے معلوم نہیں ہوتا کہ کتاب اپنے زمانے میں صرف اسی نام سے جانی جاتی تھی۔"
+  fr: "Le nom que Rashid al-Din donne à la partie de sa grande histoire rédigée sur ordre de Ghazan, au sein du Jami al-Tawarikh. L'auteur indique qu'Oljeytu ordonna de présenter l'ouvrage au nom de Ghazan, avec une préface portant ses titres, et qu'il l'écrivit ainsi {cite:jami-al-tawarikh-khashshab-1960 p. 220}. Il lui consacre une section sous le titre « Récit de la composition du livre intitulé l'Histoire de Ghazan » {cite:jami-al-tawarikh-khashshab-1960 p. 235}. Ces pages ne montrent pas que l'ouvrage n'ait été connu que sous ce nom."
+  es: "Nombre que da Rashid al-Din a la parte de su gran historia escrita por orden de Ghazan, dentro del Jami al-Tawarikh. El autor indica que Oljeitu ordenó presentar la obra en nombre de Ghazan, con un prefacio que llevara sus títulos, y que la escribió en esos términos {cite:jami-al-tawarikh-khashshab-1960 p. 220}. Le dedica una sección bajo el epígrafe «Relato de la composición del libro llamado la Historia de Ghazan» {cite:jami-al-tawarikh-khashshab-1960 p. 235}. Estas páginas no muestran que la obra fuera conocida solo con ese nombre."
+relations:
+  - { type: related_to, target: work/jami-al-tawarikh, note: "The part of the Jami al-Tawarikh that the author names for Ghazan (scan pages 220 and 235).", sources: [source/jami-al-tawarikh-khashshab-1960] }
+  - { type: related_to, target: person/ghazan-khan, note: "The sultan at whose command the work was written and in whose name it was to be presented (scan page 220).", sources: [source/jami-al-tawarikh-khashshab-1960] }
+  - { type: related_to, target: person/oljaitu, note: "The sultan who ordered the dedication to Ghazan (scan page 220).", sources: [source/jami-al-tawarikh-khashshab-1960] }
+sources: [source/jami-al-tawarikh-khashshab-1960]
+provenance:
+  layer: own-research
+  source: "Scan pages 209, 220 and 235 of source/jami-al-tawarikh-khashshab-1960, OCR by Apple Vision, read by the packet drafter. The section heading on scan 235 is read from OCR and printed as 'al-Tarikh al-Ghazani'. The dedication order is on scan 220 and is paraphrased. Whether 'Tarikh-i Ghazani' is the name of a separate manuscript is not settled by these pages; the record states only the author's use of the name. Compare with the existing record event/completion-of-jami-al-tawarikh-710, which uses the same name for the first volume."
+  generated_by: "Claude Haiku 5.5"
+  model: claude-haiku-5-5
+  run: "jami-tawarikh-v2p1-p181-240"
+status: { review: published, generated_by: "Claude Haiku 5.5" }
