@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-12-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل الآيات [[passage/quran-78-1|78:1]] إلى [[passage/quran-78-5|78:5]]، وخلاصتها: يذكر الطبري عن قتادة أن النبأ الذي هم فيه مختلفون هو البعث بعد الموت، فصار الناس فيه فريقين مصدّق ومكذّب، فقد أقروا بالموت لمعاينتهم له واختلفوا في البعث. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=78&tAyahNo=3&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 3 إلى 7 مقطعاً واحداً. يفسّر قوله «عَمَّ يَتَسَآءَلُونَ»: عن أيّ شيء يتساءل هؤلاء المشركون بالله ورسوله من قريش يا محمد؟ وقيل ذلك له، وذلك أن قريشاً جعلت فيما ذُكر عنها تختصم وتتجادل، في الذي دعاهم إليه رسول الله من الإقرار بنبوّته، والتصديق بما جاء به من عند الله، والإيمان بالبعث، فقال الله لنبيه: فيم يتساءل هؤلاء القوم ويختصمون؟ و «في» و «عن» في هذا الموضع بمعنى واحد. وينقل في المقطع أقوالاً عن مجاهد وقتادة والحسن وابن زيد وسفيان.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=78&tAyahNo=3&tDisplay=yes&UserProfile=0&LanguageId=1

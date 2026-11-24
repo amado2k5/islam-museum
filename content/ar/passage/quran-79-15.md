@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-12-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل الآيات [[passage/quran-79-15|79:15]] إلى [[passage/quran-79-18|79:18]]، وخلاصتها: يبيّن الطبري أن الله يسأل نبيه محمداً: هل أتاك حديث موسى بن عمران. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=79&tAyahNo=15&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 15 إلى 18 مقطعاً واحداً. يفسّر قوله «هَلْ أَتَاكَ حَدِيثُ مُوسَىٰ»: هل أتاك يا محمد حديث موسى بن عمران، وهل سمعت خبره حين ناجاه ربه بالواد المقدّس، يعني بالمقدّس: المطهَّر المبارك. وقد ذكرنا أقوال أهل العلم في ذلك فيما مضى، فأغنى عن إعادته في هذا الموضع، وكذلك بيَّنا معنى قوله: «طُوًى» وما قال فيه أهل التأويل، غير أنا نذكر بعض ذلك ها هنا. وقد اختلف أهل التأويل في قوله: «طُوًى» فقال بعضهم: هو اسم الوادي. وينقل في المقطع أقوالاً عن مجاهد وقتادة والحسن وابن زيد وسفيان.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=79&tAyahNo=15&tDisplay=yes&UserProfile=0&LanguageId=1

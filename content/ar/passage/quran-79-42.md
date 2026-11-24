@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-12-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل الآيات [[passage/quran-79-42|79:42]] إلى [[passage/quran-79-46|79:46]]، وخلاصتها: يذكر الطبري أن المكذّبين يسألون محمداً عن الساعة أيان مرساها أي متى قيامها وظهورها، ويستشهد بما ذكره الفراء في معنى الإرساء. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=79&tAyahNo=42&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 42 إلى 46 مقطعاً واحداً. يفسّر قوله «يَسْأَلُونَكَ عَنِ ٱلسَّاعَةِ أَيَّانَ مُرْسَٰهَا»: يسألك يا محمد هؤلاء المكذّبون بالبعث عن الساعة التي تبعث فيها الموتَى من قبورهم أيانَ مرساها، متى قيامها وظهورها؟ وكان الفرّاء يقول: إن قال قائل: إنما الإرساء للسفينة، والجبال الراسية وما أشبههنّ، فكيف وصَفَ الساعة بالإرساء؟ قلت: هي بمنزلة السفينة إذا كانت جارية فرست، ورسوّها: قيامها قال: وليس قيامها كقيام القائم، إنما هي كقولك: قد قام العدل، وقام الحقّ: أي ظهر وثبت. قال أبو جعفر: يقول الله لنبيه: «فِيمَ أنْتَ مِنْ ذِكْراها» يقول: في أيّ شيء أنت من ذكر الساعة والبحث عن شأنها. وذُكر أن رسول الله كان يُكثر ذكر الساعة، حتى نزلت هذه الآية. وينقل في المقطع أقوالاً عن مجاهد وقتادة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=79&tAyahNo=42&tDisplay=yes&UserProfile=0&LanguageId=1

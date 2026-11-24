@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-12-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل الآيات [[passage/quran-79-15|79:15]] إلى [[passage/quran-79-18|79:18]]، وخلاصتها: يعرض الطبري قراءتي «تزكى» بتخفيف الزاي وتشديدها، ويرجّح التخفيف، لأن موسى دعا فرعون إلى الإسلام لا إلى أن يتصدق. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=79&tAyahNo=18&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 15 إلى 18 مقطعاً واحداً. يفسّر قوله «فَقُلْ هَل لَّكَ إِلَىٰ أَن تَزَكَّىٰ»: فقل له: هل لك إلى أن تتطهَّر من دنس الكفر، وتؤمَنَ بربك؟ كما: قال ابن زيد، في قوله: «هَلْ لَكَ إلى أنْ تَزَكَّى» قال: إلى أن تسلم. وقال: والتزكّي في القرآن كله: الإسلام وقرأ قول الله «وَذَلَكَ جَزَاءُ مَنْ تَزَكَّى» قال: من أسلم، وقرأ:«وَما يُدْرِيكَ لَعَلَّهُ يَزَّكَّى» قال: يسلم، وقرأ:«وَما عَلَيْكَ ألاَّ يَزَّكَّى» أن لا يسلم. عن الحكيم بن أبان، عن عكرِمة، قول موسى لفرعون: «هَلْ لَكَ إلى أنْ تَزَّكَّى» هل لك إلى أن تقول لا إله إلا الله. واختلفت القرّاء في قراءة قوله: «تَزَكَّى» فقرأته عامة قرّاء المدينة: «تزَّكَّى» بتشديد الزاي، وقرأته عامة قرّاء الكوفة والبصرة: «إلى أنْ تَزَكَّى» بتخفيف الزاي. وينقل في المقطع أقوالاً عن مجاهد وقتادة والحسن وابن زيد وسفيان.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=79&tAyahNo=18&tDisplay=yes&UserProfile=0&LanguageId=1

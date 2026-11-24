@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-12-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل الآيات [[passage/quran-79-29|79:29]] إلى [[passage/quran-79-32|79:32]]، وخلاصتها: يذكر الطبري في ترتيب ذكر خلق الأرض والسماء أن الله خلق الأرض بأقواتها من غير أن يدحوها قبل السماء، ثم سوّى السماء سبعاً، ثم دحا الأرض بعد ذلك. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=79&tAyahNo=30&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 30 إلى 33 مقطعاً واحداً. يفسّر قوله «وَأَغْطَشَ لَيْلَهَا وَأَخْرَجَ ضُحَاهَا»: وقوله: «وأغْطَشَ لَيْلَها» يقول تعالى ذكره: وأظلم ليل السماء، فأضاف الليل إلى السماء، لأن الليل غروب الشمس، وغروبها وطلوعها فيها، فأضيف إليها لَمَّا كان فيها، كما قيل نجوم الليل، إذ كان فيه الطلوع والغروب. وينقل في المقطع أقوالاً عن ابن عباس ومجاهد وقتادة وابن زيد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=79&tAyahNo=30&tDisplay=yes&UserProfile=0&LanguageId=1

@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-12-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل الآيات [[passage/quran-77-29|77:29]] إلى [[passage/quran-77-34|77:34]]، وخلاصتها: يبيّن الطبري في معنى «كالقصر» ما رواه عن ابن عباس أن القصر خشب كان يُقطع في الجاهلية ذراعين أو ثلاثاً. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=77&tAyahNo=32&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 29 إلى 34 مقطعاً واحداً. يفسّر قوله «إِنَّهَا تَرْمِي بِشَرَرٍ كَٱلْقَصْرِ»: إن جهنم ترمي بشرر كالقصر، فقرأ ذلك قرّاء الأمصار: «كالْقَصْرِ» بجزم الصاد. واختلف الذين قرأوا ذلك كذلك في معناه، فقال بعضهم: هو واحد القصور. وينقل في المقطع أقوالاً عن ابن عباس ومجاهد وقتادة وسفيان.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=77&tAyahNo=32&tDisplay=yes&UserProfile=0&LanguageId=1

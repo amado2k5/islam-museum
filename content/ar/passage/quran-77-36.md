@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-12-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل الآيات [[passage/quran-77-35|77:35]] إلى [[passage/quran-77-40|77:40]]، وخلاصتها: يذكر الطبري أنه لا يؤذن لهم فيعتذروا مما اجترموه من الذنوب في الدنيا. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=77&tAyahNo=36&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 35 إلى 40 مقطعاً واحداً. يفسّر قوله «وَلاَ يُؤْذَنُ لَهُمْ فَيَعْتَذِرُونَ»: مما اجترموا في الدنيا من الذنوب. فإن قال قائل: وكيف قيل: «هَذَا يَوْمُ لا يَنْطِقُونَ» وقد علمت بخبر الله عنهم أنهم يقولون:«رَبَّنا أخْرِجْنا مِنْها» وأنهم يقولون:«رَبَّنا أَمَتَّنا اثْنَتَينِ وأحْيَيْتَنا اثْنَتَين» في نظائر ذلك مما أخبر الله ورسوله عنهم أنهم يقولونه؟ قيل: إن ذلك في بعض الأحوال دون بعض. وقوله: «هَذَا يَوْمُ لا يَنْطِقُونَ» يخبر عنهم أنهم لا ينطقون في بعض أحوال ذلك اليوم، لا أنهم لا ينطقون ذلك اليوم كله.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=77&tAyahNo=36&tDisplay=yes&UserProfile=0&LanguageId=1

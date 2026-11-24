@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-12-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل الآيات [[passage/quran-79-19|79:19]] إلى [[passage/quran-79-24|79:24]]، وخلاصتها: يذكر الطبري عن ابن زيد أن فرعون صرخ وحشر قومه ونادى فيهم. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=79&tAyahNo=23&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 19 إلى 24 مقطعاً واحداً. يفسّر قوله «فَحَشَرَ فَنَادَىٰ»: فجمع قومه وأتباعه. فنادى فيهم «فَقالَ» لهم: «أنا رَبُّكُمُ الأعْلَى» الذي كلُّ ربّ دوني، وكذَبَ الأحمقُ. وبمثل الذي قلنا في ذلك قال أهل التأويل. وينقل في المقطع أقوالاً عن مجاهد وقتادة وابن زيد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=79&tAyahNo=23&tDisplay=yes&UserProfile=0&LanguageId=1

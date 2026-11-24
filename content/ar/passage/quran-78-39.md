@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-12-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل الآيات [[passage/quran-78-39|78:39]] إلى [[passage/quran-78-40|78:40]]، وخلاصتها: يبيّن الطبري أن ذلك اليوم هو يوم القيامة، يوم يقوم الروح والملائكة صفاً، وأنه الحق الكائن الذي لا شك فيه. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=78&tAyahNo=39&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 39 إلى 40 مقطعاً واحداً. يفسّر قوله «ذَلِكَ ٱلْيَوْمُ ٱلْحَقُّ فَمَن شَآءَ ٱتَّخَذَ إِلَىٰ رَبِّهِ مَآباً»: «ذلكَ اليَوْمُ» يعني: يوم القيامة، وهو يوم يقوم الروح والملائكة صفاً «الْحَقُّ»: يقول: إنه حقّ كائن، لا شكّ فيه. وقوله: «فَمَنْ شاءَ اتَّخَذَ إلى رَبِّهِ مآباً» يقول: فمن شاء من عباده اتخذ بالتصديق بهذا اليوم الحقّ، والاستعداد له، والعمل بما فيه النجاة له من أهواله «مآباً»، يعني: مرجعاً وهو مَفْعَل، من قولهم: آب فلان من سفره، كما قال عُبَيد:وكُلُّ ذِي غَيْبَةٍ يَؤُبُ وغائِبُ المَوْت لا يَؤُبُ وينقل في المقطع أقوالاً عن قتادة والحسن وسفيان.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=78&tAyahNo=39&tDisplay=yes&UserProfile=0&LanguageId=1

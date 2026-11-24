@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-12-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل الآيات [[passage/quran-79-15|79:15]] إلى [[passage/quran-79-18|79:18]]، وخلاصتها: يذكر الطبري أن ربه ناداه بالواد المقدس، أي المطهّر المبارك، ويعرض في «طوى» قولاً إنه اسم الوادي، ويروي عن ابن زيد وقتادة. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=79&tAyahNo=16&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 15 إلى 18 مقطعاً واحداً. يفسّر قوله «إِذْ نَادَاهُ رَبُّهُ بِٱلْوَادِ ٱلْمُقَدَّسِ طُوًى»: كنا نحدّث أنه قدّس مرّتين، واسم الوادي طُوًى. وقال آخرون: بل معنى ذلك: طَأِ الأرض حافياً. ذكر بعض من قال ذلك: عن سفيان، عن ابن جُرَيج، عن مجاهد «إنَّكَ بالْوَاد المُقَدَّسِ طُوًى» قال: طَأِ الأرض بقدمك. وقال آخرون: بل معنى ذلك أن الوادي قُدِّس طُوًى: أي مرّتين، وقد بيَّنا ذلك كله ووجوهه، فيما مضى بما أغني عن إعادته في هذا الموضع. وقرأ ذلك الحسن بكسر الطاء، وقال: بُثَّتْ فيه البركة والتقديس مرّتين. وعن عوف، عن الحسن. واختلفت القرّاء في قراءة ذلك، فقرأته عامة قرّاء المدينة والبصرة «طُوَى» بالضمّ ولم يُجْرُوه وقرأ ذلك بعض أهل الشام والكوفة: «طُوًى» بضمّ الطاء والتنوين. وقوله: وينقل في المقطع أقوالاً عن مجاهد وقتادة والحسن وابن زيد وسفيان.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=79&tAyahNo=16&tDisplay=yes&UserProfile=0&LanguageId=1

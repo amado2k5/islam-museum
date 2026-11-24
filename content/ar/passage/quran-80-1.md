@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-12-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل الآيات [[passage/quran-80-1|80:1]] إلى [[passage/quran-80-4|80:4]]، وخلاصتها: يفسّر الطبري عبس بقبض الوجه تكرهاً، وتولى بأنه أعرض، ويبيّن أن الأعمى هو ابن أم مكتوم، وأن العتاب كان للنبي بسببه، ويعرض قراءة المد في «أن جاءه». {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=80&tAyahNo=1&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 0 إلى 3 مقطعاً واحداً. يفسّر قوله «أَن جَآءَهُ ٱلأَعْمَىٰ»: لأن جاءه الأعمى. وقد ذُكر عن بعض القرّاء أنه كان يطوّل الألف ويمدّها من «أنْ جاءَهُ» فيقول: «آنْ جاءَهُ»، وكأنّ معنى الكلام كان عنده: أَأن جاءه الأعمى عبس وتولى؟ كما قرأ من قرأ: «أنْ كانَ ذَا مال وَبَنِينَ» بمدّ الألف من «أنْ» وقصرها. وذُكر أن الأعمى الذي ذكره الله في هذه الآية، هو ابن أمّ مكتوم، عوتب النبيّ بسببه. وينقل في المقطع أقوالاً عن ابن عباس ومجاهد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=80&tAyahNo=1&tDisplay=yes&UserProfile=0&LanguageId=1

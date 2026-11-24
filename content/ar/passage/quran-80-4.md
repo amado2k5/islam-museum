@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-12-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-لا يتضمن النص المحفوظ لهذه الصفحة تعليقاً مستقلاً على هذه الآية؛ إذ تُذكر في سياق سبب النزول. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=80&tAyahNo=4&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 4 إلى 7 مقطعاً واحداً. يفسّر قوله «عَبَسَ وَتَوَلَّىٰ»: يعني تعالى ذكره بقوله: «عَبَسَ»: قَبَضَ وجهه تكرُّها، «وَتَوَلَّى» يقول: وأعرض «أنْ جاءَهُ الأعْمَى» يقول: لأن جاءه الأعمى. وقد ذُكر عن بعض القرّاء أنه كان يطوّل الألف ويمدّها من «أنْ جاءَهُ» فيقول: «آنْ جاءَهُ»، وكأنّ معنى الكلام كان عنده: أَأن جاءه الأعمى عبس وتولى؟ كما قرأ من قرأ: «أنْ كانَ ذَا مال وَبَنِينَ» بمدّ الألف من «أنْ» وقصرها. وذُكر أن الأعمى الذي ذكره الله في هذه الآية، هو ابن أمّ مكتوم، عوتب النبيّ بسببه. وينقل في المقطع أقوالاً عن ابن عباس ومجاهد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=80&tAyahNo=4&tDisplay=yes&UserProfile=0&LanguageId=1
