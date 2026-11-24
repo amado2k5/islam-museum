@@ -3,6 +3,11 @@ id: passage/quran-31-34
 lang: ar
 source_lang: ar
 translators: []
+provenance:
+  generated_by: "Claude Code (Sonnet 5.5 session)"
+  model: claude-sonnet-5-5
+  run: altafsir-tabari-batch-9-2026-11-24
+  source: source/altafsir-tabari
 ---
 
 ## موجز
@@ -10,3 +15,7 @@ translators: []
 
 ## موضعها
 موضعها: الآية 34 من أصل 34 آية في السورة. النص محفوظ من مصحف تنزيل المجمّد ولا يُعاد كتابته هنا.
+
+## تفسير الطبري
+
+يبيّن الطبري أن علم الساعة عند الله وحده فلا يعلم أحد متى تأتي وأنها تأتي بغتة، وأن الله ينزّل الغيث ويعلم ما في الأرحام، وأن النفس لا تدري ماذا تكسب غداً ولا بأي أرض تموت، وأن الله عليم خبير. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=31&tAyahNo=34&tDisplay=yes&UserProfile=0&LanguageId=1
