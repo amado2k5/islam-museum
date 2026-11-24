@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-5-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يفسّر الطبري الآية بأن الله أخرج الناس من بطون أمهاتهم لا يعلمون شيئاً، فجعل لهم السمع والأبصار والأفئدة ليميزوا بها الخير من الشر لعلهم يشكرون. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=16&tAyahNo=78&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَٱللَّهُ أَخْرَجَكُم مِّن بُطُونِ أُمَّهَاتِكُمْ لاَ تَعْلَمُونَ شَيْئاً وَجَعَلَ لَكُمُ ٱلْسَّمْعَ وَٱلأَبْصَارَ وَٱلأَفْئِدَةَ لَعَلَّكُمْ تَشْكُرُونَ»: والله تعالى أعلمكم ما لم تكونوا تعلمون من بعد ما أخرجكم من بطون أمهاتكم لا تعقلون شيئاً ولا تعلمون، فرزقكم عقولاً تفقهون بها وتميزون بها الخير من الشرّ وبصرَّكم بها ما لم تكونوا تبصرون، وجعل لكم السمع الذي تسمعون به الأصوات، فيفقه بعضكم عن بعض ما تتحاورون به بينكم والأبصار التي تبصرون بها الأشخاص فتتعارفون بها وتميزون بها بعضاً من بعض. «والأفْئِدَةَ» يقول: والقلوب التي تعرفون بها الأشياء فتحفظونها وتفكرون فتفقهون بها. «لَعَلَّكُمْ تَشْكُرُونَ» يقول: فعلنا ذلك بكم، فاشكروا الله على ما أنعم به عليكم من ذلك، دون الآلهة والأنداد، فجعلتم له شركاء في الشكر، ولم يكن له فيما أنعم به عليكم من نعمه شريك.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=16&tAyahNo=78&tDisplay=yes&UserProfile=0&LanguageId=1

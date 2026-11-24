@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-5-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يذكر الطبري أن المشركين إذا سُئلوا عما أنزل ربهم قالوا «أساطير الأولين» أي أحاديثهم وباطلهم، وينقل عن قتادة أن قوماً منهم كانوا يقعدون على طريق من يقصد النبي فيصدّونه بهذا القول. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=16&tAyahNo=24&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَإِذَا قِيلَ لَهُمْ مَّاذَآ أَنْزَلَ رَبُّكُمْ قَالُواْ أَسَاطِيرُ ٱلأَوَّلِينَ»: وإذا قيل لهؤلاء الذين لا يؤمنون بالآخرة من المشركين: «ماذَا أَنْزَلَ رَبُّكُمْ» أيّ شيء أنزل ربكم؟ قالوا: الذي أنزل ما سطَّره الأوّلون من قبلنا من الأباطيل. وكان ذلك كما: وعن قتادة، قوله: «ماذَا أنْزَلَ رَبُّكُمْ قالُوا أساطِيرُ الأوَّلِينَ» يقول: أحاديث الأوّلين وباطلهم، قال ذلك قوم من مشركي العرب كانوا يقعدون بطريق من أتى نبيّ الله، فإذا مرّ بهم أحد من المؤمنين يريد نبيّ الله، قالوا لهم: أساطير الأوّلين، يريد: أحاديث الأوّلين وباطلهم. وقال: ثني معاوية، عن عليّ، عن ابن عباس، قوله: «أساطِيرُ الأوَّلِينَ» يقول: أحاديث الأوّلين. وينقل في المقطع أقوالاً عن ابن عباس وقتادة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=16&tAyahNo=24&tDisplay=yes&UserProfile=0&LanguageId=1

@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-4-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يفسّر الطبري أن الله خلق الأنعام للناس وسخّرها، ويجعل لهم من أصوافها وأوبارها وأشعارها ملابس تدفئهم، ومنافع من ألبانها وظهورها يركبونها، ومنها يأكلون لحم الإبل والبقر والغنم وما يؤكل لحمه. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=16&tAyahNo=5&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَٱلأَنْعَامَ خَلَقَهَا لَكُمْ فِيهَا دِفْءٌ وَمَنَافِعُ وَمِنْهَا تَأْكُلُونَ»: ومن حججه عليكم أيها الناس ما خلق لكم من الأنعام، فسخَّرها لكم، وجعل لكم من أصوافها وأوبارها وأشعارها ملابس تدفئون بها ومنافع من ألبانها وظهورها تركبونها. «وَمِنْها تَأْكُلُونَ» يقول: ومن الأنعام ما تأكلون لحمه كالإبل والبقر والغنم وسائر ما يؤكل لحمه. وحذفت «ما» من الكلام لدلالة من عليها. وينقل في المقطع أقوالاً عن ابن عباس ومجاهد وقتادة وعكرمة وابن زيد وابن جريج وغيرهم.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=16&tAyahNo=5&tDisplay=yes&UserProfile=0&LanguageId=1

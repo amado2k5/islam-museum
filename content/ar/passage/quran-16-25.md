@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-5-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن قولهم هذا يجعلهم يحملون ذنوبهم كاملة يوم القيامة ومعها من ذنوب من أضلّوهم بغير علم، وأن «ساء ما يزرون» ذمّ لما يتحملونه من الإثم، ويورد في ذلك روايات عن السلف. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=16&tAyahNo=25&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «لِيَحْمِلُواْ أَوْزَارَهُمْ كَامِلَةً يَوْمَ ٱلْقِيَامَةِ وَمِنْ أَوْزَارِ ٱلَّذِينَ يُضِلُّونَهُمْ بِغَيْرِ عِلْمٍ أَلاَ سَآءَ مَا يَزِرُونَ»: يقول هؤلاء المشركون لمن سألهم ماذا أنزل ربكم: الذي أنزل ربنا فيما يزعم محمد عليه أساطير الأوّلين، لتكون لهم ذنوبهم التي هم عليها مقيمون من تكذيبهم الله، وكفرهم بما أنزل على رسوله، ومن ذنوب الذين يصدّونهم عن الإيمان بالله يضلون يفتنون منهم بغير علم. وقوله: «ألا ساءَ ما يَزِرُونَ» يقول: ألا ساء الإثم الذي يأثمون والثقل الذي يتحملون. وينقل في المقطع أقوالاً عن ابن عباس ومجاهد وقتادة وابن جريج وزيد بن أسلم والربيع.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=16&tAyahNo=25&tDisplay=yes&UserProfile=0&LanguageId=1

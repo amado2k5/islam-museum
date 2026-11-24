@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-5-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن الله يبعث يوم القيامة من كل أمة شهيداً عليها هو رسولها الذي أُرسل إليها بما أجابت به دعوة الله، ثم لا يؤذن للكافرين في الاعتذار ولا يُطلب منهم أن يُرضوا ربهم. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=16&tAyahNo=84&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَيَوْمَ نَبْعَثُ مِن كُلِّ أُمَّةٍ شَهِيداً ثُمَّ لاَ يُؤْذَنُ لِلَّذِينَ كَفَرُواْ وَلاَ هُمْ يُسْتَعْتَبُونَ»: يعرفون نعمة الله ثم يُنكرونها اليوم ويستنكرون «يَوْمَ نَبْعَثُ مِنْ كُلّ أُمَّةٍ شَهِيداً» وهو الشاهد عليها بما أجابت داعي الله، وهو رسولهم الذي أرسل إليهم. «ثُمَّ لا يُؤْذَنُ للَّذِينَ كَفَرُوا» يقول: ثم لا يؤذن للذين كفروا في الاعتذار، فيعتذروا مما كانوا بالله وبرسوله يكفرون. «وَلا هُمْ يُسْتَعْتَبُونَ» فيتركوا الرجوع إلى الدنيا فينيبوا ويتوبوا وذلك كما قال تعالى:«هَذَا يَوْمُ لا يَنْطِقُونَ وَلا يُؤْذَنُ لَهُمْ فَيَعْتَذِرُونَ» وينقل في المقطع أقوالاً عن قتادة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=16&tAyahNo=84&tDisplay=yes&UserProfile=0&LanguageId=1

@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-5-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يفسّر الطبري الآية بأن المشركين لا ينتظرون إلا أن تأتيهم الملائكة لقبض أرواحهم أو يأتي أمر ربك بحشرهم للموقف، وأن من سبقهم فعلوا مثل ذلك، وما ظلمهم الله بل ظلموا أنفسهم. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=16&tAyahNo=33&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «هَلْ يَنْظُرُونَ إِلاَّ أَن تَأْتِيَهُمُ ٱلْمَلائِكَةُ أَوْ يَأْتِيَ أَمْرُ رَبِّكَ كَذَلِكَ فَعَلَ ٱلَّذِينَ مِن قَبْلِهِمْ وَمَا ظَلَمَهُمُ ٱللَّهُ وَلٰكِن كَانُواْ أَنْفُسَهُمْ يَظْلِمُونَ»: هل ينتظر هؤلاء المشركون إلا أن تأتيهم الملائكة لقبض أرواحهم، أو يأتي أمر ربك بحشرهم لموقف القيامة. «كَذلكَ فَعَلَ الَّذِينَ مِنْ قَبْلِهِمْ» يقول جلّ ثناؤه: كما يفعل هؤلاء من انتظارهم ملائكة الله لقبض أرواحهم أو إتيان أمر الله فعل أسلافهم من الكفرة بالله لأن ذلك في كلّ مشرك بالله. «وَما ظَلَمَهُمُ اللَّهُ» يقول جلّ ثناؤه: وما ظلمهم الله بإحلال سُخْطه، «ولكِنْ كانُوا أنْفُسَهُمْ يَظْلِمُونَ» بمعصيتهم ربهم وكفرهم به، حتى استحقوا عقابه، فعجَّل لهم. وينقل في المقطع أقوالاً عن مجاهد وقتادة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=16&tAyahNo=33&tDisplay=yes&UserProfile=0&LanguageId=1

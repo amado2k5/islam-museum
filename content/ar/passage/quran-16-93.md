@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-5-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن الله لو شاء لجعل الناس جماعة واحدة على ملة واحدة، ولكنه خالف بينهم فجعلهم أهل ملل شتى، فوفّق قوماً للإيمان وخذل آخرين، وسيسألون عن أعمالهم. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=16&tAyahNo=93&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَلَوْ شَآءَ ٱللَّهُ لَجَعَلَكُمْ أُمَّةً وَاحِدَةً وَلٰكِن يُضِلُّ مَن يَشَآءُ وَيَهْدِي مَن يَشَآءُ وَلَتُسْأَلُنَّ عَمَّا كُنْتُمْ تَعْمَلُونَ»: ولو شاء ربكم أيها الناس للطف بكم بتوفية من عنده، فصرتم جميعاً جماعة واحدة وأهل ملة واحدة لا تختلفون ولا تفترقون ولكنه تعالى ذكره خالف بينكم فجعلكم أهل ملل شتى، بأن وفَّق هؤلاء للإِيمان به والعمل بطاعته فكانوا مؤمنين، وخذل هؤلاء فحَرَمَهم توفيقه فكانوا كافرين، وليسألنكم الله جميعاً يوم القيامة عما كنتم تعملون في الدنيا فيما أمركم ونهاكم، ثم ليَجازينكم جزاء المطيع منكم بطاعته والعاصي له بمعصيته.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=16&tAyahNo=93&tDisplay=yes&UserProfile=0&LanguageId=1

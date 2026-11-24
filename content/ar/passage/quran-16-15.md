@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-5-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن الرواسي هي الجبال الثوابت التي ألقاها الله في الأرض لئلا تضطرب بأهلها، وإن الأرض كانت مائدة قبل أن تُرسى بها، ويورد في ذلك رواية عن قيس بن عباد، ثم يذكر الأنهار والسبل التي يهتدي بها الناس. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=16&tAyahNo=15&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَأَلْقَىٰ فِي ٱلأَرْضِ رَوَاسِيَ أَن تَمِيدَ بِكُمْ وَأَنْهَاراً وَسُبُلاً لَّعَلَّكُمْ تَهْتَدُونَ»: ومن نِعمه عليكم أيها الناس أيضاً، أن ألقى في الأرض رواسي، وهي جمع راسية، وهي الثوابت في الأرض من الجبال. وقوله: «أنْ تَمِيدَ بِكُمْ» يعني: أن لا تميد بكم، وذلك كقوله:«يُبَيِّنُ اللَّهُ لَكُمْ أنْ تَضِلُّوا»، والمعنى: أن لا تضلوا. وذلك أنه جلّ ثناؤه أرسى الأرض بالجبال لئلا يميد خلقه الذي على ظهرها، بل وقد كانت مائدة قبل أن تُرْسى بها. كما: وعن قتادة، عن الحسن، عن قيس بن عباد: أن الله تبارك وتعالى لما خلق الأرض جعلت تمور، قالت الملائكة: ما هذه بمقرّة على ظهرها أحداً فأصبحت صبحاً وفيها رواسيها. وينقل في المقطع أقوالاً عن مجاهد وقتادة والحسن وابن جريج وعطاء.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=16&tAyahNo=15&tDisplay=yes&UserProfile=0&LanguageId=1

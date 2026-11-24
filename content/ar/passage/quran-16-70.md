@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-5-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يذكر الطبري أن الله خلق الناس ولم يكونوا شيئاً، ثم يتوفاهم، ومنهم من يُردّ إلى أرذل العمر فيذهب علمه بعد علم، وأن الله عليم بما يصنع قدير على ما يشاء. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=16&tAyahNo=70&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَٱللَّهُ خَلَقَكُمْ ثُمَّ يَتَوَفَّاكُمْ وَمِنكُم مَّن يُرَدُّ إِلَىٰ أَرْذَلِ ٱلْعُمُرِ لِكَيْ لاَ يَعْلَمَ بَعْدَ عِلْمٍ شَيْئاً إِنَّ ٱللَّهَ عَلِيمٌ قَدِيرٌ»: والله خلقكم أيها الناس وأوجدكم ولم تكونوا شيئاً، لا الآلهةُ التي تعبدون من دونه، فاعبدوا الذي خلقكم دون غيره. «ثُمَّ يَتَوَفَّاكُمْ» يقول: ثم يقبضكم. «وَمِنْكُمْ مَنْ يُرَدُّ إلى أرْذَلِ العُمُرِ» يقول: ومنكم من يَهْرَم فيصير إلى أرذل العمر، وهو أردؤه، يقال منه: رذل الرجل وفسل، يرذل رذالة ورذولة ورذلته أنا. وقيل: إنه يصير كذلك في خمس وسبعين سنة. عن سعد بن طريف، عن الأصبغ بن نَباتة، عن عليّ، في قوله: «وَمِنْكُمْ مَنْ يُرَدُّ إلى أرْذَلِ العُمُرِ» قال: خمسٌ وسبعون سنة. وقوله: «لِكَيْ لا يَعْلَمَ بَعْدَ عِلْمٍ شَيْئاً» يقول: إنما نردّه إلى أرذل العمر ليعود جاهلاً كما كان في حال طفولته وصباه.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=16&tAyahNo=70&tDisplay=yes&UserProfile=0&LanguageId=1

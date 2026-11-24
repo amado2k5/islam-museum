@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-5-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن الله جعل للناس من بيوتهم سكناً، ومن جلود الأنعام بيوتاً يستخفونها يوم الارتحال ويوم الإقامة، ومن أصوافها وأوبارها وأشعارها أثاثاً ومتاعاً إلى حين. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=16&tAyahNo=80&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَٱللَّهُ جَعَلَ لَكُمْ مِّن بُيُوتِكُمْ سَكَناً وَجَعَلَ لَكُمْ مِّن جُلُودِ ٱلأَنْعَامِ بُيُوتاً تَسْتَخِفُّونَهَا يَوْمَ ظَعْنِكُمْ وَيَوْمَ إِقَامَتِكُمْ وَمِنْ أَصْوَافِهَا وَأَوْبَارِهَا وَأَشْعَارِهَآ أَثَاثاً وَمَتَاعاً إِلَىٰ حِينٍ»: «وَاللَّهُ جَعَلَ لَكُمْ» أيها الناس، «مِنْ بُيُوتِكُمْ» التي هي من الحجر والمدر، «سَكَناً» تسكنون أيام مقامكم في دوركم وبلادكم. «وَجَعَلَ لَكُمْ مِنَ جُلُودِ الأَنْعامِ بُيُوتاً» وهي البيوت من الأنطاع والفساطيط من الشعر والصوف والوبر. «تَسْتَخِفُّوَنها» يقول: تستخفون حملها ونقلها، «يَوْمَ ظَعْنِكُمْ» من بلادكم وأمصاركم لأسفاركم، «وَيَوْمَ إقامَتِكُمْ» في بلادكم وأمصاركم. «وَمِنْ أصْوَافِها وأوْبارِها وأشْعارِها أثاثاً». وينقل في المقطع أقوالاً عن ابن عباس ومجاهد وقتادة وابن جريج.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=16&tAyahNo=80&tDisplay=yes&UserProfile=0&LanguageId=1

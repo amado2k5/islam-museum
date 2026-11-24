@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-4-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن الله كفى نبيه المستهزئين، فيأمره أن يصدع بأمر الله ولا يخاف إلا الله، لأن الله كافيه من ناصبه وآذاه. ويذكر أن رؤساء المستهزئين قوم من قريش معروفون، وينقل عن عروة بن الزبير عدّتهم خمسة. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=15&tAyahNo=95&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 95 إلى 96 مقطعاً واحداً. يفسّر قوله «إِنَّا كَفَيْنَاكَ ٱلْمُسْتَهْزِئِينَ»: إنا كفيناك المستهزئين يا محمد، الذين يستهزئون بك ويسخرون منك، فاصدع بأمر الله، ولا تَخَفْ شيئاً سوى الله، فإن الله كافيك من ناصبك وآذاك كما كفاك المستهزئين. وكان رؤساء المستهزئين قوماً من قريش معروفين. ذكر أسمائهم: قال: ثني محمد،، قال: كان عظماء المستهزئين كما حدثني يزيد بن رومان عن عُروة بن الزُّبير خمسة نَفَر من قومِه، وكانوا ذوي أسنان وشرف في قومهم من بني أسد بن عبد العُزّي بن قُصَيّ: الأسود بن المطلب أبو زَمْعة، وكان رسول الله فيما بلغني قد دعا عليه لما كان يبلغه من أذاه واستهزائه، فقال: " اللهمّ أعم بصره، وأثْكِلْهُ وَلَدَهُ ". ومن بني زهرة: الأسود بن عبد يغوث بن وهب بن عبد مناف بن زُهرة. وينقل في المقطع أقوالاً عن ابن عباس وابن إسحاق.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=15&tAyahNo=95&tDisplay=yes&UserProfile=0&LanguageId=1

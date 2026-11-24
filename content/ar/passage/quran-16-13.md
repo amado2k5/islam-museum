@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-5-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن «ما ذرأ» بمعنى ما خلق لكم في الأرض مختلفاً ألوانه من الدواب والأشجار والثمار، وينقل عن قتادة أنها نعم متظاهرة تستوجب الشكر لله، ويذكر وجه النصب في «مختلفاً». {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=16&tAyahNo=13&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَمَا ذَرَأَ لَكُمْ فِي ٱلأَرْضِ مُخْتَلِفاً أَلْوَانُهُ إِنَّ فِي ذَلِكَ لآيَةً لِّقَوْمٍ يَذَّكَّرُونَ»: يعني جلّ ثناؤه بقوله: «ومَا ذَرأَ لَكُمْ» وسخر لكم ما ذرأ: أي ما خلق لكم في الأرض مختلفاً ألوانه من الدواب والثمار. كما: وعن قتادة، قوله: «ومَا ذَرأَ لَكُمْ فِي الأرْضِ» يقول: وما خلق لكم مختلفاً ألوانه من الدوابّ ومن الشجر والثمار، نِعَم من الله متظاهرة فاشكروها لله. من الدوابّ والأشجار والثمار. ونصب قوله: «مختلفاً» لأن قوله: «وَما» في موضع نصب بالمعنى الذي وصفت. وإذا كان ذلك كذلك، وجب أن يكون «مختلفاً ألوانه» حالاً من «ما»، والخبر دونه تامّ، ولو لم تكن «ما» في موضع نصب، وكان الكلام مبتدأ من قوله: «وَما ذَرأَ لَكُمْ» لم يكن في مختلف إلا الرفع، لأنه كان يصير مرافع «ما» حينئذ. وينقل في المقطع أقوالاً عن قتادة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=16&tAyahNo=13&tDisplay=yes&UserProfile=0&LanguageId=1

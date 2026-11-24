@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-5-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن المبشَّر بالأنثى يتوارى عن القوم من سوء ما بُشّر به، متردداً بين إمساكها على هوان أو دفنها في التراب، ويبيّن أن «الهون» بمعنى الهوان في لغة قريش، ويذمّ حكمهم بقوله «ألا ساء ما يحكمون». {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=16&tAyahNo=59&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «يَتَوَارَىٰ مِنَ ٱلْقَوْمِ مِن سُوۤءِ مَا بُشِّرَ بِهِ أَيُمْسِكُهُ عَلَىٰ هُونٍ أَمْ يَدُسُّهُ فِي ٱلتُّرَابِ أَلاَ سَآءَ مَا يَحْكُمُونَ»: يتوارى هذا المبشِّر بولادة الأنثى من الولد له من القوم، فيغيب عن أبصارهم «مِنْ سُوءِ ما بُشِّرَ بِهِ» يعني: من مساءته إياه مميلاً بين أن يمسكه على هُون: أي على هوان، وكذلك ذلك لغة قريش فيما ذكر لي، يقولون للهوان: الهُون ومنه قول الحطيئة:فلَّما خَشِيتُ الهُونَ والعَيْرُ مُمْسِكٌ على رَغْمِهِ ما أثبتَ الحبلَ حافِرُهْ وبعض بني تميم جعل الهُونَ مصدراً للشيء الهين. وينقل في المقطع أقوالاً عن ابن جريج.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=16&tAyahNo=59&tDisplay=yes&UserProfile=0&LanguageId=1

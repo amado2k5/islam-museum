@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-5-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يذكر الطبري أن من عمل بطاعة الله ووفى بعهده من ذكر أو أنثى وهو مؤمن، فسيحييه الله حياة طيبة ويجزيه أجره بأحسن عمله، ويورد في معنى الحياة الطيبة أقوال أهل التأويل. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=16&tAyahNo=97&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «مَنْ عَمِلَ صَالِحاً مِّن ذَكَرٍ أَوْ أُنْثَىٰ وَهُوَ مُؤْمِنٌ فَلَنُحْيِيَنَّهُ حَيَاةً طَيِّبَةً وَلَنَجْزِيَنَّهُمْ أَجْرَهُم بِأَحْسَنِ مَا كَانُواْ يَعْمَلُونَ»: من عمل بطاعة الله، وأوفى بعهود الله إذا عاهد من ذكر أو أنثى من بني آدم «وهُوَ مُؤْمِنٌ» يقول: وهو مصدّق بثواب الله الذي وعد أهل طاعته على الطاعة، وبوعيد أهل معصيته على المعصية «فَلَنُحْيِيَنَّهُ حَياةً طَيِّبَةً». واختلف أهل التأويل في الذي عَنَى الله بالحياة الطيبة التي وعد هؤلاء القوم أن يُحْييهموها، فقال بعضهم: عني أنه يحييهم في الدنيا ما عاشوا فيها بالرزق الحلال. وينقل في المقطع أقوالاً عن ابن عباس والضحاك والحسن وسفيان.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=16&tAyahNo=97&tDisplay=yes&UserProfile=0&LanguageId=1

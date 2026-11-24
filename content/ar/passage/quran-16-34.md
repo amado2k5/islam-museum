@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-5-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن الأمم السابقة التي فعلت فعل مشركي قريش أصابتها عقوبات ذنوبها، وحلّ بها من العذاب ما كانت تستهزئ به حين أنذرها الرسل. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=16&tAyahNo=34&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «فَأَصَابَهُمْ سَيِّئَاتُ مَا عَمِلُواْ وَحَاقَ بِهِم مَّا كَانُواْ بِهِ يَسْتَهْزِئُونَ»: فأصاب هؤلاء الذين فعلوا من الأمم الماضية فعل هؤلاء المشركين من قريش سيئات ما عملوا يعني عقوبات ذنوبهم ونقم معاصيه التي اكتسبوها. «وَحاقَ بِهِمْ ما كانُوا بِهِ يَسْتَهْزِئُونَ» يقول: وحلّ بهم من عذاب الله ما كانوا يستهزئون منه ويسخرون عند إنذارهم ذلك رُسل الله، ونزل ذلك بهم دون غيرهم من أهل الإيمان بالله.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=16&tAyahNo=34&tDisplay=yes&UserProfile=0&LanguageId=1

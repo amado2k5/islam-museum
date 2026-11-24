@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-5-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يذكر الطبري أن المشركين إذا رأوا يوم القيامة ما كانوا يعبدون من دون الله قالوا ربنا هؤلاء شركاؤنا، فيردّ شركاؤهم عليهم القول بأنهم لكاذبون. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=16&tAyahNo=86&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَإِذَا رَأى ٱلَّذِينَ أَشْرَكُواْ شُرَكَآءَهُمْ قَالُواْ رَبَّنَا هَٰؤُلآءِ شُرَكَآؤُنَا ٱلَّذِينَ كُنَّا نَدْعُوْا مِن دُونِكَ فَألْقَوْا إِلَيْهِمُ ٱلْقَوْلَ إِنَّكُمْ لَكَاذِبُونَ»: وإذا رأى المشركون بالله يوم القيامة ما كانوا يعبدون من دون الله من الآلهة والأوثان وغير ذلك، قالوا: ربنا هؤلاء شركاؤنا في الكفر بك، والشركاء الذين كنا ندعوهم آلهة من دونك. قال الله تعالى ذكره: «فألْقَوْا» يعني: شركاءهم الذين كانوا يعبدونهم من دون الله «القَوْلَ» يقول: قالوا لهم: إنكم لكاذبون أيها المشركون، ما كنا ندعوكم إلى عبادتنا. وينقل في المقطع أقوالاً عن مجاهد وابن جريج.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=16&tAyahNo=86&tDisplay=yes&UserProfile=0&LanguageId=1

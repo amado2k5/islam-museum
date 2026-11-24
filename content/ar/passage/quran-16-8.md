@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-4-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن الله خلق الخيل والبغال والحمير لتركبوها وزينة تتزينون بها مع منافعها، ويعرض إعراب «زينة» بفعل مضمر، ويفسّر «ويخلق ما لا تعلمون» بأنه يخلق من الخلق ما لا يعلمه الناس. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=16&tAyahNo=8&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَٱلْخَيْلَ وَٱلْبِغَالَ وَٱلْحَمِيرَ لِتَرْكَبُوهَا وَزِينَةً وَيَخْلُقُ مَا لاَ تَعْلَمُونَ»: وخلق الخيل والبغال والحمير لكم أيضاً «لتَرْكَبُوهَا وزِينَةً» يقول: وجعلها لكم زينةً تتزينون بها مع المنافع التي فيها لكم، للركوب وغير ذلك. ونصب الخيل والبغال عطفاً على الهاء والألف في قوله: «خَلَقَها». ونصب الزينة بفعل مضمر على ما بيَّنت، ولو لم يكن معها واو وكان الكلام: «لتركبوها زينةً كانت منصوبة بالفعل الذي قبلها الذي هي به متصلة، ولكن دخول الواو آذنت بأن معها ضمير فعل وبانقطاعها عن الفعل الذي قبلها. وينقل في المقطع أقوالاً عن ابن عباس وقتادة وسعيد بن جبير.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=16&tAyahNo=8&tDisplay=yes&UserProfile=0&LanguageId=1

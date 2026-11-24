@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-4-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن الله خلق السماوات والأرض بالحق، أي بالعدل منفرداً بخلقها لا شريك له ولا معين، وأنه تعالى عما يشركون به من اتخاذ إله دونه، لأنه لا يكون إلهاً إلا من يخلق وينشئ بقدرته مثل السماوات والأرض. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=16&tAyahNo=3&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «خَلَقَ ٱلسَّمَٰوَٰتِ وَٱلأَرْضَ بِٱلْحَقِّ تَعَالَىٰ عَمَّا يُشْرِكُونَ»: يقول تعالى ذكره معرّفاً خلقه حجته عليهم في توحيده، وأنه لا تصلح الألوهة إلا له: خلق ربكم أيها الناس السموات والأرض بالعدل وهو الحقّ منفرداً بخلقها لم يشركه في إنشائها وإحداثها شريك ولم يعنه عليه معين، فأنَّى يكون له شريك. «تَعالى عَمَّا يُشْرِكُونَ» يقول جلّ ثناؤه: علا ربكم أيها القوم عن شرككم ودعواكم إلهاً دونه، فارتفع عن أن يكون له مثل أو شريك أو ظهير، لأنه لا يكون إلهاً إلا من يخلق وينشىء بقدرته مثل السموات والأرض ويبتدع الأجسام فيحدثها من غير شيء، وليس ذلك في قُدرة أحد سوى الله الواحد القهَّار الذي لا تنبغي العبادة إلا له ولا تصلح الألوهة لشيء سواه.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=16&tAyahNo=3&tDisplay=yes&UserProfile=0&LanguageId=1

@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-5-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يذكر الطبري أن الله ينبّه خلقه على حجته في التوحيد بأنه أنزل من السماء مطراً فأحيا به الأرض بعد موتها، وفي ذلك آية لقوم يسمعون فيعتبرون. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=16&tAyahNo=65&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَٱللَّهُ أَنْزَلَ مِنَ ٱلْسَّمَآءِ مَآءً فَأَحْيَا بِهِ ٱلأَرْضَ بَعْدَ مَوْتِهَآ إِنَّ فِي ذٰلِكَ لآيَةً لِقَوْمٍ يَسْمَعُونَ»: يقول تعالى ذكره منبه خَلقِه على حججه عليهم في توحيده، وأنه لا تنبغي الألوهة إلا له، ولا تصلح العبادة لشيء سواه: أيها الناس معبودكم الذي له العبادة دون كلّ شيء، «أنْزَلَ مِنَ السَّماء ماءً» يعني: مطراً، يقول: فأنبت بما أنزل من ذلك الماء من السماء الأرض الميتة التي لا زرع بها ولا عُشْبَ ولا نبت «بَعْدَ مَوْتِها» بعد ما هي ميتة لا شيء فيها «إن في ذلكَ لآيةً» يقول تعالى ذكره: إن في إحيائنا الأرض بعد موتها بما أنزلنا من السماء من ماء لدليلاً واضحاً وحجة قاطعة عذر من فكر فيه «لَقَوْمٍ يَسْمَعُونَ» يقول: لقوم يسمعون هذا القول فيتدبرونه ويعقلونه ويطيعون الله بما دلهم عليه.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=16&tAyahNo=65&tDisplay=yes&UserProfile=0&LanguageId=1

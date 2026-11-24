@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-5-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يذكر الطبري أن الله نهى عباده أن يتخذوا إلهين، فهو إله واحد وحده، ويأمرهم بأن يخافوه ويتقوا عقابه إن أشركوا به وعبدوا غيره. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=16&tAyahNo=51&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَقَالَ ٱللَّهُ لاَ تَتَّخِذُواْ إِلٰهَيْنِ ٱثْنَيْنِ إِنَّمَا هُوَ إِلٰهٌ وَاحِدٌ فَإيَّايَ فَٱرْهَبُونِ»: وقال الله لعباده: لا تتخذوا لي شريكاً أيها الناس، ولا تعبدوا معبودَين، فإنكم إذا عبدتم معي غيري جعلتم لي شريكاً، ولا شريك لي، إنما هو إله واحد ومعبود واحد، وأنا ذلك. «فإيَّايَ فارْهَبُونِ» يقول: فإياي فاتقوا وخافوا عقابي بمعصيتكم إياي إن عصيتموني وعبدتم غيري، أو أشركتم في عبادتكم لي شريكاً.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=16&tAyahNo=51&tDisplay=yes&UserProfile=0&LanguageId=1

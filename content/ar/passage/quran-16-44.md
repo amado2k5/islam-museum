@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-5-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبحث الطبري تعلّق الباء في «بالبينات والزبر» ويبيّن أن الرسل أُرسلوا بالحجج الواضحة والكتب، وأن الله أنزل على نبيه الذكر ليبيّن للناس ما نُزّل إليهم ولعلهم يتفكرون. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=16&tAyahNo=44&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «بِٱلْبَيِّنَاتِ وَٱلزُّبُرِ وَأَنْزَلْنَا إِلَيْكَ ٱلذِّكْرَ لِتُبَيِّنَ لِلنَّاسِ مَا نُزِّلَ إِلَيْهِمْ وَلَعَلَّهُمْ يَتَفَكَّرُونَ»: أرسلنا بالبينات والزُّبُر رجالاً نوحي إليهم. فإن قال قائل: وكيف قيل بالبينات والزُّبُر؟ وما الجالب لهذه الباء في قوله «بالبَيِّناتِ» فإن قلت: جالبها قوله «أرْسَلْنَا» وَهي من صلته، فهل يجوز أن تكون صلة «ما» قبل «إلاَّ» بَعدها؟ وإن قلت: جالبها غير ذلك، فما هو؟ وأين الفعل الذي جلبها؟ قيل: قد اختلف أهل العربية في ذلك، فقال بعضهم: الباء التي في قوله: «بالبَيِّناتِ» من صلة «أرسلنا»، وقال: «إلاّ» في هذا الموضع، ومع الجحد والاستفهام في كلّ موضع بمعنى «غير». وينقل في المقطع أقوالاً عن ابن عباس ومجاهد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=16&tAyahNo=44&tDisplay=yes&UserProfile=0&LanguageId=1

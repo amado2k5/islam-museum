@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-5-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أنه يقال لهؤلاء: ادخلوا أبواب جهنم أي طبقاتها ماكثين فيها، وأن مثوى المتكبرين على الله أسوأ منزل. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=16&tAyahNo=29&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «فَٱدْخُلُوۤاْ أَبْوَابَ جَهَنَّمَ خَالِدِينَ فِيهَا فَلَبِئْسَ مَثْوَى ٱلْمُتَكَبِّرِينَ»: يقول تعالى ذكره، يقول لهؤلاء الظلمة أنفسهم حين يقولون لربهم: ما كنا نعمل من سوء: ادخلوا أبواب جهنم، يعني: طبقات جهنم، «خالدِينَ فيها» يعني: ماكثين فيها، «فَلَبِئْسَ مَثْوَى المُتَكَبِّرِين» يقول: فلبئس منزل من تكبر على الله ولم يقرّ بربوبيته ويصدّق بوحدانيته جهنم.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=16&tAyahNo=29&tDisplay=yes&UserProfile=0&LanguageId=1

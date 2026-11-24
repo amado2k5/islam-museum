@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-5-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يشرح الطبري الشق الثاني من الموضع المشترك: أن المشركين يعرفون نعمة الله ثم ينكرونها وأكثرهم الكافرون، أي يجحدون ما يعرفونه من إنعامه عليهم. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=16&tAyahNo=83&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 83 إلى 84 مقطعاً واحداً. يفسّر قوله «فَإِن تَوَلَّوْاْ فَإِنَّمَا عَلَيْكَ ٱلْبَلاَغُ ٱلْمُبِينُ»: فإن أدبر هؤلاء المشركون يا محمد عما أرسلتك به إليهم من الحقّ، فلم يستجيبوا لك وأعرضوا عنه، فما عليك من لوم ولا عذل لأنك قد أدّيت ما عليك في ذلك، إنه ليس عليك إلاَّ بلاغهم ما أرسلت به. ويعني بقوله «المُبِينُ» الذي يبين لمن سمعه حتى يفهمه. وأما قوله: «يَعْرِفُونَ نِعْمَةَ اللّهِ ثُمَّ يُنْكِرُونَها» فإن أهل التأويل اختلفوا في المعنّي بالنعمة التي أخبر الله تعالى ذكره عن هؤلاء المشركين أنهم ينكرونها مع معرفتهم بها، فقال بعضهم: هو النبيّ عرفوا نبوّته ثم جحدوها وكذبوه. وينقل في المقطع أقوالاً عن مجاهد وابن جريج وسفيان.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=16&tAyahNo=83&tDisplay=yes&UserProfile=0&LanguageId=1

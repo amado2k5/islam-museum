@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-5-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يذكر الطبري أن هؤلاء الموعودين هم الذين صبروا في الله على ما نابهم في الدنيا، وعلى ربهم يتوكلون، أي يثقون به ويستندون إليه في نوائب الأمور. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=16&tAyahNo=42&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «ٱلَّذِينَ صَبَرُواْ وَعَلَىٰ رَبِّهِمْ يَتَوَكَّلُونَ»: هؤلاء الذين وصفنا صفتهم، وآتيناهم الثواب الذي ذكرناه، الذين صبروا في الله على ما نابهم في الدنيا. «وَعَلى رَبِّهِمْ يَتَوَكَّلُونَ» يقول: وبالله يثقون في أمورهم، وإليه يستندون في نوائب الأمور التي تنوبهم.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=16&tAyahNo=42&tDisplay=yes&UserProfile=0&LanguageId=1

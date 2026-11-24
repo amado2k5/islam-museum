@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-5-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يعدّ الطبري من جهل المشركين وقبح افترائهم أنهم نسبوا لله البنات، وهو سبحانه منزّه عن ذلك، وجعلوا لأنفسهم ما يشتهون من الذكور، فإذا بُشّر أحدهم بأنثى اسودّ وجهه وهو كظيم، أي ممتلئ غمّاً. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=16&tAyahNo=57&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 57 إلى 58 مقطعاً واحداً. يفسّر قوله «وَيَجْعَلُونَ لِلَّهِ ٱلْبَنَاتِ سُبْحَانَهُ وَلَهُمْ مَّا يَشْتَهُونَ»: ومن جهل هؤلاء المشركين وخُبث فعلهم وقبح فِرْيتهم على ربهم، أنهم يجعلون لمن خلقهم ودبَّرهم وأنعم عليهم، فاستوجب بنعمه عليهم الشكر، واستحقّ عليهم الحمد «البَنَاتِ»، ولا ينبغي أن يكون لله ولد ذكر ولا أنثى سبحانه، نزّه جلّ جلاله بذلك نفسه عما أضافوا إليه ونسبوه من البنات، فلم يرضوا بجهلهم إذ أضافوا إليه ما لا ينبغي إضافته إليه. ولا ينبغي أن يكون له من الولد أن يضيفوا إليه ما يشتهونه لأنفسهم ويحبونه لها، ولكنهم أضافوا إليه ما يكرهونه لأنفسهم ولا يرضونه لها من البنات ما يقتلونها إذا كانت لهم. وينقل في المقطع أقوالاً عن ابن عباس وقتادة والضحاك وابن جريج.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=16&tAyahNo=57&tDisplay=yes&UserProfile=0&LanguageId=1

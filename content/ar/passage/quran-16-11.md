@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-4-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يفسّر الطبري أن الله ينبت للناس بماء السماء الزرع والزيتون والنخيل والأعناب ومن كل الثمرات أرزاقاً وأقواتاً وإداماً وفاكهة، نعمة وتفضلاً وحجة على من كفر به، وفي ذلك لآية، أي دلالة واضحة، لقوم يتفكرون. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=16&tAyahNo=11&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «يُنبِتُ لَكُمْ بِهِ ٱلزَّرْعَ وَٱلزَّيْتُونَ وَٱلنَّخِيلَ وَٱلأَعْنَابَ وَمِن كُلِّ ٱلثَّمَرَاتِ إِنَّ فِي ذَلِكَ لآيَةً لِّقَوْمٍ يَتَفَكَّرُونَ»: يُنبت لكم ربكم بالماء الذي أنزل لكم من السماء زرعَكم وزيتونَكم ونخيلكم وأعنابكم «ومِنْ كُلِّ الثّمراتِ» يعني من كلّ الفواكه غير ذلك أرزاقاً لكم وأقواتاً وإداماً وفاكهة، نعمة منه عليكم بذلك وتفضّلاً، وحُجة على من كفر به منكم. «إنَّ فِي ذلكَ لآيَةً» يقول جلّ ثناؤه: إن في إخراج الله بما ينزل من السماء من ماء ما وصف لكم «لآيةً» يقول: لدلالة واضحة وعلامة بينة، «لقومٍ يَتَفَكَّرُونَ» يقول: لقوم يعتبرون مواعظ الله ويتفكَّرون في حججه، فيتذكرون وينيبون.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=16&tAyahNo=11&tDisplay=yes&UserProfile=0&LanguageId=1

@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-5-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقرر الطبري أن الله يخزي هؤلاء يوم القيامة بعد ما عجّل لهم من عذاب الدنيا، ويسألهم تقريعاً أين شركاؤهم الذين كانوا يخاصمون المؤمنين فيهم، فيقول أهل العلم إن الخزي والسوء اليوم على الكافرين. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=16&tAyahNo=27&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «ثُمَّ يَوْمَ ٱلْقِيَامَةِ يُخْزِيهِمْ وَيَقُولُ أَيْنَ شُرَكَآئِيَ ٱلَّذِينَ كُنْتُمْ تُشَاقُّونَ فِيهِمْ قَالَ ٱلَّذِينَ أُوتُواْ ٱلْعِلْمَ إِنَّ ٱلْخِزْيَ ٱلْيَوْمَ وَٱلْسُّوۤءَ عَلَى ٱلْكَافِرِينَ»: فعل الله بهؤلاء الذين مكروا الذين وصف الله جلّ ثناؤه أمرهم ما فعل بهم في الدنيا من تعجيل العذاب لهم والانتقام بكفرهم وجحودهم وحدانيته، ثم هو مع ذلك يوم القيامة مخزيهم فمذلهم بعذاب أليم وقائل لهم عند ورودهم عليه: «أيْنَ شُرَكائيَ الَّذِينَ كُنْتُمْ تُشاقُّونَ فِيهم»؟ أصله: من شاققت فلاناً فهو يشاقُّني، وذلك إذا فعل كلّ واحد منهما بصاحبه ما يشقّ عليه. وينقل في المقطع أقوالاً عن ابن عباس.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=16&tAyahNo=27&tDisplay=yes&UserProfile=0&LanguageId=1

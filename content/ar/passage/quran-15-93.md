@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-4-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن السؤال في الآية سؤال عن أعمالهم في الدنيا فيما أُمروا به، من الإقرار بالقرآن وبالتوحيد والبراءة من الأنداد والأوثان، وأن النبي أُمر أن يصدع بما يؤمر أي يجهر بالرسالة. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=15&tAyahNo=93&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 93 إلى 95 مقطعاً واحداً. يفسّر قوله «فَوَرَبِّكَ لَنَسْأَلَنَّهُمْ أَجْمَعِينَ»: فوربك يا محمد لنسألنّ هؤلاء الذين جعلوا القرآن في الدنيا عضين في الآخرة عما كانوا يعملون في الدنيا، فيما أمرناهم به وفيما بعثناك به إليهم من آي كتابي الذي أنزلته إليهم وفيما دعوناهم إليه من الإقرار به ومن توحيدي والبراءة من الأنداد والأوثان. وينقل في المقطع أقوالاً عن ابن عباس ومجاهد وسعيد بن جبير والربيع وعطية.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=15&tAyahNo=93&tDisplay=yes&UserProfile=0&LanguageId=1

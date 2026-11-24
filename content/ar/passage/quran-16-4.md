@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-4-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن الله خلق الإنسان من نطفة من ماء مهين خلقاً عجيباً في ظلمات ثلاث، ثم أخرجه ونفخ فيه الروح ورزقه وأنماه، فإذا استوى كفر بنعمة ربه وخاصمه، فإذا هو خصيم مبين، أي يبين عن خصومته بمنطقه ويجادل بحجته. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=16&tAyahNo=4&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «خَلَقَ ٱلإِنْسَانَ مِن نُّطْفَةٍ فَإِذَا هُوَ خَصِيمٌ مُّبِينٌ»: ومن حججه عليكم أيضاً الناس، أنه خلق الإنسان من نطفة، فأحدث من ماء مهين خلقاً عجيباً، قلبه تاراتٍ خلقاً بعد خلق في ظلمات ثلاث، ثم أخرجه إلى ضياء الدنيا بعد ما تمّ خلقه ونفخ فيه الروح، فغذّاه ورزقه القوت ونماه، حتى إذا استوى على سوقه كفر بنعمة ربه وجحد مدبره وعبد من لا يضرّ ولا ينفع وخاصم إلهه فقال «مَنْ يُحْيِي العِظَامَ وَهِيَ رَمِيمٌ» ونسي الذي خلقه فسوّاه خلقاً سويًّا من ماء مهين. ويعني بالمبين: أنه يبين عن خصومته بمنطقه ويجادل بلسانه، فذلك إبانته. وعنى بالإنسان: جميع الناس، أخرج بلفظ الواحد وهو في معنى الجميع.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=16&tAyahNo=4&tDisplay=yes&UserProfile=0&LanguageId=1

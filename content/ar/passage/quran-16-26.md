@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-5-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يذكر الطبري أن الذين مكروا من قبل رأوا مغالبة الله ببناء يرتفعون به إلى السماء، وينسب ذلك إلى جبار من النبط قيل هو نمرود وقيل بختنصر، فهدم الله بنيانهم من أصوله وخرّ عليهم السقف وأتاهم العذاب من حيث لا يشعرون، ويسوق في ذلك روايات مطوّلة. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=16&tAyahNo=26&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «قَدْ مَكَرَ ٱلَّذِينَ مِنْ قَبْلِهِمْ فَأَتَى ٱللَّهُ بُنْيَانَهُمْ مِّنَ ٱلْقَوَاعِدِ فَخَرَّ عَلَيْهِمُ ٱلسَّقْفُ مِن فَوْقِهِمْ وَأَتَاهُمُ ٱلْعَذَابُ مِنْ حَيْثُ لاَ يَشْعُرُونَ»: قد مكر الذين من قبل هؤلاء المشركين الذين يصدّون عن سبيل الله من أراد اتباع دين الله، فراموا مغالبة الله ببناءٍ بَنَوه، يريدون بزعمهم الارتفاع إلى السماء لحرب من فيها. وكان الذي رام ذلك فيما ذُكر لنا جبار من جبابرة النَّبَط فقال بعضهم: هو نمرود بن كنعان، وقال بعضهم: هو بختنصر، وقد ذكرت بعض أخبارهما في سورة إبراهيم. وقيل: إن الذي ذُكر في هذا الموضع هو الذي ذكره الله في سورة إبراهيم. وينقل في المقطع أقوالاً عن ابن عباس وزيد بن أسلم.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=16&tAyahNo=26&tDisplay=yes&UserProfile=0&LanguageId=1

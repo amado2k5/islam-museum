@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-5-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن لله غيب السموات والأرض دون آلهتهم، وإن أمر قيام الساعة سريع جداً كلمح البصر أو أقرب، لأن الله على كل شيء قدير. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=16&tAyahNo=77&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَلِلَّهِ غَيْبُ ٱلسَّمَٰوَٰتِ وَٱلأَرْضِ وَمَآ أَمْرُ ٱلسَّاعَةِ إِلاَّ كَلَمْحِ ٱلْبَصَرِ أَوْ هُوَ أَقْرَبُ إِنَّ ٱللَّهَ عَلَىٰ كُلِّ شَيْءٍ قَدِيرٌ»: ولله أيها الناس مِلك ما غاب عن أبصاركم في السموات والأرض دون آلهتكم التي تدعون من دونه، ودون كلّ ما سواه، لا يملك ذلك أحد سواه. «وَما أمْرُ السَّاعَةِ إلاَّ كَلَمْحِ البَصَرِ» يقول: وما أمر قيام القيامة والساعة التي تنشر فيها الخلق للوقوف في موقف القيامة، إلا كنظرة من البصر، لأن ذلك إنما هو أن يقال له كن فيكون. كما: عن معمر، عن قتادة: «إلاَّ كَلَمْحٍ البَصَرِ أوْ هُوَ أقْرَبُ» والساعة: كلمح البصر، أو أقرب. أخبرنا معمر، عن قتادة: «وَما أمْرُ السَّاعَةِ إلاَّ كَلَمْحِ البَصَرِ» قال: هو أن يقول: كن، فهو كلمح البصر فأمر الساعة كلمح البصر أو أقرب يعني يقول: أو هو أقرب من لمح البصر. وينقل في المقطع أقوالاً عن قتادة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=16&tAyahNo=77&tDisplay=yes&UserProfile=0&LanguageId=1

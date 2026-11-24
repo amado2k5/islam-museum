@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-5-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أنه إذا رفع الله الضر عن الناس منحهم العافية، فإذا جماعة منهم يشركون بربهم ويعبدون الأوثان، ليكفروا بما آتاهم الله، ثم يهدّدهم بأنهم سيعلمون عاقبة تمتعهم. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=16&tAyahNo=54&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 54 إلى 55 مقطعاً واحداً. يفسّر قوله «ثُمَّ إِذَا كَشَفَ ٱلضُّرَّ عَنْكُمْ إِذَا فَرِيقٌ مِّنْكُم بِرَبِّهِمْ يُشْرِكُونَ»: ثم إذا وهب لكم ربكم العافية، ورفع عنكم ما أصابكم من المرض في أبدانكم ومن الشدّة في معاشكم، وفرّج البلاء عنكم «إذَا فَرِيقٌ مِنْكُمْ بِرَبِّهِمْ يُشْرِكُونَ» يقول: إذا جماعة منكم يجعلون لله شريكاً في عبادتهم، فيعبدون الأوثان ويذبحون لها الذبائح شكراً لغير من أنعم عليهم بالفرج مما كانوا فيه من الضرّ. «ليَكْفُرُوا بِمَا آتَيْناهُمْ» يقول: ليجحدوا الله نعمته فيما آتاهم من كشف الضرّ عنهم.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=16&tAyahNo=54&tDisplay=yes&UserProfile=0&LanguageId=1

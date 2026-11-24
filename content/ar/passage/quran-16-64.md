@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-5-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن الله ما أنزل الكتاب على نبيه إلا ليبيّن للناس ما اختلفوا فيه من دينه فيعرّفهم الصواب من الخطأ والحق من الباطل، وليكون هدى ورحمة لقوم يؤمنون. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=16&tAyahNo=64&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَمَآ أَنْزَلْنَا عَلَيْكَ ٱلْكِتَابَ إِلاَّ لِتُبَيِّنَ لَهُمُ ٱلَّذِي ٱخْتَلَفُواْ فِيهِ وَهُدًى وَرَحْمَةً لِّقَوْمٍ يُؤْمِنُونَ»: يقول تعالى ذكره لنبيه: وما أنزلنا يا محمد عليك كتابنا وبعثناك رسولاً إلى خلقنا إلا لتبين لهم ما اختلفوا فيه من دين الله، فتعرفّهم الصواب منه والحقّ من الباطل، وتقيم عليهم بالصواب منه حجة الله الذي بعثك بها. وقوله: «وَهُدًى وَرَحْمَةً لِقَوْمٍ يُؤْمِنُونَ» يقول: وهدى بياناً من الضلالة، يعني بذلك الكتاب، «ورَحْمَةً لقَوْمٍ يُؤْمِنُونَ» به، فيصدّقون بما فيه، ويقرّون بما تضمن من أمر الله ونهيه، ويعملون به. وعطف بالهدى على موضع «ليبين»، لأن موضعها نصب. وإنما معنى الكلام: وما أنزلنا عليك الكتاب إلا بياناً للناس فيما اختلفوا فيه هدى ورحمة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=16&tAyahNo=64&tDisplay=yes&UserProfile=0&LanguageId=1

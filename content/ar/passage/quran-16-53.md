@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-5-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يعرض الطبري وجه دخول الفاء في «فمن الله» بين البصريين والكوفيين، ويفسّر الآية بأن كل نعمة بالعباد فمن الله، وإذا مسّهم الضر لجؤوا إليه واستغاثوا به ورفعوا أصواتهم بالدعاء. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=16&tAyahNo=53&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَمَا بِكُم مِّن نِّعْمَةٍ فَمِنَ ٱللَّهِ ثُمَّ إِذَا مَسَّكُمُ ٱلضُّرُّ فَإِلَيْهِ تَجْأَرُونَ»: اختلف أهل العربية في وجه دخول الفاء في قوله: «فَمِنَ اللّهِ» فقال بعض البصريين: دخلت الفاء، لأن «ما» بمنزلة «من» فجعل الخبر بالفاء. وقال بعض الكوفيين: «ما» في معنى جزاء، ولها فعل مضمر، كأنك قلت: ما يكن بكم من نعمة فمن الله، لأن الجزاء لا بدّ له من فعل مجزوم، إن ظهر فهو جزم، وإن لم يظهر فهو مضمر كما قال الشاعر:إن العَقْلُ في أموَالِنا لا نَضِقْ بِهِ ذِرَاعاً وَإنْ صَبْراً فنَعْرِفُ للصَّبْرِ وقال: أراد: إن يكن العقل فأضمره. وينقل في المقطع أقوالاً عن ابن عباس ومجاهد وابن جريج.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=16&tAyahNo=53&tDisplay=yes&UserProfile=0&LanguageId=1

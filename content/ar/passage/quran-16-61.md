@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-5-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يفسّر الطبري الآية بأن الله لو آخذ عصاة بني آدم بمعاصيهم لما ترك على الأرض من دابة، لكنه يؤخرهم إلى أجل مسمى، فإذا جاء أجلهم لم يتأخروا ساعة ولم يتقدموا. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=16&tAyahNo=61&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَلَوْ يُؤَاخِذُ ٱللَّهُ ٱلنَّاسَ بِظُلْمِهِمْ مَّا تَرَكَ عَلَيْهَا مِن دَآبَّةٍ وَلٰكِن يُؤَخِّرُهُمْ إلَىٰ أَجَلٍ مُّسَمًّىٰ فَإِذَا جَآءَ أَجَلُهُمْ لاَ يَسْتَأْخِرُونَ سَاعَةً وَلاَ يَسْتَقْدِمُونَ»: «وَلَوْ يُؤَاخِذُ اللَّهُ» عصاة بني آدم بمعاصيهم، «ما تَرَكَ عَلَيْها» يعني على الأرض «مِنْ دَابَّةٍ» تدبّ عليها. «ولَكِنْ يُؤَخِّرُهُمْ» يقول: ولكن بحلمه يؤخر هؤلاء الظلمة فلا يُعاجلهم بالعقوبة، «إلى أجَلٍ مُسَمًّى» يقول: إلى وقتهم الذي وُقِّت لهم. «فإذَا جاءَ أجَلُهُمْ» يقول: فإذا جاء الوقت الذي وُقِّت لهلاكهم، «لا يَسْتَأْخِرُونَ» عن الهلاك ساعة فيمهلون، «وَلا يَسْتَقْدِمُونَ» له حتى يستوفُوا آجالهم. وينقل في المقطع أقوالاً عن الأعمش.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=16&tAyahNo=61&tDisplay=yes&UserProfile=0&LanguageId=1

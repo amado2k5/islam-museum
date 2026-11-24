@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-5-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يفسّر الطبري الآية بأن ما يدعوه المشركون من دون الله أموات لا أرواح فيها ولا تملك ضراً ولا نفعاً، وأنها لا تدري متى تُبعث، وينقل عن قتادة، ثم يذكر أن بعض أهل التأويل جعل الضمير في «يشعرون» للكفار. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=16&tAyahNo=21&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «أَمْواتٌ غَيْرُ أَحْيَآءٍ وَمَا يَشْعُرُونَ أَيَّانَ يُبْعَثُونَ»: يقول تعالى ذكره لهؤلاء المشركين من قريش: والذين تدعون من دون الله أيها الناس «أمْوَاتٌ غيرُ أحْياءٍ». وجعلها جلّ ثناؤه أمواتاً غير أحياء، إذ كانت لا أرواح فيها. كما: وعن قتادة، قوله: «أمْوَاتٌ غيرُ أحْياءٍ ومَا يَشْعُرُونَ أيَّانَ يُبْعَثُونَ» وهي هذه الأوثان التي تُعبد من دون الله أموات لا أرواح فيها، ولا تملك لأهلها ضرًّا ولا نفعاً. وفي رفع الأموات وجهان: أحدهما أن يكون خبراً للذين، والآخر على الاستئناف. وقوله: «ومَا يَشْعُرُونَ» يقول: وما تدري أصنامكم التي تدعون من دون الله متى تبعث. وقيل: إنما عنى بذلك الكفار، أنهم لا يدرون متى يبعثون. وينقل في المقطع أقوالاً عن قتادة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=16&tAyahNo=21&tDisplay=yes&UserProfile=0&LanguageId=1

@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-5-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يفسّر الطبري العدل بأنه الإنصاف، ومنه الإقرار لمن أنعم بنعمته والشكر له، ثم يبيّن الإحسان وإيتاء ذي القربى، وأن الله ينهى عن الفحشاء والمنكر والبغي، ويعظ عباده لعلهم يتذكرون. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=16&tAyahNo=90&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «إِنَّ ٱللَّهَ يَأْمُرُ بِٱلْعَدْلِ وَٱلإحْسَانِ وَإِيتَآءِ ذِي ٱلْقُرْبَىٰ وَيَنْهَىٰ عَنِ ٱلْفَحْشَاءِ وَٱلْمُنْكَرِ وَٱلْبَغْيِ يَعِظُكُمْ لَعَلَّكُمْ تَذَكَّرُونَ»: إن الله يأمر في هذا الكتاب الذي أنزله إليك يا محمد بالعدل، وهو الإنصاف ومن الإنصاف: الإقرار بمن أنعم علينا بنعمته، والشكر له على إفضاله، وتولي الحمد أهله. وإذا كان ذلك هو العدل ولم يكن للأوثان والأصنام عندنا يد تستحقّ الحمد عليها، كان جهلاً بنا حمدها وعبادتها، وهي لا تنعِم فتشكر ولا تنفع فتعبد، فلزمنا أن نشهد أن لا إله إلا الله وحده لا شريك له، ولذلك قال من قال: العدل في هذا الموضع شهادة أن لا إله إلا الله. وينقل في المقطع أقوالاً عن ابن عباس.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=16&tAyahNo=90&tDisplay=yes&UserProfile=0&LanguageId=1
