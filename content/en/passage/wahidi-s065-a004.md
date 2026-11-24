@@ -10,5 +10,12 @@ Al-Wahidi's report on the occasion of revelation of at-Talaq 65:4, narrated from
 
 The verse, in al-Wahidi's heading: «واللائي يئسن من المحيض من نسائكم».
 
+## Full report (Arabic source text)
+<div dir="rtl" lang="ar">
+
+قال مقاتل: لما نزلت: {والمطلقات يتربصن بأنفسهن} الآية.
+
+</div>
+
 ## Place in the museum
 Source: [[work/asbab-al-nuzul-wahidi|al-Wahidi's Asbab nuzul al-Qur'an]]. The verse: [[passage/quran-65-4|Qur'an 65-4]].

@@ -10,5 +10,12 @@ Informe de al-Wahidi sobre la ocasión de revelación de an-Nisa 4:22, transmiti
 
 The verse, in al-Wahidi's heading: «ولا تنكحوا ما نكح آباؤكم من النساء».
 
+## Informe completo (texto fuente en árabe)
+<div dir="rtl" lang="ar">
+
+نزلت في حصن ابن أبي قيس تزوج امرأة أبيه: كبيشة بنت معن، وفي الأسود بن
+
+</div>
+
 ## Place in the museum
 Fuente: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an de al-Wahidi]]. El versículo: [[passage/quran-4-22|Corán 4-22]].

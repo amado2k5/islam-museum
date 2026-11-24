@@ -10,5 +10,12 @@ Informe de al-Wahidi sobre la ocasión de revelación de al-Fath 48:1, transmiti
 
 The verse, in al-Wahidi's heading: «إنا فتحنا لك فتحا مبينا».
 
+## Informe completo (texto fuente en árabe)
+<div dir="rtl" lang="ar">
+
+غزوة الحديبية وقد حيل بيننا وبين نسكنا فنحن بين الحزن والكآبة، أنزل الله
+
+</div>
+
 ## Place in the museum
 Fuente: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an de al-Wahidi]]. El versículo: [[passage/quran-48-1|Corán 48-1]].

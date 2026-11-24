@@ -10,5 +10,12 @@ Rapport d'al-Wahidi sur la circonstance de révélation de al-Baqara 2:79, trans
 
 The verse, in al-Wahidi's heading: «فويل للذين يكتبون الكتاب بأيديهم».
 
+## Rapport complet (texte source arabe)
+<div dir="rtl" lang="ar">
+
+نزلت في الذين غيروا صفة النبي- وبدلوا نعته، قال
+
+</div>
+
 ## Place in the museum
 Source : [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an d'al-Wahidi]]. Le verset : [[passage/quran-2-79|Coran 2-79]].

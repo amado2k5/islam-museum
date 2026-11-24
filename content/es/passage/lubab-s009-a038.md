@@ -10,5 +10,12 @@ Informe de al-Suyuti sobre la ocasión de revelación de Bara'a (at-Tawba) 9:38,
 
 The verse, in al-Suyuti's heading: «يا أيها الذين آمنوا ما لكم إذا قيل».
 
+## Informe completo (texto fuente en árabe)
+<div dir="rtl" lang="ar">
+
+يا أيها الذين آمنوا ما لكم إذا قيل لكم الآية أخرج ابن جرير عن مجاهد في هذه الآية قال هذا حين أمروا بغزوة تبوك بعد الفتح وحين أمرهم بالنفير في الصيف حين طابت الثمار واشتهوا الظلال وشق عليهم المخرج فأنزل الله انفروا خفافا وثقالا ⁦(ك)⁩
+
+</div>
+
 ## Place in the museum
 Fuente: [[work/lubab-al-nuqul-suyuti|de al-Suyuti Lubab al-Nuqul]]. El versículo: [[passage/quran-9-38|Corán 9-38]].

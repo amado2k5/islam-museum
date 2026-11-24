@@ -10,5 +10,12 @@ al-A'raf 7:204 ayetinin nüzul sebebi hakkında es-Suyuti'nin rivayeti; Lübabü
 
 The verse, in al-Suyuti's heading: «وإذا قرئ القرآن».
 
+## Tam rivayet (Arapça kaynak metin)
+<div dir="rtl" lang="ar">
+
+وإذا قرئ القرآن الآية أخرج ابن أبي حاتم وغيره عن أبي هريرة قال نزلت وإذا قرئ القرآن فاستمعوا له وأنصتوا في رفع الأصوات في الصلاة خلف النبي وأخرج أيضا عنه قال كانوا يتكلمون في الصلاة فنزلت وإذا قرئ القرآن الآية وأخرج
+
+</div>
+
 ## Place in the museum
 Kaynak: [[work/lubab-al-nuqul-suyuti|es-Suyuti'nin Lubab al-Nuqul]]. Ayet: [[passage/quran-7-204|Kur'an 7-204]].

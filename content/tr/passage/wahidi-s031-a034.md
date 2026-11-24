@@ -10,5 +10,12 @@ Luqman 31:34 ayetinin nüzül sebebi hakkında El-Vahidi'nin rivayeti; Esbab Nü
 
 The verse, in al-Wahidi's heading: «إن الله عنده علم الساعة».
 
+## Tam rivayet (Arapça kaynak metin)
+<div dir="rtl" lang="ar">
+
+نزلت في الحارث بن عمرو بن حارثة بن محارب بن حفصة، من أهل البادية، أتى
+
+</div>
+
 ## Place in the museum
 Kaynak: [[work/asbab-nuzul-wahidi|El-Vahidi'nin Esbab Nüzul el-Kur'an'ı]]. Ayet: [[passage/quran-31-34|Kur'an 31-34]].

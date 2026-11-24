@@ -10,5 +10,12 @@ al-Baqara 2:97 ayetinin nüzül sebebi hakkında El-Vahidi'nin rivayeti; Esbab N
 
 The verse, in al-Wahidi's heading: «من كان عدوا لله وملائكته».
 
+## Tam rivayet (Arapça kaynak metin)
+<div dir="rtl" lang="ar">
+
+أنشدكم بالله وما أنزل عليكم من كتاب أتعلمون أنه رسول الله؟
+
+</div>
+
 ## Place in the museum
 Kaynak: [[work/asbab-nuzul-wahidi|El-Vahidi'nin Esbab Nüzul el-Kur'an'ı]]. Ayet: [[passage/quran-2-97|Kur'an 2-97]].

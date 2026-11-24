@@ -10,5 +10,12 @@ Rapport d'al-Suyuti sur la circonstance de révélation de an-Nisa 4:163, dans L
 
 The verse, in al-Suyuti's heading: «إنا أوحينا إليك روى ابن أسحق عن ابن».
 
+## Rapport complet (texte source arabe)
+<div dir="rtl" lang="ar">
+
+إنا أوحينا إليك روى ابن أسحق عن ابن عباس قال قال عدي بن زيد ما نعلم أن الله أنزل على بشر من شئ من بعد موسى فأنزل الله الآية
+
+</div>
+
 ## Place in the museum
 Source : [[work/lubab-al-nuqul-suyuti|d'al-Suyuti Lubab al-Nuqul]]. Le verset: [[passage/quran-4-163|Coran 4-163]].

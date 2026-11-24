@@ -10,5 +10,12 @@ Al-Suyuti's report on the occasion of revelation of az-Zumar 39:9, in Lubab al-N
 
 The verse, in al-Suyuti's heading: «أمن هو قانت آناء الليل».
 
+## Full report (Arabic source text)
+<div dir="rtl" lang="ar">
+
+أمن هو قانت آناء الليل الآية أخرج ابن أبي حاتم عن ابن عمر في
+
+</div>
+
 ## Place in the museum
 Source: [[work/lubab-al-nuqul-suyuti|al-Suyuti's Lubab al-Nuqul]]. The verse: [[passage/quran-39-9|Qur'an 39-9]].

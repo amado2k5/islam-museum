@@ -10,5 +10,12 @@ an-Nur 24:3 ayetinin nüzül sebebi hakkında El-Vahidi'nin rivayeti; Esbab Nüz
 
 The verse, in al-Wahidi's heading: «3».
 
+## Tam rivayet (Arapça kaynak metin)
+<div dir="rtl" lang="ar">
+
+معهن إلى أن يغنينا اللهعنهن، فاستأذنوا النبي- في ذلك، فنزلت هذه الآية وحرم فيها نكاح الزانية صيانة للمؤمنين عن ذلك.
+
+</div>
+
 ## Place in the museum
 Kaynak: [[work/asbab-nuzul-wahidi|El-Vahidi'nin Esbab Nüzul el-Kur'an'ı]]. Ayet: [[passage/quran-24-3|Kur'an 24-3]].

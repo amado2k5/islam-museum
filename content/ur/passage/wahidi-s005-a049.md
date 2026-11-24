@@ -10,5 +10,12 @@ al-Ma'ida 5:49 کے سببِ نزول پر الواحدی کی روایت — «
 
 The verse, in al-Wahidi's heading: «49».
 
+## مکمل روایت ⁦(عربی ماخذ متن)⁩
+<div dir="rtl" lang="ar">
+
+وسلم - فأنزل اللهفيهم: {واحذرهم أن يفتنوك عن بعض ما أنزل الله
+
+</div>
+
 ## Place in the museum
 ماخذ: [[work/asbab-nuzul-wahidi|الواحدی کی اسباب نزول القرآن]]۔ آیت: [[passage/quran-5-49|قرآن 5-49]]۔

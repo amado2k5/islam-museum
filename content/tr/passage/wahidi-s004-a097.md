@@ -10,5 +10,12 @@ an-Nisa 4:97 ayetinin nüzül sebebi hakkında El-Vahidi'nin rivayeti; Esbab Nü
 
 The verse, in al-Wahidi's heading: «إن الذين توفاهم الملائكة ظالمي أنفسهم».
 
+## Tam rivayet (Arapça kaynak metin)
+<div dir="rtl" lang="ar">
+
+نزلت هذه الآية في ناس من أهل مكة تكلموا بالإسلام ولم يهاجروا وأظهروا
+
+</div>
+
 ## Place in the museum
 Kaynak: [[work/asbab-nuzul-wahidi|El-Vahidi'nin Esbab Nüzul el-Kur'an'ı]]. Ayet: [[passage/quran-4-97|Kur'an 4-97]].

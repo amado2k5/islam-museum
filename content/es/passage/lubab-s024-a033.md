@@ -10,5 +10,12 @@ Informe de al-Suyuti sobre la ocasión de revelación de an-Nur 24:33, en Lubab 
 
 The verse, in al-Suyuti's heading: «والذين يبتغون الكتاب».
 
+## Informe completo (texto fuente en árabe)
+<div dir="rtl" lang="ar">
+
+والذين يبتغون الكتاب الآية أخرج ابن السكن في معرفة الصحابة عن عبد الله بن صبيح عن أبيه قال كنت مملوكا لحويطب ابن عبد العزى فسألته الكتابة فنزلت والذين يبتغون الكتاب الآية
+
+</div>
+
 ## Place in the museum
 Fuente: [[work/lubab-al-nuqul-suyuti|de al-Suyuti Lubab al-Nuqul]]. El versículo: [[passage/quran-24-33|Corán 24-33]].

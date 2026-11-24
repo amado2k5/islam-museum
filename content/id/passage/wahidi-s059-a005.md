@@ -10,5 +10,12 @@ Riwayat al-Wahidi tentang sebab turunnya al-Hashr 59:5, diriwayatkan dari genera
 
 The verse, in al-Wahidi's heading: «ما قطعتم من لينة».
 
+## Laporan lengkap (teks sumber Arab)
+<div dir="rtl" lang="ar">
+
+وذلك، أن رسول الله- لما نزل ببني النضير وتحصنوا
+
+</div>
+
 ## Place in the museum
 Sumber: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an al-Wahidi]]. Ayatnya: [[passage/quran-59-5|Al-Qur'an 59-5]].

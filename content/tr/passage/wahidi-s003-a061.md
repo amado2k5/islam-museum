@@ -10,5 +10,12 @@ Al 'Imran 3:61 ayetinin nüzül sebebi hakkında El-Vahidi'nin rivayeti; Esbab N
 
 The verse, in al-Wahidi's heading: «فقل تعالوا ندع أبناءنا وأبناءكم».
 
+## Tam rivayet (Arapça kaynak metin)
+<div dir="rtl" lang="ar">
+
+الله عليه وسلم - ونزل القرآن: {ذلك نتلوه عليك من الآيات والذكر الحكيم}
+
+</div>
+
 ## Place in the museum
 Kaynak: [[work/asbab-nuzul-wahidi|El-Vahidi'nin Esbab Nüzul el-Kur'an'ı]]. Ayet: [[passage/quran-3-61|Kur'an 3-61]].

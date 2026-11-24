@@ -10,5 +10,12 @@ Rapport d'al-Suyuti sur la circonstance de révélation de al-Isra 17:90, dans L
 
 The verse, in al-Suyuti's heading: «وقالوا لن نؤمن لك».
 
+## Rapport complet (texte source arabe)
+<div dir="rtl" lang="ar">
+
+وقالوا لن نؤمن لك الآية أخرج ابن جرير من طريق ابن إسحق عن شيخ من أهل مصر عن عكرمة عن ابن عباس أن عتبة وشيبة ابني ربيعة وأبا سفيان بن حرب ورجلا من بني عبد الدار وأبا البحتري والأسود بن المطلب وربيعة بن الأسود والوليد
+
+</div>
+
 ## Place in the museum
 Source : [[work/lubab-al-nuqul-suyuti|d'al-Suyuti Lubab al-Nuqul]]. Le verset: [[passage/quran-17-90|Coran 17-90]].

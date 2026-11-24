@@ -10,5 +10,12 @@ Informe de al-Wahidi sobre la ocasión de revelación de al-Anfal 8:64, transmit
 
 The verse, in al-Wahidi's heading: «يا أيها النبي حسبك الله ومن اتبعك من المؤمنين».
 
+## Informe completo (texto fuente en árabe)
+<div dir="rtl" lang="ar">
+
+رجلا، ثم إن عمر أسلم فصاروا أربعين، فنزل جبريلبقوله:
+
+</div>
+
 ## Place in the museum
 Fuente: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an de al-Wahidi]]. El versículo: [[passage/quran-8-64|Corán 8-64]].

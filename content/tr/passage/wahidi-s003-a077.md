@@ -10,5 +10,12 @@ Al 'Imran 3:77 ayetinin nüzül sebebi hakkında El-Vahidi'nin rivayeti; Esbab N
 
 The verse, in al-Wahidi's heading: «إن الذين يشترون بعهد الله وأيمانهم ثمنا قليلا».
 
+## Tam rivayet (Arapça kaynak metin)
+<div dir="rtl" lang="ar">
+
+امرئ مسلم لقي الله وهو عليه غضبان"، فقال الأشعث بن قيس: في والله نزلت
+
+</div>
+
 ## Place in the museum
 Kaynak: [[work/asbab-nuzul-wahidi|El-Vahidi'nin Esbab Nüzul el-Kur'an'ı]]. Ayet: [[passage/quran-3-77|Kur'an 3-77]].

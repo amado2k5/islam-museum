@@ -10,5 +10,12 @@ Rapport d'al-Wahidi sur la circonstance de révélation de al-Ma'ida 5:41, trans
 
 The verse, in al-Wahidi's heading: «يا أيها الرسول لا يحزنك الذين يسارعون في الكفر».
 
+## Rapport complet (texte source arabe)
+<div dir="rtl" lang="ar">
+
+أنزل التوراة على موسى، هكذا تجدون حد الزاني في كتابكم؟
+
+</div>
+
 ## Place in the museum
 Source : [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an d'al-Wahidi]]. Le verset : [[passage/quran-5-41|Coran 5-41]].

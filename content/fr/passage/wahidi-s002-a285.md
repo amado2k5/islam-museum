@@ -10,5 +10,12 @@ Rapport d'al-Wahidi sur la circonstance de révélation de al-Baqara 2:285, tran
 
 The verse, in al-Wahidi's heading: «آمن الرسول بما أنزل إليه من ربه».
 
+## Rapport complet (texte source arabe)
+<div dir="rtl" lang="ar">
+
+هريرة قال: لما أنزل على رسول الله- {وإن تبدوا ما
+
+</div>
+
 ## Place in the museum
 Source : [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an d'al-Wahidi]]. Le verset : [[passage/quran-2-285|Coran 2-285]].

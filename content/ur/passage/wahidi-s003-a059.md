@@ -10,5 +10,12 @@ Al 'Imran 3:59 کے سببِ نزول پر الواحدی کی روایت — «
 
 The verse, in al-Wahidi's heading: «إن مثل عيسى عند الله».
 
+## مکمل روایت ⁦(عربی ماخذ متن)⁩
+<div dir="rtl" lang="ar">
+
+فإن كنت صادقا فأرنا مثله، فأنزل الله
+
+</div>
+
 ## Place in the museum
 ماخذ: [[work/asbab-nuzul-wahidi|الواحدی کی اسباب نزول القرآن]]۔ آیت: [[passage/quran-3-59|قرآن 3-59]]۔

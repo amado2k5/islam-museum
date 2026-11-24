@@ -10,5 +10,12 @@ Rapport d'al-Suyuti sur la circonstance de révélation de al-Ahzab 33:36, dans 
 
 The verse, in al-Suyuti's heading: «وما كان لمؤمن الآيات».
 
+## Rapport complet (texte source arabe)
+<div dir="rtl" lang="ar">
+
+وما كان لمؤمن الآيات أخرج الطبراني بسند صحيح عن قتادة قال خطب النبي زينب وهو يريدها لزيد فظنت أنه يريدها لنفسه فلما علمت أنه يريدها لزيد أبت فأنزل الله وما كان لمؤمن ولا مؤمنة الآية فرضيت وسلمت وأخرج ابن جرير من
+
+</div>
+
 ## Place in the museum
 Source : [[work/lubab-al-nuqul-suyuti|d'al-Suyuti Lubab al-Nuqul]]. Le verset: [[passage/quran-33-36|Coran 33-36]].

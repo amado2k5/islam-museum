@@ -10,5 +10,12 @@ Rapport d'al-Suyuti sur la circonstance de révélation de al-Qasas 28:85, dans 
 
 The verse, in al-Suyuti's heading: «إن الذي فرض عليك القرآن».
 
+## Rapport complet (texte source arabe)
+<div dir="rtl" lang="ar">
+
+إن الذي فرض عليك القرآن الآية أخرج ابن أبي حاتم عن الضحاك قال لما خرج النبي من مكة فبلغ الجحفة اشتاق إلى مكة فأنزل الله إن الذي فرض عليك القرآن لرادك إلى معاد
+
+</div>
+
 ## Place in the museum
 Source : [[work/lubab-al-nuqul-suyuti|d'al-Suyuti Lubab al-Nuqul]]. Le verset: [[passage/quran-28-85|Coran 28-85]].

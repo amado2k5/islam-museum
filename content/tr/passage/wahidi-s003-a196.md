@@ -10,5 +10,12 @@ Al 'Imran 3:196 ayetinin nüzül sebebi hakkında El-Vahidi'nin rivayeti; Esbab 
 
 The verse, in al-Wahidi's heading: «لا يغرنك تقلب الذين كفروا في البلاد».
 
+## Tam rivayet (Arapça kaynak metin)
+<div dir="rtl" lang="ar">
+
+نزلت في مشركي مكة، وذلك أنهم كانوا في رخاء ولين من العيش، وكانوا
+
+</div>
+
 ## Place in the museum
 Kaynak: [[work/asbab-nuzul-wahidi|El-Vahidi'nin Esbab Nüzul el-Kur'an'ı]]. Ayet: [[passage/quran-3-196|Kur'an 3-196]].

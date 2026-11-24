@@ -10,5 +10,12 @@ al-Ma'ida 5:11 ayetinin nüzul sebebi hakkında es-Suyuti'nin rivayeti; Lübabü
 
 The verse, in al-Suyuti's heading: «يا أيها الذين آمنوا اذكروا نعمة الله عليكم».
 
+## Tam rivayet (Arapça kaynak metin)
+<div dir="rtl" lang="ar">
+
+يا أيها الذين آمنوا اذكروا نعمة الله عليكم ألآية أخرج ابن جرير عن عكرمة ويزيد بن أبي زياد واللفظ له أن النبي خرج ومعه أبو بكر وعمر وعثمان وعلي وطلحة وعبد الرحمن بن عوف حتى دخلوا على كعب بن الأشرف ويهود
+
+</div>
+
 ## Place in the museum
 Kaynak: [[work/lubab-al-nuqul-suyuti|es-Suyuti'nin Lubab al-Nuqul]]. Ayet: [[passage/quran-5-11|Kur'an 5-11]].

@@ -10,5 +10,12 @@ Bara'a (at-Tawba) 9:41 کے سببِ نزول پر الواحدی کی روای�
 
 The verse, in al-Wahidi's heading: «انفروا خفافا وثقالا».
 
+## مکمل روایت ⁦(عربی ماخذ متن)⁩
+<div dir="rtl" lang="ar">
+
+نزلت في الذين اعتذروا بالضيعة والشغل وانتشار الأمر، فأبى اللهأن
+
+</div>
+
 ## Place in the museum
 ماخذ: [[work/asbab-nuzul-wahidi|الواحدی کی اسباب نزول القرآن]]۔ آیت: [[passage/quran-9-41|قرآن 9-41]]۔

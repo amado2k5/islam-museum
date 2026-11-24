@@ -10,5 +10,12 @@ Informe de al-Suyuti sobre la ocasión de revelación de Bara'a (at-Tawba) 9:111
 
 The verse, in al-Suyuti's heading: «إن الله اشترى».
 
+## Informe completo (texto fuente en árabe)
+<div dir="rtl" lang="ar">
+
+إن الله اشترى الآية أخرج ابن جرير عن محمد بن كعب القرظي قال قال عبد الله بن رواحة لرسول الله اشترط لربك ولنفسك ما شئت قال اشترط لربي أن تعبدوه ولا تشركوا به شيئا واشترط لنفسي أن تمنعوني مما تمنعون منه
+
+</div>
+
 ## Place in the museum
 Fuente: [[work/lubab-al-nuqul-suyuti|de al-Suyuti Lubab al-Nuqul]]. El versículo: [[passage/quran-9-111|Corán 9-111]].

@@ -10,5 +10,12 @@ al-Ma'un 107:1 کے سببِ نزول پر الواحدی کی روایت — «
 
 The verse, in al-Wahidi's heading: «أرأيت الذي يكذب بالدين».
 
+## مکمل روایت ⁦(عربی ماخذ متن)⁩
+<div dir="rtl" lang="ar">
+
+قال مقاتل والكلبي: نزلت في العاص بن وائل السهمي.
+
+</div>
+
 ## Place in the museum
 ماخذ: [[work/asbab-nuzul-wahidi|الواحدی کی اسباب نزول القرآن]]۔ آیت: [[passage/quran-107-1|قرآن 107-1]]۔

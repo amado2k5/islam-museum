@@ -10,5 +10,12 @@ Rapport d'al-Wahidi sur la circonstance de révélation de al-Mumtahina 60:13, t
 
 The verse, in al-Wahidi's heading: «يا أيها الذين آمنوا لا تتخذوا عدوي وعدوكم أولياء».
 
+## Rapport complet (texte source arabe)
+<div dir="rtl" lang="ar">
+
+قال جماعة من المفسرين: نزلت في حاطب بن أبي بلتعة وذلك أن سارة مولاة
+
+</div>
+
 ## Place in the museum
 Source : [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an d'al-Wahidi]]. Le verset : [[passage/quran-60-13|Coran 60-13]].

@@ -10,5 +10,12 @@ Al-Suyuti's report on the occasion of revelation of al-Ma'ida 5:3, in Lubab al-N
 
 The verse, in al-Suyuti's heading: «حرمت عليكم الميتة».
 
+## Full report (Arabic source text)
+<div dir="rtl" lang="ar">
+
+حرمت عليكم الميتة الآية أخرج ابن منده في كتاب الصحابة من طريق عبد الله بن جبلة بن حبان بن حجر عن أبيه عن جده حبان قال كنا مع رسول الله وأنا أوقد تحت قدر فيها لحم ميتة فأنزل تحريم الميتة فأكفأت
+
+</div>
+
 ## Place in the museum
 Source: [[work/lubab-al-nuqul-suyuti|al-Suyuti's Lubab al-Nuqul]]. The verse: [[passage/quran-5-3|Qur'an 5-3]].

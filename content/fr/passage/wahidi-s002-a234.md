@@ -10,5 +10,12 @@ Rapport d'al-Wahidi sur la circonstance de révélation de al-Baqara 2:234, tran
 
 The verse, in al-Wahidi's heading: «والذين يتوفون منكم ويذرون أزواجا وصية لأزواجهم».
 
+## Rapport complet (texte source arabe)
+<div dir="rtl" lang="ar">
+
+{234}. أخبرنا أبو عمر محمد بن عبد العزيز المروزي في كتابه، أخبرنا أبو الفضل محمد بن الحسين الحدادي، أخبرنا محمد بن يحيى بن خالد، أخبرنا إسحاق بن إبراهيم الحنظلي قال: حدثت عن مقاتل بن حيان في هذه الآية: أن رجلا من أهل الطائف قدم
+
+</div>
+
 ## Place in the museum
 Source : [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an d'al-Wahidi]]. Le verset : [[passage/quran-2-234|Coran 2-234]].

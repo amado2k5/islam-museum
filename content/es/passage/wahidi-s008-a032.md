@@ -10,5 +10,12 @@ Informe de al-Wahidi sobre la ocasión de revelación de al-Anfal 8:32, transmit
 
 The verse, in al-Wahidi's heading: «وإذ قالوا اللهم إن كان هذا هو الحق».
 
+## Informe completo (texto fuente en árabe)
+<div dir="rtl" lang="ar">
+
+التفسير: نزلت في النضر بن الحارث، وهو الذي قال: إن كان ما يقوله محمد
+
+</div>
+
 ## Place in the museum
 Fuente: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an de al-Wahidi]]. El versículo: [[passage/quran-8-32|Corán 8-32]].

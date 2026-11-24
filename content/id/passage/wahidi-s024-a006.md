@@ -10,5 +10,12 @@ Riwayat al-Wahidi tentang sebab turunnya an-Nur 24:6, diriwayatkan dari generasi
 
 The verse, in al-Wahidi's heading: «والذين يرمون أزواجهم».
 
+## Laporan lengkap (teks sumber Arab)
+<div dir="rtl" lang="ar">
+
+بن هارون قال: أخبرنا عباد بن منصور، عن عكرمة، عن ابن عباس قال: لما نزلت:
+
+</div>
+
 ## Place in the museum
 Sumber: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an al-Wahidi]]. Ayatnya: [[passage/quran-24-6|Al-Qur'an 24-6]].

@@ -10,5 +10,12 @@ al-Mu'minun 23:14 ayetinin nüzül sebebi hakkında El-Vahidi'nin rivayeti; Esba
 
 The verse, in al-Wahidi's heading: «فتبارك الله أحسن الخالقين».
 
+## Tam rivayet (Arapça kaynak metin)
+<div dir="rtl" lang="ar">
+
+قلت: يا رسول الله لو صلينا خلف المقام، فأنزل الله: {واتخذوا من
+
+</div>
+
 ## Place in the museum
 Kaynak: [[work/asbab-nuzul-wahidi|El-Vahidi'nin Esbab Nüzul el-Kur'an'ı]]. Ayet: [[passage/quran-23-14|Kur'an 23-14]].

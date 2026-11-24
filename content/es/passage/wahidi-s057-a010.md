@@ -10,5 +10,12 @@ Informe de al-Wahidi sobre la ocasión de revelación de al-Hadid 57:10, transmi
 
 The verse, in al-Wahidi's heading: «لا يستوي منكم من أنفق من قبل الفتح وقاتل».
 
+## Informe completo (texto fuente en árabe)
+<div dir="rtl" lang="ar">
+
+روى محمد بن فضيل عن الكلبي أن هذه الآية نزلت في أبي بكر الصديق - رضي
+
+</div>
+
 ## Place in the museum
 Fuente: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an de al-Wahidi]]. El versículo: [[passage/quran-57-10|Corán 57-10]].

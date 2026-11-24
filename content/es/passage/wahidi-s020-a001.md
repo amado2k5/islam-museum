@@ -10,5 +10,12 @@ Informe de al-Wahidi sobre la ocasión de revelación de Ta Ha 20:1, transmitido
 
 The verse, in al-Wahidi's heading: «1، 2».
 
+## Informe completo (texto fuente en árabe)
+<div dir="rtl" lang="ar">
+
+وذلك لما رأياه من طول عبادته وشدة اجتهاده، فأنزل
+
+</div>
+
 ## Place in the museum
 Fuente: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an de al-Wahidi]]. El versículo: [[passage/quran-20-1|Corán 20-1]].

@@ -10,5 +10,12 @@ al-Haqqa 69:12 ayetinin nüzül sebebi hakkında El-Vahidi'nin rivayeti; Esbab N
 
 The verse, in al-Wahidi's heading: «12».
 
+## Tam rivayet (Arapça kaynak metin)
+<div dir="rtl" lang="ar">
+
+وحق على الله أن تعي"، فنزلت: {وتعيها أذن واعية}
+
+</div>
+
 ## Place in the museum
 Kaynak: [[work/asbab-nuzul-wahidi|El-Vahidi'nin Esbab Nüzul el-Kur'an'ı]]. Ayet: [[passage/quran-69-12|Kur'an 69-12]].

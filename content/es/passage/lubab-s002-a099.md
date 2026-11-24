@@ -10,5 +10,12 @@ Informe de al-Suyuti sobre la ocasión de revelación de al-Baqara 2:99, en Luba
 
 The verse, in al-Suyuti's heading: «ولقد أنزلنا إليك الآيتين».
 
+## Informe completo (texto fuente en árabe)
+<div dir="rtl" lang="ar">
+
+ولقد أنزلنا إليك الآيتين أخرج ابن أبي حاتم من طريق سعيد أو عكرمة عن ابن عباس قال قال ابن صوريا للنبي يا محمد ما جئتنا بشئ نعرفه وما أنزل الله عليك من آية بينة فأنزل الله في ذلك ولقد أنزلنا إليك
+
+</div>
+
 ## Place in the museum
 Fuente: [[work/lubab-al-nuqul-suyuti|de al-Suyuti Lubab al-Nuqul]]. El versículo: [[passage/quran-2-99|Corán 2-99]].

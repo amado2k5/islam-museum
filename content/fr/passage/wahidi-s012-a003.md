@@ -10,5 +10,12 @@ Rapport d'al-Wahidi sur la circonstance de révélation de Yusuf 12:3, transmis 
 
 The verse, in al-Wahidi's heading: «نحن نقص عليك أحسن القصص».
 
+## Rapport complet (texte source arabe)
+<div dir="rtl" lang="ar">
+
+- {نحن نقص عليك أحسن القصص} قال: أنزل القرآن على رسول الله- فتلاه عليهم زمانا، فقالوا: يا رسول الله لو قصصت،
+
+</div>
+
 ## Place in the museum
 Source : [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an d'al-Wahidi]]. Le verset : [[passage/quran-12-3|Coran 12-3]].

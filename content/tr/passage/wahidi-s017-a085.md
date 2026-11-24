@@ -10,5 +10,12 @@ Bani Isra'il 17:85 ayetinin nüzül sebebi hakkında El-Vahidi'nin rivayeti; Esb
 
 The verse, in al-Wahidi's heading: «ويسألونك عن الروح».
 
+## Tam rivayet (Arapça kaynak metin)
+<div dir="rtl" lang="ar">
+
+بنا ناس من اليهود فقالوا: سلوه عن الروح، فقال بعضهم: لا تسألوه فيستقبلكم
+
+</div>
+
 ## Place in the museum
 Kaynak: [[work/asbab-nuzul-wahidi|El-Vahidi'nin Esbab Nüzul el-Kur'an'ı]]. Ayet: [[passage/quran-17-85|Kur'an 17-85]].

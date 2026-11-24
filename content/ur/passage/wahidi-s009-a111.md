@@ -10,5 +10,12 @@ Bara'a (at-Tawba) 9:111 کے سببِ نزول پر الواحدی کی روای
 
 The verse, in al-Wahidi's heading: «إن الله اشترى من المؤمنين أنفسهم وأموالهم».
 
+## مکمل روایت ⁦(عربی ماخذ متن)⁩
+<div dir="rtl" lang="ar">
+
+قالوا: ربح البيع لا نقيل ولا نستقيل، فنزلت
+
+</div>
+
 ## Place in the museum
 ماخذ: [[work/asbab-nuzul-wahidi|الواحدی کی اسباب نزول القرآن]]۔ آیت: [[passage/quran-9-111|قرآن 9-111]]۔

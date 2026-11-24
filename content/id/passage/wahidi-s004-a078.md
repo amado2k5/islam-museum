@@ -10,5 +10,12 @@ Riwayat al-Wahidi tentang sebab turunnya an-Nisa 4:78, diriwayatkan dari generas
 
 The verse, in al-Wahidi's heading: «أينما تكونوا يدرككم الموت».
 
+## Laporan lengkap (teks sumber Arab)
+<div dir="rtl" lang="ar">
+
+قتلوا عندنا ما ماتوا وما قتلوا، فأنزل اللههذه الآية.
+
+</div>
+
 ## Place in the museum
 Sumber: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an al-Wahidi]]. Ayatnya: [[passage/quran-4-78|Al-Qur'an 4-78]].

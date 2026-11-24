@@ -10,5 +10,12 @@ al-Baqara 2:14 کے سببِ نزول پر الواحدی کی روایت — «
 
 The verse, in al-Wahidi's heading: «وإذا لقوا الذين آمنوا».
 
+## مکمل روایت ⁦(عربی ماخذ متن)⁩
+<div dir="rtl" lang="ar">
+
+الكلبي عن أبي صالح عن ابن عباس: نزلت هذه الآية في عبد الله بن أبي
+
+</div>
+
 ## Place in the museum
 ماخذ: [[work/asbab-nuzul-wahidi|الواحدی کی اسباب نزول القرآن]]۔ آیت: [[passage/quran-2-14|قرآن 2-14]]۔

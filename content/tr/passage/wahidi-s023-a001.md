@@ -10,5 +10,12 @@ al-Mu'minun 23:1 ayetinin nüzül sebebi hakkında El-Vahidi'nin rivayeti; Esbab
 
 The verse, in al-Wahidi's heading: «1».
 
+## Tam rivayet (Arapça kaynak metin)
+<div dir="rtl" lang="ar">
+
+عروة بن الزبير، عن عبد الرحمن بن عبد القاري قال: سمعت عمر بن الخطاب- يقول: كان إذا أنزل الوحي على رسول الله
+
+</div>
+
 ## Place in the museum
 Kaynak: [[work/asbab-nuzul-wahidi|El-Vahidi'nin Esbab Nüzul el-Kur'an'ı]]. Ayet: [[passage/quran-23-1|Kur'an 23-1]].

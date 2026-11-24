@@ -10,5 +10,12 @@ Riwayat al-Wahidi tentang sebab turunnya Maryam 19:64, diriwayatkan dari generas
 
 The verse, in al-Wahidi's heading: «64».
 
+## Laporan lengkap (teks sumber Arab)
+<div dir="rtl" lang="ar">
+
+" قال فنزلت: {وما نتنزل إلا بأمر ربك} الآية
+
+</div>
+
 ## Place in the museum
 Sumber: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an al-Wahidi]]. Ayatnya: [[passage/quran-19-64|Al-Qur'an 19-64]].

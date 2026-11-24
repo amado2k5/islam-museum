@@ -10,5 +10,12 @@ Al-Wahidi's report on the occasion of revelation of an-Nisa 4:171, narrated in A
 
 The verse, in al-Wahidi's heading: «لا تغلوا في دينكم».
 
+## Full report (Arabic source text)
+<div dir="rtl" lang="ar">
+
+نزلت في طوائف من النصارى حين قالوا عيسى ابن الله، فأنزل الله:
+
+</div>
+
 ## Place in the museum
 Source: [[work/asbab-al-nuzul-wahidi|al-Wahidi's Asbab nuzul al-Qur'an]]. The verse: [[passage/quran-4-171|Qur'an 4-171]].

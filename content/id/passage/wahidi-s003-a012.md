@@ -10,5 +10,12 @@ Riwayat al-Wahidi tentang sebab turunnya Al 'Imran 3:12, diriwayatkan dari gener
 
 The verse, in al-Wahidi's heading: «قل للذين كفروا ستغلبون».
 
+## Laporan lengkap (teks sumber Arab)
+<div dir="rtl" lang="ar">
+
+لتكونن كلمتنا واحدة، ثم رجعوا إلى المدينة، فأنزل اللهفيهم هذه
+
+</div>
+
 ## Place in the museum
 Sumber: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an al-Wahidi]]. Ayatnya: [[passage/quran-3-12|Al-Qur'an 3-12]].

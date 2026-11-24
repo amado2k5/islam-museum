@@ -10,5 +10,12 @@ Bani Isra'il 17:29 ayetinin nüzül sebebi hakkında El-Vahidi'nin rivayeti; Esb
 
 The verse, in al-Wahidi's heading: «29».
 
+## Tam rivayet (Arapça kaynak metin)
+<div dir="rtl" lang="ar">
+
+رسول الله- فقال: إن أمي تسألك كذا وكذا، فقال: "ما
+
+</div>
+
 ## Place in the museum
 Kaynak: [[work/asbab-nuzul-wahidi|El-Vahidi'nin Esbab Nüzul el-Kur'an'ı]]. Ayet: [[passage/quran-17-29|Kur'an 17-29]].

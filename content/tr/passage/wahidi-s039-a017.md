@@ -10,5 +10,12 @@ az-Zumar 39:17 ayetinin nüzül sebebi hakkında El-Vahidi'nin rivayeti; Esbab N
 
 The verse, in al-Wahidi's heading: «والذين اجتنبوا الطاغوت أن يعبدوها».
 
+## Tam rivayet (Arapça kaynak metin)
+<div dir="rtl" lang="ar">
+
+قال ابن زيد: نزلت في ثلاثة أنفار كانوا في الجاهلية يقولون: لا إله إلا
+
+</div>
+
 ## Place in the museum
 Kaynak: [[work/asbab-nuzul-wahidi|El-Vahidi'nin Esbab Nüzul el-Kur'an'ı]]. Ayet: [[passage/quran-39-17|Kur'an 39-17]].

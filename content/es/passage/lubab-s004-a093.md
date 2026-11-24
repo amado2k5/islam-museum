@@ -10,5 +10,12 @@ Informe de al-Suyuti sobre la ocasión de revelación de an-Nisa 4:93, en Lubab 
 
 The verse, in al-Suyuti's heading: «ومن يقتل مؤمنا متعمدا».
 
+## Informe completo (texto fuente en árabe)
+<div dir="rtl" lang="ar">
+
+ومن يقتل مؤمنا متعمدا الآية أخرج ابن جرير من طريق ابن جريح عن عكرمة أن رجلا من الأنصار قتل أخا مقيس ابن صبابة فأعطاه النبي الدية فقبلها ثم وثب على قاتل أخيه فقتله فقال النبي لا أؤمنه
+
+</div>
+
 ## Place in the museum
 Fuente: [[work/lubab-al-nuqul-suyuti|de al-Suyuti Lubab al-Nuqul]]. El versículo: [[passage/quran-4-93|Corán 4-93]].

@@ -10,5 +10,12 @@ al-Baqara 2:186 ayetinin nüzul sebebi hakkında es-Suyuti'nin rivayeti; Lübab�
 
 The verse, in al-Suyuti's heading: «وإذا سألك عبادي عني».
 
+## Tam rivayet (Arapça kaynak metin)
+<div dir="rtl" lang="ar">
+
+وإذا سألك عبادي عني الآية أخرج أبن جرير وابن آبى حاتم وابن مردويه وأبو الشيخ وغيرهم من طرق عن جرير بن عبد الحميد عن عبدة السجستاني عن الصلت بن حكيم بن معاوية بن حيدة عن أبيه عن جده قال جاء أعرابي إلى النبي صلى الله
+
+</div>
+
 ## Place in the museum
 Kaynak: [[work/lubab-al-nuqul-suyuti|es-Suyuti'nin Lubab al-Nuqul]]. Ayet: [[passage/quran-2-186|Kur'an 2-186]].

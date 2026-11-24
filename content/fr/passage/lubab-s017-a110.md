@@ -10,5 +10,12 @@ Rapport d'al-Suyuti sur la circonstance de révélation de al-Isra 17:110, dans 
 
 The verse, in al-Suyuti's heading: «قل ادعوا».
 
+## Rapport complet (texte source arabe)
+<div dir="rtl" lang="ar">
+
+قل ادعوا الآية أخرج البخاري وغيره عن ابن مسعود قال كان ناس من الأنس يعبدون ناسا من الجن فأسلم الجنيون واستمسك الآخرون بعبادتهم فأنزل الله قل ادعوا الذين زعمتم من دونه الآية
+
+</div>
+
 ## Place in the museum
 Source : [[work/lubab-al-nuqul-suyuti|d'al-Suyuti Lubab al-Nuqul]]. Le verset: [[passage/quran-17-110|Coran 17-110]].

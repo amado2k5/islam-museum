@@ -10,5 +10,12 @@ Al-Suyuti's report on the occasion of revelation of al-Anfal 8:55, in Lubab al-N
 
 The verse, in al-Suyuti's heading: «إن شر الدواب عند الله الذين كفروا».
 
+## Full report (Arabic source text)
+<div dir="rtl" lang="ar">
+
+إن شر الدواب عند الله الذين كفروا الآية أخرج أبو الشيخ عن سعيد بن جبير قال نزلت إن شر الدواب عند الله الذين كفروا فهم لا يؤمنون في ستة رهط من اليهود فيهم ابن التابوت
+
+</div>
+
 ## Place in the museum
 Source: [[work/lubab-al-nuqul-suyuti|al-Suyuti's Lubab al-Nuqul]]. The verse: [[passage/quran-8-55|Qur'an 8-55]].

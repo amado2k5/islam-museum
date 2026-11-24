@@ -91,6 +91,7 @@ translators: []
 - يروي أن الكلام تسرب بأن بني قريظة، في داخل المدينة وبينهم وبين النبي عهد، نقضوه وسيدخلون من الخلف. {cite:podcast-ahmed-el-sayed seerah-lilmuslihin/ep23}
 - يذكر أن الخطر أن نساء المسلمين وبيوتهم بلا حاجز، وأن المشركين قد يعبرون الخندق والجيش مشغول. {cite:podcast-ahmed-el-sayed seerah-lilmuslihin/ep23}
 - يروي أن النبي أرسل الزبير بن العوام ليتحقق، فرجع يخبره أن قريظة غدروا فعلًا. {cite:podcast-ahmed-el-sayed seerah-lilmuslihin/ep23}
+- يقول إن بني قريظة غدروا في أصعب لحظة على المسلمين. {cite:podcast-ahmed-el-sayed seerah-lilmuslihin/ep23}
 
 هذا رأي المحاضر، ينقله المتحف منسوبًا إليه ولا يتبناه.
 

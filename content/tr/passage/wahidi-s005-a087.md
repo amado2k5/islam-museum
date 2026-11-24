@@ -10,5 +10,12 @@ al-Ma'ida 5:87 ayetinin nüzül sebebi hakkında El-Vahidi'nin rivayeti; Esbab N
 
 The verse, in al-Wahidi's heading: «يا أيها الذين آمنوا لا تحرموا طيبات ما أحل الله لكم».
 
+## Tam rivayet (Arapça kaynak metin)
+<div dir="rtl" lang="ar">
+
+انتشرت إلى النساء، وإني حرمت علي اللحم، فنزلت: {يا أيها الذين آمنوا لا
+
+</div>
+
 ## Place in the museum
 Kaynak: [[work/asbab-nuzul-wahidi|El-Vahidi'nin Esbab Nüzul el-Kur'an'ı]]. Ayet: [[passage/quran-5-87|Kur'an 5-87]].

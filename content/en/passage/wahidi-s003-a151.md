@@ -10,5 +10,12 @@ Al-Wahidi's report on the occasion of revelation of Al 'Imran 3:151, narrated fr
 
 The verse, in al-Wahidi's heading: «سنلقي في قلوب الذين كفروا الرعب».
 
+## Full report (Arabic source text)
+<div dir="rtl" lang="ar">
+
+على ذلك ألقى اللهفي قلوبهم الرعب حتى رجعوا عما عزموا، وأنزل الله
+
+</div>
+
 ## Place in the museum
 Source: [[work/asbab-al-nuzul-wahidi|al-Wahidi's Asbab nuzul al-Qur'an]]. The verse: [[passage/quran-3-151|Qur'an 3-151]].

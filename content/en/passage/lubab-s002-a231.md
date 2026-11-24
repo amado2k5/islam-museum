@@ -10,5 +10,12 @@ Al-Suyuti's report on the occasion of revelation of al-Baqara 2:231, in Lubab al
 
 The verse, in al-Suyuti's heading: «وإذا طلقتم النساء فبلغن أجلهن فأمسكوهن بمعروف».
 
+## Full report (Arabic source text)
+<div dir="rtl" lang="ar">
+
+وإذا طلقتم النساء فبلغن أجلهن فأمسكوهن بمعروف [231] الآية أخرج ابن جرير من طريق العوفي عن ابن عباس قال كان الرجل يطلق امرأته ثم يراجعها قبل انقضاء عدتها ثم يطلقها يفعل ذلك يضارها ويعضلها فأنزل الله هذه الآية وأخرج عن السدي قال نزلت في رجل
+
+</div>
+
 ## Place in the museum
 Source: [[work/lubab-al-nuqul-suyuti|al-Suyuti's Lubab al-Nuqul]]. The verse: [[passage/quran-2-231|Qur'an 2-231]].

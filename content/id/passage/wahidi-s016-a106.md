@@ -10,5 +10,12 @@ Riwayat al-Wahidi tentang sebab turunnya an-Nahl 16:106, diriwayatkan dari gener
 
 The verse, in al-Wahidi's heading: «من كفر بالله من بعد إيمانه».
 
+## Laporan lengkap (teks sumber Arab)
+<div dir="rtl" lang="ar">
+
+قال ابن عباس: نزلت في عمار بن ياسر، وذلك أن المشركين أخذوه وأباه ياسرا
+
+</div>
+
 ## Place in the museum
 Sumber: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an al-Wahidi]]. Ayatnya: [[passage/quran-16-106|Al-Qur'an 16-106]].

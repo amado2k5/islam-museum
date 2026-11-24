@@ -10,5 +10,12 @@ al-Hijr 15:39 ayetinin nüzül sebebi hakkında El-Vahidi'nin rivayeti; Esbab N�
 
 The verse, in al-Wahidi's heading: «أذن للذين يقاتلون بأنهم ظلموا».
 
+## Tam rivayet (Arapça kaynak metin)
+<div dir="rtl" lang="ar">
+
+الله- فأنزل اللههذه الآية.
+
+</div>
+
 ## Place in the museum
 Kaynak: [[work/asbab-nuzul-wahidi|El-Vahidi'nin Esbab Nüzul el-Kur'an'ı]]. Ayet: [[passage/quran-15-39|Kur'an 15-39]].

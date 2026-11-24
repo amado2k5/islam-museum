@@ -10,5 +10,12 @@ Rapport d'al-Suyuti sur la circonstance de révélation de Bara'a (at-Tawba) 9:6
 
 The verse, in al-Suyuti's heading: «ومنهم الذين يؤذون النبي».
 
+## Rapport complet (texte source arabe)
+<div dir="rtl" lang="ar">
+
+ومنهم الذين يؤذون النبي الآية اخرج ابن أبي حاتم عن ابن عباس قال كان نبتل بن الحرث يأتي رسول الله فيجلس إليه فيسمع منه وينقل حديثه إلى المنافقين فأنزل الله ومنهم الذين يؤذون النبي الآية
+
+</div>
+
 ## Place in the museum
 Source : [[work/lubab-al-nuqul-suyuti|d'al-Suyuti Lubab al-Nuqul]]. Le verset: [[passage/quran-9-61|Coran 9-61]].

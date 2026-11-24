@@ -41,6 +41,7 @@ Registros del museo relacionados con esta parte: [[person/jibril|Jibril (Gabriel
 
 - Dice que las moradas de los Banu Qurayza están hoy dentro de la Medina edificada, a unos kilómetros al sur de la mezquita de Quba. {cite:podcast-ahmed-el-sayed seerah-lilmuslihin/ep24}
 - Dice que el Profeta salió con unos tres mil combatientes y los sitió ante sus fortalezas. {cite:podcast-ahmed-el-sayed seerah-lilmuslihin/ep24}
+- Dice que los Banu Qurayza se apoyaban en fortalezas, y da las de Jaybar como el ejemplo conservado más claro. {cite:podcast-ahmed-el-sayed seerah-lilmuslihin/ep24}
 
 Es el punto de vista del conferenciante; el museo lo recoge como suyo y no lo adopta.
 
@@ -60,7 +61,7 @@ Registros del museo relacionados con esta parte: [[event/siege-of-banu-qurayza|E
 - Relata que la gente de Sa'd lo llevó en brazos e intentó persuadirlo de ser clemente por su antigua alianza, y que en un relato Sa'd respondió que ningún reproche lo apartaría en asuntos de Dios. {cite:podcast-ahmed-el-sayed seerah-lilmuslihin/ep24}
 - Relata que, cuando Sa'd se acercó, el Profeta dijo a los que lo rodeaban que se pusieran de pie ante su jefe, como señal de honra. {cite:podcast-ahmed-el-sayed seerah-lilmuslihin/ep24}
 - Dice que Sa'd juzgó que sus combatientes fueran muertos y sus hijos tomados cautivos, y que el Profeta dijo que había juzgado conforme al juicio de Dios, y una versión añade que desde por encima de siete cielos. {cite:podcast-ahmed-el-sayed seerah-lilmuslihin/ep24}
-- Relata que se cavaron zanjas en Medina, se llevó a los combatientes y se les cortó la cabeza, y lo describe como el fin de las intrigas y la traición de los judíos en la ciudad. {cite:podcast-ahmed-el-sayed seerah-lilmuslihin/ep24}
+- Relata que se cavaron zanjas en Medina, se llevó a los combatientes y se les cortó la cabeza, y lo describe como el fin de las intrigas y la traición de los Banu Qurayza en la ciudad. {cite:podcast-ahmed-el-sayed seerah-lilmuslihin/ep24}
 - Señala que los Banu Qurayza ya habían traicionado antes y fueron perdonados, y sostiene que esta segunda traición no dejaba lugar al perdón. {cite:podcast-ahmed-el-sayed seerah-lilmuslihin/ep24}
 
 Es el punto de vista del conferenciante; el museo lo recoge como suyo y no lo adopta.

@@ -10,5 +10,12 @@ Riwayat al-Wahidi tentang sebab turunnya Bara'a (at-Tawba) 9:65, diriwayatkan da
 
 The verse, in al-Wahidi's heading: «ولئن سألتهم ليقولن إنما كنا نخوض ونلعب».
 
+## Laporan lengkap (teks sumber Arab)
+<div dir="rtl" lang="ar">
+
+نخوض ونلعب، فأنزل اللههذه الآية.
+
+</div>
+
 ## Place in the museum
 Sumber: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an al-Wahidi]]. Ayatnya: [[passage/quran-9-65|Al-Qur'an 9-65]].

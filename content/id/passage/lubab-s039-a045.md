@@ -10,5 +10,12 @@ Riwayat as-Suyuti tentang sebab turunnya az-Zumar 39:45, dalam Lubab al-Nuqul fi
 
 The verse, in al-Suyuti's heading: «وإذا ذكر الله».
 
+## Laporan lengkap (teks sumber Arab)
+<div dir="rtl" lang="ar">
+
+وإذا ذكر الله الآية أخرج ابن المنذر عن مجاهد أنها نزلت في قراءة النبي النجم عند الكعبة وفرحهم عند ذكر الآلهة
+
+</div>
+
 ## Place in the museum
 Sumber: [[work/lubab-al-nuqul-suyuti|as-Suyuti Lubab al-Nuqul]]. Ayatnya: [[passage/quran-39-45|Al-Qur'an 39-45]].

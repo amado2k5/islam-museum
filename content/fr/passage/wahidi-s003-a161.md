@@ -10,5 +10,12 @@ Rapport d'al-Wahidi sur la circonstance de révélation de Al 'Imran 3:161, tran
 
 The verse, in al-Wahidi's heading: «وما كان لنبي أن يغل».
 
+## Rapport complet (texte source arabe)
+<div dir="rtl" lang="ar">
+
+الله عليه وسلم - أخذها، فأنزل الله: {وما كان لنبي أن يغل} قال
+
+</div>
+
 ## Place in the museum
 Source : [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an d'al-Wahidi]]. Le verset : [[passage/quran-3-161|Coran 3-161]].

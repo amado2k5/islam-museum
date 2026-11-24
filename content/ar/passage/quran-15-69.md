@@ -3,6 +3,11 @@ id: passage/quran-15-69
 lang: ar
 source_lang: ar
 translators: []
+provenance:
+  generated_by: "Claude Code (Sonnet 5.5 session)"
+  model: claude-sonnet-5-5
+  run: altafsir-tabari-batch-4-2026-11-24
+  source: source/altafsir-tabari
 ---
 
 ## موجز
@@ -10,3 +15,7 @@ translators: []
 
 ## موضعها
 موضعها: الآية 69 من أصل 99 آية في السورة. النص محفوظ من مصحف تنزيل المجمّد ولا يُعاد كتابته هنا.
+
+## تفسير الطبري
+
+يبيّن الطبري أن لوطاً سأل قومه ألا يفضحوه في ضيفه وأن يخافوا الله ولا يخزوه، أي لا يذلّوه ولا يهينوه بالتعرض لهم، وأن قومه أجابوه بأنهم نهوه من قبل عن أن يستضيف أحداً من العالمين. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=15&tAyahNo=69&tDisplay=yes&UserProfile=0&LanguageId=1

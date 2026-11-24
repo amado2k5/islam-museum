@@ -10,5 +10,12 @@ an-Nisa 4:128 ayetinin nüzul sebebi hakkında es-Suyuti'nin rivayeti; Lübabü'
 
 The verse, in al-Suyuti's heading: «وإن امرأة».
 
+## Tam rivayet (Arapça kaynak metin)
+<div dir="rtl" lang="ar">
+
+وإن امرأة الآية روى أبو داود والحاكم عن عائشة قالت فرقت سودة أن يفارقها رسول الله حين أسنت فقالت يومي لعائشة فأنزل الله وإن امرأة خافت من بعلها نشوز الآية وروى الترمذي مثله عن ابن عباس ⁦(ك)⁩ وأخرج سعيد بن منصور
+
+</div>
+
 ## Place in the museum
 Kaynak: [[work/lubab-al-nuqul-suyuti|es-Suyuti'nin Lubab al-Nuqul]]. Ayet: [[passage/quran-4-128|Kur'an 4-128]].

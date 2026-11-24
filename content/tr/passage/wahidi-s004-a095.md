@@ -10,5 +10,12 @@ an-Nisa 4:95 ayetinin nüzül sebebi hakkında El-Vahidi'nin rivayeti; Esbab Nü
 
 The verse, in al-Wahidi's heading: «لا يستوي القاعدون من المؤمنين».
 
+## Tam rivayet (Arapça kaynak metin)
+<div dir="rtl" lang="ar">
+
+ثابت قال: كنت عند النبي- حين نزلت عليه: {لا يستوي
+
+</div>
+
 ## Place in the museum
 Kaynak: [[work/asbab-nuzul-wahidi|El-Vahidi'nin Esbab Nüzul el-Kur'an'ı]]. Ayet: [[passage/quran-4-95|Kur'an 4-95]].

@@ -10,5 +10,12 @@ Rapport d'al-Wahidi sur la circonstance de révélation de al-Furqan 25:10, tran
 
 The verse, in al-Wahidi's heading: «تبارك الذي إن شاء جعل لك خيرا من ذلك».
 
+## Rapport complet (texte source arabe)
+<div dir="rtl" lang="ar">
+
+عليه وسلم - فنزل جبريلمن عند ربه معزيا له، فقال: "السلام
+
+</div>
+
 ## Place in the museum
 Source : [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an d'al-Wahidi]]. Le verset : [[passage/quran-25-10|Coran 25-10]].

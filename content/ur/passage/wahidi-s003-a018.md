@@ -10,5 +10,12 @@ Al 'Imran 3:18 کے سببِ نزول پر الواحدی کی روایت — «
 
 The verse, in al-Wahidi's heading: «شهد الله أنه لا إله إلا هو».
 
+## مکمل روایت ⁦(عربی ماخذ متن)⁩
+<div dir="rtl" lang="ar">
+
+قال: "نعم"، قالا: إنا نسألك عن شهادة، فإن
+
+</div>
+
 ## Place in the museum
 ماخذ: [[work/asbab-nuzul-wahidi|الواحدی کی اسباب نزول القرآن]]۔ آیت: [[passage/quran-3-18|قرآن 3-18]]۔

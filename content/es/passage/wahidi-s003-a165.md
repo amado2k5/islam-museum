@@ -10,5 +10,12 @@ Informe de al-Wahidi sobre la ocasión de revelación de Al 'Imran 3:165, transm
 
 The verse, in al-Wahidi's heading: «أولما أصابتكم مصيبة».
 
+## Informe completo (texto fuente en árabe)
+<div dir="rtl" lang="ar">
+
+وكسرت رباعيته وهشمت البيضة على رأسه، وسال الدم على وجهه، فأنزل الله
+
+</div>
+
 ## Place in the museum
 Fuente: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an de al-Wahidi]]. El versículo: [[passage/quran-3-165|Corán 3-165]].

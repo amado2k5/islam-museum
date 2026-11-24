@@ -10,5 +10,12 @@ Al-Wahidi's report on the occasion of revelation of al-Kahf 18:83, narrated from
 
 The verse, in al-Wahidi's heading: «ويسألونك عن ذي القرنين».
 
+## Full report (Arabic source text)
+<div dir="rtl" lang="ar">
+
+قال قتادة: إن اليهود سألوا نبي الله- عن ذي
+
+</div>
+
 ## Place in the museum
 Source: [[work/asbab-al-nuzul-wahidi|al-Wahidi's Asbab nuzul al-Qur'an]]. The verse: [[passage/quran-18-83|Qur'an 18-83]].

@@ -10,5 +10,12 @@ Informe de al-Wahidi sobre la ocasión de revelación de an-Nisa 4:136, transmit
 
 The verse, in al-Wahidi's heading: «يا أيها الذين آمنوا لا تقربوا الصلاة وأنتم سكارى».
 
+## Informe completo (texto fuente en árabe)
+<div dir="rtl" lang="ar">
+
+نزلت في أناس من أصحاب رسول الله- كانوا يشربون
+
+</div>
+
 ## Place in the museum
 Fuente: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an de al-Wahidi]]. El versículo: [[passage/quran-4-136|Corán 4-136]].

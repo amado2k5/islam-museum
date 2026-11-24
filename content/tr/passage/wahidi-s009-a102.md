@@ -10,5 +10,12 @@ Bara'a (at-Tawba) 9:102 ayetinin nüzül sebebi hakkında El-Vahidi'nin rivayeti
 
 The verse, in al-Wahidi's heading: «وآخرون اعترفوا بذنوبهم».
 
+## Tam rivayet (Arapça kaynak metin)
+<div dir="rtl" lang="ar">
+
+قال ابن عباس في رواية الوالبي: نزلت في قوم كانوا قد تخلفوا عن رسول
+
+</div>
+
 ## Place in the museum
 Kaynak: [[work/asbab-nuzul-wahidi|El-Vahidi'nin Esbab Nüzul el-Kur'an'ı]]. Ayet: [[passage/quran-9-102|Kur'an 9-102]].

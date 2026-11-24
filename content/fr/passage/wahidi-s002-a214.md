@@ -10,5 +10,12 @@ Rapport d'al-Wahidi sur la circonstance de révélation de al-Baqara 2:214, tran
 
 The verse, in al-Wahidi's heading: «أم حسبتم أن تدخلوا الجنة».
 
+## Rapport complet (texte source arabe)
+<div dir="rtl" lang="ar">
+
+قال قتادة والسدي: نزلت هذه الآية في غزوة الخندق حين أصاب المسلمين ما
+
+</div>
+
 ## Place in the museum
 Source : [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an d'al-Wahidi]]. Le verset : [[passage/quran-2-214|Coran 2-214]].

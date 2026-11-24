@@ -10,5 +10,12 @@ al-Waqi'a 56:28 کے سببِ نزول پر الواحدی کی روایت — �
 
 The verse, in al-Wahidi's heading: «في سدر مخضود».
 
+## مکمل روایت ⁦(عربی ماخذ متن)⁩
+<div dir="rtl" lang="ar">
+
+فأعجبهم سدره، فقالوا: يا ليت لنا مثل هذا، فأنزل اللههذه الآية.
+
+</div>
+
 ## Place in the museum
 ماخذ: [[work/asbab-nuzul-wahidi|الواحدی کی اسباب نزول القرآن]]۔ آیت: [[passage/quran-56-28|قرآن 56-28]]۔

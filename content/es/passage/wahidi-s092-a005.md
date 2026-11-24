@@ -10,5 +10,12 @@ Informe de al-Wahidi sobre la ocasión de revelación de al-Layl 92:5, transmiti
 
 The verse, in al-Wahidi's heading: «فأما من أعطى واتقى وصدق بالحسنى».
 
+## Informe completo (texto fuente en árabe)
+<div dir="rtl" lang="ar">
+
+أنزل هؤلاء الآيات إلا فيه وفيما قاله أبوه: {فأما من أعطى واتقى وصدق
+
+</div>
+
 ## Place in the museum
 Fuente: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an de al-Wahidi]]. El versículo: [[passage/quran-92-5|Corán 92-5]].

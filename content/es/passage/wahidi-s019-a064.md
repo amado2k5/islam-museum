@@ -10,5 +10,12 @@ Informe de al-Wahidi sobre la ocasión de revelación de Maryam 19:64, transmiti
 
 The verse, in al-Wahidi's heading: «64».
 
+## Informe completo (texto fuente en árabe)
+<div dir="rtl" lang="ar">
+
+" قال فنزلت: {وما نتنزل إلا بأمر ربك} الآية
+
+</div>
+
 ## Place in the museum
 Fuente: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an de al-Wahidi]]. El versículo: [[passage/quran-19-64|Corán 19-64]].

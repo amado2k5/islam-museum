@@ -18,7 +18,7 @@ El conferenciante inicia el relato de la batalla de la Zanja, la última vez que
 
 Registros del museo relacionados con esta parte: [[event/battle-of-the-trench|La batalla de la trinchera (al-Ahzab)]], [[event/battle-of-badr|La batalla de Badr]], [[event/battle-of-uhud|La batalla de Uhud]], [[event/conquest-of-mecca|La conquista de La Meca (Fath Makka)]], [[event/treaty-of-hudaybiyya|El Tratado de Hudaybiyya]], [[event/expedition-to-tabuk|La expedición a Tabuk]], [[event/battle-of-hunayn|La batalla de Hunayn]], [[event/expedition-of-banu-al-nadir|El asedio y la expulsión de Banu al-Nadir]], [[person/muhammad|Muhammad]]
 
-### Causas: las maniobras judías y la reunión de las tribus
+### Las causas de la batalla y la reunión de las tribus
 
 - Relata que los biógrafos cuentan los esfuerzos de los judíos entre las principales razones de la llegada de los politeístas a Medina. {cite:podcast-ahmed-el-sayed seerah-lilmuslihin/ep23}
 - Explica que tras el revés de Uhud los judíos esperaron un golpe decisivo y propusieron reunir en grupos a las tribus árabes, y no solo a Quraysh. {cite:podcast-ahmed-el-sayed seerah-lilmuslihin/ep23}
@@ -91,6 +91,7 @@ Registros del museo relacionados con esta parte: [[event/battle-of-the-trench|La
 - Relata que corrió el rumor de que los Banu Qurayza, en el interior de Medina y ligados al Profeta por un pacto, lo habían roto y entrarían en la ciudad por la retaguardia. {cite:podcast-ahmed-el-sayed seerah-lilmuslihin/ep23}
 - Dice que el peligro era que las mujeres y los hogares de los musulmanes no tenían ninguna barrera y que los politeístas podrían cruzar la zanja mientras el ejército estaba inmovilizado. {cite:podcast-ahmed-el-sayed seerah-lilmuslihin/ep23}
 - Relata que el Profeta envió a al-Zubayr ibn al-Awwam a comprobarlo, y que al-Zubayr volvió informando de que los Qurayza habían traicionado en efecto. {cite:podcast-ahmed-el-sayed seerah-lilmuslihin/ep23}
+- Dice que los Banu Qurayza traicionaron en el momento más difícil para los musulmanes. {cite:podcast-ahmed-el-sayed seerah-lilmuslihin/ep23}
 
 Es el punto de vista del conferenciante; el museo lo recoge como suyo y no lo adopta.
 

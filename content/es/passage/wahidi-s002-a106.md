@@ -10,5 +10,12 @@ Informe de al-Wahidi sobre la ocasión de revelación de al-Baqara 2:106, transm
 
 The verse, in al-Wahidi's heading: «ما ننسخ من آية أو ننسها نأت بخير منها».
 
+## Informe completo (texto fuente en árabe)
+<div dir="rtl" lang="ar">
+
+القرآن إلا كلام محمد يقوله من تلقاء نفسه وهو كلام يناقض بعضه بعضا فأنزل
+
+</div>
+
 ## Place in the museum
 Fuente: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an de al-Wahidi]]. El versículo: [[passage/quran-2-106|Corán 2-106]].

@@ -10,5 +10,12 @@ Riwayat al-Wahidi tentang sebab turunnya al-Anfal 8:36, diriwayatkan dari genera
 
 The verse, in al-Wahidi's heading: «إن الذين كفروا ينفقون أموالهم ليصدوا عن سبيل الله».
 
+## Laporan lengkap (teks sumber Arab)
+<div dir="rtl" lang="ar">
+
+قال مقاتل والكلبي: نزلت في المطعمين يوم بدر، وكانوا اثني عشر رجلا أبو
+
+</div>
+
 ## Place in the museum
 Sumber: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an al-Wahidi]]. Ayatnya: [[passage/quran-8-36|Al-Qur'an 8-36]].

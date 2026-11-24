@@ -10,5 +10,12 @@ Al-Suyuti's report on the occasion of revelation of Al 'Imran 3:86, in Lubab al-
 
 The verse, in al-Suyuti's heading: «كيف يهدي الله قوما الآيات روى النسائي وابن».
 
+## Full report (Arabic source text)
+<div dir="rtl" lang="ar">
+
+كيف يهدي الله قوما الآيات روى النسائي وابن حيان والحاكم عن ابن عباس قال كان رجل من الأنصار أسلم ثم ندم فأرسل إلى قومه أرسلوا إلى رسول الله هل لي من توبة فنزلت كيف يهدي الله قوما كفروا إلى قوله فإن
+
+</div>
+
 ## Place in the museum
 Source: [[work/lubab-al-nuqul-suyuti|al-Suyuti's Lubab al-Nuqul]]. The verse: [[passage/quran-3-86|Qur'an 3-86]].

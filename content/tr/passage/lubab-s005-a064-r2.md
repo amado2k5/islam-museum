@@ -10,5 +10,12 @@ al-Ma'ida 5:64 ayetinin nüzul sebebi hakkında es-Suyuti'nin rivayeti; Lübabü
 
 The verse, in al-Suyuti's heading: «وقالت اليهود».
 
+## Tam rivayet (Arapça kaynak metin)
+<div dir="rtl" lang="ar">
+
+وقالت اليهود الآية أخرج الطبراني عن ابن عباس قال قال رجل من اليهود له النباش بن قيس إن ربك بخيل لا ينفق فأنزل الله وقالت اليهود يد الله مغلولة الآية وأخرج بو الشيخ من وجه آخر عنه قال نزلت وقالت اليهود يد الله مغلولة في
+
+</div>
+
 ## Place in the museum
 Kaynak: [[work/lubab-al-nuqul-suyuti|es-Suyuti'nin Lubab al-Nuqul]]. Ayet: [[passage/quran-5-64|Kur'an 5-64]].

@@ -10,5 +10,12 @@ Riwayat al-Wahidi tentang sebab turunnya al-Hijr 15:3, diriwayatkan dari generas
 
 The verse, in al-Wahidi's heading: «إن الذين يغضون أصواتهم عند رسول الله».
 
+## Laporan lengkap (teks sumber Arab)
+<div dir="rtl" lang="ar">
+
+قال عطاء عن ابن عباس: لما نزل قوله: {لا ترفعوا أصواتكم} تألى أبو
+
+</div>
+
 ## Place in the museum
 Sumber: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an al-Wahidi]]. Ayatnya: [[passage/quran-15-3|Al-Qur'an 15-3]].

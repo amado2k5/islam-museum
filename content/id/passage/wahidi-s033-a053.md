@@ -10,5 +10,12 @@ Riwayat al-Wahidi tentang sebab turunnya al-Ahzab 33:53, diriwayatkan dari gener
 
 The verse, in al-Wahidi's heading: «ولا أن تنكحوا أزواجه من بعده أبدا».
 
+## Laporan lengkap (teks sumber Arab)
+<div dir="rtl" lang="ar">
+
+عليه وسلم - لتزوجت عائشة، فأنزل اللهما أنزل.
+
+</div>
+
 ## Place in the museum
 Sumber: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an al-Wahidi]]. Ayatnya: [[passage/quran-33-53|Al-Qur'an 33-53]].

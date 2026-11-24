@@ -10,5 +10,12 @@ Riwayat al-Wahidi tentang sebab turunnya an-Nisa 4:136, diriwayatkan dari genera
 
 The verse, in al-Wahidi's heading: «يا أيها الذين آمنوا آمنوا بالله ورسوله».
 
+## Laporan lengkap (teks sumber Arab)
+<div dir="rtl" lang="ar">
+
+قال الكلبي: نزلت في عبد الله بن سلام وأسد وأسيد ابني كعب وثعلبة بن قيس
+
+</div>
+
 ## Place in the museum
 Sumber: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an al-Wahidi]]. Ayatnya: [[passage/quran-4-136|Al-Qur'an 4-136]].

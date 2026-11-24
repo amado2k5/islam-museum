@@ -10,5 +10,12 @@ Riwayat al-Wahidi tentang sebab turunnya al-Baqara 2:97, diriwayatkan dari gener
 
 The verse, in al-Wahidi's heading: «قل من كان عدوا لجبريل».
 
+## Laporan lengkap (teks sumber Arab)
+<div dir="rtl" lang="ar">
+
+فقالوا: يا أبا القاسم نسألك عن أشياء فإن أجبتنا فيها اتبعناك، أخبرنا من
+
+</div>
+
 ## Place in the museum
 Sumber: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an al-Wahidi]]. Ayatnya: [[passage/quran-2-97|Al-Qur'an 2-97]].

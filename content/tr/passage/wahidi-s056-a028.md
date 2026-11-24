@@ -10,5 +10,12 @@ al-Waqi'a 56:28 ayetinin nüzül sebebi hakkında El-Vahidi'nin rivayeti; Esbab 
 
 The verse, in al-Wahidi's heading: «في سدر مخضود».
 
+## Tam rivayet (Arapça kaynak metin)
+<div dir="rtl" lang="ar">
+
+فأعجبهم سدره، فقالوا: يا ليت لنا مثل هذا، فأنزل اللههذه الآية.
+
+</div>
+
 ## Place in the museum
 Kaynak: [[work/asbab-nuzul-wahidi|El-Vahidi'nin Esbab Nüzul el-Kur'an'ı]]. Ayet: [[passage/quran-56-28|Kur'an 56-28]].

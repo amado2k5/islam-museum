@@ -10,5 +10,12 @@ Bara'a (at-Tawba) 9:74 کے سببِ نزول پر الواحدی کی روای�
 
 The verse, in al-Wahidi's heading: «يحلفون بالله ما قالوا».
 
+## مکمل روایت ⁦(عربی ماخذ متن)⁩
+<div dir="rtl" lang="ar">
+
+فحلفوا ما قالوا شيئا من ذلك، فأنزل اللههذه
+
+</div>
+
 ## Place in the museum
 ماخذ: [[work/asbab-nuzul-wahidi|الواحدی کی اسباب نزول القرآن]]۔ آیت: [[passage/quran-9-74|قرآن 9-74]]۔

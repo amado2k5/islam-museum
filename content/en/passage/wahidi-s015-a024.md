@@ -10,5 +10,12 @@ Al-Wahidi's report on the occasion of revelation of al-Hijr 15:24, narrated from
 
 The verse, in al-Wahidi's heading: «ولقد علمنا المستقدمين منكم ولقد علمنا المستأخرين».
 
+## Full report (Arabic source text)
+<div dir="rtl" lang="ar">
+
+الصف المؤخر فإذا ركع قال هكذا، ونظر من تحت إبطه، فنزلت: {ولقد علمنا
+
+</div>
+
 ## Place in the museum
 Source: [[work/asbab-al-nuzul-wahidi|al-Wahidi's Asbab nuzul al-Qur'an]]. The verse: [[passage/quran-15-24|Qur'an 15-24]].

@@ -10,5 +10,12 @@ at-Taghabun 64:14 ayetinin nüzül sebebi hakkında El-Vahidi'nin rivayeti; Esba
 
 The verse, in al-Wahidi's heading: «يا أيها الذين آمنوا إن من أزواجكم وأولادكم عدوا لكم».
 
+## Tam rivayet (Arapça kaynak metin)
+<div dir="rtl" lang="ar">
+
+ولا مال، فمنهم من يرق لهم ويقيم ولا يهاجر، فأنزل الله هذه الآية.
+
+</div>
+
 ## Place in the museum
 Kaynak: [[work/asbab-nuzul-wahidi|El-Vahidi'nin Esbab Nüzul el-Kur'an'ı]]. Ayet: [[passage/quran-64-14|Kur'an 64-14]].

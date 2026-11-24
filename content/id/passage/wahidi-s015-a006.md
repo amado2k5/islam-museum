@@ -10,5 +10,12 @@ Riwayat al-Wahidi tentang sebab turunnya al-Hijr 15:6, diriwayatkan dalam Asbab 
 
 The verse, in al-Wahidi's heading: «يا أيها الذين آمنوا إن جاءكم فاسق بنبإ فتبينوا».
 
+## Laporan lengkap (teks sumber Arab)
+<div dir="rtl" lang="ar">
+
+نزلت في الوليد بن عقبة بن أبي معيط بعثه رسول الله
+
+</div>
+
 ## Place in the museum
 Sumber: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an al-Wahidi]]. Ayatnya: [[passage/quran-15-6|Al-Qur'an 15-6]].

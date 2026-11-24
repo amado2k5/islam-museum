@@ -10,5 +10,12 @@ Al-Suyuti's report on the occasion of revelation of Al 'Imran 3:195, in Lubab al
 
 The verse, in al-Suyuti's heading: «فاستجاب لهم».
 
+## Full report (Arabic source text)
+<div dir="rtl" lang="ar">
+
+فاستجاب لهم الآية أخرج عبد الرزاق وسعيد بن منصور والترمذي والحاكم وابن أبي حاتم عن أم سلمة أنها قالت يا رسول الله لا أسمع الله ذكر النساء في إلهجرة بشئ فأنزل الله فاستجاب لهم ربهم أني لا أضيع عمل عامل منكم من ذكر أو أنثى
+
+</div>
+
 ## Place in the museum
 Source: [[work/lubab-al-nuqul-suyuti|al-Suyuti's Lubab al-Nuqul]]. The verse: [[passage/quran-3-195|Qur'an 3-195]].

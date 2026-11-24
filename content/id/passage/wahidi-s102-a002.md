@@ -10,5 +10,12 @@ Riwayat al-Wahidi tentang sebab turunnya at-Takathur 102:2, diriwayatkan dari ge
 
 The verse, in al-Wahidi's heading: «ألهاكم التكاثر حتى زرتم المقابر».
 
+## Laporan lengkap (teks sumber Arab)
+<div dir="rtl" lang="ar">
+
+قال مقاتل والكلبي: نزلت في حيين من قريش: بني عبد مناف وبني سهم كان
+
+</div>
+
 ## Place in the museum
 Sumber: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an al-Wahidi]]. Ayatnya: [[passage/quran-102-2|Al-Qur'an 102-2]].

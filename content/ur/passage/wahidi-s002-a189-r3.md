@@ -10,5 +10,12 @@ al-Baqara 2:189 کے سببِ نزول پر الواحدی کی روایت — �
 
 The verse, in al-Wahidi's heading: «وليس البر بأن تأتوا البيوت من ظهورها».
 
+## مکمل روایت ⁦(عربی ماخذ متن)⁩
+<div dir="rtl" lang="ar">
+
+عير بذلك، فنزلت هذه الآية.
+
+</div>
+
 ## Place in the museum
 ماخذ: [[work/asbab-nuzul-wahidi|الواحدی کی اسباب نزول القرآن]]۔ آیت: [[passage/quran-2-189|قرآن 2-189]]۔

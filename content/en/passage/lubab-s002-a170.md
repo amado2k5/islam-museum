@@ -10,5 +10,12 @@ Al-Suyuti's report on the occasion of revelation of al-Baqara 2:170, in Lubab al
 
 The verse, in al-Suyuti's heading: «وإذا قيل لهم اتبعوا».
 
+## Full report (Arabic source text)
+<div dir="rtl" lang="ar">
+
+وإذا قيل لهم اتبعوا الآية ⁦(ك)⁩ أخرج ابن أبى حاتم من طريق سعيد أو عكرمة عن ابن عباس قال دعا رسول الله اليهود إلى الإسلام ورغبهم فيه وحذرهم عذاب الله ونقمته فقال رافع بن حريملة قال ومالك ابن عوف بل نتبع
+
+</div>
+
 ## Place in the museum
 Source: [[work/lubab-al-nuqul-suyuti|al-Suyuti's Lubab al-Nuqul]]. The verse: [[passage/quran-2-170|Qur'an 2-170]].

@@ -10,5 +10,12 @@ al-Ma'ida 5:67 کے سببِ نزول پر الواحدی کی روایت — «
 
 The verse, in al-Wahidi's heading: «والله يعصمك من الناس».
 
+## مکمل روایت ⁦(عربی ماخذ متن)⁩
+<div dir="rtl" lang="ar">
+
+غطيطه، ونزلت هذه الآية، فأنزل رسول الله- رأسه من
+
+</div>
+
 ## Place in the museum
 ماخذ: [[work/asbab-nuzul-wahidi|الواحدی کی اسباب نزول القرآن]]۔ آیت: [[passage/quran-5-67|قرآن 5-67]]۔

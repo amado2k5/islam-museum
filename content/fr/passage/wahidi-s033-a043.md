@@ -10,5 +10,12 @@ Rapport d'al-Wahidi sur la circonstance de révélation de al-Ahzab 33:43, trans
 
 The verse, in al-Wahidi's heading: «هو الذي يصلي عليكم وملائكته».
 
+## Rapport complet (texte source arabe)
+<div dir="rtl" lang="ar">
+
+قال مجاهد: لما نزلت: {إن الله وملائكته يصلون على النبي} الآية قال أبو
+
+</div>
+
 ## Place in the museum
 Source : [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an d'al-Wahidi]]. Le verset : [[passage/quran-33-43|Coran 33-43]].

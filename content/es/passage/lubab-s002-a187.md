@@ -10,5 +10,12 @@ Informe de al-Suyuti sobre la ocasión de revelación de al-Baqara 2:187, en Lub
 
 The verse, in al-Suyuti's heading: «أحل لكم ليلة الصيام».
 
+## Informe completo (texto fuente en árabe)
+<div dir="rtl" lang="ar">
+
+أحل لكم ليلة الصيام الآية روى أحمد وأبو داود والحاكم من طريق عبد الرحمن بن أبي ليلى عن معاذ بن جبل قال كانوا يأكلون ويشربون ويأتون النساء ما لم يناموا فإذا ناموا امتنعوا ثم أن رجلا من الأنصار يقال له قيس بن صرمة صلى العشاء
+
+</div>
+
 ## Place in the museum
 Fuente: [[work/lubab-al-nuqul-suyuti|de al-Suyuti Lubab al-Nuqul]]. El versículo: [[passage/quran-2-187|Corán 2-187]].

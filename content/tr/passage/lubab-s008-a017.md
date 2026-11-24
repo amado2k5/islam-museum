@@ -10,5 +10,12 @@ al-Anfal 8:17 ayetinin nüzul sebebi hakkında es-Suyuti'nin rivayeti; Lübabü'
 
 The verse, in al-Suyuti's heading: «وما رميت وروى الحاكم عن سعيد بن المسيب».
 
+## Tam rivayet (Arapça kaynak metin)
+<div dir="rtl" lang="ar">
+
+وما رميت وروى الحاكم عن سعيد بن المسيب عن أبيه قال أقبل أبي بن خلف يوم أحد إلى النبي فخلوا سبيله فاستقبله مصعب بن عمير ورأى رسول الله ترقوه أبي من فرجة بين سابغة الدرع والبيضة فطعنه
+
+</div>
+
 ## Place in the museum
 Kaynak: [[work/lubab-al-nuqul-suyuti|es-Suyuti'nin Lubab al-Nuqul]]. Ayet: [[passage/quran-8-17|Kur'an 8-17]].

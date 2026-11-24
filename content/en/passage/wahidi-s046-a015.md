@@ -10,5 +10,12 @@ Al-Wahidi's report on the occasion of revelation of al-Ahqaf 46:15, narrated fro
 
 The verse, in al-Wahidi's heading: «حتى إذا بلغ أشده وبلغ أربعين سنة».
 
+## Full report (Arabic source text)
+<div dir="rtl" lang="ar">
+
+قال ابن عباس في رواية عطاء: أنزلت في أبي بكر الصديق-
+
+</div>
+
 ## Place in the museum
 Source: [[work/asbab-al-nuzul-wahidi|al-Wahidi's Asbab nuzul al-Qur'an]]. The verse: [[passage/quran-46-15|Qur'an 46-15]].

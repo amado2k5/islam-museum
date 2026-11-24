@@ -10,5 +10,12 @@ Rapport d'al-Wahidi sur la circonstance de révélation de al-Baqara 2:133, tran
 
 The verse, in al-Wahidi's heading: «أم كنتم شهداء إذ حضر يعقوب الموت».
 
+## Rapport complet (texte source arabe)
+<div dir="rtl" lang="ar">
+
+نزلت في اليهود حين قالوا للنبي- ألست تعلم أن
+
+</div>
+
 ## Place in the museum
 Source : [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an d'al-Wahidi]]. Le verset : [[passage/quran-2-133|Coran 2-133]].

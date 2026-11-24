@@ -10,5 +10,12 @@ Informe de al-Suyuti sobre la ocasión de revelación de an-Nur 24:48, en Lubab 
 
 The verse, in al-Suyuti's heading: «وإذا دعوا».
 
+## Informe completo (texto fuente en árabe)
+<div dir="rtl" lang="ar">
+
+وإذا دعوا الآية أخرج ابن أبي حاتم من مرسل الحسن قال كان الرجل إذا كان بينه وبين الرجل منازعة فدعي إلى النبي وهو محق أذعن وعلم أن النبي سيقضي له بالحق وإذا أراد أن يظلم فدعي إلى
+
+</div>
+
 ## Place in the museum
 Fuente: [[work/lubab-al-nuqul-suyuti|de al-Suyuti Lubab al-Nuqul]]. El versículo: [[passage/quran-24-48|Corán 24-48]].

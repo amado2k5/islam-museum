@@ -10,5 +10,12 @@ Informe de al-Wahidi sobre la ocasión de revelación de al-Waqi'a 56:28, transm
 
 The verse, in al-Wahidi's heading: «في سدر مخضود».
 
+## Informe completo (texto fuente en árabe)
+<div dir="rtl" lang="ar">
+
+فأعجبهم سدره، فقالوا: يا ليت لنا مثل هذا، فأنزل اللههذه الآية.
+
+</div>
+
 ## Place in the museum
 Fuente: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an de al-Wahidi]]. El versículo: [[passage/quran-56-28|Corán 56-28]].

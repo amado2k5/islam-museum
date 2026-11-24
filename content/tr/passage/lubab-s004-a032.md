@@ -10,5 +10,12 @@ an-Nisa 4:32 ayetinin nüzul sebebi hakkında es-Suyuti'nin rivayeti; Lübabü'n
 
 The verse, in al-Suyuti's heading: «ولا تتمنوا روى الحاكم عن أم سلمة أنها».
 
+## Tam rivayet (Arapça kaynak metin)
+<div dir="rtl" lang="ar">
+
+ولا تتمنوا روى الحاكم عن أم سلمة أنها قالت يغزو الرجال ولا يغزو النساء وإنما لنا نصف الميراث فأنزل الله ولا تتمنوا ما فضل الله به بعضكم على بعض وأنزل فيها إن المسلمين والمسلمات [الاحزاب: 35] وأخرج ابن أبي حاتم عن ابن عباس قال أتت
+
+</div>
+
 ## Place in the museum
 Kaynak: [[work/lubab-al-nuqul-suyuti|es-Suyuti'nin Lubab al-Nuqul]]. Ayet: [[passage/quran-4-32|Kur'an 4-32]].

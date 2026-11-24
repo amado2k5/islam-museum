@@ -10,5 +10,12 @@ Informe de al-Wahidi sobre la ocasión de revelación de al-Qalam 68:51, transmi
 
 The verse, in al-Wahidi's heading: «51».
 
+## Informe completo (texto fuente en árabe)
+<div dir="rtl" lang="ar">
+
+نزلت حين أراد الكفار أن يعينوا رسول الله-
+
+</div>
+
 ## Place in the museum
 Fuente: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an de al-Wahidi]]. El versículo: [[passage/quran-68-51|Corán 68-51]].

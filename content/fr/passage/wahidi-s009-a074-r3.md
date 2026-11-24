@@ -10,5 +10,12 @@ Rapport d'al-Wahidi sur la circonstance de révélation de Bara'a (at-Tawba) 9:7
 
 The verse, in al-Wahidi's heading: «وهموا بما لم ينالوا».
 
+## Rapport complet (texte source arabe)
+<div dir="rtl" lang="ar">
+
+النبيحتى نزل منزله الذي أراد، فأنزل الله
+
+</div>
+
 ## Place in the museum
 Source : [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an d'al-Wahidi]]. Le verset : [[passage/quran-9-74|Coran 9-74]].

@@ -18,7 +18,7 @@ The lecturer opens the account of the Battle of the Trench, the last time the po
 
 Museum records linked to this part: [[event/battle-of-the-trench|The Battle of the Trench (al-Ahzab)]], [[event/battle-of-badr|The Battle of Badr]], [[event/battle-of-uhud|The Battle of Uhud]], [[event/conquest-of-mecca|The Conquest of Mecca (Fath Makka)]], [[event/treaty-of-hudaybiyya|The Treaty of Hudaybiyya]], [[event/expedition-to-tabuk|The expedition to Tabuk]], [[event/battle-of-hunayn|The Battle of Hunayn]], [[event/expedition-of-banu-al-nadir|The Siege and Expulsion of Banu al-Nadir]], [[person/muhammad|Muhammad]]
 
-### Causes: Jewish scheming and the gathering of tribes
+### Causes of the battle and the gathering of tribes
 
 - He relates that biographers count the Jews' efforts among the main reasons the polytheists came to Medina. {cite:podcast-ahmed-el-sayed seerah-lilmuslihin/ep23}
 - He explains that after the setback at Uhud the Jews hoped for a decisive final blow, so they urged that not only Quraysh but the Arab tribes be gathered in groups. {cite:podcast-ahmed-el-sayed seerah-lilmuslihin/ep23}
@@ -91,6 +91,7 @@ Museum records linked to this part: [[event/battle-of-the-trench|The Battle of t
 - He relates that word spread that Banu Qurayza, in the inner part of Medina and bound to the Prophet by a covenant, had broken it and would enter the city from behind. {cite:podcast-ahmed-el-sayed seerah-lilmuslihin/ep23}
 - He says the danger was that the women and homes of the Muslims had no barrier, and the polytheists could cross the trench while the army was pinned. {cite:podcast-ahmed-el-sayed seerah-lilmuslihin/ep23}
 - He relates that the Prophet sent al-Zubayr ibn al-Awwam to verify, and al-Zubayr returned reporting that the Qurayza had indeed betrayed. {cite:podcast-ahmed-el-sayed seerah-lilmuslihin/ep23}
+- He says Banu Qurayza betrayed at the hardest moment for the Muslims. {cite:podcast-ahmed-el-sayed seerah-lilmuslihin/ep23}
 
 This is the speaker's view; the museum reports it as his and does not adopt it.
 

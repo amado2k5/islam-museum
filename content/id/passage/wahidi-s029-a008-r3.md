@@ -10,5 +10,12 @@ Riwayat al-Wahidi tentang sebab turunnya al-'Ankabut 29:8, diriwayatkan dari gen
 
 The verse, in al-Wahidi's heading: «وإن جاهداك لتشرك بي».
 
+## Laporan lengkap (teks sumber Arab)
+<div dir="rtl" lang="ar">
+
+سعد بن مالك قال: أنزلت في هذه الآية: {وإن جاهداك لتشرك بي ما ليس لك به
+
+</div>
+
 ## Place in the museum
 Sumber: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an al-Wahidi]]. Ayatnya: [[passage/quran-29-8|Al-Qur'an 29-8]].

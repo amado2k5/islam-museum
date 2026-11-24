@@ -10,5 +10,12 @@ Al 'Imran 3:23 ayetinin nüzül sebebi hakkında El-Vahidi'nin rivayeti; Esbab N
 
 The verse, in al-Wahidi's heading: «ألم تر إلى الذين أوتوا نصيبا من الكتاب».
 
+## Tam rivayet (Arapça kaynak metin)
+<div dir="rtl" lang="ar">
+
+اختلفوا في سبب نزولها، فقال السدي: دعا النبي-
+
+</div>
+
 ## Place in the museum
 Kaynak: [[work/asbab-nuzul-wahidi|El-Vahidi'nin Esbab Nüzul el-Kur'an'ı]]. Ayet: [[passage/quran-3-23|Kur'an 3-23]].

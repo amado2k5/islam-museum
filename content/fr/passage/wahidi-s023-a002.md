@@ -10,5 +10,12 @@ Rapport d'al-Wahidi sur la circonstance de révélation de al-Mu'minun 23:2, tra
 
 The verse, in al-Wahidi's heading: «2».
 
+## Rapport complet (texte source arabe)
+<div dir="rtl" lang="ar">
+
+الله- كان إذا صلى رفع بصره إلى السماء، فنزل:
+
+</div>
+
 ## Place in the museum
 Source : [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an d'al-Wahidi]]. Le verset : [[passage/quran-23-2|Coran 23-2]].

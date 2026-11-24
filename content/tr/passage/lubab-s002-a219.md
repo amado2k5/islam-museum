@@ -10,5 +10,12 @@ al-Baqara 2:219 ayetinin nüzul sebebi hakkında es-Suyuti'nin rivayeti; Lübab�
 
 The verse, in al-Suyuti's heading: «يسألونك ماذا ينفقون».
 
+## Tam rivayet (Arapça kaynak metin)
+<div dir="rtl" lang="ar">
+
+يسألونك ماذا ينفقون الآية أخرج ابن جرير عن ابن جريج قال سأل المؤمنون رسول الله أين يضعون أموالهم فنزلت يسألونك ماذا ينفقون قل ما أنفقتم من خير الآية وأخرج ابن المنذر عن أبي حيان أن عمرو بن الجموح سأل النبي صلى
+
+</div>
+
 ## Place in the museum
 Kaynak: [[work/lubab-al-nuqul-suyuti|es-Suyuti'nin Lubab al-Nuqul]]. Ayet: [[passage/quran-2-219|Kur'an 2-219]].

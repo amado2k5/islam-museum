@@ -10,5 +10,12 @@ Informe de al-Wahidi sobre la ocasión de revelación de Al 'Imran 3:130, transm
 
 The verse, in al-Wahidi's heading: «يا أيها الذين آمنوا اصبروا وصابروا».
 
+## Informe completo (texto fuente en árabe)
+<div dir="rtl" lang="ar">
+
+أي شيء نزلت هذه الآية: {يا أيها الذين آمنوا اصبروا وصابروا ورابطوا}؟
+
+</div>
+
 ## Place in the museum
 Fuente: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an de al-Wahidi]]. El versículo: [[passage/quran-3-130|Corán 3-130]].

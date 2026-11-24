@@ -10,5 +10,12 @@ al-Mutaffifin 83:1 کے سببِ نزول پر الواحدی کی روایت �
 
 The verse, in al-Wahidi's heading: «ويل للمطففين».
 
+## مکمل روایت ⁦(عربی ماخذ متن)⁩
+<div dir="rtl" lang="ar">
+
+وسلم - المدينة كانوا من أخبث الناس كيلا، فأنزل الله: {ويل
+
+</div>
+
 ## Place in the museum
 ماخذ: [[work/asbab-nuzul-wahidi|الواحدی کی اسباب نزول القرآن]]۔ آیت: [[passage/quran-83-1|قرآن 83-1]]۔

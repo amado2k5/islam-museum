@@ -10,5 +10,12 @@ Informe de al-Suyuti sobre la ocasión de revelación de az-Zumar 39:17, en Luba
 
 The verse, in al-Suyuti's heading: «والذين اجتنبوا الطاغوت».
 
+## Informe completo (texto fuente en árabe)
+<div dir="rtl" lang="ar">
+
+والذين اجتنبوا الطاغوت الآية أخرج ابن أبي حاتم عن زيد بن أسلم أن هذه الآية نزلت في ثلاثة نفر كانوا في الجاهلية يقولون إله إلا الله زيد بن عمرو بن نفيل وأبي ذر الغفاري وسلمان الفارسي
+
+</div>
+
 ## Place in the museum
 Fuente: [[work/lubab-al-nuqul-suyuti|de al-Suyuti Lubab al-Nuqul]]. El versículo: [[passage/quran-39-17|Corán 39-17]].

@@ -10,5 +10,12 @@ Informe de al-Wahidi sobre la ocasión de revelación de al-An'am 6:33, transmit
 
 The verse, in al-Wahidi's heading: «قد نعلم إنه ليحزنك الذي يقولون».
 
+## Informe completo (texto fuente en árabe)
+<div dir="rtl" lang="ar">
+
+فأنزل اللههذه الآية.
+
+</div>
+
 ## Place in the museum
 Fuente: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an de al-Wahidi]]. El versículo: [[passage/quran-6-33|Corán 6-33]].

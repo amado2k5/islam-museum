@@ -10,5 +10,12 @@ Al-Suyuti's report on the occasion of revelation of al-Anfal 8:65, in Lubab al-N
 
 The verse, in al-Suyuti's heading: «إن يكن منكم عشرون صابرون».
 
+## Full report (Arabic source text)
+<div dir="rtl" lang="ar">
+
+إن يكن منكم عشرون صابرون الآية أخرج إسحق بن راهوية في مسنده عن ابن عباس قال لما افترض الله عليهم أن يقاتل الواحد عشرة ثقل ذلك عليهم وشق فوضع الله عنهم إلى أن يقاتل الواحد الرجلين فأنزل الله إن يكن منكم عشرون صابرون يغلبوا مائتين
+
+</div>
+
 ## Place in the museum
 Source: [[work/lubab-al-nuqul-suyuti|al-Suyuti's Lubab al-Nuqul]]. The verse: [[passage/quran-8-65|Qur'an 8-65]].

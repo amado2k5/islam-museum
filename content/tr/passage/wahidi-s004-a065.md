@@ -10,5 +10,12 @@ an-Nisa 4:65 ayetinin nüzül sebebi hakkında El-Vahidi'nin rivayeti; Esbab Nü
 
 The verse, in al-Wahidi's heading: «فلا وربك لا يؤمنون حتى يحكموك فيما شجر بينهم».
 
+## Tam rivayet (Arapça kaynak metin)
+<div dir="rtl" lang="ar">
+
+نزلت في الزبير بن العوام وخصمه حاطب بن أبي بلتعة، وقيل: هو ثعلبة بن
+
+</div>
+
 ## Place in the museum
 Kaynak: [[work/asbab-nuzul-wahidi|El-Vahidi'nin Esbab Nüzul el-Kur'an'ı]]. Ayet: [[passage/quran-4-65|Kur'an 4-65]].

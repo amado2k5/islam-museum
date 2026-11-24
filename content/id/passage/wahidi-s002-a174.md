@@ -10,5 +10,12 @@ Riwayat al-Wahidi tentang sebab turunnya al-Baqara 2:174, diriwayatkan dari gene
 
 The verse, in al-Wahidi's heading: «إن الذين يكتمون ms027 ما أنزل الله من الكتاب».
 
+## Laporan lengkap (teks sumber Arab)
+<div dir="rtl" lang="ar">
+
+الكلبي عن أبي صالح عن ابن عباس: نزلت في رؤساء اليهود وعلمائهم، كانوا
+
+</div>
+
 ## Place in the museum
 Sumber: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an al-Wahidi]]. Ayatnya: [[passage/quran-2-174|Al-Qur'an 2-174]].

@@ -10,5 +10,12 @@ Riwayat al-Wahidi tentang sebab turunnya an-Nisa 4:128, diriwayatkan dari genera
 
 The verse, in al-Wahidi's heading: «وإن امرأة خافت».
 
+## Laporan lengkap (teks sumber Arab)
+<div dir="rtl" lang="ar">
+
+نشوزا} إلى آخر الآية: نزلت في المرأة تكون عند الرجل فلا يستكثر منها
+
+</div>
+
 ## Place in the museum
 Sumber: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an al-Wahidi]]. Ayatnya: [[passage/quran-4-128|Al-Qur'an 4-128]].

@@ -10,5 +10,12 @@ Riwayat as-Suyuti tentang sebab turunnya al-An'am 6:52, dalam Lubab al-Nuqul fi 
 
 The verse, in al-Suyuti's heading: «ولا تطرد».
 
+## Laporan lengkap (teks sumber Arab)
+<div dir="rtl" lang="ar">
+
+ولا تطرد الآية روى ابن حبان والحاكم عن سعد ابن أبي وقاص قال لقد نزلت هذه الآية في ستة أنا وعبد الله ابن مسعود وأربعة قالوا لرسول الله اطردهم فإنا نستحي أن نكون تبعا لك كهؤلاء فوقع في نفس النبي صلى
+
+</div>
+
 ## Place in the museum
 Sumber: [[work/lubab-al-nuqul-suyuti|as-Suyuti Lubab al-Nuqul]]. Ayatnya: [[passage/quran-6-52|Al-Qur'an 6-52]].

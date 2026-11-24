@@ -10,5 +10,12 @@ Al-Wahidi's report on the occasion of revelation of ash-Shura 42:23, narrated fr
 
 The verse, in al-Wahidi's heading: «قل لا أسألكم عليه أجرا إلا المودة في القربى».
 
+## Full report (Arabic source text)
+<div dir="rtl" lang="ar">
+
+من أموالنا شيئا فنأتيك به فتستعين به على ما ينوبك وها هو ذا، فنزلت هذه
+
+</div>
+
 ## Place in the museum
 Source: [[work/asbab-al-nuzul-wahidi|al-Wahidi's Asbab nuzul al-Qur'an]]. The verse: [[passage/quran-42-23|Qur'an 42-23]].

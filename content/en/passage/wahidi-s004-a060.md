@@ -10,5 +10,12 @@ Al-Wahidi's report on the occasion of revelation of an-Nisa 4:60, narrated from 
 
 The verse, in al-Wahidi's heading: «ألم تر إلى الذين يزكون أنفسهم».
 
+## Full report (Arabic source text)
+<div dir="rtl" lang="ar">
+
+قال الكلبي: نزلت في رجال من اليهود أتوا رسول الله- بأطفالهم وقالوا: يا محمد.
+
+</div>
+
 ## Place in the museum
 Source: [[work/asbab-al-nuzul-wahidi|al-Wahidi's Asbab nuzul al-Qur'an]]. The verse: [[passage/quran-4-60|Qur'an 4-60]].

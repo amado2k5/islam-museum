@@ -10,5 +10,12 @@ Informe de al-Suyuti sobre la ocasión de revelación de an-Nisa 4:166, en Lubab
 
 The verse, in al-Suyuti's heading: «لكن الله يشهد».
 
+## Informe completo (texto fuente en árabe)
+<div dir="rtl" lang="ar">
+
+لكن الله يشهد الآية روى ابن إسحاق عن ابن عباس قال دخل جماعة من اليهود على رسول لله فقال لهم إني والله أعلم أنكم تعلمون أني رسول الله فقالوا ما نعلم ذلك فأنزل الله ولكن الله يشهد
+
+</div>
+
 ## Place in the museum
 Fuente: [[work/lubab-al-nuqul-suyuti|de al-Suyuti Lubab al-Nuqul]]. El versículo: [[passage/quran-4-166|Corán 4-166]].

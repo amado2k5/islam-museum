@@ -10,5 +10,12 @@ Informe de al-Wahidi sobre la ocasión de revelación de Al 'Imran 3:31, transmi
 
 The verse, in al-Wahidi's heading: «قل إن كنتم تحبون».
 
+## Informe completo (texto fuente en árabe)
+<div dir="rtl" lang="ar">
+
+قال الحسن وابن جريج: زعم أقوام على عهد رسول الله- أنهم يحبون الله، فقالوا: يا محمد إنا نحب ربنا فأنزل اللههذه
+
+</div>
+
 ## Place in the museum
 Fuente: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an de al-Wahidi]]. El versículo: [[passage/quran-3-31|Corán 3-31]].

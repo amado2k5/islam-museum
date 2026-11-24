@@ -10,5 +10,12 @@ Rapport d'al-Wahidi sur la circonstance de révélation de al-Hijr 15:2, transmi
 
 The verse, in al-Wahidi's heading: «يا أيها الذين آمنوا لا ترفعوا أصواتكم فوق صوت النبي».
 
+## Rapport complet (texte source arabe)
+<div dir="rtl" lang="ar">
+
+نزلت في ثابت بن قيس بن شماس كان في أذنه وقر، وكان جهوري الصوت، وكان
+
+</div>
+
 ## Place in the museum
 Source : [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an d'al-Wahidi]]. Le verset : [[passage/quran-15-2|Coran 15-2]].

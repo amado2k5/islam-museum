@@ -42,6 +42,7 @@ Müzedeki kayıtlar bu bölüme bağlıdır: [[person/jibril|Gabriel]]، [[perso
 
 - Banu Qurayza'nın evlerinin artık şehrin kentsel alanları içinde, Kuba Camii'nin dört kilometre veya beş kilometre güneyinde yer aldığını belirtmek gerekir. {cite:podcast-ahmed-el-sayed seerah-lilmuslihin/ep24}
 - Peygamber'in yaklaşık üç bin savaşçıyla dışarı çıkıp kalelerini kuşattığı belirtilir. {cite:podcast-ahmed-el-sayed seerah-lilmuslihin/ep24}
+- Beni Kurayza'nın kalelere dayandığını söyler ve günümüze kalan en açık örnek olarak Hayber kalelerini gösterir. {cite:podcast-ahmed-el-sayed seerah-lilmuslihin/ep24}
 
 Bu öğretim görevlisinin görüşüdür; müze bunu ona atfeder ancak benimsemez.
 
@@ -61,7 +62,7 @@ Müzedeki kayıtlar bu bölüme bağlıdır: [[event/siege-of-banu-qurayza|Banu 
 - Rivayete göre, Sa'd'ın adamları onu desteklemiş ve eski yemin nedeniyle yemin etmeyi hafifletmesi için ikna etmeye çalışmışlardır; o da bir rivayette, Allah uğruna hiçbir suçun kendisine yüklenmeyeceğini söylemiştir. {cite:podcast-ahmed-el-sayed seerah-lilmuslihin/ep24}
 - Peygamber yaklaştığında, Sa'd çevresindekilere efendilerine karşı durmalarını söylediği rivayet edilir. {cite:podcast-ahmed-el-sayed seerah-lilmuslihin/ep24}
 - Sa'd'ın savaşçılarını öldürmeye ve soylarını köleleştirmeye hükmettiği ve Peygamber'in Allah'ın hükmüyle ve yedi gökten yukarıdan gelen bir rivayette hüküm sürdüğünü söylediği belirtilir. {cite:podcast-ahmed-el-sayed seerah-lilmuslihin/ep24}
-- Şehirde siperler kazıldığı, savaşçıların getirildiği ve boyunlarının dövüldüğü söylenir; bu durum şehirdeki entrikalar ve ihanetlerin sona erdiği anlamına gelir. {cite:podcast-ahmed-el-sayed seerah-lilmuslihin/ep24}
+- Medine'de hendekler kazıldığını, savaşçıların getirilip idam edildiğini anlatır ve bunu Beni Kurayza'nın şehirdeki entrika ve ihanetinin sonu olarak niteler. {cite:podcast-ahmed-el-sayed seerah-lilmuslihin/ep24}
 - Banu Qurayza onları bundan önce ihanete uğrattığı belirtilir, bu yüzden Peygamber onları affetmiş ve ikinci ihanetin affedilmeye yer bırakmadığına inanır. {cite:podcast-ahmed-el-sayed seerah-lilmuslihin/ep24}
 
 Bu öğretim görevlisinin görüşüdür; müze bunu ona atfeder ancak benimsemez.

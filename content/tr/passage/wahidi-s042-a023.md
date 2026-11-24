@@ -10,5 +10,12 @@ ash-Shura 42:23 ayetinin nüzül sebebi hakkında El-Vahidi'nin rivayeti; Esbab 
 
 The verse, in al-Wahidi's heading: «قل لا أسألكم عليه أجرا إلا المودة في القربى».
 
+## Tam rivayet (Arapça kaynak metin)
+<div dir="rtl" lang="ar">
+
+من أموالنا شيئا فنأتيك به فتستعين به على ما ينوبك وها هو ذا، فنزلت هذه
+
+</div>
+
 ## Place in the museum
 Kaynak: [[work/asbab-nuzul-wahidi|El-Vahidi'nin Esbab Nüzul el-Kur'an'ı]]. Ayet: [[passage/quran-42-23|Kur'an 42-23]].

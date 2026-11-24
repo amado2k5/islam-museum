@@ -3,6 +3,11 @@ id: passage/quran-15-61
 lang: ar
 source_lang: ar
 translators: []
+provenance:
+  generated_by: "Claude Code (Sonnet 5.5 session)"
+  model: claude-sonnet-5-5
+  run: altafsir-tabari-batch-4-2026-11-24
+  source: source/altafsir-tabari
 ---
 
 ## موجز
@@ -10,3 +15,7 @@ translators: []
 
 ## موضعها
 موضعها: الآية 61 من أصل 99 آية في السورة. النص محفوظ من مصحف تنزيل المجمّد ولا يُعاد كتابته هنا.
+
+## تفسير الطبري
+
+يقول الطبري إن رسل الله لما أتوا آل لوط أنكرهم لوط ولم يعرفهم، فقال إنكم قوم منكرون، أي لا نعرفكم، فأجابته الرسل بأنهم جاؤوه بما كان قومه يشكّون في نزوله من عذاب الله على كفرهم. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=15&tAyahNo=61&tDisplay=yes&UserProfile=0&LanguageId=1

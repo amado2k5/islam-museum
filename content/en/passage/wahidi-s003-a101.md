@@ -10,5 +10,12 @@ Al-Wahidi's report on the occasion of revelation of Al 'Imran 3:101, narrated fr
 
 The verse, in al-Wahidi's heading: «وكيف تكفرون».
 
+## Full report (Arabic source text)
+<div dir="rtl" lang="ar">
+
+كر ذلك له، فذهب إليهم، فنزلت هذه الآية: {وكيف تكفرون وأنتم تتلى عليكم
+
+</div>
+
 ## Place in the museum
 Source: [[work/asbab-al-nuzul-wahidi|al-Wahidi's Asbab nuzul al-Qur'an]]. The verse: [[passage/quran-3-101|Qur'an 3-101]].

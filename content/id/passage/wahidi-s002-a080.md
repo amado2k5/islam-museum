@@ -10,5 +10,12 @@ Riwayat al-Wahidi tentang sebab turunnya al-Baqara 2:80, diriwayatkan dari gener
 
 The verse, in al-Wahidi's heading: «وقالوا لن تمسنا النار إلا أياما معدودة».
 
+## Laporan lengkap (teks sumber Arab)
+<div dir="rtl" lang="ar">
+
+أيام الآخرة، وإنما هي سبعة أيام ثم ينقطع العذاب، فأنزل اللهفي
+
+</div>
+
 ## Place in the museum
 Sumber: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an al-Wahidi]]. Ayatnya: [[passage/quran-2-80|Al-Qur'an 2-80]].

@@ -10,5 +10,12 @@ Riwayat al-Wahidi tentang sebab turunnya al-An'am 6:100, diriwayatkan dari gener
 
 The verse, in al-Wahidi's heading: «وجعلوا لله شركاء الجن».
 
+## Laporan lengkap (teks sumber Arab)
+<div dir="rtl" lang="ar">
+
+قال الكلبي: نزلت هذه الآية في الزنادقة، قالوا: إن اللهوإبليس
+
+</div>
+
 ## Place in the museum
 Sumber: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an al-Wahidi]]. Ayatnya: [[passage/quran-6-100|Al-Qur'an 6-100]].

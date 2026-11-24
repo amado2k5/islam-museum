@@ -10,5 +10,12 @@ Al-Wahidi's report on the occasion of revelation of al-Baqara 2:21, narrated fro
 
 The verse, in al-Wahidi's heading: «يا أيها الناس اعبدوا ربكم».
 
+## Full report (Arabic source text)
+<div dir="rtl" lang="ar">
+
+كل شيء نزل فيه: {يا أيها الناس} فهو مكي و {يا أيها الذين آمنوا} فهو مدني
+
+</div>
+
 ## Place in the museum
 Source: [[work/asbab-al-nuzul-wahidi|al-Wahidi's Asbab nuzul al-Qur'an]]. The verse: [[passage/quran-2-21|Qur'an 2-21]].

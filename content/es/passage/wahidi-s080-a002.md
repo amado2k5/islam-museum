@@ -10,5 +10,12 @@ Informe de al-Wahidi sobre la ocasión de revelación de 'Abasa 80:2, transmitid
 
 The verse, in al-Wahidi's heading: «عبس وتولى أن جاءه الأعمى».
 
+## Informe completo (texto fuente en árabe)
+<div dir="rtl" lang="ar">
+
+على القوم الذين يكلمهم، فأنزل اللههذه الآيات، فكان رسول الله- بعد ذلك يكرمه، وإذا رآه يقول: "مرحبا بمن عاتبني فيه
+
+</div>
+
 ## Place in the museum
 Fuente: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an de al-Wahidi]]. El versículo: [[passage/quran-80-2|Corán 80-2]].

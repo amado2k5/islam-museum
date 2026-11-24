@@ -10,5 +10,12 @@ Riwayat al-Wahidi tentang sebab turunnya al-Mumtahina 60:13, diriwayatkan dari g
 
 The verse, in al-Wahidi's heading: «يا أيها الذين آمنوا لا تتخذوا عدوي وعدوكم أولياء».
 
+## Laporan lengkap (teks sumber Arab)
+<div dir="rtl" lang="ar">
+
+قال جماعة من المفسرين: نزلت في حاطب بن أبي بلتعة وذلك أن سارة مولاة
+
+</div>
+
 ## Place in the museum
 Sumber: [[work/asbab-nuzul-wahidi|Asbab nuzul al-Qur'an al-Wahidi]]. Ayatnya: [[passage/quran-60-13|Al-Qur'an 60-13]].

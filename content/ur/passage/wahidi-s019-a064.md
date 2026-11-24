@@ -10,5 +10,12 @@ Maryam 19:64 کے سببِ نزول پر الواحدی کی روایت — «ا
 
 The verse, in al-Wahidi's heading: «64».
 
+## مکمل روایت ⁦(عربی ماخذ متن)⁩
+<div dir="rtl" lang="ar">
+
+" قال فنزلت: {وما نتنزل إلا بأمر ربك} الآية
+
+</div>
+
 ## Place in the museum
 ماخذ: [[work/asbab-nuzul-wahidi|الواحدی کی اسباب نزول القرآن]]۔ آیت: [[passage/quran-19-64|قرآن 19-64]]۔
