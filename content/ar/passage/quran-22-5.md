@@ -3,6 +3,11 @@ id: passage/quran-22-5
 lang: ar
 source_lang: ar
 translators: []
+provenance:
+  generated_by: "Claude Code (Sonnet 5.5 session)"
+  model: claude-sonnet-5-5
+  run: altafsir-tabari-batch-7-2026-11-24
+  source: source/altafsir-tabari
 ---
 
 ## موجز
@@ -10,3 +15,7 @@ translators: []
 
 ## موضعها
 موضعها: الآية 5 من أصل 78 آية في السورة. النص محفوظ من مصحف تنزيل المجمّد ولا يُعاد كتابته هنا.
+
+## تفسير الطبري
+
+يذكر الطبري أن الله خلق الناس من تراب ثم نطفة ثم علقة ثم مضغة مخلقة وغير مخلقة، ويبيّن أن منهم من يُتوفى قبل أن يبلغ أشده ومنهم من يُردّ إلى أرذل العمر وهو الهرم حتى لا يعقل بعد علم شيئاً. ويستدل بإحياء الأرض الهامدة بالمطر على البعث. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=22&tAyahNo=5&tDisplay=yes&UserProfile=0&LanguageId=1
