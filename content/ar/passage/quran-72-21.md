@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-12-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل الآيات [[passage/quran-72-20|72:20]] إلى [[passage/quran-72-22|72:22]]، وخلاصتها: يبيّن الطبري أن الله يأمر نبيه بأن يقول لمشركي العرب إنه لا يملك لهم ضراً في دينهم ولا دنياهم ولا رشداً، لأن الذي يملك ذلك هو الله. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=72&tAyahNo=21&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 20 إلى 22 مقطعاً واحداً. يفسّر قوله «قُلْ إِنِّي لاَ أَمْلِكُ لَكُمْ ضَرّاً وَلاَ رَشَداً»: قل يا محمد لمشركي العرب الذين ردّوا عليك ما جئتهم به من النصيحة: إني لا أملك لكم ضرّاً في دينكم ولا في دنياكم، ولا رشداً أرشدكم، لأن الذي يملك ذلك، الله الذي له مُلك كلّ شيء. وقوله: «قُلْ إنّي لَنْ يُجِيرَنِي مِنَ اللَّهِ أحَدٌ» من خلقه إن أرادني أمراً، ولا ينصرني منه ناصر. وذُكر أن هذه الآية أُنزلت على النبيّ، لأن بعض الجنّ قال: أنا أجيره. وينقل في المقطع أقوالاً عن قتادة وسفيان.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=72&tAyahNo=21&tDisplay=yes&UserProfile=0&LanguageId=1

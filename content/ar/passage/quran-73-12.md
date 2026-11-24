@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-12-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل الآيات [[passage/quran-73-11|73:11]] إلى [[passage/quran-73-13|73:13]]، وخلاصتها: يفسّر الطبري الأنكال بالقيود، ويروي عن عكرمة وحماد أنها قيود سوداء من نار جهنم، وأن لدى الله لهم جحيماً. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=73&tAyahNo=12&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 12 إلى 14 مقطعاً واحداً. يفسّر قوله «وَذَرْنِي وَٱلْمُكَذِّبِينَ أُوْلِي ٱلنَّعْمَةِ وَمَهِّلْهُمْ قَلِيلاً»: يعني تعالى ذكره بقوله «وَذَرْنِي وَالمُكَذّبينَ» فدعني يا محمد والمكذّبين بآياتي «أُولى النَّعْمَةِ» يعني أهل التنعم في الدنيا «وَمَهِّلْهُمْ قَليلاً» يقول: وأخرهم بالعذاب الذي بسطته لهم قليلاً حتى يبلغ الكتاب أجله. وذُكر أن الذي كان بين نزول هذه الآية وبين بدر يسير. وينقل في المقطع أقوالاً عن مجاهد وقتادة والحسن وعكرمة وسفيان.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=73&tAyahNo=12&tDisplay=yes&UserProfile=0&LanguageId=1

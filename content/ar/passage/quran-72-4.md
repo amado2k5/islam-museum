@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-12-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل الآيات [[passage/quran-72-4|72:4]] إلى [[passage/quran-72-6|72:6]]، وخلاصتها: يبيّن الطبري أن السفيه في قول الجن هو إبليس، ويروي ذلك عن قتادة ومجاهد، وأن الشطط ما كان من القول تعدياً وظلماً، ويروي عن ابن زيد. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=72&tAyahNo=4&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 4 إلى 6 مقطعاً واحداً. يفسّر قوله «وَأَنَّهُ كَانَ يَقُولُ سَفِيهُنَا عَلَى ٱللَّهِ شَطَطاً»: يقول عزّ وجلّ مخبراً عن قيل النفر من الجنّ الذين استمعوا القرآن «أنَّهُ كانَ يَقُولُ سَفِيهنا» وهو إبليس. وينقل في المقطع أقوالاً عن ابن عباس ومجاهد وقتادة والحسن وابن زيد وسفيان.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=72&tAyahNo=4&tDisplay=yes&UserProfile=0&LanguageId=1

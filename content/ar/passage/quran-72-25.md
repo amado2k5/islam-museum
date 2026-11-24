@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-12-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل الآيات [[passage/quran-72-25|72:25]] إلى [[passage/quran-72-28|72:28]]، وخلاصتها: يبيّن الطبري أن الله يأمر نبيه بأن يقول لهم إنه لا يدري أقريب ما يعدهم ربهم من العذاب وقيام الساعة أم يجعل له ربه غاية معلومة تطول مدتها. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=72&tAyahNo=25&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 25 إلى 28 مقطعاً واحداً. يفسّر قوله «قُلْ إِنْ أَدْرِيۤ أَقَرِيبٌ مَّا تُوعَدُونَ أَمْ يَجْعَلُ لَهُ رَبِّيۤ أَمَداً»: يقول تعالى ذكره لنبيه: قل يا محمد لهؤلاء المشركين بالله من قومك: ما أدري أقريب ما يعدكم ربكم من العذاب وقيام الساعة «أمْ يَجْعَلُ لَهُ رَبّي أمَداً» يعني: غاية معلومة تطول مدتها. وقوله: «عالِمُ الغَيْبِ فَلا يُظْهِرُ على غَيْبِهِ أحَداً إلاَّ مَنِ ارْتَضَى مِنْ رَسُولٍ» يعني بعالم الغيب: عالم ما غاب عن أبصار خلقه، فلم يروه فلا يظهر على غيبه أحداً، فيعلمه أو يريه إياه إلا من ارتضى من رسول، فإنه يظهره على ما شاء من ذلك. وينقل في المقطع أقوالاً عن ابن عباس وقتادة والضحاك وابن زيد وإبراهيم وسفيان.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=72&tAyahNo=25&tDisplay=yes&UserProfile=0&LanguageId=1

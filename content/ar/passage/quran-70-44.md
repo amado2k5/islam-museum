@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-12-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-لا يتضمن النص المحفوظ لهذه الصفحة تعليقاً مستقلاً على هذه الآية؛ إذ ينتهي التعليق المحفوظ عند الآية الثالثة والأربعين. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=70&tAyahNo=44&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 44 إلى 45 مقطعاً واحداً. يفسّر قوله «يَوْمَ يَخْرُجُونَ مِنَ ٱلأَجْدَاثِ سِرَاعاً كَأَنَّهُمْ إِلَىٰ نُصُبٍ يُوفِضُونَ»: وقوله: «يَوْمَ يَخْرُجُونَ» بيان وتوجيه عن اليوم الأوّل الذي في قوله: «يَوْمُهُمُ الَّذِي يوعَدُونَ» وتأويل الكلام: حتى يلاقوا يومهم الذي يوعدونه يوم يخرجون مِن الأجداث وهي القبور: واحدها جدث «سِرَاعاً كأنَّهُمْ إلى نُصُبٍ يُوفِضُونَ»، كما: وعن قتادة «يَوْمَ يَخْرُجُونَ مِنَ الأجْداثِ سِرَاعاً»: أي من القبور سراعاً. عن معمر، عن قتادة، مثله. وقد بيَّنا الجدث فيما مضى قبل بشواهده، وما قال أهل العلم فيه. وقوله: «إلى نُصُبٍ يُوفِضُونَ» يقول: كأنهم إلى عَلَم قد نُصب لهم يستبقون. وينقل في المقطع أقوالاً عن ابن عباس ومجاهد وقتادة وسفيان.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=70&tAyahNo=44&tDisplay=yes&UserProfile=0&LanguageId=1

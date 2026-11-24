@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-12-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل الآيات [[passage/quran-70-19|70:19]] إلى [[passage/quran-70-23|70:23]]، وخلاصتها: يبيّن الطبري أنه إذا كثر ماله ونال الغنى منع ما في يده بخلاً فلا ينفقه في طاعة الله ولا يؤدي حق الله فيه. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=70&tAyahNo=21&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 21 إلى 25 مقطعاً واحداً. يفسّر قوله «إِنَّ ٱلإِنسَانَ خُلِقَ هَلُوعاً»: «إنَّ الإنْسانَ» الكافر «خُلِقَ هَلُوعاً»، والهَلَع: شدّة الجَزَع مع شدّة الحرص والضجر. وينقل في المقطع أقوالاً عن ابن عباس وقتادة وسعيد بن جبير وابن زيد وإبراهيم وسفيان.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=70&tAyahNo=21&tDisplay=yes&UserProfile=0&LanguageId=1

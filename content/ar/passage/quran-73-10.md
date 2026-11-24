@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-12-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-لا يتضمن النص المحفوظ لهذه الصفحة تعليقاً مستقلاً على هذه الآية؛ إذ ينتهي التعليق المحفوظ عند الآية التاسعة. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=73&tAyahNo=10&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 10 إلى 12 مقطعاً واحداً. يفسّر قوله «وَٱذْكُرِ ٱسْمَ رَبِّكَ وَتَبَتَّلْ إِلَيْهِ تَبْتِيلاً»: «وَاذْكُرْ» يا محمد «اسْمَ رَبِّكَ» فادعه به «وَتَبَتَّلْ إلَيْهِ تَبْتِيلاً» يقول: وانقطع إليه انقطاعاً لحوائجك وعبادتك دون سائر الأشياء غيره وهو من قولهم: تبتَّلتُ هذا الأمر ومنه قيل لأمّ عيسى بن مريم البتول، لانقطاعها إلى الله ويقال للعابد المنقطع عن الدنيا وأسبابها إلى عبادة الله: قد تبتل ومنه الخبر الذي رُوي عن النبيّ «أنه نهى عن التبتُّل». وينقل في المقطع أقوالاً عن ابن عباس ومجاهد وقتادة والحسن وابن زيد وسفيان.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=73&tAyahNo=10&tDisplay=yes&UserProfile=0&LanguageId=1

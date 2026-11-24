@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-12-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل الآيات [[passage/quran-71-1|71:1]] إلى [[passage/quran-71-4|71:4]]، وخلاصتها: يبيّن الطبري أن نوحاً أمرهم بعبادة الله وتقواه وطاعته، أي اتقاء عقابه بالإيمان والعمل بالطاعة، وقبول نصيحته. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=71&tAyahNo=3&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 3 إلى 6 مقطعاً واحداً. يفسّر قوله «إِنَّآ أَرْسَلْنَا نُوحاً إِلَىٰ قَوْمِهِ أَنْ أَنذِرْ قَوْمَكَ مِن قَبْلِ أَن يَأْتِيَهُمْ عَذَابٌ أَلِيمٌ»: «إنَّا أرْسَلْنا نُوحاً» وهو نوح بن لمَكَ «إلى قَوْمِهِ أنْ أنْذِرْ قَوْمَكَ مِنْ قَبْلِ أنْ يأْتِيَهُمْ عَذَابٌ ألِيمٌ» يقول: أرسلناه إليهم بأن أنذر قومك فأن في موضع نصب في قول بعض أهل العربية، وفي موضع خفض في قول بعضهم. وقد بيَّنت العِلل لكلّ فريق منهم، والصواب عندنا من القول في ذلك فيما مضى من كتابنا هذا، بما أغنى عن إعادته في هذا الموضع، وهي في قراءة عبد الله فيما ذُكر: «إنَا أرْسَلْنا نُوحاً إلى قَوْمِهِ أنْذِرْ قَوْمَكَ» بغير «أن»، وجاز ذلك لأن الإرسال بمعنى القول، فكأنه قيل: قلنا لنوح: أنذر قومك من قبل أن يأتيهم عذاب أليم وذلك العذاب الأليم هو الطوفان الذي غرّقهم الله به. وينقل في المقطع أقوالاً عن قتادة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=71&tAyahNo=3&tDisplay=yes&UserProfile=0&LanguageId=1

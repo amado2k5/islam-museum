@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-12-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل الآيات [[passage/quran-70-11|70:11]] إلى [[passage/quran-70-14|70:14]]، وخلاصتها: يبيّن الطبري أن المجرم يتمنى أن يفتدي من عذاب ذلك اليوم ببنيه، ثم ينجيه ذلك من عذاب الله، ويبدأ بالأحب فالأحب والأقرب فالأقرب من أهله. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=70&tAyahNo=11&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 11 إلى 14 مقطعاً واحداً. يفسّر قوله «يُبَصَّرُونَهُمْ يَوَدُّ ٱلْمُجْرِمُ لَوْ يَفْتَدِي مِنْ عَذَابِ يَوْمِئِذٍ بِبَنِيهِ»: يودّ الكافر يومئذٍ ويتمنى أنه يفتدى من عذاب الله إياه ذلك اليوم ببنيه وصاحبته، وهي زوجته، وأخيه وفصيلته، وهم عشيرته التي تؤويه، يعني التي تضمه إلى رحله، وتنزل فيه امرأته، لقربة ما بينها وبينه، وبمن في الأرض جميعاً من الخلق، ثم ينجيه ذلك من عذاب الله إياه ذلك اليوم. وبدأ جلّ ثناؤه بذكر البنين، ثم الصاحبة، ثم الأخ، إعلاماً منه عباده أن الكافر من عظيم ما ينزل به يومئذٍ من البلاء يفتدى نفسه، لو وجد إلى ذلك سبيلاً بأحبّ الناس إليه، كان في الدنيا، وأقربهم إليه نسباً. وينقل في المقطع أقوالاً عن مجاهد وقتادة وابن زيد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=70&tAyahNo=11&tDisplay=yes&UserProfile=0&LanguageId=1

@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-12-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل الآيات [[passage/quran-70-6|70:6]] إلى [[passage/quran-70-10|70:10]]، وخلاصتها: يبيّن الطبري أن الجبال تكون كالعهن، أي كالصوف، ويروي ذلك عن مجاهد. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=70&tAyahNo=9&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 9 إلى 13 مقطعاً واحداً. يفسّر قوله «إِنَّهُمْ يَرَوْنَهُ بَعِيداً»: إن هؤلاء المشركين يرون العذاب الذي سألوا عنه، الواقع عليهم بعيداً وقوعه، وإنما أخبر جلّ ثناؤه أنهم يرون ذلك بعيداً، لأنهم كانوا لا يصدّقون به، وينكرون البعث بعد الممات، والثواب والعقاب، فقال: إنهم يرونه غير واقع، ونحن نراه قريباً، لأنه كائن، وكلّ ما هو آت قريب. والهاء والميم من قوله: «إنَّهُمْ» من ذكر الكافرين، والهاء من قوله: «يَرَوْنَهُ» من ذكر العذاب. وقوله: وينقل في المقطع أقوالاً عن ابن عباس ومجاهد وقتادة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=70&tAyahNo=9&tDisplay=yes&UserProfile=0&LanguageId=1

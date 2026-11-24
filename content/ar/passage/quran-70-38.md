@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-12-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-لا يتضمن النص المحفوظ لهذه الصفحة تعليقاً مستقلاً على هذه الآية؛ إذ ينتهي التعليق المحفوظ عند الآية السابعة والثلاثين. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=70&tAyahNo=38&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 38 إلى 41 مقطعاً واحداً. يفسّر قوله «فَمَالِ الَّذِينَ كَفَرُواْ قِبَلَكَ مُهْطِعِينَ»: فما شأن الذين كفروا بالله قبلك يا محمد مهطعين وقد بيَّنا معنى الإهطاع، وما قال أهل التأويل فيه فيما مضى بما أغنى عن إعادته في هذا الموضع، غير أنا نذكر في هذا الموضع بعض ما لم يذكره هنالك. فقال قتادة فيه ما: وعن قتادة، قوله «فَمَا لِلَّذِينَ كَفَرُوا قِبَلَكَ مُهْطِعِينَ» يقول: عامدين. وقال ابن زيد فيه ما: قال ابن زيد، قوله: «فَما لِلَّذِينَ كَفَرُوا قِبَلَكَ مُهْطِعِينَ» قال: المهطع: الذي لا يطرف. وكان بعض أهل المعرفة بكلام العرب من أهل البصرة يقول: معناه: مسرعين. ورُوي فيه عن الحسن ما: وعن الحسن، في قوله: «فمَا لِلَّذِين كَفَرُوا قِبَلَكَ مُهْطِعِين» قال: منطلقين. وعن الحسن، مثله. وقوله: وينقل في المقطع أقوالاً عن ابن عباس ومجاهد وقتادة والحسن وابن زيد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=70&tAyahNo=38&tDisplay=yes&UserProfile=0&LanguageId=1

@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-12-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل الآيات [[passage/quran-73-5|73:5]] إلى [[passage/quran-73-7|73:7]]، وخلاصتها: يفسّر الطبري ناشئة الليل بأنها ساعات الليل، ويروي عن ابن عباس وأبي ميسرة أن نشأ بمعنى قام، وعن غيره أنها الليل كله. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=73&tAyahNo=6&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 6 إلى 8 مقطعاً واحداً. يفسّر قوله «إِنَّا سَنُلْقِي عَلَيْكَ قَوْلاً ثَقِيلاً»: اختلف أهل التأويل في تأويل قوله: «إنَّا سَنُلْقِي عَلَيْك قَوْلاً ثَقِيلاً» فقال بعضهم: عُني به إنا سنلقي عليك قولاً ثقيلاً العمل به. وينقل في المقطع أقوالاً عن ابن عباس وقتادة والحسن وعكرمة وابن زيد وسماك.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=73&tAyahNo=6&tDisplay=yes&UserProfile=0&LanguageId=1
