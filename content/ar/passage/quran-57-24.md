@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-11-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن الله لا يحب كل مختال فخور، الباخلين بما أوتوا في الدنيا المفتخرين به، الذين يبخلون بحق الله ويأمرون الناس بالبخل، ومن يتولّ ويعرض عن عظة الله فإن الله هو الغني الحميد. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=57&tAyahNo=24&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «ٱلَّذِينَ يَبْخَلُونَ وَيَأْمُرُونَ ٱلنَّاسَ بِٱلْبُخْلِ وَمَن يَتَوَلَّ فَإِنَّ ٱللَّهَ هُوَ ٱلْغَنِيُّ ٱلْحَمِيدُ»: والله لا يحبّ كلّ مختال فخور، الباخلين بما أوتوا في الدنيا على اختيالهم به وفخرهم بذلك على الناس، فهم يبخلون بإخراج حق الله الذي أوجبه عليهم فيه، ويشِحُّون به، وهم مع بخلهم به أيضاً يأمرون الناس بالبخل. وقوله: «وَمَنْ يَتَولَّ فإنَّ اللّهَ هُوَ الغَنِيُّ الحَمِيدُ» يقول تعالى ذكره: ومن يُدْبِرْ مُعْرِضاً عن عظة الله «فإنَّ اللّهَ هُوَ الغَنِيُّ الْحَمِيدُ» يقول تعالى ذكره: ومن يدبر معرضاً عن عظة الله، تاركاً العمل بما دعاه إليه من الإنفاق في سبيله، فرِحاً بما أوتي من الدنيا مختالاً به فخوراً بخيلاً، فإن الله هو الغنيّ عن ماله ونفقته، وعن غيره من سائر خلقه، الحميد إلى خلقه بما أنعم به عليهم من نِعمه.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=57&tAyahNo=24&tDisplay=yes&UserProfile=0&LanguageId=1

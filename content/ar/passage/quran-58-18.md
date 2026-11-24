@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-11-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن هؤلاء أصحاب النار يوم يبعثهم الله جميعاً من قبورهم أحياء كهيئتهم، فيحلفون له كما يحلفون للمؤمنين كاذبين، ويروي عن قتادة أن المنافق يحلف يوم القيامة كما حلف لأولياء الله في الدنيا، ويحسبون أنهم على شيء ألا إنهم هم الكاذبون. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=58&tAyahNo=18&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «يَوْمَ يَبْعَثُهُمُ ٱللَّهُ جَمِيعاً فَيَحْلِفُونَ لَهُ كَمَا يَحْلِفُونَ لَكُمْ وَيَحْسَبُونَ أَنَّهُمْ عَلَىٰ شَيْءٍ أَلاَ إِنَّهُمْ هُمُ ٱلْكَاذِبُونَ»: هؤلاء الذين ذكرهم هم أصحاب النار، يوم يبعثهم الله جميعاً، فيوم من صلة أصحاب النار. وعُني بقوله «يَوْمَ يَبْعَثُهُمْ اللَّهُ جَمِيعاً» من قبورهم أحياء كهيئاتهم قبل مماتهم، فيحلفون له كما يحلفون لكم كاذبين مبطلين فيها، كما: عن معمر، عن قتادة، في قوله: «فَيَحْلِفُونَ لَهُ» قال: إن المنافق حلف له يوم القيامة كما حلف لأوليائه في الدنيا. وعن قتادة، في قوله: «يَوْمَ يَبْعَثُهُمُ اللَّهُ جَمِيعاً»... الآية، والله حالفَ المنافقون ربهم يوم القيامة، كما حالفوا أولياءه في الدنيا. وينقل في المقطع أقوالاً عن قتادة وسماك وسفيان.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=58&tAyahNo=18&tDisplay=yes&UserProfile=0&LanguageId=1

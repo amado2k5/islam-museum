@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-11-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن الله لا ينهى المؤمنين عن الذين لم يقاتلوهم في الدين ولم يخرجوهم من ديارهم من أهل مكة أن يبرّوهم ويقسطوا إليهم أي يعدلوا فيهم بالإحسان، ويذكر اختلاف أهل التأويل فيمن عُني بها؛ فقال بعضهم الذين آمنوا بمكة ولم يهاجروا. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=60&tAyahNo=8&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «لاَّ يَنْهَاكُمُ ٱللَّهُ عَنِ ٱلَّذِينَ لَمْ يُقَاتِلُوكُمْ فِي ٱلدِّينِ وَلَمْ يُخْرِجُوكُمْ مِّن دِيَارِكُمْ أَن تَبَرُّوهُمْ وَتُقْسِطُوۤاْ إِلَيْهِمْ إِنَّ ٱللَّهَ يُحِبُّ ٱلْمُقْسِطِينَ»: «لا يَنْهاكُمُ اللَّهُ عَنِ الَّذِينَ لَمْ يُقاتِلُوكُمْ فِي الدّينِ» من أهل مكة «وَلم يُخْرِجوكُمْ مِنْ دِيارِكُمْ أنْ تَبرُّوهُمْ وَتُقْسِطُوا إلَيْهِمْ» يقول: وتعدلوا فيهم بإحسانكم إليهم، وبرّكم بهم. واختلف أهل التأويل في الذين عُنُوا بهذه الآية، فقال بعضهم: عُني بها: الذين كانوا آمنوا بمكة ولم يهاجروا، فأذن الله للمؤمنين ببرّهم والإحسان إليهم. وينقل في المقطع أقوالاً عن مجاهد وقتادة وابن زيد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=60&tAyahNo=8&tDisplay=yes&UserProfile=0&LanguageId=1

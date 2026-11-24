@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-11-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن الله لو أنزل القرآن على جبل لرأيته خاشعاً متذللاً متصدعاً من خشية الله على قساوته، حذراً من ألا يؤدي حق الله في تعظيم القرآن، بخلاف ابن آدم الذي أُنزل عليه وهو مستخفّ معرض، وتلك الأمثال يضربها الله للناس لعلهم يتفكرون. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=59&tAyahNo=21&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «لَوْ أَنزَلْنَا هَٰذَا ٱلْقُرْآنَ عَلَىٰ جَبَلٍ لَّرَأَيْتَهُ خَاشِعاً مُّتَصَدِّعاً مِّنْ خَشْيَةِ ٱللَّهِ وَتِلْكَ ٱلأَمْثَالُ نَضْرِبُهَا لِلنَّاسِ لَعَلَّهُمْ يَتَفَكَّرُونَ»: وقوله: «لَوْ أنْزَلْنا هَذَا القُرآنَ عَلَى جَبَل لرأيْتَهُ خاشِعاً مُتَصَدّعاً مِن خَشْيَةِ اللَّهِ» يقول جلّ ثناؤه: لو أنزلنا هذا القرآن على جبل، وهو حجر، لرأيته يا محمد خاشعاً يقول: متذللاً، متصدعاً من خشية الله على قساوته، حذراً من أن لا يؤدّي حقّ الله المفترض عليه في تعظيم القرآن، وقد أنزل على ابن آدم وهو بحقه مستخفٌ، وعنه، عما فيه من العِبَر والذكر، مُعْرض، كأن لم يسمعها، كأن في أذنيه وَقْراً. وينقل في المقطع أقوالاً عن ابن عباس وقتادة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=59&tAyahNo=21&tDisplay=yes&UserProfile=0&LanguageId=1

@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-11-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن الله هو الذي ينزّل على عبده محمد آيات بيّنات مفصَّلات ليخرج الناس من ظلمة الكفر إلى نور الإيمان ومن الضلالة إلى الهدى، وإنه بهم لرؤوف رحيم. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=57&tAyahNo=9&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «هُوَ ٱلَّذِي يُنَزِّلُ عَلَىٰ عَبْدِهِ آيَاتٍ بَيِّنَاتٍ لِّيُخْرِجَكُمْ مِّنَ ٱلظُّلُمَاتِ إِلَى ٱلنُّورِ وَإِنَّ ٱللَّهَ بِكُمْ لَرَءُوفٌ رَّحِيمٌ»: الله الذي ينزّل على عبده محمد «آياتٍ بَيِّناتٍ» يعني مفصَّلات «لِيُخْرِجَكُمْ مِنَ الظُّلُماتِ إلى النُّورِ» يقول جلّ ثناؤه: ليخرجكم أيها الناس من ظُلمة الكفر إلى نور الإيمان، ومن الضلالة إلى الهُدى. وينقل في المقطع أقوالاً عن مجاهد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=57&tAyahNo=9&tDisplay=yes&UserProfile=0&LanguageId=1

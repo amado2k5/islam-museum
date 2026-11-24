@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-11-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن ما أصاب الناس من مصيبة في الأرض من جدب وقحط وذهاب زرع، ولا في أنفسهم من أوصاب وأوجاع وأسقام، إلا في كتاب أي أم الكتاب من قبل أن يخلقها الله، فبرأ بمعنى خلق، ويروي عن ابن عباس وغيره في ذلك، وأن ذلك على الله يسير. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=57&tAyahNo=22&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «مَآ أَصَابَ مِن مُّصِيبَةٍ فِي ٱلأَرْضِ وَلاَ فِيۤ أَنفُسِكُمْ إِلاَّ فِي كِتَٰبٍ مِّن قَبْلِ أَن نَّبْرَأَهَآ إِنَّ ذَٰلِكَ عَلَى ٱللَّهِ يَسِيرٌ»: ما أصابكم أيها الناس من مصيبة في الأرض بجدوبها وقحوطها، وذهاب زرعها وفسادها «وَلا فِي أنْفُسِكُمْ» بالأوصاب والأوجاع والأسقام «إلاَّ فِي كِتابٍ» يعني إلا في أمّ الكتاب «مِنْ قَبْل أنْ نَبْرأها» يقول: من قبل أن نبرأ الأنفس، يعني من قبل أن نخلقها. يقال: قد برأ الله هذا الشيء، بمعنى: خلقه فهو بارئه. وينقل في المقطع أقوالاً عن ابن عباس وقتادة وابن زيد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=57&tAyahNo=22&tDisplay=yes&UserProfile=0&LanguageId=1

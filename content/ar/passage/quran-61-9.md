@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-11-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن الله أرسل رسوله بالهدى ودين الحق أي ببيان الحق وبدين الله وهو الإسلام، ليظهره على الدين كله أي على كل دين سواه، ويذكر أن ذلك عند نزول عيسى ابن مريم حين تصير الملة واحدة، ولو كره المشركون. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=61&tAyahNo=9&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «هُوَ ٱلَّذِيۤ أَرْسَلَ رَسُولَهُ بِٱلْهُدَىٰ وَدِينِ ٱلْحَقِّ لِيُظْهِرَهُ عَلَى ٱلدِّينِ كُلِّهِ وَلَوْ كَرِهَ ٱلْمُشْرِكُونَ»: الله الذي أرسل رسوله محمداً بالهدى ودين الحقّ، يعني ببيان الحقّ ودين الحقّ يعني: وبدين الله، وهو الإسلام. وقوله: «لِيُظْهِرَهُ على الدّينِ كُلِّه» يقول: ليظهر دينه الحقّ الذي أرسل به رسوله على كلّ دين سواه، وذلك عند نزول عيسى ابن مريم، وحين تصير الملة واحدة، فلا يكون دين غير الإسلام، كما: عن سفيان، عن أبي المقدام ثابت بن هرمز، عن أبي هريرة «لِيَظْهِرَهُ على الدّينِ كُلِّه» قال: خروج عيسى ابن مريم. وقد ذكرنا اختلاف المختلفين في معنى قوله «لَيُظْهِرَهُ على الدّين كُلِّه» والصواب عندنا من القول في ذلك بعلله فيما مضى، بما أغنى عن إعادته في هذا الموضع. وينقل في المقطع أقوالاً عن سفيان.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=61&tAyahNo=9&tDisplay=yes&UserProfile=0&LanguageId=1

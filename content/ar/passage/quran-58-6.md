@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-11-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن للكافرين عذاباً مهيناً يوم يبعثهم الله جميعاً من قبورهم فينبئهم بما عملوا، أحصاه الله عليهم وعدّه وحفظه ونسيه عاملوه، والله على كل شيء شهيد. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=58&tAyahNo=6&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «يَوْمَ يَبْعَثُهُمُ ٱللَّهُ جَمِيعاً فَيُنَبِّئُهُمْ بِمَا عَمِلُوۤاْ أَحْصَاهُ ٱللَّهُ وَنَسُوهُ وَٱللَّهُ عَلَىٰ كُلِّ شَيْءٍ شَهِيدٌ»: وللكافرين عذاب مَهين في يوم يبعثهم الله جميعاً، وذلك «يَوْمَ يَبْعَثُهُمْ اللَّهُ جَمِيعاً» من قبورهم لموقف القيامة «فَيُنَبِّئُهُمْ» الله «بِمَا عَمِلُوا أحْصَاهُ اللَّهُ وَنَسُوهُ» يقول تعالى ذكره: أحصى الله ما عملوا، فعدّه عليهم، وأثبته وحفظه، ونسيه عاملوه «والله على كلّ شيء شهيد» يقول: «وَاللَّهُ» جلّ ثناؤه «على كُلّ شَيْء» عملوه وغير ذلك من أمر خلقه «شهيد» يعني شاهد يعلمه ويحيط به فلا يغرب عنه شيء منه.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=58&tAyahNo=6&tDisplay=yes&UserProfile=0&LanguageId=1

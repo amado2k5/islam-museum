@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-11-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن الله يعلم ما في السماوات السبع والأرض لا يخفى عليه خافية، ويعلم ما يُسرّه الناس بينهم من قول وعمل وما يعلنونه، والله عليم بذات الصدور أي بضمائرهم وما تنطوي عليه نفوسهم مما هو أخفى من السر. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=64&tAyahNo=4&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «يَعْلَمُ مَا فِي ٱلسَّمَٰوَٰتِ وَٱلأَرْضِ وَيَعْلَمُ مَا تُسِرُّونَ وَمَا تُعْلِنُونَ وَٱللَّهُ عَلِيمٌ بِذَاتِ ٱلصُّدُورِ»: يعلم ربكم أيها الناس ما في السموات السبع والأرض من شيء، لا يخفى عليه من ذلك خافية «وَيَعْلَمُ ما تُسِرُّون» أيها الناس بينكم من قول وعمل «وَما تُعْلِنُونَ» من ذلك فتظهرونه «وَاللَّهُ عَلِيمٌ بذَاتِ الصُّدُورِ» يقول جلّ ثناؤه: والله ذو علم بضمائر صدور عباده، وما تنطوي عليه نفوسهم، الذي هو أخفى من السرّ، لا يعزب عنه شيء من ذلك. يقول تعالى ذكره لعباده: احذَروا أن تسرّوا غير الذي تعلنون، أو تضمروا في أنفسكم غير ما تُبدونه، فإن ربكم لا يخفى عليه من ذلك شيء، وهو محص جميعه، وحافظ عليكم كله.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=64&tAyahNo=4&tDisplay=yes&UserProfile=0&LanguageId=1

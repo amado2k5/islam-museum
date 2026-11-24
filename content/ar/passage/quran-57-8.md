@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-11-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن الله يسأل: وما لكم لا تؤمنون بالله والرسول يدعوكم لتؤمنوا بربكم وقد أتاكم من الحجج ما قطع عذركم وأزال الشك، وقد أخذ ميثاقكم، قيل في صلب آدم بأن الله ربكم، وقيل بما نصب لكم من الأدلة. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=57&tAyahNo=8&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَمَا لَكُمْ لاَ تُؤْمِنُونَ بِٱللَّهِ وَٱلرَّسُولُ يَدْعُوكُمْ لِتُؤْمِنُواْ بِرَبِّكُمْ وَقَدْ أَخَذَ مِيثَاقَكُمْ إِن كُنتُمْ مُّؤْمِنِينَ»: وما لكم لا تؤمنون بالله، وما شأنكم أيها الناس لا تقرّون بوحدانية الله، ورسوله محمد يدعوكم إلى الإقرار بوحدانيته، وقد أتاكم من الحجج على حقيقة ذلك، ما قطع عذركم، وأزال الشكّ من قلوبكم، وقد أخذ ميثاقكم، قيل: عني بذلك وقد أخذ منكم ربكم ميثاقكم في صُلب آدم، بأن الله ربكم لا إله لكم سواه. وينقل في المقطع أقوالاً عن مجاهد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=57&tAyahNo=8&tDisplay=yes&UserProfile=0&LanguageId=1

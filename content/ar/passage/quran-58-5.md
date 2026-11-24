@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-11-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن الذين يخالفون الله في حدوده وفرائضه فيجعلون حدوداً غير حدوده هم المحادّون لله ورسوله، ويروي عن قتادة أنه يعادون الله ورسوله، وأنهم كُبتوا أي غيظوا وأخزوا كما غيظ الذين من قبلهم، وأنزل الله آيات بيّنات وللكافرين عذاب مهين. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=58&tAyahNo=5&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «إِنَّ ٱلَّذِينَ يُحَآدُّونَ ٱللَّهَ وَرَسُولَهُ كُبِتُواْ كَمَا كُبِتَ ٱلَّذِينَ مِن قَبْلِهِمْ وَقَدْ أَنزَلْنَآ آيَاتٍ بَيِّنَاتٍ وَلِلْكَافِرِينَ عَذَابٌ مُّهِينٌ»: إن الذين يخالفون الله في حدوده وفرائضه، فيجعلون حدوداً غير حدوده، وذلك هو المحادّة لله ولرسوله، وأما قتادة فإنه كان يقول في معنى ذلك ما: وعن قتادة، قوله: «إنَّ الَّذِينَ يُحادُّونَ الله وَرَسُولَهُ» يقول: يعادون الله ورسوله. وأما قوله: «كُبِتُوا كمَا كُبِتَ الَّذِينَ مِنْ قَبْلِهِمْ» فإنه يعني: غيظوا وأخزوا كما غيظ الذين من قبلهم من الأمم الذين حادّوا الله ورسوله، وخزُوا. وينقل في المقطع أقوالاً عن قتادة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=58&tAyahNo=5&tDisplay=yes&UserProfile=0&LanguageId=1

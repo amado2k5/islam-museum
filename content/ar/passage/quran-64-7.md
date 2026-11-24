@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-11-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن الذين كفروا زعموا أن لن يبعثهم الله من قبورهم، وأن «زعم» عند ابن عمر كنية الكذب، ثم يأمر الله نبيه أن يقول لهم: بلى وربي لتبعثنّ ثم لتنبّؤنّ بما عملتم، وذلك على الله يسير. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=64&tAyahNo=7&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «زَعَمَ ٱلَّذِينَ كَفَرُوۤاْ أَن لَّن يُبْعَثُواْ قُلْ بَلَىٰ وَرَبِّي لَتُبْعَثُنَّ ثُمَّ لَتُنَبَّؤُنَّ بِمَا عَمِلْتُمْ وَذَلِكَ عَلَى ٱللَّهِ يَسِيرٌ»: زعم الذين كفروا بالله أن لن يبعثهم الله إليه من قبورهم بعد مماتهم. وكان ابن عمر يقول: زعم كنية الكذب. عن سفيان، عن بعض أصحابه عن ابن عمر. وقوله: «قُلْ بَلى ورَبِّي لَتُبْعَثُنَّ» يقول لنبيه محمد: قل لهم يا محمد: بلى وربي لتبعثن من قبوركم «ثُمَّ لَتُنَبَّؤنَّ بِمَا عَمِلْتُمْ» يقول: ثم لتخبرنّ بأعمالكم التي عملتموها في الدنيا، «وذَلكَ على اللَّهِ يَسِيرٌ» يقول: وبعثكم من قبوركم بعد مماتكم على الله سهل هين. وينقل في المقطع أقوالاً عن سفيان.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=64&tAyahNo=7&tDisplay=yes&UserProfile=0&LanguageId=1

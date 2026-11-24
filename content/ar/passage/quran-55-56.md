@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-11-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل الآيات [[passage/quran-55-56|55:56]] إلى [[passage/quran-55-57|55:57]]، وخلاصتها: يقول الطبري إن في هذه الفرش قاصرات الطرف، وهن النساء اللاتي قصر طرفهن على أزواجهن فلا ينظرن إلى غيرهم، ويروي ذلك عن مجاهد وقتادة، ثم يذكر أنه لم يطمثهن إنس قبلهم ولا جان. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=55&tAyahNo=56&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 56 إلى 57 مقطعاً واحداً. يفسّر قوله «فِيهِنَّ قَاصِرَاتُ ٱلطَّرْفِ لَمْ يَطْمِثْهُنَّ إِنسٌ قَبْلَهُمْ وَلاَ جَآنٌّ»: يقول تعالى ذكره في هذه الفرش التي بطائنها من إستبرق «قاصِرَاتُ الطَّرْفِ» وهنّ النساء اللاتي قد قُصرَ طرفهنّ على أزواجهنّ، فلا ينظرن إلى غيرهم من الرجال. وينقل في المقطع أقوالاً عن ابن عباس ومجاهد وقتادة وعكرمة وابن زيد وسفيان.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=55&tAyahNo=56&tDisplay=yes&UserProfile=0&LanguageId=1

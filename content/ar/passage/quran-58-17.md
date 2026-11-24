@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-11-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن أموال المنافقين وأولادهم لن تغني عنهم يوم القيامة من الله شيئاً فلا يفتدون بها ولا ينصرونهم، وأولئك أصحاب النار هم فيها خالدون ماكثون إلى غير نهاية. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=58&tAyahNo=17&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «لَّن تُغْنِيَ عَنْهُمْ أَمْوَالُهُمْ وَلاَ أَوْلاَدُهُمْ مِّنَ ٱللَّهِ شَيْئاً أُوْلَٰئِكَ أَصْحَابُ ٱلنَّارِ هُمْ فِيهَا خَالِدُونَ»: لن تغني عن هؤلاء المنافقين يوم القيامة أموالهم، فيفتدوا بها من عذاب الله المهين لهم ولا أولادهم، فينصرونهم ويستنقذونهم من الله إذا عاقبهم «أُولَئِكَ أصحَابُ النَّارِ» يقول: هؤلاء الذين تولوا قوما غضب الله عليهم، وهم المنافقون أصحاب النار، يعني أهلها الذين هم فيها خالدون، يقول: هم في النار ماكثون إلى غير نهاية.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=58&tAyahNo=17&tDisplay=yes&UserProfile=0&LanguageId=1

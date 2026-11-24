@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-11-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن الله ينهى المؤمنين أن تلهيهم أموالهم وأولادهم عن ذكر الله، من ألهاه عن كذا، ويستشهد بشعر امرئ القيس، ويذكر قولاً أن المراد بذكر الله هنا الصلوات المفروضة، ومن يفعل ذلك فأولئك هم الخاسرون. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=63&tAyahNo=9&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «يٰأَيُّهَا ٱلَّذِينَ آمَنُواْ لاَ تُلْهِكُمْ أَمْوَالُكُمْ وَلاَ أَوْلاَدُكُمْ عَن ذِكْرِ ٱللَّهِ وَمَن يَفْعَلْ ذَلِكَ فَأُوْلَٰئِكَ هُمُ ٱلْخَاسِرُونَ»: يا أيها الذين صدّقوا الله ورسوله «لا تُلْهِكُمْ أمْوَالكُمْ» يقول: لا توجب لكم أموالكم «وَلا أوْلادُكُمْ» اللهو «عَنْ ذِكْرِ اللَّهِ» وهو من ألهيته عن كذا وكذا، فلها هو يلهو لهواً ومنه قول امرىء القيس:وَمِثْلكِ حُبْلَى قد طرَقْتُ وَمُرْضِعٍ فألْهَيْتُها عَنْ ذِي تَمائمَ مُحْوِلِ وقيل: عُنِي بذكر الله جلّ ثناؤه في هذا الموضع: الصلوات الخمس. وينقل في المقطع أقوالاً عن الضحاك.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=63&tAyahNo=9&tDisplay=yes&UserProfile=0&LanguageId=1

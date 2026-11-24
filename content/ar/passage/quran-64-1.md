@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-11-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن ما في السماوات السبع والأرض من خلقه يسبّح له ويعظمه، وله الملك نافذ سلطانه وقضاؤه، وله الحمد من كل ما فيها لأنهم لا يعرفون الخير إلا منه ولا رازق لهم سواه، وهو على كل شيء قدير. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=64&tAyahNo=1&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «يُسَبِّحُ لِلَّهِ مَا فِي ٱلسَّمَٰوَٰتِ وَمَا فِي ٱلأَرْضِ لَهُ ٱلْمُلْكُ وَلَهُ ٱلْحَمْدُ وَهُوَ عَلَىٰ كُلِّ شَيْءٍ قَدِيرٌ»: يسجد له ما في السموات السبع وما في الأرض من خلقه ويعظمه. وقوله: «لَهُ المُلْكُ» يقول تعالى ذكره: له ملك السموات والأرض وسلطانه ماض قضاؤه في ذلك نافذ فيه أمره. وقوله: «وَلَهُ الحَمْدُ» يقول: وله حمد كلّ ما فيها من خلق، لأن جميع من في ذلك من الخلق لا يعرفون الخير إلا منه، وليس لهم رازق سواه فله حمد جميعهم «وَهُوَ على كُلِّ شَيْءٍ قَدِيرٌ» يقول: وهو على كلّ شيء ذو قدرة، يقول: يخلق ما يشاء، ويميت من يشاء، ويغني من أراد، ويفقر من يشاء ويعزّ من يشاء، ويذلّ من يشاء، لا يتعذرّ عليه شيء أراده، لأنه ذو القدرة التامة التي لا يعجزه معها شيء.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=64&tAyahNo=1&tDisplay=yes&UserProfile=0&LanguageId=1

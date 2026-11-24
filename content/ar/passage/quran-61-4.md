@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-11-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن الله يحب الذين يقاتلون في سبيله صفاً مصطفين، كأنهم بنيان مرصوص أي حيطان مبنية قد رصّ بعضها إلى بعض فأحكم وأتقن، وذلك جواب للقائلين لو علمنا أحب الأعمال إلى الله لعملناه حتى نموت. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=61&tAyahNo=4&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «إِنَّ ٱللَّهَ يُحِبُّ ٱلَّذِينَ يُقَاتِلُونَ فِي سَبِيلِهِ صَفّاً كَأَنَّهُم بُنْيَانٌ مَّرْصُوصٌ»: يقول تعالى ذكره للقائلين: لو علمنا أحبّ الأعمال إلى الله لعملناه حتى نموت: «إنَّ اللَّهَ» أيها القوم «يُحِبُّ الَّذِينَ يُقاتِلُونَ فِي سَبِيلِهِ» كأنهم، يعني في طريقه ودينه الذي دعا إليه «صَفًّا» يعني بذلك أنهم يقاتلون أعداء الله مصطفين. وقوله: «كأنَّهُمْ بُنْيان مَرْصُوصٌ» يقول: يقاتلون في سبيل الله صفاً مصطفاً، كأنهم في اصطفافهم هنالك حيطان مبنية قد رصّ، فأحكم وأتقن، فلا يغادر منه شيئاً، وكان بعضهم يقول: بني بالرصاص. وينقل في المقطع أقوالاً عن قتادة وابن زيد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=61&tAyahNo=4&tDisplay=yes&UserProfile=0&LanguageId=1

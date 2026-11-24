@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-11-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن الله بما يعملون خبير، يوم يجمعهم ليوم الجمع أي الخلائق للعرض، ذلك يوم التغابن أي يوم غبن أهل الجنة أهل النار، ويروي ذلك عن مجاهد وغيره، ثم يذكر جزاء من يؤمن بالله ويعمل صالحاً. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=64&tAyahNo=9&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «يَوْمَ يَجْمَعُكُمْ لِيَوْمِ ٱلْجَمْعِ ذَلِكَ يَوْمُ ٱلتَّغَابُنِ وَمَن يُؤْمِن بِٱللَّهِ وَيَعْمَلْ صَالِحاً يُكَفِّرْ عَنْهُ سَيِّئَاتِهِ وَيُدْخِلْهُ جَنَّاتٍ تَجْرِي مِن تَحْتِهَا ٱلأَنْهَارُ خَالِدِينَ فِيهَآ أَبَداً ذَلِكَ ٱلْفَوْزُ ٱلْعَظِيمُ»: والله بما تعملون خبير «يَوْمَ يَجْمَعُكُمْ لِيَوْمِ الجِمْعِ» الخلائق للعرض «ذلكَ يَوْمَ التَّغابُنِ» يقول: الجمع يوم غَبْن أهلِ الجنة أهلَ النار. وينقل في المقطع أقوالاً عن ابن عباس ومجاهد وقتادة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=64&tAyahNo=9&tDisplay=yes&UserProfile=0&LanguageId=1

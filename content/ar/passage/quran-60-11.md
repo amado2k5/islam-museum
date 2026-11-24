@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-11-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أنه إن فاتكم شيء من أزواجكم إلى الكفار فلحق بهم، واختلف أهل التأويل في الكفار المعنيين؛ فقال بعضهم هم الذين لم يكن بينهم وبين رسول الله عهد، ثم يذكر أن المؤمنين يعطون الذين ذهبت أزواجهم مثل ما أنفقوا. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=60&tAyahNo=11&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَإِن فَاتَكُمْ شَيْءٌ مِّنْ أَزْوَاجِكُمْ إِلَى ٱلْكُفَّارِ فَعَاقَبْتُمْ فَآتُواْ ٱلَّذِينَ ذَهَبَتْ أَزْوَاجُهُمْ مِّثْلَ مَآ أَنفَقُواْ وَٱتَّقُواْ ٱللَّهَ ٱلَّذِيۤ أَنتُمْ بِهِ مُؤْمِنُونَ»: يقول جلّ ثناؤه للمؤمنين من أصحاب رسول الله: «وَإنْ فَاتَكُمْ» أيها المؤمنون «شَيْءٌ مِنْ أزْواجِكُمْ إلَى الكُفَّارِ» فلحق بهم. واختلف أهل التأويل في الكفار الذين عُنُوا بقوله «إلى الكُفَّارِ» من هم؟ فقال بعضهم: هم الكفار الذين لم يكن بينهم وبين رسول الله عهد، قالوا: ومعنى الكلام: وإن فاتكم شيء من أزواجكم، إلى من ليس بينكم وبينهم عهد من الكفار. وينقل في المقطع أقوالاً عن مجاهد وقتادة وسفيان.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=60&tAyahNo=11&tDisplay=yes&UserProfile=0&LanguageId=1

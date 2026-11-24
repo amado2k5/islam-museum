@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-11-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن الله يأمر المشركين المكذّبين بالبعث أن يصدّقوا بالله ورسوله وأنهم مبعوثون من بعد مماتهم، وأن يؤمنوا بالنور الذي أنزل وهو القرآن، والله بما تعملون خبير ذو خبرة بأعمالهم. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=64&tAyahNo=8&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «فَآمِنُواْ بِٱللَّهِ وَرَسُولِهِ وَٱلنّورِ ٱلَّذِيۤ أَنزَلْنَا وَٱللَّهُ بِمَا تَعْمَلُونَ خَبِيرٌ»: فصدّقوا بالله ورسوله أيها المشركون المكذّبون بالبعث، وبإخباره إياكم أنكم مبعوثون من بعد مماتكم، وأنكم من بعد بلائكم تنشرون من قبوركم، «والنور الذي أنزلنا» يقول: وآمنوا بالنور الذي أنزلنا، وهو هذا القرآن الذي أنزله الله على نبيه محمد «وَاللَّهُ بِمَا تَعْمَلُونَ خَبِيرٌ» يقول تعالى ذكره: والله بأعمالكم أيها الناس ذو خبرة محيط بها، محصٍ جميعها، لا يخفى عليه منها شيء، وهو مجازيكم على جميعها.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=64&tAyahNo=8&tDisplay=yes&UserProfile=0&LanguageId=1

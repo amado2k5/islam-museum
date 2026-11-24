@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-11-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن الله هو الذي بعث في الأميين رسولاً منهم، والأميون هم العرب، ويروي عن مجاهد ذلك، ويحيل إلى ما سبق في معنى الأميّ، ثم يذكر أنه يتلو عليهم آياته ويزكّيهم ويعلّمهم الكتاب والحكمة وإن كانوا من قبل لفي ضلال مبين. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=62&tAyahNo=2&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «هُوَ ٱلَّذِي بَعَثَ فِي ٱلأُمِّيِّينَ رَسُولاً مِّنْهُمْ يَتْلُواْ عَلَيْهِمْ آيَاتِهِ وَيُزَكِّيهِمْ وَيُعَلِّمُهُمُ ٱلْكِتَابَ وَٱلْحِكْمَةَ وَإِن كَانُواْ مِن قَبْلُ لَفِي ضَلاَلٍ مُّبِينٍ»: الله الذي بعث في الأميين رسولاً منهم، فقوله هو كناية من اسم الله، والأميون: هم العرب. وقد بيَّنا فيما مضى المعنى الذي من أجله قيل للأميّ أميّ. وينقل في المقطع أقوالاً عن مجاهد وقتادة وابن زيد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=62&tAyahNo=2&tDisplay=yes&UserProfile=0&LanguageId=1

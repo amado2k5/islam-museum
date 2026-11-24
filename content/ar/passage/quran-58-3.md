@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-11-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن الذين يقولون لنسائهم أنتن علينا كظهور أمهاتنا ثم يعودون لما قالوا اختلف أهل العلم في معنى العود؛ فقال بعضهم هو الرجوع عن تحريم ما حرّم على نفسه من زوجته بعزمه على إتيانها، ويروي ذلك عن قتادة، ثم يذكر تحرير رقبة من قبل أن يتماسا. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=58&tAyahNo=3&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «وَٱلَّذِينَ يُظَاهِرُونَ مِن نِّسَآئِهِمْ ثُمَّ يَعُودُونَ لِمَا قَالُواْ فَتَحْرِيرُ رَقَبَةٍ مِّن قَبْلِ أَن يَتَمَآسَّا ذَلِكُمْ تُوعَظُونَ بِهِ وَٱللَّهُ بِمَا تَعْمَلُونَ خَبِيرٌ»: يقول جلّ ثناؤه: والذين يقولون لنسائهم: أنتنّ علينا كظهور أمهاتنا. وقوله: «ثُمَّ يَعُودُونَ لمَا قالُوا» اختلف أهل العلم في معنى العود لما قال المظاهر، فقال بعضهم: هو الرجوع في تحريم ما حرّم على نفسه من زوجته التي كانت له حلالاً قبل تظاهره، فيحلها بعد تحريمه إياها على نفسه بعزمه على غشيانها ووطئها. وينقل في المقطع أقوالاً عن قتادة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=58&tAyahNo=3&tDisplay=yes&UserProfile=0&LanguageId=1

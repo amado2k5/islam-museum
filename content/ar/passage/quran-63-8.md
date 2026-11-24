@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-11-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن المنافقين قالوا لئن رجعنا إلى المدينة ليخرجنّ الأعز منها الأذل، والأعزّ الأشد والأقوى، فرد الله بأن العزة لله ولرسوله وللمؤمنين ولكن المنافقين لا يعلمون، ويذكر سبب ذلك وأن قائله عبد الله بن أبي. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=63&tAyahNo=8&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «يَقُولُونَ لَئِن رَّجَعْنَآ إِلَى ٱلْمَدِينَةِ لَيُخْرِجَنَّ ٱلأَعَزُّ مِنْهَا ٱلأَذَلَّ وَلِلَّهِ ٱلْعِزَّةُ وَلِرَسُولِهِ وَلِلْمُؤْمِنِينَ وَلَٰكِنَّ ٱلْمُنَافِقِينَ لاَ يَعْلَمُونَ»: يقول هؤلاء المنافقون الذين وصف صفتهم قبل «لَئِنْ رَجَعْنا إلى المَدِينَةِ لَيُخْرِجَنَّ الأعَزُّ مِنْها الأذَلَّ» فيها، ويعني بالأعزّ: الأشدّ والأقوى، قال الله جلّ ثناؤه: «ولِلَّهِ العِزَّةُ» يعني: الشدّة والقوّة «وَلِرَسُولِهِ ولِلْمُؤْمِنِينَ» بالله «وَلَكِنَّ المُنافِقِينَ لا يَعْلَمُونَ» ذلك. وذُكر أن سبب قيل ذلك عبدُ الله بن أُبي كان من أجل أن رجلاً من المهاجرين كَسَعَ رجلا من الأنصار. وينقل في المقطع أقوالاً عن ابن عباس وعكرمة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=63&tAyahNo=8&tDisplay=yes&UserProfile=0&LanguageId=1

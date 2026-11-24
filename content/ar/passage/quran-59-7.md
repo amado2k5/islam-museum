@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-11-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن «ما أفاء الله على رسوله من أهل القرى» هو ما ردّه الله على رسوله من أموال مشركي القرى، ويذكر اختلاف أهل العلم في المراد؛ فقال بعضهم الجزية والخراج، ويروي عن عمر بن الخطاب قراءته آيات الفيء، ثم يبيّن مصارفه لله وللرسول ولذي القربى واليتامى والمساكين وابن السبيل. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=59&tAyahNo=7&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «مَّآ أَفَآءَ ٱللَّهُ عَلَىٰ رَسُولِهِ مِنْ أَهْلِ ٱلْقُرَىٰ فَلِلَّهِ وَلِلرَّسُولِ وَلِذِي ٱلْقُرْبَىٰ وَٱلْيَتَامَىٰ وَٱلْمَسَاكِينِ وَٱبْنِ ٱلسَّبِيلِ كَيْ لاَ يَكُونَ دُولَةً بَيْنَ ٱلأَغْنِيَآءِ مِنكُمْ وَمَآ آتَاكُمُ ٱلرَّسُولُ فَخُذُوهُ وَمَا نَهَاكُمْ عَنْهُ فَٱنتَهُواْ وَٱتَّقُواْ ٱللَّهَ إِنَّ ٱللَّهَ شَدِيدُ ٱلْعِقَابِ»: يعني بقوله جلّ ثناؤه: «ما أفاءَ اللَّهُ على رَسُولِه مِنْ أهْلِ القُرَى» الذي ردّ الله عزّ وجلّ على رسوله من أموال مشركي القرى. واختلف أهل العلم في الذي عني بهذه الآية من الألوان، فقال بعضهم: عني بذلك الجزية والخراج. وينقل في المقطع أقوالاً عن قتادة وعكرمة وابن إسحاق.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=59&tAyahNo=7&tDisplay=yes&UserProfile=0&LanguageId=1

@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-11-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن الله يقول لنبيه: ألم تر إلى الذين نُهوا عن النجوى من اليهود ثم يعودون لما نهوا عنه ويتناجون بالإثم والعدوان ومعصية الرسول، ويذكر أنهم إذا جاؤوه حيّوه بما لم يحيّه به الله، ويروي ذلك عن مجاهد وغيره. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=58&tAyahNo=8&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «أَلَمْ تَرَ إِلَى ٱلَّذِينَ نُهُواْ عَنِ ٱلنَّجْوَىٰ ثُمَّ يَعُودُونَ لِمَا نُهُواْ عَنْهُ وَيَتَنَاجَوْنَ بِٱلإِثْمِ وَٱلْعُدْوَانِ وَمَعْصِيَتِ ٱلرَّسُولِ وَإِذَا جَآءُوكَ حَيَّوْكَ بِمَا لَمْ يُحَيِّكَ بِهِ ٱللَّهُ وَيَقُولُونَ فِيۤ أَنفُسِهِمْ لَوْلاَ يُعَذِّبُنَا ٱللَّهُ بِمَا نَقُولُ حَسْبُهُمْ جَهَنَّمُ يَصْلَوْنَهَا فَبِئْسَ ٱلْمَصِيرُ»: «ألَمْ تَرَ إلى الَّذِينَ نُهُوا عَنِ النَّجْوَى» من اليهود «ثُمَّ يَعودُون» فقد نهى الله عزّ وجلّ إياهم عنها، ويتناجون بينهم بالإثم والعدوان ومعصية الرسول. وينقل في المقطع أقوالاً عن مجاهد والأعمش وسفيان.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=58&tAyahNo=8&tDisplay=yes&UserProfile=0&LanguageId=1
