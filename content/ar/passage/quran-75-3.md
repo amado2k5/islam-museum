@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-12-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-لا يتضمن النص المحفوظ لهذه الصفحة تعليقاً مستقلاً على هذه الآية؛ إذ ينتهي التعليق المحفوظ عند الآية الثانية. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=75&tAyahNo=3&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 3 إلى 6 مقطعاً واحداً. يفسّر قوله «لاَ أُقْسِمُ بِيَوْمِ ٱلْقِيَامَةِ»: اختلفت القرّاء في قراءة قوله: «لا أُقْسِمُ بِيَوْمِ القِيامَةِ» فقرأت ذلك عامة قرّاء الأمصار: «لاَ أُقْسِمُ» لا مفصولة من أقسم، سوى الحسن والأعرج، فإنه ذكر عنهما أنهما كانا يقرآن ذلك: «لأُقْسِمُ بِيَوْمِ القِيامَةِ» بمعنى: أقسم بيوم القيامة، ثم أدخلت عليها لام القسم. والقراءة التي لا أستجيز غيرها في هذا الموضع «لا» مفصولة، أقسم مبتدأة على ما عليه قرّاء الأمصار، لإجماع الحجة من القرّاء عليه. وقد اختلف الذين قرأوا ذلك على الوجه الذي اخترنا قراءته في تأويله، فقال بعضهم «لا» صلة، وإنما معنى الكلام: أقسم بيوم القيامة. وينقل في المقطع أقوالاً عن قتادة والحسن وسعيد بن جبير وابن جريج وسفيان.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=75&tAyahNo=3&tDisplay=yes&UserProfile=0&LanguageId=1

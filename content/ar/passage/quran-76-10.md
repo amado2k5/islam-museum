@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-12-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل الآيات [[passage/quran-76-10|76:10]] إلى [[passage/quran-76-11|76:11]]، وخلاصتها: يفسّر الطبري القمطرير بالشديد، وأن اليوم عبوس تعبس فيه الوجوه، ويروي أن المعنى أن يقبض الجبين حتى يسيل منه مثل القطران، ويروي ذلك عن ابن عباس ومجاهد وقتادة. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=76&tAyahNo=10&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 10 إلى 11 مقطعاً واحداً. يفسّر قوله «إِنَّا نَخَافُ مِن رَّبِّنَا يَوْماً عَبُوساً قَمْطَرِيراً»: يقول تعالى ذكره مخبراً عن هؤلاء القوم الذين وصف صفتهم أنهم يقولون لمن أطعموه من أهل الفاقة والحاجة: ما نطعمكم طعاماً نطلب منكم عوضاً على إطعامناكم جزاء ولا شكوراً، ولكنا نطعمكم رجاء منا أن يؤمننا ربنا من عقوبته في يوم شديد هوله، عظيم أمره، تعبِس فيه الوجوه من شدّة مكارهه، ويطول بلاء أهله، ويشتدّ. والقمطرير: هو الشديد، يقال: هو يوم قمطرير، أو يوم قماطر، ويوم عصيب. وعصبصب، وقد اقمطرّ اليوم يقمطرّ اقمطراراً، وذلك أشدّ الأيام وأطوله في البلاء والشدّة ومنه قول بعضهم.بني عَمِّنا هَلْ تَذْكُرُونَ بَلاءنَا عليكُمْ إذا ما كانَ يَوْمٌ قُماطِرُ وينقل في المقطع أقوالاً عن ابن عباس ومجاهد وقتادة وسفيان.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=76&tAyahNo=10&tDisplay=yes&UserProfile=0&LanguageId=1

@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-12-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل الآيات [[passage/quran-76-25|76:25]] إلى [[passage/quran-76-27|76:27]]، وخلاصتها: يبيّن الطبري أن الأمر بذكر اسم الرب بكرة وأصيلاً، ويروي عن ابن زيد أن بكرة صلاة الصبح وأصيلاً صلاة الظهر. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=76&tAyahNo=25&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 25 إلى 27 مقطعاً واحداً. يفسّر قوله «وَٱذْكُرِ ٱسْمَ رَبِّكَ بُكْرَةً وَأَصِيلاً»: «وَاذْكُرْ» يا محمد «اسْمَ رَبِّكَ» فادعه به بكرة في صلاة الصبح، وعشياً في صلاة الظهر والعصر «وَمِنَ اللَّيْلِ فاسْجُدْ لَهُ» يقول: ومن الليل فاسجد له في صلاتك، فسبحه ليلاً طويلاً، يعني: أكثر الليل، كما قال جلّ ثناؤه:«قُمِ اللَّيْلَ إلاَّ قَلِيلاً نِصْفَهُ أوِ انْقُصْ مِنْهُ قَلِيلاً أو زِدْ عَلَيْهِ» وينقل في المقطع أقوالاً عن ابن عباس وابن زيد وسفيان.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=76&tAyahNo=25&tDisplay=yes&UserProfile=0&LanguageId=1

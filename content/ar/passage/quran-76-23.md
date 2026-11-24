@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-12-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل الآيات [[passage/quran-76-22|76:22]] إلى [[passage/quran-76-24|76:24]]، وخلاصتها: يبيّن الطبري أن الله نزّل على نبيه محمد القرآن تنزيلاً ابتلاءً منه واختباراً. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=76&tAyahNo=23&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 22 إلى 24 مقطعاً واحداً. يفسّر قوله «إِنَّا نَحْنُ نَزَّلْنَا عَلَيْكَ ٱلْقُرْآنَ تَنزِيلاً»: إنا نحن نزّلنا عليك يا محمد هذا القرآن تنزيلاً، ابتلاء منا واختباراً «فاصْبِرْ لِحُكُمِ رَبِّكَ» يقول: اصبر لما امتحنك به ربك من فرائضه، وتبليغ رسالاته، والقيام بما ألزمك القيام به في تنزيله الذي أوحاه إليك «وَلا تُطِعْ مِنْهُمْ آثِماً أو كَفُوراً» يقول: ولا تطع في معصية الله من مشركي قومك آثماً يريد بركوبه معاصيه، أو كفوراً: يعني جحوداً لنعمه عنده، وآلائه قِبلَه، فهو يكفر به، ويعبد غيره. وقيل: إن الذي عني بهذا القول أبو جهل. وينقل في المقطع أقوالاً عن قتادة وابن زيد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=76&tAyahNo=23&tDisplay=yes&UserProfile=0&LanguageId=1

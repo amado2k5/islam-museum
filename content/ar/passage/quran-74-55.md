@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-12-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل الآيات [[passage/quran-74-54|74:54]] إلى [[passage/quran-74-56|74:56]]، وخلاصتها: يشرح الطبري أن من شاء من عباد الله ذكره فاتعظ واستعمل ما فيه من أمر الله ونهيه. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=74&tAyahNo=55&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 54 إلى 56 مقطعاً واحداً. يفسّر قوله «فَمَن شَآءَ ذَكَرَهُ»: فمن شاء من عباد الله الذين ذكرهم الله بهذا القرآن ذكره، فاتعظ فاستعمل ما فيه من أمر الله ونهيه «وَما يَذْكُرُونَ إلاَّ أنْ يَشاءَ اللَّهُ» يقول تعالى ذكره: وما يذكرون هذا القرآن فيتعظون به، ويتسعملون ما فيه، إلا أن يشاء الله أن يذكروه، لأنه لا أحد يقدر على شيء إلا بأن يشاء الله يقدره عليه، ويعطيه القدرة عليه. وقوله: «هُوَ أهْلُ التَّقْوَى وأهْلُ المَغْفِرَةِ» يقول تعالى ذكره: الله أهل أن يتقي عبادُه عقابهَ على معصيتهم إياه، فيجتنبوا معاصيه، ويُسارعوا إلى طاعته، «وأهل المغفرة» يقول: هو أهل أن يغفر ذنوبهم إذا هم فعلوا ذلك، ولا يعاقبهم عليها مع توبتهم منها. وينقل في المقطع أقوالاً عن قتادة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=74&tAyahNo=55&tDisplay=yes&UserProfile=0&LanguageId=1

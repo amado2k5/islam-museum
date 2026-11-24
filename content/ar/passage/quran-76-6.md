@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-12-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل الآيات [[passage/quran-76-5|76:5]] إلى [[passage/quran-76-6|76:6]]، وخلاصتها: يذكر الطبري أن عباد الله يفجّرون العين تفجيراً، ويروي عن مجاهد وقتادة وسفيان أنهم يصرفونها حيث شاؤوا. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=76&tAyahNo=6&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 5 إلى 6 مقطعاً واحداً. يفسّر الطبري الآية ضمن المقطع نفسه. وينقل في المقطع أقوالاً عن مجاهد وقتادة وسفيان.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=76&tAyahNo=6&tDisplay=yes&UserProfile=0&LanguageId=1

@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-12-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل الآيات [[passage/quran-76-22|76:22]] إلى [[passage/quran-76-24|76:24]]، وخلاصتها: يذكر الطبري أن الله يقول لهم إن هذا كان لكم ثواباً، وكان سعيهم مشكوراً، أي حمد الله عملهم ورضيه، ويروي عن قتادة غفر لهم الذنب وشكر لهم الحسن. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=76&tAyahNo=22&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 22 إلى 24 مقطعاً واحداً. يفسّر قوله «إِنَّ هَٰذَا كَانَ لَكُمْ جَزَآءً وَكَانَ سَعْيُكُم مَّشْكُوراً»: يقال لهؤلاء الأبرار حينئذ: إن هذا الذي أعطيناكم من الكرامة كان لكم ثواباً على ما كنتم في الدنيا تعملون من الصالحات «وكانَ سَعْيُكُمْ مَشْكُوراً» يقول: كان عملكم فيها مشكوراً، حمدكم عليه ربكم، ورضيه لكم، فأثابكم بما أثابكم به من الكرامة عليه. وعن قتادة، قوله: «إنَّ هَذَا كانَ لَكُمْ جَزَاءً وكانَ سَعْيُكُمْ مَشْكُوراً» غفر لهم الذنب، وشكر لهم الحسن. عن معمر، عن قتادة، قال: تلا قتادة «وكانَ سَعْيُكُم مَشْكُوراً» قال: لقد شَكر الله سعياً قليلاً. وقوله: وينقل في المقطع أقوالاً عن قتادة وابن زيد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=76&tAyahNo=22&tDisplay=yes&UserProfile=0&LanguageId=1

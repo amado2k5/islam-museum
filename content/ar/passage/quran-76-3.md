@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-12-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل الآيات [[passage/quran-76-3|76:3]] إلى [[passage/quran-76-4|76:4]]، وخلاصتها: يبيّن الطبري أن الله بيّن للإنسان طريق الجنة وعرّفه سبيله إن شكر أو كفر، ويعرض أوجه إعراب إما وإما، ويروي عن ابن زيد أن الاختبار أن ننظر أي الطريقين يسلك. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=76&tAyahNo=3&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 3 إلى 4 مقطعاً واحداً. يفسّر قوله «إِنَّا هَدَيْنَاهُ ٱلسَّبِيلَ إِمَّا شَاكِراً وَإِمَّا كَفُوراً»: يعني جلّ ثناؤه بقوله: «إنَّا هَدَيْناهُ السَّبِيلَ» إنا بينا له طريق الجنة، وعرّفناه سبيله، إن شكر، أو كفر. وإذا وُجِّه الكلام إلى هذا المعنى، كانت إما وإما في معنى الجزاء. وقد يجوز أن تكون إما وإما بمعنى واحد، كما قال:«إمَّا يُعَذّبُهُمْ وَإمَّا يَتُوبُ عَلَيْهِمْ» فيكون قوله: «إما شاكِراً وَإمَّا كَفُوراً» حالاً من الهاء التي في هديناه فيكون معنى الكلام إذا وُجه ذلك إلى هذا التأويل: إنا هديناه السبيل، إما شقياً وإما سعيداً. وكان بعض نحويي البصرة يقول ذلك كما قال: «إما العذاب وإما الساعة» كأنك لم تذكر إما قال: وإن شئت ابتدأت ما بعدها فرفعته. وينقل في المقطع أقوالاً عن مجاهد وقتادة وابن زيد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=76&tAyahNo=3&tDisplay=yes&UserProfile=0&LanguageId=1

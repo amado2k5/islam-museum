@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-12-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يتناول الطبري هذه الآية ضمن فقرة واحدة تشمل الآيات [[passage/quran-75-20|75:20]] إلى [[passage/quran-75-25|75:25]]، وخلاصتها: يفسّر الطبري ناضرة بالحسنة الجميلة من النعيم، أي مسرورة، ويروي ذلك عن الحسن ومجاهد. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=75&tAyahNo=22&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 22 إلى 27 مقطعاً واحداً. يفسّر قوله «كَلاَّ بَلْ تُحِبُّونَ ٱلْعَاجِلَةَ»: يقول تعالى ذكره لعباده المخاطبين بهذا القرآن المؤثرين زينة الحياة الدنيا على الآخرة: ليس الأمر كما تقولون أيها الناس من أنكم لا تبعثون بعد مماتكم، ولا تجازون بأعمالكم، لكن الذي دعاكم إلى قيل ذلك محبتكم الدنيا العاجلة، وإيثاركم شهواتها على آجل الآخرة ونعيمها، فأنتم تؤمنون بالعاجلة، وتكذّبون بالآجلة، كما: وعن قتادة، قوله: «كَلاَّ بَلْ تُحِبُّونَ العاجِلَةَ وَتَذَرُونَ الآخِرَةَ» اختار أكثر الناس العاجلة، إلاّ من رحم الله وعصم. وقوله: وينقل في المقطع أقوالاً عن مجاهد وقتادة والحسن وابن زيد وسفيان.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=75&tAyahNo=22&tDisplay=yes&UserProfile=0&LanguageId=1
