@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-6-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يوضح الطبري أن أخت موسى مشت تتبعه حتى وجدته ثم قالت لهم هل أدلكم على من يكفله، فرجع إلى أمه كي تقرّ عينها ولا تحزن، وقتل نفساً فنجّاه الله من الغم وفتنه فتوناً. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=20&tAyahNo=40&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «إِذْ تَمْشِيۤ أُخْتُكَ فَتَقُولُ هَلْ أَدُلُّكُمْ عَلَىٰ مَن يَكْفُلُهُ فَرَجَعْنَاكَ إِلَىٰ أُمِّكَ كَيْ تَقَرَّ عَيْنُها وَلاَ تَحْزَنَ وَقَتَلْتَ نَفْساً فَنَجَّيْنَاكَ مِنَ ٱلْغَمِّ وَفَتَنَّاكَ فُتُوناً فَلَبِثْتَ سِنِينَ فِيۤ أَهْلِ مَدْيَنَ ثُمَّ جِئْتَ عَلَىٰ قَدَرٍ يٰمُوسَىٰ»: اختلف أهل التأويل في تأويل قوله«وَلِتُصْنَعَ عَلى عَيْنِي» فقال بعضهم: معناه: ولتغذى وتربى على محبتي وإرادتي. وينقل في المقطع أقوالاً عن ابن زيد وابن إسحاق.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=20&tAyahNo=40&tDisplay=yes&UserProfile=0&LanguageId=1

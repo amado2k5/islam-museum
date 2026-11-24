@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-6-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يعرض الطبري اختلاف القراء بين «قل ربي» على الأمر و«قال ربي» على الخبر، ومعنى الآية أن ربي يعلم القول في السماء والأرض وهو السميع العليم. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=21&tAyahNo=4&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «قَالَ رَبِّي يَعْلَمُ ٱلْقَوْلَ فِي ٱلسَّمَآءِ وَٱلأَرْضِ وَهُوَ ٱلسَّمِيعُ ٱلْعَلِيمُ»: اختلفت القرّاء في قراءة قوله: «قُلْ رَبّي» فقرأ ذلك عامة قرّاء أهل المدينة والبصرة وبعض الكوفيين: «قُلْ رَبْي» على وجه الأمر. وقرأه بعض قرّاء مكة وعامة قرّاء الكوفة: «قالَ رَبّي» على وجه الخبر. وكأن الذين قرؤوه على وجه الأمر أرادوا من تأويله: قل يا محمد للقائلين«أتأْتُونَ السِّحْرَ وأنْتُمْ تُبْصِرُونَ» ربي يعلم قول كلّ قائل في السماء والأرض، لا يخفى عليه منه شيء وهو السميع لذلك كله ولِما يقولون من الكذب، العليم بصدقي وحقيقة ما أدعوكم إليه وباطل ما تقولون وغير ذلك من الأشياء كلها. وكأن الذين قرءوا ذلك قال على وجه الخبر أرادوا: قال محمد: ربي يعلم القول خبرا من الله عن جواب نبيه إياهم.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=21&tAyahNo=4&tDisplay=yes&UserProfile=0&LanguageId=1

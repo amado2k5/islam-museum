@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-6-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إنه يفرّق بين «فجمع كيده» و«فأجمعوا كيدكم»، وأن المعنى: أجمعوا أمركم ثم ائتوا صفاً، وقد أفلح اليوم من استعلى. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=20&tAyahNo=64&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «فَأَجْمِعُواْ كَيْدَكُمْ ثُمَّ ٱئْتُواْ صَفّاً وَقَدْ أَفْلَحَ ٱلْيَوْمَ مَنِ ٱسْتَعْلَىٰ»: اختلفت القرّاء في قراءة قوله: «فأجْمِعُوا كَيْدَكُم» فقرأته عامة قرّاء المدينة والكوفة «فأجْمِعُوا كَيْدَكُمْ» بهمز الألف من «فأجْمِعُوا»، ووجَّهوا معنى ذلك إلى: فأحكموا كيدكم، واعزموا عليه من قولهم: أجمع فلان الخروج، وأجمع على الخروج، كما يقال: أزمع عليه ومنه قول الشاعر:يا لَيْت شعْرِي والمُنى لا تَنْفَعُ هَلْ أغْدُوَنْ يَوْماً وأمْرِيَ مُجْمَعُ يعني بقوله: «مجمع» قد أحكم وعزم عليه ومنه قول النبيّ: " مَنْ لَمْ يُجْمِعْ عَلى الصَّوْمِ مِن اللَّيْلِ فَلا صَوْم لَهُ " وقرأ ذلك بعض قرّاء أهل البصرة: «فاجْمِعُوا كَيْد كُمْ» بوصل الألف، وترك همزها، من جمعت الشيء، كأنه وجَّهه إلى معنى: فلا تدَعوا من كيدكم شيئاً إلا جئتم به. وينقل في المقطع أقوالاً عن ابن إسحاق.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=20&tAyahNo=64&tDisplay=yes&UserProfile=0&LanguageId=1

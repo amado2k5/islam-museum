@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-6-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يذكر الطبري أن القول اللين الذي أُمرا أن يقولاه لفرعون هو أن يكنّياه، لعله يتذكر أو يخشى، وأنهما قالا إنا نخاف أن يفرط علينا أي يعجل بالعقوبة أو أن يطغى. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=20&tAyahNo=44&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 44 إلى 45 مقطعاً واحداً. يفسّر قوله «فَقُولاَ لَهُ قَوْلاً لَّيِّناً لَّعَلَّهُ يَتَذَكَّرُ أَوْ يَخْشَىٰ»: يقول تعالى ذكره لموسى وهارون: فقولا لفرعون قولاً ليِّنا. ذُكر أن القول اللين الذي أمرهما الله أن يقولاه له، هو أن يكنياه. وعن السديّ: «فَقُولا لَهُ قَوْلاً لَيِّناً» قال: كنياه. وقوله: «لَعَلَّهُ يَتَذَكَّرُ أوْ يَخْشَى» اختلف في معنى قوله: «لَعَلَّهُ» في هذا الموضع، فقال بعضهم معناها ههنا الاستفهام، كأنهم وجهوا معنى الكلام إلى: فقولا له قولاً ليناً، فانظرا هل يتذكر ويراجع أو يخشى الله فيرتدع عن طغيانه. وينقل في المقطع أقوالاً عن ابن عباس ومجاهد وابن زيد وابن جريج.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=20&tAyahNo=44&tDisplay=yes&UserProfile=0&LanguageId=1

@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-6-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يوضح الطبري أن فرعون قال فمن ربكما يا موسى، وهو بداية المحاورة بينه وبين موسى. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=20&tAyahNo=49&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 49 إلى 51 مقطعاً واحداً. يفسّر قوله «إِنَّا قَدْ أُوحِيَ إِلَيْنَآ أَنَّ ٱلْعَذَابَ عَلَىٰ مَن كَذَّبَ وَتَوَلَّىٰ»: يقول تعالى ذكره لرسوله موسى وهارون: قولا لفرعون إنا قد أوحى إلينا ربك أن عذابه الذي لا نفاد له، ولا انقطاع على من كذب بما ندعوه إليه من توحيد الله وطاعته، وإجابة رسله «وَتَوَّلى» يقول: وأدبر مُعرضاً عما جئناه به من الحقّ، كما: وعن قتادة، قوله: «أنَّ العَذَابَ عَلى مَنْ كَذَّبَ وَتَوَلَّى» كذّب بكتاب الله، وتولى عن طاعة الله. وقوله: «قالَ فَمَنْ رَبُّكُما يا مُوسَى» في هذا الكلام متروك، ترك ذكره استغناء بدلالة ما ذكر عليه عنه، وهو قوله:«فَأْتِياهُ» فقالا له ما أمرهما به ربهما وأبلغاه رسالته، فقال فرعون لهما «فَمَنْ رَبُّكُما يا مُوسَى» فخاطب موسى وحده بقوله: يا موسى، وقد وجه الكلام قبل ذلك إلى موسى وأخيه. وينقل في المقطع أقوالاً عن ابن عباس وقتادة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=20&tAyahNo=49&tDisplay=yes&UserProfile=0&LanguageId=1

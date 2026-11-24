@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-6-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن الله يأمر الناس أن يأكلوا من طيب ما أخرجه وأن يرعوا أنعامهم، وأن في ذلك لآيات لأولي النهى أي لذوي العقول. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=20&tAyahNo=54&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «كُلُواْ وَٱرْعَوْا أَنْعَامَكُمْ إِنَّ فِي ذٰلِكَ لآيَاتٍ لأُوْلِي ٱلنُّهَىٰ»: كلوا أيها الناس من طيب ما أخرجنا لكم بالغيث الذي أنزلناه من السماء إلى الأرض من ثمار ذلك وطعامه، وما هو من أقواتكم وغذائكم، وارعوا فيما هو أرزاق بهائمكم منه وأقواتها أنعامكم «إنَّ فِي ذلكَ لآياتٍ» يقول: إن فيما وصفت في هذه الآية من قدرة ربكم، وعظيم سلطانه لآيات: يعني لدلالات وعلامات تدلّ على وحدانية ربكم، وأن لا إله لكم غيره «أُوِلي النُّهَى» يعني: أهل الحجى والعقول. والنهي: جمع نُهية، كما الكُشَي: جمع كُشْيَة. قال أبو جعفر: والكُشَي: شحمة تكون في جوف الضبّ، شبيهة بالسرّة وخصّ تعالى ذكره بأن ذلك آيات لأولي النُّهَي، لأنهم أهل التفكُّر والاعتبار، وأهل التدبر والاتعاظ.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=20&tAyahNo=54&tDisplay=yes&UserProfile=0&LanguageId=1

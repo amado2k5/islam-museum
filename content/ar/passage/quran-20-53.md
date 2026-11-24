@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-6-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يقول الطبري إن الله أخرج بما أنزل من السماء من ماء أزواجاً، أي ألواناً من نبات شتى مختلفة الطعوم والمنظر. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=20&tAyahNo=53&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «ٱلَّذِي جَعَلَ لَكُمُ ٱلأَرْضَ مَهْداً وَسَلَكَ لَكُمْ فِيهَا سُبُلاً وَأَنزَلَ مِنَ ٱلسَّمَآءِ مَآءً فَأَخْرَجْنَا بِهِ أَزْوَاجاً مِّن نَّبَاتٍ شَتَّىٰ»: اختلف أهل التأويل في قراءة قوله «مَهْداً» فقرأته عامَّة قرّاء المدينة والبصرة: الَّذِي جَعَلَ لَكُمُ الأرْضَ مِهاداً بكسر المِيم من المِهاد وإلحاق ألف فيه بعد الهاء، وكذلك عملهم ذلك في كلّ القرآن. وزعم بعض من اختار قراءة ذلك كذلك، أنه إنما اختاره من أجل أن المهاد: اسم الموضّع، وأن المهد الفعل قال: وهو مثل الفرش والفراش. وقرأ ذلك عامة قرّاء الكوفيين: «مَهْداً» بمعنى: الذي مهد لكم الأرض مهداً. والصواب من القول في ذلك أن يقال: إنهما قراءتان مستفيضتان في قَرأة الأمصار مشهورتان، فبأيتهما قرأ القارىء فمصيب الصواب فيها. وقوله: «وَسَلَكَ لَكُمْ فيها سُبُلاً» يقول: وأنهج لكم في الأرض طرقا. وينقل في المقطع أقوالاً عن ابن عباس وقتادة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=20&tAyahNo=53&tDisplay=yes&UserProfile=0&LanguageId=1

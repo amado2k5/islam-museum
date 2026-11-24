@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-6-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يفسّر الطبري الدرجات العلى بجنات عدن، وهي جنات إقامة لا فناء لها، تجري من تحتها الأنهار خالدين فيها، وذلك جزاء من تزكى. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=20&tAyahNo=76&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «جَنَّاتُ عَدْنٍ تَجْرِي مِن تَحْتِهَا ٱلأَنْهَارُ خَالِدِينَ فِيهَا وَذٰلِكَ جَزَآءُ مَن تَزَكَّىٰ»: «وَمَنْ يَأْتِهِ مُؤْمِناً قَدْ عَمِلَ الصَّالِحاتِ فأُولَئِكَ لَهُمُ الدَّرَجاتُ العُلَى» ثم بين تلك الدرجات العلى ما هي، فقال: هن «جَنَّاتُ عَدْنٍ» يعني: جنات إقامة لا ظعن عنها ولا نفاد لها ولا فناء «تَجْرِي مِنْ تَحْتِها الأنهَارُ» يقول: تجري من تحت أشجارها الأنهار «خالِدِينَ فِيها» يقول: ماكثين فيها إلى غير غاية محدودة فالجنات من قوله «جَنَّاتُ عَدْنٍ» مرفوعة بالردّ على الدرجات، كما: قال: ثني حجاج، عن ابن جريج، في قوله:«وَمَنْ يأْتِهِ مُؤْمِناً قَدْ عَمِلَ الصَّالِحاتِ فَأُولَئِكَ لَهُمُ الدَّرَجاتُ العُلى» قال: عَدْن. وينقل في المقطع أقوالاً عن ابن جريج.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=20&tAyahNo=76&tDisplay=yes&UserProfile=0&LanguageId=1

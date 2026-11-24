@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-6-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن الله اصطنع موسى لنفسه اختياراً للرسالة، وأمره وأخاه أن يذهبا إلى فرعون بآياته ولا يفترا في ذكره، إنه طغى. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=20&tAyahNo=41&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 41 إلى 43 مقطعاً واحداً. يفسّر قوله «وَٱصْطَنَعْتُكَ لِنَفْسِي»: «وَاصْطَنَعْتُكَ لِنَفْسِي» أنعمت عليك يا موسى هذه النعم، ومننت عليك هذه المنن، اجتباء مني لك، واختياراً لرسالتي والبلاغ عني، والقيام بأمري ونهيي «اذْهَبْ أنْتَ وأخُوكَ» هارون «بِآياتي» يقول: بأدلتي وحججي، اذهبا إلى فرعون بها إنه تمرّد في ضلاله وغيه، فأبلغه رسالاتي «وَلا تَنِيا فِي ذِكْري» يقول: ولا تضعفا في أن تذكراني فيما أمرتكما ونهيتكما، فإن ذكركما إيَّاي يقوّي عزائمكما، ويثبت أقدامكما، لأنكما إذا ذكرتماني، ذكرتما مَنِّي عليكما نِعَماً جمَّة، ومِنَنا لا تحصى كثرة. يقال منه: وَنى فلان في هذا الأمر، وعن هذا الأمر: إذا ضعف، وهو يَنِي وَنْيا كما قال العجاج:فَمَا وَنى مُحَمَّدٌ مُذْ أنْ غَفَرْ لَهُ الإلهُ ما مَضَى وَما غَبَرْ وينقل في المقطع أقوالاً عن ابن عباس ومجاهد وابن زيد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=20&tAyahNo=41&tDisplay=yes&UserProfile=0&LanguageId=1

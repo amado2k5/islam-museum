@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-6-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن الله قال لموسى خذها ولا تخف، سنعيدها سيرتها الأولى، أي إلى هيئتها عصا كما كانت. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=20&tAyahNo=20&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 19 إلى 21 مقطعاً واحداً. يفسّر قوله «فَأَلْقَاهَا فَإِذَا هِيَ حَيَّةٌ تَسْعَىٰ»: «فلَمَّا رآها تَهْتَزُّ كأنَّها جانّ وَلَّى مُدْبِراً ولَمْ يُعَقِّبْ» فنودي:«يا مُوسَى لا تَخَفّ إنّي لا يَخافُ لَدَيَّ المُرْسَلُونَ» عن ابن إسحاق، عن وهب بن منبه، قال «ألْقِها يا مُوسَى فألْقاها فإذَا هِيَ حَيَّةٌ تَسْعَى» تهتزّ، لها أنياب وهيئة كما شاء الله أن تكون، فرأى أمراً فظيعاً، فولى مُدْبِراً، ولَم يُعقِّب فناداه ربه:«يا مُوسَى أقبلْ وَلا تخفْ سَنُعِيدُها سِيرَتها الأُولى» وقوله: «قالَ خُذْها وَلا تَخَفْ» يقول تعالى ذكره قال الله لموسى: خذ الحية، والهاء والألف من ذكر الحية. وينقل في المقطع أقوالاً عن ابن عباس ومجاهد وقتادة وابن إسحاق.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=20&tAyahNo=20&tDisplay=yes&UserProfile=0&LanguageId=1

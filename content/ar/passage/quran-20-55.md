@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-6-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يوضح الطبري أن الله خلق الناس من الأرض وفيها يعيدهم ومنها يخرجهم تارة أخرى، أي مرة أخرى عند البعث. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=20&tAyahNo=55&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر قوله «مِنْهَا خَلَقْنَاكُمْ وَفِيهَا نُعِيدُكُمْ وَمِنْهَا نُخْرِجُكُمْ تَارَةً أُخْرَىٰ»: من الأرض خلقناكم أيها الناس، فأنشأناكم أجساما ناطقة «وَفِيها نُعِيدُكُمْ» يقول: وفي الأرض نعيدكم بعد مماتكم، فنصيركم ترابا، كما كنتم قبل إنشائكم بشراً سوياً «وَمِنْها نُخْرِجُكُمْ» يقول: ومن الأرض نخرجكم كما كنتم قبل مماتكم أحياء، فننشئكم منها، كما أنشأناكم أوّل مرّة. وقوله: «تارَةً أُخْرَى» يقول: مرّة أخرى، كما: وعن قتادة «وَمِنْها نُخْرِجُكُمْ تارَةً أُخْرَى» يقول: مرّة أخرى. قال ابن زيد، في قوله: «تارَةً أُخْرَى» قال: مرّة أخرى الخلق الآخر. قال أبو جعفر: فتأويل الكلام إذاً: من الأرض أخرجناكم ولم تكونوا شيئاً خلقاً سوياً، وسنخرجكم منها بعد مماتكم مرّة أخرى، كما أخرجناكم منها أوّل مرّة. وينقل في المقطع أقوالاً عن قتادة وابن زيد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=20&tAyahNo=55&tDisplay=yes&UserProfile=0&LanguageId=1

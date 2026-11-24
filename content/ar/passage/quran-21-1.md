@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-6-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يذكر الطبري أن حساب الناس على أعمالهم ونعمهم اقترب وهم في غفلة معرضون، وأنه ما يأتيهم من ذكر من ربهم محدث إلا استمعوه وهم يلعبون. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=21&tAyahNo=1&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 1 إلى 2 مقطعاً واحداً. يفسّر قوله «ٱقْتَرَبَ لِلنَّاسِ حِسَابُهُمْ وَهُمْ فِي غَفْلَةٍ مُّعْرِضُونَ»: دنا حساب الناس على أعمالهم التي عملوها في دنياهم ونعمهم التي أنعمها عليهم فيها في أبدانهم، أجسامهم، ومطاعمهم، ومشاربهم، وملابسهم وغير ذلك من نعمه عندهم، ومسئلته إياهم ماذا عملوا فيها وهل أطاعوه فيها، فانتهوا إلى أمره ونهيه في جميعها، أم عصوه فخالفوا أمره فيها؟ «وَهُمْ في غَفْلَةٍ مُعْرِضُونَ» يقول: وهم في الدنيا عما الله فاعل بهم من ذلك يوم القيامة، وعن دنوّ محاسبته إياهم منهم، واقترابه لهم في سهو وغفلة، وقد أعرضوا عن ذلك، فتركوا الفكر فيه والاستعداد له والتأهب، جهلاً منهم بما هم لاقوه عند ذلك من عظيم البلاء وشديد الأهوال.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=21&tAyahNo=1&tDisplay=yes&UserProfile=0&LanguageId=1

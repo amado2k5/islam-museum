@@ -4,9 +4,9 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-6-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
@@ -18,4 +18,6 @@ provenance:
 
 ## تفسير الطبري
 
-يبيّن الطبري أن موسى قال لهارون: أفعصيت أمري، وأن في «ألا تتبعني» أقوالاً للمفسرين في معناه. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=20&tAyahNo=93&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآية ضمن الآيات 93 إلى 95 مقطعاً واحداً. يفسّر قوله «قَالَ يٰهَرُونُ مَا مَنَعَكَ إِذْ رَأَيْتَهُمْ ضَلُّوۤاْ»: قال موسى لأخيه هارون لما فرغ من خطاب قومه ومراجعته إياهم على ما كان من خطأ فعلهم: يا هارون أيّ شيء منعك إذ رأيتهم ضلوا عن دينهم، فكفروا بالله وعبدوا العجل أن لا تتبعني. واختلف أهل التأويل في المعنى الذي عذل موسى عليه أخاه من تركه اتباعه، فقال بعضهم: عذله على تركه السير بمن أطاعه في أثره على ما كان عهد إليه. وينقل في المقطع أقوالاً عن ابن عباس وسعيد بن جبير وابن زيد وابن جريج وابن إسحاق.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=20&tAyahNo=93&tDisplay=yes&UserProfile=0&LanguageId=1
