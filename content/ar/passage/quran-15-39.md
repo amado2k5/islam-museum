@@ -4,18 +4,20 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-4-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
 ## موجز
-الآية 39 من [[passage/quran-15|سورة الحجر]]، وهي سورة مكية. {cite:tanzil-quran}
+الآية 39 من [[passage/quran-15|سورة الحجر]]، وهي سورة مكية. يقرأ الطبري الآيتين 39 و40 معاً: قول إبليس «بما أغويتني» كالقسم، وتوعّده بتزيين المعاصي وإغواء الخلق أجمعين إلا المُخْلَصين. {cite:tanzil-quran}
 
 ## موضعها
 موضعها: الآية 39 من أصل 99 آية في السورة. النص محفوظ من مصحف تنزيل المجمّد ولا يُعاد كتابته هنا.
 
 ## تفسير الطبري
 
-يذكر الطبري أن إبليس أقسم بإغواء الله له أن يزيّن لبني آدم المعاصي في الأرض ويحبّبها إليهم، وأن يضلّهم جميعاً عن سبيل الرشاد إلا عباد الله المخلَصين، أي من أخلصهم الله بتوفيقه وهداه فليس له عليهم سلطان. ويعرض قراءة «المخلِصين» بكسر اللام ومعناها من أخلص الطاعة لله. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=15&tAyahNo=39&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآيتين 39 و40 مقطعاً واحداً: قال إبليس «رب بما أغويتني» أي بإغوائك إياي، وكأن قوله خرج مخرج القسم كما يقال بالله لأغوينهم. و«لأزينن لهم في الأرض»: لأحسننّ لهم معاصي الله ولأحببنها إليهم، «ولأغوينهم أجمعين»: ولأضلّنهم عن سبيل الرشاد. و«إلا عبادك منهم المخلصين»: إلا من أخلصه الله بتوفيقه فهداه فلا سلطان لإبليس عليه ولا طاقة له به — عن الضحاك المخلصين هم المؤمنون، وعن قتادة إنها ثنية الله. وقرئ «المخلَصين» بالفتح على من أخلص الطاعة فلا سبيل لإبليس عليه.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=15&tAyahNo=39&tDisplay=yes&UserProfile=0&LanguageId=1

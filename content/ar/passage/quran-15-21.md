@@ -4,18 +4,20 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-4-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
 ## موجز
-الآية 21 من [[passage/quran-15|سورة الحجر]]، وهي سورة مكية. {cite:tanzil-quran}
+الآية 21 من [[passage/quran-15|سورة الحجر]]، وهي سورة مكية. يفسّر الطبري «خزائنه» بمخازن الأشياء عند الله لا ينزلها إلا بقدر معلوم لكل أرض، ويروي عن ابن مسعود وغيره أنها في المطر. {cite:tanzil-quran}
 
 ## موضعها
 موضعها: الآية 21 من أصل 99 آية في السورة. النص محفوظ من مصحف تنزيل المجمّد ولا يُعاد كتابته هنا.
 
 ## تفسير الطبري
 
-يبيّن الطبري أن المراد بالخزائن عند الله خزائن الأمطار، وأنه لا ينزل منها إلا بقدر معلوم لكل أرض، حدّه ومبلغه معلومان عنده. وينقل عن عبد الله بن مسعود أن مطر عام ليس بأكثر من مطر عام، ولكن الله يقدّره ويصرفه عمّن يشاء. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=15&tAyahNo=21&tDisplay=yes&UserProfile=0&LanguageId=1
+يفسّر الطبري «وإن من شيء إلا عندنا خزائنه وما ننزله إلا بقدر معلوم»: ما من شيء من الأمطار إلا عند الله خزائنه ولا ينزله إلا بقدر، لكل أرض حدّ معلوم ومبلغ. ويروي عن عبد الله بن مسعود: ما من أرض أمطر من أرض ولكن الله يقدّره في الأرض، وما من عام بأمطر من عام ولكن الله يصرفه ويقسمه حيث شاء عاماً هاهنا وعاماً هاهنا؛ وعن ابن جريج أنه المطر خاصة، وعن الحكم بن عتيبة: يمطر قوماً ويُحرم آخرون وربما كان في البحر، وبلغهم أنه ينزل مع المطر من الملائكة أكثر من عدد ولد إبليس وولد آدم يحصون كل قطرة حيث تقع وما تُنبت.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=15&tAyahNo=21&tDisplay=yes&UserProfile=0&LanguageId=1

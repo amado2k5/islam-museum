@@ -4,18 +4,20 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-4-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
 ## موجز
-الآية 52 من [[passage/quran-15|سورة الحجر]]، وهي سورة مكية. {cite:tanzil-quran}
+الآية 52 من [[passage/quran-15|سورة الحجر]]، وهي سورة مكية. يفسّر الطبري «إنا منكم وجلون» بخوف إبراهيم من ضيفه، ويلاحظ جمع الخبر عن الضيف وهم لفظ واحد. {cite:tanzil-quran}
 
 ## موضعها
 موضعها: الآية 52 من أصل 99 آية في السورة. النص محفوظ من مصحف تنزيل المجمّد ولا يُعاد كتابته هنا.
 
 ## تفسير الطبري
 
-يذكر الطبري أن الملائكة الضيف دخلوا على إبراهيم فسلّموا، فقال لهم إنا منكم وجلون أي خائفون، ويحيل في سبب خوفه وفي وجه النصب في «سلاماً» إلى ما بيّنه من قبل. فبشّروه بغلام عليم. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=15&tAyahNo=52&tDisplay=yes&UserProfile=0&LanguageId=1
+يتابع الطبري المقطع: «إذ دخلوا عليه فقالوا سلاماً» قال الضيف لإبراهيم سلاماً، «قال إنا منكم وجلون» أي إنا منكم خائفون، وقد بيّن وجه النصب في «سلاماً» وسبب وجل إبراهيم من ضيفه واختلاف المختلفين والدليل على الصحيح فيما مضى. ويلاحظ أن «قالوا سلاماً» جُمع الخبر عن الضيف وهم في لفظ واحد، إذ الضيف اسم يقع على الواحد والاثنين والجمع مثل الوزن والقطر والعدل، فلذلك جمع خبره وهو لفظ واحد.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=15&tAyahNo=52&tDisplay=yes&UserProfile=0&LanguageId=1

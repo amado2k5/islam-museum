@@ -4,18 +4,20 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-4-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
 ## موجز
-الآية 73 من [[passage/quran-15|سورة الحجر]]، وهي سورة مكية. {cite:tanzil-quran}
+الآية 73 من [[passage/quran-15|سورة الحجر]]، وهي سورة مكية. يفسّر الطبري «فأخذتهم الصيحة مشرقين» بصاعقة العذاب إذ أشرقت الشمس، و«مشرقين» حال بمعنى إذ أصبحوا. {cite:tanzil-quran}
 
 ## موضعها
 موضعها: الآية 73 من أصل 99 آية في السورة. النص محفوظ من مصحف تنزيل المجمّد ولا يُعاد كتابته هنا.
 
 ## تفسير الطبري
 
-يذكر الطبري أن الصيحة أخذت قوم لوط وقت الإشراق، أي حين أشرقت الشمس، بعد أن كانوا في سكرتهم يعمهون، فأهلكهم الله بها. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=15&tAyahNo=73&tDisplay=yes&UserProfile=0&LanguageId=1
+يتابع الطبري المقطع: «فأخذتهم الصيحة مشرقين» أي أخذت قوم لوط صاعقة العذاب وهي الصيحة مشرقين أي إذ أشرقت الشمس؛ ويبيّن أن نصب «مشرقين» و«مصبحين» على الحال بمعنى إذ أصبحوا وإذ أشرقوا.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=15&tAyahNo=73&tDisplay=yes&UserProfile=0&LanguageId=1

@@ -4,18 +4,20 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-4-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
 ## موجز
-الآية 15 من [[passage/quran-15|سورة الحجر]]، وهي سورة مكية. {cite:tanzil-quran}
+الآية 15 من [[passage/quran-15|سورة الحجر]]، وهي سورة مكية. يعرض الطبري قولين في «فظلوا فيه يعرجون»: أن العارجين الملائكة يراهم المشركون عياناً، وأنهم هم يعرجون، وفي كلتا الحالتين يقولون مسحورون. {cite:tanzil-quran}
 
 ## موضعها
 موضعها: الآية 15 من أصل 99 آية في السورة. النص محفوظ من مصحف تنزيل المجمّد ولا يُعاد كتابته هنا.
 
 ## تفسير الطبري
 
-يبيّن الطبري أن الآية تتمة لما قبلها، فالمشركون لو فُتح لهم باب من السماء وعاينوا الملائكة تصعد فيه، أو صعدوا هم فيه، لما آمنوا، ولقالوا إن أبصارهم سُدّت بالسكر وغُطّيت، وإنهم مسحورون. ويورد في معنى «سكّرت» أقوال أهل التأويل، فمنها أن الأبصار أُخذت وشُبّه عليها. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=15&tAyahNo=15&tDisplay=yes&UserProfile=0&LanguageId=1
+يعرض الطبري خلاف أهل التأويل في «فظلوا فيه يعرجون»: الأول أن المعنى لو فتحنا على المشركين باباً من السماء فظلّت الملائكة تعرج فيه يعاينهم بنو آدم عياناً لقالوا «إنما سكّرت أبصارنا بل نحن قوم مسحورون» — عن ابن عباس والضحاك وقتادة، وينبه ابن جريج إلى أنه رجوع إلى مطالبتهم بالملائكة في الآية قبلها، وأن قريشاً هي القائلة. والثاني أن العارجين هم المشركون أنفسهم لو فتح عليهم باب فعرجوا فيه لقالوا سكّرت أبصارنا. وعن ابن عباس أن الشهب لا تقتل ولكن تحرق وتخبل.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=15&tAyahNo=15&tDisplay=yes&UserProfile=0&LanguageId=1

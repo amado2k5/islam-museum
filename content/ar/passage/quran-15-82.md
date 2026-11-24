@@ -4,18 +4,20 @@ lang: ar
 source_lang: ar
 translators: []
 provenance:
-  generated_by: "Claude Code (Sonnet 5.5 session)"
-  model: claude-sonnet-5-5
-  run: altafsir-tabari-batch-4-2026-11-24
+  generated_by: "Devin"
+  model: swe-2-medium
+  run: altafsir-tabari-thin-1-2026-11-24
   source: source/altafsir-tabari
 ---
 
 ## موجز
-الآية 82 من [[passage/quran-15|سورة الحجر]]، وهي سورة مكية. {cite:tanzil-quran}
+الآية 82 من [[passage/quran-15|سورة الحجر]]، وهي سورة مكية. يقرأ الطبري الآيات 82 إلى 84 معاً: نحت ثمود البيوت من الجبال آمنين، وأخذتهم الصيحة مصبحين، ولم يغن عنهم ما كانوا يكسبون. {cite:tanzil-quran}
 
 ## موضعها
 موضعها: الآية 82 من أصل 99 آية في السورة. النص محفوظ من مصحف تنزيل المجمّد ولا يُعاد كتابته هنا.
 
 ## تفسير الطبري
 
-يذكر الطبري أن أصحاب الحجر، وهم ثمود قوم صالح، كانوا ينحتون من الجبال بيوتاً آمنين من عذاب الله، وقيل آمنين من الخراب أو من الموت. فأخذتهم الصيحة مصبحين، في اليوم الرابع بعد الوعد، فما أغنى عنهم ما كانوا يكسبون. {cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=15&tAyahNo=82&tDisplay=yes&UserProfile=0&LanguageId=1
+يقرأ الطبري الآيات 82 إلى 84 مقطعاً واحداً: «وكانوا ينحتون من الجبال بيوتاً آمنين» كان أصحاب الحجر — ثمود قوم صالح — ينحتون من الجبال بيوتاً آمنين من عذاب الله، وقيل آمنين من الخراب أن تخرب بيوتهم التي نحتوها من الجبال، وقيل آمنين من الموت. «فأخذتهم الصيحة مصبحين»: أخذتهم صيحة الهلاك حين أصبحوا من اليوم الرابع من اليوم الذي وُعدوا فيه العذاب وقيل لهم: تمتعوا في داركم ثلاثة أيام. «فما أغنى عنهم ما كانوا يكسبون»: فما دفع عنهم عذاب الله ما كانوا يجترحون قبل ذلك من الأعمال الخبيثة.
+
+{cite:altafsir-tabari} — https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=1&tSoraNo=15&tAyahNo=82&tDisplay=yes&UserProfile=0&LanguageId=1
