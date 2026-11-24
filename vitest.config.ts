@@ -18,7 +18,9 @@ const ci = Boolean(process.env.CI);
 export default defineConfig({
   test: {
     pool: "forks",
-    poolOptions: { forks: ci ? { minForks: 1, maxForks: 1 } : {} },
+    // NODE_OPTIONS reaches the vitest parent only; forked workers inherit execArgv, so the heap
+    // limit has to be passed there too or a whole-repository test still dies at the default ~8 GB.
+    poolOptions: { forks: ci ? { minForks: 1, maxForks: 1, execArgv: ["--max-old-space-size=12288"] } : {} },
     testTimeout: 300_000,
     hookTimeout: 60_000,
     exclude: [...configDefaults.exclude, "workers/**/test/**"],
