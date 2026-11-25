@@ -84,7 +84,7 @@ All on 25 November 2026, on the machine in the inventory.
 | `npm test` (museum, same tree) | 62 files, 30,319 tests passed, 2 skipped, exit 0, 616 s. It needs `npm --prefix site ci` first: in a fresh worktree without the site's dependencies, 22 test files cannot load and 6 tests fail, none of them to do with gaming |
 | `npm --prefix gaming run atlas:pack` | 3,481 qualifying rounds; pack of 2,125 rounds and 528 places; 365 days, 1,825 rounds used, 0 problems; digest `764f347cfa66…` |
 | `npx tsx tools/atlas-play.ts <dir> <lang>` for each of the seven languages | Seven full daily games in Chrome 158, no console error |
-| `npm run validate`, `npm test` (museum, on the M2 branch at the Atlas commit; later commits touch only `gaming/` and `docs/gaming/`, which neither command reads) | M2_GATES |
+| `npm run validate`, `npm test` (museum, on the M2 branch at the Atlas commit; later commits touch only `gaming/` and `docs/gaming/`, which neither command reads) | validate: 0 errors, exit 0. test: 62 files, 30,319 passed, 2 skipped, exit 0, 655 s |
 | `npm run build`, `npm run check:static` | Not run: no file under `site/` changed |
 
 ## Measurements
