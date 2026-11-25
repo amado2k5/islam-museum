@@ -12,6 +12,8 @@ export default defineConfig({
       "@im/kernel": r("./packages/kernel/src"),
       "@im/worldkit": r("./packages/worldkit/src"),
       "@im/atlas": r("./games/atlas/src"),
+      "@im/audio": r("./packages/audio/src"),
+      "@im/golden-age": r("./games/golden-age/src"),
     },
   },
   server: { port: 4330, strictPort: true, host: "127.0.0.1" },

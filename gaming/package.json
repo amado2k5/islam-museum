@@ -18,7 +18,11 @@
     "atlas:pack": "tsx --tsconfig tsconfig.json games/atlas/tools/build-pack.ts",
     "atlas:play": "tsx tools/atlas-play.ts",
     "simlab": "tsx --tsconfig tsconfig.json tools/simlab.ts",
-    "simtrace": "tsx --tsconfig tsconfig.json tools/simtrace.ts"
+    "simtrace": "tsx --tsconfig tsconfig.json tools/simtrace.ts",
+    "golden-age:play": "tsx --tsconfig tsconfig.json tools/golden-age-play.ts",
+    "golden-age:shot": "tsx tools/golden-age-shot.ts",
+    "music:import": "tsx tools/music-import.ts",
+    "strings": "python3 tools/check-strings.py games/atlas/i18n games/golden-age/i18n packages/audio/i18n"
   },
   "dependencies": {
     "@babylonjs/core": "9.37.2",

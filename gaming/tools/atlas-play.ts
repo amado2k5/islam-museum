@@ -21,7 +21,7 @@ page.on("pageerror", (e) => errors.push(String(e)));
 page.on("console", (m) => {
   if (m.type() === "error" && !m.text().includes("favicon")) errors.push(m.text());
 });
-const url = `${served.base}/games/atlas/index.html?lang=${lang}&date=${date}`;
+const url = `${served.base}/games/atlas/index.html?lang=${lang}&date=${date}&music=off`;
 await page.goto(url);
 await page.waitForSelector("#panel h2");
 const shot = (name: string) => page.screenshot({ path: resolve(out, `atlas-${lang}-${name}.png`) });
