@@ -52,7 +52,7 @@ That is a functional check by the author's own script. It is not a playtest and 
 1. **No images.** The GDD's first promise is guessing from "visual and contextual evidence". There are 828 media records in the museum, 628 of which say what they depict; none is used yet. An image round needs a licence, a credit that does not give the answer away, and a place: this is the next piece of work.
 2. **No 3D terrain globe.** The globe is a 2D canvas with coastlines. It is quick and legible; it is not the "rich terrain/globe" of the brief.
 3. **No regional or era modes, no route reconstruction, no artifact-origin mode**, no archive page for past days, no map skins, no clue packs for creators.
-4. **No sound**, no gamepad, no remapping, no UI scale control.
+4. **Music, and no other sound.** Atlas plays the museum's suite from the shared player, opening with "Fourteen Centuries", silent until the first click, with a switch and a volume control at the top corner ([G-0007](../adr/G-0007-music-and-audio.md)). There are no sound effects, no gamepad, no remapping and no UI scale control.
 5. **Fonts are the system's.** Arabic and Urdu use whatever the device has; the museum's web fonts come with the portal.
 6. **Names in Turkish and Indonesian are borrowed from English for all 951 people in the pack** (the museum's person records have no `tr` or `id` label yet), and 40 Urdu names are borrowed from Arabic. The game says so on the round. This is a gap in the museum's data, noted for the translation lanes.
 7. **Interface strings were written by an AI agent** in all seven languages and have not been read by a native speaker of any of them.

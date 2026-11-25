@@ -1,6 +1,6 @@
 {
  "specVersion": "2.0",
- "status": "in-progress: M0 done; M1 measured on one machine; Atlas is a prototype; no other game exists",
+ "status": "in-progress: M0 done; M1 measured on one machine; Atlas and The Golden Age are prototypes; no other game exists; no person has played either",
  "releasePolicy": "All applicable hard gates must pass; conditional optional features disabled if gate not passed. Human and GPU tests cannot be fabricated.",
  "requirements": [
   {
@@ -37,7 +37,7 @@
    "evidence": "real browser playthrough recording and test",
    "status": "in-progress",
    "hardGate": true,
-   "evidenceSoFar": "Atlas only (prototype): a full five-round daily game played in real Chrome 158 by script in seven languages, docs/gaming/evidence/m2/atlas/. No recording, no human playthrough. The other nine games do not exist."
+   "evidenceSoFar": "Two prototypes. Atlas: a full five-round daily game played in real Chrome 158 by script in seven languages, docs/gaming/evidence/m2/atlas/. The Golden Age: one scenario of the campaign the GDD asks for, played by script in real Chrome 158 in seven languages (mouse, keyboard alone, plan view, without 3D), and a whole 24-season campaign driven through the screen to a win in English and Arabic, with the loss conditions and their visible count under unit test; docs/gaming/evidence/m2/golden-age/screen/. No recording and no human playthrough of either. The other eight games do not exist."
   },
   {
    "id": "R05",
@@ -46,7 +46,7 @@
    "evidence": "fixtures and browser tests",
    "status": "in-progress",
    "hardGate": true,
-   "evidenceSoFar": "Atlas only: save round trip, unreadable save set aside, newer save not overwritten, damaged entry dropped, game from another pack not resumed (unit tests), reload in mid-game and corrupted save (browser script). Only one save version exists, so there is no migration to test yet."
+   "evidenceSoFar": "Atlas: save round trip, unreadable save set aside, newer save not overwritten, damaged entry dropped, game from another pack not resumed (unit tests), reload in mid-game and corrupted save (browser script). The Golden Age: the same cases, plus a state the rules could not have produced is refused (unit tests), reload in mid-game and corrupted save (browser script). Each game has only one save version, so there is no migration to test yet. Saves are in localStorage, not yet the IndexedDB envelope of specification 06."
   },
   {
    "id": "R06",
@@ -73,7 +73,7 @@
    "evidence": "screenshots, functional tests, human language review",
    "status": "in-progress",
    "hardGate": true,
-   "evidenceSoFar": "Atlas: interface in all seven languages, right-to-left for Arabic and Urdu, keyboard-only play and typed coordinates, screenshots in evidence/m2/atlas/. Strings are AI-written and unreviewed by a native speaker; Turkish and Indonesian personal names are borrowed from English."
+   "evidenceSoFar": "Atlas: interface in all seven languages, right-to-left for Arabic and Urdu, keyboard-only play and typed coordinates, screenshots in evidence/m2/atlas/. The Golden Age: 260 strings in seven languages, panels change sides for Arabic and Urdu and the district is never mirrored, keyboard-only play, a plan view in which every plot and canal link is a labelled button and which is the whole game without WebGPU, reduced-motion respected; functional run in each language, evidence/m2/golden-age/screen/. All strings are AI-written and unreviewed by a native speaker; no screen-reader test by a person; touch untried."
   },
   {
    "id": "R09",
@@ -82,7 +82,7 @@
    "evidence": "hardware/browser/driver, p95 and actual captures",
    "status": "in-progress",
    "hardGate": true,
-   "evidenceSoFar": "One machine only: Apple M4 Max, Chrome 158, reference district. docs/gaming/evidence/m1/. No soak, no device-loss test, no Windows or discrete-GPU machine, Edge run did not start. See m1-graphics-spike.md."
+   "evidenceSoFar": "One machine only: Apple M4 Max, Chrome 158. Reference district: docs/gaming/evidence/m1/. The Golden Age: frame intervals at 1920 × 1080 during a scripted campaign, docs/gaming/LEDGER.md (Measurements). No soak, no device-loss test, no Windows or discrete-GPU machine, Edge run did not start. See m1-graphics-spike.md."
   },
   {
    "id": "R10",
