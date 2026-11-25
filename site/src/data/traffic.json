@@ -86,6 +86,13 @@
       "name": "Tranco full list JZW4Y (2026-11-24), public download",
       "sha256": "47dd86be3e310ed9b826cac8097caf9153da8aaa6521a83a974a7ad4be6e3059",
       "public": true
+    },
+    {
+      "id": "E13",
+      "kind": "public-download",
+      "name": "Tranco full list 947P2 (2026-11-25), public download",
+      "sha256": "867ff27561eaab92a965149f533bbe5f4ce201134e7fae4072e0076b7eaf1202",
+      "public": true
     }
   ],
   "rankings": [
@@ -111,6 +118,18 @@
       "evidence": "E12",
       "status": "verified-file",
       "note": "Exact row '629925,islam.museum' in the full list JZW4Y of 4,329,984 domains (line 629925).",
+      "url": "https://tranco-list.eu/api/ranks/domain/islam.museum"
+    },
+    {
+      "id": "tranco-2026-11-25",
+      "provider": "Tranco",
+      "metric": "rank",
+      "value": 608280,
+      "exact": true,
+      "observed": "2026-11-25",
+      "evidence": "E13",
+      "status": "verified-file",
+      "note": "Exact row '608280,islam.museum' in the full list 947P2 of 4,326,585 domains (line 608280).",
       "url": "https://tranco-list.eu/api/ranks/domain/islam.museum"
     },
     {
@@ -155,6 +174,11 @@
         {
           "date": "2026-11-24",
           "rank": 629925,
+          "status": "verified-file"
+        },
+        {
+          "date": "2026-11-25",
+          "rank": 608280,
           "status": "verified-file"
         }
       ],
