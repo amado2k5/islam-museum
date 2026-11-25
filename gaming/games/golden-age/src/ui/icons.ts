@@ -28,6 +28,8 @@ const PATHS: Record<string, string> = {
   left: "M15 5l-7 7l7 7",
   right: "M9 5l7 7l-7 7",
   check: "M5 12.5l4.5 4.5L19 7",
+  nowater: "M12 3c4 5 6 8 6 11a6 6 0 0 1-12 0c0-3 2-6 6-11M4.5 4.5l15 15",
+  noreach: "M4 11l8-7l8 7M6 10v10h12V10M4.5 4.5l15 15",
   season: "M12 7a5 5 0 1 0 0 10a5 5 0 0 0 0-10M12 2v2M12 20v2M2 12h2M20 12h2M5 5l1.5 1.5M17.5 17.5L19 19M19 5l-1.5 1.5M6.5 17.5L5 19",
 };
 

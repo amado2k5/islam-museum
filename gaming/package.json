@@ -21,6 +21,7 @@
     "simtrace": "tsx --tsconfig tsconfig.json tools/simtrace.ts",
     "golden-age:play": "tsx --tsconfig tsconfig.json tools/golden-age-play.ts",
     "golden-age:shot": "tsx tools/golden-age-shot.ts",
+    "golden-age:links": "tsx --tsconfig tsconfig.json games/golden-age/tools/build-links.ts",
     "music:import": "tsx tools/music-import.ts",
     "strings": "python3 tools/check-strings.py games/atlas/i18n games/golden-age/i18n packages/audio/i18n"
   },

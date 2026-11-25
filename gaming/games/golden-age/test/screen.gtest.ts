@@ -7,7 +7,8 @@ import { makePolicies } from "../src/policies";
 import { BUILDING_TYPES, CANAL_COST, GRID_W, PLOTS, RESEARCH_IDS, adjacent, newGame, plotOf, step, xyOf, type BuildingType, type Command, type State } from "../src/rules";
 import { SAVE_KEY, playable, readSave, writeSave } from "../src/save";
 import { FAILING_CANAL } from "../src/scenarios";
-import { advice, aim, calendar, goals, ledger, overlay, plotInfo, project, researchList, showing, stocks, type Line } from "../src/ui/model";
+import { createHash } from "node:crypto";
+import { advice, aim, calendar, goals, ledger, overlay, plotInfo, plotProblems, project, researchList, showing, stocks, type Line } from "../src/ui/model";
 import { buildEnvironment, buildPlot, envHeight, lookKey, walkerPose, type PlotLook } from "../src/view/board";
 import { CAMERA_LIMITS, START_POSE, clampPose, eyeOf, groundPoint, pan, turn, viewPoint, zoom } from "../src/view/camera";
 import { ALL_LINKS, BOARD, CANAL_BED, HALF, LANE_HALF, QUAY, RIVER_LEVEL, canalMasks, dirTo, nearestLink, neighbour, plotAt, plotCentre, plotName, type Dir } from "../src/view/layout";
@@ -290,6 +291,27 @@ describe("what the panel says", () => {
     expect(overlay(s, "inspect", plotOf(2, 1))).toEqual([]);
   });
 
+  it("marks the plots where something is not doing its job", () => {
+    const s = newGame(S, 5);
+    // The inherited district: two houses the canal does not reach.
+    expect(plotProblems(s).map((p) => [p.plot, p.kind, p.line.id])).toEqual([
+      [plotOf(3, 1), "water", "info_water_no"],
+      [plotOf(4, 2), "water", "info_water_no"],
+    ]);
+    const dug = play(s, { type: "canal", a: plotOf(1, 1), b: plotOf(2, 1) });
+    expect(plotProblems(dug).map((p) => p.plot)).toEqual([plotOf(4, 2)]);
+    // A bath away from water does nothing; a market with no houses near serves nobody; a dry farm grows a quarter.
+    const built = play({ ...s, treasury: 500 }, { type: "build", building: "bath", plot: plotOf(5, 2) }, { type: "build", building: "market", plot: plotOf(7, 5) }, { type: "build", building: "farm", plot: plotOf(6, 0) }, { type: "build", building: "school", plot: plotOf(3, 2) });
+    const byPlot = new Map(plotProblems(built).map((p) => [p.plot, p]));
+    expect(byPlot.get(plotOf(5, 2))).toMatchObject({ kind: "water", line: { id: "mark_bath_dry" } });
+    expect(byPlot.get(plotOf(7, 5))).toMatchObject({ kind: "reach", line: { id: "mark_no_houses" } });
+    expect(byPlot.get(plotOf(6, 0))).toMatchObject({ kind: "water", line: { id: "info_farm_dry" } });
+    expect(byPlot.has(plotOf(3, 2))).toBe(false);
+    // The same sentences are in the plot's own description, so the plan view and the tooltip say them too.
+    expect(plotInfo(built, plotOf(5, 2)).lines.some((l) => l.id === "mark_bath_dry")).toBe(true);
+    expect(plotInfo(built, plotOf(7, 5)).lines.some((l) => l.id === "mark_no_houses")).toBe(true);
+  });
+
   it("accounts for welfare cause by cause, all the way through a campaign", () => {
     const en = JSON.parse(readFileSync(new URL("../i18n/en.json", import.meta.url), "utf8")) as Record<string, string>;
     const policy = makePolicies(step).find((p) => p.name === "balanced")!;
@@ -347,6 +369,24 @@ describe("the saved game", () => {
   });
 });
 
+describe("the museum behind the game", () => {
+  const links = JSON.parse(readFileSync(new URL("../data/museum-links.v1.json", import.meta.url), "utf8")) as { format: string; version: number; digest: string; research: Record<string, string>; tool: Record<string, string>; records: Record<string, { review: string; label: Record<string, string> }> };
+
+  it("links research and tools to museum records by id, with a label in every language", () => {
+    expect(links.format).toBe("im.golden-age.links");
+    for (const id of RESEARCH_IDS) expect(links.research[id], id).toBeTypeOf("string");
+    for (const key of Object.keys(links.tool)) expect(["canal", "demolish", "inspect", ...BUILDING_TYPES]).toContain(key);
+    for (const id of [...Object.values(links.research), ...Object.values(links.tool)]) {
+      expect(id).toMatch(/^[a-z-]+\/[a-z0-9-]+$/);
+      const record = links.records[id]!;
+      expect(record, id).toBeDefined();
+      for (const lang of ["ar", "en", "ur", "fr", "es", "tr", "id"]) expect(record.label[lang]?.trim().length, `${id}.${lang}`).toBeGreaterThan(0);
+    }
+    // The file is what the builder wrote: its digest covers the links and the labels.
+    expect(createHash("sha256").update(JSON.stringify({ research: links.research, tool: links.tool, records: links.records })).digest("hex")).toBe(links.digest);
+  });
+});
+
 describe("the words", () => {
   const LANGS = ["ar", "en", "ur", "fr", "es", "tr", "id"];
   const table = (lang: string) => JSON.parse(readFileSync(new URL(`../i18n/${lang}.json`, import.meta.url), "utf8")) as Record<string, string>;
@@ -371,7 +411,7 @@ describe("the words", () => {
   it("has a string for every key the screen asks for", () => {
     const source = ["../src/ui/app.ts", "../src/ui/model.ts"].map((f) => readFileSync(new URL(f, import.meta.url), "utf8")).join("\n");
     const literal = [...source.matchAll(/\bt\("([a-z0-9_-]+)"/g)].map((m) => m[1]!);
-    const ids = [...source.matchAll(/\bid: "((?:advice|ledger|info|welfare)_[a-z0-9_-]+)"/g)].map((m) => m[1]!);
+    const ids = [...source.matchAll(/\bid: "((?:advice|ledger|info|welfare|mark)_[a-z0-9_-]+)"/g)].map((m) => m[1]!);
     expect(literal.length).toBeGreaterThan(40);
     for (const k of [...literal, ...ids]) expect(en[k], k).toBeTypeOf("string");
     // Keys built from a name: every member of each family must exist.

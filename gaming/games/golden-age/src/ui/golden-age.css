@@ -47,6 +47,16 @@ ul, ol { padding: 0; list-style: none; }
 .skip { position: absolute; inset-inline-start: -9999px; z-index: 20; }
 .skip:focus { inset-inline-start: 12px; inset-block-start: 12px; padding: 8px 12px; background: var(--accent); color: #1a1408; border-radius: 8px; }
 
+/* ---- Markers over the district, and the museum links ---- */
+.marks { position: absolute; inset: 0; overflow: hidden; pointer-events: none; }
+.mark { position: absolute; inset-block-start: 0; left: 0; width: 26px; height: 26px; margin: -13px 0 0 -13px; border-radius: 50%; display: grid; place-items: center; background: rgba(24, 12, 10, 0.88); border: 2px solid var(--bad); color: var(--bad); box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5); }
+.mark.reach { border-color: var(--warn); color: var(--warn); }
+.museum { display: inline; font-size: 0.84rem; color: var(--muted); }
+.research .museum { display: block; margin-top: 4px; }
+.museum a { color: #9fd8e6; }
+button.linklike { display: inline; padding: 0; border: 0; background: none; color: var(--ivory); font-weight: 600; text-decoration: underline; text-underline-offset: 3px; }
+button.linklike:hover { background: none; color: var(--accent); }
+
 /* ---- Top bar: where and when, the six stocks, the menu ---- */
 .bar { position: absolute; inset-block-start: 0; inset-inline: 0; min-height: var(--bar); display: flex; align-items: center; gap: 16px; padding: 8px 14px; background: linear-gradient(rgba(10, 20, 20, 0.94), rgba(10, 20, 20, 0.78)); border-bottom: 1px solid var(--line); }
 .barmain { display: flex; align-items: center; gap: 16px; flex: 1; min-width: 0; }

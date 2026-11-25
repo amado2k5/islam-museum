@@ -25,6 +25,7 @@ npm --prefix gaming run strings   # the string tables of every game: seven langu
 npm --prefix gaming run dev       # http://127.0.0.1:4330/games/golden-age/index.html?lang=ar  and  /games/atlas/index.html?lang=ar  and  /labs/graphics/district.html
 npm --prefix gaming run music:import -- ~/Downloads   # once per checkout: encode the six WAV masters into gaming/media/music/
 npm --prefix gaming run atlas:pack   # rebuild Atlas's content pack from the museum's records (a new pack version)
+npm --prefix gaming run golden-age:links   # rebuild The Golden Age's pinned links to museum records (labels in seven languages)
 npm --prefix gaming run simlab -- 1000   # play 14,000 Golden Age campaigns and report what breaks or dominates
 npm --prefix gaming run golden-age:play -- <out dir> ar 1   # play The Golden Age in real Chrome, in a language, with a whole campaign
 ```
