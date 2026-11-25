@@ -198,6 +198,8 @@ All on 25 November 2026, on the machine in the inventory.
 | `actionlint` on the four games workflows and on `validate.yml` | No finding. (`build.yml` has one that was there before: actionlint does not know the `queue` key) |
 | `npx vitest run scripts/games-separation.test.ts` | 4 tests, all pass |
 | `npm --prefix gaming test`, `typecheck`, `strings` | 9 files, 164 tests, all pass; clean; no string changed. The play scripts were run once more in Arabic after the music control's code changed (`tools/golden-age-play.ts`, `tools/atlas-play.ts`): every step passed, the music still starts after a click in a development build, no console error |
+| `npm run validate`, `CI=1 npm test` (museum; run because this pull request changes museum files: two of the website's workflows, a museum test, `AGENTS.md`, the claims register) | validate: 0 errors, 7,674 warnings, exit 0, 275 s. test: 63 files, 30,323 passed, 2 skipped, exit 0, 1,254 s (one file and four tests more than before: the separation guard) |
+| `npm --prefix gaming test` after a generous time allowance was set | 164 pass. Before it, three heavy tests failed once by the clock (the default five seconds) while the museum's suite ran on the same machine; every assertion held, and four further runs passed. The allowance is now two minutes, because a hosted runner is slower |
 | A games deployment to UAT or production | **Not run.** It is the founder's to start |
 
 ## Measurements
