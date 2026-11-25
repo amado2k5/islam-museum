@@ -1,5 +1,5 @@
 // Generates procedural textures off the main thread. One request, one reply; the pixel buffers are transferred, not copied.
-import { makeTexture, type TextureKind } from "@im/worldkit/textures";
+import { makeTexture, type TextureKind } from "./textures";
 
 self.onmessage = (e: MessageEvent<{ kind: TextureKind; seed: number; size: number }>) => {
   const t = makeTexture(e.data.kind, e.data.seed, e.data.size);

@@ -9,7 +9,7 @@ import { bloom } from "three/addons/tsl/display/BloomNode.js";
 import type { DistrictScene, MaterialSpec, SceneMaterialId } from "@im/worldkit/district/generate";
 import type { MeshData, Vec3 } from "@im/worldkit/mesh";
 import type { TextureData, TextureKind } from "@im/worldkit/textures";
-import { skyDome, type Atmosphere } from "./atmosphere";
+import { skyDome, type Atmosphere } from "@im/worldkit/atmosphere";
 import type { DistrictRenderer, RendererInfo, RendererOptions } from "./api";
 
 const color = (c: readonly [number, number, number]) => new THREE.Color().setRGB(c[0], c[1], c[2], THREE.LinearSRGBColorSpace);

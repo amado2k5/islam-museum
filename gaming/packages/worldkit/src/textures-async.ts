@@ -1,5 +1,5 @@
 // Runs the texture generator on a small pool of workers and resolves when every texture is ready.
-import { TEXTURE_KINDS, type TextureData, type TextureKind } from "@im/worldkit/textures";
+import { TEXTURE_KINDS, type TextureData, type TextureKind } from "./textures";
 
 export async function generateTextures(seed: number, size: number): Promise<{ textures: Map<TextureKind, TextureData>; ms: number; workers: number; timeline: Array<[string, number]> }> {
   const started = performance.now();
