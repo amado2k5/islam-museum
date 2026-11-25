@@ -6,7 +6,8 @@ import { Rng } from "@im/kernel/prng";
 import { makePolicies } from "../src/policies";
 import { BUILDING_TYPES, CANAL_COST, GRID_W, PLOTS, RESEARCH_IDS, adjacent, newGame, plotOf, step, xyOf, type BuildingType, type Command, type State } from "../src/rules";
 import { SAVE_KEY, playable, readSave, writeSave } from "../src/save";
-import { FAILING_CANAL } from "../src/scenarios";
+import { runLab } from "../src/lab";
+import { CHAPTERS, FAILING_CANAL, HOUSE_OF_BOOKS, SCENARIOS } from "../src/scenarios";
 import { createHash } from "node:crypto";
 import { advice, aim, calendar, goals, ledger, overlay, plotInfo, plotProblems, project, researchList, showing, stocks, type Line } from "../src/ui/model";
 import { buildEnvironment, buildPlot, envHeight, lookKey, walkerPose, type PlotLook } from "../src/view/board";
@@ -369,8 +370,43 @@ describe("the saved game", () => {
   });
 });
 
+describe("the second chapter", () => {
+  const B = HOUSE_OF_BOOKS;
+
+  it("starts from a district that works, with paper already known", () => {
+    expect(CHAPTERS.map((c) => c.id)).toEqual(["failing-canal", "house-of-books"]);
+    expect(Object.keys(SCENARIOS)).toEqual(CHAPTERS.map((c) => c.id));
+    const s = newGame(B, 4);
+    expect(s).toMatchObject({ scenario: "house-of-books", households: 130, treasury: 110, canalCondition: 1000, researched: ["paper"] });
+    // Nothing in the inherited district is broken: every farm is watered, every service has houses in reach.
+    expect(plotProblems(s)).toEqual([]);
+    // Paper counts as learning already done, and the library can be built at once (if it can be paid for).
+    expect(goals(B, s).rows.find((r) => r.id === "knowledge")).toMatchObject({ value: 70, goal: 480 });
+    expect(aim({ ...s, treasury: 200 }, "library", plotOf(5, 2), null).preview).toMatchObject({ ok: true, cost: 90 });
+    expect(aim(s, "hospital", plotOf(5, 2), null).preview).toMatchObject({ ok: false, reason: "not-researched" });
+    // More than half the households have no work at the start: that is the chapter's first problem.
+    const r = project(B, s)!.report;
+    expect(r.jobs).toBeLessThan(s.households / 2);
+    expect(r.welfareParts.idle).toBeLessThan(0);
+    // The first chapter is untouched by the second's options.
+    expect(newGame(FAILING_CANAL, 4)).toMatchObject({ canalCondition: 600, researched: [] });
+  });
+
+  it("can be won in more than two ways and not by a cheap trick (120 seeds)", () => {
+    const report = runLab(B, 120);
+    const real = report.policies.filter((p) => ["irrigator", "merchant", "scholar", "balanced"].includes(p.policy));
+    const probes = report.policies.filter((p) => !real.includes(p));
+    // No rule broken in any campaign; "the campaign did not end" is itself one of the things that would be listed.
+    expect(report.violations).toEqual([]);
+    for (const p of probes) expect(p.winPermille, p.policy).toBe(0);
+    // The design asks for at least three ways to win; none may be a foregone conclusion.
+    expect(real.filter((p) => p.winPermille >= 200).length).toBeGreaterThanOrEqual(3);
+    for (const p of real) expect(p.winPermille, p.policy).toBeLessThan(900);
+  });
+});
+
 describe("the museum behind the game", () => {
-  const links = JSON.parse(readFileSync(new URL("../data/museum-links.v1.json", import.meta.url), "utf8")) as { format: string; version: number; digest: string; research: Record<string, string>; tool: Record<string, string>; records: Record<string, { review: string; label: Record<string, string> }> };
+  const links = JSON.parse(readFileSync(new URL("../data/museum-links.v1.json", import.meta.url), "utf8")) as { format: string; version: number; digest: string; research: Record<string, string>; tool: Record<string, string>; scenario: Record<string, string[]>; records: Record<string, { review: string; label: Record<string, string>; summary?: Record<string, string> }> };
 
   it("links research and tools to museum records by id, with a label in every language", () => {
     expect(links.format).toBe("im.golden-age.links");
@@ -383,7 +419,22 @@ describe("the museum behind the game", () => {
       for (const lang of ["ar", "en", "ur", "fr", "es", "tr", "id"]) expect(record.label[lang]?.trim().length, `${id}.${lang}`).toBeGreaterThan(0);
     }
     // The file is what the builder wrote: its digest covers the links and the labels.
-    expect(createHash("sha256").update(JSON.stringify({ research: links.research, tool: links.tool, records: links.records })).digest("hex")).toBe(links.digest);
+    expect(createHash("sha256").update(JSON.stringify({ research: links.research, tool: links.tool, scenario: links.scenario, records: links.records })).digest("hex")).toBe(links.digest);
+  });
+
+  it("gives every chapter the museum's own account of its history, in every language, without citation markers", () => {
+    for (const chapter of CHAPTERS) {
+      const ids = links.scenario[chapter.id]!;
+      expect(ids?.length, chapter.id).toBeGreaterThan(0);
+      for (const id of ids) {
+        const summary = links.records[id]!.summary!;
+        for (const lang of ["ar", "en", "ur", "fr", "es", "tr", "id"]) {
+          expect(summary[lang]!.length, `${id}.${lang}`).toBeGreaterThan(40);
+          expect(summary[lang]!.length, `${id}.${lang}`).toBeLessThanOrEqual(900);
+          expect(summary[lang], `${id}.${lang}`).not.toContain("{cite");
+        }
+      }
+    }
   });
 });
 
@@ -434,7 +485,8 @@ describe("the words", () => {
       reason_: ["over", "occupied", "empty", "not-researched", "no-funds", "not-adjacent", "exists", "not-connected", "off-map", "already-researched", "needs-research", "no-silt", "same"],
       boot_: ["check", "textures", "renderer", "district"],
       help_: ["1", "2", "3", "4", "5", "6", "7", "title", "controls"],
-      scenario_: [S.id],
+      scenario_: CHAPTERS.map((c) => c.id),
+      brief_: [...CHAPTERS.map((c) => c.id), "goal", "begin", "read"],
     };
     for (const [prefix, names] of Object.entries(families)) for (const n of names) expect(en[`${prefix}${n}`], `${prefix}${n}`).toBeTypeOf("string");
   });

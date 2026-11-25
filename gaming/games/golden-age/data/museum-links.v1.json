@@ -1,8 +1,8 @@
 {
  "format": "im.golden-age.links",
- "version": 1,
- "builtFrom": "e60dab3fcbb",
- "digest": "b1a058a6e5236d3ef3d1adc246bd6adb8fc9673a29f419ada7dfc5161580f889",
+ "version": 2,
+ "builtFrom": "361a669c3a5",
+ "digest": "e43cb6d8ab39ea5e4848fa5c72d4a4f9e93d57587942b9df405e8205a25ad5c1",
  "research": {
   "lined-canals": "invention/mansur-covered-water-conduits",
   "water-wheel": "invention/norias-of-hama",
@@ -19,6 +19,16 @@
   "bath": "concept/hammam",
   "library": "group/bayt-al-hikma",
   "hospital": "invention/harun-bimaristan"
+ },
+ "scenario": {
+  "failing-canal": [
+   "invention/mansur-covered-water-conduits",
+   "invention/karaji-qanat-surveying"
+  ],
+  "house-of-books": [
+   "invention/paper-mill-samarkand",
+   "invention/nizamiyya-madrasa"
+  ]
  },
  "records": {
   "concept/hammam": {
@@ -91,6 +101,15 @@
     "es": "Métodos de nivelación y alineación de túneles de Al-Karaji",
     "tr": "El-Karji'de kanalın güzergahının düzeltilmesi ve ayarlanması",
     "id": "Meratakan dan menyesuaikan jalur saluran di Al-Karji"
+   },
+   "summary": {
+    "ar": "موازين وبرهان هندسي وتوجيه نفق ضمن دليل للمياه؛ تحسين موثق لا اختراع القناة القديمة.",
+    "en": "Levels, geometrical explanation and tunnel alignment within a water manual; documented refinement, not invention of ancient qanats.",
+    "ur": "آبی رہنما میں تسویہ، ہندسی توضیح اور سرنگ کی سیدھ؛ موثق بہتری، قدیم قنات کی ایجاد نہیں۔",
+    "fr": "Niveaux, explication géométrique et alignement du tunnel dans un manuel de l'eau; raffinement documenté, et non invention des anciens qanats.",
+    "es": "Niveles, explicación geométrica y alineación de túneles dentro de un manual de agua; refinamiento documentado, no invención de qanats antiguos.",
+    "tr": "Su kılavuzu içinde denge, mühendislik kanıtı ve tünel yönlendirmesi; eski kanalın belgelenmiş bir iyileştirmesi, bir icadı değil.",
+    "id": "Keseimbangan, bukti rekayasa, dan panduan terowongan di dalam panduan air; peningkatan yang terdokumentasi, bukan penemuan, dari kanal lama."
    }
   },
   "invention/mansur-covered-water-conduits": {
@@ -103,6 +122,15 @@
     "es": "Conductos de agua cubiertos de Mansur Bagdad",
     "tr": "Bağdat'taki kapalı su kanalları Al-Mansour",
     "id": "Saluran air tertutup di Baghdad Al-Mansour"
+   },
+   "summary": {
+    "ar": "ترتيب عباسي لجلب الماء إلى نواة بغداد عبر قنوات مغطاة مبطنة، تطويرٌ عمراني لا اختراعاً للماء أو القنوات.",
+    "en": "Abbasid arrangement supplying Baghdad's nucleus through lined/covered conduits,an urban improvement not invention of water or channels.",
+    "ur": "بغداد کے مرکز تک پانی پہنچانے کے لیے مبطن و ڈھکی نالیوں کا عباسی انتظام، شہری بہتری؛ پانی یا نہروں کی ایجاد نہیں۔",
+    "fr": "L'aménagement abbasside alimentant le noyau de Bagdad par des conduits revêtus/couverts, une amélioration urbaine et non une invention d'eau ou de canaux.",
+    "es": "Disposición abasí que abastecía el núcleo de Bagdad a través de conductos revestidos/cubiertos, una mejora urbana, no una invención del agua o los canales.",
+    "tr": "Abbasi döneminde Bağdat'ın merkezine su getirmek için yapılan, üzeri örtülü ve kaplamalı kanallar düzenlemesi; bir kentsel gelişim projesi, su veya kanalların icadı değil.",
+    "id": "Pengaturan Abbasiyah untuk membawa air ke pusat Baghdad melalui kanal-kanal tertutup dan berlapisan; sebuah pembangunan perkotaan, bukan penemuan air atau kanal."
    }
   },
   "invention/nizamiyya-madrasa": {
@@ -115,6 +143,15 @@
     "es": "Los Nizamiyyas: una red de madrasas con dotación económica.",
     "tr": "Sistematik: Bağışlarla finanse edilen okullar ağı",
     "id": "Sistematika: Jaringan sekolah-sekolah yang didanai"
+   },
+   "summary": {
+    "ar": "رعى نظام الملك مدارس في مدن متعددة، جمعت التدريس والسكن والكتب إلى أوقاف تمول العاملين والطلبة. افتتحت نظامية بغداد سنة 459هـ/1067م، لكن نيسابور سبقتها، والمدارس نفسها أقدم من النظاميات. ورأى ابن جبير نظامية بغداد ووصف أوقاف مدارس المدينة وإعالة مدرسيها وطلبتها. الإسهام شبكة مؤسسات تعليمية ممولة، لا اختراع التعليم ولا الجامعة أو الإجازة.",
+    "en": "Nizam al-Mulk sponsored madrasas in several cities, joining teaching, accommodation and books to endowments supporting staff and students. Baghdad's Nizamiyya opened in 459 AH/1067 CE, but Nishapur preceded it and madrasas predated the Nizamiyyas. Ibn Jubayr saw the Baghdad institution and described the city's endowed schools and support for teachers and students. The contribution is an endowed educational network, not invention of education, universities or ijaza.",
+    "ur": "نظام الملک نے کئی شہروں میں ایسے مدارس کی سرپرستی کی جہاں تدریس، رہائش اور کتابیں، اساتذہ اور طلبہ کو سہارا دینے والے اوقاف سے جڑی تھیں۔ بغداد کا نظامیہ 459ھ/1067ء میں کھلا، مگر نیشاپور اس سے پہلے تھا اور مدارس نظامیہ سے بھی پہلے تھے۔ ابن جبیر نے بغداد کا ادارہ دیکھا اور شہر کے مدارس کے اوقاف، اساتذہ اور طلبہ کی کفالت بیان کی۔ نسبت وقفی تعلیمی سلسلے کی ترقی ہے، تعلیم، یونیورسٹی یا اجازت کی ایجاد نہیں۔",
+    "fr": "Nizam al-Mulk finança des madrasas dans plusieurs villes, associant enseignement, hébergement et livres à des dotations destinées à soutenir le personnel et les étudiants. La Nizamiyya de Bagdad ouvrit ses portes en 459 AH/1067 ap. J.-C., mais celle de Nishapur l'avait précédée et les madrasas existaient déjà avant les Nizamiyyas (voir: tdv-nizamiye-medresesi, p. 188-191). Ibn Jubayr visita l'institution de Bagdad et décrivit les écoles dotées de fonds de la ville ainsi que le soutien apporté aux enseignants et aux étudiants (voir: rihla-ibn-jubayr-1907, p. 193). Il s'agit là d'un réseau éducatif doté de fonds, et non d'une invention de l'éducation, des universités ou de l'ijaza.",
+    "es": "Nizam al-Mulk patrocinó madrasas en varias ciudades, combinando la enseñanza, el alojamiento y los libros con donaciones que sostenían al personal y a los estudiantes. La Nizamiyya de Bagdad abrió sus puertas en el año 459 de la Hégira (1067 d. C.), pero Nishapur la precedió y las madrasas eran anteriores a las Nizamiyyas. Ibn Jubayr visitó la institución de Bagdad y describió las escuelas financiadas de la ciudad y el apoyo a profesores y estudiantes. La contribución es una red educativa financiada, no la invención de la educación, las universidades o la ijaza.",
+    "tr": "Nizam el-Mulk, çeşitli şehirlerde okullar kurarak, öğretim, konaklama ve kitapları, personel ve öğrencilerin masraflarını karşılayan vakıflarla birleştirdi. Bağdat Nizamiyyesi 459 Hicri/1067 Miladi yılında açıldı, ancak Nişapur daha eskiydi ve okulların kendileri Nizamiyyelerden daha eskidir {kaynak:tdv-nizamiye-medresesi s. 188–191}. İbn Cübeyr, Bağdat Nizamiyyesini ziyaret etti ve şehrin okullarının vakıflarını ve öğretmenlerine ve öğrencilerine sağlanan desteği anlattı {kaynak:rihla-ibn-jubayr-1907 tarama s. 193}. Katkı, eğitimin, üniversitenin veya diplomanın icadı değil, finanse edilen eğitim kurumlarından oluşan bir ağdı.",
+    "id": "Nizam al-Mulk mensponsori sekolah-sekolah di beberapa kota, menggabungkan pengajaran, akomodasi, dan buku dengan wakaf yang mendanai staf dan siswa. Nizamiyya Baghdad dibuka pada tahun 459 H/1067 M, tetapi Nishapur sudah ada sebelumnya, dan sekolah-sekolah itu sendiri lebih tua daripada Nizamiyya. Ibn Jubayr melihat Nizamiyya Baghdad dan menggambarkan wakaf sekolah-sekolah di kota itu dan dukungan yang diberikan kepada guru dan siswanya. Kontribusinya adalah jaringan lembaga pendidikan yang didanai, bukan penemuan pendidikan, universitas, atau gelar."
    }
   },
   "invention/norias-of-hama": {
@@ -139,6 +176,15 @@
     "es": "El papel de Samarcanda y la transmisión de la fabricación de papel al mundo islámico.",
     "tr": "Semerkant kağıdı ve kağıt üretiminin İslam dünyasına aktarılması",
     "id": "Kertas Samarkand dan transfer pembuatan kertas ke dunia Islam"
+   },
+   "summary": {
+    "ar": "تروي المصادر أن صنّاعاً صينيين أسروا بعد وقعة أطلخ قرب نهر طلاس سنة ⁦(133–134/751)⁩ علّموا صناعة الورق من الخرق الكتانية والقنب في سمرقند، فصار «ورق سمرقند» مشهوراً يصدَّر في أنحاء العالم الإسلامي حتى غدا عند الجاحظ نظيرَ برديّ مصر. السجل لنقل حرفة، لا لاختراع الورق الصيني الأصل، ورواية الأسرى خبر مروي لا وثيقة تأسيس.",
+    "en": "The transmitted account tells how Chinese artisans captured after the battle of Atlakh near the Talas in ⁦(133–134/751)⁩ taught rag papermaking at Samarkand, whose 'paper of Samarkand' became a famed export until al-Jahiz could pair it with Egyptian papyrus. This is craft transmission, not the invention of paper, and the prisoner story is a report, not a foundation document.",
+    "ur": "روایت ہے کہ نہر طلاس کے قریب اطلخ کی لڑائی ⁦(133–134/751)⁩ کے بعد پکڑے گئے چینی کاریگروں نے سمرقند میں کتان و سن کی ٹکروں سے کاغذ سازی سکھائی؛ «کاغذِ سمرقند» مشہور برآمدہ بنا اور جاحظ نے اسے مصر کے پاپائرسی کا ہم پلہ قرار دیا۔ یہ ہنر کی منتقلی ہے، کاغذ کی ایجاد نہیں؛ قیدیوں کی خبر منقولہ ہے، قیام کی دستاویز نہیں۔",
+    "fr": "Le récit transmis relate comment des artisans chinois, capturés après la bataille d'Atlakh près de Talas (133-134/751), enseignèrent la fabrication du papier chiffon à Samarcande. Le « papier de Samarcande » devint un produit d'exportation renommé jusqu'à ce qu'al-Jahiz puisse l'associer au papyrus égyptien (voir: Encyclopaedia of Islam, vol. IV, p. 440, Kaghad; voir: Carter, Invention Printing, 1925, p. 97-98). Il s'agit d'une transmission de savoir-faire, et non de l'invention du papier; le récit du prisonnier est un témoignage, et non un document fondateur.",
+    "es": "El relato transmitido cuenta cómo artesanos chinos capturados tras la batalla de Atlakh cerca de Talas (133-134/751) enseñaron a fabricar papel de trapo en Samarcanda, cuyo «papel de Samarcanda» se convirtió en una famosa exportación hasta que al-Jahiz pudo combinarlo con papiro egipcio. Se trata de una transmisión artesanal, no de la invención del papel, y la historia de los prisioneros es un informe, no un documento fundacional.",
+    "tr": "Kaynaklar, Hicri 133-134 (Miladi 751) yılında Talas Nehri yakınlarındaki Atlakh Muharebesi'nden sonra esir alınan Çinli zanaatkarların Semerkant'ta keten ve kenevir paçavralarından kağıt yapma sanatını öğrettiklerini aktarmaktadır. \"Semerkant kağıdı\" meşhur olmuş ve İslam dünyasının her yerine ihraç edilmiştir; öyle ki El-Cahiz onu Mısır papirüsüyle kıyaslanabilir bulmuştur. [kaynak:encyclopedia-of-islam-2 cilt IV s. 440 KAGHAD] [kaynak:carter-invention-printing-1925 s. 97-98]. Kayıt, Çin kökenli kağıdın icadına değil, bir zanaatın aktarılmasına ilişkindir ve esirlerin anlatımı, kurucu bir belge değil, aktarılan bir öyküdür.",
+    "id": "Sumber-sumber menyebutkan bahwa para pengrajin Tiongkok yang ditangkap setelah Pertempuran Atlakh di dekat Sungai Talas pada tahun 133–134 H (751 M) diajari seni pembuatan kertas dari kain linen dan rami di Samarkand. \"Kertas Samarkand\" menjadi terkenal dan diekspor ke seluruh dunia Islam, sampai-sampai al-Jahiz menganggapnya setara dengan papirus Mesir. [cite:encyclopedia-of-islam-2 vol. IV p. 440 KAGHAD] [cite:carter-invention-printing-1925 pp. 97–98]. Catatan tersebut berkaitan dengan transfer keterampilan, bukan penemuan kertas asal Tiongkok, dan kisah para tahanan adalah cerita yang diturunkan, bukan dokumen pendiri."
    }
   },
   "invention/physician-licensing-baghdad-931": {
