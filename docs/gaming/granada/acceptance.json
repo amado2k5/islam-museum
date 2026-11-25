@@ -11,7 +11,7 @@
   "not-applicable"
  ],
  "updated": "2026-11-25",
- "status": "in-progress: G0 done (self-assessed); the money and goods of the economy and the region's geography are built and tested; there is no screen, no scene and no playable game",
+ "status": "in-progress: G0 done (self-assessed); the ledger, the region's geography and the first scenario's rules are built and tested; there is no screen, so no person can play it",
  "criteriaSource": "docs/gaming/spec-granada/contracts/acceptance.json (the founder's; never edited here)",
  "gates": [
   {
@@ -28,9 +28,9 @@
    "milestone": "G2",
    "requirement": "First-time player completes water → harvest → trade → construction → quest → save loop",
    "evidence": "Unassisted browser recording, E2E, player observations",
-   "status": "not-tested",
+   "status": "in-progress",
    "hardGate": true,
-   "evidenceSoFar": "Nothing yet."
+   "evidenceSoFar": "The loop exists as rules and is played by scripted players: mend or extend the water, bring in the ripe wheat, sell or store it, build a house and the granary, complete five quests (gaming/games/granada/src/sim/village.ts; 28 tests; docs/gaming/evidence/granada/village/village-lab-1000.md). Not done, and it is most of the gate: no screen, no saving, no browser recording, and no first-time player, so 'unassisted' cannot be tested."
   },
   {
    "id": "GRA03",
@@ -39,7 +39,7 @@
    "evidence": "Seeded hashes and replay fixture",
    "status": "in-progress",
    "hardGate": true,
-   "evidenceSoFar": "Commands only: the same commands give the same state and the same fingerprint, and different commands a different one (economy.gtest.ts, 'random play'); docs/gaming/evidence/granada/g0/economy-fuzz.json records a digest of all 300 end states. Not done: a fixed-step clock, independence from frame rate, replay after reload. There is no clock and no screen yet."
+   "evidenceSoFar": "Commands only: the same commands give the same state and the same fingerprint, and different commands a different one (economy.gtest.ts, 'random play'); docs/gaming/evidence/granada/g0/economy-fuzz.json records a digest of all 300 end states. Not done: a fixed-step clock, independence from frame rate, replay after reload. There is no clock and no screen yet. Since then: the village gives the same state for the same seed and commands and another for another seed, and its forecast is the rules run on a copy, equal to the day-by-day future (village.gtest.ts). The step is a day (G-0011)."
   },
   {
    "id": "GRA04",
@@ -48,7 +48,7 @@
    "evidence": "Ledger, property tests, economy fixture",
    "status": "in-progress",
    "hardGate": true,
-   "evidenceSoFar": "The ledger reconciles after every one of 60,000 random commands over 300 random openings (docs/gaming/evidence/granada/g0/economy-fuzz.json: 24,460 accepted, 0 unsound states; contracts ended settled 436, cancelled 297, failed 236). Buying and selling at one set of prices never raised wealth across 30,000 random buy and sell commands. A retried command pays once; a cancelled or failed contract releases what it held once. Fifteen deliberate breakages of the kernel were all caught (docs/gaming/evidence/granada/g0/economy-mutations.md). Not done: prices that move, goods in transit, storage by place and kind, the journal's checkpoint."
+   "evidenceSoFar": "The ledger reconciles after every one of 60,000 random commands over 300 random openings (docs/gaming/evidence/granada/g0/economy-fuzz.json: 24,460 accepted, 0 unsound states; contracts ended settled 436, cancelled 297, failed 236). Buying and selling at one set of prices never raised wealth across 30,000 random buy and sell commands. A retried command pays once; a cancelled or failed contract releases what it held once. Fifteen deliberate breakages of the kernel were all caught (docs/gaming/evidence/granada/g0/economy-mutations.md). Not done: prices that move, goods in transit, storage by place and kind, the journal's checkpoint. Since then: in the village every unit of a ripened crop is brought in, sold from the field, spoiled or standing, checked with the ledger's audit after every day of 6,000 campaigns (576,000 days), with no violation."
   },
   {
    "id": "GRA05",
@@ -66,7 +66,7 @@
    "evidence": "Scenario recordings and conservation tests",
    "status": "in-progress",
    "hardGate": true,
-   "evidenceSoFar": "Two of the five exist: markets with finite stock and finite money, and one recipe (five olives to one oil, cost carried into the product). Not started: transport, seasons, water."
+   "evidenceSoFar": "Two of the five exist: markets with finite stock and finite money, and one recipe (five olives to one oil, cost carried into the product). Not started: transport, seasons, water. Since then: seasons and water now do affect the economy, in one valley (a river whose year varies, a pool, branches, thirst that costs yield; G-0011). Transport: still nothing."
   },
   {
    "id": "GRA07",
@@ -100,9 +100,9 @@
    "milestone": "G5",
    "requirement": "At least three viable economic strategies and no dominant universal exploit",
    "evidence": "Seeded simulation report and human playtest",
-   "status": "not-tested",
+   "status": "in-progress",
    "hardGate": true,
-   "evidenceSoFar": "Nothing yet."
+   "evidenceSoFar": "Act I only: four scripted ways of playing are viable over 1,000 seeds (mender 99.5%, builder 91.6%, merchant 91.4%, irrigator 100%), doing nothing and random play never win. Two cannot lose, which the lab reports as a finding: the scenario is too forgiving. No human playtest. docs/gaming/evidence/granada/village/village-lab-1000.md."
   },
   {
    "id": "GRA11",
