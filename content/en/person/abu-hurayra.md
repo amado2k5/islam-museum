@@ -49,7 +49,10 @@ After 632 CE he became a flood: reports from him fill the Sunni collections, on 
 ## Legacy
 However the reports are weighed, a large part of what the Sunni tradition knows of the Prophet's sayings reaches us through this one man's memory.
 
-## For young visitors
+## In more detail
+He narrated his own hunger without ornament: 'I used to press my liver to the ground from hunger, and I used to tie a stone over my belly' — and how he once collapsed between the minbar and Aisha's room, so that passers-by stepped on his neck thinking it a fit, 'and there was nothing wrong with me except hunger' (Bukhari 7324). And the milk story: he asked Abu Bakr and Umar about a verse only hoping for an invitation to eat, until the Prophet understood, smiled, and shared a bowl of milk with all the suffa (Bukhari 6452).
+
+
 Abu Hurayra lived with the Prophet for three years and remembered so much that his name stands beneath thousands of stories and sayings, more than anyone else's.
 
 ## For Sprouts

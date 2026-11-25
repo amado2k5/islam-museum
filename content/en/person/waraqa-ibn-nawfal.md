@@ -18,7 +18,10 @@ He died shortly afterwards, before the call was announced openly {cite:ibn-sad-t
 ## Legacy
 Waraqa is a bridge between Islam and the older scriptures: a Christian elder inside the story who names what is happening before the new community has a name for it.
 
-## For young visitors
+## In more detail
+Ibn Ishaq counts him the first of the four hanifs who broke from Meccan idolatry: Khadija's cousin, he learned Hebrew and the Christian scriptures and became a Christian scholar. He lived just long enough to hear the first revelation in Hira — it was he who named the being that came to Muhammad 'al-Namus, the one who came to Moses' — and died before public preaching began, remembered as the hanif who met the answer.
+
+
 The first person to understand what was happening to Muhammad was an old Christian who had spent his life reading books, and he told him so.
 
 ## In The Sealed Nectar (p.67-68)

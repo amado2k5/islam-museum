@@ -43,3 +43,6 @@ The entry follows the office's constitutional growth, less its daily work — th
 ## References
 
 - Şükrü Özen, 'KĀDILKUDÂT', TDV İslâm Ansiklopedisi (2001), web edition {cite:tdv-kadilkudat}.
+
+## In more detail
+The office begins with Abu Yusuf Ya'qub ibn Ibrahim (d. 182 AH), appointed the first Qadi al-Qudat by Harun al-Rashid in 170 AH — before him every city's qadi answered independently to caliph or governor. From Baghdad the new office appointed, audited and dismissed provincial qadis, which is what institutionalized the Hanafi school as the Abbasid judiciary. Under fragmentation, rival chiefs emerged — Cairo's Fatimid Qadi al-Qudat, Cordoba's Maliki Qadi al-Jama'a — until Baybars in 663 AH appointed four simultaneous chiefs in Cairo, one per Sunni madhhab, so each litigant could sue in his own school (al-Maqrizi, al-Suluk 1/539).

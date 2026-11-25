@@ -64,7 +64,7 @@ Ten class-driven browsers built on the shared spec registry `scripts/shelves.ts`
 (objects by material), `tasawwuf` (orders + mystic/sufi persons), `kalam` (sects + theologians/
 philosophers), `nisa` (every female person by role family), `uhud` (treaty-family events +
 charters + diplomats), `maahid` (madrasa/library/observatory/bimaristan + learned organisations),
-`mawt` (tomb/shrine buildings), `ulum` (scientists by field), `funun` (artists by art). Each has
+`mawt` (tomb/shrine buildings), `ulum` (scientists by field), `funun` (artists by art); and the occasions-and-society wave: `aayad` (festivals and occasions incl. Ramadan, the Eids, Hajj, Kaaba ceremonies, life/death/war rites, customs and foods), `himam` (disability), `zakat` (zakat and sadaqat incl. the eight asnaf), `itq` (emancipation and equality), `hukm` (governance: khilafa, wuzara, wulah, qudah, diwans, madhhabs), `atfal` (children: companions, prodigies, rights), `masakin` (the poor and ahl al-suffa), `muamalat` (the fiqh of dealings: faraid/wasiyya, nikah and muharramat, contracts and riba, lawful food, muskirat, uqubat, fatwas), `dukhul` (entering Islam: the converts, modern reverts, leavers and the apostate-prophets, shahada/kufr/ridda rulings), `maadin` (metals, money, jewellery and the wealthy — Qarun, hoarding, the a'yan; the counterpart of masakin). Each has
 `/{lang}/<slug>/` in seven languages, `/api/v1/<slug>.json`, an Explore menu entry and curated
 membership through `<slug>-browser` tags. Plans 77–86, specs 70–79, lane `shelves`.
 

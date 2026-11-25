@@ -14,7 +14,10 @@ The book names him among those who followed the first vanguard of early Muslims,
 ## What is not covered here
 This chapter of the book says nothing about him beyond his early Islam. The rest of his story is completed in its places in the book and in other sources.
 
-## For young visitors
+## In more detail
+The scars became a courtroom of memory: decades later, in Umar's caliphate, Umar asked him what he had endured. Khabbab uncovered his back — deep white pitted brands from Umm Anmar's hot iron and the coals of Mecca, marks the sources liken to leprosy — and Umar wept: 'I have never seen a back like this' (Ibn Sa'd, al-Tabaqat 3/165).
+
+
 Khabbab ibn al-Aratt was one of the first Muslims. He was a poor blacksmith, and he suffered greatly for his Islam, as the biographical books relate elsewhere.
 
 ## On his torture in Mecca (*The Sealed Nectar*, p. 90)

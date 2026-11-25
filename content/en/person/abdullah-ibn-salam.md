@@ -13,7 +13,10 @@ Tradition gives him a pre-Islamic name, al-Husayn ibn Salam, and a scene on the 
 
 He is counted among the Companions, and in the hadith tradition he is among those given the good news of Paradise. He died in Medina around 663 CE {cite:ibn-sad-tabaqat-bewley}.
 
-## For young visitors
+## In more detail
+In his own narration (Bukhari 3329): the day the Prophet reached Medina he pushed through the crowd, 'and when I looked at his face I knew it was not the face of a liar.' The first words he heard: 'Spread peace, feed the hungry, pray at night while people sleep — you will enter paradise in peace.' Then the rabbi tested him with the three questions only a prophet could answer — the first sign of the Hour, the first food of paradise, and why a child resembles father or mother — and the answers came as revelation answered them, and al-Husayn ibn Salam became Abdullah ibn Salam.
+
+
 A Jewish scholar tested the Prophet with his hardest questions — and came away convinced.
 
 ## His conversion on the Prophet's arrival (The Sealed Nectar p.181–182)

@@ -50,3 +50,9 @@ The author remarks on the paradox of this account, in which the mansa most famou
 Ibn Khaldun says that he died twenty-five years after he became king. The year of death is probably between 737 and 739 AH, and needs an additional source.
 
 The Encyclopaedia of Islam, giving the end of the reign as 738 AH, 1337, mentions a claim by al-Umari. According to it, Musa came home from the pilgrimage intending to hand his sovereignty to his son and go back to live near the sanctuary at Mecca, but died before he could do so. {cite:encyclopaedia-of-islam-2 vol. 6 p. 444}
+
+## In more detail
+The Cairo figures come through one eyewitness chain: al-Umari, visiting twelve years later, interviewed Abu al-Hasan Ali ibn Amir Hajib — the emir who hosted him — who reported Mansa Musa 'flooded Cairo with his benefactions,' giving a load of gold to every official and beggar; al-Maqrizi records the mithqal dropping from 25 to under 22 dirhams, a ~12% devaluation lasting over a decade. The famous '18 tons' is a modern arithmetic on the chronicles' numbers: 80-100 camels at 3 qintars each (~135-150 kg gold dust per camel), plus 500 servants each carrying a 4-6 mithqal golden staff (al-Umari, Masalik al-Absar 4/71; al-Maqrizi, al-Suluk 2/255; Ibn Khaldun 6/413).
+
+## In more detail
+The numbers are al-Umari's, interviewing Cairene officials twelve years after the visit: some 60,000 in the entourage, 12,000 slaves, five hundred walking ahead with gold staffs of four mithqals each; eighty to a hundred camel-loads of gold dust, roughly 300 lb a load — a dozen tons of gold. In Cairo he gave so freely that the mithqal slid from 25 silver dirhams to under 20, and by al-Umari's account the price did not recover for twelve years.

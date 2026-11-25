@@ -60,3 +60,6 @@ The sections on the detailed geography, the workplace (the muhtasib's office and
 
 ## References
 - TDV İslâm Ansiklopedisi, "HİSBE", Cengiz Kallek, A. S. Bazmee Ansari and Ziya Kazıcı. {cite:tdv-hisbe}
+
+## In more detail
+The muhtasib's beat was the market itself: weights and measures, prices of bread, meat and oil, spoiled goods, blocked streets, public baths, and public morals — under Qur'an 3:104's command of the right and forbidding the wrong, applied to the marketplace. Classical manuals (Ibn Taymiyya's al-Hisba, al-Shayzari's Nihayat al-Rutba) give him authority to inspect, warn, fine and demolish — but not to whip or imprison; those remained the qadi's and the ruler's. Appointed from Umar's market inspectors (al-Shifa bint Abd Allah was placed over Medina's market per the reports) into a defined Abbasid office, the muhtasib was the citizen's everyday encounter with the state's moral authority.

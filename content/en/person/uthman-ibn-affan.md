@@ -60,7 +60,10 @@ The positions are kept apart. The Sunni position, as the article describes the o
 ## Legacy
 Every Qur'an codex opened today goes back to the script established by his committee. Every argument about the limits of the caliph's duty and the rights of his subjects passes through his killing.
 
-## For young visitors
+## In more detail
+The purchases are precisely priced in the sources: half of Bi'r Ruma for 12,000 dirhams, then the rest for 8,000 — 20,000 dirhams (some reports 35,000) endowed as waqf after the Prophet's promise of paradise (Tirmidhi 3703). For Tabuk he gave 300-900 camels with saddles, 50 horses, and poured 1,000 dinars into the Prophet's lap — 'nothing Uthman does after today will harm him' (Tirmidhi 3701). At death al-Mas'udi and Ibn Sa'd reckon 150,000 dinars and a million dirhams in cash, plus estates at Wadi al-Qura and Hunayn worth over 100,000 dinars.
+
+
 Uthman gathered the scattered pages of the Qur'an into a single authoritative book, which Muslims read today. His killing began the first civil war in the community.
 
 ## In the secret call (The Sealed Nectar p.76)

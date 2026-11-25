@@ -16,7 +16,10 @@ There, the sources record, he publicly condemned the governors who gathered gold
 ## Legacy
 Later generations — Sufis, social critics and contemporary writers on Islamic economics — all return to Abu Dharr: the man who asked from the start what the community owes to the poor.
 
-## For young visitors
+## In more detail
+The ascetic turn that made him famous: the sources report he quarreled publicly with Mu'awiya over the verse of kanz — 'those who hoard gold and silver' (Q 9:34) — insisting it condemned every unspent surplus, and that he took the same rebuke to Uthman's court until he was sent to al-Rabdha, where he died in 32 AH, the first companion buried in that desert village. The saying the tradition fastens on him is his reading of wealth: 'a man's increase in this world is an increase in the fire — unless he spends it.'
+
+
 Abu Dharr believed that someone who grows rich while others are poor is doing wrong, and he kept saying so to the most powerful men of his time — even when it cost him his home.
 
 ## His conversion in Mecca (The Sealed Nectar p.133)
