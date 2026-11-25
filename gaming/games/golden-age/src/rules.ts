@@ -101,7 +101,18 @@ export interface Forecast {
 export interface Scenario {
   id: string;
   seasons: number;
-  start: { treasury: number; grain: number; households: number; buildings: Array<[number, BuildingType]>; canals: Array<[number, number]>; intake: number };
+  start: {
+    treasury: number;
+    grain: number;
+    households: number;
+    buildings: Array<[number, BuildingType]>;
+    canals: Array<[number, number]>;
+    intake: number;
+    /** Research the district already has. Its cost counts as learning already done. */
+    researched?: ResearchId[];
+    /** Thousandths of full flow the canals start at; 600 (silted) when not given. */
+    canalCondition?: number;
+  };
   goal: { households: number; welfare: number; knowledge: number; steadySeasons: number };
   /** Thousandths: chance each season that a new event is put on the horizon. */
   eventRate: number;
@@ -542,11 +553,11 @@ export function newGame(scenario: Scenario, seed: number): State {
     knowledge: 0,
     researchProgress: 0,
     research: null,
-    researched: [],
+    researched: [...(scenario.start.researched ?? [])],
     tax: 1,
     plots,
     canals: scenario.start.canals.map(([a, b]) => linkKey(a, b)),
-    canalCondition: 600,
+    canalCondition: scenario.start.canalCondition ?? 600,
     intake: scenario.start.intake,
     events: [],
     insolventSeasons: 0,

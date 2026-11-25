@@ -1,5 +1,5 @@
 {
- "_about": "Which museum record stands behind each piece of research and each tool of The Golden Age. Chosen by hand; the builder (tools/build-links.ts) checks that each record exists and copies its label in seven languages. The district of the game is fictional: these are the real things its ideas come from, not claims about the district.",
+ "_about": "Which museum record stands behind each piece of research and each tool of The Golden Age. Chosen by hand; the builder (tools/build-links.ts) checks that each record exists and copies its label in seven languages. The district of the game is fictional: these are the real things its ideas come from, not claims about the district. Each chapter also names the records whose summaries are shown in its brief, as the museum's own account of the real history behind the chapter.",
  "research": {
   "lined-canals": "invention/mansur-covered-water-conduits",
   "water-wheel": "invention/norias-of-hama",
@@ -16,5 +16,15 @@
   "bath": "concept/hammam",
   "library": "group/bayt-al-hikma",
   "hospital": "invention/harun-bimaristan"
+ },
+ "scenario": {
+  "failing-canal": [
+   "invention/mansur-covered-water-conduits",
+   "invention/karaji-qanat-surveying"
+  ],
+  "house-of-books": [
+   "invention/paper-mill-samarkand",
+   "invention/nizamiyya-madrasa"
+  ]
  }
 }
