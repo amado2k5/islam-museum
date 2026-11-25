@@ -16,6 +16,7 @@
     "shot": "tsx tools/shot.ts",
     "probe": "tsx tools/probe-district.ts",
     "atlas:pack": "tsx --tsconfig tsconfig.json games/atlas/tools/build-pack.ts",
+    "atlas:images": "tsx --tsconfig tsconfig.json games/atlas/tools/survey-images.ts",
     "atlas:play": "tsx tools/atlas-play.ts",
     "simlab": "tsx --tsconfig tsconfig.json tools/simlab.ts",
     "simtrace": "tsx --tsconfig tsconfig.json tools/simtrace.ts",
