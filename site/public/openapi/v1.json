@@ -1351,7 +1351,14 @@
         "operationId": "getImara",
         "summary": "Sacred Architecture Browser dataset",
         "description": "The Sacred Architecture Browser dataset (متصفح العمارة الإسلامية): every building on record that is not a tomb or shrine — mosques and minarets, madrasas, palaces, fortresses, libraries, observatories, bimaristans, markets, khans, hammams and gardens — plus the curated records tagged imara-browser, each with computed section, kind, regions, periods, themes, tags and edges.",
-        "responses": { "200": { "description": "Every member record with computed section, kind, themes and edges", "content": { "application/json": {} } } }
+        "responses": {
+          "200": {
+            "description": "Every member record with computed section, kind, themes and edges",
+            "content": {
+              "application/json": {}
+            }
+          }
+        }
       }
     },
     "/collection.json": {
@@ -1359,7 +1366,14 @@
         "operationId": "getCollection",
         "summary": "Objects and Artifacts Browser dataset",
         "description": "The Objects and Artifacts Browser dataset (متصفح المقتنيات والقطع الأثرية): every object record by material family — manuscripts, ceramics, metalwork, textiles, relics, arms and instruments, coins — plus the curated records tagged collection-browser, each with computed section, kind, themes, tags and edges.",
-        "responses": { "200": { "description": "Every member record with computed section, kind, themes and edges", "content": { "application/json": {} } } }
+        "responses": {
+          "200": {
+            "description": "Every member record with computed section, kind, themes and edges",
+            "content": {
+              "application/json": {}
+            }
+          }
+        }
       }
     },
     "/tasawwuf.json": {
@@ -1367,7 +1381,14 @@
         "operationId": "getTasawwuf",
         "summary": "Tasawwuf Browser dataset",
         "description": "The Tasawwuf Browser dataset (متصفح التصوف): the Sufi orders (group kind order), the mystics and masters on record (mystic/sufi roles) and the works and concepts tagged tasawwuf-browser, each with computed section, roles, occupations, themes and edges.",
-        "responses": { "200": { "description": "Every member record with computed section, roles and edges", "content": { "application/json": {} } } }
+        "responses": {
+          "200": {
+            "description": "Every member record with computed section, roles and edges",
+            "content": {
+              "application/json": {}
+            }
+          }
+        }
       }
     },
     "/kalam.json": {
@@ -1375,7 +1396,14 @@
         "operationId": "getKalam",
         "summary": "Theology and Philosophy Browser dataset",
         "description": "The Theology and Philosophy Browser dataset (متصفح الكلام والفلسفة): the schools and sects (group kinds sect and madhhab), the theologians and philosophers on record and the works tagged kalam-browser, each with computed section, roles, occupations, traditions and edges.",
-        "responses": { "200": { "description": "Every member record with computed section, roles and edges", "content": { "application/json": {} } } }
+        "responses": {
+          "200": {
+            "description": "Every member record with computed section, roles and edges",
+            "content": {
+              "application/json": {}
+            }
+          }
+        }
       }
     },
     "/nisa.json": {
@@ -1383,7 +1411,14 @@
         "operationId": "getNisa",
         "summary": "Women of Islam Browser dataset",
         "description": "The Women of Islam Browser dataset (متصفح نساء الإسلام): every female person record grouped by her roles — Companions, scholars, mystics, writers, artists, rulers, athletes and society — plus the curated records tagged nisa-browser, each with computed section, roles, occupations and edges.",
-        "responses": { "200": { "description": "Every member record with computed section, roles and edges", "content": { "application/json": {} } } }
+        "responses": {
+          "200": {
+            "description": "Every member record with computed section, roles and edges",
+            "content": {
+              "application/json": {}
+            }
+          }
+        }
       }
     },
     "/uhud.json": {
@@ -1391,7 +1426,14 @@
         "operationId": "getUhud",
         "summary": "Covenants and Diplomacy Browser dataset",
         "description": "The Covenants and Diplomacy Browser dataset (متصفح العهود والدبلوماسية): every treaty-family event (treaty, declaration, truce, pact, peace, armistice, capitulation, covenant, alliance), every charter work and the diplomats on record, plus the curated records tagged uhud-browser, each with computed section, kind, sides and edges.",
-        "responses": { "200": { "description": "Every member record with computed section, kind and edges", "content": { "application/json": {} } } }
+        "responses": {
+          "200": {
+            "description": "Every member record with computed section, kind and edges",
+            "content": {
+              "application/json": {}
+            }
+          }
+        }
       }
     },
     "/maahid.json": {
@@ -1399,7 +1441,14 @@
         "operationId": "getMaahid",
         "summary": "Institutions of Learning Browser dataset",
         "description": "The Institutions of Learning Browser dataset (متصفح معاهد العلم): every madrasa, library, observatory and bimaristan building, every university, institution, standards-body and international-organisation group and every online-library work, plus the curated records tagged maahid-browser, each with computed section, kind and edges.",
-        "responses": { "200": { "description": "Every member record with computed section, kind and edges", "content": { "application/json": {} } } }
+        "responses": {
+          "200": {
+            "description": "Every member record with computed section, kind and edges",
+            "content": {
+              "application/json": {}
+            }
+          }
+        }
       }
     },
     "/mawt.json": {
@@ -1407,7 +1456,14 @@
         "operationId": "getMawt",
         "summary": "Tombs and Resting Places Browser dataset",
         "description": "The Tombs and Resting Places Browser dataset (متصفح القبور والمدافن): every building of kind tomb or shrine, plus the curated records tagged mawt-browser, each with computed section, kind, regions, periods and edges.",
-        "responses": { "200": { "description": "Every member record with computed section, kind and edges", "content": { "application/json": {} } } }
+        "responses": {
+          "200": {
+            "description": "Every member record with computed section, kind and edges",
+            "content": {
+              "application/json": {}
+            }
+          }
+        }
       }
     },
     "/ulum.json": {
@@ -1415,7 +1471,14 @@
         "operationId": "getUlum",
         "summary": "Sciences and Scientists Browser dataset",
         "description": "The Sciences and Scientists Browser dataset (متصفح العلوم والعلماء): every scientist on record by field — astronomy, mathematics, medicine, geography, the natural sciences and engineering — read from roles and occupations, plus the curated records tagged ulum-browser, each with computed section, roles and edges.",
-        "responses": { "200": { "description": "Every member record with computed section, roles and edges", "content": { "application/json": {} } } }
+        "responses": {
+          "200": {
+            "description": "Every member record with computed section, roles and edges",
+            "content": {
+              "application/json": {}
+            }
+          }
+        }
       }
     },
     "/funun.json": {
@@ -1423,7 +1486,164 @@
         "operationId": "getFunun",
         "summary": "Arts and Artists Browser dataset",
         "description": "The Arts and Artists Browser dataset (متصفح الفنون والفنانين): every artist on record by art — calligraphy, the visual arts, music, architecture and the book crafts — read from roles and occupations, plus the curated records tagged funun-browser, each with computed section, roles and edges.",
-        "responses": { "200": { "description": "Every member record with computed section, roles and edges", "content": { "application/json": {} } } }
+        "responses": {
+          "200": {
+            "description": "Every member record with computed section, roles and edges",
+            "content": {
+              "application/json": {}
+            }
+          }
+        }
+      }
+    },
+    "/aayad.json": {
+      "get": {
+        "operationId": "getAayad",
+        "summary": "Festivals and Occasions Browser dataset",
+        "description": "The Festivals, Occasions and Ramadan Browser dataset (متصفح الأعياد والمناسبات الإسلامية ورمضان): Ramadan and its rites, the two Eids, the Hajj season, the Kaaba ceremonies, the life and death occasions, wartime rites, the named days, the Hijri months, the regional customs and the sunnah passages — read from kind, id and aayad-browser tags, each with computed section and edges.",
+        "responses": {
+          "200": {
+            "description": "Every member record with computed section and edges",
+            "content": {
+              "application/json": {}
+            }
+          }
+        }
+      }
+    },
+    "/himam.json": {
+      "get": {
+        "operationId": "getHimam",
+        "summary": "People of Determination Browser dataset",
+        "description": "The People of Determination Browser dataset (متصفح أصحاب الهمم): the companions, scholars and figures on record who lived with disability, the fiqh accommodations and the works and passages about them — plus records tagged himam-browser, each with computed section and edges.",
+        "responses": {
+          "200": {
+            "description": "Every member record with computed section and edges",
+            "content": {
+              "application/json": {}
+            }
+          }
+        }
+      }
+    },
+    "/zakat.json": {
+      "get": {
+        "operationId": "getZakat",
+        "summary": "Zakat and Sadaqat Browser dataset",
+        "description": "The Zakat and Sadaqat Browser dataset (متصفح الزكاة والصدقات): the third pillar as institution — what it is, the eight recipient categories, nisab and hawl rulings, the treasury and the taxes around it, its history, the works, the fatwas and the sunnah passages — from ids, class and zakat-browser tags, each with computed section and edges.",
+        "responses": {
+          "200": {
+            "description": "Every member record with computed section and edges",
+            "content": {
+              "application/json": {}
+            }
+          }
+        }
+      }
+    },
+    "/itq.json": {
+      "get": {
+        "operationId": "getItq",
+        "summary": "Freeing the Enslaved Browser dataset",
+        "description": "The Tahrir al-raqiq Browser dataset (متصفح تحرير الرقيق): the freed and their stories, the rulings of itq, mukataba, tadbir and umm walad, the equality preached with emancipation, and the sunnah passages of kitab al-itq — from ids and itq-browser tags, each with computed section and edges.",
+        "responses": {
+          "200": {
+            "description": "Every member record with computed section and edges",
+            "content": {
+              "application/json": {}
+            }
+          }
+        }
+      }
+    },
+    "/hukm.json": {
+      "get": {
+        "operationId": "getHukm",
+        "summary": "Governance in Islam Browser dataset",
+        "description": "The Nizam al-hukm Browser dataset (متصفح نظام الحكم): the caliphate and the imamate, the vizierate and the wazirs, the governors and diwans, the judges and mazalim, the hisba and shurta, the books of ahkam sultaniyya, the four madhhabs' positions and the sunnah of ruling — from ids, jobs, class and hukm-browser tags, each with computed section and edges.",
+        "responses": {
+          "200": {
+            "description": "Every member record with computed section and edges",
+            "content": {
+              "application/json": {}
+            }
+          }
+        }
+      }
+    },
+    "/atfal.json": {
+      "get": {
+        "operationId": "getAtfal",
+        "summary": "Children in Islam Browser dataset",
+        "description": "The Atfal Browser dataset (متصفح الأطفال في الإسلام): the famous children of Islam — the child companions and their stories, the prodigies who memorised, travelled and led young — and the child's rights in the law: aqiqa and naming, milk and hadhana, nafaqa, the orphan's wealth, tarbiya and taklif — plus the works written for children and the sunnah of treating them, each with computed section and edges.",
+        "responses": {
+          "200": {
+            "description": "Every member record with computed section and edges",
+            "content": {
+              "application/json": {}
+            }
+          }
+        }
+      }
+    },
+    "/masakin.json": {
+      "get": {
+        "operationId": "getMasakin",
+        "summary": "The Poor and the Underdog Browser dataset",
+        "description": "The Masakin Browser dataset (متصفح المساكين): the poor of Islam's story — ahl al-suffa and the beaten converts, their lives and sayings and sufferings — the concepts of faqr, miskin and feeding, and the sunnah that promises the poor paradise half a day before the rich, each with computed section and edges.",
+        "responses": {
+          "200": {
+            "description": "Every member record with computed section and edges",
+            "content": {
+              "application/json": {}
+            }
+          }
+        }
+      }
+    },
+    "/muamalat.json": {
+      "get": {
+        "operationId": "getMuamalat",
+        "summary": "Transactions and Personal-Status Fiqh Browser dataset",
+        "description": "The Mu'amalat Browser dataset (متصفح المعاملات): the fiqh of dealings domain by domain — inheritance (faraid, wasiyya), marriage and its prohibitions (mahram, iddah, talaq, zina, li'an), contracts and transactions (aqd, buyu', rahn, ijara, riba, qimar), lawful food (dhabaih, mayta, khinzir), intoxicants (khamr, muskir, drugs), punishments (qisas, diyat, hudud, ta'zir), the fatwas asked today and the sunnah chapters, each with computed section and edges.",
+        "responses": {
+          "200": {
+            "description": "Every member record with computed section and edges",
+            "content": {
+              "application/json": {}
+            }
+          }
+        }
+      }
+    },
+    "/dukhul.json": {
+      "get": {
+        "operationId": "getDukhul",
+        "summary": "Entering Islam Browser dataset",
+        "description": "The Dukhul Browser dataset (متصفح دخول الإسلام): the door both ways — the companions and peoples who entered Islam and the events of their conversion, the modern converts and reverts, those who left (the apostate-prophets, the Ridda and today's ex-Muslims), the rulings of shahada, kufr and ridda, and the sunnah — each with computed section and edges.",
+        "responses": {
+          "200": {
+            "description": "Every member record with computed section and edges",
+            "content": {
+              "application/json": {}
+            }
+          }
+        }
+      }
+    },
+    "/maadin.json": {
+      "get": {
+        "operationId": "getMaadin",
+        "summary": "Metals, Money and the Wealthy Browser dataset",
+        "description": "The Ma'adin wal-Aghniya' Browser dataset (متصفح المعادن والأغنياء): gold, silver and the minerals; dinars, dirhams and the sakk; jewellery and adornment; the rich — the wealthy companions, the magnates and a'yan, and the morality stories of Qarun, hoarding and extravagance — the rulings, fatwas and sunnah chapters, each with computed section and edges.",
+        "responses": {
+          "200": {
+            "description": "Every member record with computed section and edges",
+            "content": {
+              "application/json": {}
+            }
+          }
+        }
       }
     }
   },

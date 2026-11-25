@@ -37,3 +37,6 @@ The entry's bibliography was not read for this record. The entry names Kabisa ib
 
 ## References
 - TDV İslâm Ansiklopedisi, "BERÎD", vol. 5, İbrahim Harekât, pp. 498–501, Istanbul 1992. {cite:tdv-berid p.498-501}
+
+## In more detail
+Ibn Khordadbeh and Qudama ibn Ja'far record the mechanics: relay stations (sikak, from which the office takes its name) stood every 2 farsakhs (~12 km) in Iraq and the East and every 4 farsakhs (~24 km) in Syria and Egypt, each keeping fresh mules and couriers; Baghdad-to-Damascus dispatches could cover ~850 km in 4-6 days. Crucially, the provincial sahib al-barid answered to Baghdad's Sahib Diwan al-Barid wa al-Akhbar, never to the governor — he reported prices, abuses and verdicts to the caliph directly. Al-Mansur put it: 'My throne rests on four pillars: an incorruptible qadi, a firm chief of police, an honest tax collector, and a sahib al-barid who writes to me truthfully about all three.'

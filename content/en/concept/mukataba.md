@@ -19,3 +19,6 @@ When valid the contract binds the master but not the slave, in the Hanafi and Sh
 
 ## The slave's dealings and walā'
 After committing to the contract the slave acts in some matters like a free man: he may buy, sell, share with partners, and deal in his earnings, but not spend wastefully. The master may not stop him from dealings that benefit the property. Once he has paid he is freed, and his walā' goes to the master who freed him, on the hadith that walā' belongs to the one who frees. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.14925}
+
+## In more detail
+Real mukataba documents survive. The earliest is a 2nd-3rd century AH Egyptian papyrus (P.Cair.Arab. I 36): a kitaba between an owner and an enslaved man for gold dinars paid in annual installments (nujum), carrying the classical clause — 'if you pay this sum in full you are a free man, having what free Muslims have and owing what they owe; if you miss an installment you revert to slavery.' Al-Shafi'i's Kitab al-Umm (8/69-75) preserves the scribes' model templates; later judicial certificates of kitaba and itq survive in the Cairo Geniza (T-S Ar. 38.117) and the Mamluk Haram archive of Jerusalem (Haram no. 234).

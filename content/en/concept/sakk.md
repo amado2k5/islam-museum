@@ -22,3 +22,6 @@ It restrains the bowels and helps bleeding {cite:canon-ibn-sina-print-v1 p.587}.
 
 ## Womb, menses and desire (labelled book listing, held for the founder's ruling)
 Some claimed that the perfumed sakk increases desire {cite:canon-ibn-sina-print-v1 p.587}.
+
+## In more detail
+The reform that made the dinar Islamic: until 77 AH the caliphate struck Arab-Sasanian dirhams and Arab-Byzantine fulus with added Arabic legends; in 77 AH Abd al-Malik struck the first purely epigraphic gold dinar at Damascus — 4.25 g, one mithqal, bearing Surat al-Ikhlas and Q 9:33 and no image at all — with epigraphic dirhams following in 79 AH across Damascus, Kufa, Basra and Wasit.

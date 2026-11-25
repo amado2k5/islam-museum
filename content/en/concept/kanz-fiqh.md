@@ -43,3 +43,5 @@ The finder, free or slave, Muslim or dhimmi, child or adult, owes the fifth, acc
 ## Another definition
 Al-Qurtubi reports a view that treasure is property from which the urgent dues, such as ransoming a captive and feeding the hungry, have not been paid {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.13537}.
 
+## In more detail
+The verse's occasion is preserved two ways. Thawban's report (Bukhari 1404): when it came down the companions asked which wealth is best to keep, and the answer was 'a remembering tongue, a grateful heart, and a believing wife'. And Umar's gloss in the Muwatta (no. 585): wealth on which zakat has been paid is not kanz even buried in the earth; wealth whose zakat is withheld is kanz even displayed.

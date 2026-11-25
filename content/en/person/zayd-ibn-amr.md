@@ -16,7 +16,10 @@ He died years before the first revelation. In one account, highwaymen killed him
 ## Legacy
 Zayd is a window onto the hanifs, the few monotheists of the pre-Islamic age whom the sources preserve. He is evidence that the question Islam answered was already being asked in Mecca before it came.
 
-## For young visitors
+## In more detail
+The fourth of Ibn Ishaq's hanifs and Umar's cousin: refusing Judaism and Christianity alike, he stayed a pure monotheist, condemned female infanticide and the idols' sacrifices, and prayed facing the Kaaba. Banished from Mecca to Mount Hira by his uncle al-Khattab, he searched Syria for the awaited prophet, was told by a monk to go home — 'he is emerging in your country' — and was killed by bandits in the land of Lakhm on the road back, just before the mission began. The tradition remembers the Prophet saying Zayd would be raised 'a single umma unto himself'.
+
+
 Before Islam, a man in Mecca said, "I do not believe in these idols", and his family drove him out of his city. He died shortly before the answer reached him.
 
 ## In The Sealed Nectar (p.77)

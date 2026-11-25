@@ -39,3 +39,6 @@ As a rule diyas multiply with the number of injuries and organs, unless they lea
 
 ## Who receives it and pardon
 The victim receives the diya for an injury to a limb or faculty and may pardon it. The diya for a life is inherited by the heirs according to the shares fixed by law, excluding the killer; the wife inherits from her husband's diya, following a report about a woman of Ashyam. A diya is extinguished by a pardon; if some heirs pardon, the shares of the others remain. {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.8302} {cite:fiqh-mawsua-kuwaitiyya-noor-v3 p.8303}
+
+## In more detail
+The classical standard for a free Muslim male: 100 camels — graded 30 hiqqa, 30 jadha'a, 40 khalifa (pregnant she-camels) for shibh al-amd — or its cash equivalents, 1,000 gold dinars (~4.25 kg gold) or 12,000 silver dirhams (10,000 in the Hanafi school; ~30-35.7 kg silver). Modern states peg it differently: Saudi Arabia's Royal Decree of 1432 AH sets 300,000 SAR for accidental and 400,000 for semi-intentional homicide; Pakistan's PPC section 323 pegs it to 30,630 g of silver, notified annually; Iran's judiciary announces a toman figure each Nowruz (raised a third in the sacred months), with the 2019 ruling equalizing male and female payouts; Egypt leaves it to civil tort law while al-Azhar's Dar al-Ifta advises the 35.7 kg silver figure for tribal reconciliation councils.
