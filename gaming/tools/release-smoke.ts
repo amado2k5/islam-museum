@@ -110,6 +110,21 @@ for (const game of manifest.games.filter((g) => g.page)) {
         const day = (await page.evaluate("window.__GR__.state().day")) as number;
         if (day !== 26) errors.push(`a day did not pass: day ${day}`);
         if ((await page.locator("svg.map g.field").count()) !== 3) errors.push("the plan of the valley does not show its three fields");
+        // The 3D valley comes up after the page is playable. On a machine that can draw it, it must; it is drawn
+        // under the release's content security policy, which is what this run is for.
+        for (const end = Date.now() + 120_000; (await page.evaluate("window.__GR__.threeD")) === "pending"; ) {
+          if (Date.now() > end) break;
+          await page.waitForTimeout(200);
+        }
+        const threeD = (await page.evaluate("window.__GR__.threeD")) as string;
+        started3d = threeD === "on";
+        if (threeD !== "on" && threeD !== "off") errors.push(`the 3D valley did not start: ${threeD}`);
+        else if (threeD === "on") {
+          await page.waitForTimeout(1200);
+          const info = (await page.evaluate("window.__GR__.stage().info()")) as { triangles: number };
+          if (!(info.triangles > 100_000)) errors.push(`the 3D valley drew ${info.triangles} triangles`);
+          if (!(await page.locator("canvas.scene").isVisible())) errors.push("the 3D valley is not shown");
+        }
       }
     } else {
       await page.waitForSelector("#panel h2", { timeout: 60_000 });

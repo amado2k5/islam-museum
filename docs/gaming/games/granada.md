@@ -1,6 +1,6 @@
 # Granada: state of the game
 
-_Updated 25 November 2026. Release status: **prototype**. Its first scenario, "Water for the Valley", can be played from start to finish in a browser, in seven languages, with the mouse or the keyboard alone, from panels and a drawn plan of the valley. **It is not in 3D yet**, which is what the founder's design asks for and what the next work is; it has no sound of its own beyond the museum's music; and no person has played it: every playthrough so far is the author's script._
+_Updated 25 November 2026. Release status: **prototype**. Its first scenario, "Water for the Valley", can be played from start to finish in a browser, in seven languages, with the mouse or the keyboard alone, from panels and a drawn plan of the valley, and since 25 November 2026 in a 3D valley as well. **That valley is generated wholly from code and is still far from the painted concept image the founder judges it by** (see "The valley in 3D"); it has no sound of its own beyond the museum's music; and no person has played it: every playthrough so far is the author's script._
 
 The founder's design is in [`../spec-granada/`](../spec-granada/) (the package of 25 November 2026, read in full). What was found before building is in [`../granada/g0-discovery.md`](../granada/g0-discovery.md); the gates are in [`../granada/acceptance.md`](../granada/acceptance.md); the decisions are [G-0009](../adr/G-0009-granada-eleventh-game.md), [G-0010](../adr/G-0010-granada-economy-kernel.md) and [G-0011](../adr/G-0011-granada-village-rules.md).
 
@@ -66,6 +66,37 @@ Open it with `npm --prefix gaming run dev`, then `http://127.0.0.1:4330/games/gr
 - **The brief** says plainly that this is a game and not a history, and links to the museum's records for Granada, the Emirate of Granada and the Sierra Nevada. The game states no history of its own.
 - **Keys**: 1 to 5 for the tabs, P to pause or go on, N or the full stop for one day, H for help. Every control is an ordinary button.
 
+## The valley in 3D
+
+Built on 25 November 2026 at the founder's word ("Build 3D now"; "high detail graphics, pristine and of really good and high quality and stunning"). The page still opens on the plan, which can be played at once; where the browser has WebGPU the 3D valley takes the plan's place a moment later, and the plan stays one button away. Without WebGPU, or with `&no3d=1`, the page keeps to the plan and nothing is lost: every order can be given from the panels.
+
+**What is drawn.** The same ground as the plan, corner for corner (a test holds the two together): the river along the north, the pool in its ring of stone, the channel and its three branches banked a little above the fields, the three fields, the village with its square, store, market and ten house lots, the terraces of the olive grove, a road, a walled hill town to the east and a snow range behind it. Round the playable ground the plain is a patchwork of plots (standing green, young rows, ploughed, stubble, orchard). Their borders and rows are drawn by the land's own material from a table of one texel for each plot, so they stay sharp however near the camera comes. Orchards stand in rows square to their plot, lines of trees follow some borders, poplars follow the river: 7,403 trees and 56 buildings in the valley of seed 7, which is the one valley there is (the game's seed changes the weather, not the ground).
+
+**What follows the game.** The season (its light and sky, and the colour of every tree: blossom in the spring orchards, gold poplars in autumn, bare wood in winter); a day of rain (overcast, with rain falling); the pool's level; each branch flowing, weak or absent, the meadow's branch appearing in stone only when it has been rebuilt; each field's soil and crop (wheat turning from green to gold and thinning as it is brought in, vegetables, olives darkening when laden); houses appearing as they are built, with scaffolding while they go up; the granary; people between the village and wherever there is work; a ring round the chosen field.
+
+**Steering.** Drag to move over the land; drag with the right button or with Shift to turn; the wheel to come closer; a click on a field opens it. From the keyboard: the arrows, Q and E to turn, plus and minus, R and F to tilt, O for the whole valley, Home for the first view. `&view=plan` starts on the plan and `&q=low` asks for a lighter picture.
+
+**How it is made.** Three.js r187 on WebGPU, with its node materials ([G-0002](../adr/G-0002-rendering-engine.md), re-read for this work). A physical sky with cloud, and one environment made from it once and never swapped; one shadow map of 4,096 that follows the place looked at and covers less ground as the camera nears; ambient occlusion and a little bloom; four-sample anti-aliasing. Trees near the camera are drawn in full and cast shadows; the rest are drawn as light shapes of about 45 triangles carrying a dark patch in place of a shadow, and are re-sorted only when the camera has moved. If frames stay slower than forty a second the picture is drawn with fewer pixels, a step at a time. Every shape is generated from code when the page loads: no model, texture or picture is downloaded for it, and the concept image is used nowhere.
+
+**Measured**, on one machine (Apple M4 Max, Chrome 158, 25 November 2026; `MEASURE=1 npx tsx --tsconfig tsconfig.json tools/granada-shot.ts <dir>`), three rounds of three seconds at each of three views:
+
+| Canvas | First view | Village, near | Whole valley |
+|---|---|---|---|
+| 1494 × 888 | 8.3 ms median, 9.3 ms 95th centile | 8.3 ms, 9.1 ms | 8.3 ms, 9.1 ms |
+| 2988 × 1776 (as a Retina screen) | 8.3 ms, 9.1 ms | 8.3 ms, 9.2 ms | 8.3 ms, 9.1 ms |
+
+That is the display's own 120 frames a second, so it says the valley is not what limits the frame on this machine, not how much room is left. A frame carries 1.9 million triangles from the first view and 3.0 million from above (shadow pass included), in 115 to 297 draw calls. Two things qualify the table. An earlier run at the Retina size on the same day gave 78 to 83 frames a second (median 9 to 16 ms, 95th centile 17 ms), and two runs at the smaller size gave medians of 16 and 20 ms with 95th centiles of 33 and 45 ms, while the machine was doing other work: the picture is sensitive to what else the GPU is asked to do. And it is one fast machine: nothing here says how it runs on a laptop with an integrated GPU, on a phone, on Windows, or in Safari or Firefox.
+
+**What it is not.**
+
+- **Not the concept image.** It is nearer to it in composition (fields, river, village, hill town, snow range) and still far in richness: rounded tree crowns, box houses with flat roofs, a hill town of blocks and towers, a range that is a height field. No model was authored; nothing was painted. No animals, boats, carts, mills or smoke. The people are simple figures that glide between places and do not walk.
+- **The interface is the old panels in new colours** (teal with gold lines, after the concept), not the concept's mode rail and dense display.
+- No cascaded shadows, no reflection in the water, no temporal anti-aliasing; a lost graphics device is not recovered from (the plan remains, behind its button).
+- Nothing in the 3D view is named in words; the plan and the panels remain the accessible way, and the canvas is announced as an application with its keys.
+- **No person has looked at it** except the author, through captures. There has been no independent art review, so gate GRA12 has captures and is not passed.
+
+Captures and reports: [`../evidence/granada/valley3d/`](../evidence/granada/valley3d/).
+
 ## The museum behind it
 
 `npm --prefix gaming run granada:records` reads the hand-chosen list and pins what the museum has. A record that is missing, sensitive, without a label in one of the seven languages, or (for a place) without coordinates stops the build.
@@ -99,7 +130,7 @@ Evidence: [`../evidence/granada/g0/`](../evidence/granada/g0/) (as it stood when
 
 ## Not done
 
-- **The 3D valley.** The page shows a drawn plan, not the lit, modelled world of the founder's design: no terrain, no camera, no people walking, no water you can see run in three dimensions. Gate GRA12 is untouched.
+- **The valley of the concept image.** The 3D valley that exists is generated shapes under good light: no authored buildings, trees or people, no animals, boats or carts, no walking, no reflections. Gate GRA12 has captures and no independent art review.
 - **No person has played it.** The seven play runs are the author's script. The strings in five languages were translated by a Sonnet subagent and all seven tables are unread by a native speaker; the helper reported a dozen wordings it was unsure of, the clipped "{field}: ..." sentences among them.
 - No sound effects; the museum's music plays in a development build and is absent from a release until the tracks are hosted.
 - The scenario is too forgiving: three of the four scripted ways of playing win at least 95 campaigns in 100, and money has too little to do by the end ([G-0011](../adr/G-0011-granada-village-rules.md)).
@@ -107,11 +138,11 @@ Evidence: [`../evidence/granada/g0/`](../evidence/granada/g0/) (as it stood when
 - Prices do not move; goods do not travel; there is one warehouse; the clock is a counter. See [G-0010](../adr/G-0010-granada-economy-kernel.md), "What it does not do yet".
 - Water, farming, labour, households and two kinds of building exist for one valley. A mill, a second market, goods that travel, construction in stages, diplomacy, defence: not started.
 - No historical statement of the game has been checked against a source, because the game makes none yet.
-- No measurement of a Granada scene; no person has seen any of it.
+- The 3D valley is measured on one machine only (a fast one); no person has seen any of it.
 - The first random-play run settled no contract at all, because random cancelling always came first. The generator was changed and the test now demands more than 50 of each ending. It is recorded because a fuzz run that never reaches a path proves nothing about it.
 
 ## Next
 
-1. **The valley in 3D**, on the existing renderer and over the same state: terrain, the river and the channel with running water, the fields in their seasons, the village, people at work, the mountain. The plan stays as the accessible view and as the whole picture where there is no WebGPU.
+1. **The valley, nearer the concept.** Buildings, trees and people with more in them (generated in more detail, or authored: the founder's decision, see the ledger); people who walk, carts and boats; water that reflects; cascaded shadows; a measurement on a weaker machine; an interface in the concept's manner.
 2. A person plays it, and what they do is written down. Then Act I is tightened.
 3. Act II: prices that respond to stock, a mill, and goods that travel to Málaga.

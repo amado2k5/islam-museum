@@ -3,13 +3,13 @@
 :root {
   --ink: #f3ead8;
   --ink-soft: #cbbfa6;
-  --ground: #1c1612;
-  --panel: #2a2119;
-  --panel-2: #33281e;
-  --line: #4a3b2c;
+  --ground: #0b181c;
+  --panel: #11262b;
+  --panel-2: #183238;
+  --line: #6a5a30;
   --accent: #d9a441;
   --accent-ink: #20170c;
-  --teal: #4fb0b6;
+  --teal: #6cc7cc;
   --good: #8fcf7a;
   --bad: #f08a6b;
   --focus: #ffd884;
@@ -60,7 +60,14 @@ h3 { font-size: 0.9rem; color: var(--ink-soft); margin-block-start: 10px; }
 .warnline { color: var(--bad); }
 
 .main { display: grid; grid-template-columns: minmax(0, 1fr) minmax(320px, 400px); min-block-size: 0; }
-.mapbox { padding: 12px; min-inline-size: 0; }
+.mapbox { padding: 12px; min-inline-size: 0; display: grid; gap: 8px; align-content: start; }
+.viewbar { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
+.viewbar button { padding: 4px 12px; min-block-size: 34px; }
+.viewhint { font-size: 0.8rem; color: var(--ink-soft); }
+.scenebox { position: relative; }
+/* The land keeps its directions in every language. */
+.scene { display: block; inline-size: 100%; block-size: min(calc(100vh - 190px), 62vw); min-block-size: 320px; border-radius: 12px; border: 1px solid var(--line); background: #1b2530; direction: ltr; cursor: grab; touch-action: none; }
+.scene:active { cursor: grabbing; }
 /* The land keeps its directions in every language. */
 .map { inline-size: 100%; block-size: auto; max-block-size: calc(100vh - 150px); border-radius: 12px; border: 1px solid var(--line); direction: ltr; background: #b9b877; }
 .map-label { font-weight: 600; font-size: 15px; fill: #2a2012; paint-order: stroke; stroke: rgba(255, 250, 235, 0.75); stroke-width: 3px; }

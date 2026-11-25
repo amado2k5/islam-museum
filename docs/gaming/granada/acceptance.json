@@ -11,7 +11,7 @@
   "not-applicable"
  ],
  "updated": "2026-11-25",
- "status": "in-progress: G0 done (self-assessed); the first scenario can be played in a browser in seven languages from panels and a drawn plan; it is not in 3D and no person has played it",
+ "status": "in-progress: G0 done (self-assessed); the first scenario can be played in a browser in seven languages from panels, a drawn plan and a 3D valley generated from code; the valley is measured on one machine, is far from the concept image, and no person has played it",
  "criteriaSource": "docs/gaming/spec-granada/contracts/acceptance.json (the founder's; never edited here)",
  "gates": [
   {
@@ -118,18 +118,18 @@
    "milestone": "G1/G8",
    "requirement": "Actual high-fidelity 3D gameplay, no concept images used as backgrounds",
    "evidence": "Actual captures and independent art review",
-   "status": "not-tested",
+   "status": "in-progress",
    "hardGate": true,
-   "evidenceSoFar": "The page that exists is a drawn plan in SVG, made from the state of the game; it uses no concept image. It is not 3D, so this gate is untouched."
+   "evidenceSoFar": "The valley is drawn in 3D by the game from its own state (gaming/games/granada/src/view/), with every shape generated from code: no concept image and no picture file of any kind is used. Eight captures and the play reports are in docs/gaming/evidence/granada/valley3d/. Not done: 'high-fidelity' is not met (rounded trees, box houses, a hill town of blocks; nothing authored), and there has been no independent art review. The author is the only one who has seen it."
   },
   {
    "id": "GRA13",
    "milestone": "G8",
    "requirement": "Physical GPU benchmarks, device recovery, soak, accurate browser requirements",
    "evidence": "Hardware/browser details, frame-time distributions, recovery evidence",
-   "status": "not-tested",
+   "status": "in-progress",
    "hardGate": true,
-   "evidenceSoFar": "Nothing yet."
+   "evidenceSoFar": "Frame times of the 3D valley on one machine (Apple M4 Max, Chrome 158, 25 November 2026): median 8.3 ms and 95th centile 9.0 to 9.3 ms at three views, at 1494 x 888 and at 2988 x 1776, with 1.9 to 3.0 million triangles a frame; slower runs the same day while the machine did other work are recorded beside them (docs/gaming/games/granada.md). Not done: any other hardware, a weak GPU, a phone, Windows, Safari, Firefox; recovery from a lost device; a soak; browser requirements beyond 'WebGPU, or the plan'."
   },
   {
    "id": "GRA14",
@@ -138,7 +138,7 @@
    "evidence": "UI mask, screenshots, marker ID tests, navigation recording",
    "status": "in-progress",
    "hardGate": true,
-   "evidenceSoFar": "The plan of the valley is drawn from the state and checked by the play script: branches flowing, broken or absent, fields by crop and stage, houses, store and granary, with each field's condition also said in words. There is one view, so no conflicting overlay can occur yet. Not done: the HUD modes of the design, a 3D overview, marker-id tests against a 3D scene."
+   "evidenceSoFar": "The plan of the valley is drawn from the state and checked by the play script: branches flowing, broken or absent, fields by crop and stage, houses, store and granary, with each field's condition also said in words. There is one view, so no conflicting overlay can occur yet. Not done: the HUD modes of the design, a 3D overview, marker-id tests against a 3D scene. Since then: the 3D valley has an overview (the 'Whole valley' button and the key O), a click on a field in it opens that field, and it shows the same branches, crops, houses and granary as the plan from the same figures. Still not done: the display modes of the design, and marker-id tests against the 3D scene."
   },
   {
    "id": "GRA15",

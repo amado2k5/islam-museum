@@ -28,7 +28,7 @@ export interface MapView {
 }
 
 // Where things are on the plan (a 1000 by 560 sheet).
-const FIELD_SHAPE: Record<string, { points: string; label: [number, number]; rows: Array<[number, number, number, number]> }> = {
+export const FIELD_SHAPE: Record<string, { points: string; label: [number, number]; rows: Array<[number, number, number, number]> }> = {
   "river-meadow": { points: "150,178 470,160 492,262 168,282", label: [320, 228], rows: [[178, 200, 462, 184], [182, 222, 470, 206], [186, 244, 478, 228], [190, 266, 484, 250]] },
   "mill-field": { points: "120,340 452,322 474,468 138,490", label: [296, 412], rows: [[146, 362, 448, 346], [150, 390, 454, 374], [154, 418, 460, 402], [158, 446, 466, 430], [162, 474, 470, 458]] },
   "olive-terrace": { points: "724,300 962,286 972,452 736,468", label: [848, 384], rows: [[742, 326, 958, 314], [746, 366, 962, 354], [750, 406, 966, 394], [754, 446, 968, 434]] },
