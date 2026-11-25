@@ -26,7 +26,10 @@
     "music:import": "tsx tools/music-import.ts",
     "strings": "python3 tools/check-strings.py games/atlas/i18n games/golden-age/i18n packages/audio/i18n",
     "granada:records": "tsx --tsconfig tsconfig.json games/granada/tools/build-records.ts",
-    "granada:mutations": "python3 games/granada/tools/mutate-economy.py"
+    "granada:mutations": "python3 games/granada/tools/mutate-economy.py",
+    "build:release": "tsx --tsconfig tsconfig.json tools/build.ts",
+    "check:release": "node tools/check-release.mjs dist/release",
+    "release:smoke": "tsx --tsconfig tsconfig.json tools/release-smoke.ts"
   },
   "dependencies": {
     "@babylonjs/core": "9.37.2",

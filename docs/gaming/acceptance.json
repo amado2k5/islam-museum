@@ -17,9 +17,9 @@
    "scope": "platform",
    "requirement": "Separate gaming build and route-safe rollback",
    "evidence": "CI logs, staging and rollback proof",
-   "status": "not-tested",
+   "status": "in-progress",
    "hardGate": true,
-   "evidenceSoFar": ""
+   "evidenceSoFar": "A separate build exists and is exercised locally: the release build (gaming/tools/build.ts), its verifier, a real-browser smoke test behind the games Worker's own code, the Worker and the publisher with 31 tests including a rehearsed release and rollback against a stand-in AWS CLI, and four workflows of the games' own (docs/gaming/release-and-deploy.md, docs/gaming/evidence/release/). Not done: no workflow run, no staging and no rollback on Cloudflare. The first UAT deployment is the founder's to start."
   },
   {
    "id": "R03",

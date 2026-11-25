@@ -9,6 +9,13 @@ name: Build islam.museum
 on:
   push:
     branches: [main, "release/**"]
+    paths-ignore:
+      # The games have their own test and build suite (games-build.yml) and their own deploy; a change that touches
+      # only their files does not run the website's (founder's instruction, 25 November 2026).
+      - "gaming/**"
+      - "workers/games/**"
+      - "docs/gaming/**"
+      - ".github/workflows/games-*.yml"
   workflow_dispatch:
 
 permissions:

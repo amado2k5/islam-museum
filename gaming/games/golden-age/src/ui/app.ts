@@ -2,7 +2,7 @@
 // from ui/model.ts, and this file shows them, collects a command and stores the game on this device.
 // The 3D district is one way to play and the plan view is another; both send the same commands.
 import { loadMusicStrings, musicControl } from "@im/audio/control";
-import { MUSIC_BASE, MusicPlayer } from "@im/audio/player";
+import { MUSIC_AVAILABLE, MUSIC_BASE, MusicPlayer } from "@im/audio/player";
 import { probeWebGPU } from "@im/kernel/capability";
 import links from "../../data/museum-links.v1.json";
 import en from "../../i18n/en.json";
@@ -96,10 +96,12 @@ async function main(): Promise<void> {
   const bar = el("header", { class: "bar", id: "bar" });
   const barMain = el("div", { class: "barmain" });
   // The soundtrack is the museum's own. This game opens with "The First Light" and the suite follows in order.
-  const music = new MusicPlayer({ base: MUSIC_BASE, first: "the-first-light", forceOff: query.get("music") === "off" });
+  const music = new MusicPlayer({ base: MUSIC_BASE, first: "the-first-light", forceOff: query.get("music") === "off" || !MUSIC_AVAILABLE });
   const planButton = el("button", { type: "button", id: "btn-plan", ariaPressed: "false", title: t("plan"), ariaLabel: t("plan"), onclick: () => togglePlan() }, icon("plan"), el("span", { textContent: t("plan") }));
   const helpButton = el("button", { type: "button", id: "btn-help", title: t("help"), ariaLabel: t("help"), onclick: () => showHelp() }, icon("help"), el("span", { textContent: t("help") }));
-  bar.append(barMain, el("div", { class: "menu" }, musicControl(music, await loadMusicStrings(lang), `https://islam.museum/${lang}/backstage/`), planButton, helpButton));
+  const menu = el("div", { class: "menu" }, planButton, helpButton);
+  if (MUSIC_AVAILABLE) menu.prepend(musicControl(music, await loadMusicStrings(lang), `https://islam.museum/${lang}/backstage/`));
+  bar.append(barMain, menu);
   const side = el("aside", { class: "side", id: "side" });
   const tools = el("nav", { class: "tools", id: "tools", ariaLabel: t("tools_label") });
   const actions = el("div", { class: "actions", id: "actions" });

@@ -1,0 +1,272 @@
+name: Deploy the games (reusable, one environment)
+
+# Called by games-deploy-uat.yml and games-deploy.yml; never started on its own. It follows the website's deploy
+# (deploy-env.yml) step for step and shares none of it: its own build artifact (games-release, made by "Build the
+# games"), its own Worker (workers/games), its own folder in the bucket (games/), its own concurrency groups.
+#
+# The environment decides everything it touches, from the same GitHub Environment variables the website uses:
+#   R2_BUCKET      islam-museum-search (production)   islam-museum-uat (uat)
+#   WRANGLER_ENV   (empty: top level)                 uat   -> wrangler deploy --env
+# and from workers/games/wrangler.production.toml of the commit being deployed (the Worker's name, host and bucket).
+#
+# What a "release" run does, in order: checks who started it; resolves the environment and refuses a non-production
+# run that names a production resource; finds the build; checks out that commit; downloads its release; verifies
+# every file against the manifest; runs the Worker's tests; deploys the Worker; uploads the release under
+# games/r/<id>/ (never over an existing one); reads it back and verifies it again; only then moves the pointer
+# games/channel.json. A "rollback" run moves the pointer back and nothing else. A "check" run writes nothing.
+# It never deletes an object, and never reads or writes outside games/.
+on:
+  workflow_call:
+    inputs:
+      environment:
+        description: "GitHub Environment: production or uat"
+        required: true
+        type: string
+      action:
+        description: "check, release or rollback"
+        required: true
+        type: string
+      build_run_id:
+        description: "Run id of \"Build the games\" to deploy. Empty: the latest successful build of main."
+        required: false
+        type: string
+        default: ""
+
+jobs:
+  deploy:
+    name: ${{ inputs.action }} (${{ inputs.environment }})
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    environment: ${{ inputs.environment }}
+    permissions:
+      contents: read
+      deployments: write
+      # Read another run's artifact.
+      actions: read
+    steps:
+      - name: Only the repository owner or an admin may start this workflow
+        # The same rule as the website's deploy (founder, 22 October 2026).
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+          ACTOR: ${{ github.actor }}
+          OWNER: ${{ github.repository_owner }}
+        run: |
+          [ "$ACTOR" = "$OWNER" ] && { echo "started by the owner ($ACTOR)"; exit 0; }
+          perm=$(gh api "repos/$GH_REPO/collaborators/$ACTOR/permission" --jq .permission 2>/dev/null || echo unknown)
+          [ "$perm" = "admin" ] && { echo "started by an admin ($ACTOR)"; exit 0; }
+          echo "::error::$ACTOR ($perm) may not start this workflow: only the repository owner or an admin may."
+          exit 1
+      - name: Resolve the environment (and refuse a non-production run aimed at a production name)
+        id: env
+        env:
+          ENVIRONMENT: ${{ inputs.environment }}
+          ACTION: ${{ inputs.action }}
+          R2_BUCKET: ${{ vars.R2_BUCKET }}
+          WRANGLER_ENV: ${{ vars.WRANGLER_ENV }}
+          HAS_R2_KEYS: ${{ secrets.R2_ACCESS_KEY_ID != '' && secrets.R2_SECRET_ACCESS_KEY != '' }}
+          HAS_CLOUDFLARE: ${{ secrets.CLOUDFLARE_API_TOKEN != '' && secrets.CLOUDFLARE_ACCOUNT_ID != '' }}
+        run: |
+          set -euo pipefail
+          fail() { echo "::error::$1"; exit 1; }
+          case "$ENVIRONMENT" in production|uat) ;; *) fail "unknown environment \"$ENVIRONMENT\": the games have production and uat." ;; esac
+          case "$ACTION" in check|release|rollback) ;; *) fail "unknown action \"$ACTION\": check, release or rollback." ;; esac
+          [ -n "$R2_BUCKET" ] || fail "Environment \"$ENVIRONMENT\" has no variable R2_BUCKET."
+          [ "$HAS_R2_KEYS" = "true" ] || fail "Environment \"$ENVIRONMENT\" has no R2_ACCESS_KEY_ID / R2_SECRET_ACCESS_KEY."
+          [ "$HAS_CLOUDFLARE" = "true" ] || fail "CLOUDFLARE_API_TOKEN / CLOUDFLARE_ACCOUNT_ID are not set."
+          if [ "$ENVIRONMENT" = "production" ]; then
+            [ -z "$WRANGLER_ENV" ] || fail "production deploys the top-level wrangler environment; WRANGLER_ENV must be empty, got \"$WRANGLER_ENV\"."
+            [ "$R2_BUCKET" = "islam-museum-search" ] || fail "production publishes to islam-museum-search, not \"$R2_BUCKET\"."
+          else
+            # Everything a non-production environment touches carries its own name. Never a production one.
+            [ "$WRANGLER_ENV" = "$ENVIRONMENT" ] || fail "WRANGLER_ENV must equal the environment name \"$ENVIRONMENT\", got \"$WRANGLER_ENV\" (the Worker is named after it)."
+            [ "$R2_BUCKET" != "islam-museum-search" ] || fail "a $ENVIRONMENT run may not publish to the production bucket."
+          fi
+          {
+            echo "bucket=$R2_BUCKET"
+            echo "wrangler_env=$WRANGLER_ENV"
+            echo "worker=islam-museum-games${WRANGLER_ENV:+-$WRANGLER_ENV}"
+          } >> "$GITHUB_OUTPUT"
+      - name: Find the build to deploy
+        id: build
+        if: inputs.action != 'rollback'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+          REQUESTED: ${{ inputs.build_run_id }}
+        run: |
+          set -euo pipefail
+          fields=databaseId,headSha,headBranch,conclusion,createdAt,displayTitle,url,workflowName
+          if [ -n "$REQUESTED" ]; then
+            [[ "$REQUESTED" =~ ^[0-9]+$ ]] || { echo "::error::build_run_id must be a run number, got \"$REQUESTED\"."; exit 1; }
+            run=$(gh run view "$REQUESTED" --json "$fields")
+          else
+            run=$(gh run list --workflow games-build.yml --branch main --status success --limit 1 --json "$fields" | jq '.[0] // empty')
+            test -n "$run" || { echo "::error::No successful games build of main yet. Run \"Build the games\" first."; exit 1; }
+          fi
+          id=$(jq -r .databaseId <<<"$run")
+          sha=$(jq -r .headSha <<<"$run")
+          branch=$(jq -r .headBranch <<<"$run")
+          conclusion=$(jq -r .conclusion <<<"$run")
+          created=$(jq -r .createdAt <<<"$run")
+          title=$(jq -r .displayTitle <<<"$run")
+          url=$(jq -r .url <<<"$run")
+          workflow=$(jq -r .workflowName <<<"$run")
+          [ "$workflow" = "Build the games" ] || { echo "::error::Run $id is \"$workflow\", not a games build."; exit 1; }
+          [ "$conclusion" = "success" ] || { echo "::error::Games build $id ended with \"$conclusion\", not success: it is not deployable."; exit 1; }
+          # One branch: both environments take builds of main only.
+          [ "$branch" = "main" ] || { echo "::error::Games build $id built $branch, not main."; exit 1; }
+          live=$(gh api "repos/$GH_REPO/actions/runs/$id/artifacts" --jq '[.artifacts[] | select(.expired == false and .name == "games-release")] | length')
+          [ "$live" -ge 1 ] || { echo "::error::Games build $id has no live games-release artifact (expired, or a pull-request build). Run \"Build the games\" on main again."; exit 1; }
+          {
+            echo "run_id=$id"
+            echo "sha=$sha"
+            echo "created=$created"
+            echo "title=$title"
+          } >> "$GITHUB_OUTPUT"
+          {
+            echo "## Games build $id"
+            echo
+            echo "- Build run: [$id]($url), built $created"
+            echo "- Commit: \`$sha\` — $title"
+          } >> "$GITHUB_STEP_SUMMARY"
+      - name: Checkout the built commit (the Worker and the publisher of the same build)
+        if: inputs.action != 'rollback'
+        uses: actions/checkout@v7
+        with:
+          ref: ${{ steps.build.outputs.sha }}
+      - name: Checkout (a rollback needs only the publisher)
+        if: inputs.action == 'rollback'
+        uses: actions/checkout@v7
+      - name: The commit must describe this environment, and agree with it
+        id: config
+        env:
+          WRANGLER_ENV: ${{ steps.env.outputs.wrangler_env }}
+          R2_BUCKET: ${{ steps.env.outputs.bucket }}
+          ENVIRONMENT: ${{ inputs.environment }}
+        run: |
+          set -euo pipefail
+          f=workers/games/wrangler.production.toml
+          test -f "$f" || { echo "::error::This commit has no $f: it predates the games host."; exit 1; }
+          if [ -n "$WRANGLER_ENV" ]; then
+            grep -Eq "^\[env\.$WRANGLER_ENV\]$" "$f" || { echo "::error::$f has no [env.$WRANGLER_ENV]: wrangler would fall back to the production bindings under a $WRANGLER_ENV name."; exit 1; }
+          fi
+          # The bucket and the host this commit's configuration names for the environment (comments left out).
+          read -r bucket host < <(node -e '
+            const text = require("fs").readFileSync(process.argv[1], "utf8");
+            const env = process.argv[2];
+            const first = text.search(/^\[env\./m);
+            const section = env ? text.slice(text.search(new RegExp("^\\[env\\." + env + "\\]$", "m"))) : text.slice(0, first < 0 ? text.length : first);
+            const settings = section.split("\n").filter((line) => !line.trim().startsWith("#")).join("\n");
+            const pick = (re) => (settings.match(re) || [])[1] || "-";
+            console.log(pick(/bucket_name = "([^"]+)"/), pick(/pattern = "([^"]+)"/));
+          ' "$f" "$WRANGLER_ENV")
+          [ "$bucket" = "$R2_BUCKET" ] || { echo "::error::$f binds the $ENVIRONMENT Worker to bucket \"$bucket\", but the Environment's R2_BUCKET is \"$R2_BUCKET\". They must be the same bucket."; exit 1; }
+          [[ "$host" =~ ^[a-z0-9.-]+\.islam\.museum$ ]] || { echo "::error::$f names no islam.museum host for $ENVIRONMENT (got \"$host\")."; exit 1; }
+          if [ "$ENVIRONMENT" != "production" ] && [ "$host" = "games.islam.museum" ]; then echo "::error::a $ENVIRONMENT run may not take the production host."; exit 1; fi
+          echo "games_url=https://$host" >> "$GITHUB_OUTPUT"
+          {
+            echo "## Environment: $ENVIRONMENT"
+            echo
+            echo "- Games host: https://$host (Worker \`${{ steps.env.outputs.worker }}\`)"
+            echo "- R2 bucket: \`$R2_BUCKET\`, folder \`games/\`"
+          } >> "$GITHUB_STEP_SUMMARY"
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 22
+          cache: npm
+          # The one pinned wrangler of the repository, the same the website's Workers are deployed with.
+          cache-dependency-path: workers/r2-sync/package-lock.json
+      - name: Download the release
+        if: inputs.action != 'rollback'
+        uses: actions/download-artifact@v8
+        with:
+          name: games-release
+          path: release
+          run-id: ${{ steps.build.outputs.run_id }}
+          github-token: ${{ github.token }}
+      - name: Verify the release against its manifest, and run the Worker's tests
+        if: inputs.action != 'rollback'
+        env:
+          SHA: ${{ steps.build.outputs.sha }}
+        run: |
+          set -euo pipefail
+          node gaming/tools/check-release.mjs release --expect-commit "$SHA"
+          node --test workers/games/test/*.test.mjs
+      - name: Deploy the games Worker (this environment's bucket)
+        if: inputs.action == 'release'
+        working-directory: workers/games
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          WRANGLER_ENV: ${{ steps.env.outputs.wrangler_env }}
+        # The Custom Domain is in the configuration, so the first deploy of an environment creates its DNS record
+        # and certificate. The Worker goes up before the release is made live, so new code never waits for old.
+        run: |
+          set -euo pipefail
+          npm ci --prefix ../r2-sync
+          ../r2-sync/node_modules/.bin/wrangler deploy -c wrangler.production.toml --env="$WRANGLER_ENV"
+      - name: ${{ inputs.action == 'check' && 'Say what a release would do (writes nothing)' || inputs.action == 'rollback' && 'Move the pointer back to the release before' || 'Upload the release, verify it in the bucket, then make it live' }}
+        id: publish
+        env:
+          AWS_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+          AWS_DEFAULT_REGION: auto
+          ENDPOINT: https://${{ secrets.CLOUDFLARE_ACCOUNT_ID }}.r2.cloudflarestorage.com
+          BUCKET: ${{ steps.env.outputs.bucket }}
+          ACTION: ${{ inputs.action }}
+          RUN: ${{ github.run_id }}
+        run: |
+          set -euo pipefail
+          case "$ACTION" in
+            check)    node workers/games/publish.mjs release  --bucket "$BUCKET" --endpoint "$ENDPOINT" --release release --run "$RUN" --dry-run | tee publish.log ;;
+            release)  node workers/games/publish.mjs release  --bucket "$BUCKET" --endpoint "$ENDPOINT" --release release --run "$RUN" | tee publish.log ;;
+            rollback) node workers/games/publish.mjs rollback --bucket "$BUCKET" --endpoint "$ENDPOINT" --run "$RUN" | tee publish.log ;;
+          esac
+          {
+            echo "### $ACTION"
+            echo
+            echo '```'
+            cat publish.log
+            echo '```'
+          } >> "$GITHUB_STEP_SUMMARY"
+      - name: Smoke test the games host (informative; a miss is reported, not fatal)
+        if: inputs.action != 'check'
+        env:
+          GAMES_URL: ${{ steps.config.outputs.games_url }}
+          RELEASE_ID: ${{ steps.publish.outputs.release_id }}
+          ACTION: ${{ inputs.action }}
+        run: |
+          set -u
+          # A running copy of the Worker trusts the pointer for thirty seconds.
+          sleep 40
+          echo "### Smoke test: $GAMES_URL" >> "$GITHUB_STEP_SUMMARY"
+          echo >> "$GITHUB_STEP_SUMMARY"
+          bad=0
+          live=$(curl -s --max-time 30 "$GAMES_URL/_channel" | jq -r '.current // empty' 2>/dev/null || true)
+          echo "- live release: \`${live:-unknown}\`" >> "$GITHUB_STEP_SUMMARY"
+          if [ "$ACTION" = "release" ] && [ "$live" != "$RELEASE_ID" ]; then bad=$((bad + 1)); echo "::warning::$GAMES_URL reports \"${live:-nothing}\" as live, expected $RELEASE_ID."; fi
+          paths="/ /release.json /robots.txt"
+          if [ -f release/release.json ]; then for page in $(jq -r '.games[] | select(.page != null) | .page' release/release.json); do paths="$paths /$page"; done; fi
+          for p in $paths; do
+            code=$(curl -s -o /dev/null -w '%{http_code}' --max-time 30 "$GAMES_URL$p" || echo "000")
+            echo "- \`$p\` → $code" >> "$GITHUB_STEP_SUMMARY"
+            [ "$code" = "200" ] || bad=$((bad + 1))
+          done
+          [ "$bad" -eq 0 ] || echo "::warning::$bad of the smoke-test checks failed on $GAMES_URL (a new Custom Domain's DNS and certificate can take a few minutes on the first deploy)."
+      - name: Record what was done
+        env:
+          ACTION: ${{ inputs.action }}
+          ENVIRONMENT: ${{ inputs.environment }}
+          RUN_ID: ${{ steps.build.outputs.run_id }}
+          SHA: ${{ steps.build.outputs.sha }}
+          GAMES_URL: ${{ steps.config.outputs.games_url }}
+        run: |
+          {
+            echo
+            case "$ACTION" in
+              check)    echo "Checked games build **$RUN_ID** (commit \`$SHA\`) against **$ENVIRONMENT**. Nothing was written." ;;
+              release)  echo "Released games build **$RUN_ID** (commit \`$SHA\`) to **$ENVIRONMENT** ($GAMES_URL). To publish the same release elsewhere, give build_run_id **$RUN_ID**." ;;
+              rollback) echo "Rolled **$ENVIRONMENT** ($GAMES_URL) back to the release before. No file was uploaded or removed." ;;
+            esac
+          } >> "$GITHUB_STEP_SUMMARY"
