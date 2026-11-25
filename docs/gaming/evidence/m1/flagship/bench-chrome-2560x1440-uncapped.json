@@ -1,0 +1,429 @@
+{
+ "meta": {
+  "commit": "94cb4298a378b7d3fbaacccfbdf0317b3a9a6f61",
+  "dirty": true,
+  "browserChannel": "chrome",
+  "browserVersion": "158.0.8127.38",
+  "headless": false,
+  "uncapped": true,
+  "requested": {
+   "w": 2560,
+   "h": 1440,
+   "seconds": 20,
+   "tod": "golden"
+  },
+  "startedAt": "2026-11-25T12:44:57.217Z"
+ },
+ "results": [
+  {
+   "name": "three-high-2560x1440-uncapped",
+   "engine": "three",
+   "preset": "high",
+   "timeOfDay": "golden",
+   "seed": 7,
+   "view": "loop",
+   "backing": [
+    2560,
+    1440
+   ],
+   "devicePixelRatio": 1,
+   "scene": {
+    "buildings": 726,
+    "triangles": 1309818,
+    "vertices": 532276,
+    "instances": 3221,
+    "walkers": 640,
+    "chunks": 384,
+    "drawBatches": 398
+   },
+   "generateMs": 111,
+   "texturesMs": 156,
+   "textureWorkers": 8,
+   "textureTimeline": [
+    [
+     "brick",
+     55
+    ],
+    [
+     "glaze",
+     55
+    ],
+    [
+     "lattice",
+     62
+    ],
+    [
+     "startile",
+     66
+    ],
+    [
+     "roof",
+     70
+    ],
+    [
+     "wood",
+     73
+    ],
+    [
+     "ashlar",
+     85
+    ],
+    [
+     "fabric",
+     97
+    ],
+    [
+     "paving",
+     119
+    ],
+    [
+     "plaster",
+     125
+    ],
+    [
+     "field",
+     132
+    ],
+    [
+     "earth",
+     142
+    ],
+    [
+     "water",
+     149
+    ],
+    [
+     "grass",
+     156
+    ]
+   ],
+   "engineInitMs": 93,
+   "adapter": {
+    "vendor": "apple",
+    "architecture": "metal-3",
+    "device": "",
+    "description": "",
+    "isFallbackAdapter": false
+   },
+   "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/158.0.0.0 Safari/537.36",
+   "benchSeconds": 20,
+   "warmupSeconds": 5,
+   "firstFrameMs": 126,
+   "frame": {
+    "frames": 3280,
+    "durationMs": 20001,
+    "meanMs": 6.098,
+    "p50Ms": 6,
+    "p95Ms": 6.9,
+    "p99Ms": 7.1,
+    "maxMs": 12.5,
+    "minMs": 4.7,
+    "over16_7": 0,
+    "over33_3": 0,
+    "over50": 0,
+    "avgFps": 163.992
+   },
+   "cpuRender": {
+    "frames": 3281,
+    "durationMs": 8692.7,
+    "meanMs": 2.649,
+    "p50Ms": 2.5,
+    "p95Ms": 3.4,
+    "p99Ms": 3.5,
+    "maxMs": 3.9,
+    "minMs": 1.6,
+    "over16_7": 0,
+    "over33_3": 0,
+    "over50": 0,
+    "avgFps": 377.443
+   },
+   "drawCalls": 832,
+   "trianglesDrawn": 3779806,
+   "engineVersion": "187",
+   "extra": {
+    "preset": "high",
+    "shadowMap": 4096,
+    "msaa": 4,
+    "geometries": 388,
+    "textures": 50
+   },
+   "memory": 100474867,
+   "finishedAt": "2026-11-25T12:45:22.852Z",
+   "consoleErrors": [
+    "Failed to load resource: the server responded with a status of 404 (Not Found)"
+   ]
+  },
+  {
+   "name": "three-ultra-2560x1440-uncapped",
+   "engine": "three",
+   "preset": "ultra",
+   "timeOfDay": "golden",
+   "seed": 7,
+   "view": "loop",
+   "backing": [
+    2560,
+    1440
+   ],
+   "devicePixelRatio": 1,
+   "scene": {
+    "buildings": 726,
+    "triangles": 1309818,
+    "vertices": 532276,
+    "instances": 3221,
+    "walkers": 640,
+    "chunks": 384,
+    "drawBatches": 398
+   },
+   "generateMs": 110,
+   "texturesMs": 151,
+   "textureWorkers": 8,
+   "textureTimeline": [
+    [
+     "glaze",
+     56
+    ],
+    [
+     "startile",
+     58
+    ],
+    [
+     "brick",
+     59
+    ],
+    [
+     "lattice",
+     59
+    ],
+    [
+     "roof",
+     69
+    ],
+    [
+     "wood",
+     73
+    ],
+    [
+     "ashlar",
+     86
+    ],
+    [
+     "fabric",
+     100
+    ],
+    [
+     "paving",
+     110
+    ],
+    [
+     "field",
+     122
+    ],
+    [
+     "plaster",
+     130
+    ],
+    [
+     "earth",
+     145
+    ],
+    [
+     "grass",
+     147
+    ],
+    [
+     "water",
+     151
+    ]
+   ],
+   "engineInitMs": 83,
+   "adapter": {
+    "vendor": "apple",
+    "architecture": "metal-3",
+    "device": "",
+    "description": "",
+    "isFallbackAdapter": false
+   },
+   "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/158.0.0.0 Safari/537.36",
+   "benchSeconds": 20,
+   "warmupSeconds": 5,
+   "firstFrameMs": 128,
+   "frame": {
+    "frames": 3298,
+    "durationMs": 20003.3,
+    "meanMs": 6.065,
+    "p50Ms": 6,
+    "p95Ms": 6.9,
+    "p99Ms": 7.1,
+    "maxMs": 12.2,
+    "minMs": 4.8,
+    "over16_7": 0,
+    "over33_3": 0,
+    "over50": 0,
+    "avgFps": 164.873
+   },
+   "cpuRender": {
+    "frames": 3299,
+    "durationMs": 8702.8,
+    "meanMs": 2.638,
+    "p50Ms": 2.5,
+    "p95Ms": 3.4,
+    "p99Ms": 3.5,
+    "maxMs": 3.8,
+    "minMs": 1.7,
+    "over16_7": 0,
+    "over33_3": 0,
+    "over50": 0,
+    "avgFps": 379.073
+   },
+   "drawCalls": 832,
+   "trianglesDrawn": 3779806,
+   "engineVersion": "187",
+   "extra": {
+    "preset": "ultra",
+    "shadowMap": 8192,
+    "msaa": 4,
+    "geometries": 388,
+    "textures": 50
+   },
+   "memory": 96387728,
+   "finishedAt": "2026-11-25T12:45:48.381Z",
+   "consoleErrors": []
+  },
+  {
+   "name": "three-cinematic-2560x1440-uncapped",
+   "engine": "three",
+   "preset": "cinematic",
+   "timeOfDay": "golden",
+   "seed": 7,
+   "view": "loop",
+   "backing": [
+    2560,
+    1440
+   ],
+   "devicePixelRatio": 1,
+   "scene": {
+    "buildings": 726,
+    "triangles": 1309818,
+    "vertices": 532276,
+    "instances": 3221,
+    "walkers": 640,
+    "chunks": 384,
+    "drawBatches": 398
+   },
+   "generateMs": 109,
+   "texturesMs": 157,
+   "textureWorkers": 8,
+   "textureTimeline": [
+    [
+     "brick",
+     58
+    ],
+    [
+     "startile",
+     59
+    ],
+    [
+     "glaze",
+     59
+    ],
+    [
+     "lattice",
+     61
+    ],
+    [
+     "wood",
+     65
+    ],
+    [
+     "roof",
+     73
+    ],
+    [
+     "ashlar",
+     95
+    ],
+    [
+     "fabric",
+     103
+    ],
+    [
+     "paving",
+     120
+    ],
+    [
+     "field",
+     130
+    ],
+    [
+     "plaster",
+     134
+    ],
+    [
+     "earth",
+     142
+    ],
+    [
+     "water",
+     145
+    ],
+    [
+     "grass",
+     157
+    ]
+   ],
+   "engineInitMs": 83,
+   "adapter": {
+    "vendor": "apple",
+    "architecture": "metal-3",
+    "device": "",
+    "description": "",
+    "isFallbackAdapter": false
+   },
+   "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/158.0.0.0 Safari/537.36",
+   "benchSeconds": 20,
+   "warmupSeconds": 5,
+   "firstFrameMs": 128,
+   "frame": {
+    "frames": 3259,
+    "durationMs": 20001.8,
+    "meanMs": 6.137,
+    "p50Ms": 6,
+    "p95Ms": 7,
+    "p99Ms": 7.2,
+    "maxMs": 8.1,
+    "minMs": 4.9,
+    "over16_7": 0,
+    "over33_3": 0,
+    "over50": 0,
+    "avgFps": 162.935
+   },
+   "cpuRender": {
+    "frames": 3260,
+    "durationMs": 8695.6,
+    "meanMs": 2.667,
+    "p50Ms": 2.5,
+    "p95Ms": 3.4,
+    "p99Ms": 3.6,
+    "maxMs": 4.2,
+    "minMs": 1.5,
+    "over16_7": 0,
+    "over33_3": 0,
+    "over50": 0,
+    "avgFps": 374.902
+   },
+   "drawCalls": 832,
+   "trianglesDrawn": 3779806,
+   "engineVersion": "187",
+   "extra": {
+    "preset": "cinematic",
+    "shadowMap": 8192,
+    "msaa": 4,
+    "geometries": 388,
+    "textures": 50
+   },
+   "memory": 153860177,
+   "finishedAt": "2026-11-25T12:46:13.937Z",
+   "consoleErrors": []
+  }
+ ]
+}

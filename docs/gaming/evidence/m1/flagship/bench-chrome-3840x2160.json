@@ -1,0 +1,157 @@
+{
+ "meta": {
+  "commit": "94cb4298a378b7d3fbaacccfbdf0317b3a9a6f61",
+  "dirty": true,
+  "browserChannel": "chrome",
+  "browserVersion": "158.0.8127.38",
+  "headless": false,
+  "uncapped": false,
+  "requested": {
+   "w": 3840,
+   "h": 2160,
+   "seconds": 30,
+   "tod": "golden"
+  },
+  "startedAt": "2026-11-25T12:47:33.062Z"
+ },
+ "results": [
+  {
+   "name": "three-ultra-3840x2160",
+   "engine": "three",
+   "preset": "ultra",
+   "timeOfDay": "golden",
+   "seed": 7,
+   "view": "loop",
+   "backing": [
+    3840,
+    2160
+   ],
+   "devicePixelRatio": 1,
+   "scene": {
+    "buildings": 726,
+    "triangles": 1309818,
+    "vertices": 532276,
+    "instances": 3221,
+    "walkers": 640,
+    "chunks": 384,
+    "drawBatches": 398
+   },
+   "generateMs": 108,
+   "texturesMs": 148,
+   "textureWorkers": 8,
+   "textureTimeline": [
+    [
+     "glaze",
+     55
+    ],
+    [
+     "startile",
+     58
+    ],
+    [
+     "brick",
+     58
+    ],
+    [
+     "lattice",
+     62
+    ],
+    [
+     "wood",
+     68
+    ],
+    [
+     "roof",
+     73
+    ],
+    [
+     "ashlar",
+     84
+    ],
+    [
+     "fabric",
+     102
+    ],
+    [
+     "paving",
+     110
+    ],
+    [
+     "plaster",
+     129
+    ],
+    [
+     "field",
+     131
+    ],
+    [
+     "water",
+     143
+    ],
+    [
+     "earth",
+     147
+    ],
+    [
+     "grass",
+     148
+    ]
+   ],
+   "engineInitMs": 102,
+   "adapter": {
+    "vendor": "apple",
+    "architecture": "metal-3",
+    "device": "",
+    "description": "",
+    "isFallbackAdapter": false
+   },
+   "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/158.0.0.0 Safari/537.36",
+   "benchSeconds": 30,
+   "warmupSeconds": 5,
+   "firstFrameMs": 141,
+   "frame": {
+    "frames": 3234,
+    "durationMs": 30003.9,
+    "meanMs": 9.278,
+    "p50Ms": 8.3,
+    "p95Ms": 16.7,
+    "p99Ms": 17.4,
+    "maxMs": 25.9,
+    "minMs": 7.3,
+    "over16_7": 199,
+    "over33_3": 0,
+    "over50": 0,
+    "avgFps": 107.786
+   },
+   "cpuRender": {
+    "frames": 3235,
+    "durationMs": 10774.8,
+    "meanMs": 3.331,
+    "p50Ms": 3.4,
+    "p95Ms": 4.2,
+    "p99Ms": 4.5,
+    "maxMs": 5.1,
+    "minMs": 1.9,
+    "over16_7": 0,
+    "over33_3": 0,
+    "over50": 0,
+    "avgFps": 300.238
+   },
+   "drawCalls": 832,
+   "trianglesDrawn": 3779806,
+   "engineVersion": "187",
+   "extra": {
+    "preset": "ultra",
+    "shadowMap": 8192,
+    "msaa": 4,
+    "geometries": 388,
+    "textures": 50
+   },
+   "memory": 120528724,
+   "finishedAt": "2026-11-25T12:48:08.683Z",
+   "consoleErrors": [
+    "Failed to load resource: the server responded with a status of 404 (Not Found)"
+   ]
+  }
+ ]
+}

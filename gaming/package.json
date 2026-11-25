@@ -1,0 +1,33 @@
+{
+  "name": "islam-museum-gaming",
+  "private": true,
+  "type": "module",
+  "version": "0.1.0",
+  "description": "islam.museum Gaming Platform: an independently built and released subsystem of the museum repository.",
+  "license": "MIT",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "dev": "vite --config vite.config.ts",
+    "typecheck": "tsc --noEmit -p tsconfig.json",
+    "test": "vitest run --config vitest.config.ts",
+    "bench": "tsx tools/bench.ts",
+    "shot": "tsx tools/shot.ts",
+    "probe": "tsx tools/probe-district.ts"
+  },
+  "dependencies": {
+    "@babylonjs/core": "9.37.2",
+    "three": "0.187.0"
+  },
+  "devDependencies": {
+    "@types/node": "22.19.1",
+    "@types/three": "0.187.0",
+    "@webgpu/types": "0.1.74",
+    "playwright-core": "1.64.1",
+    "tsx": "4.20.6",
+    "typescript": "5.9.3",
+    "vite": "8.3.8",
+    "vitest": "5.1.2"
+  }
+}
