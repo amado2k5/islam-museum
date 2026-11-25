@@ -34,6 +34,9 @@ open a new block on top with the new version and today's date.
 ### Fixed
 - **A pause at every change of season in The Golden Age is gone.** The game stopped for about a twentieth of a second each time a season ended. An earlier note blamed new buildings; timing each action showed it was the sky's lighting being swapped with the season. It now changes without the pause, and a whole scripted game ran with no slow frame.
 
+### Data
+- **Tranco, 25 November 2026: #608,280.** The museum's daily Tranco reading climbs 21,645 places in a day, from #629,925 on the list of 24 November to #608,280 on the list dated 25 November 2026 (list 947P2), read from the published full list of 4,326,585 domains before the API carried it. Forty-five days after opening, the museum stands 4,001,687 places above its first Tranco reading (#4,609,967 on the list of 23 October 2026). The ranking log in `docs/status.md`, the evidence in `site/src/data/traffic.json` and the traffic page carry the new figure.
+
 ## v2.30.0 — 2026-11-24
 ### Added
 - **Palestine dossier prose, in seven languages.** First prose articles for the records created in the historic-buildings dossier merge (#8023): seven buildings — Tankiziyya and the Salahiyya madrasa in Jerusalem, the Great Mosque of Nablus (Jami' Nablus al-Kabir), the Great Mosque of Jenin (Fatima Khatun), al-Khadra Mosque in Nablus, the Omari Mosque of Dura and Qasr al-Basha in Gaza — plus the towns of Jenin and Dura. Each ships in Arabic, English, Urdu, French, Spanish, Turkish and Indonesian, cited to the dossier-registered sources.
