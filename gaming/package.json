@@ -29,7 +29,8 @@
     "granada:mutations": "python3 games/granada/tools/mutate-economy.py",
     "build:release": "tsx --tsconfig tsconfig.json tools/build.ts",
     "check:release": "node tools/check-release.mjs dist/release",
-    "release:smoke": "tsx --tsconfig tsconfig.json tools/release-smoke.ts"
+    "release:smoke": "tsx --tsconfig tsconfig.json tools/release-smoke.ts",
+    "granada:village-lab": "tsx --tsconfig tsconfig.json games/granada/tools/village-lab.ts"
   },
   "dependencies": {
     "@babylonjs/core": "9.37.2",
