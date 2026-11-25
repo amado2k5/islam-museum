@@ -2,7 +2,7 @@
 
 The single place that says what is done, what was measured, what is open and what to do next. A new session reads this first, then confirms the branch and head below with `git log -1` before trusting anything here. Update it after every verified unit of work, in the same commit.
 
-_Last updated: 25 November 2026, with the fourth pull request (The Golden Age: trouble shown in the district, museum links, and a stall removed)._
+_Last updated: 25 November 2026, with the fifth pull request (Atlas image rounds: the rule decided, the museum's pictures counted, and no round built because four qualify)._
 
 ## Where things stand
 
@@ -12,11 +12,11 @@ _Last updated: 25 November 2026, with the fourth pull request (The Golden Age: t
 | Milestone | **M0 done. M1 measured on one machine, physical tests open. M2 built:** Atlas and The Golden Age are both playable prototypes, and the simulation lab exists. The one part of M2 not done is its last line: no person other than the author's script has played either game |
 | Games | **Atlas and The Golden Age are `prototype`.** The other eight are `planned` |
 | On the public site | Nothing. No page, link, script or asset of the gaming platform is in the site build |
-| Branches | `claude/islam-museum-gaming-v2-c9bd91` (M0 and M1, merged), `gaming/m2-atlas-claude` (Atlas, and the Golden Age rules and lab; merged), `gaming/m2-golden-age-screen-claude` (The Golden Age on screen, and the music; merged), `gaming/m2-golden-age-legible-claude` (markers, museum links, the season stall) |
+| Branches | `claude/islam-museum-gaming-v2-c9bd91` (M0 and M1, merged), `gaming/m2-atlas-claude` (Atlas, and the Golden Age rules and lab; merged), `gaming/m2-golden-age-screen-claude` (The Golden Age on screen, and the music; merged), `gaming/m2-golden-age-legible-claude` (markers, museum links, the season stall; merged), `gaming/m2-atlas-images-decision-claude` (the image-round decision and survey) |
 | Pull requests | [amado2k5/islam-museum#8247](https://github.com/amado2k5/islam-museum/pull/8247) (M0 and M1, merged 25 Nov 2026 as `9854b2d2c1a`); [amado2k5/islam-museum#8248](https://github.com/amado2k5/islam-museum/pull/8248) (Atlas, Golden Age rules and lab, merged 25 Nov 2026 as `c45de1c952b`); [amado2k5/islam-museum#8250](https://github.com/amado2k5/islam-museum/pull/8250) (The Golden Age on screen, and the music; merged 25 Nov 2026 as `e60dab3fcbb`); [amado2k5/islam-museum#8251](https://github.com/amado2k5/islam-museum/pull/8251) (markers, museum links, the season stall) |
 | Lane | `gaming` (`docs/agents/lanes.md`) |
 
-**In one paragraph.** The repository, hosting, languages and this machine were inventoried and the findings written down. An isolated `gaming/` workspace exists with pinned, audit-clean dependencies. A procedural reference city is generated from a seed and drawn by both Three.js and Babylon.js on WebGPU; both were benchmarked in real Chrome on an Apple M4 Max and Three.js was chosen. **Atlas** is a five-round daily geography game built entirely from museum records, playable by mouse or keyboard on a 2D globe in seven languages. **The Golden Age** has its first scenario playable from start to finish: a district of 48 plots drawn in 3D from the rules' state, where a canal link is dug and its water seen to arrive, buildings are placed, the top bar shows what the season will do before it is ended and a ledger gives the causes after; the same game can be played with the keyboard alone or from a plan view made of buttons, which is the whole game where there is no WebGPU; it saves on the device and is in seven languages; a plot in trouble is marked in the district, and research and tools link to thirteen museum records. Its rules were played 14,000 times by scripted players with no rule broken, and only two of four strategies are comfortably viable where the GDD asks for three. **The music of both games is the museum's own suite**, "Voices of the Museum", silent until the player's first click; the audio files are not in git. The pictures are tidy models, well short of the concept art. **No person has played either game**: every playthrough is the author's script. No portal page, SDK, mod system or deployment work has been done.
+**In one paragraph.** The repository, hosting, languages and this machine were inventoried and the findings written down. An isolated `gaming/` workspace exists with pinned, audit-clean dependencies. A procedural reference city is generated from a seed and drawn by both Three.js and Babylon.js on WebGPU; both were benchmarked in real Chrome on an Apple M4 Max and Three.js was chosen. **Atlas** is a five-round daily geography game built entirely from museum records, playable by mouse or keyboard on a 2D globe in seven languages; it has no picture rounds, because only four of the museum's 895 media records can honestly be one ([G-0008](adr/G-0008-atlas-image-rounds.md)). **The Golden Age** has its first scenario playable from start to finish: a district of 48 plots drawn in 3D from the rules' state, where a canal link is dug and its water seen to arrive, buildings are placed, the top bar shows what the season will do before it is ended and a ledger gives the causes after; the same game can be played with the keyboard alone or from a plan view made of buttons, which is the whole game where there is no WebGPU; it saves on the device and is in seven languages; a plot in trouble is marked in the district, and research and tools link to thirteen museum records. Its rules were played 14,000 times by scripted players with no rule broken, and only two of four strategies are comfortably viable where the GDD asks for three. **The music of both games is the museum's own suite**, "Voices of the Museum", silent until the player's first click; the audio files are not in git. The pictures are tidy models, well short of the concept art. **No person has played either game**: every playthrough is the author's script. No portal page, SDK, mod system or deployment work has been done.
 
 ## Requirements and their state
 
@@ -29,7 +29,7 @@ Platform outcomes are the ten numbered in `spec-v2/01-MASTER-MANDATE.md`. Releas
 | 3. WebGPU-first 3D, measured engine choice, High/Ultra/Cinematic | Engine chosen; presets are placeholders | [G-0002](adr/G-0002-rendering-engine.md) |
 | 4. Art pipeline | Procedural kit exists, with nine building types for The Golden Age; music is the museum's suite; no authored assets, no real characters, no sound effects | [G-0003](adr/G-0003-procedural-assets-first.md), [G-0007](adr/G-0007-music-and-audio.md) |
 | 5. Shared systems where justified | `kernel`, `worldkit`, `audio` | Music is shared (two games use it). Each game still has its own save module, of the same design: the third game to need one makes it shared. Input mapping, lifecycle, replay, sound effects: not started |
-| 6. Museum-sourced history | Working for Atlas; links only in The Golden Age | Atlas: rounds are museum record ids joined to museum place ids, from a pinned pack ([G-0006](adr/G-0006-atlas-content-pack.md)). The Golden Age: research and tools link to thirteen records by id from a pinned file; nothing in its play comes from a record yet |
+| 6. Museum-sourced history | Working for Atlas; links only in The Golden Age | Atlas: rounds are museum record ids joined to museum place ids, from a pinned pack ([G-0006](adr/G-0006-atlas-content-pack.md)); image rounds are decided and not built for want of qualifying pictures ([G-0008](adr/G-0008-atlas-image-rounds.md)). The Golden Age: research and tools link to thirteen records by id from a pinned file; nothing in its play comes from a record yet |
 | 7. Creator ecosystem, SDK, mods | Threat model only | [`threat-model.md`](threat-model.md) |
 | 8. Cross-game interchange | Not started | |
 | 9. Static hosting, separate build and release | Proposed | [G-0004](adr/G-0004-hosting-and-release-model.md), needs the founder |
@@ -44,7 +44,7 @@ Platform outcomes are the ten numbered in `spec-v2/01-MASTER-MANDATE.md`. Releas
 
 ## Decisions
 
-G-0001 workspace, G-0002 engine, G-0003 assets, G-0004 hosting (proposed), G-0005 determinism, G-0006 Atlas content pack, G-0007 music: see [`README.md`](README.md). Smaller choices made in passing:
+G-0001 workspace, G-0002 engine, G-0003 assets, G-0004 hosting (proposed), G-0005 determinism, G-0006 Atlas content pack, G-0007 music, G-0008 Atlas image rounds (rule decided, none built): see [`README.md`](README.md). Smaller choices made in passing:
 
 - The specification is copied into the repository so a later session has it; concept images are reduced to 1280 × 720 so no file is over 300 KB. The originals are in the founder's package.
 - Evidence captures are stored at 1920 × 1080 WebP. The 2560 × 1440 PNG originals are not committed; each is reproducible with one command.
@@ -58,6 +58,7 @@ G-0001 workspace, G-0002 engine, G-0003 assets, G-0004 hosting (proposed), G-000
 - **A wrong diagnosis, corrected.** The third pull request recorded that placing a building cost a slow frame. It did not. A probe that timed each command and the two frames after it showed building cost nothing extra and every season's end cost about 50 ms: the renderer swapped the sky's environment map with the season, and the engine rebuilt every material's bindings. One environment map now serves all seasons. The lesson for this ledger: a frame-time table says that something is slow, not what; name a cause only after timing it.
 - **The Golden Age links to the museum by hand-chosen record ids, pinned like Atlas's pack.** Thirteen records for five research projects and eight tools (`games/golden-age.md`, "The museum behind the game"). A link claims only that this is the real thing the idea comes from. Houses and the granary have no record and no link. Which record fits which idea is the agent's judgement, for the founder to correct.
 - **Markers repeat the panel, they do not replace it.** Each marked plot is also a line in the panel's list and a sentence in the plan view's label, so nothing is told by an icon alone.
+- **Atlas image rounds stopped at the decision record, on the count.** The task allowed for it and the numbers left no other honest result: four pictures for the question as asked, twelve on the widest reading, against 52 for one round a week. The rule was written as code with tests and a survey command rather than as prose alone, so the count is repeatable and the builder can use the same function later. No pack, rule, schedule, string or screen of the game changed, so there is nothing new for a player and nothing in seven languages to check.
 - **The five languages besides Arabic and English were translated by a Sonnet subagent** from those two, by the pivot of `docs/language.md`, and checked mechanically. Two of its choices were changed by hand (Urdu «اسکول» for a school; Indonesian "Buku kas" for the ledger).
 
 ## Work done, with files
@@ -72,9 +73,9 @@ G-0001 workspace, G-0002 engine, G-0003 assets, G-0004 hosting (proposed), G-000
 | The Golden Age | Rules and lab: `gaming/games/golden-age/src/{rules,scenarios,policies,lab}.ts`. Screen: `src/view/{layout,camera,board,looks,three-board}.ts`, `src/ui/{app,stage,model,icons}.ts`, `golden-age.css`, `src/save.ts`, `index.html`, `i18n/` (seven languages). Tests: `test/{golden-age,screen}.gtest.ts`. Museum links: `data/museum-links.source.json` (chosen by hand), `data/museum-links.v1.json` (built, pinned), `tools/build-links.ts`. Tools: `gaming/tools/{simlab,simtrace,golden-age-play,golden-age-shot}.ts` |
 | Music | `gaming/packages/audio/src/{music,player,control}.ts`, `music.css`, `music.json`, `i18n/` (seven languages), `test/music.gtest.ts`; `gaming/tools/music-import.ts`; `gaming/.gitignore` (`media/`) |
 | Strings | `gaming/tools/check-strings.py` (every game's tables: seven languages, same keys, same blanks, no honorific, no bare parenthesis round Arabic script) |
-| Atlas | `gaming/games/atlas/src/{geo,pack,rules,schedule,save}.ts`, `src/ui/{app,globe}.ts`, `atlas.css`, `index.html`, `tools/build-pack.ts`, `data/` (pinned pack, seven label files, report), `i18n/` (seven languages), `test/atlas.gtest.ts` |
+| Atlas | `gaming/games/atlas/src/{geo,pack,rules,schedule,save}.ts`, `src/ui/{app,globe}.ts`, `atlas.css`, `index.html`, `tools/build-pack.ts`, `data/` (pinned pack, seven label files, report), `i18n/` (seven languages), `test/atlas.gtest.ts`. Image rule, used by no screen yet: `src/images.ts`, `tools/survey-images.ts`, `test/images.gtest.ts` |
 | Documents | everything under `docs/gaming/` |
-| Shared files touched | `docs/agents/lanes.md` (one row), `docs/status.md` (one row), `CANARY.md` (four entries), `.claude/launch.json` (one preview entry) |
+| Shared files touched | `docs/agents/lanes.md` (one row), `docs/status.md` (one row), `CANARY.md` (five entries), `.claude/launch.json` (one preview entry) |
 
 ## Commands run and what they returned
 
@@ -114,6 +115,12 @@ All on 25 November 2026, on the machine in the inventory.
 | The same probe after keeping one environment map | Two frames after a season's end: 13.9 to 14.9 ms |
 | `npx tsx tools/golden-age-play.ts <dir> <lang> [1]` for each of the seven languages | Seven runs, every step passed, no console error: two markers at the start and one after the first link, five museum links per language leading to `islam.museum/<lang>/invention/…`, and a 57-command campaign driven to a win in English and Arabic with no frame over 16.7 ms |
 | `npm run validate`, `npm test` (museum, on this branch) | validate: 0 errors, 7,674 warnings, exit 0. test: 62 files, 30,319 passed, 2 skipped, exit 0, 636 s |
+| **Fifth pull request** | |
+| `npm --prefix gaming run atlas:images` (at museum commit `361a669c3a5`) | 895 media records, each given one verdict: 4 can be a "where is this?" round (4 places), 0 a "where was this made?" round under a free licence, 8 more under the V&A's terms (4 places); 883 refused with a counted reason. Not enough for a weekly round (52) or a daily one (365). 5,794 buildings, 247 naming one place, 214 of those scoreable, 7 with any picture |
+| `npm --prefix gaming test`, `typecheck`, `strings`, `audit` | 7 files, 118 tests, all pass (21 kernel and world kit, 48 Atlas of which 16 are the image rule, 43 Golden Age, 6 music); clean; Atlas 58 strings, The Golden Age 267, music 12, unchanged; 0 vulnerabilities |
+| `npx tsx tools/atlas-play.ts …` | Not run again: no file the Atlas page loads was changed |
+| `npm run validate`, `npm test` (museum, on this branch) | validate: 0 errors, 7,674 warnings, exit 0. test: 62 files, 30,319 passed, 2 skipped, exit 0, 727 s, **on the second run**. The first run, in a fresh worktree, failed for a reason that has nothing to do with gaming: two tests of `scripts/tafsir.test.ts` need `.cache/graph.json`, which did not exist yet, and a test worker then ran out of memory at the default 8 GB heap. After `npm run graph` (143 s) the whole suite passed. A fresh worktree needs `npm --prefix site ci` and `npm run graph` before `npm test` |
+| `npm run build`, `npm run check:static` | Not run: no file under `site/` changed |
 
 ## Measurements
 
@@ -140,6 +147,7 @@ The full district at the end is about 1.56 million triangles and about 950 draw 
 | Three.js High, Ultra, Cinematic at 1440p and 4K | `evidence/m1/flagship/*.json` |
 | Sixteen real captures | `evidence/m1/captures/*.webp` |
 | Atlas: pack report, seven-language playthrough log, thirteen screenshots | `evidence/m2/atlas/` |
+| Atlas: the image survey (every qualifying picture, every reason for refusal with its count, the building figures) | `evidence/m2/atlas/image-survey.json` |
 | Golden Age: the 1,000-seed lab report and one traced campaign | `evidence/m2/golden-age/` |
 | The Golden Age on screen: seven run logs (one per language) and captures of the real game | `evidence/m2/golden-age/screen/` |
 
@@ -152,7 +160,7 @@ The full district at the end is about 1.56 million triangles and about 950 draw 
 5. Only one machine has been measured.
 6. The desktop app's dev-server launcher stalled twice in the first session; the tools no longer depend on it, but the in-app preview may need `npm --prefix gaming run dev` started by hand.
 7. Interface strings of both games and of the music control exist in all seven languages, were written by AI agents and have been read by no native speaker. In Atlas, personal names in Turkish and Indonesian are borrowed from English. The graphics lab page is an English-only developer tool marked `noindex`.
-8. Atlas has no images, no sound effects and no 3D globe, and two of its five daily rounds are military events ([`games/atlas.md`](games/atlas.md)).
+8. Atlas has no images, no sound effects and no 3D globe, and two of its five daily rounds are military events ([`games/atlas.md`](games/atlas.md)). The images are held up by the museum's records, not by the game: four pictures qualify ([G-0008](adr/G-0008-atlas-image-rounds.md)).
 9. **No game has been played by a person.** Every "playthrough" so far is the author's script. This is now the largest gap: there are two games to play and nobody has.
 10. The Golden Age: only two of four scripted strategies win at least one campaign in five (the GDD asks for three ways to win); draw calls are high; one scenario of the many the GDD asks for; its history is thirteen links, not yet part of the play; touch is written and untried. Twelve items in [`games/golden-age.md`](games/golden-age.md).
 11. The music has been proved to play, not listened to in a game. There are no sound effects ([G-0007](adr/G-0007-music-and-audio.md)).
@@ -174,6 +182,10 @@ The full district at the end is about 1.56 million triangles and about 950 draw 
 | A ruling on depicting places of worship as buildable or decorative objects in games | The reference district avoids the question by having none; a city builder will have to answer it |
 | Which people may be the subject of an Atlas question | Default in force: born 700 to 1900, or died 800 to 1950 ([G-0006](adr/G-0006-atlas-content-pack.md), rule 7). The earliest generations are out until he rules |
 | Whether Atlas's list of event kinds never asked is right | G-0006, rule 6 |
+| Whether V&A photographs (licence `VAM-NC`) may be shown in a game | The V&A's permission is for the museum's pages on its terms. Default in force: no; eight pictures wait on it ([G-0008](adr/G-0008-atlas-image-rounds.md), rule 3) |
+| Whether a manuscript page may ever be a picture question | Default in force: no, because a record does not say whether a leaf is a page of the Qur'an or a figurative painting (G-0008, rule 2) |
+| Whether 52 pictures (a weekly image round) and 365 (a daily one) are the right thresholds | The agent's judgement of what a fair schedule needs (G-0008, rule 6) |
+| Whether a museum lane should add photographs of buildings and places as media records | `data/` is lane content, not the gaming lane's. It is what Atlas's image rounds wait for, and it serves the museum's own pages too: 1 of 1,908 scoreable places and 7 of 5,794 buildings have a picture |
 
 ## Play it
 
@@ -191,7 +203,7 @@ In order. Each is a pull request of its own.
 
 1. **A person plays both games**, and what they do is written down (gate R10; `spec-v2/16`). Nothing below should be tuned before this.
 2. **The Golden Age, next.** Done since the last entry: trouble marked on the plot it belongs to, silt and drought seen in the water, links to museum records, the season stall removed. Still to do: show hunger, idleness, a fever and a building at work in the district itself; merge static geometry by material to cut draw calls, and measure on a weaker machine; settle the balance finding with what a player does; then the campaign's second scenario, with a story and numbers that come from records and not only links to them. Read `spec-v2/games/golden-age.md` again first.
-3. **Atlas, next steps.** Image rounds from the museum's media records (licence, credit that does not reveal the answer, place); an archive of past days; regional and era practice filters; the museum's web fonts.
+3. **Atlas, next steps.** An archive of past days; regional and era practice filters; the museum's web fonts. Image rounds are designed and wait for pictures: run `npm --prefix gaming run atlas:images` after media records are added, and build to G-0008 rules 4 to 6 when it reports `enoughForAWeeklyImageRound: true`.
 4. **M1 remainder.** Cascaded shadows; a water surface with reflection and edge depth; a sky with clouds; a first authored character; a soak and leak test; fix or explain the Edge failure.
 5. **M3.** The portal pages in seven languages on a branch, the gaming workflow, the release build (including where the music is served from) and its dry run, ready for the founder's sign-off.
 

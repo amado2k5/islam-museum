@@ -29,6 +29,23 @@ Every round is a museum record joined to the museum place where it happened; the
 
 **What was left out, and why** (`gaming/games/atlas/data/report.v1.json`): 1,073 places whose coordinates the museum marks as approximate; 951 that are regions, provinces, rivers or mountains; 1,429 events and 1,087 people's birthplaces or places of death that fall on one of those; 334 events with more than one place; 203 events with no start year, 438 people with no birth year and 150 with no year of death; 866 people born after 1900; 240 birthplaces or places of death marked low confidence; and 33 events and 28 people the game does not turn into questions (massacre, persecution, expulsion, the events of revelation, schism, and any record with a `sensitivity` field).
 
+## Image rounds: decided, counted, not built
+
+The GDD's first promise is guessing from "visual and contextual evidence", and a picture round was the next piece of work. The rule for one was written down before any code ([G-0008](../adr/G-0008-atlas-image-rounds.md)): a photograph from a museum media record, under a free licence with its author credited, whose subject the museum ties to exactly one place a guess can be scored against; no illustration, map or AI image, no pictured person, no manuscript page, nothing marked sensitive; the picture loaded from where the museum's own pages already load it; before the guess only the author and the licence under it, and the full credit at the reveal.
+
+Then the museum's records were counted against that rule (`npm --prefix gaming run atlas:images`, at commit `361a669c3a5` on 25 November 2026; report in [`../evidence/m2/atlas/image-survey.json`](../evidence/m2/atlas/image-survey.json)):
+
+| | |
+|---|---:|
+| Media records | 895, of which 658 are photographs or scans |
+| Pictures that can be a "where is this?" round | **4, in 4 places** |
+| Pictures of objects that can be a "where was this made?" round, free licence | 0 |
+| The same under the V&A's terms, which wait for the founder | 8, in 4 places |
+| Needed for one image round a week for a year | 52 |
+| Needed for one a day | 365 |
+
+**So no image round was built.** Four pictures give four days in a year, and showing the same few again would turn a geography question into remembering a picture. The museum's pictures are of objects (476 records), inventions (267) and concepts (64); 7 depict a building and 1 a place. The rule is kept as tested code (`src/images.ts`), so the count can be taken again whenever pictures are added, and the round is built when it reports enough.
+
 ## Rules, in one place
 
 - **Distance.** Great-circle distance on a sphere of radius 6,371.0088 km.
@@ -42,14 +59,15 @@ Every round is a museum record joined to the museum place where it happened; the
 
 | Check | Result |
 |---|---|
-| Unit tests, `npm --prefix gaming test` | 32 Atlas tests pass: distance at the antimeridian and the poles, century counting, scoring monotonic, pack digest, names in seven languages, the people rule, **every one of 365 days valid**, a broken schedule caught, UTC day counting over month ends and leap days, a full game, hint cost, immutability, share marks, practice dealing, save round trip, unreadable and newer saves, damaged entries, games from another pack not resumed, and the seven string files holding the same keys and placeholders with no typed honorific |
+| Unit tests, `npm --prefix gaming test` | 48 Atlas tests pass. 16 are the image rule on records written for the tests (what is accepted, each reason for refusal, the image hosts read from the content security policy, and when there are enough pictures for a schedule); they test the rule, not any screen, because there is none. The other 32: distance at the antimeridian and the poles, century counting, scoring monotonic, pack digest, names in seven languages, the people rule, **every one of 365 days valid**, a broken schedule caught, UTC day counting over month ends and leap days, a full game, hint cost, immutability, share marks, practice dealing, save round trip, unreadable and newer saves, damaged entries, games from another pack not resumed, and the seven string files holding the same keys and placeholders with no typed honorific |
 | Real browser, `npx tsx tools/atlas-play.ts <dir> <lang>`, Chrome 158 | A full daily game in each of the seven languages: mouse, keyboard only, typed coordinates, region hint, century estimate, reload in mid-game, unreadable save set aside; no console error (`evidence/m2/atlas/playthrough-7-languages.log`). Totals differ between left-to-right and right-to-left runs because the script clicks fixed pixels and the globe sits on the other side of the window; the rules are the same |
+| Image survey, `npm --prefix gaming run atlas:images` | Every one of the 895 media records given one verdict: 12 accepted (4 for the question as asked, 8 under a held licence), 883 refused with a counted reason. The four accepted records were read by the agent; the pictures themselves were not opened, and no licence was checked beyond what the record states |
 
 That is a functional check by the author's own script. It is not a playtest and says nothing about whether the game is fun.
 
 ## Not done (against the GDD)
 
-1. **No images.** The GDD's first promise is guessing from "visual and contextual evidence". There are 828 media records in the museum, 628 of which say what they depict; none is used yet. An image round needs a licence, a credit that does not give the answer away, and a place: this is the next piece of work.
+1. **No images, and not for want of a design.** The rule for an image round is decided and the museum's 895 media records were counted against it: four qualify, and one round a week needs 52 (see "Image rounds" above and [G-0008](../adr/G-0008-atlas-image-rounds.md)). What is missing is in the museum's records: photographs of buildings and places.
 2. **No 3D terrain globe.** The globe is a 2D canvas with coastlines. It is quick and legible; it is not the "rich terrain/globe" of the brief.
 3. **No regional or era modes, no route reconstruction, no artifact-origin mode**, no archive page for past days, no map skins, no clue packs for creators.
 4. **Music, and no other sound.** Atlas plays the museum's suite from the shared player, opening with "Fourteen Centuries", silent until the first click, with a switch and a volume control at the top corner ([G-0007](../adr/G-0007-music-and-audio.md)). There are no sound effects, no gamepad, no remapping and no UI scale control.
@@ -66,6 +84,16 @@ Written down for the lanes that own the records; nothing was edited.
 - 441 qualifying places have no usable region (none listed, or a region slug with no display name, such as `global`).
 - Some events are tied to the nearest city rather than to the field where they happened. Example seen in the schedule: the battle of Abu Klea is recorded at Khartoum. Atlas scores against the record, so such a round is unfair by the distance between the two.
 - 93 people who otherwise qualify have more than one `born_in` place, and 19 more than one `died_in` place.
+
+And what the image survey noticed, on 25 November 2026:
+
+- One of the 1,908 places a guess can be scored against has a media record that depicts it, and 7 of the 5,794 buildings do. Each photograph added for a building or place that names one scoreable place is a possible round.
+- 247 building records name exactly one place (in `location` or a `located_in` relation); 214 of those places can be scored against, and 98 of those buildings carry a Wikidata id.
+- Three free photographs of buildings are recorded and hosted by the museum (`media/photo-building-buyukcekmece-bridge`, `…-galata-tower`, `…-lusail-stadium`), and their building records name no place.
+- 460 of the 471 objects the museum has a photograph of do not say where they were made (`made_in`).
+- `media/photo-minbar-kutubiyya` is under CC BY-SA and its attribution reads "see file page for author and licence": the author is not in the record.
+- `place/medina` has no `coordinate_precision`.
+- Seven image records point at hosts the museum's content security policy does not allow images from (`collectionapi.metmuseum.org`, `iiif.wellcomecollection.org` twice, `content.staatsbibliothek-berlin.de`, `muslimheritage.com`, `iiif-images.library.upenn.edu`, `archive.org`). Whether the museum's own pages show them was not checked here.
 
 ## To play it
 
