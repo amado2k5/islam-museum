@@ -2,7 +2,7 @@
 
 The gaming platform is a separate subsystem of this repository: ten browser games, a portal, shared systems, a creator and developer ecosystem, built and released independently of the museum's pages. Code lives in [`gaming/`](../../gaming/); everything about it that is not code lives here.
 
-**State on 25 November 2026:** milestone M0 (inventory, decisions, baseline) is done; M1 (graphics spike) has its measurements and captures, with physical tests still open; and the first game, Atlas, is a playable prototype built from museum records. The other nine games do not exist. Nothing here is on the public site. The honest summary is the ledger's first table.
+**State on 25 November 2026:** milestone M0 (inventory, decisions, baseline) is done; M1 (graphics spike) has its measurements and captures, with physical tests still open; the first game, Atlas, is a playable prototype built from museum records; and Golden Age has its rules and a simulation lab, with no interface yet. The other eight games do not exist. Nothing here is on the public site. The honest summary is the ledger's first table.
 
 ## Start here in a new session
 
@@ -19,6 +19,7 @@ The gaming platform is a separate subsystem of this repository: ten browser game
 | [`m0-repository-inventory.md`](m0-repository-inventory.md) | What the repository, hosting, CI, languages and this machine actually are, checked on 25 November 2026 |
 | [`m1-graphics-spike.md`](m1-graphics-spike.md) | The engine comparison: method, measured numbers, captures, defects, what is still pending |
 | [`games/atlas.md`](games/atlas.md) | Atlas: what exists, where its questions come from, its rules, what is checked and what is not done |
+| [`games/golden-age.md`](games/golden-age.md) | Golden Age: the rules of the first scenario, what the simulation lab found, what is not done |
 | [`threat-model.md`](threat-model.md) | Trust levels, boundaries, what the current hosting allows, and the rules that follow |
 | [`adr/`](adr/) | Architecture decisions, each with evidence and the alternatives turned down |
 | [`spec-v2/`](spec-v2/) | The V2 specification package, with the visual atlas updated for the twelve images of 25 November |

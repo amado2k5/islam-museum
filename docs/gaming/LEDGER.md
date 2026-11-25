@@ -2,21 +2,21 @@
 
 The single place that says what is done, what was measured, what is open and what to do next. A new session reads this first, then confirms the branch and head below with `git log -1` before trusting anything here. Update it after every verified unit of work, in the same commit.
 
-_Last updated: 25 November 2026, after the Atlas prototype (second pull request)._
+_Last updated: 25 November 2026, after the second pull request (M2: the Atlas prototype, and the Golden Age rules and simulation lab)._
 
 ## Where things stand
 
 | | |
 |---|---|
 | Specification | Version 2, 25 November 2026, in [`spec-v2/`](spec-v2/) (65 files of the package verified against its SHA-256 list before copying) |
-| Milestone | **M0 done. M1 measured on one machine, physical tests open. M2 half done:** Atlas is a playable prototype; Golden Age's game loop and the simulation lab are not started |
-| Games | **Atlas is a `prototype`.** The other nine are `planned` |
+| Milestone | **M0 done. M1 measured on one machine, physical tests open. M2 mostly done:** Atlas is a playable prototype; Golden Age has its rules and a simulation lab but no interface; no independent feedback yet |
+| Games | **Atlas is a `prototype`.** Golden Age is `planned` with its rules written and tested but nothing to play. The other eight are `planned` |
 | On the public site | Nothing. No page, link, script or asset of the gaming platform is in the site build |
-| Branches | `claude/islam-museum-gaming-v2-c9bd91` (M0 and M1, merged), `gaming/m2-atlas-claude` (Atlas) |
-| Pull requests | [amado2k5/islam-museum#8247](https://github.com/amado2k5/islam-museum/pull/8247) (M0 and M1, merged 25 Nov 2026 as `9854b2d2c1a`); Atlas: PR2NUM |
+| Branches | `claude/islam-museum-gaming-v2-c9bd91` (M0 and M1, merged), `gaming/m2-atlas-claude` (M2: Atlas, and the Golden Age rules and lab) |
+| Pull requests | [amado2k5/islam-museum#8247](https://github.com/amado2k5/islam-museum/pull/8247) (M0 and M1, merged 25 Nov 2026 as `9854b2d2c1a`); M2: PR2NUM |
 | Lane | `gaming` (`docs/agents/lanes.md`) |
 
-**In one paragraph.** The repository, hosting, languages and this machine were inventoried and the findings written down. An isolated `gaming/` workspace exists with pinned, audit-clean dependencies. A procedural reference city (770 buildings, 1.33 million triangles) is generated from a seed and drawn by both Three.js and Babylon.js on WebGPU; both were benchmarked in real Chrome on an Apple M4 Max and Three.js was chosen. The captures show a clean architectural model, well short of the concept art. **Atlas** is the first game: a five-round daily geography game built entirely from museum records (3,481 qualifying rounds; a pinned pack of 2,125 with a 365-day schedule proved valid), playable by mouse or keyboard on a 2D globe in seven languages, with its rules, schedule and saving under unit test and a scripted playthrough in real Chrome. It has no images, no sound, no 3D globe and has not been played by a person. No portal page, SDK, mod system or deployment work has been done.
+**In one paragraph.** The repository, hosting, languages and this machine were inventoried and the findings written down. An isolated `gaming/` workspace exists with pinned, audit-clean dependencies. A procedural reference city (770 buildings, 1.33 million triangles) is generated from a seed and drawn by both Three.js and Babylon.js on WebGPU; both were benchmarked in real Chrome on an Apple M4 Max and Three.js was chosen. The captures show a clean architectural model, well short of the concept art. **Atlas** is the first game: a five-round daily geography game built entirely from museum records (3,481 qualifying rounds; a pinned pack of 2,125 with a 365-day schedule proved valid), playable by mouse or keyboard on a 2D globe in seven languages, with its rules, schedule and saving under unit test and a scripted playthrough in real Chrome. It has no images, no sound, no 3D globe and has not been played by a person. **Golden Age** has the rules of its first scenario as a pure integer simulation and a lab that played 14,000 seeded campaigns: no rule broke and no cheap trick wins, but only two of four strategies are comfortably viable where the GDD asks for three, and there is no interface. No portal page, SDK, mod system or deployment work has been done.
 
 ## Requirements and their state
 
@@ -25,7 +25,7 @@ Platform outcomes are the ten numbered in `spec-v2/01-MASTER-MANDATE.md`. Releas
 | Outcome | State | Notes |
 |---|---|---|
 | 1. Play portal in seven languages, header, footer, homepage | Not started | Site integration is `submission-impacting` and `rewrites-all-pages`; needs the founder's sign-off with that label |
-| 2. Ten distinct games | One prototype (Atlas), nine not started | [`games/atlas.md`](games/atlas.md). Golden Age's loop is next |
+| 2. Ten distinct games | One prototype (Atlas); one with rules and no interface (Golden Age); eight not started | [`games/atlas.md`](games/atlas.md), [`games/golden-age.md`](games/golden-age.md) |
 | 3. WebGPU-first 3D, measured engine choice, High/Ultra/Cinematic | Engine chosen; presets are placeholders | [G-0002](adr/G-0002-rendering-engine.md) |
 | 4. Art pipeline | Procedural kit exists; no authored assets, no characters, no audio | [G-0003](adr/G-0003-procedural-assets-first.md) |
 | 5. Shared systems where justified | `kernel` and `worldkit` only | Atlas has its own save module; it becomes shared when a second game needs one. Input, audio, lifecycle, replay: not started |
@@ -39,7 +39,7 @@ Platform outcomes are the ten numbered in `spec-v2/01-MASTER-MANDATE.md`. Releas
 |---|---|---|
 | M0 inventory, ADRs, baseline, threat model, ownership | **Done** | [`m0-repository-inventory.md`](m0-repository-inventory.md), `adr/`, `threat-model.md` |
 | M1 district spike, two-engine comparison, captures, benchmark | **Partly done** | [`m1-graphics-spike.md`](m1-graphics-spike.md); open: other hardware, Edge, soak, leak and device-loss tests, independent review |
-| M2 Golden Age core loop, Atlas five rounds, simulation lab | **Half done** | Atlas five rounds: done as a prototype ([`games/atlas.md`](games/atlas.md)). Golden Age loop, simulation lab, first independent feedback: not started |
+| M2 Golden Age core loop, Atlas five rounds, simulation lab | **Mostly done** | Atlas five rounds: done as a prototype ([`games/atlas.md`](games/atlas.md)). Golden Age core trade-off rules and the simulation lab: done ([`games/golden-age.md`](games/golden-age.md)). Golden Age on screen, and first independent feedback on either game: not done |
 | M3 to M11 | Not started | |
 
 ## Decisions
@@ -60,6 +60,7 @@ G-0001 workspace, G-0002 engine, G-0003 assets, G-0004 hosting (proposed), G-000
 | World kit | `gaming/packages/worldkit/src/{mesh,textures}.ts`, `src/district/{site,kit,generate}.ts`, `test/district.gtest.ts` |
 | Graphics lab | `gaming/labs/graphics/district.html`, `src/{main,api,atmosphere,camera-path,three-renderer,babylon-renderer,textures-async,texture-worker}.ts` |
 | Tools | `gaming/tools/{bench,shot,serve,probe-district,atlas-play}.ts`, `bench-summary.py`, `image-stats.py` |
+| Golden Age | `gaming/games/golden-age/src/{rules,scenarios,policies,lab}.ts`, `test/golden-age.gtest.ts`; `gaming/tools/{simlab,simtrace}.ts` |
 | Atlas | `gaming/games/atlas/src/{geo,pack,rules,schedule,save}.ts`, `src/ui/{app,globe}.ts`, `atlas.css`, `index.html`, `tools/build-pack.ts`, `data/` (pinned pack, seven label files, report), `i18n/` (seven languages), `test/atlas.gtest.ts` |
 | Documents | everything under `docs/gaming/` |
 | Shared files touched | `docs/agents/lanes.md` (one row), `docs/status.md` (one row), `CANARY.md` (one entry), `.claude/launch.json` (one preview entry) |
@@ -73,7 +74,8 @@ All on 25 November 2026, on the machine in the inventory.
 | `shasum -a 256 -c PACKAGE-CHECKSUMS.sha256` on the extracted package | 65 of 65 OK |
 | `npm --prefix gaming audit` | 0 vulnerabilities |
 | `npm --prefix gaming run typecheck` | Clean |
-| `npm --prefix gaming test` | 3 files, 50 tests, all pass, 0.6 s (21 before Atlas) |
+| `npm --prefix gaming test` | 4 files, 72 tests, all pass, 1.5 s: 21 kernel and world kit, 32 Atlas, 19 Golden Age |
+| `npx tsx tools/simlab.ts 1000` | 14,000 campaigns in 11 s; 0 invariant violations; every campaign ended; no probe won; win rates balanced 73.4%, merchant 31.2%, scholar 14.6%, irrigator 12.3%; one finding (two viable strategies, not three) |
 | `npx tsx tools/probe-district.ts 7` | 770 buildings, 555,544 vertices, 1,326,774 triangles, 3,236 instances, 640 walkers; generated in about 100 ms |
 | `npx tsx tools/bench.ts …` (nine runs) | Files in `evidence/m1/`; table in the M1 report |
 | `npx tsx tools/bench.ts --channel msedge …` | **Failed**: no first frame in 120 s in Edge 157 under automation. Not investigated |
@@ -82,7 +84,7 @@ All on 25 November 2026, on the machine in the inventory.
 | `npm test` (museum, same tree) | 62 files, 30,319 tests passed, 2 skipped, exit 0, 616 s. It needs `npm --prefix site ci` first: in a fresh worktree without the site's dependencies, 22 test files cannot load and 6 tests fail, none of them to do with gaming |
 | `npm --prefix gaming run atlas:pack` | 3,481 qualifying rounds; pack of 2,125 rounds and 528 places; 365 days, 1,825 rounds used, 0 problems; digest `764f347cfa66…` |
 | `npx tsx tools/atlas-play.ts <dir> <lang>` for each of the seven languages | Seven full daily games in Chrome 158, no console error |
-| `npm run validate`, `npm test` (museum, Atlas branch) | M2_GATES |
+| `npm run validate`, `npm test` (museum, on the M2 branch at the Atlas commit; later commits touch only `gaming/` and `docs/gaming/`, which neither command reads) | M2_GATES |
 | `npm run build`, `npm run check:static` | Not run: no file under `site/` changed |
 
 ## Measurements
@@ -97,6 +99,7 @@ The numbers and their conditions are in [G-0002](adr/G-0002-rendering-engine.md)
 | Three.js High, Ultra, Cinematic at 1440p and 4K | `evidence/m1/flagship/*.json` |
 | Sixteen real captures | `evidence/m1/captures/*.webp` |
 | Atlas: pack report, seven-language playthrough log, thirteen screenshots | `evidence/m2/atlas/` |
+| Golden Age: the 1,000-seed lab report and one traced campaign | `evidence/m2/golden-age/` |
 
 ## Unresolved defects and known limits
 
@@ -109,6 +112,7 @@ The numbers and their conditions are in [G-0002](adr/G-0002-rendering-engine.md)
 7. Atlas's interface strings exist in all seven languages but were written by an AI agent and read by no native speaker; personal names in Turkish and Indonesian are borrowed from English. The graphics lab page is an English-only developer tool marked `noindex`.
 8. Atlas has no images, no sound and no 3D globe, and two of its five daily rounds are military events ([`games/atlas.md`](games/atlas.md)).
 9. No game has been played by a person. Every "playthrough" so far is the author's script.
+10. Golden Age: only two of four scripted strategies win at least one campaign in five (the GDD asks for three ways to win), and there is no interface ([`games/golden-age.md`](games/golden-age.md)).
 
 ## Needs the founder
 
@@ -130,7 +134,7 @@ The numbers and their conditions are in [G-0002](adr/G-0002-rendering-engine.md)
 In order. Each is a pull request of its own.
 
 1. **Atlas, next steps.** Image rounds from the museum's media records (licence, credit that does not reveal the answer, place); an archive of past days; regional and era practice filters; the museum's web fonts; sound. Read `spec-v2/games/atlas.md` again first.
-2. **M2, Golden Age.** Read `spec-v2/games/golden-age.md` in full. A pure rules reducer (households, jobs, water graph, food, treasury, seasons) with no rendering, and a simulation lab that plays 1,000 seeded campaigns with three scripted strategies and checks the invariants. Then place-a-canal and place-a-building on the reference district.
+2. **Golden Age on screen.** Join `games/golden-age/src/rules.ts` to the reference district: lay the rules' plots onto the generated city, place a canal link and a building with the mouse, show water reaching plots, run a season and show the ledger (`State.last`). The first thirty seconds of the GDD. Then get a person to play it, and use what they do to settle the open balance finding.
 3. **M1 remainder.** Cascaded shadows; a water surface with reflection and edge depth; a sky with clouds; a first authored character; a soak and leak test; fix or explain the Edge failure.
 4. **M3.** The portal pages in seven languages on a branch, the gaming workflow, the release build and its dry run, ready for the founder's sign-off.
 
