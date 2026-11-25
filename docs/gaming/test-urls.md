@@ -34,7 +34,7 @@ Browsers offer WebGPU only on `https` or on `localhost`. So at these addresses *
 
 ## 3. On the test copy (UAT), from anywhere
 
-The release build, served by the games' own Worker, deployed on 25 November 2026. It is `https`, so The Golden Age is in 3D where the browser supports WebGPU. It has no music (a release has none until the tracks are hosted), and search engines are told to ignore it.
+The release build, served by the games' own Worker, deployed on 25 November 2026. It is `https`, so The Golden Age is in 3D where the browser supports WebGPU. The music plays after your first click or key press. Search engines are told to ignore it.
 
 | Game | Arabic | English | Urdu | French | Spanish | Turkish | Indonesian |
 |---|---|---|---|---|---|---|---|

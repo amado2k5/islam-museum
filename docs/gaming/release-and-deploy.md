@@ -123,10 +123,12 @@ The museum's suite is the music of every game, and the audio is never in git. So
 
 1. On the machine that has the masters: `npm --prefix gaming run music:import -- <folder>` encodes the six tracks into the git-ignored `gaming/media/music/` and records each one's size and SHA-256 in `gaming/packages/audio/music.json`.
 2. The six `.m4a` files are attached to a **draft** release of this repository named `games-media` (drafts are not public): `gh release create games-media --draft … gaming/media/music/*.m4a`. It is a way of carrying the files to a workflow, not a release of anything. Done on 25 November 2026.
-3. **Upload the games' music** (`games-media.yml`, manual, owner-only), `check` then `upload`, for UAT and then for production: it fetches the six files, refuses any that is not byte for byte what `music.json` records, puts them in the environment's bucket under `games/media/music/`, and reads each back. A track already there is left alone if identical and refused if not. Nothing is deleted.
+3. **Upload the games' music** (`games-media.yml`, manual, owner-only), `check` then `upload`, for UAT (done 25 November 2026: six tracks, 20.5 MB, runs [45717165700](https://github.com/amado2k5/islam-museum/actions/runs/45717165700) and [45717350066](https://github.com/amado2k5/islam-museum/actions/runs/45717350066)) and then for production (not done): it fetches the six files, refuses any that is not byte for byte what `music.json` records, puts them in the environment's bucket under `games/media/music/`, and reads each back. A track already there is left alone if identical and refused if not. Nothing is deleted.
 4. A release is built with `--music-base ../media/music/`, so each game asks for its tracks beside itself on the games host. The games Worker serves `/media/…` from `games/media/…`, whole or in spans of bytes (players ask for audio in spans, and some refuse a host that cannot answer them).
 
 If an environment has no tracks yet, a game shows its music control and reports that the music cannot be played; nothing else is affected.
+
+On UAT, after the second release ([run 45717519130](https://github.com/amado2k5/islam-museum/actions/runs/45717519130), release `20261125-1057ab8a554`, with `20261125-3599b8f514c` kept as the one before): a track answers 206 to a span of bytes with the right `content-range`, 200 whole, and its SHA-256 as fetched equals the one in `music.json`; `gaming/tools/uat-check.ts` opened the three games there in a muted Chrome and each showed the music control, asked for nothing before a click, played a track after one, and kept an empty console. The Golden Age ran in 3D there.
 
 ## Trying the games from another device on the same network
 
@@ -135,7 +137,7 @@ The development server can listen on the machine's network address: start the la
 ## What is not done
 
 - No production deployment. It is the founder's to start, with the `build_run_id` of the UAT run.
-- No rollback on Cloudflare yet: it needs a second release. It is rehearsed against a stand-in for the AWS CLI (`workers/games/test/fake-aws.mjs`).
+- No rollback on Cloudflare yet. A second release now exists on UAT, so it can be tried; it was not, because the founder was testing there and a rollback would have put the release without music back in front of him. It is rehearsed against a stand-in for the AWS CLI (`workers/games/test/fake-aws.mjs`).
 - No caching at Cloudflare's edge in front of the Worker; every first request for a file runs the Worker. Enough for prototypes.
 - No captures or other media besides the music.
 - The Play page and the menu entry on the website, which are what will send a visitor to the games' address.
