@@ -2,8 +2,10 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
 import { readFileSync } from "node:fs";
-import { nextPointer, releaseIdOf, rollbackPointer } from "../publish.mjs";
+import { nextPointer, releaseIdOf, rollbackPointer, tracksToPublish } from "../publish.mjs";
+import { createHash } from "node:crypto";
 import { parseChannel } from "../src/route.js";
+const tracksToPublishSha = (bytes) => createHash("sha256").update(bytes).digest("hex");
 
 const A = "20261124-0123456789a";
 const B = "20261125-a707db02d7f";
@@ -43,4 +45,19 @@ test("the publisher has no way to delete, and touches nothing outside games/", (
   assert.ok(code.includes("if (!key.startsWith(PREFIX)) throw"), "every key is checked against the games/ prefix");
   // Every address handed to the AWS CLI goes through that check.
   assert.equal((code.match(/s3:\/\//g) ?? []).length, 1);
+});
+
+test("only the tracks the manifest names, byte for byte, can be published as the music", () => {
+  const body = Buffer.from("the first light");
+  const sha256 = "9b1e9b0a";
+  const files = { "/m/03-the-first-light.m4a": body };
+  const read = (p) => files[p];
+  const exists = (p) => p in files;
+  const real = { tracks: [{ file: "03-the-first-light.m4a", bytes: body.length, sha256: "" }] };
+  real.tracks[0].sha256 = tracksToPublishSha(body);
+  assert.deepEqual(tracksToPublish(real, "/m", read, exists).map((t) => t.key), ["games/media/music/03-the-first-light.m4a"]);
+  assert.throws(() => tracksToPublish({ tracks: [{ file: "03-the-first-light.m4a", bytes: body.length, sha256 }] }, "/m", read, exists), /not the file the manifest records/);
+  assert.throws(() => tracksToPublish({ tracks: [{ file: "04-missing.m4a", bytes: 1, sha256 }] }, "/m", read, exists), /is not in/);
+  for (const file of ["../../ar/index.html", "x.mp3", "a/b.m4a", ".hidden.m4a", "X.m4a"]) assert.throws(() => tracksToPublish({ tracks: [{ file, bytes: 1, sha256 }] }, "/m", read, exists), /not a track file name/, file);
+  assert.throws(() => tracksToPublish({ tracks: [] }, "/m", read, exists), /names no track/);
 });

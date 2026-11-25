@@ -121,3 +121,36 @@ test("UAT and production both tell robots to stay out while every game is a prot
   const music = await ask(bucket, "/granada/", {}, { MUSIC_ORIGIN: "https://media.islam.museum" });
   assert.ok(music.headers.get("content-security-policy").includes("media-src 'self' https://media.islam.museum"));
 });
+
+test("serves the music from games/media, whole or in spans, with no release needed", async () => {
+  const track = "0123456789".repeat(100);
+  const bucket = memoryBucket({ "games/media/music/01-fourteen-centuries.m4a": track, "media/music/secret.m4a": "not under games/" });
+  const whole = await ask(bucket, "/media/music/01-fourteen-centuries.m4a");
+  assert.equal(whole.status, 200);
+  assert.equal(whole.headers.get("content-type"), "audio/mp4");
+  assert.equal(whole.headers.get("accept-ranges"), "bytes");
+  assert.equal(whole.headers.get("content-length"), "1000");
+  assert.equal(whole.headers.get("cache-control"), "public, max-age=86400");
+  assert.ok(whole.headers.get("content-security-policy"));
+  assert.equal((await whole.text()).length, 1000);
+  const span = await ask(bucket, "/media/music/01-fourteen-centuries.m4a", { headers: { range: "bytes=10-19" } });
+  assert.equal(span.status, 206);
+  assert.equal(span.headers.get("content-range"), "bytes 10-19/1000");
+  assert.equal(await span.text(), "0123456789");
+  const tail = await ask(bucket, "/media/music/01-fourteen-centuries.m4a", { headers: { range: "bytes=-5" } });
+  assert.equal(tail.headers.get("content-range"), "bytes 995-999/1000");
+  assert.equal(await tail.text(), "56789");
+  const open = await ask(bucket, "/media/music/01-fourteen-centuries.m4a", { headers: { range: "bytes=990-" } });
+  assert.equal(open.headers.get("content-range"), "bytes 990-999/1000");
+  const beyond = await ask(bucket, "/media/music/01-fourteen-centuries.m4a", { headers: { range: "bytes=5000-6000" } });
+  assert.equal(beyond.status, 416);
+  assert.equal(beyond.headers.get("content-range"), "bytes */1000");
+  const head = await ask(bucket, "/media/music/01-fourteen-centuries.m4a", { method: "HEAD" });
+  assert.equal(head.status, 200);
+  assert.equal(await head.text(), "");
+  assert.equal((await ask(bucket, "/media/music/01-fourteen-centuries.m4a", { headers: { "if-none-match": whole.headers.get("etag") } })).status, 304);
+  assert.equal((await ask(bucket, "/media/music/nothing.m4a")).status, 404);
+  // Only what is under games/ can be reached, here as everywhere.
+  assert.equal((await ask(bucket, "/media/music/secret.m4a")).status, 404);
+  assert.ok(bucket.reads.every((key) => key.startsWith("games/")), bucket.reads.join(", "));
+});

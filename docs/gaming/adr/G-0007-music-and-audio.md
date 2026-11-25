@@ -2,6 +2,9 @@
 
 _25 November 2026. Status: **accepted** for the music itself (the founder's instruction of this date); the place the audio files are served from in production is part of [G-0004](G-0004-hosting-and-release-model.md) and waits for him._
 
+
+_Added 25 November 2026, the same evening: the open point of this record, where the files are served from, is settled. The founder asked where the music was on the test copy; the tracks now go to R2 under `games/media/music/` through a manual workflow (`games-media.yml`) and are served by the games' own Worker, whole or in spans of bytes. How they travel without entering git is in [`../release-and-deploy.md`](../release-and-deploy.md), "The music"._
+
 ## The instruction
 
 On 25 November 2026 the founder supplied six WAV masters and said: use the museum's own soundtrack as the music for all the games. The tracks are the suite the museum publishes as "Voices of the Museum" (SoundCloud set `islam-museum/sets/voices-of-the-museum`).

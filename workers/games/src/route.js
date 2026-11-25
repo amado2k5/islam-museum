@@ -6,6 +6,8 @@
 //   games/r/<release>/<game>/index.html
 //   games/r/<release>/assets/<name>-<hash>.js|css
 //   games/r/<release>/release.json     the manifest of that release
+//   games/media/music/<track>.m4a      the music: not part of any release, because the audio is never in git and
+//                                      is uploaded on its own from the machine that holds it
 // A release folder is never changed after it is uploaded. Releasing and rolling back change only the pointer.
 
 /** Every object this Worker may read is under this prefix. It never reads another part of the bucket. */
@@ -14,6 +16,9 @@ export const CHANNEL_KEY = `${PREFIX}channel.json`;
 /** A release id: the commit's date and its hash, for example 20261125-a707db02d7f. */
 export const RELEASE_ID = /^[0-9]{8}-[0-9a-f]{7,40}$/;
 export const releaseKey = (release, path) => `${PREFIX}r/${release}/${path}`;
+/** Media shared by every release: "/media/music/x.m4a" is the object games/media/music/x.m4a. */
+export const MEDIA_PATH = "media/";
+export const mediaKey = (path) => `${PREFIX}${path}`;
 
 // Letters, digits, dot, dash, underscore and slash only. Anything else (a space, a percent sign, a backslash)
 // is refused before it can become part of an object key.
@@ -33,6 +38,7 @@ export function resolve(pathname) {
   const last = segments[segments.length - 1];
   // "/granada" is the game's folder, asked for without its slash.
   if (!last.includes(".")) return { type: "redirect", location: `${pathname}/` };
+  if (pathname.startsWith(`/${MEDIA_PATH}`)) return { type: "media", path: pathname.slice(1) };
   return { type: "file", path: pathname.slice(1) };
 }
 
@@ -64,6 +70,29 @@ export const IMMUTABLE = "public, max-age=31536000, immutable";
 export const SHORT = "public, max-age=60";
 /** Files under assets/ carry the hash of their content in their name and never change; everything else is checked again within a minute. */
 export const cacheControl = (path) => (path.startsWith("assets/") ? IMMUTABLE : SHORT);
+/** A track's name does not change with its contents, so it is checked again after a day. */
+export const MEDIA_CACHE = "public, max-age=86400";
+
+/**
+ * Reads a Range header for one span of bytes. Returns { offset, length } within a file of `size` bytes, "invalid"
+ * for a span that cannot be satisfied, or null when there is no usable Range header (the whole file is sent).
+ * A player asks for audio in spans, and some refuse to play at all from a host that cannot answer them.
+ */
+export function parseRange(header, size) {
+  if (typeof header !== "string") return null;
+  const m = /^bytes=(\d*)-(\d*)$/.exec(header.trim());
+  if (!m || (m[1] === "" && m[2] === "")) return null;
+  if (m[1] === "") {
+    const tail = Number(m[2]);
+    if (tail === 0) return "invalid";
+    const length = Math.min(tail, size);
+    return { offset: size - length, length };
+  }
+  const start = Number(m[1]);
+  const end = m[2] === "" ? size - 1 : Math.min(Number(m[2]), size - 1);
+  if (!Number.isSafeInteger(start) || start >= size || end < start) return "invalid";
+  return { offset: start, length: end - start + 1 };
+}
 
 /**
  * The headers every response carries. They belong to the host, not to the release: nothing uploaded can loosen

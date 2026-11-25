@@ -11,8 +11,8 @@ const games = readdirSync(dir).filter((f) => /^games-.*\.yml$/.test(f));
 /** A workflow's text without its comments, so that an explanation may name what the workflow does not touch. */
 const code = (text) => text.split("\n").map((line) => line.replace(/(^|\s)#.*$/, "")).join("\n");
 
-test("the games have their four workflows, and no other workflow is named like them", () => {
-  assert.deepEqual(games.sort(), ["games-build.yml", "games-deploy-env.yml", "games-deploy-uat.yml", "games-deploy.yml"]);
+test("the games have their five workflows, and no other workflow is named like them", () => {
+  assert.deepEqual(games.sort(), ["games-build.yml", "games-deploy-env.yml", "games-deploy-uat.yml", "games-deploy.yml", "games-media.yml"]);
 });
 
 test("no games workflow builds, publishes or deploys anything of the website", () => {
@@ -31,12 +31,13 @@ test("the build runs only for the games' own files, and the deploys only when a 
   const paths = [...build.matchAll(/^\s+- "([^"]+)"$/gm)].map((m) => m[1]);
   assert.deepEqual([...new Set(paths)].sort(), [".github/workflows/games-*.yml", "gaming/**", "workers/games/**"]);
   assert.ok(!/secrets\./.test(code(build)), "the build needs no secret");
-  for (const name of ["games-deploy-uat.yml", "games-deploy.yml"]) {
+  for (const name of ["games-deploy-uat.yml", "games-deploy.yml", "games-media.yml"]) {
     const text = code(read(name));
     const triggers = text.slice(text.indexOf("\non:"), text.indexOf("\npermissions:"));
     assert.match(triggers, /workflow_dispatch:/);
     assert.ok(!/\b(push|pull_request|schedule|workflow_run):/.test(triggers), `${name} can start without a person`);
-    assert.match(text, /uses: \.\/\.github\/workflows\/games-deploy-env\.yml/);
+    if (name !== "games-media.yml") assert.match(text, /uses: \.\/\.github\/workflows\/games-deploy-env\.yml/);
+    else assert.match(text, /Only the repository owner or an admin may start this workflow/);
   }
   const shared = code(read("games-deploy-env.yml"));
   assert.match(shared, /\non:\n  workflow_call:/);

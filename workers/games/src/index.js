@@ -1,7 +1,7 @@
 // The games host: one Worker that answers https://games.islam.museum (and, as its UAT twin, uat-games.islam.museum)
 // from objects under games/ in the environment's own R2 bucket. It runs no game logic and keeps no state about a
 // visitor: a path comes in, one object goes out, with the headers the host decides.
-import { CHANNEL_KEY, ROBOTS_DISALLOW_TEXT, cacheControl, contentType, parseChannel, releaseKey, resolve, robotsDisallowed, securityHeaders } from "./route.js";
+import { CHANNEL_KEY, MEDIA_CACHE, ROBOTS_DISALLOW_TEXT, cacheControl, contentType, mediaKey, parseChannel, parseRange, releaseKey, resolve, robotsDisallowed, securityHeaders } from "./route.js";
 
 /** How long one running copy of the Worker trusts the pointer before reading it again. A release is live everywhere within this time. */
 export const CHANNEL_TTL_MS = 30_000;
@@ -37,6 +37,21 @@ export default {
     const target = resolve(url.pathname);
     if (target.type === "bad") return respond(null, 404, { "cache-control": "no-store" });
     if (target.type === "redirect") return respond(null, 301, { location: target.location + url.search, "cache-control": "no-store" });
+
+    // Music and other shared media do not belong to a release, so they need no pointer.
+    if (target.type === "media") {
+      const key = mediaKey(target.path);
+      const whole = await env.GAMES_BUCKET.head(key);
+      if (!whole) return respond(null, 404, { "cache-control": "no-store" });
+      const base = { "content-type": contentType(target.path), "cache-control": MEDIA_CACHE, etag: whole.httpEtag, "accept-ranges": "bytes" };
+      const range = parseRange(request.headers.get("range"), whole.size);
+      if (range === "invalid") return respond(null, 416, { ...base, "content-range": `bytes */${whole.size}` });
+      if (!range && request.headers.get("if-none-match") === whole.httpEtag) return respond(null, 304, base);
+      if (head) return respond(null, 200, { ...base, "content-length": String(whole.size) });
+      const object = await env.GAMES_BUCKET.get(key, range ? { range } : undefined);
+      if (!object) return respond(null, 404, { "cache-control": "no-store" });
+      return range ? respond(object.body, 206, { ...base, "content-range": `bytes ${range.offset}-${range.offset + range.length - 1}/${whole.size}`, "content-length": String(range.length) }) : respond(object.body, 200, { ...base, "content-length": String(whole.size) });
+    }
 
     const channel = await channelOf(env, Date.now());
     // Nothing has been released into this bucket yet (or its pointer cannot be read and none was ever read).

@@ -5,15 +5,20 @@
 //   node workers/games/publish.mjs status   --bucket <name> --endpoint <url>
 //   node workers/games/publish.mjs release  --bucket <name> --endpoint <url> --release <dir> [--run <id>] [--dry-run]
 //   node workers/games/publish.mjs rollback --bucket <name> --endpoint <url> [--run <id>] [--dry-run]
+//   node workers/games/publish.mjs media    --bucket <name> --endpoint <url> --dir <folder> --manifest <music.json> [--dry-run]
+//
+// The music is not part of a release: the audio is never in git, so it is uploaded on its own, to games/media/music/,
+// and only the tracks the manifest names, each checked against the size and SHA-256 the manifest records.
 //
 // What it may touch: objects under games/ and nothing else. What it never does: delete or overwrite a release.
 // A release folder (games/r/<id>/) is written once; releasing and rolling back change one small file, the pointer.
 import { execFileSync } from "node:child_process";
-import { mkdtempSync, readFileSync, rmSync, writeFileSync } from "node:fs";
+import { createHash } from "node:crypto";
+import { existsSync, mkdtempSync, readFileSync, rmSync, writeFileSync } from "node:fs";
 import { tmpdir } from "node:os";
 import { join, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
-import { CHANNEL_KEY, PREFIX, RELEASE_ID, parseChannel, releaseKey } from "./src/route.js";
+import { CHANNEL_KEY, PREFIX, RELEASE_ID, mediaKey, parseChannel, releaseKey } from "./src/route.js";
 
 /** A release id from its manifest: the commit's date and the first eleven characters of its hash. */
 export function releaseIdOf(manifest) {
@@ -28,6 +33,24 @@ export function nextPointer(old, id, commit, now, run = null) {
   if (!RELEASE_ID.test(id)) throw new Error(`"${id}" is not a release id`);
   if (old && old.current === id) return old;
   return { format: "im.play.channel", version: 1, current: id, previous: old ? old.current : null, commit, updatedAt: now, run };
+}
+
+/**
+ * The tracks a manifest names, each with the bytes found for it in `dir`. Throws unless every track is there with
+ * exactly the size and SHA-256 the manifest records: nothing else can be published as the museum's music.
+ */
+export function tracksToPublish(manifest, dir, read = readFileSync, exists = existsSync) {
+  const tracks = manifest?.tracks;
+  if (!Array.isArray(tracks) || tracks.length === 0) throw new Error("the manifest names no track");
+  return tracks.map((t) => {
+    if (typeof t.file !== "string" || !/^[a-z0-9][a-z0-9.-]*\.m4a$/.test(t.file)) throw new Error(`"${t.file}" is not a track file name`);
+    const path = join(dir, t.file);
+    if (!exists(path)) throw new Error(`${t.file} is not in ${dir}`);
+    const bytes = read(path);
+    const sha256 = createHash("sha256").update(bytes).digest("hex");
+    if (bytes.length !== t.bytes || sha256 !== t.sha256) throw new Error(`${t.file} is not the file the manifest records (${bytes.length} bytes, SHA-256 ${sha256.slice(0, 12)}…)`);
+    return { file: t.file, path, bytes: bytes.length, sha256, key: mediaKey(`media/music/${t.file}`) };
+  });
 }
 
 /** The pointer after going back to the release before. There must be one. */
@@ -49,8 +72,8 @@ function main() {
   const bucket = opt("bucket");
   const endpoint = opt("endpoint");
   const run = opt("run") ?? null;
-  if (!["status", "release", "rollback"].includes(action) || !bucket || !endpoint) {
-    console.error("usage: node workers/games/publish.mjs <status|release|rollback> --bucket <name> --endpoint <url> [--release <dir>] [--run <id>] [--dry-run]");
+  if (!["status", "release", "rollback", "media"].includes(action) || !bucket || !endpoint) {
+    console.error("usage: node workers/games/publish.mjs <status|release|rollback|media> --bucket <name> --endpoint <url> [--release <dir>] [--dir <folder> --manifest <music.json>] [--run <id>] [--dry-run]");
     process.exit(2);
   }
   const s3 = (key) => {
@@ -84,6 +107,40 @@ function main() {
   };
   const now = new Date().toISOString();
   const say = (line) => console.log(line);
+
+  if (action === "media") {
+    const tracks = tracksToPublish(JSON.parse(readFileSync(resolve(opt("manifest") ?? ""), "utf8")), resolve(opt("dir") ?? ""));
+    const shaOf = (file) => createHash("sha256").update(readFileSync(file)).digest("hex");
+    /** Fetches an object to a file. Returns false if it is not in the bucket. */
+    const fetchTo = (key, file) => {
+      try {
+        aws(["s3", "cp", s3(key), file, "--only-show-errors"]);
+        return true;
+      } catch (e) {
+        const text = `${e.stderr ?? ""}${e.message ?? ""}`;
+        if (/\(404\)|Not Found|NoSuchKey|does not exist/i.test(text)) return false;
+        throw new Error(`could not read ${key}: ${text.trim()}`);
+      }
+    };
+    const work = mkdtempSync(join(tmpdir(), "im-games-media-"));
+    let uploaded = 0;
+    for (const t of tracks) {
+      const copy = join(work, t.file);
+      if (fetchTo(t.key, copy)) {
+        if (shaOf(copy) !== t.sha256) throw new Error(`${t.key} is in the bucket with other contents. It is not overwritten: this needs a look`);
+        say(`${t.file}: already in the bucket, identical`);
+        continue;
+      }
+      say(`${t.file}: ${dry ? "would upload" : "uploading"} ${(t.bytes / 1048576).toFixed(2)} MB`);
+      if (dry) continue;
+      aws(["s3", "cp", t.path, s3(t.key), "--only-show-errors", "--content-type", "audio/mp4"], { stdio: "inherit" });
+      if (!fetchTo(t.key, copy) || shaOf(copy) !== t.sha256) throw new Error(`${t.key} did not read back as it was sent`);
+      uploaded += 1;
+    }
+    rmSync(work, { recursive: true, force: true });
+    say(`${tracks.length} tracks checked against the manifest; ${uploaded} uploaded${dry ? " (dry run: nothing written)" : ""}`);
+    return;
+  }
 
   const pointer = readPointer();
   say(pointer ? `live: ${pointer.current} (before it: ${pointer.previous ?? "none"}), set ${pointer.updatedAt ?? "at an unknown time"}` : "nothing has been released into this bucket yet");

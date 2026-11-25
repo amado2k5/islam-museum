@@ -48,6 +48,7 @@ if (flags.recursive) {
     cpSync(file, join(to, rel));
   }
 } else {
+  if (!existsSync(from) && src.startsWith("s3://")) die(`fatal error: An error occurred (404) when calling the HeadObject operation: Key "${src}" does not exist`);
   if (!existsSync(from)) die(`The user-provided path ${src} does not exist.`, 255);
   mkdirSync(dirname(to), { recursive: true });
   cpSync(from, to);

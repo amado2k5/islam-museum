@@ -54,7 +54,9 @@ jobs:
       - name: Tests of the games Worker and of the publisher
         run: node --test workers/games/test/*.test.mjs
       - name: Release build
-        run: npm --prefix gaming run build:release
+        # The music is not in the release (the audio is never in git): the games look for it beside themselves on
+        # the games host, at /media/music/, where games-media.yml puts it.
+        run: npm --prefix gaming run build:release -- --music-base ../media/music/
       - name: Verify the release against its manifest
         env:
           # On a pull request this is the merge commit that was checked out, which is what the build read.
