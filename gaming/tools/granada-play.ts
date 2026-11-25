@@ -2,7 +2,8 @@
 // page can be played with the mouse and with the keyboard alone, that the days pass and stop when told, that a
 // reload resumes the same day, that a damaged save is set aside, that the land is not mirrored for a right-to-left
 // language, and that a whole campaign can be carried to its end through the page. It is a functional check and not
-// a judgement of whether the game is any good.
+// a judgement of whether the game is any good. The checks of the page are made on the plan (view=plan); the 3D valley
+// has its own part near the end: that it starts, shows, opens a field when one is clicked, and is steered by keys.
 // Usage: npx tsx --tsconfig tsconfig.json tools/granada-play.ts <out dir> [lang=en]
 import { mkdirSync, writeFileSync } from "node:fs";
 import { resolve } from "node:path";
@@ -26,7 +27,7 @@ page.on("console", (m) => {
 page.on("response", (r) => {
   if (r.status() >= 400) errors.push(`${r.status()} ${r.url()}`);
 });
-const url = (extra = "") => `${served.base}/games/granada/index.html?lang=${lang}&seed=7&music=off${extra}`;
+const url = (extra = "", view = "&view=plan") => `${served.base}/games/granada/index.html?lang=${lang}&seed=7&music=off${view}${extra}`;
 const shot = (name: string) => page.screenshot({ path: resolve(out, `granada-${lang}-${name}.png`) });
 const fail = async (why: string): Promise<never> => {
   await shot("failure").catch(() => {});
@@ -128,6 +129,67 @@ if (!(await page.locator("dialog.brief .warnline").count())) await fail("a damag
 if ((await state()).day !== 25) await fail("a damaged save did not start a new game");
 await page.locator("#brief-start").click();
 
+// ---- The valley in 3D: the same game, seen and steered in it ----
+await page.goto(url("&fresh=1&no3d=1", ""));
+await ready();
+if ((await game<string>("window.__GR__.threeD")) !== "off" || (await page.locator("canvas.scene").count()) !== 0 || !(await page.locator("svg.map").isVisible())) await fail("asked for no 3D, the page did not keep to its plan");
+await page.goto(url("&fresh=1", ""));
+await ready();
+await page.locator("#brief-start").click();
+for (const end = Date.now() + 120_000; (await game<string>("window.__GR__.threeD")) === "pending"; ) {
+  if (Date.now() > end) await fail("the 3D valley was still starting after two minutes");
+  await page.waitForTimeout(200);
+}
+const threeD = await game<string>("window.__GR__.threeD");
+log.threeD = threeD;
+if (threeD !== "on") {
+  // A machine without WebGPU keeps the plan; say so with ALLOW_NO_3D=1 to pass this part there.
+  if (!process.env.ALLOW_NO_3D) await fail(`the 3D valley did not start: ${threeD}`);
+} else {
+  if ((await game<string>("window.__GR__.view()")) !== "3d") await fail("the 3D valley started but is not the view");
+  if (!(await page.locator("canvas.scene").isVisible()) || (await page.locator("svg.map").isVisible())) await fail("the 3D valley and the plan are not shown one at a time");
+  await page.waitForTimeout(9500);
+  const info = await game<{ triangles: number; drawCalls: number; engine: string; pixels: [number, number] }>("window.__GR__.stage().info()");
+  if (!(info.triangles > 100_000)) await fail(`the 3D valley drew ${info.triangles} triangles`);
+  await shot("7-valley-3d");
+  // A click on the mill field in the valley opens it, as a click on the plan does.
+  const at = await game<[number, number] | null>("window.__GR__.stage().screenOf(-204, 3, 125)");
+  if (!at) await fail("the mill field is not in the first view");
+  await page.mouse.click(at![0], at![1]);
+  if ((await game<string>("window.__GR__.tab()")) !== "fields") await fail("clicking the mill field in the valley did not open the fields");
+  // The keyboard steers it: sideways, the whole valley, and home again.
+  type P = { tx: number; tz: number; pitch: number; distance: number };
+  const pose = () => game<P>("(() => { const p = window.__GR__.stage().getPose(); return { tx: p.tx, tz: p.tz, pitch: p.pitch, distance: p.distance }; })()");
+  const home = await pose();
+  await page.locator("canvas.scene").focus();
+  await page.keyboard.press("ArrowRight");
+  await page.waitForTimeout(900);
+  const moved = await pose();
+  if (!(Math.hypot(moved.tx - home.tx, moved.tz - home.tz) > 20)) await fail("the arrow key did not move the view");
+  await page.keyboard.press("o");
+  await page.waitForTimeout(1600);
+  const whole = await pose();
+  if (!(whole.pitch > home.pitch + 0.4 && whole.distance > home.distance)) await fail("the key o did not show the whole valley");
+  await shot("8-whole-valley-3d");
+  await page.keyboard.press("Home");
+  await page.waitForTimeout(1600);
+  const back = await pose();
+  if (Math.abs(back.distance - home.distance) > 5 || Math.hypot(back.tx - home.tx, back.tz - home.tz) > 5) await fail("the Home key did not return to the first view");
+  // The game goes on under it: orders and days change what the valley is asked to show, without an error.
+  await game("(() => { const g = window.__GR__; g.order({ kind: 'harvest', plot: 'mill-field', rest: 'sell' }); g.order({ kind: 'build', what: 'house' }); g.order({ kind: 'repair' }); g.days(14); })()");
+  await page.waitForTimeout(700);
+  await shot("9-two-weeks-on-3d");
+  // Frame times while the valley stands still: measured for the record on this machine, not a pass mark.
+  await game("window.__GR__.stage().takeFrameStats()");
+  await page.waitForTimeout(3000);
+  log.valley3d = { ...info, frames: await game("window.__GR__.stage().takeFrameStats()") };
+  // The plan and the valley change places from the bar above them.
+  await page.locator("#view-plan").click();
+  if (!(await page.locator("svg.map").isVisible()) || (await page.locator("canvas.scene").isVisible())) await fail("the plan did not take the valley's place");
+  await page.locator("#view-3d").click();
+  if (!(await page.locator("canvas.scene").isVisible())) await fail("the valley did not come back");
+}
+
 // ---- A whole campaign through the page, by the way of the mender ----
 await page.goto(url("&fresh=1"));
 await ready();
@@ -158,11 +220,11 @@ const campaign = await game<{ orders: number; day: number; outcome: { won: boole
 log.campaign = campaign;
 if (!campaign.outcome?.won) await fail(`the campaign through the page was lost: ${JSON.stringify(campaign.outcome)}`);
 if (!(await page.locator("dialog.outcome.won[open]").count())) await fail("no outcome was shown at the end");
-await shot("7-outcome");
+await shot("10-outcome");
 await page.locator("#new-year").click();
 const next = await state();
 if (next.day !== 25 || next.seed !== 8 || next.outcome !== null) await fail("another year did not begin a new game with other weather");
-await shot("8-another-year");
+await shot("11-another-year");
 
 log.consoleErrors = errors;
 log.screenshots = out;

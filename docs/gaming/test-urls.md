@@ -4,7 +4,7 @@ _Written 25 November 2026. Three games exist, all prototypes: **Granada** (first
 
 | Game | What you get |
 |---|---|
-| Granada | the first scenario, "Water for the Valley"; panels and a drawn plan, not 3D yet |
+| Granada | the first scenario, "Water for the Valley"; panels, a drawn plan and a 3D valley (where the browser has WebGPU) |
 | The Golden Age | three chapters; 3D where the browser offers WebGPU, a plan view otherwise |
 | Atlas | a daily five-round geography game from museum records |
 
@@ -62,7 +62,7 @@ Examples: [Granada, a new game in Arabic](http://localhost:4330/games/granada/in
 
 ## What to expect
 
-- **Granada** is a flat plan with panels. It is not the 3D kingdom of the concept image; that is the next work.
+- **Granada** opens on its plan and, a moment later, shows a 3D valley where the browser has WebGPU (which browsers offer only over `https` or on `localhost`; over a plain network address the plan stays). The valley is generated from code: simple shapes under good light, not yet the painted kingdom of the concept image. Add `&no3d=1` for the plan alone, `&view=plan` to start on the plan, `&q=low` for a lighter picture. In the valley: drag to move, right-drag or Shift-drag to turn, the wheel to come closer, `O` for the whole valley, `Home` to go back. On UAT the valley is there from the first games release after 25 November 2026 that carries it (the ledger says which).
 - A saved game belongs to the address it was played at: a game begun on `localhost` is not on UAT, and the other way round.
 - Keys in Granada: `1` to `5` for the tabs, `P` to pause or go on, `N` for one day, `H` for help.
 - Production (`games.islam.museum`) does not exist yet.

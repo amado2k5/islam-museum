@@ -12,7 +12,10 @@ import { MINOR } from "../sim/economy";
 import { SCENARIOS, WATER_FOR_THE_VALLEY } from "../sim/scenarios";
 import { act, newVillage, tick, type ActResult, type Scenario, type VillageCommand, type VillageState } from "../sim/village";
 import { clearSave, readSave, writeSave } from "../save";
+import { probeWebGPU } from "@im/kernel/capability";
+import type { ValleyLook } from "../view/three-valley";
 import { drawMap } from "./map";
+import type { Stage } from "./stage";
 import { advice, fieldCards, marketRows, questRows, riverOfYear, skyAhead, stocks, workRows, yesterday, type FieldCard } from "./model";
 
 type Strings = Record<Exclude<keyof typeof en, "_meta">, string>;
@@ -91,7 +94,12 @@ async function main(): Promise<void> {
   const mapBox = h("div", { class: "mapbox" });
   const map = document.createElementNS("http://www.w3.org/2000/svg", "svg");
   map.classList.add("map");
-  mapBox.append(map);
+  // The valley is shown in 3D where the browser can draw it, and as a plan everywhere. The plan is never taken away.
+  let stage: Stage | null = null;
+  let view: "3d" | "plan" = "plan";
+  const sceneBox = h("div", { class: "scenebox", hidden: true });
+  const viewBar = h("div", { class: "viewbar", role: "group", hidden: true });
+  mapBox.append(viewBar, sceneBox, map);
   const side = h("aside", { class: "side", id: "side" });
   const toasts = h("div", { class: "toasts", role: "log" });
   app.append(bar, ahead, h("main", { class: "main" }, mapBox, side), toasts);
@@ -205,7 +213,46 @@ async function main(): Promise<void> {
 
   const fieldLabel = (f: FieldCard): string => `${fieldName(f.id)}: ${f.crop ? `${t(`crop_${f.crop}`)}, ` : ""}${t(`stage_${f.stage}`)}${f.stage === "growing" ? ` ${num(f.growth)}%` : ""}. ${t(`branch_${f.branch.state}`, { carries: f.branch.carries, wants: f.branch.wants })}`;
 
+  /** What the 3D valley should show, worked out from the same figures as the plan. */
+  function lookOf(): ValleyLook {
+    const cards = fieldCards(sc, state);
+    const branches: Record<string, "flowing" | "weak" | "none"> = {};
+    const fields: ValleyLook["fields"] = {};
+    for (const f of cards) {
+      branches[f.branch.id] = f.branch.state;
+      const ripe = f.stage === "ripe" || f.stage === "harvesting";
+      fields[f.id] = { crop: f.crop, growth: f.stage === "growing" ? f.growth / 100 : f.crop ? 1 : 0, standing: f.stage === "growing" ? 1 : ripe && f.yielded > 0 ? f.standing / f.yielded : 0, ripe };
+    }
+    return {
+      season: stocks(sc, state).season,
+      rain: Boolean(state.last?.rain),
+      pool: state.pool / sc.water.poolCapacity,
+      branches,
+      fields,
+      houses: Math.round(state.housing / 10),
+      housesUnderWay: state.works.filter((w) => w.kind === "house").length,
+      granary: state.built.granary ? "built" : state.works.some((w) => w.kind === "granary") ? "under-way" : "none",
+      busy: state.last ? state.last.workers - state.last.idle : 8,
+      selected,
+    };
+  }
+  function renderViewBar(): void {
+    const button = (id: string, text: string, on: boolean, act: () => void) => h("button", { type: "button", id, class: on ? "on" : "", "aria-pressed": String(on), onclick: act }, text);
+    const items: Node[] = [button("view-3d", t("view_3d"), view === "3d", () => setView("3d")), button("view-plan", t("view_plan"), view === "plan", () => setView("plan"))];
+    if (view === "3d") items.push(h("button", { type: "button", id: "view-overview", onclick: () => stage?.overview() }, t("view_overview")), h("span", { class: "viewhint" }, t("view_hint")));
+    viewBar.replaceChildren(...items);
+  }
+  function setView(to: "3d" | "plan"): void {
+    view = stage ? to : "plan";
+    sceneBox.hidden = view !== "3d";
+    map.toggleAttribute("hidden", view === "3d");
+    stage?.setVisible(view === "3d");
+    renderViewBar();
+    if (view === "3d") stage?.setLook(lookOf());
+  }
+
   function renderMap(): void {
+    if (stage && view === "3d") stage.setLook(lookOf());
     const s = stocks(sc, state);
     const works = state.works;
     drawMap(
@@ -472,10 +519,39 @@ async function main(): Promise<void> {
     e.preventDefault();
   });
 
-  window.__GR__ = { ready: true, lang, scenario: sc.id, state: () => state, speed: () => speed, tab: () => tab, music, saveOk: () => saveOk, order: (c: VillageCommand) => order(c), days: (n: number) => { for (let i = 0; i < n; i++) nextDay(); }, begin: (seed: number) => begin(seed) };
+  const hook: Record<string, unknown> = { ready: true, lang, scenario: sc.id, state: () => state, speed: () => speed, tab: () => tab, music, saveOk: () => saveOk, order: (c: VillageCommand) => order(c), days: (n: number) => { for (let i = 0; i < n; i++) nextDay(); }, begin: (seed: number) => begin(seed), view: () => view, setView: (to: "3d" | "plan") => setView(to), stage: () => stage, threeD: "pending" };
+  window.__GR__ = hook;
   render();
   if (state.outcome) showOutcome();
   else showBrief();
+
+  // The 3D valley comes up after the game is already playable from the plan. If it cannot, the plan stays.
+  if (query.has("no3d")) hook.threeD = "off";
+  else {
+    try {
+      const capability = await probeWebGPU();
+      if (!capability.supported) throw new Error(capability.failure ?? "no WebGPU");
+      say(t("boot_3d"));
+      const { Stage: StageClass } = await import("./stage");
+      stage = await StageClass.create(sceneBox, {
+        seed: state.seed,
+        quality: query.get("q") === "low" ? "low" : "high",
+        reducedMotion: matchMedia("(prefers-reduced-motion: reduce)").matches,
+        onField: (id) => {
+          selected = id;
+          tab = "fields";
+          render();
+        },
+      });
+      stage.run();
+      viewBar.hidden = false;
+      setView(query.get("view") === "plan" ? "plan" : "3d");
+      hook.threeD = "on";
+    } catch (e) {
+      hook.threeD = `failed: ${e instanceof Error ? e.message : String(e)}`;
+      say(t("no_3d"));
+    }
+  }
 }
 
 main().catch((e) => {
