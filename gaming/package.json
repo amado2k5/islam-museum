@@ -14,20 +14,31 @@
     "test": "vitest run --config vitest.config.ts",
     "bench": "tsx tools/bench.ts",
     "shot": "tsx tools/shot.ts",
-    "probe": "tsx tools/probe-district.ts"
+    "probe": "tsx tools/probe-district.ts",
+    "atlas:pack": "tsx --tsconfig tsconfig.json games/atlas/tools/build-pack.ts",
+    "atlas:play": "tsx tools/atlas-play.ts",
+    "simlab": "tsx --tsconfig tsconfig.json tools/simlab.ts",
+    "simtrace": "tsx --tsconfig tsconfig.json tools/simtrace.ts"
   },
   "dependencies": {
     "@babylonjs/core": "9.37.2",
-    "three": "0.187.0"
+    "d3-geo": "3.1.1",
+    "three": "0.187.0",
+    "topojson-client": "3.1.0",
+    "world-atlas": "2.0.2"
   },
   "devDependencies": {
+    "@types/d3-geo": "3.1.0",
     "@types/node": "22.19.1",
     "@types/three": "0.187.0",
+    "@types/topojson-client": "3.1.5",
+    "@types/topojson-specification": "1.0.5",
     "@webgpu/types": "0.1.74",
     "playwright-core": "1.64.1",
     "tsx": "4.20.6",
     "typescript": "5.9.3",
     "vite": "8.3.8",
-    "vitest": "5.1.2"
+    "vitest": "5.1.2",
+    "yaml": "2.9.1"
   }
 }
