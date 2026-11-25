@@ -1,6 +1,6 @@
 {
  "specVersion": "2.0",
- "status": "in-progress: M0 done, M1 measured on one machine, no game exists",
+ "status": "in-progress: M0 done; M1 measured on one machine; Atlas is a prototype; no other game exists",
  "releasePolicy": "All applicable hard gates must pass; conditional optional features disabled if gate not passed. Human and GPU tests cannot be fabricated.",
  "requirements": [
   {
@@ -35,45 +35,45 @@
    "scope": "each_game",
    "requirement": "Complete playable scoped loop and campaign or challenges, failure/recovery",
    "evidence": "real browser playthrough recording and test",
-   "status": "not-tested",
+   "status": "in-progress",
    "hardGate": true,
-   "evidenceSoFar": ""
+   "evidenceSoFar": "Atlas only (prototype): a full five-round daily game played in real Chrome 158 by script in seven languages, docs/gaming/evidence/m2/atlas/. No recording, no human playthrough. The other nine games do not exist."
   },
   {
    "id": "R05",
    "scope": "each_game",
    "requirement": "Save, reload, migration and corruption recovery",
    "evidence": "fixtures and browser tests",
-   "status": "not-tested",
+   "status": "in-progress",
    "hardGate": true,
-   "evidenceSoFar": ""
+   "evidenceSoFar": "Atlas only: save round trip, unreadable save set aside, newer save not overwritten, damaged entry dropped, game from another pack not resumed (unit tests), reload in mid-game and corrupted save (browser script). Only one save version exists, so there is no migration to test yet."
   },
   {
    "id": "R06",
    "scope": "daily_games",
    "requirement": "365-day deterministic challenge solvability",
    "evidence": "solver output, dataset digest, UTC fixtures",
-   "status": "not-tested",
+   "status": "in-progress",
    "hardGate": true,
-   "evidenceSoFar": ""
+   "evidenceSoFar": "Atlas: all 365 scheduled days checked valid by the unit tests on the pinned pack (digest 764f347c…f69ae): five different places a day, no round twice, UTC fixtures over month ends and leap days. \"Solvable\" here means every round has one recorded place with site or locality coordinates; no solver is needed. Other daily games do not exist."
   },
   {
    "id": "R07",
    "scope": "each_game",
    "requirement": "Historical facts and asset rights verified",
    "evidence": "record IDs, citation and license audit",
-   "status": "not-tested",
+   "status": "in-progress",
    "hardGate": true,
-   "evidenceSoFar": ""
+   "evidenceSoFar": "Atlas: every round is a museum record id joined to a museum place id; no image or third-party asset is used; coastlines are Natural Earth via world-atlas (public domain). No independent citation or licence audit has been done."
   },
   {
    "id": "R08",
    "scope": "each_game",
    "requirement": "Seven locales and essential accessible controls",
    "evidence": "screenshots, functional tests, human language review",
-   "status": "not-tested",
+   "status": "in-progress",
    "hardGate": true,
-   "evidenceSoFar": ""
+   "evidenceSoFar": "Atlas: interface in all seven languages, right-to-left for Arabic and Urdu, keyboard-only play and typed coordinates, screenshots in evidence/m2/atlas/. Strings are AI-written and unreviewed by a native speaker; Turkish and Indonesian personal names are borrowed from English."
   },
   {
    "id": "R09",

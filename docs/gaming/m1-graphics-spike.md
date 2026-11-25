@@ -77,7 +77,7 @@ None of this is hidden by the captures; they are in the folder. The measured hea
 | Market camera was below the ground | Fixed (camera heights come from the landmarks) |
 | In the desktop app's embedded browser, procedural textures took about 5 seconds on a cold page load; 147 ms in Chrome 158 | Not a product defect; the embedded browser is not a supported target. Noted so nobody benchmarks there |
 | Microsoft Edge 157 under automation: the page loaded but the lab produced no first frame in 120 seconds | **Open.** Not investigated. Edge is therefore untested |
-| A 404 for the favicon appears in the console of the lab page | Open, cosmetic |
+| A 404 for the favicon appeared in the console of the lab page | Fixed with the Atlas change (an empty icon link) |
 
 ## Still open (M1 exit items that are not done)
 

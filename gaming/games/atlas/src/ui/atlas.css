@@ -1,0 +1,61 @@
+/* Atlas: navy and ivory, one panel, no ornament. The globe fills the window; the panel sits at the start edge. */
+:root {
+  --ink: #0b1626;
+  --panel: rgba(12, 24, 42, 0.92);
+  --line: rgba(232, 222, 200, 0.2);
+  --ivory: #f1e9d6;
+  --muted: #b3ab98;
+  --accent: #ffb21a;
+  --good: #2fd39d;
+  --ui: 16px;
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; height: 100%; background: #070d18; color: var(--ivory); font: var(--ui) / 1.5 system-ui, -apple-system, "Segoe UI", sans-serif; }
+/* Each script names its own faces. System fonts for now: the portal will ship the museum's web fonts (M3). */
+:lang(ar) body { font-family: "SF Arabic", "Geeza Pro", "Noto Naskh Arabic", "Segoe UI", Tahoma, sans-serif; line-height: 1.7; }
+:lang(ur) body { font-family: "Noto Nastaliq Urdu", "Jameel Noori Nastaleeq", "Geeza Pro", "Segoe UI", Tahoma, serif; line-height: 2.1; }
+.atlas { position: fixed; inset: 0; }
+#globe { position: absolute; inset: 0; width: 100%; height: 100%; display: block; cursor: grab; touch-action: none; }
+#globe:active { cursor: grabbing; }
+#globe:focus-visible { outline: 3px solid var(--accent); outline-offset: -3px; }
+.panel { position: absolute; inset-block: 16px auto; inset-inline-start: 16px; width: min(400px, calc(100vw - 32px)); max-height: calc(100vh - 32px); overflow: auto; padding: 18px 20px; background: var(--panel); border: 1px solid var(--line); border-radius: 14px; box-shadow: 0 10px 40px rgba(0, 0, 0, 0.45); }
+.panel h1 { margin: 0; font-size: 1.35rem; letter-spacing: 0.02em; }
+.panel h2 { margin: 14px 0 4px; font-size: 1.25rem; line-height: 1.35; text-wrap: balance; }
+.kicker { color: var(--muted); font-size: 0.86rem; }
+.row { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
+.spread { justify-content: space-between; }
+.gap { margin-top: 14px; }
+.dots { display: flex; gap: 6px; direction: ltr; }
+.dot { width: 12px; height: 12px; border-radius: 50%; border: 2px solid var(--muted); }
+.dot.done { background: var(--ivory); border-color: var(--ivory); }
+.dot.now { border-color: var(--accent); box-shadow: 0 0 0 2px rgba(255, 178, 26, 0.3); }
+.q { margin: 14px 0 0; color: var(--accent); font-weight: 600; }
+.note { margin: 10px 0 0; color: var(--muted); font-size: 0.86rem; }
+.field { margin-top: 14px; padding-top: 12px; border-top: 1px solid var(--line); }
+.field > label, .field > .label { display: block; color: var(--muted); font-size: 0.86rem; margin-bottom: 6px; }
+button, input { font: inherit; color: inherit; }
+button { padding: 9px 14px; border-radius: 9px; border: 1px solid var(--line); background: rgba(255, 255, 255, 0.06); cursor: pointer; }
+button:hover { background: rgba(255, 255, 255, 0.12); }
+button:focus-visible, input:focus-visible, a:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; }
+button.primary { width: 100%; margin-top: 16px; padding: 12px 14px; background: var(--accent); border-color: var(--accent); color: var(--ink); font-weight: 700; }
+button.primary:hover { filter: brightness(1.08); }
+button[disabled] { opacity: 0.45; cursor: not-allowed; }
+input[type="number"] { width: 7em; padding: 7px 8px; border-radius: 8px; border: 1px solid var(--line); background: rgba(0, 0, 0, 0.25); direction: ltr; }
+input::placeholder { color: var(--muted); opacity: 0.8; font-size: 0.82rem; }
+.coords { direction: ltr; unicode-bidi: isolate; font-variant-numeric: tabular-nums; }
+.big { font-size: 2rem; font-weight: 700; line-height: 1.2; font-variant-numeric: tabular-nums; }
+.good { color: var(--good); }
+a { color: #9fd0ff; }
+.links { display: grid; gap: 6px; margin-top: 12px; }
+.marks { direction: ltr; unicode-bidi: isolate; font-size: 1.5rem; letter-spacing: 0.2em; }
+.badge { display: inline-block; padding: 2px 8px; border: 1px solid var(--line); border-radius: 999px; color: var(--muted); font-size: 0.78rem; }
+.zoom { position: absolute; inset-block-end: 20px; inset-inline-end: 20px; display: grid; gap: 8px; }
+.zoom button { width: 44px; height: 44px; padding: 0; font-size: 1.3rem; background: var(--panel); }
+.skip { position: absolute; inset-inline-start: -9999px; }
+.skip:focus { inset-inline-start: 12px; inset-block-start: 12px; z-index: 5; padding: 8px 12px; background: var(--accent); color: var(--ink); border-radius: 8px; }
+.visually-hidden { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+@media (max-width: 720px) {
+  .panel { inset-block: auto 0; inset-inline: 0; width: 100%; max-height: 62vh; border-radius: 14px 14px 0 0; }
+  .zoom { inset-block-end: auto; inset-block-start: 16px; }
+}
+@media (prefers-reduced-motion: reduce) { * { scroll-behavior: auto; transition: none !important; } }

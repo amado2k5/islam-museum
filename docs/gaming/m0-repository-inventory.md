@@ -65,6 +65,11 @@ This is one high-end Apple-silicon laptop. There is no Windows or Linux machine 
 | `tsx` | 4.20.6 | MIT | Runs the TypeScript tools |
 | `playwright-core` | 1.64.1 | Apache-2.0 | Drives the installed Chrome for benchmarks and captures; downloads no browser |
 | `@types/three`, `@types/node`, `@webgpu/types` | 0.187.0, 22.19.1, 0.1.74 | MIT, MIT, BSD-3-Clause | Types |
+| `d3-geo` | 3.1.1 | ISC | Atlas: the orthographic projection and great-circle paths of the globe |
+| `topojson-client` | 3.1.0 | ISC | Atlas: reads the coastline file |
+| `world-atlas` | 2.0.2 | ISC (data: Natural Earth, public domain) | Atlas: coastlines at 1:110 million and 1:50 million. The site already uses the same package |
+| `yaml` | 2.9.1 | ISC | Atlas pack builder: reads the museum's records. Build time only |
+| `@types/d3-geo`, `@types/topojson-client`, `@types/topojson-specification` | 3.1.0, 3.1.5, 1.0.5 | MIT | Types |
 
 `npm --prefix gaming audit`: 0 vulnerabilities on 25 November 2026.
 

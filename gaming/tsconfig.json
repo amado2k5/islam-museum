@@ -18,7 +18,8 @@
     "baseUrl": ".",
     "paths": {
       "@im/kernel/*": ["packages/kernel/src/*"],
-      "@im/worldkit/*": ["packages/worldkit/src/*"]
+      "@im/worldkit/*": ["packages/worldkit/src/*"],
+      "@im/atlas/*": ["games/atlas/src/*"]
     }
   },
   "include": ["packages/**/*.ts", "labs/**/*.ts", "games/**/*.ts", "tools/**/*.ts", "*.ts"]
