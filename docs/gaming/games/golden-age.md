@@ -28,18 +28,20 @@ Address: `/games/golden-age/index.html?lang=ar` on the gaming dev server.
 - **The first thirty seconds.** The steward's note opens with the canal. Choose the canal tool, aim at a lane: the plots that would gain water light up and the tooltip counts them. Click, and the water is seen to run along the new channel.
 - **Before you commit.** Beside each stock the top bar shows what ending the season now would do to it. It is exact: the rules are pure, so the season is run on a copy. A building's tooltip says whether water reaches the plot and how many houses it would serve from there; a refused action says why and changes nothing.
 - **After.** The ledger gives the season cause by cause: water by tier, food, money, labour, and every point of welfare (food +28, baths +7, tax −4 and so on). The rules now record that breakdown in the season report; it changes no outcome (the 1,000-seed lab gives the same table as before).
+- **Trouble shows where it is.** A plot whose building is not doing its job carries a marker over it in the district: no water in reach (a dry farm, a bath or workshop that cannot work, a house without water), or a market, school, bath or hospital with no houses to serve. The same plots are listed in the panel under "Needs attention", each a button that takes the view there, and the plan view's labels say the same sentence. Silt is seen in the canals, which run brown until they are cleared; a drought lowers the river by 0.4 m and the water in the channels by 0.3 m. The scripted campaign meets no drought, so the two looks were set on the renderer directly for captures 16 and 17 in the evidence folder: they show the picture, not a moment of play, and the drop is slight enough that it has not been confirmed to read at the game's usual camera height.
+- **The museum behind the game.** Each of the five research projects, and eight of the tools, names the museum record of the real thing its idea comes from and links to it in the player's language (table below). The district itself is fictional and the game says so beside the links.
 - **Three ways to play, one game.** Mouse: click to act, drag to move the view, right-drag to turn, scroll to zoom toward the pointer. Keyboard alone: arrows move a plot cursor that follows the view, Enter uses the tool, Shift and an arrow digs a link; number and letter keys choose tools. **Plan view:** the whole board as buttons, every plot and every canal link, with a spoken label for each. Where the browser has no WebGPU the plan is the game (`?no3d=1` shows it).
 - **Undo** within a season; **saving** on the device after every command (`im.golden-age.save.v1`), with an unreadable save set aside and a save from a newer version left alone; **start again** on the same district or a new one. The district number is shown, so a game can be repeated.
-- **Seven languages**, with panels on the right for Arabic and Urdu and the district itself never mirrored. 260 strings each.
+- **Seven languages**, with panels on the right for Arabic and Urdu and the district itself never mirrored. 267 strings each.
 - **Music**: the museum's own suite, from the shared player ([G-0007](../adr/G-0007-music-and-audio.md)).
 
 ## Checked
 
-**Unit tests** (`gaming/games/golden-age/test/`, 41 tests): the rules as before (19); and for the screen (22): where plots and links are and which link a point aims at; the camera's limits and that a point of the view maps to the ground and back; that every plot's geometry is the same for the same look, stays on its plot, has sound meshes, and has one sheet of water per stretch of canal; that houses are not rebuilt when the season turns; that the projection matches the season actually played; that the steward's note opens with the canal; which way water arrives in a new link; the overlay; that welfare's causes sum to its target through a whole campaign; the saved game in every case; and that all seven languages have every string the screen asks for, with the same blanks.
+**Unit tests** (`gaming/games/golden-age/test/`, 43 tests): the rules as before (19); and for the screen (24): where plots and links are and which link a point aims at; the camera's limits and that a point of the view maps to the ground and back; that every plot's geometry is the same for the same look, stays on its plot, has sound meshes, and has one sheet of water per stretch of canal; that houses are not rebuilt when the season turns; that the projection matches the season actually played; that the steward's note opens with the canal; which way water arrives in a new link; the overlay; which plots are marked as in trouble and why; that welfare's causes sum to its target through a whole campaign; that every museum link names a record with a label in all seven languages; the saved game in every case; and that all seven languages have every string the screen asks for, with the same blanks.
 
-**In real Chrome 158**, on the machine in the inventory (`npm run golden-age:play`, evidence in [`../evidence/m2/golden-age/screen/`](../evidence/m2/golden-age/screen/)), in each of the seven languages: a new game; a link dug with the mouse and its water seen to arrive; a link in dry ground refused; a market placed, refused on the taken plot, undone and placed again; a link dug and a school built with the keyboard alone; a season ended; the ledger and research tabs; the game back after a reload; a house built and a link dug from the plan; an unreadable save set aside; the whole of that again with 3D switched off; music silent before a click and playing after one. No console error in any language. In English and Arabic the script then drove a whole campaign of the lab's "balanced" player through the screen: 57 commands, won at season 24 with 336 households.
+**In real Chrome 158**, on the machine in the inventory (`npm run golden-age:play`, evidence in [`../evidence/m2/golden-age/screen/`](../evidence/m2/golden-age/screen/)), in each of the seven languages: a new game with its two waterless houses marked; a link dug with the mouse, its water seen to arrive and one marker gone; a link in dry ground refused; a market placed, refused on the taken plot, undone and placed again; a link dug and a school built with the keyboard alone; a season ended; the ledger and research tabs, with five museum links that lead to the record in that language; the game back after a reload; a house built and a link dug from the plan; an unreadable save set aside; the whole of that again with 3D switched off; music silent before a click and playing after one. No console error in any language. In English and Arabic the script then drove a whole campaign of the lab's "balanced" player through the screen: 57 commands, won at season 24 with 336 households.
 
-**Frame times** during that campaign, 1920 × 1080, High, display-synced at 120 Hz: 1,076 frames in 9.9 s, p50 8.3 ms, p95 9.2 ms, p99 50.0 ms, longest 58.9 ms; 8 frames over 50 ms in 57 commands. The script ends a season about three times a second, far faster than a person; the figure is a stress test, not what play feels like. The table is in the ledger.
+**Frame times** during that campaign, 1920 × 1080, High, display-synced at 120 Hz: 1,197 frames in 10.0 s, p50 8.3 ms, p95 9.0 ms, p99 9.3 ms, longest 9.4 ms; no frame over 16.7 ms in 57 commands and 24 season ends. The script ends a season about three times a second, far faster than a person. The table and its history are in the ledger.
 
 ## What the simulation lab found
 
@@ -60,17 +62,39 @@ Address: `/games/golden-age/index.html?lang=ar` on the gaming dev server.
 ## Known defects and limits
 
 1. **No person has played it.** Every check above is the author's script. Whether the first minute is clear, whether the trade-offs feel like choices, whether a season is too long or too short: unknown.
-2. **It hitches when a building is made.** A new building means new meshes, and the frame that makes them takes about 50 ms where a normal frame takes 8. Fields are updated in place when the season turns, and waiting plots are rebuilt two a frame, which removed most of the first version's stalls; a new building still costs a slow frame or two.
+2. **A stall at every season's end was found and removed; the first diagnosis was wrong.** The earlier version of this page said a new building cost a slow frame. A probe that timed each command and the two frames after it showed otherwise: building cost nothing extra, and every season's end cost about 50 ms, because the renderer swapped the sky's environment map with the season and the engine rebuilt every material's bindings. One environment map now serves all four seasons (sun, sky, haze and exposure still change), and the scripted campaign has no slow frame. New meshes are also brought in two a frame and swapped when ready, which has not been shown to matter on this machine and may on a slower one.
 3. **Draw calls are high** (about 950 for a full district on High, each mesh drawn for shadow, depth and colour). It holds the display rate on this machine; it will not on a weak one. Merging the static geometry by material is the fix.
-4. **The picture is a tidy model town, not the concept art.** Buildings are plain, figures are simple robed shapes that walk up and down their lane, there are no carts, animals, smoke or lamps, the land beyond the district is bare, and the water is flat. Nothing shows a building at work or a shortage happening: the state is read from the panel and the overlay.
+4. **The picture is a tidy model town, not the concept art.** Buildings are plain, figures are simple robed shapes that walk up and down their lane, there are no carts, animals, smoke or lamps, the land beyond the district is bare, and the water is flat. Trouble is now marked on the plot it belongs to, and silt and drought show in the water; hunger, idleness, a fever and a building at work still show only in the panel.
 5. **One scenario.** The GDD asks for a three-chapter campaign, three starting scenarios, a sandbox and a daily seeded scenario; and for at least 25 buildings and upgrades where there are nine.
 6. **No recovery plan** when a city is failing (a loan, downsizing), no checkpoint beyond undo within a season, no replay or export.
-7. **No historical content.** Research and buildings are generic; nothing links to a museum record yet. Tying them to records, and labelling the rest as fiction, belongs to writing the campaign.
+7. **The history is a link, not yet part of the play.** Research and tools point to thirteen museum records, but the buildings are generic, houses and the granary have no record, and nothing in the scenario's story or numbers comes from a record. Two of the thirteen (the public bathhouse and Bayt al-Hikma) are draft-tier records in the museum.
 8. **Translations.** Arabic and English were written by the lead agent; Urdu, French, Spanish, Turkish and Indonesian by a Sonnet subagent from them. All are AI text that no native speaker has read. Long words overflow some tool buttons in some languages.
 9. **Touch** (one finger to move, two to zoom and turn) is written and has never been tried on a touch screen. Narrow windows have a layout that has only been looked at in a desktop browser.
 10. **Only Chrome on one Mac.** Edge, Firefox, Safari, Windows and any discrete GPU are untested.
 11. **No sound effects**, no gamepad, no key remapping, no UI scale control, no photo mode.
 12. **Settings and the saved game are per device.** Nothing is sent anywhere.
+
+## The museum behind the game
+
+Chosen by hand in `gaming/games/golden-age/data/museum-links.source.json`; `tools/build-links.ts` checks that each record exists, is not marked sensitive and has a label in all seven languages, and pins the result with a digest in `data/museum-links.v1.json`. The game never reads the museum's data while it runs.
+
+| In the game | Museum record | Its state in the museum |
+|---|---|---|
+| Research: lined canals | `invention/mansur-covered-water-conduits` | published |
+| Research: water wheel | `invention/norias-of-hama` | published |
+| Research: paper | `invention/paper-mill-samarkand` | published |
+| Research: medicine | `invention/physician-licensing-baghdad-931` | published |
+| Research: crop rotation | `invention/ibn-bassal-soil-water-matching` | published |
+| Canal tool | `invention/karaji-qanat-surveying` | published |
+| Farm | `invention/saqiya-improvements` | published |
+| Market | `invention/hisba` | published |
+| Workshop | `invention/tiraz` | published |
+| School | `invention/nizamiyya-madrasa` | published |
+| Bath | `concept/hammam` | draft |
+| Library | `group/bayt-al-hikma` | draft |
+| Hospital | `invention/harun-bimaristan` | published |
+
+A link says "this is the real thing the idea comes from". It does not say the game's district had it, or that the game's numbers describe it. Whether these are the right records for each idea is a judgement of the agent that chose them and is the founder's to correct.
 
 ## Run it
 

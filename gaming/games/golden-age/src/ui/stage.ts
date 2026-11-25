@@ -2,7 +2,7 @@
 // movement into "this ground point", and knows nothing about tools, money or strings.
 import { FrameRecorder, type FrameSummary } from "@im/kernel/framestats";
 import { generateTextures } from "@im/worldkit/textures-async";
-import { PLOTS, seasonOfYear, xyOf, type State } from "../rules";
+import { PLOTS, activeEvents, seasonOfYear, xyOf, type State } from "../rules";
 import { buildEnvironment, buildPlot, lookKey, type PlotLook } from "../view/board";
 import { OVERVIEW_POSE, START_POSE, approach, clampPose, closeTo, pan, turn, zoom, type CameraPose } from "../view/camera";
 import { dirTo, plotCentre, type Dir } from "../view/layout";
@@ -95,7 +95,7 @@ export class Stage {
       // The first picture, and the plots of a link just dug, are built at once; everything else takes its turn.
       if (first || fills.has(p)) {
         this.queue = this.queue.filter((q) => q !== p);
-        this.renderer.setPlot(p, buildPlot(this.options.seed, p, looks[p]!), fills.get(p) ?? []);
+        this.renderer.setPlot(p, buildPlot(this.options.seed, p, looks[p]!), fills.get(p) ?? [], true);
       } else if (!this.queue.includes(p)) this.queue.push(p);
     }
     this.keys = next;
@@ -103,6 +103,8 @@ export class Stage {
     this.renderer.setWalkers(walkers);
     this.renderer.commit();
     this.renderer.setSeason(seasonOfYear(state.season));
+    // Silt and drought are seen in the water itself: 60% flow is the scenario's silted start.
+    this.renderer.setConditions((1000 - state.canalCondition) / 500, activeEvents(state).includes("drought"));
   }
 
   /** Rebuilds up to `limit` waiting plots. Returns how many are still waiting. */
@@ -118,6 +120,7 @@ export class Stage {
   /** Finishes every waiting rebuild now (captures and tests). */
   flush(): void {
     this.drain(PLOTS);
+    this.renderer.settle();
   }
 
   setHighlight(h: Highlight): void {

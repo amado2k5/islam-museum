@@ -4,14 +4,15 @@
 import { loadMusicStrings, musicControl } from "@im/audio/control";
 import { MUSIC_BASE, MusicPlayer } from "@im/audio/player";
 import { probeWebGPU } from "@im/kernel/capability";
+import links from "../../data/museum-links.v1.json";
 import en from "../../i18n/en.json";
 import { BUILDINGS, BUILDING_TYPES, CANAL_COST, GRID_H, GRID_W, PLOTS, SILT_CLEAR_COST, TAX_PER_TEN, TAX_WELFARE, newGame, plotOf, preview, score, servedByWater, step, wateredPlots, type BuildingType, type Command, type State, type TaxLevel } from "../rules";
 import { SAVE_KEY, readSave, writeSave } from "../save";
 import { SCENARIOS, FAILING_CANAL } from "../scenarios";
 import { linkKey } from "../rules";
-import { nearestLink, neighbour, plotAt, plotName, type Dir, type Link } from "../view/layout";
+import { nearestLink, neighbour, plotAt, plotCentre, plotName, type Dir, type Link } from "../view/layout";
 import { icon } from "./icons";
-import { advice, aim, calendar, eventsInView, goals, ledger, overlay, plotInfo, project, researchList, showing, signed, stocks, type Line, type Projection, type Tint, type Tool, type Vars } from "./model";
+import { advice, aim, calendar, eventsInView, goals, ledger, overlay, plotInfo, plotProblems, project, researchList, showing, signed, stocks, type Line, type Projection, type Tint, type Tool, type Vars } from "./model";
 import { Stage } from "./stage";
 
 const LANGS = ["ar", "en", "ur", "fr", "es", "tr", "id"] as const;
@@ -104,6 +105,18 @@ async function main(): Promise<void> {
   const helpDialog = el("dialog", { class: "sheet", id: "help" });
   const outcomeDialog = el("dialog", { class: "sheet", id: "outcome" });
   hud.append(bar, side, tools, actions, viewctl, plan, helpDialog, outcomeDialog);
+  // Markers over the district for what is going wrong. They repeat what the panel's list says, so they are hidden
+  // from assistive technology and never take a click away from the district.
+  const marks = el("div", { class: "marks", id: "marks", ariaHidden: "true" });
+  canvas.after(marks);
+  let markNodes: Array<{ plot: number; node: HTMLElement }> = [];
+
+  /** The museum record behind a piece of research or a tool, as a link, when there is one. */
+  const museumLink = (id: string | undefined): HTMLElement | null => {
+    const record = id ? (links.records as Record<string, { label: Record<string, string> }>)[id] : undefined;
+    if (!id || !record) return null;
+    return el("span", { class: "museum" }, `${t("museum_in")} `, el("a", { href: `https://islam.museum/${lang}/${id}/`, target: "_blank", rel: "noopener", title: t("museum_note"), textContent: record.label[lang] ?? record.label.en ?? id }));
+  };
 
   /** Replaces a region's content and puts keyboard focus back on the control it was on. */
   const swap = (region: HTMLElement, ...nodes: Array<Node | null | false | undefined>) => {
@@ -328,9 +341,42 @@ async function main(): Promise<void> {
     );
     const silt = state.canalCondition < 1000 ? el("div", { class: "card" }, el("p", { textContent: t("canal_condition", { percent: Math.round(state.canalCondition / 10) }) }), el("button", { type: "button", id: "clear-silt", disabled: !preview(state, { type: "clear-silt" }).ok, textContent: t("clear_silt", { cost: SILT_CLEAR_COST }), onclick: () => dispatch({ type: "clear-silt" }) })) : null;
     const info = plotInfo(state, cursorPlot);
+    const problems = plotProblems(state);
+    const attention = problems.length
+      ? el(
+          "div",
+          { class: "card", id: "attention" },
+          el("h2", { textContent: t("attention_title") }),
+          el(
+            "ul",
+            { class: "lines" },
+            ...problems.slice(0, 5).map((pr) =>
+              el(
+                "li",
+                {},
+                el("button", {
+                  type: "button",
+                  class: "linklike",
+                  id: `attn-${pr.plot}`,
+                  textContent: `${plotName(pr.plot)} · ${whatIs(state.plots[pr.plot] ?? null)}`,
+                  onclick: () => {
+                    cursorPlot = pr.plot;
+                    keyboardCursor = true;
+                    stage?.lookAt(pr.plot);
+                    renderAll();
+                  },
+                }),
+                ` ${line(pr.line)}`,
+              ),
+            ),
+            problems.length > 5 ? el("li", { class: "muted", textContent: t("attention_more", { n: problems.length - 5 }) }) : null,
+          ),
+        )
+      : null;
     const cards: Array<HTMLElement | null> = [
       el("div", { class: "card goal" }, el("h2", {}, t("goal_title"), el("small", { textContent: ` ${t("goal_deadline", { year: lastYear })}` })), el("ul", { class: "goals" }, ...goalRows)),
       note ? el("div", { class: `card advice ${note.tone ?? ""}`, id: "advice" }, el("h2", { textContent: t("advice_title") }), el("p", { textContent: line(note) })) : null,
+      attention,
       el("div", { class: "card" }, el("h2", { textContent: t("horizon_title") }), events.length ? el("ul", { class: "lines" }, ...eventRows) : el("p", { class: "muted", textContent: t("horizon_none") })),
       el("div", { class: "card" }, el("h2", { textContent: t("tax_title") }), tax, el("p", { class: "muted", textContent: t("tax_note", { coins: TAX_PER_TEN[state.tax], welfare: signed(-TAX_WELFARE[state.tax]) }) })),
       silt,
@@ -358,7 +404,7 @@ async function main(): Promise<void> {
           : r.state === "current"
             ? el("button", { type: "button", id: `research-${r.id}`, textContent: t("research_stop"), onclick: () => dispatch({ type: "research", id: null }) })
             : null;
-      return el("li", { class: `research ${r.state}` }, el("div", {}, el("strong", { textContent: t(`research_${r.id}`) }), el("span", { class: "status", textContent: status }), el("p", { textContent: t(`research_effect_${r.id}`) }), r.state === "current" ? meter(r.progress / r.cost) : null), button);
+      return el("li", { class: `research ${r.state}` }, el("div", {}, el("strong", { textContent: t(`research_${r.id}`) }), el("span", { class: "status", textContent: status }), el("p", { textContent: t(`research_effect_${r.id}`) }), museumLink((links.research as Record<string, string>)[r.id]), r.state === "current" ? meter(r.progress / r.cost) : null), button);
     });
     return [el("div", { class: "card" }, el("p", { class: "muted", textContent: t("research_note") }), el("p", { textContent: t("research_in_hand", { n: state.knowledge }) }), el("ul", { class: "research-list" }, ...rows))];
   }
@@ -392,7 +438,8 @@ async function main(): Promise<void> {
       return el("button", { type: "button", id: `tool-${tl}`, class: `tool${locked ? " locked" : ""}${poor ? " poor" : ""}`, ariaPressed: String(tool === tl), ariaDisabled: String(locked), title, onclick: () => setTool(tl) }, icon(tl), el("span", { class: "name", textContent: toolName(tl) }), cost !== null ? ltr(String(cost), "cost") : el("span", { class: "cost" }), el("kbd", { textContent: key, ariaHidden: "true" } as Props<"kbd">));
     });
     const b = tool !== "inspect" && tool !== "canal" && tool !== "demolish" ? BUILDINGS[tool] : null;
-    swap(tools, el("div", { class: "toolrow" }, ...buttons), el("p", { class: "tooldesc", id: "tooldesc" }, el("strong", { textContent: `${toolName(tool)}. ` }), t(`desc_${tool}`), b ? ` ${t("upkeep_line", { upkeep: b.upkeep, workers: b.workers, water: b.water })}` : ""));
+    const toolMuseum = museumLink((links.tool as Record<string, string>)[tool]);
+    swap(tools, el("div", { class: "toolrow" }, ...buttons), el("p", { class: "tooldesc", id: "tooldesc" }, el("strong", { textContent: `${toolName(tool)}. ` }), t(`desc_${tool}`), b ? ` ${t("upkeep_line", { upkeep: b.upkeep, workers: b.workers, water: b.water })}` : "", toolMuseum ? " · " : "", toolMuseum));
   }
   function renderActions(): void {
     const over = state.outcome !== "playing";
@@ -518,7 +565,7 @@ async function main(): Promise<void> {
         el("h2", { textContent: t("help_title") }),
         el("ol", { class: "help" }, ...[1, 2, 3, 4, 5, 6].map((i) => el("li", { textContent: t(`help_${i}`) }))),
         el("p", { class: "muted", textContent: t("help_controls") }),
-        el("p", { class: "muted", textContent: t("help_7") }),
+        el("p", { class: "muted", textContent: `${t("help_7")} ${t("museum_note")}` }),
         el("div", { class: "settings" }, el("label", {}, t("language"), " ", langSelect), el("label", {}, t("graphics"), " ", qualitySelect)),
         el("div", { class: "row" }, restartButton("same"), restartButton("new"), el("button", { type: "button", id: "help-close", class: "primary", textContent: t("close"), onclick: () => helpDialog.close() })),
       );
@@ -586,7 +633,24 @@ async function main(): Promise<void> {
     ]);
   }
 
+  /** One marker for each plot with a problem. Where they sit is set every frame, from the camera. */
+  function renderMarks(): void {
+    markNodes = stage ? plotProblems(state).map((pr) => ({ plot: pr.plot, node: el("div", { class: `mark ${pr.kind}` }, icon(pr.kind === "water" ? "nowater" : "noreach", 15)) })) : [];
+    marks.replaceChildren(...markNodes.map((m) => m.node));
+    placeMarks();
+  }
+  function placeMarks(): void {
+    if (!stage) return;
+    for (const m of markNodes) {
+      const [x, z] = plotCentre(m.plot);
+      const at = stage.screenOf(x, 15, z);
+      m.node.hidden = at === null;
+      if (at) m.node.style.transform = `translate(${Math.round(at[0])}px, ${Math.round(at[1])}px)`;
+    }
+  }
+
   function renderAll(): void {
+    renderMarks();
     renderBar();
     renderSide();
     renderTools();
@@ -652,6 +716,7 @@ async function main(): Promise<void> {
     undo,
     restart,
     music,
+    problems: () => plotProblems(state),
     screenOfPlot: (p: number) => stage?.screenOfPlot(p) ?? null,
     screenOfLink: (a: number, b: number) => {
       const pa = stage?.screenOfPlot(a);
@@ -693,8 +758,9 @@ async function main(): Promise<void> {
       },
     });
     stage.sync(state);
-    stage.run();
+    stage.run(() => placeMarks());
     hook.stage = stage;
+    renderMarks();
     boot.hidden = true;
   } catch (e) {
     // No 3D here: the plan view is the game.

@@ -272,12 +272,14 @@ export function plotInfo(s: State, plot: number): PlotInfo {
       break;
     }
     case "workshop":
+      if (!served) lines.push({ id: "mark_workshop_dry", tone: "bad" });
       lines.push({ id: "info_workshop_markets", vars: { n: of(s, "market").filter((m) => distance(plot, m) <= GOODS_REACH).length } });
       break;
     case "school":
       lines.push({ id: "info_school_reach", vars: { n: reached(SCHOOL_REACH), total: houses.length } });
       break;
     case "bath":
+      if (!served) lines.push({ id: "mark_bath_dry", tone: "bad" });
       lines.push({ id: "info_bath_reach", vars: { n: served ? reached(BATH_REACH) : 0, total: houses.length } });
       break;
     case "granary":
@@ -290,8 +292,36 @@ export function plotInfo(s: State, plot: number): PlotInfo {
       lines.push({ id: "info_hospital_reach", vars: { n: reached(HOSPITAL_REACH), total: houses.length } });
       break;
   }
+  // A building that serves houses and has none within its reach is doing nothing.
+  const reach = type ? reachOf[type] : undefined;
+  if (reach !== undefined && reached(reach) === 0) lines.push({ id: "mark_no_houses", tone: "bad" });
   if (type) lines.push({ id: "info_running", vars: { workers: BUILDINGS[type].workers, upkeep: BUILDINGS[type].upkeep, water: BUILDINGS[type].water } });
   return { plot, type, canal: wet[plot]!, served, lines };
+}
+
+// ---- What is going wrong, plot by plot: shown as a marker over the district and as a list in the panel --------------------
+
+export interface PlotProblem {
+  plot: number;
+  /** "water": a building that needs water has none in reach. "reach": a service with no houses to serve. */
+  kind: "water" | "reach";
+  line: Line;
+}
+export function plotProblems(s: State): PlotProblem[] {
+  const out: PlotProblem[] = [];
+  for (let p = 0; p < PLOTS; p++) {
+    const type = s.plots[p];
+    if (!type) continue;
+    const info = plotInfo(s, p);
+    // The hospital draws water but works without it, so a dry hospital is not marked.
+    if (!info.served && BUILDINGS[type].water > 0 && type !== "hospital") {
+      out.push({ plot: p, kind: "water", line: { id: type === "farm" ? "info_farm_dry" : type === "bath" ? "mark_bath_dry" : type === "workshop" ? "mark_workshop_dry" : "info_water_no" } });
+      continue;
+    }
+    const idle = info.lines.find((l) => l.id === "mark_no_houses");
+    if (idle) out.push({ plot: p, kind: "reach", line: idle });
+  }
+  return out;
 }
 
 // ---- The planning overlay: which plots to tint for a tool ----------------------------------------------------------------

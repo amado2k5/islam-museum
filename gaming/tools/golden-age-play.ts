@@ -44,7 +44,7 @@ const fail = async (why: string): Promise<never> => {
   await served.close();
   throw new Error(`${why}\nconsole: ${errors.join(" | ")}`);
 };
-type Hook = { ready?: boolean; no3d?: string; state(): State; tool(): string; dispatch(c: Command): void; screenOfPlot(p: number): [number, number] | null; screenOfLink(a: number, b: number): [number, number] | null; stage?: { takeFrameStats(): unknown; info(): unknown; setPose(p: unknown): void }; music: { state(): { on: boolean; playing: boolean; available: boolean; track: { title: string } } } };
+type Hook = { ready?: boolean; no3d?: string; problems(): Array<{ plot: number; kind: string }>; state(): State; tool(): string; dispatch(c: Command): void; screenOfPlot(p: number): [number, number] | null; screenOfLink(a: number, b: number): [number, number] | null; stage?: { takeFrameStats(): unknown; info(): unknown; setPose(p: unknown): void }; music: { state(): { on: boolean; playing: boolean; available: boolean; track: { title: string } } } };
 const ga = <T>(fn: (h: Hook, arg: never) => T, arg?: unknown): Promise<T> => page.evaluate(([f, a]) => (0, eval)(`(${f})`)((window as unknown as { __GA__: Hook }).__GA__, a), [fn.toString(), arg] as const) as Promise<T>;
 const state = () => ga((h) => h.state());
 const ready = async (p: Page = page) => {
@@ -67,6 +67,9 @@ if (dir === "rtl" ? sideBox!.x < W / 2 : sideBox!.x > W / 2) await fail(`the sid
 const missing = await page.evaluate(() => [...document.querySelectorAll("#hud *")].filter((n) => n.children.length === 0 && /^[a-z]+(_[a-z0-9-]+)+$/.test(n.textContent ?? "")).map((n) => n.textContent));
 if (missing.length) await fail(`untranslated keys on screen: ${missing.join(", ")}`);
 await settle(1200);
+// Two houses of the inherited district have no water in reach: each has a marker over it, and the panel lists both.
+const marked = await ga((h) => h.problems().length);
+if (marked !== 2 || (await page.locator("#marks .mark").count()) !== 2 || (await page.locator("#attention li").count()) !== 2) await fail(`expected two marked plots at the start, found ${marked}`);
 await shot("1-start");
 const s0 = await state();
 if (s0.season !== 0 || s0.treasury !== 130 || s0.canals.length !== 2) await fail("the new game is not the scenario's start");
@@ -84,6 +87,8 @@ await shot("3-canal-filling");
 await settle(1600);
 const s1 = await state();
 if (s1.canals.length !== 3 || s1.treasury !== 118) await fail(`digging by mouse did not work: ${s1.canals.length} links, treasury ${s1.treasury}`);
+// The link watered one of the two houses: its marker is gone.
+if ((await page.locator("#marks .mark").count()) !== 1) await fail("the marker of the house that now has water did not go");
 // A link that starts in dry ground is refused and changes nothing.
 const dry = await ga((h, [a, b]: [number, number]) => h.screenOfLink(a, b), [plotOf(5, 3), plotOf(6, 3)]);
 await page.mouse.click(dry![0], dry![1]);
@@ -142,6 +147,10 @@ await page.locator("#tab-ledger").click();
 await settle(200);
 await shot("6-ledger");
 await page.locator("#tab-research").click();
+// Each project names the museum record behind it, and the link goes to that record in this language.
+const museumHrefs = await page.locator(".research .museum a").evaluateAll((as) => as.map((a) => (a as HTMLAnchorElement).href));
+if (museumHrefs.length !== 5 || !museumHrefs.every((h) => h.startsWith(`https://islam.museum/${lang}/invention/`))) await fail(`museum links are wrong: ${museumHrefs.join(", ")}`);
+log.museumLinks = museumHrefs.length;
 const firstResearch = page.locator(".research.open button").first();
 if (await firstResearch.count()) await firstResearch.click();
 await settle(200);
@@ -252,6 +261,21 @@ if (campaign === "1") {
   await settle(900);
   await shot("15-final-close");
   log.campaign = { policy: "balanced", commands, outcome: cur.outcome, seasons: cur.season, households: cur.households, welfare: cur.welfare, treasury: cur.treasury, frames, info };
+  // What silt and a drought look like. This campaign meets neither a drought nor heavy silt at its end, so the two
+  // looks are set on the renderer directly for the captures: they show the picture, not a moment of play.
+  type Looks = { stage: { renderer: { setConditions(silt: number, drought: boolean): void; river: { position: { y: number } } } } };
+  await ga((h) => h.stage?.setPose({ tx: -154, tz: -34, yaw: 0.22, pitch: 0.66, distance: 135 }));
+  await ga((h) => (h as unknown as Looks).stage.renderer.setConditions(0, false));
+  await settle(700);
+  await shot("16-clear-water");
+  const riverY = await ga((h) => {
+    const r = (h as unknown as Looks).stage.renderer;
+    r.setConditions(1, true);
+    return r.river.position.y;
+  });
+  await settle(700);
+  await shot("17-silt-and-drought");
+  log.conditions = { riverDropInDrought: riverY };
 }
 
 await browser.close();

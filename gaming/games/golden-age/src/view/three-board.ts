@@ -66,6 +66,13 @@ export interface Highlight {
   link: { a: number; b: number; ok: boolean } | null;
 }
 
+/** A plot's next set of meshes, on their way in. */
+interface Incoming {
+  meshes: THREE.Mesh[];
+  added: number;
+  readyAt: number;
+}
+
 interface WaterMesh {
   mesh: THREE.Mesh;
   rect: WaterRect;
@@ -83,13 +90,19 @@ export class BoardRenderer {
   private readonly disposables: Array<{ dispose(): void }> = [];
   private sky!: THREE.Mesh;
   private skies: THREE.BufferGeometry[] = [];
-  private envMaps: THREE.Texture[] = [];
   private sun!: THREE.DirectionalLight;
   private hemi!: THREE.HemisphereLight;
   private season = -1;
   private pose!: CameraPose;
   private aspect = 1;
-  private readonly plots: Array<{ meshes: THREE.Mesh[]; water: WaterMesh[]; geometry: PlotGeometry | null }> = Array.from({ length: PLOTS }, () => ({ meshes: [], water: [], geometry: null }));
+  private readonly plots: Array<{ meshes: THREE.Mesh[]; water: WaterMesh[]; geometry: PlotGeometry | null; incoming: Incoming | null }> = Array.from({ length: PLOTS }, () => ({ meshes: [], water: [], geometry: null, incoming: null }));
+  /** Plots whose new meshes are being brought in a few a frame (see setPlot). */
+  private warming: number[] = [];
+  private frame = 0;
+  /** 0 clear water to 1 thick with silt; and how far a drought has dropped the canals. */
+  private readonly silt = uniform(0);
+  private canalDrop = 0;
+  private river: THREE.Mesh | null = null;
   private envProps: PropInstance[] = [];
   private readonly propMeshes = new Map<PropKind, THREE.InstancedMesh>();
   private bodies!: THREE.InstancedMesh;
@@ -152,25 +165,27 @@ export class BoardRenderer {
     this.sun = sun;
     scene.fog = new THREE.FogExp2(0xffffff, 0.0004);
 
-    // ---- Sky: one dome and one prefiltered environment per season ----
+    // ---- Sky: one dome per season, and one prefiltered environment for all of them ----
+    // Changing the environment map makes the engine rebuild every material's bindings, which measured as a
+    // 50 ms stall at each season's end. The seasons differ in sun, sky, haze and exposure; the light the scene
+    // takes from the sky itself is spring's throughout.
     const skyMat = new THREE.MeshBasicMaterial({ vertexColors: true, fog: false, depthWrite: false });
     this.disposables.push(skyMat);
-    const pmrem = new THREE.PMREMGenerator(renderer);
-    this.disposables.push(pmrem);
     for (const atm of SEASON_LIGHT) {
       const g = geometryOf(skyDome(atm, 3200));
       this.skies.push(g);
       this.disposables.push(g);
-      const envScene = new THREE.Scene();
-      envScene.add(new THREE.Mesh(g, skyMat));
-      const rt = pmrem.fromScene(envScene, 0, 1, 8000);
-      this.envMaps.push(rt.texture);
-      this.disposables.push(rt);
     }
+    const pmrem = new THREE.PMREMGenerator(renderer);
+    const envScene = new THREE.Scene();
+    envScene.add(new THREE.Mesh(this.skies[0]!, skyMat));
+    const environment = pmrem.fromScene(envScene, 0, 1, 8000);
+    this.disposables.push(pmrem, environment);
     this.sky = new THREE.Mesh(this.skies[0]!, skyMat);
     this.sky.frustumCulled = false;
     this.sky.renderOrder = -10;
     scene.add(this.sky);
+    scene.environment = environment.texture;
     scene.environmentIntensity = 0.55;
 
     // ---- Materials ----
@@ -304,7 +319,9 @@ export class BoardRenderer {
     const base: Rgb = canal ? [0.012, 0.115, 0.12] : [0.008, 0.07, 0.085];
     const deep = vec3(base[0] * 0.6, base[1] * 0.62, base[2] * 0.75);
     const shallow = vec3(base[0] * 1.5, base[1] * 1.5, base[2] * 1.35);
-    m.colorNode = mix(deep, shallow, n3.r.sub(0.5).mul(4).add(blended.b.sub(0.55).mul(2.2)).clamp(0, 1));
+    const clear = mix(deep, shallow, n3.r.sub(0.5).mul(4).add(blended.b.sub(0.55).mul(2.2)).clamp(0, 1));
+    // Silt shows: a canal that needs clearing runs brown.
+    m.colorNode = canal ? mix(clear, vec3(0.2, 0.13, 0.055), this.silt.mul(0.85)) : clear;
     m.ior = 1.33;
     return m;
   }
@@ -326,7 +343,6 @@ export class BoardRenderer {
     fog.color = color(atm.fogColor);
     fog.density = atm.fogDensity;
     this.sky.geometry = this.skies[soy] ?? this.skies[0]!;
-    this.scene.environment = this.envMaps[soy] ?? this.envMaps[0]!;
     for (const id of ["litwindow", "lantern"] as const) {
       const m = this.materials.get(id) as THREE.MeshStandardMaterial | undefined;
       if (m) m.emissiveIntensity = atm.emissive * 3.2;
@@ -341,6 +357,7 @@ export class BoardRenderer {
       mesh.receiveShadow = true;
       mesh.frustumCulled = false;
       this.scene.add(mesh);
+      if (chunk.material === "water") this.river = mesh;
     }
     this.envProps = env.props;
     this.boatPaths = env.boats;
@@ -351,15 +368,20 @@ export class BoardRenderer {
   /**
    * Replaces what stands on a plot. `filling` names water sheets that should be seen to fill, with the edge the
    * water comes from and a delay in seconds (ignored under reduced motion).
+   *
+   * Making a mesh is what costs time (the engine sets each one up for the shadow, depth and colour passes), so
+   * unless `immediate` is set the new meshes are brought in two a frame, out of sight, and swapped for the old
+   * ones once they are all ready: a new building costs several ordinary frames instead of one slow one.
    */
-  setPlot(plot: number, g: PlotGeometry, filling: Array<{ id: string; from: "x0" | "x1" | "z0" | "z1"; delay: number }> = []): void {
+  setPlot(plot: number, g: PlotGeometry, filling: Array<{ id: string; from: "x0" | "x1" | "z0" | "z1"; delay: number }> = [], immediate = false): void {
     const slot = this.plots[plot]!;
     // The same shape as before (a field in a new season): write the new numbers into the meshes already there.
-    // Making new meshes is what costs a slow frame, so this is the common case kept cheap.
     const old = slot.geometry;
     const sameShape =
       old !== null &&
+      slot.incoming === null &&
       filling.length === 0 &&
+      slot.meshes.length === g.chunks.length &&
       old.chunks.length === g.chunks.length &&
       old.water.length === g.water.length &&
       g.chunks.every((c, i) => c.material === old.chunks[i]!.material && c.mesh.positions.length === old.chunks[i]!.mesh.positions.length && c.mesh.indices.length === old.chunks[i]!.mesh.indices.length) &&
@@ -383,21 +405,27 @@ export class BoardRenderer {
       slot.geometry = g;
       return;
     }
-    for (const m of slot.meshes) {
-      this.scene.remove(m);
-      m.geometry.dispose();
-    }
+    this.cancelIncoming(plot);
     for (const w of slot.water) this.scene.remove(w.mesh);
-    slot.meshes = [];
     slot.water = [];
     slot.geometry = g;
-    for (const chunk of g.chunks) {
+    const meshes = g.chunks.map((chunk) => {
       const mesh = new THREE.Mesh(geometryOf(chunk.mesh), this.materials.get(chunk.material)!);
       const flat = chunk.material === "canalwater" || chunk.material === "earth" || chunk.material === "paving" || chunk.material === "grass";
       mesh.castShadow = !flat;
       mesh.receiveShadow = true;
-      this.scene.add(mesh);
-      slot.meshes.push(mesh);
+      return mesh;
+    });
+    if (immediate || filling.length > 0) {
+      for (const m of slot.meshes) {
+        this.scene.remove(m);
+        m.geometry.dispose();
+      }
+      for (const m of meshes) this.scene.add(m);
+      slot.meshes = meshes;
+    } else {
+      slot.incoming = { meshes, added: 0, readyAt: Infinity };
+      this.warming.push(plot);
     }
     for (const rect of g.water) {
       const mesh = new THREE.Mesh(this.waterPlane, this.waterMaterial);
@@ -410,6 +438,69 @@ export class BoardRenderer {
     }
   }
 
+  private cancelIncoming(plot: number): void {
+    const slot = this.plots[plot]!;
+    if (!slot.incoming) return;
+    slot.incoming.meshes.forEach((m, i) => {
+      if (i < slot.incoming!.added) this.scene.remove(m);
+      m.geometry.dispose();
+    });
+    slot.incoming = null;
+    this.warming = this.warming.filter((p) => p !== plot);
+  }
+
+  /** Brings waiting meshes into the scene, `budget` at most, and swaps a plot over once all of its meshes have been drawn once. */
+  private warm(budget: number, wait = true): void {
+    while (this.warming.length > 0) {
+      const plot = this.warming[0]!;
+      const slot = this.plots[plot]!;
+      const inc = slot.incoming;
+      if (!inc) {
+        this.warming.shift();
+        continue;
+      }
+      if (inc.added < inc.meshes.length) {
+        if (budget <= 0) return;
+        const m = inc.meshes[inc.added++]!;
+        // Out of sight (a speck under the ground) but drawn, so the engine prepares it.
+        m.scale.setScalar(1e-5);
+        m.position.y = -40;
+        m.frustumCulled = false;
+        this.scene.add(m);
+        budget--;
+        if (inc.added === inc.meshes.length) inc.readyAt = this.frame + 1;
+        continue;
+      }
+      if (wait && this.frame < inc.readyAt) return;
+      for (const m of slot.meshes) {
+        this.scene.remove(m);
+        m.geometry.dispose();
+      }
+      for (const m of inc.meshes) {
+        m.scale.setScalar(1);
+        m.position.y = 0;
+        m.frustumCulled = true;
+      }
+      slot.meshes = inc.meshes;
+      slot.incoming = null;
+      this.warming.shift();
+    }
+  }
+  /** Finishes every waiting plot now (captures and tests). */
+  settle(): void {
+    this.warm(Infinity, false);
+  }
+
+  /** How the water looks: `silt` 0 to 1, and whether a drought has lowered the river and the canals. */
+  setConditions(silt: number, drought: boolean): void {
+    this.silt.value = Math.max(0, Math.min(1, silt));
+    const drop = drought ? 0.3 : 0;
+    if (this.river) this.river.position.y = drought ? -0.4 : 0;
+    if (drop === this.canalDrop) return;
+    this.canalDrop = drop;
+    for (const slot of this.plots) for (const w of slot.water) if (!w.grow) this.placeWater(w, 1);
+  }
+
   private placeWater(w: WaterMesh, k: number): void {
     let { x0, x1, z0, z1 } = w.rect;
     const e = Math.max(0.001, k);
@@ -419,7 +510,7 @@ export class BoardRenderer {
       else if (w.grow.from === "z0") z1 = z0 + (z1 - z0) * e;
       else z0 = z1 - (z1 - z0) * e;
     }
-    w.mesh.position.set((x0 + x1) / 2, w.rect.y, (z0 + z1) / 2);
+    w.mesh.position.set((x0 + x1) / 2, w.rect.y - this.canalDrop, (z0 + z1) / 2);
     w.mesh.scale.set(x1 - x0, 1, z1 - z0);
     w.mesh.visible = k > 0;
   }
@@ -526,6 +617,8 @@ export class BoardRenderer {
   render(timeSeconds: number): void {
     const t0 = performance.now();
     this.now = timeSeconds;
+    this.frame++;
+    this.warm(2);
     this.waterTime.value = timeSeconds;
     // Water that is still filling.
     for (const slot of this.plots) {
@@ -533,10 +626,8 @@ export class BoardRenderer {
         if (!w.grow) continue;
         const k = (timeSeconds - w.grow.start) / FILL_SECONDS;
         if (k >= 1) {
-          this.placeWater(w, 1);
           w.grow = null;
-          w.mesh.scale.set(w.rect.x1 - w.rect.x0, 1, w.rect.z1 - w.rect.z0);
-          w.mesh.position.set((w.rect.x0 + w.rect.x1) / 2, w.rect.y, (w.rect.z0 + w.rect.z1) / 2);
+          this.placeWater(w, 1);
         } else this.placeWater(w, Math.max(0, k));
       }
     }
@@ -588,7 +679,7 @@ export class BoardRenderer {
   }
 
   dispose(): void {
-    for (const slot of this.plots) for (const m of slot.meshes) m.geometry.dispose();
+    for (const slot of this.plots) for (const m of [...slot.meshes, ...(slot.incoming?.meshes ?? [])]) m.geometry.dispose();
     for (const d of this.disposables) d.dispose();
     this.pipeline?.dispose();
     this.renderer.dispose();
