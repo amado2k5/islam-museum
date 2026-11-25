@@ -21,7 +21,10 @@ jobs:
     name: Rerun failed jobs (attempts 1 and 2 only)
     runs-on: ubuntu-latest
     timeout-minutes: 10
-    if: ${{ github.event.workflow_run.conclusion == 'failure' && github.event.workflow_run.run_attempt < 3 }}
+    # failure OR cancelled: a job that hits its timeout-minutes cancels, and the run's conclusion becomes "cancelled",
+    # not "failure" (experimental run 45601297166: the test job timed out, nothing rerun). A run a human cancelled may
+    # restart once; they cancel it again, and the run_attempt cap stops the loop at three starts.
+    if: ${{ (github.event.workflow_run.conclusion == 'failure' || github.event.workflow_run.conclusion == 'cancelled') && github.event.workflow_run.run_attempt < 3 }}
     steps:
       - name: Rerun the failed jobs of the failed run
         env:
