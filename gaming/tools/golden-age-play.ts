@@ -11,7 +11,7 @@ import { chromium, type Page } from "playwright-core";
 import { Rng } from "@im/kernel/prng";
 import { makePolicies } from "../games/golden-age/src/policies";
 import { plotOf, step, type Command, type State } from "../games/golden-age/src/rules";
-import { FAILING_CANAL, HOUSE_OF_BOOKS } from "../games/golden-age/src/scenarios";
+import { FAILING_CANAL, HOUSE_OF_BOOKS, WHAT_ENDURES } from "../games/golden-age/src/scenarios";
 import { serveWorkspace } from "./serve";
 
 const [outArg, lang = "en", campaign = "0"] = process.argv.slice(2);
@@ -339,12 +339,79 @@ if (campaign === "1") {
   const frames = await ga((h) => h.stage?.takeFrameStats());
   if (cur.outcome === "playing") await fail("the second chapter's campaign did not end");
   await shot("20-chapter-two-outcome");
-  if ((await page.locator("#next-chapter").count()) !== 0) await fail("the last chapter offers a next one");
+  if ((await page.locator("#next-chapter").count()) !== 1) await fail("the end of the second chapter does not offer the third");
   await page.locator("#outcome-close").click();
   await ga((h) => h.stage?.setPose({ tx: -40, tz: -110, yaw: 0.4, pitch: 0.62, distance: 430 }));
   await settle(900);
   await shot("21-chapter-two-city");
   log.chapterTwoCampaign = { policy: "balanced", commands, outcome: cur.outcome, seasons: cur.season, households: cur.households, welfare: cur.welfare, treasury: cur.treasury, frames };
+}
+
+// ---- 12. The third chapter: What Endures, and the rule it brings ------------------------------------------------------------
+await page.goto(url(`&scenario=what-endures&seed=${SEED}`));
+await ready();
+if ((await ga((h) => h.scenario())) !== "what-endures" || !(await page.locator("#brief").evaluate((d) => (d as HTMLDialogElement).open))) await fail("the third chapter did not open on its brief");
+await settle(900);
+await shot("22-chapter-three-brief");
+await begin();
+let e = await state();
+if (e.households !== 180 || !e.mayEndow || (await page.locator("#tool-endow").count()) !== 1) await fail("the third chapter did not start as authored, or does not offer endowing");
+// Endow the bath with the mouse: forty coins, and its upkeep is paid from then on.
+const bathPlot = plotOf(3, 1);
+await page.keyboard.press("t");
+if ((await ga((h) => h.tool())) !== "endow") await fail("the T key did not choose the endow tool");
+const bathAt = await ga((h, p: number) => h.screenOfPlot(p), bathPlot);
+await page.mouse.move(bathAt![0], bathAt![1]);
+await settle(400);
+await shot("23-endow-aim");
+await page.mouse.click(bathAt![0], bathAt![1]);
+await settle(700);
+e = await state();
+if (!e.endowed.includes(bathPlot) || e.treasury !== 100) await fail(`endowing by mouse did not work: endowed ${e.endowed.join(",")}, treasury ${e.treasury}`);
+// What is endowed cannot be cleared.
+await page.keyboard.press("x");
+await page.mouse.click(bathAt![0], bathAt![1]);
+await settle(300);
+if ((await state()).plots[bathPlot] !== "bath") await fail("an endowed building was cleared");
+await page.keyboard.press("i");
+await page.mouse.move(40, 500);
+await settle(300);
+await shot("24-endowed");
+log.chapterThree = { endowed: e.endowed.length, treasury: e.treasury };
+// The first chapter does not offer the tool.
+if (campaign === "1") {
+  await page.goto(url(`&scenario=what-endures&seed=${SEED}`));
+  await ready();
+  await begin();
+  await settle(1200);
+  await ga((h) => h.stage?.takeFrameStats());
+  // The merchant is driven here because it is the strategy the lab finds always wins this chapter: the run checks
+  // that endow commands and a won third chapter pass through the screen, not that the chapter is well balanced.
+  const policy = makePolicies(step).find((p) => p.name === "merchant")!;
+  const rng = new Rng(`lab:merchant:${SEED}`);
+  let cur = await state();
+  let commands = 0;
+  for (let guard = 0; cur.outcome === "playing" && guard < 60; guard++) {
+    for (const cmd of policy.plan(WHAT_ENDURES, cur, rng)) {
+      await ga((h, c: Command) => h.dispatch(c), cmd);
+      commands++;
+    }
+    await settle(350);
+    cur = await state();
+  }
+  await settle(600);
+  const frames = await ga((h) => h.stage?.takeFrameStats());
+  if (cur.outcome !== "won" || cur.endowed.length < 4) await fail(`the third chapter's campaign ended ${cur.outcome} with ${cur.endowed.length} endowments`);
+  await shot("25-chapter-three-outcome");
+  if ((await page.locator("#next-chapter").count()) !== 0) await fail("the last chapter offers a next one");
+  await page.locator("#outcome-close").click();
+  await ga((h) => h.stage?.setPose({ tx: -40, tz: -110, yaw: 0.4, pitch: 0.62, distance: 430 }));
+  await settle(900);
+  await shot("26-chapter-three-city");
+  await ga((h) => h.stage?.setPose({ tx: -66, tz: -66, yaw: -0.4, pitch: 0.5, distance: 120 }));
+  await settle(900);
+  await shot("27-endowment-banners");
+  log.chapterThreeCampaign = { policy: "merchant", commands, outcome: cur.outcome, seasons: cur.season, households: cur.households, welfare: cur.welfare, treasury: cur.treasury, endowed: cur.endowed.length, frames };
 }
 
 await browser.close();

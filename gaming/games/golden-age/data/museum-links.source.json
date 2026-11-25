@@ -1,5 +1,5 @@
 {
- "_about": "Which museum record stands behind each piece of research and each tool of The Golden Age. Chosen by hand; the builder (tools/build-links.ts) checks that each record exists and copies its label in seven languages. The district of the game is fictional: these are the real things its ideas come from, not claims about the district. Each chapter also names the records whose summaries are shown in its brief, as the museum's own account of the real history behind the chapter.",
+ "_about": "Which museum record stands behind each piece of research and each tool of The Golden Age. Chosen by hand; the builder (tools/build-links.ts) checks that each record exists and copies its label in seven languages. The district of the game is fictional: these are the real things its ideas come from, not claims about the district. Each chapter also names the records whose summaries are shown in its brief, as the museum's own account of the real history behind the chapter. A summary that speaks of the Prophet is not quoted in a brief: the museum's pages add the honorific when they render such text and the game does not, so those records are linked by their label only.",
  "research": {
   "lined-canals": "invention/mansur-covered-water-conduits",
   "water-wheel": "invention/norias-of-hama",
@@ -15,7 +15,8 @@
   "school": "invention/nizamiyya-madrasa",
   "bath": "concept/hammam",
   "library": "group/bayt-al-hikma",
-  "hospital": "invention/harun-bimaristan"
+  "hospital": "invention/harun-bimaristan",
+  "endow": "invention/waqf"
  },
  "scenario": {
   "failing-canal": [
@@ -25,6 +26,10 @@
   "house-of-books": [
    "invention/paper-mill-samarkand",
    "invention/nizamiyya-madrasa"
+  ],
+  "what-endures": [
+   "invention/ibn-tulun-bimaristan",
+   "job/nazir-al-waqf"
   ]
  }
 }

@@ -29,9 +29,11 @@ export interface PlotLook {
   rotation: boolean;
   /** The district's water wheel stands at this plot's intake. */
   wheel: boolean;
+  /** The building here has been endowed: a banner and an inscribed stone stand at its crossing. */
+  endowed?: boolean;
 }
 
-export const lookKey = (l: PlotLook): string => `${l.type ?? "-"}|${l.canal}|${l.served ? 1 : 0}${l.bathed ? 1 : 0}${l.lined ? 1 : 0}${l.rotation ? 1 : 0}${l.wheel ? 1 : 0}|${l.type === "farm" ? l.soy : 0}`;
+export const lookKey = (l: PlotLook): string => `${l.type ?? "-"}|${l.canal}|${l.served ? 1 : 0}${l.bathed ? 1 : 0}${l.lined ? 1 : 0}${l.rotation ? 1 : 0}${l.wheel ? 1 : 0}${l.endowed ? 1 : 0}|${l.type === "farm" ? l.soy : 0}`;
 
 export type PropKind = "palm-a" | "palm-b" | "tree" | "cypress" | "awning" | "stall" | "jar";
 export interface PropInstance {
@@ -570,6 +572,17 @@ export function buildPlot(seed: number, plot: number, look: PlotLook): PlotGeome
     const qf = subFrame(f, QUARTER_CENTRE, 0, QUARTER_CENTRE, Math.PI);
     const rng = new Rng(hash32(`plot:${plot}:${d}:${look.type ?? "empty"}`, seed >>> 0));
     (look.type ? QUARTERS[look.type] : quarterEmpty)(set, props, qf, rng, look, d);
+  }
+
+  // An endowment is marked where everyone passes: an inscribed stone and a tall banner at the corner of the crossing.
+  if (look.endowed) {
+    const corner = frame(cx + L + 1.3, 0, cz - L - 1.3);
+    set.of("ashlar", corner).box(corner, 0, 0, 0, 1.5, 2.1, 0.45, [0.9, 0.84, 0.7], BOX_NO_BOTTOM, 0.85);
+    set.of("startile", corner).box(corner, 0, 0.5, 0.24, 1.1, 1.3, 0.04, [1, 1, 1], 1 | 2 | 8 | 16);
+    set.of("wood", corner).cylinder(corner, 1.5, 0, 0, 0.09, 0.06, 8.5, 6, [0.5, 0.4, 0.3], true);
+    const cloth = set.of("fabric", corner);
+    face(cloth, corner, 1.6, 0, 3.4, 0, 5.2, 8.3, scale(TURQUOISE, 1.5));
+    face(cloth, corner, 3.4, 0, 1.6, 0, 5.2, 8.3, scale(TURQUOISE, 1.1));
   }
 
   // Row 0 carries its stretch of the quay, and the intake where a canal leaves the river.

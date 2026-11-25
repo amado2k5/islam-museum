@@ -4,6 +4,9 @@
 import {
   BATH_REACH,
   BUILDINGS,
+  BUILDING_TYPES,
+  ENDOWABLE,
+  endowCost,
   COLLAPSE_SEASONS,
   GOODS_REACH,
   HOSPITAL_REACH,
@@ -88,7 +91,7 @@ export function stocks(scenario: Scenario, s: State, p: Projection | null): Stoc
 // ---- The goal ----------------------------------------------------------------------------------------------------------
 
 export interface GoalRow {
-  id: "households" | "knowledge" | "welfare" | "treasury";
+  id: "households" | "knowledge" | "welfare" | "treasury" | "endowments";
   value: number;
   goal: number;
   met: boolean;
@@ -101,6 +104,7 @@ export function goals(scenario: Scenario, s: State): { rows: GoalRow[]; seasonsL
       { id: "knowledge", value: learned(s), goal: g.knowledge, met: learned(s) >= g.knowledge },
       { id: "welfare", value: s.welfare, goal: g.welfare, met: s.steadySeasons >= g.steadySeasons },
       { id: "treasury", value: s.treasury, goal: 0, met: s.treasury >= 0 },
+      ...(g.endowments ? [{ id: "endowments" as const, value: s.endowed.length, goal: g.endowments, met: s.endowed.length >= g.endowments }] : []),
     ],
     seasonsLeft: Math.max(0, scenario.seasons - s.season),
     steady: Math.min(s.steadySeasons, g.steadySeasons),
@@ -133,6 +137,11 @@ export function advice(scenario: Scenario, s: State, p: Projection | null): Line
   if (s.canalCondition < 700) return { id: "advice_silt", vars: { percent: Math.round(s.canalCondition / 10) }, tone: "warn" };
   if (r.waterShare[1] < 1000) return { id: "advice_farm_water", vars: { percent: Math.round(r.waterShare[1] / 10) }, tone: "warn" };
   if (dryHouses > 0) return { id: "advice_dry_houses", vars: { n: dryHouses }, tone: "warn" };
+  // Money in hand and something to endow: the chapter that asks for endowments is won with them.
+  if (s.mayEndow && s.endowed.length < (scenario.goal.endowments ?? 0)) {
+    const open = s.plots.flatMap((b, i) => (b && ENDOWABLE.includes(b) && !s.endowed.includes(i) ? [endowCost(b)] : []));
+    if (open.length > 0 && s.treasury >= Math.min(...open) + 30) return { id: "advice_endow" };
+  }
   if (count("market") === 0) return { id: "advice_market" };
   if (s.households >= housingCapacity(s, wet)) return { id: "advice_housing", tone: "warn" };
   if (r.staffingPermille < 900) return { id: "advice_labour", vars: { percent: Math.round(r.staffingPermille / 10) }, tone: "warn" };
@@ -295,7 +304,9 @@ export function plotInfo(s: State, plot: number): PlotInfo {
   // A building that serves houses and has none within its reach is doing nothing.
   const reach = type ? reachOf[type] : undefined;
   if (reach !== undefined && reached(reach) === 0) lines.push({ id: "mark_no_houses", tone: "bad" });
-  if (type) lines.push({ id: "info_running", vars: { workers: BUILDINGS[type].workers, upkeep: BUILDINGS[type].upkeep, water: BUILDINGS[type].water } });
+  const endowed = s.endowed.includes(plot);
+  if (type && s.mayEndow && ENDOWABLE.includes(type)) lines.push(endowed ? { id: "info_endowed", tone: "good" } : { id: "info_endowable", vars: { cost: endowCost(type) } });
+  if (type) lines.push({ id: "info_running", vars: { workers: BUILDINGS[type].workers, upkeep: endowed ? 0 : BUILDINGS[type].upkeep, water: BUILDINGS[type].water } });
   return { plot, type, canal: wet[plot]!, served, lines };
 }
 
@@ -326,7 +337,8 @@ export function plotProblems(s: State): PlotProblem[] {
 
 // ---- The planning overlay: which plots to tint for a tool ----------------------------------------------------------------
 
-export type Tool = "inspect" | "canal" | "demolish" | BuildingType;
+export type Tool = "inspect" | "canal" | "demolish" | "endow" | BuildingType;
+export const isBuilding = (tool: Tool): tool is BuildingType => (BUILDING_TYPES as string[]).includes(tool);
 export type Tint = "water" | "reach" | "served-house" | "unserved-house" | "new-water";
 
 /**
@@ -337,6 +349,14 @@ export function overlay(s: State, tool: Tool, hover: number | null, link: [numbe
   if (tool === "inspect" || tool === "demolish") return [];
   const wet = wateredPlots(s);
   const tinted = new Map<number, Tint>();
+  if (tool === "endow") {
+    // What is endowed already, and what could be.
+    for (let p = 0; p < PLOTS; p++) {
+      const b = s.plots[p];
+      if (b && ENDOWABLE.includes(b)) tinted.set(p, s.endowed.includes(p) ? "served-house" : "reach");
+    }
+    return [...tinted.entries()];
+  }
   if (tool === "canal") {
     const after = link && preview(s, { type: "canal", a: link[0], b: link[1] }).ok ? wateredPlots(step0(s, link)) : null;
     for (let p = 0; p < PLOTS; p++) {
@@ -380,7 +400,7 @@ export function aim(s: State, tool: Tool, plot: number | null, link: [number, nu
     return { command, preview: preview(s, command), dug: aFirst ? [link[0], link[1]] : [link[1], link[0]] };
   }
   if (plot === null) return { command: null, preview: null, dug: null };
-  const command: Command = tool === "demolish" ? { type: "demolish", plot } : { type: "build", building: tool, plot };
+  const command: Command = tool === "demolish" ? { type: "demolish", plot } : tool === "endow" ? { type: "endow", plot } : { type: "build", building: tool, plot };
   return { command, preview: preview(s, command), dug: null };
 }
 

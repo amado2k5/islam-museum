@@ -113,9 +113,13 @@ export interface Scenario {
     /** Thousandths of full flow the canals start at; 600 (silted) when not given. */
     canalCondition?: number;
   };
-  goal: { households: number; welfare: number; knowledge: number; steadySeasons: number };
+  goal: { households: number; welfare: number; knowledge: number; steadySeasons: number; /** Public buildings that must be endowed by the end. */ endowments?: number };
   /** Thousandths: chance each season that a new event is put on the horizon. */
   eventRate: number;
+  /** This scenario's own chances of each kind of event; EVENT_WEIGHTS when not given. */
+  eventWeights?: [number, number, number, number, number];
+  /** The steward may endow public buildings in this scenario. */
+  endowments?: boolean;
 }
 
 export interface State {
@@ -140,6 +144,10 @@ export interface State {
   plots: Array<BuildingType | null>;
   /** Canal links, by linkKey, in the order built. */
   canals: number[];
+  /** Plots whose building has been endowed, in the order endowed. */
+  endowed: number[];
+  /** Endowing is open in this game (copied from the scenario, so a command can be judged from the state alone). */
+  mayEndow: boolean;
   /** Thousandths of full capacity the canals run at (silt lowers it). */
   canalCondition: number;
   /** Units of water the intake can take from the river each season. */
@@ -205,9 +213,21 @@ export type Command =
   | { type: "tax"; level: TaxLevel }
   | { type: "research"; id: ResearchId | null }
   | { type: "clear-silt" }
+  | { type: "endow"; plot: number }
   | { type: "end-season" };
 
 export const SILT_CLEAR_COST = 20;
+
+// ---- Endowments ------------------------------------------------------------------------------------------------------
+// From the third chapter the steward may endow a public building: a sum is set aside for ever, its yield pays the
+// building's upkeep from then on, and the building can no longer be cleared. It is the game's form of the waqf:
+// the principal is kept and the yield is given. The sum is a game number.
+export const ENDOWABLE: BuildingType[] = ["school", "bath", "library", "hospital"];
+/** An endowment costs this many seasons of the building's upkeep: five years of it. */
+export const ENDOW_SEASONS = 20;
+export const endowCost = (t: BuildingType): number => BUILDINGS[t].upkeep * ENDOW_SEASONS;
+/** Relative chances of each kind of event, in the order drought, good harvest, caravan, silting, fever. */
+export const EVENT_WEIGHTS: [number, number, number, number, number] = [26, 20, 22, 16, 16];
 /** Seasons of insolvency or unrest in a row that end the scenario. A warning is due from the first. */
 export const COLLAPSE_SEASONS = 3;
 export const UNREST_WELFARE = 25;
@@ -297,7 +317,7 @@ export function intakeCapacity(s: State, season = s.season): number {
 export interface Preview {
   ok: boolean;
   /** Why not, as a stable code the interface translates. */
-  reason?: "over" | "occupied" | "empty" | "not-researched" | "no-funds" | "not-adjacent" | "exists" | "not-connected" | "off-map" | "already-researched" | "needs-research" | "no-silt" | "same";
+  reason?: "over" | "occupied" | "empty" | "not-researched" | "no-funds" | "not-adjacent" | "exists" | "not-connected" | "off-map" | "already-researched" | "needs-research" | "no-silt" | "same" | "not-here" | "not-endowable" | "already-endowed" | "endowed";
   cost: number;
 }
 const no = (reason: NonNullable<Preview["reason"]>, cost = 0): Preview => ({ ok: false, reason, cost });
@@ -327,7 +347,19 @@ export function preview(s: State, cmd: Command): Preview {
     }
     case "demolish":
       if (!onMap(cmd.plot)) return no("off-map");
-      return s.plots[cmd.plot] === null ? no("empty") : { ok: true, cost: 0 };
+      if (s.plots[cmd.plot] === null) return no("empty");
+      // What has been endowed is no longer the steward's to clear.
+      return s.endowed.includes(cmd.plot) ? no("endowed") : { ok: true, cost: 0 };
+    case "endow": {
+      if (!s.mayEndow) return no("not-here");
+      if (!onMap(cmd.plot)) return no("off-map");
+      const type = s.plots[cmd.plot];
+      if (!type) return no("empty");
+      if (!ENDOWABLE.includes(type)) return no("not-endowable");
+      const cost = endowCost(type);
+      if (s.endowed.includes(cmd.plot)) return no("already-endowed", cost);
+      return s.treasury < cost ? no("no-funds", cost) : { ok: true, cost };
+    }
     case "tax":
       return cmd.level === s.tax ? no("same") : { ok: [0, 1, 2].includes(cmd.level), cost: 0 };
     case "research": {
@@ -421,6 +453,8 @@ function runSeason(s: State, scenario: Scenario): State {
   const sales = Math.floor(sold / 5);
   let upkeep = s.canals.length * CANAL_UPKEEP;
   for (const t of BUILDING_TYPES) upkeep += BUILDINGS[t].upkeep * of(t).length;
+  // An endowed building's upkeep is paid by its endowment.
+  for (const p of s.endowed) if (s.plots[p]) upkeep -= BUILDINGS[s.plots[p]!].upkeep;
   const treasury = s.treasury + tax + trade + sales - upkeep;
 
   // Learning. A school or library that cannot be paid for, or whose city is hungry, teaches nothing.
@@ -491,7 +525,7 @@ function runSeason(s: State, scenario: Scenario): State {
   // The horizon: perhaps a new event, announced a full season before it begins.
   const horizon = s.events.filter((e) => season + 1 < e.season + e.seasons);
   if (rng.int(0, 999) < scenario.eventRate && !horizon.some((e) => e.season > season)) {
-    const kind = rng.weighted<EventKind>(["drought", "good-harvest", "caravan", "silting", "fever"], [26, 20, 22, 16, 16]);
+    const kind = rng.weighted<EventKind>(["drought", "good-harvest", "caravan", "silting", "fever"], scenario.eventWeights ?? EVENT_WEIGHTS);
     horizon.push({ kind, season: season + 2, seasons: kind === "drought" ? 2 : 1 });
   }
 
@@ -502,7 +536,7 @@ function runSeason(s: State, scenario: Scenario): State {
   let outcome: State["outcome"] = "playing";
   if (insolventSeasons >= COLLAPSE_SEASONS) outcome = "lost-insolvent";
   else if (unrestSeasons >= COLLAPSE_SEASONS || households === 0) outcome = "lost-unrest";
-  else if (done) outcome = households >= scenario.goal.households && knowledge + spentKnowledge(researched, researchProgress) >= scenario.goal.knowledge && steadySeasons >= scenario.goal.steadySeasons && treasury >= 0 ? "won" : "ended";
+  else if (done) outcome = households >= scenario.goal.households && knowledge + spentKnowledge(researched, researchProgress) >= scenario.goal.knowledge && steadySeasons >= scenario.goal.steadySeasons && treasury >= 0 && s.endowed.length >= (scenario.goal.endowments ?? 0) ? "won" : "ended";
 
   return {
     ...s,
@@ -557,6 +591,8 @@ export function newGame(scenario: Scenario, seed: number): State {
     tax: 1,
     plots,
     canals: scenario.start.canals.map(([a, b]) => linkKey(a, b)),
+    endowed: [],
+    mayEndow: scenario.endowments === true,
     canalCondition: scenario.start.canalCondition ?? 600,
     intake: scenario.start.intake,
     events: [],
@@ -594,6 +630,8 @@ export function step(scenario: Scenario, s: State, cmd: Command): State {
       return { ...s, research: cmd.id, researchProgress: 0, knowledge: s.knowledge + s.researchProgress };
     case "clear-silt":
       return { ...s, canalCondition: 1000, treasury: s.treasury - p.cost };
+    case "endow":
+      return { ...s, endowed: [...s.endowed, cmd.plot], treasury: s.treasury - p.cost };
     case "end-season":
       return runSeason(s, scenario);
   }
@@ -630,6 +668,9 @@ export function invariants(s: State): string[] {
   if (s.plots.length !== PLOTS) bad.push("the map changed size");
   if (new Set(s.canals).size !== s.canals.length) bad.push("a canal link is listed twice");
   if (new Set(s.researched).size !== s.researched.length) bad.push("a research project is listed twice");
+  if (new Set(s.endowed).size !== s.endowed.length) bad.push("a plot is endowed twice");
+  for (const p of s.endowed) if (!s.plots[p] || !ENDOWABLE.includes(s.plots[p]!)) bad.push(`plot ${p} is endowed but holds nothing that can be`);
+  if (s.endowed.length > 0 && !s.mayEndow) bad.push("something is endowed in a game where endowing is closed");
   if (s.research && s.researched.includes(s.research)) bad.push("researching something already known");
   if (Math.abs(s.treasury) > 10_000_000 || s.grain > 10_000_000 || s.households > 100_000) bad.push("a stock has run away");
   if (s.last) {
