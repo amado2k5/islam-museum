@@ -2,7 +2,7 @@
 
 _Updated 25 November 2026. The criteria are the founder's (`spec-v2/contracts/acceptance.json`) and are not edited here; only the status and the evidence columns change, and only with something that was actually run. The machine-readable copy is [`acceptance.json`](acceptance.json)._
 
-No gate has passed. Eight have partial evidence. Two games exist as prototypes (Atlas and The Golden Age); every per-game gate is open for the other nine.
+No gate has passed. Eight have partial evidence. Three games exist as prototypes (Granada, Atlas and The Golden Age); every per-game gate is open for the other eight. Granada's own gates are in [`granada/acceptance.md`](granada/acceptance.md).
 
 | ID | Scope | Requirement | Evidence required | Status | Evidence so far |
 |---|---|---|---|---|---|

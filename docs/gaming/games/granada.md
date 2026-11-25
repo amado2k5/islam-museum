@@ -1,6 +1,6 @@
 # Granada: state of the game
 
-_Updated 25 November 2026. Release status: **planned, with the rules of its first scenario built**. It cannot be played by a person: there is no screen, no scene and no string a visitor reads. What exists is the part underneath: the money and goods of its economy, the region's geography from the museum's coordinates, and the first scenario, "Water for the Valley", as rules that scripted players have played 6,000 times._
+_Updated 25 November 2026. Release status: **prototype**. Its first scenario, "Water for the Valley", can be played from start to finish in a browser, in seven languages, with the mouse or the keyboard alone, from panels and a drawn plan of the valley. **It is not in 3D yet**, which is what the founder's design asks for and what the next work is; it has no sound of its own beyond the museum's music; and no person has played it: every playthrough so far is the author's script._
 
 The founder's design is in [`../spec-granada/`](../spec-granada/) (the package of 25 November 2026, read in full). What was found before building is in [`../granada/g0-discovery.md`](../granada/g0-discovery.md); the gates are in [`../granada/acceptance.md`](../granada/acceptance.md); the decisions are [G-0009](../adr/G-0009-granada-eleventh-game.md), [G-0010](../adr/G-0010-granada-economy-kernel.md) and [G-0011](../adr/G-0011-granada-village-rules.md).
 
@@ -19,7 +19,9 @@ The founder's design is in [`../spec-granada/`](../spec-granada/) (the package o
 | Geography | `src/world/geography.ts` | Great-circle distance in whole metres, a flat map centred on the city with east to the right in every language, compass direction |
 | Museum records | `data/museum-records.source.json` (chosen by hand), `data/museum-records.v1.json` (built), `tools/build-records.ts` | 25 records pinned with their labels in seven languages, their review state, and coordinates for the eleven places |
 | A check on the tests | `tools/mutate-economy.py` | Breaks the kernel in 18 ways and confirms the tests fail each time |
-| Tests | `test/economy.gtest.ts` (33), `test/geography.gtest.ts` (8), `test/village.gtest.ts` (28) | See below |
+| The page | `index.html`, `src/ui/app.ts` (the page: top bar, tabs, dialogs, time), `src/ui/model.ts` (every figure shown, worked out from the rules), `src/ui/map.ts` (the valley as a plan, in SVG), `src/ui/granada.css`, `src/save.ts`, `i18n/` (190 strings in seven languages) | See "The page" below |
+| A play script | `gaming/tools/granada-play.ts` | Real Chrome through the whole scenario, in a chosen language |
+| Tests | `test/economy.gtest.ts` (33), `test/geography.gtest.ts` (8), `test/village.gtest.ts` (28), `test/screen.gtest.ts` (12) | See below |
 
 ## What the money and goods promise
 
@@ -52,6 +54,18 @@ Five quests, each a condition the rules check and not a button: water reaching t
 
 The weather and the river's year are fixed by the seed, so what a forecast shows is what will happen unless the player acts. What the lab found, and what is wrong with the scenario as it stands, is in [G-0011](../adr/G-0011-granada-village-rules.md).
 
+## The page
+
+Open it with `npm --prefix gaming run dev`, then `http://127.0.0.1:4330/games/granada/index.html?lang=ar` (or `en`, `ur`, `fr`, `es`, `tr`, `id`).
+
+- **The top bar** shows the valley now: dinars, days of food, households and housing, welfare, the pool, the store, timber and stone, each with tomorrow's change. **The line under it** says what tomorrow and the next ten days will bring if nothing more is done. Neither is an estimate: both are the rules run on a copy of the game.
+- **The plan of the valley** is drawn from the state: the river, the pool filled to its level, the channel and its three branches (flowing with moving water, broken with a red cross, or not there), the three fields with their crop and how far it has grown or been gathered, a house for every ten households of housing, the store with its fill, the granary, the market, rain when it rains, and the snow mountain labelled with the museum's own name for it. Each field is a button that says its condition in words. East is on the right in every language: the panels mirror for Arabic and Urdu, the land does not.
+- **Five tabs**: the valley (the most pressing fact, the five quests with their progress, who gets water first, the weather of the next seven days and the river's year), the fields (growth, water and hands, what stands, what was brought in, sold and spoiled, and the orders that can be given), the works (each with its cost, its progress, and why it is refused if it is), the market (two prices, and buttons only for what can really be bought or sold), and yesterday.
+- **Time**: pause, let the days pass, faster, or one day at a time. Time does not pass behind a dialog, in a hidden tab, or while the game is closed.
+- **Saving**: on the device, after every order and every day. A save is believed only if it passes every rule of the game, the ledger's audit included; a damaged one is set aside and said so.
+- **The brief** says plainly that this is a game and not a history, and links to the museum's records for Granada, the Emirate of Granada and the Sierra Nevada. The game states no history of its own.
+- **Keys**: 1 to 5 for the tabs, P to pause or go on, N or the full stop for one day, H for help. Every control is an ordinary button.
+
 ## The museum behind it
 
 `npm --prefix gaming run granada:records` reads the hand-chosen list and pins what the museum has. A record that is missing, sensitive, without a label in one of the seven languages, or (for a place) without coordinates stops the build.
@@ -70,18 +84,26 @@ Distances from the museum's coordinates, held by tests: Granada to Málaga 89 km
 
 | Check | Result (25 November 2026) |
 |---|---|
-| `npm --prefix gaming test` (Granada's part) | 3 files, 69 tests, all pass |
-| `npm --prefix gaming run granada:village-lab -- 1000` | 6,000 campaigns over 1,000 seeds in 40 s; no rule broken; the do-nothing and random players never win; the four real ways of playing win 91.4% to 100% |
+| `npm --prefix gaming test` (Granada's part) | 4 files, 81 tests, all pass |
+| `npm --prefix gaming run granada:play -- <dir> <lang>` in real Chrome 158, each of the seven languages | Every step passed and no console or network error: the brief with its three museum links; a field chosen on the plan and its harvest ordered with the mouse; a repair ordered and a second work on the channel refused; a purchase, the water order and a day by keyboard alone, with the keyboard keeping its place; days passing on their own, stopping at a pause and behind the help; a reload resuming the same day; a damaged save set aside; the plan not mirrored in Arabic and Urdu; a whole campaign carried through the page to a win (12 orders, score 1,254); another year begun |
+| `npm --prefix gaming run release:smoke` | Granada is the first of three pages in the release (46 files, 3.28 MB); in Arabic and English it starts and a day passes under the host's content security policy with no violation; its page transfers about 100 KB |
+| `npm --prefix gaming run strings` | Granada: 190 strings in seven languages, same keys, same blanks |
+| `npm --prefix gaming run granada:village-lab -- 1000` | 6,000 campaigns over 1,000 seeds in 39 s; no rule broken; the do-nothing and random players never win; the four real ways of playing win 91.6% to 100% (mender 99.5, builder 91.6, merchant 96.4, irrigator 100) |
 | Random play (`games/granada/tools/fuzz-report.ts`) | 60,000 commands over 300 openings; 24,460 accepted (40.8%); 0 unsound states; of 1,200 contracts 436 settled, 297 cancelled, 236 failed, 76 still accepted, 155 never taken up |
 | `npm --prefix gaming run granada:mutations` | 18 of 18 deliberate breakages caught by the tests |
 | `npm --prefix gaming run granada:records` | 25 records, 11 places; digest `3b9fd1e2af98…` |
 
-Evidence: [`../evidence/granada/g0/`](../evidence/granada/g0/) (as it stood when gate G0 was written: 38 tests, 15 breakages) and [`../evidence/granada/village/`](../evidence/granada/village/).
+Evidence: [`../evidence/granada/g0/`](../evidence/granada/g0/) (as it stood when gate G0 was written: 38 tests, 15 breakages), [`../evidence/granada/village/`](../evidence/granada/village/) and [`../evidence/granada/screen/`](../evidence/granada/screen/) (the seven play runs, the release smoke report and eight captures of the real page).
+
+![The valley in Arabic, mid-game](../evidence/granada/screen/granada-ar-6-valley.webp)
 
 ## Not done
 
-- **Everything a player would see.** No screen, no scene, no terrain, no camera, no save, no strings, no sound. The first scenario exists as rules only.
-- The scenario is too forgiving: two of the four scripted ways of playing cannot lose, and money has too little to do by the end ([G-0011](../adr/G-0011-granada-village-rules.md)).
+- **The 3D valley.** The page shows a drawn plan, not the lit, modelled world of the founder's design: no terrain, no camera, no people walking, no water you can see run in three dimensions. Gate GRA12 is untouched.
+- **No person has played it.** The seven play runs are the author's script. The strings in five languages were translated by a Sonnet subagent and all seven tables are unread by a native speaker; the helper reported a dozen wordings it was unsure of, the clipped "{field}: ..." sentences among them.
+- No sound effects; the museum's music plays in a development build and is absent from a release until the tracks are hosted.
+- The scenario is too forgiving: three of the four scripted ways of playing win at least 95 campaigns in 100, and money has too little to do by the end ([G-0011](../adr/G-0011-granada-village-rules.md)).
+- One scenario of the campaign's three acts; no sandbox, no daily challenge, no undo.
 - Prices do not move; goods do not travel; there is one warehouse; the clock is a counter. See [G-0010](../adr/G-0010-granada-economy-kernel.md), "What it does not do yet".
 - Water, farming, labour, households and two kinds of building exist for one valley. A mill, a second market, goods that travel, construction in stages, diplomacy, defence: not started.
 - No historical statement of the game has been checked against a source, because the game makes none yet.
@@ -90,6 +112,6 @@ Evidence: [`../evidence/granada/g0/`](../evidence/granada/g0/) (as it stood when
 
 ## Next
 
-1. **The screen**: the valley in 3D on the existing renderer, with terrain, the channel and its water, the three fields, the store and the houses; the top bar showing what tomorrow and the season will bring from the real forecast; seven languages; saving; a play script in real Chrome. This is what makes Granada a game a person can open.
-2. Prices that respond to stock within bounds, and a second market at Málaga reached by goods that travel (Act II).
-3. Tightening Act I once people have played it.
+1. **The valley in 3D**, on the existing renderer and over the same state: terrain, the river and the channel with running water, the fields in their seasons, the village, people at work, the mountain. The plan stays as the accessible view and as the whole picture where there is no WebGPU.
+2. A person plays it, and what they do is written down. Then Act I is tightened.
+3. Act II: prices that respond to stock, a mill, and goods that travel to Málaga.

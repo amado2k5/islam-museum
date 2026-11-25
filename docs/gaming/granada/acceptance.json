@@ -11,7 +11,7 @@
   "not-applicable"
  ],
  "updated": "2026-11-25",
- "status": "in-progress: G0 done (self-assessed); the ledger, the region's geography and the first scenario's rules are built and tested; there is no screen, so no person can play it",
+ "status": "in-progress: G0 done (self-assessed); the first scenario can be played in a browser in seven languages from panels and a drawn plan; it is not in 3D and no person has played it",
  "criteriaSource": "docs/gaming/spec-granada/contracts/acceptance.json (the founder's; never edited here)",
  "gates": [
   {
@@ -30,7 +30,7 @@
    "evidence": "Unassisted browser recording, E2E, player observations",
    "status": "in-progress",
    "hardGate": true,
-   "evidenceSoFar": "The loop exists as rules and is played by scripted players: mend or extend the water, bring in the ripe wheat, sell or store it, build a house and the granary, complete five quests (gaming/games/granada/src/sim/village.ts; 28 tests; docs/gaming/evidence/granada/village/village-lab-1000.md). Not done, and it is most of the gate: no screen, no saving, no browser recording, and no first-time player, so 'unassisted' cannot be tested."
+   "evidenceSoFar": "The loop can be played in a browser from start to finish: mend or extend the water, bring in the ripe wheat, sell or store it, build a house and the granary, complete five quests, with the game saved on the device (gaming/games/granada; docs/gaming/evidence/granada/screen/play-7-languages.json and eight captures). The play was done by the author's script in real Chrome in seven languages, with the mouse and with the keyboard alone. Not done, and it is the heart of the gate: no first-time player, so 'unassisted' is untested; no recording; and the page is a drawn plan, not the 3D game."
   },
   {
    "id": "GRA03",
@@ -120,7 +120,7 @@
    "evidence": "Actual captures and independent art review",
    "status": "not-tested",
    "hardGate": true,
-   "evidenceSoFar": "Nothing yet."
+   "evidenceSoFar": "The page that exists is a drawn plan in SVG, made from the state of the game; it uses no concept image. It is not 3D, so this gate is untouched."
   },
   {
    "id": "GRA13",
@@ -136,9 +136,9 @@
    "milestone": "G5",
    "requirement": "Contextual HUD modes, no conflicting ghost, map markers reflect state, Overview visibility target",
    "evidence": "UI mask, screenshots, marker ID tests, navigation recording",
-   "status": "not-tested",
+   "status": "in-progress",
    "hardGate": true,
-   "evidenceSoFar": "Nothing yet."
+   "evidenceSoFar": "The plan of the valley is drawn from the state and checked by the play script: branches flowing, broken or absent, fields by crop and stage, houses, store and granary, with each field's condition also said in words. There is one view, so no conflicting overlay can occur yet. Not done: the HUD modes of the design, a 3D overview, marker-id tests against a 3D scene."
   },
   {
    "id": "GRA15",
@@ -154,9 +154,9 @@
    "milestone": "G2/G8",
    "requirement": "Save atomicity, migration, quota and corrupt save recovery; no unattended progression",
    "evidence": "Browser recovery fixtures and replay evidence",
-   "status": "not-tested",
+   "status": "in-progress",
    "hardGate": true,
-   "evidenceSoFar": "Nothing yet."
+   "evidenceSoFar": "A versioned save on the device after every order and every day; read back only if it passes every rule of the game (the ledger's audit included); a damaged, tampered, unknown or newer save is set aside and said so; a device that refuses to save is reported; time does not pass while the game is closed or hidden (screen.gtest.ts; the play script reloads mid-game and plants a damaged save). Not done: no migration exists because there is one version; no quota test in a real browser; no rotating autosaves or export."
   },
   {
    "id": "GRA17",
@@ -192,7 +192,7 @@
    "evidence": "Localized route matrix, link test, network trace",
    "status": "not-tested",
    "hardGate": true,
-   "evidenceSoFar": "Nothing yet."
+   "evidenceSoFar": "The game is first in the games' own registry (gaming/games/registry.json) and has its page in a release; nothing of it is on the site."
   },
   {
    "id": "GRA21",
@@ -217,9 +217,9 @@
    "milestone": "G8",
    "requirement": "Accessible essential controls, keyboard, RTL and text scaling, language review",
    "evidence": "Functional tests, seven locale screenshots, review",
-   "status": "not-tested",
+   "status": "in-progress",
    "hardGate": true,
-   "evidenceSoFar": "Nothing yet."
+   "evidenceSoFar": "Every control is an ordinary button; the play script carries out a purchase, a change of the water order and a day by keyboard alone and checks that the keyboard keeps its place when the panels are redrawn; Arabic and Urdu mirror the panels and not the land; seven languages with the same keys and blanks. Not done: no screen-reader pass, no text-scaling or zoom test, no contrast audit, and no native speaker has read any of the seven tables."
   },
   {
    "id": "GRA24",

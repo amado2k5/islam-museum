@@ -21,10 +21,12 @@ _25 November 2026. Status: accepted and built as rules for the first scenario, "
 | Random commands | 0% |
 | Mender (the cheap repair, olives for cash, grain bought) | 99.5% |
 | Builder (the great works, vegetables in the meadow) | 91.6% |
-| Merchant (sells from the field, lives by the market) | 91.4% |
+| Merchant (sells from the field, lives by the market) | 96.4% |
 | Irrigator (fields before households, everything built) | 100% |
 
-All four ways of playing are viable, which the package asks for (three). Two of them cannot lose, and the other two lose only for holding a day or two less food than the goal. **As it stands the scenario asks a steward to act sensibly and then lets them win.** For a first chapter that teaches the loop that may be right; whether it is too easy is for people to say, and nobody has played it. The river's year changes the score more than the outcome. Money still has too little to do by the end: the irrigator finishes with about 2,050 dinars. Full table: [`../evidence/granada/village/village-lab-1000.md`](../evidence/granada/village/village-lab-1000.md).
+_(Run again for the eleventh pull request, after one rule changed: a harvested field lies fallow the same day instead of the day after. The merchant was at 91.4% before.)_
+
+All four ways of playing are viable, which the package asks for (three). Three of them win at least 95 campaigns in 100, and the fourth loses only for holding a day or two less food than the goal. **As it stands the scenario asks a steward to act sensibly and then lets them win.** For a first chapter that teaches the loop that may be right; whether it is too easy is for people to say, and nobody has played it. The river's year changes the score more than the outcome. Money still has too little to do by the end: the irrigator finishes with about 2,050 dinars. Full table: [`../evidence/granada/village/village-lab-1000.md`](../evidence/granada/village/village-lab-1000.md).
 
 ## What it does not do
 
