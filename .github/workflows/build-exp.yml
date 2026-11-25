@@ -41,7 +41,9 @@ jobs:
   # The same unit tests as the one build. A language deploy accepts a run only when this job passed.
   test:
     runs-on: ubuntu-latest
-    timeout-minutes: 60
+    # 90, not 60: the suite measured 40 minutes in build-lang run 45555515400 but passed 60 on a slow runner
+    # (experimental run 45601297166, cancelled at the timeout with the tests still passing one by one).
+    timeout-minutes: 90
     steps:
       - name: Only the repository owner or an admin may start this workflow
         env:
