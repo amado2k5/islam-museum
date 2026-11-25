@@ -13,7 +13,7 @@ _Last updated: 25 November 2026, end of the first session._
 | Games | **None exists.** All ten are `planned` |
 | On the public site | Nothing. No page, link, script or asset of the gaming platform is in the site build |
 | Branch | `claude/islam-museum-gaming-v2-c9bd91`, from `origin/main` at `94cb4298a37` |
-| Pull request | [amado2k5/islam-museum#PRNUM](https://github.com/amado2k5/islam-museum/pull/PRNUM) |
+| Pull request | [amado2k5/islam-museum#8247](https://github.com/amado2k5/islam-museum/pull/8247) (M0 and M1) |
 | Lane | `gaming` (`docs/agents/lanes.md`) |
 
 **In one paragraph.** The repository, hosting, languages and this machine were inventoried and the findings written down. An isolated `gaming/` workspace exists with pinned, audit-clean dependencies. A procedural reference city (770 buildings, 1.33 million triangles) is generated from a seed and drawn by both Three.js and Babylon.js on WebGPU; both were benchmarked in real Chrome on an Apple M4 Max and Three.js was chosen. Sixteen real captures and nine benchmark files are in `evidence/m1/`. The captures show a clean architectural model, well short of the concept art; the report lists the gaps. No gameplay, portal page, SDK, mod system, translation or deployment work has been done.
