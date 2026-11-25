@@ -1,0 +1,18 @@
+---
+// The funun browser (scripts/shelves.ts, docs/site/browsers.md): a class-driven shelf of the
+// graph's own records — membership and sections are computed at build time by the spec, curated
+// records join through the funun-browser tag, and the page is the shared ShelfPage.
+import ShelfPage from "../../../components/sig/ShelfPage.astro";
+import { pagedStaticPaths } from "../../../lib/paged";
+import { shelfItems, SHELVES } from "../../../lib/shelves";
+import { LANGS, type Lang } from "../../../lib/i18n";
+
+const slug = "funun";
+export function getStaticPaths() {
+  const slug = "funun";
+  const items = shelfItems(slug);
+  return pagedStaticPaths(LANGS, SHELVES[slug].sections.map((id) => ({ id, count: items.filter((i) => i.section === id).length })));
+}
+const { lang } = Astro.props as { lang: Lang };
+---
+<ShelfPage lang={lang} slug={slug} pagedProps={Astro.props} />

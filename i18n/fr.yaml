@@ -1717,6 +1717,46 @@ explore:
   related_card: Lié
   font: Police
   pages:
+    imara:
+      title: 'Navigateur de l''architecture islamique'
+      desc: 'Le monde bâti de l''islam : mosquées, madrasas, palais, forteresses, bibliothèques, observatoires, hôpitaux, marchés, khans, hammams et jardins.'
+      menu: 'Parcourir mosquées, madrasas, palais, forteresses et bâtiments civiques'
+    collection:
+      title: 'Navigateur des objets et artefacts'
+      desc: 'La collection par famille de matière : manuscrits, céramiques et verre, métaux, textiles, reliques, armes, instruments et monnaies.'
+      menu: 'Parcourir les objets : manuscrits, céramiques, métaux, textiles, reliques'
+    tasawwuf:
+      title: 'Navigateur du tasawwuf (soufisme)'
+      desc: 'La voie spirituelle : ordres soufis, mystiques et maîtres, leurs œuvres et les stations et concepts nommés.'
+      menu: 'Parcourir les ordres soufis, les mystiques et leurs œuvres'
+    kalam:
+      title: 'Navigateur de théologie et philosophie'
+      desc: 'Les écoles de pensée : sectes et madhhabs, mutakallimun et falasifa, et les œuvres de kalam et de falsafa.'
+      menu: 'Parcourir les écoles, les théologiens et les philosophes'
+    nisa:
+      title: 'Navigateur des femmes de l''islam'
+      desc: 'Chaque femme du répertoire : Compagnonnes, savantes et transmettrices, mystiques, poétesses et écrivaines, artistes, souveraines, athlètes et société.'
+      menu: 'Parcourir les femmes : Compagnonnes, savantes, poétesses, souveraines'
+    uhud:
+      title: 'Navigateur des pactes et de la diplomatie'
+      desc: 'La diplomatie consignée : traités et pactes, déclarations, chartes et les envoyés et diplomates qui les portaient.'
+      menu: 'Parcourir traités, chartes et diplomates'
+    maahid:
+      title: 'Navigateur des institutions du savoir'
+      desc: 'Les maisons du savoir et du soin : madrasas, bibliothèques, observatoires, hôpitaux bimaristan et organisations savantes.'
+      menu: 'Parcourir madrasas, bibliothèques, observatoires et hôpitaux'
+    mawt:
+      title: 'Navigateur des tombes et lieux de sépulture'
+      desc: 'Lieux de repos : tombes, mausolées et sanctuaires des prophètes, savants, souverains et saints.'
+      menu: 'Parcourir tombes, mausolées et sanctuaires'
+    ulum:
+      title: 'Navigateur des sciences et des savants'
+      desc: 'Les gens des disciplines : astronomes, mathématiciens, médecins, géographes, naturalistes et ingénieurs.'
+      menu: 'Parcourir les savants par discipline'
+    funun:
+      title: 'Navigateur des arts et des artistes'
+      desc: 'Les arts et leurs gens : calligraphes, peintres, musiciens, architectes et métiers du livre.'
+      menu: 'Parcourir calligraphes, artistes, musiciens et architectes'
     heroes:
       title: Héros de l''islam
       desc: 'La salle des héros : six salles de vertu — sacrifice, courage, miséricorde, générosité, savoir et constance — chacune avec quatre héros, leurs récits complets et leurs sources.'
@@ -9341,3 +9381,201 @@ open_access_audit:
   policy_link: Lire la politique d'accès ouvert
   eng_body: Un compte rendu technique plus complet de cet audit est conservé avec les documents d'ingénierie du musée dans le dépôt public.
   eng_link: Documents d'ingénierie
+
+shelf:
+  badge: 'Explorateur'
+  status: 'Cette version contient {n} notices en {s} sections ; les textes restent des brouillons tant qu''un humain ne les a pas relus.'
+  method_title: 'Comment fonctionne ce navigateur'
+  api: 'L''ensemble complet est disponible sur'
+  sections_title: 'Les sections du navigateur'
+  filter_label: 'Filtrer les notices'
+  filter_none: 'Aucun résultat.'
+  empty: 'Aucune notice dans cette version pour l''instant.'
+imara:
+  title: 'Navigateur de l''architecture islamique'
+  lede: 'Le monde bâti de l''islam dans les notices du musée : mosquées et minarets, madrasas, palais, forteresses, bibliothèques et observatoires, hôpitaux, marchés, khans, hammams et jardins — chaque bâtiment avec ses sources.'
+  badge: 'Explorateur'
+  method_note: 'L''appartenance se lit sur la notice : chaque bâtiment entre dans la section de son genre, tandis que tombes et mausolées ont leur propre navigateur (mawt) et la lecture du sacré reste au Navigateur des lieux sacrés. Les notices choisies hors de la classe building rejoignent par le tag imara-browser.'
+  sections:
+    mosques:
+      title: 'Mosquées et minarets'
+    madrasas:
+      title: 'Madrasas'
+    palaces:
+      title: 'Palais'
+    defense:
+      title: 'Forteresses et défenses'
+    learning:
+      title: 'Bibliothèques et observatoires'
+    care:
+      title: 'Hôpitaux (bimaristans)'
+    civic:
+      title: 'Marchés, khans, hammams et jardins'
+    curated:
+      title: 'Notices choisies'
+collection:
+  title: 'Navigateur des objets et artefacts'
+  lede: 'La collection du musée : manuscrits et folios, céramiques, carreaux et verre, métaux, textiles et tapis, reliques, armes et instruments, monnaies — chaque objet par famille de matière, avec ses sources.'
+  badge: 'Explorateur'
+  method_note: 'Chaque objet entre dans la section de sa famille de matière — folio et manuscrit sous manuscrits, céramique, carreau et verre sous céramiques, etc. Les notices choisies hors de la classe object rejoignent par le tag collection-browser.'
+  sections:
+    manuscripts:
+      title: 'Manuscrits et folios'
+    ceramics:
+      title: 'Céramiques, carreaux et verre'
+    metalwork:
+      title: 'Métaux'
+    textiles:
+      title: 'Textiles et tapis'
+    relics:
+      title: 'Reliques'
+    arms:
+      title: 'Armes et instruments'
+    coins:
+      title: 'Monnaies'
+    other:
+      title: 'Autres objets'
+    curated:
+      title: 'Notices choisies'
+tasawwuf:
+  title: 'Navigateur du tasawwuf (soufisme)'
+  lede: 'La voie spirituelle dans les notices du musée : les ordres soufis, les mystiques et maîtres qui l''ont suivie, leurs œuvres et les stations et concepts qu''ils ont nommés — chaque notice avec ses sources.'
+  badge: 'Explorateur'
+  method_note: 'L''appartenance se lit sur la notice : les personnes dont les rôles nomment la voie (mystique, soufi), les groupes de genre ordre, et les œuvres et concepts tagués tasawwuf-browser. Les notices d''autres vues restent étiquetées de leurs traditions.'
+  sections:
+    orders:
+      title: 'Les ordres'
+    masters:
+      title: 'Maîtres et mystiques'
+    works:
+      title: 'Œuvres du tasawwuf'
+    concepts:
+      title: 'Stations et concepts'
+    curated:
+      title: 'Notices choisies'
+kalam:
+  title: 'Navigateur de théologie et philosophie'
+  lede: 'Les écoles de pensée dans les notices du musée : les mutakallimun et les falasifa, les sectes et écoles qu''ils ont formées, et les œuvres de kalam et de falsafa — chaque notice avec ses sources, les questions disputées étiquetées par tradition.'
+  badge: 'Explorateur'
+  method_note: 'L''appartenance se lit sur la notice : les personnes dont les rôles ou métiers nomment la théologie ou la philosophie (théologien, philosophe, mutakallim), les groupes de genre secte ou madhhab, et les œuvres taguées kalam-browser. Les positions sont énoncées avec leurs tenants, jamais par la voix du musée.'
+  sections:
+    schools:
+      title: 'Les écoles et sectes'
+    mutakallimun:
+      title: 'Théologiens (mutakallimun)'
+    philosophers:
+      title: 'Philosophes (falasifa)'
+    works:
+      title: 'Œuvres et textes'
+    curated:
+      title: 'Notices choisies'
+nisa:
+  title: 'Navigateur des femmes de l''islam'
+  lede: 'Les femmes des notices du musée — Compagnonnes et transmettrices, savantes, mystiques, poétesses et écrivaines, artistes, souveraines et dirigeantes, athlètes, et femmes de la société et de la vie quotidienne — chaque personne féminine avec ses sources.'
+  badge: 'Explorateur'
+  method_note: 'L''appartenance se lit sur la notice : toute personne de genre féminin, groupée par ses rôles — Compagnonnes d''abord, puis savantes, dévotes, écrivaines, artistes, souveraines, athlètes et société. Les notices entrent sans étiquetage.'
+  sections:
+    companions:
+      title: 'Compagnonnes et premières musulmanes'
+    scholars:
+      title: 'Savantes et transmettrices'
+    piety:
+      title: 'Mystiques et dévotes'
+    writers:
+      title: 'Écrivaines et poétesses'
+    arts:
+      title: 'Artistes'
+    rulers:
+      title: 'Souveraines et dirigeantes'
+    sports:
+      title: 'Athlètes'
+    society:
+      title: 'Société et vie quotidienne'
+    curated:
+      title: 'Notices choisies'
+uhud:
+  title: 'Navigateur des pactes et de la diplomatie'
+  lede: 'Les pactes et la diplomatie dans les notices du musée : traités et pactes, déclarations, chartes et les envoyés qui portaient la parole — chaque accord consigné et ses artisans, avec sources.'
+  badge: 'Explorateur'
+  method_note: 'L''appartenance se lit sur la notice : les événements de la famille des traités (traité, déclaration, trêve, pacte, paix, armistice, capitulation, covenant, alliance), les œuvres de genre charte, et les personnes dont les rôles nomment le métier de diplomate. Les notices choisies rejoignent par le tag uhud-browser.'
+  sections:
+    treaties:
+      title: 'Traités et pactes'
+    declarations:
+      title: 'Déclarations'
+    charters:
+      title: 'Chartes et pactes'
+    envoys:
+      title: 'Envoyés et diplomates'
+    other:
+      title: 'Autres événements diplomatiques'
+    curated:
+      title: 'Notices choisies'
+maahid:
+  title: 'Navigateur des institutions du savoir'
+  lede: 'Les maisons du savoir et du soin dans les notices du musée : madrasas, bibliothèques, observatoires, hôpitaux bimaristan et les organisations qui gardent le savoir — chaque institution avec ses sources.'
+  badge: 'Explorateur'
+  method_note: 'L''appartenance se lit sur la notice : les bâtiments de genre madrasa, bibliothèque, observatoire et bimaristan ; les groupes de genre université, institution, organisme de normalisation et organisation internationale ; et les œuvres de genre bibliothèque en ligne. Les notices choisies rejoignent par le tag maahid-browser.'
+  sections:
+    madrasas:
+      title: 'Madrasas'
+    libraries:
+      title: 'Bibliothèques'
+    observatories:
+      title: 'Observatoires'
+    hospitals:
+      title: 'Hôpitaux (bimaristans)'
+    organisations:
+      title: 'Organisations et organismes'
+    curated:
+      title: 'Notices choisies'
+mawt:
+  title: 'Navigateur des tombes et lieux de sépulture'
+  lede: 'Les lieux de repos dans les notices du musée : tombes et mausolées, sanctuaires et sépultures des prophètes, savants, souverains et saints — chaque bâtiment funéraire avec ses sources.'
+  badge: 'Explorateur'
+  method_note: 'L''appartenance se lit sur la notice : tout bâtiment de genre tombe ou sanctuaire. La lecture plus large du lieu sacré reste au Navigateur des lieux sacrés ; ici la notice est le lieu de repos lui-même. Les notices choisies rejoignent par le tag mawt-browser.'
+  sections:
+    tombs:
+      title: 'Tombes et mausolées'
+    shrines:
+      title: 'Sanctuaires'
+    curated:
+      title: 'Notices choisies'
+ulum:
+  title: 'Navigateur des sciences et des savants'
+  lede: 'Les gens des disciplines dans les notices du musée : astronomes, mathématiciens, médecins, géographes, naturalistes et ingénieurs — chaque savant par domaine, avec sources.'
+  badge: 'Explorateur'
+  method_note: 'L''appartenance se lit sur la notice : les personnes dont les rôles ou métiers nomment une discipline — astronome, mathématicien, médecin, géographe, physicien, chimiste, ingénieur et leurs semblables. Les inventions elles-mêmes restent au Navigateur des inventions musulmanes ; ici la notice est la personne. Les notices choisies rejoignent par le tag ulum-browser.'
+  sections:
+    astronomy:
+      title: 'Astronomie'
+    mathematics:
+      title: 'Mathématiques'
+    medicine:
+      title: 'Médecine'
+    geography:
+      title: 'Géographie'
+    natural:
+      title: 'Sciences de la nature'
+    engineering:
+      title: 'Ingénierie'
+    curated:
+      title: 'Notices choisies'
+funun:
+  title: 'Navigateur des arts et des artistes'
+  lede: 'Les arts et leurs gens dans les notices du musée : calligraphes, peintres et enlumineurs, musiciens et chanteurs, architectes, et les métiers du livre — chaque artiste par art, avec sources.'
+  badge: 'Explorateur'
+  method_note: 'L''appartenance se lit sur la notice : les personnes dont les rôles ou métiers nomment un art — calligraphes, peintres, enlumineurs et miniaturistes, musiciens et chanteurs, architectes, copistes et métiers du livre. Les objets d''art restent au navigateur collection, et les faiseurs de médias au leur. Les notices choisies rejoignent par le tag funun-browser.'
+  sections:
+    calligraphy:
+      title: 'Calligraphie'
+    visual:
+      title: 'Arts visuels'
+    music:
+      title: 'Musique et chant'
+    architecture:
+      title: 'Architectes'
+    bookcrafts:
+      title: 'Métiers du livre'
+    curated:
+      title: 'Notices choisies'

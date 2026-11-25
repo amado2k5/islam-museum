@@ -1626,6 +1626,46 @@ explore:
   related_card: Relacionado
   font: Fuente
   pages:
+    imara:
+      title: 'Navegador de la arquitectura islámica'
+      desc: 'El mundo construido del islam: mezquitas, madrazas, palacios, fortalezas, bibliotecas, observatorios, hospitales, mercados, janes, hammams y jardines.'
+      menu: 'Recorrer mezquitas, madrazas, palacios, fortalezas y edificios civiles'
+    collection:
+      title: 'Navegador de objetos y artefactos'
+      desc: 'La colección por familia de material: manuscritos, cerámica y vidrio, metalistería, textiles, reliquias, armas, instrumentos y monedas.'
+      menu: 'Recorrer los objetos: manuscritos, cerámica, metalistería, textiles, reliquias'
+    tasawwuf:
+      title: 'Navegador del tasawwuf (sufismo)'
+      desc: 'El camino espiritual: órdenes sufíes, místicos y maestros, sus obras y las estaciones y conceptos nombrados.'
+      menu: 'Recorrer las órdenes sufíes, los místicos y sus obras'
+    kalam:
+      title: 'Navegador de teología y filosofía'
+      desc: 'Las escuelas de pensamiento: sectas y madhhabs, mutakallimun y falasifa, y las obras de kalam y falsafa.'
+      menu: 'Recorrer las escuelas, los teólogos y los filósofos'
+    nisa:
+      title: 'Navegador de las mujeres del islam'
+      desc: 'Cada mujer registrada: Compañeras, sabias y transmisoras, místicas, poetas y escritoras, artistas, soberanas, atletas y sociedad.'
+      menu: 'Recorrer las mujeres: Compañeras, sabias, poetas, soberanas'
+    uhud:
+      title: 'Navegador de pactos y diplomacia'
+      desc: 'La diplomacia consignada: tratados y pactos, declaraciones, cartas y los enviados y diplomáticos que las llevaron.'
+      menu: 'Recorrer tratados, cartas y diplomáticos'
+    maahid:
+      title: 'Navegador de instituciones del saber'
+      desc: 'Casas del saber y del cuidado: madrazas, bibliotecas, observatorios, hospitales bimaristán y organizaciones sabias.'
+      menu: 'Recorrer madrazas, bibliotecas, observatorios y hospitales'
+    mawt:
+      title: 'Navegador de tumbas y lugares de reposo'
+      desc: 'Lugares de reposo: tumbas, mausoleos y santuarios de profetas, sabios, soberanos y santos.'
+      menu: 'Recorrer tumbas, mausoleos y santuarios'
+    ulum:
+      title: 'Navegador de ciencias y científicos'
+      desc: 'La gente de las disciplinas: astrónomos, matemáticos, médicos, geógrafos, naturalistas e ingenieros.'
+      menu: 'Recorrer los científicos por disciplina'
+    funun:
+      title: 'Navegador de artes y artistas'
+      desc: 'Las artes y su gente: calígrafos, pintores, músicos, arquitectos y oficios del libro.'
+      menu: 'Recorrer calígrafos, artistas, músicos y arquitectos'
     heroes:
       title: Héroes del islam
       desc: "El salón de los héroes: seis salones de la virtud (sacrificio, valentía, misericordia, generosidad, conocimiento y firmeza), cada uno con cuatro héroes, sus historias completas y sus fuentes."
@@ -8179,3 +8219,201 @@ open_access_audit:
   policy_link: Leer la política de acceso abierto
   eng_body: Un registro de ingeniería más completo de esta auditoría se conserva con los documentos de ingeniería del museo en el repositorio público.
   eng_link: Documentos de ingeniería
+
+shelf:
+  badge: 'Explorador'
+  status: 'Esta versión contiene {n} registros en {s} secciones; los textos son borradores hasta que una persona los revise.'
+  method_title: 'Cómo funciona este navegador'
+  api: 'El conjunto completo está disponible en'
+  sections_title: 'Secciones del navegador'
+  filter_label: 'Filtrar los registros'
+  filter_none: 'Sin resultados.'
+  empty: 'Aún no hay registros en esta versión.'
+imara:
+  title: 'Navegador de la arquitectura islámica'
+  lede: 'El mundo construido del islam en los registros del museo: mezquitas y minaretes, madrazas, palacios, fortalezas, bibliotecas y observatorios, hospitales, mercados, janes, hammams y jardines — cada edificio con sus fuentes.'
+  badge: 'Explorador'
+  method_note: 'La pertenencia se lee del registro: cada edificio entra en la sección de su clase, mientras tumbas y santuarios tienen su propio navegador (mawt) y la lectura de lo sagrado queda con el Navegador de lugares sagrados. Los registros escogidos fuera de la clase building entran por la etiqueta imara-browser.'
+  sections:
+    mosques:
+      title: 'Mezquitas y minaretes'
+    madrasas:
+      title: 'Madrazas'
+    palaces:
+      title: 'Palacios'
+    defense:
+      title: 'Fortalezas y defensas'
+    learning:
+      title: 'Bibliotecas y observatorios'
+    care:
+      title: 'Hospitales (bimaristanes)'
+    civic:
+      title: 'Mercados, janes, hammams y jardines'
+    curated:
+      title: 'Registros escogidos'
+collection:
+  title: 'Navegador de objetos y artefactos'
+  lede: 'La colección del museo: manuscritos y folios, cerámica, azulejos y vidrio, metalistería, textiles y alfombras, reliquias, armas e instrumentos, y monedas — cada objeto por familia de material, con sus fuentes.'
+  badge: 'Explorador'
+  method_note: 'Cada objeto entra en la sección de su familia de material — folio y manuscrito bajo manuscritos, cerámica, azulejo y vidrio bajo cerámicas, etc. Los registros escogidos fuera de la clase object entran por la etiqueta collection-browser.'
+  sections:
+    manuscripts:
+      title: 'Manuscritos y folios'
+    ceramics:
+      title: 'Cerámica, azulejos y vidrio'
+    metalwork:
+      title: 'Metalistería'
+    textiles:
+      title: 'Textiles y alfombras'
+    relics:
+      title: 'Reliquias'
+    arms:
+      title: 'Armas e instrumentos'
+    coins:
+      title: 'Monedas'
+    other:
+      title: 'Otros objetos'
+    curated:
+      title: 'Registros escogidos'
+tasawwuf:
+  title: 'Navegador del tasawwuf (sufismo)'
+  lede: 'El camino espiritual en los registros del museo: las órdenes sufíes, los místicos y maestros que lo siguieron, sus obras y las estaciones y conceptos que nombraron — cada registro con sus fuentes.'
+  badge: 'Explorador'
+  method_note: 'La pertenencia se lee del registro: personas cuyos roles nombran el camino (místico, sufí), grupos de clase orden, y obras y conceptos etiquetados tasawwuf-browser. Los registros de otras visiones quedan etiquetados con sus tradiciones.'
+  sections:
+    orders:
+      title: 'Las órdenes'
+    masters:
+      title: 'Maestros y místicos'
+    works:
+      title: 'Obras del tasawwuf'
+    concepts:
+      title: 'Estaciones y conceptos'
+    curated:
+      title: 'Registros escogidos'
+kalam:
+  title: 'Navegador de teología y filosofía'
+  lede: 'Las escuelas de pensamiento en los registros del museo: los mutakallimun y los falasifa, las sectas y escuelas que formaron, y las obras de kalam y falsafa — cada registro con sus fuentes, y las cuestiones disputadas etiquetadas por tradición.'
+  badge: 'Explorador'
+  method_note: 'La pertenencia se lee del registro: personas cuyos roles u oficios nombran teología o filosofía (teólogo, filósofo, mutakallim), grupos de clase secta o madhhab, y obras etiquetadas kalam-browser. Las posiciones se enuncian con sus defensores, nunca con la voz del museo.'
+  sections:
+    schools:
+      title: 'Las escuelas y sectas'
+    mutakallimun:
+      title: 'Teólogos (mutakallimun)'
+    philosophers:
+      title: 'Filósofos (falasifa)'
+    works:
+      title: 'Obras y textos'
+    curated:
+      title: 'Registros escogidos'
+nisa:
+  title: 'Navegador de las mujeres del islam'
+  lede: 'Las mujeres de los registros del museo — Compañeras y transmisoras, sabias, místicas, poetas y escritoras, artistas, soberanas y líderes, atletas, y mujeres de la sociedad y la vida cotidiana — cada persona femenina con sus fuentes.'
+  badge: 'Explorador'
+  method_note: 'La pertenencia se lee del registro: toda persona de género femenino, agrupada por sus roles — Compañeras primero, luego sabias, devotas, escritoras, artistas, soberanas, atletas y sociedad. Los registros entran sin etiquetado.'
+  sections:
+    companions:
+      title: 'Compañeras y primeras musulmanas'
+    scholars:
+      title: 'Sabias y transmisoras'
+    piety:
+      title: 'Místicas y devotas'
+    writers:
+      title: 'Escritoras y poetas'
+    arts:
+      title: 'Artistas'
+    rulers:
+      title: 'Soberanas y líderes'
+    sports:
+      title: 'Atletas'
+    society:
+      title: 'Sociedad y vida cotidiana'
+    curated:
+      title: 'Registros escogidos'
+uhud:
+  title: 'Navegador de pactos y diplomacia'
+  lede: 'Los pactos y la diplomacia en los registros del museo: tratados y pactos, declaraciones, cartas y los enviados que llevaban la palabra — cada acuerdo consignado y quienes lo hicieron, con fuentes.'
+  badge: 'Explorador'
+  method_note: 'La pertenencia se lee del registro: eventos de la familia de tratados (tratado, declaración, tregua, pacto, paz, armisticio, capitulación, covenant, alianza), obras de clase carta, y personas cuyos roles nombran el oficio de diplomático. Los registros escogidos entran por la etiqueta uhud-browser.'
+  sections:
+    treaties:
+      title: 'Tratados y pactos'
+    declarations:
+      title: 'Declaraciones'
+    charters:
+      title: 'Cartas y pactos'
+    envoys:
+      title: 'Enviados y diplomáticos'
+    other:
+      title: 'Otros eventos diplomáticos'
+    curated:
+      title: 'Registros escogidos'
+maahid:
+  title: 'Navegador de instituciones del saber'
+  lede: 'Las casas del saber y del cuidado en los registros del museo: madrazas, bibliotecas, observatorios, hospitales bimaristán y las organizaciones que guardan el saber — cada institución con sus fuentes.'
+  badge: 'Explorador'
+  method_note: 'La pertenencia se lee del registro: edificios de clase madraza, biblioteca, observatorio y bimaristán; grupos de clase universidad, institución, organismo de normalización y organización internacional; y obras de clase biblioteca en línea. Los registros escogidos entran por la etiqueta maahid-browser.'
+  sections:
+    madrasas:
+      title: 'Madrazas'
+    libraries:
+      title: 'Bibliotecas'
+    observatories:
+      title: 'Observatorios'
+    hospitals:
+      title: 'Hospitales (bimaristanes)'
+    organisations:
+      title: 'Organizaciones y organismos'
+    curated:
+      title: 'Registros escogidos'
+mawt:
+  title: 'Navegador de tumbas y lugares de reposo'
+  lede: 'Los lugares de reposo en los registros del museo: tumbas y mausoleos, santuarios y sepulturas de profetas, sabios, soberanos y santos — cada edificio funerario con sus fuentes.'
+  badge: 'Explorador'
+  method_note: 'La pertenencia se lee del registro: todo edificio de clase tumba o santuario. La lectura amplia del lugar sagrado queda con el Navegador de lugares sagrados; aquí el registro es el lugar de reposo mismo. Los registros escogidos entran por la etiqueta mawt-browser.'
+  sections:
+    tombs:
+      title: 'Tumbas y mausoleos'
+    shrines:
+      title: 'Santuarios'
+    curated:
+      title: 'Registros escogidos'
+ulum:
+  title: 'Navegador de ciencias y científicos'
+  lede: 'La gente de las disciplinas en los registros del museo: astrónomos, matemáticos, médicos, geógrafos, naturalistas e ingenieros — cada científico por campo, con fuentes.'
+  badge: 'Explorador'
+  method_note: 'La pertenencia se lee del registro: personas cuyos roles u oficios nombran una disciplina — astrónomo, matemático, médico, geógrafo, físico, químico, ingeniero y sus semejantes. Los inventos mismos quedan con el Navegador de inventos musulmanes; aquí el registro es la persona. Los registros escogidos entran por la etiqueta ulum-browser.'
+  sections:
+    astronomy:
+      title: 'Astronomía'
+    mathematics:
+      title: 'Matemáticas'
+    medicine:
+      title: 'Medicina'
+    geography:
+      title: 'Geografía'
+    natural:
+      title: 'Ciencias de la naturaleza'
+    engineering:
+      title: 'Ingeniería'
+    curated:
+      title: 'Registros escogidos'
+funun:
+  title: 'Navegador de artes y artistas'
+  lede: 'Las artes y su gente en los registros del museo: calígrafos, pintores e iluminadores, músicos y cantantes, arquitectos, y los oficios del libro — cada artista por arte, con fuentes.'
+  badge: 'Explorador'
+  method_note: 'La pertenencia se lee del registro: personas cuyos roles u oficios nombran un arte — calígrafos, pintores, iluminadores y miniaturistas, músicos y cantantes, arquitectos, copistas y oficios del libro. Los objetos de arte quedan con el navegador collection, y los hacedores de medios con el suyo. Los registros escogidos entran por la etiqueta funun-browser.'
+  sections:
+    calligraphy:
+      title: 'Caligrafía'
+    visual:
+      title: 'Artes visuales'
+    music:
+      title: 'Música y canción'
+    architecture:
+      title: 'Arquitectos'
+    bookcrafts:
+      title: 'Oficios del libro'
+    curated:
+      title: 'Registros escogidos'

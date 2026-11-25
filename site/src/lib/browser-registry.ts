@@ -48,6 +48,7 @@ import { tibbItems } from "./tibb";
 import { ansabSubjects } from "./ansab";
 import { battleNodes } from "./battles";
 import { fatwas } from "./fatwa";
+import { shelfItems, SHELF_SLUGS } from "./shelves";
 
 import { hallItems } from "./halls";
 import { BROWSE_CLASSES, entriesOf, CLASS_WHOLE } from "./browse";
@@ -73,4 +74,5 @@ export const BROWSER_ROWS: Record<string, readonly Row[]> = {
   mukatabat: mukatabatItems, munazarat: munazaratItems, ritha: rithaItems, nar: narItems, nature: natureItems, nubuwat: nubuwatItems, places: placesItems,
   juha: juhaItems,
   qiyama: qiyamaItems, qurun: qurunItems, sayyiat: sayyiatItems, trade: tradeItems, "signs-all": eschItems, signs: signItems, usra: usraItems, ukhuwwa: ukhuwwaItems, bunuwwa: bunuwwaItems, umuma: umumaItems, ubuwwa: ubuwwaItems, tibb: tibbItems, ansab: ansabSubjects, battles: battleNodes.map((node) => ({ node })), fatwa: fatwas.map((node) => ({ node })),
+  ...Object.fromEntries(SHELF_SLUGS.map((slug) => [slug, shelfItems(slug)])),
 };
