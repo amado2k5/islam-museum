@@ -74,7 +74,7 @@ for (const game of manifest.games.filter((g) => g.page)) {
       requests.push({ url: r.url(), status: r.status(), bytes: body.length });
     });
     const started = Date.now();
-    await page.goto(`${base}/${game.id}/?lang=${lang}`);
+    await page.goto(`${base}/${game.id}/?lang=${lang}&fresh=1`);
     let started3d: unknown = null;
     if (game.id === "golden-age") {
       // Polled from here with plain evaluations: the page's own policy rightly refuses the eval that a string
@@ -90,6 +90,20 @@ for (const game of manifest.games.filter((g) => g.page)) {
         await page.evaluate("window.__GA__.dispatch({ type: 'end-season' })");
         const after = (await page.evaluate("window.__GA__.state().season")) as number;
         if (after !== hook.season! + 1) errors.push(`ending a season moved the season from ${hook.season} to ${after}`);
+      }
+    } else if (game.id === "granada") {
+      for (const end = Date.now() + 30_000; !(await page.evaluate("Boolean(window.__GR__)")); ) {
+        if (Date.now() > end) throw new Error("Granada did not start in 30 seconds");
+        await page.waitForTimeout(150);
+      }
+      const hook = (await page.evaluate("({ ready: window.__GR__.ready, error: window.__GR__.error ?? null })")) as { ready: boolean; error: string | null };
+      if (!hook.ready) errors.push(`the game did not start: ${hook.error}`);
+      else {
+        await page.locator("#brief-start").click();
+        await page.locator("#step").click();
+        const day = (await page.evaluate("window.__GR__.state().day")) as number;
+        if (day !== 26) errors.push(`a day did not pass: day ${day}`);
+        if ((await page.locator("svg.map g.field").count()) !== 3) errors.push("the plan of the valley does not show its three fields");
       }
     } else {
       await page.waitForSelector("#panel h2", { timeout: 60_000 });

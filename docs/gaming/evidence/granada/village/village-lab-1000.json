@@ -3,7 +3,7 @@
  "seeds": 1000,
  "campaigns": 6000,
  "violations": 0,
- "seconds": 39.7,
+ "seconds": 39.4,
  "rows": [
   {
    "player": "idle",
@@ -74,12 +74,12 @@
   },
   {
    "player": "merchant",
-   "winPercent": 91.4,
-   "welfare": 74.6,
+   "winPercent": 96.4,
+   "welfare": 74.8,
    "households": 80,
    "reserveDays": 20.6,
-   "dinars": 1955.6,
-   "score": 1443.5,
+   "dinars": 2186.5,
+   "score": 1469.7,
    "spoiled": 0,
    "questsDonePercent": {
     "q01-water": 100,
@@ -89,7 +89,7 @@
     "q05-granary": 100
    },
    "lostFor": {
-    "reserve": 86
+    "reserve": 36
    }
   },
   {
@@ -140,6 +140,7 @@
  ],
  "findings": [
   "mender wins 99.5% of campaigns: it cannot lose",
+  "merchant wins 96.4% of campaigns: it cannot lose",
   "irrigator wins 100% of campaigns: it cannot lose"
  ]
 }

@@ -2,7 +2,7 @@
 
 An independently built subsystem of the museum repository. The plan, the decisions, the measurements and the open work are in [`docs/gaming/`](../docs/gaming/README.md); start with the ledger there. This folder is only code.
 
-**State, 25 November 2026:** a shared kernel, a procedural world kit, a graphics lab that draws one reference city in two engines and measures them, two games as prototypes (Atlas, and The Golden Age with its three chapters playable in 3D and from a plan view), the museum's own suite as the music of both, and the first rules of a third game, Granada, which has no screen yet.
+**State, 25 November 2026:** a shared kernel, a procedural world kit, a graphics lab that draws one reference city in two engines and measures them, two games as prototypes (Atlas, and The Golden Age with its three chapters playable in 3D and from a plan view), the museum's own suite as their music, and Granada, first in every list: its first scenario playable from panels and a drawn plan of the valley, not yet in 3D.
 
 ```
 packages/kernel/      seeded random numbers and noise, frame statistics, the WebGPU capability check
@@ -11,7 +11,7 @@ packages/audio/       the museum's soundtrack for every game: track list, player
 labs/graphics/        the district in Three.js and in Babylon.js, with a fixed camera loop and a benchmark mode
 games/atlas/          Atlas: rules, daily schedule, saving, the globe, seven languages, the pinned content pack
 games/golden-age/     The Golden Age: season rules, the first scenario, scripted players and the simulation lab; the 3D board, the panel, the plan view, saving, seven languages
-games/granada/        Granada: the ledger of money and goods (markets with two prices, harvests, a recipe, contracts), the sums a panel will show, geography from museum coordinates, the pinned museum records; no screen
+games/granada/        Granada: the ledger of money and goods, the first scenario's rules and scripted players, the page (panels, a plan of the valley in SVG, saving, seven languages), geography and the pinned museum records; no 3D yet
 games/registry.json   the games in the order every list shows them (Granada first), with each one's true status
 tools/                bench.ts and shot.ts (real Chrome, real GPU), atlas-play.ts, golden-age-play.ts, music-import.ts, check-strings.py; build.ts (the release build), check-release.mjs, release-smoke.ts
 media/                not in git: the encoded music, written here by `music:import`
@@ -24,7 +24,7 @@ npm --prefix gaming ci            # install the pinned dependencies
 npm --prefix gaming test          # unit tests (*.gtest.ts)
 npm --prefix gaming run typecheck # strict TypeScript
 npm --prefix gaming run strings   # the string tables of every game: seven languages, same keys, same blanks
-npm --prefix gaming run dev       # http://127.0.0.1:4330/games/golden-age/index.html?lang=ar  and  /games/atlas/index.html?lang=ar  and  /labs/graphics/district.html
+npm --prefix gaming run dev       # http://127.0.0.1:4330/games/granada/index.html?lang=ar  and  /games/golden-age/index.html?lang=ar  and  /games/atlas/index.html?lang=ar  and  /labs/graphics/district.html
 npm --prefix gaming run music:import -- ~/Downloads   # once per checkout: encode the six WAV masters into gaming/media/music/
 npm --prefix gaming run atlas:pack   # rebuild Atlas's content pack from the museum's records (a new pack version)
 npm --prefix gaming run golden-age:links   # rebuild The Golden Age's pinned links to museum records (labels in seven languages)
@@ -33,6 +33,8 @@ npm --prefix gaming run golden-age:play -- <out dir> ar 1   # play The Golden Ag
 npm --prefix gaming run build:release      # the release build: gaming/dist/release, with a manifest of every file
 npm --prefix gaming run check:release -- --allow-dirty   # verify a local build against its manifest
 npm --prefix gaming run release:smoke      # open the release in real Chrome behind the games Worker's own code and headers
+npm --prefix gaming run granada:play -- <out dir> ar   # play Granada's first scenario in real Chrome, in a language
+npm --prefix gaming run granada:village-lab -- 1000   # six scripted players through Granada's first scenario over 1,000 seeds
 npm --prefix gaming run granada:records     # rebuild Granada's pinned museum records (places with coordinates, labels in seven languages)
 npm --prefix gaming run granada:mutations   # break Granada's economy kernel 15 ways and check the tests notice each time
 ```

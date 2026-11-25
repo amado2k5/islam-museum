@@ -453,7 +453,7 @@ export function tick(sc: Scenario, state: VillageState): VillageState {
     }
     // A sown field that has given all it had lies fallow again, keeping the account of where its crop went.
     // A grove is not sown: it rests until its next year, which this one-year scenario does not reach.
-    if (p.ripeSince !== null && p.standing === 0 && p.harvesting === null && day - p.ripeSince > 0 && crop.sowIn.length > 0) {
+    if (p.ripeSince !== null && p.standing === 0 && p.harvesting === null && crop.sowIn.length > 0) {
       const done = { yielded: p.yielded, brought: p.brought, soldFromField: p.soldFromField, spoiled: p.spoiled };
       s.plots[def.id] = { ...p, crop: null, growth: 0, stress: 0, ripeSince: null, ...done };
     }
