@@ -1,7 +1,7 @@
 // The Atlas screen: one panel beside the globe. It holds no rules: every decision is src/rules.ts, and this file
 // only shows state, collects a guess and stores the result on this device.
 import { loadMusicStrings, musicControl } from "@im/audio/control";
-import { MUSIC_BASE, MusicPlayer } from "@im/audio/player";
+import { MUSIC_AVAILABLE, MUSIC_BASE, MusicPlayer } from "@im/audio/player";
 import en from "../../i18n/en.json";
 import { LANGS, decodePack, type AtlasPack, type Lang, type PackFile, type PackLabels } from "../pack";
 import { REGION_HINT_COST, ROUNDS_PER_GAME, TOLERANCE_KM, centuryTally, dailyRounds, isOver, maxPoints, newGame, practiceRounds, shareMarks, step, totalPoints, type AtlasState, type GameMode } from "../rules";
@@ -88,10 +88,12 @@ async function main(): Promise<void> {
   const zoom = el("div", { class: "zoom" }, el("button", { type: "button", textContent: "+", ariaLabel: strings.zoom_in, onclick: () => globe.zoomBy(1.4) }), el("button", { type: "button", textContent: "−", ariaLabel: strings.zoom_out, onclick: () => globe.zoomBy(1 / 1.4) }));
   document.getElementById("app")!.append(zoom);
   // The soundtrack is the museum's own. Atlas opens with "Fourteen Centuries" and the suite follows in order.
-  const music = new MusicPlayer({ base: MUSIC_BASE, first: "fourteen-centuries", forceOff: query.get("music") === "off" });
-  const musicBox = el("div", { class: "music-corner" });
-  musicBox.append(musicControl(music, await loadMusicStrings(lang), `${MUSEUM}/${lang}/backstage/`));
-  document.getElementById("app")!.append(musicBox);
+  const music = new MusicPlayer({ base: MUSIC_BASE, first: "fourteen-centuries", forceOff: query.get("music") === "off" || !MUSIC_AVAILABLE });
+  if (MUSIC_AVAILABLE) {
+    const musicBox = el("div", { class: "music-corner" });
+    musicBox.append(musicControl(music, await loadMusicStrings(lang), `${MUSEUM}/${lang}/backstage/`));
+    document.getElementById("app")!.append(musicBox);
+  }
 
   const start = (mode: GameMode) => {
     if (mode === "daily") {

@@ -167,3 +167,9 @@ export class MusicPlayer {
 
 /** Where the tracks are served from. A release build sets VITE_MUSIC_BASE; in development it is the workspace's media folder. */
 export const MUSIC_BASE: string = (import.meta as unknown as { env?: Record<string, string | undefined> }).env?.VITE_MUSIC_BASE ?? "/media/music/";
+/**
+ * False in a release built with nowhere to serve the tracks from (VITE_MUSIC_BASE "off"): the audio is never in git,
+ * so a build made by a workflow has none unless it is told where the files are hosted. A game then shows no music
+ * control at all, instead of a control that can only fail.
+ */
+export const MUSIC_AVAILABLE: boolean = MUSIC_BASE !== "off" && MUSIC_BASE !== "";

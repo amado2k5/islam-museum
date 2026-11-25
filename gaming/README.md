@@ -12,7 +12,8 @@ labs/graphics/        the district in Three.js and in Babylon.js, with a fixed c
 games/atlas/          Atlas: rules, daily schedule, saving, the globe, seven languages, the pinned content pack
 games/golden-age/     The Golden Age: season rules, the first scenario, scripted players and the simulation lab; the 3D board, the panel, the plan view, saving, seven languages
 games/granada/        Granada: the ledger of money and goods (markets with two prices, harvests, a recipe, contracts), the sums a panel will show, geography from museum coordinates, the pinned museum records; no screen
-tools/                bench.ts and shot.ts (real Chrome, real GPU), atlas-play.ts, golden-age-play.ts, music-import.ts, check-strings.py
+games/registry.json   the games in the order every list shows them (Granada first), with each one's true status
+tools/                bench.ts and shot.ts (real Chrome, real GPU), atlas-play.ts, golden-age-play.ts, music-import.ts, check-strings.py; build.ts (the release build), check-release.mjs, release-smoke.ts
 media/                not in git: the encoded music, written here by `music:import`
 ```
 
@@ -29,6 +30,9 @@ npm --prefix gaming run atlas:pack   # rebuild Atlas's content pack from the mus
 npm --prefix gaming run golden-age:links   # rebuild The Golden Age's pinned links to museum records (labels in seven languages)
 npm --prefix gaming run simlab -- 1000   # play 14,000 Golden Age campaigns and report what breaks or dominates
 npm --prefix gaming run golden-age:play -- <out dir> ar 1   # play The Golden Age in real Chrome, in a language, with a whole campaign
+npm --prefix gaming run build:release      # the release build: gaming/dist/release, with a manifest of every file
+npm --prefix gaming run check:release -- --allow-dirty   # verify a local build against its manifest
+npm --prefix gaming run release:smoke      # open the release in real Chrome behind the games Worker's own code and headers
 npm --prefix gaming run granada:records     # rebuild Granada's pinned museum records (places with coordinates, labels in seven languages)
 npm --prefix gaming run granada:mutations   # break Granada's economy kernel 15 ways and check the tests notice each time
 ```
@@ -38,6 +42,8 @@ Useful address parameters for the games: `lang=` one of ar, en, ur, fr, es, tr, 
 Benchmarks and captures are in [`docs/gaming/m1-graphics-spike.md`](../docs/gaming/m1-graphics-spike.md), with the commands to repeat them.
 
 ## Rules of the workspace
+
+- **The games are built, tested and deployed apart from the website** (the founder's rule of 25 November 2026). The checks for a change here are this workspace's own, plus `node --test workers/games/test/*.test.mjs`; the museum's `npm run validate`, `npm test` and `npm run build` are for museum files. Releasing is the founder's: [`docs/gaming/release-and-deploy.md`](../docs/gaming/release-and-deploy.md).
 
 - Dependencies are pinned to exact versions, and a new one needs a reason in an ADR (`docs/gaming/adr/`).
 - Tests are named `*.gtest.ts`. The museum's root test run must never collect a gaming test, and the reverse.

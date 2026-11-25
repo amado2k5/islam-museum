@@ -1,0 +1,45 @@
+name: Deploy the games to UAT
+
+# UAT for the games: https://uat-games.islam.museum. Manual only, like every deploy here, and started by the founder.
+# It publishes a release already built and tested by "Build the games" into the `uat` GitHub Environment: bucket
+# islam-museum-uat (under games/), Worker islam-museum-games-uat. Nothing it does reaches games.islam.museum,
+# islam-museum-search, or anything of the website: the shared workflow refuses a UAT run that names a production
+# resource, and the UAT S3 keys are scoped to the UAT bucket.
+#
+# Review flow, the same as the website's: start this workflow (empty build_run_id: the latest successful games build
+# of main), look at https://uat-games.islam.museum, then start "Deploy the games to production" with the same
+# build_run_id (shown in this run's summary) to publish the identical release.
+on:
+  workflow_dispatch:
+    inputs:
+      action:
+        description: "check: verify the release and say what would happen, writing nothing. release: publish it and make it live. rollback: make the release before the live one live again."
+        required: true
+        type: choice
+        options: [check, release, rollback]
+        default: check
+      build_run_id:
+        description: "Run id of \"Build the games\" to deploy. Empty: the latest successful build of main. Ignored by rollback."
+        required: false
+        type: string
+
+permissions:
+  contents: read
+  deployments: write
+  # Read another run's artifact.
+  actions: read
+
+concurrency:
+  group: games-deploy-uat
+  cancel-in-progress: false
+
+jobs:
+  uat:
+    uses: ./.github/workflows/games-deploy-env.yml
+    with:
+      environment: uat
+      action: ${{ inputs.action }}
+      build_run_id: ${{ inputs.build_run_id }}
+    # The `uat` Environment's own R2_ACCESS_KEY_ID and R2_SECRET_ACCESS_KEY override the repository ones of the
+    # same name; CLOUDFLARE_* are shared.
+    secrets: inherit

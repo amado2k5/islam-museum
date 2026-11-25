@@ -39,6 +39,17 @@ _Baseline of 25 November 2026 (milestone M0). No mod, pack, third-party game or 
 7. **No account, no upload, no public gallery** until moderation, reporting, takedown, privacy and child-safety rules exist and the founder approves the infrastructure. Sharing is a file the player sends.
 8. **Content rules do not relax for creators.** The museum's content-safety block, its representation rules and its licence whitelist apply to anything the museum itself distributes or showcases.
 
+## The games host (added 25 November 2026, when it was built; not yet deployed)
+
+The museum's own games are served from their own address (`games.islam.museum`, UAT `uat-games.islam.museum`) by their own Worker (`workers/games`), from objects under `games/` in the environment's bucket.
+
+- **A game's script cannot reach the museum's pages or storage**, because it runs on another origin. A defect in a game is a defect on the games' address.
+- **The host decides the headers, not the release.** The Worker sets a content security policy under which a page loads scripts, styles, fonts and data only from its own address, with no inline script, no inline style and no eval; nothing uploaded can loosen it. Both games were opened in real Chrome under that policy without a violation (`evidence/release/`).
+- **The Worker reads only under `games/`.** A path is refused unless it is made of letters, digits, dot, dash, underscore and slash, with no empty or hidden segment; the pointer file is ignored unless it is well formed, so a damaged pointer cannot name another part of the bucket. Tests ask for the museum's own pages through it and get a 404.
+- **A release is verified three times** before it is live: after the build, after download in the deploy job, and after upload by reading it back from the bucket; each time every file is checked against the SHA-256 in the manifest. A release id in the bucket is never overwritten.
+- **Known and accepted:** the buckets are public at `api.islam.museum` and `uat-api.islam.museum`, so the objects under `games/` can also be fetched there, without the Worker's headers. They are public static files. A game page opened from that address would run without the content security policy, on the API's origin, where there is nothing of a visitor's to reach; the address the museum links to is the games host.
+- **Not covered by this:** third-party games, packs and any programmable mod. They are not served from the games host either until they have a sandboxed origin of their own and pass the fixtures below.
+
 ## Attack fixtures to build (acceptance R12)
 
 Each has an expected refusal or recovery and a check that the museum's pages are untouched.

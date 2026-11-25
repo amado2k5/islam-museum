@@ -23,6 +23,7 @@ The gaming platform is a separate subsystem of this repository: eleven browser g
 | [`games/granada.md`](games/granada.md) | Granada: what exists (the money and goods of its economy, the region's geography from museum coordinates), what they promise, and everything that is not built. It cannot be played |
 | [`granada/g0-discovery.md`](granada/g0-discovery.md) | Granada's gate G0: what the repository has for it, the museum's records, the claims the game would make and their support, the three concept images read against the data, what waits for the founder |
 | [`granada/acceptance.md`](granada/acceptance.md), [`granada/acceptance.json`](granada/acceptance.json) | Granada's 26 gates (GRA01 to GRA26) with their real status. They extend R01 to R18 |
+| [`release-and-deploy.md`](release-and-deploy.md) | How the games are built, tested, released to UAT and production, and rolled back, apart from the website: the founder's rule, the layout in R2, the Worker, the three workflows, what the first run creates in Cloudflare, and what has not been proved |
 | [`threat-model.md`](threat-model.md) | Trust levels, boundaries, what the current hosting allows, and the rules that follow |
 | [`adr/`](adr/) | Architecture decisions, each with evidence and the alternatives turned down |
 | [`spec-v2/`](spec-v2/) | The V2 specification package, with the visual atlas updated for the twelve images of 25 November |
@@ -36,7 +37,7 @@ The gaming platform is a separate subsystem of this repository: eleven browser g
 | [G-0001](adr/G-0001-workspace-and-isolation.md) | A self-contained `gaming/` package with its own lockfile and test naming, so the museum build and tests never see it | Accepted |
 | [G-0002](adr/G-0002-rendering-engine.md) | Three.js WebGPURenderer with TSL is the 3D stack; Babylon.js was measured and not chosen | Accepted, on one machine's evidence |
 | [G-0003](adr/G-0003-procedural-assets-first.md) | Geometry and textures are generated from seeds in code; Blender is a later, optional build-time tool | Accepted |
-| [G-0004](adr/G-0004-hosting-and-release-model.md) | Static, content-addressed game releases behind a small pointer file, on the museum's existing Cloudflare hosting | Proposed; needs the founder before any hosting file changes |
+| [G-0004](adr/G-0004-hosting-and-release-model.md) | Static game releases, each file named by its content, behind a small pointer file; in R2 under `games/`, served by the games' own Worker at the games' own address; built, tested and deployed by the games' own workflows | Decided by the founder on 25 November 2026 and built; no deployment has run |
 | [G-0005](adr/G-0005-determinism.md) | One seeded generator for every rule and every generated scene; no clock and no `Math.random()` in rules | Accepted |
 | [G-0006](adr/G-0006-atlas-content-pack.md) | Atlas asks only what a museum record says, from a pack pinned in git with a proved 365-day schedule | Accepted; the rule on which people may be asked about is a default awaiting the founder |
 | [G-0007](adr/G-0007-music-and-audio.md) | The museum's own suite, "Voices of the Museum", is the music of every game; the audio is never in git; nothing sounds before the player acts | Accepted (the founder's instruction); where the files are served from in production waits on G-0004 |
@@ -46,6 +47,7 @@ The gaming platform is a separate subsystem of this repository: eleven browser g
 
 ## Rules that bind this subsystem
 
+- The games are built, tested and deployed apart from the website (the founder's rule of 25 November 2026, in `AGENTS.md`): a change to a game runs the games' suite, and the website's workflows do not build, test or deploy any of it.
 - `AGENTS.md` in full. In particular: static and no AI at runtime; all seven languages in the same change for anything a visitor reads; no honorifics typed; Qur'an text never typed; the content-safety block; truth in every public claim; deployment is the founder's alone.
 - `docs/ai-change-gates.md`. The founder's instruction of 25 November 2026 is the approved proposal for the gaming subsystem. Changes to the museum's own header, footer, homepage, privacy posture, hosting or workflows are labelled `submission-impacting` and wait for his sign-off with that label.
 - History in a game comes from museum records by stable id, with its source and its confidence. Concept art is never evidence. Fiction, reconstruction and simulation are labelled as such.

@@ -1,0 +1,80 @@
+name: Build the games
+
+# The games' own test and build suite, completely separate from the website's (founder's instruction, 25 November
+# 2026). It runs only when something of the games changes: the gaming workspace, the games Worker, or one of the
+# games-*.yml workflows. It never builds a museum page, and the website's workflows (validate.yml, build.yml) ignore
+# these paths, so neither suite runs for the other's changes.
+#
+# What it does: installs the games' own pinned dependencies, type-checks, runs the games' unit and property tests,
+# checks the string tables (seven languages), runs the games Worker's and publisher's tests, makes the release build
+# and verifies it against its manifest. On main it keeps the release as an artifact named games-release; the deploy
+# workflows (games-deploy-uat.yml, games-deploy.yml) publish that very artifact and never build anything themselves.
+# It publishes nothing and needs no secret.
+on:
+  pull_request:
+    paths:
+      - "gaming/**"
+      - "workers/games/**"
+      - ".github/workflows/games-*.yml"
+  push:
+    branches: [main]
+    paths:
+      - "gaming/**"
+      - "workers/games/**"
+      - ".github/workflows/games-*.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: games-build-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    name: Test and build the games
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: gaming/package-lock.json
+      - name: Install the games' own dependencies
+        run: npm ci --prefix gaming
+      - name: Type-check
+        run: npm --prefix gaming run typecheck
+      - name: Unit and property tests of the games
+        run: npm --prefix gaming test
+      - name: String tables (the same keys in seven languages)
+        run: npm --prefix gaming run strings
+      - name: Tests of the games Worker and of the publisher
+        run: node --test workers/games/test/*.test.mjs
+      - name: Release build
+        run: npm --prefix gaming run build:release
+      - name: Verify the release against its manifest
+        env:
+          # On a pull request this is the merge commit that was checked out, which is what the build read.
+          SHA: ${{ github.sha }}
+        run: node gaming/tools/check-release.mjs gaming/dist/release --expect-commit "$SHA"
+      - name: Say what was built
+        run: |
+          {
+            echo "## Games release"
+            echo
+            echo '```'
+            node gaming/tools/check-release.mjs gaming/dist/release
+            echo '```'
+          } >> "$GITHUB_STEP_SUMMARY"
+      - name: Keep the release for the deploy workflows
+        if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
+        uses: actions/upload-artifact@v7
+        with:
+          name: games-release
+          path: gaming/dist/release
+          if-no-files-found: error
+          # A release is a few megabytes. Ninety days keeps a rollback target well past any release in use.
+          retention-days: 90
