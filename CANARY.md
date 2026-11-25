@@ -140,6 +140,8 @@ open a new block on top with the new version and today's date.
 - **robots.txt now welcomes AI training and AI input.** The Content-Signal line in `site/public/robots.txt` changes from `ai-train=no, search=yes, ai-input=no` to `ai-train=yes, search=yes, ai-input=yes`, so the museum's crawler policy matches its open licence (the data is CC0) and the founder's unrestricted-access policy: search engines, AI trainers and AI agents are all invited to read the museum.
 
 ### Fixed
+- **The whole-site check survives a big sitemap.** `scripts/check-site.ts` joined every sitemap file into one string; past roughly half a gigabyte of URLs V8 refuses the string and the check crashed with "Invalid string length". It now searches each sitemap file separately.
+### Fixed
 - **The access-audit page builds.** `/<lang>/open-access/audit/` imported the site layout one directory level too shallow, so the Astro build failed at the entrypoint step; its imports now resolve one level deeper, like every other page nested three under `[lang]`.
 ### Fixed
 - **One al-Suyuti report, one record.** The fragment filed on 15:43 is the second half of the report on 15:45; its address now leads to the 15:45 record, which holds the whole text and links both verses.

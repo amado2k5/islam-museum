@@ -85,16 +85,17 @@ if (process.argv[1] && fileURLToPath(import.meta.url) === process.argv[1]) {
   const { errors, warns } = scan(pages());
   for (const [target, from] of yearLinks) if (!existsSync(p("dist", target))) errors.push(`${from}: links to /${target.replace(/index\.html$/, "")}, which has no page`);
   // the teacher pathway landing pages (E2) must be in the sitemap in the three languages: outreach links to them
-  const sitemap = listFiles(dist, ".xml").filter((f) => /sitemap/.test(f)).map((f) => readFileSync(f, "utf8")).join("\n");
+  const sitemapParts = listFiles(dist, ".xml").filter((f) => /sitemap/.test(f)).map((f) => readFileSync(f, "utf8"));
+  const sitemapHas = (frag: string) => sitemapParts.some((s) => s.includes(frag));
   for (const f of listFiles(p("data", "exhibit"), ".yaml").filter((f) => /\/pathway-/.test(f))) {
     const slug = f.replace(/.*\/pathway-/, "").replace(/\.yaml$/, "");
-    for (const lang of ["ar", "en", "ur", "fr", "es", "tr", "id"]) if (!sitemap.includes(`/${lang}/learn/teachers/pathways/${slug}/`)) errors.push(`sitemap: /${lang}/learn/teachers/pathways/${slug}/ is missing`);
+    for (const lang of ["ar", "en", "ur", "fr", "es", "tr", "id"]) if (!sitemapHas(`/${lang}/learn/teachers/pathways/${slug}/`)) errors.push(`sitemap: /${lang}/learn/teachers/pathways/${slug}/ is missing`);
   }
   // the teen 60-second pages (E4): every topic's route is in the sitemap in the three languages and
   // its page carries a schema.org Course JSON-LD block
   const topicIds = (readFileSync(p("edu", "topics-50.yaml"), "utf8").match(/^- id: ([a-z0-9-]+)/gm) ?? []).map((m) => m.replace("- id: ", ""));
   for (const lang of ["ar", "en", "ur", "fr", "es", "tr", "id"]) for (const id of topicIds) {
-    if (!sitemap.includes(`/${lang}/shabab/60s/${id}/`)) errors.push(`sitemap: /${lang}/shabab/60s/${id}/ is missing`);
+    if (!sitemapHas(`/${lang}/shabab/60s/${id}/`)) errors.push(`sitemap: /${lang}/shabab/60s/${id}/ is missing`);
     const f = p("dist", lang, "shabab", "60s", id, "index.html");
     if (!existsSync(f)) { errors.push(`missing page: ${lang}/shabab/60s/${id}/index.html`); continue; }
     if (!readFileSync(f, "utf8").includes('"@type":"Course"')) errors.push(`${lang}/shabab/60s/${id}/ has no Course JSON-LD`);
