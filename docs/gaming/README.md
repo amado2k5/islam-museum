@@ -24,6 +24,7 @@ The gaming platform is a separate subsystem of this repository: eleven browser g
 | [`granada/g0-discovery.md`](granada/g0-discovery.md) | Granada's gate G0: what the repository has for it, the museum's records, the claims the game would make and their support, the three concept images read against the data, what waits for the founder |
 | [`granada/acceptance.md`](granada/acceptance.md), [`granada/acceptance.json`](granada/acceptance.json) | Granada's 26 gates (GRA01 to GRA26) with their real status. They extend R01 to R18 |
 | [`release-and-deploy.md`](release-and-deploy.md) | How the games are built, tested, released to UAT and production, and rolled back, apart from the website: the founder's rule, the layout in R2, the Worker, the three workflows, what the first run creates in Cloudflare, and what has not been proved |
+| [`test-urls.md`](test-urls.md) | Every address at which each game can be tried, in each language: on the development machine, from another device on the same network, and on UAT |
 | [`threat-model.md`](threat-model.md) | Trust levels, boundaries, what the current hosting allows, and the rules that follow |
 | [`adr/`](adr/) | Architecture decisions, each with evidence and the alternatives turned down |
 | [`spec-v2/`](spec-v2/) | The V2 specification package, with the visual atlas updated for the twelve images of 25 November |

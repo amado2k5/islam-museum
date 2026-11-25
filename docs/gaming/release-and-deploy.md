@@ -1,6 +1,18 @@
 # The games: building, testing, releasing and rolling back
 
-_Written 25 November 2026 at the founder's instruction of that day. **Nothing described here has run against Cloudflare yet.** The workflows, the Worker and the publisher exist and are tested on a developer's machine and by a rehearsal with a stand-in for the AWS CLI; the first real proof is the first UAT run, which is the founder's to start._
+_Written 25 November 2026 at the founder's instruction of that day, and updated the same evening after the first real run. **UAT is live** at `https://uat-games.islam.museum`: the founder said "Yes, run UAT" in chat and the agent started the workflow, action `check` and then `release` (check run [45713511479](https://github.com/amado2k5/islam-museum/actions/runs/45713511479), release run [45713830185](https://github.com/amado2k5/islam-museum/actions/runs/45713830185)). **Production has not been deployed**, and a rollback has not yet been made on Cloudflare, because it needs a second release to go back from._
+
+## The first UAT run, 25 November 2026
+
+| Step | What happened |
+|---|---|
+| `check` | Passed in 95 seconds and wrote nothing: the owner check, the environment (bucket `islam-museum-uat`, wrangler environment `uat`), the build (the latest games build of `main`, commit `3599b8f514c`), the release verified against its manifest, the Worker's 31 tests on the runner, and a dry run that read the bucket and found nothing released |
+| `release`: the Worker | `islam-museum-games-uat` deployed (6.53 KiB) and the Custom Domain `uat-games.islam.museum` created by the same step. The existing API token was enough |
+| `release`: the files | 46 files, 3.28 MB, uploaded to `s3://islam-museum-uat/games/r/20261125-3599b8f514c/` in about five seconds; read back from the bucket and verified against the manifest; then the pointer written (live: `20261125-3599b8f514c`, before it: none). The existing UAT S3 keys were enough |
+| After it | `/_channel`, `/granada/`, `/golden-age/`, `/atlas/`, `/release.json`, `/robots.txt` and `/` answered 200 with the content security policy, `nosniff` and `noindex`; a path that is not there is refused. Granada was opened there in Arabic in a browser: it started, orders were given, three days passed, the game was saved on that address, and the console stayed empty |
+| Whole run | Two minutes |
+
+So R2, wrangler, the Custom Domain and both sets of credentials are now proved for UAT. Not proved by this run: production; a rollback; what the requests cost.
 
 ## The rule
 
@@ -36,7 +48,8 @@ Two tests hold the wall up, one on each side: `scripts/games-separation.test.ts`
 `npm --prefix gaming run build:release` writes `gaming/dist/release/`:
 
 ```
-golden-age/index.html      one page per game that has a page, in the order of gaming/games/registry.json
+granada/index.html         one page per game that has a page, in the order of gaming/games/registry.json
+golden-age/index.html
 atlas/index.html
 assets/<name>-<hash>.js    every script, style and worker, named by the hash of its content
 release.json               the manifest: commit, games, every file with its size and SHA-256
@@ -45,7 +58,7 @@ index.html, 404.html       no text of their own: they hand the visitor to the mu
 
 A release holds code only. The build stops if it produced a media file: by the museum's hosting rule media belongs on R2, and audio is never in git, so a release built by a workflow has no music and its games show no music control. Hosting the six tracks and building with `--music-base` is a later step ([G-0007](adr/G-0007-music-and-audio.md)).
 
-On 25 November 2026 the release was 37 files and 3.12 MB (two games; Granada has no page yet and is listed as planned).
+On 25 November 2026 the release was 46 files and 3.28 MB: three game pages, Granada first.
 
 ## Where it lives
 
@@ -94,21 +107,26 @@ Read this before the first `release`. Everything here is created by `wrangler de
 
 | Environment | Worker | Custom Domain (DNS record and certificate in the `islam.museum` zone) | Bucket binding |
 |---|---|---|---|
-| UAT | `islam-museum-games-uat` | `uat-games.islam.museum` | `islam-museum-uat` |
+| UAT (created 25 November 2026) | `islam-museum-games-uat` | `uat-games.islam.museum` | `islam-museum-uat` |
 | Production | `islam-museum-games` | `games.islam.museum` | `islam-museum-search` |
 
 No new bucket, no new token, no new secret and no new GitHub Environment variable: the workflows use `R2_BUCKET`, `WRANGLER_ENV`, `R2_ACCESS_KEY_ID`, `R2_SECRET_ACCESS_KEY`, `CLOUDFLARE_API_TOKEN` and `CLOUDFLARE_ACCOUNT_ID` as they are set for the website. Two things may need the founder's hand, and the run will say so if they do:
 
-- The API token must be allowed to create a Worker and a Custom Domain in the zone. It already does both for the website's UAT Worker, so it probably is; this has not been tried.
-- The UAT S3 keys are scoped to the UAT bucket and must be allowed to write objects under `games/`. They write the website's objects there today; a key restricted by prefix would refuse.
+- The API token must be allowed to create a Worker and a Custom Domain in the zone. For UAT it was. Production uses the same token.
+- The S3 keys must be allowed to write objects under `games/`. The UAT keys were. The production keys have not been tried.
 
-**Cost.** Not measured, because nothing has run. What a release adds: about 3 MB of storage per release kept; one Worker request and one or two R2 reads for each file a visitor's browser asks for the first time (scripts and styles are then cached by the browser for a year, by their hashed names). Whether that stays inside the account's plan depends on the plan and on traffic, neither of which is recorded in this repository. The first UAT run will show the request counts in the Cloudflare dashboard.
+**Cost.** Not measured: one UAT run has been made and nobody but the author has visited. What a release adds: about 3 MB of storage per release kept; one Worker request and one or two R2 reads for each file a visitor's browser asks for the first time (scripts and styles are then cached by the browser for a year, by their hashed names). Whether that stays inside the account's plan depends on the plan and on traffic, neither of which is recorded in this repository. The first UAT run will show the request counts in the Cloudflare dashboard.
+
+## Trying the games from another device on the same network
+
+The development server can listen on the machine's network address: start the launch configuration `gaming-dev-lan` (`.claude/launch.json`: the same server with `--host 0.0.0.0`), then open `http://<this machine's address>:4330/games/granada/index.html?lang=ar` on a phone or another computer on the same network. It is the development build, with the music if the tracks were imported, and it is reachable by anyone on that network while it runs. One limit comes from the browsers, not from the games: WebGPU is offered only on `https` or on `localhost`, so over a plain network address The Golden Age shows its plan view instead of 3D. Granada and Atlas do not need it. The UAT address is `https` and has no such limit.
 
 ## What is not done
 
-- No run against Cloudflare. The R2 calls are rehearsed against a stand-in for the AWS CLI (`workers/games/test/fake-aws.mjs`), which proves the steps fit together and proves nothing about R2 or wrangler.
+- No production deployment. It is the founder's to start, with the `build_run_id` of the UAT run.
+- No rollback on Cloudflare yet: it needs a second release. It is rehearsed against a stand-in for the AWS CLI (`workers/games/test/fake-aws.mjs`).
 - No caching at Cloudflare's edge in front of the Worker; every first request for a file runs the Worker. Enough for prototypes.
 - No music in a release, and no captures or other media.
 - The Play page and the menu entry on the website, which are what will send a visitor to the games' address.
-- Granada has no page, so it is in the registry as `planned` and in no release.
+- The whole of each game was not played on UAT: Granada was opened and played for three days there; The Golden Age and Atlas were only asked for and answered 200.
 - A browser test inside the workflow. The runners have no GPU; the smoke test is run by hand.

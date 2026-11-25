@@ -38,6 +38,18 @@
         "gaming/vite.config.ts"
       ],
       "port": 4330
+    },
+    {
+      "name": "gaming-dev-lan",
+      "runtimeExecutable": "node",
+      "runtimeArgs": [
+        "gaming/node_modules/vite/bin/vite.js",
+        "--config",
+        "gaming/vite.config.ts",
+        "--host",
+        "0.0.0.0"
+      ],
+      "port": 4330
     }
   ]
 }
