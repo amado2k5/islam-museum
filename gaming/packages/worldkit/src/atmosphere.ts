@@ -1,6 +1,6 @@
 // Time-of-day lighting shared by every renderer in the lab, so a comparison shows the same sun, sky and haze.
 // Values are linear-light. They are art direction, not a physical sky model.
-import { MeshBuilder, type MeshData, type Rgb, type Vec3 } from "@im/worldkit/mesh";
+import { MeshBuilder, type MeshData, type Rgb, type Vec3 } from "./mesh";
 
 export type TimeOfDay = "golden" | "noon" | "dusk" | "night";
 

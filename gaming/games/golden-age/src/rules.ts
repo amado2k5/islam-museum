@@ -163,6 +163,28 @@ export interface SeasonReport {
   households: number;
   events: EventKind[];
   completedResearch: ResearchId | null;
+  /** Why welfare is heading where it is: the points each cause adds or takes. They sum to welfareTarget before it is clamped to 0..100. */
+  welfareParts: WelfareParts;
+  /** Thousandths of houses within reach of each service. */
+  cover: { water: number; bath: number; school: number; hospital: number; market: number };
+  /** Households the district's houses can hold, and the work its buildings offer. */
+  housing: number;
+  jobs: number;
+}
+
+export interface WelfareParts {
+  base: number;
+  food: number;
+  water: number;
+  baths: number;
+  school: number;
+  hospital: number;
+  market: number;
+  tax: number;
+  crowding: number;
+  idle: number;
+  fever: number;
+  unpaid: number;
 }
 
 export type Command =
@@ -424,18 +446,23 @@ function runSeason(s: State, scenario: Scenario): State {
   const housed = housingCapacity(s, wet);
   const crowding = s.households > housed ? Math.min(15, Math.floor(((s.households - housed) * 100) / Math.max(1, housed))) : 0;
   const idle = workersNeeded >= s.households ? 0 : Math.floor(((s.households - workersNeeded) * 1000) / Math.max(1, s.households));
-  let target = 22;
-  target += Math.floor(((1000 - hungerPermille) * 28) / 1000);
-  target += Math.floor((share[0] * 14) / 1000) * (houses.some((h) => servedByWater(wet, h)) ? 1 : 0);
-  target += Math.floor((cover(bathed) * share[2] * 12) / 1_000_000);
-  target += Math.floor((cover(taught) * 8) / 1000);
-  target += Math.floor((cover(healed) * 8) / 1000);
-  target += Math.floor((cover(servedByMarket) * 6) / 1000);
-  target -= TAX_WELFARE[s.tax];
-  target -= crowding;
-  target -= Math.floor((idle * 12) / 1000);
-  if (events.includes("fever")) target -= cover(bathed) >= 500 || healed > 0 ? 3 : 10;
-  if (!paid) target -= 6;
+  const parts: WelfareParts = {
+    base: 22,
+    food: Math.floor(((1000 - hungerPermille) * 28) / 1000),
+    water: Math.floor((share[0] * 14) / 1000) * (houses.some((h) => servedByWater(wet, h)) ? 1 : 0),
+    baths: Math.floor((cover(bathed) * share[2] * 12) / 1_000_000),
+    school: Math.floor((cover(taught) * 8) / 1000),
+    hospital: Math.floor((cover(healed) * 8) / 1000),
+    market: Math.floor((cover(servedByMarket) * 6) / 1000),
+    // Written as 0 - x so that nothing is ever minus zero, which a saved game could not bring back.
+    tax: 0 - TAX_WELFARE[s.tax],
+    crowding: 0 - crowding,
+    idle: 0 - Math.floor((idle * 12) / 1000),
+    fever: events.includes("fever") ? (cover(bathed) >= 500 || healed > 0 ? -3 : -10) : 0,
+    unpaid: paid ? 0 : -6,
+  };
+  let target = 0;
+  for (const v of Object.values(parts)) target += v;
   target = clamp(target, 0, 100);
   const welfare = clamp(s.welfare + Math.trunc((target - s.welfare) / 3) + Math.sign(target - s.welfare), 0, 100);
 
@@ -484,7 +511,7 @@ function runSeason(s: State, scenario: Scenario): State {
     unrestSeasons,
     steadySeasons,
     outcome,
-    last: { season, waterNeed: tiers[0]! + tiers[1]! + tiers[2]!, waterSupply, waterShare: share, harvest, eaten, hungerPermille, spoiled, sold, income: { tax, trade, sales }, upkeep, knowledgeGained, welfareTarget: target, staffingPermille: staffing, households, events, completedResearch: completed },
+    last: { season, waterNeed: tiers[0]! + tiers[1]! + tiers[2]!, waterSupply, waterShare: share, harvest, eaten, hungerPermille, spoiled, sold, income: { tax, trade, sales }, upkeep, knowledgeGained, welfareTarget: target, staffingPermille: staffing, households, events, completedResearch: completed, welfareParts: parts, cover: { water: cover(houses.filter((h) => servedByWater(wet, h)).length), bath: cover(bathed), school: cover(taught), hospital: cover(healed), market: cover(servedByMarket) }, housing: housed, jobs: workersNeeded },
   };
 }
 

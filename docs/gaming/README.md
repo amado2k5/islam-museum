@@ -2,7 +2,7 @@
 
 The gaming platform is a separate subsystem of this repository: ten browser games, a portal, shared systems, a creator and developer ecosystem, built and released independently of the museum's pages. Code lives in [`gaming/`](../../gaming/); everything about it that is not code lives here.
 
-**State on 25 November 2026:** milestone M0 (inventory, decisions, baseline) is done; M1 (graphics spike) has its measurements and captures, with physical tests still open; the first game, Atlas, is a playable prototype built from museum records; and Golden Age has its rules and a simulation lab, with no interface yet. The other eight games do not exist. Nothing here is on the public site. The honest summary is the ledger's first table.
+**State on 25 November 2026:** milestone M0 (inventory, decisions, baseline) is done; M1 (graphics spike) has its measurements and captures, with physical tests still open; two games are playable prototypes: Atlas, built from museum records, and The Golden Age, whose first scenario can be played in 3D or from a plan view; both play the museum's own suite as their music. No person has played either. The other eight games do not exist. Nothing here is on the public site. The honest summary is the ledger's first table.
 
 ## Start here in a new session
 
@@ -19,7 +19,7 @@ The gaming platform is a separate subsystem of this repository: ten browser game
 | [`m0-repository-inventory.md`](m0-repository-inventory.md) | What the repository, hosting, CI, languages and this machine actually are, checked on 25 November 2026 |
 | [`m1-graphics-spike.md`](m1-graphics-spike.md) | The engine comparison: method, measured numbers, captures, defects, what is still pending |
 | [`games/atlas.md`](games/atlas.md) | Atlas: what exists, where its questions come from, its rules, what is checked and what is not done |
-| [`games/golden-age.md`](games/golden-age.md) | Golden Age: the rules of the first scenario, what the simulation lab found, what is not done |
+| [`games/golden-age.md`](games/golden-age.md) | The Golden Age: the rules of the first scenario, the screen, what was checked in a real browser, what the simulation lab found, what is not done |
 | [`threat-model.md`](threat-model.md) | Trust levels, boundaries, what the current hosting allows, and the rules that follow |
 | [`adr/`](adr/) | Architecture decisions, each with evidence and the alternatives turned down |
 | [`spec-v2/`](spec-v2/) | The V2 specification package, with the visual atlas updated for the twelve images of 25 November |
@@ -35,6 +35,7 @@ The gaming platform is a separate subsystem of this repository: ten browser game
 | [G-0004](adr/G-0004-hosting-and-release-model.md) | Static, content-addressed game releases behind a small pointer file, on the museum's existing Cloudflare hosting | Proposed; needs the founder before any hosting file changes |
 | [G-0005](adr/G-0005-determinism.md) | One seeded generator for every rule and every generated scene; no clock and no `Math.random()` in rules | Accepted |
 | [G-0006](adr/G-0006-atlas-content-pack.md) | Atlas asks only what a museum record says, from a pack pinned in git with a proved 365-day schedule | Accepted; the rule on which people may be asked about is a default awaiting the founder |
+| [G-0007](adr/G-0007-music-and-audio.md) | The museum's own suite, "Voices of the Museum", is the music of every game; the audio is never in git; nothing sounds before the player acts | Accepted (the founder's instruction); where the files are served from in production waits on G-0004 |
 
 ## Rules that bind this subsystem
 

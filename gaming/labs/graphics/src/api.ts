@@ -3,7 +3,7 @@
 import type { DistrictScene } from "@im/worldkit/district/generate";
 import type { TextureData, TextureKind } from "@im/worldkit/textures";
 import type { Vec3 } from "@im/worldkit/mesh";
-import type { Atmosphere } from "./atmosphere";
+import type { Atmosphere } from "@im/worldkit/atmosphere";
 
 export type QualityPreset = "parity" | "high" | "ultra" | "cinematic";
 

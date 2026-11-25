@@ -24,7 +24,7 @@ import { SceneInstrumentation } from "@babylonjs/core/Instrumentation/sceneInstr
 import type { DistrictScene, MaterialSpec, SceneMaterialId } from "@im/worldkit/district/generate";
 import type { MeshData, Vec3 } from "@im/worldkit/mesh";
 import type { TextureData, TextureKind } from "@im/worldkit/textures";
-import { skyDome, type Atmosphere } from "./atmosphere";
+import { skyDome, type Atmosphere } from "@im/worldkit/atmosphere";
 import type { DistrictRenderer, RendererInfo, RendererOptions } from "./api";
 
 const c3 = (c: readonly [number, number, number], k = 1) => new Color3(c[0] * k, c[1] * k, c[2] * k);

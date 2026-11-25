@@ -1,0 +1,62 @@
+{
+ "lang": "en",
+ "seed": 3,
+ "viewport": [
+  1920,
+  1080
+ ],
+ "keyboard": {
+  "canals": 4,
+  "schoolAt": 27
+ },
+ "afterPlan": {
+  "season": 1,
+  "canals": 4,
+  "treasury": 2
+ },
+ "music": {
+  "beforeClick": false,
+  "afterClick": true,
+  "available": true,
+  "track": "The First Light",
+  "requests": [
+   "206 03-the-first-light.m4a"
+  ]
+ },
+ "campaign": {
+  "policy": "balanced",
+  "commands": 57,
+  "outcome": "won",
+  "seasons": 24,
+  "households": 336,
+  "welfare": 66,
+  "treasury": 112,
+  "frames": {
+   "frames": 1076,
+   "durationMs": 9915.9,
+   "meanMs": 9.216,
+   "p50Ms": 8.3,
+   "p95Ms": 9.2,
+   "p99Ms": 50,
+   "maxMs": 58.9,
+   "minMs": 7.3,
+   "over16_7": 27,
+   "over33_3": 22,
+   "over50": 8,
+   "avgFps": 108.513
+  },
+  "info": {
+   "drawCalls": 947,
+   "triangles": 1556144,
+   "cpuRenderMs": 4.5999999940395355,
+   "engine": "three r187 webgpu",
+   "pixels": [
+    1920,
+    1080
+   ],
+   "walkers": 143,
+   "frames": 1259
+  }
+ },
+ "consoleErrors": []
+}
