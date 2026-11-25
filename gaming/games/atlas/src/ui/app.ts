@@ -6,7 +6,8 @@ import en from "../../i18n/en.json";
 import { LANGS, decodePack, type AtlasPack, type Lang, type PackFile, type PackLabels } from "../pack";
 import { REGION_HINT_COST, ROUNDS_PER_GAME, TOLERANCE_KM, centuryTally, dailyRounds, isOver, maxPoints, newGame, practiceRounds, shareMarks, step, totalPoints, type AtlasState, type GameMode } from "../rules";
 import { SAVE_KEY, emptySave, readSave, resumable, writeSave, type AtlasSave } from "../save";
-import { Globe } from "./globe";
+import { probeWebGPU } from "@im/kernel/capability";
+import { Globe, LAND } from "./globe";
 
 type Strings = Record<keyof typeof en, string>;
 const NUM_LOCALE: Record<Lang, string> = { ar: "ar-EG-u-nu-latn", en: "en-GB", ur: "ur-PK-u-nu-latn", fr: "fr-FR", es: "es-ES", tr: "tr-TR", id: "id-ID" };
@@ -85,6 +86,30 @@ async function main(): Promise<void> {
       render();
     },
   });
+  // The lit sphere comes up after the game can already be played on the drawn globe. Where it cannot be made, the
+  // drawn globe stays, and the game is the same game. `data-globe` on the page says which one is showing.
+  document.documentElement.dataset.globe = "2d";
+  if (!new URLSearchParams(location.search).has("no3d")) {
+    void (async () => {
+      const under = document.createElement("canvas");
+      try {
+        const capability = await probeWebGPU();
+        if (!capability.supported) return;
+        const { Sphere3D } = await import("./globe3d");
+        under.id = "globe3d";
+        under.setAttribute("aria-hidden", "true");
+        canvas.before(under);
+        const sphere = await Sphere3D.create(under, LAND);
+        globe.setBackdrop(sphere);
+        document.documentElement.dataset.globe = "3d";
+        document.documentElement.dataset.globeEngine = `${sphere.info().engine}, map ${sphere.info().mapWidth}`;
+      } catch {
+        under.remove();
+        globe.setBackdrop(null);
+        document.documentElement.dataset.globe = "2d";
+      }
+    })();
+  }
   const zoom = el("div", { class: "zoom" }, el("button", { type: "button", textContent: "+", ariaLabel: strings.zoom_in, onclick: () => globe.zoomBy(1.4) }), el("button", { type: "button", textContent: "−", ariaLabel: strings.zoom_out, onclick: () => globe.zoomBy(1 / 1.4) }));
   document.getElementById("app")!.append(zoom);
   // The soundtrack is the museum's own. Atlas opens with "Fourteen Centuries" and the suite follows in order.

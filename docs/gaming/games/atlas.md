@@ -55,11 +55,25 @@ Then the museum's records were counted against that rule (`npm --prefix gaming r
 - **Daily.** One game per UTC date, the same for everyone in every language. No streak, no penalty for a missed day.
 - **Scores** stay on the device and are not compared with anyone's.
 
+## The globe, lit (25 November 2026)
+
+The founder asked for 3D in every game ("build 3d for all the games"). Atlas's globe is now a lit sphere where the browser has WebGPU: the Earth is drawn by Three.js under the canvas that was the whole globe before, and that canvas keeps only the pins, the line from the guess to the place, the air round the limb and, when the globe is brought close, the coastline as a sharp line. Everything that plays the game (turning, zooming, dropping the pin, the keyboard, the typed coordinates) is the same code as before and was not touched. Without WebGPU, or with `&no3d=1`, the drawn globe is the whole globe again, and the game is the same game. The page says which it is showing in `data-globe` on its root (`3d` or `2d`).
+
+- **The same picture, to the pixel.** A pin is drawn by one canvas and the coast under it by the other, so the sphere's arithmetic (`src/ui/sphere.ts`) is held by tests to Three.js's own sphere on one side and to the 2D globe's projection on the other, at more than 500 places in four views. The sphere is seen without perspective, as the drawn globe was.
+- **What is on it.** The sea, the land with its coastline, a faint graticule and a paler edge of water along every coast, painted when the page loads from the same coastline the drawn globe uses (8,192 pixels across; 4,096 on a device that reports little memory). No borders and no names, as before, and for the same reason. The paler water is a drawn edge, not depth: no depth is known to the game. **No relief is shown, because the game has no elevation data**; the land is one plain tone. No photograph of the Earth is used and nothing is downloaded for it.
+- **The light** stands still to the viewer's upper left and is there to give the sphere its roundness. It says nothing about the hour or the season.
+- It is drawn only when the view changes, not sixty times a second.
+
+![The lit globe](../evidence/atlas/globe3d/question-en.webp)
+![Brought close, at a reveal](../evidence/atlas/globe3d/reveal-close-en.webp)
+
+Not done on it: terrain, rivers, any map of a past age; a view with perspective; a measurement of its cost on a weak device (it was run on one fast machine, where it added no console error, and that is all that can be said); recovery from a lost graphics device. The stars behind it are decoration and are no sky.
+
 ## Checked, and how
 
 | Check | Result |
 |---|---|
-| Unit tests, `npm --prefix gaming test` | 48 Atlas tests pass. 16 are the image rule on records written for the tests (what is accepted, each reason for refusal, the image hosts read from the content security policy, and when there are enough pictures for a schedule); they test the rule, not any screen, because there is none. The other 32: distance at the antimeridian and the poles, century counting, scoring monotonic, pack digest, names in seven languages, the people rule, **every one of 365 days valid**, a broken schedule caught, UTC day counting over month ends and leap days, a full game, hint cost, immutability, share marks, practice dealing, save round trip, unreadable and newer saves, damaged entries, games from another pack not resumed, and the seven string files holding the same keys and placeholders with no typed honorific |
+| Unit tests, `npm --prefix gaming test` | 52 Atlas tests pass (four hold the lit sphere to the drawn globe's projection). 16 are the image rule on records written for the tests (what is accepted, each reason for refusal, the image hosts read from the content security policy, and when there are enough pictures for a schedule); they test the rule, not any screen, because there is none. The other 32: distance at the antimeridian and the poles, century counting, scoring monotonic, pack digest, names in seven languages, the people rule, **every one of 365 days valid**, a broken schedule caught, UTC day counting over month ends and leap days, a full game, hint cost, immutability, share marks, practice dealing, save round trip, unreadable and newer saves, damaged entries, games from another pack not resumed, and the seven string files holding the same keys and placeholders with no typed honorific |
 | Real browser, `npx tsx tools/atlas-play.ts <dir> <lang>`, Chrome 158 | A full daily game in each of the seven languages: mouse, keyboard only, typed coordinates, region hint, century estimate, reload in mid-game, unreadable save set aside; no console error (`evidence/m2/atlas/playthrough-7-languages.md`). Totals differ between left-to-right and right-to-left runs because the script clicks fixed pixels and the globe sits on the other side of the window; the rules are the same |
 | Image survey, `npm --prefix gaming run atlas:images` | Every one of the 895 media records given one verdict: 12 accepted (4 for the question as asked, 8 under a held licence), 883 refused with a counted reason. The four accepted records were read by the agent; the pictures themselves were not opened, and no licence was checked beyond what the record states |
 
@@ -68,7 +82,7 @@ That is a functional check by the author's own script. It is not a playtest and 
 ## Not done (against the GDD)
 
 1. **No images, and not for want of a design.** The rule for an image round is decided and the museum's 895 media records were counted against it: four qualify, and one round a week needs 52 (see "Image rounds" above and [G-0008](../adr/G-0008-atlas-image-rounds.md)). What is missing is in the museum's records: photographs of buildings and places.
-2. **No 3D terrain globe.** The globe is a 2D canvas with coastlines. It is quick and legible; it is not the "rich terrain/globe" of the brief.
+2. **No terrain on the globe.** Since 25 November 2026 the globe is a lit sphere in 3D where the browser has WebGPU (see "The globe, lit"), with coastlines only: no relief, no rivers, no historical map. It is not yet the "rich terrain/globe" of the brief.
 3. **No regional or era modes, no route reconstruction, no artifact-origin mode**, no archive page for past days, no map skins, no clue packs for creators.
 4. **Music, and no other sound.** Atlas plays the museum's suite from the shared player, opening with "Fourteen Centuries", silent until the first click, with a switch and a volume control at the top corner ([G-0007](../adr/G-0007-music-and-audio.md)). There are no sound effects, no gamepad, no remapping and no UI scale control.
 5. **Fonts are the system's.** Arabic and Urdu use whatever the device has; the museum's web fonts come with the portal.

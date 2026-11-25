@@ -6,7 +6,7 @@ _Written 25 November 2026. Three games exist, all prototypes: **Granada** (first
 |---|---|
 | Granada | the first scenario, "Water for the Valley"; panels, a drawn plan and a 3D valley (where the browser has WebGPU) |
 | The Golden Age | three chapters; 3D where the browser offers WebGPU, a plan view otherwise |
-| Atlas | a daily five-round geography game from museum records |
+| Atlas | a daily five-round geography game from museum records, on a globe lit in 3D where the browser has WebGPU (`&no3d=1` for the drawn globe) |
 
 ## 1. On this Mac (the development build, with the music)
 

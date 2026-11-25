@@ -46,7 +46,7 @@ What follows from it, and what it does not settle:
 |---:|---|---|---|---|
 | 1 | **Granada** — The Last Kingdom of al-Andalus | prototype | The first of three acts, playable in seven languages from panels, a plan and a 3D valley generated from code; rules, ledger, scripted-player lab, saving; on UAT. **The valley is simple shapes under good light, not the painted concept.** No acts II and III, no construction, diplomacy, defence, sandbox, daily challenge | about a tenth |
 | 2 | **The Golden Age** — Rise of Civilizations | prototype | Three chapters playable in 3D (WebGPU) or from a plan view, seven languages, saving, museum links; on UAT. Nine building kinds where the design asks for 25; one strategy dominates chapter 3; plain model-town look | about a quarter |
-| 3 | **Atlas** — The Historical World Challenge | prototype | A daily five-round game from museum records on a 2D globe, seven languages, a proved 365-day schedule; on UAT. No 3D globe, no picture rounds (four museum pictures qualify), no archive | about a third |
+| 3 | **Atlas** — The Historical World Challenge | prototype | A daily five-round game from museum records on a globe that is a lit sphere in 3D where the browser has WebGPU (coastlines only, no terrain), seven languages, a proved 365-day schedule; on UAT. No picture rounds (four museum pictures qualify), no archive | about a third |
 | 4 | Architects of History — Wonders of the World | planned | The design document only | nothing built |
 | 5 | ChronoQuest — Guardians of History | planned | The design document only | nothing built |
 | 6 | Dynasty — The Age of Kingdoms | planned | The design document only | nothing built |
@@ -282,6 +282,19 @@ tools/granada-shot.ts                         captures of eight views and four s
 
 The first run of the new valley tests failed three times, and two of the three were faults in the valley, not in the tests: a cypress planted in the pool, and the two short channels (the intake and the main) having water in one stretch only, so that a broken channel could not have been shown half full. A later run found a palm inside the olive terrace and the channel's water dipping under sloping land at its edge. All four were fixed in the geometry. The channels and the hill town's walls had also been drawn as separate slabs on every slanted stretch, because their pieces were turned by the mirror of the right angle; that was found by looking at a capture, not by a test.
 
+### The sixteenth pull request: Atlas's globe as a lit sphere (25 November 2026)
+
+```
+npm --prefix gaming test                      13 files, 236 tests passed (Atlas: 52; four new, holding the sphere to the 2D projection)
+npm --prefix gaming run typecheck             clean
+npm --prefix gaming run strings               unchanged: no new string
+npm --prefix gaming run build:release:music   built; check:release --allow-dirty: "the release matches its manifest"
+npm --prefix gaming run release:smoke         all three games start in 3D in Arabic and in English under the content security policy
+tools/atlas-play.ts <dir> <lang>              a full daily game in each of the seven languages with the lit sphere showing, then the drawn globe alone with no3d; no console error
+```
+
+The first capture showed two faults that no test would have: the sea's shine made a white blot over Italy, and the paler water along the coasts was drawn in three bands that read as depth contours the game does not have. The shine was dulled and the bands replaced by one soft edge.
+
 ## Measurements
 
 The engine numbers and their conditions are in [G-0002](adr/G-0002-rendering-engine.md) and the [M1 report](m1-graphics-spike.md). They are for one Apple M4 Max in Chrome 158 and are not a hardware recommendation.
@@ -323,6 +336,8 @@ The full district at the end is about 1.56 million triangles and about 950 draw 
 
 - Granada's valley in 3D: [`evidence/granada/valley3d/`](evidence/granada/valley3d/) (eight captures: the page in English and in Arabic, the village, the pool, the hill town, the whole valley, autumn, winter rain; the play reports in seven languages; the release smoke report).
 
+- Atlas's globe as a lit sphere: [`evidence/atlas/globe3d/`](evidence/atlas/globe3d/) (four captures and the release smoke report).
+
 ## Unresolved defects and known limits
 
 1. Figures are placeholder cylinders; buildings are undetailed; water, sky and market are simple (M1 report, "Honest visual assessment").
@@ -332,7 +347,7 @@ The full district at the end is about 1.56 million triangles and about 950 draw 
 5. Only one machine has been measured.
 6. The desktop app's dev-server launcher stalled twice in the first session; the tools no longer depend on it, but the in-app preview may need `npm --prefix gaming run dev` started by hand.
 7. Interface strings of both games and of the music control exist in all seven languages, were written by AI agents and have been read by no native speaker. In Atlas, personal names in Turkish and Indonesian are borrowed from English. The graphics lab page is an English-only developer tool marked `noindex`.
-8. Atlas has no images, no sound effects and no 3D globe, and two of its five daily rounds are military events ([`games/atlas.md`](games/atlas.md)). The images are held up by the museum's records, not by the game: four pictures qualify ([G-0008](adr/G-0008-atlas-image-rounds.md)).
+8. Atlas has no images and no sound effects, its globe is lit in 3D but carries no terrain, and two of its five daily rounds are military events ([`games/atlas.md`](games/atlas.md)). The images are held up by the museum's records, not by the game: four pictures qualify ([G-0008](adr/G-0008-atlas-image-rounds.md)).
 9. **No game has been played by a person** (three now exist). Every "playthrough" so far is the author's script. This is now the largest gap: there are two games to play and nobody has.
 10. The Golden Age: in chapter 1 only two of four scripted strategies win at least one campaign in five (the GDD asks for three ways to win; chapter 2 has four); in chapter 2 money piles up with nothing to spend it on and doing nothing is comfortable; in chapter 3 the trading city wins every campaign and still ends rich, because income grows with households and costs do not; draw calls are high; three chapters, not linked by the player's city; its history is told beside the play, not in it; touch is written and untried. Twelve items in [`games/golden-age.md`](games/golden-age.md).
 11. The music has been proved to play, not listened to in a game. There are no sound effects ([G-0007](adr/G-0007-music-and-audio.md)).
