@@ -389,6 +389,55 @@ describe("commands: safe to retry, refused when stale, all or nothing", () => {
   });
 });
 
+describe("works and households: money and goods that leave for a purpose", () => {
+  it("spends and earns by name, and refuses to spend what is not there", () => {
+    const before = start();
+    const { state, results } = run(before, [
+      { kind: "spend", amount: dinars(150), why: "repairing the east branch" },
+      { kind: "earn", amount: dinars(6), why: "market levy" },
+      { kind: "spend", amount: dinars(60_000), why: "a palace" },
+    ]);
+    expect(results.map((r) => (r.ok ? r.money : r.error))).toEqual([-dinars(150), dinars(6), "insufficient-funds"]);
+    expect(money(state) - money(before)).toBe(dinars(6 - 150));
+    expect(state.journal.filter((e) => e.why === "repairing the east branch")).toHaveLength(1);
+    expect(audit(state)).toEqual([]);
+  });
+
+  it("uses goods up, takes what there is when told to, and says what was missing", () => {
+    const { state, results } = run(start({ stock: { wheat: { quantity: 30, costBasis: dinars(300) } } }), [
+      { kind: "consume", good: "wheat", quantity: 20, why: "eaten by the households" },
+      { kind: "consume", good: "wheat", quantity: 20, why: "eaten by the households" },
+      { kind: "consume", good: "wheat", quantity: 20, why: "eaten by the households", atMost: true },
+      { kind: "consume", good: "wheat", quantity: 5, why: "eaten by the households", atMost: true },
+    ]);
+    expect(results[0]).toMatchObject({ ok: true, sold: 20, leftInField: 0 });
+    expect(results[1]).toMatchObject({ ok: false, error: "insufficient-stock", detail: { available: 10 } });
+    expect(results[2]).toMatchObject({ ok: true, sold: 10, leftInField: 10 });
+    expect(results[3]).toMatchObject({ ok: true, sold: 0, leftInField: 5 });
+    expect(state.stock.wheat).toEqual({ quantity: 0, reserved: 0, costBasis: 0 });
+    expect(state.journal.filter((e) => e.to === "used").reduce((n, e) => n + e.amount, 0)).toBe(30);
+    expect(audit(state)).toEqual([]);
+  });
+
+  it("keeps timber and stone in the yard, where they take no room, and adds room when something is built", () => {
+    const opening = { capacity: 100, yard: ["timber", "stone"], stock: { wheat: { quantity: 90 }, timber: { quantity: 120 }, stone: { quantity: 80 } } };
+    const s = start(opening);
+    expect(stored(s)).toBe(90);
+    expect(freeCapacity(s)).toBe(10);
+    const { state, results } = run(s, [
+      { kind: "harvest", good: "timber", quantity: 500, overflow: "refuse" },
+      { kind: "harvest", good: "wheat", quantity: 11, overflow: "refuse" },
+      { kind: "add-capacity", units: 600, why: "the granary is finished" },
+      { kind: "harvest", good: "wheat", quantity: 11, overflow: "refuse" },
+      { kind: "consume", good: "timber", quantity: 40, why: "built into the granary" },
+    ]);
+    expect(results.map((r) => (r.ok ? "ok" : r.error))).toEqual(["ok", "overflow", "ok", "ok", "ok"]);
+    expect(state.stock.timber!.quantity).toBe(580);
+    expect(freeCapacity(state)).toBe(599);
+    expect(audit(state)).toEqual([]);
+  });
+});
+
 // ---- Random play ---------------------------------------------------------------------------------------------------
 
 const GOODS = PLAY_GOODS;

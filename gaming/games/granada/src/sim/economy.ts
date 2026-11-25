@@ -91,8 +91,10 @@ export interface EconomyState {
   stateVersion: number;
   tick: number;
   treasury: { available: number; reserved: number };
-  /** Units the warehouse holds in all, every good counted alike (a first simplification). */
+  /** Units the warehouse holds in all, every stored good counted alike (a first simplification). */
   capacity: number;
+  /** Goods kept in the open yard (timber, stone): they take no room in the warehouse. */
+  yard: string[];
   stock: Record<string, Holding>;
   markets: Record<string, Market>;
   contracts: Record<string, Contract>;
@@ -111,7 +113,15 @@ export type EconomyCommand =
   | { kind: "accept-contract"; contract: string }
   | { kind: "deliver"; contract: string; quantity: number }
   | { kind: "cancel-contract"; contract: string }
-  | { kind: "advance"; ticks: number };
+  | { kind: "advance"; ticks: number }
+  /** Money leaving for a named purpose (a fee, a cost of works). */
+  | { kind: "spend"; amount: number; why: string }
+  /** Money arriving from outside the model for a named reason (a levy, a quest's reward). */
+  | { kind: "earn"; amount: number; why: string }
+  /** Goods used up: eaten, or built into something. `atMost` takes what there is instead of refusing. */
+  | { kind: "consume"; good: string; quantity: number; why: string; atMost?: boolean }
+  /** Room added to the warehouse by something built. */
+  | { kind: "add-capacity"; units: number; why: string };
 export interface Envelope {
   commandId: string;
   /** The state the command was planned against. A stale number is refused, so nothing is decided on old prices. */
@@ -141,7 +151,9 @@ export type CommandResult =
 
 // ---- Reading -----------------------------------------------------------------------------------------------------------
 
-export const stored = (s: EconomyState): number => Object.values(s.stock).reduce((n, h) => n + h.quantity, 0);
+export const stored = (s: EconomyState): number => Object.entries(s.stock).reduce((n, [good, h]) => n + (s.yard.includes(good) ? 0 : h.quantity), 0);
+/** Room a good would need: nothing for what is kept in the yard. */
+const roomFor = (s: EconomyState, good: string, quantity: number): number => (s.yard.includes(good) ? 0 : quantity);
 export const freeCapacity = (s: EconomyState): number => s.capacity - stored(s);
 const holding = (s: EconomyState, good: string): Holding => s.stock[good] ?? { quantity: 0, reserved: 0, costBasis: 0 };
 export const unreserved = (s: EconomyState, good: string): number => holding(s, good).quantity - holding(s, good).reserved;
@@ -155,6 +167,7 @@ export const liabilities = (s: EconomyState): number => Object.values(s.contract
 export interface Opening {
   treasury: number;
   capacity: number;
+  yard?: string[];
   stock?: Record<string, { quantity: number; costBasis?: number }>;
   markets: Record<string, Market>;
   contracts?: Array<Omit<Contract, "state" | "delivered" | "reservedUnits" | "reservedCash" | "owed">>;
@@ -191,7 +204,7 @@ export function open(o: Opening): EconomyState {
     for (const [g, n] of [...Object.entries(r.inputs), ...Object.entries(r.outputs)]) if (!Number.isSafeInteger(n) || n < 1 || n > 1000) throw new Error(`recipe ${r.id}: ${n} of ${g} is not a whole number between 1 and 1000`);
     if (Object.keys(r.inputs).length === 0 || Object.keys(r.outputs).length === 0) throw new Error(`recipe ${r.id} makes something from nothing, or nothing from something`);
   }
-  const s: EconomyState = { version: ECONOMY_VERSION, stateVersion: 0, tick: 0, treasury: { available: 0, reserved: 0 }, capacity: o.capacity, stock: {}, markets: {}, contracts: {}, recipes: {}, journal: [], done: {} };
+  const s: EconomyState = { version: ECONOMY_VERSION, stateVersion: 0, tick: 0, treasury: { available: 0, reserved: 0 }, capacity: o.capacity, yard: [...(o.yard ?? [])], stock: {}, markets: {}, contracts: {}, recipes: {}, journal: [], done: {} };
   const j = writer(s, "opening");
   j("money", "world", "treasury", o.treasury, "opening balance");
   s.treasury.available = o.treasury;
@@ -261,7 +274,7 @@ function apply(s: EconomyState, cmd: EconomyCommand, j: Write): CommandResult {
       if (q.inventory < cmd.quantity) return fail("market-out-of-stock", { available: q.inventory });
       const cost = q.ask * cmd.quantity;
       if (s.treasury.available < cost) return fail("insufficient-funds", { cost, available: s.treasury.available });
-      if (freeCapacity(s) < cmd.quantity) return fail("no-storage", { free: freeCapacity(s) });
+      if (freeCapacity(s) < roomFor(s, cmd.good, cmd.quantity)) return fail("no-storage", { free: freeCapacity(s) });
       j("money", "treasury", `market:${cmd.market}`, cost, "bought at ask");
       j(cmd.good, `market:${cmd.market}`, "warehouse", cmd.quantity, "bought at ask");
       s.treasury.available -= cost;
@@ -291,8 +304,8 @@ function apply(s: EconomyState, cmd: EconomyCommand, j: Write): CommandResult {
     }
     case "harvest": {
       if (!whole(cmd.quantity)) return fail("bad-quantity");
-      const free = freeCapacity(s);
-      const fits = Math.min(cmd.quantity, free);
+      const free = s.yard.includes(cmd.good) ? cmd.quantity : freeCapacity(s);
+      const fits = Math.min(cmd.quantity, Math.max(0, free));
       const over = cmd.quantity - fits;
       // A harvest that does not fit is the player's decision, never a silent loss.
       if (over > 0 && cmd.overflow === "refuse") return fail("overflow", { expected: cmd.quantity, free, overflow: over });
@@ -327,8 +340,8 @@ function apply(s: EconomyState, cmd: EconomyCommand, j: Write): CommandResult {
       for (const [good, n] of Object.entries(r.inputs)) if (unreserved(s, good) < n * cmd.runs) return fail("insufficient-stock", { available: unreserved(s, good) });
       const fee = r.cost * cmd.runs;
       if (s.treasury.available < fee) return fail("insufficient-funds", { cost: fee, available: s.treasury.available });
-      const inUnits = Object.values(r.inputs).reduce((a, n) => a + n * cmd.runs, 0);
-      const outUnits = Object.values(r.outputs).reduce((a, n) => a + n * cmd.runs, 0);
+      const inUnits = Object.entries(r.inputs).reduce((a, [good, n]) => a + roomFor(s, good, n * cmd.runs), 0);
+      const outUnits = Object.entries(r.outputs).reduce((a, [good, n]) => a + roomFor(s, good, n * cmd.runs), 0);
       if (freeCapacity(s) + inUnits < outUnits) return fail("no-storage", { free: freeCapacity(s) + inUnits });
       // What the inputs cost goes with them into what they become.
       let basis = fee;
@@ -396,6 +409,35 @@ function apply(s: EconomyState, cmd: EconomyCommand, j: Write): CommandResult {
       if (!c) return fail("unknown-contract");
       if (c.state !== "accepted") return fail("wrong-contract-state");
       return ok({ money: -close(s, c, "cancelled", j) });
+    }
+    case "spend": {
+      if (!whole(cmd.amount) && cmd.amount !== 0) return fail("bad-quantity");
+      if (cmd.amount > MAX_MONEY) return fail("amount-too-large");
+      if (s.treasury.available < cmd.amount) return fail("insufficient-funds", { cost: cmd.amount, available: s.treasury.available });
+      j("money", "treasury", "world", cmd.amount, cmd.why);
+      s.treasury.available -= cmd.amount;
+      return ok({ money: -cmd.amount });
+    }
+    case "earn": {
+      if (!Number.isSafeInteger(cmd.amount) || cmd.amount < 0 || cmd.amount > MAX_MONEY) return fail("bad-quantity");
+      j("money", "world", "treasury", cmd.amount, cmd.why);
+      s.treasury.available += cmd.amount;
+      return ok({ money: cmd.amount });
+    }
+    case "consume": {
+      if (!whole(cmd.quantity)) return fail("bad-quantity");
+      const have = unreserved(s, cmd.good);
+      if (have < cmd.quantity && !cmd.atMost) return fail("insufficient-stock", { available: have });
+      const used = Math.min(have, cmd.quantity);
+      if (used > 0) sellFromStock(s, cmd.good, used);
+      j(cmd.good, "warehouse", "used", used, cmd.why);
+      // What could not be supplied is reported as left over, never invented.
+      return ok({ sold: used, leftInField: cmd.quantity - used });
+    }
+    case "add-capacity": {
+      if (!whole(cmd.units) || s.capacity + cmd.units > MAX_UNITS) return fail("bad-quantity");
+      s.capacity += cmd.units;
+      return ok({ stored: cmd.units });
     }
     case "advance": {
       if (!whole(cmd.ticks)) return fail("bad-quantity");
@@ -467,6 +509,7 @@ export function audit(s: EconomyState): string[] {
     if (h.reserved > h.quantity || h.costBasis < 0) bad.push(`${good}: reserved ${h.reserved} of ${h.quantity}, cost basis ${h.costBasis}`);
   }
   if (stored(s) > s.capacity) bad.push(`the warehouse holds ${stored(s)} in room for ${s.capacity}`);
+  if (new Set(s.yard).size !== s.yard.length) bad.push("a good is listed in the yard twice");
   const heldUnits = new Map<string, number>();
   let heldCash = 0;
   for (const c of Object.values(s.contracts)) {
