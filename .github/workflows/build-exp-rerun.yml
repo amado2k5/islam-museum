@@ -1,0 +1,33 @@
+name: Auto-rerun the experimental build
+
+# Part of the build-lang experiment (build-exp.yml): when a run of the experimental build fails, this reruns its
+# failed jobs automatically. A hosted runner can be lost mid-job with no error of the build's own making (the failure
+# pattern of November 2026: id, ur, then fr twice, each healthy at the last resource sample); the right answer to a
+# transient loss is to start the failed jobs again, not to involve a human. Capped at two automatic retries
+# (run_attempt counts every start of the run): a run that still fails after three starts has a real problem and stays
+# failed for a human to read. Only the failed jobs rerun; the jobs that passed keep their artifacts.
+#
+# This workflow listens to the experimental build only: it never touches build-lang.yml's runs or any other workflow.
+on:
+  workflow_run:
+    workflows: ["Build islam.museum by language (experimental)"]
+    types: [completed]
+
+permissions:
+  actions: write
+
+jobs:
+  rerun:
+    name: Rerun failed jobs (attempts 1 and 2 only)
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    if: ${{ github.event.workflow_run.conclusion == 'failure' && github.event.workflow_run.run_attempt < 3 }}
+    steps:
+      - name: Rerun the failed jobs of the failed run
+        env:
+          GH_TOKEN: ${{ github.token }}
+          RUN_ID: ${{ github.event.workflow_run.id }}
+          ATTEMPT: ${{ github.event.workflow_run.run_attempt }}
+        run: |
+          echo "run $RUN_ID failed on attempt $ATTEMPT; rerunning its failed jobs"
+          gh run rerun "$RUN_ID" --failed
