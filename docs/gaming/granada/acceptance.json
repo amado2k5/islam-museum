@@ -1,0 +1,252 @@
+{
+ "schemaVersion": 1,
+ "gameId": "granada",
+ "extends": "Gaming Platform V2 R01–R18 (not superseded)",
+ "statusValues": [
+  "not-tested",
+  "in-progress",
+  "pass",
+  "fail",
+  "pending-external",
+  "not-applicable"
+ ],
+ "updated": "2026-11-25",
+ "status": "in-progress: G0 done (self-assessed); the money and goods of the economy and the region's geography are built and tested; there is no screen, no scene and no playable game",
+ "criteriaSource": "docs/gaming/spec-granada/contracts/acceptance.json (the founder's; never edited here)",
+ "gates": [
+  {
+   "id": "GRA01",
+   "milestone": "G0",
+   "requirement": "Repository discovery and ownership confirmed; actual seven locales, renderer, deployment, source rights inventoried",
+   "evidence": "ADRs, baseline, checkpoint, source gaps",
+   "status": "pass",
+   "hardGate": true,
+   "evidenceSoFar": "The discovery report (docs/gaming/granada/g0-discovery.md): what exists and is reused, ownership, the museum's 25 pinned records for Granada with their review state, the claims the game would make and what supports each, the three images read against the data, G0 to G8 mapped onto M0 to M11, and what waits for the founder. Decisions G-0009 and G-0010. Baseline: the existing renderer's measurements on one machine; no Granada scene exists to measure. Limits: the museum was searched by name and by words in three prose files, not through the whole graph; no source outside the repository was read. The evidence is the author's own and no independent reader has checked it."
+  },
+  {
+   "id": "GRA02",
+   "milestone": "G2",
+   "requirement": "First-time player completes water → harvest → trade → construction → quest → save loop",
+   "evidence": "Unassisted browser recording, E2E, player observations",
+   "status": "not-tested",
+   "hardGate": true,
+   "evidenceSoFar": "Nothing yet."
+  },
+  {
+   "id": "GRA03",
+   "milestone": "G3",
+   "requirement": "Deterministic fixed-step simulation and replay across frame rates and reload",
+   "evidence": "Seeded hashes and replay fixture",
+   "status": "in-progress",
+   "hardGate": true,
+   "evidenceSoFar": "Commands only: the same commands give the same state and the same fingerprint, and different commands a different one (economy.gtest.ts, 'random play'); docs/gaming/evidence/granada/g0/economy-fuzz.json records a digest of all 300 end states. Not done: a fixed-step clock, independence from frame rate, replay after reload. There is no clock and no screen yet."
+  },
+  {
+   "id": "GRA04",
+   "milestone": "G3",
+   "requirement": "Money, inventories and reservations reconcile, no free arbitrage, no duplicate settlement",
+   "evidence": "Ledger, property tests, economy fixture",
+   "status": "in-progress",
+   "hardGate": true,
+   "evidenceSoFar": "The ledger reconciles after every one of 60,000 random commands over 300 random openings (docs/gaming/evidence/granada/g0/economy-fuzz.json: 24,460 accepted, 0 unsound states; contracts ended settled 436, cancelled 297, failed 236). Buying and selling at one set of prices never raised wealth across 30,000 random buy and sell commands. A retried command pays once; a cancelled or failed contract releases what it held once. Fifteen deliberate breakages of the kernel were all caught (docs/gaming/evidence/granada/g0/economy-mutations.md). Not done: prices that move, goods in transit, storage by place and kind, the journal's checkpoint."
+  },
+  {
+   "id": "GRA05",
+   "milestone": "G3",
+   "requirement": "Raw olive valuation, overflow, oil conversion and contract alternatives correct",
+   "evidence": "Fixture arithmetic and UI assertions",
+   "status": "in-progress",
+   "hardGate": true,
+   "evidenceSoFar": "The package's fixture is reproduced by tests to the unit: wheat round trip minus 80; olives 190,400 at the raw bid (not 435,200), 145,600 if only 5,200 fit, overflow 1,600; 1,360 oil worth 87,040; the Málaga contract 7,200 on paper, 2,400 better than a local sale, and minus 1,200 when the oil is bought at ask, which the kernel also shows by actually doing it; reserves 91% and 3,600 short (docs/gaming/evidence/granada/g0/tests.md). Not done: the 'UI assertions' half of the evidence. There is no screen."
+  },
+  {
+   "id": "GRA06",
+   "milestone": "G3",
+   "requirement": "Finite markets, transport, processing, seasons and water affect actual economy",
+   "evidence": "Scenario recordings and conservation tests",
+   "status": "in-progress",
+   "hardGate": true,
+   "evidenceSoFar": "Two of the five exist: markets with finite stock and finite money, and one recipe (five olives to one oil, cost carried into the product). Not started: transport, seasons, water."
+  },
+  {
+   "id": "GRA07",
+   "milestone": "G4",
+   "requirement": "Modular castle placement, costs, construction phases, repair and blueprint valid",
+   "evidence": "Placement/cancel tests and actual capture",
+   "status": "not-tested",
+   "hardGate": true,
+   "evidenceSoFar": "Nothing yet."
+  },
+  {
+   "id": "GRA08",
+   "milestone": "G4",
+   "requirement": "Defense and diplomacy meaningful with civilian protection and noncombat outcomes",
+   "evidence": "Independent scenario test and historical framing review",
+   "status": "not-tested",
+   "hardGate": true,
+   "evidenceSoFar": "Nothing yet."
+  },
+  {
+   "id": "GRA09",
+   "milestone": "G5",
+   "requirement": "Complete authored campaign with at least three ending paths, sandbox and survival mode",
+   "evidence": "Full playthroughs, test report, ending state evidence",
+   "status": "not-tested",
+   "hardGate": true,
+   "evidenceSoFar": "Nothing yet."
+  },
+  {
+   "id": "GRA10",
+   "milestone": "G5",
+   "requirement": "At least three viable economic strategies and no dominant universal exploit",
+   "evidence": "Seeded simulation report and human playtest",
+   "status": "not-tested",
+   "hardGate": true,
+   "evidenceSoFar": "Nothing yet."
+  },
+  {
+   "id": "GRA11",
+   "milestone": "G5",
+   "requirement": "365-day deterministic challenge validation, archives and honest local scoring",
+   "evidence": "Seed/version solver and archive tests",
+   "status": "not-tested",
+   "hardGate": true,
+   "evidenceSoFar": "Nothing yet."
+  },
+  {
+   "id": "GRA12",
+   "milestone": "G1/G8",
+   "requirement": "Actual high-fidelity 3D gameplay, no concept images used as backgrounds",
+   "evidence": "Actual captures and independent art review",
+   "status": "not-tested",
+   "hardGate": true,
+   "evidenceSoFar": "Nothing yet."
+  },
+  {
+   "id": "GRA13",
+   "milestone": "G8",
+   "requirement": "Physical GPU benchmarks, device recovery, soak, accurate browser requirements",
+   "evidence": "Hardware/browser details, frame-time distributions, recovery evidence",
+   "status": "not-tested",
+   "hardGate": true,
+   "evidenceSoFar": "Nothing yet."
+  },
+  {
+   "id": "GRA14",
+   "milestone": "G5",
+   "requirement": "Contextual HUD modes, no conflicting ghost, map markers reflect state, Overview visibility target",
+   "evidence": "UI mask, screenshots, marker ID tests, navigation recording",
+   "status": "not-tested",
+   "hardGate": true,
+   "evidenceSoFar": "Nothing yet."
+  },
+  {
+   "id": "GRA15",
+   "milestone": "G3/G8",
+   "requirement": "Regional geography correct, ports separated, historic claims and rights verified",
+   "evidence": "Coordinate checks, source and license audit",
+   "status": "in-progress",
+   "hardGate": true,
+   "evidenceSoFar": "Eleven places from museum records by id with the museum's coordinates, pinned in git; tests hold Granada inland (nearest sea place 51 km), Málaga 89 km to the south-west, Almería 109 km to the east, 175 km between the two ports (geography.gtest.ts; docs/gaming/evidence/granada/g0/museum-records.md). Not done: no historical claim of the game has been verified against a source; twenty of the 25 pinned records are draft-tier; no map data, terrain or image has been chosen, so no rights have been checked."
+  },
+  {
+   "id": "GRA16",
+   "milestone": "G2/G8",
+   "requirement": "Save atomicity, migration, quota and corrupt save recovery; no unattended progression",
+   "evidence": "Browser recovery fixtures and replay evidence",
+   "status": "not-tested",
+   "hardGate": true,
+   "evidenceSoFar": "Nothing yet."
+  },
+  {
+   "id": "GRA17",
+   "milestone": "G6",
+   "requirement": "External T1 content pack works, profile isolation, safe disable and rollback",
+   "evidence": "Independent sample ZIP/manifest, security fixtures",
+   "status": "not-tested",
+   "hardGate": true,
+   "evidenceSoFar": "Nothing yet."
+  },
+  {
+   "id": "GRA18",
+   "milestone": "G6",
+   "requirement": "Programmable extensions only if independently security-audited; otherwise disabled",
+   "evidence": "Threat model and sandbox attacks or disabled-state proof",
+   "status": "not-tested",
+   "hardGate": true,
+   "evidenceSoFar": "No extension mechanism exists in Granada, so nothing programmable can run. The gate asks for proof of the disabled state in a shipped build; there is no build."
+  },
+  {
+   "id": "GRA19",
+   "milestone": "G6",
+   "requirement": "Compatible building interchange round trip without bypassing construction rules",
+   "evidence": "Blueprint export/import and cost/validation evidence",
+   "status": "not-tested",
+   "hardGate": true,
+   "evidenceSoFar": "Nothing yet."
+  },
+  {
+   "id": "GRA20",
+   "milestone": "G7",
+   "requirement": "Eleventh title registered in all seven locales with nav/footer/home and docs",
+   "evidence": "Localized route matrix, link test, network trace",
+   "status": "not-tested",
+   "hardGate": true,
+   "evidenceSoFar": "Nothing yet."
+  },
+  {
+   "id": "GRA21",
+   "milestone": "G7",
+   "requirement": "Independent game-only build, release, staging and route-safe rollback",
+   "evidence": "CI path matrix, deployment dry-run/live staging proof where authorized",
+   "status": "not-tested",
+   "hardGate": true,
+   "evidenceSoFar": "Nothing yet."
+  },
+  {
+   "id": "GRA22",
+   "milestone": "G7",
+   "requirement": "Existing museum validator zero errors and citation check zero failures; no unrelated regression",
+   "evidence": "Actual repo commands, timing and output",
+   "status": "in-progress",
+   "hardGate": true,
+   "evidenceSoFar": "This pull request: npm run validate 0 errors (7,674 warnings); npm test 62 files, 30,319 passed, 2 skipped, on a second run with the repository's CI setting after the first ran out of memory in one worker before any assertion failed. No museum file was changed except one row each of docs/status.md and docs/agents/lanes.md and one release note. The gate is re-run on every Granada pull request."
+  },
+  {
+   "id": "GRA23",
+   "milestone": "G8",
+   "requirement": "Accessible essential controls, keyboard, RTL and text scaling, language review",
+   "evidence": "Functional tests, seven locale screenshots, review",
+   "status": "not-tested",
+   "hardGate": true,
+   "evidenceSoFar": "Nothing yet."
+  },
+  {
+   "id": "GRA24",
+   "milestone": "G8",
+   "requirement": "Eight distinct actual gameplay perspectives, press kit and verified portal eligibility where applicable",
+   "evidence": "In-engine captures, metadata, current portal policy matrix",
+   "status": "not-tested",
+   "hardGate": true,
+   "evidenceSoFar": "Nothing yet."
+  },
+  {
+   "id": "GRA25",
+   "milestone": "G8",
+   "requirement": "Independent gameplay and visual review, blind human playtest, no unresolved high/critical defects",
+   "evidence": "Reviewer rubric, anonymized observations, defect retests",
+   "status": "not-tested",
+   "hardGate": true,
+   "evidenceSoFar": "Nothing yet."
+  },
+  {
+   "id": "GRA26",
+   "milestone": "G8",
+   "requirement": "No unauthorized deployment, paid service or external submission; optional online features honest",
+   "evidence": "Approval ledger and UI inspection",
+   "status": "in-progress",
+   "hardGate": true,
+   "evidenceSoFar": "Holds so far: nothing deployed, no paid service, no external submission, no online feature, no file outside gaming/** and docs/gaming/** changed except the shared register rows and the release note. It is a gate for the release, so it stays open."
+  }
+ ]
+}

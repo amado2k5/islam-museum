@@ -7,6 +7,6 @@ const r = (p: string) => fileURLToPath(new URL(p, import.meta.url));
 
 export default defineConfig({
   root: r("."),
-  resolve: { alias: { "@im/kernel": r("./packages/kernel/src"), "@im/worldkit": r("./packages/worldkit/src"), "@im/atlas": r("./games/atlas/src"), "@im/audio": r("./packages/audio/src"), "@im/golden-age": r("./games/golden-age/src") } },
+  resolve: { alias: { "@im/kernel": r("./packages/kernel/src"), "@im/worldkit": r("./packages/worldkit/src"), "@im/atlas": r("./games/atlas/src"), "@im/audio": r("./packages/audio/src"), "@im/golden-age": r("./games/golden-age/src"), "@im/granada": r("./games/granada/src") } },
   test: { include: ["**/*.gtest.ts"], exclude: ["node_modules/**", "dist/**"], environment: "node" },
 });

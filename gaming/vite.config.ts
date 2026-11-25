@@ -14,6 +14,7 @@ export default defineConfig({
       "@im/atlas": r("./games/atlas/src"),
       "@im/audio": r("./packages/audio/src"),
       "@im/golden-age": r("./games/golden-age/src"),
+      "@im/granada": r("./games/granada/src"),
     },
   },
   server: { port: 4330, strictPort: true, host: "127.0.0.1" },
