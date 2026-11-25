@@ -131,6 +131,7 @@ async function main(): Promise<void> {
     const lon = el("input", { type: "number", id: "lon", min: "-180", max: "180", step: "0.1", value: pin ? pin[1].toFixed(1) : "", ariaLabel: strings.longitude, placeholder: strings.longitude });
     const setPin = el("button", {
       type: "button",
+      id: "set-pin",
       textContent: strings.set_pin,
       onclick: () => {
         const la = Number(lat.value);
@@ -155,6 +156,7 @@ async function main(): Promise<void> {
       ? el("p", { class: "note", textContent: place.region ? t("hint_region_shown", { region: labels.regions[place.region] ?? place.region }) : strings.hint_region_none })
       : el("button", {
           type: "button",
+          id: "hint",
           textContent: t("hint_region", { cost: REGION_HINT_COST }),
           onclick: () => {
             state = step(pack, state, { type: "hint-region" });
@@ -174,6 +176,7 @@ async function main(): Promise<void> {
       el("div", { class: "field" }, hint),
       el("button", {
         type: "button",
+        id: "submit",
         class: "primary",
         textContent: strings.submit,
         disabled: !pin,
@@ -257,9 +260,15 @@ async function main(): Promise<void> {
   }
 
   function render(): void {
+    // The panel is rebuilt on every change. A keyboard user must not lose their place when it is, so focus goes
+    // back to the control they were on (or, after the region hint is used up, to the submit button).
+    const focused = document.activeElement instanceof HTMLElement && panel.contains(document.activeElement) ? document.activeElement.id : "";
     if (revealed) renderReveal();
     else if (isOver(state)) renderSummary();
-    else renderRound();
+    else {
+      renderRound();
+      if (focused) (document.getElementById(focused) ?? document.getElementById("submit"))?.focus();
+    }
   }
 
   start(query.get("mode") === "practice" ? "practice" : "daily");
