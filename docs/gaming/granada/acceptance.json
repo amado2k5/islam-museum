@@ -199,9 +199,9 @@
    "milestone": "G7",
    "requirement": "Independent game-only build, release, staging and route-safe rollback",
    "evidence": "CI path matrix, deployment dry-run/live staging proof where authorized",
-   "status": "not-tested",
+   "status": "in-progress",
    "hardGate": true,
-   "evidenceSoFar": "Nothing yet."
+   "evidenceSoFar": "The games' own build runs on GitHub's runners for changes to the games alone, and Granada was released to UAT as the first of three pages by the games' own deploy workflow on 25 November 2026 (https://uat-games.islam.museum/granada/; runs 45713511479 and 45713830185) and played there for three days in a browser. Not done: production; a rollback on Cloudflare."
   },
   {
    "id": "GRA22",
@@ -246,7 +246,7 @@
    "evidence": "Approval ledger and UI inspection",
    "status": "in-progress",
    "hardGate": true,
-   "evidenceSoFar": "Holds so far: nothing deployed, no paid service, no external submission, no online feature, no file outside gaming/** and docs/gaming/** changed except the shared register rows and the release note. It is a gate for the release, so it stays open."
+   "evidenceSoFar": "Holds so far: no production deployment, no paid service added, no external submission, no online feature. One deployment was made, to UAT only, by the agent on the founder's explicit word in chat (\"Yes, run UAT\", 25 November 2026); it created one Worker and one Custom Domain in the existing account with the existing token. It is a gate for the release, so it stays open."
   }
  ]
 }

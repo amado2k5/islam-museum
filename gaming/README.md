@@ -39,6 +39,8 @@ npm --prefix gaming run granada:records     # rebuild Granada's pinned museum re
 npm --prefix gaming run granada:mutations   # break Granada's economy kernel 15 ways and check the tests notice each time
 ```
 
+To try a game from a phone or another computer on the same network, start the launch configuration `gaming-dev-lan` (the same server listening on every address) and open `http://<this machine's address>:4330/games/granada/index.html?lang=ar`. Browsers offer WebGPU only on `https` or `localhost`, so over a plain network address The Golden Age shows its plan view; Granada and Atlas are unaffected.
+
 Useful address parameters for the games: `lang=` one of ar, en, ur, fr, es, tr, id; `music=off`; and for The Golden Age `seed=<number>` (a new game on that district), `q=low` (no post-processing), `no3d=1` (the plan view only).
 
 Benchmarks and captures are in [`docs/gaming/m1-graphics-spike.md`](../docs/gaming/m1-graphics-spike.md), with the commands to repeat them.

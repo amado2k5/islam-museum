@@ -1,6 +1,6 @@
 {
  "specVersion": "2.0",
- "status": "in-progress: M0 done; M1 measured on one machine; Granada, Atlas and The Golden Age are prototypes; no other game exists; no person has played any of them; no deployment has run",
+ "status": "in-progress: M0 done; M1 measured on one machine; Granada, Atlas and The Golden Age are prototypes, live on the games' UAT address; no other game exists; no person has played any of them; production is not deployed",
  "releasePolicy": "All applicable hard gates must pass; conditional optional features disabled if gate not passed. Human and GPU tests cannot be fabricated.",
  "requirements": [
   {
@@ -19,7 +19,7 @@
    "evidence": "CI logs, staging and rollback proof",
    "status": "in-progress",
    "hardGate": true,
-   "evidenceSoFar": "A separate build exists and is exercised locally: the release build (gaming/tools/build.ts), its verifier, a real-browser smoke test behind the games Worker's own code, the Worker and the publisher with 31 tests including a rehearsed release and rollback against a stand-in AWS CLI, and four workflows of the games' own (docs/gaming/release-and-deploy.md, docs/gaming/evidence/release/). Not done: no workflow run, no staging and no rollback on Cloudflare. The first UAT deployment is the founder's to start."
+   "evidenceSoFar": "A separate build and a staged release are proved: the games' own workflow builds and tests on GitHub's runners, and on 25 November 2026 a release (46 files, three games) was deployed to UAT at https://uat-games.islam.museum by the games' own deploy workflow (runs 45713511479 and 45713830185), verified in the bucket and opened in a browser (docs/gaming/release-and-deploy.md). Not done: production; a rollback on Cloudflare, which needs a second release (it is rehearsed against a stand-in AWS CLI in workers/games/test)."
   },
   {
    "id": "R03",
