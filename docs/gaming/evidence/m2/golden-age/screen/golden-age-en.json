@@ -33,8 +33,8 @@
   "welfare": 66,
   "treasury": 112,
   "frames": {
-   "frames": 1197,
-   "durationMs": 9975,
+   "frames": 1196,
+   "durationMs": 9966.5,
    "meanMs": 8.333,
    "p50Ms": 8.3,
    "p95Ms": 9,
@@ -44,7 +44,7 @@
    "over16_7": 0,
    "over33_3": 0,
    "over50": 0,
-   "avgFps": 120
+   "avgFps": 120.002
   },
   "info": {
    "drawCalls": 947,
@@ -56,7 +56,38 @@
     1080
    ],
    "walkers": 143,
-   "frames": 1380
+   "frames": 1384
+  }
+ },
+ "conditions": {
+  "riverDropInDrought": -0.4
+ },
+ "chapterTwo": {
+  "season": 2,
+  "treasury": 75,
+  "learned": 22
+ },
+ "chapterTwoCampaign": {
+  "policy": "balanced",
+  "commands": 65,
+  "outcome": "ended",
+  "seasons": 20,
+  "households": 473,
+  "welfare": 60,
+  "treasury": 247,
+  "frames": {
+   "frames": 978,
+   "durationMs": 8174.6,
+   "meanMs": 8.358,
+   "p50Ms": 8.3,
+   "p95Ms": 9,
+   "p99Ms": 9.3,
+   "maxMs": 17.4,
+   "minMs": 7.3,
+   "over16_7": 2,
+   "over33_3": 0,
+   "over50": 0,
+   "avgFps": 119.639
   }
  },
  "consoleErrors": []

@@ -11,7 +11,7 @@ import { chromium, type Page } from "playwright-core";
 import { Rng } from "@im/kernel/prng";
 import { makePolicies } from "../games/golden-age/src/policies";
 import { plotOf, step, type Command, type State } from "../games/golden-age/src/rules";
-import { FAILING_CANAL } from "../games/golden-age/src/scenarios";
+import { FAILING_CANAL, HOUSE_OF_BOOKS } from "../games/golden-age/src/scenarios";
 import { serveWorkspace } from "./serve";
 
 const [outArg, lang = "en", campaign = "0"] = process.argv.slice(2);
@@ -44,7 +44,7 @@ const fail = async (why: string): Promise<never> => {
   await served.close();
   throw new Error(`${why}\nconsole: ${errors.join(" | ")}`);
 };
-type Hook = { ready?: boolean; no3d?: string; problems(): Array<{ plot: number; kind: string }>; state(): State; tool(): string; dispatch(c: Command): void; screenOfPlot(p: number): [number, number] | null; screenOfLink(a: number, b: number): [number, number] | null; stage?: { takeFrameStats(): unknown; info(): unknown; setPose(p: unknown): void }; music: { state(): { on: boolean; playing: boolean; available: boolean; track: { title: string } } } };
+type Hook = { ready?: boolean; no3d?: string; scenario(): string; problems(): Array<{ plot: number; kind: string }>; state(): State; tool(): string; dispatch(c: Command): void; screenOfPlot(p: number): [number, number] | null; screenOfLink(a: number, b: number): [number, number] | null; stage?: { takeFrameStats(): unknown; info(): unknown; setPose(p: unknown): void }; music: { state(): { on: boolean; playing: boolean; available: boolean; track: { title: string } } } };
 const ga = <T>(fn: (h: Hook, arg: never) => T, arg?: unknown): Promise<T> => page.evaluate(([f, a]) => (0, eval)(`(${f})`)((window as unknown as { __GA__: Hook }).__GA__, a), [fn.toString(), arg] as const) as Promise<T>;
 const state = () => ga((h) => h.state());
 const ready = async (p: Page = page) => {
@@ -53,6 +53,10 @@ const ready = async (p: Page = page) => {
   if (err) await fail(`the page failed to start: ${err}`);
 };
 const settle = (ms = 500) => page.waitForTimeout(ms);
+/** A new game opens on its chapter's brief; this reads past it. */
+const begin = async () => {
+  if (await page.locator("#brief").evaluate((d) => (d as HTMLDialogElement).open)) await page.locator("#brief-begin").click();
+};
 const log: Record<string, unknown> = { lang, seed: SEED, viewport: [W, H] };
 
 // ---- 1. A new game ---------------------------------------------------------------------------------------------------
@@ -66,7 +70,14 @@ if (!sideBox) await fail("the side panel is missing");
 if (dir === "rtl" ? sideBox!.x < W / 2 : sideBox!.x > W / 2) await fail(`the side panel is on the wrong side for ${dir}`);
 const missing = await page.evaluate(() => [...document.querySelectorAll("#hud *")].filter((n) => n.children.length === 0 && /^[a-z]+(_[a-z0-9-]+)+$/.test(n.textContent ?? "")).map((n) => n.textContent));
 if (missing.length) await fail(`untranslated keys on screen: ${missing.join(", ")}`);
-await settle(1200);
+// A new game opens on the chapter's brief: what is asked, and the museum's own account of the history behind it.
+if (!(await page.locator("#brief").evaluate((d) => (d as HTMLDialogElement).open))) await fail("a new game did not open on its brief");
+const told = await page.locator("#brief .history a").evaluateAll((as) => as.map((a) => (a as HTMLAnchorElement).href));
+if (told.length !== 2 || !told.every((h) => h.startsWith(`https://islam.museum/${lang}/invention/`)) || (await page.locator("#brief .history p").first().innerText()).length < 40) await fail(`the brief does not carry the museum's account: ${told.join(", ")}`);
+await settle(900);
+await shot("0-brief");
+await begin();
+await settle(600);
 // Two houses of the inherited district have no water in reach: each has a marker over it, and the panel lists both.
 const marked = await ga((h) => h.problems().length);
 if (marked !== 2 || (await page.locator("#marks .mark").count()) !== 2 || (await page.locator("#attention li").count()) !== 2) await fail(`expected two marked plots at the start, found ${marked}`);
@@ -188,11 +199,13 @@ await ready();
 const kept = await page.evaluate(() => localStorage.getItem("im.golden-age.save.v1.unreadable"));
 if (kept !== "{not json") await fail("an unreadable save was not set aside");
 if ((await state()).season !== 0) await fail("after an unreadable save the game did not start afresh");
+await begin();
 
 // ---- 8. Without 3D the plan is the whole game -------------------------------------------------------------------------------------
 await page.goto(url(`&seed=${SEED}&no3d=1`));
 await ready();
 if (!(await ga((h) => h.no3d))) await fail("the no-3D path did not engage");
+await begin();
 await page.waitForSelector("#pgrid");
 await page.locator(".plink.ok").first().click();
 await page.keyboard.press("2");
@@ -212,7 +225,7 @@ await ready();
 await settle(800);
 const quiet = await ga((h) => h.music.state());
 if (quiet.playing) await fail("music played before any click");
-await page.locator("#tab-ledger").click();
+await begin();
 await settle(2600);
 const sounding = await ga((h) => h.music.state());
 log.music = { beforeClick: quiet.playing, afterClick: sounding.playing, available: sounding.available, track: sounding.track.title, requests: audioRequests.slice(0, 3) };
@@ -231,6 +244,7 @@ await page.locator("details.music summary").click();
 if (campaign === "1") {
   await page.goto(url(`&seed=${SEED}`));
   await ready();
+  await begin();
   await settle(1500);
   await ga((h) => h.stage?.takeFrameStats());
   const policy = makePolicies(step).find((p) => p.name === "balanced")!;
@@ -253,6 +267,8 @@ if (campaign === "1") {
   if (cur.outcome === "playing") await fail("the campaign did not end");
   if (!(await page.locator("#outcome").evaluate((d) => (d as HTMLDialogElement).open))) await fail("the outcome was not shown");
   await shot("13-outcome");
+  // The first chapter's end offers the second.
+  if ((await page.locator("#next-chapter").count()) !== 1) await fail("the end of the first chapter does not offer the next");
   await page.locator("#outcome-close").click();
   await ga((h) => h.stage?.setPose({ tx: -30, tz: -110, yaw: 0.45, pitch: 0.62, distance: 420 }));
   await settle(900);
@@ -276,6 +292,59 @@ if (campaign === "1") {
   await settle(700);
   await shot("17-silt-and-drought");
   log.conditions = { riverDropInDrought: riverY };
+}
+
+// ---- 11. The second chapter: The House of Books --------------------------------------------------------------------------
+await page.goto(url(`&scenario=house-of-books&seed=${SEED}`));
+await ready();
+if ((await ga((h) => h.scenario())) !== "house-of-books" || !(await page.locator("#brief").evaluate((d) => (d as HTMLDialogElement).open))) await fail("the second chapter did not open on its brief");
+await settle(900);
+await shot("18-chapter-two-brief");
+await begin();
+let b = await state();
+if (b.households !== 130 || b.treasury !== 110 || !b.researched.includes("paper") || (await page.locator("#marks .mark").count()) !== 0) await fail("the second chapter did not start as authored");
+// Paper is known, so the library is not locked: build one with the mouse once a season's income allows it.
+await page.locator("#end-season").click();
+await page.locator("#end-season").click();
+await page.keyboard.press("8");
+if ((await ga((h) => h.tool())) !== "library") await fail("the library is locked in the second chapter");
+const lib = await ga((h, p: number) => h.screenOfPlot(p), plotOf(5, 2));
+await page.mouse.click(lib![0], lib![1]);
+await settle(700);
+b = await state();
+if (b.plots[plotOf(5, 2)] !== "library") await fail(`the library could not be built (treasury ${b.treasury})`);
+await page.keyboard.press("i");
+await page.mouse.move(40, 500);
+await shot("19-chapter-two-library");
+log.chapterTwo = { season: b.season, treasury: b.treasury, learned: b.knowledge };
+if (campaign === "1") {
+  await page.goto(url(`&scenario=house-of-books&seed=${SEED}`));
+  await ready();
+  await begin();
+  await settle(1200);
+  await ga((h) => h.stage?.takeFrameStats());
+  const policy = makePolicies(step).find((p) => p.name === "balanced")!;
+  const rng = new Rng(`lab:balanced:${SEED}`);
+  let cur = await state();
+  let commands = 0;
+  for (let guard = 0; cur.outcome === "playing" && guard < 60; guard++) {
+    for (const cmd of policy.plan(HOUSE_OF_BOOKS, cur, rng)) {
+      await ga((h, c: Command) => h.dispatch(c), cmd);
+      commands++;
+    }
+    await settle(350);
+    cur = await state();
+  }
+  await settle(600);
+  const frames = await ga((h) => h.stage?.takeFrameStats());
+  if (cur.outcome === "playing") await fail("the second chapter's campaign did not end");
+  await shot("20-chapter-two-outcome");
+  if ((await page.locator("#next-chapter").count()) !== 0) await fail("the last chapter offers a next one");
+  await page.locator("#outcome-close").click();
+  await ga((h) => h.stage?.setPose({ tx: -40, tz: -110, yaw: 0.4, pitch: 0.62, distance: 430 }));
+  await settle(900);
+  await shot("21-chapter-two-city");
+  log.chapterTwoCampaign = { policy: "balanced", commands, outcome: cur.outcome, seasons: cur.season, households: cur.households, welfare: cur.welfare, treasury: cur.treasury, frames };
 }
 
 await browser.close();

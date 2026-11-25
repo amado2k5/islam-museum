@@ -6,9 +6,9 @@ import { MUSIC_BASE, MusicPlayer } from "@im/audio/player";
 import { probeWebGPU } from "@im/kernel/capability";
 import links from "../../data/museum-links.v1.json";
 import en from "../../i18n/en.json";
-import { BUILDINGS, BUILDING_TYPES, CANAL_COST, GRID_H, GRID_W, PLOTS, SILT_CLEAR_COST, TAX_PER_TEN, TAX_WELFARE, newGame, plotOf, preview, score, servedByWater, step, wateredPlots, type BuildingType, type Command, type State, type TaxLevel } from "../rules";
+import { BUILDINGS, BUILDING_TYPES, CANAL_COST, GRID_H, GRID_W, PLOTS, SILT_CLEAR_COST, TAX_PER_TEN, TAX_WELFARE, newGame, plotOf, preview, score, servedByWater, step, wateredPlots, type BuildingType, type Command, type Scenario, type State, type TaxLevel } from "../rules";
 import { SAVE_KEY, readSave, writeSave } from "../save";
-import { SCENARIOS, FAILING_CANAL } from "../scenarios";
+import { CHAPTERS, FAILING_CANAL, SCENARIOS } from "../scenarios";
 import { linkKey } from "../rules";
 import { nearestLink, neighbour, plotAt, plotCentre, plotName, type Dir, type Link } from "../view/layout";
 import { icon } from "./icons";
@@ -27,7 +27,8 @@ const TINTS: Record<Tint, [number, number, number]> = { water: [0.08, 0.6, 0.72]
 
 const query = new URLSearchParams(location.search);
 const lang: Lang = (LANGS as readonly string[]).includes(query.get("lang") ?? "") ? (query.get("lang") as Lang) : "en";
-const scenario = FAILING_CANAL;
+// The chapter in hand. A saved game brings its own; `?scenario=` starts a new game in the one named.
+let scenario: Scenario = SCENARIOS[query.get("scenario") ?? ""] ?? FAILING_CANAL;
 
 declare global {
   interface Window {
@@ -75,7 +76,8 @@ async function main(): Promise<void> {
 
   document.documentElement.lang = lang;
   document.documentElement.dir = RTL.includes(lang) ? "rtl" : "ltr";
-  document.title = `${t("title")}: ${t(`scenario_${scenario.id}`)}`;
+  const setTitle = () => (document.title = `${t("title")}: ${t(`scenario_${scenario.id}`)}`);
+  setTitle();
   const skip = document.querySelector<HTMLAnchorElement>("a.skip");
   if (skip) skip.textContent = t("skip");
 
@@ -104,7 +106,8 @@ async function main(): Promise<void> {
   const plan = el("section", { class: "plan", id: "plan", hidden: true, ariaLabel: t("plan_title") });
   const helpDialog = el("dialog", { class: "sheet", id: "help" });
   const outcomeDialog = el("dialog", { class: "sheet", id: "outcome" });
-  hud.append(bar, side, tools, actions, viewctl, plan, helpDialog, outcomeDialog);
+  const briefDialog = el("dialog", { class: "sheet", id: "brief" });
+  hud.append(bar, side, tools, actions, viewctl, plan, helpDialog, outcomeDialog, briefDialog);
   // Markers over the district for what is going wrong. They repeat what the panel's list says, so they are hidden
   // from assistive technology and never take a click away from the district.
   const marks = el("div", { class: "marks", id: "marks", ariaHidden: "true" });
@@ -129,6 +132,10 @@ async function main(): Promise<void> {
   let writable = true;
   let saveNote = "";
   let state: State;
+  // A new game is started, and its brief shown, when the address asks for one or nothing usable is saved.
+  const asksNew = query.has("seed") || query.has("scenario") || query.has("fresh");
+  const seedAsked = query.has("seed") ? Number(query.get("seed")) | 0 : null;
+  let resumed = false;
   try {
     const reading = readSave(query.has("fresh") ? null : localStorage.getItem(SAVE_KEY));
     if (reading.status === "unreadable") {
@@ -139,11 +146,17 @@ async function main(): Promise<void> {
       writable = false;
       saveNote = t("save_newer");
     }
-    state = reading.save.state && reading.save.state.scenario in SCENARIOS && !query.has("seed") ? reading.save.state : newGame(scenario, query.has("seed") ? Number(query.get("seed")) | 0 : newSeed());
+    const saved = reading.save.state;
+    if (saved && saved.scenario in SCENARIOS && !asksNew) {
+      state = saved;
+      scenario = SCENARIOS[saved.scenario]!;
+      resumed = true;
+    } else state = newGame(scenario, seedAsked ?? newSeed());
   } catch {
     writable = false; // storage is unavailable: the game plays, it just is not remembered
-    state = newGame(scenario, query.has("seed") ? Number(query.get("seed")) | 0 : newSeed());
+    state = newGame(scenario, seedAsked ?? newSeed());
   }
+  setTitle();
   const persist = () => {
     if (!writable) return;
     try {
@@ -256,7 +269,9 @@ async function main(): Promise<void> {
     toast(t("toast_undone"));
     renderAll();
   }
-  function restart(seed: number): void {
+  function restart(seed: number, chapter: string = scenario.id): void {
+    scenario = SCENARIOS[chapter] ?? scenario;
+    setTitle();
     state = newGame(scenario, seed);
     undoStack = [];
     proj = project(scenario, state);
@@ -265,6 +280,34 @@ async function main(): Promise<void> {
     outcomeDialog.close();
     helpDialog.close();
     renderAll();
+    showBrief();
+  }
+  /** One goal as a sentence, for the panel, the brief and the outcome. */
+  const goalLine = (row: ReturnType<typeof goals>["rows"][number], g: ReturnType<typeof goals>): string =>
+    row.id === "welfare" ? t("goal_welfare", { goal: row.goal, steady: g.steady, n: g.steadyGoal }) : row.id === "treasury" ? t("goal_treasury") : t(`goal_${row.id}`, { value: num(row.value), goal: num(row.goal) });
+  /** The chapter's charge: what the district is, what is asked, and the museum's own account of the history behind it. */
+  function showBrief(): void {
+    const g = goals(scenario, state);
+    const records = links.records as Record<string, { label: Record<string, string>; summary?: Record<string, string> }>;
+    const history = ((links.scenario as Record<string, string[]>)[scenario.id] ?? []).map((id) => {
+      const record = records[id];
+      if (!record?.summary) return null;
+      const told = el("p", { textContent: record.summary[lang] ?? record.summary.en ?? "" });
+      told.dir = "auto";
+      return el("div", { class: "history" }, el("a", { href: `https://islam.museum/${lang}/${id}/`, target: "_blank", rel: "noopener", textContent: record.label[lang] ?? record.label.en ?? id }), told);
+    });
+    const parts: Array<HTMLElement | null> = [
+      el("p", { class: "kicker", textContent: t("chapter", { n: CHAPTERS.findIndex((c) => c.id === scenario.id) + 1 }) }),
+      el("h2", { textContent: t(`scenario_${scenario.id}`) }),
+      el("p", { textContent: t(`brief_${scenario.id}`) }),
+      el("h3", {}, t("brief_goal"), el("small", { textContent: ` ${t("goal_deadline", { year: Math.ceil(scenario.seasons / 4) })}` })),
+      el("ul", { class: "lines" }, ...g.rows.map((row) => el("li", { textContent: goalLine(row, g) }))),
+      history.some(Boolean) ? el("div", { class: "behind" }, el("h3", { textContent: t("museum_behind") }), ...history, el("p", { class: "muted small", textContent: t("museum_note") })) : null,
+      el("div", { class: "row" }, el("button", { type: "button", id: "brief-begin", class: "primary", textContent: t("brief_begin"), onclick: () => briefDialog.close() })),
+    ];
+    briefDialog.replaceChildren(...parts.filter((n): n is HTMLElement => n !== null));
+    if (!briefDialog.open) briefDialog.showModal();
+    document.getElementById("brief-begin")?.focus();
   }
   function setTool(next: Tool): void {
     if (next !== "inspect" && next !== "canal" && next !== "demolish") {
@@ -323,7 +366,7 @@ async function main(): Promise<void> {
   function cityTab(): Node[] {
     const g = goals(scenario, state);
     const lastYear = Math.ceil(scenario.seasons / 4);
-    const goalText = (row: (typeof g.rows)[number]) => (row.id === "welfare" ? t("goal_welfare", { goal: row.goal, steady: g.steady, n: g.steadyGoal }) : row.id === "treasury" ? t("goal_treasury") : t(`goal_${row.id}`, { value: num(row.value), goal: num(row.goal) }));
+    const goalText = (row: (typeof g.rows)[number]) => goalLine(row, g);
     const goalRows = g.rows.map((row) => {
       const share = row.id === "welfare" ? g.steady / g.steadyGoal : row.id === "treasury" ? (row.met ? 1 : 0) : Math.min(1, row.value / row.goal);
       return el("li", { class: row.met ? "met" : "" }, el("span", { class: "tick" }, row.met ? icon("check", 16) : null), el("span", { class: "goal-text" }, goalText(row), el("span", { class: "visually-hidden", textContent: ` (${row.met ? t("goal_met") : t("goal_open")})` })), meter(share));
@@ -374,7 +417,7 @@ async function main(): Promise<void> {
         )
       : null;
     const cards: Array<HTMLElement | null> = [
-      el("div", { class: "card goal" }, el("h2", {}, t("goal_title"), el("small", { textContent: ` ${t("goal_deadline", { year: lastYear })}` })), el("ul", { class: "goals" }, ...goalRows)),
+      el("div", { class: "card goal" }, el("h2", {}, t("brief_goal"), el("small", { textContent: ` ${t("goal_deadline", { year: lastYear })}` })), el("ul", { class: "goals" }, ...goalRows)),
       note ? el("div", { class: `card advice ${note.tone ?? ""}`, id: "advice" }, el("h2", { textContent: t("advice_title") }), el("p", { textContent: line(note) })) : null,
       attention,
       el("div", { class: "card" }, el("h2", { textContent: t("horizon_title") }), events.length ? el("ul", { class: "lines" }, ...eventRows) : el("p", { class: "muted", textContent: t("horizon_none") })),
@@ -528,8 +571,23 @@ async function main(): Promise<void> {
 
   // ---- Dialogs ---------------------------------------------------------------------------------------------------------------
   function showHelp(): void {
-    let armed: "" | "same" | "new" = "";
+    let armed: "" | "same" | "new" | "chapter" = "";
+    let chosen = scenario.id;
     const draw = () => {
+      const chapterSelect = el("select", { id: "chapter", onchange: () => (chosen = chapterSelect.value) }, ...CHAPTERS.map((c, i) => el("option", { value: c.id, textContent: `${t("chapter", { n: i + 1 })}: ${t(`scenario_${c.id}`)}`, selected: c.id === chosen })));
+      const chapterStart = el("button", {
+        type: "button",
+        id: "chapter-start",
+        textContent: armed === "chapter" ? t("restart_confirm") : t("chapter_start"),
+        class: armed === "chapter" ? "danger" : "",
+        onclick: () => {
+          if (armed !== "chapter" && state.season > 0 && state.outcome === "playing") {
+            armed = "chapter";
+            draw();
+            document.getElementById("chapter-start")?.focus();
+          } else restart(newSeed(), chosen);
+        },
+      });
       const restartButton = (kind: "same" | "new") =>
         el("button", {
           type: "button",
@@ -567,6 +625,21 @@ async function main(): Promise<void> {
         el("p", { class: "muted", textContent: t("help_controls") }),
         el("p", { class: "muted", textContent: `${t("help_7")} ${t("museum_note")}` }),
         el("div", { class: "settings" }, el("label", {}, t("language"), " ", langSelect), el("label", {}, t("graphics"), " ", qualitySelect)),
+        el(
+          "div",
+          { class: "settings" },
+          el("label", {}, t("chapter_label"), " ", chapterSelect),
+          chapterStart,
+          el("button", {
+            type: "button",
+            id: "brief-read",
+            textContent: t("brief_read"),
+            onclick: () => {
+              helpDialog.close();
+              showBrief();
+            },
+          }),
+        ),
         el("div", { class: "row" }, restartButton("same"), restartButton("new"), el("button", { type: "button", id: "help-close", class: "primary", textContent: t("close"), onclick: () => helpDialog.close() })),
       );
     };
@@ -584,13 +657,21 @@ async function main(): Promise<void> {
   }
   function showOutcome(): void {
     const g = goals(scenario, state);
-    const rows = g.rows.map((row) => el("li", { class: row.met ? "good" : "bad" }, row.id === "welfare" ? t("goal_welfare", { goal: row.goal, steady: g.steady, n: g.steadyGoal }) : row.id === "treasury" ? t("goal_treasury") : t(`goal_${row.id}`, { value: num(row.value), goal: num(row.goal) }), " · ", row.met ? t("goal_met") : t("goal_open")));
+    const rows = g.rows.map((row) => el("li", { class: row.met ? "good" : "bad" }, goalLine(row, g), " · ", row.met ? t("goal_met") : t("goal_open")));
+    const next = CHAPTERS[CHAPTERS.findIndex((c) => c.id === scenario.id) + 1];
     outcomeDialog.replaceChildren(
       el("h2", { textContent: t(`outcome_${state.outcome}`) }),
       el("p", { textContent: t(`outcome_${state.outcome}_text`) }),
       el("ul", { class: "lines" }, ...rows),
       el("p", { class: "muted", textContent: t("score_line", { score: score(scenario, state) }) }),
-      el("div", { class: "row" }, el("button", { type: "button", id: "again-same", textContent: t("restart_same"), onclick: () => restart(state.seed) }), el("button", { type: "button", id: "again-new", textContent: t("restart_new"), onclick: () => restart(newSeed()) }), el("button", { type: "button", id: "outcome-close", class: "primary", textContent: t("look_around"), onclick: () => outcomeDialog.close() })),
+      el(
+        "div",
+        { class: "row" },
+        el("button", { type: "button", id: "again-same", textContent: t("restart_same"), onclick: () => restart(state.seed) }),
+        el("button", { type: "button", id: "again-new", textContent: t("restart_new"), onclick: () => restart(newSeed()) }),
+        next ? el("button", { type: "button", id: "next-chapter", textContent: t("next_chapter", { name: t(`scenario_${next.id}`) }), onclick: () => restart(newSeed(), next.id) }) : null,
+        el("button", { type: "button", id: "outcome-close", class: "primary", textContent: t("look_around"), onclick: () => outcomeDialog.close() }),
+      ),
     );
     if (!outcomeDialog.open) outcomeDialog.showModal();
     say(`${t(`outcome_${state.outcome}`)}. ${t(`outcome_${state.outcome}_text`)}`);
@@ -703,6 +784,7 @@ async function main(): Promise<void> {
   renderViewControls();
   renderAll();
   if (state.outcome !== "playing") showOutcome();
+  else if (!resumed) showBrief();
 
   // ---- The 3D district -----------------------------------------------------------------------------------------------------
   const hook: Record<string, unknown> = {
@@ -715,6 +797,7 @@ async function main(): Promise<void> {
     dispatch,
     undo,
     restart,
+    scenario: () => scenario.id,
     music,
     problems: () => plotProblems(state),
     screenOfPlot: (p: number) => stage?.screenOfPlot(p) ?? null,

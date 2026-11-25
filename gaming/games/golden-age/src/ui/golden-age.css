@@ -188,6 +188,15 @@ dialog.sheet::backdrop { background: rgba(4, 10, 10, 0.55); }
 dialog.sheet h2 { font-size: 1.3rem; margin-bottom: 10px; }
 dialog.sheet p { margin-top: 8px; }
 dialog.sheet .lines { margin-top: 10px; }
+dialog.sheet .kicker { margin: 0 0 2px; color: var(--accent); font-size: 0.86rem; }
+dialog.sheet h3 { font-size: 0.95rem; margin: 16px 0 4px; }
+dialog.sheet h3 small { font-weight: 400; color: var(--muted); }
+.behind { margin-top: 6px; padding-top: 2px; border-top: 1px solid var(--line); }
+.history { margin-top: 10px; padding-inline-start: 12px; border-inline-start: 3px solid rgba(159, 216, 230, 0.5); }
+.history a { color: #9fd8e6; font-weight: 600; }
+.history p { margin-top: 4px; color: var(--ivory); font-size: 0.92rem; }
+dialog.sheet { max-height: calc(100vh - 32px); overflow: auto; }
+.settings { align-items: center; }
 .help { display: grid; gap: 8px; list-style: decimal; padding-inline-start: 1.4em; }
 .settings { display: flex; gap: 18px; flex-wrap: wrap; margin-top: 14px; }
 .row { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 16px; }
