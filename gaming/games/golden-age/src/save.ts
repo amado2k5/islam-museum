@@ -4,7 +4,8 @@
 import { PLOTS, RULES_VERSION, invariants, type State } from "./rules";
 import { SCENARIOS } from "./scenarios";
 
-export const SAVE_VERSION = 1;
+/** 2 since endowments: a version 1 save has no `endowed` list, and is brought up to date when read. */
+export const SAVE_VERSION = 2;
 export const SAVE_KEY = "im.golden-age.save.v1";
 
 export interface GoldenAgeSave {
@@ -37,6 +38,7 @@ export function playable(s: unknown): s is State {
   const rng = o.rng as Record<string, unknown> | null;
   if (!rng || typeof rng !== "object" || !["a", "b", "c", "d"].every((k) => Number.isInteger(rng[k]))) return false;
   if (!o.canals.every((k) => Number.isInteger(k) && k >= 0 && k < PLOTS * PLOTS)) return false;
+  if (!Array.isArray(o.endowed) || !o.endowed.every((p) => Number.isInteger(p) && p >= 0 && p < PLOTS) || typeof o.mayEndow !== "boolean") return false;
   if (![0, 1, 2].includes(o.tax as number)) return false;
   // A report from before the welfare breakdown was recorded cannot be shown by this interface.
   if (o.last !== null && (typeof o.last !== "object" || !(o.last as Record<string, unknown>).welfareParts)) return false;
@@ -59,10 +61,19 @@ export function readSave(raw: string | null): SaveReading {
   if (!parsed || typeof parsed !== "object") return { status: "unreadable", save: emptySave(), keep: raw };
   const o = parsed as Record<string, unknown>;
   if (typeof o.v === "number" && o.v > SAVE_VERSION) return { status: "newer", save: emptySave(), keep: raw };
-  if (o.v !== SAVE_VERSION) return { status: "unreadable", save: emptySave(), keep: raw };
+  if (o.v !== SAVE_VERSION && o.v !== 1) return { status: "unreadable", save: emptySave(), keep: raw };
   if (o.state === null) return { status: "ok", save: emptySave() };
-  if (!playable(o.state)) return { status: "unreadable", save: emptySave(), keep: raw };
-  return { status: "ok", save: { v: SAVE_VERSION, state: o.state } };
+  const state = o.v === 1 ? fromV1(o.state) : o.state;
+  if (!playable(state)) return { status: "unreadable", save: emptySave(), keep: raw };
+  return { status: "ok", save: { v: SAVE_VERSION, state } };
+}
+
+/** A version 1 game was saved before endowments existed: it has none, and its scenario says whether it may have any. */
+function fromV1(state: unknown): unknown {
+  if (!state || typeof state !== "object") return state;
+  const o = state as Record<string, unknown>;
+  const scenario = typeof o.scenario === "string" ? SCENARIOS[o.scenario] : undefined;
+  return { ...o, endowed: [], mayEndow: scenario?.endowments === true };
 }
 
 export const writeSave = (save: GoldenAgeSave): string => JSON.stringify(save);

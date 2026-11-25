@@ -3,7 +3,7 @@
 // works, whether one cheap trick beats everything, and whether the rules can be driven into a broken state.
 // None of them cheats: each asks preview() what is legal, as the interface does.
 import { Rng } from "@im/kernel/prng";
-import { BUILDINGS, BUILDING_TYPES, FARM_YIELD, FARM_YIELD_ROTATION, GRID_H, GRID_W, PLOTS, RESEARCH, RESEARCH_IDS, distance, has, housingCapacity, intakeCapacity, jobs, plotOf, preview, servedByWater, wateredPlots, xyOf, type BuildingType, type Command, type ResearchId, type Scenario, type State } from "./rules";
+import { BUILDINGS, BUILDING_TYPES, ENDOWABLE, endowCost, FARM_YIELD, FARM_YIELD_ROTATION, GRID_H, GRID_W, PLOTS, RESEARCH, RESEARCH_IDS, distance, has, housingCapacity, intakeCapacity, jobs, plotOf, preview, servedByWater, wateredPlots, xyOf, type BuildingType, type Command, type ResearchId, type Scenario, type State } from "./rules";
 
 export interface Policy {
   name: string;
@@ -122,7 +122,40 @@ const short = (s: State, t: BuildingType, perHouses: number) => count(s, t) < Ma
 const rich = (n: number) => (s: State) => s.treasury > n;
 const both = (...tests: Array<(s: State) => boolean>) => (s: State) => tests.every((t) => t(s));
 
+/** The policies that stand for real ways of playing. */
+const REAL = ["irrigator", "merchant", "scholar", "balanced"];
+/** Coins a player keeps back before setting money aside for ever. */
+const ENDOW_RESERVE = 60;
+
 export function makePolicies(step: (scenario: Scenario, s: State, c: Command) => State): Policy[] {
+  return corePolicies(step).map((p) => (REAL.includes(p.name) ? { ...p, plan: (sc: Scenario, s: State, rng: Rng) => withEndowments(sc, s, p.plan(sc, s, rng), step) } : p));
+}
+
+/**
+ * Where a scenario allows endowing, any sensible player with money to spare endows what the district already has,
+ * cheapest first: it stops that building's upkeep for good. Added to each real strategy's season after its own
+ * commands, so the strategies stay what they were in scenarios without endowments.
+ */
+function withEndowments(scenario: Scenario, start: State, plan: Command[], step: (scenario: Scenario, s: State, c: Command) => State): Command[] {
+  if (!start.mayEndow) return plan;
+  const own = plan.filter((c) => c.type !== "end-season");
+  let s = own.reduce((acc, c) => step(scenario, acc, c), start);
+  const out: Command[] = [...own];
+  for (let guard = 0; guard < 8; guard++) {
+    const open = s.plots.flatMap((b, p) => (b && ENDOWABLE.includes(b) && !s.endowed.includes(p) ? [p] : [])).sort((a, b) => endowCost(s.plots[a]!) - endowCost(s.plots[b]!));
+    const plot = open[0];
+    if (plot === undefined) break;
+    const cmd: Command = { type: "endow", plot };
+    const p = preview(s, cmd);
+    if (!p.ok || s.treasury - p.cost < ENDOW_RESERVE) break;
+    out.push(cmd);
+    s = step(scenario, s, cmd);
+  }
+  out.push({ type: "end-season" });
+  return out;
+}
+
+function corePolicies(step: (scenario: Scenario, s: State, c: Command) => State): Policy[] {
   const run = (scenario: Scenario, s: State, wishes: Array<(s: State) => Command | null>, reserve: number) => act(scenario, s, wishes, reserve, (st, c) => step(scenario, st, c));
   return [
     {

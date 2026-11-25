@@ -35,6 +35,7 @@ export function looksOf(s: State): { looks: PlotLook[]; walkers: number[] } {
       lined: has(s, "lined-canals"),
       rotation: has(s, "crop-rotation"),
       wheel: p === wheelPlot,
+      endowed: s.endowed.includes(p),
     });
     walkers.push(type === null || s.households === 0 ? 0 : type === "house" ? Math.max(1, Math.min(12, Math.round(perHouse / 3))) : FIGURES[type]);
   }

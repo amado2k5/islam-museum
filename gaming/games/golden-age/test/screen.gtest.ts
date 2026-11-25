@@ -4,10 +4,10 @@ import { readFileSync } from "node:fs";
 import { describe, expect, it } from "vitest";
 import { Rng } from "@im/kernel/prng";
 import { makePolicies } from "../src/policies";
-import { BUILDING_TYPES, CANAL_COST, GRID_W, PLOTS, RESEARCH_IDS, adjacent, newGame, plotOf, step, xyOf, type BuildingType, type Command, type State } from "../src/rules";
-import { SAVE_KEY, playable, readSave, writeSave } from "../src/save";
+import { BUILDING_TYPES, CANAL_COST, ENDOWABLE, GRID_W, PLOTS, RESEARCH_IDS, adjacent, endowCost, invariants, newGame, plotOf, preview, step, xyOf, type BuildingType, type Command, type State } from "../src/rules";
+import { SAVE_KEY, SAVE_VERSION, playable, readSave, writeSave } from "../src/save";
 import { runLab } from "../src/lab";
-import { CHAPTERS, FAILING_CANAL, HOUSE_OF_BOOKS, SCENARIOS } from "../src/scenarios";
+import { CHAPTERS, FAILING_CANAL, HOUSE_OF_BOOKS, SCENARIOS, WHAT_ENDURES } from "../src/scenarios";
 import { createHash } from "node:crypto";
 import { advice, aim, calendar, goals, ledger, overlay, plotInfo, plotProblems, project, researchList, showing, stocks, type Line } from "../src/ui/model";
 import { buildEnvironment, buildPlot, envHeight, lookKey, walkerPose, type PlotLook } from "../src/view/board";
@@ -345,14 +345,29 @@ describe("the saved game", () => {
     expect(SAVE_KEY).toBe("im.golden-age.save.v1");
     expect(readSave(null).status).toBe("empty");
     expect(readSave("{not json")).toMatchObject({ status: "unreadable", keep: "{not json" });
-    expect(readSave(JSON.stringify({ v: 2, state: null })).status).toBe("newer");
-    expect(readSave(JSON.stringify({ v: 1, state: null }))).toMatchObject({ status: "ok", save: { state: null } });
+    expect(readSave(JSON.stringify({ v: SAVE_VERSION + 1, state: null })).status).toBe("newer");
+    expect(readSave(JSON.stringify({ v: SAVE_VERSION, state: null }))).toMatchObject({ status: "ok", save: { state: null } });
     const s = play(newGame(S, 9), { type: "canal", a: plotOf(1, 1), b: plotOf(2, 1) }, { type: "build", building: "market", plot: plotOf(3, 2) }, { type: "end-season" }, { type: "end-season" });
-    const back = readSave(writeSave({ v: 1, state: s }));
+    const back = readSave(writeSave({ v: SAVE_VERSION, state: s }));
     expect(back.status).toBe("ok");
     expect(back.save.state).toEqual(s);
     // The game continues identically from the saved copy.
     expect(step(S, back.save.state!, { type: "end-season" })).toEqual(step(S, s, { type: "end-season" }));
+  });
+
+  it("brings a game saved before endowments existed up to date", () => {
+    const old = (scenario: typeof S, seed: number) => {
+      const { endowed, mayEndow, ...v1 } = step(scenario, newGame(scenario, seed), { type: "end-season" }) as State & Record<string, unknown>;
+      void endowed;
+      void mayEndow;
+      return JSON.stringify({ v: 1, state: v1 });
+    };
+    const first = readSave(old(S, 9));
+    expect(first.status).toBe("ok");
+    expect(first.save).toMatchObject({ v: SAVE_VERSION, state: { season: 1, endowed: [], mayEndow: false } });
+    expect(readSave(old(WHAT_ENDURES, 9)).save.state).toMatchObject({ scenario: "what-endures", endowed: [], mayEndow: true });
+    // And the migrated game plays on exactly as the unmigrated one would have.
+    expect(step(S, first.save.state!, { type: "end-season" })).toEqual(step(S, play(newGame(S, 9), { type: "end-season" }), { type: "end-season" }));
   });
 
   it("refuses a state the rules could not have produced", () => {
@@ -365,8 +380,10 @@ describe("the saved game", () => {
     expect(playable({ ...s, plots: s.plots.slice(1) })).toBe(false);
     expect(playable({ ...s, canals: [...s.canals, s.canals[0]] })).toBe(false);
     expect(playable({ ...s, tax: 7 })).toBe(false);
+    expect(playable({ ...s, endowed: [plotOf(2, 1)] })).toBe(false);
+    expect(playable({ ...s, endowed: undefined })).toBe(false);
     expect(playable({ ...s, last: { ...s.last, welfareParts: undefined } })).toBe(false);
-    expect(readSave(JSON.stringify({ v: 1, state: { ...s, grain: -5 } })).status).toBe("unreadable");
+    expect(readSave(JSON.stringify({ v: SAVE_VERSION, state: { ...s, grain: -5 } })).status).toBe("unreadable");
   });
 });
 
@@ -374,7 +391,7 @@ describe("the second chapter", () => {
   const B = HOUSE_OF_BOOKS;
 
   it("starts from a district that works, with paper already known", () => {
-    expect(CHAPTERS.map((c) => c.id)).toEqual(["failing-canal", "house-of-books"]);
+    expect(CHAPTERS.map((c) => c.id)).toEqual(["failing-canal", "house-of-books", "what-endures"]);
     expect(Object.keys(SCENARIOS)).toEqual(CHAPTERS.map((c) => c.id));
     const s = newGame(B, 4);
     expect(s).toMatchObject({ scenario: "house-of-books", households: 130, treasury: 110, canalCondition: 1000, researched: ["paper"] });
@@ -405,13 +422,80 @@ describe("the second chapter", () => {
   });
 });
 
+describe("the third chapter and its endowments", () => {
+  const E = WHAT_ENDURES;
+  const bath = plotOf(3, 1);
+  const school = plotOf(2, 1);
+  const library = plotOf(2, 3);
+
+  it("lets a public building be endowed once, for five years of its upkeep, and never cleared after", () => {
+    const s = newGame(E, 2);
+    expect(s).toMatchObject({ mayEndow: true, endowed: [], households: 180, treasury: 140 });
+    expect(ENDOWABLE.map(endowCost)).toEqual([80, 40, 120, 100]);
+    expect(preview(s, { type: "endow", plot: bath })).toEqual({ ok: true, cost: 40 });
+    expect(preview(s, { type: "endow", plot: school })).toEqual({ ok: true, cost: 80 });
+    expect(preview(s, { type: "endow", plot: plotOf(2, 0) })).toMatchObject({ ok: false, reason: "not-endowable" });
+    expect(preview(s, { type: "endow", plot: plotOf(7, 5) })).toMatchObject({ ok: false, reason: "empty" });
+    const upkeepBefore = project(E, s)!.report.upkeep;
+    const done = step(E, s, { type: "endow", plot: bath });
+    expect(done).toMatchObject({ treasury: 100, endowed: [bath] });
+    // The bath's two coins of upkeep are paid by its endowment from now on.
+    expect(project(E, done)!.report.upkeep).toBe(upkeepBefore - 2);
+    expect(preview(done, { type: "endow", plot: bath })).toMatchObject({ ok: false, reason: "already-endowed" });
+    expect(preview(done, { type: "demolish", plot: bath })).toMatchObject({ ok: false, reason: "endowed" });
+    expect(preview(done, { type: "endow", plot: library })).toMatchObject({ ok: false, reason: "no-funds", cost: 120 });
+    expect(invariants(done)).toEqual([]);
+    expect(() => step(E, done, { type: "demolish", plot: bath })).toThrow();
+    // The rule belongs to this chapter: the first two do not have it.
+    expect(preview({ ...newGame(FAILING_CANAL, 2), treasury: 500 }, { type: "endow", plot: plotOf(2, 1) })).toMatchObject({ ok: false, reason: "not-here" });
+    expect(newGame(HOUSE_OF_BOOKS, 2).mayEndow).toBe(false);
+  });
+
+  it("cannot be won without four endowments, however well the district does otherwise", () => {
+    const hospital = plotOf(7, 5);
+    const plots = [...newGame(E, 2).plots];
+    plots[hospital] = "hospital";
+    const thriving: State = { ...newGame(E, 2), plots, season: E.seasons - 1, households: 400, knowledge: 600, welfare: 80, steadySeasons: 5, treasury: 500, grain: 2000 };
+    expect(step(E, thriving, { type: "end-season" }).outcome).toBe("ended");
+    expect(step(E, { ...thriving, endowed: [bath, school, library] }, { type: "end-season" }).outcome).toBe("ended");
+    expect(step(E, { ...thriving, endowed: [bath, school, library, hospital] }, { type: "end-season" }).outcome).toBe("won");
+  });
+
+  it("shows endowments as a goal, in each plot's description, as an overlay and as a look", () => {
+    const s = newGame(E, 2);
+    const done = step(E, s, { type: "endow", plot: bath });
+    expect(goals(E, done).rows.find((r) => r.id === "endowments")).toEqual({ id: "endowments", value: 1, goal: 4, met: false });
+    expect(goals(FAILING_CANAL, newGame(FAILING_CANAL, 2)).rows.some((r) => r.id === "endowments")).toBe(false);
+    expect(plotInfo(s, bath).lines).toContainEqual({ id: "info_endowable", vars: { cost: 40 } });
+    expect(plotInfo(done, bath).lines).toContainEqual({ id: "info_endowed", tone: "good" });
+    expect(plotInfo(done, bath).lines.find((l) => l.id === "info_running")!.vars!.upkeep).toBe(0);
+    expect(aim(s, "endow", bath, null)).toMatchObject({ command: { type: "endow", plot: bath }, preview: { ok: true, cost: 40 } });
+    expect(overlay(s, "endow", null).filter(([, tint]) => tint === "reach").map(([p]) => p).sort((a, b) => a - b)).toEqual([school, bath, library].sort((a, b) => a - b));
+    expect(overlay(done, "endow", null).filter(([, tint]) => tint === "served-house").map(([p]) => p)).toEqual([bath]);
+    const { looks } = looksOf(done);
+    expect(looks[bath]!.endowed).toBe(true);
+    expect(lookKey(looks[bath]!)).not.toBe(lookKey(looksOf(s).looks[bath]!));
+    expect(buildPlot(7, bath, looks[bath]!).triangles).toBeGreaterThan(buildPlot(7, bath, looksOf(s).looks[bath]!).triangles);
+  });
+
+  it("can be won in more than two ways and not by a cheap trick (120 seeds)", () => {
+    const report = runLab(E, 120);
+    const real = report.policies.filter((p) => ["irrigator", "merchant", "scholar", "balanced"].includes(p.policy));
+    expect(report.violations).toEqual([]);
+    for (const p of report.policies.filter((q) => !real.includes(q))) expect(p.winPermille, p.policy).toBe(0);
+    expect(real.filter((p) => p.winPermille >= 200).length).toBeGreaterThanOrEqual(3);
+    // Known and recorded, not hidden: a trading city wins this chapter every time (docs/gaming/games/golden-age.md).
+    expect(real.find((p) => p.policy === "merchant")!.winPermille).toBe(1000);
+  });
+});
+
 describe("the museum behind the game", () => {
   const links = JSON.parse(readFileSync(new URL("../data/museum-links.v1.json", import.meta.url), "utf8")) as { format: string; version: number; digest: string; research: Record<string, string>; tool: Record<string, string>; scenario: Record<string, string[]>; records: Record<string, { review: string; label: Record<string, string>; summary?: Record<string, string> }> };
 
   it("links research and tools to museum records by id, with a label in every language", () => {
     expect(links.format).toBe("im.golden-age.links");
     for (const id of RESEARCH_IDS) expect(links.research[id], id).toBeTypeOf("string");
-    for (const key of Object.keys(links.tool)) expect(["canal", "demolish", "inspect", ...BUILDING_TYPES]).toContain(key);
+    for (const key of Object.keys(links.tool)) expect(["canal", "demolish", "inspect", "endow", ...BUILDING_TYPES]).toContain(key);
     for (const id of [...Object.values(links.research), ...Object.values(links.tool)]) {
       expect(id).toMatch(/^[a-z-]+\/[a-z0-9-]+$/);
       const record = links.records[id]!;
@@ -430,7 +514,9 @@ describe("the museum behind the game", () => {
         const summary = links.records[id]!.summary!;
         for (const lang of ["ar", "en", "ur", "fr", "es", "tr", "id"]) {
           expect(summary[lang]!.length, `${id}.${lang}`).toBeGreaterThan(40);
-          expect(summary[lang]!.length, `${id}.${lang}`).toBeLessThanOrEqual(900);
+          expect(summary[lang]!.length, `${id}.${lang}`).toBeLessThanOrEqual(1000);
+          // The game does not render honorifics, so it quotes no text that the museum's pages would add one to.
+          expect(/النبي|رسول الله|the Prophet|Messenger of God|رسول اللہ|Peygamber|Prophète|Profeta/i.test(summary[lang]!), `${id}.${lang}`).toBe(false);
           expect(summary[lang], `${id}.${lang}`).not.toContain("{cite");
         }
       }
@@ -468,8 +554,8 @@ describe("the words", () => {
     // Keys built from a name: every member of each family must exist.
     const families: Record<string, readonly string[]> = {
       building_: BUILDING_TYPES,
-      desc_: ["inspect", "canal", "demolish", ...BUILDING_TYPES],
-      tool_: ["inspect", "canal", "demolish"],
+      desc_: ["inspect", "canal", "demolish", "endow", ...BUILDING_TYPES],
+      tool_: ["inspect", "canal", "demolish", "endow"],
       research_: RESEARCH_IDS,
       research_effect_: RESEARCH_IDS,
       event_: ["drought", "good-harvest", "caravan", "silting", "fever"],
@@ -478,11 +564,11 @@ describe("the words", () => {
       tax_: ["0", "1", "2"],
       tab_: ["city", "ledger", "research"],
       stock_: ["treasury", "grain", "households", "welfare", "knowledge", "water"],
-      goal_: ["households", "knowledge", "welfare", "treasury"],
+      goal_: ["households", "knowledge", "welfare", "treasury", "endowments"],
       ledger_group_: ["water", "food", "money", "people", "learning"],
       welfare_: ["base", "food", "water", "baths", "school", "hospital", "market", "tax", "crowding", "idle", "fever", "unpaid"],
       outcome_: ["won", "lost-insolvent", "lost-unrest", "ended", "won_text", "lost-insolvent_text", "lost-unrest_text", "ended_text"],
-      reason_: ["over", "occupied", "empty", "not-researched", "no-funds", "not-adjacent", "exists", "not-connected", "off-map", "already-researched", "needs-research", "no-silt", "same"],
+      reason_: ["over", "occupied", "empty", "not-researched", "no-funds", "not-adjacent", "exists", "not-connected", "off-map", "already-researched", "needs-research", "no-silt", "same", "not-here", "not-endowable", "already-endowed", "endowed"],
       boot_: ["check", "textures", "renderer", "district"],
       help_: ["1", "2", "3", "4", "5", "6", "7", "title", "controls"],
       scenario_: CHAPTERS.map((c) => c.id),

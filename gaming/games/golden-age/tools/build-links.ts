@@ -41,7 +41,10 @@ for (const id of [...Object.values(source.research), ...Object.values(source.too
     for (const lang of LANGS) {
       const text = plain(record.summary?.[lang] ?? "");
       if (!text) throw new Error(`${id} has no summary in ${lang}`);
-      if (text.length > 900) throw new Error(`${id}: the ${lang} summary is ${text.length} characters, too long for a brief`);
+      // The museum's pages add an honorific after a mention of the Prophet when they render text; the game does not
+      // render it, so such a summary is never quoted here. Link the record by its label instead.
+      if (/النبي|رسول الله|the Prophet|Messenger of God|نبی|رسول اللہ|Peygamber|Resul|Rasulullah|\bNabi\b|Prophète|Profeta/i.test(text)) throw new Error(`${id}: the ${lang} summary speaks of the Prophet and cannot be quoted in a brief`);
+      if (text.length > 1000) throw new Error(`${id}: the ${lang} summary is ${text.length} characters, too long for a brief`);
       summary[lang] = text;
     }
     records[id].summary = summary;

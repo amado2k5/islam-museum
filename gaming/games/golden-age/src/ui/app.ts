@@ -7,12 +7,13 @@ import { probeWebGPU } from "@im/kernel/capability";
 import links from "../../data/museum-links.v1.json";
 import en from "../../i18n/en.json";
 import { BUILDINGS, BUILDING_TYPES, CANAL_COST, GRID_H, GRID_W, PLOTS, SILT_CLEAR_COST, TAX_PER_TEN, TAX_WELFARE, newGame, plotOf, preview, score, servedByWater, step, wateredPlots, type BuildingType, type Command, type Scenario, type State, type TaxLevel } from "../rules";
-import { SAVE_KEY, readSave, writeSave } from "../save";
+import { endowCost } from "../rules";
+import { SAVE_KEY, SAVE_VERSION, readSave, writeSave } from "../save";
 import { CHAPTERS, FAILING_CANAL, SCENARIOS } from "../scenarios";
 import { linkKey } from "../rules";
 import { nearestLink, neighbour, plotAt, plotCentre, plotName, type Dir, type Link } from "../view/layout";
 import { icon } from "./icons";
-import { advice, aim, calendar, eventsInView, goals, ledger, overlay, plotInfo, plotProblems, project, researchList, showing, signed, stocks, type Line, type Projection, type Tint, type Tool, type Vars } from "./model";
+import { advice, aim, calendar, eventsInView, goals, isBuilding, ledger, overlay, plotInfo, plotProblems, project, researchList, showing, signed, stocks, type Line, type Projection, type Tint, type Tool, type Vars } from "./model";
 import { Stage } from "./stage";
 
 const LANGS = ["ar", "en", "ur", "fr", "es", "tr", "id"] as const;
@@ -71,7 +72,7 @@ async function main(): Promise<void> {
     if (typeof vars.research === "string") vars.research = t(`research_${vars.research}`);
     return t(l.id, vars);
   };
-  const toolName = (tool: Tool): string => (tool === "inspect" || tool === "canal" || tool === "demolish" ? t(`tool_${tool}`) : t(`building_${tool}`));
+  const toolName = (tool: Tool): string => (isBuilding(tool) ? t(`building_${tool}`) : t(`tool_${tool}`));
   const whatIs = (type: BuildingType | null): string => (type ? t(`building_${type}`) : t("empty_plot"));
 
   document.documentElement.lang = lang;
@@ -160,7 +161,7 @@ async function main(): Promise<void> {
   const persist = () => {
     if (!writable) return;
     try {
-      localStorage.setItem(SAVE_KEY, writeSave({ v: 1, state }));
+      localStorage.setItem(SAVE_KEY, writeSave({ v: SAVE_VERSION, state }));
     } catch {
       /* private mode or full storage */
     }
@@ -224,6 +225,7 @@ async function main(): Promise<void> {
     if (cmd.type === "build") toast(t("toast_built", { name: t(`building_${cmd.building}`) }), "good");
     else if (cmd.type === "demolish") toast(t("toast_cleared", { name: whatIs(before.plots[cmd.plot] ?? null) }));
     else if (cmd.type === "canal") toast(t("toast_canal", { n: servedCount(state) }), "good");
+    else if (cmd.type === "endow") toast(t("toast_endowed", { name: whatIs(state.plots[cmd.plot] ?? null) }), "good");
     else if (cmd.type === "end-season") seasonNews(before);
     renderAll();
     if (before.outcome === "playing" && state.outcome !== "playing") showOutcome();
@@ -273,6 +275,7 @@ async function main(): Promise<void> {
     scenario = SCENARIOS[chapter] ?? scenario;
     setTitle();
     state = newGame(scenario, seed);
+    keepTool();
     undoStack = [];
     proj = project(scenario, state);
     persist();
@@ -285,6 +288,10 @@ async function main(): Promise<void> {
   /** One goal as a sentence, for the panel, the brief and the outcome. */
   const goalLine = (row: ReturnType<typeof goals>["rows"][number], g: ReturnType<typeof goals>): string =>
     row.id === "welfare" ? t("goal_welfare", { goal: row.goal, steady: g.steady, n: g.steadyGoal }) : row.id === "treasury" ? t("goal_treasury") : t(`goal_${row.id}`, { value: num(row.value), goal: num(row.goal) });
+  // A chapter change can take the tool in hand away (endowing is not open everywhere).
+  const keepTool = () => {
+    if (tool === "endow" && !state.mayEndow) tool = "inspect";
+  };
   /** The chapter's charge: what the district is, what is asked, and the museum's own account of the history behind it. */
   function showBrief(): void {
     const g = goals(scenario, state);
@@ -310,7 +317,8 @@ async function main(): Promise<void> {
     document.getElementById("brief-begin")?.focus();
   }
   function setTool(next: Tool): void {
-    if (next !== "inspect" && next !== "canal" && next !== "demolish") {
+    if (next === "endow" && !state.mayEndow) return;
+    if (isBuilding(next)) {
       const needs = BUILDINGS[next].needs;
       if (needs && !state.researched.includes(needs)) {
         const text = t("locked", { research: t(`research_${needs}`) });
@@ -469,18 +477,20 @@ async function main(): Promise<void> {
   }
 
   // ---- Tools and actions ---------------------------------------------------------------------------------------------------
-  const toolCost = (tl: Tool): number | null => (tl === "canal" ? CANAL_COST : tl === "inspect" || tl === "demolish" ? null : BUILDINGS[tl].cost);
+  const toolCost = (tl: Tool): number | null => (tl === "canal" ? CANAL_COST : isBuilding(tl) ? BUILDINGS[tl].cost : null);
+  /** The tools on offer: endowing joins them in the chapter that opens it. */
+  const toolList = (): Tool[] => (state.mayEndow ? [...TOOLS.slice(0, -1), "endow", "demolish"] : TOOLS);
   function renderTools(): void {
-    const buttons = TOOLS.map((tl, i) => {
+    const buttons = toolList().map((tl, i) => {
       const cost = toolCost(tl);
-      const needs = tl !== "inspect" && tl !== "canal" && tl !== "demolish" ? BUILDINGS[tl].needs : undefined;
+      const needs = isBuilding(tl) ? BUILDINGS[tl].needs : undefined;
       const locked = Boolean(needs && !state.researched.includes(needs));
       const poor = cost !== null && state.treasury < cost;
-      const key = tl === "inspect" ? "I" : tl === "canal" ? "C" : tl === "demolish" ? "X" : String((i - 1) % 10);
+      const key = tl === "inspect" ? "I" : tl === "canal" ? "C" : tl === "demolish" ? "X" : tl === "endow" ? "T" : String((i - 1) % 10);
       const title = locked && needs ? t("locked", { research: t(`research_${needs}`) }) : `${toolName(tl)}${cost !== null ? ` · ${t("cost", { cost })}` : ""}`;
       return el("button", { type: "button", id: `tool-${tl}`, class: `tool${locked ? " locked" : ""}${poor ? " poor" : ""}`, ariaPressed: String(tool === tl), ariaDisabled: String(locked), title, onclick: () => setTool(tl) }, icon(tl), el("span", { class: "name", textContent: toolName(tl) }), cost !== null ? ltr(String(cost), "cost") : el("span", { class: "cost" }), el("kbd", { textContent: key, ariaHidden: "true" } as Props<"kbd">));
     });
-    const b = tool !== "inspect" && tool !== "canal" && tool !== "demolish" ? BUILDINGS[tool] : null;
+    const b = isBuilding(tool) ? BUILDINGS[tool] : null;
     const toolMuseum = museumLink((links.tool as Record<string, string>)[tool]);
     swap(tools, el("div", { class: "toolrow" }, ...buttons), el("p", { class: "tooldesc", id: "tooldesc" }, el("strong", { textContent: `${toolName(tool)}. ` }), t(`desc_${tool}`), b ? ` ${t("upkeep_line", { upkeep: b.upkeep, workers: b.workers, water: b.water })}` : "", toolMuseum ? " · " : "", toolMuseum));
   }
@@ -701,8 +711,10 @@ async function main(): Promise<void> {
     }
     if (at === null) return hideTip();
     const info = plotInfo(state, at);
-    if (tool === "inspect" || tool === "demolish") {
-      showTip(pointer[0], pointer[1], `${plotName(at)} · ${whatIs(info.type)}`, [el("ul", { class: "lines" }, ...info.lines.map(lineNode)), tool === "demolish" && a.preview && !a.preview.ok ? el("p", { class: "bad", textContent: t(`reason_${a.preview.reason}`) }) : null]);
+    if (!isBuilding(tool)) {
+      const refused = tool !== "inspect" && a.preview && !a.preview.ok ? el("p", { class: "bad", textContent: t(`reason_${a.preview.reason}`) }) : null;
+      const price = tool === "endow" && info.type && a.preview?.ok ? ` · ${t("cost", { cost: endowCost(info.type) })}` : "";
+      showTip(pointer[0], pointer[1], `${plotName(at)} · ${whatIs(info.type)}${price}`, [el("ul", { class: "lines" }, ...info.lines.map(lineNode)), refused]);
       return;
     }
     const reach = overlay(state, tool, at).filter(([, tint]) => tint === "served-house").length;
@@ -754,6 +766,7 @@ async function main(): Promise<void> {
     else if (k === "i") setTool("inspect");
     else if (k === "c") setTool("canal");
     else if (k === "x") setTool("demolish");
+    else if (k === "t" && state.mayEndow) setTool("endow");
     else if (k === "u") undo();
     else if (k === "m") togglePlan();
     else if (k === "o") stage?.overview();
