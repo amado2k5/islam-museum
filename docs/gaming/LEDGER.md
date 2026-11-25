@@ -77,8 +77,8 @@ All on 25 November 2026, on the machine in the inventory.
 | `npx tsx tools/bench.ts …` (nine runs) | Files in `evidence/m1/`; table in the M1 report |
 | `npx tsx tools/bench.ts --channel msedge …` | **Failed**: no first frame in 120 s in Edge 157 under automation. Not investigated |
 | `npm run validate` (museum, on this branch, before the documents were written) | 0 errors, 7,674 warnings, 4 min 48 s |
-| `npm run validate` (museum, final tree) | VALIDATE_FINAL |
-| `npm test` (museum, final tree) | NPMTEST_FINAL |
+| `npm run validate` (museum, after rebasing onto `origin/main` at `6e9ff94d5da`) | 0 errors, exit 0 |
+| `npm test` (museum, same tree) | 62 files, 30,319 tests passed, 2 skipped, exit 0, 616 s. It needs `npm --prefix site ci` first: in a fresh worktree without the site's dependencies, 22 test files cannot load and 6 tests fail, none of them to do with gaming |
 | `npm run build`, `npm run check:static` | Not run: no file under `site/` changed |
 
 ## Measurements
