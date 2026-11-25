@@ -33,4 +33,4 @@ jobs:
           ATTEMPT: ${{ github.event.workflow_run.run_attempt }}
         run: |
           echo "run $RUN_ID failed on attempt $ATTEMPT; rerunning its failed jobs"
-          gh run rerun "$RUN_ID" --failed
+          gh run rerun "$RUN_ID" --failed --repo "$GITHUB_REPOSITORY"
