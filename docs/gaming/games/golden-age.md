@@ -54,7 +54,7 @@ Address: `/games/golden-age/index.html?lang=ar` on the gaming dev server.
 
 ### Chapter 3, "What Endures"
 
-`npx tsx gaming/tools/simlab.ts 1000 what-endures`, 25 November 2026 (`../evidence/m2/golden-age/simlab-what-endures-1000.log`):
+`npx tsx gaming/tools/simlab.ts 1000 what-endures`, 25 November 2026 (`../evidence/m2/golden-age/simlab-what-endures-1000.md`):
 
 | Player | Won | Mean score | Households | Welfare | Learned | Treasury |
 |---|---:|---:|---:|---:|---:|---:|
@@ -71,7 +71,7 @@ Address: `/games/golden-age/index.html?lang=ar` on the gaming dev server.
 
 ### Chapter 2, "The House of Books"
 
-`npx tsx gaming/tools/simlab.ts 1000 house-of-books`, 25 November 2026 (`../evidence/m2/golden-age/simlab-house-of-books-1000.log`):
+`npx tsx gaming/tools/simlab.ts 1000 house-of-books`, 25 November 2026 (`../evidence/m2/golden-age/simlab-house-of-books-1000.md`):
 
 | Player | Won | Mean score | Households | Welfare | Learned | Treasury |
 |---|---:|---:|---:|---:|---:|---:|
@@ -88,7 +88,7 @@ Address: `/games/golden-age/index.html?lang=ar` on the gaming dev server.
 
 ### Chapter 1, "The Failing Canal"
 
-`npx tsx gaming/tools/simlab.ts 1000`: 1,000 seeds, 14 scripted players, 14,000 campaigns. Result of 25 November 2026, unchanged after the screen and the second chapter were added (`../evidence/m2/golden-age/simlab-failing-canal-1000.log`):
+`npx tsx gaming/tools/simlab.ts 1000`: 1,000 seeds, 14 scripted players, 14,000 campaigns. Result of 25 November 2026, unchanged after the screen and the second chapter were added (`../evidence/m2/golden-age/simlab-failing-canal-1000.md`):
 
 | Player | What it does | Won | Mean score | Households | Welfare | Learned | Treasury |
 |---|---|---:|---:|---:|---:|---:|---:|

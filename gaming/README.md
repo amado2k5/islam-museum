@@ -2,7 +2,7 @@
 
 An independently built subsystem of the museum repository. The plan, the decisions, the measurements and the open work are in [`docs/gaming/`](../docs/gaming/README.md); start with the ledger there. This folder is only code.
 
-**State, 25 November 2026:** a shared kernel, a procedural world kit, a graphics lab that draws one reference city in two engines and measures them, two games as prototypes (Atlas, and The Golden Age with its first scenario playable in 3D and from a plan view), and the museum's own suite as the music of both.
+**State, 25 November 2026:** a shared kernel, a procedural world kit, a graphics lab that draws one reference city in two engines and measures them, two games as prototypes (Atlas, and The Golden Age with its three chapters playable in 3D and from a plan view), the museum's own suite as the music of both, and the first rules of a third game, Granada, which has no screen yet.
 
 ```
 packages/kernel/      seeded random numbers and noise, frame statistics, the WebGPU capability check
@@ -11,6 +11,7 @@ packages/audio/       the museum's soundtrack for every game: track list, player
 labs/graphics/        the district in Three.js and in Babylon.js, with a fixed camera loop and a benchmark mode
 games/atlas/          Atlas: rules, daily schedule, saving, the globe, seven languages, the pinned content pack
 games/golden-age/     The Golden Age: season rules, the first scenario, scripted players and the simulation lab; the 3D board, the panel, the plan view, saving, seven languages
+games/granada/        Granada: the ledger of money and goods (markets with two prices, harvests, a recipe, contracts), the sums a panel will show, geography from museum coordinates, the pinned museum records; no screen
 tools/                bench.ts and shot.ts (real Chrome, real GPU), atlas-play.ts, golden-age-play.ts, music-import.ts, check-strings.py
 media/                not in git: the encoded music, written here by `music:import`
 ```
@@ -28,6 +29,8 @@ npm --prefix gaming run atlas:pack   # rebuild Atlas's content pack from the mus
 npm --prefix gaming run golden-age:links   # rebuild The Golden Age's pinned links to museum records (labels in seven languages)
 npm --prefix gaming run simlab -- 1000   # play 14,000 Golden Age campaigns and report what breaks or dominates
 npm --prefix gaming run golden-age:play -- <out dir> ar 1   # play The Golden Age in real Chrome, in a language, with a whole campaign
+npm --prefix gaming run granada:records     # rebuild Granada's pinned museum records (places with coordinates, labels in seven languages)
+npm --prefix gaming run granada:mutations   # break Granada's economy kernel 15 ways and check the tests notice each time
 ```
 
 Useful address parameters for the games: `lang=` one of ar, en, ur, fr, es, tr, id; `music=off`; and for The Golden Age `seed=<number>` (a new game on that district), `q=low` (no post-processing), `no3d=1` (the plan view only).

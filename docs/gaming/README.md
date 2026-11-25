@@ -1,14 +1,14 @@
 # islam.museum Gaming Platform: engineering index
 
-The gaming platform is a separate subsystem of this repository: ten browser games, a portal, shared systems, a creator and developer ecosystem, built and released independently of the museum's pages. Code lives in [`gaming/`](../../gaming/); everything about it that is not code lives here.
+The gaming platform is a separate subsystem of this repository: eleven browser games (the ten of the Version 2 specification, and Granada, added by the founder's addendum of the same day), a portal, shared systems, a creator and developer ecosystem, built and released independently of the museum's pages. Code lives in [`gaming/`](../../gaming/); everything about it that is not code lives here.
 
-**State on 25 November 2026:** milestone M0 (inventory, decisions, baseline) is done; M1 (graphics spike) has its measurements and captures, with physical tests still open; two games are playable prototypes: Atlas, built from museum records, and The Golden Age, whose first scenario can be played in 3D or from a plan view; both play the museum's own suite as their music. No person has played either. The other eight games do not exist. Nothing here is on the public site. The honest summary is the ledger's first table.
+**State on 25 November 2026:** milestone M0 (inventory, decisions, baseline) is done; M1 (graphics spike) has its measurements and captures, with physical tests still open; two games are playable prototypes: Atlas, built from museum records, and The Golden Age, whose first scenario can be played in 3D or from a plan view; both play the museum's own suite as their music. No person has played either. Granada, the eleventh game, has its discovery report and the first rules under it (money, goods, markets, contracts, the region's geography) and cannot be played. The other eight games do not exist. Nothing here is on the public site. The honest summary is the ledger's first table.
 
 ## Start here in a new session
 
 1. [`LEDGER.md`](LEDGER.md): what is done, what was measured, what is open, the exact next commands. Read it first and confirm the branch and head it names.
 2. [`spec-v2/00-START-HERE.md`](spec-v2/00-START-HERE.md), then `01`, `18`, `19`: the founder's Version 2 specification (25 November 2026), copied in full. V2 supersedes V1 (`spec-v2/reference/`) where they differ; repository governance (`AGENTS.md`, `docs/ai-change-gates.md`) overrides both.
-3. The GDD of the game you are about to work on, in [`spec-v2/games/`](spec-v2/games/), in full, before writing any of it.
+3. The GDD of the game you are about to work on, in [`spec-v2/games/`](spec-v2/games/), in full, before writing any of it. For Granada, the whole of [`spec-granada/`](spec-granada/00-START-HERE.md), then [`granada/g0-discovery.md`](granada/g0-discovery.md).
 
 ## Documents
 
@@ -20,10 +20,14 @@ The gaming platform is a separate subsystem of this repository: ten browser game
 | [`m1-graphics-spike.md`](m1-graphics-spike.md) | The engine comparison: method, measured numbers, captures, defects, what is still pending |
 | [`games/atlas.md`](games/atlas.md) | Atlas: what exists, where its questions come from, its rules, what is checked and what is not done |
 | [`games/golden-age.md`](games/golden-age.md) | The Golden Age: the rules of the first scenario, the screen, what was checked in a real browser, what the simulation lab found, what is not done |
+| [`games/granada.md`](games/granada.md) | Granada: what exists (the money and goods of its economy, the region's geography from museum coordinates), what they promise, and everything that is not built. It cannot be played |
+| [`granada/g0-discovery.md`](granada/g0-discovery.md) | Granada's gate G0: what the repository has for it, the museum's records, the claims the game would make and their support, the three concept images read against the data, what waits for the founder |
+| [`granada/acceptance.md`](granada/acceptance.md), [`granada/acceptance.json`](granada/acceptance.json) | Granada's 26 gates (GRA01 to GRA26) with their real status. They extend R01 to R18 |
 | [`threat-model.md`](threat-model.md) | Trust levels, boundaries, what the current hosting allows, and the rules that follow |
 | [`adr/`](adr/) | Architecture decisions, each with evidence and the alternatives turned down |
 | [`spec-v2/`](spec-v2/) | The V2 specification package, with the visual atlas updated for the twelve images of 25 November |
-| [`evidence/`](evidence/) | Benchmark JSON and real captures, by milestone |
+| [`spec-granada/`](spec-granada/) | The Granada addendum of 25 November 2026 as received (19 files verified), with its three concept images reduced in size |
+| [`evidence/`](evidence/) | Benchmark JSON and real captures, by milestone; Granada's under `evidence/granada/` |
 
 ## Decisions
 
@@ -37,6 +41,8 @@ The gaming platform is a separate subsystem of this repository: ten browser game
 | [G-0006](adr/G-0006-atlas-content-pack.md) | Atlas asks only what a museum record says, from a pack pinned in git with a proved 365-day schedule | Accepted; the rule on which people may be asked about is a default awaiting the founder |
 | [G-0007](adr/G-0007-music-and-audio.md) | The museum's own suite, "Voices of the Museum", is the music of every game; the audio is never in git; nothing sounds before the player acts | Accepted (the founder's instruction); where the files are served from in production waits on G-0004 |
 | [G-0008](adr/G-0008-atlas-image-rounds.md) | The rule for an Atlas image round (which pictures, how they are credited without giving the answer away, where they load from, how they enter the schedule), and the count that stopped the build: four pictures qualify and a weekly round needs 52 | Rule accepted and kept as tested code; no image round built; three defaults await the founder |
+| [G-0009](adr/G-0009-granada-eleventh-game.md) | Granada is the eleventh game, a sub-lane of `gaming`; nothing built is restarted; the existing engine and shared packages are used; its simulation is built before its picture | Accepted for the lane; the cost to the other games is recorded |
+| [G-0010](adr/G-0010-granada-economy-kernel.md) | Granada's money and goods are a journal of whole numbers changed only by commands that can be retried; markets have two prices and a purse; a harvest that does not fit is a decision; a contract reserves | Accepted and built for the first slice; prices that move, transport and the clock are not built |
 
 ## Rules that bind this subsystem
 
