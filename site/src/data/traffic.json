@@ -79,6 +79,13 @@
       "name": "Cloudflare Radar top-200000-domains CSV 2026-11-16..23",
       "sha256": "f2d0f86685ae0e4091ccc440db45432129c8b012fb6b1fea4fa0a386bfd3ea06",
       "public": true
+    },
+    {
+      "id": "E12",
+      "kind": "public-download",
+      "name": "Tranco full list JZW4Y (2026-11-24), public download",
+      "sha256": "47dd86be3e310ed9b826cac8097caf9153da8aaa6521a83a974a7ad4be6e3059",
+      "public": true
     }
   ],
   "rankings": [
@@ -92,6 +99,18 @@
       "evidence": "E10",
       "status": "verified-file",
       "note": "Exact row '657206,islam.museum' in the supplied top-million list; list member timestamp 2026-11-23 22:27:28 (timezone unspecified).",
+      "url": "https://tranco-list.eu/api/ranks/domain/islam.museum"
+    },
+    {
+      "id": "tranco-2026-11-24",
+      "provider": "Tranco",
+      "metric": "rank",
+      "value": 629925,
+      "exact": true,
+      "observed": "2026-11-24",
+      "evidence": "E12",
+      "status": "verified-file",
+      "note": "Exact row '629925,islam.museum' in the full list JZW4Y of 4,329,984 domains (line 629925).",
       "url": "https://tranco-list.eu/api/ranks/domain/islam.museum"
     },
     {
@@ -131,6 +150,11 @@
         {
           "date": "2026-11-23",
           "rank": 657206,
+          "status": "verified-file"
+        },
+        {
+          "date": "2026-11-24",
+          "rank": 629925,
           "status": "verified-file"
         }
       ],
