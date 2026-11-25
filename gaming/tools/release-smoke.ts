@@ -128,6 +128,13 @@ for (const game of manifest.games.filter((g) => g.page)) {
       }
     } else {
       await page.waitForSelector("#panel h2", { timeout: 60_000 });
+      // Atlas's lit sphere comes up under its drawn globe; under the release's content security policy it must too.
+      for (const end = Date.now() + 60_000; (await page.evaluate("document.documentElement.dataset.globe")) !== "3d"; ) {
+        if (Date.now() > end) break;
+        await page.waitForTimeout(150);
+      }
+      started3d = (await page.evaluate("document.documentElement.dataset.globe")) === "3d";
+      if (!started3d) errors.push("Atlas's lit sphere did not start");
     }
     const ready = Date.now() - started;
     await page.waitForTimeout(800);

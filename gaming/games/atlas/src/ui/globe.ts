@@ -1,5 +1,6 @@
 // The Atlas globe: an orthographic view of the Earth on a 2D canvas. Drag or use the arrow keys to turn it, scroll
-// or press + and − to zoom, click or press Enter to drop the pin. It draws coastlines only. Modern political borders
+// or press + and − to zoom, click or press Enter to drop the pin. Where the browser has WebGPU a lit sphere is drawn
+// under it (ui/globe3d.ts) and this canvas keeps only the pins, the arc and the air round the limb. It draws coastlines only. Modern political borders
 // are left out on purpose: they would put the present day into a question about the past, and often give the answer away.
 //
 // The globe is never mirrored for right-to-left languages: east is always to the right of a north-up view.
@@ -13,6 +14,12 @@ import { clampLat, wrapLon } from "../geo";
 const coarse = feature(land110 as unknown as Topology, (land110 as unknown as Topology).objects.land as GeometryObject);
 const fine = feature(land50 as unknown as Topology, (land50 as unknown as Topology).objects.land as GeometryObject);
 const graticule = geoGraticule10();
+/** The coastline the lit sphere paints its map from: the same land this globe draws. */
+export const LAND = fine;
+/** Something that draws the Earth under this canvas, given the view. */
+export interface Backdrop {
+  show(view: { lon: number; lat: number; radius: number; cx: number; cy: number; width: number; height: number }): void;
+}
 
 export interface GlobeOptions {
   onPin(lat: number, lon: number): void;
@@ -49,17 +56,25 @@ export class Globe {
   private width = 0;
   private height = 0;
   private idleTimer = 0;
+  private backdrop: Backdrop | null = null;
 
   constructor(
     private readonly canvas: HTMLCanvasElement,
     private readonly options: GlobeOptions,
   ) {
-    const ctx = canvas.getContext("2d", { alpha: false });
+    // Transparent, so that a lit sphere can show through from underneath; without one it is filled edge to edge.
+    const ctx = canvas.getContext("2d");
     if (!ctx) throw new Error("this browser gave no 2D canvas context");
     this.ctx = ctx;
     this.bind();
     new ResizeObserver(() => this.resize()).observe(canvas);
     this.resize();
+  }
+
+  /** Hands the drawing of the Earth itself to something underneath (or takes it back, with null). */
+  setBackdrop(backdrop: Backdrop | null): void {
+    this.backdrop = backdrop;
+    this.draw(true);
   }
 
   /** The pin as [lat, lon], or null. */
@@ -225,33 +240,56 @@ export class Globe {
     this.configure();
     const R = this.radius();
     const path = geoPath(this.projection, ctx);
-    ctx.fillStyle = COLORS.space;
-    ctx.fillRect(0, 0, w, h);
-    // Ocean, lit from the upper left.
-    const ocean = ctx.createRadialGradient(this.cx() - R * 0.35, h / 2 - R * 0.4, R * 0.1, this.cx(), h / 2, R);
-    ocean.addColorStop(0, COLORS.oceanCentre);
-    ocean.addColorStop(1, COLORS.oceanEdge);
-    ctx.beginPath();
-    path({ type: "Sphere" });
-    ctx.fillStyle = ocean;
-    ctx.fill();
-    ctx.beginPath();
-    path(graticule);
-    ctx.strokeStyle = COLORS.graticule;
-    ctx.lineWidth = 1;
-    ctx.stroke();
-    ctx.beginPath();
-    path(full && this.zoom > 1.6 ? fine : coarse);
-    ctx.fillStyle = COLORS.land;
-    ctx.fill();
-    ctx.strokeStyle = COLORS.coast;
-    ctx.lineWidth = 0.8;
-    ctx.stroke();
-    ctx.beginPath();
-    path({ type: "Sphere" });
-    ctx.strokeStyle = COLORS.rim;
-    ctx.lineWidth = 2;
-    ctx.stroke();
+    if (this.backdrop) {
+      ctx.clearRect(0, 0, w, h);
+      this.backdrop.show({ lon: this.centre[0], lat: this.centre[1], radius: R, cx: this.cx(), cy: h / 2, width: w, height: h });
+      // A thin shell of air round the limb.
+      const air = ctx.createRadialGradient(this.cx(), h / 2, R * 0.99, this.cx(), h / 2, R * 1.075);
+      air.addColorStop(0, "rgba(130, 185, 255, 0)");
+      air.addColorStop(0.14, "rgba(130, 185, 255, 0.4)");
+      air.addColorStop(1, "rgba(130, 185, 255, 0)");
+      ctx.beginPath();
+      ctx.arc(this.cx(), h / 2, R * 1.075, 0, Math.PI * 2);
+      ctx.arc(this.cx(), h / 2, R * 0.99, 0, Math.PI * 2, true);
+      ctx.fillStyle = air;
+      ctx.fill();
+      // Brought close and at rest, the coast is drawn again as a line, sharper than any map on the sphere can be.
+      if (full && this.zoom > 1.6) {
+        ctx.beginPath();
+        path(fine);
+        ctx.strokeStyle = COLORS.coast;
+        ctx.lineWidth = 0.9;
+        ctx.stroke();
+      }
+    } else {
+      ctx.fillStyle = COLORS.space;
+      ctx.fillRect(0, 0, w, h);
+      // Ocean, lit from the upper left.
+      const ocean = ctx.createRadialGradient(this.cx() - R * 0.35, h / 2 - R * 0.4, R * 0.1, this.cx(), h / 2, R);
+      ocean.addColorStop(0, COLORS.oceanCentre);
+      ocean.addColorStop(1, COLORS.oceanEdge);
+      ctx.beginPath();
+      path({ type: "Sphere" });
+      ctx.fillStyle = ocean;
+      ctx.fill();
+      ctx.beginPath();
+      path(graticule);
+      ctx.strokeStyle = COLORS.graticule;
+      ctx.lineWidth = 1;
+      ctx.stroke();
+      ctx.beginPath();
+      path(full && this.zoom > 1.6 ? fine : coarse);
+      ctx.fillStyle = COLORS.land;
+      ctx.fill();
+      ctx.strokeStyle = COLORS.coast;
+      ctx.lineWidth = 0.8;
+      ctx.stroke();
+      ctx.beginPath();
+      path({ type: "Sphere" });
+      ctx.strokeStyle = COLORS.rim;
+      ctx.lineWidth = 2;
+      ctx.stroke();
+    }
 
     if (this.pin && this.answer && this.arc > 0) {
       const along = geoInterpolate([this.pin[1], this.pin[0]], [this.answer[1], this.answer[0]]);
