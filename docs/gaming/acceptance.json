@@ -64,7 +64,7 @@
    "evidence": "record IDs, citation and license audit",
    "status": "in-progress",
    "hardGate": true,
-   "evidenceSoFar": "Atlas: every round is a museum record id joined to a museum place id; no image or third-party asset is used; coastlines are Natural Earth via world-atlas (public domain). No independent citation or licence audit has been done."
+   "evidenceSoFar": "Atlas: every round is a museum record id joined to a museum place id; no image or third-party asset is used; coastlines are Natural Earth via world-atlas (public domain). The Golden Age: its district, numbers and buildings are fiction and say so; research and tools link to thirteen museum records by id from a pinned file (docs/gaming/games/golden-age.md), chosen by an agent and not yet checked by the founder; no third-party asset is used. Music in both: the museum's own suite, described in the Backstage page's words (docs/gaming/adr/G-0007-music-and-audio.md). No independent citation or licence audit has been done."
   },
   {
    "id": "R08",
@@ -82,7 +82,7 @@
    "evidence": "hardware/browser/driver, p95 and actual captures",
    "status": "in-progress",
    "hardGate": true,
-   "evidenceSoFar": "One machine only: Apple M4 Max, Chrome 158. Reference district: docs/gaming/evidence/m1/. The Golden Age: frame intervals at 1920 × 1080 during a scripted campaign, docs/gaming/LEDGER.md (Measurements). No soak, no device-loss test, no Windows or discrete-GPU machine, Edge run did not start. See m1-graphics-spike.md."
+   "evidenceSoFar": "One machine only: Apple M4 Max, Chrome 158. Reference district: docs/gaming/evidence/m1/. The Golden Age: frame intervals at 1920 × 1080 during a scripted campaign, with no frame over 16.7 ms after a stall at each season's end was traced and removed, docs/gaming/LEDGER.md (Measurements). No soak, no device-loss test, no Windows or discrete-GPU machine, Edge run did not start. See m1-graphics-spike.md."
   },
   {
    "id": "R10",
