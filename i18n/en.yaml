@@ -1640,6 +1640,46 @@ explore:
   related_card: Related
   font: Font
   pages:
+    imara:
+      title: 'Sacred Architecture Browser'
+      desc: 'The built world of Islam: mosques, madrasas, palaces, fortresses, libraries, observatories, hospitals, markets, khans, hammams and gardens — every building on record, with its sources.'
+      menu: 'Browse mosques, madrasas, palaces, fortresses and the civic buildings on record'
+    collection:
+      title: 'Objects and Artifacts Browser'
+      desc: 'The museum''s collection by material family: manuscripts, ceramics and glass, metalwork, textiles, relics, arms, instruments and coins.'
+      menu: 'Browse the museum''s objects: manuscripts, ceramics, metalwork, textiles, relics'
+    tasawwuf:
+      title: 'Tasawwuf (Sufism) Browser'
+      desc: 'The spiritual path: the Sufi orders, the mystics and masters, their works and the named stations and concepts.'
+      menu: 'Browse the Sufi orders, the mystics and their works'
+    kalam:
+      title: 'Theology and Philosophy Browser'
+      desc: 'The schools of thought: sects and madhhabs, the mutakallimun and the falasifa, and the works of kalam and falsafa.'
+      menu: 'Browse the schools, the theologians and the philosophers'
+    nisa:
+      title: 'Women of Islam Browser'
+      desc: 'Every woman on record: Companions, scholars and transmitters, mystics, poets and writers, artists, rulers, athletes and society.'
+      menu: 'Browse the women on record: Companions, scholars, poets, rulers'
+    uhud:
+      title: 'Covenants and Diplomacy Browser'
+      desc: 'Recorded diplomacy: treaties and pacts, declarations, charters and the envoys and diplomats who carried them.'
+      menu: 'Browse treaties, charters and the diplomats on record'
+    maahid:
+      title: 'Institutions of Learning Browser'
+      desc: 'Houses of knowledge and care: madrasas, libraries, observatories, bimaristan hospitals and learned organisations.'
+      menu: 'Browse madrasas, libraries, observatories and hospitals on record'
+    mawt:
+      title: 'Tombs and Resting Places Browser'
+      desc: 'Resting places: tombs, mausolea and shrines of the prophets, scholars, rulers and saints on record.'
+      menu: 'Browse tombs, mausolea and shrines on record'
+    ulum:
+      title: 'Sciences and Scientists Browser'
+      desc: 'The people of the disciplines: astronomers, mathematicians, physicians, geographers, natural scientists and engineers on record.'
+      menu: 'Browse the scientists on record by discipline'
+    funun:
+      title: 'Arts and Artists Browser'
+      desc: 'The arts and their people: calligraphers, painters, musicians, architects and the crafts of the book on record.'
+      menu: 'Browse calligraphers, artists, musicians and architects on record'
     heroes:
       title: Heroes of Islam
       desc: "The hall of heroes: six halls of virtue — sacrifice, courage, mercy, generosity, knowledge and steadfastness — each with four heroes, their full stories and their sources."
@@ -8244,3 +8284,201 @@ open_access_audit:
   policy_link: Read the Open Access Policy
   eng_body: A fuller engineering record of this audit is kept with the museum's engineering documents in the public repository.
   eng_link: Engineering documents
+
+shelf:
+  badge: 'Explorer'
+  status: 'This build holds {n} records in {s} sections; texts are drafts until a human reads them.'
+  method_title: 'How this browser works'
+  api: 'The whole set is available at'
+  sections_title: 'The browser''s sections'
+  filter_label: 'Filter the records'
+  filter_none: 'No results.'
+  empty: 'No records in this build yet.'
+imara:
+  title: 'Sacred Architecture Browser'
+  lede: 'The built world of Islam in the museum''s records: mosques and minarets, madrasas, palaces, fortresses, libraries and observatories, hospitals, markets, khans, hammams and gardens — every building on record, with its sources.'
+  badge: 'Explorer'
+  method_note: 'Membership is read from the record itself: every building record whose kind is a built form enters under the section of that kind, while tombs and shrines stand in their own browser (mawt) and the sanctity reading stays with the Sacred Places Browser. Curated records outside the building class join through the imara-browser tag.'
+  sections:
+    mosques:
+      title: 'Mosques and minarets'
+    madrasas:
+      title: 'Madrasas'
+    palaces:
+      title: 'Palaces'
+    defense:
+      title: 'Fortresses and defenses'
+    learning:
+      title: 'Libraries and observatories'
+    care:
+      title: 'Hospitals (bimaristans)'
+    civic:
+      title: 'Markets, khans, hammams and gardens'
+    curated:
+      title: 'Curated records'
+collection:
+  title: 'Objects and Artifacts Browser'
+  lede: 'The museum''s collection: manuscripts and folios, ceramics, tile and glass, metalwork, textiles and carpets, relics, arms and instruments, and coins — every object on record by its material family, each with its sources.'
+  badge: 'Explorer'
+  method_note: 'Every object record enters under the section of its material family — folio and manuscript under manuscripts, ceramic, tile and glass under ceramics, and so on. Curated records outside the object class join through the collection-browser tag.'
+  sections:
+    manuscripts:
+      title: 'Manuscripts and folios'
+    ceramics:
+      title: 'Ceramics, tile and glass'
+    metalwork:
+      title: 'Metalwork'
+    textiles:
+      title: 'Textiles and carpets'
+    relics:
+      title: 'Relics'
+    arms:
+      title: 'Arms and instruments'
+    coins:
+      title: 'Coins'
+    other:
+      title: 'Other objects'
+    curated:
+      title: 'Curated records'
+tasawwuf:
+  title: 'Tasawwuf (Sufism) Browser'
+  lede: 'The spiritual path in the museum''s records: the Sufi orders, the mystics and masters who walked it, their works and the stations and concepts they named — each record with its sources.'
+  badge: 'Explorer'
+  method_note: 'Membership is read from the record: persons whose roles name the mystical path (mystic, sufi), group records of kind order, and works and concepts tagged tasawwuf-browser. Records of other views stay labelled by their own traditions.'
+  sections:
+    orders:
+      title: 'The orders'
+    masters:
+      title: 'Masters and mystics'
+    works:
+      title: 'Works of tasawwuf'
+    concepts:
+      title: 'Stations and concepts'
+    curated:
+      title: 'Curated records'
+kalam:
+  title: 'Theology and Philosophy Browser'
+  lede: 'The schools of thought in the museum''s records: the mutakallimun and the falasifa, the sects and schools they formed, and the works of kalam and falsafa — each record with its sources, and contested questions labelled by tradition.'
+  badge: 'Explorer'
+  method_note: 'Membership is read from the record: persons whose roles or occupations name theology or philosophy (theologian, philosopher, mutakallim), group records of kind sect or madhhab, and works tagged kalam-browser. Positions are stated with their holders, never by the museum''s voice.'
+  sections:
+    schools:
+      title: 'The schools and sects'
+    mutakallimun:
+      title: 'Theologians (mutakallimun)'
+    philosophers:
+      title: 'Philosophers (falasifa)'
+    works:
+      title: 'Works and texts'
+    curated:
+      title: 'Curated records'
+nisa:
+  title: 'Women of Islam Browser'
+  lede: 'The women of the museum''s records — Companions and transmitters, scholars, mystics, poets and writers, artists, rulers and leaders, athletes, and women of society and daily life — every female person on record, with her sources.'
+  badge: 'Explorer'
+  method_note: 'Membership is read from the record: every person record whose gender is female, grouped by her roles — Companions first, then scholars, the pious, writers, artists, rulers, athletes and society. Records join without any tagging step.'
+  sections:
+    companions:
+      title: 'Companions and early Muslims'
+    scholars:
+      title: 'Scholars and transmitters'
+    piety:
+      title: 'Mystics and devotees'
+    writers:
+      title: 'Writers and poets'
+    arts:
+      title: 'Artists and performers'
+    rulers:
+      title: 'Rulers and leaders'
+    sports:
+      title: 'Athletes'
+    society:
+      title: 'Society and daily life'
+    curated:
+      title: 'Curated records'
+uhud:
+  title: 'Covenants and Diplomacy Browser'
+  lede: 'The covenants and diplomacy of the museum''s records: treaties and pacts, declarations, charters and the envoys who carried the word — every recorded agreement and the people who made it, with sources.'
+  badge: 'Explorer'
+  method_note: 'Membership is read from the record: events of the treaty family (treaty, declaration, truce, pact, peace, armistice, capitulation, covenant, alliance), works of kind charter, and persons whose roles name the diplomat''s work. Curated records join through the uhud-browser tag.'
+  sections:
+    treaties:
+      title: 'Treaties and pacts'
+    declarations:
+      title: 'Declarations'
+    charters:
+      title: 'Charters and covenants'
+    envoys:
+      title: 'Envoys and diplomats'
+    other:
+      title: 'Other diplomatic events'
+    curated:
+      title: 'Curated records'
+maahid:
+  title: 'Institutions of Learning Browser'
+  lede: 'The houses of knowledge and care in the museum''s records: madrasas, libraries, observatories, bimaristan hospitals and the organisations that keep learning — every institution on record, with its sources.'
+  badge: 'Explorer'
+  method_note: 'Membership is read from the record: buildings of kind madrasa, library, observatory and bimaristan; groups of kind university, institution, standards-body and international-organisation; and works of kind online-library. Curated records join through the maahid-browser tag.'
+  sections:
+    madrasas:
+      title: 'Madrasas'
+    libraries:
+      title: 'Libraries'
+    observatories:
+      title: 'Observatories'
+    hospitals:
+      title: 'Hospitals (bimaristans)'
+    organisations:
+      title: 'Organisations and bodies'
+    curated:
+      title: 'Curated records'
+mawt:
+  title: 'Tombs and Resting Places Browser'
+  lede: 'The resting places in the museum''s records: tombs and mausolea, shrines and graves of the prophets, scholars, rulers and saints — every funerary building on record, with its sources.'
+  badge: 'Explorer'
+  method_note: 'Membership is read from the record: every building of kind tomb or shrine. The wider reading of sacred place stays with the Sacred Places Browser; here the record is the resting place itself. Curated records join through the mawt-browser tag.'
+  sections:
+    tombs:
+      title: 'Tombs and mausolea'
+    shrines:
+      title: 'Shrines'
+    curated:
+      title: 'Curated records'
+ulum:
+  title: 'Sciences and Scientists Browser'
+  lede: 'The people of the disciplines in the museum''s records: astronomers, mathematicians, physicians, geographers, natural scientists and engineers — every scientist on record by field, with sources.'
+  badge: 'Explorer'
+  method_note: 'Membership is read from the record: persons whose roles or occupations name a discipline — astronomer, mathematician, physician, geographer, physicist, chemist, engineer and their kin. The inventions themselves keep the Muslim Inventions Browser; here the record is the person. Curated records join through the ulum-browser tag.'
+  sections:
+    astronomy:
+      title: 'Astronomy'
+    mathematics:
+      title: 'Mathematics'
+    medicine:
+      title: 'Medicine'
+    geography:
+      title: 'Geography'
+    natural:
+      title: 'The natural sciences'
+    engineering:
+      title: 'Engineering'
+    curated:
+      title: 'Curated records'
+funun:
+  title: 'Arts and Artists Browser'
+  lede: 'The arts and their people in the museum''s records: calligraphers, painters and illuminators, musicians and singers, architects, and the crafts of the book — every artist on record by art, with sources.'
+  badge: 'Explorer'
+  method_note: 'Membership is read from the record: persons whose roles or occupations name an art — calligraphers, painters, illuminators and miniaturists, musicians and singers, architects, scribes and the book crafts. Objects of art keep the collection browser; media-makers keep their own. Curated records join through the funun-browser tag.'
+  sections:
+    calligraphy:
+      title: 'Calligraphy'
+    visual:
+      title: 'The visual arts'
+    music:
+      title: 'Music and song'
+    architecture:
+      title: 'Architects'
+    bookcrafts:
+      title: 'Crafts of the book'
+    curated:
+      title: 'Curated records'

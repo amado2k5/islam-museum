@@ -5954,6 +5954,46 @@ explore:
   related_card: Terkait
   font: Jalur
   pages:
+    imara:
+      title: 'Penjelajah Arsitektur Islam'
+      desc: 'Dunia binaan Islam: masjid, madrasah, istana, benteng, perpustakaan, observatorium, rumah sakit, pasar, khan, hammam dan taman.'
+      menu: 'Jelajahi masjid, madrasah, istana, benteng dan bangunan sipil'
+    collection:
+      title: 'Penjelajah Objek dan Artefak'
+      desc: 'Koleksi menurut keluarga bahan: manuskrip, keramik dan kaca, logam, tekstil, relik, senjata, instrumen dan koin.'
+      menu: 'Jelajahi objek museum: manuskrip, keramik, logam, tekstil, relik'
+    tasawwuf:
+      title: 'Penjelajah Tasawuf'
+      desc: 'Jalan ruhani: tarekat sufi, arif dan syekh, karya mereka, serta maqam dan konsep yang dinamai.'
+      menu: 'Jelajahi tarekat sufi, para arif dan karya mereka'
+    kalam:
+      title: 'Penjelajah Teologi dan Filsafat'
+      desc: 'Aliran pemikiran: sekte dan mazhab, mutakallim dan filosof, serta karya kalam dan falsafah.'
+      menu: 'Jelajahi aliran, mutakallim dan filosof'
+    nisa:
+      title: 'Penjelajah Wanita Islam'
+      desc: 'Setiap wanita tercatat: sahabat, alimah dan periwayat, arifah, penyair dan penulis, seniman, penguasa, atlet dan masyarakat.'
+      menu: 'Jelajahi para wanita: sahabat, alimah, penyair, penguasa'
+    uhud:
+      title: 'Penjelajah Perjanjian dan Diplomasi'
+      desc: 'Diplomasi tercatat: traktat dan pakta, deklarasi, piagam serta utusan dan diplomat pembawanya.'
+      menu: 'Jelajahi traktat, piagam dan diplomat tercatat'
+    maahid:
+      title: 'Penjelajah Lembaga Ilmu'
+      desc: 'Rumah ilmu dan perawatan: madrasah, perpustakaan, observatorium, rumah sakit bimaristan dan organisasi ilmu.'
+      menu: 'Jelajahi madrasah, perpustakaan, observatorium dan rumah sakit'
+    mawt:
+      title: 'Penjelajah Makam dan Peristirahatan'
+      desc: 'Tempat peristirahatan: makam, mausoleum dan tugu para nabi, alim, penguasa dan wali.'
+      menu: 'Jelajahi makam, mausoleum dan tugu'
+    ulum:
+      title: 'Penjelajah Ilmu dan Ilmuwan'
+      desc: 'Ahli disiplin: astronom, matematikawan, tabib, geografer, ilmuwan alam dan insinyur.'
+      menu: 'Jelajahi ilmuwan menurut disiplin'
+    funun:
+      title: 'Penjelajah Seni dan Seniman'
+      desc: 'Seni dan ahlinya: kaliografer, pelukis, musisi, arsitek dan kriya kitab.'
+      menu: 'Jelajahi kaliografer, seniman, musisi dan arsitek'
     heroes:
       title: Pahlawan Islam
       desc: 'Hall of Heroes: Enam aula kebajikan — pengorbanan, keberanian, belas kasihan, kemurahan hati, pengetahuan, dan keteguhan — dan setiap aula memiliki empat pahlawan dengan cerita dan sumber lengkap
@@ -9289,3 +9329,201 @@ open_access_audit:
   policy_link: Baca Kebijakan Akses Terbuka
   eng_body: Catatan rekayasa yang lebih lengkap tentang audit ini disimpan bersama dokumen rekayasa museum di repositori publik.
   eng_link: Dokumen rekayasa
+
+shelf:
+  badge: 'Penjelajah'
+  status: 'Versi ini memuat {n} rekaman dalam {s} bagian; teks tetap draf sampai dibaca manusia.'
+  method_title: 'Cara kerja penjelajah ini'
+  api: 'Seluruh set tersedia di'
+  sections_title: 'Bagian-bagian penjelajah'
+  filter_label: 'Saring rekaman'
+  filter_none: 'Tidak ada hasil.'
+  empty: 'Belum ada rekaman dalam versi ini.'
+imara:
+  title: 'Penjelajah Arsitektur Islam'
+  lede: 'Dunia binaan Islam dalam rekaman museum: masjid dan menara, madrasah, istana, benteng, perpustakaan dan observatorium, rumah sakit, pasar, khan, hammam dan taman — setiap bangunan dengan sumbernya.'
+  badge: 'Penjelajah'
+  method_note: 'Keanggotaan dibaca dari rekaman itu sendiri: setiap bangunan masuk ke bagian jenisnya, sementara makam dan tugu berdiri di penjelajahnya sendiri (mawt) dan pembacaan kesucian tetap pada Penjelajah Tempat Suci. Rekaman terkurasi di luar kelas building bergabung lewat tag imara-browser.'
+  sections:
+    mosques:
+      title: 'Masjid dan menara'
+    madrasas:
+      title: 'Madrasah'
+    palaces:
+      title: 'Istana'
+    defense:
+      title: 'Benteng dan pertahanan'
+    learning:
+      title: 'Perpustakaan dan observatorium'
+    care:
+      title: 'Rumah sakit (bimaristan)'
+    civic:
+      title: 'Pasar, khan, hammam dan taman'
+    curated:
+      title: 'Rekaman terkurasi'
+collection:
+  title: 'Penjelajah Objek dan Artefak'
+  lede: 'Koleksi museum: manuskrip dan folio, keramik, ubin dan kaca, logam, tekstil dan karpet, relik, senjata dan instrumen, serta koin — setiap objek menurut keluarga bahannya, dengan sumber.'
+  badge: 'Penjelajah'
+  method_note: 'Setiap objek masuk ke bagian keluarga bahannya — folio dan manuskrip di manuskrip, keramik, ubin dan kaca di keramik, dan seterusnya. Rekaman terkurasi di luar kelas object bergabung lewat tag collection-browser.'
+  sections:
+    manuscripts:
+      title: 'Manuskrip dan folio'
+    ceramics:
+      title: 'Keramik, ubin dan kaca'
+    metalwork:
+      title: 'Logam'
+    textiles:
+      title: 'Tekstil dan karpet'
+    relics:
+      title: 'Relik'
+    arms:
+      title: 'Senjata dan instrumen'
+    coins:
+      title: 'Koin'
+    other:
+      title: 'Objek lain'
+    curated:
+      title: 'Rekaman terkurasi'
+tasawwuf:
+  title: 'Penjelajah Tasawuf'
+  lede: 'Jalan ruhani dalam rekaman museum: tarekat sufi, para arif dan syekh yang menempuhnya, karya mereka, serta maqam dan konsep yang mereka namai — setiap rekaman dengan sumbernya.'
+  badge: 'Penjelajah'
+  method_note: 'Keanggotaan dibaca dari rekaman: orang yang perannya menyebut jalan itu (arif, sufi), rekaman kelompok berjenis tarekat, dan karya serta konsep bertag tasawwuf-browser. Rekaman pandangan lain tetap berlabel tradisinya.'
+  sections:
+    orders:
+      title: 'Tarekat'
+    masters:
+      title: 'Arif dan syekh'
+    works:
+      title: 'Karya tasawuf'
+    concepts:
+      title: 'Maqam dan konsep'
+    curated:
+      title: 'Rekaman terkurasi'
+kalam:
+  title: 'Penjelajah Teologi dan Filsafat'
+  lede: 'Aliran pemikiran dalam rekaman museum: para mutakallim dan filosof, sekte dan mazhab yang mereka bentuk, serta karya kalam dan falsafah — setiap rekaman dengan sumbernya, dan persoalan yang diperselisihkan berlabel tradisinya.'
+  badge: 'Penjelajah'
+  method_note: 'Keanggotaan dibaca dari rekaman: orang yang peran atau pekerjaannya menyebut teologi atau filsafat (teolog, filosof, mutakallim), rekaman kelompok berjenis sekte atau mazhab, dan karya bertag kalam-browser. Pendirian dinyatakan bersama pemegangnya, bukan dengan suara museum.'
+  sections:
+    schools:
+      title: 'Aliran dan sekte'
+    mutakallimun:
+      title: 'Teolog (mutakallimun)'
+    philosophers:
+      title: 'Filosof (falasifa)'
+    works:
+      title: 'Karya dan teks'
+    curated:
+      title: 'Rekaman terkurasi'
+nisa:
+  title: 'Penjelajah Wanita Islam'
+  lede: 'Para wanita dalam rekaman museum — sahabat dan periwayat wanita, alimah, arifah, penyair dan penulis, seniman, penguasa dan pemimpin, atlet, serta wanita masyarakat dan kehidupan sehari-hari — setiap pribadi wanita dengan sumbernya.'
+  badge: 'Penjelajah'
+  method_note: 'Keanggotaan dibaca dari rekaman: setiap rekaman pribadi bergender wanita, dikelompokkan menurut perannya — sahabat dahulu, lalu alimah, arifah, penulis, seniman, penguasa, atlet dan masyarakat. Rekaman masuk tanpa penandaan.'
+  sections:
+    companions:
+      title: 'Sahabat dan muslimah awal'
+    scholars:
+      title: 'Alimah dan periwayat'
+    piety:
+      title: 'Arifah dan abidah'
+    writers:
+      title: 'Penulis dan penyair'
+    arts:
+      title: 'Seniman'
+    rulers:
+      title: 'Penguasa dan pemimpin'
+    sports:
+      title: 'Atlet'
+    society:
+      title: 'Masyarakat dan keseharian'
+    curated:
+      title: 'Rekaman terkurasi'
+uhud:
+  title: 'Penjelajah Perjanjian dan Diplomasi'
+  lede: 'Perjanjian dan diplomasi dalam rekaman museum: traktat dan pakta, deklarasi, piagam dan para utusan yang membawa firman — setiap kesepakatan tercatat dan pembuatnya, dengan sumber.'
+  badge: 'Penjelajah'
+  method_note: 'Keanggotaan dibaca dari rekaman: peristiwa keluarga traktat (traktat, deklarasi, gencatan, pakta, damai, armistis, kapitulasi, covenant, aliansi), karya berjenis piagam, dan orang yang perannya menyebut kerja diplomat. Rekaman terkurasi bergabung lewat tag uhud-browser.'
+  sections:
+    treaties:
+      title: 'Traktat dan pakta'
+    declarations:
+      title: 'Deklarasi'
+    charters:
+      title: 'Piagam dan perjanjian'
+    envoys:
+      title: 'Utusan dan diplomat'
+    other:
+      title: 'Peristiwa diplomatik lain'
+    curated:
+      title: 'Rekaman terkurasi'
+maahid:
+  title: 'Penjelajah Lembaga Ilmu'
+  lede: 'Rumah ilmu dan perawatan dalam rekaman museum: madrasah, perpustakaan, observatorium, rumah sakit bimaristan dan organisasi penjaga ilmu — setiap lembaga dengan sumbernya.'
+  badge: 'Penjelajah'
+  method_note: 'Keanggotaan dibaca dari rekaman: bangunan berjenis madrasah, perpustakaan, observatorium dan bimaristan; kelompok berjenis universitas, lembaga, badan standar dan organisasi internasional; serta karya berjenis perpustakaan daring. Rekaman terkurasi bergabung lewat tag maahid-browser.'
+  sections:
+    madrasas:
+      title: 'Madrasah'
+    libraries:
+      title: 'Perpustakaan'
+    observatories:
+      title: 'Observatorium'
+    hospitals:
+      title: 'Rumah sakit (bimaristan)'
+    organisations:
+      title: 'Organisasi dan badan'
+    curated:
+      title: 'Rekaman terkurasi'
+mawt:
+  title: 'Penjelajah Makam dan Peristirahatan'
+  lede: 'Tempat peristirahatan dalam rekaman museum: makam dan mausoleum, tugu dan pusara para nabi, alim, penguasa dan wali — setiap bangunan pemakaman dengan sumbernya.'
+  badge: 'Penjelajah'
+  method_note: 'Keanggotaan dibaca dari rekaman: setiap bangunan berjenis makam atau tugu. Pembacaan tempat suci yang lebih luas tetap pada Penjelajah Tempat Suci; di sini rekamannya adalah peristirahatan itu sendiri. Rekaman terkurasi bergabung lewat tag mawt-browser.'
+  sections:
+    tombs:
+      title: 'Makam dan mausoleum'
+    shrines:
+      title: 'Tugu'
+    curated:
+      title: 'Rekaman terkurasi'
+ulum:
+  title: 'Penjelajah Ilmu dan Ilmuwan'
+  lede: 'Ahli disiplin dalam rekaman museum: astronom, matematikawan, tabib, geografer, ilmuwan alam dan insinyur — setiap ilmuwan menurut bidangnya, dengan sumber.'
+  badge: 'Penjelajah'
+  method_note: 'Keanggotaan dibaca dari rekaman: orang yang peran atau pekerjaannya menyebut suatu disiplin — astronom, matematikawan, tabib, geografer, fisikawan, kimiawan, insinyur dan sejenisnya. Penemuan itu sendiri tetap pada Penjelajah Penemuan Muslim; di sini rekamannya adalah orangnya. Rekaman terkurasi bergabung lewat tag ulum-browser.'
+  sections:
+    astronomy:
+      title: 'Astronomi'
+    mathematics:
+      title: 'Matematika'
+    medicine:
+      title: 'Kedokteran'
+    geography:
+      title: 'Geografi'
+    natural:
+      title: 'Ilmu alam'
+    engineering:
+      title: 'Teknik'
+    curated:
+      title: 'Rekaman terkurasi'
+funun:
+  title: 'Penjelajah Seni dan Seniman'
+  lede: 'Seni dan ahlinya dalam rekaman museum: kaliografer, pelukis dan penghias, musisi dan penyanyi, arsitek, serta kriya kitab — setiap seniman menurut seninya, dengan sumber.'
+  badge: 'Penjelajah'
+  method_note: 'Keanggotaan dibaca dari rekaman: orang yang peran atau pekerjaannya menyebut suatu seni — kaliografer, pelukis, penghias dan miniaturis, musisi dan penyanyi, arsitek, penyalin dan kriya kitab. Objek seni tetap pada penjelajah collection, dan pembuat media pada penjelajahnya. Rekaman terkurasi bergabung lewat tag funun-browser.'
+  sections:
+    calligraphy:
+      title: 'Kaligrafi'
+    visual:
+      title: 'Seni rupa'
+    music:
+      title: 'Musik dan nyanyian'
+    architecture:
+      title: 'Arsitek'
+    bookcrafts:
+      title: 'Kriya kitab'
+    curated:
+      title: 'Rekaman terkurasi'

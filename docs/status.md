@@ -57,6 +57,17 @@ Time Browser update (2026-11-04): PR #3310 merged as `64ab392edc`; the founder a
 Run `npm install && npm install --prefix site && npm test && npm run build` to confirm the state (expect 0 validation errors, 95 tests passing, about 65,000 pages).
 
 
+## The shelves wave (24 Nov 2026)
+
+Ten class-driven browsers built on the shared spec registry `scripts/shelves.ts` and page
+`site/src/components/sig/ShelfPage.astro`: `imara` (buildings minus tombs/shrines), `collection`
+(objects by material), `tasawwuf` (orders + mystic/sufi persons), `kalam` (sects + theologians/
+philosophers), `nisa` (every female person by role family), `uhud` (treaty-family events +
+charters + diplomats), `maahid` (madrasa/library/observatory/bimaristan + learned organisations),
+`mawt` (tomb/shrine buildings), `ulum` (scientists by field), `funun` (artists by art). Each has
+`/{lang}/<slug>/` in seven languages, `/api/v1/<slug>.json`, an Explore menu entry and curated
+membership through `<slug>-browser` tags. Plans 77–86, specs 70–79, lane `shelves`.
+
 ## The local harvest (outside the repo)
 
 - **Workspace:** `/Volumes/exmicroSD/islam-museum-harvest` (1 TB drive), symlinked from `~/islam-museum-harvest`. If the drive is unplugged the link breaks. Registry of sources and licences: `$HARVEST/sources.yaml` (template in `scripts/harvest/sources.yaml`).

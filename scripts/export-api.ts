@@ -52,6 +52,7 @@ import { UBUWWA_TAG, ubuwwaCorpusOf, ubuwwaSignalsOf, ubuwwaTagSection, ubuwwaTo
 import { UKHUWWA_TAG, ukhuwwaCorpusOf, ukhuwwaSignalsOf, ukhuwwaTagSection, ukhuwwaTopicsOf, isUkhuwwaPassage } from "./ukhuwwa.js";
 import { UMUMA_TAG, umumaCorpusOf, umumaSignalsOf, umumaTagSection, umumaTopicsOf, isUmumaPassage } from "./umuma.js";
 import { SPORT_TAG, sportCorpusOf, sportSignalsOf, sportTagSection, sportTopicsOf, isSportPassage } from "./sport.js";
+import { SHELVES } from "./shelves.js";
 import { BUNUWWA_TAG, bunuwwaCorpusOf, bunuwwaSignalsOf, bunuwwaTagSection, bunuwwaTopicsOf, isBunuwwaPassage } from "./bunuwwa.js";
 import { IE_TAG, ieCorpusOf, ieSignalsOf, ieTagSection, ieTagTopics, ieTopicsOf, isIslamicEconomyPassage } from "./islamic-economy.js";
 import { TRADE_TAG, isTradePassage, tradeCorpusOf, tradeSignalsOf, tradeTagSection, tradeTagTopics, tradeTopicsOf } from "./trade.js";
@@ -482,6 +483,48 @@ const FEATURE_EXPORTS: { file: string; feature: string; pick: (n: Node) => boole
       topics: n.class === "passage" ? sportTopicsOf(n) : [],
       signals: n.class === "passage" ? sportSignalsOf(n) : [],
     }) },
+  // The shelves wave (scripts/shelves.ts): ten class-driven browsers. Membership and the section
+  // come from the spec; the tag admits curated records outside the class rule.
+  { file: "imara.json", feature: "imara-browser",
+    pick: SHELVES.imara.pick,
+    fields: ["kind", "wings", "themes", "tags", "regions", "periods", "country", "coordinates", "external_ids"],
+    extra: (n) => ({ section: SHELVES.imara.sectionOf(n) }) },
+  { file: "collection.json", feature: "collection-browser",
+    pick: SHELVES.collection.pick,
+    fields: ["kind", "wings", "themes", "tags", "periods", "material", "culture", "external_ids"],
+    extra: (n) => ({ section: SHELVES.collection.sectionOf(n) }) },
+  { file: "tasawwuf.json", feature: "tasawwuf-browser",
+    pick: SHELVES.tasawwuf.pick,
+    fields: ["kind", "roles", "born", "died", "gender", "occupations", "wings", "themes", "tags", "external_ids"],
+    extra: (n) => ({ section: SHELVES.tasawwuf.sectionOf(n) }) },
+  { file: "kalam.json", feature: "kalam-browser",
+    pick: SHELVES.kalam.pick,
+    fields: ["kind", "roles", "born", "died", "gender", "occupations", "traditions", "wings", "themes", "tags", "external_ids"],
+    extra: (n) => ({ section: SHELVES.kalam.sectionOf(n) }) },
+  { file: "nisa.json", feature: "nisa-browser",
+    pick: SHELVES.nisa.pick,
+    fields: ["kind", "roles", "born", "died", "gender", "occupations", "wings", "themes", "tags", "external_ids"],
+    extra: (n) => ({ section: SHELVES.nisa.sectionOf(n) }) },
+  { file: "uhud.json", feature: "uhud-browser",
+    pick: SHELVES.uhud.pick,
+    fields: ["kind", "sides", "outcome", "part_of", "roles", "born", "died", "occupations", "genre", "authors", "wings", "themes", "tags"],
+    extra: (n) => ({ section: SHELVES.uhud.sectionOf(n) }) },
+  { file: "maahid.json", feature: "maahid-browser",
+    pick: SHELVES.maahid.pick,
+    fields: ["kind", "wings", "themes", "tags", "regions", "periods", "country", "coordinates", "external_ids"],
+    extra: (n) => ({ section: SHELVES.maahid.sectionOf(n) }) },
+  { file: "mawt.json", feature: "mawt-browser",
+    pick: SHELVES.mawt.pick,
+    fields: ["kind", "wings", "themes", "tags", "regions", "periods", "country", "coordinates", "external_ids"],
+    extra: (n) => ({ section: SHELVES.mawt.sectionOf(n) }) },
+  { file: "ulum.json", feature: "ulum-browser",
+    pick: SHELVES.ulum.pick,
+    fields: ["kind", "roles", "born", "died", "gender", "occupations", "wings", "themes", "tags", "external_ids"],
+    extra: (n) => ({ section: SHELVES.ulum.sectionOf(n) }) },
+  { file: "funun.json", feature: "funun-browser",
+    pick: SHELVES.funun.pick,
+    fields: ["kind", "roles", "born", "died", "gender", "occupations", "wings", "themes", "tags", "external_ids"],
+    extra: (n) => ({ section: SHELVES.funun.sectionOf(n) }) },
   { file: "bunuwwa.json", feature: "bunuwwa-browser",
     pick: (n) => n.tags.includes(BUNUWWA_TAG) || isBunuwwaPassage(n),
     fields: ["kind", "work", "ref", "unit", "text", "sura", "aya", "wings", "themes", "tags"],

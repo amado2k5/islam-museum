@@ -1345,6 +1345,86 @@
           }
         }
       }
+    },
+    "/imara.json": {
+      "get": {
+        "operationId": "getImara",
+        "summary": "Sacred Architecture Browser dataset",
+        "description": "The Sacred Architecture Browser dataset (متصفح العمارة الإسلامية): every building on record that is not a tomb or shrine — mosques and minarets, madrasas, palaces, fortresses, libraries, observatories, bimaristans, markets, khans, hammams and gardens — plus the curated records tagged imara-browser, each with computed section, kind, regions, periods, themes, tags and edges.",
+        "responses": { "200": { "description": "Every member record with computed section, kind, themes and edges", "content": { "application/json": {} } } }
+      }
+    },
+    "/collection.json": {
+      "get": {
+        "operationId": "getCollection",
+        "summary": "Objects and Artifacts Browser dataset",
+        "description": "The Objects and Artifacts Browser dataset (متصفح المقتنيات والقطع الأثرية): every object record by material family — manuscripts, ceramics, metalwork, textiles, relics, arms and instruments, coins — plus the curated records tagged collection-browser, each with computed section, kind, themes, tags and edges.",
+        "responses": { "200": { "description": "Every member record with computed section, kind, themes and edges", "content": { "application/json": {} } } }
+      }
+    },
+    "/tasawwuf.json": {
+      "get": {
+        "operationId": "getTasawwuf",
+        "summary": "Tasawwuf Browser dataset",
+        "description": "The Tasawwuf Browser dataset (متصفح التصوف): the Sufi orders (group kind order), the mystics and masters on record (mystic/sufi roles) and the works and concepts tagged tasawwuf-browser, each with computed section, roles, occupations, themes and edges.",
+        "responses": { "200": { "description": "Every member record with computed section, roles and edges", "content": { "application/json": {} } } }
+      }
+    },
+    "/kalam.json": {
+      "get": {
+        "operationId": "getKalam",
+        "summary": "Theology and Philosophy Browser dataset",
+        "description": "The Theology and Philosophy Browser dataset (متصفح الكلام والفلسفة): the schools and sects (group kinds sect and madhhab), the theologians and philosophers on record and the works tagged kalam-browser, each with computed section, roles, occupations, traditions and edges.",
+        "responses": { "200": { "description": "Every member record with computed section, roles and edges", "content": { "application/json": {} } } }
+      }
+    },
+    "/nisa.json": {
+      "get": {
+        "operationId": "getNisa",
+        "summary": "Women of Islam Browser dataset",
+        "description": "The Women of Islam Browser dataset (متصفح نساء الإسلام): every female person record grouped by her roles — Companions, scholars, mystics, writers, artists, rulers, athletes and society — plus the curated records tagged nisa-browser, each with computed section, roles, occupations and edges.",
+        "responses": { "200": { "description": "Every member record with computed section, roles and edges", "content": { "application/json": {} } } }
+      }
+    },
+    "/uhud.json": {
+      "get": {
+        "operationId": "getUhud",
+        "summary": "Covenants and Diplomacy Browser dataset",
+        "description": "The Covenants and Diplomacy Browser dataset (متصفح العهود والدبلوماسية): every treaty-family event (treaty, declaration, truce, pact, peace, armistice, capitulation, covenant, alliance), every charter work and the diplomats on record, plus the curated records tagged uhud-browser, each with computed section, kind, sides and edges.",
+        "responses": { "200": { "description": "Every member record with computed section, kind and edges", "content": { "application/json": {} } } }
+      }
+    },
+    "/maahid.json": {
+      "get": {
+        "operationId": "getMaahid",
+        "summary": "Institutions of Learning Browser dataset",
+        "description": "The Institutions of Learning Browser dataset (متصفح معاهد العلم): every madrasa, library, observatory and bimaristan building, every university, institution, standards-body and international-organisation group and every online-library work, plus the curated records tagged maahid-browser, each with computed section, kind and edges.",
+        "responses": { "200": { "description": "Every member record with computed section, kind and edges", "content": { "application/json": {} } } }
+      }
+    },
+    "/mawt.json": {
+      "get": {
+        "operationId": "getMawt",
+        "summary": "Tombs and Resting Places Browser dataset",
+        "description": "The Tombs and Resting Places Browser dataset (متصفح القبور والمدافن): every building of kind tomb or shrine, plus the curated records tagged mawt-browser, each with computed section, kind, regions, periods and edges.",
+        "responses": { "200": { "description": "Every member record with computed section, kind and edges", "content": { "application/json": {} } } }
+      }
+    },
+    "/ulum.json": {
+      "get": {
+        "operationId": "getUlum",
+        "summary": "Sciences and Scientists Browser dataset",
+        "description": "The Sciences and Scientists Browser dataset (متصفح العلوم والعلماء): every scientist on record by field — astronomy, mathematics, medicine, geography, the natural sciences and engineering — read from roles and occupations, plus the curated records tagged ulum-browser, each with computed section, roles and edges.",
+        "responses": { "200": { "description": "Every member record with computed section, roles and edges", "content": { "application/json": {} } } }
+      }
+    },
+    "/funun.json": {
+      "get": {
+        "operationId": "getFunun",
+        "summary": "Arts and Artists Browser dataset",
+        "description": "The Arts and Artists Browser dataset (متصفح الفنون والفنانين): every artist on record by art — calligraphy, the visual arts, music, architecture and the book crafts — read from roles and occupations, plus the curated records tagged funun-browser, each with computed section, roles and edges.",
+        "responses": { "200": { "description": "Every member record with computed section, roles and edges", "content": { "application/json": {} } } }
+      }
     }
   },
   "components": {

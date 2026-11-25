@@ -5845,6 +5845,46 @@ explore:
   related_card: İlgili
   font: Hat
   pages:
+    imara:
+      title: 'İslam Mimarisi Gezgini'
+      desc: 'İslam''ın yapılı dünyası: camiler, medreseler, saraylar, kaleler, kütüphaneler, rasathaneler, hastaneler, çarşılar, hanlar, hamamlar ve bahçeler.'
+      menu: 'Kayıttaki cami, medrese, saray, kale ve sivil yapıları gezinin'
+    collection:
+      title: 'Eserler ve Buluntular Gezgini'
+      desc: 'Malzeme ailesiyle koleksiyon: yazmalar, seramik ve cam, madeni işler, dokumalar, emanetler, silahlar, aletler ve sikkeler.'
+      menu: 'Müzenin eserlerini gezinin: yazmalar, seramik, maden, dokuma, emanetler'
+    tasawwuf:
+      title: 'Tasavvuf Gezgini'
+      desc: 'Manevi yol: tarikatlar, arifler ve şeyhler, eserleri ve adlandırılmış makamlar ve kavramlar.'
+      menu: 'Tarikatları, arifleri ve eserlerini gezinin'
+    kalam:
+      title: 'Kelam ve Felsefe Gezgini'
+      desc: 'Düşünce ekolleri: fırkalar ve mezhepler, mütekellimun ve felasife, kelam ve felsefe eserleri.'
+      menu: 'Ekolleri, mütekellimleri ve filozofları gezinin'
+    nisa:
+      title: 'İslam Kadınları Gezgini'
+      desc: 'Kayıttaki her kadın: sahabe hanımlar, âlimler ve ravi''ler, arifeler, şairler ve yazarlar, sanatkârlar, hükümdarlar, sporcular ve toplum.'
+      menu: 'Kayıttaki kadınları gezinin: sahabiler, âlimler, şairler, hükümdarlar'
+    uhud:
+      title: 'Ahitler ve Diplomasi Gezgini'
+      desc: 'Kayıtlı diplomasi: antlaşmalar ve misaklar, deklarasyonlar, ahdnameler ve onları taşıyan elçiler ve diplomatlar.'
+      menu: 'Antlaşmaları, ahdnameleri ve diplomatları gezinin'
+    maahid:
+      title: 'İlim Kurumları Gezgini'
+      desc: 'İlim ve şifa evleri: medreseler, kütüphaneler, rasathaneler, bimaristan hastaneleri ve ilmi kuruluşlar.'
+      menu: 'Medrese, kütüphane, rasathane ve hastaneleri gezinin'
+    mawt:
+      title: 'Kabirler ve Metfuneler Gezgini'
+      desc: 'İstirahatgâhlar: kayıttaki peygamber, âlim, hükümdar ve velilerin kabirleri, türbeleri ve makamları.'
+      menu: 'Kabirleri, türbeleri ve makamları gezinin'
+    ulum:
+      title: 'İlimler ve Âlimler Gezgini'
+      desc: 'Disiplinlerin ehli: astronomlar, matematikçiler, hekimler, coğrafyacılar, tabiat bilimcileri ve mühendisler.'
+      menu: 'Kayıttaki bilim insanlarını disipline göre gezinin'
+    funun:
+      title: 'Sanatlar ve Sanatkârlar Gezgini'
+      desc: 'Sanatlar ve ehli: hattatlar, ressamlar, musikişinaslar, mimarlar ve kitap sanatları.'
+      menu: 'Hattatları, sanatkârları, musikişinasları ve mimarları gezinin'
     heroes:
       title: İslam'ın Kahramanları
       desc: 'Kahramanlar Salonu: Altı erdem salonu — fedakarlık, cesaret, merhamet, cömertlik, bilgi ve kararlılık — ve her salonda tam hikayeleri ve kaynaklarıyla dört kahraman bulunur.'
@@ -9108,3 +9148,201 @@ open_access_audit:
   policy_link: Açık Erişim Politikasını okuyun
   eng_body: Bu denetimin daha eksiksiz bir mühendislik kaydı, herkese açık depoda müzenin mühendislik belgeleriyle birlikte tutulur.
   eng_link: Mühendislik belgeleri
+
+shelf:
+  badge: 'Gezgin'
+  status: 'Bu derlemede {s} bölümde {n} kayıt var; metinler bir insan okuyana dek taslaktır.'
+  method_title: 'Bu gezgin nasıl çalışır'
+  api: 'Tüm küme şurada:'
+  sections_title: 'Gezginin bölümleri'
+  filter_label: 'Kayıtları süz'
+  filter_none: 'Sonuç yok.'
+  empty: 'Bu derlemede henüz kayıt yok.'
+imara:
+  title: 'İslam Mimarisi Gezgini'
+  lede: 'Müzenin kayıtlarında İslam''ın yapılı dünyası: camiler ve minareler, medreseler, saraylar, kaleler, kütüphaneler ve rasathaneler, hastaneler, çarşılar, hanlar, hamamlar ve bahçeler — kayıttaki her yapı kaynaklarıyla.'
+  badge: 'Gezgin'
+  method_note: 'Üyelik kaydın kendisinden okunur: her yapı kaydı türünün bölümüne girer; türbeler ve kabirler kendi gezgininde (mawt) durur, kutsallık okuması Kutsal Mekânlar Gezgininde kalır. building sınıfı dışındaki seçme kayıtlar imara-browser etiketiyle katılır.'
+  sections:
+    mosques:
+      title: 'Camiler ve minareler'
+    madrasas:
+      title: 'Medreseler'
+    palaces:
+      title: 'Saraylar'
+    defense:
+      title: 'Kaleler ve savunmalar'
+    learning:
+      title: 'Kütüphaneler ve rasathaneler'
+    care:
+      title: 'Hastaneler (bimaristanlar)'
+    civic:
+      title: 'Çarşılar, hanlar, hamamlar ve bahçeler'
+    curated:
+      title: 'Seçme kayıtlar'
+collection:
+  title: 'Eserler ve Buluntular Gezgini'
+  lede: 'Müzenin koleksiyonu: el yazmaları ve yapraklar, seramik, çini ve cam, madeni işler, dokumalar ve halılar, mukaddes emanetler, silahlar ve aletler, sikkeler — her eser malzeme ailesiyle, kaynaklarıyla.'
+  badge: 'Gezgin'
+  method_note: 'Her eser kaydı malzeme ailesinin bölümüne girer — yaprak ve el yazması yazmalarda, seramik, çini ve cam seramiklerde vb. object sınıfı dışındaki seçme kayıtlar collection-browser etiketiyle katılır.'
+  sections:
+    manuscripts:
+      title: 'El yazmaları ve yapraklar'
+    ceramics:
+      title: 'Seramik, çini ve cam'
+    metalwork:
+      title: 'Madeni işler'
+    textiles:
+      title: 'Dokumalar ve halılar'
+    relics:
+      title: 'Mukaddes emanetler'
+    arms:
+      title: 'Silahlar ve aletler'
+    coins:
+      title: 'Sikkeler'
+    other:
+      title: 'Diğer eserler'
+    curated:
+      title: 'Seçme kayıtlar'
+tasawwuf:
+  title: 'Tasavvuf Gezgini'
+  lede: 'Müzenin kayıtlarında manevi yol: tasavvuf tarikatları, bu yolu yürüyen arifler ve şeyhler, eserleri ve adlandırdıkları makamlar ve kavramlar — her kayıt kaynaklarıyla.'
+  badge: 'Gezgin'
+  method_note: 'Üyelik kayıttan okunur: rolleri yolu adlandıran kişiler (arif, sufi), tarikat türündeki grup kayıtları ve tasawwuf-browser etiketli eserler ve kavramlar. Diğer görüşlerin kayıtları kendi gelenekleriyle etiketli kalır.'
+  sections:
+    orders:
+      title: 'Tarikatlar'
+    masters:
+      title: 'Arifler ve şeyhler'
+    works:
+      title: 'Tasavvuf eserleri'
+    concepts:
+      title: 'Makamlar ve kavramlar'
+    curated:
+      title: 'Seçme kayıtlar'
+kalam:
+  title: 'Kelam ve Felsefe Gezgini'
+  lede: 'Müzenin kayıtlarında düşünce ekolleri: mütekellimun ve felasife, kurdukları fırkalar ve mezhepler, kelam ve felsefe eserleri — her kayıt kaynaklarıyla, ihtilaflı meseleler gelenekleriyle etiketli.'
+  badge: 'Gezgin'
+  method_note: 'Üyelik kayıttan okunur: rolleri veya meslekleri kelam ya da felsefeyi adlandıran kişiler (mütekellim, filozof), fırka veya mezhep türündeki grup kayıtları ve kalam-browser etiketli eserler. Görüşler sahipleriyle anılır, müzenin sesiyle değil.'
+  sections:
+    schools:
+      title: 'Ekoller ve fırkalar'
+    mutakallimun:
+      title: 'Kelamcılar (mütekellimun)'
+    philosophers:
+      title: 'Filozoflar (felasife)'
+    works:
+      title: 'Eserler ve metinler'
+    curated:
+      title: 'Seçme kayıtlar'
+nisa:
+  title: 'İslam Kadınları Gezgini'
+  lede: 'Müzenin kayıtlarındaki kadınlar — sahabe hanımlar ve ravi''ler, âlimler, arifeler, şairler ve yazarlar, sanatkârlar, hükümdarlar ve önderler, sporcular, toplum ve günlük yaşam kadınları — kayıttaki her kadın kaynaklarıyla.'
+  badge: 'Gezgin'
+  method_note: 'Üyelik kayıttan okunur: cinsiyeti kadın olan her kişi kaydı, rollerine göre gruplanır — önce sahabe hanımlar, sonra âlimler, arifeler, yazarlar, sanatkârlar, hükümdarlar, sporcular ve toplum. Kayıtlar etiketleme olmadan katılır.'
+  sections:
+    companions:
+      title: 'Sahabe hanımlar ve ilk Müslüman kadınlar'
+    scholars:
+      title: 'Âlimler ve ravi''ler'
+    piety:
+      title: 'Arifeler ve abideler'
+    writers:
+      title: 'Yazarlar ve şairler'
+    arts:
+      title: 'Sanatkârlar'
+    rulers:
+      title: 'Hükümdarlar ve önderler'
+    sports:
+      title: 'Sporcular'
+    society:
+      title: 'Toplum ve günlük yaşam'
+    curated:
+      title: 'Seçme kayıtlar'
+uhud:
+  title: 'Ahitler ve Diplomasi Gezgini'
+  lede: 'Müzenin kayıtlarında ahitler ve diplomasi: antlaşmalar ve misaklar, deklarasyonlar, ahdnameler ve sözü taşıyan elçiler — kayıtlı her anlaşma ve yapanları, kaynaklarıyla.'
+  badge: 'Gezgin'
+  method_note: 'Üyelik kayıttan okunur: antlaşma ailesi olaylar (antlaşma, deklarasyon, ateşkes, misak, barış, mütareke, teslimiyet, ahit, ittifak), ahdname türündeki eserler ve rolleri diplomatlığı adlandıran kişiler. Seçme kayıtlar uhud-browser etiketiyle katılır.'
+  sections:
+    treaties:
+      title: 'Antlaşmalar ve misaklar'
+    declarations:
+      title: 'Deklarasyonlar'
+    charters:
+      title: 'Ahdnameler ve ahitler'
+    envoys:
+      title: 'Elçiler ve diplomatlar'
+    other:
+      title: 'Diğer diplomatik olaylar'
+    curated:
+      title: 'Seçme kayıtlar'
+maahid:
+  title: 'İlim Kurumları Gezgini'
+  lede: 'Müzenin kayıtlarında ilim ve şifa evleri: medreseler, kütüphaneler, rasathaneler, bimaristan hastaneleri ve ilmi koruyan kuruluşlar — kayıttaki her kurum kaynaklarıyla.'
+  badge: 'Gezgin'
+  method_note: 'Üyelik kayıttan okunur: medrese, kütüphane, rasathane ve bimaristan türündeki yapılar; üniversite, kurum, standart kuruluşu ve uluslararası örgüt türündeki gruplar; çevrimiçi kütüphane türündeki eserler. Seçme kayıtlar maahid-browser etiketiyle katılır.'
+  sections:
+    madrasas:
+      title: 'Medreseler'
+    libraries:
+      title: 'Kütüphaneler'
+    observatories:
+      title: 'Rasathaneler'
+    hospitals:
+      title: 'Hastaneler (bimaristanlar)'
+    organisations:
+      title: 'Kuruluşlar ve örgütler'
+    curated:
+      title: 'Seçme kayıtlar'
+mawt:
+  title: 'Kabirler ve Metfuneler Gezgini'
+  lede: 'Müzenin kayıtlarındaki ebedi istirahatgâhlar: kabirler ve türbeler, peygamberlerin, âlimlerin, hükümdarların ve velilerin makamları ve mezarları — kayıttaki her cenaze yapısı kaynaklarıyla.'
+  badge: 'Gezgin'
+  method_note: 'Üyelik kayıttan okunur: türbe veya kabir türündeki her yapı. Kutsal mekânın geniş okuması Kutsal Mekânlar Gezgininde kalır; burada kayıt istirahatgâhın kendisidir. Seçme kayıtlar mawt-browser etiketiyle katılır.'
+  sections:
+    tombs:
+      title: 'Kabirler ve türbeler'
+    shrines:
+      title: 'Makamlar'
+    curated:
+      title: 'Seçme kayıtlar'
+ulum:
+  title: 'İlimler ve Âlimler Gezgini'
+  lede: 'Müzenin kayıtlarında disiplinlerin ehli: astronomlar, matematikçiler, hekimler, coğrafyacılar, tabiat bilimcileri ve mühendisler — kayıttaki her bilim insanı alanıyla, kaynaklarıyla.'
+  badge: 'Gezgin'
+  method_note: 'Üyelik kayıttan okunur: rolleri veya meslekleri bir disiplini adlandıran kişiler — astronom, matematikçi, hekim, coğrafyacı, fizikçi, kimyager, mühendis ve benzerleri. Buluşların kendisi Müslüman Buluşlar Gezgininde kalır; burada kayıt kişidir. Seçme kayıtlar ulum-browser etiketiyle katılır.'
+  sections:
+    astronomy:
+      title: 'Astronomi'
+    mathematics:
+      title: 'Matematik'
+    medicine:
+      title: 'Tıp'
+    geography:
+      title: 'Coğrafya'
+    natural:
+      title: 'Tabiat ilimleri'
+    engineering:
+      title: 'Mühendislik'
+    curated:
+      title: 'Seçme kayıtlar'
+funun:
+  title: 'Sanatlar ve Sanatkârlar Gezgini'
+  lede: 'Müzenin kayıtlarında sanatlar ve ehli: hattatlar, ressamlar ve tezhipçiler, musikişinaslar ve şarkıcılar, mimarlar ve kitap sanatları — her sanatkâr sanatıyla, kaynaklarıyla.'
+  badge: 'Gezgin'
+  method_note: 'Üyelik kayıttan okunur: rolleri veya meslekleri bir sanatı adlandıran kişiler — hattatlar, ressamlar, tezhipçiler ve minyatüristler, musikişinaslar ve şarkıcılar, mimarlar, müstensihler ve kitap sanatları. Sanat eserleri collection gezgininde, medya yapımcıları kendi gezgininde kalır. Seçme kayıtlar funun-browser etiketiyle katılır.'
+  sections:
+    calligraphy:
+      title: 'Hüsn-i hat'
+    visual:
+      title: 'Görsel sanatlar'
+    music:
+      title: 'Musiki ve şarkı'
+    architecture:
+      title: 'Mimarlar'
+    bookcrafts:
+      title: 'Kitap sanatları'
+    curated:
+      title: 'Seçme kayıtlar'
