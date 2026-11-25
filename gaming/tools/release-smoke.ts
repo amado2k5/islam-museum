@@ -3,7 +3,7 @@
 // content security policy violation, a request to another origin, a game that does not start.
 // It is the last check before a release is published, and it needs no Cloudflare account.
 // Usage: npx tsx --tsconfig tsconfig.json tools/release-smoke.ts [release dir=dist/release] [out dir]
-import { cpSync, mkdirSync, mkdtempSync, readFileSync, rmSync, writeFileSync } from "node:fs";
+import { cpSync, existsSync, mkdirSync, mkdtempSync, readFileSync, rmSync, writeFileSync } from "node:fs";
 import { createServer } from "node:http";
 import { tmpdir } from "node:os";
 import { join, resolve } from "node:path";
@@ -15,13 +15,17 @@ import { folderBucket } from "../../workers/games/test/fake-bucket.mjs";
 
 const releaseDir = resolve(process.argv[2] ?? "dist/release");
 const outDir = process.argv[3] ? resolve(process.argv[3]) : null;
-const manifest = JSON.parse(readFileSync(join(releaseDir, "release.json"), "utf8")) as { commit: string; commitDate: string; games: Array<{ id: string; status: string; page: string | null }> };
+const manifest = JSON.parse(readFileSync(join(releaseDir, "release.json"), "utf8")) as { commit: string; commitDate: string; musicBase: string; games: Array<{ id: string; status: string; page: string | null }> };
 const releaseId = `${manifest.commitDate.slice(0, 10).replaceAll("-", "")}-${manifest.commit.slice(0, 11)}`;
 
 // A bucket on disk: games/channel.json and games/r/<release>/…
 const bucketDir = mkdtempSync(join(tmpdir(), "im-games-bucket-"));
 cpSync(releaseDir, join(bucketDir, "games", "r", releaseId), { recursive: true });
 writeFileSync(join(bucketDir, "games", "channel.json"), JSON.stringify({ format: "im.play.channel", version: 1, current: releaseId, previous: null, commit: manifest.commit, updatedAt: manifest.commitDate }));
+// The music lives beside the releases, as in the real bucket, when this machine has the tracks.
+const localMusic = resolve(releaseDir, "../../media/music");
+const withMusic = manifest.musicBase !== "off" && existsSync(localMusic);
+if (withMusic) cpSync(localMusic, join(bucketDir, "games", "media", "music"), { recursive: true });
 const bucket = folderBucket(bucketDir);
 const env = { GAMES_BUCKET: bucket, ROBOTS: "disallow", MUSIC_ORIGIN: "" };
 
@@ -69,9 +73,11 @@ for (const game of manifest.games.filter((g) => g.page)) {
       if (m.type() === "error") errors.push(`console: ${m.text()}`);
     });
     page.on("requestfailed", (r) => errors.push(`request failed: ${r.url()} ${r.failure()?.errorText ?? ""}`));
-    page.on("response", async (r) => {
-      const body = await r.body().catch(() => Buffer.alloc(0));
-      requests.push({ url: r.url(), status: r.status(), bytes: body.length });
+    page.on("response", (r) => {
+      // Recorded at once: the body of a track arrives in spans and may still be arriving when the checks run.
+      const entry = { url: r.url(), status: r.status(), bytes: 0 };
+      requests.push(entry);
+      r.body().then((body) => (entry.bytes = body.length), () => {});
     });
     const started = Date.now();
     await page.goto(`${base}/${game.id}/?lang=${lang}&fresh=1`);
@@ -110,7 +116,22 @@ for (const game of manifest.games.filter((g) => g.page)) {
     }
     const ready = Date.now() - started;
     await page.waitForTimeout(800);
-    if (await page.locator("details.music").count()) errors.push("a music control is shown in a release built without music");
+    const control = await page.locator("details.music").count();
+    if (manifest.musicBase === "off" && control) errors.push("a music control is shown in a release built without music");
+    if (withMusic) {
+      // Nothing sounds before a click; after one, a track is asked for in spans and plays (the browser is muted).
+      if (!control) errors.push("no music control in a release built with music");
+      await page.mouse.click(700, 500);
+      await page.waitForTimeout(1500);
+      const hookName = game.id === "golden-age" ? "__GA__" : game.id === "granada" ? "__GR__" : null;
+      const tracks = requests.filter((r) => r.url.endsWith(".m4a"));
+      if (tracks.length === 0) errors.push("no track was asked for after a click");
+      else if (!tracks.some((r) => r.status === 206 || r.status === 200)) errors.push(`the track answered ${tracks.map((r) => r.status).join(", ")}`);
+      if (hookName) {
+        const playing = (await page.evaluate(`window.${hookName}.music.state().playing`)) as boolean;
+        if (!playing) errors.push("the music did not start after a click");
+      }
+    }
     const dir = await page.evaluate("document.documentElement.dir");
     if ((lang === "ar") !== (dir === "rtl")) errors.push(`direction is ${dir} for ${lang}`);
     const csp = (await page.evaluate("window.__csp")) as string[];
@@ -123,7 +144,7 @@ for (const game of manifest.games.filter((g) => g.page)) {
       mkdirSync(outDir, { recursive: true });
       await page.screenshot({ path: join(outDir, `release-${game.id}-${lang}.png`) });
     }
-    (report.pages as unknown[]).push({ game: game.id, lang, readyMs: ready, requests: requests.length, bytes: requests.reduce((n, r) => n + r.bytes, 0), startedIn3d: started3d, problems: errors });
+    (report.pages as unknown[]).push({ game: game.id, lang, music: withMusic ? requests.filter((r) => r.url.endsWith(".m4a")).map((r) => r.status) : "none", readyMs: ready, requests: requests.length, bytes: requests.reduce((n, r) => n + r.bytes, 0), startedIn3d: started3d, problems: errors });
     for (const e of errors) problems.push(`${game.id} (${lang}): ${e}`);
     await context.close();
   }

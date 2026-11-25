@@ -128,6 +128,48 @@ test("a damaged pointer stops a release instead of being written over", () => {
   assert.equal(readFileSync(join(bucketDir, "games/channel.json"), "utf8"), "{ not a pointer");
 });
 
+test("the music is uploaded only if it is exactly what the manifest records, once, and then served in spans", async () => {
+  const dir = join(work, "music");
+  mkdirSync(dir);
+  const tracks = [["01-fourteen-centuries.m4a", "a".repeat(3000)], ["02-the-ancient-library.m4a", "b".repeat(2000)]];
+  for (const [file, body] of tracks) writeFileSync(join(dir, file), body);
+  const manifestFile = join(work, "music.json");
+  const manifest = { tracks: tracks.map(([file, body]) => ({ file, bytes: body.length, sha256: createHash("sha256").update(body).digest("hex") })) };
+  writeFileSync(manifestFile, JSON.stringify(manifest));
+  const media = (...extra) => publish("media", "--dir", dir, "--manifest", manifestFile, ...extra);
+
+  const dry = media("--dry-run");
+  assert.equal(dry.status, 0, dry.stderr);
+  assert.match(dry.stdout, /would upload/);
+  assert.ok(!existsSync(join(bucketDir, "games/media")));
+
+  const first = media();
+  assert.equal(first.status, 0, first.stderr + first.stdout);
+  assert.match(first.stdout, /2 tracks checked against the manifest; 2 uploaded/);
+  assert.equal(readFileSync(join(bucketDir, "games/media/music/02-the-ancient-library.m4a"), "utf8"), "b".repeat(2000));
+  const again = media();
+  assert.match(again.stdout, /already in the bucket, identical/);
+  assert.match(again.stdout, /0 uploaded/);
+
+  // The Worker serves it, whole and in spans, from the same folder.
+  const span = await worker.fetch(new Request("https://games.islam.museum/media/music/01-fourteen-centuries.m4a", { headers: { range: "bytes=0-9" } }), { GAMES_BUCKET: folderBucket(bucketDir) });
+  assert.equal(span.status, 206);
+  assert.equal(span.headers.get("content-range"), "bytes 0-9/3000");
+
+  // A file that is not what the manifest records is refused before anything is sent.
+  writeFileSync(join(dir, "02-the-ancient-library.m4a"), "something else");
+  const wrong = media();
+  assert.notEqual(wrong.status, 0);
+  assert.match(wrong.stderr, /is not the file the manifest records/);
+  assert.equal(readFileSync(join(bucketDir, "games/media/music/02-the-ancient-library.m4a"), "utf8"), "b".repeat(2000));
+  // And a track already in the bucket with other contents is never written over.
+  writeFileSync(join(dir, "02-the-ancient-library.m4a"), "b".repeat(2000));
+  writeFileSync(join(bucketDir, "games/media/music/01-fourteen-centuries.m4a"), "tampered in the bucket");
+  const clash = media();
+  assert.notEqual(clash.status, 0);
+  assert.match(clash.stderr, /not overwritten/);
+});
+
 test("no call ever left games/, and none removed anything", () => {
   const calls = readFileSync(env.FAKE_S3_LOG, "utf8").trim().split("\n").map((l) => JSON.parse(l));
   assert.ok(calls.length > 10);

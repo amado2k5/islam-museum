@@ -10,8 +10,9 @@
 // them (workers/games/src/route.js), so nothing uploaded can loosen them.
 //
 // Usage: npx tsx --tsconfig tsconfig.json tools/build.ts [--out dist/release] [--music-base <url>|off] [--home <url>]
-//   --music-base  where the six tracks are served from. The audio is never in git, so a build made by a workflow
-//                 has none unless it is told; "off" (the default) builds games that show no music control.
+//   --music-base  where the six tracks are served from: "off" (the default: games that show no music control), a
+//                 path relative to a game's page such as ../media/music/ (the games host serves games/media/ from
+//                 the bucket there), or an https address. The audio is never in git and is uploaded on its own.
 //   --home        where the root of the games host sends a visitor (default https://islam.museum/).
 // Nothing here uploads anything. tools/check-release.mjs verifies a built release, tools/release-smoke.ts opens it
 // in a real browser behind the real Worker code, and the deployment workflow publishes it.
@@ -30,7 +31,7 @@ const arg = (name: string, fallback: string): string => {
 const out = resolve(root, arg("out", "dist/release"));
 const musicBase = arg("music-base", "off");
 const home = arg("home", "https://islam.museum/");
-if (musicBase !== "off" && !/^https:\/\/[a-z0-9.-]+\/[\w./-]*\/$/.test(musicBase)) throw new Error(`--music-base must be "off" or an https address ending in a slash, got ${musicBase}`);
+if (musicBase !== "off" && !/^https:\/\/[a-z0-9.-]+\/[\w./-]*\/$/.test(musicBase) && !/^(\.\.\/)+[a-z0-9/-]+\/$/.test(musicBase)) throw new Error(`--music-base must be "off", a relative path such as ../media/music/, or an https address ending in a slash, got ${musicBase}`);
 if (!/^https:\/\/[a-z0-9.-]+\/[\w./-]*$/.test(home)) throw new Error(`--home must be an https address, got ${home}`);
 if (!out.startsWith(resolve(root, "dist") + "/")) throw new Error(`the output folder must be inside gaming/dist, got ${out}`);
 

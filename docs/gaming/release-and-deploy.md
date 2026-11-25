@@ -56,7 +56,7 @@ release.json               the manifest: commit, games, every file with its size
 index.html, 404.html       no text of their own: they hand the visitor to the museum
 ```
 
-A release holds code only. The build stops if it produced a media file: by the museum's hosting rule media belongs on R2, and audio is never in git, so a release built by a workflow has no music and its games show no music control. Hosting the six tracks and building with `--music-base` is a later step ([G-0007](adr/G-0007-music-and-audio.md)).
+A release holds code only. The build stops if it produced a media file: by the museum's hosting rule media belongs on R2, and audio is never in git. The music is uploaded on its own and found by the games beside themselves on the games host (see "The music" below).
 
 On 25 November 2026 the release was 46 files and 3.28 MB: three game pages, Granada first.
 
@@ -117,6 +117,17 @@ No new bucket, no new token, no new secret and no new GitHub Environment variabl
 
 **Cost.** Not measured: one UAT run has been made and nobody but the author has visited. What a release adds: about 3 MB of storage per release kept; one Worker request and one or two R2 reads for each file a visitor's browser asks for the first time (scripts and styles are then cached by the browser for a year, by their hashed names). Whether that stays inside the account's plan depends on the plan and on traffic, neither of which is recorded in this repository. The first UAT run will show the request counts in the Cloudflare dashboard.
 
+## The music
+
+The museum's suite is the music of every game, and the audio is never in git. So it travels on its own:
+
+1. On the machine that has the masters: `npm --prefix gaming run music:import -- <folder>` encodes the six tracks into the git-ignored `gaming/media/music/` and records each one's size and SHA-256 in `gaming/packages/audio/music.json`.
+2. The six `.m4a` files are attached to a **draft** release of this repository named `games-media` (drafts are not public): `gh release create games-media --draft … gaming/media/music/*.m4a`. It is a way of carrying the files to a workflow, not a release of anything. Done on 25 November 2026.
+3. **Upload the games' music** (`games-media.yml`, manual, owner-only), `check` then `upload`, for UAT and then for production: it fetches the six files, refuses any that is not byte for byte what `music.json` records, puts them in the environment's bucket under `games/media/music/`, and reads each back. A track already there is left alone if identical and refused if not. Nothing is deleted.
+4. A release is built with `--music-base ../media/music/`, so each game asks for its tracks beside itself on the games host. The games Worker serves `/media/…` from `games/media/…`, whole or in spans of bytes (players ask for audio in spans, and some refuse a host that cannot answer them).
+
+If an environment has no tracks yet, a game shows its music control and reports that the music cannot be played; nothing else is affected.
+
 ## Trying the games from another device on the same network
 
 The development server can listen on the machine's network address: start the launch configuration `gaming-dev-lan` (`.claude/launch.json`: the same server with `--host 0.0.0.0`), then open `http://<this machine's address>:4330/games/granada/index.html?lang=ar` on a phone or another computer on the same network. It is the development build, with the music if the tracks were imported, and it is reachable by anyone on that network while it runs. One limit comes from the browsers, not from the games: WebGPU is offered only on `https` or on `localhost`, so over a plain network address The Golden Age shows its plan view instead of 3D. Granada and Atlas do not need it. The UAT address is `https` and has no such limit.
@@ -126,7 +137,7 @@ The development server can listen on the machine's network address: start the la
 - No production deployment. It is the founder's to start, with the `build_run_id` of the UAT run.
 - No rollback on Cloudflare yet: it needs a second release. It is rehearsed against a stand-in for the AWS CLI (`workers/games/test/fake-aws.mjs`).
 - No caching at Cloudflare's edge in front of the Worker; every first request for a file runs the Worker. Enough for prototypes.
-- No music in a release, and no captures or other media.
+- No captures or other media besides the music.
 - The Play page and the menu entry on the website, which are what will send a visitor to the games' address.
 - The whole of each game was not played on UAT: Granada was opened and played for three days there; The Golden Age and Atlas were only asked for and answered 200.
 - A browser test inside the workflow. The runners have no GPU; the smoke test is run by hand.

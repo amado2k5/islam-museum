@@ -2,7 +2,7 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
 import { readFileSync } from "node:fs";
-import { CHANNEL_KEY, IMMUTABLE, PREFIX, RELEASE_ID, SHORT, cacheControl, contentType, parseChannel, releaseKey, resolve, securityHeaders } from "../src/route.js";
+import { CHANNEL_KEY, IMMUTABLE, PREFIX, RELEASE_ID, SHORT, cacheControl, contentType, mediaKey, parseChannel, parseRange, releaseKey, resolve, securityHeaders } from "../src/route.js";
 
 test("a folder answers with its index page, and a folder asked for without its slash is redirected", () => {
   assert.deepEqual(resolve("/"), { type: "file", path: "index.html" });
@@ -87,4 +87,21 @@ test("production and UAT name different Workers, hosts and buckets, and neither 
   }
   // Both environments keep the same bindings and variables, so the same code runs in each.
   for (const name of ["GAMES_BUCKET", "ROBOTS", "MUSIC_ORIGIN"]) assert.equal(text.split(name).length - 1 >= 2, true, name);
+});
+
+test("media has its own place under games/, outside every release", () => {
+  assert.deepEqual(resolve("/media/music/02-the-ancient-library.m4a"), { type: "media", path: "media/music/02-the-ancient-library.m4a" });
+  assert.equal(mediaKey("media/music/02-the-ancient-library.m4a"), "games/media/music/02-the-ancient-library.m4a");
+  assert.deepEqual(resolve("/media/../ar/index.html"), { type: "bad" });
+  assert.deepEqual(resolve("/granada/media/x.m4a"), { type: "file", path: "granada/media/x.m4a" });
+});
+
+test("a span of bytes is read strictly", () => {
+  assert.deepEqual(parseRange("bytes=0-99", 1000), { offset: 0, length: 100 });
+  assert.deepEqual(parseRange("bytes=900-", 1000), { offset: 900, length: 100 });
+  assert.deepEqual(parseRange("bytes=-100", 1000), { offset: 900, length: 100 });
+  assert.deepEqual(parseRange("bytes=-5000", 1000), { offset: 0, length: 1000 });
+  assert.deepEqual(parseRange("bytes=0-99999", 1000), { offset: 0, length: 1000 });
+  for (const bad of ["bytes=1000-", "bytes=500-100", "bytes=-0"]) assert.equal(parseRange(bad, 1000), "invalid", bad);
+  for (const ignored of [null, undefined, "", "bytes=-", "bytes=a-b", "items=0-5", "bytes=0-5,10-15"]) assert.equal(parseRange(ignored, 1000), null, String(ignored));
 });
