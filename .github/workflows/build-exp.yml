@@ -1,0 +1,562 @@
+name: Build islam.museum by language (experimental)
+
+# EXPERIMENTAL twin of build-lang.yml (the trial build), made to test reliability improvements without touching the
+# production build process. It is manual-only, writes artifacts with the same names inside its own runs (artifacts are
+# scoped to their run, so nothing collides), and never touches Cloudflare. Differences from build-lang.yml:
+#
+# 1. The language-independent prebuild (validate, graph, time-browser, derive, api, edu-daily) runs ONCE in its own
+#    `prebuild` job instead of inside every language job. Its outputs (.cache/, the generated files of site/public/)
+#    are passed to the other jobs as artifacts. The language jobs start at astro, which shortens each job by the
+#    prebuild time and shrinks the window in which a transient runner loss can strike.
+# 2. The astro build of each language retries inside its step (up to 3 attempts): a visible crash (for example a
+#    V8 heap abort) starts over in the same minute instead of failing the job.
+# 3. NODE_OPTIONS --max-old-space-size=6144 is set on the build steps: memory pressure becomes a loud, retryable
+#    error instead of a silent machine-level death, and garbage collection runs earlier.
+# 4. Every job has timeout-minutes, so a lost runner is declared failed in minutes, not after GitHub's own timeout.
+# 5. Runner resources are reported every 60 seconds instead of every 5 minutes, so the next failure can be
+#    diagnosed from the log.
+# 6. build-exp-rerun.yml reruns the failed jobs of a failed run automatically, up to two retries.
+#
+# Everything else is identical: the same owner/admin guard, the same artifact names, the same sitemap and whole-site
+# check, the same deploy compatibility. Nothing here changes build-lang.yml, deploy-env.yml or any other workflow.
+on:
+  workflow_dispatch:
+    inputs:
+      languages:
+        description: "Parts to build, separated by spaces: ar en ur fr es tr id shared. Empty: all of them."
+        required: false
+        type: string
+        default: ""
+
+permissions:
+  contents: read
+
+# One run at a time per branch; a later run waits, none is cancelled.
+concurrency:
+  group: build-exp-${{ github.ref }}
+  cancel-in-progress: false
+  queue: max
+
+jobs:
+  # The same unit tests as the one build. A language deploy accepts a run only when this job passed.
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - name: Only the repository owner or an admin may start this workflow
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+          ACTOR: ${{ github.actor }}
+          OWNER: ${{ github.repository_owner }}
+        run: |
+          [ "$ACTOR" = "$OWNER" ] && { echo "started by the owner ($ACTOR)"; exit 0; }
+          perm=$(gh api "repos/$GH_REPO/collaborators/$ACTOR/permission" --jq .permission 2>/dev/null || echo unknown)
+          [ "$perm" = "admin" ] && { echo "started by an admin ($ACTOR)"; exit 0; }
+          echo "::error::$ACTOR ($perm) may not start this workflow: only the repository owner or an admin may."
+          exit 1
+      - name: Checkout
+        uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: |
+            package-lock.json
+            site/package-lock.json
+      - name: Install
+        run: npm ci && npm ci --prefix site && npm ci --prefix workers/r2-sync
+      - name: Test
+        run: npm test
+        env:
+          NODE_OPTIONS: --max-old-space-size=12288
+      - name: Worker unit tests (site routing and rules; R2 publish diff, resume and retry)
+        run: node --test 'workers/site/test/*.test.mjs' workers/r2-sync/test/publish.test.mjs
+        env:
+          NODE_OPTIONS: --max-old-space-size=12288
+
+  # NEW in the experiment: the language-independent prebuild (validate, graph, time-browser, derive, api, edu-daily)
+  # runs once here instead of inside every language job. Its outputs go to the other jobs as two artifacts:
+  # `prebuild-cache` (.cache/, needed by everything astro reads at build time) and `prebuild-public` (the generated
+  # files of site/public/, needed only by the shared build, whose artifact is the one that ships them).
+  prebuild:
+    name: prebuild (validate, graph, derived data, API)
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - name: Only the repository owner or an admin may start this workflow
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+          ACTOR: ${{ github.actor }}
+          OWNER: ${{ github.repository_owner }}
+        run: |
+          [ "$ACTOR" = "$OWNER" ] && { echo "started by the owner ($ACTOR)"; exit 0; }
+          perm=$(gh api "repos/$GH_REPO/collaborators/$ACTOR/permission" --jq .permission 2>/dev/null || echo unknown)
+          [ "$perm" = "admin" ] && { echo "started by an admin ($ACTOR)"; exit 0; }
+          echo "::error::$ACTOR ($perm) may not start this workflow: only the repository owner or an admin may."
+          exit 1
+      - name: Checkout
+        uses: actions/checkout@v7
+        with:
+          # Full history: the entity citation date comes from each file's last commit.
+          fetch-depth: 0
+      - name: Free runner disk the build does not use (Android SDK, .NET, Haskell, CodeQL, Swift, Docker images)
+        run: |
+          echo "before: $(df -BM --output=avail / | tail -1 | tr -dc '0-9') MB free"
+          sudo rm -rf /usr/local/lib/android /usr/share/dotnet /opt/ghc /usr/local/.ghcup \
+            /opt/hostedtoolcache/CodeQL /usr/share/swift || true
+          sudo docker image prune --all --force > /dev/null 2>&1 || true
+          echo "after: $(df -BM --output=avail / | tail -1 | tr -dc '0-9') MB free"
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: |
+            package-lock.json
+            site/package-lock.json
+      - name: Install
+        run: npm ci && npm ci --prefix site
+      - name: Validate, compile the graph, derive, export the API
+        run: |
+          report() {
+            disk=$(df -BM --output=avail "$GITHUB_WORKSPACE" | tail -1 | tr -dc '0-9')
+            mem=$(free -m | awk '/^Mem:/ {print $7}')
+            swap=$(free -m | awk '/^Swap:/ {print $3}')
+            node=$(ps -eo rss,comm --sort=-rss | awk '$2 ~ /node/ {printf "%d", $1/1024; exit}')
+            line="runner resources $(date -u +%H:%M:%S) UTC: disk free ${disk} MB, memory available ${mem} MB, swap used ${swap} MB, largest node process ${node:-0} MB"
+            if [ "${disk:-0}" -lt 4096 ] || [ "${mem:-0}" -lt 1024 ]; then echo "::warning title=Runner nearly out of disk or memory::${line}"; else echo "$line"; fi
+          }
+          echo "cores: $(nproc)"; df -h "$GITHUB_WORKSPACE"; free -m
+          report
+          ( while sleep 60; do report; done ) &
+          reporter=$!
+          trap 'pkill -P "$reporter" 2>/dev/null || true; kill "$reporter" 2>/dev/null || true' EXIT
+          npm run prebuild
+          report
+        env:
+          NODE_OPTIONS: --max-old-space-size=6144
+      - name: Pack the prebuild outputs
+        run: |
+          set -euo pipefail
+          test -f .cache/graph.json
+          # The cache archive carries everything astro reads at BUILD time: .cache/ plus the daily schedule
+          # (site/src/pages/[lang]/learn/daily and shabab/daily readFileSync it while rendering).
+          mkdir -p pack-cache/site/public
+          cp -r site/public/edu pack-cache/site/public/
+          tar --use-compress-program='zstd -T0 -3' -cf prebuild-cache.tar.zst .cache -C pack-cache site
+          mkdir -p pack-public/site/public
+          cp -r site/public/api pack-public/site/public/ 2>/dev/null || true
+          cp -r site/public/edu pack-public/site/public/ 2>/dev/null || true
+          cp site/public/search-synonyms*.json pack-public/site/public/ 2>/dev/null || true
+          tar --use-compress-program='zstd -T0 -3' -cf prebuild-public.tar.zst -C pack-public site
+          ls -l prebuild-cache.tar.zst prebuild-public.tar.zst
+          echo "## Prebuild of experimental run ${{ github.run_id }}: $(du -sm .cache | cut -f1) MB cache, $(du -sm site/public/api | cut -f1) MB api" >> "$GITHUB_STEP_SUMMARY"
+      - name: Upload the compiled cache (.cache)
+        uses: actions/upload-artifact@v7
+        with:
+          name: prebuild-cache
+          path: prebuild-cache.tar.zst
+          if-no-files-found: error
+          compression-level: 0
+          retention-days: 1
+      - name: Upload the generated public files (api, edu, search synonyms)
+        uses: actions/upload-artifact@v7
+        with:
+          name: prebuild-public
+          path: prebuild-public.tar.zst
+          if-no-files-found: error
+          compression-level: 0
+          retention-days: 1
+
+  build:
+    # The job name is what the deploy looks for: "build (es)".
+    name: build (${{ matrix.lang }})
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    needs: prebuild
+    strategy:
+      # One language failing does not stop the others: each keeps its own artifact.
+      fail-fast: false
+      matrix:
+        lang: [ar, en, ur, fr, es, tr, id]
+    env:
+      BUILD_LANG: ${{ matrix.lang }}
+    steps:
+      - name: Only the repository owner or an admin may start this workflow
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+          ACTOR: ${{ github.actor }}
+          OWNER: ${{ github.repository_owner }}
+        run: |
+          [ "$ACTOR" = "$OWNER" ] && { echo "started by the owner ($ACTOR)"; exit 0; }
+          perm=$(gh api "repos/$GH_REPO/collaborators/$ACTOR/permission" --jq .permission 2>/dev/null || echo unknown)
+          [ "$perm" = "admin" ] && { echo "started by an admin ($ACTOR)"; exit 0; }
+          echo "::error::$ACTOR ($perm) may not start this workflow: only the repository owner or an admin may."
+          exit 1
+      - name: Checkout
+        uses: actions/checkout@v7
+        with:
+          # Full history: the entity citation date comes from each file's last commit.
+          fetch-depth: 0
+      - name: Is this language asked for, and does this branch have it?
+        id: want
+        env:
+          ASKED: ${{ inputs.languages }}
+        run: |
+          set -euo pipefail
+          go=true
+          if [ -n "${ASKED// /}" ] && ! grep -qw -- "$BUILD_LANG" <<<"$ASKED"; then
+            go=false; echo "::notice::$BUILD_LANG was not asked for (languages: $ASKED); nothing is built."
+          elif ! grep -E '^export const ALL_LANGS' site/src/lib/i18n.ts | grep -q "\"$BUILD_LANG\""; then
+            go=false; echo "::notice::This branch has no $BUILD_LANG language (site/src/lib/i18n.ts); nothing is built."
+          fi
+          echo "go=$go" >> "$GITHUB_OUTPUT"
+      # The runner image ships tools this build never uses; removing them gives the build their space (as in build.yml).
+      - name: Free runner disk the build does not use (Android SDK, .NET, Haskell, CodeQL, Swift, Docker images)
+        if: steps.want.outputs.go == 'true'
+        run: |
+          echo "before: $(df -BM --output=avail / | tail -1 | tr -dc '0-9') MB free"
+          sudo rm -rf /usr/local/lib/android /usr/share/dotnet /opt/ghc /usr/local/.ghcup \
+            /opt/hostedtoolcache/CodeQL /usr/share/swift || true
+          sudo docker image prune --all --force > /dev/null 2>&1 || true
+          echo "after: $(df -BM --output=avail / | tail -1 | tr -dc '0-9') MB free"
+      - uses: actions/setup-node@v7
+        if: steps.want.outputs.go == 'true'
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: |
+            package-lock.json
+            site/package-lock.json
+      - name: Install
+        if: steps.want.outputs.go == 'true'
+        run: npm ci && npm ci --prefix site
+      - name: Download the compiled cache of the prebuild job
+        if: steps.want.outputs.go == 'true'
+        uses: actions/download-artifact@v8
+        with:
+          name: prebuild-cache
+      - name: Restore the compiled cache
+        if: steps.want.outputs.go == 'true'
+        run: |
+          set -euo pipefail
+          tar --use-compress-program=unzstd -xf prebuild-cache.tar.zst
+          rm prebuild-cache.tar.zst
+          test -f .cache/graph.json && test -f site/public/edu/daily-schedule.json && echo ".cache restored: $(du -sm .cache | cut -f1) MB"
+      # The prebuild job already validated, compiled the graph, derived, exported the API and wrote the daily
+      # schedule; this job only renders: astro (this language's pages) → pagefind (this language) → books.
+      # The astro build retries inside this step (up to 3 attempts): a visible crash starts over in the same minute
+      # instead of failing the job. Resources are reported every 60 seconds so a failure can be diagnosed.
+      - name: Build one language (astro, pagefind, books)
+        if: steps.want.outputs.go == 'true'
+        run: |
+          report() {
+            disk=$(df -BM --output=avail "$GITHUB_WORKSPACE" | tail -1 | tr -dc '0-9')
+            mem=$(free -m | awk '/^Mem:/ {print $7}')
+            swap=$(free -m | awk '/^Swap:/ {print $3}')
+            node=$(ps -eo rss,comm --sort=-rss | awk '$2 ~ /node/ {printf "%d", $1/1024; exit}')
+            line="runner resources $(date -u +%H:%M:%S) UTC: disk free ${disk} MB, memory available ${mem} MB, swap used ${swap} MB, largest node process ${node:-0} MB"
+            if [ "${disk:-0}" -lt 4096 ] || [ "${mem:-0}" -lt 1024 ]; then echo "::warning title=Runner nearly out of disk or memory::${line}"; else echo "$line"; fi
+          }
+          echo "cores: $(nproc)"; df -h "$GITHUB_WORKSPACE"; free -m
+          report
+          ( while sleep 60; do report; done ) &
+          reporter=$!
+          trap 'pkill -P "$reporter" 2>/dev/null || true; kill "$reporter" 2>/dev/null || true' EXIT
+          ok=false
+          for attempt in 1 2 3; do
+            if npm --prefix site run build:lang; then ok=true; break; fi
+            echo "::warning::astro build failed on attempt $attempt of 3; starting over"
+          done
+          if [ "$ok" != true ]; then echo "::error::astro build failed 3 times"; exit 1; fi
+          npm run books
+          report
+        env:
+          PUBLIC_PAGEFIND_BASE: ${{ vars.PAGEFIND_BASE_URL }}
+          NODE_OPTIONS: --max-old-space-size=6144
+      - name: No runtime AI or compute (guard)
+        if: steps.want.outputs.go == 'true'
+        run: npm run check:static
+      - name: Pack this language's pages and search index into one file
+        if: steps.want.outputs.go == 'true'
+        run: |
+          set -euo pipefail
+          test -f "dist/$BUILD_LANG/index.html"
+          test -d "dist/pagefind-$BUILD_LANG"
+          tar --use-compress-program='zstd -T0 -3' -cf "dist-lang-$BUILD_LANG.tar.zst" -C dist "$BUILD_LANG" "pagefind-$BUILD_LANG"
+          # This language's own sitemap files, for the `sitemap` job: the page addresses of this build.
+          mkdir "sitemap-lang-$BUILD_LANG"
+          cp dist/sitemap-[0-9]*.xml "sitemap-lang-$BUILD_LANG/"
+          ls -l "dist-lang-$BUILD_LANG.tar.zst"
+          {
+            echo "## Language build ${{ github.run_id }}: $BUILD_LANG"
+            echo
+            echo "- Commit: \`${{ github.sha }}\` (${{ github.ref_name }})"
+            echo "- Pages: $(find "dist/$BUILD_LANG" -name '*.html' | wc -l)"
+            echo "- Files: $(find "dist/$BUILD_LANG" "dist/pagefind-$BUILD_LANG" -type f | wc -l), $(du -sm "dist/$BUILD_LANG" "dist/pagefind-$BUILD_LANG" | awk '{s+=$1} END {print s}') MB unpacked"
+            echo
+            echo "Deploy it with **Deploy $BUILD_LANG pages to UAT** or **Deploy $BUILD_LANG pages to production**, build_run_id \`${{ github.run_id }}\`."
+          } >> "$GITHUB_STEP_SUMMARY"
+      - name: Upload this language's pages and search index
+        if: steps.want.outputs.go == 'true'
+        uses: actions/upload-artifact@v7
+        with:
+          name: dist-lang-${{ matrix.lang }}
+          path: dist-lang-${{ matrix.lang }}.tar.zst
+          if-no-files-found: error
+          # Already zstd: do not compress it again.
+          compression-level: 0
+          retention-days: 5
+      - name: Upload this language's sitemap files (for the whole-site sitemap)
+        if: steps.want.outputs.go == 'true'
+        uses: actions/upload-artifact@v7
+        with:
+          name: sitemap-lang-${{ matrix.lang }}
+          path: sitemap-lang-${{ matrix.lang }}/
+          if-no-files-found: error
+          retention-days: 5
+
+  # Everything that belongs to no language, except the sitemap. Runs beside the language jobs.
+  shared:
+    name: build (shared)
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    needs: prebuild
+    steps:
+      - name: Only the repository owner or an admin may start this workflow
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+          ACTOR: ${{ github.actor }}
+          OWNER: ${{ github.repository_owner }}
+        run: |
+          [ "$ACTOR" = "$OWNER" ] && { echo "started by the owner ($ACTOR)"; exit 0; }
+          perm=$(gh api "repos/$GH_REPO/collaborators/$ACTOR/permission" --jq .permission 2>/dev/null || echo unknown)
+          [ "$perm" = "admin" ] && { echo "started by an admin ($ACTOR)"; exit 0; }
+          echo "::error::$ACTOR ($perm) may not start this workflow: only the repository owner or an admin may."
+          exit 1
+      - name: Checkout
+        uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
+      - name: Are the shared parts asked for, and can this branch build them?
+        id: want
+        env:
+          ASKED: ${{ inputs.languages }}
+        run: |
+          set -euo pipefail
+          go=true
+          if [ -n "${ASKED// /}" ] && ! grep -qw -- shared <<<"$ASKED"; then
+            go=false; echo "::notice::The shared parts were not asked for (parts: $ASKED); nothing is built."
+          elif ! grep -q '"build:shared"' package.json; then
+            go=false; echo "::notice::This branch has no shared build (package.json has no build:shared); nothing is built."
+          fi
+          echo "go=$go" >> "$GITHUB_OUTPUT"
+      - uses: actions/setup-node@v7
+        if: steps.want.outputs.go == 'true'
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: |
+            package-lock.json
+            site/package-lock.json
+      - name: Install
+        if: steps.want.outputs.go == 'true'
+        run: npm ci && npm ci --prefix site
+      - name: Download the prebuild outputs
+        if: steps.want.outputs.go == 'true'
+        uses: actions/download-artifact@v8
+        with:
+          pattern: prebuild-*
+      - name: Restore the prebuild outputs
+        if: steps.want.outputs.go == 'true'
+        run: |
+          set -euo pipefail
+          tar --use-compress-program=unzstd -xf prebuild-cache/prebuild-cache.tar.zst
+          tar --use-compress-program=unzstd -xf prebuild-public/prebuild-public.tar.zst
+          rm -rf prebuild-cache prebuild-public
+          test -f .cache/graph.json && test -d site/public/api && echo "prebuild outputs restored"
+      # The prebuild job already validated, compiled the graph, derived, exported the API and wrote the daily
+      # schedule; this job only renders astro with no language's pages, retrying inside the step as the language jobs do.
+      - name: Build the shared parts (astro)
+        if: steps.want.outputs.go == 'true'
+        run: |
+          ok=false
+          for attempt in 1 2 3; do
+            if npm --prefix site run build:shared; then ok=true; break; fi
+            echo "::warning::shared astro build failed on attempt $attempt of 3; starting over"
+          done
+          if [ "$ok" != true ]; then echo "::error::shared astro build failed 3 times"; exit 1; fi
+        env:
+          PUBLIC_PAGEFIND_BASE: ${{ vars.PAGEFIND_BASE_URL }}
+          NODE_OPTIONS: --max-old-space-size=6144
+      - name: No runtime AI or compute (guard)
+        if: steps.want.outputs.go == 'true'
+        run: npm run check:static
+      - name: Pack the shared parts into one file (no language's pages, no search index, no sitemap)
+        if: steps.want.outputs.go == 'true'
+        run: |
+          set -euo pipefail
+          test -f dist/index.html
+          test -d dist/api
+          test -d dist/_astro
+          # A few pages are written for fixed languages whatever is asked; they belong to their language's job.
+          rm -rf dist/ar dist/en dist/ur dist/fr dist/es dist/pagefind-* dist/sitemap*.xml
+          tar --use-compress-program='zstd -T0 -3' -cf dist-shared.tar.zst -C dist .
+          ls -l dist-shared.tar.zst
+          {
+            echo "## Shared build ${{ github.run_id }}"
+            echo
+            echo "- Commit: \`${{ github.sha }}\` (${{ github.ref_name }})"
+            echo "- Files: $(find dist -type f | wc -l), $(du -sm dist | cut -f1) MB unpacked"
+            echo
+            echo "Deploy it with **Deploy shared parts to UAT** or **Deploy shared parts to production**, build_run_id \`${{ github.run_id }}\`."
+          } >> "$GITHUB_STEP_SUMMARY"
+      - name: Upload the shared parts
+        if: steps.want.outputs.go == 'true'
+        uses: actions/upload-artifact@v7
+        with:
+          name: dist-shared
+          path: dist-shared.tar.zst
+          if-no-files-found: error
+          compression-level: 0
+          retention-days: 5
+
+  # The whole site's sitemap, from the five languages' own sitemaps. Only when every language of this branch was built
+  # in this run: a sitemap that misses a language would take its pages out of the search engines' list.
+  sitemap:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    needs: build
+    if: ${{ !cancelled() }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v7
+      - name: Download the languages' sitemap files
+        uses: actions/download-artifact@v8
+        with:
+          pattern: sitemap-lang-*
+          path: sitemaps
+      - name: Is every language of this branch here?
+        id: want
+        run: |
+          set -euo pipefail
+          go=true
+          test -f scripts/merge-sitemaps.mjs || { go=false; echo "::notice::This branch has no scripts/merge-sitemaps.mjs; no sitemap is made."; }
+          for lang in $(grep -E '^export const ALL_LANGS' site/src/lib/i18n.ts | grep -oE '"[a-z]+"' | tr -d '"'); do
+            if ! ls "sitemaps/sitemap-lang-$lang"/sitemap-*.xml > /dev/null 2>&1; then
+              go=false; echo "::notice::$lang was not built in this run: no whole-site sitemap is made, and a shared deploy of this run leaves the published sitemap as it is."
+            fi
+          done
+          echo "go=$go" >> "$GITHUB_OUTPUT"
+      - uses: actions/setup-node@v7
+        if: steps.want.outputs.go == 'true'
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: site/package-lock.json
+      - name: Install (the sitemap writer of the site build)
+        if: steps.want.outputs.go == 'true'
+        run: npm ci --prefix site
+      - name: Join the languages' sitemaps into the whole site's sitemap
+        if: steps.want.outputs.go == 'true'
+        run: |
+          set -euo pipefail
+          mkdir dist-sitemap
+          node scripts/merge-sitemaps.mjs --out dist-sitemap sitemaps/sitemap-lang-*
+          ls -l dist-sitemap
+          echo "## Sitemap of language build ${{ github.run_id }}: $(cat dist-sitemap/sitemap-[0-9]*.xml | grep -o '<url>' | wc -l) page addresses" >> "$GITHUB_STEP_SUMMARY"
+      - name: Upload the sitemap
+        if: steps.want.outputs.go == 'true'
+        uses: actions/upload-artifact@v7
+        with:
+          name: dist-sitemap
+          path: dist-sitemap/
+          if-no-files-found: error
+          retention-days: 5
+
+  check:
+    # The checks the one-job build ran on the finished site (npm run build = astro, then check:site and check:weight),
+    # which no language job can run alone: check:site expects every language's pages (it reports "missing page: es/..."
+    # on one language) and check:weight reads the Arabic routes. This job puts the shared parts and every language
+    # together again, runs both checks on the whole, and counts the pages the way the one-job deploy stamped them. Both
+    # deploys read it: the shared deploy refuses a run whose check failed, and stamps the page count from it.
+    name: check (whole site)
+    runs-on: ubuntu-latest
+    timeout-minutes: 150
+    needs: [build, shared, sitemap]
+    if: ${{ !cancelled() }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v7
+      - name: Download the shared parts, every language and the sitemap
+        uses: actions/download-artifact@v8
+        with:
+          pattern: dist-*
+          path: artifacts
+      - name: Is every language of this branch here?
+        id: want
+        run: |
+          set -euo pipefail
+          go=true
+          test -f artifacts/dist-shared/dist-shared.tar.zst || { go=false; echo "::notice::No shared parts in this run: no whole-site check."; }
+          for lang in $(grep -E '^export const ALL_LANGS' site/src/lib/i18n.ts | grep -oE '"[a-z]+"' | tr -d '"'); do
+            test -f "artifacts/dist-lang-$lang/dist-lang-$lang.tar.zst" || { go=false; echo "::notice::$lang was not built in this run: no whole-site check (check:site needs every language's pages)."; }
+          done
+          echo "go=$go" >> "$GITHUB_OUTPUT"
+      - name: Free runner disk the build does not use (Android SDK, .NET, Haskell, CodeQL, Swift, Docker images)
+        if: steps.want.outputs.go == 'true'
+        run: |
+          echo "before: $(df -BM --output=avail / | tail -1 | tr -dc '0-9') MB free"
+          sudo rm -rf /usr/local/lib/android /usr/share/dotnet /opt/ghc /usr/local/.ghcup \
+            /opt/hostedtoolcache/CodeQL /usr/share/swift || true
+          sudo docker image prune --all --force > /dev/null 2>&1 || true
+          echo "after: $(df -BM --output=avail / | tail -1 | tr -dc '0-9') MB free"
+      - uses: actions/setup-node@v7
+        if: steps.want.outputs.go == 'true'
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: |
+            package-lock.json
+            site/package-lock.json
+      - name: Install
+        if: steps.want.outputs.go == 'true'
+        run: npm ci && npm ci --prefix site
+      - name: Put the whole site together again
+        if: steps.want.outputs.go == 'true'
+        run: |
+          set -euo pipefail
+          mkdir dist
+          # One archive at a time, deleted once unpacked: the whole site is about 66 GB on disk.
+          for tarball in artifacts/dist-shared/dist-shared.tar.zst artifacts/dist-lang-*/dist-lang-*.tar.zst; do
+            tar --use-compress-program=unzstd -xf "$tarball" -C dist
+            rm "$tarball"
+            echo "unpacked $tarball; $(df -BM --output=avail / | tail -1 | tr -dc '0-9') MB free"
+          done
+          if ls artifacts/dist-sitemap/sitemap*.xml > /dev/null 2>&1; then cp artifacts/dist-sitemap/sitemap*.xml dist/; fi
+          echo "dist: $(find dist -type f | wc -l) files"
+      - name: Count the pages (the way the one-job deploy stamped them)
+        if: steps.want.outputs.go == 'true'
+        run: |
+          set -euo pipefail
+          mkdir site-pages
+          pages=$(find dist -name '*.html' -not -path '*/pagefind*' | wc -l | tr -d ' ')
+          echo "$pages" > site-pages/pages.txt
+          echo "## Whole site of language build ${{ github.run_id }}: $pages pages" >> "$GITHUB_STEP_SUMMARY"
+      - name: Site checks (rendered pages)
+        if: steps.want.outputs.go == 'true'
+        run: npm run check:site
+      - name: Page-weight budgets
+        if: steps.want.outputs.go == 'true'
+        run: npm run check:weight
+      - name: Upload the page count
+        if: steps.want.outputs.go == 'true'
+        uses: actions/upload-artifact@v7
+        with:
+          name: site-pages
+          path: site-pages/
+          if-no-files-found: error
+          retention-days: 5
