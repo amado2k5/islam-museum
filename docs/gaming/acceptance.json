@@ -37,7 +37,7 @@
    "evidence": "real browser playthrough recording and test",
    "status": "in-progress",
    "hardGate": true,
-   "evidenceSoFar": "Two prototypes. Atlas: a full five-round daily game played in real Chrome 158 by script in seven languages, docs/gaming/evidence/m2/atlas/. The Golden Age: two chapters of the three the GDD asks for, played by script in real Chrome 158 in seven languages (mouse, keyboard alone, plan view, without 3D), and each chapter's whole campaign driven through the screen in English and Arabic (the first to a win, the second to its end short of the goal on that seed), with the loss conditions and their visible count under unit test; docs/gaming/evidence/m2/golden-age/screen/. No recording and no human playthrough of either. The other eight games do not exist."
+   "evidenceSoFar": "Two prototypes. Atlas: a full five-round daily game played in real Chrome 158 by script in seven languages, docs/gaming/evidence/m2/atlas/. The Golden Age: the campaign's three chapters, played by script in real Chrome 158 in seven languages (mouse, keyboard alone, plan view, without 3D), and each chapter's whole campaign driven through the screen in English and Arabic (the first and third to a win, the second to its end short of the goal on that seed); the third chapter has a dominant strategy, recorded in docs/gaming/games/golden-age.md; with the loss conditions and their visible count under unit test; docs/gaming/evidence/m2/golden-age/screen/. No recording and no human playthrough of either. The other eight games do not exist."
   },
   {
    "id": "R05",
@@ -46,7 +46,7 @@
    "evidence": "fixtures and browser tests",
    "status": "in-progress",
    "hardGate": true,
-   "evidenceSoFar": "Atlas: save round trip, unreadable save set aside, newer save not overwritten, damaged entry dropped, game from another pack not resumed (unit tests), reload in mid-game and corrupted save (browser script). The Golden Age: the same cases, plus a state the rules could not have produced is refused (unit tests), reload in mid-game and corrupted save (browser script). Each game has only one save version, so there is no migration to test yet. Saves are in localStorage, not yet the IndexedDB envelope of specification 06."
+   "evidenceSoFar": "Atlas: save round trip, unreadable save set aside, newer save not overwritten, damaged entry dropped, game from another pack not resumed (unit tests), reload in mid-game and corrupted save (browser script). The Golden Age: the same cases, plus a state the rules could not have produced is refused (unit tests), reload in mid-game and corrupted save (browser script). The Golden Age's save format has one migration (version 1 to 2, when endowments were added), with a unit test that a migrated game plays on exactly as before; Atlas has only one save version. Saves are in localStorage, not yet the IndexedDB envelope of specification 06."
   },
   {
    "id": "R06",
