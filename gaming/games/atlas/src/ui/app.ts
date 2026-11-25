@@ -50,6 +50,8 @@ async function main(): Promise<void> {
   document.documentElement.lang = lang;
   document.documentElement.dir = RTL.includes(lang) ? "rtl" : "ltr";
   document.title = `${strings.title}: ${strings.subtitle}`;
+  const skip = document.querySelector<HTMLAnchorElement>("a.skip");
+  if (skip) skip.textContent = strings.skip;
 
   const panel = document.getElementById("panel") as HTMLElement;
   const live = document.getElementById("live") as HTMLElement;

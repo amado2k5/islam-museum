@@ -328,3 +328,31 @@ describe("saved games", () => {
     expect(save.daily[date]).toBeDefined();
   });
 });
+
+describe("interface strings", () => {
+  const strings = Object.fromEntries(LANGS.map((l) => [l, data(`../i18n/${l}.json`) as Record<string, unknown>]));
+
+  it("have the same keys in all seven languages, none empty", () => {
+    const keys = Object.keys(strings.en!).filter((k) => k !== "_meta").sort();
+    expect(keys.length).toBeGreaterThan(50);
+    for (const lang of LANGS) {
+      expect(Object.keys(strings[lang]!).filter((k) => k !== "_meta").sort(), lang).toEqual(keys);
+      for (const k of keys) expect(String(strings[lang]![k]).trim().length, `${lang}.${k}`).toBeGreaterThan(0);
+    }
+  });
+
+  it("keep every placeholder of the English string", () => {
+    const holes = (s: unknown) => [...String(s).matchAll(/\{(\w+)\}/g)].map((m) => m[1]).sort();
+    for (const lang of LANGS) for (const [k, v] of Object.entries(strings.en!)) if (k !== "_meta") expect(holes(strings[lang]![k]), `${lang}.${k}`).toEqual(holes(v));
+  });
+
+  it("type no honorific, and no bare parenthesis around Arabic script", () => {
+    const banned = /ﷺ|﴿|﴾|صلى الله عليه وسلم|عليه السلام|رضي الله عنه|رحمه الله/;
+    const bareParen = /\([^)\u2066\u2069]*[\u0600-\u06FF][^)]*\)/;
+    for (const lang of LANGS) for (const [k, v] of Object.entries(strings[lang]!)) {
+      if (k === "_meta") continue;
+      expect(banned.test(String(v)), `${lang}.${k}`).toBe(false);
+      expect(bareParen.test(String(v)), `${lang}.${k}`).toBe(false);
+    }
+  });
+});
