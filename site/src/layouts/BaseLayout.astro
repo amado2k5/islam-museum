@@ -118,11 +118,11 @@ const EXPLORE = exploreGroups(lang);
             <ul class="dd-menu" role="list">
               {EXPLORE.map((g) => (
                 <>
-                  <li class="dd-group" role="presentation"><span class="ui" style="display:block;font-size:.72rem;letter-spacing:.06em;color:var(--gold);padding:10px 12px 2px">{T.explore.groups[g.id]}</span></li>
+                  <li class="dd-group" role="presentation"><span class="ui">{T.explore.groups[g.id]}</span></li>
                   {g.pages.map((x) => <li><a href={x.href}><span class="t">{T.explore.pages[x.key].title}{!x.ready && <span class="chip soon">{T.landing.in_progress}</span>}</span><span class="d">{T.explore.pages[x.key].menu}</span></a></li>)}
                 </>
               ))}
-              <li class="dd-group" role="presentation"><span class="ui" style="display:block;font-size:.72rem;letter-spacing:.06em;color:var(--gold);padding:10px 12px 2px">{T.explore.groups.more}</span></li>
+              <li class="dd-group" role="presentation"><span class="ui">{T.explore.groups.more}</span></li>
               <li><a href={`/${lang}/wander/`}><span class="t">{T.explore.pages.wander.title}</span><span class="d">{T.explore.pages.wander.menu}</span></a></li>
               <li><a href={`/${lang}/time-machine/`}><span class="t">{T.explore.pages.timemachine.title}</span><span class="d">{T.explore.pages.timemachine.menu}</span></a></li>
               <li><a href={`/${lang}/learn/`}><span class="t">{T.nav.learn}</span></a></li>
