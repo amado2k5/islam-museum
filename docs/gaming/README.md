@@ -36,6 +36,7 @@ The gaming platform is a separate subsystem of this repository: ten browser game
 | [G-0005](adr/G-0005-determinism.md) | One seeded generator for every rule and every generated scene; no clock and no `Math.random()` in rules | Accepted |
 | [G-0006](adr/G-0006-atlas-content-pack.md) | Atlas asks only what a museum record says, from a pack pinned in git with a proved 365-day schedule | Accepted; the rule on which people may be asked about is a default awaiting the founder |
 | [G-0007](adr/G-0007-music-and-audio.md) | The museum's own suite, "Voices of the Museum", is the music of every game; the audio is never in git; nothing sounds before the player acts | Accepted (the founder's instruction); where the files are served from in production waits on G-0004 |
+| [G-0008](adr/G-0008-atlas-image-rounds.md) | The rule for an Atlas image round (which pictures, how they are credited without giving the answer away, where they load from, how they enter the schedule), and the count that stopped the build: four pictures qualify and a weekly round needs 52 | Rule accepted and kept as tested code; no image round built; three defaults await the founder |
 
 ## Rules that bind this subsystem
 
