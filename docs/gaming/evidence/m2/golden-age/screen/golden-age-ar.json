@@ -33,30 +33,61 @@
   "welfare": 66,
   "treasury": 112,
   "frames": {
-   "frames": 1208,
-   "durationMs": 10066.5,
-   "meanMs": 8.333,
+   "frames": 1198,
+   "durationMs": 9984,
+   "meanMs": 8.334,
    "p50Ms": 8.3,
    "p95Ms": 9,
    "p99Ms": 9.2,
-   "maxMs": 9.3,
-   "minMs": 7.3,
+   "maxMs": 9.4,
+   "minMs": 7.4,
    "over16_7": 0,
    "over33_3": 0,
    "over50": 0,
-   "avgFps": 120.002
+   "avgFps": 119.992
   },
   "info": {
    "drawCalls": 947,
    "triangles": 1556144,
-   "cpuRenderMs": 4.4000000059604645,
+   "cpuRenderMs": 4.200000002980232,
    "engine": "three r187 webgpu",
    "pixels": [
     1920,
     1080
    ],
    "walkers": 143,
-   "frames": 1392
+   "frames": 1387
+  }
+ },
+ "conditions": {
+  "riverDropInDrought": -0.4
+ },
+ "chapterTwo": {
+  "season": 2,
+  "treasury": 75,
+  "learned": 22
+ },
+ "chapterTwoCampaign": {
+  "policy": "balanced",
+  "commands": 65,
+  "outcome": "ended",
+  "seasons": 20,
+  "households": 473,
+  "welfare": 60,
+  "treasury": 247,
+  "frames": {
+   "frames": 975,
+   "durationMs": 8399.9,
+   "meanMs": 8.615,
+   "p50Ms": 8.3,
+   "p95Ms": 9.3,
+   "p99Ms": 17.3,
+   "maxMs": 33.4,
+   "minMs": 7.2,
+   "over16_7": 19,
+   "over33_3": 1,
+   "over50": 0,
+   "avgFps": 116.073
   }
  },
  "consoleErrors": []
