@@ -1,0 +1,12 @@
+# Static hosting and future online architecture
+Canonical local-first: browser GPU/CPU handles graphics and simulation, existing Cloudflare-backed deployment delivers immutable static files if verified. Inspect actual origin, cache, route, storage limits, current spend and CI permissions. CDN traffic allowance does not guarantee storage or compute. Use versioned chunk packs, range requests only where appropriate, MIME/CORS/CSP and compression tested, lazy game loading. Offline optional after assets cached; avoid service worker update traps and scope bleed. No added paid hosting or provisioning without approval. Budget large assets and storage retention, calculate monthly transfer/request counts and cost from actual provider pricing.
+
+| Capability | Initial approach | Future option |
+|---|---|---|
+| campaign/save | local IndexedDB, export file | opt-in encrypted sync |
+| daily challenges | UTC seed and pinned dataset | signed published challenge manifest |
+| friend competition | seed/replay links, unverified scores | verified replay or authoritative result API |
+| cooperative play | local/asynchronous compatible bundles | authoritative rooms via Workers/Durable Objects or dedicated servers |
+| public mod registry | reviewed static manifests | moderated catalog, object storage and metadata |
+
+Cloudflare option: Worker validates auth/rate limits/write quotas; Durable Object per room holds authoritative state, WebSocket reconnect, sequence numbers, input validation, snapshot and version; D1 metadata/leaderboard; R2 large opt-in replays/pack assets. Hibernation helps idle rooms, not active tick loops. WebRTC needs signaling and sometimes TURN, no anti-cheat guarantee. For real-time action consider authoritative dedicated regional servers if measured edge tick latency/cost fails. Never trust client score. Threat model cheating, griefing, privacy, moderation and child safety. No default public chat. Explicit account consent, deletion, retention and minimum data. Museum remains publicly crawlable; restrict abusive writes only as justified. Load test room counts, messages/second, p95 latency, reconnect storm, storage, failover and cost envelope before founder approval. Reference [Durable Objects WebSockets](https://developers.cloudflare.com/durable-objects/best-practices/websockets/), [Workers pricing](https://developers.cloudflare.com/workers/platform/pricing/), [R2 limits](https://developers.cloudflare.com/r2/platform/limits/). No backend is required for core single-player release.
