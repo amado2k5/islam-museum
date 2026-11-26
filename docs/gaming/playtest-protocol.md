@@ -8,6 +8,19 @@ _Written 25 November 2026 for piece 12 of the corrective work ([`traceability.md
 - **Does not count:** the author's scripts; the author's own play; a review by an AI (it is filed as an AI's review, under its own name, and never as a tester); a person who was told what to do.
 - Gates R10, R14 and GRA25 are passed only on the first kind. The author never scores the games.
 
+## What the founder asks for before production (26 November 2026)
+
+[`spec-production/owner-decisions-2026-11-26.md`](spec-production/owner-decisions-2026-11-26.md), "Human playtesting requirement". An AI's play is valid as regression evidence and satisfies no gate of usability, enjoyment or return.
+
+- **Early, formative:** at least 5 to 8 independent people for each game.
+- **Beta:** at least 12 to 20 people across the three games, with each game meaningfully covered.
+- **At least three readers of Arabic or Urdu**, who also read the language itself for mistakes.
+- A mix of museum visitors, players of strategy games, and people who do not know such games; some by keyboard alone and with assistive technology; some long sessions, for pace, fatigue and understanding.
+- **Measured:** the time to understand the first objective; the time to a first real success; where help was needed; whether the player can explain consequences and scoring; difficulty, and recovery from mistakes; where it became repetitive or dull; how long they chose to play, never how long they were made to wait; whether they want to play again, and why in their words; problems of performance and comfort.
+- No claim that people play for hours is made without them, and nothing in a game is built to hold a person who wants to stop.
+
+None of this has been held. Who finds and approves the testers is the founder's ([`traceability.md`](traceability.md), O4).
+
 ## Who, and how they are asked
 
 - Five to eight people for each slice, the founder's to find and to approve. Where possible: some with no interest in history or in the museum, some new to strategy games, at least one who reads Arabic or Urdu, at least one who plays by keyboard alone.
