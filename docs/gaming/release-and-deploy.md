@@ -21,8 +21,9 @@ So R2, wrangler, the Custom Domain and both sets of credentials are now proved f
 | `20261125-3599b8f514c` | [45713830185](https://github.com/amado2k5/islam-museum/actions/runs/45713830185) | The first: three games, Granada on its plan |
 | `20261125-1057ab8a554` | [45717519130](https://github.com/amado2k5/islam-museum/actions/runs/45717519130) | The music found beside the games |
 | `20261125-7c31b7631c6` | [45728259166](https://github.com/amado2k5/islam-museum/actions/runs/45728259166) | Granada's valley in 3D and Atlas's lit globe; checked in Chrome on UAT: all three games start in 3D |
+| `20261125-484ead40122` | [45733594650](https://github.com/amado2k5/islam-museum/actions/runs/45733594650) | Granada's village, mosque, mill and bridge; checked in Chrome on UAT in English and Arabic: the five addresses start in 3D with no error |
 
-Each was started by the agent after the founder's word for it in chat ("Yes, run UAT"; "where is the music"; "Release to UAT"). The agent asks before each one. No rollback has been made on UAT, and production has not been deployed.
+Each was started by the agent after the founder's word for it in chat ("Yes, run UAT"; "where is the music"; "Release to UAT", twice). The agent asks before each one. No rollback has been made on UAT, and production has not been deployed.
 
 ## The rule
 
