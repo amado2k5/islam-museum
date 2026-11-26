@@ -145,6 +145,14 @@ main:focus { outline: none; }
 .bench .said .by-narrator { border-inline-start: 4px solid var(--teal); padding-inline-start: 10px; }
 .bench .results { margin-block-start: 16px; padding: 14px 18px; background: var(--panel); border: 1px solid var(--gold); border-radius: 14px; }
 .bench button:disabled, .bench select:disabled { opacity: 0.55; cursor: default; }
+/* The third quest's page: the secret page's picture and two tables of counts, played with lists of choices. */
+.bench canvas.cipher-art { aspect-ratio: 1000 / 420; }
+.bench .tables { display: grid; gap: 14px; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); margin-block: 10px; }
+.bench table.counts { width: 100%; border-collapse: collapse; background: var(--panel); border: 1px solid var(--line); }
+.bench table.counts caption { font-weight: 700; text-align: start; padding: 8px 4px; }
+.bench table.counts th, .bench table.counts td { padding: 6px 10px; text-align: start; border-top: 1px solid var(--line); }
+.bench .glyph-name { display: inline-flex; align-items: center; gap: 10px; }
+.bench .glyph-name canvas { display: inline-block; width: auto; aspect-ratio: auto; border-width: 1px; border-radius: 8px; margin: 0; flex: none; }
 
 .toast { position: fixed; inset-block-end: 16px; inset-inline: 0; margin-inline: auto; width: max-content; max-width: 92%; padding: 10px 18px; background: #1c1206; color: var(--gold); border: 1px solid var(--gold); border-radius: 12px; z-index: 40; pointer-events: none; }
 
