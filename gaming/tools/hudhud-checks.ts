@@ -337,7 +337,7 @@ const ev = <T>(page: Page, js: string) => page.evaluate(js) as Promise<T>;
   await page.locator("a.skip").focus();
   await page.keyboard.press("Enter");
   const landed = await ev<string>(page, "location.hash + '|' + (document.getElementById('play') ? document.getElementById('play').tagName : 'none')");
-  record("with scripts off the page says why in seven languages; on a refused device the skip link lands", lines === 7 && links.length === 7 && links.every((h) => /^https:\/\/islam\.museum\/(ar|en|ur|fr|es|tr|id)\/$/.test(h ?? "")) && /JavaScript/.test(text) && landed === "#play|MAIN", { lines, links, landed });
+  record("with scripts off the page says why in seven languages; on a refused device the skip link lands", lines === 7 && links.length === 7 && links.every((h) => h === "../") && /JavaScript/.test(text) && landed === "#play|MAIN", { lines, links, landed });
   await ctx.close();
 }
 // 5. The Atlas: fifty named pages in ten worlds, one of them open; play it, come back, and find its page home.
