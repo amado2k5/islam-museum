@@ -55,10 +55,10 @@ export const LINK_PATH: Record<string, string> = {
   questions: "questions", method: "method", authenticity: "authenticity", learn: "learn", wander: "wander",
   search: "search", madhahib: "madhahib", calendar: "calendar", signs: "signs", miracles: "miracles", graph: "graph",
   developers: "developers", journeys: "journeys",
-  islam30: "exhibit/path-islam-in-30-minutes",
+  islam30: "exhibits/path-islam-in-30-minutes",
   // TODO(converts-exhibit): the converts exhibit is being written in another job; until it exists this points to the closest
   // existing page, the trail "The New Muslims" (early converts). Replace with the new exhibit's route when it lands.
-  converts: "exhibit/path-hijra-converts",
+  converts: "exhibits/path-hijra-converts",
 };
 
 /** Per viewpoint: the link key and minutes of each reading-order step, in the order of `viewpoints.<key>.steps` in the i18n files. */
