@@ -15,6 +15,22 @@ export interface BenchView {
   done: boolean;
   /** The page reads right to left: the first place is on the right, as the list of places under the picture is. */
   rtl: boolean;
+  /** The place chosen by a touch or a click, to be exchanged with another or given a spare part; or null. */
+  selected?: number | null;
+}
+
+/** What lies under a point of the picture, given in its own 1000 by 380 space: a place, a spare part in the box, or nothing. */
+export type BenchHit = { place: number } | { spare: number } | null;
+export function benchHit(x: number, y: number, rtl: boolean, spareCount: number): BenchHit {
+  const across = (v: number) => (rtl ? BENCH.w - v : v);
+  if (y >= BENCH.y - 78 && y <= BENCH.y + 78) {
+    for (let i = 0; i < BENCH.places; i++) if (Math.abs(x - across(BENCH.x0 + i * BENCH.dx)) <= 62) return { place: i };
+  }
+  const boxX = across(BENCH.spareX + 20);
+  if (Math.abs(x - boxX) <= 90) {
+    for (let i = 0; i < Math.min(2, spareCount); i++) if (Math.abs(y - (125 + i * 112)) <= 56) return { spare: i };
+  }
+  return null;
 }
 
 const ICON: Record<string, (c: Ctx) => void> = {
@@ -241,6 +257,16 @@ export function drawBench(canvas: HTMLCanvasElement, v: BenchView): void {
     c.setLineDash(stopped ? [12, 8] : []);
     c.stroke();
     c.setLineDash([]);
+    // The place chosen is ringed outside its own outline, in a solid light line: not colour alone.
+    if (v.selected === i) {
+      rounded(c, x - 72, BENCH.y - 88, 144, 176, 24);
+      c.strokeStyle = PAL.cream;
+      c.lineWidth = 7;
+      c.stroke();
+      c.strokeStyle = INK;
+      c.lineWidth = 2;
+      c.stroke();
+    }
     // The place's number, as dots: no numeral is drawn, so that no language is left out.
     for (let d = 0; d <= i; d++) {
       c.beginPath();

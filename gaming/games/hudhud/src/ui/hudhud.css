@@ -181,3 +181,21 @@ main:focus { outline: none; }
   .choose canvas { width: 52px; }
   .choose button { padding: 4px 10px; }
 }
+
+/* The opening story, before the Atlas: a picture, a short paragraph and three buttons. Nothing moves by itself. */
+.prologue { max-width: 1000px; margin-inline: auto; padding: 6px 4px 20px; }
+.prologue > h2 { margin: 6px 0 8px; text-align: center; color: var(--gold); font-size: clamp(1.4rem, 3vw, 2rem); }
+.pro-art { margin: 0; }
+.pro-art canvas { display: block; width: 100%; aspect-ratio: 1000 / 420; border: 2px solid var(--line); border-radius: 14px; background: #050d1e; }
+.pro-card { margin-block: 12px; padding: 12px 18px; background: var(--panel); border: 1px solid var(--line); border-radius: 14px; }
+.pro-count { margin: 0 0 4px; font-size: 0.85rem; font-weight: 400; color: var(--muted); }
+.pro-count:focus-visible { outline-offset: 4px; }
+.pro-text { margin: 0; font-size: 1.15rem; line-height: 1.7; max-width: 62ch; }
+.pro-nav { justify-content: space-between; margin-block: 8px; }
+.pro-nav button:disabled { opacity: 0.45; cursor: default; }
+button.quiet { background: transparent; border-color: transparent; color: var(--muted); text-decoration: underline; }
+button.quiet:hover { background: rgba(255, 255, 255, 0.08); }
+.hub .again { margin-block-start: 4px; }
+.contrast .pro-card { border: 3px solid #fff; }
+.contrast button.quiet { color: #fff; border-color: #fff; text-decoration: none; }
+@media (max-width: 760px) { .pro-text { font-size: 1.05rem; } .pro-nav { flex-direction: row; } }

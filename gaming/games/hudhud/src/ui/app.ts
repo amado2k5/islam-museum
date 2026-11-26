@@ -5,14 +5,16 @@ import { loadMusicStrings, musicControl } from "@im/audio/control";
 import { MUSIC_AVAILABLE, MUSIC_BASE, MusicPlayer } from "@im/audio/player";
 import { Cues, type Cue } from "../audio/cues";
 import { HAIRS, OUTFITS, SKINS, keeper as paintKeeper, portrait } from "../art/cast";
-import { CLOCK_QUEST } from "../content/clock";
+import { CLOCK_QUEST, clockPuzzle } from "../content/clock";
+import { restoreClock } from "../sim/clock";
 import { clockQuest, type ClockQuest } from "./clock";
+import { prologueScreen } from "./prologue";
 import { JAR, RECORDS, SCRIPTS, THINGS, TURN_SLACK, inPlay, type PlayStyle, type Speaker } from "../content/workshop";
 import { start, type Running } from "../game/boot";
 import { Input } from "../input/input";
 import { DEFAULT_PAD, PAD_ACTIONS, assignPad, type PadAction } from "../input/pad";
 import { choicesOf, lineOf } from "../narrative/dialogue";
-import { ACTIONS, DEFAULT_KEYS, SAVE_KEY, assignKey, current, load, recordQuest, store, type Action, type Quality, type SaveFile, type Settings } from "../save/save";
+import { ACTIONS, DEFAULT_KEYS, SAVE_KEY, assignKey, current, load, markPrologueSeen, recordQuest, store, type Action, type Quality, type SaveFile, type Settings } from "../save/save";
 import { askToPersist, openStore, saveChannel } from "@im/platform/save/idb";
 import { openDurable, type Durable, type SaveStatus } from "../save/durable";
 import { apply, beam, goals, newScene, restore, snapshot, type Command, type Happened, type SceneState } from "../sim/scene";
@@ -174,7 +176,16 @@ async function main(): Promise<void> {
   const wordsBox = el("div", { class: "words" }, words, about);
   words.hidden = true;
   // The skip link lands here, on the Atlas or on the quest, whichever is showing.
-  const main = el("main", { id: "play", tabIndex: -1 }, hub, bench, stageWrap);
+  // The opening story comes first for a slot that has not seen it; it takes the place of the Atlas until it is left.
+  const prologue = prologueScreen({
+    t,
+    num,
+    rtl: RTL.includes(lang),
+    look: () => slot().keeper,
+    blocked: () => sheetOpen(),
+    leave: () => leaveOpening(true),
+  });
+  const main = el("main", { id: "play", tabIndex: -1 }, prologue.node, hub, bench, stageWrap);
   app.append(bar, main, wordsBox, live, sheets);
 
   let toastTimer = 0;
@@ -214,6 +225,8 @@ async function main(): Promise<void> {
     save = { ...next, slot: next.slots[at] ? at : next.slots.findIndex((x) => x !== null) };
     if (save.slot < 0) return;
     store(storage, save, mayStore, true);
+    // The vault knows the opening was seen, and the player has not yet turned a panel: go straight to the Atlas.
+    if (openingShown && slot().prologue && prologue.panel() === 1) leaveOpening(false);
     applyLook();
     if (!started) {
       fromSlot();
@@ -283,6 +296,8 @@ async function main(): Promise<void> {
   const checkpoint = (clear = false) => {
     const resume = state.done || (state.turns === 0 && state.flags.length === 0 && !state.dark) ? null : { quest: QUEST, snap: snapshot(state) as unknown };
     if (resume === null && !placeMine && !clear) return;
+    // A place kept in the elephant clock is never this quest's to wipe: only a place of its own is.
+    if (resume === null && slot().resume && slot().resume!.quest !== QUEST) return;
     if (JSON.stringify(slot().resume) === JSON.stringify(resume)) return;
     save = { ...save, slots: save.slots.map((x, i) => (i === save.slot && x ? { ...x, resume } : x)) };
     placeMine = resume !== null;
@@ -579,7 +594,7 @@ async function main(): Promise<void> {
         const i = Number(v);
         // A slot never used starts with this one's settings and explorer, and nothing done. Changing slot changes
         // no quest: each slot's place in its quest is left exactly as it was and is taken up again.
-        save = { ...save, slot: i, slots: save.slots.map((x, j) => (j === i && !x ? { ...structuredClone(save.slots[save.slot]!), quests: {}, resume: null } : x)) };
+        save = { ...save, slot: i, slots: save.slots.map((x, j) => (j === i && !x ? { ...structuredClone(save.slots[save.slot]!), quests: {}, resume: null, prologue: undefined } : x)) };
         keep();
         applyLook();
         fromSlot();
@@ -680,8 +695,9 @@ async function main(): Promise<void> {
   }
   function finish(): void {
     const g = goals(state);
-    save = { ...save, slots: save.slots.map((s, i) => (i === save.slot && s ? { ...recordQuest(s, QUEST, g), resume: null } : s)) };
-    keep(true);
+    const mine = slot().resume?.quest === QUEST;
+    save = { ...save, slots: save.slots.map((s, i) => (i === save.slot && s ? { ...recordQuest(s, QUEST, g), resume: mine ? null : s.resume } : s)) };
+    keep(mine);
     const slack = TURN_SLACK[state.style];
     const goal = (mark: string, name: Key, how: string, met: boolean) => el("li", {}, el("span", { class: "mark", textContent: mark }), el("span", {}, el("strong", { textContent: t(name) }), el("br", {}), el("span", { class: "small", textContent: how })), el("span", { class: met ? "met" : "open", textContent: t(met ? "goal_met" : "goal_open") }));
     const names: Key[] = ["rec_person", "rec_darkroom", "rec_book"];
@@ -805,8 +821,27 @@ async function main(): Promise<void> {
     stage.focus({ preventScroll: true });
     render();
   }
-  /** Opens the elephant clock: a quest played on the page, with no flying scene. It is not kept in the middle. */
+  /** The clock left in the middle, if the slot holds one that can be trusted; the slot holds one place only. */
+  const clockSaved = () => {
+    const r = slot().resume;
+    return r?.quest === CLOCK_QUEST ? restoreClock(r.snap, clockPuzzle) : null;
+  };
+  /**
+   * Keeps the clock's place. With progress (a move or a question asked) the slot's one place becomes the clock's; a
+   * finished or restarted clock clears its own place only, and the other quest's place is never touched by a clock
+   * that has made no progress.
+   */
+  const clockCheckpoint = (snap: unknown | null) => {
+    const old = slot().resume;
+    const resume = snap === null ? null : { quest: CLOCK_QUEST, snap };
+    if (resume === null && old?.quest !== CLOCK_QUEST) return;
+    if (JSON.stringify(old) === JSON.stringify(resume)) return;
+    save = { ...save, slots: save.slots.map((x, i) => (i === save.slot && x ? { ...x, resume } : x)) };
+    keep(true);
+  };
+  /** Opens the elephant clock: a quest played on the page, with no flying scene. A clock left in the middle comes back. */
   function startClock(): void {
+    const kept = clockSaved();
     cues.unlock();
     hub.hidden = true;
     atlasBtn.hidden = false;
@@ -817,13 +852,16 @@ async function main(): Promise<void> {
       museum: MUSEUM,
       title: subjectName("al-jazari"),
       style,
+      resume: kept,
+      keepPlace: (snap) => clockCheckpoint(snap),
       reducedMotion: () => settings().reducedMotion,
       tick: () => cues.play("line"),
       chime: () => cues.play("restored"),
       finish: (g) => {
-        save = { ...save, slots: save.slots.map((s, i) => (i === save.slot && s ? recordQuest(s, CLOCK_QUEST, g) : s)) };
-        // The place kept in the middle of the other quest is not this quest's to change.
-        keep();
+        const mine = slot().resume?.quest === CLOCK_QUEST;
+        // A finished quest is not kept in the middle; the place kept in the other quest is not this quest's to change.
+        save = { ...save, slots: save.slots.map((s, i) => (i === save.slot && s ? { ...recordQuest(s, CLOCK_QUEST, g), resume: mine ? null : s.resume } : s)) };
+        keep(mine);
       },
       leave: () => toAtlas(),
     });
@@ -886,6 +924,8 @@ async function main(): Promise<void> {
     explorerButtons.push(b);
     choose.append(b);
   }
+  const again = el("button", { type: "button", class: "quiet", textContent: t("pro_reread"), onclick: () => readOpening(true) });
+  again.dataset.opening = "again";
   function drawHub(): void {
     drawChoices();
     const quests = slot().quests;
@@ -901,10 +941,12 @@ async function main(): Promise<void> {
           const rec = quests[quest];
           if (quest === CLOCK_QUEST) {
             // One button on the Atlas is the main one (the flying scene); this trial quest has an ordinary button.
-            const b = el("button", { type: "button", textContent: t(rec?.done ? "quest_again" : "quest_play", { name }), onclick: () => startClock() });
+            const kept = clockSaved();
+            const b = el("button", { type: "button", textContent: t(kept ? "quest_continue" : rec?.done ? "quest_again" : "quest_play", { name }), onclick: () => startClock() });
             b.dataset.quest = quest;
             const item = el("li", { class: "open" }, b, el("small", { textContent: t("ck_trial") }));
             if (rec?.done) item.append(el("small", { textContent: t("quest_home", { n: num([rec.curiosity, rec.ingenuity, rec.kindness, rec.feather].filter(Boolean).length) }) }));
+            if (kept) item.append(el("small", { textContent: t("resume_note") }), el("button", { type: "button", textContent: t("btn_restart"), onclick: () => (clockCheckpoint(null), drawHub()) }));
             return item;
           }
           const label: Key = resumed ? "quest_continue" : rec?.done ? "quest_again" : "quest_play";
@@ -923,7 +965,30 @@ async function main(): Promise<void> {
       el("p", { class: "small", textContent: t("start_hint") }),
       el("div", { class: "worlds" }, ...worlds),
       el("p", { class: "small", textContent: t("hub_note") }),
+      el("p", { class: "again" }, again),
     );
+  }
+  // ---------------------------------------------------------------------------------------- the opening story
+  let openingShown = false;
+  /** Shows the opening from its first panel, in place of the Atlas. */
+  function readOpening(focus = true): void {
+    openingShown = true;
+    hub.hidden = true;
+    prologue.open(1, focus);
+  }
+  /** Leaves the opening for the Atlas. Finished or skipped, it is recorded as seen in this slot, once; read again by
+   * choice and left, nothing more is written. */
+  function leaveOpening(record: boolean): void {
+    if (!openingShown) return;
+    openingShown = false;
+    prologue.close();
+    if (record && !slot().prologue) {
+      save = markPrologueSeen(save);
+      keep();
+    }
+    hub.hidden = false;
+    drawHub();
+    (hub.querySelector("button.primary") as HTMLElement | null)?.focus({ preventScroll: true });
   }
   drawHub();
   render();
@@ -953,8 +1018,13 @@ async function main(): Promise<void> {
     clockCommand: (c: Parameters<ClockQuest["command"]>[0]) => clockRun?.command(c),
     resumed: () => resumed,
     keys: () => settings().keys,
+    prologue: () => ({ shown: openingShown, panel: openingShown ? prologue.panel() : 0 }),
+    skipPrologue: () => leaveOpening(true),
   });
+  // A slot that has not seen the opening opens on it. A page opened to go straight into the quest (a test or a
+  // capture) shows no opening and records nothing.
   if (query.get("autostart") === "1") startQuest();
+  else if (!slot().prologue) readOpening(false);
 }
 
 main().catch((e) => {
