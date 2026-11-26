@@ -10,15 +10,16 @@
 // Vega of Granada; the museum has none yet (docs/gaming/granada/g0-discovery.md, section 6), and a screen that shows
 // them must say that they are simulation.
 import { hash32 } from "@im/kernel/prng";
-import { audit, dinars, freeCapacity, open, submit, type CommandResult, type EconomyCommand, type EconomyState, type Market, type Recipe } from "./economy";
+import { MINOR, audit, dinars, freeCapacity, open, submit, type CommandResult, type EconomyCommand, type EconomyState, type Market, type Recipe } from "./economy";
 
 // 2: trade beyond the village (a port reached by cart, a press, contracts).
 // 3: buildings placed on the land by the player.
 // 4: a field the steward has said comes first for water and hands.
 // 5: decisions put to the steward, what follows from them for a time, and a journal of what has happened.
 // 6: markets whose prices move with what they hold, and yesterday's prices kept so a trend can be shown.
+// 7: a campaign of years: the year the valley is in, and a scenario that takes up where the last one ended.
 // A game saved under an earlier version is brought forward by `upgradeVillage`, never loaded half-right.
-export const VILLAGE_VERSION = 6;
+export const VILLAGE_VERSION = 7;
 export const SEASON_DAYS = 30;
 export const YEAR_DAYS = 120;
 export type Season = 0 | 1 | 2 | 3; // spring, summer, autumn, winter
@@ -126,6 +127,10 @@ export interface Scenario {
   site?: (x: number, z: number, radius: number) => SiteRefusal | null;
   /** Questions put to the steward in the course of the scenario. */
   decisions?: DecisionDef[];
+  /** What is asked of the steward. Where a scenario names none, the first year's five. */
+  tasks?: TaskDef[];
+  /** The scenario this one follows: a steward who has won that one may go on to this with the valley as it stands. */
+  follows?: string;
   /**
    * How the markets' prices move. A market's usual stock of a good is what it opens with. Each night it goes a
    * part of the way back to that (`drift`, in thousandths of the gap), and its two prices rise or fall together by
@@ -157,8 +162,38 @@ export interface Placed {
   done: boolean;
 }
 
-export type QuestId = "q01-water" | "q02-harvest" | "q03-reserve" | "q04-home" | "q05-granary";
-export const QUESTS: QuestId[] = ["q01-water", "q02-harvest", "q03-reserve", "q04-home", "q05-granary"];
+/** A task's id: its name on the page is the string of the same key. */
+export type QuestId = string;
+/**
+ * What a scenario asks of the steward, each a thing the rules can count. The first five are the first year's own;
+ * the rest are for later years.
+ */
+export type TaskDef =
+  /** The mended branch carries a dry day's water to its field for three days running. */
+  | { id: string; kind: "water-streak" }
+  /** The first field's crop brought in or sold, nine parts in ten at least. */
+  | { id: string; kind: "first-harvest" }
+  /** As winter approaches, the asked reserve held for ten days running. */
+  | { id: string; kind: "reserve-streak" }
+  /** A house built, and a household come that was not there at the start. */
+  | { id: string; kind: "new-home" }
+  /** The store filled, and then room made in it again. */
+  | { id: string; kind: "store-room" }
+  /** So many dinars brought by trade since the scenario began: sales and contracts, less purchases, carriage and penalties. */
+  | { id: string; kind: "trade"; dinars: number }
+  /** So many of the scenario's contracts kept. */
+  | { id: string; kind: "contracts"; kept: number }
+  | { id: string; kind: "households"; atLeast: number }
+  /** So many of a kind from the catalogue placed and finished. */
+  | { id: string; kind: "placed"; what: string; n: number };
+export const CLASSIC_TASKS: TaskDef[] = [
+  { id: "q01-water", kind: "water-streak" },
+  { id: "q02-harvest", kind: "first-harvest" },
+  { id: "q03-reserve", kind: "reserve-streak" },
+  { id: "q04-home", kind: "new-home" },
+  { id: "q05-granary", kind: "store-room" },
+];
+export const QUESTS: QuestId[] = CLASSIC_TASKS.map((x) => x.id);
 
 export interface PlotState {
   crop: Crop | null;
@@ -203,6 +238,8 @@ export interface DayReport {
 export interface VillageState {
   version: number;
   scenario: string;
+  /** Which year of the campaign this is: one for a valley begun fresh. */
+  year: number;
   seed: number;
   /** The day about to be lived. */
   day: number;
@@ -296,6 +333,57 @@ export type ActResult = { ok: true; money: number } | { ok: false; why: Refusal;
 
 // ---- Starting ----------------------------------------------------------------------------------------------------------
 
+/**
+ * The next year of a campaign: the valley as the last year left it (its people, its store and treasury, what was
+ * built and placed, its channels, its pool, a crop still in the ground) taken into the scenario that follows, with
+ * a new year's weather, new offers at the port and new things asked. Null if the scenario does not follow the one
+ * the valley is in, or that one was not won.
+ */
+export function nextYear(sc: Scenario, prev: VillageState): VillageState | null {
+  if (sc.follows !== prev.scenario || !prev.outcome?.won) return null;
+  const s = structuredClone(prev) as VillageState;
+  const e = s.economy;
+  s.scenario = sc.id;
+  s.year = prev.year + 1;
+  s.seed = prev.seed + 1;
+  s.day = sc.startDay;
+  s.outcome = null;
+  s.last = null;
+  s.carted = 0;
+  s.everFull = false;
+  s.streak = { eastWatered: 0, reserve: 0 };
+  s.effects = [];
+  s.quests = Object.fromEntries(tasksOf(sc).map((x) => [x.id, false]));
+  s.decisions = Object.fromEntries((sc.decisions ?? []).map((d) => [d.id, { state: "ahead" as const, choice: null, day: null }]));
+  s.journal = [{ day: sc.startDay, event: `year:${s.year}` }];
+  // The fields: the olive trees bear again; a crop still growing or standing ripe is carried; a spent field lies fallow.
+  for (const def of sc.plots) {
+    const p = s.plots[def.id];
+    const fresh = (crop: Crop | null): PlotState => ({ crop, growth: 0, stress: 0, ripeSince: null, standing: 0, yielded: 0, brought: 0, soldFromField: 0, spoiled: 0, harvesting: null, watered: 1000, tended: 1000 });
+    if (!p) s.plots[def.id] = fresh(def.crop);
+    else if (p.crop === "olives") s.plots[def.id] = fresh("olives");
+    else if (p.crop !== null && p.ripeSince !== null && p.standing > 0) s.plots[def.id] = { ...p, ripeSince: sc.startDay - (prev.day - p.ripeSince), yielded: p.standing, brought: 0, soldFromField: 0, spoiled: 0 };
+    else if (p.crop === null || p.ripeSince !== null) s.plots[def.id] = fresh(null);
+  }
+  if (s.fieldFirst !== null && !sc.plots.some((p) => p.id === s.fieldFirst)) s.fieldFirst = null;
+  // The books go on: the same ledger, with the port's new offers and anything it now deals in that it did not before.
+  const tr = sc.trade;
+  if (tr) {
+    const port = e.markets[tr.port.id];
+    if (port) {
+      for (const [good, q] of Object.entries(tr.port.market.goods)) {
+        if (port.goods[good]) continue;
+        port.goods[good] = { ...q };
+        if (q.inventory > 0) e.journal.push({ seq: e.journal.length, tick: e.tick, commandId: `year:${s.year}`, asset: good, from: "world", to: `market:${tr.port.id}`, amount: q.inventory, why: "opening stock" });
+      }
+    }
+    e.recipes[tr.press.id] ??= structuredClone(tr.press);
+    for (const c of tr.contracts) e.contracts[c.id] ??= { id: c.id, good: c.good, units: c.units, deadlineTick: e.tick + (c.byDay - sc.startDay), revenue: c.revenue, transport: c.transport, fees: c.fees, penalty: c.penalty, state: "offered", delivered: 0, reservedUnits: 0, reservedCash: 0, owed: 0 };
+  }
+  s.priceWas = asksOf(e);
+  return s;
+}
+
 export function newVillage(sc: Scenario, seed: number): VillageState {
   const trade = sc.trade;
   const economy = open({
@@ -315,6 +403,7 @@ export function newVillage(sc: Scenario, seed: number): VillageState {
   return {
     version: VILLAGE_VERSION,
     scenario: sc.id,
+    year: 1,
     seed,
     day: sc.startDay,
     economy,
@@ -337,7 +426,7 @@ export function newVillage(sc: Scenario, seed: number): VillageState {
     effects: [],
     journal: [],
     priceWas: asksOf(economy),
-    quests: { "q01-water": false, "q02-harvest": false, "q03-reserve": false, "q04-home": false, "q05-granary": false },
+    quests: Object.fromEntries(tasksOf(sc).map((x) => [x.id, false])),
     last: null,
     outcome: null,
   };
@@ -364,7 +453,7 @@ export const treasuryOf = (s: VillageState): number => s.economy.treasury.availa
  */
 export function upgradeVillage(sc: Scenario, saved: VillageState): VillageState | null {
   if (saved.version === VILLAGE_VERSION) return saved;
-  if (![1, 2, 3, 4, 5].includes(saved.version)) return null;
+  if (![1, 2, 3, 4, 5, 6].includes(saved.version)) return null;
   const s = structuredClone(saved) as VillageState;
   s.version = VILLAGE_VERSION;
   // From 2 to 3: nothing has been placed yet. From 3 to 4: no field has been put first.
@@ -376,6 +465,8 @@ export function upgradeVillage(sc: Scenario, saved: VillageState): VillageState 
   s.journal ??= [];
   // From 5 to 6: yesterday's prices are today's, so nothing is called rising or falling until a night has passed.
   s.priceWas ??= asksOf(s.economy);
+  // From 6 to 7: a valley saved before there were years is in its first.
+  s.year ??= 1;
   if (saved.version >= 2) return s;
   s.carted = 0;
   const e = s.economy;
@@ -430,7 +521,8 @@ export const carries = (b: { capacity: number; condition: number; built: boolean
 const copy = (state: VillageState): VillageState => ({ ...structuredClone({ ...state, economy: null }), economy: state.economy }) as VillageState;
 
 function ledger(s: VillageState, command: EconomyCommand): CommandResult {
-  const out = submit(s.economy, { commandId: `d${s.day}:${s.n}`, expectedStateVersion: s.economy.stateVersion, command });
+  // The day is in the id so that the journal can be read by day; from the second year on, the year is too.
+  const out = submit(s.economy, { commandId: `${s.year > 1 ? `y${s.year}` : ""}d${s.day}:${s.n}`, expectedStateVersion: s.economy.stateVersion, command });
   s.n += 1;
   s.economy = out.state;
   return out.result;
@@ -843,17 +935,9 @@ export function tick(sc: Scenario, state: VillageState): VillageState {
   s.streak.eastWatered = mended && east.ripeSince === null && east.watered >= 900 ? s.streak.eastWatered + 1 : mended && east.ripeSince !== null ? s.streak.eastWatered : 0;
   // The reserve that matters is the one held as winter approaches: the store is full of last year's grain in spring.
   s.streak.reserve = seasonOf(day) >= 2 && reserveDays(s) >= 20 ? s.streak.reserve + 1 : 0;
-  const first = s.plots[sc.plots[0]!.id]!;
-  const done: Record<QuestId, boolean> = {
-    "q01-water": s.quests["q01-water"] || s.streak.eastWatered >= 3,
-    // Brought in or sold, nine parts in ten at least: a crop left to rot is not a harvest.
-    "q02-harvest": s.quests["q02-harvest"] || (first.yielded > 0 && first.standing === 0 && (first.brought + first.soldFromField) * 10 >= first.yielded * 9),
-    "q03-reserve": s.quests["q03-reserve"] || s.streak.reserve >= 10,
-    "q04-home": s.quests["q04-home"] || (housesBuilt(sc, s) >= 1 && s.households > sc.households),
-    "q05-granary": s.quests["q05-granary"] || (s.everFull && freeCapacity(s.economy) >= 100),
-  };
-  for (const q of QUESTS) {
-    if (done[q] && !s.quests[q]) {
+  for (const def of tasksOf(sc)) {
+    const q = def.id;
+    if (!s.quests[q] && taskState(sc, s, def).done) {
       s.quests[q] = true;
       // Paid once: the ledger answers a repeated id with its first result.
       const out = submit(s.economy, { commandId: `quest:${q}`, expectedStateVersion: s.economy.stateVersion, command: { kind: "earn", amount: sc.reward, why: `quest ${q}` } });
@@ -883,11 +967,63 @@ export function tick(sc: Scenario, state: VillageState): VillageState {
 
 function judge(sc: Scenario, s: VillageState): NonNullable<VillageState["outcome"]> {
   const reasons: string[] = [];
-  for (const q of QUESTS) if (!s.quests[q]) reasons.push(q);
+  for (const def of tasksOf(sc)) if (!s.quests[def.id]) reasons.push(def.id);
   if (s.welfare < sc.goal.welfare) reasons.push("welfare");
   if (s.households < sc.goal.households) reasons.push("households");
   if (reserveDays(s) < sc.goal.reserveDays) reasons.push("reserve");
   return { won: reasons.length === 0, reasons, score: s.welfare * 10 + s.households * 5 + Math.min(60, reserveDays(s)) * 5 + Math.floor(treasuryOf(s) / dinars(10)) };
+}
+
+export const tasksOf = (sc: Scenario): TaskDef[] => sc.tasks ?? CLASSIC_TASKS;
+/** What trade has brought since a day of the present year, in minor units, read from the ledger's own journal and nothing else. */
+export function tradeSince(s: VillageState, fromDay: number): number {
+  let sum = 0;
+  for (const e of s.economy.journal) {
+    if (e.asset !== "money") continue;
+    const at = /^(?:y(\d+))?d(\d+):/.exec(e.commandId);
+    if (!at || Number(at[1] ?? 1) !== s.year || !(Number(at[2]) >= fromDay)) continue;
+    // Water sold to the neighbours by an answer given is a sale like any other.
+    if (e.to === "treasury" && (e.from.startsWith("market:") || e.why.startsWith("paid on contract") || e.why.startsWith("decision "))) sum += e.amount;
+    else if (e.from === "treasury" && e.to.startsWith("market:")) sum -= e.amount;
+    else if (e.to === "world" && (e.why.startsWith("carriage") || e.why.startsWith("penalty on contract"))) sum -= e.amount;
+  }
+  return sum;
+}
+/**
+ * How a task stands: whether what it asks holds now, and how far it has got where that is a number. A task once
+ * done stays done; this says only what the valley is like today.
+ */
+export function taskState(sc: Scenario, s: VillageState, def: TaskDef): { done: boolean; have: number; want: number } | { done: boolean; have: null; want: null } {
+  switch (def.kind) {
+    case "water-streak":
+      return { done: s.streak.eastWatered >= 3, have: Math.min(3, s.streak.eastWatered), want: 3 };
+    case "first-harvest": {
+      const first = s.plots[sc.plots[0]!.id]!;
+      // Brought in or sold, nine parts in ten at least: a crop left to rot is not a harvest.
+      const done = first.yielded > 0 && first.standing === 0 && (first.brought + first.soldFromField) * 10 >= first.yielded * 9;
+      return first.yielded > 0 ? { done, have: first.brought + first.soldFromField, want: first.yielded } : { done, have: null, want: null };
+    }
+    case "reserve-streak":
+      return { done: s.streak.reserve >= 10, have: Math.min(10, s.streak.reserve), want: 10 };
+    case "new-home":
+      return { done: housesBuilt(sc, s) >= 1 && s.households > sc.households, have: Math.max(0, s.households - sc.households), want: 1 };
+    case "store-room":
+      return { done: s.everFull && freeCapacity(s.economy) >= 100, have: null, want: null };
+    case "trade": {
+      const brought = Math.floor(tradeSince(s, sc.startDay) / MINOR);
+      return { done: brought >= def.dinars, have: Math.max(0, brought), want: def.dinars };
+    }
+    case "contracts": {
+      const kept = (sc.trade?.contracts ?? []).filter((c) => s.economy.contracts[c.id]?.state === "settled").length;
+      return { done: kept >= def.kept, have: kept, want: def.kept };
+    }
+    case "households":
+      return { done: s.households >= def.atLeast, have: s.households, want: def.atLeast };
+    case "placed": {
+      const n = s.placed.filter((p) => p.what === def.what && p.done).length;
+      return { done: n >= def.n, have: n, want: def.n };
+    }
+  }
 }
 
 /** The days ahead if the player does nothing more: each day's state, so a panel can show the real future. */
@@ -948,6 +1084,7 @@ export function invariants(sc: Scenario, s: VillageState): string[] {
       }
     }
   }
+  if (!Number.isSafeInteger(s.year) || s.year < 1) bad.push(`the valley is in year ${s.year}`);
   if (s.journal.length > 60) bad.push(`the journal holds ${s.journal.length} entries`);
   if (s.fieldFirst !== null && !sc.plots.some((p) => p.id === s.fieldFirst)) bad.push(`the field put first, ${s.fieldFirst}, is not in the valley`);
   for (const [what, def] of Object.entries(sc.catalogue ?? {})) if (placedCount(s, what) > def.max) bad.push(`${placedCount(s, what)} of ${what} are placed, more than the ${def.max} allowed`);

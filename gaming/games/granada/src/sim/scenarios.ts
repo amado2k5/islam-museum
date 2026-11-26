@@ -104,4 +104,57 @@ export const WATER_FOR_THE_VALLEY: Scenario = {
   },
 };
 
-export const SCENARIOS: Record<string, Scenario> = { [WATER_FOR_THE_VALLEY.id]: WATER_FOR_THE_VALLEY };
+/**
+ * The second year, "The Merchants of Málaga": a whole year, from the first day of spring. The valley is fed; now it
+ * is asked to trade. The port offers two contracts, for oil and for vegetables; the steward is asked to bring in
+ * 1,600 dinars by trade, keep at least one of the two, house eighty households, build a cistern and hold the
+ * winter reserve. Taking both pays more and leaves less to eat.
+ * It follows the first year: a steward who won that goes on with the valley as it stands. Opened fresh (as the lab
+ * and the tests open it), it begins from a valley much as a first year leaves one.
+ */
+export const MERCHANTS_OF_MALAGA: Scenario = {
+  ...WATER_FOR_THE_VALLEY,
+  id: "merchants-of-malaga",
+  follows: WATER_FOR_THE_VALLEY.id,
+  startDay: 1,
+  endDay: 120,
+  households: 70,
+  housing: 70,
+  treasury: dinars(900),
+  capacity: 920,
+  stock: { wheat: 300, timber: 80, stone: 60 },
+  plots: [
+    // Sown last autumn, and half grown.
+    { id: "mill-field", branch: "west", potential: { wheat: 320, vegetables: 200 }, crop: "wheat", growth: 500 },
+    { id: "olive-terrace", branch: "east", potential: { olives: 50 }, crop: "olives", growth: 0 },
+    { id: "river-meadow", branch: "meadow", potential: { vegetables: 240, wheat: 300 }, crop: null, growth: 0 },
+  ],
+  water: { ...WATER_FOR_THE_VALLEY.water, branches: WATER_FOR_THE_VALLEY.water.branches.map((b) => (b.id === "east" ? { ...b, condition: 70 } : b)) },
+  goal: { welfare: 60, households: 70, reserveDays: 20 },
+  trade: {
+    ...WATER_FOR_THE_VALLEY.trade!,
+    port: {
+      ...WATER_FOR_THE_VALLEY.trade!.port,
+      market: { ...WATER_FOR_THE_VALLEY.trade!.port.market, goods: { ...WATER_FOR_THE_VALLEY.trade!.port.market.goods, vegetables: { inventory: 80, ask: dinars(30), bid: dinars(17) } } },
+      carriage: { ...WATER_FOR_THE_VALLEY.trade!.port.carriage, vegetables: dinars(2) },
+    },
+    // Neither is worth filling with goods bought in the village: each pays less a unit than the village asks.
+    contracts: [
+      { id: "oil-for-the-port-2", good: "oil", units: 12, byDay: 100, revenue: dinars(2460), transport: dinars(48), fees: dinars(30), penalty: dinars(400) },
+      { id: "greens-for-the-port", good: "vegetables", units: 120, byDay: 80, revenue: dinars(2100), transport: dinars(200), fees: dinars(20), penalty: dinars(300) },
+    ],
+  },
+  tasks: [
+    { id: "m1-trade", kind: "trade", dinars: 1600 },
+    { id: "m2-contracts", kind: "contracts", kept: 1 },
+    { id: "m3-households", kind: "households", atLeast: 80 },
+    { id: "m4-cistern", kind: "placed", what: "cistern", n: 1 },
+    { id: "m5-reserve", kind: "reserve-streak" },
+  ],
+  // The neighbours ask again, later in the summer and for less, and offer more: the valley now has more to lose.
+  decisions: [{ ...WATER_FOR_THE_VALLEY.decisions![0]!, day: 45, options: [{ id: "share", dinars: dinars(300), inflow: 5, days: 15 }, { id: "refuse", welfare: -4, days: 20 }] }],
+};
+
+export const SCENARIOS: Record<string, Scenario> = { [WATER_FOR_THE_VALLEY.id]: WATER_FOR_THE_VALLEY, [MERCHANTS_OF_MALAGA.id]: MERCHANTS_OF_MALAGA };
+/** The scenario that follows one, where the campaign goes on. */
+export const scenarioAfter = (id: string): Scenario | null => Object.values(SCENARIOS).find((sc) => sc.follows === id) ?? null;

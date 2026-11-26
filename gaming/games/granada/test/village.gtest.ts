@@ -2,9 +2,9 @@
 import { describe, expect, it } from "vitest";
 import { audit, dinars, freeCapacity } from "../src/sim/economy";
 import { PLAYERS, REAL_PLAYERS, playVillage } from "../src/sim/players";
-import { WATER_FOR_THE_VALLEY as SC } from "../src/sim/scenarios";
+import { MERCHANTS_OF_MALAGA as Y2, SCENARIOS, WATER_FOR_THE_VALLEY as SC, scenarioAfter } from "../src/sim/scenarios";
 import { siteRefusal } from "../src/world/ground";
-import { CROPS, HARVEST_RATE, QUESTS, expectedHarvest, flowOn, housesBuilt, marketsOf, priceFactor, poolCapacityOf, siteOf, act, carries, foodNeed, forecast, invariants, newVillage, preview, reserveDays, riverYear, seasonOf, tick, treasuryOf, waterNeed, weather, workersOf, type Scenario, type VillageCommand, type VillageState } from "../src/sim/village";
+import { CROPS, HARVEST_RATE, QUESTS, nextYear, taskState, tasksOf, tradeSince, expectedHarvest, flowOn, housesBuilt, marketsOf, priceFactor, poolCapacityOf, siteOf, act, carries, foodNeed, forecast, invariants, newVillage, preview, reserveDays, riverYear, seasonOf, tick, treasuryOf, waterNeed, weather, workersOf, type Scenario, type VillageCommand, type VillageState } from "../src/sim/village";
 
 const start = (seed = 7) => newVillage(SC, seed);
 /** Applies commands, failing the test if one is refused. */
@@ -705,6 +705,104 @@ describe("a decision", () => {
     const long = { ...asked(), journal: Array.from({ length: 60 }, (_, i) => ({ day: i, event: "arrived" })) };
     const kept = order(DRY, long, { kind: "decide", decision: D.id, option: "share" }).journal;
     expect([kept.length, kept.at(-1)!.event, kept[0]!.day]).toEqual([60, `decided:${D.id}:share`, 1]);
+  });
+});
+
+describe("a campaign of years", () => {
+  /** A first year won by the mending steward, with a house placed and wheat sown for the spring. */
+  const wonYearOne = (seed = 7): VillageState => {
+    for (let s0 = seed; ; s0++) {
+      let s = newVillage(SC, s0);
+      s = order(SC, s, { kind: "place", what: "house", x: 600, z: 250 });
+      const c = playVillage(SC, s, PLAYERS.builder!, s0);
+      if (c.state.outcome!.won) return c.state;
+    }
+  };
+
+  it("names the scenario that follows the first, and no other", () => {
+    expect(scenarioAfter(SC.id)).toBe(Y2);
+    expect(scenarioAfter(Y2.id)).toBeNull();
+    expect(Object.keys(SCENARIOS)).toEqual([SC.id, Y2.id]);
+  });
+
+  it("goes on only from a year that was won, and only into the year that follows it", () => {
+    const lost = playVillage(SC, newVillage(SC, 7), PLAYERS.idle!, 7).state;
+    expect(lost.outcome!.won).toBe(false);
+    expect(nextYear(Y2, lost)).toBeNull();
+    expect(nextYear(Y2, start())).toBeNull();
+    expect(nextYear(SC, wonYearOne())).toBeNull();
+  });
+
+  it("carries the valley as it stands: its people, its money and store, what was built, its water; and begins a new year's calendar, weather, offers and tasks", () => {
+    const end = wonYearOne();
+    const s = nextYear(Y2, end)!;
+    expect([s.scenario, s.year, s.day, s.seed, s.outcome, s.last]).toEqual([Y2.id, 2, 1, end.seed + 1, null, null]);
+    expect([s.households, s.housing, s.welfare, s.pool, treasuryOf(s), s.economy.capacity]).toEqual([end.households, end.housing, end.welfare, end.pool, treasuryOf(end), end.economy.capacity]);
+    expect(s.economy.stock).toEqual(end.economy.stock);
+    expect([s.placed, s.built, s.branches]).toEqual([end.placed, end.built, end.branches]);
+    expect(s.placed.some((p) => p.what === "house" && p.done)).toBe(true);
+    // New things asked, none done; the question not yet put; the journal begun again.
+    expect(s.quests).toEqual(Object.fromEntries(tasksOf(Y2).map((x) => [x.id, false])));
+    expect(Object.values(s.decisions).map((d) => d.state)).toEqual(["ahead"]);
+    expect(s.journal).toEqual([{ day: 1, event: "year:2" }]);
+    // The port's new offers stand beside the old year's contract, and it now deals in vegetables.
+    expect(s.economy.contracts["oil-for-the-port-2"]!.state).toBe("offered");
+    expect(s.economy.contracts["greens-for-the-port"]!.deadlineTick).toBe(end.economy.tick + 79);
+    expect(s.economy.contracts["oil-for-the-port"]).toEqual(end.economy.contracts["oil-for-the-port"]);
+    expect(s.economy.markets.malaga!.goods.vegetables).toEqual(Y2.trade!.port.market.goods.vegetables);
+    // The olives bear again; the year's first state breaks no rule and the books close.
+    expect(s.plots["olive-terrace"]).toMatchObject({ crop: "olives", growth: 0, ripeSince: null, standing: 0 });
+    expect(invariants(Y2, s)).toEqual([]);
+    expect(audit(s.economy)).toEqual([]);
+    // The year that was is not changed by going on from it.
+    expect(end.year).toBe(1);
+  });
+
+  it("carries a crop still in the ground: wheat sown in autumn is growing in spring", () => {
+    const end = wonYearOne();
+    const sown = Object.entries(end.plots).filter(([, p]) => p.crop === "wheat" && p.ripeSince === null);
+    const s = nextYear(Y2, end)!;
+    for (const [id, p] of sown) expect(s.plots[id]).toMatchObject({ crop: "wheat", growth: p.growth });
+    for (const [id, p] of Object.entries(end.plots)) if (p.crop !== "olives" && p.ripeSince !== null && p.standing === 0) expect(s.plots[id]!.crop, id).toBeNull();
+  });
+
+  it("counts the second year's trade from the second year alone, and pays each task's reward once", () => {
+    const s0 = nextYear(Y2, wonYearOne())!;
+    expect(tradeSince(s0, Y2.startDay)).toBe(0);
+    const s = order(Y2, s0, { kind: "send", good: "wheat", quantity: 10 });
+    expect(tradeSince(s, Y2.startDay)).toBe(10 * (s0.economy.markets.malaga!.goods.wheat!.bid - dinars(2)));
+    expect(taskState(Y2, s, { id: "x", kind: "trade", dinars: 1 })).toMatchObject({ done: true });
+    expect(taskState(Y2, s, tasksOf(Y2)[0]!)).toMatchObject({ done: false, want: 1600 });
+  });
+
+  it("can be played through two years, by a steward who mends and then one who trades, with every rule kept every day", () => {
+    let won = 0;
+    for (let seed = 1; seed <= 12; seed++) {
+      const one = playVillage(SC, newVillage(SC, seed), PLAYERS.builder!, seed);
+      expect(one.violations).toEqual([]);
+      if (!one.state.outcome!.won) continue;
+      const two = playVillage(Y2, nextYear(Y2, one.state)!, PLAYERS.trader!, seed);
+      expect(two.violations, `seed ${seed}`).toEqual([]);
+      expect(two.state.outcome).not.toBeNull();
+      expect(two.state.year).toBe(2);
+      if (two.state.outcome!.won) won += 1;
+    }
+    expect(won).toBeGreaterThan(0);
+  });
+
+  it("opened fresh, the second year holds every rule under every scripted player, cannot be won by doing nothing, and can be won in more than one way", () => {
+    const wins: Record<string, number> = {};
+    for (const name of ["idle", "random", "trader", "greengrocer", "oilman", "provisioner"]) {
+      wins[name] = 0;
+      for (let seed = 1; seed <= 40; seed++) {
+        const c = playVillage(Y2, newVillage(Y2, seed), PLAYERS[name]!, seed);
+        expect(c.violations, `${name} seed ${seed}`).toEqual([]);
+        if (c.state.outcome!.won) wins[name]! += 1;
+      }
+    }
+    expect([wins.idle, wins.random, wins.provisioner]).toEqual([0, 0, 0]);
+    expect(wins.trader).toBeGreaterThanOrEqual(8);
+    expect(wins.greengrocer).toBeGreaterThanOrEqual(8);
   });
 });
 

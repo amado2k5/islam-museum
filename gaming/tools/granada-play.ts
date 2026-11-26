@@ -558,9 +558,41 @@ log.campaign = campaign;
 if (!campaign.outcome?.won) await fail(`the campaign through the page was lost: ${JSON.stringify(campaign.outcome)}`);
 if (!(await page.locator("dialog.outcome.won[open]").count())) await fail("no outcome was shown at the end");
 await shot("10-outcome");
+// ---- On to the second year: the valley as it stands, a new year's title, brief, tasks and offers ----
+if ((await page.locator("#go-on").count()) !== 1) await fail("a won first year does not offer the second");
+const carried = await game<{ households: number; treasury: number; placed: number; capacity: number }>("(() => { const s = window.__GR__.state(); return { households: s.households, treasury: s.economy.treasury.available, placed: s.placed.length, capacity: s.economy.capacity }; })()");
+await page.locator("#go-on").click();
+const two = await game<{ year: number; day: number; scenario: string; households: number; treasury: number; placed: number; capacity: number; outcome: unknown; quests: string[] }>("(() => { const s = window.__GR__.state(); return { year: s.year, day: s.day, scenario: s.scenario, households: s.households, treasury: s.economy.treasury.available, placed: s.placed.length, capacity: s.economy.capacity, outcome: s.outcome, quests: Object.keys(s.quests) }; })()");
+if (two.year !== 2 || two.day !== 1 || two.scenario !== "merchants-of-malaga" || two.outcome !== null) await fail(`going on did not begin the second year: ${JSON.stringify(two)}`);
+if (two.households !== carried.households || two.treasury !== carried.treasury || two.placed !== carried.placed || two.capacity !== carried.capacity) await fail(`the valley was not carried as it stood: ${JSON.stringify([carried, two])}`);
+if (!(await page.locator("dialog.brief[open]").count())) await fail("the second year has no brief");
+await shot("12-year-two-brief");
+await page.locator("#brief-start").click();
+if ((await page.locator("[data-quest]").count()) !== 5 || (await page.locator("[data-quest='m1-trade']").count()) !== 1) await fail("the second year's tasks are not shown");
+await page.keyboard.press("4");
+if ((await page.locator("[data-part='contract']").count()) < 2) await fail("the second year's two contracts are not offered");
+await page.keyboard.press("1");
+await shot("13-year-two");
+// A reload resumes the second year; played to its end by the trading steward's way, it is judged; a lost year can be played again from its start.
+// (The page is opened again without "fresh", which is this script's way of asking for a new game.)
+await page.goto(url());
+await ready();
+if ((await game<number>("window.__GR__.state().year")) !== 2 || (await game<string>("window.__GR__.scenario")) !== "merchants-of-malaga") await fail("a reload did not resume the second year");
+await page.locator("#brief-start").click();
+const yearTwo = await game<{ day: number; won: boolean; reasons: string[] }>(`(() => { const g = window.__GR__; g.order({ kind: "decide", decision: "x", option: "y" }); while (!g.state().outcome) g.days(1); const o = g.state().outcome; return { day: g.state().day, won: o.won, reasons: o.reasons }; })()`);
+if (yearTwo.day !== 121) await fail(`the second year did not run its 120 days: ${JSON.stringify(yearTwo)}`);
+if (!(await page.locator("dialog.outcome[open]").count())) await fail("the second year's end is not shown");
+if (await page.locator("#go-on").count()) await fail("a third year is offered where there is none");
+await shot("14-year-two-end");
+await page.locator("#again").click();
+const againState = await game<{ year: number; day: number; treasury: number }>("(() => { const s = window.__GR__.state(); return { year: s.year, day: s.day, treasury: s.economy.treasury.available }; })()");
+if (againState.year !== 2 || againState.day !== 1 || againState.treasury !== carried.treasury) await fail(`playing the year again did not go back to its first morning: ${JSON.stringify(againState)}`);
+await game("(() => { const g = window.__GR__; while (!g.state().outcome) g.days(1); })()");
+log.yearTwo = { carried, two, end: yearTwo };
 await page.locator("#new-year").click();
 const next = await state();
-if (next.day !== 25 || next.seed !== 8 || next.outcome !== null) await fail("another year did not begin a new game with other weather");
+// From the second year, "begin again" is the first year afresh, with weather neither year has had.
+if (next.day !== 25 || next.seed === 7 || next.seed === 8 || next.outcome !== null || (await game<number>("window.__GR__.state().year")) !== 1 || (await game<string>("window.__GR__.scenario")) !== "water-for-the-valley") await fail(`beginning again did not start the first year afresh: ${JSON.stringify(next)}`);
 await shot("11-another-year");
 
 log.consoleErrors = errors;
