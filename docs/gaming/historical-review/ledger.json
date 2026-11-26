@@ -1129,6 +1129,71 @@
     "R6"
    ],
    "editorApproved": null
+  },
+  {
+   "id": "HR-HH-29",
+   "game": "Hudhud",
+   "claim": "The museum's record says Ibn Battuta left Tangier on Thursday the second of Rajab in the year 725 of the Hijra for the pilgrimage, alone, aged twenty-two. It also says he did not write his journey down himself: Sultan Abu Inan ordered it written, Ibn Battuta dictated it, and Ibn Juzayy edited it.",
+   "context": "The Ibn Battuta quest: the answers to 'Ask when he set out' and 'Ask who wrote his journey down' (strings ib_left_1, ib_written_1)",
+   "sources": [
+    "person/ibn-battuta-muhammad",
+    "work/rihla-ibn-battuta"
+   ],
+   "kind": "sourced",
+   "uncertainty": "Taken from the museum's record of the person ('Overview', 'In the Khayriyya edition of the Rihla' and 'How the Rihla Was Written'), which gives the day, the Hijri date, the purpose, 'alone' and the age from the Rihla's own opening (Khayriyya edition, p. 15, as the record cites it) and who ordered, dictated and edited the account from the Rihla's preface and the Encyclopaedia of Islam (vol. 3 p. 768); the record itself has not been through historical review. A reviewer should check the weekday and the age against the Rihla's own opening. The record's own dates are 17 Rajab 703 for his birth and 2 Rajab 725 for his leaving, which is about a fortnight short of twenty-two years, so 'aged twenty-two' is the Rihla's own count and not a count from the record's dates; another museum record, event/ibn-battuta-sets-out-for-hajj-1325 (after Britannica), says 'aged 21' and gives only the year 1325. The game follows the person record and does not say how the age was counted. The record's Encyclopaedia of Islam paragraph converts 2 Rajab 725 to 13 June 1325, which is a Thursday in the Julian calendar, and the game gives no Gregorian date. For the account, the record says in one place that the sultan ordered it written down, that he dictated it and that Ibn Juzayy edited it, and in another that the article stresses it was 'not written down by Ibn Battuta himself but by a scholar, Ibn Juzayy, commissioned by' Abu Inan: the game says 'ordered it written, dictated it, edited it' and does not say whether Ibn Juzayy is the one who wrote it down from dictation. A reviewer should decide whether 'edited' is the right word beside the article's 'written down'. The game gives no date for the finishing of the account, on which museum records differ: the person record says 3 Dhu al-Hijja 756 and, in the article's paragraph, 9 December 1357, while work/rihla-ibn-battuta derives December 1355 from the same Hijri day; and event/ibn-battuta-dictates-rihla-1353 places the dictation 'towards the end of 1353'.",
+   "author": "Claude Code (claude-sonnet-5-5), an AI agent",
+   "reviewer": null,
+   "decision": "historical review pending",
+   "approved": null,
+   "note": "",
+   "forReview": [
+    "R5",
+    "R6"
+   ],
+   "editorApproved": null
+  },
+  {
+   "id": "HR-HH-30",
+   "game": "Hudhud",
+   "claim": "The museum's record says an Encyclopaedia of Islam article sets out Ibn Battuta's journeys in eight stages and warns that some details remain uncertain. The game follows three of them as a road to be threaded: the first (Tangier, North Africa, Egypt, Upper Egypt and Syria, then Damascus for Mecca), the second (from Mecca through Iraq, Khuzistan, Fars and the Jibal, then Tabriz, Baghdad, Samarra and Mosul, returning to Baghdad) and the third (down the Red Sea to Yemen and Aden, then Zayla, Mogadishu and the trading ports of East Africa, and back by Oman and the Persian Gulf). The record also says that Ibn Battuta admitted he had sometimes lost his notes and rewritten them from memory, that the article holds the rearranging of several itineraries comes from the editor, and that these weaknesses do not detract from the value of the whole.",
+   "context": "The Ibn Battuta quest: the three roads and which way of playing follows which (Story the first stage, Challenge the second, Explorer the third), the three sentences shown as the stage's text, and the second and third notes at the end (content/route.ts; strings ib_stage_story, ib_stage_explorer, ib_stage_challenge, ib_note_2, ib_note_3, ib_stop_*)",
+   "sources": [
+    "person/ibn-battuta-muhammad",
+    "work/rihla-ibn-battuta",
+    "question/credibility-of-ibn-battuta"
+   ],
+   "kind": "uncertain",
+   "uncertainty": "Taken from the museum's record of the person ('The Eight Stages of His Journeys', 'How the Rihla Was Written' and 'The Text and the Question of Reliability'), all after one article of the Encyclopaedia of Islam (vol. 3 pp. 767-768); the record itself has not been through historical review. The article warns that some details of the chronology remain uncertain, and the game does not say which. A reviewer should check each stop's place in its stage against the article. In particular: that Egypt and Upper Egypt are two stops of the first stage; that Baghdad comes twice in the second (once among 'Tabriz, Baghdad, Samarra and Mosul' and once as 'returning to Baghdad'); and that the third stage lists Zayla, Mogadishu and 'the trading ports of East Africa' as the record does, where the game's bead for the ports is the game's own plain name. The work record's structure line for the Rihla (part 1) also names Tunis, Alexandria, Cairo and Medina on the way to Mecca, which the article's sentence for the first stage does not, and puts Oman and the Gulf after the East African coast, as the third stage does; the game follows the article's sentences and says so. The game leaves out what the article adds to the second stage (a stay in Arabia with three pilgrimages, from 727 to 730) and to the third (a further pilgrimage in 732). A reviewer should also decide whether presenting an itinerary as a fixed order to be learned misleads, given the record's caution that the editor rearranged several itineraries and that Ibn Battuta rewrote lost notes from memory: the third note says 'the order here is the order of the account as that article sets it out', which is not the same as the order he travelled, and the game does not say which itineraries were rearranged. The record's separate question page (question/credibility-of-ibn-battuta) is about another matter, the doubts about his tales of India, and the game links it as further reading and does not state its content. The Arabic sentence of the third stage says 'the Gulf' with no adjective, on purpose; the English follows the record in 'the Persian Gulf'. The museum's own records and pages name that sea in more than one way (its place record is 'الخليج العربي' in Arabic and 'Persian Gulf' in English, 'Arap Körfezi' in Turkish and 'Teluk Arab' in Indonesian, and its pages use both the Persian and the Arabian forms in several languages), and the game's other languages follow the commonest form in each language's museum pages, which a reviewer should confirm is acceptable.",
+   "author": "Claude Code (claude-sonnet-5-5), an AI agent",
+   "reviewer": null,
+   "decision": "historical review pending",
+   "approved": null,
+   "note": "",
+   "forReview": [
+    "R2",
+    "R5",
+    "R6"
+   ],
+   "editorApproved": null
+  },
+  {
+   "id": "HR-HH-31",
+   "game": "Hudhud",
+   "claim": "The game uses a thread and a set of beads, one for each stop of a stage, set round a ring that is not a map; small signs and dots on the beads to tell them apart; a child with a camel, an invented person, who is answered kindly or bluntly; one line spoken by Ibn Battuta in imagined words ('A road is remembered by its order: where you set out, and then where next.'); and a choice of three stages out of the record's eight, played in three ways.",
+   "context": "The Ibn Battuta quest as a whole; the first note says so (strings ib_note_1, ib_intro_1, ib_intro_2, ib_who_*, ib_child_*, ib_picture; art/route.ts)",
+   "sources": [],
+   "kind": "reconstruction",
+   "uncertainty": "A simplification for play. Nothing read for the game says that Ibn Battuta or any traveller kept the order of a road by beads on a thread, that he said what the game's line says, or that a child with a camel was met on his road; the line and the child are invented and the page says so (the speakers' labels read 'in imagined words' and 'an invented person'). A reviewer should check that the ring cannot be read as geography: the beads sit in an order that is never the road's, no direction or distance is drawn, no coast, compass or place is drawn, the thread's straight lines cross the ring and mean only 'next', and the picture's alt text and the first note say the picture is not a map. A reviewer should also check that the choice of three stages out of eight (the first, the second and the third, played as Story, Challenge and Explorer) is not read as a claim that these were his most important journeys, that he went nowhere else (the other five stages, which reach India, the Maldives, China, Sumatra, Granada and the Niger, are not played), or that they were separate journeys: the record calls them stages of his journeys. Where a stop has a museum place record the game takes its name from that record's label in each language, with the exceptions listed in the pull request (a bracketed gloss dropped, an article added, a wrong word for the place replaced by the form the museum's pages use, or the form the stage's sentence uses); a reviewer should check that no name reads as a claim.",
+   "author": "Claude Code (claude-sonnet-5-5), an AI agent",
+   "reviewer": null,
+   "decision": "historical review pending",
+   "approved": null,
+   "note": "",
+   "forReview": [
+    "R5",
+    "R6"
+   ],
+   "editorApproved": null
   }
  ],
  "roster": [

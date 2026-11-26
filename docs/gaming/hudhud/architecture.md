@@ -7,7 +7,7 @@ _26 November 2026. Describes what is built for the golden scene and what the sam
 ```
 gaming/games/hudhud/
   index.html            the page: one stylesheet, one script, no inline style or script
-  i18n/<lang>.json      209 strings, the same keys in the same order in ar, en, ur, fr, es, tr, id
+  i18n/<lang>.json      730 strings (26 November 2026; 209 when this was first written), the same keys in the same order in ar, en, ur, fr, es, tr, id
   i18n-atlas/<lang>.json  the names of the ten worlds and the fifty subjects, a table of their own
   src/
     sim/                RULES. Pure, no Phaser, no DOM, no clock, no unseeded chance; run in Node
@@ -16,6 +16,7 @@ gaming/games/hudhud/
       chainquest.ts       the rules of a quest made of a row (moves, the fewest possible, flags, the four goals, a saved place proved on restore), over chain.ts, for any list of flags; shared by the two quests below
       clock.ts            the elephant clock quest: its flags, over chainquest.ts
       paper.ts            the paper of Samarkand quest: its flags, over chainquest.ts
+      route.ts            Ibn Battuta's thread: a stage (beads and a road), go, peek, the four goals, a saved place proved on restore; its own rules, not chainquest's
       move.ts             the bird: a fixed-step integrator with coyote time, jump buffering, glide, perches
       scene.ts            the quest's state and its only reducer: (state, command) -> (state, what happened)
     narrative/dialogue.ts typed scripts and the machine that walks them; faults() checks a script set
@@ -31,7 +32,7 @@ gaming/games/hudhud/
     scenes/workshop.ts  Phaser scene: builds the pictures, moves them from the state, measures itself
     game/boot.ts        starts and stops Phaser; sizes the canvas; counts draw calls when asked
     ui/app.ts, .css     the page: talk, goal, settings, pause, results, the scene in words, the test hook
-    tests/*.gtest.ts    126 tests
+    tests/*.gtest.ts    449 tests in seventeen files (26 November 2026; 126 when this was first written)
 gaming/tools/hudhud-play.ts     plays the scene in real Chrome and records everything
 gaming/tools/hudhud-rebuild.ts  rebuilds the game repeatedly and reads memory
 ```
@@ -60,7 +61,7 @@ gaming/tools/hudhud-rebuild.ts  rebuilds the game repeatedly and reads memory
 | `docs/gaming/spec-production/release-status.json` | `hudhud`: `prototype`, approved by nobody |
 | `gaming/games/prototype-labels.gtest.ts`, `review-mark.gtest.ts` | each learns of the fourth game: its label and its review mark are now enforced in seven languages |
 | `gaming/tools/release-smoke.ts` | a branch for Hudhud: start, open the scene on WebGL under the host's policy, turn a mirror, see the label |
-| `docs/gaming/historical-review/ledger.json` | twenty-eight entries, HR-HH-01 to 28, all pending |
+| `docs/gaming/historical-review/ledger.json` | twenty-eight entries, HR-HH-01 to 31, all pending |
 
 Not changed: any file of Granada, The Golden Age or Atlas; the games Worker; any workflow; anything under `site/`.
 
