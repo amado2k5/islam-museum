@@ -169,7 +169,8 @@ h3 { font-size: 0.9rem; color: var(--ink-soft); margin-block-start: 10px; }
   body.hud .panel { padding: 0; }
   body.hud .seasonbox { position: absolute; z-index: 3; inset-inline-end: 12px; inset-block-end: 12px; inline-size: 348px; padding: 0; }
   body.hud .card h2 { color: var(--accent); letter-spacing: 0.01em; }
-  body.hud .fieldpop { display: grid; gap: 6px; position: absolute; z-index: 5; inset-block-start: 0; inset-inline-start: 0; inline-size: 300px; padding: 10px 12px; border-radius: 12px; border-color: var(--accent); direction: inherit; }
+  /* The card is moved to its place from the land's own left edge, which is the left in every language: the land is never mirrored. */
+  body.hud .fieldpop { display: grid; gap: 6px; position: absolute; z-index: 5; top: 0; left: 0; inline-size: 300px; padding: 10px 12px; border-radius: 12px; border-color: var(--accent); direction: inherit; }
   body.hud .fieldpop h2 { color: var(--accent); }
   body.hud .fieldpop::after { content: ""; position: absolute; inset-block-end: -9px; inset-inline-start: calc(50% - 8px); border: 8px solid transparent; border-block-end: 0; border-block-start-color: var(--accent); }
   body.hud .toasts { inset-block-end: auto; inset-block-start: 120px; inset-inline-start: 50%; transform: translateX(-50%); justify-items: center; }
@@ -251,3 +252,11 @@ body.photo.photo-bare .photobar { display: none; }
 .region-valley circle { fill: #d9a441; stroke: #2a2012; stroke-width: 0.8; }
 .region-scale path { fill: none; stroke: #2a2012; stroke-width: 0.9; }
 .region-north path { fill: #2a2012; }
+
+/* The oil's road: steps in the order the goods travel, each a small box, an arrow between them that is not read out. */
+.chain { list-style: none; margin: 0; padding: 0; display: grid; gap: 6px; }
+.chain-step { display: grid; gap: 4px; padding: 6px 8px; border: 1px solid var(--line); border-radius: 8px; font-size: 0.88rem; position: relative; }
+.chain-step + .chain-step::before { content: "↓"; position: absolute; inset-block-start: -13px; inset-inline-start: 12px; font-size: 0.8rem; color: var(--ink-soft); }
+.chain-step b { color: var(--ink); }
+.map .opens { cursor: pointer; }
+.map .opens:focus-visible { outline: 3px solid #f2c14e; outline-offset: 2px; }

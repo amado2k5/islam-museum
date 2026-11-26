@@ -18,7 +18,8 @@ import type { ValleyLook } from "../view/three-valley";
 import { drawMap, setMapGhost } from "./map";
 import { drawRegion, regionView, type RegionLayer, type RegionView } from "./region";
 import type { Stage } from "./stage";
-import { advice, foodToSpare, seasonFigures, warnings, catalogueRows, decisionRows, effectRows, fieldCards, marketRows, tradeView, questRows, riverOfYear, skyAhead, stocks, workRows, yesterday, type FieldCard, type WorkRow } from "./model";
+import { ESTATE, MARKET, STORE, heightAt } from "../view/valley";
+import { advice, chainView, foodToSpare, seasonFigures, warnings, catalogueRows, decisionRows, effectRows, fieldCards, marketRows, tradeView, questRows, riverOfYear, skyAhead, stocks, workRows, yesterday, type FieldCard, type WorkRow } from "./model";
 
 type Strings = Record<Exclude<keyof typeof en, "_meta">, string>;
 const LANGS = ["ar", "en", "ur", "fr", "es", "tr", "id"] as const;
@@ -107,6 +108,8 @@ async function main(): Promise<void> {
   let speedBeforePhoto: 0 | 1 | 2 = 0;
   const preview: { season: number | null; rain: boolean | null; light: "morning" | "midday" | "evening" | null; lens: number } = { season: null, rain: null, light: null, lens: 38 };
   let regionLayer: RegionLayer = "economy";
+  /** A building chosen to look at: one the player placed, or one of the valley's own that opens a part of the game. */
+  let picked: { what: "placed"; id: number } | { what: "store" | "market" | "press" } | null = null;
   let placing: string | null = null;
   let ghost: { x: number; z: number } | null = null;
   let saveOk = true;
@@ -442,7 +445,7 @@ async function main(): Promise<void> {
         poolPct: Math.round((100 * s.pool) / s.poolCapacity),
         storePct: Math.round((100 * s.storeUsed) / s.storeRoom),
         houses: Math.round(sc.housing / 10) + state.built.house,
-        placed: state.placed.map((p) => ({ what: p.what, x: p.x, z: p.z, done: p.done, label: `${t(`place_${p.what}`)}${p.done ? "" : `: ${t("place_building")}`}` })),
+        placed: state.placed.map((p) => ({ id: p.id, what: p.what, x: p.x, z: p.z, done: p.done, label: `${t(`place_${p.what}`)}${p.done ? "" : `: ${t("place_building")}`}` })),
         housesUnderWay: works.filter((w) => w.kind === "house").length,
         granary: state.built.granary ? "built" : works.some((w) => w.kind === "granary") ? "under-way" : "none",
         channelWork: works.some((w) => w.kind === "repair" || w.kind === "expand"),
@@ -454,12 +457,72 @@ async function main(): Promise<void> {
       (id) => {
         // While a site is being chosen, a click on a field is an answer about that ground, not a visit to the field.
         if (placing) return;
+        picked = null;
         selected = id;
         tab = "fields";
         render();
         document.getElementById(`card-${id}`)?.focus();
       },
+      (what, id) => {
+        if (placing) return;
+        pick(what === "placed" ? { what: "placed", id: id! } : { what: what as "store" | "market" });
+        document.getElementById("place-card")?.focus();
+      },
     );
+  }
+
+  // ---- A building chosen to look at ----
+  /** Where a chosen building stands, and how much ground it covers. */
+  function pickedAt(): { x: number; z: number; r: number } | null {
+    if (!picked) return null;
+    if (picked.what === "placed") {
+      const p = state.placed.find((x) => x.id === (picked as { id: number }).id);
+      return p ? { x: p.x, z: p.z, r: sc.catalogue?.[p.what]?.radius ?? 9 } : null;
+    }
+    return picked.what === "store" ? { x: STORE[0], z: STORE[1], r: 19 } : picked.what === "market" ? { x: MARKET[0], z: MARKET[1], r: 16 } : { x: ESTATE.x, z: ESTATE.z, r: 21 };
+  }
+  function pick(to: typeof picked): void {
+    picked = to;
+    selected = null;
+    render();
+  }
+  /** A click on the land in the 3D valley: a placed building first, then the valley's own buildings that open a part of the game. */
+  function landClicked(x: number, z: number): boolean {
+    const hit = state.placed.find((p) => Math.hypot(p.x - x, p.z - z) < (sc.catalogue?.[p.what]?.radius ?? 9));
+    if (hit) pick({ what: "placed", id: hit.id });
+    else if (Math.hypot(STORE[0] - x, STORE[1] - z) < 19) pick({ what: "store" });
+    else if (Math.hypot(MARKET[0] - x, MARKET[1] - z) < 16) pick({ what: "market" });
+    else if (sc.trade && Math.hypot(ESTATE.x - x, ESTATE.z - z) < 21) pick({ what: "press" });
+    else return false;
+    return true;
+  }
+  /** What a chosen building is and is doing, in the rules' own figures, with the way into the part of the game it belongs to. */
+  function placeCard(): Child[] {
+    if (!picked) return [];
+    const go = (to: Tab, key: string) => h("button", { type: "button", "data-pop": `open-${to}`, onclick: () => { picked = null; setTab(to); } }, t(key));
+    const close = h("button", { type: "button", "data-pop": "close", "aria-label": t("pop_close"), onclick: () => pick(null) }, "×");
+    if (picked.what === "placed") {
+      const id = picked.id;
+      const p = state.placed.find((x) => x.id === id);
+      const row = p ? catalogueRows(sc, state).find((r) => r.what === p.what) : undefined;
+      if (!p || !row) return [];
+      const w = state.works.find((x) => x.placed === p.id);
+      return [
+        h("h2", {}, t(`place_${p.what}`)),
+        p.done ? h("p", {}, `${t("place_finished")} ${t(`place_${row.effect.key}_text`, { n: row.effect.n })}`) : h("label", { class: "gauge" }, h("span", {}, t("work_under_way", { pct: w ? Math.floor((100 * (w.labour - w.labourLeft)) / w.labour) : 0 })), h("progress", { max: 100, value: w ? Math.floor((100 * (w.labour - w.labourLeft)) / w.labour) : 0 })),
+        h("div", { class: "actions" }, go("works", "place_open_works"), close),
+      ];
+    }
+    const s = stocks(sc, state);
+    if (picked.what === "store") return [h("h2", {}, t("map_store")), h("p", {}, t("place_store_text", { used: num(s.storeUsed), room: num(s.storeRoom), days: s.reserveDays })), h("div", { class: "actions" }, go("market", "place_open_market"), close)];
+    if (picked.what === "market") return [h("h2", {}, t("market_title")), h("p", {}, t("place_market_text")), h("div", { class: "actions" }, go("market", "place_open_market"), close)];
+    const c = chainView(sc, state);
+    if (!c) return [];
+    return [
+      h("h2", {}, t("press_title")),
+      h("p", {}, t("chain_press_text", { olives: num(c.press.inStore), runs: c.press.canRun })),
+      h("div", { class: "actions" }, c.press.canRun > 0 && h("button", { type: "button", "data-pop": "press", onclick: () => order({ kind: "press", runs: c.press.canRun }) }, t("press_run", { n: c.press.canRun })), go("market", "place_open_market"), close),
+    ];
   }
 
   // ---- Building on the land: a thing chosen from the catalogue, then its ground ----
@@ -469,7 +532,8 @@ async function main(): Promise<void> {
     const def = placing ? sc.catalogue?.[placing] : undefined;
     const why = siteWhy();
     const g = def && ghost ? { x: ghost.x, z: ghost.z, r: def.radius, ok: why === null } : null;
-    stage?.setGhost(view === "3d" ? g : null);
+    const mark = !g && !photo ? pickedAt() : null;
+    stage?.setGhost(view === "3d" ? (g ?? (mark ? { ...mark, ok: true, mark: true } : null)) : null);
     setMapGhost(map, g && view === "plan" ? { ...g, label: "" } : null);
     const status = document.getElementById("site-status");
     if (status) {
@@ -759,6 +823,7 @@ async function main(): Promise<void> {
     const spare = foodToSpare(sc, state);
     return [
       h("section", { class: "card" }, h("h2", {}, t("market_title")), h("p", { class: "note" }, t("market_note")), sc.prices && h("p", { class: "note" }, t("market_note_moving")), h("p", { class: spare === 0 ? "why" : "note", "data-part": "food-to-spare" }, spare === 0 ? t("warn_no_food_to_spare", { goal: sc.goal.reserveDays }) : t("warn_food_to_spare", { n: num(spare), goal: sc.goal.reserveDays }))),
+      chainCard(),
       ...marketRows(sc, state).map((m) =>
         h(
           "section",
@@ -772,6 +837,35 @@ async function main(): Promise<void> {
       ),
       ...tradePanel(),
     ];
+  }
+
+  /** The oil's road from the grove to the port: five steps in the order the goods travel, each with what stands there now and what can be done there. */
+  function chainCard(): Child {
+    const c = chainView(sc, state);
+    if (!c) return false;
+    const step = (id: string, title: string, text: string, ...actions: Child[]) => h("li", { class: "chain-step", "data-step": id }, h("b", {}, title), h("span", {}, text), ...actions);
+    const grove = c.grove.state === "ripe" ? t("chain_grove_ripe", { n: num(c.grove.units) }) : c.grove.state === "growing" ? t("chain_grove_growing", { n: num(c.grove.units), days: c.grove.inDays }) : t("chain_grove_none");
+    const harvesting = c.grove.field ? state.plots[c.grove.field]!.harvesting !== null : false;
+    return h(
+      "section",
+      { class: "card", "data-part": "chain" },
+      h("h2", {}, t("chain_title")),
+      h(
+        "ol",
+        { class: "chain" },
+        step("grove", t("chain_grove"), grove, c.grove.state === "ripe" && !harvesting && h("button", { type: "button", "data-act": "chain-harvest", onclick: () => order({ kind: "harvest", plot: c.grove.field!, rest: "wait" }) }, t("act_harvest_wait"))),
+        step("press", t("press_title"), t("chain_press_text", { olives: num(c.press.inStore), runs: c.press.canRun }), c.press.canRun > 0 && h("button", { type: "button", "data-act": "chain-press", onclick: () => order({ kind: "press", runs: c.press.canRun }) }, t("press_run", { n: c.press.canRun }))),
+        step("oil", t(`good_${c.oil.good}`), c.oil.held > 0 ? t("chain_oil_held", { n: num(c.oil.inStore), held: c.oil.held }) : t("chain_oil", { n: num(c.oil.inStore) })),
+        step("store", t("map_store"), t("chain_store", { free: num(c.store.free), room: num(c.store.room) })),
+        step(
+          "port",
+          t("port_title"),
+          t("chain_port", { net: num(c.port.net), carts: c.port.cartsLeft }),
+          c.port.owed > 0 && Math.min(c.port.owed, c.oil.inStore, c.port.cartsLeft) > 0 && h("button", { type: "button", "data-act": "chain-deliver", onclick: () => order({ kind: "deliver", contract: sc.trade!.contracts[0]!.id, quantity: Math.min(c.port.owed, c.oil.inStore, c.port.cartsLeft) }) }, t("contract_deliver", { n: Math.min(c.port.owed, c.oil.inStore, c.port.cartsLeft) })),
+          c.port.owed === 0 && Math.min(c.oil.inStore - c.oil.held, c.port.cartsLeft) > 0 && h("button", { type: "button", "data-act": "chain-send", onclick: () => order({ kind: "send", good: c.oil.good, quantity: Math.min(c.oil.inStore - c.oil.held, c.port.cartsLeft) }) }, t("port_send", { n: Math.min(c.oil.inStore - c.oil.held, c.port.cartsLeft) })),
+        ),
+      ),
+    );
   }
 
   /** The port, the press and the contract: everything here is an order the rules carry out, or it is not shown. */
@@ -867,6 +961,14 @@ async function main(): Promise<void> {
   /** The field chosen in the 3D valley, said in a card beside it: what stands there, and what can be done at once. */
   function renderFieldPop(): void {
     const f = view === "3d" && selected ? fieldCards(sc, state).find((c) => c.id === selected) : undefined;
+    // A building chosen in the 3D valley has its card beside it, as a field has.
+    const place = view === "3d" && !f ? placeCard() : [];
+    if (place.length) {
+      fieldPop.replaceChildren(...(place.filter(Boolean) as Node[]));
+      fieldPop.hidden = false;
+      placeFieldPop();
+      return;
+    }
     if (!f) {
       fieldPop.hidden = true;
       fieldPop.replaceChildren();
@@ -893,8 +995,9 @@ async function main(): Promise<void> {
   }
   /** Keeps the card beside its field as the view moves. */
   function placeFieldPop(): void {
-    if (fieldPop.hidden || !stage || !selected) return;
-    const at = stage.fieldOnScreen(selected);
+    if (fieldPop.hidden || !stage || (!selected && !picked)) return;
+    const spot = pickedAt();
+    const at = selected ? stage.fieldOnScreen(selected) : spot ? stage.screenOf(spot.x, heightAt(spot.x, spot.z, 7) + 8, spot.z) : null;
     const box = sceneBox.getBoundingClientRect();
     if (!at) {
       fieldPop.style.visibility = "hidden";
@@ -912,8 +1015,10 @@ async function main(): Promise<void> {
     rail.replaceChildren(...tabs.map((id) => h("button", { type: "button", role: "tab", id: `tab-${id}`, "aria-selected": String(tab === id), "aria-controls": "tabpanel", class: tab === id ? "on" : "", onclick: () => setTab(id) }, railIcon(id), h("span", {}, t(`tab_${id}`)))));
     objectives.replaceChildren(...(objectivesPanel().filter(Boolean) as Node[]));
     seasonBox.replaceChildren(...(seasonPanel().filter(Boolean) as Node[]));
+    // On the plan a chosen building's card stands at the head of the part in hand; in 3D it stands beside the building.
+    const place = view === "plan" ? (placeCard().filter(Boolean) as Node[]) : [];
     side.replaceChildren(
-      h("div", { class: "panel", id: "tabpanel", role: "tabpanel", "aria-labelledby": `tab-${tab}` }, ...panel),
+      h("div", { class: "panel", id: "tabpanel", role: "tabpanel", "aria-labelledby": `tab-${tab}` }, place.length > 0 && h("section", { class: "card selected", id: "place-card", tabIndex: -1, "data-part": "place-card" }, ...place), ...panel),
     );
   }
 
@@ -1018,6 +1123,7 @@ async function main(): Promise<void> {
     speed = 0;
     tab = "valley";
     selected = null;
+    picked = null;
     log.length = 0;
     keep();
     render();
@@ -1092,11 +1198,13 @@ async function main(): Promise<void> {
         reducedMotion: matchMedia("(prefers-reduced-motion: reduce)").matches,
         models: query.get("models") !== "off",
         onField: (id) => {
+          picked = null;
           selected = id;
           tab = "fields";
           render();
         },
         onSite: (x, z) => considerSite(x, z),
+        onLand: (x, z) => landClicked(x, z),
         onBuild: (x, z) => buildAt(x, z),
       });
       stage.run();

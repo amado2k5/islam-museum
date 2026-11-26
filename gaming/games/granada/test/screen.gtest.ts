@@ -9,7 +9,7 @@ import { regionView } from "../src/ui/region";
 import { metresBetween } from "../src/world/geography";
 import { readFileSync } from "node:fs";
 import { resolve } from "node:path";
-import { advice, foodToSpare, seasonFigures, warnings, catalogueRows, stocks as stocksOf, tradeSince, decisionRows, effectRows, skyAhead as skyOf, fieldCards, marketRows, tradeView, questRows, riverOfYear, skyAhead, stocks, workRows } from "../src/ui/model";
+import { advice, chainView, foodToSpare, seasonFigures, warnings, catalogueRows, stocks as stocksOf, tradeSince, decisionRows, effectRows, skyAhead as skyOf, fieldCards, marketRows, tradeView, questRows, riverOfYear, skyAhead, stocks, workRows } from "../src/ui/model";
 
 const start = () => newVillage(SC, 7);
 const order = (s: VillageState, ...commands: VillageCommand[]) => {
@@ -86,6 +86,25 @@ describe("the works", () => {
     expect(expand!.now).toEqual({ ok: false, why: "already-under-way" });
     const done = days(s, 2);
     expect(workRows(SC, done)[0]).toMatchObject({ progress: null, built: 1, now: { ok: false, why: "already-done" } });
+  });
+});
+
+describe("the oil's road", () => {
+  it("shows at each step what stands there now, from the same stock as everything else", () => {
+    const c0 = chainView(SC, start())!;
+    expect(c0.grove).toMatchObject({ field: "olive-terrace", state: "growing" });
+    expect(c0.grove.units).toBe(fieldCards(SC, start()).find((f) => f.id === "olive-terrace")!.expected!.units);
+    expect([c0.press, c0.oil, c0.store, c0.port]).toEqual([{ input: "olives", inStore: 0, each: 5, canRun: 0, cost: 12 }, { good: "oil", inStore: 0, held: 0 }, { free: 200, room: 420 }, { id: "malaga", net: 186, cartsLeft: 60, owed: 0 }]);
+    // Olives in the store, a contract taken, some oil pressed and some sent: every step moves with it.
+    const rich = newVillage({ ...SC, stock: { ...SC.stock, olives: 33 } }, 7);
+    let s = order(rich, { kind: "accept", contract: "oil-for-the-port" }, { kind: "press", runs: 4 });
+    let c = chainView(SC, s)!;
+    expect([c.press.inStore, c.press.canRun, c.oil.inStore, c.port.owed]).toEqual([13, 2, 4, 8]);
+    s = order(s, { kind: "deliver", contract: "oil-for-the-port", quantity: 4 });
+    c = chainView(SC, s)!;
+    expect([c.oil.inStore, c.port.owed, c.port.cartsLeft]).toEqual([0, 4, 56]);
+    const { trade: _none, ...plain } = SC;
+    expect(chainView(plain, newVillage(plain, 7))).toBeNull();
   });
 });
 

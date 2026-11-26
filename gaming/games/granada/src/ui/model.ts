@@ -251,6 +251,35 @@ export function catalogueRows(sc: Scenario, s: VillageState): CatalogueRow[] {
   });
 }
 
+/**
+ * The olive oil's road, step by step, each with the figure that stands there now: the grove, the press, the oil in
+ * store, the store's room, the port. It is a view of the same rules and stock as everything else, in the order the
+ * goods travel.
+ */
+export interface ChainView {
+  grove: { field: string | null; state: "none" | "growing" | "ripe"; units: number; inDays: number };
+  press: { input: string; inStore: number; each: number; canRun: number; cost: number };
+  oil: { good: string; inStore: number; held: number };
+  store: { free: number; room: number };
+  port: { id: string; net: number; cartsLeft: number; owed: number };
+}
+export function chainView(sc: Scenario, s: VillageState): ChainView | null {
+  const tv = tradeView(sc, s);
+  if (!tv || !sc.trade) return null;
+  const input = tv.press.from;
+  const def = sc.plots.find((p) => s.plots[p.id]!.crop !== null && CROPS[s.plots[p.id]!.crop!].good === input);
+  const card = def ? fieldCards(sc, s).find((c) => c.id === def.id) : undefined;
+  const oilRow = tv.port.rows.find((r) => r.good === tv.press.makes);
+  const contract = tv.contracts.find((c) => c.good === tv.press.makes && c.state === "accepted");
+  return {
+    grove: !card || card.stage === "spent" || card.stage === "fallow" ? { field: def?.id ?? null, state: "none", units: 0, inDays: 0 } : card.stage === "growing" ? { field: card.id, state: "growing", units: card.expected?.units ?? 0, inDays: card.expected?.inDays ?? 0 } : { field: card.id, state: "ripe", units: card.standing, inDays: 0 },
+    press: { input, inStore: have(s, input), each: tv.press.each, canRun: tv.press.canRun, cost: tv.press.cost },
+    oil: { good: tv.press.makes, inStore: have(s, tv.press.makes), held: s.economy.stock[tv.press.makes]?.reserved ?? 0 },
+    store: { free: freeCapacity(s.economy), room: s.economy.capacity },
+    port: { id: tv.port.id, net: oilRow?.net ?? 0, cartsLeft: tv.port.cartsPerDay - tv.port.carted, owed: contract ? contract.units - contract.delivered : 0 },
+  };
+}
+
 /** What trade has brought since a day, in minor units, read from the ledger's own journal and nothing else. */
 export function tradeSince(s: VillageState, fromDay: number): number {
   let sum = 0;

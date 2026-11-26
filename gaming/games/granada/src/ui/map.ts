@@ -25,7 +25,7 @@ export interface MapView {
   rain: boolean;
   selected: string | null;
   /** What the player has placed, in the valley's own metres, each with the words to say for it. */
-  placed?: Array<{ what: string; x: number; z: number; done: boolean; label: string }>;
+  placed?: Array<{ id: number; what: string; x: number; z: number; done: boolean; label: string }>;
   labels: { title: string; river: string; pool: string; village: string; store: string; market: string; mountain: string; fieldLabel: (f: FieldCard) => string; channel: Record<"flowing" | "weak" | "none", string> };
 }
 
@@ -42,7 +42,27 @@ const BRANCH_PATH: Record<string, string> = {
 };
 const FIELD_FILL: Record<string, string> = { fallow: "#8a6f4d", spent: "#9a8358", wheat_growing: "#7f9a4a", wheat_ripe: "#d9b24a", vegetables_growing: "#5f8f45", vegetables_ripe: "#4f9a3c", olives_growing: "#a8955e", olives_ripe: "#a8955e" };
 
-export function drawMap(root: SVGSVGElement, v: MapView, onField: (id: string) => void): void {
+export function drawMap(root: SVGSVGElement, v: MapView, onField: (id: string) => void, onPlace?: (what: string, id?: number) => void): void {
+  /** Makes a drawing of a building a button that opens it, by pointer or by keyboard. */
+  const opens = <T extends SVGElement>(g: T, label: string, what: string, id?: number): T => {
+    if (!onPlace) return g;
+    g.setAttribute("tabindex", "0");
+    g.setAttribute("role", "button");
+    g.setAttribute("aria-label", label);
+    g.classList.add("opens");
+    g.addEventListener("click", (e) => {
+      e.stopPropagation();
+      onPlace(what, id);
+    });
+    g.addEventListener("keydown", (e) => {
+      const k = (e as KeyboardEvent).key;
+      if (k === "Enter" || k === " ") {
+        e.preventDefault();
+        onPlace(what, id);
+      }
+    });
+    return g;
+  };
   root.replaceChildren();
   root.setAttribute("viewBox", "0 0 1000 560");
   root.setAttribute("role", "group");
@@ -125,11 +145,11 @@ export function drawMap(root: SVGSVGElement, v: MapView, onField: (id: string) =
   spots.slice(0, v.houses + v.housesUnderWay).forEach(([x, y], i) => root.append(house(x, y, i < v.houses ? "house" : "house building")));
   root.append(svg("text", { x: 650, y: 540, class: "map-label", "text-anchor": "middle" }, v.labels.village));
   root.append(
-    svg("g", { class: "store" }, svg("rect", { x: 500, y: 362, width: 62, height: 40 }), svg("rect", { x: 504, y: 402 - Math.round((36 * v.storePct) / 100), width: 54, height: Math.round((36 * v.storePct) / 100), class: "fill" }), svg("path", { d: "M494,362 L531,340 L568,362 Z", class: "roof" })),
+    opens(svg("g", { class: "store" }, svg("rect", { x: 500, y: 362, width: 62, height: 40 }), svg("rect", { x: 504, y: 402 - Math.round((36 * v.storePct) / 100), width: 54, height: Math.round((36 * v.storePct) / 100), class: "fill" }), svg("path", { d: "M494,362 L531,340 L568,362 Z", class: "roof" })), v.labels.store, "store"),
     svg("text", { x: 531, y: 418, class: "map-label small", "text-anchor": "middle" }, `${v.labels.store} ${v.storePct}%`),
   );
   if (v.granary !== "none") root.append(svg("g", { class: `store granary${v.granary === "under-way" ? " building" : ""}` }, svg("rect", { x: 576, y: 372, width: 50, height: 30 }), svg("path", { d: "M570,372 L601,354 L632,372 Z", class: "roof" })));
-  root.append(svg("g", { class: "market" }, svg("path", { d: "M800,496 L852,496 L846,480 L806,480 Z" }), svg("rect", { x: 806, y: 496, width: 40, height: 16 })), svg("text", { x: 826, y: 530, class: "map-label small", "text-anchor": "middle" }, v.labels.market));
+  root.append(opens(svg("g", { class: "market" }, svg("path", { d: "M800,496 L852,496 L846,480 L806,480 Z" }), svg("rect", { x: 806, y: 496, width: 40, height: 16 })), v.labels.market, "market"), svg("text", { x: 826, y: 530, class: "map-label small", "text-anchor": "middle" }, v.labels.market));
   // What the player has placed, where it stands: dashed while it is being built.
   for (const p of v.placed ?? []) {
     const [px, py] = [p.x + 500, p.z + 280];
@@ -138,7 +158,7 @@ export function drawMap(root: SVGSVGElement, v: MapView, onField: (id: string) =
     else if (p.what === "granary") g.append(svg("rect", { x: px - 13, y: py - 7, width: 26, height: 15 }), svg("path", { d: `M${px - 16},${py - 7} L${px},${py - 17} L${px + 16},${py - 7} Z`, class: "roof" }));
     else if (p.what === "cistern") g.append(svg("circle", { cx: px, cy: py, r: 10 }), svg("circle", { cx: px, cy: py, r: 6.5, class: "water" }));
     else g.append(svg("rect", { x: px - 10, y: py - 10, width: 20, height: 20, rx: 2 }), svg("circle", { cx: px - 4, cy: py - 4, r: 3, class: "leaf" }), svg("circle", { cx: px + 4, cy: py + 4, r: 3, class: "leaf" }), svg("circle", { cx: px + 4, cy: py - 4, r: 3, class: "leaf" }), svg("circle", { cx: px - 4, cy: py + 4, r: 3, class: "leaf" }));
-    root.append(g);
+    root.append(opens(g, p.label, "placed", p.id));
   }
   if (v.rain) for (let i = 0; i < 26; i++) root.append(svg("path", { d: `M${(i * 211) % 1000},${(i * 97) % 520} l-6,16`, class: "rain" }));
   // North, so nobody has to guess which way the valley lies.

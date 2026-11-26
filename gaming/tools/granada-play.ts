@@ -354,6 +354,55 @@ if (runs > 8) {
 if ((await page.locator("[data-part='contract'][data-state='settled']").count()) !== 1) await fail("the panel does not show the contract as kept");
 log.trade = { olives, runs, contract, paid: afterPay - beforePay };
 
+// ---- Buildings that can be chosen, and the oil's road worked step by step from one card ----
+await page.goto(url("&fresh=1"));
+await ready();
+await page.locator("#brief-start").click();
+// On the plan, by keyboard: the store opens its card, and the card leads into the Economy.
+await page.locator("svg.map .store.opens").first().focus();
+await page.keyboard.press("Enter");
+if ((await page.locator("#place-card").count()) !== 1 || (await game<string>("document.activeElement.id")) !== "place-card") await fail("choosing the store on the plan did not open its card");
+await shot("9l-store-card");
+await page.locator("#place-card [data-pop='open-market']").click();
+if ((await game<string>("window.__GR__.tab()")) !== "market" || (await page.locator("#place-card").count())) await fail("the store's card did not lead into the Economy");
+const road = page.locator("[data-part='chain']");
+if ((await road.locator("[data-step]").count()) !== 5) await fail("the oil's road does not have its five steps");
+// The whole road from one card: the terrace brought in, pressed, delivered on the contract, the rest sent.
+await game(`(() => { const g = window.__GR__; g.order({ kind: "harvest", plot: "mill-field", rest: "wait" }); g.order({ kind: "repair" }); g.order({ kind: "accept", contract: "oil-for-the-port" }); while (g.state().plots["olive-terrace"].ripeSince === null) g.days(1); })()`);
+await road.locator("[data-act='chain-harvest']").click();
+await game("window.__GR__.days(4)");
+await road.locator("[data-act='chain-press']").click();
+await road.locator("[data-act='chain-deliver']").click();
+if ((await game<string>("window.__GR__.state().economy.contracts['oil-for-the-port'].state")) !== "settled") await fail("the contract was not kept from the oil's road");
+if (await road.locator("[data-act='chain-send']").count()) await road.locator("[data-act='chain-send']").click();
+if ((await game<number>("window.__GR__.state().economy.stock.oil?.quantity ?? 0")) !== 0) await fail("oil is left in the store after the road was worked to its end");
+await shot("9m-chain");
+// A placed building on the plan is a button too.
+await game(`window.__GR__.order({ kind: "place", what: "garden", x: 300, z: 262 })`);
+if (await game<number>("window.__GR__.state().placed.length")) {
+  await page.locator("svg.map .placed.opens").first().focus();
+  await page.keyboard.press("Enter");
+  if ((await page.locator("#place-card progress").count()) !== 1) await fail("a building being built does not say how far it has got");
+}
+// In the 3D valley: a click on the store opens its card beside it.
+await page.waitForFunction("window.__GR__.threeD !== 'pending'", undefined, { timeout: 120_000 });
+if ((await game<string>("window.__GR__.threeD")) === "on") {
+  await page.locator("#view-3d").click();
+  await game("window.__GR__.stage().setPose({ tx: 30, ty: 8, tz: 104, yaw: 1.2, pitch: 0.7, distance: 150 }, true)");
+  await page.waitForTimeout(500);
+  const cv = (await page.locator("canvas.scene").boundingBox())!;
+  await page.mouse.click(cv.x + cv.width / 2, cv.y + cv.height / 2);
+  await page.waitForTimeout(300);
+  if (!(await page.locator("#field-pop [data-pop='open-market']").isVisible())) await fail("a click on the store in the 3D valley did not open its card");
+  // The card stands inside the valley's own frame in every language, a right-to-left one included.
+  const pop = (await page.locator("#field-pop").boundingBox())!;
+  if (pop.x < cv.x - 1 || pop.x + pop.width > cv.x + cv.width + 1 || pop.y < cv.y - 1 || pop.y + pop.height > cv.y + cv.height + 1) await fail(`the store's card is off the valley: ${JSON.stringify(pop)}`);
+  await shot("9n-store-3d");
+  await page.locator("#field-pop [data-pop='close']").click();
+  await page.locator("#view-plan").click();
+}
+log.chosen = true;
+
 // ---- What lies ahead: warnings read from the forecast, gone when the steward acts; the season in figures; food to spare ----
 await page.goto(url("&fresh=1"));
 await ready();
