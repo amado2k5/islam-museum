@@ -433,6 +433,31 @@ for (const lang of ["en", "ar"]) {
   record(`the Atlas shows ten worlds and fifty pages, and one comes home (${lang})`, before.worlds === 10 && before.pages === 50 && before.open === 1 && before.stageHidden && /\D0\D|٠/.test(` ${before.progress} `) && /\D1\D|١/.test(` ${after.progress} `) && after.hubShown && after.canvases === 0 && !after.started && again.turns === 0 && !again.done, { before, after, again });
   await ctx.close();
 }
+// The puzzle is not the same in the three ways of playing: five mirrors with two positions, six with three, seven with
+// three and a page in words that says only where the beam ends.
+{
+  const seen: Record<string, { mirrors: number; leans: number; par: number; words: string; listed: number; third: string; floor: string }> = {};
+  for (const style of ["story", "explorer", "challenge"]) {
+    const ctx = await browser.newContext({ viewport: { width: 1280, height: 800 } });
+    const page = await open(ctx, `&style=${style}`);
+    await playing(page);
+    await ev(page, "window.__HH__.command({type:'skip'}); window.__HH__.touch('mirror-a');");
+    await page.waitForTimeout(300);
+    const got = await ev<{ mirrors: number; leans: number; par: number; words: string; listed: number }>(page, "({ mirrors: window.__HH__.state().puzzle.mirrors.length, leans: (window.__HH__.state().puzzle.leans || []).length, par: window.__HH__.state().par, words: document.querySelector('section p[aria-live]').textContent, listed: [...document.querySelectorAll('section ul button')].filter((b) => /mirror/.test(b.textContent)).length })");
+    // A mirror the room does not have cannot be touched; one it has, turned twice, lies flat where there are three positions.
+    await ev(page, "window.__HH__.touch('mirror-g'); window.__HH__.touch('mirror-d'); window.__HH__.touch('mirror-d');");
+    const third = await ev<string>(page, "window.__HH__.state().puzzle.mirrors.find((m) => m.id === 'd').lean");
+    // With the third mirror laid flat the beam runs along the floor and meets the jar, and the words say so.
+    const floor = style === "explorer" ? await ev<string>(page, "document.querySelector('section p[aria-live]').textContent") : "";
+    seen[style] = { ...got, third, floor };
+    await ctx.close();
+  }
+  const st = seen.story!, ex = seen.explorer!, ch = seen.challenge!;
+  record("the three ways of playing are three puzzles: 5, 6 and 7 mirrors, a third position outside Story, and Challenge is told only where the beam ends",
+    st.mirrors === 5 && st.leans === 2 && st.par === 3 && st.listed === 5 && st.third === "/" &&
+    ex.mirrors === 6 && ex.leans === 3 && ex.par === 3 && ex.listed === 6 && ex.third === "-" && /mirror 1/.test(ex.words) && /tall jar/.test(ex.floor) &&
+    ch.mirrors === 7 && ch.leans === 3 && ch.par === 10 && ch.listed === 7 && !/mirror/.test(ch.words), seen);
+}
 await browser.close();
 await served.close();
 const report = { ran: new Date().toISOString(), results, errors };

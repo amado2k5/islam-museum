@@ -120,7 +120,7 @@ main:focus { outline: none; }
 .words li button { width: 100%; text-align: start; }
 .words p { margin: 6px 0; }
 .small { font-size: 0.88rem; color: var(--muted); }
-.toast { position: fixed; inset-block-end: 16px; inset-inline: 0; margin-inline: auto; width: max-content; max-width: 92%; padding: 10px 18px; background: #1c1206; color: var(--gold); border: 1px solid var(--gold); border-radius: 12px; z-index: 40; }
+.toast { position: fixed; inset-block-end: 16px; inset-inline: 0; margin-inline: auto; width: max-content; max-width: 92%; padding: 10px 18px; background: #1c1206; color: var(--gold); border: 1px solid var(--gold); border-radius: 12px; z-index: 40; pointer-events: none; }
 
 .contrast { --panel: #000; --panel-solid: #000; --line: #fff; --ivory: #fff; --muted: #fff; --gold: #ffe14a; --teal: #7df3ff; }
 .contrast button { background: #000; border-color: #fff; }

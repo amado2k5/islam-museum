@@ -57,7 +57,7 @@ What may **not** be done on any route without his word: cut the supplied thumbna
 | Subject | Ibn al-Haytham's light workshop, opening on a garden and a town at evening (world 3, quest 1) |
 | Proves | the atmosphere; Hudhud moving; the Storykeeper; one person of history; one animal; a layered place; conversation; one puzzle; one secret; three depths of movement; sound; UI; three effects presets |
 | The place | a dark teal room 1,760 px wide in a world of 2,400 by 720 (the view is 1,280 by 720): a shutter with a small hole, shelves, a niche, a reading stand, a chest; an arch with a curtain; beyond it a terrace with a lantern, a fountain, palms and cypresses, and roofs in two depths under an evening sky |
-| The play | a beam enters by the hole; five mirrors on stands turn it; a tower of books stops it; a prism spreads it onto the pale page; the ink returns |
+| The play | a beam enters by the hole; five to seven mirrors on stands (one hung from the ceiling in Challenge) turn it; a tower of books and a tall glazed jar stop it; it falls on the pale page and the ink returns (the prism was taken out on 26 November 2026) |
 | The secret | fly to the ledge over the arch and pull the cord: the curtain closes, the room goes dark and the town appears upside down on the curtain, opposite the hole. A feather waits on the fountain |
 | Composite, and said to be | the house and the skyline stand for no real building or city (ledger HR-HH-07) |
 | The prism | **taken out on 26 November 2026** by the founder's directive: both supplied pictures show one and no museum record read for the scene supports it. The museum note says why none is shown (ledger HR-HH-03) |
