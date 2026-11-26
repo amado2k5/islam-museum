@@ -17,8 +17,8 @@ import sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import bpy  # noqa: E402
-from common import Part, clear_scene, export_gltf, make_lod, make_materials, render_preview, textures, triangles  # noqa: E402
-from kit import arch_band, corbels, door, gable_ends, lattice, merlons, opening, pyramid, roof_at, roof_y, string_course, under_eave_wear, wear_course  # noqa: E402
+from common import Part, clear_scene, export_gltf, make_materials, render_preview, textures, triangles  # noqa: E402
+from kit import door, gable_ends, merlons, opening, pyramid, roof_at, roof_y  # noqa: E402
 
 argv = sys.argv[sys.argv.index("--") + 1:] if "--" in sys.argv else []
 out_dir = os.path.abspath(argv[0]) if argv else os.path.abspath("gaming/media/models/granada/2")
@@ -44,11 +44,6 @@ def tower(part, w, h, at, material="plaster_red", top=None):
     part.box((w + 0.8, w + 0.8, 2.0), (x, y, 1.0), material="stone", bevel=0.08)
     part.box((w, w, h), (x, y, h / 2), material=material, bevel=0.06)
     part.box((w + 0.4, w + 0.4, 0.35), (x, y, h - 2.8), material="stone", bevel=0.05)
-    string_course(part, w, w, h * 0.42, x=x, y=y, material="stone")
-    string_course(part, w, w, h - 2.8, x=x, y=y, material="stone")
-    corbels(part, w - 0.8, (x, y - w / 2 + 0.11, h - 0.25), "x", material="stone")
-    corbels(part, w - 0.8, (x, y + w / 2 - 0.11, h - 0.25), "x", material="stone")
-    wear_course(part, w - 0.7, y - w / 2, x=x, count=6)
     for sx, sy, along in ((0, -1, "x"), (0, 1, "x"), (-1, 0, "y"), (1, 0, "y")):
         part.box((w if along == "x" else 0.5, 0.5 if along == "x" else w, 1.0), (x + sx * (w / 2 - 0.25), y + sy * (w / 2 - 0.25), h + 0.5), material=material, bevel=0)
         merlons(part, w - 0.6, (x + sx * (w / 2 - 0.25), y + sy * (w / 2 - 0.25), h + 1.0), along, material=material, size=(1.1, 0.5, 0.9), gap=2.1)
@@ -92,17 +87,12 @@ hy = PD / 2 - WALL_T - HD / 2 - 1.0
 p.box((HW, HD, HH), (0, hy, HH / 2), material="plaster", bevel=0.05)
 gable_ends(p, HW, HD, HH, 0, hy, material="plaster")
 roof_at(p, HW, HD, HH, 0, hy)
-under_eave_wear(p, HW, HD, HH, x=0, y=hy)
 ARC = 4.6
 for i in range(10):
     x = -HW / 2 + 2.0 + i * (HW - 4.0) / 9
     p.cylinder(0.28, ARC, (x, hy - HD / 2 - 3.0, ARC / 2), material="stone", segments=8)
     p.box((0.8, 0.8, 0.3), (x, hy - HD / 2 - 3.0, ARC + 0.15), material="stone", bevel=0.03)
 p.box((HW - 2.0, 0.6, 1.2), (0, hy - HD / 2 - 3.0, ARC + 0.9), material="plaster", bevel=0.03)
-arch_band(p, -HW / 2 + 2.0, HW / 2 - 2.0, hy - HD / 2 - 3.12, ARC, 0.78, 9, material="plaster")
-# Carved-looking timber screens in the hall wall behind the arcade; geometry only, no inscription.
-for x in (-16, -8, 0, 8, 16):
-    lattice(p, x, hy - HD / 2 - 0.04, 7.4, 1.0, 1.45)
 slope = math.radians(14)
 p.box((HW - 1.0, 3.9 / math.cos(slope), 0.14), (0, hy - HD / 2 - 1.6, ARC + 1.5 + math.tan(slope) * 1.6), (slope, 0, 0), material="rooftile", bevel=0.02, grain=1)
 for x in (-16, -8, 0, 8, 16):
@@ -121,14 +111,6 @@ for x in (-24.0, 16.0):
     p.box((7.0, 7.0, 6.0), (x, 3.0, 3.0), material="plaster", bevel=0.05)
     pyramid(p, 7.0, 3.2, (x, 3.0, 6.0))
     door(p, x, 3.0 - 3.5, 1.4, 2.6, arch=True)
-    lattice(p, x - 1.8, 3.0 - 3.53, 3.8, 0.85, 1.1)
-    lattice(p, x + 1.8, 3.0 - 3.53, 3.8, 0.85, 1.1)
-# Stone wear at the front wall's foot, steps into the pool, and a low lip round its water.
-wear_course(p, 56.0, -PD / 2 + 0.78, x=-2.0, count=14)
-for sx in (-1, 1):
-    p.box((1.6, 5.9, 0.18), (-4.0 + sx * 14.4, 3.0, 0.59), material="stone", bevel=0.025)
-for sy in (-1, 1):
-    p.box((29.2, 0.24, 0.18), (-4.0, 3.0 + sy * 2.92, 0.59), material="stone", bevel=0.025)
 finish("palace", p, (PW + 1.0, PD + 6.0, 34.0))
 
 # ---- the estate: a farmhouse, a store and an open press-house round a yard --------------------------------------
@@ -138,26 +120,16 @@ e.box((12.2, 7.2, 0.7), (-7.0, 6.0, 0.35), material="stone", bevel=0.05)
 e.box((12.0, 7.0, 6.2), (-7.0, 6.0, 3.1), material="plaster", bevel=0.05)
 gable_ends(e, 12.0, 7.0, 6.2, -7.0, 6.0, material="plaster")
 rise = roof_at(e, 12.0, 7.0, 6.2, -7.0, 6.0)
-under_eave_wear(e, 12.0, 7.0, 6.2, x=-7.0, y=6.0)
 door(e, -9.0, 6.0 - 3.5, 1.2, 2.2, arch=True)
 for x in (-11.0, -6.0, -3.0):
     opening(e, x, 6.0 - 3.5, 4.6, 0.7, 1.0)
 opening(e, -5.0, 6.0 - 3.5, 1.8, 0.7, 0.9)
-# A small arcade before the farmhouse: four stone posts, arches and a timber plate under the eave.
-for x in (-11.0, -8.7, -6.4, -4.1):
-    e.cylinder(0.18, 3.1, (x, 2.05, 1.55), material="stone", segments=8)
-    e.box((0.46, 0.46, 0.18), (x, 2.05, 3.18), material="stone", bevel=0.025)
-arch_band(e, -11.0, -4.1, 1.94, 3.08, 0.55, 3, material="plaster")
-e.box((7.6, 0.34, 0.22), (-7.55, 2.05, 3.55), material="wood", bevel=0.02, grain=0)
-wear_course(e, 11.4, 6.0 - 3.5, x=-7.0, count=10)
-string_course(e, 12.0, 7.0, 3.0, x=-7.0, y=6.0, material="stone")
 e.box((0.6, 0.6, 2.2), (-3.0, 7.5, 6.2 + rise), material="plaster", bevel=0.03)
 e.box((0.8, 0.8, 0.1), (-3.0, 7.5, 6.2 + rise + 1.15), material="rooftile", bevel=0.02)
 # The store: one tall storey with a wide door for a cart.
 e.box((10.0, 6.4, 4.6), (7.5, 6.4, 2.3), material="plaster_warm", bevel=0.05)
 gable_ends(e, 10.0, 6.4, 4.6, 7.5, 6.4, material="plaster_warm")
 roof_at(e, 10.0, 6.4, 4.6, 7.5, 6.4)
-under_eave_wear(e, 10.0, 6.4, 4.6, x=7.5, y=6.4)
 door(e, 7.5, 6.4 - 3.2, 2.6, 3.0)
 opening(e, 4.2, 6.4 - 3.2, 3.2, 0.6, 0.7, shutters=False)
 # The press-house: a tiled roof on posts, open to the yard, with the press beam, its screw and a stone bed under it.
@@ -172,11 +144,6 @@ e.cylinder(1.0, 0.5, (PX - 1.2, PY, 0.75), material="stone", segments=16)
 e.box((6.4, 0.34, 0.34), (PX + 0.4, PY, 1.9), (0, math.radians(-6), 0), material="wood", bevel=0.03, grain=0)
 e.cylinder(0.13, 2.6, (PX + 3.0, PY, 1.3), material="wood", segments=8, grain=2)
 e.box((1.0, 1.0, 0.5), (PX + 3.0, PY, 0.25), material="stone", bevel=0.04)
-# The press screw's thread, a rope round the windlass and a second row of small vessels by the store.
-for i in range(7):
-    e.cylinder(0.16, 0.035, (PX + 3.0, PY, 0.55 + i * 0.28), material="dark", segments=8)
-for i in range(5):
-    e.cylinder(0.14 + 0.02 * (i % 2), 0.42, (11.0 - i * 0.42, 2.55, 0.21), material="clay", segments=8, radius_top=0.09)
 # Oil jars in a row against the store, baskets by the press, and the wall that closes the yard, with its gate.
 for i in range(6):
     e.cylinder(0.42, 1.0, (3.6 + i * 1.05, 2.6, 0.5), material="plaster_warm", segments=10, radius_top=0.26)
@@ -205,22 +172,9 @@ c.cylinder(0.08, 3.2, (0, 1.6, 1.3), (0, math.pi / 2, 0), material="wood", segme
 for sx in (-1, 1):
     c.box((0.16, 0.16, 2.0), (sx * 1.5, 1.6, 1.0), material="wood", bevel=0.01, grain=2)
 c.box((3.4, 3.6, 0.2), (0, 0.8, 0.1), material="wood", bevel=0.02, grain=0)
-# A pulley at the jib's end, rope wound round the windlass, and two braces inside the crane's old silhouette.
-c.cylinder(0.22, 0.12, (0, -5.95, 8.05), (math.pi / 2, 0, 0), material="wood", segments=10)
-for i in range(6):
-    c.cylinder(0.93, 0.025, (-0.45 + i * 0.18, 1.6, 1.3), (0, math.pi / 2, 0), material="dark", segments=10)
-for sx in (-1, 1):
-    c.cylinder(0.055, 4.6, (sx * 0.9, 0.55, 2.4), (math.radians(18), sx * math.radians(17), 0), material="wood", segments=6, grain=2)
 finish("crane", c, (3.4, 9.6, 9.8))
 
-exported = []
-for m in made.values():
-    exported.append(m["object"])
-    exported.append(make_lod(m["object"]))
-export_gltf(os.path.join(out_dir, "landmarks.gltf"), exported)
-for obj in exported:
-    if obj.name.endswith("-lod1"):
-        obj.hide_render = True
+export_gltf(os.path.join(out_dir, "landmarks.gltf"), [m["object"] for m in made.values()])
 with open(os.path.join(out_dir, "landmarks.kit.json"), "w") as kit:
     json.dump({"pieces": {n: {"footprint": m["footprint"], "triangles": m["triangles"]} for n, m in made.items()}}, kit, indent=1)
     kit.write("\n")

@@ -9,13 +9,15 @@ The games' scenery was generated in the browser, at load, from boxes. This folde
 | | |
 |---|---|
 | `blender/common.py` | The kit: tiling texture sets painted by arithmetic (base colour, tangent-space normal, roughness); parts built of bevelled boxes, cylinders and prisms in real metres, each mapped in its own frame; cuts; the glTF export; a lit preview render |
-| `blender/kit.py` | Building pieces shared by the scripts: roofs, openings, courses, screens, arcade bands and wear |
-| `blender/granada_mill.py` | Granada: the watermill |
-| `blender/granada_town.py` | Granada: four houses, wall, tower, gate, scaffolding and stall in one town kit |
-| `blender/granada_landmarks.py` | Granada: palace, estate and builders' crane in one landmarks file |
+| `blender/kit.py` | Building pieces shared by the unchanged set-2 scripts: roofs, openings, doors, chimneys and merlons |
+| `blender/granada_mill.py` | Granada set 2, unchanged: the watermill |
+| `blender/granada_town.py` | Granada set 2, unchanged: four houses, wall, tower, gate, scaffolding and stall in one town kit |
+| `blender/granada_landmarks.py` | Granada set 2, unchanged: palace, estate and builders' crane in one landmarks file |
+| `blender/common3.py`, `blender/kit3.py` | The proof pipeline: set 3's deterministic export and extended building helpers, kept separate so the set-2 generator cannot change kind |
+| `blender/granada_mill3.py`, `blender/granada_town3.py`, `blender/granada_landmarks3.py` | Granada set 3: the finished proof candidate |
 | `compare_granada.py` | The set-2/set-3 interface comparison: names, origins, outer sizes, kit footprints and LODs |
 | `blender/render_granada_compare.py` | Side-by-side evidence renders of the two sets, not used by the game |
-| `manifest.py`, `manifest.json` | For each asset: its source scripts and every output file, with sizes and SHA-256 |
+| `manifest.py`, `manifest.json` | For each asset: its source scripts and every output file, with sizes and SHA-256. `assets` is the publishable set-2 baseline; `proofAssets` is local-only set-3 evidence and is not read by the model publisher |
 
 ## Surfaces photographed by others
 
@@ -36,9 +38,9 @@ Blender 5.3 must be on the path (`brew install --cask blender`). From `gaming/`:
 ```bash
 npm run art:mill                 # prepares the textures, builds the mill, writes media/models/granada/2/mill.gltf
 npm run art:town                 # the town kit, into the same folder
-npm run art:mill3                # the finished mill, into media/models/granada/3
-npm run art:town3                # the finished town kit, into the same folder
-npm run art:landmarks3           # the finished palace, estate and crane, into the same folder
+npm run art:mill3                # the finished mill proof, into media/models/granada/3
+npm run art:town3                # the finished town-kit proof, into the same folder
+npm run art:landmarks3           # the finished palace, estate and crane proof, into the same folder
 python3 art/compare_granada.py   # compares sets 2 and 3 once both exist on this machine
 npm run art:mill -- preview.png  # the same, and a lit picture of it (about two minutes more)
 npm run art:manifest             # records what came out
@@ -62,7 +64,7 @@ Like the music: the models are served beside the releases, from `media/models/` 
 
 ## What it does not do yet
 
-- Set 3 carries one lower level of detail for every exported object, named `<object>-lod1` with `lodOf` and `lodLevel` extras; the game does not yet choose it. A future loader must filter or use those nodes rather than simply drawing every node. No collision shapes, no compressed GPU textures.
+- The original `art:mill` and `art:town` commands still run the unchanged set-2 scripts. Set 3 is made only by the separate `*3.py` scripts. It carries one lower level of detail for every exported object, named `<object>-lod1` with `lodOf` and `lodLevel` extras; the game does not yet choose it. A future loader must filter or use those nodes rather than simply drawing every node. No collision shapes, no compressed GPU textures.
 - No figures: nothing here can make a person or an animal that walks.
 - On this machine and Blender 5.3.0, the three set-3 export scripts gave byte-identical files across a double run; whether another machine or another Blender gives the same bytes is not known. The manifest is there to find out.
 - No one but the author has looked at it.
