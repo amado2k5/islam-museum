@@ -342,18 +342,23 @@ await page.locator(`[data-act='press-${runs}']`).click();
 const oil = await game<number>("window.__GR__.state().economy.stock.oil.quantity");
 if (oil !== runs) await fail(`pressing ${runs} times left ${oil} of oil`);
 await shot("9b-trade");
-const beforePay = await game<number>("window.__GR__.state().economy.treasury.available");
+// Eight are sent on the contract, and what is over to the port's open market. Nothing is paid while they travel.
 await page.locator("[data-act='deliver-oil-for-the-port-8']").click();
-const afterPay = await game<number>("window.__GR__.state().economy.treasury.available");
+if (runs > 8) await page.locator(`[data-act='send-oil-${runs - 8}']`).click();
+const onRoad = await game<{ contract: string; loads: number; oil: number }>("(() => { const s = window.__GR__.state(); return { contract: s.economy.contracts['oil-for-the-port'].state, loads: s.shipments.length, oil: s.economy.stock.oil?.quantity ?? 0 }; })()");
+if (onRoad.contract !== "accepted" || onRoad.loads !== (runs > 8 ? 2 : 1) || onRoad.oil !== 0) await fail(`the oil did not go on the road: ${JSON.stringify(onRoad)}`);
+if ((await page.locator("[data-part='road'] li").count()) !== onRoad.loads) await fail("the loads on the road are not listed");
+await shot("9b-on-the-road");
+// The road is three days: on the fourth morning both loads are at the port.
+await game("window.__GR__.days(3)");
+if ((await game<number>("window.__GR__.state().shipments.length")) !== onRoad.loads) await fail("a load arrived before its day");
+await game("window.__GR__.days(1)");
+const arrived = await game<string[]>("window.__GR__.state().last.events");
 const contract = await game<string>("window.__GR__.state().economy.contracts['oil-for-the-port'].state");
-if (contract !== "settled" || afterPay - beforePay !== 168000) await fail(`the contract is ${contract} and paid ${afterPay - beforePay}`);
-if (runs > 8) {
-  await page.locator(`[data-act='send-oil-${runs - 8}']`).click();
-  const sent = await game<number>("window.__GR__.state().economy.treasury.available");
-  if (sent - afterPay !== (runs - 8) * 18600) await fail(`sending ${runs - 8} of oil to the port brought ${sent - afterPay}`);
-}
+if (contract !== "settled" || !arrived.includes("delivered:oil-for-the-port:8") || (runs > 8 && !arrived.includes(`sold-at-port:oil:${runs - 8}:${(runs - 8) * 19000}`))) await fail(`the loads did not arrive as they should: ${contract}, ${JSON.stringify(arrived)}`);
 if ((await page.locator("[data-part='contract'][data-state='settled']").count()) !== 1) await fail("the panel does not show the contract as kept");
-log.trade = { olives, runs, contract, paid: afterPay - beforePay };
+if (await page.locator("[data-part='road']").count()) await fail("the road still lists loads that have arrived");
+log.trade = { olives, runs, contract, arrived };
 
 // ---- Buildings that can be chosen, and the oil's road worked step by step from one card ----
 await page.goto(url("&fresh=1"));
@@ -374,9 +379,11 @@ await road.locator("[data-act='chain-harvest']").click();
 await game("window.__GR__.days(4)");
 await road.locator("[data-act='chain-press']").click();
 await road.locator("[data-act='chain-deliver']").click();
-if ((await game<string>("window.__GR__.state().economy.contracts['oil-for-the-port'].state")) !== "settled") await fail("the contract was not kept from the oil's road");
 if (await road.locator("[data-act='chain-send']").count()) await road.locator("[data-act='chain-send']").click();
 if ((await game<number>("window.__GR__.state().economy.stock.oil?.quantity ?? 0")) !== 0) await fail("oil is left in the store after the road was worked to its end");
+if (!(await road.locator("[data-step='port']").textContent())?.match(/\d/)) await fail("the port's step says nothing");
+await game("window.__GR__.days(4)");
+if ((await game<string>("window.__GR__.state().economy.contracts['oil-for-the-port'].state")) !== "settled") await fail("the contract was not kept from the oil's road");
 await shot("9m-chain");
 // A placed building on the plan is a button too.
 await game(`window.__GR__.order({ kind: "place", what: "garden", x: 300, z: 262 })`);

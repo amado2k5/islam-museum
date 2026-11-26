@@ -230,7 +230,7 @@
   "event_contract_failed": "The contract with the port was not kept. The penalty has been charged.",
   "refuse_carts-full": "The carts are full for today.",
   "refuse_contract-closed": "That contract is not open.",
-  "refuse_contract-late": "The day for that contract has passed.",
+  "refuse_contract-late": "The day for that contract has passed, or a load sent now would arrive after it.",
   "refuse_too-much": "That is more than the contract asks.",
   "catalogue_title": "Build on the land",
   "catalogue_note": "Choose a building, then its ground. The ground refuses water, fields, roads, steep slopes, trees and whatever already stands.",
@@ -397,5 +397,16 @@
   "help_trade": "In the Economy, prices move overnight with what a market holds. The card \"From the grove to the port\" follows the olive oil step by step.",
   "help_choose": "In the 3D valley, click a field or a building to open its card. Photo mode puts the page away to take a picture; the game stands still meanwhile.",
   "help_years": "A year that is won can be followed by the next, with the valley as you left it: its people, its store, its buildings and what is sown.",
-  "help_keys": "Keys: 1 to 5 open the five parts; P pauses; N passes a day; H opens this help; Escape leaves photo mode or stops the choosing of ground."
+  "help_keys": "Keys: 1 to 5 open the five parts; P pauses; N passes a day; H opens this help; Escape leaves photo mode or stops the choosing of ground.",
+  "port_days": "A load takes {days} days to reach the port. It is sold there at what the port pays on the morning it arrives.",
+  "road_title": "On the road",
+  "road_load": "{n} of {good}: arrives in {days} days",
+  "road_load_contract": "{n} of {good}, for the contract: arrives in {days} days",
+  "contract_on_road": "On the road: {n}.",
+  "contract_send_within": "To arrive in time, what is still owed must leave within {days} days.",
+  "contract_too_late": "A load sent now would arrive after the contract's day.",
+  "chain_on_road": "On the road: {n}.",
+  "event_delivered": "{n} reached the port on the contract.",
+  "event_sold_at_port": "{n} of {good} reached the port and sold for {dinars} dinars.",
+  "region_road": "On the road to the port: {n} loads, {units} measures"
 }

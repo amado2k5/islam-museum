@@ -117,15 +117,18 @@ describe("the oil's road", () => {
     const c0 = chainView(SC, start())!;
     expect(c0.grove).toMatchObject({ field: "olive-terrace", state: "growing" });
     expect(c0.grove.units).toBe(fieldCards(SC, start()).find((f) => f.id === "olive-terrace")!.expected!.units);
-    expect([c0.press, c0.oil, c0.store, c0.port]).toEqual([{ input: "olives", inStore: 0, each: 5, canRun: 0, cost: 12 }, { good: "oil", inStore: 0, held: 0 }, { free: 200, room: 420 }, { id: "malaga", net: 186, cartsLeft: 60, owed: 0 }]);
+    expect([c0.press, c0.oil, c0.store, c0.port]).toEqual([{ input: "olives", inStore: 0, each: 5, canRun: 0, cost: 12 }, { good: "oil", inStore: 0, held: 0 }, { free: 200, room: 420 }, { id: "malaga", net: 186, cartsLeft: 60, owed: 0, canDeliver: 0, onRoad: 0, days: 3 }]);
     // Olives in the store, a contract taken, some oil pressed and some sent: every step moves with it.
     const rich = newVillage({ ...SC, stock: { ...SC.stock, olives: 33 } }, 7);
     let s = order(rich, { kind: "accept", contract: "oil-for-the-port" }, { kind: "press", runs: 4 });
     let c = chainView(SC, s)!;
-    expect([c.press.inStore, c.press.canRun, c.oil.inStore, c.port.owed]).toEqual([13, 2, 4, 8]);
+    expect([c.press.inStore, c.press.canRun, c.oil.inStore, c.port.owed, c.port.canDeliver]).toEqual([13, 2, 4, 8, 4]);
     s = order(s, { kind: "deliver", contract: "oil-for-the-port", quantity: 4 });
     c = chainView(SC, s)!;
-    expect([c.oil.inStore, c.port.owed, c.port.cartsLeft]).toEqual([0, 4, 56]);
+    // Four are on the road for the contract: the store has none, four more are still to send.
+    expect([c.oil.inStore, c.port.owed, c.port.onRoad, c.port.cartsLeft]).toEqual([0, 4, 4, 56]);
+    const there = chainView(SC, days(s, 4))!;
+    expect([there.port.onRoad, there.port.owed]).toEqual([0, 4]);
     const { trade: _none, ...plain } = SC;
     expect(chainView(plain, newVillage(plain, 7))).toBeNull();
   });
@@ -203,20 +206,24 @@ describe("prices on the page", () => {
     // What the panel says can be sold, at the price it shows, is what the rules pay.
     const one = act(SC, next, { kind: "buy", good: "olives", quantity: 1 });
     expect(one.result).toMatchObject({ ok: true, money: -next.economy.markets.village!.goods.olives!.ask });
-    const port = tradeView(SC, days(order(start(), { kind: "send", good: "wheat", quantity: 60 }), 1))!.port.rows.find((r) => r.good === "wheat")!;
-    expect([port.trend, port.demand]).toEqual(["down", "glut"]);
+    // A load sent to the port moves its price the morning after it arrives, not before.
+    const sent = order(start(), { kind: "send", good: "wheat", quantity: 60 });
+    const wheatAt = (s: VillageState) => tradeView(SC, s)!.port.rows.find((r) => r.good === "wheat")!;
+    expect([wheatAt(days(sent, 3)).trend, wheatAt(days(sent, 3)).demand]).toEqual(["steady", "usual"]);
+    expect([wheatAt(days(sent, 4)).trend, wheatAt(days(sent, 4)).demand]).toEqual(["down", "glut"]);
   });
 
   it("counts what trade has brought in thirty days from the ledger's own journal", () => {
     const s0 = start();
     expect(stocksOf(SC, s0).trade30).toBe(0);
     const s = order(s0, { kind: "send", good: "wheat", quantity: 10 }, { kind: "buy", good: "stone", quantity: 5 }, { kind: "sell", good: "timber", quantity: 10 });
-    // Ten wheat at the port for 22 less 2 of carriage; five stone bought at 20; ten timber sold at 9.
-    expect(tradeSince(s, s.day)).toBe((10 * (22 - 2) - 5 * 20 + 10 * 9) * 100);
-    expect(stocksOf(SC, s).trade30).toBe(190);
-    // It is trade only: the works, the levy and a task's reward are not in it.
-    const worked = days(order(s, { kind: "repair" }), 3);
+    // Ten wheat sent to the port at 2 of carriage each; five stone bought at 20; ten timber sold at 9. The wheat is not paid for yet.
+    expect(tradeSince(s, s.day)).toBe((-10 * 2 - 5 * 20 + 10 * 9) * 100);
+    expect(stocksOf(SC, s).trade30).toBe(-30);
+    // The morning it arrives the port pays 22 each. It is trade only: the works, the levy and a task's reward are not in it.
+    const worked = days(order(s, { kind: "repair" }), 4);
     expect(tradeSince(worked, s.day)).toBe(19000);
+    expect(stocksOf(SC, worked).trade30).toBe(190);
     expect(stocksOf(SC, days(worked, 31)).trade30).toBe(0);
   });
 });
@@ -243,7 +250,9 @@ describe("the region", () => {
   it("lays over it only what the game holds: carts, contract, fields, water, store and buildings", () => {
     const s = days(order(start(), { kind: "send", good: "wheat", quantity: 20 }, { kind: "accept", contract: "oil-for-the-port" }, { kind: "place", what: "garden", x: 600, z: 250 }), 0);
     const f = regionView(SC, s, pack).facts;
-    expect(f.economy).toEqual([{ key: "region_carts", values: { used: 20, max: 60 } }, { key: "region_port_cash", values: { dinars: 6000 - 20 * 22 } }, { key: "region_contract_accepted", values: { have: 0, want: 8 } }]);
+    expect(f.economy).toEqual([{ key: "region_carts", values: { used: 20, max: 60 } }, { key: "region_port_cash", values: { dinars: 6000 } }, { key: "region_contract_accepted", values: { have: 0, want: 8 } }, { key: "region_road", values: { n: 1, units: 20 } }]);
+    // When the load has arrived the port has paid for it, and nothing is on the road.
+    expect(regionView(SC, days(s, 4), pack).facts.economy.map((x) => x.key)).toEqual(["region_carts", "region_port_cash", "region_contract_accepted"]);
     expect(f.agriculture[0]).toEqual({ key: "region_fields", values: { sown: 2, all: 3 } });
     expect(f.agriculture.slice(1).map((x) => x.values.field)).toEqual(["mill-field", "olive-terrace"]);
     expect(f.infrastructure).toEqual([{ key: "region_pool", values: { have: 150, max: 300 } }, { key: "region_channels", values: { flowing: 2, all: 3 } }, { key: "region_store", values: { free: 220, room: 420 } }, { key: "region_built", values: { n: 0 } }]);

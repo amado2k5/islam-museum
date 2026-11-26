@@ -18,8 +18,9 @@ import { MINOR, audit, dinars, freeCapacity, open, submit, type CommandResult, t
 // 5: decisions put to the steward, what follows from them for a time, and a journal of what has happened.
 // 6: markets whose prices move with what they hold, and yesterday's prices kept so a trend can be shown.
 // 7: a campaign of years: the year the valley is in, and a scenario that takes up where the last one ended.
+// 8: goods that take days to reach the port: the loads on the road.
 // A game saved under an earlier version is brought forward by `upgradeVillage`, never loaded half-right.
-export const VILLAGE_VERSION = 7;
+export const VILLAGE_VERSION = 8;
 export const SEASON_DAYS = 30;
 export const YEAR_DAYS = 120;
 export type Season = 0 | 1 | 2 | 3; // spring, summer, autumn, winter
@@ -100,7 +101,8 @@ export interface BranchDef {
  * of another. And contracts: so much of a good by a day, at a price agreed, with a penalty if it is not kept.
  */
 export interface TradeDef {
-  port: { id: string; market: Market; carriage: Record<string, number>; cartsPerDay: number };
+  /** `days`: how long a load is on the road to the port. It is sold, or delivered, on the morning it arrives. */
+  port: { id: string; market: Market; carriage: Record<string, number>; cartsPerDay: number; days: number };
   press: Recipe;
   contracts: Array<{ id: string; good: string; units: number; byDay: number; revenue: number; transport: number; fees: number; penalty: number }>;
 }
@@ -270,6 +272,8 @@ export interface VillageState {
   effects: Effect[];
   /** What has happened, in order: the day and the event, for the journal. The last sixty are kept. */
   journal: Array<{ day: number; event: string }>;
+  /** The loads on the road to the port: what each carries, whether it is for a contract, and the morning it arrives. */
+  shipments: Array<{ id: string; good: string; quantity: number; contract: string | null; arrives: number }>;
   /** What each market asked yesterday for each good, so that today's price can be called rising, falling or steady. */
   priceWas: Record<string, Record<string, number>>;
   quests: Record<QuestId, boolean>;
@@ -351,6 +355,8 @@ export function nextYear(sc: Scenario, prev: VillageState): VillageState | null 
   s.last = null;
   s.carted = 0;
   s.everFull = false;
+  // A load still on the road arrives in the new year, as many mornings on as it had left.
+  s.shipments = s.shipments.map((sh) => ({ ...sh, arrives: sc.startDay + Math.max(0, sh.arrives - prev.day) }));
   s.streak = { eastWatered: 0, reserve: 0 };
   s.effects = [];
   s.quests = Object.fromEntries(tasksOf(sc).map((x) => [x.id, false]));
@@ -425,6 +431,7 @@ export function newVillage(sc: Scenario, seed: number): VillageState {
     decisions: Object.fromEntries((sc.decisions ?? []).map((d) => [d.id, { state: "ahead" as const, choice: null, day: null }])),
     effects: [],
     journal: [],
+    shipments: [],
     priceWas: asksOf(economy),
     quests: Object.fromEntries(tasksOf(sc).map((x) => [x.id, false])),
     last: null,
@@ -453,7 +460,7 @@ export const treasuryOf = (s: VillageState): number => s.economy.treasury.availa
  */
 export function upgradeVillage(sc: Scenario, saved: VillageState): VillageState | null {
   if (saved.version === VILLAGE_VERSION) return saved;
-  if (![1, 2, 3, 4, 5, 6].includes(saved.version)) return null;
+  if (![1, 2, 3, 4, 5, 6, 7].includes(saved.version)) return null;
   const s = structuredClone(saved) as VillageState;
   s.version = VILLAGE_VERSION;
   // From 2 to 3: nothing has been placed yet. From 3 to 4: no field has been put first.
@@ -467,6 +474,9 @@ export function upgradeVillage(sc: Scenario, saved: VillageState): VillageState 
   s.priceWas ??= asksOf(s.economy);
   // From 6 to 7: a valley saved before there were years is in its first.
   s.year ??= 1;
+  // From 7 to 8: nothing is on the road yet.
+  s.shipments ??= [];
+  s.economy.road ??= {};
   if (saved.version >= 2) return s;
   s.carted = 0;
   const e = s.economy;
@@ -701,19 +711,19 @@ function apply(sc: Scenario, s: VillageState, cmd: VillageCommand): ActResult {
       const carriage = port.carriage[cmd.good];
       if (!s.economy.markets[port.id]?.goods[cmd.good] || carriage === undefined) return { ok: false, why: "unknown-good" };
       if (s.carted + cmd.quantity > port.cartsPerDay) return { ok: false, why: "carts-full", detail: { left: port.cartsPerDay - s.carted } };
-      // The carriage is paid on what leaves, and the port pays for what arrives: both or neither, so everything
-      // that could refuse the sale is looked at before a dinar is spent.
-      const m = s.economy.markets[port.id]!;
-      const bid = m.goods[cmd.good]!.bid;
-      if (have(s, cmd.good) < cmd.quantity) return { ok: false, why: "not-enough", detail: { have: have(s, cmd.good) } };
+      // The carriage is paid on what leaves; the port pays for what arrives, at what it pays that morning. Everything
+      // that could stop the load leaving is looked at before a dinar is spent.
+      const free = have(s, cmd.good) - (s.economy.stock[cmd.good]?.reserved ?? 0);
+      if (free < cmd.quantity) return { ok: false, why: "not-enough", detail: { have: free } };
       if (treasuryOf(s) < carriage * cmd.quantity) return { ok: false, why: "no-money", detail: { cost: carriage * cmd.quantity, have: treasuryOf(s) } };
-      if (m.cash < bid * cmd.quantity) return { ok: false, why: "market-poor", detail: { cash: m.cash } };
       const paid = ledger(s, { kind: "spend", amount: carriage * cmd.quantity, why: `carriage to ${port.id}` });
       if (!paid.ok) return refused(paid);
-      const sold = ledger(s, { kind: "sell", market: port.id, good: cmd.good, quantity: cmd.quantity });
-      if (!sold.ok) return refused(sold);
+      const id = `load-${s.year}-${s.day}-${s.n}`;
+      const sent = ledger(s, { kind: "dispatch", shipment: id, market: port.id, good: cmd.good, quantity: cmd.quantity });
+      if (!sent.ok) return refused(sent);
       s.carted += cmd.quantity;
-      return { ok: true, money: sold.money - carriage * cmd.quantity };
+      s.shipments.push({ id, good: cmd.good, quantity: cmd.quantity, contract: null, arrives: s.day + port.days });
+      return { ok: true, money: -carriage * cmd.quantity };
     }
     case "accept": {
       if (!sc.trade) return { ok: false, why: "no-trade" };
@@ -725,10 +735,17 @@ function apply(sc: Scenario, s: VillageState, cmd: VillageCommand): ActResult {
       if (!port) return { ok: false, why: "no-trade" };
       if (!Number.isSafeInteger(cmd.quantity) || cmd.quantity <= 0) return { ok: false, why: "bad-quantity" };
       if (s.carted + cmd.quantity > port.cartsPerDay) return { ok: false, why: "carts-full", detail: { left: port.cartsPerDay - s.carted } };
-      const r = ledger(s, { kind: "deliver", contract: cmd.contract, quantity: cmd.quantity });
+      const def = sc.trade!.contracts.find((c) => c.id === cmd.contract);
+      const c = s.economy.contracts[cmd.contract];
+      if (!def || !c) return { ok: false, why: "unknown-contract" };
+      // A load that cannot be at the port by the contract's day is not sent on it.
+      if (c.state === "accepted" && s.day + port.days > def.byDay) return { ok: false, why: "contract-late", detail: { days: port.days } };
+      const id = `load-${s.year}-${s.day}-${s.n}`;
+      const r = ledger(s, { kind: "dispatch", shipment: id, market: port.id, good: c.good, quantity: cmd.quantity, contract: cmd.contract });
       if (!r.ok) return refused(r);
       s.carted += cmd.quantity;
-      return { ok: true, money: r.money };
+      s.shipments.push({ id, good: c.good, quantity: cmd.quantity, contract: cmd.contract, arrives: s.day + port.days });
+      return { ok: true, money: 0 };
     }
   }
 }
@@ -769,6 +786,31 @@ export function tick(sc: Scenario, state: VillageState): VillageState {
     }
   }
   s.effects = s.effects.filter((e) => day <= e.untilDay);
+  // The loads that reach the port this morning: delivered on their contract if it is still open, sold at what the
+  // port pays today otherwise. What the port's purse cannot pay for waits there until tomorrow.
+  if (s.shipments.length) {
+    const still: VillageState["shipments"] = [];
+    for (const sh of s.shipments) {
+      if (sh.arrives > day) {
+        still.push(sh);
+        continue;
+      }
+      const before = sh.contract ? s.economy.contracts[sh.contract] : undefined;
+      const had = before?.delivered ?? 0;
+      const r = ledger(s, { kind: "arrive", shipment: sh.id });
+      if (!r.ok) {
+        still.push({ ...sh, arrives: day + 1 });
+        continue;
+      }
+      const after = sh.contract ? s.economy.contracts[sh.contract] : undefined;
+      if (after && after.delivered > had) {
+        events.push(`delivered:${sh.contract}:${r.sold}`);
+        if (after.state === "settled") events.push(`contract-kept:${sh.contract}`);
+      } else if (r.sold > 0) events.push(`sold-at-port:${sh.good}:${r.sold}:${r.money}`);
+      if (r.leftInField > 0) still.push({ ...sh, quantity: r.leftInField, contract: null, arrives: day + 1 });
+    }
+    s.shipments = still;
+  }
   const sky = flowOn(sc, s, day);
   // The carts are back from the port, empty, for the day.
   s.carted = 0;
@@ -957,7 +999,7 @@ export function tick(sc: Scenario, state: VillageState): VillageState {
   marketsNight(sc, s);
 
   // The journal keeps what a steward would want to look back on: tasks done, things built, answers, contracts.
-  for (const e of events) if (/^(quest|built|placed|asked|lapsed|contract-failed|arrived|left):?/.test(e)) note(s, day, e);
+  for (const e of events) if (/^(quest|built|placed|asked|lapsed|contract-failed|contract-kept|arrived|left):?/.test(e)) note(s, day, e);
 
   s.last = { day, rain: sky.rain, inflow: sky.inflow, townWater, townNeed, eaten, foodNeed: need, workers, idle: free, events };
   s.day = day + 1;
@@ -1085,6 +1127,9 @@ export function invariants(sc: Scenario, s: VillageState): string[] {
     }
   }
   if (!Number.isSafeInteger(s.year) || s.year < 1) bad.push(`the valley is in year ${s.year}`);
+  const road = s.economy.road ?? {};
+  if (s.shipments.length !== Object.keys(road).length) bad.push(`${s.shipments.length} loads are listed and ${Object.keys(road).length} are in the books`);
+  for (const sh of s.shipments) if (road[sh.id]?.quantity !== sh.quantity || road[sh.id]?.good !== sh.good) bad.push(`the load ${sh.id} is listed as ${sh.quantity} of ${sh.good} and the books say otherwise`);
   if (s.journal.length > 60) bad.push(`the journal holds ${s.journal.length} entries`);
   if (s.fieldFirst !== null && !sc.plots.some((p) => p.id === s.fieldFirst)) bad.push(`the field put first, ${s.fieldFirst}, is not in the valley`);
   for (const [what, def] of Object.entries(sc.catalogue ?? {})) if (placedCount(s, what) > def.max) bad.push(`${placedCount(s, what)} of ${what} are placed, more than the ${def.max} allowed`);
