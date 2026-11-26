@@ -6,7 +6,7 @@ import { FrameRecorder, type FrameSummary } from "@im/kernel/framestats";
 import { generateTextures } from "@im/worldkit/textures-async";
 import { OVERVIEW, START, approach, clampPose, pan, turn, zoom, type Pose } from "../view/camera";
 import { ValleyRenderer, type Quality, type ValleyLook } from "../view/three-valley";
-import { heightAt } from "../view/valley";
+import { FIELDS, heightAt } from "../view/valley";
 
 export interface StageOptions {
   seed: number;
@@ -174,6 +174,14 @@ export class Stage {
   }
   screenOf(x: number, y: number, z: number): [number, number] | null {
     return this.renderer.screenOf(x, y, z);
+  }
+  /** Where the middle of a field is on the page, or null when it is behind the view. */
+  fieldOnScreen(id: string): [number, number] | null {
+    const shape = FIELDS[id];
+    if (!shape) return null;
+    const x = shape.reduce((a, p) => a + p[0], 0) / shape.length;
+    const z = shape.reduce((a, p) => a + p[1], 0) / shape.length;
+    return this.renderer.screenOf(x, heightAt(x, z, 7) + 3, z);
   }
   dispose(): void {
     this.running = false;

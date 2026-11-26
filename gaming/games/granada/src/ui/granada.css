@@ -107,10 +107,54 @@ h3 { font-size: 0.9rem; color: var(--ink-soft); margin-block-start: 10px; }
 .rain { stroke: #d6eef5; stroke-width: 1.5; opacity: 0.7; }
 .north path { fill: #2a2012; opacity: 0.7; }
 
-.side { background: var(--panel); border-inline-start: 1px solid var(--line); display: grid; grid-template-rows: auto 1fr; min-block-size: 0; }
-.tabs { display: flex; flex-wrap: wrap; gap: 4px; padding: 8px; border-block-end: 1px solid var(--line); }
-.tabs button { flex: 1 1 auto; padding: 6px 8px; }
-.panel { overflow: auto; padding: 10px; display: grid; gap: 10px; align-content: start; max-block-size: calc(100vh - 170px); }
+/* Beside the land, on the plan and in a small window: the rail, what is asked, the part in hand, the season, in one column. */
+/* A plain stack that scrolls as one: each part keeps its own height, so none is squeezed under the next. */
+.column { background: var(--panel); border-inline-start: 1px solid var(--line); display: flex; flex-direction: column; min-block-size: 0; max-block-size: calc(100vh - 96px); overflow: auto; }
+.column > * { flex: none; }
+.rail { display: flex; flex-wrap: wrap; gap: 4px; padding: 8px; border-block-end: 1px solid var(--line); }
+.rail button { flex: 1 1 auto; padding: 6px 8px; display: inline-flex; align-items: center; justify-content: center; gap: 6px; }
+.rail-icon { inline-size: 18px; block-size: 18px; fill: none; stroke: currentColor; stroke-width: 1.7; stroke-linecap: round; stroke-linejoin: round; flex: none; }
+.objectives, .seasonbox { padding: 10px 10px 0; display: grid; gap: 10px; }
+.seasonbox { padding-block-end: 10px; }
+.side { display: block; }
+.panel { padding: 10px 10px 0; display: grid; gap: 10px; align-content: start; }
+.season-line { font-size: 0.92rem; color: var(--ink-soft); }
+.season-line strong { color: var(--ink); }
+.fieldpop { display: none; }
+
+/* Round the valley, when it is drawn in 3D and the window has room: the land fills the page and the panels stand on it,
+   in the places the founder's target picture gives them. */
+@media (min-width: 1180px) and (min-height: 640px) {
+  body.hud .gr { block-size: 100vh; min-block-size: 0; overflow: hidden; }
+  body.hud .main { position: relative; display: block; min-block-size: 0; overflow: hidden; }
+  body.hud .mapbox { position: absolute; inset: 0; padding: 0; display: block; }
+  body.hud .scenebox { block-size: 100%; }
+  body.hud .scene { block-size: 100%; min-block-size: 0; border: 0; border-radius: 0; }
+  body.hud .viewbar { position: absolute; z-index: 3; inset-block-start: 12px; inset-inline-start: 118px; background: rgba(9, 30, 36, 0.82); border: 1px solid var(--line); border-radius: 10px; padding: 4px 8px; max-inline-size: calc(100% - 520px); }
+  /* The hint is in the help; over the land it only covers it. */
+  body.hud .viewhint { display: none; }
+  body.hud .column { display: contents; }
+  body.hud .rail, body.hud .objectives > .card, body.hud .seasonbox > .card, body.hud .panel > .card, body.hud .fieldpop {
+    background: linear-gradient(180deg, rgba(13, 43, 50, 0.93), rgba(8, 28, 34, 0.93));
+    border: 1px solid #8a7335;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.45), 0 8px 22px rgba(0, 0, 0, 0.35), inset 0 0 0 1px rgba(217, 164, 65, 0.12);
+  }
+  body.hud .rail { position: absolute; z-index: 4; inset-inline-start: 12px; inset-block-start: 12px; inline-size: 94px; flex-direction: column; flex-wrap: nowrap; gap: 6px; padding: 8px; border-radius: 12px; }
+  body.hud .rail button { flex-direction: column; gap: 3px; padding: 8px 4px; font-size: 0.78rem; background: transparent; border-color: transparent; min-block-size: 58px; }
+  body.hud .rail button:hover { border-color: var(--accent); }
+  body.hud .rail button.on { background: rgba(217, 164, 65, 0.16); color: var(--ink); border-color: var(--accent); }
+  body.hud .rail-icon { inline-size: 26px; block-size: 26px; stroke: var(--accent); }
+  body.hud .objectives { position: absolute; z-index: 3; inset-inline-start: 118px; inset-block-start: 62px; inline-size: 300px; max-block-size: calc(100% - 82px); overflow: auto; padding: 0; scrollbar-width: thin; }
+  body.hud .side { position: absolute; z-index: 3; inset-inline-end: 12px; inset-block-start: 12px; inline-size: 348px; max-block-size: calc(100% - 262px); overflow: auto; scrollbar-width: thin; }
+  body.hud .panel { padding: 0; }
+  body.hud .seasonbox { position: absolute; z-index: 3; inset-inline-end: 12px; inset-block-end: 12px; inline-size: 348px; padding: 0; }
+  body.hud .card h2 { color: var(--accent); letter-spacing: 0.01em; }
+  body.hud .fieldpop { display: grid; gap: 6px; position: absolute; z-index: 5; inset-block-start: 0; inset-inline-start: 0; inline-size: 300px; padding: 10px 12px; border-radius: 12px; border-color: var(--accent); direction: inherit; }
+  body.hud .fieldpop h2 { color: var(--accent); }
+  body.hud .fieldpop::after { content: ""; position: absolute; inset-block-end: -9px; inset-inline-start: calc(50% - 8px); border: 8px solid transparent; border-block-end: 0; border-block-start-color: var(--accent); }
+  body.hud .toasts { inset-block-end: auto; inset-block-start: 120px; inset-inline-start: 50%; transform: translateX(-50%); justify-items: center; }
+  :dir(rtl) body.hud .toasts { transform: translateX(50%); }
+}
 .card { background: var(--panel-2); border: 1px solid var(--line); border-radius: 10px; padding: 10px 12px; display: grid; gap: 6px; }
 .card.selected { border-color: var(--accent); }
 .card.advice { border-color: var(--accent); }
@@ -151,8 +195,7 @@ progress { inline-size: 100%; block-size: 8px; accent-color: var(--teal); }
 
 @media (max-width: 900px) {
   .main { grid-template-columns: 1fr; }
-  .side { border-inline-start: 0; border-block-start: 1px solid var(--line); }
-  .panel { max-block-size: none; }
+  .column { border-inline-start: 0; border-block-start: 1px solid var(--line); max-block-size: none; }
   .map { max-block-size: 56vh; }
 }
 @media (prefers-reduced-motion: reduce) {
