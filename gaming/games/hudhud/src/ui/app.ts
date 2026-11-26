@@ -5,7 +5,8 @@ import { loadMusicStrings, musicControl } from "@im/audio/control";
 import { MUSIC_AVAILABLE, MUSIC_BASE, MusicPlayer } from "@im/audio/player";
 import { Cues, type Cue } from "../audio/cues";
 import { HAIRS, OUTFITS, SKINS, keeper as paintKeeper, portrait } from "../art/cast";
-import { CLOCK_QUEST } from "../content/clock";
+import { CLOCK_QUEST, clockPuzzle } from "../content/clock";
+import { restoreClock } from "../sim/clock";
 import { clockQuest, type ClockQuest } from "./clock";
 import { JAR, RECORDS, SCRIPTS, THINGS, TURN_SLACK, inPlay, type PlayStyle, type Speaker } from "../content/workshop";
 import { start, type Running } from "../game/boot";
@@ -283,6 +284,8 @@ async function main(): Promise<void> {
   const checkpoint = (clear = false) => {
     const resume = state.done || (state.turns === 0 && state.flags.length === 0 && !state.dark) ? null : { quest: QUEST, snap: snapshot(state) as unknown };
     if (resume === null && !placeMine && !clear) return;
+    // A place kept in the elephant clock is never this quest's to wipe: only a place of its own is.
+    if (resume === null && slot().resume && slot().resume!.quest !== QUEST) return;
     if (JSON.stringify(slot().resume) === JSON.stringify(resume)) return;
     save = { ...save, slots: save.slots.map((x, i) => (i === save.slot && x ? { ...x, resume } : x)) };
     placeMine = resume !== null;
@@ -680,8 +683,9 @@ async function main(): Promise<void> {
   }
   function finish(): void {
     const g = goals(state);
-    save = { ...save, slots: save.slots.map((s, i) => (i === save.slot && s ? { ...recordQuest(s, QUEST, g), resume: null } : s)) };
-    keep(true);
+    const mine = slot().resume?.quest === QUEST;
+    save = { ...save, slots: save.slots.map((s, i) => (i === save.slot && s ? { ...recordQuest(s, QUEST, g), resume: mine ? null : s.resume } : s)) };
+    keep(mine);
     const slack = TURN_SLACK[state.style];
     const goal = (mark: string, name: Key, how: string, met: boolean) => el("li", {}, el("span", { class: "mark", textContent: mark }), el("span", {}, el("strong", { textContent: t(name) }), el("br", {}), el("span", { class: "small", textContent: how })), el("span", { class: met ? "met" : "open", textContent: t(met ? "goal_met" : "goal_open") }));
     const names: Key[] = ["rec_person", "rec_darkroom", "rec_book"];
@@ -805,8 +809,27 @@ async function main(): Promise<void> {
     stage.focus({ preventScroll: true });
     render();
   }
-  /** Opens the elephant clock: a quest played on the page, with no flying scene. It is not kept in the middle. */
+  /** The clock left in the middle, if the slot holds one that can be trusted; the slot holds one place only. */
+  const clockSaved = () => {
+    const r = slot().resume;
+    return r?.quest === CLOCK_QUEST ? restoreClock(r.snap, clockPuzzle) : null;
+  };
+  /**
+   * Keeps the clock's place. With progress (a move or a question asked) the slot's one place becomes the clock's; a
+   * finished or restarted clock clears its own place only, and the other quest's place is never touched by a clock
+   * that has made no progress.
+   */
+  const clockCheckpoint = (snap: unknown | null) => {
+    const old = slot().resume;
+    const resume = snap === null ? null : { quest: CLOCK_QUEST, snap };
+    if (resume === null && old?.quest !== CLOCK_QUEST) return;
+    if (JSON.stringify(old) === JSON.stringify(resume)) return;
+    save = { ...save, slots: save.slots.map((x, i) => (i === save.slot && x ? { ...x, resume } : x)) };
+    keep(true);
+  };
+  /** Opens the elephant clock: a quest played on the page, with no flying scene. A clock left in the middle comes back. */
   function startClock(): void {
+    const kept = clockSaved();
     cues.unlock();
     hub.hidden = true;
     atlasBtn.hidden = false;
@@ -817,13 +840,16 @@ async function main(): Promise<void> {
       museum: MUSEUM,
       title: subjectName("al-jazari"),
       style,
+      resume: kept,
+      keepPlace: (snap) => clockCheckpoint(snap),
       reducedMotion: () => settings().reducedMotion,
       tick: () => cues.play("line"),
       chime: () => cues.play("restored"),
       finish: (g) => {
-        save = { ...save, slots: save.slots.map((s, i) => (i === save.slot && s ? recordQuest(s, CLOCK_QUEST, g) : s)) };
-        // The place kept in the middle of the other quest is not this quest's to change.
-        keep();
+        const mine = slot().resume?.quest === CLOCK_QUEST;
+        // A finished quest is not kept in the middle; the place kept in the other quest is not this quest's to change.
+        save = { ...save, slots: save.slots.map((s, i) => (i === save.slot && s ? { ...recordQuest(s, CLOCK_QUEST, g), resume: mine ? null : s.resume } : s)) };
+        keep(mine);
       },
       leave: () => toAtlas(),
     });
@@ -901,10 +927,12 @@ async function main(): Promise<void> {
           const rec = quests[quest];
           if (quest === CLOCK_QUEST) {
             // One button on the Atlas is the main one (the flying scene); this trial quest has an ordinary button.
-            const b = el("button", { type: "button", textContent: t(rec?.done ? "quest_again" : "quest_play", { name }), onclick: () => startClock() });
+            const kept = clockSaved();
+            const b = el("button", { type: "button", textContent: t(kept ? "quest_continue" : rec?.done ? "quest_again" : "quest_play", { name }), onclick: () => startClock() });
             b.dataset.quest = quest;
             const item = el("li", { class: "open" }, b, el("small", { textContent: t("ck_trial") }));
             if (rec?.done) item.append(el("small", { textContent: t("quest_home", { n: num([rec.curiosity, rec.ingenuity, rec.kindness, rec.feather].filter(Boolean).length) }) }));
+            if (kept) item.append(el("small", { textContent: t("resume_note") }), el("button", { type: "button", textContent: t("btn_restart"), onclick: () => (clockCheckpoint(null), drawHub()) }));
             return item;
           }
           const label: Key = resumed ? "quest_continue" : rec?.done ? "quest_again" : "quest_play";

@@ -75,3 +75,40 @@ export function clockGoals(s: ClockState, slack: number | null): { turns: number
   const has = (f: ClockFlag) => s.flags.includes(f);
   return { turns: s.moves, par: s.par, curiosity: has("askedFloat") && has("askedBalls"), ingenuity: slack === null || s.moves <= s.par + slack, kindness: has("kind"), feather: has("feather") };
 }
+
+/** What is kept of a clock in progress: enough to put the bench back, and nothing that cannot be checked. */
+export interface ClockSnapshot {
+  style: ClockStyle;
+  places: (string | null)[];
+  moves: number;
+  flags: ClockFlag[];
+}
+export function snapshotClock(s: ClockState): ClockSnapshot {
+  return { style: s.style, places: [...s.puzzle.places], moves: s.moves, flags: [...s.flags] };
+}
+/**
+ * A clock put back from what was saved, or null if what was saved cannot be trusted. Nothing is taken on faith: the
+ * puzzle is built afresh for the style (`puzzleOf`) and only the places, the count and known flags are laid over it.
+ * The fewest moves is worked out again from the style's own start, never read from the file. What the last run
+ * showed is not kept, and a clock whose places already work is never a place to resume: that quest is finished.
+ */
+export function restoreClock(x: unknown, puzzleOf: (style: ClockStyle) => ChainPuzzle): ClockState | null {
+  if (typeof x !== "object" || x === null) return null;
+  const o = x as Record<string, unknown>;
+  if (o.style !== "story" && o.style !== "explorer" && o.style !== "challenge") return null;
+  const base = newClock(o.style, puzzleOf(o.style));
+  const known = new Set(base.puzzle.parts.map((p) => p.id));
+  if (!Array.isArray(o.places) || o.places.length !== base.puzzle.places.length) return null;
+  const places: (string | null)[] = [];
+  for (const id of o.places as unknown[]) {
+    if (id === null) places.push(null);
+    else if (typeof id === "string" && known.has(id) && !places.includes(id)) places.push(id);
+    else return null;
+  }
+  if (typeof o.moves !== "number" || !Number.isInteger(o.moves) || o.moves < 0 || o.moves > 100000) return null;
+  if (!Array.isArray(o.flags)) return null;
+  const flags = CLOCK_FLAGS.filter((f) => (o.flags as unknown[]).includes(f));
+  const puzzle = { ...base.puzzle, places };
+  if (runChain(puzzle).end === "done") return null;
+  return { ...base, puzzle, moves: o.moves, flags: [...flags] };
+}

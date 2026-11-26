@@ -489,6 +489,72 @@ for (const lang of ["en", "ar"]) {
     /\D1\D/.test(` ${back.progress} `) && /^Play again: /.test(back.label) && back.benchHidden && /Ibn al-Haytham/.test(back.primary), { label, wrong, spareLine, end, back });
   await ctx.close();
 }
+// The elephant clock is kept when left in the middle, and its picture can be played by a click or a touch. The slot
+// holds one place: a clock with no progress leaves the flying quest's place alone, and a clock with progress keeps its own.
+{
+  const ctx = await browser.newContext({ viewport: { width: 1280, height: 800 } });
+  const page = await open(ctx, "&style=explorer");
+  const CLOCK = "w02q1-al-jazari";
+  const kept = () => ev<{ quest: string; snap: { places: (string | null)[]; moves: number; flags: string[] } } | null>(page, "JSON.parse(localStorage.getItem('im.hudhud.save.v1') || '{}').slots?.[0]?.resume ?? null");
+  const clockView = () => ev<{ places: (string | null)[]; moves: number; flags: string[]; done: boolean }>(page, "(() => { const c = window.__HH__.clock(); return { places: c.puzzle.places, moves: c.moves, flags: c.flags, done: c.done }; })()");
+  // The flying quest is left in the middle first.
+  await playing(page);
+  await ev(page, "window.__HH__.command({type:'skip'}); window.__HH__.touch('mirror-a'); window.__HH__.touch('cat'); window.__HH__.command({type:'skip'});");
+  await ev(page, "window.__HH__.toAtlas()");
+  const flying0 = await ev<boolean>(page, "window.__HH__.resumed()");
+  // A clock opened and left with nothing changed does not touch it.
+  await page.locator(".hub button[data-quest='w02q1-al-jazari']").click();
+  await ev(page, "window.__HH__.toAtlas()");
+  const untouched = { resumed: await ev<boolean>(page, "window.__HH__.resumed()"), kept: (await kept())?.quest };
+  // One move and one question: the clock's place is kept, and the flying quest's is given up for it.
+  await page.locator(".hub button[data-quest='w02q1-al-jazari']").click();
+  await page.locator(".bench select[data-place='1']").selectOption("falcon");
+  await page.getByRole("button", { name: "Ask about the float" }).click();
+  const before = await clockView();
+  const slotNow = await kept();
+  await ev(page, "window.__HH__.saveReady()");
+  await page.reload();
+  await page.waitForFunction("window.__HH__ && window.__HH__.ready");
+  const labels = await ev<{ clock: string; primary: string; notes: number; flying: boolean }>(page, "({ clock: document.querySelector(\"button[data-quest='w02q1-al-jazari']\").textContent, primary: document.querySelector('.hub button.primary').textContent, notes: document.querySelectorAll('.hub li.open small').length, flying: window.__HH__.resumed() })");
+  await page.locator(".hub button[data-quest='w02q1-al-jazari']").click();
+  const after = await clockView();
+  // The picture is played by a click: choose a place, choose another, and the two change places.
+  const box = (await page.locator(".bench canvas").boundingBox())!;
+  const at = (lx: number, ly: number) => ({ x: box.x + (lx / 1000) * box.width, y: box.y + (ly / 380) * box.height });
+  const place = (i: number) => at(110 + 150 * i, 190);
+  const moves0 = (await clockView()).moves;
+  await page.mouse.click(place(0).x, place(0).y);
+  const chosen = await page.locator(".bench .small[aria-live]").first().textContent();
+  await page.mouse.click(place(2).x, place(2).y);
+  const swapped = await clockView();
+  // A spare part by click: the box holds the dragon and the rider's partner; choose place 3, then the first spare part.
+  await page.mouse.click(place(3).x, place(3).y);
+  await page.mouse.click(at(880, 125).x, at(880, 125).y);
+  const stood = await clockView();
+  // A place chosen and chosen again is let go: no move is counted.
+  await page.mouse.click(place(4).x, place(4).y);
+  await page.mouse.click(place(4).x, place(4).y);
+  const letGo = await clockView();
+  record("the elephant clock left in the middle is kept, comes back as it was, and its picture can be played by a click",
+    flying0 && untouched.resumed && untouched.kept === "w03q1-ibn-al-haytham" && slotNow?.quest === CLOCK && before.moves === 1 && before.flags.join() === "askedFloat" &&
+    /^Continue: /.test(labels.clock) && /^Play: /.test(labels.primary) && !labels.flying && labels.notes >= 2 &&
+    after.moves === before.moves && after.places.join() === before.places.join() && after.flags.join() === "askedFloat" &&
+    /Place 1 is chosen/.test(chosen ?? "") && swapped.moves === moves0 + 1 && swapped.places[0] === before.places[2] && swapped.places[2] === before.places[0] &&
+    stood.moves === swapped.moves + 1 && stood.places[3] !== swapped.places[3] && letGo.moves === stood.moves,
+    { flying0, untouched, slotNow, before, labels, after, chosen, moves0, swapped, stood, letGo });
+  // Finished: the place is gone, and the flying quest can be started.
+  for (const [i, part] of ["float", "falcon", "dragon", "vessel", "bowl"].entries()) await page.locator(`.bench select[data-place='${i}']`).selectOption(part);
+  await page.getByRole("button", { name: "Set the clock going" }).click();
+  await page.waitForSelector(".bench .results:not([hidden])");
+  const done = { done: (await clockView()).done, kept: await kept() };
+  await ev(page, "window.__HH__.saveReady()");
+  await page.reload();
+  await page.waitForFunction("window.__HH__ && window.__HH__.ready");
+  const hub = await ev<{ clock: string }>(page, "({ clock: document.querySelector(\"button[data-quest='w02q1-al-jazari']\").textContent })");
+  await playing(page);
+  record("a finished elephant clock is not kept in the middle, and the flying quest can still be started", done.done && done.kept === null && /^Play again: /.test(hub.clock), { done, hub });
+  await ctx.close();
+}
 await browser.close();
 await served.close();
 const report = { ran: new Date().toISOString(), results, errors };
