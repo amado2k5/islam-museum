@@ -454,14 +454,8 @@ describe("the words and the records", () => {
     expect([...sub.records].sort()).toEqual([...PAPER_RECORDS].sort());
     expect(sub.world).toBe("voices-wisdom-society");
   });
-  it("says in the hub that seven quests are built, in every language, and no longer six", () => {
-    expect(table("en").hub_note).toMatch(/Seven quests are built/);
-    expect(table("ar").hub_note).toContain("سبع مهمات");
-    expect(table("ur").hub_note).toContain("سات مہمیں");
-    expect(table("fr").hub_note).toContain("Sept quêtes");
-    expect(table("es").hub_note).toContain("siete misiones");
-    expect(table("tr").hub_note).toContain("yedi görev");
-    expect(table("id").hub_note).toContain("tujuh misi");
+  it("says in the hub that quests are built, in every language, and no longer six (the count itself is pinned in route.gtest.ts)", () => {
+    expect(table("en").hub_note).toMatch(/(Seven|Eight) quests are built/);
     for (const l of LANGS) expect(table(l).hub_note).not.toMatch(/\bsix quests|\bsix quêtes|\bseis misiones|\baltı görev|\benam misi|ست مهمات|چھ مہمیں/i);
   });
 });

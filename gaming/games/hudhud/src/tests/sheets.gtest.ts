@@ -502,8 +502,8 @@ describe("the words and the records", () => {
     expect([...SHEETS_RECORDS]).toEqual(["person/al-idrisi-muhammad-ibn-abd-allah", "work/nuzhat-al-mushtaq"]);
     for (const id of SHEETS_RECORDS) expect(existsSync(resolve(root, "data", `${id}.yaml`)), id).toBe(true);
   });
-  it("says in the hub that quests are built, in every language, and no longer four (the count itself is pinned in paper.gtest.ts)", () => {
-    expect(table("en").hub_note).toMatch(/(Five|Six|Seven) quests are built/);
+  it("says in the hub that quests are built, in every language, and no longer four (the count itself is pinned in route.gtest.ts)", () => {
+    expect(table("en").hub_note).toMatch(/(Five|Six|Seven|Eight) quests are built/);
     for (const l of LANGS) expect(table(l).hub_note).not.toMatch(/\b(four|quatre|cuatro|dört|empat)\b|أربع|چار/i);
   });
 });

@@ -163,6 +163,11 @@ main:focus { outline: none; }
 /* The seventh quest's page: the papermaker's row, played by a list of choices for every place or by touching two places in the picture. */
 .bench canvas.paper-art { aspect-ratio: 1000 / 420; cursor: pointer; }
 .bench ol.paper-places { grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); }
+/* The eighth quest's page: Ibn Battuta's beads on a ring, played by a button for every bead or by touching a bead in the picture. */
+.bench canvas.route-art { aspect-ratio: 1000 / 480; cursor: pointer; }
+.bench .route-beads button { width: 100%; min-height: 44px; text-align: start; }
+.bench .route-beads button.on { border-color: var(--gold); background: #18407a; }
+.bench .stage-text p { margin: 4px 0; }
 .bench ol.tray-key { list-style: none; margin-block: 4px 10px; padding: 0; }
 .bench .sheet-rows { display: grid; gap: 8px; margin-block: 10px; }
 .bench .sheet-row { list-style: none; display: flex; flex-wrap: wrap; gap: 8px; margin: 0; padding: 0; }
