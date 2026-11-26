@@ -5,6 +5,7 @@
 import { mkdirSync, writeFileSync } from "node:fs";
 import { resolve } from "node:path";
 import { chromium, type BrowserContext, type Page } from "playwright-core";
+import { leaveOpening } from "./hudhud-opening";
 import { serveWorkspace } from "./serve";
 
 const outDir = process.argv[2] ? resolve(process.argv[2]) : null;
@@ -13,11 +14,13 @@ const browser = await chromium.launch({ channel: "chrome", headless: false, args
 const errors: string[] = [];
 const results: { check: string; pass: boolean; detail: unknown }[] = [];
 const record = (check: string, pass: boolean, detail: unknown) => results.push({ check, pass, detail });
-const open = async (ctx: BrowserContext, query: string): Promise<Page> => {
+// Every check but the one about the opening itself leaves the opening by its Skip button, as a visitor would.
+const open = async (ctx: BrowserContext, query: string, keepOpening = false): Promise<Page> => {
   const page = await ctx.newPage();
   page.on("pageerror", (e) => errors.push(String(e)));
   await page.goto(`${served.base}/games/hudhud/index.html?lang=en&music=off${query}`);
   await page.waitForFunction("window.__HH__ && (window.__HH__.ready || window.__HH__.error)");
+  if (!keepOpening) await leaveOpening(page);
   return page;
 };
 const playing = async (page: Page) => {
@@ -158,14 +161,24 @@ const ev = <T>(page: Page, js: string) => page.evaluate(js) as Promise<T>;
 // 4e. The skip link lands on the game, whichever screen is showing.
 {
   const ctx = await browser.newContext({ viewport: { width: 1280, height: 800 } });
-  const page = await open(ctx, "&fresh=1");
-  await page.keyboard.press("Tab");
-  const link = await ev<string>(page, "document.activeElement.className");
-  await page.keyboard.press("Enter");
-  const landed = await ev<string>(page, "document.activeElement.id || location.hash");
-  await page.keyboard.press("Tab");
-  const next = await ev<boolean>(page, "!!document.activeElement.closest('#play')");
-  record("the skip link lands on the game", link === "skip" && /play/.test(landed) && next, { link, landed, next });
+  // First on the opening story, which a new visitor meets first; then on the Atlas, which a returning one meets.
+  const landing = async (page: Page) => {
+    await page.keyboard.press("Tab");
+    const link = await ev<string>(page, "document.activeElement.className");
+    await page.keyboard.press("Enter");
+    const landed = await ev<string>(page, "document.activeElement.id || location.hash");
+    await page.keyboard.press("Tab");
+    const next = await ev<boolean>(page, "!!document.activeElement.closest('#play')");
+    return { link, landed, next, ok: link === "skip" && /play/.test(landed) && next };
+  };
+  const story = await landing(await open(ctx, "&fresh=1", true));
+  const seenCtx = await browser.newContext({ viewport: { width: 1280, height: 800 } });
+  const first = await open(seenCtx, "");
+  await ev(first, "window.__HH__.saveReady()");
+  await first.close();
+  const atlas = await landing(await open(seenCtx, "", true));
+  await seenCtx.close();
+  record("the skip link lands on the game", story.ok && atlas.ok, { story, atlas });
   await ctx.close();
 }
 // 4f. Pause and go on, every way there is, and the game answers afterwards each time.
@@ -368,13 +381,13 @@ const ev = <T>(page: Page, js: string) => page.evaluate(js) as Promise<T>;
   const before = await ev<string>(page, "document.querySelector('.hub .progress').textContent");
   await page.getByRole("button", { name: "Settings" }).click();
   await page.locator(".sheet input[type=file]").setInputFiles({ name: "hudhud-save.json", mimeType: "application/json", buffer: Buffer.from(text) });
-  await page.locator(".sheet button", { hasText: "Import save" }).last().click();
+  await page.locator(".sheet [role=dialog][aria-label='Import save'] button", { hasText: "Import save" }).click();
   await page.waitForTimeout(600);
   const imported = await ev<{ progress: string; toast: string | null }>(page, "({ progress: document.querySelector('.hub .progress').textContent, toast: document.querySelector('.toast') ? document.querySelector('.toast').textContent : null })");
   // A file that is not a save is refused and changes nothing.
   await page.getByRole("button", { name: "Settings" }).click().catch(() => undefined);
   await page.locator(".sheet input[type=file]").first().setInputFiles({ name: "x.json", mimeType: "application/json", buffer: Buffer.from(text.replace('"done": true', '"done": false')) });
-  await page.locator(".sheet button", { hasText: "Import save" }).last().click();
+  await page.locator(".sheet [role=dialog][aria-label='Import save'] button", { hasText: "Import save" }).click();
   await page.waitForTimeout(500);
   const refused = await ev<{ progress: string; toast: string | null }>(page, "({ progress: document.querySelector('.hub .progress').textContent, toast: document.querySelector('.toast') ? document.querySelector('.toast').textContent : null })");
   record("progress is in the vault: it outlives a wiped localStorage, shows as saved, and travels by export and import", after.state === "saved" && (after.revision ?? 0) >= 1 && /Saved/.test(chip ?? "") && /\D1\D/.test(` ${back.progress} `) && back.button.startsWith("Play again") && back.local && text.includes('"im.play.save"') && /\D0\D/.test(` ${before} `) && /\D1\D/.test(` ${imported.progress} `) && imported.toast === "The save was imported." && /\D1\D/.test(` ${refused.progress} `) && /not a Hudhud save/.test(refused.toast ?? ""), { after, chip, back, exportBytes: text.length, before, imported, refused });
@@ -418,6 +431,7 @@ for (const lang of ["en", "ar"]) {
   page.on("pageerror", (e) => errors.push(String(e)));
   await page.goto(`${served.base}/games/hudhud/index.html?lang=${lang}&music=off`);
   await page.waitForFunction("window.__HH__ && window.__HH__.ready");
+  await leaveOpening(page);
   const before = await ev<{ worlds: number; pages: number; open: number; progress: string; stageHidden: boolean }>(page, "({ worlds: document.querySelectorAll('.hub .world').length, pages: document.querySelectorAll('.hub .world li').length, open: document.querySelectorAll('.hub .world li.open').length, progress: document.querySelector('.hub .progress').textContent, stageHidden: document.querySelector('.stage-wrap').hidden })");
   if (outDir) await page.screenshot({ path: resolve(outDir, `atlas-${lang}.png`), fullPage: true });
   await playing(page);
@@ -430,8 +444,228 @@ for (const lang of ["en", "ar"]) {
   // And the quest can be entered again from there.
   await playing(page);
   const again = await ev<{ turns: number; done: boolean }>(page, "({ turns: window.__HH__.state().turns, done: window.__HH__.state().done })");
-  record(`the Atlas shows ten worlds and fifty pages, and one comes home (${lang})`, before.worlds === 10 && before.pages === 50 && before.open === 1 && before.stageHidden && /\D0\D|٠/.test(` ${before.progress} `) && /\D1\D|١/.test(` ${after.progress} `) && after.hubShown && after.canvases === 0 && !after.started && again.turns === 0 && !again.done, { before, after, again });
+  record(`the Atlas shows ten worlds and fifty pages, two of them open, and one comes home (${lang})`, before.worlds === 10 && before.pages === 50 && before.open === 2 && before.stageHidden && /\D0\D|٠/.test(` ${before.progress} `) && /\D1\D|١/.test(` ${after.progress} `) && after.hubShown && after.canvases === 0 && !after.started && again.turns === 0 && !again.done, { before, after, again });
   await ctx.close();
+}
+// The puzzle is not the same in the three ways of playing: five mirrors with two positions, six with three, seven with
+// three and a page in words that says only where the beam ends.
+{
+  const seen: Record<string, { mirrors: number; leans: number; par: number; words: string; listed: number; third: string; floor: string }> = {};
+  for (const style of ["story", "explorer", "challenge"]) {
+    const ctx = await browser.newContext({ viewport: { width: 1280, height: 800 } });
+    const page = await open(ctx, `&style=${style}`);
+    await playing(page);
+    await ev(page, "window.__HH__.command({type:'skip'}); window.__HH__.touch('mirror-a');");
+    await page.waitForTimeout(300);
+    const got = await ev<{ mirrors: number; leans: number; par: number; words: string; listed: number }>(page, "({ mirrors: window.__HH__.state().puzzle.mirrors.length, leans: (window.__HH__.state().puzzle.leans || []).length, par: window.__HH__.state().par, words: document.querySelector('.words section p[aria-live]').textContent, listed: [...document.querySelectorAll('section ul button')].filter((b) => /mirror/.test(b.textContent)).length })");
+    // A mirror the room does not have cannot be touched; one it has, turned twice, lies flat where there are three positions.
+    await ev(page, "window.__HH__.touch('mirror-g'); window.__HH__.touch('mirror-d'); window.__HH__.touch('mirror-d');");
+    const third = await ev<string>(page, "window.__HH__.state().puzzle.mirrors.find((m) => m.id === 'd').lean");
+    // With the third mirror laid flat the beam runs along the floor and meets the jar, and the words say so.
+    const floor = style === "explorer" ? await ev<string>(page, "document.querySelector('.words section p[aria-live]').textContent") : "";
+    seen[style] = { ...got, third, floor };
+    await ctx.close();
+  }
+  const st = seen.story!, ex = seen.explorer!, ch = seen.challenge!;
+  record("the three ways of playing are three puzzles: 5, 6 and 7 mirrors, a third position outside Story, and Challenge is told only where the beam ends",
+    st.mirrors === 5 && st.leans === 2 && st.par === 3 && st.listed === 5 && st.third === "/" &&
+    ex.mirrors === 6 && ex.leans === 3 && ex.par === 3 && ex.listed === 6 && ex.third === "-" && /mirror 1/.test(ex.words) && /tall jar/.test(ex.floor) &&
+    ch.mirrors === 7 && ch.leans === 3 && ch.par === 10 && ch.listed === 7 && !/mirror/.test(ch.words), seen);
+}
+// The second quest, the elephant clock: a wrong row stops and says where, the four goals can all be met, the finish is
+// written into the save, and the Atlas counts two pages home. Played with the page's own controls.
+{
+  const ctx = await browser.newContext({ viewport: { width: 1280, height: 800 } });
+  const page = await open(ctx, "&style=explorer");
+  const clockButton = page.locator(".hub button[data-quest='w02q1-al-jazari']");
+  const label = await clockButton.textContent();
+  await clockButton.click();
+  await page.getByRole("button", { name: "Set the clock going" }).click();
+  await page.waitForFunction("window.__HH__.clock() && !window.__HH__.clock().busy");
+  const wrong = await ev<{ words: string; end: string; at: number; done: boolean }>(page, "({ words: document.querySelector('.bench .ran').textContent, end: window.__HH__.clock().last.end, at: window.__HH__.clock().last.at, done: window.__HH__.clock().done })");
+  for (const name of ["Ask about the float", "Ask about the balls", "Talk to the apprentice"]) await page.getByRole("button", { name }).click();
+  await page.getByRole("button", { name: "It is all right. We will find the order together." }).click();
+  await page.getByRole("button", { name: "Look in the box of spare parts" }).click();
+  // The keyboard alone: each place is an ordinary list of choices.
+  for (const [place, part] of [[1, "falcon"], [2, "dragon"], [3, "vessel"]] as const) await page.locator(`.bench select[data-place='${place}']`).selectOption(part);
+  const spareLine = await ev<string>(page, "[...document.querySelectorAll('.bench p.small')].map((p) => p.textContent).join(' | ')");
+  if (outDir) await page.screenshot({ path: resolve(outDir, "hudhud-clock-bench.png") });
+  await page.getByRole("button", { name: "Set the clock going" }).click();
+  await page.waitForSelector(".bench .results:not([hidden])");
+  const end = await ev<{ done: boolean; moves: number; par: number; met: number; focus: string; links: string[]; pending: string; saved: boolean }>(page, "({ done: window.__HH__.clock().done, moves: window.__HH__.clock().moves, par: window.__HH__.clock().par, met: document.querySelectorAll('.bench .results .goals .met').length, focus: document.activeElement ? document.activeElement.textContent : '', links: [...document.querySelectorAll('.bench .results a')].map((a) => a.getAttribute('href')), pending: document.querySelector('.bench .results .pending').textContent, saved: JSON.parse(localStorage.getItem('im.hudhud.save.v1') || '{}').slots?.[0]?.quests?.['w02q1-al-jazari']?.done === true })");
+  if (outDir) await page.screenshot({ path: resolve(outDir, "hudhud-clock-results.png"), fullPage: true });
+  await page.getByRole("button", { name: "Back to the Atlas" }).last().click();
+  const back = await ev<{ progress: string; label: string; benchHidden: boolean; primary: string }>(page, "({ progress: document.querySelector('.hub .progress').textContent, label: document.querySelector(\".hub button[data-quest='w02q1-al-jazari']\").textContent, benchHidden: document.querySelector('.bench').hidden, primary: document.querySelector('.hub button.primary').textContent })");
+  record("the elephant clock can be played to its end with the page's own controls, and the Atlas counts it",
+    /^Play: /.test(label ?? "") && !wrong.done && wrong.end === "idle" && wrong.at === 2 && /bird turns and whistles/.test(wrong.words) && /What reached it: a whistle/.test(wrong.words) &&
+    /Spare parts: the bird, the rider/.test(spareLine) && end.done && end.moves === 3 && end.par === 3 && end.met === 4 && end.focus === "The page is home" && end.saved &&
+    end.links.join() === "https://islam.museum/en/person/al-jazari-engineer/,https://islam.museum/en/invention/elephant-clock/" && /Historical review pending/.test(end.pending) &&
+    /\D1\D/.test(` ${back.progress} `) && /^Play again: /.test(back.label) && back.benchHidden && /Ibn al-Haytham/.test(back.primary), { label, wrong, spareLine, end, back });
+  await ctx.close();
+}
+// The elephant clock is kept when left in the middle, and its picture can be played by a click or a touch. The slot
+// holds one place: a clock with no progress leaves the flying quest's place alone, and a clock with progress keeps its own.
+{
+  const ctx = await browser.newContext({ viewport: { width: 1280, height: 800 } });
+  const page = await open(ctx, "&style=explorer");
+  const CLOCK = "w02q1-al-jazari";
+  const kept = () => ev<{ quest: string; snap: { places: (string | null)[]; moves: number; flags: string[] } } | null>(page, "JSON.parse(localStorage.getItem('im.hudhud.save.v1') || '{}').slots?.[0]?.resume ?? null");
+  const clockView = () => ev<{ places: (string | null)[]; moves: number; flags: string[]; done: boolean }>(page, "(() => { const c = window.__HH__.clock(); return { places: c.puzzle.places, moves: c.moves, flags: c.flags, done: c.done }; })()");
+  // The flying quest is left in the middle first.
+  await playing(page);
+  await ev(page, "window.__HH__.command({type:'skip'}); window.__HH__.touch('mirror-a'); window.__HH__.touch('cat'); window.__HH__.command({type:'skip'});");
+  await ev(page, "window.__HH__.toAtlas()");
+  const flying0 = await ev<boolean>(page, "window.__HH__.resumed()");
+  // A clock opened and left with nothing changed does not touch it.
+  await page.locator(".hub button[data-quest='w02q1-al-jazari']").click();
+  await ev(page, "window.__HH__.toAtlas()");
+  const untouched = { resumed: await ev<boolean>(page, "window.__HH__.resumed()"), kept: (await kept())?.quest };
+  // One move and one question: the clock's place is kept, and the flying quest's is given up for it.
+  await page.locator(".hub button[data-quest='w02q1-al-jazari']").click();
+  await page.locator(".bench select[data-place='1']").selectOption("falcon");
+  await page.getByRole("button", { name: "Ask about the float" }).click();
+  const before = await clockView();
+  const slotNow = await kept();
+  await ev(page, "window.__HH__.saveReady()");
+  await page.reload();
+  await page.waitForFunction("window.__HH__ && window.__HH__.ready");
+  const labels = await ev<{ clock: string; primary: string; notes: number; flying: boolean }>(page, "({ clock: document.querySelector(\"button[data-quest='w02q1-al-jazari']\").textContent, primary: document.querySelector('.hub button.primary').textContent, notes: document.querySelectorAll('.hub li.open small').length, flying: window.__HH__.resumed() })");
+  await page.locator(".hub button[data-quest='w02q1-al-jazari']").click();
+  const after = await clockView();
+  // The picture is played by a click: choose a place, choose another, and the two change places.
+  const box = (await page.locator(".bench canvas").boundingBox())!;
+  const at = (lx: number, ly: number) => ({ x: box.x + (lx / 1000) * box.width, y: box.y + (ly / 380) * box.height });
+  const place = (i: number) => at(110 + 150 * i, 190);
+  const moves0 = (await clockView()).moves;
+  await page.mouse.click(place(0).x, place(0).y);
+  const chosen = await page.locator(".bench .small[aria-live]").first().textContent();
+  await page.mouse.click(place(2).x, place(2).y);
+  const swapped = await clockView();
+  // A spare part by click: the box holds the dragon and the rider's partner; choose place 3, then the first spare part.
+  await page.mouse.click(place(3).x, place(3).y);
+  await page.mouse.click(at(880, 125).x, at(880, 125).y);
+  const stood = await clockView();
+  // A place chosen and chosen again is let go: no move is counted.
+  await page.mouse.click(place(4).x, place(4).y);
+  await page.mouse.click(place(4).x, place(4).y);
+  const letGo = await clockView();
+  record("the elephant clock left in the middle is kept, comes back as it was, and its picture can be played by a click",
+    flying0 && untouched.resumed && untouched.kept === "w03q1-ibn-al-haytham" && slotNow?.quest === CLOCK && before.moves === 1 && before.flags.join() === "askedFloat" &&
+    /^Continue: /.test(labels.clock) && /^Play: /.test(labels.primary) && !labels.flying && labels.notes >= 2 &&
+    after.moves === before.moves && after.places.join() === before.places.join() && after.flags.join() === "askedFloat" &&
+    /Place 1 is chosen/.test(chosen ?? "") && swapped.moves === moves0 + 1 && swapped.places[0] === before.places[2] && swapped.places[2] === before.places[0] &&
+    stood.moves === swapped.moves + 1 && stood.places[3] !== swapped.places[3] && letGo.moves === stood.moves,
+    { flying0, untouched, slotNow, before, labels, after, chosen, moves0, swapped, stood, letGo });
+  // Finished: the place is gone, and the flying quest can be started.
+  for (const [i, part] of ["float", "falcon", "dragon", "vessel", "bowl"].entries()) await page.locator(`.bench select[data-place='${i}']`).selectOption(part);
+  await page.getByRole("button", { name: "Set the clock going" }).click();
+  await page.waitForSelector(".bench .results:not([hidden])");
+  const done = { done: (await clockView()).done, kept: await kept() };
+  await ev(page, "window.__HH__.saveReady()");
+  await page.reload();
+  await page.waitForFunction("window.__HH__ && window.__HH__.ready");
+  const hub = await ev<{ clock: string }>(page, "({ clock: document.querySelector(\"button[data-quest='w02q1-al-jazari']\").textContent })");
+  await playing(page);
+  record("a finished elephant clock is not kept in the middle, and the flying quest can still be started", done.done && done.kept === null && /^Play again: /.test(hub.clock), { done, hub });
+  await ctx.close();
+}
+// 6. The opening story, not skipped: a fresh visitor meets it before the Atlas, reads it through by the buttons, and
+// is not shown it again; it can be read again from the Atlas, and Escape leaves it. On an Arabic page the page runs
+// right to left and the left arrow goes forward.
+{
+  const ctx = await browser.newContext({ viewport: { width: 1280, height: 900 } });
+  let page = await open(ctx, "", true);
+  const view = () => ev<{ shown: boolean; panel: number; hubHidden: boolean; count: string; text: string; button: string; backOff: boolean; alt: string | null; role: string | null; canvasW: number; canvasH: number; focus: string; live: string | null; box: number; buttons: number[] }>(page, "(() => { const q = (s) => document.querySelector(s); const p = window.__HH__.prologue(); const sizes = [...document.querySelectorAll('.prologue button')].map((b) => Math.min(b.getBoundingClientRect().width, b.getBoundingClientRect().height)); return { shown: p.shown, panel: p.panel, hubHidden: q('.hub').hidden, count: q('.pro-count').textContent, text: q('.pro-text').textContent, button: q('.pro-nav .primary').textContent, backOff: q('.pro-nav button').disabled, alt: q('.pro-art canvas').getAttribute('aria-label'), role: q('.pro-art canvas').getAttribute('role'), canvasW: q('.pro-art canvas').width, canvasH: q('.pro-art canvas').height, focus: document.activeElement.className, live: q('.pro-text').getAttribute('aria-live'), box: sizes.length, buttons: sizes }; })()");
+  const first = await view();
+  if (outDir) await page.screenshot({ path: resolve(outDir, "opening-1.png") });
+  const startsOnIt = first.shown && first.panel === 1 && first.hubHidden && first.count === "Panel 1 of 5" && first.backOff && first.button === "Next" && first.role === "img" && !!first.alt && first.canvasW >= 1000 && first.canvasH >= 420 && first.focus !== "pro-count" && first.live === "polite" && first.text.startsWith("In a quiet museum sleeps a great book");
+  // Next, four times, by the button: the fifth panel says the Atlas and the storm are invented, and offers Begin.
+  const alts = [first.alt];
+  let movedFocus = true; // focus goes to the panel's heading at each change
+  for (let i = 0; i < 4; i++) {
+    await page.locator(".pro-nav .primary").click();
+    const now = await view();
+    alts.push(now.alt);
+    movedFocus &&= now.focus === "pro-count";
+  }
+  const last = await view();
+  if (outDir) await page.screenshot({ path: resolve(outDir, "opening-5.png") });
+  const reachesFive = movedFocus && last.panel === 5 && last.button === "Begin" && last.count === "Panel 5 of 5" && /The Atlas and the storm are invented/.test(last.text) && new Set(alts).size === 5;
+  // Back goes to panel 4 and the button reads Next again; the keyboard does the same.
+  await page.getByRole("button", { name: "Back" }).click();
+  const back = await view();
+  await page.keyboard.press("ArrowRight");
+  const viaKey = await view();
+  await page.keyboard.press("ArrowLeft");
+  const viaKeyBack = await view();
+  await page.keyboard.press("ArrowRight");
+  // Every button is at least 44 pixels each way.
+  const small = last.buttons.filter((n) => n < 44);
+  // Begin shows the Atlas, and records it.
+  await page.locator(".pro-nav .primary").click();
+  const atlas = await ev<{ shown: boolean; panel: number; hubShown: boolean; storyHidden: boolean; seen: unknown }>(page, "(() => { const p = window.__HH__.prologue(); return { shown: p.shown, panel: p.panel, hubShown: !document.querySelector('.hub').hidden, storyHidden: document.querySelector('.prologue').hidden, seen: JSON.parse(localStorage.getItem('im.hudhud.save.v1')).slots[0].prologue }; })()");
+  await ev(page, "window.__HH__.saveReady()");
+  // A reload shows the Atlas at once.
+  await page.reload();
+  await page.waitForFunction("window.__HH__ && window.__HH__.ready");
+  const reloaded = await ev<{ shown: boolean; hubShown: boolean }>(page, "({ shown: window.__HH__.prologue().shown, hubShown: !document.querySelector('.hub').hidden })");
+  // "Read the opening again" shows panel 1; Escape leaves it for the Atlas.
+  await page.locator(".hub button[data-opening='again']").click();
+  const again = await view();
+  await page.keyboard.press("Escape");
+  const escaped = await ev<{ shown: boolean; hubShown: boolean }>(page, "({ shown: window.__HH__.prologue().shown, hubShown: !document.querySelector('.hub').hidden })");
+  const readThrough = (
+    startsOnIt && reachesFive && back.panel === 4 && back.button === "Next" && viaKey.panel === 5 && viaKeyBack.panel === 4 && small.length === 0 &&
+    !atlas.shown && atlas.panel === 0 && atlas.hubShown && atlas.storyHidden && atlas.seen === true &&
+    !reloaded.shown && reloaded.hubShown && again.shown && again.panel === 1 && again.hubHidden && !escaped.shown && escaped.hubShown
+  );
+  const readDetail = { first, last, back, viaKey, viaKeyBack, small, atlas, reloaded, again, escaped };
+  // Skip at the first panel records it too: the next visit goes to the Atlas.
+  await ctx.close();
+  const ctx2 = await browser.newContext({ viewport: { width: 1280, height: 900 } });
+  page = await open(ctx2, "", true);
+  await page.getByRole("button", { name: "Skip the opening" }).click();
+  await ev(page, "window.__HH__.saveReady()");
+  await page.reload();
+  await page.waitForFunction("window.__HH__ && window.__HH__.ready");
+  const skippedThenReload = await ev<boolean>(page, "!window.__HH__.prologue().shown && !document.querySelector('.hub').hidden");
+  await page.close();
+  // The address that goes straight to the quest shows no opening and records nothing.
+  const auto = await open(ctx2, "&autostart=1", true);
+  const autoSeen = await ev<{ shown: boolean; started: boolean }>(auto, "({ shown: window.__HH__.prologue().shown, started: window.__HH__.started() })");
+  const ctx3 = await browser.newContext({ viewport: { width: 1280, height: 900 } });
+  const auto2 = await open(ctx3, "&autostart=1", true);
+  const stored = await ev<string | null>(auto2, "localStorage.getItem('im.hudhud.save.v1')");
+  const noRecord = stored === null || JSON.parse(stored).slots[0].prologue === undefined;
+  const skipping = skippedThenReload && !autoSeen.shown && autoSeen.started && (await ev<boolean>(auto2, "!window.__HH__.prologue().shown")) && noRecord;
+  await ctx3.close();
+  await ctx2.close();
+  // An Arabic page runs right to left, and the left arrow goes forward, the right arrow back; Escape skips.
+  const ctxAr = await browser.newContext({ viewport: { width: 1280, height: 900 } });
+  const ar = await ctxAr.newPage();
+  ar.on("pageerror", (e) => errors.push(String(e)));
+  await ar.goto(`${served.base}/games/hudhud/index.html?lang=ar&music=off`);
+  await ar.waitForFunction("window.__HH__ && window.__HH__.ready");
+  const arView = () => ev<{ dir: string; panel: number; count: string; text: string }>(ar, "({ dir: document.documentElement.dir, panel: window.__HH__.prologue().panel, count: document.querySelector('.pro-count').textContent, text: document.querySelector('.pro-text').textContent })");
+  const ar1 = await arView();
+  if (outDir) await ar.screenshot({ path: resolve(outDir, "opening-ar-1.png") });
+  await ar.keyboard.press("ArrowLeft");
+  const ar2 = await arView();
+  await ar.keyboard.press("ArrowLeft");
+  await ar.keyboard.press("ArrowRight");
+  const ar3 = await arView();
+  await ar.keyboard.press("ArrowLeft");
+  await ar.keyboard.press("ArrowLeft");
+  await ar.keyboard.press("ArrowLeft");
+  const ar5 = await arView();
+  if (outDir) await ar.screenshot({ path: resolve(outDir, "opening-ar-5.png") });
+  await ar.keyboard.press("Escape");
+  const arAtlas = await ev<{ shown: boolean; hubShown: boolean }>(ar, "({ shown: window.__HH__.prologue().shown, hubShown: !document.querySelector('.hub').hidden })");
+  const arabic = (
+    ar1.dir === "rtl" && ar1.panel === 1 && ar1.count === "اللوحة ١ من ٥" && ar1.text.startsWith("في متحف هادئ ينام كتاب كبير") && ar2.panel === 2 && ar3.panel === 2 && ar5.panel === 5 && /الأطلس والعاصفة من الخيال/.test(ar5.text) && !arAtlas.shown && arAtlas.hubShown
+  );
+  await ctxAr.close();
+  record("the opening story: a new visitor meets it before the Atlas and reads it by the buttons and the arrow keys; Begin and Skip record it; it can be read again; Escape leaves it; autostart shows none; on an Arabic page it runs right to left", readThrough && skipping && arabic, { read: readDetail, skippedThenReload, autoSeen, stored, ar: { ar1, ar2, ar3, ar5, arAtlas } });
 }
 await browser.close();
 await served.close();
