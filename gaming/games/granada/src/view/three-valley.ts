@@ -1112,13 +1112,14 @@ export class ValleyRenderer {
    * Where the player is thinking of building: a ring on the ground, green and whole where the ground takes it, red
    * where it does not. The words beside the valley say the same, so nothing is told by colour alone.
    */
-  setGhost(g: { x: number; z: number; r: number; ok: boolean } | null): void {
+  setGhost(g: { x: number; z: number; r: number; ok: boolean; mark?: boolean } | null): void {
     for (const m of [this.ghost, this.ghostFill]) {
       m.visible = g !== null;
       if (!g) continue;
       m.position.set(g.x, heightAt(g.x, g.z, this.options.seed) + 0.6, g.z);
       m.scale.set(g.r, 1, g.r);
-      (m.material as THREE.MeshBasicMaterial).color.setHex(g.ok ? 0x4fd06a : 0xe0503c);
+      // Gold for what has been chosen to look at; green or red for ground being considered to build on.
+      (m.material as THREE.MeshBasicMaterial).color.setHex(g.mark ? 0xe8b23a : g.ok ? 0x4fd06a : 0xe0503c);
     }
   }
 

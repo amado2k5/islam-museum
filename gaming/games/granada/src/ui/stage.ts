@@ -17,6 +17,8 @@ export interface StageOptions {
   onField: (id: string) => void;
   /** While the player is choosing where to build: the point of the land being considered, and the point chosen. */
   onSite?: (x: number, z: number) => void;
+  /** A click on the land: true if something standing there took it, so that it is not a click on a field. */
+  onLand?: (x: number, z: number) => boolean;
   onBuild?: (x: number, z: number) => void;
 }
 
@@ -113,6 +115,8 @@ export class Stage {
         const p = this.renderer.landAt(e.clientX, e.clientY);
         if (p) this.options.onBuild?.(p[0], p[1]);
       } else if (wasClick) {
+        const p = this.renderer.landAt(e.clientX, e.clientY);
+        if (p && this.options.onLand?.(p[0], p[1])) return;
         const field = this.renderer.fieldAt(e.clientX, e.clientY);
         if (field) this.options.onField(field);
       }
@@ -207,7 +211,7 @@ export class Stage {
     return this.renderer.capture();
   }
   /** Shows, or takes away, the ring on the ground the player is considering. */
-  setGhost(g: { x: number; z: number; r: number; ok: boolean } | null): void {
+  setGhost(g: { x: number; z: number; r: number; ok: boolean; mark?: boolean } | null): void {
     this.renderer.setGhost(g);
   }
   /** Which field lies under a point of the page, if any. */

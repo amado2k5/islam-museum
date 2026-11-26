@@ -76,6 +76,19 @@ By the times the pull requests were merged, on 26 November 2026 (UTC), one agent
 - **That is not what stands between this frame and the target.** What does is the finish of each piece: a house here is a few dozen boxes with a photograph on them. A building at the target's finish has arcades, mouldings, carved doors, balconies, worn edges, awnings, and things lying about it; by script, each such building is many times the work, and whether script alone reaches it is **not shown by this frame**. The trees, the land and the people are further from the target than the buildings are.
 - **The developer's recommendation:** if this direction is not near enough, the choice is the founder's among a 3D artist, licensed model packs, or modelling tools beyond scripts; each is a cost or a licence to weigh, and none was used or bought here.
 
+## Since the frame was taken
+
+_Added the same day, later in the eight hours. The frame above is as it was taken and is not retouched; this is what the running game has gained since, so that it is judged as it now stands. Nothing here changes the developer's reading of the picture's finish._
+
+| | Then | Now |
+|---|---|---|
+| P7, working panels | No contract, production chain, catalogue or map | A contract with the port; the oil's road from grove to port; a catalogue of four buildings; a region diagram with three layers; a decision; a journal; warnings read from the forecast; prices that move. Still absent, because the systems are: security, diplomacy |
+| P8, a building or place that can be selected | A field only | A field, the store, the market, the estate's press and every building the player has placed, each with a card of its own figures and a gold ring on the land |
+| P9, a visible change of state | People at the harvest | Also: a building placed by the player rises under scaffolding and then stands |
+| Photo Mode | None | In the game, scripted against the founder's seven requirements on this machine |
+
+**Unchanged:** the buildings, trees, land and people are no nearer the target's finish. No art has been made since the frame, by the founder's answer.
+
 ## What is said of history
 
 The valley is fiction and the game says so. The town, the wall and the palace are a general picture of a walled town of the western Mediterranean. They copy no building, the game does not call the palace the Alhambra, and nothing here has been seen by a historian: ledger entry HR-GR-06, a reconstruction, review pending. The page of the game carries the words "historical review pending".
