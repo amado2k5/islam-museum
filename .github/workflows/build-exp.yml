@@ -489,6 +489,35 @@ jobs:
         with:
           # Full history: the entity citation date comes from each file's last commit.
           fetch-depth: 0
+      # Same gate as the per-language jobs: a part that was not asked for, or that this branch does not have,
+      # gets no artifact, so its deploy gate fails the way a split-mode run's would. astro still renders the
+      # whole site; only the packing and uploads are selective.
+      - name: Which parts were asked for, and does this branch have them?
+        id: want
+        env:
+          ASKED: ${{ inputs.languages }}
+        run: |
+          set -euo pipefail
+          langs=" "
+          for lang in $(grep -E '^export const ALL_LANGS' site/src/lib/i18n.ts | grep -oE '"[a-z]+"' | tr -d '"'); do
+            if [ -n "${ASKED// /}" ] && ! grep -qw -- "$lang" <<<"$ASKED"; then
+              echo "::notice::$lang was not asked for (parts: $ASKED); its pages are not packed."
+            else
+              langs="$langs$lang "
+            fi
+          done
+          if [ -n "${ASKED// /}" ]; then
+            for part in $ASKED; do
+              [ "$part" = shared ] && continue
+              grep -qw -- " $part " <<<" $langs " || echo "::notice::This branch has no $part language (site/src/lib/i18n.ts); nothing is packed for it."
+            done
+          fi
+          shared=true
+          if [ -n "${ASKED// /}" ] && ! grep -qw -- shared <<<"$ASKED"; then
+            shared=false; echo "::notice::The shared parts were not asked for (parts: $ASKED); they are not packed."
+          fi
+          echo "langs=$langs" >> "$GITHUB_OUTPUT"
+          echo "shared=$shared" >> "$GITHUB_OUTPUT"
       - name: Free runner disk the build does not use (Android SDK, .NET, Haskell, CodeQL, Swift, Docker images)
         run: |
           echo "before: $(df -BM --output=avail / | tail -1 | tr -dc '0-9') MB free"
@@ -551,67 +580,89 @@ jobs:
       # (its pages and its search index), each language's sitemap dir, and the shared parts. The sitemap job
       # then merges the language sitemaps exactly as in split mode; the whole-site sitemap files astro wrote
       # are shared here so every language's dir is full (the merge deduplicates the addresses).
-      - name: Pack every language, each sitemap dir and the shared parts
+      - name: Pack the asked-for languages, their sitemap dirs and the shared parts
+        env:
+          LANGS: ${{ steps.want.outputs.langs }}
+          SHARED: ${{ steps.want.outputs.shared }}
         run: |
           set -euo pipefail
-          for lang in ar en ur fr es tr id; do
+          for lang in $LANGS; do
             test -f "dist/$lang/index.html"
             test -d "dist/pagefind-$lang"
             tar --use-compress-program='zstd -T0 -3' -cf "dist-lang-$lang.tar.zst" -C dist "$lang" "pagefind-$lang"
             mkdir "sitemap-lang-$lang"
             cp dist/sitemap-[0-9]*.xml "sitemap-lang-$lang/"
           done
-          rm -rf dist/ar dist/en dist/ur dist/fr dist/es dist/tr dist/id dist/pagefind-* dist/sitemap*.xml
-          test -f dist/index.html
-          test -d dist/api
-          test -d dist/_astro
-          tar --use-compress-program='zstd -T0 -3' -cf dist-shared.tar.zst -C dist .
-          ls -l dist-lang-*.tar.zst dist-shared.tar.zst
+          if [ "$SHARED" = true ]; then
+            for lang in $(grep -E '^export const ALL_LANGS' site/src/lib/i18n.ts | grep -oE '"[a-z]+"' | tr -d '"'); do rm -rf "dist/$lang"; done
+            rm -rf dist/pagefind-* dist/sitemap*.xml
+            test -f dist/index.html
+            test -d dist/api
+            test -d dist/_astro
+            tar --use-compress-program='zstd -T0 -3' -cf dist-shared.tar.zst -C dist .
+          fi
+          ls -l dist-*.tar.zst
           {
             echo "## All-languages build ${{ github.run_id }} (single mode)"
             echo
             echo "- Commit: \`${{ github.sha }}\` (${{ github.ref_name }})"
-            echo "- Pages: $(tar -tf dist-lang-ar.tar.zst --wildcards '*.html' 2>/dev/null | wc -l) in ar (one language shown)"
+            echo "- Languages packed:${LANGS}"
+            echo "- Shared packed: $SHARED"
             echo
             echo "Deploy it with **Deploy all parts to production** or the per-language deploys, build_run_id \`${{ github.run_id }}\`."
           } >> "$GITHUB_STEP_SUMMARY"
       - name: Upload the ar pages and search index
+        if: contains(steps.want.outputs.langs, ' ar ')
         uses: actions/upload-artifact@v8
         with: { name: dist-lang-ar, path: dist-lang-ar.tar.zst, if-no-files-found: error, compression-level: 0, retention-days: 5 }
       - name: Upload the en pages and search index
+        if: contains(steps.want.outputs.langs, ' en ')
         uses: actions/upload-artifact@v8
         with: { name: dist-lang-en, path: dist-lang-en.tar.zst, if-no-files-found: error, compression-level: 0, retention-days: 5 }
       - name: Upload the ur pages and search index
+        if: contains(steps.want.outputs.langs, ' ur ')
         uses: actions/upload-artifact@v8
         with: { name: dist-lang-ur, path: dist-lang-ur.tar.zst, if-no-files-found: error, compression-level: 0, retention-days: 5 }
       - name: Upload the fr pages and search index
+        if: contains(steps.want.outputs.langs, ' fr ')
         uses: actions/upload-artifact@v8
         with: { name: dist-lang-fr, path: dist-lang-fr.tar.zst, if-no-files-found: error, compression-level: 0, retention-days: 5 }
       - name: Upload the es pages and search index
+        if: contains(steps.want.outputs.langs, ' es ')
         uses: actions/upload-artifact@v8
         with: { name: dist-lang-es, path: dist-lang-es.tar.zst, if-no-files-found: error, compression-level: 0, retention-days: 5 }
       - name: Upload the tr pages and search index
+        if: contains(steps.want.outputs.langs, ' tr ')
         uses: actions/upload-artifact@v8
         with: { name: dist-lang-tr, path: dist-lang-tr.tar.zst, if-no-files-found: error, compression-level: 0, retention-days: 5 }
       - name: Upload the id pages and search index
+        if: contains(steps.want.outputs.langs, ' id ')
         uses: actions/upload-artifact@v8
         with: { name: dist-lang-id, path: dist-lang-id.tar.zst, if-no-files-found: error, compression-level: 0, retention-days: 5 }
       - name: Upload every language's sitemap files (for the whole-site sitemap)
+        if: contains(steps.want.outputs.langs, ' ar ')
         uses: actions/upload-artifact@v8
         with: { name: sitemap-lang-ar, path: sitemap-lang-ar/, if-no-files-found: error, retention-days: 5 }
       - uses: actions/upload-artifact@v8
+        if: contains(steps.want.outputs.langs, ' en ')
         with: { name: sitemap-lang-en, path: sitemap-lang-en/, if-no-files-found: error, retention-days: 5 }
       - uses: actions/upload-artifact@v8
+        if: contains(steps.want.outputs.langs, ' ur ')
         with: { name: sitemap-lang-ur, path: sitemap-lang-ur/, if-no-files-found: error, retention-days: 5 }
       - uses: actions/upload-artifact@v8
+        if: contains(steps.want.outputs.langs, ' fr ')
         with: { name: sitemap-lang-fr, path: sitemap-lang-fr/, if-no-files-found: error, retention-days: 5 }
       - uses: actions/upload-artifact@v8
+        if: contains(steps.want.outputs.langs, ' es ')
         with: { name: sitemap-lang-es, path: sitemap-lang-es/, if-no-files-found: error, retention-days: 5 }
       - uses: actions/upload-artifact@v8
+        if: contains(steps.want.outputs.langs, ' tr ')
         with: { name: sitemap-lang-tr, path: sitemap-lang-tr/, if-no-files-found: error, retention-days: 5 }
       - uses: actions/upload-artifact@v8
+        if: contains(steps.want.outputs.langs, ' id ')
         with: { name: sitemap-lang-id, path: sitemap-lang-id/, if-no-files-found: error, retention-days: 5 }
       - name: Upload the shared parts
+        if: steps.want.outputs.shared == 'true'
         uses: actions/upload-artifact@v8
         with:
           name: dist-shared
