@@ -21,6 +21,9 @@ import { sheetsQuest, type SheetsQuest } from "./sheets";
 import { SORT_QUEST, SORT_SUBJECT, sortDef } from "../content/sort";
 import { restoreSort } from "../sim/sort";
 import { sortQuest, type SortQuest } from "./sort";
+import { PAPER_QUEST, PAPER_SUBJECT, paperPuzzle } from "../content/paper";
+import { restorePaper } from "../sim/paper";
+import { paperQuest, type PaperQuest } from "./paper";
 import { prologueScreen } from "./prologue";
 import { JAR, RECORDS, SCRIPTS, THINGS, TURN_SLACK, inPlay, type PlayStyle, type Speaker } from "../content/workshop";
 import { start, type Running } from "../game/boot";
@@ -162,7 +165,7 @@ async function main(): Promise<void> {
   // The goal and the talk sit over the picture on a wide screen and beside it on a narrow one (ui/hudhud.css).
   const stageWrap = el("div", { class: "stage-wrap", hidden: true }, objective, stage, talkBox);
   const hub = el("section", { class: "hub" });
-  // The second to sixth quests are played on a page of their own, beside the Atlas and the flying scene. One of them
+  // The second to seventh quests are played on a page of their own, beside the Atlas and the flying scene. One of them
   // is open at a time: `pageRun` is the one that is (see PAGE_QUESTS).
   const bench = el("section", { class: "bench", hidden: true });
   let pageRun: { quest: string; run: { node: HTMLElement; busy(): boolean; stop(): void } } | null = null;
@@ -836,10 +839,10 @@ async function main(): Promise<void> {
 
   applyLook();
   // ---------------------------------------------------------------------------------------- the Atlas
-  // The first thing a player sees: who they are, and the Atlas itself, ten worlds of five pages. Six quests can be
+  // The first thing a player sees: who they are, and the Atlas itself, ten worlds of five pages. Seven quests can be
   // played; the others are named and said to be not built. Nothing here is a claim about history: the names are
   // the subjects' names and the grouping is a structure for play.
-  const BUILT: Record<string, string> = { "ibn-al-haytham": QUEST, "al-jazari": CLOCK_QUEST, "al-kindi": CIPHER_QUEST, "al-khwarizmi": ALGEBRA_QUEST, "al-idrisi": SHEETS_QUEST, [SORT_SUBJECT]: SORT_QUEST };
+  const BUILT: Record<string, string> = { "ibn-al-haytham": QUEST, "al-jazari": CLOCK_QUEST, "al-kindi": CIPHER_QUEST, "al-khwarizmi": ALGEBRA_QUEST, "al-idrisi": SHEETS_QUEST, [SORT_SUBJECT]: SORT_QUEST, [PAPER_SUBJECT]: PAPER_QUEST };
   function startQuest(): void {
     cues.unlock();
     // Asked once, after a press as browsers require; the answer is shown in the settings and never asked again.
@@ -924,6 +927,12 @@ async function main(): Promise<void> {
       trial: "jz_trial",
       saved: () => pageSaved(SORT_QUEST, (snap) => restoreSort(snap, sortDef)),
       make: (c, title, kept) => sortQuest({ ...c, title, resume: kept as Parameters<typeof sortQuest>[0]["resume"] }),
+    },
+    [PAPER_QUEST]: {
+      subject: PAPER_SUBJECT,
+      trial: "pp_trial",
+      saved: () => pageSaved(PAPER_QUEST, (snap) => restorePaper(snap, paperPuzzle)),
+      make: (c, title, kept) => paperQuest({ ...c, title, resume: kept as Parameters<typeof paperQuest>[0]["resume"], reducedMotion: () => settings().reducedMotion }),
     },
   };
   /** Opens a quest played on a page, with no flying scene. One left in the middle comes back. */
@@ -1154,6 +1163,9 @@ async function main(): Promise<void> {
     startSort: () => openPage(SORT_QUEST),
     sort: () => { const r = pageOf<SortQuest>(SORT_QUEST); return r ? { ...r.state(), busy: r.busy(), selected: r.selected(), status: r.status() } : null; },
     sortCommand: (c: Parameters<SortQuest["command"]>[0]) => pageOf<SortQuest>(SORT_QUEST)?.command(c),
+    startPaper: () => openPage(PAPER_QUEST),
+    paper: () => { const r = pageOf<PaperQuest>(PAPER_QUEST); return r ? { ...r.state(), busy: r.busy(), selected: r.selected(), status: r.status() } : null; },
+    paperCommand: (c: Parameters<PaperQuest["command"]>[0]) => pageOf<PaperQuest>(PAPER_QUEST)?.command(c),
     resumed: () => resumed,
     keys: () => settings().keys,
     prologue: () => ({ shown: openingShown, panel: openingShown ? prologue.panel() : 0 }),

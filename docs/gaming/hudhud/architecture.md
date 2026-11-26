@@ -13,7 +13,9 @@ gaming/games/hudhud/
     sim/                RULES. Pure, no Phaser, no DOM, no clock, no unseeded chance; run in Node
       light.ts            the beam on a grid: trace, turn a mirror, solve, generate from a seed
       chain.ts            a machine as a row of parts that hand a motion on: run, swap, solve, generate
-      clock.ts            the elephant clock quest over chain.ts: moves, the fewest possible, flags, goals
+      chainquest.ts       the rules of a quest made of a row (moves, the fewest possible, flags, the four goals, a saved place proved on restore), over chain.ts, for any list of flags; shared by the two quests below
+      clock.ts            the elephant clock quest: its flags, over chainquest.ts
+      paper.ts            the paper of Samarkand quest: its flags, over chainquest.ts
       move.ts             the bird: a fixed-step integrator with coyote time, jump buffering, glide, perches
       scene.ts            the quest's state and its only reducer: (state, command) -> (state, what happened)
     narrative/dialogue.ts typed scripts and the machine that walks them; faults() checks a script set
@@ -58,7 +60,7 @@ gaming/tools/hudhud-rebuild.ts  rebuilds the game repeatedly and reads memory
 | `docs/gaming/spec-production/release-status.json` | `hudhud`: `prototype`, approved by nobody |
 | `gaming/games/prototype-labels.gtest.ts`, `review-mark.gtest.ts` | each learns of the fourth game: its label and its review mark are now enforced in seven languages |
 | `gaming/tools/release-smoke.ts` | a branch for Hudhud: start, open the scene on WebGL under the host's policy, turn a mirror, see the label |
-| `docs/gaming/historical-review/ledger.json` | twenty-five entries, HR-HH-01 to 25, all pending |
+| `docs/gaming/historical-review/ledger.json` | twenty-eight entries, HR-HH-01 to 28, all pending |
 
 Not changed: any file of Granada, The Golden Age or Atlas; the games Worker; any workflow; anything under `site/`.
 
