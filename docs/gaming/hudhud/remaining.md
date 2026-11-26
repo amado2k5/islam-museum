@@ -18,7 +18,7 @@ _26 November 2026. The founder asked, in chat: "what is remaining for this game 
 | Languages | seven, read by native speakers | seven, machine drafts read by nobody |
 | History | every claim reviewed by a named person | every claim entered as pending; no reviewer named |
 | Saving | slots, versions, recovery, a place kept inside a quest; for every game a vault in IndexedDB with backups, export and import | all of these for Hudhud ([`../save-service.md`](../save-service.md)); the other three games still save to `localStorage` alone |
-| Unsupported devices | a plain refusal before anything heavy loads, for every game | built; Hudhud stands behind it, the other three do not yet ([`../device-preflight.md`](../device-preflight.md)) |
+| Unsupported devices | a plain refusal before anything heavy loads, for every game | built; all four games stand behind it ([`../device-preflight.md`](../device-preflight.md)) |
 | Accessibility | keyboard, gamepad, remapping of both, reduced motion, contrast, a way to play without the picture | all built; no physical controller tried; none audited by a person or a tool |
 | Machines and browsers | two reference machines, the main browsers, phones and tablets | one Mac, Chrome |
 | People playing | children of three age bands, parents, Arabic and Urdu readers | nobody |

@@ -13,6 +13,10 @@ _26 November 2026. The founder's instruction, section 0: Hudhud has sole game pr
 
 **What Hudhud touched that is shared**, and why each is the smallest change: listed in [architecture](architecture.md#changed-in-the-shared-platform-the-smallest-that-works). No file under `gaming/games/granada/`, `gaming/games/golden-age/` or `gaming/games/atlas/`, and no `gaming/tools/granada-*.ts`, was changed.
 
-**The narrow exceptions** under which another game may be touched while paused: a fix to shared platform code, security, data integrity, a production incident, or a regression Hudhud caused. Each is to be written here with its reason. None has been needed.
+**The narrow exceptions** under which another game may be touched while paused: a fix to shared platform code, security, data integrity, a production incident, or a regression Hudhud caused. Each is written here with its reason.
+
+| Date | What was touched | Why |
+|---|---|---|
+| 26 November 2026 | `games/granada/index.html`, `games/golden-age/index.html`, `games/atlas/index.html` (the script each page loads, and one stylesheet link) and a new `src/ui/gate.ts` in each | The founder's directive, section 9: every game stands behind the shared device check. No rule, picture, string or save of those games changed; their tests and the release smoke pass |
 
 **UAT** serves release `20261126-63e2fd9dc25` since 26 November 2026: the three earlier games, their code unchanged from the release before, and Hudhud as the fourth. The regression scenarios of the three passed there after it, 12 of 12.
