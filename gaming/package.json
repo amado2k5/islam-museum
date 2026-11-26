@@ -44,7 +44,8 @@
     "save:carry": "tsx --tsconfig tsconfig.json tools/save-carry.ts",
     "measure": "tsx --tsconfig tsconfig.json tools/measure.ts",
     "hudhud:play": "tsx --tsconfig tsconfig.json tools/hudhud-play.ts",
-    "hudhud:checks": "tsx --tsconfig tsconfig.json tools/hudhud-checks.ts"
+    "hudhud:checks": "tsx --tsconfig tsconfig.json tools/hudhud-checks.ts",
+    "hudhud:uat": "tsx --tsconfig tsconfig.json tools/hudhud-uat.ts"
   },
   "dependencies": {
     "@babylonjs/core": "9.37.2",

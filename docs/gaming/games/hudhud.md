@@ -1,6 +1,6 @@
 # Hudhud: The Atlas of Wonders — state of the game
 
-_26 November 2026. Release status: **prototype**. Working title. Instruction, plans and decisions: [`../hudhud/`](../hudhud/README.md). Code: `gaming/games/hudhud/`. Not on the site. Not on UAT._
+_26 November 2026. Release status: **prototype**. Working title. Instruction, plans and decisions: [`../hudhud/`](../hudhud/README.md). Code: `gaming/games/hudhud/`. Not on the site. **On UAT** since 26 November 2026 (release `20261126-63e2fd9dc25`): `https://uat-games.islam.museum/hudhud/?lang=ar`. Not in production._
 
 ## What exists
 

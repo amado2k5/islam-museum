@@ -15,4 +15,4 @@ _26 November 2026. The founder's instruction, section 0: Hudhud has sole game pr
 
 **The narrow exceptions** under which another game may be touched while paused: a fix to shared platform code, security, data integrity, a production incident, or a regression Hudhud caused. Each is to be written here with its reason. None has been needed.
 
-**UAT** serves the three earlier games from an earlier release and is unchanged. Hudhud is not on UAT.
+**UAT** serves release `20261126-63e2fd9dc25` since 26 November 2026: the three earlier games, their code unchanged from the release before, and Hudhud as the fourth. The regression scenarios of the three passed there after it, 12 of 12.

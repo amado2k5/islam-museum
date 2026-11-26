@@ -43,8 +43,8 @@ _26 November 2026. What was run is listed with its result. What was not run is l
 - Any person playing: no child, parent, teenager, or Arabic or Urdu reader.
 - A screen reader; an automated accessibility scan; a contrast measurement.
 - A gamepad.
-- UAT: nothing of Hudhud is released anywhere. A UAT release is the founder's word each time.
-- `release:regression`, which runs against a deployed host and has no Hudhud case yet; one is to be added with the first UAT release.
+- Production: nothing of Hudhud is there. (UAT: released 26 November 2026 at the founder's word and checked there in seven languages with `gaming/tools/hudhud-uat.ts`; no rollback has been rehearsed with Hudhud in the release.)
+- A Hudhud case inside `release:regression`: the regression tool was run on UAT for the other three games and passed; Hudhud is checked on a host by its own tool, `hudhud-uat.ts`, and is not yet one of the regression matrix's scenarios.
 
 ## Risks
 
