@@ -4,7 +4,7 @@ _26 November 2026. Release status: **prototype**. Working title. Instruction, pl
 
 ## What exists
 
-The game opens on **the Atlas**: a page that names the ten worlds and their fifty subjects in seven languages, says how many pages are home, and lets the player choose a girl or a boy explorer. Two quests can be played from it (the light workshop, and a second, short trial quest (al-Jazari's elephant clock: a row of parts put in order with ordinary page controls and a simple code-drawn picture that can also be clicked or touched, no flying scene, kept when left in the middle)); the other forty-nine are named and marked "Not built yet", and the two that are story tradition say so. A finished quest returns to the Atlas with its page home.
+The game opens on **the Atlas**: a page that names the ten worlds and their fifty subjects in seven languages, says how many pages are home, and lets the player choose a girl or a boy explorer. Two quests can be played from it (the light workshop, and a second, short trial quest (al-Jazari's elephant clock: a row of parts put in order with ordinary page controls and a simple code-drawn picture that can also be clicked or touched, no flying scene, kept when left in the middle)); the other forty-nine are named and marked "Not built yet", and the two that are story tradition say so. A finished quest returns to the Atlas with its page home. Above the lists the Atlas page shows one code-drawn picture of the open book, with a medallion for each world (a plain sign on each, not finished art), five page marks round it that fill as pages come home, and a ring round the worlds that have a quest to play; a click on a medallion, or one of ten numbered buttons under the picture, goes to that world's list.
 
 ![The Atlas](../evidence/hudhud/golden-scene/atlas-en.webp)
 
@@ -39,7 +39,7 @@ _Captures of the running game, Chrome, 26 November 2026, made by `gaming/tools/h
 | Play to scene | about 0.4 s |
 | Textures in memory | 20 MB (Low), 45 MB (Medium), 80 MB (High) |
 | Draw calls a frame | 15 to 20 |
-| Tests | 151 of its own and 28 of the shared platform; 533 in the workspace, all passing |
+| Tests | 159 of its own and 28 of the shared platform; 541 in the workspace, all passing |
 
 ## Next
 
