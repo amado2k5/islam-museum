@@ -7,19 +7,21 @@ _26 November 2026. Describes what is built for the golden scene and what the sam
 ```
 gaming/games/hudhud/
   index.html            the page: one stylesheet, one script, no inline style or script
-  i18n/<lang>.json      194 strings, the same keys in the same order in ar, en, ur, fr, es, tr, id
+  i18n/<lang>.json      209 strings, the same keys in the same order in ar, en, ur, fr, es, tr, id
   i18n-atlas/<lang>.json  the names of the ten worlds and the fifty subjects, a table of their own
   src/
     sim/                RULES. Pure, no Phaser, no DOM, no clock, no unseeded chance; run in Node
       light.ts            the beam on a grid: trace, turn a mirror, solve, generate from a seed
-      chain.ts            a machine as a row of parts that hand a motion on: run, swap, solve, generate (in no quest yet)
+      chain.ts            a machine as a row of parts that hand a motion on: run, swap, solve, generate
+      clock.ts            the elephant clock quest over chain.ts: moves, the fewest possible, flags, goals
       move.ts             the bird: a fixed-step integrator with coyote time, jump buffering, glide, perches
       scene.ts            the quest's state and its only reducer: (state, command) -> (state, what happened)
     narrative/dialogue.ts typed scripts and the machine that walks them; faults() checks a script set
     content/
       atlas.v1.json       80 pictures -> 50 subjects -> 10 worlds -> quests -> museum record ids
       workshop.ts         the golden scene as data: room, puzzle, things, scripts, records
-    save/save.ts        versioned local save: three slots, migrations, quarantine, storage that fails
+    save/save.ts        the save's shape and rules: three slots, migrations, quarantine, merging
+    save/durable.ts     the join to the platform's vault (IndexedDB): which copy leads, saving status, export, import
     input/input.ts      keyboard, on-screen buttons and gamepad -> one Intent
     input/pad.ts        the gamepad as plain numbers: what is held, what was just pressed, changing a button
     audio/cues.ts       the scene's own sounds, synthesised; three volume groups
@@ -27,7 +29,7 @@ gaming/games/hudhud/
     scenes/workshop.ts  Phaser scene: builds the pictures, moves them from the state, measures itself
     game/boot.ts        starts and stops Phaser; sizes the canvas; counts draw calls when asked
     ui/app.ts, .css     the page: talk, goal, settings, pause, results, the scene in words, the test hook
-    tests/*.gtest.ts    114 tests
+    tests/*.gtest.ts    126 tests
 gaming/tools/hudhud-play.ts     plays the scene in real Chrome and records everything
 gaming/tools/hudhud-rebuild.ts  rebuilds the game repeatedly and reads memory
 ```
@@ -56,7 +58,7 @@ gaming/tools/hudhud-rebuild.ts  rebuilds the game repeatedly and reads memory
 | `docs/gaming/spec-production/release-status.json` | `hudhud`: `prototype`, approved by nobody |
 | `gaming/games/prototype-labels.gtest.ts`, `review-mark.gtest.ts` | each learns of the fourth game: its label and its review mark are now enforced in seven languages |
 | `gaming/tools/release-smoke.ts` | a branch for Hudhud: start, open the scene on WebGL under the host's policy, turn a mirror, see the label |
-| `docs/gaming/historical-review/ledger.json` | nine entries, HR-HH-01 to 09, all pending |
+| `docs/gaming/historical-review/ledger.json` | thirteen entries, HR-HH-01 to 13, all pending |
 
 Not changed: any file of Granada, The Golden Age or Atlas; the games Worker; any workflow; anything under `site/`.
 

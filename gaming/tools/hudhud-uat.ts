@@ -6,6 +6,7 @@
 import { mkdirSync, writeFileSync } from "node:fs";
 import { resolve } from "node:path";
 import { chromium } from "playwright-core";
+import { leaveOpening } from "./hudhud-opening";
 
 const [base, outArg, langsArg = "en,ar"] = process.argv.slice(2);
 if (!base || !outArg) throw new Error("usage: hudhud-uat.ts <base> <out dir> [langs]");
@@ -39,6 +40,8 @@ for (const lang of langsArg.split(",")) {
   const headers = response?.headers() ?? {};
   if (!(await wait("Boolean(window.__HH__ && (window.__HH__.ready || window.__HH__.error))", 30000))) errors.push("the page did not start in 30 seconds");
   const readyMs = Date.now() - t0;
+  // A build with the opening story shows it first; a visitor skips it by its button. An older build has none.
+  await leaveOpening(page);
   const atlas = await ev<Record<string, unknown>>("({ worlds: document.querySelectorAll('.hub .world').length, pages: document.querySelectorAll('.hub .world li').length, open: document.querySelectorAll('.hub .world li.open').length, proto: !!document.querySelector('header .chip.proto'), title: document.title, dir: document.documentElement.dir, music: document.querySelectorAll('details.music').length })");
   await page.screenshot({ path: resolve(out, `uat-hudhud-${lang}-atlas.png`) });
   await page.locator(".hub button.primary").click();
@@ -63,6 +66,15 @@ for (const lang of langsArg.split(",")) {
   }
   const end = await ev<Record<string, unknown>>("({ done: window.__HH__.state().done, review: [...document.querySelectorAll('.sheet .pending')].map((p) => p.textContent.slice(0, 90)), links: [...document.querySelectorAll('.sheet .note a')].map((a) => a.href) })");
   await page.screenshot({ path: resolve(out, `uat-hudhud-${lang}-results.png`) });
+  // The second quest, where the host has it: back to the Atlas, the elephant clock put in order and set going.
+  let clock: { done: boolean; moves: number; par: number; pending: boolean; links: number } | null = null;
+  if (await ev<boolean>("typeof window.__HH__.startClock === 'function'")) {
+    await ev("document.querySelectorAll('.sheet').forEach((x) => x.close && x.close()); window.__HH__.toAtlas(); window.__HH__.startClock();");
+    await ev("['float','falcon','dragon','vessel','bowl'].forEach((part, place) => window.__HH__.clockCommand({ type: 'put', place, part })); window.__HH__.clockCommand({ type: 'go' });");
+    await wait("window.__HH__.clock() && window.__HH__.clock().done && !window.__HH__.clock().busy", 15000);
+    clock = await ev("({ done: window.__HH__.clock().done, moves: window.__HH__.clock().moves, par: window.__HH__.clock().par, pending: !!document.querySelector('.bench .results .pending'), links: document.querySelectorAll('.bench .results .note a').length })");
+    await page.screenshot({ path: resolve(out, `uat-hudhud-${lang}-clock.png`), fullPage: true });
+  }
   // A track is asked for after a press, if the host has the music.
   const tracks = requests.filter((r) => r.url.endsWith(".m4a")).map((r) => r.status);
   const csp = await ev<string[]>("window.__csp");
@@ -70,16 +82,17 @@ for (const lang of langsArg.split(",")) {
   const foreign = requests.filter((r) => !r.url.startsWith(origin) && !r.url.startsWith("data:") && !r.url.startsWith("blob:")).map((r) => r.url);
   const bad = requests.filter((r) => r.status >= 400).map((r) => `${r.status} ${r.url}`);
   const mine: string[] = [...errors, ...csp.map((v) => `content security policy: ${v}`), ...foreign.map((u) => `asked another origin: ${u}`), ...bad];
-  if (atlas.worlds !== 10 || atlas.pages !== 50 || atlas.open !== 1) mine.push(`the Atlas shows ${atlas.worlds} worlds, ${atlas.pages} pages, ${atlas.open} open`);
+  if (atlas.worlds !== 10 || atlas.pages !== 50 || atlas.open !== (clock ? 2 : 1)) mine.push(`the Atlas shows ${atlas.worlds} worlds, ${atlas.pages} pages, ${atlas.open} open`);
   if (!atlas.proto) mine.push("the prototype label is not shown");
   if ((lang === "ar" || lang === "ur") !== (atlas.dir === "rtl")) mine.push(`direction is ${atlas.dir}`);
   if (pauseProblem) mine.push(pauseProblem);
   if (!opened) mine.push("the scene did not open");
   else if (info?.renderer !== "webgl") mine.push(`drawn with ${info?.renderer}`);
   if (!end.done) mine.push("the quest did not finish");
+  if (clock && !(clock.done && clock.pending && clock.links === 2)) mine.push(`the elephant clock: ${JSON.stringify(clock)}`);
   if (!(end.review as string[]).length) mine.push("the results do not carry the mark of historical review");
   if (!headers["content-security-policy"]?.startsWith("default-src 'none'")) mine.push("the page came without the content security policy");
-  pages.push({ lang, readyMs, atlas, info, end, requests: requests.length, tracks, robots: headers["x-robots-tag"] ?? null, problems: mine });
+  pages.push({ lang, readyMs, atlas, info, end, clock, requests: requests.length, tracks, robots: headers["x-robots-tag"] ?? null, problems: mine });
   for (const m of mine) problems.push(`${lang}: ${m}`);
   await ctx.close();
 }

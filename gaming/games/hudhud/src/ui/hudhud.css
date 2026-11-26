@@ -30,11 +30,15 @@ a { color: #ffd98a; }
 [hidden] { display: none !important; }
 
 .hh { max-width: 1320px; margin: 0 auto; padding: 10px 12px 40px; }
-.bar { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; padding-block: 4px 10px; }
+/* Above the sheets, so that its own Go on, Settings and Atlas buttons can be reached with a mouse while one is up. */
+.bar { position: relative; z-index: 25; display: flex; align-items: center; gap: 10px; flex-wrap: wrap; padding-block: 4px 10px; }
 .bar h1 { margin: 0; font-size: 1.25rem; letter-spacing: 0.01em; }
 .bar .grow { flex: 1; }
 .chip { display: inline-block; padding: 2px 10px; border-radius: 999px; border: 1px solid var(--line); color: var(--gold); font-size: 0.8rem; white-space: nowrap; }
 .chip.proto { background: var(--gold); color: #1c1206; font-weight: 700; }
+.chip.save-state { color: var(--muted); border-color: transparent; }
+.save-banner { margin: 0 0 8px; padding: 8px 14px; background: #3a1a12; color: #ffd98a; border: 1px solid var(--gold); border-radius: 10px; }
+.save-line { margin: 4px 0; color: var(--muted); }
 .music-corner { --panel-solid: #0c1f40; position: relative; }
 
 /* The stage keeps the picture's shape: as wide as the page, or as wide as the window's height allows. */
@@ -80,6 +84,7 @@ main:focus { outline: none; }
 .talk { position: absolute; inset-inline: 2.5%; inset-block-start: 3%; display: grid; grid-template-columns: auto 1fr; gap: 14px; align-items: start; padding: 14px 18px; background: var(--panel); border: 2px solid var(--gold); border-radius: 18px; z-index: 5; box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5); }
 .talk img { width: clamp(64px, 9vw, 108px); height: auto; border-radius: 50%; }
 .talk .who { margin: 0; color: var(--gold); font-weight: 700; }
+.talk .dramatized { margin: 0; font-size: 0.78rem; color: var(--muted); font-style: italic; }
 .talk .line { margin: 2px 0 10px; font-size: 1.15rem; min-height: 2.6em; }
 .talk .row, .row { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; }
 .talk .choices { display: grid; gap: 8px; margin-block-end: 10px; }
@@ -115,7 +120,25 @@ main:focus { outline: none; }
 .words li button { width: 100%; text-align: start; }
 .words p { margin: 6px 0; }
 .small { font-size: 0.88rem; color: var(--muted); }
-.toast { position: fixed; inset-block-end: 16px; inset-inline: 0; margin-inline: auto; width: max-content; max-width: 92%; padding: 10px 18px; background: #1c1206; color: var(--gold); border: 1px solid var(--gold); border-radius: 12px; z-index: 40; }
+/* The second quest's page: a workbench played with ordinary controls. */
+.bench { max-width: 1000px; margin-inline: auto; padding: 6px 4px 20px; }
+.bench h2 { margin: 6px 0 2px; color: var(--gold); font-size: clamp(1.4rem, 3vw, 2rem); }
+.bench canvas { display: block; width: 100%; aspect-ratio: 1000 / 380; border: 2px solid var(--line); border-radius: 14px; margin-block: 10px; }
+.bench .objective-line { font-weight: 700; }
+.bench .places { list-style: none; padding: 0; margin: 10px 0; display: grid; gap: 8px; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); }
+.bench .places label { display: grid; gap: 4px; min-width: 0; }
+.bench select { width: 100%; min-width: 0; min-height: 44px; padding: 6px 10px; border-radius: 12px; border: 2px solid var(--line); background: #12305c; }
+.bench .row { display: flex; flex-wrap: wrap; gap: 8px; margin-block: 8px; }
+.bench .ran, .bench .said { min-height: 1.5em; margin-block: 10px; padding: 10px 14px; background: var(--panel); border: 1px solid var(--line); border-radius: 12px; }
+.bench .ran:empty { display: none; }
+.bench .ran p, .bench .said p { margin: 4px 0; }
+.bench .ran .stopped { color: #ffb0a6; }
+.bench .ran .met { color: #7be0a8; }
+.bench .said .by-narrator { border-inline-start: 4px solid var(--teal); padding-inline-start: 10px; }
+.bench .results { margin-block-start: 16px; padding: 14px 18px; background: var(--panel); border: 1px solid var(--gold); border-radius: 14px; }
+.bench button:disabled, .bench select:disabled { opacity: 0.55; cursor: default; }
+
+.toast { position: fixed; inset-block-end: 16px; inset-inline: 0; margin-inline: auto; width: max-content; max-width: 92%; padding: 10px 18px; background: #1c1206; color: var(--gold); border: 1px solid var(--gold); border-radius: 12px; z-index: 40; pointer-events: none; }
 
 .contrast { --panel: #000; --panel-solid: #000; --line: #fff; --ivory: #fff; --muted: #fff; --gold: #ffe14a; --teal: #7df3ff; }
 .contrast button { background: #000; border-color: #fff; }
@@ -158,3 +181,21 @@ main:focus { outline: none; }
   .choose canvas { width: 52px; }
   .choose button { padding: 4px 10px; }
 }
+
+/* The opening story, before the Atlas: a picture, a short paragraph and three buttons. Nothing moves by itself. */
+.prologue { max-width: 1000px; margin-inline: auto; padding: 6px 4px 20px; }
+.prologue > h2 { margin: 6px 0 8px; text-align: center; color: var(--gold); font-size: clamp(1.4rem, 3vw, 2rem); }
+.pro-art { margin: 0; }
+.pro-art canvas { display: block; width: 100%; aspect-ratio: 1000 / 420; border: 2px solid var(--line); border-radius: 14px; background: #050d1e; }
+.pro-card { margin-block: 12px; padding: 12px 18px; background: var(--panel); border: 1px solid var(--line); border-radius: 14px; }
+.pro-count { margin: 0 0 4px; font-size: 0.85rem; font-weight: 400; color: var(--muted); }
+.pro-count:focus-visible { outline-offset: 4px; }
+.pro-text { margin: 0; font-size: 1.15rem; line-height: 1.7; max-width: 62ch; }
+.pro-nav { justify-content: space-between; margin-block: 8px; }
+.pro-nav button:disabled { opacity: 0.45; cursor: default; }
+button.quiet { background: transparent; border-color: transparent; color: var(--muted); text-decoration: underline; }
+button.quiet:hover { background: rgba(255, 255, 255, 0.08); }
+.hub .again { margin-block-start: 4px; }
+.contrast .pro-card { border: 3px solid #fff; }
+.contrast button.quiet { color: #fff; border-color: #fff; text-decoration: none; }
+@media (max-width: 760px) { .pro-text { font-size: 1.05rem; } .pro-nav { flex-direction: row; } }

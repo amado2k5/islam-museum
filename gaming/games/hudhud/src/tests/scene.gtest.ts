@@ -97,6 +97,18 @@ describe("the golden scene", () => {
     s = play(s, [...solveIt(s), touch("page")]);
     expect(apply(s, touch("mirror-a")).state).toBe(s);
   });
+  it("has no mirror in the room that the way of playing does not have, and takes a flat mirror back from a save", () => {
+    const story = play(newScene("story"), [skip]);
+    expect(apply(story, touch("mirror-f")).state).toBe(story);
+    expect(apply(story, touch("mirror-g")).state).toBe(story);
+    const s = play(newScene("explorer"), [skip, touch("mirror-f"), touch("mirror-f")]);
+    expect(s.puzzle.mirrors.find((m) => m.id === "f")!.lean).toBe("\\");
+    const snap = snapshot(play(newScene("explorer"), [skip]));
+    expect(restore(snap)!.puzzle.mirrors.find((m) => m.id === "c")!.lean).toBe("-");
+    // Story has two positions: a save that says one of its mirrors lies flat is not believed.
+    const st = snapshot(story) as { leans: Record<string, string> };
+    expect(restore({ ...st, leans: { ...st.leans, c: "-" } })).toBeNull();
+  });
   it("replays to the same end from the same commands", () => {
     const cs: Command[] = [skip, touch("mirror-a"), touch("cat"), skip, touch("mirror-c"), touch("cord"), skip];
     expect(replay("explorer", cs)).toEqual(replay("explorer", cs));
@@ -105,7 +117,7 @@ describe("the golden scene", () => {
     let s = play(newScene("challenge"), [skip, touch("mirror-a"), touch("cat"), skip, touch("cord"), skip]);
     const back = restore(JSON.parse(JSON.stringify(snapshot(s))))!;
     expect(back.puzzle).toEqual(s.puzzle);
-    expect({ turns: back.turns, flags: back.flags, restored: back.restored, dark: back.dark, style: back.style, par: back.par }).toEqual({ turns: 1, flags: ["metCat", "secret"], restored: false, dark: true, style: "challenge", par: 5 });
+    expect({ turns: back.turns, flags: back.flags, restored: back.restored, dark: back.dark, style: back.style, par: back.par }).toEqual({ turns: 1, flags: ["metCat", "secret"], restored: false, dark: true, style: "challenge", par: 10 });
     expect(back.talk).toBeNull();
     // A snapshot taken in the middle of a talk comes back without the talk: nobody returns to a sentence half said.
     s = apply(s, touch("scholar")).state;
