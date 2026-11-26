@@ -1,0 +1,6118 @@
+{
+ "base": "https://uat-games.islam.museum",
+ "release": "20261126-709707701f2",
+ "commit": "709707701f21a7d0507f0a02bb99ac4cd291511b",
+ "ran": "2026-11-26T19:51:13.130Z",
+ "machine": "darwin arm64",
+ "note": "Machine scan only: not WCAG conformance and not a screen-reader test. A pass on this machine is not a pass on the two reference machines.",
+ "states": [
+  {
+   "state": "atlas",
+   "lang": "en",
+   "capture": "hudhud-a11y-en-atlas.png",
+   "title": "Hudhud: The Atlas of Wonders",
+   "dir": "ltr",
+   "focusOrder": [
+    {
+     "order": 1,
+     "tag": "a",
+     "role": "link",
+     "name": "Skip to the game",
+     "x": -9999,
+     "y": 0,
+     "w": 122,
+     "h": 24,
+     "tabIndex": 0
+    },
+    {
+     "order": 2,
+     "tag": "button",
+     "role": "button",
+     "name": "Play the music",
+     "x": 743,
+     "y": 76,
+     "w": 238,
+     "h": 44,
+     "tabIndex": 0
+    },
+    {
+     "order": 3,
+     "tag": "button",
+     "role": "button",
+     "name": "Next track",
+     "x": 989,
+     "y": 76,
+     "w": 44,
+     "h": 44,
+     "tabIndex": 0
+    },
+    {
+     "order": 4,
+     "tag": "input",
+     "role": "slider",
+     "name": "Volume",
+     "x": 745,
+     "y": 155,
+     "w": 290,
+     "h": 16,
+     "tabIndex": 0
+    },
+    {
+     "order": 5,
+     "tag": "a",
+     "role": "link",
+     "name": "How it was made",
+     "x": 743,
+     "y": 272,
+     "w": 101,
+     "h": 15,
+     "tabIndex": 0
+    },
+    {
+     "order": 6,
+     "tag": "button",
+     "role": "button",
+     "name": "Full screen",
+     "x": 1058,
+     "y": 14,
+     "w": 114,
+     "h": 44,
+     "tabIndex": 0
+    },
+    {
+     "order": 7,
+     "tag": "button",
+     "role": "button",
+     "name": "Pause",
+     "x": 1182,
+     "y": 14,
+     "w": 80,
+     "h": 44,
+     "tabIndex": 0
+    },
+    {
+     "order": 8,
+     "tag": "button",
+     "role": "button",
+     "name": "Settings",
+     "x": 1272,
+     "y": 14,
+     "w": 96,
+     "h": 44,
+     "tabIndex": 0
+    },
+    {
+     "order": 9,
+     "tag": "button",
+     "role": "button",
+     "name": "A girl explorer",
+     "x": 566,
+     "y": 206,
+     "w": 146,
+     "h": 164,
+     "tabIndex": 0
+    },
+    {
+     "order": 10,
+     "tag": "button",
+     "role": "button",
+     "name": "A boy explorer",
+     "x": 728,
+     "y": 206,
+     "w": 146,
+     "h": 164,
+     "tabIndex": 0
+    },
+    {
+     "order": 11,
+     "tag": "button",
+     "role": "button",
+     "name": "Play: al-Jazari and the elephant clock",
+     "x": 419,
+     "y": 530,
+     "w": 278,
+     "h": 68,
+     "tabIndex": 0
+    },
+    {
+     "order": 12,
+     "tag": "button",
+     "role": "button",
+     "name": "Play: Ibn al-Haytham",
+     "x": 744,
+     "y": 530,
+     "w": 278,
+     "h": 44,
+     "tabIndex": 0
+    },
+    {
+     "order": 13,
+     "tag": "a",
+     "role": "link",
+     "name": "islam.museum",
+     "x": 91,
+     "y": 2248,
+     "w": 104,
+     "h": 18,
+     "tabIndex": 0
+    }
+   ],
+   "smallTargets": [
+    {
+     "role": "link",
+     "name": "Skip to the game",
+     "w": 122,
+     "h": 24
+    },
+    {
+     "role": "slider",
+     "name": "Volume",
+     "w": 290,
+     "h": 16
+    },
+    {
+     "role": "link",
+     "name": "How it was made",
+     "w": 101,
+     "h": 15
+    },
+    {
+     "role": "link",
+     "name": "islam.museum",
+     "w": 104,
+     "h": 18
+    }
+   ],
+   "lowContrast": [],
+   "contrastSummary": {
+    "measured": 144,
+    "minRatio": 8.69,
+    "maxRatio": 15.38,
+    "belowNormalText4_5": 0,
+    "method": "computed foreground colour composited over ancestor CSS backgrounds; canvas, images and gradients behind text are not measured"
+   },
+   "semantic": [
+    {
+     "tag": "a",
+     "role": "link",
+     "name": "Skip to the game",
+     "ariaLabel": null,
+     "text": "Skip to the game"
+    },
+    {
+     "tag": "h1",
+     "role": "heading",
+     "name": "Hudhud: The Atlas of Wonders",
+     "ariaLabel": null,
+     "text": "Hudhud: The Atlas of Wonders"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "Play the music",
+     "ariaLabel": null,
+     "text": "Play the music"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "Next track",
+     "ariaLabel": "Next track",
+     "text": ""
+    },
+    {
+     "tag": "input",
+     "role": "slider",
+     "name": "Volume",
+     "ariaLabel": "Volume",
+     "text": ""
+    },
+    {
+     "tag": "a",
+     "role": "link",
+     "name": "How it was made",
+     "ariaLabel": null,
+     "text": "How it was made"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "Full screen",
+     "ariaLabel": null,
+     "text": "Full screen"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "Pause",
+     "ariaLabel": null,
+     "text": "Pause"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "Settings",
+     "ariaLabel": null,
+     "text": "Settings"
+    },
+    {
+     "tag": "h2",
+     "role": "heading",
+     "name": "The Atlas of Stories",
+     "ariaLabel": null,
+     "text": "The Atlas of Stories"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "A girl explorer",
+     "ariaLabel": null,
+     "text": "A girl explorer"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "A boy explorer",
+     "ariaLabel": null,
+     "text": "A boy explorer"
+    },
+    {
+     "tag": "h3",
+     "role": "heading",
+     "name": "World 1: Sky, Stars and Time",
+     "ariaLabel": null,
+     "text": "World 1: Sky, Stars and Time"
+    },
+    {
+     "tag": "h3",
+     "role": "heading",
+     "name": "World 2: Machines, Numbers and Codes",
+     "ariaLabel": null,
+     "text": "World 2: Machines, Numbers and Codes"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "Play: al-Jazari and the elephant clock",
+     "ariaLabel": null,
+     "text": "Play: al-Jazari and the elephant clock"
+    },
+    {
+     "tag": "h3",
+     "role": "heading",
+     "name": "World 3: Light, Earth, Water and Maps",
+     "ariaLabel": null,
+     "text": "World 3: Light, Earth, Water and Maps"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "Play: Ibn al-Haytham",
+     "ariaLabel": null,
+     "text": "Play: Ibn al-Haytham"
+    },
+    {
+     "tag": "h3",
+     "role": "heading",
+     "name": "World 4: Medicine and Care",
+     "ariaLabel": null,
+     "text": "World 4: Medicine and Care"
+    },
+    {
+     "tag": "h3",
+     "role": "heading",
+     "name": "World 5: Books, Schools and Language",
+     "ariaLabel": null,
+     "text": "World 5: Books, Schools and Language"
+    },
+    {
+     "tag": "h3",
+     "role": "heading",
+     "name": "World 6: Journeys and Maps",
+     "ariaLabel": null,
+     "text": "World 6: Journeys and Maps"
+    },
+    {
+     "tag": "h3",
+     "role": "heading",
+     "name": "World 7: Seas, Trade and Golden Books",
+     "ariaLabel": null,
+     "text": "World 7: Seas, Trade and Golden Books"
+    },
+    {
+     "tag": "h3",
+     "role": "heading",
+     "name": "World 8: Cities, Builders and Civic Care",
+     "ariaLabel": null,
+     "text": "World 8: Cities, Builders and Civic Care"
+    },
+    {
+     "tag": "h3",
+     "role": "heading",
+     "name": "World 9: Nature, Animals and Wonders",
+     "ariaLabel": null,
+     "text": "World 9: Nature, Animals and Wonders"
+    },
+    {
+     "tag": "h3",
+     "role": "heading",
+     "name": "World 10: Voices, Wisdom and Society",
+     "ariaLabel": null,
+     "text": "World 10: Voices, Wisdom and Society"
+    },
+    {
+     "tag": "h2",
+     "role": "heading",
+     "name": "Museum note",
+     "ariaLabel": null,
+     "text": "Museum note"
+    },
+    {
+     "tag": "h2",
+     "role": "heading",
+     "name": "Controls",
+     "ariaLabel": null,
+     "text": "Controls"
+    },
+    {
+     "tag": "a",
+     "role": "link",
+     "name": "islam.museum",
+     "ariaLabel": null,
+     "text": "islam.museum"
+    },
+    {
+     "tag": "div",
+     "role": "status",
+     "name": "Hudhud: There! A page of the Atlas blew in here. Its ink has gone pale.",
+     "ariaLabel": null,
+     "text": "Hudhud: There! A page of the Atlas blew in here. Its ink has gone pale."
+    }
+   ],
+   "counts": {
+    "tabbables": 13,
+    "buttons": 28,
+    "links": 3,
+    "sheets": 0
+   }
+  },
+  {
+   "state": "talk",
+   "lang": "en",
+   "capture": "hudhud-a11y-en-talk.png",
+   "title": "Hudhud: The Atlas of Wonders",
+   "dir": "ltr",
+   "focusOrder": [
+    {
+     "order": 1,
+     "tag": "a",
+     "role": "link",
+     "name": "Skip to the game",
+     "x": -9999,
+     "y": 0,
+     "w": 122,
+     "h": 24,
+     "tabIndex": 0
+    },
+    {
+     "order": 2,
+     "tag": "button",
+     "role": "button",
+     "name": "Play the music",
+     "x": 575,
+     "y": 76,
+     "w": 238,
+     "h": 44,
+     "tabIndex": 0
+    },
+    {
+     "order": 3,
+     "tag": "button",
+     "role": "button",
+     "name": "Next track",
+     "x": 821,
+     "y": 76,
+     "w": 44,
+     "h": 44,
+     "tabIndex": 0
+    },
+    {
+     "order": 4,
+     "tag": "input",
+     "role": "slider",
+     "name": "Volume",
+     "x": 577,
+     "y": 155,
+     "w": 290,
+     "h": 16,
+     "tabIndex": 0
+    },
+    {
+     "order": 5,
+     "tag": "a",
+     "role": "link",
+     "name": "How it was made",
+     "x": 575,
+     "y": 272,
+     "w": 101,
+     "h": 15,
+     "tabIndex": 0
+    },
+    {
+     "order": 6,
+     "tag": "button",
+     "role": "button",
+     "name": "Back to the Atlas",
+     "x": 890,
+     "y": 14,
+     "w": 158,
+     "h": 44,
+     "tabIndex": 0
+    },
+    {
+     "order": 7,
+     "tag": "button",
+     "role": "button",
+     "name": "Full screen",
+     "x": 1058,
+     "y": 14,
+     "w": 114,
+     "h": 44,
+     "tabIndex": 0
+    },
+    {
+     "order": 8,
+     "tag": "button",
+     "role": "button",
+     "name": "Pause",
+     "x": 1182,
+     "y": 14,
+     "w": 80,
+     "h": 44,
+     "tabIndex": 0
+    },
+    {
+     "order": 9,
+     "tag": "button",
+     "role": "button",
+     "name": "Settings",
+     "x": 1272,
+     "y": 14,
+     "w": 96,
+     "h": 44,
+     "tabIndex": 0
+    },
+    {
+     "order": 10,
+     "tag": "div",
+     "role": "application",
+     "name": "The workshop, as a picture. The list after it says the same in words.",
+     "x": 133,
+     "y": 68,
+     "w": 1173,
+     "h": 660,
+     "tabIndex": 0
+    },
+    {
+     "order": 11,
+     "tag": "button",
+     "role": "button",
+     "name": "Next",
+     "x": 197,
+     "y": 188,
+     "w": 72,
+     "h": 44,
+     "tabIndex": 0
+    },
+    {
+     "order": 12,
+     "tag": "button",
+     "role": "button",
+     "name": "What was said",
+     "x": 277,
+     "y": 188,
+     "w": 141,
+     "h": 44,
+     "tabIndex": 0
+    },
+    {
+     "order": 13,
+     "tag": "button",
+     "role": "button",
+     "name": "Skip the talk",
+     "x": 426,
+     "y": 188,
+     "w": 125,
+     "h": 44,
+     "tabIndex": 0
+    },
+    {
+     "order": 14,
+     "tag": "a",
+     "role": "link",
+     "name": "islam.museum",
+     "x": 746,
+     "y": 1176,
+     "w": 104,
+     "h": 18,
+     "tabIndex": 0
+    }
+   ],
+   "smallTargets": [
+    {
+     "role": "link",
+     "name": "Skip to the game",
+     "w": 122,
+     "h": 24
+    },
+    {
+     "role": "slider",
+     "name": "Volume",
+     "w": 290,
+     "h": 16
+    },
+    {
+     "role": "link",
+     "name": "How it was made",
+     "w": 101,
+     "h": 15
+    },
+    {
+     "role": "link",
+     "name": "islam.museum",
+     "w": 104,
+     "h": 18
+    }
+   ],
+   "lowContrast": [],
+   "contrastSummary": {
+    "measured": 45,
+    "minRatio": 9.21,
+    "maxRatio": 15.38,
+    "belowNormalText4_5": 0,
+    "method": "computed foreground colour composited over ancestor CSS backgrounds; canvas, images and gradients behind text are not measured"
+   },
+   "semantic": [
+    {
+     "tag": "a",
+     "role": "link",
+     "name": "Skip to the game",
+     "ariaLabel": null,
+     "text": "Skip to the game"
+    },
+    {
+     "tag": "h1",
+     "role": "heading",
+     "name": "Hudhud: The Atlas of Wonders",
+     "ariaLabel": null,
+     "text": "Hudhud: The Atlas of Wonders"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "Play the music",
+     "ariaLabel": null,
+     "text": "Play the music"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "Next track",
+     "ariaLabel": "Next track",
+     "text": ""
+    },
+    {
+     "tag": "input",
+     "role": "slider",
+     "name": "Volume",
+     "ariaLabel": "Volume",
+     "text": ""
+    },
+    {
+     "tag": "a",
+     "role": "link",
+     "name": "How it was made",
+     "ariaLabel": null,
+     "text": "How it was made"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "Back to the Atlas",
+     "ariaLabel": null,
+     "text": "Back to the Atlas"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "Full screen",
+     "ariaLabel": null,
+     "text": "Full screen"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "Pause",
+     "ariaLabel": null,
+     "text": "Pause"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "Settings",
+     "ariaLabel": null,
+     "text": "Settings"
+    },
+    {
+     "tag": "div",
+     "role": "application",
+     "name": "The workshop, as a picture. The list after it says the same in words.",
+     "ariaLabel": "The workshop, as a picture. The list after it says the same in words.",
+     "text": "◀▶Touch▲"
+    },
+    {
+     "tag": "div",
+     "role": "group",
+     "name": "HudhudThere! A page of the Atlas blew in here. Its ink has gone pale.There! A page of the Atlas blew in here. Its ink ha",
+     "ariaLabel": null,
+     "text": "HudhudThere! A page of the Atlas blew in here. Its ink has gone pale.There! A page of the Atlas blew"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "Next",
+     "ariaLabel": null,
+     "text": "Next"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "What was said",
+     "ariaLabel": null,
+     "text": "What was said"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "Skip the talk",
+     "ariaLabel": null,
+     "text": "Skip the talk"
+    },
+    {
+     "tag": "h2",
+     "role": "heading",
+     "name": "The scene in words",
+     "ariaLabel": null,
+     "text": "The scene in words"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "Turn mirror 1, by the shutter: leaning up to the right",
+     "ariaLabel": null,
+     "text": "Turn mirror 1, by the shutter: leaning up to the right"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "Turn mirror 2, near the floor: leaning down to the right",
+     "ariaLabel": null,
+     "text": "Turn mirror 2, near the floor: leaning down to the right"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "Turn mirror 3, in the middle: laid flat, out of the beam's way",
+     "ariaLabel": null,
+     "text": "Turn mirror 3, in the middle: laid flat, out of the beam's way"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "Turn mirror 4, on the high shelf: leaning up to the right",
+     "ariaLabel": null,
+     "text": "Turn mirror 4, on the high shelf: leaning up to the right"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "Turn mirror 5, above the page: leaning up to the right",
+     "ariaLabel": null,
+     "text": "Turn mirror 5, above the page: leaning up to the right"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "Turn mirror 6, under the books: laid flat, out of the beam's way",
+     "ariaLabel": null,
+     "text": "Turn mirror 6, under the books: laid flat, out of the beam's way"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "Go to Ibn al-Haytham",
+     "ariaLabel": null,
+     "text": "Go to Ibn al-Haytham"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "Go to the workshop cat",
+     "ariaLabel": null,
+     "text": "Go to the workshop cat"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "Go to the Atlas page",
+     "ariaLabel": null,
+     "text": "Go to the Atlas page"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "Go to the curtain cord",
+     "ariaLabel": null,
+     "text": "Go to the curtain cord"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "Go to a feather in the garden",
+     "ariaLabel": null,
+     "text": "Go to a feather in the garden"
+    },
+    {
+     "tag": "h2",
+     "role": "heading",
+     "name": "Museum note",
+     "ariaLabel": null,
+     "text": "Museum note"
+    },
+    {
+     "tag": "h2",
+     "role": "heading",
+     "name": "Controls",
+     "ariaLabel": null,
+     "text": "Controls"
+    },
+    {
+     "tag": "a",
+     "role": "link",
+     "name": "islam.museum",
+     "ariaLabel": null,
+     "text": "islam.museum"
+    },
+    {
+     "tag": "div",
+     "role": "status",
+     "name": "Hudhud: There! A page of the Atlas blew in here. Its ink has gone pale.",
+     "ariaLabel": null,
+     "text": "Hudhud: There! A page of the Atlas blew in here. Its ink has gone pale."
+    }
+   ],
+   "counts": {
+    "tabbables": 14,
+    "buttons": 28,
+    "links": 3,
+    "sheets": 0
+   }
+  },
+  {
+   "state": "settings-sheet",
+   "lang": "en",
+   "capture": "hudhud-a11y-en-settings-sheet.png",
+   "title": "Hudhud: The Atlas of Wonders",
+   "dir": "ltr",
+   "focusOrder": [
+    {
+     "order": 1,
+     "tag": "a",
+     "role": "link",
+     "name": "Skip to the game",
+     "x": -9999,
+     "y": 0,
+     "w": 122,
+     "h": 24,
+     "tabIndex": 0
+    },
+    {
+     "order": 2,
+     "tag": "button",
+     "role": "button",
+     "name": "Play the music",
+     "x": 575,
+     "y": 76,
+     "w": 238,
+     "h": 44,
+     "tabIndex": 0
+    },
+    {
+     "order": 3,
+     "tag": "button",
+     "role": "button",
+     "name": "Next track",
+     "x": 821,
+     "y": 76,
+     "w": 44,
+     "h": 44,
+     "tabIndex": 0
+    },
+    {
+     "order": 4,
+     "tag": "input",
+     "role": "slider",
+     "name": "Volume",
+     "x": 577,
+     "y": 155,
+     "w": 290,
+     "h": 16,
+     "tabIndex": 0
+    },
+    {
+     "order": 5,
+     "tag": "a",
+     "role": "link",
+     "name": "How it was made",
+     "x": 575,
+     "y": 272,
+     "w": 101,
+     "h": 15,
+     "tabIndex": 0
+    },
+    {
+     "order": 6,
+     "tag": "button",
+     "role": "button",
+     "name": "Back to the Atlas",
+     "x": 890,
+     "y": 14,
+     "w": 158,
+     "h": 44,
+     "tabIndex": 0
+    },
+    {
+     "order": 7,
+     "tag": "button",
+     "role": "button",
+     "name": "Full screen",
+     "x": 1058,
+     "y": 14,
+     "w": 114,
+     "h": 44,
+     "tabIndex": 0
+    },
+    {
+     "order": 8,
+     "tag": "button",
+     "role": "button",
+     "name": "Pause",
+     "x": 1182,
+     "y": 14,
+     "w": 80,
+     "h": 44,
+     "tabIndex": 0
+    },
+    {
+     "order": 9,
+     "tag": "button",
+     "role": "button",
+     "name": "Settings",
+     "x": 1272,
+     "y": 14,
+     "w": 96,
+     "h": 44,
+     "tabIndex": 0
+    },
+    {
+     "order": 10,
+     "tag": "div",
+     "role": "application",
+     "name": "The workshop, as a picture. The list after it says the same in words.",
+     "x": 133,
+     "y": 68,
+     "w": 1173,
+     "h": 660,
+     "tabIndex": 0
+    },
+    {
+     "order": 11,
+     "tag": "button",
+     "role": "button",
+     "name": "Left",
+     "x": 147,
+     "y": 650,
+     "w": 64,
+     "h": 64,
+     "tabIndex": 0
+    },
+    {
+     "order": 12,
+     "tag": "button",
+     "role": "button",
+     "name": "Right",
+     "x": 221,
+     "y": 650,
+     "w": 64,
+     "h": 64,
+     "tabIndex": 0
+    },
+    {
+     "order": 13,
+     "tag": "button",
+     "role": "button",
+     "name": "Touch",
+     "x": 1128,
+     "y": 650,
+     "w": 91,
+     "h": 64,
+     "tabIndex": 0
+    },
+    {
+     "order": 14,
+     "tag": "button",
+     "role": "button",
+     "name": "Fly",
+     "x": 1229,
+     "y": 650,
+     "w": 64,
+     "h": 64,
+     "tabIndex": 0
+    },
+    {
+     "order": 15,
+     "tag": "a",
+     "role": "link",
+     "name": "islam.museum",
+     "x": 746,
+     "y": 1176,
+     "w": 104,
+     "h": 18,
+     "tabIndex": 0
+    },
+    {
+     "order": 16,
+     "tag": "select",
+     "role": "combobox",
+     "name": "explorer",
+     "x": 615,
+     "y": 92,
+     "w": 439,
+     "h": 44,
+     "tabIndex": 0
+    },
+    {
+     "order": 17,
+     "tag": "select",
+     "role": "combobox",
+     "name": "medium",
+     "x": 615,
+     "y": 237,
+     "w": 439,
+     "h": 44,
+     "tabIndex": 0
+    },
+    {
+     "order": 18,
+     "tag": "input",
+     "role": "checkbox",
+     "name": "on",
+     "x": 619,
+     "y": 292,
+     "w": 26,
+     "h": 26,
+     "tabIndex": 0
+    },
+    {
+     "order": 19,
+     "tag": "input",
+     "role": "checkbox",
+     "name": "on",
+     "x": 619,
+     "y": 332,
+     "w": 26,
+     "h": 26,
+     "tabIndex": 0
+    },
+    {
+     "order": 20,
+     "tag": "input",
+     "role": "slider",
+     "name": "1",
+     "x": 617,
+     "y": 371,
+     "w": 439,
+     "h": 44,
+     "tabIndex": 0
+    },
+    {
+     "order": 21,
+     "tag": "select",
+     "role": "combobox",
+     "name": "40",
+     "x": 615,
+     "y": 425,
+     "w": 439,
+     "h": 44,
+     "tabIndex": 0
+    },
+    {
+     "order": 22,
+     "tag": "select",
+     "role": "combobox",
+     "name": "1",
+     "x": 615,
+     "y": 519,
+     "w": 439,
+     "h": 44,
+     "tabIndex": 0
+    },
+    {
+     "order": 23,
+     "tag": "select",
+     "role": "combobox",
+     "name": "1",
+     "x": 615,
+     "y": 571,
+     "w": 439,
+     "h": 44,
+     "tabIndex": 0
+    },
+    {
+     "order": 24,
+     "tag": "select",
+     "role": "combobox",
+     "name": "0",
+     "x": 615,
+     "y": 623,
+     "w": 439,
+     "h": 44,
+     "tabIndex": 0
+    },
+    {
+     "order": 25,
+     "tag": "select",
+     "role": "combobox",
+     "name": "3",
+     "x": 615,
+     "y": 675,
+     "w": 439,
+     "h": 44,
+     "tabIndex": 0
+    },
+    {
+     "order": 26,
+     "tag": "input",
+     "role": "slider",
+     "name": "0.6",
+     "x": 617,
+     "y": 771,
+     "w": 439,
+     "h": 44,
+     "tabIndex": 0
+    },
+    {
+     "order": 27,
+     "tag": "input",
+     "role": "slider",
+     "name": "0.8",
+     "x": 617,
+     "y": 827,
+     "w": 439,
+     "h": 44,
+     "tabIndex": 0
+    },
+    {
+     "order": 28,
+     "tag": "input",
+     "role": "slider",
+     "name": "0.8",
+     "x": 617,
+     "y": 883,
+     "w": 439,
+     "h": 44,
+     "tabIndex": 0
+    },
+    {
+     "order": 29,
+     "tag": "input",
+     "role": "checkbox",
+     "name": "on",
+     "x": 619,
+     "y": 940,
+     "w": 26,
+     "h": 26,
+     "tabIndex": 0
+    },
+    {
+     "order": 30,
+     "tag": "input",
+     "role": "checkbox",
+     "name": "on",
+     "x": 619,
+     "y": 980,
+     "w": 26,
+     "h": 26,
+     "tabIndex": 0
+    },
+    {
+     "order": 31,
+     "tag": "button",
+     "role": "button",
+     "name": "Left: ←, A. Change",
+     "x": 386,
+     "y": 1067,
+     "w": 171,
+     "h": 44,
+     "tabIndex": 0
+    },
+    {
+     "order": 32,
+     "tag": "button",
+     "role": "button",
+     "name": "Right: →, D. Change",
+     "x": 386,
+     "y": 1127,
+     "w": 181,
+     "h": 44,
+     "tabIndex": 0
+    },
+    {
+     "order": 33,
+     "tag": "button",
+     "role": "button",
+     "name": "Fly: Space, ↑, W. Change",
+     "x": 386,
+     "y": 1187,
+     "w": 219,
+     "h": 44,
+     "tabIndex": 0
+    },
+    {
+     "order": 34,
+     "tag": "button",
+     "role": "button",
+     "name": "Drop from a perch: ↓, S. Change",
+     "x": 386,
+     "y": 1247,
+     "w": 272,
+     "h": 44,
+     "tabIndex": 0
+    },
+    {
+     "order": 35,
+     "tag": "button",
+     "role": "button",
+     "name": "Touch: E, Enter. Change",
+     "x": 386,
+     "y": 1307,
+     "w": 209,
+     "h": 44,
+     "tabIndex": 0
+    },
+    {
+     "order": 36,
+     "tag": "button",
+     "role": "button",
+     "name": "Put the keys back as they were",
+     "x": 386,
+     "y": 1367,
+     "w": 260,
+     "h": 44,
+     "tabIndex": 0
+    },
+    {
+     "order": 37,
+     "tag": "button",
+     "role": "button",
+     "name": "Save now",
+     "x": 386,
+     "y": 1591,
+     "w": 105,
+     "h": 44,
+     "tabIndex": 0
+    },
+    {
+     "order": 38,
+     "tag": "button",
+     "role": "button",
+     "name": "Export save",
+     "x": 499,
+     "y": 1591,
+     "w": 121,
+     "h": 44,
+     "tabIndex": 0
+    },
+    {
+     "order": 39,
+     "tag": "button",
+     "role": "button",
+     "name": "Import save",
+     "x": 628,
+     "y": 1591,
+     "w": 121,
+     "h": 44,
+     "tabIndex": 0
+    },
+    {
+     "order": 40,
+     "tag": "button",
+     "role": "button",
+     "name": "Fly, and go on in a talk: button 1. Change",
+     "x": 386,
+     "y": 1693,
+     "w": 328,
+     "h": 44,
+     "tabIndex": 0
+    },
+    {
+     "order": 41,
+     "tag": "button",
+     "role": "button",
+     "name": "Back: button 2. Change",
+     "x": 386,
+     "y": 1753,
+     "w": 206,
+     "h": 44,
+     "tabIndex": 0
+    },
+    {
+     "order": 42,
+     "tag": "button",
+     "role": "button",
+     "name": "Touch: button 3. Change",
+     "x": 386,
+     "y": 1813,
+     "w": 214,
+     "h": 44,
+     "tabIndex": 0
+    },
+    {
+     "order": 43,
+     "tag": "button",
+     "role": "button",
+     "name": "Pause: button 10. Change",
+     "x": 386,
+     "y": 1873,
+     "w": 221,
+     "h": 44,
+     "tabIndex": 0
+    },
+    {
+     "order": 44,
+     "tag": "button",
+     "role": "button",
+     "name": "Put the keys back as they were",
+     "x": 386,
+     "y": 1933,
+     "w": 260,
+     "h": 44,
+     "tabIndex": 0
+    },
+    {
+     "order": 45,
+     "tag": "select",
+     "role": "combobox",
+     "name": "0",
+     "x": 615,
+     "y": 2107,
+     "w": 439,
+     "h": 44,
+     "tabIndex": 0
+    },
+    {
+     "order": 46,
+     "tag": "button",
+     "role": "button",
+     "name": "Close",
+     "x": 386,
+     "y": 2196,
+     "w": 80,
+     "h": 44,
+     "tabIndex": 0
+    }
+   ],
+   "smallTargets": [
+    {
+     "role": "link",
+     "name": "Skip to the game",
+     "w": 122,
+     "h": 24
+    },
+    {
+     "role": "slider",
+     "name": "Volume",
+     "w": 290,
+     "h": 16
+    },
+    {
+     "role": "link",
+     "name": "How it was made",
+     "w": 101,
+     "h": 15
+    },
+    {
+     "role": "link",
+     "name": "islam.museum",
+     "w": 104,
+     "h": 18
+    },
+    {
+     "role": "checkbox",
+     "name": "on",
+     "w": 26,
+     "h": 26
+    },
+    {
+     "role": "checkbox",
+     "name": "on",
+     "w": 26,
+     "h": 26
+    },
+    {
+     "role": "checkbox",
+     "name": "on",
+     "w": 26,
+     "h": 26
+    },
+    {
+     "role": "checkbox",
+     "name": "on",
+     "w": 26,
+     "h": 26
+    }
+   ],
+   "lowContrast": [],
+   "contrastSummary": {
+    "measured": 88,
+    "minRatio": 5.39,
+    "maxRatio": 15.38,
+    "belowNormalText4_5": 0,
+    "method": "computed foreground colour composited over ancestor CSS backgrounds; canvas, images and gradients behind text are not measured"
+   },
+   "semantic": [
+    {
+     "tag": "a",
+     "role": "link",
+     "name": "Skip to the game",
+     "ariaLabel": null,
+     "text": "Skip to the game"
+    },
+    {
+     "tag": "h1",
+     "role": "heading",
+     "name": "Hudhud: The Atlas of Wonders",
+     "ariaLabel": null,
+     "text": "Hudhud: The Atlas of Wonders"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "Play the music",
+     "ariaLabel": null,
+     "text": "Play the music"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "Next track",
+     "ariaLabel": "Next track",
+     "text": ""
+    },
+    {
+     "tag": "input",
+     "role": "slider",
+     "name": "Volume",
+     "ariaLabel": "Volume",
+     "text": ""
+    },
+    {
+     "tag": "a",
+     "role": "link",
+     "name": "How it was made",
+     "ariaLabel": null,
+     "text": "How it was made"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "Back to the Atlas",
+     "ariaLabel": null,
+     "text": "Back to the Atlas"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "Full screen",
+     "ariaLabel": null,
+     "text": "Full screen"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "Pause",
+     "ariaLabel": null,
+     "text": "Pause"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "Settings",
+     "ariaLabel": null,
+     "text": "Settings"
+    },
+    {
+     "tag": "div",
+     "role": "application",
+     "name": "The workshop, as a picture. The list after it says the same in words.",
+     "ariaLabel": "The workshop, as a picture. The list after it says the same in words.",
+     "text": "◀▶Touch▲"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "Left",
+     "ariaLabel": "Left",
+     "text": "◀"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "Right",
+     "ariaLabel": "Right",
+     "text": "▶"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "Touch",
+     "ariaLabel": null,
+     "text": "Touch"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "Fly",
+     "ariaLabel": "Fly",
+     "text": "▲"
+    },
+    {
+     "tag": "h2",
+     "role": "heading",
+     "name": "The scene in words",
+     "ariaLabel": null,
+     "text": "The scene in words"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "Turn mirror 1, by the shutter: leaning up to the right",
+     "ariaLabel": null,
+     "text": "Turn mirror 1, by the shutter: leaning up to the right"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "Turn mirror 2, near the floor: leaning down to the right",
+     "ariaLabel": null,
+     "text": "Turn mirror 2, near the floor: leaning down to the right"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "Turn mirror 3, in the middle: laid flat, out of the beam's way",
+     "ariaLabel": null,
+     "text": "Turn mirror 3, in the middle: laid flat, out of the beam's way"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "Turn mirror 4, on the high shelf: leaning up to the right",
+     "ariaLabel": null,
+     "text": "Turn mirror 4, on the high shelf: leaning up to the right"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "Turn mirror 5, above the page: leaning up to the right",
+     "ariaLabel": null,
+     "text": "Turn mirror 5, above the page: leaning up to the right"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "Turn mirror 6, under the books: laid flat, out of the beam's way",
+     "ariaLabel": null,
+     "text": "Turn mirror 6, under the books: laid flat, out of the beam's way"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "Go to Ibn al-Haytham",
+     "ariaLabel": null,
+     "text": "Go to Ibn al-Haytham"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "Go to the workshop cat",
+     "ariaLabel": null,
+     "text": "Go to the workshop cat"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "Go to the Atlas page",
+     "ariaLabel": null,
+     "text": "Go to the Atlas page"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "Go to the curtain cord",
+     "ariaLabel": null,
+     "text": "Go to the curtain cord"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "Go to a feather in the garden",
+     "ariaLabel": null,
+     "text": "Go to a feather in the garden"
+    },
+    {
+     "tag": "h2",
+     "role": "heading",
+     "name": "Museum note",
+     "ariaLabel": null,
+     "text": "Museum note"
+    },
+    {
+     "tag": "h2",
+     "role": "heading",
+     "name": "Controls",
+     "ariaLabel": null,
+     "text": "Controls"
+    },
+    {
+     "tag": "a",
+     "role": "link",
+     "name": "islam.museum",
+     "ariaLabel": null,
+     "text": "islam.museum"
+    },
+    {
+     "tag": "div",
+     "role": "status",
+     "name": "Hudhud: There! A page of the Atlas blew in here. Its ink has gone pale.",
+     "ariaLabel": null,
+     "text": "Hudhud: There! A page of the Atlas blew in here. Its ink has gone pale."
+    },
+    {
+     "tag": "section",
+     "role": "dialog",
+     "name": "Settings",
+     "ariaLabel": "Settings",
+     "text": "SettingsWay of playingStoryExplorerChallengeStory: More flaps, a slower glide, and the mirrors that "
+    },
+    {
+     "tag": "h2",
+     "role": "heading",
+     "name": "Settings",
+     "ariaLabel": null,
+     "text": "Settings"
+    },
+    {
+     "tag": "select",
+     "role": "combobox",
+     "name": "explorer",
+     "ariaLabel": null,
+     "text": "StoryExplorerChallenge"
+    },
+    {
+     "tag": "select",
+     "role": "combobox",
+     "name": "medium",
+     "ariaLabel": null,
+     "text": "LowMediumHigh"
+    },
+    {
+     "tag": "input",
+     "role": "checkbox",
+     "name": "on",
+     "ariaLabel": null,
+     "text": ""
+    },
+    {
+     "tag": "input",
+     "role": "checkbox",
+     "name": "on",
+     "ariaLabel": null,
+     "text": ""
+    },
+    {
+     "tag": "input",
+     "role": "slider",
+     "name": "1",
+     "ariaLabel": null,
+     "text": ""
+    },
+    {
+     "tag": "select",
+     "role": "combobox",
+     "name": "40",
+     "ariaLabel": null,
+     "text": "At onceSlowMediumFast"
+    },
+    {
+     "tag": "h3",
+     "role": "heading",
+     "name": "Your Storykeeper",
+     "ariaLabel": null,
+     "text": "Your Storykeeper"
+    },
+    {
+     "tag": "select",
+     "role": "combobox",
+     "name": "1",
+     "ariaLabel": null,
+     "text": "A girl explorerA boy explorer"
+    },
+    {
+     "tag": "select",
+     "role": "combobox",
+     "name": "1",
+     "ariaLabel": null,
+     "text": "Choice 1Choice 2Choice 3Choice 4"
+    },
+    {
+     "tag": "select",
+     "role": "combobox",
+     "name": "0",
+     "ariaLabel": null,
+     "text": "Choice 1Choice 2Choice 3"
+    },
+    {
+     "tag": "select",
+     "role": "combobox",
+     "name": "3",
+     "ariaLabel": null,
+     "text": "Choice 1Choice 2Choice 3Choice 4"
+    },
+    {
+     "tag": "h3",
+     "role": "heading",
+     "name": "Sound",
+     "ariaLabel": null,
+     "text": "Sound"
+    },
+    {
+     "tag": "input",
+     "role": "slider",
+     "name": "0.6",
+     "ariaLabel": null,
+     "text": ""
+    },
+    {
+     "tag": "input",
+     "role": "slider",
+     "name": "0.8",
+     "ariaLabel": null,
+     "text": ""
+    },
+    {
+     "tag": "input",
+     "role": "slider",
+     "name": "0.8",
+     "ariaLabel": null,
+     "text": ""
+    },
+    {
+     "tag": "input",
+     "role": "checkbox",
+     "name": "on",
+     "ariaLabel": null,
+     "text": ""
+    },
+    {
+     "tag": "input",
+     "role": "checkbox",
+     "name": "on",
+     "ariaLabel": null,
+     "text": ""
+    },
+    {
+     "tag": "h3",
+     "role": "heading",
+     "name": "Keys",
+     "ariaLabel": null,
+     "text": "Keys"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "Left: ←, A. Change",
+     "ariaLabel": null,
+     "text": "Left: ←, A. Change"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "Right: →, D. Change",
+     "ariaLabel": null,
+     "text": "Right: →, D. Change"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "Fly: Space, ↑, W. Change",
+     "ariaLabel": null,
+     "text": "Fly: Space, ↑, W. Change"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "Drop from a perch: ↓, S. Change",
+     "ariaLabel": null,
+     "text": "Drop from a perch: ↓, S. Change"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "Touch: E, Enter. Change",
+     "ariaLabel": null,
+     "text": "Touch: E, Enter. Change"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "Put the keys back as they were",
+     "ariaLabel": null,
+     "text": "Put the keys back as they were"
+    },
+    {
+     "tag": "h3",
+     "role": "heading",
+     "name": "Saving",
+     "ariaLabel": null,
+     "text": "Saving"
+    },
+    {
+     "tag": "p",
+     "role": "status",
+     "name": "Saved",
+     "ariaLabel": null,
+     "text": "Saved"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "Save now",
+     "ariaLabel": null,
+     "text": "Save now"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "Export save",
+     "ariaLabel": null,
+     "text": "Export save"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "Import save",
+     "ariaLabel": null,
+     "text": "Import save"
+    },
+    {
+     "tag": "h3",
+     "role": "heading",
+     "name": "Gamepad buttons",
+     "ariaLabel": null,
+     "text": "Gamepad buttons"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "Fly, and go on in a talk: button 1. Change",
+     "ariaLabel": null,
+     "text": "Fly, and go on in a talk: button 1. Change"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "Back: button 2. Change",
+     "ariaLabel": null,
+     "text": "Back: button 2. Change"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "Touch: button 3. Change",
+     "ariaLabel": null,
+     "text": "Touch: button 3. Change"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "Pause: button 10. Change",
+     "ariaLabel": null,
+     "text": "Pause: button 10. Change"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "Put the keys back as they were",
+     "ariaLabel": null,
+     "text": "Put the keys back as they were"
+    },
+    {
+     "tag": "h3",
+     "role": "heading",
+     "name": "Save slot",
+     "ariaLabel": null,
+     "text": "Save slot"
+    },
+    {
+     "tag": "select",
+     "role": "combobox",
+     "name": "0",
+     "ariaLabel": null,
+     "text": "Slot 1Slot 2Slot 3"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "Close",
+     "ariaLabel": null,
+     "text": "Close"
+    }
+   ],
+   "counts": {
+    "tabbables": 46,
+    "buttons": 43,
+    "links": 3,
+    "sheets": 1
+   },
+   "focusTrap": {
+    "sheetOpen": true,
+    "trapped": true,
+    "sequence": [
+     "in:select:StoryExplorerChallenge",
+     "in:select:LowMediumHigh",
+     "in:input:",
+     "in:input:",
+     "in:input:",
+     "in:select:At onceSlowMediumFast",
+     "in:select:A girl explorerA boy explorer",
+     "in:select:Choice 1Choice 2Choice 3Choice 4",
+     "in:select:Choice 1Choice 2Choice 3",
+     "in:select:Choice 1Choice 2Choice 3Choice 4",
+     "in:input:",
+     "in:input:",
+     "in:input:",
+     "in:input:"
+    ]
+   }
+  },
+  {
+   "state": "pause-sheet",
+   "lang": "en",
+   "capture": "hudhud-a11y-en-pause-sheet.png",
+   "title": "Hudhud: The Atlas of Wonders",
+   "dir": "ltr",
+   "focusOrder": [
+    {
+     "order": 1,
+     "tag": "a",
+     "role": "link",
+     "name": "Skip to the game",
+     "x": -9999,
+     "y": 0,
+     "w": 122,
+     "h": 24,
+     "tabIndex": 0
+    },
+    {
+     "order": 2,
+     "tag": "button",
+     "role": "button",
+     "name": "Play the music",
+     "x": 575,
+     "y": 76,
+     "w": 238,
+     "h": 44,
+     "tabIndex": 0
+    },
+    {
+     "order": 3,
+     "tag": "button",
+     "role": "button",
+     "name": "Next track",
+     "x": 821,
+     "y": 76,
+     "w": 44,
+     "h": 44,
+     "tabIndex": 0
+    },
+    {
+     "order": 4,
+     "tag": "input",
+     "role": "slider",
+     "name": "Volume",
+     "x": 577,
+     "y": 155,
+     "w": 290,
+     "h": 16,
+     "tabIndex": 0
+    },
+    {
+     "order": 5,
+     "tag": "a",
+     "role": "link",
+     "name": "How it was made",
+     "x": 575,
+     "y": 272,
+     "w": 101,
+     "h": 15,
+     "tabIndex": 0
+    },
+    {
+     "order": 6,
+     "tag": "button",
+     "role": "button",
+     "name": "Back to the Atlas",
+     "x": 890,
+     "y": 14,
+     "w": 158,
+     "h": 44,
+     "tabIndex": 0
+    },
+    {
+     "order": 7,
+     "tag": "button",
+     "role": "button",
+     "name": "Full screen",
+     "x": 1059,
+     "y": 14,
+     "w": 114,
+     "h": 44,
+     "tabIndex": 0
+    },
+    {
+     "order": 8,
+     "tag": "button",
+     "role": "button",
+     "name": "Go on",
+     "x": 1183,
+     "y": 14,
+     "w": 79,
+     "h": 44,
+     "tabIndex": 0
+    },
+    {
+     "order": 9,
+     "tag": "button",
+     "role": "button",
+     "name": "Settings",
+     "x": 1272,
+     "y": 14,
+     "w": 96,
+     "h": 44,
+     "tabIndex": 0
+    },
+    {
+     "order": 10,
+     "tag": "div",
+     "role": "application",
+     "name": "The workshop, as a picture. The list after it says the same in words.",
+     "x": 133,
+     "y": 68,
+     "w": 1173,
+     "h": 660,
+     "tabIndex": 0
+    },
+    {
+     "order": 11,
+     "tag": "button",
+     "role": "button",
+     "name": "Left",
+     "x": 147,
+     "y": 650,
+     "w": 64,
+     "h": 64,
+     "tabIndex": 0
+    },
+    {
+     "order": 12,
+     "tag": "button",
+     "role": "button",
+     "name": "Right",
+     "x": 221,
+     "y": 650,
+     "w": 64,
+     "h": 64,
+     "tabIndex": 0
+    },
+    {
+     "order": 13,
+     "tag": "button",
+     "role": "button",
+     "name": "Touch",
+     "x": 1128,
+     "y": 650,
+     "w": 91,
+     "h": 64,
+     "tabIndex": 0
+    },
+    {
+     "order": 14,
+     "tag": "button",
+     "role": "button",
+     "name": "Fly",
+     "x": 1229,
+     "y": 650,
+     "w": 64,
+     "h": 64,
+     "tabIndex": 0
+    },
+    {
+     "order": 15,
+     "tag": "a",
+     "role": "link",
+     "name": "islam.museum",
+     "x": 746,
+     "y": 1176,
+     "w": 104,
+     "h": 18,
+     "tabIndex": 0
+    },
+    {
+     "order": 16,
+     "tag": "button",
+     "role": "button",
+     "name": "Start the scene again",
+     "x": 386,
+     "y": 352,
+     "w": 190,
+     "h": 44,
+     "tabIndex": 0
+    },
+    {
+     "order": 17,
+     "tag": "button",
+     "role": "button",
+     "name": "Save now",
+     "x": 584,
+     "y": 352,
+     "w": 105,
+     "h": 44,
+     "tabIndex": 0
+    },
+    {
+     "order": 18,
+     "tag": "button",
+     "role": "button",
+     "name": "Settings",
+     "x": 697,
+     "y": 352,
+     "w": 96,
+     "h": 44,
+     "tabIndex": 0
+    },
+    {
+     "order": 19,
+     "tag": "button",
+     "role": "button",
+     "name": "Close",
+     "x": 386,
+     "y": 450,
+     "w": 80,
+     "h": 44,
+     "tabIndex": 0
+    }
+   ],
+   "smallTargets": [
+    {
+     "role": "link",
+     "name": "Skip to the game",
+     "w": 122,
+     "h": 24
+    },
+    {
+     "role": "slider",
+     "name": "Volume",
+     "w": 290,
+     "h": 16
+    },
+    {
+     "role": "link",
+     "name": "How it was made",
+     "w": 101,
+     "h": 15
+    },
+    {
+     "role": "link",
+     "name": "islam.museum",
+     "w": 104,
+     "h": 18
+    }
+   ],
+   "lowContrast": [],
+   "contrastSummary": {
+    "measured": 51,
+    "minRatio": 8.69,
+    "maxRatio": 15.38,
+    "belowNormalText4_5": 0,
+    "method": "computed foreground colour composited over ancestor CSS backgrounds; canvas, images and gradients behind text are not measured"
+   },
+   "semantic": [
+    {
+     "tag": "a",
+     "role": "link",
+     "name": "Skip to the game",
+     "ariaLabel": null,
+     "text": "Skip to the game"
+    },
+    {
+     "tag": "h1",
+     "role": "heading",
+     "name": "Hudhud: The Atlas of Wonders",
+     "ariaLabel": null,
+     "text": "Hudhud: The Atlas of Wonders"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "Play the music",
+     "ariaLabel": null,
+     "text": "Play the music"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "Next track",
+     "ariaLabel": "Next track",
+     "text": ""
+    },
+    {
+     "tag": "input",
+     "role": "slider",
+     "name": "Volume",
+     "ariaLabel": "Volume",
+     "text": ""
+    },
+    {
+     "tag": "a",
+     "role": "link",
+     "name": "How it was made",
+     "ariaLabel": null,
+     "text": "How it was made"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "Back to the Atlas",
+     "ariaLabel": null,
+     "text": "Back to the Atlas"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "Full screen",
+     "ariaLabel": null,
+     "text": "Full screen"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "Go on",
+     "ariaLabel": null,
+     "text": "Go on"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "Settings",
+     "ariaLabel": null,
+     "text": "Settings"
+    },
+    {
+     "tag": "div",
+     "role": "application",
+     "name": "The workshop, as a picture. The list after it says the same in words.",
+     "ariaLabel": "The workshop, as a picture. The list after it says the same in words.",
+     "text": "◀▶Touch▲"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "Left",
+     "ariaLabel": "Left",
+     "text": "◀"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "Right",
+     "ariaLabel": "Right",
+     "text": "▶"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "Touch",
+     "ariaLabel": null,
+     "text": "Touch"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "Fly",
+     "ariaLabel": "Fly",
+     "text": "▲"
+    },
+    {
+     "tag": "h2",
+     "role": "heading",
+     "name": "The scene in words",
+     "ariaLabel": null,
+     "text": "The scene in words"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "Turn mirror 1, by the shutter: leaning up to the right",
+     "ariaLabel": null,
+     "text": "Turn mirror 1, by the shutter: leaning up to the right"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "Turn mirror 2, near the floor: leaning down to the right",
+     "ariaLabel": null,
+     "text": "Turn mirror 2, near the floor: leaning down to the right"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "Turn mirror 3, in the middle: laid flat, out of the beam's way",
+     "ariaLabel": null,
+     "text": "Turn mirror 3, in the middle: laid flat, out of the beam's way"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "Turn mirror 4, on the high shelf: leaning up to the right",
+     "ariaLabel": null,
+     "text": "Turn mirror 4, on the high shelf: leaning up to the right"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "Turn mirror 5, above the page: leaning up to the right",
+     "ariaLabel": null,
+     "text": "Turn mirror 5, above the page: leaning up to the right"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "Turn mirror 6, under the books: laid flat, out of the beam's way",
+     "ariaLabel": null,
+     "text": "Turn mirror 6, under the books: laid flat, out of the beam's way"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "Go to Ibn al-Haytham",
+     "ariaLabel": null,
+     "text": "Go to Ibn al-Haytham"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "Go to the workshop cat",
+     "ariaLabel": null,
+     "text": "Go to the workshop cat"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "Go to the Atlas page",
+     "ariaLabel": null,
+     "text": "Go to the Atlas page"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "Go to the curtain cord",
+     "ariaLabel": null,
+     "text": "Go to the curtain cord"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "Go to a feather in the garden",
+     "ariaLabel": null,
+     "text": "Go to a feather in the garden"
+    },
+    {
+     "tag": "h2",
+     "role": "heading",
+     "name": "Museum note",
+     "ariaLabel": null,
+     "text": "Museum note"
+    },
+    {
+     "tag": "h2",
+     "role": "heading",
+     "name": "Controls",
+     "ariaLabel": null,
+     "text": "Controls"
+    },
+    {
+     "tag": "a",
+     "role": "link",
+     "name": "islam.museum",
+     "ariaLabel": null,
+     "text": "islam.museum"
+    },
+    {
+     "tag": "div",
+     "role": "status",
+     "name": "Hudhud: There! A page of the Atlas blew in here. Its ink has gone pale.",
+     "ariaLabel": null,
+     "text": "Hudhud: There! A page of the Atlas blew in here. Its ink has gone pale."
+    },
+    {
+     "tag": "section",
+     "role": "dialog",
+     "name": "Paused",
+     "ariaLabel": "Paused",
+     "text": "PausedStart the scene againSave nowSettingsSavedClose"
+    },
+    {
+     "tag": "h2",
+     "role": "heading",
+     "name": "Paused",
+     "ariaLabel": null,
+     "text": "Paused"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "Start the scene again",
+     "ariaLabel": null,
+     "text": "Start the scene again"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "Save now",
+     "ariaLabel": null,
+     "text": "Save now"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "Settings",
+     "ariaLabel": null,
+     "text": "Settings"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "Close",
+     "ariaLabel": null,
+     "text": "Close"
+    }
+   ],
+   "counts": {
+    "tabbables": 19,
+    "buttons": 32,
+    "links": 3,
+    "sheets": 1
+   },
+   "focusTrap": {
+    "sheetOpen": true,
+    "trapped": true,
+    "sequence": [
+     "in:button:Start the scene again",
+     "in:button:Save now",
+     "in:button:Settings",
+     "in:button:Close",
+     "in:button:Start the scene again",
+     "in:button:Save now",
+     "in:button:Settings",
+     "in:button:Close",
+     "in:button:Start the scene again",
+     "in:button:Save now",
+     "in:button:Settings",
+     "in:button:Close",
+     "in:button:Start the scene again",
+     "in:button:Save now"
+    ]
+   }
+  },
+  {
+   "state": "results-sheet",
+   "lang": "en",
+   "capture": "hudhud-a11y-en-results-sheet.png",
+   "title": "Hudhud: The Atlas of Wonders",
+   "dir": "ltr",
+   "focusOrder": [
+    {
+     "order": 1,
+     "tag": "a",
+     "role": "link",
+     "name": "Skip to the game",
+     "x": -9999,
+     "y": -443,
+     "w": 122,
+     "h": 24,
+     "tabIndex": 0
+    },
+    {
+     "order": 2,
+     "tag": "button",
+     "role": "button",
+     "name": "Play the music",
+     "x": 575,
+     "y": -367,
+     "w": 238,
+     "h": 44,
+     "tabIndex": 0
+    },
+    {
+     "order": 3,
+     "tag": "button",
+     "role": "button",
+     "name": "Next track",
+     "x": 821,
+     "y": -367,
+     "w": 44,
+     "h": 44,
+     "tabIndex": 0
+    },
+    {
+     "order": 4,
+     "tag": "input",
+     "role": "slider",
+     "name": "Volume",
+     "x": 577,
+     "y": -288,
+     "w": 290,
+     "h": 16,
+     "tabIndex": 0
+    },
+    {
+     "order": 5,
+     "tag": "a",
+     "role": "link",
+     "name": "How it was made",
+     "x": 575,
+     "y": -171,
+     "w": 101,
+     "h": 15,
+     "tabIndex": 0
+    },
+    {
+     "order": 6,
+     "tag": "button",
+     "role": "button",
+     "name": "Back to the Atlas",
+     "x": 890,
+     "y": -429,
+     "w": 158,
+     "h": 44,
+     "tabIndex": 0
+    },
+    {
+     "order": 7,
+     "tag": "button",
+     "role": "button",
+     "name": "Full screen",
+     "x": 1058,
+     "y": -429,
+     "w": 114,
+     "h": 44,
+     "tabIndex": 0
+    },
+    {
+     "order": 8,
+     "tag": "button",
+     "role": "button",
+     "name": "Pause",
+     "x": 1182,
+     "y": -429,
+     "w": 80,
+     "h": 44,
+     "tabIndex": 0
+    },
+    {
+     "order": 9,
+     "tag": "button",
+     "role": "button",
+     "name": "Settings",
+     "x": 1272,
+     "y": -429,
+     "w": 96,
+     "h": 44,
+     "tabIndex": 0
+    },
+    {
+     "order": 10,
+     "tag": "div",
+     "role": "application",
+     "name": "The workshop, as a picture. The list after it says the same in words.",
+     "x": 133,
+     "y": -375,
+     "w": 1173,
+     "h": 660,
+     "tabIndex": 0
+    },
+    {
+     "order": 11,
+     "tag": "button",
+     "role": "button",
+     "name": "Left",
+     "x": 147,
+     "y": 207,
+     "w": 64,
+     "h": 64,
+     "tabIndex": 0
+    },
+    {
+     "order": 12,
+     "tag": "button",
+     "role": "button",
+     "name": "Right",
+     "x": 221,
+     "y": 207,
+     "w": 64,
+     "h": 64,
+     "tabIndex": 0
+    },
+    {
+     "order": 13,
+     "tag": "button",
+     "role": "button",
+     "name": "Touch",
+     "x": 1128,
+     "y": 207,
+     "w": 91,
+     "h": 64,
+     "tabIndex": 0
+    },
+    {
+     "order": 14,
+     "tag": "button",
+     "role": "button",
+     "name": "Fly",
+     "x": 1229,
+     "y": 207,
+     "w": 64,
+     "h": 64,
+     "tabIndex": 0
+    },
+    {
+     "order": 15,
+     "tag": "a",
+     "role": "link",
+     "name": "islam.museum",
+     "x": 746,
+     "y": 733,
+     "w": 104,
+     "h": 18,
+     "tabIndex": 0
+    },
+    {
+     "order": 16,
+     "tag": "a",
+     "role": "link",
+     "name": "In the museum: Ibn al-Haytham",
+     "x": 406,
+     "y": 847,
+     "w": 227,
+     "h": 18,
+     "tabIndex": 0
+    },
+    {
+     "order": 17,
+     "tag": "a",
+     "role": "link",
+     "name": "In the museum: The dark room",
+     "x": 406,
+     "y": 877,
+     "w": 221,
+     "h": 18,
+     "tabIndex": 0
+    },
+    {
+     "order": 18,
+     "tag": "a",
+     "role": "link",
+     "name": "In the museum: The Book of Optics",
+     "x": 406,
+     "y": 907,
+     "w": 255,
+     "h": 18,
+     "tabIndex": 0
+    },
+    {
+     "order": 19,
+     "tag": "button",
+     "role": "button",
+     "name": "Back to the Atlas",
+     "x": 386,
+     "y": 962,
+     "w": 158,
+     "h": 44,
+     "tabIndex": 0
+    },
+    {
+     "order": 20,
+     "tag": "button",
+     "role": "button",
+     "name": "Play again",
+     "x": 552,
+     "y": 962,
+     "w": 109,
+     "h": 44,
+     "tabIndex": 0
+    },
+    {
+     "order": 21,
+     "tag": "button",
+     "role": "button",
+     "name": "Close",
+     "x": 386,
+     "y": 1022,
+     "w": 80,
+     "h": 44,
+     "tabIndex": 0
+    }
+   ],
+   "smallTargets": [
+    {
+     "role": "link",
+     "name": "Skip to the game",
+     "w": 122,
+     "h": 24
+    },
+    {
+     "role": "slider",
+     "name": "Volume",
+     "w": 290,
+     "h": 16
+    },
+    {
+     "role": "link",
+     "name": "How it was made",
+     "w": 101,
+     "h": 15
+    },
+    {
+     "role": "link",
+     "name": "islam.museum",
+     "w": 104,
+     "h": 18
+    },
+    {
+     "role": "link",
+     "name": "In the museum: Ibn al-Haytham",
+     "w": 227,
+     "h": 18
+    },
+    {
+     "role": "link",
+     "name": "In the museum: The dark room",
+     "w": 221,
+     "h": 18
+    },
+    {
+     "role": "link",
+     "name": "In the museum: The Book of Optics",
+     "w": 255,
+     "h": 18
+    }
+   ],
+   "lowContrast": [],
+   "contrastSummary": {
+    "measured": 75,
+    "minRatio": 4.52,
+    "maxRatio": 15.38,
+    "belowNormalText4_5": 0,
+    "method": "computed foreground colour composited over ancestor CSS backgrounds; canvas, images and gradients behind text are not measured"
+   },
+   "semantic": [
+    {
+     "tag": "a",
+     "role": "link",
+     "name": "Skip to the game",
+     "ariaLabel": null,
+     "text": "Skip to the game"
+    },
+    {
+     "tag": "h1",
+     "role": "heading",
+     "name": "Hudhud: The Atlas of Wonders",
+     "ariaLabel": null,
+     "text": "Hudhud: The Atlas of Wonders"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "Play the music",
+     "ariaLabel": null,
+     "text": "Play the music"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "Next track",
+     "ariaLabel": "Next track",
+     "text": ""
+    },
+    {
+     "tag": "input",
+     "role": "slider",
+     "name": "Volume",
+     "ariaLabel": "Volume",
+     "text": ""
+    },
+    {
+     "tag": "a",
+     "role": "link",
+     "name": "How it was made",
+     "ariaLabel": null,
+     "text": "How it was made"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "Back to the Atlas",
+     "ariaLabel": null,
+     "text": "Back to the Atlas"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "Full screen",
+     "ariaLabel": null,
+     "text": "Full screen"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "Pause",
+     "ariaLabel": null,
+     "text": "Pause"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "Settings",
+     "ariaLabel": null,
+     "text": "Settings"
+    },
+    {
+     "tag": "div",
+     "role": "application",
+     "name": "The workshop, as a picture. The list after it says the same in words.",
+     "ariaLabel": "The workshop, as a picture. The list after it says the same in words.",
+     "text": "◀▶Touch▲"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "Left",
+     "ariaLabel": "Left",
+     "text": "◀"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "Right",
+     "ariaLabel": "Right",
+     "text": "▶"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "Touch",
+     "ariaLabel": null,
+     "text": "Touch"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "Fly",
+     "ariaLabel": "Fly",
+     "text": "▲"
+    },
+    {
+     "tag": "h2",
+     "role": "heading",
+     "name": "The scene in words",
+     "ariaLabel": null,
+     "text": "The scene in words"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "Turn mirror 1, by the shutter: leaning down to the right",
+     "ariaLabel": null,
+     "text": "Turn mirror 1, by the shutter: leaning down to the right"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "Turn mirror 2, near the floor: leaning down to the right",
+     "ariaLabel": null,
+     "text": "Turn mirror 2, near the floor: leaning down to the right"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "Turn mirror 3, in the middle: leaning up to the right",
+     "ariaLabel": null,
+     "text": "Turn mirror 3, in the middle: leaning up to the right"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "Turn mirror 4, on the high shelf: leaning up to the right",
+     "ariaLabel": null,
+     "text": "Turn mirror 4, on the high shelf: leaning up to the right"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "Turn mirror 5, above the page: leaning down to the right",
+     "ariaLabel": null,
+     "text": "Turn mirror 5, above the page: leaning down to the right"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "Turn mirror 6, under the books: laid flat, out of the beam's way",
+     "ariaLabel": null,
+     "text": "Turn mirror 6, under the books: laid flat, out of the beam's way"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "Go to Ibn al-Haytham",
+     "ariaLabel": null,
+     "text": "Go to Ibn al-Haytham"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "Go to the workshop cat",
+     "ariaLabel": null,
+     "text": "Go to the workshop cat"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "Finish at the page",
+     "ariaLabel": null,
+     "text": "Finish at the page"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "Go to the curtain cord",
+     "ariaLabel": null,
+     "text": "Go to the curtain cord"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "Go to a feather in the garden",
+     "ariaLabel": null,
+     "text": "Go to a feather in the garden"
+    },
+    {
+     "tag": "h2",
+     "role": "heading",
+     "name": "Museum note",
+     "ariaLabel": null,
+     "text": "Museum note"
+    },
+    {
+     "tag": "h2",
+     "role": "heading",
+     "name": "Controls",
+     "ariaLabel": null,
+     "text": "Controls"
+    },
+    {
+     "tag": "a",
+     "role": "link",
+     "name": "islam.museum",
+     "ariaLabel": null,
+     "text": "islam.museum"
+    },
+    {
+     "tag": "div",
+     "role": "status",
+     "name": "Hudhud: Look! The ink is coming back!",
+     "ariaLabel": null,
+     "text": "Hudhud: Look! The ink is coming back!"
+    },
+    {
+     "tag": "section",
+     "role": "dialog",
+     "name": "The page is home",
+     "ariaLabel": "The page is home",
+     "text": "The page is homeMirrors turned: 3✦CuriosityAsk for more, or find what the dark room hides.Not yet⚙In"
+    },
+    {
+     "tag": "h2",
+     "role": "heading",
+     "name": "The page is home",
+     "ariaLabel": null,
+     "text": "The page is home"
+    },
+    {
+     "tag": "h3",
+     "role": "heading",
+     "name": "Museum note",
+     "ariaLabel": null,
+     "text": "Museum note"
+    },
+    {
+     "tag": "a",
+     "role": "link",
+     "name": "In the museum: Ibn al-Haytham",
+     "ariaLabel": null,
+     "text": "In the museum: Ibn al-Haytham"
+    },
+    {
+     "tag": "a",
+     "role": "link",
+     "name": "In the museum: The dark room",
+     "ariaLabel": null,
+     "text": "In the museum: The dark room"
+    },
+    {
+     "tag": "a",
+     "role": "link",
+     "name": "In the museum: The Book of Optics",
+     "ariaLabel": null,
+     "text": "In the museum: The Book of Optics"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "Back to the Atlas",
+     "ariaLabel": null,
+     "text": "Back to the Atlas"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "Play again",
+     "ariaLabel": null,
+     "text": "Play again"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "Close",
+     "ariaLabel": null,
+     "text": "Close"
+    }
+   ],
+   "counts": {
+    "tabbables": 21,
+    "buttons": 31,
+    "links": 6,
+    "sheets": 1
+   },
+   "focusTrap": {
+    "sheetOpen": true,
+    "trapped": true,
+    "sequence": [
+     "in:a:In the museum: Ibn al-Haytham",
+     "in:a:In the museum: The dark room",
+     "in:a:In the museum: The Book of Optics",
+     "in:button:Back to the Atlas",
+     "in:button:Play again",
+     "in:button:Close",
+     "in:a:In the museum: Ibn al-Haytham",
+     "in:a:In the museum: The dark room",
+     "in:a:In the museum: The Book of Optics",
+     "in:button:Back to the Atlas",
+     "in:button:Play again",
+     "in:button:Close",
+     "in:a:In the museum: Ibn al-Haytham",
+     "in:a:In the museum: The dark room"
+    ]
+   }
+  },
+  {
+   "state": "browser-errors",
+   "lang": "en",
+   "errors": []
+  },
+  {
+   "state": "atlas",
+   "lang": "ar",
+   "capture": "hudhud-a11y-ar-atlas.png",
+   "title": "هدهد: أطلس العجائب",
+   "dir": "rtl",
+   "focusOrder": [
+    {
+     "order": 1,
+     "tag": "a",
+     "role": "link",
+     "name": "انتقل إلى اللعبة",
+     "x": 11354,
+     "y": 0,
+     "w": 85,
+     "h": 27,
+     "tabIndex": 0
+    },
+    {
+     "order": 2,
+     "tag": "button",
+     "role": "button",
+     "name": "شغّل الموسيقى",
+     "x": 463,
+     "y": 79,
+     "w": 238,
+     "h": 44,
+     "tabIndex": 0
+    },
+    {
+     "order": 3,
+     "tag": "button",
+     "role": "button",
+     "name": "المقطوعة التالية",
+     "x": 411,
+     "y": 79,
+     "w": 44,
+     "h": 44,
+     "tabIndex": 0
+    },
+    {
+     "order": 4,
+     "tag": "input",
+     "role": "slider",
+     "name": "مستوى الصوت",
+     "x": 409,
+     "y": 162,
+     "w": 290,
+     "h": 16,
+     "tabIndex": 0
+    },
+    {
+     "order": 5,
+     "tag": "a",
+     "role": "link",
+     "name": "كيف صُنعت",
+     "x": 535,
+     "y": 262,
+     "w": 53,
+     "h": 15,
+     "tabIndex": 0
+    },
+    {
+     "order": 6,
+     "tag": "button",
+     "role": "button",
+     "name": "ملء الشاشة",
+     "x": 283,
+     "y": 14,
+     "w": 102,
+     "h": 47,
+     "tabIndex": 0
+    },
+    {
+     "order": 7,
+     "tag": "button",
+     "role": "button",
+     "name": "إيقاف مؤقت",
+     "x": 171,
+     "y": 14,
+     "w": 102,
+     "h": 47,
+     "tabIndex": 0
+    },
+    {
+     "order": 8,
+     "tag": "button",
+     "role": "button",
+     "name": "الإعدادات",
+     "x": 72,
+     "y": 14,
+     "w": 89,
+     "h": 47,
+     "tabIndex": 0
+    },
+    {
+     "order": 9,
+     "tag": "button",
+     "role": "button",
+     "name": "مستكشفة",
+     "x": 728,
+     "y": 223,
+     "w": 146,
+     "h": 167,
+     "tabIndex": 0
+    },
+    {
+     "order": 10,
+     "tag": "button",
+     "role": "button",
+     "name": "مستكشف",
+     "x": 566,
+     "y": 223,
+     "w": 146,
+     "h": 167,
+     "tabIndex": 0
+    },
+    {
+     "order": 11,
+     "tag": "button",
+     "role": "button",
+     "name": "العب: الجزري وساعة الفيل",
+     "x": 744,
+     "y": 538,
+     "w": 278,
+     "h": 47,
+     "tabIndex": 0
+    },
+    {
+     "order": 12,
+     "tag": "button",
+     "role": "button",
+     "name": "العب: ابن الهيثم",
+     "x": 419,
+     "y": 538,
+     "w": 278,
+     "h": 47,
+     "tabIndex": 0
+    },
+    {
+     "order": 13,
+     "tag": "a",
+     "role": "link",
+     "name": "islam.museum",
+     "x": 1248,
+     "y": 2281,
+     "w": 101,
+     "h": 19,
+     "tabIndex": 0
+    }
+   ],
+   "smallTargets": [
+    {
+     "role": "link",
+     "name": "انتقل إلى اللعبة",
+     "w": 85,
+     "h": 27
+    },
+    {
+     "role": "slider",
+     "name": "مستوى الصوت",
+     "w": 290,
+     "h": 16
+    },
+    {
+     "role": "link",
+     "name": "كيف صُنعت",
+     "w": 53,
+     "h": 15
+    },
+    {
+     "role": "link",
+     "name": "islam.museum",
+     "w": 101,
+     "h": 19
+    }
+   ],
+   "lowContrast": [],
+   "contrastSummary": {
+    "measured": 144,
+    "minRatio": 8.69,
+    "maxRatio": 15.38,
+    "belowNormalText4_5": 0,
+    "method": "computed foreground colour composited over ancestor CSS backgrounds; canvas, images and gradients behind text are not measured"
+   },
+   "semantic": [
+    {
+     "tag": "a",
+     "role": "link",
+     "name": "انتقل إلى اللعبة",
+     "ariaLabel": null,
+     "text": "انتقل إلى اللعبة"
+    },
+    {
+     "tag": "h1",
+     "role": "heading",
+     "name": "هدهد: أطلس العجائب",
+     "ariaLabel": null,
+     "text": "هدهد: أطلس العجائب"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "شغّل الموسيقى",
+     "ariaLabel": null,
+     "text": "شغّل الموسيقى"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "المقطوعة التالية",
+     "ariaLabel": "المقطوعة التالية",
+     "text": ""
+    },
+    {
+     "tag": "input",
+     "role": "slider",
+     "name": "مستوى الصوت",
+     "ariaLabel": "مستوى الصوت",
+     "text": ""
+    },
+    {
+     "tag": "a",
+     "role": "link",
+     "name": "كيف صُنعت",
+     "ariaLabel": null,
+     "text": "كيف صُنعت"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "ملء الشاشة",
+     "ariaLabel": null,
+     "text": "ملء الشاشة"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "إيقاف مؤقت",
+     "ariaLabel": null,
+     "text": "إيقاف مؤقت"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "الإعدادات",
+     "ariaLabel": null,
+     "text": "الإعدادات"
+    },
+    {
+     "tag": "h2",
+     "role": "heading",
+     "name": "أطلس الحكايات",
+     "ariaLabel": null,
+     "text": "أطلس الحكايات"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "مستكشفة",
+     "ariaLabel": null,
+     "text": "مستكشفة"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "مستكشف",
+     "ariaLabel": null,
+     "text": "مستكشف"
+    },
+    {
+     "tag": "h3",
+     "role": "heading",
+     "name": "العالم ١: السماء والنجوم والزمن",
+     "ariaLabel": null,
+     "text": "العالم ١: السماء والنجوم والزمن"
+    },
+    {
+     "tag": "h3",
+     "role": "heading",
+     "name": "العالم ٢: الآلات والأرقام والرموز",
+     "ariaLabel": null,
+     "text": "العالم ٢: الآلات والأرقام والرموز"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "العب: الجزري وساعة الفيل",
+     "ariaLabel": null,
+     "text": "العب: الجزري وساعة الفيل"
+    },
+    {
+     "tag": "h3",
+     "role": "heading",
+     "name": "العالم ٣: الضوء والأرض والماء والخرائط",
+     "ariaLabel": null,
+     "text": "العالم ٣: الضوء والأرض والماء والخرائط"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "العب: ابن الهيثم",
+     "ariaLabel": null,
+     "text": "العب: ابن الهيثم"
+    },
+    {
+     "tag": "h3",
+     "role": "heading",
+     "name": "العالم ٤: الطب والعناية",
+     "ariaLabel": null,
+     "text": "العالم ٤: الطب والعناية"
+    },
+    {
+     "tag": "h3",
+     "role": "heading",
+     "name": "العالم ٥: الكتب والمدارس واللغة",
+     "ariaLabel": null,
+     "text": "العالم ٥: الكتب والمدارس واللغة"
+    },
+    {
+     "tag": "h3",
+     "role": "heading",
+     "name": "العالم ٦: الرحلات والخرائط",
+     "ariaLabel": null,
+     "text": "العالم ٦: الرحلات والخرائط"
+    },
+    {
+     "tag": "h3",
+     "role": "heading",
+     "name": "العالم ٧: البحار والتجارة والكتب الذهبية",
+     "ariaLabel": null,
+     "text": "العالم ٧: البحار والتجارة والكتب الذهبية"
+    },
+    {
+     "tag": "h3",
+     "role": "heading",
+     "name": "العالم ٨: المدن والبنّاؤون والعناية بالمجتمع",
+     "ariaLabel": null,
+     "text": "العالم ٨: المدن والبنّاؤون والعناية بالمجتمع"
+    },
+    {
+     "tag": "h3",
+     "role": "heading",
+     "name": "العالم ٩: الطبيعة والحيوان والعجائب",
+     "ariaLabel": null,
+     "text": "العالم ٩: الطبيعة والحيوان والعجائب"
+    },
+    {
+     "tag": "h3",
+     "role": "heading",
+     "name": "العالم ١٠: الأصوات والحكمة والمجتمع",
+     "ariaLabel": null,
+     "text": "العالم ١٠: الأصوات والحكمة والمجتمع"
+    },
+    {
+     "tag": "h2",
+     "role": "heading",
+     "name": "ملاحظة من المتحف",
+     "ariaLabel": null,
+     "text": "ملاحظة من المتحف"
+    },
+    {
+     "tag": "h2",
+     "role": "heading",
+     "name": "التحكم",
+     "ariaLabel": null,
+     "text": "التحكم"
+    },
+    {
+     "tag": "a",
+     "role": "link",
+     "name": "islam.museum",
+     "ariaLabel": null,
+     "text": "islam.museum"
+    },
+    {
+     "tag": "div",
+     "role": "status",
+     "name": "هدهد: هناك! صفحة من الأطلس طارت إلى هنا. وقد شحب حبرها.",
+     "ariaLabel": null,
+     "text": "هدهد: هناك! صفحة من الأطلس طارت إلى هنا. وقد شحب حبرها."
+    }
+   ],
+   "counts": {
+    "tabbables": 13,
+    "buttons": 28,
+    "links": 3,
+    "sheets": 0
+   }
+  },
+  {
+   "state": "talk",
+   "lang": "ar",
+   "capture": "hudhud-a11y-ar-talk.png",
+   "title": "هدهد: أطلس العجائب",
+   "dir": "rtl",
+   "focusOrder": [
+    {
+     "order": 1,
+     "tag": "a",
+     "role": "link",
+     "name": "انتقل إلى اللعبة",
+     "x": 11354,
+     "y": 0,
+     "w": 85,
+     "h": 27,
+     "tabIndex": 0
+    },
+    {
+     "order": 2,
+     "tag": "button",
+     "role": "button",
+     "name": "شغّل الموسيقى",
+     "x": 611,
+     "y": 79,
+     "w": 238,
+     "h": 44,
+     "tabIndex": 0
+    },
+    {
+     "order": 3,
+     "tag": "button",
+     "role": "button",
+     "name": "المقطوعة التالية",
+     "x": 559,
+     "y": 79,
+     "w": 44,
+     "h": 44,
+     "tabIndex": 0
+    },
+    {
+     "order": 4,
+     "tag": "input",
+     "role": "slider",
+     "name": "مستوى الصوت",
+     "x": 557,
+     "y": 162,
+     "w": 290,
+     "h": 16,
+     "tabIndex": 0
+    },
+    {
+     "order": 5,
+     "tag": "a",
+     "role": "link",
+     "name": "كيف صُنعت",
+     "x": 683,
+     "y": 262,
+     "w": 53,
+     "h": 15,
+     "tabIndex": 0
+    },
+    {
+     "order": 6,
+     "tag": "button",
+     "role": "button",
+     "name": "العودة إلى الأطلس",
+     "x": 396,
+     "y": 14,
+     "w": 138,
+     "h": 47,
+     "tabIndex": 0
+    },
+    {
+     "order": 7,
+     "tag": "button",
+     "role": "button",
+     "name": "ملء الشاشة",
+     "x": 283,
+     "y": 14,
+     "w": 102,
+     "h": 47,
+     "tabIndex": 0
+    },
+    {
+     "order": 8,
+     "tag": "button",
+     "role": "button",
+     "name": "إيقاف مؤقت",
+     "x": 171,
+     "y": 14,
+     "w": 102,
+     "h": 47,
+     "tabIndex": 0
+    },
+    {
+     "order": 9,
+     "tag": "button",
+     "role": "button",
+     "name": "الإعدادات",
+     "x": 72,
+     "y": 14,
+     "w": 89,
+     "h": 47,
+     "tabIndex": 0
+    },
+    {
+     "order": 10,
+     "tag": "div",
+     "role": "application",
+     "name": "الورشة في صورة. والقائمة التي بعدها تقول الشيء نفسه بالكلمات.",
+     "x": 133,
+     "y": 71,
+     "w": 1173,
+     "h": 660,
+     "tabIndex": 0
+    },
+    {
+     "order": 11,
+     "tag": "button",
+     "role": "button",
+     "name": "التالي",
+     "x": 1168,
+     "y": 194,
+     "w": 76,
+     "h": 47,
+     "tabIndex": 0
+    },
+    {
+     "order": 12,
+     "tag": "button",
+     "role": "button",
+     "name": "ما قيل",
+     "x": 1089,
+     "y": 194,
+     "w": 71,
+     "h": 47,
+     "tabIndex": 0
+    },
+    {
+     "order": 13,
+     "tag": "button",
+     "role": "button",
+     "name": "تخطَّ الحديث",
+     "x": 976,
+     "y": 194,
+     "w": 105,
+     "h": 47,
+     "tabIndex": 0
+    },
+    {
+     "order": 14,
+     "tag": "a",
+     "role": "link",
+     "name": "islam.museum",
+     "x": 593,
+     "y": 1150,
+     "w": 101,
+     "h": 19,
+     "tabIndex": 0
+    }
+   ],
+   "smallTargets": [
+    {
+     "role": "link",
+     "name": "انتقل إلى اللعبة",
+     "w": 85,
+     "h": 27
+    },
+    {
+     "role": "slider",
+     "name": "مستوى الصوت",
+     "w": 290,
+     "h": 16
+    },
+    {
+     "role": "link",
+     "name": "كيف صُنعت",
+     "w": 53,
+     "h": 15
+    },
+    {
+     "role": "link",
+     "name": "islam.museum",
+     "w": 101,
+     "h": 19
+    }
+   ],
+   "lowContrast": [],
+   "contrastSummary": {
+    "measured": 45,
+    "minRatio": 9.21,
+    "maxRatio": 15.38,
+    "belowNormalText4_5": 0,
+    "method": "computed foreground colour composited over ancestor CSS backgrounds; canvas, images and gradients behind text are not measured"
+   },
+   "semantic": [
+    {
+     "tag": "a",
+     "role": "link",
+     "name": "انتقل إلى اللعبة",
+     "ariaLabel": null,
+     "text": "انتقل إلى اللعبة"
+    },
+    {
+     "tag": "h1",
+     "role": "heading",
+     "name": "هدهد: أطلس العجائب",
+     "ariaLabel": null,
+     "text": "هدهد: أطلس العجائب"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "شغّل الموسيقى",
+     "ariaLabel": null,
+     "text": "شغّل الموسيقى"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "المقطوعة التالية",
+     "ariaLabel": "المقطوعة التالية",
+     "text": ""
+    },
+    {
+     "tag": "input",
+     "role": "slider",
+     "name": "مستوى الصوت",
+     "ariaLabel": "مستوى الصوت",
+     "text": ""
+    },
+    {
+     "tag": "a",
+     "role": "link",
+     "name": "كيف صُنعت",
+     "ariaLabel": null,
+     "text": "كيف صُنعت"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "العودة إلى الأطلس",
+     "ariaLabel": null,
+     "text": "العودة إلى الأطلس"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "ملء الشاشة",
+     "ariaLabel": null,
+     "text": "ملء الشاشة"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "إيقاف مؤقت",
+     "ariaLabel": null,
+     "text": "إيقاف مؤقت"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "الإعدادات",
+     "ariaLabel": null,
+     "text": "الإعدادات"
+    },
+    {
+     "tag": "div",
+     "role": "application",
+     "name": "الورشة في صورة. والقائمة التي بعدها تقول الشيء نفسه بالكلمات.",
+     "ariaLabel": "الورشة في صورة. والقائمة التي بعدها تقول الشيء نفسه بالكلمات.",
+     "text": "◀▶المس▲"
+    },
+    {
+     "tag": "div",
+     "role": "group",
+     "name": "هدهدهناك! صفحة من الأطلس طارت إلى هنا. وقد شحب حبرها.هناك! صفحة من الأطلس طارت إلى هنا. وقد شحب حبرها.التاليما قيلتخطَّ ",
+     "ariaLabel": null,
+     "text": "هدهدهناك! صفحة من الأطلس طارت إلى هنا. وقد شحب حبرها.هناك! صفحة من الأطلس طارت إلى هنا. وقد شحب حبره"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "التالي",
+     "ariaLabel": null,
+     "text": "التالي"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "ما قيل",
+     "ariaLabel": null,
+     "text": "ما قيل"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "تخطَّ الحديث",
+     "ariaLabel": null,
+     "text": "تخطَّ الحديث"
+    },
+    {
+     "tag": "h2",
+     "role": "heading",
+     "name": "المشهد بالكلمات",
+     "ariaLabel": null,
+     "text": "المشهد بالكلمات"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "أدِر المرآة 1، عند المصراع: مائلة إلى الأعلى نحو اليمين",
+     "ariaLabel": null,
+     "text": "أدِر المرآة 1، عند المصراع: مائلة إلى الأعلى نحو اليمين"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "أدِر المرآة 2، قرب الأرض: مائلة إلى الأسفل نحو اليمين",
+     "ariaLabel": null,
+     "text": "أدِر المرآة 2، قرب الأرض: مائلة إلى الأسفل نحو اليمين"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "أدِر المرآة 3، في الوسط: مبسوطة، بعيدًا عن طريق الشعاع",
+     "ariaLabel": null,
+     "text": "أدِر المرآة 3، في الوسط: مبسوطة، بعيدًا عن طريق الشعاع"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "أدِر المرآة 4، على الرف العالي: مائلة إلى الأعلى نحو اليمين",
+     "ariaLabel": null,
+     "text": "أدِر المرآة 4، على الرف العالي: مائلة إلى الأعلى نحو اليمين"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "أدِر المرآة 5، فوق الصفحة: مائلة إلى الأعلى نحو اليمين",
+     "ariaLabel": null,
+     "text": "أدِر المرآة 5، فوق الصفحة: مائلة إلى الأعلى نحو اليمين"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "أدِر المرآة 6، تحت الكتب: مبسوطة، بعيدًا عن طريق الشعاع",
+     "ariaLabel": null,
+     "text": "أدِر المرآة 6، تحت الكتب: مبسوطة، بعيدًا عن طريق الشعاع"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "اذهب إلى ابن الهيثم",
+     "ariaLabel": null,
+     "text": "اذهب إلى ابن الهيثم"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "اذهب إلى قطة الورشة",
+     "ariaLabel": null,
+     "text": "اذهب إلى قطة الورشة"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "اذهب إلى صفحة الأطلس",
+     "ariaLabel": null,
+     "text": "اذهب إلى صفحة الأطلس"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "اذهب إلى حبل الستارة",
+     "ariaLabel": null,
+     "text": "اذهب إلى حبل الستارة"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "اذهب إلى ريشة في الحديقة",
+     "ariaLabel": null,
+     "text": "اذهب إلى ريشة في الحديقة"
+    },
+    {
+     "tag": "h2",
+     "role": "heading",
+     "name": "ملاحظة من المتحف",
+     "ariaLabel": null,
+     "text": "ملاحظة من المتحف"
+    },
+    {
+     "tag": "h2",
+     "role": "heading",
+     "name": "التحكم",
+     "ariaLabel": null,
+     "text": "التحكم"
+    },
+    {
+     "tag": "a",
+     "role": "link",
+     "name": "islam.museum",
+     "ariaLabel": null,
+     "text": "islam.museum"
+    },
+    {
+     "tag": "div",
+     "role": "status",
+     "name": "هدهد: هناك! صفحة من الأطلس طارت إلى هنا. وقد شحب حبرها.",
+     "ariaLabel": null,
+     "text": "هدهد: هناك! صفحة من الأطلس طارت إلى هنا. وقد شحب حبرها."
+    }
+   ],
+   "counts": {
+    "tabbables": 14,
+    "buttons": 28,
+    "links": 3,
+    "sheets": 0
+   }
+  },
+  {
+   "state": "settings-sheet",
+   "lang": "ar",
+   "capture": "hudhud-a11y-ar-settings-sheet.png",
+   "title": "هدهد: أطلس العجائب",
+   "dir": "rtl",
+   "focusOrder": [
+    {
+     "order": 1,
+     "tag": "a",
+     "role": "link",
+     "name": "انتقل إلى اللعبة",
+     "x": 11354,
+     "y": 0,
+     "w": 85,
+     "h": 27,
+     "tabIndex": 0
+    },
+    {
+     "order": 2,
+     "tag": "button",
+     "role": "button",
+     "name": "شغّل الموسيقى",
+     "x": 611,
+     "y": 79,
+     "w": 238,
+     "h": 44,
+     "tabIndex": 0
+    },
+    {
+     "order": 3,
+     "tag": "button",
+     "role": "button",
+     "name": "المقطوعة التالية",
+     "x": 559,
+     "y": 79,
+     "w": 44,
+     "h": 44,
+     "tabIndex": 0
+    },
+    {
+     "order": 4,
+     "tag": "input",
+     "role": "slider",
+     "name": "مستوى الصوت",
+     "x": 557,
+     "y": 162,
+     "w": 290,
+     "h": 16,
+     "tabIndex": 0
+    },
+    {
+     "order": 5,
+     "tag": "a",
+     "role": "link",
+     "name": "كيف صُنعت",
+     "x": 683,
+     "y": 262,
+     "w": 53,
+     "h": 15,
+     "tabIndex": 0
+    },
+    {
+     "order": 6,
+     "tag": "button",
+     "role": "button",
+     "name": "العودة إلى الأطلس",
+     "x": 396,
+     "y": 14,
+     "w": 138,
+     "h": 47,
+     "tabIndex": 0
+    },
+    {
+     "order": 7,
+     "tag": "button",
+     "role": "button",
+     "name": "ملء الشاشة",
+     "x": 283,
+     "y": 14,
+     "w": 102,
+     "h": 47,
+     "tabIndex": 0
+    },
+    {
+     "order": 8,
+     "tag": "button",
+     "role": "button",
+     "name": "إيقاف مؤقت",
+     "x": 171,
+     "y": 14,
+     "w": 102,
+     "h": 47,
+     "tabIndex": 0
+    },
+    {
+     "order": 9,
+     "tag": "button",
+     "role": "button",
+     "name": "الإعدادات",
+     "x": 72,
+     "y": 14,
+     "w": 89,
+     "h": 47,
+     "tabIndex": 0
+    },
+    {
+     "order": 10,
+     "tag": "div",
+     "role": "application",
+     "name": "الورشة في صورة. والقائمة التي بعدها تقول الشيء نفسه بالكلمات.",
+     "x": 133,
+     "y": 71,
+     "w": 1173,
+     "h": 660,
+     "tabIndex": 0
+    },
+    {
+     "order": 11,
+     "tag": "button",
+     "role": "button",
+     "name": "يسار",
+     "x": 147,
+     "y": 653,
+     "w": 64,
+     "h": 64,
+     "tabIndex": 0
+    },
+    {
+     "order": 12,
+     "tag": "button",
+     "role": "button",
+     "name": "يمين",
+     "x": 221,
+     "y": 653,
+     "w": 64,
+     "h": 64,
+     "tabIndex": 0
+    },
+    {
+     "order": 13,
+     "tag": "button",
+     "role": "button",
+     "name": "المس",
+     "x": 1146,
+     "y": 653,
+     "w": 73,
+     "h": 64,
+     "tabIndex": 0
+    },
+    {
+     "order": 14,
+     "tag": "button",
+     "role": "button",
+     "name": "حلّق",
+     "x": 1229,
+     "y": 653,
+     "w": 64,
+     "h": 64,
+     "tabIndex": 0
+    },
+    {
+     "order": 15,
+     "tag": "a",
+     "role": "link",
+     "name": "islam.museum",
+     "x": 593,
+     "y": 1150,
+     "w": 101,
+     "h": 19,
+     "tabIndex": 0
+    },
+    {
+     "order": 16,
+     "tag": "select",
+     "role": "combobox",
+     "name": "explorer",
+     "x": 386,
+     "y": 97,
+     "w": 439,
+     "h": 44,
+     "tabIndex": 0
+    },
+    {
+     "order": 17,
+     "tag": "select",
+     "role": "combobox",
+     "name": "medium",
+     "x": 386,
+     "y": 229,
+     "w": 439,
+     "h": 44,
+     "tabIndex": 0
+    },
+    {
+     "order": 18,
+     "tag": "input",
+     "role": "checkbox",
+     "name": "on",
+     "x": 796,
+     "y": 284,
+     "w": 26,
+     "h": 26,
+     "tabIndex": 0
+    },
+    {
+     "order": 19,
+     "tag": "input",
+     "role": "checkbox",
+     "name": "on",
+     "x": 796,
+     "y": 324,
+     "w": 26,
+     "h": 26,
+     "tabIndex": 0
+    },
+    {
+     "order": 20,
+     "tag": "input",
+     "role": "slider",
+     "name": "1",
+     "x": 384,
+     "y": 363,
+     "w": 439,
+     "h": 44,
+     "tabIndex": 0
+    },
+    {
+     "order": 21,
+     "tag": "select",
+     "role": "combobox",
+     "name": "40",
+     "x": 386,
+     "y": 417,
+     "w": 439,
+     "h": 44,
+     "tabIndex": 0
+    },
+    {
+     "order": 22,
+     "tag": "select",
+     "role": "combobox",
+     "name": "1",
+     "x": 386,
+     "y": 514,
+     "w": 439,
+     "h": 44,
+     "tabIndex": 0
+    },
+    {
+     "order": 23,
+     "tag": "select",
+     "role": "combobox",
+     "name": "1",
+     "x": 386,
+     "y": 566,
+     "w": 439,
+     "h": 44,
+     "tabIndex": 0
+    },
+    {
+     "order": 24,
+     "tag": "select",
+     "role": "combobox",
+     "name": "0",
+     "x": 386,
+     "y": 618,
+     "w": 439,
+     "h": 44,
+     "tabIndex": 0
+    },
+    {
+     "order": 25,
+     "tag": "select",
+     "role": "combobox",
+     "name": "3",
+     "x": 386,
+     "y": 670,
+     "w": 439,
+     "h": 44,
+     "tabIndex": 0
+    },
+    {
+     "order": 26,
+     "tag": "input",
+     "role": "slider",
+     "name": "0.6",
+     "x": 384,
+     "y": 769,
+     "w": 439,
+     "h": 44,
+     "tabIndex": 0
+    },
+    {
+     "order": 27,
+     "tag": "input",
+     "role": "slider",
+     "name": "0.8",
+     "x": 384,
+     "y": 825,
+     "w": 439,
+     "h": 44,
+     "tabIndex": 0
+    },
+    {
+     "order": 28,
+     "tag": "input",
+     "role": "slider",
+     "name": "0.8",
+     "x": 384,
+     "y": 881,
+     "w": 439,
+     "h": 44,
+     "tabIndex": 0
+    },
+    {
+     "order": 29,
+     "tag": "input",
+     "role": "checkbox",
+     "name": "on",
+     "x": 796,
+     "y": 938,
+     "w": 26,
+     "h": 26,
+     "tabIndex": 0
+    },
+    {
+     "order": 30,
+     "tag": "input",
+     "role": "checkbox",
+     "name": "on",
+     "x": 796,
+     "y": 978,
+     "w": 26,
+     "h": 26,
+     "tabIndex": 0
+    },
+    {
+     "order": 31,
+     "tag": "button",
+     "role": "button",
+     "name": "يسار: ←, A. تغيير",
+     "x": 907,
+     "y": 1068,
+     "w": 147,
+     "h": 47,
+     "tabIndex": 0
+    },
+    {
+     "order": 32,
+     "tag": "button",
+     "role": "button",
+     "name": "يمين: →, D. تغيير",
+     "x": 910,
+     "y": 1132,
+     "w": 144,
+     "h": 47,
+     "tabIndex": 0
+    },
+    {
+     "order": 33,
+     "tag": "button",
+     "role": "button",
+     "name": "حلّق: Space, ↑, W. تغيير",
+     "x": 861,
+     "y": 1195,
+     "w": 193,
+     "h": 47,
+     "tabIndex": 0
+    },
+    {
+     "order": 34,
+     "tag": "button",
+     "role": "button",
+     "name": "النزول من المجثم: ↓, S. تغيير",
+     "x": 850,
+     "y": 1258,
+     "w": 204,
+     "h": 47,
+     "tabIndex": 0
+    },
+    {
+     "order": 35,
+     "tag": "button",
+     "role": "button",
+     "name": "المس: E, Enter. تغيير",
+     "x": 889,
+     "y": 1321,
+     "w": 165,
+     "h": 47,
+     "tabIndex": 0
+    },
+    {
+     "order": 36,
+     "tag": "button",
+     "role": "button",
+     "name": "أعد المفاتيح كما كانت",
+     "x": 900,
+     "y": 1384,
+     "w": 154,
+     "h": 47,
+     "tabIndex": 0
+    },
+    {
+     "order": 37,
+     "tag": "button",
+     "role": "button",
+     "name": "احفظ الآن",
+     "x": 962,
+     "y": 1606,
+     "w": 92,
+     "h": 47,
+     "tabIndex": 0
+    },
+    {
+     "order": 38,
+     "tag": "button",
+     "role": "button",
+     "name": "تصدير الحفظ",
+     "x": 842,
+     "y": 1606,
+     "w": 112,
+     "h": 47,
+     "tabIndex": 0
+    },
+    {
+     "order": 39,
+     "tag": "button",
+     "role": "button",
+     "name": "استيراد حفظ",
+     "x": 725,
+     "y": 1606,
+     "w": 108,
+     "h": 47,
+     "tabIndex": 0
+    },
+    {
+     "order": 40,
+     "tag": "button",
+     "role": "button",
+     "name": "الطيران، والمتابعة في الحديث: الزر ١. تغيير",
+     "x": 776,
+     "y": 1714,
+     "w": 278,
+     "h": 47,
+     "tabIndex": 0
+    },
+    {
+     "order": 41,
+     "tag": "button",
+     "role": "button",
+     "name": "رجوع: الزر ٢. تغيير",
+     "x": 906,
+     "y": 1777,
+     "w": 148,
+     "h": 47,
+     "tabIndex": 0
+    },
+    {
+     "order": 42,
+     "tag": "button",
+     "role": "button",
+     "name": "المس: الزر ٣. تغيير",
+     "x": 910,
+     "y": 1840,
+     "w": 144,
+     "h": 47,
+     "tabIndex": 0
+    },
+    {
+     "order": 43,
+     "tag": "button",
+     "role": "button",
+     "name": "إيقاف مؤقت: الزر ١٠. تغيير",
+     "x": 861,
+     "y": 1904,
+     "w": 193,
+     "h": 47,
+     "tabIndex": 0
+    },
+    {
+     "order": 44,
+     "tag": "button",
+     "role": "button",
+     "name": "أعد المفاتيح كما كانت",
+     "x": 900,
+     "y": 1967,
+     "w": 154,
+     "h": 47,
+     "tabIndex": 0
+    },
+    {
+     "order": 45,
+     "tag": "select",
+     "role": "combobox",
+     "name": "0",
+     "x": 386,
+     "y": 2131,
+     "w": 439,
+     "h": 44,
+     "tabIndex": 0
+    },
+    {
+     "order": 46,
+     "tag": "button",
+     "role": "button",
+     "name": "إغلاق",
+     "x": 982,
+     "y": 2223,
+     "w": 72,
+     "h": 47,
+     "tabIndex": 0
+    }
+   ],
+   "smallTargets": [
+    {
+     "role": "link",
+     "name": "انتقل إلى اللعبة",
+     "w": 85,
+     "h": 27
+    },
+    {
+     "role": "slider",
+     "name": "مستوى الصوت",
+     "w": 290,
+     "h": 16
+    },
+    {
+     "role": "link",
+     "name": "كيف صُنعت",
+     "w": 53,
+     "h": 15
+    },
+    {
+     "role": "link",
+     "name": "islam.museum",
+     "w": 101,
+     "h": 19
+    },
+    {
+     "role": "checkbox",
+     "name": "on",
+     "w": 26,
+     "h": 26
+    },
+    {
+     "role": "checkbox",
+     "name": "on",
+     "w": 26,
+     "h": 26
+    },
+    {
+     "role": "checkbox",
+     "name": "on",
+     "w": 26,
+     "h": 26
+    },
+    {
+     "role": "checkbox",
+     "name": "on",
+     "w": 26,
+     "h": 26
+    }
+   ],
+   "lowContrast": [],
+   "contrastSummary": {
+    "measured": 88,
+    "minRatio": 5.39,
+    "maxRatio": 15.38,
+    "belowNormalText4_5": 0,
+    "method": "computed foreground colour composited over ancestor CSS backgrounds; canvas, images and gradients behind text are not measured"
+   },
+   "semantic": [
+    {
+     "tag": "a",
+     "role": "link",
+     "name": "انتقل إلى اللعبة",
+     "ariaLabel": null,
+     "text": "انتقل إلى اللعبة"
+    },
+    {
+     "tag": "h1",
+     "role": "heading",
+     "name": "هدهد: أطلس العجائب",
+     "ariaLabel": null,
+     "text": "هدهد: أطلس العجائب"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "شغّل الموسيقى",
+     "ariaLabel": null,
+     "text": "شغّل الموسيقى"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "المقطوعة التالية",
+     "ariaLabel": "المقطوعة التالية",
+     "text": ""
+    },
+    {
+     "tag": "input",
+     "role": "slider",
+     "name": "مستوى الصوت",
+     "ariaLabel": "مستوى الصوت",
+     "text": ""
+    },
+    {
+     "tag": "a",
+     "role": "link",
+     "name": "كيف صُنعت",
+     "ariaLabel": null,
+     "text": "كيف صُنعت"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "العودة إلى الأطلس",
+     "ariaLabel": null,
+     "text": "العودة إلى الأطلس"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "ملء الشاشة",
+     "ariaLabel": null,
+     "text": "ملء الشاشة"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "إيقاف مؤقت",
+     "ariaLabel": null,
+     "text": "إيقاف مؤقت"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "الإعدادات",
+     "ariaLabel": null,
+     "text": "الإعدادات"
+    },
+    {
+     "tag": "div",
+     "role": "application",
+     "name": "الورشة في صورة. والقائمة التي بعدها تقول الشيء نفسه بالكلمات.",
+     "ariaLabel": "الورشة في صورة. والقائمة التي بعدها تقول الشيء نفسه بالكلمات.",
+     "text": "◀▶المس▲"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "يسار",
+     "ariaLabel": "يسار",
+     "text": "◀"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "يمين",
+     "ariaLabel": "يمين",
+     "text": "▶"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "المس",
+     "ariaLabel": null,
+     "text": "المس"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "حلّق",
+     "ariaLabel": "حلّق",
+     "text": "▲"
+    },
+    {
+     "tag": "h2",
+     "role": "heading",
+     "name": "المشهد بالكلمات",
+     "ariaLabel": null,
+     "text": "المشهد بالكلمات"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "أدِر المرآة 1، عند المصراع: مائلة إلى الأعلى نحو اليمين",
+     "ariaLabel": null,
+     "text": "أدِر المرآة 1، عند المصراع: مائلة إلى الأعلى نحو اليمين"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "أدِر المرآة 2، قرب الأرض: مائلة إلى الأسفل نحو اليمين",
+     "ariaLabel": null,
+     "text": "أدِر المرآة 2، قرب الأرض: مائلة إلى الأسفل نحو اليمين"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "أدِر المرآة 3، في الوسط: مبسوطة، بعيدًا عن طريق الشعاع",
+     "ariaLabel": null,
+     "text": "أدِر المرآة 3، في الوسط: مبسوطة، بعيدًا عن طريق الشعاع"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "أدِر المرآة 4، على الرف العالي: مائلة إلى الأعلى نحو اليمين",
+     "ariaLabel": null,
+     "text": "أدِر المرآة 4، على الرف العالي: مائلة إلى الأعلى نحو اليمين"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "أدِر المرآة 5، فوق الصفحة: مائلة إلى الأعلى نحو اليمين",
+     "ariaLabel": null,
+     "text": "أدِر المرآة 5، فوق الصفحة: مائلة إلى الأعلى نحو اليمين"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "أدِر المرآة 6، تحت الكتب: مبسوطة، بعيدًا عن طريق الشعاع",
+     "ariaLabel": null,
+     "text": "أدِر المرآة 6، تحت الكتب: مبسوطة، بعيدًا عن طريق الشعاع"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "اذهب إلى ابن الهيثم",
+     "ariaLabel": null,
+     "text": "اذهب إلى ابن الهيثم"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "اذهب إلى قطة الورشة",
+     "ariaLabel": null,
+     "text": "اذهب إلى قطة الورشة"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "اذهب إلى صفحة الأطلس",
+     "ariaLabel": null,
+     "text": "اذهب إلى صفحة الأطلس"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "اذهب إلى حبل الستارة",
+     "ariaLabel": null,
+     "text": "اذهب إلى حبل الستارة"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "اذهب إلى ريشة في الحديقة",
+     "ariaLabel": null,
+     "text": "اذهب إلى ريشة في الحديقة"
+    },
+    {
+     "tag": "h2",
+     "role": "heading",
+     "name": "ملاحظة من المتحف",
+     "ariaLabel": null,
+     "text": "ملاحظة من المتحف"
+    },
+    {
+     "tag": "h2",
+     "role": "heading",
+     "name": "التحكم",
+     "ariaLabel": null,
+     "text": "التحكم"
+    },
+    {
+     "tag": "a",
+     "role": "link",
+     "name": "islam.museum",
+     "ariaLabel": null,
+     "text": "islam.museum"
+    },
+    {
+     "tag": "div",
+     "role": "status",
+     "name": "هدهد: هناك! صفحة من الأطلس طارت إلى هنا. وقد شحب حبرها.",
+     "ariaLabel": null,
+     "text": "هدهد: هناك! صفحة من الأطلس طارت إلى هنا. وقد شحب حبرها."
+    },
+    {
+     "tag": "section",
+     "role": "dialog",
+     "name": "الإعدادات",
+     "ariaLabel": "الإعدادات",
+     "text": "الإعداداتطريقة اللعبالحكايةالمستكشفالتحديالحكاية: رفرفات أكثر، وانسياب أبطأ، وتتوهج المرايا التي تحت"
+    },
+    {
+     "tag": "h2",
+     "role": "heading",
+     "name": "الإعدادات",
+     "ariaLabel": null,
+     "text": "الإعدادات"
+    },
+    {
+     "tag": "select",
+     "role": "combobox",
+     "name": "explorer",
+     "ariaLabel": null,
+     "text": "الحكايةالمستكشفالتحدي"
+    },
+    {
+     "tag": "select",
+     "role": "combobox",
+     "name": "medium",
+     "ariaLabel": null,
+     "text": "منخفضةمتوسطةعالية"
+    },
+    {
+     "tag": "input",
+     "role": "checkbox",
+     "name": "on",
+     "ariaLabel": null,
+     "text": ""
+    },
+    {
+     "tag": "input",
+     "role": "checkbox",
+     "name": "on",
+     "ariaLabel": null,
+     "text": ""
+    },
+    {
+     "tag": "input",
+     "role": "slider",
+     "name": "1",
+     "ariaLabel": null,
+     "text": ""
+    },
+    {
+     "tag": "select",
+     "role": "combobox",
+     "name": "40",
+     "ariaLabel": null,
+     "text": "فورًابطيئةمتوسطةسريعة"
+    },
+    {
+     "tag": "h3",
+     "role": "heading",
+     "name": "حافظ الحكايات الخاص بك",
+     "ariaLabel": null,
+     "text": "حافظ الحكايات الخاص بك"
+    },
+    {
+     "tag": "select",
+     "role": "combobox",
+     "name": "1",
+     "ariaLabel": null,
+     "text": "مستكشفةمستكشف"
+    },
+    {
+     "tag": "select",
+     "role": "combobox",
+     "name": "1",
+     "ariaLabel": null,
+     "text": "الخيار ١الخيار ٢الخيار ٣الخيار ٤"
+    },
+    {
+     "tag": "select",
+     "role": "combobox",
+     "name": "0",
+     "ariaLabel": null,
+     "text": "الخيار ١الخيار ٢الخيار ٣"
+    },
+    {
+     "tag": "select",
+     "role": "combobox",
+     "name": "3",
+     "ariaLabel": null,
+     "text": "الخيار ١الخيار ٢الخيار ٣الخيار ٤"
+    },
+    {
+     "tag": "h3",
+     "role": "heading",
+     "name": "الصوت",
+     "ariaLabel": null,
+     "text": "الصوت"
+    },
+    {
+     "tag": "input",
+     "role": "slider",
+     "name": "0.6",
+     "ariaLabel": null,
+     "text": ""
+    },
+    {
+     "tag": "input",
+     "role": "slider",
+     "name": "0.8",
+     "ariaLabel": null,
+     "text": ""
+    },
+    {
+     "tag": "input",
+     "role": "slider",
+     "name": "0.8",
+     "ariaLabel": null,
+     "text": ""
+    },
+    {
+     "tag": "input",
+     "role": "checkbox",
+     "name": "on",
+     "ariaLabel": null,
+     "text": ""
+    },
+    {
+     "tag": "input",
+     "role": "checkbox",
+     "name": "on",
+     "ariaLabel": null,
+     "text": ""
+    },
+    {
+     "tag": "h3",
+     "role": "heading",
+     "name": "المفاتيح",
+     "ariaLabel": null,
+     "text": "المفاتيح"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "يسار: ←, A. تغيير",
+     "ariaLabel": null,
+     "text": "يسار: ←, A. تغيير"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "يمين: →, D. تغيير",
+     "ariaLabel": null,
+     "text": "يمين: →, D. تغيير"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "حلّق: Space, ↑, W. تغيير",
+     "ariaLabel": null,
+     "text": "حلّق: Space, ↑, W. تغيير"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "النزول من المجثم: ↓, S. تغيير",
+     "ariaLabel": null,
+     "text": "النزول من المجثم: ↓, S. تغيير"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "المس: E, Enter. تغيير",
+     "ariaLabel": null,
+     "text": "المس: E, Enter. تغيير"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "أعد المفاتيح كما كانت",
+     "ariaLabel": null,
+     "text": "أعد المفاتيح كما كانت"
+    },
+    {
+     "tag": "h3",
+     "role": "heading",
+     "name": "الحفظ",
+     "ariaLabel": null,
+     "text": "الحفظ"
+    },
+    {
+     "tag": "p",
+     "role": "status",
+     "name": "حُفظ",
+     "ariaLabel": null,
+     "text": "حُفظ"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "احفظ الآن",
+     "ariaLabel": null,
+     "text": "احفظ الآن"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "تصدير الحفظ",
+     "ariaLabel": null,
+     "text": "تصدير الحفظ"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "استيراد حفظ",
+     "ariaLabel": null,
+     "text": "استيراد حفظ"
+    },
+    {
+     "tag": "h3",
+     "role": "heading",
+     "name": "أزرار ذراع التحكم",
+     "ariaLabel": null,
+     "text": "أزرار ذراع التحكم"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "الطيران، والمتابعة في الحديث: الزر ١. تغيير",
+     "ariaLabel": null,
+     "text": "الطيران، والمتابعة في الحديث: الزر ١. تغيير"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "رجوع: الزر ٢. تغيير",
+     "ariaLabel": null,
+     "text": "رجوع: الزر ٢. تغيير"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "المس: الزر ٣. تغيير",
+     "ariaLabel": null,
+     "text": "المس: الزر ٣. تغيير"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "إيقاف مؤقت: الزر ١٠. تغيير",
+     "ariaLabel": null,
+     "text": "إيقاف مؤقت: الزر ١٠. تغيير"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "أعد المفاتيح كما كانت",
+     "ariaLabel": null,
+     "text": "أعد المفاتيح كما كانت"
+    },
+    {
+     "tag": "h3",
+     "role": "heading",
+     "name": "خانة الحفظ",
+     "ariaLabel": null,
+     "text": "خانة الحفظ"
+    },
+    {
+     "tag": "select",
+     "role": "combobox",
+     "name": "0",
+     "ariaLabel": null,
+     "text": "الخانة ١الخانة ٢الخانة ٣"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "إغلاق",
+     "ariaLabel": null,
+     "text": "إغلاق"
+    }
+   ],
+   "counts": {
+    "tabbables": 46,
+    "buttons": 43,
+    "links": 3,
+    "sheets": 1
+   },
+   "focusTrap": {
+    "sheetOpen": true,
+    "trapped": true,
+    "sequence": [
+     "in:select:الحكايةالمستكشفالتحدي",
+     "in:select:منخفضةمتوسطةعالية",
+     "in:input:",
+     "in:input:",
+     "in:input:",
+     "in:select:فورًابطيئةمتوسطةسريعة",
+     "in:select:مستكشفةمستكشف",
+     "in:select:الخيار ١الخيار ٢الخيار ٣الخيار ٤",
+     "in:select:الخيار ١الخيار ٢الخيار ٣",
+     "in:select:الخيار ١الخيار ٢الخيار ٣الخيار ٤",
+     "in:input:",
+     "in:input:",
+     "in:input:",
+     "in:input:"
+    ]
+   }
+  },
+  {
+   "state": "pause-sheet",
+   "lang": "ar",
+   "capture": "hudhud-a11y-ar-pause-sheet.png",
+   "title": "هدهد: أطلس العجائب",
+   "dir": "rtl",
+   "focusOrder": [
+    {
+     "order": 1,
+     "tag": "a",
+     "role": "link",
+     "name": "انتقل إلى اللعبة",
+     "x": 11354,
+     "y": 0,
+     "w": 85,
+     "h": 27,
+     "tabIndex": 0
+    },
+    {
+     "order": 2,
+     "tag": "button",
+     "role": "button",
+     "name": "شغّل الموسيقى",
+     "x": 567,
+     "y": 79,
+     "w": 238,
+     "h": 44,
+     "tabIndex": 0
+    },
+    {
+     "order": 3,
+     "tag": "button",
+     "role": "button",
+     "name": "المقطوعة التالية",
+     "x": 515,
+     "y": 79,
+     "w": 44,
+     "h": 44,
+     "tabIndex": 0
+    },
+    {
+     "order": 4,
+     "tag": "input",
+     "role": "slider",
+     "name": "مستوى الصوت",
+     "x": 513,
+     "y": 162,
+     "w": 290,
+     "h": 16,
+     "tabIndex": 0
+    },
+    {
+     "order": 5,
+     "tag": "a",
+     "role": "link",
+     "name": "كيف صُنعت",
+     "x": 639,
+     "y": 262,
+     "w": 53,
+     "h": 15,
+     "tabIndex": 0
+    },
+    {
+     "order": 6,
+     "tag": "button",
+     "role": "button",
+     "name": "العودة إلى الأطلس",
+     "x": 351,
+     "y": 14,
+     "w": 138,
+     "h": 47,
+     "tabIndex": 0
+    },
+    {
+     "order": 7,
+     "tag": "button",
+     "role": "button",
+     "name": "ملء الشاشة",
+     "x": 239,
+     "y": 14,
+     "w": 102,
+     "h": 47,
+     "tabIndex": 0
+    },
+    {
+     "order": 8,
+     "tag": "button",
+     "role": "button",
+     "name": "تابع",
+     "x": 171,
+     "y": 14,
+     "w": 58,
+     "h": 47,
+     "tabIndex": 0
+    },
+    {
+     "order": 9,
+     "tag": "button",
+     "role": "button",
+     "name": "الإعدادات",
+     "x": 72,
+     "y": 14,
+     "w": 89,
+     "h": 47,
+     "tabIndex": 0
+    },
+    {
+     "order": 10,
+     "tag": "div",
+     "role": "application",
+     "name": "الورشة في صورة. والقائمة التي بعدها تقول الشيء نفسه بالكلمات.",
+     "x": 133,
+     "y": 71,
+     "w": 1173,
+     "h": 660,
+     "tabIndex": 0
+    },
+    {
+     "order": 11,
+     "tag": "button",
+     "role": "button",
+     "name": "يسار",
+     "x": 147,
+     "y": 653,
+     "w": 64,
+     "h": 64,
+     "tabIndex": 0
+    },
+    {
+     "order": 12,
+     "tag": "button",
+     "role": "button",
+     "name": "يمين",
+     "x": 221,
+     "y": 653,
+     "w": 64,
+     "h": 64,
+     "tabIndex": 0
+    },
+    {
+     "order": 13,
+     "tag": "button",
+     "role": "button",
+     "name": "المس",
+     "x": 1146,
+     "y": 653,
+     "w": 73,
+     "h": 64,
+     "tabIndex": 0
+    },
+    {
+     "order": 14,
+     "tag": "button",
+     "role": "button",
+     "name": "حلّق",
+     "x": 1229,
+     "y": 653,
+     "w": 64,
+     "h": 64,
+     "tabIndex": 0
+    },
+    {
+     "order": 15,
+     "tag": "a",
+     "role": "link",
+     "name": "islam.museum",
+     "x": 593,
+     "y": 1150,
+     "w": 101,
+     "h": 19,
+     "tabIndex": 0
+    },
+    {
+     "order": 16,
+     "tag": "button",
+     "role": "button",
+     "name": "ابدأ المشهد من جديد",
+     "x": 903,
+     "y": 350,
+     "w": 151,
+     "h": 47,
+     "tabIndex": 0
+    },
+    {
+     "order": 17,
+     "tag": "button",
+     "role": "button",
+     "name": "احفظ الآن",
+     "x": 803,
+     "y": 350,
+     "w": 92,
+     "h": 47,
+     "tabIndex": 0
+    },
+    {
+     "order": 18,
+     "tag": "button",
+     "role": "button",
+     "name": "الإعدادات",
+     "x": 706,
+     "y": 350,
+     "w": 89,
+     "h": 47,
+     "tabIndex": 0
+    },
+    {
+     "order": 19,
+     "tag": "button",
+     "role": "button",
+     "name": "إغلاق",
+     "x": 982,
+     "y": 453,
+     "w": 72,
+     "h": 47,
+     "tabIndex": 0
+    }
+   ],
+   "smallTargets": [
+    {
+     "role": "link",
+     "name": "انتقل إلى اللعبة",
+     "w": 85,
+     "h": 27
+    },
+    {
+     "role": "slider",
+     "name": "مستوى الصوت",
+     "w": 290,
+     "h": 16
+    },
+    {
+     "role": "link",
+     "name": "كيف صُنعت",
+     "w": 53,
+     "h": 15
+    },
+    {
+     "role": "link",
+     "name": "islam.museum",
+     "w": 101,
+     "h": 19
+    }
+   ],
+   "lowContrast": [],
+   "contrastSummary": {
+    "measured": 51,
+    "minRatio": 8.69,
+    "maxRatio": 15.38,
+    "belowNormalText4_5": 0,
+    "method": "computed foreground colour composited over ancestor CSS backgrounds; canvas, images and gradients behind text are not measured"
+   },
+   "semantic": [
+    {
+     "tag": "a",
+     "role": "link",
+     "name": "انتقل إلى اللعبة",
+     "ariaLabel": null,
+     "text": "انتقل إلى اللعبة"
+    },
+    {
+     "tag": "h1",
+     "role": "heading",
+     "name": "هدهد: أطلس العجائب",
+     "ariaLabel": null,
+     "text": "هدهد: أطلس العجائب"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "شغّل الموسيقى",
+     "ariaLabel": null,
+     "text": "شغّل الموسيقى"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "المقطوعة التالية",
+     "ariaLabel": "المقطوعة التالية",
+     "text": ""
+    },
+    {
+     "tag": "input",
+     "role": "slider",
+     "name": "مستوى الصوت",
+     "ariaLabel": "مستوى الصوت",
+     "text": ""
+    },
+    {
+     "tag": "a",
+     "role": "link",
+     "name": "كيف صُنعت",
+     "ariaLabel": null,
+     "text": "كيف صُنعت"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "العودة إلى الأطلس",
+     "ariaLabel": null,
+     "text": "العودة إلى الأطلس"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "ملء الشاشة",
+     "ariaLabel": null,
+     "text": "ملء الشاشة"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "تابع",
+     "ariaLabel": null,
+     "text": "تابع"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "الإعدادات",
+     "ariaLabel": null,
+     "text": "الإعدادات"
+    },
+    {
+     "tag": "div",
+     "role": "application",
+     "name": "الورشة في صورة. والقائمة التي بعدها تقول الشيء نفسه بالكلمات.",
+     "ariaLabel": "الورشة في صورة. والقائمة التي بعدها تقول الشيء نفسه بالكلمات.",
+     "text": "◀▶المس▲"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "يسار",
+     "ariaLabel": "يسار",
+     "text": "◀"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "يمين",
+     "ariaLabel": "يمين",
+     "text": "▶"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "المس",
+     "ariaLabel": null,
+     "text": "المس"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "حلّق",
+     "ariaLabel": "حلّق",
+     "text": "▲"
+    },
+    {
+     "tag": "h2",
+     "role": "heading",
+     "name": "المشهد بالكلمات",
+     "ariaLabel": null,
+     "text": "المشهد بالكلمات"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "أدِر المرآة 1، عند المصراع: مائلة إلى الأعلى نحو اليمين",
+     "ariaLabel": null,
+     "text": "أدِر المرآة 1، عند المصراع: مائلة إلى الأعلى نحو اليمين"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "أدِر المرآة 2، قرب الأرض: مائلة إلى الأسفل نحو اليمين",
+     "ariaLabel": null,
+     "text": "أدِر المرآة 2، قرب الأرض: مائلة إلى الأسفل نحو اليمين"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "أدِر المرآة 3، في الوسط: مبسوطة، بعيدًا عن طريق الشعاع",
+     "ariaLabel": null,
+     "text": "أدِر المرآة 3، في الوسط: مبسوطة، بعيدًا عن طريق الشعاع"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "أدِر المرآة 4، على الرف العالي: مائلة إلى الأعلى نحو اليمين",
+     "ariaLabel": null,
+     "text": "أدِر المرآة 4، على الرف العالي: مائلة إلى الأعلى نحو اليمين"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "أدِر المرآة 5، فوق الصفحة: مائلة إلى الأعلى نحو اليمين",
+     "ariaLabel": null,
+     "text": "أدِر المرآة 5، فوق الصفحة: مائلة إلى الأعلى نحو اليمين"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "أدِر المرآة 6، تحت الكتب: مبسوطة، بعيدًا عن طريق الشعاع",
+     "ariaLabel": null,
+     "text": "أدِر المرآة 6، تحت الكتب: مبسوطة، بعيدًا عن طريق الشعاع"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "اذهب إلى ابن الهيثم",
+     "ariaLabel": null,
+     "text": "اذهب إلى ابن الهيثم"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "اذهب إلى قطة الورشة",
+     "ariaLabel": null,
+     "text": "اذهب إلى قطة الورشة"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "اذهب إلى صفحة الأطلس",
+     "ariaLabel": null,
+     "text": "اذهب إلى صفحة الأطلس"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "اذهب إلى حبل الستارة",
+     "ariaLabel": null,
+     "text": "اذهب إلى حبل الستارة"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "اذهب إلى ريشة في الحديقة",
+     "ariaLabel": null,
+     "text": "اذهب إلى ريشة في الحديقة"
+    },
+    {
+     "tag": "h2",
+     "role": "heading",
+     "name": "ملاحظة من المتحف",
+     "ariaLabel": null,
+     "text": "ملاحظة من المتحف"
+    },
+    {
+     "tag": "h2",
+     "role": "heading",
+     "name": "التحكم",
+     "ariaLabel": null,
+     "text": "التحكم"
+    },
+    {
+     "tag": "a",
+     "role": "link",
+     "name": "islam.museum",
+     "ariaLabel": null,
+     "text": "islam.museum"
+    },
+    {
+     "tag": "div",
+     "role": "status",
+     "name": "هدهد: هناك! صفحة من الأطلس طارت إلى هنا. وقد شحب حبرها.",
+     "ariaLabel": null,
+     "text": "هدهد: هناك! صفحة من الأطلس طارت إلى هنا. وقد شحب حبرها."
+    },
+    {
+     "tag": "section",
+     "role": "dialog",
+     "name": "متوقفة مؤقتًا",
+     "ariaLabel": "متوقفة مؤقتًا",
+     "text": "متوقفة مؤقتًاابدأ المشهد من جديداحفظ الآنالإعداداتحُفظإغلاق"
+    },
+    {
+     "tag": "h2",
+     "role": "heading",
+     "name": "متوقفة مؤقتًا",
+     "ariaLabel": null,
+     "text": "متوقفة مؤقتًا"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "ابدأ المشهد من جديد",
+     "ariaLabel": null,
+     "text": "ابدأ المشهد من جديد"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "احفظ الآن",
+     "ariaLabel": null,
+     "text": "احفظ الآن"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "الإعدادات",
+     "ariaLabel": null,
+     "text": "الإعدادات"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "إغلاق",
+     "ariaLabel": null,
+     "text": "إغلاق"
+    }
+   ],
+   "counts": {
+    "tabbables": 19,
+    "buttons": 32,
+    "links": 3,
+    "sheets": 1
+   },
+   "focusTrap": {
+    "sheetOpen": true,
+    "trapped": true,
+    "sequence": [
+     "in:button:ابدأ المشهد من جديد",
+     "in:button:احفظ الآن",
+     "in:button:الإعدادات",
+     "in:button:إغلاق",
+     "in:button:ابدأ المشهد من جديد",
+     "in:button:احفظ الآن",
+     "in:button:الإعدادات",
+     "in:button:إغلاق",
+     "in:button:ابدأ المشهد من جديد",
+     "in:button:احفظ الآن",
+     "in:button:الإعدادات",
+     "in:button:إغلاق",
+     "in:button:ابدأ المشهد من جديد",
+     "in:button:احفظ الآن"
+    ]
+   }
+  },
+  {
+   "state": "results-sheet",
+   "lang": "ar",
+   "capture": "hudhud-a11y-ar-results-sheet.png",
+   "title": "هدهد: أطلس العجائب",
+   "dir": "rtl",
+   "focusOrder": [
+    {
+     "order": 1,
+     "tag": "a",
+     "role": "link",
+     "name": "انتقل إلى اللعبة",
+     "x": 11354,
+     "y": -455,
+     "w": 85,
+     "h": 27,
+     "tabIndex": 0
+    },
+    {
+     "order": 2,
+     "tag": "button",
+     "role": "button",
+     "name": "شغّل الموسيقى",
+     "x": 611,
+     "y": -376,
+     "w": 238,
+     "h": 44,
+     "tabIndex": 0
+    },
+    {
+     "order": 3,
+     "tag": "button",
+     "role": "button",
+     "name": "المقطوعة التالية",
+     "x": 559,
+     "y": -376,
+     "w": 44,
+     "h": 44,
+     "tabIndex": 0
+    },
+    {
+     "order": 4,
+     "tag": "input",
+     "role": "slider",
+     "name": "مستوى الصوت",
+     "x": 557,
+     "y": -293,
+     "w": 290,
+     "h": 16,
+     "tabIndex": 0
+    },
+    {
+     "order": 5,
+     "tag": "a",
+     "role": "link",
+     "name": "كيف صُنعت",
+     "x": 683,
+     "y": -193,
+     "w": 53,
+     "h": 15,
+     "tabIndex": 0
+    },
+    {
+     "order": 6,
+     "tag": "button",
+     "role": "button",
+     "name": "العودة إلى الأطلس",
+     "x": 396,
+     "y": -441,
+     "w": 138,
+     "h": 47,
+     "tabIndex": 0
+    },
+    {
+     "order": 7,
+     "tag": "button",
+     "role": "button",
+     "name": "ملء الشاشة",
+     "x": 283,
+     "y": -441,
+     "w": 102,
+     "h": 47,
+     "tabIndex": 0
+    },
+    {
+     "order": 8,
+     "tag": "button",
+     "role": "button",
+     "name": "إيقاف مؤقت",
+     "x": 171,
+     "y": -441,
+     "w": 102,
+     "h": 47,
+     "tabIndex": 0
+    },
+    {
+     "order": 9,
+     "tag": "button",
+     "role": "button",
+     "name": "الإعدادات",
+     "x": 72,
+     "y": -441,
+     "w": 89,
+     "h": 47,
+     "tabIndex": 0
+    },
+    {
+     "order": 10,
+     "tag": "div",
+     "role": "application",
+     "name": "الورشة في صورة. والقائمة التي بعدها تقول الشيء نفسه بالكلمات.",
+     "x": 133,
+     "y": -384,
+     "w": 1173,
+     "h": 660,
+     "tabIndex": 0
+    },
+    {
+     "order": 11,
+     "tag": "button",
+     "role": "button",
+     "name": "يسار",
+     "x": 147,
+     "y": 198,
+     "w": 64,
+     "h": 64,
+     "tabIndex": 0
+    },
+    {
+     "order": 12,
+     "tag": "button",
+     "role": "button",
+     "name": "يمين",
+     "x": 221,
+     "y": 198,
+     "w": 64,
+     "h": 64,
+     "tabIndex": 0
+    },
+    {
+     "order": 13,
+     "tag": "button",
+     "role": "button",
+     "name": "المس",
+     "x": 1146,
+     "y": 198,
+     "w": 73,
+     "h": 64,
+     "tabIndex": 0
+    },
+    {
+     "order": 14,
+     "tag": "button",
+     "role": "button",
+     "name": "حلّق",
+     "x": 1229,
+     "y": 198,
+     "w": 64,
+     "h": 64,
+     "tabIndex": 0
+    },
+    {
+     "order": 15,
+     "tag": "a",
+     "role": "link",
+     "name": "islam.museum",
+     "x": 593,
+     "y": 695,
+     "w": 101,
+     "h": 19,
+     "tabIndex": 0
+    },
+    {
+     "order": 16,
+     "tag": "a",
+     "role": "link",
+     "name": "في المتحف: ابن الهيثم",
+     "x": 910,
+     "y": 818,
+     "w": 124,
+     "h": 19,
+     "tabIndex": 0
+    },
+    {
+     "order": 17,
+     "tag": "a",
+     "role": "link",
+     "name": "في المتحف: الغرفة المظلمة",
+     "x": 891,
+     "y": 851,
+     "w": 143,
+     "h": 19,
+     "tabIndex": 0
+    },
+    {
+     "order": 18,
+     "tag": "a",
+     "role": "link",
+     "name": "في المتحف: كتاب المناظر",
+     "x": 896,
+     "y": 884,
+     "w": 138,
+     "h": 19,
+     "tabIndex": 0
+    },
+    {
+     "order": 19,
+     "tag": "button",
+     "role": "button",
+     "name": "العودة إلى الأطلس",
+     "x": 916,
+     "y": 941,
+     "w": 138,
+     "h": 47,
+     "tabIndex": 0
+    },
+    {
+     "order": 20,
+     "tag": "button",
+     "role": "button",
+     "name": "العب مرة أخرى",
+     "x": 787,
+     "y": 941,
+     "w": 120,
+     "h": 47,
+     "tabIndex": 0
+    },
+    {
+     "order": 21,
+     "tag": "button",
+     "role": "button",
+     "name": "إغلاق",
+     "x": 982,
+     "y": 1004,
+     "w": 72,
+     "h": 47,
+     "tabIndex": 0
+    }
+   ],
+   "smallTargets": [
+    {
+     "role": "link",
+     "name": "انتقل إلى اللعبة",
+     "w": 85,
+     "h": 27
+    },
+    {
+     "role": "slider",
+     "name": "مستوى الصوت",
+     "w": 290,
+     "h": 16
+    },
+    {
+     "role": "link",
+     "name": "كيف صُنعت",
+     "w": 53,
+     "h": 15
+    },
+    {
+     "role": "link",
+     "name": "islam.museum",
+     "w": 101,
+     "h": 19
+    },
+    {
+     "role": "link",
+     "name": "في المتحف: ابن الهيثم",
+     "w": 124,
+     "h": 19
+    },
+    {
+     "role": "link",
+     "name": "في المتحف: الغرفة المظلمة",
+     "w": 143,
+     "h": 19
+    },
+    {
+     "role": "link",
+     "name": "في المتحف: كتاب المناظر",
+     "w": 138,
+     "h": 19
+    }
+   ],
+   "lowContrast": [],
+   "contrastSummary": {
+    "measured": 75,
+    "minRatio": 4.52,
+    "maxRatio": 15.38,
+    "belowNormalText4_5": 0,
+    "method": "computed foreground colour composited over ancestor CSS backgrounds; canvas, images and gradients behind text are not measured"
+   },
+   "semantic": [
+    {
+     "tag": "a",
+     "role": "link",
+     "name": "انتقل إلى اللعبة",
+     "ariaLabel": null,
+     "text": "انتقل إلى اللعبة"
+    },
+    {
+     "tag": "h1",
+     "role": "heading",
+     "name": "هدهد: أطلس العجائب",
+     "ariaLabel": null,
+     "text": "هدهد: أطلس العجائب"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "شغّل الموسيقى",
+     "ariaLabel": null,
+     "text": "شغّل الموسيقى"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "المقطوعة التالية",
+     "ariaLabel": "المقطوعة التالية",
+     "text": ""
+    },
+    {
+     "tag": "input",
+     "role": "slider",
+     "name": "مستوى الصوت",
+     "ariaLabel": "مستوى الصوت",
+     "text": ""
+    },
+    {
+     "tag": "a",
+     "role": "link",
+     "name": "كيف صُنعت",
+     "ariaLabel": null,
+     "text": "كيف صُنعت"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "العودة إلى الأطلس",
+     "ariaLabel": null,
+     "text": "العودة إلى الأطلس"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "ملء الشاشة",
+     "ariaLabel": null,
+     "text": "ملء الشاشة"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "إيقاف مؤقت",
+     "ariaLabel": null,
+     "text": "إيقاف مؤقت"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "الإعدادات",
+     "ariaLabel": null,
+     "text": "الإعدادات"
+    },
+    {
+     "tag": "div",
+     "role": "application",
+     "name": "الورشة في صورة. والقائمة التي بعدها تقول الشيء نفسه بالكلمات.",
+     "ariaLabel": "الورشة في صورة. والقائمة التي بعدها تقول الشيء نفسه بالكلمات.",
+     "text": "◀▶المس▲"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "يسار",
+     "ariaLabel": "يسار",
+     "text": "◀"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "يمين",
+     "ariaLabel": "يمين",
+     "text": "▶"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "المس",
+     "ariaLabel": null,
+     "text": "المس"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "حلّق",
+     "ariaLabel": "حلّق",
+     "text": "▲"
+    },
+    {
+     "tag": "h2",
+     "role": "heading",
+     "name": "المشهد بالكلمات",
+     "ariaLabel": null,
+     "text": "المشهد بالكلمات"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "أدِر المرآة 1، عند المصراع: مائلة إلى الأسفل نحو اليمين",
+     "ariaLabel": null,
+     "text": "أدِر المرآة 1، عند المصراع: مائلة إلى الأسفل نحو اليمين"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "أدِر المرآة 2، قرب الأرض: مائلة إلى الأسفل نحو اليمين",
+     "ariaLabel": null,
+     "text": "أدِر المرآة 2، قرب الأرض: مائلة إلى الأسفل نحو اليمين"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "أدِر المرآة 3، في الوسط: مائلة إلى الأعلى نحو اليمين",
+     "ariaLabel": null,
+     "text": "أدِر المرآة 3، في الوسط: مائلة إلى الأعلى نحو اليمين"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "أدِر المرآة 4، على الرف العالي: مائلة إلى الأعلى نحو اليمين",
+     "ariaLabel": null,
+     "text": "أدِر المرآة 4، على الرف العالي: مائلة إلى الأعلى نحو اليمين"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "أدِر المرآة 5، فوق الصفحة: مائلة إلى الأسفل نحو اليمين",
+     "ariaLabel": null,
+     "text": "أدِر المرآة 5، فوق الصفحة: مائلة إلى الأسفل نحو اليمين"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "أدِر المرآة 6، تحت الكتب: مبسوطة، بعيدًا عن طريق الشعاع",
+     "ariaLabel": null,
+     "text": "أدِر المرآة 6، تحت الكتب: مبسوطة، بعيدًا عن طريق الشعاع"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "اذهب إلى ابن الهيثم",
+     "ariaLabel": null,
+     "text": "اذهب إلى ابن الهيثم"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "اذهب إلى قطة الورشة",
+     "ariaLabel": null,
+     "text": "اذهب إلى قطة الورشة"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "أنهِ عند الصفحة",
+     "ariaLabel": null,
+     "text": "أنهِ عند الصفحة"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "اذهب إلى حبل الستارة",
+     "ariaLabel": null,
+     "text": "اذهب إلى حبل الستارة"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "اذهب إلى ريشة في الحديقة",
+     "ariaLabel": null,
+     "text": "اذهب إلى ريشة في الحديقة"
+    },
+    {
+     "tag": "h2",
+     "role": "heading",
+     "name": "ملاحظة من المتحف",
+     "ariaLabel": null,
+     "text": "ملاحظة من المتحف"
+    },
+    {
+     "tag": "h2",
+     "role": "heading",
+     "name": "التحكم",
+     "ariaLabel": null,
+     "text": "التحكم"
+    },
+    {
+     "tag": "a",
+     "role": "link",
+     "name": "islam.museum",
+     "ariaLabel": null,
+     "text": "islam.museum"
+    },
+    {
+     "tag": "div",
+     "role": "status",
+     "name": "هدهد: انظروا! الحبر يعود!",
+     "ariaLabel": null,
+     "text": "هدهد: انظروا! الحبر يعود!"
+    },
+    {
+     "tag": "section",
+     "role": "dialog",
+     "name": "الصفحة عادت إلى بيتها",
+     "ariaLabel": "الصفحة عادت إلى بيتها",
+     "text": "الصفحة عادت إلى بيتهاالمرايا التي أُديرت: ٣✦الفضولاطلب المزيد، أو اكتشف ما تخفيه الغرفة المظلمة.ليس "
+    },
+    {
+     "tag": "h2",
+     "role": "heading",
+     "name": "الصفحة عادت إلى بيتها",
+     "ariaLabel": null,
+     "text": "الصفحة عادت إلى بيتها"
+    },
+    {
+     "tag": "h3",
+     "role": "heading",
+     "name": "ملاحظة من المتحف",
+     "ariaLabel": null,
+     "text": "ملاحظة من المتحف"
+    },
+    {
+     "tag": "a",
+     "role": "link",
+     "name": "في المتحف: ابن الهيثم",
+     "ariaLabel": null,
+     "text": "في المتحف: ابن الهيثم"
+    },
+    {
+     "tag": "a",
+     "role": "link",
+     "name": "في المتحف: الغرفة المظلمة",
+     "ariaLabel": null,
+     "text": "في المتحف: الغرفة المظلمة"
+    },
+    {
+     "tag": "a",
+     "role": "link",
+     "name": "في المتحف: كتاب المناظر",
+     "ariaLabel": null,
+     "text": "في المتحف: كتاب المناظر"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "العودة إلى الأطلس",
+     "ariaLabel": null,
+     "text": "العودة إلى الأطلس"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "العب مرة أخرى",
+     "ariaLabel": null,
+     "text": "العب مرة أخرى"
+    },
+    {
+     "tag": "button",
+     "role": "button",
+     "name": "إغلاق",
+     "ariaLabel": null,
+     "text": "إغلاق"
+    }
+   ],
+   "counts": {
+    "tabbables": 21,
+    "buttons": 31,
+    "links": 6,
+    "sheets": 1
+   },
+   "focusTrap": {
+    "sheetOpen": true,
+    "trapped": true,
+    "sequence": [
+     "in:a:في المتحف: ابن الهيثم",
+     "in:a:في المتحف: الغرفة المظلمة",
+     "in:a:في المتحف: كتاب المناظر",
+     "in:button:العودة إلى الأطلس",
+     "in:button:العب مرة أخرى",
+     "in:button:إغلاق",
+     "in:a:في المتحف: ابن الهيثم",
+     "in:a:في المتحف: الغرفة المظلمة",
+     "in:a:في المتحف: كتاب المناظر",
+     "in:button:العودة إلى الأطلس",
+     "in:button:العب مرة أخرى",
+     "in:button:إغلاق",
+     "in:a:في المتحف: ابن الهيثم",
+     "in:a:في المتحف: الغرفة المظلمة"
+    ]
+   }
+  },
+  {
+   "state": "browser-errors",
+   "lang": "ar",
+   "errors": []
+  }
+ ]
+}
