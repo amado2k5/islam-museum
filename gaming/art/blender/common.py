@@ -194,7 +194,7 @@ PHOTO_DIR = os.path.normpath(os.path.join(os.path.dirname(os.path.abspath(__file
 PHOTO = {
     "plaster": ("white_stucco_02", 1.8, (1.17, 1.15, 1.09), False),       # lime wash: lifted toward white
     "plaster_warm": ("white_stucco_02", 1.8, (1.12, 0.99, 0.80), False),  # an ochre wash
-    "plaster_red": ("white_stucco_02", 1.8, (1.02, 0.76, 0.61), False),   # a red-earth render
+    "plaster_red": ("white_stucco_02", 1.8, (0.99, 0.70, 0.50), False),   # a red-earth render
     "rooftile": ("clay_roof_tiles_02", 2.5, (1.0, 1.0, 1.0), False),      # the tiles run down the texture
     "stone": ("rustic_stone_wall_02", 1.5, (1.05, 1.0, 0.93), False),
     "wood": ("weathered_brown_planks", 1.8, (0.92, 0.84, 0.76), True),    # photographed with the boards lying across

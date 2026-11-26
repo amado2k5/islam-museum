@@ -156,7 +156,7 @@ if (threeD !== "on") {
   if (!(info.triangles > 100_000)) await fail(`the 3D valley drew ${info.triangles} triangles`);
   const models = await game<{ models: string[]; modelFailures: string[] }>("(() => { const i = window.__GR__.stage().info(); return { models: i.models, modelFailures: i.modelFailures }; })()");
   log.models = haveModels ? models : "none on this machine: the valley drew its own shapes";
-  for (const wanted of ["granada/town", "granada/mill"]) if (haveModels && !models.models.includes(wanted)) await fail(`the authored model ${wanted} did not load: ${models.modelFailures.join("; ") || "no reason given"}`);
+  for (const wanted of ["granada/town", "granada/landmarks", "granada/mill"]) if (haveModels && !models.models.includes(wanted)) await fail(`the authored model ${wanted} did not load: ${models.modelFailures.join("; ") || "no reason given"}`);
   if (!haveModels && models.models.length) await fail("told not to fetch models, the valley fetched one");
   await shot("7-valley-3d");
   // A click on the mill field in the valley opens it, as a click on the plan does.

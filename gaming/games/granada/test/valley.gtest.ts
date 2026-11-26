@@ -10,7 +10,7 @@ import { FIELD_SHAPE } from "../src/ui/map";
 import { LIMITS, OVERVIEW, START, approach, clampPose, eyeOf, pan, turn, zoom } from "../src/view/camera";
 import { oxCart, waterWheel } from "../src/view/buildings";
 import { modelUrl, modelsAvailable } from "../src/view/models";
-import { BRIDGE, KIT_HOUSES, MILL, MOSQUE, ROAD_NORTH, roadHeight, roadLine } from "../src/view/valley";
+import { BRIDGE, ESTATE, HILL, KIT_HOUSES, MILL, MOSQUE, ROAD_NORTH, roadHeight, roadLine } from "../src/view/valley";
 import { BOUNDS, CHANNELS, CHANNEL_WATER, FIELDS, HOUSE_LOTS, LAND, PLOT_GRID, POOL, RIVER_HALF, broadTree, buildLand, buildRange, buildRiver, buildScenery, channelWater, cropSpots, cypressTree, fieldAt, fieldGround, heightAt, orchardTree, plotAt, plotPoint, plotTable, poolWater, poplarTree, riverZ, settled, waterLevel, worked } from "../src/view/valley";
 
 const SEED = 7;
@@ -435,5 +435,40 @@ describe("the town, when its houses are models made ahead of time", () => {
   it("leaves the rest of the valley as it was, tree for tree", () => {
     for (const kind of ["trees", "cypresses", "citrus", "almonds", "poplars", "scrub", "olives", "palms", "stalls"] as const) expect(authored[kind]).toEqual(scenery[kind]);
     expect(authored.footprints).toEqual(scenery.footprints);
+  });
+});
+
+describe("the hill, when its wall and palace are models too", () => {
+  const hill = buildScenery(SEED, { authoredTown: true, authoredHill: true });
+  const count = (piece: string) => hill.kit.filter((k) => k.piece === piece).length;
+
+  it("closes the crown with the kit's wall, a tower at every corner, one gate, and builders at work beside it", () => {
+    expect(count("tower")).toBe(14);
+    expect(count("gate")).toBe(1);
+    expect(count("wall")).toBeGreaterThan(60);
+    expect(count("scaffold")).toBe(3);
+    expect(count("crane")).toBe(1);
+    // Each stretch of wall is fitted to the gap it closes: never squeezed or pulled by more than a fifth.
+    for (const k of hill.kit.filter((x) => x.piece === "wall")) {
+      expect(k.sx).toBeGreaterThan(0.8);
+      expect(k.sx).toBeLessThan(1.2);
+    }
+  });
+
+  it("stands the palace on the hill's level top and the estate beside the olive terrace, clear of the field", () => {
+    const palace = hill.kit.find((k) => k.piece === "palace")!;
+    expect([palace.x, palace.z]).toEqual([HILL.x, HILL.z]);
+    // Level to within a hand under the whole of it.
+    for (const [dx, dz] of [[-38, -28], [38, -28], [-38, 28], [38, 28]] as const) expect(Math.abs(heightAt(HILL.x + dx, HILL.z + dz, SEED) - heightAt(HILL.x, HILL.z, SEED))).toBeLessThan(0.1);
+    const estate = hill.kit.find((k) => k.piece === "estate")!;
+    expect([estate.x, estate.z]).toEqual([ESTATE.x, ESTATE.z]);
+    expect(fieldAt(ESTATE.x, ESTATE.z)).toBeNull();
+    for (const kind of ["trees", "cypresses", "olives", "scrub"] as const) for (const t of hill[kind]) expect(Math.hypot(t[0]! - ESTATE.x, t[2]! - ESTATE.z), kind).toBeGreaterThan(18);
+  });
+
+  it("still changes nothing else, and makes no wall or hall of its own on the hill", () => {
+    const made = buildScenery(SEED, { authoredTown: true });
+    for (const kind of ["trees", "cypresses", "citrus", "almonds", "poplars", "scrub", "olives", "palms"] as const) expect(hill[kind]).toEqual(made[kind]);
+    expect(hill.triangles).toBeLessThan(made.triangles);
   });
 });
