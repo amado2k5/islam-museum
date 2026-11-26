@@ -235,7 +235,7 @@ body.photo .gr { block-size: 100vh; min-block-size: 0; overflow: hidden; }
 body.photo .main { position: relative; display: block; block-size: 100vh; min-block-size: 0; overflow: hidden; }
 body.photo .mapbox { position: absolute; inset: 0; padding: 0; display: block; }
 body.photo .scenebox, body.photo .scene { block-size: 100%; min-block-size: 0; border: 0; border-radius: 0; }
-body.photo .photobar { display: grid; gap: 8px; position: fixed; z-index: 6; inset-block-end: 14px; inset-inline-start: 14px; inline-size: min(560px, calc(100vw - 28px)); padding: 12px 14px; background: rgba(9, 30, 36, 0.92); border: 1px solid #8a7335; border-radius: 10px; color: var(--ink); }
+body.photo .photobar { max-block-size: calc(100vh - 28px); overflow: auto; display: grid; gap: 8px; position: fixed; z-index: 6; inset-block-end: 14px; inset-inline-start: 14px; inline-size: min(560px, calc(100vw - 28px)); padding: 12px 14px; background: rgba(9, 30, 36, 0.92); border: 1px solid #8a7335; border-radius: 10px; color: var(--ink); }
 body.photo.photo-bare .photobar { display: none; }
 .photo-controls { display: grid; grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); gap: 8px; }
 .photo-controls label { display: grid; gap: 3px; font-size: 0.82rem; color: var(--ink-soft); }

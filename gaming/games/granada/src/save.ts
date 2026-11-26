@@ -15,10 +15,43 @@ export interface Store {
   removeItem(key: string): void;
 }
 
-export function readSave(store: Store): SaveRead {
+/** Where a saved game this build cannot read is kept, untouched, so that a build that can read it may bring it back. */
+export const ASIDE_KEY = "im.granada.save.v1.aside";
+/**
+ * Keeps the saved game as it is, byte for byte, in a second place, before a new game is written over it. A build
+ * rolled back to cannot read a later build's save; without this its first day would write over that game for good.
+ */
+export function setAside(store: Store): boolean {
+  try {
+    const text = store.getItem(SAVE_KEY);
+    if (text === null) return false;
+    store.setItem(ASIDE_KEY, text);
+    return true;
+  } catch {
+    return false;
+  }
+}
+/** The game set aside, if this build can read it. */
+export const readAside = (store: Store): SaveRead => readSave(store, ASIDE_KEY);
+/** Puts the game set aside back as the saved game, and keeps the one it replaces in its place. */
+export function restoreAside(store: Store): boolean {
+  try {
+    const aside = store.getItem(ASIDE_KEY);
+    if (aside === null || readSave(store, ASIDE_KEY).status !== "ok") return false;
+    const current = store.getItem(SAVE_KEY);
+    store.setItem(SAVE_KEY, aside);
+    if (current === null) store.removeItem(ASIDE_KEY);
+    else store.setItem(ASIDE_KEY, current);
+    return true;
+  } catch {
+    return false;
+  }
+}
+
+export function readSave(store: Store, key: string = SAVE_KEY): SaveRead {
   let text: string | null;
   try {
-    text = store.getItem(SAVE_KEY);
+    text = store.getItem(key);
   } catch {
     return { status: "unreadable", why: "storage" };
   }

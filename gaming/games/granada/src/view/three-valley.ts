@@ -894,7 +894,8 @@ export class ValleyRenderer {
       // A day of rain is overcast: the sun is dimmed, the sky closes over, and the light comes more from all round.
       this.raining = look.rain;
       const atm = SEASON_LIGHT[this.season] ?? SEASON_LIGHT[0]!;
-      this.sun.intensity = atm.sunIntensity * (look.rain ? 0.42 : 1);
+      // An hour's light chosen for a picture keeps its strength whichever of the hour and the rain was chosen first.
+      this.sun.intensity = atm.sunIntensity * (this.lightPreview ? HOUR_LIGHT[this.lightPreview].strength : 1) * (look.rain ? 0.42 : 1);
       this.hemi.intensity = atm.ambientIntensity * (look.rain ? 0.2 : 0.06);
       this.sky.cloudCoverage.value = look.rain ? 0.9 : this.skyCover;
     }

@@ -4,7 +4,7 @@ import { describe, expect, it } from "vitest";
 import { PLAYERS, playVillage } from "../src/sim/players";
 import { A_DRY_YEAR as Y3, MERCHANTS_OF_MALAGA as Y2, WATER_FOR_THE_VALLEY as SC } from "../src/sim/scenarios";
 import { VILLAGE_VERSION, act, invariants, newVillage, tick, type VillageCommand, type VillageState } from "../src/sim/village";
-import { SAVE_KEY, clearSave, readSave, writeSave, type Store } from "../src/save";
+import { ASIDE_KEY, SAVE_KEY, clearSave, readAside, readSave, restoreAside, setAside, writeSave, type Store } from "../src/save";
 import { regionView } from "../src/ui/region";
 import { metresBetween } from "../src/world/geography";
 import { readFileSync } from "node:fs";
@@ -133,7 +133,7 @@ describe("the oil's road", () => {
     const c0 = chainView(SC, start())!;
     expect(c0.grove).toMatchObject({ field: "olive-terrace", state: "growing" });
     expect(c0.grove.units).toBe(fieldCards(SC, start()).find((f) => f.id === "olive-terrace")!.expected!.units);
-    expect([c0.press, c0.oil, c0.store, c0.port]).toEqual([{ input: "olives", inStore: 0, each: 5, canRun: 0, cost: 12 }, { good: "oil", inStore: 0, held: 0 }, { free: 200, room: 420 }, { id: "malaga", net: 186, cartsLeft: 60, owed: 0, canDeliver: 0, onRoad: 0, days: 3 }]);
+    expect([c0.press, c0.oil, c0.store, c0.port]).toEqual([{ input: "olives", inStore: 0, each: 5, canRun: 0, cost: 12 }, { good: "oil", inStore: 0, held: 0 }, { free: 200, room: 420 }, { id: "malaga", canSend: 0, net: 186, cartsLeft: 60, owed: 0, canDeliver: 0, onRoad: 0, days: 3 }]);
     // Olives in the store, a contract taken, some oil pressed and some sent: every step moves with it.
     const rich = newVillage({ ...SC, stock: { ...SC.stock, olives: 33 } }, 7);
     let s = order(rich, { kind: "accept", contract: "oil-for-the-port" }, { kind: "press", runs: 4 });
@@ -516,6 +516,27 @@ describe("the saved game", () => {
     // A version this code has never heard of is still set aside.
     store.data.set(SAVE_KEY, JSON.stringify({ v: 1, state: { ...v1, version: 0 } }));
     expect(readSave(store)).toEqual({ status: "unreadable", why: "unknown-game" });
+  });
+
+  it("that a build cannot read is kept byte for byte in a second place, survives a new game written over it, and can be brought back", () => {
+    const store = memory();
+    // A game from a later build than this one, as a rolled-back build would find it.
+    const later = JSON.stringify({ v: 1, state: { ...JSON.parse(JSON.stringify(days(start(), 12))), version: VILLAGE_VERSION + 1 } });
+    store.data.set(SAVE_KEY, later);
+    expect(readSave(store).status).toBe("unreadable");
+    expect(setAside(store)).toBe(true);
+    // The rolled-back build starts a new game and saves it, day after day.
+    writeSave(store, days(start(), 3));
+    expect(store.data.get(ASIDE_KEY)).toBe(later);
+    // This build cannot read it, so it does not offer it; a build that can, brings it back and keeps the other.
+    expect(readAside(store).status).toBe("unreadable");
+    expect(restoreAside(store)).toBe(false);
+    const readable = JSON.stringify({ v: 1, state: days(start(), 12) });
+    store.data.set(ASIDE_KEY, readable);
+    const newer = store.data.get(SAVE_KEY);
+    expect(restoreAside(store)).toBe(true);
+    expect([store.data.get(SAVE_KEY), store.data.get(ASIDE_KEY)]).toEqual([readable, newer]);
+    expect(setAside(memory())).toBe(false);
   });
 
   it("is set aside, not half-loaded, when it is damaged, tampered with, or from a newer version", () => {
