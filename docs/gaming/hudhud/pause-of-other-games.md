@@ -9,7 +9,7 @@ _26 November 2026. The founder's instruction, section 0: Hudhud has sole game pr
 | **Atlas** | prototype, on `main` and on UAT | daily game and practice; picture rounds designed, not built; no work in flight | [`../games/atlas.md`](../games/atlas.md) |
 | The eight planned games | planned | nothing built | [`../spec-v2/`](../spec-v2/) |
 
-**They stay in regression.** Every check of the platform still runs all of them: the workspace's 508 tests (354 are theirs), the release build of four games, the smoke run that starts each in Arabic and English behind the Worker's headers, and the Worker's 38 tests. All passed with Hudhud added on 26 November 2026.
+**They stay in regression.** Every check of the platform still runs all of them: the workspace's 509 tests (354 are theirs), the release build of four games, the smoke run that starts each in Arabic and English behind the Worker's headers, and the Worker's 38 tests. All passed with Hudhud added on 26 November 2026.
 
 **What Hudhud touched that is shared**, and why each is the smallest change: listed in [architecture](architecture.md#changed-in-the-shared-platform-the-smallest-that-works). No file under `gaming/games/granada/`, `gaming/games/golden-age/` or `gaming/games/atlas/`, and no `gaming/tools/granada-*.ts`, was changed.
 

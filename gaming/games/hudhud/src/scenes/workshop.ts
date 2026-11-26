@@ -7,7 +7,7 @@ import * as Phaser from "phaser";
 import { FrameRecorder } from "@im/kernel/framestats";
 import { Rng } from "@im/kernel/prng";
 import { cat as paintCat, hudhud as paintHudhud, keeper as paintKeeper, portrait, scholar as paintScholar } from "../art/cast";
-import { bytesOf, glow, type Painted } from "../art/kit";
+import { glow, type Painted } from "../art/kit";
 import * as props from "../art/props";
 import { ARCH, GARDEN_X, INTERIOR_W, foreground, garden, interior, leaves, sky, town, wallPicture } from "../art/world";
 import type { Cue } from "../audio/cues";
@@ -39,6 +39,12 @@ export const QUALITY: Record<Quality, { texture: number; pixelRatio: number; mot
   high: { texture: 2, pixelRatio: 2, motes: 60, stars: 30, shafts: true, sway: true },
 };
 
+// Where the dark room's picture falls: on the drawn curtain, which is the wall opposite the small hole in the shutter.
+// (Until 26 November 2026 it was drawn on the back wall; an independent review named that as wrong.)
+const WALL_PICTURE = { x: (ARCH.left + ARCH.right) / 2, y: 392 } as const;
+/** No texture is wider than this many pixels: a picture that would be is cut into columns. */
+const MAX_TEXTURE = 2048;
+
 type Img = Phaser.GameObjects.Image;
 type Box = Phaser.GameObjects.Container;
 const ADD = Phaser.BlendModes.ADD;
@@ -54,6 +60,9 @@ export class WorkshopScene extends Phaser.Scene {
   private main!: Box;
   private front!: Box;
   private pictures = new Map<string, Painted>();
+  /** Every texture handed to the graphics card, with its size in pixels. */
+  private uploaded = new Map<string, [number, number]>();
+  private columns = new Map<string, { key: string; x: number }[]>();
   private mover!: Mover;
   private carry = 0;
   private camX = 0;
@@ -100,9 +109,40 @@ export class WorkshopScene extends Phaser.Scene {
     if (!this.pictures.has(key)) {
       const p = make();
       this.pictures.set(key, p);
-      this.textures.addCanvas(key, p.canvas);
+      this.upload(key, p.canvas);
     }
     return key;
+  }
+  private upload(key: string, canvas: HTMLCanvasElement): void {
+    this.textures.addCanvas(key, canvas);
+    this.uploaded.set(key, [canvas.width, canvas.height]);
+  }
+  /**
+   * A picture too wide for one texture, painted once and uploaded as columns of at most 2048 pixels, each lapping
+   * the next by one game pixel so that no seam shows. Returns the picture itself, for a painter that draws from it.
+   */
+  private wide(key: string, make: () => Painted): Painted {
+    const had = this.pictures.get(key);
+    if (had) return had;
+    const p = make();
+    this.pictures.set(key, p);
+    const ts = p.canvas.width / p.w;
+    const step = Math.floor(MAX_TEXTURE / ts / 2) * 2 - 2; // game pixels a column, even, with room for the lap
+    const cols: { key: string; x: number }[] = [];
+    for (let x = 0, i = 0; x < p.w; x += step, i++) {
+      const w = Math.min(step + 1, p.w - x);
+      const tile = document.createElement("canvas");
+      tile.width = Math.round(w * ts);
+      tile.height = p.canvas.height;
+      tile.getContext("2d")!.drawImage(p.canvas, Math.round(x * ts), 0, tile.width, tile.height, 0, 0, tile.width, tile.height);
+      this.upload(`${key}#${i}`, tile);
+      cols.push({ key: `${key}#${i}`, x });
+    }
+    this.columns.set(key, cols);
+    return p;
+  }
+  private putWide(parent: Box, key: string, x: number, y: number, oy: number): void {
+    for (const c of this.columns.get(key)!) this.put(parent, c.key, x + c.x, y, 0, oy);
   }
   private put(parent: Box, key: string, x: number, y: number, ox = 0.5, oy = 0.5): Img {
     const im = this.add.image(x, y, key).setOrigin(ox, oy).setScale(1 / this.q.texture);
@@ -123,31 +163,34 @@ export class WorkshopScene extends Phaser.Scene {
     this.root = this.layer().setScale(this.rs);
     const T = this.tex.bind(this);
 
-    const skyP = (T("sky", () => sky(ts)), this.pictures.get("sky")!);
-    this.put(this.root, "sky", 0, 0, 0, 0);
+    const skyP = this.wide("sky", () => sky(ts));
+    this.putWide(this.root, "sky", 0, 0, 0);
     for (let i = 0; i < this.q.stars; i++) {
       const s = this.put(this.root, T("sparkle", () => props.sparkle(ts)), this.rng.range(20, 1260), this.rng.range(10, 250)).setBlendMode(ADD);
       s.setScale((this.rng.range(0.25, 0.6)) / ts).setAlpha(0.6);
       this.stars.push(s);
     }
     this.far = this.layer(this.root);
-    this.put(this.far, T("town-far", () => town(ts, false)), 0, WORLD.floor - 96, 0, 1);
+    this.wide("town-far", () => town(ts, false));
+    this.putWide(this.far, "town-far", 0, WORLD.floor - 96, 1);
     this.mid = this.layer(this.root);
-    const townP = (T("town-near", () => town(ts, true)), this.pictures.get("town-near")!);
-    this.put(this.mid, "town-near", 0, WORLD.floor - 60, 0, 1);
+    const townP = this.wide("town-near", () => town(ts, true));
+    this.putWide(this.mid, "town-near", 0, WORLD.floor - 60, 1);
 
     this.main = this.layer(this.root);
     const m = this.main;
-    this.put(m, T("garden", () => garden(ts)), GARDEN_X, 0, 0, 0);
+    this.wide("garden", () => garden(ts));
+    this.putWide(m, "garden", GARDEN_X, 0, 0);
     T("glow", () => glow(256, ts));
     this.put(m, "glow", 1945, 498).setBlendMode(ADD).setScale(1.5 / ts).setAlpha(0.9);
     this.curtain = this.put(m, T("curtain", () => props.curtain(ts)), ARCH.left - 300, ARCH.ledge, 0, 0);
     this.curtain.setScale(1 / ts, (WORLD.floor - ARCH.ledge + 8) / 500 / ts);
-    this.put(m, T("interior", () => interior(ts)), 0, 0, 0, 0);
+    this.wide("interior", () => interior(ts));
+    this.putWide(m, "interior", 0, 0, 0);
     // Evening light spilling through the arch onto the floor, and the pinhole's small glare.
     this.spill = this.put(m, "glow", 1500, WORLD.floor + 30).setBlendMode(ADD);
     this.spill.setScale(3.4 / ts, 1 / ts).setAlpha(0.55).setTint(0xffc27a);
-    this.wallPic = this.put(m, T("wall-picture", () => wallPicture(ts, skyP, townP)), 1085, 400).setAlpha(0);
+    this.wallPic = this.put(m, T("wall-picture", () => wallPicture(ts, skyP, townP)), WALL_PICTURE.x, WALL_PICTURE.y).setAlpha(0);
     this.dark = this.put(m, T("shade", () => props.shade(1)), 0, 0, 0, 0);
     this.dark.setScale(INTERIOR_W / 16, WORLD.height / 16).setAlpha(0);
     this.put(m, "glow", 62, 270).setBlendMode(ADD).setScale(0.4 / ts);
@@ -267,7 +310,7 @@ export class WorkshopScene extends Phaser.Scene {
         this.burst(this.thing(h.id), 5);
       } else if (h.type === "restored") this.burst(this.thing("page"), 14);
       else if (h.type === "purr") this.puss.hop = 0.5;
-      else if (h.type === "secret" || h.type === "feather") this.burst(h.type === "secret" ? { x: 1085, y: 400 } : this.thing("feather"), 12);
+      else if (h.type === "secret" || h.type === "feather") this.burst(h.type === "secret" ? WALL_PICTURE : this.thing("feather"), 12);
     }
     this.show();
   }
@@ -523,12 +566,13 @@ export class WorkshopScene extends Phaser.Scene {
 
   // ------------------------------------------------------------------------------------------ measuring, leaving
   info(): Record<string, unknown> {
-    const pics = [...this.pictures.entries()].map(([key, p]) => ({ key, width: p.canvas.width, height: p.canvas.height, bytes: bytesOf(p) }));
+    const pics = [...this.uploaded.entries()].map(([key, [width, height]]) => ({ key, width, height, bytes: width * height * 4 }));
     return {
       renderer: this.game.renderer.type === Phaser.WEBGL ? "webgl" : "canvas",
       canvas: [this.game.canvas.width, this.game.canvas.height],
       pixelRatio: this.rs,
       textures: pics.length,
+      textureKeys: pics.map((p) => p.key),
       textureBytes: pics.reduce((n, p) => n + p.bytes, 0),
       largestTextures: pics.sort((a, b) => b.bytes - a.bytes).slice(0, 5),
       objects: this.children.length + [this.root, this.main, this.far, this.mid, this.front].reduce((n, c) => n + c.length, 0),
@@ -542,7 +586,9 @@ export class WorkshopScene extends Phaser.Scene {
   private release(): void {
     this.input.removeAllListeners();
     this.tweens.killAll();
-    for (const key of this.pictures.keys()) this.textures.remove(key);
+    for (const key of this.uploaded.keys()) this.textures.remove(key);
+    this.uploaded.clear();
+    this.columns.clear();
     this.pictures.clear();
     this.mirrors.clear();
     this.strips = [];

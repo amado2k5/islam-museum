@@ -7,8 +7,8 @@
 //                        (invention/camera-obscura); light going from the thing to the eye, the book on optics, Basra
 //                        and Cairo (person/ibn-al-haytham, work/kitab-al-manazir)
 //   invented for play    the workshop itself, its cat, the page of the Atlas, the mirrors on stands, every spoken line,
-//                        the view through the arch, and the prism (which the founder's pictures show and no record
-//                        read for this scene supports; see the review ledger, HR-HH-03)
+//                        the view through the arch. There is no prism: the founder's pictures show one and no record
+//                        read for this scene supports it, so it was taken out (review ledger, HR-HH-03)
 import type { Script } from "../narrative/dialogue";
 import type { Lean, LightPuzzle } from "../sim/light";
 import type { Room } from "../sim/move";
@@ -44,7 +44,9 @@ export function workshopPuzzle(style: PlayStyle): LightPuzzle {
     mirrors: MIRROR_CELLS.map(([id, col, row]) => ({ id, col, row, lean: START[style][id]! })),
     // A tower of books on a shelf: the beam cannot simply cross the room.
     blocks: [{ col: 5, row: 1 }],
-    prisms: [{ col: 10, row: 1 }],
+    // No prism. The founder's pictures of this story show one; no museum record read for the scene says Ibn al-Haytham
+    // worked with one, and his directive of 26 November 2026 has it out until a reviewer approves an honest use.
+    prisms: [],
     target: { col: 10, row: 3 },
   };
 }
@@ -109,7 +111,7 @@ export const SCRIPTS: Record<string, Script<Speaker>> = {
     nodes: {
       hello: { lines: [{ who: "scholar", key: "d_scholar_1", mood: "glad" }, { who: "scholar", key: "d_scholar_2", mood: "think" }], choices: [{ key: "c_ask_dark", to: "dark", deeper: true }, { key: "c_ask_see", to: "see", deeper: true }, { key: "c_thanks", to: "bye" }] },
       dark: { lines: [{ who: "scholar", key: "d_scholar_dark_1", mood: "think" }, { who: "hudhud", key: "d_scholar_dark_2", mood: "glad" }], set: ["askedMore"], choices: [{ key: "c_ask_see", to: "see", deeper: true }, { key: "c_thanks", to: "bye" }] },
-      see: { lines: [{ who: "scholar", key: "d_scholar_see_1", mood: "think" }, { who: "keeper", key: "d_scholar_see_2", mood: "glad" }], set: ["askedMore"], choices: [{ key: "c_ask_dark", to: "dark", deeper: true }, { key: "c_thanks", to: "bye" }] },
+      see: { lines: [{ who: "narrator", key: "d_scholar_see_1", mood: "think" }, { who: "keeper", key: "d_scholar_see_2", mood: "glad" }], set: ["askedMore"], choices: [{ key: "c_ask_dark", to: "dark", deeper: true }, { key: "c_thanks", to: "bye" }] },
       bye: { lines: [{ who: "scholar", key: "d_scholar_bye", mood: "glad" }] },
     },
   },
