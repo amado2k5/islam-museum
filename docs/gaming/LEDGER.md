@@ -343,6 +343,18 @@ npm --prefix gaming test                            14 files, 244 tests passed (
 
 The mill is a preview and is not in the game. Its first render showed a ring of the wrong material where a round door was cut through stone and plaster; the door is now built in its arch.
 
+### The fourth games release to UAT: Granada's village, mosque, mill and bridge (26 November 2026 UTC)
+
+Asked whether to release the village pass to UAT, the founder answered "Release to UAT". On the games build of `main` at `484ead40122` (build run 45733224735):
+
+```
+action check     run 45733437315   passed; wrote nothing
+action release   run 45733594650   passed; live 20261125-484ead40122, before it 20261125-7c31b7631c6
+tools/uat-check.ts https://uat-games.islam.museum en, then ar   the five addresses each start in 3D, play a track after a click (206), no console error
+```
+
+A capture of Granada on UAT shows the tiled village, the minaret, the mill and the bridge. Not done: a rollback on UAT; production.
+
 ## Measurements
 
 The engine numbers and their conditions are in [G-0002](adr/G-0002-rendering-engine.md) and the [M1 report](m1-graphics-spike.md). They are for one Apple M4 Max in Chrome 158 and are not a hardware recommendation.
@@ -389,6 +401,8 @@ The full district at the end is about 1.56 million triangles and about 950 draw 
 - The third UAT release checked in Chrome: [`evidence/release/uat-3d-check.json`](evidence/release/uat-3d-check.json), with captures of Granada and Atlas on UAT in Arabic.
 
 - The art pipeline's first asset: [`evidence/granada/art/mill-preview.webp`](evidence/granada/art/mill-preview.webp), rendered in Blender from `gaming/art/blender/granada_mill.py`.
+
+- The fourth UAT release checked in Chrome: [`evidence/release/uat-release-4-en.json`](evidence/release/uat-release-4-en.json), the same in Arabic, and a capture of Granada there.
 
 ## Unresolved defects and known limits
 
@@ -458,7 +472,7 @@ In order. Each is a pull request of its own.
 2. **The Golden Age, next.** Done since the last entry: trouble marked on the plot it belongs to, silt and drought seen in the water, links to museum records, the season stall removed. Still to do: show hunger, idleness, a fever and a building at work in the district itself; merge static geometry by material to cut draw calls, and measure on a weaker machine; settle the balance finding with what a player does; **repair the core economy so that a large district is not rich whatever it does** (the cause of chapter 3's dominant strategy and of chapter 2's idle wealth), then re-run all three chapters in the lab; carry the player's city from one chapter to the next; the sandbox and the daily scenario. Done since: the second and third chapters, endowments, and briefs in the museum's own words. Read `spec-v2/games/golden-age.md` again first.
 3. **Atlas, next steps.** An archive of past days; regional and era practice filters; the museum's web fonts. Image rounds are designed and wait for pictures: run `npm --prefix gaming run atlas:images` after media records are added, and build to G-0008 rules 4 to 6 when it reports `enoughForAWeeklyImageRound: true`.
 4. **M1 remainder.** Cascaded shadows; a water surface with reflection and edge depth; a sky with clouds; a first authored character; a soak and leak test; fix or explain the Edge failure.
-5. **UAT carries everything on `main`** since the third release (`20261125-7c31b7631c6`, 26 November 2026 UTC): Granada's 3D valley and Atlas's lit sphere are there. The agent asks before each UAT release, because a deploy is the founder's to start; he answered "Release to UAT" for this one. A rollback on UAT is still unproved. An outside review is being asked for ([`external-review.md`](external-review.md)). **The founder looks at UAT** (`https://uat-games.islam.museum/granada/?lang=ar`) and, when he chooses, deploys the games to production. The next games release to UAT is also the first chance to prove a rollback there.
+5. **UAT carries everything on `main`** since the fourth release (`20261125-484ead40122`, 26 November 2026 UTC): Granada's 3D valley with its village, mosque, mill and bridge, and Atlas's lit sphere, are there. The agent asks before each UAT release, because a deploy is the founder's to start; he answered "Release to UAT" for the third and again for the fourth. A rollback on UAT is still unproved. An outside review is being asked for ([`external-review.md`](external-review.md)). **The founder looks at UAT** (`https://uat-games.islam.museum/granada/?lang=ar`) and, when he chooses, deploys the games to production. The next games release to UAT is also the first chance to prove a rollback there.
 6. **Granada's valley in 3D is built** (25 November 2026). Next for it: nearer the concept (richer buildings, trees and people, generated or authored as the founder decides; people who walk, carts, boats), water that reflects, cascaded shadows, recovery from a lost device, a measurement on a weaker machine, an interface in the concept's manner. Then **the Play page and menu entry on the site** (the founder's instruction; `submission-impacting` and `rewrites-all-pages`), which leads to Granada first and needs the games deployed to have somewhere to lead. After that, Act II: prices that respond to stock, a mill, and goods that travel to Málaga.
 7. **M3.** The portal pages in seven languages on a branch, the gaming workflow, the release build (including where the music is served from) and its dry run, ready for the founder's sign-off.
 
