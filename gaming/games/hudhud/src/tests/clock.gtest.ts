@@ -129,6 +129,28 @@ describe("the elephant clock kept in the middle", () => {
   });
 });
 
+describe("the apprentice's answer is kept, whichever answer it was", () => {
+  const through = (s: ClockState) => restoreClock(JSON.parse(JSON.stringify(snapshotClock(s))), clockPuzzle)!;
+  it("keeps `answered` for a blunt answer too, without making it a goal, and a resume still knows", () => {
+    const blunt = play(newClock("explorer", clockPuzzle("explorer")), [{ type: "flag", flag: "answered" }]);
+    expect(blunt.flags).toEqual(["answered"]);
+    expect(clockGoals(blunt, 2).kindness).toBe(false);
+    const back = through(blunt);
+    expect(back.flags).toEqual(["answered"]);
+    expect(clockGoals(back, 2).kindness).toBe(false);
+    // The same flag set twice is one flag, and a kind answer carries both.
+    const kind = play(blunt, [{ type: "flag", flag: "answered" }, { type: "flag", flag: "kind" }]);
+    expect(through(kind).flags).toEqual(["kind", "answered"]);
+    expect(clockGoals(through(kind), 2).kindness).toBe(true);
+  });
+  it("accepts a snapshot kept before the flag existed", () => {
+    const old = { style: "story", places: [...clockPuzzle("story").places], moves: 1, flags: ["askedBalls", "kind"] };
+    const back = restoreClock(old, clockPuzzle)!;
+    expect(back).not.toBeNull();
+    expect(back.flags).toEqual(["askedBalls", "kind"]);
+  });
+});
+
 describe("the picture of the bench can be played by touch", () => {
   it("finds the place under a point, the spare part in the box, or nothing", () => {
     // Places stand at x = 110 + 150 i, half as wide as 62 and 78 high around y = 190; the box at x = 880.

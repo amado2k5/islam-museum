@@ -10,7 +10,7 @@ _26 November 2026. The founder asked, in chat: "what is remaining for this game 
 | Quests | 50 | 1 playable; the other 49 named in the Atlas and marked "Not built yet" |
 | Worlds | 10, each with its own thread and a part of the hub it restores | 10 named; none has a thread |
 | Systems of play | 12 | 3 in the flying scene (flight, the beam, talk); a 4th (a chain of parts) in the elephant clock trial quest, played with page controls |
-| Hub | a drawn place that visibly restores | a page of words: worlds, pages, how many are home |
+| Hub | a drawn place that visibly restores | a page: worlds, pages, how many are home, and one code-drawn picture of the open Atlas with a medallion for each world (a trial picture, plain signs, and a way to go to a world's list); not a place the bird can fly about in |
 | Prologue | 15 to 30 minutes that teach by doing | an opening story of five still panels (a code-drawn picture and a short paragraph each, in seven languages, skippable, shown once for a slot and readable again from the Atlas); no play in it, no animation, no voice, and no child has seen it |
 | Art | a look the founder accepts; cast, places, effects for 50 subjects | a code-drawn trial, not accepted, and by the author's own judgment below the founder's pictures |
 | Animation | expressive key poses for every figure | bob, blink, flap, an arm, a tail |
@@ -33,7 +33,7 @@ _26 November 2026. The founder asked, in chat: "what is remaining for this game 
 
 **3. The frame the quests hang in.**
 - A playable prologue: the storm, meeting Hudhud, the first flight, the first page. (Built so far: the five still panels of the opening story, which tell the storm and the meeting. Still missing: anything to play in it, animation, voice, and a reading by a child.)
-- The hub as a place: the Atlas's hall, with ten wings that fill as pages return and characters who visit.
+- The hub as a place: the Atlas's hall, with ten wings that fill as pages return and characters who visit. (Built so far: the Atlas page, with one code-drawn picture of the open book whose medallions show how many pages of each world are home and lead to its list. Still missing: a hub the bird can fly about in, wings that change as pages return, and visiting characters.)
 - A world map and, for each world, a thread that ties its five quests and something that changes when they are done.
 - An ending, and the post-game: the last page, the player's own.
 
