@@ -12,6 +12,9 @@ import {
   foodInStore,
   expectedHarvest,
   flowOn,
+  taskState,
+  tasksOf,
+  tradeSince,
   foodNeed,
   forecast,
   poolCapacityOf,
@@ -201,6 +204,8 @@ export function workRows(sc: Scenario, s: VillageState): WorkRow[] {
 }
 
 /** One thing of the catalogue, as the Construction panel shows it. */
+export { tradeSince };
+
 export interface CatalogueRow {
   what: string;
   category: string;
@@ -280,19 +285,6 @@ export function chainView(sc: Scenario, s: VillageState): ChainView | null {
   };
 }
 
-/** What trade has brought since a day, in minor units, read from the ledger's own journal and nothing else. */
-export function tradeSince(s: VillageState, fromDay: number): number {
-  let sum = 0;
-  for (const e of s.economy.journal) {
-    if (e.asset !== "money") continue;
-    const day = Number(/^d(\d+):/.exec(e.commandId)?.[1] ?? Number.NaN);
-    if (!(day >= fromDay)) continue;
-    if (e.to === "treasury" && (e.from.startsWith("market:") || e.why.startsWith("paid on contract"))) sum += e.amount;
-    else if (e.from === "treasury" && e.to.startsWith("market:")) sum -= e.amount;
-    else if (e.to === "world" && (e.why.startsWith("carriage") || e.why.startsWith("penalty on contract"))) sum -= e.amount;
-  }
-  return sum;
-}
 /** Whether a price is above or below yesterday's, and how a market's stock of a good stands beside its usual stock. */
 export type Trend = "up" | "down" | "steady";
 export type Demand = "short" | "usual" | "glut";
@@ -401,18 +393,17 @@ export interface QuestRow {
   done: boolean;
   /** How far it has got, where that is a number. */
   progress: { have: number; want: number } | null;
+  /** The figures the task itself names (so many dinars, so many households), for its words on the page. */
+  values: Record<string, number>;
 }
 
 export function questRows(sc: Scenario, s: VillageState): QuestRow[] {
-  const first = s.plots[sc.plots[0]!.id]!;
-  const progress: Record<QuestId, QuestRow["progress"]> = {
-    "q01-water": { have: Math.min(3, s.streak.eastWatered), want: 3 },
-    "q02-harvest": first.yielded > 0 ? { have: first.brought + first.soldFromField, want: first.yielded } : null,
-    "q03-reserve": { have: Math.min(10, s.streak.reserve), want: 10 },
-    "q04-home": { have: Math.max(0, s.households - sc.households), want: 1 },
-    "q05-granary": null,
-  };
-  return QUESTS.map((id) => ({ id, done: s.quests[id], progress: s.quests[id] ? null : progress[id] }));
+  return tasksOf(sc).map((def) => {
+    const now = taskState(sc, s, def);
+    const done = Boolean(s.quests[def.id]);
+    const values = Object.fromEntries(Object.entries(def).filter((e): e is [string, number] => typeof e[1] === "number"));
+    return { id: def.id, done, progress: done || now.have === null ? null : { have: now.have, want: now.want }, values };
+  });
 }
 
 export interface SkyDay {

@@ -21,6 +21,41 @@ const sow = (sc: Scenario, s: VillageState, crop: "vegetables" | "wheat"): Villa
 /** Answers every open question the same way. */
 const answer = (sc: Scenario, s: VillageState, option: string): VillageCommand[] => (sc.decisions ?? []).filter((d) => s.decisions[d.id]?.state === "open" && d.options.some((o) => o.id === option)).map((d) => ({ kind: "decide", decision: d.id, option }) as VillageCommand);
 
+/**
+ * A year played for trade, in the ways the three trading stewards differ: how they answer the neighbours, whether
+ * they open the meadow, how many days of food they keep, and how many cisterns they build.
+ */
+function trading(sc: Scenario, s: VillageState, how: { answer: string; meadow: boolean; reserve: number; cisterns?: number; take?: string[] }): VillageCommand[] {
+  const out: VillageCommand[] = [...answer(sc, s, how.answer), ...ripe(s).map((plot) => ({ kind: "harvest", plot, rest: "wait" }) as VillageCommand)];
+  const contracts = (sc.trade?.contracts ?? []).map((c) => s.economy.contracts[c.id]!).filter(Boolean);
+  for (const c of contracts) if (c.state === "offered" && (!how.take || how.take.includes(c.good))) out.push({ kind: "accept", contract: c.id });
+  if (how.meadow) out.push({ kind: "expand" });
+  out.push(...sow(sc, s, "vegetables"), ...sow(sc, s, "wheat"));
+  const cisterns = s.placed.filter((p) => p.what === "cistern").length;
+  if (sc.catalogue?.cistern && cisterns < (how.cisterns ?? 1)) {
+    // The stone for it is bought if the works have taken what there was.
+    if (stock(s, "stone") < sc.catalogue.cistern.stone) out.push({ kind: "buy", good: "stone", quantity: sc.catalogue.cistern.stone - stock(s, "stone") });
+    out.push({ kind: "place", what: "cistern", x: 560, z: 60 + 30 * cisterns });
+  }
+  if (sc.catalogue?.house && s.households >= s.housing && s.placed.filter((p) => p.what === "house").length < 2) out.push({ kind: "place", what: "house", x: 600 + 40 * s.placed.filter((p) => p.what === "house").length, z: 250 });
+  const press = sc.trade?.press;
+  const oilOwed = contracts.filter((c) => c.state === "accepted" && c.good === "oil").reduce((n, c) => n + c.units - c.delivered, 0);
+  if (press && stock(s, "olives") >= 5) out.push({ kind: "press", runs: Math.floor(stock(s, "olives") / 5) });
+  // The terrace is in and pressed, and the promise is still short: the village's olives make up the rest.
+  const terrace = Object.values(s.plots).find((p) => p.crop === "olives");
+  const short = oilOwed - stock(s, "oil");
+  if (press && short > 0 && terrace && terrace.ripeSince !== null && terrace.standing === 0 && stock(s, "olives") < 5) out.push({ kind: "buy", good: "olives", quantity: Math.min(short * 5, s.economy.markets.village!.goods.olives?.inventory ?? 0) });
+  for (const c of contracts) {
+    if (c.state !== "accepted") continue;
+    // Food is delivered only out of what is over the winter's reserve.
+    const spare = c.good === "oil" ? stock(s, "oil") : Math.max(0, stock(s, c.good) - (reserveDays(s) > 30 ? 0 : 60));
+    const n = Math.min(c.units - c.delivered, spare, (sc.trade?.port.cartsPerDay ?? 0) - s.carted);
+    if (n > 0) out.push({ kind: "deliver", contract: c.id, quantity: n });
+  }
+  if (oilOwed === 0 && stock(s, "oil") > 0) out.push({ kind: "send", good: "oil", quantity: stock(s, "oil") });
+  return [...out, ...topUp(s, how.reserve, 150)];
+}
+
 export const PLAYERS: Record<string, Player> = {
   /** Does nothing at all. It must lose: a game that plays itself is not one. */
   idle: () => [],
@@ -60,6 +95,20 @@ export const PLAYERS: Record<string, Player> = {
       ...topUp(s, 25, 100),
     ];
   },
+  /**
+   * The second year's way: every contract taken on the first day, the meadow opened for vegetables, the olives
+   * pressed (and bought, if the terrace falls short of what was promised), a cistern and a house on open ground,
+   * and what is owed delivered as soon as it is in the store.
+   */
+  trader: (sc, s) => trading(sc, s, { answer: "refuse", meadow: true, reserve: 26 }),
+  /** Oil only: the port's oil contract taken, and every vegetable kept for the households. */
+  oilman: (sc, s) => trading(sc, s, { answer: "refuse", meadow: true, reserve: 24, take: ["oil"] }),
+  /** Vegetables only: the greens contract taken, and the olives pressed and sold at the port as they come. */
+  greengrocer: (sc, s) => trading(sc, s, { answer: "refuse", meadow: true, reserve: 26, take: ["vegetables"] }),
+  /** The same trade without the great works: vegetables in the mill field only, and grain bought for the winter. A probe: can the meadow be done without? */
+  provisioner: (sc, s) => trading(sc, s, { answer: "refuse", meadow: false, reserve: 30 }),
+  /** The oil merchant who also sells the neighbours their water: the same year, with the other answer. */
+  sharer: (sc, s) => trading(sc, s, { answer: "share", meadow: true, reserve: 24, take: ["oil"] }),
   /** Any command, any day. It must never break a rule, and should rarely win. */
   random: (sc, s, rng) => {
     const plots = sc.plots.map((p) => p.id);
@@ -90,7 +139,7 @@ export const PLAYERS: Record<string, Player> = {
   },
 };
 /** The players that stand for ways a person might really play. */
-export const REAL_PLAYERS = ["mender", "builder", "merchant", "irrigator", "presser"];
+export const REAL_PLAYERS = ["mender", "builder", "merchant", "irrigator", "presser", "trader", "oilman", "greengrocer", "sharer"];
 
 export interface Campaign {
   state: VillageState;

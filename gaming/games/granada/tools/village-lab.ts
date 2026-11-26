@@ -5,10 +5,11 @@
 import { writeFileSync } from "node:fs";
 import { PLAYERS, REAL_PLAYERS, playVillage } from "@im/granada/sim/players";
 import { SCENARIOS } from "@im/granada/sim/scenarios";
-import { QUESTS, newVillage, reserveDays, treasuryOf } from "@im/granada/sim/village";
+import { newVillage, reserveDays, tasksOf, treasuryOf } from "@im/granada/sim/village";
 
 const seeds = Number(process.argv[2] ?? 1000);
 const sc = SCENARIOS[process.argv[3] && !process.argv[3].startsWith("--") ? process.argv[3] : "water-for-the-valley"]!;
+const QUESTS = tasksOf(sc).map((x) => x.id);
 const jsonAt = process.argv.indexOf("--json");
 const began = Date.now();
 const rows: Array<Record<string, unknown>> = [];

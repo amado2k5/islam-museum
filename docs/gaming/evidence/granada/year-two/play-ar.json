@@ -1,0 +1,205 @@
+{
+ "lang": "ar",
+ "map": {
+  "direction": "ltr",
+  "millFieldX": 535,
+  "oliveTerraceX": 1147,
+  "firstLabelX": 1242
+ },
+ "threeD": "on",
+ "models": {
+  "models": [
+   "granada/town",
+   "granada/landmarks",
+   "granada/mill"
+  ],
+  "modelFailures": []
+ },
+ "valley3d": {
+  "drawCalls": 449,
+  "triangles": 5385215,
+  "geometries": 135,
+  "textures": 66,
+  "cpuRenderMs": 2.9000000059604645,
+  "engine": "three r187 webgpu",
+  "pixels": [
+   1440,
+   661
+  ],
+  "walkers": 14,
+  "atWork": 0,
+  "models": [
+   "granada/town",
+   "granada/landmarks",
+   "granada/mill"
+  ],
+  "modelFailures": [],
+  "eased": 0,
+  "frames": {
+   "frames": 359,
+   "durationMs": 2991.7,
+   "meanMs": 8.333,
+   "p50Ms": 8.3,
+   "p95Ms": 8.7,
+   "p99Ms": 9,
+   "maxMs": 9.2,
+   "minMs": 7.7,
+   "over16_7": 0,
+   "over33_3": 0,
+   "over50": 0,
+   "avgFps": 119.999
+  }
+ },
+ "harvestPeople": {
+  "before": 0,
+  "during": 20,
+  "after": 0
+ },
+ "building3d": [
+  {
+   "id": 1,
+   "what": "granary",
+   "x": 600,
+   "z": 250,
+   "done": false
+  }
+ ],
+ "photo": {
+  "bytes": 2453984,
+  "before": {
+   "geometries": 137,
+   "textures": 66,
+   "heap": 202
+  },
+  "after": {
+   "geometries": 137,
+   "textures": 66,
+   "heap": 186
+  }
+ },
+ "trade": {
+  "olives": 49,
+  "runs": 9,
+  "contract": "settled",
+  "paid": 168000
+ },
+ "chosen": true,
+ "ahead": {
+  "before": [
+   "يبدأ محصول حقل الطاحون بالتلف بعد 16 يومًا.",
+   "تجوع الأسر بعد 37 يومًا.",
+   "يبدأ محصول مدرَّج الزيتون بالتلف بعد 81 يومًا.",
+   "في نهاية الشتاء سيكون في المخزن طعام 0 يومًا؛ والمطلوب من الوادي 20."
+  ],
+  "after": [
+   "تجوع الأسر بعد 71 يومًا.",
+   "يبدأ محصول مدرَّج الزيتون بالتلف بعد 82 يومًا.",
+   "في نهاية الشتاء سيكون في المخزن طعام 0 يومًا؛ والمطلوب من الوادي 20."
+  ]
+ },
+ "region": {
+  "agriculture": [
+   "الحقول المزروعة: 2 من 3",
+   "حقل الطاحون: قمح، نما بنسبة 100%",
+   "مدرَّج الزيتون: زيتون، نما بنسبة 30%"
+  ],
+  "infrastructure": [
+   "في البركة 150 من 300",
+   "الفروع التي يجري فيها الماء: 2 من 3",
+   "المتسع في المخزن: 200 من 420",
+   "المباني التي أتمّها الوكيل: 0"
+  ],
+  "economy": [
+   "العربات إلى الميناء اليوم: 0 من 60",
+   "يستطيع الميناء أن يدفع 6,000 دينارًا بعد",
+   "في الميناء عقد معروض"
+  ]
+ },
+ "decision": {
+  "journal": 4
+ },
+ "estate": {
+  "said": "إن لم يُفعل شيء آخر: نحو 49، ينضج بعد 30 يومًا",
+  "came": {
+   "units": 49,
+   "days": 30
+  }
+ },
+ "building": {
+  "refused": "هناك شيء قائم من قبل.",
+  "built": [
+   {
+    "id": 1,
+    "what": "house",
+    "x": 105,
+    "z": 161,
+    "done": true
+   },
+   {
+    "id": 2,
+    "what": "garden",
+    "x": 109,
+    "z": 189,
+    "done": true
+   }
+  ]
+ },
+ "campaign": {
+  "orders": 12,
+  "day": 121,
+  "outcome": {
+   "won": true,
+   "reasons": [],
+   "score": 1253
+  },
+  "quests": {
+   "q01-water": true,
+   "q02-harvest": true,
+   "q03-reserve": true,
+   "q04-home": true,
+   "q05-granary": true
+  },
+  "households": 70,
+  "welfare": 75
+ },
+ "yearTwo": {
+  "carried": {
+   "households": 70,
+   "treasury": 43100,
+   "placed": 0,
+   "capacity": 920
+  },
+  "two": {
+   "year": 2,
+   "day": 1,
+   "scenario": "merchants-of-malaga",
+   "households": 70,
+   "treasury": 43100,
+   "placed": 0,
+   "capacity": 920,
+   "outcome": null,
+   "quests": [
+    "m1-trade",
+    "m2-contracts",
+    "m3-households",
+    "m4-cistern",
+    "m5-reserve"
+   ]
+  },
+  "end": {
+   "day": 121,
+   "won": false,
+   "reasons": [
+    "m1-trade",
+    "m2-contracts",
+    "m3-households",
+    "m4-cistern",
+    "m5-reserve",
+    "welfare",
+    "households",
+    "reserve"
+   ]
+  }
+ },
+ "consoleErrors": []
+}

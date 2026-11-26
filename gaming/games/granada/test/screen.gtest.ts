@@ -2,7 +2,7 @@
 // saved game. The DOM itself is exercised in a real browser by tools/granada-play.ts.
 import { describe, expect, it } from "vitest";
 import { PLAYERS, playVillage } from "../src/sim/players";
-import { WATER_FOR_THE_VALLEY as SC } from "../src/sim/scenarios";
+import { MERCHANTS_OF_MALAGA as Y2, WATER_FOR_THE_VALLEY as SC } from "../src/sim/scenarios";
 import { VILLAGE_VERSION, act, invariants, newVillage, tick, type VillageCommand, type VillageState } from "../src/sim/village";
 import { SAVE_KEY, clearSave, readSave, writeSave, type Store } from "../src/save";
 import { regionView } from "../src/ui/region";
@@ -348,7 +348,9 @@ describe("the quests and the advice", () => {
   it("show how far each quest has got, in the thing it counts", () => {
     const s = days(order(start(), { kind: "harvest", plot: "mill-field", rest: "wait" }), 1);
     const rows = Object.fromEntries(questRows(SC, s).map((r) => [r.id, r]));
-    expect(rows["q02-harvest"]).toEqual({ id: "q02-harvest", done: false, progress: { have: 200, want: 320 } });
+    expect(rows["q02-harvest"]).toEqual({ id: "q02-harvest", done: false, progress: { have: 200, want: 320 }, values: {} });
+    // A later year's task carries the figure it names, for its words on the page.
+    expect(questRows(Y2, newVillage(Y2, 7))[0]).toEqual({ id: "m1-trade", done: false, progress: { have: 0, want: 1600 }, values: { dinars: 1600 } });
     expect(rows["q01-water"]!.progress).toEqual({ have: 0, want: 3 });
     const won = playVillage(SC, start(), PLAYERS.mender!, 7).state;
     expect(questRows(SC, won).every((r) => r.done && r.progress === null)).toBe(true);
@@ -445,6 +447,14 @@ describe("the saved game", () => {
       expect(four.status).toBe("ok");
       if (four.status === "ok") expect([four.state.version, four.state.decisions["water-for-the-neighbours"]!.state, four.state.effects, four.state.journal, invariants(SC, four.state)]).toEqual([VILLAGE_VERSION, state, [], [], []]);
     }
+    // And one saved before there were years (version 6): it is in its first.
+    const v6 = JSON.parse(JSON.stringify(days(newVillage(SC, 9), 5))) as Record<string, unknown>;
+    v6.version = 6;
+    delete v6.year;
+    store.data.set(SAVE_KEY, JSON.stringify({ v: 1, state: v6 }));
+    const six = readSave(store);
+    expect(six.status).toBe("ok");
+    if (six.status === "ok") expect([six.state.version, six.state.year, invariants(SC, six.state)]).toEqual([VILLAGE_VERSION, 1, []]);
     store.data.set(SAVE_KEY, JSON.stringify({ v: 1, state: v3 }));
     if (three.status === "ok") expect([three.state.version, three.state.placed.length, three.state.fieldFirst, invariants(SC, three.state)]).toEqual([VILLAGE_VERSION, 1, null, []]);
     // A version this code has never heard of is still set aside.

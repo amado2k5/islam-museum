@@ -9,8 +9,8 @@ import records from "../../data/museum-records.v1.json";
 import { loadMusicStrings, musicControl } from "@im/audio/control";
 import { MUSIC_AVAILABLE, MUSIC_BASE, MusicPlayer } from "@im/audio/player";
 import { MINOR } from "../sim/economy";
-import { SCENARIOS, WATER_FOR_THE_VALLEY } from "../sim/scenarios";
-import { act, dayOfSeason, newVillage, seasonOf, siteOf, tick, type ActResult, type Refusal, type Scenario, type VillageCommand, type VillageState } from "../sim/village";
+import { SCENARIOS, WATER_FOR_THE_VALLEY, scenarioAfter } from "../sim/scenarios";
+import { act, dayOfSeason, newVillage, nextYear, seasonOf, siteOf, tasksOf, tick, type ActResult, type Refusal, type Scenario, type VillageCommand, type VillageState } from "../sim/village";
 import { clearSave, readSave, writeSave } from "../save";
 import { probeWebGPU } from "@im/kernel/capability";
 import { installCounters } from "@im/kernel/counters";
@@ -68,20 +68,43 @@ async function main(): Promise<void> {
   const fieldName = (id: string) => t(`field_${id}`);
 
   // ---- The game ------------------------------------------------------------------------------------------------
-  const sc: Scenario = WATER_FOR_THE_VALLEY;
+  // The scenario in hand: the first year's for a new game, the saved game's own otherwise, the next when a year is won.
+  let sc: Scenario = WATER_FOR_THE_VALLEY;
+  const titleKey = () => (sc.follows ? `scenario_${sc.id}` : "scenario_title");
+  const briefKey = () => (sc.follows ? `brief_${sc.id}` : "brief_text");
+  /** The valley as it stood when the year in hand began, so that a lost year can be played again from its start. */
+  const YEAR_KEY = "im.granada.yearstart.v1";
+  let yearStart: string | null = null;
+  const keepYearStart = () => {
+    yearStart = JSON.stringify(state);
+    try {
+      localStorage.setItem(YEAR_KEY, yearStart);
+    } catch {
+      // Without it a later year cannot be played again from its start; the button for that is then not shown.
+    }
+  };
   const seedParam = Number(query.get("seed"));
   const newSeed = () => (Number.isSafeInteger(seedParam) && seedParam > 0 ? seedParam : 1 + (Math.floor(performance.now() * 1000) % 100000));
   let notice: string | null = null;
   let state: VillageState;
   let resumed = false;
   const saved = query.has("fresh") ? ({ status: "empty" } as const) : readSave(localStorage);
-  if (saved.status === "ok" && SCENARIOS[saved.state.scenario] === sc) {
+  if (saved.status === "ok" && SCENARIOS[saved.state.scenario]) {
     state = saved.state;
+    sc = SCENARIOS[state.scenario]!;
     resumed = true;
+    try {
+      const kept = localStorage.getItem(YEAR_KEY);
+      const began = kept ? (JSON.parse(kept) as VillageState) : null;
+      if (kept && began && began.scenario === state.scenario && began.year === state.year && began.seed === state.seed) yearStart = kept;
+    } catch {
+      // An unreadable start of the year is no start of the year.
+    }
   } else {
     if (saved.status === "unreadable") notice = t("save_unreadable");
     if (saved.status === "newer") notice = t("save_newer");
     state = newVillage(sc, newSeed());
+    keepYearStart();
   }
   // How much is spent on the picture: asked for in the address, or chosen before and kept on this device, or High.
   const QUALITIES = ["low", "medium", "high"] as const;
@@ -225,6 +248,8 @@ async function main(): Promise<void> {
         return t(`event_${kind}`);
       case "placed":
         return t("event_placed", { what: t(`place_${a}`) });
+      case "year":
+        return t("event_year", { n: Number(a) });
       case "asked":
         return t("event_asked", { what: t(`decision_${a}`) });
       case "lapsed":
@@ -267,7 +292,7 @@ async function main(): Promise<void> {
     const s = stocks(sc, state);
     const speedButton = (to: 0 | 1 | 2, key: string, glyph: string) => h("button", { type: "button", class: `speed${speed === to ? " on" : ""}`, "aria-pressed": String(speed === to), title: t(key), "aria-label": t(key), onclick: () => setSpeed(to), id: `speed-${to}` }, glyph);
     bar.replaceChildren(
-      h("div", { class: "brand" }, h("h1", {}, t("title")), h("p", {}, `${t("scenario_title")} · `, h("span", { class: "tag" }, t("prototype")))),
+      h("div", { class: "brand" }, h("h1", {}, t("title")), h("p", {}, `${state.year > 1 ? `${t("year_n", { n: state.year })} · ` : ""}${t(titleKey())} · `, h("span", { class: "tag" }, t("prototype")))),
       h("div", { class: "when" }, h("strong", { id: "day-line" }, t("day_line", { season: t(`season_${s.season}`), day: s.dayOfSeason })), h("span", {}, t("days_left", { n: s.daysLeft }))),
       h(
         "div",
@@ -322,7 +347,7 @@ async function main(): Promise<void> {
       pool: state.pool / sc.water.poolCapacity,
       branches,
       fields,
-      houses: Math.round(sc.housing / 10) + state.built.house,
+      houses: Math.round((state.housing - state.placed.reduce((n, p) => n + (p.done ? (sc.catalogue?.[p.what]?.housing ?? 0) : 0), 0)) / 10),
       housesUnderWay: state.works.filter((w) => w.kind === "house").length,
       granary: state.built.granary ? "built" : state.works.some((w) => w.kind === "granary") ? "under-way" : "none",
       placed: state.placed.map((p) => ({ ...p, r: sc.catalogue?.[p.what]?.radius ?? 9 })),
@@ -444,7 +469,7 @@ async function main(): Promise<void> {
         fields: fieldCards(sc, state),
         poolPct: Math.round((100 * s.pool) / s.poolCapacity),
         storePct: Math.round((100 * s.storeUsed) / s.storeRoom),
-        houses: Math.round(sc.housing / 10) + state.built.house,
+        houses: Math.round((state.housing - state.placed.reduce((n, p) => n + (p.done ? (sc.catalogue?.[p.what]?.housing ?? 0) : 0), 0)) / 10),
         placed: state.placed.map((p) => ({ id: p.id, what: p.what, x: p.x, z: p.z, done: p.done, label: `${t(`place_${p.what}`)}${p.done ? "" : `: ${t("place_building")}`}` })),
         housesUnderWay: works.filter((w) => w.kind === "house").length,
         granary: state.built.granary ? "built" : works.some((w) => w.kind === "granary") ? "under-way" : "none",
@@ -675,7 +700,7 @@ async function main(): Promise<void> {
         h(
           "ul",
           { class: "quests" },
-          ...questRows(sc, state).map((q) => h("li", { class: q.done ? "done" : "", "data-quest": q.id }, h("strong", {}, t(q.id)), h("span", { class: "quest-state" }, q.done ? t("quest_done") : q.progress ? t("quest_progress", q.progress) : ""), h("p", {}, t(`${q.id}_text`)))),
+          ...questRows(sc, state).map((q) => h("li", { class: q.done ? "done" : "", "data-quest": q.id }, h("strong", {}, t(q.id)), h("span", { class: "quest-state" }, q.done ? t("quest_done") : q.progress ? t("quest_progress", q.progress) : ""), h("p", {}, t(`${q.id}_text`, q.values)))),
         ),
         h("p", { class: "goal" }, h("b", {}, `${t("goal_title")}: `), t("goal_text", { welfare: sc.goal.welfare, days: sc.goal.reserveDays })),
       ),
@@ -1070,8 +1095,8 @@ async function main(): Promise<void> {
     const d = dialog(
       "brief",
       h("p", { class: "kicker" }, t("subtitle")),
-      h("h2", {}, t("scenario_title")),
-      h("p", {}, t("brief_text")),
+      h("h2", {}, t(titleKey())),
+      h("p", {}, t(briefKey())),
       notice && h("p", { class: "warnline" }, notice),
       h("p", { class: "note" }, t("simulation_note")),
       h("p", { class: "note" }, `${t("brief_setting")}: `, museumLink("place/granada"), " · ", museumLink("polity/emirate-of-granada"), " · ", museumLink("place/sierra-nevada")),
@@ -1103,7 +1128,7 @@ async function main(): Promise<void> {
   function showOutcome(): void {
     const o = state.outcome;
     if (!o) return;
-    const why = (r: string) => (r.startsWith("q0") ? t(r) : r === "welfare" ? t("reason_welfare", { n: sc.goal.welfare }) : r === "households" ? t("reason_households") : t("reason_reserve", { n: sc.goal.reserveDays }));
+    const why = (r: string) => (tasksOf(sc).some((x) => x.id === r) ? t(r) : r === "welfare" ? t("reason_welfare", { n: sc.goal.welfare }) : r === "households" ? t("reason_households") : t("reason_reserve", { n: sc.goal.reserveDays }));
     const d = dialog(
       `outcome ${o.won ? "won" : "lost"}`,
       h("h2", { id: "outcome-title" }, o.won ? t("outcome_won") : t("outcome_lost")),
@@ -1112,21 +1137,52 @@ async function main(): Promise<void> {
       h(
         "div",
         { class: "actions" },
-        h("button", { type: "button", id: "again", onclick: () => (begin(state.seed), d.close()) }, t("outcome_again")),
-        h("button", { type: "button", class: "primary", id: "new-year", onclick: () => (begin(state.seed + 1), d.close()) }, t("outcome_new_year")),
+        // A won year with another after it goes on, with the valley as it stands.
+        o.won && scenarioAfter(sc.id) && h("button", { type: "button", class: "primary", id: "go-on", onclick: () => (d.close(), goOn()) }, t("outcome_next", { n: state.year + 1 })),
+        (state.year === 1 || yearStart) && h("button", { type: "button", id: "again", onclick: () => (again(), d.close()) }, t("outcome_again")),
+        h("button", { type: "button", class: o.won && scenarioAfter(sc.id) ? "" : "primary", id: "new-year", onclick: () => (begin(state.seed + 1), d.close()) }, t(state.year > 1 ? "outcome_restart" : "outcome_new_year")),
       ),
     );
   }
-  function begin(seed: number): void {
-    clearSave(localStorage);
-    state = newVillage(sc, seed);
+  /** Puts the page back to a year's first morning: paused, on the Overview, nothing chosen, nothing said yet. */
+  function freshPage(): void {
     speed = 0;
     tab = "valley";
     selected = null;
     picked = null;
     log.length = 0;
+    toasts.replaceChildren();
+    hook.scenario = sc.id;
     keep();
     render();
+  }
+  /** A new campaign, from the first year. */
+  function begin(seed: number): void {
+    clearSave(localStorage);
+    sc = WATER_FOR_THE_VALLEY;
+    state = newVillage(sc, seed);
+    keepYearStart();
+    freshPage();
+  }
+  /** The year in hand again, from its first morning: the first year fresh with the same weather, a later one as it began. */
+  function again(): void {
+    if (state.year === 1 || !yearStart) return begin(state.seed);
+    state = JSON.parse(yearStart) as VillageState;
+    sc = SCENARIOS[state.scenario]!;
+    freshPage();
+  }
+  /** On to the year that follows a won one, with the valley as it stands. */
+  function goOn(): boolean {
+    const next = scenarioAfter(sc.id);
+    const carried = next ? nextYear(next, state) : null;
+    if (!next || !carried) return false;
+    sc = next;
+    state = carried;
+    keepYearStart();
+    freshPage();
+    say(t("event_year", { n: state.year }));
+    showBrief();
+    return true;
   }
 
   // ---- Time and keys ---------------------------------------------------------------------------------------------
@@ -1173,6 +1229,8 @@ async function main(): Promise<void> {
 
   const hook: Record<string, unknown> = { ready: true, lang, scenario: sc.id, state: () => state, speed: () => speed, tab: () => tab, music, saveOk: () => saveOk, order: (c: VillageCommand) => order(c), days: (n: number) => { for (let i = 0; i < n; i++) nextDay(); }, begin: (seed: number) => begin(seed), view: () => view, setView: (to: "3d" | "plan") => setView(to), stage: () => stage, threeD: "pending" };
   hook.quality = quality;
+  hook.goOn = () => goOn();
+  hook.again = () => again();
   hook.photo = () => ({ on: photo, bare: photoBare, preview: { ...preview }, shots: photoShots });
   if (counters) {
     counters.provide("renderer", () => stage?.info() ?? null);
