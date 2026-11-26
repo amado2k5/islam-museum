@@ -39,5 +39,10 @@
 | al-qazwini | [`al-qazwini.md`](al-qazwini.md) | 2 | 4 | 0 |
 | monkey-and-tortoise | [`monkey-and-tortoise.md`](monkey-and-tortoise.md) | 1 | 4 | 0 |
 | pigeon-post | [`pigeon-post.md`](pigeon-post.md) | 3 | 8 | 0 |
+| ibn-battuta | [`ibn-battuta.md`](ibn-battuta.md) | 6 | 8 | 0 |
+| ibn-jubayr | [`ibn-jubayr.md`](ibn-jubayr.md) | 5 | 8 | 0 |
+| evliya-celebi | [`evliya-celebi.md`](evliya-celebi.md) | 4 | 8 | 0 |
+| al-hasan-al-wazzan | [`al-hasan-al-wazzan.md`](al-hasan-al-wazzan.md) | 4 | 8 | 0 |
+| al-masudi | [`al-masudi.md`](al-masudi.md) | 2 | 8 | 0 |
 
 `ledger-drafts.json` holds draft rows only; the real ledger is untouched.
