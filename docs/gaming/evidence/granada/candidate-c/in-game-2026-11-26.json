@@ -1,0 +1,9002 @@
+{
+ "taken": "2026-11-26T14:42:21.895Z",
+ "browser": "chrome 158.0.8127.38",
+ "seed": 7,
+ "footprints": {
+  "a": [
+   77,
+   56,
+   34
+  ],
+  "c": [
+   105.15,
+   70.36,
+   35.92
+  ]
+ },
+ "views": [
+  {
+   "id": "1-proof",
+   "pose": "{ \"tx\": 640, \"ty\": 30, \"tz\": 0, \"yaw\": 1.07, \"pitch\": 0.17, \"distance\": 330 }"
+  },
+  {
+   "id": "2-nearest-strategic",
+   "pose": "nearest"
+  },
+  {
+   "id": "3-farthest-strategic",
+   "pose": "{ \"tx\": 30, \"ty\": 6, \"tz\": 70, \"yaw\": 1.41, \"pitch\": 0.17, \"distance\": 980 }"
+  },
+  {
+   "id": "4-photo-farthest",
+   "pose": "{ \"tx\": 30, \"ty\": 6, \"tz\": 70, \"yaw\": 1.41, \"pitch\": 0.17, \"distance\": 980 }",
+   "lens": 70
+  },
+  {
+   "id": "5-photo-nearest",
+   "pose": "nearest",
+   "lens": 16
+  }
+ ],
+ "runs": [
+  {
+   "set": "a",
+   "size": "1920x1080",
+   "preset": "low",
+   "readyMs": 1597,
+   "fetched": [
+    {
+     "file": "granada/2/town.gltf",
+     "bytes": 44825,
+     "ms": 8
+    },
+    {
+     "file": "granada/2/town.bin",
+     "bytes": 1171152,
+     "ms": 52
+    },
+    {
+     "file": "granada/2/textures/stone_base.jpg",
+     "bytes": 294472,
+     "ms": 22
+    },
+    {
+     "file": "granada/2/textures/stone_orm.jpg",
+     "bytes": 173326,
+     "ms": 17
+    },
+    {
+     "file": "granada/2/textures/stone_normal.jpg",
+     "bytes": 488747,
+     "ms": 28
+    },
+    {
+     "file": "granada/2/textures/plaster_orm.jpg",
+     "bytes": 102840,
+     "ms": 16
+    },
+    {
+     "file": "granada/2/textures/plaster_base.jpg",
+     "bytes": 276340,
+     "ms": 22
+    },
+    {
+     "file": "granada/2/textures/rooftile_base.jpg",
+     "bytes": 328786,
+     "ms": 39
+    },
+    {
+     "file": "granada/2/textures/plaster_normal.jpg",
+     "bytes": 505220,
+     "ms": 43
+    },
+    {
+     "file": "granada/2/textures/rooftile_orm.jpg",
+     "bytes": 82064,
+     "ms": 32
+    },
+    {
+     "file": "granada/2/textures/rooftile_normal.jpg",
+     "bytes": 362450,
+     "ms": 45
+    },
+    {
+     "file": "granada/2/textures/wood_base.jpg",
+     "bytes": 275317,
+     "ms": 47
+    },
+    {
+     "file": "granada/2/textures/wood_orm.jpg",
+     "bytes": 267353,
+     "ms": 51
+    },
+    {
+     "file": "granada/2/textures/wood_normal.jpg",
+     "bytes": 179091,
+     "ms": 54
+    },
+    {
+     "file": "granada/2/textures/plaster_warm_base.jpg",
+     "bytes": 251880,
+     "ms": 60
+    },
+    {
+     "file": "granada/2/textures/plaster_warm_orm.jpg",
+     "bytes": 102840,
+     "ms": 57
+    },
+    {
+     "file": "granada/2/textures/plaster_warm_normal.jpg",
+     "bytes": 505220,
+     "ms": 66
+    },
+    {
+     "file": "granada/2/textures/earth_base.jpg",
+     "bytes": 58651,
+     "ms": 61
+    },
+    {
+     "file": "granada/2/textures/earth_orm.jpg",
+     "bytes": 107745,
+     "ms": 63
+    },
+    {
+     "file": "granada/2/textures/earth_normal.jpg",
+     "bytes": 846968,
+     "ms": 71
+    },
+    {
+     "file": "granada/2/landmarks.gltf",
+     "bytes": 27834,
+     "ms": 4
+    },
+    {
+     "file": "granada/2/landmarks.bin",
+     "bytes": 1356120,
+     "ms": 42
+    },
+    {
+     "file": "granada/2/textures/wood_base.jpg",
+     "bytes": 275317,
+     "ms": 1
+    },
+    {
+     "file": "granada/2/textures/wood_orm.jpg",
+     "bytes": 267353,
+     "ms": 3
+    },
+    {
+     "file": "granada/2/textures/wood_normal.jpg",
+     "bytes": 179091,
+     "ms": 3
+    },
+    {
+     "file": "granada/2/textures/stone_base.jpg",
+     "bytes": 294472,
+     "ms": 7
+    },
+    {
+     "file": "granada/2/textures/stone_orm.jpg",
+     "bytes": 173326,
+     "ms": 8
+    },
+    {
+     "file": "granada/2/textures/stone_normal.jpg",
+     "bytes": 488747,
+     "ms": 8
+    },
+    {
+     "file": "granada/2/textures/plaster_base.jpg",
+     "bytes": 276340,
+     "ms": 5
+    },
+    {
+     "file": "granada/2/textures/plaster_orm.jpg",
+     "bytes": 102840,
+     "ms": 6
+    },
+    {
+     "file": "granada/2/textures/plaster_normal.jpg",
+     "bytes": 505220,
+     "ms": 10
+    },
+    {
+     "file": "granada/2/textures/rooftile_base.jpg",
+     "bytes": 328786,
+     "ms": 11
+    },
+    {
+     "file": "granada/2/textures/rooftile_orm.jpg",
+     "bytes": 82064,
+     "ms": 11
+    },
+    {
+     "file": "granada/2/textures/rooftile_normal.jpg",
+     "bytes": 362450,
+     "ms": 12
+    },
+    {
+     "file": "granada/2/textures/plaster_warm_base.jpg",
+     "bytes": 251880,
+     "ms": 12
+    },
+    {
+     "file": "granada/2/textures/plaster_warm_orm.jpg",
+     "bytes": 102840,
+     "ms": 15
+    },
+    {
+     "file": "granada/2/textures/plaster_warm_normal.jpg",
+     "bytes": 505220,
+     "ms": 16
+    },
+    {
+     "file": "granada/2/textures/earth_base.jpg",
+     "bytes": 58651,
+     "ms": 16
+    },
+    {
+     "file": "granada/2/textures/earth_orm.jpg",
+     "bytes": 107745,
+     "ms": 17
+    },
+    {
+     "file": "granada/2/textures/earth_normal.jpg",
+     "bytes": 846968,
+     "ms": 18
+    },
+    {
+     "file": "granada/2/textures/plaster_red_base.jpg",
+     "bytes": 211514,
+     "ms": 31
+    },
+    {
+     "file": "granada/2/textures/plaster_red_orm.jpg",
+     "bytes": 102840,
+     "ms": 28
+    },
+    {
+     "file": "granada/2/textures/cobble_base.jpg",
+     "bytes": 359909,
+     "ms": 34
+    },
+    {
+     "file": "granada/2/textures/plaster_red_normal.jpg",
+     "bytes": 505220,
+     "ms": 34
+    },
+    {
+     "file": "granada/2/textures/cobble_orm.jpg",
+     "bytes": 299550,
+     "ms": 33
+    },
+    {
+     "file": "granada/2/textures/cobble_normal.jpg",
+     "bytes": 373781,
+     "ms": 37
+    },
+    {
+     "file": "granada/2/mill.gltf",
+     "bytes": 22791,
+     "ms": 6
+    },
+    {
+     "file": "granada/2/mill.bin",
+     "bytes": 1707480,
+     "ms": 44
+    },
+    {
+     "file": "granada/2/textures/plaster_base.jpg",
+     "bytes": 276340,
+     "ms": 5
+    },
+    {
+     "file": "granada/2/textures/plaster_orm.jpg",
+     "bytes": 102840,
+     "ms": 6
+    },
+    {
+     "file": "granada/2/textures/plaster_normal.jpg",
+     "bytes": 505220,
+     "ms": 10
+    },
+    {
+     "file": "granada/2/textures/rooftile_base.jpg",
+     "bytes": 328786,
+     "ms": 12
+    },
+    {
+     "file": "granada/2/textures/rooftile_orm.jpg",
+     "bytes": 82064,
+     "ms": 13
+    },
+    {
+     "file": "granada/2/textures/rooftile_normal.jpg",
+     "bytes": 362450,
+     "ms": 15
+    },
+    {
+     "file": "granada/2/textures/wood_base.jpg",
+     "bytes": 275317,
+     "ms": 17
+    },
+    {
+     "file": "granada/2/textures/wood_orm.jpg",
+     "bytes": 267353,
+     "ms": 18
+    },
+    {
+     "file": "granada/2/textures/wood_normal.jpg",
+     "bytes": 179091,
+     "ms": 19
+    },
+    {
+     "file": "granada/2/textures/stone_base.jpg",
+     "bytes": 294472,
+     "ms": 21
+    },
+    {
+     "file": "granada/2/textures/stone_orm.jpg",
+     "bytes": 173326,
+     "ms": 29
+    },
+    {
+     "file": "granada/2/textures/stone_normal.jpg",
+     "bytes": 488747,
+     "ms": 29
+    },
+    {
+     "file": "granada/2/textures/earth_base.jpg",
+     "bytes": 58651,
+     "ms": 31
+    },
+    {
+     "file": "granada/2/textures/earth_orm.jpg",
+     "bytes": 107745,
+     "ms": 33
+    },
+    {
+     "file": "granada/2/textures/earth_normal.jpg",
+     "bytes": 846968,
+     "ms": 34
+    }
+   ],
+   "played": {
+    "daysPassed": 37,
+    "day": 62
+   },
+   "models": [
+    "granada/town",
+    "granada/landmarks",
+    "granada/mill"
+   ],
+   "modelFailures": [],
+   "views": {
+    "1-proof": {
+     "palaceBoxPixels": {
+      "width": 200,
+      "height": 88
+     },
+     "pose": {
+      "tx": 640,
+      "ty": 43.09174427004298,
+      "tz": 0,
+      "yaw": 1.07,
+      "pitch": 0.17,
+      "distance": 330
+     },
+     "counted": {
+      "atMs": 22913,
+      "frames": {
+       "frames": 1199,
+       "durationMs": 9991.6,
+       "meanMs": 8.333,
+       "p50Ms": 8.3,
+       "p95Ms": 8.9,
+       "p99Ms": 9.2,
+       "maxMs": 9.4,
+       "minMs": 7.3,
+       "over16_7": 0,
+       "over33_3": 0,
+       "over50": 0,
+       "avgFps": 120.001,
+       "longestUnder30FpsMs": 0
+      },
+      "loops": 2,
+      "heapMb": 92.9,
+      "heapNote": "performance.memory.usedJSHeapSize: the JavaScript heap only, not the graphics memory",
+      "contexts": {
+       "webgpu": 1
+      },
+      "intervals": 1,
+      "workers": 0,
+      "listeners": 88,
+      "audio": {
+       "contexts": 0,
+       "nodesMade": 0
+      },
+      "provided": {
+       "renderer": {
+        "drawCalls": 175,
+        "triangles": 1895814,
+        "geometries": 136,
+        "textures": 51,
+        "cpuRenderMs": 1.300000011920929,
+        "engine": "three r187 webgpu",
+        "pixels": [
+         1920,
+         917
+        ],
+        "walkers": 9,
+        "atWork": 24,
+        "models": [
+         "granada/town",
+         "granada/landmarks",
+         "granada/mill"
+        ],
+        "modelFailures": [],
+        "eased": 0
+       }
+      }
+     }
+    },
+    "2-nearest-strategic": {
+     "palaceBoxPixels": {
+      "width": 382,
+      "height": 192
+     },
+     "nearestDistanceHoldingThePalace": 150,
+     "pose": {
+      "tx": 760,
+      "ty": 85.53954178869974,
+      "tz": -150,
+      "yaw": 1.5708,
+      "pitch": 0.1222,
+      "distance": 150
+     },
+     "counted": {
+      "atMs": 36820,
+      "frames": {
+       "frames": 1199,
+       "durationMs": 9991.6,
+       "meanMs": 8.333,
+       "p50Ms": 8.3,
+       "p95Ms": 9.2,
+       "p99Ms": 9.3,
+       "maxMs": 9.4,
+       "minMs": 7.3,
+       "over16_7": 0,
+       "over33_3": 0,
+       "over50": 0,
+       "avgFps": 120.001,
+       "longestUnder30FpsMs": 0
+      },
+      "loops": 2,
+      "heapMb": 101.7,
+      "heapNote": "performance.memory.usedJSHeapSize: the JavaScript heap only, not the graphics memory",
+      "contexts": {
+       "webgpu": 1
+      },
+      "intervals": 1,
+      "workers": 0,
+      "listeners": 88,
+      "audio": {
+       "contexts": 0,
+       "nodesMade": 0
+      },
+      "provided": {
+       "renderer": {
+        "drawCalls": 144,
+        "triangles": 1872543,
+        "geometries": 136,
+        "textures": 51,
+        "cpuRenderMs": 1.4000000059604645,
+        "engine": "three r187 webgpu",
+        "pixels": [
+         1920,
+         917
+        ],
+        "walkers": 9,
+        "atWork": 24,
+        "models": [
+         "granada/town",
+         "granada/landmarks",
+         "granada/mill"
+        ],
+        "modelFailures": [],
+        "eased": 0
+       }
+      }
+     }
+    },
+    "3-farthest-strategic": {
+     "palaceBoxPixels": {
+      "width": 67,
+      "height": 28
+     },
+     "pose": {
+      "tx": 30,
+      "ty": 89.31725393305372,
+      "tz": 70,
+      "yaw": 1.41,
+      "pitch": 0.17,
+      "distance": 980
+     },
+     "counted": {
+      "atMs": 49590,
+      "frames": {
+       "frames": 1199,
+       "durationMs": 9991.4,
+       "meanMs": 8.333,
+       "p50Ms": 8.3,
+       "p95Ms": 9,
+       "p99Ms": 9.3,
+       "maxMs": 9.4,
+       "minMs": 7.3,
+       "over16_7": 0,
+       "over33_3": 0,
+       "over50": 0,
+       "avgFps": 120.003,
+       "longestUnder30FpsMs": 0
+      },
+      "loops": 2,
+      "heapMb": 108,
+      "heapNote": "performance.memory.usedJSHeapSize: the JavaScript heap only, not the graphics memory",
+      "contexts": {
+       "webgpu": 1
+      },
+      "intervals": 1,
+      "workers": 0,
+      "listeners": 88,
+      "audio": {
+       "contexts": 0,
+       "nodesMade": 0
+      },
+      "provided": {
+       "renderer": {
+        "drawCalls": 284,
+        "triangles": 2303213,
+        "geometries": 136,
+        "textures": 51,
+        "cpuRenderMs": 1.699999988079071,
+        "engine": "three r187 webgpu",
+        "pixels": [
+         1920,
+         917
+        ],
+        "walkers": 9,
+        "atWork": 24,
+        "models": [
+         "granada/town",
+         "granada/landmarks",
+         "granada/mill"
+        ],
+        "modelFailures": [],
+        "eased": 0
+       }
+      }
+     }
+    },
+    "4-photo-farthest": {
+     "palaceBoxPixels": {
+      "width": 39,
+      "height": 16
+     },
+     "pose": {
+      "tx": 30,
+      "ty": 89.31725393305372,
+      "tz": 70,
+      "yaw": 1.41,
+      "pitch": 0.17,
+      "distance": 980
+     },
+     "counted": {
+      "atMs": 62396,
+      "frames": {
+       "frames": 1198,
+       "durationMs": 9991.7,
+       "meanMs": 8.34,
+       "p50Ms": 8.3,
+       "p95Ms": 9,
+       "p99Ms": 9.3,
+       "maxMs": 11.2,
+       "minMs": 7,
+       "over16_7": 0,
+       "over33_3": 0,
+       "over50": 0,
+       "avgFps": 119.9,
+       "longestUnder30FpsMs": 0
+      },
+      "loops": 2,
+      "heapMb": 107.9,
+      "heapNote": "performance.memory.usedJSHeapSize: the JavaScript heap only, not the graphics memory",
+      "contexts": {
+       "webgpu": 1
+      },
+      "intervals": 1,
+      "workers": 0,
+      "listeners": 95,
+      "audio": {
+       "contexts": 0,
+       "nodesMade": 0
+      },
+      "provided": {
+       "renderer": {
+        "drawCalls": 284,
+        "triangles": 2303213,
+        "geometries": 136,
+        "textures": 51,
+        "cpuRenderMs": 2.800000011920929,
+        "engine": "three r187 webgpu",
+        "pixels": [
+         1920,
+         1080
+        ],
+        "walkers": 9,
+        "atWork": 24,
+        "models": [
+         "granada/town",
+         "granada/landmarks",
+         "granada/mill"
+        ],
+        "modelFailures": [],
+        "eased": 0
+       }
+      }
+     }
+    },
+    "5-photo-nearest": {
+     "palaceBoxPixels": {
+      "width": 616,
+      "height": 254
+     },
+     "nearestDistanceHoldingThePalace": 390,
+     "pose": {
+      "tx": 760,
+      "ty": 105.93954178869974,
+      "tz": -150,
+      "yaw": 1.5708,
+      "pitch": 0.1222,
+      "distance": 390
+     },
+     "counted": {
+      "atMs": 79462,
+      "frames": {
+       "frames": 1195,
+       "durationMs": 9991.5,
+       "meanMs": 8.361,
+       "p50Ms": 8.3,
+       "p95Ms": 9.1,
+       "p99Ms": 9.3,
+       "maxMs": 24.9,
+       "minMs": 7.3,
+       "over16_7": 2,
+       "over33_3": 0,
+       "over50": 0,
+       "avgFps": 119.602,
+       "longestUnder30FpsMs": 0
+      },
+      "loops": 2,
+      "heapMb": 91.5,
+      "heapNote": "performance.memory.usedJSHeapSize: the JavaScript heap only, not the graphics memory",
+      "contexts": {
+       "webgpu": 1
+      },
+      "intervals": 1,
+      "workers": 0,
+      "listeners": 95,
+      "audio": {
+       "contexts": 0,
+       "nodesMade": 0
+      },
+      "provided": {
+       "renderer": {
+        "drawCalls": 193,
+        "triangles": 1967787,
+        "geometries": 136,
+        "textures": 51,
+        "cpuRenderMs": 2.199999988079071,
+        "engine": "three r187 webgpu",
+        "pixels": [
+         1920,
+         1080
+        ],
+        "walkers": 9,
+        "atWork": 24,
+        "models": [
+         "granada/town",
+         "granada/landmarks",
+         "granada/mill"
+        ],
+        "modelFailures": [],
+        "eased": 0
+       }
+      }
+     }
+    }
+   },
+   "consoleErrors": []
+  },
+  {
+   "set": "c",
+   "size": "1920x1080",
+   "preset": "low",
+   "readyMs": 3988,
+   "fetched": [
+    {
+     "file": "granada/2/town.gltf",
+     "bytes": 44825,
+     "ms": 3
+    },
+    {
+     "file": "granada/2/town.bin",
+     "bytes": 1171152,
+     "ms": 20
+    },
+    {
+     "file": "granada/2/textures/stone_base.jpg",
+     "bytes": 294472,
+     "ms": 8
+    },
+    {
+     "file": "granada/2/textures/stone_orm.jpg",
+     "bytes": 173326,
+     "ms": 8
+    },
+    {
+     "file": "granada/2/textures/plaster_orm.jpg",
+     "bytes": 102840,
+     "ms": 7
+    },
+    {
+     "file": "granada/2/textures/plaster_base.jpg",
+     "bytes": 276340,
+     "ms": 9
+    },
+    {
+     "file": "granada/2/textures/stone_normal.jpg",
+     "bytes": 488747,
+     "ms": 12
+    },
+    {
+     "file": "granada/2/textures/plaster_normal.jpg",
+     "bytes": 505220,
+     "ms": 19
+    },
+    {
+     "file": "granada/2/textures/rooftile_base.jpg",
+     "bytes": 328786,
+     "ms": 18
+    },
+    {
+     "file": "granada/2/textures/rooftile_orm.jpg",
+     "bytes": 82064,
+     "ms": 14
+    },
+    {
+     "file": "granada/2/textures/rooftile_normal.jpg",
+     "bytes": 362450,
+     "ms": 19
+    },
+    {
+     "file": "granada/2/textures/wood_base.jpg",
+     "bytes": 275317,
+     "ms": 20
+    },
+    {
+     "file": "granada/2/textures/wood_orm.jpg",
+     "bytes": 267353,
+     "ms": 20
+    },
+    {
+     "file": "granada/2/textures/wood_normal.jpg",
+     "bytes": 179091,
+     "ms": 24
+    },
+    {
+     "file": "granada/2/textures/plaster_warm_orm.jpg",
+     "bytes": 102840,
+     "ms": 25
+    },
+    {
+     "file": "granada/2/textures/plaster_warm_base.jpg",
+     "bytes": 251880,
+     "ms": 26
+    },
+    {
+     "file": "granada/2/textures/plaster_warm_normal.jpg",
+     "bytes": 505220,
+     "ms": 36
+    },
+    {
+     "file": "granada/2/textures/earth_base.jpg",
+     "bytes": 58651,
+     "ms": 26
+    },
+    {
+     "file": "granada/2/textures/earth_orm.jpg",
+     "bytes": 107745,
+     "ms": 31
+    },
+    {
+     "file": "granada/2/textures/earth_normal.jpg",
+     "bytes": 846968,
+     "ms": 40
+    },
+    {
+     "file": "granada/2/landmarks.gltf",
+     "bytes": 27834,
+     "ms": 2
+    },
+    {
+     "file": "granada/2/landmarks.bin",
+     "bytes": 1356120,
+     "ms": 53
+    },
+    {
+     "file": "granada/2/textures/wood_base.jpg",
+     "bytes": 275317,
+     "ms": 3
+    },
+    {
+     "file": "granada/2/textures/wood_orm.jpg",
+     "bytes": 267353,
+     "ms": 4
+    },
+    {
+     "file": "granada/2/textures/wood_normal.jpg",
+     "bytes": 179091,
+     "ms": 4
+    },
+    {
+     "file": "granada/2/textures/stone_base.jpg",
+     "bytes": 294472,
+     "ms": 5
+    },
+    {
+     "file": "granada/2/textures/stone_orm.jpg",
+     "bytes": 173326,
+     "ms": 4
+    },
+    {
+     "file": "granada/2/textures/stone_normal.jpg",
+     "bytes": 488747,
+     "ms": 4
+    },
+    {
+     "file": "granada/2/textures/plaster_base.jpg",
+     "bytes": 276340,
+     "ms": 8
+    },
+    {
+     "file": "granada/2/textures/plaster_orm.jpg",
+     "bytes": 102840,
+     "ms": 7
+    },
+    {
+     "file": "granada/2/textures/plaster_normal.jpg",
+     "bytes": 505220,
+     "ms": 6
+    },
+    {
+     "file": "granada/2/textures/rooftile_base.jpg",
+     "bytes": 328786,
+     "ms": 7
+    },
+    {
+     "file": "granada/2/textures/rooftile_orm.jpg",
+     "bytes": 82064,
+     "ms": 6
+    },
+    {
+     "file": "granada/2/textures/rooftile_normal.jpg",
+     "bytes": 362450,
+     "ms": 13
+    },
+    {
+     "file": "granada/2/textures/plaster_warm_base.jpg",
+     "bytes": 251880,
+     "ms": 14
+    },
+    {
+     "file": "granada/2/textures/plaster_warm_orm.jpg",
+     "bytes": 102840,
+     "ms": 14
+    },
+    {
+     "file": "granada/2/textures/plaster_warm_normal.jpg",
+     "bytes": 505220,
+     "ms": 15
+    },
+    {
+     "file": "granada/2/textures/earth_base.jpg",
+     "bytes": 58651,
+     "ms": 15
+    },
+    {
+     "file": "granada/2/textures/earth_orm.jpg",
+     "bytes": 107745,
+     "ms": 36
+    },
+    {
+     "file": "granada/2/textures/earth_normal.jpg",
+     "bytes": 846968,
+     "ms": 36
+    },
+    {
+     "file": "granada/2/textures/plaster_red_base.jpg",
+     "bytes": 211514,
+     "ms": 43
+    },
+    {
+     "file": "granada/2/textures/plaster_red_orm.jpg",
+     "bytes": 102840,
+     "ms": 39
+    },
+    {
+     "file": "granada/2/textures/plaster_red_normal.jpg",
+     "bytes": 505220,
+     "ms": 47
+    },
+    {
+     "file": "granada/2/textures/cobble_orm.jpg",
+     "bytes": 299550,
+     "ms": 45
+    },
+    {
+     "file": "granada/2/textures/cobble_base.jpg",
+     "bytes": 359909,
+     "ms": 46
+    },
+    {
+     "file": "granada/2/textures/cobble_normal.jpg",
+     "bytes": 373781,
+     "ms": 48
+    },
+    {
+     "file": "granada/c/palace.gltf",
+     "bytes": 36112,
+     "ms": 4
+    },
+    {
+     "file": "granada/c/palace.bin",
+     "bytes": 24575196,
+     "ms": 152
+    },
+    {
+     "file": "granada/c/textures/stone_orm.jpg",
+     "bytes": 173326,
+     "ms": 12
+    },
+    {
+     "file": "granada/c/textures/stone_base.jpg",
+     "bytes": 294472,
+     "ms": 14
+    },
+    {
+     "file": "granada/c/textures/stone_normal.jpg",
+     "bytes": 488747,
+     "ms": 16
+    },
+    {
+     "file": "granada/c/textures/plaster_red_orm.jpg",
+     "bytes": 102840,
+     "ms": 11
+    },
+    {
+     "file": "granada/c/textures/plaster_red_base.jpg",
+     "bytes": 211514,
+     "ms": 13
+    },
+    {
+     "file": "granada/c/textures/cobble_base.jpg",
+     "bytes": 359909,
+     "ms": 29
+    },
+    {
+     "file": "granada/c/textures/plaster_red_normal.jpg",
+     "bytes": 505220,
+     "ms": 30
+    },
+    {
+     "file": "granada/c/textures/cobble_orm.jpg",
+     "bytes": 299550,
+     "ms": 28
+    },
+    {
+     "file": "granada/c/textures/cobble_normal.jpg",
+     "bytes": 373781,
+     "ms": 30
+    },
+    {
+     "file": "granada/c/textures/plaster_base.jpg",
+     "bytes": 276340,
+     "ms": 31
+    },
+    {
+     "file": "granada/c/textures/plaster_orm.jpg",
+     "bytes": 102840,
+     "ms": 36
+    },
+    {
+     "file": "granada/c/textures/rooftile_base.jpg",
+     "bytes": 328786,
+     "ms": 44
+    },
+    {
+     "file": "granada/c/textures/plaster_normal.jpg",
+     "bytes": 505220,
+     "ms": 46
+    },
+    {
+     "file": "granada/c/textures/rooftile_orm.jpg",
+     "bytes": 82064,
+     "ms": 38
+    },
+    {
+     "file": "granada/c/textures/rooftile_normal.jpg",
+     "bytes": 362450,
+     "ms": 46
+    },
+    {
+     "file": "granada/c/textures/wood_base.jpg",
+     "bytes": 275317,
+     "ms": 46
+    },
+    {
+     "file": "granada/c/textures/wood_orm.jpg",
+     "bytes": 267353,
+     "ms": 48
+    },
+    {
+     "file": "granada/c/textures/wood_normal.jpg",
+     "bytes": 179091,
+     "ms": 50
+    },
+    {
+     "file": "granada/c/textures/plaster_warm_base.jpg",
+     "bytes": 251880,
+     "ms": 55
+    },
+    {
+     "file": "granada/c/textures/plaster_warm_orm.jpg",
+     "bytes": 102840,
+     "ms": 54
+    },
+    {
+     "file": "granada/c/textures/earth_base.jpg",
+     "bytes": 58651,
+     "ms": 56
+    },
+    {
+     "file": "granada/c/textures/plaster_warm_normal.jpg",
+     "bytes": 505220,
+     "ms": 58
+    },
+    {
+     "file": "granada/c/textures/earth_orm.jpg",
+     "bytes": 107745,
+     "ms": 56
+    },
+    {
+     "file": "granada/c/textures/earth_normal.jpg",
+     "bytes": 846968,
+     "ms": 64
+    },
+    {
+     "file": "granada/2/mill.gltf",
+     "bytes": 22791,
+     "ms": 9
+    },
+    {
+     "file": "granada/2/mill.bin",
+     "bytes": 1707480,
+     "ms": 871
+    },
+    {
+     "file": "granada/2/textures/plaster_base.jpg",
+     "bytes": 276340,
+     "ms": 8
+    },
+    {
+     "file": "granada/2/textures/plaster_orm.jpg",
+     "bytes": 102840,
+     "ms": 10
+    },
+    {
+     "file": "granada/2/textures/plaster_normal.jpg",
+     "bytes": 505220,
+     "ms": 11
+    },
+    {
+     "file": "granada/2/textures/rooftile_base.jpg",
+     "bytes": 328786,
+     "ms": 12
+    },
+    {
+     "file": "granada/2/textures/rooftile_orm.jpg",
+     "bytes": 82064,
+     "ms": 13
+    },
+    {
+     "file": "granada/2/textures/rooftile_normal.jpg",
+     "bytes": 362450,
+     "ms": 14
+    },
+    {
+     "file": "granada/2/textures/wood_base.jpg",
+     "bytes": 275317,
+     "ms": 15
+    },
+    {
+     "file": "granada/2/textures/wood_orm.jpg",
+     "bytes": 267353,
+     "ms": 19
+    },
+    {
+     "file": "granada/2/textures/wood_normal.jpg",
+     "bytes": 179091,
+     "ms": 22
+    },
+    {
+     "file": "granada/2/textures/stone_orm.jpg",
+     "bytes": 173326,
+     "ms": 27
+    },
+    {
+     "file": "granada/2/textures/stone_base.jpg",
+     "bytes": 294472,
+     "ms": 29
+    },
+    {
+     "file": "granada/2/textures/stone_normal.jpg",
+     "bytes": 488747,
+     "ms": 28
+    },
+    {
+     "file": "granada/2/textures/earth_base.jpg",
+     "bytes": 58651,
+     "ms": 28
+    },
+    {
+     "file": "granada/2/textures/earth_orm.jpg",
+     "bytes": 107745,
+     "ms": 28
+    },
+    {
+     "file": "granada/2/textures/earth_normal.jpg",
+     "bytes": 846968,
+     "ms": 48
+    }
+   ],
+   "played": {
+    "daysPassed": 37,
+    "day": 62
+   },
+   "models": [
+    "granada/town",
+    "granada/landmarks",
+    "granada/c/palace",
+    "granada/mill"
+   ],
+   "modelFailures": [],
+   "views": {
+    "1-proof": {
+     "palaceBoxPixels": {
+      "width": 264,
+      "height": 97
+     },
+     "pose": {
+      "tx": 640,
+      "ty": 43.09174427004298,
+      "tz": 0,
+      "yaw": 1.07,
+      "pitch": 0.17,
+      "distance": 330
+     },
+     "counted": {
+      "atMs": 25382,
+      "frames": {
+       "frames": 1199,
+       "durationMs": 9992.1,
+       "meanMs": 8.334,
+       "p50Ms": 8.3,
+       "p95Ms": 9,
+       "p99Ms": 9.2,
+       "maxMs": 9.4,
+       "minMs": 7.4,
+       "over16_7": 0,
+       "over33_3": 0,
+       "over50": 0,
+       "avgFps": 119.995,
+       "longestUnder30FpsMs": 0
+      },
+      "loops": 2,
+      "heapMb": 134.8,
+      "heapNote": "performance.memory.usedJSHeapSize: the JavaScript heap only, not the graphics memory",
+      "contexts": {
+       "webgpu": 1
+      },
+      "intervals": 1,
+      "workers": 0,
+      "listeners": 113,
+      "audio": {
+       "contexts": 0,
+       "nodesMade": 0
+      },
+      "provided": {
+       "renderer": {
+        "drawCalls": 197,
+        "triangles": 2306834,
+        "geometries": 147,
+        "textures": 69,
+        "cpuRenderMs": 1.0999999940395355,
+        "engine": "three r187 webgpu",
+        "pixels": [
+         1920,
+         917
+        ],
+        "walkers": 9,
+        "atWork": 24,
+        "models": [
+         "granada/town",
+         "granada/landmarks",
+         "granada/c/palace",
+         "granada/mill"
+        ],
+        "modelFailures": [],
+        "eased": 0
+       }
+      }
+     }
+    },
+    "2-nearest-strategic": {
+     "palaceBoxPixels": {
+      "width": 499,
+      "height": 204
+     },
+     "nearestDistanceHoldingThePalace": 160,
+     "pose": {
+      "tx": 760,
+      "ty": 86.38954178869974,
+      "tz": -150,
+      "yaw": 1.5708,
+      "pitch": 0.1222,
+      "distance": 160
+     },
+     "counted": {
+      "atMs": 39403,
+      "frames": {
+       "frames": 1200,
+       "durationMs": 9999,
+       "meanMs": 8.332,
+       "p50Ms": 8.3,
+       "p95Ms": 9,
+       "p99Ms": 9.3,
+       "maxMs": 9.4,
+       "minMs": 7.3,
+       "over16_7": 0,
+       "over33_3": 0,
+       "over50": 0,
+       "avgFps": 120.012,
+       "longestUnder30FpsMs": 0
+      },
+      "loops": 2,
+      "heapMb": 117.6,
+      "heapNote": "performance.memory.usedJSHeapSize: the JavaScript heap only, not the graphics memory",
+      "contexts": {
+       "webgpu": 1
+      },
+      "intervals": 1,
+      "workers": 0,
+      "listeners": 88,
+      "audio": {
+       "contexts": 0,
+       "nodesMade": 0
+      },
+      "provided": {
+       "renderer": {
+        "drawCalls": 166,
+        "triangles": 2283563,
+        "geometries": 147,
+        "textures": 69,
+        "cpuRenderMs": 1.5999999940395355,
+        "engine": "three r187 webgpu",
+        "pixels": [
+         1920,
+         917
+        ],
+        "walkers": 9,
+        "atWork": 24,
+        "models": [
+         "granada/town",
+         "granada/landmarks",
+         "granada/c/palace",
+         "granada/mill"
+        ],
+        "modelFailures": [],
+        "eased": 0
+       }
+      }
+     }
+    },
+    "3-farthest-strategic": {
+     "palaceBoxPixels": {
+      "width": 89,
+      "height": 30
+     },
+     "pose": {
+      "tx": 30,
+      "ty": 89.31725393305372,
+      "tz": 70,
+      "yaw": 1.41,
+      "pitch": 0.17,
+      "distance": 980
+     },
+     "counted": {
+      "atMs": 52429,
+      "frames": {
+       "frames": 1200,
+       "durationMs": 9999.9,
+       "meanMs": 8.333,
+       "p50Ms": 8.3,
+       "p95Ms": 9.2,
+       "p99Ms": 9.3,
+       "maxMs": 9.4,
+       "minMs": 7.3,
+       "over16_7": 0,
+       "over33_3": 0,
+       "over50": 0,
+       "avgFps": 120.001,
+       "longestUnder30FpsMs": 0
+      },
+      "loops": 2,
+      "heapMb": 130,
+      "heapNote": "performance.memory.usedJSHeapSize: the JavaScript heap only, not the graphics memory",
+      "contexts": {
+       "webgpu": 1
+      },
+      "intervals": 1,
+      "workers": 0,
+      "listeners": 88,
+      "audio": {
+       "contexts": 0,
+       "nodesMade": 0
+      },
+      "provided": {
+       "renderer": {
+        "drawCalls": 306,
+        "triangles": 2714233,
+        "geometries": 147,
+        "textures": 69,
+        "cpuRenderMs": 1.7999999821186066,
+        "engine": "three r187 webgpu",
+        "pixels": [
+         1920,
+         917
+        ],
+        "walkers": 9,
+        "atWork": 24,
+        "models": [
+         "granada/town",
+         "granada/landmarks",
+         "granada/c/palace",
+         "granada/mill"
+        ],
+        "modelFailures": [],
+        "eased": 0
+       }
+      }
+     }
+    },
+    "4-photo-farthest": {
+     "palaceBoxPixels": {
+      "width": 52,
+      "height": 17
+     },
+     "pose": {
+      "tx": 30,
+      "ty": 89.31725393305372,
+      "tz": 70,
+      "yaw": 1.41,
+      "pitch": 0.17,
+      "distance": 980
+     },
+     "counted": {
+      "atMs": 65231,
+      "frames": {
+       "frames": 1199,
+       "durationMs": 9991.6,
+       "meanMs": 8.333,
+       "p50Ms": 8.3,
+       "p95Ms": 8.9,
+       "p99Ms": 9.3,
+       "maxMs": 9.4,
+       "minMs": 7.3,
+       "over16_7": 0,
+       "over33_3": 0,
+       "over50": 0,
+       "avgFps": 120.001,
+       "longestUnder30FpsMs": 0
+      },
+      "loops": 2,
+      "heapMb": 127.3,
+      "heapNote": "performance.memory.usedJSHeapSize: the JavaScript heap only, not the graphics memory",
+      "contexts": {
+       "webgpu": 1
+      },
+      "intervals": 1,
+      "workers": 0,
+      "listeners": 150,
+      "audio": {
+       "contexts": 0,
+       "nodesMade": 0
+      },
+      "provided": {
+       "renderer": {
+        "drawCalls": 306,
+        "triangles": 2714233,
+        "geometries": 147,
+        "textures": 69,
+        "cpuRenderMs": 1.800000011920929,
+        "engine": "three r187 webgpu",
+        "pixels": [
+         1920,
+         1080
+        ],
+        "walkers": 9,
+        "atWork": 24,
+        "models": [
+         "granada/town",
+         "granada/landmarks",
+         "granada/c/palace",
+         "granada/mill"
+        ],
+        "modelFailures": [],
+        "eased": 0
+       }
+      }
+     }
+    },
+    "5-photo-nearest": {
+     "palaceBoxPixels": {
+      "width": 817,
+      "height": 268
+     },
+     "nearestDistanceHoldingThePalace": 400,
+     "pose": {
+      "tx": 760,
+      "ty": 106.78954178869974,
+      "tz": -150,
+      "yaw": 1.5708,
+      "pitch": 0.1222,
+      "distance": 400
+     },
+     "counted": {
+      "atMs": 82317,
+      "frames": {
+       "frames": 872,
+       "durationMs": 9959.8,
+       "meanMs": 11.422,
+       "p50Ms": 8.3,
+       "p95Ms": 36.9,
+       "p99Ms": 53.5,
+       "maxMs": 76.7,
+       "minMs": 7.1,
+       "over16_7": 97,
+       "over33_3": 55,
+       "over50": 18,
+       "avgFps": 87.552,
+       "longestUnder30FpsMs": 161.1
+      },
+      "loops": 2,
+      "heapMb": 108.4,
+      "heapNote": "performance.memory.usedJSHeapSize: the JavaScript heap only, not the graphics memory",
+      "contexts": {
+       "webgpu": 1
+      },
+      "intervals": 1,
+      "workers": 0,
+      "listeners": 95,
+      "audio": {
+       "contexts": 0,
+       "nodesMade": 0
+      },
+      "provided": {
+       "renderer": {
+        "drawCalls": 215,
+        "triangles": 2378807,
+        "geometries": 147,
+        "textures": 69,
+        "cpuRenderMs": 1.600000023841858,
+        "engine": "three r187 webgpu",
+        "pixels": [
+         1920,
+         1080
+        ],
+        "walkers": 9,
+        "atWork": 24,
+        "models": [
+         "granada/town",
+         "granada/landmarks",
+         "granada/c/palace",
+         "granada/mill"
+        ],
+        "modelFailures": [],
+        "eased": 0
+       }
+      }
+     }
+    }
+   },
+   "consoleErrors": []
+  },
+  {
+   "set": "a",
+   "size": "1920x1080",
+   "preset": "medium",
+   "readyMs": 1591,
+   "fetched": [
+    {
+     "file": "granada/2/town.gltf",
+     "bytes": 44825,
+     "ms": 2
+    },
+    {
+     "file": "granada/2/town.bin",
+     "bytes": 1171152,
+     "ms": 5
+    },
+    {
+     "file": "granada/2/textures/stone_orm.jpg",
+     "bytes": 173326,
+     "ms": 4
+    },
+    {
+     "file": "granada/2/textures/stone_base.jpg",
+     "bytes": 294472,
+     "ms": 3
+    },
+    {
+     "file": "granada/2/textures/plaster_base.jpg",
+     "bytes": 276340,
+     "ms": 5
+    },
+    {
+     "file": "granada/2/textures/stone_normal.jpg",
+     "bytes": 488747,
+     "ms": 3
+    },
+    {
+     "file": "granada/2/textures/plaster_orm.jpg",
+     "bytes": 102840,
+     "ms": 4
+    },
+    {
+     "file": "granada/2/textures/rooftile_base.jpg",
+     "bytes": 328786,
+     "ms": 5
+    },
+    {
+     "file": "granada/2/textures/plaster_normal.jpg",
+     "bytes": 505220,
+     "ms": 6
+    },
+    {
+     "file": "granada/2/textures/rooftile_orm.jpg",
+     "bytes": 82064,
+     "ms": 5
+    },
+    {
+     "file": "granada/2/textures/wood_base.jpg",
+     "bytes": 275317,
+     "ms": 6
+    },
+    {
+     "file": "granada/2/textures/rooftile_normal.jpg",
+     "bytes": 362450,
+     "ms": 6
+    },
+    {
+     "file": "granada/2/textures/wood_orm.jpg",
+     "bytes": 267353,
+     "ms": 6
+    },
+    {
+     "file": "granada/2/textures/wood_normal.jpg",
+     "bytes": 179091,
+     "ms": 7
+    },
+    {
+     "file": "granada/2/textures/plaster_warm_base.jpg",
+     "bytes": 251880,
+     "ms": 10
+    },
+    {
+     "file": "granada/2/textures/plaster_warm_orm.jpg",
+     "bytes": 102840,
+     "ms": 7
+    },
+    {
+     "file": "granada/2/textures/plaster_warm_normal.jpg",
+     "bytes": 505220,
+     "ms": 11
+    },
+    {
+     "file": "granada/2/textures/earth_base.jpg",
+     "bytes": 58651,
+     "ms": 9
+    },
+    {
+     "file": "granada/2/textures/earth_orm.jpg",
+     "bytes": 107745,
+     "ms": 10
+    },
+    {
+     "file": "granada/2/textures/earth_normal.jpg",
+     "bytes": 846968,
+     "ms": 12
+    },
+    {
+     "file": "granada/2/landmarks.gltf",
+     "bytes": 27834,
+     "ms": 1
+    },
+    {
+     "file": "granada/2/landmarks.bin",
+     "bytes": 1356120,
+     "ms": 12
+    },
+    {
+     "file": "granada/2/textures/wood_base.jpg",
+     "bytes": 275317,
+     "ms": 1
+    },
+    {
+     "file": "granada/2/textures/wood_orm.jpg",
+     "bytes": 267353,
+     "ms": 1
+    },
+    {
+     "file": "granada/2/textures/wood_normal.jpg",
+     "bytes": 179091,
+     "ms": 1
+    },
+    {
+     "file": "granada/2/textures/stone_base.jpg",
+     "bytes": 294472,
+     "ms": 2
+    },
+    {
+     "file": "granada/2/textures/stone_orm.jpg",
+     "bytes": 173326,
+     "ms": 2
+    },
+    {
+     "file": "granada/2/textures/stone_normal.jpg",
+     "bytes": 488747,
+     "ms": 2
+    },
+    {
+     "file": "granada/2/textures/plaster_base.jpg",
+     "bytes": 276340,
+     "ms": 2
+    },
+    {
+     "file": "granada/2/textures/plaster_orm.jpg",
+     "bytes": 102840,
+     "ms": 2
+    },
+    {
+     "file": "granada/2/textures/plaster_normal.jpg",
+     "bytes": 505220,
+     "ms": 3
+    },
+    {
+     "file": "granada/2/textures/rooftile_base.jpg",
+     "bytes": 328786,
+     "ms": 3
+    },
+    {
+     "file": "granada/2/textures/rooftile_orm.jpg",
+     "bytes": 82064,
+     "ms": 3
+    },
+    {
+     "file": "granada/2/textures/rooftile_normal.jpg",
+     "bytes": 362450,
+     "ms": 3
+    },
+    {
+     "file": "granada/2/textures/plaster_warm_base.jpg",
+     "bytes": 251880,
+     "ms": 4
+    },
+    {
+     "file": "granada/2/textures/plaster_warm_orm.jpg",
+     "bytes": 102840,
+     "ms": 3
+    },
+    {
+     "file": "granada/2/textures/plaster_warm_normal.jpg",
+     "bytes": 505220,
+     "ms": 4
+    },
+    {
+     "file": "granada/2/textures/earth_base.jpg",
+     "bytes": 58651,
+     "ms": 5
+    },
+    {
+     "file": "granada/2/textures/earth_orm.jpg",
+     "bytes": 107745,
+     "ms": 7
+    },
+    {
+     "file": "granada/2/textures/earth_normal.jpg",
+     "bytes": 846968,
+     "ms": 8
+    },
+    {
+     "file": "granada/2/textures/plaster_red_orm.jpg",
+     "bytes": 102840,
+     "ms": 10
+    },
+    {
+     "file": "granada/2/textures/plaster_red_base.jpg",
+     "bytes": 211514,
+     "ms": 11
+    },
+    {
+     "file": "granada/2/textures/cobble_base.jpg",
+     "bytes": 359909,
+     "ms": 10
+    },
+    {
+     "file": "granada/2/textures/plaster_red_normal.jpg",
+     "bytes": 505220,
+     "ms": 12
+    },
+    {
+     "file": "granada/2/textures/cobble_orm.jpg",
+     "bytes": 299550,
+     "ms": 11
+    },
+    {
+     "file": "granada/2/textures/cobble_normal.jpg",
+     "bytes": 373781,
+     "ms": 12
+    },
+    {
+     "file": "granada/2/mill.gltf",
+     "bytes": 22791,
+     "ms": 2
+    },
+    {
+     "file": "granada/2/mill.bin",
+     "bytes": 1707480,
+     "ms": 4
+    },
+    {
+     "file": "granada/2/textures/plaster_base.jpg",
+     "bytes": 276340,
+     "ms": 1
+    },
+    {
+     "file": "granada/2/textures/plaster_orm.jpg",
+     "bytes": 102840,
+     "ms": 1
+    },
+    {
+     "file": "granada/2/textures/rooftile_base.jpg",
+     "bytes": 328786,
+     "ms": 1
+    },
+    {
+     "file": "granada/2/textures/plaster_normal.jpg",
+     "bytes": 505220,
+     "ms": 1
+    },
+    {
+     "file": "granada/2/textures/rooftile_normal.jpg",
+     "bytes": 362450,
+     "ms": 2
+    },
+    {
+     "file": "granada/2/textures/rooftile_orm.jpg",
+     "bytes": 82064,
+     "ms": 1
+    },
+    {
+     "file": "granada/2/textures/wood_orm.jpg",
+     "bytes": 267353,
+     "ms": 2
+    },
+    {
+     "file": "granada/2/textures/wood_normal.jpg",
+     "bytes": 179091,
+     "ms": 3
+    },
+    {
+     "file": "granada/2/textures/wood_base.jpg",
+     "bytes": 275317,
+     "ms": 2
+    },
+    {
+     "file": "granada/2/textures/stone_base.jpg",
+     "bytes": 294472,
+     "ms": 3
+    },
+    {
+     "file": "granada/2/textures/stone_orm.jpg",
+     "bytes": 173326,
+     "ms": 3
+    },
+    {
+     "file": "granada/2/textures/stone_normal.jpg",
+     "bytes": 488747,
+     "ms": 4
+    },
+    {
+     "file": "granada/2/textures/earth_base.jpg",
+     "bytes": 58651,
+     "ms": 4
+    },
+    {
+     "file": "granada/2/textures/earth_orm.jpg",
+     "bytes": 107745,
+     "ms": 4
+    },
+    {
+     "file": "granada/2/textures/earth_normal.jpg",
+     "bytes": 846968,
+     "ms": 4
+    }
+   ],
+   "played": {
+    "daysPassed": 37,
+    "day": 62
+   },
+   "models": [
+    "granada/town",
+    "granada/landmarks",
+    "granada/mill"
+   ],
+   "modelFailures": [],
+   "views": {
+    "1-proof": {
+     "palaceBoxPixels": {
+      "width": 200,
+      "height": 88
+     },
+     "pose": {
+      "tx": 640,
+      "ty": 43.09174427004298,
+      "tz": 0,
+      "yaw": 1.07,
+      "pitch": 0.17,
+      "distance": 330
+     },
+     "counted": {
+      "atMs": 22763,
+      "frames": {
+       "frames": 351,
+       "durationMs": 9994.5,
+       "meanMs": 28.474,
+       "p50Ms": 27.1,
+       "p95Ms": 54.2,
+       "p99Ms": 64.2,
+       "maxMs": 68,
+       "minMs": 6.8,
+       "over16_7": 292,
+       "over33_3": 125,
+       "over50": 33,
+       "avgFps": 35.119,
+       "longestUnder30FpsMs": 123.2
+      },
+      "loops": 2,
+      "heapMb": 188.2,
+      "heapNote": "performance.memory.usedJSHeapSize: the JavaScript heap only, not the graphics memory",
+      "contexts": {
+       "webgpu": 1
+      },
+      "intervals": 1,
+      "workers": 0,
+      "listeners": 88,
+      "audio": {
+       "contexts": 0,
+       "nodesMade": 0
+      },
+      "provided": {
+       "renderer": {
+        "drawCalls": 193,
+        "triangles": 2020293,
+        "geometries": 136,
+        "textures": 62,
+        "cpuRenderMs": 1.699999988079071,
+        "engine": "three r187 webgpu",
+        "pixels": [
+         1920,
+         917
+        ],
+        "walkers": 9,
+        "atWork": 24,
+        "models": [
+         "granada/town",
+         "granada/landmarks",
+         "granada/mill"
+        ],
+        "modelFailures": [],
+        "eased": 0
+       }
+      }
+     }
+    },
+    "2-nearest-strategic": {
+     "palaceBoxPixels": {
+      "width": 382,
+      "height": 192
+     },
+     "nearestDistanceHoldingThePalace": 150,
+     "pose": {
+      "tx": 760,
+      "ty": 85.53954178869974,
+      "tz": -150,
+      "yaw": 1.5708,
+      "pitch": 0.1222,
+      "distance": 150
+     },
+     "counted": {
+      "atMs": 36829,
+      "frames": {
+       "frames": 385,
+       "durationMs": 9951,
+       "meanMs": 25.847,
+       "p50Ms": 26.2,
+       "p95Ms": 46.1,
+       "p99Ms": 55.6,
+       "maxMs": 90.2,
+       "minMs": 7,
+       "over16_7": 302,
+       "over33_3": 124,
+       "over50": 13,
+       "avgFps": 38.69,
+       "longestUnder30FpsMs": 148.3
+      },
+      "loops": 2,
+      "heapMb": 167.1,
+      "heapNote": "performance.memory.usedJSHeapSize: the JavaScript heap only, not the graphics memory",
+      "contexts": {
+       "webgpu": 1
+      },
+      "intervals": 1,
+      "workers": 0,
+      "listeners": 88,
+      "audio": {
+       "contexts": 0,
+       "nodesMade": 0
+      },
+      "provided": {
+       "renderer": {
+        "drawCalls": 156,
+        "triangles": 1915207,
+        "geometries": 136,
+        "textures": 62,
+        "cpuRenderMs": 1.7000000178813934,
+        "engine": "three r187 webgpu",
+        "pixels": [
+         1920,
+         917
+        ],
+        "walkers": 9,
+        "atWork": 24,
+        "models": [
+         "granada/town",
+         "granada/landmarks",
+         "granada/mill"
+        ],
+        "modelFailures": [],
+        "eased": 0
+       }
+      }
+     }
+    },
+    "3-farthest-strategic": {
+     "palaceBoxPixels": {
+      "width": 67,
+      "height": 28
+     },
+     "pose": {
+      "tx": 30,
+      "ty": 89.31725393305372,
+      "tz": 70,
+      "yaw": 1.41,
+      "pitch": 0.17,
+      "distance": 980
+     },
+     "counted": {
+      "atMs": 49750,
+      "frames": {
+       "frames": 295,
+       "durationMs": 9912.4,
+       "meanMs": 33.601,
+       "p50Ms": 34.2,
+       "p95Ms": 60,
+       "p99Ms": 70.5,
+       "maxMs": 71.8,
+       "minMs": 7.4,
+       "over16_7": 272,
+       "over33_3": 156,
+       "over50": 40,
+       "avgFps": 29.761,
+       "longestUnder30FpsMs": 194.8
+      },
+      "loops": 2,
+      "heapMb": 170.1,
+      "heapNote": "performance.memory.usedJSHeapSize: the JavaScript heap only, not the graphics memory",
+      "contexts": {
+       "webgpu": 1
+      },
+      "intervals": 1,
+      "workers": 0,
+      "listeners": 88,
+      "audio": {
+       "contexts": 0,
+       "nodesMade": 0
+      },
+      "provided": {
+       "renderer": {
+        "drawCalls": 298,
+        "triangles": 3092007,
+        "geometries": 136,
+        "textures": 62,
+        "cpuRenderMs": 2.199999988079071,
+        "engine": "three r187 webgpu",
+        "pixels": [
+         1920,
+         917
+        ],
+        "walkers": 9,
+        "atWork": 24,
+        "models": [
+         "granada/town",
+         "granada/landmarks",
+         "granada/mill"
+        ],
+        "modelFailures": [],
+        "eased": 1
+       }
+      }
+     }
+    },
+    "4-photo-farthest": {
+     "palaceBoxPixels": {
+      "width": 39,
+      "height": 16
+     },
+     "pose": {
+      "tx": 30,
+      "ty": 89.31725393305372,
+      "tz": 70,
+      "yaw": 1.41,
+      "pitch": 0.17,
+      "distance": 980
+     },
+     "counted": {
+      "atMs": 62701,
+      "frames": {
+       "frames": 964,
+       "durationMs": 9983.9,
+       "meanMs": 10.357,
+       "p50Ms": 8.4,
+       "p95Ms": 17.4,
+       "p99Ms": 47.2,
+       "maxMs": 65.8,
+       "minMs": 7,
+       "over16_7": 76,
+       "over33_3": 29,
+       "over50": 9,
+       "avgFps": 96.555,
+       "longestUnder30FpsMs": 175.1
+      },
+      "loops": 2,
+      "heapMb": 166.6,
+      "heapNote": "performance.memory.usedJSHeapSize: the JavaScript heap only, not the graphics memory",
+      "contexts": {
+       "webgpu": 1
+      },
+      "intervals": 1,
+      "workers": 0,
+      "listeners": 95,
+      "audio": {
+       "contexts": 0,
+       "nodesMade": 0
+      },
+      "provided": {
+       "renderer": {
+        "drawCalls": 298,
+        "triangles": 3092007,
+        "geometries": 136,
+        "textures": 62,
+        "cpuRenderMs": 1.5999999940395355,
+        "engine": "three r187 webgpu",
+        "pixels": [
+         1920,
+         1080
+        ],
+        "walkers": 9,
+        "atWork": 24,
+        "models": [
+         "granada/town",
+         "granada/landmarks",
+         "granada/mill"
+        ],
+        "modelFailures": [],
+        "eased": 2
+       }
+      }
+     }
+    },
+    "5-photo-nearest": {
+     "palaceBoxPixels": {
+      "width": 616,
+      "height": 254
+     },
+     "nearestDistanceHoldingThePalace": 390,
+     "pose": {
+      "tx": 760,
+      "ty": 105.93954178869974,
+      "tz": -150,
+      "yaw": 1.5708,
+      "pitch": 0.1222,
+      "distance": 390
+     },
+     "counted": {
+      "atMs": 79666,
+      "frames": {
+       "frames": 1200,
+       "durationMs": 9999.9,
+       "meanMs": 8.333,
+       "p50Ms": 8.3,
+       "p95Ms": 9,
+       "p99Ms": 9.1,
+       "maxMs": 9.3,
+       "minMs": 7.4,
+       "over16_7": 0,
+       "over33_3": 0,
+       "over50": 0,
+       "avgFps": 120.001,
+       "longestUnder30FpsMs": 0
+      },
+      "loops": 2,
+      "heapMb": 173.9,
+      "heapNote": "performance.memory.usedJSHeapSize: the JavaScript heap only, not the graphics memory",
+      "contexts": {
+       "webgpu": 1
+      },
+      "intervals": 1,
+      "workers": 0,
+      "listeners": 95,
+      "audio": {
+       "contexts": 0,
+       "nodesMade": 0
+      },
+      "provided": {
+       "renderer": {
+        "drawCalls": 207,
+        "triangles": 2142671,
+        "geometries": 136,
+        "textures": 62,
+        "cpuRenderMs": 1.4000000059604645,
+        "engine": "three r187 webgpu",
+        "pixels": [
+         1920,
+         1080
+        ],
+        "walkers": 9,
+        "atWork": 24,
+        "models": [
+         "granada/town",
+         "granada/landmarks",
+         "granada/mill"
+        ],
+        "modelFailures": [],
+        "eased": 2
+       }
+      }
+     }
+    }
+   },
+   "consoleErrors": []
+  },
+  {
+   "set": "c",
+   "size": "1920x1080",
+   "preset": "medium",
+   "readyMs": 2221,
+   "fetched": [
+    {
+     "file": "granada/2/town.gltf",
+     "bytes": 44825,
+     "ms": 2
+    },
+    {
+     "file": "granada/2/town.bin",
+     "bytes": 1171152,
+     "ms": 20
+    },
+    {
+     "file": "granada/2/textures/stone_base.jpg",
+     "bytes": 294472,
+     "ms": 9
+    },
+    {
+     "file": "granada/2/textures/stone_orm.jpg",
+     "bytes": 173326,
+     "ms": 7
+    },
+    {
+     "file": "granada/2/textures/plaster_base.jpg",
+     "bytes": 276340,
+     "ms": 11
+    },
+    {
+     "file": "granada/2/textures/stone_normal.jpg",
+     "bytes": 488747,
+     "ms": 14
+    },
+    {
+     "file": "granada/2/textures/plaster_orm.jpg",
+     "bytes": 102840,
+     "ms": 8
+    },
+    {
+     "file": "granada/2/textures/rooftile_orm.jpg",
+     "bytes": 82064,
+     "ms": 13
+    },
+    {
+     "file": "granada/2/textures/rooftile_base.jpg",
+     "bytes": 328786,
+     "ms": 18
+    },
+    {
+     "file": "granada/2/textures/plaster_normal.jpg",
+     "bytes": 505220,
+     "ms": 19
+    },
+    {
+     "file": "granada/2/textures/rooftile_normal.jpg",
+     "bytes": 362450,
+     "ms": 21
+    },
+    {
+     "file": "granada/2/textures/wood_base.jpg",
+     "bytes": 275317,
+     "ms": 21
+    },
+    {
+     "file": "granada/2/textures/wood_orm.jpg",
+     "bytes": 267353,
+     "ms": 22
+    },
+    {
+     "file": "granada/2/textures/wood_normal.jpg",
+     "bytes": 179091,
+     "ms": 23
+    },
+    {
+     "file": "granada/2/textures/plaster_warm_base.jpg",
+     "bytes": 251880,
+     "ms": 23
+    },
+    {
+     "file": "granada/2/textures/plaster_warm_orm.jpg",
+     "bytes": 102840,
+     "ms": 23
+    },
+    {
+     "file": "granada/2/textures/plaster_warm_normal.jpg",
+     "bytes": 505220,
+     "ms": 37
+    },
+    {
+     "file": "granada/2/textures/earth_base.jpg",
+     "bytes": 58651,
+     "ms": 36
+    },
+    {
+     "file": "granada/2/textures/earth_orm.jpg",
+     "bytes": 107745,
+     "ms": 36
+    },
+    {
+     "file": "granada/2/textures/earth_normal.jpg",
+     "bytes": 846968,
+     "ms": 38
+    },
+    {
+     "file": "granada/2/landmarks.gltf",
+     "bytes": 27834,
+     "ms": 3
+    },
+    {
+     "file": "granada/2/landmarks.bin",
+     "bytes": 1356120,
+     "ms": 40
+    },
+    {
+     "file": "granada/2/textures/wood_base.jpg",
+     "bytes": 275317,
+     "ms": 2
+    },
+    {
+     "file": "granada/2/textures/wood_orm.jpg",
+     "bytes": 267353,
+     "ms": 2
+    },
+    {
+     "file": "granada/2/textures/wood_normal.jpg",
+     "bytes": 179091,
+     "ms": 3
+    },
+    {
+     "file": "granada/2/textures/stone_base.jpg",
+     "bytes": 294472,
+     "ms": 4
+    },
+    {
+     "file": "granada/2/textures/stone_orm.jpg",
+     "bytes": 173326,
+     "ms": 9
+    },
+    {
+     "file": "granada/2/textures/stone_normal.jpg",
+     "bytes": 488747,
+     "ms": 6
+    },
+    {
+     "file": "granada/2/textures/plaster_base.jpg",
+     "bytes": 276340,
+     "ms": 9
+    },
+    {
+     "file": "granada/2/textures/plaster_orm.jpg",
+     "bytes": 102840,
+     "ms": 7
+    },
+    {
+     "file": "granada/2/textures/plaster_normal.jpg",
+     "bytes": 505220,
+     "ms": 14
+    },
+    {
+     "file": "granada/2/textures/rooftile_base.jpg",
+     "bytes": 328786,
+     "ms": 10
+    },
+    {
+     "file": "granada/2/textures/rooftile_orm.jpg",
+     "bytes": 82064,
+     "ms": 10
+    },
+    {
+     "file": "granada/2/textures/rooftile_normal.jpg",
+     "bytes": 362450,
+     "ms": 10
+    },
+    {
+     "file": "granada/2/textures/plaster_warm_base.jpg",
+     "bytes": 251880,
+     "ms": 15
+    },
+    {
+     "file": "granada/2/textures/plaster_warm_orm.jpg",
+     "bytes": 102840,
+     "ms": 13
+    },
+    {
+     "file": "granada/2/textures/plaster_warm_normal.jpg",
+     "bytes": 505220,
+     "ms": 13
+    },
+    {
+     "file": "granada/2/textures/earth_base.jpg",
+     "bytes": 58651,
+     "ms": 14
+    },
+    {
+     "file": "granada/2/textures/earth_normal.jpg",
+     "bytes": 846968,
+     "ms": 15
+    },
+    {
+     "file": "granada/2/textures/earth_orm.jpg",
+     "bytes": 107745,
+     "ms": 14
+    },
+    {
+     "file": "granada/2/textures/plaster_red_base.jpg",
+     "bytes": 211514,
+     "ms": 27
+    },
+    {
+     "file": "granada/2/textures/plaster_red_orm.jpg",
+     "bytes": 102840,
+     "ms": 17
+    },
+    {
+     "file": "granada/2/textures/plaster_red_normal.jpg",
+     "bytes": 505220,
+     "ms": 37
+    },
+    {
+     "file": "granada/2/textures/cobble_base.jpg",
+     "bytes": 359909,
+     "ms": 31
+    },
+    {
+     "file": "granada/2/textures/cobble_orm.jpg",
+     "bytes": 299550,
+     "ms": 35
+    },
+    {
+     "file": "granada/2/textures/cobble_normal.jpg",
+     "bytes": 373781,
+     "ms": 39
+    },
+    {
+     "file": "granada/c/palace.gltf",
+     "bytes": 36112,
+     "ms": 3
+    },
+    {
+     "file": "granada/c/palace.bin",
+     "bytes": 24575196,
+     "ms": 90
+    },
+    {
+     "file": "granada/c/textures/stone_orm.jpg",
+     "bytes": 173326,
+     "ms": 6
+    },
+    {
+     "file": "granada/c/textures/stone_base.jpg",
+     "bytes": 294472,
+     "ms": 7
+    },
+    {
+     "file": "granada/c/textures/stone_normal.jpg",
+     "bytes": 488747,
+     "ms": 12
+    },
+    {
+     "file": "granada/c/textures/plaster_red_orm.jpg",
+     "bytes": 102840,
+     "ms": 6
+    },
+    {
+     "file": "granada/c/textures/plaster_red_base.jpg",
+     "bytes": 211514,
+     "ms": 7
+    },
+    {
+     "file": "granada/c/textures/plaster_red_normal.jpg",
+     "bytes": 505220,
+     "ms": 18
+    },
+    {
+     "file": "granada/c/textures/cobble_orm.jpg",
+     "bytes": 299550,
+     "ms": 16
+    },
+    {
+     "file": "granada/c/textures/cobble_base.jpg",
+     "bytes": 359909,
+     "ms": 18
+    },
+    {
+     "file": "granada/c/textures/cobble_normal.jpg",
+     "bytes": 373781,
+     "ms": 17
+    },
+    {
+     "file": "granada/c/textures/plaster_base.jpg",
+     "bytes": 276340,
+     "ms": 19
+    },
+    {
+     "file": "granada/c/textures/plaster_orm.jpg",
+     "bytes": 102840,
+     "ms": 22
+    },
+    {
+     "file": "granada/c/textures/rooftile_base.jpg",
+     "bytes": 328786,
+     "ms": 29
+    },
+    {
+     "file": "granada/c/textures/plaster_normal.jpg",
+     "bytes": 505220,
+     "ms": 31
+    },
+    {
+     "file": "granada/c/textures/rooftile_orm.jpg",
+     "bytes": 82064,
+     "ms": 24
+    },
+    {
+     "file": "granada/c/textures/rooftile_normal.jpg",
+     "bytes": 362450,
+     "ms": 30
+    },
+    {
+     "file": "granada/c/textures/wood_base.jpg",
+     "bytes": 275317,
+     "ms": 31
+    },
+    {
+     "file": "granada/c/textures/wood_orm.jpg",
+     "bytes": 267353,
+     "ms": 31
+    },
+    {
+     "file": "granada/c/textures/plaster_warm_base.jpg",
+     "bytes": 251880,
+     "ms": 33
+    },
+    {
+     "file": "granada/c/textures/wood_normal.jpg",
+     "bytes": 179091,
+     "ms": 33
+    },
+    {
+     "file": "granada/c/textures/plaster_warm_orm.jpg",
+     "bytes": 102840,
+     "ms": 36
+    },
+    {
+     "file": "granada/c/textures/plaster_warm_normal.jpg",
+     "bytes": 505220,
+     "ms": 45
+    },
+    {
+     "file": "granada/c/textures/earth_base.jpg",
+     "bytes": 58651,
+     "ms": 35
+    },
+    {
+     "file": "granada/c/textures/earth_orm.jpg",
+     "bytes": 107745,
+     "ms": 45
+    },
+    {
+     "file": "granada/c/textures/earth_normal.jpg",
+     "bytes": 846968,
+     "ms": 47
+    },
+    {
+     "file": "granada/2/mill.gltf",
+     "bytes": 22791,
+     "ms": 2
+    },
+    {
+     "file": "granada/2/mill.bin",
+     "bytes": 1707480,
+     "ms": 12
+    },
+    {
+     "file": "granada/2/textures/plaster_base.jpg",
+     "bytes": 276340,
+     "ms": 1
+    },
+    {
+     "file": "granada/2/textures/plaster_orm.jpg",
+     "bytes": 102840,
+     "ms": 2
+    },
+    {
+     "file": "granada/2/textures/plaster_normal.jpg",
+     "bytes": 505220,
+     "ms": 1
+    },
+    {
+     "file": "granada/2/textures/rooftile_base.jpg",
+     "bytes": 328786,
+     "ms": 2
+    },
+    {
+     "file": "granada/2/textures/rooftile_normal.jpg",
+     "bytes": 362450,
+     "ms": 2
+    },
+    {
+     "file": "granada/2/textures/rooftile_orm.jpg",
+     "bytes": 82064,
+     "ms": 2
+    },
+    {
+     "file": "granada/2/textures/wood_orm.jpg",
+     "bytes": 267353,
+     "ms": 8
+    },
+    {
+     "file": "granada/2/textures/wood_base.jpg",
+     "bytes": 275317,
+     "ms": 9
+    },
+    {
+     "file": "granada/2/textures/wood_normal.jpg",
+     "bytes": 179091,
+     "ms": 6
+    },
+    {
+     "file": "granada/2/textures/stone_base.jpg",
+     "bytes": 294472,
+     "ms": 5
+    },
+    {
+     "file": "granada/2/textures/stone_orm.jpg",
+     "bytes": 173326,
+     "ms": 6
+    },
+    {
+     "file": "granada/2/textures/stone_normal.jpg",
+     "bytes": 488747,
+     "ms": 9
+    },
+    {
+     "file": "granada/2/textures/earth_base.jpg",
+     "bytes": 58651,
+     "ms": 8
+    },
+    {
+     "file": "granada/2/textures/earth_orm.jpg",
+     "bytes": 107745,
+     "ms": 8
+    },
+    {
+     "file": "granada/2/textures/earth_normal.jpg",
+     "bytes": 846968,
+     "ms": 9
+    }
+   ],
+   "played": {
+    "daysPassed": 37,
+    "day": 62
+   },
+   "models": [
+    "granada/town",
+    "granada/landmarks",
+    "granada/c/palace",
+    "granada/mill"
+   ],
+   "modelFailures": [],
+   "views": {
+    "1-proof": {
+     "palaceBoxPixels": {
+      "width": 264,
+      "height": 97
+     },
+     "pose": {
+      "tx": 640,
+      "ty": 43.09174427004298,
+      "tz": 0,
+      "yaw": 1.07,
+      "pitch": 0.17,
+      "distance": 330
+     },
+     "counted": {
+      "atMs": 23416,
+      "frames": {
+       "frames": 1170,
+       "durationMs": 9991.5,
+       "meanMs": 8.54,
+       "p50Ms": 8.3,
+       "p95Ms": 9.2,
+       "p99Ms": 16.7,
+       "maxMs": 17.4,
+       "minMs": 7.3,
+       "over16_7": 16,
+       "over33_3": 0,
+       "over50": 0,
+       "avgFps": 117.1,
+       "longestUnder30FpsMs": 0
+      },
+      "loops": 2,
+      "heapMb": 201.8,
+      "heapNote": "performance.memory.usedJSHeapSize: the JavaScript heap only, not the graphics memory",
+      "contexts": {
+       "webgpu": 1
+      },
+      "intervals": 1,
+      "workers": 0,
+      "listeners": 88,
+      "audio": {
+       "contexts": 0,
+       "nodesMade": 0
+      },
+      "provided": {
+       "renderer": {
+        "drawCalls": 215,
+        "triangles": 2431313,
+        "geometries": 147,
+        "textures": 80,
+        "cpuRenderMs": 1.399999976158142,
+        "engine": "three r187 webgpu",
+        "pixels": [
+         1920,
+         917
+        ],
+        "walkers": 9,
+        "atWork": 24,
+        "models": [
+         "granada/town",
+         "granada/landmarks",
+         "granada/c/palace",
+         "granada/mill"
+        ],
+        "modelFailures": [],
+        "eased": 0
+       }
+      }
+     }
+    },
+    "2-nearest-strategic": {
+     "palaceBoxPixels": {
+      "width": 499,
+      "height": 204
+     },
+     "nearestDistanceHoldingThePalace": 160,
+     "pose": {
+      "tx": 760,
+      "ty": 86.38954178869974,
+      "tz": -150,
+      "yaw": 1.5708,
+      "pitch": 0.1222,
+      "distance": 160
+     },
+     "counted": {
+      "atMs": 37459,
+      "frames": {
+       "frames": 1178,
+       "durationMs": 9991.5,
+       "meanMs": 8.482,
+       "p50Ms": 8.3,
+       "p95Ms": 9,
+       "p99Ms": 16.7,
+       "maxMs": 17,
+       "minMs": 7.4,
+       "over16_7": 12,
+       "over33_3": 0,
+       "over50": 0,
+       "avgFps": 117.9,
+       "longestUnder30FpsMs": 0
+      },
+      "loops": 2,
+      "heapMb": 203.8,
+      "heapNote": "performance.memory.usedJSHeapSize: the JavaScript heap only, not the graphics memory",
+      "contexts": {
+       "webgpu": 1
+      },
+      "intervals": 1,
+      "workers": 0,
+      "listeners": 88,
+      "audio": {
+       "contexts": 0,
+       "nodesMade": 0
+      },
+      "provided": {
+       "renderer": {
+        "drawCalls": 178,
+        "triangles": 2326227,
+        "geometries": 147,
+        "textures": 80,
+        "cpuRenderMs": 1.600000023841858,
+        "engine": "three r187 webgpu",
+        "pixels": [
+         1920,
+         917
+        ],
+        "walkers": 9,
+        "atWork": 24,
+        "models": [
+         "granada/town",
+         "granada/landmarks",
+         "granada/c/palace",
+         "granada/mill"
+        ],
+        "modelFailures": [],
+        "eased": 0
+       }
+      }
+     }
+    },
+    "3-farthest-strategic": {
+     "palaceBoxPixels": {
+      "width": 89,
+      "height": 30
+     },
+     "pose": {
+      "tx": 30,
+      "ty": 89.31725393305372,
+      "tz": 70,
+      "yaw": 1.41,
+      "pitch": 0.17,
+      "distance": 980
+     },
+     "counted": {
+      "atMs": 50290,
+      "frames": {
+       "frames": 1049,
+       "durationMs": 9991.5,
+       "meanMs": 9.525,
+       "p50Ms": 8.3,
+       "p95Ms": 16.7,
+       "p99Ms": 17.2,
+       "maxMs": 17.6,
+       "minMs": 7.3,
+       "over16_7": 89,
+       "over33_3": 0,
+       "over50": 0,
+       "avgFps": 104.989,
+       "longestUnder30FpsMs": 0
+      },
+      "loops": 2,
+      "heapMb": 203.1,
+      "heapNote": "performance.memory.usedJSHeapSize: the JavaScript heap only, not the graphics memory",
+      "contexts": {
+       "webgpu": 1
+      },
+      "intervals": 1,
+      "workers": 0,
+      "listeners": 88,
+      "audio": {
+       "contexts": 0,
+       "nodesMade": 0
+      },
+      "provided": {
+       "renderer": {
+        "drawCalls": 320,
+        "triangles": 3503027,
+        "geometries": 147,
+        "textures": 80,
+        "cpuRenderMs": 2,
+        "engine": "three r187 webgpu",
+        "pixels": [
+         1920,
+         917
+        ],
+        "walkers": 9,
+        "atWork": 24,
+        "models": [
+         "granada/town",
+         "granada/landmarks",
+         "granada/c/palace",
+         "granada/mill"
+        ],
+        "modelFailures": [],
+        "eased": 0
+       }
+      }
+     }
+    },
+    "4-photo-farthest": {
+     "palaceBoxPixels": {
+      "width": 52,
+      "height": 17
+     },
+     "pose": {
+      "tx": 30,
+      "ty": 89.31725393305372,
+      "tz": 70,
+      "yaw": 1.41,
+      "pitch": 0.17,
+      "distance": 980
+     },
+     "counted": {
+      "atMs": 63147,
+      "frames": {
+       "frames": 996,
+       "durationMs": 9991.5,
+       "meanMs": 10.032,
+       "p50Ms": 8.4,
+       "p95Ms": 16.7,
+       "p99Ms": 17.5,
+       "maxMs": 28.2,
+       "minMs": 7.3,
+       "over16_7": 123,
+       "over33_3": 0,
+       "over50": 0,
+       "avgFps": 99.685,
+       "longestUnder30FpsMs": 0
+      },
+      "loops": 2,
+      "heapMb": 201.2,
+      "heapNote": "performance.memory.usedJSHeapSize: the JavaScript heap only, not the graphics memory",
+      "contexts": {
+       "webgpu": 1
+      },
+      "intervals": 1,
+      "workers": 0,
+      "listeners": 95,
+      "audio": {
+       "contexts": 0,
+       "nodesMade": 0
+      },
+      "provided": {
+       "renderer": {
+        "drawCalls": 320,
+        "triangles": 3503027,
+        "geometries": 147,
+        "textures": 80,
+        "cpuRenderMs": 1.9000000059604645,
+        "engine": "three r187 webgpu",
+        "pixels": [
+         1920,
+         1080
+        ],
+        "walkers": 9,
+        "atWork": 24,
+        "models": [
+         "granada/town",
+         "granada/landmarks",
+         "granada/c/palace",
+         "granada/mill"
+        ],
+        "modelFailures": [],
+        "eased": 0
+       }
+      }
+     }
+    },
+    "5-photo-nearest": {
+     "palaceBoxPixels": {
+      "width": 817,
+      "height": 268
+     },
+     "nearestDistanceHoldingThePalace": 400,
+     "pose": {
+      "tx": 760,
+      "ty": 106.78954178869974,
+      "tz": -150,
+      "yaw": 1.5708,
+      "pitch": 0.1222,
+      "distance": 400
+     },
+     "counted": {
+      "atMs": 80270,
+      "frames": {
+       "frames": 1164,
+       "durationMs": 9991.6,
+       "meanMs": 8.584,
+       "p50Ms": 8.3,
+       "p95Ms": 9.1,
+       "p99Ms": 16.7,
+       "maxMs": 17.4,
+       "minMs": 7.4,
+       "over16_7": 19,
+       "over33_3": 0,
+       "over50": 0,
+       "avgFps": 116.498,
+       "longestUnder30FpsMs": 0
+      },
+      "loops": 2,
+      "heapMb": 206.8,
+      "heapNote": "performance.memory.usedJSHeapSize: the JavaScript heap only, not the graphics memory",
+      "contexts": {
+       "webgpu": 1
+      },
+      "intervals": 1,
+      "workers": 0,
+      "listeners": 95,
+      "audio": {
+       "contexts": 0,
+       "nodesMade": 0
+      },
+      "provided": {
+       "renderer": {
+        "drawCalls": 229,
+        "triangles": 2553691,
+        "geometries": 147,
+        "textures": 80,
+        "cpuRenderMs": 1.5,
+        "engine": "three r187 webgpu",
+        "pixels": [
+         1920,
+         1080
+        ],
+        "walkers": 9,
+        "atWork": 24,
+        "models": [
+         "granada/town",
+         "granada/landmarks",
+         "granada/c/palace",
+         "granada/mill"
+        ],
+        "modelFailures": [],
+        "eased": 0
+       }
+      }
+     }
+    }
+   },
+   "consoleErrors": []
+  },
+  {
+   "set": "a",
+   "size": "1920x1080",
+   "preset": "high",
+   "readyMs": 2272,
+   "fetched": [
+    {
+     "file": "granada/2/town.gltf",
+     "bytes": 44825,
+     "ms": 3
+    },
+    {
+     "file": "granada/2/town.bin",
+     "bytes": 1171152,
+     "ms": 20
+    },
+    {
+     "file": "granada/2/textures/stone_base.jpg",
+     "bytes": 294472,
+     "ms": 7
+    },
+    {
+     "file": "granada/2/textures/stone_orm.jpg",
+     "bytes": 173326,
+     "ms": 6
+    },
+    {
+     "file": "granada/2/textures/plaster_base.jpg",
+     "bytes": 276340,
+     "ms": 7
+    },
+    {
+     "file": "granada/2/textures/stone_normal.jpg",
+     "bytes": 488747,
+     "ms": 13
+    },
+    {
+     "file": "granada/2/textures/plaster_orm.jpg",
+     "bytes": 102840,
+     "ms": 5
+    },
+    {
+     "file": "granada/2/textures/plaster_normal.jpg",
+     "bytes": 505220,
+     "ms": 17
+    },
+    {
+     "file": "granada/2/textures/rooftile_base.jpg",
+     "bytes": 328786,
+     "ms": 15
+    },
+    {
+     "file": "granada/2/textures/rooftile_orm.jpg",
+     "bytes": 82064,
+     "ms": 14
+    },
+    {
+     "file": "granada/2/textures/rooftile_normal.jpg",
+     "bytes": 362450,
+     "ms": 15
+    },
+    {
+     "file": "granada/2/textures/wood_base.jpg",
+     "bytes": 275317,
+     "ms": 18
+    },
+    {
+     "file": "granada/2/textures/wood_orm.jpg",
+     "bytes": 267353,
+     "ms": 21
+    },
+    {
+     "file": "granada/2/textures/wood_normal.jpg",
+     "bytes": 179091,
+     "ms": 21
+    },
+    {
+     "file": "granada/2/textures/plaster_warm_orm.jpg",
+     "bytes": 102840,
+     "ms": 21
+    },
+    {
+     "file": "granada/2/textures/plaster_warm_base.jpg",
+     "bytes": 251880,
+     "ms": 29
+    },
+    {
+     "file": "granada/2/textures/plaster_warm_normal.jpg",
+     "bytes": 505220,
+     "ms": 31
+    },
+    {
+     "file": "granada/2/textures/earth_base.jpg",
+     "bytes": 58651,
+     "ms": 27
+    },
+    {
+     "file": "granada/2/textures/earth_orm.jpg",
+     "bytes": 107745,
+     "ms": 30
+    },
+    {
+     "file": "granada/2/textures/earth_normal.jpg",
+     "bytes": 846968,
+     "ms": 33
+    },
+    {
+     "file": "granada/2/landmarks.gltf",
+     "bytes": 27834,
+     "ms": 2
+    },
+    {
+     "file": "granada/2/landmarks.bin",
+     "bytes": 1356120,
+     "ms": 50
+    },
+    {
+     "file": "granada/2/textures/wood_base.jpg",
+     "bytes": 275317,
+     "ms": 5
+    },
+    {
+     "file": "granada/2/textures/wood_orm.jpg",
+     "bytes": 267353,
+     "ms": 5
+    },
+    {
+     "file": "granada/2/textures/wood_normal.jpg",
+     "bytes": 179091,
+     "ms": 8
+    },
+    {
+     "file": "granada/2/textures/stone_base.jpg",
+     "bytes": 294472,
+     "ms": 9
+    },
+    {
+     "file": "granada/2/textures/stone_normal.jpg",
+     "bytes": 488747,
+     "ms": 6
+    },
+    {
+     "file": "granada/2/textures/stone_orm.jpg",
+     "bytes": 173326,
+     "ms": 8
+    },
+    {
+     "file": "granada/2/textures/plaster_base.jpg",
+     "bytes": 276340,
+     "ms": 6
+    },
+    {
+     "file": "granada/2/textures/plaster_orm.jpg",
+     "bytes": 102840,
+     "ms": 11
+    },
+    {
+     "file": "granada/2/textures/plaster_normal.jpg",
+     "bytes": 505220,
+     "ms": 11
+    },
+    {
+     "file": "granada/2/textures/rooftile_base.jpg",
+     "bytes": 328786,
+     "ms": 13
+    },
+    {
+     "file": "granada/2/textures/rooftile_orm.jpg",
+     "bytes": 82064,
+     "ms": 13
+    },
+    {
+     "file": "granada/2/textures/plaster_warm_orm.jpg",
+     "bytes": 102840,
+     "ms": 14
+    },
+    {
+     "file": "granada/2/textures/rooftile_normal.jpg",
+     "bytes": 362450,
+     "ms": 13
+    },
+    {
+     "file": "granada/2/textures/plaster_warm_base.jpg",
+     "bytes": 251880,
+     "ms": 14
+    },
+    {
+     "file": "granada/2/textures/plaster_warm_normal.jpg",
+     "bytes": 505220,
+     "ms": 16
+    },
+    {
+     "file": "granada/2/textures/earth_base.jpg",
+     "bytes": 58651,
+     "ms": 16
+    },
+    {
+     "file": "granada/2/textures/earth_orm.jpg",
+     "bytes": 107745,
+     "ms": 16
+    },
+    {
+     "file": "granada/2/textures/earth_normal.jpg",
+     "bytes": 846968,
+     "ms": 14
+    },
+    {
+     "file": "granada/2/textures/plaster_red_base.jpg",
+     "bytes": 211514,
+     "ms": 41
+    },
+    {
+     "file": "granada/2/textures/plaster_red_orm.jpg",
+     "bytes": 102840,
+     "ms": 37
+    },
+    {
+     "file": "granada/2/textures/cobble_base.jpg",
+     "bytes": 359909,
+     "ms": 45
+    },
+    {
+     "file": "granada/2/textures/plaster_red_normal.jpg",
+     "bytes": 505220,
+     "ms": 45
+    },
+    {
+     "file": "granada/2/textures/cobble_orm.jpg",
+     "bytes": 299550,
+     "ms": 44
+    },
+    {
+     "file": "granada/2/textures/cobble_normal.jpg",
+     "bytes": 373781,
+     "ms": 46
+    },
+    {
+     "file": "granada/2/mill.gltf",
+     "bytes": 22791,
+     "ms": 2
+    },
+    {
+     "file": "granada/2/mill.bin",
+     "bytes": 1707480,
+     "ms": 7
+    },
+    {
+     "file": "granada/2/textures/plaster_base.jpg",
+     "bytes": 276340,
+     "ms": 1
+    },
+    {
+     "file": "granada/2/textures/plaster_orm.jpg",
+     "bytes": 102840,
+     "ms": 2
+    },
+    {
+     "file": "granada/2/textures/plaster_normal.jpg",
+     "bytes": 505220,
+     "ms": 2
+    },
+    {
+     "file": "granada/2/textures/rooftile_base.jpg",
+     "bytes": 328786,
+     "ms": 2
+    },
+    {
+     "file": "granada/2/textures/rooftile_normal.jpg",
+     "bytes": 362450,
+     "ms": 3
+    },
+    {
+     "file": "granada/2/textures/rooftile_orm.jpg",
+     "bytes": 82064,
+     "ms": 3
+    },
+    {
+     "file": "granada/2/textures/wood_base.jpg",
+     "bytes": 275317,
+     "ms": 4
+    },
+    {
+     "file": "granada/2/textures/stone_base.jpg",
+     "bytes": 294472,
+     "ms": 3
+    },
+    {
+     "file": "granada/2/textures/wood_orm.jpg",
+     "bytes": 267353,
+     "ms": 4
+    },
+    {
+     "file": "granada/2/textures/wood_normal.jpg",
+     "bytes": 179091,
+     "ms": 4
+    },
+    {
+     "file": "granada/2/textures/stone_orm.jpg",
+     "bytes": 173326,
+     "ms": 5
+    },
+    {
+     "file": "granada/2/textures/earth_base.jpg",
+     "bytes": 58651,
+     "ms": 4
+    },
+    {
+     "file": "granada/2/textures/stone_normal.jpg",
+     "bytes": 488747,
+     "ms": 5
+    },
+    {
+     "file": "granada/2/textures/earth_orm.jpg",
+     "bytes": 107745,
+     "ms": 4
+    },
+    {
+     "file": "granada/2/textures/earth_normal.jpg",
+     "bytes": 846968,
+     "ms": 6
+    }
+   ],
+   "played": {
+    "daysPassed": 37,
+    "day": 62
+   },
+   "models": [
+    "granada/town",
+    "granada/landmarks",
+    "granada/mill"
+   ],
+   "modelFailures": [],
+   "views": {
+    "1-proof": {
+     "palaceBoxPixels": {
+      "width": 200,
+      "height": 88
+     },
+     "pose": {
+      "tx": 640,
+      "ty": 43.09174427004298,
+      "tz": 0,
+      "yaw": 1.07,
+      "pitch": 0.17,
+      "distance": 330
+     },
+     "counted": {
+      "atMs": 23542,
+      "frames": {
+       "frames": 715,
+       "durationMs": 9991.2,
+       "meanMs": 13.974,
+       "p50Ms": 16.4,
+       "p95Ms": 19.1,
+       "p99Ms": 25.8,
+       "maxMs": 27.9,
+       "minMs": 7.3,
+       "over16_7": 276,
+       "over33_3": 0,
+       "over50": 0,
+       "avgFps": 71.563,
+       "longestUnder30FpsMs": 0
+      },
+      "loops": 2,
+      "heapMb": 187.5,
+      "heapNote": "performance.memory.usedJSHeapSize: the JavaScript heap only, not the graphics memory",
+      "contexts": {
+       "webgpu": 1
+      },
+      "intervals": 1,
+      "workers": 0,
+      "listeners": 88,
+      "audio": {
+       "contexts": 0,
+       "nodesMade": 0
+      },
+      "provided": {
+       "renderer": {
+        "drawCalls": 282,
+        "triangles": 3557867,
+        "geometries": 136,
+        "textures": 66,
+        "cpuRenderMs": 3.4000000059604645,
+        "engine": "three r187 webgpu",
+        "pixels": [
+         1920,
+         917
+        ],
+        "walkers": 9,
+        "atWork": 24,
+        "models": [
+         "granada/town",
+         "granada/landmarks",
+         "granada/mill"
+        ],
+        "modelFailures": [],
+        "eased": 0
+       }
+      }
+     }
+    },
+    "2-nearest-strategic": {
+     "palaceBoxPixels": {
+      "width": 382,
+      "height": 192
+     },
+     "nearestDistanceHoldingThePalace": 150,
+     "pose": {
+      "tx": 760,
+      "ty": 85.53954178869974,
+      "tz": -150,
+      "yaw": 1.5708,
+      "pitch": 0.1222,
+      "distance": 150
+     },
+     "counted": {
+      "atMs": 37567,
+      "frames": {
+       "frames": 976,
+       "durationMs": 9991.5,
+       "meanMs": 10.237,
+       "p50Ms": 8.4,
+       "p95Ms": 16.7,
+       "p99Ms": 17.4,
+       "maxMs": 25.4,
+       "minMs": 7.3,
+       "over16_7": 117,
+       "over33_3": 0,
+       "over50": 0,
+       "avgFps": 97.683,
+       "longestUnder30FpsMs": 0
+      },
+      "loops": 2,
+      "heapMb": 168.1,
+      "heapNote": "performance.memory.usedJSHeapSize: the JavaScript heap only, not the graphics memory",
+      "contexts": {
+       "webgpu": 1
+      },
+      "intervals": 1,
+      "workers": 0,
+      "listeners": 88,
+      "audio": {
+       "contexts": 0,
+       "nodesMade": 0
+      },
+      "provided": {
+       "renderer": {
+        "drawCalls": 235,
+        "triangles": 3250377,
+        "geometries": 136,
+        "textures": 66,
+        "cpuRenderMs": 2.100000023841858,
+        "engine": "three r187 webgpu",
+        "pixels": [
+         1920,
+         917
+        ],
+        "walkers": 9,
+        "atWork": 24,
+        "models": [
+         "granada/town",
+         "granada/landmarks",
+         "granada/mill"
+        ],
+        "modelFailures": [],
+        "eased": 0
+       }
+      }
+     }
+    },
+    "3-farthest-strategic": {
+     "palaceBoxPixels": {
+      "width": 67,
+      "height": 28
+     },
+     "pose": {
+      "tx": 30,
+      "ty": 89.31725393305372,
+      "tz": 70,
+      "yaw": 1.41,
+      "pitch": 0.17,
+      "distance": 980
+     },
+     "counted": {
+      "atMs": 50435,
+      "frames": {
+       "frames": 740,
+       "durationMs": 9996.7,
+       "meanMs": 13.509,
+       "p50Ms": 16.3,
+       "p95Ms": 17.5,
+       "p99Ms": 24.3,
+       "maxMs": 25.2,
+       "minMs": 7.1,
+       "over16_7": 245,
+       "over33_3": 0,
+       "over50": 0,
+       "avgFps": 74.024,
+       "longestUnder30FpsMs": 0
+      },
+      "loops": 2,
+      "heapMb": 172,
+      "heapNote": "performance.memory.usedJSHeapSize: the JavaScript heap only, not the graphics memory",
+      "contexts": {
+       "webgpu": 1
+      },
+      "intervals": 1,
+      "workers": 0,
+      "listeners": 88,
+      "audio": {
+       "contexts": 0,
+       "nodesMade": 0
+      },
+      "provided": {
+       "renderer": {
+        "drawCalls": 456,
+        "triangles": 6645149,
+        "geometries": 136,
+        "textures": 66,
+        "cpuRenderMs": 3.2000000178813934,
+        "engine": "three r187 webgpu",
+        "pixels": [
+         1920,
+         917
+        ],
+        "walkers": 9,
+        "atWork": 24,
+        "models": [
+         "granada/town",
+         "granada/landmarks",
+         "granada/mill"
+        ],
+        "modelFailures": [],
+        "eased": 0
+       }
+      }
+     }
+    },
+    "4-photo-farthest": {
+     "palaceBoxPixels": {
+      "width": 39,
+      "height": 16
+     },
+     "pose": {
+      "tx": 30,
+      "ty": 89.31725393305372,
+      "tz": 70,
+      "yaw": 1.41,
+      "pitch": 0.17,
+      "distance": 980
+     },
+     "counted": {
+      "atMs": 63320,
+      "frames": {
+       "frames": 713,
+       "durationMs": 9983.3,
+       "meanMs": 14.002,
+       "p50Ms": 16.5,
+       "p95Ms": 17.9,
+       "p99Ms": 25,
+       "maxMs": 27.1,
+       "minMs": 6.2,
+       "over16_7": 249,
+       "over33_3": 0,
+       "over50": 0,
+       "avgFps": 71.419,
+       "longestUnder30FpsMs": 0
+      },
+      "loops": 2,
+      "heapMb": 186.8,
+      "heapNote": "performance.memory.usedJSHeapSize: the JavaScript heap only, not the graphics memory",
+      "contexts": {
+       "webgpu": 1
+      },
+      "intervals": 1,
+      "workers": 0,
+      "listeners": 95,
+      "audio": {
+       "contexts": 0,
+       "nodesMade": 0
+      },
+      "provided": {
+       "renderer": {
+        "drawCalls": 456,
+        "triangles": 6645149,
+        "geometries": 136,
+        "textures": 66,
+        "cpuRenderMs": 3.0999999940395355,
+        "engine": "three r187 webgpu",
+        "pixels": [
+         1920,
+         1080
+        ],
+        "walkers": 9,
+        "atWork": 24,
+        "models": [
+         "granada/town",
+         "granada/landmarks",
+         "granada/mill"
+        ],
+        "modelFailures": [],
+        "eased": 0
+       }
+      }
+     }
+    },
+    "5-photo-nearest": {
+     "palaceBoxPixels": {
+      "width": 616,
+      "height": 254
+     },
+     "nearestDistanceHoldingThePalace": 390,
+     "pose": {
+      "tx": 760,
+      "ty": 105.93954178869974,
+      "tz": -150,
+      "yaw": 1.5708,
+      "pitch": 0.1222,
+      "distance": 390
+     },
+     "counted": {
+      "atMs": 80369,
+      "frames": {
+       "frames": 757,
+       "durationMs": 9995.9,
+       "meanMs": 13.205,
+       "p50Ms": 16.3,
+       "p95Ms": 17.5,
+       "p99Ms": 24.3,
+       "maxMs": 25.9,
+       "minMs": 7.3,
+       "over16_7": 251,
+       "over33_3": 0,
+       "over50": 0,
+       "avgFps": 75.731,
+       "longestUnder30FpsMs": 0
+      },
+      "loops": 2,
+      "heapMb": 186.2,
+      "heapNote": "performance.memory.usedJSHeapSize: the JavaScript heap only, not the graphics memory",
+      "contexts": {
+       "webgpu": 1
+      },
+      "intervals": 1,
+      "workers": 0,
+      "listeners": 95,
+      "audio": {
+       "contexts": 0,
+       "nodesMade": 0
+      },
+      "provided": {
+       "renderer": {
+        "drawCalls": 290,
+        "triangles": 3787913,
+        "geometries": 136,
+        "textures": 66,
+        "cpuRenderMs": 2.5,
+        "engine": "three r187 webgpu",
+        "pixels": [
+         1920,
+         1080
+        ],
+        "walkers": 9,
+        "atWork": 24,
+        "models": [
+         "granada/town",
+         "granada/landmarks",
+         "granada/mill"
+        ],
+        "modelFailures": [],
+        "eased": 0
+       }
+      }
+     }
+    }
+   },
+   "consoleErrors": []
+  },
+  {
+   "set": "c",
+   "size": "1920x1080",
+   "preset": "high",
+   "readyMs": 5247,
+   "fetched": [
+    {
+     "file": "granada/2/town.gltf",
+     "bytes": 44825,
+     "ms": 3
+    },
+    {
+     "file": "granada/2/town.bin",
+     "bytes": 1171152,
+     "ms": 28
+    },
+    {
+     "file": "granada/2/textures/stone_orm.jpg",
+     "bytes": 173326,
+     "ms": 11
+    },
+    {
+     "file": "granada/2/textures/stone_base.jpg",
+     "bytes": 294472,
+     "ms": 13
+    },
+    {
+     "file": "granada/2/textures/plaster_base.jpg",
+     "bytes": 276340,
+     "ms": 13
+    },
+    {
+     "file": "granada/2/textures/stone_normal.jpg",
+     "bytes": 488747,
+     "ms": 22
+    },
+    {
+     "file": "granada/2/textures/plaster_orm.jpg",
+     "bytes": 102840,
+     "ms": 13
+    },
+    {
+     "file": "granada/2/textures/plaster_normal.jpg",
+     "bytes": 505220,
+     "ms": 28
+    },
+    {
+     "file": "granada/2/textures/rooftile_base.jpg",
+     "bytes": 328786,
+     "ms": 30
+    },
+    {
+     "file": "granada/2/textures/rooftile_orm.jpg",
+     "bytes": 82064,
+     "ms": 24
+    },
+    {
+     "file": "granada/2/textures/rooftile_normal.jpg",
+     "bytes": 362450,
+     "ms": 31
+    },
+    {
+     "file": "granada/2/textures/wood_base.jpg",
+     "bytes": 275317,
+     "ms": 46
+    },
+    {
+     "file": "granada/2/textures/wood_normal.jpg",
+     "bytes": 179091,
+     "ms": 46
+    },
+    {
+     "file": "granada/2/textures/wood_orm.jpg",
+     "bytes": 267353,
+     "ms": 47
+    },
+    {
+     "file": "granada/2/textures/plaster_warm_orm.jpg",
+     "bytes": 102840,
+     "ms": 47
+    },
+    {
+     "file": "granada/2/textures/plaster_warm_base.jpg",
+     "bytes": 251880,
+     "ms": 50
+    },
+    {
+     "file": "granada/2/textures/earth_base.jpg",
+     "bytes": 58651,
+     "ms": 56
+    },
+    {
+     "file": "granada/2/textures/plaster_warm_normal.jpg",
+     "bytes": 505220,
+     "ms": 59
+    },
+    {
+     "file": "granada/2/textures/earth_orm.jpg",
+     "bytes": 107745,
+     "ms": 58
+    },
+    {
+     "file": "granada/2/textures/earth_normal.jpg",
+     "bytes": 846968,
+     "ms": 68
+    },
+    {
+     "file": "granada/2/landmarks.gltf",
+     "bytes": 27834,
+     "ms": 2
+    },
+    {
+     "file": "granada/2/landmarks.bin",
+     "bytes": 1356120,
+     "ms": 54
+    },
+    {
+     "file": "granada/2/textures/wood_base.jpg",
+     "bytes": 275317,
+     "ms": 5
+    },
+    {
+     "file": "granada/2/textures/wood_orm.jpg",
+     "bytes": 267353,
+     "ms": 5
+    },
+    {
+     "file": "granada/2/textures/wood_normal.jpg",
+     "bytes": 179091,
+     "ms": 6
+    },
+    {
+     "file": "granada/2/textures/stone_base.jpg",
+     "bytes": 294472,
+     "ms": 7
+    },
+    {
+     "file": "granada/2/textures/stone_normal.jpg",
+     "bytes": 488747,
+     "ms": 11
+    },
+    {
+     "file": "granada/2/textures/stone_orm.jpg",
+     "bytes": 173326,
+     "ms": 15
+    },
+    {
+     "file": "granada/2/textures/plaster_base.jpg",
+     "bytes": 276340,
+     "ms": 12
+    },
+    {
+     "file": "granada/2/textures/plaster_orm.jpg",
+     "bytes": 102840,
+     "ms": 13
+    },
+    {
+     "file": "granada/2/textures/plaster_normal.jpg",
+     "bytes": 505220,
+     "ms": 14
+    },
+    {
+     "file": "granada/2/textures/rooftile_base.jpg",
+     "bytes": 328786,
+     "ms": 18
+    },
+    {
+     "file": "granada/2/textures/rooftile_orm.jpg",
+     "bytes": 82064,
+     "ms": 19
+    },
+    {
+     "file": "granada/2/textures/rooftile_normal.jpg",
+     "bytes": 362450,
+     "ms": 20
+    },
+    {
+     "file": "granada/2/textures/plaster_warm_base.jpg",
+     "bytes": 251880,
+     "ms": 21
+    },
+    {
+     "file": "granada/2/textures/plaster_warm_orm.jpg",
+     "bytes": 102840,
+     "ms": 21
+    },
+    {
+     "file": "granada/2/textures/plaster_warm_normal.jpg",
+     "bytes": 505220,
+     "ms": 23
+    },
+    {
+     "file": "granada/2/textures/earth_base.jpg",
+     "bytes": 58651,
+     "ms": 27
+    },
+    {
+     "file": "granada/2/textures/earth_orm.jpg",
+     "bytes": 107745,
+     "ms": 28
+    },
+    {
+     "file": "granada/2/textures/earth_normal.jpg",
+     "bytes": 846968,
+     "ms": 29
+    },
+    {
+     "file": "granada/2/textures/plaster_red_base.jpg",
+     "bytes": 211514,
+     "ms": 43
+    },
+    {
+     "file": "granada/2/textures/plaster_red_orm.jpg",
+     "bytes": 102840,
+     "ms": 42
+    },
+    {
+     "file": "granada/2/textures/plaster_red_normal.jpg",
+     "bytes": 505220,
+     "ms": 46
+    },
+    {
+     "file": "granada/2/textures/cobble_base.jpg",
+     "bytes": 359909,
+     "ms": 45
+    },
+    {
+     "file": "granada/2/textures/cobble_orm.jpg",
+     "bytes": 299550,
+     "ms": 44
+    },
+    {
+     "file": "granada/2/textures/cobble_normal.jpg",
+     "bytes": 373781,
+     "ms": 50
+    },
+    {
+     "file": "granada/c/palace.gltf",
+     "bytes": 36112,
+     "ms": 2
+    },
+    {
+     "file": "granada/c/palace.bin",
+     "bytes": 24575196,
+     "ms": 246
+    },
+    {
+     "file": "granada/c/textures/stone_orm.jpg",
+     "bytes": 173326,
+     "ms": 9
+    },
+    {
+     "file": "granada/c/textures/stone_base.jpg",
+     "bytes": 294472,
+     "ms": 12
+    },
+    {
+     "file": "granada/c/textures/stone_normal.jpg",
+     "bytes": 488747,
+     "ms": 17
+    },
+    {
+     "file": "granada/c/textures/plaster_red_orm.jpg",
+     "bytes": 102840,
+     "ms": 8
+    },
+    {
+     "file": "granada/c/textures/plaster_red_base.jpg",
+     "bytes": 211514,
+     "ms": 13
+    },
+    {
+     "file": "granada/c/textures/plaster_red_normal.jpg",
+     "bytes": 505220,
+     "ms": 22
+    },
+    {
+     "file": "granada/c/textures/cobble_base.jpg",
+     "bytes": 359909,
+     "ms": 20
+    },
+    {
+     "file": "granada/c/textures/cobble_orm.jpg",
+     "bytes": 299550,
+     "ms": 21
+    },
+    {
+     "file": "granada/c/textures/cobble_normal.jpg",
+     "bytes": 373781,
+     "ms": 24
+    },
+    {
+     "file": "granada/c/textures/plaster_orm.jpg",
+     "bytes": 102840,
+     "ms": 29
+    },
+    {
+     "file": "granada/c/textures/plaster_base.jpg",
+     "bytes": 276340,
+     "ms": 37
+    },
+    {
+     "file": "granada/c/textures/plaster_normal.jpg",
+     "bytes": 505220,
+     "ms": 45
+    },
+    {
+     "file": "granada/c/textures/rooftile_base.jpg",
+     "bytes": 328786,
+     "ms": 39
+    },
+    {
+     "file": "granada/c/textures/rooftile_orm.jpg",
+     "bytes": 82064,
+     "ms": 38
+    },
+    {
+     "file": "granada/c/textures/rooftile_normal.jpg",
+     "bytes": 362450,
+     "ms": 49
+    },
+    {
+     "file": "granada/c/textures/wood_base.jpg",
+     "bytes": 275317,
+     "ms": 52
+    },
+    {
+     "file": "granada/c/textures/wood_orm.jpg",
+     "bytes": 267353,
+     "ms": 52
+    },
+    {
+     "file": "granada/c/textures/wood_normal.jpg",
+     "bytes": 179091,
+     "ms": 49
+    },
+    {
+     "file": "granada/c/textures/plaster_warm_base.jpg",
+     "bytes": 251880,
+     "ms": 56
+    },
+    {
+     "file": "granada/c/textures/plaster_warm_orm.jpg",
+     "bytes": 102840,
+     "ms": 57
+    },
+    {
+     "file": "granada/c/textures/earth_base.jpg",
+     "bytes": 58651,
+     "ms": 57
+    },
+    {
+     "file": "granada/c/textures/plaster_warm_normal.jpg",
+     "bytes": 505220,
+     "ms": 64
+    },
+    {
+     "file": "granada/c/textures/earth_orm.jpg",
+     "bytes": 107745,
+     "ms": 57
+    },
+    {
+     "file": "granada/c/textures/earth_normal.jpg",
+     "bytes": 846968,
+     "ms": 70
+    },
+    {
+     "file": "granada/2/mill.gltf",
+     "bytes": 22791,
+     "ms": 5
+    },
+    {
+     "file": "granada/2/mill.bin",
+     "bytes": 1707480,
+     "ms": 34
+    },
+    {
+     "file": "granada/2/textures/plaster_base.jpg",
+     "bytes": 276340,
+     "ms": 3
+    },
+    {
+     "file": "granada/2/textures/plaster_orm.jpg",
+     "bytes": 102840,
+     "ms": 4
+    },
+    {
+     "file": "granada/2/textures/plaster_normal.jpg",
+     "bytes": 505220,
+     "ms": 4
+    },
+    {
+     "file": "granada/2/textures/rooftile_base.jpg",
+     "bytes": 328786,
+     "ms": 7
+    },
+    {
+     "file": "granada/2/textures/rooftile_normal.jpg",
+     "bytes": 362450,
+     "ms": 5
+    },
+    {
+     "file": "granada/2/textures/wood_base.jpg",
+     "bytes": 275317,
+     "ms": 6
+    },
+    {
+     "file": "granada/2/textures/rooftile_orm.jpg",
+     "bytes": 82064,
+     "ms": 8
+    },
+    {
+     "file": "granada/2/textures/wood_normal.jpg",
+     "bytes": 179091,
+     "ms": 9
+    },
+    {
+     "file": "granada/2/textures/wood_orm.jpg",
+     "bytes": 267353,
+     "ms": 20
+    },
+    {
+     "file": "granada/2/textures/stone_base.jpg",
+     "bytes": 294472,
+     "ms": 10
+    },
+    {
+     "file": "granada/2/textures/stone_orm.jpg",
+     "bytes": 173326,
+     "ms": 17
+    },
+    {
+     "file": "granada/2/textures/stone_normal.jpg",
+     "bytes": 488747,
+     "ms": 18
+    },
+    {
+     "file": "granada/2/textures/earth_base.jpg",
+     "bytes": 58651,
+     "ms": 23
+    },
+    {
+     "file": "granada/2/textures/earth_orm.jpg",
+     "bytes": 107745,
+     "ms": 23
+    },
+    {
+     "file": "granada/2/textures/earth_normal.jpg",
+     "bytes": 846968,
+     "ms": 25
+    }
+   ],
+   "played": {
+    "daysPassed": 37,
+    "day": 62
+   },
+   "models": [
+    "granada/town",
+    "granada/landmarks",
+    "granada/c/palace",
+    "granada/mill"
+   ],
+   "modelFailures": [],
+   "views": {
+    "1-proof": {
+     "palaceBoxPixels": {
+      "width": 264,
+      "height": 97
+     },
+     "pose": {
+      "tx": 640,
+      "ty": 43.09174427004298,
+      "tz": 0,
+      "yaw": 1.07,
+      "pitch": 0.17,
+      "distance": 330
+     },
+     "counted": {
+      "atMs": 26923,
+      "frames": {
+       "frames": 618,
+       "durationMs": 9975.4,
+       "meanMs": 16.141,
+       "p50Ms": 16.7,
+       "p95Ms": 25,
+       "p99Ms": 25.5,
+       "maxMs": 27.4,
+       "minMs": 7.6,
+       "over16_7": 313,
+       "over33_3": 0,
+       "over50": 0,
+       "avgFps": 61.952,
+       "longestUnder30FpsMs": 0
+      },
+      "loops": 2,
+      "heapMb": 208.2,
+      "heapNote": "performance.memory.usedJSHeapSize: the JavaScript heap only, not the graphics memory",
+      "contexts": {
+       "webgpu": 1
+      },
+      "intervals": 1,
+      "workers": 0,
+      "listeners": 88,
+      "audio": {
+       "contexts": 0,
+       "nodesMade": 0
+      },
+      "provided": {
+       "renderer": {
+        "drawCalls": 315,
+        "triangles": 4174397,
+        "geometries": 147,
+        "textures": 84,
+        "cpuRenderMs": 3.5999999940395355,
+        "engine": "three r187 webgpu",
+        "pixels": [
+         1920,
+         917
+        ],
+        "walkers": 9,
+        "atWork": 24,
+        "models": [
+         "granada/town",
+         "granada/landmarks",
+         "granada/c/palace",
+         "granada/mill"
+        ],
+        "modelFailures": [],
+        "eased": 0
+       }
+      }
+     }
+    },
+    "2-nearest-strategic": {
+     "palaceBoxPixels": {
+      "width": 499,
+      "height": 204
+     },
+     "nearestDistanceHoldingThePalace": 160,
+     "pose": {
+      "tx": 760,
+      "ty": 86.38954178869974,
+      "tz": -150,
+      "yaw": 1.5708,
+      "pitch": 0.1222,
+      "distance": 160
+     },
+     "counted": {
+      "atMs": 41206,
+      "frames": {
+       "frames": 654,
+       "durationMs": 9980.2,
+       "meanMs": 15.26,
+       "p50Ms": 16.6,
+       "p95Ms": 19,
+       "p99Ms": 25,
+       "maxMs": 25.9,
+       "minMs": 7.3,
+       "over16_7": 317,
+       "over33_3": 0,
+       "over50": 0,
+       "avgFps": 65.53,
+       "longestUnder30FpsMs": 0
+      },
+      "loops": 2,
+      "heapMb": 208,
+      "heapNote": "performance.memory.usedJSHeapSize: the JavaScript heap only, not the graphics memory",
+      "contexts": {
+       "webgpu": 1
+      },
+      "intervals": 1,
+      "workers": 0,
+      "listeners": 88,
+      "audio": {
+       "contexts": 0,
+       "nodesMade": 0
+      },
+      "provided": {
+       "renderer": {
+        "drawCalls": 268,
+        "triangles": 3866907,
+        "geometries": 147,
+        "textures": 84,
+        "cpuRenderMs": 3.5,
+        "engine": "three r187 webgpu",
+        "pixels": [
+         1920,
+         917
+        ],
+        "walkers": 9,
+        "atWork": 24,
+        "models": [
+         "granada/town",
+         "granada/landmarks",
+         "granada/c/palace",
+         "granada/mill"
+        ],
+        "modelFailures": [],
+        "eased": 0
+       }
+      }
+     }
+    },
+    "3-farthest-strategic": {
+     "palaceBoxPixels": {
+      "width": 89,
+      "height": 30
+     },
+     "pose": {
+      "tx": 30,
+      "ty": 89.31725393305372,
+      "tz": 70,
+      "yaw": 1.41,
+      "pitch": 0.17,
+      "distance": 980
+     },
+     "counted": {
+      "atMs": 54188,
+      "frames": {
+       "frames": 526,
+       "durationMs": 9985,
+       "meanMs": 18.983,
+       "p50Ms": 17.3,
+       "p95Ms": 26,
+       "p99Ms": 28,
+       "maxMs": 29.2,
+       "minMs": 8.2,
+       "over16_7": 389,
+       "over33_3": 0,
+       "over50": 0,
+       "avgFps": 52.679,
+       "longestUnder30FpsMs": 0
+      },
+      "loops": 2,
+      "heapMb": 207.4,
+      "heapNote": "performance.memory.usedJSHeapSize: the JavaScript heap only, not the graphics memory",
+      "contexts": {
+       "webgpu": 1
+      },
+      "intervals": 1,
+      "workers": 0,
+      "listeners": 88,
+      "audio": {
+       "contexts": 0,
+       "nodesMade": 0
+      },
+      "provided": {
+       "renderer": {
+        "drawCalls": 489,
+        "triangles": 7261679,
+        "geometries": 147,
+        "textures": 84,
+        "cpuRenderMs": 4.5,
+        "engine": "three r187 webgpu",
+        "pixels": [
+         1920,
+         917
+        ],
+        "walkers": 9,
+        "atWork": 24,
+        "models": [
+         "granada/town",
+         "granada/landmarks",
+         "granada/c/palace",
+         "granada/mill"
+        ],
+        "modelFailures": [],
+        "eased": 0
+       }
+      }
+     }
+    },
+    "4-photo-farthest": {
+     "palaceBoxPixels": {
+      "width": 52,
+      "height": 17
+     },
+     "pose": {
+      "tx": 30,
+      "ty": 89.31725393305372,
+      "tz": 70,
+      "yaw": 1.41,
+      "pitch": 0.17,
+      "distance": 980
+     },
+     "counted": {
+      "atMs": 67266,
+      "frames": {
+       "frames": 516,
+       "durationMs": 9991.9,
+       "meanMs": 19.364,
+       "p50Ms": 17.5,
+       "p95Ms": 26.6,
+       "p99Ms": 28.3,
+       "maxMs": 28.9,
+       "minMs": 8.3,
+       "over16_7": 405,
+       "over33_3": 0,
+       "over50": 0,
+       "avgFps": 51.642,
+       "longestUnder30FpsMs": 0
+      },
+      "loops": 2,
+      "heapMb": 215.5,
+      "heapNote": "performance.memory.usedJSHeapSize: the JavaScript heap only, not the graphics memory",
+      "contexts": {
+       "webgpu": 1
+      },
+      "intervals": 1,
+      "workers": 0,
+      "listeners": 95,
+      "audio": {
+       "contexts": 0,
+       "nodesMade": 0
+      },
+      "provided": {
+       "renderer": {
+        "drawCalls": 489,
+        "triangles": 7261679,
+        "geometries": 147,
+        "textures": 84,
+        "cpuRenderMs": 4.4000000059604645,
+        "engine": "three r187 webgpu",
+        "pixels": [
+         1920,
+         1080
+        ],
+        "walkers": 9,
+        "atWork": 24,
+        "models": [
+         "granada/town",
+         "granada/landmarks",
+         "granada/c/palace",
+         "granada/mill"
+        ],
+        "modelFailures": [],
+        "eased": 0
+       }
+      }
+     }
+    },
+    "5-photo-nearest": {
+     "palaceBoxPixels": {
+      "width": 817,
+      "height": 268
+     },
+     "nearestDistanceHoldingThePalace": 400,
+     "pose": {
+      "tx": 760,
+      "ty": 106.78954178869974,
+      "tz": -150,
+      "yaw": 1.5708,
+      "pitch": 0.1222,
+      "distance": 400
+     },
+     "counted": {
+      "atMs": 84650,
+      "frames": {
+       "frames": 830,
+       "durationMs": 9987.7,
+       "meanMs": 12.033,
+       "p50Ms": 8.8,
+       "p95Ms": 17.1,
+       "p99Ms": 19.7,
+       "maxMs": 25.4,
+       "minMs": 7.3,
+       "over16_7": 189,
+       "over33_3": 0,
+       "over50": 0,
+       "avgFps": 83.102,
+       "longestUnder30FpsMs": 0
+      },
+      "loops": 2,
+      "heapMb": 202.3,
+      "heapNote": "performance.memory.usedJSHeapSize: the JavaScript heap only, not the graphics memory",
+      "contexts": {
+       "webgpu": 1
+      },
+      "intervals": 1,
+      "workers": 0,
+      "listeners": 95,
+      "audio": {
+       "contexts": 0,
+       "nodesMade": 0
+      },
+      "provided": {
+       "renderer": {
+        "drawCalls": 323,
+        "triangles": 4404443,
+        "geometries": 147,
+        "textures": 84,
+        "cpuRenderMs": 2.7000000178813934,
+        "engine": "three r187 webgpu",
+        "pixels": [
+         1920,
+         1080
+        ],
+        "walkers": 9,
+        "atWork": 24,
+        "models": [
+         "granada/town",
+         "granada/landmarks",
+         "granada/c/palace",
+         "granada/mill"
+        ],
+        "modelFailures": [],
+        "eased": 0
+       }
+      }
+     }
+    }
+   },
+   "consoleErrors": []
+  },
+  {
+   "set": "a",
+   "size": "1280x800",
+   "preset": "low",
+   "readyMs": 1077,
+   "fetched": [
+    {
+     "file": "granada/2/town.gltf",
+     "bytes": 44825,
+     "ms": 2
+    },
+    {
+     "file": "granada/2/town.bin",
+     "bytes": 1171152,
+     "ms": 6
+    },
+    {
+     "file": "granada/2/textures/stone_base.jpg",
+     "bytes": 294472,
+     "ms": 3
+    },
+    {
+     "file": "granada/2/textures/stone_orm.jpg",
+     "bytes": 173326,
+     "ms": 4
+    },
+    {
+     "file": "granada/2/textures/plaster_base.jpg",
+     "bytes": 276340,
+     "ms": 3
+    },
+    {
+     "file": "granada/2/textures/stone_normal.jpg",
+     "bytes": 488747,
+     "ms": 3
+    },
+    {
+     "file": "granada/2/textures/plaster_orm.jpg",
+     "bytes": 102840,
+     "ms": 4
+    },
+    {
+     "file": "granada/2/textures/plaster_normal.jpg",
+     "bytes": 505220,
+     "ms": 6
+    },
+    {
+     "file": "granada/2/textures/rooftile_base.jpg",
+     "bytes": 328786,
+     "ms": 6
+    },
+    {
+     "file": "granada/2/textures/rooftile_orm.jpg",
+     "bytes": 82064,
+     "ms": 5
+    },
+    {
+     "file": "granada/2/textures/rooftile_normal.jpg",
+     "bytes": 362450,
+     "ms": 6
+    },
+    {
+     "file": "granada/2/textures/wood_base.jpg",
+     "bytes": 275317,
+     "ms": 7
+    },
+    {
+     "file": "granada/2/textures/wood_orm.jpg",
+     "bytes": 267353,
+     "ms": 7
+    },
+    {
+     "file": "granada/2/textures/wood_normal.jpg",
+     "bytes": 179091,
+     "ms": 7
+    },
+    {
+     "file": "granada/2/textures/plaster_warm_base.jpg",
+     "bytes": 251880,
+     "ms": 8
+    },
+    {
+     "file": "granada/2/textures/plaster_warm_orm.jpg",
+     "bytes": 102840,
+     "ms": 8
+    },
+    {
+     "file": "granada/2/textures/plaster_warm_normal.jpg",
+     "bytes": 505220,
+     "ms": 11
+    },
+    {
+     "file": "granada/2/textures/earth_base.jpg",
+     "bytes": 58651,
+     "ms": 9
+    },
+    {
+     "file": "granada/2/textures/earth_orm.jpg",
+     "bytes": 107745,
+     "ms": 10
+    },
+    {
+     "file": "granada/2/textures/earth_normal.jpg",
+     "bytes": 846968,
+     "ms": 12
+    },
+    {
+     "file": "granada/2/landmarks.gltf",
+     "bytes": 27834,
+     "ms": 1
+    },
+    {
+     "file": "granada/2/landmarks.bin",
+     "bytes": 1356120,
+     "ms": 18
+    },
+    {
+     "file": "granada/2/textures/wood_base.jpg",
+     "bytes": 275317,
+     "ms": 1
+    },
+    {
+     "file": "granada/2/textures/wood_orm.jpg",
+     "bytes": 267353,
+     "ms": 1
+    },
+    {
+     "file": "granada/2/textures/wood_normal.jpg",
+     "bytes": 179091,
+     "ms": 2
+    },
+    {
+     "file": "granada/2/textures/stone_orm.jpg",
+     "bytes": 173326,
+     "ms": 1
+    },
+    {
+     "file": "granada/2/textures/stone_base.jpg",
+     "bytes": 294472,
+     "ms": 3
+    },
+    {
+     "file": "granada/2/textures/stone_normal.jpg",
+     "bytes": 488747,
+     "ms": 2
+    },
+    {
+     "file": "granada/2/textures/plaster_orm.jpg",
+     "bytes": 102840,
+     "ms": 4
+    },
+    {
+     "file": "granada/2/textures/plaster_normal.jpg",
+     "bytes": 505220,
+     "ms": 4
+    },
+    {
+     "file": "granada/2/textures/plaster_base.jpg",
+     "bytes": 276340,
+     "ms": 5
+    },
+    {
+     "file": "granada/2/textures/rooftile_base.jpg",
+     "bytes": 328786,
+     "ms": 4
+    },
+    {
+     "file": "granada/2/textures/rooftile_orm.jpg",
+     "bytes": 82064,
+     "ms": 4
+    },
+    {
+     "file": "granada/2/textures/rooftile_normal.jpg",
+     "bytes": 362450,
+     "ms": 6
+    },
+    {
+     "file": "granada/2/textures/plaster_warm_base.jpg",
+     "bytes": 251880,
+     "ms": 6
+    },
+    {
+     "file": "granada/2/textures/plaster_warm_orm.jpg",
+     "bytes": 102840,
+     "ms": 6
+    },
+    {
+     "file": "granada/2/textures/plaster_warm_normal.jpg",
+     "bytes": 505220,
+     "ms": 7
+    },
+    {
+     "file": "granada/2/textures/earth_base.jpg",
+     "bytes": 58651,
+     "ms": 8
+    },
+    {
+     "file": "granada/2/textures/earth_orm.jpg",
+     "bytes": 107745,
+     "ms": 8
+    },
+    {
+     "file": "granada/2/textures/earth_normal.jpg",
+     "bytes": 846968,
+     "ms": 8
+    },
+    {
+     "file": "granada/2/textures/plaster_red_orm.jpg",
+     "bytes": 102840,
+     "ms": 11
+    },
+    {
+     "file": "granada/2/textures/plaster_red_base.jpg",
+     "bytes": 211514,
+     "ms": 12
+    },
+    {
+     "file": "granada/2/textures/plaster_red_normal.jpg",
+     "bytes": 505220,
+     "ms": 16
+    },
+    {
+     "file": "granada/2/textures/cobble_orm.jpg",
+     "bytes": 299550,
+     "ms": 14
+    },
+    {
+     "file": "granada/2/textures/cobble_base.jpg",
+     "bytes": 359909,
+     "ms": 14
+    },
+    {
+     "file": "granada/2/textures/cobble_normal.jpg",
+     "bytes": 373781,
+     "ms": 16
+    },
+    {
+     "file": "granada/2/mill.gltf",
+     "bytes": 22791,
+     "ms": 2
+    },
+    {
+     "file": "granada/2/mill.bin",
+     "bytes": 1707480,
+     "ms": 4
+    },
+    {
+     "file": "granada/2/textures/plaster_base.jpg",
+     "bytes": 276340,
+     "ms": 2
+    },
+    {
+     "file": "granada/2/textures/plaster_orm.jpg",
+     "bytes": 102840,
+     "ms": 2
+    },
+    {
+     "file": "granada/2/textures/plaster_normal.jpg",
+     "bytes": 505220,
+     "ms": 3
+    },
+    {
+     "file": "granada/2/textures/rooftile_base.jpg",
+     "bytes": 328786,
+     "ms": 2
+    },
+    {
+     "file": "granada/2/textures/rooftile_orm.jpg",
+     "bytes": 82064,
+     "ms": 4
+    },
+    {
+     "file": "granada/2/textures/rooftile_normal.jpg",
+     "bytes": 362450,
+     "ms": 4
+    },
+    {
+     "file": "granada/2/textures/wood_base.jpg",
+     "bytes": 275317,
+     "ms": 4
+    },
+    {
+     "file": "granada/2/textures/wood_orm.jpg",
+     "bytes": 267353,
+     "ms": 4
+    },
+    {
+     "file": "granada/2/textures/wood_normal.jpg",
+     "bytes": 179091,
+     "ms": 5
+    },
+    {
+     "file": "granada/2/textures/stone_base.jpg",
+     "bytes": 294472,
+     "ms": 5
+    },
+    {
+     "file": "granada/2/textures/stone_orm.jpg",
+     "bytes": 173326,
+     "ms": 5
+    },
+    {
+     "file": "granada/2/textures/stone_normal.jpg",
+     "bytes": 488747,
+     "ms": 5
+    },
+    {
+     "file": "granada/2/textures/earth_base.jpg",
+     "bytes": 58651,
+     "ms": 5
+    },
+    {
+     "file": "granada/2/textures/earth_orm.jpg",
+     "bytes": 107745,
+     "ms": 6
+    },
+    {
+     "file": "granada/2/textures/earth_normal.jpg",
+     "bytes": 846968,
+     "ms": 6
+    }
+   ],
+   "played": {
+    "daysPassed": 37,
+    "day": 62
+   },
+   "models": [
+    "granada/town",
+    "granada/landmarks",
+    "granada/mill"
+   ],
+   "modelFailures": [],
+   "views": {
+    "1-proof": {
+     "palaceBoxPixels": {
+      "width": 127,
+      "height": 56
+     },
+     "pose": {
+      "tx": 640,
+      "ty": 43.09174427004298,
+      "tz": 0,
+      "yaw": 1.07,
+      "pitch": 0.17,
+      "distance": 330
+     },
+     "counted": {
+      "atMs": 22169,
+      "frames": {
+       "frames": 567,
+       "durationMs": 9977.6,
+       "meanMs": 17.597,
+       "p50Ms": 11.8,
+       "p95Ms": 37.6,
+       "p99Ms": 46,
+       "maxMs": 57.9,
+       "minMs": 5.7,
+       "over16_7": 259,
+       "over33_3": 71,
+       "over50": 2,
+       "avgFps": 56.827,
+       "longestUnder30FpsMs": 103.3
+      },
+      "loops": 2,
+      "heapMb": 102.7,
+      "heapNote": "performance.memory.usedJSHeapSize: the JavaScript heap only, not the graphics memory",
+      "contexts": {
+       "webgpu": 1
+      },
+      "intervals": 1,
+      "workers": 0,
+      "listeners": 88,
+      "audio": {
+       "contexts": 0,
+       "nodesMade": 0
+      },
+      "provided": {
+       "renderer": {
+        "drawCalls": 175,
+        "triangles": 1895814,
+        "geometries": 136,
+        "textures": 51,
+        "cpuRenderMs": 1.4000000059604645,
+        "engine": "three r187 webgpu",
+        "pixels": [
+         1280,
+         585
+        ],
+        "walkers": 9,
+        "atWork": 24,
+        "models": [
+         "granada/town",
+         "granada/landmarks",
+         "granada/mill"
+        ],
+        "modelFailures": [],
+        "eased": 0
+       }
+      }
+     }
+    },
+    "2-nearest-strategic": {
+     "palaceBoxPixels": {
+      "width": 244,
+      "height": 123
+     },
+     "nearestDistanceHoldingThePalace": 150,
+     "pose": {
+      "tx": 760,
+      "ty": 85.53954178869974,
+      "tz": -150,
+      "yaw": 1.5708,
+      "pitch": 0.1222,
+      "distance": 150
+     },
+     "counted": {
+      "atMs": 35995,
+      "frames": {
+       "frames": 585,
+       "durationMs": 9971.7,
+       "meanMs": 17.046,
+       "p50Ms": 11.6,
+       "p95Ms": 36.2,
+       "p99Ms": 40.5,
+       "maxMs": 46.2,
+       "minMs": 5.3,
+       "over16_7": 274,
+       "over33_3": 64,
+       "over50": 0,
+       "avgFps": 58.666,
+       "longestUnder30FpsMs": 76.6
+      },
+      "loops": 2,
+      "heapMb": 82.8,
+      "heapNote": "performance.memory.usedJSHeapSize: the JavaScript heap only, not the graphics memory",
+      "contexts": {
+       "webgpu": 1
+      },
+      "intervals": 1,
+      "workers": 0,
+      "listeners": 88,
+      "audio": {
+       "contexts": 0,
+       "nodesMade": 0
+      },
+      "provided": {
+       "renderer": {
+        "drawCalls": 144,
+        "triangles": 1872543,
+        "geometries": 136,
+        "textures": 51,
+        "cpuRenderMs": 1,
+        "engine": "three r187 webgpu",
+        "pixels": [
+         1280,
+         585
+        ],
+        "walkers": 9,
+        "atWork": 24,
+        "models": [
+         "granada/town",
+         "granada/landmarks",
+         "granada/mill"
+        ],
+        "modelFailures": [],
+        "eased": 0
+       }
+      }
+     }
+    },
+    "3-farthest-strategic": {
+     "palaceBoxPixels": {
+      "width": 42,
+      "height": 18
+     },
+     "pose": {
+      "tx": 30,
+      "ty": 89.31725393305372,
+      "tz": 70,
+      "yaw": 1.41,
+      "pitch": 0.17,
+      "distance": 980
+     },
+     "counted": {
+      "atMs": 48737,
+      "frames": {
+       "frames": 430,
+       "durationMs": 9976.9,
+       "meanMs": 23.202,
+       "p50Ms": 19.8,
+       "p95Ms": 47.2,
+       "p99Ms": 56,
+       "maxMs": 65.5,
+       "minMs": 5.9,
+       "over16_7": 276,
+       "over33_3": 109,
+       "over50": 15,
+       "avgFps": 43.1,
+       "longestUnder30FpsMs": 115.6
+      },
+      "loops": 2,
+      "heapMb": 86.2,
+      "heapNote": "performance.memory.usedJSHeapSize: the JavaScript heap only, not the graphics memory",
+      "contexts": {
+       "webgpu": 1
+      },
+      "intervals": 1,
+      "workers": 0,
+      "listeners": 88,
+      "audio": {
+       "contexts": 0,
+       "nodesMade": 0
+      },
+      "provided": {
+       "renderer": {
+        "drawCalls": 284,
+        "triangles": 2303213,
+        "geometries": 136,
+        "textures": 51,
+        "cpuRenderMs": 2.300000011920929,
+        "engine": "three r187 webgpu",
+        "pixels": [
+         1280,
+         585
+        ],
+        "walkers": 9,
+        "atWork": 24,
+        "models": [
+         "granada/town",
+         "granada/landmarks",
+         "granada/mill"
+        ],
+        "modelFailures": [],
+        "eased": 0
+       }
+      }
+     }
+    },
+    "4-photo-farthest": {
+     "palaceBoxPixels": {
+      "width": 29,
+      "height": 12
+     },
+     "pose": {
+      "tx": 30,
+      "ty": 89.31725393305372,
+      "tz": 70,
+      "yaw": 1.41,
+      "pitch": 0.17,
+      "distance": 980
+     },
+     "counted": {
+      "atMs": 61673,
+      "frames": {
+       "frames": 402,
+       "durationMs": 9949.1,
+       "meanMs": 24.749,
+       "p50Ms": 24.2,
+       "p95Ms": 52.7,
+       "p99Ms": 57.9,
+       "maxMs": 61.6,
+       "minMs": 6.5,
+       "over16_7": 265,
+       "over33_3": 128,
+       "over50": 24,
+       "avgFps": 40.406,
+       "longestUnder30FpsMs": 114
+      },
+      "loops": 2,
+      "heapMb": 82.8,
+      "heapNote": "performance.memory.usedJSHeapSize: the JavaScript heap only, not the graphics memory",
+      "contexts": {
+       "webgpu": 1
+      },
+      "intervals": 1,
+      "workers": 0,
+      "listeners": 95,
+      "audio": {
+       "contexts": 0,
+       "nodesMade": 0
+      },
+      "provided": {
+       "renderer": {
+        "drawCalls": 284,
+        "triangles": 2303213,
+        "geometries": 136,
+        "textures": 51,
+        "cpuRenderMs": 2.399999976158142,
+        "engine": "three r187 webgpu",
+        "pixels": [
+         1280,
+         800
+        ],
+        "walkers": 9,
+        "atWork": 24,
+        "models": [
+         "granada/town",
+         "granada/landmarks",
+         "granada/mill"
+        ],
+        "modelFailures": [],
+        "eased": 0
+       }
+      }
+     }
+    },
+    "5-photo-nearest": {
+     "palaceBoxPixels": {
+      "width": 457,
+      "height": 188
+     },
+     "nearestDistanceHoldingThePalace": 390,
+     "pose": {
+      "tx": 760,
+      "ty": 105.93954178869974,
+      "tz": -150,
+      "yaw": 1.5708,
+      "pitch": 0.1222,
+      "distance": 390
+     },
+     "counted": {
+      "atMs": 78752,
+      "frames": {
+       "frames": 1199,
+       "durationMs": 9991.6,
+       "meanMs": 8.333,
+       "p50Ms": 8.3,
+       "p95Ms": 9.1,
+       "p99Ms": 9.3,
+       "maxMs": 9.3,
+       "minMs": 7.3,
+       "over16_7": 0,
+       "over33_3": 0,
+       "over50": 0,
+       "avgFps": 120.001,
+       "longestUnder30FpsMs": 0
+      },
+      "loops": 2,
+      "heapMb": 86.2,
+      "heapNote": "performance.memory.usedJSHeapSize: the JavaScript heap only, not the graphics memory",
+      "contexts": {
+       "webgpu": 1
+      },
+      "intervals": 1,
+      "workers": 0,
+      "listeners": 95,
+      "audio": {
+       "contexts": 0,
+       "nodesMade": 0
+      },
+      "provided": {
+       "renderer": {
+        "drawCalls": 193,
+        "triangles": 1967787,
+        "geometries": 136,
+        "textures": 51,
+        "cpuRenderMs": 2.4000000059604645,
+        "engine": "three r187 webgpu",
+        "pixels": [
+         1280,
+         800
+        ],
+        "walkers": 9,
+        "atWork": 24,
+        "models": [
+         "granada/town",
+         "granada/landmarks",
+         "granada/mill"
+        ],
+        "modelFailures": [],
+        "eased": 0
+       }
+      }
+     }
+    }
+   },
+   "consoleErrors": []
+  },
+  {
+   "set": "c",
+   "size": "1280x800",
+   "preset": "low",
+   "readyMs": 2224,
+   "fetched": [
+    {
+     "file": "granada/2/town.gltf",
+     "bytes": 44825,
+     "ms": 4
+    },
+    {
+     "file": "granada/2/town.bin",
+     "bytes": 1171152,
+     "ms": 8
+    },
+    {
+     "file": "granada/2/textures/stone_base.jpg",
+     "bytes": 294472,
+     "ms": 14
+    },
+    {
+     "file": "granada/2/textures/stone_orm.jpg",
+     "bytes": 173326,
+     "ms": 13
+    },
+    {
+     "file": "granada/2/textures/stone_normal.jpg",
+     "bytes": 488747,
+     "ms": 16
+    },
+    {
+     "file": "granada/2/textures/plaster_base.jpg",
+     "bytes": 276340,
+     "ms": 14
+    },
+    {
+     "file": "granada/2/textures/plaster_orm.jpg",
+     "bytes": 102840,
+     "ms": 12
+    },
+    {
+     "file": "granada/2/textures/plaster_normal.jpg",
+     "bytes": 505220,
+     "ms": 16
+    },
+    {
+     "file": "granada/2/textures/rooftile_base.jpg",
+     "bytes": 328786,
+     "ms": 36
+    },
+    {
+     "file": "granada/2/textures/rooftile_orm.jpg",
+     "bytes": 82064,
+     "ms": 29
+    },
+    {
+     "file": "granada/2/textures/rooftile_normal.jpg",
+     "bytes": 362450,
+     "ms": 37
+    },
+    {
+     "file": "granada/2/textures/wood_base.jpg",
+     "bytes": 275317,
+     "ms": 36
+    },
+    {
+     "file": "granada/2/textures/wood_orm.jpg",
+     "bytes": 267353,
+     "ms": 36
+    },
+    {
+     "file": "granada/2/textures/wood_normal.jpg",
+     "bytes": 179091,
+     "ms": 37
+    },
+    {
+     "file": "granada/2/textures/plaster_warm_base.jpg",
+     "bytes": 251880,
+     "ms": 50
+    },
+    {
+     "file": "granada/2/textures/plaster_warm_orm.jpg",
+     "bytes": 102840,
+     "ms": 48
+    },
+    {
+     "file": "granada/2/textures/earth_base.jpg",
+     "bytes": 58651,
+     "ms": 46
+    },
+    {
+     "file": "granada/2/textures/plaster_warm_normal.jpg",
+     "bytes": 505220,
+     "ms": 52
+    },
+    {
+     "file": "granada/2/textures/earth_orm.jpg",
+     "bytes": 107745,
+     "ms": 49
+    },
+    {
+     "file": "granada/2/textures/earth_normal.jpg",
+     "bytes": 846968,
+     "ms": 53
+    },
+    {
+     "file": "granada/2/landmarks.gltf",
+     "bytes": 27834,
+     "ms": 2
+    },
+    {
+     "file": "granada/2/landmarks.bin",
+     "bytes": 1356120,
+     "ms": 50
+    },
+    {
+     "file": "granada/2/textures/wood_base.jpg",
+     "bytes": 275317,
+     "ms": 2
+    },
+    {
+     "file": "granada/2/textures/wood_orm.jpg",
+     "bytes": 267353,
+     "ms": 4
+    },
+    {
+     "file": "granada/2/textures/wood_normal.jpg",
+     "bytes": 179091,
+     "ms": 5
+    },
+    {
+     "file": "granada/2/textures/stone_base.jpg",
+     "bytes": 294472,
+     "ms": 7
+    },
+    {
+     "file": "granada/2/textures/stone_orm.jpg",
+     "bytes": 173326,
+     "ms": 8
+    },
+    {
+     "file": "granada/2/textures/stone_normal.jpg",
+     "bytes": 488747,
+     "ms": 6
+    },
+    {
+     "file": "granada/2/textures/plaster_base.jpg",
+     "bytes": 276340,
+     "ms": 6
+    },
+    {
+     "file": "granada/2/textures/plaster_orm.jpg",
+     "bytes": 102840,
+     "ms": 17
+    },
+    {
+     "file": "granada/2/textures/plaster_normal.jpg",
+     "bytes": 505220,
+     "ms": 12
+    },
+    {
+     "file": "granada/2/textures/rooftile_base.jpg",
+     "bytes": 328786,
+     "ms": 13
+    },
+    {
+     "file": "granada/2/textures/rooftile_orm.jpg",
+     "bytes": 82064,
+     "ms": 15
+    },
+    {
+     "file": "granada/2/textures/rooftile_normal.jpg",
+     "bytes": 362450,
+     "ms": 17
+    },
+    {
+     "file": "granada/2/textures/plaster_warm_base.jpg",
+     "bytes": 251880,
+     "ms": 19
+    },
+    {
+     "file": "granada/2/textures/plaster_warm_orm.jpg",
+     "bytes": 102840,
+     "ms": 22
+    },
+    {
+     "file": "granada/2/textures/plaster_warm_normal.jpg",
+     "bytes": 505220,
+     "ms": 23
+    },
+    {
+     "file": "granada/2/textures/earth_base.jpg",
+     "bytes": 58651,
+     "ms": 24
+    },
+    {
+     "file": "granada/2/textures/earth_orm.jpg",
+     "bytes": 107745,
+     "ms": 24
+    },
+    {
+     "file": "granada/2/textures/earth_normal.jpg",
+     "bytes": 846968,
+     "ms": 31
+    },
+    {
+     "file": "granada/2/textures/plaster_red_orm.jpg",
+     "bytes": 102840,
+     "ms": 38
+    },
+    {
+     "file": "granada/2/textures/plaster_red_base.jpg",
+     "bytes": 211514,
+     "ms": 40
+    },
+    {
+     "file": "granada/2/textures/cobble_base.jpg",
+     "bytes": 359909,
+     "ms": 42
+    },
+    {
+     "file": "granada/2/textures/cobble_orm.jpg",
+     "bytes": 299550,
+     "ms": 42
+    },
+    {
+     "file": "granada/2/textures/plaster_red_normal.jpg",
+     "bytes": 505220,
+     "ms": 43
+    },
+    {
+     "file": "granada/2/textures/cobble_normal.jpg",
+     "bytes": 373781,
+     "ms": 45
+    },
+    {
+     "file": "granada/c/palace.gltf",
+     "bytes": 36112,
+     "ms": 2
+    },
+    {
+     "file": "granada/c/palace.bin",
+     "bytes": 24575196,
+     "ms": 143
+    },
+    {
+     "file": "granada/c/textures/stone_base.jpg",
+     "bytes": 294472,
+     "ms": 15
+    },
+    {
+     "file": "granada/c/textures/stone_orm.jpg",
+     "bytes": 173326,
+     "ms": 7
+    },
+    {
+     "file": "granada/c/textures/stone_normal.jpg",
+     "bytes": 488747,
+     "ms": 19
+    },
+    {
+     "file": "granada/c/textures/plaster_red_base.jpg",
+     "bytes": 211514,
+     "ms": 14
+    },
+    {
+     "file": "granada/c/textures/plaster_red_orm.jpg",
+     "bytes": 102840,
+     "ms": 10
+    },
+    {
+     "file": "granada/c/textures/cobble_base.jpg",
+     "bytes": 359909,
+     "ms": 29
+    },
+    {
+     "file": "granada/c/textures/plaster_red_normal.jpg",
+     "bytes": 505220,
+     "ms": 29
+    },
+    {
+     "file": "granada/c/textures/cobble_orm.jpg",
+     "bytes": 299550,
+     "ms": 30
+    },
+    {
+     "file": "granada/c/textures/cobble_normal.jpg",
+     "bytes": 373781,
+     "ms": 36
+    },
+    {
+     "file": "granada/c/textures/plaster_base.jpg",
+     "bytes": 276340,
+     "ms": 36
+    },
+    {
+     "file": "granada/c/textures/plaster_orm.jpg",
+     "bytes": 102840,
+     "ms": 39
+    },
+    {
+     "file": "granada/c/textures/rooftile_orm.jpg",
+     "bytes": 82064,
+     "ms": 46
+    },
+    {
+     "file": "granada/c/textures/rooftile_base.jpg",
+     "bytes": 328786,
+     "ms": 48
+    },
+    {
+     "file": "granada/c/textures/plaster_normal.jpg",
+     "bytes": 505220,
+     "ms": 51
+    },
+    {
+     "file": "granada/c/textures/rooftile_normal.jpg",
+     "bytes": 362450,
+     "ms": 50
+    },
+    {
+     "file": "granada/c/textures/wood_base.jpg",
+     "bytes": 275317,
+     "ms": 52
+    },
+    {
+     "file": "granada/c/textures/wood_orm.jpg",
+     "bytes": 267353,
+     "ms": 55
+    },
+    {
+     "file": "granada/c/textures/wood_normal.jpg",
+     "bytes": 179091,
+     "ms": 55
+    },
+    {
+     "file": "granada/c/textures/plaster_warm_base.jpg",
+     "bytes": 251880,
+     "ms": 65
+    },
+    {
+     "file": "granada/c/textures/plaster_warm_orm.jpg",
+     "bytes": 102840,
+     "ms": 60
+    },
+    {
+     "file": "granada/c/textures/earth_base.jpg",
+     "bytes": 58651,
+     "ms": 68
+    },
+    {
+     "file": "granada/c/textures/earth_orm.jpg",
+     "bytes": 107745,
+     "ms": 69
+    },
+    {
+     "file": "granada/c/textures/plaster_warm_normal.jpg",
+     "bytes": 505220,
+     "ms": 72
+    },
+    {
+     "file": "granada/c/textures/earth_normal.jpg",
+     "bytes": 846968,
+     "ms": 77
+    },
+    {
+     "file": "granada/2/mill.gltf",
+     "bytes": 22791,
+     "ms": 4
+    },
+    {
+     "file": "granada/2/mill.bin",
+     "bytes": 1707480,
+     "ms": 45
+    },
+    {
+     "file": "granada/2/textures/plaster_base.jpg",
+     "bytes": 276340,
+     "ms": 7
+    },
+    {
+     "file": "granada/2/textures/plaster_orm.jpg",
+     "bytes": 102840,
+     "ms": 15
+    },
+    {
+     "file": "granada/2/textures/plaster_normal.jpg",
+     "bytes": 505220,
+     "ms": 15
+    },
+    {
+     "file": "granada/2/textures/rooftile_base.jpg",
+     "bytes": 328786,
+     "ms": 20
+    },
+    {
+     "file": "granada/2/textures/rooftile_orm.jpg",
+     "bytes": 82064,
+     "ms": 20
+    },
+    {
+     "file": "granada/2/textures/rooftile_normal.jpg",
+     "bytes": 362450,
+     "ms": 21
+    },
+    {
+     "file": "granada/2/textures/wood_base.jpg",
+     "bytes": 275317,
+     "ms": 24
+    },
+    {
+     "file": "granada/2/textures/wood_orm.jpg",
+     "bytes": 267353,
+     "ms": 24
+    },
+    {
+     "file": "granada/2/textures/stone_base.jpg",
+     "bytes": 294472,
+     "ms": 24
+    },
+    {
+     "file": "granada/2/textures/wood_normal.jpg",
+     "bytes": 179091,
+     "ms": 24
+    },
+    {
+     "file": "granada/2/textures/stone_orm.jpg",
+     "bytes": 173326,
+     "ms": 25
+    },
+    {
+     "file": "granada/2/textures/stone_normal.jpg",
+     "bytes": 488747,
+     "ms": 28
+    },
+    {
+     "file": "granada/2/textures/earth_base.jpg",
+     "bytes": 58651,
+     "ms": 31
+    },
+    {
+     "file": "granada/2/textures/earth_orm.jpg",
+     "bytes": 107745,
+     "ms": 32
+    },
+    {
+     "file": "granada/2/textures/earth_normal.jpg",
+     "bytes": 846968,
+     "ms": 32
+    }
+   ],
+   "played": {
+    "daysPassed": 37,
+    "day": 62
+   },
+   "models": [
+    "granada/town",
+    "granada/landmarks",
+    "granada/c/palace",
+    "granada/mill"
+   ],
+   "modelFailures": [],
+   "views": {
+    "1-proof": {
+     "palaceBoxPixels": {
+      "width": 168,
+      "height": 62
+     },
+     "pose": {
+      "tx": 640,
+      "ty": 43.09174427004298,
+      "tz": 0,
+      "yaw": 1.07,
+      "pitch": 0.17,
+      "distance": 330
+     },
+     "counted": {
+      "atMs": 23612,
+      "frames": {
+       "frames": 1200,
+       "durationMs": 9999.9,
+       "meanMs": 8.333,
+       "p50Ms": 8.3,
+       "p95Ms": 9.1,
+       "p99Ms": 9.2,
+       "maxMs": 9.4,
+       "minMs": 7.3,
+       "over16_7": 0,
+       "over33_3": 0,
+       "over50": 0,
+       "avgFps": 120.001,
+       "longestUnder30FpsMs": 0
+      },
+      "loops": 2,
+      "heapMb": 142.3,
+      "heapNote": "performance.memory.usedJSHeapSize: the JavaScript heap only, not the graphics memory",
+      "contexts": {
+       "webgpu": 1
+      },
+      "intervals": 1,
+      "workers": 0,
+      "listeners": 178,
+      "audio": {
+       "contexts": 0,
+       "nodesMade": 0
+      },
+      "provided": {
+       "renderer": {
+        "drawCalls": 197,
+        "triangles": 2306834,
+        "geometries": 147,
+        "textures": 69,
+        "cpuRenderMs": 2.300000011920929,
+        "engine": "three r187 webgpu",
+        "pixels": [
+         1280,
+         585
+        ],
+        "walkers": 9,
+        "atWork": 24,
+        "models": [
+         "granada/town",
+         "granada/landmarks",
+         "granada/c/palace",
+         "granada/mill"
+        ],
+        "modelFailures": [],
+        "eased": 0
+       }
+      }
+     }
+    },
+    "2-nearest-strategic": {
+     "palaceBoxPixels": {
+      "width": 319,
+      "height": 130
+     },
+     "nearestDistanceHoldingThePalace": 160,
+     "pose": {
+      "tx": 760,
+      "ty": 86.38954178869974,
+      "tz": -150,
+      "yaw": 1.5708,
+      "pitch": 0.1222,
+      "distance": 160
+     },
+     "counted": {
+      "atMs": 37935,
+      "frames": {
+       "frames": 1200,
+       "durationMs": 9999.9,
+       "meanMs": 8.333,
+       "p50Ms": 8.3,
+       "p95Ms": 9.2,
+       "p99Ms": 9.3,
+       "maxMs": 9.4,
+       "minMs": 7.3,
+       "over16_7": 0,
+       "over33_3": 0,
+       "over50": 0,
+       "avgFps": 120.001,
+       "longestUnder30FpsMs": 0
+      },
+      "loops": 2,
+      "heapMb": 140,
+      "heapNote": "performance.memory.usedJSHeapSize: the JavaScript heap only, not the graphics memory",
+      "contexts": {
+       "webgpu": 1
+      },
+      "intervals": 1,
+      "workers": 0,
+      "listeners": 178,
+      "audio": {
+       "contexts": 0,
+       "nodesMade": 0
+      },
+      "provided": {
+       "renderer": {
+        "drawCalls": 166,
+        "triangles": 2283563,
+        "geometries": 147,
+        "textures": 69,
+        "cpuRenderMs": 3,
+        "engine": "three r187 webgpu",
+        "pixels": [
+         1280,
+         585
+        ],
+        "walkers": 9,
+        "atWork": 24,
+        "models": [
+         "granada/town",
+         "granada/landmarks",
+         "granada/c/palace",
+         "granada/mill"
+        ],
+        "modelFailures": [],
+        "eased": 0
+       }
+      }
+     }
+    },
+    "3-farthest-strategic": {
+     "palaceBoxPixels": {
+      "width": 57,
+      "height": 19
+     },
+     "pose": {
+      "tx": 30,
+      "ty": 89.31725393305372,
+      "tz": 70,
+      "yaw": 1.41,
+      "pitch": 0.17,
+      "distance": 980
+     },
+     "counted": {
+      "atMs": 50720,
+      "frames": {
+       "frames": 1200,
+       "durationMs": 9999.9,
+       "meanMs": 8.333,
+       "p50Ms": 8.3,
+       "p95Ms": 9,
+       "p99Ms": 9.2,
+       "maxMs": 9.3,
+       "minMs": 7.3,
+       "over16_7": 0,
+       "over33_3": 0,
+       "over50": 0,
+       "avgFps": 120.001,
+       "longestUnder30FpsMs": 0
+      },
+      "loops": 2,
+      "heapMb": 161.3,
+      "heapNote": "performance.memory.usedJSHeapSize: the JavaScript heap only, not the graphics memory",
+      "contexts": {
+       "webgpu": 1
+      },
+      "intervals": 1,
+      "workers": 0,
+      "listeners": 178,
+      "audio": {
+       "contexts": 0,
+       "nodesMade": 0
+      },
+      "provided": {
+       "renderer": {
+        "drawCalls": 306,
+        "triangles": 2714233,
+        "geometries": 147,
+        "textures": 69,
+        "cpuRenderMs": 4.0999999940395355,
+        "engine": "three r187 webgpu",
+        "pixels": [
+         1280,
+         585
+        ],
+        "walkers": 9,
+        "atWork": 24,
+        "models": [
+         "granada/town",
+         "granada/landmarks",
+         "granada/c/palace",
+         "granada/mill"
+        ],
+        "modelFailures": [],
+        "eased": 0
+       }
+      }
+     }
+    },
+    "4-photo-farthest": {
+     "palaceBoxPixels": {
+      "width": 38,
+      "height": 13
+     },
+     "pose": {
+      "tx": 30,
+      "ty": 89.31725393305372,
+      "tz": 70,
+      "yaw": 1.41,
+      "pitch": 0.17,
+      "distance": 980
+     },
+     "counted": {
+      "atMs": 63647,
+      "frames": {
+       "frames": 1199,
+       "durationMs": 9991.5,
+       "meanMs": 8.333,
+       "p50Ms": 8.3,
+       "p95Ms": 9,
+       "p99Ms": 9.2,
+       "maxMs": 9.4,
+       "minMs": 7.3,
+       "over16_7": 0,
+       "over33_3": 0,
+       "over50": 0,
+       "avgFps": 120.002,
+       "longestUnder30FpsMs": 0
+      },
+      "loops": 2,
+      "heapMb": 158.8,
+      "heapNote": "performance.memory.usedJSHeapSize: the JavaScript heap only, not the graphics memory",
+      "contexts": {
+       "webgpu": 1
+      },
+      "intervals": 1,
+      "workers": 0,
+      "listeners": 240,
+      "audio": {
+       "contexts": 0,
+       "nodesMade": 0
+      },
+      "provided": {
+       "renderer": {
+        "drawCalls": 306,
+        "triangles": 2714233,
+        "geometries": 147,
+        "textures": 69,
+        "cpuRenderMs": 4.0999999940395355,
+        "engine": "three r187 webgpu",
+        "pixels": [
+         1280,
+         800
+        ],
+        "walkers": 9,
+        "atWork": 24,
+        "models": [
+         "granada/town",
+         "granada/landmarks",
+         "granada/c/palace",
+         "granada/mill"
+        ],
+        "modelFailures": [],
+        "eased": 0
+       }
+      }
+     }
+    },
+    "5-photo-nearest": {
+     "palaceBoxPixels": {
+      "width": 605,
+      "height": 199
+     },
+     "nearestDistanceHoldingThePalace": 400,
+     "pose": {
+      "tx": 760,
+      "ty": 106.78954178869974,
+      "tz": -150,
+      "yaw": 1.5708,
+      "pitch": 0.1222,
+      "distance": 400
+     },
+     "counted": {
+      "atMs": 81189,
+      "frames": {
+       "frames": 1200,
+       "durationMs": 10008.1,
+       "meanMs": 8.34,
+       "p50Ms": 8.3,
+       "p95Ms": 9.1,
+       "p99Ms": 9.3,
+       "maxMs": 16.7,
+       "minMs": 7.3,
+       "over16_7": 1,
+       "over33_3": 0,
+       "over50": 0,
+       "avgFps": 119.903,
+       "longestUnder30FpsMs": 0
+      },
+      "loops": 2,
+      "heapMb": 134.9,
+      "heapNote": "performance.memory.usedJSHeapSize: the JavaScript heap only, not the graphics memory",
+      "contexts": {
+       "webgpu": 1
+      },
+      "intervals": 1,
+      "workers": 0,
+      "listeners": 95,
+      "audio": {
+       "contexts": 0,
+       "nodesMade": 0
+      },
+      "provided": {
+       "renderer": {
+        "drawCalls": 215,
+        "triangles": 2378807,
+        "geometries": 147,
+        "textures": 69,
+        "cpuRenderMs": 3.2000000178813934,
+        "engine": "three r187 webgpu",
+        "pixels": [
+         1280,
+         800
+        ],
+        "walkers": 9,
+        "atWork": 24,
+        "models": [
+         "granada/town",
+         "granada/landmarks",
+         "granada/c/palace",
+         "granada/mill"
+        ],
+        "modelFailures": [],
+        "eased": 0
+       }
+      }
+     }
+    }
+   },
+   "consoleErrors": []
+  },
+  {
+   "set": "a",
+   "size": "1280x800",
+   "preset": "medium",
+   "readyMs": 3817,
+   "fetched": [
+    {
+     "file": "granada/2/town.gltf",
+     "bytes": 44825,
+     "ms": 8
+    },
+    {
+     "file": "granada/2/town.bin",
+     "bytes": 1171152,
+     "ms": 88
+    },
+    {
+     "file": "granada/2/textures/stone_base.jpg",
+     "bytes": 294472,
+     "ms": 14
+    },
+    {
+     "file": "granada/2/textures/stone_orm.jpg",
+     "bytes": 173326,
+     "ms": 12
+    },
+    {
+     "file": "granada/2/textures/stone_normal.jpg",
+     "bytes": 488747,
+     "ms": 38
+    },
+    {
+     "file": "granada/2/textures/plaster_base.jpg",
+     "bytes": 276340,
+     "ms": 15
+    },
+    {
+     "file": "granada/2/textures/plaster_orm.jpg",
+     "bytes": 102840,
+     "ms": 8
+    },
+    {
+     "file": "granada/2/textures/rooftile_orm.jpg",
+     "bytes": 82064,
+     "ms": 38
+    },
+    {
+     "file": "granada/2/textures/rooftile_base.jpg",
+     "bytes": 328786,
+     "ms": 71
+    },
+    {
+     "file": "granada/2/textures/plaster_normal.jpg",
+     "bytes": 505220,
+     "ms": 76
+    },
+    {
+     "file": "granada/2/textures/wood_base.jpg",
+     "bytes": 275317,
+     "ms": 79
+    },
+    {
+     "file": "granada/2/textures/rooftile_normal.jpg",
+     "bytes": 362450,
+     "ms": 79
+    },
+    {
+     "file": "granada/2/textures/wood_orm.jpg",
+     "bytes": 267353,
+     "ms": 80
+    },
+    {
+     "file": "granada/2/textures/wood_normal.jpg",
+     "bytes": 179091,
+     "ms": 84
+    },
+    {
+     "file": "granada/2/textures/plaster_warm_base.jpg",
+     "bytes": 251880,
+     "ms": 88
+    },
+    {
+     "file": "granada/2/textures/plaster_warm_orm.jpg",
+     "bytes": 102840,
+     "ms": 99
+    },
+    {
+     "file": "granada/2/textures/earth_base.jpg",
+     "bytes": 58651,
+     "ms": 95
+    },
+    {
+     "file": "granada/2/textures/plaster_warm_normal.jpg",
+     "bytes": 505220,
+     "ms": 105
+    },
+    {
+     "file": "granada/2/textures/earth_orm.jpg",
+     "bytes": 107745,
+     "ms": 95
+    },
+    {
+     "file": "granada/2/textures/earth_normal.jpg",
+     "bytes": 846968,
+     "ms": 111
+    },
+    {
+     "file": "granada/2/landmarks.gltf",
+     "bytes": 27834,
+     "ms": 12
+    },
+    {
+     "file": "granada/2/landmarks.bin",
+     "bytes": 1356120,
+     "ms": 163
+    },
+    {
+     "file": "granada/2/textures/wood_base.jpg",
+     "bytes": 275317,
+     "ms": 45
+    },
+    {
+     "file": "granada/2/textures/wood_orm.jpg",
+     "bytes": 267353,
+     "ms": 53
+    },
+    {
+     "file": "granada/2/textures/wood_normal.jpg",
+     "bytes": 179091,
+     "ms": 58
+    },
+    {
+     "file": "granada/2/textures/stone_base.jpg",
+     "bytes": 294472,
+     "ms": 59
+    },
+    {
+     "file": "granada/2/textures/stone_orm.jpg",
+     "bytes": 173326,
+     "ms": 62
+    },
+    {
+     "file": "granada/2/textures/stone_normal.jpg",
+     "bytes": 488747,
+     "ms": 68
+    },
+    {
+     "file": "granada/2/textures/plaster_base.jpg",
+     "bytes": 276340,
+     "ms": 68
+    },
+    {
+     "file": "granada/2/textures/plaster_orm.jpg",
+     "bytes": 102840,
+     "ms": 69
+    },
+    {
+     "file": "granada/2/textures/plaster_normal.jpg",
+     "bytes": 505220,
+     "ms": 71
+    },
+    {
+     "file": "granada/2/textures/rooftile_base.jpg",
+     "bytes": 328786,
+     "ms": 72
+    },
+    {
+     "file": "granada/2/textures/rooftile_orm.jpg",
+     "bytes": 82064,
+     "ms": 108
+    },
+    {
+     "file": "granada/2/textures/rooftile_normal.jpg",
+     "bytes": 362450,
+     "ms": 110
+    },
+    {
+     "file": "granada/2/textures/plaster_warm_base.jpg",
+     "bytes": 251880,
+     "ms": 110
+    },
+    {
+     "file": "granada/2/textures/plaster_warm_orm.jpg",
+     "bytes": 102840,
+     "ms": 117
+    },
+    {
+     "file": "granada/2/textures/plaster_warm_normal.jpg",
+     "bytes": 505220,
+     "ms": 124
+    },
+    {
+     "file": "granada/2/textures/earth_base.jpg",
+     "bytes": 58651,
+     "ms": 126
+    },
+    {
+     "file": "granada/2/textures/earth_orm.jpg",
+     "bytes": 107745,
+     "ms": 126
+    },
+    {
+     "file": "granada/2/textures/earth_normal.jpg",
+     "bytes": 846968,
+     "ms": 127
+    },
+    {
+     "file": "granada/2/textures/plaster_red_base.jpg",
+     "bytes": 211514,
+     "ms": 141
+    },
+    {
+     "file": "granada/2/textures/plaster_red_orm.jpg",
+     "bytes": 102840,
+     "ms": 136
+    },
+    {
+     "file": "granada/2/textures/plaster_red_normal.jpg",
+     "bytes": 505220,
+     "ms": 149
+    },
+    {
+     "file": "granada/2/textures/cobble_orm.jpg",
+     "bytes": 299550,
+     "ms": 144
+    },
+    {
+     "file": "granada/2/textures/cobble_base.jpg",
+     "bytes": 359909,
+     "ms": 148
+    },
+    {
+     "file": "granada/2/textures/cobble_normal.jpg",
+     "bytes": 373781,
+     "ms": 149
+    },
+    {
+     "file": "granada/2/mill.gltf",
+     "bytes": 22791,
+     "ms": 3
+    },
+    {
+     "file": "granada/2/mill.bin",
+     "bytes": 1707480,
+     "ms": 53
+    },
+    {
+     "file": "granada/2/textures/plaster_base.jpg",
+     "bytes": 276340,
+     "ms": 5
+    },
+    {
+     "file": "granada/2/textures/plaster_orm.jpg",
+     "bytes": 102840,
+     "ms": 5
+    },
+    {
+     "file": "granada/2/textures/plaster_normal.jpg",
+     "bytes": 505220,
+     "ms": 11
+    },
+    {
+     "file": "granada/2/textures/rooftile_base.jpg",
+     "bytes": 328786,
+     "ms": 12
+    },
+    {
+     "file": "granada/2/textures/rooftile_normal.jpg",
+     "bytes": 362450,
+     "ms": 7
+    },
+    {
+     "file": "granada/2/textures/wood_base.jpg",
+     "bytes": 275317,
+     "ms": 9
+    },
+    {
+     "file": "granada/2/textures/rooftile_orm.jpg",
+     "bytes": 82064,
+     "ms": 13
+    },
+    {
+     "file": "granada/2/textures/wood_orm.jpg",
+     "bytes": 267353,
+     "ms": 15
+    },
+    {
+     "file": "granada/2/textures/wood_normal.jpg",
+     "bytes": 179091,
+     "ms": 37
+    },
+    {
+     "file": "granada/2/textures/stone_base.jpg",
+     "bytes": 294472,
+     "ms": 38
+    },
+    {
+     "file": "granada/2/textures/stone_orm.jpg",
+     "bytes": 173326,
+     "ms": 38
+    },
+    {
+     "file": "granada/2/textures/earth_base.jpg",
+     "bytes": 58651,
+     "ms": 40
+    },
+    {
+     "file": "granada/2/textures/stone_normal.jpg",
+     "bytes": 488747,
+     "ms": 42
+    },
+    {
+     "file": "granada/2/textures/earth_orm.jpg",
+     "bytes": 107745,
+     "ms": 40
+    },
+    {
+     "file": "granada/2/textures/earth_normal.jpg",
+     "bytes": 846968,
+     "ms": 41
+    }
+   ],
+   "played": {
+    "daysPassed": 37,
+    "day": 62
+   },
+   "models": [
+    "granada/town",
+    "granada/landmarks",
+    "granada/mill"
+   ],
+   "modelFailures": [],
+   "views": {
+    "1-proof": {
+     "palaceBoxPixels": {
+      "width": 127,
+      "height": 56
+     },
+     "pose": {
+      "tx": 640,
+      "ty": 43.09174427004298,
+      "tz": 0,
+      "yaw": 1.07,
+      "pitch": 0.17,
+      "distance": 330
+     },
+     "counted": {
+      "atMs": 25204,
+      "frames": {
+       "frames": 1191,
+       "durationMs": 9995.4,
+       "meanMs": 8.392,
+       "p50Ms": 8.3,
+       "p95Ms": 9.1,
+       "p99Ms": 9.3,
+       "maxMs": 16.7,
+       "minMs": 7.3,
+       "over16_7": 3,
+       "over33_3": 0,
+       "over50": 0,
+       "avgFps": 119.155,
+       "longestUnder30FpsMs": 0
+      },
+      "loops": 2,
+      "heapMb": 198.6,
+      "heapNote": "performance.memory.usedJSHeapSize: the JavaScript heap only, not the graphics memory",
+      "contexts": {
+       "webgpu": 1
+      },
+      "intervals": 1,
+      "workers": 0,
+      "listeners": 113,
+      "audio": {
+       "contexts": 0,
+       "nodesMade": 0
+      },
+      "provided": {
+       "renderer": {
+        "drawCalls": 193,
+        "triangles": 2020293,
+        "geometries": 136,
+        "textures": 62,
+        "cpuRenderMs": 2.7000000178813934,
+        "engine": "three r187 webgpu",
+        "pixels": [
+         1280,
+         585
+        ],
+        "walkers": 9,
+        "atWork": 24,
+        "models": [
+         "granada/town",
+         "granada/landmarks",
+         "granada/mill"
+        ],
+        "modelFailures": [],
+        "eased": 0
+       }
+      }
+     }
+    },
+    "2-nearest-strategic": {
+     "palaceBoxPixels": {
+      "width": 244,
+      "height": 123
+     },
+     "nearestDistanceHoldingThePalace": 150,
+     "pose": {
+      "tx": 760,
+      "ty": 85.53954178869974,
+      "tz": -150,
+      "yaw": 1.5708,
+      "pitch": 0.1222,
+      "distance": 150
+     },
+     "counted": {
+      "atMs": 39445,
+      "frames": {
+       "frames": 1207,
+       "durationMs": 10058.3,
+       "meanMs": 8.333,
+       "p50Ms": 8.3,
+       "p95Ms": 9.1,
+       "p99Ms": 9.3,
+       "maxMs": 9.4,
+       "minMs": 7.4,
+       "over16_7": 0,
+       "over33_3": 0,
+       "over50": 0,
+       "avgFps": 120,
+       "longestUnder30FpsMs": 0
+      },
+      "loops": 2,
+      "heapMb": 195,
+      "heapNote": "performance.memory.usedJSHeapSize: the JavaScript heap only, not the graphics memory",
+      "contexts": {
+       "webgpu": 1
+      },
+      "intervals": 1,
+      "workers": 0,
+      "listeners": 113,
+      "audio": {
+       "contexts": 0,
+       "nodesMade": 0
+      },
+      "provided": {
+       "renderer": {
+        "drawCalls": 156,
+        "triangles": 1915207,
+        "geometries": 136,
+        "textures": 62,
+        "cpuRenderMs": 3.2000000178813934,
+        "engine": "three r187 webgpu",
+        "pixels": [
+         1280,
+         585
+        ],
+        "walkers": 9,
+        "atWork": 24,
+        "models": [
+         "granada/town",
+         "granada/landmarks",
+         "granada/mill"
+        ],
+        "modelFailures": [],
+        "eased": 0
+       }
+      }
+     }
+    },
+    "3-farthest-strategic": {
+     "palaceBoxPixels": {
+      "width": 42,
+      "height": 18
+     },
+     "pose": {
+      "tx": 30,
+      "ty": 89.31725393305372,
+      "tz": 70,
+      "yaw": 1.41,
+      "pitch": 0.17,
+      "distance": 980
+     },
+     "counted": {
+      "atMs": 52670,
+      "frames": {
+       "frames": 1195,
+       "durationMs": 10016.3,
+       "meanMs": 8.382,
+       "p50Ms": 8.3,
+       "p95Ms": 9.3,
+       "p99Ms": 9.4,
+       "maxMs": 33.2,
+       "minMs": 7.3,
+       "over16_7": 2,
+       "over33_3": 0,
+       "over50": 0,
+       "avgFps": 119.306,
+       "longestUnder30FpsMs": 0
+      },
+      "loops": 2,
+      "heapMb": 176.8,
+      "heapNote": "performance.memory.usedJSHeapSize: the JavaScript heap only, not the graphics memory",
+      "contexts": {
+       "webgpu": 1
+      },
+      "intervals": 1,
+      "workers": 0,
+      "listeners": 88,
+      "audio": {
+       "contexts": 0,
+       "nodesMade": 0
+      },
+      "provided": {
+       "renderer": {
+        "drawCalls": 298,
+        "triangles": 3092007,
+        "geometries": 136,
+        "textures": 62,
+        "cpuRenderMs": 3.699999988079071,
+        "engine": "three r187 webgpu",
+        "pixels": [
+         1280,
+         585
+        ],
+        "walkers": 9,
+        "atWork": 24,
+        "models": [
+         "granada/town",
+         "granada/landmarks",
+         "granada/mill"
+        ],
+        "modelFailures": [],
+        "eased": 0
+       }
+      }
+     }
+    },
+    "4-photo-farthest": {
+     "palaceBoxPixels": {
+      "width": 29,
+      "height": 12
+     },
+     "pose": {
+      "tx": 30,
+      "ty": 89.31725393305372,
+      "tz": 70,
+      "yaw": 1.41,
+      "pitch": 0.17,
+      "distance": 980
+     },
+     "counted": {
+      "atMs": 65839,
+      "frames": {
+       "frames": 1200,
+       "durationMs": 10040.7,
+       "meanMs": 8.367,
+       "p50Ms": 8.3,
+       "p95Ms": 9.1,
+       "p99Ms": 9.3,
+       "maxMs": 16.7,
+       "minMs": 7.4,
+       "over16_7": 2,
+       "over33_3": 0,
+       "over50": 0,
+       "avgFps": 119.514,
+       "longestUnder30FpsMs": 0
+      },
+      "loops": 2,
+      "heapMb": 183.8,
+      "heapNote": "performance.memory.usedJSHeapSize: the JavaScript heap only, not the graphics memory",
+      "contexts": {
+       "webgpu": 1
+      },
+      "intervals": 1,
+      "workers": 0,
+      "listeners": 95,
+      "audio": {
+       "contexts": 0,
+       "nodesMade": 0
+      },
+      "provided": {
+       "renderer": {
+        "drawCalls": 298,
+        "triangles": 3092007,
+        "geometries": 136,
+        "textures": 62,
+        "cpuRenderMs": 3.2000000178813934,
+        "engine": "three r187 webgpu",
+        "pixels": [
+         1280,
+         800
+        ],
+        "walkers": 9,
+        "atWork": 24,
+        "models": [
+         "granada/town",
+         "granada/landmarks",
+         "granada/mill"
+        ],
+        "modelFailures": [],
+        "eased": 0
+       }
+      }
+     }
+    },
+    "5-photo-nearest": {
+     "palaceBoxPixels": {
+      "width": 457,
+      "height": 188
+     },
+     "nearestDistanceHoldingThePalace": 390,
+     "pose": {
+      "tx": 760,
+      "ty": 105.93954178869974,
+      "tz": -150,
+      "yaw": 1.5708,
+      "pitch": 0.1222,
+      "distance": 390
+     },
+     "counted": {
+      "atMs": 84894,
+      "frames": {
+       "frames": 1200,
+       "durationMs": 10008.4,
+       "meanMs": 8.34,
+       "p50Ms": 8.3,
+       "p95Ms": 9.2,
+       "p99Ms": 9.3,
+       "maxMs": 16.6,
+       "minMs": 7.3,
+       "over16_7": 0,
+       "over33_3": 0,
+       "over50": 0,
+       "avgFps": 119.899,
+       "longestUnder30FpsMs": 0
+      },
+      "loops": 2,
+      "heapMb": 187.7,
+      "heapNote": "performance.memory.usedJSHeapSize: the JavaScript heap only, not the graphics memory",
+      "contexts": {
+       "webgpu": 1
+      },
+      "intervals": 1,
+      "workers": 0,
+      "listeners": 95,
+      "audio": {
+       "contexts": 0,
+       "nodesMade": 0
+      },
+      "provided": {
+       "renderer": {
+        "drawCalls": 207,
+        "triangles": 2142671,
+        "geometries": 136,
+        "textures": 62,
+        "cpuRenderMs": 3.300000011920929,
+        "engine": "three r187 webgpu",
+        "pixels": [
+         1280,
+         800
+        ],
+        "walkers": 9,
+        "atWork": 24,
+        "models": [
+         "granada/town",
+         "granada/landmarks",
+         "granada/mill"
+        ],
+        "modelFailures": [],
+        "eased": 0
+       }
+      }
+     }
+    }
+   },
+   "consoleErrors": []
+  },
+  {
+   "set": "c",
+   "size": "1280x800",
+   "preset": "medium",
+   "readyMs": 4443,
+   "fetched": [
+    {
+     "file": "granada/2/town.gltf",
+     "bytes": 44825,
+     "ms": 10
+    },
+    {
+     "file": "granada/2/town.bin",
+     "bytes": 1171152,
+     "ms": 88
+    },
+    {
+     "file": "granada/2/textures/stone_base.jpg",
+     "bytes": 294472,
+     "ms": 30
+    },
+    {
+     "file": "granada/2/textures/stone_orm.jpg",
+     "bytes": 173326,
+     "ms": 26
+    },
+    {
+     "file": "granada/2/textures/stone_normal.jpg",
+     "bytes": 488747,
+     "ms": 35
+    },
+    {
+     "file": "granada/2/textures/plaster_orm.jpg",
+     "bytes": 102840,
+     "ms": 21
+    },
+    {
+     "file": "granada/2/textures/plaster_base.jpg",
+     "bytes": 276340,
+     "ms": 31
+    },
+    {
+     "file": "granada/2/textures/rooftile_base.jpg",
+     "bytes": 328786,
+     "ms": 45
+    },
+    {
+     "file": "granada/2/textures/plaster_normal.jpg",
+     "bytes": 505220,
+     "ms": 53
+    },
+    {
+     "file": "granada/2/textures/rooftile_orm.jpg",
+     "bytes": 82064,
+     "ms": 42
+    },
+    {
+     "file": "granada/2/textures/wood_base.jpg",
+     "bytes": 275317,
+     "ms": 57
+    },
+    {
+     "file": "granada/2/textures/rooftile_normal.jpg",
+     "bytes": 362450,
+     "ms": 58
+    },
+    {
+     "file": "granada/2/textures/wood_normal.jpg",
+     "bytes": 179091,
+     "ms": 82
+    },
+    {
+     "file": "granada/2/textures/wood_orm.jpg",
+     "bytes": 267353,
+     "ms": 83
+    },
+    {
+     "file": "granada/2/textures/plaster_warm_orm.jpg",
+     "bytes": 102840,
+     "ms": 85
+    },
+    {
+     "file": "granada/2/textures/plaster_warm_base.jpg",
+     "bytes": 251880,
+     "ms": 94
+    },
+    {
+     "file": "granada/2/textures/plaster_warm_normal.jpg",
+     "bytes": 505220,
+     "ms": 99
+    },
+    {
+     "file": "granada/2/textures/earth_base.jpg",
+     "bytes": 58651,
+     "ms": 95
+    },
+    {
+     "file": "granada/2/textures/earth_orm.jpg",
+     "bytes": 107745,
+     "ms": 96
+    },
+    {
+     "file": "granada/2/textures/earth_normal.jpg",
+     "bytes": 846968,
+     "ms": 130
+    },
+    {
+     "file": "granada/2/landmarks.gltf",
+     "bytes": 27834,
+     "ms": 5
+    },
+    {
+     "file": "granada/2/landmarks.bin",
+     "bytes": 1356120,
+     "ms": 113
+    },
+    {
+     "file": "granada/2/textures/wood_base.jpg",
+     "bytes": 275317,
+     "ms": 6
+    },
+    {
+     "file": "granada/2/textures/wood_orm.jpg",
+     "bytes": 267353,
+     "ms": 7
+    },
+    {
+     "file": "granada/2/textures/wood_normal.jpg",
+     "bytes": 179091,
+     "ms": 10
+    },
+    {
+     "file": "granada/2/textures/stone_base.jpg",
+     "bytes": 294472,
+     "ms": 12
+    },
+    {
+     "file": "granada/2/textures/stone_normal.jpg",
+     "bytes": 488747,
+     "ms": 7
+    },
+    {
+     "file": "granada/2/textures/stone_orm.jpg",
+     "bytes": 173326,
+     "ms": 12
+    },
+    {
+     "file": "granada/2/textures/plaster_orm.jpg",
+     "bytes": 102840,
+     "ms": 15
+    },
+    {
+     "file": "granada/2/textures/plaster_base.jpg",
+     "bytes": 276340,
+     "ms": 21
+    },
+    {
+     "file": "granada/2/textures/plaster_normal.jpg",
+     "bytes": 505220,
+     "ms": 18
+    },
+    {
+     "file": "granada/2/textures/rooftile_base.jpg",
+     "bytes": 328786,
+     "ms": 21
+    },
+    {
+     "file": "granada/2/textures/rooftile_orm.jpg",
+     "bytes": 82064,
+     "ms": 19
+    },
+    {
+     "file": "granada/2/textures/rooftile_normal.jpg",
+     "bytes": 362450,
+     "ms": 21
+    },
+    {
+     "file": "granada/2/textures/plaster_warm_base.jpg",
+     "bytes": 251880,
+     "ms": 21
+    },
+    {
+     "file": "granada/2/textures/plaster_warm_orm.jpg",
+     "bytes": 102840,
+     "ms": 21
+    },
+    {
+     "file": "granada/2/textures/plaster_warm_normal.jpg",
+     "bytes": 505220,
+     "ms": 22
+    },
+    {
+     "file": "granada/2/textures/earth_base.jpg",
+     "bytes": 58651,
+     "ms": 22
+    },
+    {
+     "file": "granada/2/textures/earth_orm.jpg",
+     "bytes": 107745,
+     "ms": 34
+    },
+    {
+     "file": "granada/2/textures/earth_normal.jpg",
+     "bytes": 846968,
+     "ms": 35
+    },
+    {
+     "file": "granada/2/textures/plaster_red_base.jpg",
+     "bytes": 211514,
+     "ms": 53
+    },
+    {
+     "file": "granada/2/textures/plaster_red_orm.jpg",
+     "bytes": 102840,
+     "ms": 46
+    },
+    {
+     "file": "granada/2/textures/cobble_base.jpg",
+     "bytes": 359909,
+     "ms": 66
+    },
+    {
+     "file": "granada/2/textures/plaster_red_normal.jpg",
+     "bytes": 505220,
+     "ms": 101
+    },
+    {
+     "file": "granada/2/textures/cobble_orm.jpg",
+     "bytes": 299550,
+     "ms": 66
+    },
+    {
+     "file": "granada/2/textures/cobble_normal.jpg",
+     "bytes": 373781,
+     "ms": 78
+    },
+    {
+     "file": "granada/c/palace.gltf",
+     "bytes": 36112,
+     "ms": 6
+    },
+    {
+     "file": "granada/c/palace.bin",
+     "bytes": 24575196,
+     "ms": 508
+    },
+    {
+     "file": "granada/c/textures/stone_base.jpg",
+     "bytes": 294472,
+     "ms": 65
+    },
+    {
+     "file": "granada/c/textures/stone_orm.jpg",
+     "bytes": 173326,
+     "ms": 24
+    },
+    {
+     "file": "granada/c/textures/stone_normal.jpg",
+     "bytes": 488747,
+     "ms": 80
+    },
+    {
+     "file": "granada/c/textures/plaster_red_orm.jpg",
+     "bytes": 102840,
+     "ms": 29
+    },
+    {
+     "file": "granada/c/textures/plaster_red_base.jpg",
+     "bytes": 211514,
+     "ms": 66
+    },
+    {
+     "file": "granada/c/textures/plaster_red_normal.jpg",
+     "bytes": 505220,
+     "ms": 160
+    },
+    {
+     "file": "granada/c/textures/cobble_base.jpg",
+     "bytes": 359909,
+     "ms": 159
+    },
+    {
+     "file": "granada/c/textures/cobble_orm.jpg",
+     "bytes": 299550,
+     "ms": 105
+    },
+    {
+     "file": "granada/c/textures/cobble_normal.jpg",
+     "bytes": 373781,
+     "ms": 160
+    },
+    {
+     "file": "granada/c/textures/plaster_base.jpg",
+     "bytes": 276340,
+     "ms": 171
+    },
+    {
+     "file": "granada/c/textures/plaster_orm.jpg",
+     "bytes": 102840,
+     "ms": 173
+    },
+    {
+     "file": "granada/c/textures/rooftile_base.jpg",
+     "bytes": 328786,
+     "ms": 188
+    },
+    {
+     "file": "granada/c/textures/plaster_normal.jpg",
+     "bytes": 505220,
+     "ms": 203
+    },
+    {
+     "file": "granada/c/textures/rooftile_orm.jpg",
+     "bytes": 82064,
+     "ms": 183
+    },
+    {
+     "file": "granada/c/textures/rooftile_normal.jpg",
+     "bytes": 362450,
+     "ms": 203
+    },
+    {
+     "file": "granada/c/textures/wood_base.jpg",
+     "bytes": 275317,
+     "ms": 203
+    },
+    {
+     "file": "granada/c/textures/wood_orm.jpg",
+     "bytes": 267353,
+     "ms": 231
+    },
+    {
+     "file": "granada/c/textures/wood_normal.jpg",
+     "bytes": 179091,
+     "ms": 236
+    },
+    {
+     "file": "granada/c/textures/plaster_warm_base.jpg",
+     "bytes": 251880,
+     "ms": 257
+    },
+    {
+     "file": "granada/c/textures/plaster_warm_orm.jpg",
+     "bytes": 102840,
+     "ms": 252
+    },
+    {
+     "file": "granada/c/textures/plaster_warm_normal.jpg",
+     "bytes": 505220,
+     "ms": 310
+    },
+    {
+     "file": "granada/c/textures/earth_base.jpg",
+     "bytes": 58651,
+     "ms": 255
+    },
+    {
+     "file": "granada/c/textures/earth_orm.jpg",
+     "bytes": 107745,
+     "ms": 268
+    },
+    {
+     "file": "granada/c/textures/earth_normal.jpg",
+     "bytes": 846968,
+     "ms": 327
+    },
+    {
+     "file": "granada/2/mill.gltf",
+     "bytes": 22791,
+     "ms": 23
+    },
+    {
+     "file": "granada/2/mill.bin",
+     "bytes": 1707480,
+     "ms": 109
+    },
+    {
+     "file": "granada/2/textures/plaster_base.jpg",
+     "bytes": 276340,
+     "ms": 21
+    },
+    {
+     "file": "granada/2/textures/plaster_orm.jpg",
+     "bytes": 102840,
+     "ms": 22
+    },
+    {
+     "file": "granada/2/textures/plaster_normal.jpg",
+     "bytes": 505220,
+     "ms": 23
+    },
+    {
+     "file": "granada/2/textures/rooftile_base.jpg",
+     "bytes": 328786,
+     "ms": 23
+    },
+    {
+     "file": "granada/2/textures/rooftile_orm.jpg",
+     "bytes": 82064,
+     "ms": 22
+    },
+    {
+     "file": "granada/2/textures/rooftile_normal.jpg",
+     "bytes": 362450,
+     "ms": 24
+    },
+    {
+     "file": "granada/2/textures/wood_base.jpg",
+     "bytes": 275317,
+     "ms": 27
+    },
+    {
+     "file": "granada/2/textures/wood_orm.jpg",
+     "bytes": 267353,
+     "ms": 29
+    },
+    {
+     "file": "granada/2/textures/wood_normal.jpg",
+     "bytes": 179091,
+     "ms": 36
+    },
+    {
+     "file": "granada/2/textures/stone_base.jpg",
+     "bytes": 294472,
+     "ms": 39
+    },
+    {
+     "file": "granada/2/textures/stone_orm.jpg",
+     "bytes": 173326,
+     "ms": 39
+    },
+    {
+     "file": "granada/2/textures/stone_normal.jpg",
+     "bytes": 488747,
+     "ms": 39
+    },
+    {
+     "file": "granada/2/textures/earth_base.jpg",
+     "bytes": 58651,
+     "ms": 39
+    },
+    {
+     "file": "granada/2/textures/earth_orm.jpg",
+     "bytes": 107745,
+     "ms": 40
+    },
+    {
+     "file": "granada/2/textures/earth_normal.jpg",
+     "bytes": 846968,
+     "ms": 40
+    }
+   ],
+   "played": {
+    "daysPassed": 37,
+    "day": 62
+   },
+   "models": [
+    "granada/town",
+    "granada/landmarks",
+    "granada/c/palace",
+    "granada/mill"
+   ],
+   "modelFailures": [],
+   "views": {
+    "1-proof": {
+     "palaceBoxPixels": {
+      "width": 168,
+      "height": 62
+     },
+     "pose": {
+      "tx": 640,
+      "ty": 43.09174427004298,
+      "tz": 0,
+      "yaw": 1.07,
+      "pitch": 0.17,
+      "distance": 330
+     },
+     "counted": {
+      "atMs": 26240,
+      "frames": {
+       "frames": 1203,
+       "durationMs": 10057.8,
+       "meanMs": 8.361,
+       "p50Ms": 8.3,
+       "p95Ms": 9.1,
+       "p99Ms": 9.3,
+       "maxMs": 24.4,
+       "minMs": 7.3,
+       "over16_7": 2,
+       "over33_3": 0,
+       "over50": 0,
+       "avgFps": 119.609,
+       "longestUnder30FpsMs": 0
+      },
+      "loops": 2,
+      "heapMb": 208.6,
+      "heapNote": "performance.memory.usedJSHeapSize: the JavaScript heap only, not the graphics memory",
+      "contexts": {
+       "webgpu": 1
+      },
+      "intervals": 1,
+      "workers": 0,
+      "listeners": 283,
+      "audio": {
+       "contexts": 0,
+       "nodesMade": 0
+      },
+      "provided": {
+       "renderer": {
+        "drawCalls": 215,
+        "triangles": 2431313,
+        "geometries": 147,
+        "textures": 80,
+        "cpuRenderMs": 9.599999994039536,
+        "engine": "three r187 webgpu",
+        "pixels": [
+         1280,
+         585
+        ],
+        "walkers": 9,
+        "atWork": 24,
+        "models": [
+         "granada/town",
+         "granada/landmarks",
+         "granada/c/palace",
+         "granada/mill"
+        ],
+        "modelFailures": [],
+        "eased": 0
+       }
+      }
+     }
+    },
+    "2-nearest-strategic": {
+     "palaceBoxPixels": {
+      "width": 319,
+      "height": 130
+     },
+     "nearestDistanceHoldingThePalace": 160,
+     "pose": {
+      "tx": 760,
+      "ty": 86.38954178869974,
+      "tz": -150,
+      "yaw": 1.5708,
+      "pitch": 0.1222,
+      "distance": 160
+     },
+     "counted": {
+      "atMs": 43000,
+      "frames": {
+       "frames": 1213,
+       "durationMs": 10140.8,
+       "meanMs": 8.36,
+       "p50Ms": 8.3,
+       "p95Ms": 9.2,
+       "p99Ms": 9.3,
+       "maxMs": 16.7,
+       "minMs": 7.3,
+       "over16_7": 2,
+       "over33_3": 0,
+       "over50": 0,
+       "avgFps": 119.616,
+       "longestUnder30FpsMs": 0
+      },
+      "loops": 2,
+      "heapMb": 206.1,
+      "heapNote": "performance.memory.usedJSHeapSize: the JavaScript heap only, not the graphics memory",
+      "contexts": {
+       "webgpu": 1
+      },
+      "intervals": 1,
+      "workers": 0,
+      "listeners": 283,
+      "audio": {
+       "contexts": 0,
+       "nodesMade": 0
+      },
+      "provided": {
+       "renderer": {
+        "drawCalls": 178,
+        "triangles": 2326227,
+        "geometries": 147,
+        "textures": 80,
+        "cpuRenderMs": 2.9000000059604645,
+        "engine": "three r187 webgpu",
+        "pixels": [
+         1280,
+         585
+        ],
+        "walkers": 9,
+        "atWork": 24,
+        "models": [
+         "granada/town",
+         "granada/landmarks",
+         "granada/c/palace",
+         "granada/mill"
+        ],
+        "modelFailures": [],
+        "eased": 0
+       }
+      }
+     }
+    },
+    "3-farthest-strategic": {
+     "palaceBoxPixels": {
+      "width": 57,
+      "height": 19
+     },
+     "pose": {
+      "tx": 30,
+      "ty": 89.31725393305372,
+      "tz": 70,
+      "yaw": 1.41,
+      "pitch": 0.17,
+      "distance": 980
+     },
+     "counted": {
+      "atMs": 56205,
+      "frames": {
+       "frames": 1206,
+       "durationMs": 10107.9,
+       "meanMs": 8.381,
+       "p50Ms": 8.3,
+       "p95Ms": 9.1,
+       "p99Ms": 9.3,
+       "maxMs": 25.4,
+       "minMs": 7.3,
+       "over16_7": 3,
+       "over33_3": 0,
+       "over50": 0,
+       "avgFps": 119.313,
+       "longestUnder30FpsMs": 0
+      },
+      "loops": 2,
+      "heapMb": 217.4,
+      "heapNote": "performance.memory.usedJSHeapSize: the JavaScript heap only, not the graphics memory",
+      "contexts": {
+       "webgpu": 1
+      },
+      "intervals": 1,
+      "workers": 0,
+      "listeners": 283,
+      "audio": {
+       "contexts": 0,
+       "nodesMade": 0
+      },
+      "provided": {
+       "renderer": {
+        "drawCalls": 320,
+        "triangles": 3503027,
+        "geometries": 147,
+        "textures": 80,
+        "cpuRenderMs": 3.100000023841858,
+        "engine": "three r187 webgpu",
+        "pixels": [
+         1280,
+         585
+        ],
+        "walkers": 9,
+        "atWork": 24,
+        "models": [
+         "granada/town",
+         "granada/landmarks",
+         "granada/c/palace",
+         "granada/mill"
+        ],
+        "modelFailures": [],
+        "eased": 0
+       }
+      }
+     }
+    },
+    "4-photo-farthest": {
+     "palaceBoxPixels": {
+      "width": 38,
+      "height": 13
+     },
+     "pose": {
+      "tx": 30,
+      "ty": 89.31725393305372,
+      "tz": 70,
+      "yaw": 1.41,
+      "pitch": 0.17,
+      "distance": 980
+     },
+     "counted": {
+      "atMs": 69572,
+      "frames": {
+       "frames": 594,
+       "durationMs": 10001.3,
+       "meanMs": 16.837,
+       "p50Ms": 8.6,
+       "p95Ms": 58.6,
+       "p99Ms": 79.5,
+       "maxMs": 88.2,
+       "minMs": 7.3,
+       "over16_7": 167,
+       "over33_3": 86,
+       "over50": 39,
+       "avgFps": 59.392,
+       "longestUnder30FpsMs": 171
+      },
+      "loops": 2,
+      "heapMb": 208.1,
+      "heapNote": "performance.memory.usedJSHeapSize: the JavaScript heap only, not the graphics memory",
+      "contexts": {
+       "webgpu": 1
+      },
+      "intervals": 1,
+      "workers": 0,
+      "listeners": 95,
+      "audio": {
+       "contexts": 0,
+       "nodesMade": 0
+      },
+      "provided": {
+       "renderer": {
+        "drawCalls": 320,
+        "triangles": 3503027,
+        "geometries": 147,
+        "textures": 80,
+        "cpuRenderMs": 2.800000011920929,
+        "engine": "three r187 webgpu",
+        "pixels": [
+         1280,
+         800
+        ],
+        "walkers": 9,
+        "atWork": 24,
+        "models": [
+         "granada/town",
+         "granada/landmarks",
+         "granada/c/palace",
+         "granada/mill"
+        ],
+        "modelFailures": [],
+        "eased": 0
+       }
+      }
+     }
+    },
+    "5-photo-nearest": {
+     "palaceBoxPixels": {
+      "width": 605,
+      "height": 199
+     },
+     "nearestDistanceHoldingThePalace": 400,
+     "pose": {
+      "tx": 760,
+      "ty": 106.78954178869974,
+      "tz": -150,
+      "yaw": 1.5708,
+      "pitch": 0.1222,
+      "distance": 400
+     },
+     "counted": {
+      "atMs": 86922,
+      "frames": {
+       "frames": 1013,
+       "durationMs": 10021.7,
+       "meanMs": 9.893,
+       "p50Ms": 8.3,
+       "p95Ms": 21,
+       "p99Ms": 41.8,
+       "maxMs": 51.7,
+       "minMs": 7.3,
+       "over16_7": 75,
+       "over33_3": 21,
+       "over50": 4,
+       "avgFps": 101.081,
+       "longestUnder30FpsMs": 51.7
+      },
+      "loops": 2,
+      "heapMb": 199,
+      "heapNote": "performance.memory.usedJSHeapSize: the JavaScript heap only, not the graphics memory",
+      "contexts": {
+       "webgpu": 1
+      },
+      "intervals": 1,
+      "workers": 0,
+      "listeners": 95,
+      "audio": {
+       "contexts": 0,
+       "nodesMade": 0
+      },
+      "provided": {
+       "renderer": {
+        "drawCalls": 229,
+        "triangles": 2553691,
+        "geometries": 147,
+        "textures": 80,
+        "cpuRenderMs": 2.800000011920929,
+        "engine": "three r187 webgpu",
+        "pixels": [
+         1280,
+         800
+        ],
+        "walkers": 9,
+        "atWork": 24,
+        "models": [
+         "granada/town",
+         "granada/landmarks",
+         "granada/c/palace",
+         "granada/mill"
+        ],
+        "modelFailures": [],
+        "eased": 0
+       }
+      }
+     }
+    }
+   },
+   "consoleErrors": []
+  },
+  {
+   "set": "a",
+   "size": "1280x800",
+   "preset": "high",
+   "readyMs": 3965,
+   "fetched": [
+    {
+     "file": "granada/2/town.gltf",
+     "bytes": 44825,
+     "ms": 10
+    },
+    {
+     "file": "granada/2/town.bin",
+     "bytes": 1171152,
+     "ms": 55
+    },
+    {
+     "file": "granada/2/textures/stone_base.jpg",
+     "bytes": 294472,
+     "ms": 21
+    },
+    {
+     "file": "granada/2/textures/stone_orm.jpg",
+     "bytes": 173326,
+     "ms": 17
+    },
+    {
+     "file": "granada/2/textures/stone_normal.jpg",
+     "bytes": 488747,
+     "ms": 29
+    },
+    {
+     "file": "granada/2/textures/plaster_orm.jpg",
+     "bytes": 102840,
+     "ms": 17
+    },
+    {
+     "file": "granada/2/textures/plaster_base.jpg",
+     "bytes": 276340,
+     "ms": 20
+    },
+    {
+     "file": "granada/2/textures/plaster_normal.jpg",
+     "bytes": 505220,
+     "ms": 42
+    },
+    {
+     "file": "granada/2/textures/rooftile_base.jpg",
+     "bytes": 328786,
+     "ms": 37
+    },
+    {
+     "file": "granada/2/textures/rooftile_orm.jpg",
+     "bytes": 82064,
+     "ms": 39
+    },
+    {
+     "file": "granada/2/textures/rooftile_normal.jpg",
+     "bytes": 362450,
+     "ms": 48
+    },
+    {
+     "file": "granada/2/textures/wood_base.jpg",
+     "bytes": 275317,
+     "ms": 52
+    },
+    {
+     "file": "granada/2/textures/wood_normal.jpg",
+     "bytes": 179091,
+     "ms": 52
+    },
+    {
+     "file": "granada/2/textures/wood_orm.jpg",
+     "bytes": 267353,
+     "ms": 62
+    },
+    {
+     "file": "granada/2/textures/plaster_warm_base.jpg",
+     "bytes": 251880,
+     "ms": 65
+    },
+    {
+     "file": "granada/2/textures/plaster_warm_orm.jpg",
+     "bytes": 102840,
+     "ms": 59
+    },
+    {
+     "file": "granada/2/textures/plaster_warm_normal.jpg",
+     "bytes": 505220,
+     "ms": 72
+    },
+    {
+     "file": "granada/2/textures/earth_base.jpg",
+     "bytes": 58651,
+     "ms": 62
+    },
+    {
+     "file": "granada/2/textures/earth_orm.jpg",
+     "bytes": 107745,
+     "ms": 68
+    },
+    {
+     "file": "granada/2/textures/earth_normal.jpg",
+     "bytes": 846968,
+     "ms": 94
+    },
+    {
+     "file": "granada/2/landmarks.gltf",
+     "bytes": 27834,
+     "ms": 6
+    },
+    {
+     "file": "granada/2/landmarks.bin",
+     "bytes": 1356120,
+     "ms": 91
+    },
+    {
+     "file": "granada/2/textures/wood_base.jpg",
+     "bytes": 275317,
+     "ms": 6
+    },
+    {
+     "file": "granada/2/textures/wood_orm.jpg",
+     "bytes": 267353,
+     "ms": 7
+    },
+    {
+     "file": "granada/2/textures/wood_normal.jpg",
+     "bytes": 179091,
+     "ms": 8
+    },
+    {
+     "file": "granada/2/textures/stone_base.jpg",
+     "bytes": 294472,
+     "ms": 8
+    },
+    {
+     "file": "granada/2/textures/stone_orm.jpg",
+     "bytes": 173326,
+     "ms": 9
+    },
+    {
+     "file": "granada/2/textures/stone_normal.jpg",
+     "bytes": 488747,
+     "ms": 14
+    },
+    {
+     "file": "granada/2/textures/plaster_base.jpg",
+     "bytes": 276340,
+     "ms": 21
+    },
+    {
+     "file": "granada/2/textures/plaster_orm.jpg",
+     "bytes": 102840,
+     "ms": 24
+    },
+    {
+     "file": "granada/2/textures/plaster_normal.jpg",
+     "bytes": 505220,
+     "ms": 25
+    },
+    {
+     "file": "granada/2/textures/rooftile_base.jpg",
+     "bytes": 328786,
+     "ms": 24
+    },
+    {
+     "file": "granada/2/textures/rooftile_orm.jpg",
+     "bytes": 82064,
+     "ms": 25
+    },
+    {
+     "file": "granada/2/textures/rooftile_normal.jpg",
+     "bytes": 362450,
+     "ms": 26
+    },
+    {
+     "file": "granada/2/textures/plaster_warm_base.jpg",
+     "bytes": 251880,
+     "ms": 26
+    },
+    {
+     "file": "granada/2/textures/plaster_warm_orm.jpg",
+     "bytes": 102840,
+     "ms": 25
+    },
+    {
+     "file": "granada/2/textures/plaster_warm_normal.jpg",
+     "bytes": 505220,
+     "ms": 26
+    },
+    {
+     "file": "granada/2/textures/earth_base.jpg",
+     "bytes": 58651,
+     "ms": 27
+    },
+    {
+     "file": "granada/2/textures/earth_orm.jpg",
+     "bytes": 107745,
+     "ms": 27
+    },
+    {
+     "file": "granada/2/textures/earth_normal.jpg",
+     "bytes": 846968,
+     "ms": 28
+    },
+    {
+     "file": "granada/2/textures/plaster_red_base.jpg",
+     "bytes": 211514,
+     "ms": 63
+    },
+    {
+     "file": "granada/2/textures/plaster_red_orm.jpg",
+     "bytes": 102840,
+     "ms": 49
+    },
+    {
+     "file": "granada/2/textures/plaster_red_normal.jpg",
+     "bytes": 505220,
+     "ms": 76
+    },
+    {
+     "file": "granada/2/textures/cobble_orm.jpg",
+     "bytes": 299550,
+     "ms": 64
+    },
+    {
+     "file": "granada/2/textures/cobble_base.jpg",
+     "bytes": 359909,
+     "ms": 69
+    },
+    {
+     "file": "granada/2/textures/cobble_normal.jpg",
+     "bytes": 373781,
+     "ms": 81
+    },
+    {
+     "file": "granada/2/mill.gltf",
+     "bytes": 22791,
+     "ms": 10
+    },
+    {
+     "file": "granada/2/mill.bin",
+     "bytes": 1707480,
+     "ms": 89
+    },
+    {
+     "file": "granada/2/textures/plaster_base.jpg",
+     "bytes": 276340,
+     "ms": 7
+    },
+    {
+     "file": "granada/2/textures/plaster_orm.jpg",
+     "bytes": 102840,
+     "ms": 7
+    },
+    {
+     "file": "granada/2/textures/plaster_normal.jpg",
+     "bytes": 505220,
+     "ms": 9
+    },
+    {
+     "file": "granada/2/textures/rooftile_base.jpg",
+     "bytes": 328786,
+     "ms": 9
+    },
+    {
+     "file": "granada/2/textures/rooftile_orm.jpg",
+     "bytes": 82064,
+     "ms": 9
+    },
+    {
+     "file": "granada/2/textures/rooftile_normal.jpg",
+     "bytes": 362450,
+     "ms": 21
+    },
+    {
+     "file": "granada/2/textures/wood_base.jpg",
+     "bytes": 275317,
+     "ms": 12
+    },
+    {
+     "file": "granada/2/textures/wood_orm.jpg",
+     "bytes": 267353,
+     "ms": 17
+    },
+    {
+     "file": "granada/2/textures/wood_normal.jpg",
+     "bytes": 179091,
+     "ms": 19
+    },
+    {
+     "file": "granada/2/textures/stone_base.jpg",
+     "bytes": 294472,
+     "ms": 20
+    },
+    {
+     "file": "granada/2/textures/stone_orm.jpg",
+     "bytes": 173326,
+     "ms": 22
+    },
+    {
+     "file": "granada/2/textures/stone_normal.jpg",
+     "bytes": 488747,
+     "ms": 24
+    },
+    {
+     "file": "granada/2/textures/earth_base.jpg",
+     "bytes": 58651,
+     "ms": 25
+    },
+    {
+     "file": "granada/2/textures/earth_orm.jpg",
+     "bytes": 107745,
+     "ms": 26
+    },
+    {
+     "file": "granada/2/textures/earth_normal.jpg",
+     "bytes": 846968,
+     "ms": 27
+    }
+   ],
+   "played": {
+    "daysPassed": 37,
+    "day": 62
+   },
+   "models": [
+    "granada/town",
+    "granada/landmarks",
+    "granada/mill"
+   ],
+   "modelFailures": [],
+   "views": {
+    "1-proof": {
+     "palaceBoxPixels": {
+      "width": 127,
+      "height": 56
+     },
+     "pose": {
+      "tx": 640,
+      "ty": 43.09174427004298,
+      "tz": 0,
+      "yaw": 1.07,
+      "pitch": 0.17,
+      "distance": 330
+     },
+     "counted": {
+      "atMs": 25659,
+      "frames": {
+       "frames": 1193,
+       "durationMs": 10058.4,
+       "meanMs": 8.431,
+       "p50Ms": 8.3,
+       "p95Ms": 9.3,
+       "p99Ms": 16.6,
+       "maxMs": 25.1,
+       "minMs": 7.3,
+       "over16_7": 8,
+       "over33_3": 0,
+       "over50": 0,
+       "avgFps": 118.607,
+       "longestUnder30FpsMs": 0
+      },
+      "loops": 2,
+      "heapMb": 205.3,
+      "heapNote": "performance.memory.usedJSHeapSize: the JavaScript heap only, not the graphics memory",
+      "contexts": {
+       "webgpu": 1
+      },
+      "intervals": 1,
+      "workers": 0,
+      "listeners": 568,
+      "audio": {
+       "contexts": 0,
+       "nodesMade": 0
+      },
+      "provided": {
+       "renderer": {
+        "drawCalls": 282,
+        "triangles": 3557867,
+        "geometries": 136,
+        "textures": 66,
+        "cpuRenderMs": 3.9000000059604645,
+        "engine": "three r187 webgpu",
+        "pixels": [
+         1280,
+         585
+        ],
+        "walkers": 9,
+        "atWork": 24,
+        "models": [
+         "granada/town",
+         "granada/landmarks",
+         "granada/mill"
+        ],
+        "modelFailures": [],
+        "eased": 0
+       }
+      }
+     }
+    },
+    "2-nearest-strategic": {
+     "palaceBoxPixels": {
+      "width": 244,
+      "height": 123
+     },
+     "nearestDistanceHoldingThePalace": 150,
+     "pose": {
+      "tx": 760,
+      "ty": 85.53954178869974,
+      "tz": -150,
+      "yaw": 1.5708,
+      "pitch": 0.1222,
+      "distance": 150
+     },
+     "counted": {
+      "atMs": 40431,
+      "frames": {
+       "frames": 1151,
+       "durationMs": 10070.7,
+       "meanMs": 8.75,
+       "p50Ms": 8.3,
+       "p95Ms": 9.4,
+       "p99Ms": 16.7,
+       "maxMs": 18.8,
+       "minMs": 7.3,
+       "over16_7": 33,
+       "over33_3": 0,
+       "over50": 0,
+       "avgFps": 114.292,
+       "longestUnder30FpsMs": 0
+      },
+      "loops": 2,
+      "heapMb": 172.8,
+      "heapNote": "performance.memory.usedJSHeapSize: the JavaScript heap only, not the graphics memory",
+      "contexts": {
+       "webgpu": 1
+      },
+      "intervals": 1,
+      "workers": 0,
+      "listeners": 88,
+      "audio": {
+       "contexts": 0,
+       "nodesMade": 0
+      },
+      "provided": {
+       "renderer": {
+        "drawCalls": 235,
+        "triangles": 3250377,
+        "geometries": 136,
+        "textures": 66,
+        "cpuRenderMs": 3.9000000059604645,
+        "engine": "three r187 webgpu",
+        "pixels": [
+         1280,
+         585
+        ],
+        "walkers": 9,
+        "atWork": 24,
+        "models": [
+         "granada/town",
+         "granada/landmarks",
+         "granada/mill"
+        ],
+        "modelFailures": [],
+        "eased": 0
+       }
+      }
+     }
+    },
+    "3-farthest-strategic": {
+     "palaceBoxPixels": {
+      "width": 42,
+      "height": 18
+     },
+     "pose": {
+      "tx": 30,
+      "ty": 89.31725393305372,
+      "tz": 70,
+      "yaw": 1.41,
+      "pitch": 0.17,
+      "distance": 980
+     },
+     "counted": {
+      "atMs": 53946,
+      "frames": {
+       "frames": 1155,
+       "durationMs": 10175.2,
+       "meanMs": 8.81,
+       "p50Ms": 8.3,
+       "p95Ms": 16.2,
+       "p99Ms": 16.8,
+       "maxMs": 25,
+       "minMs": 7.4,
+       "over16_7": 34,
+       "over33_3": 0,
+       "over50": 0,
+       "avgFps": 113.511,
+       "longestUnder30FpsMs": 0
+      },
+      "loops": 2,
+      "heapMb": 180.6,
+      "heapNote": "performance.memory.usedJSHeapSize: the JavaScript heap only, not the graphics memory",
+      "contexts": {
+       "webgpu": 1
+      },
+      "intervals": 1,
+      "workers": 0,
+      "listeners": 88,
+      "audio": {
+       "contexts": 0,
+       "nodesMade": 0
+      },
+      "provided": {
+       "renderer": {
+        "drawCalls": 456,
+        "triangles": 6645149,
+        "geometries": 136,
+        "textures": 66,
+        "cpuRenderMs": 11,
+        "engine": "three r187 webgpu",
+        "pixels": [
+         1280,
+         585
+        ],
+        "walkers": 9,
+        "atWork": 24,
+        "models": [
+         "granada/town",
+         "granada/landmarks",
+         "granada/mill"
+        ],
+        "modelFailures": [],
+        "eased": 0
+       }
+      }
+     }
+    },
+    "4-photo-farthest": {
+     "palaceBoxPixels": {
+      "width": 29,
+      "height": 12
+     },
+     "pose": {
+      "tx": 30,
+      "ty": 89.31725393305372,
+      "tz": 70,
+      "yaw": 1.41,
+      "pitch": 0.17,
+      "distance": 980
+     },
+     "counted": {
+      "atMs": 67866,
+      "frames": {
+       "frames": 1107,
+       "durationMs": 10074.9,
+       "meanMs": 9.101,
+       "p50Ms": 8.3,
+       "p95Ms": 16.6,
+       "p99Ms": 17.3,
+       "maxMs": 25.6,
+       "minMs": 7.3,
+       "over16_7": 52,
+       "over33_3": 0,
+       "over50": 0,
+       "avgFps": 109.877,
+       "longestUnder30FpsMs": 0
+      },
+      "loops": 2,
+      "heapMb": 193.6,
+      "heapNote": "performance.memory.usedJSHeapSize: the JavaScript heap only, not the graphics memory",
+      "contexts": {
+       "webgpu": 1
+      },
+      "intervals": 1,
+      "workers": 0,
+      "listeners": 95,
+      "audio": {
+       "contexts": 0,
+       "nodesMade": 0
+      },
+      "provided": {
+       "renderer": {
+        "drawCalls": 456,
+        "triangles": 6645149,
+        "geometries": 136,
+        "textures": 66,
+        "cpuRenderMs": 5.5,
+        "engine": "three r187 webgpu",
+        "pixels": [
+         1280,
+         800
+        ],
+        "walkers": 9,
+        "atWork": 24,
+        "models": [
+         "granada/town",
+         "granada/landmarks",
+         "granada/mill"
+        ],
+        "modelFailures": [],
+        "eased": 0
+       }
+      }
+     }
+    },
+    "5-photo-nearest": {
+     "palaceBoxPixels": {
+      "width": 457,
+      "height": 188
+     },
+     "nearestDistanceHoldingThePalace": 390,
+     "pose": {
+      "tx": 760,
+      "ty": 105.93954178869974,
+      "tz": -150,
+      "yaw": 1.5708,
+      "pitch": 0.1222,
+      "distance": 390
+     },
+     "counted": {
+      "atMs": 88159,
+      "frames": {
+       "frames": 775,
+       "durationMs": 9992.5,
+       "meanMs": 12.894,
+       "p50Ms": 9,
+       "p95Ms": 18.2,
+       "p99Ms": 35.7,
+       "maxMs": 45.6,
+       "minMs": 7.4,
+       "over16_7": 229,
+       "over33_3": 11,
+       "over50": 0,
+       "avgFps": 77.558,
+       "longestUnder30FpsMs": 79.6
+      },
+      "loops": 2,
+      "heapMb": 186.6,
+      "heapNote": "performance.memory.usedJSHeapSize: the JavaScript heap only, not the graphics memory",
+      "contexts": {
+       "webgpu": 1
+      },
+      "intervals": 1,
+      "workers": 0,
+      "listeners": 95,
+      "audio": {
+       "contexts": 0,
+       "nodesMade": 0
+      },
+      "provided": {
+       "renderer": {
+        "drawCalls": 290,
+        "triangles": 3787913,
+        "geometries": 136,
+        "textures": 66,
+        "cpuRenderMs": 2.4000000059604645,
+        "engine": "three r187 webgpu",
+        "pixels": [
+         1280,
+         800
+        ],
+        "walkers": 9,
+        "atWork": 24,
+        "models": [
+         "granada/town",
+         "granada/landmarks",
+         "granada/mill"
+        ],
+        "modelFailures": [],
+        "eased": 0
+       }
+      }
+     }
+    }
+   },
+   "consoleErrors": []
+  },
+  {
+   "set": "c",
+   "size": "1280x800",
+   "preset": "high",
+   "readyMs": 2573,
+   "fetched": [
+    {
+     "file": "granada/2/town.gltf",
+     "bytes": 44825,
+     "ms": 3
+    },
+    {
+     "file": "granada/2/town.bin",
+     "bytes": 1171152,
+     "ms": 17
+    },
+    {
+     "file": "granada/2/textures/stone_base.jpg",
+     "bytes": 294472,
+     "ms": 10
+    },
+    {
+     "file": "granada/2/textures/stone_orm.jpg",
+     "bytes": 173326,
+     "ms": 8
+    },
+    {
+     "file": "granada/2/textures/stone_normal.jpg",
+     "bytes": 488747,
+     "ms": 9
+    },
+    {
+     "file": "granada/2/textures/plaster_base.jpg",
+     "bytes": 276340,
+     "ms": 9
+    },
+    {
+     "file": "granada/2/textures/plaster_orm.jpg",
+     "bytes": 102840,
+     "ms": 8
+    },
+    {
+     "file": "granada/2/textures/plaster_normal.jpg",
+     "bytes": 505220,
+     "ms": 21
+    },
+    {
+     "file": "granada/2/textures/rooftile_orm.jpg",
+     "bytes": 82064,
+     "ms": 17
+    },
+    {
+     "file": "granada/2/textures/rooftile_base.jpg",
+     "bytes": 328786,
+     "ms": 20
+    },
+    {
+     "file": "granada/2/textures/rooftile_normal.jpg",
+     "bytes": 362450,
+     "ms": 22
+    },
+    {
+     "file": "granada/2/textures/wood_base.jpg",
+     "bytes": 275317,
+     "ms": 21
+    },
+    {
+     "file": "granada/2/textures/wood_orm.jpg",
+     "bytes": 267353,
+     "ms": 24
+    },
+    {
+     "file": "granada/2/textures/wood_normal.jpg",
+     "bytes": 179091,
+     "ms": 24
+    },
+    {
+     "file": "granada/2/textures/plaster_warm_base.jpg",
+     "bytes": 251880,
+     "ms": 32
+    },
+    {
+     "file": "granada/2/textures/plaster_warm_orm.jpg",
+     "bytes": 102840,
+     "ms": 30
+    },
+    {
+     "file": "granada/2/textures/plaster_warm_normal.jpg",
+     "bytes": 505220,
+     "ms": 33
+    },
+    {
+     "file": "granada/2/textures/earth_base.jpg",
+     "bytes": 58651,
+     "ms": 26
+    },
+    {
+     "file": "granada/2/textures/earth_orm.jpg",
+     "bytes": 107745,
+     "ms": 33
+    },
+    {
+     "file": "granada/2/textures/earth_normal.jpg",
+     "bytes": 846968,
+     "ms": 36
+    },
+    {
+     "file": "granada/2/landmarks.gltf",
+     "bytes": 27834,
+     "ms": 2
+    },
+    {
+     "file": "granada/2/landmarks.bin",
+     "bytes": 1356120,
+     "ms": 41
+    },
+    {
+     "file": "granada/2/textures/wood_base.jpg",
+     "bytes": 275317,
+     "ms": 4
+    },
+    {
+     "file": "granada/2/textures/wood_orm.jpg",
+     "bytes": 267353,
+     "ms": 5
+    },
+    {
+     "file": "granada/2/textures/wood_normal.jpg",
+     "bytes": 179091,
+     "ms": 4
+    },
+    {
+     "file": "granada/2/textures/stone_base.jpg",
+     "bytes": 294472,
+     "ms": 5
+    },
+    {
+     "file": "granada/2/textures/stone_orm.jpg",
+     "bytes": 173326,
+     "ms": 5
+    },
+    {
+     "file": "granada/2/textures/stone_normal.jpg",
+     "bytes": 488747,
+     "ms": 5
+    },
+    {
+     "file": "granada/2/textures/plaster_orm.jpg",
+     "bytes": 102840,
+     "ms": 6
+    },
+    {
+     "file": "granada/2/textures/plaster_base.jpg",
+     "bytes": 276340,
+     "ms": 5
+    },
+    {
+     "file": "granada/2/textures/plaster_normal.jpg",
+     "bytes": 505220,
+     "ms": 14
+    },
+    {
+     "file": "granada/2/textures/rooftile_orm.jpg",
+     "bytes": 82064,
+     "ms": 7
+    },
+    {
+     "file": "granada/2/textures/rooftile_normal.jpg",
+     "bytes": 362450,
+     "ms": 11
+    },
+    {
+     "file": "granada/2/textures/rooftile_base.jpg",
+     "bytes": 328786,
+     "ms": 14
+    },
+    {
+     "file": "granada/2/textures/plaster_warm_base.jpg",
+     "bytes": 251880,
+     "ms": 13
+    },
+    {
+     "file": "granada/2/textures/plaster_warm_orm.jpg",
+     "bytes": 102840,
+     "ms": 15
+    },
+    {
+     "file": "granada/2/textures/plaster_warm_normal.jpg",
+     "bytes": 505220,
+     "ms": 18
+    },
+    {
+     "file": "granada/2/textures/earth_base.jpg",
+     "bytes": 58651,
+     "ms": 17
+    },
+    {
+     "file": "granada/2/textures/earth_orm.jpg",
+     "bytes": 107745,
+     "ms": 19
+    },
+    {
+     "file": "granada/2/textures/earth_normal.jpg",
+     "bytes": 846968,
+     "ms": 19
+    },
+    {
+     "file": "granada/2/textures/plaster_red_base.jpg",
+     "bytes": 211514,
+     "ms": 32
+    },
+    {
+     "file": "granada/2/textures/plaster_red_orm.jpg",
+     "bytes": 102840,
+     "ms": 30
+    },
+    {
+     "file": "granada/2/textures/plaster_red_normal.jpg",
+     "bytes": 505220,
+     "ms": 37
+    },
+    {
+     "file": "granada/2/textures/cobble_base.jpg",
+     "bytes": 359909,
+     "ms": 36
+    },
+    {
+     "file": "granada/2/textures/cobble_orm.jpg",
+     "bytes": 299550,
+     "ms": 35
+    },
+    {
+     "file": "granada/2/textures/cobble_normal.jpg",
+     "bytes": 373781,
+     "ms": 37
+    },
+    {
+     "file": "granada/c/palace.gltf",
+     "bytes": 36112,
+     "ms": 2
+    },
+    {
+     "file": "granada/c/palace.bin",
+     "bytes": 24575196,
+     "ms": 91
+    },
+    {
+     "file": "granada/c/textures/stone_base.jpg",
+     "bytes": 294472,
+     "ms": 8
+    },
+    {
+     "file": "granada/c/textures/stone_normal.jpg",
+     "bytes": 488747,
+     "ms": 8
+    },
+    {
+     "file": "granada/c/textures/stone_orm.jpg",
+     "bytes": 173326,
+     "ms": 7
+    },
+    {
+     "file": "granada/c/textures/plaster_red_base.jpg",
+     "bytes": 211514,
+     "ms": 8
+    },
+    {
+     "file": "granada/c/textures/plaster_red_orm.jpg",
+     "bytes": 102840,
+     "ms": 8
+    },
+    {
+     "file": "granada/c/textures/cobble_base.jpg",
+     "bytes": 359909,
+     "ms": 18
+    },
+    {
+     "file": "granada/c/textures/plaster_red_normal.jpg",
+     "bytes": 505220,
+     "ms": 19
+    },
+    {
+     "file": "granada/c/textures/cobble_orm.jpg",
+     "bytes": 299550,
+     "ms": 18
+    },
+    {
+     "file": "granada/c/textures/plaster_base.jpg",
+     "bytes": 276340,
+     "ms": 18
+    },
+    {
+     "file": "granada/c/textures/cobble_normal.jpg",
+     "bytes": 373781,
+     "ms": 19
+    },
+    {
+     "file": "granada/c/textures/plaster_orm.jpg",
+     "bytes": 102840,
+     "ms": 29
+    },
+    {
+     "file": "granada/c/textures/rooftile_base.jpg",
+     "bytes": 328786,
+     "ms": 33
+    },
+    {
+     "file": "granada/c/textures/plaster_normal.jpg",
+     "bytes": 505220,
+     "ms": 33
+    },
+    {
+     "file": "granada/c/textures/rooftile_orm.jpg",
+     "bytes": 82064,
+     "ms": 29
+    },
+    {
+     "file": "granada/c/textures/rooftile_normal.jpg",
+     "bytes": 362450,
+     "ms": 33
+    },
+    {
+     "file": "granada/c/textures/wood_base.jpg",
+     "bytes": 275317,
+     "ms": 35
+    },
+    {
+     "file": "granada/c/textures/wood_orm.jpg",
+     "bytes": 267353,
+     "ms": 38
+    },
+    {
+     "file": "granada/c/textures/wood_normal.jpg",
+     "bytes": 179091,
+     "ms": 42
+    },
+    {
+     "file": "granada/c/textures/plaster_warm_orm.jpg",
+     "bytes": 102840,
+     "ms": 42
+    },
+    {
+     "file": "granada/c/textures/plaster_warm_base.jpg",
+     "bytes": 251880,
+     "ms": 43
+    },
+    {
+     "file": "granada/c/textures/plaster_warm_normal.jpg",
+     "bytes": 505220,
+     "ms": 47
+    },
+    {
+     "file": "granada/c/textures/earth_base.jpg",
+     "bytes": 58651,
+     "ms": 41
+    },
+    {
+     "file": "granada/c/textures/earth_orm.jpg",
+     "bytes": 107745,
+     "ms": 48
+    },
+    {
+     "file": "granada/c/textures/earth_normal.jpg",
+     "bytes": 846968,
+     "ms": 50
+    },
+    {
+     "file": "granada/2/mill.gltf",
+     "bytes": 22791,
+     "ms": 4
+    },
+    {
+     "file": "granada/2/mill.bin",
+     "bytes": 1707480,
+     "ms": 31
+    },
+    {
+     "file": "granada/2/textures/plaster_base.jpg",
+     "bytes": 276340,
+     "ms": 5
+    },
+    {
+     "file": "granada/2/textures/plaster_orm.jpg",
+     "bytes": 102840,
+     "ms": 5
+    },
+    {
+     "file": "granada/2/textures/plaster_normal.jpg",
+     "bytes": 505220,
+     "ms": 6
+    },
+    {
+     "file": "granada/2/textures/rooftile_base.jpg",
+     "bytes": 328786,
+     "ms": 6
+    },
+    {
+     "file": "granada/2/textures/rooftile_orm.jpg",
+     "bytes": 82064,
+     "ms": 6
+    },
+    {
+     "file": "granada/2/textures/rooftile_normal.jpg",
+     "bytes": 362450,
+     "ms": 6
+    },
+    {
+     "file": "granada/2/textures/wood_base.jpg",
+     "bytes": 275317,
+     "ms": 6
+    },
+    {
+     "file": "granada/2/textures/wood_orm.jpg",
+     "bytes": 267353,
+     "ms": 14
+    },
+    {
+     "file": "granada/2/textures/wood_normal.jpg",
+     "bytes": 179091,
+     "ms": 17
+    },
+    {
+     "file": "granada/2/textures/stone_orm.jpg",
+     "bytes": 173326,
+     "ms": 7
+    },
+    {
+     "file": "granada/2/textures/stone_base.jpg",
+     "bytes": 294472,
+     "ms": 21
+    },
+    {
+     "file": "granada/2/textures/stone_normal.jpg",
+     "bytes": 488747,
+     "ms": 8
+    },
+    {
+     "file": "granada/2/textures/earth_base.jpg",
+     "bytes": 58651,
+     "ms": 21
+    },
+    {
+     "file": "granada/2/textures/earth_orm.jpg",
+     "bytes": 107745,
+     "ms": 21
+    },
+    {
+     "file": "granada/2/textures/earth_normal.jpg",
+     "bytes": 846968,
+     "ms": 22
+    }
+   ],
+   "played": {
+    "daysPassed": 37,
+    "day": 62
+   },
+   "models": [
+    "granada/town",
+    "granada/landmarks",
+    "granada/c/palace",
+    "granada/mill"
+   ],
+   "modelFailures": [],
+   "views": {
+    "1-proof": {
+     "palaceBoxPixels": {
+      "width": 168,
+      "height": 62
+     },
+     "pose": {
+      "tx": 640,
+      "ty": 43.09174427004298,
+      "tz": 0,
+      "yaw": 1.07,
+      "pitch": 0.17,
+      "distance": 330
+     },
+     "counted": {
+      "atMs": 24116,
+      "frames": {
+       "frames": 965,
+       "durationMs": 10033.3,
+       "meanMs": 10.397,
+       "p50Ms": 8.4,
+       "p95Ms": 17,
+       "p99Ms": 24.3,
+       "maxMs": 26.9,
+       "minMs": 6.8,
+       "over16_7": 125,
+       "over33_3": 0,
+       "over50": 0,
+       "avgFps": 96.18,
+       "longestUnder30FpsMs": 0
+      },
+      "loops": 2,
+      "heapMb": 230.3,
+      "heapNote": "performance.memory.usedJSHeapSize: the JavaScript heap only, not the graphics memory",
+      "contexts": {
+       "webgpu": 1
+      },
+      "intervals": 1,
+      "workers": 0,
+      "listeners": 488,
+      "audio": {
+       "contexts": 0,
+       "nodesMade": 0
+      },
+      "provided": {
+       "renderer": {
+        "drawCalls": 315,
+        "triangles": 4174397,
+        "geometries": 147,
+        "textures": 84,
+        "cpuRenderMs": 5.299999982118607,
+        "engine": "three r187 webgpu",
+        "pixels": [
+         1280,
+         585
+        ],
+        "walkers": 9,
+        "atWork": 24,
+        "models": [
+         "granada/town",
+         "granada/landmarks",
+         "granada/c/palace",
+         "granada/mill"
+        ],
+        "modelFailures": [],
+        "eased": 0
+       }
+      }
+     }
+    },
+    "2-nearest-strategic": {
+     "palaceBoxPixels": {
+      "width": 319,
+      "height": 130
+     },
+     "nearestDistanceHoldingThePalace": 160,
+     "pose": {
+      "tx": 760,
+      "ty": 86.38954178869974,
+      "tz": -150,
+      "yaw": 1.5708,
+      "pitch": 0.1222,
+      "distance": 160
+     },
+     "counted": {
+      "atMs": 39133,
+      "frames": {
+       "frames": 887,
+       "durationMs": 10045.6,
+       "meanMs": 11.325,
+       "p50Ms": 8.4,
+       "p95Ms": 17.6,
+       "p99Ms": 27.4,
+       "maxMs": 32.3,
+       "minMs": 6.9,
+       "over16_7": 175,
+       "over33_3": 0,
+       "over50": 0,
+       "avgFps": 88.297,
+       "longestUnder30FpsMs": 0
+      },
+      "loops": 2,
+      "heapMb": 246.1,
+      "heapNote": "performance.memory.usedJSHeapSize: the JavaScript heap only, not the graphics memory",
+      "contexts": {
+       "webgpu": 1
+      },
+      "intervals": 1,
+      "workers": 0,
+      "listeners": 488,
+      "audio": {
+       "contexts": 0,
+       "nodesMade": 0
+      },
+      "provided": {
+       "renderer": {
+        "drawCalls": 268,
+        "triangles": 3866907,
+        "geometries": 147,
+        "textures": 84,
+        "cpuRenderMs": 5.799999982118607,
+        "engine": "three r187 webgpu",
+        "pixels": [
+         1280,
+         585
+        ],
+        "walkers": 9,
+        "atWork": 24,
+        "models": [
+         "granada/town",
+         "granada/landmarks",
+         "granada/c/palace",
+         "granada/mill"
+        ],
+        "modelFailures": [],
+        "eased": 0
+       }
+      }
+     }
+    },
+    "3-farthest-strategic": {
+     "palaceBoxPixels": {
+      "width": 57,
+      "height": 19
+     },
+     "pose": {
+      "tx": 30,
+      "ty": 89.31725393305372,
+      "tz": 70,
+      "yaw": 1.41,
+      "pitch": 0.17,
+      "distance": 980
+     },
+     "counted": {
+      "atMs": 52551,
+      "frames": {
+       "frames": 1051,
+       "durationMs": 10003.4,
+       "meanMs": 9.518,
+       "p50Ms": 8.3,
+       "p95Ms": 17,
+       "p99Ms": 28.3,
+       "maxMs": 45.9,
+       "minMs": 7.2,
+       "over16_7": 74,
+       "over33_3": 6,
+       "over50": 0,
+       "avgFps": 105.064,
+       "longestUnder30FpsMs": 45.9
+      },
+      "loops": 2,
+      "heapMb": 208.2,
+      "heapNote": "performance.memory.usedJSHeapSize: the JavaScript heap only, not the graphics memory",
+      "contexts": {
+       "webgpu": 1
+      },
+      "intervals": 1,
+      "workers": 0,
+      "listeners": 88,
+      "audio": {
+       "contexts": 0,
+       "nodesMade": 0
+      },
+      "provided": {
+       "renderer": {
+        "drawCalls": 489,
+        "triangles": 7261679,
+        "geometries": 147,
+        "textures": 84,
+        "cpuRenderMs": 5.9000000059604645,
+        "engine": "three r187 webgpu",
+        "pixels": [
+         1280,
+         585
+        ],
+        "walkers": 9,
+        "atWork": 24,
+        "models": [
+         "granada/town",
+         "granada/landmarks",
+         "granada/c/palace",
+         "granada/mill"
+        ],
+        "modelFailures": [],
+        "eased": 0
+       }
+      }
+     }
+    },
+    "4-photo-farthest": {
+     "palaceBoxPixels": {
+      "width": 38,
+      "height": 13
+     },
+     "pose": {
+      "tx": 30,
+      "ty": 89.31725393305372,
+      "tz": 70,
+      "yaw": 1.41,
+      "pitch": 0.17,
+      "distance": 980
+     },
+     "counted": {
+      "atMs": 65461,
+      "frames": {
+       "frames": 647,
+       "durationMs": 9979,
+       "meanMs": 15.423,
+       "p50Ms": 16.6,
+       "p95Ms": 25,
+       "p99Ms": 33.3,
+       "maxMs": 50,
+       "minMs": 7.2,
+       "over16_7": 290,
+       "over33_3": 5,
+       "over50": 0,
+       "avgFps": 64.836,
+       "longestUnder30FpsMs": 50
+      },
+      "loops": 2,
+      "heapMb": 195.4,
+      "heapNote": "performance.memory.usedJSHeapSize: the JavaScript heap only, not the graphics memory",
+      "contexts": {
+       "webgpu": 1
+      },
+      "intervals": 1,
+      "workers": 0,
+      "listeners": 95,
+      "audio": {
+       "contexts": 0,
+       "nodesMade": 0
+      },
+      "provided": {
+       "renderer": {
+        "drawCalls": 489,
+        "triangles": 7261679,
+        "geometries": 147,
+        "textures": 84,
+        "cpuRenderMs": 4.199999988079071,
+        "engine": "three r187 webgpu",
+        "pixels": [
+         1280,
+         800
+        ],
+        "walkers": 9,
+        "atWork": 24,
+        "models": [
+         "granada/town",
+         "granada/landmarks",
+         "granada/c/palace",
+         "granada/mill"
+        ],
+        "modelFailures": [],
+        "eased": 0
+       }
+      }
+     }
+    },
+    "5-photo-nearest": {
+     "palaceBoxPixels": {
+      "width": 605,
+      "height": 199
+     },
+     "nearestDistanceHoldingThePalace": 400,
+     "pose": {
+      "tx": 760,
+      "ty": 106.78954178869974,
+      "tz": -150,
+      "yaw": 1.5708,
+      "pitch": 0.1222,
+      "distance": 400
+     },
+     "counted": {
+      "atMs": 84664,
+      "frames": {
+       "frames": 1114,
+       "durationMs": 10000.7,
+       "meanMs": 8.977,
+       "p50Ms": 8.3,
+       "p95Ms": 15.9,
+       "p99Ms": 24.8,
+       "maxMs": 32.3,
+       "minMs": 6.9,
+       "over16_7": 43,
+       "over33_3": 0,
+       "over50": 0,
+       "avgFps": 111.392,
+       "longestUnder30FpsMs": 0
+      },
+      "loops": 2,
+      "heapMb": 218.4,
+      "heapNote": "performance.memory.usedJSHeapSize: the JavaScript heap only, not the graphics memory",
+      "contexts": {
+       "webgpu": 1
+      },
+      "intervals": 1,
+      "workers": 0,
+      "listeners": 95,
+      "audio": {
+       "contexts": 0,
+       "nodesMade": 0
+      },
+      "provided": {
+       "renderer": {
+        "drawCalls": 323,
+        "triangles": 4404443,
+        "geometries": 147,
+        "textures": 84,
+        "cpuRenderMs": 3.899999976158142,
+        "engine": "three r187 webgpu",
+        "pixels": [
+         1280,
+         800
+        ],
+        "walkers": 9,
+        "atWork": 24,
+        "models": [
+         "granada/town",
+         "granada/landmarks",
+         "granada/c/palace",
+         "granada/mill"
+        ],
+        "modelFailures": [],
+        "eased": 0
+       }
+      }
+     }
+    }
+   },
+   "consoleErrors": []
+  }
+ ],
+ "machine": {
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/158.0.0.0 Safari/537.36",
+  "cores": 16,
+  "deviceMemoryGb": null,
+  "gpu": "no WebGPU adapter"
+ },
+ "note": "Taken from the running game on the machine named here, served from that machine. It is not one of the minimum machines and passes no performance gate. The palace's box on the screen is the projection of its bounding box, not of what is visible of it."
+}

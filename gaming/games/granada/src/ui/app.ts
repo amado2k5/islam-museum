@@ -1304,6 +1304,7 @@ async function main(): Promise<void> {
         quality,
         reducedMotion: matchMedia("(prefers-reduced-motion: reduce)").matches,
         models: query.get("models") !== "off",
+        art: query.get("art") === "c" ? "c" : null,
         onField: (id) => {
           if (photo) return;
           picked = null;

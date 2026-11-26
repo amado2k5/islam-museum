@@ -24,6 +24,12 @@ import { MODELS_AVAILABLE, disposeModel, disposeSharedMaterials, loadModel } fro
  */
 const MODEL_SET = "granada/2/";
 /** The pieces the hill needs before the valley stops making its own wall, towers and halls there. */
+/**
+ * Candidate C, an art set under evaluation: the pieces it has, each a file of its own in its own folder. It is drawn
+ * only when the page is asked for it (`art=c`), piece by piece in place of Set A's; a piece that cannot be had leaves
+ * Set A's standing. It is not the game's art, and nothing of it is kept in a save.
+ */
+const CANDIDATE_C: Record<string, string> = { palace: "granada/c/palace.gltf" };
 const HILL_PIECES = ["wall", "tower", "gate", "scaffold", "crane", "palace", "estate"];
 import { CHANNELS, ESTATE, FIELDS, GRANARY, HOUSE_LOTS, KIT_HOUSES, MARKET, PLOT_GRID, POOL, STORE, VILLAGE, broadTree, buildLand, buildRange, buildRiver, buildScenery, channelWater, cropSpots, cypressTree, fieldAt, fieldGround, heightAt, oliveTree, orchardTree, placedBuilding, plotTable, poolWater, poplarTree, vegetablePlant, wheatTuft, type Chunk , type KitPlacement } from "./valley";
 
@@ -45,6 +51,8 @@ export interface ValleyOptions {
   maxPixelRatio: number;
   /** Whether to fetch the authored models. Without them the valley draws its own shapes, as it does until they arrive. */
   models: boolean;
+  /** An art set under evaluation to draw in place of the game's own, where it has a piece. */
+  art?: "c" | null;
 }
 export interface FieldLook {
   crop: "wheat" | "olives" | "vegetables" | null;
@@ -211,6 +219,7 @@ export class ValleyRenderer {
   private millModel: THREE.Object3D | null = null;
   private townModel: THREE.Object3D | null = null;
   private landmarksModel: THREE.Object3D | null = null;
+  private candidateModels: THREE.Object3D[] = [];
   private millWheel: THREE.Object3D | null = null;
   private readonly models: string[] = [];
   private readonly modelFailures: string[] = [];
@@ -348,7 +357,7 @@ export class ValleyRenderer {
     // ---- What is built ----
     // The town's houses are models made ahead of time, where the host has them; the valley is then built without
     // houses of its own and told where each one stands. Without them it makes its houses itself, as before.
-    const town = options.models && MODELS_AVAILABLE ? await this.loadTown() : null;
+    const town = options.models && MODELS_AVAILABLE ? await this.loadTown(options.art ?? null) : null;
     const hill = town !== null && HILL_PIECES.every((name) => town.has(name));
     const scenery = buildScenery(seed, { authoredTown: town !== null, authoredHill: hill });
     addChunks(scenery.chunks);
@@ -656,7 +665,7 @@ export class ValleyRenderer {
   }
 
   /** Fetches the town kit and returns, for each piece, the shapes and surfaces it is made of. Null if it cannot be had. */
-  private async loadTown(): Promise<Map<string, Array<{ geometry: THREE.BufferGeometry; material: THREE.Material }>> | null> {
+  private async loadTown(art: "c" | null = null): Promise<Map<string, Array<{ geometry: THREE.BufferGeometry; material: THREE.Material }>> | null> {
     try {
       const pieces = new Map<string, Array<{ geometry: THREE.BufferGeometry; material: THREE.Material }>>();
       const take = (model: THREE.Object3D) => {
@@ -680,6 +689,20 @@ export class ValleyRenderer {
         take(larger);
         this.landmarksModel = larger;
         this.models.push("granada/landmarks");
+        // The candidate's pieces, asked for by name, take the place of Set A's only once they have arrived whole.
+        if (art === "c") {
+          for (const [piece, path] of Object.entries(CANDIDATE_C)) {
+            try {
+              const candidate = await loadModel(path);
+              if (!candidate.children.some((n) => n.name === piece)) throw new Error(`the file has no ${piece}`);
+              take(candidate);
+              this.candidateModels.push(candidate);
+              this.models.push(`granada/c/${piece}`);
+            } catch (e) {
+              this.modelFailures.push(`granada/c/${piece}: ${e instanceof Error ? e.message : String(e)}`);
+            }
+          }
+        }
       } catch (e) {
         this.modelFailures.push(`granada/landmarks: ${e instanceof Error ? e.message : String(e)}`);
       }
@@ -1279,6 +1302,7 @@ export class ValleyRenderer {
     if (this.millModel) disposeModel(this.millModel);
     if (this.townModel) disposeModel(this.townModel);
     if (this.landmarksModel) disposeModel(this.landmarksModel);
+    for (const m of this.candidateModels) disposeModel(m);
     disposeSharedMaterials();
     for (const d of this.disposables) d.dispose();
     this.pipeline?.dispose();
