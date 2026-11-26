@@ -9,6 +9,9 @@ import { HAIRS, OUTFITS, SKINS, keeper as paintKeeper, portrait } from "../art/c
 import { CLOCK_QUEST, clockPuzzle } from "../content/clock";
 import { restoreClock } from "../sim/clock";
 import { clockQuest, type ClockQuest } from "./clock";
+import { CIPHER_QUEST, cipherPuzzle } from "../content/cipher";
+import { restoreCipher } from "../sim/cipher";
+import { cipherQuest, type CipherQuest } from "./cipher";
 import { prologueScreen } from "./prologue";
 import { JAR, RECORDS, SCRIPTS, THINGS, TURN_SLACK, inPlay, type PlayStyle, type Speaker } from "../content/workshop";
 import { start, type Running } from "../game/boot";
@@ -150,9 +153,10 @@ async function main(): Promise<void> {
   // The goal and the talk sit over the picture on a wide screen and beside it on a narrow one (ui/hudhud.css).
   const stageWrap = el("div", { class: "stage-wrap", hidden: true }, objective, stage, talkBox);
   const hub = el("section", { class: "hub" });
-  // The second quest is played on a page of its own, beside the Atlas and the flying scene.
+  // The second and third quests are played on a page of their own, beside the Atlas and the flying scene.
   const bench = el("section", { class: "bench", hidden: true });
   let clockRun: ClockQuest | null = null;
+  let cipherRun: CipherQuest | null = null;
   stage.setAttribute("role", "application");
   stage.setAttribute("aria-label", t("canvas_label"));
 
@@ -297,7 +301,7 @@ async function main(): Promise<void> {
   const checkpoint = (clear = false) => {
     const resume = state.done || (state.turns === 0 && state.flags.length === 0 && !state.dark) ? null : { quest: QUEST, snap: snapshot(state) as unknown };
     if (resume === null && !placeMine && !clear) return;
-    // A place kept in the elephant clock is never this quest's to wipe: only a place of its own is.
+    // A place kept in another quest is never this quest's to wipe: only a place of its own is.
     if (resume === null && slot().resume && slot().resume!.quest !== QUEST) return;
     if (JSON.stringify(slot().resume) === JSON.stringify(resume)) return;
     save = { ...save, slots: save.slots.map((x, i) => (i === save.slot && x ? { ...x, resume } : x)) };
@@ -496,7 +500,7 @@ async function main(): Promise<void> {
       openingDue = false;
       return;
     }
-    if (started || clockRun || openingShown) return;
+    if (started || clockRun || cipherRun || openingShown) return;
     openingDue = false;
     readOpening(true);
   }
@@ -824,7 +828,7 @@ async function main(): Promise<void> {
   // The first thing a player sees: who they are, and the Atlas itself, ten worlds of five pages. One quest can be
   // played; the others are named and said to be not built. Nothing here is a claim about history: the names are
   // the subjects' names and the grouping is a structure for play.
-  const BUILT: Record<string, string> = { "ibn-al-haytham": QUEST, "al-jazari": CLOCK_QUEST };
+  const BUILT: Record<string, string> = { "ibn-al-haytham": QUEST, "al-jazari": CLOCK_QUEST, "al-kindi": CIPHER_QUEST };
   function startQuest(): void {
     cues.unlock();
     // Asked once, after a press as browsers require; the answer is shown in the settings and never asked again.
@@ -841,30 +845,45 @@ async function main(): Promise<void> {
     stage.focus({ preventScroll: true });
     render();
   }
-  /** The clock left in the middle, if the slot holds one that can be trusted; the slot holds one place only. */
-  const clockSaved = () => {
+  // The slot holds one place only, whichever quest it belongs to. The quests played on a page (the elephant clock, the
+  // secret page) share one rule: a quest with progress takes the place; a quest with none leaves another's alone; a
+  // finished or restarted quest clears its own place only.
+  /** What the slot holds for `quest`, if it can be trusted; null if it holds nothing, or another quest's place. */
+  const pageSaved = <T,>(quest: string, restoreIt: (snap: unknown) => T | null): T | null => {
     const r = slot().resume;
-    return r?.quest === CLOCK_QUEST ? restoreClock(r.snap, clockPuzzle) : null;
+    return r?.quest === quest ? restoreIt(r.snap) : null;
   };
-  /**
-   * Keeps the clock's place. With progress (a move or a question asked) the slot's one place becomes the clock's; a
-   * finished or restarted clock clears its own place only, and the other quest's place is never touched by a clock
-   * that has made no progress.
-   */
-  const clockCheckpoint = (snap: unknown | null) => {
+  /** Keeps `quest`'s place (a snapshot), or clears it (null) if it is the quest's own. */
+  const pageCheckpoint = (quest: string, snap: unknown | null) => {
     const old = slot().resume;
-    const resume = snap === null ? null : { quest: CLOCK_QUEST, snap };
-    if (resume === null && old?.quest !== CLOCK_QUEST) return;
+    const resume = snap === null ? null : { quest, snap };
+    if (resume === null && old?.quest !== quest) return;
     if (JSON.stringify(old) === JSON.stringify(resume)) return;
     save = { ...save, slots: save.slots.map((x, i) => (i === save.slot && x ? { ...x, resume } : x)) };
     keep(true);
   };
+  /** A quest on a page is finished: its goals are written into the save and its own place is cleared; another quest's place is not touched. */
+  const pageFinish = (quest: string, g: { turns: number; curiosity: boolean; ingenuity: boolean; kindness: boolean; feather: boolean }) => {
+    const mine = slot().resume?.quest === quest;
+    save = { ...save, slots: save.slots.map((s, i) => (i === save.slot && s ? { ...recordQuest(s, quest, g), resume: mine ? null : s.resume } : s)) };
+    keep(mine);
+  };
+  const clockSaved = () => pageSaved(CLOCK_QUEST, (snap) => restoreClock(snap, clockPuzzle));
+  const cipherSaved = () => pageSaved(CIPHER_QUEST, (snap) => restoreCipher(snap, cipherPuzzle));
+  /** Shows a quest's page in place of the Atlas. The note and the controls under the page are the flying scene's; each quest carries its own note, and nothing here can be paused. */
+  function showBench(node: HTMLElement): void {
+    hub.hidden = true;
+    atlasBtn.hidden = false;
+    bench.replaceChildren(node);
+    bench.hidden = false;
+    wordsBox.hidden = true;
+    pauseBtn.hidden = true;
+    (bench.querySelector("h2") as HTMLElement | null)?.focus({ preventScroll: true });
+  }
   /** Opens the elephant clock: a quest played on the page, with no flying scene. A clock left in the middle comes back. */
   function startClock(): void {
     const kept = clockSaved();
     cues.unlock();
-    hub.hidden = true;
-    atlasBtn.hidden = false;
     clockRun = clockQuest({
       t,
       num,
@@ -873,31 +892,43 @@ async function main(): Promise<void> {
       title: subjectName("al-jazari"),
       style,
       resume: kept,
-      keepPlace: (snap) => clockCheckpoint(snap),
+      keepPlace: (snap) => pageCheckpoint(CLOCK_QUEST, snap),
       reducedMotion: () => settings().reducedMotion,
       tick: () => cues.play("line"),
       chime: () => cues.play("restored"),
-      finish: (g) => {
-        const mine = slot().resume?.quest === CLOCK_QUEST;
-        // A finished quest is not kept in the middle; the place kept in the other quest is not this quest's to change.
-        save = { ...save, slots: save.slots.map((s, i) => (i === save.slot && s ? { ...recordQuest(s, CLOCK_QUEST, g), resume: mine ? null : s.resume } : s)) };
-        keep(mine);
-      },
+      finish: (g) => pageFinish(CLOCK_QUEST, g),
       leave: () => toAtlas(),
     });
-    bench.replaceChildren(clockRun.node);
-    bench.hidden = false;
-    // The note and the controls under the page are the flying scene's; this quest carries its own note. Nothing here
-    // can be paused, so the pause button is put away.
-    wordsBox.hidden = true;
-    pauseBtn.hidden = true;
-    (bench.querySelector("h2") as HTMLElement | null)?.focus({ preventScroll: true });
+    showBench(clockRun.node);
+  }
+  /** Opens al-Kindi's secret page: a quest played on the page, with no flying scene. A page left in the middle comes back. */
+  function startCipher(): void {
+    const kept = cipherSaved();
+    cues.unlock();
+    cipherRun = cipherQuest({
+      t,
+      num,
+      lang,
+      museum: MUSEUM,
+      title: subjectName("al-kindi"),
+      style,
+      resume: kept,
+      keepPlace: (snap) => pageCheckpoint(CIPHER_QUEST, snap),
+      tick: () => cues.play("line"),
+      chime: () => cues.play("restored"),
+      finish: (g) => pageFinish(CIPHER_QUEST, g),
+      leave: () => toAtlas(),
+    });
+    showBench(cipherRun.node);
   }
   /** Leaves the quest for the Atlas. A quest in the middle stays saved; a finished one is cleared for another play. */
   function toAtlas(): void {
-    if (clockRun) {
-      clockRun.stop();
+    const onPage = clockRun ? CLOCK_QUEST : cipherRun ? CIPHER_QUEST : null;
+    if (onPage) {
+      clockRun?.stop();
+      cipherRun?.stop();
       clockRun = null;
+      cipherRun = null;
       bench.replaceChildren();
       bench.hidden = true;
       wordsBox.hidden = false;
@@ -905,7 +936,7 @@ async function main(): Promise<void> {
       atlasBtn.hidden = true;
       hub.hidden = false;
       drawHub();
-      (hub.querySelector(`button[data-quest="${CLOCK_QUEST}"]`) as HTMLElement | null)?.focus({ preventScroll: true });
+      (hub.querySelector(`button[data-quest="${onPage}"]`) as HTMLElement | null)?.focus({ preventScroll: true });
       return;
     }
     setPaused(false);
@@ -986,6 +1017,11 @@ async function main(): Promise<void> {
       open: worlds.filter((w) => atlas.subjects.some((x) => x.world === w.id && BUILT[x.id] !== undefined)).map((w) => w.order),
     };
   };
+  /** The quests played on a page: how each is opened, what it has left in the middle, and its line about being a trial. */
+  const PAGE_QUESTS: Record<string, { start: () => void; saved: () => unknown | null; trial: Key }> = {
+    [CLOCK_QUEST]: { start: () => startClock(), saved: clockSaved, trial: "ck_trial" },
+    [CIPHER_QUEST]: { start: () => startCipher(), saved: cipherSaved, trial: "cf_trial" },
+  };
   function drawHub(): void {
     drawChoices();
     const quests = slot().quests;
@@ -999,14 +1035,15 @@ async function main(): Promise<void> {
           const story = sub.kind === "literature" ? el("small", { textContent: t("quest_story") }) : null;
           if (!quest) return el("li", { class: "closed" }, el("span", { textContent: name }), story, el("small", { textContent: t("quest_closed") }));
           const rec = quests[quest];
-          if (quest === CLOCK_QUEST) {
-            // One button on the Atlas is the main one (the flying scene); this trial quest has an ordinary button.
-            const kept = clockSaved();
-            const b = el("button", { type: "button", textContent: t(kept ? "quest_continue" : rec?.done ? "quest_again" : "quest_play", { name }), onclick: () => startClock() });
+          const page = PAGE_QUESTS[quest];
+          if (page) {
+            // One button on the Atlas is the main one (the flying scene); the quests played on a page have an ordinary button.
+            const kept = page.saved();
+            const b = el("button", { type: "button", textContent: t(kept ? "quest_continue" : rec?.done ? "quest_again" : "quest_play", { name }), onclick: () => page.start() });
             b.dataset.quest = quest;
-            const item = el("li", { class: "open" }, b, el("small", { textContent: t("ck_trial") }));
+            const item = el("li", { class: "open" }, b, el("small", { textContent: t(page.trial) }));
             if (rec?.done) item.append(el("small", { textContent: t("quest_home", { n: num([rec.curiosity, rec.ingenuity, rec.kindness, rec.feather].filter(Boolean).length) }) }));
-            if (kept) item.append(el("small", { textContent: t("resume_note") }), el("button", { type: "button", textContent: t("btn_restart_quest"), onclick: () => (clockCheckpoint(null), drawHub()) }));
+            if (kept) item.append(el("small", { textContent: t("resume_note") }), el("button", { type: "button", textContent: t("btn_restart_quest"), onclick: () => (pageCheckpoint(quest, null), drawHub()) }));
             return item;
           }
           const label: Key = resumed ? "quest_continue" : rec?.done ? "quest_again" : "quest_play";
@@ -1084,6 +1121,9 @@ async function main(): Promise<void> {
     startClock: () => startClock(),
     clock: () => (clockRun ? { ...clockRun.state(), busy: clockRun.busy() } : null),
     clockCommand: (c: Parameters<ClockQuest["command"]>[0]) => clockRun?.command(c),
+    startCipher: () => startCipher(),
+    cipher: () => (cipherRun ? { ...cipherRun.state(), busy: cipherRun.busy() } : null),
+    cipherCommand: (c: Parameters<CipherQuest["command"]>[0]) => cipherRun?.command(c),
     resumed: () => resumed,
     keys: () => settings().keys,
     prologue: () => ({ shown: openingShown, panel: openingShown ? prologue.panel() : 0 }),
