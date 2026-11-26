@@ -45,13 +45,13 @@ The atlas title is The Man Who Wrote the Whole World / كتاب العالم ا�
 
 ## Three candidate quest premises
 
-These are proposals for Claude and the founder, not content.
+These are proposals for Claude and the founder, not content. They are deliberately conservative system scaffolding, not final quest designs. Each names one of the twelve systems in `design.md`; forms such as Measure, Journal, Care and Sail are not treated as separate systems. Claim numbers refer to the claims above.
 
-1. In the Network system, players must gather clues about Rashid al-Din's conversion to Islam [2], distinguishing between historical evidence and game invention to unlock the truth behind his religious transformation.
+1. A child helps connect people, resources or pieces of knowledge so they reach where they are needed using the Network system. This rests on claims [1, 2] as its evidence anchor; the exact people or resources, missing links, network puzzle and the child's role are game invention, not record fact.
 
-2. Using the Mend system, players restore Rashid al-Din's reputation by uncovering the truth behind his alleged poisoning of Oldjaitu [3], blending historical facts with game narrative to clear his name.
+2. Children help put damaged or scattered pieces into a stable, useful order using the Mend and Build system. This rests on claims [1, 3] as its evidence anchor; the damaged or scattered pieces, their exact order, the repair puzzle and the children's role are game invention, not record fact.
 
-3. With the Rhythm system, players navigate the political intrigue of Rashid al-Din's court [1, 3], balancing historical events with game mechanics to avoid the fate of execution and protect his legacy.
+3. A child helps compare accounts, objects or clues using the Observe and Match system to find what the evidence supports. This rests on claims [1, 4] as its evidence anchor; the compared materials, missing details, matching puzzle and the child's role are game invention, not record fact.
 
 ## Sensitivities
 

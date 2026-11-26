@@ -52,13 +52,13 @@ The atlas title is The House of Wisdom / بيت الحكمة. No record read sup
 
 ## Three candidate quest premises
 
-These are proposals for Claude and the founder, not content.
+These are proposals for Claude and the founder, not content. They are deliberately conservative system scaffolding, not final quest designs. Each names one of the twelve systems in `design.md`; forms such as Measure, Journal, Care and Sail are not treated as separate systems. Claim numbers refer to the claims above.
 
-1. In the Network system, players must connect scholars and translators to gather ancient texts, distinguishing between historical missions [2, 4] and the game's invented network of knowledge exchange.
+1. A child helps connect people, resources or pieces of knowledge so they reach where they are needed using the Network system. This rests on claims [1, 2] as its evidence anchor; the exact people or resources, missing links, network puzzle and the child's role are game invention, not record fact.
 
-2. Using the Mend system, players repair and restore ancient texts, reflecting the historical copying and translation efforts [1, 3] while inventing the specific methods and tools used in the game.
+2. Children help put damaged or scattered pieces into a stable, useful order using the Mend and Build system. This rests on claims [1, 3] as its evidence anchor; the damaged or scattered pieces, their exact order, the repair puzzle and the children's role are game invention, not record fact.
 
-3. With the Rhythm system, players time their actions to align with historical truces and agreements, such as al-Ma'mun's peace with Cyprus [5], but invent the specific challenges and obstacles faced in the game.
+3. A child helps compare accounts, objects or clues using the Observe and Match system to find what the evidence supports. This rests on claims [1, 4] as its evidence anchor; the compared materials, missing details, matching puzzle and the child's role are game invention, not record fact.
 
 ## Sensitivities
 

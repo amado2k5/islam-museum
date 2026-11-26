@@ -45,13 +45,13 @@ The atlas title is The Man Who Weighed Poetry / الذي وزن الشعر. No r
 
 ## Three candidate quest premises
 
-These are proposals for Claude and the founder, not content.
+These are proposals for Claude and the founder, not content. They are deliberately conservative system scaffolding, not final quest designs. Each names one of the twelve systems in `design.md`; forms such as Measure, Journal, Care and Sail are not treated as separate systems. Claim numbers refer to the claims above.
 
-1. In the Network system, players must connect historical scholars like Al-Khalil and Sibawayh, based on their teachings and writings [3]. This quest separates historical mentorship from the invented network of knowledge exchange.
+1. A child helps keep a verse, pattern or repeated beat steady using the Rhythm system so it can be followed clearly. This rests on claims [1, 2] as its evidence anchor; the practice verse or pattern, metre puzzle, missing beats and the child's role are game invention, not record fact.
 
-2. Players use the Rhythm system to explore Al-Khalil's theories on sound structure, creating patterns based on his books [2]. This quest distinguishes between Al-Khalil's theories and the game's rhythm-based challenges.
+2. A child helps compare accounts, objects or clues using the Observe and Match system to find what the evidence supports. This rests on claims [1, 3] as its evidence anchor; the compared materials, missing details, matching puzzle and the child's role are game invention, not record fact.
 
-3. Using the Mend system, players restore ancient Basra from simple huts to a fortified town, reflecting its historical development [8]. This quest separates the historical construction phases from the game's rebuilding mechanics.
+3. A child helps connect people, resources or pieces of knowledge so they reach where they are needed using the Network system. This rests on claims [1, 4] as its evidence anchor; the exact people or resources, missing links, network puzzle and the child's role are game invention, not record fact.
 
 ## Sensitivities
 
