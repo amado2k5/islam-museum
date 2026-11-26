@@ -7,7 +7,7 @@
   "mandateBaseline": "UAT release 20261125-7c31b7631c6; repository at 7c31b7631c6",
   "uatWhenChecked": "20261125-7c31b7631c6 (commit 7c31b7631c6, built clean, 50 files, 3,503,348 bytes, three games), read from /_channel and /release.json",
   "mainWhenChecked": "3733031ddae: one games change ahead of UAT (the village, mosque, mill and bridge of pull request 8266)",
-  "machine": "Apple M4 Max; Chrome 158.0.8127.38 and Edge 157.0.4341.60 installed; no Blender; Safari present and not driven",
+  "machine": "Apple M4 Max; Chrome 158.0.8127.38 and Edge 157.0.4341.60 installed; Blender 5.3.0 installed on 25 November with the founder's word; Safari present and not driven",
   "evidence": "docs/gaming/evidence/corrective/baseline/"
  },
  "statusValues": [
@@ -41,10 +41,10 @@
     "R10"
    ],
    "checked": "True at the baseline: every shape was generated at load by code, with no authored asset, no rigged figure, no reflection.",
-   "movedSince": "Pull request 8266 (after the baseline, not on UAT): tiled houses, a mosque with its minaret, a mill whose wheel turns with the water, a three-arched bridge, ox-carts, people who lean as they walk. Still generated at load, still no development-time pipeline, no mapped PBR texture sets, no rigged characters, no reflections.",
+   "movedSince": "Pull request 8266 (not on UAT): tiled houses, a mosque with its minaret, a mill whose wheel turns with the water, a three-arched bridge, ox-carts, people who lean as they walk, all generated at load. Then the pipeline itself: the founder allowed Blender on 25 November; gaming/art/ now makes assets from scripts, with painted texture sets (colour, normal, roughness), bevelled meshes in metres, a glTF export, a lit preview and a manifest of checksums (G-0012). One hero asset exists as a preview, the watermill (16,172 triangles); it is not loaded by the game.",
    "status": "in-progress",
-   "next": "Five hero previews (fortified hill town, courtyard house, arcaded market, mill, bridge) from a development-time pipeline, lit on a material sheet, before any mass generation; then the valley slice at the concept's composition with native 1920x1080 and 2560x1440 captures and a moving clip.",
-   "founder": "Which tool the pipeline uses. Blender is not on this machine; installing it is a download and needs his word. Without it the pipeline is a build-time generator in this repository's own code that writes model files, which the mandate allows as 'equivalent' and which will reach less far."
+   "next": "Load the mill in the valley in place of the code-made one (glTF under the content security policy, models hosted beside the music), then the other four previews: the fortified hill town's gate and wall kit, a courtyard house, the arcaded market, the bridge.",
+   "founder": "Nothing now: he answered 'Install Blender'. Later: who reviews the art, since the author cannot pass GRA12 on his own eye."
   },
   {
    "id": 2,

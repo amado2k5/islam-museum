@@ -1,0 +1,131 @@
+{
+ "format": "im.play.art",
+ "version": 1,
+ "tool": "Blender 5.3.0",
+ "where": "gaming/media/models/ on a machine that has run the scripts; not in git",
+ "assets": [
+  {
+   "id": "granada/mill",
+   "game": "granada",
+   "title": "The watermill",
+   "madeBy": "this repository's own scripts, run in Blender; no file from outside, no photograph",
+   "licence": "the scripts: MIT, with the code; what they make: CC BY-SA 4.0, with the museum's media of its own",
+   "sources": [
+    {
+     "path": "art/blender/common.py",
+     "sha256": "6cb9901a4d0cb8d0483096780c1c86917f35c4bbdee8da49e1af87f81301439b"
+    },
+    {
+     "path": "art/blender/granada_mill.py",
+     "sha256": "4ef597b83b1bfefe0236c9356bf9f72f0675553c21c999617980a06eaa64d743"
+    }
+   ],
+   "objects": [
+    "mill-extras",
+    "mill-roof",
+    "mill-stonework",
+    "mill-walls",
+    "mill-woodwork",
+    "wheel"
+   ],
+   "materials": [
+    "plaster",
+    "rooftile",
+    "wood",
+    "stone",
+    "earth",
+    "dark",
+    "iron"
+   ],
+   "triangles": 16172,
+   "bytes": 5472930,
+   "files": [
+    {
+     "path": "granada/mill.gltf",
+     "bytes": 22791,
+     "sha256": "1afb36aa74a5c0dec8ca7eed06cb25d840e9f99d7663a6dc84805e1468c182cd"
+    },
+    {
+     "path": "granada/mill.bin",
+     "bytes": 1707624,
+     "sha256": "7d4775b8007226b2c1fa020d920f534f396df698f2293226bf6394cbad65ee09"
+    },
+    {
+     "path": "granada/textures/plaster_normal.jpg",
+     "bytes": 588919,
+     "sha256": "2a936ab2a438731ee9e9f45a77bdad4e823fbe1371b898b6e08bb0371901addd"
+    },
+    {
+     "path": "granada/textures/plaster_base.jpg",
+     "bytes": 35694,
+     "sha256": "71699e937ccbbece2e9cbda980ec73552842c3aef5e1852b23e1a9af38b8eae6"
+    },
+    {
+     "path": "granada/textures/plaster_orm.jpg",
+     "bytes": 164733,
+     "sha256": "99cd0226e2a6903ad207d4b4ef200a971fed90f998ae5e528265daffc17a91d5"
+    },
+    {
+     "path": "granada/textures/rooftile_normal.jpg",
+     "bytes": 90025,
+     "sha256": "5e52f4418daf903973ef24c802e845ff32f4f96020152bfeed1bd1d71572e3c6"
+    },
+    {
+     "path": "granada/textures/rooftile_base.jpg",
+     "bytes": 59410,
+     "sha256": "394b0216f57a279cfdacc8599cec956057e313a6cb7a5ef0f09f159936dc60ba"
+    },
+    {
+     "path": "granada/textures/rooftile_orm.jpg",
+     "bytes": 32171,
+     "sha256": "fcd2b10b3a23251572ffc591ff22e292b410baf2ac840bb09a2e9c02d497c74f"
+    },
+    {
+     "path": "granada/textures/wood_normal.jpg",
+     "bytes": 633340,
+     "sha256": "610054c7d43dfd0f7756934c087dd3b458b8a145a860c8b288d9b36d396996ce"
+    },
+    {
+     "path": "granada/textures/wood_base.jpg",
+     "bytes": 69760,
+     "sha256": "5fe3e9728d704bd3652f1d504da37fbb37c22fa0546f0616e4b1910ba4a0768c"
+    },
+    {
+     "path": "granada/textures/wood_orm.jpg",
+     "bytes": 298271,
+     "sha256": "b115562d97be298872d80a29571b78d6e70214f8edd9cdb199044b9ef5b6f8d4"
+    },
+    {
+     "path": "granada/textures/stone_normal.jpg",
+     "bytes": 506800,
+     "sha256": "033f75a48433c2567ee8dec2c9b14fa022d34840d6200d9db48a4e32adad63f6"
+    },
+    {
+     "path": "granada/textures/stone_base.jpg",
+     "bytes": 83759,
+     "sha256": "438463388dbfd9456016663cb627fe2795354aeb2ad67dc2733d475ec9c8ab75"
+    },
+    {
+     "path": "granada/textures/stone_orm.jpg",
+     "bytes": 166269,
+     "sha256": "3f62da77c49e0767b50328235b68243d89524c216111e6d190c2e58c9cfbdc68"
+    },
+    {
+     "path": "granada/textures/earth_normal.jpg",
+     "bytes": 846968,
+     "sha256": "3ee29d1ca495c76828c014a66c13a9ec05f0bd665da3c7b1f7be3ed946751eac"
+    },
+    {
+     "path": "granada/textures/earth_base.jpg",
+     "bytes": 58651,
+     "sha256": "fec790700f42c06f61954f9618e9873568a8e6c1df20a1d6421886bdf2ef8fa4"
+    },
+    {
+     "path": "granada/textures/earth_orm.jpg",
+     "bytes": 107745,
+     "sha256": "b9aa37ef7f7107651e948df3c1289720ea5570a42a61fd7929c36746020654db"
+    }
+   ]
+  }
+ ]
+}

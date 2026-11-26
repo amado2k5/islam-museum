@@ -108,6 +108,12 @@ That is the display's own 120 frames a second, so it says the valley is not what
 
 Captures and reports: [`../evidence/granada/valley3d/`](../evidence/granada/valley3d/).
 
+**Art made ahead of time (begun 25 November 2026).** The corrective work asks for authored assets in place of these generated shapes. A pipeline for them exists in `gaming/art/` ([G-0012](../adr/G-0012-art-from-source-in-blender.md)) and has made one, the watermill, as a rendered preview:
+
+![The watermill, rendered in Blender from its script](../evidence/granada/art/mill-preview.webp)
+
+It is not in the game. The valley above still draws the mill its own code makes.
+
 ## The museum behind it
 
 `npm --prefix gaming run granada:records` reads the hand-chosen list and pins what the museum has. A record that is missing, sensitive, without a label in one of the seven languages, or (for a place) without coordinates stops the build.
