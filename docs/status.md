@@ -1,6 +1,6 @@
 # Project status and how to resume
 
-_Last updated 25 November 2026._ Read this first in a new session, then `docs/plan/00-README.md` (the plan) and `CLAUDE.md` (the rules)._
+_Last updated 26 November 2026._ Read this first in a new session, then `docs/plan/00-README.md` (the plan) and `CLAUDE.md` (the rules)._
 
 ## Reach — the Tranco ranking log
 
@@ -26,8 +26,9 @@ Tranco (tranco-list.eu) is a research ranking of popular domains, recomputed dai
 | 2026-11-23 | 657,206 |
 | 2026-11-24 | 629,925 |
 | 2026-11-25 | 608,280 |
+| 2026-11-26 | 584,023 |
 
-Latest, checked 25 November 2026: **#608,280** on the list dated 25 November 2026 — up 21,645 places in a day from #629,925 (list of 24 November), and well inside the top 1,000,000 this log watches. The museum opened on 11 October 2026; 45 days later it stands 4,001,687 places above its first Tranco reading (#4,609,967 on the list of 23 October 2026). The 25 November rank was read from the published list file itself (list 947P2, the full list of 4,326,585 domains) before the API carried it.
+Latest, checked 26 November 2026: **#584,023** on the list dated 26 November 2026 — up 24,257 places in a day from #608,280 (list of 25 November), and well inside the top 1,000,000 this log watches. The museum opened on 11 October 2026; 46 days later it stands 4,025,944 places above its first Tranco reading (#4,609,967 on the list of 23 October 2026). The 26 November rank was read from the published list file itself (list PY22J, the full list of 4,319,577 domains) before the API carried it.
 
 The wider reach evidence — Cloudflare visitor and request analytics, AI Crawl Control
 operator figures, referrals and the Singapore cloud-network investigation — lives in
