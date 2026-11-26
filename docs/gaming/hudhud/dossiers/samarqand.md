@@ -45,13 +45,13 @@ The atlas title is The City of Paper and Stars. No record read supports the exac
 
 ## Three candidate quest premises
 
-These are proposals for Claude and the founder, not content.
+These are proposals for Claude and the founder, not content. They are deliberately conservative system scaffolding, not final quest designs. Each names one of the twelve systems in `design.md`; forms such as Measure, Journal, Care and Sail are not treated as separate systems. Claim numbers refer to the claims above.
 
-1. Players use the Rhythm system to navigate through the city's history, avoiding the anti-Arab factions that deposed Tarkhun [5]. The game invents the factions' motives and strategies, distinguishing them from the historical evidence.
+1. A child helps connect people, resources or pieces of knowledge so they reach where they are needed using the Network system. This rests on claims [1, 2] as its evidence anchor; the exact people or resources, missing links, network puzzle and the child's role are game invention, not record fact.
 
-2. In a quest, players use the Network system to gather information about the various religious groups in Samarkand, including the Nestorian Christians and Buddhists [7]. The game invents the details of the religious interactions, while the historical evidence provides the setting.
+2. Children help put damaged or scattered pieces into a stable, useful order using the Mend and Build system. This rests on claims [1, 3] as its evidence anchor; the damaged or scattered pieces, their exact order, the repair puzzle and the children's role are game invention, not record fact.
 
-3. Players use the Journal system to document their findings about the city's name and its evolution from Marakanda to Samarkand [2]. The game invents the stories behind the name changes, while the historical evidence provides the framework.
+3. A child helps compare accounts, objects or clues using the Observe and Match system to find what the evidence supports. This rests on claims [1, 4] as its evidence anchor; the compared materials, missing details, matching puzzle and the child's role are game invention, not record fact.
 
 ## Sensitivities
 

@@ -48,13 +48,13 @@ The atlas title is The Teacher of Sokoto. No record read supports the exact pict
 
 ## Three candidate quest premises
 
-These are proposals for Claude and the founder, not content.
+These are proposals for Claude and the founder, not content. They are deliberately conservative system scaffolding, not final quest designs. Each names one of the twelve systems in `design.md`; forms such as Measure, Journal, Care and Sail are not treated as separate systems. Claim numbers refer to the claims above.
 
-1. In the Rhythm system, players tap to the beat of Nana Asma'u's poetry, learning about her life and works [1, 7]. The game invents the rhythm but uses historical evidence to inform the content.
+1. A child helps keep a verse, pattern or repeated beat steady using the Rhythm system so it can be followed clearly. This rests on claims [1, 2] as its evidence anchor; the practice verse or pattern, metre puzzle, missing beats and the child's role are game invention, not record fact.
 
-2. Using the Network system, players build the 'Yan Taru network, connecting women teachers across the Caliphate [2]. The game invents the network-building mechanics but is grounded in the historical network established by Asma'u.
+2. A child helps connect people, resources or pieces of knowledge so they reach where they are needed using the Network system. This rests on claims [1, 3] as its evidence anchor; the exact people or resources, missing links, network puzzle and the child's role are game invention, not record fact.
 
-3. In the Journal system, players document historical events and social conflicts through Asma'u's eyes, writing in her style [5, 7]. The game invents the journal entries but is inspired by Asma'u's own writings.
+3. A child helps compare accounts, objects or clues using the Observe and Match system to find what the evidence supports. This rests on claims [1, 4] as its evidence anchor; the compared materials, missing details, matching puzzle and the child's role are game invention, not record fact.
 
 ## Sensitivities
 

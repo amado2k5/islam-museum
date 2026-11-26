@@ -51,13 +51,13 @@ The atlas title is The Knight Who Wrote Down His Life. No record read supports t
 
 ## Three candidate quest premises
 
-These are proposals for Claude and the founder, not content.
+These are proposals for Claude and the founder, not content. They are deliberately conservative system scaffolding, not final quest designs. Each names one of the twelve systems in `design.md`; forms such as Measure, Journal, Care and Sail are not treated as separate systems. Claim numbers refer to the claims above.
 
-1. Players use the Rhythm system to navigate the ancient irrigation channels of the Ghuta, turning the desert into an oasis, based on the historical irrigation system [5].
+1. A child helps compare accounts, objects or clues using the Observe and Match system to find what the evidence supports. This rests on claims [1, 2] as its evidence anchor; the compared materials, missing details, matching puzzle and the child's role are game invention, not record fact.
 
-2. In the Network system, players connect historical figures like Thutmose III and Alexander the Great to Damascus, distinguishing between historical events and game elements [6, 7].
+2. A child helps gather careful answers from people affected by a small local problem using the Talk system before deciding what to do. This rests on claims [1, 3] as its evidence anchor; the speakers, dialogue, local problem, choice and the child's role are game invention, not record fact.
 
-3. The Journal system allows players to document their discoveries in Tell al-Salihiyya and Tell al-Amarna, blending historical excavation findings with fictional quests [6].
+3. A child helps connect people, resources or pieces of knowledge so they reach where they are needed using the Network system. This rests on claims [1, 4] as its evidence anchor; the exact people or resources, missing links, network puzzle and the child's role are game invention, not record fact.
 
 ## Sensitivities
 
