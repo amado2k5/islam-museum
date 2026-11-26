@@ -1,9 +1,10 @@
 // One intent from three kinds of hands: keyboard, the on-screen buttons (touch or mouse), and a gamepad. The rules
 // see only the intent; they never know which device made it.
 //
-// The keys for each action come from the settings and can be changed there. Escape always pauses. The gamepad's
-// buttons are fixed for now.
+// The keys for each action, and the gamepad's button for each, come from the settings and can be changed there.
+// Escape always pauses.
 import { DEFAULT_KEYS, type Keys } from "../save/save";
+import { DEFAULT_PAD, firstPressed, readPad, type PadMap, type PadRead } from "./pad";
 import type { Intent } from "../sim/move";
 
 export type Press = "touch" | "pause" | "next" | "back";
@@ -19,7 +20,12 @@ export class Input {
   private readonly keys = new Set<string>();
   private readonly held = { left: false, right: false, jump: false };
   private padIndex: number | null = null;
-  private padWas = { touch: false, pause: false, next: false };
+  private padWas: boolean[] = [];
+  private pad: PadRead | null = null;
+  private padMap: PadMap = DEFAULT_PAD;
+  private raf = 0;
+  /** While set, the next gamepad button pressed is handed here and does nothing else. */
+  capturePad: ((button: number) => void) | null = null;
   private readonly off: (() => void)[] = [];
   private map: Keys = DEFAULT_KEYS;
   /** While set, the next key pressed is handed here and does nothing else: the settings use it to learn a key. */
@@ -40,6 +46,9 @@ export class Input {
         return;
       }
       if (e.code === "Escape") {
+        // Inside a sheet, Escape closes that sheet and is the sheet's own business: it must not also toggle the
+        // pause from here, or one press would do two things.
+        if (el?.closest?.("[role=dialog]")) return;
         this.host.press("pause");
         return;
       }
@@ -69,7 +78,15 @@ export class Input {
     target.addEventListener("blur", blur);
     target.addEventListener("gamepadconnected", padOn);
     target.addEventListener("gamepaddisconnected", padOff);
+    // The controller is read every frame of the page, whether or not the world is moving: a talk is advanced and a
+    // pause ended from it while the scene stands still.
+    const tick = () => {
+      this.poll();
+      this.raf = target.requestAnimationFrame(tick);
+    };
+    this.raf = target.requestAnimationFrame(tick);
     this.off.push(
+      () => target.cancelAnimationFrame(this.raf),
       () => target.removeEventListener("keydown", down, true),
       () => target.removeEventListener("keyup", up),
       () => target.removeEventListener("blur", blur),
@@ -78,6 +95,34 @@ export class Input {
     );
   }
 
+  setPad(map: PadMap): void {
+    this.padMap = map;
+  }
+  /** Reads the controller once and reports what was pressed: fly is also "go on", and each press is sent once. */
+  private poll(): void {
+    const raw = this.padIndex === null ? null : (navigator.getGamepads?.()[this.padIndex] ?? null);
+    if (!raw) {
+      this.pad = null;
+      this.padWas = [];
+      return;
+    }
+    if (this.capturePad) {
+      const held = raw.buttons.map((b) => b.pressed);
+      const hit = firstPressed(held, this.padWas);
+      this.padWas = held;
+      this.pad = null;
+      if (hit !== null) {
+        const take = this.capturePad;
+        this.capturePad = null;
+        take(hit);
+      }
+      return;
+    }
+    const read = readPad(raw, this.padMap, this.padWas);
+    this.padWas = read.held;
+    this.pad = read;
+    for (const a of read.pressed) this.host.press(a === "fly" ? "next" : a);
+  }
   setKeys(map: Keys): void {
     this.map = map;
     this.keys.clear();
@@ -108,20 +153,12 @@ export class Input {
     let right = k(this.map.right) || this.held.right;
     let jump = k(this.map.fly) || this.held.jump;
     let down = k(this.map.down);
-    const pad = this.padIndex === null ? null : (navigator.getGamepads?.()[this.padIndex] ?? null);
+    const pad = this.pad;
     if (pad) {
-      const b = (i: number) => !!pad.buttons[i]?.pressed;
-      const x = pad.axes[0] ?? 0;
-      const y = pad.axes[1] ?? 0;
-      left ||= x < -0.35 || b(14);
-      right ||= x > 0.35 || b(15);
-      down ||= y > 0.6 || b(13);
-      jump ||= b(0) || b(12);
-      const now = { touch: b(2), pause: b(9), next: b(1) };
-      if (now.touch && !this.padWas.touch) this.host.press("touch");
-      if (now.pause && !this.padWas.pause) this.host.press("pause");
-      if (now.next && !this.padWas.next) this.host.press("back");
-      this.padWas = now;
+      left ||= pad.left;
+      right ||= pad.right;
+      down ||= pad.down;
+      jump ||= pad.jump;
     }
     return { dir: left === right ? 0 : left ? -1 : 1, jump, down };
   }

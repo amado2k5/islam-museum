@@ -39,7 +39,7 @@ _Captures of the running game, Chrome, 26 November 2026, made by `gaming/tools/h
 | Play to scene | about 0.4 s |
 | Textures in memory | 20 MB (Low), 45 MB (Medium), 80 MB (High) |
 | Draw calls a frame | 15 to 20 |
-| Tests | 109 of its own; 463 in the workspace, all passing |
+| Tests | 114 of its own; 468 in the workspace, all passing |
 
 ## Next
 

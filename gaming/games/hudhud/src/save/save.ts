@@ -5,6 +5,7 @@
 // aside under a quarantine key, never thrown away, and a fresh one is started; one from a newer version of the game
 // is left untouched and the game plays without saving over it.
 import type { PlayStyle } from "../content/workshop";
+import { DEFAULT_PAD, PAD_ACTIONS, type PadMap } from "../input/pad";
 
 export const SAVE_KEY = "im.hudhud.save.v1";
 export const QUARANTINE_KEY = "im.hudhud.save.quarantine";
@@ -27,6 +28,8 @@ export interface Settings {
   captions: boolean;
   /** The keys for each action, as KeyboardEvent codes. Escape always pauses and is not here. */
   keys: Keys;
+  /** The gamepad button for each action, by its index in the standard layout. */
+  pad: PadMap;
 }
 export type Action = "left" | "right" | "fly" | "down" | "touch";
 export type Keys = Record<Action, string[]>;
@@ -67,7 +70,7 @@ export interface SaveFile {
   slots: (Slot | null)[];
 }
 
-export const DEFAULT_SETTINGS: Settings = { style: "explorer", quality: "medium", reducedMotion: false, highContrast: false, textScale: 1, textSpeed: 40, volume: { ambience: 0.6, voices: 0.8, effects: 0.8 }, muted: false, captions: true, keys: DEFAULT_KEYS };
+export const DEFAULT_SETTINGS: Settings = { style: "explorer", quality: "medium", reducedMotion: false, highContrast: false, textScale: 1, textSpeed: 40, volume: { ambience: 0.6, voices: 0.8, effects: 0.8 }, muted: false, captions: true, keys: DEFAULT_KEYS, pad: DEFAULT_PAD };
 export const newSlot = (): Slot => ({ settings: structuredClone(DEFAULT_SETTINGS), keeper: { kind: 1, skin: 1, outfit: 0, hair: 3 }, quests: {}, resume: null });
 export const newSave = (): SaveFile => ({ v: SAVE_VERSION, slot: 0, slots: [newSlot(), null, null] });
 
@@ -75,6 +78,17 @@ const isObj = (x: unknown): x is Record<string, unknown> => typeof x === "object
 const clamp = (x: unknown, lo: number, hi: number, d: number) => (typeof x === "number" && Number.isFinite(x) ? Math.min(hi, Math.max(lo, x)) : d);
 const oneOf = <T extends string>(x: unknown, all: readonly T[], d: T): T => (all.includes(x as T) ? (x as T) : d);
 const bool = (x: unknown, d: boolean) => (typeof x === "boolean" ? x : d);
+
+function readPadMap(x: unknown): PadMap {
+  if (!isObj(x)) return { ...DEFAULT_PAD };
+  const out = {} as PadMap;
+  for (const a of PAD_ACTIONS) {
+    const v = x[a];
+    if (typeof v !== "number" || !Number.isInteger(v) || v < 0 || v > 31) return { ...DEFAULT_PAD };
+    out[a] = v;
+  }
+  return new Set(Object.values(out)).size === PAD_ACTIONS.length ? out : { ...DEFAULT_PAD };
+}
 
 function readSlot(x: unknown): Slot | null {
   if (!isObj(x)) return null;
@@ -108,6 +122,7 @@ function readSlot(x: unknown): Slot | null {
       muted: bool(s.muted, false),
       captions: bool(s.captions, true),
       keys: sound ? keys : structuredClone(DEFAULT_KEYS),
+      pad: readPadMap(s.pad),
     },
     keeper: { kind: Math.floor(clamp(k.kind, 0, 1, 1)), skin: Math.floor(clamp(k.skin, 0, 3, 1)), outfit: Math.floor(clamp(k.outfit, 0, 2, 0)), hair: Math.floor(clamp(k.hair, 0, 3, 0)) },
     quests,

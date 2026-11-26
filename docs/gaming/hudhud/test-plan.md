@@ -6,19 +6,19 @@ _26 November 2026. What was run is listed with its result. What was not run is l
 
 | Check | Result |
 |---|---|
-| `npm --prefix gaming test` | **26 files, 463 tests, all pass** (109 are Hudhud's own, in seven files; the two shared tests of labels and review marks now cover four games) |
+| `npm --prefix gaming test` | **27 files, 468 tests, all pass** (114 are Hudhud's own, in eight files; the two shared tests of labels and review marks now cover four games) |
 | `npm --prefix gaming run typecheck` | pass |
-| `npm --prefix gaming run strings` | pass: Hudhud 7 languages, 190 strings, and 60 names of worlds and subjects |
+| `npm --prefix gaming run strings` | pass: Hudhud 7 languages, 194 strings, and 60 names of worlds and subjects |
 | `npm --prefix gaming run build:release` | pass: four games; Hudhud 1,456,166 bytes of script, 7,238 of style |
 | `npm --prefix gaming run check:release -- --allow-dirty` | pass: the release matches its manifest |
 | `npm --prefix gaming run release:smoke` | pass: all four games start in Arabic and English behind the Worker's own headers; no policy violation, no request to another origin |
 | `node --test workers/games/test/*.test.mjs` | **38 tests, all pass** |
 | `gaming/tools/hudhud-play.ts`, seven runs | all pass with no console error: en at Low, Medium and High (1920×1080), en Challenge (1280×800), ar (1280×800), ur Story (390×844), id (844×390) |
 | `gaming/tools/hudhud-rebuild.ts 12 medium` | memory level after twelve rebuilds |
-| `gaming/tools/hudhud-checks.ts` | twelve checks pass in Chrome (the ten below, and: a tab opened earlier takes up what another tab saved and wipes nothing; the skip link lands on the game): a quest left in the middle comes back after the page is loaded again; a finished quest is recorded and not offered as unfinished; a key given to an action works and is remembered; a redraw keeps the quest; with WebGL refused the quest is finished from the list in words; a page closed in the middle of a talk keeps the last step; each save slot keeps its own place; the Atlas shows ten worlds and fifty pages and one comes home, in English and in Arabic |
+| `gaming/tools/hudhud-checks.ts` | fifteen checks pass in Chrome (the ten below, and: a tab opened earlier takes up what another tab saved and wipes nothing; the skip link lands on the game; pause and go on in seven ways, after each of which the game still answers; the explorer is the same in the settings and on the Atlas before a quest, after one and after a reload; a stand-in controller goes on and back in a talk, pauses and flies): a quest left in the middle comes back after the page is loaded again; a finished quest is recorded and not offered as unfinished; a key given to an action works and is remembered; a redraw keeps the quest; with WebGL refused the quest is finished from the list in words; a page closed in the middle of a talk keeps the last step; each save slot keeps its own place; the Atlas shows ten worlds and fifty pages and one comes home, in English and in Arabic |
 | The museum's `npm run validate`, `npm test`, `npm run build` | **not run**: no museum file (`data/`, `content/`, `site/`, `i18n/`, `schema/`) is changed; the games' rule sends a change confined to the games to the games' suite |
 
-## What the 109 tests hold
+## What the 114 tests hold
 
 | The instruction asks (section 12) | Test | State |
 |---|---|---|
@@ -30,7 +30,7 @@ _26 November 2026. What was run is listed with its result. What was not run is l
 | Dialogue conditions, choices, keys, no invented quotation | `dialogue.gtest.ts` | held in seven languages. RTL layout is checked by capture, not by a test |
 | Save round trip, corruption, newer save, no storage, slots | `save.gtest.ts` | held. Migration "from every released version": nothing is released, so the table is empty and a test requires it to be filled when a version is added |
 | Scene lifecycle and disposal, pause, context loss | `hudhud-play.ts`, `hudhud-rebuild.ts` | exercised in the browser, not asserted by a unit test |
-| Keyboard, touch, gamepad, remapping | `hudhud-play.ts`, `hudhud-checks.ts` | keyboard and key remapping exercised; the on-screen buttons and tapping a mirror are not driven by a tool; gamepad untested and its buttons fixed |
+| Keyboard, touch, gamepad, remapping | `hudhud-play.ts`, `hudhud-checks.ts`, `pad.gtest.ts` | keyboard and key remapping exercised; the gamepad layout and its remapping tested as rules and through a stand-in for the browser's gamepad interface; **no physical controller has been connected**; the on-screen buttons and tapping a mirror are not driven by a tool |
 | Reduced motion, contrast, text size, non-colour clues | — | built; **no test or capture exercises them yet** |
 | Release holds the game, status truthful, checksums | `build.ts`, `check-release.mjs`, `prototype-labels.gtest.ts`, `release-smoke.ts` | held |
 | Website Play routes and menu | — | not built ([plan](website-plan.md)) |
@@ -74,3 +74,7 @@ _26 November 2026. What was run is listed with its result. What was not run is l
 | D7 | On a phone held sideways the title bar takes the first screen and the picture is one scroll down; "Full screen" helps where the browser has it |
 | D8 | Moods change only the crest and an arm; faces do not change expression |
 | D9 | The settings sheet's "Text speed" reuses the word for the Medium effects preset as its middle option |
+| D10 | Fixed 26 November 2026, found by an independent play of UAT: after pausing and going on from the toolbar the game stayed frozen (a flag for "a sheet is open" was left set). Pausing is now one function and "a sheet is open" is read from the page |
+| D11 | Fixed the same day, same source: an explorer changed in Settings was not shown on the Atlas until its own button was pressed. Every change now redraws the Atlas's choice |
+| D12 | Fixed the same day, same source: the controller could not advance a talk (it was read only while the world moved, and its "next" button was sent as "back"). Found while fixing it and also fixed: Escape inside a sheet both closed the sheet and toggled the pause |
+| D13 | Open: while the pause sheet is up it covers the toolbar, so a mouse cannot reach the toolbar's own "Go on"; the sheet's button, Escape and the keyboard all work |
