@@ -19,7 +19,7 @@ import { drawMap, setMapGhost } from "./map";
 import { drawRegion, regionView, type RegionLayer, type RegionView } from "./region";
 import type { Stage } from "./stage";
 import { ESTATE, MARKET, STORE, heightAt } from "../view/valley";
-import { advice, chainView, foodToSpare, seasonFigures, warnings, catalogueRows, decisionRows, effectRows, fieldCards, marketRows, tradeView, questRows, riverOfYear, skyAhead, stocks, workRows, yesterday, type FieldCard, type WorkRow } from "./model";
+import { advice, carryOver, chainView, foodToSpare, seasonFigures, warnings, catalogueRows, decisionRows, effectRows, fieldCards, marketRows, tradeView, questRows, riverOfYear, skyAhead, stocks, workRows, yesterday, type FieldCard, type WorkRow } from "./model";
 
 type Strings = Record<Exclude<keyof typeof en, "_meta">, string>;
 const LANGS = ["ar", "en", "ur", "fr", "es", "tr", "id"] as const;
@@ -1128,12 +1128,15 @@ async function main(): Promise<void> {
   function showOutcome(): void {
     const o = state.outcome;
     if (!o) return;
+    const carry = carryOver(sc, state);
     const why = (r: string) => (tasksOf(sc).some((x) => x.id === r) ? t(r) : r === "welfare" ? t("reason_welfare", { n: sc.goal.welfare }) : r === "households" ? t("reason_households") : t("reason_reserve", { n: sc.goal.reserveDays }));
     const d = dialog(
       `outcome ${o.won ? "won" : "lost"}`,
       h("h2", { id: "outcome-title" }, o.won ? t("outcome_won") : t("outcome_lost")),
       h("p", { class: "score" }, t("outcome_score", { score: o.score })),
       !o.won && h("div", {}, h("p", {}, t("outcome_reasons")), h("ul", {}, ...o.reasons.map((r) => h("li", {}, why(r))))),
+      // What goes on into the next year, said before the choice is made.
+      o.won && carry && h("p", { id: "carry", class: "note" }, `${t("outcome_carry", { households: carry.households, dinars: num(carry.dinars), days: carry.foodDays })} ${carry.sown.length ? t("outcome_carry_sown", { fields: carry.sown.map((id) => fieldName(id)).join(", ") }) : t("outcome_carry_unsown")}`),
       h(
         "div",
         { class: "actions" },

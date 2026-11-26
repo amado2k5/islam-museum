@@ -12,6 +12,7 @@
  "onEveryRelease": [
   "npx tsx --tsconfig tsconfig.json tools/release-regression.ts <host> <out dir>",
   "npx tsx --tsconfig tsconfig.json tools/uat-check.ts <host> ar <out dir>",
+  "npx tsx --tsconfig tsconfig.json tools/granada-uat.ts <host> en <out dir>, and again with ar",
   "npm test (the rules tests ran in the build that made the release)"
  ],
  "scenarios": [
@@ -521,6 +522,18 @@
    "by": "release-regression.ts reads the words off Granada's brief, The Golden Age's brief and Atlas's reveal in English; review-mark.gtest.ts holds them in all seven languages",
    "missing": "Read on the host in English only",
    "why": "The founder's rule of 26 November 2026. It is the museum's own scenario, not one of the reviewer's"
+  },
+  {
+   "id": "GR-HOST",
+   "game": "Granada",
+   "asks": "The systems a release carries work on the host itself, under its own headers: the contract, the oil's road, a building placed and refused, the region, the warnings, the decision, Photo Mode's saved picture, the second year, an empty console",
+   "covered": "yes",
+   "how": [
+    "host"
+   ],
+   "by": "granada-uat.ts, in a fresh browser context; a system the live release does not have is reported as absent, not as a failure",
+   "missing": "Chrome only; one machine",
+   "why": "Added 26 November 2026: the scripted play of these systems runs against the developer's own server, and the host's content-security policy is stricter than that server's"
   }
  ]
 }

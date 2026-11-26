@@ -560,6 +560,7 @@ if (!(await page.locator("dialog.outcome.won[open]").count())) await fail("no ou
 await shot("10-outcome");
 // ---- On to the second year: the valley as it stands, a new year's title, brief, tasks and offers ----
 if ((await page.locator("#go-on").count()) !== 1) await fail("a won first year does not offer the second");
+if ((await page.locator("#carry").count()) !== 1) await fail("a won first year does not say what goes on into the second");
 const carried = await game<{ households: number; treasury: number; placed: number; capacity: number }>("(() => { const s = window.__GR__.state(); return { households: s.households, treasury: s.economy.treasury.available, placed: s.placed.length, capacity: s.economy.capacity }; })()");
 await page.locator("#go-on").click();
 const two = await game<{ year: number; day: number; scenario: string; households: number; treasury: number; placed: number; capacity: number; outcome: unknown; quests: string[] }>("(() => { const s = window.__GR__.state(); return { year: s.year, day: s.day, scenario: s.scenario, households: s.households, treasury: s.economy.treasury.available, placed: s.placed.length, capacity: s.economy.capacity, outcome: s.outcome, quests: Object.keys(s.quests) }; })()");
