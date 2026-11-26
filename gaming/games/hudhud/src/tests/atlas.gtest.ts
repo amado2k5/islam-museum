@@ -80,4 +80,12 @@ describe("the 80 thumbnails and the 50 subjects", () => {
     const ignore = readFileSync(resolve(repo, "gaming", ".gitignore"), "utf8");
     expect(ignore).toMatch(/^media\/$/m);
   });
+  it("names every world and every subject in all seven languages, in a table of their own", () => {
+    for (const lang of ["ar", "en", "ur", "fr", "es", "tr", "id"]) {
+      const names = JSON.parse(readFileSync(resolve(repo, "gaming", "games", "hudhud", "i18n-atlas", `${lang}.json`), "utf8")) as Record<string, string>;
+      for (const w of atlas.worlds) expect(names[`world_${w.order}`]?.trim().length, `${lang} world ${w.order}`).toBeGreaterThan(2);
+      for (const s of atlas.subjects) expect(names[`s_${s.id.replace(/-/g, "_")}`]?.trim().length, `${lang} ${s.id}`).toBeGreaterThan(2);
+      expect(Object.keys(names)).toHaveLength(61);
+    }
+  });
 });

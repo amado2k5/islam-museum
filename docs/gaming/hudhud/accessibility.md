@@ -9,9 +9,9 @@ _26 November 2026. A matrix of the instruction's sections 6 and 9 against the go
 | Whole scene playable by keyboard, no trap | **done** | arrows or A and D, Space, the down arrow, E or Enter, Escape; `hudhud-play.ts` flies and talks by keyboard; sheets keep Tab inside and close on Escape |
 | Playable without the picture | **done** | "The scene in words": the beam's path as a sentence in a polite live region, a button to turn each mirror with its lean in words, a button to go to each thing; conversation is page text with a live announcement of each line |
 | Pointer and touch, 44×44 px targets | **done** for the controls; **partly** for the picture | every button is at least 44 px (48 on a phone); tapping a mirror turns it; other things in the picture are reached with the Touch button when near, or from the list |
-| Narrow and tablet layouts | **partly** | captured at 390×844 (the goal above, the talk below the picture) and 844×390; playable, but a phone held upright shows a small picture and there is no full-screen mode yet |
+| Narrow and tablet layouts | **partly** | captured at 390×844 (the goal above, the talk below the picture) and 844×390; playable, but a phone held upright shows a small picture. A "Full screen" button fills the screen where the browser allows a page to (not on an iPhone); it was built and not exercised by a tool |
 | Gamepad, with reconnect | **partly, not tested with a device** | stick or pad to move, button to fly, to touch, to pause; a disconnect pauses and says so; code only: no gamepad was connected in any run |
-| Remapping of keys and buttons | **not done** | planned for the slice |
+| Remapping of keys | **done for the keyboard** | Settings, "Keys": each action shows its keys; press its button, then a key; a key does one thing only; "put the keys back"; saved. `hudhud-checks.ts` gives J to flying and flies with it. Gamepad buttons are fixed |
 | Visible focus | **done** | 3 px white outline with a dark halo on every control |
 | High-contrast mode | **done, not measured** | a setting: black panels, white lines; contrast ratios have not been measured with a tool |
 | Clues that do not depend on colour | **done** | a mirror's lean is shape and words; the beam's end is said in words; goals are words with a mark; Story's hint is a glow plus a sentence |
@@ -41,7 +41,7 @@ _26 November 2026. A matrix of the instruction's sections 6 and 9 against the go
 
 | | State |
 |---|---|
-| Seven languages, same keys, same order, same placeholders | **done**: `npm --prefix gaming run strings` (170 strings), plus a test of every script against every table |
+| Seven languages, same keys, same order, same placeholders | **done**: `npm --prefix gaming run strings` (190 strings and 60 names), plus a test of every script against every table |
 | Right to left | **done**: Arabic and Urdu mirror the page; the picture, the beam and the arrow buttons are not mirrored. Captured in both |
 | No honorific typed; no bare parenthesis round Arabic script | **done**: the string check; the Arabic and Urdu tables use no parentheses at all |
 | Truncation at 1280×800 and narrow | **looked at, not exhaustive**: captures in ar, ur and id show no cut text in the talk, the goal or the buttons; the settings sheet was not captured in every language |

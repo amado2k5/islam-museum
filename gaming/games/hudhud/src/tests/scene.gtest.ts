@@ -3,7 +3,7 @@
 import { describe, expect, it } from "vitest";
 import { SCRIPTS, THINGS, type PlayStyle } from "../content/workshop";
 import { solve } from "../sim/light";
-import { apply, beam, goals, newScene, replay, type Command, type SceneState } from "../sim/scene";
+import { apply, beam, goals, newScene, replay, restore, snapshot, type Command, type SceneState } from "../sim/scene";
 
 const skip: Command = { type: "skip" };
 const touch = (id: string): Command => ({ type: "touch", id });
@@ -100,5 +100,30 @@ describe("the golden scene", () => {
   it("replays to the same end from the same commands", () => {
     const cs: Command[] = [skip, touch("mirror-a"), touch("cat"), skip, touch("mirror-c"), touch("cord"), skip];
     expect(replay("explorer", cs)).toEqual(replay("explorer", cs));
+  });
+  it("comes back from a snapshot as it was left, with control in the player's hands", () => {
+    let s = play(newScene("challenge"), [skip, touch("mirror-a"), touch("cat"), skip, touch("cord"), skip]);
+    const back = restore(JSON.parse(JSON.stringify(snapshot(s))))!;
+    expect(back.puzzle).toEqual(s.puzzle);
+    expect({ turns: back.turns, flags: back.flags, restored: back.restored, dark: back.dark, style: back.style, par: back.par }).toEqual({ turns: 1, flags: ["metCat", "secret"], restored: false, dark: true, style: "challenge", par: 5 });
+    expect(back.talk).toBeNull();
+    // A snapshot taken in the middle of a talk comes back without the talk: nobody returns to a sentence half said.
+    s = apply(s, touch("scholar")).state;
+    expect(restore(snapshot(s))!.talk).toBeNull();
+    // And the quest can still be finished from there.
+    const end = play(back, [...solveIt(back), touch("page")]);
+    expect(end.done).toBe(true);
+  });
+  it("trusts nothing in a snapshot it cannot check", () => {
+    const good = snapshot(play(newScene("explorer"), [skip, touch("mirror-a")]));
+    expect(restore(good)).not.toBeNull();
+    for (const bad of [null, 7, "x", {}, { ...good, style: "god" }, { ...good, leans: { a: "/" } }, { ...good, leans: { ...good.leans, c: "|" } }, { ...good, turns: -1 }, { ...good, turns: 1.5 }, { ...good, flags: "all" }, { ...good, restored: "yes" }, { ...good, dark: 1 }]) expect(restore(bad), JSON.stringify(bad)).toBeNull();
+    // Flags it does not know are dropped; the ink cannot be back before enough mirrors were turned.
+    expect(restore({ ...good, flags: ["metCat", "wonTheGame"] })!.flags).toEqual(["metCat"]);
+    expect(restore({ ...good, restored: true, turns: 1 })).toBeNull();
+    // A lit page always has its ink, whatever the file says.
+    const lit = play(newScene("explorer"), [skip]);
+    const solved = snapshot(play(lit, solveIt(lit)));
+    expect(restore({ ...solved, restored: false })!.restored).toBe(true);
   });
 });

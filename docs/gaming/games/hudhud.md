@@ -4,6 +4,10 @@ _26 November 2026. Release status: **prototype**. Working title. Instruction, pl
 
 ## What exists
 
+The game opens on **the Atlas**: a page that names the ten worlds and their fifty subjects in seven languages, says how many pages are home, and lets the player choose a girl or a boy explorer. One quest can be played from it; the other forty-nine are named and marked "Not built yet", and the two that are story tradition say so. A finished quest returns to the Atlas with its page home.
+
+![The Atlas](../evidence/hudhud/golden-scene/atlas-en.webp)
+
 One scene of a few minutes, the "golden scene" the founder's instruction asks for before any art is made in number: Ibn al-Haytham's light workshop, opening on a garden and a town at evening.
 
 You play Hudhud, an orange hoopoe. A page of the Atlas of Stories has blown into a dark room and its ink has gone pale. One thin beam of evening light comes in by a hole in the shutter. Fly to the mirrors and turn them until the beam, turned five times and spread by a prism, reaches the page. On the way you can talk to the scholar and ask him for more, greet the cat, pull the curtain's cord to make the room a dark room and see the town appear upside down on the wall, and find a feather in the garden. At the page, the quest ends with three goals (Curiosity, Ingenuity, Kindness) and a museum note with links to the museum's records.
@@ -35,8 +39,8 @@ _Captures of the running game, Chrome, 26 November 2026, made by `gaming/tools/h
 | Play to scene | about 0.4 s |
 | Textures in memory | 20 MB (Low), 45 MB (Medium), 80 MB (High) |
 | Draw calls a frame | 15 to 20 |
-| Tests | 93 of its own; 447 in the workspace, all passing |
+| Tests | 99 of its own; 453 in the workspace, all passing |
 
 ## Next
 
-Nothing in number until the founder's word on the look. Then the vertical slice of the instruction's Phase 2: a prologue and the Atlas hub, this quest finished, al-Jazari's clock, Ibn Battuta's road, the Monkey and the Tortoise. Before it: checkpoints inside a quest, remapping, a full-screen phone layout, the room's texture cut in two, the Arabic written first.
+Nothing in number until the founder's word on the look. Then the vertical slice of the instruction's Phase 2: a prologue and the Atlas hub, this quest finished, al-Jazari's clock, Ibn Battuta's road, the Monkey and the Tortoise. Done since the first pull request: a quest left in the middle is kept, keys can be changed, and there is a full-screen button. Still before the slice: the room's texture cut in two, the Arabic written first.

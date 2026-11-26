@@ -1,7 +1,9 @@
 // One intent from three kinds of hands: keyboard, the on-screen buttons (touch or mouse), and a gamepad. The rules
 // see only the intent; they never know which device made it.
 //
-// Not here yet, and said so in the plan (docs/gaming/hudhud/accessibility.md): remapping of keys and buttons.
+// The keys for each action come from the settings and can be changed there. Escape always pauses. The gamepad's
+// buttons are fixed for now.
+import { DEFAULT_KEYS, type Keys } from "../save/save";
 import type { Intent } from "../sim/move";
 
 export type Press = "touch" | "pause" | "next" | "back";
@@ -12,11 +14,6 @@ export interface InputHost {
   pad(connected: boolean): void;
 }
 
-const LEFT = ["ArrowLeft", "KeyA"];
-const RIGHT = ["ArrowRight", "KeyD"];
-const JUMP = ["Space", "ArrowUp", "KeyW"];
-const DOWN = ["ArrowDown", "KeyS"];
-const TOUCH = ["KeyE", "Enter"];
 
 export class Input {
   private readonly keys = new Set<string>();
@@ -24,21 +21,34 @@ export class Input {
   private padIndex: number | null = null;
   private padWas = { touch: false, pause: false, next: false };
   private readonly off: (() => void)[] = [];
+  private map: Keys = DEFAULT_KEYS;
+  /** While set, the next key pressed is handed here and does nothing else: the settings use it to learn a key. */
+  capture: ((code: string) => void) | null = null;
 
   constructor(private readonly host: InputHost, private readonly target: Window = window) {
     const down = (e: KeyboardEvent) => {
       // Keys typed into a form control, or pressed on a button, belong to that control.
       const el = e.target as HTMLElement | null;
       const inControl = !!el && /^(INPUT|SELECT|TEXTAREA|BUTTON|SUMMARY|A)$/.test(el.tagName);
+      if (this.capture) {
+        const take = this.capture;
+        this.capture = null;
+        e.preventDefault();
+        e.stopPropagation();
+        // Escape and Tab are never given to an action: they cancel.
+        if (e.code !== "Escape" && e.code !== "Tab") take(e.code);
+        return;
+      }
       if (e.code === "Escape") {
         this.host.press("pause");
         return;
       }
       if (inControl) return;
-      if ([...LEFT, ...RIGHT, ...JUMP, ...DOWN].includes(e.code)) e.preventDefault();
+      const m = this.map;
+      if ([...m.left, ...m.right, ...m.fly, ...m.down].includes(e.code)) e.preventDefault();
       if (e.repeat) return;
       this.keys.add(e.code);
-      if (TOUCH.includes(e.code)) this.host.press("touch");
+      if (m.touch.includes(e.code)) this.host.press("touch");
     };
     const up = (e: KeyboardEvent) => this.keys.delete(e.code);
     const blur = () => {
@@ -54,18 +64,23 @@ export class Input {
       this.padIndex = null;
       this.host.pad(false);
     };
-    target.addEventListener("keydown", down);
+    target.addEventListener("keydown", down, true);
     target.addEventListener("keyup", up);
     target.addEventListener("blur", blur);
     target.addEventListener("gamepadconnected", padOn);
     target.addEventListener("gamepaddisconnected", padOff);
     this.off.push(
-      () => target.removeEventListener("keydown", down),
+      () => target.removeEventListener("keydown", down, true),
       () => target.removeEventListener("keyup", up),
       () => target.removeEventListener("blur", blur),
       () => target.removeEventListener("gamepadconnected", padOn),
       () => target.removeEventListener("gamepaddisconnected", padOff),
     );
+  }
+
+  setKeys(map: Keys): void {
+    this.map = map;
+    this.keys.clear();
   }
 
   /** Makes a button on the page hold a direction or the jump for as long as it is pressed. */
@@ -89,10 +104,10 @@ export class Input {
   /** What the player wants this frame. Reads the gamepad, and reports its single presses. */
   intent(): Intent {
     const k = (codes: string[]) => codes.some((c) => this.keys.has(c));
-    let left = k(LEFT) || this.held.left;
-    let right = k(RIGHT) || this.held.right;
-    let jump = k(JUMP) || this.held.jump;
-    let down = k(DOWN);
+    let left = k(this.map.left) || this.held.left;
+    let right = k(this.map.right) || this.held.right;
+    let jump = k(this.map.fly) || this.held.jump;
+    let down = k(this.map.down);
     const pad = this.padIndex === null ? null : (navigator.getGamepads?.()[this.padIndex] ?? null);
     if (pad) {
       const b = (i: number) => !!pad.buttons[i]?.pressed;
