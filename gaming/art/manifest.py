@@ -20,6 +20,9 @@ ASSETS = [
     {"id": "granada/mill", "game": "granada", "title": "The watermill", "script": "blender/granada_mill.py", "folder": "granada/2", "entry": "mill.gltf"},
     {"id": "granada/town", "game": "granada", "title": "The town's kit: four houses, a wall, a tower, a gate, scaffolding, a stall", "script": "blender/granada_town.py", "folder": "granada/2", "entry": "town.gltf", "kit": "town.kit.json"},
     {"id": "granada/landmarks", "game": "granada", "title": "The larger pieces: a palace for the hill, an estate, a builders' crane", "script": "blender/granada_landmarks.py", "folder": "granada/2", "entry": "landmarks.gltf", "kit": "landmarks.kit.json"},
+    {"id": "granada/mill-3", "game": "granada", "title": "The watermill, finished set 3", "script": "blender/granada_mill.py", "folder": "granada/3", "entry": "mill.gltf"},
+    {"id": "granada/town-3", "game": "granada", "title": "The town's kit, finished set 3: four houses, a wall, a tower, a gate, scaffolding, a stall", "script": "blender/granada_town.py", "folder": "granada/3", "entry": "town.gltf", "kit": "town.kit.json"},
+    {"id": "granada/landmarks-3", "game": "granada", "title": "The larger pieces, finished set 3: a palace for the hill, an estate, a builders' crane", "script": "blender/granada_landmarks.py", "folder": "granada/3", "entry": "landmarks.gltf", "kit": "landmarks.kit.json"},
 ]
 SOURCES = HERE / "sources.json"
 

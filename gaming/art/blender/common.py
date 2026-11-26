@@ -12,6 +12,7 @@ asset's origin is on the ground at its centre; a moving part is its own object, 
 import hashlib
 import math
 import os
+import struct
 
 import bmesh
 import bpy
@@ -283,7 +284,7 @@ def make_materials(texture_sets):
         links.new(normal.outputs["Color"], bump.inputs["Color"])
         links.new(bump.outputs["Normal"], bsdf.inputs["Normal"])
         materials[name] = m
-    for name, colour, rough, metal in [("iron", (0.05, 0.05, 0.055, 1), 0.55, 0.9), ("water", (0.03, 0.17, 0.2, 1), 0.08, 0.0), ("dark", (0.02, 0.018, 0.016, 1), 0.9, 0.0)]:
+    for name, colour, rough, metal in [("iron", (0.05, 0.05, 0.055, 1), 0.55, 0.9), ("water", (0.03, 0.17, 0.2, 1), 0.08, 0.0), ("dark", (0.02, 0.018, 0.016, 1), 0.9, 0.0), ("cloth", (0.62, 0.47, 0.3, 1), 0.88, 0.0), ("cloth_red", (0.46, 0.12, 0.08, 1), 0.86, 0.0), ("clay", (0.42, 0.2, 0.1, 1), 0.82, 0.0)]:
         m = bpy.data.materials.new(name)
         m.use_nodes = True
         bsdf = m.node_tree.nodes["Principled BSDF"]
@@ -292,6 +293,16 @@ def make_materials(texture_sets):
         bsdf.inputs["Metallic"].default_value = metal
         materials[name] = m
     return materials
+
+
+def _ordered_unique(items):
+    """Items in first-seen order: deterministic even when Python's hash seed changes between Blender runs."""
+    out, seen = [], set()
+    for item in items:
+        if item not in seen:
+            seen.add(item)
+            out.append(item)
+    return out
 
 
 # ------------------------------------------------------------------- parts ----
@@ -312,7 +323,7 @@ class Part:
         return self.slots.index(material)
 
     def _finish(self, verts, material, loc, rot, grain):
-        faces = {f for v in verts for f in v.link_faces}
+        faces = _ordered_unique(f for v in verts for f in v.link_faces)
         tile = TILE.get(material, 1.0)
         self.count += 1
         # A different place on the texture for every piece, so that no two pieces show the same patch.
@@ -347,9 +358,9 @@ class Part:
         for v in made:
             v.co = Vector((v.co.x * size[0], v.co.y * size[1], v.co.z * size[2]))
         if bevel > 0 and min(size) > bevel * 3:
-            edges = list({e for v in made for e in v.link_edges})
+            edges = _ordered_unique(e for v in made for e in v.link_edges)
             result = bmesh.ops.bevel(self.bm, geom=edges, offset=bevel, segments=1, affect="EDGES", profile=0.5)
-            made = list({v for v in made if v.is_valid} | set(result.get("verts", [])))
+            made = _ordered_unique([v for v in made if v.is_valid] + list(result.get("verts", [])))
         if grain == "long":
             grain = max(range(3), key=lambda i: size[i])
         self._finish(made, material, loc, rot, grain)
@@ -381,7 +392,9 @@ class Part:
         (collection or bpy.context.scene.collection).objects.link(obj)
         # Every face becomes triangles when the modifiers are applied, so that tangents can be worked out for the
         # normal maps and the game is handed the triangles the preview was lit with.
-        obj.modifiers.new("triangles", "TRIANGULATE")
+        triangulate = obj.modifiers.new("triangles", "TRIANGULATE")
+        triangulate.quad_method = "FIXED"
+        triangulate.ngon_method = "CLIP"
         return obj
 
 
@@ -404,6 +417,180 @@ def cut(target, cutter):
     cutter["cutter"] = True
 
 
+def _copy_materials_and_uv(obj, source, mesh, faces, face_materials, vertex_uvs):
+    for material in obj.data.materials:
+        mesh.materials.append(material)
+    uv = mesh.uv_layers.new(name="UVMap")
+    for polygon, material_index in zip(mesh.polygons, face_materials):
+        polygon.material_index = material_index
+        polygon.use_smooth = False
+        for loop_index in polygon.loop_indices:
+            uv.data[loop_index].uv = vertex_uvs[mesh.loops[loop_index].vertex_index]
+
+
+def _face_area(vertices, face):
+    x = y = z = 0.0
+    for index, vertex in enumerate(face):
+        a = vertices[vertex]
+        b = vertices[face[(index + 1) % len(face)]]
+        x += a[1] * b[2] - a[2] * b[1]
+        y += a[2] * b[0] - a[0] * b[2]
+        z += a[0] * b[1] - a[1] * b[0]
+    return 0.5 * math.sqrt(x * x + y * y + z * z)
+
+
+def _valid_face(vertices, face):
+    return len(face) >= 3 and len(set(face)) == len(face) and _face_area(vertices, face) > 1e-12
+
+
+def canonicalize_faces(obj):
+    """Rebuilds the evaluated, still-untriangulated mesh in a fixed face and vertex order.
+
+    Boolean and bevel operations can number the same vertices differently between Blender processes. This keeps
+    their polygons but sorts every face's corner cycle by position and UV, then adds back one fixed triangulation
+    modifier. Triangulation therefore sees identical input rather than merely identical-looking input.
+    """
+    triangulating = []
+    for modifier in obj.modifiers:
+        if modifier.type == "TRIANGULATE":
+            triangulating.append((modifier, modifier.show_viewport))
+            modifier.show_viewport = False
+    bpy.context.view_layer.update()
+    graph = bpy.context.evaluated_depsgraph_get()
+    evaluated = obj.evaluated_get(graph)
+    source = evaluated.to_mesh()
+    uv_layer = source.uv_layers.active
+
+    keys, key_index, raw_faces, face_materials = [], {}, [], []
+    for polygon in source.polygons:
+        raw = []
+        for loop_index in polygon.loop_indices:
+            loop = source.loops[loop_index]
+            co = source.vertices[loop.vertex_index].co
+            uv_loop = uv_layer.data[loop_index].uv if uv_layer else Vector((0.0, 0.0))
+            key = (co.x, co.y, co.z, uv_loop.x, uv_loop.y)
+            if key not in key_index:
+                key_index[key] = len(keys)
+                keys.append(key)
+            raw.append(key)
+        smallest = raw.index(min(raw))
+        raw_faces.append(tuple(raw[smallest:] + raw[:smallest]))
+        face_materials.append(polygon.material_index)
+
+    ordered_keys = sorted(keys)
+    remap = {key: i for i, key in enumerate(ordered_keys)}
+    vertices = [key[:3] for key in ordered_keys]
+    vertex_uvs = [key[3:] for key in ordered_keys]
+    faced = []
+    for raw, material_index in zip(raw_faces, face_materials):
+        face = tuple(remap[key] for key in raw)
+        if _valid_face(vertices, face):
+            faced.append((face, material_index))
+    faces = [face for face, _ in faced]
+    face_materials = [material_index for _, material_index in faced]
+    order = sorted(range(len(faces)), key=lambda i: (faces[i], face_materials[i]))
+    faces = [faces[i] for i in order]
+    face_materials = [face_materials[i] for i in order]
+
+    mesh = bpy.data.meshes.new(obj.data.name)
+    mesh.from_pydata(vertices, [], faces)
+    mesh.update()
+    _copy_materials_and_uv(obj, source, mesh, faces, face_materials, vertex_uvs)
+    evaluated.to_mesh_clear()
+    for modifier, was in triangulating:
+        modifier.show_viewport = was
+
+    old = obj.data
+    obj.data = mesh
+    for modifier in list(obj.modifiers):
+        obj.modifiers.remove(modifier)
+    triangulate = obj.modifiers.new("triangles", "TRIANGULATE")
+    triangulate.quad_method = "FIXED"
+    triangulate.ngon_method = "CLIP"
+    if old.users == 0:
+        bpy.data.meshes.remove(old)
+
+
+def canonicalize_object(obj):
+    """Rebuilds one object's evaluated triangles in a fixed vertex and triangle order."""
+    bpy.context.view_layer.update()
+    graph = bpy.context.evaluated_depsgraph_get()
+    evaluated = obj.evaluated_get(graph)
+    source = evaluated.to_mesh()
+    source.calc_loop_triangles()
+    uv_layer = source.uv_layers.active
+
+    keys, triangles = [], []
+    key_index = {}
+    for tri in source.loop_triangles:
+        raw = []
+        for loop_index in tri.loops:
+            loop = source.loops[loop_index]
+            co = source.vertices[loop.vertex_index].co
+            uv_loop = uv_layer.data[loop_index].uv if uv_layer else Vector((0.0, 0.0))
+            key = (co.x, co.y, co.z, uv_loop.x, uv_loop.y)
+            if key not in key_index:
+                key_index[key] = len(keys)
+                keys.append(key)
+            raw.append(key_index[key])
+        triangles.append((raw, tri.material_index))
+
+    ordered_keys = sorted(keys)
+    remap = {key_index[key]: i for i, key in enumerate(ordered_keys)}
+    vertices = [key[:3] for key in ordered_keys]
+    vertex_uvs = [key[3:] for key in ordered_keys]
+    faces, face_materials = [], []
+    for raw, material_index in triangles:
+        face = [remap[i] for i in raw]
+        smallest = face.index(min(face))
+        face = tuple(face[smallest:] + face[:smallest])
+        if _valid_face(vertices, face):
+            faces.append(face)
+            face_materials.append(material_index)
+    order = sorted(range(len(faces)), key=lambda i: (faces[i], face_materials[i]))
+    faces = [faces[i] for i in order]
+    face_materials = [face_materials[i] for i in order]
+
+    mesh = bpy.data.meshes.new(obj.data.name)
+    mesh.from_pydata(vertices, [], faces)
+    mesh.update()
+    _copy_materials_and_uv(obj, source, mesh, faces, face_materials, vertex_uvs)
+    evaluated.to_mesh_clear()
+
+    old = obj.data
+    obj.data = mesh
+    for modifier in list(obj.modifiers):
+        obj.modifiers.remove(modifier)
+    if old.users == 0:
+        bpy.data.meshes.remove(old)
+
+
+def make_lod(obj, ratio=1.0 / 3.0):
+    """A lower level of detail for one exported object: the same origin and outer volume, collapsed by Blender.
+
+    The copy keeps the high object's name with `-lod1` and carries glTF extras naming what it is a detail of, so a
+    loader can choose it later. The game is not changed to do so here.
+    """
+    canonicalize_faces(obj)
+    low = obj.copy()
+    low.data = obj.data.copy()
+    low.name = f"{obj.name}-lod1"
+    for mod in list(low.modifiers):
+        low.modifiers.remove(mod)
+    decimate = low.modifiers.new("lower detail", "DECIMATE")
+    decimate.ratio = ratio
+    decimate.use_collapse_triangulate = True
+    triangulate = low.modifiers.new("triangles", "TRIANGULATE")
+    triangulate.quad_method = "FIXED"
+    triangulate.ngon_method = "CLIP"
+    low["lodOf"] = obj.name
+    low["lodLevel"] = 1
+    obj["lodLevel"] = 0
+    collections = getattr(obj, "users_collection", [])
+    (collections[0] if collections else bpy.context.scene.collection).objects.link(low)
+    return low
+
+
 def clear_scene():
     bpy.ops.wm.read_factory_settings(use_empty=True)
 
@@ -420,18 +607,129 @@ def triangles(objects):
     return total
 
 
+# -------------------------------------------------------- stable glTF bytes ----
+def _read_gltf_accessor(gltf, data, index):
+    import struct
+    component_formats = {5120: ("b", 1), 5121: ("B", 1), 5122: ("h", 2), 5123: ("H", 2), 5125: ("I", 4), 5126: ("f", 4)}
+    widths = {"SCALAR": 1, "VEC2": 2, "VEC3": 3, "VEC4": 4, "MAT2": 4, "MAT3": 9, "MAT4": 16}
+    accessor = gltf["accessors"][index]
+    view = gltf["bufferViews"][accessor["bufferView"]]
+    fmt, size = component_formats[accessor["componentType"]]
+    width = widths[accessor["type"]]
+    stride = view.get("byteStride") or size * width
+    start = view.get("byteOffset", 0) + accessor.get("byteOffset", 0)
+    return [struct.unpack_from("<" + fmt * width, data, start + i * stride) for i in range(accessor["count"])]
+
+
+def _quantized_tuple(values, places):
+    return tuple(struct.unpack("<f", struct.pack("<f", float(v) if places is None else round(float(v), places)))[0] for v in values)
+
+
+def canonicalize_gltf(path):
+    """Rewrites a glTF and its binary buffer in one deterministic order.
+
+    Blender can number the same evaluated vertices differently in different processes. Geometry, UVs, materials,
+    object names and transforms are kept; vertices with the same exported attributes are welded, vertices and
+    triangles are sorted by their own values, and the buffer is written again with zero padding. This is an export
+    determinism pass, not a change to the pieces.
+    """
+    import json
+    import struct
+
+    path = os.path.abspath(path)
+    with open(path, "r") as source:
+        gltf = json.load(source)
+    if not gltf.get("buffers") or "uri" not in gltf["buffers"][0]:
+        return
+    bin_path = os.path.join(os.path.dirname(path), gltf["buffers"][0]["uri"])
+    with open(bin_path, "rb") as source:
+        data = source.read()
+
+    # Mesh names are not part of the game's contract, but stable names make the file easier to compare.
+    for node in gltf.get("nodes", []):
+        if "mesh" in node and node.get("name"):
+            gltf["meshes"][node["mesh"]]["name"] = node["name"]
+
+    accessors, views = [], []
+    output = bytearray()
+
+    def append_accessor(values, component_type, value_type, minmax=False):
+        nonlocal output
+        while len(output) % 4:
+            output.append(0)
+        component_formats = {5125: ("I", 4), 5126: ("f", 4)}
+        fmt, _ = component_formats[component_type]
+        width = {"SCALAR": 1, "VEC2": 2, "VEC3": 3, "VEC4": 4}[value_type]
+        payload = b"".join(struct.pack("<" + fmt * width, *value) for value in values)
+        view_index = len(views)
+        views.append({"buffer": 0, "byteOffset": len(output), "byteLength": len(payload)})
+        output.extend(payload)
+        accessor = {"bufferView": view_index, "byteOffset": 0, "componentType": component_type, "count": len(values), "type": value_type}
+        if minmax and values:
+            accessor["min"] = [min(value[i] for value in values) for i in range(width)]
+            accessor["max"] = [max(value[i] for value in values) for i in range(width)]
+        accessors.append(accessor)
+        return len(accessors) - 1
+
+    for mesh in gltf.get("meshes", []):
+        for primitive in mesh.get("primitives", []):
+            semantics = sorted(primitive.get("attributes", {}))
+            if "POSITION" not in semantics or "indices" not in primitive:
+                continue
+            raw_attributes = {sem: _read_gltf_accessor(gltf, data, primitive["attributes"][sem]) for sem in semantics}
+            raw_indices = [item[0] for item in _read_gltf_accessor(gltf, data, primitive["indices"])]
+            count = len(raw_attributes["POSITION"])
+            records = []
+            for i in range(count):
+                parts = []
+                for sem in semantics:
+                    places = None if sem == "POSITION" else 6 if sem == "TEXCOORD_0" else 5
+                    parts.append(_quantized_tuple(raw_attributes[sem][i], places))
+                records.append(tuple(parts))
+            ordered = sorted(set(records))
+            new_index = {record: i for i, record in enumerate(ordered)}
+            remap = [new_index[record] for record in records]
+            triangles = []
+            for at in range(0, len(raw_indices), 3):
+                face = [remap[raw_indices[at]], remap[raw_indices[at + 1]], remap[raw_indices[at + 2]]]
+                smallest = face.index(min(face))
+                face = tuple(face[smallest:] + face[:smallest])
+                triangles.append(face)
+            triangles.sort()
+            flat_indices = [i for face in triangles for i in face]
+
+            new_attributes = {}
+            for sem_index, sem in enumerate(semantics):
+                values = [record[sem_index] for record in ordered]
+                new_attributes[sem] = append_accessor(values, 5126, gltf["accessors"][primitive["attributes"][sem]]["type"], minmax=(sem == "POSITION"))
+            primitive["attributes"] = new_attributes
+            primitive["indices"] = append_accessor([(i,) for i in flat_indices], 5125, "SCALAR")
+
+    gltf["accessors"] = accessors
+    gltf["bufferViews"] = views
+    gltf["buffers"][0]["byteLength"] = len(output)
+    with open(bin_path, "wb") as target:
+        target.write(output)
+    with open(path, "w") as target:
+        json.dump(gltf, target, sort_keys=True, separators=(",", ":"))
+        target.write("\n")
+
+
 def export_gltf(path, objects):
     """Writes the asset as glTF with its textures beside it, modifiers applied, Y up."""
     os.makedirs(os.path.dirname(path), exist_ok=True)
+    for export_object in objects:
+        canonicalize_object(export_object)
     for obj in bpy.context.scene.objects:
         obj.select_set(obj in objects)
     bpy.context.view_layer.objects.active = objects[0]
     wanted = dict(filepath=path, export_format="GLTF_SEPARATE", use_selection=True, export_apply=True, export_yup=True, export_tangents=True, export_texture_dir="textures", export_image_format="JPEG", export_image_quality=90, export_jpeg_quality=90, export_materials="EXPORT", export_cameras=False, export_lights=False, export_extras=True)
     known = set(bpy.ops.export_scene.gltf.get_rna_type().properties.keys())
     bpy.ops.export_scene.gltf(**{k: v for k, v in wanted.items() if k in known})
+    canonicalize_gltf(path)
 
 
-def render_preview(path, look_at, distance, azimuth_deg, elevation_deg, ground_material, size=(1600, 1000), samples=96):
+def render_preview(path, look_at, distance, azimuth_deg, elevation_deg, ground_material, size=(1600, 1000), samples=96, lens=42):
     """A lit picture of what is in the scene: a low sun from the front-left, soft sky light, the ground it stands on."""
     scene = bpy.context.scene
     ground = bpy.data.meshes.new("preview-ground")
@@ -462,7 +760,7 @@ def render_preview(path, look_at, distance, azimuth_deg, elevation_deg, ground_m
     scene.world = world
 
     camera_data = bpy.data.cameras.new("camera")
-    camera_data.lens = 42
+    camera_data.lens = lens
     camera = bpy.data.objects.new("camera", camera_data)
     az, el = math.radians(azimuth_deg), math.radians(elevation_deg)
     target = Vector(look_at)

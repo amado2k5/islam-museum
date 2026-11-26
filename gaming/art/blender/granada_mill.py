@@ -15,7 +15,7 @@ import sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import bpy  # noqa: E402
-from common import Part, clear_scene, cut, export_gltf, make_materials, render_preview, textures, triangles  # noqa: E402
+from common import Part, clear_scene, cut, export_gltf, make_lod, make_materials, render_preview, textures, triangles  # noqa: E402
 
 argv = sys.argv[sys.argv.index("--") + 1:] if "--" in sys.argv else []
 out_dir = os.path.abspath(argv[0]) if argv else os.path.abspath("gaming/media/models/granada/2")
@@ -162,7 +162,14 @@ wheel_obj = wheel.build(location=(AXLE[0], AXLE[1] + 0.25, AXLE[2]))
 asset = [walls_obj, woodwork_obj, roof_obj, stonework_obj, extras_obj, wheel_obj]
 count = triangles(asset)
 print(f"ART mill: {count} triangles in {len(asset)} objects", flush=True)
-export_gltf(os.path.join(out_dir, "mill.gltf"), asset)
+exported = []
+for obj in asset:
+    exported.append(obj)
+    exported.append(make_lod(obj))
+export_gltf(os.path.join(out_dir, "mill.gltf"), exported)
+for obj in exported:
+    if obj.name.endswith("-lod1"):
+        obj.hide_render = True
 print("ART mill: exported", os.path.join(out_dir, "mill.gltf"))
 
 if preview:
