@@ -54,6 +54,24 @@ out.append("")
 for i in waiting:
     out.append(f"- **{i['id']}. {i['title']}:** {i['founder']}")
 out.append("")
+handoff = plan.get("handoff")
+if handoff:
+    out.append("## The production handoff's twelve prompts")
+    out.append("")
+    out.append(f"_From {handoff['source']}, received {handoff['received']}. Each belongs to pieces of the corrective work above._")
+    out.append("")
+    out.append("| Prompt | What it asks for | Priority | Belongs to | Where it stands |")
+    out.append("|---:|---|---|---|---|")
+    for q in handoff["prompts"]:
+        if q["status"] not in known:
+            sys.exit(f"prompt {q['id']}: unknown status {q['status']!r}")
+        out.append(f"| {q['id']} | **{cell(q['title'])}** | {q['priority']} | {', '.join(str(n) for n in q['belongsTo'])} | {q['status']}: {cell(q['standing'])} |")
+    out.append("")
+    out.append("**Questions it leaves with the founder:**")
+    out.append("")
+    for n, question in enumerate(handoff["ownerQuestions"], 1):
+        out.append(f"{n}. {question}")
+    out.append("")
 out.append("## Every gate")
 out.append("")
 out.append("| Gate | What it asks | Status | Corrective work that bears on it | What exists as evidence |")
