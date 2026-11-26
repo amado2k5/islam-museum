@@ -5,6 +5,7 @@
 import { mkdirSync, writeFileSync } from "node:fs";
 import { resolve } from "node:path";
 import { chromium, type BrowserContext, type Page } from "playwright-core";
+import { leaveOpening } from "./hudhud-opening";
 import { serveWorkspace } from "./serve";
 
 const outDir = process.argv[2] ? resolve(process.argv[2]) : null;
@@ -13,11 +14,13 @@ const browser = await chromium.launch({ channel: "chrome", headless: false, args
 const errors: string[] = [];
 const results: { check: string; pass: boolean; detail: unknown }[] = [];
 const record = (check: string, pass: boolean, detail: unknown) => results.push({ check, pass, detail });
-const open = async (ctx: BrowserContext, query: string): Promise<Page> => {
+// Every check but the one about the opening itself leaves the opening by its Skip button, as a visitor would.
+const open = async (ctx: BrowserContext, query: string, keepOpening = false): Promise<Page> => {
   const page = await ctx.newPage();
   page.on("pageerror", (e) => errors.push(String(e)));
   await page.goto(`${served.base}/games/hudhud/index.html?lang=en&music=off${query}`);
   await page.waitForFunction("window.__HH__ && (window.__HH__.ready || window.__HH__.error)");
+  if (!keepOpening) await leaveOpening(page);
   return page;
 };
 const playing = async (page: Page) => {
@@ -158,14 +161,24 @@ const ev = <T>(page: Page, js: string) => page.evaluate(js) as Promise<T>;
 // 4e. The skip link lands on the game, whichever screen is showing.
 {
   const ctx = await browser.newContext({ viewport: { width: 1280, height: 800 } });
-  const page = await open(ctx, "&fresh=1");
-  await page.keyboard.press("Tab");
-  const link = await ev<string>(page, "document.activeElement.className");
-  await page.keyboard.press("Enter");
-  const landed = await ev<string>(page, "document.activeElement.id || location.hash");
-  await page.keyboard.press("Tab");
-  const next = await ev<boolean>(page, "!!document.activeElement.closest('#play')");
-  record("the skip link lands on the game", link === "skip" && /play/.test(landed) && next, { link, landed, next });
+  // First on the opening story, which a new visitor meets first; then on the Atlas, which a returning one meets.
+  const landing = async (page: Page) => {
+    await page.keyboard.press("Tab");
+    const link = await ev<string>(page, "document.activeElement.className");
+    await page.keyboard.press("Enter");
+    const landed = await ev<string>(page, "document.activeElement.id || location.hash");
+    await page.keyboard.press("Tab");
+    const next = await ev<boolean>(page, "!!document.activeElement.closest('#play')");
+    return { link, landed, next, ok: link === "skip" && /play/.test(landed) && next };
+  };
+  const story = await landing(await open(ctx, "&fresh=1", true));
+  const seenCtx = await browser.newContext({ viewport: { width: 1280, height: 800 } });
+  const first = await open(seenCtx, "");
+  await ev(first, "window.__HH__.saveReady()");
+  await first.close();
+  const atlas = await landing(await open(seenCtx, "", true));
+  await seenCtx.close();
+  record("the skip link lands on the game", story.ok && atlas.ok, { story, atlas });
   await ctx.close();
 }
 // 4f. Pause and go on, every way there is, and the game answers afterwards each time.
@@ -418,6 +431,7 @@ for (const lang of ["en", "ar"]) {
   page.on("pageerror", (e) => errors.push(String(e)));
   await page.goto(`${served.base}/games/hudhud/index.html?lang=${lang}&music=off`);
   await page.waitForFunction("window.__HH__ && window.__HH__.ready");
+  await leaveOpening(page);
   const before = await ev<{ worlds: number; pages: number; open: number; progress: string; stageHidden: boolean }>(page, "({ worlds: document.querySelectorAll('.hub .world').length, pages: document.querySelectorAll('.hub .world li').length, open: document.querySelectorAll('.hub .world li.open').length, progress: document.querySelector('.hub .progress').textContent, stageHidden: document.querySelector('.stage-wrap').hidden })");
   if (outDir) await page.screenshot({ path: resolve(outDir, `atlas-${lang}.png`), fullPage: true });
   await playing(page);
@@ -443,12 +457,12 @@ for (const lang of ["en", "ar"]) {
     await playing(page);
     await ev(page, "window.__HH__.command({type:'skip'}); window.__HH__.touch('mirror-a');");
     await page.waitForTimeout(300);
-    const got = await ev<{ mirrors: number; leans: number; par: number; words: string; listed: number }>(page, "({ mirrors: window.__HH__.state().puzzle.mirrors.length, leans: (window.__HH__.state().puzzle.leans || []).length, par: window.__HH__.state().par, words: document.querySelector('section p[aria-live]').textContent, listed: [...document.querySelectorAll('section ul button')].filter((b) => /mirror/.test(b.textContent)).length })");
+    const got = await ev<{ mirrors: number; leans: number; par: number; words: string; listed: number }>(page, "({ mirrors: window.__HH__.state().puzzle.mirrors.length, leans: (window.__HH__.state().puzzle.leans || []).length, par: window.__HH__.state().par, words: document.querySelector('.words section p[aria-live]').textContent, listed: [...document.querySelectorAll('section ul button')].filter((b) => /mirror/.test(b.textContent)).length })");
     // A mirror the room does not have cannot be touched; one it has, turned twice, lies flat where there are three positions.
     await ev(page, "window.__HH__.touch('mirror-g'); window.__HH__.touch('mirror-d'); window.__HH__.touch('mirror-d');");
     const third = await ev<string>(page, "window.__HH__.state().puzzle.mirrors.find((m) => m.id === 'd').lean");
     // With the third mirror laid flat the beam runs along the floor and meets the jar, and the words say so.
-    const floor = style === "explorer" ? await ev<string>(page, "document.querySelector('section p[aria-live]').textContent") : "";
+    const floor = style === "explorer" ? await ev<string>(page, "document.querySelector('.words section p[aria-live]').textContent") : "";
     seen[style] = { ...got, third, floor };
     await ctx.close();
   }
@@ -554,6 +568,104 @@ for (const lang of ["en", "ar"]) {
   await playing(page);
   record("a finished elephant clock is not kept in the middle, and the flying quest can still be started", done.done && done.kept === null && /^Play again: /.test(hub.clock), { done, hub });
   await ctx.close();
+}
+// 6. The opening story, not skipped: a fresh visitor meets it before the Atlas, reads it through by the buttons, and
+// is not shown it again; it can be read again from the Atlas, and Escape leaves it. On an Arabic page the page runs
+// right to left and the left arrow goes forward.
+{
+  const ctx = await browser.newContext({ viewport: { width: 1280, height: 900 } });
+  let page = await open(ctx, "", true);
+  const view = () => ev<{ shown: boolean; panel: number; hubHidden: boolean; count: string; text: string; button: string; backOff: boolean; alt: string | null; role: string | null; canvasW: number; canvasH: number; focus: string; live: string | null; box: number; buttons: number[] }>(page, "(() => { const q = (s) => document.querySelector(s); const p = window.__HH__.prologue(); const sizes = [...document.querySelectorAll('.prologue button')].map((b) => Math.min(b.getBoundingClientRect().width, b.getBoundingClientRect().height)); return { shown: p.shown, panel: p.panel, hubHidden: q('.hub').hidden, count: q('.pro-count').textContent, text: q('.pro-text').textContent, button: q('.pro-nav .primary').textContent, backOff: q('.pro-nav button').disabled, alt: q('.pro-art canvas').getAttribute('aria-label'), role: q('.pro-art canvas').getAttribute('role'), canvasW: q('.pro-art canvas').width, canvasH: q('.pro-art canvas').height, focus: document.activeElement.className, live: q('.pro-text').getAttribute('aria-live'), box: sizes.length, buttons: sizes }; })()");
+  const first = await view();
+  if (outDir) await page.screenshot({ path: resolve(outDir, "opening-1.png") });
+  const startsOnIt = first.shown && first.panel === 1 && first.hubHidden && first.count === "Panel 1 of 5" && first.backOff && first.button === "Next" && first.role === "img" && !!first.alt && first.canvasW >= 1000 && first.canvasH >= 420 && first.focus !== "pro-count" && first.live === "polite" && first.text.startsWith("In a quiet museum sleeps a great book");
+  // Next, four times, by the button: the fifth panel says the Atlas and the storm are invented, and offers Begin.
+  const alts = [first.alt];
+  let movedFocus = true; // focus goes to the panel's heading at each change
+  for (let i = 0; i < 4; i++) {
+    await page.locator(".pro-nav .primary").click();
+    const now = await view();
+    alts.push(now.alt);
+    movedFocus &&= now.focus === "pro-count";
+  }
+  const last = await view();
+  if (outDir) await page.screenshot({ path: resolve(outDir, "opening-5.png") });
+  const reachesFive = movedFocus && last.panel === 5 && last.button === "Begin" && last.count === "Panel 5 of 5" && /The Atlas and the storm are invented/.test(last.text) && new Set(alts).size === 5;
+  // Back goes to panel 4 and the button reads Next again; the keyboard does the same.
+  await page.getByRole("button", { name: "Back" }).click();
+  const back = await view();
+  await page.keyboard.press("ArrowRight");
+  const viaKey = await view();
+  await page.keyboard.press("ArrowLeft");
+  const viaKeyBack = await view();
+  await page.keyboard.press("ArrowRight");
+  // Every button is at least 44 pixels each way.
+  const small = last.buttons.filter((n) => n < 44);
+  // Begin shows the Atlas, and records it.
+  await page.locator(".pro-nav .primary").click();
+  const atlas = await ev<{ shown: boolean; panel: number; hubShown: boolean; storyHidden: boolean; seen: unknown }>(page, "(() => { const p = window.__HH__.prologue(); return { shown: p.shown, panel: p.panel, hubShown: !document.querySelector('.hub').hidden, storyHidden: document.querySelector('.prologue').hidden, seen: JSON.parse(localStorage.getItem('im.hudhud.save.v1')).slots[0].prologue }; })()");
+  await ev(page, "window.__HH__.saveReady()");
+  // A reload shows the Atlas at once.
+  await page.reload();
+  await page.waitForFunction("window.__HH__ && window.__HH__.ready");
+  const reloaded = await ev<{ shown: boolean; hubShown: boolean }>(page, "({ shown: window.__HH__.prologue().shown, hubShown: !document.querySelector('.hub').hidden })");
+  // "Read the opening again" shows panel 1; Escape leaves it for the Atlas.
+  await page.locator(".hub button[data-opening='again']").click();
+  const again = await view();
+  await page.keyboard.press("Escape");
+  const escaped = await ev<{ shown: boolean; hubShown: boolean }>(page, "({ shown: window.__HH__.prologue().shown, hubShown: !document.querySelector('.hub').hidden })");
+  const readThrough = (
+    startsOnIt && reachesFive && back.panel === 4 && back.button === "Next" && viaKey.panel === 5 && viaKeyBack.panel === 4 && small.length === 0 &&
+    !atlas.shown && atlas.panel === 0 && atlas.hubShown && atlas.storyHidden && atlas.seen === true &&
+    !reloaded.shown && reloaded.hubShown && again.shown && again.panel === 1 && again.hubHidden && !escaped.shown && escaped.hubShown
+  );
+  const readDetail = { first, last, back, viaKey, viaKeyBack, small, atlas, reloaded, again, escaped };
+  // Skip at the first panel records it too: the next visit goes to the Atlas.
+  await ctx.close();
+  const ctx2 = await browser.newContext({ viewport: { width: 1280, height: 900 } });
+  page = await open(ctx2, "", true);
+  await page.getByRole("button", { name: "Skip the opening" }).click();
+  await ev(page, "window.__HH__.saveReady()");
+  await page.reload();
+  await page.waitForFunction("window.__HH__ && window.__HH__.ready");
+  const skippedThenReload = await ev<boolean>(page, "!window.__HH__.prologue().shown && !document.querySelector('.hub').hidden");
+  await page.close();
+  // The address that goes straight to the quest shows no opening and records nothing.
+  const auto = await open(ctx2, "&autostart=1", true);
+  const autoSeen = await ev<{ shown: boolean; started: boolean }>(auto, "({ shown: window.__HH__.prologue().shown, started: window.__HH__.started() })");
+  const ctx3 = await browser.newContext({ viewport: { width: 1280, height: 900 } });
+  const auto2 = await open(ctx3, "&autostart=1", true);
+  const stored = await ev<string | null>(auto2, "localStorage.getItem('im.hudhud.save.v1')");
+  const noRecord = stored === null || JSON.parse(stored).slots[0].prologue === undefined;
+  const skipping = skippedThenReload && !autoSeen.shown && autoSeen.started && (await ev<boolean>(auto2, "!window.__HH__.prologue().shown")) && noRecord;
+  await ctx3.close();
+  await ctx2.close();
+  // An Arabic page runs right to left, and the left arrow goes forward, the right arrow back; Escape skips.
+  const ctxAr = await browser.newContext({ viewport: { width: 1280, height: 900 } });
+  const ar = await ctxAr.newPage();
+  ar.on("pageerror", (e) => errors.push(String(e)));
+  await ar.goto(`${served.base}/games/hudhud/index.html?lang=ar&music=off`);
+  await ar.waitForFunction("window.__HH__ && window.__HH__.ready");
+  const arView = () => ev<{ dir: string; panel: number; count: string; text: string }>(ar, "({ dir: document.documentElement.dir, panel: window.__HH__.prologue().panel, count: document.querySelector('.pro-count').textContent, text: document.querySelector('.pro-text').textContent })");
+  const ar1 = await arView();
+  if (outDir) await ar.screenshot({ path: resolve(outDir, "opening-ar-1.png") });
+  await ar.keyboard.press("ArrowLeft");
+  const ar2 = await arView();
+  await ar.keyboard.press("ArrowLeft");
+  await ar.keyboard.press("ArrowRight");
+  const ar3 = await arView();
+  await ar.keyboard.press("ArrowLeft");
+  await ar.keyboard.press("ArrowLeft");
+  await ar.keyboard.press("ArrowLeft");
+  const ar5 = await arView();
+  if (outDir) await ar.screenshot({ path: resolve(outDir, "opening-ar-5.png") });
+  await ar.keyboard.press("Escape");
+  const arAtlas = await ev<{ shown: boolean; hubShown: boolean }>(ar, "({ shown: window.__HH__.prologue().shown, hubShown: !document.querySelector('.hub').hidden })");
+  const arabic = (
+    ar1.dir === "rtl" && ar1.panel === 1 && ar1.count === "اللوحة ١ من ٥" && ar1.text.startsWith("في متحف هادئ ينام كتاب كبير") && ar2.panel === 2 && ar3.panel === 2 && ar5.panel === 5 && /الأطلس والعاصفة من الخيال/.test(ar5.text) && !arAtlas.shown && arAtlas.hubShown
+  );
+  await ctxAr.close();
+  record("the opening story: a new visitor meets it before the Atlas and reads it by the buttons and the arrow keys; Begin and Skip record it; it can be read again; Escape leaves it; autostart shows none; on an Arabic page it runs right to left", readThrough && skipping && arabic, { read: readDetail, skippedThenReload, autoSeen, stored, ar: { ar1, ar2, ar3, ar5, arAtlas } });
 }
 await browser.close();
 await served.close();

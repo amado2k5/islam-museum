@@ -6,6 +6,7 @@
 import { mkdirSync, writeFileSync } from "node:fs";
 import { resolve } from "node:path";
 import { chromium } from "playwright-core";
+import { leaveOpening } from "./hudhud-opening";
 
 const [base, outArg, langsArg = "en,ar"] = process.argv.slice(2);
 if (!base || !outArg) throw new Error("usage: hudhud-uat.ts <base> <out dir> [langs]");
@@ -39,6 +40,8 @@ for (const lang of langsArg.split(",")) {
   const headers = response?.headers() ?? {};
   if (!(await wait("Boolean(window.__HH__ && (window.__HH__.ready || window.__HH__.error))", 30000))) errors.push("the page did not start in 30 seconds");
   const readyMs = Date.now() - t0;
+  // A build with the opening story shows it first; a visitor skips it by its button. An older build has none.
+  await leaveOpening(page);
   const atlas = await ev<Record<string, unknown>>("({ worlds: document.querySelectorAll('.hub .world').length, pages: document.querySelectorAll('.hub .world li').length, open: document.querySelectorAll('.hub .world li.open').length, proto: !!document.querySelector('header .chip.proto'), title: document.title, dir: document.documentElement.dir, music: document.querySelectorAll('details.music').length })");
   await page.screenshot({ path: resolve(out, `uat-hudhud-${lang}-atlas.png`) });
   await page.locator(".hub button.primary").click();

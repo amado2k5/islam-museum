@@ -39,8 +39,8 @@ _Captures of the running game, Chrome, 26 November 2026, made by `gaming/tools/h
 | Play to scene | about 0.4 s |
 | Textures in memory | 20 MB (Low), 45 MB (Medium), 80 MB (High) |
 | Draw calls a frame | 15 to 20 |
-| Tests | 148 of its own and 28 of the shared platform; 530 in the workspace, all passing |
+| Tests | 151 of its own and 28 of the shared platform; 533 in the workspace, all passing |
 
 ## Next
 
-Nothing in number until the founder's word on the look. Then the vertical slice of the instruction's Phase 2: a prologue and the Atlas hub, this quest finished, al-Jazari's clock, Ibn Battuta's road, the Monkey and the Tortoise. Done since the first pull request: a quest left in the middle is kept, keys can be changed, and there is a full-screen button. Still before the slice: the room's texture cut in two, the Arabic written first.
+Nothing in number until the founder's word on the look. The game now opens on a prologue (five still panels with simple code-drawn pictures, read once, skippable and shown again from the Atlas); it is a trial, with no animation and no voice. Then the vertical slice of the instruction's Phase 2: a playable prologue and the Atlas hub, this quest finished, al-Jazari's clock, Ibn Battuta's road, the Monkey and the Tortoise. Done since the first pull request: a quest left in the middle is kept, keys can be changed, and there is a full-screen button. Still before the slice: the room's texture cut in two, the Arabic written first.

@@ -8,12 +8,13 @@ import { HAIRS, OUTFITS, SKINS, keeper as paintKeeper, portrait } from "../art/c
 import { CLOCK_QUEST, clockPuzzle } from "../content/clock";
 import { restoreClock } from "../sim/clock";
 import { clockQuest, type ClockQuest } from "./clock";
+import { prologueScreen } from "./prologue";
 import { JAR, RECORDS, SCRIPTS, THINGS, TURN_SLACK, inPlay, type PlayStyle, type Speaker } from "../content/workshop";
 import { start, type Running } from "../game/boot";
 import { Input } from "../input/input";
 import { DEFAULT_PAD, PAD_ACTIONS, assignPad, type PadAction } from "../input/pad";
 import { choicesOf, lineOf } from "../narrative/dialogue";
-import { ACTIONS, DEFAULT_KEYS, SAVE_KEY, assignKey, current, load, recordQuest, store, type Action, type Quality, type SaveFile, type Settings } from "../save/save";
+import { ACTIONS, DEFAULT_KEYS, SAVE_KEY, assignKey, current, load, markPrologueSeen, recordQuest, store, type Action, type Quality, type SaveFile, type Settings } from "../save/save";
 import { askToPersist, openStore, saveChannel } from "@im/platform/save/idb";
 import { openDurable, type Durable, type SaveStatus } from "../save/durable";
 import { apply, beam, goals, newScene, restore, snapshot, type Command, type Happened, type SceneState } from "../sim/scene";
@@ -175,7 +176,16 @@ async function main(): Promise<void> {
   const wordsBox = el("div", { class: "words" }, words, about);
   words.hidden = true;
   // The skip link lands here, on the Atlas or on the quest, whichever is showing.
-  const main = el("main", { id: "play", tabIndex: -1 }, hub, bench, stageWrap);
+  // The opening story comes first for a slot that has not seen it; it takes the place of the Atlas until it is left.
+  const prologue = prologueScreen({
+    t,
+    num,
+    rtl: RTL.includes(lang),
+    look: () => slot().keeper,
+    blocked: () => sheetOpen(),
+    leave: () => leaveOpening(true),
+  });
+  const main = el("main", { id: "play", tabIndex: -1 }, prologue.node, hub, bench, stageWrap);
   app.append(bar, main, wordsBox, live, sheets);
 
   let toastTimer = 0;
@@ -215,6 +225,8 @@ async function main(): Promise<void> {
     save = { ...next, slot: next.slots[at] ? at : next.slots.findIndex((x) => x !== null) };
     if (save.slot < 0) return;
     store(storage, save, mayStore, true);
+    // The vault knows the opening was seen, and the player has not yet turned a panel: go straight to the Atlas.
+    if (openingShown && slot().prologue && prologue.panel() === 1) leaveOpening(false);
     applyLook();
     if (!started) {
       fromSlot();
@@ -582,7 +594,7 @@ async function main(): Promise<void> {
         const i = Number(v);
         // A slot never used starts with this one's settings and explorer, and nothing done. Changing slot changes
         // no quest: each slot's place in its quest is left exactly as it was and is taken up again.
-        save = { ...save, slot: i, slots: save.slots.map((x, j) => (j === i && !x ? { ...structuredClone(save.slots[save.slot]!), quests: {}, resume: null } : x)) };
+        save = { ...save, slot: i, slots: save.slots.map((x, j) => (j === i && !x ? { ...structuredClone(save.slots[save.slot]!), quests: {}, resume: null, prologue: undefined } : x)) };
         keep();
         applyLook();
         fromSlot();
@@ -912,6 +924,8 @@ async function main(): Promise<void> {
     explorerButtons.push(b);
     choose.append(b);
   }
+  const again = el("button", { type: "button", class: "quiet", textContent: t("pro_reread"), onclick: () => readOpening(true) });
+  again.dataset.opening = "again";
   function drawHub(): void {
     drawChoices();
     const quests = slot().quests;
@@ -951,7 +965,30 @@ async function main(): Promise<void> {
       el("p", { class: "small", textContent: t("start_hint") }),
       el("div", { class: "worlds" }, ...worlds),
       el("p", { class: "small", textContent: t("hub_note") }),
+      el("p", { class: "again" }, again),
     );
+  }
+  // ---------------------------------------------------------------------------------------- the opening story
+  let openingShown = false;
+  /** Shows the opening from its first panel, in place of the Atlas. */
+  function readOpening(focus = true): void {
+    openingShown = true;
+    hub.hidden = true;
+    prologue.open(1, focus);
+  }
+  /** Leaves the opening for the Atlas. Finished or skipped, it is recorded as seen in this slot, once; read again by
+   * choice and left, nothing more is written. */
+  function leaveOpening(record: boolean): void {
+    if (!openingShown) return;
+    openingShown = false;
+    prologue.close();
+    if (record && !slot().prologue) {
+      save = markPrologueSeen(save);
+      keep();
+    }
+    hub.hidden = false;
+    drawHub();
+    (hub.querySelector("button.primary") as HTMLElement | null)?.focus({ preventScroll: true });
   }
   drawHub();
   render();
@@ -981,8 +1018,13 @@ async function main(): Promise<void> {
     clockCommand: (c: Parameters<ClockQuest["command"]>[0]) => clockRun?.command(c),
     resumed: () => resumed,
     keys: () => settings().keys,
+    prologue: () => ({ shown: openingShown, panel: openingShown ? prologue.panel() : 0 }),
+    skipPrologue: () => leaveOpening(true),
   });
+  // A slot that has not seen the opening opens on it. A page opened to go straight into the quest (a test or a
+  // capture) shows no opening and records nothing.
   if (query.get("autostart") === "1") startQuest();
+  else if (!slot().prologue) readOpening(false);
 }
 
 main().catch((e) => {
