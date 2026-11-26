@@ -1,16 +1,16 @@
 # Hudhud: The Atlas of Wonders — state of the game
 
-_26 November 2026. Release status: **prototype**. Working title. Instruction, plans and decisions: [`../hudhud/`](../hudhud/README.md). Code: `gaming/games/hudhud/`. Not on the site. **On UAT** since 26 November 2026 (now release `20261126-7e6cd96da79`): `https://uat-games.islam.museum/hudhud/?lang=ar`. Not in production._
+_26 November 2026. Release status: **prototype**. Working title. Instruction, plans and decisions: [`../hudhud/`](../hudhud/README.md). Code: `gaming/games/hudhud/`. Not on the site. **On UAT** since 26 November 2026 (now release `20261126-709707701f2`): `https://uat-games.islam.museum/hudhud/?lang=ar`. Not in production._
 
 ## What exists
 
-The game opens on **the Atlas**: a page that names the ten worlds and their fifty subjects in seven languages, says how many pages are home, and lets the player choose a girl or a boy explorer. One quest can be played from it; the other forty-nine are named and marked "Not built yet", and the two that are story tradition say so. A finished quest returns to the Atlas with its page home.
+The game opens on **the Atlas**: a page that names the ten worlds and their fifty subjects in seven languages, says how many pages are home, and lets the player choose a girl or a boy explorer. Two quests can be played from it (the light workshop, and a second, short trial quest (al-Jazari's elephant clock: a row of parts put in order with ordinary page controls and a simple code-drawn picture that can also be clicked or touched, no flying scene, kept when left in the middle)); the other forty-nine are named and marked "Not built yet", and the two that are story tradition say so. A finished quest returns to the Atlas with its page home. Above the lists the Atlas page shows one code-drawn picture of the open book, with a medallion for each world (a plain sign on each, not finished art), five page marks round it that fill as pages come home, and a ring round the worlds that have a quest to play; a click on a medallion, or one of ten numbered buttons under the picture, goes to that world's list.
 
 ![The Atlas](../evidence/hudhud/golden-scene/atlas-en.webp)
 
 One scene of a few minutes, the "golden scene" the founder's instruction asks for before any art is made in number: Ibn al-Haytham's light workshop, opening on a garden and a town at evening.
 
-You play Hudhud, an orange hoopoe. A page of the Atlas of Stories has blown into a dark room and its ink has gone pale. One thin beam of evening light comes in by a hole in the shutter. Fly to the mirrors and turn them until the beam, turned five times and spread by a prism, reaches the page. On the way you can talk to the scholar and ask him for more, greet the cat, pull the curtain's cord to make the room a dark room and see the town appear upside down on the wall, and find a feather in the garden. At the page, the quest ends with three goals (Curiosity, Ingenuity, Kindness) and a museum note with links to the museum's records.
+You play Hudhud, an orange hoopoe. A page of the Atlas of Stories has blown into a dark room and its ink has gone pale. One thin beam of evening light comes in by a hole in the shutter. Fly to the mirrors and turn them until the beam, turned five times, reaches the page. The puzzle depends on the way of playing: Story has five mirrors with two positions and glowing hints; Explorer has six with three positions (a mirror can be laid flat so that the beam passes) and one that must be left alone; Challenge has seven, all wrong at the start, ten turns at the least, and its description in words says only where the beam ends. On the way you can talk to the scholar and ask him for more, greet the cat, pull the curtain's cord to make the room a dark room and see the town appear upside down on the wall, and find a feather in the garden. At the page, the quest ends with three goals (Curiosity, Ingenuity, Kindness) and a museum note with links to the museum's records.
 
 It plays with the keyboard, with on-screen buttons, by tapping mirrors, or entirely from a list in words under the picture. It has three ways of playing (Story, Explorer, Challenge), three effects presets, reduced motion, high contrast, text size and speed, captions, three save slots and, chosen on the first screen, a girl or a boy explorer whose skin, clothes and hair can be changed ([explorers](../hudhud/explorers.md)). It runs in the museum's seven languages, right to left in Arabic and Urdu. Its music is the museum's own suite through the control every game shares.
 
@@ -23,9 +23,9 @@ _Captures of the running game, Chrome, 26 November 2026, made by `gaming/tools/h
 
 ## What it is not
 
-- **Not the game.** The instruction asks for ten worlds, fifty quests and 20 to 30 hours. This is one scene. Phases 2 to 4 are not started.
+- **Not the game.** The instruction asks for ten worlds, fifty quests and 20 to 30 hours. This is one scene and one short trial quest. Phases 2 to 4 are not started.
 - **Not accepted art.** Every picture is drawn by code an AI agent wrote. Beside the founder's pictures it is plainly simpler ([the comparison and the routes to real art](../hudhud/art-bible.md)). The game's own page says the pictures are a trial.
-- **Not reviewed history.** Nine entries in [the ledger](../historical-review/ledger.md), all pending; no reviewer is named. The page says "Historical review pending" in seven languages. The prism is shown because the founder's pictures show it and is labelled as unsupported by the records read.
+- **Not reviewed history.** Nine entries in [the ledger](../historical-review/ledger.md), all pending; no reviewer is named. The page says "Historical review pending" in seven languages, and every line the scholar speaks is marked "Imagined words, not a quotation". The prism of the founder's pictures, which no record read for the scene supports, is not shown.
 - **Not read by a native speaker.** Seven string tables, all machine drafts.
 - **Not played by anyone.** Only the author's script has played it.
 - **Not measured where it counts.** One machine, the founder's M4 Max; neither reference machine.
@@ -39,8 +39,8 @@ _Captures of the running game, Chrome, 26 November 2026, made by `gaming/tools/h
 | Play to scene | about 0.4 s |
 | Textures in memory | 20 MB (Low), 45 MB (Medium), 80 MB (High) |
 | Draw calls a frame | 15 to 20 |
-| Tests | 116 of its own and 21 of the shared platform; 491 in the workspace, all passing |
+| Tests | 159 of its own and 28 of the shared platform; 541 in the workspace, all passing |
 
 ## Next
 
-Nothing in number until the founder's word on the look. Then the vertical slice of the instruction's Phase 2: a prologue and the Atlas hub, this quest finished, al-Jazari's clock, Ibn Battuta's road, the Monkey and the Tortoise. Done since the first pull request: a quest left in the middle is kept, keys can be changed, and there is a full-screen button. Still before the slice: the room's texture cut in two, the Arabic written first.
+Nothing in number until the founder's word on the look. The game now opens on a prologue (five still panels with simple code-drawn pictures, read once, skippable and shown again from the Atlas); it is a trial, with no animation and no voice. Then the vertical slice of the instruction's Phase 2: a playable prologue and the Atlas hub, this quest finished, al-Jazari's clock, Ibn Battuta's road, the Monkey and the Tortoise. Done since the first pull request: a quest left in the middle is kept, keys can be changed, and there is a full-screen button. Still before the slice: the room's texture cut in two, the Arabic written first.

@@ -46,7 +46,8 @@
     "hudhud:play": "tsx --tsconfig tsconfig.json tools/hudhud-play.ts",
     "hudhud:checks": "tsx --tsconfig tsconfig.json tools/hudhud-checks.ts",
     "hudhud:uat": "tsx --tsconfig tsconfig.json tools/hudhud-uat.ts",
-    "platform:save": "tsx --tsconfig tsconfig.json tools/platform-save.ts"
+    "platform:save": "tsx --tsconfig tsconfig.json tools/platform-save.ts",
+    "platform:gate": "tsx --tsconfig tsconfig.json tools/platform-gate.ts"
   },
   "dependencies": {
     "@babylonjs/core": "9.37.2",
