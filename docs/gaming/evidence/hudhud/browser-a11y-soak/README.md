@@ -6,6 +6,8 @@ These are machine measurements of a prototype. They are not WCAG conformance cer
 
 The Chrome measurements were made in headed system Chrome 158.0.8127.38; `preflight=off` was not used. The Firefox/WebKit tool also launches a headed browser when a binary exists.
 
+The final tools were rerun against this same UAT release on 26 November 2026 after they learned to leave Hudhud's newer opening story. This UAT release predates that opening, so the opening-skipping path itself is **not measured here**; the measurements remain evidence for the named UAT release, not for the newer opening or Atlas picture on `main`.
+
 ## Commands run
 
 From `gaming/`:
@@ -34,7 +36,7 @@ English and Arabic were scanned at 1440×810 in headed system Chrome (the device
 | `atlas` | 13 / 13 | 4 / 4 | 0 / 0 | 8.69 / 8.69 | not applicable |
 | `talk` | 14 / 14 | 4 / 4 | 0 / 0 | 9.21 / 9.21 | not applicable |
 | `settings-sheet` | 46 / 46 | 8 / 8 | 0 / 0 | 5.39 / 5.39 | yes |
-| `pause-sheet` | 19 / 19 | 4 / 4 | 0 / 0 | 8.69 / 8.69 | yes |
+| `pause-sheet` | 19 / 19 | 4 / 4 | 0 / 0 | 9.19 / 8.69 | yes |
 | `results-sheet` | 21 / 21 | 7 / 7 | 0 / 0 | 4.52 / 4.52 | yes |
 
 - Browser/page console errors recorded by the scan: 0 in English, 0 in Arabic.
@@ -62,12 +64,12 @@ Repeated targets under 44 px requiring design review:
 
 | measure | first after warm-up | last | change | levels off |
 |---|---:|---:|---:|---|
-| JavaScript heap | 65.8 MB | 66.1 MB | 0.4% | yes |
+| JavaScript heap | 65.9 MB | 65.5 MB | -0.6% | yes |
 | DOM nodes | 313 | 313 | 0 | yes |
 | instrumented live listeners | 254 | 719 | 465 | no |
 | quest texture count | 48 | 48 | 0 | yes |
 
-Frame samples: 11 quest-boundary samples; worst p95 `9.2` ms; worst p99 `9.4` ms; frames over 33.3 ms `1`; frames over 50 ms `0`. These are short samples from the quest just completed at each minute boundary, not a continuous human play session.
+Frame samples: 11 quest-boundary samples; worst p95 `9.2` ms; worst p99 `9.4` ms; frames over 33.3 ms `0`; frames over 50 ms `0`. These are short samples from the quest just completed at each minute boundary, not a continuous human play session.
 
 Listener counts are an instrumented add/remove-event-listener count inside the page, not a browser-internal exact count. The observed trend is nevertheless evidence the game-code owner should investigate; it is not fixed or explained by this report.
 
