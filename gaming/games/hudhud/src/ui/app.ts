@@ -18,6 +18,9 @@ import { algebraQuest, type AlgebraQuest } from "./algebra";
 import { SHEETS_QUEST, sheetsMap } from "../content/sheets";
 import { restoreSheets } from "../sim/sheets";
 import { sheetsQuest, type SheetsQuest } from "./sheets";
+import { SORT_QUEST, SORT_SUBJECT, sortDef } from "../content/sort";
+import { restoreSort } from "../sim/sort";
+import { sortQuest, type SortQuest } from "./sort";
 import { prologueScreen } from "./prologue";
 import { JAR, RECORDS, SCRIPTS, THINGS, TURN_SLACK, inPlay, type PlayStyle, type Speaker } from "../content/workshop";
 import { start, type Running } from "../game/boot";
@@ -159,7 +162,7 @@ async function main(): Promise<void> {
   // The goal and the talk sit over the picture on a wide screen and beside it on a narrow one (ui/hudhud.css).
   const stageWrap = el("div", { class: "stage-wrap", hidden: true }, objective, stage, talkBox);
   const hub = el("section", { class: "hub" });
-  // The second to fifth quests are played on a page of their own, beside the Atlas and the flying scene. One of them
+  // The second to sixth quests are played on a page of their own, beside the Atlas and the flying scene. One of them
   // is open at a time: `pageRun` is the one that is (see PAGE_QUESTS).
   const bench = el("section", { class: "bench", hidden: true });
   let pageRun: { quest: string; run: { node: HTMLElement; busy(): boolean; stop(): void } } | null = null;
@@ -833,10 +836,10 @@ async function main(): Promise<void> {
 
   applyLook();
   // ---------------------------------------------------------------------------------------- the Atlas
-  // The first thing a player sees: who they are, and the Atlas itself, ten worlds of five pages. Five quests can be
+  // The first thing a player sees: who they are, and the Atlas itself, ten worlds of five pages. Six quests can be
   // played; the others are named and said to be not built. Nothing here is a claim about history: the names are
   // the subjects' names and the grouping is a structure for play.
-  const BUILT: Record<string, string> = { "ibn-al-haytham": QUEST, "al-jazari": CLOCK_QUEST, "al-kindi": CIPHER_QUEST, "al-khwarizmi": ALGEBRA_QUEST, "al-idrisi": SHEETS_QUEST };
+  const BUILT: Record<string, string> = { "ibn-al-haytham": QUEST, "al-jazari": CLOCK_QUEST, "al-kindi": CIPHER_QUEST, "al-khwarizmi": ALGEBRA_QUEST, "al-idrisi": SHEETS_QUEST, [SORT_SUBJECT]: SORT_QUEST };
   function startQuest(): void {
     cues.unlock();
     // Asked once, after a press as browsers require; the answer is shown in the settings and never asked again.
@@ -884,7 +887,10 @@ async function main(): Promise<void> {
     bench.hidden = false;
     wordsBox.hidden = true;
     pauseBtn.hidden = true;
-    (bench.querySelector("h2") as HTMLElement | null)?.focus({ preventScroll: true });
+    // The Atlas may have been scrolled down when the quest was opened: bring the quest's heading to the top, at once (never a smooth scroll), and keep focus on it.
+    const top = bench.querySelector("h2") as HTMLElement | null;
+    top?.scrollIntoView({ behavior: "auto", block: "start" });
+    top?.focus({ preventScroll: true });
   }
   /** The quests played on a page. Each has its own page and rules (ui/, sim/); what is shared is here: which subject it belongs to, what it has left in the middle, its line about being a trial, and how it is made. */
   type Common = Omit<Parameters<typeof algebraQuest>[0], "title" | "resume">;
@@ -912,6 +918,12 @@ async function main(): Promise<void> {
       trial: "id_trial",
       saved: () => pageSaved(SHEETS_QUEST, (snap) => restoreSheets(snap, sheetsMap)),
       make: (c, title, kept) => sheetsQuest({ ...c, title, resume: kept as Parameters<typeof sheetsQuest>[0]["resume"] }),
+    },
+    [SORT_QUEST]: {
+      subject: SORT_SUBJECT,
+      trial: "jz_trial",
+      saved: () => pageSaved(SORT_QUEST, (snap) => restoreSort(snap, sortDef)),
+      make: (c, title, kept) => sortQuest({ ...c, title, resume: kept as Parameters<typeof sortQuest>[0]["resume"] }),
     },
   };
   /** Opens a quest played on a page, with no flying scene. One left in the middle comes back. */
@@ -947,7 +959,10 @@ async function main(): Promise<void> {
       atlasBtn.hidden = true;
       hub.hidden = false;
       drawHub();
-      (hub.querySelector(`button[data-quest="${onPage}"]`) as HTMLElement | null)?.focus({ preventScroll: true });
+      // Back on the Atlas, its heading is brought to the top, at once, and holds the focus.
+      const top = hub.querySelector("h2") as HTMLElement | null;
+      top?.scrollIntoView({ behavior: "auto", block: "start" });
+      top?.focus({ preventScroll: true });
       return;
     }
     setPaused(false);
@@ -1067,7 +1082,7 @@ async function main(): Promise<void> {
     book.setAttribute("aria-label", t("hub_book_alt", { n: num(home), total: num(atlas.subjects.length) }));
     drawAtlasBook(book, { ...picture, rtl: RTL.includes(lang) });
     hub.replaceChildren(
-      el("h2", { textContent: t("hub_title") }),
+      el("h2", { textContent: t("hub_title"), tabIndex: -1 }),
       el("p", { class: "progress", textContent: t("hub_progress", { n: num(home), total: num(atlas.subjects.length) }) }),
       bookFigure,
       choose,
@@ -1136,6 +1151,9 @@ async function main(): Promise<void> {
     startSheets: () => openPage(SHEETS_QUEST),
     sheets: () => { const r = pageOf<SheetsQuest>(SHEETS_QUEST); return r ? { ...r.state(), busy: r.busy(), selected: r.selected(), status: r.status() } : null; },
     sheetsCommand: (c: Parameters<SheetsQuest["command"]>[0]) => pageOf<SheetsQuest>(SHEETS_QUEST)?.command(c),
+    startSort: () => openPage(SORT_QUEST),
+    sort: () => { const r = pageOf<SortQuest>(SORT_QUEST); return r ? { ...r.state(), busy: r.busy(), selected: r.selected(), status: r.status() } : null; },
+    sortCommand: (c: Parameters<SortQuest["command"]>[0]) => pageOf<SortQuest>(SORT_QUEST)?.command(c),
     resumed: () => resumed,
     keys: () => settings().keys,
     prologue: () => ({ shown: openingShown, panel: openingShown ? prologue.panel() : 0 }),
