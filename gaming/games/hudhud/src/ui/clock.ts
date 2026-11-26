@@ -120,7 +120,7 @@ export function clockQuest(host: ClockHost): ClockQuest {
     moves.textContent = t("ck_moves", { n: num(state.moves) });
     go.disabled = running || state.done;
     const last = state.last;
-    drawBench(canvas, { places: p.places, spare: lying, lit: last ? Math.min(shown, last.moved.length) : 0, stopped: last && last.end !== "done" && !running ? last.at : null, done: state.done && !running });
+    drawBench(canvas, { places: p.places, spare: lying, lit: last ? Math.min(shown, last.moved.length) : 0, stopped: last && last.end !== "done" && !running ? last.at : null, done: state.done && !running, rtl: host.lang === "ar" || host.lang === "ur" });
     drawAsks();
   }
 
