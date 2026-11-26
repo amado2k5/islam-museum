@@ -900,9 +900,11 @@ export class ValleyRenderer {
     return this.pixelRatioCap;
   }
 
-  info(): { drawCalls: number; triangles: number; cpuRenderMs: number; engine: string; pixels: [number, number]; walkers: number; models: string[]; modelFailures: string[] } {
+  info(): { drawCalls: number; triangles: number; geometries: number | null; textures: number | null; cpuRenderMs: number; engine: string; pixels: [number, number]; walkers: number; models: string[]; modelFailures: string[] } {
     const r = this.renderer.info.render as unknown as { drawCalls: number; triangles: number };
-    return { drawCalls: r.drawCalls, triangles: r.triangles, cpuRenderMs: this.cpuMs, engine: `three r${THREE.REVISION} webgpu`, pixels: [this.canvas.width, this.canvas.height], walkers: this.walkers, models: [...this.models], modelFailures: [...this.modelFailures] };
+    // What the renderer says it is holding. Null where this renderer does not keep the count.
+    const held = (this.renderer.info as unknown as { memory?: { geometries?: number; textures?: number } }).memory;
+    return { drawCalls: r.drawCalls, triangles: r.triangles, geometries: held?.geometries ?? null, textures: held?.textures ?? null, cpuRenderMs: this.cpuMs, engine: `three r${THREE.REVISION} webgpu`, pixels: [this.canvas.width, this.canvas.height], walkers: this.walkers, models: [...this.models], modelFailures: [...this.modelFailures] };
   }
 
   dispose(): void {

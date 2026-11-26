@@ -3,6 +3,7 @@
 // The 3D district is one way to play and the plan view is another; both send the same commands.
 import { loadMusicStrings, musicControl } from "@im/audio/control";
 import { MUSIC_AVAILABLE, MUSIC_BASE, MusicPlayer } from "@im/audio/player";
+import { installCounters } from "@im/kernel/counters";
 import { probeWebGPU } from "@im/kernel/capability";
 import links from "../../data/museum-links.v1.json";
 import en from "../../i18n/en.json";
@@ -27,6 +28,8 @@ const TOOLS: Tool[] = ["inspect", "canal", ...BUILDING_TYPES, "demolish"];
 const TINTS: Record<Tint, [number, number, number]> = { water: [0.08, 0.6, 0.72], "new-water": [0.3, 1, 0.9], reach: [1, 0.74, 0.22], "served-house": [0.25, 1, 0.45], "unserved-house": [1, 0.3, 0.2] };
 
 const query = new URLSearchParams(location.search);
+// Asked to measure itself, the page counts its frames, memory and live resources from here on (kernel/counters.ts).
+const counters = query.has("counters") ? installCounters(window as never) : null;
 const lang: Lang = (LANGS as readonly string[]).includes(query.get("lang") ?? "") ? (query.get("lang") as Lang) : "en";
 // The chapter in hand. A saved game brings its own; `?scenario=` starts a new game in the one named.
 let scenario: Scenario = SCENARIOS[query.get("scenario") ?? ""] ?? FAILING_CANAL;
@@ -822,6 +825,7 @@ async function main(): Promise<void> {
       return pa && pb ? [(pa[0] + pb[0]) / 2, (pa[1] + pb[1]) / 2] : null;
     },
   };
+  if (counters) hook.counters = () => counters.snapshot();
   window.__GA__ = hook;
   bootText.textContent = t("boot_check");
   try {

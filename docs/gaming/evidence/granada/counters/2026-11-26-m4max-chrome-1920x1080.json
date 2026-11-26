@@ -1,0 +1,74 @@
+{
+ "address": "http://127.0.0.1:62651/games/granada/index.html?lang=en&fresh=1&counters=1&music=off",
+ "seconds": 15,
+ "measured": "2026-11-26T04:18:54.892Z",
+ "browser": "chrome 158.0.8127.38",
+ "machine": {
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/158.0.0.0 Safari/537.36",
+  "cores": 16,
+  "deviceMemoryGb": 32,
+  "gpu": {
+   "vendor": "apple",
+   "architecture": "metal-3",
+   "description": ""
+  },
+  "devicePixelRatio": 1,
+  "inner": [
+   1920,
+   1080
+  ]
+ },
+ "snapshot": {
+  "atMs": 22197,
+  "frames": {
+   "frames": 1799,
+   "durationMs": 14991.5,
+   "meanMs": 8.333,
+   "p50Ms": 8.3,
+   "p95Ms": 9,
+   "p99Ms": 9.3,
+   "maxMs": 9.4,
+   "minMs": 7.3,
+   "over16_7": 0,
+   "over33_3": 0,
+   "over50": 0,
+   "avgFps": 120.001,
+   "longestUnder30FpsMs": 0
+  },
+  "loops": 2,
+  "heapMb": 188.9,
+  "heapNote": "performance.memory.usedJSHeapSize: the JavaScript heap only, not the graphics memory",
+  "contexts": {
+   "webgpu": 1
+  },
+  "intervals": 2,
+  "workers": 0,
+  "listeners": 293,
+  "audio": {
+   "contexts": 0,
+   "nodesMade": 0
+  },
+  "provided": {
+   "renderer": {
+    "drawCalls": 286,
+    "triangles": 3005623,
+    "geometries": 115,
+    "textures": 56,
+    "cpuRenderMs": 2,
+    "engine": "three r187 webgpu",
+    "pixels": [
+     1494,
+     888
+    ],
+    "walkers": 9,
+    "models": [
+     "granada/mill"
+    ],
+    "modelFailures": [],
+    "eased": 0
+   }
+  }
+ },
+ "consoleErrors": [],
+ "note": "Measured on the machine named here. It is not one of the minimum machines, and passes no performance gate."
+}
