@@ -9,8 +9,8 @@ import { RECORDS, SCRIPTS, THINGS, TURN_SLACK, type PlayStyle, type Speaker } fr
 import { start, type Running } from "../game/boot";
 import { Input } from "../input/input";
 import { choicesOf, lineOf } from "../narrative/dialogue";
-import { current, load, recordQuest, store, type Quality, type SaveFile, type Settings } from "../save/save";
-import { apply, beam, goals, newScene, type Command, type Happened, type SceneState } from "../sim/scene";
+import { ACTIONS, DEFAULT_KEYS, assignKey, current, load, recordQuest, store, type Action, type Quality, type SaveFile, type Settings } from "../save/save";
+import { apply, beam, goals, newScene, restore, snapshot, type Command, type Happened, type SceneState } from "../sim/scene";
 import type { SceneHost } from "../scenes/workshop";
 import en from "../../i18n/en.json";
 
@@ -94,8 +94,13 @@ async function main(): Promise<void> {
   live.setAttribute("aria-live", "polite");
   const pauseBtn = el("button", { type: "button", textContent: t("btn_pause"), onclick: () => togglePause() });
   const settingsBtn = el("button", { type: "button", textContent: t("btn_settings"), onclick: () => openSettings() });
+  // Full screen takes the whole page, so that the sheets (settings, pause, results) come with it. Where the browser
+  // has no full screen for a page (an iPhone), the button is not shown.
+  const canFull = typeof document.documentElement.requestFullscreen === "function";
+  const fullBtn = el("button", { type: "button", textContent: t("btn_full"), hidden: !canFull, onclick: () => void (document.fullscreenElement ? document.exitFullscreen() : app.requestFullscreen().catch(() => undefined)) });
+  document.addEventListener("fullscreenchange", () => (fullBtn.textContent = t(document.fullscreenElement ? "btn_full_exit" : "btn_full")));
   const musicBox = el("div", { class: "music-corner" });
-  const bar = el("header", { class: "bar" }, el("h1", { textContent: t("title") }), el("span", { class: "chip", textContent: t("working_title") }), el("span", { class: "chip proto", textContent: t("prototype") }), el("span", { class: "grow" }), musicBox, pauseBtn, settingsBtn);
+  const bar = el("header", { class: "bar" }, el("h1", { textContent: t("title") }), el("span", { class: "chip", textContent: t("working_title") }), el("span", { class: "chip proto", textContent: t("prototype") }), el("span", { class: "grow" }), musicBox, fullBtn, pauseBtn, settingsBtn);
 
   const canvasBox = el("div", { class: "canvas-box" });
   const objective = el("div", { class: "objective" });
@@ -146,7 +151,7 @@ async function main(): Promise<void> {
     document.querySelector(".toast")?.remove();
     const node = el("div", { class: "toast", textContent: text });
     node.setAttribute("role", "status");
-    document.body.append(node);
+    app.append(node);
     window.clearTimeout(toastTimer);
     toastTimer = window.setTimeout(() => node.remove(), 6000);
   };
@@ -171,7 +176,16 @@ async function main(): Promise<void> {
   };
 
   // ---------------------------------------------------------------------------------------- the game
-  let state: SceneState = newScene(style());
+  // A quest left in the middle comes back as it was, if what was saved can be trusted and is for this way of playing.
+  const saved = slot().resume?.quest === QUEST ? restore(slot().resume!.snap) : null;
+  let resumed = saved !== null && saved.style === style();
+  let state: SceneState = resumed ? saved! : newScene(style());
+  const checkpoint = () => {
+    const resume = state.done || (state.turns === 0 && state.flags.length === 0 && !state.dark) ? null : { quest: QUEST, snap: snapshot(state) as unknown };
+    if (JSON.stringify(slot().resume) === JSON.stringify(resume)) return;
+    save = { ...save, slots: save.slots.map((x, i) => (i === save.slot && x ? { ...x, resume } : x)) };
+    keep();
+  };
   let running: Running | null = null;
   let paused = false;
   let started = false;
@@ -205,6 +219,8 @@ async function main(): Promise<void> {
     state = r.state;
     for (const h of r.happened) react(h);
     running?.scene()?.happened(r.happened);
+    // Kept whenever the player has control again, so that a closed tab loses nothing.
+    if (!state.talk) checkpoint();
     render();
   }
   function react(h: Happened): void {
@@ -402,6 +418,8 @@ async function main(): Promise<void> {
       field(t("set_effects"), vol("effects")),
       field(t("set_mute"), check(s.muted, (v) => change({ muted: v }))),
       field(t("set_captions"), check(s.captions, (v) => change({ captions: v }))),
+      el("h3", { textContent: t("set_keys") }),
+      keysBox(),
       el("h3", { textContent: t("set_slot") }),
       field(t("set_slot"), select(save.slots.map((_, i) => [i, t("slot_n", { n: num(i + 1) })] as [number, string]), save.slot, (v) => {
         const i = Number(v);
@@ -412,9 +430,32 @@ async function main(): Promise<void> {
       }), t("privacy")),
     );
   }
+  const ACTION_NAME: Record<Action, Key> = { left: "btn_left", right: "btn_right", fly: "btn_fly", down: "key_down", touch: "btn_touch" };
+  const keyName = (code: string) => code.replace(/^Key|^Digit/, "").replace(/^Arrow(.*)$/, (_, d: string) => ({ Left: "←", Right: "→", Up: "↑", Down: "↓" })[d] ?? d);
+  /** One button an action: it shows the action's keys, and pressing it waits for the next key and gives it to the action. */
+  function keysBox(): HTMLElement {
+    const box = el("div", {});
+    const draw = () => {
+      box.replaceChildren(
+        ...ACTIONS.map((a) => {
+          const b = el("button", { type: "button", textContent: t("key_change", { action: t(ACTION_NAME[a]), keys: settings().keys[a].map(keyName).join(", ") || "—" }) });
+          b.onclick = () => {
+            b.textContent = t("key_press");
+            input.capture = (code) => (change({ keys: assignKey(settings().keys, a, code) }), draw());
+            // Leaving the button without pressing a key cancels.
+            b.onblur = () => ((input.capture = null), draw());
+          };
+          return el("p", {}, b);
+        }),
+        el("p", {}, el("button", { type: "button", textContent: t("key_reset"), onclick: () => (change({ keys: structuredClone(DEFAULT_KEYS) }), draw()) })),
+      );
+    };
+    draw();
+    return box;
+  }
   function finish(): void {
     const g = goals(state);
-    save = { ...save, slots: save.slots.map((s, i) => (i === save.slot && s ? recordQuest(s, QUEST, g) : s)) };
+    save = { ...save, slots: save.slots.map((s, i) => (i === save.slot && s ? { ...recordQuest(s, QUEST, g), resume: null } : s)) };
     keep();
     const slack = TURN_SLACK[state.style];
     const goal = (mark: string, name: Key, how: string, met: boolean) => el("li", {}, el("span", { class: "mark", textContent: mark }), el("span", {}, el("strong", { textContent: t(name) }), el("br", {}), el("span", { class: "small", textContent: how })), el("span", { class: met ? "met" : "open", textContent: t(met ? "goal_met" : "goal_open") }));
@@ -451,9 +492,12 @@ async function main(): Promise<void> {
     document.documentElement.style.setProperty("--text-scale", String(s.textScale));
     document.documentElement.classList.toggle("contrast", s.highContrast);
     cues.set(s.volume, s.muted);
+    input.setKeys(s.keys);
   }
   function restart(rebuild: boolean): void {
     state = newScene(style());
+    resumed = false;
+    checkpoint();
     log.length = 0;
     if (!started) return render();
     if (rebuild || !running) {
@@ -511,7 +555,7 @@ async function main(): Promise<void> {
   });
 
   applyLook();
-  const play = el("button", { type: "button", class: "primary", textContent: t("start") });
+  const play = el("button", { type: "button", class: "primary", textContent: t(resumed ? "continue" : "start") });
   play.onclick = () => {
     cues.unlock();
     started = true;
@@ -541,6 +585,11 @@ async function main(): Promise<void> {
   }
   drawChoices();
   cover.append(el("h2", { textContent: t("subtitle") }), choose, el("p", { class: "small", textContent: t("cover_more") }), el("p", { textContent: t("start_hint") }), play);
+  if (resumed) {
+    const again = el("button", { type: "button", textContent: t("btn_restart"), onclick: () => (restart(false), (play.textContent = t("start")), again.remove(), note.remove()) });
+    const note = el("p", { class: "small", textContent: t("resume_note") });
+    cover.append(note, again);
+  }
   render();
 
   Object.assign(hook, {
@@ -558,6 +607,8 @@ async function main(): Promise<void> {
     restart: (rebuild: boolean) => restart(rebuild),
     redraw: () => redraw(),
     started: () => started,
+    resumed: () => resumed,
+    keys: () => settings().keys,
   });
   if (query.get("autostart") === "1") play.click();
 }

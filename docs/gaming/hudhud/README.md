@@ -15,7 +15,7 @@ _A 2D story game for the museum's gaming platform. Working title. **Prototype: o
 | 7 | Architecture, schemas, dependencies | [architecture](architecture.md), [G-0014](../adr/G-0014-hudhud-narrative-and-content-format.md) | one new dependency |
 | 8 | Website Play and navigation plan | [website plan](website-plan.md) | a proposal only; a header entry rewrites every page and is held for the weekly batch |
 | 9 | Accessibility, child safety, languages, history, assets | [accessibility and the rest](accessibility.md), [the review ledger](../historical-review/ledger.md) | much is built; nothing is audited, read by a native speaker, reviewed by a historian or played by a child |
-| 10 | The golden scene, running, with captures and tests | `gaming/games/hudhud/`, [test plan](test-plan.md), [evidence](../evidence/hudhud/golden-scene/) | plays start to finish in Chrome in seven languages; 93 tests of its own |
+| 10 | The golden scene, running, with captures and tests | `gaming/games/hudhud/`, [test plan](test-plan.md), [evidence](../evidence/hudhud/golden-scene/) | plays start to finish in Chrome in seven languages; 97 tests of its own |
 
 Also: [the state of the game](../games/hudhud.md); [the player's explorers](explorers.md) (a girl or a boy, built; a roster by region and century, proposed); [the pause of the other games](pause-of-other-games.md).
 
@@ -45,4 +45,4 @@ plays it in real Chrome and writes pictures and a report.
 
 ## What is not done (do not read this as a finished phase)
 
-Phase 0's documents are written and Phase 1's scene runs, but **Phase 1 is not complete until the founder accepts the look in words**. Not done in Phase 0 and 1: the title search; a recording (there are stills, no video); measurements on either reference machine; a screen-reader pass; any playtest; remapping; a story bible beyond the frame and the world table. Phases 2 to 4 are not started.
+Phase 0's documents are written and Phase 1's scene runs, but **Phase 1 is not complete until the founder accepts the look in words**. Not done in Phase 0 and 1: the title search; a recording (there are stills, no video); measurements on either reference machine; a screen-reader pass; any playtest; a story bible beyond the frame and the world table. Phases 2 to 4 are not started.

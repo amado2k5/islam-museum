@@ -7,7 +7,7 @@ _26 November 2026. Describes what is built for the golden scene and what the sam
 ```
 gaming/games/hudhud/
   index.html            the page: one stylesheet, one script, no inline style or script
-  i18n/<lang>.json      170 strings, the same keys in the same order in ar, en, ur, fr, es, tr, id
+  i18n/<lang>.json      179 strings, the same keys in the same order in ar, en, ur, fr, es, tr, id
   src/
     sim/                RULES. Pure, no Phaser, no DOM, no clock, no unseeded chance; run in Node
       light.ts            the beam on a grid: trace, turn a mirror, solve, generate from a seed
@@ -24,7 +24,7 @@ gaming/games/hudhud/
     scenes/workshop.ts  Phaser scene: builds the pictures, moves them from the state, measures itself
     game/boot.ts        starts and stops Phaser; sizes the canvas; counts draw calls when asked
     ui/app.ts, .css     the page: talk, goal, settings, pause, results, the scene in words, the test hook
-    tests/*.gtest.ts    93 tests
+    tests/*.gtest.ts    97 tests
 gaming/tools/hudhud-play.ts     plays the scene in real Chrome and records everything
 gaming/tools/hudhud-rebuild.ts  rebuilds the game repeatedly and reads memory
 ```
@@ -85,7 +85,7 @@ interface Slot { settings: Settings; keeper: { kind, skin, outfit, hair }; // gi
 
 A file that cannot be parsed is copied whole to `im.hudhud.save.quarantine` and a fresh one is started. A file with a higher version is left as it is and nothing is written for that visit. Storage that is missing or throws lets the game play and says that progress is not being saved. There is one version, so the migration table is empty; a test requires an entry for every version below the current one.
 
-**Not saved inside a quest.** A reload returns to the start of the scene. Checkpoints inside a quest are needed before the slice (quests of 15 to 25 minutes must not be lost to a closed tab).
+**A quest in progress is saved** whenever the player has control: `slot.resume = { quest, snap }`, where `snap` is `snapshot(state)` (style, each mirror's lean, turns, flags, the ink, the curtain). On the way back `restore()` builds the room afresh and lays over it only what it can check; a file it cannot trust gives a fresh quest. A conversation is never restored. The slot also holds `settings.keys`, the keys for each action.
 
 **The traceability table** (`content/atlas.v1.json`): `archive` (digests), `worlds[10]`, `subjects[50]` (`id`, `world`, `quest`, `kind`, `records[]`, `sources[]`, `titles`, `named`, `review`, `note?`), `sources[80]` (`file`, `lang`, `episode`, `story`, `named`, `bytes`, `sha256`, `width`, `height`, `subject`).
 
@@ -99,4 +99,4 @@ Proposed in [the art bible](art-bible.md#media-budget-proposed-to-be-set-by-meas
 
 ## What the architecture does not have yet
 
-Scenes other than one (boot, title, hub, world map, results as scenes); loading a world on demand; atlases; checkpoints inside a quest; remapping of keys and buttons; a challenge archive; postcards; the "simple language" variant; background-tab behaviour beyond pausing when the page is hidden (seen once in the app's browser pane, not tested by a tool); any analytics, which are not authorised and will not be added.
+Scenes other than one (boot, title, hub, world map, results as scenes); loading a world on demand; atlases; remapping of gamepad buttons; a challenge archive; postcards; the "simple language" variant; background-tab behaviour beyond pausing when the page is hidden (seen once in the app's browser pane, not tested by a tool); any analytics, which are not authorised and will not be added.

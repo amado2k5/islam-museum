@@ -124,6 +124,11 @@ a { color: #ffd98a; }
   .field { grid-template-columns: 1fr; }
 }
 @media (prefers-reduced-motion: reduce) { * { scroll-behavior: auto; transition: none !important; animation: none !important; } }
+/* Full screen: the picture as large as the screen allows; the words below it are put away until it is left. */
+.hh:fullscreen { max-width: none; width: 100vw; height: 100vh; overflow: auto; padding: 6px 10px; background: var(--night); }
+.hh:fullscreen .words { display: none; }
+.hh:fullscreen .bar { padding-block: 0 4px; }
+.hh:fullscreen .stage-wrap { width: min(100%, calc((100vh - 70px) * 16 / 9)); }
 /* A phone held sideways: the picture takes the whole height; the title bar is above it, one scroll away. */
 @media (max-height: 520px) {
   .stage-wrap { width: min(100%, calc((100vh - 12px) * 16 / 9)); }

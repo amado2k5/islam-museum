@@ -25,6 +25,18 @@ export interface Settings {
   volume: { ambience: number; voices: number; effects: number };
   muted: boolean;
   captions: boolean;
+  /** The keys for each action, as KeyboardEvent codes. Escape always pauses and is not here. */
+  keys: Keys;
+}
+export type Action = "left" | "right" | "fly" | "down" | "touch";
+export type Keys = Record<Action, string[]>;
+export const ACTIONS: readonly Action[] = ["left", "right", "fly", "down", "touch"];
+export const DEFAULT_KEYS: Keys = { left: ["ArrowLeft", "KeyA"], right: ["ArrowRight", "KeyD"], fly: ["Space", "ArrowUp", "KeyW"], down: ["ArrowDown", "KeyS"], touch: ["KeyE", "Enter"] };
+/** One key given to one action: it is taken from any other action that had it, so no key ever does two things. */
+export function assignKey(keys: Keys, action: Action, code: string): Keys {
+  const out = {} as Keys;
+  for (const a of ACTIONS) out[a] = a === action ? [code] : keys[a].filter((c) => c !== code);
+  return out;
 }
 export interface Keeper {
   /** 0 a boy, 1 a girl: the player's choice on the first screen. It changes the figure and the grammar of a few lines. */
@@ -46,6 +58,8 @@ export interface Slot {
   settings: Settings;
   keeper: Keeper;
   quests: Record<string, QuestRecord>;
+  /** A quest left in the middle: which, and what the rules need to put it back (checked by them, not here). */
+  resume: { quest: string; snap: unknown } | null;
 }
 export interface SaveFile {
   v: number;
@@ -53,8 +67,8 @@ export interface SaveFile {
   slots: (Slot | null)[];
 }
 
-export const DEFAULT_SETTINGS: Settings = { style: "explorer", quality: "medium", reducedMotion: false, highContrast: false, textScale: 1, textSpeed: 40, volume: { ambience: 0.6, voices: 0.8, effects: 0.8 }, muted: false, captions: true };
-export const newSlot = (): Slot => ({ settings: structuredClone(DEFAULT_SETTINGS), keeper: { kind: 1, skin: 1, outfit: 0, hair: 3 }, quests: {} });
+export const DEFAULT_SETTINGS: Settings = { style: "explorer", quality: "medium", reducedMotion: false, highContrast: false, textScale: 1, textSpeed: 40, volume: { ambience: 0.6, voices: 0.8, effects: 0.8 }, muted: false, captions: true, keys: DEFAULT_KEYS };
+export const newSlot = (): Slot => ({ settings: structuredClone(DEFAULT_SETTINGS), keeper: { kind: 1, skin: 1, outfit: 0, hair: 3 }, quests: {}, resume: null });
 export const newSave = (): SaveFile => ({ v: SAVE_VERSION, slot: 0, slots: [newSlot(), null, null] });
 
 const isObj = (x: unknown): x is Record<string, unknown> => typeof x === "object" && x !== null && !Array.isArray(x);
@@ -67,6 +81,16 @@ function readSlot(x: unknown): Slot | null {
   const s = isObj(x.settings) ? x.settings : {};
   const vol = isObj(s.volume) ? s.volume : {};
   const k = isObj(x.keeper) ? x.keeper : {};
+  const rawKeys = isObj(s.keys) ? s.keys : {};
+  const keys = {} as Keys;
+  for (const a of ACTIONS) {
+    const list = Array.isArray(rawKeys[a]) ? (rawKeys[a] as unknown[]).filter((c): c is string => typeof c === "string" && /^[A-Za-z0-9]{1,24}$/.test(c) && c !== "Escape").slice(0, 4) : null;
+    keys[a] = list ?? [...DEFAULT_KEYS[a]];
+  }
+  // A key may do one thing only; if a broken file gives it two, the defaults come back.
+  const all = ACTIONS.flatMap((a) => keys[a]);
+  const sound = new Set(all).size === all.length;
+  const r = isObj(x.resume) && typeof x.resume.quest === "string" && /^[a-z0-9-]{1,40}$/.test(x.resume.quest) && isObj(x.resume.snap) ? { quest: x.resume.quest, snap: x.resume.snap as unknown } : null;
   const quests: Record<string, QuestRecord> = {};
   for (const [id, q] of Object.entries(isObj(x.quests) ? x.quests : {})) {
     if (!isObj(q) || !/^[a-z0-9-]{1,40}$/.test(id)) continue;
@@ -83,9 +107,11 @@ function readSlot(x: unknown): Slot | null {
       volume: { ambience: clamp(vol.ambience, 0, 1, 0.6), voices: clamp(vol.voices, 0, 1, 0.8), effects: clamp(vol.effects, 0, 1, 0.8) },
       muted: bool(s.muted, false),
       captions: bool(s.captions, true),
+      keys: sound ? keys : structuredClone(DEFAULT_KEYS),
     },
     keeper: { kind: Math.floor(clamp(k.kind, 0, 1, 1)), skin: Math.floor(clamp(k.skin, 0, 3, 1)), outfit: Math.floor(clamp(k.outfit, 0, 2, 0)), hair: Math.floor(clamp(k.hair, 0, 3, 0)) },
     quests,
+    resume: r,
   };
 }
 

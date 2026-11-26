@@ -2,7 +2,7 @@
 // and a list of things that happened; the page plays sounds and moves pictures from that list and decides nothing.
 import { SCRIPTS, THINGS, TURN_SLACK, workshopPuzzle, type PlayStyle, type Speaker } from "../content/workshop";
 import { back, choose, forward, open, openingFlags, type Talk } from "../narrative/dialogue";
-import { solve, trace, turnMirror, type LightPuzzle, type Trace } from "./light";
+import { solve, trace, turnMirror, type Lean, type LightPuzzle, type Mirror, type Trace } from "./light";
 
 export interface SceneState {
   v: 1;
@@ -131,6 +131,47 @@ export function goals(s: SceneState): Goals {
     turns: s.turns,
     par: s.par,
   };
+}
+
+/** What is kept of a quest in progress: enough to put the room back, and nothing that cannot be checked. */
+export interface Snapshot {
+  style: PlayStyle;
+  leans: Record<string, Lean>;
+  turns: number;
+  flags: string[];
+  restored: boolean;
+  dark: boolean;
+}
+export const FLAGS = ["metScholar", "askedMore", "metCat", "secret", "feather"] as const;
+export function snapshot(s: SceneState): Snapshot {
+  return { style: s.style, leans: Object.fromEntries(s.puzzle.mirrors.map((m) => [m.id, m.lean])), turns: s.turns, flags: [...s.flags], restored: s.restored, dark: s.dark };
+}
+/**
+ * A quest put back from what was saved, or null if what was saved cannot be trusted. Nothing is taken on faith: the
+ * room is built afresh for the style and only the leans, the count, known flags and two switches are laid over it.
+ * A conversation is never restored: the player comes back with control.
+ */
+export function restore(x: unknown): SceneState | null {
+  if (typeof x !== "object" || x === null) return null;
+  const o = x as Record<string, unknown>;
+  if (o.style !== "story" && o.style !== "explorer" && o.style !== "challenge") return null;
+  const base = newScene(o.style);
+  const leans = o.leans;
+  if (typeof leans !== "object" || leans === null) return null;
+  const mirrors: Mirror[] = [];
+  for (const m of base.puzzle.mirrors) {
+    const lean = (leans as Record<string, unknown>)[m.id];
+    if (lean !== "/" && lean !== "\\") return null;
+    mirrors.push({ ...m, lean });
+  }
+  if (typeof o.turns !== "number" || !Number.isInteger(o.turns) || o.turns < 0 || o.turns > 100000) return null;
+  if (!Array.isArray(o.flags) || typeof o.restored !== "boolean" || typeof o.dark !== "boolean") return null;
+  const flags = FLAGS.filter((f) => (o.flags as unknown[]).includes(f));
+  const puzzle = { ...base.puzzle, mirrors };
+  // The ink cannot be back unless the page was lit at some time; a lit page always has its ink.
+  const restored = o.restored || trace(puzzle).lit;
+  if (restored && o.turns < base.par) return null;
+  return { ...base, puzzle, turns: o.turns, flags: [...flags], talk: null, restored, dark: o.dark };
 }
 
 /** A whole play as a list of commands gives the same end every time: used by the tests and the browser tool. */

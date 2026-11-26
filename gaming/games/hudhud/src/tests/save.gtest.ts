@@ -1,7 +1,7 @@
 // What is kept on the device: it comes back as it went, a broken file is set aside and not destroyed, a newer file
 // is not written over, and a device that refuses storage still plays.
 import { describe, expect, it } from "vitest";
-import { DEFAULT_SETTINGS, MIGRATIONS, QUARANTINE_KEY, SAVE_KEY, SAVE_VERSION, SLOTS, current, load, mergeSaves, newSave, newSlot, readSave, recordQuest, store, writeSave, type Storage } from "../save/save";
+import { ACTIONS, DEFAULT_KEYS, DEFAULT_SETTINGS, MIGRATIONS, assignKey, QUARANTINE_KEY, SAVE_KEY, SAVE_VERSION, SLOTS, current, load, mergeSaves, newSave, newSlot, readSave, recordQuest, store, writeSave, type Storage } from "../save/save";
 
 const memory = (init: Record<string, string> = {}): Storage & { data: Record<string, string> } => {
   const data = { ...init };
@@ -95,6 +95,23 @@ describe("Hudhud's save", () => {
     // Joined, each quest keeps the best of both.
     const a = { ...older, slots: [recordQuest(current(older), "q", { turns: 5, curiosity: false, ingenuity: false, kindness: true, feather: false }), null, null] };
     expect(current(mergeSaves(a, done)).quests.q).toEqual({ done: true, bestTurns: 3, curiosity: true, ingenuity: true, kindness: true, feather: false });
+  });
+  it("gives a key to one action only, and mends keys a broken file gives twice", () => {
+    const keys = assignKey(DEFAULT_KEYS, "fly", "KeyA");
+    expect(keys.fly).toEqual(["KeyA"]);
+    expect(keys.left).toEqual(["ArrowLeft"]);
+    const all = ACTIONS.flatMap((a) => keys[a]);
+    expect(new Set(all).size).toBe(all.length);
+    const file = (k: unknown) => current(readSave(JSON.stringify({ v: 1, slot: 0, slots: [{ settings: { keys: k } }] })).save).settings.keys;
+    expect(file(keys)).toEqual(keys);
+    expect(file({ ...DEFAULT_KEYS, fly: ["ArrowLeft"] })).toEqual(DEFAULT_KEYS);
+    expect(file({ left: ["Escape"], right: [42], fly: "Space" })).toEqual({ ...DEFAULT_KEYS, left: [], right: [] });
+    expect(file(undefined)).toEqual(DEFAULT_KEYS);
+  });
+  it("keeps a quest left in the middle, and drops one it cannot name", () => {
+    const slot = (resume: unknown) => current(readSave(JSON.stringify({ v: 1, slot: 0, slots: [{ resume }] })).save).resume;
+    expect(slot({ quest: "w03q1-ibn-al-haytham", snap: { turns: 2 } })).toEqual({ quest: "w03q1-ibn-al-haytham", snap: { turns: 2 } });
+    for (const bad of [null, "x", { quest: "BAD QUEST", snap: {} }, { quest: "ok", snap: 5 }, { snap: {} }]) expect(slot(bad)).toBeNull();
   });
   it("has a migration from every version before this one", () => {
     for (let v = 1; v < SAVE_VERSION; v++) expect(typeof MIGRATIONS[v], `from version ${v}`).toBe("function");
