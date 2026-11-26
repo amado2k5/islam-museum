@@ -6,9 +6,9 @@ _26 November 2026. What was run is listed with its result. What was not run is l
 
 | Check | Result |
 |---|---|
-| `npm --prefix gaming test` | **25 files, 439 tests, all pass** (85 are Hudhud's own, in six files; the two shared tests of labels and review marks now cover four games) |
+| `npm --prefix gaming test` | **25 files, 447 tests, all pass** (93 are Hudhud's own, in six files; the two shared tests of labels and review marks now cover four games) |
 | `npm --prefix gaming run typecheck` | pass |
-| `npm --prefix gaming run strings` | pass: Hudhud 7 languages, 163 strings |
+| `npm --prefix gaming run strings` | pass: Hudhud 7 languages, 170 strings |
 | `npm --prefix gaming run build:release` | pass: four games; Hudhud 1,456,166 bytes of script, 7,238 of style |
 | `npm --prefix gaming run check:release -- --allow-dirty` | pass: the release matches its manifest |
 | `npm --prefix gaming run release:smoke` | pass: all four games start in Arabic and English behind the Worker's own headers; no policy violation, no request to another origin |
@@ -17,7 +17,7 @@ _26 November 2026. What was run is listed with its result. What was not run is l
 | `gaming/tools/hudhud-rebuild.ts 12 medium` | memory level after twelve rebuilds |
 | The museum's `npm run validate`, `npm test`, `npm run build` | **not run**: no museum file (`data/`, `content/`, `site/`, `i18n/`, `schema/`) is changed; the games' rule sends a change confined to the games to the games' suite |
 
-## What the 85 tests hold
+## What the 93 tests hold
 
 | The instruction asks (section 12) | Test | State |
 |---|---|---|
@@ -68,7 +68,7 @@ _26 November 2026. What was run is listed with its result. What was not run is l
 | D2 | The Storykeeper walks in front of furniture and the cat, and through the scholar; she has no path of her own |
 | D3 | Figures face one way and are mirrored: asymmetric details flip |
 | D4 | The wall picture of the dark room is on the back wall near the reading stand, not on the wall opposite the hole (ledger HR-HH-06) |
-| D5 | After a lost graphics context the scene restarts from its beginning |
+| D5 | After a lost graphics context, or a change of effects preset or of the explorer's look, the picture is redrawn and the bird returns to the door; the quest itself is kept (it was lost before the review of the first pull request found it) |
 | D6 | The page's status line for the beam is announced politely on every turn; whether that is too much or too little for a screen-reader user is untested |
 | D7 | On a phone held sideways the title bar takes the first screen and the picture is one scroll down |
 | D8 | Moods change only the crest and an arm; faces do not change expression |

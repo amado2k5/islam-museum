@@ -149,7 +149,7 @@ for (const game of manifest.games.filter((g) => g.page)) {
       const hook = (await page.evaluate("({ ready: window.__HH__.ready, error: window.__HH__.error ?? null })")) as { ready: boolean; error: string | null };
       if (!hook.ready) errors.push(`the game did not start: ${hook.error}`);
       else {
-        await page.locator(".cover button").click();
+        await page.locator(".cover button.primary").click();
         for (const end = Date.now() + 30_000; !(await page.evaluate("window.__HH__.where() !== null")); ) {
           if (Date.now() > end) break;
           await page.waitForTimeout(150);

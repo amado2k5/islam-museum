@@ -66,6 +66,13 @@ describe("the strings", () => {
     for (const thing of THINGS) expect(typeof t[thing.name], thing.name).toBe("string");
     for (const who of ["hudhud", "keeper", "scholar", "cat", "narrator"]) expect(typeof t[`who_${who}`], who).toBe("string");
   });
+  it.each(LANGS)("have a form of the Storykeeper's name and lines for a girl explorer, in %s", (lang) => {
+    const t = table(lang);
+    expect(t.who_keeper_f!.trim().length).toBeGreaterThan(2);
+    // Every "_f" line has the line it stands in for.
+    for (const k of Object.keys(t).filter((x) => x.endsWith("_f"))) expect(typeof t[k.slice(0, -2)], k).toBe("string");
+    for (const k of ["cover_choose", "keeper_girl", "keeper_boy"]) expect(t[k]!.trim().length, k).toBeGreaterThan(2);
+  });
   it("say on the page, in every language, that the game is a prototype, that the title is a working one, that the story is invented and that the pictures are a trial drawn by code", () => {
     for (const lang of LANGS) {
       const t = table(lang);

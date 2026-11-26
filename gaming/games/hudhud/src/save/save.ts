@@ -27,6 +27,8 @@ export interface Settings {
   captions: boolean;
 }
 export interface Keeper {
+  /** 0 a boy, 1 a girl: the player's choice on the first screen. It changes the figure and the grammar of a few lines. */
+  kind: number;
   /** Index into the skin tones and the outfits the art offers. */
   skin: number;
   outfit: number;
@@ -52,7 +54,7 @@ export interface SaveFile {
 }
 
 export const DEFAULT_SETTINGS: Settings = { style: "explorer", quality: "medium", reducedMotion: false, highContrast: false, textScale: 1, textSpeed: 40, volume: { ambience: 0.6, voices: 0.8, effects: 0.8 }, muted: false, captions: true };
-export const newSlot = (): Slot => ({ settings: structuredClone(DEFAULT_SETTINGS), keeper: { skin: 1, outfit: 0, hair: 0 }, quests: {} });
+export const newSlot = (): Slot => ({ settings: structuredClone(DEFAULT_SETTINGS), keeper: { kind: 1, skin: 1, outfit: 0, hair: 3 }, quests: {} });
 export const newSave = (): SaveFile => ({ v: SAVE_VERSION, slot: 0, slots: [newSlot(), null, null] });
 
 const isObj = (x: unknown): x is Record<string, unknown> => typeof x === "object" && x !== null && !Array.isArray(x);
@@ -82,7 +84,7 @@ function readSlot(x: unknown): Slot | null {
       muted: bool(s.muted, false),
       captions: bool(s.captions, true),
     },
-    keeper: { skin: Math.floor(clamp(k.skin, 0, 3, 1)), outfit: Math.floor(clamp(k.outfit, 0, 2, 0)), hair: Math.floor(clamp(k.hair, 0, 2, 0)) },
+    keeper: { kind: Math.floor(clamp(k.kind, 0, 1, 1)), skin: Math.floor(clamp(k.skin, 0, 3, 1)), outfit: Math.floor(clamp(k.outfit, 0, 2, 0)), hair: Math.floor(clamp(k.hair, 0, 3, 0)) },
     quests,
   };
 }
@@ -130,6 +132,30 @@ export function recordQuest(slot: Slot, id: string, r: { turns: number; curiosit
   };
 }
 
+/**
+ * What this page holds, joined with what is in storage now. Another tab of the game may have saved since this one
+ * read: its finished quests are kept, each at the best of the two, so that one tab never undoes another's progress.
+ * Settings, the Storykeeper and the slot in use are this page's own.
+ */
+export function mergeSaves(mine: SaveFile, stored: SaveFile): SaveFile {
+  return {
+    ...mine,
+    slots: mine.slots.map((slot, i) => {
+      const other = stored.slots[i];
+      if (!other) return slot;
+      if (!slot) return other;
+      let merged = slot;
+      for (const [id, q] of Object.entries(other.quests)) {
+        if (!q.done) continue;
+        const had = merged.quests[id];
+        merged = had ? recordQuest(merged, id, { turns: q.bestTurns ?? had.bestTurns ?? 0, curiosity: q.curiosity, ingenuity: q.ingenuity, kindness: q.kindness, feather: q.feather }) : { ...merged, quests: { ...merged.quests, [id]: q } };
+        if (had && had.bestTurns === null && q.bestTurns === null) merged.quests[id]!.bestTurns = null;
+      }
+      return merged;
+    }),
+  };
+}
+
 export interface Storage {
   getItem(key: string): string | null;
   setItem(key: string, value: string): void;
@@ -158,7 +184,9 @@ export function load(storage: Storage | null): ReadResult & { stored: boolean } 
 export function store(storage: Storage | null, s: SaveFile, allowed: boolean): boolean {
   if (!storage || !allowed) return false;
   try {
-    storage.setItem(SAVE_KEY, writeSave(s));
+    // Read what is there first: another tab may have finished a quest since this page loaded.
+    const now = readSave(storage.getItem(SAVE_KEY));
+    storage.setItem(SAVE_KEY, writeSave(now.kind === "ok" ? mergeSaves(s, now.save) : s));
     return true;
   } catch {
     return false;

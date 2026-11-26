@@ -48,6 +48,12 @@ a { color: #ffd98a; }
 .cover p { margin: 0; max-width: 44ch; color: var(--ivory); }
 .cover .primary { font-size: 1.25rem; padding: 12px 40px; }
 
+.choose { border: 0; padding: 0; margin: 0; display: flex; gap: 16px; justify-content: center; flex-wrap: wrap; }
+.choose legend { width: 100%; text-align: center; padding-block-end: 8px; color: var(--ivory); font-weight: 700; }
+.choose button { display: grid; justify-items: center; gap: 6px; padding: 10px 16px; background: rgba(10, 26, 54, 0.6); }
+.choose button[aria-pressed="true"] { border-color: var(--gold); background: #18407a; box-shadow: 0 0 0 3px var(--gold); }
+.choose canvas { width: clamp(64px, 10vw, 110px); height: auto; border-radius: 50%; }
+.cover { overflow: auto; }
 .objective { position: absolute; inset-block-start: 10px; inset-inline-start: 10px; max-width: min(60%, 520px); padding: 8px 14px; background: var(--panel); border: 1px solid var(--line); border-radius: 12px; font-size: 0.95rem; z-index: 3; }
 .objective small { display: block; color: var(--muted); }
 .prompt { position: absolute; inset-block-end: 84px; inset-inline: 0; margin-inline: auto; width: max-content; max-width: 90%; padding: 6px 16px; background: var(--gold); color: #1c1206; font-weight: 700; border-radius: 999px; z-index: 3; }
@@ -129,4 +135,8 @@ a { color: #ffd98a; }
   .talk { padding: 8px 12px; }
   .talk .line { font-size: 0.95rem; min-height: 0; margin-block-end: 6px; }
   .talk img { width: 52px; }
+  .cover { gap: 6px; padding: 8px; place-content: start center; }
+  .cover h2 { font-size: 1.1rem; }
+  .choose canvas { width: 52px; }
+  .choose button { padding: 4px 10px; }
 }

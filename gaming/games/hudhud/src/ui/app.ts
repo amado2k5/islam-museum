@@ -4,7 +4,7 @@
 import { loadMusicStrings, musicControl } from "@im/audio/control";
 import { MUSIC_AVAILABLE, MUSIC_BASE, MusicPlayer } from "@im/audio/player";
 import { Cues, type Cue } from "../audio/cues";
-import { HAIRS, OUTFITS, SKINS } from "../art/cast";
+import { HAIRS, OUTFITS, SKINS, keeper as paintKeeper, portrait } from "../art/cast";
 import { RECORDS, SCRIPTS, THINGS, TURN_SLACK, type PlayStyle, type Speaker } from "../content/workshop";
 import { start, type Running } from "../game/boot";
 import { Input } from "../input/input";
@@ -59,12 +59,29 @@ async function main(): Promise<void> {
   const mayStore = loaded.stored;
   const slot = () => current(save);
   const settings = (): Settings => slot().settings;
-  const keep = () => store(storage, save, mayStore);
+  const keep = () => {
+    const ok = store(storage, save, mayStore);
+    if (ok) {
+      // store() joined in whatever another tab had saved; hold the same here.
+      const now = load(storage);
+      if (now.kind === "ok") save = { ...now.save, slot: save.slot };
+    }
+    return ok;
+  };
   const change = (patch: Partial<Settings>) => {
     save = { ...save, slots: save.slots.map((s, i) => (i === save.slot && s ? { ...s, settings: { ...s.settings, ...patch } } : s)) };
     keep();
     applyLook();
   };
+  type Look = ReturnType<typeof slot>["keeper"];
+  const setKeeper = (patch: Partial<Look>) => {
+    save = { ...save, slots: save.slots.map((x, i) => (i === save.slot && x ? { ...x, keeper: { ...x.keeper, ...patch } } : x)) };
+    keep();
+  };
+  const girl = () => slot().keeper.kind === 1;
+  /** The Storykeeper's name and lines in the form that fits the explorer the player chose. */
+  const whoName = (who: Speaker): string => t((who === "keeper" && girl() ? "who_keeper_f" : `who_${who}`) as Key);
+  const lineText = (who: Speaker, key: string): string => t((who === "keeper" && girl() && `${key}_f` in strings ? `${key}_f` : key) as Key);
   // The address can ask for a way of playing, for tests and captures; it is not saved unless the player changes it.
   const asked = { style: query.get("style"), q: query.get("q"), motion: query.get("motion") };
   const style = (): PlayStyle => (["story", "explorer", "challenge"].includes(asked.style ?? "") ? (asked.style as PlayStyle) : settings().style);
@@ -221,7 +238,7 @@ async function main(): Promise<void> {
     }
     const line = lineOf(SCRIPTS, talk);
     const id = `${talk.script}/${talk.node}/${talk.line}`;
-    const text = t(line.key as Key);
+    const text = lineText(line.who, line.key);
     const choices = choicesOf(SCRIPTS, talk, new Set(state.flags));
     if (shownLine !== id && !log.some((l, i) => i === log.length - 1 && l.key === line.key)) log.push({ who: line.who, key: line.key });
     const fresh = shownLine !== id;
@@ -239,7 +256,7 @@ async function main(): Promise<void> {
         if (shown >= chars.length) window.clearInterval(typing);
       }, 1000 / speed);
     } else lineEl.textContent = text;
-    const who = t(`who_${line.who}` as Key);
+    const who = whoName(line.who);
     if (fresh) live.textContent = `${who}: ${text}`;
     const next = el("button", { type: "button", class: "primary", textContent: t("btn_next"), onclick: () => run({ type: "forward" }) });
     const body = el(
@@ -287,7 +304,13 @@ async function main(): Promise<void> {
         const mirror = k.kind === "mirror" ? state.puzzle.mirrors.find((m) => `mirror-${m.id}` === k.id)! : null;
         const name = t(k.name as Key);
         const label = mirror ? `${t("alt_turn", { thing: t("mirror_state", { thing: name, lean: t(mirror.lean === "/" ? "lean_up" : "lean_down") }) })}` : k.kind === "page" && state.restored ? t("btn_finish") : t("alt_touch", { thing: name });
-        const b = el("button", { type: "button", textContent: label, disabled: frozen(), onclick: () => (cues.unlock(), mirror ? run({ type: "touch", id: k.id }) : running?.scene()?.goTo(k.id)) });
+        const b = el("button", { type: "button", textContent: label, disabled: frozen(), onclick: () => {
+          cues.unlock();
+          // With no picture (WebGL would not start) there is no bird to fly there: the list touches the thing itself.
+          const scene = running?.scene();
+          if (mirror || !scene) run({ type: "touch", id: k.id });
+          else scene.goTo(k.id);
+        } });
         return el("li", {}, b);
       }),
     );
@@ -328,7 +351,7 @@ async function main(): Promise<void> {
     return node;
   }
   function openLog(): void {
-    sheet(t("log_title"), log.length ? el("div", {}, ...log.map((l) => el("p", {}, el("strong", { textContent: `${t(`who_${l.who}` as Key)}: ` }), t(l.key as Key)))) : el("p", { textContent: t("log_empty") }));
+    sheet(t("log_title"), log.length ? el("div", {}, ...log.map((l) => el("p", {}, el("strong", { textContent: `${whoName(l.who)}: ` }), lineText(l.who, l.key)))) : el("p", { textContent: t("log_empty") }));
   }
   function field(label: string, control: HTMLElement, hint?: string): HTMLElement {
     const id = `f-${label.replace(/\W+/g, "-")}-${Math.round(performance.now())}`;
@@ -355,21 +378,21 @@ async function main(): Promise<void> {
     const s = settings();
     const k = slot().keeper;
     const keeper = (patch: Partial<typeof k>) => {
-      save = { ...save, slots: save.slots.map((x, i) => (i === save.slot && x ? { ...x, keeper: { ...x.keeper, ...patch } } : x)) };
-      keep();
-      restart(false);
+      setKeeper(patch);
+      redraw();
     };
     const pick = (n: number, value: number, on: (v: number) => void) => select(Array.from({ length: n }, (_, i) => [i, t("option_n", { n: num(i + 1) })] as [number, string]), value, (v) => on(Number(v)));
     const vol = (g: "ambience" | "voices" | "effects") => range(0, 1, 0.05, s.volume[g], (v) => change({ volume: { ...settings().volume, [g]: v } }));
     sheet(
       t("settings_title"),
       field(t("set_style"), select<PlayStyle>([["story", t("style_story")], ["explorer", t("style_explorer")], ["challenge", t("style_challenge")]], s.style, (v) => ((asked.style = null), change({ style: v as PlayStyle }), restart(false))), `${t("style_story")}: ${t("style_story_how")} ${t("style_explorer")}: ${t("style_explorer_how")} ${t("style_challenge")}: ${t("style_challenge_how")} ${t("style_restart")}`),
-      field(t("set_quality"), select<Quality>([["low", t("q_low")], ["medium", t("q_medium")], ["high", t("q_high")]], s.quality, (v) => ((asked.q = null), change({ quality: v as Quality }), restart(true)))),
+      field(t("set_quality"), select<Quality>([["low", t("q_low")], ["medium", t("q_medium")], ["high", t("q_high")]], s.quality, (v) => ((asked.q = null), change({ quality: v as Quality }), redraw()))),
       field(t("set_motion"), check(s.reducedMotion, (v) => change({ reducedMotion: v }))),
       field(t("set_contrast"), check(s.highContrast, (v) => change({ highContrast: v }))),
       field(t("set_text"), range(1, 1.6, 0.1, s.textScale, (v) => change({ textScale: v }))),
       field(t("set_speed"), select([[0, t("speed_instant")], [24, t("speed_slow")], [40, t("q_medium")], [80, t("speed_fast")]], s.textSpeed, (v) => change({ textSpeed: Number(v) }))),
       el("h3", { textContent: t("set_keeper") }),
+      field(t("keeper_kind"), select<number>([[1, t("keeper_girl")], [0, t("keeper_boy")]], k.kind, (v) => keeper({ kind: Number(v) }))),
       field(t("keeper_skin"), pick(SKINS.length, k.skin, (v) => keeper({ skin: v }))),
       field(t("keeper_outfit"), pick(OUTFITS.length, k.outfit, (v) => keeper({ outfit: v }))),
       field(t("keeper_hair"), pick(HAIRS, k.hair, (v) => keeper({ hair: v }))),
@@ -440,9 +463,18 @@ async function main(): Promise<void> {
     } else running.game.scene.start("workshop", { host });
     render();
   }
+  /** Draws the picture anew and keeps the quest as it stands: a change of effects or of the Storykeeper's look, or a
+   * graphics context that came back. The bird returns to the door; nothing the player has done is undone. */
+  function redraw(): void {
+    if (!started) return;
+    running?.stop();
+    canvasBox.replaceChildren();
+    running = begin();
+    render();
+  }
   function begin(): Running | null {
     try {
-      const r = start(canvasBox, host, quality(), { perf: query.get("perf") === "1", onLost: () => toast(t("context_lost")), onRestored: () => restart(true) });
+      const r = start(canvasBox, host, quality(), { perf: query.get("perf") === "1", onLost: () => toast(t("context_lost")), onRestored: () => redraw() });
       hook.game = r;
       return r;
     } catch (e) {
@@ -488,7 +520,27 @@ async function main(): Promise<void> {
     stage.focus({ preventScroll: true });
     render();
   };
-  cover.append(el("h2", { textContent: t("subtitle") }), el("p", { textContent: t("start_hint") }), play);
+  // Before anything else, the player chooses who they are: a girl or a boy, a young explorer of the museum.
+  const choose = el("fieldset", { class: "choose" }, el("legend", { textContent: t("cover_choose") }));
+  const explorerButtons: HTMLButtonElement[] = [];
+  const drawChoices = () => {
+    const now = slot().keeper;
+    explorerButtons.forEach((b, i) => {
+      const kind = i === 0 ? 1 : 0;
+      b.setAttribute("aria-pressed", String(now.kind === kind));
+      // Each face is drawn by the same code as the figure in the scene, in the look that would be played.
+      const look = { ...now, kind, hair: now.kind === kind ? now.hair : kind === 1 ? 3 : 0 };
+      const art = paintKeeper(1, look);
+      b.replaceChildren(portrait(1, { back: art.body, head: art.head }, now.kind === kind ? "#f2b94b" : "#3fa39b").canvas, el("span", { textContent: t(kind === 1 ? "keeper_girl" : "keeper_boy") }));
+    });
+  };
+  for (const kind of [1, 0]) {
+    const b = el("button", { type: "button", onclick: () => (setKeeper({ kind, hair: kind === 1 ? 3 : 0 }), drawChoices()) });
+    explorerButtons.push(b);
+    choose.append(b);
+  }
+  drawChoices();
+  cover.append(el("h2", { textContent: t("subtitle") }), choose, el("p", { class: "small", textContent: t("cover_more") }), el("p", { textContent: t("start_hint") }), play);
   render();
 
   Object.assign(hook, {
@@ -504,6 +556,7 @@ async function main(): Promise<void> {
     goTo: (id: string) => running?.scene()?.goTo(id),
     command: (c: Command) => run(c),
     restart: (rebuild: boolean) => restart(rebuild),
+    redraw: () => redraw(),
     started: () => started,
   });
   if (query.get("autostart") === "1") play.click();

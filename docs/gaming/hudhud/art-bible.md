@@ -69,7 +69,7 @@ Each figure is a container of parts; "pin" is where the part turns. This is the 
 | Figure | Parts (logical size in px) | Moves the code makes today |
 |---|---|---|
 | **Hudhud** (about 100 tall) | body 78×62; tail 54×30 (pin at its root); folded wing 56×40; spread wing 96×84 (pin at the shoulder); head with beak 92×50, eye open and shut; crest 74×56 (pin at its root); legs 34×18 | run bob; hop stretch and landing squash; flap (the spread wing beats) and glide (held open); crest opens in the air, on landing and on alarm; tail wag; head nod when speaking; blink |
-| **Storykeeper** (about 210) | leg 30×70 ×2; tunic 96×118; arm 28×78; head 96×104, open and shut, in three hair styles; satchel with the Atlas 50×56. Four skins × three outfits × three hair styles | walks after the bird, legs and arm swinging; looks up when it flies; gestures when speaking; breathes; blinks |
+| **Storykeeper** (about 210) | leg 30×70 ×2; tunic 96×118; arm 28×78; head 96×104, open and shut, in four styles of hair or headwear; satchel with the Atlas 50×56. A girl or a boy × four skins × three outfits × four styles | walks after the bird, legs and arm swinging; looks up when it flies; gestures when speaking; breathes; blinks |
 | **The scholar** (about 335) | robe 210×270; arm 60×140; head 150×170, open and shut | turns to the bird; raises his arm when a mirror turns and when he speaks; nods; blinks |
 | **The cat** (about 110 wide) | body 120×60; head 58×52, awake and asleep; tail 70×26 | sleeps; wakes when the bird is near; tail flicks; a small hop when greeted |
 
@@ -116,7 +116,7 @@ The founder's MacBook Pro (Apple M4 Max, 128 GB, macOS 27.2.1), Chrome 158, a 12
 - **From Play to the scene on screen: 350 to 415 ms** (every picture is painted in that time). **First flight: 6 s after pressing Play** in the script, which reads three lines first.
 - **The download** for Hudhud's page in a release: 1,456,166 bytes of script (311,102 with Brotli), 7,238 of style, no picture or sound file. The budget in the instruction is 15 to 20 MB.
 - **Leaving and returning**: ten restarts of the scene leave the same 45 textures, 119 objects and no running tween. Twelve full rebuilds of the game, with a forced collection after each, read 82 to 83 MB or 132 to 133 MB (a rebuilt generation not yet collected) and do not climb: 81.9 MB after the first, 82.5 MB after the twelfth.
-- **A lost graphics context** (forced with `WEBGL_lose_context`): the player is told, and the scene is rebuilt and playing 2.5 s after the context returns, from the start of the scene (progress within the scene is not kept).
+- **A lost graphics context** (forced with `WEBGL_lose_context`): the player is told, and the picture is rebuilt and playing within 2.5 s of the context returning; the quest is kept as it stood and the bird returns to the door.
 - **High uses a 3520×1440 texture.** The instruction's rule is 2048 atlases by default and 4096 only with a measured reason. The room should be cut into two tiles before the slice; it is one picture today because that was simplest.
 
 **Art time.** The code that draws the scene (`src/art/`, 1,715 lines) was written in roughly twenty minutes of the session and corrected in three rounds after looking at captures. That is fast because it is simple, which is the point of the section above.

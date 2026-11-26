@@ -14,7 +14,7 @@ export const OUTFITS = [
   { tunic: "#b8443c", trim: "#f3e6c8", vest: "#3d2a5a" },
   { tunic: "#3f8f5b", trim: "#f2b94b", vest: "#22476b" },
 ] as const;
-export const HAIRS = 3;
+export const HAIRS = 4;
 
 interface Face {
   skin: string;
@@ -260,6 +260,25 @@ function keeperHead(scale: number, skin: string, hair: number, trim: string, ope
       ctx.arc(cx + Math.cos(a) * 34, cy - 6 + Math.sin(a) * 32, 13, 0, Math.PI * 2);
       fillStroke(ctx, dark, INK, 1.6);
     }
+  } else if (hair === 3) {
+    // Long hair in two braids, behind the face.
+    blob(ctx, [
+      [cx - 38, cy + 10],
+      [cx - 36, cy - 30],
+      [cx, cy - 46],
+      [cx + 36, cy - 30],
+      [cx + 38, cy + 10],
+    ]);
+    fillStroke(ctx, dark, INK, 2);
+    for (const s of [-1, 1]) {
+      for (let i = 0; i < 4; i++) {
+        ctx.beginPath();
+        ctx.ellipse(cx + s * 36, cy + 14 + i * 9, 7.5 - i * 0.6, 6, 0, 0, Math.PI * 2);
+        fillStroke(ctx, dark, INK, 1.6);
+      }
+      ctx.fillStyle = trim;
+      ctx.fillRect(cx + s * 36 - 5, cy + 45, 10, 4);
+    }
   } else if (hair === 1) {
     // A headscarf: cream, with a coloured band.
     blob(ctx, [
@@ -277,7 +296,19 @@ function keeperHead(scale: number, skin: string, hair: number, trim: string, ope
   fillStroke(ctx, skin, INK, 2.2);
   // Ears.
   if (hair !== 1) for (const s of [-1, 1]) (ctx.beginPath(), ctx.ellipse(cx + s * 33, cy + 4, 5, 8, 0, 0, Math.PI * 2), fillStroke(ctx, skin, INK, 1.6));
-  if (hair === 0) {
+  if (hair === 3) {
+    // A fringe swept to one side.
+    blob(ctx, [
+      [cx - 33, cy - 8],
+      [cx - 30, cy - 34],
+      [cx, cy - 40],
+      [cx + 30, cy - 34],
+      [cx + 33, cy - 10],
+      [cx + 10, cy - 24],
+      [cx - 14, cy - 18],
+    ]);
+    fillStroke(ctx, dark, INK, 1.8);
+  } else if (hair === 0) {
     for (let i = 0; i < 6; i++) {
       ctx.beginPath();
       ctx.arc(cx - 26 + i * 10.5, cy - 30 + Math.abs(i - 2.5) * 2.2, 10, 0, Math.PI * 2);
@@ -315,7 +346,7 @@ function keeperHead(scale: number, skin: string, hair: number, trim: string, ope
   smile(ctx, cx + 4, cy + 17, 8, true);
   return p;
 }
-export function keeper(scale: number, look: { skin: number; outfit: number; hair: number }): KeeperArt {
+export function keeper(scale: number, look: { kind?: number; skin: number; outfit: number; hair: number }): KeeperArt {
   const skin = SKINS[look.skin % SKINS.length]!;
   const o = OUTFITS[look.outfit % OUTFITS.length]!;
   const [leg, l] = sheet(30, 70, scale);

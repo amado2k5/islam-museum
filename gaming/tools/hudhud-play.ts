@@ -72,7 +72,7 @@ try {
   await page.waitForFunction("window.__HH__ && (window.__HH__.ready || window.__HH__.error)", undefined, { timeout: 60000 });
   await shot("cover");
   const tStart = Date.now();
-  await page.getByRole("button", { name: await hk<string>("return document.querySelector('.cover button').textContent;") }).click();
+  await page.locator(".cover button.primary").click();
   await page.waitForFunction("window.__HH__.where() !== null", undefined, { timeout: 30000 });
   report.msFromPlayToScene = Date.now() - tStart;
   await page.waitForTimeout(900);

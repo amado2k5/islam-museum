@@ -41,7 +41,7 @@ _26 November 2026. A matrix of the instruction's sections 6 and 9 against the go
 
 | | State |
 |---|---|
-| Seven languages, same keys, same order, same placeholders | **done**: `npm --prefix gaming run strings` (163 strings), plus a test of every script against every table |
+| Seven languages, same keys, same order, same placeholders | **done**: `npm --prefix gaming run strings` (170 strings), plus a test of every script against every table |
 | Right to left | **done**: Arabic and Urdu mirror the page; the picture, the beam and the arrow buttons are not mirrored. Captured in both |
 | No honorific typed; no bare parenthesis round Arabic script | **done**: the string check; the Arabic and Urdu tables use no parentheses at all |
 | Truncation at 1280×800 and narrow | **looked at, not exhaustive**: captures in ar, ur and id show no cut text in the talk, the goal or the buttons; the settings sheet was not captured in every language |
@@ -51,7 +51,7 @@ _26 November 2026. A matrix of the instruction's sections 6 and 9 against the go
 
 ## History
 
-Every statement of history in the scene is an entry in [the ledger](../historical-review/ledger.md) (HR-HH-01 to 08), written by the agent and decided by nobody: no reviewer is named for any game. The page says "Historical review pending" under the picture and in the note at the end, in seven languages, and a test fails if it stops saying so while an entry is pending. An AI does not approve its own history; a museum record is source material that has itself not been reviewed for the game.
+Every statement of history in the scene is an entry in [the ledger](../historical-review/ledger.md) (HR-HH-01 to 09), written by the agent and decided by nobody: no reviewer is named for any game. The page says "Historical review pending" under the picture and in the note at the end, in seven languages, and a test fails if it stops saying so while an entry is pending. An AI does not approve its own history; a museum record is source material that has itself not been reviewed for the game.
 
 Before each further quest is written: read the subject's records; enter each claim the quest will make, with its record and what is uncertain; mark invention as invention; hold anything the founder's pictures show that no record supports (as the prism here) until a reviewer rules.
 

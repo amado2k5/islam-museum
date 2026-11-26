@@ -7,7 +7,7 @@ _26 November 2026. Describes what is built for the golden scene and what the sam
 ```
 gaming/games/hudhud/
   index.html            the page: one stylesheet, one script, no inline style or script
-  i18n/<lang>.json      163 strings, the same keys in the same order in ar, en, ur, fr, es, tr, id
+  i18n/<lang>.json      170 strings, the same keys in the same order in ar, en, ur, fr, es, tr, id
   src/
     sim/                RULES. Pure, no Phaser, no DOM, no clock, no unseeded chance; run in Node
       light.ts            the beam on a grid: trace, turn a mirror, solve, generate from a seed
@@ -24,7 +24,7 @@ gaming/games/hudhud/
     scenes/workshop.ts  Phaser scene: builds the pictures, moves them from the state, measures itself
     game/boot.ts        starts and stops Phaser; sizes the canvas; counts draw calls when asked
     ui/app.ts, .css     the page: talk, goal, settings, pause, results, the scene in words, the test hook
-    tests/*.gtest.ts    85 tests
+    tests/*.gtest.ts    93 tests
 gaming/tools/hudhud-play.ts     plays the scene in real Chrome and records everything
 gaming/tools/hudhud-rebuild.ts  rebuilds the game repeatedly and reads memory
 ```
@@ -53,7 +53,7 @@ gaming/tools/hudhud-rebuild.ts  rebuilds the game repeatedly and reads memory
 | `docs/gaming/spec-production/release-status.json` | `hudhud`: `prototype`, approved by nobody |
 | `gaming/games/prototype-labels.gtest.ts`, `review-mark.gtest.ts` | each learns of the fourth game: its label and its review mark are now enforced in seven languages |
 | `gaming/tools/release-smoke.ts` | a branch for Hudhud: start, open the scene on WebGL under the host's policy, turn a mirror, see the label |
-| `docs/gaming/historical-review/ledger.json` | eight entries, HR-HH-01 to 08, all pending |
+| `docs/gaming/historical-review/ledger.json` | nine entries, HR-HH-01 to 09, all pending |
 
 Not changed: any file of Granada, The Golden Age or Atlas; the games Worker; any workflow; anything under `site/`.
 
@@ -79,7 +79,7 @@ type Command = { type: "touch"; id: string } | { type: "forward" } | { type: "ba
 
 ```ts
 interface SaveFile { v: 1; slot: number; slots: (Slot | null)[] }          // three slots
-interface Slot { settings: Settings; keeper: { skin, outfit, hair };       // indices, never a name
+interface Slot { settings: Settings; keeper: { kind, skin, outfit, hair }; // girl or boy and three indices, never a name
   quests: { [questId]: { done, bestTurns, curiosity, ingenuity, kindness, feather } } }
 ```
 

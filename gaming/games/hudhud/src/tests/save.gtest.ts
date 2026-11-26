@@ -1,7 +1,7 @@
 // What is kept on the device: it comes back as it went, a broken file is set aside and not destroyed, a newer file
 // is not written over, and a device that refuses storage still plays.
 import { describe, expect, it } from "vitest";
-import { DEFAULT_SETTINGS, MIGRATIONS, QUARANTINE_KEY, SAVE_KEY, SAVE_VERSION, SLOTS, current, load, newSave, newSlot, readSave, recordQuest, store, writeSave, type Storage } from "../save/save";
+import { DEFAULT_SETTINGS, MIGRATIONS, QUARANTINE_KEY, SAVE_KEY, SAVE_VERSION, SLOTS, current, load, mergeSaves, newSave, newSlot, readSave, recordQuest, store, writeSave, type Storage } from "../save/save";
 
 const memory = (init: Record<string, string> = {}): Storage & { data: Record<string, string> } => {
   const data = { ...init };
@@ -25,7 +25,7 @@ describe("Hudhud's save", () => {
   });
   it("comes back as it went", () => {
     let s = newSave();
-    s = { ...s, slots: [recordQuest({ ...current(s), keeper: { skin: 3, outfit: 2, hair: 1 } }, "w03q1-ibn-al-haytham", { turns: 4, curiosity: true, ingenuity: false, kindness: true, feather: false }), null, newSlot()] };
+    s = { ...s, slots: [recordQuest({ ...current(s), keeper: { kind: 0, skin: 3, outfit: 2, hair: 1 } }, "w03q1-ibn-al-haytham", { turns: 4, curiosity: true, ingenuity: false, kindness: true, feather: false }), null, newSlot()] };
     const r = readSave(writeSave(s));
     expect(r.kind).toBe("ok");
     expect(r.save).toEqual(s);
@@ -46,7 +46,7 @@ describe("Hudhud's save", () => {
     const first = r.save.slots[0]!;
     expect(first.settings).toMatchObject({ style: "explorer", quality: "medium", textScale: 1.6, textSpeed: 0, muted: false });
     expect(first.settings.volume).toEqual({ ambience: 1, voices: 0.8, effects: 0.8 });
-    expect(first.keeper).toEqual({ skin: 3, outfit: 0, hair: 0 });
+    expect(first.keeper).toEqual({ kind: 1, skin: 3, outfit: 0, hair: 0 });
     expect(Object.keys(first.quests)).toEqual(["ok"]);
     expect(first.quests.ok!.bestTurns).toBeNull();
   });
@@ -81,6 +81,20 @@ describe("Hudhud's save", () => {
     expect(first.kind).toBe("fresh");
     expect(store(st, first.save, first.stored)).toBe(true);
     expect(load(st).kind).toBe("ok");
+  });
+  it("does not let one tab undo what another has finished", () => {
+    const st = memory();
+    const older = load(st).save; // a tab opened before anything was done
+    const done = { ...older, slots: [recordQuest(current(older), "q", { turns: 3, curiosity: true, ingenuity: true, kindness: false, feather: false }), null, null] };
+    expect(store(st, done, true)).toBe(true); // the other tab finishes the quest
+    const changed = { ...older, slots: [{ ...current(older), settings: { ...current(older).settings, textScale: 1.4 } }, null, null] };
+    expect(store(st, changed, true)).toBe(true); // the older tab changes a setting
+    const now = load(st).save;
+    expect(current(now).quests.q).toEqual({ done: true, bestTurns: 3, curiosity: true, ingenuity: true, kindness: false, feather: false });
+    expect(current(now).settings.textScale).toBe(1.4);
+    // Joined, each quest keeps the best of both.
+    const a = { ...older, slots: [recordQuest(current(older), "q", { turns: 5, curiosity: false, ingenuity: false, kindness: true, feather: false }), null, null] };
+    expect(current(mergeSaves(a, done)).quests.q).toEqual({ done: true, bestTurns: 3, curiosity: true, ingenuity: true, kindness: true, feather: false });
   });
   it("has a migration from every version before this one", () => {
     for (let v = 1; v < SAVE_VERSION; v++) expect(typeof MIGRATIONS[v], `from version ${v}`).toBe("function");
