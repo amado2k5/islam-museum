@@ -45,13 +45,13 @@ The atlas title is The Man Who Tried to Fly / أول طيّار. No record read 
 
 ## Three candidate quest premises
 
-These are proposals for Claude and the founder, not content.
+These are proposals for Claude and the founder, not content. They are deliberately conservative system scaffolding, not final quest designs. Each names one of the twelve systems in `design.md`; forms such as Measure, Journal, Care and Sail are not treated as separate systems. Claim numbers refer to the claims above.
 
-1. In the Flight system, players must navigate the challenges of ibn Firnas's first flight, using feathers and wings, while avoiding injury [4]. This quest is based on historical accounts but adds game elements like flight mechanics and injury avoidance.
+1. A child helps carry a fragile object or message between two nearby points using the Flight system, choosing a safe path over gaps and obstacles. This rests on claims [1, 2] as its evidence anchor; the object or message, the exact route, the obstacles and the child's role are game invention, not record fact.
 
-2. Using the Trace system, players must uncover the truth behind the accusations of magic and heresy against ibn Firnas, distinguishing between historical resentment and game-invented motives [6]. The quest involves tracing historical accounts and uncovering the reasons behind the accusations.
+2. Children help align a practice instrument with a star, horizon or landmark using the Trace and Align system so a reading can be checked. This rests on claims [1, 3] as its evidence anchor; the practice instrument, landmark choice, reading puzzle and the children's role are game invention, not record fact.
 
-3. In the Align system, players must align ibn Firnas's various achievements in glass-making, music, and timekeeping, while distinguishing between historical attributed accounts and game-invented details [3]. The quest involves aligning historical achievements with game mechanics to create a coherent narrative.
+3. A child helps compare accounts, objects or clues using the Observe and Match system to find what the evidence supports. This rests on claims [1, 4] as its evidence anchor; the compared materials, missing details, matching puzzle and the child's role are game invention, not record fact.
 
 ## Sensitivities
 

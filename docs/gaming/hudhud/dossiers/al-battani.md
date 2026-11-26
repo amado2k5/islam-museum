@@ -67,13 +67,13 @@ The atlas title is الرجل الذي قاس السنة. No record read support
 
 ## Three candidate quest premises
 
-These are proposals for Claude and the founder, not content.
+These are proposals for Claude and the founder, not content. They are deliberately conservative system scaffolding, not final quest designs. Each names one of the twelve systems in `design.md`; forms such as Measure, Journal, Care and Sail are not treated as separate systems. Claim numbers refer to the claims above.
 
-1. In the Flight system, players must navigate through historical skies, using Al-Battani's observations to correct the paths of celestial bodies [6]. This quest distinguishes between Al-Battani's real observations and the fictional challenges players face in the game.
+1. Children help align a practice instrument with a star, horizon or landmark using the Trace and Align system so a reading can be checked. This rests on claims [1, 2] as its evidence anchor; the practice instrument, landmark choice, reading puzzle and the children's role are game invention, not record fact.
 
-2. Using the Trace system, players follow Al-Battani's lineage and the movement of his family from Harran to al-Raqqa, uncovering the origins of his name [3][5]. The game invents the journey while basing it on the historical context of Al-Battani's life.
+2. A child helps compare accounts, objects or clues using the Observe and Match system to find what the evidence supports. This rests on claims [1, 3] as its evidence anchor; the compared materials, missing details, matching puzzle and the child's role are game invention, not record fact.
 
-3. In the Align system, players must align the stars as Al-Battani did, correcting the motions of celestial bodies based on his observations [1][6]. The game invents the method of alignment while using Al-Battani's historical work as a foundation.
+3. A child helps connect people, resources or pieces of knowledge so they reach where they are needed using the Network system. This rests on claims [1, 4] as its evidence anchor; the exact people or resources, missing links, network puzzle and the child's role are game invention, not record fact.
 
 ## Sensitivities
 
