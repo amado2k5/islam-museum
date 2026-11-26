@@ -354,6 +354,27 @@ if (runs > 8) {
 if ((await page.locator("[data-part='contract'][data-state='settled']").count()) !== 1) await fail("the panel does not show the contract as kept");
 log.trade = { olives, runs, contract, paid: afterPay - beforePay };
 
+// ---- The region: the museum's places and distances, and three layers of the game's own state ----
+await page.goto(url("&fresh=1"));
+await ready();
+await page.locator("#brief-start").click();
+const region = page.locator("[data-part='region']");
+if ((await region.locator("svg.region [data-place]").count()) !== 5) await fail("the region does not show the city, the two ports, the mountain and the valley");
+if (!(await region.locator("svg.region").getAttribute("aria-label"))?.includes("89")) await fail("the region does not say how far Málaga is");
+if ((await region.locator("svg.region .region-route").count()) !== 1) await fail("the trade layer draws no route to the port");
+const factsOf = async (layer: string) => {
+  await region.locator(`#layer-${layer}`).focus();
+  await page.keyboard.press("Enter");
+  if ((await region.locator("ul").getAttribute("data-layer")) !== layer) await fail(`the ${layer} layer did not open by keyboard`);
+  return region.locator("ul li").allTextContents();
+};
+const layers = { agriculture: await factsOf("agriculture"), infrastructure: await factsOf("infrastructure"), economy: await factsOf("economy") };
+if (layers.agriculture.length !== 3 || layers.infrastructure.length !== 4 || layers.economy.length !== 3) await fail(`the layers do not hold what they should: ${JSON.stringify(layers)}`);
+await game(`window.__GR__.order({ kind: "send", good: "wheat", quantity: 20 })`);
+if (lang === "en" && !(await region.locator("ul li").first().textContent())?.includes("20 of 60")) await fail("the trade layer does not show the carts sent today");
+await shot("9j-region");
+log.region = layers;
+
 // ---- A decision: put on its day, each answer's price shown, answered by a click, in force and in the journal ----
 await page.goto(url("&fresh=1"));
 await ready();

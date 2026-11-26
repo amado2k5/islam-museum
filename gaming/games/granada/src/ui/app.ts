@@ -16,6 +16,7 @@ import { probeWebGPU } from "@im/kernel/capability";
 import { installCounters } from "@im/kernel/counters";
 import type { ValleyLook } from "../view/three-valley";
 import { drawMap, setMapGhost } from "./map";
+import { drawRegion, regionView, type RegionLayer, type RegionView } from "./region";
 import type { Stage } from "./stage";
 import { advice, catalogueRows, decisionRows, effectRows, fieldCards, marketRows, tradeView, questRows, riverOfYear, skyAhead, stocks, workRows, yesterday, type FieldCard, type WorkRow } from "./model";
 
@@ -105,6 +106,7 @@ async function main(): Promise<void> {
   let photoShots = 0;
   let speedBeforePhoto: 0 | 1 | 2 = 0;
   const preview: { season: number | null; rain: boolean | null; light: "morning" | "midday" | "evening" | null; lens: number } = { season: null, rain: null, light: null, lens: 38 };
+  let regionLayer: RegionLayer = "economy";
   let placing: string | null = null;
   let ghost: { x: number; z: number } | null = null;
   let saveOk = true;
@@ -522,6 +524,29 @@ async function main(): Promise<void> {
 
   const bar01 = (name: string, pct: number) => h("label", { class: "gauge" }, h("span", {}, `${name} ${num(pct)}%`), h("progress", { max: 100, value: Math.max(0, Math.min(100, pct)) }));
 
+  /** The region: true positions and distances from the museum's records, and the game's own state laid over them. */
+  function regionCard(): Child {
+    const v = regionView(sc, state, records as unknown as Parameters<typeof regionView>[2]);
+    const sheet = document.createElementNS("http://www.w3.org/2000/svg", "svg");
+    sheet.classList.add("region");
+    const name = (id: string) => {
+      const text = label(id);
+      // A place's name begins with a capital in the scripts that have them, whatever the record's spelling.
+      return text.charAt(0).toLocaleUpperCase(lang) + text.slice(1);
+    };
+    drawRegion(sheet, v, regionLayer, { title: t("region_title"), name, km: (n) => t("region_km", { n }), valley: t("region_valley"), coast: t("region_coast"), scale: t("region_km", { n: 50 }) });
+    const fact = (f: RegionView["facts"][RegionLayer][number]) => t(f.key, { ...f.values, ...(f.values.field ? { field: fieldName(String(f.values.field)), crop: t(`crop_${f.values.crop}`) } : {}) });
+    return h(
+      "section",
+      { class: "card", "data-part": "region" },
+      h("h2", {}, t("region_title")),
+      h("div", { class: "choice", role: "group", "aria-label": t("region_layers") }, ...(["economy", "agriculture", "infrastructure"] as const).map((l) => h("button", { type: "button", id: `layer-${l}`, class: regionLayer === l ? "on" : "", "aria-pressed": String(regionLayer === l), onclick: () => { regionLayer = l; render(); } }, t(`layer_${l}`)))),
+      sheet as unknown as HTMLElement,
+      h("ul", { class: "plain", "data-layer": regionLayer }, ...v.facts[regionLayer].map((f) => h("li", {}, fact(f)))),
+      h("p", { class: "note" }, t("region_note")),
+    );
+  }
+
   function valleyPanel(): Child[] {
     const a = advice(sc, state);
     return [
@@ -536,6 +561,7 @@ async function main(): Promise<void> {
           ...(["households", "fields"] as const).map((who) => h("button", { type: "button", class: state.waterFirst === who ? "on" : "", "aria-pressed": String(state.waterFirst === who), id: `water-${who}`, onclick: () => order({ kind: "water-first", who }) }, t(`water_${who}`))),
         ),
       ),
+      regionCard(),
     ];
   }
 

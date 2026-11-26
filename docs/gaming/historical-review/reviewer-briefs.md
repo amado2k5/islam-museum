@@ -16,7 +16,7 @@ _Written 26 November 2026 at the founder's request ([`../spec-production/owner-d
 ## R1. Nasrid Granada and al-Andalus
 
 - **Sought:** a historian or archaeologist of al-Andalus with knowledge of the emirate of Granada in the fifteenth century: its countryside and irrigation, its towns, its economy and its relations with its neighbours.
-- **Entries today:** HR-GR-01 to HR-GR-10. The game "Granada" is set in the emirate in 1475 (the design's year) and plays in an invented valley, labelled as invented. It names eleven real places and links the museum's records of the Alhambra, the Generalife, the madrasa of Granada and three events.
+- **Entries today:** HR-GR-01 to HR-GR-11. The game "Granada" is set in the emirate in 1475 (the design's year) and plays in an invented valley, labelled as invented. It names eleven real places and links the museum's records of the Alhambra, the Generalife, the madrasa of Granada and three events.
 - **Asked in particular:** whether the title "The Last Kingdom of al-Andalus" and the setting are fairly put; whether an invented valley beside real names risks being taken for a real place; what a steward of such a district could plausibly do and not do.
 - **Coming, and to be entered before it is built:** scenarios and a campaign of several hours; trade with Málaga and Almería; a strategic treatment of defence and diplomacy with no battle on screen (walls, readiness, supply, warnings, tribute and negotiation); events such as drought, flood, crop disease and border tension.
 
