@@ -47,13 +47,13 @@ Amid (`place/amid`, [40.23, 37.91]); the elephant-clock book belongs to the Artu
 
 ## Three candidate quest premises
 
-These are proposals for Claude and the founder, not content.
+These are proposals for Claude and the founder, not content. They are deliberately conservative system scaffolding, not final quest designs. Each names one of the twelve systems in `design.md`; forms such as Measure, Journal, Care and Sail are not treated as separate systems. Claim numbers refer to the claims above.
 
-1. In the Mechanism system, players must decode ancient texts to uncover the blueprints of al-Jazari's devices [4, 5]. The quest distinguishes between the historical record of his work and the game's fictional narrative of discovering lost knowledge.
+1. A child helps put the parts of a demonstration machine in working order using the Mechanism system. This rests on claims [1, 2] as its evidence anchor; the demonstration machine, its fault, the exact parts and the child's role are game invention, not record fact.
 
-2. Using the Weigh and Decode system, players navigate a virtual museum to find clues about al-Jazari's inventions, separating historical evidence from the game's creative liberties [1, 2]. The quest involves solving puzzles based on the devices described in his book.
+2. Children help arrange the steps of a procedure or journey in the order they must happen using the Path system. This rests on claims [1, 3] as its evidence anchor; the procedure or journey cards, their order, the errand and the children's role are game invention, not record fact.
 
-3. Players engage in the Mechanism system to recreate al-Jazari's devices, using historical descriptions as a guide [3, 6]. The quest emphasizes the distinction between al-Jazari's contributions and the broader engineering tradition, allowing players to invent their own devices inspired by his work.
+3. A child helps compare accounts, objects or clues using the Observe and Match system to find what the evidence supports. This rests on claims [1, 4] as its evidence anchor; the compared materials, missing details, matching puzzle and the child's role are game invention, not record fact.
 
 ## Sensitivities
 

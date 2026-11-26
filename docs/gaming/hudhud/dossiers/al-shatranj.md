@@ -37,13 +37,13 @@ No place or date is attached. The forms and origin stories are al-Mas‘udi’s 
 
 ## Three candidate quest premises
 
-These are proposals for Claude and the founder, not content.
+These are proposals for Claude and the founder, not content. They are deliberately conservative system scaffolding, not final quest designs. Each names one of the twelve systems in `design.md`; forms such as Measure, Journal, Care and Sail are not treated as separate systems. Claim numbers refer to the claims above.
 
-1. Players use the Mechanism system to recreate the chess invention on a red leather square, distinguishing between historical descriptions and game elements [1,2].
+1. A child helps solve a practice letter or movement-pattern puzzle using the Cipher system so a note or sequence can be understood. This rests on claims [1, 2] as its evidence anchor; the note or sequence, the pattern, the solution and the child's role are game invention, not record fact.
 
-2. Using the Weigh and Decode system, players must balance the virtues of the chess inventor against the circumstances of the backgammon inventor, separating historical claims from game fiction [2].
+2. Children help arrange the steps of a procedure or journey in the order they must happen using the Path system. This rests on claims [1, 2] as its evidence anchor; the procedure or journey cards, their order, the errand and the children's role are game invention, not record fact.
 
-3. In a quest, players employ the Weigh and Decode system to decode the significance of the red square and the inventors' characters, distinguishing these historical elements from the game's narrative [1,2].
+3. A child helps compare accounts, objects or clues using the Observe and Match system to find what the evidence supports. This rests on claims [1, 2] as its evidence anchor; the compared materials, missing details, matching puzzle and the child's role are game invention, not record fact.
 
 ## Sensitivities
 

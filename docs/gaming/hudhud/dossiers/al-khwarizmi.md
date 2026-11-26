@@ -57,13 +57,13 @@ Baghdad (`place/baghdad`, [33.3406, 44.4009]) and Sinjār for the meridian event
 
 ## Three candidate quest premises
 
-These are proposals for Claude and the founder, not content.
+These are proposals for Claude and the founder, not content. They are deliberately conservative system scaffolding, not final quest designs. Each names one of the twelve systems in `design.md`; forms such as Measure, Journal, Care and Sail are not treated as separate systems. Claim numbers refer to the claims above.
 
-1. Players use the Weigh and Decode system to sift through historical records and determine the true dates of al-Khwarizmi's life, distinguishing between historical evidence and the game's invented timeline [2, 3].
+1. Children help arrange the steps of a procedure or journey in the order they must happen using the Path system. This rests on claims [1, 2] as its evidence anchor; the procedure or journey cards, their order, the errand and the children's role are game invention, not record fact.
 
-2. In a quest, players must navigate the Mechanism system to uncover the origins of algebra, using clues from ancient Assyrian tablets and al-Khwarizmi's work, while separating historical facts from the game's narrative [5, 6].
+2. A child helps solve a practice letter or movement-pattern puzzle using the Cipher system so a note or sequence can be understood. This rests on claims [1, 3] as its evidence anchor; the note or sequence, the pattern, the solution and the child's role are game invention, not record fact.
 
-3. Players engage in a quest where they use the Weigh and Decode system to identify al-Khwarizmi among other scholars with similar names, using historical records and distinguishing between historical evidence and the game's fictional elements [3, 4].
+3. A child helps compare accounts, objects or clues using the Observe and Match system to find what the evidence supports. This rests on claims [1, 4] as its evidence anchor; the compared materials, missing details, matching puzzle and the child's role are game invention, not record fact.
 
 ## Sensitivities
 
