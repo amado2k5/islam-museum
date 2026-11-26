@@ -3,7 +3,7 @@
 import { describe, expect, it } from "vitest";
 import { PLAYERS, playVillage } from "../src/sim/players";
 import { WATER_FOR_THE_VALLEY as SC } from "../src/sim/scenarios";
-import { act, invariants, newVillage, tick, type VillageCommand, type VillageState } from "../src/sim/village";
+import { VILLAGE_VERSION, act, invariants, newVillage, tick, type VillageCommand, type VillageState } from "../src/sim/village";
 import { SAVE_KEY, clearSave, readSave, writeSave, type Store } from "../src/save";
 import { advice, catalogueRows, fieldCards, marketRows, tradeView, questRows, riverOfYear, skyAhead, stocks, workRows } from "../src/ui/model";
 
@@ -82,6 +82,33 @@ describe("the works", () => {
     expect(expand!.now).toEqual({ ok: false, why: "already-under-way" });
     const done = days(s, 2);
     expect(workRows(SC, done)[0]).toMatchObject({ progress: null, built: 1, now: { ok: false, why: "already-done" } });
+  });
+});
+
+describe("an estate's card", () => {
+  it("says who tends it, what it will give and when, whether the store can take it, and what it is worth", () => {
+    const s = days(order(start(), { kind: "harvest", plot: "mill-field", rest: "wait" }, { kind: "repair" }), 6);
+    const olives = fieldCards(SC, s).find((f) => f.id === "olive-terrace")!;
+    expect(olives.hands).toEqual({ have: 3, need: 3 });
+    const e = olives.expected!;
+    // The same figures, by letting the days pass.
+    let later = s;
+    while (later.plots["olive-terrace"]!.ripeSince === null) later = tick(SC, later);
+    expect(e.units).toBe(later.plots["olive-terrace"]!.yielded);
+    expect(e.inDays).toBe(later.day - s.day);
+    expect(e.village).toBe(e.units * 28);
+    expect(e.port).toBe(e.units * 31);
+    expect(olives.first).toBe(false);
+    expect(fieldCards(SC, order(s, { kind: "field-first", plot: "olive-terrace" })).find((f) => f.id === "olive-terrace")!.first).toBe(true);
+  });
+
+  it("counts what thirst has already cost, and warns when the store cannot take the harvest", () => {
+    const dry = days(start(), 12);
+    const olives = fieldCards(SC, dry).find((f) => f.id === "olive-terrace")!;
+    expect(olives.lostToThirst).toBeGreaterThan(0);
+    const wheat = fieldCards(SC, start()).find((f) => f.id === "mill-field")!;
+    expect(wheat.expected).toMatchObject({ inDays: 0, units: 320, fits: false });
+    expect(fieldCards(SC, start()).find((f) => f.id === "river-meadow")!.expected).toBeNull();
   });
 });
 
@@ -236,7 +263,15 @@ describe("the saved game", () => {
     store.data.set(SAVE_KEY, JSON.stringify({ v: 1, state: v2 }));
     const two = readSave(store);
     expect(two.status).toBe("ok");
-    if (two.status === "ok") expect([two.state.version, two.state.placed, invariants(SC, two.state)]).toEqual([3, [], []]);
+    if (two.status === "ok") expect([two.state.version, two.state.placed, two.state.fieldFirst, invariants(SC, two.state)]).toEqual([VILLAGE_VERSION, [], null, []]);
+    // And one saved after buildings and before a field could be put first (version 3).
+    const v3 = JSON.parse(JSON.stringify(order(newVillage(SC, 9), { kind: "place", what: "house", x: 600, z: 250 }))) as Record<string, unknown>;
+    v3.version = 3;
+    delete v3.fieldFirst;
+    store.data.set(SAVE_KEY, JSON.stringify({ v: 1, state: v3 }));
+    const three = readSave(store);
+    expect(three.status).toBe("ok");
+    if (three.status === "ok") expect([three.state.version, three.state.placed.length, three.state.fieldFirst, invariants(SC, three.state)]).toEqual([VILLAGE_VERSION, 1, null, []]);
     // A version this code has never heard of is still set aside.
     store.data.set(SAVE_KEY, JSON.stringify({ v: 1, state: { ...v1, version: 0 } }));
     expect(readSave(store)).toEqual({ status: "unreadable", why: "unknown-game" });

@@ -10,6 +10,7 @@ import {
   carries,
   dayOfSeason,
   foodInStore,
+  expectedHarvest,
   foodNeed,
   forecast,
   poolCapacityOf,
@@ -105,6 +106,28 @@ export interface FieldCard {
   daysToBring: number | null;
   /** What could be sown here now. */
   sowable: Crop[];
+  /** Workers who tended it yesterday, and how many its crop needs while it grows. Null when nothing grows. */
+  hands: { have: number; need: number } | null;
+  /** Units of the crop already lost to thirst. */
+  lostToThirst: number;
+  /**
+   * What it will give if nothing more is ordered, by the rules run forward: in how many days, how much, whether the
+   * store has room for it today, and what it would fetch in the village and (after carriage) at the port.
+   */
+  expected: { inDays: number; units: number; fits: boolean; village: number; port: number | null } | null;
+  /** The steward has put this field first for water and hands. */
+  first: boolean;
+}
+
+/** The rest of the scenario if nothing more is ordered, worked out once for each state however many panels ask. */
+const AHEAD = new WeakMap<VillageState, VillageState[]>();
+export function restOfScenario(sc: Scenario, s: VillageState): VillageState[] {
+  let a = AHEAD.get(s);
+  if (!a) {
+    a = forecast(sc, s, sc.endDay - s.day + 1);
+    AHEAD.set(s, a);
+  }
+  return a;
 }
 
 export function fieldCards(sc: Scenario, s: VillageState): FieldCard[] {
@@ -115,7 +138,15 @@ export function fieldCards(sc: Scenario, s: VillageState): FieldCard[] {
     const wants = p.crop ? CROPS[p.crop].water : Math.max(...Object.keys(def.potential).map((c) => CROPS[c as Crop].water));
     const stage: FieldStage = p.crop === null ? "fallow" : p.ripeSince === null ? "growing" : p.standing === 0 ? "spent" : p.harvesting ? "harvesting" : "ripe";
     const ripe = p.crop !== null && p.ripeSince !== null && p.standing > 0;
+    const e = stage === "spent" ? null : expectedHarvest(sc, s, def.id, restOfScenario(sc, s));
+    const good = p.crop ? CROPS[p.crop].good : null;
+    const villageBid = good ? (s.economy.markets.village!.goods[good]?.bid ?? 0) : 0;
+    const port = sc.trade && good && sc.trade.port.carriage[good] !== undefined ? s.economy.markets[sc.trade.port.id]!.goods[good]!.bid - sc.trade.port.carriage[good]! : null;
     return {
+      hands: p.crop && p.ripeSince === null ? { have: Math.round((p.tended * CROPS[p.crop].tenders) / 1000), need: CROPS[p.crop].tenders } : null,
+      lostToThirst: p.crop && p.ripeSince === null ? Math.floor((def.potential[p.crop]! * p.stress) / 1000) : 0,
+      expected: e ? { inDays: Math.max(0, e.day - s.day + (p.ripeSince === null ? 1 : 0)), units: e.units, fits: e.units <= freeCapacity(s.economy), village: wholeDinars(e.units * villageBid), port: port === null ? null : wholeDinars(e.units * port) } : null,
+      first: s.fieldFirst === def.id,
       id: def.id,
       crop: p.crop,
       stage,

@@ -13,9 +13,10 @@ import { hash32 } from "@im/kernel/prng";
 import { audit, dinars, freeCapacity, open, submit, type CommandResult, type EconomyCommand, type EconomyState, type Market, type Recipe } from "./economy";
 
 // 2: trade beyond the village (a port reached by cart, a press, contracts).
-// 3: buildings placed on the land by the player. A game saved under an earlier version is brought forward by
-// `upgradeVillage`, never loaded half-right.
-export const VILLAGE_VERSION = 3;
+// 3: buildings placed on the land by the player.
+// 4: a field the steward has said comes first for water and hands.
+// A game saved under an earlier version is brought forward by `upgradeVillage`, never loaded half-right.
+export const VILLAGE_VERSION = 4;
 export const SEASON_DAYS = 30;
 export const YEAR_DAYS = 120;
 export type Season = 0 | 1 | 2 | 3; // spring, summer, autumn, winter
@@ -188,6 +189,8 @@ export interface VillageState {
   welfare: number;
   pool: number;
   waterFirst: "households" | "fields";
+  /** The field that takes its water and its hands before the others, when either is short. Null: in the valley's usual order. */
+  fieldFirst: string | null;
   branches: Record<string, { capacity: number; condition: number; built: boolean }>;
   plots: Record<string, PlotState>;
   works: Work[];
@@ -213,6 +216,8 @@ export type VillageCommand =
   | { kind: "sell"; good: string; quantity: number }
   | { kind: "buy"; good: string; quantity: number }
   | { kind: "water-first"; who: "households" | "fields" }
+  /** Say which field takes its water and its hands before the others; null puts them back in their usual order. */
+  | { kind: "field-first"; plot: string | null }
   /** Place a building from the catalogue on the land, at a point in metres (east, south). */
   | { kind: "place"; what: string; x: number; z: number }
   /** Press: so many runs of the scenario's recipe. */
@@ -282,6 +287,7 @@ export function newVillage(sc: Scenario, seed: number): VillageState {
     welfare: 60,
     pool: sc.water.pool,
     waterFirst: "households",
+    fieldFirst: null,
     branches: Object.fromEntries(sc.water.branches.map((b) => [b.id, { capacity: b.capacity, condition: b.condition, built: b.built }])),
     plots,
     works: [],
@@ -317,12 +323,13 @@ export const treasuryOf = (s: VillageState): number => s.economy.treasury.availa
  */
 export function upgradeVillage(sc: Scenario, saved: VillageState): VillageState | null {
   if (saved.version === VILLAGE_VERSION) return saved;
-  if (saved.version !== 1 && saved.version !== 2) return null;
+  if (![1, 2, 3].includes(saved.version)) return null;
   const s = structuredClone(saved) as VillageState;
   s.version = VILLAGE_VERSION;
-  // From 2 to 3: nothing has been placed yet.
+  // From 2 to 3: nothing has been placed yet. From 3 to 4: no field has been put first.
   s.placed ??= [];
-  if (saved.version === 2) return s;
+  s.fieldFirst ??= null;
+  if (saved.version >= 2) return s;
   s.carted = 0;
   const e = s.economy;
   const tr = sc.trade;
@@ -452,6 +459,11 @@ function apply(sc: Scenario, s: VillageState, cmd: VillageCommand): ActResult {
       s.waterFirst = cmd.who;
       return { ok: true, money: 0 };
     }
+    case "field-first": {
+      if (cmd.plot !== null && !sc.plots.some((p) => p.id === cmd.plot)) return { ok: false, why: "unknown-plot" };
+      s.fieldFirst = cmd.plot;
+      return { ok: true, money: 0 };
+    }
     case "place": {
       const def = sc.catalogue?.[cmd.what];
       if (!def) return { ok: false, why: "unknown-building" };
@@ -544,7 +556,9 @@ export function tick(sc: Scenario, state: VillageState): VillageState {
   const townNeed = waterNeed(s);
   let townWater = 0;
   const wants: Array<{ plot: string; want: number; got: number }> = [];
-  for (const def of sc.plots) {
+  // The fields in the order they are served: the one the steward put first, then the rest as the valley has them.
+  const plots = [...sc.plots].sort((a, b) => Number(b.id === s.fieldFirst) - Number(a.id === s.fieldFirst));
+  for (const def of plots) {
     const p = s.plots[def.id]!;
     if (p.crop === null || p.ripeSince !== null) continue;
     const want = sky.rain ? Math.ceil(CROPS[p.crop].water / 2) : CROPS[p.crop].water;
@@ -630,7 +644,7 @@ export function tick(sc: Scenario, state: VillageState): VillageState {
   s.works = s.works.filter((w) => w.labourLeft > 0);
 
   // 3. Fields: growth by water and by hands; thirst costs yield; a ripe crop left too long begins to spoil.
-  for (const def of sc.plots) {
+  for (const def of plots) {
     const p = s.plots[def.id]!;
     if (p.crop === null) continue;
     const crop = CROPS[p.crop];
@@ -752,6 +766,23 @@ export function forecast(sc: Scenario, state: VillageState, days: number): Villa
   return out;
 }
 
+/**
+ * What a field will give if nothing more is ordered: the day its crop ripens and how much will stand then, found by
+ * running the rules themselves forward on a copy. Null if nothing grows there, or it will not ripen before the end.
+ * For a crop already ripe: today, and what stands.
+ */
+export function expectedHarvest(sc: Scenario, state: VillageState, plot: string, ahead?: VillageState[]): { day: number; units: number } | null {
+  const now = state.plots[plot];
+  if (!now || now.crop === null) return null;
+  if (now.ripeSince !== null) return { day: now.ripeSince, units: now.standing };
+  for (const s of ahead ?? forecast(sc, state, sc.endDay - state.day + 1)) {
+    const p = s.plots[plot]!;
+    if (p.crop !== now.crop) return null;
+    if (p.ripeSince !== null) return { day: p.ripeSince, units: p.yielded };
+  }
+  return null;
+}
+
 // ---- Proof -------------------------------------------------------------------------------------------------------------
 
 /** What must always hold. Empty when sound. */
@@ -765,6 +796,7 @@ export function invariants(sc: Scenario, s: VillageState): string[] {
     if (!p.done && !s.works.some((w) => w.placed === p.id)) bad.push(`the ${p.what} at ${p.x}, ${p.z} is unfinished and nobody is building it`);
     for (const q of s.placed.slice(0, i)) if (q.id === p.id || Math.hypot(p.x - q.x, p.z - q.z) < (def?.radius ?? 0) + (sc.catalogue?.[q.what]?.radius ?? 0)) bad.push(`the ${p.what} at ${p.x}, ${p.z} stands on the ${q.what} at ${q.x}, ${q.z}`);
   }
+  if (s.fieldFirst !== null && !sc.plots.some((p) => p.id === s.fieldFirst)) bad.push(`the field put first, ${s.fieldFirst}, is not in the valley`);
   for (const [what, def] of Object.entries(sc.catalogue ?? {})) if (placedCount(s, what) > def.max) bad.push(`${placedCount(s, what)} of ${what} are placed, more than the ${def.max} allowed`);
   if (s.welfare < 0 || s.welfare > 100) bad.push(`welfare is ${s.welfare}`);
   if (s.households < 0 || s.households > Math.max(s.housing, sc.households)) bad.push(`${s.households} households in housing for ${s.housing}`);

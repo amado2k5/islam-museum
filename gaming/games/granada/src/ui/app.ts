@@ -484,6 +484,10 @@ async function main(): Promise<void> {
         h("p", { class: `branch ${f.branch.state}` }, t(`branch_${f.branch.state}`, { carries: f.branch.carries, wants: f.branch.wants })),
         f.standing > 0 && h("p", {}, t("field_standing", { n: f.standing })),
         f.yielded > 0 && h("p", { class: "note" }, t("field_account", { brought: f.brought, sold: f.sold, spoiled: f.spoiled })),
+        ...estateLines(f),
+        f.crop !== null &&
+          f.stage === "growing" &&
+          h("button", { type: "button", class: f.first ? "on" : "", "aria-pressed": String(f.first), "data-act": `first-${f.id}`, title: t("estate_first_text"), onclick: () => order({ kind: "field-first", plot: f.first ? null : f.id }) }, t("estate_first")),
         (f.stage === "ripe" || f.stage === "harvesting") &&
           h(
             "div",
@@ -493,6 +497,18 @@ async function main(): Promise<void> {
         f.sowable.length > 0 && h("div", { class: "actions" }, ...f.sowable.map((crop) => h("button", { type: "button", "data-act": `sow-${crop}-${f.id}`, onclick: () => order({ kind: "plant", plot: f.id, crop }) }, t("act_sow", { crop: t(`crop_${crop}`) })))),
       ),
     );
+  }
+
+  /** An estate's own figures, each the rules' own: its hands, what thirst has cost, what it will give and what that is worth. */
+  function estateLines(f: FieldCard): Child[] {
+    const e = f.expected;
+    return [
+      f.hands && h("p", { "data-estate": "hands" }, t("estate_hands", { have: f.hands.have, need: f.hands.need })),
+      f.lostToThirst > 0 && h("p", { class: "why", "data-estate": "lost" }, t("estate_lost", { n: f.lostToThirst })),
+      f.stage === "growing" && (e ? h("p", { "data-estate": "expected" }, t("estate_expected", { n: e.units, days: e.inDays })) : h("p", { class: "why", "data-estate": "expected" }, t("estate_never"))),
+      e && e.units > 0 && h("p", { class: e.fits ? "note" : "why", "data-estate": "store" }, t(e.fits ? "estate_fits" : "estate_no_room", { n: e.units, free: stocks(sc, state).storeRoom - stocks(sc, state).storeUsed })),
+      e && e.units > 0 && h("p", { class: "note", "data-estate": "value" }, e.port === null ? t("estate_value", { village: num(e.village) }) : t("estate_value_port", { village: num(e.village), port: num(e.port) })),
+    ];
   }
 
   /** The catalogue: what can be placed on the land, by kind, and, once one is chosen, where. */
@@ -673,6 +689,7 @@ async function main(): Promise<void> {
       h("p", { class: "stage" }, t(`stage_${f.stage}`), f.stage === "growing" ? ` · ${num(f.growth)}%` : "", f.spoilsIn !== null ? ` · ${f.spoilsIn > 0 ? t("field_spoils_in", { days: f.spoilsIn }) : t("field_spoiling")}` : ""),
       h("p", { class: `branch ${f.branch.state}` }, t(`branch_${f.branch.state}`, { carries: f.branch.carries, wants: f.branch.wants })),
       f.standing > 0 && h("p", {}, t("field_standing", { n: f.standing })),
+      ...estateLines(f),
       h(
         "div",
         { class: "actions" },
