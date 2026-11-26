@@ -340,6 +340,46 @@ const ev = <T>(page: Page, js: string) => page.evaluate(js) as Promise<T>;
   record("with scripts off the page says why in seven languages; on a refused device the skip link lands", lines === 7 && links.length === 7 && links.every((h) => h === "../") && /JavaScript/.test(text) && landed === "#play|MAIN", { lines, links, landed });
   await ctx.close();
 }
+// 4k. The vault. A save that was only in localStorage is taken into IndexedDB; with localStorage wiped the progress is
+// still there; "Saved" is shown after a step; a save exported from one browser is imported into a fresh one.
+{
+  const ctx = await browser.newContext({ viewport: { width: 1280, height: 800 }, acceptDownloads: true });
+  let page = await open(ctx, "");
+  await playing(page);
+  await ev(page, "window.__HH__.command({type:'skip'}); for (const id of ['mirror-a','mirror-c','mirror-e']) window.__HH__.touch(id); window.__HH__.command({type:'skip'}); window.__HH__.touch('page');");
+  const after = await ev<{ state: string; revision?: number }>(page, "window.__HH__.saveReady()");
+  const chip = await page.locator(".save-state").textContent();
+  // Wipe localStorage, as a browser's "clear cookies" for one kind of storage might: IndexedDB still has it.
+  await ev(page, "localStorage.clear()");
+  await page.close();
+  page = await open(ctx, "");
+  await ev(page, "window.__HH__.saveReady()");
+  const back = await ev<{ progress: string; button: string; local: boolean }>(page, "({ progress: document.querySelector('.hub .progress').textContent, button: document.querySelector('.hub button.primary').textContent, local: !!localStorage.getItem('im.hudhud.save.v1') })");
+  // Export, by the settings' own button.
+  await page.getByRole("button", { name: "Settings" }).click();
+  const [download] = await Promise.all([page.waitForEvent("download"), page.locator(".sheet button", { hasText: "Export save" }).click()]);
+  const file = await download.path();
+  const text = (await import("node:fs")).readFileSync(file!, "utf8");
+  await ctx.close();
+  // A fresh browser: nothing there; import the file; the page is home.
+  const fresh = await browser.newContext({ viewport: { width: 1280, height: 800 } });
+  page = await open(fresh, "");
+  await ev(page, "window.__HH__.saveReady()");
+  const before = await ev<string>(page, "document.querySelector('.hub .progress').textContent");
+  await page.getByRole("button", { name: "Settings" }).click();
+  await page.locator(".sheet input[type=file]").setInputFiles({ name: "hudhud-save.json", mimeType: "application/json", buffer: Buffer.from(text) });
+  await page.locator(".sheet button", { hasText: "Import save" }).last().click();
+  await page.waitForTimeout(600);
+  const imported = await ev<{ progress: string; toast: string | null }>(page, "({ progress: document.querySelector('.hub .progress').textContent, toast: document.querySelector('.toast') ? document.querySelector('.toast').textContent : null })");
+  // A file that is not a save is refused and changes nothing.
+  await page.getByRole("button", { name: "Settings" }).click().catch(() => undefined);
+  await page.locator(".sheet input[type=file]").first().setInputFiles({ name: "x.json", mimeType: "application/json", buffer: Buffer.from(text.replace('"done": true', '"done": false')) });
+  await page.locator(".sheet button", { hasText: "Import save" }).last().click();
+  await page.waitForTimeout(500);
+  const refused = await ev<{ progress: string; toast: string | null }>(page, "({ progress: document.querySelector('.hub .progress').textContent, toast: document.querySelector('.toast') ? document.querySelector('.toast').textContent : null })");
+  record("progress is in the vault: it outlives a wiped localStorage, shows as saved, and travels by export and import", after.state === "saved" && (after.revision ?? 0) >= 1 && /Saved/.test(chip ?? "") && /\D1\D/.test(` ${back.progress} `) && back.button.startsWith("Play again") && back.local && text.includes('"im.play.save"') && /\D0\D/.test(` ${before} `) && /\D1\D/.test(` ${imported.progress} `) && imported.toast === "The save was imported." && /\D1\D/.test(` ${refused.progress} `) && /not a Hudhud save/.test(refused.toast ?? ""), { after, chip, back, exportBytes: text.length, before, imported, refused });
+  await fresh.close();
+}
 // 5. The Atlas: fifty named pages in ten worlds, one of them open; play it, come back, and find its page home.
 for (const lang of ["en", "ar"]) {
   const ctx = await browser.newContext({ viewport: { width: 1280, height: 900 } });
