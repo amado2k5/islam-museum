@@ -82,6 +82,12 @@ const sunFrom = (azimuthDeg: number, elevationDeg: number): [number, number, num
  * The light of each season. The sun stands in the south, to the right of the valley as it is first seen, so that
  * walls, trees and furrows are modelled by light from the side. Art direction, not a sky model.
  */
+/** Three hours of the day, for pictures: where the sun stands, its colour, and its strength beside the season's own. */
+const HOUR_LIGHT: Record<"morning" | "midday" | "evening", { azimuth: number; elevation: number; colour: [number, number, number]; strength: number }> = {
+  morning: { azimuth: 104, elevation: 16, colour: [1.0, 0.82, 0.6], strength: 1.1 },
+  midday: { azimuth: 182, elevation: 58, colour: [1.0, 0.97, 0.9], strength: 0.95 },
+  evening: { azimuth: 256, elevation: 11, colour: [1.0, 0.68, 0.42], strength: 1.15 },
+};
 export const SEASON_LIGHT: Atmosphere[] = [
   { id: "golden", sunDirection: sunFrom(152, 34), sunColor: [1.0, 0.92, 0.78], sunIntensity: 4.6, skyZenith: [0.12, 0.3, 0.68], skyHorizon: [0.86, 0.88, 0.86], ambientSky: [0.66, 0.7, 0.84], ambientGround: [0.46, 0.4, 0.27], ambientIntensity: 1.25, fogColor: [0.6, 0.72, 0.86], fogDensity: 0.00006, exposure: 0.9, emissive: 0.1 },
   { id: "noon", sunDirection: sunFrom(196, 52), sunColor: [1.0, 0.95, 0.84], sunIntensity: 4.2, skyZenith: [0.13, 0.33, 0.76], skyHorizon: [0.82, 0.86, 0.9], ambientSky: [0.55, 0.7, 1.0], ambientGround: [0.5, 0.44, 0.3], ambientIntensity: 1, fogColor: [0.62, 0.74, 0.88], fogDensity: 0.00007, exposure: 0.84, emissive: 0 },
@@ -184,6 +190,7 @@ export class ValleyRenderer {
   private granary: THREE.Mesh[] = [];
   private scaffold!: THREE.InstancedMesh;
   private readonly placedMeshes = new Map<number, THREE.Mesh[]>();
+  private lightPreview: "morning" | "midday" | "evening" | null = null;
   private ghost!: THREE.Mesh;
   private ghostFill!: THREE.Mesh;
   private readonly crops = new Map<string, { wheat: THREE.InstancedMesh; veg: THREE.InstancedMesh; wheatSpots: Float32Array; vegSpots: Float32Array; soil: Soil; shown: string }>();
@@ -762,10 +769,35 @@ export class ValleyRenderer {
   }
 
   /** Light, sky and haze for a season of the year. */
+  /**
+   * For a picture only: the sun of a morning, a midday or an evening in place of the season's own, or null to give
+   * the season its own light back. The game has no hours; this changes nothing but what is drawn.
+   */
+  previewLight(hour: "morning" | "midday" | "evening" | null): void {
+    if (hour === this.lightPreview) return;
+    this.lightPreview = hour;
+    const season = this.season;
+    this.season = -1;
+    this.setSeason(season < 0 ? 0 : season);
+  }
+  /** The camera's angle of view, in degrees: narrow for a long lens, wide for a short one. Null for the game's own. */
+  setLens(fov: number | null): void {
+    this.camera.fov = fov === null ? FOV : Math.max(12, Math.min(75, fov));
+    this.camera.updateProjectionMatrix();
+  }
+  /** Draws the view once more and hands it over as a PNG. */
+  async capture(): Promise<Blob | null> {
+    if (this.pipeline) this.pipeline.render();
+    else this.renderer.render(this.scene, this.camera);
+    return new Promise((resolve) => this.canvas.toBlob(resolve, "image/png"));
+  }
+
   setSeason(season: number): void {
     if (season === this.season) return;
     this.season = season;
-    const atm = SEASON_LIGHT[season] ?? SEASON_LIGHT[0]!;
+    const own = SEASON_LIGHT[season] ?? SEASON_LIGHT[0]!;
+    const hour = this.lightPreview ? HOUR_LIGHT[this.lightPreview] : null;
+    const atm: Atmosphere = hour ? { ...own, sunDirection: sunFrom(hour.azimuth, hour.elevation), sunColor: hour.colour, sunIntensity: own.sunIntensity * hour.strength } : own;
     this.renderer.toneMappingExposure = atm.exposure;
     this.hemi.color = color(atm.ambientSky);
     this.hemi.groundColor = color(atm.ambientGround);
