@@ -150,6 +150,8 @@ The games' authored models (`gaming/art/`) are media too, and travel as the musi
 3. **Upload the games' media** (`games-media.yml`), kind `models`, `check` then `upload`, for UAT and then for production: it fetches the files, refuses any that is not byte for byte what the manifest records, puts each under `games/media/models/` at its own path, and reads it back. A file already there is left alone if identical and refused if not. Nothing is deleted.
 4. The workflow's build is made with `--models-base ../media/models/`, so a game asks for its models beside itself on the games host.
 
+On 26 November 2026 (UTC) the watermill's 17 files were uploaded to UAT this way (check run 45736853275, upload run 45736985159) and read back from the host identical to the manifest.
+
 **Upload before you release.** A game does without a model it cannot fetch (it keeps the shape its own code draws), but the browser still records the failed request. So the models go to an environment before a release that looks for them does, as with the music; production has neither yet.
 
 ## Trying the games from another device on the same network
