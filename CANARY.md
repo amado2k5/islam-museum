@@ -14,6 +14,8 @@ open a new block on top with the new version and today's date.
 ---
 
 ## v2.31.0 — 2026-11-24
+### Fixed
+- **Two reading-step links on the "for you" pages no longer lead to "page not found", in all seven languages.** "Islam in 30 minutes" (on the pages for the curious and for passers-by) and "The New Muslims, a trail" (on the pages for new Muslims and for the five-minute visitor) pointed to `/<lang>/exhibit/…`, but exhibit pages live at `/<lang>/exhibits/…`; both now point to the right address.
 ### Added
 - **Granada palace evaluation LOD exports in the games workshop (not on the site).** The Candidate C palace Blender script can now export separate `palace-lod1` and `palace-lod2` evaluation files with the same origin, axes, scale and `palace` node name, fewer procedural segments and eight runtime material groups. The files are local evaluation artifacts only, outside git and not loaded by any game; the palace remains a reconstruction with historical review pending, not accepted or production art.
 - **A public-domain vegetation survey for the Granada game evaluation (documentation only, not on the site).** The games workshop now records candidate CC0 sources for olive, cypress, citrus, poplar, fig, vine, wheat, vegetables, reeds and hedging, with licence locations, species confidence, published triangle/material/texture/download figures where the sources state them, required retopology/LOD/wind work and gaps such as the missing pomegranate tree. Nothing was downloaded, bought, contacted, imported or approved; the survey is evidence for a later owner decision.
