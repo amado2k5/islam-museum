@@ -75,7 +75,7 @@ Listener counts are an instrumented add/remove-event-listener count inside the p
 
 - `hudhud-browsers.json`: browser availability/launch report.
 - `hudhud-a11y.json`: complete machine accessibility scan.
-- `hudhud-a11y-*.png`: captures for each scan state in English and Arabic.
+- `hudhud-a11y-*.webp`: captures for each scan state in English and Arabic. They were converted from the tool's PNG captures with `cwebp -q 82` so the committed evidence follows the repository's small-WebP evidence rule; the conversion was lossy and the figures/measurements come from the JSON, not these pictures.
 - `hudhud-soak.json`: complete ten-minute soak samples and verdict.
 
 ## What was not measured
