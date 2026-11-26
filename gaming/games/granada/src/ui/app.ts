@@ -537,6 +537,7 @@ async function main(): Promise<void> {
         seed: state.seed,
         quality: query.get("q") === "low" ? "low" : "high",
         reducedMotion: matchMedia("(prefers-reduced-motion: reduce)").matches,
+        models: query.get("models") !== "off",
         onField: (id) => {
           selected = id;
           tab = "fields";

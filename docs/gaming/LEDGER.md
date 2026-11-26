@@ -355,6 +355,19 @@ tools/uat-check.ts https://uat-games.islam.museum en, then ar   the five address
 
 A capture of Granada on UAT shows the tiled village, the minaret, the mill and the bridge. Not done: a rollback on UAT; production.
 
+### The twenty-second pull request: the authored mill in the valley (25 November 2026)
+
+```
+npm --prefix gaming test                      14 files, 247 tests passed (three new: the code-made mill kept apart, the authored one set down with its wheel in the channel, where models are fetched from)
+node --test workers/games/test/*.test.mjs     36 passed (the host names a model's entry file for what it is)
+tools/granada-play.ts <dir> en, then ar       passed; models: ["granada/mill"], no failure, no console error
+npm run build:release:music + release:smoke   as the workflow builds it, with no models: passes, and mill.gltf is never asked for
+npm run build:release:media + release:smoke   with the models staged beside the release: passes, the authored mill loads under the content security policy
+tools/granada-shot.ts                         8.3 to 8.4 ms median with the model in; 2.42 million triangles from the first view
+```
+
+The first run failed to load the model, and the valley kept its own mill and said why, which is what it is meant to do: the development server had stopped to re-bundle when the loader was first asked for. The loader is now named to it in advance.
+
 ## Measurements
 
 The engine numbers and their conditions are in [G-0002](adr/G-0002-rendering-engine.md) and the [M1 report](m1-graphics-spike.md). They are for one Apple M4 Max in Chrome 158 and are not a hardware recommendation.
@@ -403,6 +416,8 @@ The full district at the end is about 1.56 million triangles and about 950 draw 
 - The art pipeline's first asset: [`evidence/granada/art/mill-preview.webp`](evidence/granada/art/mill-preview.webp), rendered in Blender from `gaming/art/blender/granada_mill.py`.
 
 - The fourth UAT release checked in Chrome: [`evidence/release/uat-release-4-en.json`](evidence/release/uat-release-4-en.json), the same in Arabic, and a capture of Granada there.
+
+- The authored mill in the valley: [`evidence/granada/art/mill-in-the-valley.webp`](evidence/granada/art/mill-in-the-valley.webp).
 
 ## Unresolved defects and known limits
 

@@ -26,6 +26,10 @@ writeFileSync(join(bucketDir, "games", "channel.json"), JSON.stringify({ format:
 const localMusic = resolve(releaseDir, "../../media/music");
 const withMusic = manifest.musicBase !== "off" && existsSync(localMusic);
 if (withMusic) cpSync(localMusic, join(bucketDir, "games", "media", "music"), { recursive: true });
+// And so do the authored models, when the release was built to look for them: the entry file, its data and its textures.
+const localModels = resolve(releaseDir, "../../media/models");
+const withModels = (manifest as { modelsBase?: string }).modelsBase !== undefined && (manifest as { modelsBase?: string }).modelsBase !== "off" && existsSync(localModels);
+if (withModels) cpSync(localModels, join(bucketDir, "games", "media", "models"), { recursive: true, filter: (src) => !src.includes("/_work") });
 const bucket = folderBucket(bucketDir);
 const env = { GAMES_BUCKET: bucket, ROBOTS: "disallow", MUSIC_ORIGIN: "" };
 
@@ -120,6 +124,15 @@ for (const game of manifest.games.filter((g) => g.page)) {
         started3d = threeD === "on";
         if (threeD !== "on" && threeD !== "off") errors.push(`the 3D valley did not start: ${threeD}`);
         else if (threeD === "on") {
+          if (withModels) {
+            // The authored mill is fetched from the host and takes the code-made one's place.
+            for (const end = Date.now() + 30_000; ((await page.evaluate("window.__GR__.stage().info().models.length")) as number) === 0; ) {
+              if (Date.now() > end) break;
+              await page.waitForTimeout(200);
+            }
+            const models = (await page.evaluate("window.__GR__.stage().info()")) as { models: string[]; modelFailures: string[] };
+            if (!models.models.includes("granada/mill")) errors.push(`the authored mill did not load: ${models.modelFailures.join("; ") || "no reason given"}`);
+          }
           await page.waitForTimeout(1200);
           const info = (await page.evaluate("window.__GR__.stage().info()")) as { triangles: number };
           if (!(info.triangles > 100_000)) errors.push(`the 3D valley drew ${info.triangles} triangles`);

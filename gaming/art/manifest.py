@@ -42,6 +42,8 @@ def describe(asset):
         "licence": "the scripts: MIT, with the code; what they make: CC BY-SA 4.0, with the museum's media of its own",
         "sources": [{"path": f"art/{p}", "sha256": sha(HERE / p)} for p in ["blender/common.py", asset["script"]]],
         "objects": [n["name"] for n in gltf["nodes"] if "mesh" in n],
+        # Where each part's origin is, in the export's own axes (y up; x along the building).
+        "placed": {n["name"]: [round(v, 4) for v in n.get("translation", [0, 0, 0])] for n in gltf["nodes"] if "mesh" in n},
         "materials": [m["name"] for m in gltf["materials"]],
         "triangles": triangles,
         "bytes": sum(f.stat().st_size for f in files),

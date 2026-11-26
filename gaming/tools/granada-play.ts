@@ -5,7 +5,7 @@
 // a judgement of whether the game is any good. The checks of the page are made on the plan (view=plan); the 3D valley
 // has its own part near the end: that it starts, shows, opens a field when one is clicked, and is steered by keys.
 // Usage: npx tsx --tsconfig tsconfig.json tools/granada-play.ts <out dir> [lang=en]
-import { mkdirSync, writeFileSync } from "node:fs";
+import { existsSync, mkdirSync, writeFileSync } from "node:fs";
 import { resolve } from "node:path";
 import { chromium, type Page } from "playwright-core";
 import { serveWorkspace } from "./serve";
@@ -27,7 +27,10 @@ page.on("console", (m) => {
 page.on("response", (r) => {
   if (r.status() >= 400) errors.push(`${r.status()} ${r.url()}`);
 });
-const url = (extra = "", view = "&view=plan") => `${served.base}/games/granada/index.html?lang=${lang}&seed=7&music=off${view}${extra}`;
+// The authored models are media and are on a machine only if the art scripts were run there. Where they are, the
+// valley must take them up; where they are not, the page is told not to ask for them, and draws its own shapes.
+const haveModels = existsSync(resolve(import.meta.dirname, "../media/models/granada/mill.gltf"));
+const url = (extra = "", view = "&view=plan") => `${served.base}/games/granada/index.html?lang=${lang}&seed=7&music=off${haveModels ? "" : "&models=off"}${view}${extra}`;
 const shot = (name: string) => page.screenshot({ path: resolve(out, `granada-${lang}-${name}.png`) });
 const fail = async (why: string): Promise<never> => {
   await shot("failure").catch(() => {});
@@ -151,6 +154,10 @@ if (threeD !== "on") {
   await page.waitForTimeout(9500);
   const info = await game<{ triangles: number; drawCalls: number; engine: string; pixels: [number, number] }>("window.__GR__.stage().info()");
   if (!(info.triangles > 100_000)) await fail(`the 3D valley drew ${info.triangles} triangles`);
+  const models = await game<{ models: string[]; modelFailures: string[] }>("(() => { const i = window.__GR__.stage().info(); return { models: i.models, modelFailures: i.modelFailures }; })()");
+  log.models = haveModels ? models : "none on this machine: the valley drew its own shapes";
+  if (haveModels && !models.models.includes("granada/mill")) await fail(`the authored mill did not load: ${models.modelFailures.join("; ") || "no reason given"}`);
+  if (!haveModels && models.models.length) await fail("told not to fetch models, the valley fetched one");
   await shot("7-valley-3d");
   // A click on the mill field in the valley opens it, as a click on the plan does.
   const at = await game<[number, number] | null>("window.__GR__.stage().screenOf(-204, 3, 125)");

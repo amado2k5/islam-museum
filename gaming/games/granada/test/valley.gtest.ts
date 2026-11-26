@@ -1,11 +1,15 @@
 // The valley as geometry, and its camera: what can be said of them without a browser. That the picture is any good
 // is a judgement made by looking at it (tools/granada-shot.ts); what is held here is that the 3D valley is the same
 // ground as the plan, that its shapes are sound, and that nothing is planted where it cannot stand.
+import { readFileSync } from "node:fs";
+import { dirname, resolve } from "node:path";
+import { fileURLToPath } from "node:url";
 import { describe, expect, it } from "vitest";
 import type { MeshData } from "@im/worldkit/mesh";
 import { FIELD_SHAPE } from "../src/ui/map";
 import { LIMITS, OVERVIEW, START, approach, clampPose, eyeOf, pan, turn, zoom } from "../src/view/camera";
 import { oxCart, waterWheel } from "../src/view/buildings";
+import { modelUrl, modelsAvailable } from "../src/view/models";
 import { BRIDGE, MILL, MOSQUE, ROAD_NORTH, roadHeight, roadLine } from "../src/view/valley";
 import { BOUNDS, CHANNELS, CHANNEL_WATER, FIELDS, HOUSE_LOTS, LAND, PLOT_GRID, POOL, RIVER_HALF, broadTree, buildLand, buildRange, buildRiver, buildScenery, channelWater, cropSpots, cypressTree, fieldAt, fieldGround, heightAt, orchardTree, plotAt, plotPoint, plotTable, poolWater, poplarTree, riverZ, settled, waterLevel, worked } from "../src/view/valley";
 
@@ -281,6 +285,50 @@ describe("the mosque, the mill, the bridge and the roads", () => {
     expect(length).toBeLessThan(3.6);
     expect(scenery.cartRoads.length).toBe(2);
     for (const road of scenery.cartRoads) expect(road.length).toBeGreaterThan(20);
+  });
+});
+
+describe("the mill as the game draws it and as the art pipeline made it", () => {
+  it("keeps a mill of its own code, sound, for when the authored one is not there", () => {
+    expect(scenery.mill.length).toBeGreaterThan(0);
+    for (const c of scenery.mill) sound(c.mesh);
+    // It is apart from the rest of what is built, so that it alone can give way to the model.
+    expect(scenery.mill.reduce((n, c) => n + tris(c.mesh), 0)).toBeGreaterThan(50);
+  });
+
+  it("sets the authored mill down with its wheel in the west branch", () => {
+    const manifest = JSON.parse(readFileSync(resolve(dirname(fileURLToPath(import.meta.url)), "../../../art/manifest.json"), "utf8")) as { assets: Array<{ id: string; placed: Record<string, [number, number, number]> }> };
+    const mill = manifest.assets.find((a) => a.id === "granada/mill")!;
+    const wheel = mill.placed.wheel!;
+    // The model is set down unturned: its x is east, its z south, as the valley's are.
+    expect(scenery.millAt.yaw).toBe(0);
+    const wx = scenery.millAt.x + wheel[0];
+    const wz = scenery.millAt.z + wheel[2];
+    const path = CHANNELS.west!;
+    let least = Infinity;
+    for (let i = 0; i < path.length - 1; i++) {
+      const [ax, az] = path[i]!;
+      const [bx, bz] = path[i + 1]!;
+      const t = Math.max(0, Math.min(1, ((wx - ax) * (bx - ax) + (wz - az) * (bz - az)) / ((bx - ax) ** 2 + (bz - az) ** 2)));
+      least = Math.min(least, Math.hypot(wx - ax - (bx - ax) * t, wz - az - (bz - az) * t));
+    }
+    expect(least).toBeLessThan(0.6);
+    // Its axle is above the channel's water and its lowest paddles below it.
+    const water = heightAt(wx, wz, SEED) + CHANNEL_WATER;
+    expect(scenery.millAt.y + wheel[1]).toBeGreaterThan(water + 1);
+    expect(scenery.millAt.y + wheel[1] - 3.3).toBeLessThan(water);
+    // And it stands where the code-made mill does, so nothing planted or built round it has to move.
+    expect(Math.hypot(scenery.millAt.x - MILL[0], scenery.millAt.z - MILL[1])).toBeLessThan(1);
+  });
+});
+
+describe("where the models are fetched from", () => {
+  it("is nowhere for a build told so, and a plain join of folder and path otherwise", () => {
+    expect(modelsAvailable("off")).toBe(false);
+    expect(modelsAvailable("")).toBe(false);
+    expect(modelsAvailable("../media/models/")).toBe(true);
+    expect(modelUrl("granada/mill.gltf", "../media/models/")).toBe("../media/models/granada/mill.gltf");
+    expect(modelUrl("/granada/mill.gltf", "/media/models")).toBe("/media/models/granada/mill.gltf");
   });
 });
 

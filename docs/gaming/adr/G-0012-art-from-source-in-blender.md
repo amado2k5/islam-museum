@@ -23,7 +23,7 @@ The corrective mandate's first piece of work ([`../traceability.md`](../traceabi
 
 ## Not decided, not done
 
-- **Loading these in the game.** The valley still draws its code-made mill. Loading glTF under the games' content security policy, hosting the models beside the music, and what the game shows while a model loads are the next change.
+- **Hosting.** Since the change after this one the valley loads the mill (the engine's own glTF loader, which needs nothing the games' content security policy refuses; the code-made mill is drawn first and gives way; a build is told where the models are, and is told there are none unless a host has them). What is not done is putting the models on a host: the publisher and its workflow carry only the music so far.
 - Levels of detail, collision shapes, compressed GPU textures.
 - **Figures.** Rigged people and animals with walk and work cycles are asked for by the mandate and are a different kind of work; nothing here makes them.
 - Who judges the result. The author made it and has looked at it; that is not a review.

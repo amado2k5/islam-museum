@@ -112,7 +112,11 @@ Captures and reports: [`../evidence/granada/valley3d/`](../evidence/granada/vall
 
 ![The watermill, rendered in Blender from its script](../evidence/granada/art/mill-preview.webp)
 
-It is not in the game. The valley above still draws the mill its own code makes.
+**Since the next change the valley loads it.** The page draws its own code-made mill from the first frame, fetches the authored one, and sets it down in the same place with its wheel in the west branch; the wheel still turns only while that branch carries water. If the model is not there, or the page is opened with `&models=off`, the code-made mill stays and nothing is reported as an error.
+
+![The authored mill in the valley](../evidence/granada/art/mill-in-the-valley.webp)
+
+Where it can be seen: on a development build of a machine that has run the art script, and in a release built with `--models-base`. **Not on UAT**: the models are media, served beside the releases like the music, and none has been uploaded there; the workflow's own build is told there are none, so UAT shows the code-made mill and asks for nothing.
 
 ## The museum behind it
 

@@ -41,10 +41,10 @@
     "R10"
    ],
    "checked": "True at the baseline: every shape was generated at load by code, with no authored asset, no rigged figure, no reflection.",
-   "movedSince": "Pull request 8266 (on UAT since release 20261125-484ead40122): tiled houses, a mosque with its minaret, a mill whose wheel turns with the water, a three-arched bridge, ox-carts, people who lean as they walk, all generated at load. Then the pipeline itself: the founder allowed Blender on 25 November; gaming/art/ now makes assets from scripts, with painted texture sets (colour, normal, roughness), bevelled meshes in metres, a glTF export, a lit preview and a manifest of checksums (G-0012). One hero asset exists as a preview, the watermill (16,172 triangles); it is not loaded by the game.",
+   "movedSince": "Pull request 8266 (on UAT since release 20261125-484ead40122): tiled houses, a mosque with its minaret, a mill whose wheel turns with the water, a three-arched bridge, ox-carts, people who lean as they walk, all generated at load. Then the pipeline itself: the founder allowed Blender on 25 November; gaming/art/ now makes assets from scripts, with painted texture sets (colour, normal, roughness), bevelled meshes in metres, a glTF export, a lit preview and a manifest of checksums (G-0012). One hero asset exists, the watermill (16,172 triangles). The valley loads it and sets it down with its wheel in the channel, keeping its code-made mill for when the model is absent; it is on no host, so UAT still shows the code-made one.",
    "status": "in-progress",
-   "next": "Load the mill in the valley in place of the code-made one (glTF under the content security policy, models hosted beside the music), then the other four previews: the fortified hill town's gate and wall kit, a courtyard house, the arcaded market, the bridge.",
-   "founder": "Nothing now: he answered 'Install Blender'. Later: who reviews the art, since the author cannot pass GRA12 on his own eye."
+   "next": "Carry the models to the games host as the music is carried (the publisher and its workflow), then the other four previews: the fortified hill town's gate and wall kit, a courtyard house, the arcaded market, the bridge.",
+   "founder": "His word before any model is uploaded to UAT, as for every write there. Later: who reviews the art, since the author cannot pass GRA12 on his own eye."
   },
   {
    "id": 2,

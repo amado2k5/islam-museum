@@ -12,6 +12,8 @@ export interface StageOptions {
   seed: number;
   quality: Quality;
   reducedMotion: boolean;
+  /** Whether to fetch the authored models (the page's `models=off` turns it off). */
+  models: boolean;
   onField: (id: string) => void;
 }
 
@@ -41,7 +43,7 @@ export class Stage {
     host.prepend(s.canvas);
     const { textures } = await generateTextures(7, options.quality === "high" ? 1024 : 512);
     // The valley is one authored place: its shape does not change with the game's seed, only its weather does.
-    s.renderer = await ValleyRenderer.create(s.canvas, textures, { quality: options.quality, seed: 7, reducedMotion: options.reducedMotion, maxPixelRatio: options.quality === "high" ? 2 : 1.25 });
+    s.renderer = await ValleyRenderer.create(s.canvas, textures, { quality: options.quality, seed: 7, reducedMotion: options.reducedMotion, maxPixelRatio: options.quality === "high" ? 2 : 1.25, models: options.models });
     s.pose = s.goal = clampPose(START, s.ground);
     s.renderer.setCamera(s.pose);
     s.listen();
