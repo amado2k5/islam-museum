@@ -507,5 +507,20 @@
    "by": "",
    "missing": "Needs the founder's eye; no frames have been set beside the targets"
   }
+ ],
+ "added": [
+  {
+   "id": "HR-MARK",
+   "game": "All games",
+   "asks": "While a game's history is pending review, its own page says so wherever it states or links history",
+   "covered": "yes",
+   "how": [
+    "host",
+    "rules"
+   ],
+   "by": "release-regression.ts reads the words off Granada's brief, The Golden Age's brief and Atlas's reveal in English; review-mark.gtest.ts holds them in all seven languages",
+   "missing": "Read on the host in English only",
+   "why": "The founder's rule of 26 November 2026. It is the museum's own scenario, not one of the reviewer's"
+  }
  ]
 }

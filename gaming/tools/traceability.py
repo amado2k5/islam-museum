@@ -113,6 +113,12 @@ if matrix_file.exists():
     for r in rows:
         out.append(f"| {r['id']} | {r['game']} | {cell(r['asks'])} | {r['covered']} | {', '.join(r['how'])} | {cell(r['by'])} | {cell(r['missing'])} |")
     out.append("")
+    if matrix.get("added"):
+        out.append("**Added by the museum to the reviewer's scenarios:**")
+        out.append("")
+        for r in matrix["added"]:
+            out.append(f"- **{r['id']}** ({', '.join(r['how'])}): {r['asks']}. {r['by']}. {r['why']}.")
+        out.append("")
 out.append("## Every gate")
 out.append("")
 out.append("| Gate | What it asks | Status | Corrective work that bears on it | What exists as evidence |")
@@ -150,6 +156,11 @@ if plan_file.exists() and inventory_file.exists():
     o.append("")
     o.append(f"**What an estimate here is.** {pp['session']} {pp['basis']}")
     o.append("")
+    if pp.get("measuredPace"):
+        o.append(f"**What has been measured.** {pp['measuredPace']}")
+        o.append("")
+        o.append(f"**In hours.** {pp['inHours']}")
+        o.append("")
     o.append("## The phases")
     o.append("")
     o.append("| Phase | What it is | Where it stands | Packages | Estimate, in sessions |")

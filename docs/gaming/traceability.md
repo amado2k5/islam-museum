@@ -147,6 +147,10 @@ _From docs/gaming/spec-production/PRODUCTION_GAME_STANDARDS.md, section 9, as ma
 | XG-05 | All games | Old and damaged saves; static hosting; no network needed but museum links | yes | local, rules | The save tests of each game; release-smoke.ts fails on any request to another origin; the offline package's own check |  |
 | XG-06 | All games | The game beside its target image, frame by frame, signed off | no | hand |  | Needs the founder's eye; no frames have been set beside the targets |
 
+**Added by the museum to the reviewer's scenarios:**
+
+- **HR-MARK** (host, rules): While a game's history is pending review, its own page says so wherever it states or links history. release-regression.ts reads the words off Granada's brief, The Golden Age's brief and Atlas's reveal in English; review-mark.gtest.ts holds them in all seven languages. The founder's rule of 26 November 2026. It is the museum's own scenario, not one of the reviewer's.
+
 ## Every gate
 
 | Gate | What it asks | Status | Corrective work that bears on it | What exists as evidence |

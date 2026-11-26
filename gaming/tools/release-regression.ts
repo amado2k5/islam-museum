@@ -6,6 +6,8 @@
 // What it plays: the release pointer at the start and at the end (REL-01); the five English addresses, each in 3D
 // and then deliberately without it (REL-02, REL-03); and one whole Atlas daily game played as a person plays it,
 // with no reload to help it (AT-01, AT-02, AT-03, AT-04, AT-07), then a reload in the middle and at the end (AT-08).
+// It also reads the mark of historical review off each game's page (HR-MARK), which is the museum's own scenario and
+// not one of the reviewer's.
 // The Atlas game is the one the reviewer played on 26 November 2026, whose second round, answered close to the
 // place, left the next round opening on a screen of nothing but land.
 //
@@ -83,6 +85,31 @@ for (const [game, extra] of ADDRESSES) {
 }
 record("REL-02", started.length === ADDRESSES.length, `${started.length} of ${ADDRESSES.length} addresses started: ${started.join(", ")}`);
 record("REL-03", in3d.length === ADDRESSES.length && without.length === ADDRESSES.length, `in 3D: ${in3d.length} of ${ADDRESSES.length}; without it when asked (no3d=1): ${without.length} of ${ADDRESSES.length}`);
+
+// The mark of historical review (the founder's rule of 26 November 2026): while a game's history has not been
+// through review, its own page says so wherever it states or links history. Read here in English.
+const MARK = "Historical review pending";
+{
+  const seen: string[] = [];
+  let p = await open("/granada/?lang=en&fresh=1&music=off&no3d=1");
+  await p.waitForSelector("#brief-start", { timeout: 90_000 });
+  if ((await p.locator("p.note").allInnerTexts()).some((t) => t.includes(MARK))) seen.push("Granada's brief");
+  await p.context().close();
+  p = await open("/golden-age/?lang=en&fresh=1&music=off&no3d=1");
+  await p.waitForSelector("#brief .behind", { timeout: 90_000 });
+  if ((await p.locator("#brief .behind p").allInnerTexts()).some((t) => t.includes(MARK))) seen.push("The Golden Age's brief");
+  await p.context().close();
+  p = await open(`/atlas/?lang=en&date=${ATLAS_DATE}&fresh=1&music=off&no3d=1`);
+  await p.waitForSelector("#panel h2", { timeout: 60_000 });
+  await p.fill("#lat", "30");
+  await p.fill("#lon", "40");
+  await p.locator("#panel .field button").first().click();
+  await p.locator("button.primary").click();
+  await p.waitForSelector("#panel .big");
+  if ((await p.locator("p.note").allInnerTexts()).some((t) => t.includes(MARK))) seen.push("Atlas's reveal");
+  await p.context().close();
+  record("HR-MARK", seen.length === 3, `"${MARK}" stands on ${seen.length} of 3 pages: ${seen.join(", ") || "none"}`);
+}
 
 // Atlas, one whole daily game with no reload between rounds.
 const page = await open(`/atlas/?lang=en&date=${ATLAS_DATE}&fresh=1&music=off`);
