@@ -13,21 +13,42 @@ It plays with the mouse, with the keyboard alone (arrow keys turn the globe, Ent
 
 ## Where the questions come from
 
-Every round is a museum record joined to the museum place where it happened; the game adds no fact of its own ([G-0006](../adr/G-0006-atlas-content-pack.md)). `gaming/games/atlas/tools/build-pack.ts` reads `data/` and writes a pinned pack. Built at commit `0efdf22a5ad` on 25 November 2026 (pack digest `764f347cfa66…`):
+Every round is a museum record joined to the museum place where it happened; the game adds no fact of its own ([G-0006](../adr/G-0006-atlas-content-pack.md)). `gaming/games/atlas/tools/build-pack.ts` reads `data/` and writes a pinned pack. Built from the museum's records as of commit `0efdf22a5ad` (they have not changed since), rebuilt on 25 November 2026 with the fairness rule below (pack digest `60ba50cd200c…`):
 
 | | |
 |---|---:|
 | Places that qualify (city, town or site; coordinates of `site` or `locality` precision; Arabic and English name) | 1,908 |
-| Rounds that qualify | 3,481 |
-| of which civic and scholarly events | 776, in 121 places |
+| Rounds that qualify | 3,218 |
+| of which civic and scholarly events | 771, in 119 places |
 | of which births and deaths of historical figures | 1,473, in 337 places |
-| of which military events | 1,232, in 612 places |
-| Rounds in the pack (a year's schedule plus 300 in reserve for practice) | 2,125, in 528 places: 465 civic, 951 people, 709 military |
+| of which military events | 974, in 465 places |
+| Rounds in the pack (a year's schedule plus 300 in reserve for practice) | 2,125, in 568 places: 465 civic, 946 people, 714 military |
 | Days scheduled | 365, using 1,825 rounds, none twice |
 
 **The daily mix was set by this count, not by preference.** The first design had two civic events a day. The museum's precisely located, dated civic events cluster in about 120 places, and the schedule ran out on day 142. A day is therefore one civic event, two people, one military event, and a fifth round from whichever category has most left, which in practice is a second military event. A daily game that is two-fifths battles and sieges is heavier on warfare than a museum game should be, and the cure is more located civic records in the museum (foundations, journeys, books written, buildings raised), not a change in the game.
 
 **What was left out, and why** (`gaming/games/atlas/data/report.v1.json`): 1,073 places whose coordinates the museum marks as approximate; 951 that are regions, provinces, rivers or mountains; 1,429 events and 1,087 people's birthplaces or places of death that fall on one of those; 334 events with more than one place; 203 events with no start year, 438 people with no birth year and 150 with no year of death; 866 people born after 1900; 240 birthplaces or places of death marked low confidence; and 33 events and 28 people the game does not turn into questions (massacre, persecution, expulsion, the events of revelation, schism, and any record with a `sensitivity` field).
+
+## Fair rounds (25 November 2026)
+
+Atlas scores a guess against the place a record is tied to. Some of the museum's events are tied to the nearest city and not to the field where they happened, and a player who pinned the place the question named was marked wrong for it. The corrective work (piece 7 of [`../traceability.md`](../traceability.md)) asked that such rounds be kept out of scoring until looked at.
+
+**The rule** (`gaming/games/atlas/src/fairness.ts`): an event whose English name says where it happened ("Battle of X", "Siege of X", "Treaty of X" and the like) is asked only if, in at least one of its seven languages, its name contains the name of the place it would be scored at. Otherwise it is held back.
+
+| | Before | Now |
+|---|---:|---:|
+| Events held back by the rule | none | 263 (258 military, 5 civic), tied to 212 places |
+| Rounds that qualify | 3,481 | 3,218 |
+| Military events that qualify | 1,232 | 974 |
+| Rounds in the pack | 2,125 in 528 places | 2,125 in 568 places |
+| of which civic, people, military | 465, 951, 709 | 465, 946, 714 |
+| Days scheduled | 365 | 365, none of the 1,825 rounds used twice |
+
+- **What is held is listed** in `gaming/games/atlas/data/review.v1.json`, each with its record and the place it is tied to, for the lane that owns the records. Nothing in `data/` was edited from here.
+- **It does not tell a wrong place from a missing name.** Counted first on the pack as it was: of 531 place-named events, 133 had an English name unlike the scored place's; 43 of those were cleared because another language's name matched (Adrianople and Edirne, Bougie and Béjaïa); the rest were held. Among the held are true mismatches (Abu Klea at Khartoum, Dandanqan at Merv, Azaz at Aleppo) and spellings the museum's names do not have (Ghazdewan and Gijduvan, Gran and Esztergom). Both are for a reader of the record to settle; until then neither is asked.
+- **No coordinate was checked against a source.** The rule compares names. A round that passes it is not thereby proved right, and an event not named for a place at all is not looked at by it.
+- **The day's mix was kept.** With 258 battles gone, the year could no longer be laid out the old way, and the first repair made the game ask more battles (830 in the pack, from 709). The fifth round of a day now goes to the category with the most places free that day, with battles counted for less; the builder finds the lowest weight for battles that still lays out the whole year (0.62, in the report) and the pack holds 714.
+- A saved daily game from the old pack is set aside, as a save from any other pack always was; the pack's digest is now `60ba50cd200c…`.
 
 ## Image rounds: decided, counted, not built
 
@@ -73,7 +94,7 @@ Not done on it: terrain, rivers, any map of a past age; a view with perspective;
 
 | Check | Result |
 |---|---|
-| Unit tests, `npm --prefix gaming test` | 52 Atlas tests pass (four hold the lit sphere to the drawn globe's projection). 16 are the image rule on records written for the tests (what is accepted, each reason for refusal, the image hosts read from the content security policy, and when there are enough pictures for a schedule); they test the rule, not any screen, because there is none. The other 32: distance at the antimeridian and the poles, century counting, scoring monotonic, pack digest, names in seven languages, the people rule, **every one of 365 days valid**, a broken schedule caught, UTC day counting over month ends and leap days, a full game, hint cost, immutability, share marks, practice dealing, save round trip, unreadable and newer saves, damaged entries, games from another pack not resumed, and the seven string files holding the same keys and placeholders with no typed honorific |
+| Unit tests, `npm --prefix gaming test` | 59 Atlas tests pass (four hold the lit sphere to the drawn globe's projection; seven hold the fairness rule, the shipped pack to it, and the day's free slot). 16 are the image rule on records written for the tests (what is accepted, each reason for refusal, the image hosts read from the content security policy, and when there are enough pictures for a schedule); they test the rule, not any screen, because there is none. The other 32: distance at the antimeridian and the poles, century counting, scoring monotonic, pack digest, names in seven languages, the people rule, **every one of 365 days valid**, a broken schedule caught, UTC day counting over month ends and leap days, a full game, hint cost, immutability, share marks, practice dealing, save round trip, unreadable and newer saves, damaged entries, games from another pack not resumed, and the seven string files holding the same keys and placeholders with no typed honorific |
 | Real browser, `npx tsx tools/atlas-play.ts <dir> <lang>`, Chrome 158 | A full daily game in each of the seven languages: mouse, keyboard only, typed coordinates, region hint, century estimate, reload in mid-game, unreadable save set aside; no console error (`evidence/m2/atlas/playthrough-7-languages.md`). Totals differ between left-to-right and right-to-left runs because the script clicks fixed pixels and the globe sits on the other side of the window; the rules are the same |
 | Image survey, `npm --prefix gaming run atlas:images` | Every one of the 895 media records given one verdict: 12 accepted (4 for the question as asked, 8 under a held licence), 883 refused with a counted reason. The four accepted records were read by the agent; the pictures themselves were not opened, and no licence was checked beyond what the record states |
 
@@ -96,7 +117,7 @@ Written down for the lanes that own the records; nothing was edited.
 
 - 1,073 place records carry `coordinate_precision: approx`. Each one upgraded to `locality` or `site` adds rounds to Atlas and precision to the museum's maps.
 - 441 qualifying places have no usable region (none listed, or a region slug with no display name, such as `global`).
-- Some events are tied to the nearest city rather than to the field where they happened. Example seen in the schedule: the battle of Abu Klea is recorded at Khartoum. Atlas scores against the record, so such a round is unfair by the distance between the two.
+- Some events are tied to the nearest city rather than to the field where they happened: the battle of Abu Klea is recorded at Khartoum. Since 25 November 2026 Atlas holds such rounds back ("Fair rounds" above): 263 events, listed in `gaming/games/atlas/data/review.v1.json` with the place each is tied to. For each, either the event's `occurred_at` should name the place it happened, or the place lacks one of its names.
 - 93 people who otherwise qualify have more than one `born_in` place, and 19 more than one `died_in` place.
 
 And what the image survey noticed, on 25 November 2026:

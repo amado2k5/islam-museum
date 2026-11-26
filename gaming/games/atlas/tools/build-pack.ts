@@ -18,6 +18,7 @@ import { fileURLToPath } from "node:url";
 import { parse } from "yaml";
 import { LANGS, PACK_FORMAT, PACK_VERSION, checkPack, digestInput, encodePack, type AtlasPack, type Category, type Lang, type PackLabels, type PackPlace, type PackRound, type Precision } from "../src/pack";
 import { buildSchedule, checkSchedule } from "../src/schedule";
+import { heldForItsPlace } from "../src/fairness";
 
 const ROOT = resolve(fileURLToPath(new URL("../../../../", import.meta.url)));
 const OUT = resolve(fileURLToPath(new URL("../data/", import.meta.url)));
@@ -169,6 +170,8 @@ interface RoundRow {
   namesPlace: boolean;
 }
 const rows: RoundRow[] = [];
+/** Rounds kept out of the game until their record is looked at, for the museum's data lane. */
+const heldForReview: Array<{ id: string; label: string; recordedAt: string; recordedAtName: string }> = [];
 const fold = (s: string) => s.toLocaleLowerCase("en").normalize("NFKD").replace(/[̀-ًͯ-ٰٟـ]/g, "");
 const mentions = (label: Partial<Record<Lang, string>>, place: Partial<Record<Lang, string>>) =>
   LANGS.some((l) => {
@@ -207,7 +210,17 @@ for (const f of files("event")) {
     skip("event: label missing in one of the seven languages");
     continue;
   }
-  rows.push({ id: String(rec.id), type: "event", category: MILITARY.has(kind) ? "military" : "civic", placeId: place.id, year: when.year, hijri: when.hijri, datePrecision: when.precision as PackRound["datePrecision"], names, namesPlace: mentions(names, place.names) });
+  // An event named for a place ("Battle of X") must be scored at X. Where none of its seven labels gives the scored
+  // place's name, the record has tied it to somewhere else, often the nearest city, and a player who pins the place
+  // the question names would be marked wrong. Such a round is held back until the record is looked at. It may be
+  // only another spelling of the same place that the museum's names do not have; that too is for a reader to say.
+  const namesPlace = mentions(names, place.names);
+  if (heldForItsPlace(names.en ?? "", namesPlace)) {
+    skip("event: named for a place that none of its labels gives as the place it is recorded at");
+    heldForReview.push({ id: String(rec.id), label: names.en ?? "", recordedAt: place.id, recordedAtName: place.names.en ?? "" });
+    continue;
+  }
+  rows.push({ id: String(rec.id), type: "event", category: MILITARY.has(kind) ? "military" : "civic", placeId: place.id, year: when.year, hijri: when.hijri, datePrecision: when.precision as PackRound["datePrecision"], names, namesPlace });
 }
 
 // One round per person: the birthplace when the record supports it, otherwise the place of death.
@@ -270,7 +283,20 @@ const seed = `v${PACK_VERSION}:${START}`;
   }
   console.error("supply:", JSON.stringify(supply), "skipped:", JSON.stringify(skipped));
 }
-const fullSchedule = buildSchedule(allPlaces, allRounds, DAYS, seed);
+// The free slot of each day is given to a person in preference to a battle as far as the places allow. The lowest
+// weight for battles that still lays out the whole year is found here, in fixed steps, and written in the report.
+let fullSchedule: number[][] | null = null;
+let militaryWeight = 0;
+let lastFailure: unknown = null;
+for (let step = 25; step <= 50 && !fullSchedule; step++) {
+  militaryWeight = step / 50;
+  try {
+    fullSchedule = buildSchedule(allPlaces, allRounds, DAYS, seed, { civic: 1, people: 1, military: militaryWeight });
+  } catch (e) {
+    lastFailure = e;
+  }
+}
+if (!fullSchedule) throw lastFailure;
 
 const keep = new Set<number>(fullSchedule.flat());
 // Reserve: the best-known unscheduled rounds, taken in the same category proportions as a day.
@@ -333,8 +359,12 @@ const report = {
   qualifyingRounds: { total: allRounds.length, civic: allRounds.filter((r) => r.category === "civic").length, people: allRounds.filter((r) => r.category === "people").length, military: allRounds.filter((r) => r.category === "military").length },
   inPack: { places: places.length, rounds: rounds.length, civic: count((r) => r.category === "civic"), people: count((r) => r.category === "people"), military: count((r) => r.category === "military"), labelNamesThePlace: count((r) => r.namesPlace) },
   schedule: checkSchedule(pack),
+  freeSlot: { militaryWeight, meaning: "what a battle's free places count for when a day's fifth round is given out, against 1 for a person or a civic event; the lowest of 0.50 to 1.00 in steps of 0.02 that lays out the whole year" },
   namesBorrowedFromAnotherLanguage: fallbackCount,
   leftOut: Object.fromEntries(Object.entries(skipped).sort((a, b) => b[1] - a[1])),
 };
 writeFileSync(join(OUT, `report.v${PACK_VERSION}.json`), JSON.stringify(report, null, 1) + "\n");
+// The rounds held back, each with the record to look at: is the event tied to the right place, or does the place lack a name?
+heldForReview.sort((a, b) => (a.id < b.id ? -1 : 1));
+writeFileSync(join(OUT, `review.v${PACK_VERSION}.json`), JSON.stringify({ builtFrom: pack.builtFrom, why: "The event is named for a place, and none of its seven labels contains the name of the place the record ties it to. Scored as recorded, a player who pins the place the question names would be marked wrong.", rounds: heldForReview }, null, 1) + "\n");
 console.log(JSON.stringify(report, null, 1));
