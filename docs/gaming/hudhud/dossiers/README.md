@@ -34,6 +34,11 @@
 | nur-al-din | [`nur-al-din.md`](nur-al-din.md) | 4 | 8 | 0 |
 | salah-al-din | [`salah-al-din.md`](salah-al-din.md) | 8 | 8 | 0 |
 | ibn-khaldun | [`ibn-khaldun.md`](ibn-khaldun.md) | 5 | 8 | 0 |
+| al-jahiz | [`al-jahiz.md`](al-jahiz.md) | 9 | 8 | 0 |
+| ibn-al-baytar | [`ibn-al-baytar.md`](ibn-al-baytar.md) | 2 | 8 | 0 |
+| al-qazwini | [`al-qazwini.md`](al-qazwini.md) | 2 | 4 | 0 |
+| monkey-and-tortoise | [`monkey-and-tortoise.md`](monkey-and-tortoise.md) | 1 | 4 | 0 |
+| pigeon-post | [`pigeon-post.md`](pigeon-post.md) | 3 | 8 | 0 |
 | wallada | [`wallada.md`](wallada.md) | 2 | 8 | 0 |
 | nana-asmau | [`nana-asmau.md`](nana-asmau.md) | 3 | 8 | 0 |
 | al-ghazali | [`al-ghazali.md`](al-ghazali.md) | 4 | 8 | 0 |
