@@ -10,8 +10,8 @@ const status = JSON.parse(readFileSync(resolve(root, "docs/gaming/spec-productio
 const LANGS = ["ar", "en", "ur", "fr", "es", "tr", "id"];
 
 describe("the prototype labels", () => {
-  it("cover the three games that exist, and no other status is taken without an approval and its evidence", () => {
-    expect(Object.keys(status.games).sort()).toEqual(["atlas", "golden-age", "granada"]);
+  it("cover the four games that exist, and no other status is taken without an approval and its evidence", () => {
+    expect(Object.keys(status.games).sort()).toEqual(["atlas", "golden-age", "granada", "hudhud"]);
     for (const [game, s] of Object.entries(status.games)) {
       expect(["prototype", "production"], game).toContain(s.status);
       if (s.status !== "prototype") {

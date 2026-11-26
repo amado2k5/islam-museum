@@ -15,6 +15,8 @@ export default defineConfig({
       "@im/audio": r("./packages/audio/src"),
       "@im/golden-age": r("./games/golden-age/src"),
       "@im/granada": r("./games/granada/src"),
+      "@im/hudhud": r("./games/hudhud/src"),
+      "@im/platform": r("./packages/platform/src"),
     },
   },
   // The model loader is asked for only when a model is fetched, after the page is up. Named here so that the dev
