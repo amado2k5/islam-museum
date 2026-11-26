@@ -10,7 +10,7 @@ import { FIELD_SHAPE } from "../src/ui/map";
 import { LIMITS, OVERVIEW, START, approach, clampPose, eyeOf, pan, turn, zoom } from "../src/view/camera";
 import { oxCart, waterWheel } from "../src/view/buildings";
 import { modelUrl, modelsAvailable } from "../src/view/models";
-import { BRIDGE, ESTATE, HILL, KIT_HOUSES, MILL, MOSQUE, ROAD_NORTH, roadHeight, roadLine } from "../src/view/valley";
+import { BRIDGE, ESTATE, HILL, KIT_HOUSES, MILL, MOSQUE, ROAD_NORTH, inLowerTown, lowerTownLots, roadHeight, roadLine } from "../src/view/valley";
 import { BOUNDS, CHANNELS, CHANNEL_WATER, FIELDS, HOUSE_LOTS, LAND, PLOT_GRID, POOL, RIVER_HALF, broadTree, buildLand, buildRange, buildRiver, buildScenery, channelWater, cropSpots, cypressTree, fieldAt, fieldGround, heightAt, orchardTree, plotAt, plotPoint, plotTable, poolWater, poplarTree, riverZ, settled, waterLevel, worked } from "../src/view/valley";
 
 const SEED = 7;
@@ -470,5 +470,30 @@ describe("the hill, when its wall and palace are models too", () => {
     const made = buildScenery(SEED, { authoredTown: true });
     for (const kind of ["trees", "cypresses", "citrus", "almonds", "poplars", "scrub", "olives", "palms"] as const) expect(hill[kind]).toEqual(made[kind]);
     expect(hill.triangles).toBeLessThan(made.triangles);
+  });
+});
+
+describe("the lower town", () => {
+  const lots = lowerTownLots(SEED);
+
+  it("stands in streets round the hill: many houses, each facing down the slope, none in the river", () => {
+    expect(lots.length).toBeGreaterThan(220);
+    for (const lot of lots) {
+      const out = [lot.x - HILL.x, lot.z - HILL.z];
+      const facing = [Math.sin(lot.yaw), Math.cos(lot.yaw)];
+      // Its front looks away from the hill's top, within a quarter turn.
+      expect((facing[0]! * out[0]! + facing[1]! * out[1]!) / Math.hypot(out[0]!, out[1]!)).toBeGreaterThan(0.7);
+      expect(Math.abs(lot.z - riverZ(lot.x))).toBeGreaterThan(RIVER_HALF + 10);
+      expect(inLowerTown(lot.x, lot.z)).toBeGreaterThan(0.5);
+    }
+    // No two houses stand on the same ground.
+    for (let i = 0; i < lots.length; i++) for (let j = i + 1; j < lots.length; j++) expect(Math.hypot(lots[i]!.x - lots[j]!.x, lots[i]!.z - lots[j]!.z)).toBeGreaterThan(9);
+  });
+
+  it("is the same town whether its houses are models or made by the valley, and the same every time", () => {
+    expect(lowerTownLots(SEED)).toEqual(lots);
+    expect(lowerTownLots(SEED + 1)).not.toEqual(lots);
+    expect(inLowerTown(HILL.x, HILL.z)).toBe(0);
+    expect(inLowerTown(0, 0)).toBe(0);
   });
 });

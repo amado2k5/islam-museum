@@ -210,7 +210,17 @@ function wildColour(x: number, z: number, slope: number, seed: number): Rgb {
   // Inside the plain, ground too steep to plough (the banks of the terraces, the dips by the channels) is under grass.
   const inPlain = smooth(1050, 520, Math.hypot((x + 60) / 1.25, z - 40)) * smooth(620, 500, x);
   c = blend(c, [0.17 + 0.05 * n, 0.27 + 0.05 * n, 0.09], 0.85 * inPlain);
-  return blend(c, [0.5 + 0.06 * n, 0.41 + 0.05 * n, 0.28 + 0.03 * n], settled(x, z));
+  c = blend(c, [0.5 + 0.06 * n, 0.41 + 0.05 * n, 0.28 + 0.03 * n], settled(x, z));
+  // The lower town: trodden earth along each street, garden green in the strips between.
+  const town = inLowerTown(x, z);
+  if (town > 0) {
+    const d = Math.hypot((x - HILL.x) / 1.2, (z - HILL.z) / 0.95);
+    const across = Math.abs((((d - TOWN_RINGS.first) / TOWN_RINGS.step + 0.5) % 1) - 0.5) * 2;
+    const street: Rgb = [0.52 + 0.06 * n, 0.44 + 0.05 * n, 0.32 + 0.04 * n];
+    const garden: Rgb = [0.2 + 0.07 * n, 0.3 + 0.07 * n, 0.11 + 0.03 * n];
+    c = blend(c, blend(street, garden, smooth(0.45, 0.8, across)), town);
+  }
+  return c;
 }
 
 const CELL = 10;
@@ -531,6 +541,39 @@ function roadMesh(path: Pt[], seed: number): MeshData {
   return b.build();
 }
 
+/** The lower town's streets: rings round the hill, this far from its middle (in the hill's own stretched measure). */
+const TOWN_RINGS = { first: 188, step: 21, count: 8, from: Math.PI * 0.56, to: Math.PI * 1.46 } as const;
+/**
+ * Where the houses of the lower town stand: in streets that follow the hill round below its wall, each house facing
+ * down the slope, with a gap here and there and a lane climbing the hill at every seventh plot. Fixed by the seed
+ * alone, so the town is the same whether its houses are models or made by the valley.
+ */
+export function lowerTownLots(seed: number): Array<{ x: number; z: number; yaw: number; width: number; lime: number }> {
+  const lots: Array<{ x: number; z: number; yaw: number; width: number; lime: number }> = [];
+  for (let ring = 0; ring < TOWN_RINGS.count; ring++) {
+    const d = TOWN_RINGS.first + ring * TOWN_RINGS.step;
+    const turn = 15.5 / (d * 1.07);
+    let k = 0;
+    for (let a = TOWN_RINGS.from + (ring % 2) * turn * 0.5; a < TOWN_RINGS.to; a += turn, k++) {
+      if (k % 7 === 6 || latticeHash(ring, k, seed + 71) < 0.14) continue;
+      const x = HILL.x + Math.cos(a) * d * 1.2;
+      const z = HILL.z + Math.sin(a) * d * 0.95;
+      if (Math.abs(z - riverZ(x)) < RIVER_HALF + 14) continue;
+      lots.push({ x, z, yaw: Math.atan2(x - HILL.x, z - HILL.z) + (latticeHash(k, ring, seed + 72) - 0.5) * 0.28, width: 8.6 + latticeHash(ring + 9, k, seed + 73) * 4.2, lime: 0.86 + latticeHash(ring, k + 5, seed + 74) * 0.12 });
+    }
+  }
+  return lots;
+}
+/** How much a point lies in the lower town: 1 among its streets, 0 outside them. */
+export function inLowerTown(x: number, z: number): number {
+  const dx = (x - HILL.x) / 1.2;
+  const dz = (z - HILL.z) / 0.95;
+  const d = Math.hypot(dx, dz);
+  let a = Math.atan2(dz, dx);
+  if (a < 0) a += Math.PI * 2;
+  const last = TOWN_RINGS.first + (TOWN_RINGS.count - 1) * TOWN_RINGS.step;
+  return smooth(TOWN_RINGS.first - 26, TOWN_RINGS.first - 8, d) * smooth(last + 30, last + 10, d) * smooth(TOWN_RINGS.from - 0.12, TOWN_RINGS.from + 0.02, a) * smooth(TOWN_RINGS.to + 0.12, TOWN_RINGS.to - 0.02, a);
+}
 /** The stretch of the hill's wall that has the gate in it: the one that looks down on the lower town. */
 const HILL_GATE = 6;
 /** The houses of the authored town kit (gaming/art/blender/granada_town.py), in the order they are dealt out. */
@@ -718,10 +761,16 @@ export function buildScenery(seed: number, options: { authoredTown?: boolean; au
     const lime = 0.84 + rng.range(0, 0.12);
     const turn = rng.range(0, Math.PI);
     const roofRed = 0.7 + rng.range(-0.06, 0.06);
-    // Not in the river, nor on its bank: the slope's lowest houses used to stand in the water.
-    if (Math.abs(cz - riverZ(cx)) < RIVER_HALF + 12) continue;
-    if (authored) stand(cx, y(cx, cz), cz, turn, w, [lime / 0.96, (lime * 0.97) / 0.96, (lime * 0.9) / 0.96]);
-    else townHouse(set, frame(cx, y(cx, cz), cz, turn), w, dd, hh, [lime, lime * 0.97, lime * 0.9], [roofRed, 0.37, 0.22]);
+    // These houses used to be scattered where the numbers above fell. The numbers are still drawn, so that
+    // everything made after them is what it was; the houses now stand in streets, below.
+    void [cx, cz, w, dd, hh, lime, turn, roofRed];
+  }
+  for (const lot of lowerTownLots(seed)) {
+    if (nearRoad(lot.x, lot.z) || built(lot.x, lot.z, 3)) continue;
+    const wash: Rgb = [lot.lime / 0.96, (lot.lime * 0.97) / 0.96, (lot.lime * 0.9) / 0.96];
+    if (authored) stand(lot.x, y(lot.x, lot.z), lot.z, lot.yaw, lot.width, wash);
+    else townHouse(set, frame(lot.x, y(lot.x, lot.z), lot.z, lot.yaw), lot.width + 1.5, lot.width * 0.82, 3.6 + (lot.lime - 0.86) * 36, [lot.lime, lot.lime * 0.97, lot.lime * 0.9], [0.7, 0.37, 0.22]);
+    footprints.push({ x: lot.x, z: lot.z, r: 7.5 });
   }
 
   // The old village: houses that were there before the steward came, round the square and along two lanes.
@@ -757,6 +806,22 @@ export function buildScenery(seed: number, options: { authoredTown?: boolean; au
   const clear = (x: number, z: number) => fieldAt(x, z) === null && Math.hypot(x - POOL.x, z - POOL.z) > POOL.r + 9 && Math.abs(z - riverZ(x)) > RIVER_HALF + 8 && settled(x, z) < 0.05 && !nearRoad(x, z) && !built(x, z, 2) && Math.hypot(x - MARKET[0], z - MARKET[1]) > 30 && !Object.values(CHANNELS).some((path) => path.some((p) => Math.hypot(p[0] - x, p[1] - z) < 9));
   const cypresses: number[][] = [];
   const trees: number[][] = [];
+  // Between the lower town's streets: a cypress here and there, and fruit trees in the gardens behind the houses.
+  for (let ring = 0; ring < TOWN_RINGS.count; ring++) {
+    const d = TOWN_RINGS.first + (ring + 0.5) * TOWN_RINGS.step;
+    const turn = 11 / (d * 1.07);
+    let k = 0;
+    for (let a = TOWN_RINGS.from; a < TOWN_RINGS.to; a += turn, k++) {
+      const pick = latticeHash(ring + 31, k, seed + 81);
+      if (pick > 0.62) continue;
+      const tx = HILL.x + Math.cos(a) * d * 1.2 + (latticeHash(k, ring, seed + 82) - 0.5) * 5;
+      const tz = HILL.z + Math.sin(a) * d * 0.95 + (latticeHash(ring, k + 3, seed + 83) - 0.5) * 5;
+      if (nearRoad(tx, tz) || built(tx, tz, 1) || Math.abs(tz - riverZ(tx)) < RIVER_HALF + 8) continue;
+      const turnOf = latticeHash(k + 7, ring, seed + 84) * Math.PI * 2;
+      if (pick < 0.2) cypresses.push([tx, y(tx, tz), tz, turnOf, 1 + latticeHash(ring, k, seed + 85) * 0.5]);
+      else trees.push([tx, y(tx, tz), tz, turnOf, 0.8 + latticeHash(ring, k, seed + 86) * 0.5]);
+    }
+  }
   const citrus: number[][] = [];
   const almonds: number[][] = [];
   const gardens: number[][] = [];
@@ -866,6 +931,12 @@ export function buildScenery(seed: number, options: { authoredTown?: boolean; au
   const mill = millSet.chunks().map((c) => ({ material: c.material, mesh: c.mesh }));
   // The authored mill's wheel hangs 5.35 m from its centre (gaming/art/manifest.json); the code-made one 5.7 m.
   const millAt = { x: MILL[0], y: y(MILL[0], MILL[1]) - 0.1, z: MILL[1] + 0.35, yaw: 0 };
+  // Whatever was planted before a building's ground was known is taken up again: nothing grows through a house.
+  for (const planted of [cypresses, trees, citrus, almonds, gardens, poplars, scrub, olives, palms]) {
+    const kept = planted.filter((p) => !built(p[0]!, p[2]!));
+    planted.length = 0;
+    planted.push(...kept);
+  }
   return { chunks, cypresses, trees, citrus, almonds, gardens, poplars, scrub, olives, palms, stalls, houses, kit, granary, meadowChannel, footprints, mill, millAt, wheel, cart: oxCart(), cartRoads: [roadLine(ROAD_WEST), roadLine(ROAD_EAST)], triangles: tris(chunks) + tris(granary) + houses.reduce((n, h) => n + tris(h), 0) };
 }
 
