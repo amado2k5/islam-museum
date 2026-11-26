@@ -72,6 +72,29 @@ if handoff:
     for n, question in enumerate(handoff["ownerQuestions"], 1):
         out.append(f"{n}. {question}")
     out.append("")
+matrix_file = DOCS / "regression" / "matrix.json"
+if matrix_file.exists():
+    matrix = json.loads(matrix_file.read_text())
+    rows = matrix["scenarios"]
+    for r in rows:
+        if r["covered"] not in ("yes", "partly", "no"):
+            sys.exit(f"scenario {r['id']}: unknown cover {r['covered']!r}")
+        for h in r["how"]:
+            if h not in matrix["how"]:
+                sys.exit(f"scenario {r['id']}: unknown way {h!r}")
+    tally = {c: sum(1 for r in rows if r["covered"] == c) for c in ("yes", "partly", "no")}
+    on_host = sum(1 for r in rows if "host" in r["how"])
+    out.append("## The regression scenarios, run on every release")
+    out.append("")
+    out.append(f"_From {matrix['source']}, as mapped in [`regression/matrix.json`](regression/matrix.json). Of {len(rows)} scenarios, {tally['yes']} are covered, {tally['partly']} partly and {tally['no']} not at all; {on_host} are played on the deployed host itself. A script shows that a thing still works, never that a game is good._")
+    out.append("")
+    out.append("**How each is run:** " + "; ".join(f"`{k}`: {v}" for k, v in matrix["how"].items()) + ".")
+    out.append("")
+    out.append("| Scenario | Game | What it asks | Covered | How | By | Not covered |")
+    out.append("|---|---|---|---|---|---|---|")
+    for r in rows:
+        out.append(f"| {r['id']} | {r['game']} | {cell(r['asks'])} | {r['covered']} | {', '.join(r['how'])} | {cell(r['by'])} | {cell(r['missing'])} |")
+    out.append("")
 out.append("## Every gate")
 out.append("")
 out.append("| Gate | What it asks | Status | Corrective work that bears on it | What exists as evidence |")

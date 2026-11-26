@@ -23,8 +23,9 @@ So R2, wrangler, the Custom Domain and both sets of credentials are now proved f
 | `20261125-7c31b7631c6` | [45728259166](https://github.com/amado2k5/islam-museum/actions/runs/45728259166) | Granada's valley in 3D and Atlas's lit globe; checked in Chrome on UAT: all three games start in 3D |
 | `20261125-484ead40122` | [45733594650](https://github.com/amado2k5/islam-museum/actions/runs/45733594650) | Granada's village, mosque, mill and bridge; checked in Chrome on UAT in English and Arabic: the five addresses start in 3D with no error |
 | `20261125-e2930d63426` | [45737573014](https://github.com/amado2k5/islam-museum/actions/runs/45737573014) | The first build that looks for models beside the release (the mill made in Blender, uploaded just before), and Atlas's rebuilt pack; checked in Chrome on UAT in English and Arabic: Granada loads the mill, no error |
+| `20261125-3eabcd38488` | [45745958686](https://github.com/amado2k5/islam-museum/actions/runs/45745958686) | Atlas's globe no longer seems to vanish between rounds (the defect an outside reviewer found on the release before); checked on UAT in Chrome with the reviewer's own steps: every round opens on the whole globe, the five addresses start in 3D and without it when asked, no error ([`evidence/release/20261125-3eabcd38488/`](evidence/release/20261125-3eabcd38488/)) |
 
-Each was started by the agent after the founder's word for it in chat ("Yes, run UAT"; "where is the music"; "Release to UAT", three times; and "Yes, upload to UAT" for the models). The agent asks before each one. No rollback has been made on UAT, and production has not been deployed.
+Each was started by the agent after the founder's word for it in chat ("Yes, run UAT"; "where is the music"; "Release to UAT", four times; and "Yes, upload to UAT" for the models). The agent asks before each one. No rollback has been made on UAT, and production has not been deployed.
 
 ## The rule
 
@@ -110,6 +111,8 @@ Both are manual, started from the Actions tab by the founder (or an admin). **No
 2. **Deploy the games to UAT**, action `check`. It verifies the release and says what it would do. It writes nothing.
 3. The same workflow, action `release`. It deploys the Worker `islam-museum-games-uat`, uploads the release to `islam-museum-uat` under `games/r/<id>/`, reads it back and verifies every file, and only then moves the pointer. Look at `https://uat-games.islam.museum/golden-age/?lang=ar`.
 4. **Deploy the games to production**, with the `build_run_id` shown in the UAT run's summary, action `check` and then `release`: the identical release goes to `islam-museum-search` behind `https://games.islam.museum`.
+
+5. **After every release, the regression scenarios** ([`regression/matrix.json`](regression/matrix.json), shown on [`traceability.md`](traceability.md)): `npm --prefix gaming run release:regression -- https://uat-games.islam.museum <folder>` and `npx tsx --tsconfig tsconfig.json tools/uat-check.ts https://uat-games.islam.museum ar <folder>`, in real Chrome, muted. They read only. Their report is kept under `evidence/release/<release>/`. The founder asked for this on 26 November 2026: the scenarios of the outside reviewer's handoff are run on every release for as long as the things they test remain.
 
 To go back: either workflow with action `rollback` moves the pointer to the release before, uploads nothing and deletes nothing. Running it again returns to where it was.
 

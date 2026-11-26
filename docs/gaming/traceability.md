@@ -60,6 +60,58 @@ _From docs/gaming/spec-production/ (an outside AI reviewer's play of UAT release
 5. Whether Granada's first-person and photo modes are needed for the first production release.
 6. Raised by the developer, about the target images: the Atlas image shows an account icon and the word 'Compete' (the games have no accounts and compare no scores, and the reviewer's own prompts say to add none); it offers 'Political Borders' (Atlas leaves modern borders out on purpose); and the Golden Age image has a 'Military' category (the game has none and its design asks for none). None is built until the founder says.
 
+## The regression scenarios, run on every release
+
+_From docs/gaming/spec-production/PRODUCTION_GAME_STANDARDS.md, section 9, as mapped in [`regression/matrix.json`](regression/matrix.json). Of 43 scenarios, 16 are covered, 17 partly and 10 not at all; 11 are played on the deployed host itself. A script shows that a thing still works, never that a game is good._
+
+**How each is run:** `host`: played by a script on the deployed host, on every release; `local`: played by a script in real Chrome on the build of the same commit, not on the host; `rules`: held by a test of the rules, run on every change; `hand`: needs a person, or a browser driven by one; `none`: not run by anyone yet.
+
+| Scenario | Game | What it asks | Covered | How | By | Not covered |
+|---|---|---|---|---|---|---|
+| REL-01 | Release | Read the release pointer at the start and at the end | yes | host | release-regression.ts |  |
+| REL-02 | Release | Load the five English addresses in desktop Chrome | yes | host | release-regression.ts; uat-check.ts does the same in a second language with the music |  |
+| REL-03 | Release | Verify the 3D renderer, then the fallback on purpose | yes | host | release-regression.ts opens each address in 3D and again with no3d=1 |  |
+| GR-01 | Granada | Onboarding, starting resources and objective | partly | local, rules | granada-play.ts starts through the brief; village.gtest.ts holds the starting figures | Nothing reads the starting figures off the page on the host |
+| GR-02 | Granada | Harvest a ripe field, sell, feedback | partly | local, rules | granada-play.ts harvests through the page; village.gtest.ts and economy.gtest.ts hold the store, the overflow and the sale | Whether the feedback is clear is a person's judgement |
+| GR-03 | Granada | Inspect and repair the broken channel; water after; the mill wheel follows the water | partly | local, rules | granada-play.ts orders the repair; village.gtest.ts holds half flow before and full flow after | The wheel standing still without water and turning with it is not checked by any script |
+| GR-04 | Granada | Every tab; an immediate buy and sell | partly | local, rules | economy.gtest.ts: a round trip loses money and none can be made by carrying goods; granada-play.ts opens the market | Not every tab is opened by the script |
+| GR-05 | Granada | Normal, fast, pause and the keys 1 to 5, P, N, H, O, Home | partly | local | granada-play.ts passes and stops the days and steers by keys | Not every key in the list is pressed |
+| GR-06 | Granada | Drag, turn, zoom, pick a field, see it selected | partly | local | granada-play.ts opens a field by clicking it in 3D and steers by keys | Dragging and zooming by pointer are not scripted |
+| GR-07 | Granada | Build valid and invalid; placement and collision; nothing lost on refusal | partly | rules | village.gtest.ts and economy.gtest.ts: a refused order returns the very same state | Buildings stand on fixed lots: the game has no free placement, so no collision exists to test |
+| GR-08 | Granada | Save, reload without fresh=1, compare the whole state | yes | local, rules | screen.gtest.ts: a save comes back exactly and plays on to the same end; granada-play.ts reloads and resumes the same day |  |
+| GR-09 | Granada | A winning year and a year lost by neglect | yes | local, rules | village.gtest.ts holds both; granada-play.ts carries a whole campaign to its end through the page | The neglect year is played in the rules, not through the page |
+| GR-10 | Granada | Look at the houses, mosque, mill, bridge, walkers and both cart routes | no | hand | valley.gtest.ts holds that each is built soundly; nothing checks that it can be seen | The reviewer could not make out the carts on two roads or the walkers' lean |
+| GR-11 | Granada | Four seasons, day and night, weather, water, sound | no | hand | granada-shot.ts captures the four seasons for a person to look at | There is no day and night and no sound but the music |
+| GR-12 | Granada | A 60-minute soak and repeated restarts, watching for leaks | no | none |  | Never run |
+| GA-01 | The Golden Age | All three scenarios from the brief to a win or a loss | partly | local, rules | golden-age-play.ts drives a whole campaign through the screen; golden-age.gtest.ts and screen.gtest.ts play every scenario to an end in the rules | The script's whole campaign through the screen is one scenario at a time, when asked |
+| GA-02 | The Golden Age | Valid and invalid canal and building, why a control is disabled, undo, resources intact | yes | local, rules | golden-age-play.ts: a refused action changes nothing, undo works; golden-age.gtest.ts: step refuses whatever preview refuses |  |
+| GA-03 | The Golden Age | The forecast against what the season then does | yes | rules | screen.gtest.ts: previews the season exactly, without playing it | Held in the rules, not read off the page |
+| GA-04 | The Golden Age | A building that is not working says why, and works again once supplied | partly | rules | screen.gtest.ts: marks the plots where something is not doing its job | The restoration is not played through the page |
+| GA-05 | The Golden Age | Research chosen, finished, unlocking; library, school, hospital effects | partly | local, rules | golden-age.gtest.ts: research in order, nothing lost on a change; golden-age-play.ts picks research | The hospital's effect is not checked by a script |
+| GA-06 | The Golden Age | Chapter 3: what an endowment costs and saves; the four-endowment win | yes | local, rules | screen.gtest.ts: endowed once, for five years of upkeep; no win without four; golden-age-play.ts endows through the page |  |
+| GA-07 | The Golden Age | Chapter 3: a trading run that wins and a trade-heavy run that fails | yes | rules | handoff.gtest.ts: one workshop, one market and the heavy tax alone ends rich and unwon on 200 seeds; the trading city that also builds wins | Held in the rules, not played through the page on the host |
+| GA-08 | The Golden Age | Save and reload the right scenario; scenarios kept apart | partly | local, rules | golden-age-play.ts reloads; screen.gtest.ts: a save comes back as it was | That one scenario's save cannot be taken for another's is not asserted through the page |
+| GA-09 | The Golden Age | A museum link's label and where it leads | partly | local, rules | screen.gtest.ts: links by record id with a label in every language; golden-age-play.ts reads the addresses | The museum page at the other end is not opened by a script |
+| GA-10 | The Golden Age | Keyboard, camera, the plan view; a 1280 by 800 window | partly | local | golden-age-play.ts plays by keyboard alone and from the plan | No run at 1280 by 800 |
+| GA-11 | The Golden Age | Building animation, people, boats, carts, weather, day and night, sound | no | none |  | Most of it does not exist in the game |
+| GA-12 | The Golden Age | Repeated changes of scenario and language; a four-hour soak | no | none |  | Never run |
+| AT-01 | Atlas | All five daily rounds | yes | host | release-regression.ts |  |
+| AT-02 | Atlas | Pins by mouse, by keyboard and Enter, by typed coordinates | yes | host | release-regression.ts |  |
+| AT-03 | Atlas | A region hint and a century estimate; their cost and the summary | yes | host, rules | release-regression.ts takes both and finds them kept; atlas.gtest.ts: the hint is charged once, on that round only |  |
+| AT-04 | Atlas | Each round's distance and score, and the total | yes | host, rules | release-regression.ts: the total shown equals the sum of the five rounds; atlas.gtest.ts holds the scoring |  |
+| AT-05 | Atlas | Every 'Battle of X' or 'Siege of X': the clue against the place revealed | yes | rules | fairness.gtest.ts: no round in the whole pack is named for one place and scored at another | The whole pack is checked, not a sample on the page |
+| AT-06 | Atlas | Drag, rotate, zoom, pins at the edge, pin alignment, layers, overlays, timeline | partly | local, rules | sphere.gtest.ts: a pin falls where the globe shows the place; atlas-play.ts turns and zooms | There are no layers, overlays or timeline in the game |
+| AT-07 | Atlas | Every round opens with the globe there; no reload needed | yes | host | release-regression.ts plays the reviewer's own game with no reload across rounds 1 to 3; fairness.gtest.ts: a new round is the whole globe |  |
+| AT-08 | Atlas | Reload in the middle and at the end; the daily game kept, practice apart | partly | host, rules | release-regression.ts reloads in the middle and after the end; atlas.gtest.ts holds the save | That practice leaves the daily game alone is not checked through the page |
+| AT-09 | Atlas | At least 25 practice rounds across the categories | no | none | atlas.gtest.ts deals practice games from a seed | No script plays practice; the game has no landmark category |
+| AT-10 | Atlas | 100 round changes, 100 language changes, resizes, a lost graphics context, a memory soak | no | none |  | Never run |
+| XG-01 | All games | English in full; Arabic and Urdu right to left; the other four spot-checked | partly | host, local | uat-check.ts opens every game in a chosen language; the play scripts take a language and check the direction | No native speaker has read any language |
+| XG-02 | All games | Tab, Shift+Tab, Enter, Space, Escape and the shortcuts; focus seen; no trap | no | hand |  | Never run as a whole traversal |
+| XG-03 | All games | 1280 by 800 and the target size: nothing cut off, overlapping or out of reach | no | none |  | Never run |
+| XG-04 | All games | Mute and volume, music, ambience, effects, a tab in the background | partly | host, rules | uat-check.ts: silent before a click, a track after one; music.gtest.ts holds the control | There is no ambience and there are no effects; a background tab is not tested |
+| XG-05 | All games | Old and damaged saves; static hosting; no network needed but museum links | yes | local, rules | The save tests of each game; release-smoke.ts fails on any request to another origin; the offline package's own check |  |
+| XG-06 | All games | The game beside its target image, frame by frame, signed off | no | hand |  | Needs the founder's eye; no frames have been set beside the targets |
+
 ## Every gate
 
 | Gate | What it asks | Status | Corrective work that bears on it | What exists as evidence |
