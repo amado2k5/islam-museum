@@ -458,10 +458,10 @@ describe("the words and the records", () => {
   const WRITTEN: [string, string, string][] = [
     ["id_intro_1", "صفحة الأطلس انزلقت بين أوراق خريطة، والأوراق اختلط ترتيبها!", "The page of the Atlas has slipped among the sheets of a map, and the sheets are out of order!"],
     ["id_intro_2", "انظر إلى أطراف الأوراق: الساحل والنهر لا ينقطعان عند الحافة.", "Look at the edges of the sheets: a coast or a river does not stop at the edge."],
-    ["id_book_1", "يقول سجل المتحف إن الإدريسي كتب كتابه نزهة المشتاق لروجر الثاني ملك صقلية، وأتمّه في شوال سنة 548 للهجرة.", "The museum's record says al-Idrisi wrote his book Nuzhat al-Mushtaq for Roger II, king of Sicily, and finished it in Shawwal of the year 548 of the Hijra."],
+    ["id_book_1", "يقول سجل المتحف إن الإدريسي كتب كتابه نزهة المشتاق لروجر الثاني ملك صقلية، وإنه يذكر في مقدمته أنه أتمّه في شوال سنة 548 للهجرة.", "The museum's record says al-Idrisi wrote his book Nuzhat al-Mushtaq for Roger II, king of Sicily. By his own word in its opening, he finished it in Shawwal of the year 548 of the Hijra."],
     ["id_maps_1", "ويقول إن الكتاب صحب قرصًا من فضة عليه الأقاليم السبعة، وإنه قسّم كل إقليم عشرة أجزاء، فكانت الخرائط سبعين.", "It says the book went with a silver disc showing the seven climes, and that he divided each clime into ten sections, which made seventy maps."],
     ["id_note_1", "هذه لعبة وليست كتاب تاريخ. الأوراق المبعثرة والمساعد الصغير وكل كلمة تُقال من خيال اللعب. والرسم الذي على الأوراق ساحل متخيَّل، ليس خريطة الإدريسي ولا أي مكان حقيقي.", "This is a game, not a history. The scattered sheets, the young helper and every spoken line are invented for play. The drawing on the sheets is an imagined coast: it is not al-Idrisi's map, nor any real place."],
-    ["id_note_2", "من سجل المتحف: كتب الإدريسي نزهة المشتاق لروجر الثاني ملك صقلية وأتمّه في شوال سنة 548 للهجرة. صحب الكتاب قرصًا من فضة عليه الأقاليم السبعة، وفيه سبعون خريطة، عشر لكل إقليم.", "From the museum's record: al-Idrisi wrote Nuzhat al-Mushtaq for Roger II, king of Sicily, and finished it in Shawwal 548 of the Hijra. The book went with a silver disc showing the seven climes, and it has seventy maps, ten for each clime."],
+    ["id_note_2", "من سجل المتحف: كتب الإدريسي نزهة المشتاق لروجر الثاني ملك صقلية ويذكر في مقدمته أنه أتمّه في شوال سنة 548 للهجرة. صحب الكتاب قرصًا من فضة عليه الأقاليم السبعة، وفيه سبعون خريطة، عشر لكل إقليم. ويذكر سجل آخر في المتحف سنة 549.", "From the museum's record: al-Idrisi wrote Nuzhat al-Mushtaq for Roger II, king of Sicily, and by his own word finished it in Shawwal 548 of the Hijra. The book went with a silver disc showing the seven climes, and it has seventy maps, ten for each clime. Another of the museum's records gives the year 549."],
     ["id_note_3", "بُسِّط من أجل اللعب: في اللعبة ست أوراق أو اثنتا عشرة أو خمس عشرة، لا سبعون. وترتيب الأوراق بمطابقة أطرافها من وضع اللعبة، فما قُرئ لهذه اللعبة لا يذكر كيف رُتّبت خرائطه.", "Made simpler for play: the game has six, twelve or fifteen sheets, not seventy. Putting sheets in order by matching their edges is the game's own idea: nothing read for this game says how his maps were ordered."],
   ];
   it("keeps the lines written for the quest exactly, in Arabic and English, and the speakers' labels", () => {
@@ -478,12 +478,12 @@ describe("the words and the records", () => {
     // The helper is never called the Messenger, in any language that has the word.
     for (const l of LANGS) for (const [k, v] of Object.entries(table(l))) if (k.startsWith("id_")) expect(v, `${l}:${k}`).not.toMatch(/الرسول/);
   });
-  it("claims no date beyond 548 of the Hijra: no other number is written in digits anywhere in the quest's words, so no Common Era year", () => {
+  it("gives only the two Hijri years the museum's records hold, 548 on the author's word and 549 from another record: no other number is written in digits, so no Common Era year", () => {
     for (const l of LANGS) {
       for (const [k, v] of Object.entries(table(l))) {
         if (!k.startsWith("id_")) continue;
         const digits = v.replace(/\{\w+\}/g, "").match(/\d+/g) ?? [];
-        for (const d of digits) expect(d, `${l}:${k}`).toBe("548");
+        for (const d of digits) expect(["548", "549"], `${l}:${k}`).toContain(d);
       }
     }
   });
