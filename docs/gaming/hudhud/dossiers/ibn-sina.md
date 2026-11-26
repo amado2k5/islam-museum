@@ -13,6 +13,19 @@
 - `place/afshana`
 - `place/bukhara`
 
+## Arabic cross-check
+
+Machine presence/citation check only, not a translation review:
+
+- `person/ibn-sina`: English prose present (22 sections, 108 citations); Arabic prose present (22 sections, 109 citations).
+- `building/avicenna-mausoleum-hamadan`: English prose absent (0 sections, 0 citations); Arabic prose absent (0 sections, 0 citations).
+- `event/ibn-sina-leaves-for-gurgan-1012`: English prose absent (0 sections, 0 citations); Arabic prose absent (0 sections, 0 citations).
+- `event/ibn-sina-service-at-rayy-1014`: English prose absent (0 sections, 0 citations); Arabic prose absent (0 sections, 0 citations).
+- `event/ibn-sina-to-khuzistan-1030`: English prose absent (0 sections, 0 citations); Arabic prose absent (0 sections, 0 citations).
+- `event/ibn-sina-vizier-hamadan-1015`: English prose absent (0 sections, 0 citations); Arabic prose absent (0 sections, 0 citations).
+- `place/afshana`: English prose present (2 sections, 2 citations); Arabic prose present (2 sections, 2 citations).
+- `place/bukhara`: English prose present (10 sections, 41 citations); Arabic prose present (10 sections, 41 citations).
+
 ## Who, where, when
 
 - **Who:** en: Ibn Sina; ar: ابن سينا. Record labels: `person/ibn-sina` en='Ibn Sina (Avicenna)', ar='ابن سينا'; `building/avicenna-mausoleum-hamadan` en=None, ar=None; `event/ibn-sina-leaves-for-gurgan-1012` en='Ibn Sina travels west to Gorgan', ar='ابن سينا يرحل غربًا إلى جرجان'; `event/ibn-sina-service-at-rayy-1014` en='Ibn Sina enters Buyid service at Rayy', ar='ابن سينا في خدمة البويهيين بالري'; `event/ibn-sina-to-khuzistan-1030` en='Ibn Sina withdraws to Khuzistan', ar='ابن سينا ينتقل إلى خوزستان'; `event/ibn-sina-vizier-hamadan-1015` en='Ibn Sina becomes vizier to Shams al-Dawla at Hamadan', ar='ابن سينا وزيرًا لشمس الدولة بهمذان'; `place/afshana` en='Afshana', ar='أفشنة'; `place/bukhara` en='Bukhara', ar='بخارى'
@@ -21,15 +34,14 @@
 
 ## What the records say they did
 
-1. Abu Ali al-Husayn ibn Abd Allah ibn Sina was a physician and philosopher, author of many works in philosophy and medicine; Golius, in his Latin notes on al-Farghani's book, says he is commonly called "Avicenna" . He was born around 980 CE in a village near Bukhara, and Tareq al-Suwaidan says his family was of Persian origin . Ibn al-Imad relates from Ibn Khallikan that by the age of ten he had mastered the Qur'an… — source location `content/en/person/ibn-sina.md — Overview`; citation `{cite:shadharat-dhahab p. 234} {cite:farghani-elements-astronomy p. 420} {cite:gohlman-1974} {cite:shadharat-dhahab p. 234} {cite:assabile-tareq-al-suwaidan al-mubdioune/ep27 00:02:00} {cite:shadharat-dhahab p. 234} {cite:shadharat-dhahab p. 235} {cite:shadharat-dhahab p. 235} {cite:gutas-2014} {cite:shadharat-dhahab p. 234} {cite:encyclopaedia-of-islam-2 vol. 3 p. 973}`; flag: **stated**.
-2. Among his books Ibn al-Imad lists al-Shifa', al-Najat, al-Isharat and al-Qanun, out of nearly a hundred works . The Qanun is an encyclopaedia of medicine and the Shifa' a broad philosophical compendium, and he wrote mostly in Arabic and also in Persian . Al-Suwaidan says the Qanun became one of the basic references of Europe's universities and was taught in several of them until the end of the seventeenth century… — source location `content/en/person/ibn-sina.md — Overview`; citation `{cite:shadharat-dhahab p. 236} {cite:gutas-2014} {cite:assabile-tareq-al-suwaidan al-mubdioune/ep27 00:17:00} {cite:gutas-2014} {cite:shadharat-dhahab p. 237}`; flag: **stated**.
-3. Ibn Sina was born in the village of Afshana near Bukhara around 980 CE, and he grew up in a city ruled by the Samanid dynasty. In his autobiography, which his student al-Juzjani completed, he describes a boy who mastered the Qur'an and the first sciences at an early age, and then turned to logic, mathematics and medicine . — source location `content/en/person/ibn-sina.md — Life`; citation `{cite:gohlman-1974}`; flag: **stated**.
-4. He left Bukhara after about 1002 CE and worked as a physician, and at times as a vizier, at several courts in Iran. In his last years he served Ala al-Dawla in Isfahan. He died in Hamadan in June 1037 CE (Ramadan 428 AH) . — source location `content/en/person/ibn-sina.md — Life`; citation `{cite:gutas-2014}`; flag: **stated**.
-5. The article says that his life is well documented. His autobiography covers his first thirty years, and the rest is recorded by his disciple al-Juzjani, who was also his secretary and companion. He was born in 370/980 at Afshana, near Bukhara, and Persian was his first language . His father was an official of the Samanid administration and had him carefully educated at Bukhara. The article reports that his father… — source location `content/en/person/ibn-sina.md — Life as the Encyclopaedia of Islam tells it`; citation `{cite:encyclopaedia-of-islam-2 vol. 3 p. 973} {cite:encyclopaedia-of-islam-2 vol. 3 p. 973}`; flag: **stated**.
-6. According to the account, he explained logic to his own master al-Natili. He had no teacher in the natural sciences or in medicine, and by sixteen famous physicians were already working under his direction. He found Aristotle's Metaphysics hard and understood it only with the help of a commentary by al-Farabi . After he cured the amir of Khurasan of a severe illness, he was allowed to use the rich library of the… — source location `content/en/person/ibn-sina.md — Life as the Encyclopaedia of Islam tells it`; citation `{cite:encyclopaedia-of-islam-2 vol. 3 p. 973} {cite:encyclopaedia-of-islam-2 vol. 3 p. 973}`; flag: **stated**.
-7. The death of his father the following year obliged him to enter the administration to earn a living. The princes who consulted him on medicine turned to him on politics too, and he served as a minister several times. The article adds that this made him an object of envy: he was sometimes persecuted by his enemies and sometimes sought by princes opposed to those he wished to stay loyal to. He fled and hid on… — source location `content/en/person/ibn-sina.md — Life as the Encyclopaedia of Islam tells it`; citation `{cite:encyclopaedia-of-islam-2 vol. 3 p. 973} {cite:encyclopaedia-of-islam-2 vol. 3 p. 973}`; flag: **stated**.
-8. The article asks readers not to picture a philosopher who lived among his books. He spent his days on affairs of state and wrote his large works at night, with astonishing speed. He was often forced to move, wrote on horseback and sometimes in prison, and had only his memory to consult . — source location `content/en/person/ibn-sina.md — How he worked`; citation `{cite:encyclopaedia-of-islam-2 vol. 3 p. 973}`; flag: **stated**.
-
+1. Abu Ali al-Husayn ibn Abd Allah ibn Sina, known as Avicenna, was a physician and philosopher born around 980 CE near Bukhara, with Persian origins. — source location `content/en/person/ibn-sina.md — Overview`; citation `{cite:shadharat-dhahab p. 234} {cite:farghani-elements-astronomy p. 420} {cite:gohlman-1974} {cite:shadharat-dhahab p. 234} {cite:assabile-tareq-al-suwaidan al-mubdioune/ep27 00:02:00} {cite:shadharat-dhahab p. 234} {cite:shadharat-dhahab p. 235} {cite:shadharat-dhahab p. 235} {cite:gutas-2014} {cite:shadharat-dhahab p. 234} {cite:encyclopaedia-of-islam-2 vol. 3 p. 973}`; flag: **stated**.
+2. Ibn Sina authored nearly a hundred works, including the medical encyclopedia Qanun and the philosophical compendium Shifa', which were taught in European universities until the end of the seventeenth century. — source location `content/en/person/ibn-sina.md — Overview`; citation `{cite:shadharat-dhahab p. 236} {cite:gutas-2014} {cite:assabile-tareq-al-suwaidan al-mubdioune/ep27 00:17:00} {cite:gutas-2014} {cite:shadharat-dhahab p. 237}`; flag: **stated**.
+3. Ibn Sina grew up in a city ruled by the Samanid dynasty and mastered the Qur'an and early sciences, then turned to logic, mathematics, and medicine. — source location `content/en/person/ibn-sina.md — Life`; citation `{cite:gohlman-1974}`; flag: **stated**.
+4. After leaving Bukhara around 1002 CE, Ibn Sina worked as a physician and vizier at several courts in Iran, serving Ala al-Dawla in Isfahan before dying in Hamadan in June 1037 CE. — source location `content/en/person/ibn-sina.md — Life`; citation `{cite:gutas-2014}`; flag: **stated**.
+5. Ibn Sina's life is well-documented, with his autobiography covering his first thirty years and al-Juzjani recording the rest, noting that Persian was his first language. — source location `content/en/person/ibn-sina.md — Life as the Encyclopaedia of Islam tells it`; citation `{cite:encyclopaedia-of-islam-2 vol. 3 p. 973} {cite:encyclopaedia-of-islam-2 vol. 3 p. 973}`; flag: **stated**.
+6. By sixteen, Ibn Sina was directing famous physicians and had no teacher in natural sciences or medicine, though he found Aristotle's Metaphysics difficult. — source location `content/en/person/ibn-sina.md — Life as the Encyclopaedia of Islam tells it`; citation `{cite:encyclopaedia-of-islam-2 vol. 3 p. 973} {cite:encyclopaedia-of-islam-2 vol. 3 p. 973}`; flag: **stated**.
+7. After his father's death, Ibn Sina entered administration and served as a minister, facing persecution from enemies and princes. — source location `content/en/person/ibn-sina.md — Life as the Encyclopaedia of Islam tells it`; citation `{cite:encyclopaedia-of-islam-2 vol. 3 p. 973} {cite:encyclopaedia-of-islam-2 vol. 3 p. 973}`; flag: **stated**.
+8. Ibn Sina wrote his large works at night, often while moving, on horseback, or in prison, relying only on his memory. — source location `content/en/person/ibn-sina.md — How he worked`; citation `{cite:encyclopaedia-of-islam-2 vol. 3 p. 973}`; flag: **stated**.
 ## Thumbnail elements without record support
 
 The atlas title is The Boy Who Healed a Prince / الطبيب الصغير. No record read supports the exact pictured scene, costumes, objects, people, weather, lighting or child-facing drama implied by the thumbnail. Because the source pictures are not available in this checkout, this dossier uses the atlas titles rather than visual inspection; the title itself is not treated as a historical claim. Treat those elements as design fiction unless a reviewer supplies support.
@@ -67,15 +79,15 @@ The atlas title is The Boy Who Healed a Prince / الطبيب الصغير. No r
 
 These are proposals for Claude and the founder, not content.
 
-1. A local problem asks the player to apply Observe, Match and Care to the documented object, place, text or route, using only the claims above as the factual base.
+1. In the 'Observe' system, players must identify key moments in Ibn Sina's life, such as mastering the Qur'an by ten and directing physicians by sixteen, distinguishing these documented events from fictionalized scenarios. [1,3,6]
 
-2. Hudhud helps the player compare what the museum record states, what it states uncertainly and what the thumbnail adds, then solve the puzzle through Observe, Match and Care.
+2. Using the 'Match' system, players match Ibn Sina's works with their descriptions, like the Qanun and Shifa', while distinguishing between historical facts and game elements, such as the speed of his writing. [2,8]
 
-3. The completed page returns to the Atlas with optional older-reader context, one hidden collectible and replay goals. This is a structural proposal only, not historical content.
+3. In the 'Care' system, players manage Ibn Sina's career, balancing his roles as a physician and minister, and navigating political conflicts, distinguishing these challenges from invented game obstacles. [4,7]
 
 ## Sensitivities
 
-Do not add war, illness, death, slavery, sect or living disputes unless the reviewed record requires them and they are necessary, age-appropriate and non-spectacular. Literary traditions must be labelled as such. Invented dialogue must be explicit dramatized paraphrase, never a false quotation.
+Evidence scan, not a ruling: illness/death. Any such material still requires the full content-safety and age-appropriateness review. Do not add war, illness, death, slavery, sect or living disputes unless the reviewed record requires them and they are necessary, age-appropriate and non-spectacular. Literary traditions must be labelled as such. Invented dialogue must be explicit dramatized paraphrase, never a false quotation.
 
 ## Gaps
 
