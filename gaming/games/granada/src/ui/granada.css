@@ -49,7 +49,8 @@ h3 { font-size: 0.9rem; color: var(--ink-soft); margin-block-start: 10px; }
 .stat-value { font-weight: 650; font-variant-numeric: tabular-nums; }
 .stat.warn { border-color: var(--bad); }
 .stat.warn .stat-value { color: var(--bad); }
-.delta { font-size: 0.78rem; font-variant-numeric: tabular-nums; }
+/* A signed figure keeps its sign before its digits in every language: in a right-to-left line a bare "+3" is shown as "3+". */
+.delta { font-size: 0.78rem; font-variant-numeric: tabular-nums; direction: ltr; unicode-bidi: isolate; display: inline-block; }
 .delta.up { color: var(--good); }
 .delta.down { color: var(--bad); }
 .clock, .menu { display: flex; gap: 6px; align-items: center; }

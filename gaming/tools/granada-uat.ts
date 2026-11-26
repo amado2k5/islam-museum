@@ -56,6 +56,18 @@ else {
 }
 note("the oil's road has five steps", (await page.locator("[data-part='chain']").count()) === 0 ? "absent" : (await page.locator("[data-part='chain'] [data-step]").count()) === 5 ? "pass" : "fail");
 
+// ---- Goods on the road ----
+if (!(await game<boolean>("Array.isArray(window.__GR__.state().shipments)"))) note("goods take days to reach the port", "absent");
+else {
+  const sent = await game<boolean>(`window.__GR__.order({ kind: "send", good: "wheat", quantity: 10 })`);
+  const travelling = await game<number>("window.__GR__.state().shipments.length");
+  const listed = await page.locator("[data-part='road'] li").count();
+  await game("window.__GR__.days(4)");
+  const arrived = await game<string[]>("window.__GR__.state().last.events");
+  const left = await game<number>("window.__GR__.state().shipments.length");
+  note("a load is on the road for its days and is sold on the morning it arrives", sent && travelling === 1 && listed === 1 && left === 0 && arrived.some((e) => e.startsWith("sold-at-port:wheat:10:")) ? "pass" : "fail", { sent, travelling, listed, left, arrived });
+}
+
 // ---- A building placed on the land, and refused on a field ----
 await page.keyboard.press("3");
 if ((await page.locator("[data-act='place-garden']").count()) === 0) note("a building placed on the land", "absent");
