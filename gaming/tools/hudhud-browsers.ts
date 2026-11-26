@@ -5,6 +5,7 @@
 import { mkdirSync, writeFileSync } from "node:fs";
 import { resolve } from "node:path";
 import { firefox, webkit, type BrowserType } from "playwright-core";
+import { leaveOpening } from "./hudhud-opening";
 
 const [base, outArg] = process.argv.slice(2);
 if (!base || !outArg) throw new Error("usage: hudhud-browsers.ts <base> <out dir>");
@@ -43,6 +44,7 @@ async function one(name: "firefox" | "webkit", type: BrowserType) {
     await page.goto(`${base}/hudhud/?lang=en&fresh=1&music=off`);
     report.atlasReady = await wait("ready", 30000);
     report.atlasReadyMs = Date.now() - t0;
+    report.openingSkipped = await leaveOpening(page);
     await page.screenshot({ path: resolve(out, `hudhud-${name}-atlas.png`) });
     await page.locator(".hub button.primary").click();
     report.sceneOpened = await wait("scene", 30000);

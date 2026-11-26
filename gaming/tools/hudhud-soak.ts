@@ -5,6 +5,7 @@
 import { mkdirSync, writeFileSync } from "node:fs";
 import { resolve } from "node:path";
 import { chromium } from "playwright-core";
+import { leaveOpening } from "./hudhud-opening";
 
 const [base, outArg, minutesArg = "10"] = process.argv.slice(2);
 if (!base || !outArg) throw new Error("usage: hudhud-soak.ts <base> <out dir> [minutes=10]");
@@ -30,6 +31,7 @@ await page.addInitScript(`(() => {
 })()`);
 await page.goto(`${base}/hudhud/?lang=en&fresh=1&music=off&perf=1`);
 await page.waitForFunction(() => (window as any).__HH__ && ((window as any).__HH__.ready || (window as any).__HH__.error), undefined, { timeout: 30000 });
+await leaveOpening(page);
 
 async function finishQuestOnce() {
   await page.locator(".hub button.primary").click();

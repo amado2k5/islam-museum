@@ -5,6 +5,7 @@
 import { mkdirSync, writeFileSync } from "node:fs";
 import { resolve } from "node:path";
 import { chromium, type Page } from "playwright-core";
+import { leaveOpening } from "./hudhud-opening";
 
 const [base, outArg, langsArg = "en,ar"] = process.argv.slice(2);
 if (!base || !outArg) throw new Error("usage: hudhud-a11y.ts <base> <out dir> [langs=en,ar]");
@@ -75,6 +76,7 @@ for (const lang of langsArg.split(",")) {
   page.on("console", (m) => m.type() === "error" && errors.push(m.text()));
   await page.goto(`${base}/hudhud/?lang=${lang}&fresh=1&music=off`);
   await page.waitForFunction(() => (window as any).__HH__ && ((window as any).__HH__.ready || (window as any).__HH__.error), undefined, { timeout: 30000 });
+  await leaveOpening(page);
   states.push(await scan(page, lang, "atlas"));
   await page.locator(".hub button.primary").click();
   await page.waitForFunction(() => (window as any).__HH__.where() !== null, undefined, { timeout: 30000 });
