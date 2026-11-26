@@ -13,6 +13,8 @@ export interface BenchView {
   /** The place where a run stopped without doing its work, or null. */
   stopped: number | null;
   done: boolean;
+  /** The page reads right to left: the first place is on the right, as the list of places under the picture is. */
+  rtl: boolean;
 }
 
 const ICON: Record<string, (c: Ctx) => void> = {
@@ -215,17 +217,19 @@ export function drawBench(canvas: HTMLCanvasElement, v: BenchView): void {
   c.fillRect(0, 290, BENCH.w, 90);
   c.fillStyle = PAL.woodDark;
   c.fillRect(0, 290, BENCH.w, 10);
+  // On a right-to-left page the whole bench is laid out the other way round; the parts themselves are not mirrored.
+  const across = (x: number) => (v.rtl ? BENCH.w - x : x);
   // The road the motion takes, from place to place.
   c.strokeStyle = "rgba(255,227,154,0.35)";
   c.lineWidth = 6;
   c.setLineDash([4, 14]);
   c.beginPath();
-  c.moveTo(BENCH.x0 - 60, BENCH.y);
-  c.lineTo(BENCH.x0 + BENCH.dx * (BENCH.places - 1) + 60, BENCH.y);
+  c.moveTo(across(BENCH.x0 - 60), BENCH.y);
+  c.lineTo(across(BENCH.x0 + BENCH.dx * (BENCH.places - 1) + 60), BENCH.y);
   c.stroke();
   c.setLineDash([]);
   v.places.forEach((id, i) => {
-    const x = BENCH.x0 + i * BENCH.dx;
+    const x = across(BENCH.x0 + i * BENCH.dx);
     const moved = i < v.lit;
     const stopped = v.stopped === i;
     rounded(c, x - 62, BENCH.y - 78, 124, 156, 18);
@@ -251,7 +255,8 @@ export function drawBench(canvas: HTMLCanvasElement, v: BenchView): void {
     }
   });
   // The box of spare parts.
-  rounded(c, BENCH.spareX - 70, 60, 180, 240, 14);
+  const boxX = across(BENCH.spareX + 20);
+  rounded(c, boxX - 90, 60, 180, 240, 14);
   c.fillStyle = "rgba(74,42,20,0.9)";
   c.fill();
   c.strokeStyle = PAL.brass;
@@ -260,7 +265,7 @@ export function drawBench(canvas: HTMLCanvasElement, v: BenchView): void {
   v.spare.slice(0, 2).forEach((id, i) => {
     if (!ICON[id]) return;
     c.save();
-    c.translate(BENCH.spareX + 20, 125 + i * 112);
+    c.translate(boxX, 125 + i * 112);
     c.scale(0.85, 0.85);
     ICON[id](c);
     c.restore();
@@ -268,7 +273,7 @@ export function drawBench(canvas: HTMLCanvasElement, v: BenchView): void {
   if (v.done) {
     // The page of the Atlas, come loose above the last place.
     c.save();
-    c.translate(BENCH.x0 + BENCH.dx * (BENCH.places - 1), 52);
+    c.translate(across(BENCH.x0 + BENCH.dx * (BENCH.places - 1)), 52);
     c.rotate(-0.12);
     rounded(c, -34, -40, 68, 80, 6);
     fill(c, PAL.parchment);
