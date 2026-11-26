@@ -1,6 +1,6 @@
 # The games' device check, and the page a refused device sees
 
-_26 November 2026. Asked for by the founder's directive of that day ([`hudhud/owner-directive-2026-11-26-production-completion.md`](hudhud/owner-directive-2026-11-26-production-completion.md), section 9) for every game. Code: `gaming/packages/platform/`. **Today only Hudhud stands behind it; Granada, The Golden Age and Atlas do not yet.**_
+_26 November 2026. Asked for by the founder's directive of that day ([`hudhud/owner-directive-2026-11-26-production-completion.md`](hudhud/owner-directive-2026-11-26-production-completion.md), section 9) for every game. Code: `gaming/packages/platform/`. **All four games stand behind it since 26 November 2026** (Hudhud first; Granada, The Golden Age and Atlas the same day)._
 
 ## What it does
 
@@ -46,9 +46,12 @@ Every reason is given at once. `deviceMemory` and the number of processors are n
 - On the refusal page the skip link now has somewhere to land.
 - The review also observed that Edge, Firefox and Safari pass the door without being on the tested list. That is the choice described in point 4 above, left as it is for the founder to rule on: refusing every untested browser would today leave Chrome on one Mac.
 
+## The other three games
+
+Granada, The Golden Age and Atlas each have a first script of a dozen lines (`games/<id>/src/ui/gate.ts`, through `packages/platform/src/behind.ts`) and one changed line in their page: the script it loads. Nothing of their own code was touched. `gaming/tools/platform-gate.ts` checks every game in the registry in real Chrome: an emulated phone, in Arabic and English, is told it is not supported, the game's own markup is out of sight, and none of its engine is fetched; a desktop gets the game. Eight checks, all passing. Their own play-through tools were run afterwards: Granada's and Atlas's pass; The Golden Age's plays through and ends on one console error, a 404, in a worktree that has no music files, which its music step asks for (inferred from where it failed and from the release smoke, which loads the same page with no failed request; not confirmed by running the tool on the commit before).
+
 ## Not done
 
-- Granada, The Golden Age and Atlas behind the door. Each needs its first script split from its engine and its own browser tools checked at the door's sizes; that is the next piece.
 - The check after the game has started: a window made smaller in play, a display unplugged, a browser updated. The directive asks for these to be tested.
 - A readable accessibility summary on the refusal page beyond the game's own note.
 - Combinations of zoom and device pixel ratio.
