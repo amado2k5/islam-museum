@@ -275,6 +275,7 @@ async function main(): Promise<void> {
         stat(t("stock_welfare"), num(s.welfare), delta(s.welfare, s.tomorrow?.welfare), s.welfare < 45 ? "warn" : ""),
         stat(t("stock_pool"), `${num(s.pool)} / ${num(s.poolCapacity)}`, delta(s.pool, s.tomorrow?.pool)),
         stat(t("stock_store"), `${num(s.storeUsed)} / ${num(s.storeRoom)}`, null, s.storeUsed >= s.storeRoom ? "warn" : ""),
+        sc.trade && stat(t("stock_trade"), `${s.trade30 > 0 ? "+" : ""}${num(s.trade30)}`),
         stat(t("stock_timber"), num(s.timber)),
         stat(t("stock_stone"), num(s.stone)),
       ),
@@ -728,13 +729,14 @@ async function main(): Promise<void> {
   function marketPanel(): Child[] {
     const lots = (most: number) => [...new Set([1, 10, 50, most].filter((n) => n > 0 && n <= most))];
     return [
-      h("section", { class: "card" }, h("h2", {}, t("market_title")), h("p", { class: "note" }, t("market_note"))),
+      h("section", { class: "card" }, h("h2", {}, t("market_title")), h("p", { class: "note" }, t("market_note")), sc.prices && h("p", { class: "note" }, t("market_note_moving"))),
       ...marketRows(sc, state).map((m) =>
         h(
           "section",
           { class: "card good" },
           h("h2", {}, t(`good_${m.good}`)),
           h("p", {}, `${t("market_have")}: ${num(m.have)}`),
+          h("p", { class: "note", "data-trend": m.trend, "data-demand": m.demand }, `${t(`market_trend_${m.trend}`)} ${t(`market_demand_${m.demand}`)}`),
           h("div", { class: "trade" }, h("span", {}, `${t("market_buy_at")} ${num(m.ask)}`), ...lots(m.canBuy).map((n) => h("button", { type: "button", "data-act": `buy-${m.good}-${n}`, title: t("market_total", { total: n * m.ask }), onclick: () => order({ kind: "buy", good: m.good, quantity: n }) }, t("market_buy", { n })))),
           h("div", { class: "trade" }, h("span", {}, `${t("market_sell_at")} ${num(m.bid)}`), ...lots(m.canSell).map((n) => h("button", { type: "button", "data-act": `sell-${m.good}-${n}`, title: t("market_total", { total: n * m.bid }), onclick: () => order({ kind: "sell", good: m.good, quantity: n }) }, t("market_sell", { n })))),
         ),
@@ -768,7 +770,7 @@ async function main(): Promise<void> {
           h(
             "div",
             { class: "trade" },
-            h("span", {}, `${t(`good_${r.good}`)}: ${t("port_pays", { bid: r.bid, carriage: r.carriage, net: r.net })}`),
+            h("span", { "data-trend": r.trend, "data-demand": r.demand }, `${t(`good_${r.good}`)}: ${t("port_pays", { bid: r.bid, carriage: r.carriage, net: r.net })}. ${t(`market_trend_${r.trend}`)} ${t(`market_demand_${r.demand}`)}`),
             ...lots(r.canSend).map((n) => h("button", { type: "button", "data-act": `send-${r.good}-${n}`, title: t("market_total", { total: n * r.net }), onclick: () => order({ kind: "send", good: r.good, quantity: n }) }, t("port_send", { n }))),
           ),
         ),

@@ -121,7 +121,13 @@ export type EconomyCommand =
   /** Goods used up: eaten, or built into something. `atMost` takes what there is instead of refusing. */
   | { kind: "consume"; good: string; quantity: number; why: string; atMost?: boolean }
   /** Room added to the warehouse by something built. */
-  | { kind: "add-capacity"; units: number; why: string };
+  | { kind: "add-capacity"; units: number; why: string }
+  /**
+   * A market's own day, apart from the player: goods come to it from its suppliers and leave it for its other
+   * buyers, who pay it; and it sets the two prices it will keep until its next day. Every unit and every dinar is
+   * journalled against the world, so the audit still closes. A price pair with ask below bid is refused whole.
+   */
+  | { kind: "market-day"; changes: Array<{ market: string; good: string; arrive: number; leave: number; paid: number; ask: number; bid: number }> };
 export interface Envelope {
   commandId: string;
   /** The state the command was planned against. A stale number is refused, so nothing is decided on old prices. */
@@ -433,6 +439,24 @@ function apply(s: EconomyState, cmd: EconomyCommand, j: Write): CommandResult {
       j(cmd.good, "warehouse", "used", used, cmd.why);
       // What could not be supplied is reported as left over, never invented.
       return ok({ sold: used, leftInField: cmd.quantity - used });
+    }
+    case "market-day": {
+      const count = (n: number) => Number.isSafeInteger(n) && n >= 0 && n <= MAX_UNITS;
+      for (const c of cmd.changes) {
+        const m = s.markets[c.market];
+        if (!m) return fail("unknown-market");
+        const q = m.goods[c.good];
+        if (!q) return fail("unknown-good");
+        if (!count(c.arrive) || !count(c.leave) || c.leave > q.inventory + c.arrive) return fail("bad-quantity");
+        if (!Number.isSafeInteger(c.paid) || c.paid < 0 || c.paid > MAX_MONEY) return fail("bad-quantity");
+        if (!Number.isSafeInteger(c.ask) || !Number.isSafeInteger(c.bid) || c.bid < 0 || c.ask < c.bid || c.ask > MAX_PRICE) return fail("bad-quantity");
+        j(c.good, "world", `market:${c.market}`, c.arrive, "came to market");
+        j(c.good, `market:${c.market}`, "world", c.leave, "sold on by the market");
+        j("money", "world", `market:${c.market}`, c.paid, "paid to the market by its other buyers");
+        m.goods[c.good] = { inventory: q.inventory + c.arrive - c.leave, ask: c.ask, bid: c.bid };
+        m.cash += c.paid;
+      }
+      return ok();
     }
     case "add-capacity": {
       if (!whole(cmd.units) || s.capacity + cmd.units > MAX_UNITS) return fail("bad-quantity");

@@ -23,7 +23,7 @@
      "shows": "Treasury, food, water, timber, stone, population, happiness, trade income a month",
      "mustDo": "Every figure is the simulation's own, with what moves it one click away",
      "today": "partly",
-     "todayNote": "Money, food-days, households, welfare, pool, store, timber and stone are shown with a forecast; no trade income, no population beyond households",
+     "todayNote": "Money, food-days, households, welfare, pool, store, timber and stone are shown with a forecast, and what trade has brought in the last thirty days, read from the ledger's journal. No population beyond households; trade is over thirty days, not a calendar month",
      "disposition": "implement",
      "work": [
       "G1",
@@ -244,7 +244,7 @@
      "shows": "Marketplace: wheat, olives, olive oil, silk, ceramics with stock, buy and sell prices, trend and demand",
      "mustDo": "Prices that move with stock and demand; buying and selling through the ledger",
      "today": "partly",
-     "todayNote": "Two markets, each with two prices and a purse of its own; olive oil is sold at the port; no silk or ceramics; prices do not move, and no trend or demand is shown",
+     "todayNote": "Two markets, each with two prices and a purse of its own. Prices move overnight by up to fifteen parts in a hundred with what the market holds, the market restocks of itself, and each good says whether its price is above or below yesterday's and how the market's stock stands. Olive oil is sold at the port; no silk or ceramics",
      "disposition": "implement",
      "work": [
       "G1"
