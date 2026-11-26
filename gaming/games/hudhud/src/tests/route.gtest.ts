@@ -35,7 +35,7 @@ const EXPECTED: Record<RouteStyle, string[]> = {
 /** The words the record uses for each stop, each of which occurs in the record's own file. */
 const ANCHOR: Record<string, string> = {
   tangier: "Tangier", "north-africa": "North Africa", egypt: "Egypt", "upper-egypt": "Upper Egypt", syria: "Syria", damascus: "Damascus", mecca: "Mecca",
-  "red-sea": "Red Sea", yemen: "Yemen", aden: "Aden", zayla: "Zayla", mogadishu: "Mogadishu", "east-africa-ports": "ports of East Africa", oman: "Oman", "persian-gulf": "Persian Gulf",
+  "red-sea": "Red Sea", yemen: "Yemen", aden: "Aden", zayla: "Zayla", mogadishu: "Mogadishu", "east-africa-ports": "ports of East Africa", oman: "Oman", "persian-gulf": "Gulf",
   iraq: "Iraq", khuzistan: "Khuzistan", fars: "Fars", jibal: "Jibal", tabriz: "Tabriz", baghdad: "Baghdad", samarra: "Samarra", mosul: "Mosul",
 };
 /** The part of the record that is each stage's sentence: from where it opens to where the next opens. */
@@ -470,7 +470,7 @@ describe("the words", () => {
     ["ib_left_1", "يقول سجل المتحف إن ابن بطوطة خرج من طنجة يوم الخميس الثاني من رجب سنة 725 للهجرة قاصدًا الحج، وحده، وعمره اثنتان وعشرون سنة.", "The museum's record says Ibn Battuta left Tangier on Thursday the second of Rajab in the year 725 of the Hijra for the pilgrimage, alone, aged twenty-two."],
     ["ib_written_1", "ويقول إنه لم يكتب رحلته بيده: أمر السلطان أبو عنان بتدوينها، فأملاها ابن بطوطة وحرّرها ابن جُزَيّ.", "It says he did not write his journey down himself: Sultan Abu Inan ordered it written, Ibn Battuta dictated it, and Ibn Juzayy edited it."],
     ["ib_stage_story", "خرج من طنجة فقطع شمال أفريقيا ومصر وصعيد مصر والشام، ثم خرج من دمشق إلى مكة.", "He left Tangier and crossed North Africa, Egypt, Upper Egypt and Syria, then left Damascus for Mecca."],
-    ["ib_stage_explorer", "نزل في البحر الأحمر إلى اليمن وعدن، ثم إلى زيلع ومقديشو وموانئ التجارة في شرق أفريقيا، وعاد عن طريق عُمان والخليج.", "He went down the Red Sea to Yemen and Aden, then to Zayla, Mogadishu and the trading ports of East Africa, and came back by Oman and the Persian Gulf."],
+    ["ib_stage_explorer", "نزل في البحر الأحمر إلى اليمن وعدن، ثم إلى زيلع ومقديشو وموانئ التجارة في شرق أفريقيا، وعاد عن طريق عُمان والخليج.", "He went down the Red Sea to Yemen and Aden, then to Zayla, Mogadishu and the trading ports of East Africa, and came back by Oman and the Gulf."],
     ["ib_stage_challenge", "خرج من مكة فمرّ بالعراق وخوزستان وفارس والجبال، ثم إلى تبريز وبغداد وسامرّاء والموصل، ثم عاد إلى بغداد.", "He left Mecca and went through Iraq, Khuzistan, Fars and the Jibal, then to Tabriz, Baghdad, Samarra and Mosul, and then returned to Baghdad."],
     ["ib_note_1", "هذه لعبة وليست كتاب تاريخ. الخيط والخرز والطفل صاحب الجمل وكل كلمة تُقال من خيال اللعب. والصورة ليست خريطة: الخرز موضوع على حلقة بلا اتجاه ولا مسافة.", "This is a game, not a history. The thread, the beads, the child with the camel and every spoken line are invented for play. The picture is not a map: the beads sit on a ring, with no direction and no distance meant."],
     ["ib_note_2", "من سجل المتحف: يرتّب السجل رحلات ابن بطوطة في ثماني مراحل، نقلًا عن مقالة في دائرة معارف. تتبع اللعبة ثلاثًا منها.", "From the museum's record: the record sets Ibn Battuta's journeys out in eight stages, after an article in an encyclopaedia. The game follows three of them."],
@@ -566,7 +566,16 @@ describe("the words", () => {
       "zayla:es": "Zeila -> Zayla",
       "zayla:tr": "Sil -> Zayla",
       "zayla:id": "Hapus -> Zayla",
+      // The museum's own place record names this sea differently from language to language (Persian in English,
+      // French, Spanish and Urdu; Arabian in Arabic, Turkish and Indonesian). The game says only "the Gulf" in all
+      // seven, taking no side; ledger HR-HH-30.
       "persian-gulf:ar": "الخليج العربي -> الخليج",
+      "persian-gulf:en": "Persian Gulf -> the Gulf",
+      "persian-gulf:es": "Golfo Pérsico -> el Golfo",
+      "persian-gulf:fr": "Golfe Persique -> le Golfe",
+      "persian-gulf:id": "Teluk Arab -> Teluk",
+      "persian-gulf:tr": "Arap Körfezi -> Körfez",
+      "persian-gulf:ur": "خلیج فارس -> خلیج",
       "khuzistan:ar": "الأهواز -> خوزستان",
       "khuzistan:en": "Khuzistan (al-Ahwaz) -> Khuzistan",
       "khuzistan:fr": "Khuzistan (al-Ahwaz) -> Khuzistan",
