@@ -90,7 +90,8 @@ export function snapshotClock(s: ClockState): ClockSnapshot {
  * A clock put back from what was saved, or null if what was saved cannot be trusted. Nothing is taken on faith: the
  * puzzle is built afresh for the style (`puzzleOf`) and only the places, the count and known flags are laid over it.
  * The fewest moves is worked out again from the style's own start, never read from the file. What the last run
- * showed is not kept, and a clock whose places already work is never a place to resume: that quest is finished.
+ * showed is not kept. A row that already works comes back not yet set going, and only if the count of moves makes it
+ * possible.
  */
 export function restoreClock(x: unknown, puzzleOf: (style: ClockStyle) => ChainPuzzle): ClockState | null {
   if (typeof x !== "object" || x === null) return null;
@@ -109,6 +110,8 @@ export function restoreClock(x: unknown, puzzleOf: (style: ClockStyle) => ChainP
   if (!Array.isArray(o.flags)) return null;
   const flags = CLOCK_FLAGS.filter((f) => (o.flags as unknown[]).includes(f));
   const puzzle = { ...base.puzzle, places };
-  if (runChain(puzzle).end === "done") return null;
+  // A row that works can be a place to come back to: the last part was stood and the clock not yet set going. But it
+  // cannot have been reached in fewer moves than the fewest there are.
+  if (runChain(puzzle).end === "done" && o.moves < base.par) return null;
   return { ...base, puzzle, moves: o.moves, flags: [...flags] };
 }
