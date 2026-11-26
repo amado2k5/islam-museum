@@ -12,6 +12,7 @@ gaming/games/hudhud/
   src/
     sim/                RULES. Pure, no Phaser, no DOM, no clock, no unseeded chance; run in Node
       light.ts            the beam on a grid: trace, turn a mirror, solve, generate from a seed
+      chain.ts            a machine as a row of parts that hand a motion on: run, swap, solve, generate (in no quest yet)
       move.ts             the bird: a fixed-step integrator with coyote time, jump buffering, glide, perches
       scene.ts            the quest's state and its only reducer: (state, command) -> (state, what happened)
     narrative/dialogue.ts typed scripts and the machine that walks them; faults() checks a script set
@@ -25,7 +26,7 @@ gaming/games/hudhud/
     scenes/workshop.ts  Phaser scene: builds the pictures, moves them from the state, measures itself
     game/boot.ts        starts and stops Phaser; sizes the canvas; counts draw calls when asked
     ui/app.ts, .css     the page: talk, goal, settings, pause, results, the scene in words, the test hook
-    tests/*.gtest.ts    99 tests
+    tests/*.gtest.ts    109 tests
 gaming/tools/hudhud-play.ts     plays the scene in real Chrome and records everything
 gaming/tools/hudhud-rebuild.ts  rebuilds the game repeatedly and reads memory
 ```
