@@ -5,7 +5,7 @@
 import { FrameRecorder, type FrameSummary } from "@im/kernel/framestats";
 import { generateTextures } from "@im/worldkit/textures-async";
 import { OVERVIEW, START, approach, clampPose, pan, turn, zoom, type Pose } from "../view/camera";
-import { PRESETS, ValleyRenderer, type Quality, type ValleyLook } from "../view/three-valley";
+import { PRESETS, ValleyRenderer, type Art, type Quality, type ValleyLook } from "../view/three-valley";
 import { FIELDS, heightAt } from "../view/valley";
 
 export interface StageOptions {
@@ -14,6 +14,8 @@ export interface StageOptions {
   reducedMotion: boolean;
   /** Whether to fetch the authored models (the page's `models=off` turns it off). */
   models: boolean;
+  /** An art set under evaluation (the page's `art=c`, `c1` or `c2`), drawn in place of the game's own where it has a piece. */
+  art?: Art | null;
   onField: (id: string) => void;
   /** While the player is choosing where to build: the point of the land being considered, and the point chosen. */
   onSite?: (x: number, z: number) => void;
@@ -52,7 +54,7 @@ export class Stage {
     host.prepend(s.canvas);
     const { textures } = await generateTextures(7, PRESETS[options.quality].textures);
     // The valley is one authored place: its shape does not change with the game's seed, only its weather does.
-    s.renderer = await ValleyRenderer.create(s.canvas, textures, { quality: options.quality, seed: 7, reducedMotion: options.reducedMotion, maxPixelRatio: PRESETS[options.quality].pixelRatio, models: options.models });
+    s.renderer = await ValleyRenderer.create(s.canvas, textures, { quality: options.quality, seed: 7, reducedMotion: options.reducedMotion, maxPixelRatio: PRESETS[options.quality].pixelRatio, models: options.models, art: options.art ?? null });
     s.pose = s.goal = clampPose(START, s.ground);
     s.renderer.setCamera(s.pose);
     s.listen();
