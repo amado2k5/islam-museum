@@ -4,6 +4,7 @@
 import { loadMusicStrings, musicControl } from "@im/audio/control";
 import { MUSIC_AVAILABLE, MUSIC_BASE, MusicPlayer } from "@im/audio/player";
 import { Cues, type Cue } from "../audio/cues";
+import { atlasCanvas, atlasHit, ATLASBOOK, drawAtlasBook } from "../art/atlasbook";
 import { HAIRS, OUTFITS, SKINS, keeper as paintKeeper, portrait } from "../art/cast";
 import { CLOCK_QUEST, clockPuzzle } from "../content/clock";
 import { restoreClock } from "../sim/clock";
@@ -484,6 +485,21 @@ async function main(): Promise<void> {
   }
 
   // ---------------------------------------------------------------------------------------- sheets
+  /**
+   * A slot that has not seen the opening, chosen in the settings, is shown it when the player closes the settings on
+   * the Atlas; in the middle of a quest it waits for the next time a sheet is closed on the Atlas.
+   */
+  let openingDue = false;
+  function afterSheet(): void {
+    if (!openingDue || sheetOpen()) return;
+    if (slot().prologue) {
+      openingDue = false;
+      return;
+    }
+    if (started || clockRun || openingShown) return;
+    openingDue = false;
+    readOpening(true);
+  }
   function sheet(title: string, ...body: Array<Node | null | false>): HTMLElement {
     // A sheet that is already open is not opened a second time on top of itself (the toolbar stays in reach while a
     // sheet is up): the one that is open is shown again.
@@ -501,6 +517,7 @@ async function main(): Promise<void> {
       if (node === pauseNode) setPaused(false);
       back?.focus?.({ preventScroll: true });
       render();
+      afterSheet();
     };
     const closeBtn = el("button", { type: "button", class: "primary", textContent: t("btn_close"), onclick: close });
     const heading = el("h2", { textContent: title, tabIndex: -1 });
@@ -602,8 +619,11 @@ async function main(): Promise<void> {
         redraw();
         if (!started) drawHub();
         // The sheet was drawn from the slot just left: draw it again from this one.
+        openingDue = false;
         (node as unknown as { close: () => void }).close();
         openSettings();
+        // The opening is shown when these settings are closed, if this slot has not seen it.
+        openingDue = !slot().prologue;
       }), t("privacy")),
     );
   }
@@ -926,6 +946,46 @@ async function main(): Promise<void> {
   }
   const again = el("button", { type: "button", class: "quiet", textContent: t("pro_reread"), onclick: () => readOpening(true) });
   again.dataset.opening = "again";
+  // The Atlas laid open: one picture that shows how many pages are home, and a way to go to a world's list. It is a
+  // helper and never the only way: every medallion is also a numbered button under it, and every world's list is on
+  // the page below.
+  const book = atlasCanvas();
+  book.className = "book-art";
+  book.setAttribute("role", "img");
+  const bookHint = el("p", { class: "small", id: "book-hint", textContent: t("hub_book_pick") });
+  const bookWorlds = el("div", { class: "book-worlds" });
+  bookWorlds.setAttribute("role", "group");
+  bookWorlds.setAttribute("aria-labelledby", "book-hint");
+  const bookFigure = el("div", { class: "book" }, book, bookHint, bookWorlds);
+  /** Takes the player to a world's list: scrolls it into view (not smoothly when motion is reduced) and focuses its heading. */
+  function toWorld(order: number): void {
+    const heading = hub.querySelector<HTMLElement>(`h3[data-world="${order}"]`);
+    if (!heading) return;
+    heading.scrollIntoView({ behavior: calm() ? "auto" : "smooth", block: "start" });
+    heading.focus({ preventScroll: true });
+  }
+  for (const w of [...atlas.worlds].sort((a, b) => a.order - b.order)) {
+    const b = el("button", { type: "button", class: "book-world", textContent: num(w.order), title: t("hub_world", { n: num(w.order), name: atlasNames[`world_${w.order}`] ?? w.name }), onclick: () => toWorld(w.order) });
+    b.setAttribute("aria-label", t("hub_world", { n: num(w.order), name: atlasNames[`world_${w.order}`] ?? w.name }));
+    b.dataset.world = String(w.order);
+    bookWorlds.append(b);
+  }
+  book.addEventListener("click", (e) => {
+    const r = book.getBoundingClientRect();
+    if (r.width === 0 || r.height === 0) return;
+    const order = atlasHit(((e.clientX - r.left) / r.width) * ATLASBOOK.w, ((e.clientY - r.top) / r.height) * ATLASBOOK.h, RTL.includes(lang));
+    if (order !== null) toWorld(order);
+  });
+  /** Which pages are home in each world, and which worlds have a quest that can be played, in the order of the Atlas. */
+  const pictureData = () => {
+    const quests = slot().quests;
+    const worlds = [...atlas.worlds].sort((a, b) => a.order - b.order);
+    return {
+      worlds: worlds.length,
+      home: worlds.map((w) => atlas.subjects.filter((x) => x.world === w.id && BUILT[x.id] !== undefined && quests[BUILT[x.id]!]?.done === true).length),
+      open: worlds.filter((w) => atlas.subjects.some((x) => x.world === w.id && BUILT[x.id] !== undefined)).map((w) => w.order),
+    };
+  };
   function drawHub(): void {
     drawChoices();
     const quests = slot().quests;
@@ -946,7 +1006,7 @@ async function main(): Promise<void> {
             b.dataset.quest = quest;
             const item = el("li", { class: "open" }, b, el("small", { textContent: t("ck_trial") }));
             if (rec?.done) item.append(el("small", { textContent: t("quest_home", { n: num([rec.curiosity, rec.ingenuity, rec.kindness, rec.feather].filter(Boolean).length) }) }));
-            if (kept) item.append(el("small", { textContent: t("resume_note") }), el("button", { type: "button", textContent: t("btn_restart"), onclick: () => (clockCheckpoint(null), drawHub()) }));
+            if (kept) item.append(el("small", { textContent: t("resume_note") }), el("button", { type: "button", textContent: t("btn_restart_quest"), onclick: () => (clockCheckpoint(null), drawHub()) }));
             return item;
           }
           const label: Key = resumed ? "quest_continue" : rec?.done ? "quest_again" : "quest_play";
@@ -955,11 +1015,18 @@ async function main(): Promise<void> {
           if (resumed) li.append(el("small", { textContent: t("resume_note") }), el("button", { type: "button", textContent: t("btn_restart"), onclick: () => (restart(false), drawHub()) }));
           return li;
         });
-      return el("section", { class: "world" }, el("h3", { textContent: t("hub_world", { n: num(w.order), name: atlasNames[`world_${w.order}`] ?? w.name }) }), el("ol", {}, ...items));
+      const heading = el("h3", { textContent: t("hub_world", { n: num(w.order), name: atlasNames[`world_${w.order}`] ?? w.name }), tabIndex: -1 });
+      heading.dataset.world = String(w.order);
+      return el("section", { class: "world" }, heading, el("ol", {}, ...items));
     });
+    // The picture is drawn again every time the Atlas is: after a quest, a change of slot, or another tab's save.
+    const picture = pictureData();
+    book.setAttribute("aria-label", t("hub_book_alt", { n: num(home), total: num(atlas.subjects.length) }));
+    drawAtlasBook(book, { ...picture, rtl: RTL.includes(lang) });
     hub.replaceChildren(
       el("h2", { textContent: t("hub_title") }),
       el("p", { class: "progress", textContent: t("hub_progress", { n: num(home), total: num(atlas.subjects.length) }) }),
+      bookFigure,
       choose,
       el("p", { class: "small", textContent: t("cover_more") }),
       el("p", { class: "small", textContent: t("start_hint") }),
@@ -1013,6 +1080,7 @@ async function main(): Promise<void> {
     saveReady: () => ready.then(() => durable?.settled()).then(() => saveStatus),
     persistence: () => persistence,
     toAtlas: () => toAtlas(),
+    atlasPicture: () => pictureData(),
     startClock: () => startClock(),
     clock: () => (clockRun ? { ...clockRun.state(), busy: clockRun.busy() } : null),
     clockCommand: (c: Parameters<ClockQuest["command"]>[0]) => clockRun?.command(c),
