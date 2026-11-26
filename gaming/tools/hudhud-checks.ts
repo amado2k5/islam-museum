@@ -226,7 +226,7 @@ const ev = <T>(page: Page, js: string) => page.evaluate(js) as Promise<T>;
 {
   const ctx = await browser.newContext({ viewport: { width: 1280, height: 800 } });
   await ctx.addInitScript("window.__pad = { index: 0, id: 'test pad', mapping: 'standard', connected: true, axes: [0, 0, 0, 0], buttons: Array.from({ length: 17 }, () => ({ pressed: false, value: 0 })) }; navigator.getGamepads = () => [window.__pad];");
-  const page = await open(ctx, "&fresh=1");
+  const page = await open(ctx, "");
   await playing(page);
   await ev(page, "window.dispatchEvent(Object.assign(new Event('gamepadconnected'), { gamepad: window.__pad }))");
   const tap = async (i: number) => {
@@ -252,7 +252,24 @@ const ev = <T>(page: Page, js: string) => page.evaluate(js) as Promise<T>;
   await page.waitForTimeout(250);
   const y1 = (await ev<{ y: number }>(page, "window.__HH__.where()")).y;
   await ev(page, "window.__pad.buttons[0].pressed = false");
-  record("a controller goes on and back in a talk, pauses and flies (a stand-in pad, not a real one)", l0 === 0 && l1 === 1 && l2 === 0 && over === null && paused === 1 && resumed === 0 && y1 < y0 - 20, { l0, l1, l2, over, paused, resumed, y0, y1 });
+  // A talk with choices: the controller moves among them and picks one, with no keyboard or mouse.
+  await ev(page, "window.__HH__.goTo('scholar')");
+  await page.waitForTimeout(1200);
+  await tap(0); // on to the line that offers the choices
+  const offered = await ev<number>(page, "document.querySelectorAll('.talk .choices button').length");
+  await tap(13); // down to the second choice
+  const focused = await ev<number>(page, "[...document.querySelectorAll('.talk .choices button')].indexOf(document.activeElement)");
+  await tap(0); // pick it
+  const node = await ev<string | null>(page, "window.__HH__.state().talk ? window.__HH__.state().talk.node : null");
+  // A remap begun and then abandoned must not swallow the next press.
+  await ev(page, "window.__HH__.command({type:'skip'})");
+  await page.getByRole("button", { name: "Settings" }).click();
+  await page.locator(".sheet button", { hasText: /^Touch: button/ }).click();
+  await page.keyboard.press("Escape");
+  await page.waitForTimeout(100);
+  await tap(1);
+  const map = await ev<{ touch: number }>(page, "JSON.parse(localStorage.getItem('im.hudhud.save.v1') || '{\"slots\":[{\"settings\":{\"pad\":{\"touch\":2}}}]}').slots[0].settings.pad");
+  record("a controller goes on and back in a talk, picks among choices, pauses and flies; an abandoned remap is not left armed (a stand-in pad, not a real one)", l0 === 0 && l1 === 1 && l2 === 0 && over === null && paused === 1 && resumed === 0 && y1 < y0 - 20 && offered === 3 && focused === 1 && node === "see" && map.touch === 2, { l0, l1, l2, over, paused, resumed, y0, y1, offered, focused, node, map });
   await ctx.close();
 }
 // 4i. The door. A phone is told plainly, in its language, and nothing of the game is fetched; a window too small

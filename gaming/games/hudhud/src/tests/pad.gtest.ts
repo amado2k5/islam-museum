@@ -43,4 +43,20 @@ describe("the gamepad", () => {
     expect(slot({ fly: 2, back: 1, touch: 0, pause: 9 })).toEqual({ fly: 2, back: 1, touch: 0, pause: 9 });
     for (const bad of [undefined, 5, { fly: 0 }, { fly: 0, back: 0, touch: 2, pause: 9 }, { fly: -1, back: 1, touch: 2, pause: 9 }, { fly: 0.5, back: 1, touch: 2, pause: 9 }]) expect(slot(bad)).toEqual(DEFAULT_PAD);
   });
+  it("keeps the direction buttons for moving: none can be given to an action, by hand or by a broken file", () => {
+    for (const b of [12, 13, 14, 15]) expect(assignPad(DEFAULT_PAD, "fly", b)).toBe(DEFAULT_PAD);
+    expect(firstPressed([false, false, false, false, false, false, false, false, false, false, false, false, true, false], [])).toBeNull();
+    const slot = (padMap: unknown) => current(readSave(JSON.stringify({ v: 1, slot: 0, slots: [{ settings: { pad: padMap } }] })).save).settings.pad;
+    expect(slot({ fly: 15, back: 1, touch: 2, pause: 9 })).toEqual(DEFAULT_PAD);
+  });
+  it("reports one step up or down for one push of the pad or the stick, for choosing in a talk", () => {
+    expect(readPad(pad([12]), DEFAULT_PAD, []).step).toBe(-1);
+    expect(readPad(pad([13]), DEFAULT_PAD, []).step).toBe(1);
+    const held = readPad(pad([13]), DEFAULT_PAD, []);
+    expect(readPad(pad([13]), DEFAULT_PAD, held.held).step).toBe(0);
+    const pushed = readPad(pad([], [0, 0.9]), DEFAULT_PAD, [], 0);
+    expect(pushed.step).toBe(1);
+    expect(readPad(pad([], [0, 0.9]), DEFAULT_PAD, pushed.held, pushed.stick).step).toBe(0);
+    expect(readPad(pad([], [0, -0.9]), DEFAULT_PAD, [], 0).step).toBe(-1);
+  });
 });

@@ -280,11 +280,21 @@ async function main(): Promise<void> {
     else if (h.type === "line") cues.play("line");
     else if (h.type === "done") finish();
   }
-  function press(p: "touch" | "pause" | "next" | "back"): void {
+  function press(p: "touch" | "pause" | "next" | "back" | "up" | "down"): void {
     cues.unlock();
     if (p === "pause") return togglePause();
     if (!started || paused || sheetOpen()) return;
-    if (state.talk) return run({ type: p === "back" ? "back" : "forward" });
+    if (state.talk) {
+      // Where a talk offers choices, a controller moves among them and picks one: going "forward" would wait for ever.
+      const choices = [...talkBox.querySelectorAll<HTMLButtonElement>(".choices button")];
+      if (choices.length) {
+        const at = Math.max(0, choices.indexOf(document.activeElement as HTMLButtonElement));
+        if (p === "up" || p === "down") return choices[(at + (p === "up" ? choices.length - 1 : 1)) % choices.length]!.focus({ preventScroll: true });
+        if (p === "next" || p === "touch") return choices[at]!.click();
+      }
+      if (p === "up" || p === "down") return;
+      return run({ type: p === "back" ? "back" : "forward" });
+    }
     if (p === "touch") running?.scene()?.touchNear();
   }
 
@@ -384,6 +394,8 @@ async function main(): Promise<void> {
     const back = document.activeElement as HTMLElement | null;
     const close = () => {
       node.remove();
+      // No sheet is left waiting to learn a key or a button once it is closed.
+      input.disarm();
       // Closing the pause sheet, by its button or by Escape, is going on with the game.
       if (node === pauseNode) setPaused(false);
       back?.focus?.({ preventScroll: true });
@@ -630,6 +642,7 @@ async function main(): Promise<void> {
     } else {
       pauseNode = null;
       sheets.replaceChildren();
+      input.disarm();
     }
     render();
   }
