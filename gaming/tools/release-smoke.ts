@@ -131,7 +131,7 @@ for (const game of manifest.games.filter((g) => g.page)) {
               await page.waitForTimeout(200);
             }
             const models = (await page.evaluate("window.__GR__.stage().info()")) as { models: string[]; modelFailures: string[] };
-            for (const wanted of ["granada/town", "granada/mill"]) if (!models.models.includes(wanted)) errors.push(`the authored model ${wanted} did not load: ${models.modelFailures.join("; ") || "no reason given"}`);
+            for (const wanted of ["granada/town", "granada/landmarks", "granada/mill"]) if (!models.models.includes(wanted)) errors.push(`the authored model ${wanted} did not load: ${models.modelFailures.join("; ") || "no reason given"}`);
           }
           await page.waitForTimeout(1200);
           const info = (await page.evaluate("window.__GR__.stage().info()")) as { triangles: number };

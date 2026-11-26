@@ -18,6 +18,7 @@ import sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import bpy  # noqa: E402
 from common import Part, clear_scene, export_gltf, make_materials, render_preview, textures, triangles  # noqa: E402
+from kit import PITCH, chimney, door, gables, opening, roof  # noqa: E402
 
 argv = sys.argv[sys.argv.index("--") + 1:] if "--" in sys.argv else []
 out_dir = os.path.abspath(argv[0]) if argv else os.path.abspath("gaming/media/models/granada/2")
@@ -25,61 +26,7 @@ preview = os.path.abspath(argv[1]) if len(argv) > 1 else None
 
 clear_scene()
 materials = make_materials(textures(os.path.join(out_dir, "_work")))
-PITCH = math.radians(24)
 made = {}
-
-
-def roof(part, w, d, eave, overhang=0.35, pitch=PITCH, material="rooftile"):
-    """Two slopes of tile over a block w along the ridge and d across it, with the ridge along x."""
-    half = d / 2 + overhang
-    run = half / math.cos(pitch)
-    rise = math.tan(pitch) * (d / 2)
-    for sy in (-1, 1):
-        # A slab whose own y runs down the slope, so the tiles run down it too.
-        part.box((w + 2 * overhang, run, 0.14), (0, sy * half / 2, eave + rise / 2 - math.tan(pitch) * overhang / 2 + 0.07), (sy * -pitch, 0, 0), material=material, bevel=0.02, grain=1)
-    # The ridge: a line of capping tiles.
-    part.box((w + 2 * overhang, 0.3, 0.16), (0, 0, eave + rise + 0.08), material=material, bevel=0.05)
-    return rise
-
-
-def gables(part, w, d, eave, material, pitch=PITCH):
-    rise = math.tan(pitch) * (d / 2)
-    for sx in (-1, 1):
-        part.prism([(-d / 2, 0), (d / 2, 0), (0, rise)], 0.3, (sx * (w / 2 - 0.15), 0, eave), (0, 0, math.pi / 2), material=material)
-
-
-def opening(part, x, y_face, z, w, h, facing=-1, shutters=True, sill=True):
-    """A window on a wall that faces -y (or +y): a dark reveal, a frame of the wall's own stone, boards for shutters."""
-    y = y_face + facing * 0.02
-    part.box((w, 0.06, h), (x, y, z), material="dark", bevel=0)
-    part.box((w + 0.24, 0.12, 0.14), (x, y + facing * 0.03, z + h / 2 + 0.07), material="wood", bevel=0.015, grain=0)
-    if sill:
-        part.box((w + 0.3, 0.2, 0.1), (x, y + facing * 0.06, z - h / 2 - 0.05), material="stone", bevel=0.02)
-    if shutters:
-        for sx in (-1, 1):
-            part.box((w / 2, 0.05, h), (x + sx * (w / 2 + w / 4 + 0.02), y + facing * 0.04, z), material="wood", bevel=0.01, grain=2)
-
-
-def door(part, x, y_face, w, h, facing=-1, arch=False):
-    y = y_face + facing * 0.03
-    part.box((w, 0.08, h), (x, y, h / 2), material="wood", bevel=0.01, grain=2)
-    for sx in (-1, 1):
-        part.box((0.2, 0.22, h + 0.1), (x + sx * (w / 2 + 0.1), y + facing * 0.04, (h + 0.1) / 2), material="stone", bevel=0.03)
-    if arch:
-        for k in range(7):
-            a = math.pi * (k + 0.5) / 7
-            r = w / 2 + 0.1
-            part.box((0.34, 0.22, 0.36), (x + math.cos(a) * r, y + facing * 0.04, h + math.sin(a) * r), (0, -(a - math.pi / 2), 0), material="stone", bevel=0.03)
-        part.prism([(-w / 2, 0)] + [(math.cos(math.pi * (1 - k / 8)) * w / 2, math.sin(math.pi * k / 8) * w / 2) for k in range(1, 8)] + [(w / 2, 0)], 0.08, (x, y, h), material="wood")
-    else:
-        part.box((w + 0.5, 0.24, 0.22), (x, y + facing * 0.04, h + 0.11), material="wood", bevel=0.02, grain=0)
-
-
-def chimney(part, x, y, base, top):
-    part.box((0.6, 0.6, top - base), (x, y, (base + top) / 2), material="plaster", bevel=0.03)
-    part.box((0.8, 0.8, 0.1), (x, y, top + 0.05), material="rooftile", bevel=0.02)
-    part.box((0.5, 0.5, 0.26), (x, y, top + 0.23), material="plaster", bevel=0.03)
-    part.box((0.74, 0.74, 0.08), (x, y, top + 0.4), material="rooftile", bevel=0.02)
 
 
 def finish(name, part, footprint):

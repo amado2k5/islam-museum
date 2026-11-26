@@ -50,8 +50,14 @@ export const MILL: Pt = [-34, 44.5];
 /** Where the road north crosses the river. */
 export const BRIDGE = { x: 6, length: 64, width: 6.4, deck: 4.3 } as const;
 export const HILL = { x: 930, z: -150, r: 300, h: 92 } as const;
+/** The radius of the level ground on the hill's top. */
+export const HILL_TOP = 50;
+/** Where the olive estate's yard stands, beside the terrace it works, its gate to the west. */
+export const ESTATE = { x: 512, z: 96, yaw: -Math.PI / 2 } as const;
 /** The ground the game is played on; the camera's target stays inside it. */
-export const BOUNDS = { x0: -460, x1: 540, z0: -230, z1: 300 } as const;
+export const BOUNDS = { x0: -460, x1: 760, z0: -260, z1: 300 } as const;
+/** The worked land: nearly level inside it, rolling more the further outside. The land's shape is set by this, not by where the camera may go. */
+const WORKED = { x0: -460, x1: 540, z0: -230, z1: 300 } as const;
 
 // ---- The land ----------------------------------------------------------------------------------------------------------
 const smooth = (a: number, b: number, v: number): number => {
@@ -80,11 +86,11 @@ export function fieldAt(x: number, z: number): string | null {
 const TERRACE_STEP = 2.6;
 const terraceOf = (x: number): number => Math.max(0, Math.min(3, Math.floor((x - 224) / 62)));
 
-/** Height of the land at a point. */
-export function heightAt(x: number, z: number, seed: number): number {
+/** The land without the town's hill, the river's bed or the pool: the plain, its rolling edges, the terraces, the foothills. */
+function ground(x: number, z: number, seed: number): number {
   let h = plain(x);
   // Rolling ground away from the worked land; the worked land itself is nearly level.
-  const away = Math.max(BOUNDS.x0 - x, x - BOUNDS.x1, BOUNDS.z0 - 60 - z, z - BOUNDS.z1, 0);
+  const away = Math.max(WORKED.x0 - x, x - WORKED.x1, WORKED.z0 - 60 - z, z - WORKED.z1, 0);
   h += (fbm(x / 210 + 3, z / 210 + 7, seed, 4) - 0.5) * (1.2 + 26 * smooth(0, 520, away));
   // The olive terraces climb eastward in four steps.
   const t = FIELDS["olive-terrace"]!;
@@ -95,11 +101,21 @@ export function heightAt(x: number, z: number, seed: number): number {
   }
   // Foothills rise to the east, and the town's hill stands on them.
   h += 46 * smooth(520, 1500, x) * (0.75 + 0.5 * fbm(x / 420, z / 420 + 5, seed + 3, 3));
-  const dh = Math.hypot(x - HILL.x, z - HILL.z);
-  h += HILL.h * Math.pow(smooth(HILL.r, 0, dh), 1.4);
+  return h;
+}
+
+/** Height of the land at a point. */
+export function heightAt(x: number, z: number, seed: number): number {
+  let h = ground(x, z, seed);
+  // The hill's top is level for fifty metres round its middle, where the palace stands: the rolling of the ground
+  // is smoothed away there, and the hill itself rises only outside it.
+  const fromTop = Math.hypot(x - HILL.x, z - HILL.z);
+  if (fromTop < HILL_TOP + 40) h += (ground(HILL.x, HILL.z, seed) - h) * smooth(HILL_TOP + 40, HILL_TOP, fromTop);
+  h += HILL.h * Math.pow(smooth(HILL.r, 0, Math.max(0, fromTop - HILL_TOP)), 1.4);
   // The river's bed, and the pool's basin.
   const dr = Math.abs(z - riverZ(x));
-  h -= 4.2 * smooth(RIVER_HALF + 26, RIVER_HALF - 4, dr) * smooth(1250, 950, x);
+  // The river's line runs on under the town's hill; its bed is not cut into the hill.
+  h -= 4.2 * smooth(RIVER_HALF + 26, RIVER_HALF - 4, dr) * smooth(1250, 950, x) * smooth(150, 270, fromTop);
   const dp = Math.hypot(x - POOL.x, z - POOL.z);
   h -= 3 * smooth(POOL.r + 3, POOL.r - 6, dp);
   return h;
@@ -515,6 +531,8 @@ function roadMesh(path: Pt[], seed: number): MeshData {
   return b.build();
 }
 
+/** The stretch of the hill's wall that has the gate in it: the one that looks down on the lower town. */
+const HILL_GATE = 6;
 /** The houses of the authored town kit (gaming/art/blender/granada_town.py), in the order they are dealt out. */
 export const KIT_HOUSES = ["house-a", "house-b", "house-c", "house-d"] as const;
 /** One piece of the kit, set down: its front faces the way a frame of this yaw faces. */
@@ -525,6 +543,8 @@ export interface KitPlacement {
   z: number;
   yaw: number;
   scale: number;
+  /** A stretch along the piece's own length, on top of `scale`: a wall piece is fitted to the stretch it closes. */
+  sx?: number;
   /** A wash laid over the piece's plaster, so that no two houses are quite the same white. */
   tint: Rgb;
   /** The building lot this house is on, for a house that is built during play; null for one that was always there. */
@@ -535,8 +555,10 @@ export interface KitPlacement {
  * Everything built in the valley. With `authoredTown` the houses are not made here: the places they stand are
  * returned in `kit`, for models made ahead of time. Everything else is the same either way, tree for tree.
  */
-export function buildScenery(seed: number, options: { authoredTown?: boolean } = {}): Scenery {
+export function buildScenery(seed: number, options: { authoredTown?: boolean; authoredHill?: boolean } = {}): Scenery {
   const authored = options.authoredTown === true;
+  /** The hill's wall, towers, gate and palace, and the estate, are models too. */
+  const authoredHill = options.authoredHill === true;
   const kit: KitPlacement[] = [];
   let dealt = 0;
   /** Stands a kit house where a made one would have stood, `width` metres wide. */
@@ -548,7 +570,7 @@ export function buildScenery(seed: number, options: { authoredTown?: boolean } =
   const rng = new Rng(hash32("granada-valley", seed >>> 0));
   const set = new MeshSet(4000);
   const y = (x: number, z: number) => heightAt(x, z, seed);
-  const footprints: Array<{ x: number; z: number; r: number }> = [{ x: STORE[0], z: STORE[1], r: 19 }, { x: GRANARY[0], z: GRANARY[1], r: 16 }, ...HOUSE_LOTS.map((l) => ({ x: l.x, z: l.z, r: 12 })), { x: MOSQUE[0], z: MOSQUE[1] - 6, r: 20 }, { x: MILL[0], z: MILL[1] + 1.5, r: 12 }];
+  const footprints: Array<{ x: number; z: number; r: number }> = [{ x: STORE[0], z: STORE[1], r: 19 }, { x: GRANARY[0], z: GRANARY[1], r: 16 }, ...HOUSE_LOTS.map((l) => ({ x: l.x, z: l.z, r: 12 })), { x: MOSQUE[0], z: MOSQUE[1] - 6, r: 20 }, { x: MILL[0], z: MILL[1] + 1.5, r: 12 }, { x: ESTATE.x, z: ESTATE.z, r: 21 }];
   const built = (x: number, z: number, margin = 0) => footprints.some((f) => Math.hypot(f.x - x, f.z - z) < f.r + margin);
 
   // The mosque, its court to the north of the hall. The mill at the tail of the west branch, and its wheel.
@@ -642,9 +664,33 @@ export function buildScenery(seed: number, options: { authoredTown?: boolean } =
   const wallTint: Rgb = [0.86, 0.6, 0.44];
   crown.forEach((p, i) => {
     const q = crown[(i + 1) % crown.length]!;
-    curtain(set, p, q, seed, 9, wallTint);
-    tower(set, p[0], y(p[0], p[1]) - 2, p[1], 9 + (i % 3), 19 + ((i * 5) % 7), (i / 14) * Math.PI * 2, wallTint);
+    if (!authoredHill) {
+      curtain(set, p, q, seed, 9, wallTint);
+      tower(set, p[0], y(p[0], p[1]) - 2, p[1], 9 + (i % 3), 19 + ((i * 5) % 7), (i / 14) * Math.PI * 2, wallTint);
+      return;
+    }
+    // The kit's wall, a piece every twelve and a half metres, each standing on its own ground and facing out.
+    const l = Math.hypot(q[0] - p[0], q[1] - p[1]);
+    const n = Math.max(1, Math.round(l / 12.5));
+    const along = Math.atan2(-(q[1] - p[1]), q[0] - p[0]);
+    const outward = Math.sin(along) * ((p[0] + q[0]) / 2 - HILL.x) + Math.cos(along) * ((p[1] + q[1]) / 2 - HILL.z) >= 0;
+    const yaw = outward ? along : along + Math.PI;
+    for (let k = 0; k < n; k++) {
+      const t = (k + 0.5) / n;
+      const wx = p[0] + (q[0] - p[0]) * t;
+      const wz = p[1] + (q[1] - p[1]) * t;
+      const gate = i === HILL_GATE && k === Math.floor(n / 2);
+      kit.push({ piece: gate ? "gate" : "wall", x: wx, y: y(wx, wz) - 2.2, z: wz, yaw, scale: 1.25, sx: gate ? 1 : l / n / 12.5, tint: [1, 1, 1], lot: null });
+      // Scaffolding against the outer face of the stretch beside the gate, where the wall is being raised.
+      if (i === HILL_GATE - 1 && k >= n - 3) kit.push({ piece: "scaffold", x: wx + Math.sin(yaw) * 2.4, y: y(wx, wz) - 1.0, z: wz + Math.cos(yaw) * 2.4, yaw: yaw + Math.PI, scale: 1.2, tint: [1, 1, 1], lot: null });
+      if (i === HILL_GATE - 1 && k === n - 2) kit.push({ piece: "crane", x: wx + Math.sin(yaw) * 9, y: y(wx + Math.sin(yaw) * 9, wz + Math.cos(yaw) * 9) - 0.3, z: wz + Math.cos(yaw) * 9, yaw: yaw + Math.PI, scale: 1.5, tint: [1, 1, 1], lot: null });
+    }
+    kit.push({ piece: "tower", x: p[0], y: y(p[0], p[1]) - 2.5, z: p[1], yaw: (i / 14) * Math.PI * 2, scale: 1.5 + (i % 3) * 0.12, tint: [1, 1, 1], lot: null });
   });
+  if (authoredHill) {
+    kit.push({ piece: "palace", x: HILL.x, y: y(HILL.x, HILL.z) - 0.4, z: HILL.z, yaw: -Math.PI / 2 - 0.25, scale: 1, tint: [1, 1, 1], lot: null });
+    kit.push({ piece: "estate", x: ESTATE.x, y: Math.min(y(ESTATE.x - 9, ESTATE.z - 13), y(ESTATE.x + 9, ESTATE.z + 13), y(ESTATE.x, ESTATE.z)) - 0.1, z: ESTATE.z, yaw: ESTATE.yaw, scale: 1, tint: [1, 1, 1], lot: null });
+  }
   for (let i = 0; i < 9; i++) {
     const a = rng.range(0, Math.PI * 2);
     const d = rng.range(0, 70);
@@ -654,8 +700,11 @@ export function buildScenery(seed: number, options: { authoredTown?: boolean } =
     const dd = rng.range(14, 24);
     const hh = rng.range(9, 17);
     const f = frame(cx, y(cx, cz) - 2, cz, rng.range(-0.4, 0.4));
-    townHouse(set, frame(cx, y(cx, cz), cz, rng.range(-0.4, 0.4)), w, dd, hh + 2, [wallTint[0] * 1.08, wallTint[1] * 1.12, wallTint[2] * 1.14], [0.7, 0.36, 0.22]);
+    const hallYaw = rng.range(-0.4, 0.4);
     void f;
+    // With the palace standing on the hill's top, the halls the valley used to make there are not made.
+    if (authoredHill) continue;
+    townHouse(set, frame(cx, y(cx, cz), cz, hallYaw), w, dd, hh + 2, [wallTint[0] * 1.08, wallTint[1] * 1.12, wallTint[2] * 1.14], [0.7, 0.36, 0.22]);
     if (i < 3) tower(set, cx + w / 2, y(cx, cz) - 2, cz - dd / 2, 8, hh + 12, f.cos, wallTint);
   }
   for (let i = 0; i < 150; i++) {

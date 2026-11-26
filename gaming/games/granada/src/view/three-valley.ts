@@ -22,6 +22,8 @@ import { MODELS_AVAILABLE, disposeModel, disposeSharedMaterials, loadModel } fro
  * new folder, and a release that is rolled back to still finds the set it was made for.
  */
 const MODEL_SET = "granada/2/";
+/** The pieces the hill needs before the valley stops making its own wall, towers and halls there. */
+const HILL_PIECES = ["wall", "tower", "gate", "scaffold", "crane", "palace", "estate"];
 import { CHANNELS, FIELDS, GRANARY, HOUSE_LOTS, KIT_HOUSES, MARKET, PLOT_GRID, POOL, STORE, VILLAGE, broadTree, buildLand, buildRange, buildRiver, buildScenery, channelWater, cropSpots, cypressTree, fieldAt, fieldGround, heightAt, oliveTree, orchardTree, plotTable, poolWater, poplarTree, vegetablePlant, wheatTuft, type Chunk , type KitPlacement } from "./valley";
 
 export type Quality = "low" | "high";
@@ -167,6 +169,7 @@ export class ValleyRenderer {
   private codeMill: THREE.Mesh[] = [];
   private millModel: THREE.Object3D | null = null;
   private townModel: THREE.Object3D | null = null;
+  private landmarksModel: THREE.Object3D | null = null;
   private millWheel: THREE.Object3D | null = null;
   private readonly models: string[] = [];
   private readonly modelFailures: string[] = [];
@@ -306,7 +309,8 @@ export class ValleyRenderer {
     // The town's houses are models made ahead of time, where the host has them; the valley is then built without
     // houses of its own and told where each one stands. Without them it makes its houses itself, as before.
     const town = options.models && MODELS_AVAILABLE ? await this.loadTown() : null;
-    const scenery = buildScenery(seed, { authoredTown: town !== null });
+    const hill = town !== null && HILL_PIECES.every((name) => town.has(name));
+    const scenery = buildScenery(seed, { authoredTown: town !== null, authoredHill: hill });
     addChunks(scenery.chunks);
     this.meadowStone = addChunks(scenery.meadowChannel);
     this.houses = scenery.houses.map((h) => addChunks(h));
@@ -539,20 +543,31 @@ export class ValleyRenderer {
   /** Fetches the town kit and returns, for each piece, the shapes and surfaces it is made of. Null if it cannot be had. */
   private async loadTown(): Promise<Map<string, Array<{ geometry: THREE.BufferGeometry; material: THREE.Material }>> | null> {
     try {
-      const model = await loadModel(`${MODEL_SET}town.gltf`);
       const pieces = new Map<string, Array<{ geometry: THREE.BufferGeometry; material: THREE.Material }>>();
-      for (const name of KIT_HOUSES) {
-        const node = model.getObjectByName(name);
-        if (!node) throw new Error(`the kit has no ${name}`);
-        const parts: Array<{ geometry: THREE.BufferGeometry; material: THREE.Material }> = [];
-        node.traverse((o) => {
-          const m = o as THREE.Mesh;
-          if (m.isMesh) parts.push({ geometry: m.geometry, material: m.material as THREE.Material });
-        });
-        pieces.set(name, parts);
-      }
+      const take = (model: THREE.Object3D) => {
+        for (const node of model.children) {
+          const parts: Array<{ geometry: THREE.BufferGeometry; material: THREE.Material }> = [];
+          node.traverse((o) => {
+            const m = o as THREE.Mesh;
+            if (m.isMesh) parts.push({ geometry: m.geometry, material: m.material as THREE.Material });
+          });
+          if (parts.length) pieces.set(node.name, parts);
+        }
+      };
+      const model = await loadModel(`${MODEL_SET}town.gltf`);
+      take(model);
+      for (const name of KIT_HOUSES) if (!pieces.has(name)) throw new Error(`the kit has no ${name}`);
       this.townModel = model;
       this.models.push("granada/town");
+      // The larger pieces are a file of their own. Without it the hill keeps the wall and halls the valley makes.
+      try {
+        const larger = await loadModel(`${MODEL_SET}landmarks.gltf`);
+        take(larger);
+        this.landmarksModel = larger;
+        this.models.push("granada/landmarks");
+      } catch (e) {
+        this.modelFailures.push(`granada/landmarks: ${e instanceof Error ? e.message : String(e)}`);
+      }
       return pieces;
     } catch (e) {
       this.modelFailures.push(`granada/town: ${e instanceof Error ? e.message : String(e)}`);
@@ -566,7 +581,7 @@ export class ValleyRenderer {
     const set = (p: KitPlacement) => {
       at.position.set(p.x, p.y, p.z);
       at.rotation.set(0, p.yaw, 0);
-      at.scale.setScalar(p.scale);
+      at.scale.set(p.scale * (p.sx ?? 1), p.scale, p.scale);
       at.updateMatrix();
       return at.matrix;
     };
@@ -986,6 +1001,7 @@ export class ValleyRenderer {
     this.disposed = true;
     if (this.millModel) disposeModel(this.millModel);
     if (this.townModel) disposeModel(this.townModel);
+    if (this.landmarksModel) disposeModel(this.landmarksModel);
     disposeSharedMaterials();
     for (const d of this.disposables) d.dispose();
     this.pipeline?.dispose();
