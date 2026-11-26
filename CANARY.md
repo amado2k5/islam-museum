@@ -14,6 +14,8 @@ open a new block on top with the new version and today's date.
 ---
 
 ## v2.31.0 — 2026-11-24
+### Fixed
+- **Two reading-step links on the "for you" pages no longer lead to "page not found", in all seven languages.** "Islam in 30 minutes" (on the pages for the curious and for passers-by) and "The New Muslims, a trail" (on the pages for new Muslims and for the five-minute visitor) pointed to `/<lang>/exhibit/…`, but exhibit pages live at `/<lang>/exhibits/…`; both now point to the right address.
 ### Added
 - **The experimental single-job build now answers the same "which parts" question as the per-language jobs.** In `single` mode, `build (all languages)` reads the `languages` input and the branch's `ALL_LANGS` list the same way the matrix jobs do: a part that was not asked for, or a language this branch does not have, is not packed and gets no `dist-lang-*`, `sitemap-lang-*` or `dist-shared` artifact — so the deploy gates see exactly what a split-mode run would show them. astro still renders the whole site in one pass; only the packing and uploads are selective.
 - **Experimental build can now render the whole site in one job.** `Build islam.museum by language (experimental)` gains a `mode` input: `split` keeps the per-language matrix; `single` runs a new `build (all languages)` job that renders every language in one astro build (the way the monolithic build does) and splits the result into the same `dist-lang-*`, `sitemap-lang-*` and `dist-shared` artifacts. The matrix jobs pass through in seconds so the deploy gates keep their `build (<lang>)` names — a single-mode run is deployable exactly like a split one.
