@@ -230,10 +230,13 @@ async function main(): Promise<void> {
     const cards = fieldCards(sc, state);
     const branches: Record<string, "flowing" | "weak" | "none"> = {};
     const fields: ValleyLook["fields"] = {};
+    // A field is shown with people at work in it from the moment its harvest is ordered until the day after the last
+    // of it is in: with hands enough, the rules bring a small field in within the day, and that day's work is shown.
+    const gathered = new Set((state.last?.events ?? []).filter((e) => e.startsWith("harvested:")).map((e) => e.split(":")[1]!));
     for (const f of cards) {
       branches[f.branch.id] = f.branch.state;
       const ripe = f.stage === "ripe" || f.stage === "harvesting";
-      fields[f.id] = { crop: f.crop, growth: f.stage === "growing" ? f.growth / 100 : f.crop ? 1 : 0, standing: f.stage === "growing" ? 1 : ripe && f.yielded > 0 ? f.standing / f.yielded : 0, ripe };
+      fields[f.id] = { crop: f.crop, growth: f.stage === "growing" ? f.growth / 100 : f.crop ? 1 : 0, standing: f.stage === "growing" ? 1 : ripe && f.yielded > 0 ? f.standing / f.yielded : 0, ripe, harvesting: f.stage === "harvesting" || gathered.has(f.id) };
     }
     return {
       season: stocks(sc, state).season,
