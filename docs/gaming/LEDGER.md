@@ -427,6 +427,18 @@ tools/qa-package.py seal …                                25,665,672 bytes, 88
 
 The first run on the unpacked copy stopped at Granada's opening brief (no start button found); five later runs passed and the cause is not known ([`external-review.md`](external-review.md)). Asked whether Cloudflare was blocking the reviewer, the host was questioned as six kinds of client, ChatGPT's among them: 200 to each.
 
+### The twenty-eighth pull request: the Atlas globe that seemed to vanish between rounds (26 November 2026 UTC)
+
+The first defect found in any game by someone other than its author: an AI reviewer driving Chrome on the founder's Mac, on UAT release `20261125-e2930d63426` (DEF-AT-001 in its report).
+
+```
+tools/atlas-play.ts, the reviewer's steps, before the fix   failed: "the round after a close reveal opened zoomed in 9 times, on the last answer, and not on the whole globe"
+the same, after the fix                                     passes; round 3 opens on the whole globe
+npm --prefix gaming test                                    255 passed (Atlas: 60)
+```
+
+The author's own play script had never met it because it reloads the page after round 2.
+
 ## Measurements
 
 The engine numbers and their conditions are in [G-0002](adr/G-0002-rendering-engine.md) and the [M1 report](m1-graphics-spike.md). They are for one Apple M4 Max in Chrome 158 and are not a hardware recommendation.
@@ -481,6 +493,8 @@ The full district at the end is about 1.56 million triangles and about 950 draw 
 - The mill's files on UAT: [`evidence/release/uat-models-upload.json`](evidence/release/uat-models-upload.json).
 
 - The fifth UAT release checked in Chrome: [`evidence/release/uat-release-5-en.json`](evidence/release/uat-release-5-en.json) and the same in Arabic; Granada reports the authored mill loaded.
+
+- Atlas's blank round, before and after: [`evidence/atlas/blank-round/`](evidence/atlas/blank-round/).
 
 ## Unresolved defects and known limits
 

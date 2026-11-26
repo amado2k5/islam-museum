@@ -29,6 +29,30 @@ Every round is a museum record joined to the museum place where it happened; the
 
 **What was left out, and why** (`gaming/games/atlas/data/report.v1.json`): 1,073 places whose coordinates the museum marks as approximate; 951 that are regions, provinces, rivers or mountains; 1,429 events and 1,087 people's birthplaces or places of death that fall on one of those; 334 events with more than one place; 203 events with no start year, 438 people with no birth year and 150 with no year of death; 866 people born after 1900; 240 birthplaces or places of death marked low confidence; and 33 events and 28 people the game does not turn into questions (massacre, persecution, expulsion, the events of revelation, schism, and any record with a `sensitivity` field).
 
+## A defect found by an outside reviewer, and fixed: the globe that seemed to vanish (26 November 2026)
+
+**Found** on UAT release `20261125-e2930d63426` by an AI reviewer driving Chrome on the founder's Mac, in the daily game of 26 November 2026: after round 2 it chose "Next round" and the whole globe was a flat beige blank until the page was reloaded. It was the first fault in any of the games found by someone other than their author.
+
+**Reproduced** with the reviewer's own steps (round 2 answered at 42.8° N, 74.3° E, 149 km from the place):
+
+![Round 3 as it opened](../evidence/atlas/blank-round/before-round-3.webp)
+
+**What it was.** Not the renderer failing. A reveal comes in close when the guess is close, here nine times. The next round kept that view. Deep in Central Asia there is no coast in sight at that size, so the screen was nothing but the colour of land, in the lit globe and in the drawn one alike. The lines of latitude and longitude that would have shown it was still a globe were drawn under the land, where they could not be seen.
+
+**Why the author's own check never met it:** the play script reloads the page after round 2, to test that a game resumes, and a reload begins from the whole globe. The reviewer said as much: a reload masked it.
+
+**Fixed, in three parts:**
+
+- Every round begins from the same whole view of the globe. (It is also fairer: where the last answer was is no hint for the next.)
+- The net of latitude and longitude is drawn over land as well as sea, and a finer one, every two degrees, when the globe is brought close; no view is featureless, however far in.
+- `Home` (or `0`) turns the globe back to the whole view at any time.
+
+![Round 3 now](../evidence/atlas/blank-round/after-round-3.webp)
+
+**Kept from happening again:** `tools/atlas-play.ts` now plays the reviewer's steps without a reload between the rounds, and fails if the round after a close reveal opens zoomed in. Before the fix it failed with "opened zoomed in 9 times".
+
+Not done: the hundred transitions and twenty-five practice rounds the reviewer asks for; a lost graphics device, which is a different fault and still has no recovery.
+
 ## Fair rounds (25 November 2026)
 
 Atlas scores a guess against the place a record is tied to. Some of the museum's events are tied to the nearest city and not to the field where they happened, and a player who pinned the place the question named was marked wrong for it. The corrective work (piece 7 of [`../traceability.md`](../traceability.md)) asked that such rounds be kept out of scoring until looked at.
@@ -94,7 +118,7 @@ Not done on it: terrain, rivers, any map of a past age; a view with perspective;
 
 | Check | Result |
 |---|---|
-| Unit tests, `npm --prefix gaming test` | 59 Atlas tests pass (four hold the lit sphere to the drawn globe's projection; seven hold the fairness rule, the shipped pack to it, and the day's free slot). 16 are the image rule on records written for the tests (what is accepted, each reason for refusal, the image hosts read from the content security policy, and when there are enough pictures for a schedule); they test the rule, not any screen, because there is none. The other 32: distance at the antimeridian and the poles, century counting, scoring monotonic, pack digest, names in seven languages, the people rule, **every one of 365 days valid**, a broken schedule caught, UTC day counting over month ends and leap days, a full game, hint cost, immutability, share marks, practice dealing, save round trip, unreadable and newer saves, damaged entries, games from another pack not resumed, and the seven string files holding the same keys and placeholders with no typed honorific |
+| Unit tests, `npm --prefix gaming test` | 60 Atlas tests pass (four hold the lit sphere to the drawn globe's projection; seven hold the fairness rule, the shipped pack to it, and the day's free slot). 16 are the image rule on records written for the tests (what is accepted, each reason for refusal, the image hosts read from the content security policy, and when there are enough pictures for a schedule); they test the rule, not any screen, because there is none. The other 32: distance at the antimeridian and the poles, century counting, scoring monotonic, pack digest, names in seven languages, the people rule, **every one of 365 days valid**, a broken schedule caught, UTC day counting over month ends and leap days, a full game, hint cost, immutability, share marks, practice dealing, save round trip, unreadable and newer saves, damaged entries, games from another pack not resumed, and the seven string files holding the same keys and placeholders with no typed honorific |
 | Real browser, `npx tsx tools/atlas-play.ts <dir> <lang>`, Chrome 158 | A full daily game in each of the seven languages: mouse, keyboard only, typed coordinates, region hint, century estimate, reload in mid-game, unreadable save set aside; no console error (`evidence/m2/atlas/playthrough-7-languages.md`). Totals differ between left-to-right and right-to-left runs because the script clicks fixed pixels and the globe sits on the other side of the window; the rules are the same |
 | Image survey, `npm --prefix gaming run atlas:images` | Every one of the 895 media records given one verdict: 12 accepted (4 for the question as asked, 8 under a held licence), 883 refused with a counted reason. The four accepted records were read by the agent; the pictures themselves were not opened, and no licence was checked beyond what the record states |
 

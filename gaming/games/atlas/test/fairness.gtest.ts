@@ -108,3 +108,18 @@ describe("the free slot of a day", () => {
     expect(LANGS.length).toBe(7);
   });
 });
+
+describe("the view a round begins from", () => {
+  it("is the whole globe, whatever the last reveal came in to", async () => {
+    const { HOME_VIEW, REVEAL_ZOOM, revealZoom } = await import("../src/geo");
+    // A guess 149 km from its answer (the round a reviewer answered before the globe seemed to vanish).
+    expect(revealZoom(149 / 6371)).toBe(REVEAL_ZOOM.most);
+    // A guess a quarter of the world away keeps the whole globe.
+    expect(revealZoom(Math.PI / 2)).toBe(REVEAL_ZOOM.least);
+    expect(revealZoom(0.3)).toBeCloseTo(3, 5);
+    // The view a round begins from shows the whole disc: less than twice the first size, never the reveal's.
+    expect(HOME_VIEW.zoom).toBeLessThan(2);
+    expect(HOME_VIEW.zoom).toBeLessThan(REVEAL_ZOOM.most / 4);
+    expect(Math.abs(HOME_VIEW.lat)).toBeLessThanOrEqual(90);
+  });
+});
