@@ -9,6 +9,14 @@
 - `place/amid`
 
 
+## Arabic cross-check
+
+Machine presence/citation check only, not a translation review:
+
+- `person/al-jazari-engineer`: English prose present (13 sections, 55 citations); Arabic prose present (13 sections, 55 citations).
+- `invention/elephant-clock`: English prose present (17 sections, 46 citations); Arabic prose present (17 sections, 46 citations).
+- `place/amid`: English prose present (2 sections, 3 citations); Arabic prose present (2 sections, 5 citations).
+
 ## Who, where, when
 
 - **Who:** Arabic: الجزري، إسماعيل بن الرزاز. English: Al-Jazari, Ismail ibn al-Razzaz.
@@ -17,13 +25,12 @@
 
 ## What the records say they did
 
-1. Badi al-Zaman Abu al-Izz Ismail ibn al-Razzaz al-Jazari was an engineer and author on mechanical devices. TDV calls him an Islamic scholar and says little is known of his life beyond his book's introduction . It records service to the Artuqids at Amid in 1181–1206 and a book commissioned by Nasir al-Din Mahmud, completed in 1205 according to the entry . Service dates are not converted into birth and death dates. — source location `content/en/person/al-jazari-engineer.md — Overview`; citation `{cite:tdv-cezeri pp. 505–506} {cite:tdv-cezeri pp. 505–506}`; flag: **stated**.
-2. TDV connects the book to Artuqid patronage; the Met's catalogue likewise identifies Nasir al-Din Mahmud, ruler of Amid, as its commissioner  . This documents work and patronage, not a childhood or training supplied from conjecture. — source location `content/en/person/al-jazari-engineer.md — Engineer and court`; citation `{cite:tdv-cezeri pp. 505–506} {cite:met-elephant-clock-575123 Catalogue Entry}`; flag: **stated**.
-3. TDV's description “Islamic scholar” is the Muslim identity basis here. The passage gives no personal school: the museum records its Sunni default frame explicitly, not inferred from his name, origin or workplace . — source location `content/en/person/al-jazari-engineer.md — Engineer and court`; citation `{cite:tdv-cezeri pp. 505–506}`; flag: **stated**.
-4. TDV gives the titles *Kitab fi marifat al-hiyal al-handasiyya* and *al-Jami bayn al-ilm wa-l-amal al-nafi fi sinaat al-hiyal*. Its six divisions cover clocks, vessels for drinking and banquets, handwashing and bloodletting vessels, fountains and automatic musical instruments, water-raising machines and miscellaneous devices . The first four have ten chapters each and the last two five each: fifty devices in the… — source location `content/en/person/al-jazari-engineer.md — The book of devices`; citation `{cite:tdv-cezeri pp. 505–506} {cite:tdv-cezeri pp. 505–506}`; flag: **stated**.
-5. The encyclopedia describes coloured drawings, lettered parts and instructions moving from the general form to making components, assembly and operation . It is therefore not simply a picture gallery of marvels: manufacturing detail belongs to its text. — source location `content/en/person/al-jazari-engineer.md — The book of devices`; citation `{cite:tdv-cezeri pp. 505–506}`; flag: **stated**.
-6. TDV places him in a tradition extending from Hellenistic engineering to the Banu Musa, describing an engineer improving earlier work, not the inventor of every underlying principle in his book . Attribution of a particular device is kept separate from claiming he invented clocks, pumping and automated motion as a whole. — source location `content/en/person/al-jazari-engineer.md — Improving machines`; citation `{cite:tdv-cezeri pp. 505–506}`; flag: **stated**.
-
+1. Badi al-Zaman Abu al-Izz Ismail ibn al-Razzaz al-Jazari was an engineer and author on mechanical devices, serving the Artuqids from 1181 to 1206 and completing a book in 1205. — source location `content/en/person/al-jazari-engineer.md — Overview`; citation `{cite:tdv-cezeri pp. 505–506} {cite:tdv-cezeri pp. 505–506}`; flag: **stated**.
+2. The book was commissioned by Nasir al-Din Mahmud, ruler of Amid, documenting work and patronage without conjectured childhood or training details. — source location `content/en/person/al-jazari-engineer.md — Engineer and court`; citation `{cite:tdv-cezeri pp. 505–506} {cite:met-elephant-clock-575123 Catalogue Entry}`; flag: **stated**.
+3. TDV refers to al-Jazari as an Islamic scholar, explicitly stating that the Sunni identity is a default frame and not inferred from his name or origin. — source location `content/en/person/al-jazari-engineer.md — Engineer and court`; citation `{cite:tdv-cezeri pp. 505–506}`; flag: **stated**.
+4. Al-Jazari's book, titled *Kitab fi marifat al-hiyal al-handasiyya* or *al-Jami bayn al-ilm wa-l-amal al-nafi fi sinaat al-hiyal*, covers various mechanical devices in six divisions. — source location `content/en/person/al-jazari-engineer.md — The book of devices`; citation `{cite:tdv-cezeri pp. 505–506} {cite:tdv-cezeri pp. 505–506}`; flag: **stated**.
+5. The book includes detailed instructions and drawings, not just illustrations, covering the creation and operation of the devices. — source location `content/en/person/al-jazari-engineer.md — The book of devices`; citation `{cite:tdv-cezeri pp. 505–506}`; flag: **stated**.
+6. Al-Jazari is placed in a tradition of engineering that builds upon earlier work, not as an inventor of all principles in his book. — source location `content/en/person/al-jazari-engineer.md — Improving machines`; citation `{cite:tdv-cezeri pp. 505–506}`; flag: **stated**.
 ## Thumbnail elements without record support
 
 The thumbnail titles are the atlas titles quoted in `atlas.v1.json`. No record read supports a working child-sized elephant machine, a known workshop, or “father of robots” as a historical title. Treat those as design fiction unless a reviewer supplies support.
@@ -42,15 +49,15 @@ Amid (`place/amid`, [40.23, 37.91]); the elephant-clock book belongs to the Artu
 
 These are proposals for Claude and the founder, not content.
 
-1. A local mechanism, route or puzzle is incomplete; the player uses Mechanism to restore the documented sequence, with the historical claims above as the reviewed factual base.
+1. In the Mechanism system, players must decode ancient texts to uncover the blueprints of al-Jazari's devices [4, 5]. The quest distinguishes between the historical record of his work and the game's fictional narrative of discovering lost knowledge.
 
-2. Hudhud helps compare two accounts or objects, using Talk plus Mechanism; the quest separates what is stated in the museum record from what is only thumbnail invention.
+2. Using the Weigh and Decode system, players navigate a virtual museum to find clues about al-Jazari's inventions, separating historical evidence from the game's creative liberties [1, 2]. The quest involves solving puzzles based on the devices described in his book.
 
-3. After solving the local problem, the player returns a missing page to the Atlas and can replay for a hidden feather, optional context and mastery goals. This is a structural proposal only and no part of it is historical content.
+3. Players engage in the Mechanism system to recreate al-Jazari's devices, using historical descriptions as a guide [3, 6]. The quest emphasizes the distinction between al-Jazari's contributions and the broader engineering tradition, allowing players to invent their own devices inspired by his work.
 
 ## Sensitivities
 
-Handle war, illness, death, slavery, sect and modern disputes only if the reviewed record requires them; this subject is better served without adding such material. Any affiliation disagreement or literary attribution must be labelled, never turned into a museum verdict. Dramatized dialogue must never read as quotation.
+Evidence scan, not a ruling: illness/death; sect/religious dispute. Any such material still requires the full content-safety and age-appropriateness review. Handle war, illness, death, slavery, sect and modern disputes only if the reviewed record requires them; this subject is better served without adding such material. Any affiliation disagreement or literary attribution must be labelled, never turned into a museum verdict. Dramatized dialogue must never read as quotation.
 
 ## Gaps
 

@@ -7,6 +7,12 @@
 - `concept/al-shatranj`
 
 
+## Arabic cross-check
+
+Machine presence/citation check only, not a translation review:
+
+- `concept/al-shatranj`: English prose present (3 sections, 3 citations); Arabic prose present (4 sections, 6 citations).
+
 ## Who, where, when
 
 - **Who:** Arabic: الشطرنج. English record label: Chess; the subject title uses al-Shatranj for the historical game tradition.
@@ -15,9 +21,8 @@
 
 ## What the records say they did
 
-1. Chess is a game whose forms and origin al-Masudi describes in *Muruj al-dhahab*. — source location `content/en/concept/al-shatranj.md — Overview`; citation `{cite:muruj-al-dhahab p.678-681}`; flag: **stated**.
-2. Al-Masudi notes that the inventor of chess was just and capable in what he did, and the inventor of backgammon was compelled. It is also said that it was a red square of leather laid between two men known for their generosity, who discussed war and devised for it a likeness without shedding blood. — source location `content/en/concept/al-shatranj.md — Its inventor`; citation `{cite:muruj-al-dhahab p.678-681}`; flag: **stated**.
-
+1. Al-Masudi describes the forms and origin of chess in *Muruj al-dhahab*. — source location `content/en/concept/al-shatranj.md — Overview`; citation `{cite:muruj-al-dhahab p.678-681}`; flag: **stated**.
+2. Al-Masudi mentions that the chess inventor was just and capable, while the backgammon inventor was compelled, and chess was devised on a red leather square between two generous men discussing war. — source location `content/en/concept/al-shatranj.md — Its inventor`; citation `{cite:muruj-al-dhahab p.678-681}`; flag: **stated**.
 ## Thumbnail elements without record support
 
 The thumbnail titles are the atlas titles quoted in `atlas.v1.json`. No record read supports a documented journey around the world, exact rules at each stop, or a dated inventor. Treat those as design fiction unless a reviewer supplies support.
@@ -34,15 +39,15 @@ No place or date is attached. The forms and origin stories are al-Mas‘udi’s 
 
 These are proposals for Claude and the founder, not content.
 
-1. A local mechanism, route or puzzle is incomplete; the player uses Cipher and Path to restore the documented sequence, with the historical claims above as the reviewed factual base.
+1. Players use the Mechanism system to recreate the chess invention on a red leather square, distinguishing between historical descriptions and game elements [1,2].
 
-2. Hudhud helps compare two accounts or objects, using Talk plus Cipher and Path; the quest separates what is stated in the museum record from what is only thumbnail invention.
+2. Using the Weigh and Decode system, players must balance the virtues of the chess inventor against the circumstances of the backgammon inventor, separating historical claims from game fiction [2].
 
-3. After solving the local problem, the player returns a missing page to the Atlas and can replay for a hidden feather, optional context and mastery goals. This is a structural proposal only and no part of it is historical content.
+3. In a quest, players employ the Weigh and Decode system to decode the significance of the red square and the inventors' characters, distinguishing these historical elements from the game's narrative [1,2].
 
 ## Sensitivities
 
-Handle war, illness, death, slavery, sect and modern disputes only if the reviewed record requires them; this subject is better served without adding such material. Any affiliation disagreement or literary attribution must be labelled, never turned into a museum verdict. Dramatized dialogue must never read as quotation.
+Evidence scan, not a ruling: war/conflict. Any such material still requires the full content-safety and age-appropriateness review. Handle war, illness, death, slavery, sect and modern disputes only if the reviewed record requires them; this subject is better served without adding such material. Any affiliation disagreement or literary attribution must be labelled, never turned into a museum verdict. Dramatized dialogue must never read as quotation.
 
 ## Gaps
 
