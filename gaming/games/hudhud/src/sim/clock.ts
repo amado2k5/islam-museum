@@ -4,7 +4,10 @@
 import { run as runChain, stand, swap, type ChainPuzzle, type Run } from "./chain";
 
 export type ClockStyle = "story" | "explorer" | "challenge";
-export const CLOCK_FLAGS = ["askedFloat", "askedBalls", "kind", "feather"] as const;
+// `kind` is a goal: the apprentice was answered kindly. `answered` is only that he was answered at all, kindly or not,
+// so that the question is not asked again after a resume. A snapshot kept before `answered` existed has none, and is
+// still good: an apprentice answered kindly is `kind` alone, and the answer a blunt one got is asked again.
+export const CLOCK_FLAGS = ["askedFloat", "askedBalls", "kind", "feather", "answered"] as const;
 export type ClockFlag = (typeof CLOCK_FLAGS)[number];
 
 export interface ClockState {

@@ -57,6 +57,14 @@ main:focus { outline: none; }
 .hub > h2 { margin: 6px 0 2px; text-align: center; font-size: clamp(1.5rem, 3.4vw, 2.4rem); color: var(--gold); }
 .hub > p { text-align: center; margin: 6px auto; max-width: 70ch; }
 .hub .progress { font-weight: 700; }
+/* The Atlas laid open: a picture that is also a way to a world's list, and the numbered buttons that do the same. */
+.hub .book { max-width: 1000px; margin: 10px auto; }
+.hub .book p { margin: 6px 0; text-align: center; }
+.book-art { display: block; width: 100%; aspect-ratio: 1000 / 460; border: 2px solid var(--line); border-radius: 14px; cursor: pointer; background: #050d1e; }
+.book-worlds { display: flex; flex-wrap: wrap; justify-content: center; gap: 8px; }
+.book-world { min-width: 44px; min-height: 44px; font-weight: 700; }
+.world h3 { scroll-margin-top: 12px; }
+.world h3:focus { outline: 3px solid var(--gold); outline-offset: 4px; border-radius: 6px; }
 .worlds { display: grid; gap: 14px; grid-template-columns: repeat(auto-fit, minmax(270px, 1fr)); margin-block: 16px; }
 .world { padding: 12px 16px; background: var(--panel); border: 1px solid var(--line); border-radius: 14px; }
 .world h3 { margin: 0 0 8px; font-size: 1rem; color: var(--gold); }
