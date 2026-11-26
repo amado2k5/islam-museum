@@ -193,7 +193,8 @@ if plan_file.exists() and inventory_file.exists():
         o.append("| | Work | Phase | Depends on | Estimate | It is done when | It waits on |")
         o.append("|---|---|---:|---|---|---|---|")
         for x in mine:
-            o.append(f"| {x['id']} | {cell(x['title'])} | {x['phase']} | {', '.join(x['dependsOn']) or 'nothing'} | {sessions(x)} | {cell(x['gate'])} | {cell(x['waitsOn'])} |")
+            done = f" **Done:** {cell(x['done'])}." if x.get("done") else ""
+            o.append(f"| {x['id']} | {cell(x['title'])}{done} | {x['phase']} | {', '.join(x['dependsOn']) or 'nothing'} | {sessions(x)} | {cell(x['gate'])} | {cell(x['waitsOn'])} |")
         o.append("")
     pages[PROD / "production-plan.md"] = "\n".join(o)
 

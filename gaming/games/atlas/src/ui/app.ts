@@ -260,6 +260,8 @@ async function main(): Promise<void> {
       el("p", { class: "kicker", textContent: within ? strings.result_within : t("result_km", { km: num(result.km) }) }),
       result.centuryError === null ? null : el("p", { class: "note", textContent: result.centuryError === 0 ? strings.century_right : t("century_off", { n: result.centuryError }) }),
       el("div", { class: "links" }, el("a", { href: recordUrl(round.id), target: "_blank", rel: "noopener", textContent: strings.open_record }), el("a", { href: recordUrl(place.id), target: "_blank", rel: "noopener", textContent: strings.open_place })),
+      // The record's place and year are shown as the museum has them; no historian has yet reviewed them for this game.
+      el("p", { class: "note", textContent: strings.review_pending }),
       next,
     );
     say(`${t("result_points", { points: num(result.points) })}. ${within ? strings.result_within : t("result_km", { km: num(result.km) })}`);

@@ -101,7 +101,7 @@ By the estimates, the engineering and art on this chain come to 41 to 76 session
 | H2 | Granada's scenarios and campaign written from the museum's records | 2 | H1 | 4 to 6 | Every claim cites a museum record; fiction is labelled | Named reviewers |
 | H3 | The Golden Age's Baghdad: what may be said of the city and its institutions, from the museum's records | 3 | H1 | 4 to 6 | Every claim cites a museum record; the district stays fictional and labelled until review | Named reviewers |
 | H4 | Atlas's clues, themed collections and overlays from the museum's records; the picture collection: 48 more pictures through the museum's own media work, each through the ten requirements | 4 | H1 | 6 to 10 | 52 pictures that qualify before a weekly picture round is scheduled; three clues a round, none naming the answer | The museum's media; the held V&A images; named reviewers for boundaries |
-| H5 | The words 'historical review pending' on the games' own pages wherever history is stated or linked, and the founder's sentence for The Golden Age, in seven languages | 1 | H1 | 1 to 2 | Every page of a game that states or links history carries the mark; the strings check passes; a release to UAT | The founder's word for the UAT release |
+| H5 | The words 'historical review pending' on the games' own pages wherever history is stated or linked, and the founder's sentence for The Golden Age, in seven languages **Done:** 26 November 2026, in the games' strings and a test; on UAT with the next release. | 1 | H1 | 1 to 2 | Every page of a game that states or links history carries the mark; the strings check passes; a release to UAT | The founder's word for the UAT release |
 
 ## Accessibility and localization (14 to 22 sessions)
 
