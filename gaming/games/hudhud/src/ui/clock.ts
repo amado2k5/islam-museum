@@ -53,7 +53,7 @@ export function clockQuest(host: ClockHost): ClockQuest {
   let shown = 0; // how many steps of the last run have been shown
   let timer = 0;
   let running = false;
-  let answered = state.flags.includes("kind"); // the apprentice has been answered, kindly or not
+  let answered = state.flags.includes("answered") || state.flags.includes("kind"); // the apprentice has been answered, kindly or not
 
   const part = (id: string | null) => (id ? t(`ck_part_${id}` as Key) : t("ck_empty"));
   const list = (ids: string[]) => ids.map(part).join(host.lang === "ar" || host.lang === "ur" ? "، " : ", ");
@@ -99,8 +99,9 @@ export function clockQuest(host: ClockHost): ClockQuest {
             choices.remove();
             say("hudhud", kind ? "ck_app_kind" : "ck_app_blunt");
             say("apprentice", kind ? "ck_app_kind_r" : "ck_app_blunt_r");
+            // Either answer is kept, so that a resume does not ask him again; only the kind one is a goal.
             if (kind) flag("kind");
-            else draw();
+            flag("answered");
           };
           const choices = h("span", { class: "row" }, h("button", { type: "button", textContent: t("ck_app_kind"), onclick: answer(true) }), h("button", { type: "button", textContent: t("ck_app_blunt"), onclick: answer(false) }));
           say("apprentice", "ck_app_1", choices);
