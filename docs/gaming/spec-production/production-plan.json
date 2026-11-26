@@ -23,25 +23,25 @@
    "id": 1,
    "title": "Foundations",
    "what": "What every later piece stands on: the shell, reach, measurement, layout, the keyboard, the ledger of history, the regression scripts.",
-   "state": "next"
+   "state": "now, beside Granada's proof frame: these are shared by all three games"
   },
   {
    "id": 2,
    "title": "Granada to its target",
    "what": "First, by the founder's choice of 25 November 2026: a proof frame, then the economy, construction, estates, security, the map, the campaign, the art, Photo Mode, and after them first-person.",
-   "state": "after phase 1; the proof frame and the economy can start beside it"
+   "state": "the game in production now; its proof frame comes first, and nothing is made in number before the founder accepts it"
   },
   {
    "id": 3,
    "title": "The Golden Age to its target",
    "what": "The clock, the city, the economy, the Baghdad campaign, the art.",
-   "state": "after Granada, unless the founder asks for it beside Granada"
+   "state": "after Granada reaches its gates. Before then only its proof frame may be explored"
   },
   {
    "id": 4,
    "title": "Atlas to its target",
    "what": "The terrain globe, the picture and clues, hints, layers and overlays, the local profile and Challenge.",
-   "state": "after The Golden Age, unless the founder asks otherwise; the pictures and the reviewed boundaries can be gathered from now"
+   "state": "after The Golden Age. Before then only its proof frame, its pictures and its data licences"
   },
   {
    "id": 5,
@@ -176,15 +176,17 @@
   {
    "id": "A0",
    "stream": "A",
-   "title": "A proof frame for each game: one view built to the density and finish of its target, set beside it",
+   "title": "Granada's proof frame: one view of the running game built to the target's density and finish, with working panels, people at work, a selectable estate and a visible change of state, at three presets, with its measurements and what it cost to make",
    "phase": 2,
    "sessions": [
     4,
     8
    ],
-   "dependsOn": [],
-   "gate": "XG-06 for that view: the founder looks at the two side by side and says whether this route to the art is good enough",
-   "waitsOn": "The founder's eye; and his choice of how the art is made if it is not"
+   "dependsOn": [
+    "F3"
+   ],
+   "gate": "The fourteen lines of the proof-frame checklist; the founder accepts the direction",
+   "waitsOn": "The founder's acceptance. No asset is made in number before it"
   },
   {
    "id": "A1",
@@ -244,7 +246,7 @@
     30
    ],
    "dependsOn": [
-    "A0",
+    "A7",
     "G8"
    ],
    "gate": "Handoff prompt 4; every building in the catalogue has an authored model and a ledger entry",
@@ -260,11 +262,11 @@
     7
    ],
    "dependsOn": [
-    "F2",
+    "A8",
     "F6"
    ],
    "gate": "Handoff prompt 6; a statement of each data set's source and licence; no light or label gives an answer away",
-   "waitsOn": "The founder's approval of the data sets, which are media on the games host"
+   "waitsOn": "The founder's approval of each data set, line by line (asked for Natural Earth and ETOPO 2022)"
   },
   {
    "id": "A6",
@@ -327,7 +329,7 @@
   {
    "id": "G4",
    "stream": "G",
-   "title": "Granada's security, defence and diplomacy as strategy: readiness, fortress condition, standing with neighbours, forecast events; no battles",
+   "title": "Granada's defence as strategy, with no battle on screen: walls, gates and towers and their upkeep; readiness; reserves of food and water; supply routes; warnings from the border; tribute, negotiation and alliance; the people's confidence; consequences off screen; repair and recovery",
    "phase": 2,
    "sessions": [
     4,
@@ -337,7 +339,7 @@
     "G2"
    ],
    "gate": "Each can be raised or neglected with a consequence the player can explain; every event family is in the historical-review ledger",
-   "waitsOn": "Named reviewers; the founder's limits on what defence may show"
+   "waitsOn": "Named reviewers. No combat unit, battlefield control or graphic violence without the founder's separate approval"
   },
   {
    "id": "G5",
@@ -421,7 +423,7 @@
   {
    "id": "G10",
    "stream": "G",
-   "title": "The Golden Age's research and objectives, onboarding, chapters of 30 to 60 minutes, a Baghdad campaign of three hours",
+   "title": "The Golden Age's research and objectives, onboarding, chapters of 30 to 60 minutes, a campaign of three hours: 'a fictional city simulation inspired by records of Abbasid Baghdad and other historical institutions of the Islamic world', never called a reconstruction",
    "phase": 3,
    "sessions": [
     8,
@@ -509,7 +511,7 @@
    ],
    "dependsOn": [],
    "gate": "No statement of history is on a page without a ledger entry; a check in the build",
-   "waitsOn": "Named reviewers and an editor, to move entries from pending"
+   "waitsOn": "Six named reviewers and the museum's editor, to move any entry from 'historical review pending'"
   },
   {
    "id": "H2",
@@ -544,7 +546,7 @@
   {
    "id": "H4",
    "stream": "H",
-   "title": "Atlas's clues, pictures, themed collections and overlays from the museum's records",
+   "title": "Atlas's clues, themed collections and overlays from the museum's records; the picture collection: 48 more pictures through the museum's own media work, each through the ten requirements",
    "phase": 4,
    "sessions": [
     6,
@@ -614,7 +616,7 @@
     "L3"
    ],
    "gate": "At least three Arabic or Urdu testers; their corrections made",
-   "waitsOn": "People, found and approved by the founder"
+   "waitsOn": "Native readers of Arabic and Urdu, found by the founder"
   },
   {
    "id": "L5",
@@ -658,10 +660,11 @@
    ],
    "dependsOn": [
     "F2",
-    "F3"
+    "F3",
+    "Q7"
    ],
    "gate": "The founder's performance gates on an M1 MacBook Air with 8 GB and a Windows 11 laptop with a Core i5-1135G7, in Chrome, Edge, Safari and Firefox as he listed",
-   "waitsOn": "The two machines: they are not here"
+   "waitsOn": "A named operator for each of the two machines"
   },
   {
    "id": "Q3",
@@ -689,7 +692,7 @@
    ],
    "dependsOn": [],
    "gate": "Gates R10, R14 and GRA25, by the protocol",
-   "waitsOn": "Testers, found and approved by the founder"
+   "waitsOn": "Testers and a facilitator, found by the founder or a coordinator he appoints"
   },
   {
    "id": "Q5",
@@ -726,6 +729,200 @@
    ],
    "gate": "Handoff prompt 12; only then does a prototype label come off",
    "waitsOn": "The founder"
+  },
+  {
+   "id": "A7",
+   "stream": "A",
+   "title": "The Golden Age's proof frame, by the same fourteen lines. Exploration may begin beside Granada; the frame is finished after Granada's lessons are written down",
+   "phase": 3,
+   "sessions": [
+    4,
+    8
+   ],
+   "dependsOn": [
+    "A0",
+    "F3"
+   ],
+   "gate": "The proof-frame checklist; the founder accepts the direction",
+   "waitsOn": "The founder's acceptance"
+  },
+  {
+   "id": "A8",
+   "stream": "A",
+   "title": "Atlas's proof frame, by the same fourteen lines, with relief from approved data and cloud drawn by the game",
+   "phase": 4,
+   "sessions": [
+    3,
+    6
+   ],
+   "dependsOn": [
+    "F2",
+    "F3",
+    "F6"
+   ],
+   "gate": "The proof-frame checklist; the founder accepts the direction, and accepts or refuses the reveal in place of a group of people",
+   "waitsOn": "The founder's approval of the data sets, then his acceptance"
+  },
+  {
+   "id": "Q7",
+   "stream": "Q",
+   "title": "The hardware-test package: a benchmark mode in each game, the 60-minute and four-hour scripts, the page of the machine's facts, launchers and one page of instructions for a person who is not a developer",
+   "phase": 1,
+   "sessions": [
+    3,
+    5
+   ],
+   "dependsOn": [
+    "F1",
+    "F3"
+   ],
+   "gate": "The package runs on a clean machine with no internet and writes one results file; two runs of the same address do the same thing",
+   "waitsOn": "Nothing to build it; operators to run it"
+  },
+  {
+   "id": "H5",
+   "stream": "H",
+   "title": "The words 'historical review pending' on the games' own pages wherever history is stated or linked, and the founder's sentence for The Golden Age, in seven languages",
+   "phase": 1,
+   "sessions": [
+    1,
+    2
+   ],
+   "dependsOn": [
+    "H1"
+   ],
+   "gate": "Every page of a game that states or links history carries the mark; the strings check passes; a release to UAT",
+   "waitsOn": "The founder's word for the UAT release"
   }
- ]
+ ],
+ "order": {
+  "rule": "Founder, 26 November 2026: production one game at a time, Granada, then The Golden Age, then Atlas, so that what Granada teaches about rendering, memory, simulation, interface and the art pipeline is applied to the other two. Full production of two games at once only with a separately staffed team for each.",
+  "stages": [
+   {
+    "n": 1,
+    "what": "What all three games share: the shell, reach, counters, layout, the keyboard, the regression scripts, the hardware-test package, the review mark on the pages",
+    "packages": [
+     "F1",
+     "F2",
+     "F3",
+     "F4",
+     "L1",
+     "Q1",
+     "Q7",
+     "H1",
+     "H5"
+    ],
+    "ends": "Each package's own gate"
+   },
+   {
+    "n": 2,
+    "what": "Granada's proof frame",
+    "packages": [
+     "A0"
+    ],
+    "ends": "The founder accepts the direction, or says what must change"
+   },
+   {
+    "n": 3,
+    "what": "Granada in production: its economy, construction, estates, defence, map, campaign; its art; Photo Mode",
+    "packages": [
+     "G1",
+     "G2",
+     "G3",
+     "G4",
+     "G5",
+     "G6",
+     "A1",
+     "A2",
+     "A3",
+     "A6",
+     "F5",
+     "F6",
+     "F7",
+     "H2",
+     "L2",
+     "L3",
+     "L5",
+     "G14"
+    ],
+    "ends": "Every line of Granada's inventory met; its regression scenarios covered"
+   },
+   {
+    "n": 4,
+    "what": "Granada as a candidate: the two machines, the soaks, people playing, history reviewed, the side-by-side",
+    "packages": [
+     "Q2",
+     "Q3",
+     "Q4",
+     "L4",
+     "Q5",
+     "Q6"
+    ],
+    "ends": "The founder's approval of the evidence; then, separately, of deployment, and of the label"
+   },
+   {
+    "n": 5,
+    "what": "Granada's first-person mode, before the game is called complete",
+    "packages": [
+     "F8"
+    ],
+    "ends": "Its eight requirements; no button for it before then"
+   },
+   {
+    "n": 6,
+    "what": "The Golden Age: proof frame, then production, then candidate",
+    "packages": [
+     "A7",
+     "G7",
+     "G8",
+     "G9",
+     "G10",
+     "A4",
+     "H3"
+    ],
+    "ends": "As for Granada"
+   },
+   {
+    "n": 7,
+    "what": "Atlas: proof frame, then production, then candidate",
+    "packages": [
+     "A8",
+     "A5",
+     "G11",
+     "G12",
+     "G13",
+     "H4"
+    ],
+    "ends": "As for Granada"
+   }
+  ],
+  "besideGranada": [
+   "Exploring the proof frames of The Golden Age and Atlas (A7, A8), without finishing them",
+   "The founder's search for reviewers, with the six briefs",
+   "Atlas's pictures: finding and licensing the other 48 (H4)",
+   "The licences of the globe's data, and his approval of the table",
+   "Preparing for testers: the study plan is written; recruiting is his",
+   "What the three games share: access, languages, performance, lifecycle (stage 1)"
+  ],
+  "criticalPath": {
+   "chain": [
+    "F1",
+    "F3",
+    "A0",
+    "the founder accepts Granada's proof frame",
+    "A1",
+    "A3",
+    "G6",
+    "F7",
+    "operators run the hardware suite on both machines (P3, P4)",
+    "testers play (P5)",
+    "reviewers decide the ledger's entries (P1, P2)",
+    "Q5",
+    "Q6",
+    "the founder approves deployment",
+    "the founder approves removing the label"
+   ],
+   "note": "By the estimates, the engineering and art on this chain come to 41 to 76 sessions for Granada. The five steps that are people have no estimate at all, and nothing here can shorten them: reviewers, operators and testers are not yet named. They, not the engineering, set the date of Granada's first production release. The largest single uncertainty in the engineering is A1, the buildings, and it is unknown until the proof frame is judged."
+  }
+ }
 }

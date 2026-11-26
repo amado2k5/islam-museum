@@ -38,7 +38,8 @@
     "art:manifest": "python3 art/manifest.py",
     "build:release:media": "tsx --tsconfig tsconfig.json tools/build.ts --music-base ../media/music/ --models-base ../media/models/",
     "qa:package": "python3 tools/qa-package.py",
-    "release:regression": "tsx --tsconfig tsconfig.json tools/release-regression.ts"
+    "release:regression": "tsx --tsconfig tsconfig.json tools/release-regression.ts",
+    "save:carry": "tsx --tsconfig tsconfig.json tools/save-carry.ts"
   },
   "dependencies": {
     "@babylonjs/core": "9.37.2",

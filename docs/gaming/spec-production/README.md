@@ -9,6 +9,9 @@ The founder gave this as one archive, `islam-museum-claude-production-handoff.zi
 | [`corrective-prompts.md`](corrective-prompts.md) | The twelve prompts on their own (the report holds the same text) |
 | [`PRODUCTION_GAME_STANDARDS.md`](PRODUCTION_GAME_STANDARDS.md) | The standards it proposes for a production release, with a regression matrix. The prompts call this file `engineering/gaming/PRODUCTION_GAME_STANDARDS.md`; this is that file |
 | [`owner-decisions-2026-11-26.md`](owner-decisions-2026-11-26.md) | **The founder's decisions of 26 November 2026** on everything below, as they arrived. They govern |
+| [`owner-decisions-2026-11-26-b.md`](owner-decisions-2026-11-26-b.md) | **His second set, the same day**, on the eleven points then open. They govern |
+| [`owner-register.md`](owner-register.md) | The register: 22 decisions, the people still to be named, and what needs his own approval (generated) |
+| [`proof-frames.md`](proof-frames.md) | The three proof frames he approved: a brief for each and the checklist each must pass (generated) |
 | [`target-inventory.md`](target-inventory.md) | Every system the three target images show, what exists of it today, and how it is to be met (generated from `target-inventory.json`) |
 | [`production-plan.md`](production-plan.md) | The phased plan: six streams of work, dependencies, estimates and gates (generated from `production-plan.json`) |
 | [`assets/golden-age-target.webp`](assets/golden-age-target.webp) | The founder's target image for The Golden Age (the original PNG, 1672 × 941, SHA-256 `ca303902c4f3…`, is not in git; this is a smaller copy) |

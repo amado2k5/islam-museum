@@ -402,7 +402,12 @@
     "The reference machines, browsers and graphics presets the performance gates are held to.",
     "Whether Granada's first-person and photo modes are needed for the first production release.",
     "Raised by the developer, about the target images: the Atlas image shows an account icon and the word 'Compete' (the games have no accounts and compare no scores, and the reviewer's own prompts say to add none); it offers 'Political Borders' (Atlas leaves modern borders out on purpose); and the Golden Age image has a 'Military' category (the game has none and its design asks for none). None is built until the founder says."
-   ]
+   ],
+   "second": {
+    "on": "2026-11-26",
+    "record": "docs/gaming/spec-production/owner-decisions-2026-11-26-b.md",
+    "answers": "O1 to O11"
+   }
   },
   "decisions": [
    {
@@ -470,64 +475,137 @@
     "on": "Regression",
     "decided": "The scenarios of the reviewer's handoff run on every release for as long as the things they test remain.",
     "where": "regression/matrix.json; release-and-deploy.md, step 5"
+   },
+   {
+    "id": "D12",
+    "on": "Historical reviewers and the museum's editor (O1)",
+    "decided": "None is appointed. A published museum record is existing source material that needs review, not human-approved fact. No new historical claim is published as verified; affected content is marked 'historical review pending'; sourced text, uncertain claims, reconstructions and fiction are told apart. Engineering, fictional mechanics and non-historical art prototyping go on; historical approval of production is blocked. Six briefs to be prepared. The founder approves the product and is never recorded as the historical authority.",
+    "where": "historical-review/ledger.md (18 entries, each 'historical review pending', in the four kinds); historical-review/reviewer-briefs.md. Not yet done: the same words on the games' own pages"
+   },
+   {
+    "id": "D13",
+    "on": "The minimum machines and who runs them (O2)",
+    "decided": "No operator has either machine, and the M4 Max cannot stand in. An outside dependency. To prepare: a reproducible benchmark build, a 60-minute script, a four-hour soak, counters, instructions for the machine's facts, a results template, a package a non-developer can run safely. No gate is claimed until a named person runs the whole suite on the physical machine.",
+    "where": "qa/hardware-test-package.md: the outline and the results template. The package itself is not built (plan packages F1 to F3, Q7)"
+   },
+   {
+    "id": "D14",
+    "on": "Proof frames (O3)",
+    "decided": "Approved: one real-time, interactive proof frame for each game before assets are made in number, taken from the running browser game and never a render, concept art, composite or still. Twelve things each must show. Acceptance is of the direction of quality, not of the game. Granada's first, then The Golden Age's, then Atlas's.",
+    "where": "spec-production/proof-frames.md: three briefs and a checklist of 14 lines; none started"
+   },
+   {
+    "id": "D15",
+    "on": "People who test (O4)",
+    "decided": "None is recruited. To prepare: screener, consent, build, facilitator's guide, tasks, questionnaires, evidence template. Targets stand (5 to 8 a game; 12 to 20 in beta; three or more native readers of Arabic or Urdu; strategy players and not; museum visitors; people new to islam.museum; keyboard and accessibility where possible). No developer who knows the solution. No gate of enjoyment, difficulty, understanding or hours passes without human evidence.",
+    "where": "playtests/study-plan.md and evidence.template.json"
+   },
+   {
+    "id": "D16",
+    "on": "Atlas's pictures (O5)",
+    "decided": "The target is 52 qualified pictures, and the threshold is not lowered to reach it. Ten things each picture needs. The four that qualify may be used once their metadata is complete. If 52 cannot be found responsibly, the schedule waits or thins.",
+    "where": "games/atlas-pictures-and-datasets.md: 4 candidates, 0 complete, 48 to find"
+   },
+   {
+    "id": "D17",
+    "on": "Atlas's globe data (O6)",
+    "decided": "Conditionally approved, each set subject to a written licence and technical review against eight conditions. Night lights are a picture of the present, not historical evidence. The table comes back to him before anything is imported.",
+    "where": "games/atlas-pictures-and-datasets.md: Natural Earth and ETOPO 2022 verified and proposed; NASA's three sets not verified and not proposed. Nothing imported; his approval is asked"
+   },
+   {
+    "id": "D18",
+    "on": "The order of work (O7)",
+    "decided": "Production one game at a time: Granada to its gates, then The Golden Age, then Atlas. Beside Granada, in preparation only: the other two proof frames, the search for reviewers, Atlas's pictures and data licences, preparation for testers, and what all three share (access, languages, performance, lifecycle).",
+    "where": "spec-production/production-plan.md, the order of work and the critical path"
+   },
+   {
+    "id": "D19",
+    "on": "Granada's defence (O8)",
+    "decided": "Approved as walls, readiness, supply and diplomacy, with no tactical battle on screen: walls, gates and towers and their upkeep; readiness; reserves of food and water; supply routes; warnings from the border; tribute, negotiation and alliance; the people's confidence; consequences off screen; repair and recovery. No combat units, battlefield control or graphic violence without his separate approval.",
+    "where": "production plan, package G4"
+   },
+   {
+    "id": "D20",
+    "on": "The Golden Age and Baghdad (O9)",
+    "decided": "It stays explicitly a fictional district inspired by historical Baghdad until reviewers are appointed, and is never called a precise reconstruction without evidence. Preferred words: 'A fictional city simulation inspired by records of Abbasid Baghdad and other historical institutions of the Islamic world.' Every real institution, person, event, date or technical claim links to its reviewed museum record; the simulation's values and outcomes stay plainly fictional.",
+    "where": "ledger entry HR-GA-01; production plan, packages G10 and H3. Not yet done: his sentence in the game's own text, in seven languages"
+   },
+   {
+    "id": "D21",
+    "on": "A rollback drill on UAT (O10)",
+    "decided": "Approved once, for UAT only, by ten requirements.",
+    "where": "Done on 26 November 2026: release-and-deploy.md, 'The drill of 26 November 2026'. The approval is used; another needs his word"
+   },
+   {
+    "id": "D22",
+    "on": "Production and the labels (O11)",
+    "decided": "Deploying to production and removing a prototype label each need his separate, explicit, written approval, and neither follows from a pull request, a UAT approval or a finished milestone. The developer may prepare pull requests, deploy approved UAT candidates, produce release artifacts, run permitted tests, and prepare the production checklist and rollback plan.",
+    "where": "spec-production/owner-register.md, 'What still needs the founder's own approval'"
    }
   ],
-  "openDecisions": [
+  "dependencies": [
    {
-    "id": "O1",
-    "needs": "Who the named historical reviewers are, and who gives the museum's editorial approval. Until then all 18 entries of the ledger stay pending and nothing new is stated as history.",
-    "note": "'Already approved islam.museum records' is read as the records the museum has published: by the founder's ruling of 15 November 2026 the museum publishes on cited sources without a human read. If he means something narrower, the games' links to the museum must be cut back to it."
+    "id": "P1",
+    "who": "Six reviewers of history, one for each brief (R1 to R6)",
+    "named": "none",
+    "blocks": "Every entry of the historical-review ledger; historical approval of any production release",
+    "ready": "The six briefs and the ledger"
    },
    {
-    "id": "O2",
-    "needs": "The two minimum machines. Neither is here: the games have been measured only on an Apple M4 Max. Who runs them on an M1 MacBook Air with 8 GB and on a Windows 11 laptop with a Core i5-1135G7?",
-    "note": "The steps can be written so that anyone can run them and send back the report. A rented device service would be a paid service and his to approve."
+    "id": "P2",
+    "who": "The museum's editor, for wording, uncertainty and tone, in Arabic and Urdu first",
+    "named": "none",
+    "blocks": "The editorial step after each reviewer's decision; gate R14's native reading",
+    "ready": "Brief R6; 556 strings in each language"
    },
    {
-    "id": "O3",
-    "needs": "How the art is made. The images show hundreds of distinct buildings, crowds and painted light; one building has been authored so far, by script in Blender. Whether that route reaches the targets' finish is unproven.",
-    "note": "Proposed: a proof frame for each game set beside its target (package A0), for him to judge before the rest is built. If it falls short the choice is his: a human 3D artist, licensed model packs, or generative tools, each with a cost or a licence to weigh."
+    "id": "P3",
+    "who": "An operator with an Apple M1 MacBook Air, 8 GB",
+    "named": "none",
+    "blocks": "The performance gates on the minimum Mac, in Chrome, Edge, Safari and Firefox",
+    "ready": "The outline and the results template; the package is not built"
    },
    {
-    "id": "O4",
-    "needs": "The testers: 5 to 8 for each game, then 12 to 20, three or more of them reading Arabic or Urdu. Who finds and approves them, and when.",
-    "note": "The protocol is ready and asks for no name, face or voice in the repository."
+    "id": "P4",
+    "who": "An operator with a Windows 11 laptop, Core i5-1135G7 or its like, 8 GB, integrated graphics",
+    "named": "none",
+    "blocks": "The performance gates on the minimum Windows machine, in Chrome, Edge and Firefox",
+    "ready": "The same"
    },
    {
-    "id": "O5",
-    "needs": "Atlas's pictures. Four of the museum's pictures qualify; 52 are needed before a picture round can run weekly. The eight V&A images held for him; whether the museum's media work should gather licensed photographs of places; whether a picture round may begin in practice below 52.",
-    "note": ""
+    "id": "P5",
+    "who": "Testers: 5 to 8 for each game, then 12 to 20, three or more of them native readers of Arabic or Urdu; or a coordinator who finds them, and a facilitator who is not a developer of the games",
+    "named": "none; none recruited",
+    "blocks": "Gates R10, R14 and GRA25; every length of play, and every claim about clarity, difficulty or enjoyment",
+    "ready": "The protocol, the study plan, the screener, the consent words, the tasks, the questionnaire, the evidence template"
    },
    {
-    "id": "O6",
-    "needs": "Atlas's globe data: relief, cloud and night-light imagery in the public domain, kept as media on the games host. His approval of each set once its licence has been checked and written down.",
-    "note": "Modern city lights can give an answer away; the night side may have to be drawn without them during a round."
-   },
-   {
-    "id": "O7",
-    "needs": "The order after Granada: The Golden Age and then Atlas, one after the other, or beside Granada in sessions of their own.",
-    "note": "One after the other is the plan, following his choice of Granada first and his preference for one agent at a time."
-   },
-   {
-    "id": "O8",
-    "needs": "Granada's defence, in what may be shown. The plan is walls, towers, readiness and standing with neighbours, with no battle on screen. Say if a siege or a battle is ever to be depicted.",
-    "note": ""
-   },
-   {
-    "id": "O9",
-    "needs": "The Golden Age as Baghdad. The image names the real city and a year; the game is a fictional district and says so. Until reviewers are named it stays a fictional district, and the campaign of three hours is built as that district grown to a city.",
-    "note": "Confirm, or say that the real Baghdad must be the subject from the start, which waits on O1."
-   },
-   {
-    "id": "O10",
-    "needs": "A rollback on UAT has never been tried. It changes what he is looking at, so it needs his word.",
-    "note": ""
-   },
-   {
-    "id": "O11",
-    "needs": "Production. Deploying the games to production and taking any prototype label away remain his, after the evidence.",
-    "note": ""
+    "id": "P6",
+    "who": "The founder",
+    "named": "the founder",
+    "blocks": "Acceptance of each proof frame; approval of the globe's data sets; every item under 'What still needs the founder's own approval'",
+    "ready": "The briefs and the table"
    }
+  ],
+  "approvalsRequired": [
+   "Deploying any game to production, and carrying its music or models to production.",
+   "Pointing production traffic at the games, including a Play entry or page on the museum's site.",
+   "Removing a prototype or not-finished label from a game. This is a separate approval from deploying.",
+   "Announcing that a game is ready for production, or marking a game final.",
+   "Waiving a gate that failed, or counting a gate as passed on evidence other than the kind it asks for.",
+   "Each release to UAT. It is asked for each time, as until now, unless he says candidates built from main are approved as a class.",
+   "Any further rollback on UAT: one drill was approved and has been used. Any rollback in production.",
+   "Accepting a proof frame, and making assets in number after it.",
+   "Bringing any globe data set into the project, after seeing its line in the table.",
+   "Using the eight V&A pictures; running a picture round with fewer than 52 pictures; relaxing any of the ten requirements for a picture.",
+   "Tactical combat units, battlefield control or graphic violence in Granada; any military design in The Golden Age.",
+   "Accounts, sign-in, leaderboards or any comparison of scores between people.",
+   "Anything paid: an artist, licensed models, a device-testing service, a form service, paying reviewers or testers, any new infrastructure.",
+   "Calling The Golden Age, or anything in any game, a reconstruction; publishing any historical claim as verified.",
+   "Support for phones and tablets.",
+   "Producing The Golden Age or Atlas in full beside Granada.",
+   "Sending a game anywhere outside the museum's own hosts: a store, a portal, a competition, the press; any exclusivity or money.",
+   "Putting a reviewer's, operator's or tester's name on a public page."
   ]
  }
 }
