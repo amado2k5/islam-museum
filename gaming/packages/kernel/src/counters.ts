@@ -9,8 +9,9 @@
 //   well, its own loop and the renderer's; what matters is that the figure does not rise while the game runs;
 // - heap: the JavaScript heap in megabytes, in browsers that report it (Chromium); null elsewhere, and said so;
 // - contexts: drawing contexts made, by kind, one for each canvas and kind;
-// - intervals and workers: alive now; listeners: added less removed (a listener that removes itself by `once` is
-//   still counted, so read its change over time, not its size);
+// - intervals and workers: alive now; listeners: added less removed, less those on objects the browser has since
+//   collected (a listener that removes itself by `once` is still counted, and collection comes when the browser
+//   chooses, so read its change over minutes, not its size);
 // - audio: audio contexts made and not closed, and nodes made through a context's create… methods;
 // - whatever a game registers by name with provide(): its renderer's own triangles, draw calls, geometries, textures.
 import { FrameRecorder, summarize, type FrameSummary } from "./framestats";
@@ -173,12 +174,34 @@ export function installCounters(host: CounterHost): Counters {
   if (ET) {
     const add = ET.addEventListener!;
     const remove = ET.removeEventListener!;
+    // A page that redraws itself throws elements away with their listeners still on them. Those listeners are gone
+    // with the element, and are taken off the count when the browser collects it: without this a page that only
+    // redraws would look as if it leaked. The browser collects when it chooses, so the figure lags behind the page.
+    const onTarget = new WeakMap<object, { n: number }>();
+    const collected =
+      typeof FinalizationRegistry === "function"
+        ? new FinalizationRegistry<{ n: number }>((held) => {
+            c.listeners -= held.n;
+            held.n = 0;
+          })
+        : null;
     ET.addEventListener = function (this: unknown, ...a: unknown[]) {
       c.listeners++;
+      if (collected && this !== null && typeof this === "object") {
+        let held = onTarget.get(this);
+        if (!held) {
+          held = { n: 0 };
+          onTarget.set(this, held);
+          collected.register(this, held);
+        }
+        held.n++;
+      }
       return add.apply(this, a);
     };
     ET.removeEventListener = function (this: unknown, ...a: unknown[]) {
       c.listeners--;
+      const held = this !== null && typeof this === "object" ? onTarget.get(this) : undefined;
+      if (held && held.n > 0) held.n--;
       return remove.apply(this, a);
     };
   }

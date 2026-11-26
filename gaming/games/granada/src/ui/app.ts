@@ -519,6 +519,8 @@ async function main(): Promise<void> {
   }
   /** A click on the land in the 3D valley: a placed building first, then the valley's own buildings that open a part of the game. */
   function landClicked(x: number, z: number): boolean {
+    // In photo mode a click on the land is part of framing the picture and opens nothing.
+    if (photo) return true;
     const hit = state.placed.find((p) => Math.hypot(p.x - x, p.z - z) < (sc.catalogue?.[p.what]?.radius ?? 9));
     if (hit) pick({ what: "placed", id: hit.id });
     else if (Math.hypot(STORE[0] - x, STORE[1] - z) < 19) pick({ what: "store" });
@@ -1271,6 +1273,7 @@ async function main(): Promise<void> {
         reducedMotion: matchMedia("(prefers-reduced-motion: reduce)").matches,
         models: query.get("models") !== "off",
         onField: (id) => {
+          if (photo) return;
           picked = null;
           selected = id;
           tab = "fields";

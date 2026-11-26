@@ -112,6 +112,9 @@ await page.keyboard.press("h");
 const behind = (await state()).day;
 await page.waitForTimeout(1200);
 if ((await state()).day !== behind) await fail("the days passed behind the help");
+// A signed change keeps its sign before its digits in every language, a right-to-left one included.
+const signed = await game<string[]>("[...document.querySelectorAll('.delta')].map((e) => getComputedStyle(e).direction)");
+if (signed.some((d) => d !== "ltr")) await fail(`a signed figure in the top bar is laid out ${signed.join(", ")}`);
 if ((await page.locator("dialog.help .langs a").count()) !== 7) await fail("the help does not offer the seven languages");
 if ((await page.locator("dialog.help #help-more li").count()) !== 6) await fail("the help does not explain building, trade, what lies ahead, choosing, the years and the keys");
 await shot("5-help");
@@ -290,6 +293,11 @@ if ((await game<string>("window.__GR__.threeD")) === "on") {
   for (const key of ["ArrowRight", "q", "+", "r"]) await page.keyboard.press(key);
   await page.waitForTimeout(600);
   if ((await game<string>("JSON.stringify(window.__GR__.stage().getPose())")) === poseBefore) await fail("the camera did not move by keyboard in photo mode");
+  // A click on the land while framing opens nothing behind the picture.
+  const tabBefore = await game<string>("window.__GR__.tab()");
+  const pv = (await page.locator("canvas.scene").boundingBox())!;
+  for (const [fx, fy] of [[0.5, 0.5], [0.3, 0.7], [0.7, 0.6]] as const) await page.mouse.click(pv.x + pv.width * fx, pv.y + pv.height * fy);
+  if ((await game<string>("window.__GR__.tab()")) !== tabBefore) await fail("a click on the land in photo mode changed the part in hand");
   // A picture saved: a real PNG of the view.
   const [download] = await Promise.all([page.waitForEvent("download"), page.locator("#photo-capture").click()]);
   const picture = resolve(out, `granada-${lang}-photo.png`);
@@ -591,7 +599,7 @@ await page.locator("#brief-start").click();
 const yearTwo = await game<{ day: number; won: boolean; reasons: string[] }>(`(() => { const g = window.__GR__; g.order({ kind: "decide", decision: "x", option: "y" }); while (!g.state().outcome) g.days(1); const o = g.state().outcome; return { day: g.state().day, won: o.won, reasons: o.reasons }; })()`);
 if (yearTwo.day !== 121) await fail(`the second year did not run its 120 days: ${JSON.stringify(yearTwo)}`);
 if (!(await page.locator("dialog.outcome[open]").count())) await fail("the second year's end is not shown");
-if (await page.locator("#go-on").count()) await fail("a third year is offered where there is none");
+if (await page.locator("#go-on").count()) await fail("a lost year offers the year after it");
 await shot("14-year-two-end");
 await page.locator("#again").click();
 const againState = await game<{ year: number; day: number; treasury: number }>("(() => { const s = window.__GR__.state(); return { year: s.year, day: s.day, treasury: s.economy.treasury.available }; })()");

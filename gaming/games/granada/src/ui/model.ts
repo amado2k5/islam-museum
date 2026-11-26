@@ -66,9 +66,14 @@ export interface Stocks {
 }
 const glance = (s: VillageState) => ({ dinars: wholeDinars(treasuryOf(s)), reserveDays: reserveDays(s), welfare: s.welfare, pool: s.pool, households: s.households });
 
+/** The top bar's figures for a state, worked out once however many parts of the page ask for them. */
+const STOCKS = new WeakMap<VillageState, Stocks>();
 export function stocks(sc: Scenario, s: VillageState): Stocks {
-  const ahead = forecast(sc, s, 10);
-  return {
+  const known = STOCKS.get(s);
+  if (known) return known;
+  // The first ten days of the one forecast the rest of the page reads from: the rules are run forward once for a state.
+  const ahead = restOfScenario(sc, s).slice(0, 10);
+  const made: Stocks = {
     day: s.day,
     season: seasonOf(s.day),
     dayOfSeason: dayOfSeason(s.day),
@@ -90,6 +95,8 @@ export function stocks(sc: Scenario, s: VillageState): Stocks {
     tomorrow: ahead[0] ? glance(ahead[0]) : null,
     inTen: ahead.length ? glance(ahead[ahead.length - 1]!) : null,
   };
+  STOCKS.set(s, made);
+  return made;
 }
 
 export type FieldStage = "fallow" | "growing" | "ripe" | "harvesting" | "spent";
@@ -138,7 +145,15 @@ export function restOfScenario(sc: Scenario, s: VillageState): VillageState[] {
   return a;
 }
 
+const CARDS = new WeakMap<VillageState, FieldCard[]>();
 export function fieldCards(sc: Scenario, s: VillageState): FieldCard[] {
+  const known = CARDS.get(s);
+  if (known) return known;
+  const made = fieldCardsOf(sc, s);
+  CARDS.set(s, made);
+  return made;
+}
+function fieldCardsOf(sc: Scenario, s: VillageState): FieldCard[] {
   return sc.plots.map((def) => {
     const p = s.plots[def.id]!;
     const b = s.branches[def.branch]!;
