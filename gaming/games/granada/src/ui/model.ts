@@ -427,6 +427,62 @@ export function advice(sc: Scenario, s: VillageState): Advice {
   return { key: "advice_steady" };
 }
 
+/**
+ * What lies ahead if nothing more is done, each line a fact read from the rules run forward on a copy: the day the
+ * households first go hungry or short of water, a crop that will begin to spoil, a contract that will fail, and a
+ * reserve too small at the scenario's end. It warns; it never plays the game for the player.
+ */
+export interface Warning {
+  key: "warn_hunger" | "warn_thirst" | "warn_spoil" | "warn_contract" | "warn_reserve";
+  /** How many days must pass for it to have happened: one is by tomorrow morning. */
+  days: number;
+  field?: string;
+  have?: number;
+  want?: number;
+}
+export function warnings(sc: Scenario, s: VillageState): Warning[] {
+  if (s.outcome) return [];
+  const ahead = restOfScenario(sc, s);
+  const out: Warning[] = [];
+  const first = (test: (x: VillageState) => boolean) => ahead.findIndex(test);
+  const hungry = first((x) => x.last!.eaten < x.last!.foodNeed);
+  if (hungry >= 0) out.push({ key: "warn_hunger", days: hungry + 1 });
+  const thirsty = first((x) => x.last!.townWater < x.last!.townNeed);
+  if (thirsty >= 0) out.push({ key: "warn_thirst", days: thirsty + 1 });
+  for (const def of sc.plots) {
+    const day = first((x) => x.last!.events.some((e) => e.startsWith(`spoiled:${def.id}:`)));
+    if (day >= 0) out.push({ key: "warn_spoil", days: day + 1, field: def.id });
+  }
+  for (const c of Object.values(s.economy.contracts)) {
+    if (c.state !== "accepted") continue;
+    const day = first((x) => x.last!.events.includes(`contract-failed:${c.id}`));
+    if (day >= 0) out.push({ key: "warn_contract", days: day + 1, have: c.delivered, want: c.units });
+  }
+  const end = ahead.at(-1);
+  if (end && reserveDays(end) < sc.goal.reserveDays) out.push({ key: "warn_reserve", days: ahead.length, have: reserveDays(end), want: sc.goal.reserveDays });
+  return out.sort((a, b) => a.days - b.days);
+}
+/**
+ * How much food could leave the store and still leave, by the forecast, the reserve the scenario asks for at its
+ * end. Nought when the forecast is already short.
+ */
+export function foodToSpare(sc: Scenario, s: VillageState): number {
+  const end = restOfScenario(sc, s).at(-1) ?? s;
+  return Math.max(0, foodInStore(end) - sc.goal.reserveDays * foodNeed(end));
+}
+/** The season in figures: the river against what the valley wants today, how the fields fared yesterday, and winter. */
+export function seasonFigures(sc: Scenario, s: VillageState): { inflow: number; wanted: number; fields: number | null; toWinter: number } {
+  const today = flowOn(sc, s, s.day);
+  const growing = sc.plots.map((def) => s.plots[def.id]!).filter((p) => p.crop !== null && p.ripeSince === null);
+  const wanted = waterNeed(s) + growing.reduce((n, p) => n + (today.rain ? Math.ceil(CROPS[p.crop!].water / 2) : CROPS[p.crop!].water), 0);
+  return {
+    inflow: today.inflow,
+    wanted,
+    fields: growing.length && s.last ? Math.round(growing.reduce((n, p) => n + (p.watered * p.tended) / 1000, 0) / growing.length / 10) : null,
+    toWinter: Math.max(0, 91 - s.day),
+  };
+}
+
 /** Yesterday's water and food, for the line that says how the day went. */
 export function yesterday(s: VillageState): { rain: boolean; inflow: number; townWater: number; townNeed: number; eaten: number; foodNeed: number; workers: number; idle: number; events: string[] } | null {
   return s.last ? { rain: s.last.rain, inflow: s.last.inflow, townWater: s.last.townWater, townNeed: s.last.townNeed, eaten: s.last.eaten, foodNeed: s.last.foodNeed, workers: s.last.workers, idle: s.last.idle, events: s.last.events } : null;

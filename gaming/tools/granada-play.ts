@@ -354,6 +354,23 @@ if (runs > 8) {
 if ((await page.locator("[data-part='contract'][data-state='settled']").count()) !== 1) await fail("the panel does not show the contract as kept");
 log.trade = { olives, runs, contract, paid: afterPay - beforePay };
 
+// ---- What lies ahead: warnings read from the forecast, gone when the steward acts; the season in figures; food to spare ----
+await page.goto(url("&fresh=1"));
+await ready();
+await page.locator("#brief-start").click();
+const ahead = page.locator("[data-part='warnings']");
+if ((await ahead.locator("[data-warn='warn_spoil']").count()) < 1) await fail("no warning that the ripe wheat will spoil");
+const warnedBefore = await ahead.locator("li").allTextContents();
+await game(`window.__GR__.order({ kind: "harvest", plot: "mill-field", rest: "sell" })`);
+const warnedAfter = await ahead.locator("li").allTextContents();
+if (warnedAfter.length >= warnedBefore.length) await fail(`ordering the harvest did not take a warning away: ${JSON.stringify([warnedBefore, warnedAfter])}`);
+if ((await page.locator("[data-part='season-figures'] li").count()) < 3) await fail("the season is not given in figures");
+await page.keyboard.press("4");
+if ((await page.locator("[data-part='food-to-spare']").count()) !== 1) await fail("the market does not say what food can be spared");
+await page.keyboard.press("1");
+await shot("9k-ahead");
+log.ahead = { before: warnedBefore, after: warnedAfter };
+
 // ---- The region: the museum's places and distances, and three layers of the game's own state ----
 await page.goto(url("&fresh=1"));
 await ready();
