@@ -40,6 +40,12 @@ Every reason is given at once. `deviceMemory` and the number of processors are n
 4. **The browser versions are floors of features, chosen by the agent, not a tested list.** The tested list (`gaming/packages/platform/support.json`) holds Chrome 158 on one Mac. Edge, Firefox and Safari pass the door on their features and have not been run.
 5. **No real phone or tablet was used.** The refusals were checked with Chrome emulating one.
 
+## Added after review, 26 November 2026
+
+- With scripts off, or in a browser that cannot run them, the page is no longer blank: it says in all seven languages that the game needs JavaScript and a current browser, with the way back to the museum.
+- On the refusal page the skip link now has somewhere to land.
+- The review also observed that Edge, Firefox and Safari pass the door without being on the tested list. That is the choice described in point 4 above, left as it is for the founder to rule on: refusing every untested browser would today leave Chrome on one Mac.
+
 ## Not done
 
 - Granada, The Golden Age and Atlas behind the door. Each needs its first script split from its engine and its own browser tools checked at the door's sizes; that is the next piece.

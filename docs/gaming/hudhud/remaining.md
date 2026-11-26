@@ -17,12 +17,13 @@ _26 November 2026. The founder asked, in chat: "what is remaining for this game 
 | Sound | effects, ambience, the museum's music | all three, the effects synthesised; one room's worth |
 | Languages | seven, read by native speakers | seven, machine drafts read by nobody |
 | History | every claim reviewed by a named person | every claim entered as pending; no reviewer named |
-| Saving | slots, versions, recovery, a place kept inside a quest | all of these |
-| Accessibility | keyboard, touch, gamepad, remapping, reduced motion, contrast, a way to play without the picture | all built except gamepad remapping; none audited by a person or a tool |
+| Saving | slots, versions, recovery, a place kept inside a quest; for every game a vault in IndexedDB with backups, export and import | the first four, in `localStorage`; the vault's core is built and tested ([`../save-service.md`](../save-service.md)) and no game uses it yet |
+| Unsupported devices | a plain refusal before anything heavy loads, for every game | built; Hudhud stands behind it, the other three do not yet ([`../device-preflight.md`](../device-preflight.md)) |
+| Accessibility | keyboard, gamepad, remapping of both, reduced motion, contrast, a way to play without the picture | all built; no physical controller tried; none audited by a person or a tool |
 | Machines and browsers | two reference machines, the main browsers, phones and tablets | one Mac, Chrome |
 | People playing | children of three age bands, parents, Arabic and Urdu readers | nobody |
 | On the museum's site | a Play page, a menu entry, a page for the game | a written proposal |
-| Released | UAT, then production | neither |
+| Released | UAT, then production | UAT since 26 November 2026; not production |
 
 ## What must be built, in the order it unblocks the rest
 
