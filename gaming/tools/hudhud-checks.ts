@@ -137,6 +137,35 @@ const ev = <T>(page: Page, js: string) => page.evaluate(js) as Promise<T>;
   record("each save slot keeps its own place", second.turns === 0 && !second.restored && first.turns === 3 && first.restored, { second, first });
   await ctx.close();
 }
+// 4d. Two tabs: the one opened first takes up what the other saves, and wipes nothing by having been open.
+{
+  const ctx = await browser.newContext({ viewport: { width: 1280, height: 800 } });
+  const first = await open(ctx, "");
+  const second = await open(ctx, "");
+  await playing(second);
+  await ev(second, "window.__HH__.command({type:'skip'}); window.__HH__.touch('mirror-a'); window.__HH__.touch('mirror-c');");
+  await first.waitForTimeout(500);
+  const seen = await ev<{ resumed: boolean; button: string }>(first, "({ resumed: window.__HH__.resumed(), button: document.querySelector('.hub button.primary').textContent })");
+  await playing(first);
+  await ev(first, "window.__HH__.command({type:'skip'})");
+  const taken = await ev<{ turns: number }>(first, "({ turns: window.__HH__.state().turns })");
+  const stored = await ev<{ snap: { turns: number } } | null>(first, "JSON.parse(localStorage.getItem('im.hudhud.save.v1')).slots[0].resume");
+  record("a tab opened earlier takes up what another tab saved, and wipes nothing", seen.resumed && seen.button.startsWith("Continue: ") && taken.turns === 2 && stored?.snap.turns === 2, { seen, taken, stored });
+  await ctx.close();
+}
+// 4e. The skip link lands on the game, whichever screen is showing.
+{
+  const ctx = await browser.newContext({ viewport: { width: 1280, height: 800 } });
+  const page = await open(ctx, "&fresh=1");
+  await page.keyboard.press("Tab");
+  const link = await ev<string>(page, "document.activeElement.className");
+  await page.keyboard.press("Enter");
+  const landed = await ev<string>(page, "document.activeElement.id || location.hash");
+  await page.keyboard.press("Tab");
+  const next = await ev<boolean>(page, "!!document.activeElement.closest('#play')");
+  record("the skip link lands on the game", link === "skip" && /play/.test(landed) && next, { link, landed, next });
+  await ctx.close();
+}
 // 5. The Atlas: fifty named pages in ten worlds, one of them open; play it, come back, and find its page home.
 for (const lang of ["en", "ar"]) {
   const ctx = await browser.newContext({ viewport: { width: 1280, height: 900 } });

@@ -9,7 +9,7 @@ import { RECORDS, SCRIPTS, THINGS, TURN_SLACK, type PlayStyle, type Speaker } fr
 import { start, type Running } from "../game/boot";
 import { Input } from "../input/input";
 import { choicesOf, lineOf } from "../narrative/dialogue";
-import { ACTIONS, DEFAULT_KEYS, assignKey, current, load, recordQuest, store, type Action, type Quality, type SaveFile, type Settings } from "../save/save";
+import { ACTIONS, DEFAULT_KEYS, SAVE_KEY, assignKey, current, load, recordQuest, store, type Action, type Quality, type SaveFile, type Settings } from "../save/save";
 import { apply, beam, goals, newScene, restore, snapshot, type Command, type Happened, type SceneState } from "../sim/scene";
 import type { SceneHost } from "../scenes/workshop";
 import atlas from "../content/atlas.v1.json";
@@ -152,7 +152,9 @@ async function main(): Promise<void> {
   const sheets = el("div", {});
   const wordsBox = el("div", { class: "words" }, words, about);
   words.hidden = true;
-  app.append(bar, hub, stageWrap, wordsBox, live, sheets);
+  // The skip link lands here, on the Atlas or on the quest, whichever is showing.
+  const main = el("main", { id: "play", tabIndex: -1 }, hub, stageWrap);
+  app.append(bar, main, wordsBox, live, sheets);
 
   let toastTimer = 0;
   const toast = (text: string) => {
@@ -188,18 +190,41 @@ async function main(): Promise<void> {
   let resumed = false;
   let state: SceneState = newScene(style());
   /** Takes the quest from the slot in use: its saved place if there is one that can be trusted, or a fresh start. */
+  /** True while the saved place in the quest is one this page made or took up: only then may this page clear it. */
+  let placeMine = false;
   const fromSlot = () => {
     const saved = slot().resume?.quest === QUEST ? restore(slot().resume!.snap) : null;
+    // A saved place is played in the way it was begun: the way of playing follows it, never strands it.
+    if (saved && !asked.style && saved.style !== settings().style) save = { ...save, slots: save.slots.map((x, i) => (i === save.slot && x ? { ...x, settings: { ...x.settings, style: saved.style } } : x)) };
     resumed = saved !== null && saved.style === style();
     state = resumed ? saved! : newScene(style());
+    placeMine = resumed;
   };
   fromSlot();
-  const checkpoint = () => {
+  /** Saves the place in the quest. `clear` is for a deliberate new start: otherwise a page that has made no progress
+   * of its own never wipes a place it did not make (one that another tab saved, say). */
+  const checkpoint = (clear = false) => {
     const resume = state.done || (state.turns === 0 && state.flags.length === 0 && !state.dark) ? null : { quest: QUEST, snap: snapshot(state) as unknown };
+    if (resume === null && !placeMine && !clear) return;
     if (JSON.stringify(slot().resume) === JSON.stringify(resume)) return;
     save = { ...save, slots: save.slots.map((x, i) => (i === save.slot && x ? { ...x, resume } : x)) };
+    placeMine = resume !== null;
     keep(true);
   };
+  // Another tab of the game saved: this page takes up what is stored, so that it never works from an old copy. A
+  // quest being played here goes on as it is; on the Atlas, the page shows what is now true.
+  window.addEventListener("storage", (e) => {
+    if (e.key !== SAVE_KEY || !mayStore) return;
+    const now = load(storage);
+    if (now.kind !== "ok" || !now.save.slots[save.slot]) return;
+    save = { ...now.save, slot: save.slot };
+    applyLook();
+    if (!started) {
+      fromSlot();
+      drawHub();
+      render();
+    }
+  });
   let running: Running | null = null;
   let paused = false;
   let started = false;
@@ -414,9 +439,15 @@ async function main(): Promise<void> {
     };
     const pick = (n: number, value: number, on: (v: number) => void) => select(Array.from({ length: n }, (_, i) => [i, t("option_n", { n: num(i + 1) })] as [number, string]), value, (v) => on(Number(v)));
     const vol = (g: "ambience" | "voices" | "effects") => range(0, 1, 0.05, s.volume[g], (v) => change({ volume: { ...settings().volume, [g]: v } }));
-    sheet(
+    const node: HTMLElement = sheet(
       t("settings_title"),
-      field(t("set_style"), select<PlayStyle>([["story", t("style_story")], ["explorer", t("style_explorer")], ["challenge", t("style_challenge")]], s.style, (v) => ((asked.style = null), change({ style: v as PlayStyle }), restart(false))), `${t("style_story")}: ${t("style_story_how")} ${t("style_explorer")}: ${t("style_explorer_how")} ${t("style_challenge")}: ${t("style_challenge_how")} ${t("style_restart")}`),
+      field(t("set_style"), select<PlayStyle>([["story", t("style_story")], ["explorer", t("style_explorer")], ["challenge", t("style_challenge")]], s.style, (v) => {
+        // Choosing the way already in use changes nothing and must not start the quest again.
+        const same = v === style();
+        asked.style = null;
+        change({ style: v as PlayStyle });
+        if (!same) restart(false);
+      }), `${t("style_story")}: ${t("style_story_how")} ${t("style_explorer")}: ${t("style_explorer_how")} ${t("style_challenge")}: ${t("style_challenge_how")} ${t("style_restart")}`),
       field(t("set_quality"), select<Quality>([["low", t("q_low")], ["medium", t("q_medium")], ["high", t("q_high")]], s.quality, (v) => ((asked.q = null), change({ quality: v as Quality }), redraw()))),
       field(t("set_motion"), check(s.reducedMotion, (v) => change({ reducedMotion: v }))),
       field(t("set_contrast"), check(s.highContrast, (v) => change({ highContrast: v }))),
@@ -447,7 +478,9 @@ async function main(): Promise<void> {
         log.length = 0;
         redraw();
         if (!started) drawHub();
-        render();
+        // The sheet was drawn from the slot just left: draw it again from this one.
+        (node as unknown as { close: () => void }).close();
+        openSettings();
       }), t("privacy")),
     );
   }
@@ -518,7 +551,7 @@ async function main(): Promise<void> {
   function restart(rebuild: boolean): void {
     state = newScene(style());
     resumed = false;
-    checkpoint();
+    checkpoint(true);
     log.length = 0;
     if (!started) return render();
     if (rebuild || !running) {

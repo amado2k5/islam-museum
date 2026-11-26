@@ -48,6 +48,7 @@ a { color: #ffd98a; }
 .cover p { margin: 0; max-width: 44ch; color: var(--ivory); }
 .cover .primary { font-size: 1.25rem; padding: 12px 40px; }
 
+main:focus { outline: none; }
 .hub { padding: 6px 4px 20px; }
 .hub > h2 { margin: 6px 0 2px; text-align: center; font-size: clamp(1.5rem, 3.4vw, 2.4rem); color: var(--gold); }
 .hub > p { text-align: center; margin: 6px auto; max-width: 70ch; }
