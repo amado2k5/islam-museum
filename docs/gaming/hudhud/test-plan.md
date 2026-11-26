@@ -6,7 +6,7 @@ _26 November 2026. What was run is listed with its result. What was not run is l
 
 | Check | Result |
 |---|---|
-| `npm --prefix gaming test` | **25 files, 453 tests, all pass** (99 are Hudhud's own, in six files; the two shared tests of labels and review marks now cover four games) |
+| `npm --prefix gaming test` | **26 files, 463 tests, all pass** (109 are Hudhud's own, in seven files; the two shared tests of labels and review marks now cover four games) |
 | `npm --prefix gaming run typecheck` | pass |
 | `npm --prefix gaming run strings` | pass: Hudhud 7 languages, 190 strings, and 60 names of worlds and subjects |
 | `npm --prefix gaming run build:release` | pass: four games; Hudhud 1,456,166 bytes of script, 7,238 of style |
@@ -18,13 +18,13 @@ _26 November 2026. What was run is listed with its result. What was not run is l
 | `gaming/tools/hudhud-checks.ts` | twelve checks pass in Chrome (the ten below, and: a tab opened earlier takes up what another tab saved and wipes nothing; the skip link lands on the game): a quest left in the middle comes back after the page is loaded again; a finished quest is recorded and not offered as unfinished; a key given to an action works and is remembered; a redraw keeps the quest; with WebGL refused the quest is finished from the list in words; a page closed in the middle of a talk keeps the last step; each save slot keeps its own place; the Atlas shows ten worlds and fifty pages and one comes home, in English and in Arabic |
 | The museum's `npm run validate`, `npm test`, `npm run build` | **not run**: no museum file (`data/`, `content/`, `site/`, `i18n/`, `schema/`) is changed; the games' rule sends a change confined to the games to the games' suite |
 
-## What the 99 tests hold
+## What the 109 tests hold
 
 | The instruction asks (section 12) | Test | State |
 |---|---|---|
 | Every source asset and subject maps exactly once | `atlas.gtest.ts` | held: 80 files, 50 subjects, 30 + 10 + 10, ten worlds of five, every record id a file |
 | Every quest has a start, a completion, a recoverable failure and a replay | `scene.gtest.ts` | held for the one quest, in three styles; wrong turns never end it; `replay()` is deterministic |
-| Deterministic challenges solvable over many seeds | `light.gtest.ts` | held: 3,000 generated puzzles start dark and can be lit |
+| Deterministic challenges solvable over many seeds | `light.gtest.ts`, `chain.gtest.ts` | held: 3,000 generated beam puzzles start dark and can be lit; 3,000 generated chains start in a muddle and can be put right |
 | No soft lock; no secret required for completion | `scene.gtest.ts`, `light.gtest.ts` | held: all 32 mirror settings can reach the answer; the shortest road needs no secret |
 | Jump buffering, coyote time, gliding at low and high frame rates | `move.gtest.ts` | held at 30, 60 and 144 frames a second. Moving platforms and hazards: none exist |
 | Dialogue conditions, choices, keys, no invented quotation | `dialogue.gtest.ts` | held in seven languages. RTL layout is checked by capture, not by a test |

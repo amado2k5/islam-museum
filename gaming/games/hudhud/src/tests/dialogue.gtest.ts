@@ -82,7 +82,7 @@ describe("the strings", () => {
     for (const k of ["prototype", "working_title", "review_note", "art_note", "note_uncertain", "privacy"]) expect(app.includes(`t("${k}")`), k).toBe(true);
   });
   it("use no clock and no unseeded chance in the rules", () => {
-    for (const f of ["sim/light.ts", "sim/move.ts", "sim/scene.ts", "narrative/dialogue.ts", "save/save.ts", "content/workshop.ts"]) {
+    for (const f of ["sim/light.ts", "sim/chain.ts", "sim/move.ts", "sim/scene.ts", "narrative/dialogue.ts", "save/save.ts", "content/workshop.ts"]) {
       const src = readFileSync(resolve(__dirname, "..", f), "utf8");
       expect(/Math\.random|Date\.now|new Date|performance\.now/.test(src), f).toBe(false);
     }
