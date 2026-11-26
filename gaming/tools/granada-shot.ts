@@ -19,7 +19,8 @@ page.on("pageerror", (e) => errors.push(String(e)));
 page.on("console", (m) => {
   if (m.type() === "error") errors.push(m.text());
 });
-await page.goto(`${served.base}/games/granada/index.html?lang=${lang}&fresh=1&seed=7&music=off`);
+// Q chooses the picture's preset: low, medium or high.
+await page.goto(`${served.base}/games/granada/index.html?lang=${lang}&fresh=1&seed=7&music=off${process.env.Q ? `&q=${process.env.Q}` : ""}`);
 await page.waitForFunction("Boolean(window.__GR__ && window.__GR__.ready)");
 await page.locator("#brief-start").click();
 await page.waitForFunction("window.__GR__.threeD !== 'pending'", undefined, { timeout: 120_000 });

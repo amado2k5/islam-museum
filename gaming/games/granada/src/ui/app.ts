@@ -81,6 +81,20 @@ async function main(): Promise<void> {
     if (saved.status === "newer") notice = t("save_newer");
     state = newVillage(sc, newSeed());
   }
+  // How much is spent on the picture: asked for in the address, or chosen before and kept on this device, or High.
+  const QUALITIES = ["low", "medium", "high"] as const;
+  type QualityChoice = (typeof QUALITIES)[number];
+  const PREFS_KEY = "im.granada.prefs.v1";
+  const isQuality = (v: unknown): v is QualityChoice => QUALITIES.includes(v as QualityChoice);
+  let keptQuality: QualityChoice | null = null;
+  try {
+    const kept = (JSON.parse(localStorage.getItem(PREFS_KEY) ?? "{}") as { quality?: unknown }).quality;
+    if (isQuality(kept)) keptQuality = kept;
+  } catch {
+    // An unreadable preference is no preference.
+  }
+  const askedQuality = query.get("q");
+  const quality: QualityChoice = isQuality(askedQuality) ? askedQuality : (keptQuality ?? "high");
   let speed: 0 | 1 | 2 = 0;
   let tab: Tab = "valley";
   let selected: string | null = null;
@@ -118,6 +132,22 @@ async function main(): Promise<void> {
 
   const music = new MusicPlayer({ base: MUSIC_BASE, first: "the-ancient-library", forceOff: query.get("music") === "off" || !MUSIC_AVAILABLE });
   const musicBox = MUSIC_AVAILABLE ? musicControl(music, await loadMusicStrings(lang), `${MUSEUM}/${lang}/backstage/`) : null;
+
+  // The picture's preset is chosen here. The valley is built once for a preset, so a change keeps the choice and
+  // opens the page again; the game in hand is saved and comes back where it was.
+  const qualitySelect = h("select", { id: "quality", "aria-label": t("quality_label") }, ...QUALITIES.map((q) => h("option", { value: q, selected: q === quality }, t(`quality_${q}`)))) as HTMLSelectElement;
+  qualitySelect.addEventListener("change", () => {
+    try {
+      localStorage.setItem(PREFS_KEY, JSON.stringify({ quality: qualitySelect.value }));
+    } catch {
+      // Without storage the choice still holds for this visit, through the address.
+    }
+    const next = new URL(location.href);
+    next.searchParams.set("q", qualitySelect.value);
+    next.searchParams.delete("fresh");
+    location.replace(next);
+  });
+  const qualityBox = query.has("no3d") ? null : h("label", { class: "quality" }, h("span", {}, t("quality_label")), qualitySelect);
 
   const say = (text: string) => {
     log.unshift(text);
@@ -217,7 +247,7 @@ async function main(): Promise<void> {
         speedButton(2, "speed_fast", "▶▶"),
         h("button", { type: "button", class: "speed step", id: "step", title: t("speed_step"), disabled: Boolean(state.outcome), onclick: () => nextDay() }, t("speed_step")),
       ),
-      h("div", { class: "menu" }, musicBox, h("button", { type: "button", id: "btn-help", onclick: () => showHelp() }, t("help"))),
+      h("div", { class: "menu" }, musicBox, qualityBox, h("button", { type: "button", id: "btn-help", onclick: () => showHelp() }, t("help"))),
     );
     const line = (name: string, g: NonNullable<typeof s.tomorrow>) => h("span", { class: "ahead-part" }, h("b", {}, `${name}: `), `${t("stock_dinars")} ${num(g.dinars)} · ${t("stock_food")} ${t("stock_days", { n: g.reserveDays })} · ${t("stock_welfare")} ${num(g.welfare)} · ${t("stock_pool")} ${num(g.pool)}`);
     ahead.replaceChildren(...([h("span", { class: "ahead-title" }, t("ahead_title")), s.tomorrow && line(t("tomorrow"), s.tomorrow), s.inTen && line(t("in_ten"), s.inTen), !saveOk && h("span", { class: "warnline" }, t("save_failed"))].filter(Boolean) as Node[]));
@@ -615,6 +645,7 @@ async function main(): Promise<void> {
   });
 
   const hook: Record<string, unknown> = { ready: true, lang, scenario: sc.id, state: () => state, speed: () => speed, tab: () => tab, music, saveOk: () => saveOk, order: (c: VillageCommand) => order(c), days: (n: number) => { for (let i = 0; i < n; i++) nextDay(); }, begin: (seed: number) => begin(seed), view: () => view, setView: (to: "3d" | "plan") => setView(to), stage: () => stage, threeD: "pending" };
+  hook.quality = quality;
   if (counters) {
     counters.provide("renderer", () => stage?.info() ?? null);
     hook.counters = () => counters.snapshot();
@@ -635,7 +666,7 @@ async function main(): Promise<void> {
       const { Stage: StageClass } = await import("./stage");
       stage = await StageClass.create(sceneBox, {
         seed: state.seed,
-        quality: query.get("q") === "low" ? "low" : "high",
+        quality,
         reducedMotion: matchMedia("(prefers-reduced-motion: reduce)").matches,
         models: query.get("models") !== "off",
         onField: (id) => {

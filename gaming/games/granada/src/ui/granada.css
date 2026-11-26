@@ -54,6 +54,9 @@ h3 { font-size: 0.9rem; color: var(--ink-soft); margin-block-start: 10px; }
 .delta.down { color: var(--bad); }
 .clock, .menu { display: flex; gap: 6px; align-items: center; }
 .speed { min-inline-size: 44px; }
+.quality { display: inline-flex; align-items: center; gap: 6px; font-size: 0.8rem; color: var(--ink-soft); }
+.quality select { font: inherit; color: var(--ink); background: var(--panel-2); border: 1px solid var(--line); border-radius: 8px; padding: 6px 8px; min-block-size: 40px; }
+.quality select:hover { border-color: var(--accent); }
 .ahead { display: flex; flex-wrap: wrap; gap: 4px 18px; padding: 6px 14px; font-size: 0.84rem; color: var(--ink-soft); background: #221a14; border-block-end: 1px solid var(--line); }
 .ahead-title { color: var(--accent); font-weight: 600; }
 .ahead b { color: var(--ink); font-weight: 600; }
