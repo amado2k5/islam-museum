@@ -488,6 +488,14 @@ export interface Scenery {
   /** An ox-cart, and the roads carts go along. */
   cart: MeshData;
   cartRoads: Pt[][];
+  /** Where a flock grazes: [x, z, radius]. Dry, open ground away from the fields, the water, the roads and the houses. */
+  pastures: number[][];
+  /** The roads riders go along. */
+  riderRoads: Pt[][];
+  /** A stretch of the hill's wall a man of the watch walks, end to end: [x, z, x, z]. */
+  guardWalks: number[][];
+  /** Where the watch stands at the hill's gate: [x, z, yaw]. */
+  gatePosts: number[][];
   triangles: number;
 }
 
@@ -921,6 +929,45 @@ export function buildScenery(seed: number, options: { authoredTown?: boolean; au
   }
   const stalls: number[][] = [];
   for (let i = 0; i < 9; i++) stalls.push([MARKET[0] + (i % 3) * 9 - 9, y(MARKET[0], MARKET[1]), MARKET[1] + Math.floor(i / 3) * 8 - 8, (i % 2) * Math.PI, 1]);
+  // Shops: a row of stalls under awnings on each side of the road where it climbs through the town to the hill's
+  // gate, set back from the wheels and opening toward them. One is left out wherever a house already stands.
+  const street = roadLine(ROAD_EAST).filter((p) => p[0] > 630 && p[0] < 800);
+  for (let i = 1; i + 1 < street.length; i += 2) {
+    const a = street[i - 1]!;
+    const c = street[i + 1]!;
+    const l = Math.hypot(c[0] - a[0], c[1] - a[1]) || 1;
+    // The road's own left and right at this point, and the heading that turns a stall's open side toward the road.
+    const nx = -(c[1] - a[1]) / l;
+    const nz = (c[0] - a[0]) / l;
+    for (const side of [-1, 1]) {
+      const x = street[i]![0] + nx * side * 8.5;
+      const z = street[i]![1] + nz * side * 8.5;
+      if (built(x, z, 3) || fieldAt(x, z) !== null) continue;
+      stalls.push([x, y(x, z), z, Math.atan2(-nx * side, -nz * side), 1]);
+    }
+  }
+  // Flocks: open, dry ground, clear of the fields, the river, the pool, the channels, the roads and the houses.
+  const pastures: number[][] = [];
+  const graze = rng.fork("pasture");
+  for (let tries = 0; tries < 600 && pastures.length < 5; tries++) {
+    const x = graze.range(-380, 600);
+    const z = graze.range(-100, 300);
+    const dryGround = Math.abs(z - riverZ(x)) > RIVER_HALF + 32 && Math.hypot(x - POOL.x, z - POOL.z) > POOL.r + 34 && Object.values(CHANNELS).every((c) => pathDistance(x, z, c) > 26);
+    if (!dryGround || fieldAt(x, z) !== null || built(x, z, 30) || ROADS.some((path) => pathDistance(x, z, path) < 22)) continue;
+    if (Math.hypot(x - MARKET[0], z - MARKET[1]) < 70 || Math.hypot(x - VILLAGE[0], z - VILLAGE[1]) < 60) continue;
+    if (pastures.some((q) => Math.hypot(q[0]! - x, q[1]! - z) < 130)) continue;
+    // The whole of the pasture is to be clear of the fields, not only its middle.
+    if (Array.from({ length: 12 }, (_, k) => (k / 12) * Math.PI * 2).some((s) => fieldAt(x + Math.cos(s) * 16, z + Math.sin(s) * 16) !== null)) continue;
+    pastures.push([x, z, 11]);
+  }
+  // The watch: a man to every other stretch of the hill's wall, and two at its gate, standing outside it.
+  const guardWalks = crown.map((q, i) => [q[0], q[1], crown[(i + 1) % crown.length]![0], crown[(i + 1) % crown.length]![1]]).filter((_, i) => i % 2 === 1 && i !== HILL_GATE);
+  const g0 = crown[HILL_GATE]!;
+  const g1 = crown[(HILL_GATE + 1) % crown.length]!;
+  const gm: Pt = [(g0[0] + g1[0]) / 2, (g0[1] + g1[1]) / 2];
+  const gl = Math.hypot(gm[0] - HILL.x, gm[1] - HILL.z) || 1;
+  const out: Pt = [(gm[0] - HILL.x) / gl, (gm[1] - HILL.z) / gl];
+  const gatePosts = [-1, 1].map((s) => [gm[0] + out[0] * 6 - out[1] * s * 4.2, gm[1] + out[1] * 6 + out[0] * s * 4.2, Math.atan2(out[0], out[1])]);
   set.at("paving", MARKET[0], MARKET[1]).box(frame(MARKET[0], y(MARKET[0], MARKET[1]) - 0.2, MARKET[1]), 0, 0, 0, 40, 0.3, 34, [0.84, 0.78, 0.68], 31);
 
   const chunks: Chunk[] = set.chunks().map((c) => ({ material: c.material, mesh: c.mesh }));
@@ -937,7 +984,7 @@ export function buildScenery(seed: number, options: { authoredTown?: boolean; au
     planted.length = 0;
     planted.push(...kept);
   }
-  return { chunks, cypresses, trees, citrus, almonds, gardens, poplars, scrub, olives, palms, stalls, houses, kit, granary, meadowChannel, footprints, mill, millAt, wheel, cart: oxCart(), cartRoads: [roadLine(ROAD_WEST), roadLine(ROAD_EAST)], triangles: tris(chunks) + tris(granary) + houses.reduce((n, h) => n + tris(h), 0) };
+  return { chunks, cypresses, trees, citrus, almonds, gardens, poplars, scrub, olives, palms, stalls, houses, kit, granary, meadowChannel, footprints, mill, millAt, wheel, cart: oxCart(), cartRoads: [roadLine(ROAD_WEST), roadLine(ROAD_EAST)], pastures, riderRoads: [roadLine(ROAD_EAST), roadLine(ROAD_NORTH), roadLine(ROAD_WEST)], guardWalks, gatePosts, triangles: tris(chunks) + tris(granary) + houses.reduce((n, h) => n + tris(h), 0) };
 }
 
 // ---- Crops -------------------------------------------------------------------------------------------------------------

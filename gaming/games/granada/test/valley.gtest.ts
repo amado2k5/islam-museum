@@ -286,6 +286,34 @@ describe("the mosque, the mill, the bridge and the roads", () => {
     expect(scenery.cartRoads.length).toBe(2);
     for (const road of scenery.cartRoads) expect(road.length).toBeGreaterThan(20);
   });
+
+  it("grazes its flocks on open, dry ground: off the fields, the roads, the water and the houses", () => {
+    const scenery = buildScenery(7, { authoredTown: true, authoredHill: true });
+    expect(scenery.pastures.length).toBe(5);
+    for (const [x, z, r] of scenery.pastures as Array<[number, number, number]>) {
+      // Every point of the pasture's edge, not only its middle.
+      for (let k = 0; k < 12; k++) {
+        const px = x + Math.cos((k / 12) * Math.PI * 2) * (r + 3);
+        const pz = z + Math.sin((k / 12) * Math.PI * 2) * (r + 3);
+        expect(fieldAt(px, pz), `a flock at ${x.toFixed(0)}, ${z.toFixed(0)} strays into a field`).toBeNull();
+        expect(Math.abs(pz - riverZ(px))).toBeGreaterThan(RIVER_HALF + 10);
+        expect(Math.hypot(px - POOL.x, pz - POOL.z)).toBeGreaterThan(POOL.r + 10);
+        for (const f of scenery.footprints) expect(Math.hypot(f.x - px, f.z - pz)).toBeGreaterThan(f.r);
+      }
+    }
+  });
+
+  it("sets a watch on the hill's wall and at its gate, and shops along the town's street", () => {
+    const scenery = buildScenery(7, { authoredTown: true, authoredHill: true });
+    // Seven stretches of the fourteen are walked, none of them the gate's own; two men stand outside the gate.
+    expect(scenery.guardWalks.length).toBe(7);
+    expect(scenery.gatePosts.length).toBe(2);
+    for (const [x, z] of scenery.gatePosts as Array<[number, number, number]>) expect(Math.hypot(x - HILL.x, z - HILL.z)).toBeGreaterThan(100);
+    // Nine stalls in the market as before, and more than a dozen shops beyond it, none inside a house.
+    expect(scenery.stalls.length).toBeGreaterThan(9 + 12);
+    for (const s of scenery.stalls.slice(9)) for (const f of scenery.footprints) expect(Math.hypot(f.x - s[0]!, f.z - s[2]!)).toBeGreaterThan(f.r);
+    expect(scenery.riderRoads.length).toBe(3);
+  });
 });
 
 describe("the mill as the game draws it and as the art pipeline made it", () => {

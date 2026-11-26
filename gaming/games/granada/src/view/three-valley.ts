@@ -16,7 +16,7 @@ import { ROBE_TINTS, awningMesh, palmMesh, personBodyMesh, personHeadMesh, stall
 import type { Atmosphere } from "@im/worldkit/atmosphere";
 import type { TextureData, TextureKind } from "@im/worldkit/textures";
 import { FOV, eyeOf, type Pose } from "./camera";
-import { basket, ladder } from "./buildings";
+import { basket, bird, guardGear, horse, ladder, sheep } from "./buildings";
 import { MODELS_AVAILABLE, disposeModel, disposeSharedMaterials, loadModel } from "./models";
 /**
  * The folder of this game's models on the host. A file on the host is never replaced, so a set that changes gets a
@@ -150,6 +150,14 @@ function walkingMatrix(out: Float32Array, o: number, x: number, y: number, z: nu
   out.set([c * cr * k, sr * k, -s * cr * k, 0, -c * sr * k, cr * k, s * sr * k, 0, s * k, 0, c * k, 0, x, y, z, 1], o);
 }
 const CARTS = 6;
+/** Sheep and goats to a flock, riders on the roads, and birds over the valley. They are scenery: the game's rules know nothing of them. */
+const FLOCK = 18;
+const RIDERS = 7;
+const BIRDS = 14;
+/** How high above its foot a man stands on the hill's wall. */
+const WALL_WALK = 7.2;
+const COATS: Rgb[] = [[0.42, 0.27, 0.16], [0.2, 0.17, 0.15], [0.62, 0.5, 0.36], [0.72, 0.7, 0.66], [0.33, 0.2, 0.12]];
+const FLEECE: Rgb[] = [[0.92, 0.9, 0.84], [0.86, 0.82, 0.74], [0.95, 0.93, 0.88], [0.3, 0.26, 0.22], [0.7, 0.6, 0.46]];
 const WHEAT_SPACING = 1.7;
 const VEG_SPACING = 2.6;
 const WALKERS = 64;
@@ -233,6 +241,18 @@ export class ValleyRenderer {
   private readonly modelFailures: string[] = [];
   private disposed = false;
   private carts!: THREE.InstancedMesh;
+  private flocks!: THREE.InstancedMesh;
+  private pastures: number[][] = [];
+  private horses!: THREE.InstancedMesh;
+  private riderBodies!: THREE.InstancedMesh;
+  private riderHeads!: THREE.InstancedMesh;
+  private riderRoads: Array<ReadonlyArray<readonly [number, number]>> = [];
+  private watchBodies!: THREE.InstancedMesh;
+  private watchHeads!: THREE.InstancedMesh;
+  private watchGear!: THREE.InstancedMesh;
+  private guardWalks: number[][] = [];
+  private gatePosts: number[][] = [];
+  private birds!: THREE.InstancedMesh;
   private cartRoads: Array<ReadonlyArray<readonly [number, number]>> = [];
   private lastTime = 0;
   private rain!: THREE.LineSegments;
@@ -485,6 +505,35 @@ export class ValleyRenderer {
     this.carts = instanced(scenery.cart, "prop", CARTS, true, true);
     this.carts.count = CARTS;
 
+    // Flocks at graze, riders on the roads, the watch on the hill's wall and at its gate, birds over the valley.
+    this.pastures = scenery.pastures;
+    this.riderRoads = scenery.riderRoads;
+    this.guardWalks = scenery.guardWalks;
+    this.gatePosts = scenery.gatePosts;
+    const paint = (im: THREE.InstancedMesh, count: number, tint: (i: number) => Rgb) => {
+      const c = im.instanceColor!.array as Float32Array;
+      for (let i = 0; i < count; i++) c.set(tint(i), i * 3);
+      im.count = count;
+      im.instanceColor!.needsUpdate = true;
+    };
+    this.flocks = instanced(sheep(), "prop", Math.max(1, this.pastures.length * FLOCK), true, true);
+    paint(this.flocks, this.pastures.length * FLOCK, (i) => FLEECE[(i * 7 + (i % 5)) % FLEECE.length]!);
+    this.horses = instanced(horse(), "prop", RIDERS, true, true);
+    paint(this.horses, RIDERS, (i) => COATS[i % COATS.length]!);
+    this.riderBodies = instanced(personBodyMesh(), "prop", RIDERS, true, true);
+    paint(this.riderBodies, RIDERS, (i) => ROBE_TINTS[(i * 3 + 1) % ROBE_TINTS.length]!);
+    this.riderHeads = instanced(personHeadMesh(), "prop", RIDERS, false, true);
+    this.riderHeads.count = RIDERS;
+    const watch = this.guardWalks.length + this.gatePosts.length;
+    this.watchBodies = instanced(personBodyMesh(), "prop", Math.max(1, watch), true, true);
+    paint(this.watchBodies, watch, () => [0.5, 0.14, 0.1]);
+    this.watchHeads = instanced(personHeadMesh(), "prop", Math.max(1, watch), false, true);
+    this.watchHeads.count = watch;
+    this.watchGear = instanced(guardGear(), "prop", Math.max(1, watch), true, true);
+    this.watchGear.count = watch;
+    this.birds = instanced(bird(), "prop", BIRDS, false, true);
+    this.birds.count = BIRDS;
+
     // People.
     this.bodies = instanced(personBodyMesh(), "prop", WALKERS + HARVESTERS, true, true);
     this.heads = instanced(personHeadMesh(), "prop", WALKERS + HARVESTERS, false, true);
@@ -590,7 +639,11 @@ export class ValleyRenderer {
     // Wind: everything that grows leans a little and comes back, more the higher it stands, each plant in its own
     // time. The clock is the water's, which stands still for a visitor who has asked for less motion.
     const phase = float(instanceIndex).mul(1.7);
-    const lean = positionLocal.y.mul(positionLocal.y).mul(0.0035);
+    // The height is counted only as far as a tall tree's top. A plant drawn in its own frame is measured from its
+    // foot; one that is part of a piece of scenery is measured from the sea, and on the hill, ninety metres up, the
+    // square of that bent every cypress to the ground. Past the limit a plant sways whole and no longer leans.
+    const height = min(positionLocal.y, float(14));
+    const lean = height.mul(height).mul(0.0035);
     m.positionNode = positionLocal.add(vec3(sin(this.waterTime.mul(1.3).add(phase)).mul(lean), 0, sin(this.waterTime.mul(0.9).add(phase.mul(0.6))).mul(lean).mul(0.7)));
     return m;
   }
@@ -786,7 +839,7 @@ export class ValleyRenderer {
     const p = positionWorld.xz;
     const t = this.waterTime;
     const canal = spec.id === "canalwater";
-    const n1 = texture(normal, p.mul(1 / (canal ? 5 : 16)).add(vec2(t.mul(-0.05), t.mul(0.012))));
+    const n1 = texture(normal, p.mul(1 / (canal ? 5 : 16)).add(vec2(t.mul(canal ? -0.05 : 0.11), t.mul(0.012))));
     const n2 = texture(normal, p.mul(1 / (canal ? 2.1 : 5.2)).add(vec2(t.mul(-0.09), t.mul(-0.03))));
     const n3 = texture(normal, p.mul(1 / (canal ? 15 : 52)).add(vec2(t.mul(-0.012), t.mul(0.005))));
     const blended = n1.rgb.add(n2.rgb).add(n3.rgb).div(3);
@@ -794,7 +847,17 @@ export class ValleyRenderer {
     const base: Rgb = canal ? [0.02, 0.16, 0.17] : [0.014, 0.1, 0.12];
     const deep = vec3(base[0] * 0.6, base[1] * 0.62, base[2] * 0.75);
     const shallow = vec3(base[0] * 1.6, base[1] * 1.6, base[2] * 1.4);
-    m.colorNode = mix(deep, shallow, n3.r.sub(0.5).mul(4).add(blended.b.sub(0.55).mul(2.2)).clamp(0, 1));
+    const still = mix(deep, shallow, n3.r.sub(0.5).mul(4).add(blended.b.sub(0.55).mul(2.2)).clamp(0, 1));
+    // The current, made visible: pale streaks that travel. On the river they are long, lie along its bed and are
+    // carried down it, each line of them wandering a little from side to side; on a channel they are short ripples
+    // crossing it at a slant, so they move whichever way the channel lies. They are drawn from the place and the
+    // clock alone, so a picture taken at a given second is always the same.
+    const along = canal ? p.x.add(p.y).mul(0.9) : p.x.mul(0.13);
+    const across = canal ? p.x.sub(p.y).mul(1.3) : p.y.mul(0.8);
+    const lines = sin(along.sub(t.mul(canal ? 2.2 : 1.4)).add(sin(across).mul(2))).mul(0.5).add(0.5);
+    const lanes = sin((canal ? p.x.sub(p.y).mul(0.6) : p.y.mul(1.9).add(p.x.mul(0.045))).add(sin(along.mul(0.31)).mul(1.5))).mul(0.5).add(0.5);
+    const foam = smoothstep(0.8, 0.98, lines).mul(smoothstep(0.35, 0.9, lanes)).mul(canal ? 0.16 : 0.5);
+    m.colorNode = mix(still, vec3(0.62, 0.74, 0.72), foam);
     m.ior = 1.33;
     return m;
   }
@@ -1242,6 +1305,7 @@ export class ValleyRenderer {
       instanceMatrix(carts, i * 16, x, heightAt(x, z, seed) + 0.16, z, Math.atan2((b[0] - a[0]) * dir, (b[1] - a[1]) * dir), 1, 1, 1);
     }
     this.carts.instanceMatrix.needsUpdate = true;
+    this.moveLife(still ? 0 : timeSeconds, seed);
     // People at the harvest: a picker reaches up and down, a reaper stoops and rises, a carrier goes to the store and back.
     let m = 0;
     for (const w of this.workSpots) {
@@ -1267,6 +1331,91 @@ export class ValleyRenderer {
     if (this.pipeline) this.pipeline.render();
     else this.renderer.render(this.scene, this.camera);
     this.cpuMs = performance.now() - t0;
+  }
+
+  /**
+   * The valley's other living things, each where the time of the clock puts it: nothing here is remembered from one
+   * frame to the next, so a picture taken at a given second is the same picture every time, and with motion reduced
+   * (time held at nought) they stand still where they are.
+   */
+  private moveLife(t: number, seed: number): void {
+    // Flocks: each animal ambles about a spot of its own inside the pasture, and now and then lowers its head to graze.
+    const flock = this.flocks.instanceMatrix.array as Float32Array;
+    this.pastures.forEach((p, f) => {
+      for (let k = 0; k < FLOCK; k++) {
+        const i = f * FLOCK + k;
+        const a = i * 2.399;
+        const r = p[2]! * (0.25 + 0.75 * ((i * 0.618) % 1));
+        const drift = t * 0.05 + i;
+        const x = p[0]! + Math.cos(a) * r + Math.sin(drift * 0.9 + i) * 2.4;
+        const z = p[1]! + Math.sin(a) * r + Math.cos(drift * 0.7 + i * 1.3) * 2.4;
+        const heading = Math.atan2(Math.cos(drift * 0.9 + i) * 0.9, -Math.sin(drift * 0.7 + i * 1.3) * 0.7);
+        const size = 0.9 + ((i * 13) % 7) * 0.05;
+        instanceMatrix(flock, i * 16, x, heightAt(x, z, seed) + 0.02, z, heading, size, size, size);
+      }
+    });
+    this.flocks.instanceMatrix.needsUpdate = true;
+    // Riders: out along a road and back at a trot, the rider seated on the horse's back.
+    const horses = this.horses.instanceMatrix.array as Float32Array;
+    const riders = this.riderBodies.instanceMatrix.array as Float32Array;
+    for (let i = 0; i < RIDERS; i++) {
+      const road = this.riderRoads[i % Math.max(1, this.riderRoads.length)];
+      if (!road || road.length < 2) continue;
+      const last = road.length - 1;
+      const u = ((t * 0.62 + i * 23.7) % (2 * last) + 2 * last) % (2 * last);
+      const back = u > last;
+      const at = back ? 2 * last - u : u;
+      const k = Math.min(last - 1, Math.floor(at));
+      const a = road[k]!;
+      const b = road[k + 1]!;
+      const s = at - k;
+      const dir = back ? -1 : 1;
+      const l = Math.hypot(b[0] - a[0], b[1] - a[1]) || 1;
+      // They keep to one side of the road, as the carts keep to its middle.
+      const x = a[0] + (b[0] - a[0]) * s - ((b[1] - a[1]) / l) * dir * 2.6;
+      const z = a[1] + (b[1] - a[1]) * s + ((b[0] - a[0]) / l) * dir * 2.6;
+      const heading = Math.atan2((b[0] - a[0]) * dir, (b[1] - a[1]) * dir);
+      const rise = Math.abs(Math.sin(t * 7 + i)) * 0.07;
+      const y = heightAt(x, z, seed) + 0.05 + rise;
+      instanceMatrix(horses, i * 16, x, y, z, heading, 1, 1, 1);
+      instanceMatrix(riders, i * 16, x, y + 0.86, z, heading, 0.95, 0.82, 0.95);
+    }
+    this.horses.instanceMatrix.needsUpdate = true;
+    (this.riderHeads.instanceMatrix.array as Float32Array).set(riders);
+    this.riderBodies.instanceMatrix.needsUpdate = true;
+    this.riderHeads.instanceMatrix.needsUpdate = true;
+    // The watch: a man paces his stretch of the wall and turns at its ends; two stand at the gate.
+    const watch = this.watchBodies.instanceMatrix.array as Float32Array;
+    this.guardWalks.forEach((w, i) => {
+      const l = Math.hypot(w[2]! - w[0]!, w[3]! - w[1]!) || 1;
+      const u = ((t * 0.9) / l + i * 0.31) % 2;
+      const back = u > 1;
+      // He keeps clear of the towers at the two ends.
+      const s = 0.12 + 0.76 * (back ? 2 - u : u);
+      const x = w[0]! + (w[2]! - w[0]!) * s;
+      const z = w[1]! + (w[3]! - w[1]!) * s;
+      instanceMatrix(watch, i * 16, x, heightAt(x, z, seed) + WALL_WALK, z, Math.atan2((w[2]! - w[0]!) * (back ? -1 : 1), (w[3]! - w[1]!) * (back ? -1 : 1)), 1.15, 1.15, 1.15);
+    });
+    this.gatePosts.forEach((g, j) => instanceMatrix(watch, (this.guardWalks.length + j) * 16, g[0]!, heightAt(g[0]!, g[1]!, seed) + 0.05, g[1]!, g[2]!, 1.15, 1.15, 1.15));
+    (this.watchHeads.instanceMatrix.array as Float32Array).set(watch);
+    (this.watchGear.instanceMatrix.array as Float32Array).set(watch);
+    this.watchBodies.instanceMatrix.needsUpdate = true;
+    this.watchHeads.instanceMatrix.needsUpdate = true;
+    this.watchGear.instanceMatrix.needsUpdate = true;
+    // Birds: slow circles high over the river and the fields, a few over the hill.
+    const birds = this.birds.instanceMatrix.array as Float32Array;
+    for (let i = 0; i < BIRDS; i++) {
+      const overHill = i % 4 === 3;
+      const cx = overHill ? 900 : 120 + ((i * 97) % 420) - 160;
+      const cz = overHill ? -140 : -60 + ((i * 53) % 260) - 90;
+      const r = 30 + (i % 5) * 14;
+      const a = t * (0.22 - (i % 3) * 0.04) * (i % 2 ? 1 : -1) + i * 1.9;
+      const x = cx + Math.cos(a) * r;
+      const z = cz + Math.sin(a) * r;
+      const size = 1.6 + (i % 3) * 0.5;
+      instanceMatrix(birds, i * 16, x, heightAt(cx, cz, seed) + 55 + (i % 4) * 9 + Math.sin(a * 0.5) * 3, z, Math.atan2(-Math.sin(a) * (i % 2 ? 1 : -1), Math.cos(a) * (i % 2 ? 1 : -1)), size, size * (0.7 + 0.5 * Math.sin(t * 5 + i)), size);
+    }
+    this.birds.instanceMatrix.needsUpdate = true;
   }
 
   resize(): void {
