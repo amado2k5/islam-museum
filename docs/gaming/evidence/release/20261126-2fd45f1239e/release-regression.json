@@ -1,0 +1,74 @@
+{
+ "base": "https://uat-games.islam.museum",
+ "release": "20261126-2fd45f1239e",
+ "commit": "2fd45f1239e27ab85f7ae65f2d184a9d97457da5",
+ "browser": "chrome 158.0.8127.38",
+ "viewport": [
+  1440,
+  900
+ ],
+ "atlasDate": "2026-11-26",
+ "ran": "2026-11-26T10:16:13.778Z",
+ "results": [
+  {
+   "id": "REL-02",
+   "outcome": "pass",
+   "saw": "5 of 5 addresses started: granada, golden-age, golden-age house-of-books, golden-age what-endures, atlas"
+  },
+  {
+   "id": "REL-03",
+   "outcome": "pass",
+   "saw": "in 3D: 5 of 5; without it when asked (no3d=1): 5 of 5"
+  },
+  {
+   "id": "HR-MARK",
+   "outcome": "pass",
+   "saw": "\"Historical review pending\" stands on 3 of 3 pages: Granada's brief, The Golden Age's brief, Atlas's reveal"
+  },
+  {
+   "id": "AT-08 mid-game",
+   "outcome": "pass",
+   "saw": "after a reload in the middle the game shows 3 finished rounds (3 were played)"
+  },
+  {
+   "id": "AT-01",
+   "outcome": "pass",
+   "saw": "five rounds played to the summary (1, 784, 0, 1000, 827)"
+  },
+  {
+   "id": "AT-02",
+   "outcome": "pass",
+   "saw": "pins placed by keyboard, typed coordinates, mouse"
+  },
+  {
+   "id": "AT-03",
+   "outcome": "pass",
+   "saw": "round 3 kept its region hint (true) and its century estimate (13)"
+  },
+  {
+   "id": "AT-04",
+   "outcome": "pass",
+   "saw": "the total shown, 2612 (the page says \"2,612 of 5,000\"), against the sum of the five rounds, 2612"
+  },
+  {
+   "id": "AT-07",
+   "outcome": "pass",
+   "saw": "the close reveal of round 2 came in 9 times; every round opened on the whole globe (widest zoom 1.25); the lit sphere was there at every round"
+  },
+  {
+   "id": "AT-08 finished",
+   "outcome": "pass",
+   "saw": "after a reload the finished game is still finished"
+  },
+  {
+   "id": "REL-01",
+   "outcome": "pass",
+   "saw": "release 20261126-2fd45f1239e at the start, 20261126-2fd45f1239e at the end"
+  },
+  {
+   "id": "console",
+   "outcome": "pass",
+   "saw": "no console error and no failed request on any page"
+  }
+ ]
+}

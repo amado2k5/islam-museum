@@ -96,6 +96,7 @@ const began = Date.now();
 const startedAt = new Date().toISOString();
 let years = 0;
 let cycles = 0;
+let photoMissed = 0;
 await game("window.__GR__.countersStartOver()");
 await page.locator("#speed-2").click();
 for (let minute = 1; minute <= minutes; minute++) {
@@ -121,12 +122,16 @@ for (let minute = 1; minute <= minutes; minute++) {
     if (threeD === "on") await game(`window.__GR__.stage().setPose(${JSON.stringify(POSES[cycles % POSES.length])})`);
     await page.keyboard.press(String(1 + (cycles % 5)));
     // Now and then: a field chosen, and Photo Mode visited.
-    if (threeD === "on" && cycles % 11 === 0 && (await page.locator("#view-photo").count())) {
-      await page.locator("#view-photo").click();
-      await page.locator("#photo-light").selectOption(["morning", "midday", "evening"][cycles % 3]!);
-      await page.waitForTimeout(700);
-      await page.locator("#photo-exit").click();
-      await page.locator("#speed-2").click();
+    // The days go on by themselves, so a year may end at any moment and its dialog then covers the page: Photo Mode
+    // is visited only when no dialog is open, and a visit a dialog cuts short is left for the next turn of the cycle.
+    if (threeD === "on" && cycles % 11 === 0 && (await page.locator("#view-photo").count()) && !(await page.locator("dialog[open]").count())) {
+      const entered = await page.locator("#view-photo").click({ timeout: 3000 }).then(() => true, () => false);
+      if (entered) {
+        await page.locator("#photo-light").selectOption(["morning", "midday", "evening"][cycles % 3]!);
+        await page.waitForTimeout(700);
+        await page.locator("#photo-exit").click();
+        await page.locator("#speed-2").click();
+      } else photoMissed += 1;
     }
   }
   // Each half hour the tab goes to the background for twenty seconds; each hour the window is resized and put back.
@@ -165,6 +170,7 @@ for (let minute = 1; minute <= minutes; minute++) {
     year: await game<number>("window.__GR__.state().year"),
     day: await game<number>("window.__GR__.state().day"),
     yearsEnded: years,
+    photoVisitsCutShort: photoMissed,
     errors: errors.length,
   };
   lines.push(line);
@@ -190,6 +196,7 @@ const report = {
   minutes,
   cycles,
   yearsEnded: years,
+    photoVisitsCutShort: photoMissed,
   summary: {
     worstP95Ms: Math.max(...lines.map((l) => l.p95Ms as number)),
     framesOver33Ms: lines.reduce((n, l) => n + (l.over33Ms as number), 0),
