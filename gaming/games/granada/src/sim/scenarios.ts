@@ -53,6 +53,27 @@ export const WATER_FOR_THE_VALLEY: Scenario = {
   },
   goal: { welfare: 60, households: 60, reserveDays: 20 },
   reward: dinars(40),
+  // A port on the coast, a few days off by cart. It pays less than the village asks for the same grain, so nothing
+  // bought here is worth carrying there; what it wants is oil, which the valley can press and the village cannot.
+  // Fiction: the name is a real port's, the prices, the buyer and the contract are invented for play.
+  trade: {
+    port: {
+      id: "malaga",
+      market: {
+        cash: dinars(6000),
+        goods: {
+          wheat: { inventory: 0, ask: dinars(40), bid: dinars(22) },
+          olives: { inventory: 0, ask: dinars(60), bid: dinars(34) },
+          oil: { inventory: 0, ask: dinars(300), bid: dinars(190) },
+        },
+      },
+      carriage: { wheat: dinars(2), olives: dinars(3), oil: dinars(4) },
+      cartsPerDay: 60,
+    },
+    // Five measures of olives to one of oil; the pressing is paid for each run.
+    press: { id: "olive-press", inputs: { olives: 5 }, outputs: { oil: 1 }, cost: dinars(12) },
+    contracts: [{ id: "oil-for-the-port", good: "oil", units: 8, byDay: 95, revenue: dinars(1680), transport: dinars(32), fees: dinars(20), penalty: dinars(300) }],
+  },
 };
 
 export const SCENARIOS: Record<string, Scenario> = { [WATER_FOR_THE_VALLEY.id]: WATER_FOR_THE_VALLEY };

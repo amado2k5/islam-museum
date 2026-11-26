@@ -1,9 +1,9 @@
 // Granada's saved game: one game, kept on the device, in the browser's own storage. Nothing leaves the device.
 // A save is believed only if it is of a version this code knows, names a scenario that exists, and passes every
 // rule the game itself must keep (the ledger's audit included): a damaged or tampered save is set aside, never
-// loaded half-right. Time does not pass while the game is closed: the day saved is the day resumed.
+// loaded half-right. A game saved under earlier rules is brought up to the present ones first. Time does not pass while the game is closed: the day saved is the day resumed.
 import { SCENARIOS } from "./sim/scenarios";
-import { VILLAGE_VERSION, invariants, type VillageState } from "./sim/village";
+import { invariants, upgradeVillage, type VillageState } from "./sim/village";
 
 export const SAVE_KEY = "im.granada.save.v1";
 export const SAVE_VERSION = 1;
@@ -31,9 +31,17 @@ export function readSave(store: Store): SaveRead {
   }
   if (typeof data?.v !== "number") return { status: "unreadable", why: "no-version" };
   if (data.v > SAVE_VERSION) return { status: "newer", version: data.v };
-  const state = data.state;
-  const sc = state && typeof state === "object" ? SCENARIOS[state.scenario] : undefined;
-  if (!state || !sc || state.version !== VILLAGE_VERSION) return { status: "unreadable", why: "unknown-game" };
+  const saved = data.state;
+  const sc = saved && typeof saved === "object" ? SCENARIOS[saved.scenario] : undefined;
+  if (!saved || !sc) return { status: "unreadable", why: "unknown-game" };
+  let state: VillageState | null;
+  try {
+    // A game saved under earlier rules is brought up to these, and then must pass every rule like any other.
+    state = upgradeVillage(sc, saved);
+  } catch {
+    return { status: "unreadable", why: "malformed" };
+  }
+  if (!state) return { status: "unreadable", why: "unknown-game" };
   try {
     const bad = invariants(sc, state);
     if (bad.length) return { status: "unreadable", why: "broken-rules" };

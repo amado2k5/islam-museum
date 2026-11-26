@@ -17,7 +17,8 @@ import { installCounters } from "@im/kernel/counters";
 import type { ValleyLook } from "../view/three-valley";
 import { drawMap } from "./map";
 import type { Stage } from "./stage";
-import { advice, fieldCards, marketRows, questRows, riverOfYear, skyAhead, stocks, workRows, yesterday, type FieldCard } from "./model";
+import { advice, fieldCards, marketRows,
+  tradeView, questRows, riverOfYear, skyAhead, stocks, workRows, yesterday, type FieldCard } from "./model";
 
 type Strings = Record<Exclude<keyof typeof en, "_meta">, string>;
 const LANGS = ["ar", "en", "ur", "fr", "es", "tr", "id"] as const;
@@ -191,6 +192,8 @@ async function main(): Promise<void> {
       case "arrived":
       case "left":
         return t(`event_${kind}`);
+      case "contract-failed":
+        return t("event_contract_failed");
       case "quest":
         return t("event_quest", { quest: t(a!), reward: Math.floor(sc.reward / MINOR) });
       default:
@@ -433,6 +436,57 @@ async function main(): Promise<void> {
           h("p", {}, `${t("market_have")}: ${num(m.have)}`),
           h("div", { class: "trade" }, h("span", {}, `${t("market_buy_at")} ${num(m.ask)}`), ...lots(m.canBuy).map((n) => h("button", { type: "button", "data-act": `buy-${m.good}-${n}`, title: t("market_total", { total: n * m.ask }), onclick: () => order({ kind: "buy", good: m.good, quantity: n }) }, t("market_buy", { n })))),
           h("div", { class: "trade" }, h("span", {}, `${t("market_sell_at")} ${num(m.bid)}`), ...lots(m.canSell).map((n) => h("button", { type: "button", "data-act": `sell-${m.good}-${n}`, title: t("market_total", { total: n * m.bid }), onclick: () => order({ kind: "sell", good: m.good, quantity: n }) }, t("market_sell", { n })))),
+        ),
+      ),
+      ...tradePanel(),
+    ];
+  }
+
+  /** The port, the press and the contract: everything here is an order the rules carry out, or it is not shown. */
+  function tradePanel(): Child[] {
+    const tv = tradeView(sc, state);
+    if (!tv) return [];
+    const lots = (most: number) => [...new Set([1, 10, most].filter((n) => n > 0 && n <= most))];
+    return [
+      h(
+        "section",
+        { class: "card", "data-part": "press" },
+        h("h2", {}, t("press_title")),
+        h("p", { class: "note" }, t("press_note", { each: tv.press.each, cost: tv.press.cost })),
+        tv.press.canRun > 0
+          ? h("div", { class: "trade" }, ...lots(tv.press.canRun).map((n) => h("button", { type: "button", "data-act": `press-${n}`, title: t("market_total", { total: n * tv.press.cost }), onclick: () => order({ kind: "press", runs: n }) }, t("press_run", { n }))))
+          : h("p", { class: "why" }, t("press_none")),
+      ),
+      h(
+        "section",
+        { class: "card", "data-part": "port" },
+        h("h2", {}, t("port_title")),
+        h("p", { class: "note" }, t("port_note")),
+        h("p", {}, t("port_carts", { used: tv.port.carted, max: tv.port.cartsPerDay })),
+        ...tv.port.rows.map((r) =>
+          h(
+            "div",
+            { class: "trade" },
+            h("span", {}, `${t(`good_${r.good}`)}: ${t("port_pays", { bid: r.bid, carriage: r.carriage, net: r.net })}`),
+            ...lots(r.canSend).map((n) => h("button", { type: "button", "data-act": `send-${r.good}-${n}`, title: t("market_total", { total: n * r.net }), onclick: () => order({ kind: "send", good: r.good, quantity: n }) }, t("port_send", { n }))),
+          ),
+        ),
+      ),
+      ...tv.contracts.map((c) =>
+        h(
+          "section",
+          { class: "card", "data-part": "contract", "data-state": c.state },
+          h("h2", {}, t("contract_title")),
+          h("p", {}, t("contract_terms", { units: c.units, good: t(`good_${c.good}`), revenue: c.revenue, costs: c.costs, penalty: c.penalty })),
+          c.state === "offered" && (c.daysLeft > 0 ? h("p", {}, t("contract_days", { days: c.daysLeft })) : h("p", { class: "why" }, t("contract_passed"))),
+          c.state === "offered" && c.daysLeft > 0 && h("button", { type: "button", "data-act": `accept-${c.id}`, disabled: !c.canAccept, onclick: () => order({ kind: "accept", contract: c.id }) }, t("contract_accept")),
+          c.state === "accepted" && h("p", {}, `${t("contract_progress", { have: c.delivered, want: c.units })} ${t("contract_days", { days: c.daysLeft })}`),
+          c.state === "accepted" &&
+            (c.canDeliver > 0
+              ? h("div", { class: "trade" }, ...lots(c.canDeliver).map((n) => h("button", { type: "button", "data-act": `deliver-${c.id}-${n}`, onclick: () => order({ kind: "deliver", contract: c.id, quantity: n }) && state.economy.contracts[c.id]!.state === "settled" && say(t("contract_settled")) }, t("contract_deliver", { n }))))
+              : h("p", { class: "why" }, t("contract_nothing"))),
+          c.state === "settled" && h("p", {}, t("contract_settled")),
+          c.state === "failed" && h("p", { class: "why" }, t("contract_failed")),
         ),
       ),
     ];

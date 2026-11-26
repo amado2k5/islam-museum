@@ -10,9 +10,11 @@
 // Vega of Granada; the museum has none yet (docs/gaming/granada/g0-discovery.md, section 6), and a screen that shows
 // them must say that they are simulation.
 import { hash32 } from "@im/kernel/prng";
-import { audit, dinars, freeCapacity, open, submit, type CommandResult, type EconomyCommand, type EconomyState, type Market } from "./economy";
+import { audit, dinars, freeCapacity, open, submit, type CommandResult, type EconomyCommand, type EconomyState, type Market, type Recipe } from "./economy";
 
-export const VILLAGE_VERSION = 1;
+// 2: trade beyond the village (a port reached by cart, a press, contracts). A game saved by version 1 has no port in
+// its books and is set aside, not loaded half-right.
+export const VILLAGE_VERSION = 2;
 export const SEASON_DAYS = 30;
 export const YEAR_DAYS = 120;
 export type Season = 0 | 1 | 2 | 3; // spring, summer, autumn, winter
@@ -70,6 +72,16 @@ export interface BranchDef {
   /** False for a branch that does not exist until the great works are done. */
   built: boolean;
 }
+/**
+ * Trade beyond the village. A port that buys what the valley sends by cart: its own prices and its own purse, a
+ * carriage paid on every unit, and only so many units as the carts can take in a day. A press that makes one good
+ * of another. And contracts: so much of a good by a day, at a price agreed, with a penalty if it is not kept.
+ */
+export interface TradeDef {
+  port: { id: string; market: Market; carriage: Record<string, number>; cartsPerDay: number };
+  press: Recipe;
+  contracts: Array<{ id: string; good: string; units: number; byDay: number; revenue: number; transport: number; fees: number; penalty: number }>;
+}
 export interface Scenario {
   id: string;
   startDay: number;
@@ -86,6 +98,8 @@ export interface Scenario {
   works: { repair: WorkDef & { branch: string; to: number }; expand: WorkDef & { opens: string; restores: string }; house: WorkDef & { housing: number; sites: number }; granary: WorkDef & { capacity: number; sites: number } };
   goal: { welfare: number; households: number; reserveDays: number };
   reward: number;
+  /** Trade beyond the village, where the scenario has it. */
+  trade?: TradeDef;
 }
 
 export type QuestId = "q01-water" | "q02-harvest" | "q03-reserve" | "q04-home" | "q05-granary";
@@ -150,6 +164,8 @@ export interface VillageState {
   /** Consecutive days of the things quests ask to be sustained. */
   streak: { eastWatered: number; reserve: number };
   everFull: boolean;
+  /** Units the carts have taken to the port today. */
+  carted: number;
   quests: Record<QuestId, boolean>;
   last: DayReport | null;
   outcome: null | { won: boolean; reasons: string[]; score: number };
@@ -163,7 +179,14 @@ export type VillageCommand =
   | { kind: "plant"; plot: string; crop: Crop }
   | { kind: "sell"; good: string; quantity: number }
   | { kind: "buy"; good: string; quantity: number }
-  | { kind: "water-first"; who: "households" | "fields" };
+  | { kind: "water-first"; who: "households" | "fields" }
+  /** Press: so many runs of the scenario's recipe. */
+  | { kind: "press"; runs: number }
+  /** Send goods to the port by cart, to be sold there at what the port pays. */
+  | { kind: "send"; good: string; quantity: number }
+  | { kind: "accept"; contract: string }
+  /** Send goods to the port on an accepted contract. */
+  | { kind: "deliver"; contract: string; quantity: number };
 export type Refusal =
   | "over"
   | "already-done"
@@ -182,13 +205,27 @@ export type Refusal =
   | "not-enough"
   | "market-out"
   | "market-poor"
-  | "no-room";
+  | "no-room"
+  | "no-trade"
+  | "carts-full"
+  | "unknown-contract"
+  | "contract-closed"
+  | "contract-late"
+  | "too-much";
 export type ActResult = { ok: true; money: number } | { ok: false; why: Refusal; detail?: Record<string, number> };
 
 // ---- Starting ----------------------------------------------------------------------------------------------------------
 
 export function newVillage(sc: Scenario, seed: number): VillageState {
-  const economy = open({ treasury: sc.treasury, capacity: sc.capacity, yard: sc.yard, stock: Object.fromEntries(Object.entries(sc.stock).map(([g, q]) => [g, { quantity: q }])), markets: { village: structuredClone(sc.market) } });
+  const trade = sc.trade;
+  const economy = open({
+    treasury: sc.treasury,
+    capacity: sc.capacity,
+    yard: sc.yard,
+    stock: Object.fromEntries(Object.entries(sc.stock).map(([g, q]) => [g, { quantity: q }])),
+    markets: { village: structuredClone(sc.market), ...(trade ? { [trade.port.id]: structuredClone(trade.port.market) } : {}) },
+    ...(trade ? { recipes: [structuredClone(trade.press)], contracts: trade.contracts.map((c) => ({ id: c.id, good: c.good, units: c.units, deadlineTick: c.byDay - sc.startDay, revenue: c.revenue, transport: c.transport, fees: c.fees, penalty: c.penalty })) } : {}),
+  });
   const plots: Record<string, PlotState> = {};
   for (const p of sc.plots) {
     const ripe = p.crop !== null && p.growth >= 1000;
@@ -213,6 +250,7 @@ export function newVillage(sc: Scenario, seed: number): VillageState {
     built: { house: 0, granary: 0, repaired: false, expanded: false },
     streak: { eastWatered: 0, reserve: 0 },
     everFull: false,
+    carted: 0,
     quests: { "q01-water": false, "q02-harvest": false, "q03-reserve": false, "q04-home": false, "q05-granary": false },
     last: null,
     outcome: null,
@@ -232,6 +270,31 @@ export const reserveDays = (s: VillageState): number => Math.floor(foodInStore(s
 export const treasuryOf = (s: VillageState): number => s.economy.treasury.available;
 
 /** The weather of a day: decided by the seed and the day alone, so that tomorrow can be shown today. */
+/**
+ * Brings a game saved by an earlier version of these rules up to this one, or returns null if it cannot be.
+ * From 1 to 2: the port, the press and the contracts are opened in the books as they would have been on the first
+ * day (the port's purse entered in the journal, so the audit still closes), the ledger's clock is set to the days
+ * already passed, and the carts stand empty. Nothing the player had is changed.
+ */
+export function upgradeVillage(sc: Scenario, saved: VillageState): VillageState | null {
+  if (saved.version === VILLAGE_VERSION) return saved;
+  if (saved.version !== 1) return null;
+  const s = structuredClone(saved) as VillageState;
+  s.version = VILLAGE_VERSION;
+  s.carted = 0;
+  const e = s.economy;
+  const tr = sc.trade;
+  if (tr && !e.markets[tr.port.id]) {
+    e.tick = Math.max(0, s.day - sc.startDay);
+    const m = structuredClone(tr.port.market);
+    if (m.cash > 0) e.journal.push({ seq: e.journal.length, tick: e.tick, commandId: "upgrade:2", asset: "money", from: "world", to: `market:${tr.port.id}`, amount: m.cash, why: "opening balance" });
+    e.markets[tr.port.id] = m;
+    e.recipes[tr.press.id] = structuredClone(tr.press);
+    for (const c of tr.contracts) e.contracts[c.id] = { id: c.id, good: c.good, units: c.units, deadlineTick: c.byDay - sc.startDay, revenue: c.revenue, transport: c.transport, fees: c.fees, penalty: c.penalty, state: "offered", delivered: 0, reservedUnits: 0, reservedCash: 0, owed: 0 };
+  }
+  return s;
+}
+
 export function weather(sc: Scenario, seed: number, day: number): { rain: boolean; inflow: number } {
   const season = seasonOf(day);
   const rain = hash32(`rain:${seed}:${day}`) % 100 < sc.water.rainChance[season];
@@ -329,7 +392,65 @@ function apply(sc: Scenario, s: VillageState, cmd: VillageCommand): ActResult {
       s.waterFirst = cmd.who;
       return { ok: true, money: 0 };
     }
+    case "press": {
+      if (!sc.trade) return { ok: false, why: "no-trade" };
+      if (!Number.isSafeInteger(cmd.runs) || cmd.runs <= 0) return { ok: false, why: "bad-quantity" };
+      const r = ledger(s, { kind: "process", recipe: sc.trade.press.id, runs: cmd.runs });
+      return r.ok ? { ok: true, money: r.money } : refused(r);
+    }
+    case "send": {
+      const port = sc.trade?.port;
+      if (!port) return { ok: false, why: "no-trade" };
+      if (!Number.isSafeInteger(cmd.quantity) || cmd.quantity <= 0) return { ok: false, why: "bad-quantity" };
+      const carriage = port.carriage[cmd.good];
+      if (!s.economy.markets[port.id]?.goods[cmd.good] || carriage === undefined) return { ok: false, why: "unknown-good" };
+      if (s.carted + cmd.quantity > port.cartsPerDay) return { ok: false, why: "carts-full", detail: { left: port.cartsPerDay - s.carted } };
+      // The carriage is paid on what leaves, and the port pays for what arrives: both or neither, so everything
+      // that could refuse the sale is looked at before a dinar is spent.
+      const m = s.economy.markets[port.id]!;
+      const bid = m.goods[cmd.good]!.bid;
+      if (have(s, cmd.good) < cmd.quantity) return { ok: false, why: "not-enough", detail: { have: have(s, cmd.good) } };
+      if (treasuryOf(s) < carriage * cmd.quantity) return { ok: false, why: "no-money", detail: { cost: carriage * cmd.quantity, have: treasuryOf(s) } };
+      if (m.cash < bid * cmd.quantity) return { ok: false, why: "market-poor", detail: { cash: m.cash } };
+      const paid = ledger(s, { kind: "spend", amount: carriage * cmd.quantity, why: `carriage to ${port.id}` });
+      if (!paid.ok) return refused(paid);
+      const sold = ledger(s, { kind: "sell", market: port.id, good: cmd.good, quantity: cmd.quantity });
+      if (!sold.ok) return refused(sold);
+      s.carted += cmd.quantity;
+      return { ok: true, money: sold.money - carriage * cmd.quantity };
+    }
+    case "accept": {
+      if (!sc.trade) return { ok: false, why: "no-trade" };
+      const r = ledger(s, { kind: "accept-contract", contract: cmd.contract });
+      return r.ok ? { ok: true, money: r.money } : refused(r);
+    }
+    case "deliver": {
+      const port = sc.trade?.port;
+      if (!port) return { ok: false, why: "no-trade" };
+      if (!Number.isSafeInteger(cmd.quantity) || cmd.quantity <= 0) return { ok: false, why: "bad-quantity" };
+      if (s.carted + cmd.quantity > port.cartsPerDay) return { ok: false, why: "carts-full", detail: { left: port.cartsPerDay - s.carted } };
+      const r = ledger(s, { kind: "deliver", contract: cmd.contract, quantity: cmd.quantity });
+      if (!r.ok) return refused(r);
+      s.carted += cmd.quantity;
+      return { ok: true, money: r.money };
+    }
   }
+}
+
+/** The ledger's refusals, in the words the village uses. */
+function refused(r: CommandResult & { ok: false }): ActResult {
+  const map: Record<string, Refusal> = {
+    "insufficient-stock": "not-enough",
+    "insufficient-funds": "no-money",
+    "market-out-of-stock": "market-out",
+    "market-short-of-cash": "market-poor",
+    "no-storage": "no-room",
+    "unknown-contract": "unknown-contract",
+    "wrong-contract-state": "contract-closed",
+    "contract-expired": "contract-late",
+    "over-delivery": "too-much",
+  };
+  return { ok: false, why: map[r.error] ?? "bad-quantity", ...(r.detail ? { detail: r.detail } : {}) };
 }
 
 // ---- A day -------------------------------------------------------------------------------------------------------------
@@ -341,6 +462,8 @@ export function tick(sc: Scenario, state: VillageState): VillageState {
   const day = s.day;
   const events: string[] = [];
   const sky = weather(sc, s.seed, day);
+  // The carts are back from the port, empty, for the day.
+  s.carted = 0;
 
   // 1. Water: the day's flow and the pool are shared out, households or fields first as the player has chosen.
   let water = sky.inflow + s.pool;
@@ -513,6 +636,14 @@ export function tick(sc: Scenario, state: VillageState): VillageState {
     }
   }
 
+  // Where there are contracts the ledger's clock moves with the day, and a promise not kept by its day fails there,
+  // once, with its penalty.
+  if (sc.trade) {
+    const open = Object.values(s.economy.contracts).filter((c) => c.state === "accepted").map((c) => c.id);
+    ledger(s, { kind: "advance", ticks: 1 });
+    for (const id of open) if (s.economy.contracts[id]!.state === "failed") events.push(`contract-failed:${id}`);
+  }
+
   s.last = { day, rain: sky.rain, inflow: sky.inflow, townWater, townNeed, eaten, foodNeed: need, workers, idle: free, events };
   s.day = day + 1;
   if (s.day > sc.endDay) s.outcome = judge(sc, s);
@@ -552,6 +683,8 @@ export function invariants(sc: Scenario, s: VillageState): string[] {
     if (p.growth < 0 || p.growth > 1000 || p.stress < 0 || p.stress > 900 || p.standing < 0) bad.push(`${id}: growth ${p.growth}, stress ${p.stress}, standing ${p.standing}`);
   }
   for (const w of s.works) if (w.labourLeft <= 0 || w.labourLeft > w.labour) bad.push(`work ${w.id} has ${w.labourLeft} of ${w.labour} days left`);
+  if (!Number.isSafeInteger(s.carted) || s.carted < 0 || s.carted > (sc.trade?.port.cartsPerDay ?? 0)) bad.push(`the carts carried ${s.carted} in a day`);
+  if (sc.trade && (!s.economy.markets[sc.trade.port.id] || !s.economy.recipes[sc.trade.press.id])) bad.push("the books have no port or no press");
   if (s.last) {
     if (s.last.townWater > s.last.townNeed || s.last.eaten > s.last.foodNeed || s.last.idle < 0 || s.last.idle > s.last.workers) bad.push(`the day's report does not add up: ${JSON.stringify(s.last)}`);
   }
