@@ -32,7 +32,8 @@
     "release:smoke": "tsx --tsconfig tsconfig.json tools/release-smoke.ts",
     "granada:village-lab": "tsx --tsconfig tsconfig.json games/granada/tools/village-lab.ts",
     "granada:play": "tsx --tsconfig tsconfig.json tools/granada-play.ts",
-    "build:release:music": "tsx --tsconfig tsconfig.json tools/build.ts --music-base ../media/music/"
+    "build:release:music": "tsx --tsconfig tsconfig.json tools/build.ts --music-base ../media/music/",
+    "traceability": "python3 tools/traceability.py"
   },
   "dependencies": {
     "@babylonjs/core": "9.37.2",

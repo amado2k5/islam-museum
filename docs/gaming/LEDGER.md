@@ -38,6 +38,15 @@ What follows from it, and what it does not settle:
 | The games' own build, test and deployment (four more messages the same afternoon, quoted in [`release-and-deploy.md`](release-and-deploy.md)): a separate suite; the website built and deployed for games only for pages and menus; files in R2 under `games/`, production and UAT, with the Workers that needs, following the website's process; the website's workflows never to build or deploy a game's code; and leave to merge the work to `main` | A release build, a games Worker at the games' own address, a publisher that moves a pointer, and workflows shaped like the website's | **Built and merged in the ninth pull request; never run against Cloudflare.** Starting a deployment stays the founder's |
 | A gameplay video in English and Arabic | Made from the real game once it is ready, with the voices of the two films he attached (`marketing/place-walkthrough/`: Kokoro `af_heart` for English, SILMA TTS v1 for Arabic) and the museum's suite as the music | Not started; waits for a game worth filming. Posting it anywhere is his |
 
+## The corrective mandate (25 November 2026)
+
+On 25 November 2026 the founder gave an outside reviewer's audit of the platform against his own specifications, written as fourteen pieces of corrective work (0 to 13), with the words "process this after what you are doing now". It is kept byte for byte in [`spec-corrective/`](spec-corrective/), and from now the order of work is its order: **the baseline (0), then the P0 pieces: Granada's art (1) and economy (2), The Golden Age's economic scaling (5), Atlas's unfair rounds and images (7), and the preparation of human playtests (12)**; the rest follow. Granada stays first.
+
+- The reviewer could not reach UAT and played nothing; it says so. Its findings are the repository's own documents read back, and each is checked against the repository before it is acted on.
+- It adds no gate. [`traceability.md`](traceability.md) is the one table of every gate and every piece of this work, generated from the gate files and [`spec-corrective/plan.json`](spec-corrective/plan.json), so it cannot disagree with them. Each piece lands as its own pull request and moves its own line.
+- Numbers the mandate proposes (win-rate targets, a rubric score) are its proposals and are recorded as such, not as gates.
+- What waits on the founder is listed on that page: the art tool, the testers, the held images, a rollback on UAT, production.
+
 ## The eleven games, one by one (25 November 2026)
 
 **Three exist. Eight are designs only.** "Stage" is the status in `gaming/games/registry.json`, or `planned` for a game with no code. The share done is the author's estimate against that game's own design document, not a measurement.
@@ -368,7 +377,7 @@ The full district at the end is about 1.56 million triangles and about 950 draw 
 ## Unresolved defects and known limits
 
 1. Figures are placeholder cylinders; buildings are undetailed; water, sky and market are simple (M1 report, "Honest visual assessment").
-2. Microsoft Edge is untested: the lab did not start under automation.
+2. Microsoft Edge: the graphics lab's benchmark did not start under automation in Edge 157, and that is unexplained. The games themselves do run in it: on 25 November 2026 all three opened on UAT in Edge 157 in 3D with no console error ([`evidence/corrective/baseline/`](evidence/corrective/baseline/)). Nothing has been measured in Edge.
 3. No soak, leak, device-loss, resize or suspension test exists.
 4. The three flagship presets barely differ.
 5. Only one machine has been measured.
@@ -424,6 +433,8 @@ npm --prefix gaming run dev
 Then `http://127.0.0.1:4330/games/granada/index.html?lang=ar`, `http://127.0.0.1:4330/games/golden-age/index.html?lang=ar` and `http://127.0.0.1:4330/games/atlas/index.html?lang=ar`. What a first player notices in the first minute, where they stop, and what they try that the game refuses is the evidence the next round of work most needs.
 
 ## Next executable tasks
+
+**Since the corrective mandate (25 November 2026) the order is that of [`traceability.md`](traceability.md): pieces 1, 2, 5, 7 and 12 first.** The list below is the order from before it, kept for what each item says; where the two differ, the page wins.
 
 In order. Each is a pull request of its own.
 

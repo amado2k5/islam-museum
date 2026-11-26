@@ -2,18 +2,23 @@
 // each game starts, the music control is there, nothing sounds before a click, a track plays after one, and the
 // console stays empty. It reads only; it changes nothing on the host.
 // It also says whether each game came up in 3D, and keeps a capture of each if a folder is named.
-// Usage: npx tsx --tsconfig tsconfig.json tools/uat-check.ts [base=https://uat-games.islam.museum] [lang=ar] [captures dir]
+// It opens the five addresses of the outside-review brief (Granada, The Golden Age's three chapters, Atlas), each in a
+// fresh browser context, so no saved game of anyone's is touched. BROWSER=msedge runs it in Edge. With a folder named
+// it keeps a capture of each page and writes its report there as uat-check-<browser>-<lang>.json.
+// Usage: [BROWSER=chrome|msedge] npx tsx --tsconfig tsconfig.json tools/uat-check.ts [base=https://uat-games.islam.museum] [lang=ar] [captures dir]
+import { writeFileSync } from "node:fs";
 import { chromium } from "playwright-core";
 
 const base = process.argv[2] ?? "https://uat-games.islam.museum";
 const lang = process.argv[3] ?? "ar";
 const shots = process.argv[4];
-const browser = await chromium.launch({ channel: "chrome", headless: false, args: ["--mute-audio", "--window-size=1500,1000", "--window-position=0,0"] });
-const report: Record<string, unknown> = { base, lang, games: [] as unknown[] };
+const channelName = process.env.BROWSER ?? "chrome";
+const browser = await chromium.launch({ channel: channelName, headless: false, args: ["--mute-audio", "--window-size=1500,1000", "--window-position=0,0"] });
+const report: Record<string, unknown> = { base, lang, browser: `${channelName} ${browser.version()}`, viewport: [1440, 900], games: [] as unknown[] };
 const problems: string[] = [];
 const channel = await (await fetch(`${base}/_channel`)).json();
 report.live = channel.current;
-for (const game of ["granada", "golden-age", "atlas"]) {
+for (const [game, extra] of [["granada", ""], ["golden-age", ""], ["golden-age", "&scenario=house-of-books"], ["golden-age", "&scenario=what-endures"], ["atlas", ""]] as const) {
   const context = await browser.newContext({ viewport: { width: 1440, height: 900 } });
   const page = await context.newPage();
   const errors: string[] = [];
@@ -26,7 +31,13 @@ for (const game of ["granada", "golden-age", "atlas"]) {
     if (r.url().endsWith(".m4a")) tracks.push(r.status());
     else if (r.status() >= 400) errors.push(`${r.status()} ${r.url()}`);
   });
-  await page.goto(`${base}/${game}/?lang=${lang}&fresh=1`);
+  await page.goto(`${base}/${game}/?lang=${lang}${extra}&fresh=1`);
+  if (!report.gpu) {
+    // What this browser offers for WebGPU on this machine, in its own words.
+    report.gpu = await page.evaluate("(async () => { if (!navigator.gpu) return 'no navigator.gpu'; const a = await navigator.gpu.requestAdapter(); if (!a) return 'no adapter'; const i = a.info ?? {}; return { vendor: i.vendor ?? '', architecture: i.architecture ?? '', device: i.device ?? '', description: i.description ?? '', maxTextureDimension2D: a.limits.maxTextureDimension2D }; })()");
+    report.userAgent = await page.evaluate("navigator.userAgent");
+    report.devicePixelRatio = await page.evaluate("devicePixelRatio");
+  }
   const hook = game === "granada" ? "__GR__" : game === "golden-age" ? "__GA__" : null;
   if (hook) {
     for (const end = Date.now() + 90_000; !(await page.evaluate(`Boolean(window.${hook} && (window.${hook}.ready || window.${hook}.error))`)); ) {
@@ -56,17 +67,18 @@ for (const game of ["granada", "golden-age", "atlas"]) {
   if (shots) {
     if (game === "granada") await page.locator("#brief-start").click().catch(() => {});
     await page.waitForTimeout(game === "granada" ? 9500 : 1500);
-    await page.screenshot({ path: `${shots}/uat-${game}-${lang}.png` });
+    await page.screenshot({ path: `${shots}/uat-${channelName}-${game}${extra.replace(/[&=]/g, '-')}-${lang}.png` });
   }
   if (!control) problems.push(`${game}: no music control`);
   if (before !== 0) problems.push(`${game}: a track was asked for before any click`);
   if (!tracks.some((s) => s === 206 || s === 200)) problems.push(`${game}: no track arrived after a click (${tracks.join(", ") || "none asked for"})`);
   if (playing === false) problems.push(`${game}: the music did not start after a click`);
   for (const e of errors) problems.push(`${game}: ${e}`);
-  (report.games as unknown[]).push({ game, musicControl: Boolean(control), trackResponses: tracks, playing, in3d: threeD, consoleErrors: errors.length });
+  (report.games as unknown[]).push({ game: `${game}${extra}`, musicControl: Boolean(control), trackResponses: tracks, playing, in3d: threeD, consoleErrors: errors.length });
   await context.close();
 }
 await browser.close();
 report.problems = problems;
 console.log(JSON.stringify(report, null, 1));
+if (shots) writeFileSync(`${shots}/uat-check-${channelName}-${lang}.json`, `${JSON.stringify(report, null, 1)}\n`);
 if (problems.length) process.exit(1);
