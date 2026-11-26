@@ -120,7 +120,7 @@
      "shows": "Granada the capital, dense with houses, a market, walls and a river",
      "mustDo": "A town that grows with housing built and is where people live, trade and work",
      "today": "partly",
-     "todayNote": "A village of tiled houses, a mosque, a mill and a bridge, built by code; one authored building",
+     "todayNote": "A village of tiled houses, a mosque, a mill and a bridge; the player can add houses where the ground allows, and each houses ten households. The town does not grow by itself",
      "disposition": "implement",
      "work": [
       "A1",
@@ -201,8 +201,8 @@
      "where": "World",
      "shows": "A new royal castle under construction at 64%, with scaffolding, cranes and a green outline of a tower about to be placed",
      "mustDo": "Building takes time, workers and materials, is seen being built, and is placed by the player with a preview that refuses bad ground",
-     "today": "absent",
-     "todayNote": "Works are ordered from a list and stand on fixed lots",
+     "today": "partly",
+     "todayNote": "The player places a building on the land, in 3D or on the plan, with a ring that is green where the ground takes it and red where it does not, and the reason in words; building takes workers, materials and days, with scaffolding while it goes up. No castle, no crane or percentage over the site, and the preview is a ring, not the building's outline",
      "disposition": "implement",
      "work": [
       "G2",
@@ -322,8 +322,8 @@
      "where": "Bottom",
      "shows": "A construction catalogue: housing, agriculture, industry, infrastructure, castle, culture, gardens; wall, tower, gate, courtyard, keep, palace wing, residence, reservoir",
      "mustDo": "Every item can be built, costs what it says, and does something",
-     "today": "absent",
-     "todayNote": "Four works: a house, a granary, the repair, the extension",
+     "today": "partly",
+     "todayNote": "A catalogue of four things in four kinds: a house (housing), a granary (agriculture), a cistern (infrastructure), a garden (gardens). Each costs what it says and does one thing. No industry, castle or culture, and none of the target's castle pieces",
      "disposition": "implement",
      "work": [
       "G2",

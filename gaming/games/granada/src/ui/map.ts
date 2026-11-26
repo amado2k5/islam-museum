@@ -24,6 +24,8 @@ export interface MapView {
   season: number;
   rain: boolean;
   selected: string | null;
+  /** What the player has placed, in the valley's own metres, each with the words to say for it. */
+  placed?: Array<{ what: string; x: number; z: number; done: boolean; label: string }>;
   labels: { title: string; river: string; pool: string; village: string; store: string; market: string; mountain: string; fieldLabel: (f: FieldCard) => string; channel: Record<"flowing" | "weak" | "none", string> };
 }
 
@@ -128,7 +130,32 @@ export function drawMap(root: SVGSVGElement, v: MapView, onField: (id: string) =
   );
   if (v.granary !== "none") root.append(svg("g", { class: `store granary${v.granary === "under-way" ? " building" : ""}` }, svg("rect", { x: 576, y: 372, width: 50, height: 30 }), svg("path", { d: "M570,372 L601,354 L632,372 Z", class: "roof" })));
   root.append(svg("g", { class: "market" }, svg("path", { d: "M800,496 L852,496 L846,480 L806,480 Z" }), svg("rect", { x: 806, y: 496, width: 40, height: 16 })), svg("text", { x: 826, y: 530, class: "map-label small", "text-anchor": "middle" }, v.labels.market));
+  // What the player has placed, where it stands: dashed while it is being built.
+  for (const p of v.placed ?? []) {
+    const [px, py] = [p.x + 500, p.z + 280];
+    const g = svg("g", { class: `placed ${p.what}${p.done ? "" : " building"}`, "data-placed": p.what }, svg("title", {}, p.label));
+    if (p.what === "house") g.append(svg("rect", { x: px - 9, y: py - 6, width: 18, height: 13 }), svg("path", { d: `M${px - 12},${py - 6} L${px},${py - 15} L${px + 12},${py - 6} Z`, class: "roof" }));
+    else if (p.what === "granary") g.append(svg("rect", { x: px - 13, y: py - 7, width: 26, height: 15 }), svg("path", { d: `M${px - 16},${py - 7} L${px},${py - 17} L${px + 16},${py - 7} Z`, class: "roof" }));
+    else if (p.what === "cistern") g.append(svg("circle", { cx: px, cy: py, r: 10 }), svg("circle", { cx: px, cy: py, r: 6.5, class: "water" }));
+    else g.append(svg("rect", { x: px - 10, y: py - 10, width: 20, height: 20, rx: 2 }), svg("circle", { cx: px - 4, cy: py - 4, r: 3, class: "leaf" }), svg("circle", { cx: px + 4, cy: py + 4, r: 3, class: "leaf" }), svg("circle", { cx: px + 4, cy: py - 4, r: 3, class: "leaf" }), svg("circle", { cx: px - 4, cy: py + 4, r: 3, class: "leaf" }));
+    root.append(g);
+  }
   if (v.rain) for (let i = 0; i < 26; i++) root.append(svg("path", { d: `M${(i * 211) % 1000},${(i * 97) % 520} l-6,16`, class: "rain" }));
   // North, so nobody has to guess which way the valley lies.
   root.append(svg("g", { class: "north", "aria-hidden": "true" }, svg("path", { d: "M40,52 L48,24 L56,52 L48,46 Z" })));
+}
+
+/** Shows (or takes away) the ground the player is thinking of building on: a ring, and a word for it, never colour alone. */
+export function setMapGhost(root: SVGSVGElement, g: { x: number; z: number; r: number; ok: boolean; label: string } | null): void {
+  root.querySelector(".ghost")?.remove();
+  if (!g) return;
+  const [px, py] = [g.x + 500, g.z + 280];
+  root.append(
+    svg(
+      "g",
+      { class: `ghost ${g.ok ? "ok" : "bad"}`, "aria-hidden": "true" },
+      svg("circle", { cx: px, cy: py, r: g.r }),
+      g.ok ? svg("path", { d: `M${px - 5},${py} L${px - 1},${py + 4} L${px + 6},${py - 5}`, class: "mark" }) : svg("path", { d: `M${px - 5},${py - 5} L${px + 5},${py + 5} M${px + 5},${py - 5} L${px - 5},${py + 5}`, class: "mark" }),
+    ),
+  );
 }
