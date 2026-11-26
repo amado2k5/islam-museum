@@ -5,6 +5,8 @@ import { loadMusicStrings, musicControl } from "@im/audio/control";
 import { MUSIC_AVAILABLE, MUSIC_BASE, MusicPlayer } from "@im/audio/player";
 import { Cues, type Cue } from "../audio/cues";
 import { HAIRS, OUTFITS, SKINS, keeper as paintKeeper, portrait } from "../art/cast";
+import { CLOCK_QUEST } from "../content/clock";
+import { clockQuest, type ClockQuest } from "./clock";
 import { JAR, RECORDS, SCRIPTS, THINGS, TURN_SLACK, inPlay, type PlayStyle, type Speaker } from "../content/workshop";
 import { start, type Running } from "../game/boot";
 import { Input } from "../input/input";
@@ -145,6 +147,9 @@ async function main(): Promise<void> {
   // The goal and the talk sit over the picture on a wide screen and beside it on a narrow one (ui/hudhud.css).
   const stageWrap = el("div", { class: "stage-wrap", hidden: true }, objective, stage, talkBox);
   const hub = el("section", { class: "hub" });
+  // The second quest is played on a page of its own, beside the Atlas and the flying scene.
+  const bench = el("section", { class: "bench", hidden: true });
+  let clockRun: ClockQuest | null = null;
   stage.setAttribute("role", "application");
   stage.setAttribute("aria-label", t("canvas_label"));
 
@@ -169,7 +174,7 @@ async function main(): Promise<void> {
   const wordsBox = el("div", { class: "words" }, words, about);
   words.hidden = true;
   // The skip link lands here, on the Atlas or on the quest, whichever is showing.
-  const main = el("main", { id: "play", tabIndex: -1 }, hub, stageWrap);
+  const main = el("main", { id: "play", tabIndex: -1 }, hub, bench, stageWrap);
   app.append(bar, main, wordsBox, live, sheets);
 
   let toastTimer = 0;
@@ -465,6 +470,13 @@ async function main(): Promise<void> {
 
   // ---------------------------------------------------------------------------------------- sheets
   function sheet(title: string, ...body: Array<Node | null | false>): HTMLElement {
+    // A sheet that is already open is not opened a second time on top of itself (the toolbar stays in reach while a
+    // sheet is up): the one that is open is shown again.
+    const open = [...sheets.querySelectorAll<HTMLElement>(".sheet")].find((x) => x.firstElementChild?.getAttribute("aria-label") === title);
+    if (open) {
+      (open.querySelector("h2") as HTMLElement | null)?.focus({ preventScroll: true });
+      return open;
+    }
     const back = document.activeElement as HTMLElement | null;
     const close = () => {
       node.remove();
@@ -776,7 +788,7 @@ async function main(): Promise<void> {
   // The first thing a player sees: who they are, and the Atlas itself, ten worlds of five pages. One quest can be
   // played; the others are named and said to be not built. Nothing here is a claim about history: the names are
   // the subjects' names and the grouping is a structure for play.
-  const BUILT: Record<string, string> = { "ibn-al-haytham": QUEST };
+  const BUILT: Record<string, string> = { "ibn-al-haytham": QUEST, "al-jazari": CLOCK_QUEST };
   function startQuest(): void {
     cues.unlock();
     // Asked once, after a press as browsers require; the answer is shown in the settings and never asked again.
@@ -793,8 +805,51 @@ async function main(): Promise<void> {
     stage.focus({ preventScroll: true });
     render();
   }
+  /** Opens the elephant clock: a quest played on the page, with no flying scene. It is not kept in the middle. */
+  function startClock(): void {
+    cues.unlock();
+    hub.hidden = true;
+    atlasBtn.hidden = false;
+    clockRun = clockQuest({
+      t,
+      num,
+      lang,
+      museum: MUSEUM,
+      title: subjectName("al-jazari"),
+      style,
+      reducedMotion: () => settings().reducedMotion,
+      tick: () => cues.play("line"),
+      chime: () => cues.play("restored"),
+      finish: (g) => {
+        save = { ...save, slots: save.slots.map((s, i) => (i === save.slot && s ? recordQuest(s, CLOCK_QUEST, g) : s)) };
+        // The place kept in the middle of the other quest is not this quest's to change.
+        keep();
+      },
+      leave: () => toAtlas(),
+    });
+    bench.replaceChildren(clockRun.node);
+    bench.hidden = false;
+    // The note and the controls under the page are the flying scene's; this quest carries its own note. Nothing here
+    // can be paused, so the pause button is put away.
+    wordsBox.hidden = true;
+    pauseBtn.hidden = true;
+    (bench.querySelector("h2") as HTMLElement | null)?.focus({ preventScroll: true });
+  }
   /** Leaves the quest for the Atlas. A quest in the middle stays saved; a finished one is cleared for another play. */
   function toAtlas(): void {
+    if (clockRun) {
+      clockRun.stop();
+      clockRun = null;
+      bench.replaceChildren();
+      bench.hidden = true;
+      wordsBox.hidden = false;
+      pauseBtn.hidden = false;
+      atlasBtn.hidden = true;
+      hub.hidden = false;
+      drawHub();
+      (hub.querySelector(`button[data-quest="${CLOCK_QUEST}"]`) as HTMLElement | null)?.focus({ preventScroll: true });
+      return;
+    }
     setPaused(false);
     sheets.replaceChildren();
     pauseNode = null;
@@ -844,6 +899,14 @@ async function main(): Promise<void> {
           const story = sub.kind === "literature" ? el("small", { textContent: t("quest_story") }) : null;
           if (!quest) return el("li", { class: "closed" }, el("span", { textContent: name }), story, el("small", { textContent: t("quest_closed") }));
           const rec = quests[quest];
+          if (quest === CLOCK_QUEST) {
+            // One button on the Atlas is the main one (the flying scene); this trial quest has an ordinary button.
+            const b = el("button", { type: "button", textContent: t(rec?.done ? "quest_again" : "quest_play", { name }), onclick: () => startClock() });
+            b.dataset.quest = quest;
+            const item = el("li", { class: "open" }, b, el("small", { textContent: t("ck_trial") }));
+            if (rec?.done) item.append(el("small", { textContent: t("quest_home", { n: num([rec.curiosity, rec.ingenuity, rec.kindness, rec.feather].filter(Boolean).length) }) }));
+            return item;
+          }
           const label: Key = resumed ? "quest_continue" : rec?.done ? "quest_again" : "quest_play";
           const li = el("li", { class: "open" }, el("button", { type: "button", class: "primary", textContent: t(label, { name }), onclick: () => startQuest() }), story);
           if (rec?.done) li.append(el("small", { textContent: t("quest_home", { n: num([rec.curiosity, rec.ingenuity, rec.kindness, rec.feather].filter(Boolean).length) }) }));
@@ -885,6 +948,9 @@ async function main(): Promise<void> {
     saveReady: () => ready.then(() => durable?.settled()).then(() => saveStatus),
     persistence: () => persistence,
     toAtlas: () => toAtlas(),
+    startClock: () => startClock(),
+    clock: () => (clockRun ? { ...clockRun.state(), busy: clockRun.busy() } : null),
+    clockCommand: (c: Parameters<ClockQuest["command"]>[0]) => clockRun?.command(c),
     resumed: () => resumed,
     keys: () => settings().keys,
   });

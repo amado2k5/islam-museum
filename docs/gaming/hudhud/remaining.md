@@ -6,10 +6,10 @@ _26 November 2026. The founder asked, in chat: "what is remaining for this game 
 
 | | Asked for | Exists today |
 |---|---|---|
-| Playing time | 20 to 30 hours on the main path, 40 to 60 for mastery | one scene of a few minutes |
+| Playing time | 20 to 30 hours on the main path, 40 to 60 for mastery | one scene of a few minutes, and a second trial quest of about five |
 | Quests | 50 | 1 playable; the other 49 named in the Atlas and marked "Not built yet" |
 | Worlds | 10, each with its own thread and a part of the hub it restores | 10 named; none has a thread |
-| Systems of play | 12 | 3 in the game (flight, the beam, talk); the rules of a 4th (a chain of parts) built and tested, in no quest |
+| Systems of play | 12 | 3 in the flying scene (flight, the beam, talk); a 4th (a chain of parts) in the elephant clock trial quest, played with page controls |
 | Hub | a drawn place that visibly restores | a page of words: worlds, pages, how many are home |
 | Prologue | 15 to 30 minutes that teach by doing | none |
 | Art | a look the founder accepts; cast, places, effects for 50 subjects | a code-drawn trial, not accepted, and by the author's own judgment below the founder's pictures |

@@ -4,7 +4,7 @@ _26 November 2026. Release status: **prototype**. Working title. Instruction, pl
 
 ## What exists
 
-The game opens on **the Atlas**: a page that names the ten worlds and their fifty subjects in seven languages, says how many pages are home, and lets the player choose a girl or a boy explorer. One quest can be played from it; the other forty-nine are named and marked "Not built yet", and the two that are story tradition say so. A finished quest returns to the Atlas with its page home.
+The game opens on **the Atlas**: a page that names the ten worlds and their fifty subjects in seven languages, says how many pages are home, and lets the player choose a girl or a boy explorer. Two quests can be played from it (the light workshop, and a second, short trial quest (al-Jazari's elephant clock: a row of parts put in order with ordinary page controls and a simple code-drawn picture, no flying scene, not kept in the middle)); the other forty-nine are named and marked "Not built yet", and the two that are story tradition say so. A finished quest returns to the Atlas with its page home.
 
 ![The Atlas](../evidence/hudhud/golden-scene/atlas-en.webp)
 
@@ -23,7 +23,7 @@ _Captures of the running game, Chrome, 26 November 2026, made by `gaming/tools/h
 
 ## What it is not
 
-- **Not the game.** The instruction asks for ten worlds, fifty quests and 20 to 30 hours. This is one scene. Phases 2 to 4 are not started.
+- **Not the game.** The instruction asks for ten worlds, fifty quests and 20 to 30 hours. This is one scene and one short trial quest. Phases 2 to 4 are not started.
 - **Not accepted art.** Every picture is drawn by code an AI agent wrote. Beside the founder's pictures it is plainly simpler ([the comparison and the routes to real art](../hudhud/art-bible.md)). The game's own page says the pictures are a trial.
 - **Not reviewed history.** Nine entries in [the ledger](../historical-review/ledger.md), all pending; no reviewer is named. The page says "Historical review pending" in seven languages, and every line the scholar speaks is marked "Imagined words, not a quotation". The prism of the founder's pictures, which no record read for the scene supports, is not shown.
 - **Not read by a native speaker.** Seven string tables, all machine drafts.
@@ -39,7 +39,7 @@ _Captures of the running game, Chrome, 26 November 2026, made by `gaming/tools/h
 | Play to scene | about 0.4 s |
 | Textures in memory | 20 MB (Low), 45 MB (Medium), 80 MB (High) |
 | Draw calls a frame | 15 to 20 |
-| Tests | 130 of its own and 28 of the shared platform; 512 in the workspace, all passing |
+| Tests | 140 of its own and 28 of the shared platform; 522 in the workspace, all passing |
 
 ## Next
 
