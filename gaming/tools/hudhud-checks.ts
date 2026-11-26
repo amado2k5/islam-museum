@@ -9,6 +9,7 @@ import { ATLASBOOK, worldCentre } from "../games/hudhud/src/art/atlasbook";
 import { algebraStart } from "../games/hudhud/src/content/algebra";
 import { moveName, shortest } from "../games/hudhud/src/sim/algebra";
 import { SHEETS_ART, sheetOrigin, sheetsLayout } from "../games/hudhud/src/art/sheets";
+import { SORT_ART, cardRects, trayRects } from "../games/hudhud/src/art/sort";
 import { leaveOpening } from "./hudhud-opening";
 import { serveWorkspace } from "./serve";
 
@@ -448,7 +449,7 @@ for (const lang of ["en", "ar"]) {
   // And the quest can be entered again from there.
   await playing(page);
   const again = await ev<{ turns: number; done: boolean }>(page, "({ turns: window.__HH__.state().turns, done: window.__HH__.state().done })");
-  record(`the Atlas shows ten worlds and fifty pages, five of them open, and one comes home (${lang})`, before.worlds === 10 && before.pages === 50 && before.open === 5 && before.stageHidden && /\D0\D|٠/.test(` ${before.progress} `) && /\D1\D|١/.test(` ${after.progress} `) && after.hubShown && after.canvases === 0 && !after.started && again.turns === 0 && !again.done, { before, after, again });
+  record(`the Atlas shows ten worlds and fifty pages, six of them open, and one comes home (${lang})`, before.worlds === 10 && before.pages === 50 && before.open === 6 && before.stageHidden && /\D0\D|٠/.test(` ${before.progress} `) && /\D1\D|١/.test(` ${after.progress} `) && after.hubShown && after.canvases === 0 && !after.started && again.turns === 0 && !again.done, { before, after, again });
   await ctx.close();
 }
 // The puzzle is not the same in the three ways of playing: five mirrors with two positions, six with three, seven with
@@ -699,14 +700,14 @@ for (const lang of ["en", "ar"]) {
   await page.getByRole("button", { name: "Back to the Atlas" }).last().click();
   const back = await ev<{ progress: string; label: string; benchHidden: boolean; primary: string; cipher: string; open: number }>(page, "({ progress: document.querySelector('.hub .progress').textContent, label: document.querySelector(\"button[data-quest='w02q2-al-khwarizmi']\").textContent, benchHidden: document.querySelector('.bench').hidden, primary: document.querySelector('.hub button.primary').textContent, cipher: document.querySelector(\"button[data-quest='w02q3-al-kindi']\").textContent, open: document.querySelectorAll('.hub .world li.open').length })");
   record("al-Khwarizmi's locked box can be played with the page's own buttons: the problem said in words at every step in a polite live region, a move that does not apply is a slip that says so, both questions, the child, the feather, the fewest moves, four goals, the links, and the Atlas counts it",
-    isPlain && /^Play: /.test(label ?? "") && /Five quests are built/.test(hubNote) && heading === "al-Khwarizmi" && first === "3 things less 4 equal 1 thing and 6" && page1.live === "polite" && page1.polite === "polite" && page1.role === "img" && (page1.alt ?? "").includes(first) && page1.inline === 0 && page1.trial &&
+    isPlain && /^Play: /.test(label ?? "") && /Six quests are built/.test(hubNote) && heading === "al-Khwarizmi" && first === "3 things less 4 equal 1 thing and 6" && page1.live === "polite" && page1.polite === "polite" && page1.role === "img" && (page1.alt ?? "").includes(first) && page1.inline === 0 && page1.trial &&
     page1.buttons.map((b) => b.move).join() === "restore-left-number,balance-things,balance-number,share" && page1.buttons.every((b) => b.w >= 44 && b.h >= 44 && !b.off) &&
     /^Balancing does not apply here\.$/.test(slip.words ?? "") && slip.sentence === first && slip.v.slips === 1 && slip.v.moves === 0 &&
     asked.flags.slice().sort().join() === "answered,askedOps,askedWords,feather,kind" &&
     path.join() === "restore-left-number,balance-things,share" && said.join(" | ") === "3 things equal 1 thing and 10 | 2 things equal 10 | 1 thing equal 5" && onRestoreFocus.join() === "BUTTON" &&
     end.done && end.moves === 3 && end.slips === 1 && end.met === 4 && end.focus === "The page is home" && end.saved && end.resume === null && end.notes === 8 &&
     end.links.join() === "https://islam.museum/en/person/al-khwarizmi/,https://islam.museum/en/work/al-jabr-wal-muqabala/,https://islam.museum/en/invention/algebra/" && /Historical review pending/.test(end.pending) &&
-    /\D1\D/.test(` ${back.progress} `) && /^Play again: /.test(back.label) && back.benchHidden && /Ibn al-Haytham/.test(back.primary) && /^Play: /.test(back.cipher) && back.open === 5,
+    /\D1\D/.test(` ${back.progress} `) && /^Play again: /.test(back.label) && back.benchHidden && /Ibn al-Haytham/.test(back.primary) && /^Play: /.test(back.cipher) && back.open === 6,
     { label, isPlain, heading, first, page1, slip, asked, path, said, onRestoreFocus, end, back, hubNote });
   await ctx.close();
   // Left in the middle: one move made, the page loaded again, and the Atlas says Continue; the same sentence is there.
@@ -815,14 +816,14 @@ for (const lang of ["en", "ar"]) {
   const picture = await ev<{ home: number[]; open: number[] }>(page, "window.__HH__.atlasPicture()");
   const rowsOk = page1.rows === 3 && page1.perRow.join() === "4,4,4";
   record("al-Idrisi's scattered sheets can be played with the page's own buttons: a button for every place in the right rows and columns, the page says how many seams do not match, two buttons and two touches on the picture each make one exchange, both questions, the helper, the feather, the sheets put in order, four goals, the links, and the Atlas counts it",
-    isPlain && /^Play: /.test(label ?? "") && /Five quests are built/.test(hubNote) && heading === "al-Idrisi" && rowsOk && page1.labels[0] === `Row 1, place 1: sheet ${v0.grid[0]}` && page1.labels[11] === `Row 3, place 4: sheet ${v0.grid[11]}` && page1.sized && page1.pressed.every((x) => x === "false") &&
+    isPlain && /^Play: /.test(label ?? "") && /Six quests are built/.test(hubNote) && heading === "al-Idrisi" && rowsOk && page1.labels[0] === `Row 1, place 1: sheet ${v0.grid[0]}` && page1.labels[11] === `Row 3, place 4: sheet ${v0.grid[11]}` && page1.sized && page1.pressed.every((x) => x === "false") &&
     page1.role === "img" && matched >= 0 && page1.status === `Seams that do not match: ${31 - matched} of 31.` && page1.live === "polite" && page1.inline === 0 && page1.trial && page1.edgeRows === 12 && /^What the edges of each sheet carry/.test(page1.caption) && page1.summary === "The edges of every sheet, in words" &&
     held.pressed === "true" && held.selected === 0 && new RegExp(`Row 1, place 1, sheet ${v0.grid[0]} is chosen`).test(held.hint) &&
     viaButtons.moves === 1 && viaButtons.selected === null && viaButtons.grid[0] === v0.grid[1] && viaButtons.grid[1] === v0.grid[0] && /Exchanged row 1, place 1 with row 1, place 2\./.test(said1 ?? "") &&
     letGo.v.moves === 1 && letGo.v.selected === null && /Let go/.test(letGo.said ?? "") && touched.selected === 2 && touched.moves === 1 && viaPicture.moves === 2 && viaPicture.selected === null && viaPicture.grid[2] === viaButtons.grid[3] && viaPicture.grid[3] === viaButtons.grid[2] &&
     asked.flags.slice().sort().join() === "answered,askedBook,askedMaps,feather,kind" && end.done && end.moves === 2 + exchanges && end.met === (end.moves <= 9 ? 4 : 3) && end.focus === "The page is home" && end.saved && end.resume === null && end.notes === 6 && end.disabled &&
     end.links.join() === "https://islam.museum/en/person/al-idrisi-muhammad-ibn-abd-allah/,https://islam.museum/en/work/nuzhat-al-mushtaq/" && /Historical review pending/.test(end.pending) &&
-    /\D1\D/.test(` ${back.progress} `) && /^Play again: /.test(back.label) && back.benchHidden && /Ibn al-Haytham/.test(back.primary) && /^Play: /.test(back.algebra) && back.open === 5 && picture.open.join() === "2,3" && picture.home[2] === 1,
+    /\D1\D/.test(` ${back.progress} `) && /^Play again: /.test(back.label) && back.benchHidden && /Ibn al-Haytham/.test(back.primary) && /^Play: /.test(back.algebra) && back.open === 6 && picture.open.join() === "2,3,9" && picture.home[2] === 1,
     { label, isPlain, heading, v0, page1, matched, held, viaButtons, said1, letGo, touched, viaPicture, asked, exchanges, end, back, picture, hubNote });
   await ctx.close();
   // Left in the middle: one exchange made, the page loaded again, and the Atlas says Continue; the sheets lie as they did.
@@ -897,6 +898,170 @@ for (const lang of ["en", "ar"]) {
     t1.selected === 0 && t2.moves === 1 && t2.selected === null && t2.grid[0] === a0.grid[1] && t2.grid[1] === a0.grid[0],
     { arView, t1: t1.selected, t2: { moves: t2.moves, grid: t2.grid.slice(0, 3) }, a0grid: a0.grid.slice(0, 3) });
   await arCtx.close();
+}
+// The sixth quest, al-Jahiz and the animal cards: a list of choices for every card and the key in words, a showing with a
+// card unplaced refused and not counted, a wrong showing that says how many cards are right, both questions (and the
+// hoopoe lines after the second), the girl answered kindly, the feather, a card put in a tray by two touches on the
+// picture, the rest by the lists, four goals, the links, and the Atlas counts it (world 9 is open). Then a card placed,
+// the page loaded again, and "Continue"; the Challenge way of playing, with five groups; the page in Arabic, with the
+// trays from the right; and the page scrolled when a quest is opened and when the Atlas is returned to.
+{
+  const QUEST = "w09q1-al-jahiz";
+  type SortView = { moves: number; shows: number; flags: string[]; done: boolean; placed: Record<string, string | null>; answer: Record<string, string>; selected: string | null; status: string; items: string[]; groups: string[] };
+  const sv = (page: Page) => ev<SortView>(page, "(() => { const a = window.__HH__.sort(); return { moves: a.moves, shows: a.shows, flags: a.flags, done: a.done, placed: a.placed, answer: a.answer, selected: a.selected, status: a.status, items: a.items, groups: a.groups }; })()");
+  /** The middle of a card, or of the top of a tray, in the picture's space, turned into where to click on the canvas. */
+  const at = async (page: Page, s: SortView, what: { card: string } | { tray: number }, rtl: boolean): Promise<[number, number]> => {
+    await page.locator(".bench canvas.sort-art").scrollIntoViewIfNeeded();
+    const box = (await page.locator(".bench canvas.sort-art").boundingBox())!;
+    const placed = s.items.map((i) => (s.placed[i] === null ? null : s.groups.indexOf(s.placed[i]!)));
+    let x: number;
+    let y: number;
+    if ("card" in what) {
+      const r = cardRects({ items: s.items, placed, groups: s.groups.length, rtl })[s.items.indexOf(what.card)]!;
+      [x, y] = [r.x + r.w / 2, r.y + r.h / 2];
+    } else {
+      const r = trayRects(s.groups.length, rtl)[what.tray]!;
+      [x, y] = [r.x + r.w / 2, r.y + 8];
+    }
+    return [box.x + (x / SORT_ART.w) * box.width, box.y + (y / SORT_ART.h) * box.height];
+  };
+  const pick = (page: Page, item: string, group: string) => page.locator(`.bench select[data-item='${item}']`).selectOption(group);
+  const ctx = await browser.newContext({ viewport: { width: 1280, height: 900 } });
+  let page = await open(ctx, "&style=explorer");
+  const button = page.locator(`.hub button[data-quest='${QUEST}']`);
+  const isPlain = await button.evaluate((b) => !b.classList.contains("primary"));
+  const label = await button.textContent();
+  const hubNote = await ev<string>(page, "[...document.querySelectorAll('.hub p.small')].map((p) => p.textContent).join(' | ')");
+  await button.click();
+  await page.waitForFunction("window.__HH__.sort() !== null");
+  const heading = await page.locator(".bench h2").textContent();
+  const page1 = await ev<{ selects: number; labels: string[]; options: string[]; key: string[]; alt: string | null; role: string | null; inline: number; trial: boolean; live: string | null; keyTitle: string; focus: string; sized: boolean; show: boolean }>(page, "(() => ({ selects: document.querySelectorAll('.bench select[data-item]').length, labels: [...document.querySelectorAll('.bench .places label > span')].map((s) => s.textContent), options: [...document.querySelector(\"select[data-item='bat']\").options].map((o) => o.textContent), key: [...document.querySelectorAll('.bench ol.tray-key li')].map((l) => l.textContent), alt: document.querySelector('.bench canvas.sort-art').getAttribute('aria-label'), role: document.querySelector('.bench canvas.sort-art').getAttribute('role'), inline: document.querySelectorAll('.bench [style]:not(canvas)').length, trial: /first trial/.test(document.querySelector('.bench').textContent), live: document.querySelector('.bench .ran').getAttribute('aria-live'), keyTitle: document.querySelector('.bench h3').textContent, focus: document.activeElement.tagName, sized: [...document.querySelectorAll('.bench select[data-item]')].every((s) => s.getBoundingClientRect().height >= 44), show: [...document.querySelectorAll('.bench button')].some((b) => b.textContent === 'Show al-Jahiz') }))()");
+  if (outDir) await page.screenshot({ path: resolve(outDir, "hudhud-sort-bench.png"), fullPage: true });
+  const show = page.getByRole("button", { name: "Show al-Jahiz" });
+  // A showing with every card unplaced is refused and not counted; so is one with a card unplaced.
+  await show.click();
+  const refused0 = { v: await sv(page), said: await page.locator(".bench .ran").textContent() };
+  await pick(page, "eagle", "exp_in");
+  await show.click();
+  const refused1 = { v: await sv(page), said: await page.locator(".bench .ran").textContent() };
+  // Every card in its group, but the bat outside the birds: a wrong showing that says how many are right, and is counted.
+  for (const item of ["vulture", "crow", "ostrich", "locust", "bee", "fly"]) await pick(page, item, item === "vulture" || item === "crow" ? "exp_in" : "exp_out");
+  await pick(page, "bat", "exp_out");
+  await show.click();
+  const wrong = { v: await sv(page), said: await page.locator(".bench .ran").textContent() };
+  // Both questions, and the hoopoe after the second; the girl, kindly; the feather.
+  await page.getByRole("button", { name: "Ask about his division of animals" }).click();
+  const hoopoeBefore = await page.locator(".bench .said").textContent();
+  await page.getByRole("button", { name: "Ask about the birds" }).click();
+  const said2 = (await page.locator(".bench .said").textContent()) ?? "";
+  await page.getByRole("button", { name: "Talk to the girl who carries the cards" }).click();
+  await page.getByRole("button", { name: "It is all right. We will sort them together." }).click();
+  await page.getByRole("button", { name: "Look among the cards" }).click();
+  const asked = await sv(page);
+  // The bat is put in the birds by two touches on the picture: the card, then the first tray.
+  await page.mouse.click(...(await at(page, asked, { card: "bat" }, false)));
+  const chose = { v: await sv(page), hint: await ev<string>(page, "[...document.querySelectorAll('.bench p.small')].map((p) => p.textContent).join(' | ')") };
+  await page.mouse.click(...(await at(page, chose.v, { tray: 0 }, false)));
+  const moved = await sv(page);
+  const selectValue = await page.locator("select[data-item='bat']").inputValue();
+  await show.click();
+  await page.waitForSelector(".bench .results:not([hidden])");
+  const end = await ev<{ done: boolean; shows: number; met: number; focus: string; links: string[]; pending: string; saved: boolean; resume: unknown; notes: number; disabled: boolean; progress: string }>(page, "({ done: window.__HH__.sort().done, shows: window.__HH__.sort().shows, met: document.querySelectorAll('.bench .results .goals .met').length, focus: document.activeElement ? document.activeElement.textContent : '', links: [...document.querySelectorAll('.bench .results a')].map((a) => a.getAttribute('href')), pending: document.querySelector('.bench .results .pending').textContent, saved: JSON.parse(localStorage.getItem('im.hudhud.save.v1') || '{}').slots?.[0]?.quests?.['w09q1-al-jahiz']?.done === true, resume: JSON.parse(localStorage.getItem('im.hudhud.save.v1') || '{}').slots?.[0]?.resume ?? null, notes: document.querySelectorAll('.bench .results .note p').length, disabled: [...document.querySelectorAll('.bench select[data-item]')].every((x) => x.disabled), progress: document.querySelector('.bench .results > p').textContent })");
+  if (outDir) await page.screenshot({ path: resolve(outDir, "hudhud-sort-results.png"), fullPage: true });
+  await page.getByRole("button", { name: "Back to the Atlas" }).last().click();
+  const back = await ev<{ progress: string; label: string; benchHidden: boolean; primary: string; open: number; headingInView: boolean; focus: string }>(page, "(() => { const h = document.querySelector('.hub h2'); const r = h.getBoundingClientRect(); return { progress: document.querySelector('.hub .progress').textContent, label: document.querySelector(\"button[data-quest='w09q1-al-jahiz']\").textContent, benchHidden: document.querySelector('.bench').hidden, primary: document.querySelector('.hub button.primary').textContent, open: document.querySelectorAll('.hub .world li.open').length, headingInView: r.top >= 0 && r.bottom <= innerHeight, focus: document.activeElement === h ? 'H2' : document.activeElement.tagName }; })()");
+  const picture = await ev<{ home: number[]; open: number[] }>(page, "window.__HH__.atlasPicture()");
+  const slotKept = await ev<string | null>(page, "JSON.parse(localStorage.getItem('im.hudhud.save.v1') || '{}').slots?.[0]?.quests?.['w09q1-al-jahiz'] ? 'recorded' : null");
+  record("al-Jahiz's animal cards can be played with the page's own controls: a list of choices for every card and the key in words, a showing with a card unplaced is refused and not counted, a wrong showing says how many are right, both questions with the hoopoe after the second, the girl, the feather, a card put in a tray by two touches on the picture, four goals, the links, and the Atlas counts it with world 9 open",
+    isPlain && /^Play: /.test(label ?? "") && /Six quests are built/.test(hubNote) && heading === "al-Jahiz" && page1.selects === 8 && page1.labels[3] === "Where does the bat go?" && page1.options.join("|") === "not placed yet|Tray 1: counted among the birds|Tray 2: not counted among the birds" && page1.key.join("|") === "Tray 1: counted among the birds|Tray 2: not counted among the birds" && page1.keyTitle === "The trays, in words" &&
+    page1.role === "img" && /Trays: 2/.test(page1.alt ?? "") && /Cards in a tray: 0 of 8/.test(page1.alt ?? "") && page1.live === "polite" && page1.inline === 0 && page1.trial && page1.sized && page1.show && page1.focus === "H2" &&
+    refused0.v.shows === 0 && /Cards not placed: 8/.test(refused0.said ?? "") && refused1.v.shows === 0 && refused1.v.moves === 1 && /Cards not placed: 7/.test(refused1.said ?? "") &&
+    wrong.v.shows === 1 && !wrong.v.done && wrong.v.moves === 8 && /Cards that are right: 7 of 8/.test(wrong.said ?? "") && !/hoopoe/i.test(hoopoeBefore ?? "") && /third part of his book/.test(said2) && /I am in his book!/.test(said2) &&
+    asked.flags.slice().sort().join() === "answered,askedBirds,askedDivision,feather,kind" && chose.v.selected === "bat" && /The bat card is chosen/.test(chose.hint) && moved.placed.bat === "exp_in" && moved.selected === null && moved.moves === 9 && selectValue === "exp_in" &&
+    end.done && end.shows === 1 && end.met === 4 && end.focus === "The page is home" && end.saved && end.resume === null && end.notes === 7 && end.disabled && /Cards placed: 8 of 8 · Showings that failed: 1/.test(end.progress) &&
+    end.links.join() === "https://islam.museum/en/person/al-jahiz/,https://islam.museum/en/work/kitab-al-hayawan/" && /Historical review pending/.test(end.pending) &&
+    /\D1\D/.test(` ${back.progress} `) && /^Play again: /.test(back.label) && back.benchHidden && /Ibn al-Haytham/.test(back.primary) && back.open === 6 && picture.open.join() === "2,3,9" && picture.home[8] === 1 && slotKept === "recorded" && back.headingInView && back.focus === "H2",
+    { label, isPlain, heading, page1, refused0, refused1, wrong, hoopoeBefore: hoopoeBefore?.slice(-120), said2: said2.slice(-260), asked, chose, moved, selectValue, end, back, picture, hubNote });
+  await ctx.close();
+  // Left in the middle: one card placed, the page loaded again, and the Atlas says Continue; the card is where it was.
+  const ctx2 = await browser.newContext({ viewport: { width: 1280, height: 900 } });
+  page = await open(ctx2, "&style=explorer");
+  await page.locator(`.hub button[data-quest='${QUEST}']`).click();
+  await pick(page, "bat", "exp_in");
+  await pick(page, "ostrich", "exp_out");
+  const mid = await sv(page);
+  const keptNow = await ev<{ quest: string; snap: { moves: number; placed: Record<string, string | null> } } | null>(page, "JSON.parse(localStorage.getItem('im.hudhud.save.v1') || '{}').slots?.[0]?.resume ?? null");
+  await ev(page, "window.__HH__.saveReady()");
+  await page.reload();
+  await page.waitForFunction("window.__HH__ && window.__HH__.ready");
+  const hubLabels = await ev<{ label: string; restart: number; flying: boolean; primary: string }>(page, "({ label: document.querySelector(\"button[data-quest='w09q1-al-jahiz']\").textContent, restart: [...document.querySelectorAll('.hub li.open button')].filter((b) => b.textContent === 'Start this quest again').length, flying: window.__HH__.resumed(), primary: document.querySelector('.hub button.primary').textContent })");
+  await page.locator(`.hub button[data-quest='${QUEST}']`).click();
+  const after = await sv(page);
+  const shownValues = await ev<string[]>(page, "[...document.querySelectorAll('.bench select[data-item]')].map((s) => s.value)");
+  if (outDir) await page.screenshot({ path: resolve(outDir, "hudhud-sort-resumed.png"), fullPage: true });
+  record("al-Jahiz's animal cards left in the middle are kept, the Atlas says Continue and offers a new start, and the cards stand where they were when the quest is opened again",
+    mid.moves === 2 && keptNow?.quest === QUEST && keptNow.snap.moves === 2 && keptNow.snap.placed.bat === "exp_in" && /^Continue: /.test(hubLabels.label) && hubLabels.restart === 1 && !hubLabels.flying && /^Play: /.test(hubLabels.primary) &&
+    after.placed.bat === "exp_in" && after.placed.ostrich === "exp_out" && after.placed.eagle === null && after.moves === 2 && shownValues.join() === ",,,exp_in,exp_out,,,",
+    { mid, keptNow, hubLabels, after, shownValues });
+  await ctx2.close();
+  // The Challenge way of playing has five groups, each a phrase of the passage; a wrong showing says only that it is not yet his division.
+  const ctx3 = await browser.newContext({ viewport: { width: 1280, height: 900 } });
+  page = await open(ctx3, "&style=challenge");
+  await page.locator(`.hub button[data-quest='${QUEST}']`).click();
+  const c0 = await ev<{ key: string[]; options: number; alt: string | null }>(page, "({ key: [...document.querySelectorAll('.bench ol.tray-key li')].map((l) => l.textContent), options: document.querySelector(\"select[data-item='bat']\").options.length, alt: document.querySelector('.bench canvas.sort-art').getAttribute('aria-label') })");
+  const startC = await sv(page);
+  for (const item of startC.items) await pick(page, item, item === "fly" ? "ch_talons" : startC.answer[item]!); // the fly in the wrong tray
+  if (outDir) await page.screenshot({ path: resolve(outDir, "hudhud-sort-challenge.png"), fullPage: true });
+  await page.getByRole("button", { name: "Show al-Jahiz" }).click();
+  const cw = { v: await sv(page), said: await page.locator(".bench .ran").textContent() };
+  await pick(page, "fly", "ch_wings");
+  await page.getByRole("button", { name: "Show al-Jahiz" }).click();
+  const cdone = await sv(page);
+  record("al-Jahiz's Challenge cards have five groups in the key, each a phrase of the passage; a wrong showing says only that it is not yet his division and is counted; the right one ends it",
+    c0.key.join("|") === "Tray 1: a bird of prey armed with talons|Tray 2: a bird of prey armed with a beak|Tray 3: counted among the birds, though it has no feathers|Tray 4: has feathers, but is not a bird|Tray 5: flies on two wings, but is not called a bird" && c0.options === 6 && /Trays: 5/.test(c0.alt ?? "") &&
+    cw.v.shows === 1 && !cw.v.done && (cw.said ?? "").trim() === "This is not yet his division." && cdone.done && cdone.shows === 1,
+    { c0, cw, cdone });
+  await ctx3.close();
+  // The page in Arabic runs right to left with Arabic numerals; the first tray and the first card are on the right, in the key and in a touch on the picture.
+  const arCtx = await browser.newContext({ viewport: { width: 1280, height: 900 } });
+  const ar = await arCtx.newPage();
+  ar.on("pageerror", (e) => errors.push(String(e)));
+  await ar.goto(`${served.base}/games/hudhud/index.html?lang=ar&music=off&style=explorer`);
+  await ar.waitForFunction("window.__HH__ && window.__HH__.ready");
+  await leaveOpening(ar);
+  await ar.locator(`.hub button[data-quest='${QUEST}']`).click();
+  const a0 = await sv(ar);
+  const arView = await ev<{ dir: string; heading: string; key: string[]; firstLabel: string; alt: string | null; keyTitle: string; show: string }>(ar, "({ dir: document.documentElement.dir, heading: document.querySelector('.bench h2').textContent, key: [...document.querySelectorAll('.bench ol.tray-key li')].map((l) => l.textContent), firstLabel: document.querySelector('.bench .places label > span').textContent, alt: document.querySelector('.bench canvas.sort-art').getAttribute('aria-label'), keyTitle: document.querySelector('.bench h3').textContent, show: [...document.querySelectorAll('.bench .row button.primary')].map((b) => b.textContent).join() })");
+  if (outDir) await ar.screenshot({ path: resolve(outDir, "hudhud-sort-bench-ar.png"), fullPage: true });
+  // Touch the first card (the right-most of the band) and then the first tray (the right-most of the two).
+  await ar.mouse.click(...(await at(ar, a0, { card: "eagle" }, true)));
+  const t1 = await sv(ar);
+  await ar.mouse.click(...(await at(ar, t1, { tray: 0 }, true)));
+  const t2 = await sv(ar);
+  const trayX = trayRects(2, true).map((r) => r.x);
+  record("al-Jahiz's animal cards in Arabic run right to left with Arabic numerals, put the first tray and the first card on the right in the picture and in a touch on it, and say the key in Arabic",
+    arView.dir === "rtl" && arView.heading === "الجاحظ" && arView.key.join("|") === "الصينية ١: معدود في الطير|الصينية ٢: غير معدود في الطير" && arView.firstLabel === "أين توضع بطاقة العُقاب؟" && /٢/.test(arView.alt ?? "") && arView.keyTitle === "الصواني بالكلمات" && arView.show === "اعرض على الجاحظ" &&
+    trayX[0]! > trayX[1]! && t1.selected === "eagle" && t2.placed.eagle === "exp_in" && t2.moves === 1 && t2.selected === null,
+    { arView, t1: t1.selected, t2: { moves: t2.moves, placed: t2.placed.eagle }, trayX });
+  await arCtx.close();
+  // Opening any quest played on a page from a scrolled Atlas brings its heading into view at the top, with focus on it; and so does returning to the Atlas.
+  const scrollCtx = await browser.newContext({ viewport: { width: 1280, height: 800 } });
+  page = await open(scrollCtx, "&style=explorer");
+  const scrolls: { quest: string; scrolledFrom: number; scrolledBack: number; inView: boolean; focused: boolean; atlasInView: boolean; atlasFocused: boolean }[] = [];
+  for (const start of ["startClock", "startCipher", "startAlgebra", "startSheets", "startSort"]) {
+    await ev(page, "window.scrollTo(0, document.body.scrollHeight)"); // the last world of the Atlas
+    const scrolledFrom = await ev<number>(page, "window.scrollY");
+    await ev(page, `window.__HH__.${start}()`);
+    const here = await ev<{ inView: boolean; focused: boolean }>(page, "(() => { const h = document.querySelector('.bench h2'); const r = h.getBoundingClientRect(); return { inView: r.top >= 0 && r.bottom <= innerHeight, focused: document.activeElement === h }; })()");
+    await ev(page, "window.scrollTo(0, document.body.scrollHeight)");
+    const scrolledBack = await ev<number>(page, "window.scrollY");
+    await ev(page, "window.__HH__.toAtlas()");
+    const atlas = await ev<{ inView: boolean; focused: boolean }>(page, "(() => { const h = document.querySelector('.hub h2'); const r = h.getBoundingClientRect(); return { inView: r.top >= 0 && r.bottom <= innerHeight, focused: document.activeElement === h }; })()");
+    scrolls.push({ quest: start, scrolledFrom, scrolledBack, inView: here.inView, focused: here.focused, atlasInView: atlas.inView, atlasFocused: atlas.focused });
+  }
+  record("opening any quest played on a page from the Atlas scrolled to its last world brings the quest's heading into view with focus on it, and returning to the Atlas does the same for its heading (all five page quests and the new one go through the one registry)",
+    scrolls.length === 5 && scrolls.every((s) => s.scrolledFrom > 300 && s.inView && s.focused && s.atlasInView && s.atlasFocused), { scrolls });
+  await scrollCtx.close();
 }
 // 6. The opening story, not skipped: a fresh visitor meets it before the Atlas, reads it through by the buttons, and
 // is not shown it again; it can be read again from the Atlas, and Escape leaves it. On an Arabic page the page runs
@@ -1017,7 +1182,7 @@ for (const lang of ["en", "ar"]) {
   let page = await open(ctx, "&style=explorer");
   const first = await bookView(page);
   if (outDir) (mkdirSync(outDir, { recursive: true }), await page.screenshot({ path: resolve(outDir, "atlas-picture-en.png"), fullPage: true }));
-  const present = first.role === "img" && /^The open Atlas: ten worlds, five pages each\. 0 of 50 pages are home\.$/.test(first.alt ?? "") && first.picture.worlds === 10 && first.picture.home.length === 10 && first.picture.home.every((n) => n === 0) && first.picture.open.join() === "2,3";
+  const present = first.role === "img" && /^The open Atlas: ten worlds, five pages each\. 0 of 50 pages are home\.$/.test(first.alt ?? "") && first.picture.worlds === 10 && first.picture.home.length === 10 && first.picture.home.every((n) => n === 0) && first.picture.open.join() === "2,3,9";
   const buttonsOk = first.buttons.length === 10 && first.buttons.every((b, i) => b.n === String(i + 1) && (b.label ?? "").startsWith(`World ${i + 1}: `) && b.w >= 44 && b.h >= 44) && first.buttons[0]!.label === "World 1: Sky, Stars and Time" && first.hasHeadings === 10 && /numbered buttons/.test(first.hint);
   // A click on a far world's medallion moves focus to that world's heading, and brings it into view.
   const far = await medallion(page, 9, false);
@@ -1050,7 +1215,7 @@ for (const lang of ["en", "ar"]) {
   await ev(page, "window.__HH__.toAtlas()");
   const after = await bookView(page);
   if (outDir) await page.screenshot({ path: resolve(outDir, "atlas-picture-en-one-home.png"), fullPage: true });
-  const redrawn = after.picture.home[1] === 1 && after.picture.home.filter((n) => n > 0).length === 1 && /1 of 50 pages are home\./.test(after.alt ?? "") && after.alt !== first.alt && after.picture.open.join() === "2,3";
+  const redrawn = after.picture.home[1] === 1 && after.picture.home.filter((n) => n > 0).length === 1 && /1 of 50 pages are home\./.test(after.alt ?? "") && after.alt !== first.alt && after.picture.open.join() === "2,3,9";
   await page.close();
   // Reduced motion: the world's list is there at once, not scrolled to smoothly.
   const calm = await open(ctx, "&motion=reduced");
@@ -1116,7 +1281,7 @@ for (const lang of ["en", "ar"]) {
   await ar.mouse.click((await medallion(ar, 10, true)).x, (await medallion(ar, 10, true)).y);
   await ar.waitForTimeout(900);
   const arTen = await focusedWorld(ar);
-  const arabic = arFirst.dir === "rtl" && arFirst.role === "img" && /عشرة عوالم/.test(arFirst.alt ?? "") && /٠ من ٥٠/.test(arFirst.alt ?? "") && arFirst.picture.open.join() === "2,3" && arFirst.buttons.length === 10 && arFirst.buttons[0]!.x > arFirst.buttons[9]!.x && one.x > one.box.x + one.box.width / 2 && ten.x < ten.box.x + ten.box.width / 2 && arOne === "1" && arTen === "10" && arFirst.buttons.every((x) => x.w >= 44 && x.h >= 44 && (x.label ?? "").startsWith("العالم "));
+  const arabic = arFirst.dir === "rtl" && arFirst.role === "img" && /عشرة عوالم/.test(arFirst.alt ?? "") && /٠ من ٥٠/.test(arFirst.alt ?? "") && arFirst.picture.open.join() === "2,3,9" && arFirst.buttons.length === 10 && arFirst.buttons[0]!.x > arFirst.buttons[9]!.x && one.x > one.box.x + one.box.width / 2 && ten.x < ten.box.x + ten.box.width / 2 && arOne === "1" && arTen === "10" && arFirst.buttons.every((x) => x.w >= 44 && x.h >= 44 && (x.label ?? "").startsWith("العالم "));
   await arCtx.close();
   await ctx.close();
   record(

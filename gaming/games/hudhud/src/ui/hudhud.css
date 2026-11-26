@@ -158,6 +158,9 @@ main:focus { outline: none; }
 .bench .glyph-name canvas { display: inline-block; width: auto; aspect-ratio: auto; border-width: 1px; border-radius: 8px; margin: 0; flex: none; }
 /* The fifth quest's page: the sheets of a map, played by a button for every place or by touching two sheets in the picture. */
 .bench canvas.sheets-art { aspect-ratio: 1000 / 480; cursor: pointer; }
+.bench canvas.sort-art { aspect-ratio: 1000 / 460; cursor: pointer; }
+.bench ul.places { grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); }
+.bench ol.tray-key { list-style: none; margin-block: 4px 10px; padding: 0; }
 .bench .sheet-rows { display: grid; gap: 8px; margin-block: 10px; }
 .bench .sheet-row { list-style: none; display: flex; flex-wrap: wrap; gap: 8px; margin: 0; padding: 0; }
 .bench .sheet-row button { min-width: 44px; min-height: 44px; text-align: start; }
