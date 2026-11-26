@@ -21,6 +21,29 @@ describe("the bird's movement", () => {
     expect(m.vx).toBeCloseTo(MOVE.run, 0);
     expect(m.facing).toBe(1);
   });
+  it("answers a short press with a short step: a tap is a nudge, and letting go stops the bird at once", () => {
+    // A tenth of a second of Right on the ground, then nothing: under 30 pixels in all, and still within a tenth more.
+    let m = run(newMover(100, 600), { ...still, dir: 1 }, secs(0.1));
+    const pressed = m.x - 100;
+    m = run(m, still, secs(0.1));
+    expect(m.vx).toBe(0);
+    expect(pressed).toBeLessThan(15);
+    expect(m.x - 100).toBeLessThan(25);
+    // From full speed on the ground the bird stops within 15 pixels.
+    m = run(newMover(100, 600), { ...still, dir: 1 }, secs(1));
+    const at = m.x;
+    m = run(m, still, secs(0.2));
+    expect(m.vx).toBe(0);
+    expect(m.x - at).toBeLessThan(15);
+    // In the air, at full speed, letting go carries it less than 35 pixels further (it was 66): a landing can be aimed.
+    m = run(newMover(100, 600), { ...still, dir: 1 }, secs(1));
+    m = stepMover(m, room, { dir: 1, jump: true, down: false });
+    const air = m.x;
+    m = run(m, still, secs(0.3));
+    expect(m.grounded).toBe(false);
+    expect(m.vx).toBe(0);
+    expect(m.x - air).toBeLessThan(35);
+  });
   it("hops from the ground, and flaps in the air a limited number of times until it lands", () => {
     let m = stepMover(newMover(100, 600), room, { ...still, jump: true });
     expect(m.vy).toBe(-MOVE.hop + MOVE.gravity * MOVE.step);
