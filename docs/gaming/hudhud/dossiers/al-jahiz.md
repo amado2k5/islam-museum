@@ -77,13 +77,13 @@ No secure place with coordinates is attached in the museum records read. Place r
 
 ## Three candidate quest premises
 
-These are proposals for Claude and the founder, not content.
+These are proposals for Claude and the founder, not content. They are deliberately conservative system scaffolding, not final quest designs. Each names one of the twelve systems in `design.md`; forms such as Measure, Journal, Care and Sail are not treated as separate systems. Claim numbers refer to the claims above.
 
-1. Players must observe and match historical facts about Al-Jahiz's life and works with the correct dates [1,7].
+1. A child helps compare accounts, objects or clues using the Observe and Match system to find what the evidence supports. This rests on claims [1, 2] as its evidence anchor; the compared materials, missing details, matching puzzle and the child's role are game invention, not record fact.
 
-2. In a quest, players use the Route system to navigate through Al-Jahiz's intellectual journey, distinguishing between his real-life experiences and fictional game elements [3,4].
+2. A child helps connect people, resources or pieces of knowledge so they reach where they are needed using the Network system. This rests on claims [1, 3] as its evidence anchor; the exact people or resources, missing links, network puzzle and the child's role are game invention, not record fact.
 
-3. Players engage in the Observe system to uncover the truth behind Al-Jahiz's interactions with the caliph, separating historical evidence from game invention [8].
+3. A child helps gather careful answers from people affected by a small local problem using the Talk system before deciding what to do. This rests on claims [1, 4] as its evidence anchor; the speakers, dialogue, local problem, choice and the child's role are game invention, not record fact.
 
 ## Sensitivities
 

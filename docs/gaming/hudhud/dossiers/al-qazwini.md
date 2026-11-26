@@ -41,13 +41,13 @@ The atlas title is The Book of Wonders. No record read supports the exact pictur
 
 ## Three candidate quest premises
 
-These are proposals for Claude and the founder, not content.
+These are proposals for Claude and the founder, not content. They are deliberately conservative system scaffolding, not final quest designs. Each names one of the twelve systems in `design.md`; forms such as Measure, Journal, Care and Sail are not treated as separate systems. Claim numbers refer to the claims above.
 
-1. Players must Observe ancient texts to Match the correct dates of al-Qazwini's works with their creation years, distinguishing between historical records and game lore [1, 2].
+1. A child helps compare accounts, objects or clues using the Observe and Match system to find what the evidence supports. This rests on claims [1, 2] as its evidence anchor; the compared materials, missing details, matching puzzle and the child's role are game invention, not record fact.
 
-2. In a Route quest, players navigate through Qazwin's historical landmarks, using clues to Match the correct path that aligns with Yaqut's description, separating historical facts from game elements [4].
+2. A child helps connect people, resources or pieces of knowledge so they reach where they are needed using the Network system. This rests on claims [1, 3] as its evidence anchor; the exact people or resources, missing links, network puzzle and the child's role are game invention, not record fact.
 
-3. Players use the Observe system to identify the Asawira people's conversion to Islam, then Match this event with the correct historical figure, distinguishing between historical evidence and game invention [3].
+3. A child helps arrange places, supplies and direction clues into a workable journey leg using the Route system. This rests on claims [1, 4] as its evidence anchor; the exact leg, supplies, clue cards, arrangement and the child's role are game invention, not record fact.
 
 ## Sensitivities
 

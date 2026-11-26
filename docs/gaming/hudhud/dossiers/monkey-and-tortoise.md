@@ -38,13 +38,13 @@ No secure place with coordinates is attached in the museum records read. This is
 
 ## Three candidate quest premises
 
-These are proposals for Claude and the founder, not content.
+These are proposals for Claude and the founder, not content. They are deliberately conservative system scaffolding, not final quest designs. Each names one of the twelve systems in `design.md`; forms such as Measure, Journal, Care and Sail are not treated as separate systems. Claim numbers refer to the claims above.
 
-1. Players must Observe the differences in the number of chapters across various translations to uncover the truth behind the book's original form [1,3].
+1. A child helps match the animal characters and events to the story tradition using the Observe and Match system, keeping the tale separate from biography. This rests on claims [1, 2] as its evidence anchor; the compared characters, events, matching puzzle and the child's role are game invention, not record fact.
 
-2. In a quest, players Match the various claims about the book's origin to the correct historical figures, distinguishing between historical evidence and the game's narrative inventions [2].
+2. Children help arrange the events of a clearly fictional animal tale in order using the Path system. This rests on claims [1, 3] as its evidence anchor; the exact episode order, the path puzzle and the children's role are game invention, not record fact.
 
-3. Players Route through different versions of the book, collecting evidence from various translators and commentators to piece together the story's true origins [3,4].
+3. A child helps carry a message between story characters using the Network system so a misunderstanding in the tale can be examined. This rests on claims [1, 4] as its evidence anchor; the message, route, characters' exact dialogue, network puzzle and the child's role are game invention, not record fact.
 
 ## Sensitivities
 

@@ -48,13 +48,13 @@ No secure place with coordinates is attached in the museum records read. Landsca
 
 ## Three candidate quest premises
 
-These are proposals for Claude and the founder, not content.
+These are proposals for Claude and the founder, not content. They are deliberately conservative system scaffolding, not final quest designs. Each names one of the twelve systems in `design.md`; forms such as Measure, Journal, Care and Sail are not treated as separate systems. Claim numbers refer to the claims above.
 
-1. In the Observe system, players must identify the correct pigeon towers along the route from Cairo to Gaza based on [5]. The game invents the challenge of matching towers to their historical locations, distinguishing it from the actual historical evidence.
+1. A child helps arrange places, supplies and direction clues into a workable journey leg using the Route system. This rests on claims [1, 2] as its evidence anchor; the exact leg, supplies, clue cards, arrangement and the child's role are game invention, not record fact.
 
-2. Using the Match system, players match historical rulers with their contributions to pigeon breeding and postal services based on [2] and [3]. The game invents the challenge of connecting historical figures to pigeon-related achievements, which is not directly stated in the historical evidence.
+2. A child helps connect people, resources or pieces of knowledge so they reach where they are needed using the Network system. This rests on claims [1, 3] as its evidence anchor; the exact people or resources, missing links, network puzzle and the child's role are game invention, not record fact.
 
-3. In the Route system, players must plan the fastest route for delivering a message from Egypt to Syria using pigeons, beacons, and postal services based on [4] and [6]. The game invents the challenge of optimizing delivery routes, which is not explicitly detailed in the historical evidence.
+3. A child helps compare accounts, objects or clues using the Observe and Match system to find what the evidence supports. This rests on claims [1, 4] as its evidence anchor; the compared materials, missing details, matching puzzle and the child's role are game invention, not record fact.
 
 ## Sensitivities
 
