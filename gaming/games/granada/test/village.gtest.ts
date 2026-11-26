@@ -4,7 +4,7 @@ import { audit, dinars, freeCapacity } from "../src/sim/economy";
 import { PLAYERS, REAL_PLAYERS, playVillage } from "../src/sim/players";
 import { WATER_FOR_THE_VALLEY as SC } from "../src/sim/scenarios";
 import { siteRefusal } from "../src/world/ground";
-import { CROPS, HARVEST_RATE, QUESTS, expectedHarvest, housesBuilt, poolCapacityOf, siteOf, act, carries, foodNeed, forecast, invariants, newVillage, preview, reserveDays, riverYear, seasonOf, tick, treasuryOf, waterNeed, weather, workersOf, type Scenario, type VillageCommand, type VillageState } from "../src/sim/village";
+import { CROPS, HARVEST_RATE, QUESTS, expectedHarvest, flowOn, housesBuilt, poolCapacityOf, siteOf, act, carries, foodNeed, forecast, invariants, newVillage, preview, reserveDays, riverYear, seasonOf, tick, treasuryOf, waterNeed, weather, workersOf, type Scenario, type VillageCommand, type VillageState } from "../src/sim/village";
 
 const start = (seed = 7) => newVillage(SC, seed);
 /** Applies commands, failing the test if one is refused. */
@@ -554,6 +554,81 @@ describe("an estate", () => {
     const a = days(SC, order(SC, start(), { kind: "repair" }), 40);
     const b = days(SC, order(SC, start(), { kind: "repair" }, { kind: "field-first", plot: null }), 40);
     expect(b.plots).toEqual(a.plots);
+  });
+});
+
+describe("a decision", () => {
+  const D = SC.decisions![0]!;
+  const share = D.options.find((o) => o.id === "share")!;
+  const refuse = D.options.find((o) => o.id === "refuse")!;
+  /** The morning the question is first seen. */
+  const asked = (sc: Scenario = DRY) => days(sc, newVillage(sc, 7), D.day - sc.startDay + 1);
+
+  it("is put on its day, said in the day's events, and cannot be answered before or by an answer it does not have", () => {
+    const before = days(DRY, start(), D.day - DRY.startDay);
+    expect(before.decisions[D.id]!.state).toBe("ahead");
+    expect(act(DRY, before, { kind: "decide", decision: D.id, option: "share" }).result).toMatchObject({ ok: false, why: "decision-closed" });
+    const s = asked();
+    expect(s.decisions[D.id]).toEqual({ state: "open", choice: null, day: D.day });
+    expect(s.last!.events).toContain(`asked:${D.id}`);
+    expect(act(DRY, s, { kind: "decide", decision: D.id, option: "neither" }).result).toMatchObject({ ok: false, why: "decision-closed" });
+    expect(act(DRY, s, { kind: "decide", decision: "nothing", option: "share" }).result).toMatchObject({ ok: false, why: "unknown-decision" });
+  });
+
+  it("to share: the dinars come at once, and the river gives less for exactly its days", () => {
+    const s0 = asked();
+    const r = act(DRY, s0, { kind: "decide", decision: D.id, option: "share" });
+    expect(r.result).toEqual({ ok: true, money: share.dinars });
+    const s = r.state;
+    expect(treasuryOf(s) - treasuryOf(s0)).toBe(share.dinars);
+    expect(s.decisions[D.id]).toEqual({ state: "answered", choice: "share", day: s0.day });
+    for (const d of [s.day, s.day + share.days! - 1]) expect(weather(DRY, 7, d).inflow - flowOn(DRY, s, d).inflow).toBe(share.inflow);
+    expect(flowOn(DRY, s, s.day + share.days!).inflow).toBe(weather(DRY, 7, s.day + share.days!).inflow);
+    // The day's own report shows the river as it ran.
+    const next = days(DRY, s, 1);
+    expect(next.last!.inflow).toBe(weather(DRY, 7, s.day).inflow - share.inflow!);
+    // It cannot be answered twice.
+    expect(act(DRY, s, { kind: "decide", decision: D.id, option: "refuse" }).result).toMatchObject({ ok: false, why: "decision-closed" });
+    expect(audit(s.economy)).toEqual([]);
+  });
+
+  it("to refuse: nothing is paid, the river is whole, and the households fare worse for its days and no longer", () => {
+    const s0 = asked();
+    const s = order(DRY, s0, { kind: "decide", decision: D.id, option: "refuse" });
+    expect(treasuryOf(s)).toBe(treasuryOf(s0));
+    expect(flowOn(DRY, s, s.day).inflow).toBe(weather(DRY, 7, s.day).inflow);
+    const shared = order(DRY, s0, { kind: "decide", decision: D.id, option: "share" });
+    // Both valleys are fed and watered at first, so how they fare differs by the refusal's price alone.
+    expect(days(DRY, shared, 6).welfare - days(DRY, s, 6).welfare).toBeGreaterThan(0);
+    expect(days(DRY, s, refuse.days! + 1).effects).toEqual([]);
+  });
+
+  it("left unanswered through its last morning, is answered as it said it would be", () => {
+    let s = asked();
+    s = days(DRY, s, D.open - 1);
+    expect(s.decisions[D.id]!.state).toBe("open");
+    s = days(DRY, s, 1);
+    expect(s.decisions[D.id]).toMatchObject({ state: "lapsed", choice: D.otherwise });
+    expect(s.last!.events).toContain(`lapsed:${D.id}:${D.otherwise}`);
+    expect(s.effects).toEqual([{ kind: "welfare", amount: refuse.welfare, untilDay: s.day - 1 + refuse.days! - 1, from: D.id }]);
+  });
+
+  it("is in the forecast: what the panel shows for the days ahead already counts the answer that will be given", () => {
+    const s = asked();
+    const ahead = forecast(DRY, s, 10);
+    expect(ahead.at(-1)!.decisions[D.id]!.state).toBe("lapsed");
+    expect(JSON.stringify(days(DRY, s, 10))).toBe(JSON.stringify(ahead.at(-1)));
+  });
+
+  it("keeps a journal of what a steward would look back on, and no more than sixty lines of it", () => {
+    let s = order(DRY, asked(), { kind: "decide", decision: D.id, option: "share" });
+    expect(s.journal.map((j) => j.event)).toEqual([`asked:${D.id}`, `decided:${D.id}:share`]);
+    // The mending takes twelve worker-days at six hands a day: it is written on the day it is done.
+    s = days(DRY, order(DRY, s, { kind: "repair" }), 2);
+    expect(s.journal.at(-1)).toEqual({ day: s.day - 1, event: "built:repair" });
+    const long = { ...asked(), journal: Array.from({ length: 60 }, (_, i) => ({ day: i, event: "arrived" })) };
+    const kept = order(DRY, long, { kind: "decide", decision: D.id, option: "share" }).journal;
+    expect([kept.length, kept.at(-1)!.event, kept[0]!.day]).toEqual([60, `decided:${D.id}:share`, 1]);
   });
 });
 

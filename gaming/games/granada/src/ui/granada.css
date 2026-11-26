@@ -178,6 +178,9 @@ h3 { font-size: 0.9rem; color: var(--ink-soft); margin-block-start: 10px; }
 .card { background: var(--panel-2); border: 1px solid var(--line); border-radius: 10px; padding: 10px 12px; display: grid; gap: 6px; }
 .card.selected { border-color: var(--accent); }
 .card.advice { border-color: var(--accent); }
+.card.decision { border-color: var(--accent); }
+.card.decision .option { display: grid; gap: 4px; }
+.journal { display: grid; gap: 4px; font-size: 0.9rem; }
 .note { font-size: 0.84rem; color: var(--ink-soft); }
 .why { font-size: 0.84rem; color: var(--bad); }
 .done { color: var(--good); font-weight: 600; }

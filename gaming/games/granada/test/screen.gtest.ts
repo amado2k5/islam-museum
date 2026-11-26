@@ -5,7 +5,7 @@ import { PLAYERS, playVillage } from "../src/sim/players";
 import { WATER_FOR_THE_VALLEY as SC } from "../src/sim/scenarios";
 import { VILLAGE_VERSION, act, invariants, newVillage, tick, type VillageCommand, type VillageState } from "../src/sim/village";
 import { SAVE_KEY, clearSave, readSave, writeSave, type Store } from "../src/save";
-import { advice, catalogueRows, fieldCards, marketRows, tradeView, questRows, riverOfYear, skyAhead, stocks, workRows } from "../src/ui/model";
+import { advice, catalogueRows, decisionRows, effectRows, skyAhead as skyOf, fieldCards, marketRows, tradeView, questRows, riverOfYear, skyAhead, stocks, workRows } from "../src/ui/model";
 
 const start = () => newVillage(SC, 7);
 const order = (s: VillageState, ...commands: VillageCommand[]) => {
@@ -82,6 +82,22 @@ describe("the works", () => {
     expect(expand!.now).toEqual({ ok: false, why: "already-under-way" });
     const done = days(s, 2);
     expect(workRows(SC, done)[0]).toMatchObject({ progress: null, built: 1, now: { ok: false, why: "already-done" } });
+  });
+});
+
+describe("a decision on the page", () => {
+  it("shows each answer's price and gain in figures, the mornings left, and what an unanswered question becomes", () => {
+    const s = days(start(), 40 - SC.startDay + 1);
+    const [d] = decisionRows(SC, s);
+    expect(d).toMatchObject({ id: "water-for-the-neighbours", daysLeft: 5, otherwise: "refuse" });
+    expect(d!.options).toEqual([{ id: "share", dinars: 220, inflow: 8, welfare: 0, days: 20 }, { id: "refuse", dinars: 0, inflow: 0, welfare: -4, days: 20 }]);
+    expect(decisionRows(SC, start())).toEqual([]);
+    const shared = order(s, { kind: "decide", decision: d!.id, option: "share" });
+    expect(decisionRows(SC, shared)).toEqual([]);
+    expect(effectRows(shared)).toEqual([{ kind: "inflow", amount: 8, daysLeft: 20, from: d!.id }]);
+    // The sky ahead shows the river as it will run.
+    expect(skyOf(SC, s, 1)[0]!.inflow - skyOf(SC, shared, 1)[0]!.inflow).toBe(8);
+    expect(effectRows(days(shared, 20))).toEqual([]);
   });
 });
 
@@ -271,6 +287,18 @@ describe("the saved game", () => {
     store.data.set(SAVE_KEY, JSON.stringify({ v: 1, state: v3 }));
     const three = readSave(store);
     expect(three.status).toBe("ok");
+    // And one saved before the steward was asked anything (version 4), early and late in the year.
+    for (const [n, state] of [[0, "ahead"], [30, "lapsed"]] as const) {
+      const v4 = JSON.parse(JSON.stringify(days(newVillage(SC, 9), n))) as Record<string, unknown>;
+      v4.version = 4;
+      for (const k of ["decisions", "effects", "journal"]) delete v4[k];
+      if (n > 0) (v4 as { journal?: unknown }).journal = undefined;
+      store.data.set(SAVE_KEY, JSON.stringify({ v: 1, state: v4 }));
+      const four = readSave(store);
+      expect(four.status).toBe("ok");
+      if (four.status === "ok") expect([four.state.version, four.state.decisions["water-for-the-neighbours"]!.state, four.state.effects, four.state.journal, invariants(SC, four.state)]).toEqual([VILLAGE_VERSION, state, [], [], []]);
+    }
+    store.data.set(SAVE_KEY, JSON.stringify({ v: 1, state: v3 }));
     if (three.status === "ok") expect([three.state.version, three.state.placed.length, three.state.fieldFirst, invariants(SC, three.state)]).toEqual([VILLAGE_VERSION, 1, null, []]);
     // A version this code has never heard of is still set aside.
     store.data.set(SAVE_KEY, JSON.stringify({ v: 1, state: { ...v1, version: 0 } }));
