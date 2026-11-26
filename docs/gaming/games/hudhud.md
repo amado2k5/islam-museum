@@ -4,7 +4,7 @@ _26 November 2026. Release status: **prototype**. Working title. Instruction, pl
 
 ## What exists
 
-The game opens on **the Atlas**: a page that names the ten worlds and their fifty subjects in seven languages, says how many pages are home, and lets the player choose a girl or a boy explorer. Two quests can be played from it (the light workshop, and a second, short trial quest (al-Jazari's elephant clock: a row of parts put in order with ordinary page controls and a simple code-drawn picture that can also be clicked or touched, no flying scene, kept when left in the middle)); the other forty-nine are named and marked "Not built yet", and the two that are story tradition say so. A finished quest returns to the Atlas with its page home.
+The game opens on **the Atlas**: a page that names the ten worlds and their fifty subjects in seven languages, says how many pages are home, and lets the player choose a girl or a boy explorer. Three quests can be played from it (the light workshop; a second, short trial quest (al-Jazari's elephant clock: a row of parts put in order with ordinary page controls and a simple code-drawn picture that can also be clicked or touched, no flying scene, kept when left in the middle); and a third, al-Kindi and the secret page: the signs of a long sample and the marks of a secret message are counted and ranked in two tables, each mark is given its sign from a list of choices, and the page is read; played with page controls and a code-drawn picture that is not clickable, kept when left in the middle); the other forty-seven are named and marked "Not built yet", and the two that are story tradition say so. A finished quest returns to the Atlas with its page home. Above the lists the Atlas page shows one code-drawn picture of the open book, with a medallion for each world (a plain sign on each, not finished art), five page marks round it that fill as pages come home, and a ring round the worlds that have a quest to play; a click on a medallion, or one of ten numbered buttons under the picture, goes to that world's list.
 
 ![The Atlas](../evidence/hudhud/golden-scene/atlas-en.webp)
 
@@ -23,9 +23,9 @@ _Captures of the running game, Chrome, 26 November 2026, made by `gaming/tools/h
 
 ## What it is not
 
-- **Not the game.** The instruction asks for ten worlds, fifty quests and 20 to 30 hours. This is one scene and one short trial quest. Phases 2 to 4 are not started.
+- **Not the game.** The instruction asks for ten worlds, fifty quests and 20 to 30 hours. This is one scene and two short trial quests. Phases 2 to 4 are not started.
 - **Not accepted art.** Every picture is drawn by code an AI agent wrote. Beside the founder's pictures it is plainly simpler ([the comparison and the routes to real art](../hudhud/art-bible.md)). The game's own page says the pictures are a trial.
-- **Not reviewed history.** Nine entries in [the ledger](../historical-review/ledger.md), all pending; no reviewer is named. The page says "Historical review pending" in seven languages, and every line the scholar speaks is marked "Imagined words, not a quotation". The prism of the founder's pictures, which no record read for the scene supports, is not shown.
+- **Not reviewed history.** Sixteen entries in [the ledger](../historical-review/ledger.md), all pending; no reviewer is named. The page says "Historical review pending" in seven languages, and every line the scholar speaks is marked "Imagined words, not a quotation". The prism of the founder's pictures, which no record read for the scene supports, is not shown.
 - **Not read by a native speaker.** Seven string tables, all machine drafts.
 - **Not played by anyone.** Only the author's script has played it.
 - **Not measured where it counts.** One machine, the founder's M4 Max; neither reference machine.
@@ -39,8 +39,8 @@ _Captures of the running game, Chrome, 26 November 2026, made by `gaming/tools/h
 | Play to scene | about 0.4 s |
 | Textures in memory | 20 MB (Low), 45 MB (Medium), 80 MB (High) |
 | Draw calls a frame | 15 to 20 |
-| Tests | 148 of its own and 28 of the shared platform; 530 in the workspace, all passing |
+| Tests | 159 of its own and 28 of the shared platform; 541 in the workspace, all passing |
 
 ## Next
 
-Nothing in number until the founder's word on the look. Then the vertical slice of the instruction's Phase 2: a prologue and the Atlas hub, this quest finished, al-Jazari's clock, Ibn Battuta's road, the Monkey and the Tortoise. Done since the first pull request: a quest left in the middle is kept, keys can be changed, and there is a full-screen button. Still before the slice: the room's texture cut in two, the Arabic written first.
+Nothing in number until the founder's word on the look. The game now opens on a prologue (five still panels with simple code-drawn pictures, read once, skippable and shown again from the Atlas); it is a trial, with no animation and no voice. Then the vertical slice of the instruction's Phase 2: a playable prologue and the Atlas hub, this quest finished, al-Jazari's clock, Ibn Battuta's road, the Monkey and the Tortoise. Done since the first pull request: a quest left in the middle is kept, keys can be changed, and there is a full-screen button. Still before the slice: the room's texture cut in two, the Arabic written first.
