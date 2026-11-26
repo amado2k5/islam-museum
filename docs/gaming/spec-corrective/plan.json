@@ -541,6 +541,12 @@
     "on": "Production and the labels (O11)",
     "decided": "Deploying to production and removing a prototype label each need his separate, explicit, written approval, and neither follows from a pull request, a UAT approval or a finished milestone. The developer may prepare pull requests, deploy approved UAT candidates, produce release artifacts, run permitted tests, and prepare the production checklist and rollback plan.",
     "where": "spec-production/owner-register.md, 'What still needs the founder's own approval'"
+   },
+   {
+    "id": "D23",
+    "on": "Granada's art direction (the proof frame's answer)",
+    "decided": "Neither Set A (on main) nor Set B (pull request 8312) is accepted as production art. Set A stays as the running baseline. Pull request 8312 is not merged as it stands and is kept as experimental research: its reproducible export, validation and LOD records may be carried over, its geometry is not a template. A new Candidate C is built from main as one complete proof frame in the running game, by a hybrid pipeline: scripts for layout, export and checks; hero buildings and key vegetation hand-authored or artist-reviewed; licensed assets may be proposed in a table, nothing bought. A stop rule: if the first palace, street cluster and estate still read as improved boxes after one revision, the method stops and a proposal for an artist or licensed models is brought to him. No asset is made in number until Candidate C passes all fourteen lines and he accepts it in words.",
+    "where": "spec-production/art-candidates-granada.md: Set B classified file by file; Candidate C not begun when recorded. No artist is engaged, so 'artist-reviewed' is unmet"
    }
   ],
   "dependencies": [
