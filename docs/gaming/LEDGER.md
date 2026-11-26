@@ -329,6 +329,20 @@ tools/granada-shot.ts                         twelve views captured; 8.3 ms medi
 
 Played in English and Arabic only this time: no string changed. Found by looking at captures, not by tests: wheat that read as paper cards from near, steps of the bridge's bank standing through the road, a village ground too bare, and a pale streak where the terraces' banks took the colour of dry hills. A new test failed once, rightly: fruit trees put in the village's yards had been added to the list a test reserves for orchard plots.
 
+### The twentieth pull request: an art pipeline in Blender, and the first hero asset (25 November 2026)
+
+Asked whether Blender might be installed for Granada's art, the founder answered "Install Blender". `brew install --cask blender` put Blender 5.3.0 in `/Applications` (Homebrew also cleared some of its own old logs and cache as it does).
+
+```
+npm --prefix gaming run art:mill -- <preview.png>   textures painted, the mill built, exported, and rendered: 16,172 triangles in 6 objects
+npm --prefix gaming run art:manifest                granada/mill: 16172 triangles, 17 files, 5,472,930 bytes
+npm --prefix gaming run art:manifest -- --check     "the models on this machine are the ones the manifest records"
+two runs compared                                   15 of 15 exported textures byte-identical
+npm --prefix gaming test                            14 files, 244 tests passed (four new: the manifest is held to the scripts)
+```
+
+The mill is a preview and is not in the game. Its first render showed a ring of the wrong material where a round door was cut through stone and plaster; the door is now built in its arch.
+
 ## Measurements
 
 The engine numbers and their conditions are in [G-0002](adr/G-0002-rendering-engine.md) and the [M1 report](m1-graphics-spike.md). They are for one Apple M4 Max in Chrome 158 and are not a hardware recommendation.
@@ -373,6 +387,8 @@ The full district at the end is about 1.56 million triangles and about 950 draw 
 - Atlas's globe as a lit sphere: [`evidence/atlas/globe3d/`](evidence/atlas/globe3d/) (four captures and the release smoke report).
 
 - The third UAT release checked in Chrome: [`evidence/release/uat-3d-check.json`](evidence/release/uat-3d-check.json), with captures of Granada and Atlas on UAT in Arabic.
+
+- The art pipeline's first asset: [`evidence/granada/art/mill-preview.webp`](evidence/granada/art/mill-preview.webp), rendered in Blender from `gaming/art/blender/granada_mill.py`.
 
 ## Unresolved defects and known limits
 
