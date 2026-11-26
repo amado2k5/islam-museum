@@ -1,7 +1,7 @@
 // What is kept on the device: it comes back as it went, a broken file is set aside and not destroyed, a newer file
 // is not written over, and a device that refuses storage still plays.
 import { describe, expect, it } from "vitest";
-import { ACTIONS, DEFAULT_KEYS, DEFAULT_SETTINGS, MIGRATIONS, assignKey, QUARANTINE_KEY, SAVE_KEY, SAVE_VERSION, SLOTS, current, load, mergeSaves, newSave, newSlot, readSave, recordQuest, store, writeSave, type Storage } from "../save/save";
+import { ACTIONS, DEFAULT_KEYS, DEFAULT_SETTINGS, MIGRATIONS, assignKey, QUARANTINE_KEY, SAVE_KEY, SAVE_VERSION, SLOTS, current, load, markPrologueSeen, mergeSaves, newSave, newSlot, readSave, recordQuest, store, writeSave, type Storage } from "../save/save";
 
 const memory = (init: Record<string, string> = {}): Storage & { data: Record<string, string> } => {
   const data = { ...init };
@@ -135,6 +135,43 @@ describe("Hudhud's save", () => {
     const slot = (resume: unknown) => current(readSave(JSON.stringify({ v: 1, slot: 0, slots: [{ resume }] })).save).resume;
     expect(slot({ quest: "w03q1-ibn-al-haytham", snap: { turns: 2 } })).toEqual({ quest: "w03q1-ibn-al-haytham", snap: { turns: 2 } });
     for (const bad of [null, "x", { quest: "BAD QUEST", snap: {} }, { quest: "ok", snap: 5 }, { snap: {} }]) expect(slot(bad)).toBeNull();
+  });
+  it("remembers that the opening story was seen, and an older save without the field stays valid", () => {
+    // A save made before the prologue existed: valid, and the opening is not seen.
+    const old = readSave(JSON.stringify({ v: 1, slot: 0, slots: [{ keeper: { kind: 0, skin: 2, outfit: 1, hair: 1 } }] }));
+    expect(old.kind).toBe("ok");
+    expect(current(old.save).prologue).toBeUndefined();
+    expect("prologue" in current(newSave())).toBe(false);
+    // Seen: it is written, read back and equal; an unseen slot writes nothing extra.
+    const seen = markPrologueSeen(newSave());
+    expect(current(seen).prologue).toBe(true);
+    expect(readSave(writeSave(seen)).save).toEqual(seen);
+    expect(writeSave(newSave())).not.toContain("prologue");
+    // Only the slot in use is marked.
+    const two = markPrologueSeen({ ...newSave(), slot: 1, slots: [newSlot(), newSlot(), null] });
+    expect(two.slots[0]!.prologue).toBeUndefined();
+    expect(two.slots[1]!.prologue).toBe(true);
+  });
+  it("keeps the opening seen when two files are joined, whichever way round", () => {
+    const seen = markPrologueSeen(newSave());
+    const unseen = newSave();
+    expect(current(mergeSaves(unseen, seen)).prologue).toBe(true); // seen in the stored file
+    expect(current(mergeSaves(seen, unseen)).prologue).toBe(true); // seen in this page
+    expect(current(mergeSaves(unseen, unseen)).prologue).toBeUndefined();
+    // Through storage: one tab marks it, an older tab (opened before) saves a setting; the mark stays.
+    const st = memory();
+    const older = load(st).save;
+    expect(store(st, markPrologueSeen(older), true)).toBe(true);
+    expect(store(st, { ...older, slots: [{ ...current(older), settings: { ...current(older).settings, muted: true } }, null, null] }, true)).toBe(true);
+    expect(current(load(st).save).prologue).toBe(true);
+    expect(current(load(st).save).settings.muted).toBe(true);
+  });
+  it("treats a prologue field of the wrong type as not seen", () => {
+    for (const bad of ["yes", 1, 0, null, {}, [], "true", false]) {
+      const slot = current(readSave(JSON.stringify({ v: 1, slot: 0, slots: [{ prologue: bad }] })).save);
+      expect(slot.prologue, JSON.stringify(bad)).toBeUndefined();
+    }
+    expect(current(readSave(JSON.stringify({ v: 1, slot: 0, slots: [{ prologue: true }] })).save).prologue).toBe(true);
   });
   it("has a migration from every version before this one", () => {
     for (let v = 1; v < SAVE_VERSION; v++) expect(typeof MIGRATIONS[v], `from version ${v}`).toBe("function");

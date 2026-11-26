@@ -2,7 +2,7 @@
 
 _**Second instruction, 26 November 2026:** the founder's production-completion directive, informed by an independent play of the UAT release, is filed unedited at [`owner-directive-2026-11-26-production-completion.md`](owner-directive-2026-11-26-production-completion.md) (SHA-256 `8431386d41036218ec69a15fdcf7bac3c0d3e70266c896cc68c8a46e2a416fa0`) and governs with the first. Its package and eight reference pictures: [`reference-images.md`](reference-images.md). Work it asks of the second agent: [`devin-parallel-work.md`](devin-parallel-work.md)._
 
-_A 2D story game for the museum's gaming platform. Working title. **Prototype: one scene of a few minutes.** Started 26 November 2026 on the founder's instruction, which is filed here unedited and governs: [`owner-instruction-2026-11-26.md`](owner-instruction-2026-11-26.md) (SHA-256 `5942fd78824a788cadc656dba755730498b7d1749fb280a476df231006f20b66`; taken from the session it was pasted into, as that message's pasted text)._
+_A 2D story game for the museum's gaming platform. Working title. **Prototype: one scene of a few minutes and a second, short trial quest (al-Jazari's elephant clock: a row of parts put in order with ordinary page controls and a simple code-drawn picture, no flying scene, not kept in the middle).** Started 26 November 2026 on the founder's instruction, which is filed here unedited and governs: [`owner-instruction-2026-11-26.md`](owner-instruction-2026-11-26.md) (SHA-256 `5942fd78824a788cadc656dba755730498b7d1749fb280a476df231006f20b66`; taken from the session it was pasted into, as that message's pasted text)._
 
 ## The first decision package (the instruction's section 14)
 
@@ -29,7 +29,7 @@ Also: [**what remains before it is a whole game**](remaining.md); [the state of 
 4. **Reviewers.** None is named. One in the history of science would unblock world 3.
 5. **The title**, and a go-ahead for a proper search.
 6. **The website plan**: approve, change, or hold until the look is accepted.
-7. **UAT.** Released to UAT on 26 November 2026 at his word, twice: `20261126-63e2fd9dc25`, then `20261126-7e6cd96da79` with the three faults mended: `https://uat-games.islam.museum/hudhud/?lang=ar`. Each further UAT release needs his word again; production is his alone.
+7. **UAT.** Released to UAT on 26 November 2026 at his word, three times: `20261126-63e2fd9dc25`, then `20261126-7e6cd96da79` with the three faults mended, then `20261126-709707701f2` with the device check, the save vault, the three mirror puzzles, the new movement and the elephant clock: `https://uat-games.islam.museum/hudhud/?lang=ar`. Each further UAT release needs his word again; production is his alone.
 
 ## Found in passing in the museum's records, and not changed
 

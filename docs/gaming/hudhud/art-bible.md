@@ -57,10 +57,10 @@ What may **not** be done on any route without his word: cut the supplied thumbna
 | Subject | Ibn al-Haytham's light workshop, opening on a garden and a town at evening (world 3, quest 1) |
 | Proves | the atmosphere; Hudhud moving; the Storykeeper; one person of history; one animal; a layered place; conversation; one puzzle; one secret; three depths of movement; sound; UI; three effects presets |
 | The place | a dark teal room 1,760 px wide in a world of 2,400 by 720 (the view is 1,280 by 720): a shutter with a small hole, shelves, a niche, a reading stand, a chest; an arch with a curtain; beyond it a terrace with a lantern, a fountain, palms and cypresses, and roofs in two depths under an evening sky |
-| The play | a beam enters by the hole; five mirrors on stands turn it; a tower of books stops it; a prism spreads it onto the pale page; the ink returns |
-| The secret | fly to the ledge over the arch and pull the cord: the curtain closes, the room goes dark and the town appears upside down on the wall. A feather waits on the fountain |
+| The play | a beam enters by the hole; five to seven mirrors on stands (one hung from the ceiling in Challenge) turn it; a tower of books and a tall glazed jar stop it; it falls on the pale page and the ink returns (the prism was taken out on 26 November 2026) |
+| The secret | fly to the ledge over the arch and pull the cord: the curtain closes, the room goes dark and the town appears upside down on the curtain, opposite the hole. A feather waits on the fountain |
 | Composite, and said to be | the house and the skyline stand for no real building or city (ledger HR-HH-07) |
-| The prism | shown because both supplied pictures show it; no museum record read for the scene supports it; the museum note says so (ledger HR-HH-03). A reviewer may have it removed |
+| The prism | **taken out on 26 November 2026** by the founder's directive: both supplied pictures show one and no museum record read for the scene supports it. The museum note says why none is shown (ledger HR-HH-03) |
 
 ## Sprite and animation list (what exists, by part)
 
@@ -117,7 +117,7 @@ The founder's MacBook Pro (Apple M4 Max, 128 GB, macOS 27.2.1), Chrome 158, a 12
 - **The download** for Hudhud's page in a release: 1,456,166 bytes of script (311,102 with Brotli), 7,238 of style, no picture or sound file. The budget in the instruction is 15 to 20 MB.
 - **Leaving and returning**: ten restarts of the scene leave the same 45 textures, 119 objects and no running tween. Twelve full rebuilds of the game, with a forced collection after each, read 82 to 83 MB or 132 to 133 MB (a rebuilt generation not yet collected) and do not climb: 81.9 MB after the first, 82.5 MB after the twelfth.
 - **A lost graphics context** (forced with `WEBGL_lose_context`): the player is told, and the picture is rebuilt and playing within 2.5 s of the context returning; the quest is kept as it stood and the bird returns to the door.
-- **High uses a 3520×1440 texture.** The instruction's rule is 2048 atlases by default and 4096 only with a measured reason. The room should be cut into two tiles before the slice; it is one picture today because that was simplest.
+- **No texture exceeds 2048 pixels** since 26 November 2026: the wide pictures (sky, roofs, room) are uploaded as columns. Before that, High used one of 3520×1440. The table above was measured before the change; the totals in megabytes are the same to within a tenth (19.9, 44.8 and 79.6), and the count of textures rose to 43, 47 and 48.
 
 **Art time.** The code that draws the scene (`src/art/`, 1,715 lines) was written in roughly twenty minutes of the session and corrected in three rounds after looking at captures. That is fast because it is simple, which is the point of the section above.
 
