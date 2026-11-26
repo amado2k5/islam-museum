@@ -113,9 +113,13 @@ describe("the elephant clock kept in the middle", () => {
     expect(refused({ ...good, moves: undefined })).toBeNull();
     // Flags that are not a list.
     expect(refused({ ...good, flags: "feather" })).toBeNull();
-    // A clock that already works is a finished quest, not a place to come back to.
-    expect(refused({ ...good, places: [...CLOCK_ROAD] })).toBeNull();
-    expect(refused({ ...snap("story"), places: [...CLOCK_ROAD] })).toBeNull();
+    // A row that works in fewer moves than the fewest there are cannot be true.
+    expect(refused({ ...good, places: [...CLOCK_ROAD], moves: 0 })).toBeNull();
+    expect(refused({ ...snap("story"), places: [...CLOCK_ROAD], moves: 1 })).toBeNull();
+    // Put right but not yet set going, it comes back as it was left, and one press finishes it.
+    const ready = refused({ ...snap("story"), places: [...CLOCK_ROAD], moves: 2 })!;
+    expect([ready.done, ready.moves, ready.last]).toEqual([false, 2, null]);
+    expect(applyClock(ready, { type: "go" }).done).toBe(true);
   });
   it("drops flags it does not know, keeps the ones it does, and works the fewest moves out again", () => {
     const back = refused({ ...snap("explorer"), flags: ["feather", "askedFloat", "nonsense", 7, "kind", "kind"], par: 99, runs: 5, done: true, last: { end: "done" } })!;
