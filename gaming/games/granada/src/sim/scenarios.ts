@@ -157,6 +157,43 @@ export const MERCHANTS_OF_MALAGA: Scenario = {
   decisions: [{ ...WATER_FOR_THE_VALLEY.decisions![0]!, day: 45, options: [{ id: "share", dinars: dinars(300), inflow: 5, days: 15 }, { id: "refuse", welfare: -4, days: 20 }] }],
 };
 
-export const SCENARIOS: Record<string, Scenario> = { [WATER_FOR_THE_VALLEY.id]: WATER_FOR_THE_VALLEY, [MERCHANTS_OF_MALAGA.id]: MERCHANTS_OF_MALAGA };
+/**
+ * The third year, "A Dry Year": the river runs at about three quarters of a usual year and it rains less. The valley
+ * is asked to hold two cisterns, to keep its households faring well for sixty days running, to go on trading a
+ * little, to keep the port's one contract and to hold the winter's food. The neighbours ask for water again, for
+ * more dinars, and refusing costs more goodwill. Opened fresh, it begins from a valley much as a second year leaves
+ * one, with the meadow watered and no cistern.
+ */
+export const A_DRY_YEAR: Scenario = {
+  ...MERCHANTS_OF_MALAGA,
+  id: "a-dry-year",
+  follows: MERCHANTS_OF_MALAGA.id,
+  households: 80,
+  housing: 80,
+  treasury: dinars(1200),
+  capacity: 920,
+  stock: { wheat: 360, timber: 60, stone: 80 },
+  water: {
+    ...MERCHANTS_OF_MALAGA.water,
+    inflow: [52, 19, 34, 45],
+    rainChance: [15, 3, 13, 23],
+    branches: MERCHANTS_OF_MALAGA.water.branches.map((b) => ({ ...b, condition: 100, built: true })),
+  },
+  goal: { welfare: 60, households: 80, reserveDays: 20 },
+  trade: {
+    ...MERCHANTS_OF_MALAGA.trade!,
+    contracts: [{ id: "oil-for-the-port-3", good: "oil", units: 8, byDay: 100, revenue: dinars(1640), transport: dinars(32), fees: dinars(20), penalty: dinars(300) }],
+  },
+  tasks: [
+    { id: "d1-cisterns", kind: "placed", what: "cistern", n: 2 },
+    { id: "d2-welfare", kind: "welfare-streak", atLeast: 65, days: 60 },
+    { id: "d3-trade", kind: "trade", dinars: 700 },
+    { id: "d4-contract", kind: "contracts", kept: 1 },
+    { id: "d5-reserve", kind: "reserve-streak" },
+  ],
+  decisions: [{ ...WATER_FOR_THE_VALLEY.decisions![0]!, day: 40, options: [{ id: "share", dinars: dinars(400), inflow: 6, days: 20 }, { id: "refuse", welfare: -6, days: 20 }] }],
+};
+
+export const SCENARIOS: Record<string, Scenario> = { [WATER_FOR_THE_VALLEY.id]: WATER_FOR_THE_VALLEY, [MERCHANTS_OF_MALAGA.id]: MERCHANTS_OF_MALAGA, [A_DRY_YEAR.id]: A_DRY_YEAR };
 /** The scenario that follows one, where the campaign goes on. */
 export const scenarioAfter = (id: string): Scenario | null => Object.values(SCENARIOS).find((sc) => sc.follows === id) ?? null;

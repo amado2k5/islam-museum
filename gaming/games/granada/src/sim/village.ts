@@ -19,8 +19,9 @@ import { MINOR, audit, dinars, freeCapacity, open, submit, type CommandResult, t
 // 6: markets whose prices move with what they hold, and yesterday's prices kept so a trend can be shown.
 // 7: a campaign of years: the year the valley is in, and a scenario that takes up where the last one ended.
 // 8: goods that take days to reach the port: the loads on the road.
+// 9: a running count of days the households have fared well, for a year that asks it.
 // A game saved under an earlier version is brought forward by `upgradeVillage`, never loaded half-right.
-export const VILLAGE_VERSION = 8;
+export const VILLAGE_VERSION = 9;
 export const SEASON_DAYS = 30;
 export const YEAR_DAYS = 120;
 export type Season = 0 | 1 | 2 | 3; // spring, summer, autumn, winter
@@ -187,7 +188,9 @@ export type TaskDef =
   | { id: string; kind: "contracts"; kept: number }
   | { id: string; kind: "households"; atLeast: number }
   /** So many of a kind from the catalogue placed and finished. */
-  | { id: string; kind: "placed"; what: string; n: number };
+  | { id: string; kind: "placed"; what: string; n: number }
+  /** The households faring at least so well for so many days running. */
+  | { id: string; kind: "welfare-streak"; atLeast: number; days: number };
 export const CLASSIC_TASKS: TaskDef[] = [
   { id: "q01-water", kind: "water-streak" },
   { id: "q02-harvest", kind: "first-harvest" },
@@ -260,7 +263,7 @@ export interface VillageState {
   works: Work[];
   built: { house: number; granary: number; repaired: boolean; expanded: boolean };
   /** Consecutive days of the things quests ask to be sustained. */
-  streak: { eastWatered: number; reserve: number };
+  streak: { eastWatered: number; reserve: number; welfare: number };
   everFull: boolean;
   /** Units the carts have taken to the port today. */
   carted: number;
@@ -337,6 +340,24 @@ export type ActResult = { ok: true; money: number } | { ok: false; why: Refusal;
 
 // ---- Starting ----------------------------------------------------------------------------------------------------------
 
+/** Replaces a ledger's journal by one line for each balance it comes to, and forgets the results of commands long done. */
+function closeTheBooks(e: EconomyState, year: number): void {
+  const balance = new Map<string, number>();
+  for (const j of e.journal) {
+    balance.set(`${j.from}|${j.asset}`, (balance.get(`${j.from}|${j.asset}`) ?? 0) - j.amount);
+    balance.set(`${j.to}|${j.asset}`, (balance.get(`${j.to}|${j.asset}`) ?? 0) + j.amount);
+  }
+  const carried: EconomyState["journal"] = [];
+  for (const [key, amount] of [...balance].sort(([a], [b]) => (a < b ? -1 : a > b ? 1 : 0))) {
+    const [account, asset] = key.split("|") as [string, string];
+    // The world is the other side of every line, and has no balance of its own to carry.
+    if (account === "world" || amount === 0) continue;
+    carried.push(amount > 0 ? { seq: carried.length, tick: e.tick, commandId: `carried:${year}`, asset, from: "world", to: account, amount, why: `carried forward from year ${year}` } : { seq: carried.length, tick: e.tick, commandId: `carried:${year}`, asset, from: account, to: "world", amount: -amount, why: `carried forward from year ${year}` });
+  }
+  e.journal = carried;
+  e.done = Object.fromEntries(Object.entries(e.done).filter(([id]) => id.startsWith("quest:")));
+}
+
 /**
  * The next year of a campaign: the valley as the last year left it (its people, its store and treasury, what was
  * built and placed, its channels, its pool, a crop still in the ground) taken into the scenario that follows, with
@@ -357,7 +378,7 @@ export function nextYear(sc: Scenario, prev: VillageState): VillageState | null 
   s.everFull = false;
   // A load still on the road arrives in the new year, as many mornings on as it had left.
   s.shipments = s.shipments.map((sh) => ({ ...sh, arrives: sc.startDay + Math.max(0, sh.arrives - prev.day) }));
-  s.streak = { eastWatered: 0, reserve: 0 };
+  s.streak = { eastWatered: 0, reserve: 0, welfare: 0 };
   s.effects = [];
   s.quests = Object.fromEntries(tasksOf(sc).map((x) => [x.id, false]));
   s.decisions = Object.fromEntries((sc.decisions ?? []).map((d) => [d.id, { state: "ahead" as const, choice: null, day: null }]));
@@ -372,6 +393,11 @@ export function nextYear(sc: Scenario, prev: VillageState): VillageState | null 
     else if (p.crop === null || p.ripeSince !== null) s.plots[def.id] = fresh(null);
   }
   if (s.fieldFirst !== null && !sc.plots.some((p) => p.id === s.fieldFirst)) s.fieldFirst = null;
+  // The books are closed for the year and opened again: every account's balance is carried forward as one line, so
+  // that a saved game does not grow for ever. Nothing is changed but how the same balances are written down; the
+  // audit closes on the new journal as it did on the old. Results of old commands are forgotten, except that a
+  // task's reward was paid, which must never be paid twice.
+  closeTheBooks(e, prev.year);
   // The books go on: the same ledger, with the port's new offers and anything it now deals in that it did not before.
   const tr = sc.trade;
   if (tr) {
@@ -424,7 +450,7 @@ export function newVillage(sc: Scenario, seed: number): VillageState {
     plots,
     works: [],
     built: { house: 0, granary: 0, repaired: false, expanded: false },
-    streak: { eastWatered: 0, reserve: 0 },
+    streak: { eastWatered: 0, reserve: 0, welfare: 0 },
     everFull: false,
     carted: 0,
     placed: [],
@@ -460,7 +486,7 @@ export const treasuryOf = (s: VillageState): number => s.economy.treasury.availa
  */
 export function upgradeVillage(sc: Scenario, saved: VillageState): VillageState | null {
   if (saved.version === VILLAGE_VERSION) return saved;
-  if (![1, 2, 3, 4, 5, 6, 7].includes(saved.version)) return null;
+  if (![1, 2, 3, 4, 5, 6, 7, 8].includes(saved.version)) return null;
   const s = structuredClone(saved) as VillageState;
   s.version = VILLAGE_VERSION;
   // From 2 to 3: nothing has been placed yet. From 3 to 4: no field has been put first.
@@ -474,6 +500,8 @@ export function upgradeVillage(sc: Scenario, saved: VillageState): VillageState 
   s.priceWas ??= asksOf(s.economy);
   // From 6 to 7: a valley saved before there were years is in its first.
   s.year ??= 1;
+  // From 8 to 9: no run of good days has been counted.
+  s.streak.welfare ??= 0;
   // From 7 to 8: nothing is on the road yet.
   s.shipments ??= [];
   s.economy.road ??= {};
@@ -532,7 +560,7 @@ const copy = (state: VillageState): VillageState => ({ ...structuredClone({ ...s
 
 function ledger(s: VillageState, command: EconomyCommand): CommandResult {
   // The day is in the id so that the journal can be read by day; from the second year on, the year is too.
-  const out = submit(s.economy, { commandId: `${s.year > 1 ? `y${s.year}` : ""}d${s.day}:${s.n}`, expectedStateVersion: s.economy.stateVersion, command });
+  const out = submit(s.economy, { commandId: `${s.year > 1 ? `y${s.year}` : ""}d${s.day}:${s.n}`, expectedStateVersion: s.economy.stateVersion, command, once: true });
   s.n += 1;
   s.economy = out.state;
   return out.result;
@@ -977,6 +1005,9 @@ export function tick(sc: Scenario, state: VillageState): VillageState {
   s.streak.eastWatered = mended && east.ripeSince === null && east.watered >= 900 ? s.streak.eastWatered + 1 : mended && east.ripeSince !== null ? s.streak.eastWatered : 0;
   // The reserve that matters is the one held as winter approaches: the store is full of last year's grain in spring.
   s.streak.reserve = seasonOf(day) >= 2 && reserveDays(s) >= 20 ? s.streak.reserve + 1 : 0;
+  // Where a year asks that the households fare well for a run of days, the run is counted against what it asks.
+  const faring = tasksOf(sc).find((x): x is Extract<TaskDef, { kind: "welfare-streak" }> => x.kind === "welfare-streak");
+  s.streak.welfare = faring && s.welfare >= faring.atLeast ? s.streak.welfare + 1 : 0;
   for (const def of tasksOf(sc)) {
     const q = def.id;
     if (!s.quests[q] && taskState(sc, s, def).done) {
@@ -1065,6 +1096,8 @@ export function taskState(sc: Scenario, s: VillageState, def: TaskDef): { done: 
       const n = s.placed.filter((p) => p.what === def.what && p.done).length;
       return { done: n >= def.n, have: n, want: def.n };
     }
+    case "welfare-streak":
+      return { done: s.streak.welfare >= def.days, have: Math.min(def.days, s.streak.welfare), want: def.days };
   }
 }
 

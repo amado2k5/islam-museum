@@ -2,7 +2,7 @@
 // saved game. The DOM itself is exercised in a real browser by tools/granada-play.ts.
 import { describe, expect, it } from "vitest";
 import { PLAYERS, playVillage } from "../src/sim/players";
-import { MERCHANTS_OF_MALAGA as Y2, WATER_FOR_THE_VALLEY as SC } from "../src/sim/scenarios";
+import { A_DRY_YEAR as Y3, MERCHANTS_OF_MALAGA as Y2, WATER_FOR_THE_VALLEY as SC } from "../src/sim/scenarios";
 import { VILLAGE_VERSION, act, invariants, newVillage, tick, type VillageCommand, type VillageState } from "../src/sim/village";
 import { SAVE_KEY, clearSave, readSave, writeSave, type Store } from "../src/save";
 import { regionView } from "../src/ui/region";
@@ -89,6 +89,21 @@ describe("the works", () => {
   });
 });
 
+describe("the page's forecast", () => {
+  it("is worked out once for a state, however many parts of the page read it, and afresh for the next state", () => {
+    const s = start();
+    // The same answers, not merely equal ones: nothing is run forward a second time for the same state.
+    expect(stocksOf(SC, s)).toBe(stocksOf(SC, s));
+    expect(fieldCards(SC, s)).toBe(fieldCards(SC, s));
+    const next = order(s, { kind: "repair" });
+    expect(stocksOf(SC, next)).not.toBe(stocksOf(SC, s));
+    expect(stocksOf(SC, next).dinars).toBe(stocksOf(SC, s).dinars - 140);
+    // The top bar's ten days ahead are the first ten of the one forecast the warnings read.
+    const ten = days(s, 10);
+    expect(stocksOf(SC, s).inTen).toEqual({ dinars: Math.floor(ten.economy.treasury.available / 100), reserveDays: stocksOf(SC, ten).reserveDays, welfare: ten.welfare, pool: ten.pool, households: ten.households });
+  });
+});
+
 describe("what a year hands to the next", () => {
   it("is warned of from autumn: a valley with no wheat in the ground for the year that follows", () => {
     const summer = days(order(start(), { kind: "harvest", plot: "mill-field", rest: "wait" }, { kind: "repair" }), 20);
@@ -98,7 +113,7 @@ describe("what a year hands to the next", () => {
     const sown = order(autumn, { kind: "plant", plot: "mill-field", crop: "wheat" });
     expect(warnings(SC, sown).some((w) => w.key === "warn_unsown")).toBe(false);
     // The last year of the campaign has no year after it to warn of.
-    expect(warnings(Y2, days(newVillage(Y2, 7), 70)).some((w) => w.key === "warn_unsown")).toBe(false);
+    expect(warnings(Y3, days(newVillage(Y3, 7), 70)).some((w) => w.key === "warn_unsown")).toBe(false);
   });
 
   it("is said at a won year's end: the people, the money, the food, and what is sown", () => {
@@ -108,7 +123,8 @@ describe("what a year hands to the next", () => {
     expect([c.households, c.foodDays]).toEqual([end.households, Math.floor(((end.economy.stock.wheat?.quantity ?? 0) + (end.economy.stock.vegetables?.quantity ?? 0)) / Math.ceil(end.households / 10))]);
     expect(c.sown).toEqual(Object.entries(end.plots).filter(([, p]) => p.crop === "wheat" && p.ripeSince === null).map(([id]) => id));
     expect(c.sown.length).toBeGreaterThan(0);
-    expect(carryOver(Y2, newVillage(Y2, 7))).toBeNull();
+    expect(carryOver(Y2, newVillage(Y2, 7))).not.toBeNull();
+    expect(carryOver(Y3, newVillage(Y3, 7))).toBeNull();
   });
 });
 
@@ -479,6 +495,14 @@ describe("the saved game", () => {
       expect(four.status).toBe("ok");
       if (four.status === "ok") expect([four.state.version, four.state.decisions["water-for-the-neighbours"]!.state, four.state.effects, four.state.journal, invariants(SC, four.state)]).toEqual([VILLAGE_VERSION, state, [], [], []]);
     }
+    // And one saved before a run of good days was counted (version 8).
+    const v8 = JSON.parse(JSON.stringify(days(newVillage(SC, 9), 5))) as { version: number; streak: Record<string, number> };
+    v8.version = 8;
+    delete v8.streak.welfare;
+    store.data.set(SAVE_KEY, JSON.stringify({ v: 1, state: v8 }));
+    const eight = readSave(store);
+    expect(eight.status).toBe("ok");
+    if (eight.status === "ok") expect([eight.state.version, eight.state.streak.welfare, invariants(SC, eight.state)]).toEqual([VILLAGE_VERSION, 0, []]);
     // And one saved before there were years (version 6): it is in its first.
     const v6 = JSON.parse(JSON.stringify(days(newVillage(SC, 9), 5))) as Record<string, unknown>;
     v6.version = 6;

@@ -1,6 +1,6 @@
 # Granada: state of the game
 
-_Updated 26 November 2026. Release status: **prototype**, on the test address only. Two years of the campaign can be played from start to finish in a browser, in seven languages, with the mouse or the keyboard alone, from panels and a drawn plan of the valley and in a 3D valley. **The 3D valley has the structure of the founder's target picture and not its finish** (see [`../spec-production/proof-granada.md`](../spec-production/proof-granada.md), which awaits his judgement). No person has played it: every playthrough so far is the author's script. Nothing has been measured on the founder's minimum machines. Its history is marked "historical review pending" and no reviewer is named. The step-by-step record is [`../LEDGER.md`](../LEDGER.md); what follows below "Added on 26 November 2026" is older and is corrected where it had become untrue._
+_Updated 26 November 2026. Release status: **prototype**, on the test address only. Three years of the campaign can be played from start to finish in a browser, in seven languages, with the mouse or the keyboard alone, from panels and a drawn plan of the valley and in a 3D valley. **The 3D valley has the structure of the founder's target picture and not its finish** (see [`../spec-production/proof-granada.md`](../spec-production/proof-granada.md), which awaits his judgement). No person has played it: every playthrough so far is the author's script. Nothing has been measured on the founder's minimum machines. Its history is marked "historical review pending" and no reviewer is named. The step-by-step record is [`../LEDGER.md`](../LEDGER.md); what follows below "Added on 26 November 2026" is older and is corrected where it had become untrue._
 
 The founder's design is in [`../spec-granada/`](../spec-granada/) (the package of 25 November 2026, read in full). What was found before building is in [`../granada/g0-discovery.md`](../granada/g0-discovery.md); the gates are in [`../granada/acceptance.md`](../granada/acceptance.md); the decisions are [G-0009](../adr/G-0009-granada-eleventh-game.md), [G-0010](../adr/G-0010-granada-economy-kernel.md) and [G-0011](../adr/G-0011-granada-village-rules.md).
 
@@ -69,11 +69,11 @@ Each of these is its own merged change with tests, a play-through in real Chrome
 | The region | See Granada, Málaga, Almería and the Sierra Nevada at the museum's coordinates, with three layers of the game's own figures | A diagram, not a drawn map; no country's outline |
 | Buildings that can be chosen; the oil's road | Click the store, the market, the estate or a placed building for its card; follow oil from grove to port and act at each step | The mill, the mosque and the houses open nothing |
 | Photo Mode | Put the page away, move the camera, choose a lens, preview a season, rain or an hour's light, save the view | No focus or depth of field; scripted on one machine |
-| A second year | Go on from a won first year with the valley as it stands, into "The Merchants of Málaga" | Two short years; the balance is a first attempt |
+| A second and a third year | Go on from a won year with the valley as it stands, into "The Merchants of Málaga" and then "A Dry Year" | Three short years; the balance is a first attempt |
 
 **Not built, on purpose:** defence, readiness, tribute and diplomacy. The founder's words are that conflict "must remain historically reviewed", and no reviewer is named.
 
-**What the clock says:** a day is a second and a half at normal speed; the two years together are about five and a half minutes of running clock. The founder's campaign lengths need a decision about pace that is his, made with people playing.
+**What the clock says:** a day is a second and a half at normal speed; the three years together are about eight and a half minutes of running clock. The founder's campaign lengths need a decision about pace that is his, made with people playing.
 
 ## The page
 
@@ -176,7 +176,7 @@ Evidence: [`../evidence/granada/g0/`](../evidence/granada/g0/) (as it stood when
 - **No person has played it.** The seven play runs are the author's script. The strings in five languages were translated by a Sonnet subagent and all seven tables are unread by a native speaker; the helper reported a dozen wordings it was unsure of, the clipped "{field}: ..." sentences among them.
 - No sound effects; the museum's music plays in a development build and is absent from a release until the tracks are hosted.
 - The first year is too forgiving: over 1,000 years of weather most scripted stewards win it more than nine times in ten. The second is a first balance: two ways of playing it win about half the time, where the design asks for three. Figures in the ledger.
-- Two short years of a campaign; no sandbox, no daily challenge, no undo.
+- Three short years of a campaign; no sandbox, no daily challenge, no undo.
 - There is one warehouse and one port. A load's three days on the road are a number for play.
 - Diplomacy and defence are not started, and wait on historical review. There is one valley, one port and one settlement.
 - No historical statement of the game has been checked by a person. Twelve entries for Granada are in the review ledger ([`../historical-review/ledger.md`](../historical-review/ledger.md)), all pending; most are labelled fiction.

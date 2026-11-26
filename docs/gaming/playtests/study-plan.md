@@ -61,7 +61,7 @@ None is given for the first twenty minutes: the tester plays as they would have 
 
 | Game | Then ask them to try |
 |---|---|
-| Granada | "Find out why the olive terrace is thirsty, and do something about it." "Sell something, and tell me whether it was worth it." |
+| Granada | "Find out why the olive terrace is thirsty, and do something about it." "Sell something, and tell me whether it was worth it." "Build something, and tell me what the ring on the ground was telling you." "Take the port's contract, and tell me by when the oil has to leave." "The village downstream has asked for water: tell me what each answer would cost you before you choose." |
 | The Golden Age | "Bring water to a house that has none." "Tell me what next season will do to your treasury, before you end this one." |
 | Atlas | "Play today's five rounds." "Use a hint once, and tell me what it cost you." |
 

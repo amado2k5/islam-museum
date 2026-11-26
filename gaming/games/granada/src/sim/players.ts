@@ -4,7 +4,7 @@
 // win says nothing about whether the game is enjoyable.
 import { Rng } from "@im/kernel/prng";
 import { dinars } from "./economy";
-import { CROPS, act, invariants, reserveDays, seasonOf, tick, treasuryOf, type Scenario, type VillageCommand, type VillageState } from "./village";
+import { CROPS, act, invariants, reserveDays, seasonOf, tasksOf, tick, treasuryOf, type Scenario, type VillageCommand, type VillageState } from "./village";
 
 export type Player = (sc: Scenario, s: VillageState, rng: Rng) => VillageCommand[];
 const stock = (s: VillageState, good: string) => s.economy.stock[good]?.quantity ?? 0;
@@ -35,7 +35,7 @@ function trading(sc: Scenario, s: VillageState, how: { answer: string; meadow: b
   if (how.meadow) out.push({ kind: "expand" });
   out.push(...sow(sc, s, "vegetables"), ...sow(sc, s, "wheat"));
   const cisterns = s.placed.filter((p) => p.what === "cistern").length;
-  if (sc.catalogue?.cistern && cisterns < (how.cisterns ?? 1)) {
+  if (sc.catalogue?.cistern && cisterns < Math.max(how.cisterns ?? 1, ...tasksOf(sc).map((x) => (x.kind === "placed" && x.what === "cistern" ? x.n : 0)))) {
     // The stone for it is bought if the works have taken what there was.
     if (stock(s, "stone") < sc.catalogue.cistern.stone) out.push({ kind: "buy", good: "stone", quantity: sc.catalogue.cistern.stone - stock(s, "stone") });
     out.push({ kind: "place", what: "cistern", x: 560, z: 60 + 30 * cisterns });
@@ -112,6 +112,35 @@ export const PLAYERS: Record<string, Player> = {
   provisioner: (sc, s) => trading(sc, s, { answer: "refuse", meadow: false, reserve: 30 }),
   /** The oil merchant who also sells the neighbours their water: the same year, with the other answer. */
   sharer: (sc, s) => trading(sc, s, { answer: "share", meadow: true, reserve: 24, take: ["oil"] }),
+  /**
+   * The careful steward of the long-run tool: mends and extends the channel, sows every fallow field, takes every
+   * contract and sends on it as goods come in, keeps the neighbours' water, buys grain before it builds, and builds
+   * only what the year asks for. It is here so that the lab can say how a careful hand fares in each year.
+   */
+  careful: (sc, s) => {
+    const out: VillageCommand[] = [...answer(sc, s, "refuse"), ...ripe(s).map((plot) => ({ kind: "harvest", plot, rest: "wait" }) as VillageCommand), { kind: "repair" }, { kind: "expand" }];
+    for (const def of sc.plots) if (s.plots[def.id]!.crop === null) out.push({ kind: "plant", plot: def.id, crop: "vegetables" }, { kind: "plant", plot: def.id, crop: "wheat" });
+    const contracts = (sc.trade?.contracts ?? []).map((c) => s.economy.contracts[c.id]!).filter(Boolean);
+    for (const c of contracts) if (c.state === "offered") out.push({ kind: "accept", contract: c.id });
+    if (sc.trade && stock(s, "olives") >= 5) out.push({ kind: "press", runs: Math.floor(stock(s, "olives") / 5) });
+    for (const c of contracts) {
+      if (c.state !== "accepted") continue;
+      const n = Math.min(toSend(s, c), c.good === "oil" ? stock(s, "oil") : Math.max(0, stock(s, c.good) - 60));
+      if (n > 0) out.push({ kind: "deliver", contract: c.id, quantity: n });
+    }
+    const days = reserveDays(s);
+    if (days < 26 && treasuryOf(s) > dinars(300)) out.push({ kind: "buy", good: "wheat", quantity: 20 });
+    const houses = s.placed.filter((p) => p.what === "house").length;
+    if (sc.catalogue?.house && s.households >= s.housing && houses < s.year && days >= 20) out.push({ kind: "place", what: "house", x: 600 + 40 * houses, z: 250 });
+    const cisterns = s.placed.filter((p) => p.what === "cistern").length;
+    const wanted = Math.max(0, ...tasksOf(sc).map((x) => (x.kind === "placed" && x.what === "cistern" ? x.n : 0)));
+    if (sc.catalogue?.cistern && cisterns < wanted) {
+      if (stock(s, "stone") < sc.catalogue.cistern.stone) out.push({ kind: "buy", good: "stone", quantity: sc.catalogue.cistern.stone - stock(s, "stone") });
+      out.push({ kind: "place", what: "cistern", x: 560, z: 60 + 30 * cisterns });
+    }
+    if (sc.catalogue?.granary && !s.placed.some((p) => p.what === "granary")) out.push({ kind: "place", what: "granary", x: -420, z: 60 });
+    return out;
+  },
   /** Any command, any day. It must never break a rule, and should rarely win. */
   random: (sc, s, rng) => {
     const plots = sc.plots.map((p) => p.id);
@@ -142,7 +171,7 @@ export const PLAYERS: Record<string, Player> = {
   },
 };
 /** The players that stand for ways a person might really play. */
-export const REAL_PLAYERS = ["mender", "builder", "merchant", "irrigator", "presser", "trader", "oilman", "greengrocer", "sharer"];
+export const REAL_PLAYERS = ["mender", "builder", "merchant", "irrigator", "presser", "trader", "oilman", "greengrocer", "sharer", "careful"];
 
 export interface Campaign {
   state: VillageState;
