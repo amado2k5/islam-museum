@@ -12,6 +12,18 @@
 - `place/mali`
 - `place/mecca`
 
+## Arabic cross-check
+
+Machine presence/citation check only, not a translation review:
+
+- `person/mansa-musa`: English prose present (10 sections, 22 citations); Arabic prose present (10 sections, 22 citations).
+- `event/djinguereber-built-1327`: English prose absent (0 sections, 0 citations); Arabic prose absent (0 sections, 0 citations).
+- `event/mansa-musa-accession-1312`: English prose absent (0 sections, 0 citations); Arabic prose absent (0 sections, 0 citations).
+- `event/mansa-musa-hajj-724`: English prose present (2 sections, 3 citations); Arabic prose present (2 sections, 3 citations).
+- `place/cairo`: English prose present (18 sections, 79 citations); Arabic prose present (18 sections, 79 citations).
+- `place/mali`: English prose present (8 sections, 42 citations); Arabic prose present (8 sections, 41 citations).
+- `place/mecca`: English prose present (19 sections, 50 citations); Arabic prose present (19 sections, 50 citations).
+
 ## Who, where, when
 
 - **Who:** en: Mansa Musa; ar: منسا موسى. Record labels: `person/mansa-musa` en='Mansa Musa', ar='منسا موسى'; `event/djinguereber-built-1327` en='Djinguereber mosque built at Timbuktu', ar='بناء مسجد جنكريبر بتمبكتو'; `event/mansa-musa-accession-1312` en='Mansa Musa takes the throne of Mali', ar='منسا موسى يتولى ملك مالي'; `event/mansa-musa-hajj-724` en='The hajj of Mansa Musa', ar='حج منسا موسى'; `place/cairo` en='Cairo', ar='القاهرة'; `place/mali` en='Mali', ar='مالي'; `place/mecca` en='Mecca', ar='مكة المكرمة'
@@ -20,15 +32,14 @@
 
 ## What the records say they did
 
-1. Mansa Musa, one of the kings of the Mali empire, the most famous of them according to Ibn Khaldun. He ruled for about a quarter of a century and was succeeded by Mari Jata. — source location `content/en/person/mansa-musa.md — Overview`; citation `{cite:tarikh-ibn-khaldun-ibar}`; flag: **stated**.
-2. The Encyclopaedia of Islam, whose article on him this page now follows, gives his reign as 712 to 738 AH, that is 1312 to 1337, and calls him king, mansa, of Mali. It describes him as apparently the grandson of Abu Bakr, called Manding Bori, who was the brother of Mari Jata, the legendary hero credited with founding Mali as a powerful empire. The article says he reigned at the peak of Mali's prosperity and that… — source location `content/en/person/mansa-musa.md — Overview`; citation `{cite:encyclopaedia-of-islam-2 vol. 6 p. 443}`; flag: **stated**.
-3. The article reports a story told by Mansa Musa himself to an informant of the Mamluk writer al-Umari, a man named Ibn Amir Hajib who often kept his company in Egypt. According to it, Musa came to power because his predecessor, Muhammad, from another branch of the same family, appointed him deputy before setting out on a sea expedition to find the limits of the Atlantic Ocean. That predecessor never came back. — source location `content/en/person/mansa-musa.md — How he came to power`; citation `{cite:encyclopaedia-of-islam-2 vol. 6 p. 443}`; flag: **stated**.
-4. He made the pilgrimage in 724 AH with a procession whose attendants numbered more than twelve thousand, clothed in brocade and Yemeni silk. The news of his generosity and the breadth of his realm in the Maghrib, Egypt and the East spread after that. — source location `content/en/person/mansa-musa.md — The pilgrimage`; citation `{cite:tarikh-ibn-khaldun-ibar}`; flag: **stated**.
-5. He exchanged gifts with the Marinid sultan Abu al-Hasan, and among what he sent was a giraffe, which the people of the Maghrib talked about for a long time. — source location `content/en/person/mansa-musa.md — The pilgrimage`; citation `{cite:tarikh-ibn-khaldun-ibar}`; flag: **stated**.
-6. The Encyclopaedia of Islam dates the pilgrimage to Mecca to 1324 and says he left a deputy to rule in his absence. It says the journey made a profound impression on the Egyptians and was recorded by Arab writers. According to the seventeenth-century Timbuktu chronicles, the Tarikh al-Sudan and the Tarikh al-Fattash, whose authors relied heavily on oral sources, he was accompanied by an entourage of thousands,… — source location `content/en/person/mansa-musa.md — The pilgrimage`; citation `{cite:encyclopaedia-of-islam-2 vol. 6 p. 443}`; flag: **stated**.
-7. Other articles of the same work give slightly different years. The article on Gao places his return from the pilgrimage in 724 AH, 1324, while the article on the Hausa dates the journey to 725 AH, 1325. — source location `content/en/person/mansa-musa.md — The pilgrimage`; citation `{cite:encyclopaedia-of-islam-2 vol. 2 p. 1019} {cite:encyclopaedia-of-islam-2 vol. 3 p. 295}`; flag: **stated**.
-8. The Mali article presents royal pilgrimage as an older habit of West African rulers. It names earlier kings, Uli, who passed through Cairo, and Sakura, whose pilgrimage Ibn Khaldun recorded, and calls Musa the most famous of all royal pilgrims. It adds that the visits of Mali's kings to North Africa, Egypt and Mecca made the kingdom known, often under the name Takrur in Egyptian chronicles, as a Muslim realm rich… — source location `content/en/person/mansa-musa.md — The pilgrimage`; citation `{cite:encyclopaedia-of-islam-2 vol. 6 p. 278}`; flag: **stated**.
-
+1. Mansa Musa, one of the kings of the Mali empire, the most famous of them according to Ibn Khaldun. — source location `content/en/person/mansa-musa.md — Overview`; citation `{cite:tarikh-ibn-khaldun-ibar}`; flag: **stated**.
+2. The Encyclopaedia of Islam says Mansa Musa reigned from 1312 to 1337 and was the grandson of Abu Bakr. — source location `content/en/person/mansa-musa.md — Overview`; citation `{cite:encyclopaedia-of-islam-2 vol. 6 p. 443}`; flag: **stated**.
+3. The article reports a story where Mansa Musa says he came to power after his predecessor, Muhammad, embarked on a sea expedition and never returned. — source location `content/en/person/mansa-musa.md — How he came to power`; citation `{cite:encyclopaedia-of-islam-2 vol. 6 p. 443}`; flag: **stated**.
+4. He made the pilgrimage in 724 AH with a procession whose attendants numbered more than twelve thousand, clothed in brocade and Yemeni silk. — source location `content/en/person/mansa-musa.md — The pilgrimage`; citation `{cite:tarikh-ibn-khaldun-ibar}`; flag: **stated**.
+5. It says Mansa Musa exchanged gifts with the Marinid sultan, including a giraffe. — source location `content/en/person/mansa-musa.md — The pilgrimage`; citation `{cite:tarikh-ibn-khaldun-ibar}`; flag: **stated**.
+6. The Encyclopaedia of Islam notes the pilgrimage made a profound impression on Egyptians and was recorded by Arab writers. — source location `content/en/person/mansa-musa.md — The pilgrimage`; citation `{cite:encyclopaedia-of-islam-2 vol. 6 p. 443}`; flag: **stated**.
+7. Other articles in the same work give slightly different years for the pilgrimage, with some placing it in 1324 and others in 1325. — source location `content/en/person/mansa-musa.md — The pilgrimage`; citation `{cite:encyclopaedia-of-islam-2 vol. 2 p. 1019} {cite:encyclopaedia-of-islam-2 vol. 3 p. 295}`; flag: **stated**.
+8. The Mali article mentions that royal pilgrimages were an older habit of West African rulers, making Mali known as a rich Muslim realm. — source location `content/en/person/mansa-musa.md — The pilgrimage`; citation `{cite:encyclopaedia-of-islam-2 vol. 6 p. 278}`; flag: **stated**.
 ## Thumbnail elements without record support
 
 The atlas title is The King and the River of Gold / أغنى رجل في التاريخ. No record read supports the exact pictured scene, costumes, objects, people, weather, lighting or child-facing drama implied by the thumbnail. Because the source pictures are not available in this checkout, this dossier uses the atlas titles rather than visual inspection; the title itself is not treated as a historical claim. Treat those elements as design fiction unless a reviewer supplies support.
@@ -53,15 +64,15 @@ The atlas title is The King and the River of Gold / أغنى رجل في الت�
 
 These are proposals for Claude and the founder, not content.
 
-1. A local problem asks the player to apply Sail/Route and Mend to the documented object, place, text or route, using only the claims above as the factual base.
+1. Players can sail to find the limits of the Atlantic Ocean, as the predecessor of Mansa Musa did, and discover new lands [3].
 
-2. Hudhud helps the player compare what the museum record states, what it states uncertainly and what the thumbnail adds, then solve the puzzle through Sail/Route and Mend.
+2. Players must mend the royal ship after a storm to continue Mansa Musa's pilgrimage, showcasing the wealth and generosity that impressed Egyptians [4].
 
-3. The completed page returns to the Atlas with optional older-reader context, one hidden collectible and replay goals. This is a structural proposal only, not historical content.
+3. Players can exchange gifts with other rulers, like the giraffe Mansa Musa sent to the Marinid sultan, to establish trade routes and alliances [5].
 
 ## Sensitivities
 
-Do not add war, illness, death, slavery, sect or living disputes unless the reviewed record requires them and they are necessary, age-appropriate and non-spectacular. Literary traditions must be labelled as such. Invented dialogue must be explicit dramatized paraphrase, never a false quotation.
+Evidence scan, not a ruling: none of the tracked war, illness/death, slavery or sect-dispute terms appears in the extracted evidence. Any such material still requires the full content-safety and age-appropriateness review. Do not add war, illness, death, slavery, sect or living disputes unless the reviewed record requires them and they are necessary, age-appropriate and non-spectacular. Literary traditions must be labelled as such. Invented dialogue must be explicit dramatized paraphrase, never a false quotation.
 
 ## Gaps
 

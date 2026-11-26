@@ -6,6 +6,12 @@
 
 - `place/timbuktu`
 
+## Arabic cross-check
+
+Machine presence/citation check only, not a translation review:
+
+- `place/timbuktu`: English prose present (4 sections, 1 citations); Arabic prose present (4 sections, 1 citations).
+
 ## Who, where, when
 
 - **Who:** en: Timbuktu; ar: تنبكتو. Record labels: `place/timbuktu` en='Timbuktu', ar='تمبكتو'
@@ -14,8 +20,7 @@
 
 ## What the records say they did
 
-1. Timbuktu is a city in Mali on the edges of the desert. It was a centre of Islamic learning in the Middle Ages, and it has the Sankore Mosque and the Djinguereber Mosque. The description needs an additional source from specialist references. — source location `content/en/place/timbuktu.md — Overview`; citation `{cite:geonames-gazetteer}`; flag: **stated**.
-
+1. Timbuktu, a city in Mali near the desert, was a hub for Islamic learning in the Middle Ages and is home to the Sankore Mosque and the Djinguereber Mosque, though this description requires further verification from specialist references. — source location `content/en/place/timbuktu.md — Overview`; citation `{cite:geonames-gazetteer}`; flag: **stated**.
 ## Thumbnail elements without record support
 
 The atlas title is The City of Golden Books / مدينة الكتب الذهبية. No record read supports the exact pictured scene, costumes, objects, people, weather, lighting or child-facing drama implied by the thumbnail. Because the source pictures are not available in this checkout, this dossier uses the atlas titles rather than visual inspection; the title itself is not treated as a historical claim. Treat those elements as design fiction unless a reviewer supplies support.
@@ -32,15 +37,15 @@ The atlas title is The City of Golden Books / مدينة الكتب الذهبي
 
 These are proposals for Claude and the founder, not content.
 
-1. A local problem asks the player to apply Sail/Route and Mend to the documented object, place, text or route, using only the claims above as the factual base.
+1. [1] Players can sail along the ancient trade routes to Timbuktu, delivering books to restore the city's status as a learning center, but they must mend the damaged manuscripts they find.
 
-2. Hudhud helps the player compare what the museum record states, what it states uncertainly and what the thumbnail adds, then solve the puzzle through Sail/Route and Mend.
+2. [1] In the game, players mend the ancient texts in the Sankore Mosque and then sail to other cities to spread knowledge, though the historical accuracy of this is unverified.
 
-3. The completed page returns to the Atlas with optional older-reader context, one hidden collectible and replay goals. This is a structural proposal only, not historical content.
+3. [1] Players navigate the treacherous desert routes to Timbuktu, where they mend the sacred texts of the Djinguereber Mosque, an activity not historically confirmed but imagined for the game's narrative.
 
 ## Sensitivities
 
-Do not add war, illness, death, slavery, sect or living disputes unless the reviewed record requires them and they are necessary, age-appropriate and non-spectacular. Literary traditions must be labelled as such. Invented dialogue must be explicit dramatized paraphrase, never a false quotation.
+Evidence scan, not a ruling: none of the tracked war, illness/death, slavery or sect-dispute terms appears in the extracted evidence. Any such material still requires the full content-safety and age-appropriateness review. Do not add war, illness, death, slavery, sect or living disputes unless the reviewed record requires them and they are necessary, age-appropriate and non-spectacular. Literary traditions must be labelled as such. Invented dialogue must be explicit dramatized paraphrase, never a false quotation.
 
 ## Gaps
 

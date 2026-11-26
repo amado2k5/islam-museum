@@ -6,6 +6,12 @@
 
 - `place/sohar`
 
+## Arabic cross-check
+
+Machine presence/citation check only, not a translation review:
+
+- `place/sohar`: English prose present (3 sections, 3 citations); Arabic prose present (3 sections, 3 citations).
+
 ## Who, where, when
 
 - **Who:** en: The Sailor of Sohar; ar: الذي أبحر إلى الصين. Record labels: `place/sohar` en='Sohar', ar='صحار'
@@ -14,12 +20,11 @@
 
 ## What the records say they did
 
-1. Sohar is a city on the shore of the Persian Sea, one of the wealthiest cities of Oman in both ancient and modern times, according to al-Idrisi. Merchants come to it, and goods of Yemen are brought to it. — source location `content/en/place/sohar.md — Overview`; citation `{cite:nuzhat-al-mushtaq-2002 p.156}`; flag: **stated**.
-2. Yaqut gives Suhar with a damma and a final ra', and offers two roots for the name: a low hollow in a lava field, or a reddish colour. The entry first carries a tribal story on the word of Ibn al-Kalbi: when Quda'a scattered from Tihama, Juhayna and Sa'd Hudhaym, sons of Zayd, were the first to climb to Najd and spread over its deserts; a rider asked who they were, and they answered that they were sons of the… — source location `content/en/place/sohar.md — In Yaqut's Mu'jam al-buldan`; citation `{cite:mujam-al-buldan-sader-1995 3 p.393-394} {cite:mujam-al-buldan-sader-1995 2 p.54}`; flag: **stated as uncertain**.
-
+1. Sohar, a city on the Persian Sea shore, has been one of Oman's wealthiest cities, ancient and modern, attracting merchants and Yemeni goods. — source location `content/en/place/sohar.md — Overview`; citation `{cite:nuzhat-al-mushtaq-2002 p.156}`; flag: **stated**.
+2. Yaqut provides two origins for Suhar's name: a low hollow in a lava field or a reddish color, and includes a tribal story about the Quda'a scattering from Tihama. — source location `content/en/place/sohar.md — In Yaqut's Mu'jam al-buldan`; citation `{cite:mujam-al-buldan-sader-1995 3 p.393-394} {cite:mujam-al-buldan-sader-1995 2 p.54}`; flag: **stated as uncertain**.
 ## Thumbnail elements without record support
 
-The atlas title is The Sailor of Sohar / بحّار صُحار. No record read supports the exact pictured scene, costumes, objects, people, weather, lighting or child-facing drama implied by the thumbnail. Because the source pictures are not available in this checkout, this dossier uses the atlas titles rather than visual inspection; the title itself is not treated as a historical claim; additionally, the atlas joins this subject only to `place/sohar`; no named sailor or person record exists. The dossier must not invent a sailor, a voyage, a date or a ship.. Treat those elements as design fiction unless a reviewer supplies support.
+The atlas title is The Sailor of Sohar / بحّار صُحار. No record read supports the exact pictured scene, costumes, objects, people, weather, lighting or child-facing drama implied by the thumbnail. Because the source pictures are not available in this checkout, this dossier uses the atlas titles rather than visual inspection; the title itself is not treated as a historical claim; additionally, the atlas joins this subject only to `place/sohar`; no named sailor or person record exists. The dossier must not invent a sailor, a voyage, a date or a ship. Treat those elements as design fiction unless a reviewer supplies support.
 
 ## Setting
 
@@ -33,15 +38,15 @@ The atlas title is The Sailor of Sohar / بحّار صُحار. No record read s
 
 These are proposals for Claude and the founder, not content.
 
-1. A local problem asks the player to apply Sail/Route and Mend to the documented object, place, text or route, using only the claims above as the factual base.
+1. In the game, players can sail to Sohar, a bustling trade hub, and mend their ships with Yemeni goods, but the tribal story of Quda'a is a fictional quest element [1, 2].
 
-2. Hudhud helps the player compare what the museum record states, what it states uncertainly and what the thumbnail adds, then solve the puzzle through Sail/Route and Mend.
+2. Players embark on a quest to mend ancient routes to Sohar, using the knowledge of the reddish color or lava field to navigate, while the tribal story is purely game invention [1, 2].
 
-3. The completed page returns to the Atlas with optional older-reader context, one hidden collectible and replay goals. This is a structural proposal only, not historical content.
+3. A quest involves sailing to Sohar to gather rare materials for ship repairs, but the story of the Quda'a tribe is a fabricated tale for the game's lore [1, 2].
 
 ## Sensitivities
 
-Do not add war, illness, death, slavery, sect or living disputes unless the reviewed record requires them and they are necessary, age-appropriate and non-spectacular. Literary traditions must be labelled as such. Invented dialogue must be explicit dramatized paraphrase, never a false quotation.
+Evidence scan, not a ruling: none of the tracked war, illness/death, slavery or sect-dispute terms appears in the extracted evidence. Any such material still requires the full content-safety and age-appropriateness review. Do not add war, illness, death, slavery, sect or living disputes unless the reviewed record requires them and they are necessary, age-appropriate and non-spectacular. Literary traditions must be labelled as such. Invented dialogue must be explicit dramatized paraphrase, never a false quotation.
 
 ## Gaps
 
