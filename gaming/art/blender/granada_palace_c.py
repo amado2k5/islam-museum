@@ -18,6 +18,8 @@ HR-GR-06, a reconstruction, review pending. The game does not call it the Alhamb
 import json
 import math
 import os
+
+import bpy
 import random
 import sys
 
