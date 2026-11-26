@@ -15,6 +15,9 @@ import { cipherQuest, type CipherQuest } from "./cipher";
 import { ALGEBRA_QUEST, algebraStart } from "../content/algebra";
 import { restoreAlgebra } from "../sim/algebra";
 import { algebraQuest, type AlgebraQuest } from "./algebra";
+import { SHEETS_QUEST, sheetsMap } from "../content/sheets";
+import { restoreSheets } from "../sim/sheets";
+import { sheetsQuest, type SheetsQuest } from "./sheets";
 import { prologueScreen } from "./prologue";
 import { JAR, RECORDS, SCRIPTS, THINGS, TURN_SLACK, inPlay, type PlayStyle, type Speaker } from "../content/workshop";
 import { start, type Running } from "../game/boot";
@@ -156,11 +159,12 @@ async function main(): Promise<void> {
   // The goal and the talk sit over the picture on a wide screen and beside it on a narrow one (ui/hudhud.css).
   const stageWrap = el("div", { class: "stage-wrap", hidden: true }, objective, stage, talkBox);
   const hub = el("section", { class: "hub" });
-  // The second, third and fourth quests are played on a page of their own, beside the Atlas and the flying scene.
+  // The second to fifth quests are played on a page of their own, beside the Atlas and the flying scene. One of them
+  // is open at a time: `pageRun` is the one that is (see PAGE_QUESTS).
   const bench = el("section", { class: "bench", hidden: true });
-  let clockRun: ClockQuest | null = null;
-  let cipherRun: CipherQuest | null = null;
-  let algebraRun: AlgebraQuest | null = null;
+  let pageRun: { quest: string; run: { node: HTMLElement; busy(): boolean; stop(): void } } | null = null;
+  /** The open quest, if it is `quest`. */
+  const pageOf = <T,>(quest: string): T | null => (pageRun?.quest === quest ? (pageRun.run as unknown as T) : null);
   stage.setAttribute("role", "application");
   stage.setAttribute("aria-label", t("canvas_label"));
 
@@ -504,7 +508,7 @@ async function main(): Promise<void> {
       openingDue = false;
       return;
     }
-    if (started || clockRun || cipherRun || algebraRun || openingShown) return;
+    if (started || pageRun || openingShown) return;
     openingDue = false;
     readOpening(true);
   }
@@ -829,10 +833,10 @@ async function main(): Promise<void> {
 
   applyLook();
   // ---------------------------------------------------------------------------------------- the Atlas
-  // The first thing a player sees: who they are, and the Atlas itself, ten worlds of five pages. Four quests can be
+  // The first thing a player sees: who they are, and the Atlas itself, ten worlds of five pages. Five quests can be
   // played; the others are named and said to be not built. Nothing here is a claim about history: the names are
   // the subjects' names and the grouping is a structure for play.
-  const BUILT: Record<string, string> = { "ibn-al-haytham": QUEST, "al-jazari": CLOCK_QUEST, "al-kindi": CIPHER_QUEST, "al-khwarizmi": ALGEBRA_QUEST };
+  const BUILT: Record<string, string> = { "ibn-al-haytham": QUEST, "al-jazari": CLOCK_QUEST, "al-kindi": CIPHER_QUEST, "al-khwarizmi": ALGEBRA_QUEST, "al-idrisi": SHEETS_QUEST };
   function startQuest(): void {
     cues.unlock();
     // Asked once, after a press as browsers require; the answer is shown in the settings and never asked again.
@@ -872,9 +876,6 @@ async function main(): Promise<void> {
     save = { ...save, slots: save.slots.map((s, i) => (i === save.slot && s ? { ...recordQuest(s, quest, g), resume: mine ? null : s.resume } : s)) };
     keep(mine);
   };
-  const clockSaved = () => pageSaved(CLOCK_QUEST, (snap) => restoreClock(snap, clockPuzzle));
-  const cipherSaved = () => pageSaved(CIPHER_QUEST, (snap) => restoreCipher(snap, cipherPuzzle));
-  const algebraSaved = () => pageSaved(ALGEBRA_QUEST, (snap) => restoreAlgebra(snap, algebraStart));
   /** Shows a quest's page in place of the Atlas. The note and the controls under the page are the flying scene's; each quest carries its own note, and nothing here can be paused. */
   function showBench(node: HTMLElement): void {
     hub.hidden = true;
@@ -885,77 +886,60 @@ async function main(): Promise<void> {
     pauseBtn.hidden = true;
     (bench.querySelector("h2") as HTMLElement | null)?.focus({ preventScroll: true });
   }
-  /** Opens the elephant clock: a quest played on the page, with no flying scene. A clock left in the middle comes back. */
-  function startClock(): void {
-    const kept = clockSaved();
+  /** The quests played on a page. Each has its own page and rules (ui/, sim/); what is shared is here: which subject it belongs to, what it has left in the middle, its line about being a trial, and how it is made. */
+  type Common = Omit<Parameters<typeof algebraQuest>[0], "title" | "resume">;
+  const PAGE_QUESTS: Record<string, { subject: string; trial: Key; saved: () => unknown | null; make: (common: Common, title: string, kept: unknown) => { node: HTMLElement; busy(): boolean; stop(): void } }> = {
+    [CLOCK_QUEST]: {
+      subject: "al-jazari",
+      trial: "ck_trial",
+      saved: () => pageSaved(CLOCK_QUEST, (snap) => restoreClock(snap, clockPuzzle)),
+      make: (c, title, kept) => clockQuest({ ...c, title, resume: kept as Parameters<typeof clockQuest>[0]["resume"], reducedMotion: () => settings().reducedMotion }),
+    },
+    [CIPHER_QUEST]: {
+      subject: "al-kindi",
+      trial: "cf_trial",
+      saved: () => pageSaved(CIPHER_QUEST, (snap) => restoreCipher(snap, cipherPuzzle)),
+      make: (c, title, kept) => cipherQuest({ ...c, title, resume: kept as Parameters<typeof cipherQuest>[0]["resume"] }),
+    },
+    [ALGEBRA_QUEST]: {
+      subject: "al-khwarizmi",
+      trial: "ak_trial",
+      saved: () => pageSaved(ALGEBRA_QUEST, (snap) => restoreAlgebra(snap, algebraStart)),
+      make: (c, title, kept) => algebraQuest({ ...c, title, resume: kept as Parameters<typeof algebraQuest>[0]["resume"] }),
+    },
+    [SHEETS_QUEST]: {
+      subject: "al-idrisi",
+      trial: "id_trial",
+      saved: () => pageSaved(SHEETS_QUEST, (snap) => restoreSheets(snap, sheetsMap)),
+      make: (c, title, kept) => sheetsQuest({ ...c, title, resume: kept as Parameters<typeof sheetsQuest>[0]["resume"] }),
+    },
+  };
+  /** Opens a quest played on a page, with no flying scene. One left in the middle comes back. */
+  function openPage(quest: string): void {
+    const page = PAGE_QUESTS[quest]!;
+    const kept = page.saved();
     cues.unlock();
-    clockRun = clockQuest({
+    const common: Common = {
       t,
       num,
       lang,
       museum: MUSEUM,
-      title: subjectName("al-jazari"),
       style,
-      resume: kept,
-      keepPlace: (snap) => pageCheckpoint(CLOCK_QUEST, snap),
-      reducedMotion: () => settings().reducedMotion,
+      keepPlace: (snap) => pageCheckpoint(quest, snap),
       tick: () => cues.play("line"),
       chime: () => cues.play("restored"),
-      finish: (g) => pageFinish(CLOCK_QUEST, g),
+      finish: (g) => pageFinish(quest, g),
       leave: () => toAtlas(),
-    });
-    showBench(clockRun.node);
-  }
-  /** Opens al-Kindi's secret page: a quest played on the page, with no flying scene. A page left in the middle comes back. */
-  function startCipher(): void {
-    const kept = cipherSaved();
-    cues.unlock();
-    cipherRun = cipherQuest({
-      t,
-      num,
-      lang,
-      museum: MUSEUM,
-      title: subjectName("al-kindi"),
-      style,
-      resume: kept,
-      keepPlace: (snap) => pageCheckpoint(CIPHER_QUEST, snap),
-      tick: () => cues.play("line"),
-      chime: () => cues.play("restored"),
-      finish: (g) => pageFinish(CIPHER_QUEST, g),
-      leave: () => toAtlas(),
-    });
-    showBench(cipherRun.node);
-  }
-  /** Opens al-Khwarizmi's locked box: a quest played on the page, with no flying scene. A box left in the middle comes back. */
-  function startAlgebra(): void {
-    const kept = algebraSaved();
-    cues.unlock();
-    algebraRun = algebraQuest({
-      t,
-      num,
-      lang,
-      museum: MUSEUM,
-      title: subjectName("al-khwarizmi"),
-      style,
-      resume: kept,
-      keepPlace: (snap) => pageCheckpoint(ALGEBRA_QUEST, snap),
-      tick: () => cues.play("line"),
-      chime: () => cues.play("restored"),
-      finish: (g) => pageFinish(ALGEBRA_QUEST, g),
-      leave: () => toAtlas(),
-    });
-    showBench(algebraRun.node);
+    };
+    pageRun = { quest, run: page.make(common, subjectName(page.subject), kept) };
+    showBench(pageRun.run.node);
   }
   /** Leaves the quest for the Atlas. A quest in the middle stays saved; a finished one is cleared for another play. */
   function toAtlas(): void {
-    const onPage = clockRun ? CLOCK_QUEST : cipherRun ? CIPHER_QUEST : algebraRun ? ALGEBRA_QUEST : null;
+    const onPage = pageRun?.quest ?? null;
     if (onPage) {
-      clockRun?.stop();
-      cipherRun?.stop();
-      algebraRun?.stop();
-      clockRun = null;
-      cipherRun = null;
-      algebraRun = null;
+      pageRun?.run.stop();
+      pageRun = null;
       bench.replaceChildren();
       bench.hidden = true;
       wordsBox.hidden = false;
@@ -1044,12 +1028,6 @@ async function main(): Promise<void> {
       open: worlds.filter((w) => atlas.subjects.some((x) => x.world === w.id && BUILT[x.id] !== undefined)).map((w) => w.order),
     };
   };
-  /** The quests played on a page: how each is opened, what it has left in the middle, and its line about being a trial. */
-  const PAGE_QUESTS: Record<string, { start: () => void; saved: () => unknown | null; trial: Key }> = {
-    [CLOCK_QUEST]: { start: () => startClock(), saved: clockSaved, trial: "ck_trial" },
-    [CIPHER_QUEST]: { start: () => startCipher(), saved: cipherSaved, trial: "cf_trial" },
-    [ALGEBRA_QUEST]: { start: () => startAlgebra(), saved: algebraSaved, trial: "ak_trial" },
-  };
   function drawHub(): void {
     drawChoices();
     const quests = slot().quests;
@@ -1067,7 +1045,7 @@ async function main(): Promise<void> {
           if (page) {
             // One button on the Atlas is the main one (the flying scene); the quests played on a page have an ordinary button.
             const kept = page.saved();
-            const b = el("button", { type: "button", textContent: t(kept ? "quest_continue" : rec?.done ? "quest_again" : "quest_play", { name }), onclick: () => page.start() });
+            const b = el("button", { type: "button", textContent: t(kept ? "quest_continue" : rec?.done ? "quest_again" : "quest_play", { name }), onclick: () => openPage(quest) });
             b.dataset.quest = quest;
             const item = el("li", { class: "open" }, b, el("small", { textContent: t(page.trial) }));
             if (rec?.done) item.append(el("small", { textContent: t("quest_home", { n: num([rec.curiosity, rec.ingenuity, rec.kindness, rec.feather].filter(Boolean).length) }) }));
@@ -1146,15 +1124,18 @@ async function main(): Promise<void> {
     persistence: () => persistence,
     toAtlas: () => toAtlas(),
     atlasPicture: () => pictureData(),
-    startClock: () => startClock(),
-    clock: () => (clockRun ? { ...clockRun.state(), busy: clockRun.busy() } : null),
-    clockCommand: (c: Parameters<ClockQuest["command"]>[0]) => clockRun?.command(c),
-    startCipher: () => startCipher(),
-    cipher: () => (cipherRun ? { ...cipherRun.state(), busy: cipherRun.busy() } : null),
-    cipherCommand: (c: Parameters<CipherQuest["command"]>[0]) => cipherRun?.command(c),
-    startAlgebra: () => startAlgebra(),
-    algebra: () => (algebraRun ? { ...algebraRun.state(), busy: algebraRun.busy(), sentence: algebraRun.sentence() } : null),
-    algebraCommand: (c: Parameters<AlgebraQuest["command"]>[0]) => algebraRun?.command(c),
+    startClock: () => openPage(CLOCK_QUEST),
+    clock: () => { const r = pageOf<ClockQuest>(CLOCK_QUEST); return r ? { ...r.state(), busy: r.busy() } : null; },
+    clockCommand: (c: Parameters<ClockQuest["command"]>[0]) => pageOf<ClockQuest>(CLOCK_QUEST)?.command(c),
+    startCipher: () => openPage(CIPHER_QUEST),
+    cipher: () => { const r = pageOf<CipherQuest>(CIPHER_QUEST); return r ? { ...r.state(), busy: r.busy() } : null; },
+    cipherCommand: (c: Parameters<CipherQuest["command"]>[0]) => pageOf<CipherQuest>(CIPHER_QUEST)?.command(c),
+    startAlgebra: () => openPage(ALGEBRA_QUEST),
+    algebra: () => { const r = pageOf<AlgebraQuest>(ALGEBRA_QUEST); return r ? { ...r.state(), busy: r.busy(), sentence: r.sentence() } : null; },
+    algebraCommand: (c: Parameters<AlgebraQuest["command"]>[0]) => pageOf<AlgebraQuest>(ALGEBRA_QUEST)?.command(c),
+    startSheets: () => openPage(SHEETS_QUEST),
+    sheets: () => { const r = pageOf<SheetsQuest>(SHEETS_QUEST); return r ? { ...r.state(), busy: r.busy(), selected: r.selected(), status: r.status() } : null; },
+    sheetsCommand: (c: Parameters<SheetsQuest["command"]>[0]) => pageOf<SheetsQuest>(SHEETS_QUEST)?.command(c),
     resumed: () => resumed,
     keys: () => settings().keys,
     prologue: () => ({ shown: openingShown, panel: openingShown ? prologue.panel() : 0 }),

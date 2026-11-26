@@ -8,6 +8,7 @@ import { chromium, type BrowserContext, type Page } from "playwright-core";
 import { ATLASBOOK, worldCentre } from "../games/hudhud/src/art/atlasbook";
 import { algebraStart } from "../games/hudhud/src/content/algebra";
 import { moveName, shortest } from "../games/hudhud/src/sim/algebra";
+import { SHEETS_ART, sheetOrigin, sheetsLayout } from "../games/hudhud/src/art/sheets";
 import { leaveOpening } from "./hudhud-opening";
 import { serveWorkspace } from "./serve";
 
@@ -447,7 +448,7 @@ for (const lang of ["en", "ar"]) {
   // And the quest can be entered again from there.
   await playing(page);
   const again = await ev<{ turns: number; done: boolean }>(page, "({ turns: window.__HH__.state().turns, done: window.__HH__.state().done })");
-  record(`the Atlas shows ten worlds and fifty pages, four of them open, and one comes home (${lang})`, before.worlds === 10 && before.pages === 50 && before.open === 4 && before.stageHidden && /\D0\D|٠/.test(` ${before.progress} `) && /\D1\D|١/.test(` ${after.progress} `) && after.hubShown && after.canvases === 0 && !after.started && again.turns === 0 && !again.done, { before, after, again });
+  record(`the Atlas shows ten worlds and fifty pages, five of them open, and one comes home (${lang})`, before.worlds === 10 && before.pages === 50 && before.open === 5 && before.stageHidden && /\D0\D|٠/.test(` ${before.progress} `) && /\D1\D|١/.test(` ${after.progress} `) && after.hubShown && after.canvases === 0 && !after.started && again.turns === 0 && !again.done, { before, after, again });
   await ctx.close();
 }
 // The puzzle is not the same in the three ways of playing: five mirrors with two positions, six with three, seven with
@@ -698,14 +699,14 @@ for (const lang of ["en", "ar"]) {
   await page.getByRole("button", { name: "Back to the Atlas" }).last().click();
   const back = await ev<{ progress: string; label: string; benchHidden: boolean; primary: string; cipher: string; open: number }>(page, "({ progress: document.querySelector('.hub .progress').textContent, label: document.querySelector(\"button[data-quest='w02q2-al-khwarizmi']\").textContent, benchHidden: document.querySelector('.bench').hidden, primary: document.querySelector('.hub button.primary').textContent, cipher: document.querySelector(\"button[data-quest='w02q3-al-kindi']\").textContent, open: document.querySelectorAll('.hub .world li.open').length })");
   record("al-Khwarizmi's locked box can be played with the page's own buttons: the problem said in words at every step in a polite live region, a move that does not apply is a slip that says so, both questions, the child, the feather, the fewest moves, four goals, the links, and the Atlas counts it",
-    isPlain && /^Play: /.test(label ?? "") && /Four quests are built/.test(hubNote) && heading === "al-Khwarizmi" && first === "3 things less 4 equal 1 thing and 6" && page1.live === "polite" && page1.polite === "polite" && page1.role === "img" && (page1.alt ?? "").includes(first) && page1.inline === 0 && page1.trial &&
+    isPlain && /^Play: /.test(label ?? "") && /Five quests are built/.test(hubNote) && heading === "al-Khwarizmi" && first === "3 things less 4 equal 1 thing and 6" && page1.live === "polite" && page1.polite === "polite" && page1.role === "img" && (page1.alt ?? "").includes(first) && page1.inline === 0 && page1.trial &&
     page1.buttons.map((b) => b.move).join() === "restore-left-number,balance-things,balance-number,share" && page1.buttons.every((b) => b.w >= 44 && b.h >= 44 && !b.off) &&
     /^Balancing does not apply here\.$/.test(slip.words ?? "") && slip.sentence === first && slip.v.slips === 1 && slip.v.moves === 0 &&
     asked.flags.slice().sort().join() === "answered,askedOps,askedWords,feather,kind" &&
     path.join() === "restore-left-number,balance-things,share" && said.join(" | ") === "3 things equal 1 thing and 10 | 2 things equal 10 | 1 thing equal 5" && onRestoreFocus.join() === "BUTTON" &&
     end.done && end.moves === 3 && end.slips === 1 && end.met === 4 && end.focus === "The page is home" && end.saved && end.resume === null && end.notes === 8 &&
     end.links.join() === "https://islam.museum/en/person/al-khwarizmi/,https://islam.museum/en/work/al-jabr-wal-muqabala/,https://islam.museum/en/invention/algebra/" && /Historical review pending/.test(end.pending) &&
-    /\D1\D/.test(` ${back.progress} `) && /^Play again: /.test(back.label) && back.benchHidden && /Ibn al-Haytham/.test(back.primary) && /^Play: /.test(back.cipher) && back.open === 4,
+    /\D1\D/.test(` ${back.progress} `) && /^Play again: /.test(back.label) && back.benchHidden && /Ibn al-Haytham/.test(back.primary) && /^Play: /.test(back.cipher) && back.open === 5,
     { label, isPlain, heading, first, page1, slip, asked, path, said, onRestoreFocus, end, back, hubNote });
   await ctx.close();
   // Left in the middle: one move made, the page loaded again, and the Atlas says Continue; the same sentence is there.
@@ -741,6 +742,160 @@ for (const lang of ["en", "ar"]) {
   record("al-Khwarizmi's box in Arabic runs right to left, says the problem with Arabic numerals and the right plural (one, then two), and names the first side as the right one",
     arView.dir === "rtl" && arView.heading === "الخوارزمي" && arView.sentence === "٣ أشياء إلا ٤ تعدل شيئًا واحدًا و٦" && (arView.alt ?? "").includes(arView.sentence) && /الجهة اليمنى/.test(arView.buttons[0] ?? "") && /٤/.test(arView.buttons[0] ?? "") && arAfter === "٣ أشياء تعدل شيئًا واحدًا و١٠",
     { arView, arAfter });
+  await arCtx.close();
+}
+// The fifth quest, al-Idrisi and the scattered sheets: a real button for every place in the same rows and columns, the
+// page says how many seams do not match, two buttons and two touches on the picture each make one exchange, both
+// questions, the helper answered kindly, the feather, the sheets put in order by exchanges worked out here from the
+// page's own state, four goals, the links, and the Atlas counts it. Then one exchange, the page loaded again, and
+// "Continue"; the Challenge way of playing, which shows nothing until the map is checked; and the page in Arabic.
+{
+  const QUEST = "w03q4-al-idrisi";
+  /** The middle of a place, in the picture's space, turned into where to click on the canvas. */
+  const spot = async (page: Page, p: number, rows: number, cols: number, rtl: boolean): Promise<[number, number]> => {
+    // A touch needs the picture on the screen, as for a person: the Atlas may have been scrolled when the quest was opened.
+    await page.locator(".bench canvas.sheets-art").scrollIntoViewIfNeeded();
+    const box = (await page.locator(".bench canvas.sheets-art").boundingBox())!;
+    const o = sheetOrigin(p, rows, cols);
+    const { tile } = sheetsLayout(rows, cols);
+    const x = rtl ? SHEETS_ART.w - (o.x + tile / 2) : o.x + tile / 2;
+    return [box.x + (x / SHEETS_ART.w) * box.width, box.y + ((o.y + tile / 2) / SHEETS_ART.h) * box.height];
+  };
+  const view = (page: Page) => ev<{ moves: number; checks: number; flags: string[]; done: boolean; grid: number[]; solution: number[]; selected: number | null; status: string; rows: number; cols: number; start: number[] }>(page, "(() => { const a = window.__HH__.sheets(); return { moves: a.moves, checks: a.checks, flags: a.flags, done: a.done, grid: a.grid, solution: a.solution, selected: a.selected, status: a.status, rows: a.rows, cols: a.cols, start: a.start }; })()");
+  const ctx = await browser.newContext({ viewport: { width: 1280, height: 900 } });
+  let page = await open(ctx, "&style=explorer");
+  const button = page.locator(`.hub button[data-quest='${QUEST}']`);
+  const isPlain = await button.evaluate((b) => !b.classList.contains("primary"));
+  const label = await button.textContent();
+  const hubNote = await ev<string>(page, "[...document.querySelectorAll('.hub p.small')].map((p) => p.textContent).join(' | ')");
+  await button.click();
+  await page.waitForFunction("window.__HH__.sheets() !== null");
+  const heading = await page.locator(".bench h2").textContent();
+  const v0 = await view(page);
+  const page1 = await ev<{ rows: number; perRow: number[]; labels: string[]; sized: boolean; pressed: string[]; alt: string | null; role: string | null; inline: number; trial: boolean; live: string | null; edgeRows: number; caption: string; summary: string; status: string }>(page, "(() => ({ rows: document.querySelectorAll('.bench ol.sheet-row').length, perRow: [...document.querySelectorAll('.bench ol.sheet-row')].map((o) => o.querySelectorAll('button').length), labels: [...document.querySelectorAll('.bench .sheet-row button')].map((b) => b.textContent), sized: [...document.querySelectorAll('.bench .sheet-row button')].every((b) => b.getBoundingClientRect().width >= 44 && b.getBoundingClientRect().height >= 44), pressed: [...document.querySelectorAll('.bench .sheet-row button')].map((b) => b.getAttribute('aria-pressed')), alt: document.querySelector('.bench canvas.sheets-art').getAttribute('aria-label'), role: document.querySelector('.bench canvas.sheets-art').getAttribute('role'), inline: document.querySelectorAll('.bench [style]:not(canvas)').length, trial: /first trial/.test(document.querySelector('.bench').textContent), live: document.querySelector('.bench .ran').getAttribute('aria-live'), edgeRows: document.querySelectorAll('.bench details.edges tbody tr').length, caption: document.querySelector('.bench details.edges caption').textContent, summary: document.querySelector('.bench details.edges summary').textContent, status: document.querySelector('.bench .ran .status').textContent }))()");
+  const matched = Number(/Seams that match: (\d+) of 31\./.exec(page1.alt ?? "")?.[1] ?? NaN);
+  if (outDir) await page.screenshot({ path: resolve(outDir, "hudhud-sheets-bench.png"), fullPage: true });
+  // One exchange by two buttons: the first is held (pressed), the second makes the exchange.
+  const b = (p: number) => page.locator(`.bench .sheet-row button[data-place='${p}']`);
+  await b(0).click();
+  const held = await ev<{ pressed: string | null; selected: number | null; hint: string }>(page, "({ pressed: document.querySelector(\".bench .sheet-row button[data-place='0']\").getAttribute('aria-pressed'), selected: window.__HH__.sheets().selected, hint: [...document.querySelectorAll('.bench p.small')].map((p) => p.textContent).join(' | ') })");
+  await b(1).click();
+  const viaButtons = await view(page);
+  const said1 = await page.locator(".bench .ran").textContent();
+  // The held sheet pressed again is let go, with no exchange.
+  await b(2).click();
+  await b(2).click();
+  const letGo = { v: await view(page), said: await page.locator(".bench .ran").textContent() };
+  // One exchange by two touches on the picture.
+  await page.mouse.click(...(await spot(page, 2, v0.rows, v0.cols, false)));
+  const touched = await view(page);
+  await page.mouse.click(...(await spot(page, 3, v0.rows, v0.cols, false)));
+  const viaPicture = await view(page);
+  for (const name of ["Ask about his book", "Ask about the maps", "Talk to the young helper"]) await page.getByRole("button", { name }).click();
+  await page.getByRole("button", { name: "It is all right. We will put them in order together." }).click();
+  await page.getByRole("button", { name: "Look under the sheets" }).click();
+  const asked = await view(page);
+  // The sheets put in order by exchanges worked out here from the page's own state: for the first wrong place, press it and then the place the right sheet is in.
+  let exchanges = 0;
+  for (;;) {
+    const s = await view(page);
+    if (s.done) break;
+    const p = s.grid.findIndex((id, i) => id !== s.solution[i]);
+    if (p < 0) break;
+    const q = s.grid.indexOf(s.solution[p]!);
+    await b(p).click();
+    await b(q).click();
+    exchanges++;
+  }
+  await page.waitForSelector(".bench .results:not([hidden])");
+  const end = await ev<{ done: boolean; moves: number; met: number; focus: string; links: string[]; pending: string; saved: boolean; resume: unknown; notes: number; disabled: boolean }>(page, "({ done: window.__HH__.sheets().done, moves: window.__HH__.sheets().moves, met: document.querySelectorAll('.bench .results .goals .met').length, focus: document.activeElement ? document.activeElement.textContent : '', links: [...document.querySelectorAll('.bench .results a')].map((a) => a.getAttribute('href')), pending: document.querySelector('.bench .results .pending').textContent, saved: JSON.parse(localStorage.getItem('im.hudhud.save.v1') || '{}').slots?.[0]?.quests?.['w03q4-al-idrisi']?.done === true, resume: JSON.parse(localStorage.getItem('im.hudhud.save.v1') || '{}').slots?.[0]?.resume ?? null, notes: document.querySelectorAll('.bench .results .note p').length, disabled: [...document.querySelectorAll('.bench .sheet-row button')].every((x) => x.disabled) })");
+  if (outDir) await page.screenshot({ path: resolve(outDir, "hudhud-sheets-results.png"), fullPage: true });
+  await page.getByRole("button", { name: "Back to the Atlas" }).last().click();
+  const back = await ev<{ progress: string; label: string; benchHidden: boolean; primary: string; algebra: string; open: number }>(page, "({ progress: document.querySelector('.hub .progress').textContent, label: document.querySelector(\"button[data-quest='w03q4-al-idrisi']\").textContent, benchHidden: document.querySelector('.bench').hidden, primary: document.querySelector('.hub button.primary').textContent, algebra: document.querySelector(\"button[data-quest='w02q2-al-khwarizmi']\").textContent, open: document.querySelectorAll('.hub .world li.open').length })");
+  const picture = await ev<{ home: number[]; open: number[] }>(page, "window.__HH__.atlasPicture()");
+  const rowsOk = page1.rows === 3 && page1.perRow.join() === "4,4,4";
+  record("al-Idrisi's scattered sheets can be played with the page's own buttons: a button for every place in the right rows and columns, the page says how many seams do not match, two buttons and two touches on the picture each make one exchange, both questions, the helper, the feather, the sheets put in order, four goals, the links, and the Atlas counts it",
+    isPlain && /^Play: /.test(label ?? "") && /Five quests are built/.test(hubNote) && heading === "al-Idrisi" && rowsOk && page1.labels[0] === `Row 1, place 1: sheet ${v0.grid[0]}` && page1.labels[11] === `Row 3, place 4: sheet ${v0.grid[11]}` && page1.sized && page1.pressed.every((x) => x === "false") &&
+    page1.role === "img" && matched >= 0 && page1.status === `Seams that do not match: ${31 - matched} of 31.` && page1.live === "polite" && page1.inline === 0 && page1.trial && page1.edgeRows === 12 && /^What the edges of each sheet carry/.test(page1.caption) && page1.summary === "The edges of every sheet, in words" &&
+    held.pressed === "true" && held.selected === 0 && new RegExp(`Row 1, place 1, sheet ${v0.grid[0]} is chosen`).test(held.hint) &&
+    viaButtons.moves === 1 && viaButtons.selected === null && viaButtons.grid[0] === v0.grid[1] && viaButtons.grid[1] === v0.grid[0] && /Exchanged row 1, place 1 with row 1, place 2\./.test(said1 ?? "") &&
+    letGo.v.moves === 1 && letGo.v.selected === null && /Let go/.test(letGo.said ?? "") && touched.selected === 2 && touched.moves === 1 && viaPicture.moves === 2 && viaPicture.selected === null && viaPicture.grid[2] === viaButtons.grid[3] && viaPicture.grid[3] === viaButtons.grid[2] &&
+    asked.flags.slice().sort().join() === "answered,askedBook,askedMaps,feather,kind" && end.done && end.moves === 2 + exchanges && end.met === (end.moves <= 9 ? 4 : 3) && end.focus === "The page is home" && end.saved && end.resume === null && end.notes === 6 && end.disabled &&
+    end.links.join() === "https://islam.museum/en/person/al-idrisi-muhammad-ibn-abd-allah/,https://islam.museum/en/work/nuzhat-al-mushtaq/" && /Historical review pending/.test(end.pending) &&
+    /\D1\D/.test(` ${back.progress} `) && /^Play again: /.test(back.label) && back.benchHidden && /Ibn al-Haytham/.test(back.primary) && /^Play: /.test(back.algebra) && back.open === 5 && picture.open.join() === "2,3" && picture.home[2] === 1,
+    { label, isPlain, heading, v0, page1, matched, held, viaButtons, said1, letGo, touched, viaPicture, asked, exchanges, end, back, picture, hubNote });
+  await ctx.close();
+  // Left in the middle: one exchange made, the page loaded again, and the Atlas says Continue; the sheets lie as they did.
+  const ctx2 = await browser.newContext({ viewport: { width: 1280, height: 900 } });
+  page = await open(ctx2, "&style=explorer");
+  await page.locator(`.hub button[data-quest='${QUEST}']`).click();
+  const w0 = await view(page);
+  await page.locator(".bench .sheet-row button[data-place='0']").click();
+  await page.locator(".bench .sheet-row button[data-place='5']").click();
+  const mid = await view(page);
+  const keptNow = await ev<{ quest: string; snap: { moves: number; grid: number[] } } | null>(page, "JSON.parse(localStorage.getItem('im.hudhud.save.v1') || '{}').slots?.[0]?.resume ?? null");
+  await ev(page, "window.__HH__.saveReady()");
+  await page.reload();
+  await page.waitForFunction("window.__HH__ && window.__HH__.ready");
+  const hubLabels = await ev<{ label: string; restart: number; flying: boolean; primary: string }>(page, "({ label: document.querySelector(\"button[data-quest='w03q4-al-idrisi']\").textContent, restart: [...document.querySelectorAll('.hub li.open button')].filter((b) => b.textContent === 'Start this quest again').length, flying: window.__HH__.resumed(), primary: document.querySelector('.hub button.primary').textContent })");
+  await page.locator(`.hub button[data-quest='${QUEST}']`).click();
+  const after = await view(page);
+  const shown = await ev<string[]>(page, "[...document.querySelectorAll('.bench .sheet-row button')].map((x) => x.textContent)");
+  if (outDir) await page.screenshot({ path: resolve(outDir, "hudhud-sheets-resumed.png"), fullPage: true });
+  record("al-Idrisi's sheets left in the middle are kept, the Atlas says Continue and offers a new start, and the sheets lie as they did when the quest is opened again",
+    mid.moves === 1 && mid.grid[0] === w0.grid[5] && keptNow?.quest === QUEST && keptNow.snap.moves === 1 && keptNow.snap.grid.join() === mid.grid.join() && /^Continue: /.test(hubLabels.label) && hubLabels.restart === 1 && !hubLabels.flying && /^Play: /.test(hubLabels.primary) &&
+    after.grid.join() === mid.grid.join() && after.moves === 1 && shown[0] === `Row 1, place 1: sheet ${mid.grid[0]}` && shown.length === 12,
+    { w0, mid, keptNow, hubLabels, after, shown: shown.slice(0, 3) });
+  await ctx2.close();
+  // The Challenge way of playing shows nothing until the map is checked; the count is told then, a failed check is counted, and the map is done only on a check.
+  const ctx3 = await browser.newContext({ viewport: { width: 1280, height: 900 } });
+  page = await open(ctx3, "&style=challenge");
+  await page.locator(`.hub button[data-quest='${QUEST}']`).click();
+  const c0 = await ev<{ alt: string | null; status: string; checkButtons: number; placeLabels: string[] }>(page, "({ alt: document.querySelector('.bench canvas.sheets-art').getAttribute('aria-label'), status: document.querySelector('.bench .ran .status').textContent, checkButtons: [...document.querySelectorAll('.bench button')].filter((x) => x.textContent === 'Check the map').length, placeLabels: [...document.querySelectorAll('.bench .sheet-row button')].map((x) => x.textContent) })");
+  await page.getByRole("button", { name: "Check the map" }).click();
+  const c1 = { v: await view(page), said: await page.locator(".bench .ran").textContent() };
+  await page.locator(".bench .sheet-row button[data-place='0']").click();
+  await page.locator(".bench .sheet-row button[data-place='1']").click();
+  const c2 = { v: await view(page), said: await page.locator(".bench .ran").textContent() };
+  // Put in order by exchanges: not done until it is checked.
+  for (;;) {
+    const s = await view(page);
+    const p = s.grid.findIndex((id, i) => id !== s.solution[i]);
+    if (p < 0) break;
+    await page.locator(`.bench .sheet-row button[data-place='${p}']`).click();
+    await page.locator(`.bench .sheet-row button[data-place='${s.grid.indexOf(s.solution[p]!)}']`).click();
+  }
+  const ordered = await ev<{ done: boolean; results: boolean }>(page, "({ done: window.__HH__.sheets().done, results: !document.querySelector('.bench .results').hidden })");
+  if (outDir) await page.screenshot({ path: resolve(outDir, "hudhud-sheets-challenge.png"), fullPage: true });
+  await page.getByRole("button", { name: "Check the map" }).click();
+  const c3 = await ev<{ done: boolean; checks: number; results: boolean; progress: string }>(page, "({ done: window.__HH__.sheets().done, checks: window.__HH__.sheets().checks, results: !document.querySelector('.bench .results').hidden, progress: document.querySelector('.bench .results > p').textContent })");
+  record("al-Idrisi's Challenge sheets show no seam until Check the map is pressed, the count is told then and a failed check is counted, an exchange takes the count away, and a map put in order is done only when it is checked",
+    /Which seams match is not shown/.test(c0.alt ?? "") && /Which seams match is not shown here/.test(c0.status) && c0.checkButtons === 1 && c0.placeLabels.length === 15 && c0.placeLabels.every((x) => /^Row \d, place \d: sheet \d+$/.test(x)) &&
+    c1.v.checks === 1 && /^Seams that match: \d+ of 38\.$/.test((c1.said ?? "").trim()) && c2.v.moves === 1 && !/Seams that match/.test(c2.said ?? "") && /Which seams match is not shown here/.test(c2.said ?? "") &&
+    !ordered.done && !ordered.results && c3.done && c3.checks === 1 && c3.results && /Checks that failed: 1/.test(c3.progress),
+    { c0: { ...c0, placeLabels: c0.placeLabels.slice(0, 2) }, c1, c2, ordered, c3 });
+  await ctx3.close();
+  // The page in Arabic runs right to left with Arabic numerals; the first column is on the right in the button grid and in the picture's own touch, which is its mirror image.
+  const arCtx = await browser.newContext({ viewport: { width: 1280, height: 900 } });
+  const ar = await arCtx.newPage();
+  ar.on("pageerror", (e) => errors.push(String(e)));
+  await ar.goto(`${served.base}/games/hudhud/index.html?lang=ar&music=off&style=explorer`);
+  await ar.waitForFunction("window.__HH__ && window.__HH__.ready");
+  await leaveOpening(ar);
+  await ar.locator(`.hub button[data-quest='${QUEST}']`).click();
+  const a0 = await view(ar);
+  const arView = await ev<{ dir: string; heading: string; first: string; alt: string | null; x: number[]; table: string; edge: string[] }>(ar, "({ dir: document.documentElement.dir, heading: document.querySelector('.bench h2').textContent, first: document.querySelector('.bench .sheet-row button').textContent, alt: document.querySelector('.bench canvas.sheets-art').getAttribute('aria-label'), x: [...document.querySelectorAll('.bench ol.sheet-row')[0].querySelectorAll('button')].map((b) => Math.round(b.getBoundingClientRect().left)), table: document.querySelector('.bench details.edges summary').textContent, edge: [...document.querySelectorAll('.bench details.edges thead th')].map((t) => t.textContent) })");
+  if (outDir) await ar.screenshot({ path: resolve(outDir, "hudhud-sheets-bench-ar.png"), fullPage: true });
+  // Touch the first column in the picture (the right) and then the second (to its left): they are the first two places.
+  await ar.mouse.click(...(await spot(ar, 0, a0.rows, a0.cols, true)));
+  const t1 = await view(ar);
+  await ar.mouse.click(...(await spot(ar, 1, a0.rows, a0.cols, true)));
+  const t2 = await view(ar);
+  record("al-Idrisi's sheets in Arabic run right to left with Arabic numerals, put the first column on the right in the button grid and in a touch on the picture, and name the edges from the right",
+    arView.dir === "rtl" && arView.heading === "الإدريسي" && /^الصف ١، الموضع ١: الورقة /.test(arView.first) && /٣١/.test(arView.alt ?? "") && arView.x.length === 4 && arView.x[0]! > arView.x[1]! && arView.x[1]! > arView.x[2]! && arView.x[2]! > arView.x[3]! &&
+    arView.table === "أطراف كل ورقة بالكلمات" && arView.edge.join("|") === "الورقة|الحافة العليا|الحافة السفلى|الحافة اليمنى|الحافة اليسرى" &&
+    t1.selected === 0 && t2.moves === 1 && t2.selected === null && t2.grid[0] === a0.grid[1] && t2.grid[1] === a0.grid[0],
+    { arView, t1: t1.selected, t2: { moves: t2.moves, grid: t2.grid.slice(0, 3) }, a0grid: a0.grid.slice(0, 3) });
   await arCtx.close();
 }
 // 6. The opening story, not skipped: a fresh visitor meets it before the Atlas, reads it through by the buttons, and
