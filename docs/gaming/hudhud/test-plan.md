@@ -8,7 +8,7 @@ Each command was run on its own and its exit code read. Logs: `gaming/media/hudh
 
 | Check | Result |
 |---|---|
-| `npm --prefix gaming test` | **35 files, 643 tests, all pass** (261 are Hudhud's own, in thirteen files: 51 in the new `algebra.gtest.ts` and 51 in `cipher.gtest.ts`; the rest are the shared platform's and the other games') |
+| `npm --prefix gaming test` | **35 files, 643 tests, all pass** before `origin/main` was merged in, and **36 files, 647 tests, all pass** after (the extra file is `gaming/art/hudhud/atlas-pipeline.gtest.ts`, which came with the merge). 261 are Hudhud's own under `games/hudhud/`, in thirteen files: 51 in the new `algebra.gtest.ts` and 51 in `cipher.gtest.ts`; the rest are the shared platform's, the other games' and the art pipeline's |
 | `npm --prefix gaming run typecheck` | pass |
 | `npm --prefix gaming run strings` | pass: Hudhud 7 languages, 439 strings (65 of them the new `ak_` ones), and 60 names of worlds and subjects |
 | `npm --prefix gaming run build:release` | pass: four games; Hudhud's main script `app-BJJTotdx.js` is 1,574,574 bytes (337,342 with Brotli, 418,736 with gzip at the highest level), its style 13,722 bytes |

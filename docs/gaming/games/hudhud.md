@@ -39,7 +39,7 @@ _Captures of the running game, Chrome, 26 November 2026, made by `gaming/tools/h
 | Play to scene | about 0.4 s |
 | Textures in memory | 20 MB (Low), 45 MB (Medium), 80 MB (High) |
 | Draw calls a frame | 15 to 20 |
-| Tests | 261 of its own (thirteen files); 643 in the workspace (35 files), all passing (run 26 November 2026, later in the day) |
+| Tests | 261 of its own under `games/hudhud/` (thirteen files); 647 in the workspace (36 files), all passing (run 26 November 2026, later in the day, after merging `main`) |
 
 ## Next
 
