@@ -5,7 +5,7 @@
 // aside under a quarantine key, never thrown away, and a fresh one is started; one from a newer version of the game
 // is left untouched and the game plays without saving over it.
 import type { PlayStyle } from "../content/workshop";
-import { DEFAULT_PAD, PAD_ACTIONS, type PadMap } from "../input/pad";
+import { DEFAULT_PAD, DIRECTION_BUTTONS, PAD_ACTIONS, type PadMap } from "../input/pad";
 
 export const SAVE_KEY = "im.hudhud.save.v1";
 export const QUARANTINE_KEY = "im.hudhud.save.quarantine";
@@ -84,7 +84,7 @@ function readPadMap(x: unknown): PadMap {
   const out = {} as PadMap;
   for (const a of PAD_ACTIONS) {
     const v = x[a];
-    if (typeof v !== "number" || !Number.isInteger(v) || v < 0 || v > 31) return { ...DEFAULT_PAD };
+    if (typeof v !== "number" || !Number.isInteger(v) || v < 0 || v > 31 || DIRECTION_BUTTONS.includes(v)) return { ...DEFAULT_PAD };
     out[a] = v;
   }
   return new Set(Object.values(out)).size === PAD_ACTIONS.length ? out : { ...DEFAULT_PAD };
