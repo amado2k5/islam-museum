@@ -445,7 +445,7 @@ for (const lang of ["en", "ar"]) {
   // And the quest can be entered again from there.
   await playing(page);
   const again = await ev<{ turns: number; done: boolean }>(page, "({ turns: window.__HH__.state().turns, done: window.__HH__.state().done })");
-  record(`the Atlas shows ten worlds and fifty pages, two of them open, and one comes home (${lang})`, before.worlds === 10 && before.pages === 50 && before.open === 2 && before.stageHidden && /\D0\D|٠/.test(` ${before.progress} `) && /\D1\D|١/.test(` ${after.progress} `) && after.hubShown && after.canvases === 0 && !after.started && again.turns === 0 && !again.done, { before, after, again });
+  record(`the Atlas shows ten worlds and fifty pages, three of them open, and one comes home (${lang})`, before.worlds === 10 && before.pages === 50 && before.open === 3 && before.stageHidden && /\D0\D|٠/.test(` ${before.progress} `) && /\D1\D|١/.test(` ${after.progress} `) && after.hubShown && after.canvases === 0 && !after.started && again.turns === 0 && !again.done, { before, after, again });
   await ctx.close();
 }
 // The puzzle is not the same in the three ways of playing: five mirrors with two positions, six with three, seven with
@@ -569,6 +569,91 @@ for (const lang of ["en", "ar"]) {
   await playing(page);
   record("a finished elephant clock is not kept in the middle, and the flying quest can still be started", done.done && done.kept === null && /^Play again: /.test(hub.clock), { done, hub });
   await ctx.close();
+}
+// The third quest, al-Kindi and the secret page: two real tables with captions, a wrong reading says how many marks are
+// right, both questions, the messenger and the feather, every mark given its sign by its own list of choices, the page
+// read, four goals, the links, and the Atlas counts it. Then one sign given, the page loaded again, and "Continue".
+{
+  const ctx = await browser.newContext({ viewport: { width: 1280, height: 900 } });
+  let page = await open(ctx, "&style=explorer");
+  const QUEST = "w02q3-al-kindi";
+  const button = page.locator(`.hub button[data-quest='${QUEST}']`);
+  const isPlain = await button.evaluate((b) => !b.classList.contains("primary"));
+  const label = await button.textContent();
+  await button.click();
+  await page.waitForFunction("window.__HH__.cipher() !== null");
+  const heading = await page.locator(".bench h2").textContent();
+  const tables = await ev<{ captions: string[]; rows: number[]; headers: number[]; selects: number; labels: string[]; alt: string | null; role: string | null; inline: number }>(page, "(() => { const ts = [...document.querySelectorAll('.bench table')]; return { captions: ts.map((t) => t.querySelector('caption').textContent), rows: ts.map((t) => t.querySelectorAll('tbody tr').length), headers: ts.map((t) => t.querySelectorAll('thead th[scope=col]').length), selects: document.querySelectorAll('.bench select').length, labels: [...document.querySelectorAll('.bench select')].map((s) => s.closest('label').textContent), alt: document.querySelector('.bench canvas.cipher-art').getAttribute('aria-label'), role: document.querySelector('.bench canvas.cipher-art').getAttribute('role'), inline: document.querySelectorAll('.bench [style]:not(canvas)').length }; })()");
+  const view = () => ev<{ key: Record<string, string>; message: string[]; guess: Record<string, string>; flags: string[]; fails: number; reads: number; done: boolean; marks: string[] }>(page, "(() => { const c = window.__HH__.cipher(); const used = [...document.querySelectorAll('.bench select')].map((s) => s.dataset.mark); return { key: c.puzzle.key, message: c.puzzle.message, guess: c.guess, flags: c.flags, fails: c.fails, reads: c.reads, done: c.done, marks: used }; })()");
+  const v0 = await view();
+  // A reading with a mark still without a sign counts nothing and says so.
+  await page.getByRole("button", { name: "Read the page" }).click();
+  const incomplete = { words: await page.locator(".bench .ran").textContent(), reads: (await view()).reads };
+  // Two marks given each other's signs, the rest right: a wrong reading, and the Explorer is told how many are right.
+  const [a, b] = v0.marks as [string, string];
+  const wrongWay: Record<string, string> = { ...v0.key, [a]: v0.key[b]!, [b]: v0.key[a]! };
+  for (const m of v0.marks) await page.locator(`.bench select[data-mark='${m}']`).selectOption(wrongWay[m]!);
+  await page.getByRole("button", { name: "Read the page" }).click();
+  const wrong = { words: await page.locator(".bench .ran").textContent(), v: await view() };
+  for (const name of ["Ask how to begin", "Ask about short messages", "Talk to the messenger"]) await page.getByRole("button", { name }).click();
+  await page.getByRole("button", { name: "It is all right. We will read it together." }).click();
+  await page.getByRole("button", { name: "Look under the secret page" }).click();
+  // A sign taken by another mark is freed: the live words say so.
+  await page.locator(`.bench select[data-mark='${a}']`).selectOption(wrongWay[b]!);
+  const freed = await page.locator(".bench .ran").textContent();
+  // The keyboard alone: every mark gets its right sign from its own list.
+  for (const m of v0.marks) await page.locator(`.bench select[data-mark='${m}']`).selectOption(v0.key[m]!);
+  const live = await ev<{ ran: string | null; polite: boolean; given: string }>(page, "({ ran: document.querySelector('.bench .ran').getAttribute('aria-live'), polite: document.querySelector('.bench .said').getAttribute('aria-live') === 'polite', given: [...document.querySelectorAll('.bench p.small')].map((p) => p.textContent).join(' | ') })");
+  if (outDir) await page.screenshot({ path: resolve(outDir, "hudhud-cipher-bench.png"), fullPage: true });
+  await page.getByRole("button", { name: "Read the page" }).click();
+  await page.waitForSelector(".bench .results:not([hidden])");
+  const end = await ev<{ done: boolean; fails: number; met: number; focus: string; links: string[]; pending: string; saved: boolean; resume: unknown }>(page, "({ done: window.__HH__.cipher().done, fails: window.__HH__.cipher().fails, met: document.querySelectorAll('.bench .results .goals .met').length, focus: document.activeElement ? document.activeElement.textContent : '', links: [...document.querySelectorAll('.bench .results a')].map((a) => a.getAttribute('href')), pending: document.querySelector('.bench .results .pending').textContent, saved: JSON.parse(localStorage.getItem('im.hudhud.save.v1') || '{}').slots?.[0]?.quests?.['w02q3-al-kindi']?.done === true, resume: JSON.parse(localStorage.getItem('im.hudhud.save.v1') || '{}').slots?.[0]?.resume ?? null })");
+  if (outDir) await page.screenshot({ path: resolve(outDir, "hudhud-cipher-results.png"), fullPage: true });
+  await page.getByRole("button", { name: "Back to the Atlas" }).last().click();
+  const back = await ev<{ progress: string; label: string; benchHidden: boolean; primary: string; clock: string }>(page, "({ progress: document.querySelector('.hub .progress').textContent, label: document.querySelector(\".hub button[data-quest='w02q3-al-kindi']\").textContent, benchHidden: document.querySelector('.bench').hidden, primary: document.querySelector('.hub button.primary').textContent, clock: document.querySelector(\".hub button[data-quest='w02q1-al-jazari']\").textContent })");
+  record("al-Kindi's secret page can be played to its end with the page's own controls: two captioned tables with the right rows, a list of choices for each mark, a wrong reading that says how many are right, the four goals, the links, and the Atlas counts it",
+    isPlain && /^Play: /.test(label ?? "") && heading === "al-Kindi" && tables.captions.join("|") === "Signs in the whole page, most to fewest|Marks in the secret message, most to fewest" && tables.rows.join() === "7,7" && tables.headers.join() === "3,3" && tables.selects === 7 &&
+    tables.labels.every((l) => /^Sign for the /.test(l ?? "")) && tables.role === "img" && /24 marks/.test(tables.alt ?? "") && tables.inline === 0 &&
+    /^Marks still without a sign: 7/.test(incomplete.words ?? "") && incomplete.reads === 0 &&
+    /The page does not read yet\. Marks that are right: 5 of 7\./.test(wrong.words ?? "") && wrong.v.fails === 1 && wrong.v.reads === 1 && !wrong.v.done &&
+    /That sign was taken from: /.test(freed ?? "") && live.ran === "polite" && live.polite && /Marks given a sign: 7 of 7/.test(live.given) &&
+    end.done && end.fails === 1 && end.met === 4 && end.focus === "The page is home" && end.saved && end.resume === null &&
+    end.links.join() === "https://islam.museum/en/person/al-kindi/,https://islam.museum/en/invention/frequency-analysis-al-kindi/" && /Historical review pending/.test(end.pending) &&
+    /\D1\D/.test(` ${back.progress} `) && /^Play again: /.test(back.label) && back.benchHidden && /Ibn al-Haytham/.test(back.primary) && /^Play: /.test(back.clock),
+    { label, isPlain, heading, tables, incomplete, wrong, freed, live, end, back });
+  await ctx.close();
+  // Left in the middle: one sign given, the page loaded again, and the Atlas says Continue; the sign is where it was.
+  const ctx2 = await browser.newContext({ viewport: { width: 1280, height: 900 } });
+  page = await open(ctx2, "&style=explorer");
+  await page.locator(`.hub button[data-quest='${QUEST}']`).click();
+  const first = await ev<{ mark: string; sign: string }>(page, "(() => { const c = window.__HH__.cipher(); const m = [...document.querySelectorAll('.bench select')][2].dataset.mark; return { mark: m, sign: c.puzzle.key[m] }; })()");
+  await page.locator(`.bench select[data-mark='${first.mark}']`).selectOption(first.sign);
+  const keptNow = await ev<{ quest: string; snap: { guess: Record<string, string> } } | null>(page, "JSON.parse(localStorage.getItem('im.hudhud.save.v1') || '{}').slots?.[0]?.resume ?? null");
+  await ev(page, "window.__HH__.saveReady()");
+  await page.reload();
+  await page.waitForFunction("window.__HH__ && window.__HH__.ready");
+  const hubLabels = await ev<{ cipher: string; restart: number; flying: boolean; primary: string }>(page, "({ cipher: document.querySelector(\"button[data-quest='w02q3-al-kindi']\").textContent, restart: [...document.querySelectorAll('.hub li.open button')].filter((b) => b.textContent === 'Start this quest again').length, flying: window.__HH__.resumed(), primary: document.querySelector('.hub button.primary').textContent })");
+  await page.locator(`.hub button[data-quest='${QUEST}']`).click();
+  const after = await ev<{ guess: Record<string, string>; value: string }>(page, `(() => { const c = window.__HH__.cipher(); return { guess: c.guess, value: document.querySelector(".bench select[data-mark='${first.mark}']").value }; })()`);
+  if (outDir) await page.screenshot({ path: resolve(outDir, "hudhud-cipher-resumed.png"), fullPage: true });
+  record("al-Kindi's secret page left in the middle is kept, the Atlas says Continue and offers a new start, and the sign comes back where it was",
+    keptNow?.quest === QUEST && keptNow.snap.guess[first.mark] === first.sign && /^Continue: /.test(hubLabels.cipher) && hubLabels.restart === 1 && !hubLabels.flying && /^Play: /.test(hubLabels.primary) && JSON.stringify(after.guess) === JSON.stringify({ [first.mark]: first.sign }) && after.value === first.sign,
+    { first, keptNow, hubLabels, after });
+  await ctx2.close();
+  // The page in Arabic runs right to left, with the marks' and signs' names in Arabic.
+  const arCtx = await browser.newContext({ viewport: { width: 1280, height: 900 } });
+  const ar = await arCtx.newPage();
+  ar.on("pageerror", (e) => errors.push(String(e)));
+  await ar.goto(`${served.base}/games/hudhud/index.html?lang=ar&music=off&style=explorer`);
+  await ar.waitForFunction("window.__HH__ && window.__HH__.ready");
+  await leaveOpening(ar);
+  await ar.locator(`.hub button[data-quest='${QUEST}']`).click();
+  const arView = await ev<{ dir: string; heading: string; captions: string[]; first: string; options: string[]; alt: string | null }>(ar, "({ dir: document.documentElement.dir, heading: document.querySelector('.bench h2').textContent, captions: [...document.querySelectorAll('.bench caption')].map((c) => c.textContent), first: document.querySelector('.bench .places label').textContent, options: [...document.querySelector('.bench select').options].map((o) => o.textContent), alt: document.querySelector('.bench canvas.cipher-art').getAttribute('aria-label') })");
+  if (outDir) await ar.screenshot({ path: resolve(outDir, "hudhud-cipher-bench-ar.png"), fullPage: true });
+  record("al-Kindi's secret page in Arabic runs right to left and names every sign and mark in Arabic",
+    arView.dir === "rtl" && arView.heading === "الكندي" && arView.captions.length === 2 && /الأكثر إلى الأقل/.test(arView.captions[0]!) && arView.options.length === 8 && arView.options[0] === "لم تُختر بعد" && arView.options.slice(1).every((o) => /^ال/.test(o)) && /^العلامة التي يدل عليها ال/.test(arView.first) && /٢٤ رمزًا/.test(arView.alt ?? ""),
+    arView);
+  await arCtx.close();
 }
 // 6. The opening story, not skipped: a fresh visitor meets it before the Atlas, reads it through by the buttons, and
 // is not shown it again; it can be read again from the Atlas, and Escape leaves it. On an Arabic page the page runs
