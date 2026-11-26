@@ -1100,6 +1100,9 @@ async function main(): Promise<void> {
     side.style.maxBlockSize = document.body.classList.contains("hud") && matchMedia("(min-width: 1180px) and (min-height: 640px)").matches ? `calc(100% - ${seasonBox.offsetHeight + 36}px)` : "";
     const again = keepId ? document.getElementById(keepId) : keepAct ? document.querySelector<HTMLElement>(`[data-act="${keepAct}"]`) : null;
     again?.focus();
+    // The control that was used may be gone (a question answered, a load sent): the keyboard is then put on the
+    // part in hand, never left on nothing.
+    if (!again && focus && focus !== document.body && !focus.isConnected && (!document.activeElement || document.activeElement === document.body)) document.getElementById(`tab-${tab}`)?.focus();
   }
   const setTab = (to: Tab) => {
     tab = to;
@@ -1115,7 +1118,11 @@ async function main(): Promise<void> {
   // ---- Dialogs ---------------------------------------------------------------------------------------------------
   const dialog = (cls: string, ...children: Child[]): HTMLDialogElement => {
     const d = h("dialog", { class: `dialog ${cls}` }, ...children);
-    d.addEventListener("close", () => d.remove());
+    d.addEventListener("close", () => {
+      d.remove();
+      // A dialog opened before anything had the keyboard gives it back to nothing: put it on the part in hand.
+      if (!document.activeElement || document.activeElement === document.body) document.getElementById(`tab-${tab}`)?.focus();
+    });
     app.append(d);
     d.showModal();
     return d;
