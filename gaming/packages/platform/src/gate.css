@@ -1,0 +1,17 @@
+/* The page shown when a device cannot play a game. Plain and readable; no picture, no motion. */
+/* It brings its own ground and ink, so that it reads the same on every game's page. */
+.im-unsupported { min-height: 100vh; margin: 0; padding: 2rem 1.25rem 3rem; background: #081530; color: #f6ecd2; font: 1.05rem/1.6 system-ui, -apple-system, "Segoe UI", sans-serif; }
+.im-unsupported main { max-width: 46rem; margin: 0 auto; }
+.im-unsupported main:focus { outline: none; }
+.im-unsupported h1 { margin: 0 0 1rem; font-size: 1.6rem; color: #f2b94b; text-wrap: balance; }
+.im-unsupported h2 { margin: 2rem 0 0.5rem; font-size: 1.1rem; color: #3fa39b; }
+.im-unsupported .why { margin: 0; font-weight: 700; }
+.im-unsupported ul { margin: 0.4rem 0 1rem; padding-inline-start: 1.4rem; }
+.im-unsupported li { margin-block: 0.3rem; }
+.im-unsupported .advice { padding: 0.8rem 1rem; border-inline-start: 4px solid #f2b94b; background: rgba(242, 185, 75, 0.1); border-radius: 6px; }
+.im-unsupported button, .im-unsupported a { display: inline-block; min-height: 44px; padding: 10px 18px; border-radius: 12px; font: inherit; }
+.im-unsupported button { border: 2px solid #fff0b8; background: #f2b94b; color: #1c1206; font-weight: 700; cursor: pointer; }
+.im-unsupported a { color: #ffd98a; }
+.im-unsupported :focus-visible { outline: 3px solid #fff; outline-offset: 2px; }
+:lang(ar) .im-unsupported { font-family: "SF Arabic", "Geeza Pro", "Noto Naskh Arabic", "Segoe UI", Tahoma, sans-serif; line-height: 1.8; }
+:lang(ur) .im-unsupported { font-family: "Noto Nastaliq Urdu", "Jameel Noori Nastaleeq", "Geeza Pro", "Segoe UI", Tahoma, serif; line-height: 2.2; }

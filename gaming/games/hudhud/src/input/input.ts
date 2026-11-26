@@ -7,7 +7,7 @@ import { DEFAULT_KEYS, type Keys } from "../save/save";
 import { DEFAULT_PAD, firstPressed, readPad, type PadMap, type PadRead } from "./pad";
 import type { Intent } from "../sim/move";
 
-export type Press = "touch" | "pause" | "next" | "back";
+export type Press = "touch" | "pause" | "next" | "back" | "up" | "down";
 export interface InputHost {
   /** A single press that is not held: touch a thing, pause, go on in a talk. */
   press(p: Press): void;
@@ -21,6 +21,7 @@ export class Input {
   private readonly held = { left: false, right: false, jump: false };
   private padIndex: number | null = null;
   private padWas: boolean[] = [];
+  private stickWas: -1 | 0 | 1 = 0;
   private pad: PadRead | null = null;
   private padMap: PadMap = DEFAULT_PAD;
   private raf = 0;
@@ -118,10 +119,17 @@ export class Input {
       }
       return;
     }
-    const read = readPad(raw, this.padMap, this.padWas);
+    const read = readPad(raw, this.padMap, this.padWas, this.stickWas);
     this.padWas = read.held;
+    this.stickWas = read.stick;
     this.pad = read;
+    if (read.step !== 0) this.host.press(read.step < 0 ? "up" : "down");
     for (const a of read.pressed) this.host.press(a === "fly" ? "next" : a);
+  }
+  /** Stops waiting to learn a key or a button: called whenever the settings are left, however they are left. */
+  disarm(): void {
+    this.capture = null;
+    this.capturePad = null;
   }
   setKeys(map: Keys): void {
     this.map = map;

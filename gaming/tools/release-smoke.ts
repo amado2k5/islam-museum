@@ -8,6 +8,7 @@ import { createServer } from "node:http";
 import { tmpdir } from "node:os";
 import { join, resolve } from "node:path";
 import { chromium } from "playwright-core";
+import { leaveOpening } from "./hudhud-opening";
 // @ts-expect-error plain JavaScript modules of the Worker, with no type declarations
 import worker from "../../workers/games/src/index.js";
 // @ts-expect-error
@@ -149,6 +150,8 @@ for (const game of manifest.games.filter((g) => g.page)) {
       const hook = (await page.evaluate("({ ready: window.__HH__.ready, error: window.__HH__.error ?? null })")) as { ready: boolean; error: string | null };
       if (!hook.ready) errors.push(`the game did not start: ${hook.error}`);
       else {
+        // The opening story comes first; a visitor skips it by its button.
+        if (!(await leaveOpening(page)) && (await page.locator(".prologue").count()) > 0) errors.push("the opening story is on the page but was not showing");
         await page.locator(".hub button.primary").click();
         for (const end = Date.now() + 30_000; !(await page.evaluate("window.__HH__.where() !== null")); ) {
           if (Date.now() > end) break;
