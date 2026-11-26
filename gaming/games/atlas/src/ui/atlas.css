@@ -15,6 +15,7 @@ html, body { margin: 0; height: 100%; background: #070d18; color: var(--ivory); 
 :lang(ar) body { font-family: "SF Arabic", "Geeza Pro", "Noto Naskh Arabic", "Segoe UI", Tahoma, sans-serif; line-height: 1.7; }
 :lang(ur) body { font-family: "Noto Nastaliq Urdu", "Jameel Noori Nastaleeq", "Geeza Pro", "Segoe UI", Tahoma, serif; line-height: 2.1; }
 .atlas { position: fixed; inset: 0; }
+#globe3d { position: absolute; inset: 0; width: 100%; height: 100%; display: block; }
 #globe { position: absolute; inset: 0; width: 100%; height: 100%; display: block; cursor: grab; touch-action: none; }
 #globe:active { cursor: grabbing; }
 #globe:focus-visible { outline: 3px solid var(--accent); outline-offset: -3px; }
@@ -51,11 +52,13 @@ a { color: #9fd0ff; }
 .badge { display: inline-block; padding: 2px 8px; border: 1px solid var(--line); border-radius: 999px; color: var(--muted); font-size: 0.78rem; }
 .zoom { position: absolute; inset-block-end: 20px; inset-inline-end: 20px; display: grid; gap: 8px; }
 .zoom button { width: 44px; height: 44px; padding: 0; font-size: 1.3rem; background: var(--panel); }
+.music-corner { position: absolute; inset-block-start: 16px; inset-inline-end: 16px; --panel-solid: #0c182a; }
+.music-corner .music > summary { background: var(--panel); }
 .skip { position: absolute; inset-inline-start: -9999px; }
 .skip:focus { inset-inline-start: 12px; inset-block-start: 12px; z-index: 5; padding: 8px 12px; background: var(--accent); color: var(--ink); border-radius: 8px; }
 .visually-hidden { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
 @media (max-width: 720px) {
   .panel { inset-block: auto 0; inset-inline: 0; width: 100%; max-height: 62vh; border-radius: 14px 14px 0 0; }
-  .zoom { inset-block-end: auto; inset-block-start: 16px; }
+  .zoom { inset-block-end: auto; inset-block-start: 64px; }
 }
 @media (prefers-reduced-motion: reduce) { * { scroll-behavior: auto; transition: none !important; } }

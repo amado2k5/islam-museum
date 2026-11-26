@@ -1,0 +1,42 @@
+# The games host. Deployed by the games' own workflows (.github/workflows/games-deploy*.yml), started by the founder,
+# never by the website's deploy and never by an agent. It reads objects under games/ in the environment's bucket and
+# nothing else; the website's Worker (workers/site) does not serve that folder, and the website's R2 publish
+# (workers/r2-sync/batch/publish.mjs) neither lists nor deletes under it.
+#
+# Production: https://games.islam.museum, Worker islam-museum-games, bucket islam-museum-search.
+# The Custom Domain is declared here, so the first production deploy creates the DNS record and the certificate in
+# the islam.museum zone (the founder's instruction of 25 November 2026: create what the games need in Cloudflare).
+name = "islam-museum-games"
+main = "src/index.js"
+compatibility_date = "2025-10-11"
+routes = [{ pattern = "games.islam.museum", custom_domain = true }]
+
+[observability]
+enabled = true
+
+[[r2_buckets]]
+binding = "GAMES_BUCKET"
+bucket_name = "islam-museum-search"
+
+[vars]
+# Every game is a prototype today, so no page here is offered to a search engine; the museum's own Play page is
+# what gets indexed. Change to "allow" only when a game is released.
+ROBOTS = "disallow"
+# The one outside origin a game may play audio from. Empty until the music is hosted (docs/gaming/adr/G-0007).
+MUSIC_ORIGIN = ""
+
+# ---------------------------------------------------------------------------------------------
+# UAT: the same Worker code and the same release, deployed with `wrangler deploy --env uat` as a second, independent
+# Worker islam-museum-games-uat on the UAT bucket, reached at https://uat-games.islam.museum. Bindings and vars are
+# not inherited by a wrangler environment, so they are stated again. Nothing in this section names a production
+# resource, so a UAT deploy cannot touch games.islam.museum or islam-museum-search.
+[env.uat]
+routes = [{ pattern = "uat-games.islam.museum", custom_domain = true }]
+
+[[env.uat.r2_buckets]]
+binding = "GAMES_BUCKET"
+bucket_name = "islam-museum-uat"
+
+[env.uat.vars]
+ROBOTS = "disallow"
+MUSIC_ORIGIN = ""

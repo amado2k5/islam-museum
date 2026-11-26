@@ -1,0 +1,63 @@
+{
+ "openings": 300,
+ "commandsEach": 200,
+ "sent": 60000,
+ "accepted": 24460,
+ "acceptedShare": 40.8,
+ "unsoundStates": 0,
+ "journalEntries": 37518,
+ "byKind": {
+  "process": {
+   "sent": 5905,
+   "accepted": 2337
+  },
+  "buy": {
+   "sent": 12120,
+   "accepted": 4756
+  },
+  "advance": {
+   "sent": 5918,
+   "accepted": 5918
+  },
+  "harvest": {
+   "sent": 5973,
+   "accepted": 5434
+  },
+  "sell": {
+   "sent": 12137,
+   "accepted": 3996
+  },
+  "accept-contract": {
+   "sent": 5903,
+   "accepted": 1045
+  },
+  "deliver": {
+   "sent": 10855,
+   "accepted": 677
+  },
+  "cancel-contract": {
+   "sent": 1189,
+   "accepted": 297
+  }
+ },
+ "refusals": {
+  "insufficient-stock": 13188,
+  "market-out-of-stock": 538,
+  "wrong-contract-state": 13405,
+  "contract-expired": 607,
+  "insufficient-funds": 4254,
+  "no-storage": 2650,
+  "overflow": 539,
+  "over-delivery": 126,
+  "market-short-of-cash": 233
+ },
+ "contractsAtEnd": {
+  "settled": 436,
+  "offered": 155,
+  "failed": 236,
+  "cancelled": 297,
+  "accepted": 76
+ },
+ "digestOfAllEndStates": "0e87f5a7",
+ "seconds": 2.2
+}

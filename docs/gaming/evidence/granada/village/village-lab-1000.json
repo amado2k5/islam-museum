@@ -1,0 +1,146 @@
+{
+ "scenario": "water-for-the-valley",
+ "seeds": 1000,
+ "campaigns": 6000,
+ "violations": 0,
+ "seconds": 39.4,
+ "rows": [
+  {
+   "player": "idle",
+   "winPercent": 0,
+   "welfare": 25,
+   "households": 44,
+   "reserveDays": 0,
+   "dinars": 1446,
+   "score": 614,
+   "spoiled": 350.3,
+   "questsDonePercent": {
+    "q01-water": 0,
+    "q02-harvest": 0,
+    "q03-reserve": 0,
+    "q04-home": 0,
+    "q05-granary": 0
+   },
+   "lostFor": {
+    "q01-water": 1000,
+    "q02-harvest": 1000,
+    "q03-reserve": 1000,
+    "q04-home": 1000,
+    "q05-granary": 1000,
+    "welfare": 1000,
+    "households": 1000,
+    "reserve": 1000
+   }
+  },
+  {
+   "player": "mender",
+   "winPercent": 99.5,
+   "welfare": 75,
+   "households": 70,
+   "reserveDays": 21.6,
+   "dinars": 421.3,
+   "score": 1250,
+   "spoiled": 0,
+   "questsDonePercent": {
+    "q01-water": 100,
+    "q02-harvest": 100,
+    "q03-reserve": 100,
+    "q04-home": 100,
+    "q05-granary": 100
+   },
+   "lostFor": {
+    "reserve": 5
+   }
+  },
+  {
+   "player": "builder",
+   "winPercent": 91.6,
+   "welfare": 74.7,
+   "households": 80,
+   "reserveDays": 23.5,
+   "dinars": 1927,
+   "score": 1457.2,
+   "spoiled": 0,
+   "questsDonePercent": {
+    "q01-water": 100,
+    "q02-harvest": 100,
+    "q03-reserve": 100,
+    "q04-home": 100,
+    "q05-granary": 100
+   },
+   "lostFor": {
+    "reserve": 84
+   }
+  },
+  {
+   "player": "merchant",
+   "winPercent": 96.4,
+   "welfare": 74.8,
+   "households": 80,
+   "reserveDays": 20.6,
+   "dinars": 2186.5,
+   "score": 1469.7,
+   "spoiled": 0,
+   "questsDonePercent": {
+    "q01-water": 100,
+    "q02-harvest": 100,
+    "q03-reserve": 100,
+    "q04-home": 100,
+    "q05-granary": 100
+   },
+   "lostFor": {
+    "reserve": 36
+   }
+  },
+  {
+   "player": "irrigator",
+   "winPercent": 100,
+   "welfare": 75,
+   "households": 80,
+   "reserveDays": 28.1,
+   "dinars": 2052.9,
+   "score": 1495.6,
+   "spoiled": 0,
+   "questsDonePercent": {
+    "q01-water": 100,
+    "q02-harvest": 100,
+    "q03-reserve": 100,
+    "q04-home": 100,
+    "q05-granary": 100
+   },
+   "lostFor": {}
+  },
+  {
+   "player": "random",
+   "winPercent": 0,
+   "welfare": 32.3,
+   "households": 64.1,
+   "reserveDays": 0.5,
+   "dinars": 611.3,
+   "score": 706.8,
+   "spoiled": 157.1,
+   "questsDonePercent": {
+    "q01-water": 99,
+    "q02-harvest": 48,
+    "q03-reserve": 41,
+    "q04-home": 87,
+    "q05-granary": 38
+   },
+   "lostFor": {
+    "welfare": 902,
+    "reserve": 999,
+    "q02-harvest": 519,
+    "q03-reserve": 587,
+    "q04-home": 134,
+    "q05-granary": 619,
+    "households": 385,
+    "q01-water": 7
+   }
+  }
+ ],
+ "findings": [
+  "mender wins 99.5% of campaigns: it cannot lose",
+  "merchant wins 96.4% of campaigns: it cannot lose",
+  "irrigator wins 100% of campaigns: it cannot lose"
+ ]
+}

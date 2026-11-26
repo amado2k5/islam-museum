@@ -21,7 +21,7 @@ page.on("pageerror", (e) => errors.push(String(e)));
 page.on("console", (m) => {
   if (m.type() === "error" && !m.text().includes("favicon")) errors.push(m.text());
 });
-const url = `${served.base}/games/atlas/index.html?lang=${lang}&date=${date}`;
+const url = `${served.base}/games/atlas/index.html?lang=${lang}&date=${date}&music=off`;
 await page.goto(url);
 await page.waitForSelector("#panel h2");
 const shot = (name: string) => page.screenshot({ path: resolve(out, `atlas-${lang}-${name}.png`) });
@@ -31,6 +31,19 @@ const fail = async (why: string): Promise<never> => {
   await served.close();
   throw new Error(why);
 };
+
+// The lit sphere comes up under the drawn globe a moment after the game can be played. On a machine with WebGPU it
+// must; ALLOW_NO_3D=1 passes this part where there is none. Asked for with no3d, the page keeps to the drawn globe.
+for (const end = Date.now() + 60_000; (await page.evaluate("document.documentElement.dataset.globe")) !== "3d"; ) {
+  if (Date.now() > end) break;
+  await page.waitForTimeout(150);
+}
+const globeKind = (await page.evaluate("document.documentElement.dataset.globe")) as string;
+if (globeKind !== "3d" && !process.env.ALLOW_NO_3D) await fail(`the lit sphere did not start: the globe is ${globeKind}`);
+if (globeKind === "3d") {
+  const under = await page.evaluate("(() => { const a = document.getElementById('globe3d'), b = document.getElementById('globe'); return { exists: Boolean(a), w: a ? a.width : 0, before: Boolean(a && b && a.compareDocumentPosition(b) & Node.DOCUMENT_POSITION_FOLLOWING), hidden: a ? a.getAttribute('aria-hidden') : null }; })()") as { exists: boolean; w: number; before: boolean; hidden: string | null };
+  if (!under.exists || under.w < 100 || !under.before || under.hidden !== "true") await fail(`the sphere's canvas is not under the globe's: ${JSON.stringify(under)}`);
+}
 
 const dir = await page.evaluate(() => document.documentElement.dir);
 if ((lang === "ar" || lang === "ur") !== (dir === "rtl")) await fail(`direction is ${dir} for ${lang}`);
@@ -82,7 +95,41 @@ await page.reload();
 await page.waitForSelector("#panel h2");
 const kept = await page.evaluate(() => localStorage.getItem("im.atlas.save.v1.unreadable"));
 if (kept !== "{not json") await fail("an unreadable save was not set aside");
+// A round answered close to the place, deep inland, zooms the reveal far in. The round after it must not open on
+// that view: with no coast in sight it is a screen of nothing but land (an outside reviewer met exactly this on
+// 26 November 2026, between rounds 2 and 3 of that day, and took the globe for gone).
+await page.goto(`${served.base}/games/atlas/index.html?lang=${lang}&date=2026-11-26&music=off`);
+await page.waitForSelector("#panel h2");
+await page.waitForTimeout(1200);
+const typePin = async (lat: string, lon: string) => {
+  await page.fill("#lat", lat);
+  await page.fill("#lon", lon);
+  await page.locator("#panel .field button").first().click();
+  await page.locator("#submit").click();
+  await page.waitForSelector("#panel .big");
+};
+await typePin("30", "40");
+await page.locator("button.primary").click();
+await page.waitForSelector("#panel h2");
+await typePin("42.8", "74.3");
+await page.waitForTimeout(1800);
+const atReveal = Number(await page.evaluate("document.getElementById('globe').dataset.zoom"));
+await page.locator("button.primary").click();
+await page.waitForSelector("#panel h2");
+await page.waitForTimeout(1800);
+const nextRound = Number(await page.evaluate("document.getElementById('globe').dataset.zoom"));
+await page.screenshot({ path: resolve(out, `atlas-${lang}-5-round-after-a-close-reveal.png`) });
+if (!(atReveal > 5)) throw new Error(`the reveal of a close guess did not come in close (zoom ${atReveal}), so this check checked nothing`);
+if (!(nextRound <= 1.5)) throw new Error(`the round after a close reveal opened zoomed in ${nextRound} times, on the last answer, and not on the whole globe`);
+
+// Without WebGPU, or when asked, the drawn globe is the whole globe.
+await page.goto(`${url}&no3d=1`);
+await page.waitForSelector("#panel h2");
+await page.waitForTimeout(1200);
+const plain = (await page.evaluate("({ kind: document.documentElement.dataset.globe, under: Boolean(document.getElementById('globe3d')) })")) as { kind: string; under: boolean };
+if (plain.kind !== "2d" || plain.under) throw new Error(`asked for no 3D, the page showed ${JSON.stringify(plain)}`);
+await page.screenshot({ path: resolve(out, `atlas-${lang}-drawn-globe.png`) });
 await browser.close();
 await served.close();
 if (errors.length) throw new Error(`console errors:\n${errors.join("\n")}`);
-console.log(JSON.stringify({ lang, date, total, direction: dir, consoleErrors: errors.length, screenshots: out }));
+console.log(JSON.stringify({ lang, date, total, direction: dir, globe: globeKind, consoleErrors: errors.length, screenshots: out }));

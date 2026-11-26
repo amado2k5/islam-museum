@@ -1,10 +1,13 @@
 // The Atlas screen: one panel beside the globe. It holds no rules: every decision is src/rules.ts, and this file
 // only shows state, collects a guess and stores the result on this device.
+import { loadMusicStrings, musicControl } from "@im/audio/control";
+import { MUSIC_AVAILABLE, MUSIC_BASE, MusicPlayer } from "@im/audio/player";
 import en from "../../i18n/en.json";
 import { LANGS, decodePack, type AtlasPack, type Lang, type PackFile, type PackLabels } from "../pack";
 import { REGION_HINT_COST, ROUNDS_PER_GAME, TOLERANCE_KM, centuryTally, dailyRounds, isOver, maxPoints, newGame, practiceRounds, shareMarks, step, totalPoints, type AtlasState, type GameMode } from "../rules";
 import { SAVE_KEY, emptySave, readSave, resumable, writeSave, type AtlasSave } from "../save";
-import { Globe } from "./globe";
+import { probeWebGPU } from "@im/kernel/capability";
+import { Globe, LAND } from "./globe";
 
 type Strings = Record<keyof typeof en, string>;
 const NUM_LOCALE: Record<Lang, string> = { ar: "ar-EG-u-nu-latn", en: "en-GB", ur: "ur-PK-u-nu-latn", fr: "fr-FR", es: "es-ES", tr: "tr-TR", id: "id-ID" };
@@ -83,8 +86,39 @@ async function main(): Promise<void> {
       render();
     },
   });
+  // The lit sphere comes up after the game can already be played on the drawn globe. Where it cannot be made, the
+  // drawn globe stays, and the game is the same game. `data-globe` on the page says which one is showing.
+  document.documentElement.dataset.globe = "2d";
+  if (!new URLSearchParams(location.search).has("no3d")) {
+    void (async () => {
+      const under = document.createElement("canvas");
+      try {
+        const capability = await probeWebGPU();
+        if (!capability.supported) return;
+        const { Sphere3D } = await import("./globe3d");
+        under.id = "globe3d";
+        under.setAttribute("aria-hidden", "true");
+        canvas.before(under);
+        const sphere = await Sphere3D.create(under, LAND);
+        globe.setBackdrop(sphere);
+        document.documentElement.dataset.globe = "3d";
+        document.documentElement.dataset.globeEngine = `${sphere.info().engine}, map ${sphere.info().mapWidth}`;
+      } catch {
+        under.remove();
+        globe.setBackdrop(null);
+        document.documentElement.dataset.globe = "2d";
+      }
+    })();
+  }
   const zoom = el("div", { class: "zoom" }, el("button", { type: "button", textContent: "+", ariaLabel: strings.zoom_in, onclick: () => globe.zoomBy(1.4) }), el("button", { type: "button", textContent: "−", ariaLabel: strings.zoom_out, onclick: () => globe.zoomBy(1 / 1.4) }));
   document.getElementById("app")!.append(zoom);
+  // The soundtrack is the museum's own. Atlas opens with "Fourteen Centuries" and the suite follows in order.
+  const music = new MusicPlayer({ base: MUSIC_BASE, first: "fourteen-centuries", forceOff: query.get("music") === "off" || !MUSIC_AVAILABLE });
+  if (MUSIC_AVAILABLE) {
+    const musicBox = el("div", { class: "music-corner" });
+    musicBox.append(musicControl(music, await loadMusicStrings(lang), `${MUSEUM}/${lang}/backstage/`));
+    document.getElementById("app")!.append(musicBox);
+  }
 
   const start = (mode: GameMode) => {
     if (mode === "daily") {
@@ -226,6 +260,8 @@ async function main(): Promise<void> {
       el("p", { class: "kicker", textContent: within ? strings.result_within : t("result_km", { km: num(result.km) }) }),
       result.centuryError === null ? null : el("p", { class: "note", textContent: result.centuryError === 0 ? strings.century_right : t("century_off", { n: result.centuryError }) }),
       el("div", { class: "links" }, el("a", { href: recordUrl(round.id), target: "_blank", rel: "noopener", textContent: strings.open_record }), el("a", { href: recordUrl(place.id), target: "_blank", rel: "noopener", textContent: strings.open_place })),
+      // The record's place and year are shown as the museum has them; no historian has yet reviewed them for this game.
+      el("p", { class: "note", textContent: strings.review_pending }),
       next,
     );
     say(`${t("result_points", { points: num(result.points) })}. ${within ? strings.result_within : t("result_km", { km: num(result.km) })}`);

@@ -1,0 +1,206 @@
+{
+ "format": "im.games.proof-frames",
+ "version": 1,
+ "rule": "Founder, 26 November 2026: one real-time, interactive proof frame for each game before any asset is produced in number, taken from the running browser game. Acceptance is of the direction of quality, never of the whole game. Granada's first, then The Golden Age's, then Atlas's.",
+ "statusValues": [
+  "not-started",
+  "in-progress",
+  "ready-for-the-founder",
+  "accepted",
+  "not-accepted"
+ ],
+ "criteria": [
+  {
+   "id": "P0",
+   "asks": "Taken from the running browser game",
+   "means": "A capture and a short recording of the game itself, on a named release and commit, at 1920 by 1080. Not a Blender render, concept art, a composite or a still background."
+  },
+  {
+   "id": "P1",
+   "asks": "A camera composition comparable to the target",
+   "means": "The game's own camera set where the target's is, with the same things in the same thirds of the picture."
+  },
+  {
+   "id": "P2",
+   "asks": "Authored foreground, midground and background",
+   "means": "Each of the three made as models and materials for this view, not left to the generator."
+  },
+  {
+   "id": "P3",
+   "asks": "Target-quality architecture and materials",
+   "means": "Buildings and surfaces the founder judges to be of the target's finish. This one is his eye alone."
+  },
+  {
+   "id": "P4",
+   "asks": "Terrain, water, vegetation, atmosphere and lighting",
+   "means": "All five present and working together in the view."
+  },
+  {
+   "id": "P5",
+   "asks": "At least one animated group of people at an activity",
+   "means": "A group doing something the game is doing, not a loop laid over the picture."
+  },
+  {
+   "id": "P6",
+   "asks": "Weather or environmental motion",
+   "means": "Something of the world moves by itself: wind, water, cloud, smoke, rain."
+  },
+  {
+   "id": "P7",
+   "asks": "Working panels in the target's hierarchy",
+   "means": "The panels the target puts in that place, each showing the game's real figures and acting on the game. A panel that cannot work yet is left out, not drawn."
+  },
+  {
+   "id": "P8",
+   "asks": "At least one building or place that can be selected",
+   "means": "Clicking it, or reaching it by keyboard, opens what it is and what can be done with it."
+  },
+  {
+   "id": "P9",
+   "asks": "At least one visible change of the simulation's state",
+   "means": "An order is given and the picture changes because the game changed."
+  },
+  {
+   "id": "P10",
+   "asks": "Low, medium and high compared",
+   "means": "The same view at the three presets, side by side, with the game still playable at each."
+  },
+  {
+   "id": "P11",
+   "asks": "Frame time, memory and resources",
+   "means": "Median and 95th-centile frame time, heap, and counts of triangles, draw calls, textures and geometries, with the machine, browser, size and preset. Measured on the machine at hand and named as such: not a pass of the performance gates."
+  },
+  {
+   "id": "P12",
+   "asks": "Time taken, and the cost of scaling",
+   "means": "The sessions each asset took, and from them an estimate for the whole game's art, with what is uncertain."
+  },
+  {
+   "id": "P13",
+   "asks": "The founder accepts the direction",
+   "means": "His acceptance is of the direction of quality, not of the game. No asset is produced in number before it."
+  }
+ ],
+ "frames": [
+  {
+   "game": "Granada",
+   "order": 1,
+   "target": "docs/gaming/spec-granada/assets/granada-v3.jpeg",
+   "camera": "High over the plain, looking north-east: the estate and the fields fill the lower third, the town climbs through the middle, the palace hill, the far hills and the snow range close the top.",
+   "foreground": "An olive estate at harvest with its house, press and store; the wheat beside it; the mill on its channel with the wheel turning; a cart on the road.",
+   "midground": "The town: tiled houses in streets, a market square, a wall with a tower and a gate, one part of it under scaffolding.",
+   "background": "A palace on its hill above the town; terraced slopes; a far port on the sea to the south-west; the snow range.",
+   "architectureAndMaterials": "Lime-washed walls with wear at the foot, clay tile with broken courses, dressed and rubble stone, timber, scaffolding. Every building in the view authored in Blender; none left as a generated box.",
+   "landWaterPlantingAirLight": "The plain's patchwork of plots with rows that read at this height; channels with moving water and wet banks; olives, cypresses, poplars and orchard trees modelled for this view; late-afternoon autumn light, haze toward the range, cloud shadow crossing the plain.",
+   "people": "The harvest in the olive estate: pickers on ladders, carriers with baskets, a cart being loaded. They are there because the estate is being harvested, and go when it is done.",
+   "motion": "Wind in the trees and the wheat, water in the channels and over the wheel, smoke from two chimneys, cloud shadow.",
+   "panels": "The top bar with the game's stocks; the objectives on the left; the estate's panel in the centre when it is selected; the market's panel on the right with the market's real prices; the season's panel. No rail entry, catalogue or map that does not yet work.",
+   "selectable": "The olive estate and the mill.",
+   "stateChange": "Order the harvest: the pickers come, the trees are stripped, the store's figure rises, the estate's panel changes. Or mend the branch: water reaches the wheel and it turns.",
+   "history": "The valley is fiction and says so. The palace and the town are shown as a reconstruction, labelled 'historical review pending', and are not named as an accurate picture of any building until a reviewer has seen them.",
+   "dependsOn": [
+    "F3 for the measurements",
+    "A1, A2 and A3 only as far as this one view needs"
+   ],
+   "reuses": "The rules of 'Water for the Valley', the valley's land and water, the authored mill, the teal and gold panels.",
+   "status": "ready-for-the-founder",
+   "checklist": {
+    "P0": "ready-for-the-founder",
+    "P1": "in-progress",
+    "P2": "in-progress",
+    "P3": "ready-for-the-founder",
+    "P4": "in-progress",
+    "P5": "ready-for-the-founder",
+    "P6": "ready-for-the-founder",
+    "P7": "in-progress",
+    "P8": "in-progress",
+    "P9": "ready-for-the-founder",
+    "P10": "ready-for-the-founder",
+    "P11": "ready-for-the-founder",
+    "P12": "ready-for-the-founder",
+    "P13": "not-started"
+   },
+   "page": "proof-granada.md",
+   "standing": "Taken on 26 November 2026 and set beside the target in proof-granada.md. The structure of the target is there; its finish is not. Seven lines are met, five in part (composition, what is authored, the five elements of the scene, the panels, what can be selected), one is the founder's eye alone, and his acceptance is awaited."
+  },
+  {
+   "game": "The Golden Age",
+   "order": 2,
+   "target": "docs/gaming/spec-production/assets/golden-age-target.webp",
+   "camera": "High and angled over a bend of the river, looking up it: a market street and a water wheel in the lower third, a great building under construction in the middle, the river with its bridge and boats beside it, roofs and domes to the horizon.",
+   "foreground": "A market street under awnings; a water wheel lifting water to a strip of gardens; a canal.",
+   "midground": "A library being built: scaffolding, a crane, its ground marked out; the river with a bridge of arches and two boats.",
+   "background": "Roofs and domes to a wall, hills beyond, a sky toward evening.",
+   "architectureAndMaterials": "Fired brick and plaster, glazed tile on one dome, timber awnings and cloth, scaffolding. Authored in Blender for this view.",
+   "landWaterPlantingAirLight": "The river with moving water and reflections of the bank; palms and garden planting; evening light with long shadows and haze over the far city.",
+   "people": "The market: sellers, buyers and porters in the street, more of them when trade is higher.",
+   "motion": "The river's flow, boats under way, awnings and palms in the wind, smoke.",
+   "panels": "The top bar with the district's stocks; the research panel with the project in hand; the objectives; the welfare panel with its causes; the building's own panel. Only what works.",
+   "selectable": "The library under construction.",
+   "stateChange": "Dig the last link of a canal: water is seen to arrive and the gardens change. Or the building advances a stage as the season ends.",
+   "history": "A fictional district inspired by records of Abbasid Baghdad, and labelled so. Its buildings are a reconstruction, 'historical review pending'.",
+   "dependsOn": [
+    "Granada's proof accepted or its lessons written down",
+    "F3"
+   ],
+   "reuses": "The rules of the three chapters, the canal network, the museum links.",
+   "status": "not-started",
+   "checklist": {
+    "P0": "not-started",
+    "P1": "not-started",
+    "P2": "not-started",
+    "P3": "not-started",
+    "P4": "not-started",
+    "P5": "not-started",
+    "P6": "not-started",
+    "P7": "not-started",
+    "P8": "not-started",
+    "P9": "not-started",
+    "P10": "not-started",
+    "P11": "not-started",
+    "P12": "not-started",
+    "P13": "not-started"
+   }
+  },
+  {
+   "game": "Atlas",
+   "order": 3,
+   "target": "docs/gaming/spec-production/assets/atlas-target.webp",
+   "camera": "The globe fills the right two thirds, turned to the Mediterranean and the lands east of it, with the edge of night across one side; the round's panel stands on the left.",
+   "foreground": "The round's panel: a picture where one qualifies, the clues, the pin and its marker on the globe.",
+   "midground": "The lit hemisphere in relief: mountains, plains and rivers that can be read.",
+   "background": "The air at the globe's edge, cloud over it, the night side, stars.",
+   "architectureAndMaterials": "Not buildings but the globe's surface: relief shaded by the sun's angle, snow and desert told apart, water with a different sheen from land.",
+   "landWaterPlantingAirLight": "Relief, rivers, cloud and air, lit by one sun; the night side dark, and without modern city lights while a round is unanswered.",
+   "people": "The image shows no people. Proposed in their place, for the founder to accept or refuse: the reveal itself, in which the answer's marker rises, the arc from the guess is drawn and the record's place opens.",
+   "motion": "Cloud drifting over the globe; the edge of night moving.",
+   "panels": "The round's panel with its clues and progress; the score and the rounds before; the hints with their costs; the century with a timeline; the layers for terrain, mountains and rivers. No overlay or border layer until its data is reviewed.",
+   "selectable": "The answer's place after the reveal, which opens its museum record.",
+   "stateChange": "The reveal: the pin, the arc, the points. And a layer switched on or off changes the globe.",
+   "history": "Every round is a museum record; nothing is authored. Relief is of the land today. Night lights are of today and are not history: off during a round, labelled where shown.",
+   "dependsOn": [
+    "The founder's approval of the dataset table (O6): no data is brought in before it",
+    "F2, F3, F6"
+   ],
+   "reuses": "The rules, the pack, the lit sphere, the pin and reveal.",
+   "status": "not-started",
+   "checklist": {
+    "P0": "not-started",
+    "P1": "not-started",
+    "P2": "not-started",
+    "P3": "not-started",
+    "P4": "not-started",
+    "P5": "not-started",
+    "P6": "not-started",
+    "P7": "not-started",
+    "P8": "not-started",
+    "P9": "not-started",
+    "P10": "not-started",
+    "P11": "not-started",
+    "P12": "not-started",
+    "P13": "not-started"
+   }
+  }
+ ],
+ "delivered": "For each frame: captures at the three presets and a recording of the interaction, kept as media outside git with their checksums in git; the measurements as a JSON file; the time each asset took; and one page setting the capture beside the target."
+}

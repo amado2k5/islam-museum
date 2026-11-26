@@ -8,10 +8,10 @@
 import { FrameRecorder, summarize } from "@im/kernel/framestats";
 import { probeWebGPU, type GpuCapability } from "@im/kernel/capability";
 import { generateDistrict, updateDynamics } from "@im/worldkit/district/generate";
-import { ATMOSPHERES, type TimeOfDay } from "./atmosphere";
+import { ATMOSPHERES, type TimeOfDay } from "@im/worldkit/atmosphere";
 import type { DistrictRenderer, QualityPreset, RendererOptions } from "./api";
 import { cameraKeys, cameraOnLoop } from "./camera-path";
-import { generateTextures } from "./textures-async";
+import { generateTextures } from "@im/worldkit/textures-async";
 
 declare global {
   interface Window {

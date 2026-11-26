@@ -1,6 +1,6 @@
 {
  "specVersion": "2.0",
- "status": "in-progress: M0 done; M1 measured on one machine; Atlas is a prototype; no other game exists",
+ "status": "in-progress: M0 done; M1 measured on one machine; Granada, Atlas and The Golden Age are prototypes, live on the games' UAT address; no other game exists; no person has played any of them; production is not deployed",
  "releasePolicy": "All applicable hard gates must pass; conditional optional features disabled if gate not passed. Human and GPU tests cannot be fabricated.",
  "requirements": [
   {
@@ -17,9 +17,9 @@
    "scope": "platform",
    "requirement": "Separate gaming build and route-safe rollback",
    "evidence": "CI logs, staging and rollback proof",
-   "status": "not-tested",
+   "status": "in-progress",
    "hardGate": true,
-   "evidenceSoFar": ""
+   "evidenceSoFar": "A separate build and a staged release are proved: the games' own workflow builds and tests on GitHub's runners, and on 25 November 2026 a release (46 files, three games) was deployed to UAT at https://uat-games.islam.museum by the games' own deploy workflow (runs 45713511479 and 45713830185), verified in the bucket and opened in a browser (docs/gaming/release-and-deploy.md). Not done: production; a rollback on Cloudflare, which needs a second release (it is rehearsed against a stand-in AWS CLI in workers/games/test)."
   },
   {
    "id": "R03",
@@ -37,7 +37,7 @@
    "evidence": "real browser playthrough recording and test",
    "status": "in-progress",
    "hardGate": true,
-   "evidenceSoFar": "Atlas only (prototype): a full five-round daily game played in real Chrome 158 by script in seven languages, docs/gaming/evidence/m2/atlas/. No recording, no human playthrough. The other nine games do not exist."
+   "evidenceSoFar": "Two prototypes. Atlas: a full five-round daily game played in real Chrome 158 by script in seven languages, docs/gaming/evidence/m2/atlas/. The Golden Age: the campaign's three chapters, played by script in real Chrome 158 in seven languages (mouse, keyboard alone, plan view, without 3D), and each chapter's whole campaign driven through the screen in English and Arabic (the first and third to a win, the second to its end short of the goal on that seed); the third chapter has a dominant strategy, recorded in docs/gaming/games/golden-age.md; with the loss conditions and their visible count under unit test; docs/gaming/evidence/m2/golden-age/screen/. No recording and no human playthrough of either. The other eight games do not exist."
   },
   {
    "id": "R05",
@@ -46,7 +46,7 @@
    "evidence": "fixtures and browser tests",
    "status": "in-progress",
    "hardGate": true,
-   "evidenceSoFar": "Atlas only: save round trip, unreadable save set aside, newer save not overwritten, damaged entry dropped, game from another pack not resumed (unit tests), reload in mid-game and corrupted save (browser script). Only one save version exists, so there is no migration to test yet."
+   "evidenceSoFar": "Atlas: save round trip, unreadable save set aside, newer save not overwritten, damaged entry dropped, game from another pack not resumed (unit tests), reload in mid-game and corrupted save (browser script). The Golden Age: the same cases, plus a state the rules could not have produced is refused (unit tests), reload in mid-game and corrupted save (browser script). The Golden Age's save format has one migration (version 1 to 2, when endowments were added), with a unit test that a migrated game plays on exactly as before; Atlas has only one save version. Saves are in localStorage, not yet the IndexedDB envelope of specification 06."
   },
   {
    "id": "R06",
@@ -64,7 +64,7 @@
    "evidence": "record IDs, citation and license audit",
    "status": "in-progress",
    "hardGate": true,
-   "evidenceSoFar": "Atlas: every round is a museum record id joined to a museum place id; no image or third-party asset is used; coastlines are Natural Earth via world-atlas (public domain). No independent citation or licence audit has been done."
+   "evidenceSoFar": "Atlas: every round is a museum record id joined to a museum place id; no image or third-party asset is used; coastlines are Natural Earth via world-atlas (public domain). The Golden Age: its district, numbers and buildings are fiction and say so; research and tools link to thirteen museum records by id from a pinned file (docs/gaming/games/golden-age.md), chosen by an agent and not yet checked by the founder; no third-party asset is used. Music in both: the museum's own suite, described in the Backstage page's words (docs/gaming/adr/G-0007-music-and-audio.md). No independent citation or licence audit has been done."
   },
   {
    "id": "R08",
@@ -73,7 +73,7 @@
    "evidence": "screenshots, functional tests, human language review",
    "status": "in-progress",
    "hardGate": true,
-   "evidenceSoFar": "Atlas: interface in all seven languages, right-to-left for Arabic and Urdu, keyboard-only play and typed coordinates, screenshots in evidence/m2/atlas/. Strings are AI-written and unreviewed by a native speaker; Turkish and Indonesian personal names are borrowed from English."
+   "evidenceSoFar": "Atlas: interface in all seven languages, right-to-left for Arabic and Urdu, keyboard-only play and typed coordinates, screenshots in evidence/m2/atlas/. The Golden Age: 260 strings in seven languages, panels change sides for Arabic and Urdu and the district is never mirrored, keyboard-only play, a plan view in which every plot and canal link is a labelled button and which is the whole game without WebGPU, reduced-motion respected; functional run in each language, evidence/m2/golden-age/screen/. All strings are AI-written and unreviewed by a native speaker; no screen-reader test by a person; touch untried."
   },
   {
    "id": "R09",
@@ -82,7 +82,7 @@
    "evidence": "hardware/browser/driver, p95 and actual captures",
    "status": "in-progress",
    "hardGate": true,
-   "evidenceSoFar": "One machine only: Apple M4 Max, Chrome 158, reference district. docs/gaming/evidence/m1/. No soak, no device-loss test, no Windows or discrete-GPU machine, Edge run did not start. See m1-graphics-spike.md."
+   "evidenceSoFar": "One machine only: Apple M4 Max, Chrome 158. Reference district: docs/gaming/evidence/m1/. The Golden Age: frame intervals at 1920 × 1080 during a scripted campaign, with no frame over 16.7 ms after a stall at each season's end was traced and removed, docs/gaming/LEDGER.md (Measurements). No soak, no device-loss test, no Windows or discrete-GPU machine, Edge run did not start. See m1-graphics-spike.md."
   },
   {
    "id": "R10",

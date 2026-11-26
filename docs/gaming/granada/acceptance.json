@@ -1,0 +1,252 @@
+{
+ "schemaVersion": 1,
+ "gameId": "granada",
+ "extends": "Gaming Platform V2 R01–R18 (not superseded)",
+ "statusValues": [
+  "not-tested",
+  "in-progress",
+  "pass",
+  "fail",
+  "pending-external",
+  "not-applicable"
+ ],
+ "updated": "2026-11-25",
+ "status": "in-progress: G0 done (self-assessed); the first scenario can be played in a browser in seven languages from panels, a drawn plan and a 3D valley generated from code; the valley is measured on one machine, is far from the concept image, and no person has played it",
+ "criteriaSource": "docs/gaming/spec-granada/contracts/acceptance.json (the founder's; never edited here)",
+ "gates": [
+  {
+   "id": "GRA01",
+   "milestone": "G0",
+   "requirement": "Repository discovery and ownership confirmed; actual seven locales, renderer, deployment, source rights inventoried",
+   "evidence": "ADRs, baseline, checkpoint, source gaps",
+   "status": "pass",
+   "hardGate": true,
+   "evidenceSoFar": "The discovery report (docs/gaming/granada/g0-discovery.md): what exists and is reused, ownership, the museum's 25 pinned records for Granada with their review state, the claims the game would make and what supports each, the three images read against the data, G0 to G8 mapped onto M0 to M11, and what waits for the founder. Decisions G-0009 and G-0010. Baseline: the existing renderer's measurements on one machine; no Granada scene exists to measure. Limits: the museum was searched by name and by words in three prose files, not through the whole graph; no source outside the repository was read. The evidence is the author's own and no independent reader has checked it."
+  },
+  {
+   "id": "GRA02",
+   "milestone": "G2",
+   "requirement": "First-time player completes water → harvest → trade → construction → quest → save loop",
+   "evidence": "Unassisted browser recording, E2E, player observations",
+   "status": "in-progress",
+   "hardGate": true,
+   "evidenceSoFar": "The loop can be played in a browser from start to finish: mend or extend the water, bring in the ripe wheat, sell or store it, build a house and the granary, complete five quests, with the game saved on the device (gaming/games/granada; docs/gaming/evidence/granada/screen/play-7-languages.json and eight captures). The play was done by the author's script in real Chrome in seven languages, with the mouse and with the keyboard alone. Not done, and it is the heart of the gate: no first-time player, so 'unassisted' is untested; no recording; and the page is a drawn plan, not the 3D game."
+  },
+  {
+   "id": "GRA03",
+   "milestone": "G3",
+   "requirement": "Deterministic fixed-step simulation and replay across frame rates and reload",
+   "evidence": "Seeded hashes and replay fixture",
+   "status": "in-progress",
+   "hardGate": true,
+   "evidenceSoFar": "Commands only: the same commands give the same state and the same fingerprint, and different commands a different one (economy.gtest.ts, 'random play'); docs/gaming/evidence/granada/g0/economy-fuzz.json records a digest of all 300 end states. Not done: a fixed-step clock, independence from frame rate, replay after reload. There is no clock and no screen yet. Since then: the village gives the same state for the same seed and commands and another for another seed, and its forecast is the rules run on a copy, equal to the day-by-day future (village.gtest.ts). The step is a day (G-0011)."
+  },
+  {
+   "id": "GRA04",
+   "milestone": "G3",
+   "requirement": "Money, inventories and reservations reconcile, no free arbitrage, no duplicate settlement",
+   "evidence": "Ledger, property tests, economy fixture",
+   "status": "in-progress",
+   "hardGate": true,
+   "evidenceSoFar": "The ledger reconciles after every one of 60,000 random commands over 300 random openings (docs/gaming/evidence/granada/g0/economy-fuzz.json: 24,460 accepted, 0 unsound states; contracts ended settled 436, cancelled 297, failed 236). Buying and selling at one set of prices never raised wealth across 30,000 random buy and sell commands. A retried command pays once; a cancelled or failed contract releases what it held once. Fifteen deliberate breakages of the kernel were all caught (docs/gaming/evidence/granada/g0/economy-mutations.md). Not done: prices that move, goods in transit, storage by place and kind, the journal's checkpoint. Since then: in the village every unit of a ripened crop is brought in, sold from the field, spoiled or standing, checked with the ledger's audit after every day of 6,000 campaigns (576,000 days), with no violation."
+  },
+  {
+   "id": "GRA05",
+   "milestone": "G3",
+   "requirement": "Raw olive valuation, overflow, oil conversion and contract alternatives correct",
+   "evidence": "Fixture arithmetic and UI assertions",
+   "status": "in-progress",
+   "hardGate": true,
+   "evidenceSoFar": "The package's fixture is reproduced by tests to the unit: wheat round trip minus 80; olives 190,400 at the raw bid (not 435,200), 145,600 if only 5,200 fit, overflow 1,600; 1,360 oil worth 87,040; the Málaga contract 7,200 on paper, 2,400 better than a local sale, and minus 1,200 when the oil is bought at ask, which the kernel also shows by actually doing it; reserves 91% and 3,600 short (docs/gaming/evidence/granada/g0/tests.md). Not done: the 'UI assertions' half of the evidence. There is no screen."
+  },
+  {
+   "id": "GRA06",
+   "milestone": "G3",
+   "requirement": "Finite markets, transport, processing, seasons and water affect actual economy",
+   "evidence": "Scenario recordings and conservation tests",
+   "status": "in-progress",
+   "hardGate": true,
+   "evidenceSoFar": "Two of the five exist: markets with finite stock and finite money, and one recipe (five olives to one oil, cost carried into the product). Not started: transport, seasons, water. Since then: seasons and water now do affect the economy, in one valley (a river whose year varies, a pool, branches, thirst that costs yield; G-0011). Transport: still nothing."
+  },
+  {
+   "id": "GRA07",
+   "milestone": "G4",
+   "requirement": "Modular castle placement, costs, construction phases, repair and blueprint valid",
+   "evidence": "Placement/cancel tests and actual capture",
+   "status": "not-tested",
+   "hardGate": true,
+   "evidenceSoFar": "Nothing yet."
+  },
+  {
+   "id": "GRA08",
+   "milestone": "G4",
+   "requirement": "Defense and diplomacy meaningful with civilian protection and noncombat outcomes",
+   "evidence": "Independent scenario test and historical framing review",
+   "status": "not-tested",
+   "hardGate": true,
+   "evidenceSoFar": "Nothing yet."
+  },
+  {
+   "id": "GRA09",
+   "milestone": "G5",
+   "requirement": "Complete authored campaign with at least three ending paths, sandbox and survival mode",
+   "evidence": "Full playthroughs, test report, ending state evidence",
+   "status": "not-tested",
+   "hardGate": true,
+   "evidenceSoFar": "Nothing yet."
+  },
+  {
+   "id": "GRA10",
+   "milestone": "G5",
+   "requirement": "At least three viable economic strategies and no dominant universal exploit",
+   "evidence": "Seeded simulation report and human playtest",
+   "status": "in-progress",
+   "hardGate": true,
+   "evidenceSoFar": "Act I only: four scripted ways of playing are viable over 1,000 seeds (mender 99.5%, builder 91.6%, merchant 91.4%, irrigator 100%), doing nothing and random play never win. Two cannot lose, which the lab reports as a finding: the scenario is too forgiving. No human playtest. docs/gaming/evidence/granada/village/village-lab-1000.md."
+  },
+  {
+   "id": "GRA11",
+   "milestone": "G5",
+   "requirement": "365-day deterministic challenge validation, archives and honest local scoring",
+   "evidence": "Seed/version solver and archive tests",
+   "status": "not-tested",
+   "hardGate": true,
+   "evidenceSoFar": "Nothing yet."
+  },
+  {
+   "id": "GRA12",
+   "milestone": "G1/G8",
+   "requirement": "Actual high-fidelity 3D gameplay, no concept images used as backgrounds",
+   "evidence": "Actual captures and independent art review",
+   "status": "in-progress",
+   "hardGate": true,
+   "evidenceSoFar": "The valley is drawn in 3D by the game from its own state (gaming/games/granada/src/view/), with every shape generated from code: no concept image and no picture file of any kind is used. Eight captures and the play reports are in docs/gaming/evidence/granada/valley3d/. Not done: 'high-fidelity' is not met (rounded trees, box houses, a hill town of blocks; nothing authored), and there has been no independent art review. The author is the only one who has seen it."
+  },
+  {
+   "id": "GRA13",
+   "milestone": "G8",
+   "requirement": "Physical GPU benchmarks, device recovery, soak, accurate browser requirements",
+   "evidence": "Hardware/browser details, frame-time distributions, recovery evidence",
+   "status": "in-progress",
+   "hardGate": true,
+   "evidenceSoFar": "Frame times of the 3D valley on one machine (Apple M4 Max, Chrome 158, 25 November 2026): median 8.3 ms and 95th centile 9.0 to 9.3 ms at three views, at 1494 x 888 and at 2988 x 1776, with 1.9 to 3.0 million triangles a frame; slower runs the same day while the machine did other work are recorded beside them (docs/gaming/games/granada.md). Not done: any other hardware, a weak GPU, a phone, Windows, Safari, Firefox; recovery from a lost device; a soak; browser requirements beyond 'WebGPU, or the plan'."
+  },
+  {
+   "id": "GRA14",
+   "milestone": "G5",
+   "requirement": "Contextual HUD modes, no conflicting ghost, map markers reflect state, Overview visibility target",
+   "evidence": "UI mask, screenshots, marker ID tests, navigation recording",
+   "status": "in-progress",
+   "hardGate": true,
+   "evidenceSoFar": "The plan of the valley is drawn from the state and checked by the play script: branches flowing, broken or absent, fields by crop and stage, houses, store and granary, with each field's condition also said in words. There is one view, so no conflicting overlay can occur yet. Not done: the HUD modes of the design, a 3D overview, marker-id tests against a 3D scene. Since then: the 3D valley has an overview (the 'Whole valley' button and the key O), a click on a field in it opens that field, and it shows the same branches, crops, houses and granary as the plan from the same figures. Still not done: the display modes of the design, and marker-id tests against the 3D scene."
+  },
+  {
+   "id": "GRA15",
+   "milestone": "G3/G8",
+   "requirement": "Regional geography correct, ports separated, historic claims and rights verified",
+   "evidence": "Coordinate checks, source and license audit",
+   "status": "in-progress",
+   "hardGate": true,
+   "evidenceSoFar": "Eleven places from museum records by id with the museum's coordinates, pinned in git; tests hold Granada inland (nearest sea place 51 km), Málaga 89 km to the south-west, Almería 109 km to the east, 175 km between the two ports (geography.gtest.ts; docs/gaming/evidence/granada/g0/museum-records.md). Not done: no historical claim of the game has been verified against a source; twenty of the 25 pinned records are draft-tier; no map data, terrain or image has been chosen, so no rights have been checked."
+  },
+  {
+   "id": "GRA16",
+   "milestone": "G2/G8",
+   "requirement": "Save atomicity, migration, quota and corrupt save recovery; no unattended progression",
+   "evidence": "Browser recovery fixtures and replay evidence",
+   "status": "in-progress",
+   "hardGate": true,
+   "evidenceSoFar": "A versioned save on the device after every order and every day; read back only if it passes every rule of the game (the ledger's audit included); a damaged, tampered, unknown or newer save is set aside and said so; a device that refuses to save is reported; time does not pass while the game is closed or hidden (screen.gtest.ts; the play script reloads mid-game and plants a damaged save). Not done: no migration exists because there is one version; no quota test in a real browser; no rotating autosaves or export."
+  },
+  {
+   "id": "GRA17",
+   "milestone": "G6",
+   "requirement": "External T1 content pack works, profile isolation, safe disable and rollback",
+   "evidence": "Independent sample ZIP/manifest, security fixtures",
+   "status": "not-tested",
+   "hardGate": true,
+   "evidenceSoFar": "Nothing yet."
+  },
+  {
+   "id": "GRA18",
+   "milestone": "G6",
+   "requirement": "Programmable extensions only if independently security-audited; otherwise disabled",
+   "evidence": "Threat model and sandbox attacks or disabled-state proof",
+   "status": "not-tested",
+   "hardGate": true,
+   "evidenceSoFar": "No extension mechanism exists in Granada, so nothing programmable can run. The gate asks for proof of the disabled state in a shipped build; there is no build."
+  },
+  {
+   "id": "GRA19",
+   "milestone": "G6",
+   "requirement": "Compatible building interchange round trip without bypassing construction rules",
+   "evidence": "Blueprint export/import and cost/validation evidence",
+   "status": "not-tested",
+   "hardGate": true,
+   "evidenceSoFar": "Nothing yet."
+  },
+  {
+   "id": "GRA20",
+   "milestone": "G7",
+   "requirement": "Eleventh title registered in all seven locales with nav/footer/home and docs",
+   "evidence": "Localized route matrix, link test, network trace",
+   "status": "not-tested",
+   "hardGate": true,
+   "evidenceSoFar": "The game is first in the games' own registry (gaming/games/registry.json) and has its page in a release; nothing of it is on the site."
+  },
+  {
+   "id": "GRA21",
+   "milestone": "G7",
+   "requirement": "Independent game-only build, release, staging and route-safe rollback",
+   "evidence": "CI path matrix, deployment dry-run/live staging proof where authorized",
+   "status": "in-progress",
+   "hardGate": true,
+   "evidenceSoFar": "The games' own build runs on GitHub's runners for changes to the games alone, and Granada was released to UAT as the first of three pages by the games' own deploy workflow on 25 November 2026 (https://uat-games.islam.museum/granada/; runs 45713511479 and 45713830185) and played there for three days in a browser. Not done: production; a rollback on Cloudflare."
+  },
+  {
+   "id": "GRA22",
+   "milestone": "G7",
+   "requirement": "Existing museum validator zero errors and citation check zero failures; no unrelated regression",
+   "evidence": "Actual repo commands, timing and output",
+   "status": "in-progress",
+   "hardGate": true,
+   "evidenceSoFar": "This pull request: npm run validate 0 errors (7,674 warnings); npm test 62 files, 30,319 passed, 2 skipped, on a second run with the repository's CI setting after the first ran out of memory in one worker before any assertion failed. No museum file was changed except one row each of docs/status.md and docs/agents/lanes.md and one release note. The gate is re-run on every Granada pull request."
+  },
+  {
+   "id": "GRA23",
+   "milestone": "G8",
+   "requirement": "Accessible essential controls, keyboard, RTL and text scaling, language review",
+   "evidence": "Functional tests, seven locale screenshots, review",
+   "status": "in-progress",
+   "hardGate": true,
+   "evidenceSoFar": "Every control is an ordinary button; the play script carries out a purchase, a change of the water order and a day by keyboard alone and checks that the keyboard keeps its place when the panels are redrawn; Arabic and Urdu mirror the panels and not the land; seven languages with the same keys and blanks. Not done: no screen-reader pass, no text-scaling or zoom test, no contrast audit, and no native speaker has read any of the seven tables."
+  },
+  {
+   "id": "GRA24",
+   "milestone": "G8",
+   "requirement": "Eight distinct actual gameplay perspectives, press kit and verified portal eligibility where applicable",
+   "evidence": "In-engine captures, metadata, current portal policy matrix",
+   "status": "not-tested",
+   "hardGate": true,
+   "evidenceSoFar": "Nothing yet."
+  },
+  {
+   "id": "GRA25",
+   "milestone": "G8",
+   "requirement": "Independent gameplay and visual review, blind human playtest, no unresolved high/critical defects",
+   "evidence": "Reviewer rubric, anonymized observations, defect retests",
+   "status": "not-tested",
+   "hardGate": true,
+   "evidenceSoFar": "Nothing yet."
+  },
+  {
+   "id": "GRA26",
+   "milestone": "G8",
+   "requirement": "No unauthorized deployment, paid service or external submission; optional online features honest",
+   "evidence": "Approval ledger and UI inspection",
+   "status": "in-progress",
+   "hardGate": true,
+   "evidenceSoFar": "Holds so far: no production deployment, no paid service added, no external submission, no online feature. One deployment was made, to UAT only, by the agent on the founder's explicit word in chat (\"Yes, run UAT\", 25 November 2026); it created one Worker and one Custom Domain in the existing account with the existing token. It is a gate for the release, so it stays open."
+  }
+ ]
+}

@@ -1,0 +1,122 @@
+{
+ "lang": "ar",
+ "seed": 3,
+ "viewport": [
+  1920,
+  1080
+ ],
+ "keyboard": {
+  "canals": 4,
+  "schoolAt": 27
+ },
+ "museumLinks": 5,
+ "afterPlan": {
+  "season": 1,
+  "canals": 4,
+  "treasury": 2
+ },
+ "music": {
+  "beforeClick": false,
+  "afterClick": true,
+  "available": true,
+  "track": "The First Light",
+  "requests": [
+   "206 03-the-first-light.m4a"
+  ]
+ },
+ "campaign": {
+  "policy": "balanced",
+  "commands": 57,
+  "outcome": "won",
+  "seasons": 24,
+  "households": 336,
+  "welfare": 66,
+  "treasury": 112,
+  "frames": {
+   "frames": 1196,
+   "durationMs": 9966.6,
+   "meanMs": 8.333,
+   "p50Ms": 8.3,
+   "p95Ms": 8.9,
+   "p99Ms": 9.3,
+   "maxMs": 9.4,
+   "minMs": 7.3,
+   "over16_7": 0,
+   "over33_3": 0,
+   "over50": 0,
+   "avgFps": 120.001
+  },
+  "info": {
+   "drawCalls": 947,
+   "triangles": 1556144,
+   "cpuRenderMs": 4.700000002980232,
+   "engine": "three r187 webgpu",
+   "pixels": [
+    1920,
+    1080
+   ],
+   "walkers": 143,
+   "frames": 1386
+  }
+ },
+ "conditions": {
+  "riverDropInDrought": -0.4
+ },
+ "chapterTwo": {
+  "season": 2,
+  "treasury": 75,
+  "learned": 22
+ },
+ "chapterTwoCampaign": {
+  "policy": "balanced",
+  "commands": 65,
+  "outcome": "ended",
+  "seasons": 20,
+  "households": 473,
+  "welfare": 60,
+  "treasury": 247,
+  "frames": {
+   "frames": 965,
+   "durationMs": 8074.9,
+   "meanMs": 8.368,
+   "p50Ms": 8.3,
+   "p95Ms": 9.1,
+   "p99Ms": 9.3,
+   "maxMs": 17.3,
+   "minMs": 7.3,
+   "over16_7": 1,
+   "over33_3": 0,
+   "over50": 0,
+   "avgFps": 119.506
+  }
+ },
+ "chapterThree": {
+  "endowed": 1,
+  "treasury": 100
+ },
+ "chapterThreeCampaign": {
+  "policy": "merchant",
+  "commands": 76,
+  "outcome": "won",
+  "seasons": 20,
+  "households": 499,
+  "welfare": 76,
+  "treasury": 1288,
+  "endowed": 11,
+  "frames": {
+   "frames": 989,
+   "durationMs": 8374.7,
+   "meanMs": 8.468,
+   "p50Ms": 8.3,
+   "p95Ms": 9.2,
+   "p99Ms": 16.6,
+   "maxMs": 17.3,
+   "minMs": 7.2,
+   "over16_7": 9,
+   "over33_3": 0,
+   "over50": 0,
+   "avgFps": 118.094
+  }
+ },
+ "consoleErrors": []
+}

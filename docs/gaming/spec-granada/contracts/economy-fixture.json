@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "purpose": "Illustrative arithmetic regression only, not production tuning or historical data",
+  "currency": "dinar",
+  "market": {
+    "wheat": {
+      "inventory": 14800,
+      "ask": 26,
+      "bid": 18
+    },
+    "olives": {
+      "inventory": 6200,
+      "ask": 39,
+      "bid": 28
+    },
+    "oliveOil": {
+      "inventory": 5960,
+      "ask": 82,
+      "bid": 64
+    },
+    "silk": {
+      "inventory": 1280,
+      "ask": 182,
+      "bid": 140
+    },
+    "ceramics": {
+      "inventory": 2360,
+      "ask": 63,
+      "bid": 46
+    }
+  },
+  "wheatRoundTrip": {
+    "quantity": 10,
+    "buyCost": 260,
+    "saleRevenue": 180,
+    "netBeforeFees": -80
+  },
+  "oliveEstate": {
+    "expectedRawUnits": 6800,
+    "freeCapacity": 5200,
+    "overflowUnits": 1600,
+    "rawBid": 28,
+    "conditionalFullGross": 190400,
+    "conditionalStoredGross": 145600,
+    "illustrativeRawPerOil": 5,
+    "maxOilUnitsBeforeLoss": 1360,
+    "oilGrossAtBid": 87040
+  },
+  "contract": {
+    "units": 200,
+    "deadlineDays": 12,
+    "revenue": 16000,
+    "productionCostBasis": 8000,
+    "transport": 480,
+    "fees": 320,
+    "accountingProfit": 7200,
+    "localGross": 12800,
+    "localMargin": 4800,
+    "incrementalAdvantage": 2400,
+    "purchaseAtAskCost": 16400,
+    "profitIfPurchased": -1200
+  },
+  "food": {
+    "current": 36400,
+    "target": 40000,
+    "shortfall": 3600,
+    "percentTarget": 91
+  }
+}

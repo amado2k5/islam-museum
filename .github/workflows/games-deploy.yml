@@ -1,0 +1,41 @@
+name: Deploy the games to production
+
+# Production for the games: https://games.islam.museum. Manual only, and the founder's alone: no agent or session
+# starts it. It publishes a release already built and tested by "Build the games", normally the one just reviewed on
+# UAT (give its build_run_id), into the `production` GitHub Environment: bucket islam-museum-search (under games/),
+# Worker islam-museum-games. It touches no page, asset, Worker or workflow of the website.
+#
+# The first run creates the Worker and, because its Custom Domain is declared in workers/games/wrangler.production.toml,
+# the DNS record and certificate for games.islam.museum. Start with action "check": it writes nothing.
+on:
+  workflow_dispatch:
+    inputs:
+      action:
+        description: "check: verify the release and say what would happen, writing nothing. release: publish it and make it live. rollback: make the release before the live one live again."
+        required: true
+        type: choice
+        options: [check, release, rollback]
+        default: check
+      build_run_id:
+        description: "Run id of \"Build the games\" to deploy. Empty: the latest successful build of main. Ignored by rollback."
+        required: false
+        type: string
+
+permissions:
+  contents: read
+  deployments: write
+  # Read another run's artifact.
+  actions: read
+
+concurrency:
+  group: games-deploy-production
+  cancel-in-progress: false
+
+jobs:
+  production:
+    uses: ./.github/workflows/games-deploy-env.yml
+    with:
+      environment: production
+      action: ${{ inputs.action }}
+      build_run_id: ${{ inputs.build_run_id }}
+    secrets: inherit

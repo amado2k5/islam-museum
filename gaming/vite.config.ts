@@ -12,8 +12,16 @@ export default defineConfig({
       "@im/kernel": r("./packages/kernel/src"),
       "@im/worldkit": r("./packages/worldkit/src"),
       "@im/atlas": r("./games/atlas/src"),
+      "@im/audio": r("./packages/audio/src"),
+      "@im/golden-age": r("./games/golden-age/src"),
+      "@im/granada": r("./games/granada/src"),
+      "@im/hudhud": r("./games/hudhud/src"),
+      "@im/platform": r("./packages/platform/src"),
     },
   },
+  // The model loader is asked for only when a model is fetched, after the page is up. Named here so that the dev
+  // server has it ready and does not stop to re-bundle its dependencies in the middle of a page (which fails that fetch).
+  optimizeDeps: { include: ["three/addons/loaders/GLTFLoader.js"] },
   server: { port: 4330, strictPort: true, host: "127.0.0.1" },
   build: { target: "es2023", outDir: r("./dist/dev"), emptyOutDir: true },
 });

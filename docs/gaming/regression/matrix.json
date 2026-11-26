@@ -1,0 +1,539 @@
+{
+ "format": "im.games.regression-matrix",
+ "version": 1,
+ "source": "docs/gaming/spec-production/PRODUCTION_GAME_STANDARDS.md, section 9",
+ "how": {
+  "host": "played by a script on the deployed host, on every release",
+  "local": "played by a script in real Chrome on the build of the same commit, not on the host",
+  "rules": "held by a test of the rules, run on every change",
+  "hand": "needs a person, or a browser driven by one",
+  "none": "not run by anyone yet"
+ },
+ "onEveryRelease": [
+  "npx tsx --tsconfig tsconfig.json tools/release-regression.ts <host> <out dir>",
+  "npx tsx --tsconfig tsconfig.json tools/uat-check.ts <host> ar <out dir>",
+  "npx tsx --tsconfig tsconfig.json tools/granada-uat.ts <host> en <out dir>, and again with ar",
+  "npm test (the rules tests ran in the build that made the release)"
+ ],
+ "scenarios": [
+  {
+   "id": "REL-01",
+   "game": "Release",
+   "asks": "Read the release pointer at the start and at the end",
+   "covered": "yes",
+   "how": [
+    "host"
+   ],
+   "by": "release-regression.ts",
+   "missing": ""
+  },
+  {
+   "id": "REL-02",
+   "game": "Release",
+   "asks": "Load the five English addresses in desktop Chrome",
+   "covered": "yes",
+   "how": [
+    "host"
+   ],
+   "by": "release-regression.ts; uat-check.ts does the same in a second language with the music",
+   "missing": ""
+  },
+  {
+   "id": "REL-03",
+   "game": "Release",
+   "asks": "Verify the 3D renderer, then the fallback on purpose",
+   "covered": "yes",
+   "how": [
+    "host"
+   ],
+   "by": "release-regression.ts opens each address in 3D and again with no3d=1",
+   "missing": ""
+  },
+  {
+   "id": "GR-01",
+   "game": "Granada",
+   "asks": "Onboarding, starting resources and objective",
+   "covered": "partly",
+   "how": [
+    "local",
+    "rules"
+   ],
+   "by": "granada-play.ts starts through the brief; village.gtest.ts holds the starting figures",
+   "missing": "Nothing reads the starting figures off the page on the host"
+  },
+  {
+   "id": "GR-02",
+   "game": "Granada",
+   "asks": "Harvest a ripe field, sell, feedback",
+   "covered": "partly",
+   "how": [
+    "local",
+    "rules"
+   ],
+   "by": "granada-play.ts harvests through the page; village.gtest.ts and economy.gtest.ts hold the store, the overflow and the sale",
+   "missing": "Whether the feedback is clear is a person's judgement"
+  },
+  {
+   "id": "GR-03",
+   "game": "Granada",
+   "asks": "Inspect and repair the broken channel; water after; the mill wheel follows the water",
+   "covered": "partly",
+   "how": [
+    "local",
+    "rules"
+   ],
+   "by": "granada-play.ts orders the repair; village.gtest.ts holds half flow before and full flow after",
+   "missing": "The wheel standing still without water and turning with it is not checked by any script"
+  },
+  {
+   "id": "GR-04",
+   "game": "Granada",
+   "asks": "Every tab; an immediate buy and sell",
+   "covered": "partly",
+   "how": [
+    "local",
+    "rules"
+   ],
+   "by": "economy.gtest.ts: a round trip loses money and none can be made by carrying goods; granada-play.ts opens the market",
+   "missing": "Not every tab is opened by the script"
+  },
+  {
+   "id": "GR-05",
+   "game": "Granada",
+   "asks": "Normal, fast, pause and the keys 1 to 5, P, N, H, O, Home",
+   "covered": "partly",
+   "how": [
+    "local"
+   ],
+   "by": "granada-play.ts passes and stops the days and steers by keys",
+   "missing": "Not every key in the list is pressed"
+  },
+  {
+   "id": "GR-06",
+   "game": "Granada",
+   "asks": "Drag, turn, zoom, pick a field, see it selected",
+   "covered": "partly",
+   "how": [
+    "local"
+   ],
+   "by": "granada-play.ts opens a field by clicking it in 3D and steers by keys",
+   "missing": "Dragging and zooming by pointer are not scripted"
+  },
+  {
+   "id": "GR-07",
+   "game": "Granada",
+   "asks": "Build valid and invalid; placement and collision; nothing lost on refusal",
+   "covered": "partly",
+   "how": [
+    "rules"
+   ],
+   "by": "village.gtest.ts and economy.gtest.ts: a refused order returns the very same state",
+   "missing": "Buildings stand on fixed lots: the game has no free placement, so no collision exists to test"
+  },
+  {
+   "id": "GR-08",
+   "game": "Granada",
+   "asks": "Save, reload without fresh=1, compare the whole state",
+   "covered": "yes",
+   "how": [
+    "local",
+    "rules"
+   ],
+   "by": "screen.gtest.ts: a save comes back exactly and plays on to the same end; granada-play.ts reloads and resumes the same day",
+   "missing": ""
+  },
+  {
+   "id": "GR-09",
+   "game": "Granada",
+   "asks": "A winning year and a year lost by neglect",
+   "covered": "yes",
+   "how": [
+    "local",
+    "rules"
+   ],
+   "by": "village.gtest.ts holds both; granada-play.ts carries a whole campaign to its end through the page",
+   "missing": "The neglect year is played in the rules, not through the page"
+  },
+  {
+   "id": "GR-10",
+   "game": "Granada",
+   "asks": "Look at the houses, mosque, mill, bridge, walkers and both cart routes",
+   "covered": "no",
+   "how": [
+    "hand"
+   ],
+   "by": "valley.gtest.ts holds that each is built soundly; nothing checks that it can be seen",
+   "missing": "The reviewer could not make out the carts on two roads or the walkers' lean"
+  },
+  {
+   "id": "GR-11",
+   "game": "Granada",
+   "asks": "Four seasons, day and night, weather, water, sound",
+   "covered": "no",
+   "how": [
+    "hand"
+   ],
+   "by": "granada-shot.ts captures the four seasons for a person to look at",
+   "missing": "There is no day and night and no sound but the music"
+  },
+  {
+   "id": "GR-12",
+   "game": "Granada",
+   "asks": "A 60-minute soak and repeated restarts, watching for leaks",
+   "covered": "no",
+   "how": [
+    "none"
+   ],
+   "by": "",
+   "missing": "Never run"
+  },
+  {
+   "id": "GA-01",
+   "game": "The Golden Age",
+   "asks": "All three scenarios from the brief to a win or a loss",
+   "covered": "partly",
+   "how": [
+    "local",
+    "rules"
+   ],
+   "by": "golden-age-play.ts drives a whole campaign through the screen; golden-age.gtest.ts and screen.gtest.ts play every scenario to an end in the rules",
+   "missing": "The script's whole campaign through the screen is one scenario at a time, when asked"
+  },
+  {
+   "id": "GA-02",
+   "game": "The Golden Age",
+   "asks": "Valid and invalid canal and building, why a control is disabled, undo, resources intact",
+   "covered": "yes",
+   "how": [
+    "local",
+    "rules"
+   ],
+   "by": "golden-age-play.ts: a refused action changes nothing, undo works; golden-age.gtest.ts: step refuses whatever preview refuses",
+   "missing": ""
+  },
+  {
+   "id": "GA-03",
+   "game": "The Golden Age",
+   "asks": "The forecast against what the season then does",
+   "covered": "yes",
+   "how": [
+    "rules"
+   ],
+   "by": "screen.gtest.ts: previews the season exactly, without playing it",
+   "missing": "Held in the rules, not read off the page"
+  },
+  {
+   "id": "GA-04",
+   "game": "The Golden Age",
+   "asks": "A building that is not working says why, and works again once supplied",
+   "covered": "partly",
+   "how": [
+    "rules"
+   ],
+   "by": "screen.gtest.ts: marks the plots where something is not doing its job",
+   "missing": "The restoration is not played through the page"
+  },
+  {
+   "id": "GA-05",
+   "game": "The Golden Age",
+   "asks": "Research chosen, finished, unlocking; library, school, hospital effects",
+   "covered": "partly",
+   "how": [
+    "local",
+    "rules"
+   ],
+   "by": "golden-age.gtest.ts: research in order, nothing lost on a change; golden-age-play.ts picks research",
+   "missing": "The hospital's effect is not checked by a script"
+  },
+  {
+   "id": "GA-06",
+   "game": "The Golden Age",
+   "asks": "Chapter 3: what an endowment costs and saves; the four-endowment win",
+   "covered": "yes",
+   "how": [
+    "local",
+    "rules"
+   ],
+   "by": "screen.gtest.ts: endowed once, for five years of upkeep; no win without four; golden-age-play.ts endows through the page",
+   "missing": ""
+  },
+  {
+   "id": "GA-07",
+   "game": "The Golden Age",
+   "asks": "Chapter 3: a trading run that wins and a trade-heavy run that fails",
+   "covered": "yes",
+   "how": [
+    "rules"
+   ],
+   "by": "handoff.gtest.ts: one workshop, one market and the heavy tax alone ends rich and unwon on 200 seeds; the trading city that also builds wins",
+   "missing": "Held in the rules, not played through the page on the host"
+  },
+  {
+   "id": "GA-08",
+   "game": "The Golden Age",
+   "asks": "Save and reload the right scenario; scenarios kept apart",
+   "covered": "partly",
+   "how": [
+    "local",
+    "rules"
+   ],
+   "by": "golden-age-play.ts reloads; screen.gtest.ts: a save comes back as it was",
+   "missing": "That one scenario's save cannot be taken for another's is not asserted through the page"
+  },
+  {
+   "id": "GA-09",
+   "game": "The Golden Age",
+   "asks": "A museum link's label and where it leads",
+   "covered": "partly",
+   "how": [
+    "local",
+    "rules"
+   ],
+   "by": "screen.gtest.ts: links by record id with a label in every language; golden-age-play.ts reads the addresses",
+   "missing": "The museum page at the other end is not opened by a script"
+  },
+  {
+   "id": "GA-10",
+   "game": "The Golden Age",
+   "asks": "Keyboard, camera, the plan view; a 1280 by 800 window",
+   "covered": "partly",
+   "how": [
+    "local"
+   ],
+   "by": "golden-age-play.ts plays by keyboard alone and from the plan",
+   "missing": "No run at 1280 by 800"
+  },
+  {
+   "id": "GA-11",
+   "game": "The Golden Age",
+   "asks": "Building animation, people, boats, carts, weather, day and night, sound",
+   "covered": "no",
+   "how": [
+    "none"
+   ],
+   "by": "",
+   "missing": "Most of it does not exist in the game"
+  },
+  {
+   "id": "GA-12",
+   "game": "The Golden Age",
+   "asks": "Repeated changes of scenario and language; a four-hour soak",
+   "covered": "no",
+   "how": [
+    "none"
+   ],
+   "by": "",
+   "missing": "Never run"
+  },
+  {
+   "id": "AT-01",
+   "game": "Atlas",
+   "asks": "All five daily rounds",
+   "covered": "yes",
+   "how": [
+    "host"
+   ],
+   "by": "release-regression.ts",
+   "missing": ""
+  },
+  {
+   "id": "AT-02",
+   "game": "Atlas",
+   "asks": "Pins by mouse, by keyboard and Enter, by typed coordinates",
+   "covered": "yes",
+   "how": [
+    "host"
+   ],
+   "by": "release-regression.ts",
+   "missing": ""
+  },
+  {
+   "id": "AT-03",
+   "game": "Atlas",
+   "asks": "A region hint and a century estimate; their cost and the summary",
+   "covered": "yes",
+   "how": [
+    "host",
+    "rules"
+   ],
+   "by": "release-regression.ts takes both and finds them kept; atlas.gtest.ts: the hint is charged once, on that round only",
+   "missing": ""
+  },
+  {
+   "id": "AT-04",
+   "game": "Atlas",
+   "asks": "Each round's distance and score, and the total",
+   "covered": "yes",
+   "how": [
+    "host",
+    "rules"
+   ],
+   "by": "release-regression.ts: the total shown equals the sum of the five rounds; atlas.gtest.ts holds the scoring",
+   "missing": ""
+  },
+  {
+   "id": "AT-05",
+   "game": "Atlas",
+   "asks": "Every 'Battle of X' or 'Siege of X': the clue against the place revealed",
+   "covered": "yes",
+   "how": [
+    "rules"
+   ],
+   "by": "fairness.gtest.ts: no round in the whole pack is named for one place and scored at another",
+   "missing": "The whole pack is checked, not a sample on the page"
+  },
+  {
+   "id": "AT-06",
+   "game": "Atlas",
+   "asks": "Drag, rotate, zoom, pins at the edge, pin alignment, layers, overlays, timeline",
+   "covered": "partly",
+   "how": [
+    "local",
+    "rules"
+   ],
+   "by": "sphere.gtest.ts: a pin falls where the globe shows the place; atlas-play.ts turns and zooms",
+   "missing": "There are no layers, overlays or timeline in the game"
+  },
+  {
+   "id": "AT-07",
+   "game": "Atlas",
+   "asks": "Every round opens with the globe there; no reload needed",
+   "covered": "yes",
+   "how": [
+    "host"
+   ],
+   "by": "release-regression.ts plays the reviewer's own game with no reload across rounds 1 to 3; fairness.gtest.ts: a new round is the whole globe",
+   "missing": ""
+  },
+  {
+   "id": "AT-08",
+   "game": "Atlas",
+   "asks": "Reload in the middle and at the end; the daily game kept, practice apart",
+   "covered": "partly",
+   "how": [
+    "host",
+    "rules"
+   ],
+   "by": "release-regression.ts reloads in the middle and after the end; atlas.gtest.ts holds the save",
+   "missing": "That practice leaves the daily game alone is not checked through the page"
+  },
+  {
+   "id": "AT-09",
+   "game": "Atlas",
+   "asks": "At least 25 practice rounds across the categories",
+   "covered": "no",
+   "how": [
+    "none"
+   ],
+   "by": "atlas.gtest.ts deals practice games from a seed",
+   "missing": "No script plays practice; the game has no landmark category"
+  },
+  {
+   "id": "AT-10",
+   "game": "Atlas",
+   "asks": "100 round changes, 100 language changes, resizes, a lost graphics context, a memory soak",
+   "covered": "no",
+   "how": [
+    "none"
+   ],
+   "by": "",
+   "missing": "Never run"
+  },
+  {
+   "id": "XG-01",
+   "game": "All games",
+   "asks": "English in full; Arabic and Urdu right to left; the other four spot-checked",
+   "covered": "partly",
+   "how": [
+    "host",
+    "local"
+   ],
+   "by": "uat-check.ts opens every game in a chosen language; the play scripts take a language and check the direction",
+   "missing": "No native speaker has read any language"
+  },
+  {
+   "id": "XG-02",
+   "game": "All games",
+   "asks": "Tab, Shift+Tab, Enter, Space, Escape and the shortcuts; focus seen; no trap",
+   "covered": "no",
+   "how": [
+    "hand"
+   ],
+   "by": "",
+   "missing": "Never run as a whole traversal"
+  },
+  {
+   "id": "XG-03",
+   "game": "All games",
+   "asks": "1280 by 800 and the target size: nothing cut off, overlapping or out of reach",
+   "covered": "no",
+   "how": [
+    "none"
+   ],
+   "by": "",
+   "missing": "Never run"
+  },
+  {
+   "id": "XG-04",
+   "game": "All games",
+   "asks": "Mute and volume, music, ambience, effects, a tab in the background",
+   "covered": "partly",
+   "how": [
+    "host",
+    "rules"
+   ],
+   "by": "uat-check.ts: silent before a click, a track after one; music.gtest.ts holds the control",
+   "missing": "There is no ambience and there are no effects; a background tab is not tested"
+  },
+  {
+   "id": "XG-05",
+   "game": "All games",
+   "asks": "Old and damaged saves; static hosting; no network needed but museum links",
+   "covered": "yes",
+   "how": [
+    "local",
+    "rules"
+   ],
+   "by": "The save tests of each game; release-smoke.ts fails on any request to another origin; the offline package's own check",
+   "missing": ""
+  },
+  {
+   "id": "XG-06",
+   "game": "All games",
+   "asks": "The game beside its target image, frame by frame, signed off",
+   "covered": "no",
+   "how": [
+    "hand"
+   ],
+   "by": "",
+   "missing": "Needs the founder's eye; no frames have been set beside the targets"
+  }
+ ],
+ "added": [
+  {
+   "id": "HR-MARK",
+   "game": "All games",
+   "asks": "While a game's history is pending review, its own page says so wherever it states or links history",
+   "covered": "yes",
+   "how": [
+    "host",
+    "rules"
+   ],
+   "by": "release-regression.ts reads the words off Granada's brief, The Golden Age's brief and Atlas's reveal in English; review-mark.gtest.ts holds them in all seven languages",
+   "missing": "Read on the host in English only",
+   "why": "The founder's rule of 26 November 2026. It is the museum's own scenario, not one of the reviewer's"
+  },
+  {
+   "id": "GR-HOST",
+   "game": "Granada",
+   "asks": "The systems a release carries work on the host itself, under its own headers: the contract, the oil's road, a load on the road and its arrival, a building placed and refused, the region, the warnings, the decision, Photo Mode's saved picture, the second year, an empty console",
+   "covered": "yes",
+   "how": [
+    "host"
+   ],
+   "by": "granada-uat.ts, in a fresh browser context; a system the live release does not have is reported as absent, not as a failure",
+   "missing": "Chrome only; one machine",
+   "why": "Added 26 November 2026: the scripted play of these systems runs against the developer's own server, and the host's content-security policy is stricter than that server's"
+  }
+ ]
+}

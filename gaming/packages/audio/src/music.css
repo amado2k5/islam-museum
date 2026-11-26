@@ -1,0 +1,17 @@
+/* The music control, shared by every game. It takes its colours from the page (currentColor and the game's own
+   custom properties where they exist), so it sits in a navy panel or a teal one without its own palette. */
+.music { position: relative; font-size: 0.9rem; }
+.music > summary { display: inline-flex; align-items: center; gap: 6px; padding: 7px 12px; border-radius: 9px; border: 1px solid var(--line, rgba(255, 255, 255, 0.2)); background: rgba(255, 255, 255, 0.06); cursor: pointer; list-style: none; white-space: nowrap; user-select: none; }
+.music > summary::-webkit-details-marker { display: none; }
+.music > summary:hover { background: rgba(255, 255, 255, 0.13); }
+.music > summary:focus-visible { outline: 3px solid var(--accent, #ffb21a); outline-offset: 2px; }
+.music.on > summary { border-color: var(--accent, #ffb21a); color: var(--accent, #ffb21a); }
+.music-body { position: absolute; z-index: 15; inset-block-start: calc(100% + 8px); inset-inline-end: 0; width: min(320px, calc(100vw - 24px)); padding: 12px 14px; border-radius: 12px; border: 1px solid var(--line, rgba(255, 255, 255, 0.2)); background: var(--panel-solid, #10202a); box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5); display: grid; gap: 10px; }
+.music-row { display: flex; gap: 8px; }
+.music-toggle { flex: 1; justify-content: center; }
+.music-next { width: 40px; padding: 0; justify-content: center; }
+.music-volume { display: grid; gap: 4px; color: var(--muted, #b3ab98); font-size: 0.82rem; }
+.music-volume input { width: 100%; accent-color: var(--accent, #ffb21a); direction: ltr; }
+.music-now { margin: 0; }
+.music-credit { margin: 0; color: var(--muted, #b3ab98); font-size: 0.8rem; line-height: 1.45; }
+.music-credit a { color: inherit; }

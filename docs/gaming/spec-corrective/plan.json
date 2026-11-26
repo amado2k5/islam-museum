@@ -1,0 +1,617 @@
+{
+ "format": "im.gaming.corrective-plan",
+ "version": 1,
+ "source": "docs/gaming/spec-corrective/corrective-mandate-2026-11-25.md",
+ "checked": "2026-11-25",
+ "baseline": {
+  "mandateBaseline": "UAT release 20261125-7c31b7631c6; repository at 7c31b7631c6",
+  "uatWhenChecked": "20261125-7c31b7631c6 (commit 7c31b7631c6, built clean, 50 files, 3,503,348 bytes, three games), read from /_channel and /release.json",
+  "mainWhenChecked": "3733031ddae: one games change ahead of UAT (the village, mosque, mill and bridge of pull request 8266)",
+  "machine": "Apple M4 Max; Chrome 158.0.8127.38 and Edge 157.0.4341.60 installed; Blender 5.3.0 installed on 25 November with the founder's word; Safari present and not driven",
+  "evidence": "docs/gaming/evidence/corrective/baseline/"
+ },
+ "statusValues": [
+  "not-started",
+  "in-progress",
+  "waiting-on-founder",
+  "done"
+ ],
+ "items": [
+  {
+   "id": 0,
+   "title": "Establish the exact baseline",
+   "priority": "P0",
+   "size": "S",
+   "gates": [],
+   "checked": "The UAT pointer and release file were read. The five addresses of the review brief were opened on UAT in seven languages in Chrome 158, each in a fresh context, and in English in Edge 157: in all 40 the game started, drew in 3D, played its music after a click and logged no console error (evidence/corrective/baseline/). This file and the traceability page are the reconciled table. The mandate's findings checked so far against the repository hold: the Abu Klea round (games/atlas.md), the merchant's 100 in 100 (games/golden-age.md), the lab's failure in Edge (the ledger).",
+   "movedSince": "Nothing of the baseline itself.",
+   "status": "done",
+   "next": "Repeat the UAT check after every release. Not in the baseline, and still owed: a trace or video per address, touch, and any second machine.",
+   "founder": null
+  },
+  {
+   "id": 1,
+   "title": "Granada: production-quality art",
+   "priority": "P0",
+   "size": "L",
+   "gates": [
+    "GRA12",
+    "GRA13",
+    "R09",
+    "R10"
+   ],
+   "checked": "True at the baseline: every shape was generated at load by code, with no authored asset, no rigged figure, no reflection.",
+   "movedSince": "Pull request 8266 (on UAT since release 20261125-484ead40122): tiled houses, a mosque with its minaret, a mill whose wheel turns with the water, a three-arched bridge, ox-carts, people who lean as they walk, all generated at load. Then the pipeline itself: the founder allowed Blender on 25 November; gaming/art/ now makes assets from scripts, with painted texture sets (colour, normal, roughness), bevelled meshes in metres, a glTF export, a lit preview and a manifest of checksums (G-0012). One hero asset exists, the watermill (16,172 triangles). The valley loads it and sets it down with its wheel in the channel, keeping its code-made mill for when the model is absent; the publisher and its workflow can now carry models to a host as they carry the music, each file checked against the manifest. The mill's 17 files are on the UAT host, read back identical, and since release 20261125-e2930d63426 the game on UAT loads it.",
+   "status": "in-progress",
+   "next": "The other four previews before any mass generation: the fortified hill town's gate and wall kit, a courtyard house, the arcaded market, the bridge.",
+   "founder": "Who reviews the art, since the author cannot pass GRA12 on his own eye."
+  },
+  {
+   "id": 2,
+   "title": "Granada: the real economy",
+   "priority": "P0",
+   "size": "L",
+   "gates": [
+    "GRA03",
+    "GRA04",
+    "GRA05",
+    "GRA06",
+    "GRA10"
+   ],
+   "checked": "True: one market at fixed prices, one warehouse, nothing travels, no processing in the played valley. The kernel has the ledger, finite purses, reservations, idempotent commands and one recipe, with the package's figures kept as fixtures.",
+   "movedSince": "26 November 2026: the played valley now has a second market (the port of Málaga) with its own prices and purse; prices in both markets that move overnight with stock, bounded so that no round trip and no carrying between them makes money (tested); olives pressed into oil; contracts that reserve, pay as goods arrive and fail once; and goods that are three days on the road, in the ledger's books while they travel, sold or delivered on the morning they arrive. A market's purse comes back as it sells on.",
+   "status": "in-progress",
+   "next": "One warehouse and one port still; no silk or ceramics; carts are not counted out and back; a load's state on the road is its quantity only. None of its gates is claimed: they need people and machines.",
+   "founder": null
+  },
+  {
+   "id": 3,
+   "title": "Granada: challenge and progression",
+   "priority": "P1",
+   "size": "L",
+   "gates": [
+    "GRA02",
+    "GRA09",
+    "GRA10",
+    "GRA11"
+   ],
+   "checked": "True: three of four scripted ways of playing win at least 95 campaigns in 100; one act of three; no sandbox, daily game or undo.",
+   "movedSince": "26 November 2026: three years can be played in a row, each with five tasks the rules count, the valley carried from one to the next; a decision in each year with a price on each side; a journal; warnings read from the rules run forward. Scripted stewards over 1,000 years of weather: doing nothing never wins any year; the second and third years can each be won in more than one way; the first is too forgiving and the second has two ways that reach one win in five where the design asks for three.",
+   "status": "in-progress",
+   "next": "Balance with people playing; the pace of the campaign (three years are about eight and a half minutes of running clock, far from the lengths the founder has set); more years and systems.",
+   "founder": null
+  },
+  {
+   "id": 4,
+   "title": "Granada: region, construction, diplomacy, protection, contextual interface",
+   "priority": "P1",
+   "size": "L",
+   "gates": [
+    "GRA07",
+    "GRA08",
+    "GRA14",
+    "GRA15"
+   ],
+   "checked": "True: two kinds of building, no staged construction, no diplomacy or defence, one view of the interface. The geography tests hold the ports apart from Granada.",
+   "movedSince": "26 November 2026: buildings placed on the land with a preview that refuses bad ground by name; a region diagram at the museum's coordinates with three layers of the game's own state; buildings that can be chosen, each with a card; the page arranged round the 3D valley. Diplomacy and protection are deliberately not started: the founder's words are that conflict must remain historically reviewed, and no reviewer is named.",
+   "status": "in-progress",
+   "next": "Diplomacy and protection wait on named reviewers. Castle pieces, industry and culture in the catalogue; a second port; a drawn regional map (needs approved map data).",
+   "founder": null
+  },
+  {
+   "id": 5,
+   "title": "The Golden Age: economic scaling at its root",
+   "priority": "P0",
+   "size": "L",
+   "gates": [
+    "R04",
+    "R14"
+   ],
+   "checked": "True: in chapter 3 the merchant wins 1,000 of 1,000 and ends near 1,500 coins; a test asserts it on purpose. Income grows with households and costs do not.",
+   "movedSince": "Nothing.",
+   "status": "not-started",
+   "next": "Per-season cashflow in the simulation lab (tax, trade, upkeep, building, endowment), committed as the before table; then costs and demand that scale, with the same seeds and a held-out set.",
+   "founder": null
+  },
+  {
+   "id": 6,
+   "title": "The Golden Age: the whole game",
+   "priority": "P1",
+   "size": "L",
+   "gates": [
+    "R04",
+    "R09",
+    "R10"
+   ],
+   "checked": "True: an 8 by 6 grid, nine kinds of building, three separate chapter starts, no sandbox or daily scenario.",
+   "movedSince": "Nothing.",
+   "status": "not-started",
+   "next": "After item 5.",
+   "founder": null
+  },
+  {
+   "id": 7,
+   "title": "Atlas: unfair rounds and images",
+   "priority": "P0",
+   "size": "L",
+   "gates": [
+    "R06",
+    "R07"
+   ],
+   "checked": "True: the state page records a battle placed at the nearest city and scored against it. A first count on the pack as built: of 1,174 event rounds, 531 are named for a place ('Battle of X', 'Siege of X'), and in 133 of those the name is not the name of the place the round is scored at. Some of the 133 are another name for the same place (Adrianople and Edirne, Bougie and Bejaia); some are a different place (Abu Klea scored at Khartoum, Dandanqan at Merv, Azaz at Aleppo). They have not been told apart yet, and no coordinate has been checked against a source. Four of 895 museum pictures qualify for an image round; eight more wait on a licence decision.",
+   "movedSince": "The unfair rounds are out of play: an event named for a place is asked only if one of its seven labels gives the name of the place it is scored at. 263 events are held back and listed for the museum's data lane (gaming/games/atlas/data/review.v1.json); the pack was rebuilt (digest 60ba50cd200c), the year still has 365 days with no round twice, and the share of battles is what it was. It is on UAT since release 20261125-e2930d63426. The globe is a lit sphere. Nothing of the image rounds is built.",
+   "status": "in-progress",
+   "next": "The image round: the renderer, the credit shown before the guess and the source after it, a picture that fails to load, with the four pictures that qualify as a small practice pool and never as a daily feature; then the list of pictures worth acquiring.",
+   "founder": "Whether the eight held Victoria and Albert images may be used (open since G-0008)."
+  },
+  {
+   "id": 8,
+   "title": "Atlas: the globe and the other modes",
+   "priority": "P1",
+   "size": "L",
+   "gates": [
+    "R04",
+    "R09",
+    "R10"
+   ],
+   "checked": "True at the baseline as to terrain, rivers, historical maps, perspective and device recovery.",
+   "movedSince": "The lit sphere of pull request 8264 is the baseline. An outside reviewer playing UAT found the globe a blank beige screen after a round transition; it was the view left zoomed in on a landlocked answer, not the renderer. Every round now begins from the whole globe, the net of lines shows over land, and the play script keeps the case.",
+   "status": "in-progress",
+   "next": "Elevation whose licence is verified before it is used; then regional and era practice and the archive of past days.",
+   "founder": null
+  },
+  {
+   "id": 9,
+   "title": "Browser quality and the save contract",
+   "priority": "P1",
+   "size": "L",
+   "gates": [
+    "R05",
+    "R08",
+    "R09",
+    "GRA13",
+    "GRA16",
+    "GRA23"
+   ],
+   "checked": "True: one machine and one browser measured; no device-loss handling, no soak; saves are in localStorage, each game with its own checks.",
+   "movedSince": "Edge 157 opens all three games on UAT in 3D with no console error (the baseline of piece 0). What had failed before was the graphics lab's benchmark under automation in Edge, which is still unexplained.",
+   "status": "not-started",
+   "next": "Recovery from a lost graphics device with a visible fall back to the plan; then the versioned save envelope with migration of today's saves.",
+   "founder": null
+  },
+  {
+   "id": 10,
+   "title": "Platform and museum integration",
+   "priority": "P1",
+   "size": "L",
+   "gates": [
+    "R01",
+    "R02",
+    "R03",
+    "R16",
+    "GRA20",
+    "GRA21",
+    "GRA22"
+   ],
+   "checked": "True: the registry has three entries; nothing of the games is on the museum's pages; no rollback has been made on UAT; production is not deployed.",
+   "movedSince": "Nothing.",
+   "status": "not-started",
+   "next": "The eleven entries in the catalogue with their true states, only the built ones leading anywhere; then the Play entry and page on a branch of the site, which changes every page and is labelled so.",
+   "founder": "A rollback on UAT changes what he is looking at: his word before it is made. Production is his."
+  },
+  {
+   "id": 11,
+   "title": "Public SDK and modding",
+   "priority": "P1",
+   "size": "L",
+   "gates": [
+    "R11",
+    "R12",
+    "R13",
+    "R17",
+    "GRA17",
+    "GRA18",
+    "GRA19"
+   ],
+   "checked": "True: untouched. The threat model exists; no pack loader, no validator, no sample.",
+   "movedSince": "Nothing.",
+   "status": "not-started",
+   "next": "The data-only pack: manifest, schema, hashes, limits, a validator on the command line, and a sample pack from outside the games' own tree. No programmable extension is enabled.",
+   "founder": null
+  },
+  {
+   "id": 12,
+   "title": "Independent playtesting; no self-certification",
+   "priority": "P0",
+   "size": "M",
+   "gates": [
+    "R10",
+    "R14",
+    "GRA25"
+   ],
+   "checked": "True: every playthrough of every game is the author's script. No gate that needs a person has been passed or will be on the author's word.",
+   "movedSince": "A page for an outside reviewer exists (external-review.md); the reviewer it was given to could not reach UAT. The protocol for a person's playtest is written (playtest-protocol.md): what is said, what is timed, the fault form, and that no name is kept.",
+   "status": "waiting-on-founder",
+   "next": "Hold the first round on Granada once the testers are named, and file its counts.",
+   "founder": "Five to eight people who have not seen the games, and his approval of how they are asked."
+  },
+  {
+   "id": 13,
+   "title": "The eight games not built, and distribution",
+   "priority": "P1",
+   "size": "L",
+   "gates": [
+    "R04",
+    "R15",
+    "R16",
+    "R17"
+   ],
+   "checked": "True: Architects of History, ChronoQuest, Dynasty, The House of Wisdom, The Knowledge Web, Lost Manuscripts, Relics and The Silk Road have design documents and no code.",
+   "movedSince": "Nothing. On 25 November the founder chose Granada first over starting them.",
+   "status": "not-started",
+   "next": "In the mandate's order once the shared contracts are stable: Lost Manuscripts and The Knowledge Web first.",
+   "founder": null
+  }
+ ],
+ "handoff": {
+  "source": "docs/gaming/spec-production/ (an outside AI reviewer's play of UAT release 20261125-e2930d63426, with twelve prompts)",
+  "received": "2026-11-25",
+  "prompts": [
+   {
+    "id": 1,
+    "title": "Cross-game production foundation",
+    "priority": "P0",
+    "belongsTo": [
+     9,
+     10
+    ],
+    "status": "not-started",
+    "standing": "The games keep their 'prototype' labels, now held by a test until the founder approves a game's evidence. No shared shell, no lifecycle ownership, no recoverable error state for a failed 3D start beyond falling back to the plan (production plan, packages F1 to F4)."
+   },
+   {
+    "id": 2,
+    "title": "Granada: the target image and an authored kingdom",
+    "priority": "P1",
+    "belongsTo": [
+     1,
+     4
+    ],
+    "status": "in-progress",
+    "standing": "One authored building (the mill) from the Blender pipeline, loaded in the valley and on UAT; the village, mosque and bridge are still generated at load. No palace on its hill, no construction site, no regional links, none of the target's panels."
+   },
+   {
+    "id": 3,
+    "title": "Granada: a multi-hour campaign and a living simulation",
+    "priority": "P1",
+    "belongsTo": [
+     2,
+     3,
+     4
+    ],
+    "status": "not-started",
+    "standing": "One year of 96 days, about ten minutes. The reviewer won it in nine and lost it by neglect in three."
+   },
+   {
+    "id": 4,
+    "title": "The Golden Age: the target city and chapters that differ",
+    "priority": "P1",
+    "belongsTo": [
+     6
+    ],
+    "status": "not-started",
+    "standing": "An 8 by 6 district, nine kinds of building; the three chapters differ in start and goal and look alike."
+   },
+   {
+    "id": 5,
+    "title": "The Golden Age: economy, trade, endowments, balance, state",
+    "priority": "P1",
+    "belongsTo": [
+     5
+    ],
+    "status": "not-started",
+    "standing": "The reviewer's two runs of chapter 3 are kept as rules tests (trade and heavy tax alone ends rich and unwon on 200 seeds; the trading city that also builds wins). The scripted merchant still wins 1,000 in 1,000, which is the open finding; nothing of the economy has been changed."
+   },
+   {
+    "id": 6,
+    "title": "Atlas: the target globe, the blank-render defect, the full challenge",
+    "priority": "P1",
+    "belongsTo": [
+     7,
+     8
+    ],
+    "status": "in-progress",
+    "standing": "The defect is fixed and kept by the play script (pull request 8276). No terrain, clouds, night lights, layers, timeline, image clue, practice sets or hint inventory."
+   },
+   {
+    "id": 7,
+    "title": "Time, seasons, weather, life, physics and sound across the games",
+    "priority": "P1",
+    "belongsTo": [
+     1,
+     4,
+     6,
+     8
+    ],
+    "status": "not-started",
+    "standing": "Granada has four seasons of light and foliage, rain, a wheel that turns with the water, carts and walkers the reviewer could not make out. No day and night, no wind, no sound but the music."
+   },
+   {
+    "id": 8,
+    "title": "Interface fidelity, onboarding, access, right-to-left, small windows",
+    "priority": "P1",
+    "belongsTo": [
+     4,
+     9
+    ],
+    "status": "not-started",
+    "standing": "Keys and labels exist and were confirmed. No full keyboard traversal test, no VoiceOver test, no 1280 by 800 test, no native reading of any language."
+   },
+   {
+    "id": 9,
+    "title": "Performance, memory, renderer and crash prevention",
+    "priority": "P0",
+    "belongsTo": [
+     9
+    ],
+    "status": "not-started",
+    "standing": "Frame times on one machine. No heap, no soak, no device-loss handling, no lifecycle stress."
+   },
+   {
+    "id": 10,
+    "title": "Historical scenarios, missions, events and replay",
+    "priority": "P2",
+    "belongsTo": [
+     3,
+     6,
+     8,
+     13
+    ],
+    "status": "not-started",
+    "standing": "Nothing beyond the scenarios that exist. Every historical statement would need a museum record or an approved source."
+   },
+   {
+    "id": 11,
+    "title": "A permanent release regression suite",
+    "priority": "P0",
+    "belongsTo": [
+     0,
+     12
+    ],
+    "status": "in-progress",
+    "standing": "All 43 scenarios of the reviewer's matrix are listed with what covers each (16 covered, 17 partly, 10 not at all); 11 are played on the deployed host after every release by release-regression.ts and the UAT check, and the two chapter 3 trade runs are rules tests. Not yet: scripts for the 27 not fully covered, a checklist with a reviewer per case, the frames beside the targets."
+   },
+   {
+    "id": 12,
+    "title": "Production release acceptance and handoff",
+    "priority": "P1",
+    "belongsTo": [
+     10,
+     12
+    ],
+    "status": "not-started",
+    "standing": "No game is near it. Nothing is to be called final. The founder's gates for a production candidate are recorded (decisions D4, D9, D10)."
+   }
+  ],
+  "answered": {
+   "on": "2026-11-26",
+   "record": "docs/gaming/spec-production/owner-decisions-2026-11-26.md",
+   "questions": [
+    "Are the three target images binding for composition and scope, with adaptations for small windows and access allowed?",
+    "Campaign lengths: tutorials of 15 to 30 minutes, scenarios of 30 to 60, one campaign of three hours or more in each simulation game; Atlas five rounds a day with unlimited practice?",
+    "The historical scope and who reviews it (disasters, diplomacy, conflict, disease, famine, unrest, institutions, dress, buildings, dates, maps).",
+    "The reference machines, browsers and graphics presets the performance gates are held to.",
+    "Whether Granada's first-person and photo modes are needed for the first production release.",
+    "Raised by the developer, about the target images: the Atlas image shows an account icon and the word 'Compete' (the games have no accounts and compare no scores, and the reviewer's own prompts say to add none); it offers 'Political Borders' (Atlas leaves modern borders out on purpose); and the Golden Age image has a 'Military' category (the game has none and its design asks for none). None is built until the founder says."
+   ],
+   "second": {
+    "on": "2026-11-26",
+    "record": "docs/gaming/spec-production/owner-decisions-2026-11-26-b.md",
+    "answers": "O1 to O11"
+   }
+  },
+  "decisions": [
+   {
+    "id": "D1",
+    "on": "The three target images",
+    "decided": "Binding as north-star specifications for composition and hierarchy, density and authored detail, menus and panels, visible gameplay systems, strategic scope, activity and atmosphere, and quality. Not pixel overlays. Adaptations only for responsive layout down to 1280 by 800, keyboard and access, Arabic and Urdu right to left, performance on supported machines, historical accuracy, and documented product decisions. Every visible system is implemented, replaced by an approved equivalent, or an owner-approved exception; no control as decoration.",
+    "where": "spec-production/target-inventory.md: 58 systems listed, each with what exists today"
+   },
+   {
+    "id": "D2",
+    "on": "Lengths of play",
+    "decided": "Granada: a prologue of 15 to 30 minutes, scenarios of 30 to 60, a main campaign of at least three hours on a first success, an optional longer one, several viable strategies. The Golden Age: onboarding of 15 to 30, chapters of 30 to 60, a Baghdad campaign of at least three hours. Atlas: a daily game of about 5 to 15 minutes, themed challenges of 15 to 30, practice or expedition sessions of 30 to 60. Targets of content and pace, never of waiting or grind; people, not scripts, confirm them.",
+    "where": "production plan, packages G6, G10, G11, G13"
+   },
+   {
+    "id": "D3",
+    "on": "Historical review",
+    "decided": "An AI never approves its own historical claims. Author, then a named human reviewer with the expertise, then the museum's editor, then the founder for scope. Until reviewers are named: only what the museum's records already say; nothing unsupported as fact; fiction labelled; disputed and approximate history marked; disease, famine, conflict and unrest shown with mitigation and recovery.",
+    "where": "historical-review/ledger.md: 24 entries, all pending"
+   },
+   {
+    "id": "D4",
+    "on": "Machines, browsers and performance",
+    "decided": "Minimum machines: an Apple M1 MacBook Air with 8 GB, and a Windows 11 laptop with a Core i5-1135G7 or its like, 8 GB, integrated graphics. 1280 by 800 at least, 1920 by 1080 the target, pixel ratios 1 and 2. Chrome and Edge current and previous, Safari current and previous, Firefox current. No phones or tablets for the first release, and a respectful message there. 60 frames a second aimed at, never staying under 30, no slowdown over a long session, a 60-minute repeated-action profile, a four-hour soak, memory level after warm-up, steady counts of every resource, safe in a background tab, three presets.",
+    "where": "production plan, packages F1, F2, F3, Q2, Q3. Nothing has been measured on either minimum machine"
+   },
+   {
+    "id": "D5",
+    "on": "Granada's Photo Mode and first-person",
+    "decided": "Both belong to the finished game. Photo Mode is required for the first production release; first-person before Granada is called complete, and may follow. No disabled or placeholder First-Person button.",
+    "where": "production plan, packages F7 and F8"
+   },
+   {
+    "id": "D6",
+    "on": "Atlas: the account icon and 'Compete'",
+    "decided": "No accounts, sign-in, global leaderboards or server-side comparison of scores. The icon becomes a local profile with settings and accessibility; 'Compete' becomes Challenge: personal bests on the device, practice and themed challenges, a result that can be copied, pass-and-play on one device. Nothing implies scores are compared globally.",
+    "where": "production plan, package G13"
+   },
+   {
+    "id": "D7",
+    "on": "Atlas: political borders",
+    "decided": "No modern borders in an unanswered daily round where they give the answer away. Terrain, rivers and mountains as ordinary layers; historical boundaries only where reviewed, tied to the period, labelled approximate or disputed; modern borders after the reveal; an optional borders hint with a stated cost.",
+    "where": "production plan, package G12"
+   },
+   {
+    "id": "D8",
+    "on": "The Golden Age: the 'Military' category",
+    "decided": "Not a game of conquest. The category becomes Civic Resilience: public safety, fire, flood, walls and gates where relevant, protection of works, emergency food and water, disease response, the safety of roads and caravans, negotiated security. A chapter with a siege is told through resilience, supply, diplomacy and welfare, with no combat units unless he approves a design. Granada keeps defence and border readiness, strategic and historically reviewed.",
+    "where": "production plan, packages G8 and G4"
+   },
+   {
+    "id": "D9",
+    "on": "People who play",
+    "decided": "The AI's play is regression evidence and passes no gate of usability, enjoyment or return. Before production: 5 to 8 independent people for each game, then 12 to 20 across the three, at least three of them readers of Arabic or Urdu, some visitors, some strategy players, some new to such games, some by keyboard alone, some long sessions. Nine things measured. No claim that people play for hours without them.",
+    "where": "playtest-protocol.md, brought up to these numbers; production plan, package Q4"
+   },
+   {
+    "id": "D10",
+    "on": "The labels",
+    "decided": "All three games stay marked as prototypes until their binding requirements and production gates pass. 'Final' is never reached by removing a label.",
+    "where": "a test in the games' suite fails if a game's prototype label is taken away while its status says prototype"
+   },
+   {
+    "id": "D11",
+    "on": "Regression",
+    "decided": "The scenarios of the reviewer's handoff run on every release for as long as the things they test remain.",
+    "where": "regression/matrix.json; release-and-deploy.md, step 5"
+   },
+   {
+    "id": "D12",
+    "on": "Historical reviewers and the museum's editor (O1)",
+    "decided": "None is appointed. A published museum record is existing source material that needs review, not human-approved fact. No new historical claim is published as verified; affected content is marked 'historical review pending'; sourced text, uncertain claims, reconstructions and fiction are told apart. Engineering, fictional mechanics and non-historical art prototyping go on; historical approval of production is blocked. Six briefs to be prepared. The founder approves the product and is never recorded as the historical authority.",
+    "where": "historical-review/ledger.md (24 entries, each 'historical review pending', in the four kinds); historical-review/reviewer-briefs.md; and the same words on each game's own page beside its note on history, in seven languages, held by a test"
+   },
+   {
+    "id": "D13",
+    "on": "The minimum machines and who runs them (O2)",
+    "decided": "No operator has either machine, and the M4 Max cannot stand in. An outside dependency. To prepare: a reproducible benchmark build, a 60-minute script, a four-hour soak, counters, instructions for the machine's facts, a results template, a package a non-developer can run safely. No gate is claimed until a named person runs the whole suite on the physical machine.",
+    "where": "qa/hardware-test-package.md: the outline and the results template. The package itself is not built (plan packages F1 to F3, Q7)"
+   },
+   {
+    "id": "D14",
+    "on": "Proof frames (O3)",
+    "decided": "Approved: one real-time, interactive proof frame for each game before assets are made in number, taken from the running browser game and never a render, concept art, composite or still. Twelve things each must show. Acceptance is of the direction of quality, not of the game. Granada's first, then The Golden Age's, then Atlas's.",
+    "where": "spec-production/proof-frames.md: three briefs and a checklist of 14 lines; none started"
+   },
+   {
+    "id": "D15",
+    "on": "People who test (O4)",
+    "decided": "None is recruited. To prepare: screener, consent, build, facilitator's guide, tasks, questionnaires, evidence template. Targets stand (5 to 8 a game; 12 to 20 in beta; three or more native readers of Arabic or Urdu; strategy players and not; museum visitors; people new to islam.museum; keyboard and accessibility where possible). No developer who knows the solution. No gate of enjoyment, difficulty, understanding or hours passes without human evidence.",
+    "where": "playtests/study-plan.md and evidence.template.json"
+   },
+   {
+    "id": "D16",
+    "on": "Atlas's pictures (O5)",
+    "decided": "The target is 52 qualified pictures, and the threshold is not lowered to reach it. Ten things each picture needs. The four that qualify may be used once their metadata is complete. If 52 cannot be found responsibly, the schedule waits or thins.",
+    "where": "games/atlas-pictures-and-datasets.md: 4 candidates, 0 complete, 48 to find"
+   },
+   {
+    "id": "D17",
+    "on": "Atlas's globe data (O6)",
+    "decided": "Conditionally approved, each set subject to a written licence and technical review against eight conditions. Night lights are a picture of the present, not historical evidence. The table comes back to him before anything is imported.",
+    "where": "games/atlas-pictures-and-datasets.md: Natural Earth and ETOPO 2022 verified and proposed; NASA's media guidelines read, its three sets not proposed (cloud is drawn by the game; city lights can give an answer away). Nothing imported; his approval is asked"
+   },
+   {
+    "id": "D18",
+    "on": "The order of work (O7)",
+    "decided": "Production one game at a time: Granada to its gates, then The Golden Age, then Atlas. Beside Granada, in preparation only: the other two proof frames, the search for reviewers, Atlas's pictures and data licences, preparation for testers, and what all three share (access, languages, performance, lifecycle).",
+    "where": "spec-production/production-plan.md, the order of work and the critical path"
+   },
+   {
+    "id": "D19",
+    "on": "Granada's defence (O8)",
+    "decided": "Approved as walls, readiness, supply and diplomacy, with no tactical battle on screen: walls, gates and towers and their upkeep; readiness; reserves of food and water; supply routes; warnings from the border; tribute, negotiation and alliance; the people's confidence; consequences off screen; repair and recovery. No combat units, battlefield control or graphic violence without his separate approval.",
+    "where": "production plan, package G4"
+   },
+   {
+    "id": "D20",
+    "on": "The Golden Age and Baghdad (O9)",
+    "decided": "It stays explicitly a fictional district inspired by historical Baghdad until reviewers are appointed, and is never called a precise reconstruction without evidence. Preferred words: 'A fictional city simulation inspired by records of Abbasid Baghdad and other historical institutions of the Islamic world.' Every real institution, person, event, date or technical claim links to its reviewed museum record; the simulation's values and outcomes stay plainly fictional.",
+    "where": "His sentence is the game's own description of itself, in seven languages (the help text), held by a test; ledger entry HR-GA-01; production plan, packages G10 and H3"
+   },
+   {
+    "id": "D21",
+    "on": "A rollback drill on UAT (O10)",
+    "decided": "Approved once, for UAT only, by ten requirements.",
+    "where": "Done on 26 November 2026: release-and-deploy.md, 'The drill of 26 November 2026'. The approval is used; another needs his word"
+   },
+   {
+    "id": "D22",
+    "on": "Production and the labels (O11)",
+    "decided": "Deploying to production and removing a prototype label each need his separate, explicit, written approval, and neither follows from a pull request, a UAT approval or a finished milestone. The developer may prepare pull requests, deploy approved UAT candidates, produce release artifacts, run permitted tests, and prepare the production checklist and rollback plan.",
+    "where": "spec-production/owner-register.md, 'What still needs the founder's own approval'"
+   },
+   {
+    "id": "D23",
+    "on": "Granada's art direction (the proof frame's answer)",
+    "decided": "Neither Set A (on main) nor Set B (pull request 8312) is accepted as production art. Set A stays as the running baseline. Pull request 8312 is not merged as it stands and is kept as experimental research: its reproducible export, validation and LOD records may be carried over, its geometry is not a template. A new Candidate C is built from main as one complete proof frame in the running game, by a hybrid pipeline: scripts for layout, export and checks; hero buildings and key vegetation hand-authored or artist-reviewed; licensed assets may be proposed in a table, nothing bought. A stop rule: if the first palace, street cluster and estate still read as improved boxes after one revision, the method stops and a proposal for an artist or licensed models is brought to him. No asset is made in number until Candidate C passes all fourteen lines and he accepts it in words.",
+    "where": "spec-production/art-candidates-granada.md: Set B classified file by file; Candidate C not begun when recorded. No artist is engaged, so 'artist-reviewed' is unmet"
+   }
+  ],
+  "dependencies": [
+   {
+    "id": "P1",
+    "who": "Six reviewers of history, one for each brief (R1 to R6)",
+    "named": "none",
+    "blocks": "Every entry of the historical-review ledger; historical approval of any production release",
+    "ready": "The six briefs and the ledger"
+   },
+   {
+    "id": "P2",
+    "who": "The museum's editor, for wording, uncertainty and tone, in Arabic and Urdu first",
+    "named": "none",
+    "blocks": "The editorial step after each reviewer's decision; gate R14's native reading",
+    "ready": "Brief R6; 556 strings in each language"
+   },
+   {
+    "id": "P3",
+    "who": "An operator with an Apple M1 MacBook Air, 8 GB",
+    "named": "none",
+    "blocks": "The performance gates on the minimum Mac, in Chrome, Edge, Safari and Firefox",
+    "ready": "The outline and the results template; the package is not built"
+   },
+   {
+    "id": "P4",
+    "who": "An operator with a Windows 11 laptop, Core i5-1135G7 or its like, 8 GB, integrated graphics",
+    "named": "none",
+    "blocks": "The performance gates on the minimum Windows machine, in Chrome, Edge and Firefox",
+    "ready": "The same"
+   },
+   {
+    "id": "P5",
+    "who": "Testers: 5 to 8 for each game, then 12 to 20, three or more of them native readers of Arabic or Urdu; or a coordinator who finds them, and a facilitator who is not a developer of the games",
+    "named": "none; none recruited",
+    "blocks": "Gates R10, R14 and GRA25; every length of play, and every claim about clarity, difficulty or enjoyment",
+    "ready": "The protocol, the study plan, the screener, the consent words, the tasks, the questionnaire, the evidence template"
+   },
+   {
+    "id": "P6",
+    "who": "The founder",
+    "named": "the founder",
+    "blocks": "Acceptance of each proof frame; approval of the globe's data sets; every item under 'What still needs the founder's own approval'",
+    "ready": "The briefs and the table"
+   }
+  ],
+  "approvalsRequired": [
+   "Deploying any game to production, and carrying its music or models to production.",
+   "Pointing production traffic at the games, including a Play entry or page on the museum's site.",
+   "Removing a prototype or not-finished label from a game. This is a separate approval from deploying.",
+   "Announcing that a game is ready for production, or marking a game final.",
+   "Waiving a gate that failed, or counting a gate as passed on evidence other than the kind it asks for.",
+   "Each release to UAT. It is asked for each time, as until now, unless he says candidates built from main are approved as a class.",
+   "Any further rollback on UAT: one drill was approved and has been used. Any rollback in production.",
+   "Accepting a proof frame, and making assets in number after it.",
+   "Bringing any globe data set into the project, after seeing its line in the table.",
+   "Using the eight V&A pictures; running a picture round with fewer than 52 pictures; relaxing any of the ten requirements for a picture.",
+   "Tactical combat units, battlefield control or graphic violence in Granada; any military design in The Golden Age.",
+   "Accounts, sign-in, leaderboards or any comparison of scores between people.",
+   "Anything paid: an artist, licensed models, a device-testing service, a form service, paying reviewers or testers, any new infrastructure.",
+   "Calling The Golden Age, or anything in any game, a reconstruction; publishing any historical claim as verified.",
+   "Support for phones and tablets.",
+   "Producing The Golden Age or Atlas in full beside Granada.",
+   "Sending a game anywhere outside the museum's own hosts: a store, a portal, a competition, the press; any exclusivity or money.",
+   "Putting a reviewer's, operator's or tester's name on a public page."
+  ]
+ }
+}

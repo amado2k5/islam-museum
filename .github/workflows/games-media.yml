@@ -1,0 +1,132 @@
+name: Upload the games' media
+
+# The museum's own suite is the music of every game, and the audio is never in git. This workflow carries the six
+# encoded tracks from a draft release of this repository (where the founder's machine put them, out of public view)
+# into an environment's R2 bucket under games/media/music/, where the games host serves them. Manual only, started
+# by the owner, like every deployment here.
+#
+# It uploads only the tracks named in gaming/packages/audio/music.json, each checked against the size and SHA-256
+# recorded there; a track already in the bucket is left alone if it is identical and refused if it is not. It never
+# deletes anything and touches nothing outside games/.
+#
+# The games' authored models travel the same way (kind: models): the files named in gaming/art/manifest.json, each
+# checked against the size and SHA-256 recorded there, go under games/media/models/. A release has no folders, so a
+# model's file is attached under a flat name, "/" written as "__" (granada/mill.gltf is granada__mill.gltf); the
+# manifest, which is in git, says where each belongs. To put them where this workflow can find them:
+#   npm --prefix gaming run art:mill && npm --prefix gaming run art:manifest   (then attach each file under its flat name)
+#
+# To put the tracks where this workflow can find them, on the machine that has them (once):
+#   npm --prefix gaming run music:import -- <folder with the six WAV masters>
+#   gh release create games-media --draft --title "Games media (transport only)" --notes "Not a release of anything." gaming/media/music/*.m4a
+on:
+  workflow_dispatch:
+    inputs:
+      kind:
+        description: "What to carry: the music, or the authored models."
+        required: true
+        type: choice
+        options: [music, models]
+        default: music
+      environment:
+        description: "Where it goes: uat first, then production."
+        required: true
+        type: choice
+        options: [uat, production]
+        default: uat
+      action:
+        description: "check: verify the files and say what would be uploaded, writing nothing. upload: put them in the bucket."
+        required: true
+        type: choice
+        options: [check, upload]
+        default: check
+      release_tag:
+        description: "The draft release that holds the files."
+        required: false
+        type: string
+        default: games-media
+
+permissions:
+  # A draft release can be read only by a token allowed to write contents; this workflow writes nothing to the repository.
+  contents: write
+
+concurrency:
+  group: games-media-${{ inputs.environment }}-${{ inputs.kind }}
+  cancel-in-progress: false
+
+jobs:
+  media:
+    name: ${{ inputs.action }} ${{ inputs.kind }} (${{ inputs.environment }})
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    environment: ${{ inputs.environment }}
+    steps:
+      - name: Only the repository owner or an admin may start this workflow
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+          ACTOR: ${{ github.actor }}
+          OWNER: ${{ github.repository_owner }}
+        run: |
+          [ "$ACTOR" = "$OWNER" ] && { echo "started by the owner ($ACTOR)"; exit 0; }
+          perm=$(gh api "repos/$GH_REPO/collaborators/$ACTOR/permission" --jq .permission 2>/dev/null || echo unknown)
+          [ "$perm" = "admin" ] && { echo "started by an admin ($ACTOR)"; exit 0; }
+          echo "::error::$ACTOR ($perm) may not start this workflow: only the repository owner or an admin may."
+          exit 1
+      - name: Resolve the environment (and refuse a non-production run aimed at the production bucket)
+        id: env
+        env:
+          ENVIRONMENT: ${{ inputs.environment }}
+          R2_BUCKET: ${{ vars.R2_BUCKET }}
+          HAS_R2_KEYS: ${{ secrets.R2_ACCESS_KEY_ID != '' && secrets.R2_SECRET_ACCESS_KEY != '' }}
+        run: |
+          set -euo pipefail
+          fail() { echo "::error::$1"; exit 1; }
+          [ -n "$R2_BUCKET" ] || fail "Environment \"$ENVIRONMENT\" has no variable R2_BUCKET."
+          [ "$HAS_R2_KEYS" = "true" ] || fail "Environment \"$ENVIRONMENT\" has no R2_ACCESS_KEY_ID / R2_SECRET_ACCESS_KEY."
+          if [ "$ENVIRONMENT" = "production" ]; then
+            [ "$R2_BUCKET" = "islam-museum-search" ] || fail "production publishes to islam-museum-search, not \"$R2_BUCKET\"."
+          else
+            [ "$R2_BUCKET" != "islam-museum-search" ] || fail "a $ENVIRONMENT run may not publish to the production bucket."
+          fi
+          echo "bucket=$R2_BUCKET" >> "$GITHUB_OUTPUT"
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 22
+      - name: Fetch the files from the draft release
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TAG: ${{ inputs.release_tag }}
+          KIND: ${{ inputs.kind }}
+        run: |
+          set -euo pipefail
+          [[ "$TAG" =~ ^[A-Za-z0-9._-]+$ ]] || { echo "::error::\"$TAG\" is not a release tag."; exit 1; }
+          mkdir -p media-in
+          if [ "$KIND" = "models" ]; then
+            gh release download "$TAG" --dir media-in --pattern "*.gltf" --pattern "*.bin" --pattern "*.jpg"
+          else
+            gh release download "$TAG" --dir media-in --pattern "*.m4a"
+          fi
+          ls -l media-in
+      - name: ${{ inputs.action == 'upload' && 'Upload the files and read them back' || 'Say what would be uploaded (writes nothing)' }}
+        env:
+          AWS_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+          AWS_DEFAULT_REGION: auto
+          ENDPOINT: https://${{ secrets.CLOUDFLARE_ACCOUNT_ID }}.r2.cloudflarestorage.com
+          BUCKET: ${{ steps.env.outputs.bucket }}
+          ACTION: ${{ inputs.action }}
+          KIND: ${{ inputs.kind }}
+        run: |
+          set -euo pipefail
+          dry=""; [ "$ACTION" = "upload" ] || dry="--dry-run"
+          manifest=gaming/packages/audio/music.json; [ "$KIND" = "models" ] && manifest=gaming/art/manifest.json
+          # shellcheck disable=SC2086
+          node workers/games/publish.mjs media --kind "$KIND" --bucket "$BUCKET" --endpoint "$ENDPOINT" --dir media-in --manifest "$manifest" $dry | tee media.log
+          {
+            echo "### Media ($KIND): $ACTION (${{ inputs.environment }})"
+            echo
+            echo '```'
+            cat media.log
+            echo '```'
+          } >> "$GITHUB_STEP_SUMMARY"
