@@ -18,15 +18,19 @@ const topUp = (s: VillageState, below: number, keep: number): VillageCommand[] =
 const sow = (sc: Scenario, s: VillageState, crop: "vegetables" | "wheat"): VillageCommand[] =>
   sc.plots.filter((p) => s.plots[p.id]!.crop === null && p.potential[crop] !== undefined && CROPS[crop].sowIn.includes(seasonOf(s.day))).map((p) => ({ kind: "plant", plot: p.id, crop }) as VillageCommand);
 
+/** Answers every open question the same way. */
+const answer = (sc: Scenario, s: VillageState, option: string): VillageCommand[] => (sc.decisions ?? []).filter((d) => s.decisions[d.id]?.state === "open" && d.options.some((o) => o.id === option)).map((d) => ({ kind: "decide", decision: d.id, option }) as VillageCommand);
+
 export const PLAYERS: Record<string, Player> = {
   /** Does nothing at all. It must lose: a game that plays itself is not one. */
   idle: () => [],
   /** The cheap repair, olives for cash, grain bought when the store runs low. */
-  mender: (sc, s) => [...ripe(s).map((plot) => ({ kind: "harvest", plot, rest: "wait" }) as VillageCommand), { kind: "repair" }, { kind: "build", what: "granary" }, ...sow(sc, s, "vegetables"), ...(houses(s) < 1 ? [{ kind: "build", what: "house" } as VillageCommand] : []), ...sellAll(s, "olives"), ...topUp(s, 25, 100)],
+  mender: (sc, s) => [...answer(sc, s, "share"), ...ripe(s).map((plot) => ({ kind: "harvest", plot, rest: "wait" }) as VillageCommand), { kind: "repair" }, { kind: "build", what: "granary" }, ...sow(sc, s, "vegetables"), ...(houses(s) < 1 ? [{ kind: "build", what: "house" } as VillageCommand] : []), ...sellAll(s, "olives"), ...topUp(s, 25, 100)],
   /** The great works: water for the meadow, vegetables grown there, less bought. */
   builder: (sc, s) => [...ripe(s).map((plot) => ({ kind: "harvest", plot, rest: "wait" }) as VillageCommand), { kind: "expand" }, { kind: "build", what: "granary" }, ...sow(sc, s, "vegetables"), ...sow(sc, s, "wheat"), ...(houses(s) < 2 ? [{ kind: "build", what: "house" } as VillageCommand] : []), ...sellAll(s, "olives"), ...topUp(s, 18, 60)],
   /** Sells what will not fit straight from the field, keeps a thin reserve, and lives by the market. */
   merchant: (sc, s) => [
+    ...answer(sc, s, "refuse"),
     ...ripe(s).map((plot) => ({ kind: "harvest", plot, rest: "sell" }) as VillageCommand),
     { kind: "repair" },
     ...(houses(s) < 2 ? [{ kind: "build", what: "house" } as VillageCommand] : []),
@@ -43,6 +47,7 @@ export const PLAYERS: Record<string, Player> = {
     const oil = stock(s, "oil");
     const owed = c?.state === "accepted" ? c.units - c.delivered : 0;
     return [
+      ...answer(sc, s, "share"),
       ...ripe(s).map((plot) => ({ kind: "harvest", plot, rest: "wait" }) as VillageCommand),
       { kind: "repair" },
       { kind: "build", what: "granary" },
@@ -70,6 +75,7 @@ export const PLAYERS: Record<string, Player> = {
       { kind: "buy", good: pick(goods), quantity: rng.int(1, 200) },
       { kind: "water-first", who: pick(["households", "fields"] as const) },
       { kind: "field-first", plot: pick([...plots, null, "nowhere"]) },
+      ...(sc.decisions ?? []).map((d) => ({ kind: "decide", decision: pick([d.id, "nothing"]), option: pick([...d.options.map((o) => o.id), "neither"]) }) as VillageCommand),
       ...(sc.catalogue ? [{ kind: "place", what: pick([...Object.keys(sc.catalogue), "nothing"]), x: rng.int(-500, 800), z: rng.int(-300, 340) } as VillageCommand] : []),
       ...(sc.trade
         ? ([

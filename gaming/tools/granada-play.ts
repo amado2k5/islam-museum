@@ -282,6 +282,28 @@ if (runs > 8) {
 if ((await page.locator("[data-part='contract'][data-state='settled']").count()) !== 1) await fail("the panel does not show the contract as kept");
 log.trade = { olives, runs, contract, paid: afterPay - beforePay };
 
+// ---- A decision: put on its day, each answer's price shown, answered by a click, in force and in the journal ----
+await page.goto(url("&fresh=1"));
+await ready();
+await page.locator("#brief-start").click();
+if (await page.locator("[data-decision]").count()) await fail("a decision is shown before its day");
+await game(`(() => { const g = window.__GR__; g.order({ kind: "harvest", plot: "mill-field", rest: "wait" }); g.order({ kind: "repair" }); while (Object.values(g.state().decisions)[0].state === "ahead") g.days(1); })()`);
+const question = page.locator("[data-decision='water-for-the-neighbours']");
+if ((await question.count()) !== 1 || (await question.locator("button").count()) !== 2) await fail("the decision is not shown with its two answers");
+await shot("9f-decision");
+const purse = await game<number>("window.__GR__.state().economy.treasury.available");
+await question.locator("[data-act='decide-water-for-the-neighbours-share']").click();
+if ((await game<number>("window.__GR__.state().economy.treasury.available")) - purse !== 22000) await fail("sharing the water did not bring its 220 dinars");
+if (await page.locator("[data-decision]").count()) await fail("the decision is still shown after it was answered");
+if ((await page.locator("[data-part='effects'] li").count()) !== 1) await fail("what is in force is not shown");
+await page.keyboard.press("5");
+const journal = await page.locator("[data-part='journal'] li").count();
+if (journal < 2) await fail(`the journal has ${journal} lines after a question and its answer`);
+await shot("9g-journal");
+await game("window.__GR__.days(20)");
+if (await page.locator("[data-part='effects']").count()) await fail("the effect is still shown after its days");
+log.decision = { journal };
+
 // ---- An estate's card: its figures are the rules' forecast, and putting it first is an order that holds ----
 await page.goto(url("&fresh=1"));
 await ready();

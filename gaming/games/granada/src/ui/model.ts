@@ -11,6 +11,7 @@ import {
   dayOfSeason,
   foodInStore,
   expectedHarvest,
+  flowOn,
   foodNeed,
   forecast,
   poolCapacityOf,
@@ -323,6 +324,23 @@ export function tradeView(sc: Scenario, s: VillageState): TradeView | null {
   };
 }
 
+/** A question that is open, with each answer's price and gain in figures, and what is in force from answers given. */
+export interface DecisionRow {
+  id: string;
+  /** Mornings left to answer, this one included. */
+  daysLeft: number;
+  otherwise: string;
+  options: Array<{ id: string; dinars: number; inflow: number; welfare: number; days: number }>;
+}
+export function decisionRows(sc: Scenario, s: VillageState): DecisionRow[] {
+  return (sc.decisions ?? [])
+    .filter((def) => s.decisions[def.id]?.state === "open")
+    .map((def) => ({ id: def.id, daysLeft: s.decisions[def.id]!.day! + def.open - s.day + 1, otherwise: def.otherwise, options: def.options.map((o) => ({ id: o.id, dinars: wholeDinars(o.dinars ?? 0), inflow: o.inflow ?? 0, welfare: o.welfare ?? 0, days: o.days ?? 0 })) }));
+}
+export function effectRows(s: VillageState): Array<{ kind: "inflow" | "welfare"; amount: number; daysLeft: number; from: string }> {
+  return s.effects.filter((e) => e.untilDay >= s.day).map((e) => ({ kind: e.kind, amount: Math.abs(e.amount), daysLeft: e.untilDay - s.day + 1, from: e.from }));
+}
+
 export interface QuestRow {
   id: QuestId;
   done: boolean;
@@ -351,7 +369,7 @@ export interface SkyDay {
 /** The sky and the river for the days ahead. It is not a guess: the weather is fixed when the game begins. */
 export function skyAhead(sc: Scenario, s: VillageState, days: number): SkyDay[] {
   const out: SkyDay[] = [];
-  for (let d = s.day; d < s.day + days && d <= sc.endDay; d++) out.push({ day: d, season: seasonOf(d), ...weather(sc, s.seed, d) });
+  for (let d = s.day; d < s.day + days && d <= sc.endDay; d++) out.push({ day: d, season: seasonOf(d), ...flowOn(sc, s, d) });
   return out;
 }
 /** How the river runs in each season of this year, in percent of a usual year. */

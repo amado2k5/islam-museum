@@ -63,6 +63,20 @@ export const WATER_FOR_THE_VALLEY: Scenario = {
     garden: { category: "gardens", cost: dinars(90), timber: 10, stone: 10, labour: 10, radius: 10, max: 3, welfare: 2 },
   },
   site: siteRefusal,
+  // In the heat of summer the village downstream asks for water. To share is to be paid and to run short; to refuse
+  // costs nothing in dinars and something in how the households fare. Fiction, and the panel says so.
+  decisions: [
+    {
+      id: "water-for-the-neighbours",
+      day: 40,
+      open: 5,
+      otherwise: "refuse",
+      options: [
+        { id: "share", dinars: dinars(220), inflow: 8, days: 20 },
+        { id: "refuse", welfare: -4, days: 20 },
+      ],
+    },
+  ],
   // A port on the coast, a few days off by cart. It pays less than the village asks for the same grain, so nothing
   // bought here is worth carrying there; what it wants is oil, which the valley can press and the village cannot.
   // Fiction: the name is a real port's, the prices, the buyer and the contract are invented for play.

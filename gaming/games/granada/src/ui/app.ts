@@ -10,14 +10,14 @@ import { loadMusicStrings, musicControl } from "@im/audio/control";
 import { MUSIC_AVAILABLE, MUSIC_BASE, MusicPlayer } from "@im/audio/player";
 import { MINOR } from "../sim/economy";
 import { SCENARIOS, WATER_FOR_THE_VALLEY } from "../sim/scenarios";
-import { act, newVillage, siteOf, tick, type ActResult, type Refusal, type Scenario, type VillageCommand, type VillageState } from "../sim/village";
+import { act, dayOfSeason, newVillage, seasonOf, siteOf, tick, type ActResult, type Refusal, type Scenario, type VillageCommand, type VillageState } from "../sim/village";
 import { clearSave, readSave, writeSave } from "../save";
 import { probeWebGPU } from "@im/kernel/capability";
 import { installCounters } from "@im/kernel/counters";
 import type { ValleyLook } from "../view/three-valley";
 import { drawMap, setMapGhost } from "./map";
 import type { Stage } from "./stage";
-import { advice, catalogueRows, fieldCards, marketRows, tradeView, questRows, riverOfYear, skyAhead, stocks, workRows, yesterday, type FieldCard, type WorkRow } from "./model";
+import { advice, catalogueRows, decisionRows, effectRows, fieldCards, marketRows, tradeView, questRows, riverOfYear, skyAhead, stocks, workRows, yesterday, type FieldCard, type WorkRow } from "./model";
 
 type Strings = Record<Exclude<keyof typeof en, "_meta">, string>;
 const LANGS = ["ar", "en", "ur", "fr", "es", "tr", "id"] as const;
@@ -211,6 +211,11 @@ async function main(): Promise<void> {
         return t(`event_${kind}`);
       case "placed":
         return t("event_placed", { what: t(`place_${a}`) });
+      case "asked":
+        return t("event_asked", { what: t(`decision_${a}`) });
+      case "lapsed":
+      case "decided":
+        return t(`event_${kind}`, { what: t(`decision_${a}`), choice: t(`option_${b}`) });
       case "contract-failed":
         return t("event_contract_failed");
       case "quest":
@@ -438,8 +443,30 @@ async function main(): Promise<void> {
   }
 
   /** What is asked of the steward: the quests, each with how far it has got. */
+  /** A question that is open: each answer with its price and its gain in figures, and what happens if none is given. */
+  function decisionCards(): Child[] {
+    const optionText = (o: { id: string; dinars: number; inflow: number; welfare: number; days: number }) => t(`option_${o.id}_text`, { dinars: num(o.dinars), inflow: o.inflow, welfare: Math.abs(o.welfare), days: o.days });
+    return decisionRows(sc, state).map((d) =>
+      h(
+        "section",
+        { class: "card decision", "data-decision": d.id },
+        h("h2", {}, `${t("decision_title")}: ${t(`decision_${d.id}`)}`),
+        h("p", {}, t(`decision_${d.id}_text`)),
+        ...d.options.map((o) => h("div", { class: "option" }, h("button", { type: "button", "data-act": `decide-${d.id}-${o.id}`, onclick: () => order({ kind: "decide", decision: d.id, option: o.id }) && say(t("event_decided", { what: t(`decision_${d.id}`), choice: t(`option_${o.id}`) })) }, t(`option_${o.id}`)), h("p", { class: "note" }, optionText(o)))),
+        h("p", { class: "why" }, t("decision_days", { days: d.daysLeft, otherwise: t(`option_${d.otherwise}`) })),
+      ),
+    );
+  }
+  /** What is in force because of an answer given, and for how long. */
+  function effectsCard(): Child {
+    const rows = effectRows(state);
+    return rows.length > 0 && h("section", { class: "card", "data-part": "effects" }, h("h2", {}, t("effects_title")), h("ul", { class: "plain" }, ...rows.map((e) => h("li", {}, t(`effect_${e.kind}`, { n: e.amount, days: e.daysLeft })))));
+  }
+
   function objectivesPanel(): Child[] {
     return [
+      ...decisionCards(),
+      effectsCard(),
       h(
         "section",
         { class: "card" },
@@ -651,6 +678,14 @@ async function main(): Promise<void> {
         { class: "card" },
         h("h2", {}, t("tab_ledger")),
         y ? h("ul", { class: "plain" }, y.rain && h("li", {}, t("ledger_rain")), h("li", {}, t("ledger_water", { got: y.townWater, need: y.townNeed })), h("li", {}, t("ledger_food", { got: y.eaten, need: y.foodNeed })), h("li", {}, t("ledger_hands", { busy: y.workers - y.idle, workers: y.workers }))) : h("p", {}, t("ledger_none")),
+      ),
+      h(
+        "section",
+        { class: "card", "data-part": "journal" },
+        h("h2", {}, t("journal_title")),
+        state.journal.length === 0
+          ? h("p", { class: "note" }, t("journal_none"))
+          : h("ol", { class: "plain journal" }, ...[...state.journal].reverse().map((j) => h("li", {}, h("b", {}, `${t("day_line", { season: t(`season_${seasonOf(j.day)}`), day: dayOfSeason(j.day) })}: `), eventText(j.event) ?? j.event))),
       ),
       log.length > 0 && h("section", { class: "card" }, h("ul", { class: "plain log" }, ...log.slice(0, 14).map((line) => h("li", {}, line)))),
     ];

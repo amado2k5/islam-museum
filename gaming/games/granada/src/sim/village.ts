@@ -15,8 +15,9 @@ import { audit, dinars, freeCapacity, open, submit, type CommandResult, type Eco
 // 2: trade beyond the village (a port reached by cart, a press, contracts).
 // 3: buildings placed on the land by the player.
 // 4: a field the steward has said comes first for water and hands.
+// 5: decisions put to the steward, what follows from them for a time, and a journal of what has happened.
 // A game saved under an earlier version is brought forward by `upgradeVillage`, never loaded half-right.
-export const VILLAGE_VERSION = 4;
+export const VILLAGE_VERSION = 5;
 export const SEASON_DAYS = 30;
 export const YEAR_DAYS = 120;
 export type Season = 0 | 1 | 2 | 3; // spring, summer, autumn, winter
@@ -122,6 +123,22 @@ export interface Scenario {
   /** What can be placed on the land, and the ground's own answer to "may something of this size stand here?". */
   catalogue?: Record<string, PlaceDef>;
   site?: (x: number, z: number, radius: number) => SiteRefusal | null;
+  /** Questions put to the steward in the course of the scenario. */
+  decisions?: DecisionDef[];
+}
+/** What follows from a choice, for a time: less water from the river, or the households faring worse or better. */
+export type Effect = { kind: "inflow"; amount: number; untilDay: number; from: string } | { kind: "welfare"; amount: number; untilDay: number; from: string };
+/**
+ * A question put to the steward on a day, open for a few days. Each answer has its price and its gain, written down
+ * here and shown before it is chosen; an answer not given by the last day is the one named as `otherwise`.
+ */
+export interface DecisionDef {
+  id: string;
+  day: number;
+  /** Days it stays open, the first included. */
+  open: number;
+  options: Array<{ id: string; dinars?: number; inflow?: number; welfare?: number; days?: number }>;
+  otherwise: string;
 }
 /** A building the player has placed: under way until its work is done. */
 export interface Placed {
@@ -202,6 +219,12 @@ export interface VillageState {
   carted: number;
   /** What the player has placed on the land, in the order it was placed. */
   placed: Placed[];
+  /** Each of the scenario's questions: not yet put, open, or answered (by the steward or, unanswered, by its `otherwise`). */
+  decisions: Record<string, { state: "ahead" | "open" | "answered" | "lapsed"; choice: string | null; day: number | null }>;
+  /** What is in force now because of an answer given. */
+  effects: Effect[];
+  /** What has happened, in order: the day and the event, for the journal. The last sixty are kept. */
+  journal: Array<{ day: number; event: string }>;
   quests: Record<QuestId, boolean>;
   last: DayReport | null;
   outcome: null | { won: boolean; reasons: string[]; score: number };
@@ -216,6 +239,8 @@ export type VillageCommand =
   | { kind: "sell"; good: string; quantity: number }
   | { kind: "buy"; good: string; quantity: number }
   | { kind: "water-first"; who: "households" | "fields" }
+  /** Answer a question that is open. */
+  | { kind: "decide"; decision: string; option: string }
   /** Say which field takes its water and its hands before the others; null puts them back in their usual order. */
   | { kind: "field-first"; plot: string | null }
   /** Place a building from the catalogue on the land, at a point in metres (east, south). */
@@ -248,6 +273,8 @@ export type Refusal =
   | "no-room"
   | "no-trade"
   | "unknown-building"
+  | "unknown-decision"
+  | "decision-closed"
   | "no-more"
   | SiteRefusal
   | "carts-full"
@@ -296,6 +323,9 @@ export function newVillage(sc: Scenario, seed: number): VillageState {
     everFull: false,
     carted: 0,
     placed: [],
+    decisions: Object.fromEntries((sc.decisions ?? []).map((d) => [d.id, { state: "ahead" as const, choice: null, day: null }])),
+    effects: [],
+    journal: [],
     quests: { "q01-water": false, "q02-harvest": false, "q03-reserve": false, "q04-home": false, "q05-granary": false },
     last: null,
     outcome: null,
@@ -323,12 +353,16 @@ export const treasuryOf = (s: VillageState): number => s.economy.treasury.availa
  */
 export function upgradeVillage(sc: Scenario, saved: VillageState): VillageState | null {
   if (saved.version === VILLAGE_VERSION) return saved;
-  if (![1, 2, 3].includes(saved.version)) return null;
+  if (![1, 2, 3, 4].includes(saved.version)) return null;
   const s = structuredClone(saved) as VillageState;
   s.version = VILLAGE_VERSION;
   // From 2 to 3: nothing has been placed yet. From 3 to 4: no field has been put first.
   s.placed ??= [];
   s.fieldFirst ??= null;
+  // From 4 to 5: the scenario's questions, each still ahead or, if its day has gone by, never put; no journal yet.
+  s.decisions ??= Object.fromEntries((sc.decisions ?? []).map((d) => [d.id, s.day > d.day ? { state: "lapsed" as const, choice: null, day: null } : { state: "ahead" as const, choice: null, day: null }]));
+  s.effects ??= [];
+  s.journal ??= [];
   if (saved.version >= 2) return s;
   s.carted = 0;
   const e = s.economy;
@@ -386,6 +420,28 @@ function ledger(s: VillageState, command: EconomyCommand): CommandResult {
   s.n += 1;
   s.economy = out.state;
   return out.result;
+}
+
+/** Keeps an event for the journal. */
+function note(s: VillageState, day: number, event: string): void {
+  s.journal.push({ day, event });
+  if (s.journal.length > 60) s.journal.splice(0, s.journal.length - 60);
+}
+/** Carries out an answer: what is paid or received now, and what holds from today for its days. Returns the money moved. */
+function settle(sc: Scenario, s: VillageState, def: DecisionDef, option: string, how: "answered" | "lapsed"): number {
+  const o = def.options.find((x) => x.id === option)!;
+  const until = s.day + (o.days ?? 0) - 1;
+  if (o.dinars) ledger(s, { kind: "earn", amount: o.dinars, why: `decision ${def.id}: ${option}` });
+  if (o.inflow) s.effects.push({ kind: "inflow", amount: o.inflow, untilDay: until, from: def.id });
+  if (o.welfare) s.effects.push({ kind: "welfare", amount: o.welfare, untilDay: until, from: def.id });
+  s.decisions[def.id] = { state: how, choice: option, day: s.day };
+  return o.dinars ?? 0;
+}
+/** The river's flow on a day: the weather's, less whatever an answer has given away. */
+export function flowOn(sc: Scenario, s: VillageState, day: number): { rain: boolean; inflow: number } {
+  const sky = weather(sc, s.seed, day);
+  const given = s.effects.reduce((n, e) => n + (e.kind === "inflow" && day <= e.untilDay ? e.amount : 0), 0);
+  return { rain: sky.rain, inflow: Math.max(0, sky.inflow - given) };
 }
 
 function startWork(s: VillageState, def: WorkDef, kind: Work["kind"], why: string, placed?: number): ActResult {
@@ -458,6 +514,15 @@ function apply(sc: Scenario, s: VillageState, cmd: VillageCommand): ActResult {
     case "water-first": {
       s.waterFirst = cmd.who;
       return { ok: true, money: 0 };
+    }
+    case "decide": {
+      const def = sc.decisions?.find((d) => d.id === cmd.decision);
+      const d = s.decisions[cmd.decision];
+      if (!def || !d) return { ok: false, why: "unknown-decision" };
+      if (d.state !== "open" || !def.options.some((o) => o.id === cmd.option)) return { ok: false, why: "decision-closed" };
+      const money = settle(sc, s, def, cmd.option, "answered");
+      note(s, s.day, `decided:${def.id}:${cmd.option}`);
+      return { ok: true, money };
     }
     case "field-first": {
       if (cmd.plot !== null && !sc.plots.some((p) => p.id === cmd.plot)) return { ok: false, why: "unknown-plot" };
@@ -547,7 +612,19 @@ export function tick(sc: Scenario, state: VillageState): VillageState {
   const s = copy(state);
   const day = s.day;
   const events: string[] = [];
-  const sky = weather(sc, s.seed, day);
+  // A question whose day has come is put; one left unanswered through its last day is answered by its `otherwise`.
+  for (const def of sc.decisions ?? []) {
+    const d = s.decisions[def.id]!;
+    if (d.state === "ahead" && day >= def.day) {
+      s.decisions[def.id] = { state: "open", choice: null, day };
+      events.push(`asked:${def.id}`);
+    } else if (d.state === "open" && day >= d.day! + def.open) {
+      settle(sc, s, def, def.otherwise, "lapsed");
+      events.push(`lapsed:${def.id}:${def.otherwise}`);
+    }
+  }
+  s.effects = s.effects.filter((e) => day <= e.untilDay);
+  const sky = flowOn(sc, s, day);
   // The carts are back from the port, empty, for the day.
   s.carted = 0;
 
@@ -690,7 +767,7 @@ export function tick(sc: Scenario, state: VillageState): VillageState {
   const fed = eaten >= need;
   const watered = townWater >= townNeed;
   // A household that is not fed fares badly enough to leave: hunger alone takes welfare below the point of going.
-  const target = Math.max(0, Math.min(100, 55 + (fed ? 10 : -Math.ceil((35 * (need - eaten)) / need)) + (watered ? 5 : -Math.ceil((15 * (townNeed - townWater)) / townNeed)) + (s.households > s.housing ? -5 : 0) + (reserveDays(s) >= 20 ? 5 : 0) + s.placed.reduce((n, p) => n + (p.done ? (sc.catalogue?.[p.what]?.welfare ?? 0) : 0), 0)));
+  const target = Math.max(0, Math.min(100, 55 + (fed ? 10 : -Math.ceil((35 * (need - eaten)) / need)) + (watered ? 5 : -Math.ceil((15 * (townNeed - townWater)) / townNeed)) + (s.households > s.housing ? -5 : 0) + (reserveDays(s) >= 20 ? 5 : 0) + s.placed.reduce((n, p) => n + (p.done ? (sc.catalogue?.[p.what]?.welfare ?? 0) : 0), 0) + s.effects.reduce((n, e) => n + (e.kind === "welfare" ? e.amount : 0), 0)));
   if (s.welfare < target) s.welfare += 1;
   else if (s.welfare > target) s.welfare = Math.max(target, s.welfare - 2);
   if (!fed) events.push(`hungry:${need - eaten}`);
@@ -739,6 +816,9 @@ export function tick(sc: Scenario, state: VillageState): VillageState {
     ledger(s, { kind: "advance", ticks: 1 });
     for (const id of open) if (s.economy.contracts[id]!.state === "failed") events.push(`contract-failed:${id}`);
   }
+
+  // The journal keeps what a steward would want to look back on: tasks done, things built, answers, contracts.
+  for (const e of events) if (/^(quest|built|placed|asked|lapsed|contract-failed|arrived|left):?/.test(e)) note(s, day, e);
 
   s.last = { day, rain: sky.rain, inflow: sky.inflow, townWater, townNeed, eaten, foodNeed: need, workers, idle: free, events };
   s.day = day + 1;
@@ -796,6 +876,14 @@ export function invariants(sc: Scenario, s: VillageState): string[] {
     if (!p.done && !s.works.some((w) => w.placed === p.id)) bad.push(`the ${p.what} at ${p.x}, ${p.z} is unfinished and nobody is building it`);
     for (const q of s.placed.slice(0, i)) if (q.id === p.id || Math.hypot(p.x - q.x, p.z - q.z) < (def?.radius ?? 0) + (sc.catalogue?.[q.what]?.radius ?? 0)) bad.push(`the ${p.what} at ${p.x}, ${p.z} stands on the ${q.what} at ${q.x}, ${q.z}`);
   }
+  for (const def of sc.decisions ?? []) {
+    const d = s.decisions[def.id];
+    if (!d) bad.push(`the question ${def.id} is missing from the game`);
+    else if (d.choice !== null && !def.options.some((o) => o.id === d.choice)) bad.push(`the question ${def.id} was answered ${d.choice}, which is not one of its answers`);
+    else if (d.state === "answered" && d.choice === null) bad.push(`the question ${def.id} is answered with no answer`);
+  }
+  for (const e of s.effects) if (!Number.isSafeInteger(e.amount) || !Number.isSafeInteger(e.untilDay)) bad.push(`an effect of ${e.from} is malformed`);
+  if (s.journal.length > 60) bad.push(`the journal holds ${s.journal.length} entries`);
   if (s.fieldFirst !== null && !sc.plots.some((p) => p.id === s.fieldFirst)) bad.push(`the field put first, ${s.fieldFirst}, is not in the valley`);
   for (const [what, def] of Object.entries(sc.catalogue ?? {})) if (placedCount(s, what) > def.max) bad.push(`${placedCount(s, what)} of ${what} are placed, more than the ${def.max} allowed`);
   if (s.welfare < 0 || s.welfare > 100) bad.push(`welfare is ${s.welfare}`);
