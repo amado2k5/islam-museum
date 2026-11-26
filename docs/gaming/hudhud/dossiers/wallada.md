@@ -7,6 +7,13 @@
 - `person/wallada-bint-al-mustakfi`
 - `place/al-andalus`
 
+## Arabic cross-check
+
+Machine presence/citation check only, not a translation review:
+
+- `person/wallada-bint-al-mustakfi`: English prose present (3 sections, 3 citations); Arabic prose present (3 sections, 3 citations).
+- `place/al-andalus`: English prose present (43 sections, 64 citations); Arabic prose present (43 sections, 64 citations).
+
 ## Who, where, when
 
 - **Who:** en: Wallada; ar: ولّادة. Record labels: `person/wallada-bint-al-mustakfi` en=None, ar='ولادة بنت المستكفي'; `place/al-andalus` en='al-Andalus', ar='الأندلس'
@@ -15,15 +22,14 @@
 
 ## What the records say they did
 
-1. Wallada bint al-Mustakfi billah Muhammad ibn Abd al-Rahman ibn Ubayd Allah ibn al-Nasir, an Andalusian woman of letters. al-Maqqari mentions her in Nafh al-Tib . — source location `content/en/person/wallada-bint-al-mustakfi.md — Overview`; citation `{cite:nafh-tib-maqqari p.209}`; flag: **stated**.
-2. al-Maqqari describes her as unique in her time, graceful in conversation and praiseworthy in discussion. He says that she was famous for chastity and modesty . — source location `content/en/person/wallada-bint-al-mustakfi.md — al-Maqqari's description`; citation `{cite:nafh-tib-maqqari p.209}`; flag: **stated**.
-3. al-Maqqari reports that the name of Ibn Zaydun was linked with hers. When he inclined toward her slave-girl, she wrote him verses reproaching him, and called him al-Musaddas (the Hexagonal) . — source location `content/en/person/wallada-bint-al-mustakfi.md — Ibn Zaydun`; citation `{cite:nafh-tib-maqqari p.210}`; flag: **stated**.
-4. Al-Andalus: a region at the far west. al-Baladhuri reports on the authority of al-Waqidi that Tariq ibn Ziyad, the agent of Musa ibn Nusayr, first invaded it in the year 92 AH. — source location `content/en/place/al-andalus.md — Overview`; citation `{cite:futuh-buldan-maarif-1407}`; flag: **stated**.
-5. Ilyan, its governor at the passage, met him and gave him safe-conduct to carry his army over in ships. Then its people fought him, and he took control of it. — source location `content/en/place/al-andalus.md — The invasion`; citation `{cite:futuh-buldan-maarif-1407}`; flag: **stated**.
-6. al-Baladhuri says that its king, "so they claim", was of the Ashban, whose origin was Isfahan. This is a reported saying, and it is not settled here. — source location `content/en/place/al-andalus.md — The invasion`; citation `{cite:futuh-buldan-maarif-1407}`; flag: **stated as uncertain**.
-7. Al-Andalus, or Diyarat al-Andalus, was the term used in the Islamic world until the end of the Middle Ages for the Iberian peninsula, that is modern Spain and Portugal. The name may be connected with the Vandals (al-Andalish), who gave Baetica the name Vandalicia before they crossed to Africa. It appears on a bilingual dinar of 98/716, where the Latin equivalent is Spania. Arab writers always confined the term to… — source location `content/en/place/al-andalus.md — The name`; citation `{cite:encyclopaedia-of-islam-2 vol. 1 p. 509}`; flag: **stated**.
-8. The peninsula forms a massive, almost pentagonal promontory at the south-west of Europe, joined to the continent by the Pyrenees and washed by the Atlantic and the Mediterranean. It lies between about 43 degrees 24 minutes and 35 degrees 59 minutes north, and 9 degrees 30 minutes west and 3 degrees 19 minutes east, with an area of about 229,000 square miles, of which modern Portugal is less than a fifth. Cut off… — source location `content/en/place/al-andalus.md — Physical situation and relief`; citation `{cite:encyclopaedia-of-islam-2 vol. 1 p. 509-510}`; flag: **stated**.
-
+1. Wallada bint al-Mustakfi was an Andalusian woman of letters, mentioned by al-Maqqari in Nafh al-Tib. — source location `content/en/person/wallada-bint-al-mustakfi.md — Overview`; citation `{cite:nafh-tib-maqqari p.209}`; flag: **stated**.
+2. Al-Maqqari describes Wallada as unique, graceful in conversation, and famous for chastity and modesty. — source location `content/en/person/wallada-bint-al-mustakfi.md — al-Maqqari's description`; citation `{cite:nafh-tib-maqqari p.209}`; flag: **stated**.
+3. Al-Maqqari reports that Wallada wrote verses reproaching Ibn Zaydun when he inclined toward her slave-girl. — source location `content/en/person/wallada-bint-al-mustakfi.md — Ibn Zaydun`; citation `{cite:nafh-tib-maqqari p.210}`; flag: **stated**.
+4. Tariq ibn Ziyad, an agent of Musa ibn Nusayr, first invaded Al-Andalus in the year 92 AH, according to al-Baladhuri. — source location `content/en/place/al-andalus.md — Overview`; citation `{cite:futuh-buldan-maarif-1407}`; flag: **stated**.
+5. Ilyan, the governor, gave safe-conduct to Tariq ibn Ziyad to carry his army over in ships, but Tariq took control after fighting. — source location `content/en/place/al-andalus.md — The invasion`; citation `{cite:futuh-buldan-maarif-1407}`; flag: **stated**.
+6. Al-Baladhuri says the king of Al-Andalus was reportedly of the Ashban, but this is uncertain. — source location `content/en/place/al-andalus.md — The invasion`; citation `{cite:futuh-buldan-maarif-1407}`; flag: **stated as uncertain**.
+7. Al-Andalus was the term used in the Islamic world for the Iberian peninsula, possibly connected to the Vandals. — source location `content/en/place/al-andalus.md — The name`; citation `{cite:encyclopaedia-of-islam-2 vol. 1 p. 509}`; flag: **stated**.
+8. The Iberian peninsula is a large promontory in the southwest of Europe, with an area of about 229,000 square miles. — source location `content/en/place/al-andalus.md — Physical situation and relief`; citation `{cite:encyclopaedia-of-islam-2 vol. 1 p. 509-510}`; flag: **stated**.
 ## Thumbnail elements without record support
 
 The atlas title is The Princess Who Wrote Poems / الأميرة الشاعرة. No record read supports the exact pictured scene, costumes, objects, people, weather, lighting or child-facing drama implied by the thumbnail. Because the source pictures are not available in this checkout, this dossier uses the atlas titles rather than visual inspection; the title itself is not treated as a historical claim. Treat those elements as design fiction unless a reviewer supplies support.
@@ -41,15 +47,15 @@ The atlas title is The Princess Who Wrote Poems / الأميرة الشاعرة.
 
 These are proposals for Claude and the founder, not content.
 
-1. A local problem asks the player to apply Rhythm, Network and Journal to the documented object, place, text or route, using only the claims above as the factual base.
+1. In the Rhythm system, players compose poetic verses to win Wallada's favor, based on her historical reputation for chastity and her reproachful poetry [3]. This quest is a game invention, not a historical event.
 
-2. Hudhud helps the player compare what the museum record states, what it states uncertainly and what the thumbnail adds, then solve the puzzle through Rhythm, Network and Journal.
+2. Using the Network system, players navigate the complex relationships between Wallada and Ibn Zaydun, reflecting the historical accounts of their interactions [2, 3]. The quest's specific interactions are fictional, inspired by historical records.
 
-3. The completed page returns to the Atlas with optional older-reader context, one hidden collectible and replay goals. This is a structural proposal only, not historical content.
+3. In the Journal system, players document the invasion of Al-Andalus by Tariq ibn Ziyad, capturing the historical narrative of the invasion and its aftermath [4, 5]. The quest's detailed events are fictional, based on historical accounts.
 
 ## Sensitivities
 
-Do not add war, illness, death, slavery, sect or living disputes unless the reviewed record requires them and they are necessary, age-appropriate and non-spectacular. Literary traditions must be labelled as such. Invented dialogue must be explicit dramatized paraphrase, never a false quotation.
+Evidence scan, not a ruling: war/conflict; slavery/captivity. Any such material still requires the full content-safety and age-appropriateness review. Do not add war, illness, death, slavery, sect or living disputes unless the reviewed record requires them and they are necessary, age-appropriate and non-spectacular. Literary traditions must be labelled as such. Invented dialogue must be explicit dramatized paraphrase, never a false quotation.
 
 ## Gaps
 

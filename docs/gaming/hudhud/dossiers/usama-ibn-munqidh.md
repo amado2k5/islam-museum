@@ -9,6 +9,15 @@
 - `place/shaizar`
 - `work/azhar-al-anhar`
 
+## Arabic cross-check
+
+Machine presence/citation check only, not a translation review:
+
+- `person/usama-ibn-munqidh`: English prose present (2 sections, 2 citations); Arabic prose present (2 sections, 2 citations).
+- `place/damascus`: English prose present (22 sections, 48 citations); Arabic prose present (22 sections, 48 citations).
+- `place/shaizar`: English prose present (3 sections, 4 citations); Arabic prose present (3 sections, 4 citations).
+- `work/azhar-al-anhar`: English prose present (1 sections, 1 citations); Arabic prose present (1 sections, 1 citations).
+
 ## Who, where, when
 
 - **Who:** en: Usama ibn Munqidh. Record labels: `person/usama-ibn-munqidh` en=None, ar='أسامة بن منقذ'; `place/damascus` en='Damascus', ar='دمشق'; `place/shaizar` en='Shaizar', ar='شيزر'; `work/azhar-al-anhar` en='Azhar al-Anhar', ar='أزهار الأنهار'
@@ -17,15 +26,14 @@
 
 ## What the records say they did
 
-1. Usama ibn Murshid al-Kinani, whose title was Mu'ayyid al-Dawla. He died in the year 584 AH (the Common Era conversion is derived). Haji Khalifa attributes to him the book Azhar al-Anhar . — source location `content/en/person/usama-ibn-munqidh.md — Overview`; citation `{cite:kashf-zunun-furqan p.372}`; flag: **stated**.
-2. The OpenITI corpus holds 5 works under the author identifier 0584IbnMunqidhShayzari, among them: Badic Fi Naqd Shicr; Diwan; al-Iʿtibār; Lubab Adab. — source location `content/en/person/usama-ibn-munqidh.md — Works in the OpenITI corpus`; citation `{cite:openiti-corpus 0584IbnMunqidhShayzari}`; flag: **stated**.
-3. Damascus, in Arabic Dimashk or Dimashq al-Sham, or simply al-Sham, is the largest city of Syria. It was the capital of the Umayyad caliphate from 661 to 750 CE and is home to the Umayyad Mosque. The Encyclopaedia of Islam, whose account this page follows, describes a city with a recorded history of several thousand years that was attacked many times but never destroyed, and whose fortunes alternated between the… — source location `content/en/place/damascus.md — Overview`; citation `{cite:encyclopaedia-of-islam-2 vol. 2 p. 291} {cite:encyclopaedia-of-islam-2 vol. 2 p. 292}`; flag: **stated**.
-4. Its approximate coordinates are 33.5102 N and 36.2913 E . The article places the city at an altitude of nearly 700 metres, on the edge of the desert at the foot of Jabal Qasiyun, a massif of the eastern Anti-Lebanon. Steppe runs east and north-east to the Euphrates, and to the south the land merges with Arabia. The mountains behind the Lebanese coast cut the city off from sea winds and cloud, so rainfall is only… — source location `content/en/place/damascus.md — Location and setting`; citation `{cite:geonames-gazetteer} {cite:encyclopaedia-of-islam-2 vol. 2 p. 291}`; flag: **stated**.
-5. Nature fixed the site in advance, the article says. It lies where the Barada, the only perennial watercourse of the region, leaves the mountains and crosses the plain before losing itself in the desert. An ingenious irrigation system turned a corner of the desert into the oasis of the Ghuta, which Muslim tradition counts among the three earthly paradises, with Samarkand and al-Ubulla. Protected by mountains on… — source location `content/en/place/damascus.md — Location and setting`; citation `{cite:encyclopaedia-of-islam-2 vol. 2 p. 292}`; flag: **stated**.
-6. The date of the founding is unknown, but excavations in 1950 at Tell al-Salihiyya, south-east of the city, revealed an urban centre of the fourth millennium. Damascus appears in history in the Tell al-Amarna tablets, as a town taken in the fifteenth century BCE by Thutmose III. In the eleventh century BCE it was the capital of the land of Aram, and the Aramaeans are credited with its grid plan and much of its… — source location `content/en/place/damascus.md — Before Islam`; citation `{cite:encyclopaedia-of-islam-2 vol. 2 p. 292}`; flag: **stated**.
-7. Alexander's conquest in 333 BCE placed the city under western influence until the Arab conquest. A Greek town grew beside the Aramaean one, with colonnaded streets and an agora, and the Nabataeans held the city twice, in 85 BCE and again from 37 to 54 CE. The article connects the second period with the visit of Saul, the future St Paul, to the city's Jewish colony. Under Roman rule Damascus gained prosperity and… — source location `content/en/place/damascus.md — Before Islam`; citation `{cite:encyclopaedia-of-islam-2 vol. 2 p. 292} {cite:encyclopaedia-of-islam-2 vol. 2 p. 293}`; flag: **stated**.
-8. After Syria passed to the Eastern Empire in 395, the temple was rebuilt as a cathedral dedicated to St John the Baptist. The head of Yahya ibn Zakariyya is kept in a crypt now inside the Great Mosque and is venerated by Christians and Muslims alike. Soldiers of the Persian king Khusraw II occupied the city; the article notes that its population was mostly Jacobite Monophysite and hostile to the Melkite… — source location `content/en/place/damascus.md — Before Islam`; citation `{cite:encyclopaedia-of-islam-2 vol. 2 p. 293}`; flag: **stated**.
-
+1. Usama ibn Murshid al-Kinani, known as Mu'ayyid al-Dawla, died in 584 AH and is attributed with the book Azhar al-Anhar. — source location `content/en/person/usama-ibn-munqidh.md — Overview`; citation `{cite:kashf-zunun-furqan p.372}`; flag: **stated**.
+2. The OpenITI corpus lists 5 works under the author 0584IbnMunqidhShayzari, including Badic Fi Naqd Shicr and al-Iʿtibār. — source location `content/en/person/usama-ibn-munqidh.md — Works in the OpenITI corpus`; citation `{cite:openiti-corpus 0584IbnMunqidhShayzari}`; flag: **stated**.
+3. Damascus, historically significant and the largest city in Syria, was the capital of the Umayyad caliphate from 661 to 750 CE and houses the Umayyad Mosque. — source location `content/en/place/damascus.md — Overview`; citation `{cite:encyclopaedia-of-islam-2 vol. 2 p. 291} {cite:encyclopaedia-of-islam-2 vol. 2 p. 292}`; flag: **stated**.
+4. Damascus is located at 33.5102 N and 36.2913 E, at an altitude of nearly 700 metres, on the edge of the desert and at the foot of Jabal Qasiyun. — source location `content/en/place/damascus.md — Location and setting`; citation `{cite:geonames-gazetteer} {cite:encyclopaedia-of-islam-2 vol. 2 p. 291}`; flag: **stated**.
+5. The city's location is defined by the Barada river, which supports an irrigation system that transformed the area into an oasis known as the Ghuta. — source location `content/en/place/damascus.md — Location and setting`; citation `{cite:encyclopaedia-of-islam-2 vol. 2 p. 292}`; flag: **stated**.
+6. The founding date of Damascus is unknown, but excavations in 1950 revealed an urban center from the fourth millennium BCE. — source location `content/en/place/damascus.md — Before Islam`; citation `{cite:encyclopaedia-of-islam-2 vol. 2 p. 292}`; flag: **stated**.
+7. Damascus was under western influence from Alexander's conquest in 333 BCE until the Arab conquest, with periods of Greek and Nabataean rule. — source location `content/en/place/damascus.md — Before Islam`; citation `{cite:encyclopaedia-of-islam-2 vol. 2 p. 292} {cite:encyclopaedia-of-islam-2 vol. 2 p. 293}`; flag: **stated**.
+8. After Syria was taken by the Eastern Empire in 395, the temple was converted into a cathedral, and the city was occupied by Persian soldiers. — source location `content/en/place/damascus.md — Before Islam`; citation `{cite:encyclopaedia-of-islam-2 vol. 2 p. 293}`; flag: **stated**.
 ## Thumbnail elements without record support
 
 The atlas title is The Knight Who Wrote Down His Life. No record read supports the exact pictured scene, costumes, objects, people, weather, lighting or child-facing drama implied by the thumbnail. Because the source pictures are not available in this checkout, this dossier uses the atlas titles rather than visual inspection; the title itself is not treated as a historical claim. Treat those elements as design fiction unless a reviewer supplies support.
@@ -45,15 +53,15 @@ The atlas title is The Knight Who Wrote Down His Life. No record read supports t
 
 These are proposals for Claude and the founder, not content.
 
-1. A local problem asks the player to apply Rhythm, Network and Journal to the documented object, place, text or route, using only the claims above as the factual base.
+1. Players use the Rhythm system to navigate the ancient irrigation channels of the Ghuta, turning the desert into an oasis, based on the historical irrigation system [5].
 
-2. Hudhud helps the player compare what the museum record states, what it states uncertainly and what the thumbnail adds, then solve the puzzle through Rhythm, Network and Journal.
+2. In the Network system, players connect historical figures like Thutmose III and Alexander the Great to Damascus, distinguishing between historical events and game elements [6, 7].
 
-3. The completed page returns to the Atlas with optional older-reader context, one hidden collectible and replay goals. This is a structural proposal only, not historical content.
+3. The Journal system allows players to document their discoveries in Tell al-Salihiyya and Tell al-Amarna, blending historical excavation findings with fictional quests [6].
 
 ## Sensitivities
 
-Do not add war, illness, death, slavery, sect or living disputes unless the reviewed record requires them and they are necessary, age-appropriate and non-spectacular. Literary traditions must be labelled as such. Invented dialogue must be explicit dramatized paraphrase, never a false quotation.
+Evidence scan, not a ruling: war/conflict; illness/death; sect/religious dispute. Any such material still requires the full content-safety and age-appropriateness review. Do not add war, illness, death, slavery, sect or living disputes unless the reviewed record requires them and they are necessary, age-appropriate and non-spectacular. Literary traditions must be labelled as such. Invented dialogue must be explicit dramatized paraphrase, never a false quotation.
 
 ## Gaps
 

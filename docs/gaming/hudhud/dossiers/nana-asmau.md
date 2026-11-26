@@ -8,6 +8,14 @@
 - `group/qadiriyya`
 - `place/sokoto`
 
+## Arabic cross-check
+
+Machine presence/citation check only, not a translation review:
+
+- `person/nana-asmau`: English prose present (7 sections, 21 citations); Arabic prose present (7 sections, 21 citations).
+- `group/qadiriyya`: English prose present (3 sections, 3 citations); Arabic prose present (3 sections, 3 citations).
+- `place/sokoto`: English prose absent (0 sections, 0 citations); Arabic prose absent (0 sections, 0 citations).
+
 ## Who, where, when
 
 - **Who:** en: Nana Asma'u. Record labels: `person/nana-asmau` en="Nana Asma'u", ar='نانا أسماء'; `group/qadiriyya` en='The Qadiri order (Qadiriyya)', ar='الطريقة القادرية'; `place/sokoto` en='Sokoto', ar='ولاية سقطو'
@@ -16,15 +24,14 @@
 
 ## What the records say they did
 
-1. Nana Asma'u (1793–1864), full name Asma'u bint Shehu Usman dan Fodiyo, was a scholar, poet and teacher of the Sokoto Caliphate in West Africa, a daughter of its founder Usman dan Fodio and a half-sister of its second Sultan, Muhammad Bello. — source location `content/en/person/nana-asmau.md — Summary`; citation `{cite:wikipedia-nana-asmau-en}`; flag: **stated**.
-2. She wrote more than sixty works in Arabic, Fula, Hausa and Tamacheq, and built the 'Yan Taru network of travelling women teachers who taught women in their homes across the Caliphate. She remains a revered figure in northern Nigeria. — source location `content/en/person/nana-asmau.md — Summary`; citation `{cite:wikipedia-nana-asmau-en}`; flag: **stated**.
-3. She was born in 1793 in the remote community of Degel and named after Asma bint Abi Bakr. Her childhood passed through the Fulani War (1804–1808), the campaign that established the Sokoto Caliphate. — source location `content/en/person/nana-asmau.md — Career`; citation `{cite:wikipedia-nana-asmau-en}`; flag: **stated**.
-4. Like her father, she was educated in tafsir and the Islamic sciences. The dan Fodio family, exemplars of the Qadiriyya Sufis, held that knowledge not taught is sterile, and she devoted herself in particular to the education of women. — source location `content/en/person/nana-asmau.md — Career`; citation `{cite:wikipedia-nana-asmau-en}`; flag: **stated**.
-5. She became a counsellor to her brother Muhammad Bello when he took the Caliphate, recorded written instructions to governors, debated the scholars of foreign princes, and wrote about the wars she had witnessed in her prose narrative Wakar Gewaye, "The Song of Wandering". — source location `content/en/person/nana-asmau.md — Career`; citation `{cite:wikipedia-nana-asmau-en}`; flag: **stated**.
-6. She died in 1864 according to Wikipedia and Wikidata; Jean Boyd's scholarly biography carries the years 1793–1865 in its title, and the discrepancy is recorded here openly. — source location `content/en/person/nana-asmau.md — Career`; citation `{cite:wikipedia-nana-asmau-en} {cite:wikidata-nana-asmau}`; flag: **stated**.
-7. She left more than sixty works written over forty years — poetry and prose in Arabic, Fula, Hausa and Tamacheq, all in the Arabic script — including historical narratives, elegies, laments and admonitions that analysed social conflict, religious reform and the ethics of leadership, and became tools for teaching the Caliphate's founding principles. — source location `content/en/person/nana-asmau.md — Works and achievements`; citation `{cite:wikipedia-nana-asmau-en}`; flag: **stated**.
-8. Writing much of her work in local languages in Arabic script ('ajami) carried her scholarship beyond the Arabic-literate elite, to rural women, non-Arabic speakers and newly Islamised communities. — source location `content/en/person/nana-asmau.md — Works and achievements`; citation `{cite:wikipedia-nana-asmau-en}`; flag: **stated**.
-
+1. Nana Asma'u (1793–1864) was a scholar, poet, and teacher in the Sokoto Caliphate, daughter of its founder and half-sister of its second Sultan. — source location `content/en/person/nana-asmau.md — Summary`; citation `{cite:wikipedia-nana-asmau-en}`; flag: **stated**.
+2. She authored over sixty works in multiple languages and established the 'Yan Taru network of female educators. — source location `content/en/person/nana-asmau.md — Summary`; citation `{cite:wikipedia-nana-asmau-en}`; flag: **stated**.
+3. Born in 1793 in Degel, her childhood included the Fulani War (1804–1808), which established the Sokoto Caliphate. — source location `content/en/person/nana-asmau.md — Career`; citation `{cite:wikipedia-nana-asmau-en}`; flag: **stated**.
+4. Educated in Islamic studies like her father, she focused on women's education, following her family's Qadiriyya Sufi beliefs. — source location `content/en/person/nana-asmau.md — Career`; citation `{cite:wikipedia-nana-asmau-en}`; flag: **stated**.
+5. She advised her brother Muhammad Bello, wrote instructions for governors, debated foreign scholars, and authored Wakar Gewaye. — source location `content/en/person/nana-asmau.md — Career`; citation `{cite:wikipedia-nana-asmau-en}`; flag: **stated**.
+6. Her death year is reported as 1864 by Wikipedia and Wikidata, but Jean Boyd's biography suggests 1865. — source location `content/en/person/nana-asmau.md — Career`; citation `{cite:wikipedia-nana-asmau-en} {cite:wikidata-nana-asmau}`; flag: **stated**.
+7. She produced more than sixty works over forty years, including historical narratives, elegies, and admonitions in multiple languages. — source location `content/en/person/nana-asmau.md — Works and achievements`; citation `{cite:wikipedia-nana-asmau-en}`; flag: **stated**.
+8. Writing in local languages using Arabic script ('ajami) expanded her scholarship to rural women, non-Arabic speakers, and newly Islamised communities. — source location `content/en/person/nana-asmau.md — Works and achievements`; citation `{cite:wikipedia-nana-asmau-en}`; flag: **stated**.
 ## Thumbnail elements without record support
 
 The atlas title is The Teacher of Sokoto. No record read supports the exact pictured scene, costumes, objects, people, weather, lighting or child-facing drama implied by the thumbnail. Because the source pictures are not available in this checkout, this dossier uses the atlas titles rather than visual inspection; the title itself is not treated as a historical claim. Treat those elements as design fiction unless a reviewer supplies support.
@@ -43,15 +50,15 @@ The atlas title is The Teacher of Sokoto. No record read supports the exact pict
 
 These are proposals for Claude and the founder, not content.
 
-1. A local problem asks the player to apply Rhythm, Network and Journal to the documented object, place, text or route, using only the claims above as the factual base.
+1. In the Rhythm system, players tap to the beat of Nana Asma'u's poetry, learning about her life and works [1, 7]. The game invents the rhythm but uses historical evidence to inform the content.
 
-2. Hudhud helps the player compare what the museum record states, what it states uncertainly and what the thumbnail adds, then solve the puzzle through Rhythm, Network and Journal.
+2. Using the Network system, players build the 'Yan Taru network, connecting women teachers across the Caliphate [2]. The game invents the network-building mechanics but is grounded in the historical network established by Asma'u.
 
-3. The completed page returns to the Atlas with optional older-reader context, one hidden collectible and replay goals. This is a structural proposal only, not historical content.
+3. In the Journal system, players document historical events and social conflicts through Asma'u's eyes, writing in her style [5, 7]. The game invents the journal entries but is inspired by Asma'u's own writings.
 
 ## Sensitivities
 
-Do not add war, illness, death, slavery, sect or living disputes unless the reviewed record requires them and they are necessary, age-appropriate and non-spectacular. Literary traditions must be labelled as such. Invented dialogue must be explicit dramatized paraphrase, never a false quotation.
+Evidence scan, not a ruling: war/conflict; illness/death. Any such material still requires the full content-safety and age-appropriateness review. Do not add war, illness, death, slavery, sect or living disputes unless the reviewed record requires them and they are necessary, age-appropriate and non-spectacular. Literary traditions must be labelled as such. Invented dialogue must be explicit dramatized paraphrase, never a false quotation.
 
 ## Gaps
 
