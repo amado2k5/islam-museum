@@ -10,7 +10,7 @@ import { FIELD_SHAPE } from "../src/ui/map";
 import { LIMITS, OVERVIEW, START, approach, clampPose, eyeOf, pan, turn, zoom } from "../src/view/camera";
 import { oxCart, waterWheel } from "../src/view/buildings";
 import { modelUrl, modelsAvailable } from "../src/view/models";
-import { BRIDGE, MILL, MOSQUE, ROAD_NORTH, roadHeight, roadLine } from "../src/view/valley";
+import { BRIDGE, KIT_HOUSES, MILL, MOSQUE, ROAD_NORTH, roadHeight, roadLine } from "../src/view/valley";
 import { BOUNDS, CHANNELS, CHANNEL_WATER, FIELDS, HOUSE_LOTS, LAND, PLOT_GRID, POOL, RIVER_HALF, broadTree, buildLand, buildRange, buildRiver, buildScenery, channelWater, cropSpots, cypressTree, fieldAt, fieldGround, heightAt, orchardTree, plotAt, plotPoint, plotTable, poolWater, poplarTree, riverZ, settled, waterLevel, worked } from "../src/view/valley";
 
 const SEED = 7;
@@ -407,5 +407,33 @@ describe("the camera", () => {
     expect(p.pitch).toBeCloseTo(goal.pitch, 4);
     const a = approach({ ...START, yaw: 3.1 }, { ...START, yaw: -3.1 }, 0.5);
     expect(Math.abs(a.yaw)).toBeGreaterThan(3.1);
+  });
+});
+
+describe("the town, when its houses are models made ahead of time", () => {
+  const authored = buildScenery(SEED, { authoredTown: true });
+
+  it("stands a kit house wherever a made one would have stood, and makes none itself", () => {
+    expect(scenery.kit).toEqual([]);
+    expect(authored.houses.every((h) => h.length === 0)).toBe(true);
+    expect(authored.kit.filter((k) => k.lot !== null).map((k) => k.lot)).toEqual(HOUSE_LOTS.map((_, i) => i));
+    expect(authored.kit.length).toBeGreaterThan(150);
+    expect(authored.triangles).toBeLessThan(scenery.triangles);
+    for (const k of authored.kit) {
+      expect(KIT_HOUSES).toContain(k.piece);
+      expect(Math.abs(k.y + 0.35 - heightAt(k.x, k.z, SEED))).toBeLessThan(0.01);
+      expect(k.scale).toBeGreaterThan(0.9);
+      expect(k.scale).toBeLessThan(2.2);
+      for (const c of k.tint) expect(c).toBeGreaterThan(0.75);
+    }
+    // No house stands in the river or on its bank.
+    for (const k of authored.kit) expect(Math.abs(k.z - riverZ(k.x)), `${k.x}, ${k.z}`).toBeGreaterThan(RIVER_HALF + 8);
+    // Every piece of the kit is used, so the town is not one house many times.
+    expect(new Set(authored.kit.map((k) => k.piece)).size).toBe(KIT_HOUSES.length);
+  });
+
+  it("leaves the rest of the valley as it was, tree for tree", () => {
+    for (const kind of ["trees", "cypresses", "citrus", "almonds", "poplars", "scrub", "olives", "palms", "stalls"] as const) expect(authored[kind]).toEqual(scenery[kind]);
+    expect(authored.footprints).toEqual(scenery.footprints);
   });
 });

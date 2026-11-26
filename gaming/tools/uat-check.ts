@@ -67,7 +67,7 @@ for (const [game, extra] of [["granada", ""], ["golden-age", ""], ["golden-age",
   // Granada takes up its authored models a moment after its 3D valley is up, where the host has them.
   let models: string[] | null = null;
   if (game === "granada" && threeD) {
-    for (const end = Date.now() + 30_000; ((await page.evaluate("window.__GR__.stage().info().models.length + window.__GR__.stage().info().modelFailures.length")) as number) === 0; ) {
+    for (const end = Date.now() + 30_000; !((await page.evaluate("(() => { const i = window.__GR__.stage().info(); return i.models.includes('granada/mill') || i.modelFailures.length > 0; })()")) as boolean); ) {
       if (Date.now() > end) break;
       await page.waitForTimeout(200);
     }

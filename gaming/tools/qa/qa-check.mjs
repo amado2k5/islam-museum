@@ -83,7 +83,7 @@ report.release = await (await fetch(`${base}/_channel`)).json();
     await until(page, "window.__GR__.threeD !== 'pending'", 120_000);
     row.threeD = await page.evaluate("window.__GR__.threeD");
     if (row.threeD === "on") {
-      await until(page, "(() => { const i = window.__GR__.stage().info(); return i.models.length + i.modelFailures.length > 0; })()", 30_000);
+      await until(page, "(() => { const i = window.__GR__.stage().info(); return i.models.includes('granada/mill') || i.modelFailures.length > 0; })()", 30_000);
       const info = await page.evaluate("(() => { const i = window.__GR__.stage().info(); return { models: i.models, modelFailures: i.modelFailures, triangles: i.triangles, engine: i.engine }; })()");
       Object.assign(row, info);
       if (!info.models.includes("granada/mill")) problem(label, `the authored mill did not load: ${info.modelFailures.join("; ") || "no reason given"}`);

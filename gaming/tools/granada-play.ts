@@ -29,7 +29,7 @@ page.on("response", (r) => {
 });
 // The authored models are media and are on a machine only if the art scripts were run there. Where they are, the
 // valley must take them up; where they are not, the page is told not to ask for them, and draws its own shapes.
-const haveModels = existsSync(resolve(import.meta.dirname, "../media/models/granada/mill.gltf"));
+const haveModels = existsSync(resolve(import.meta.dirname, "../media/models/granada/2/mill.gltf"));
 const url = (extra = "", view = "&view=plan") => `${served.base}/games/granada/index.html?lang=${lang}&seed=7&music=off${haveModels ? "" : "&models=off"}${view}${extra}`;
 const shot = (name: string) => page.screenshot({ path: resolve(out, `granada-${lang}-${name}.png`) });
 const fail = async (why: string): Promise<never> => {
@@ -156,7 +156,7 @@ if (threeD !== "on") {
   if (!(info.triangles > 100_000)) await fail(`the 3D valley drew ${info.triangles} triangles`);
   const models = await game<{ models: string[]; modelFailures: string[] }>("(() => { const i = window.__GR__.stage().info(); return { models: i.models, modelFailures: i.modelFailures }; })()");
   log.models = haveModels ? models : "none on this machine: the valley drew its own shapes";
-  if (haveModels && !models.models.includes("granada/mill")) await fail(`the authored mill did not load: ${models.modelFailures.join("; ") || "no reason given"}`);
+  for (const wanted of ["granada/town", "granada/mill"]) if (haveModels && !models.models.includes(wanted)) await fail(`the authored model ${wanted} did not load: ${models.modelFailures.join("; ") || "no reason given"}`);
   if (!haveModels && models.models.length) await fail("told not to fetch models, the valley fetched one");
   await shot("7-valley-3d");
   // A click on the mill field in the valley opens it, as a click on the plan does.

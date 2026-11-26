@@ -12,12 +12,25 @@ The games' scenery was generated in the browser, at load, from boxes. This folde
 | `blender/granada_mill.py` | Granada, hero asset 1: the watermill |
 | `manifest.py`, `manifest.json` | For each asset: its source scripts and every output file, with sizes and SHA-256 |
 
+## Surfaces photographed by others
+
+From 26 November 2026 the kit's plaster, roof tile, stone, timber and paving are photographs given to the public domain (CC0) by [Poly Haven](https://polyhaven.com/license), downloaded with the founder's approval through his own browser. [`sources.json`](sources.json) names each one, its authors, its page, and the checksum of every file. They are media and are not in git: they live under `gaming/media/textures/polyhaven/`, and a machine without them gets the surfaces the kit paints itself, so every script still runs. Poly Haven asks for no credit; it is given anyway. Three washes are made from the one stucco by tinting it (a lime white, an ochre, a red earth).
+
+## The town kit
+
+`blender/granada_town.py` makes `town.gltf`: four houses, a length of wall, a tower, a gate, scaffolding and a market stall, each an object of its own name in one file so that they share one set of surfaces. The game stands the houses many times over (`KitPlacement` in `games/granada/src/view/valley.ts`). No source stands behind any of these shapes; they are a reconstruction awaiting review (entry HR-GR-06 of the historical-review ledger).
+
+## A set of models that changes gets a new folder
+
+A file on the games' host is never replaced. So when the models of a game change, the whole set is written to a new folder (`granada/2/`), the game is pointed at it (`MODEL_SET` in `three-valley.ts`), and the older set stays where a release that is rolled back to expects it.
+
 ## Running it
 
 Blender 5.3 must be on the path (`brew install --cask blender`). From `gaming/`:
 
 ```bash
-npm run art:mill                 # paints the textures, builds the mill, writes media/models/granada/mill.gltf
+npm run art:mill                 # prepares the textures, builds the mill, writes media/models/granada/2/mill.gltf
+npm run art:town                 # the town kit, into the same folder
 npm run art:mill -- preview.png  # the same, and a lit picture of it (about two minutes more)
 npm run art:manifest             # records what came out
 npm run art:manifest -- --check  # fails if this machine's models are not the recorded ones
