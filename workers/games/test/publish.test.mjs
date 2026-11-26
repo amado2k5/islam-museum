@@ -2,7 +2,7 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
 import { readFileSync } from "node:fs";
-import { nextPointer, releaseIdOf, rollbackPointer, tracksToPublish } from "../publish.mjs";
+import { flatName, modelsToPublish, nextPointer, releaseIdOf, rollbackPointer, tracksToPublish } from "../publish.mjs";
 import { createHash } from "node:crypto";
 import { parseChannel } from "../src/route.js";
 const tracksToPublishSha = (bytes) => createHash("sha256").update(bytes).digest("hex");
@@ -60,4 +60,32 @@ test("only the tracks the manifest names, byte for byte, can be published as the
   assert.throws(() => tracksToPublish({ tracks: [{ file: "04-missing.m4a", bytes: 1, sha256 }] }, "/m", read, exists), /is not in/);
   for (const file of ["../../ar/index.html", "x.mp3", "a/b.m4a", ".hidden.m4a", "X.m4a"]) assert.throws(() => tracksToPublish({ tracks: [{ file, bytes: 1, sha256 }] }, "/m", read, exists), /not a track file name/, file);
   assert.throws(() => tracksToPublish({ tracks: [] }, "/m", read, exists), /names no track/);
+});
+
+test("only the model files the art manifest names, byte for byte, can be published as models", () => {
+  const sha = (b) => createHash("sha256").update(b).digest("hex");
+  const gltf = Buffer.from('{"asset":{"version":"2.0"}}');
+  const stone = Buffer.from("stone");
+  const entry = (path, body) => ({ path, bytes: body.length, sha256: sha(body) });
+  const manifest = { format: "im.play.art", assets: [{ id: "granada/mill", files: [entry("granada/mill.gltf", gltf), entry("granada/textures/stone_base.jpg", stone)] }, { id: "granada/house", files: [entry("granada/textures/stone_base.jpg", stone)] }] };
+  // Found under their own paths, as on the machine that made them...
+  const nested = { "/m/granada/mill.gltf": gltf, "/m/granada/textures/stone_base.jpg": stone };
+  const out = modelsToPublish(manifest, "/m", (p) => nested[p], (p) => p in nested);
+  assert.deepEqual(out.map((f) => [f.key, f.contentType]), [["games/media/models/granada/mill.gltf", "model/gltf+json"], ["games/media/models/granada/textures/stone_base.jpg", "image/jpeg"]]);
+  // ...or under flat names, as in a release's assets. A texture two assets share is published once.
+  assert.equal(flatName("granada/textures/stone_base.jpg"), "granada__textures__stone_base.jpg");
+  const flat = { "/d/granada__mill.gltf": gltf, "/d/granada__textures__stone_base.jpg": stone };
+  assert.equal(modelsToPublish(manifest, "/d", (p) => flat[p], (p) => p in flat).length, 2);
+  // Not what the manifest records, missing, or recorded twice with different contents: refused.
+  const tampered = { ...nested, "/m/granada/mill.gltf": Buffer.from("something else") };
+  assert.throws(() => modelsToPublish(manifest, "/m", (p) => tampered[p], (p) => p in tampered), /not the file the manifest records/);
+  assert.throws(() => modelsToPublish(manifest, "/m", () => gltf, () => false), /is not in/);
+  const twice = { format: "im.play.art", assets: [{ id: "a", files: [entry("granada/mill.gltf", gltf)] }, { id: "b", files: [entry("granada/mill.gltf", stone)] }] };
+  assert.throws(() => modelsToPublish(twice, "/m", (p) => nested[p], (p) => p in nested), /recorded twice/);
+  // A path that could leave the models folder, or name some other kind of file, is refused before anything is read.
+  for (const path of ["../../ar/index.html", "/etc/passwd.jpg", "granada/../x.jpg", "granada/mill.js", "granada/mill.html", "mill.gltf", "granada__mill.gltf", "granada/Mill.gltf", "granada/.hidden.jpg", "granada//x.jpg"]) {
+    assert.throws(() => modelsToPublish({ format: "im.play.art", assets: [{ id: "x", files: [{ path, bytes: 1, sha256: "0" }] }] }, "/m", () => gltf, () => true), /not a model file's path/, path);
+  }
+  assert.throws(() => modelsToPublish({ format: "im.play.art", assets: [] }, "/m"), /names no asset/);
+  assert.throws(() => modelsToPublish({ tracks: [] }, "/m"), /names no asset/);
 });

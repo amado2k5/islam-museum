@@ -141,6 +141,17 @@ If an environment has no tracks yet, a game shows its music control and reports 
 
 On UAT, after the second release ([run 45717519130](https://github.com/amado2k5/islam-museum/actions/runs/45717519130), release `20261125-1057ab8a554`, with `20261125-3599b8f514c` kept as the one before): a track answers 206 to a span of bytes with the right `content-range`, 200 whole, and its SHA-256 as fetched equals the one in `music.json`; `gaming/tools/uat-check.ts` opened the three games there in a muted Chrome and each showed the music control, asked for nothing before a click, played a track after one, and kept an empty console. The Golden Age ran in 3D there.
 
+## The models
+
+The games' authored models (`gaming/art/`) are media too, and travel as the music does:
+
+1. On the machine that has Blender: `npm --prefix gaming run art:mill` makes the model under the git-ignored `gaming/media/models/`, and `npm --prefix gaming run art:manifest` records every file's size and SHA-256 in `gaming/art/manifest.json`, which is committed.
+2. The files are attached to the same draft release, `games-media`. A release has no folders, so each goes under a flat name, `/` written as `__` (`granada/mill.gltf` is `granada__mill.gltf`).
+3. **Upload the games' media** (`games-media.yml`), kind `models`, `check` then `upload`, for UAT and then for production: it fetches the files, refuses any that is not byte for byte what the manifest records, puts each under `games/media/models/` at its own path, and reads it back. A file already there is left alone if identical and refused if not. Nothing is deleted.
+4. The workflow's build is made with `--models-base ../media/models/`, so a game asks for its models beside itself on the games host.
+
+**Upload before you release.** A game does without a model it cannot fetch (it keeps the shape its own code draws), but the browser still records the failed request. So the models go to an environment before a release that looks for them does, as with the music; production has neither yet.
+
 ## Trying the games from another device on the same network
 
 The development server can listen on the machine's network address: start the launch configuration `gaming-dev-lan` (`.claude/launch.json`: the same server with `--host 0.0.0.0`), then open `http://<this machine's address>:4330/games/granada/index.html?lang=ar` on a phone or another computer on the same network. It is the development build, with the music if the tracks were imported, and it is reachable by anyone on that network while it runs. One limit comes from the browsers, not from the games: WebGPU is offered only on `https` or on `localhost`, so over a plain network address The Golden Age shows its plan view instead of 3D. Granada and Atlas do not need it. The UAT address is `https` and has no such limit.

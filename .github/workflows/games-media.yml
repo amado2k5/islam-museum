@@ -1,4 +1,4 @@
-name: Upload the games' music
+name: Upload the games' media
 
 # The museum's own suite is the music of every game, and the audio is never in git. This workflow carries the six
 # encoded tracks from a draft release of this repository (where the founder's machine put them, out of public view)
@@ -9,26 +9,38 @@ name: Upload the games' music
 # recorded there; a track already in the bucket is left alone if it is identical and refused if it is not. It never
 # deletes anything and touches nothing outside games/.
 #
+# The games' authored models travel the same way (kind: models): the files named in gaming/art/manifest.json, each
+# checked against the size and SHA-256 recorded there, go under games/media/models/. A release has no folders, so a
+# model's file is attached under a flat name, "/" written as "__" (granada/mill.gltf is granada__mill.gltf); the
+# manifest, which is in git, says where each belongs. To put them where this workflow can find them:
+#   npm --prefix gaming run art:mill && npm --prefix gaming run art:manifest   (then attach each file under its flat name)
+#
 # To put the tracks where this workflow can find them, on the machine that has them (once):
 #   npm --prefix gaming run music:import -- <folder with the six WAV masters>
 #   gh release create games-media --draft --title "Games media (transport only)" --notes "Not a release of anything." gaming/media/music/*.m4a
 on:
   workflow_dispatch:
     inputs:
+      kind:
+        description: "What to carry: the music, or the authored models."
+        required: true
+        type: choice
+        options: [music, models]
+        default: music
       environment:
-        description: "Where the music goes: uat first, then production."
+        description: "Where it goes: uat first, then production."
         required: true
         type: choice
         options: [uat, production]
         default: uat
       action:
-        description: "check: verify the tracks and say what would be uploaded, writing nothing. upload: put them in the bucket."
+        description: "check: verify the files and say what would be uploaded, writing nothing. upload: put them in the bucket."
         required: true
         type: choice
         options: [check, upload]
         default: check
       release_tag:
-        description: "The draft release that holds the six .m4a files."
+        description: "The draft release that holds the files."
         required: false
         type: string
         default: games-media
@@ -38,12 +50,12 @@ permissions:
   contents: write
 
 concurrency:
-  group: games-media-${{ inputs.environment }}
+  group: games-media-${{ inputs.environment }}-${{ inputs.kind }}
   cancel-in-progress: false
 
 jobs:
   media:
-    name: ${{ inputs.action }} (${{ inputs.environment }})
+    name: ${{ inputs.action }} ${{ inputs.kind }} (${{ inputs.environment }})
     runs-on: ubuntu-latest
     timeout-minutes: 15
     environment: ${{ inputs.environment }}
@@ -81,17 +93,22 @@ jobs:
       - uses: actions/setup-node@v7
         with:
           node-version: 22
-      - name: Fetch the tracks from the draft release
+      - name: Fetch the files from the draft release
         env:
           GH_TOKEN: ${{ github.token }}
           TAG: ${{ inputs.release_tag }}
+          KIND: ${{ inputs.kind }}
         run: |
           set -euo pipefail
           [[ "$TAG" =~ ^[A-Za-z0-9._-]+$ ]] || { echo "::error::\"$TAG\" is not a release tag."; exit 1; }
           mkdir -p media-in
-          gh release download "$TAG" --dir media-in --pattern "*.m4a"
+          if [ "$KIND" = "models" ]; then
+            gh release download "$TAG" --dir media-in --pattern "*.gltf" --pattern "*.bin" --pattern "*.jpg"
+          else
+            gh release download "$TAG" --dir media-in --pattern "*.m4a"
+          fi
           ls -l media-in
-      - name: ${{ inputs.action == 'upload' && 'Upload the music and read it back' || 'Say what would be uploaded (writes nothing)' }}
+      - name: ${{ inputs.action == 'upload' && 'Upload the files and read them back' || 'Say what would be uploaded (writes nothing)' }}
         env:
           AWS_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
@@ -99,13 +116,15 @@ jobs:
           ENDPOINT: https://${{ secrets.CLOUDFLARE_ACCOUNT_ID }}.r2.cloudflarestorage.com
           BUCKET: ${{ steps.env.outputs.bucket }}
           ACTION: ${{ inputs.action }}
+          KIND: ${{ inputs.kind }}
         run: |
           set -euo pipefail
           dry=""; [ "$ACTION" = "upload" ] || dry="--dry-run"
+          manifest=gaming/packages/audio/music.json; [ "$KIND" = "models" ] && manifest=gaming/art/manifest.json
           # shellcheck disable=SC2086
-          node workers/games/publish.mjs media --bucket "$BUCKET" --endpoint "$ENDPOINT" --dir media-in --manifest gaming/packages/audio/music.json $dry | tee media.log
+          node workers/games/publish.mjs media --kind "$KIND" --bucket "$BUCKET" --endpoint "$ENDPOINT" --dir media-in --manifest "$manifest" $dry | tee media.log
           {
-            echo "### Music: $ACTION (${{ inputs.environment }})"
+            echo "### Media ($KIND): $ACTION (${{ inputs.environment }})"
             echo
             echo '```'
             cat media.log
