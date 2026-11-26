@@ -1,6 +1,6 @@
 # The games' art, made from source
 
-_Begun 25 November 2026 for piece 1 of the corrective work ([`docs/gaming/traceability.md`](../../docs/gaming/traceability.md)), after the founder allowed Blender to be installed for it. **One asset exists: Granada's watermill, as a preview. It is not in the game yet.**_
+_Begun 25 November 2026 for piece 1 of the corrective work ([`docs/gaming/traceability.md`](../../docs/gaming/traceability.md)), after the founder allowed Blender to be installed for it. **One asset exists: Granada's watermill. The valley loads it where the model is to be had; it is on no host yet.**_
 
 The games' scenery was generated in the browser, at load, from boxes. This folder is the other way of making it: assets authored ahead of time by scripts run in Blender, with real mesh detail and mapped textures, exported as glTF for the game to load. "Authored" here means designed on purpose and built from source that anyone can run again; nothing is drawn by hand, nothing is downloaded, and no photograph is used.
 
@@ -25,6 +25,10 @@ npm run art:manifest -- --check  # fails if this machine's models are not the re
 
 The models and textures are media: they are written under `gaming/media/models/`, which git ignores, as the music is. `manifest.json` is what is committed.
 
+## How a game gets a model
+
+Like the music: the models are served beside the releases, from `media/models/` on the games host, and are in no release. A build is told where they are with `--models-base` (`npm run build:release:media` for a local one); without it a build is told there are none and asks for nothing. In development the workspace's own `media/models/` is used. A game must be able to do without any model: it draws a shape of its own first and lets the model take its place.
+
 ## Standards
 
 - One unit is one metre. Z is up in Blender and Y is up in the export.
@@ -36,7 +40,7 @@ The models and textures are media: they are written under `gaming/media/models/`
 
 ## What it does not do yet
 
-- **Only one asset, and it is not loaded by the game.** The valley still draws its own code-made mill.
+- **Only one asset.** The valley loads it (`games/granada/src/view/models.ts`) and keeps its own code-made mill for when the model is not there. No model has been uploaded to a host, so UAT shows the code-made one.
 - No levels of detail, no collision shapes, no compressed GPU textures.
 - No figures: nothing here can make a person or an animal that walks.
 - Whether a second run gives the same bytes on another machine or another Blender is not known; the manifest is there to find out.

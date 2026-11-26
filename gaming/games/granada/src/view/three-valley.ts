@@ -16,6 +16,7 @@ import { ROBE_TINTS, awningMesh, palmMesh, personBodyMesh, personHeadMesh, stall
 import type { Atmosphere } from "@im/worldkit/atmosphere";
 import type { TextureData, TextureKind } from "@im/worldkit/textures";
 import { FOV, eyeOf, type Pose } from "./camera";
+import { MODELS_AVAILABLE, disposeModel, loadModel } from "./models";
 import { CHANNELS, FIELDS, GRANARY, HOUSE_LOTS, MARKET, PLOT_GRID, POOL, STORE, VILLAGE, broadTree, buildLand, buildRange, buildRiver, buildScenery, channelWater, cropSpots, cypressTree, fieldAt, fieldGround, heightAt, oliveTree, orchardTree, plotTable, poolWater, poplarTree, vegetablePlant, wheatTuft, type Chunk } from "./valley";
 
 export type Quality = "low" | "high";
@@ -24,6 +25,8 @@ export interface ValleyOptions {
   seed: number;
   reducedMotion: boolean;
   maxPixelRatio: number;
+  /** Whether to fetch the authored models. Without them the valley draws its own shapes, as it does until they arrive. */
+  models: boolean;
 }
 export interface FieldLook {
   crop: "wheat" | "olives" | "vegetables" | null;
@@ -156,6 +159,12 @@ export class ValleyRenderer {
   private ring!: THREE.Mesh;
   private wheel!: THREE.Mesh;
   private wheelTurns = false;
+  private codeMill: THREE.Mesh[] = [];
+  private millModel: THREE.Object3D | null = null;
+  private millWheel: THREE.Object3D | null = null;
+  private readonly models: string[] = [];
+  private readonly modelFailures: string[] = [];
+  private disposed = false;
   private carts!: THREE.InstancedMesh;
   private cartRoads: Array<ReadonlyArray<readonly [number, number]>> = [];
   private lastTime = 0;
@@ -293,6 +302,9 @@ export class ValleyRenderer {
     this.meadowStone = addChunks(scenery.meadowChannel);
     this.houses = scenery.houses.map((h) => addChunks(h));
     this.granary = addChunks(scenery.granary);
+    this.codeMill = addChunks(scenery.mill);
+    // The authored mill is fetched while the valley is already on screen, and takes the code-made one's place.
+    if (options.models && MODELS_AVAILABLE) void this.loadMill(scenery.millAt);
     // The mill's wheel, on its axle: it turns while the west branch carries water.
     const wheelGeometry = geometryOf(scenery.wheel.mesh);
     this.disposables.push(wheelGeometry);
@@ -512,6 +524,24 @@ export class ValleyRenderer {
     m.colorNode = mix(ground, rowColour, rows).mul(detail.colour);
     m.normalNode = detail.normal;
     return { material: m, ground, rows: rowColour };
+  }
+
+  private async loadMill(at: { x: number; y: number; z: number; yaw: number }): Promise<void> {
+    try {
+      const model = await loadModel("granada/mill.gltf");
+      if (this.disposed) return disposeModel(model);
+      model.position.set(at.x, at.y, at.z);
+      model.rotation.y = at.yaw;
+      this.scene.add(model);
+      this.millModel = model;
+      this.millWheel = model.getObjectByName("wheel") ?? null;
+      for (const m of this.codeMill) m.visible = false;
+      this.wheel.visible = this.millWheel === null;
+      this.models.push("granada/mill");
+    } catch (e) {
+      // The code-made mill stays. Said in info(), not thrown: a valley without its models is still the valley.
+      this.modelFailures.push(`granada/mill: ${e instanceof Error ? e.message : String(e)}`);
+    }
   }
 
   /** Two wave trains crossing at different scales and speeds, in world space. */
@@ -813,7 +843,7 @@ export class ValleyRenderer {
     // The wheel, and the carts going out along the roads and back.
     const dt = this.lastTime ? Math.min(0.1, timeSeconds - this.lastTime) : 0;
     this.lastTime = timeSeconds;
-    if (this.wheelTurns && !still) this.wheel.rotation.z -= dt * 0.7;
+    if (this.wheelTurns && !still) (this.millWheel ?? this.wheel).rotation.z -= dt * 0.7;
     const carts = this.carts.instanceMatrix.array as Float32Array;
     for (let i = 0; i < CARTS; i++) {
       const road = this.cartRoads[i % Math.max(1, this.cartRoads.length)];
@@ -870,12 +900,14 @@ export class ValleyRenderer {
     return this.pixelRatioCap;
   }
 
-  info(): { drawCalls: number; triangles: number; cpuRenderMs: number; engine: string; pixels: [number, number]; walkers: number } {
+  info(): { drawCalls: number; triangles: number; cpuRenderMs: number; engine: string; pixels: [number, number]; walkers: number; models: string[]; modelFailures: string[] } {
     const r = this.renderer.info.render as unknown as { drawCalls: number; triangles: number };
-    return { drawCalls: r.drawCalls, triangles: r.triangles, cpuRenderMs: this.cpuMs, engine: `three r${THREE.REVISION} webgpu`, pixels: [this.canvas.width, this.canvas.height], walkers: this.walkers };
+    return { drawCalls: r.drawCalls, triangles: r.triangles, cpuRenderMs: this.cpuMs, engine: `three r${THREE.REVISION} webgpu`, pixels: [this.canvas.width, this.canvas.height], walkers: this.walkers, models: [...this.models], modelFailures: [...this.modelFailures] };
   }
 
   dispose(): void {
+    this.disposed = true;
+    if (this.millModel) disposeModel(this.millModel);
     for (const d of this.disposables) d.dispose();
     this.pipeline?.dispose();
     this.renderer.dispose();

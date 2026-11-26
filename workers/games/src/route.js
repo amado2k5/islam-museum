@@ -56,6 +56,8 @@ const CONTENT_TYPES = {
   ".webp": "image/webp",
   ".png": "image/png",
   ".jpg": "image/jpeg",
+  ".gltf": "model/gltf+json",
+  ".bin": "application/octet-stream",
   ".m4a": "audio/mp4",
   ".mp4": "video/mp4",
   ".webm": "video/webm",

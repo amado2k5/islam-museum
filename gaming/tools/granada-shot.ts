@@ -70,6 +70,7 @@ if (threeD === "on" && process.env.MEASURE) {
   await shot("8-hill-town", "{ tx: 540, ty: 20, tz: -60, yaw: 1.35, pitch: 0.16, distance: 330 }");
   await shot("9-mosque", "{ tx: 150, ty: 6, tz: 130, yaw: 2.6, pitch: 0.3, distance: 120 }");
   await shot("10-mill", "{ tx: -30, ty: 5, tz: 46, yaw: 0.5, pitch: 0.28, distance: 90 }");
+  await shot("10b-mill-near", "{ tx: -31, ty: 4, tz: 47, yaw: 0.45, pitch: 0.2, distance: 70 }");
   await shot("11-bridge", "{ tx: 6, ty: 5, tz: -120, yaw: 0.9, pitch: 0.24, distance: 150 }");
   await shot("12-market-road", "{ tx: 380, ty: 8, tz: 236, yaw: 0.2, pitch: 0.5, distance: 240 }");
   console.log(JSON.stringify(await page.evaluate("window.__GR__.stage().info()")));

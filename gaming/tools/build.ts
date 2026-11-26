@@ -30,6 +30,9 @@ const arg = (name: string, fallback: string): string => {
 };
 const out = resolve(root, arg("out", "dist/release"));
 const musicBase = arg("music-base", "off");
+// The authored models, served like the music and absent from a release in the same way: "off" unless the host has them.
+const modelsBase = arg("models-base", "off");
+if (modelsBase !== "off" && !/^https:\/\/[a-z0-9.-]+\/[\w./-]*\/$/.test(modelsBase) && !/^(\.\.\/)+[a-z0-9/-]+\/$/.test(modelsBase)) throw new Error(`--models-base must be "off", a relative path such as ../media/models/ or an https address ending in /, not ${modelsBase}`);
 const home = arg("home", "https://islam.museum/");
 if (musicBase !== "off" && !/^https:\/\/[a-z0-9.-]+\/[\w./-]*\/$/.test(musicBase) && !/^(\.\.\/)+[a-z0-9/-]+\/$/.test(musicBase)) throw new Error(`--music-base must be "off", a relative path such as ../media/music/, or an https address ending in a slash, got ${musicBase}`);
 if (!/^https:\/\/[a-z0-9.-]+\/[\w./-]*$/.test(home)) throw new Error(`--home must be an https address, got ${home}`);
@@ -63,7 +66,7 @@ await build({
   base: "./",
   logLevel: "warn",
   resolve: { alias: Object.fromEntries(Object.entries(alias).map(([k, v]) => [k, resolve(root, v)])) },
-  define: { "import.meta.env.VITE_MUSIC_BASE": JSON.stringify(musicBase) },
+  define: { "import.meta.env.VITE_MUSIC_BASE": JSON.stringify(musicBase), "import.meta.env.VITE_MODELS_BASE": JSON.stringify(modelsBase) },
   build: {
     target: "es2023",
     outDir: out,
@@ -108,6 +111,7 @@ const manifest = {
   commitDate: git("show", "-s", "--format=%cI", "HEAD"),
   dirty: git("status", "--porcelain", "--", ".") !== "",
   musicBase,
+  modelsBase,
   home,
   built: { node: process.version, vite: pkg.devDependencies.vite, three: pkg.dependencies.three },
   games: registry.games.map((g) => ({ id: g.id, status: g.status, page: g.page === null ? null : `${g.id}/` })),

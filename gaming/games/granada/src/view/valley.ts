@@ -451,6 +451,10 @@ export interface Scenery {
   meadowChannel: Chunk[];
   /** Where buildings stand, as circles: nothing is planted inside one. */
   footprints: Array<{ x: number; z: number; r: number }>;
+  /** The mill as the game's own code makes it, drawn until (and unless) the authored model of it arrives. */
+  mill: Chunk[];
+  /** Where the mill stands: the place an authored model of it is set down, facing the same way. */
+  millAt: { x: number; y: number; z: number; yaw: number };
   /** The mill's wheel, about its own axle, and where the axle is. */
   wheel: { mesh: MeshData; x: number; y: number; z: number; yaw: number };
   /** An ox-cart, and the roads carts go along. */
@@ -519,7 +523,8 @@ export function buildScenery(seed: number): Scenery {
   // The mosque, its court to the north of the hall. The mill at the tail of the west branch, and its wheel.
   mosque(set, frame(MOSQUE[0], y(MOSQUE[0], MOSQUE[1]), MOSQUE[1], Math.PI));
   const millFrame = frame(MILL[0], y(MILL[0], MILL[1]), MILL[1], 0);
-  const milled = millHouse(set, millFrame);
+  const millSet = new MeshSet(4000);
+  const milled = millHouse(millSet, millFrame);
   const axle = toWorld(millFrame, milled.axle[0], milled.axle[1], milled.axle[2]);
   const wheel = { mesh: waterWheel(milled.radius), x: axle[0], y: axle[1], z: axle[2], yaw: 0 };
 
@@ -761,7 +766,10 @@ export function buildScenery(seed: number): Scenery {
   const granary = granarySet.chunks().map((c) => ({ material: c.material, mesh: c.mesh }));
   const meadowChannel = meadowSet.chunks().map((c) => ({ material: c.material, mesh: c.mesh }));
   const tris = (cs: Chunk[]) => cs.reduce((n, c) => n + c.mesh.indices.length / 3, 0);
-  return { chunks, cypresses, trees, citrus, almonds, gardens, poplars, scrub, olives, palms, stalls, houses, granary, meadowChannel, footprints, wheel, cart: oxCart(), cartRoads: [roadLine(ROAD_WEST), roadLine(ROAD_EAST)], triangles: tris(chunks) + tris(granary) + houses.reduce((n, h) => n + tris(h), 0) };
+  const mill = millSet.chunks().map((c) => ({ material: c.material, mesh: c.mesh }));
+  // The authored mill's wheel hangs 5.35 m from its centre (gaming/art/manifest.json); the code-made one 5.7 m.
+  const millAt = { x: MILL[0], y: y(MILL[0], MILL[1]) - 0.1, z: MILL[1] + 0.35, yaw: 0 };
+  return { chunks, cypresses, trees, citrus, almonds, gardens, poplars, scrub, olives, palms, stalls, houses, granary, meadowChannel, footprints, mill, millAt, wheel, cart: oxCart(), cartRoads: [roadLine(ROAD_WEST), roadLine(ROAD_EAST)], triangles: tris(chunks) + tris(granary) + houses.reduce((n, h) => n + tris(h), 0) };
 }
 
 // ---- Crops -------------------------------------------------------------------------------------------------------------

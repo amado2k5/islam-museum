@@ -17,6 +17,9 @@ export default defineConfig({
       "@im/granada": r("./games/granada/src"),
     },
   },
+  // The model loader is asked for only when a model is fetched, after the page is up. Named here so that the dev
+  // server has it ready and does not stop to re-bundle its dependencies in the middle of a page (which fails that fetch).
+  optimizeDeps: { include: ["three/addons/loaders/GLTFLoader.js"] },
   server: { port: 4330, strictPort: true, host: "127.0.0.1" },
   build: { target: "es2023", outDir: r("./dist/dev"), emptyOutDir: true },
 });

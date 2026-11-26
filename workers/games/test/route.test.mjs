@@ -30,6 +30,10 @@ test("the type comes from the name, and an unknown kind is never a page", () => 
   assert.equal(contentType("assets/a-1.js"), "text/javascript; charset=utf-8");
   assert.equal(contentType("assets/a-1.css"), "text/css; charset=utf-8");
   assert.equal(contentType("release.json"), "application/json; charset=utf-8");
+  // An authored model: its entry file, its data and its textures.
+  assert.equal(contentType("media/models/granada/mill.gltf"), "model/gltf+json");
+  assert.equal(contentType("media/models/granada/mill.bin"), "application/octet-stream");
+  assert.equal(contentType("media/models/granada/textures/stone_base.jpg"), "image/jpeg");
   assert.equal(contentType("assets/x.JS"), "text/javascript; charset=utf-8");
   assert.equal(contentType("assets/x.exe"), "application/octet-stream");
   assert.equal(contentType("LICENSE"), "application/octet-stream");
