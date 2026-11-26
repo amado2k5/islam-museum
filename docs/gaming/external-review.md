@@ -29,6 +29,32 @@ Other languages: change `lang=en` to `ar`, `ur`, `fr`, `es`, `tr` or `id`. `fres
 - It cannot hear the music.
 - UAT is a test copy: public to anyone who has the address, not listed in search engines, and replaced at every release.
 
+## When the reviewer cannot reach UAT: an offline package
+
+Twice an outside AI reviewer reported that its browser could not open the UAT addresses (`net::ERR_BLOCKED_BY_ADMINISTRATOR`, and no DNS). It asked for a copy it could run with no internet. That exists since 26 November 2026 (UTC):
+
+```bash
+gh run download <games build run> -n games-release -D /tmp/release      # the exact build that is live
+python3 gaming/tools/qa-package.py assemble --release /tmp/release --dir /tmp/qa --build-run <run> --host https://uat-games.islam.museum
+(cd /tmp/qa && python3 serve.py &) ; node /tmp/qa/tests/qa-check.mjs http://localhost:8765 en /tmp/qa-report
+python3 gaming/tools/qa-package.py seal --dir /tmp/qa --verified /tmp/qa-report/qa-check-en.json --out gaming/dist/qa/<name>.zip
+```
+
+- **What is in it:** the release file for file as its own manifest records it (refused otherwise, and refused if the host is serving some other release); the music and the models it fetches, each checked against its own manifest; a launcher that needs only Python 3 and sends the security headers the host sends; a guide to the addresses, the languages, the forced 3D and fallback modes and the seeds; what each recent change should look like; a check script; the museum's own play scripts for reading; checksums of every file. No game file is changed. It is scanned for anything that looks like a credential.
+- **How it was checked** before it was handed over (release `20261125-e2930d63426`, 25.7 MB, 88 files): the check was run in a fresh Chrome whose name lookups were cut off for everything but `localhost`, in English and in Arabic. Every game started in 3D, Granada took up its fetched mill, each forced mode did what it says, a saved game resumed, and no request was made to any other address. The ZIP was then unpacked into a clean folder: all 87 checksums matched.
+- **One thing not explained.** The first run of the check on the unpacked copy stopped because Granada's opening brief had no start button to click; five runs after it on the same copy passed. The check now writes down what it finds at that moment. It has not happened again and its cause is not known.
+- The ZIP is media and a build, so it is not in git (`gaming/dist/` is ignored). The owner hands it to the reviewer himself.
+
+## Why the reviewer could not reach UAT (looked into on 26 November 2026)
+
+The founder asked whether a Cloudflare setting was blocking it. As far as can be tested from outside the account, no:
+
+- The host's name resolves on public DNS, and the page answers 200 to a browser, to a headless browser, to a script, and to requests that give ChatGPT's own user agents (`ChatGPT-User`, `GPTBot`, `OAI-SearchBot`). The museum's own site answers them 200 too. This was asked from one home network; whether Cloudflare treats a data centre's addresses differently could not be tested from there, and the account's settings were not read.
+- `ERR_BLOCKED_BY_ADMINISTRATOR` is an error a browser raises itself, when a policy on the machine it runs on forbids the address, before any request leaves it. A block by Cloudflare comes back as a page (a 403 or a challenge), not as that error. With DNS failing in the same place, the reviewer's sandbox simply has no way out to the internet.
+- **One setting of ours may matter to a different tool.** UAT's `robots.txt` says `Disallow: /` for everyone, and its pages carry `noindex`: that is deliberate, to keep a test copy out of search engines. A reviewer's built-in page fetcher that obeys `robots.txt` will decline to read it. That is set in the games Worker's configuration (`ROBOTS` in `workers/games/wrangler.production.toml`), not in the Cloudflare dashboard, and was left as it is: such a fetcher cannot play a game in any case.
+
+What does work: a browser on the owner's own machine, driven by the reviewer (it has the internet and a GPU), or the offline package above.
+
 ## The prompt
 
 Copy everything in the block.
