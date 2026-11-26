@@ -25,6 +25,48 @@ export function mirror(scale: number): Painted {
   ctx.stroke();
   return p;
 }
+/** A tall storage jar of glazed clay, standing on the floor: it stops the beam on the short road to the page. */
+export function jar(scale: number, height: number): Painted {
+  const w = 76;
+  const [p, ctx] = sheet(w, height, scale);
+  const h = height;
+  blob(ctx, [
+    [26, 6],
+    [50, 6],
+    [48, h * 0.16],
+    [68, h * 0.4],
+    [62, h * 0.82],
+    [50, h - 3],
+    [26, h - 3],
+    [14, h * 0.82],
+    [8, h * 0.4],
+    [28, h * 0.16],
+  ]);
+  fillStroke(ctx, linear(ctx, 8, 0, 68, 0, [
+    [0, "#2f7f86"],
+    [0.4, "#5fb7b4"],
+    [1, "#1f5a66"],
+  ]), INK, 2.4);
+  // The lip, a band of pattern and a streak of light on the glaze.
+  ctx.beginPath();
+  ctx.ellipse(38, 6, 14, 4, 0, 0, Math.PI * 2);
+  fillStroke(ctx, PAL.brass, INK, 2);
+  ctx.strokeStyle = "rgba(244,226,170,0.85)";
+  ctx.lineWidth = 2;
+  for (const y of [h * 0.34, h * 0.46]) {
+    ctx.beginPath();
+    ctx.moveTo(11, y);
+    ctx.quadraticCurveTo(38, y + 7, 65, y);
+    ctx.stroke();
+  }
+  ctx.strokeStyle = "rgba(255,255,255,0.55)";
+  ctx.lineWidth = 4;
+  ctx.beginPath();
+  ctx.moveTo(22, h * 0.3);
+  ctx.quadraticCurveTo(16, h * 0.55, 24, h * 0.78);
+  ctx.stroke();
+  return p;
+}
 /** The stand under a mirror: a brass fork on a turned wooden post of the given height. */
 export function stand(scale: number, height: number): Painted {
   const w = 60;

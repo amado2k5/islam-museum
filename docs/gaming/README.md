@@ -21,6 +21,7 @@ The gaming platform is a separate subsystem of this repository: eleven browser g
 | [`games/atlas.md`](games/atlas.md) | Atlas: what exists, where its questions come from, its rules, what is checked and what is not done |
 | [`games/golden-age.md`](games/golden-age.md) | The Golden Age: the rules of the first scenario, the screen, what was checked in a real browser, what the simulation lab found, what is not done |
 | [`games/granada.md`](games/granada.md) | Granada: the first scenario and its page, what was checked in a real browser, what the lab found, the museum records behind it, and what is not built (the 3D valley first of all) |
+| [`save-service.md`](save-service.md) | The games' save vault (IndexedDB, two snapshots, checksums, recovery, tabs, export and import): the core built and tested, used by no game yet |
 | [`device-preflight.md`](device-preflight.md) | The device check every game is to stand behind, and the page a refused device sees: what is refused and why, what was run, and what follows from the rule (Hudhud only so far) |
 | [`games/hudhud.md`](games/hudhud.md) | Hudhud: The Atlas of Wonders, the 2D story game that has sole priority since 26 November 2026: its one scene, what it is not, and its numbers |
 | [`hudhud/`](hudhud/README.md) | Hudhud's instruction from the founder (unedited), the first decision package, the 80-to-50 table, the design, the art plan, the architecture, the plans and the pause of the other games |

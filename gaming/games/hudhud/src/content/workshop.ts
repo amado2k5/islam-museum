@@ -7,8 +7,8 @@
 //                        (invention/camera-obscura); light going from the thing to the eye, the book on optics, Basra
 //                        and Cairo (person/ibn-al-haytham, work/kitab-al-manazir)
 //   invented for play    the workshop itself, its cat, the page of the Atlas, the mirrors on stands, every spoken line,
-//                        the view through the arch, and the prism (which the founder's pictures show and no record
-//                        read for this scene supports; see the review ledger, HR-HH-03)
+//                        the view through the arch. There is no prism: the founder's pictures show one and no record
+//                        read for this scene supports it, so it was taken out (review ledger, HR-HH-03)
 import type { Script } from "../narrative/dialogue";
 import type { Lean, LightPuzzle } from "../sim/light";
 import type { Room } from "../sim/move";
@@ -20,13 +20,21 @@ export const cellY = (row: number) => GRID.y0 + row * GRID.dy;
 
 export type PlayStyle = "story" | "explorer" | "challenge";
 
-/** The leans that light the page. */
-const SOLVED: Record<string, Lean> = { a: "\\", b: "\\", c: "/", d: "/", e: "\\" };
-/** How each play style finds the mirrors: Story and Explorer need three turns, Challenge all five. */
+/** The positions that light the page. Mirrors f and g stand in the beam's road and must be laid flat. */
+const SOLVED: Record<string, Lean> = { a: "\\", b: "\\", c: "/", d: "/", e: "\\", f: "-", g: "-" };
+/**
+ * How each way of playing finds the room.
+ *   Story      five mirrors with two positions each; three need a turn, and they glow.
+ *   Explorer   six mirrors with three positions each (two leans, and laid flat so that the beam passes). Three need
+ *              one turn each; the sixth stands in the beam's road, already flat, and turning it is a mistake to
+ *              understand and undo.
+ *   Challenge  seven mirrors, all wrong, ten turns at the least, and the page in words says only where the beam ends:
+ *              the road has to be reasoned out, not read off.
+ */
 const START: Record<PlayStyle, Record<string, Lean>> = {
   story: { a: "/", b: "\\", c: "\\", d: "/", e: "/" },
-  explorer: { a: "/", b: "\\", c: "\\", d: "/", e: "/" },
-  challenge: { a: "/", b: "/", c: "\\", d: "\\", e: "/" },
+  explorer: { a: "/", b: "\\", c: "-", d: "/", e: "/", f: "-" },
+  challenge: { a: "/", b: "/", c: "\\", d: "\\", e: "/", f: "/", g: "\\" },
 };
 const MIRROR_CELLS: [string, number, number][] = [
   ["a", 2, 1],
@@ -34,17 +42,27 @@ const MIRROR_CELLS: [string, number, number][] = [
   ["c", 7, 3],
   ["d", 7, 0],
   ["e", 10, 0],
+  ["f", 5, 3], // on the beam's road along the floor, under the books
+  ["g", 9, 0], // on its road along the ceiling, hung between the high shelves
 ];
+
+/** The cell of the tall jar that keeps the beam from the short road along the floor. */
+export const JAR = { col: 9, row: 3 } as const;
 
 export function workshopPuzzle(style: PlayStyle): LightPuzzle {
   return {
     cols: 12,
     rows: 4,
     source: { col: 0, row: 1, dir: "E" },
-    mirrors: MIRROR_CELLS.map(([id, col, row]) => ({ id, col, row, lean: START[style][id]! })),
-    // A tower of books on a shelf: the beam cannot simply cross the room.
-    blocks: [{ col: 5, row: 1 }],
-    prisms: [{ col: 10, row: 1 }],
+    mirrors: MIRROR_CELLS.filter(([id]) => id in START[style]).map(([id, col, row]) => ({ id, col, row, lean: START[style][id]! })),
+    leans: style === "story" ? ["/", "\\"] : ["/", "\\", "-"],
+    // A tower of books on a shelf: the beam cannot simply cross the room. And a tall jar on the floor before the
+    // reading stand: with mirrors that can be laid flat, the beam could otherwise run along the floor straight to the
+    // page, and the road by the ceiling would never be needed.
+    blocks: [{ col: 5, row: 1 }, JAR],
+    // No prism. The founder's pictures of this story show one; no museum record read for the scene says Ibn al-Haytham
+    // worked with one, and his directive of 26 November 2026 has it out until a reviewer approves an honest use.
+    prisms: [],
     target: { col: 10, row: 3 },
   };
 }
@@ -94,6 +112,8 @@ export const THINGS: Thing[] = [
   { id: "cord", kind: "cord", x: 1560, y: 120, reach: 120, name: "thing_cord" },
   { id: "feather", kind: "feather", x: 2205, y: 470, reach: 110, name: "thing_feather" },
 ];
+/** Whether a thing is in the room in this way of playing: every thing but a mirror the puzzle does not have. */
+export const inPlay = (t: Thing, puzzle: LightPuzzle): boolean => t.kind !== "mirror" || puzzle.mirrors.some((m) => `mirror-${m.id}` === t.id);
 export const START_AT = { hudhud: { x: 250, y: WORLD.floor }, keeper: { x: 170, y: WORLD.floor }, scholar: { x: 560, y: WORLD.floor }, cat: { x: 1060, y: 568 } } as const;
 
 export type Speaker = "hudhud" | "keeper" | "scholar" | "cat" | "narrator";
@@ -109,7 +129,7 @@ export const SCRIPTS: Record<string, Script<Speaker>> = {
     nodes: {
       hello: { lines: [{ who: "scholar", key: "d_scholar_1", mood: "glad" }, { who: "scholar", key: "d_scholar_2", mood: "think" }], choices: [{ key: "c_ask_dark", to: "dark", deeper: true }, { key: "c_ask_see", to: "see", deeper: true }, { key: "c_thanks", to: "bye" }] },
       dark: { lines: [{ who: "scholar", key: "d_scholar_dark_1", mood: "think" }, { who: "hudhud", key: "d_scholar_dark_2", mood: "glad" }], set: ["askedMore"], choices: [{ key: "c_ask_see", to: "see", deeper: true }, { key: "c_thanks", to: "bye" }] },
-      see: { lines: [{ who: "scholar", key: "d_scholar_see_1", mood: "think" }, { who: "keeper", key: "d_scholar_see_2", mood: "glad" }], set: ["askedMore"], choices: [{ key: "c_ask_dark", to: "dark", deeper: true }, { key: "c_thanks", to: "bye" }] },
+      see: { lines: [{ who: "narrator", key: "d_scholar_see_1", mood: "think" }, { who: "keeper", key: "d_scholar_see_2", mood: "glad" }], set: ["askedMore"], choices: [{ key: "c_ask_dark", to: "dark", deeper: true }, { key: "c_thanks", to: "bye" }] },
       bye: { lines: [{ who: "scholar", key: "d_scholar_bye", mood: "glad" }] },
     },
   },
