@@ -135,7 +135,7 @@
      "shows": "Malaga and Almeria as trade ports, with routes and a ship",
      "mustDo": "Ports that buy and sell at their own prices; goods travel and take time and cost",
      "today": "partly",
-     "todayNote": "The game has one port, Málaga, with its own prices and purse, reached by cart: carriage on every unit and a limit on what the carts take in a day. Goods arrive the same day; no route, no ship, no Almería, no travel time",
+     "todayNote": "The game has one port, Málaga, with its own prices and purse, three days off by cart: carriage is paid on every unit as a load leaves, a limit on what the carts take in a day, and the load is sold (or delivered on its contract) on the morning it arrives, at what the port pays that morning. Loads on the road are listed. No route is drawn on the land, no ship, no Almería",
      "disposition": "implement",
      "work": [
       "G1",
@@ -257,7 +257,7 @@
      "shows": "A merchant contract with Malaga: quantity, days, revenue, costs, fees, net profit, the route; accept",
      "mustDo": "A contract reserves goods, settles once, and its sums are the ledger's",
      "today": "partly",
-     "todayNote": "One contract with the port is offered in the game: quantity, days left, revenue, carriage and fees, and the penalty are shown; taking it sets the costs aside, oil is paid for as it arrives, and it settles or fails once. No net-profit line and no route",
+     "todayNote": "A contract with the port is offered in each year: quantity, days left, revenue, carriage and fees, the penalty, what has arrived, what is on the road, and by when the rest must leave to arrive in time. Taking it sets the costs aside, oil is paid for as it arrives, and it settles or fails once. No net-profit line and no route",
      "disposition": "implement",
      "work": [
       "G1"

@@ -60,7 +60,7 @@ Each of these is its own merged change with tests, a play-through in real Chrome
 
 | System | What a player can do | What it is not yet |
 |---|---|---|
-| A port, a press, a contract | Press olives into oil, send goods by cart to a port with its own prices and purse, take a contract that pays as oil arrives | Goods arrive the day they are sent; one port |
+| A port, a press, a contract | Press olives into oil, send goods by cart to a port with its own prices and purse, three days off; take a contract that pays as oil arrives, and plan for the road | One port; no route or ship is drawn |
 | Prices that move | Sell into a market and see its price fall the next morning and recover; read each price's trend in words | No silk or ceramics; the movement is a rule for play |
 | Building on the land | Choose a house, a granary, a cistern or a garden and its ground, in 3D or on the plan; be refused, in words, on water, fields, roads, slopes, trees and what stands | Four things in four kinds; no castle, industry or culture; simple shapes |
 | Estates | Read on a field's card who tends it, what thirst has cost, what it will give and when by the rules run forward; put one field first | One kind of estate |
@@ -177,7 +177,7 @@ Evidence: [`../evidence/granada/g0/`](../evidence/granada/g0/) (as it stood when
 - No sound effects; the museum's music plays in a development build and is absent from a release until the tracks are hosted.
 - The first year is too forgiving: over 1,000 years of weather most scripted stewards win it more than nine times in ten. The second is a first balance: two ways of playing it win about half the time, where the design asks for three. Figures in the ledger.
 - Two short years of a campaign; no sandbox, no daily challenge, no undo.
-- Goods do not travel: they arrive the day they are sent. There is one warehouse.
+- There is one warehouse and one port. A load's three days on the road are a number for play.
 - Diplomacy and defence are not started, and wait on historical review. There is one valley, one port and one settlement.
 - No historical statement of the game has been checked by a person. Twelve entries for Granada are in the review ledger ([`../historical-review/ledger.md`](../historical-review/ledger.md)), all pending; most are labelled fiction.
 - The 3D valley is measured on one machine only (a fast one); no person has seen any of it.
@@ -189,4 +189,4 @@ Evidence: [`../evidence/granada/g0/`](../evidence/granada/g0/) (as it stood when
 2. **A person plays it**, and what they do is written down. Then both years are tightened, and the pace of the campaign is decided.
 3. **Named reviewers**, so that defence and diplomacy can be written and the pending history read.
 4. **The minimum machines**, by named operators.
-5. More of the campaign: goods that take time to travel, a second port, industry and culture in the catalogue, more years.
+5. More of the campaign: a second port, industry and culture in the catalogue, more years.

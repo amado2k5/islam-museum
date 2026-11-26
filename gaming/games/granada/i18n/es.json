@@ -230,7 +230,7 @@
   "event_contract_failed": "El contrato con el puerto no se cumplió. Se ha cobrado la penalización.",
   "refuse_carts-full": "Los carros están llenos por hoy.",
   "refuse_contract-closed": "Ese contrato no está abierto.",
-  "refuse_contract-late": "El día de ese contrato ha pasado.",
+  "refuse_contract-late": "El día de ese contrato ha pasado, o una carga enviada ahora llegaría después.",
   "refuse_too-much": "Eso es más de lo que pide el contrato.",
   "catalogue_title": "Construir sobre la tierra",
   "catalogue_note": "Elija un edificio y después su terreno. El terreno rechaza el agua, los campos, los caminos, las pendientes fuertes, los árboles y lo que ya está en pie.",
@@ -397,5 +397,16 @@
   "help_trade": "En Economía, los precios se mueven de noche según lo que tiene un mercado. La tarjeta «Del olivar al puerto» sigue el aceite de oliva paso a paso.",
   "help_choose": "En el valle en 3D, haga clic en un campo o en un edificio para abrir su tarjeta. El modo foto retira la página para tomar una imagen; el juego permanece quieto mientras tanto.",
   "help_years": "A un año ganado puede seguirle el siguiente, con el valle como usted lo dejó: su gente, su almacén, sus edificios y lo sembrado.",
-  "help_keys": "Teclas: del 1 al 5 abren las cinco partes; P pausa; N pasa un día; H abre esta ayuda; Escape sale del modo foto o detiene la elección del terreno."
+  "help_keys": "Teclas: del 1 al 5 abren las cinco partes; P pausa; N pasa un día; H abre esta ayuda; Escape sale del modo foto o detiene la elección del terreno.",
+  "port_days": "Una carga tarda {days} días en llegar al puerto. Allí se vende a lo que el puerto paga la mañana en que llega.",
+  "road_title": "En camino",
+  "road_load": "{n} de {good}: llega en {days} días",
+  "road_load_contract": "{n} de {good}, para el contrato: llega en {days} días",
+  "contract_on_road": "En camino: {n}.",
+  "contract_send_within": "Para llegar a tiempo, lo que aún se debe ha de salir en {days} días.",
+  "contract_too_late": "Una carga enviada ahora llegaría después del día del contrato.",
+  "chain_on_road": "En camino: {n}.",
+  "event_delivered": "{n} llegaron al puerto por el contrato.",
+  "event_sold_at_port": "{n} de {good} llegaron al puerto y se vendieron por {dinars} dinares.",
+  "region_road": "En camino al puerto: {n} cargas, {units} medidas"
 }

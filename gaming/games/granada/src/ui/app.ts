@@ -257,6 +257,12 @@ async function main(): Promise<void> {
         return t(`event_${kind}`, { what: t(`decision_${a}`), choice: t(`option_${b}`) });
       case "contract-failed":
         return t("event_contract_failed");
+      case "contract-kept":
+        return t("contract_settled");
+      case "delivered":
+        return t("event_delivered", { n: Number(b) });
+      case "sold-at-port":
+        return t("event_sold_at_port", { n: Number(b), good: t(`good_${a}`), dinars: Math.floor(Number(e.split(":")[3]) / MINOR) });
       case "quest":
         return t("event_quest", { quest: t(a!), reward: Math.floor(sc.reward / MINOR) });
       default:
@@ -871,6 +877,8 @@ async function main(): Promise<void> {
     const step = (id: string, title: string, text: string, ...actions: Child[]) => h("li", { class: "chain-step", "data-step": id }, h("b", {}, title), h("span", {}, text), ...actions);
     const grove = c.grove.state === "ripe" ? t("chain_grove_ripe", { n: num(c.grove.units) }) : c.grove.state === "growing" ? t("chain_grove_growing", { n: num(c.grove.units), days: c.grove.inDays }) : t("chain_grove_none");
     const harvesting = c.grove.field ? state.plots[c.grove.field]!.harvesting !== null : false;
+    // The contract for what the press makes that is open now, in this year or carried from the last.
+    const oilContract = sc.trade!.contracts.find((x) => x.good === c.oil.good && state.economy.contracts[x.id]?.state === "accepted")?.id ?? "";
     return h(
       "section",
       { class: "card", "data-part": "chain" },
@@ -885,8 +893,8 @@ async function main(): Promise<void> {
         step(
           "port",
           t("port_title"),
-          t("chain_port", { net: num(c.port.net), carts: c.port.cartsLeft }),
-          c.port.owed > 0 && Math.min(c.port.owed, c.oil.inStore, c.port.cartsLeft) > 0 && h("button", { type: "button", "data-act": "chain-deliver", onclick: () => order({ kind: "deliver", contract: sc.trade!.contracts[0]!.id, quantity: Math.min(c.port.owed, c.oil.inStore, c.port.cartsLeft) }) }, t("contract_deliver", { n: Math.min(c.port.owed, c.oil.inStore, c.port.cartsLeft) })),
+          `${t("chain_port", { net: num(c.port.net), carts: c.port.cartsLeft })}${c.port.onRoad > 0 ? ` ${t("chain_on_road", { n: c.port.onRoad })}` : ""}`,
+          c.port.canDeliver > 0 && h("button", { type: "button", "data-act": "chain-deliver", onclick: () => order({ kind: "deliver", contract: oilContract, quantity: c.port.canDeliver }) }, t("contract_deliver", { n: c.port.canDeliver })),
           c.port.owed === 0 && Math.min(c.oil.inStore - c.oil.held, c.port.cartsLeft) > 0 && h("button", { type: "button", "data-act": "chain-send", onclick: () => order({ kind: "send", good: c.oil.good, quantity: Math.min(c.oil.inStore - c.oil.held, c.port.cartsLeft) }) }, t("port_send", { n: Math.min(c.oil.inStore - c.oil.held, c.port.cartsLeft) })),
         ),
       ),
@@ -913,7 +921,9 @@ async function main(): Promise<void> {
         { class: "card", "data-part": "port" },
         h("h2", {}, t("port_title")),
         h("p", { class: "note" }, t("port_note")),
+        h("p", { class: "note" }, t("port_days", { days: tv.port.days })),
         h("p", {}, t("port_carts", { used: tv.port.carted, max: tv.port.cartsPerDay })),
+        tv.port.road.length > 0 && h("div", { "data-part": "road" }, h("h3", {}, t("road_title")), h("ul", { class: "plain" }, ...tv.port.road.map((r) => h("li", {}, t(r.contract ? "road_load_contract" : "road_load", { n: r.quantity, good: t(`good_${r.good}`), days: r.inDays }))))),
         ...tv.port.rows.map((r) =>
           h(
             "div",
@@ -931,11 +941,12 @@ async function main(): Promise<void> {
           h("p", {}, t("contract_terms", { units: c.units, good: t(`good_${c.good}`), revenue: c.revenue, costs: c.costs, penalty: c.penalty })),
           c.state === "offered" && (c.daysLeft > 0 ? h("p", {}, t("contract_days", { days: c.daysLeft })) : h("p", { class: "why" }, t("contract_passed"))),
           c.state === "offered" && c.daysLeft > 0 && h("button", { type: "button", "data-act": `accept-${c.id}`, disabled: !c.canAccept, onclick: () => order({ kind: "accept", contract: c.id }) }, t("contract_accept")),
-          c.state === "accepted" && h("p", {}, `${t("contract_progress", { have: c.delivered, want: c.units })} ${t("contract_days", { days: c.daysLeft })}`),
+          c.state === "accepted" && h("p", {}, `${t("contract_progress", { have: c.delivered, want: c.units })}${c.onRoad > 0 ? ` ${t("contract_on_road", { n: c.onRoad })}` : ""} ${t("contract_days", { days: c.daysLeft })}`),
+          c.state === "accepted" && c.delivered + c.onRoad < c.units && h("p", { class: c.sendWithin > 0 ? "note" : "why", "data-part": "send-within" }, c.sendWithin > 0 ? t("contract_send_within", { days: c.sendWithin }) : t("contract_too_late")),
           c.state === "accepted" &&
             (c.canDeliver > 0
-              ? h("div", { class: "trade" }, ...lots(c.canDeliver).map((n) => h("button", { type: "button", "data-act": `deliver-${c.id}-${n}`, onclick: () => order({ kind: "deliver", contract: c.id, quantity: n }) && state.economy.contracts[c.id]!.state === "settled" && say(t("contract_settled")) }, t("contract_deliver", { n }))))
-              : h("p", { class: "why" }, t("contract_nothing"))),
+              ? h("div", { class: "trade" }, ...lots(c.canDeliver).map((n) => h("button", { type: "button", "data-act": `deliver-${c.id}-${n}`, onclick: () => order({ kind: "deliver", contract: c.id, quantity: n }) }, t("contract_deliver", { n }))))
+              : c.delivered + c.onRoad < c.units && c.sendWithin > 0 && h("p", { class: "why" }, t("contract_nothing"))),
           c.state === "settled" && h("p", {}, t("contract_settled")),
           c.state === "failed" && h("p", { class: "why" }, t("contract_failed")),
         ),

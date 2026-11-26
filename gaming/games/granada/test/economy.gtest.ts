@@ -530,4 +530,81 @@ describe("random play", () => {
       expect(refused.state).toBe(s);
     }
   });
+
+  describe("goods on the road", () => {
+    const market: Market = { cash: dinars(500), goods: { wheat: { inventory: 0, ask: dinars(26), bid: dinars(20) }, oil: { inventory: 0, ask: dinars(300), bid: dinars(190) } } };
+    const begin = () => open({ treasury: dinars(1000), capacity: 100, stock: { wheat: { quantity: 60 }, oil: { quantity: 10 } }, markets: { port: structuredClone(market) }, contracts: [{ id: "c", good: "oil", units: 8, deadlineTick: 5, revenue: dinars(1600), transport: dinars(30), fees: dinars(10), penalty: dinars(100) }] });
+    let n = 0;
+    const run = (s: EconomyState, command: EconomyCommand) => submit(s, { commandId: `r${n++}`, expectedStateVersion: s.stateVersion, command });
+    const must = (s: EconomyState, command: EconomyCommand) => {
+      const r = run(s, command);
+      if (!r.result.ok) throw new Error(`${JSON.stringify(command)} refused: ${r.result.error}`);
+      return r.state;
+    };
+
+    it("leave the warehouse when they are sent, are in the books while they travel, and are sold when they arrive", () => {
+      let s = must(begin(), { kind: "dispatch", shipment: "a", market: "port", good: "wheat", quantity: 20 });
+      expect([s.stock.wheat!.quantity, s.road.a, freeCapacity(s), s.treasury.available]).toEqual([40, { good: "wheat", quantity: 20, costBasis: 0, market: "port", contract: null }, 50, dinars(1000)]);
+      expect(audit(s)).toEqual([]);
+      const r = run(s, { kind: "arrive", shipment: "a" });
+      expect(r.result).toMatchObject({ ok: true, money: 20 * dinars(20), sold: 20, leftInField: 0 });
+      s = r.state;
+      expect([s.road, s.markets.port!.goods.wheat!.inventory, s.markets.port!.cash, s.treasury.available]).toEqual([{}, 20, dinars(100), dinars(1400)]);
+      expect(audit(s)).toEqual([]);
+    });
+
+    it("are sold as far as the market's purse goes, and the rest waits at the market", () => {
+      let s = must(begin(), { kind: "dispatch", shipment: "a", market: "port", good: "wheat", quantity: 40 });
+      const r = run(s, { kind: "arrive", shipment: "a" });
+      // Five hundred dinars buy twenty-five at twenty.
+      expect(r.result).toMatchObject({ ok: true, money: dinars(500), sold: 25, leftInField: 15 });
+      s = r.state;
+      expect(s.road.a).toMatchObject({ quantity: 15, contract: null });
+      expect(audit(s)).toEqual([]);
+      expect(run(s, { kind: "arrive", shipment: "a" }).result).toMatchObject({ ok: true, sold: 0, leftInField: 15 });
+    });
+
+    it("for a contract take what was held for it first, cannot be more than it still asks, and are paid for as they arrive", () => {
+      let s = must(begin(), { kind: "accept-contract", contract: "c" });
+      expect(s.stock.oil).toMatchObject({ quantity: 10, reserved: 8 });
+      s = must(s, { kind: "dispatch", shipment: "a", market: "port", good: "oil", quantity: 5, contract: "c" });
+      expect([s.stock.oil!.quantity, s.stock.oil!.reserved, s.contracts.c!.reservedUnits, s.contracts.c!.delivered]).toEqual([5, 3, 3, 0]);
+      expect(audit(s)).toEqual([]);
+      // Five are on the road for it: only three more can be sent.
+      expect(run(s, { kind: "dispatch", shipment: "b", market: "port", good: "oil", quantity: 4, contract: "c" }).result).toMatchObject({ ok: false, error: "over-delivery", detail: { remaining: 3 } });
+      const first = run(s, { kind: "arrive", shipment: "a" });
+      expect(first.result).toMatchObject({ ok: true, money: dinars(1000) - dinars(25), sold: 5 });
+      s = must(first.state, { kind: "dispatch", shipment: "b", market: "port", good: "oil", quantity: 3, contract: "c" });
+      s = must(s, { kind: "arrive", shipment: "b" });
+      expect([s.contracts.c!.state, s.contracts.c!.delivered, s.treasury.reserved, s.treasury.available]).toEqual(["settled", 8, 0, dinars(1000) + dinars(1600) - dinars(40)]);
+      expect(audit(s)).toEqual([]);
+    });
+
+    it("that arrive after their contract has failed are sold at what the market pays", () => {
+      let s = must(begin(), { kind: "accept-contract", contract: "c" });
+      s = must(s, { kind: "dispatch", shipment: "a", market: "port", good: "oil", quantity: 2, contract: "c" });
+      s = must(s, { kind: "advance", ticks: 6 });
+      expect(s.contracts.c!.state).toBe("failed");
+      const r = run(s, { kind: "arrive", shipment: "a" });
+      expect(r.result).toMatchObject({ ok: true, money: 2 * dinars(190), sold: 2 });
+      expect(audit(r.state)).toEqual([]);
+    });
+
+    it("are refused whole, with nothing changed, when there is no such market, good, load or stock, or the load's name is taken", () => {
+      const s = must(begin(), { kind: "dispatch", shipment: "a", market: "port", good: "wheat", quantity: 5 });
+      for (const bad of [
+        { kind: "dispatch", shipment: "a", market: "port", good: "wheat", quantity: 5 },
+        { kind: "dispatch", shipment: "b", market: "nowhere", good: "wheat", quantity: 5 },
+        { kind: "dispatch", shipment: "b", market: "port", good: "silk", quantity: 5 },
+        { kind: "dispatch", shipment: "b", market: "port", good: "wheat", quantity: 56 },
+        { kind: "dispatch", shipment: "b", market: "port", good: "oil", quantity: 1, contract: "c" },
+        { kind: "dispatch", shipment: "b", market: "port", good: "oil", quantity: 1, contract: "none" },
+        { kind: "arrive", shipment: "z" },
+      ] as EconomyCommand[]) {
+        const r = run(s, bad);
+        expect(r.result.ok, JSON.stringify(bad)).toBe(false);
+        expect(r.state).toBe(s);
+      }
+    });
+  });
 });

@@ -330,13 +330,26 @@ describe("trade beyond the village", () => {
     expect(audit(s.economy)).toEqual([]);
   });
 
-  it("sells at the port for what the port pays, less the carriage on every unit", () => {
+  it("sends a load on a road of three days: the carriage is paid as it leaves, and the port pays on the morning it arrives", () => {
     const a = order(DRY, withOlives(20), { kind: "press", runs: 4 });
     const r = act(DRY, a, { kind: "send", good: "oil", quantity: 4 });
-    expect(r.result).toEqual({ ok: true, money: 4 * (dinars(190) - dinars(4)) });
-    expect(treasuryOf(r.state) - treasuryOf(a)).toBe(4 * (dinars(190) - dinars(4)));
-    expect(r.state.economy.markets.malaga!.goods.oil!.inventory).toBe(T.port.market.goods.oil!.inventory + 4);
-    expect(invariants(DRY, r.state)).toEqual([]);
+    expect(r.result).toEqual({ ok: true, money: -4 * dinars(4) });
+    let s = r.state;
+    expect([stock(s, "oil"), s.shipments]).toEqual([0, [{ id: s.shipments[0]!.id, good: "oil", quantity: 4, contract: null, arrives: a.day + T.port.days }]]);
+    expect(treasuryOf(a) - treasuryOf(s)).toBe(4 * dinars(4));
+    expect(invariants(DRY, s)).toEqual([]);
+    // Nothing is paid while it travels.
+    s = days(DRY, s, T.port.days);
+    expect(s.shipments).toHaveLength(1);
+    expect(s.economy.markets.malaga!.goods.oil!.inventory).toBe(T.port.market.goods.oil!.inventory);
+    // The morning it arrives: sold at what the port pays that morning, and said so.
+    const before = treasuryOf(s);
+    s = days(DRY, s, 1);
+    expect(s.shipments).toEqual([]);
+    expect(s.last!.events).toContain(`sold-at-port:oil:4:${4 * dinars(190)}`);
+    expect(treasuryOf(s) - before).toBeGreaterThanOrEqual(4 * dinars(190));
+    expect(s.economy.markets.malaga!.goods.oil!.inventory).toBeGreaterThan(T.port.market.goods.oil!.inventory);
+    expect(audit(s.economy)).toEqual([]);
   });
 
   it("sends no more in a day than the carts can take, and the carts are back in the morning", () => {
@@ -356,10 +369,16 @@ describe("trade beyond the village", () => {
       expect(r.result.ok, JSON.stringify(c)).toBe(false);
       expect(r.state).toBe(s);
     }
+  });
+
+  it("sells a load only as far as the port's purse goes on the morning it arrives; the rest waits there", () => {
     const poor: Scenario = { ...DRY, trade: { ...T, port: { ...T.port, market: { ...T.port.market, cash: dinars(30) } } } };
-    const p = newVillage(poor, 7);
-    expect(act(poor, p, { kind: "send", good: "wheat", quantity: 2 }).result).toMatchObject({ ok: false, why: "market-poor" });
-    expect(act(poor, p, { kind: "send", good: "wheat", quantity: 2 }).state).toBe(p);
+    let s = order(poor, newVillage(poor, 7), { kind: "send", good: "wheat", quantity: 2 });
+    s = days(poor, s, T.port.days + 1);
+    // Thirty dinars buy one measure at twenty-two.
+    expect(s.last!.events).toContain(`sold-at-port:wheat:1:${dinars(22)}`);
+    expect(s.shipments).toMatchObject([{ good: "wheat", quantity: 1, contract: null }]);
+    expect(invariants(poor, s)).toEqual([]);
   });
 
   it("makes no money by carrying the village's own goods to the port, or by pressing bought olives", () => {
@@ -372,17 +391,39 @@ describe("trade beyond the village", () => {
     expect((c.revenue - c.transport - c.fees) / c.units).toBeLessThan(pressed);
   });
 
-  it("pays a contract as the oil arrives, and no more than was agreed", () => {
+  it("pays a contract as the oil arrives at the port, counts what is on the road, and takes no more than was agreed", () => {
     const c = T.contracts[0]!;
     let s = order(DRY, withOlives(45), { kind: "press", runs: 9 }, { kind: "accept", contract: c.id });
     const before = treasuryOf(s) + s.economy.treasury.reserved;
-    s = order(DRY, s, { kind: "deliver", contract: c.id, quantity: 3 }, { kind: "deliver", contract: c.id, quantity: 5 });
+    s = order(DRY, s, { kind: "deliver", contract: c.id, quantity: 3 });
+    // Three are on the road for it: five more can be sent, and not six.
+    expect(act(DRY, s, { kind: "deliver", contract: c.id, quantity: 6 }).result).toMatchObject({ ok: false, why: "too-much" });
+    s = order(DRY, s, { kind: "deliver", contract: c.id, quantity: 5 });
+    expect([s.economy.contracts[c.id]!.state, s.economy.contracts[c.id]!.delivered, stock(s, "oil")]).toEqual(["accepted", 0, 1]);
+    s = days(DRY, s, T.port.days + 1);
     expect(s.economy.contracts[c.id]!.state).toBe("settled");
-    expect(treasuryOf(s) + s.economy.treasury.reserved - before).toBe(c.revenue - c.transport - c.fees);
-    expect(stock(s, "oil")).toBe(1);
+    expect(s.last!.events).toEqual(expect.arrayContaining([`delivered:${c.id}:3`, `delivered:${c.id}:5`, `contract-kept:${c.id}`]));
+    expect(s.journal.some((j) => j.event === `contract-kept:${c.id}`)).toBe(true);
+    // Against the same valley with no contract: what it paid, less its carriage and fees, and nothing else.
+    const plain = days(DRY, order(DRY, withOlives(45), { kind: "press", runs: 9 }), T.port.days + 1);
+    expect(treasuryOf(s) + s.economy.treasury.reserved - before - (treasuryOf(plain) - (treasuryOf(order(DRY, withOlives(45), { kind: "press", runs: 9 }))))).toBe(c.revenue - c.transport - c.fees);
     expect(act(DRY, s, { kind: "deliver", contract: c.id, quantity: 1 }).result).toMatchObject({ ok: false, why: "contract-closed" });
-    expect(act(DRY, order(DRY, withOlives(50), { kind: "press", runs: 10 }, { kind: "accept", contract: c.id }), { kind: "deliver", contract: c.id, quantity: 9 }).result).toMatchObject({ ok: false, why: "too-much" });
     expect(audit(s.economy)).toEqual([]);
+  });
+
+  it("will not send on a contract a load that cannot arrive by its day, and sells at the port a load whose contract failed on the road", () => {
+    const c = T.contracts[0]!;
+    let s = order(DRY, withOlives(45), { kind: "press", runs: 9 }, { kind: "accept", contract: c.id });
+    // The last morning a load can leave and still arrive.
+    s = days(DRY, s, c.byDay - T.port.days - s.day);
+    expect(act(DRY, s, { kind: "deliver", contract: c.id, quantity: 4 }).result.ok).toBe(true);
+    const late = days(DRY, s, 1);
+    expect(act(DRY, late, { kind: "deliver", contract: c.id, quantity: 1 }).result).toMatchObject({ ok: false, why: "contract-late" });
+    // Four sent in time arrive and are paid for; the contract, four short, then fails.
+    let half = order(DRY, s, { kind: "deliver", contract: c.id, quantity: 4 });
+    half = days(DRY, half, T.port.days + 2);
+    expect([half.economy.contracts[c.id]!.delivered, half.economy.contracts[c.id]!.state]).toEqual([4, "failed"]);
+    expect(invariants(DRY, half)).toEqual([]);
   });
 
   it("charges the penalty once, on the day after the last day, when a promise is not kept", () => {
@@ -770,8 +811,11 @@ describe("a campaign of years", () => {
     const s0 = nextYear(Y2, wonYearOne())!;
     expect(tradeSince(s0, Y2.startDay)).toBe(0);
     const s = order(Y2, s0, { kind: "send", good: "wheat", quantity: 10 });
-    expect(tradeSince(s, Y2.startDay)).toBe(10 * (s0.economy.markets.malaga!.goods.wheat!.bid - dinars(2)));
-    expect(taskState(Y2, s, { id: "x", kind: "trade", dinars: 1 })).toMatchObject({ done: true });
+    // The carriage is counted the day the load leaves; the sale, the morning it arrives.
+    expect(tradeSince(s, Y2.startDay)).toBe(-10 * dinars(2));
+    const there = days(Y2, s, Y2.trade!.port.days + 1);
+    expect(tradeSince(there, Y2.startDay)).toBe(10 * (s0.economy.markets.malaga!.goods.wheat!.bid - dinars(2)));
+    expect(taskState(Y2, there, { id: "x", kind: "trade", dinars: 1 })).toMatchObject({ done: true });
     expect(taskState(Y2, s, tasksOf(Y2)[0]!)).toMatchObject({ done: false, want: 1600 });
   });
 

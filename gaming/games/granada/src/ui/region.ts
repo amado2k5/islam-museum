@@ -56,6 +56,7 @@ export function regionView(sc: Scenario, s: VillageState, pack: Pack): RegionVie
       economy: [
         ...(sc.trade && port ? [{ key: "region_carts", values: { used: s.carted, max: sc.trade.port.cartsPerDay } }, { key: "region_port_cash", values: { dinars: Math.floor(s.economy.markets[sc.trade.port.id]!.cash / 100) } }] : []),
         ...(contract ? [{ key: `region_contract_${contract.state}`, values: { have: contract.delivered, want: contract.units } }] : []),
+        ...(s.shipments.length ? [{ key: "region_road", values: { n: s.shipments.length, units: s.shipments.reduce((n, sh) => n + sh.quantity, 0) } }] : []),
       ],
       agriculture: [
         { key: "region_fields", values: { sown: growing.length, all: sc.plots.length } },

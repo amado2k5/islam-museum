@@ -97,6 +97,8 @@ export const WATER_FOR_THE_VALLEY: Scenario = {
       },
       carriage: { wheat: dinars(2), olives: dinars(3), oil: dinars(4) },
       cartsPerDay: 60,
+      // Three days by cart: Málaga is some ninety kilometres off in a straight line, and no road is straight.
+      days: 3,
     },
     // Five measures of olives to one of oil; the pressing is paid for each run.
     press: { id: "olive-press", inputs: { olives: 5 }, outputs: { oil: 1 }, cost: dinars(12) },

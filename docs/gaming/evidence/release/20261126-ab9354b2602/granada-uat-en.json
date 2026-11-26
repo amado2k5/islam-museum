@@ -1,0 +1,84 @@
+{
+ "base": "https://uat-games.islam.museum",
+ "lang": "en",
+ "release": "20261126-ab9354b2602",
+ "browser": "chrome 158.0.8127.38",
+ "checks": [
+  {
+   "check": "the game starts on the host",
+   "result": "pass",
+   "detail": {
+    "release": "20261126-ab9354b2602"
+   }
+  },
+  {
+   "check": "a contract with the port can be taken, and its costs are set aside",
+   "result": "pass",
+   "detail": {
+    "held": 5200
+   }
+  },
+  {
+   "check": "the oil's road has five steps",
+   "result": "pass"
+  },
+  {
+   "check": "a garden is refused on a field, placed on open ground, and finished in its days",
+   "result": "pass",
+   "detail": {
+    "refused": false,
+    "placed": true,
+    "done": true
+   }
+  },
+  {
+   "check": "the region shows the museum's places",
+   "result": "pass"
+  },
+  {
+   "check": "what lies ahead is listed",
+   "result": "pass",
+   "detail": [
+    "The mill field begins to spoil in 13 days.",
+    "The households go hungry in 34 days.",
+    "The contract with the port fails in 68 days: 0 of 8 delivered.",
+    "The olive terrace begins to spoil in 78 days.",
+    "At the end of winter the store would hold 0 days of food; the valley is asked for 20."
+   ]
+  },
+  {
+   "check": "a decision is put on its day with two answers, and one can be given",
+   "result": "pass",
+   "detail": {
+    "shown": 2
+   }
+  },
+  {
+   "check": "Photo Mode saves a real picture under the host's headers",
+   "result": "pass",
+   "detail": {
+    "bytes": 2479186,
+    "png": true
+   }
+  },
+  {
+   "check": "Photo Mode leaves the game exactly as it was",
+   "result": "pass"
+  },
+  {
+   "check": "a won first year goes on to the second, with its own brief and tasks",
+   "result": "pass",
+   "detail": {
+    "year": 2,
+    "day": 1,
+    "scenario": "merchants-of-malaga"
+   }
+  },
+  {
+   "check": "the console stayed empty",
+   "result": "pass",
+   "detail": []
+  }
+ ],
+ "problems": []
+}

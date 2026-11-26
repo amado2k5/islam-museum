@@ -230,7 +230,7 @@
   "event_contract_failed": "Kontrak dengan pelabuhan tidak dipenuhi. Denda telah dikenakan.",
   "refuse_carts-full": "Gerobak hari ini sudah penuh.",
   "refuse_contract-closed": "Kontrak itu tidak terbuka.",
-  "refuse_contract-late": "Hari untuk kontrak itu sudah lewat.",
+  "refuse_contract-late": "Hari untuk kontrak itu sudah lewat, atau muatan yang dikirim sekarang akan tiba setelahnya.",
   "refuse_too-much": "Itu lebih dari yang diminta kontrak.",
   "catalogue_title": "Membangun di atas lahan",
   "catalogue_note": "Pilih bangunan, lalu tanahnya. Tanah menolak air, ladang, jalan, lereng curam, pepohonan, dan apa pun yang sudah berdiri.",
@@ -397,5 +397,16 @@
   "help_trade": "Di Ekonomi, harga bergerak semalam mengikuti persediaan pasar. Kartu \"Dari kebun ke pelabuhan\" mengikuti minyak zaitun langkah demi langkah.",
   "help_choose": "Di lembah 3D, klik ladang atau bangunan untuk membuka kartunya. Mode foto menyingkirkan halaman untuk mengambil gambar; permainan diam selama itu.",
   "help_years": "Tahun yang dimenangkan dapat dilanjutkan ke tahun berikutnya, dengan lembah seperti saat Anda tinggalkan: penduduknya, gudangnya, bangunannya, dan apa yang ditanam.",
-  "help_keys": "Tombol: 1 sampai 5 membuka lima bagian; P menjeda; N melewatkan sehari; H membuka bantuan ini; Escape keluar dari mode foto atau menghentikan pemilihan tanah."
+  "help_keys": "Tombol: 1 sampai 5 membuka lima bagian; P menjeda; N melewatkan sehari; H membuka bantuan ini; Escape keluar dari mode foto atau menghentikan pemilihan tanah.",
+  "port_days": "Satu muatan butuh {days} hari untuk sampai ke pelabuhan. Di sana ia dijual dengan harga yang dibayar pelabuhan pada pagi kedatangannya.",
+  "road_title": "Dalam perjalanan",
+  "road_load": "{n} {good}: tiba dalam {days} hari",
+  "road_load_contract": "{n} {good}, untuk kontrak: tiba dalam {days} hari",
+  "contract_on_road": "Dalam perjalanan: {n}.",
+  "contract_send_within": "Agar tiba tepat waktu, yang masih terutang harus berangkat dalam {days} hari.",
+  "contract_too_late": "Muatan yang dikirim sekarang akan tiba setelah hari kontrak.",
+  "chain_on_road": "Dalam perjalanan: {n}.",
+  "event_delivered": "{n} tiba di pelabuhan untuk kontrak.",
+  "event_sold_at_port": "{n} {good} tiba di pelabuhan dan terjual seharga {dinars} dinar.",
+  "region_road": "Dalam perjalanan ke pelabuhan: {n} muatan, {units} takar"
 }

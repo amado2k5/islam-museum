@@ -18,6 +18,9 @@ const topUp = (s: VillageState, below: number, keep: number): VillageCommand[] =
 const sow = (sc: Scenario, s: VillageState, crop: "vegetables" | "wheat"): VillageCommand[] =>
   sc.plots.filter((p) => s.plots[p.id]!.crop === null && p.potential[crop] !== undefined && CROPS[crop].sowIn.includes(seasonOf(s.day))).map((p) => ({ kind: "plant", plot: p.id, crop }) as VillageCommand);
 
+/** What is on the road for a contract, and what it still wants sent: what it asks, less what has arrived and what is coming. */
+const coming = (s: VillageState, contract: string) => s.shipments.reduce((n, sh) => n + (sh.contract === contract ? sh.quantity : 0), 0);
+const toSend = (s: VillageState, c: { id: string; units: number; delivered: number }) => c.units - c.delivered - coming(s, c.id);
 /** Answers every open question the same way. */
 const answer = (sc: Scenario, s: VillageState, option: string): VillageCommand[] => (sc.decisions ?? []).filter((d) => s.decisions[d.id]?.state === "open" && d.options.some((o) => o.id === option)).map((d) => ({ kind: "decide", decision: d.id, option }) as VillageCommand);
 
@@ -39,7 +42,7 @@ function trading(sc: Scenario, s: VillageState, how: { answer: string; meadow: b
   }
   if (sc.catalogue?.house && s.households >= s.housing && s.placed.filter((p) => p.what === "house").length < 2) out.push({ kind: "place", what: "house", x: 600 + 40 * s.placed.filter((p) => p.what === "house").length, z: 250 });
   const press = sc.trade?.press;
-  const oilOwed = contracts.filter((c) => c.state === "accepted" && c.good === "oil").reduce((n, c) => n + c.units - c.delivered, 0);
+  const oilOwed = contracts.filter((c) => c.state === "accepted" && c.good === "oil").reduce((n, c) => n + toSend(s, c), 0);
   if (press && stock(s, "olives") >= 5) out.push({ kind: "press", runs: Math.floor(stock(s, "olives") / 5) });
   // The terrace is in and pressed, and the promise is still short: the village's olives make up the rest.
   const terrace = Object.values(s.plots).find((p) => p.crop === "olives");
@@ -49,7 +52,7 @@ function trading(sc: Scenario, s: VillageState, how: { answer: string; meadow: b
     if (c.state !== "accepted") continue;
     // Food is delivered only out of what is over the winter's reserve.
     const spare = c.good === "oil" ? stock(s, "oil") : Math.max(0, stock(s, c.good) - (reserveDays(s) > 30 ? 0 : 60));
-    const n = Math.min(c.units - c.delivered, spare, (sc.trade?.port.cartsPerDay ?? 0) - s.carted);
+    const n = Math.min(toSend(s, c), spare, (sc.trade?.port.cartsPerDay ?? 0) - s.carted);
     if (n > 0) out.push({ kind: "deliver", contract: c.id, quantity: n });
   }
   if (oilOwed === 0 && stock(s, "oil") > 0) out.push({ kind: "send", good: "oil", quantity: stock(s, "oil") });
@@ -80,7 +83,7 @@ export const PLAYERS: Record<string, Player> = {
   presser: (sc, s) => {
     const c = sc.trade ? s.economy.contracts[sc.trade.contracts[0]!.id] : undefined;
     const oil = stock(s, "oil");
-    const owed = c?.state === "accepted" ? c.units - c.delivered : 0;
+    const owed = c?.state === "accepted" ? toSend(s, c) : 0;
     return [
       ...answer(sc, s, "share"),
       ...ripe(s).map((plot) => ({ kind: "harvest", plot, rest: "wait" }) as VillageCommand),

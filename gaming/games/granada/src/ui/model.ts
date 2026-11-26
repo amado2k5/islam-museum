@@ -267,7 +267,8 @@ export interface ChainView {
   press: { input: string; inStore: number; each: number; canRun: number; cost: number };
   oil: { good: string; inStore: number; held: number };
   store: { free: number; room: number };
-  port: { id: string; net: number; cartsLeft: number; owed: number };
+  /** `owed`: what the contract still wants sent. `onRoad`: oil travelling now. `days`: how long the road is. */
+  port: { id: string; net: number; cartsLeft: number; owed: number; canDeliver: number; onRoad: number; days: number };
 }
 export function chainView(sc: Scenario, s: VillageState): ChainView | null {
   const tv = tradeView(sc, s);
@@ -282,7 +283,7 @@ export function chainView(sc: Scenario, s: VillageState): ChainView | null {
     press: { input, inStore: have(s, input), each: tv.press.each, canRun: tv.press.canRun, cost: tv.press.cost },
     oil: { good: tv.press.makes, inStore: have(s, tv.press.makes), held: s.economy.stock[tv.press.makes]?.reserved ?? 0 },
     store: { free: freeCapacity(s.economy), room: s.economy.capacity },
-    port: { id: tv.port.id, net: oilRow?.net ?? 0, cartsLeft: tv.port.cartsPerDay - tv.port.carted, owed: contract ? contract.units - contract.delivered : 0 },
+    port: { id: tv.port.id, net: oilRow?.net ?? 0, cartsLeft: tv.port.cartsPerDay - tv.port.carted, owed: contract ? contract.units - contract.delivered - contract.onRoad : 0, canDeliver: contract?.canDeliver ?? 0, onRoad: tv.port.road.filter((r) => r.good === tv.press.makes).reduce((n, r) => n + r.quantity, 0), days: tv.port.days },
   };
 }
 
@@ -327,9 +328,11 @@ export function marketRows(sc: Scenario, s: VillageState): MarketRow[] {
 
 /** Trade beyond the village, as the Economy panel shows it. Null where the scenario has none. */
 export interface TradeView {
-  port: { id: string; carted: number; cartsPerDay: number; rows: Array<{ good: string; have: number; bid: number; carriage: number; net: number; canSend: number; trend: Trend; demand: Demand }> };
+  /** `days`: how long a load is on the road. `road`: the loads now on it, soonest first. */
+  port: { id: string; carted: number; cartsPerDay: number; days: number; road: Array<{ good: string; quantity: number; contract: string | null; inDays: number }>; rows: Array<{ good: string; have: number; bid: number; carriage: number; net: number; canSend: number; trend: Trend; demand: Demand }> };
   press: { cost: number; from: string; makes: string; each: number; canRun: number };
-  contracts: Array<{ id: string; good: string; units: number; delivered: number; state: "offered" | "accepted" | "settled" | "cancelled" | "failed"; daysLeft: number; revenue: number; costs: number; penalty: number; canAccept: boolean; canDeliver: number }>;
+  /** `onRoad`: sent on it and not yet arrived. `sendWithin`: mornings left on which a load sent would still arrive in time; nought or less is too late. */
+  contracts: Array<{ id: string; good: string; units: number; delivered: number; onRoad: number; sendWithin: number; state: "offered" | "accepted" | "settled" | "cancelled" | "failed"; daysLeft: number; revenue: number; costs: number; penalty: number; canAccept: boolean; canDeliver: number }>;
 }
 
 export function tradeView(sc: Scenario, s: VillageState): TradeView | null {
@@ -345,28 +348,34 @@ export function tradeView(sc: Scenario, s: VillageState): TradeView | null {
       id: tr.port.id,
       carted: s.carted,
       cartsPerDay: tr.port.cartsPerDay,
+      days: tr.port.days,
+      road: [...s.shipments].sort((a, b) => a.arrives - b.arrives).map((sh) => ({ good: sh.good, quantity: sh.quantity, contract: sh.contract, inDays: Math.max(1, sh.arrives - s.day) })),
       rows: Object.entries(tr.port.carriage).map(([good, carriage]) => {
         const bid = m.goods[good]!.bid;
-        return { good, trend: trendOf(m.goods[good]!.ask, s.priceWas[tr.port.id]?.[good]), demand: demandOf(m.goods[good]!.inventory, tr.port.market.goods[good]?.inventory ?? 0), have: have(s, good), bid: wholeDinars(bid), carriage: wholeDinars(carriage), net: wholeDinars(bid - carriage), canSend: Math.max(0, Math.min(free(good), cartsLeft, Math.floor(m.cash / bid), carriage === 0 ? Number.MAX_SAFE_INTEGER : Math.floor(treasuryOf(s) / carriage))) };
+        return { good, trend: trendOf(m.goods[good]!.ask, s.priceWas[tr.port.id]?.[good]), demand: demandOf(m.goods[good]!.inventory, tr.port.market.goods[good]?.inventory ?? 0), have: have(s, good), bid: wholeDinars(bid), carriage: wholeDinars(carriage), net: wholeDinars(bid - carriage), canSend: Math.max(0, Math.min(free(good), cartsLeft, carriage === 0 ? Number.MAX_SAFE_INTEGER : Math.floor(treasuryOf(s) / carriage))) };
       }),
     },
     press: { cost: wholeDinars(tr.press.cost), from, makes, each, canRun: Math.max(0, Math.min(Math.floor(free(from) / each), tr.press.cost === 0 ? Number.MAX_SAFE_INTEGER : Math.floor(treasuryOf(s) / tr.press.cost))) },
     contracts: tr.contracts.map((def) => {
       const c = s.economy.contracts[def.id]!;
       const daysLeft = def.byDay - s.day + 1;
-      const owed = c.units - c.delivered;
+      const onRoad = s.shipments.reduce((n, sh) => n + (sh.contract === c.id ? sh.quantity : 0), 0);
+      const owed = c.units - c.delivered - onRoad;
+      const sendWithin = def.byDay - tr.port.days - s.day + 1;
       return {
         id: c.id,
         good: c.good,
         units: c.units,
         delivered: c.delivered,
+        onRoad,
+        sendWithin,
         state: c.state,
         daysLeft,
         revenue: wholeDinars(c.revenue),
         costs: wholeDinars(c.transport + c.fees),
         penalty: wholeDinars(c.penalty),
         canAccept: c.state === "offered" && daysLeft > 0 && treasuryOf(s) >= c.transport + c.fees,
-        canDeliver: c.state === "accepted" ? Math.max(0, Math.min(owed, have(s, c.good), cartsLeft)) : 0,
+        canDeliver: c.state === "accepted" && sendWithin > 0 ? Math.max(0, Math.min(owed, have(s, c.good), cartsLeft)) : 0,
       };
     }),
   };

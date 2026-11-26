@@ -74,6 +74,15 @@ export interface Recipe {
   /** Paid per run. */
   cost: number;
 }
+export interface Shipment {
+  good: string;
+  quantity: number;
+  /** The cost basis that left the warehouse with it. */
+  costBasis: number;
+  /** Where it is going. A load for a contract that is no longer open when it arrives is sold there instead. */
+  market: string;
+  contract: string | null;
+}
 export interface JournalEntry {
   seq: number;
   tick: number;
@@ -99,6 +108,8 @@ export interface EconomyState {
   markets: Record<string, Market>;
   contracts: Record<string, Contract>;
   recipes: Record<string, Recipe>;
+  /** Goods that have left the warehouse and not yet arrived: each load on the road, bound for a market or for a contract. */
+  road: Record<string, Shipment>;
   journal: JournalEntry[];
   /** Results by command id, so that a retry is answered and not repeated. */
   done: Record<string, CommandResult>;
@@ -123,6 +134,16 @@ export type EconomyCommand =
   /** Room added to the warehouse by something built. */
   | { kind: "add-capacity"; units: number; why: string }
   /**
+   * Goods leave the warehouse for a market, or for a contract at that market. They are on the road, in the books
+   * and out of the store, until they arrive. For a contract, what was held for it goes first.
+   */
+  | { kind: "dispatch"; shipment: string; market: string; good: string; quantity: number; contract?: string }
+  /**
+   * A load arrives. For a contract still open it is delivered and paid for in proportion. Otherwise it is sold at
+   * what the market pays that day, as far as the market's purse goes; what the market cannot pay for waits there.
+   */
+  | { kind: "arrive"; shipment: string }
+  /**
    * A market's own day, apart from the player: goods come to it from its suppliers and leave it for its other
    * buyers, who pay it; and it sets the two prices it will keep until its next day. Every unit and every dinar is
    * journalled against the world, so the audit still closes. A price pair with ask below bid is refused whole.
@@ -141,6 +162,7 @@ export type ErrorCode =
   | "unknown-good"
   | "unknown-recipe"
   | "unknown-contract"
+  | "unknown-shipment"
   | "insufficient-funds"
   | "insufficient-stock"
   | "market-out-of-stock"
@@ -210,7 +232,7 @@ export function open(o: Opening): EconomyState {
     for (const [g, n] of [...Object.entries(r.inputs), ...Object.entries(r.outputs)]) if (!Number.isSafeInteger(n) || n < 1 || n > 1000) throw new Error(`recipe ${r.id}: ${n} of ${g} is not a whole number between 1 and 1000`);
     if (Object.keys(r.inputs).length === 0 || Object.keys(r.outputs).length === 0) throw new Error(`recipe ${r.id} makes something from nothing, or nothing from something`);
   }
-  const s: EconomyState = { version: ECONOMY_VERSION, stateVersion: 0, tick: 0, treasury: { available: 0, reserved: 0 }, capacity: o.capacity, yard: [...(o.yard ?? [])], stock: {}, markets: {}, contracts: {}, recipes: {}, journal: [], done: {} };
+  const s: EconomyState = { version: ECONOMY_VERSION, stateVersion: 0, tick: 0, treasury: { available: 0, reserved: 0 }, capacity: o.capacity, yard: [...(o.yard ?? [])], stock: {}, markets: {}, contracts: {}, recipes: {}, road: {}, journal: [], done: {} };
   const j = writer(s, "opening");
   j("money", "world", "treasury", o.treasury, "opening balance");
   s.treasury.available = o.treasury;
@@ -410,6 +432,65 @@ function apply(s: EconomyState, cmd: EconomyCommand, j: Write): CommandResult {
       if (total === c.units) c.state = "settled";
       return ok({ money: revenue - costs, sold: cmd.quantity });
     }
+    case "dispatch": {
+      const m = s.markets[cmd.market];
+      if (!m) return fail("unknown-market");
+      if (!whole(cmd.quantity) || !cmd.shipment || s.road[cmd.shipment]) return fail("bad-quantity");
+      const c = cmd.contract === undefined ? null : s.contracts[cmd.contract];
+      if (cmd.contract !== undefined && !c) return fail("unknown-contract");
+      let fromReserve = 0;
+      if (c) {
+        if (c.state !== "accepted" || c.good !== cmd.good) return fail("wrong-contract-state");
+        const coming = Object.values(s.road).reduce((n, r) => n + (r.contract === c.id ? r.quantity : 0), 0);
+        if (c.delivered + coming + cmd.quantity > c.units) return fail("over-delivery", { remaining: c.units - c.delivered - coming });
+        fromReserve = Math.min(cmd.quantity, c.reservedUnits);
+      } else if (!m.goods[cmd.good]) return fail("unknown-good");
+      const fromFree = cmd.quantity - fromReserve;
+      if (unreserved(s, cmd.good) < fromFree) return fail("insufficient-stock", { available: unreserved(s, cmd.good) + fromReserve });
+      const h = holding(s, cmd.good);
+      const basis = basisOf(h, cmd.quantity);
+      j(cmd.good, "warehouse:reserved", "road", fromReserve, `sent on contract ${c?.id}`);
+      j(cmd.good, "warehouse", "road", fromFree, c ? `sent on contract ${c.id}` : `sent to ${cmd.market}`);
+      s.stock[cmd.good] = { quantity: h.quantity - cmd.quantity, reserved: h.reserved - fromReserve, costBasis: h.costBasis - basis };
+      if (c) c.reservedUnits -= fromReserve;
+      s.road[cmd.shipment] = { good: cmd.good, quantity: cmd.quantity, costBasis: basis, market: cmd.market, contract: c ? c.id : null };
+      return ok();
+    }
+    case "arrive": {
+      const r = s.road[cmd.shipment];
+      if (!r) return fail("unknown-shipment");
+      const c = r.contract === null ? null : s.contracts[r.contract];
+      if (c && c.state === "accepted" && c.delivered + r.quantity <= c.units) {
+        // Paid in proportion to what has arrived, worked out from the running total so that no part is paid twice.
+        const total = c.delivered + r.quantity;
+        const share = (amount: number) => mulDiv(amount, total, c.units) - mulDiv(amount, c.delivered, c.units);
+        const revenue = share(c.revenue);
+        const costs = share(c.transport + c.fees);
+        j(r.good, "road", "world", r.quantity, `delivered on contract ${c.id}`);
+        j("money", "world", "treasury", revenue, `paid on contract ${c.id}`);
+        j("money", "treasury:reserved", "world", costs, `carriage and handling for contract ${c.id}`);
+        s.treasury.available += revenue;
+        s.treasury.reserved -= costs;
+        Object.assign(c, { delivered: total, reservedCash: c.reservedCash - costs });
+        if (total === c.units) c.state = "settled";
+        delete s.road[cmd.shipment];
+        return ok({ money: revenue - costs, sold: r.quantity });
+      }
+      // No contract, or one that closed while the load was on the road: sold at what the market pays today.
+      const m = s.markets[r.market];
+      const q = m?.goods[r.good];
+      if (!m || !q) return fail("unknown-market");
+      const n = q.bid === 0 ? r.quantity : Math.min(r.quantity, Math.floor(m.cash / q.bid));
+      const revenue = q.bid * n;
+      j(r.good, "road", `market:${r.market}`, n, "sold at bid on arrival");
+      j("money", `market:${r.market}`, "treasury", revenue, "sold at bid on arrival");
+      m.cash -= revenue;
+      q.inventory += n;
+      s.treasury.available += revenue;
+      if (n === r.quantity) delete s.road[cmd.shipment];
+      else s.road[cmd.shipment] = { ...r, quantity: r.quantity - n, costBasis: r.costBasis - mulDiv(r.costBasis, n, r.quantity), contract: null };
+      return ok({ money: revenue, sold: n, leftInField: r.quantity - n });
+    }
     case "cancel-contract": {
       const c = s.contracts[cmd.contract];
       if (!c) return fail("unknown-contract");
@@ -526,6 +607,13 @@ export function audit(s: EconomyState): string[] {
       if (q.ask < q.bid) bad.push(`market ${id} sells ${good} below what it pays for it`);
     }
   }
+  const onRoad = new Map<string, number>();
+  for (const r of Object.values(s.road ?? {})) {
+    goods.add(r.good);
+    onRoad.set(r.good, (onRoad.get(r.good) ?? 0) + r.quantity);
+    if (r.quantity <= 0 || r.costBasis < 0) bad.push(`a load of ${r.good} on the road is ${r.quantity} with a cost basis of ${r.costBasis}`);
+  }
+  for (const good of goods) expect("road", good, onRoad.get(good) ?? 0);
   for (const good of goods) {
     const h = holding(s, good);
     expect("warehouse", good, h.quantity - h.reserved);
