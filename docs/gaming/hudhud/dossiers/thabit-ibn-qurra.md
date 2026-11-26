@@ -45,13 +45,13 @@ Only a low-confidence Harran association is recorded; no secure quest city is es
 
 ## Three candidate quest premises
 
-These are proposals for Claude and the founder, not content.
+These are proposals for Claude and the founder, not content. They are deliberately conservative system scaffolding, not final quest designs. Each names one of the twelve systems in `design.md`; forms such as Measure, Journal, Care and Sail are not treated as separate systems. Claim numbers refer to the claims above.
 
-1. Players must Observe the Syriac inscription on Harran's gate and Align it with Plato's teachings [8]. This quest is purely fictional, distinguishing it from historical evidence.
+1. Children help align a practice instrument with a star, horizon or landmark using the Trace and Align system so a reading can be checked. This rests on claims [1, 2] as its evidence anchor; the practice instrument, landmark choice, reading puzzle and the children's role are game invention, not record fact.
 
-2. In a Measure quest, players translate ancient texts to earn dinars, mimicking Thabit and Hunayn's monthly payments [3]. This is a game invention, not a historical event.
+2. Children help arrange the steps of a procedure or journey in the order they must happen using the Path system. This rests on claims [1, 3] as its evidence anchor; the procedure or journey cards, their order, the errand and the children's role are game invention, not record fact.
 
-3. Players navigate through the temples of Harran in a Route quest, discovering the temple of Azar. This quest is a game invention, not based on historical facts [8].
+3. A child helps compare accounts, objects or clues using the Observe and Match system to find what the evidence supports. This rests on claims [1, 4] as its evidence anchor; the compared materials, missing details, matching puzzle and the child's role are game invention, not record fact.
 
 ## Sensitivities
 

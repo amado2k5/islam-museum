@@ -60,13 +60,13 @@ Basra for birth and Cairo for later life; both place links have medium confidenc
 
 ## Three candidate quest premises
 
-These are proposals for Claude and the founder, not content.
+These are proposals for Claude and the founder, not content. They are deliberately conservative system scaffolding, not final quest designs. Each names one of the twelve systems in `design.md`; forms such as Measure, Journal, Care and Sail are not treated as separate systems. Claim numbers refer to the claims above.
 
-1. In the 'Observe' system, players must use a camera obscura to safely observe solar eclipses, distinguishing between historical use and game mechanics [7, 8].
+1. A child helps guide a beam around obstacles to the correct target using the Beam system so a small demonstration can be completed. This rests on claims [1, 2] as its evidence anchor; the beam arrangement, obstacles, target, demonstration and the child's role are game invention, not record fact.
 
-2. Players use the 'Measure' system to calculate the direction of the qibla, using Al-Hasan ibn al-Haytham's cotangent theorem, but the game invents the method's complexity [7].
+2. A child helps compare accounts, objects or clues using the Observe and Match system to find what the evidence supports. This rests on claims [1, 3] as its evidence anchor; the compared materials, missing details, matching puzzle and the child's role are game invention, not record fact.
 
-3. In the 'Route' system, players navigate through Cairo to find and copy scientific manuscripts, reflecting Al-Hasan ibn al-Haytham's life but inventing the manuscript locations [4].
+3. Children help align a practice instrument with a star, horizon or landmark using the Trace and Align system so a reading can be checked. This rests on claims [1, 4] as its evidence anchor; the practice instrument, landmark choice, reading puzzle and the children's role are game invention, not record fact.
 
 ## Sensitivities
 

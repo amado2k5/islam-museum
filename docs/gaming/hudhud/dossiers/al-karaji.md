@@ -45,13 +45,13 @@ Baghdad is the only direct place relation. Water-course engineering is present, 
 
 ## Three candidate quest premises
 
-These are proposals for Claude and the founder, not content.
+These are proposals for Claude and the founder, not content. They are deliberately conservative system scaffolding, not final quest designs. Each names one of the twelve systems in `design.md`; forms such as Measure, Journal, Care and Sail are not treated as separate systems. Claim numbers refer to the claims above.
 
-1. Observe the historical evidence of Baghdad's layout and use it to navigate a quest through the city's gates and markets, distinguishing the historical city from the game's fictional elements [7, 8].
+1. Children help arrange the steps of a procedure or journey in the order they must happen using the Path system. This rests on claims [1, 2] as its evidence anchor; the procedure or journey cards, their order, the errand and the children's role are game invention, not record fact.
 
-2. Measure the alignment of tunnels and conduits in a quest inspired by al-Karaji's manual, distinguishing the qanat tradition from the game's fictional inventions [5].
+2. Children help align a practice instrument with a star, horizon or landmark using the Trace and Align system so a reading can be checked. This rests on claims [1, 3] as its evidence anchor; the practice instrument, landmark choice, reading puzzle and the children's role are game invention, not record fact.
 
-3. Route through Baghdad's historical landmarks, using the city's layout and the round city's gates as waypoints, distinguishing the historical city from the game's fictional elements [7, 8].
+3. A child helps compare accounts, objects or clues using the Observe and Match system to find what the evidence supports. This rests on claims [1, 4] as its evidence anchor; the compared materials, missing details, matching puzzle and the child's role are game invention, not record fact.
 
 ## Sensitivities
 

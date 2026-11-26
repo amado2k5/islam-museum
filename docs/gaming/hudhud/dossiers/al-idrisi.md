@@ -62,13 +62,13 @@ Ceuta for birth and Sicily/Roger II’s court for the book project, according to
 
 ## Three candidate quest premises
 
-These are proposals for Claude and the founder, not content.
+These are proposals for Claude and the founder, not content. They are deliberately conservative system scaffolding, not final quest designs. Each names one of the twelve systems in `design.md`; forms such as Measure, Journal, Care and Sail are not treated as separate systems. Claim numbers refer to the claims above.
 
-1. Players must Observe the descriptions of Sicily and its regions to align them with the historical claims made by al-Idrisi [4, 1].
+1. A child helps arrange places, supplies and direction clues into a workable journey leg using the Route system. This rests on claims [1, 2] as its evidence anchor; the exact leg, supplies, clue cards, arrangement and the child's role are game invention, not record fact.
 
-2. Players Measure the height of the Lighthouse of Alexandria in cubits and compare it with the descriptions in the game to understand its scale [7].
+2. A child helps compare accounts, objects or clues using the Observe and Match system to find what the evidence supports. This rests on claims [1, 3] as its evidence anchor; the compared materials, missing details, matching puzzle and the child's role are game invention, not record fact.
 
-3. Players Route through the regions described by al-Idrisi, distinguishing between historical evidence and the game's fictional elements [5, 6].
+3. A child helps connect people, resources or pieces of knowledge so they reach where they are needed using the Network system. This rests on claims [1, 4] as its evidence anchor; the exact people or resources, missing links, network puzzle and the child's role are game invention, not record fact.
 
 ## Sensitivities
 

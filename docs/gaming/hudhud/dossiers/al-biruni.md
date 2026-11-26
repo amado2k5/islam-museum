@@ -66,13 +66,13 @@ Khwarizm/Kath for birth and Ghazna for death, with travel and India material in 
 
 ## Three candidate quest premises
 
-These are proposals for Claude and the founder, not content.
+These are proposals for Claude and the founder, not content. They are deliberately conservative system scaffolding, not final quest designs. Each names one of the twelve systems in `design.md`; forms such as Measure, Journal, Care and Sail are not treated as separate systems. Claim numbers refer to the claims above.
 
-1. Players must Observe al-Biruni's travels and Measure the distance between his various locations to unlock new chapters of the game [2, 3, 7].
+1. Children help align a practice instrument with a star, horizon or landmark using the Trace and Align system so a reading can be checked. This rests on claims [1, 2] as its evidence anchor; the practice instrument, landmark choice, reading puzzle and the children's role are game invention, not record fact.
 
-2. Players use the Route system to follow al-Biruni's diplomatic missions, distinguishing between historical missions and fictional quests to explore his influence [5].
+2. A child helps arrange places, supplies and direction clues into a workable journey leg using the Route system. This rests on claims [1, 3] as its evidence anchor; the exact leg, supplies, clue cards, arrangement and the child's role are game invention, not record fact.
 
-3. Players Align al-Biruni's scientific works with the knowledge he gained in India, using the Measure system to compare the accuracy of his observations [4, 8].
+3. A child helps compare accounts, objects or clues using the Observe and Match system to find what the evidence supports. This rests on claims [1, 4] as its evidence anchor; the compared materials, missing details, matching puzzle and the child's role are game invention, not record fact.
 
 ## Sensitivities
 
