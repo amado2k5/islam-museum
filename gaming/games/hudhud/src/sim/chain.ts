@@ -1,7 +1,7 @@
 // The chain: a machine as a row of parts, each of which takes one kind of motion and gives another. Something is
 // set going at one end; if every part hands on what the next one takes, it arrives at the other end and the machine
 // has done its work. If not, it stops at the first place where the hand-over fails, and the player sees where.
-// Pure rules over plain data: nothing here draws, and nothing is in a quest yet.
+// Pure rules over plain data: nothing here draws. The elephant clock quest (./clock, content/clock) is built on it.
 //
 // What it is for first: al-Jazari's elephant clock. The museum's record (invention/elephant-clock, after the
 // Metropolitan Museum's catalogue entry) says that every half hour a rider and a bird move and a ball passes from a

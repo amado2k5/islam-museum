@@ -58,9 +58,9 @@ Fifty bespoke minigames would be fifty fragile things. Each system below is one 
 | System | What the player does | First built for | Used in worlds | State |
 |---|---|---|---|---|
 | **Flight** | run, hop, flap, glide, perch; wind and updraughts later | every quest | all | **built** (`sim/move.ts`), without wind |
-| **Beam** | turn mirrors, stop or pass light, split it | Ibn al-Haytham | 1, 3 | **built** (`sim/light.ts`) |
+| **Beam** | turn mirrors, stop or pass light, split it | Ibn al-Haytham | 1, 3 | **built** (`sim/light.ts`): mirrors of two or three positions (two leans, and laid flat so that the beam passes), obstacles, decoy mirrors that must stay out of the road, a solver that counts the fewest turns and proves one answer only |
 | **Talk** | essential lines, "ask more", choices that never change history | every quest | all | **built** (`narrative/dialogue.ts`) |
-| **Mechanism** | put a machine's parts in the order in which each hands its motion to the next; later, gears, floats, valves and siphons | al-Jazari | 2, 8 | **rules built and tested** (`sim/chain.ts`), in no quest yet |
+| **Mechanism** | put a machine's parts in the order in which each hands its motion to the next; later, gears, floats, valves and siphons | al-Jazari | 2, 8 | **rules built and tested** (`sim/chain.ts`, `sim/clock.ts`); in one trial quest, the elephant clock, played with page controls and no flying scene |
 | **Path** | lay a step-by-step route or procedure that a thing then follows | al-Khwarizmi | 2, 6, 9 | designed |
 | **Route** | plan a journey or a flow over a map: wind, water, provisions, time | Ibn Battuta | 3, 6, 7, 9 | designed |
 | **Trace and Align** | join stars, set an instrument to a reading | al-Sufi | 1, 3 | designed |
