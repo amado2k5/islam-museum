@@ -7,6 +7,13 @@
 - `person/thabit-ibn-qurra`
 - `place/harran`
 
+## Arabic cross-check
+
+Machine presence/citation check only, not a translation review:
+
+- `person/thabit-ibn-qurra`: English prose present (3 sections, 5 citations); Arabic prose present (2 sections, 5 citations).
+- `place/harran`: English prose present (5 sections, 10 citations); Arabic prose present (5 sections, 14 citations).
+
 ## Who, where, when
 
 - **Who:** Arabic: ثابت بن قرة الحراني. English: Thabit ibn Qurra. Record labels: `person/thabit-ibn-qurra` en='Thabit ibn Qurra', ar='ثابت بن قرة الحراني'; `place/harran` en='Harran', ar='حران'
@@ -15,15 +22,14 @@
 
 ## What the records say they did
 
-1. Thabit ibn Qurra al-Harrani, of the Sabians. His name in the Fihrist is Abu al-Hasan Thabit ibn Qurra ibn Marwan. He was born in the year 221 AH and died in 288 AH, aged seventy-seven solar years . — source location `content/en/person/thabit-ibn-qurra.md — Overview`; citation `{cite:fihrist-ibn-al-nadim p.380}`; flag: **stated**.
-2. He was a money-changer in Harran. Muhammad ibn Musa took him along when he saw that he was eloquent, then connected him with al-Mu'tadid and brought him in among the astrologers. Ibn al-Nadim says that the origin of the leadership of the Sabians at the courts of the caliphs was Thabit ibn Qurra . — source location `content/en/person/thabit-ibn-qurra.md — His career`; citation `{cite:fihrist-ibn-al-nadim p.380}`; flag: **stated**.
-3. Ibn al-Nadim also reports that the Banu al-Munajjim used to pay him, together with Hunayn ibn Ishaq, about five hundred dinars a month for translation and attendance . — source location `content/en/person/thabit-ibn-qurra.md — His career`; citation `{cite:fihrist-ibn-al-nadim p.340}`; flag: **stated**.
-4. al-Mas'udi reports that when al-Mu'tadid, in the year 289 AH, was pursuing Wasif the servant, he came to the temple of Antioch, venerated it, and spoke of its significance . — source location `content/en/person/thabit-ibn-qurra.md — His career`; citation `{cite:muruj-al-dhahab p.542}`; flag: **stated**.
+1. Thabit ibn Qurra al-Harrani, a Sabian, was born in 221 AH and died in 288 AH at age seventy-seven. — source location `content/en/person/thabit-ibn-qurra.md — Overview`; citation `{cite:fihrist-ibn-al-nadim p.380}`; flag: **stated**.
+2. Muhammad ibn Musa recognized Thabit's eloquence and introduced him to al-Mu'tadid, leading to his role among the astrologers at the caliphs' courts. — source location `content/en/person/thabit-ibn-qurra.md — His career`; citation `{cite:fihrist-ibn-al-nadim p.380}`; flag: **stated**.
+3. Ibn al-Nadim reports that Thabit and Hunayn ibn Ishaq were paid around five hundred dinars monthly for their services. — source location `content/en/person/thabit-ibn-qurra.md — His career`; citation `{cite:fihrist-ibn-al-nadim p.340}`; flag: **stated**.
+4. Al-Mas'udi reports that al-Mu'tadid, in 289 AH, spoke of the significance of the temple of Antioch. — source location `content/en/person/thabit-ibn-qurra.md — His career`; citation `{cite:muruj-al-dhahab p.542}`; flag: **stated**.
 5. The French Biblissima authority file records this person under the identifier Q271 with the name form «Abū al-Ḥasan T̲ābit ibn Qurrah al-Ṣābī (083.?-0901)», the form including the years of birth and death as the file gives them. — source location `content/en/person/thabit-ibn-qurra.md — In the Biblissima authority file`; citation `{cite:biblissima Q271}`; flag: **stated**.
-6. Harran is a city of al-Jazira. Its people made a peace agreement with Iyad ibn Ghanm on the same terms as Edessa. It is reported that they moved to it before his arrival, and made peace for their city while they were in it. There was rivalry between the Harranians and the Christians over making the peace, according to al-Baladhuri. — source location `content/en/place/harran.md — Overview`; citation `{cite:futuh-buldan-maarif-1407 p.239-241}`; flag: **stated**.
-7. In it are Tall Afra, the land of Tall Mudhaba, and the prayer ground. In its outskirts are lands granted to al-Ghamr ibn Yazid ibn Abd al-Malik. — source location `content/en/place/harran.md — Overview`; citation `{cite:futuh-buldan-maarif-1407 p.239-241}`; flag: **stated**.
-8. Ibn Fadl Allah al-Umari reports from al-Bakri that on the gate of Harran is an inscription in Syriac attributed to Plato, and that the rest of the temples of the Sabians is a house known as Mu'allaniyusha, which for them is the temple of Azar, the father of Abraham. — source location `content/en/place/harran.md — Overview`; citation `{cite:umari-masalik-1924 p.225-226}`; flag: **stated**.
-
+6. Harranians and Christians competed for peace terms with Iyad ibn Ghanm, according to al-Baladhuri. — source location `content/en/place/harran.md — Overview`; citation `{cite:futuh-buldan-maarif-1407 p.239-241}`; flag: **stated**.
+7. Harran includes Tall Afra, Tall Mudhaba, and a prayer ground, with lands granted to al-Ghamr ibn Yazid. — source location `content/en/place/harran.md — Overview`; citation `{cite:futuh-buldan-maarif-1407 p.239-241}`; flag: **stated**.
+8. Ibn Fadl Allah al-Umari reports that Harran's gate has a Syriac inscription attributed to Plato, and a temple known as Mu'allaniyusha is dedicated to Azar. — source location `content/en/place/harran.md — Overview`; citation `{cite:umari-masalik-1924 p.225-226}`; flag: **stated**.
 ## Thumbnail elements without record support
 
 The atlas title is مترجم النجوم. No record read supports a documented observatory, a starry translation room, or a personal scene of him teaching children. Treat those as design fiction unless a reviewer supplies support.
@@ -41,15 +47,15 @@ Only a low-confidence Harran association is recorded; no secure quest city is es
 
 These are proposals for Claude and the founder, not content.
 
-1. A local problem asks the player to apply Cipher, Path and Rhythm to the documented object, measurement or journey, using only the claims above as the factual base.
+1. Players must Observe the Syriac inscription on Harran's gate and Align it with Plato's teachings [8]. This quest is purely fictional, distinguishing it from historical evidence.
 
-2. Hudhud helps separate observation from assumption: the player compares what the record states with what the thumbnail invents, then solves a fair puzzle through Cipher, Path and Rhythm.
+2. In a Measure quest, players translate ancient texts to earn dinars, mimicking Thabit and Hunayn's monthly payments [3]. This is a game invention, not a historical event.
 
-3. The quest ends by returning a page to the Atlas, with optional museum-note context, a hidden collectible and replay goals. This paragraph is structural game design only, not historical content.
+3. Players navigate through the temples of Harran in a Route quest, discovering the temple of Azar. This quest is a game invention, not based on historical facts [8].
 
 ## Sensitivities
 
-Do not add war, illness, death, slavery, sect or modern disputes unless the reviewed record requires them. Court and ruler encounters must avoid propaganda or spectacle; invented dialogue must be explicit dramatized paraphrase. Religious affiliation disagreements, where present, need labelled review.
+Evidence scan, not a ruling: illness/death. Any such material still requires the full content-safety and age-appropriateness review. Do not add war, illness, death, slavery, sect or modern disputes unless the reviewed record requires them. Court and ruler encounters must avoid propaganda or spectacle; invented dialogue must be explicit dramatized paraphrase. Religious affiliation disagreements, where present, need labelled review.
 
 ## Gaps
 
