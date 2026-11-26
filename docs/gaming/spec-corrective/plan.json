@@ -1,0 +1,256 @@
+{
+ "format": "im.gaming.corrective-plan",
+ "version": 1,
+ "source": "docs/gaming/spec-corrective/corrective-mandate-2026-11-25.md",
+ "checked": "2026-11-25",
+ "baseline": {
+  "mandateBaseline": "UAT release 20261125-7c31b7631c6; repository at 7c31b7631c6",
+  "uatWhenChecked": "20261125-7c31b7631c6 (commit 7c31b7631c6, built clean, 50 files, 3,503,348 bytes, three games), read from /_channel and /release.json",
+  "mainWhenChecked": "3733031ddae: one games change ahead of UAT (the village, mosque, mill and bridge of pull request 8266)",
+  "machine": "Apple M4 Max; Chrome 158.0.8127.38 and Edge 157.0.4341.60 installed; no Blender; Safari present and not driven",
+  "evidence": "docs/gaming/evidence/corrective/baseline/"
+ },
+ "statusValues": [
+  "not-started",
+  "in-progress",
+  "waiting-on-founder",
+  "done"
+ ],
+ "items": [
+  {
+   "id": 0,
+   "title": "Establish the exact baseline",
+   "priority": "P0",
+   "size": "S",
+   "gates": [],
+   "checked": "The UAT pointer and release file were read. The five addresses of the review brief were opened on UAT in seven languages in Chrome 158, each in a fresh context, and in English in Edge 157: in all 40 the game started, drew in 3D, played its music after a click and logged no console error (evidence/corrective/baseline/). This file and the traceability page are the reconciled table. The mandate's findings checked so far against the repository hold: the Abu Klea round (games/atlas.md), the merchant's 100 in 100 (games/golden-age.md), the lab's failure in Edge (the ledger).",
+   "movedSince": "Nothing of the baseline itself.",
+   "status": "done",
+   "next": "Repeat the UAT check after every release. Not in the baseline, and still owed: a trace or video per address, touch, and any second machine.",
+   "founder": null
+  },
+  {
+   "id": 1,
+   "title": "Granada: production-quality art",
+   "priority": "P0",
+   "size": "L",
+   "gates": [
+    "GRA12",
+    "GRA13",
+    "R09",
+    "R10"
+   ],
+   "checked": "True at the baseline: every shape was generated at load by code, with no authored asset, no rigged figure, no reflection.",
+   "movedSince": "Pull request 8266 (after the baseline, not on UAT): tiled houses, a mosque with its minaret, a mill whose wheel turns with the water, a three-arched bridge, ox-carts, people who lean as they walk. Still generated at load, still no development-time pipeline, no mapped PBR texture sets, no rigged characters, no reflections.",
+   "status": "in-progress",
+   "next": "Five hero previews (fortified hill town, courtyard house, arcaded market, mill, bridge) from a development-time pipeline, lit on a material sheet, before any mass generation; then the valley slice at the concept's composition with native 1920x1080 and 2560x1440 captures and a moving clip.",
+   "founder": "Which tool the pipeline uses. Blender is not on this machine; installing it is a download and needs his word. Without it the pipeline is a build-time generator in this repository's own code that writes model files, which the mandate allows as 'equivalent' and which will reach less far."
+  },
+  {
+   "id": 2,
+   "title": "Granada: the real economy",
+   "priority": "P0",
+   "size": "L",
+   "gates": [
+    "GRA03",
+    "GRA04",
+    "GRA05",
+    "GRA06",
+    "GRA10"
+   ],
+   "checked": "True: one market at fixed prices, one warehouse, nothing travels, no processing in the played valley. The kernel has the ledger, finite purses, reservations, idempotent commands and one recipe, with the package's figures kept as fixtures.",
+   "movedSince": "The mill now stands in the valley as scenery only; the rules do not mill.",
+   "status": "not-started",
+   "next": "A second market (Malaga) with quotes that move with stock and demand and cannot be round-tripped for profit; then a first shipment with capacity, delay and cargo state, quoted and committed at one revision.",
+   "founder": null
+  },
+  {
+   "id": 3,
+   "title": "Granada: challenge and progression",
+   "priority": "P1",
+   "size": "L",
+   "gates": [
+    "GRA02",
+    "GRA09",
+    "GRA10",
+    "GRA11"
+   ],
+   "checked": "True: three of four scripted ways of playing win at least 95 campaigns in 100; one act of three; no sandbox, daily game or undo.",
+   "movedSince": "Nothing in the rules. The 1,000-seed table was run again at 3733031ddae and came out as recorded: mender 99.5, builder 91.6, merchant 96.4, irrigator 100, idle 0, random 0.",
+   "status": "not-started",
+   "next": "A fresh 1,000-seed table at the deployed revision, then a standard profile beside the guided one. The targets the mandate proposes (no scripted way at 90 in 100 or more, three at 20 or more) are its proposal and are recorded as such.",
+   "founder": null
+  },
+  {
+   "id": 4,
+   "title": "Granada: region, construction, diplomacy, protection, contextual interface",
+   "priority": "P1",
+   "size": "L",
+   "gates": [
+    "GRA07",
+    "GRA08",
+    "GRA14",
+    "GRA15"
+   ],
+   "checked": "True: two kinds of building, no staged construction, no diplomacy or defence, one view of the interface. The geography tests hold the ports apart from Granada.",
+   "movedSince": "The 3D valley has an overview and field picking; the panels are recoloured, not redesigned.",
+   "status": "not-started",
+   "next": "After items 1 and 2 have a slice: the display modes and the measured share of the world left clear in Overview.",
+   "founder": null
+  },
+  {
+   "id": 5,
+   "title": "The Golden Age: economic scaling at its root",
+   "priority": "P0",
+   "size": "L",
+   "gates": [
+    "R04",
+    "R14"
+   ],
+   "checked": "True: in chapter 3 the merchant wins 1,000 of 1,000 and ends near 1,500 coins; a test asserts it on purpose. Income grows with households and costs do not.",
+   "movedSince": "Nothing.",
+   "status": "not-started",
+   "next": "Per-season cashflow in the simulation lab (tax, trade, upkeep, building, endowment), committed as the before table; then costs and demand that scale, with the same seeds and a held-out set.",
+   "founder": null
+  },
+  {
+   "id": 6,
+   "title": "The Golden Age: the whole game",
+   "priority": "P1",
+   "size": "L",
+   "gates": [
+    "R04",
+    "R09",
+    "R10"
+   ],
+   "checked": "True: an 8 by 6 grid, nine kinds of building, three separate chapter starts, no sandbox or daily scenario.",
+   "movedSince": "Nothing.",
+   "status": "not-started",
+   "next": "After item 5.",
+   "founder": null
+  },
+  {
+   "id": 7,
+   "title": "Atlas: unfair rounds and images",
+   "priority": "P0",
+   "size": "L",
+   "gates": [
+    "R06",
+    "R07"
+   ],
+   "checked": "True: the state page records a battle placed at the nearest city and scored against it. A first count on the pack as built: of 1,174 event rounds, 531 are named for a place ('Battle of X', 'Siege of X'), and in 133 of those the name is not the name of the place the round is scored at. Some of the 133 are another name for the same place (Adrianople and Edirne, Bougie and Bejaia); some are a different place (Abu Klea scored at Khartoum, Dandanqan at Merv, Azaz at Aleppo). They have not been told apart yet, and no coordinate has been checked against a source. Four of 895 museum pictures qualify for an image round; eight more wait on a licence decision.",
+   "movedSince": "Nothing in the pack. The globe is now a lit sphere.",
+   "status": "in-progress",
+   "next": "Tell the 133 apart using the museum's own other names for each place; keep every round whose named place is not the scored place out of the pack until its record is reviewed; version the pack so saved and past games still read; rerun the 365-day schedule. Museum records that are wrong are reported to their lane, not edited from here.",
+   "founder": "Whether the eight held Victoria and Albert images may be used (open since G-0008)."
+  },
+  {
+   "id": 8,
+   "title": "Atlas: the globe and the other modes",
+   "priority": "P1",
+   "size": "L",
+   "gates": [
+    "R04",
+    "R09",
+    "R10"
+   ],
+   "checked": "True at the baseline as to terrain, rivers, historical maps, perspective and device recovery.",
+   "movedSince": "Nothing since the lit sphere of pull request 8264, which is the baseline.",
+   "status": "in-progress",
+   "next": "Elevation whose licence is verified before it is used; then regional and era practice and the archive of past days.",
+   "founder": null
+  },
+  {
+   "id": 9,
+   "title": "Browser quality and the save contract",
+   "priority": "P1",
+   "size": "L",
+   "gates": [
+    "R05",
+    "R08",
+    "R09",
+    "GRA13",
+    "GRA16",
+    "GRA23"
+   ],
+   "checked": "True: one machine and one browser measured; no device-loss handling, no soak; saves are in localStorage, each game with its own checks.",
+   "movedSince": "Edge 157 opens all three games on UAT in 3D with no console error (the baseline of piece 0). What had failed before was the graphics lab's benchmark under automation in Edge, which is still unexplained.",
+   "status": "not-started",
+   "next": "Recovery from a lost graphics device with a visible fall back to the plan; then the versioned save envelope with migration of today's saves.",
+   "founder": null
+  },
+  {
+   "id": 10,
+   "title": "Platform and museum integration",
+   "priority": "P1",
+   "size": "L",
+   "gates": [
+    "R01",
+    "R02",
+    "R03",
+    "R16",
+    "GRA20",
+    "GRA21",
+    "GRA22"
+   ],
+   "checked": "True: the registry has three entries; nothing of the games is on the museum's pages; no rollback has been made on UAT; production is not deployed.",
+   "movedSince": "Nothing.",
+   "status": "not-started",
+   "next": "The eleven entries in the catalogue with their true states, only the built ones leading anywhere; then the Play entry and page on a branch of the site, which changes every page and is labelled so.",
+   "founder": "A rollback on UAT changes what he is looking at: his word before it is made. Production is his."
+  },
+  {
+   "id": 11,
+   "title": "Public SDK and modding",
+   "priority": "P1",
+   "size": "L",
+   "gates": [
+    "R11",
+    "R12",
+    "R13",
+    "R17",
+    "GRA17",
+    "GRA18",
+    "GRA19"
+   ],
+   "checked": "True: untouched. The threat model exists; no pack loader, no validator, no sample.",
+   "movedSince": "Nothing.",
+   "status": "not-started",
+   "next": "The data-only pack: manifest, schema, hashes, limits, a validator on the command line, and a sample pack from outside the games' own tree. No programmable extension is enabled.",
+   "founder": null
+  },
+  {
+   "id": 12,
+   "title": "Independent playtesting; no self-certification",
+   "priority": "P0",
+   "size": "M",
+   "gates": [
+    "R10",
+    "R14",
+    "GRA25"
+   ],
+   "checked": "True: every playthrough of every game is the author's script. No gate that needs a person has been passed or will be on the author's word.",
+   "movedSince": "A page for an outside reviewer exists (external-review.md); the reviewer it was given to could not reach UAT. The protocol for a person's playtest is written (playtest-protocol.md): what is said, what is timed, the fault form, and that no name is kept.",
+   "status": "waiting-on-founder",
+   "next": "Hold the first round on Granada once the testers are named, and file its counts.",
+   "founder": "Five to eight people who have not seen the games, and his approval of how they are asked."
+  },
+  {
+   "id": 13,
+   "title": "The eight games not built, and distribution",
+   "priority": "P1",
+   "size": "L",
+   "gates": [
+    "R04",
+    "R15",
+    "R16",
+    "R17"
+   ],
+   "checked": "True: Architects of History, ChronoQuest, Dynasty, The House of Wisdom, The Knowledge Web, Lost Manuscripts, Relics and The Silk Road have design documents and no code.",
+   "movedSince": "Nothing. On 25 November the founder chose Granada first over starting them.",
+   "status": "not-started",
+   "next": "In the mandate's order once the shared contracts are stable: Lost Manuscripts and The Knowledge Web first.",
+   "founder": null
+  }
+ ]
+}
