@@ -10,7 +10,9 @@ The founder gave this as one archive, `islam-museum-claude-production-handoff.zi
 | [`PRODUCTION_GAME_STANDARDS.md`](PRODUCTION_GAME_STANDARDS.md) | The standards it proposes for a production release, with a regression matrix. The prompts call this file `engineering/gaming/PRODUCTION_GAME_STANDARDS.md`; this is that file |
 | [`owner-decisions-2026-11-26.md`](owner-decisions-2026-11-26.md) | **The founder's decisions of 26 November 2026** on everything below, as they arrived. They govern |
 | [`owner-decisions-2026-11-26-b.md`](owner-decisions-2026-11-26-b.md) | **His second set, the same day**, on the eleven points then open. They govern |
-| [`owner-register.md`](owner-register.md) | The register: 22 decisions, the people still to be named, and what needs his own approval (generated) |
+| [`owner-decisions-2026-11-26-c.md`](owner-decisions-2026-11-26-c.md) | **His third, the same day**, on Granada's art: neither set accepted, a new Candidate C. It governs |
+| [`art-candidates-granada.md`](art-candidates-granada.md) | What was done with it: where Sets A and B and Candidate C stand, and Set B's files one by one |
+| [`owner-register.md`](owner-register.md) | The register: 23 decisions, the people still to be named, and what needs his own approval (generated) |
 | [`proof-frames.md`](proof-frames.md) | The three proof frames he approved: a brief for each and the checklist each must pass (generated) |
 | [`proof-granada.md`](proof-granada.md) | **Granada's proof frame**, taken from the running game on 26 November 2026 and set beside its target, for him to judge |
 | [`target-inventory.md`](target-inventory.md) | Every system the three target images show, what exists of it today, and how it is to be met (generated from `target-inventory.json`) |

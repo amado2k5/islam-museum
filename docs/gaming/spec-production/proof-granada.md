@@ -37,7 +37,7 @@ The running game, the same day, at the High preset, in autumn with the olive har
 | P10 | Low, medium and high compared | **Met.** The three captures are below; the tool plays the game through at each |
 | P11 | Frame time, memory and resources | **Met for this machine only.** The table below. Nothing has been measured on either minimum machine |
 | P12 | Time taken, and the cost of scaling | **Stated below**, with what is not known |
-| P13 | The founder accepts the direction | **Waiting on him** |
+| P13 | The founder accepts the direction | **Not accepted** (his decision of 26 November 2026, [`owner-decisions-2026-11-26-c.md`](owner-decisions-2026-11-26-c.md)): this frame stays as the running baseline, and a new candidate is to be built ([`art-candidates-granada.md`](art-candidates-granada.md)) |
 
 ## The three presets
 
