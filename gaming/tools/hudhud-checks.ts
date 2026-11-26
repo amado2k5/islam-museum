@@ -5,6 +5,7 @@
 import { mkdirSync, writeFileSync } from "node:fs";
 import { resolve } from "node:path";
 import { chromium, type BrowserContext, type Page } from "playwright-core";
+import { ATLASBOOK, worldCentre } from "../games/hudhud/src/art/atlasbook";
 import { leaveOpening } from "./hudhud-opening";
 import { serveWorkspace } from "./serve";
 
@@ -666,6 +667,136 @@ for (const lang of ["en", "ar"]) {
   );
   await ctxAr.close();
   record("the opening story: a new visitor meets it before the Atlas and reads it by the buttons and the arrow keys; Begin and Skip record it; it can be read again; Escape leaves it; autostart shows none; on an Arabic page it runs right to left", readThrough && skipping && arabic, { read: readDetail, skippedThenReload, autoSeen, stored, ar: { ar1, ar2, ar3, ar5, arAtlas } });
+}
+// 7. The Atlas shows the Atlas: one picture of the open book that says in words how many pages are home, is also a way
+// to go to a world's list (by a click on a medallion or by the numbered buttons under it), and is drawn again when the
+// Atlas is. Also: the elephant clock's blunt answer is kept over a reload; the opening shows when the settings are
+// closed on the Atlas after a change to a slot that has not seen it; and the same picture on an Arabic page.
+{
+  const bookView = (page: Page) => ev<{ alt: string | null; role: string | null; dir: string; buttons: { n: string; label: string | null; w: number; h: number; x: number }[]; hint: string; hasHeadings: number; picture: { worlds: number; home: number[]; open: number[] } }>(page, "(() => { const c = document.querySelector('.hub canvas.book-art'); return { alt: c ? c.getAttribute('aria-label') : null, role: c ? c.getAttribute('role') : null, dir: document.documentElement.dir, buttons: [...document.querySelectorAll('.hub .book-world')].map((b) => { const r = b.getBoundingClientRect(); return { n: b.textContent, label: b.getAttribute('aria-label'), w: r.width, h: r.height, x: r.left }; }), hint: document.querySelector('#book-hint').textContent, hasHeadings: document.querySelectorAll('.hub h3[data-world][tabindex=\"-1\"]').length, picture: window.__HH__.atlasPicture() }; })()");
+  const focusedWorld = (page: Page) => ev<string | null>(page, "document.activeElement && document.activeElement.tagName === 'H3' ? document.activeElement.dataset.world : null");
+  /** The page point (client pixels) of a world's medallion, from the canvas's box and the art file's own geometry. */
+  const medallion = async (page: Page, order: number, rtl: boolean) => {
+    const canvas = page.locator(".hub canvas.book-art");
+    await canvas.scrollIntoViewIfNeeded();
+    await page.waitForTimeout(400);
+    const box = (await canvas.boundingBox())!;
+    const c = worldCentre(order, rtl)!;
+    return { x: box.x + (c.x / ATLASBOOK.w) * box.width, y: box.y + (c.y / ATLASBOOK.h) * box.height, box };
+  };
+  // English, left to right.
+  const ctx = await browser.newContext({ viewport: { width: 1280, height: 900 } });
+  let page = await open(ctx, "&style=explorer");
+  const first = await bookView(page);
+  if (outDir) (mkdirSync(outDir, { recursive: true }), await page.screenshot({ path: resolve(outDir, "atlas-picture-en.png"), fullPage: true }));
+  const present = first.role === "img" && /^The open Atlas: ten worlds, five pages each\. 0 of 50 pages are home\.$/.test(first.alt ?? "") && first.picture.worlds === 10 && first.picture.home.length === 10 && first.picture.home.every((n) => n === 0) && first.picture.open.join() === "2,3";
+  const buttonsOk = first.buttons.length === 10 && first.buttons.every((b, i) => b.n === String(i + 1) && (b.label ?? "").startsWith(`World ${i + 1}: `) && b.w >= 44 && b.h >= 44) && first.buttons[0]!.label === "World 1: Sky, Stars and Time" && first.hasHeadings === 10 && /numbered buttons/.test(first.hint);
+  // A click on a far world's medallion moves focus to that world's heading, and brings it into view.
+  const far = await medallion(page, 9, false);
+  await page.mouse.click(far.x, far.y);
+  await page.waitForTimeout(900);
+  const clicked = { focus: await focusedWorld(page), inView: await ev<boolean>(page, "(() => { const r = document.activeElement.getBoundingClientRect(); return r.top >= 0 && r.bottom <= innerHeight; })()") };
+  // A click between two medallions does nothing: the heading keeps no focus because nothing was chosen.
+  const a = await medallion(page, 1, false);
+  const b2 = worldCentre(2, false)!;
+  const mid = { x: a.box.x + (((worldCentre(1, false)!.x + b2.x) / 2) / ATLASBOOK.w) * a.box.width, y: a.y };
+  await page.mouse.click(mid.x, mid.y);
+  await page.waitForTimeout(300);
+  const between = await focusedWorld(page);
+  // The numbered buttons work from the keyboard: Enter on one, Tab to the next and Space on it.
+  await page.locator(".hub .book-world[data-world='6']").focus();
+  await page.keyboard.press("Enter");
+  await page.waitForTimeout(700);
+  const byEnter = await focusedWorld(page);
+  await page.locator(".hub .book-world[data-world='6']").focus();
+  await page.keyboard.press("Tab");
+  const onNext = await ev<string>(page, "document.activeElement.dataset.world");
+  await page.keyboard.press("Space");
+  await page.waitForTimeout(700);
+  const bySpace = await focusedWorld(page);
+  // The elephant clock is finished through the hook; back on the Atlas the world's page is home and the sentence changed.
+  await page.locator(".hub button[data-quest='w02q1-al-jazari']").click();
+  for (const [i, part] of ["float", "falcon", "dragon", "vessel", "bowl"].entries()) await ev(page, `window.__HH__.clockCommand({ type: 'put', place: ${i}, part: '${part}' })`);
+  await ev(page, "window.__HH__.clockCommand({ type: 'go' })");
+  await page.waitForSelector(".bench .results:not([hidden])", { timeout: 20000 });
+  await ev(page, "window.__HH__.toAtlas()");
+  const after = await bookView(page);
+  if (outDir) await page.screenshot({ path: resolve(outDir, "atlas-picture-en-one-home.png"), fullPage: true });
+  const redrawn = after.picture.home[1] === 1 && after.picture.home.filter((n) => n > 0).length === 1 && /1 of 50 pages are home\./.test(after.alt ?? "") && after.alt !== first.alt && after.picture.open.join() === "2,3";
+  await page.close();
+  // Reduced motion: the world's list is there at once, not scrolled to smoothly.
+  const calm = await open(ctx, "&motion=reduced");
+  const spot = await medallion(calm, 9, false);
+  await calm.mouse.click(spot.x, spot.y);
+  const reduced = await ev<{ world: string | null; moved: boolean }>(calm, "({ world: document.activeElement.tagName === 'H3' ? document.activeElement.dataset.world : null, moved: window.scrollY > 0 && document.activeElement.getBoundingClientRect().top < innerHeight })");
+  await calm.close();
+  // The blunt answer to the apprentice is kept: after a reload the apprentice cannot be answered again.
+  page = await open(ctx, "&style=explorer");
+  await page.locator(".hub button[data-quest='w02q1-al-jazari']").click();
+  await page.getByRole("button", { name: "Talk to the apprentice" }).click();
+  await page.getByRole("button", { name: "You should have been more careful." }).click();
+  const stored = await ev<{ flags: string[] }>(page, "JSON.parse(localStorage.getItem('im.hudhud.save.v1')).slots[0].resume.snap");
+  await ev(page, "window.__HH__.saveReady()");
+  await page.reload();
+  await page.waitForFunction("window.__HH__ && window.__HH__.ready");
+  await page.locator(".hub button[data-quest='w02q1-al-jazari']").click();
+  const bluntKept = { flags: stored.flags, disabled: await page.getByRole("button", { name: "Talk to the apprentice" }).isDisabled(), restartLabel: null as string | null };
+  await ev(page, "window.__HH__.toAtlas()");
+  bluntKept.restartLabel = await ev<string>(page, "[...document.querySelectorAll('.hub li.open button')].map((b) => b.textContent).filter((t) => /again|scene/.test(t)).join('|')");
+  await page.close();
+  // A slot that has not seen the opening shows it when the settings are closed on the Atlas; in a quest it waits.
+  const fresh = await browser.newContext({ viewport: { width: 1280, height: 900 } });
+  page = await open(fresh, "");
+  const shown = () => ev<{ shown: boolean; panel: number; hubHidden: boolean }>(page, "({ shown: window.__HH__.prologue().shown, panel: window.__HH__.prologue().panel, hubHidden: document.querySelector('.hub').hidden })");
+  await page.getByRole("button", { name: "Settings" }).click();
+  await page.locator(".sheet select").last().selectOption("1");
+  await page.waitForTimeout(500);
+  const whileOpen = await shown();
+  await page.locator(".sheet button.primary").click();
+  const onClose = await shown();
+  await page.getByRole("button", { name: "Skip the opening" }).click();
+  await ev(page, "window.__HH__.saveReady()");
+  const seen = await ev<boolean[]>(page, "JSON.parse(localStorage.getItem('im.hudhud.save.v1')).slots.map((s) => !!(s && s.prologue))");
+  // In the middle of a quest, switching to a slot that has not seen it shows nothing; back on the Atlas it does.
+  await page.locator(".hub button.primary").click();
+  await page.waitForFunction("window.__HH__.where() !== null", undefined, { timeout: 30000 });
+  await page.getByRole("button", { name: "Settings" }).click();
+  await page.locator(".sheet select").last().selectOption("2");
+  await page.waitForTimeout(500);
+  await page.locator(".sheet button.primary").click();
+  const inQuest = { ...(await shown()), started: await ev<boolean>(page, "window.__HH__.started()") };
+  await ev(page, "window.__HH__.toAtlas()");
+  await page.getByRole("button", { name: "Settings" }).click();
+  await page.locator(".sheet button.primary").click();
+  const backOnAtlas = await shown();
+  await fresh.close();
+  const opening = !whileOpen.shown && onClose.shown && onClose.panel === 1 && onClose.hubHidden && seen[0] === true && seen[1] === true && !inQuest.shown && inQuest.started && backOnAtlas.shown;
+  // Arabic: the page runs right to left, world 1 is on the right half, and the same clicks reach the same worlds.
+  const arCtx = await browser.newContext({ viewport: { width: 1280, height: 900 } });
+  const ar = await arCtx.newPage();
+  ar.on("pageerror", (e) => errors.push(String(e)));
+  await ar.goto(`${served.base}/games/hudhud/index.html?lang=ar&music=off`);
+  await ar.waitForFunction("window.__HH__ && window.__HH__.ready");
+  await leaveOpening(ar);
+  const arFirst = await bookView(ar);
+  const one = await medallion(ar, 1, true);
+  const ten = await medallion(ar, 10, true);
+  if (outDir) await ar.screenshot({ path: resolve(outDir, "atlas-picture-ar.png"), fullPage: true });
+  await ar.mouse.click(one.x, one.y);
+  await ar.waitForTimeout(900);
+  const arOne = await focusedWorld(ar);
+  await ar.mouse.click((await medallion(ar, 10, true)).x, (await medallion(ar, 10, true)).y);
+  await ar.waitForTimeout(900);
+  const arTen = await focusedWorld(ar);
+  const arabic = arFirst.dir === "rtl" && arFirst.role === "img" && /عشرة عوالم/.test(arFirst.alt ?? "") && /٠ من ٥٠/.test(arFirst.alt ?? "") && arFirst.picture.open.join() === "2,3" && arFirst.buttons.length === 10 && arFirst.buttons[0]!.x > arFirst.buttons[9]!.x && one.x > one.box.x + one.box.width / 2 && ten.x < ten.box.x + ten.box.width / 2 && arOne === "1" && arTen === "10" && arFirst.buttons.every((x) => x.w >= 44 && x.h >= 44 && (x.label ?? "").startsWith("العالم "));
+  await arCtx.close();
+  await ctx.close();
+  record(
+    "the Atlas page shows the open Atlas: a picture with an alt that counts the pages home, ten numbered buttons that do what it does (a click or the keyboard moves focus to the world's heading, at once when motion is reduced), a redraw after a quest; the blunt answer is kept; the opening shows after a slot change in Settings; and it all works right to left",
+    present && buttonsOk && clicked.focus === "9" && clicked.inView && between !== "1" && between !== "2" && byEnter === "6" && onNext === "7" && bySpace === "7" && redrawn && reduced.world === "9" && reduced.moved &&
+      bluntKept.flags.join() === "answered" && bluntKept.disabled && bluntKept.restartLabel === "Start this quest again" && opening && arabic,
+    { first, present, buttonsOk, clicked, between, byEnter, onNext, bySpace, after: { alt: after.alt, picture: after.picture }, reduced, bluntKept, opening: { whileOpen, onClose, seen, inQuest, backOnAtlas }, arabic: { arFirst: { alt: arFirst.alt, dir: arFirst.dir, picture: arFirst.picture, firstX: arFirst.buttons[0]?.x, lastX: arFirst.buttons[9]?.x }, arOne, arTen } },
+  );
 }
 await browser.close();
 await served.close();
