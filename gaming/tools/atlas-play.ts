@@ -95,6 +95,33 @@ await page.reload();
 await page.waitForSelector("#panel h2");
 const kept = await page.evaluate(() => localStorage.getItem("im.atlas.save.v1.unreadable"));
 if (kept !== "{not json") await fail("an unreadable save was not set aside");
+// A round answered close to the place, deep inland, zooms the reveal far in. The round after it must not open on
+// that view: with no coast in sight it is a screen of nothing but land (an outside reviewer met exactly this on
+// 26 November 2026, between rounds 2 and 3 of that day, and took the globe for gone).
+await page.goto(`${served.base}/games/atlas/index.html?lang=${lang}&date=2026-11-26&music=off`);
+await page.waitForSelector("#panel h2");
+await page.waitForTimeout(1200);
+const typePin = async (lat: string, lon: string) => {
+  await page.fill("#lat", lat);
+  await page.fill("#lon", lon);
+  await page.locator("#panel .field button").first().click();
+  await page.locator("#submit").click();
+  await page.waitForSelector("#panel .big");
+};
+await typePin("30", "40");
+await page.locator("button.primary").click();
+await page.waitForSelector("#panel h2");
+await typePin("42.8", "74.3");
+await page.waitForTimeout(1800);
+const atReveal = Number(await page.evaluate("document.getElementById('globe').dataset.zoom"));
+await page.locator("button.primary").click();
+await page.waitForSelector("#panel h2");
+await page.waitForTimeout(1800);
+const nextRound = Number(await page.evaluate("document.getElementById('globe').dataset.zoom"));
+await page.screenshot({ path: resolve(out, `atlas-${lang}-5-round-after-a-close-reveal.png`) });
+if (!(atReveal > 5)) throw new Error(`the reveal of a close guess did not come in close (zoom ${atReveal}), so this check checked nothing`);
+if (!(nextRound <= 1.5)) throw new Error(`the round after a close reveal opened zoomed in ${nextRound} times, on the last answer, and not on the whole globe`);
+
 // Without WebGPU, or when asked, the drawn globe is the whole globe.
 await page.goto(`${url}&no3d=1`);
 await page.waitForSelector("#panel h2");

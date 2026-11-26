@@ -4,16 +4,18 @@
 // are left out on purpose: they would put the present day into a question about the past, and often give the answer away.
 //
 // The globe is never mirrored for right-to-left languages: east is always to the right of a north-up view.
-import { geoDistance, geoGraticule10, geoInterpolate, geoOrthographic, geoPath } from "d3-geo";
+import { geoDistance, geoGraticule, geoGraticule10, geoInterpolate, geoOrthographic, geoPath } from "d3-geo";
 import { feature } from "topojson-client";
 import type { GeometryObject, Topology } from "topojson-specification";
 import land110 from "world-atlas/land-110m.json";
 import land50 from "world-atlas/land-50m.json";
-import { clampLat, wrapLon } from "../geo";
+import { HOME_VIEW, clampLat, revealZoom, wrapLon } from "../geo";
 
 const coarse = feature(land110 as unknown as Topology, (land110 as unknown as Topology).objects.land as GeometryObject);
 const fine = feature(land50 as unknown as Topology, (land50 as unknown as Topology).objects.land as GeometryObject);
 const graticule = geoGraticule10();
+/** A finer net, every two degrees, for when the globe is brought so close that the ten-degree lines leave the picture. */
+const fineGraticule = geoGraticule().step([2, 2])();
 /** The coastline the lit sphere paints its map from: the same land this globe draws. */
 export const LAND = fine;
 /** Something that draws the Earth under this canvas, given the view. */
@@ -44,8 +46,8 @@ const COLORS = {
 export class Globe {
   private readonly ctx: CanvasRenderingContext2D;
   private readonly projection = geoOrthographic().clipAngle(90).precision(0.4);
-  private centre: [number, number] = [36, 30]; // lon, lat the view looks at
-  private zoom = 1.25;
+  private centre: [number, number] = [HOME_VIEW.lon, HOME_VIEW.lat]; // lon, lat the view looks at
+  private zoom: number = HOME_VIEW.zoom;
   private pin: [number, number] | null = null; // lat, lon
   private answer: [number, number] | null = null;
   private arc = 0;
@@ -89,13 +91,22 @@ export class Globe {
     this.request();
   }
 
-  /** Clears pins and unlocks the globe for a new round. */
+  /**
+   * Clears pins and unlocks the globe for a new round, and turns it back to the whole view every round begins from.
+   * Left where the last reveal put it, a round could open deep inland with no coast in sight (a screen of nothing
+   * but land, which a reviewer took for the globe having gone), and where the last answer was is no fair hint.
+   */
   reset(): void {
     this.pin = null;
     this.answer = null;
     this.arc = 0;
     this.locked = false;
-    this.request();
+    this.home();
+  }
+
+  /** Turns the globe back to the whole view. */
+  home(): void {
+    this.flyTo(HOME_VIEW.lat, HOME_VIEW.lon, HOME_VIEW.zoom);
   }
 
   /** Shows the answer, draws the arc from the guess to it, and frames both. */
@@ -105,7 +116,7 @@ export class Globe {
     const guess = this.pin ?? this.answer;
     const mid = geoInterpolate([guess[1], guess[0]], [answerLon, answerLat])(0.5);
     const spread = geoDistance([guess[1], guess[0]], [answerLon, answerLat]); // radians
-    const zoom = Math.max(1, Math.min(9, 0.9 / Math.max(spread, 0.08)));
+    const zoom = revealZoom(spread);
     this.flyTo(mid[1], mid[0], zoom, () => this.animate(900, (t) => (this.arc = t)));
   }
 
@@ -190,6 +201,7 @@ export class Globe {
         this.touch();
       } else if (e.key === "+" || e.key === "=") this.zoomBy(1.25);
       else if (e.key === "-" || e.key === "_") this.zoomBy(0.8);
+      else if (e.key === "Home" || e.key === "0") this.home();
       else if (e.key === "Enter" || e.key === " ") this.setPin(this.centre[1], this.centre[0]);
       else return;
       e.preventDefault();
@@ -238,6 +250,9 @@ export class Globe {
   private draw(full: boolean): void {
     const { ctx, width: w, height: h } = this;
     this.configure();
+    // The view, for a tool to read: how far in the globe is, and where it looks.
+    this.canvas.dataset.zoom = this.zoom.toFixed(2);
+    this.canvas.dataset.centre = `${this.centre[1].toFixed(2)},${this.centre[0].toFixed(2)}`;
     const R = this.radius();
     const path = geoPath(this.projection, ctx);
     if (this.backdrop) {
@@ -288,6 +303,21 @@ export class Globe {
       path({ type: "Sphere" });
       ctx.strokeStyle = COLORS.rim;
       ctx.lineWidth = 2;
+      ctx.stroke();
+    }
+
+    // A net of lines over land and sea alike, finer when the globe is brought close: wherever the view is, and
+    // however far in, there is something to see and to steer by. (Under the land it used to be hidden.)
+    ctx.beginPath();
+    path(graticule);
+    ctx.strokeStyle = "rgba(96, 84, 62, 0.3)";
+    ctx.lineWidth = 1;
+    ctx.stroke();
+    if (this.zoom > 4) {
+      ctx.beginPath();
+      path(fineGraticule);
+      ctx.strokeStyle = "rgba(96, 84, 62, 0.16)";
+      ctx.lineWidth = 1;
       ctx.stroke();
     }
 

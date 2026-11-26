@@ -46,3 +46,13 @@ export function interpolate(lat1: number, lon1: number, lat2: number, lon2: numb
 
 /** The century a year falls in, by the Common Era count: 1 to 100 is the 1st, 701 to 800 is the 8th. */
 export const centuryCE = (year: number): number => Math.floor((year - 1) / 100) + 1;
+
+/** The view every round begins from: the whole globe, turned to the lands the museum's records mostly lie in. */
+export const HOME_VIEW = { lat: 30, lon: 36, zoom: 1.25 } as const;
+/** The closest a reveal comes in, and the farthest out it stays. */
+export const REVEAL_ZOOM = { least: 1, most: 9 } as const;
+/**
+ * How far in the globe comes to show a guess and its answer together, given the angle between them in radians:
+ * close when they are close, the whole globe when they are far apart.
+ */
+export const revealZoom = (spreadRadians: number): number => Math.max(REVEAL_ZOOM.least, Math.min(REVEAL_ZOOM.most, 0.9 / Math.max(spreadRadians, 0.08)));
