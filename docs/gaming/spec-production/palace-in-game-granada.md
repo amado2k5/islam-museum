@@ -1,6 +1,6 @@
 # The Candidate C palace in the running game: a first evaluation, paused unfinished
 
-_Written on 26 November 2026 under the founder's fourth set of decisions (instructions 2, 3, 7, 8 and 9; his file is recorded in the pull request "the founder's fourth decision and the review flags" and is not on this branch). **Work on Granada was paused the same day by his instruction that another game takes sole priority, so this page is a record of where the evaluation stopped, not the decision package he asked for.** Nothing here is accepted, optimised, historically reviewed or on the test address._
+_Written on 26 November 2026 under the founder's fourth set of decisions ([`owner-decisions-2026-11-26-d.md`](owner-decisions-2026-11-26-d.md), instructions 2, 3, 7, 8 and 9). **Work on Granada was paused the same day by his instruction that another game takes sole priority, so this page is a record of where the evaluation stopped, not the decision package he asked for.** Nothing here is accepted, optimised, historically reviewed or on the test address._
 
 ## What exists
 
@@ -14,6 +14,14 @@ _Written on 26 November 2026 under the founder's fourth set of decisions (instru
 | The nearest view that holds the whole palace | ![](../evidence/granada/candidate-c/in-game-a-1920x1080-high-2-nearest-strategic.webp) | ![](../evidence/granada/candidate-c/in-game-c-1920x1080-high-2-nearest-strategic.webp) |
 
 Candidate C from farthest out, and through Photo Mode's narrowest lens: [far](../evidence/granada/candidate-c/in-game-c-1920x1080-high-3-farthest-strategic.webp), [Photo Mode](../evidence/granada/candidate-c/in-game-c-1920x1080-high-5-photo-nearest.webp).
+
+## Added when the work was taken up again (26 November 2026, later the same day)
+
+- **Three choices now, one file loaded for each:** `art=c` is the palace as written (214,166 triangles), `art=c1` a lighter making of it (69,676) and `art=c2` the lightest (19,964, by a temporary automatic reduction that is not final art). The two lighter ones are the second agent's work (pull request amado2k5/islam-museum#8320). The game does not change between them by itself; that is still to be built.
+- **Loaded once each in the running game** (Low, 1280 by 800, the proof view, no error and no failure): the scene draws 2,306,834 triangles with the full palace, 2,017,854 with the lighter and 1,918,430 with the lightest; the palace's files are 31.7 MB, 13.2 MB and 7.1 MB. The lighter two use 8 surfaces where the full one uses 19, and draw 22 fewer times a frame.
+- **All three were exported again** from the scripts as they stand on `main`, so that the record of models (`gaming/art/manifest.json`) names the scripts that made them. The full palace is the same model vertex for vertex as the one in the run below, but for two vertices of its marble (see [`review-flags-8316-8317.md`](review-flags-8316-8317.md)).
+- **The game's budget for one building is not met by the palace, and is not relaxed for it.** The rule in the games' tests is under 40,000 triangles and 12 MB. The full palace and the lighter one are over it; only the lightest is within. They are recorded as "under evaluation", held to no budget there, and a new test keeps anything so marked out of the game unless the address asks for it.
+- The reviewer's flags are answered in [`review-flags-8316-8317.md`](review-flags-8316-8317.md), which is what the founder's instruction 4 asked before this could merge.
 
 ## What the run shows that can be relied on
 
@@ -108,7 +116,9 @@ Seen in passing, in both sets and not the palace's doing: several cypresses on t
 3. The checks of terrain fit from above, selection, collision, shadow faults and z-fighting, beyond what the pictures above show.
 4. Low-detail versions of the palace and the loading of exactly one of them (asked of the second agent; not seen).
 5. The vegetation survey (asked of the second agent; not seen).
-6. The test address: **nothing of Candidate C is on UAT.** The founder ruled that no Candidate C code merges and nothing of it is deployed until the reviewer's five unread flags are resolved; they are not, so this branch is not merged.
+6. Nothing of Candidate C was on any host when this was written. The founder has since ruled that the games are released to production only; the palace's files go there with the next release, behind the same address switch.
+8. The 87 triangles of no area in square roofs (row D3 of the flags page), to be mended when the palace is next rebuilt.
+9. No test covers the fall back to Set A's palace when a file is missing; it was seen working by hand.
 7. The recommendation he asked for (keep the palace as a strategic base, send it to an artist, or discard it). It is not made here, because conditions (a) and (b) of his instruction 9 have not both been tested.
 
 The artist's brief and the paid-test page are written and unsent: [`artist-brief-granada.md`](artist-brief-granada.md).

@@ -22,7 +22,7 @@ page.on("pageerror", (e) => errors.push(String(e)));
 page.on("console", (m) => {
   if (m.type() === "error" && !m.text().includes("favicon")) errors.push(m.text());
 });
-const address = `${served.base}/games/granada/index.html?lang=en&fresh=1&seed=7&music=off&counters=1&q=${preset}${set === "c" ? "&art=c" : ""}`;
+const address = `${served.base}/games/granada/index.html?lang=en&fresh=1&seed=7&music=off&counters=1&q=${preset}${set === "a" ? "" : `&art=${set}`}`;
 const load = async (again: boolean): Promise<void> => {
   if (again) await page.reload();
   else await page.goto(address);
