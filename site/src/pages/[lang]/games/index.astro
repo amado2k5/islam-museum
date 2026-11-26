@@ -16,9 +16,10 @@ const HOST = "https://games.islam.museum";
 const GAMES = ["granada", "golden-age", "atlas", "hudhud"] as const;
 ---
 <BaseLayout lang={lang} title={G.title} description={G.lede} path={`/${lang}/games/`}>
+  <div data-pagefind-body>
   <PageHeader title={G.title} lede={G.lede} crumbs={[{ label: T.nav.home, href: `/${lang}/` }, { label: G.title }]} crumbsLabel={T.entity.breadcrumb} />
 
-  <div class="wrap" style="padding-block:40px 20px" data-pagefind-body>
+  <div class="wrap" style="padding-block:40px 20px">
     <section aria-labelledby="games-list-h" class="p-sec">
       <h2 id="games-list-h">{G.list}</h2>
       <ul class="g-list">
@@ -44,6 +45,7 @@ const GAMES = ["granada", "golden-age", "atlas", "hudhud"] as const;
         <p>{G.needs}</p>
       </section>
     </article>
+  </div>
   </div>
 </BaseLayout>
 
