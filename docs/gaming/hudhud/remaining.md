@@ -1,15 +1,15 @@
 # Hudhud: what remains before it is a whole game of many hours
 
-_26 November 2026, brought up to date later that day (the third and fourth trial quests, and what is public). The founder asked, in chat: "what is remaining for this game to be fully completed with all its scenarios, game play, stories, features, graphics, with a gameplay for visitor that would last hours?" This page is the answer, kept current. The plan it measures against is [his instruction](owner-instruction-2026-11-26.md); the estimate is in [the design](design.md#how-big-this-is-said-plainly)._
+_26 November 2026, brought up to date later that day (the third to sixth trial quests, and what is public). The founder asked, in chat: "what is remaining for this game to be fully completed with all its scenarios, game play, stories, features, graphics, with a gameplay for visitor that would last hours?" This page is the answer, kept current. The plan it measures against is [his instruction](owner-instruction-2026-11-26.md); the estimate is in [the design](design.md#how-big-this-is-said-plainly)._
 
 ## Where it stands, in one table
 
 | | Asked for | Exists today |
 |---|---|---|
-| Playing time | 20 to 30 hours on the main path, 40 to 60 for mastery | one scene of a few minutes, and three short trial quests (no person has timed any of them) |
-| Quests | 50 | 4 playable (the flying scene and three short trial quests: the elephant clock, the secret page and the locked box); the other 46 named in the Atlas and marked "Not built yet" |
+| Playing time | 20 to 30 hours on the main path, 40 to 60 for mastery | one scene of a few minutes, and five short trial quests (no person has timed any of them) |
+| Quests | 50 | 6 playable (the flying scene and five short trial quests: the elephant clock, the secret page, the locked box, the scattered sheets and the animal cards); the other 44 named in the Atlas and marked "Not built yet" |
 | Worlds | 10, each with its own thread and a part of the hub it restores | 10 named; none has a thread |
-| Systems of play | 12 | 3 in the flying scene (flight, the beam, talk); a 4th (a chain of parts) in the elephant clock trial quest and a 5th (a cipher: counting, ranking and comparing signs) in the al-Kindi trial quest; and a rule set outside the twelve (equation moves: restore, balance and share) in the al-Khwarizmi trial quest; the last three are played with page controls |
+| Systems of play | 12 | 3 in the flying scene (flight, the beam, talk); a 4th (a chain of parts) in the elephant clock trial quest and a 5th (a cipher: counting, ranking and comparing signs) in the al-Kindi trial quest; a rule set outside the twelve (equation moves: restore, balance and share) in the al-Khwarizmi trial quest, a second (exchanging sheets of a grid until their edges meet, proved to have one answer) in the al-Idrisi trial quest, and a third (sorting cards into groups until each is in the group a passage gives it, with every card's one right group proved by test) in the al-Jahiz trial quest; the last five are played with page controls |
 | Hub | a drawn place that visibly restores | a page: worlds, pages, how many are home, and one code-drawn picture of the open Atlas with a medallion for each world (a trial picture, plain signs, and a way to go to a world's list); not a place the bird can fly about in |
 | Prologue | 15 to 30 minutes that teach by doing | an opening story of five still panels (a code-drawn picture and a short paragraph each, in seven languages, skippable, shown once for a slot and readable again from the Atlas); no play in it, no animation, no voice, and no child has seen it |
 | Art | a look the founder accepts; cast, places, effects for 50 subjects | a code-drawn trial, not accepted, and by the author's own judgment below the founder's pictures |
@@ -23,7 +23,7 @@ _26 November 2026, brought up to date later that day (the third and fourth trial
 | Machines and browsers | two reference machines, the main browsers, phones and tablets | one Mac, Chrome |
 | People playing | children of three age bands, parents, Arabic and Urdu readers | nobody |
 | On the museum's site | a Play page, a menu entry, a page for the game | a written proposal |
-| Released | UAT, then production | UAT since 26 November 2026, and public in production at `games.islam.museum` since 26 November 2026, from an earlier build (commit `035b6e4`: the flying scene and the elephant clock; not the opening story, the Atlas picture, the secret page or the locked box) |
+| Released | UAT, then production | UAT since 26 November 2026, and public in production at `games.islam.museum` since 26 November 2026, from an earlier build (commit `885c7d97a5a`, read on 26 November 2026 when the animal cards were written: the flying scene, the elephant clock, the opening story, the secret page and the locked box, with an Atlas note that says four quests are built; not the scattered sheets or the animal cards) |
 
 ## What must be built, in the order it unblocks the rest
 
@@ -37,7 +37,7 @@ _26 November 2026, brought up to date later that day (the third and fourth trial
 - A world map and, for each world, a thread that ties its five quests and something that changes when they are done.
 - An ending, and the post-game: the last page, the player's own.
 
-**4. Forty-six quests** (four of the fifty exist as first trials, and each of those still wants everything below). For each: read the museum's records; write the claims into the review ledger; design the room and the puzzle on one or two of the systems; write the three layers of words (essential lines, "ask more", the museum's note) in Arabic first and then six more languages; three goals and a secret; draw it; test it; capture it. Fifteen to twenty-five minutes of play each.
+**4. Forty-four quests** (six of the fifty exist as first trials, counting the flying scene, and each of those still wants everything below). For each: read the museum's records; write the claims into the review ledger; design the room and the puzzle on one or two of the systems; write the three layers of words (essential lines, "ask more", the museum's note) in Arabic first and then six more languages; three goals and a secret; draw it; test it; capture it. Fifteen to twenty-five minutes of play each.
 
 **5. The long game.** Mastery goals a quest; hidden things of five kinds; time trials and precision routes; daily and weekly challenge rooms from seeds with an archive that never expires; postcards made on the device; New Journey+; side stories for characters.
 

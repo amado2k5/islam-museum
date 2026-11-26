@@ -156,6 +156,17 @@ main:focus { outline: none; }
 .bench table.counts th, .bench table.counts td { padding: 6px 10px; text-align: start; border-top: 1px solid var(--line); }
 .bench .glyph-name { display: inline-flex; align-items: center; gap: 10px; }
 .bench .glyph-name canvas { display: inline-block; width: auto; aspect-ratio: auto; border-width: 1px; border-radius: 8px; margin: 0; flex: none; }
+/* The fifth quest's page: the sheets of a map, played by a button for every place or by touching two sheets in the picture. */
+.bench canvas.sheets-art { aspect-ratio: 1000 / 480; cursor: pointer; }
+.bench canvas.sort-art { aspect-ratio: 1000 / 460; cursor: pointer; }
+.bench ul.places { grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); }
+.bench ol.tray-key { list-style: none; margin-block: 4px 10px; padding: 0; }
+.bench .sheet-rows { display: grid; gap: 8px; margin-block: 10px; }
+.bench .sheet-row { list-style: none; display: flex; flex-wrap: wrap; gap: 8px; margin: 0; padding: 0; }
+.bench .sheet-row button { min-width: 44px; min-height: 44px; text-align: start; }
+.bench .sheet-row button[aria-pressed="true"] { border-color: var(--gold); background: #18407a; box-shadow: 0 0 0 3px var(--gold); }
+.bench details.edges { margin-block: 10px; }
+.bench details.edges summary { min-height: 44px; display: flex; align-items: center; cursor: pointer; font-weight: 700; }
 
 .toast { position: fixed; inset-block-end: 16px; inset-inline: 0; margin-inline: auto; width: max-content; max-width: 92%; padding: 10px 18px; background: #1c1206; color: var(--gold); border: 1px solid var(--gold); border-radius: 12px; z-index: 40; pointer-events: none; }
 
