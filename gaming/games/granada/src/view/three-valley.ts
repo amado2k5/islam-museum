@@ -29,8 +29,16 @@ const MODEL_SET = "granada/2/";
  * only when the page is asked for it (`art=c`, or `art=c1` and `art=c2` for its lighter makings), piece by piece in place of Set A's; a piece that cannot be had leaves
  * Set A's standing. It is not the game's art, and nothing of it is kept in a save.
  */
-export type Art = "c" | "c1" | "c2";
-const CANDIDATE_C: Record<Art, Record<string, string>> = {
+export type Art = "a" | "c" | "c1" | "c2";
+/**
+ * The palace the game shows (founder, 26 November 2026: "make a magnificent palace"): the palace written as a
+ * building of its own, in its lighter making of about 70,000 triangles, in a folder of its own that borrows the
+ * first set's textures instead of carrying copies. It takes the place of the first set's palace once it has arrived
+ * whole; if it cannot be had, the first set's stands. `art=a` asks for the first set's palace and fetches no other.
+ * Making it the default is not the founder's acceptance of the art's direction, which he has not given.
+ */
+const PALACE: Record<string, string> = { palace: "granada/p1/palace.gltf" };
+const CANDIDATE_C: Record<Exclude<Art, "a">, Record<string, string>> = {
   // The palace as it was written, 214,166 triangles: the one to judge the look by.
   c: { palace: "granada/c/palace.gltf" },
   // Two lighter makings of the same palace (about 70,000 and 20,000 triangles), to judge what is lost. One file is
@@ -59,7 +67,7 @@ export interface ValleyOptions {
   maxPixelRatio: number;
   /** Whether to fetch the authored models. Without them the valley draws its own shapes, as it does until they arrive. */
   models: boolean;
-  /** An art set under evaluation to draw in place of the game's own, where it has a piece. */
+  /** Another palace than the game's own: `a` for the first set's, `c`, `c1` or `c2` for one under evaluation. */
   art?: Art | null;
 }
 export interface FieldLook {
@@ -751,16 +759,16 @@ export class ValleyRenderer {
         this.landmarksModel = larger;
         this.models.push("granada/landmarks");
         // The candidate's pieces, asked for by name, take the place of Set A's only once they have arrived whole.
-        if (art) {
-          for (const [piece, path] of Object.entries(CANDIDATE_C[art])) {
+        if (art !== "a") {
+          for (const [piece, path] of Object.entries(art ? CANDIDATE_C[art] : PALACE)) {
             try {
               const candidate = await loadModel(path);
               if (!candidate.children.some((n) => n.name === piece)) throw new Error(`the file has no ${piece}`);
               take(candidate);
               this.candidateModels.push(candidate);
-              this.models.push(`granada/${art}/${piece}`);
+              this.models.push(art ? `granada/${art}/${piece}` : `granada/${piece}`);
             } catch (e) {
-              this.modelFailures.push(`granada/${art}/${piece}: ${e instanceof Error ? e.message : String(e)}`);
+              this.modelFailures.push(`${art ? `granada/${art}/${piece}` : `granada/${piece}`}: ${e instanceof Error ? e.message : String(e)}`);
             }
           }
         }

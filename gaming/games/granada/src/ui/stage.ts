@@ -14,7 +14,7 @@ export interface StageOptions {
   reducedMotion: boolean;
   /** Whether to fetch the authored models (the page's `models=off` turns it off). */
   models: boolean;
-  /** An art set under evaluation (the page's `art=c`, `c1` or `c2`), drawn in place of the game's own where it has a piece. */
+  /** Another palace than the game's own (the page's `art=a`, `c`, `c1` or `c2`). */
   art?: Art | null;
   onField: (id: string) => void;
   /** While the player is choosing where to build: the point of the land being considered, and the point chosen. */
