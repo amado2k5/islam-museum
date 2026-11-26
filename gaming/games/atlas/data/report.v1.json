@@ -1,39 +1,43 @@
 {
  "builtFrom": {
-  "commit": "0efdf22a5ad421589fc4a1eab3a3821033d72811",
+  "commit": "b53c65944eafb7f1d30c54137adf951fb48c46bb",
   "date": "2026-11-25"
  },
- "digest": "764f347cfa66f929bc4812e29691a0ef3f69c14022bd13e64df57d0ea62f69ae",
+ "digest": "60ba50cd200c126e8cf010586cea80e08166a44d18ba6bf455a6e60922f0badd",
  "qualifyingPlaces": 1908,
  "qualifyingRounds": {
-  "total": 3481,
-  "civic": 776,
+  "total": 3218,
+  "civic": 771,
   "people": 1473,
-  "military": 1232
+  "military": 974
  },
  "inPack": {
-  "places": 528,
+  "places": 568,
   "rounds": 2125,
   "civic": 465,
-  "people": 951,
-  "military": 709,
-  "labelNamesThePlace": 794
+  "people": 946,
+  "military": 714,
+  "labelNamesThePlace": 906
  },
  "schedule": {
   "days": 365,
   "roundsUsed": 1825,
-  "placesUsed": 528,
+  "placesUsed": 568,
   "reusedRounds": 0,
   "problems": []
+ },
+ "freeSlot": {
+  "militaryWeight": 0.62,
+  "meaning": "what a battle's free places count for when a day's fifth round is given out, against 1 for a person or a civic event; the lowest of 0.50 to 1.00 in steps of 0.02 that lays out the whole year"
  },
  "namesBorrowedFromAnotherLanguage": {
   "ar": 0,
   "en": 0,
-  "ur": 40,
+  "ur": 43,
   "fr": 0,
   "es": 0,
-  "tr": 951,
-  "id": 951
+  "tr": 946,
+  "id": 946
  },
  "leftOut": {
   "event: its place does not qualify": 1429,
@@ -44,6 +48,7 @@
   "place: kept, but has no region for the hint": 441,
   "person: no born year": 438,
   "event: more than one place": 334,
+  "event: named for a place that none of its labels gives as the place it is recorded at": 263,
   "person: died_in place does not qualify": 236,
   "event: no start date to the year": 203,
   "person: born_in marked low confidence": 163,

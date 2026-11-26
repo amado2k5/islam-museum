@@ -368,6 +368,17 @@ tools/granada-shot.ts                         8.3 to 8.4 ms median with the mode
 
 The first run failed to load the model, and the valley kept its own mill and said why, which is what it is meant to do: the development server had stopped to re-bundle when the loader was first asked for. The loader is now named to it in advance.
 
+### The twenty-third pull request: Atlas asks no round named for one place and scored at another (25 November 2026)
+
+```
+npm --prefix gaming run atlas:pack     3,218 qualifying rounds (was 3,481); 263 events held back; pack of 2,125 rounds in 568 places (465 civic, 946 people, 714 military); 365 days, 1,825 rounds used, 0 problems; battles' weight for the free slot 0.62; digest 60ba50cd200c…
+npm --prefix gaming test               15 files, 254 tests passed (Atlas: 59; seven new)
+tools/atlas-play.ts <dir> <lang>       a full daily game in each of the seven languages on the new pack
+npm run build:release:music + release:smoke   passes
+```
+
+Three things went wrong on the way and are worth keeping. The first rebuild could not lay out the year: with 258 battles gone the fifth round of each day went to people until, on day 292, every place with a person left was resting. Giving it to the category with most rounds to spare failed the same way on day 312. Giving it to the category with most places free laid out the year but asked 830 battles where the pack had 709, which is the opposite of what was wanted; giving civic events a share ran them out of places by day 149, as the first design had found. Battles are now counted for less in that choice and the builder finds the lowest weight that still lays out the year.
+
 ## Measurements
 
 The engine numbers and their conditions are in [G-0002](adr/G-0002-rendering-engine.md) and the [M1 report](m1-graphics-spike.md). They are for one Apple M4 Max in Chrome 158 and are not a hardware recommendation.
@@ -428,7 +439,7 @@ The full district at the end is about 1.56 million triangles and about 950 draw 
 5. Only one machine has been measured.
 6. The desktop app's dev-server launcher stalled twice in the first session; the tools no longer depend on it, but the in-app preview may need `npm --prefix gaming run dev` started by hand.
 7. Interface strings of both games and of the music control exist in all seven languages, were written by AI agents and have been read by no native speaker. In Atlas, personal names in Turkish and Indonesian are borrowed from English. The graphics lab page is an English-only developer tool marked `noindex`.
-8. Atlas has no images and no sound effects, its globe is lit in 3D but carries no terrain, and two of its five daily rounds are military events ([`games/atlas.md`](games/atlas.md)). The images are held up by the museum's records, not by the game: four pictures qualify ([G-0008](adr/G-0008-atlas-image-rounds.md)).
+8. Atlas has no images and no sound effects, its globe is lit in 3D but carries no terrain, 263 of its events are held back until their records are looked at, and up to two of its five daily rounds are military events ([`games/atlas.md`](games/atlas.md)). The images are held up by the museum's records, not by the game: four pictures qualify ([G-0008](adr/G-0008-atlas-image-rounds.md)).
 9. **No game has been played by a person** (three now exist). Every "playthrough" so far is the author's script. This is now the largest gap: there are two games to play and nobody has.
 10. The Golden Age: in chapter 1 only two of four scripted strategies win at least one campaign in five (the GDD asks for three ways to win; chapter 2 has four); in chapter 2 money piles up with nothing to spend it on and doing nothing is comfortable; in chapter 3 the trading city wins every campaign and still ends rich, because income grows with households and costs do not; draw calls are high; three chapters, not linked by the player's city; its history is told beside the play, not in it; touch is written and untried. Twelve items in [`games/golden-age.md`](games/golden-age.md).
 11. The music has been proved to play, not listened to in a game. There are no sound effects ([G-0007](adr/G-0007-music-and-audio.md)).
