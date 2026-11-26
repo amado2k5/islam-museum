@@ -6,19 +6,19 @@ _26 November 2026. The founder asked, in chat: "what is remaining for this game 
 
 | | Asked for | Exists today |
 |---|---|---|
-| Playing time | 20 to 30 hours on the main path, 40 to 60 for mastery | one scene of a few minutes |
+| Playing time | 20 to 30 hours on the main path, 40 to 60 for mastery | one scene of a few minutes, and a second trial quest of about five |
 | Quests | 50 | 1 playable; the other 49 named in the Atlas and marked "Not built yet" |
 | Worlds | 10, each with its own thread and a part of the hub it restores | 10 named; none has a thread |
-| Systems of play | 12 | 3 in the game (flight, the beam, talk); the rules of a 4th (a chain of parts) built and tested, in no quest |
-| Hub | a drawn place that visibly restores | a page of words: worlds, pages, how many are home |
-| Prologue | 15 to 30 minutes that teach by doing | none |
+| Systems of play | 12 | 3 in the flying scene (flight, the beam, talk); a 4th (a chain of parts) in the elephant clock trial quest, played with page controls |
+| Hub | a drawn place that visibly restores | a page: worlds, pages, how many are home, and one code-drawn picture of the open Atlas with a medallion for each world (a trial picture, plain signs, and a way to go to a world's list); not a place the bird can fly about in |
+| Prologue | 15 to 30 minutes that teach by doing | an opening story of five still panels (a code-drawn picture and a short paragraph each, in seven languages, skippable, shown once for a slot and readable again from the Atlas); no play in it, no animation, no voice, and no child has seen it |
 | Art | a look the founder accepts; cast, places, effects for 50 subjects | a code-drawn trial, not accepted, and by the author's own judgment below the founder's pictures |
 | Animation | expressive key poses for every figure | bob, blink, flap, an arm, a tail |
 | Sound | effects, ambience, the museum's music | all three, the effects synthesised; one room's worth |
 | Languages | seven, read by native speakers | seven, machine drafts read by nobody |
 | History | every claim reviewed by a named person | every claim entered as pending; no reviewer named |
-| Saving | slots, versions, recovery, a place kept inside a quest; for every game a vault in IndexedDB with backups, export and import | the first four, in `localStorage`; the vault's core is built and tested ([`../save-service.md`](../save-service.md)) and no game uses it yet |
-| Unsupported devices | a plain refusal before anything heavy loads, for every game | built; Hudhud stands behind it, the other three do not yet ([`../device-preflight.md`](../device-preflight.md)) |
+| Saving | slots, versions, recovery, a place kept inside a quest; for every game a vault in IndexedDB with backups, export and import | all of these for Hudhud ([`../save-service.md`](../save-service.md)); the other three games still save to `localStorage`, now backed up to the vault and restored if it goes missing, without indicator, export or import |
+| Unsupported devices | a plain refusal before anything heavy loads, for every game | built; all four games stand behind it ([`../device-preflight.md`](../device-preflight.md)) |
 | Accessibility | keyboard, gamepad, remapping of both, reduced motion, contrast, a way to play without the picture | all built; no physical controller tried; none audited by a person or a tool |
 | Machines and browsers | two reference machines, the main browsers, phones and tablets | one Mac, Chrome |
 | People playing | children of three age bands, parents, Arabic and Urdu readers | nobody |
@@ -32,8 +32,8 @@ _26 November 2026. The founder asked, in chat: "what is remaining for this game 
 **2. The other nine systems of play.** Mechanism beyond the chain (gears, floats, valves), Path, Route, Trace and Align, Observe and Match, Cipher, Mend and Build, Network, Rhythm. Each needs: tested rules, a generator of challenge rooms from seeds, a Story form, a form in words. About one to two working sessions each for the rules; the room, art and words of its first quest are on top.
 
 **3. The frame the quests hang in.**
-- A prologue: the storm, meeting Hudhud, the first flight, the first page.
-- The hub as a place: the Atlas's hall, with ten wings that fill as pages return and characters who visit.
+- A playable prologue: the storm, meeting Hudhud, the first flight, the first page. (Built so far: the five still panels of the opening story, which tell the storm and the meeting. Still missing: anything to play in it, animation, voice, and a reading by a child.)
+- The hub as a place: the Atlas's hall, with ten wings that fill as pages return and characters who visit. (Built so far: the Atlas page, with one code-drawn picture of the open book whose medallions show how many pages of each world are home and lead to its list. Still missing: a hub the bird can fly about in, wings that change as pages return, and visiting characters.)
 - A world map and, for each world, a thread that ties its five quests and something that changes when they are done.
 - An ending, and the post-game: the last page, the player's own.
 
