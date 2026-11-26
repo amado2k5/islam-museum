@@ -875,6 +875,72 @@
     "R6"
    ],
    "editorApproved": null
+  },
+  {
+   "id": "HR-HH-17",
+   "game": "Hudhud",
+   "claim": "The museum's record says al-Khwarizmi wrote everything in words, not symbols: the unknown is a thing or a root, and the known amount is a number or dirhams. His book is named after two operations: al-jabr, restoring, which removes what is taken away on one side by adding its like to both sides; and al-muqabala, balancing, which cancels like terms on both sides.",
+   "context": "The al-Khwarizmi quest: the answers to 'Ask how he wrote problems' and 'Ask about the two operations', and the moves Restore and Balance (gaming/games/hudhud/src/content/algebra.ts; strings ak_words_1, ak_ops_1)",
+   "sources": [
+    "person/al-khwarizmi",
+    "work/al-jabr-wal-muqabala",
+    "invention/algebra"
+   ],
+   "kind": "sourced",
+   "uncertainty": "Taken from the museum's records of the work and of algebra, which cite the Cairo 1939 edition (pp. 29-32 and the examples at pp. 69 and 121) and TDV; the records themselves have not been through historical review. A reviewer should check the glosses 'restoring' and 'balancing', the exact sense of each operation in the Cairo edition (that al-jabr adds the like of what is subtracted to both sides, and al-muqabala cancels like terms that stand on both sides), and that 'a thing or a root' and 'a number or dirhams' are the record's wording. The game's Restore and Balance moves act on whole numbers of things and of plain number and are the game's own rendering of these two sentences, not a method from the book.",
+   "author": "Claude Code (claude-sonnet-5-5), an AI agent",
+   "reviewer": null,
+   "decision": "historical review pending",
+   "approved": null,
+   "note": "",
+   "forReview": [
+    "R4",
+    "R6"
+   ],
+   "editorApproved": null
+  },
+  {
+   "id": "HR-HH-18",
+   "game": "Hudhud",
+   "claim": "From the museum's record: al-Khwarizmi's book on al-jabr and al-muqabala brings every problem to one of six types, each with a rule and a proof by a figure. He wrote it for what people need in inheritances, trade and the measuring of land. The record says that solving equations is older than him, in Babylon, among the Greeks and in India, and that Ibn Khaldun names him as the first to write in this art.",
+   "context": "The al-Khwarizmi quest: the museum note at the end of the quest (strings ak_note_2, ak_note_4)",
+   "sources": [
+    "person/al-khwarizmi",
+    "work/al-jabr-wal-muqabala",
+    "invention/algebra"
+   ],
+   "kind": "sourced",
+   "uncertainty": "From the museum's prose on the record, after the Cairo 1939 edition (its introduction and p. 43) and the Muqaddima as the record cites it. A reviewer should check that 'first to write in this art' is Ibn Khaldun's judgement as the record reports it and not the museum's, and that the list of older traditions is the Cairo editors' list: the record's own list is longer (it also names the Egyptian Ahmes papyrus and Heron and Diophantus), so 'Babylon, the Greeks and India' is a short form of it, and a reviewer should decide whether it needs the others.",
+   "author": "Claude Code (claude-sonnet-5-5), an AI agent",
+   "reviewer": null,
+   "decision": "historical review pending",
+   "approved": null,
+   "note": "",
+   "forReview": [
+    "R4",
+    "R6"
+   ],
+   "editorApproved": null
+  },
+  {
+   "id": "HR-HH-19",
+   "game": "Hudhud",
+   "claim": "The game uses a locked box that holds a page of the Atlas, two trays side by side with an equals sign, three problems written for play, a third move of sharing a number among things, a child who carries the box, and one imagined line for al-Khwarizmi ('Call the unknown a thing, then bring the problem to its simplest form.'). The three ways of playing and their problems are the game's own.",
+   "context": "The al-Khwarizmi quest as a whole; the museum note says so (strings ak_note_1, ak_note_3)",
+   "sources": [],
+   "kind": "reconstruction",
+   "uncertainty": "A simplification for play. The book solves problems by rules and proofs with figures; the box, the trays, the particular problems and the step of sharing among the things are the game's, and the museum's records do not say he used trays or a pair of scales: a reviewer should check that nothing in the picture or the words implies a scale or a balance in his hands (the page's picture draws two trays and an equals sign only). The problems are of the simplest type, things equal to a number, and whole and positive, as the record says his solutions were. The child is an invented person and is named as one on the page; al-Khwarizmi's one line is marked on the page as imagined words.",
+   "author": "Claude Code (claude-sonnet-5-5), an AI agent",
+   "reviewer": null,
+   "decision": "historical review pending",
+   "approved": null,
+   "note": "",
+   "forReview": [
+    "R3",
+    "R4",
+    "R6"
+   ],
+   "editorApproved": null
   }
  ],
  "roster": [

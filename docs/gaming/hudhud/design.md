@@ -61,7 +61,7 @@ Fifty bespoke minigames would be fifty fragile things. Each system below is one 
 | **Beam** | turn mirrors, stop or pass light, split it | Ibn al-Haytham | 1, 3 | **built** (`sim/light.ts`): mirrors of two or three positions (two leans, and laid flat so that the beam passes), obstacles, decoy mirrors that must stay out of the road, a solver that counts the fewest turns and proves one answer only |
 | **Talk** | essential lines, "ask more", choices that never change history | every quest | all | **built** (`narrative/dialogue.ts`) |
 | **Mechanism** | put a machine's parts in the order in which each hands its motion to the next; later, gears, floats, valves and siphons | al-Jazari | 2, 8 | **rules built and tested** (`sim/chain.ts`, `sim/clock.ts`); in one trial quest, the elephant clock, played with page controls and no flying scene |
-| **Path** | lay a step-by-step route or procedure that a thing then follows | al-Khwarizmi | 2, 6, 9 | designed |
+| **Path** | lay a step-by-step route or procedure that a thing then follows | al-Khwarizmi (as first planned; see the note under the table) | 2, 6, 9 | designed, not built |
 | **Route** | plan a journey or a flow over a map: wind, water, provisions, time | Ibn Battuta | 3, 6, 7, 9 | designed |
 | **Trace and Align** | join stars, set an instrument to a reading | al-Sufi | 1, 3 | designed |
 | **Observe and Match** | look closely, compare two accounts or two cases, sort by evidence | al-Razi | 4, 9 | designed |
@@ -69,6 +69,8 @@ Fifty bespoke minigames would be fifty fragile things. Each system below is one 
 | **Mend and Build** | assemble arches, pages, a chronicle, in the right order and balance | Mimar Sinan | 5, 7, 8 | designed |
 | **Network** | link people and places so that learning or help reaches everyone | Fatima al-Fihri | 5, 8, 10 | designed |
 | **Rhythm** | keep a metre, by ear, by eye or by touch | al-Khalil | 5, 10 | designed |
+
+**Added 26 November 2026, later: a rule set that is not in the table.** Al-Khwarizmi's trial quest, the locked box, was built on **equation moves** (`sim/algebra.ts`): a problem is two sides of things and numbers, some taken away, and the player brings it to one thing equal to a number by restoring (al-jabr), balancing (al-muqabala) and sharing (the game's own plain step). It is tested for honesty (every move keeps the answer, on the three authored problems and on hundreds of seeded random ones), has three problems of the fewest moves 2, 3 and 3, and a form in words at every step. It stands where this table gave al-Khwarizmi to Path; Path itself is not built, and whether equation moves become a thirteenth system or a form of another is not decided here.
 
 "Sail", "Measure", "Journal" and "Care" in the table of worlds are forms of Route, Align, Observe and Network respectively, not further systems.
 
@@ -96,7 +98,7 @@ The working title is the founder's: **Hudhud: The Atlas of Wonders**. The game's
 
 ## How big this is, said plainly
 
-The instruction asks for 20 to 30 hours on the main path (fifty quests of 15 to 25 minutes, a prologue, a hub and ten world threads) and 40 to 60 for mastery. What exists is one scene of a few minutes (the script that plays it takes about one minute; no person has been timed).
+The instruction asks for 20 to 30 hours on the main path (fifty quests of 15 to 25 minutes, a prologue, a hub and ten world threads) and 40 to 60 for mastery. What exists is one scene of a few minutes (the script that plays it takes about one minute; no person has been timed) and three short trial quests played on a page (the elephant clock, the secret page and the locked box; no person has timed them either).
 
 What one agent session produced, on 26 November 2026, in about an hour and a quarter of working time: three of the twelve systems (Flight, Beam, Talk; the rules of a fourth, Mechanism, followed the same day), saving, one room with a garden, four figures, 163 strings in seven languages, 85 tests of its own and a tool that plays the scene in Chrome. That rate does not scale linearly, for three reasons that are larger than code:
 
