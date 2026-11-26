@@ -9,7 +9,7 @@ import { regionView } from "../src/ui/region";
 import { metresBetween } from "../src/world/geography";
 import { readFileSync } from "node:fs";
 import { resolve } from "node:path";
-import { advice, chainView, foodToSpare, seasonFigures, warnings, catalogueRows, stocks as stocksOf, tradeSince, decisionRows, effectRows, skyAhead as skyOf, fieldCards, marketRows, tradeView, questRows, riverOfYear, skyAhead, stocks, workRows } from "../src/ui/model";
+import { advice, carryOver, chainView, foodToSpare, seasonFigures, warnings, catalogueRows, stocks as stocksOf, tradeSince, decisionRows, effectRows, skyAhead as skyOf, fieldCards, marketRows, tradeView, questRows, riverOfYear, skyAhead, stocks, workRows } from "../src/ui/model";
 
 const start = () => newVillage(SC, 7);
 const order = (s: VillageState, ...commands: VillageCommand[]) => {
@@ -86,6 +86,29 @@ describe("the works", () => {
     expect(expand!.now).toEqual({ ok: false, why: "already-under-way" });
     const done = days(s, 2);
     expect(workRows(SC, done)[0]).toMatchObject({ progress: null, built: 1, now: { ok: false, why: "already-done" } });
+  });
+});
+
+describe("what a year hands to the next", () => {
+  it("is warned of from autumn: a valley with no wheat in the ground for the year that follows", () => {
+    const summer = days(order(start(), { kind: "harvest", plot: "mill-field", rest: "wait" }, { kind: "repair" }), 20);
+    expect(warnings(SC, summer).some((w) => w.key === "warn_unsown")).toBe(false);
+    const autumn = days(summer, 20);
+    expect(warnings(SC, autumn).some((w) => w.key === "warn_unsown")).toBe(true);
+    const sown = order(autumn, { kind: "plant", plot: "mill-field", crop: "wheat" });
+    expect(warnings(SC, sown).some((w) => w.key === "warn_unsown")).toBe(false);
+    // The last year of the campaign has no year after it to warn of.
+    expect(warnings(Y2, days(newVillage(Y2, 7), 70)).some((w) => w.key === "warn_unsown")).toBe(false);
+  });
+
+  it("is said at a won year's end: the people, the money, the food, and what is sown", () => {
+    const end = playVillage(SC, start(), PLAYERS.builder!, 7).state;
+    expect(end.outcome!.won).toBe(true);
+    const c = carryOver(SC, end)!;
+    expect([c.households, c.foodDays]).toEqual([end.households, Math.floor(((end.economy.stock.wheat?.quantity ?? 0) + (end.economy.stock.vegetables?.quantity ?? 0)) / Math.ceil(end.households / 10))]);
+    expect(c.sown).toEqual(Object.entries(end.plots).filter(([, p]) => p.crop === "wheat" && p.ripeSince === null).map(([id]) => id));
+    expect(c.sown.length).toBeGreaterThan(0);
+    expect(carryOver(Y2, newVillage(Y2, 7))).toBeNull();
   });
 });
 

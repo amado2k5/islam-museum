@@ -150,6 +150,7 @@ _From docs/gaming/spec-production/PRODUCTION_GAME_STANDARDS.md, section 9, as ma
 **Added by the museum to the reviewer's scenarios:**
 
 - **HR-MARK** (host, rules): While a game's history is pending review, its own page says so wherever it states or links history. release-regression.ts reads the words off Granada's brief, The Golden Age's brief and Atlas's reveal in English; review-mark.gtest.ts holds them in all seven languages. The founder's rule of 26 November 2026. It is the museum's own scenario, not one of the reviewer's.
+- **GR-HOST** (host): The systems a release carries work on the host itself, under its own headers: the contract, the oil's road, a building placed and refused, the region, the warnings, the decision, Photo Mode's saved picture, the second year, an empty console. granada-uat.ts, in a fresh browser context; a system the live release does not have is reported as absent, not as a failure. Added 26 November 2026: the scripted play of these systems runs against the developer's own server, and the host's content-security policy is stricter than that server's.
 
 ## Every gate
 

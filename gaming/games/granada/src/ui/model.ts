@@ -2,6 +2,7 @@
 // can be tested: the numbers in the top bar, what tomorrow and the next ten days will bring (the rules run on a
 // copy, so it is the real future unless the player acts), what each field needs, what each work costs and why it
 // may be refused, what the market will take, how far each quest has got, and the one thing most worth doing now.
+import { scenarioAfter } from "../sim/scenarios";
 import { MINOR, freeCapacity } from "../sim/economy";
 import {
   CROPS,
@@ -453,7 +454,7 @@ export function advice(sc: Scenario, s: VillageState): Advice {
  * reserve too small at the scenario's end. It warns; it never plays the game for the player.
  */
 export interface Warning {
-  key: "warn_hunger" | "warn_thirst" | "warn_spoil" | "warn_contract" | "warn_reserve";
+  key: "warn_hunger" | "warn_thirst" | "warn_spoil" | "warn_contract" | "warn_reserve" | "warn_unsown";
   /** How many days must pass for it to have happened: one is by tomorrow morning. */
   days: number;
   field?: string;
@@ -480,6 +481,9 @@ export function warnings(sc: Scenario, s: VillageState): Warning[] {
   }
   const end = ahead.at(-1);
   if (end && reserveDays(end) < sc.goal.reserveDays) out.push({ key: "warn_reserve", days: ahead.length, have: reserveDays(end), want: sc.goal.reserveDays });
+  // Where another year follows, what is in the ground at this one's end is next spring's bread: from autumn on, an
+  // unsown valley is said so, while there is still time to sow or to know.
+  if (end && scenarioAfter(sc.id) && seasonOf(s.day) >= 2 && !Object.values(end.plots).some((p) => p.crop === "wheat" && p.standing === 0 && p.ripeSince === null)) out.push({ key: "warn_unsown", days: ahead.length });
   return out.sort((a, b) => a.days - b.days);
 }
 /**
@@ -490,6 +494,15 @@ export function foodToSpare(sc: Scenario, s: VillageState): number {
   const end = restOfScenario(sc, s).at(-1) ?? s;
   return Math.max(0, foodInStore(end) - sc.goal.reserveDays * foodNeed(end));
 }
+/**
+ * What a won year hands to the next: the people, the money, the food, and what is in the ground for the spring.
+ * Null where no year follows.
+ */
+export function carryOver(sc: Scenario, s: VillageState): { households: number; dinars: number; foodDays: number; sown: string[] } | null {
+  if (!scenarioAfter(sc.id)) return null;
+  return { households: s.households, dinars: wholeDinars(treasuryOf(s)), foodDays: reserveDays(s), sown: sc.plots.filter((def) => s.plots[def.id]!.crop !== null && s.plots[def.id]!.crop !== "olives" && s.plots[def.id]!.ripeSince === null).map((def) => def.id) };
+}
+
 /** The season in figures: the river against what the valley wants today, how the fields fared yesterday, and winter. */
 export function seasonFigures(sc: Scenario, s: VillageState): { inflow: number; wanted: number; fields: number | null; toWinter: number } {
   const today = flowOn(sc, s, s.day);
