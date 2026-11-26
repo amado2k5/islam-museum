@@ -2,7 +2,8 @@
 // frame times, the heap, the renderer's own figures, and what is alive. The machine, the browser and the size are
 // written with it, because a figure without them is not evidence. It measures the machine it runs on and no other.
 // Usage: npx tsx --tsconfig tsconfig.json tools/measure.ts <address or local:/games/granada/index.html?...> [seconds=20] [out.json]
-//        WIDTH, HEIGHT and DPR set the window (1920, 1080, 1); BEGIN=1 presses Granada's Begin and lets the days run.
+//        WIDTH, HEIGHT and DPR set the window (1920, 1080, 1); BEGIN=1 presses Granada's Begin and lets the days run;
+//        POSE (a JSON camera pose) and DAYS choose the view and the season to measure.
 import { writeFileSync } from "node:fs";
 import { chromium } from "playwright-core";
 import { serveWorkspace } from "./serve";
@@ -37,6 +38,12 @@ if (await page.evaluate("Boolean(window.__GR__)")) {
     await page.keyboard.press("p").catch(() => {});
   }
   await page.waitForTimeout(6000);
+}
+// POSE sets Granada's camera first (a JSON pose), and DAYS lets that many days pass, to measure a chosen view.
+if (process.env.DAYS) await page.evaluate(`window.__GR__.days(${Number(process.env.DAYS)})`);
+if (process.env.POSE) {
+  await page.evaluate(`window.__GR__.stage().setPose(${process.env.POSE}, true)`);
+  await page.waitForTimeout(4000);
 }
 await page.evaluate(`${hook}.countersStartOver && ${hook}.countersStartOver()`);
 await page.waitForTimeout(seconds * 1000);

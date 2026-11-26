@@ -5,7 +5,7 @@
 import { FrameRecorder, type FrameSummary } from "@im/kernel/framestats";
 import { generateTextures } from "@im/worldkit/textures-async";
 import { OVERVIEW, START, approach, clampPose, pan, turn, zoom, type Pose } from "../view/camera";
-import { ValleyRenderer, type Quality, type ValleyLook } from "../view/three-valley";
+import { PRESETS, ValleyRenderer, type Quality, type ValleyLook } from "../view/three-valley";
 import { FIELDS, heightAt } from "../view/valley";
 
 export interface StageOptions {
@@ -41,9 +41,9 @@ export class Stage {
   static async create(host: HTMLElement, options: StageOptions): Promise<Stage> {
     const s = new Stage(host, options);
     host.prepend(s.canvas);
-    const { textures } = await generateTextures(7, options.quality === "high" ? 1024 : 512);
+    const { textures } = await generateTextures(7, PRESETS[options.quality].textures);
     // The valley is one authored place: its shape does not change with the game's seed, only its weather does.
-    s.renderer = await ValleyRenderer.create(s.canvas, textures, { quality: options.quality, seed: 7, reducedMotion: options.reducedMotion, maxPixelRatio: options.quality === "high" ? 2 : 1.25, models: options.models });
+    s.renderer = await ValleyRenderer.create(s.canvas, textures, { quality: options.quality, seed: 7, reducedMotion: options.reducedMotion, maxPixelRatio: PRESETS[options.quality].pixelRatio, models: options.models });
     s.pose = s.goal = clampPose(START, s.ground);
     s.renderer.setCamera(s.pose);
     s.listen();
@@ -174,6 +174,10 @@ export class Stage {
   }
   screenOf(x: number, y: number, z: number): [number, number] | null {
     return this.renderer.screenOf(x, y, z);
+  }
+  /** Which field lies under a point of the page, if any. */
+  fieldAt(clientX: number, clientY: number): string | null {
+    return this.renderer.fieldAt(clientX, clientY);
   }
   /** Where the middle of a field is on the page, or null when it is behind the view. */
   fieldOnScreen(id: string): [number, number] | null {

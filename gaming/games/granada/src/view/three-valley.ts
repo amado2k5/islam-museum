@@ -5,7 +5,7 @@
 // The materials, the water and the post-processing follow The Golden Age's renderer (docs/gaming/adr/G-0002). One
 // lesson from it is kept here: the environment map is made once and never swapped during play.
 import * as THREE from "three/webgpu";
-import { attribute, builtinAOContext, float, floor, fract, fwidth, min, mix, mrt, normalMap, normalView, pass, positionWorld, screenUV, sin, smoothstep, texture, triplanarTexture, uniform, uv, vec2, vec3, vec4 } from "three/tsl";
+import { attribute, builtinAOContext, float, floor, fract, fwidth, instanceIndex, min, mix, mrt, normalMap, normalView, pass, positionLocal, positionWorld, screenUV, sin, smoothstep, texture, triplanarTexture, uniform, uv, vec2, vec3, vec4 } from "three/tsl";
 import { ao } from "three/addons/tsl/display/GTAONode.js";
 import { bloom } from "three/addons/tsl/display/BloomNode.js";
 import { SkyMesh } from "three/addons/objects/SkyMesh.js";
@@ -27,7 +27,17 @@ const MODEL_SET = "granada/2/";
 const HILL_PIECES = ["wall", "tower", "gate", "scaffold", "crane", "palace", "estate"];
 import { CHANNELS, ESTATE, FIELDS, GRANARY, HOUSE_LOTS, KIT_HOUSES, MARKET, PLOT_GRID, POOL, STORE, VILLAGE, broadTree, buildLand, buildRange, buildRiver, buildScenery, channelWater, cropSpots, cypressTree, fieldAt, fieldGround, heightAt, oliveTree, orchardTree, plotTable, poolWater, poplarTree, vegetablePlant, wheatTuft, type Chunk , type KitPlacement } from "./valley";
 
-export type Quality = "low" | "high";
+export type Quality = "low" | "medium" | "high";
+/**
+ * What each preset spends on the picture. The game is the same game at all three, with the same land, town, people
+ * and panels; what changes is how many pixels are drawn, how sharp the shadows are, whether corners are darkened and
+ * lights glow, and how far from the eye a tree is still drawn in full.
+ */
+export const PRESETS: Record<Quality, { pixelRatio: number; shadow: number; occlusion: boolean; glow: boolean; near: number; textures: number }> = {
+  low: { pixelRatio: 1, shadow: 1024, occlusion: false, glow: false, near: 0.4, textures: 512 },
+  medium: { pixelRatio: 1.5, shadow: 2048, occlusion: false, glow: true, near: 0.7, textures: 1024 },
+  high: { pixelRatio: 2, shadow: 4096, occlusion: true, glow: true, near: 1, textures: 1024 },
+};
 export interface ValleyOptions {
   quality: Quality;
   seed: number;
@@ -209,7 +219,7 @@ export class ValleyRenderer {
     this.canvas = canvas;
     this.options = options;
     this.pixelRatioCap = options.maxPixelRatio;
-    const high = options.quality === "high";
+    const preset = PRESETS[options.quality];
     const seed = options.seed;
     const renderer = new THREE.WebGPURenderer({ canvas, antialias: true, powerPreference: "high-performance", forceWebGL: false });
     await renderer.init();
@@ -225,8 +235,7 @@ export class ValleyRenderer {
     scene.add(this.hemi);
     const sun = new THREE.DirectionalLight(0xffffff, 1);
     sun.castShadow = true;
-    const size = high ? 4096 : 2048;
-    sun.shadow.mapSize.set(size, size);
+    sun.shadow.mapSize.set(preset.shadow, preset.shadow);
     const sc = sun.shadow.camera;
     const R = 430;
     sc.left = -R;
@@ -464,21 +473,23 @@ export class ValleyRenderer {
     scene.add(this.rain);
     this.disposables.push(ringGeo, ringMat, rainGeo, rainMat);
 
-    // ---- Post-processing: ambient occlusion and a little bloom (High only) ----
-    if (high) {
+    // ---- After the picture is drawn: corners darkened where things meet (High), and a little glow (Medium and High) ----
+    if (preset.occlusion || preset.glow) {
       const pipeline = new THREE.RenderPipeline(renderer);
-      const prePass = pass(scene, this.camera, { samples: 1 });
-      prePass.setMRT(mrt({ output: normalView }));
-      const aoPass = ao(prePass.getTextureNode("depth"), prePass.getTextureNode(), this.camera);
-      aoPass.resolutionScale = 0.5;
-      aoPass.radius.value = 3.2;
-      aoPass.thickness.value = 1.6;
-      aoPass.distanceExponent.value = 1.2;
-      aoPass.samples.value = 12;
       const scenePass = pass(scene, this.camera, { samples: 4 });
-      scenePass.contextNode = builtinAOContext(aoPass.getTextureNode().sample(screenUV).r);
+      if (preset.occlusion) {
+        const prePass = pass(scene, this.camera, { samples: 1 });
+        prePass.setMRT(mrt({ output: normalView }));
+        const aoPass = ao(prePass.getTextureNode("depth"), prePass.getTextureNode(), this.camera);
+        aoPass.resolutionScale = 0.5;
+        aoPass.radius.value = 3.2;
+        aoPass.thickness.value = 1.6;
+        aoPass.distanceExponent.value = 1.2;
+        aoPass.samples.value = 12;
+        scenePass.contextNode = builtinAOContext(aoPass.getTextureNode().sample(screenUV).r);
+      }
       const lit = scenePass.getTextureNode("output");
-      pipeline.outputNode = lit.add(bloom(lit, 0.1, 0.5, 1.5));
+      pipeline.outputNode = preset.glow ? lit.add(bloom(lit, 0.1, 0.5, 1.5)) : lit;
       this.pipeline = pipeline;
     }
     this.setSeason(0);
@@ -530,6 +541,11 @@ export class ValleyRenderer {
     const m = new THREE.MeshStandardNodeMaterial({ color: color(spec.color), roughness: spec.roughness, metalness: spec.metalness, vertexColors: true, side: THREE.DoubleSide });
     // 1.18 is the brightest the picture holds; a crown's own colour is multiplied in after this, tree by tree.
     m.colorNode = triplanarTexture(texture(leaves), null, null, float(0.42)).rgb.mul(1.18);
+    // Wind: everything that grows leans a little and comes back, more the higher it stands, each plant in its own
+    // time. The clock is the water's, which stands still for a visitor who has asked for less motion.
+    const phase = float(instanceIndex).mul(1.7);
+    const lean = positionLocal.y.mul(positionLocal.y).mul(0.0035);
+    m.positionNode = positionLocal.add(vec3(sin(this.waterTime.mul(1.3).add(phase)).mul(lean), 0, sin(this.waterTime.mul(0.9).add(phase.mul(0.6))).mul(lean).mul(0.7)));
     return m;
   }
 
@@ -793,7 +809,8 @@ export class ValleyRenderer {
   private fitDetail(pose: Pose): void {
     const cx = pose.tx - Math.sin(pose.yaw) * pose.distance * 0.45;
     const cz = pose.tz + Math.cos(pose.yaw) * pose.distance * 0.45;
-    const r = pose.distance * 0.62 + 90;
+    // How far from the eye a tree is still drawn in full: less far on a lighter preset.
+    const r = (pose.distance * 0.62 + 90) * PRESETS[this.options.quality].near;
     if (this.lod[2] > 0 && Math.hypot(cx - this.lod[0], cz - this.lod[1]) < 0.12 * r && Math.abs(r - this.lod[2]) < 0.1 * r) return;
     this.lod = [cx, cz, r];
     for (const g of this.groves) {
