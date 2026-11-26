@@ -531,6 +531,21 @@ describe("random play", () => {
     }
   });
 
+  it("keeps a command's result for a retry, unless the caller says it will never send it again", () => {
+    const market: Market = { cash: dinars(500), goods: { wheat: { inventory: 50, ask: dinars(26), bid: dinars(18) } } };
+    const s0 = open({ treasury: dinars(1000), capacity: 500, markets: { village: market } });
+    const buy = { commandId: "b1", expectedStateVersion: 0, command: { kind: "buy", market: "village", good: "wheat", quantity: 2 } as EconomyCommand };
+    const kept = submit(s0, buy);
+    // Sent again, it is answered with its first result and nothing is bought twice.
+    expect(submit(kept.state, buy)).toEqual({ state: kept.state, result: kept.result });
+    expect(Object.keys(kept.state.done)).toEqual(["b1"]);
+    const once = submit(s0, { ...buy, once: true });
+    expect(once.result).toEqual(kept.result);
+    expect(once.state.done).toEqual({});
+    expect({ ...once.state, done: kept.state.done }).toEqual(kept.state);
+    expect(audit(once.state)).toEqual([]);
+  });
+
   describe("goods on the road", () => {
     const market: Market = { cash: dinars(500), goods: { wheat: { inventory: 0, ask: dinars(26), bid: dinars(20) }, oil: { inventory: 0, ask: dinars(300), bid: dinars(190) } } };
     const begin = () => open({ treasury: dinars(1000), capacity: 100, stock: { wheat: { quantity: 60 }, oil: { quantity: 10 } }, markets: { port: structuredClone(market) }, contracts: [{ id: "c", good: "oil", units: 8, deadlineTick: 5, revenue: dinars(1600), transport: dinars(30), fees: dinars(10), penalty: dinars(100) }] });

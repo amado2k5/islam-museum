@@ -154,6 +154,11 @@ export interface Envelope {
   /** The state the command was planned against. A stale number is refused, so nothing is decided on old prices. */
   expectedStateVersion: number;
   command: EconomyCommand;
+  /**
+   * A caller that will never send this command again may say so: its result is then not kept, and the record of
+   * results does not grow with every command of a long game. A command that may be retried must not set it.
+   */
+  once?: boolean;
 }
 export type ErrorCode =
   | "stale-state"
@@ -284,7 +289,7 @@ export function submit(state: EconomyState, env: Envelope): { state: EconomyStat
   if (s.treasury.available > MAX_MONEY || Object.values(s.markets).some((m) => m.cash > MAX_MONEY) || Object.values(s.stock).some((h) => h.quantity > MAX_UNITS || h.costBasis > MAX_MONEY)) return { state, result: fail("amount-too-large") };
   s.stateVersion = state.stateVersion + 1;
   const done: CommandResult = { ...result, stateVersion: s.stateVersion };
-  s.done[env.commandId] = done;
+  if (!env.once) s.done[env.commandId] = done;
   return { state: s, result: done };
 }
 

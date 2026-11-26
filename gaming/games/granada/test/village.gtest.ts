@@ -2,7 +2,7 @@
 import { describe, expect, it } from "vitest";
 import { audit, dinars, freeCapacity } from "../src/sim/economy";
 import { PLAYERS, REAL_PLAYERS, playVillage } from "../src/sim/players";
-import { MERCHANTS_OF_MALAGA as Y2, SCENARIOS, WATER_FOR_THE_VALLEY as SC, scenarioAfter } from "../src/sim/scenarios";
+import { A_DRY_YEAR as Y3, MERCHANTS_OF_MALAGA as Y2, SCENARIOS, WATER_FOR_THE_VALLEY as SC, scenarioAfter } from "../src/sim/scenarios";
 import { siteRefusal } from "../src/world/ground";
 import { CROPS, HARVEST_RATE, QUESTS, nextYear, taskState, tasksOf, tradeSince, expectedHarvest, flowOn, housesBuilt, marketsOf, priceFactor, poolCapacityOf, siteOf, act, carries, foodNeed, forecast, invariants, newVillage, preview, reserveDays, riverYear, seasonOf, tick, treasuryOf, waterNeed, weather, workersOf, type Scenario, type VillageCommand, type VillageState } from "../src/sim/village";
 
@@ -760,10 +760,70 @@ describe("a campaign of years", () => {
     }
   };
 
-  it("names the scenario that follows the first, and no other", () => {
+  it("names the scenario that follows each year, and none after the last", () => {
     expect(scenarioAfter(SC.id)).toBe(Y2);
-    expect(scenarioAfter(Y2.id)).toBeNull();
-    expect(Object.keys(SCENARIOS)).toEqual([SC.id, Y2.id]);
+    expect(scenarioAfter(Y2.id)).toBe(Y3);
+    expect(scenarioAfter(Y3.id)).toBeNull();
+    expect(Object.keys(SCENARIOS)).toEqual([SC.id, Y2.id, Y3.id]);
+    // Every task's reward is paid by its id, once: no two years share one.
+    const ids = Object.values(SCENARIOS).flatMap((sc) => tasksOf(sc).map((x) => x.id));
+    expect(new Set(ids).size).toBe(ids.length);
+    const contracts = Object.values(SCENARIOS).flatMap((sc) => sc.trade!.contracts.map((c) => c.id));
+    expect(new Set(contracts).size).toBe(contracts.length);
+  });
+
+  it("in a dry year gives the river about three quarters of its water, and counts the days the households fare well", () => {
+    for (let q = 0; q < 4; q++) {
+      expect(Y3.water.inflow[q]! * 100).toBeLessThanOrEqual(Y2.water.inflow[q]! * 76);
+      expect(Y3.water.inflow[q]! * 100).toBeGreaterThanOrEqual(Y2.water.inflow[q]! * 70);
+    }
+    const faring = tasksOf(Y3).find((x) => x.kind === "welfare-streak")!;
+    expect(taskState(Y3, newVillage(Y3, 7), faring)).toEqual({ done: false, have: 0, want: 60 });
+    // The run is the days in a row, ending yesterday, on which the households fared at 65 or better.
+    let s = newVillage(Y3, 7);
+    let run = 0;
+    for (let i = 0; i < 40; i++) {
+      s = tick(Y3, s);
+      run = s.welfare >= 65 ? run + 1 : 0;
+      expect(s.streak.welfare, `day ${s.day - 1}`).toBe(run);
+    }
+    // A valley that goes hungry loses the run.
+    const hungry: Scenario = { ...Y3, stock: { ...Y3.stock, wheat: 0 }, plots: Y3.plots.map((p) => ({ ...p, crop: null, growth: 0 })) };
+    const bad = days(hungry, newVillage(hungry, 7), 12);
+    expect([bad.welfare < 65, bad.streak.welfare]).toEqual([true, 0]);
+    // In a year that does not ask it, nothing is counted.
+    expect(days(SC, start(), 8).streak.welfare).toBe(0);
+  });
+
+  it("opened fresh, the dry year cannot be won by doing nothing or at random, and can be won in more than one way", () => {
+    const wins: Record<string, number> = {};
+    for (const name of ["idle", "random", "trader", "sharer"]) {
+      wins[name] = 0;
+      for (let seed = 1; seed <= 40; seed++) {
+        const c = playVillage(Y3, newVillage(Y3, seed), PLAYERS[name]!, seed);
+        expect(c.violations, `${name} seed ${seed}`).toEqual([]);
+        if (c.state.outcome!.won) wins[name]! += 1;
+      }
+    }
+    expect([wins.idle, wins.random]).toEqual([0, 0]);
+    expect(wins.trader).toBeGreaterThanOrEqual(8);
+    expect(wins.sharer).toBeGreaterThanOrEqual(8);
+  });
+
+  it("can be played through three years with every rule kept every day", () => {
+    let reached = 0;
+    for (let seed = 1; seed <= 10; seed++) {
+      const one = playVillage(SC, newVillage(SC, seed), PLAYERS.builder!, seed);
+      if (!one.state.outcome!.won) continue;
+      const two = playVillage(Y2, nextYear(Y2, one.state)!, PLAYERS.trader!, seed);
+      expect(two.violations, `year two, seed ${seed}`).toEqual([]);
+      if (!two.state.outcome!.won) continue;
+      const three = playVillage(Y3, nextYear(Y3, two.state)!, PLAYERS.trader!, seed);
+      expect(three.violations, `year three, seed ${seed}`).toEqual([]);
+      expect([three.state.year, three.state.outcome !== null]).toEqual([3, true]);
+      reached += 1;
+    }
+    expect(reached).toBeGreaterThan(0);
   });
 
   it("goes on only from a year that was won, and only into the year that follows it", () => {
@@ -797,6 +857,27 @@ describe("a campaign of years", () => {
     expect(audit(s.economy)).toEqual([]);
     // The year that was is not changed by going on from it.
     expect(end.year).toBe(1);
+  });
+
+  it("closes the books at the year's end: each balance carried forward as one line, the audit still closing, and a saved game no longer growing year on year", () => {
+    const end = wonYearOne();
+    const s = nextYear(Y2, end)!;
+    expect(end.economy.journal.length).toBeGreaterThan(150);
+    expect(s.economy.journal.length).toBeLessThan(60);
+    // One line for each balance carried, and after them what the new year itself opens (the port's stock of what it now deals in).
+    expect(s.economy.journal.every((j) => j.commandId === "carried:1" || j.commandId === "year:2")).toBe(true);
+    expect(s.economy.journal.filter((j) => j.commandId === "year:2").map((j) => j.asset)).toEqual(["vegetables"]);
+    expect(audit(s.economy)).toEqual([]);
+    // Every balance the audit looks at is what it was.
+    expect([s.economy.treasury, s.economy.stock, s.economy.markets.village, s.economy.capacity]).toEqual([end.economy.treasury, end.economy.stock, end.economy.markets.village, end.economy.capacity]);
+    // A task's reward stays paid; nothing else of the old year's commands is kept.
+    expect(Object.keys(s.economy.done).every((id) => id.startsWith("quest:"))).toBe(true);
+    expect(Object.keys(s.economy.done).length).toBeGreaterThan(0);
+    expect(JSON.stringify(s).length).toBeLessThan(JSON.stringify(end).length / 3);
+    // And the year plays on from the closed books under every rule.
+    const played = playVillage(Y2, s, PLAYERS.trader!, 7);
+    expect(played.violations).toEqual([]);
+    expect(audit(played.state.economy)).toEqual([]);
   });
 
   it("carries a crop still in the ground: wheat sown in autumn is growing in spring", () => {
