@@ -30,6 +30,39 @@ PLAIN = {
 }
 WEATHERED = ("plaster", "plaster_warm", "plaster_red", "stone", "cobble", "rooftile", "earth", "wood", "marble", "green", "green_dark", "green_olive")
 
+FULL_LEVELS = (0.55, 1.5, 3.2, 6.0, 9.5, 14.0, 19.0, 25.0)
+DETAIL_PRESETS = {
+    "full": {
+        "arch_steps": 14, "column_segments": 10, "window_arch": True, "window_colonette": True,
+        "window_trim": "full", "window_bevel": True, "lattice_bars": 4, "lattice_frame": True, "door_arch": True,
+        "tree_subdivisions": 2, "tree_balls": 3, "cypress_segments": 8, "putlogs": True,
+        "merlon_gap_scale": 1.0, "merlon_caps": True, "column_trim": True, "rafter_spacing": 0.9,
+        "weather_grid": 3.1, "weather_levels": FULL_LEVELS, "decimate": 1.0,
+    },
+    "lod1": {
+        "arch_steps": 6, "column_segments": 5, "window_arch": False, "window_colonette": False,
+        "window_trim": "simple", "window_bevel": False, "lattice_bars": 1, "lattice_frame": False, "door_arch": True,
+        "tree_subdivisions": 1, "tree_balls": 1, "cypress_segments": 5, "putlogs": False,
+        "merlon_gap_scale": 2.5, "merlon_caps": True, "column_trim": True, "rafter_spacing": 2.0,
+        "weather_grid": 999.0, "weather_levels": (0.55,), "decimate": 1.0,
+    },
+    "lod2": {
+        "arch_steps": 4, "column_segments": 5, "window_arch": False, "window_colonette": False,
+        "window_trim": "none", "window_bevel": False, "lattice_bars": 1, "lattice_frame": False, "door_arch": False,
+        "tree_subdivisions": 1, "tree_balls": 0, "cypress_segments": 5, "putlogs": False,
+        "merlon_gap_scale": 3.2, "merlon_caps": False, "column_trim": False, "rafter_spacing": 2.2,
+        "weather_grid": 999.0, "weather_levels": (0.55,), "decimate": 0.45,
+    },
+}
+DETAIL = dict(DETAIL_PRESETS["full"])
+
+
+def set_detail(level):
+    if level not in DETAIL_PRESETS:
+        raise ValueError(f"unknown detail level {level!r}")
+    DETAIL.clear()
+    DETAIL.update(DETAIL_PRESETS[level])
+
 
 def materials_with_wear(texture_sets):
     """The kit's materials and the plain ones above, each multiplied by the mesh's own colour layer."""
@@ -114,8 +147,10 @@ class Frame:
 
 
 # ------------------------------------------------------------------ arches ----
-def horseshoe(width, spring, turn=math.radians(24), steps=14):
+def horseshoe(width, spring, turn=math.radians(24), steps=None):
     """The line of a horseshoe arch's opening from its left foot to its right: it closes in again below its widest."""
+    if steps is None:
+        steps = DETAIL["arch_steps"]
     r = (width / 2) / math.cos(turn)
     centre = spring + r * math.sin(turn)
     points = [(-width / 2, 0.0)]
@@ -137,9 +172,12 @@ def arch_panel(frame, width, height, opening, spring, loc, depth=0.3, material="
 
 
 def column(frame, x, y, z, height, radius=0.13, material="marble"):
+    if not DETAIL["column_trim"]:
+        frame.cylinder(radius, height, (x, y, z + height / 2), material=material, segments=DETAIL["column_segments"], radius_top=radius * 0.86)
+        return
     frame.box((radius * 3.2, radius * 3.2, 0.14), (x, y, z + 0.07), material=material, bevel=0.02)
-    frame.cylinder(radius, height - 0.48, (x, y, z + 0.14 + (height - 0.48) / 2), material=material, segments=10, radius_top=radius * 0.86)
-    frame.cylinder(radius * 1.25, 0.06, (x, y, z + height - 0.31), material=material, segments=10)
+    frame.cylinder(radius, height - 0.48, (x, y, z + 0.14 + (height - 0.48) / 2), material=material, segments=DETAIL["column_segments"], radius_top=radius * 0.86)
+    frame.cylinder(radius * 1.25, 0.06, (x, y, z + height - 0.31), material=material, segments=DETAIL["column_segments"])
     frame.box((radius * 3.4, radius * 3.4, 0.28), (x, y, z + height - 0.14), material=material, bevel=0.04)
 
 
@@ -169,8 +207,9 @@ def arcade(frame, bays, bay, height, x0=0.0, y=0.0, z=0.0, band="tile_blue", roo
         pitch = math.radians(20)
         run = (roof_depth + 0.45) / math.cos(pitch)
         frame.slab([(-total / 2 - 0.3, 0), (total / 2 + 0.3, 0), (total / 2 + 0.3, run), (-total / 2 - 0.3, run)], 0.12, (x0, y - 0.3, z + height + 0.16), (pitch, 0, 0))
-        for k in range(int(total // 0.9) + 1):
-            frame.box((0.09, 0.5, 0.11), (x0 - total / 2 + 0.2 + k * 0.9, y - 0.12, z + height + 0.14), material="wood")
+        spacing = DETAIL["rafter_spacing"]
+        for k in range(int(total // spacing) + 1):
+            frame.box((0.09, 0.5, 0.11), (x0 - total / 2 + 0.2 + k * spacing, y - 0.12, z + height + 0.14), material="wood")
     return z + height + 0.2
 
 
@@ -178,28 +217,36 @@ def twin_window(frame, x, z, width=1.5, height=1.9, y=0.0, frame_material="stone
     """Two small horseshoe lights with a colonette between them, in a square frame: a window to look out of."""
     frame.box((width, 0.1, height), (x, y - 0.01, z + height / 2), material="dark")
     half = width / 2
-    for s in (-1, 1):
-        arch_panel(frame, half, height, half - 0.2, height * 0.5, (x + s * half / 2, y - 0.08, z), depth=0.1, material=inner, turn=math.radians(22))
-    frame.cylinder(0.05, height * 0.56, (x, y - 0.1, z + height * 0.28), material="marble", segments=8)
-    frame.box((0.16, 0.14, 0.1), (x, y - 0.1, z + height * 0.59), material="marble")
-    frame.box((width + 0.36, 0.1, 0.16), (x, y - 0.1, z + height + 0.08), material=frame_material, bevel=0.015)
-    frame.box((width + 0.44, 0.22, 0.12), (x, y - 0.13, z - 0.06), material=frame_material, bevel=0.015)
-    for s in (-1, 1):
-        frame.box((0.14, 0.1, height), (x + s * (half + 0.07), y - 0.1, z + height / 2), material=frame_material)
+    if DETAIL["window_arch"]:
+        for s in (-1, 1):
+            arch_panel(frame, half, height, half - 0.2, height * 0.5, (x + s * half / 2, y - 0.08, z), depth=0.1, material=inner, turn=math.radians(22))
+    if DETAIL["window_colonette"]:
+        frame.cylinder(0.05, height * 0.56, (x, y - 0.1, z + height * 0.28), material="marble", segments=8)
+        frame.box((0.16, 0.14, 0.1), (x, y - 0.1, z + height * 0.59), material="marble")
+    if DETAIL["window_trim"] in ("full", "simple"):
+        bevel = 0.015 if DETAIL["window_bevel"] else 0.0
+        frame.box((width + 0.36, 0.1, 0.16), (x, y - 0.1, z + height + 0.08), material=frame_material, bevel=bevel)
+        frame.box((width + 0.44, 0.22, 0.12), (x, y - 0.13, z - 0.06), material=frame_material, bevel=bevel)
+    if DETAIL["window_trim"] == "full":
+        for s in (-1, 1):
+            frame.box((0.14, 0.1, height), (x + s * (half + 0.07), y - 0.1, z + height / 2), material=frame_material)
     if band:
         frame.box((width + 0.36, 0.03, 0.14), (x, y - 0.045, z + height + 0.25), material=band)
 
 
-def lattice(frame, x, z, width=1.0, height=1.4, y=0.0, bars=4):
+def lattice(frame, x, z, width=1.0, height=1.4, y=0.0, bars=None):
     """A window closed by a wooden lattice in a wooden frame, on a stone sill."""
+    if bars is None:
+        bars = DETAIL["lattice_bars"]
     frame.box((width, 0.08, height), (x, y - 0.01, z + height / 2), material="dark")
     for k in range(1, bars):
         frame.box((0.04, 0.04, height), (x - width / 2 + k * width / bars, y - 0.07, z + height / 2), material="wood")
         frame.box((width, 0.04, 0.04), (x, y - 0.075, z + k * height / bars), material="wood")
-    for s in (-1, 1):
-        frame.box((0.09, 0.1, height + 0.18), (x + s * (width / 2 + 0.045), y - 0.08, z + height / 2), material="wood", grain=2)
-    frame.box((width + 0.18, 0.1, 0.09), (x, y - 0.08, z + height + 0.045), material="wood", grain=0)
-    frame.box((width + 0.3, 0.2, 0.09), (x, y - 0.1, z - 0.045), material="stone", bevel=0.015)
+    if DETAIL["lattice_frame"]:
+        for s in (-1, 1):
+            frame.box((0.09, 0.1, height + 0.18), (x + s * (width / 2 + 0.045), y - 0.08, z + height / 2), material="wood", grain=2)
+        frame.box((width + 0.18, 0.1, 0.09), (x, y - 0.08, z + height + 0.045), material="wood", grain=0)
+        frame.box((width + 0.3, 0.2, 0.09), (x, y - 0.1, z - 0.045), material="stone", bevel=0.015)
 
 
 def arched_door(frame, x, width=1.8, height=2.5, y=0.0, z=0.0, surround="stone", band="tile_green"):
@@ -207,13 +254,16 @@ def arched_door(frame, x, width=1.8, height=2.5, y=0.0, z=0.0, surround="stone",
     panel_w, panel_h = width + 1.1, height + width * 0.75 + 0.5
     frame.box((panel_w - 0.1, 0.1, panel_h - 0.1), (x, y + 0.02, z + panel_h / 2), material="dark")
     frame.box((width * 0.98, 0.07, height + width * 0.5), (x, y - 0.02, z + (height + width * 0.5) / 2), material="wood", grain=2)
-    for k in range(1, 4):
-        frame.box((width * 0.98, 0.03, 0.07), (x, y - 0.065, z + k * height / 3.4), material="iron")
-    arch_panel(frame, panel_w, panel_h, width, height, (x, y - 0.1, z), depth=0.16, material=surround)
-    frame.box((panel_w + 0.3, 0.12, 0.18), (x, y - 0.14, z + panel_h + 0.09), material=surround, bevel=0.02)
-    for s in (-1, 1):
-        frame.box((0.16, 0.12, panel_h), (x + s * (panel_w / 2 + 0.08), y - 0.14, z + panel_h / 2), material=surround)
-    frame.box((panel_w - 0.2, 0.03, 0.3), (x, y - 0.19, z + panel_h - 0.3), material=band)
+    if DETAIL["door_arch"]:
+        for k in range(1, 4):
+            frame.box((width * 0.98, 0.03, 0.07), (x, y - 0.065, z + k * height / 3.4), material="iron")
+        arch_panel(frame, panel_w, panel_h, width, height, (x, y - 0.1, z), depth=0.16, material=surround)
+        frame.box((panel_w + 0.3, 0.12, 0.18), (x, y - 0.14, z + panel_h + 0.09), material=surround, bevel=0.02)
+        for s in (-1, 1):
+            frame.box((0.16, 0.12, panel_h), (x + s * (panel_w / 2 + 0.08), y - 0.14, z + panel_h / 2), material=surround)
+        frame.box((panel_w - 0.2, 0.03, 0.3), (x, y - 0.19, z + panel_h - 0.3), material=band)
+    else:
+        frame.box((width + 0.3, 0.1, 0.14), (x, y - 0.08, z + height + 0.07), material=surround, bevel=0.015)
     return panel_h
 
 
@@ -258,15 +308,18 @@ def gable_roof(frame, w, d, eave, x=0.0, y=0.0, overhang=0.4, pitch=math.radians
 
 def capped_merlons(frame, length, y, z, material="plaster_red", size=(0.9, 0.5, 0.95), gap=1.75, x0=0.0):
     """Merlons with the small four-sided caps of the western Islamic lands, in a line along x."""
-    n = max(2, int(length // gap))
+    n = max(2, int(length // (gap * DETAIL["merlon_gap_scale"])))
     for i in range(n):
         x = x0 - length / 2 + (i + 0.5) * length / n
         frame.box(size, (x, y, z + size[2] / 2), material=material)
-        frame.cylinder(size[0] * 0.72, 0.4, (x, y, z + size[2] + 0.2), (0, 0, math.pi / 4), material=material, segments=4, radius_top=0.03)
+        if DETAIL["merlon_caps"]:
+            frame.cylinder(size[0] * 0.72, 0.4, (x, y, z + size[2] + 0.2), (0, 0, math.pi / 4), material=material, segments=4, radius_top=0.03)
 
 
 def putlog_holes(frame, length, bottom, top, y=0.0, x0=0.0, every=1.7, course=1.85, skip=()):
     """The rows of small square holes a wall of rammed earth keeps from the timbers of its shuttering."""
+    if not DETAIL["putlogs"]:
+        return
     rows = int((top - bottom) // course) + 1
     for r in range(rows):
         z = bottom + r * course
@@ -282,23 +335,31 @@ def cypress(frame, x, y, z=0.0, height=9.0, seed=0):
     h = height * (0.85 + 0.3 * ((seed * 37) % 10) / 10.0)
     frame.cylinder(0.12, 1.2, (x, y, z + 0.6), material="wood", segments=6)
     lean = 0.12 * math.sin(seed * 2.3)
-    frame.cylinder(0.5, h * 0.16, (x, y, z + 0.9 + h * 0.08), material="green_dark", segments=8, radius_top=0.82)
-    frame.cylinder(0.82, h * 0.42, (x + lean * 0.3, y, z + 0.9 + h * 0.37), material="green_dark", segments=8, radius_top=0.56)
-    frame.cylinder(0.56, h * 0.42, (x + lean, y + lean * 0.5, z + 0.9 + h * 0.79), material="green_dark", segments=8, radius_top=0.03)
+    frame.cylinder(0.5, h * 0.16, (x, y, z + 0.9 + h * 0.08), material="green_dark", segments=DETAIL["cypress_segments"], radius_top=0.82)
+    frame.cylinder(0.82, h * 0.42, (x + lean * 0.3, y, z + 0.9 + h * 0.37), material="green_dark", segments=DETAIL["cypress_segments"], radius_top=0.56)
+    frame.cylinder(0.56, h * 0.42, (x + lean, y + lean * 0.5, z + 0.9 + h * 0.79), material="green_dark", segments=DETAIL["cypress_segments"], radius_top=0.03)
 
 
 def round_tree(frame, x, y, z=0.0, radius=1.5, material="green", trunk=1.6):
+    if DETAIL["tree_balls"] == 0:
+        return
     frame.cylinder(0.11, trunk, (x, y, z + trunk / 2), material="wood", segments=6)
-    frame.ball(radius, (x, y, z + trunk + radius * 0.6), material=material, squash=0.78, subdivisions=2)
-    frame.ball(radius * 0.72, (x + radius * 0.55, y + radius * 0.3, z + trunk + radius * 0.4), material=material, squash=0.8, subdivisions=2)
-    frame.ball(radius * 0.66, (x - radius * 0.5, y - radius * 0.35, z + trunk + radius * 0.8), material=material, squash=0.8, subdivisions=2)
+    frame.ball(radius, (x, y, z + trunk + radius * 0.6), material=material, squash=0.78, subdivisions=DETAIL["tree_subdivisions"])
+    if DETAIL["tree_balls"] > 1:
+        frame.ball(radius * 0.72, (x + radius * 0.55, y + radius * 0.3, z + trunk + radius * 0.4), material=material, squash=0.8, subdivisions=DETAIL["tree_subdivisions"])
+    if DETAIL["tree_balls"] > 2:
+        frame.ball(radius * 0.66, (x - radius * 0.5, y - radius * 0.35, z + trunk + radius * 0.8), material=material, squash=0.8, subdivisions=DETAIL["tree_subdivisions"])
 
 
 # --------------------------------------------------------------------- wear ----
-def weather(obj, ground=0.0, grid=3.1, levels=(0.55, 1.5, 3.2, 6.0, 9.5, 14.0, 19.0, 25.0), seed=0.0):
+def weather(obj, ground=0.0, grid=None, levels=None, seed=0.0):
     """Paints wear into the mesh as a colour layer the materials multiply by: damp and dirt at the foot of every
     wall, render that is not one even tone across a face, tiles that have weathered unevenly, darker where a
     wall meets a roof. Large faces are first cut on a grid so that there are points to carry the variation."""
+    if grid is None:
+        grid = DETAIL["weather_grid"]
+    if levels is None:
+        levels = DETAIL["weather_levels"]
     mesh = obj.data
     bm = bmesh.new()
     bm.from_mesh(mesh)
