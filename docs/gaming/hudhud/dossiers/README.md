@@ -9,6 +9,11 @@
 | al-kindi | [`al-kindi.md`](al-kindi.md) | 3 | 6 | 0 |
 | banu-musa | [`banu-musa.md`](banu-musa.md) | 1 | 4 | 0 |
 | al-shatranj | [`al-shatranj.md`](al-shatranj.md) | 1 | 2 | 0 |
+| ibn-al-haytham | [`ibn-al-haytham.md`](ibn-al-haytham.md) | 7 | 8 | 0 |
+| al-biruni | [`al-biruni.md`](al-biruni.md) | 7 | 8 | 0 |
+| al-karaji | [`al-karaji.md`](al-karaji.md) | 2 | 8 | 1 |
+| al-idrisi | [`al-idrisi.md`](al-idrisi.md) | 7 | 8 | 0 |
+| thabit-ibn-qurra | [`thabit-ibn-qurra.md`](thabit-ibn-qurra.md) | 2 | 8 | 0 |
 | abbas-ibn-firnas | [`abbas-ibn-firnas.md`](abbas-ibn-firnas.md) | 2 | 8 | 0 |
 | al-sufi | [`al-sufi.md`](al-sufi.md) | 2 | 4 | 0 |
 | al-tusi | [`al-tusi.md`](al-tusi.md) | 6 | 8 | 0 |
