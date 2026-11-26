@@ -63,6 +63,9 @@ export interface Slot {
   quests: Record<string, QuestRecord>;
   /** A quest left in the middle: which, and what the rules need to put it back (checked by them, not here). */
   resume: { quest: string; snap: unknown } | null;
+  /** True once the opening story (the prologue) has been read or skipped in this slot. Absent means not seen: a save
+   * made before the prologue existed has no such field, and stays valid. Only `true` is ever written. */
+  prologue?: boolean;
 }
 export interface SaveFile {
   v: number;
@@ -73,6 +76,8 @@ export interface SaveFile {
 export const DEFAULT_SETTINGS: Settings = { style: "explorer", quality: "medium", reducedMotion: false, highContrast: false, textScale: 1, textSpeed: 40, volume: { ambience: 0.6, voices: 0.8, effects: 0.8 }, muted: false, captions: true, keys: DEFAULT_KEYS, pad: DEFAULT_PAD };
 export const newSlot = (): Slot => ({ settings: structuredClone(DEFAULT_SETTINGS), keeper: { kind: 1, skin: 1, outfit: 0, hair: 3 }, quests: {}, resume: null });
 export const newSave = (): SaveFile => ({ v: SAVE_VERSION, slot: 0, slots: [newSlot(), null, null] });
+/** The record that the opening story has been seen, in the slot in use; the rest of the save is as it was. */
+export const markPrologueSeen = (s: SaveFile): SaveFile => ({ ...s, slots: s.slots.map((x, i) => (i === s.slot && x ? { ...x, prologue: true } : x)) });
 
 const isObj = (x: unknown): x is Record<string, unknown> => typeof x === "object" && x !== null && !Array.isArray(x);
 const clamp = (x: unknown, lo: number, hi: number, d: number) => (typeof x === "number" && Number.isFinite(x) ? Math.min(hi, Math.max(lo, x)) : d);
@@ -127,6 +132,7 @@ function readSlot(x: unknown): Slot | null {
     keeper: { kind: Math.floor(clamp(k.kind, 0, 1, 1)), skin: Math.floor(clamp(k.skin, 0, 3, 1)), outfit: Math.floor(clamp(k.outfit, 0, 2, 0)), hair: Math.floor(clamp(k.hair, 0, 3, 0)) },
     quests,
     resume: r,
+    ...(x.prologue === true ? { prologue: true } : {}),
   };
 }
 
@@ -194,7 +200,9 @@ export function mergeSaves(mine: SaveFile, stored: SaveFile, ownsResume = false)
         merged = had ? recordQuest(merged, id, { turns: q.bestTurns ?? had.bestTurns ?? 0, curiosity: q.curiosity, ingenuity: q.ingenuity, kindness: q.kindness, feather: q.feather }) : { ...merged, quests: { ...merged.quests, [id]: q } };
         if (had && had.bestTurns === null && q.bestTurns === null) merged.quests[id]!.bestTurns = null;
       }
-      return { ...merged, resume: ownsResume && i === mine.slot ? slot.resume : other.resume };
+      // The opening is seen if it was seen in either: one tab can never make a player read it again.
+      const seen = slot.prologue === true || other.prologue === true;
+      return { ...merged, ...(seen ? { prologue: true } : {}), resume: ownsResume && i === mine.slot ? slot.resume : other.resume };
     }),
   };
 }

@@ -55,7 +55,9 @@ export const MOVE = {
   run: 300,
   accel: 2600,
   airAccel: 1700,
-  friction: 2400,
+  friction: 3400,
+  /** How fast a bird in the air loses its sideways speed once the direction is let go. */
+  airStop: 1500,
   gravity: 1700,
   hop: 560,
   flap: 470,
@@ -86,7 +88,7 @@ export function stepMover(m: Mover, room: Room, input: Intent, assist = { extraF
   n.coyote = n.grounded ? MOVE.coyote : Math.max(0, n.coyote - dt);
 
   const goal = input.dir * MOVE.run;
-  n.vx = toward(n.vx, goal, (input.dir !== 0 ? (n.grounded ? MOVE.accel : MOVE.airAccel) : n.grounded ? MOVE.friction : MOVE.airAccel * 0.4) * dt);
+  n.vx = toward(n.vx, goal, (input.dir !== 0 ? (n.grounded ? MOVE.accel : MOVE.airAccel) : n.grounded ? MOVE.friction : MOVE.airStop) * dt);
   if (input.dir !== 0) n.facing = input.dir;
 
   if (n.buffer > 0 && n.coyote > 0) {
