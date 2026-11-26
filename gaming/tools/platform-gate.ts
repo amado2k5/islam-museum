@@ -61,6 +61,32 @@ for (const game of registry.games.filter((g) => g.page)) {
   const state = (await page.evaluate("({ pre: window.__IM_PREFLIGHT__ || null, left: document.querySelectorAll('.im-unsupported').length, appShown: getComputedStyle(document.getElementById('app')).display !== 'none', lang: document.documentElement.lang })")) as { pre: { ok: boolean } | null; left: number; appShown: boolean; lang: string };
   results.push({ check: `${game.id}: a desktop gets the game`, pass: started && state.pre?.ok === true && state.left === 0 && state.appShown && state.lang === "en", detail: state });
   await ctx.close();
+
+  // A game that still saves to localStorage: what it keeps is copied to the vault, and comes back after the
+  // storage is cleared, before the game reads it. Hudhud keeps its own progress in the vault and is not in this.
+  if (game.id !== "hudhud") {
+    const c2 = await browser.newContext({ viewport: { width: 1440, height: 900 }, deviceScaleFactor: 1 });
+    let p2 = await c2.newPage();
+    p2.on("pageerror", (e) => errors.push(`${game.id} backup: ${e}`));
+    const wait = async () => {
+      for (const end = Date.now() + 90_000; Date.now() < end; ) {
+        if ((await p2.evaluate(STARTED[game.id]!)) as boolean) return true;
+        await p2.waitForTimeout(200);
+      }
+      return false;
+    };
+    await p2.goto(`${served.base}/games/${game.id}/index.html?lang=en&music=off`);
+    await wait();
+    const kept = (await p2.evaluate(`(async () => { localStorage.setItem('im.${game.id}.probe.v1', 'kept by the vault'); const r = await window.__IM_BACKUP__.save(); const keys = Object.keys(localStorage).filter((k) => k.startsWith('im.${game.id}.')).sort(); const values = Object.fromEntries(keys.map((k) => [k, localStorage.getItem(k)])); localStorage.clear(); return { saved: r && r.ok, keys, values }; })()`)) as { saved: boolean; keys: string[]; values: Record<string, string> };
+    await p2.close();
+    p2 = await c2.newPage();
+    await p2.goto(`${served.base}/games/${game.id}/index.html?lang=en&music=off`);
+    const startedAgain = await wait();
+    const back = (await p2.evaluate(`({ restored: window.__IM_BACKUP__ ? window.__IM_BACKUP__.restored : null, probe: localStorage.getItem('im.${game.id}.probe.v1') })`)) as { restored: string[] | null; probe: string | null };
+    results.push({ check: `${game.id}: what it keeps in localStorage is backed up, and comes back after the storage is cleared`, pass: kept.saved === true && startedAgain && back.probe === "kept by the vault" && JSON.stringify(back.restored) === JSON.stringify(kept.keys), detail: { keys: kept.keys, back } });
+    await p2.evaluate(`(async () => { localStorage.removeItem('im.${game.id}.probe.v1'); })()`);
+    await c2.close();
+  }
 }
 await browser.close();
 await served.close();

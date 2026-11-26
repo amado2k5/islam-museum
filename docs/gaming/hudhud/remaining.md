@@ -17,7 +17,7 @@ _26 November 2026. The founder asked, in chat: "what is remaining for this game 
 | Sound | effects, ambience, the museum's music | all three, the effects synthesised; one room's worth |
 | Languages | seven, read by native speakers | seven, machine drafts read by nobody |
 | History | every claim reviewed by a named person | every claim entered as pending; no reviewer named |
-| Saving | slots, versions, recovery, a place kept inside a quest; for every game a vault in IndexedDB with backups, export and import | all of these for Hudhud ([`../save-service.md`](../save-service.md)); the other three games still save to `localStorage` alone |
+| Saving | slots, versions, recovery, a place kept inside a quest; for every game a vault in IndexedDB with backups, export and import | all of these for Hudhud ([`../save-service.md`](../save-service.md)); the other three games still save to `localStorage`, now backed up to the vault and restored if it goes missing, without indicator, export or import |
 | Unsupported devices | a plain refusal before anything heavy loads, for every game | built; all four games stand behind it ([`../device-preflight.md`](../device-preflight.md)) |
 | Accessibility | keyboard, gamepad, remapping of both, reduced motion, contrast, a way to play without the picture | all built; no physical controller tried; none audited by a person or a tool |
 | Machines and browsers | two reference machines, the main browsers, phones and tablets | one Mac, Chrome |

@@ -9,5 +9,7 @@ behindTheGate({
     const s = (await import(`../../i18n/${lang}.json`)).default as Record<string, string>;
     return { title: s.title!, text: [s.subtitle!, s.sourced!] };
   },
+  // What the game keeps in localStorage is backed up to the vault and put back if it has gone missing.
+  backup: "atlas",
   start: () => import("./app"),
 });

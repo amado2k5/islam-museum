@@ -12,5 +12,7 @@ behindTheGate({
   refused: (reasons) => {
     (window as unknown as Record<string, unknown>).__GA__ = { ready: false, error: `unsupported: ${reasons.join(", ")}`, unsupported: reasons };
   },
+  // What the game keeps in localStorage is backed up to the vault and put back if it has gone missing.
+  backup: "golden-age",
   start: () => import("./app"),
 });
