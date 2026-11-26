@@ -57,6 +57,14 @@ main:focus { outline: none; }
 .hub > h2 { margin: 6px 0 2px; text-align: center; font-size: clamp(1.5rem, 3.4vw, 2.4rem); color: var(--gold); }
 .hub > p { text-align: center; margin: 6px auto; max-width: 70ch; }
 .hub .progress { font-weight: 700; }
+/* The Atlas laid open: a picture that is also a way to a world's list, and the numbered buttons that do the same. */
+.hub .book { max-width: 1000px; margin: 10px auto; }
+.hub .book p { margin: 6px 0; text-align: center; }
+.book-art { display: block; width: 100%; aspect-ratio: 1000 / 460; border: 2px solid var(--line); border-radius: 14px; cursor: pointer; background: #050d1e; }
+.book-worlds { display: flex; flex-wrap: wrap; justify-content: center; gap: 8px; }
+.book-world { min-width: 44px; min-height: 44px; font-weight: 700; }
+.world h3 { scroll-margin-top: 12px; }
+.world h3:focus { outline: 3px solid var(--gold); outline-offset: 4px; border-radius: 6px; }
 .worlds { display: grid; gap: 14px; grid-template-columns: repeat(auto-fit, minmax(270px, 1fr)); margin-block: 16px; }
 .world { padding: 12px 16px; background: var(--panel); border: 1px solid var(--line); border-radius: 14px; }
 .world h3 { margin: 0 0 8px; font-size: 1rem; color: var(--gold); }
@@ -137,6 +145,14 @@ main:focus { outline: none; }
 .bench .said .by-narrator { border-inline-start: 4px solid var(--teal); padding-inline-start: 10px; }
 .bench .results { margin-block-start: 16px; padding: 14px 18px; background: var(--panel); border: 1px solid var(--gold); border-radius: 14px; }
 .bench button:disabled, .bench select:disabled { opacity: 0.55; cursor: default; }
+/* The third quest's page: the secret page's picture and two tables of counts, played with lists of choices. */
+.bench canvas.cipher-art { aspect-ratio: 1000 / 420; }
+.bench .tables { display: grid; gap: 14px; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); margin-block: 10px; }
+.bench table.counts { width: 100%; border-collapse: collapse; background: var(--panel); border: 1px solid var(--line); }
+.bench table.counts caption { font-weight: 700; text-align: start; padding: 8px 4px; }
+.bench table.counts th, .bench table.counts td { padding: 6px 10px; text-align: start; border-top: 1px solid var(--line); }
+.bench .glyph-name { display: inline-flex; align-items: center; gap: 10px; }
+.bench .glyph-name canvas { display: inline-block; width: auto; aspect-ratio: auto; border-width: 1px; border-radius: 8px; margin: 0; flex: none; }
 
 .toast { position: fixed; inset-block-end: 16px; inset-inline: 0; margin-inline: auto; width: max-content; max-width: 92%; padding: 10px 18px; background: #1c1206; color: var(--gold); border: 1px solid var(--gold); border-radius: 12px; z-index: 40; pointer-events: none; }
 
@@ -181,3 +197,21 @@ main:focus { outline: none; }
   .choose canvas { width: 52px; }
   .choose button { padding: 4px 10px; }
 }
+
+/* The opening story, before the Atlas: a picture, a short paragraph and three buttons. Nothing moves by itself. */
+.prologue { max-width: 1000px; margin-inline: auto; padding: 6px 4px 20px; }
+.prologue > h2 { margin: 6px 0 8px; text-align: center; color: var(--gold); font-size: clamp(1.4rem, 3vw, 2rem); }
+.pro-art { margin: 0; }
+.pro-art canvas { display: block; width: 100%; aspect-ratio: 1000 / 420; border: 2px solid var(--line); border-radius: 14px; background: #050d1e; }
+.pro-card { margin-block: 12px; padding: 12px 18px; background: var(--panel); border: 1px solid var(--line); border-radius: 14px; }
+.pro-count { margin: 0 0 4px; font-size: 0.85rem; font-weight: 400; color: var(--muted); }
+.pro-count:focus-visible { outline-offset: 4px; }
+.pro-text { margin: 0; font-size: 1.15rem; line-height: 1.7; max-width: 62ch; }
+.pro-nav { justify-content: space-between; margin-block: 8px; }
+.pro-nav button:disabled { opacity: 0.45; cursor: default; }
+button.quiet { background: transparent; border-color: transparent; color: var(--muted); text-decoration: underline; }
+button.quiet:hover { background: rgba(255, 255, 255, 0.08); }
+.hub .again { margin-block-start: 4px; }
+.contrast .pro-card { border: 3px solid #fff; }
+.contrast button.quiet { color: #fff; border-color: #fff; text-decoration: none; }
+@media (max-width: 760px) { .pro-text { font-size: 1.05rem; } .pro-nav { flex-direction: row; } }

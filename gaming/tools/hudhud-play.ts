@@ -8,6 +8,7 @@ import { mkdirSync, writeFileSync } from "node:fs";
 import { resolve } from "node:path";
 import { chromium, type Page } from "playwright-core";
 import { solve, type LightPuzzle } from "../games/hudhud/src/sim/light";
+import { leaveOpening } from "./hudhud-opening";
 import { serveWorkspace } from "./serve";
 
 const [outArg, lang = "en", quality = "medium", w = "1920", h = "1080", style = "explorer"] = process.argv.slice(2);
@@ -70,6 +71,11 @@ const report: Record<string, unknown> = { tag, lang, quality, style, viewport: [
 try {
   await page.goto(`${served.base}/games/hudhud/index.html?lang=${lang}&q=${quality}&style=${style}&music=off&perf=1`);
   await page.waitForFunction("window.__HH__ && (window.__HH__.ready || window.__HH__.error)", undefined, { timeout: 60000 });
+  // The opening story comes first; a visitor reads or skips it. It is captured, then skipped by its button.
+  if (await page.locator(".prologue").isVisible()) {
+    await shot("opening");
+    await leaveOpening(page);
+  }
   await shot("cover");
   const tStart = Date.now();
   await page.locator(".hub button.primary").click();
