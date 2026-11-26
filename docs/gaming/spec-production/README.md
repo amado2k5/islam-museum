@@ -8,6 +8,9 @@ The founder gave this as one archive, `islam-museum-claude-production-handoff.zi
 | [`playtest-evidence-log.md`](playtest-evidence-log.md) | Its log of what it did and saw, run by run |
 | [`corrective-prompts.md`](corrective-prompts.md) | The twelve prompts on their own (the report holds the same text) |
 | [`PRODUCTION_GAME_STANDARDS.md`](PRODUCTION_GAME_STANDARDS.md) | The standards it proposes for a production release, with a regression matrix. The prompts call this file `engineering/gaming/PRODUCTION_GAME_STANDARDS.md`; this is that file |
+| [`owner-decisions-2026-11-26.md`](owner-decisions-2026-11-26.md) | **The founder's decisions of 26 November 2026** on everything below, as they arrived. They govern |
+| [`target-inventory.md`](target-inventory.md) | Every system the three target images show, what exists of it today, and how it is to be met (generated from `target-inventory.json`) |
+| [`production-plan.md`](production-plan.md) | The phased plan: six streams of work, dependencies, estimates and gates (generated from `production-plan.json`) |
 | [`assets/golden-age-target.webp`](assets/golden-age-target.webp) | The founder's target image for The Golden Age (the original PNG, 1672 × 941, SHA-256 `ca303902c4f3…`, is not in git; this is a smaller copy) |
 | [`assets/atlas-target.webp`](assets/atlas-target.webp) | The founder's target image for Atlas (original PNG, 1672 × 941, SHA-256 `c674af76599a…`) |
 
@@ -21,20 +24,23 @@ Granada's target, `granada-v3.jpeg`, was already in [`../spec-granada/assets/`](
 - Two of the author's claims it could **not** confirm by looking: ox-carts moving on both roads, and walkers leaning from foot to foot. They are in the game and too slight to be seen from where a player stands; that is a finding about the game, not about the reviewer.
 - On the city-builder's third chapter it won by trading well and lost by trading and nothing else (2,248 coins, every other goal missed). The author's own table had said "a trading city cannot lose"; that is true of the scripted merchant, who also builds, and is not true of trade alone.
 
+## The target images are binding (founder, 26 November 2026)
+
+The three images, Granada's ([`../spec-granada/assets/granada-v3.jpeg`](../spec-granada/assets/granada-v3.jpeg)), The Golden Age's and Atlas's, are **binding north-star specifications** for composition and visual hierarchy, the density and authored detail of the world, the organization of menus and panels, the gameplay systems that are visible, strategic scope, the activity and atmosphere of the world, and production quality. They are not overlays to be matched pixel for pixel, and no figure in them (a population, a treasury, a year, a distance) is a fact.
+
+- **Adaptations are allowed only for:** layouts that respond, down to 1280 by 800; the keyboard and accessibility; Arabic and Urdu right to left; performance on the supported machines; historical accuracy; and product decisions that are written down.
+- **Every visible system** is implemented as a system that works, replaced by an approved equivalent, or recorded as an exception the founder has approved. **No control is reproduced as decoration**: a marketplace, a production chain, a timeline, a terrain layer, a catalogue, a contract, a research project or a security panel must change the game and the visible world.
+- **The approved equivalents:** in Atlas, the account icon becomes a local profile with settings and accessibility, "Compete" becomes Challenge (personal bests on the device, practice and themed challenges, a result to copy, pass-and-play), and "Political Borders" becomes the borders rule (none in an unanswered round; modern borders after the reveal; an optional hint at a stated cost; historical boundaries only where reviewed). In The Golden Age, the "Military" category becomes Civic Resilience.
+- **Where each system stands:** [`target-inventory.md`](target-inventory.md) lists 58 of them. Three exist today, 29 partly, 26 not at all.
+- **All three games stay marked as prototypes** until their binding requirements and production gates pass. A test in the games' suite fails if a label is taken away while [`release-status.json`](release-status.json) still says prototype, and that file changes only with the founder's approval of the evidence.
+
 ## How it is used
 
-- The twelve prompts are a programme of months, not a change. Each is mapped to the corrective work it belongs to in [`../spec-corrective/plan.json`](../spec-corrective/plan.json) and shown on [`../traceability.md`](../traceability.md), with where it stands.
-- The standards are taken as the reference for what a release must show before the word "prototype" comes off a game. They add no gate to the founder's own ([`../acceptance.json`](../acceptance.json), [`../granada/acceptance.json`](../granada/acceptance.json)); where they ask for more than those do, that is for the founder to adopt.
-- **The target images are read as the founder's direction for composition and scope, not as facts.** Every figure in them (a population, a treasury, a year, a distance) is an illustration. Three things in them are raised with the founder and not built until he says:
-  - The Atlas image shows an account icon and the word "Compete". The games have no accounts and compare no scores; the reviewer's own prompts say to add no accounts; and the founder's specification allows ranked scores only with a service that can vouch for them, which is paid infrastructure and his to approve.
-  - The Atlas image offers "Political Borders". Atlas leaves modern borders out on purpose (the reason is written at the top of `gaming/games/atlas/src/ui/globe.ts`): they put the present day into a question about the past and often give the answer away.
-  - The Golden Age image has a "Military" category of buildings. The game has none and its design asks for none; the reviewer's prompts ask that the museum's games not become games of conquest. This is a question of scope, not a rule broken.
+- The twelve prompts are a programme of months, not a change. Each is mapped to the corrective work it belongs to in [`../spec-corrective/plan.json`](../spec-corrective/plan.json) and shown on [`../traceability.md`](../traceability.md), with where it stands; [`production-plan.md`](production-plan.md) orders the work.
+- The standards are the reference for what a release must show before the word "prototype" comes off a game, together with the founder's own gates ([`../acceptance.json`](../acceptance.json), [`../granada/acceptance.json`](../granada/acceptance.json)) and his decisions of 26 November 2026 on machines, browsers, lengths of play, review of history and people who play.
+- Its regression scenarios are run on every release ([`../regression/matrix.json`](../regression/matrix.json)).
 - A photograph in the Atlas target stands for the image round. Atlas has four museum pictures that qualify for one ([G-0008](../adr/G-0008-atlas-image-rounds.md)).
 
-## The reviewer's five questions for the owner
+## The reviewer's questions, and their answers
 
-1. Are the three images binding for composition and scope, with adaptations for small windows and access allowed?
-2. Campaign lengths: tutorials of 15 to 30 minutes, scenarios of 30 to 60, and one campaign of three hours or more in each of the two simulation games; Atlas a five-round daily game with unlimited practice?
-3. The historical scope and who reviews it, for disasters, diplomacy, conflict, disease, famine, unrest, institutions, dress, buildings, dates and maps.
-4. The reference machines and browsers, and the graphics presets, that the performance gates are held to.
-5. Whether Granada's first-person and photo modes are needed for the first production release or come later.
+The reviewer's five questions for the owner, and three points the developer raised about the images, were all answered by the founder on 26 November 2026: [`owner-decisions-2026-11-26.md`](owner-decisions-2026-11-26.md), summarized on [`../traceability.md`](../traceability.md) with what still needs him.
