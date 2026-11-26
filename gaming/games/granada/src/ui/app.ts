@@ -18,7 +18,7 @@ import type { ValleyLook } from "../view/three-valley";
 import { drawMap, setMapGhost } from "./map";
 import { drawRegion, regionView, type RegionLayer, type RegionView } from "./region";
 import type { Stage } from "./stage";
-import { advice, catalogueRows, decisionRows, effectRows, fieldCards, marketRows, tradeView, questRows, riverOfYear, skyAhead, stocks, workRows, yesterday, type FieldCard, type WorkRow } from "./model";
+import { advice, foodToSpare, seasonFigures, warnings, catalogueRows, decisionRows, effectRows, fieldCards, marketRows, tradeView, questRows, riverOfYear, skyAhead, stocks, workRows, yesterday, type FieldCard, type WorkRow } from "./model";
 
 type Strings = Record<Exclude<keyof typeof en, "_meta">, string>;
 const LANGS = ["ar", "en", "ur", "fr", "es", "tr", "id"] as const;
@@ -525,6 +525,18 @@ async function main(): Promise<void> {
 
   const bar01 = (name: string, pct: number) => h("label", { class: "gauge" }, h("span", {}, `${name} ${num(pct)}%`), h("progress", { max: 100, value: Math.max(0, Math.min(100, pct)) }));
 
+  /** What lies ahead if nothing more is done, soonest first. Every line is the rules' own forecast. */
+  function warningsCard(): Child {
+    const rows = warnings(sc, state);
+    return h(
+      "section",
+      { class: `card${rows.length ? " advice" : ""}`, "data-part": "warnings" },
+      h("h2", {}, t("warn_title")),
+      rows.length === 0 ? h("p", { class: "note" }, t("warn_none")) : h("ul", { class: "plain" }, ...rows.map((w) => h("li", { "data-warn": w.key }, t(w.key, { days: w.days, field: w.field ? fieldName(w.field) : "", have: w.have ?? 0, want: w.want ?? 0 })))),
+      h("p", { class: "note" }, t("warn_note")),
+    );
+  }
+
   /** The region: true positions and distances from the museum's records, and the game's own state laid over them. */
   function regionCard(): Child {
     const v = regionView(sc, state, records as unknown as Parameters<typeof regionView>[2]);
@@ -562,6 +574,7 @@ async function main(): Promise<void> {
           ...(["households", "fields"] as const).map((who) => h("button", { type: "button", class: state.waterFirst === who ? "on" : "", "aria-pressed": String(state.waterFirst === who), id: `water-${who}`, onclick: () => order({ kind: "water-first", who }) }, t(`water_${who}`))),
         ),
       ),
+      warningsCard(),
       regionCard(),
     ];
   }
@@ -618,10 +631,25 @@ async function main(): Promise<void> {
         h("h2", {}, t("sky_title")),
         h("p", { class: "note" }, t("sky_note")),
         h("ol", { class: "sky" }, ...sky.map((d) => h("li", { class: d.rain ? "rain" : "dry", title: t("sky_flow", { n: d.inflow }) }, h("span", { class: "sky-glyph", "aria-hidden": "true" }, d.rain ? "☂" : "☀"), h("span", { class: "visually-hidden" }, `${d.rain ? t("sky_rain") : t("sky_dry")}. `), h("span", { class: "sky-flow" }, num(d.inflow))))),
+        seasonLines(),
         h("h3", {}, t("river_title")),
         h("ul", { class: "river" }, ...river.map((pct, q) => h("li", {}, t("river_pct", { season: t(`season_${q}`), pct })))),
       ),
     ];
+  }
+
+  /** The season in figures: the river against what is wanted today, how the fields fared, the store, and winter. */
+  function seasonLines(): Child {
+    const f = seasonFigures(sc, state);
+    const s = stocks(sc, state);
+    return h(
+      "ul",
+      { class: "plain", "data-part": "season-figures" },
+      h("li", { class: f.inflow < f.wanted ? "why" : "" }, t("season_water", { inflow: f.inflow, wanted: f.wanted })),
+      f.fields !== null && h("li", {}, t("season_fields", { pct: f.fields })),
+      h("li", {}, t("season_food", { days: s.reserveDays })),
+      h("li", {}, f.toWinter > 0 ? t("season_to_winter", { days: f.toWinter }) : t("season_is_winter")),
+    );
   }
 
   function fieldsPanel(): Child[] {
@@ -728,8 +756,9 @@ async function main(): Promise<void> {
 
   function marketPanel(): Child[] {
     const lots = (most: number) => [...new Set([1, 10, 50, most].filter((n) => n > 0 && n <= most))];
+    const spare = foodToSpare(sc, state);
     return [
-      h("section", { class: "card" }, h("h2", {}, t("market_title")), h("p", { class: "note" }, t("market_note")), sc.prices && h("p", { class: "note" }, t("market_note_moving"))),
+      h("section", { class: "card" }, h("h2", {}, t("market_title")), h("p", { class: "note" }, t("market_note")), sc.prices && h("p", { class: "note" }, t("market_note_moving")), h("p", { class: spare === 0 ? "why" : "note", "data-part": "food-to-spare" }, spare === 0 ? t("warn_no_food_to_spare", { goal: sc.goal.reserveDays }) : t("warn_food_to_spare", { n: num(spare), goal: sc.goal.reserveDays }))),
       ...marketRows(sc, state).map((m) =>
         h(
           "section",

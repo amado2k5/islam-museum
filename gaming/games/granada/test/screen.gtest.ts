@@ -9,7 +9,7 @@ import { regionView } from "../src/ui/region";
 import { metresBetween } from "../src/world/geography";
 import { readFileSync } from "node:fs";
 import { resolve } from "node:path";
-import { advice, catalogueRows, stocks as stocksOf, tradeSince, decisionRows, effectRows, skyAhead as skyOf, fieldCards, marketRows, tradeView, questRows, riverOfYear, skyAhead, stocks, workRows } from "../src/ui/model";
+import { advice, foodToSpare, seasonFigures, warnings, catalogueRows, stocks as stocksOf, tradeSince, decisionRows, effectRows, skyAhead as skyOf, fieldCards, marketRows, tradeView, questRows, riverOfYear, skyAhead, stocks, workRows } from "../src/ui/model";
 
 const start = () => newVillage(SC, 7);
 const order = (s: VillageState, ...commands: VillageCommand[]) => {
@@ -86,6 +86,66 @@ describe("the works", () => {
     expect(expand!.now).toEqual({ ok: false, why: "already-under-way" });
     const done = days(s, 2);
     expect(workRows(SC, done)[0]).toMatchObject({ progress: null, built: 1, now: { ok: false, why: "already-done" } });
+  });
+});
+
+describe("what lies ahead", () => {
+  it("warns of what the rules, run forward, will do, and each warning comes true on its day if nothing is done", () => {
+    for (const seed of [3, 7, 11]) {
+      const s0 = newVillage(SC, seed);
+      const said = warnings(SC, s0);
+      expect(said.map((w) => w.key)).toContain("warn_spoil");
+      for (const w of said) {
+        const then = days(s0, w.days);
+        const before = days(s0, w.days - 1);
+        if (w.key === "warn_spoil") {
+          expect(then.last!.events.some((e) => e.startsWith(`spoiled:${w.field}:`)), `seed ${seed} spoil`).toBe(true);
+          expect(before.last?.events.some((e) => e.startsWith(`spoiled:${w.field}:`)) ?? false).toBe(false);
+        } else if (w.key === "warn_hunger") expect([then.last!.eaten < then.last!.foodNeed, (before.last?.eaten ?? 1) < (before.last?.foodNeed ?? 0)], `seed ${seed} hunger`).toEqual([true, false]);
+        else if (w.key === "warn_thirst") expect(then.last!.townWater < then.last!.townNeed, `seed ${seed} thirst`).toBe(true);
+        else if (w.key === "warn_reserve") expect([then.outcome !== null, w.have! < w.want!], `seed ${seed} reserve`).toEqual([true, true]);
+      }
+      // Soonest first.
+      expect(said.map((w) => w.days)).toEqual([...said.map((w) => w.days)].sort((a, b) => a - b));
+    }
+  });
+
+  it("changes when the steward acts, and falls silent when the game is over", () => {
+    const s0 = start();
+    expect(warnings(SC, s0).some((w) => w.key === "warn_spoil" && w.field === "mill-field")).toBe(true);
+    const acted = order(s0, { kind: "harvest", plot: "mill-field", rest: "sell" });
+    expect(warnings(SC, acted).some((w) => w.key === "warn_spoil" && w.field === "mill-field")).toBe(false);
+    const failing = order(s0, { kind: "accept", contract: "oil-for-the-port" });
+    const c = warnings(SC, failing).find((w) => w.key === "warn_contract")!;
+    expect(c).toMatchObject({ have: 0, want: 8 });
+    expect(days(failing, c.days).economy.contracts["oil-for-the-port"]!.state).toBe("failed");
+    expect(days(failing, c.days - 1).economy.contracts["oil-for-the-port"]!.state).toBe("accepted");
+    let done = s0;
+    while (!done.outcome) done = tick(SC, done);
+    expect(warnings(SC, done)).toEqual([]);
+  });
+
+  it("says how much food can be spared, by the store the forecast leaves at winter's end", () => {
+    const s = order(start(), { kind: "harvest", plot: "mill-field", rest: "wait" }, { kind: "repair" }, { kind: "build", what: "granary" });
+    const spare = foodToSpare(SC, s);
+    let end = s;
+    while (!end.outcome) end = tick(SC, end);
+    const need = Math.ceil(end.households / 10);
+    expect(spare).toBe(Math.max(0, (end.economy.stock.wheat?.quantity ?? 0) + (end.economy.stock.vegetables?.quantity ?? 0) - SC.goal.reserveDays * need));
+    // A steward who does nothing has none to spare.
+    expect(foodToSpare(SC, start())).toBe(0);
+  });
+
+  it("gives the season in figures: the river against what is wanted, how the fields fared, and the days to winter", () => {
+    const s0 = start();
+    const f0 = seasonFigures(SC, s0);
+    // Sixty households drink ten; the olives want ten; the wheat is ripe and wants none.
+    expect([f0.wanted, f0.fields, f0.toWinter]).toEqual([s0.last ? f0.wanted : 20, null, 91 - 25]);
+    const s = days(order(s0, { kind: "repair" }), 6);
+    const f = seasonFigures(SC, s);
+    expect(f.fields).toBe(100);
+    expect(seasonFigures(SC, days(s0, 6)).fields).toBe(50);
+    expect(seasonFigures(SC, days(s0, 70)).toWinter).toBe(0);
   });
 });
 
