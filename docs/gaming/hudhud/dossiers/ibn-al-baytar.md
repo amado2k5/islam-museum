@@ -7,6 +7,13 @@
 - `person/ibn-al-baytar`
 - `place/malaga`
 
+## Arabic cross-check
+
+Machine presence/citation check only, not a translation review:
+
+- `person/ibn-al-baytar`: English prose present (3 sections, 7 citations); Arabic prose present (3 sections, 7 citations).
+- `place/malaga`: English prose present (3 sections, 3 citations); Arabic prose present (3 sections, 3 citations).
+
 ## Who, where, when
 
 - **Who:** en: Ibn al-Baytar. Record labels: `person/ibn-al-baytar` en=None, ar='ابن البيطار'; `place/malaga` en='Malaga', ar='مالقة'
@@ -15,15 +22,14 @@
 
 ## What the records say they did
 
-1. Diya' al-Din Abdallah ibn Ahmad al-Malaqi al-Shashshab, known as Ibn al-Baytar, author of *al-Mufradat fi al-Adwiya* (On Simple Medicines). Ibn al-Imad in *Shadharat al-Dhahab* says that knowledge of plants, their properties, their uses and their habitats ended with him, and that he entered the service of al-Kamil and then of his son al-Salih, and was a chief in the lands of Egypt. — source location `content/en/person/ibn-al-baytar.md — Overview`; citation `{cite:shadharat-dhahab p. 234}`; flag: **stated**.
-2. He died in Damascus in Sha'ban 646 AH, according to the same source. — source location `content/en/person/ibn-al-baytar.md — Overview`; citation `{cite:shadharat-dhahab p. 234}`; flag: **stated**.
-3. Mahmut Kaya describes Ibn al-Baytar's religious and transmitted-science education before botany and connects his epithet with his father's veterinary work. Several birth years are proposed; none is adopted here. He learned Andalusian plants, names and habitats with Abu al-Abbas al-Nabati, also called Ibn al-Rumiyya, then worked in Seville's environment and read Dioscorides and Galen. His own documented education… — source location `content/en/person/ibn-al-baytar.md — Education, journeys and service`; citation `{cite:tdv-ibn-baytar-kaya education}`; flag: **stated**.
-4. Kaya describes North African and Anatolian travel, chief-herbalist service under al-Kamil and continued position under al-Salih. Some eastern itineraries remain Leclerc's inference from plant names, not an independently read diary. Ibn Abi Usaybia studied with him in Damascus in 633 AH; Ibn al-Suwaydi was another pupil. He died in Damascus. The older account's Sha'ban 646 date above is preserved, not newly… — source location `content/en/person/ibn-al-baytar.md — Education, journeys and service`; citation `{cite:tdv-ibn-baytar-kaya travel teaching and death}`; flag: **stated**.
-5. The Jami places descriptions, sources and names in alphabetical order and grounds the comparative contribution presented here. Kaya also describes the Dioscorides commentary, the Ibana's criticism of 131 entries in Ibn Jazla, the twenty organ-arranged Mughni chapters, the eighty-chapter Mizan al-tabib and other titles. These are different books, not counts transferable into the Jami . — source location `content/en/person/ibn-al-baytar.md — Works, method and limits`; citation `{cite:tdv-ibn-baytar-kaya works}`; flag: **stated**.
-6. Kaya reports the Jami preface's source-naming and observation/experience policy; the original preface was not read here. Iranica details earlier authors and Persian names while criticizing some interpretations and discussing copyists' mistakes. Listing languages does not establish fluency in all of them, nor does the verification ideal prove modern clinical trials. The biography presents achievement and limits,… — source location `content/en/person/ibn-al-baytar.md — Works, method and limits`; citation `{cite:tdv-mufradat-kaya preface} {cite:iranica-ibn-baytar Persian nomenclature}`; flag: **stated**.
-7. Malaga is a major coastal city in al-Andalus on the Mediterranean, in the district (kura) of Rayya. It was ruled by the Banu Hammud and then by the Nasrids of Granada. — source location `content/en/place/malaga.md — Overview`; citation `{cite:nafh-tib-maqqari p.520-521}`; flag: **stated**.
-8. Al-Maqqari reports that the Christians besieged it by land and sea in the year 892 AH. Its people fought with cannon, horse and foot until provisions ran out. They ate their livestock, horses and donkeys, and sent letters to both shores, but no one came to them. He mentions that they showed no weakness until they were taken captive at the end of Sha'ban. — source location `content/en/place/malaga.md — The siege`; citation `{cite:nafh-tib-maqqari p.520-521}`; flag: **stated**.
-
+1. Ibn al-Imad says that Ibn al-Baytar was the last to have comprehensive knowledge of plants and their uses, and he served under al-Kamil and al-Salih in Egypt. — source location `content/en/person/ibn-al-baytar.md — Overview`; citation `{cite:shadharat-dhahab p. 234}`; flag: **stated**.
+2. Ibn al-Baytar died in Damascus in Sha'ban 646 AH. — source location `content/en/person/ibn-al-baytar.md — Overview`; citation `{cite:shadharat-dhahab p. 234}`; flag: **stated**.
+3. Mahmut Kaya describes Ibn al-Baytar's early education in religious and transmitted sciences, and his later botanical studies with Abu al-Abbas al-Nabati in Seville. — source location `content/en/person/ibn-al-baytar.md — Education, journeys and service`; citation `{cite:tdv-ibn-baytar-kaya education}`; flag: **stated**.
+4. Kaya details Ibn al-Baytar's travels and service as chief herbalist under al-Kamil and al-Salih, noting that some travel itineraries are inferred from plant names. — source location `content/en/person/ibn-al-baytar.md — Education, journeys and service`; citation `{cite:tdv-ibn-baytar-kaya travel teaching and death}`; flag: **stated**.
+5. Kaya describes Ibn al-Baytar's works, including the Jami, which organizes descriptions alphabetically, and other titles like the Dioscorides commentary and the Ibana. — source location `content/en/person/ibn-al-baytar.md — Works, method and limits`; citation `{cite:tdv-ibn-baytar-kaya works}`; flag: **stated**.
+6. Kaya reports the Jami preface's policy on sources and observation, while Iranica notes the biography's achievements and limitations. — source location `content/en/person/ibn-al-baytar.md — Works, method and limits`; citation `{cite:tdv-mufradat-kaya preface} {cite:iranica-ibn-baytar Persian nomenclature}`; flag: **stated**.
+7. Malaga, a coastal city in al-Andalus, was ruled by the Banu Hammud and then the Nasrids of Granada. — source location `content/en/place/malaga.md — Overview`; citation `{cite:nafh-tib-maqqari p.520-521}`; flag: **stated**.
+8. Al-Maqqari reports that Christians besieged Malaga in 892 AH, and its people fought until they ran out of provisions and were captured. — source location `content/en/place/malaga.md — The siege`; citation `{cite:nafh-tib-maqqari p.520-521}`; flag: **stated**.
 ## Thumbnail elements without record support
 
 The atlas title is The Man Who Gathered a Thousand Plants. No record read supports the exact pictured scene, costumes, objects, people, weather, lighting or child-facing drama implied by the thumbnail. Because the source pictures are not available in this checkout, this dossier uses the atlas titles rather than visual inspection; the title itself is not treated as a historical claim. Treat those elements as design fiction unless a reviewer supplies support.
@@ -41,15 +47,15 @@ The atlas title is The Man Who Gathered a Thousand Plants. No record read suppor
 
 These are proposals for Claude and the founder, not content.
 
-1. A local problem asks the player to apply Observe, Match and Route to the documented object, place, text or route, using only the claims above as the factual base.
+1. In the Observe system, players must identify plants and their properties based on Ibn al-Baytar's descriptions [1, 5]. The game invents the scenario where players are Ibn al-Baytar's apprentices learning about plants.
 
-2. Hudhud helps the player compare what the museum record states, what it states uncertainly and what the thumbnail adds, then solve the puzzle through Observe, Match and Route.
+2. Using the Match system, players match Ibn al-Baytar's travels with the plants he documented [3, 4]. The game invents the challenge of matching historical itineraries with fictional plant discoveries.
 
-3. The completed page returns to the Atlas with optional older-reader context, one hidden collectible and replay goals. This is a structural proposal only, not historical content.
+3. In the Route system, players navigate the siege of Malaga, using historical accounts to guide their strategy [7, 8]. The game invents the challenge of managing resources and sending distress signals to allies.
 
 ## Sensitivities
 
-Do not add war, illness, death, slavery, sect or living disputes unless the reviewed record requires them and they are necessary, age-appropriate and non-spectacular. Literary traditions must be labelled as such. Invented dialogue must be explicit dramatized paraphrase, never a false quotation.
+Evidence scan, not a ruling: illness/death; slavery/captivity. Any such material still requires the full content-safety and age-appropriateness review. Do not add war, illness, death, slavery, sect or living disputes unless the reviewed record requires them and they are necessary, age-appropriate and non-spectacular. Literary traditions must be labelled as such. Invented dialogue must be explicit dramatized paraphrase, never a false quotation.
 
 ## Gaps
 

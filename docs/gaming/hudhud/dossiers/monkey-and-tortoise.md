@@ -6,6 +6,12 @@
 
 - `work/kalila-wa-dimna`
 
+## Arabic cross-check
+
+Machine presence/citation check only, not a translation review:
+
+- `work/kalila-wa-dimna`: English prose present (4 sections, 4 citations); Arabic prose present (4 sections, 4 citations).
+
 ## Who, where, when
 
 - **Who:** en: Kalila wa Dimna. Record labels: `work/kalila-wa-dimna` en='Kalila wa-Dimna', ar='كليلة ودمنة'
@@ -14,14 +20,13 @@
 
 ## What the records say they did
 
-1. A book of tales and fables from India, in seventeen chapters, though some say thirteen. It was translated into Arabic and commented on by Abdullah ibn al-Muqaffa and others. — source location `content/en/work/kalila-wa-dimna.md — Overview`; citation `{cite:fihrist-ibn-al-nadim p.423-424}`; flag: **stated**.
-2. Ibn al-Nadim reports that opinions differ about it. Some said that it was made by the Indians; some said it was made by the kings of Ashghaniyya and that its doctrine is Indian; and some said it was made by the Persians and that its doctrine is Indian. Others said that it was composed by the sage Barzawayh. — source location `content/en/work/kalila-wa-dimna.md — Disagreement about its origin`; citation `{cite:fihrist-ibn-al-nadim p.423-424}`; flag: **stated**.
-3. Abban ibn Abd al-Hamid al-Raqqashi, Ali ibn Dawud, secretary to Zubayda, and Ishaq ibn al-Mu'tadid rendered it into verse. Ibn al-Nadim saw in one copy two added chapters. Ibn al-Muqaffa, Sahl ibn Harun, Sahl, the keeper of the House of Wisdom, and al-Mard al-Aswad, whom al-Mutawakkil summoned from Persia, made collections and extracts from it. — source location `content/en/work/kalila-wa-dimna.md — Its versions in verse and its abridgements`; citation `{cite:fihrist-ibn-al-nadim p.423-424}`; flag: **stated**.
-4. The Oxford Dictionary of Islam describes Kalila wa Dimna as an allegory that began in India and is told by two jackals; its stories aim to steer people toward ethical and moral behaviour in matters from bringing up children to making policy. The Pahlavi manuscript it came from was rendered into Arabic, the entry says, by Ibn al-Muqaffa (died 759). — source location `content/en/work/kalila-wa-dimna.md — In The Oxford Dictionary of Islam`; citation `{cite:oxford-dictionary-of-islam e1231}`; flag: **stated**.
-
+1. A book of tales and fables from India exists in seventeen chapters, though some claim thirteen. — source location `content/en/work/kalila-wa-dimna.md — Overview`; citation `{cite:fihrist-ibn-al-nadim p.423-424}`; flag: **stated**.
+2. Ibn al-Nadim reports differing opinions on the book's origin, with some attributing it to Indians, others to kings of Ashghaniyya, and some to Persians, all agreeing on Indian doctrine. — source location `content/en/work/kalila-wa-dimna.md — Disagreement about its origin`; citation `{cite:fihrist-ibn-al-nadim p.423-424}`; flag: **stated**.
+3. Abban ibn Abd al-Hamid al-Raqqashi, Ali ibn Dawud, and Ishaq ibn al-Mu'tadid translated the book into verse, with Ibn al-Nadim noting two additional chapters in one copy. — source location `content/en/work/kalila-wa-dimna.md — Its versions in verse and its abridgements`; citation `{cite:fihrist-ibn-al-nadim p.423-424}`; flag: **stated**.
+4. The Oxford Dictionary of Islam describes Kalila wa Dimna as an Indian-origin allegory told by two jackals, aiming to guide ethical behavior, translated into Arabic by Ibn al-Muqaffa. — source location `content/en/work/kalila-wa-dimna.md — In The Oxford Dictionary of Islam`; citation `{cite:oxford-dictionary-of-islam e1231}`; flag: **stated**.
 ## Thumbnail elements without record support
 
-The atlas title is The Monkey and the Tortoise. No record read supports the exact pictured scene, costumes, objects, people, weather, lighting or child-facing drama implied by the thumbnail. Because the source pictures are not available in this checkout, this dossier uses the atlas titles rather than visual inspection; the title itself is not treated as a historical claim; additionally, this is joined to `work/kalila-wa-dimna` and must be labelled story tradition, not animal history.. Treat those elements as design fiction unless a reviewer supplies support.
+The atlas title is The Monkey and the Tortoise. No record read supports the exact pictured scene, costumes, objects, people, weather, lighting or child-facing drama implied by the thumbnail. Because the source pictures are not available in this checkout, this dossier uses the atlas titles rather than visual inspection; the title itself is not treated as a historical claim; additionally, this is joined to `work/kalila-wa-dimna` and must be labelled story tradition, not animal history. Treat those elements as design fiction unless a reviewer supplies support.
 
 ## Setting
 
@@ -35,15 +40,15 @@ No secure place with coordinates is attached in the museum records read. This is
 
 These are proposals for Claude and the founder, not content.
 
-1. A local problem asks the player to apply Observe, Match and Route to the documented object, place, text or route, using only the claims above as the factual base.
+1. Players must Observe the differences in the number of chapters across various translations to uncover the truth behind the book's original form [1,3].
 
-2. Hudhud helps the player compare what the museum record states, what it states uncertainly and what the thumbnail adds, then solve the puzzle through Observe, Match and Route.
+2. In a quest, players Match the various claims about the book's origin to the correct historical figures, distinguishing between historical evidence and the game's narrative inventions [2].
 
-3. The completed page returns to the Atlas with optional older-reader context, one hidden collectible and replay goals. This is a structural proposal only, not historical content.
+3. Players Route through different versions of the book, collecting evidence from various translators and commentators to piece together the story's true origins [3,4].
 
 ## Sensitivities
 
-Do not add war, illness, death, slavery, sect or living disputes unless the reviewed record requires them and they are necessary, age-appropriate and non-spectacular. Literary traditions must be labelled as such. Invented dialogue must be explicit dramatized paraphrase, never a false quotation.
+Evidence scan, not a ruling: illness/death. Any such material still requires the full content-safety and age-appropriateness review. Do not add war, illness, death, slavery, sect or living disputes unless the reviewed record requires them and they are necessary, age-appropriate and non-spectacular. Literary traditions must be labelled as such. Invented dialogue must be explicit dramatized paraphrase, never a false quotation.
 
 ## Gaps
 
