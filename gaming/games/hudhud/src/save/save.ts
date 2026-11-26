@@ -161,9 +161,11 @@ export function recordQuest(slot: Slot, id: string, r: { turns: number; curiosit
 /**
  * What this page holds, joined with what is in storage now. Another tab of the game may have saved since this one
  * read: its finished quests are kept, each at the best of the two, so that one tab never undoes another's progress.
- * Settings, the Storykeeper and the slot in use are this page's own.
+ * Settings, the Storykeeper and the slot in use are this page's own. A quest left in the middle is this page's
+ * only when this page has just changed it (`ownsResume`): otherwise the stored one stands, so that changing a
+ * setting in an old tab cannot put back an older place over a newer one.
  */
-export function mergeSaves(mine: SaveFile, stored: SaveFile): SaveFile {
+export function mergeSaves(mine: SaveFile, stored: SaveFile, ownsResume = false): SaveFile {
   return {
     ...mine,
     slots: mine.slots.map((slot, i) => {
@@ -177,7 +179,7 @@ export function mergeSaves(mine: SaveFile, stored: SaveFile): SaveFile {
         merged = had ? recordQuest(merged, id, { turns: q.bestTurns ?? had.bestTurns ?? 0, curiosity: q.curiosity, ingenuity: q.ingenuity, kindness: q.kindness, feather: q.feather }) : { ...merged, quests: { ...merged.quests, [id]: q } };
         if (had && had.bestTurns === null && q.bestTurns === null) merged.quests[id]!.bestTurns = null;
       }
-      return merged;
+      return { ...merged, resume: ownsResume && i === mine.slot ? slot.resume : other.resume };
     }),
   };
 }
@@ -207,12 +209,12 @@ export function load(storage: Storage | null): ReadResult & { stored: boolean } 
   return { ...r, stored: r.kind !== "newer" };
 }
 /** Writes, and reports whether it could. A newer game's save is never written over: pass `allowed` from load(). */
-export function store(storage: Storage | null, s: SaveFile, allowed: boolean): boolean {
+export function store(storage: Storage | null, s: SaveFile, allowed: boolean, ownsResume = false): boolean {
   if (!storage || !allowed) return false;
   try {
     // Read what is there first: another tab may have finished a quest since this page loaded.
     const now = readSave(storage.getItem(SAVE_KEY));
-    storage.setItem(SAVE_KEY, writeSave(now.kind === "ok" ? mergeSaves(s, now.save) : s));
+    storage.setItem(SAVE_KEY, writeSave(now.kind === "ok" ? mergeSaves(s, now.save, ownsResume) : s));
     return true;
   } catch {
     return false;

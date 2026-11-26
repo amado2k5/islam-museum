@@ -41,7 +41,7 @@ _26 November 2026. A matrix of the instruction's sections 6 and 9 against the go
 
 | | State |
 |---|---|
-| Seven languages, same keys, same order, same placeholders | **done**: `npm --prefix gaming run strings` (179 strings), plus a test of every script against every table |
+| Seven languages, same keys, same order, same placeholders | **done**: `npm --prefix gaming run strings` (190 strings and 60 names), plus a test of every script against every table |
 | Right to left | **done**: Arabic and Urdu mirror the page; the picture, the beam and the arrow buttons are not mirrored. Captured in both |
 | No honorific typed; no bare parenthesis round Arabic script | **done**: the string check; the Arabic and Urdu tables use no parentheses at all |
 | Truncation at 1280×800 and narrow | **looked at, not exhaustive**: captures in ar, ur and id show no cut text in the talk, the goal or the buttons; the settings sheet was not captured in every language |

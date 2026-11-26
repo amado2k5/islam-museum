@@ -48,6 +48,18 @@ a { color: #ffd98a; }
 .cover p { margin: 0; max-width: 44ch; color: var(--ivory); }
 .cover .primary { font-size: 1.25rem; padding: 12px 40px; }
 
+.hub { padding: 6px 4px 20px; }
+.hub > h2 { margin: 6px 0 2px; text-align: center; font-size: clamp(1.5rem, 3.4vw, 2.4rem); color: var(--gold); }
+.hub > p { text-align: center; margin: 6px auto; max-width: 70ch; }
+.hub .progress { font-weight: 700; }
+.worlds { display: grid; gap: 14px; grid-template-columns: repeat(auto-fit, minmax(270px, 1fr)); margin-block: 16px; }
+.world { padding: 12px 16px; background: var(--panel); border: 1px solid var(--line); border-radius: 14px; }
+.world h3 { margin: 0 0 8px; font-size: 1rem; color: var(--gold); }
+.world ol { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; }
+.world li { display: grid; gap: 2px; }
+.world li.closed { color: var(--muted); padding: 6px 10px; border: 1px dashed var(--line); border-radius: 10px; }
+.world li small { font-size: 0.8rem; color: var(--muted); }
+.world li.open button { text-align: start; }
 .choose { border: 0; padding: 0; margin: 0; display: flex; gap: 16px; justify-content: center; flex-wrap: wrap; }
 .choose legend { width: 100%; text-align: center; padding-block-end: 8px; color: var(--ivory); font-weight: 700; }
 .choose button { display: grid; justify-items: center; gap: 6px; padding: 10px 16px; background: rgba(10, 26, 54, 0.6); }

@@ -24,7 +24,7 @@
     "golden-age:shot": "tsx tools/golden-age-shot.ts",
     "golden-age:links": "tsx --tsconfig tsconfig.json games/golden-age/tools/build-links.ts",
     "music:import": "tsx tools/music-import.ts",
-    "strings": "python3 tools/check-strings.py games/granada/i18n games/atlas/i18n games/golden-age/i18n games/hudhud/i18n packages/audio/i18n",
+    "strings": "python3 tools/check-strings.py games/granada/i18n games/atlas/i18n games/golden-age/i18n games/hudhud/i18n games/hudhud/i18n-atlas packages/audio/i18n",
     "granada:records": "tsx --tsconfig tsconfig.json games/granada/tools/build-records.ts",
     "granada:mutations": "python3 games/granada/tools/mutate-economy.py",
     "build:release": "tsx --tsconfig tsconfig.json tools/build.ts",

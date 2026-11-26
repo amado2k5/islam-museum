@@ -12,6 +12,7 @@ import { choicesOf, lineOf } from "../narrative/dialogue";
 import { ACTIONS, DEFAULT_KEYS, assignKey, current, load, recordQuest, store, type Action, type Quality, type SaveFile, type Settings } from "../save/save";
 import { apply, beam, goals, newScene, restore, snapshot, type Command, type Happened, type SceneState } from "../sim/scene";
 import type { SceneHost } from "../scenes/workshop";
+import atlas from "../content/atlas.v1.json";
 import en from "../../i18n/en.json";
 
 type Strings = Record<Exclude<keyof typeof en, "_meta">, string>;
@@ -39,6 +40,9 @@ const el = <K extends keyof HTMLElementTagNameMap>(tag: K, props: Props<K> = {},
 
 async function main(): Promise<void> {
   const strings = (await import(`../../i18n/${lang}.json`)).default as Strings;
+  // The names of the ten worlds and the fifty subjects: a table of their own, the same keys in all seven languages.
+  const atlasNames = (await import(`../../i18n-atlas/${lang}.json`)).default as Record<string, string>;
+  const subjectName = (id: string): string => atlasNames[`s_${id.replace(/-/g, "_")}`] ?? id;
   const t = (key: Key, vars: Record<string, string | number> = {}): string => strings[key].replace(/\{(\w+)\}/g, (_, k: string) => String(vars[k] ?? ""));
   const num = (n: number) => new Intl.NumberFormat(lang === "ar" ? "ar-EG" : lang === "ur" ? "ur-PK" : lang).format(n);
   document.documentElement.lang = lang;
@@ -59,8 +63,9 @@ async function main(): Promise<void> {
   const mayStore = loaded.stored;
   const slot = () => current(save);
   const settings = (): Settings => slot().settings;
-  const keep = () => {
-    const ok = store(storage, save, mayStore);
+  /** Saves. `ownsResume` is true only when this page has just changed the quest in progress (see mergeSaves). */
+  const keep = (ownsResume = false) => {
+    const ok = store(storage, save, mayStore, ownsResume);
     if (ok) {
       // store() joined in whatever another tab had saved; hold the same here.
       const now = load(storage);
@@ -94,13 +99,14 @@ async function main(): Promise<void> {
   live.setAttribute("aria-live", "polite");
   const pauseBtn = el("button", { type: "button", textContent: t("btn_pause"), onclick: () => togglePause() });
   const settingsBtn = el("button", { type: "button", textContent: t("btn_settings"), onclick: () => openSettings() });
+  const atlasBtn = el("button", { type: "button", textContent: t("btn_atlas"), hidden: true, onclick: () => toAtlas() });
   // Full screen takes the whole page, so that the sheets (settings, pause, results) come with it. Where the browser
   // has no full screen for a page (an iPhone), the button is not shown.
   const canFull = typeof document.documentElement.requestFullscreen === "function";
   const fullBtn = el("button", { type: "button", textContent: t("btn_full"), hidden: !canFull, onclick: () => void (document.fullscreenElement ? document.exitFullscreen() : app.requestFullscreen().catch(() => undefined)) });
   document.addEventListener("fullscreenchange", () => (fullBtn.textContent = t(document.fullscreenElement ? "btn_full_exit" : "btn_full")));
   const musicBox = el("div", { class: "music-corner" });
-  const bar = el("header", { class: "bar" }, el("h1", { textContent: t("title") }), el("span", { class: "chip", textContent: t("working_title") }), el("span", { class: "chip proto", textContent: t("prototype") }), el("span", { class: "grow" }), musicBox, fullBtn, pauseBtn, settingsBtn);
+  const bar = el("header", { class: "bar" }, el("h1", { textContent: t("title") }), el("span", { class: "chip", textContent: t("working_title") }), el("span", { class: "chip proto", textContent: t("prototype") }), el("span", { class: "grow" }), musicBox, atlasBtn, fullBtn, pauseBtn, settingsBtn);
 
   const canvasBox = el("div", { class: "canvas-box" });
   const objective = el("div", { class: "objective" });
@@ -119,10 +125,10 @@ async function main(): Promise<void> {
   const pad = el("div", { class: "pad" }, el("div", {}, bLeft, bRight), el("div", {}, bTouch, bFly));
   const talkBox = el("div", { class: "talk", hidden: true });
   talkBox.setAttribute("role", "group");
-  const cover = el("div", { class: "cover" });
-  const stage = el("div", { class: "stage", id: "stage", tabIndex: 0 }, canvasBox, captions, prompt, pad, cover);
+  const stage = el("div", { class: "stage", id: "stage", tabIndex: 0 }, canvasBox, captions, prompt, pad);
   // The goal and the talk sit over the picture on a wide screen and beside it on a narrow one (ui/hudhud.css).
-  const stageWrap = el("div", { class: "stage-wrap" }, objective, stage, talkBox);
+  const stageWrap = el("div", { class: "stage-wrap", hidden: true }, objective, stage, talkBox);
+  const hub = el("section", { class: "hub" });
   stage.setAttribute("role", "application");
   stage.setAttribute("aria-label", t("canvas_label"));
 
@@ -144,7 +150,9 @@ async function main(): Promise<void> {
     el("p", {}, el("a", { href: `${MUSEUM}/${lang}/`, textContent: t("museum") })),
   );
   const sheets = el("div", {});
-  app.append(bar, stageWrap, el("div", { class: "words" }, words, about), live, sheets);
+  const wordsBox = el("div", { class: "words" }, words, about);
+  words.hidden = true;
+  app.append(bar, hub, stageWrap, wordsBox, live, sheets);
 
   let toastTimer = 0;
   const toast = (text: string) => {
@@ -177,14 +185,20 @@ async function main(): Promise<void> {
 
   // ---------------------------------------------------------------------------------------- the game
   // A quest left in the middle comes back as it was, if what was saved can be trusted and is for this way of playing.
-  const saved = slot().resume?.quest === QUEST ? restore(slot().resume!.snap) : null;
-  let resumed = saved !== null && saved.style === style();
-  let state: SceneState = resumed ? saved! : newScene(style());
+  let resumed = false;
+  let state: SceneState = newScene(style());
+  /** Takes the quest from the slot in use: its saved place if there is one that can be trusted, or a fresh start. */
+  const fromSlot = () => {
+    const saved = slot().resume?.quest === QUEST ? restore(slot().resume!.snap) : null;
+    resumed = saved !== null && saved.style === style();
+    state = resumed ? saved! : newScene(style());
+  };
+  fromSlot();
   const checkpoint = () => {
     const resume = state.done || (state.turns === 0 && state.flags.length === 0 && !state.dark) ? null : { quest: QUEST, snap: snapshot(state) as unknown };
     if (JSON.stringify(slot().resume) === JSON.stringify(resume)) return;
     save = { ...save, slots: save.slots.map((x, i) => (i === save.slot && x ? { ...x, resume } : x)) };
-    keep();
+    keep(true);
   };
   let running: Running | null = null;
   let paused = false;
@@ -219,8 +233,9 @@ async function main(): Promise<void> {
     state = r.state;
     for (const h of r.happened) react(h);
     running?.scene()?.happened(r.happened);
-    // Kept whenever the player has control again, so that a closed tab loses nothing.
-    if (!state.talk) checkpoint();
+    // Kept after every step, also in the middle of a talk (which is not itself kept), so that a closed tab loses
+    // nothing: not even the last mirror, turned a moment before the words of praise.
+    checkpoint();
     render();
   }
   function react(h: Happened): void {
@@ -423,10 +438,16 @@ async function main(): Promise<void> {
       el("h3", { textContent: t("set_slot") }),
       field(t("set_slot"), select(save.slots.map((_, i) => [i, t("slot_n", { n: num(i + 1) })] as [number, string]), save.slot, (v) => {
         const i = Number(v);
-        save = { ...save, slot: i, slots: save.slots.map((x, j) => (j === i && !x ? structuredClone(save.slots[save.slot]!) : x)).map((x, j) => (j === i && x ? { ...x, quests: save.slots[i]?.quests ?? {} } : x)) };
+        // A slot never used starts with this one's settings and explorer, and nothing done. Changing slot changes
+        // no quest: each slot's place in its quest is left exactly as it was and is taken up again.
+        save = { ...save, slot: i, slots: save.slots.map((x, j) => (j === i && !x ? { ...structuredClone(save.slots[save.slot]!), quests: {}, resume: null } : x)) };
         keep();
         applyLook();
-        restart(true);
+        fromSlot();
+        log.length = 0;
+        redraw();
+        if (!started) drawHub();
+        render();
       }), t("privacy")),
     );
   }
@@ -456,7 +477,7 @@ async function main(): Promise<void> {
   function finish(): void {
     const g = goals(state);
     save = { ...save, slots: save.slots.map((s, i) => (i === save.slot && s ? { ...recordQuest(s, QUEST, g), resume: null } : s)) };
-    keep();
+    keep(true);
     const slack = TURN_SLACK[state.style];
     const goal = (mark: string, name: Key, how: string, met: boolean) => el("li", {}, el("span", { class: "mark", textContent: mark }), el("span", {}, el("strong", { textContent: t(name) }), el("br", {}), el("span", { class: "small", textContent: how })), el("span", { class: met ? "met" : "open", textContent: t(met ? "goal_met" : "goal_open") }));
     const names: Key[] = ["rec_person", "rec_darkroom", "rec_book"];
@@ -482,7 +503,7 @@ async function main(): Promise<void> {
         el("p", { class: "pending", textContent: t("review_note") }),
         ...RECORDS.map((id, i) => el("p", {}, el("a", { href: `${MUSEUM}/${lang}/${id}/`, textContent: t("note_link", { name: t(names[i]!) }) }))),
       ),
-      el("p", {}, el("button", { type: "button", textContent: t("play_again"), onclick: () => ((node as unknown as { close: () => void }).close(), restart(false)) })),
+      el("p", { class: "row" }, el("button", { type: "button", textContent: t("btn_atlas"), onclick: () => ((node as unknown as { close: () => void }).close(), toAtlas()) }), el("button", { type: "button", textContent: t("play_again"), onclick: () => ((node as unknown as { close: () => void }).close(), restart(false)) })),
     );
   }
 
@@ -555,16 +576,42 @@ async function main(): Promise<void> {
   });
 
   applyLook();
-  const play = el("button", { type: "button", class: "primary", textContent: t(resumed ? "continue" : "start") });
-  play.onclick = () => {
+  // ---------------------------------------------------------------------------------------- the Atlas
+  // The first thing a player sees: who they are, and the Atlas itself, ten worlds of five pages. One quest can be
+  // played; the others are named and said to be not built. Nothing here is a claim about history: the names are
+  // the subjects' names and the grouping is a structure for play.
+  const BUILT: Record<string, string> = { "ibn-al-haytham": QUEST };
+  function startQuest(): void {
     cues.unlock();
     started = true;
-    cover.remove();
+    hub.hidden = true;
+    stageWrap.hidden = false;
+    words.hidden = false;
+    atlasBtn.hidden = false;
     running = begin();
     stage.focus({ preventScroll: true });
     render();
-  };
-  // Before anything else, the player chooses who they are: a girl or a boy, a young explorer of the museum.
+  }
+  /** Leaves the quest for the Atlas. A quest in the middle stays saved; a finished one is cleared for another play. */
+  function toAtlas(): void {
+    if (paused) ((paused = false), cues.hush(false));
+    sheets.replaceChildren();
+    sheetOpen = false;
+    running?.stop();
+    running = null;
+    canvasBox.replaceChildren();
+    started = false;
+    if (state.done) state = newScene(style());
+    resumed = slot().resume?.quest === QUEST;
+    stageWrap.hidden = true;
+    words.hidden = true;
+    atlasBtn.hidden = true;
+    hub.hidden = false;
+    drawHub();
+    render();
+    (hub.querySelector("button.primary") as HTMLElement | null)?.focus({ preventScroll: true });
+  }
+  // The player chooses who they are: a girl or a boy, a young explorer of the museum.
   const choose = el("fieldset", { class: "choose" }, el("legend", { textContent: t("cover_choose") }));
   const explorerButtons: HTMLButtonElement[] = [];
   const drawChoices = () => {
@@ -583,13 +630,38 @@ async function main(): Promise<void> {
     explorerButtons.push(b);
     choose.append(b);
   }
-  drawChoices();
-  cover.append(el("h2", { textContent: t("subtitle") }), choose, el("p", { class: "small", textContent: t("cover_more") }), el("p", { textContent: t("start_hint") }), play);
-  if (resumed) {
-    const again = el("button", { type: "button", textContent: t("btn_restart"), onclick: () => (restart(false), (play.textContent = t("start")), again.remove(), note.remove()) });
-    const note = el("p", { class: "small", textContent: t("resume_note") });
-    cover.append(note, again);
+  function drawHub(): void {
+    drawChoices();
+    const quests = slot().quests;
+    const home = Object.values(quests).filter((q) => q.done).length;
+    const worlds = atlas.worlds.map((w) => {
+      const items = atlas.subjects
+        .filter((sub) => sub.world === w.id)
+        .map((sub) => {
+          const name = subjectName(sub.id);
+          const quest = BUILT[sub.id];
+          const story = sub.kind === "literature" ? el("small", { textContent: t("quest_story") }) : null;
+          if (!quest) return el("li", { class: "closed" }, el("span", { textContent: name }), story, el("small", { textContent: t("quest_closed") }));
+          const rec = quests[quest];
+          const label: Key = resumed ? "quest_continue" : rec?.done ? "quest_again" : "quest_play";
+          const li = el("li", { class: "open" }, el("button", { type: "button", class: "primary", textContent: t(label, { name }), onclick: () => startQuest() }), story);
+          if (rec?.done) li.append(el("small", { textContent: t("quest_home", { n: num([rec.curiosity, rec.ingenuity, rec.kindness, rec.feather].filter(Boolean).length) }) }));
+          if (resumed) li.append(el("small", { textContent: t("resume_note") }), el("button", { type: "button", textContent: t("btn_restart"), onclick: () => (restart(false), drawHub()) }));
+          return li;
+        });
+      return el("section", { class: "world" }, el("h3", { textContent: t("hub_world", { n: num(w.order), name: atlasNames[`world_${w.order}`] ?? w.name }) }), el("ol", {}, ...items));
+    });
+    hub.replaceChildren(
+      el("h2", { textContent: t("hub_title") }),
+      el("p", { class: "progress", textContent: t("hub_progress", { n: num(home), total: num(atlas.subjects.length) }) }),
+      choose,
+      el("p", { class: "small", textContent: t("cover_more") }),
+      el("p", { class: "small", textContent: t("start_hint") }),
+      el("div", { class: "worlds" }, ...worlds),
+      el("p", { class: "small", textContent: t("hub_note") }),
+    );
   }
+  drawHub();
   render();
 
   Object.assign(hook, {
@@ -607,10 +679,11 @@ async function main(): Promise<void> {
     restart: (rebuild: boolean) => restart(rebuild),
     redraw: () => redraw(),
     started: () => started,
+    toAtlas: () => toAtlas(),
     resumed: () => resumed,
     keys: () => settings().keys,
   });
-  if (query.get("autostart") === "1") play.click();
+  if (query.get("autostart") === "1") startQuest();
 }
 
 main().catch((e) => {

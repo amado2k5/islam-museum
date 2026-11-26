@@ -21,7 +21,7 @@ const open = async (ctx: BrowserContext, query: string): Promise<Page> => {
   return page;
 };
 const playing = async (page: Page) => {
-  await page.locator(".cover button.primary").click();
+  await page.locator(".hub button.primary").click();
   await page.waitForFunction("window.__HH__.where() !== null", undefined, { timeout: 30000 });
 };
 const ev = <T>(page: Page, js: string) => page.evaluate(js) as Promise<T>;
@@ -35,11 +35,11 @@ const ev = <T>(page: Page, js: string) => page.evaluate(js) as Promise<T>;
   const left = await ev<{ leans: unknown; turns: number; flags: string[]; dark: boolean }>(page, "(() => { const s = window.__HH__.state(); return { leans: s.puzzle.mirrors.map((m) => m.lean), turns: s.turns, flags: s.flags, dark: s.dark }; })()");
   await page.close();
   page = await open(ctx, "");
-  const cover = await ev<{ resumed: boolean; button: string; again: number }>(page, "({ resumed: window.__HH__.resumed(), button: document.querySelector('.cover button.primary').textContent, again: document.querySelectorAll('.cover button').length })");
+  const cover = await ev<{ resumed: boolean; button: string; again: number }>(page, "({ resumed: window.__HH__.resumed(), button: document.querySelector('.hub button.primary').textContent, again: document.querySelectorAll('.hub li.open button').length })");
   await playing(page);
   const back = await ev<typeof left & { talk: unknown }>(page, "(() => { const s = window.__HH__.state(); return { leans: s.puzzle.mirrors.map((m) => m.lean), turns: s.turns, flags: s.flags, dark: s.dark, talk: s.talk }; })()");
   if (outDir) (mkdirSync(outDir, { recursive: true }), await page.screenshot({ path: resolve(outDir, "resumed.png") }));
-  record("a quest left in the middle comes back", cover.resumed && cover.button === "Continue" && JSON.stringify({ ...back, talk: undefined }) === JSON.stringify({ ...left, talk: undefined }) && back.talk === null, { left, cover, back });
+  record("a quest left in the middle comes back", cover.resumed && cover.button.startsWith("Continue: ") && JSON.stringify({ ...back, talk: undefined }) === JSON.stringify({ ...left, talk: undefined }) && back.talk === null, { left, cover, back });
   // Finishing clears it: the next visit starts fresh.
   await ev(page, "for (const id of ['mirror-c','mirror-e']) { window.__HH__.touch(id); } window.__HH__.command({type:'skip'}); window.__HH__.touch('page');");
   await page.close();
@@ -92,7 +92,7 @@ const ev = <T>(page: Page, js: string) => page.evaluate(js) as Promise<T>;
   const ctx = await browser.newContext({ viewport: { width: 1280, height: 800 } });
   await ctx.addInitScript("const g = HTMLCanvasElement.prototype.getContext; HTMLCanvasElement.prototype.getContext = function (t, ...a) { return /webgl/.test(t) ? null : g.call(this, t, ...a); };");
   const page = await open(ctx, "&fresh=1");
-  await page.locator(".cover button.primary").click();
+  await page.locator(".hub button.primary").click();
   await page.waitForTimeout(1500);
   const told = await ev<{ scene: unknown; toast: string | null }>(page, "({ scene: window.__HH__.where(), toast: document.querySelector('.toast') ? document.querySelector('.toast').textContent : null })");
   const skipTalk = async () => {
@@ -112,6 +112,51 @@ const ev = <T>(page: Page, js: string) => page.evaluate(js) as Promise<T>;
   const end = await ev<{ done: boolean; results: string | null }>(page, "({ done: window.__HH__.state().done, results: document.querySelector('.sheet h2') ? document.querySelector('.sheet h2').textContent : null })");
   if (outDir) await page.screenshot({ path: resolve(outDir, "finished-in-words-without-webgl.png") });
   record("without WebGL the quest is finished in words", told.scene === null && !!told.toast && end.done && end.results === "The page is home", { told, end });
+  await ctx.close();
+}
+// 4b. Close the page while the words of praise are still on screen: the last mirror is not lost.
+{
+  const ctx = await browser.newContext({ viewport: { width: 1280, height: 800 } });
+  let page = await open(ctx, "");
+  await playing(page);
+  await ev(page, "window.__HH__.command({type:'skip'}); for (const id of ['mirror-a','mirror-c','mirror-e']) window.__HH__.touch(id);");
+  const talking = await ev<boolean>(page, "window.__HH__.state().talk !== null");
+  await page.close();
+  page = await open(ctx, "");
+  await playing(page);
+  const back = await ev<{ restored: boolean; turns: number; lit: boolean }>(page, "({ restored: window.__HH__.state().restored, turns: window.__HH__.state().turns, lit: window.__HH__.beam().lit })");
+  record("a page closed in the middle of a talk keeps the last step", talking && back.restored && back.turns === 3 && back.lit, { talking, back });
+  // 4c. Another save slot has its own place, and coming back to the first finds its place untouched.
+  await page.getByRole("button", { name: "Settings" }).click();
+  await page.locator(".sheet select").last().selectOption("1");
+  await page.waitForTimeout(900);
+  const second = await ev<{ turns: number; restored: boolean }>(page, "({ turns: window.__HH__.state().turns, restored: window.__HH__.state().restored })");
+  await page.locator(".sheet select").last().selectOption("0");
+  await page.waitForTimeout(900);
+  const first = await ev<{ turns: number; restored: boolean }>(page, "({ turns: window.__HH__.state().turns, restored: window.__HH__.state().restored })");
+  record("each save slot keeps its own place", second.turns === 0 && !second.restored && first.turns === 3 && first.restored, { second, first });
+  await ctx.close();
+}
+// 5. The Atlas: fifty named pages in ten worlds, one of them open; play it, come back, and find its page home.
+for (const lang of ["en", "ar"]) {
+  const ctx = await browser.newContext({ viewport: { width: 1280, height: 900 } });
+  const page = await ctx.newPage();
+  page.on("pageerror", (e) => errors.push(String(e)));
+  await page.goto(`${served.base}/games/hudhud/index.html?lang=${lang}&music=off`);
+  await page.waitForFunction("window.__HH__ && window.__HH__.ready");
+  const before = await ev<{ worlds: number; pages: number; open: number; progress: string; stageHidden: boolean }>(page, "({ worlds: document.querySelectorAll('.hub .world').length, pages: document.querySelectorAll('.hub .world li').length, open: document.querySelectorAll('.hub .world li.open').length, progress: document.querySelector('.hub .progress').textContent, stageHidden: document.querySelector('.stage-wrap').hidden })");
+  if (outDir) await page.screenshot({ path: resolve(outDir, `atlas-${lang}.png`), fullPage: true });
+  await playing(page);
+  await ev(page, "window.__HH__.command({type:'skip'}); for (const id of ['mirror-a','mirror-c','mirror-e']) window.__HH__.touch(id); window.__HH__.command({type:'skip'}); window.__HH__.touch('page');");
+  await page.waitForTimeout(300);
+  await page.locator(".sheet button").first().click(); // "Back to the Atlas" is the first button of the results
+  await page.waitForTimeout(400);
+  const after = await ev<{ progress: string; button: string; hubShown: boolean; canvases: number; started: boolean }>(page, "({ progress: document.querySelector('.hub .progress').textContent, button: document.querySelector('.hub button.primary').textContent, hubShown: !document.querySelector('.hub').hidden, canvases: document.querySelectorAll('#stage canvas').length, started: window.__HH__.started() })");
+  if (outDir) await page.screenshot({ path: resolve(outDir, `atlas-${lang}-one-page-home.png`), fullPage: true });
+  // And the quest can be entered again from there.
+  await playing(page);
+  const again = await ev<{ turns: number; done: boolean }>(page, "({ turns: window.__HH__.state().turns, done: window.__HH__.state().done })");
+  record(`the Atlas shows ten worlds and fifty pages, and one comes home (${lang})`, before.worlds === 10 && before.pages === 50 && before.open === 1 && before.stageHidden && /\D0\D|٠/.test(` ${before.progress} `) && /\D1\D|١/.test(` ${after.progress} `) && after.hubShown && after.canvases === 0 && !after.started && again.turns === 0 && !again.done, { before, after, again });
   await ctx.close();
 }
 await browser.close();

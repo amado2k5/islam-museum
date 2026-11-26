@@ -96,6 +96,29 @@ describe("Hudhud's save", () => {
     const a = { ...older, slots: [recordQuest(current(older), "q", { turns: 5, curiosity: false, ingenuity: false, kindness: true, feather: false }), null, null] };
     expect(current(mergeSaves(a, done)).quests.q).toEqual({ done: true, bestTurns: 3, curiosity: true, ingenuity: true, kindness: true, feather: false });
   });
+  it("does not let an older tab put an older place back over a newer one", () => {
+    const st = memory();
+    const base = load(st).save;
+    const at = (turns: number) => ({ ...base, slots: [{ ...current(base), resume: { quest: "q", snap: { turns } } }, null, null] });
+    expect(store(st, at(1), true, true)).toBe(true); // both tabs know of turn 1
+    expect(store(st, at(4), true, true)).toBe(true); // the newer tab plays on
+    // The older tab, still holding turn 1, changes a setting: it does not own the quest's place.
+    const old = { ...at(1), slots: [{ ...at(1).slots[0]!, settings: { ...current(base).settings, muted: true } }, null, null] };
+    expect(store(st, old, true)).toBe(true);
+    const now = current(load(st).save);
+    expect(now.resume).toEqual({ quest: "q", snap: { turns: 4 } });
+    expect(now.settings.muted).toBe(true);
+    // A page that has just changed the place does own it, also when it clears it.
+    expect(store(st, { ...base, slots: [{ ...current(base), resume: null }, null, null] }, true, true)).toBe(true);
+    expect(current(load(st).save).resume).toBeNull();
+    // Another slot's place is never touched by a save made from this one.
+    const two = { ...base, slot: 1, slots: [current(base), { ...current(base), resume: { quest: "q", snap: { turns: 2 } } }, null] };
+    expect(store(st, two, true, true)).toBe(true);
+    expect(store(st, { ...at(7), slots: [at(7).slots[0]!, { ...current(base), resume: null }, null] }, true, true)).toBe(true);
+    const both = load(st).save;
+    expect(both.slots[0]!.resume).toEqual({ quest: "q", snap: { turns: 7 } });
+    expect(both.slots[1]!.resume).toEqual({ quest: "q", snap: { turns: 2 } });
+  });
   it("gives a key to one action only, and mends keys a broken file gives twice", () => {
     const keys = assignKey(DEFAULT_KEYS, "fly", "KeyA");
     expect(keys.fly).toEqual(["KeyA"]);
