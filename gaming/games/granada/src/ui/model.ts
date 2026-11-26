@@ -407,7 +407,7 @@ export interface DecisionRow {
 export function decisionRows(sc: Scenario, s: VillageState): DecisionRow[] {
   return (sc.decisions ?? [])
     .filter((def) => s.decisions[def.id]?.state === "open")
-    .map((def) => ({ id: def.id, daysLeft: s.decisions[def.id]!.day! + def.open - s.day + 1, otherwise: def.otherwise, options: def.options.map((o) => ({ id: o.id, dinars: wholeDinars(o.dinars ?? 0), inflow: o.inflow ?? 0, welfare: o.welfare ?? 0, days: o.days ?? 0 })) }));
+    .map((def) => ({ id: def.id, daysLeft: s.decisions[def.id]!.day! + def.open - s.day, otherwise: def.otherwise, options: def.options.map((o) => ({ id: o.id, dinars: wholeDinars(o.dinars ?? 0), inflow: o.inflow ?? 0, welfare: o.welfare ?? 0, days: o.days ?? 0 })) }));
 }
 export function effectRows(s: VillageState): Array<{ kind: "inflow" | "welfare"; amount: number; daysLeft: number; from: string }> {
   return s.effects.filter((e) => e.untilDay >= s.day).map((e) => ({ kind: e.kind, amount: Math.abs(e.amount), daysLeft: e.untilDay - s.day + 1, from: e.from }));

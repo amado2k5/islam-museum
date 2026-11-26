@@ -282,7 +282,7 @@ describe("the region", () => {
 
 describe("a decision on the page", () => {
   it("shows each answer's price and gain in figures, the mornings left, and what an unanswered question becomes", () => {
-    const s = days(start(), 40 - SC.startDay + 1);
+    const s = days(start(), 40 - SC.startDay);
     const [d] = decisionRows(SC, s);
     expect(d).toMatchObject({ id: "water-for-the-neighbours", daysLeft: 5, otherwise: "refuse" });
     expect(d!.options).toEqual([{ id: "share", dinars: 220, inflow: 8, welfare: 0, days: 20 }, { id: "refuse", dinars: 0, inflow: 0, welfare: -4, days: 20 }]);

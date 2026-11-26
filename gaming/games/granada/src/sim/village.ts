@@ -584,6 +584,8 @@ function ledger(s: VillageState, command: EconomyCommand): CommandResult {
 const asksOf = (e: EconomyState): Record<string, Record<string, number>> => Object.fromEntries(Object.entries(e.markets).map(([id, m]) => [id, Object.fromEntries(Object.entries(m.goods).map(([g, q]) => [g, q.ask]))]));
 /** The markets as the scenario opens them: their usual stock, their usual prices, their usual purse. */
 export const marketsOf = (sc: Scenario): Record<string, Market> => ({ village: sc.market, ...(sc.trade ? { [sc.trade.port.id]: sc.trade.port.market } : {}) });
+/** A price in minor units, brought down to a whole dinar. */
+export const wholeDinar = (minor: number): number => Math.floor(minor / MINOR) * MINOR;
 /** How far a market's prices stand from its usual ones, in thousandths, for what it holds of a good. */
 export function priceFactor(sc: Scenario, usual: number, holds: number, good?: string): number {
   // A good may be given a narrower swing of its own, where a wide one would make something bought worth pressing.
@@ -613,8 +615,9 @@ function marketsNight(sc: Scenario, s: VillageState): void {
       const paid = Math.max(0, Math.min(leave * u.bid, usual.cash - purse));
       purse += paid;
       const f = priceFactor(sc, u.inventory, q.inventory + move, good);
-      const ask = Math.floor((u.ask * f) / 1000);
-      const bid = Math.floor((u.bid * f) / 1000);
+      // Prices are whole dinars, so that what the page shows for one is what the ledger pays for one.
+      const ask = wholeDinar((u.ask * f) / 1000);
+      const bid = wholeDinar((u.bid * f) / 1000);
       if (arrive || leave || paid || ask !== q.ask || bid !== q.bid) changes.push({ market: id, good, arrive, leave, paid, ask, bid });
     }
   }
@@ -824,12 +827,10 @@ export function tick(sc: Scenario, state: VillageState): VillageState {
   const day = s.day;
   const events: string[] = [];
   // A question whose day has come is put; one left unanswered through its last day is answered by its `otherwise`.
+  // A question left unanswered through its last morning is answered by its `otherwise`, before that day is lived.
   for (const def of sc.decisions ?? []) {
     const d = s.decisions[def.id]!;
-    if (d.state === "ahead" && day >= def.day) {
-      s.decisions[def.id] = { state: "open", choice: null, day };
-      events.push(`asked:${def.id}`);
-    } else if (d.state === "open" && day >= d.day! + def.open) {
+    if (d.state === "open" && day >= d.day! + def.open - 1) {
       settle(sc, s, def, def.otherwise, "lapsed");
       events.push(`lapsed:${def.id}:${def.otherwise}`);
     }
@@ -1052,10 +1053,18 @@ export function tick(sc: Scenario, state: VillageState): VillageState {
   marketsNight(sc, s);
 
   // The journal keeps what a steward would want to look back on: tasks done, things built, answers, contracts.
-  for (const e of events) if (/^(quest|built|placed|asked|lapsed|contract-failed|contract-kept|arrived|left):?/.test(e)) note(s, day, e);
+  for (const e of events) if (/^(quest|built|placed|lapsed|contract-failed|contract-kept|arrived|left):?/.test(e)) note(s, day, e);
 
   s.last = { day, rain: sky.rain, inflow: sky.inflow, townWater, townNeed, eaten, foodNeed: need, workers, idle: free, events };
   s.day = day + 1;
+  // A question is put on the morning of the day it names, so that it can be answered before that day is lived.
+  for (const def of sc.decisions ?? []) {
+    if (s.decisions[def.id]!.state === "ahead" && s.day >= def.day && s.day <= sc.endDay) {
+      s.decisions[def.id] = { state: "open", choice: null, day: s.day };
+      s.last.events.push(`asked:${def.id}`);
+      note(s, s.day, `asked:${def.id}`);
+    }
+  }
   if (s.day > sc.endDay) s.outcome = judge(sc, s);
   return s;
 }
@@ -1179,7 +1188,7 @@ export function invariants(sc: Scenario, s: VillageState): string[] {
         const q = s.economy.markets[id]?.goods[good];
         if (!q) continue;
         const swing = Math.max(sc.prices.swing, sc.prices.swings?.[good] ?? 0);
-        const [lo, hi] = [Math.floor((u.ask * (1000 - swing)) / 1000), Math.floor((u.ask * (1000 + swing)) / 1000)];
+        const [lo, hi] = [wholeDinar((u.ask * (1000 - swing)) / 1000), wholeDinar((u.ask * (1000 + swing)) / 1000)];
         if (q.ask < lo || q.ask > hi) bad.push(`${id} asks ${q.ask} for ${good}, outside ${lo} to ${hi}`);
       }
     }

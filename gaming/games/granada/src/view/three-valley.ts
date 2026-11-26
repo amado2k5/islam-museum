@@ -1125,7 +1125,8 @@ export class ValleyRenderer {
   }
 
   /** The point of the land under a place in the window (CSS pixels), or null if the ray leaves the valley. */
-  landAt(clientX: number, clientY: number): [number, number] | null {
+  /** With `lift`, the point where the ray meets the land raised by so many metres: where a roof of that height would be struck. */
+  landAt(clientX: number, clientY: number, lift = 0): [number, number] | null {
     const r = this.canvas.getBoundingClientRect();
     this.raycaster.setFromCamera(new THREE.Vector2(((clientX - r.left) / r.width) * 2 - 1, 1 - ((clientY - r.top) / r.height) * 2), this.camera);
     const o = this.raycaster.ray.origin;
@@ -1137,12 +1138,12 @@ export class ValleyRenderer {
       t += 6;
       const x = o.x + d.x * t;
       const z = o.z + d.z * t;
-      if (o.y + d.y * t <= heightAt(x, z, this.options.seed)) {
+      if (o.y + d.y * t <= heightAt(x, z, this.options.seed) + lift) {
         let lo = t - 6;
         let hi = t;
         for (let k = 0; k < 8; k++) {
           const mid = (lo + hi) / 2;
-          if (o.y + d.y * mid <= heightAt(o.x + d.x * mid, o.z + d.z * mid, this.options.seed)) hi = mid;
+          if (o.y + d.y * mid <= heightAt(o.x + d.x * mid, o.z + d.z * mid, this.options.seed) + lift) hi = mid;
           else lo = mid;
         }
         return [o.x + d.x * hi, o.z + d.z * hi];

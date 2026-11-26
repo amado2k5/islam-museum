@@ -70,9 +70,15 @@ export class Stage {
   }
   overview(): void {
     this.goal = clampPose(OVERVIEW, this.ground);
+    this.recentre();
   }
   home(): void {
     this.goal = clampPose(START, this.ground);
+    this.recentre();
+  }
+  /** While ground is being chosen, a view changed other than by moving the pointer puts the ring at the middle of the new view. */
+  private recentre(): void {
+    if (this.placing) this.options.onSite?.(this.goal.tx, this.goal.tz);
   }
   setPose(p: Pose, at_once = false): void {
     this.goal = clampPose(p, this.ground);
@@ -118,8 +124,11 @@ export class Stage {
         const p = this.renderer.landAt(e.clientX, e.clientY);
         if (p) this.options.onBuild?.(p[0], p[1]);
       } else if (wasClick) {
-        const p = this.renderer.landAt(e.clientX, e.clientY);
-        if (p && this.options.onLand?.(p[0], p[1])) return;
+        // A building is struck on its roof or its wall before the ground behind it: the ray is tried at roof height first.
+        for (const lift of [6, 3, 0]) {
+          const p = this.renderer.landAt(e.clientX, e.clientY, lift);
+          if (p && this.options.onLand?.(p[0], p[1])) return;
+        }
         const field = this.renderer.fieldAt(e.clientX, e.clientY);
         if (field) this.options.onField(field);
       }
@@ -127,6 +136,7 @@ export class Stage {
     c.addEventListener("wheel", (e) => {
       e.preventDefault();
       this.move(zoom(this.goal, Math.exp(e.deltaY * 0.0012)));
+      this.recentre();
     }, { passive: false });
     c.addEventListener("keydown", (e) => {
       const step = this.goal.distance * 0.08;

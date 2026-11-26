@@ -234,6 +234,8 @@ if ((await game<string>("window.__GR__.threeD")) === "on") {
   await page.keyboard.press("3");
   await page.locator("[data-act='place-granary']").click();
   await page.locator("canvas.scene").focus();
+  // The ring is set when the view has settled; give it a moment before reading its verdict.
+  for (const end = Date.now() + 3000; (await page.locator("#site-status").getAttribute("class")) !== "site-ok" && Date.now() < end; ) await page.waitForTimeout(100);
   if ((await page.locator("#site-status").getAttribute("class")) !== "site-ok") await fail(`open ground in the 3D valley refused the granary: ${await page.locator("#site-status").textContent()}`);
   await shot("9a-ring-3d");
   await page.keyboard.press("Enter");
