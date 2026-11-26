@@ -16,6 +16,7 @@ import { ROBE_TINTS, awningMesh, palmMesh, personBodyMesh, personHeadMesh, stall
 import type { Atmosphere } from "@im/worldkit/atmosphere";
 import type { TextureData, TextureKind } from "@im/worldkit/textures";
 import { FOV, eyeOf, type Pose } from "./camera";
+import { basket, ladder } from "./buildings";
 import { MODELS_AVAILABLE, disposeModel, disposeSharedMaterials, loadModel } from "./models";
 /**
  * The folder of this game's models on the host. A file on the host is never replaced, so a set that changes gets a
@@ -24,7 +25,7 @@ import { MODELS_AVAILABLE, disposeModel, disposeSharedMaterials, loadModel } fro
 const MODEL_SET = "granada/2/";
 /** The pieces the hill needs before the valley stops making its own wall, towers and halls there. */
 const HILL_PIECES = ["wall", "tower", "gate", "scaffold", "crane", "palace", "estate"];
-import { CHANNELS, FIELDS, GRANARY, HOUSE_LOTS, KIT_HOUSES, MARKET, PLOT_GRID, POOL, STORE, VILLAGE, broadTree, buildLand, buildRange, buildRiver, buildScenery, channelWater, cropSpots, cypressTree, fieldAt, fieldGround, heightAt, oliveTree, orchardTree, plotTable, poolWater, poplarTree, vegetablePlant, wheatTuft, type Chunk , type KitPlacement } from "./valley";
+import { CHANNELS, ESTATE, FIELDS, GRANARY, HOUSE_LOTS, KIT_HOUSES, MARKET, PLOT_GRID, POOL, STORE, VILLAGE, broadTree, buildLand, buildRange, buildRiver, buildScenery, channelWater, cropSpots, cypressTree, fieldAt, fieldGround, heightAt, oliveTree, orchardTree, plotTable, poolWater, poplarTree, vegetablePlant, wheatTuft, type Chunk , type KitPlacement } from "./valley";
 
 export type Quality = "low" | "high";
 export interface ValleyOptions {
@@ -42,6 +43,8 @@ export interface FieldLook {
   /** Share of the crop still standing in the field: 1 while it grows, falling as it is brought in, 0 when gathered. */
   standing: number;
   ripe: boolean;
+  /** The crop is being brought in now: people are at work in the field. */
+  harvesting?: boolean;
 }
 export interface ValleyLook {
   season: number;
@@ -116,6 +119,18 @@ const CARTS = 6;
 const WHEAT_SPACING = 1.7;
 const VEG_SPACING = 2.6;
 const WALKERS = 64;
+/** People at work in a field that is being brought in, at most. */
+const HARVESTERS = 30;
+/** Baskets and stooks a harvest sets out, at most. */
+const BASKETS = 64;
+/** A person standing at (x, y, z), turned by yaw and bent forward by pitch, as one who stoops to cut or reaches to pick. */
+function bendingMatrix(out: Float32Array, o: number, x: number, y: number, z: number, yaw: number, pitch: number, k: number): void {
+  const c = Math.cos(yaw);
+  const s = Math.sin(yaw);
+  const cp = Math.cos(pitch);
+  const sp = Math.sin(pitch);
+  out.set([c * k, 0, -s * k, 0, s * sp * k, cp * k, c * sp * k, 0, s * cp * k, -sp * k, c * cp * k, 0, x, y, z, 1], o);
+}
 const GREEN: Rgb = [0.3, 0.56, 0.16];
 const GOLD: Rgb = [0.98, 0.68, 0.2];
 
@@ -162,6 +177,10 @@ export class ValleyRenderer {
   private bodies!: THREE.InstancedMesh;
   private heads!: THREE.InstancedMesh;
   private walkers = 0;
+  private ladders!: THREE.InstancedMesh;
+  private baskets!: THREE.InstancedMesh;
+  /** Where people are at work in a harvest: a place, the way they face, and whether they reach up (olives) or stoop. */
+  private workSpots: Array<{ x: number; z: number; yaw: number; reach: boolean; carrier: boolean; to: [number, number] }> = [];
   private walkTargets: Array<[number, number]> = [];
   private ring!: THREE.Mesh;
   private wheel!: THREE.Mesh;
@@ -412,8 +431,11 @@ export class ValleyRenderer {
     this.carts.count = CARTS;
 
     // People.
-    this.bodies = instanced(personBodyMesh(), "prop", WALKERS, true, true);
-    this.heads = instanced(personHeadMesh(), "prop", WALKERS, false, true);
+    this.bodies = instanced(personBodyMesh(), "prop", WALKERS + HARVESTERS, true, true);
+    this.heads = instanced(personHeadMesh(), "prop", WALKERS + HARVESTERS, false, true);
+    // What a harvest brings out: ladders against the olive trees, and baskets where the pickers are.
+    this.ladders = instanced(ladder(), "prop", 16, true, true);
+    this.baskets = instanced(basket(), "prop", BASKETS, true, true);
     const tint = this.bodies.instanceColor!.array as Float32Array;
     for (let i = 0; i < WALKERS; i++) tint.set(ROBE_TINTS[i % ROBE_TINTS.length]!, i * 3);
     this.bodies.instanceColor!.needsUpdate = true;
@@ -845,6 +867,81 @@ export class ValleyRenderer {
     }
     this.walkTargets = targets;
 
+    // A field that is being brought in has people at work in it: pickers at the olive trees, reapers in a line that
+    // crosses the corn as it is cut. They are there because the harvest is, and go when it is done.
+    const spots: typeof this.workSpots = [];
+    const ladderAt: number[][] = [];
+    const basketAt: number[][] = [];
+    const tint = new THREE.Color();
+    for (const [id, f] of Object.entries(look.fields)) {
+      // A field just brought in has no crop left in it, and still has its people for the day.
+      if (!f.harvesting) continue;
+      const poly = FIELDS[id]!;
+      const at = (u: number, v: number): [number, number] => {
+        const ax = poly[0]![0] + (poly[1]![0] - poly[0]![0]) * u;
+        const az = poly[0]![1] + (poly[1]![1] - poly[0]![1]) * u;
+        const bx = poly[3]![0] + (poly[2]![0] - poly[3]![0]) * u;
+        const bz = poly[3]![1] + (poly[2]![1] - poly[3]![1]) * u;
+        return [ax + (bx - ax) * v, az + (bz - az) * v];
+      };
+      const store: [number, number] = id === "olive-terrace" ? [ESTATE.x - 12, ESTATE.z] : at(0.5, -0.04);
+      if (id === "olive-terrace") {
+        // The picking has reached the trees nearest the estate: a ladder against each of a dozen, two pickers at each,
+        // a basket under it, and carriers going between them and the estate's press.
+        const nearest = this.oliveSpots.map((tree, k) => ({ tree, k, d: Math.hypot(tree[0]! - ESTATE.x, tree[2]! - ESTATE.z) })).sort((a, b) => a.d - b.d).slice(0, 12);
+        for (const { tree, k } of nearest) {
+          if (spots.length >= HARVESTERS - 1) break;
+          const a = k * 2.4;
+          ladderAt.push([tree[0]! + Math.cos(a) * 1.5, tree[1]!, tree[2]! + Math.sin(a) * 1.5, Math.atan2(-Math.cos(a), -Math.sin(a))]);
+          spots.push({ x: tree[0]! + Math.cos(a + 1.9) * 2.1, z: tree[2]! + Math.sin(a + 1.9) * 2.1, yaw: Math.atan2(-Math.cos(a + 1.9), -Math.sin(a + 1.9)), reach: true, carrier: false, to: store });
+          spots.push({ x: tree[0]! + Math.cos(a - 1.7) * 2.3, z: tree[2]! + Math.sin(a - 1.7) * 2.3, yaw: Math.atan2(-Math.cos(a - 1.7), -Math.sin(a - 1.7)), reach: true, carrier: k % 3 === 0, to: store });
+          basketAt.push([tree[0]! + Math.cos(a + 0.9) * 2.6, tree[1]!, tree[2]! + Math.sin(a + 0.9) * 2.6, 1.5]);
+          basketAt.push([tree[0]! + Math.cos(a + 0.4) * 3.1, tree[1]!, tree[2]! + Math.sin(a + 0.4) * 3.1, 1.5]);
+        }
+        tint.setRGB(0.2, 0.26, 0.12);
+      } else {
+        // A line of reapers across the field, standing where the cut has reached; binders and carriers behind them.
+        // With the last of it cut, they are in the middle of the field, binding and carrying.
+        const front = f.standing > 0 ? Math.min(0.96, Math.max(0.04, 1 - f.standing)) : 0.55;
+        const facing = Math.atan2(poly[3]![0] - poly[0]![0], poly[3]![1] - poly[0]![1]);
+        // Sixteen reapers shoulder to shoulder, three paces apart, in the middle of the field's width; carriers behind.
+        const width = Math.hypot(poly[1]![0] - poly[0]![0], poly[1]![1] - poly[0]![1]);
+        const pace = 3 / width;
+        for (let i = 0; i < 16 && spots.length < HARVESTERS; i++) {
+          const u = 0.5 + (i - 7.5) * pace;
+          const [x, z] = at(u, front + ((i * 7) % 3) * 0.008);
+          spots.push({ x, z, yaw: facing, reach: false, carrier: false, to: store });
+          if (i % 4 === 1) {
+            const [cx, cz] = at(u, Math.max(0.02, front - 0.06));
+            spots.push({ x: cx, z: cz, yaw: facing + Math.PI, reach: false, carrier: true, to: store });
+          }
+        }
+        // Behind them, what they have cut stands in stooks, row after row back to where they began.
+        for (let k = 0; k < 40; k++) {
+          const v = front - 0.03 - Math.floor(k / 8) * 0.045;
+          if (v < 0.02) break;
+          const [sx, sz] = at(0.5 + ((k % 8) - 3.5) * pace * 2.2 + (Math.floor(k / 8) % 2) * pace, v);
+          basketAt.push([sx, heightAt(sx, sz, this.options.seed), sz, 2.3]);
+        }
+        tint.setRGB(0.86, 0.68, 0.26);
+      }
+    }
+    this.workSpots = spots;
+    const seedOfLand = this.options.seed;
+    const la = this.ladders.instanceMatrix.array as Float32Array;
+    ladderAt.slice(0, 16).forEach((l, i) => bendingMatrix(la, i * 16, l[0]!, heightAt(l[0]!, l[2]!, seedOfLand), l[2]!, l[3]!, 0.32, 1));
+    this.ladders.count = Math.min(16, ladderAt.length);
+    this.ladders.instanceMatrix.needsUpdate = true;
+    const ba = this.baskets.instanceMatrix.array as Float32Array;
+    basketAt.slice(0, BASKETS).forEach((b, i) => {
+      const size = b[3] ?? 1;
+      instanceMatrix(ba, i * 16, b[0]!, heightAt(b[0]!, b[2]!, seedOfLand), b[2]!, i * 1.3, size, size, size);
+      this.baskets.setColorAt(i, tint);
+    });
+    this.baskets.count = Math.min(BASKETS, basketAt.length);
+    this.baskets.instanceMatrix.needsUpdate = true;
+    if (this.baskets.instanceColor) this.baskets.instanceColor.needsUpdate = true;
+
     // The ring round the chosen field.
     const sel = look.selected ? FIELDS[look.selected] : undefined;
     this.ring.visible = Boolean(sel);
@@ -953,9 +1050,26 @@ export class ValleyRenderer {
       instanceMatrix(carts, i * 16, x, heightAt(x, z, seed) + 0.16, z, Math.atan2((b[0] - a[0]) * dir, (b[1] - a[1]) * dir), 1, 1, 1);
     }
     this.carts.instanceMatrix.needsUpdate = true;
-    (this.heads.instanceMatrix.array as Float32Array).set(body.subarray(0, n * 16));
-    this.bodies.count = n;
-    this.heads.count = n;
+    // People at the harvest: a picker reaches up and down, a reaper stoops and rises, a carrier goes to the store and back.
+    let m = 0;
+    for (const w of this.workSpots) {
+      const o = (n + m) * 16;
+      const beat = still ? 0 : timeSeconds * (w.reach ? 1.7 : 2.3) + m * 1.9;
+      if (w.carrier) {
+        const dist = Math.hypot(w.to[0] - w.x, w.to[1] - w.z) || 1;
+        const phase = ((still ? 0 : timeSeconds) * 1.3) / dist + (m * 0.29) % 1;
+        const k = Math.abs(((phase % 2) + 2) % 2 - 1);
+        const x = w.x + (w.to[0] - w.x) * k;
+        const z = w.z + (w.to[1] - w.z) * k;
+        const back = ((phase % 2) + 2) % 2 > 1;
+        walkingMatrix(body, o, x, heightAt(x, z, seed) + 0.05, z, Math.atan2(w.to[0] - w.x, -(w.to[1] - w.z)) + (back ? 0 : Math.PI), still ? 0 : 0.075 * Math.sin(timeSeconds * 6 + m), 1.15);
+      } else if (w.reach) bendingMatrix(body, o, w.x, heightAt(w.x, w.z, seed) + 0.05 + 0.1 * Math.max(0, Math.sin(beat)), w.z, w.yaw + 0.25 * Math.sin(beat * 0.37), -0.12 * Math.max(0, Math.sin(beat)), 1.15);
+      else bendingMatrix(body, o, w.x, heightAt(w.x, w.z, seed) + 0.05, w.z, w.yaw + 0.3 * Math.sin(beat * 0.5), 0.5 * (0.5 + 0.5 * Math.sin(beat)), 1.15);
+      m++;
+    }
+    (this.heads.instanceMatrix.array as Float32Array).set(body.subarray(0, (n + m) * 16));
+    this.bodies.count = n + m;
+    this.heads.count = n + m;
     this.bodies.instanceMatrix.needsUpdate = true;
     this.heads.instanceMatrix.needsUpdate = true;
     if (this.pipeline) this.pipeline.render();
@@ -990,11 +1104,11 @@ export class ValleyRenderer {
     return this.pixelRatioCap;
   }
 
-  info(): { drawCalls: number; triangles: number; geometries: number | null; textures: number | null; cpuRenderMs: number; engine: string; pixels: [number, number]; walkers: number; models: string[]; modelFailures: string[] } {
+  info(): { drawCalls: number; triangles: number; geometries: number | null; textures: number | null; cpuRenderMs: number; engine: string; pixels: [number, number]; walkers: number; atWork: number; models: string[]; modelFailures: string[] } {
     const r = this.renderer.info.render as unknown as { drawCalls: number; triangles: number };
     // What the renderer says it is holding. Null where this renderer does not keep the count.
     const held = (this.renderer.info as unknown as { memory?: { geometries?: number; textures?: number } }).memory;
-    return { drawCalls: r.drawCalls, triangles: r.triangles, geometries: held?.geometries ?? null, textures: held?.textures ?? null, cpuRenderMs: this.cpuMs, engine: `three r${THREE.REVISION} webgpu`, pixels: [this.canvas.width, this.canvas.height], walkers: this.walkers, models: [...this.models], modelFailures: [...this.modelFailures] };
+    return { drawCalls: r.drawCalls, triangles: r.triangles, geometries: held?.geometries ?? null, textures: held?.textures ?? null, cpuRenderMs: this.cpuMs, engine: `three r${THREE.REVISION} webgpu`, pixels: [this.canvas.width, this.canvas.height], walkers: this.walkers, atWork: this.workSpots.length, models: [...this.models], modelFailures: [...this.modelFailures] };
   }
 
   dispose(): void {

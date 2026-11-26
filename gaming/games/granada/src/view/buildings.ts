@@ -265,3 +265,22 @@ export function oxCart(): MeshData {
   }
   return b.build();
 }
+
+/** A picker's ladder: two rails and seven rungs, standing upright; the valley leans it against a tree. */
+export function ladder(): MeshData {
+  const b = new MeshBuilder();
+  const f = frame(0, 0, 0);
+  const pole: Rgb = [0.5, 0.38, 0.22];
+  for (const x of [-0.26, 0.26]) b.box(f, x, 0, 0, 0.07, 3.6, 0.07, pole, 63);
+  for (let i = 0; i < 7; i++) b.box(f, 0, 0.4 + i * 0.46, 0, 0.52, 0.05, 0.05, [pole[0] * 0.9, pole[1] * 0.9, pole[2] * 0.9], 63);
+  return b.build();
+}
+
+/** A harvest basket of woven cane, full to the brim: the brim's colour is the crop's, set by the valley. */
+export function basket(): MeshData {
+  const b = new MeshBuilder();
+  const f = frame(0, 0, 0);
+  b.cylinder(f, 0, 0, 0, 0.3, 0.4, 0.46, 10, [0.62, 0.48, 0.28], false);
+  b.cylinder(f, 0, 0.4, 0, 0.36, 0.3, 0.1, 10, [1, 1, 1], true);
+  return b.build();
+}

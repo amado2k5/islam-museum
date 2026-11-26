@@ -197,6 +197,27 @@ if (threeD !== "on") {
   if (!(await page.locator("canvas.scene").isVisible())) await fail("the valley did not come back");
 }
 
+// ---- People at the harvest: they come when it is ordered, and are gone when it is done ----
+if (threeD === "on") {
+  const context2 = await browser.newContext({ viewport: { width: 1440, height: 900 } });
+  const p2 = await context2.newPage();
+  await p2.goto(`${served.base}/games/granada/index.html?lang=${lang}&fresh=1&seed=7&music=off`);
+  await p2.waitForFunction("Boolean(window.__GR__ && window.__GR__.ready)");
+  await p2.locator("#brief-start").click();
+  await p2.waitForFunction("window.__GR__.threeD === 'on'", undefined, { timeout: 120_000 });
+  const atWork = () => p2.evaluate("window.__GR__.stage().info().atWork") as Promise<number>;
+  const before = await atWork();
+  await p2.evaluate("window.__GR__.order({ kind: 'harvest', plot: 'mill-field', rest: 'sell' })");
+  await p2.waitForTimeout(400);
+  const during = await atWork();
+  await p2.evaluate("window.__GR__.days(3)");
+  await p2.waitForTimeout(400);
+  const after = await atWork();
+  if (before !== 0 || during < 16 || after !== 0) await fail(`people at the harvest: ${before} before it was ordered, ${during} while it went on, ${after} three days after`);
+  log.harvestPeople = { before, during, after };
+  await context2.close();
+}
+
 // ---- A whole campaign through the page, by the way of the mender ----
 await page.goto(url("&fresh=1"));
 await ready();
