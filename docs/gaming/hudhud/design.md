@@ -65,7 +65,7 @@ Fifty bespoke minigames would be fifty fragile things. Each system below is one 
 | **Route** | plan a journey or a flow over a map: wind, water, provisions, time | Ibn Battuta | 3, 6, 7, 9 | designed |
 | **Trace and Align** | join stars, set an instrument to a reading | al-Sufi | 1, 3 | designed |
 | **Observe and Match** | look closely, compare two accounts or two cases, sort by evidence | al-Razi | 4, 9 | designed |
-| **Cipher** | find the pattern in letters or pieces; plan moves ahead | al-Kindi | 2 | designed |
+| **Cipher** | count and rank the signs of a long sample and of a secret message, compare, and test a guess by the opening | al-Kindi | 2 | **rules built and tested** (`sim/cipher.ts`); in one trial quest, al-Kindi and the secret page, played with page controls (lists of choices) and no flying scene; neighbouring letters and pointing at the picture are not built |
 | **Mend and Build** | assemble arches, pages, a chronicle, in the right order and balance | Mimar Sinan | 5, 7, 8 | designed |
 | **Network** | link people and places so that learning or help reaches everyone | Fatima al-Fihri | 5, 8, 10 | designed |
 | **Rhythm** | keep a metre, by ear, by eye or by touch | al-Khalil | 5, 10 | designed |
