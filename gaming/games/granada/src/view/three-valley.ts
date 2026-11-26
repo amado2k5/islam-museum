@@ -58,7 +58,7 @@ const sunFrom = (azimuthDeg: number, elevationDeg: number): [number, number, num
  * walls, trees and furrows are modelled by light from the side. Art direction, not a sky model.
  */
 export const SEASON_LIGHT: Atmosphere[] = [
-  { id: "golden", sunDirection: sunFrom(152, 34), sunColor: [1.0, 0.92, 0.78], sunIntensity: 4.6, skyZenith: [0.12, 0.3, 0.68], skyHorizon: [0.86, 0.88, 0.86], ambientSky: [0.5, 0.64, 0.95], ambientGround: [0.42, 0.38, 0.26], ambientIntensity: 1, fogColor: [0.6, 0.72, 0.86], fogDensity: 0.00006, exposure: 0.9, emissive: 0.1 },
+  { id: "golden", sunDirection: sunFrom(152, 34), sunColor: [1.0, 0.92, 0.78], sunIntensity: 4.6, skyZenith: [0.12, 0.3, 0.68], skyHorizon: [0.86, 0.88, 0.86], ambientSky: [0.66, 0.7, 0.84], ambientGround: [0.46, 0.4, 0.27], ambientIntensity: 1.25, fogColor: [0.6, 0.72, 0.86], fogDensity: 0.00006, exposure: 0.9, emissive: 0.1 },
   { id: "noon", sunDirection: sunFrom(196, 52), sunColor: [1.0, 0.95, 0.84], sunIntensity: 4.2, skyZenith: [0.13, 0.33, 0.76], skyHorizon: [0.82, 0.86, 0.9], ambientSky: [0.55, 0.7, 1.0], ambientGround: [0.5, 0.44, 0.3], ambientIntensity: 1, fogColor: [0.62, 0.74, 0.88], fogDensity: 0.00007, exposure: 0.84, emissive: 0 },
   { id: "golden", sunDirection: sunFrom(214, 21), sunColor: [1.0, 0.76, 0.48], sunIntensity: 5.4, skyZenith: [0.08, 0.22, 0.58], skyHorizon: [1.2, 0.84, 0.52], ambientSky: [0.44, 0.52, 0.8], ambientGround: [0.44, 0.32, 0.2], ambientIntensity: 1, fogColor: [0.82, 0.7, 0.6], fogDensity: 0.00009, exposure: 0.92, emissive: 0.3 },
   { id: "noon", sunDirection: sunFrom(164, 22), sunColor: [0.96, 0.88, 0.8], sunIntensity: 3.6, skyZenith: [0.18, 0.28, 0.5], skyHorizon: [0.8, 0.8, 0.82], ambientSky: [0.5, 0.56, 0.72], ambientGround: [0.36, 0.34, 0.32], ambientIntensity: 1.1, fogColor: [0.66, 0.7, 0.76], fogDensity: 0.00012, exposure: 0.95, emissive: 0.2 },
@@ -94,11 +94,20 @@ function geometryOf(m: MeshData): THREE.BufferGeometry {
   g.setIndex(new THREE.BufferAttribute(m.indices, 1));
   return g;
 }
-const WHEAT_SPACING = 1.9;
+/** A figure's matrix: where it stands, the way it faces, and a lean to one side and the other as it walks. */
+function walkingMatrix(out: Float32Array, o: number, x: number, y: number, z: number, yaw: number, roll: number, k: number): void {
+  const c = Math.cos(yaw);
+  const s = Math.sin(yaw);
+  const cr = Math.cos(roll);
+  const sr = Math.sin(roll);
+  out.set([c * cr * k, sr * k, -s * cr * k, 0, -c * sr * k, cr * k, s * sr * k, 0, s * k, 0, c * k, 0, x, y, z, 1], o);
+}
+const CARTS = 6;
+const WHEAT_SPACING = 1.7;
 const VEG_SPACING = 2.6;
 const WALKERS = 64;
 const GREEN: Rgb = [0.3, 0.56, 0.16];
-const GOLD: Rgb = [1.0, 0.78, 0.3];
+const GOLD: Rgb = [0.98, 0.68, 0.2];
 
 interface Soil {
   material: THREE.Material;
@@ -145,6 +154,11 @@ export class ValleyRenderer {
   private walkers = 0;
   private walkTargets: Array<[number, number]> = [];
   private ring!: THREE.Mesh;
+  private wheel!: THREE.Mesh;
+  private wheelTurns = false;
+  private carts!: THREE.InstancedMesh;
+  private cartRoads: Array<ReadonlyArray<readonly [number, number]>> = [];
+  private lastTime = 0;
   private rain!: THREE.LineSegments;
   private readonly raycaster = new THREE.Raycaster();
 
@@ -279,6 +293,16 @@ export class ValleyRenderer {
     this.meadowStone = addChunks(scenery.meadowChannel);
     this.houses = scenery.houses.map((h) => addChunks(h));
     this.granary = addChunks(scenery.granary);
+    // The mill's wheel, on its axle: it turns while the west branch carries water.
+    const wheelGeometry = geometryOf(scenery.wheel.mesh);
+    this.disposables.push(wheelGeometry);
+    this.wheel = new THREE.Mesh(wheelGeometry, mat("wood"));
+    this.wheel.position.set(scenery.wheel.x, scenery.wheel.y, scenery.wheel.z);
+    this.wheel.rotation.order = "YXZ";
+    this.wheel.rotation.y = scenery.wheel.yaw;
+    this.wheel.castShadow = true;
+    scene.add(this.wheel);
+    this.cartRoads = scenery.cartRoads;
 
     // ---- Things drawn many times ----
     const rng = new Rng(seed);
@@ -318,6 +342,7 @@ export class ValleyRenderer {
       grove("almond", halfOf(scenery.almonds, which), orchardTree(seed + 2 + which, false), orchardTree(seed, true));
     }
     grove("scrub", scenery.scrub, orchardTree(seed + 5, false), orchardTree(seed, true));
+    grove("citrus", scenery.gardens, orchardTree(seed + 7, false), orchardTree(seed, true));
     grove("poplar", scenery.poplars, poplarTree(false), poplarTree(true));
     grove("cypress", scenery.cypresses, cypressTree(false), cypressTree(true));
     fill(instanced(palmMesh(rng.fork("palm")), "foliage", scenery.palms.length + 1, true), scenery.palms, 1, () => [0.62, 0.7, 0.5]);
@@ -355,6 +380,10 @@ export class ValleyRenderer {
     this.scaffold.count = 0;
     this.scaffold.castShadow = true;
     scene.add(this.scaffold);
+
+    // Ox-carts on the roads.
+    this.carts = instanced(scenery.cart, "prop", CARTS, true, true);
+    this.carts.count = CARTS;
 
     // People.
     this.bodies = instanced(personBodyMesh(), "prop", WALKERS, true, true);
@@ -619,6 +648,7 @@ export class ValleyRenderer {
       w.tail.visible = flowing && state === "flowing";
     }
     for (const m of this.meadowStone) m.visible = (look.branches.meadow ?? "none") !== "none";
+    this.wheelTurns = flowing && (look.branches.west ?? "none") === "flowing";
     this.houses.forEach((meshes, i) => {
       for (const m of meshes) m.visible = i < look.houses;
     });
@@ -777,8 +807,32 @@ export class ValleyRenderer {
       const back = ((phase % 2) + 2) % 2 > 1;
       const heading = Math.atan2(target[0] - hx, -(target[1] - hz)) + (back ? 0 : Math.PI);
       const bob = still ? 0 : 0.04 * Math.abs(Math.sin(timeSeconds * 6 + i));
-      instanceMatrix(body, i * 16, x, heightAt(x, z, seed) + 0.05 + bob, z, heading, 1.15, 1.15, 1.15);
+      // A walker leans from foot to foot at the pace of the steps.
+      walkingMatrix(body, i * 16, x, heightAt(x, z, seed) + 0.05 + bob, z, heading, still ? 0 : 0.075 * Math.sin(timeSeconds * 6 + i), 1.15);
     }
+    // The wheel, and the carts going out along the roads and back.
+    const dt = this.lastTime ? Math.min(0.1, timeSeconds - this.lastTime) : 0;
+    this.lastTime = timeSeconds;
+    if (this.wheelTurns && !still) this.wheel.rotation.z -= dt * 0.7;
+    const carts = this.carts.instanceMatrix.array as Float32Array;
+    for (let i = 0; i < CARTS; i++) {
+      const road = this.cartRoads[i % Math.max(1, this.cartRoads.length)];
+      if (!road || road.length < 2) continue;
+      const last = road.length - 1;
+      // Six metres between a road's points, a little over a metre a second: an ox's pace.
+      const u = (((still ? 0 : timeSeconds) * 0.2 + i * 17.3) % (2 * last) + 2 * last) % (2 * last);
+      const back = u > last;
+      const at = back ? 2 * last - u : u;
+      const k = Math.min(last - 1, Math.floor(at));
+      const a = road[k]!;
+      const b = road[k + 1]!;
+      const t = at - k;
+      const x = a[0] + (b[0] - a[0]) * t;
+      const z = a[1] + (b[1] - a[1]) * t;
+      const dir = back ? -1 : 1;
+      instanceMatrix(carts, i * 16, x, heightAt(x, z, seed) + 0.16, z, Math.atan2((b[0] - a[0]) * dir, (b[1] - a[1]) * dir), 1, 1, 1);
+    }
+    this.carts.instanceMatrix.needsUpdate = true;
     (this.heads.instanceMatrix.array as Float32Array).set(body.subarray(0, n * 16));
     this.bodies.count = n;
     this.heads.count = n;
