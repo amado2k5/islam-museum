@@ -6,7 +6,7 @@ _26 November 2026. What was run is listed with its result. What was not run is l
 
 | Check | Result |
 |---|---|
-| `npm --prefix gaming test` | **27 files, 468 tests, all pass** (114 are Hudhud's own, in eight files; the two shared tests of labels and review marks now cover four games) |
+| `npm --prefix gaming test` | **28 files, 477 tests, all pass** (114 are Hudhud's own, in eight files; 9 are the shared device check's; the two shared tests of labels and review marks now cover four games) |
 | `npm --prefix gaming run typecheck` | pass |
 | `npm --prefix gaming run strings` | pass: Hudhud 7 languages, 194 strings, and 60 names of worlds and subjects |
 | `npm --prefix gaming run build:release` | pass: four games; Hudhud 1,456,166 bytes of script, 7,238 of style |
@@ -15,7 +15,7 @@ _26 November 2026. What was run is listed with its result. What was not run is l
 | `node --test workers/games/test/*.test.mjs` | **38 tests, all pass** |
 | `gaming/tools/hudhud-play.ts`, seven runs | all pass with no console error: en at Low, Medium and High (1920×1080), en Challenge (1280×800), ar (1280×800), ur Story (390×844), id (844×390) |
 | `gaming/tools/hudhud-rebuild.ts 12 medium` | memory level after twelve rebuilds |
-| `gaming/tools/hudhud-checks.ts` | fifteen checks pass in Chrome (the ten below, and: a tab opened earlier takes up what another tab saved and wipes nothing; the skip link lands on the game; pause and go on in seven ways, after each of which the game still answers; the explorer is the same in the settings and on the Atlas before a quest, after one and after a reload; a stand-in controller goes on and back in a talk, pauses and flies): a quest left in the middle comes back after the page is loaded again; a finished quest is recorded and not offered as unfinished; a key given to an action works and is remembered; a redraw keeps the quest; with WebGL refused the quest is finished from the list in words; a page closed in the middle of a talk keeps the last step; each save slot keeps its own place; the Atlas shows ten worlds and fifty pages and one comes home, in English and in Arabic |
+| `gaming/tools/hudhud-checks.ts` | eighteen checks pass in Chrome (the three newest are of the device check: [`../device-preflight.md`](../device-preflight.md); the rest: the ten below, and: a tab opened earlier takes up what another tab saved and wipes nothing; the skip link lands on the game; pause and go on in seven ways, after each of which the game still answers; the explorer is the same in the settings and on the Atlas before a quest, after one and after a reload; a stand-in controller goes on and back in a talk, pauses and flies): a quest left in the middle comes back after the page is loaded again; a finished quest is recorded and not offered as unfinished; a key given to an action works and is remembered; a redraw keeps the quest; with WebGL refused the quest is finished from the list in words; a page closed in the middle of a talk keeps the last step; each save slot keeps its own place; the Atlas shows ten worlds and fifty pages and one comes home, in English and in Arabic |
 | The museum's `npm run validate`, `npm test`, `npm run build` | **not run**: no museum file (`data/`, `content/`, `site/`, `i18n/`, `schema/`) is changed; the games' rule sends a change confined to the games to the games' suite |
 
 ## What the 114 tests hold

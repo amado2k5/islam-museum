@@ -91,7 +91,9 @@ const ev = <T>(page: Page, js: string) => page.evaluate(js) as Promise<T>;
 {
   const ctx = await browser.newContext({ viewport: { width: 1280, height: 800 } });
   await ctx.addInitScript("const g = HTMLCanvasElement.prototype.getContext; HTMLCanvasElement.prototype.getContext = function (t, ...a) { return /webgl/.test(t) ? null : g.call(this, t, ...a); };");
-  const page = await open(ctx, "&fresh=1");
+  // The device check would refuse a browser without WebGL 2 at the door; this check is of what the game does if
+  // the graphics fail after the door, so the door is held open with the testing override.
+  const page = await open(ctx, "&fresh=1&preflight=off");
   await page.locator(".hub button.primary").click();
   await page.waitForTimeout(1500);
   const told = await ev<{ scene: unknown; toast: string | null }>(page, "({ scene: window.__HH__.where(), toast: document.querySelector('.toast') ? document.querySelector('.toast').textContent : null })");
@@ -251,6 +253,55 @@ const ev = <T>(page: Page, js: string) => page.evaluate(js) as Promise<T>;
   const y1 = (await ev<{ y: number }>(page, "window.__HH__.where()")).y;
   await ev(page, "window.__pad.buttons[0].pressed = false");
   record("a controller goes on and back in a talk, pauses and flies (a stand-in pad, not a real one)", l0 === 0 && l1 === 1 && l2 === 0 && over === null && paused === 1 && resumed === 0 && y1 < y0 - 20, { l0, l1, l2, over, paused, resumed, y0, y1 });
+  await ctx.close();
+}
+// 4i. The door. A phone is told plainly, in its language, and nothing of the game is fetched; a window too small
+// is told so and the game starts by itself when it is made larger; a browser without WebGL 2 is told why.
+{
+  const heavy = (urls: string[]) => urls.filter((u) => /phaser|\/ui\/app\.ts|\/scenes\/|\/art\//.test(u));
+  const refusedPage = async (page: Page) => ev<{ h1: string | null; reasons: string[]; items: number; dir: string; lang: string; hub: number; canvas: number; focus: string; retry: number; museum: string | null; about: number }>(page, "({ h1: document.querySelector('.im-unsupported h1')?.textContent ?? null, reasons: (window.__IM_PREFLIGHT__ || {}).reasons || [], items: document.querySelectorAll('.im-unsupported li').length, dir: document.documentElement.dir, lang: document.documentElement.lang, hub: document.querySelectorAll('.hub').length, canvas: document.querySelectorAll('canvas').length, focus: document.activeElement?.tagName ?? '', retry: document.querySelectorAll('.im-unsupported button').length, museum: document.querySelector('.im-unsupported a')?.getAttribute('href') ?? null, about: document.querySelectorAll('.im-unsupported section p').length })");
+  const phones: Record<string, unknown> = {};
+  let phonesOk = true;
+  for (const lang of ["ar", "en", "ur", "fr", "es", "tr", "id"]) {
+    const ctx = await browser.newContext({ viewport: { width: 390, height: 844 }, screen: { width: 390, height: 844 }, hasTouch: true, isMobile: true, userAgent: "Mozilla/5.0 (iPhone; CPU iPhone OS 19_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/19.0 Mobile/15E148 Safari/604.1" });
+    const page = await ctx.newPage();
+    const urls: string[] = [];
+    page.on("request", (r) => urls.push(r.url()));
+    page.on("pageerror", (e) => errors.push(String(e)));
+    await page.goto(`${served.base}/games/hudhud/index.html?lang=${lang}&music=off`);
+    await page.waitForSelector(".im-unsupported h1", { timeout: 20000 });
+    const seen = await refusedPage(page);
+    const good = seen.reasons.includes("phone") && !!seen.h1 && seen.items >= 1 && seen.hub === 0 && seen.canvas === 0 && heavy(urls).length === 0 && seen.dir === (lang === "ar" || lang === "ur" ? "rtl" : "ltr") && seen.focus === "MAIN" && seen.retry === 1 && seen.museum === `https://islam.museum/${lang}/` && seen.about === 3;
+    phones[lang] = { ...seen, heavyRequests: heavy(urls), requests: urls.length };
+    phonesOk &&= good;
+    if (outDir && (lang === "ar" || lang === "en")) await page.screenshot({ path: resolve(outDir, `unsupported-phone-${lang}.png`) });
+    await ctx.close();
+  }
+  record("a phone is told it is not supported, in seven languages, and none of the game is fetched", phonesOk, phones);
+
+  let ctx = await browser.newContext({ viewport: { width: 1000, height: 700 }, screen: { width: 1920, height: 1080 } });
+  let page = await ctx.newPage();
+  page.on("pageerror", (e) => errors.push(String(e)));
+  await page.goto(`${served.base}/games/hudhud/index.html?lang=en&music=off&fresh=1`);
+  await page.waitForSelector(".im-unsupported h1", { timeout: 20000 });
+  const small = await refusedPage(page);
+  await page.setViewportSize({ width: 1300, height: 850 });
+  const started = await page.waitForFunction("window.__HH__ && window.__HH__.ready === true && document.querySelectorAll('.hub .world').length === 10", undefined, { timeout: 20000 }).then(() => true, () => false);
+  const left = await ev<number>(page, "document.querySelectorAll('.im-unsupported').length");
+  record("a window too small is told so, and the game starts by itself when it is made larger", small.reasons.join() === "window-small" && started && left === 0, { small, started, left });
+  await ctx.close();
+
+  ctx = await browser.newContext({ viewport: { width: 1280, height: 800 } });
+  await ctx.addInitScript("const g = HTMLCanvasElement.prototype.getContext; HTMLCanvasElement.prototype.getContext = function (t, ...a) { return /webgl/.test(t) ? null : g.call(this, t, ...a); };");
+  page = await ctx.newPage();
+  const urls: string[] = [];
+  page.on("request", (r) => urls.push(r.url()));
+  await page.goto(`${served.base}/games/hudhud/index.html?lang=en&music=off&fresh=1`);
+  await page.waitForSelector(".im-unsupported h1", { timeout: 20000 });
+  const noGl = await refusedPage(page);
+  await page.locator(".im-unsupported button").click();
+  const still = await refusedPage(page);
+  record("a browser without WebGL 2 is told why, before the engine is fetched, and trying again does not loop", noGl.reasons.join() === "webgl2" && heavy(urls).length === 0 && still.reasons.join() === "webgl2" && still.h1 !== null, { noGl, heavy: heavy(urls) });
   await ctx.close();
 }
 // 5. The Atlas: fifty named pages in ten worlds, one of them open; play it, come back, and find its page home.

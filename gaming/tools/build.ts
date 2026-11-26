@@ -56,7 +56,7 @@ for (const g of registry.games) {
 const built = registry.games.filter((g) => g.page !== null);
 if (built.length === 0) throw new Error("no game has a page: there is nothing to build");
 
-const alias = { "@im/kernel": "packages/kernel/src", "@im/worldkit": "packages/worldkit/src", "@im/atlas": "games/atlas/src", "@im/audio": "packages/audio/src", "@im/golden-age": "games/golden-age/src", "@im/granada": "games/granada/src", "@im/hudhud": "games/hudhud/src" };
+const alias = { "@im/kernel": "packages/kernel/src", "@im/worldkit": "packages/worldkit/src", "@im/atlas": "games/atlas/src", "@im/audio": "packages/audio/src", "@im/golden-age": "games/golden-age/src", "@im/granada": "games/granada/src", "@im/hudhud": "games/hudhud/src", "@im/platform": "packages/platform/src" };
 rmSync(out, { recursive: true, force: true });
 await build({
   // The pages live in games/<id>/, and that folder is the root here so that a game's address is /<id>/.

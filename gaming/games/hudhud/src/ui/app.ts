@@ -26,8 +26,8 @@ const QUEST = "w03q1-ibn-al-haytham";
 
 const query = new URLSearchParams(location.search);
 const lang: Lang = (LANGS as readonly string[]).includes(query.get("lang") ?? "") ? (query.get("lang") as Lang) : "en";
-const hook: Record<string, unknown> = { ready: false, error: null };
-(window as unknown as { __HH__: unknown }).__HH__ = hook;
+// The hook is made by the door (ui/gate.ts) and filled here; opened without the door, the page makes its own.
+const hook: Record<string, unknown> = ((window as unknown as { __HH__?: Record<string, unknown> }).__HH__ ??= { ready: false, error: null });
 
 type Props<K extends keyof HTMLElementTagNameMap> = Partial<HTMLElementTagNameMap[K]> & { class?: string };
 const el = <K extends keyof HTMLElementTagNameMap>(tag: K, props: Props<K> = {}, ...children: Array<Node | string | null | false>): HTMLElementTagNameMap[K] => {
