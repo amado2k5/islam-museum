@@ -1,6 +1,6 @@
 """Granada, hero asset 1: the watermill.
 
-Run:  blender --background --factory-startup --python gaming/art/blender/granada_mill.py -- <out dir> [preview.png]
+Run:  blender --background --factory-startup --python gaming/art/blender/granada_mill3.py -- <out dir> [preview.png]
 
 A two-storey mill house in the manner of al-Andalus: a battered base of coursed rubble, lime-washed walls above,
 a roof of barrel tiles on timber rafters, a round-headed door, shuttered and barred windows, a stair to the upper
@@ -18,7 +18,7 @@ import bpy  # noqa: E402
 from common3 import Part, clear_scene, cut, export_gltf, make_lod, make_materials, render_preview, textures, triangles  # noqa: E402
 
 argv = sys.argv[sys.argv.index("--") + 1:] if "--" in sys.argv else []
-out_dir = os.path.abspath(argv[0]) if argv else os.path.abspath("gaming/media/models/granada/2")
+out_dir = os.path.abspath(argv[0]) if argv else os.path.abspath("gaming/media/models/granada/3")
 preview = os.path.abspath(argv[1]) if len(argv) > 1 else None
 
 clear_scene()

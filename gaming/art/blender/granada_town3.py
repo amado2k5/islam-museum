@@ -1,6 +1,6 @@
 """Granada: the town's kit. Houses, a wall with its tower and gate, scaffolding, a market stall.
 
-Run:  blender --background --factory-startup --python gaming/art/blender/granada_town.py -- <out dir> [preview.png]
+Run:  blender --background --factory-startup --python gaming/art/blender/granada_town3.py -- <out dir> [preview.png]
 
 The pieces are written into one file, town.gltf, each as an object of its own name with its origin on the ground at
 the middle of its footprint, so that the game can stand many of them along its streets and they share one set of
@@ -21,7 +21,7 @@ from common3 import Part, clear_scene, export_gltf, make_lod, make_materials, re
 from kit3 import PITCH, arrow_slit, balcony, chimney, corbels, door, eave_tiles, gables, lattice, opening, ridge_caps, roof, string_course, under_eave_wear, wear_course  # noqa: E402
 
 argv = sys.argv[sys.argv.index("--") + 1:] if "--" in sys.argv else []
-out_dir = os.path.abspath(argv[0]) if argv else os.path.abspath("gaming/media/models/granada/2")
+out_dir = os.path.abspath(argv[0]) if argv else os.path.abspath("gaming/media/models/granada/3")
 preview = os.path.abspath(argv[1]) if len(argv) > 1 else None
 
 clear_scene()

@@ -1,6 +1,6 @@
 """Granada: the larger pieces. A palace for the hill, an estate for the olive terrace, a builders' crane.
 
-Run:  blender --background --factory-startup --python gaming/art/blender/granada_landmarks.py -- <out dir> [preview.png]
+Run:  blender --background --factory-startup --python gaming/art/blender/granada_landmarks3.py -- <out dir> [preview.png]
 
 One file, landmarks.gltf, each piece an object of its own name with its origin on the ground at the middle of its
 footprint. x runs along a piece's front, y from the front (negative) to the back, z up.
@@ -21,7 +21,7 @@ from common3 import Part, clear_scene, export_gltf, make_lod, make_materials, re
 from kit3 import arch_band, corbels, door, gable_ends, lattice, merlons, opening, pyramid, roof_at, roof_y, string_course, under_eave_wear, wear_course  # noqa: E402
 
 argv = sys.argv[sys.argv.index("--") + 1:] if "--" in sys.argv else []
-out_dir = os.path.abspath(argv[0]) if argv else os.path.abspath("gaming/media/models/granada/2")
+out_dir = os.path.abspath(argv[0]) if argv else os.path.abspath("gaming/media/models/granada/3")
 preview = os.path.abspath(argv[1]) if len(argv) > 1 else None
 
 clear_scene()

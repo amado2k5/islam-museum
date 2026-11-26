@@ -8,7 +8,7 @@ The games' scenery was generated in the browser, at load, from boxes. This folde
 
 | | |
 |---|---|
-| `blender/common.py` | The kit: tiling texture sets painted by arithmetic (base colour, tangent-space normal, roughness); parts built of bevelled boxes, cylinders and prisms in real metres, each mapped in its own frame; cuts; the glTF export; a lit preview render |
+| `blender/common.py` | The unchanged set-2 kit: texture preparation (photographed where present, painted otherwise), parts built of bevelled boxes, cylinders and prisms in real metres, cuts, the glTF export and a lit preview render |
 | `blender/kit.py` | Building pieces shared by the unchanged set-2 scripts: roofs, openings, doors, chimneys and merlons |
 | `blender/granada_mill.py` | Granada set 2, unchanged: the watermill |
 | `blender/granada_town.py` | Granada set 2, unchanged: four houses, wall, tower, gate, scaffolding and stall in one town kit |
