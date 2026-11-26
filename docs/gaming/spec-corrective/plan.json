@@ -252,5 +252,153 @@
    "next": "In the mandate's order once the shared contracts are stable: Lost Manuscripts and The Knowledge Web first.",
    "founder": null
   }
- ]
+ ],
+ "handoff": {
+  "source": "docs/gaming/spec-production/ (an outside AI reviewer's play of UAT release 20261125-e2930d63426, with twelve prompts)",
+  "received": "2026-11-25",
+  "prompts": [
+   {
+    "id": 1,
+    "title": "Cross-game production foundation",
+    "priority": "P0",
+    "belongsTo": [
+     9,
+     10
+    ],
+    "status": "not-started",
+    "standing": "The games keep their 'prototype' labels, as the prompt itself requires until every gate passes. No shared shell, no lifecycle ownership, no recoverable error state for a failed 3D start beyond falling back to the plan."
+   },
+   {
+    "id": 2,
+    "title": "Granada: the target image and an authored kingdom",
+    "priority": "P1",
+    "belongsTo": [
+     1,
+     4
+    ],
+    "status": "in-progress",
+    "standing": "One authored building (the mill) from the Blender pipeline, loaded in the valley and on UAT; the village, mosque and bridge are still generated at load. No palace on its hill, no construction site, no regional links, none of the target's panels."
+   },
+   {
+    "id": 3,
+    "title": "Granada: a multi-hour campaign and a living simulation",
+    "priority": "P1",
+    "belongsTo": [
+     2,
+     3,
+     4
+    ],
+    "status": "not-started",
+    "standing": "One year of 96 days, about ten minutes. The reviewer won it in nine and lost it by neglect in three."
+   },
+   {
+    "id": 4,
+    "title": "The Golden Age: the target city and chapters that differ",
+    "priority": "P1",
+    "belongsTo": [
+     6
+    ],
+    "status": "not-started",
+    "standing": "An 8 by 6 district, nine kinds of building; the three chapters differ in start and goal and look alike."
+   },
+   {
+    "id": 5,
+    "title": "The Golden Age: economy, trade, endowments, balance, state",
+    "priority": "P1",
+    "belongsTo": [
+     5
+    ],
+    "status": "not-started",
+    "standing": "The reviewer's two runs of chapter 3 (a trading city that also builds wins; trade and heavy tax alone ends with 2,248 coins and loses) are to be kept as regressions. The scripted merchant still wins 1,000 in 1,000."
+   },
+   {
+    "id": 6,
+    "title": "Atlas: the target globe, the blank-render defect, the full challenge",
+    "priority": "P1",
+    "belongsTo": [
+     7,
+     8
+    ],
+    "status": "in-progress",
+    "standing": "The defect is fixed and kept by the play script (pull request 8276). No terrain, clouds, night lights, layers, timeline, image clue, practice sets or hint inventory."
+   },
+   {
+    "id": 7,
+    "title": "Time, seasons, weather, life, physics and sound across the games",
+    "priority": "P1",
+    "belongsTo": [
+     1,
+     4,
+     6,
+     8
+    ],
+    "status": "not-started",
+    "standing": "Granada has four seasons of light and foliage, rain, a wheel that turns with the water, carts and walkers the reviewer could not make out. No day and night, no wind, no sound but the music."
+   },
+   {
+    "id": 8,
+    "title": "Interface fidelity, onboarding, access, right-to-left, small windows",
+    "priority": "P1",
+    "belongsTo": [
+     4,
+     9
+    ],
+    "status": "not-started",
+    "standing": "Keys and labels exist and were confirmed. No full keyboard traversal test, no VoiceOver test, no 1280 by 800 test, no native reading of any language."
+   },
+   {
+    "id": 9,
+    "title": "Performance, memory, renderer and crash prevention",
+    "priority": "P0",
+    "belongsTo": [
+     9
+    ],
+    "status": "not-started",
+    "standing": "Frame times on one machine. No heap, no soak, no device-loss handling, no lifecycle stress."
+   },
+   {
+    "id": 10,
+    "title": "Historical scenarios, missions, events and replay",
+    "priority": "P2",
+    "belongsTo": [
+     3,
+     6,
+     8,
+     13
+    ],
+    "status": "not-started",
+    "standing": "Nothing beyond the scenarios that exist. Every historical statement would need a museum record or an approved source."
+   },
+   {
+    "id": 11,
+    "title": "A permanent release regression suite",
+    "priority": "P0",
+    "belongsTo": [
+     0,
+     12
+    ],
+    "status": "in-progress",
+    "standing": "The play scripts, the UAT check and the offline package's check run the core loops; the Atlas blank-round case is in the play script and fails without a reload to mask it. Not yet: the two chapter 3 trade runs, a release checklist with reviewer and evidence per case, the visual frames set beside the targets."
+   },
+   {
+    "id": 12,
+    "title": "Production release acceptance and handoff",
+    "priority": "P1",
+    "belongsTo": [
+     10,
+     12
+    ],
+    "status": "not-started",
+    "standing": "No game is near it. Nothing is to be called final."
+   }
+  ],
+  "ownerQuestions": [
+   "Are the three target images binding for composition and scope, with adaptations for small windows and access allowed?",
+   "Campaign lengths: tutorials of 15 to 30 minutes, scenarios of 30 to 60, one campaign of three hours or more in each simulation game; Atlas five rounds a day with unlimited practice?",
+   "The historical scope and who reviews it (disasters, diplomacy, conflict, disease, famine, unrest, institutions, dress, buildings, dates, maps).",
+   "The reference machines, browsers and graphics presets the performance gates are held to.",
+   "Whether Granada's first-person and photo modes are needed for the first production release.",
+   "Raised by the developer, about the target images: the Atlas image shows an account icon and the word 'Compete' (the games have no accounts and compare no scores, and the reviewer's own prompts say to add none); it offers 'Political Borders' (Atlas leaves modern borders out on purpose); and the Golden Age image has a 'Military' category (the game has none and its design asks for none). None is built until the founder says."
+  ]
+ }
 }
