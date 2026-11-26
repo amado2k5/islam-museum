@@ -811,6 +811,70 @@
     "R6"
    ],
    "editorApproved": null
+  },
+  {
+   "id": "HR-HH-14",
+   "game": "Hudhud",
+   "claim": "The museum's record says al-Kindi wrote the earliest treatise on breaking ciphers that survives. In it he counts the letters of a long sample of the language, ranks them from most to fewest, and compares that with the symbols of the secret message.",
+   "context": "The al-Kindi quest: the answer to 'Ask how to begin' and the first part of the museum note (gaming/games/hudhud/src/content/cipher.ts; strings cf_count_1, cf_note_2)",
+   "sources": [
+    "person/al-kindi",
+    "invention/frequency-analysis-al-kindi"
+   ],
+   "kind": "sourced",
+   "uncertainty": "Taken from the museum's record of the method, which cites the 1987 Damascus edition of his treatise and TDV; the record itself has not been through historical review. A reviewer should check that 'earliest that survives' is the record's wording after TDV (the earliest surviving treatise, with earlier concealment acknowledged) and not 'first ever', and that 'a long sample of the language' matches the record's 'a sample of a known language'.",
+   "author": "Claude Code (claude-sonnet-5-5), an AI agent",
+   "reviewer": null,
+   "decision": "historical review pending",
+   "approved": null,
+   "note": "",
+   "forReview": [
+    "R1",
+    "R6"
+   ],
+   "editorApproved": null
+  },
+  {
+   "id": "HR-HH-15",
+   "game": "Hudhud",
+   "claim": "He warns that a short message can mislead. And he tests a guess by looking at which letters stand side by side and at the usual openings of messages.",
+   "context": "The al-Kindi quest: the answer to 'Ask about short messages' and the second part of the museum note (strings cf_short_1, cf_note_2); the Challenge puzzle's short message that ranking alone gets wrong (content/cipher.ts)",
+   "sources": [
+    "person/al-kindi",
+    "invention/frequency-analysis-al-kindi"
+   ],
+   "kind": "sourced",
+   "uncertainty": "From the museum's prose on the record, after the 1987 edition. A reviewer should check the exact sense of the short-sample warning (the record says a short message may depart from ordinary usage and a guess needs checking against letter combinations and context) and that 'the usual openings of messages' is how the record puts conventional openings. The Challenge puzzle is the game's own illustration of the warning, not a case from his treatise.",
+   "author": "Claude Code (claude-sonnet-5-5), an AI agent",
+   "reviewer": null,
+   "decision": "historical review pending",
+   "approved": null,
+   "note": "",
+   "forReview": [
+    "R1",
+    "R6"
+   ],
+   "editorApproved": null
+  },
+  {
+   "id": "HR-HH-16",
+   "game": "Hudhud",
+   "claim": "The game uses drawn signs in place of Arabic letters, a page of the Atlas that the storm turned into secret marks, a fixed opening of two signs on every page (the feather, then the sun), the young messenger, and one imagined line for al-Kindi ('Do not guess. Count first, then compare.'). The three ways of playing and their rows are the game's own.",
+   "context": "The al-Kindi quest as a whole; the museum note says so (cf_note_1, cf_note_3, cf_note_4)",
+   "sources": [],
+   "kind": "reconstruction",
+   "uncertainty": "A simplification for play. Al-Kindi worked with the letters of Arabic; the signs are the game's, so that the puzzle is the same in every language. The two-sign opening is a game rule standing in for the record's 'usual openings of messages'; the record does not say pages of any book began with a fixed opening. The messenger is an invented child. Al-Kindi's one line is marked on the page as imagined words. The note also says that the record calls the treatise the earliest that survives and does not say he invented all secret writing: a reviewer should check that this line keeps the record's limit.",
+   "author": "Claude Code (claude-sonnet-5-5), an AI agent",
+   "reviewer": null,
+   "decision": "historical review pending",
+   "approved": null,
+   "note": "",
+   "forReview": [
+    "R1",
+    "R3",
+    "R6"
+   ],
+   "editorApproved": null
   }
  ],
  "roster": [
