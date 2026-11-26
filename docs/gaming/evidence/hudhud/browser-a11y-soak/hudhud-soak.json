@@ -1,0 +1,446 @@
+{
+ "base": "https://uat-games.islam.museum",
+ "release": "20261126-709707701f2",
+ "commit": "709707701f21a7d0507f0a02bb99ac4cd291511b",
+ "ran": "2026-11-26T21:07:21.980Z",
+ "minutes": 10,
+ "cycles": 134,
+ "unfinished": 0,
+ "machine": "darwin arm64",
+ "note": "A pass on this machine is not a pass on the two reference machines (M1 Air 8 GB; Windows 11 i5-1135G7 8 GB). The first three minutes are treated as warm-up, matching the Granada soak pattern; raw minute-zero samples remain in the evidence.",
+ "samples": [
+  {
+   "minute": 0,
+   "cycles": 1,
+   "questInfoCapturedAt": "end of last completed quest, before Atlas teardown",
+   "lastQuestDone": true,
+   "heapBytes": 65242608,
+   "heapLimitBytes": 4395630592,
+   "domNodes": 316,
+   "listeners": {
+    "registered": 87,
+    "live": 54,
+    "kinds": 66
+   },
+   "textures": 48,
+   "canvas": [
+    1280,
+    720
+   ],
+   "drawCalls": 15,
+   "frames": {
+    "frames": 410,
+    "durationMs": 3420.3,
+    "meanMs": 8.342,
+    "p50Ms": 8.3,
+    "p95Ms": 9.1,
+    "p99Ms": 9.3,
+    "maxMs": 14.3,
+    "minMs": 2.6,
+    "over16_7": 0,
+    "over33_3": 0,
+    "over50": 0,
+    "avgFps": 119.873
+   },
+   "atlas": 10
+  },
+  {
+   "minute": 1,
+   "cycles": 14,
+   "questInfoCapturedAt": "end of last completed quest, before Atlas teardown",
+   "lastQuestDone": true,
+   "heapBytes": 69219852,
+   "heapLimitBytes": 4395630592,
+   "domNodes": 313,
+   "listeners": {
+    "registered": 555,
+    "live": 119,
+    "kinds": 66
+   },
+   "textures": 48,
+   "canvas": [
+    1280,
+    720
+   ],
+   "drawCalls": 15,
+   "frames": {
+    "frames": 408,
+    "durationMs": 3399.5,
+    "meanMs": 8.332,
+    "p50Ms": 8.3,
+    "p95Ms": 9.1,
+    "p99Ms": 9.2,
+    "maxMs": 9.4,
+    "minMs": 7.2,
+    "over16_7": 0,
+    "over33_3": 0,
+    "over50": 0,
+    "avgFps": 120.018
+   },
+   "atlas": 10
+  },
+  {
+   "minute": 2,
+   "cycles": 27,
+   "questInfoCapturedAt": "end of last completed quest, before Atlas teardown",
+   "lastQuestDone": true,
+   "heapBytes": 68827360,
+   "heapLimitBytes": 4395630592,
+   "domNodes": 313,
+   "listeners": {
+    "registered": 1023,
+    "live": 184,
+    "kinds": 66
+   },
+   "textures": 48,
+   "canvas": [
+    1280,
+    720
+   ],
+   "drawCalls": 15,
+   "frames": {
+    "frames": 409,
+    "durationMs": 3406.1,
+    "meanMs": 8.328,
+    "p50Ms": 8.3,
+    "p95Ms": 9.1,
+    "p99Ms": 9.3,
+    "maxMs": 9.7,
+    "minMs": 4.8,
+    "over16_7": 0,
+    "over33_3": 0,
+    "over50": 0,
+    "avgFps": 120.079
+   },
+   "atlas": 10
+  },
+  {
+   "minute": 3,
+   "cycles": 41,
+   "questInfoCapturedAt": "end of last completed quest, before Atlas teardown",
+   "lastQuestDone": true,
+   "heapBytes": 69054384,
+   "heapLimitBytes": 4395630592,
+   "domNodes": 313,
+   "listeners": {
+    "registered": 1527,
+    "live": 254,
+    "kinds": 66
+   },
+   "textures": 48,
+   "canvas": [
+    1280,
+    720
+   ],
+   "drawCalls": 15,
+   "frames": {
+    "frames": 408,
+    "durationMs": 3401.6,
+    "meanMs": 8.337,
+    "p50Ms": 8.3,
+    "p95Ms": 9.1,
+    "p99Ms": 9.4,
+    "maxMs": 11.8,
+    "minMs": 6.2,
+    "over16_7": 0,
+    "over33_3": 0,
+    "over50": 0,
+    "avgFps": 119.944
+   },
+   "atlas": 10
+  },
+  {
+   "minute": 4,
+   "cycles": 54,
+   "questInfoCapturedAt": "end of last completed quest, before Atlas teardown",
+   "lastQuestDone": true,
+   "heapBytes": 68344373,
+   "heapLimitBytes": 4395630592,
+   "domNodes": 313,
+   "listeners": {
+    "registered": 1995,
+    "live": 319,
+    "kinds": 66
+   },
+   "textures": 48,
+   "canvas": [
+    1280,
+    720
+   ],
+   "drawCalls": 15,
+   "frames": {
+    "frames": 409,
+    "durationMs": 3402.5,
+    "meanMs": 8.319,
+    "p50Ms": 8.3,
+    "p95Ms": 9.2,
+    "p99Ms": 9.3,
+    "maxMs": 9.4,
+    "minMs": 4.3,
+    "over16_7": 0,
+    "over33_3": 0,
+    "over50": 0,
+    "avgFps": 120.206
+   },
+   "atlas": 10
+  },
+  {
+   "minute": 5,
+   "cycles": 67,
+   "questInfoCapturedAt": "end of last completed quest, before Atlas teardown",
+   "lastQuestDone": true,
+   "heapBytes": 68178885,
+   "heapLimitBytes": 4395630592,
+   "domNodes": 313,
+   "listeners": {
+    "registered": 2463,
+    "live": 384,
+    "kinds": 66
+   },
+   "textures": 48,
+   "canvas": [
+    1280,
+    720
+   ],
+   "drawCalls": 15,
+   "frames": {
+    "frames": 406,
+    "durationMs": 3378.6,
+    "meanMs": 8.322,
+    "p50Ms": 8.3,
+    "p95Ms": 9.1,
+    "p99Ms": 9.3,
+    "maxMs": 9.4,
+    "minMs": 5.2,
+    "over16_7": 0,
+    "over33_3": 0,
+    "over50": 0,
+    "avgFps": 120.168
+   },
+   "atlas": 10
+  },
+  {
+   "minute": 6,
+   "cycles": 81,
+   "questInfoCapturedAt": "end of last completed quest, before Atlas teardown",
+   "lastQuestDone": true,
+   "heapBytes": 68634765,
+   "heapLimitBytes": 4395630592,
+   "domNodes": 313,
+   "listeners": {
+    "registered": 2967,
+    "live": 454,
+    "kinds": 66
+   },
+   "textures": 48,
+   "canvas": [
+    1280,
+    720
+   ],
+   "drawCalls": 15,
+   "frames": {
+    "frames": 408,
+    "durationMs": 3398.4,
+    "meanMs": 8.329,
+    "p50Ms": 8.3,
+    "p95Ms": 9.1,
+    "p99Ms": 9.3,
+    "maxMs": 10.7,
+    "minMs": 3.7,
+    "over16_7": 0,
+    "over33_3": 0,
+    "over50": 0,
+    "avgFps": 120.056
+   },
+   "atlas": 10
+  },
+  {
+   "minute": 7,
+   "cycles": 94,
+   "questInfoCapturedAt": "end of last completed quest, before Atlas teardown",
+   "lastQuestDone": true,
+   "heapBytes": 68254973,
+   "heapLimitBytes": 4395630592,
+   "domNodes": 313,
+   "listeners": {
+    "registered": 3435,
+    "live": 519,
+    "kinds": 66
+   },
+   "textures": 48,
+   "canvas": [
+    1280,
+    720
+   ],
+   "drawCalls": 15,
+   "frames": {
+    "frames": 408,
+    "durationMs": 3395.9,
+    "meanMs": 8.323,
+    "p50Ms": 8.3,
+    "p95Ms": 9.1,
+    "p99Ms": 9.4,
+    "maxMs": 11.3,
+    "minMs": 2.3,
+    "over16_7": 0,
+    "over33_3": 0,
+    "over50": 0,
+    "avgFps": 120.145
+   },
+   "atlas": 10
+  },
+  {
+   "minute": 8,
+   "cycles": 107,
+   "questInfoCapturedAt": "end of last completed quest, before Atlas teardown",
+   "lastQuestDone": true,
+   "heapBytes": 68879613,
+   "heapLimitBytes": 4395630592,
+   "domNodes": 313,
+   "listeners": {
+    "registered": 3903,
+    "live": 584,
+    "kinds": 66
+   },
+   "textures": 48,
+   "canvas": [
+    1280,
+    720
+   ],
+   "drawCalls": 15,
+   "frames": {
+    "frames": 408,
+    "durationMs": 3395.7,
+    "meanMs": 8.323,
+    "p50Ms": 8.3,
+    "p95Ms": 9.1,
+    "p99Ms": 9.3,
+    "maxMs": 9.5,
+    "minMs": 4.9,
+    "over16_7": 0,
+    "over33_3": 0,
+    "over50": 0,
+    "avgFps": 120.152
+   },
+   "atlas": 10
+  },
+  {
+   "minute": 9,
+   "cycles": 120,
+   "questInfoCapturedAt": "end of last completed quest, before Atlas teardown",
+   "lastQuestDone": true,
+   "heapBytes": 68742265,
+   "heapLimitBytes": 4395630592,
+   "domNodes": 313,
+   "listeners": {
+    "registered": 4371,
+    "live": 649,
+    "kinds": 66
+   },
+   "textures": 48,
+   "canvas": [
+    1280,
+    720
+   ],
+   "drawCalls": 15,
+   "frames": {
+    "frames": 410,
+    "durationMs": 3412.6,
+    "meanMs": 8.323,
+    "p50Ms": 8.3,
+    "p95Ms": 9.1,
+    "p99Ms": 9.3,
+    "maxMs": 10.8,
+    "minMs": 2.6,
+    "over16_7": 0,
+    "over33_3": 0,
+    "over50": 0,
+    "avgFps": 120.143
+   },
+   "atlas": 10
+  },
+  {
+   "minute": 10,
+   "cycles": 134,
+   "questInfoCapturedAt": "end of last completed quest, before Atlas teardown",
+   "lastQuestDone": true,
+   "heapBytes": 68660881,
+   "heapLimitBytes": 4395630592,
+   "domNodes": 313,
+   "listeners": {
+    "registered": 4875,
+    "live": 719,
+    "kinds": 66
+   },
+   "textures": 48,
+   "canvas": [
+    1280,
+    720
+   ],
+   "drawCalls": 15,
+   "frames": {
+    "frames": 409,
+    "durationMs": 3405.3,
+    "meanMs": 8.326,
+    "p50Ms": 8.3,
+    "p95Ms": 9.2,
+    "p99Ms": 9.4,
+    "maxMs": 9.7,
+    "minMs": 5.9,
+    "over16_7": 0,
+    "over33_3": 0,
+    "over50": 0,
+    "avgFps": 120.107
+   },
+   "atlas": 10
+  }
+ ],
+ "verdict": {
+  "heap": {
+   "measured": true,
+   "warmUpMinutesExcluded": 3,
+   "firstAfterWarmUp": 69054384,
+   "last": 68660881,
+   "peak": 69054384,
+   "delta": -393503,
+   "growthPercent": -0.6,
+   "levelsOff": true
+  },
+  "domNodes": {
+   "measured": true,
+   "warmUpMinutesExcluded": 3,
+   "firstAfterWarmUp": 313,
+   "last": 313,
+   "peak": 313,
+   "delta": 0,
+   "growthPercent": 0,
+   "levelsOff": true
+  },
+  "listeners": {
+   "measured": true,
+   "warmUpMinutesExcluded": 3,
+   "firstAfterWarmUp": 254,
+   "last": 719,
+   "delta": 465,
+   "levelsOff": false
+  },
+  "textures": {
+   "measured": true,
+   "warmUpMinutesExcluded": 3,
+   "firstAfterWarmUp": 48,
+   "last": 48,
+   "delta": 0,
+   "levelsOff": true
+  },
+  "frameTimes": {
+   "measuredSamples": 11,
+   "worstP95Ms": 9.2,
+   "worstP99Ms": 9.4,
+   "framesOver33Ms": 0,
+   "framesOver50Ms": 0,
+   "note": "frame samples come from the quest completed at each minute boundary; each covers only that scripted quest of a few seconds, not the whole minute"
+  }
+ },
+ "levelsOff": false,
+ "errors": []
+}
