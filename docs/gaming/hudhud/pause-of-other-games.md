@@ -9,7 +9,7 @@ _26 November 2026. The founder's instruction, section 0: Hudhud has sole game pr
 | **Atlas** | prototype, on `main` and on UAT | daily game and practice; picture rounds designed, not built; no work in flight | [`../games/atlas.md`](../games/atlas.md) |
 | The eight planned games | planned | nothing built | [`../spec-v2/`](../spec-v2/) |
 
-**They stay in regression.** Every check of the platform still runs all of them: the workspace's 501 tests (354 are theirs), the release build of four games, the smoke run that starts each in Arabic and English behind the Worker's headers, and the Worker's 38 tests. All passed with Hudhud added on 26 November 2026.
+**They stay in regression.** Every check of the platform still runs all of them: the workspace's 508 tests (354 are theirs), the release build of four games, the smoke run that starts each in Arabic and English behind the Worker's headers, and the Worker's 38 tests. All passed with Hudhud added on 26 November 2026.
 
 **What Hudhud touched that is shared**, and why each is the smallest change: listed in [architecture](architecture.md#changed-in-the-shared-platform-the-smallest-that-works). No file under `gaming/games/granada/`, `gaming/games/golden-age/` or `gaming/games/atlas/`, and no `gaming/tools/granada-*.ts`, was changed.
 
@@ -18,5 +18,6 @@ _26 November 2026. The founder's instruction, section 0: Hudhud has sole game pr
 | Date | What was touched | Why |
 |---|---|---|
 | 26 November 2026 | `games/granada/index.html`, `games/golden-age/index.html`, `games/atlas/index.html` (the script each page loads, and one stylesheet link) and a new `src/ui/gate.ts` in each | The founder's directive, section 9: every game stands behind the shared device check. No rule, picture, string or save of those games changed; their tests and the release smoke pass |
+| 26 November 2026 | one line more in each of those three `src/ui/gate.ts` files (`backup: "<id>"`) | The directive, section 8: what each keeps in `localStorage` is backed up to the vault and put back if it goes missing. Their own saving code is untouched |
 
 **UAT** serves release `20261126-63e2fd9dc25` since 26 November 2026: the three earlier games, their code unchanged from the release before, and Hudhud as the fourth. The regression scenarios of the three passed there after it, 12 of 12.

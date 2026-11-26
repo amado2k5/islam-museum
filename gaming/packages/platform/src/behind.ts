@@ -3,6 +3,8 @@
 // and fetch the game only when it may play. A game passes its own strings and its own import, so that a bundler
 // sees them where they are.
 import { gate } from "./gate";
+import { openBackup, type Backup } from "./save/backup";
+import { openStore } from "./save/idb";
 import type { Needs, Reason } from "./preflight";
 
 const LANGS = ["ar", "en", "ur", "fr", "es", "tr", "id"];
@@ -17,6 +19,29 @@ export interface Behind {
   start: () => unknown;
   /** Told of a refusal, for the game's own test hook. */
   refused?: (reasons: Reason[]) => void;
+  /**
+   * The game's id, if what it keeps in localStorage under "im.<id>." is to be backed up to the vault and put back
+   * when it has gone missing (save/backup.ts). For a game whose own saving is not yet in the vault.
+   */
+  backup?: string;
+}
+
+/** Opens the backup and puts back what is missing, before the game reads its storage. Never throws, never waits long. */
+async function backedUp(game: string): Promise<Backup | null> {
+  if (new URLSearchParams(location.search).get("fresh") === "1") return null;
+  try {
+    const store = await openStore(undefined, 1500);
+    const backup = await openBackup(store, window.localStorage, game, () => Date.now());
+    (window as unknown as { __IM_BACKUP__: Backup }).__IM_BACKUP__ = backup;
+    // Copied when the page is hidden or left, and every fifteen seconds while something has changed.
+    const copy = () => void backup.save();
+    document.addEventListener("visibilitychange", () => document.hidden && copy());
+    window.addEventListener("pagehide", copy);
+    window.setInterval(copy, 15_000);
+    return backup;
+  } catch {
+    return null;
+  }
 }
 
 export function behindTheGate(o: Behind): void {
@@ -43,7 +68,8 @@ export function behindTheGate(o: Behind): void {
       // The game sets its own language and direction when it starts; what the refusal page set is undone first.
       document.documentElement.lang = was.lang;
       document.documentElement.dir = was.dir;
-      void o.start();
+      if (o.backup) void backedUp(o.backup).then(() => o.start());
+      else void o.start();
     },
   });
 }

@@ -1,6 +1,6 @@
 # The games' save vault: progress kept on the device, with no account
 
-_26 November 2026. Asked for by the founder's directive of that day ([`hudhud/owner-directive-2026-11-26-production-completion.md`](hudhud/owner-directive-2026-11-26-production-completion.md), section 8) for every game. Code: `gaming/packages/platform/src/save/`. **Hudhud uses it since 26 November 2026. Granada, The Golden Age and Atlas still keep their saves in `localStorage` alone.**_
+_26 November 2026. Asked for by the founder's directive of that day ([`hudhud/owner-directive-2026-11-26-production-completion.md`](hudhud/owner-directive-2026-11-26-production-completion.md), section 8) for every game. Code: `gaming/packages/platform/src/save/`. **Hudhud keeps its progress in it since 26 November 2026. Granada, The Golden Age and Atlas still read and write `localStorage`, and since the same day what they keep there is backed up to the vault and put back if it goes missing.**_
 
 ## What is built
 
@@ -30,9 +30,17 @@ The rules use no clock and make no network request; the time is passed in.
 - **The request to keep data** is made once, after the first press of Play; the answer is shown in the settings and never asked again.
 - Other tabs are told through the channel and take up what was saved.
 
+## The other three games: a backup, not yet the vault as their store
+
+`gaming/packages/platform/src/save/backup.ts`, switched on by one line in each game's first script. Everything a game keeps in `localStorage` under its own prefix (`im.granada.`, `im.golden-age.`, `im.atlas.`) is copied into the vault's two sealed snapshots every fifteen seconds while something has changed, and when the page is hidden or left. When a game is opened and a key it had stored is no longer in `localStorage`, the key is put back before the game reads it; a key that is present is never replaced. No line of those games' own saving was changed.
+
+Tested: seven unit tests (only the game's own keys; what is there is never replaced; progress back after the storage was cleared; an empty copy never written over a good one; a key only another tab stored is kept), and in real Chrome for each of the three games: a key is stored, the backup made, `localStorage` cleared, the page opened again, and everything the game had kept is back (`gaming/tools/platform-gate.ts`).
+
+**What this is not.** It is not IndexedDB as those games' authoritative store, which the directive asks for: they still depend on `localStorage` while they run, they show no saving indicator, no wording, no Export or Import, and a save lost between two fifteen-second copies and a crash is lost. It closes the commonest loss (cleared or evicted `localStorage`) without touching paused games.
+
 ## Not done (each is asked for by the directive)
 
-- **Granada, The Golden Age and Atlas on the vault**, each with a test that its existing save comes across.
+- **Granada, The Golden Age and Atlas with the vault as their store**, with their own saving indicator, wording, manual save, export and import. Each means changing that game's saving code and its tests.
 - A timed autosave during long quiet stretches (there is none because every step saves; a quest with long traversal will need one).
 - Saving refused while it is unsafe, with the reason: nothing in the one quest is unsafe to save, so this has not been needed or built.
 - Import into a chosen slot: an import replaces all three slots, as the confirmation says.

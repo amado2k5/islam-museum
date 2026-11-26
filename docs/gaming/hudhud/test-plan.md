@@ -6,7 +6,7 @@ _26 November 2026. What was run is listed with its result. What was not run is l
 
 | Check | Result |
 |---|---|
-| `npm --prefix gaming test` | **30 files, 501 tests, all pass** (126 are Hudhud's own, in nine files; 21 are the shared platform's: 9 of the device check and 12 of the save vault; the two shared tests of labels and review marks now cover four games) |
+| `npm --prefix gaming test` | **31 files, 508 tests, all pass** (126 are Hudhud's own, in nine files; 28 are the shared platform's: 9 of the device check, 12 of the save vault and 7 of the backup; the two shared tests of labels and review marks now cover four games) |
 | `npm --prefix gaming run typecheck` | pass |
 | `npm --prefix gaming run strings` | pass: Hudhud 7 languages, 209 strings, and 60 names of worlds and subjects |
 | `npm --prefix gaming run build:release` | pass: four games; Hudhud 1,456,166 bytes of script, 7,238 of style |
