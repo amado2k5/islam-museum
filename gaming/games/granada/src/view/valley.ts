@@ -1031,11 +1031,27 @@ export function broadTree(seed: number, far: boolean): MeshData {
     return b.build();
   }
   b.cylinder(f, 0, 0, 0, 0.3, 0.2, 2.6, 6, BARK, false);
+  // The same five draws as before, so that everything made after this tree is what it was.
+  const heart: Array<[number, number, number, number]> = [];
   for (let i = 0; i < 5; i++) {
     const a = (i / 5) * Math.PI * 2 + rng.range(-0.3, 0.3);
     const r = i === 0 ? 0 : rng.range(1.1, 1.7);
     const rad = i === 0 ? 2.2 : rng.range(1.4, 1.9);
-    b.revolve(f, Math.cos(a) * r, (i === 0 ? 2.6 : 2) + rng.range(0, 0.8), Math.sin(a) * r, (t) => [rad * Math.sin(Math.PI * (0.06 + 0.94 * t)), rad * 0.92 * (1 - Math.cos(Math.PI * t))], 7, 4, SHADE_LO, SHADE_HI);
+    heart.push([Math.cos(a) * r, (i === 0 ? 2.6 : 2) + rng.range(0, 0.8), Math.sin(a) * r, rad]);
+  }
+  const lobe = (x: number, y: number, z: number, rad: number, segs = 7, rings = 4) => b.revolve(f, x, y, z, (t) => [rad * Math.sin(Math.PI * (0.06 + 0.94 * t)), rad * 0.9 * (1 - Math.cos(Math.PI * t))], segs, rings, SHADE_LO, SHADE_HI);
+  for (const [x, y, z, rad] of heart) lobe(x, y, z, rad * 0.86);
+  // A crown is not five balls: smaller heads break its outline, round its skirt and over its top.
+  const more = new Rng(hash32("broad-crown", seed >>> 0));
+  for (let i = 0; i < 7; i++) {
+    const a = (i / 7) * Math.PI * 2 + more.range(-0.35, 0.35);
+    const r = more.range(1.9, 2.6);
+    lobe(Math.cos(a) * r, 2.2 + more.range(0, 1.3), Math.sin(a) * r, more.range(0.75, 1.15), 6, 3);
+  }
+  for (let i = 0; i < 4; i++) {
+    const a = (i / 4) * Math.PI * 2 + more.range(-0.5, 0.5);
+    const r = more.range(0.4, 1.2);
+    lobe(Math.cos(a) * r, 4.3 + more.range(0, 1.1), Math.sin(a) * r, more.range(0.8, 1.2), 6, 3);
   }
   return b.build();
 }
@@ -1053,7 +1069,15 @@ export function orchardTree(seed: number, far: boolean): MeshData {
   for (let i = 0; i < 3; i++) {
     const a = (i / 3) * Math.PI * 2 + rng.range(-0.4, 0.4);
     const rad = rng.range(1.25, 1.55);
-    b.revolve(f, Math.cos(a) * 0.7, 1.1 + rng.range(0, 0.5), Math.sin(a) * 0.7, (t) => [rad * Math.sin(Math.PI * (0.06 + 0.94 * t)), rad * 0.9 * (1 - Math.cos(Math.PI * t))], 7, 4, SHADE_LO, SHADE_HI);
+    b.revolve(f, Math.cos(a) * 0.7, 1.1 + rng.range(0, 0.5), Math.sin(a) * 0.7, (t) => [rad * 0.9 * Math.sin(Math.PI * (0.06 + 0.94 * t)), rad * 0.82 * (1 - Math.cos(Math.PI * t))], 7, 4, SHADE_LO, SHADE_HI);
+  }
+  // Smaller heads round the first three, so that the tree's outline is a tree's and not a ball's.
+  const more = new Rng(hash32("orchard-crown", seed >>> 0));
+  for (let i = 0; i < 5; i++) {
+    const a = (i / 5) * Math.PI * 2 + more.range(-0.4, 0.4);
+    const r = more.range(1.0, 1.5);
+    const rad = more.range(0.55, 0.85);
+    b.revolve(f, Math.cos(a) * r, 1.3 + more.range(0, 1.4), Math.sin(a) * r, (t) => [rad * Math.sin(Math.PI * (0.06 + 0.94 * t)), rad * 0.9 * (1 - Math.cos(Math.PI * t))], 6, 3, SHADE_LO, SHADE_HI);
   }
   return b.build();
 }

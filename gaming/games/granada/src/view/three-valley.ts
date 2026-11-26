@@ -5,11 +5,11 @@
 // The materials, the water and the post-processing follow The Golden Age's renderer (docs/gaming/adr/G-0002). One
 // lesson from it is kept here: the environment map is made once and never swapped during play.
 import * as THREE from "three/webgpu";
-import { attribute, builtinAOContext, float, floor, fract, fwidth, min, mix, mrt, normalMap, normalView, pass, positionWorld, screenUV, sin, smoothstep, texture, uniform, uv, vec2, vec3, vec4 } from "three/tsl";
+import { attribute, builtinAOContext, float, floor, fract, fwidth, min, mix, mrt, normalMap, normalView, pass, positionWorld, screenUV, sin, smoothstep, texture, triplanarTexture, uniform, uv, vec2, vec3, vec4 } from "three/tsl";
 import { ao } from "three/addons/tsl/display/GTAONode.js";
 import { bloom } from "three/addons/tsl/display/BloomNode.js";
 import { SkyMesh } from "three/addons/objects/SkyMesh.js";
-import { Rng } from "@im/kernel/prng";
+import { Rng, hash32 } from "@im/kernel/prng";
 import { instanceMatrix, type MeshData, type Rgb } from "@im/worldkit/mesh";
 import { MATERIALS, type MaterialSpec, type SceneMaterialId } from "@im/worldkit/district/generate";
 import { ROBE_TINTS, awningMesh, palmMesh, personBodyMesh, personHeadMesh, stallMesh } from "@im/worldkit/district/kit";
@@ -289,7 +289,7 @@ export class ValleyRenderer {
     const waterNormal = maps.get("water")?.normal;
     if (!waterNormal) throw new Error("the water texture is missing");
     for (const spec of MATERIALS) {
-      const m = spec.id === "water" || spec.id === "canalwater" ? this.makeWater(spec, waterNormal) : this.makeStandard(spec, maps);
+      const m = spec.id === "water" || spec.id === "canalwater" ? this.makeWater(spec, waterNormal) : spec.id === "foliage" ? this.makeFoliage(spec, seed) : this.makeStandard(spec, maps);
       this.materials.set(spec.id, m);
       this.disposables.push(m);
     }
@@ -483,6 +483,54 @@ export class ValleyRenderer {
     }
     this.setSeason(0);
     this.resize();
+  }
+
+  /**
+   * Leaves. A crown is drawn as a few rounded heads; what makes it read as foliage is the dapple of lit leaf and
+   * shadowed gap over it. That dapple is a small picture made here, of soft light and dark blots, laid over every
+   * crown from three sides (so it needs no unwrapping) and multiplied into the crown's own light and shade.
+   */
+  private makeFoliage(spec: MaterialSpec, seed: number): THREE.Material {
+    const size = 128;
+    const rng = new Rng(hash32("leaves", seed >>> 0));
+    const field = new Float32Array(size * size);
+    // Blots of two sizes, wrapped at the edges so that the picture repeats without a seam.
+    for (let k = 0; k < 420; k++) {
+      const cx = rng.range(0, size);
+      const cy = rng.range(0, size);
+      const r = k < 60 ? rng.range(9, 17) : rng.range(2.5, 6);
+      const lift = (k % 2 ? 1 : -1) * (k < 60 ? 0.35 : 0.55);
+      const reach = Math.ceil(r);
+      for (let dy = -reach; dy <= reach; dy++) {
+        for (let dx = -reach; dx <= reach; dx++) {
+          const d = Math.hypot(dx, dy) / r;
+          if (d >= 1) continue;
+          const x = (((Math.round(cx) + dx) % size) + size) % size;
+          const y = (((Math.round(cy) + dy) % size) + size) % size;
+          field[y * size + x]! += lift * (1 - d * d);
+        }
+      }
+    }
+    const data = new Uint8Array(size * size * 4);
+    for (let i = 0; i < size * size; i++) {
+      // From deep shade between the leaves to full light on them.
+      const v = Math.max(0.42, Math.min(1.18, 0.86 + field[i]! * 0.42));
+      const byte = Math.round((v / 1.18) * 255);
+      data.set([byte, byte, byte, 255], i * 4);
+    }
+    const leaves = new THREE.DataTexture(data, size, size, THREE.RGBAFormat, THREE.UnsignedByteType);
+    leaves.colorSpace = THREE.NoColorSpace;
+    leaves.wrapS = leaves.wrapT = THREE.RepeatWrapping;
+    leaves.generateMipmaps = true;
+    leaves.minFilter = THREE.LinearMipmapLinearFilter;
+    leaves.magFilter = THREE.LinearFilter;
+    leaves.anisotropy = 4;
+    leaves.needsUpdate = true;
+    this.disposables.push(leaves);
+    const m = new THREE.MeshStandardNodeMaterial({ color: color(spec.color), roughness: spec.roughness, metalness: spec.metalness, vertexColors: true, side: THREE.DoubleSide });
+    // 1.18 is the brightest the picture holds; a crown's own colour is multiplied in after this, tree by tree.
+    m.colorNode = triplanarTexture(texture(leaves), null, null, float(0.42)).rgb.mul(1.18);
+    return m;
   }
 
   private makeStandard(spec: MaterialSpec, maps: Map<TextureKind, { map: THREE.DataTexture; normal: THREE.DataTexture }>): THREE.Material {
