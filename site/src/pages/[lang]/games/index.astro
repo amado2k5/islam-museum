@@ -1,0 +1,58 @@
+---
+// Games: the landing page for the museum's games. The games are built, tested and deployed apart from the website
+// (AGENTS.md, founder rule of 25 November 2026), on their own host; this page only names them and links there. It
+// imports nothing of theirs: the list below is kept in step with gaming/games/registry.json by scripts/games-page.test.ts.
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import PageHeader from "../../../components/PageHeader.astro";
+import { ui, LANGS, type Lang } from "../../../lib/i18n";
+
+export function getStaticPaths() { return LANGS.map((lang) => ({ params: { lang }, props: { lang } })); }
+const { lang } = Astro.props as { lang: Lang };
+const T = ui(lang);
+const G = T.games;
+/** The games' own host in production. Each game is a folder of it and takes the page's language in its address. */
+const HOST = "https://games.islam.museum";
+/** In the registry's order. Every one is a prototype there; this page says so and never says more. */
+const GAMES = ["granada", "golden-age", "atlas", "hudhud"] as const;
+---
+<BaseLayout lang={lang} title={G.title} description={G.lede} path={`/${lang}/games/`}>
+  <PageHeader title={G.title} lede={G.lede} crumbs={[{ label: T.nav.home, href: `/${lang}/` }, { label: G.title }]} crumbsLabel={T.entity.breadcrumb} />
+
+  <div class="wrap" style="padding-block:40px 20px" data-pagefind-body>
+    <section aria-labelledby="games-list-h" class="p-sec">
+      <h2 id="games-list-h">{G.list}</h2>
+      <ul class="g-list">
+        {GAMES.map((id) => {
+          const item = G.items[id];
+          return (
+            <li class="g-card">
+              <h3>{item.name} <span class="g-tag ui">{G.prototype}</span></h3>
+              {item.tagline && <p class="ui muted g-tagline">{item.tagline}</p>}
+              <p>{item.blurb}</p>
+              <p class="ui"><a class="g-play" href={`${HOST}/${id}/?lang=${lang}`} rel="noopener" aria-label={`${G.play}: ${item.name}`}>{G.play} <span aria-hidden="true">↗</span></a> <span class="muted">{G.opens}</span></p>
+            </li>
+          );
+        })}
+      </ul>
+    </section>
+
+    <article class="reading ui-body">
+      <section aria-labelledby="games-status-h" class="p-sec">
+        <h2 id="games-status-h">{G.status_title}</h2>
+        <p>{G.status_body}</p>
+        <p>{G.history}</p>
+        <p>{G.needs}</p>
+      </section>
+    </article>
+  </div>
+</BaseLayout>
+
+<style>
+  .g-list { list-style: none; padding: 0; margin: 0 0 32px; display: grid; gap: 16px; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); }
+  .g-card { border: 1px solid var(--line, currentColor); border-radius: 10px; padding: 16px 18px; }
+  .g-card h3 { margin: 0 0 4px; }
+  .g-tag { font-size: 0.72em; font-weight: 600; border: 1px solid currentColor; border-radius: 999px; padding: 1px 8px; margin-inline-start: 6px; white-space: nowrap; vertical-align: middle; }
+  .g-tagline { margin: 0 0 8px; }
+  .g-play { display: inline-block; font-weight: 700; padding: 8px 16px; min-height: 44px; box-sizing: border-box; border: 2px solid currentColor; border-radius: 8px; text-decoration: none; margin-inline-end: 10px; }
+  .g-play:hover, .g-play:focus-visible { text-decoration: underline; }
+</style>
