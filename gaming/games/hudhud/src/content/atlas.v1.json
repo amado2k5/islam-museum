@@ -1,0 +1,2182 @@
+{
+ "format": "im.hudhud.atlas",
+ "version": 1,
+ "note": "The 80 thumbnails the founder supplied on 26 November 2026, the 50 subjects they show, the ten worlds and the museum records each subject is joined to. The thumbnails are pictures and titles for a video series; they are not historical sources, and nothing here is a historical claim. The pictures are not in git: gaming/media/hudhud/source/ holds them on a machine that has the archive. Written by gen script from the archive's own index and a hand-made mapping; checked by src/tests/atlas.gtest.ts and tools/check-sources.py.",
+ "archive": {
+  "file": "hudhud-thumbnails-80.zip",
+  "bytes": 37740828,
+  "sha256": "18c1c869877d7074012fdf6dae9cd54b55a01e1da8b87d39d6df7f8c1e976885",
+  "index": {
+   "file": "thumbnails-index.md",
+   "sha256": "3150dac29a72999c37857207078f16c718fad86fe705d53bd469fb628a26a2ec"
+  },
+  "indexCsv": {
+   "file": "thumbnails-index.csv",
+   "sha256": "97abc7b7e6f48765af043214f53f462d7074673ef247028ea77fb39178067bce"
+  },
+  "status": "supplied by the founder; the index says the English pictures are the files downloaded back from YouTube and the Arabic ones are finished files not yet uploaded. How the pictures were made is not stated in the archive.",
+  "received": "2026-11-26"
+ },
+ "worlds": [
+  {
+   "id": "sky-stars-time",
+   "order": 1,
+   "name": "Sky, Stars and Time"
+  },
+  {
+   "id": "machines-numbers-codes",
+   "order": 2,
+   "name": "Machines, Numbers and Codes"
+  },
+  {
+   "id": "light-earth-water-maps",
+   "order": 3,
+   "name": "Light, Earth, Water and Maps"
+  },
+  {
+   "id": "medicine-care",
+   "order": 4,
+   "name": "Medicine and Care"
+  },
+  {
+   "id": "books-schools-language",
+   "order": 5,
+   "name": "Books, Schools and Language"
+  },
+  {
+   "id": "journeys-maps",
+   "order": 6,
+   "name": "Journeys and Maps"
+  },
+  {
+   "id": "seas-trade-golden-books",
+   "order": 7,
+   "name": "Seas, Trade and Golden Books"
+  },
+  {
+   "id": "cities-builders-civic-care",
+   "order": 8,
+   "name": "Cities, Builders and Civic Care"
+  },
+  {
+   "id": "nature-animals-wonders",
+   "order": 9,
+   "name": "Nature, Animals and Wonders"
+  },
+  {
+   "id": "voices-wisdom-society",
+   "order": 10,
+   "name": "Voices, Wisdom and Society"
+  }
+ ],
+ "subjects": [
+  {
+   "id": "abbas-ibn-firnas",
+   "world": "sky-stars-time",
+   "quest": "w01q1",
+   "kind": "history",
+   "records": [
+    "person/abbas-ibn-firnas"
+   ],
+   "sources": [
+    "english/en-01-ibn-firnas.jpg",
+    "arabic/ar-14-ibn-firnas.jpg"
+   ],
+   "titles": {
+    "en": "The Man Who Tried to Fly",
+    "ar": "أول طيّار"
+   },
+   "named": {
+    "en": "Abbas ibn Firnas",
+    "ar": "ابن فرناس"
+   },
+   "review": "historical review pending"
+  },
+  {
+   "id": "al-sufi",
+   "world": "sky-stars-time",
+   "quest": "w01q2",
+   "kind": "history",
+   "records": [
+    "person/abd-al-rahman-al-sufi"
+   ],
+   "sources": [
+    "english/en-31-al-sufi.jpg",
+    "arabic/ar-38-al-sufi.jpg"
+   ],
+   "titles": {
+    "en": "The Man Who Drew the Stars",
+    "ar": "راسم النجوم"
+   },
+   "named": {
+    "en": "Abd al-Rahman al-Sufi",
+    "ar": "الصوفي"
+   },
+   "review": "historical review pending"
+  },
+  {
+   "id": "al-tusi",
+   "world": "sky-stars-time",
+   "quest": "w01q3",
+   "kind": "history",
+   "records": [
+    "person/nasir-al-din-al-tusi",
+    "building/maragha-observatory"
+   ],
+   "sources": [
+    "english/en-32-al-tusi.jpg"
+   ],
+   "titles": {
+    "en": "The Observatory on the Hill"
+   },
+   "named": {
+    "en": "Nasir al-Din al-Tusi"
+   },
+   "review": "historical review pending"
+  },
+  {
+   "id": "ibn-al-shatir",
+   "world": "sky-stars-time",
+   "quest": "w01q4",
+   "kind": "history",
+   "records": [
+    "person/ibn-al-shatir"
+   ],
+   "sources": [
+    "arabic/ar-08-ibn-al-shatir.jpg"
+   ],
+   "titles": {
+    "ar": "صانع الوقت في دمشق"
+   },
+   "named": {
+    "ar": "ابن الشاطر"
+   },
+   "review": "historical review pending"
+  },
+  {
+   "id": "al-battani",
+   "world": "sky-stars-time",
+   "quest": "w01q5",
+   "kind": "history",
+   "records": [
+    "person/al-battani"
+   ],
+   "sources": [
+    "arabic/ar-10-al-battani.jpg"
+   ],
+   "titles": {
+    "ar": "الرجل الذي قاس السنة"
+   },
+   "named": {
+    "ar": "البتاني"
+   },
+   "review": "historical review pending"
+  },
+  {
+   "id": "al-jazari",
+   "world": "machines-numbers-codes",
+   "quest": "w02q1",
+   "kind": "history",
+   "records": [
+    "person/al-jazari-engineer",
+    "invention/elephant-clock"
+   ],
+   "sources": [
+    "english/en-02-elephant-clock.jpg",
+    "arabic/ar-24-al-jazari.jpg"
+   ],
+   "titles": {
+    "en": "The Elephant Clock",
+    "ar": "أبو الروبوتات"
+   },
+   "named": {
+    "en": "Al-Jazari",
+    "ar": "الجزري"
+   },
+   "review": "historical review pending",
+   "note": "The English thumbnail is titled for the elephant clock and the Arabic one for al-Jazari; one quest."
+  },
+  {
+   "id": "al-khwarizmi",
+   "world": "machines-numbers-codes",
+   "quest": "w02q2",
+   "kind": "history",
+   "records": [
+    "person/al-khwarizmi"
+   ],
+   "sources": [
+    "english/en-07-al-khwarizmi.jpg",
+    "arabic/ar-13-al-khwarizmi.jpg"
+   ],
+   "titles": {
+    "en": "The Star Counters",
+    "ar": "أبو الأرقام"
+   },
+   "named": {
+    "en": "Al-Khwarizmi",
+    "ar": "الخوارزمي"
+   },
+   "review": "historical review pending",
+   "note": "The English story is 'The Star Counters' and the Arabic 'Father of Numbers': two tellings, one subject."
+  },
+  {
+   "id": "al-kindi",
+   "world": "machines-numbers-codes",
+   "quest": "w02q3",
+   "kind": "history",
+   "records": [
+    "person/al-kindi"
+   ],
+   "sources": [
+    "english/en-12-al-kindi.jpg",
+    "arabic/ar-11-al-kindi.jpg"
+   ],
+   "titles": {
+    "en": "The Code Breaker",
+    "ar": "كاسر الشفرات"
+   },
+   "named": {
+    "en": "Al-Kindi",
+    "ar": "الكندي"
+   },
+   "review": "historical review pending"
+  },
+  {
+   "id": "banu-musa",
+   "world": "machines-numbers-codes",
+   "quest": "w02q4",
+   "kind": "history",
+   "records": [
+    "group/banu-musa"
+   ],
+   "sources": [
+    "english/en-13-banu-musa.jpg",
+    "arabic/ar-37-banu-musa.jpg"
+   ],
+   "titles": {
+    "en": "Three Brothers and Their Amazing Machines",
+    "ar": "الإخوة المخترعون"
+   },
+   "named": {
+    "en": "The Banu Musa Brothers",
+    "ar": "بنو موسى"
+   },
+   "review": "historical review pending"
+  },
+  {
+   "id": "al-shatranj",
+   "world": "machines-numbers-codes",
+   "quest": "w02q5",
+   "kind": "history",
+   "records": [
+    "concept/al-shatranj"
+   ],
+   "sources": [
+    "english/en-37-al-shatranj.jpg"
+   ],
+   "titles": {
+    "en": "The Game That Travelled Round the World"
+   },
+   "named": {
+    "en": "Al-Shatranj (chess)"
+   },
+   "review": "historical review pending",
+   "note": "A game and its travels, not a person."
+  },
+  {
+   "id": "ibn-al-haytham",
+   "world": "light-earth-water-maps",
+   "quest": "w03q1",
+   "kind": "history",
+   "records": [
+    "person/ibn-al-haytham",
+    "work/kitab-al-manazir",
+    "invention/camera-obscura"
+   ],
+   "sources": [
+    "english/en-09-ibn-al-haytham.jpg",
+    "arabic/ar-12-ibn-al-haytham.jpg"
+   ],
+   "titles": {
+    "en": "The Man Who Played with Light",
+    "ar": "ساحر الضوء"
+   },
+   "named": {
+    "en": "Ibn al-Haytham",
+    "ar": "ابن الهيثم"
+   },
+   "review": "historical review pending",
+   "note": "Both thumbnails show a glass prism throwing a rainbow; no museum record read for this game says he worked with one. Entered in the review ledger."
+  },
+  {
+   "id": "al-biruni",
+   "world": "light-earth-water-maps",
+   "quest": "w03q2",
+   "kind": "history",
+   "records": [
+    "person/al-biruni-muhammad-ibn-ahmad"
+   ],
+   "sources": [
+    "english/en-15-al-biruni.jpg",
+    "arabic/ar-23-al-biruni.jpg"
+   ],
+   "titles": {
+    "en": "The Man Who Measured the Earth",
+    "ar": "الذي قاس الأرض"
+   },
+   "named": {
+    "en": "Al-Biruni",
+    "ar": "البيروني"
+   },
+   "review": "historical review pending"
+  },
+  {
+   "id": "al-karaji",
+   "world": "light-earth-water-maps",
+   "quest": "w03q3",
+   "kind": "history",
+   "records": [
+    "person/al-karaji"
+   ],
+   "sources": [
+    "english/en-38-al-karaji.jpg"
+   ],
+   "titles": {
+    "en": "The Man Who Found Water Underground"
+   },
+   "named": {
+    "en": "Al-Karaji"
+   },
+   "review": "historical review pending"
+  },
+  {
+   "id": "al-idrisi",
+   "world": "light-earth-water-maps",
+   "quest": "w03q4",
+   "kind": "history",
+   "records": [
+    "person/al-idrisi-muhammad-ibn-abd-allah"
+   ],
+   "sources": [
+    "english/en-10-al-idrisi.jpg",
+    "arabic/ar-19-al-idrisi.jpg"
+   ],
+   "titles": {
+    "en": "The Silver Map",
+    "ar": "راسم خريطة العالم"
+   },
+   "named": {
+    "en": "Al-Idrisi",
+    "ar": "الإدريسي"
+   },
+   "review": "historical review pending"
+  },
+  {
+   "id": "thabit-ibn-qurra",
+   "world": "light-earth-water-maps",
+   "quest": "w03q5",
+   "kind": "history",
+   "records": [
+    "person/thabit-ibn-qurra"
+   ],
+   "sources": [
+    "arabic/ar-09-thabit.jpg"
+   ],
+   "titles": {
+    "ar": "مترجم النجوم"
+   },
+   "named": {
+    "ar": "ثابت بن قرة"
+   },
+   "review": "historical review pending"
+  },
+  {
+   "id": "ibn-al-nafis",
+   "world": "medicine-care",
+   "quest": "w04q1",
+   "kind": "history",
+   "records": [
+    "person/ibn-al-nafis"
+   ],
+   "sources": [
+    "english/en-06-ibn-al-nafis.jpg",
+    "arabic/ar-18-ibn-al-nafis.jpg"
+   ],
+   "titles": {
+    "en": "The Doctor Who Listened to the Heart",
+    "ar": "مكتشف الدورة الدموية"
+   },
+   "named": {
+    "en": "Ibn al-Nafis",
+    "ar": "ابن النفيس"
+   },
+   "review": "historical review pending"
+  },
+  {
+   "id": "ibn-sina",
+   "world": "medicine-care",
+   "quest": "w04q2",
+   "kind": "history",
+   "records": [
+    "person/ibn-sina"
+   ],
+   "sources": [
+    "english/en-17-ibn-sina.jpg",
+    "arabic/ar-20-ibn-sina.jpg"
+   ],
+   "titles": {
+    "en": "The Boy Who Healed a Prince",
+    "ar": "الطبيب الصغير"
+   },
+   "named": {
+    "en": "Ibn Sina",
+    "ar": "ابن سينا"
+   },
+   "review": "historical review pending"
+  },
+  {
+   "id": "al-zahrawi",
+   "world": "medicine-care",
+   "quest": "w04q3",
+   "kind": "history",
+   "records": [
+    "person/al-zahrawi"
+   ],
+   "sources": [
+    "english/en-18-al-zahrawi.jpg",
+    "arabic/ar-21-al-zahrawi.jpg"
+   ],
+   "titles": {
+    "en": "The Surgeon Who Drew His Tools",
+    "ar": "الجرّاح الذي رسم أدواته"
+   },
+   "named": {
+    "en": "Al-Zahrawi",
+    "ar": "الزهراوي"
+   },
+   "review": "historical review pending"
+  },
+  {
+   "id": "al-razi",
+   "world": "medicine-care",
+   "quest": "w04q4",
+   "kind": "history",
+   "records": [
+    "person/al-razi-abu-bakr"
+   ],
+   "sources": [
+    "english/en-22-al-razi.jpg",
+    "arabic/ar-22-al-razi.jpg"
+   ],
+   "titles": {
+    "en": "The Doctor Who Told Illnesses Apart",
+    "ar": "الطبيب المحقق"
+   },
+   "named": {
+    "en": "Al-Razi",
+    "ar": "الرازي"
+   },
+   "review": "historical review pending"
+  },
+  {
+   "id": "ibn-zuhr",
+   "world": "medicine-care",
+   "quest": "w04q5",
+   "kind": "history",
+   "records": [
+    "person/ibn-zuhr"
+   ],
+   "sources": [
+    "arabic/ar-07-ibn-zuhr.jpg"
+   ],
+   "titles": {
+    "ar": "طبيب إشبيلية"
+   },
+   "named": {
+    "ar": "ابن زهر"
+   },
+   "review": "historical review pending",
+   "note": "The museum holds several men of the Ibn Zuhr family; which one the 'physician of Seville' of the thumbnail is must be confirmed by a reviewer."
+  },
+  {
+   "id": "fatima-al-fihri",
+   "world": "books-schools-language",
+   "quest": "w05q1",
+   "kind": "history",
+   "records": [
+    "person/fatima-al-fihri"
+   ],
+   "sources": [
+    "english/en-04-fatima-al-fihri.jpg",
+    "arabic/ar-15-fatima-al-fihri.jpg"
+   ],
+   "titles": {
+    "en": "The Woman Who Built a University",
+    "ar": "بانية أقدم جامعة"
+   },
+   "named": {
+    "en": "Fatima al-Fihri",
+    "ar": "فاطمة الفهرية"
+   },
+   "review": "historical review pending"
+  },
+  {
+   "id": "house-of-wisdom",
+   "world": "books-schools-language",
+   "quest": "w05q2",
+   "kind": "history",
+   "records": [
+    "group/bayt-al-hikma",
+    "building/bayt-al-hikma"
+   ],
+   "sources": [
+    "english/en-05-house-of-wisdom.jpg",
+    "arabic/ar-17-house-of-wisdom.jpg"
+   ],
+   "titles": {
+    "en": "The House of Wisdom",
+    "ar": "بيت الحكمة"
+   },
+   "named": {
+    "en": "The House of Wisdom (Baghdad)",
+    "ar": "بغداد"
+   },
+   "review": "historical review pending",
+   "note": "An institution, not a person."
+  },
+  {
+   "id": "karima-al-marwaziyya",
+   "world": "books-schools-language",
+   "quest": "w05q3",
+   "kind": "history",
+   "records": [
+    "person/karima-al-marwaziyya"
+   ],
+   "sources": [
+    "arabic/ar-01-karima.jpg"
+   ],
+   "titles": {
+    "ar": "المعلّمة في مكّة"
+   },
+   "named": {
+    "ar": "كريمة المروزية"
+   },
+   "review": "historical review pending"
+  },
+  {
+   "id": "al-khalil",
+   "world": "books-schools-language",
+   "quest": "w05q4",
+   "kind": "history",
+   "records": [
+    "person/al-khalil-ibn-ahmad-al-farahidi"
+   ],
+   "sources": [
+    "english/en-27-al-khalil.jpg",
+    "arabic/ar-31-al-khalil.jpg"
+   ],
+   "titles": {
+    "en": "The Man Who Weighed Poetry",
+    "ar": "الذي وزن الشعر"
+   },
+   "named": {
+    "en": "Al-Khalil",
+    "ar": "الخليل بن أحمد"
+   },
+   "review": "historical review pending"
+  },
+  {
+   "id": "rashid-al-din",
+   "world": "books-schools-language",
+   "quest": "w05q5",
+   "kind": "history",
+   "records": [
+    "person/rashid-al-din-hamadani"
+   ],
+   "sources": [
+    "english/en-19-rashid-al-din.jpg",
+    "arabic/ar-39-rashid-al-din.jpg"
+   ],
+   "titles": {
+    "en": "The Man Who Wrote the Whole World",
+    "ar": "كتاب العالم الأول"
+   },
+   "named": {
+    "en": "Rashid al-Din",
+    "ar": "رشيد الدين"
+   },
+   "review": "historical review pending"
+  },
+  {
+   "id": "ibn-battuta",
+   "world": "journeys-maps",
+   "quest": "w06q1",
+   "kind": "history",
+   "records": [
+    "person/ibn-battuta-muhammad"
+   ],
+   "sources": [
+    "english/en-03-ibn-battuta.jpg",
+    "arabic/ar-16-ibn-battuta.jpg"
+   ],
+   "titles": {
+    "en": "The Longest Journey",
+    "ar": "أعظم رحّالة"
+   },
+   "named": {
+    "en": "Ibn Battuta",
+    "ar": "ابن بطوطة"
+   },
+   "review": "historical review pending"
+  },
+  {
+   "id": "ibn-jubayr",
+   "world": "journeys-maps",
+   "quest": "w06q2",
+   "kind": "history",
+   "records": [
+    "person/ibn-jubayr-muhammad"
+   ],
+   "sources": [
+    "english/en-25-ibn-jubayr.jpg",
+    "arabic/ar-29-ibn-jubayr.jpg"
+   ],
+   "titles": {
+    "en": "The Traveller Who Wrote It All Down",
+    "ar": "الرحّالة الذي كتب كل شيء"
+   },
+   "named": {
+    "en": "Ibn Jubayr",
+    "ar": "ابن جبير"
+   },
+   "review": "historical review pending"
+  },
+  {
+   "id": "evliya-celebi",
+   "world": "journeys-maps",
+   "quest": "w06q3",
+   "kind": "history",
+   "records": [
+    "person/evliya-celebi"
+   ],
+   "sources": [
+    "arabic/ar-05-evliya.jpg"
+   ],
+   "titles": {
+    "ar": "الرجل الذي سافر أربعين سنة"
+   },
+   "named": {
+    "ar": "أوليا جلبي"
+   },
+   "review": "historical review pending"
+  },
+  {
+   "id": "al-hasan-al-wazzan",
+   "world": "journeys-maps",
+   "quest": "w06q4",
+   "kind": "history",
+   "records": [
+    "person/leo-africanus"
+   ],
+   "sources": [
+    "arabic/ar-06-al-wazzan.jpg"
+   ],
+   "titles": {
+    "ar": "الرحّالة الذي كتب أفريقيا"
+   },
+   "named": {
+    "ar": "الحسن الوزان"
+   },
+   "review": "historical review pending",
+   "note": "The museum's record is filed under the name Leo Africanus."
+  },
+  {
+   "id": "al-masudi",
+   "world": "journeys-maps",
+   "quest": "w06q5",
+   "kind": "history",
+   "records": [
+    "person/al-masudi"
+   ],
+   "sources": [
+    "english/en-40-al-masudi.jpg"
+   ],
+   "titles": {
+    "en": "The Man Who Wrote the Meadows of Gold"
+   },
+   "named": {
+    "en": "Al-Masudi"
+   },
+   "review": "historical review pending"
+  },
+  {
+   "id": "sailor-of-sohar",
+   "world": "seas-trade-golden-books",
+   "quest": "w07q1",
+   "kind": "history",
+   "records": [
+    "place/sohar"
+   ],
+   "sources": [
+    "english/en-16-sailor-of-sohar.jpg",
+    "arabic/ar-40-sailor-of-sohar.jpg"
+   ],
+   "titles": {
+    "en": "The Sailor of Sohar",
+    "ar": "بحّار صُحار"
+   },
+   "named": {
+    "en": "The Sailor of Sohar",
+    "ar": "الذي أبحر إلى الصين"
+   },
+   "review": "historical review pending",
+   "note": "The thumbnails name no person. Only the port has a museum record so far; who the sailor is, and the ship sewn without nails, need a source before any claim is made."
+  },
+  {
+   "id": "sindbad",
+   "world": "seas-trade-golden-books",
+   "quest": "w07q2",
+   "kind": "literature",
+   "records": [
+    "work/alf-layla-wa-layla"
+   ],
+   "sources": [
+    "english/en-28-sindbad.jpg",
+    "arabic/ar-32-sindbad.jpg"
+   ],
+   "titles": {
+    "en": "The Sailor of the Seven Voyages",
+    "ar": "سبع رحلات عجيبة"
+   },
+   "named": {
+    "en": "Sindbad",
+    "ar": "السندباد"
+   },
+   "review": "labelled as literature; review of the retelling pending",
+   "note": "Story tradition, not biography. The museum's 'Book of Sindbad' (work/kitab-al-sindbad) is a different work, about a sage, and is not used."
+  },
+  {
+   "id": "coffee",
+   "world": "seas-trade-golden-books",
+   "quest": "w07q3",
+   "kind": "history",
+   "records": [
+    "invention/coffee-yemen",
+    "invention/coffeehouse-yemen"
+   ],
+   "sources": [
+    "arabic/ar-02-coffee.jpg"
+   ],
+   "titles": {
+    "ar": "رحلة حبّة البنّ"
+   },
+   "named": {
+    "ar": "حبّة البنّ (القهوة)"
+   },
+   "review": "historical review pending",
+   "note": "A plant and a drink's journey, not a person."
+  },
+  {
+   "id": "mansa-musa",
+   "world": "seas-trade-golden-books",
+   "quest": "w07q4",
+   "kind": "history",
+   "records": [
+    "person/mansa-musa"
+   ],
+   "sources": [
+    "english/en-11-mansa-musa.jpg",
+    "arabic/ar-25-mansa-musa.jpg"
+   ],
+   "titles": {
+    "en": "The King and the River of Gold",
+    "ar": "أغنى رجل في التاريخ"
+   },
+   "named": {
+    "en": "Mansa Musa",
+    "ar": "منسا موسى"
+   },
+   "review": "historical review pending",
+   "note": "The Arabic thumbnail calls him 'the richest man'; the game does not rank wealth or treat it as worth."
+  },
+  {
+   "id": "timbuktu",
+   "world": "seas-trade-golden-books",
+   "quest": "w07q5",
+   "kind": "history",
+   "records": [
+    "place/timbuktu"
+   ],
+   "sources": [
+    "english/en-26-timbuktu.jpg",
+    "arabic/ar-30-timbuktu.jpg"
+   ],
+   "titles": {
+    "en": "The City of Golden Books",
+    "ar": "مدينة الكتب الذهبية"
+   },
+   "named": {
+    "en": "Timbuktu",
+    "ar": "تنبكتو"
+   },
+   "review": "historical review pending",
+   "note": "A city, not a person."
+  },
+  {
+   "id": "mimar-sinan",
+   "world": "cities-builders-civic-care",
+   "quest": "w08q1",
+   "kind": "history",
+   "records": [
+    "person/mimar-sinan"
+   ],
+   "sources": [
+    "english/en-14-mimar-sinan.jpg",
+    "arabic/ar-36-mimar-sinan.jpg"
+   ],
+   "titles": {
+    "en": "The Builder of a Thousand Domes",
+    "ar": "البنّاء العظيم"
+   },
+   "named": {
+    "en": "Mimar Sinan",
+    "ar": "معمار سنان"
+   },
+   "review": "historical review pending"
+  },
+  {
+   "id": "alhambra",
+   "world": "cities-builders-civic-care",
+   "quest": "w08q2",
+   "kind": "history",
+   "records": [
+    "building/alhambra",
+    "building/nasrid-palaces-alhambra"
+   ],
+   "sources": [
+    "arabic/ar-04-alhambra.jpg"
+   ],
+   "titles": {
+    "ar": "قصر الحمراء"
+   },
+   "named": {
+    "ar": "قصر الحمراء"
+   },
+   "review": "historical review pending",
+   "note": "The thumbnail's palace is an imagining, not a reconstruction."
+  },
+  {
+   "id": "nur-al-din",
+   "world": "cities-builders-civic-care",
+   "quest": "w08q3",
+   "kind": "history",
+   "records": [
+    "person/nur-al-din-mahmud-ibn-zangi"
+   ],
+   "sources": [
+    "english/en-29-nur-al-din.jpg",
+    "arabic/ar-34-nur-al-din.jpg"
+   ],
+   "titles": {
+    "en": "The Sultan Who Built Hospitals",
+    "ar": "باني المستشفيات"
+   },
+   "named": {
+    "en": "Nur al-Din",
+    "ar": "نور الدين"
+   },
+   "review": "historical review pending"
+  },
+  {
+   "id": "salah-al-din",
+   "world": "cities-builders-civic-care",
+   "quest": "w08q4",
+   "kind": "history",
+   "records": [
+    "person/salah-al-din-yusuf-ibn-ayyub"
+   ],
+   "sources": [
+    "english/en-20-salah-al-din.jpg",
+    "arabic/ar-26-salah-al-din.jpg"
+   ],
+   "titles": {
+    "en": "The King Who Was Kind",
+    "ar": "الملك الكريم"
+   },
+   "named": {
+    "en": "Salah al-Din",
+    "ar": "صلاح الدين"
+   },
+   "review": "historical review pending"
+  },
+  {
+   "id": "ibn-khaldun",
+   "world": "cities-builders-civic-care",
+   "quest": "w08q5",
+   "kind": "history",
+   "records": [
+    "person/ibn-khaldun"
+   ],
+   "sources": [
+    "english/en-21-ibn-khaldun.jpg",
+    "arabic/ar-27-ibn-khaldun.jpg"
+   ],
+   "titles": {
+    "en": "The Man Who Asked Why Cities Grow Old",
+    "ar": "الذي فهم المدن"
+   },
+   "named": {
+    "en": "Ibn Khaldun",
+    "ar": "ابن خلدون"
+   },
+   "review": "historical review pending"
+  },
+  {
+   "id": "al-jahiz",
+   "world": "nature-animals-wonders",
+   "quest": "w09q1",
+   "kind": "history",
+   "records": [
+    "person/al-jahiz",
+    "work/kitab-al-hayawan"
+   ],
+   "sources": [
+    "english/en-24-al-jahiz.jpg",
+    "arabic/ar-28-al-jahiz.jpg"
+   ],
+   "titles": {
+    "en": "The Man Who Watched Animals",
+    "ar": "الذي أحب الحيوانات"
+   },
+   "named": {
+    "en": "Al-Jahiz",
+    "ar": "الجاحظ"
+   },
+   "review": "historical review pending"
+  },
+  {
+   "id": "ibn-al-baytar",
+   "world": "nature-animals-wonders",
+   "quest": "w09q2",
+   "kind": "history",
+   "records": [
+    "person/ibn-al-baytar"
+   ],
+   "sources": [
+    "english/en-33-ibn-al-baytar.jpg"
+   ],
+   "titles": {
+    "en": "The Man Who Gathered a Thousand Plants"
+   },
+   "named": {
+    "en": "Ibn al-Baytar"
+   },
+   "review": "historical review pending",
+   "note": "History, not medical advice."
+  },
+  {
+   "id": "al-qazwini",
+   "world": "nature-animals-wonders",
+   "quest": "w09q3",
+   "kind": "history",
+   "records": [
+    "person/al-qazwini"
+   ],
+   "sources": [
+    "english/en-39-al-qazwini.jpg"
+   ],
+   "titles": {
+    "en": "The Book of Wonders"
+   },
+   "named": {
+    "en": "Al-Qazwini"
+   },
+   "review": "historical review pending"
+  },
+  {
+   "id": "monkey-and-tortoise",
+   "world": "nature-animals-wonders",
+   "quest": "w09q4",
+   "kind": "literature",
+   "records": [
+    "work/kalila-wa-dimna"
+   ],
+   "sources": [
+    "english/en-08-monkey-and-tortoise.jpg"
+   ],
+   "titles": {
+    "en": "The Monkey and the Tortoise"
+   },
+   "named": {
+    "en": "Kalila wa Dimna"
+   },
+   "review": "labelled as literature; review of the retelling pending",
+   "note": "A fable from Kalila wa Dimna: literature, not biography."
+  },
+  {
+   "id": "pigeon-post",
+   "world": "nature-animals-wonders",
+   "quest": "w09q5",
+   "kind": "history",
+   "records": [
+    "concept/pigeon-post"
+   ],
+   "sources": [
+    "arabic/ar-03-pigeon-post.jpg"
+   ],
+   "titles": {
+    "ar": "رسائل تطير في السماء"
+   },
+   "named": {
+    "ar": "الحمام الرسائلي"
+   },
+   "review": "historical review pending",
+   "note": "A practice, not a person."
+  },
+  {
+   "id": "wallada",
+   "world": "voices-wisdom-society",
+   "quest": "w10q1",
+   "kind": "history",
+   "records": [
+    "person/wallada-bint-al-mustakfi"
+   ],
+   "sources": [
+    "english/en-23-wallada.jpg",
+    "arabic/ar-33-wallada.jpg"
+   ],
+   "titles": {
+    "en": "The Princess Who Wrote Poems",
+    "ar": "الأميرة الشاعرة"
+   },
+   "named": {
+    "en": "Wallada",
+    "ar": "ولّادة"
+   },
+   "review": "historical review pending"
+  },
+  {
+   "id": "nana-asmau",
+   "world": "voices-wisdom-society",
+   "quest": "w10q2",
+   "kind": "history",
+   "records": [
+    "person/nana-asmau"
+   ],
+   "sources": [
+    "english/en-35-nana-asmau.jpg"
+   ],
+   "titles": {
+    "en": "The Teacher of Sokoto"
+   },
+   "named": {
+    "en": "Nana Asma'u"
+   },
+   "review": "historical review pending"
+  },
+  {
+   "id": "al-ghazali",
+   "world": "voices-wisdom-society",
+   "quest": "w10q3",
+   "kind": "history",
+   "records": [
+    "person/al-ghazali-abu-hamid"
+   ],
+   "sources": [
+    "english/en-30-al-ghazali.jpg",
+    "arabic/ar-35-al-ghazali.jpg"
+   ],
+   "titles": {
+    "en": "The Seeker of Truth",
+    "ar": "الباحث عن الحقيقة"
+   },
+   "named": {
+    "en": "Al-Ghazali",
+    "ar": "الغزالي"
+   },
+   "review": "historical review pending"
+  },
+  {
+   "id": "usama-ibn-munqidh",
+   "world": "voices-wisdom-society",
+   "quest": "w10q4",
+   "kind": "history",
+   "records": [
+    "person/usama-ibn-munqidh"
+   ],
+   "sources": [
+    "english/en-34-usama-ibn-munqidh.jpg"
+   ],
+   "titles": {
+    "en": "The Knight Who Wrote Down His Life"
+   },
+   "named": {
+    "en": "Usama ibn Munqidh"
+   },
+   "review": "historical review pending"
+  },
+  {
+   "id": "samarqand",
+   "world": "voices-wisdom-society",
+   "quest": "w10q5",
+   "kind": "history",
+   "records": [
+    "place/samarqand",
+    "invention/paper-mill-samarkand"
+   ],
+   "sources": [
+    "english/en-36-samarqand.jpg"
+   ],
+   "titles": {
+    "en": "The City of Paper and Stars"
+   },
+   "named": {
+    "en": "Samarqand"
+   },
+   "review": "historical review pending",
+   "note": "A city, not a person."
+  }
+ ],
+ "sources": [
+  {
+   "file": "english/en-01-ibn-firnas.jpg",
+   "lang": "en",
+   "episode": 1,
+   "story": "The Man Who Tried to Fly",
+   "named": "Abbas ibn Firnas",
+   "bytes": 338522,
+   "sha256": "3ee6f0ae0a112f0aa8b7ce93b60f54c066f02b6d3e8c4167042c3affcf477b0c",
+   "width": 1280,
+   "height": 720,
+   "indexStatus": "Live on YouTube (uploaded 2026-11-26)",
+   "subject": "abbas-ibn-firnas"
+  },
+  {
+   "file": "english/en-02-elephant-clock.jpg",
+   "lang": "en",
+   "episode": 2,
+   "story": "The Elephant Clock",
+   "named": "Al-Jazari",
+   "bytes": 298099,
+   "sha256": "39ae98a4ef80a68b924ea7ab004ea651257eedfb51d9bbc5e314b28ebe9e94e2",
+   "width": 1280,
+   "height": 720,
+   "indexStatus": "Live on YouTube (uploaded 2026-11-26)",
+   "subject": "al-jazari"
+  },
+  {
+   "file": "english/en-03-ibn-battuta.jpg",
+   "lang": "en",
+   "episode": 3,
+   "story": "The Longest Journey",
+   "named": "Ibn Battuta",
+   "bytes": 353308,
+   "sha256": "ca5cec66a37b2f544bafb48d9ffdd2e2cbdcca2c3d0278089d5580aa97dc1696",
+   "width": 1280,
+   "height": 720,
+   "indexStatus": "Live on YouTube (uploaded 2026-11-26)",
+   "subject": "ibn-battuta"
+  },
+  {
+   "file": "english/en-04-fatima-al-fihri.jpg",
+   "lang": "en",
+   "episode": 4,
+   "story": "The Woman Who Built a University",
+   "named": "Fatima al-Fihri",
+   "bytes": 344802,
+   "sha256": "71373865db1e8c14c742559829ddcf83f16b089b012d9670edddc76a0d0aaac4",
+   "width": 1280,
+   "height": 720,
+   "indexStatus": "Live on YouTube (uploaded 2026-11-26)",
+   "subject": "fatima-al-fihri"
+  },
+  {
+   "file": "english/en-05-house-of-wisdom.jpg",
+   "lang": "en",
+   "episode": 5,
+   "story": "The House of Wisdom",
+   "named": "The House of Wisdom (Baghdad)",
+   "bytes": 401766,
+   "sha256": "793e4a279f525c21289db52e2b89a139da4eb1ddd7e5ed1010473e2d870ad81b",
+   "width": 1280,
+   "height": 720,
+   "indexStatus": "Live on YouTube (uploaded 2026-11-26)",
+   "subject": "house-of-wisdom"
+  },
+  {
+   "file": "english/en-06-ibn-al-nafis.jpg",
+   "lang": "en",
+   "episode": 6,
+   "story": "The Doctor Who Listened to the Heart",
+   "named": "Ibn al-Nafis",
+   "bytes": 347486,
+   "sha256": "2cebeaab83e63bd78ddb821c7b3ac8f23a64c502d901c612d40df9cb9a913362",
+   "width": 1280,
+   "height": 720,
+   "indexStatus": "Live on YouTube (uploaded 2026-11-26)",
+   "subject": "ibn-al-nafis"
+  },
+  {
+   "file": "english/en-07-al-khwarizmi.jpg",
+   "lang": "en",
+   "episode": 7,
+   "story": "The Star Counters",
+   "named": "Al-Khwarizmi",
+   "bytes": 337770,
+   "sha256": "330f84c486199547dcb5c9e4ceb58accf0326775d0155375a0ee30c347f8e54a",
+   "width": 1280,
+   "height": 720,
+   "indexStatus": "Live on YouTube (uploaded 2026-11-26)",
+   "subject": "al-khwarizmi"
+  },
+  {
+   "file": "english/en-08-monkey-and-tortoise.jpg",
+   "lang": "en",
+   "episode": 8,
+   "story": "The Monkey and the Tortoise",
+   "named": "Kalila wa Dimna",
+   "bytes": 354609,
+   "sha256": "b9b67beb9aef2b89b41c95d06809f1152064b77fd362625014d19b6130d4ea81",
+   "width": 1280,
+   "height": 720,
+   "indexStatus": "Live on YouTube (uploaded 2026-11-26)",
+   "subject": "monkey-and-tortoise"
+  },
+  {
+   "file": "english/en-09-ibn-al-haytham.jpg",
+   "lang": "en",
+   "episode": 9,
+   "story": "The Man Who Played with Light",
+   "named": "Ibn al-Haytham",
+   "bytes": 295878,
+   "sha256": "0cd41e12f7b486b21bcb8c16aa44e9184948ba68a0ae22e7c0ef3edd0795b56c",
+   "width": 1280,
+   "height": 720,
+   "indexStatus": "Live on YouTube (uploaded 2026-11-26)",
+   "subject": "ibn-al-haytham"
+  },
+  {
+   "file": "english/en-10-al-idrisi.jpg",
+   "lang": "en",
+   "episode": 10,
+   "story": "The Silver Map",
+   "named": "Al-Idrisi",
+   "bytes": 387945,
+   "sha256": "f3f7bc3ad9f8ad9eb5d3b940f2e57d8d5d5c7714895727c8f59d9fe639528865",
+   "width": 1280,
+   "height": 720,
+   "indexStatus": "Live on YouTube (uploaded 2026-11-26)",
+   "subject": "al-idrisi"
+  },
+  {
+   "file": "english/en-11-mansa-musa.jpg",
+   "lang": "en",
+   "episode": 11,
+   "story": "The King and the River of Gold",
+   "named": "Mansa Musa",
+   "bytes": 306371,
+   "sha256": "b20d0a73e3b11aa179d033c97d7337523ba046beebceea7147ce3fcf4062888a",
+   "width": 1280,
+   "height": 720,
+   "indexStatus": "Live on YouTube (uploaded 2026-11-26)",
+   "subject": "mansa-musa"
+  },
+  {
+   "file": "english/en-12-al-kindi.jpg",
+   "lang": "en",
+   "episode": 12,
+   "story": "The Code Breaker",
+   "named": "Al-Kindi",
+   "bytes": 325152,
+   "sha256": "268f6533981451c01e026b59e5374d51ec8dd704edff69032a6ee63ee0595b41",
+   "width": 1280,
+   "height": 720,
+   "indexStatus": "Live on YouTube (uploaded 2026-11-26)",
+   "subject": "al-kindi"
+  },
+  {
+   "file": "english/en-13-banu-musa.jpg",
+   "lang": "en",
+   "episode": 13,
+   "story": "Three Brothers and Their Amazing Machines",
+   "named": "The Banu Musa Brothers",
+   "bytes": 378065,
+   "sha256": "7d07d05ca4224a64fa26d3959efc4be281671c34e6e3817497e690fa29e61862",
+   "width": 1280,
+   "height": 720,
+   "indexStatus": "Live on YouTube (uploaded 2026-11-26)",
+   "subject": "banu-musa"
+  },
+  {
+   "file": "english/en-14-mimar-sinan.jpg",
+   "lang": "en",
+   "episode": 14,
+   "story": "The Builder of a Thousand Domes",
+   "named": "Mimar Sinan",
+   "bytes": 366472,
+   "sha256": "18ec627aa7387c49739a76417612083012369f5cc2ae4543d43f03e919cf0b12",
+   "width": 1280,
+   "height": 720,
+   "indexStatus": "Live on YouTube (uploaded 2026-11-26)",
+   "subject": "mimar-sinan"
+  },
+  {
+   "file": "english/en-15-al-biruni.jpg",
+   "lang": "en",
+   "episode": 15,
+   "story": "The Man Who Measured the Earth",
+   "named": "Al-Biruni",
+   "bytes": 349172,
+   "sha256": "cdc87eb1dd9ec05ace3c75a42261fb569f3c7690cbfe2e7d86800fa18ddfcccf",
+   "width": 1280,
+   "height": 720,
+   "indexStatus": "Live on YouTube (uploaded 2026-11-26)",
+   "subject": "al-biruni"
+  },
+  {
+   "file": "english/en-16-sailor-of-sohar.jpg",
+   "lang": "en",
+   "episode": 16,
+   "story": "The Sailor of Sohar",
+   "named": "The Sailor of Sohar",
+   "bytes": 332642,
+   "sha256": "2b5b176553fb84a7e817f29c114df72263044e473160a548d9f8ae2c9b933251",
+   "width": 1280,
+   "height": 720,
+   "indexStatus": "Live on YouTube (uploaded 2026-11-26)",
+   "subject": "sailor-of-sohar"
+  },
+  {
+   "file": "english/en-17-ibn-sina.jpg",
+   "lang": "en",
+   "episode": 17,
+   "story": "The Boy Who Healed a Prince",
+   "named": "Ibn Sina",
+   "bytes": 335174,
+   "sha256": "092b48f6d6ce2bb8655297c89697097acdd3bcf6999867688059dc0f6c86e9d1",
+   "width": 1280,
+   "height": 720,
+   "indexStatus": "Live on YouTube (uploaded 2026-11-26)",
+   "subject": "ibn-sina"
+  },
+  {
+   "file": "english/en-18-al-zahrawi.jpg",
+   "lang": "en",
+   "episode": 18,
+   "story": "The Surgeon Who Drew His Tools",
+   "named": "Al-Zahrawi",
+   "bytes": 329984,
+   "sha256": "f6447958d41af89bb2a6c55e2256965f4924dca3e8a5b741bcbabe2efa79dff3",
+   "width": 1280,
+   "height": 720,
+   "indexStatus": "Live on YouTube (uploaded 2026-11-26)",
+   "subject": "al-zahrawi"
+  },
+  {
+   "file": "english/en-19-rashid-al-din.jpg",
+   "lang": "en",
+   "episode": 19,
+   "story": "The Man Who Wrote the Whole World",
+   "named": "Rashid al-Din",
+   "bytes": 378987,
+   "sha256": "cc4c3e67f6a9f2dafc190cd30db3ba8e1331668c001546bf27c5f76392568a04",
+   "width": 1280,
+   "height": 720,
+   "indexStatus": "Live on YouTube (uploaded 2026-11-26)",
+   "subject": "rashid-al-din"
+  },
+  {
+   "file": "english/en-20-salah-al-din.jpg",
+   "lang": "en",
+   "episode": 20,
+   "story": "The King Who Was Kind",
+   "named": "Salah al-Din",
+   "bytes": 341080,
+   "sha256": "32dfb68975537708efbf8b368e917a3dbc8092ecaa550cf1eceb21cf32b60fe9",
+   "width": 1280,
+   "height": 720,
+   "indexStatus": "Live on YouTube (uploaded 2026-11-26)",
+   "subject": "salah-al-din"
+  },
+  {
+   "file": "english/en-21-ibn-khaldun.jpg",
+   "lang": "en",
+   "episode": 21,
+   "story": "The Man Who Asked Why Cities Grow Old",
+   "named": "Ibn Khaldun",
+   "bytes": 351227,
+   "sha256": "09f735dea7becd12a6f0210ffd32452e85687922b0019be5a73875cc3fdc3417",
+   "width": 1280,
+   "height": 720,
+   "indexStatus": "Live on YouTube (uploaded 2026-11-26)",
+   "subject": "ibn-khaldun"
+  },
+  {
+   "file": "english/en-22-al-razi.jpg",
+   "lang": "en",
+   "episode": 22,
+   "story": "The Doctor Who Told Illnesses Apart",
+   "named": "Al-Razi",
+   "bytes": 350008,
+   "sha256": "f405b64ae1c9163685b8ce9391fb0848e27e03942897e3da56dc9d564310d567",
+   "width": 1280,
+   "height": 720,
+   "indexStatus": "Live on YouTube (uploaded 2026-11-26)",
+   "subject": "al-razi"
+  },
+  {
+   "file": "english/en-23-wallada.jpg",
+   "lang": "en",
+   "episode": 23,
+   "story": "The Princess Who Wrote Poems",
+   "named": "Wallada",
+   "bytes": 345157,
+   "sha256": "5def94dea80683d4c171765e87df243c43643df2b913b408d338cd5ea4523802",
+   "width": 1280,
+   "height": 720,
+   "indexStatus": "Live on YouTube (uploaded 2026-11-26)",
+   "subject": "wallada"
+  },
+  {
+   "file": "english/en-24-al-jahiz.jpg",
+   "lang": "en",
+   "episode": 24,
+   "story": "The Man Who Watched Animals",
+   "named": "Al-Jahiz",
+   "bytes": 365844,
+   "sha256": "2b3df4b13bc0d6852a1cb8dad8aab59c0d0cb0b449b2a3a257a09d1aa053525b",
+   "width": 1280,
+   "height": 720,
+   "indexStatus": "Live on YouTube (uploaded 2026-11-26)",
+   "subject": "al-jahiz"
+  },
+  {
+   "file": "english/en-25-ibn-jubayr.jpg",
+   "lang": "en",
+   "episode": 25,
+   "story": "The Traveller Who Wrote It All Down",
+   "named": "Ibn Jubayr",
+   "bytes": 366143,
+   "sha256": "eedee189cb14797ad4415f57707bdd5026b5e64ac832736c3b806fa983ff6b05",
+   "width": 1280,
+   "height": 720,
+   "indexStatus": "Live on YouTube (uploaded 2026-11-26)",
+   "subject": "ibn-jubayr"
+  },
+  {
+   "file": "english/en-26-timbuktu.jpg",
+   "lang": "en",
+   "episode": 26,
+   "story": "The City of Golden Books",
+   "named": "Timbuktu",
+   "bytes": 373846,
+   "sha256": "832c7ffa79b1042abf8020b0c2b758d90d8b7d4e3bacc9a655736ca81037e205",
+   "width": 1280,
+   "height": 720,
+   "indexStatus": "Live on YouTube (uploaded 2026-11-26)",
+   "subject": "timbuktu"
+  },
+  {
+   "file": "english/en-27-al-khalil.jpg",
+   "lang": "en",
+   "episode": 27,
+   "story": "The Man Who Weighed Poetry",
+   "named": "Al-Khalil",
+   "bytes": 304712,
+   "sha256": "74c975cbd11b9da461f4fb7c27168b969c1830a25cf0b2cb93b19aad811ea108",
+   "width": 1280,
+   "height": 720,
+   "indexStatus": "Live on YouTube (uploaded 2026-11-26)",
+   "subject": "al-khalil"
+  },
+  {
+   "file": "english/en-28-sindbad.jpg",
+   "lang": "en",
+   "episode": 28,
+   "story": "The Sailor of the Seven Voyages",
+   "named": "Sindbad",
+   "bytes": 317228,
+   "sha256": "d16d91deacb90c526576e0888db9c3a69e92e4c9a33a9f5d1b85b7cda956d25d",
+   "width": 1280,
+   "height": 720,
+   "indexStatus": "Live on YouTube (uploaded 2026-11-26)",
+   "subject": "sindbad"
+  },
+  {
+   "file": "english/en-29-nur-al-din.jpg",
+   "lang": "en",
+   "episode": 29,
+   "story": "The Sultan Who Built Hospitals",
+   "named": "Nur al-Din",
+   "bytes": 382171,
+   "sha256": "f8e6c7f3f34c68fecccf19ef6c8932d9b557ed2cdef0b79d196be82b137412da",
+   "width": 1280,
+   "height": 720,
+   "indexStatus": "Live on YouTube (uploaded 2026-11-26)",
+   "subject": "nur-al-din"
+  },
+  {
+   "file": "english/en-30-al-ghazali.jpg",
+   "lang": "en",
+   "episode": 30,
+   "story": "The Seeker of Truth",
+   "named": "Al-Ghazali",
+   "bytes": 310935,
+   "sha256": "7be5c2f5cfb22d426c368d6819d5b02360b3162f345ae0ca75799e18ee68f3a1",
+   "width": 1280,
+   "height": 720,
+   "indexStatus": "Live on YouTube (uploaded 2026-11-26)",
+   "subject": "al-ghazali"
+  },
+  {
+   "file": "english/en-31-al-sufi.jpg",
+   "lang": "en",
+   "episode": 31,
+   "story": "The Man Who Drew the Stars",
+   "named": "Abd al-Rahman al-Sufi",
+   "bytes": 356139,
+   "sha256": "5115d7f09aa2f0b6e5d4d610abd570276b91b6ba769a11d254b9b8c584a2dd19",
+   "width": 1280,
+   "height": 720,
+   "indexStatus": "Live on YouTube (uploaded 2026-11-26)",
+   "subject": "al-sufi"
+  },
+  {
+   "file": "english/en-32-al-tusi.jpg",
+   "lang": "en",
+   "episode": 32,
+   "story": "The Observatory on the Hill",
+   "named": "Nasir al-Din al-Tusi",
+   "bytes": 370029,
+   "sha256": "14e206c364338a08ae005ef7b8fbd5153b7f1d6f9fae342c98fcd5b756d024d6",
+   "width": 1280,
+   "height": 720,
+   "indexStatus": "Live on YouTube (uploaded 2026-11-26)",
+   "subject": "al-tusi"
+  },
+  {
+   "file": "english/en-33-ibn-al-baytar.jpg",
+   "lang": "en",
+   "episode": 33,
+   "story": "The Man Who Gathered a Thousand Plants",
+   "named": "Ibn al-Baytar",
+   "bytes": 382025,
+   "sha256": "981692ec531235f7b8dc45f44befa9647b7c0f3438b754beeac50c68daace838",
+   "width": 1280,
+   "height": 720,
+   "indexStatus": "Live on YouTube (uploaded 2026-11-26)",
+   "subject": "ibn-al-baytar"
+  },
+  {
+   "file": "english/en-34-usama-ibn-munqidh.jpg",
+   "lang": "en",
+   "episode": 34,
+   "story": "The Knight Who Wrote Down His Life",
+   "named": "Usama ibn Munqidh",
+   "bytes": 384202,
+   "sha256": "0bc91a25547358bbe87022334326d426f02c7d7aceca0988ba0e62e88275fe67",
+   "width": 1280,
+   "height": 720,
+   "indexStatus": "Live on YouTube (uploaded 2026-11-26)",
+   "subject": "usama-ibn-munqidh"
+  },
+  {
+   "file": "english/en-35-nana-asmau.jpg",
+   "lang": "en",
+   "episode": 35,
+   "story": "The Teacher of Sokoto",
+   "named": "Nana Asma'u",
+   "bytes": 382714,
+   "sha256": "6ebcb1efce94f908e7ec75cc7f1bd25dd55e9004c5d7665d58b51a9a1fac7748",
+   "width": 1280,
+   "height": 720,
+   "indexStatus": "Live on YouTube (uploaded 2026-11-26)",
+   "subject": "nana-asmau"
+  },
+  {
+   "file": "english/en-36-samarqand.jpg",
+   "lang": "en",
+   "episode": 36,
+   "story": "The City of Paper and Stars",
+   "named": "Samarqand",
+   "bytes": 360830,
+   "sha256": "5b6dd979a9fc781b70039f51dbcfc6372db9d1fdb8242f3432bc7d2e82abb84b",
+   "width": 1280,
+   "height": 720,
+   "indexStatus": "Live on YouTube (uploaded 2026-11-26)",
+   "subject": "samarqand"
+  },
+  {
+   "file": "english/en-37-al-shatranj.jpg",
+   "lang": "en",
+   "episode": 37,
+   "story": "The Game That Travelled Round the World",
+   "named": "Al-Shatranj (chess)",
+   "bytes": 320530,
+   "sha256": "e63602893266fd1eab703b3b5d249c1068cd8f89b817803fd296e6323d778031",
+   "width": 1280,
+   "height": 720,
+   "indexStatus": "Live on YouTube (uploaded 2026-11-26)",
+   "subject": "al-shatranj"
+  },
+  {
+   "file": "english/en-38-al-karaji.jpg",
+   "lang": "en",
+   "episode": 38,
+   "story": "The Man Who Found Water Underground",
+   "named": "Al-Karaji",
+   "bytes": 378708,
+   "sha256": "109fc5e830deb66653ac2c92986a1314a42f063b028affc2456b54543d992211",
+   "width": 1280,
+   "height": 720,
+   "indexStatus": "Live on YouTube (uploaded 2026-11-26)",
+   "subject": "al-karaji"
+  },
+  {
+   "file": "english/en-39-al-qazwini.jpg",
+   "lang": "en",
+   "episode": 39,
+   "story": "The Book of Wonders",
+   "named": "Al-Qazwini",
+   "bytes": 375006,
+   "sha256": "c3a1ef1df609954e1d071083a16051ef0c8be0ea76b4209a1914e33f29c9b4af",
+   "width": 1280,
+   "height": 720,
+   "indexStatus": "Live on YouTube (uploaded 2026-11-26)",
+   "subject": "al-qazwini"
+  },
+  {
+   "file": "english/en-40-al-masudi.jpg",
+   "lang": "en",
+   "episode": 40,
+   "story": "The Man Who Wrote the Meadows of Gold",
+   "named": "Al-Masudi",
+   "bytes": 365419,
+   "sha256": "15c70f300609056917ec4bb22b622621b1057a7f34f9e202ddd7b2055308fcb6",
+   "width": 1280,
+   "height": 720,
+   "indexStatus": "Live on YouTube (uploaded 2026-11-26)",
+   "subject": "al-masudi"
+  },
+  {
+   "file": "arabic/ar-01-karima.jpg",
+   "lang": "ar",
+   "episode": 1,
+   "story": "المعلّمة في مكّة",
+   "named": "كريمة المروزية",
+   "bytes": 566066,
+   "sha256": "cb793a0ead1aa5d2505d052b393d00bbab602d01ad9c80cf9c205edbfcc1cf1c",
+   "width": 1320,
+   "height": 743,
+   "indexStatus": "Ready — text on thumbnail: مُعَلِّمَةُ مَكَّة! — not yet uploaded (Arabic Studio updates pending video-ID mapping)",
+   "subject": "karima-al-marwaziyya"
+  },
+  {
+   "file": "arabic/ar-02-coffee.jpg",
+   "lang": "ar",
+   "episode": 2,
+   "story": "رحلة حبّة البنّ",
+   "named": "حبّة البنّ (القهوة)",
+   "bytes": 418313,
+   "sha256": "45a01c03bc74829d06be021e65884d5aa0801523c7144b95eda473f7ed2e3aa0",
+   "width": 1320,
+   "height": 743,
+   "indexStatus": "Ready — text on thumbnail: رِحْلَةُ القَهْوَةِ! — not yet uploaded (Arabic Studio updates pending video-ID mapping)",
+   "subject": "coffee"
+  },
+  {
+   "file": "arabic/ar-03-pigeon-post.jpg",
+   "lang": "ar",
+   "episode": 3,
+   "story": "رسائل تطير في السماء",
+   "named": "الحمام الرسائلي",
+   "bytes": 383862,
+   "sha256": "c648fa2e2fc5d75fb95c99a6052245130c02d8ded2ec15adb196e80afc163104",
+   "width": 1320,
+   "height": 743,
+   "indexStatus": "Ready — text on thumbnail: رَسَائِلُ تَطِيرُ! — not yet uploaded (Arabic Studio updates pending video-ID mapping)",
+   "subject": "pigeon-post"
+  },
+  {
+   "file": "arabic/ar-04-alhambra.jpg",
+   "lang": "ar",
+   "episode": 4,
+   "story": "قصر الحمراء",
+   "named": "قصر الحمراء",
+   "bytes": 474599,
+   "sha256": "c8860a185061c3da3afb61f7bde414a30880cbba123e2399305d65c26255a491",
+   "width": 1320,
+   "height": 743,
+   "indexStatus": "Ready — text on thumbnail: قَصْرُ الحَمْرَاء! — not yet uploaded (Arabic Studio updates pending video-ID mapping)",
+   "subject": "alhambra"
+  },
+  {
+   "file": "arabic/ar-05-evliya.jpg",
+   "lang": "ar",
+   "episode": 5,
+   "story": "الرجل الذي سافر أربعين سنة",
+   "named": "أوليا جلبي",
+   "bytes": 465938,
+   "sha256": "c1be9b3087bc6d1e3a25ae294611f0d7f28ed604aa84db7a50fc58910e2231a8",
+   "width": 1320,
+   "height": 743,
+   "indexStatus": "Ready — text on thumbnail: سَافَرَ أَرْبَعِينَ سَنَةً! — not yet uploaded (Arabic Studio updates pending video-ID mapping)",
+   "subject": "evliya-celebi"
+  },
+  {
+   "file": "arabic/ar-06-al-wazzan.jpg",
+   "lang": "ar",
+   "episode": 6,
+   "story": "الرحّالة الذي كتب أفريقيا",
+   "named": "الحسن الوزان",
+   "bytes": 393217,
+   "sha256": "787679659d0eca5b41eacf14e7a23df66eb9389c7f6c1134cf4825b6c6bfe472",
+   "width": 1320,
+   "height": 743,
+   "indexStatus": "Ready — text on thumbnail: كَتَبَ أَفْرِيقْيَا! — not yet uploaded (Arabic Studio updates pending video-ID mapping)",
+   "subject": "al-hasan-al-wazzan"
+  },
+  {
+   "file": "arabic/ar-07-ibn-zuhr.jpg",
+   "lang": "ar",
+   "episode": 7,
+   "story": "طبيب إشبيلية",
+   "named": "ابن زهر",
+   "bytes": 398166,
+   "sha256": "2c3575d3becb7ca6bb4684f27d7c575bc098dd5cf00ab78e29416571a148325a",
+   "width": 1320,
+   "height": 743,
+   "indexStatus": "Ready — text on thumbnail: طَبِيبُ إِشْبِيلِيَةَ! — not yet uploaded (Arabic Studio updates pending video-ID mapping)",
+   "subject": "ibn-zuhr"
+  },
+  {
+   "file": "arabic/ar-08-ibn-al-shatir.jpg",
+   "lang": "ar",
+   "episode": 8,
+   "story": "صانع الوقت في دمشق",
+   "named": "ابن الشاطر",
+   "bytes": 396031,
+   "sha256": "d57bfee43b8fc3bf54b210930a1fd7660e814cba7e2f0cb7edb5456ec9da21e5",
+   "width": 1320,
+   "height": 743,
+   "indexStatus": "Ready — text on thumbnail: صَانِعُ الوَقْتِ! — not yet uploaded (Arabic Studio updates pending video-ID mapping)",
+   "subject": "ibn-al-shatir"
+  },
+  {
+   "file": "arabic/ar-09-thabit.jpg",
+   "lang": "ar",
+   "episode": 9,
+   "story": "مترجم النجوم",
+   "named": "ثابت بن قرة",
+   "bytes": 403727,
+   "sha256": "65fb0300efc5845e34a7eab26b0aa31cc68edeba97582d214ca1a62ae201abca",
+   "width": 1320,
+   "height": 743,
+   "indexStatus": "Ready — text on thumbnail: مُتَرْجِمُ النُّجُومِ! — not yet uploaded (Arabic Studio updates pending video-ID mapping)",
+   "subject": "thabit-ibn-qurra"
+  },
+  {
+   "file": "arabic/ar-10-al-battani.jpg",
+   "lang": "ar",
+   "episode": 10,
+   "story": "الرجل الذي قاس السنة",
+   "named": "البتاني",
+   "bytes": 385415,
+   "sha256": "3f2a0d47417150f56b99d873241dd4f2b951bc467c8ee69e344a7569dc029011",
+   "width": 1320,
+   "height": 743,
+   "indexStatus": "Ready — text on thumbnail: قَاسَ السَّنَةَ! — not yet uploaded (Arabic Studio updates pending video-ID mapping)",
+   "subject": "al-battani"
+  },
+  {
+   "file": "arabic/ar-11-al-kindi.jpg",
+   "lang": "ar",
+   "episode": 11,
+   "story": "كاسر الشفرات",
+   "named": "الكندي",
+   "bytes": 390269,
+   "sha256": "57ca92d8003296b5cbf647410b96836688d0d45c86cd3004546ee635fed4bae3",
+   "width": 1320,
+   "height": 743,
+   "indexStatus": "Ready — text on thumbnail: كَسَرَ الشِّفْرَةَ! — not yet uploaded (Arabic Studio updates pending video-ID mapping)",
+   "subject": "al-kindi"
+  },
+  {
+   "file": "arabic/ar-12-ibn-al-haytham.jpg",
+   "lang": "ar",
+   "episode": 12,
+   "story": "ساحر الضوء",
+   "named": "ابن الهيثم",
+   "bytes": 537763,
+   "sha256": "0557ae38e2877a817129805599f84e08d8391b13aa84e3d7639603e21b817777",
+   "width": 1672,
+   "height": 941,
+   "indexStatus": "Ready — text on thumbnail: سَاحِرُ الضَّوْءِ! — not yet uploaded (Arabic Studio updates pending video-ID mapping)",
+   "subject": "ibn-al-haytham"
+  },
+  {
+   "file": "arabic/ar-13-al-khwarizmi.jpg",
+   "lang": "ar",
+   "episode": 13,
+   "story": "أبو الأرقام",
+   "named": "الخوارزمي",
+   "bytes": 629181,
+   "sha256": "f962866d3aa0656a4cc3ed406a9304899040901f86a35906631cc81face9076d",
+   "width": 1672,
+   "height": 941,
+   "indexStatus": "Ready — text on thumbnail: أَبُو الأَرْقَامِ! — not yet uploaded (Arabic Studio updates pending video-ID mapping)",
+   "subject": "al-khwarizmi"
+  },
+  {
+   "file": "arabic/ar-14-ibn-firnas.jpg",
+   "lang": "ar",
+   "episode": 14,
+   "story": "أول طيّار",
+   "named": "ابن فرناس",
+   "bytes": 674556,
+   "sha256": "65c9f086b64635d04a3cb61d51f99153d7d12880c1f109d6b1944abd3c5991bb",
+   "width": 1672,
+   "height": 941,
+   "indexStatus": "Ready — text on thumbnail: أَوَّلُ طَيَّارٍ! — not yet uploaded (Arabic Studio updates pending video-ID mapping)",
+   "subject": "abbas-ibn-firnas"
+  },
+  {
+   "file": "arabic/ar-15-fatima-al-fihri.jpg",
+   "lang": "ar",
+   "episode": 15,
+   "story": "بانية أقدم جامعة",
+   "named": "فاطمة الفهرية",
+   "bytes": 696501,
+   "sha256": "f6072682382ad9af5bd85361e6561fc9c1ba58af11c95d963fd7d4ff4a313a8c",
+   "width": 1672,
+   "height": 941,
+   "indexStatus": "Ready — text on thumbnail: بَنَتْ أَوَّلَ جَامِعَةٍ! — not yet uploaded (Arabic Studio updates pending video-ID mapping)",
+   "subject": "fatima-al-fihri"
+  },
+  {
+   "file": "arabic/ar-16-ibn-battuta.jpg",
+   "lang": "ar",
+   "episode": 16,
+   "story": "أعظم رحّالة",
+   "named": "ابن بطوطة",
+   "bytes": 679169,
+   "sha256": "f2fc33c71c8d739e1792eebd36cb682dcda8f7179c2a4a3da9a0866769920535",
+   "width": 1672,
+   "height": 941,
+   "indexStatus": "Ready — text on thumbnail: أَعْظَمُ رَحَّالَةٍ! — not yet uploaded (Arabic Studio updates pending video-ID mapping)",
+   "subject": "ibn-battuta"
+  },
+  {
+   "file": "arabic/ar-17-house-of-wisdom.jpg",
+   "lang": "ar",
+   "episode": 17,
+   "story": "بيت الحكمة",
+   "named": "بغداد",
+   "bytes": 781099,
+   "sha256": "5c15aa85eb68443291eabd40e4e20fa11771cdc4ffcbca5bcc07c6ca4ebddbe0",
+   "width": 1672,
+   "height": 941,
+   "indexStatus": "Ready — text on thumbnail: بَيْتُ الحِكْمَةِ! — not yet uploaded (Arabic Studio updates pending video-ID mapping)",
+   "subject": "house-of-wisdom"
+  },
+  {
+   "file": "arabic/ar-18-ibn-al-nafis.jpg",
+   "lang": "ar",
+   "episode": 18,
+   "story": "مكتشف الدورة الدموية",
+   "named": "ابن النفيس",
+   "bytes": 586198,
+   "sha256": "6df279d6be531712dc68cb6dbc509b658ed17b5f13eda26f040689f8f0dec025",
+   "width": 1672,
+   "height": 941,
+   "indexStatus": "Ready — text on thumbnail: دَوْرَةُ الدَّمِ! — not yet uploaded (Arabic Studio updates pending video-ID mapping)",
+   "subject": "ibn-al-nafis"
+  },
+  {
+   "file": "arabic/ar-19-al-idrisi.jpg",
+   "lang": "ar",
+   "episode": 19,
+   "story": "راسم خريطة العالم",
+   "named": "الإدريسي",
+   "bytes": 656330,
+   "sha256": "c0d2c2b889a8682ee9b94ce05c6410697ae11af969dc27e69e1d5184d7be1a2c",
+   "width": 1672,
+   "height": 941,
+   "indexStatus": "Ready — text on thumbnail: خَرِيطَةُ العَالَمِ! — not yet uploaded (Arabic Studio updates pending video-ID mapping)",
+   "subject": "al-idrisi"
+  },
+  {
+   "file": "arabic/ar-20-ibn-sina.jpg",
+   "lang": "ar",
+   "episode": 20,
+   "story": "الطبيب الصغير",
+   "named": "ابن سينا",
+   "bytes": 681486,
+   "sha256": "1ff9d1e6f06d31d5a1944ce0069eb9f1d0afb841534e9f3fae708a933d37ccb3",
+   "width": 1672,
+   "height": 941,
+   "indexStatus": "Ready — text on thumbnail: شَفَى الأَمِيرَ! — not yet uploaded (Arabic Studio updates pending video-ID mapping)",
+   "subject": "ibn-sina"
+  },
+  {
+   "file": "arabic/ar-21-al-zahrawi.jpg",
+   "lang": "ar",
+   "episode": 21,
+   "story": "الجرّاح الذي رسم أدواته",
+   "named": "الزهراوي",
+   "bytes": 641577,
+   "sha256": "0f73817cc7ca2c4484448dc6477470bbc2601ae942d8a661309381322668b48f",
+   "width": 1672,
+   "height": 941,
+   "indexStatus": "Ready — text on thumbnail: رَسَمَ أَدَوَاتِهِ! — not yet uploaded (Arabic Studio updates pending video-ID mapping)",
+   "subject": "al-zahrawi"
+  },
+  {
+   "file": "arabic/ar-22-al-razi.jpg",
+   "lang": "ar",
+   "episode": 22,
+   "story": "الطبيب المحقق",
+   "named": "الرازي",
+   "bytes": 616790,
+   "sha256": "f948545f7f17755ac4da2dba4913b69270a01bcff6ea03b6dc982fc50f6135e5",
+   "width": 1672,
+   "height": 941,
+   "indexStatus": "Ready — text on thumbnail: الطَّبِيبُ المُحَقِّقُ! — not yet uploaded (Arabic Studio updates pending video-ID mapping)",
+   "subject": "al-razi"
+  },
+  {
+   "file": "arabic/ar-23-al-biruni.jpg",
+   "lang": "ar",
+   "episode": 23,
+   "story": "الذي قاس الأرض",
+   "named": "البيروني",
+   "bytes": 635592,
+   "sha256": "a88ca528524013c43b685a02fab3e5c88bfa75c1ee453387dbc6c0f98c2c26f8",
+   "width": 1672,
+   "height": 941,
+   "indexStatus": "Ready — text on thumbnail: قَاسَ الأَرْضَ! — not yet uploaded (Arabic Studio updates pending video-ID mapping)",
+   "subject": "al-biruni"
+  },
+  {
+   "file": "arabic/ar-24-al-jazari.jpg",
+   "lang": "ar",
+   "episode": 24,
+   "story": "أبو الروبوتات",
+   "named": "الجزري",
+   "bytes": 693262,
+   "sha256": "096cdabe4e603db019abd54628bf26e28a27c74c961f72d9eeb7d7a6fbeae732",
+   "width": 1672,
+   "height": 941,
+   "indexStatus": "Ready — text on thumbnail: أَبُو الرُّوبُوتَاتِ! — not yet uploaded (Arabic Studio updates pending video-ID mapping)",
+   "subject": "al-jazari"
+  },
+  {
+   "file": "arabic/ar-25-mansa-musa.jpg",
+   "lang": "ar",
+   "episode": 25,
+   "story": "أغنى رجل في التاريخ",
+   "named": "منسا موسى",
+   "bytes": 652309,
+   "sha256": "ae77f56b4579a98d2084c351faef715a6161b8249293731833b553be82867c1b",
+   "width": 1672,
+   "height": 941,
+   "indexStatus": "Ready — text on thumbnail: أَغْنَى رَجُلٍ! — not yet uploaded (Arabic Studio updates pending video-ID mapping)",
+   "subject": "mansa-musa"
+  },
+  {
+   "file": "arabic/ar-26-salah-al-din.jpg",
+   "lang": "ar",
+   "episode": 26,
+   "story": "الملك الكريم",
+   "named": "صلاح الدين",
+   "bytes": 710280,
+   "sha256": "cda8b3bcddc6e9b6fab94654f33f06f1dacaca0bb940bf5216b01e51e19888c2",
+   "width": 1672,
+   "height": 941,
+   "indexStatus": "Ready — text on thumbnail: المَلِكُ الكَرِيمُ! — not yet uploaded (Arabic Studio updates pending video-ID mapping)",
+   "subject": "salah-al-din"
+  },
+  {
+   "file": "arabic/ar-27-ibn-khaldun.jpg",
+   "lang": "ar",
+   "episode": 27,
+   "story": "الذي فهم المدن",
+   "named": "ابن خلدون",
+   "bytes": 606757,
+   "sha256": "1d4218fce7fbb6296ee63d89650532c4d03360c596bf0939d28b926ef44524b3",
+   "width": 1672,
+   "height": 941,
+   "indexStatus": "Ready — text on thumbnail: فَهِمَ المُدُنَ! — not yet uploaded (Arabic Studio updates pending video-ID mapping)",
+   "subject": "ibn-khaldun"
+  },
+  {
+   "file": "arabic/ar-28-al-jahiz.jpg",
+   "lang": "ar",
+   "episode": 28,
+   "story": "الذي أحب الحيوانات",
+   "named": "الجاحظ",
+   "bytes": 694030,
+   "sha256": "93029168386017999e6a30f95394415624310452b5497f8c28b52e17f1695a39",
+   "width": 1672,
+   "height": 941,
+   "indexStatus": "Ready — text on thumbnail: كِتَابُ الحَيَوَانِ! — not yet uploaded (Arabic Studio updates pending video-ID mapping)",
+   "subject": "al-jahiz"
+  },
+  {
+   "file": "arabic/ar-29-ibn-jubayr.jpg",
+   "lang": "ar",
+   "episode": 29,
+   "story": "الرحّالة الذي كتب كل شيء",
+   "named": "ابن جبير",
+   "bytes": 621138,
+   "sha256": "5bfc23dec31ac5582606ae2ea4848aff81aaaf410fc50e45c2c3d6697f0ea285",
+   "width": 1672,
+   "height": 941,
+   "indexStatus": "Ready — text on thumbnail: كَتَبَ كُلَّ شَيْءٍ! — not yet uploaded (Arabic Studio updates pending video-ID mapping)",
+   "subject": "ibn-jubayr"
+  },
+  {
+   "file": "arabic/ar-30-timbuktu.jpg",
+   "lang": "ar",
+   "episode": 30,
+   "story": "مدينة الكتب الذهبية",
+   "named": "تنبكتو",
+   "bytes": 709240,
+   "sha256": "833ad8176521b25de9a50ca77ad15dc70ac51238d8c31a48db872a5cb77b1510",
+   "width": 1672,
+   "height": 941,
+   "indexStatus": "Ready — text on thumbnail: مَدِينَةُ الكُتُبِ! — not yet uploaded (Arabic Studio updates pending video-ID mapping)",
+   "subject": "timbuktu"
+  },
+  {
+   "file": "arabic/ar-31-al-khalil.jpg",
+   "lang": "ar",
+   "episode": 31,
+   "story": "الذي وزن الشعر",
+   "named": "الخليل بن أحمد",
+   "bytes": 614434,
+   "sha256": "b0891de54a1f948b6324582f0b558094ac88a9345e2e165dfe7672151729a967",
+   "width": 1672,
+   "height": 941,
+   "indexStatus": "Ready — text on thumbnail: وَزَنَ الشِّعْرَ! — not yet uploaded (Arabic Studio updates pending video-ID mapping)",
+   "subject": "al-khalil"
+  },
+  {
+   "file": "arabic/ar-32-sindbad.jpg",
+   "lang": "ar",
+   "episode": 32,
+   "story": "سبع رحلات عجيبة",
+   "named": "السندباد",
+   "bytes": 603229,
+   "sha256": "0ecc5b5425b089c715a1df44c852ca3f2cb859451b0be669d2093520329149d9",
+   "width": 1672,
+   "height": 941,
+   "indexStatus": "Ready — text on thumbnail: سَبْعُ رِحْلَاتٍ! — not yet uploaded (Arabic Studio updates pending video-ID mapping)",
+   "subject": "sindbad"
+  },
+  {
+   "file": "arabic/ar-33-wallada.jpg",
+   "lang": "ar",
+   "episode": 33,
+   "story": "الأميرة الشاعرة",
+   "named": "ولّادة",
+   "bytes": 738939,
+   "sha256": "9b2a4bed4db9c928ff49bdb1085f7679fff6e3ef689368c0ad071eebf70d03ad",
+   "width": 1672,
+   "height": 941,
+   "indexStatus": "Ready — text on thumbnail: الأَمِيرَةُ الشَّاعِرَةُ! — not yet uploaded (Arabic Studio updates pending video-ID mapping)",
+   "subject": "wallada"
+  },
+  {
+   "file": "arabic/ar-34-nur-al-din.jpg",
+   "lang": "ar",
+   "episode": 34,
+   "story": "باني المستشفيات",
+   "named": "نور الدين",
+   "bytes": 691669,
+   "sha256": "b9e2e9f46f519fa0fd38121eb919baae86bd413829d96e30d79c75c1fc0cf352",
+   "width": 1672,
+   "height": 941,
+   "indexStatus": "Ready — text on thumbnail: مُسْتَشْفَى لِلْجَمِيعِ! — not yet uploaded (Arabic Studio updates pending video-ID mapping)",
+   "subject": "nur-al-din"
+  },
+  {
+   "file": "arabic/ar-35-al-ghazali.jpg",
+   "lang": "ar",
+   "episode": 35,
+   "story": "الباحث عن الحقيقة",
+   "named": "الغزالي",
+   "bytes": 502405,
+   "sha256": "2e008fc6f1fffe801a315ea0696c90da75f1cea0bd0e46872b116ae1e84382c3",
+   "width": 1672,
+   "height": 941,
+   "indexStatus": "Ready — text on thumbnail: وَجَدَ الحَقِيقَةَ! — not yet uploaded (Arabic Studio updates pending video-ID mapping)",
+   "subject": "al-ghazali"
+  },
+  {
+   "file": "arabic/ar-36-mimar-sinan.jpg",
+   "lang": "ar",
+   "episode": 36,
+   "story": "البنّاء العظيم",
+   "named": "معمار سنان",
+   "bytes": 659669,
+   "sha256": "9e5765d812f78e50ac2793571bb06b2e8994343d98b5997f6d826ceee96e1a49",
+   "width": 1672,
+   "height": 941,
+   "indexStatus": "Ready — text on thumbnail: أَعْظَمُ بَنَّاءٍ! — not yet uploaded (Arabic Studio updates pending video-ID mapping)",
+   "subject": "mimar-sinan"
+  },
+  {
+   "file": "arabic/ar-37-banu-musa.jpg",
+   "lang": "ar",
+   "episode": 37,
+   "story": "الإخوة المخترعون",
+   "named": "بنو موسى",
+   "bytes": 696584,
+   "sha256": "73f42b492d60c5142b816f4d2197f83951daba2efa098af89b7f35a07c74e7ee",
+   "width": 1672,
+   "height": 941,
+   "indexStatus": "Ready — text on thumbnail: الإِخْوَةُ المُخْتَرِعُونَ! — not yet uploaded (Arabic Studio updates pending video-ID mapping)",
+   "subject": "banu-musa"
+  },
+  {
+   "file": "arabic/ar-38-al-sufi.jpg",
+   "lang": "ar",
+   "episode": 38,
+   "story": "راسم النجوم",
+   "named": "الصوفي",
+   "bytes": 645391,
+   "sha256": "2895f267aeff490e4d154204df052c909a9754b5ef31ff6f91d7f49fe4eeb32a",
+   "width": 1672,
+   "height": 941,
+   "indexStatus": "Ready — text on thumbnail: رَسَمَ النُّجُومَ! — not yet uploaded (Arabic Studio updates pending video-ID mapping)",
+   "subject": "al-sufi"
+  },
+  {
+   "file": "arabic/ar-39-rashid-al-din.jpg",
+   "lang": "ar",
+   "episode": 39,
+   "story": "كتاب العالم الأول",
+   "named": "رشيد الدين",
+   "bytes": 751248,
+   "sha256": "3fc0433e1e12d20e9d4d2061e448f656c04bbfbe373d4739f4e3b4856d48876d",
+   "width": 1672,
+   "height": 941,
+   "indexStatus": "Ready — text on thumbnail: كِتَابُ العَالَمِ! — not yet uploaded (Arabic Studio updates pending video-ID mapping)",
+   "subject": "rashid-al-din"
+  },
+  {
+   "file": "arabic/ar-40-sailor-of-sohar.jpg",
+   "lang": "ar",
+   "episode": 40,
+   "story": "بحّار صُحار",
+   "named": "الذي أبحر إلى الصين",
+   "bytes": 663227,
+   "sha256": "288e348d24df0087491437396a4f43fc7d7720ec847d5968edb53c4370f5d0f6",
+   "width": 1672,
+   "height": 941,
+   "indexStatus": "Ready — text on thumbnail: سَفِينَةٌ بِلَا مَسَامِيرَ! — not yet uploaded (Arabic Studio updates pending video-ID mapping)",
+   "subject": "sailor-of-sohar"
+  }
+ ]
+}
