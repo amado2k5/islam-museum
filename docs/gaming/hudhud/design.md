@@ -94,7 +94,7 @@ The working title is the founder's: **Hudhud: The Atlas of Wonders**. The game's
 | Hudhud: Keeper of Stories | no clash; says what the player is | loses "wonders" |
 | Hudhud's Book of Wonders | no clash; warm | "Book of Wonders" is also the common English name of al-Qazwini's work, one of the fifty subjects |
 
-**Search status: not run.** A first search of existing games, apps and trademarks for these names was attempted on 26 November 2026 through the founder's Chrome, as he prefers, and the browser extension was not connected; no other route was used. Until a search is run and the founder decides, the title stays a working title and nothing is registered, bought or announced. "Hudhud" is the ordinary Arabic word for the hoopoe and the name of the founder's own video series.
+**Search status (corrected later on 26 November 2026): a first public search has been made, and it is not clearance.** [`title-search.md`](title-search.md) records it: stores and trademark registers were searched for the four options and the Arabic names, and it reads the bare title "Hudhud" as high risk and the full working title as medium-high, in a crowded children's and Islamic-learning market; it is a research note, not legal advice. The attempt described next was made earlier the same day and did not complete. A lawyer's search of the exact jurisdictions and classes has not been made. Until it is and the founder decides, the title stays a working title and nothing is registered, bought or announced. "Hudhud" is the ordinary Arabic word for the hoopoe and the name of the founder's own video series.
 
 ## How big this is, said plainly
 

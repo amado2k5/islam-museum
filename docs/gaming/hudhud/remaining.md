@@ -19,7 +19,7 @@ _26 November 2026, brought up to date later that day (the third and fourth trial
 | History | every claim reviewed by a named person | every claim entered as pending; no reviewer named |
 | Saving | slots, versions, recovery, a place kept inside a quest; for every game a vault in IndexedDB with backups, export and import | all of these for Hudhud ([`../save-service.md`](../save-service.md)); the other three games still save to `localStorage`, now backed up to the vault and restored if it goes missing, without indicator, export or import |
 | Unsupported devices | a plain refusal before anything heavy loads, for every game | built; all four games stand behind it ([`../device-preflight.md`](../device-preflight.md)) |
-| Accessibility | keyboard, gamepad, remapping of both, reduced motion, contrast, a way to play without the picture | all built; no physical controller tried; none audited by a person or a tool |
+| Accessibility | keyboard, gamepad, remapping of both, reduced motion, contrast, a way to play without the picture | all built; no physical controller tried; none audited by a person; a machine scan of the UAT release (Chrome, English and Arabic, 26 November 2026) measured contrast and target sizes and is not a conformance check ([evidence](../evidence/hudhud/browser-a11y-soak/README.md)) |
 | Machines and browsers | two reference machines, the main browsers, phones and tablets | one Mac, Chrome |
 | People playing | children of three age bands, parents, Arabic and Urdu readers | nobody |
 | On the museum's site | a Play page, a menu entry, a page for the game | a written proposal |
@@ -43,7 +43,7 @@ _26 November 2026, brought up to date later that day (the third and fourth trial
 
 **6. Features not yet built.** A simple-language option and reading help; a real phone layout; loading a world at a time; texture atlases (the 2048-pixel limit itself is held since 26 November 2026, defect D15 in the [test plan](test-plan.md), and keyboard and gamepad remapping are built); a recording as well as stills.
 
-**7. Evidence that it works for people and machines.** Both reference machines; Firefox, Safari, Edge, iOS and Android; a 60-minute profile and a four-hour soak; a screen-reader pass and an accessibility scan; tests with children aged 6 to 9, 10 to 13 and 14 to 17, with parents, and with Arabic and Urdu readers, under the museum's consent process; fixes; a second round.
+**7. Evidence that it works for people and machines.** Both reference machines; Firefox, Safari, Edge, iOS and Android; a 60-minute profile and a four-hour soak (a ten-minute soak of UAT was made on 26 November 2026, see the evidence above); a screen-reader pass and a conformance-level accessibility audit (the machine scan above is not one); tests with children aged 6 to 9, 10 to 13 and 14 to 17, with parents, and with Arabic and Urdu readers, under the museum's consent process; fixes; a second round.
 
 **8. The museum's side.** The Play page, the game's own page and the menu entry ([plan](website-plan.md)); a UAT release with rollback rehearsed (UAT and production both exist for the games now, and no rollback has been rehearsed with Hudhud in them); then the museum's own pages, which still do not mention the games, at the founder's word.
 
