@@ -35,6 +35,9 @@ a { color: #ffd98a; }
 .bar .grow { flex: 1; }
 .chip { display: inline-block; padding: 2px 10px; border-radius: 999px; border: 1px solid var(--line); color: var(--gold); font-size: 0.8rem; white-space: nowrap; }
 .chip.proto { background: var(--gold); color: #1c1206; font-weight: 700; }
+.chip.save-state { color: var(--muted); border-color: transparent; }
+.save-banner { margin: 0 0 8px; padding: 8px 14px; background: #3a1a12; color: #ffd98a; border: 1px solid var(--gold); border-radius: 10px; }
+.save-line { margin: 4px 0; color: var(--muted); }
 .music-corner { --panel-solid: #0c1f40; position: relative; }
 
 /* The stage keeps the picture's shape: as wide as the page, or as wide as the window's height allows. */

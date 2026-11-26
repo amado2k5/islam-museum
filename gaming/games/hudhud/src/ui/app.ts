@@ -11,6 +11,8 @@ import { Input } from "../input/input";
 import { DEFAULT_PAD, PAD_ACTIONS, assignPad, type PadAction } from "../input/pad";
 import { choicesOf, lineOf } from "../narrative/dialogue";
 import { ACTIONS, DEFAULT_KEYS, SAVE_KEY, assignKey, current, load, recordQuest, store, type Action, type Quality, type SaveFile, type Settings } from "../save/save";
+import { askToPersist, openStore, saveChannel } from "@im/platform/save/idb";
+import { openDurable, type Durable, type SaveStatus } from "../save/durable";
 import { apply, beam, goals, newScene, restore, snapshot, type Command, type Happened, type SceneState } from "../sim/scene";
 import type { SceneHost } from "../scenes/workshop";
 import atlas from "../content/atlas.v1.json";
@@ -65,13 +67,24 @@ async function main(): Promise<void> {
   const slot = () => current(save);
   const settings = (): Settings => slot().settings;
   /** Saves. `ownsResume` is true only when this page has just changed the quest in progress (see mergeSaves). */
+  // The vault (IndexedDB) is the authority for what is kept; localStorage holds a copy so that the page can draw at
+  // once and has something to fall back on. `durable` is null until the vault has been opened and read.
+  let durable: Durable | null = null;
+  const AT_KEY = "im.hudhud.save.at";
   const keep = (ownsResume = false) => {
     const ok = store(storage, save, mayStore, ownsResume);
     if (ok) {
       // store() joined in whatever another tab had saved; hold the same here.
       const now = load(storage);
       if (now.kind === "ok") save = { ...now.save, slot: save.slot };
+      try {
+        storage?.setItem(AT_KEY, String(Date.now()));
+      } catch {
+        /* the copy's own time is a help, not a need */
+      }
     }
+    // "Saved" is said by the vault when its write completes (showStatus), never here.
+    void durable?.write(save, ownsResume);
     return ok;
   };
   const change = (patch: Partial<Settings>) => {
@@ -168,6 +181,62 @@ async function main(): Promise<void> {
     window.clearTimeout(toastTimer);
     toastTimer = window.setTimeout(() => node.remove(), 6000);
   };
+  // ---------------------------------------------------------------------------------------- the vault
+  const saveChip = el("span", { class: "chip save-state", hidden: true });
+  saveChip.setAttribute("role", "status");
+  const saveBanner = el("p", { class: "save-banner", hidden: true });
+  saveBanner.setAttribute("role", "alert");
+  bar.insertBefore(saveChip, musicBox);
+  app.insertBefore(saveBanner, main);
+  const clock = (ms: number) => new Intl.DateTimeFormat(lang === "ar" ? "ar-EG" : lang === "ur" ? "ur-PK" : lang, { hour: "2-digit", minute: "2-digit" }).format(new Date(ms));
+  let saveStatus: SaveStatus = { state: "starting" };
+  let persistence: "granted" | "denied" | "unsupported" | "unasked" = "unasked";
+  const statusText = (st: SaveStatus): string => (st.state === "saving" ? t("save_saving") : st.state === "saved" ? (st.at > 0 ? t("save_saved", { time: clock(st.at) }) : t("save_saved_plain")) : st.state === "failed" ? t("save_failed") : st.state === "newer" ? t("save_newer") : st.state === "unavailable" ? t("save_unavailable") : "");
+  function showStatus(st: SaveStatus): void {
+    saveStatus = st;
+    const quiet = query.get("fresh") === "1";
+    saveChip.hidden = quiet || st.state === "starting" || (st.state === "saved" && st.at === 0) || st.state === "unavailable" || st.state === "newer";
+    saveChip.textContent = statusText(st);
+    // A save that did not go through, or cannot be made at all, is said where it cannot be missed.
+    const loud = !quiet && (st.state === "failed" || st.state === "unavailable" || st.state === "newer");
+    saveBanner.hidden = !loud;
+    saveBanner.textContent = loud ? statusText(st) : "";
+    document.querySelectorAll(".save-line").forEach((n) => (n.textContent = statusText(st)));
+  }
+  /** The page takes up a save the vault hands it: on the first read, from another tab, or from an imported file. */
+  function adopt(next: SaveFile, why: "vault" | "tab" | "import"): void {
+    const at = why === "tab" ? save.slot : next.slot;
+    save = { ...next, slot: next.slots[at] ? at : next.slots.findIndex((x) => x !== null) };
+    if (save.slot < 0) return;
+    store(storage, save, mayStore, true);
+    applyLook();
+    if (!started) {
+      fromSlot();
+      drawHub();
+    }
+    render();
+  }
+  const channel = saveChannel("hudhud", () => void durable?.refresh());
+  // Opened at the end of this function, once everything the vault may call back into exists.
+  let ready: Promise<void> = Promise.resolve();
+  const openVault = async (): Promise<void> => {
+    if (query.get("fresh") === "1") return showStatus({ state: "saved", at: 0, revision: 0 });
+    const idb = await openStore().catch(() => null);
+    let localAt = 0;
+    try {
+      localAt = storage?.getItem(SAVE_KEY) ? Number(storage.getItem(AT_KEY)) || 1 : 0;
+    } catch {
+      localAt = 0;
+    }
+    durable = await openDurable(idb, save, localAt, { adopt, status: showStatus, told: (r) => channel.tell(r), now: () => Date.now() });
+    // Whatever the page changed while the vault was being opened is written now.
+    if (durable.status().state === "saved") void durable.write(save, false);
+  };
+  // A last save when the page is hidden or left: asked of the vault, and not waited for.
+  const lastSave = () => void durable?.write(save, false);
+  document.addEventListener("visibilitychange", () => document.hidden && lastSave());
+  window.addEventListener("pagehide", lastSave);
+
   if (loaded.kind === "newer") toast(t("save_newer"));
   else if (loaded.kind === "quarantined") toast(t("save_quarantined"));
   else if (!loaded.stored && query.get("fresh") !== "1") toast(t("save_off"));
@@ -484,6 +553,8 @@ async function main(): Promise<void> {
       field(t("set_captions"), check(s.captions, (v) => change({ captions: v }))),
       el("h3", { textContent: t("set_keys") }),
       keysBox(),
+      el("h3", { textContent: t("set_saving") }),
+      savingBox(),
       el("h3", { textContent: t("set_pad") }),
       padBox(),
       el("h3", { textContent: t("set_slot") }),
@@ -526,6 +597,47 @@ async function main(): Promise<void> {
     };
     draw();
     return box;
+  }
+  /** Saving, said in full: where progress is kept and how it can be lost, how it stands now, and the three things a
+   * player can do about it (save now, take a copy out, bring a copy in). */
+  function savingBox(): HTMLElement {
+    const line = el("p", { class: "save-line", textContent: statusText(saveStatus) });
+    line.setAttribute("role", "status");
+    const pick = el("input", { type: "file", accept: ".json,application/json", hidden: true });
+    pick.setAttribute("aria-hidden", "true");
+    pick.onchange = async () => {
+      const file = pick.files?.[0];
+      pick.value = "";
+      if (!file || !durable) return;
+      const text = await file.text();
+      const node: HTMLElement = sheet(
+        t("btn_import"),
+        el("p", { textContent: t("import_confirm") }),
+        el("p", {}, el("button", { type: "button", textContent: t("btn_import"), onclick: async () => {
+          const r = await durable!.importFile(text);
+          (node as unknown as { close: () => void }).close();
+          toast(t(r.ok ? "import_done" : "import_bad"));
+        } })),
+      );
+    };
+    const out = el("button", { type: "button", textContent: t("btn_export"), onclick: async () => {
+      const text = await durable?.exportFile();
+      if (!text) return toast(t("save_unavailable"));
+      const url = URL.createObjectURL(new Blob([text], { type: "application/json" }));
+      const a = el("a", { href: url, download: "hudhud-save.json" });
+      document.body.append(a);
+      a.click();
+      a.remove();
+      window.setTimeout(() => URL.revokeObjectURL(url), 10_000);
+    } });
+    return el(
+      "div",
+      {},
+      el("p", { class: "hint", textContent: t(saveStatus.state === "unavailable" ? "save_unavailable" : "save_note") }),
+      line,
+      persistence === "granted" || persistence === "denied" ? el("p", { class: "hint", textContent: t(persistence === "granted" ? "persist_granted" : "persist_denied") }) : null,
+      el("p", { class: "row" }, el("button", { type: "button", textContent: t("btn_save"), onclick: () => keep(true) }), out, el("button", { type: "button", textContent: t("btn_import"), onclick: () => pick.click() }), pick),
+    );
   }
   const PAD_NAME: Record<PadAction, Key> = { fly: "pad_fly", back: "btn_back", touch: "btn_touch", pause: "btn_pause" };
   /** The same for the controller: each action shows its button's number, and pressing it waits for the next button. */
@@ -637,7 +749,7 @@ async function main(): Promise<void> {
     if (on) running?.game.loop.sleep();
     else running?.game.loop.wake();
     if (on) {
-      pauseNode = sheet(t("paused"), el("p", { class: "row" }, el("button", { type: "button", textContent: t("btn_restart"), onclick: () => (setPaused(false), restart(false)) }), el("button", { type: "button", textContent: t("btn_settings"), onclick: () => openSettings() })));
+      pauseNode = sheet(t("paused"), el("p", { class: "row" }, el("button", { type: "button", textContent: t("btn_restart"), onclick: () => (setPaused(false), restart(false)) }), el("button", { type: "button", textContent: t("btn_save"), onclick: () => keep(true) }), el("button", { type: "button", textContent: t("btn_settings"), onclick: () => openSettings() })), el("p", { class: "save-line small", textContent: statusText(saveStatus) }));
       pauseNode.classList.add("pause");
     } else {
       pauseNode = null;
@@ -662,6 +774,11 @@ async function main(): Promise<void> {
   const BUILT: Record<string, string> = { "ibn-al-haytham": QUEST };
   function startQuest(): void {
     cues.unlock();
+    // Asked once, after a press as browsers require; the answer is shown in the settings and never asked again.
+    if (persistence === "unasked" && query.get("fresh") !== "1") {
+      persistence = "unsupported";
+      void askToPersist().then((a) => (persistence = a));
+    }
     started = true;
     hub.hidden = true;
     stageWrap.hidden = false;
@@ -743,6 +860,7 @@ async function main(): Promise<void> {
   drawHub();
   render();
 
+  ready = openVault();
   Object.assign(hook, {
     ready: true,
     lang,
@@ -758,6 +876,9 @@ async function main(): Promise<void> {
     restart: (rebuild: boolean) => restart(rebuild),
     redraw: () => redraw(),
     started: () => started,
+    saveStatus: () => saveStatus,
+    saveReady: () => ready.then(() => durable?.settled()).then(() => saveStatus),
+    persistence: () => persistence,
     toAtlas: () => toAtlas(),
     resumed: () => resumed,
     keys: () => settings().keys,

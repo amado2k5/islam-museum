@@ -7,7 +7,7 @@ _26 November 2026. Describes what is built for the golden scene and what the sam
 ```
 gaming/games/hudhud/
   index.html            the page: one stylesheet, one script, no inline style or script
-  i18n/<lang>.json      194 strings, the same keys in the same order in ar, en, ur, fr, es, tr, id
+  i18n/<lang>.json      209 strings, the same keys in the same order in ar, en, ur, fr, es, tr, id
   i18n-atlas/<lang>.json  the names of the ten worlds and the fifty subjects, a table of their own
   src/
     sim/                RULES. Pure, no Phaser, no DOM, no clock, no unseeded chance; run in Node
@@ -19,7 +19,8 @@ gaming/games/hudhud/
     content/
       atlas.v1.json       80 pictures -> 50 subjects -> 10 worlds -> quests -> museum record ids
       workshop.ts         the golden scene as data: room, puzzle, things, scripts, records
-    save/save.ts        versioned local save: three slots, migrations, quarantine, storage that fails
+    save/save.ts        the save's shape and rules: three slots, migrations, quarantine, merging
+    save/durable.ts     the join to the platform's vault (IndexedDB): which copy leads, saving status, export, import
     input/input.ts      keyboard, on-screen buttons and gamepad -> one Intent
     input/pad.ts        the gamepad as plain numbers: what is held, what was just pressed, changing a button
     audio/cues.ts       the scene's own sounds, synthesised; three volume groups
@@ -27,7 +28,7 @@ gaming/games/hudhud/
     scenes/workshop.ts  Phaser scene: builds the pictures, moves them from the state, measures itself
     game/boot.ts        starts and stops Phaser; sizes the canvas; counts draw calls when asked
     ui/app.ts, .css     the page: talk, goal, settings, pause, results, the scene in words, the test hook
-    tests/*.gtest.ts    114 tests
+    tests/*.gtest.ts    126 tests
 gaming/tools/hudhud-play.ts     plays the scene in real Chrome and records everything
 gaming/tools/hudhud-rebuild.ts  rebuilds the game repeatedly and reads memory
 ```
