@@ -46,13 +46,13 @@ The atlas title is طبيب إشبيلية. No record read supports the exact pi
 
 ## Three candidate quest premises
 
-These are proposals for Claude and the founder, not content.
+These are proposals for Claude and the founder, not content. They are deliberately conservative system scaffolding, not final quest designs. Each names one of the twelve systems in `design.md`; forms such as Measure, Journal, Care and Sail are not treated as separate systems. Claim numbers refer to the claims above.
 
-1. In the Observe system, players must identify the correct sequence of Ibn Zuhr's life events from historical records [2, 7], distinguishing between verified facts and speculative stories.
+1. A child helps compare accounts, objects or clues using the Observe and Match system to find what the evidence supports. This rests on claims [1, 2] as its evidence anchor; the compared materials, missing details, matching puzzle and the child's role are game invention, not record fact.
 
-2. Using the Match system, players match Ibn Zuhr's medical experiments on animals with their human applications [3, 4], understanding the historical context and limitations of his work.
+2. A child helps gather careful answers from people affected by a small local problem using the Talk system before deciding what to do. This rests on claims [1, 3] as its evidence anchor; the speakers, dialogue, local problem, choice and the child's role are game invention, not record fact.
 
-3. In the Care system, players care for a virtual patient using Ibn Zuhr's methods, learning about the ethical considerations of medical experimentation [4, 5], while distinguishing between historical evidence and game mechanics.
+3. A child helps connect people, resources or pieces of knowledge so they reach where they are needed using the Network system. This rests on claims [1, 4] as its evidence anchor; the exact people or resources, missing links, network puzzle and the child's role are game invention, not record fact.
 
 ## Sensitivities
 

@@ -45,13 +45,13 @@ The atlas title is The Surgeon Who Drew His Tools / الجرّاح الذي رس
 
 ## Three candidate quest premises
 
-These are proposals for Claude and the founder, not content.
+These are proposals for Claude and the founder, not content. They are deliberately conservative system scaffolding, not final quest designs. Each names one of the twelve systems in `design.md`; forms such as Measure, Journal, Care and Sail are not treated as separate systems. Claim numbers refer to the claims above.
 
-1. In the 'Observe' system, players must identify and match historical surgical instruments from *al-Tasrif* with their descriptions, distinguishing between historical and modern medical practices [1, 5].
+1. A child helps compare accounts, objects or clues using the Observe and Match system to find what the evidence supports. This rests on claims [1, 2] as its evidence anchor; the compared materials, missing details, matching puzzle and the child's role are game invention, not record fact.
 
-2. Using the 'Match' system, players must match historical surgical techniques described by al-Zahrawi with their outcomes, based on his personal experience, without modern statistical data [6].
+2. Children help put damaged or scattered pieces into a stable, useful order using the Mend and Build system. This rests on claims [1, 3] as its evidence anchor; the damaged or scattered pieces, their exact order, the repair puzzle and the children's role are game invention, not record fact.
 
-3. In the 'Care' system, players must care for virtual patients using historical surgical methods, such as suturing with animal-intestinal filaments, while understanding these methods are experimental [8].
+3. A child helps connect people, resources or pieces of knowledge so they reach where they are needed using the Network system. This rests on claims [1, 4] as its evidence anchor; the exact people or resources, missing links, network puzzle and the child's role are game invention, not record fact.
 
 ## Sensitivities
 

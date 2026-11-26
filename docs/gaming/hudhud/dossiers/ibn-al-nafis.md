@@ -69,13 +69,13 @@ No secure place with coordinates is attached in the museum records read. Place r
 
 ## Three candidate quest premises
 
-These are proposals for Claude and the founder, not content.
+These are proposals for Claude and the founder, not content. They are deliberately conservative system scaffolding, not final quest designs. Each names one of the twelve systems in `design.md`; forms such as Measure, Journal, Care and Sail are not treated as separate systems. Claim numbers refer to the claims above.
 
-1. In the 'Observe' system, players can explore Ibn al-Nafis's medical discoveries, distinguishing between his documented achievements and the game's fictional elements [7].
+1. A child helps compare accounts, objects or clues using the Observe and Match system to find what the evidence supports. This rests on claims [1, 2] as its evidence anchor; the compared materials, missing details, matching puzzle and the child's role are game invention, not record fact.
 
-2. Using the 'Match' system, players can match Ibn al-Nafis's medical practices with historical records, separating historical facts from the game's creative liberties [8].
+2. A child helps connect people, resources or pieces of knowledge so they reach where they are needed using the Network system. This rests on claims [1, 3] as its evidence anchor; the exact people or resources, missing links, network puzzle and the child's role are game invention, not record fact.
 
-3. The 'Care' system allows players to care for patients during a plague outbreak, inspired by Ibn al-Nafis's leadership, while distinguishing between historical events and game inventions [6].
+3. A child helps gather careful answers from people affected by a small local problem using the Talk system before deciding what to do. This rests on claims [1, 4] as its evidence anchor; the speakers, dialogue, local problem, choice and the child's role are game invention, not record fact.
 
 ## Sensitivities
 
