@@ -29,7 +29,7 @@ Also: [**what remains before it is a whole game**](remaining.md); [the state of 
 4. **Reviewers.** None is named. One in the history of science would unblock world 3.
 5. **The title**, and a go-ahead for a proper search.
 6. **The website plan**: approve, change, or hold until the look is accepted.
-7. **UAT.** Released to UAT on 26 November 2026 at his word, as release `20261126-63e2fd9dc25`: `https://uat-games.islam.museum/hudhud/?lang=ar`. Each further UAT release needs his word again; production is his alone.
+7. **UAT.** Released to UAT on 26 November 2026 at his word, twice: `20261126-63e2fd9dc25`, then `20261126-7e6cd96da79` with the three faults mended: `https://uat-games.islam.museum/hudhud/?lang=ar`. Each further UAT release needs his word again; production is his alone.
 
 ## Found in passing in the museum's records, and not changed
 

@@ -33,6 +33,7 @@ for (const lang of langsArg.split(",")) {
     }
     return true;
   };
+  let pauseProblem: string | null = null;
   const t0 = Date.now();
   const response = await page.goto(`${base}/hudhud/?lang=${lang}&fresh=1`);
   const headers = response?.headers() ?? {};
@@ -46,7 +47,15 @@ for (const lang of langsArg.split(",")) {
   const info = opened ? await ev<Record<string, unknown>>("(() => { const i = window.__HH__.info(); return { renderer: i.renderer, textures: i.textures, canvas: i.canvas }; })()") : null;
   await page.screenshot({ path: resolve(out, `uat-hudhud-${lang}-scene.png`) });
   if (opened) {
-    await ev("window.__HH__.command({type:'skip'}); for (const id of ['mirror-a','mirror-c','mirror-e']) window.__HH__.touch(id);");
+    // The fault an independent player found on a host: pause, go on from the toolbar, and the game must still answer.
+    await ev("window.__HH__.command({type:'skip'})");
+    const pauseBtn = page.locator("header button").nth(-2);
+    await pauseBtn.dispatchEvent("click");
+    await pauseBtn.dispatchEvent("click");
+    await page.locator(".words li button").first().click({ timeout: 5000 }).catch(() => undefined);
+    await page.waitForTimeout(150);
+    if ((await ev<number>("window.__HH__.state().turns")) !== 1) pauseProblem = "after pausing and going on from the toolbar, the list did not turn a mirror";
+    await ev("for (const id of ['mirror-c','mirror-e']) window.__HH__.touch(id);");
     await page.waitForTimeout(1800);
     await page.screenshot({ path: resolve(out, `uat-hudhud-${lang}-lit.png`) });
     await ev("window.__HH__.command({type:'skip'}); window.__HH__.touch('page');");
@@ -64,6 +73,7 @@ for (const lang of langsArg.split(",")) {
   if (atlas.worlds !== 10 || atlas.pages !== 50 || atlas.open !== 1) mine.push(`the Atlas shows ${atlas.worlds} worlds, ${atlas.pages} pages, ${atlas.open} open`);
   if (!atlas.proto) mine.push("the prototype label is not shown");
   if ((lang === "ar" || lang === "ur") !== (atlas.dir === "rtl")) mine.push(`direction is ${atlas.dir}`);
+  if (pauseProblem) mine.push(pauseProblem);
   if (!opened) mine.push("the scene did not open");
   else if (info?.renderer !== "webgl") mine.push(`drawn with ${info?.renderer}`);
   if (!end.done) mine.push("the quest did not finish");
