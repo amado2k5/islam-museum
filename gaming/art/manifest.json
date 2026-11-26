@@ -666,6 +666,151 @@
    ]
   },
   {
+   "id": "granada/palace",
+   "game": "granada",
+   "title": "The palace on the hill, written as its own script (its lighter making)",
+   "madeBy": "the shapes: this repository's own scripts, run in Blender. The surfaces: photographs given to the public domain by Poly Haven, named in art/sources.json, where this machine had them; painted by the scripts where it did not",
+   "licence": "the scripts: MIT, with the code; what they make: CC BY-SA 4.0, with the museum's media of its own; the photographed surfaces stay public domain (CC0)",
+   "surfaces": [
+    "white_stucco_02",
+    "clay_roof_tiles_02",
+    "rustic_stone_wall_02",
+    "weathered_brown_planks",
+    "cobblestone_floor_04"
+   ],
+   "sources": [
+    {
+     "path": "art/blender/common.py",
+     "sha256": "0b9a4ce8ee3efeefb246c78301170bf03256d20d63d575f93ae57bda473a9915"
+    },
+    {
+     "path": "art/blender/kit.py",
+     "sha256": "2f6e06dd53a3dc19d3bae51a394ac41daab84200065391fbbffa096e76f31496"
+    },
+    {
+     "path": "art/blender/author.py",
+     "sha256": "a38fe9bed1bc98d31ccf72ac96174c09b749966288a93f95c24f7e0aa3b7cd0b"
+    },
+    {
+     "path": "art/derive_palace.py",
+     "sha256": "9be7b1aa813a76a0e14208a0750d771c8ff62f2531ec5abcc41646568cee00d6"
+    },
+    {
+     "path": "art/blender/granada_palace_c.py",
+     "sha256": "d03fbf012023fc751cde28ba49f8a0281b4ef38074f209d6772d4d5f8ea4e4ff"
+    }
+   ],
+   "objects": [
+    "palace"
+   ],
+   "placed": {
+    "palace": [
+     0,
+     0,
+     0
+    ]
+   },
+   "materials": [
+    "stone",
+    "plaster_red",
+    "dark",
+    "plaster_warm",
+    "rooftile",
+    "wood",
+    "water",
+    "green"
+   ],
+   "triangles": 69676,
+   "bytes": 13206628,
+   "files": [
+    {
+     "path": "granada/p1/palace.gltf",
+     "bytes": 11932,
+     "sha256": "9808e8f951ac509b32f1326d610a07ebbaba5ed7e8fc89bef677562d920042dc"
+    },
+    {
+     "path": "granada/p1/palace.bin",
+     "bytes": 9063576,
+     "sha256": "ad2a4a96bb655841c0b4a97711e9be36e5e727bcef90ee978c89338bed850af1"
+    },
+    {
+     "path": "granada/2/textures/stone_normal.jpg",
+     "bytes": 488747,
+     "sha256": "9f224159e3a5d3365635742e00efbe5db6c351a2b6941664dcdc6234f3b80fd7"
+    },
+    {
+     "path": "granada/2/textures/stone_base.jpg",
+     "bytes": 294472,
+     "sha256": "fd7c3ed9873471f4c25a823d3ca10568ce7bf246372b8a71765c039b3ca5b2e0"
+    },
+    {
+     "path": "granada/2/textures/stone_orm.jpg",
+     "bytes": 173326,
+     "sha256": "4b09ea633d3b0ee78ae63b1f453d18538b98cd92683121290f6061328ae5f899"
+    },
+    {
+     "path": "granada/2/textures/plaster_red_normal.jpg",
+     "bytes": 505220,
+     "sha256": "70bb045b71c60430756bd0d4842b15128725eedea0958be8d0771c6ae3745672"
+    },
+    {
+     "path": "granada/2/textures/plaster_red_base.jpg",
+     "bytes": 211514,
+     "sha256": "b5d7eb315e6e71db1e8e0657c9d2c55aac107011aea1dcbafd9fbb955ea2493c"
+    },
+    {
+     "path": "granada/2/textures/plaster_red_orm.jpg",
+     "bytes": 102840,
+     "sha256": "358a637f65eb2cb46b972d66e77634fe933569295cb48e0163b3849e93ff9884"
+    },
+    {
+     "path": "granada/2/textures/plaster_warm_normal.jpg",
+     "bytes": 505220,
+     "sha256": "70bb045b71c60430756bd0d4842b15128725eedea0958be8d0771c6ae3745672"
+    },
+    {
+     "path": "granada/2/textures/plaster_warm_base.jpg",
+     "bytes": 251880,
+     "sha256": "681fc37ac4f7bb14d02724a7c89b929cc046f5794aa05519a7d73fbc8f8d073c"
+    },
+    {
+     "path": "granada/2/textures/plaster_warm_orm.jpg",
+     "bytes": 102840,
+     "sha256": "358a637f65eb2cb46b972d66e77634fe933569295cb48e0163b3849e93ff9884"
+    },
+    {
+     "path": "granada/2/textures/rooftile_normal.jpg",
+     "bytes": 362450,
+     "sha256": "a0985208d3db004d7544ef066014ef6b29815aa55e98d18db1c9f2c1ff1eae8f"
+    },
+    {
+     "path": "granada/2/textures/rooftile_base.jpg",
+     "bytes": 328786,
+     "sha256": "89636d288f5638b36166ad2fe462647c3f30aac0f8b4c9f2368ca120fc224f72"
+    },
+    {
+     "path": "granada/2/textures/rooftile_orm.jpg",
+     "bytes": 82064,
+     "sha256": "3608035f17a4564866003efe9619886c4a4ff7a53e88e16ba2718ad92476a8b5"
+    },
+    {
+     "path": "granada/2/textures/wood_normal.jpg",
+     "bytes": 179091,
+     "sha256": "6ac9e49ad25245642fc98ccf97df5dc92f4838497d7af548b7e46b24fbccfeac"
+    },
+    {
+     "path": "granada/2/textures/wood_base.jpg",
+     "bytes": 275317,
+     "sha256": "f16f1bd4917b4feeb1cb4d83a33e150a328a2d350cfcc07df598c173489a88ef"
+    },
+    {
+     "path": "granada/2/textures/wood_orm.jpg",
+     "bytes": 267353,
+     "sha256": "f9cdb4ca17b3eb3872e439b735dabd25adad4d5eb63157262d551668f901b5c9"
+    }
+   ]
+  },
+  {
    "id": "granada/palace-c",
    "game": "granada",
    "title": "Candidate C (under evaluation): a palace written as its own script",
