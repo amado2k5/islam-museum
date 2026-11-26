@@ -379,6 +379,16 @@ npm run build:release:music + release:smoke   passes
 
 Three things went wrong on the way and are worth keeping. The first rebuild could not lay out the year: with 258 battles gone the fifth round of each day went to people until, on day 292, every place with a person left was resting. Giving it to the category with most rounds to spare failed the same way on day 312. Giving it to the category with most places free laid out the year but asked 830 battles where the pack had 709, which is the opposite of what was wanted; giving civic events a share ran them out of places by day 149, as the first design had found. Battles are now counted for less in that choice and the builder finds the lowest weight that still lays out the year.
 
+### The twenty-fourth pull request: the models can be carried to the games host (25 November 2026)
+
+```
+node --test workers/games/test/*.test.mjs     38 passed (two new: only what the art manifest names, byte for byte, under a path that can hold only a model's files; uploaded once, read back, served as model/gltf+json)
+the real manifest against the real files      17 files, 5,472,930 bytes, all accepted
+npm --prefix gaming test                      254 passed (unchanged)
+```
+
+The workflow's own build now looks for models beside the release (`--models-base ../media/models/`). The founder answered "Yes, upload to UAT" to the question of putting the mill's files there.
+
 ## Measurements
 
 The engine numbers and their conditions are in [G-0002](adr/G-0002-rendering-engine.md) and the [M1 report](m1-graphics-spike.md). They are for one Apple M4 Max in Chrome 158 and are not a hardware recommendation.

@@ -178,3 +178,39 @@ test("no call ever left games/, and none removed anything", () => {
     for (const a of call.filter((x) => x.startsWith("s3://"))) assert.ok(a.startsWith("s3://test-bucket/games/"), a);
   }
 });
+
+test("the models are uploaded only as the art manifest records them, under their own paths, and served for what they are", async () => {
+  const dir = join(work, "models-in");
+  mkdirSync(dir);
+  const files = [["granada/mill.gltf", '{"asset":{"version":"2.0"}}'], ["granada/mill.bin", "\u0000binary"], ["granada/textures/stone_base.jpg", "jpeg bytes"]];
+  // As they come from a release's assets: flat names.
+  for (const [path, body] of files) writeFileSync(join(dir, path.replaceAll("/", "__")), body);
+  const manifestFile = join(work, "art-manifest.json");
+  writeFileSync(manifestFile, JSON.stringify({ format: "im.play.art", assets: [{ id: "granada/mill", files: files.map(([path, body]) => ({ path, bytes: Buffer.byteLength(body), sha256: createHash("sha256").update(body).digest("hex") })) }] }));
+  const media = (...extra) => publish("media", "--kind", "models", "--dir", dir, "--manifest", manifestFile, ...extra);
+
+  const dry = media("--dry-run");
+  assert.equal(dry.status, 0, dry.stderr);
+  assert.ok(!existsSync(join(bucketDir, "games/media/models")));
+
+  const first = media();
+  assert.equal(first.status, 0, first.stderr + first.stdout);
+  assert.match(first.stdout, /3 model files checked against the manifest; 3 uploaded/);
+  assert.equal(readFileSync(join(bucketDir, "games/media/models/granada/textures/stone_base.jpg"), "utf8"), "jpeg bytes");
+  assert.match(media().stdout, /0 uploaded/);
+
+  // The Worker serves the entry file as a model, beside the releases.
+  const entry = await worker.fetch(new Request("https://games.islam.museum/media/models/granada/mill.gltf"), { GAMES_BUCKET: folderBucket(bucketDir) });
+  assert.equal(entry.status, 200);
+  assert.equal(entry.headers.get("content-type"), "model/gltf+json");
+  assert.equal(entry.headers.get("x-content-type-options"), "nosniff");
+
+  // A file changed after the manifest was written is refused, and nothing in the bucket is touched.
+  writeFileSync(join(dir, "granada__mill.bin"), "other bytes");
+  const wrong = media();
+  assert.notEqual(wrong.status, 0);
+  assert.match(wrong.stderr, /is not the file the manifest records/);
+  assert.equal(readFileSync(join(bucketDir, "games/media/models/granada/mill.bin"), "utf8"), "\u0000binary");
+  // The wrong kind for the manifest is refused too.
+  assert.notEqual(publish("media", "--dir", dir, "--manifest", manifestFile).status, 0);
+});

@@ -6,6 +6,7 @@
 //   node workers/games/publish.mjs release  --bucket <name> --endpoint <url> --release <dir> [--run <id>] [--dry-run]
 //   node workers/games/publish.mjs rollback --bucket <name> --endpoint <url> [--run <id>] [--dry-run]
 //   node workers/games/publish.mjs media    --bucket <name> --endpoint <url> --dir <folder> --manifest <music.json> [--dry-run]
+//   node workers/games/publish.mjs media    --kind models --bucket <name> --endpoint <url> --dir <folder> --manifest <gaming/art/manifest.json> [--dry-run]
 //
 // The music is not part of a release: the audio is never in git, so it is uploaded on its own, to games/media/music/,
 // and only the tracks the manifest names, each checked against the size and SHA-256 the manifest records.
@@ -18,7 +19,7 @@ import { existsSync, mkdtempSync, readFileSync, rmSync, writeFileSync } from "no
 import { tmpdir } from "node:os";
 import { join, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
-import { CHANNEL_KEY, PREFIX, RELEASE_ID, mediaKey, parseChannel, releaseKey } from "./src/route.js";
+import { CHANNEL_KEY, PREFIX, RELEASE_ID, contentType, mediaKey, parseChannel, releaseKey } from "./src/route.js";
 
 /** A release id from its manifest: the commit's date and the first eleven characters of its hash. */
 export function releaseIdOf(manifest) {
@@ -50,6 +51,37 @@ export function tracksToPublish(manifest, dir, read = readFileSync, exists = exi
     const sha256 = createHash("sha256").update(bytes).digest("hex");
     if (bytes.length !== t.bytes || sha256 !== t.sha256) throw new Error(`${t.file} is not the file the manifest records (${bytes.length} bytes, SHA-256 ${sha256.slice(0, 12)}…)`);
     return { file: t.file, path, bytes: bytes.length, sha256, key: mediaKey(`media/music/${t.file}`) };
+  });
+}
+
+/** A model file's name where there are no folders (the assets of a release): "granada/mill.gltf" is "granada__mill.gltf". */
+export const flatName = (path) => path.replaceAll("/", "__");
+const MODEL_FILE = /^[a-z0-9][a-z0-9-]*(\/[a-z0-9][a-z0-9_-]*)*\/[a-z0-9][a-z0-9_-]*\.(gltf|bin|jpg)$/;
+
+/**
+ * The model files an art manifest names, each with the bytes found for it in `dir` (under its own path, or under its
+ * flat name). Throws unless every file is there with exactly the size and SHA-256 the manifest records: nothing else
+ * can be published as one of the games' models. A file shared by several assets is published once.
+ */
+export function modelsToPublish(manifest, dir, read = readFileSync, exists = existsSync) {
+  if (manifest?.format !== "im.play.art" || !Array.isArray(manifest.assets) || manifest.assets.length === 0) throw new Error("the manifest names no asset");
+  const named = new Map();
+  for (const asset of manifest.assets) {
+    if (!Array.isArray(asset?.files) || asset.files.length === 0) throw new Error(`asset "${asset?.id}" names no file`);
+    for (const f of asset.files) {
+      if (typeof f?.path !== "string" || !MODEL_FILE.test(f.path) || f.path.includes("__")) throw new Error(`"${f?.path}" is not a model file's path`);
+      const before = named.get(f.path);
+      if (before && (before.sha256 !== f.sha256 || before.bytes !== f.bytes)) throw new Error(`${f.path} is recorded twice, with different contents`);
+      named.set(f.path, f);
+    }
+  }
+  return [...named.values()].map((f) => {
+    const path = [join(dir, f.path), join(dir, flatName(f.path))].find((p) => exists(p));
+    if (!path) throw new Error(`${f.path} is not in ${dir}`);
+    const bytes = read(path);
+    const sha256 = createHash("sha256").update(bytes).digest("hex");
+    if (bytes.length !== f.bytes || sha256 !== f.sha256) throw new Error(`${f.path} is not the file the manifest records (${bytes.length} bytes, SHA-256 ${sha256.slice(0, 12)}…)`);
+    return { file: f.path, path, bytes: bytes.length, sha256, key: mediaKey(`media/models/${f.path}`), contentType: contentType(f.path) };
   });
 }
 
@@ -109,7 +141,10 @@ function main() {
   const say = (line) => console.log(line);
 
   if (action === "media") {
-    const tracks = tracksToPublish(JSON.parse(readFileSync(resolve(opt("manifest") ?? ""), "utf8")), resolve(opt("dir") ?? ""));
+    const kind = opt("kind") ?? "music";
+    if (kind !== "music" && kind !== "models") throw new Error(`--kind must be music or models, not ${kind}`);
+    const named = JSON.parse(readFileSync(resolve(opt("manifest") ?? ""), "utf8"));
+    const tracks = kind === "models" ? modelsToPublish(named, resolve(opt("dir") ?? "")) : tracksToPublish(named, resolve(opt("dir") ?? ""));
     const shaOf = (file) => createHash("sha256").update(readFileSync(file)).digest("hex");
     /** Fetches an object to a file. Returns false if it is not in the bucket. */
     const fetchTo = (key, file) => {
@@ -125,7 +160,7 @@ function main() {
     const work = mkdtempSync(join(tmpdir(), "im-games-media-"));
     let uploaded = 0;
     for (const t of tracks) {
-      const copy = join(work, t.file);
+      const copy = join(work, flatName(t.file));
       if (fetchTo(t.key, copy)) {
         if (shaOf(copy) !== t.sha256) throw new Error(`${t.key} is in the bucket with other contents. It is not overwritten: this needs a look`);
         say(`${t.file}: already in the bucket, identical`);
@@ -133,12 +168,12 @@ function main() {
       }
       say(`${t.file}: ${dry ? "would upload" : "uploading"} ${(t.bytes / 1048576).toFixed(2)} MB`);
       if (dry) continue;
-      aws(["s3", "cp", t.path, s3(t.key), "--only-show-errors", "--content-type", "audio/mp4"], { stdio: "inherit" });
+      aws(["s3", "cp", t.path, s3(t.key), "--only-show-errors", "--content-type", t.contentType ?? "audio/mp4"], { stdio: "inherit" });
       if (!fetchTo(t.key, copy) || shaOf(copy) !== t.sha256) throw new Error(`${t.key} did not read back as it was sent`);
       uploaded += 1;
     }
     rmSync(work, { recursive: true, force: true });
-    say(`${tracks.length} tracks checked against the manifest; ${uploaded} uploaded${dry ? " (dry run: nothing written)" : ""}`);
+    say(`${tracks.length} ${kind === "models" ? "model files" : "tracks"} checked against the manifest; ${uploaded} uploaded${dry ? " (dry run: nothing written)" : ""}`);
     return;
   }
 
