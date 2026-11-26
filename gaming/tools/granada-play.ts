@@ -218,6 +218,37 @@ if (threeD === "on") {
   await context2.close();
 }
 
+// ---- Building on the land, in the 3D valley: the ring at the middle of the view, moved by the keys, built with Enter ----
+if ((await game<string>("window.__GR__.threeD")) === "on") {
+  await page.goto(url("&fresh=1", ""));
+  await ready();
+  await page.locator("#brief-start").click();
+  await page.waitForFunction("window.__GR__.threeD !== 'pending'", undefined, { timeout: 60_000 });
+  await page.waitForTimeout(1500);
+  // Open ground east of the village, seen from close by.
+  await game("window.__GR__.stage().setPose({ tx: 600, ty: 8, tz: 250, yaw: 1.2, pitch: 0.5, distance: 120 }, true)");
+  await page.keyboard.press("3");
+  await page.locator("[data-act='place-granary']").click();
+  await page.locator("canvas.scene").focus();
+  if ((await page.locator("#site-status").getAttribute("class")) !== "site-ok") await fail(`open ground in the 3D valley refused the granary: ${await page.locator("#site-status").textContent()}`);
+  await shot("9a-ring-3d");
+  await page.keyboard.press("Enter");
+  const placed3d = await game<Array<{ what: string; x: number; z: number; done: boolean }>>("window.__GR__.state().placed");
+  if (placed3d.length !== 1 || placed3d[0]!.what !== "granary" || Math.hypot(placed3d[0]!.x - 600, placed3d[0]!.z - 250) > 2) await fail(`Enter did not build at the middle of the view: ${JSON.stringify(placed3d)}`);
+  // The pointer names the ground too: over what was just placed, the ground refuses.
+  const cv = (await page.locator("canvas.scene").boundingBox())!;
+  await page.locator("[data-act='place-house']").click();
+  await page.mouse.move(cv.x + cv.width / 2, cv.y + cv.height / 2);
+  await page.waitForTimeout(200);
+  if ((await page.locator("#site-status").getAttribute("class")) === "site-ok") await fail("a house can be put on the granary being built");
+  await page.keyboard.press("Escape");
+  await game("window.__GR__.days(6)");
+  await page.waitForTimeout(600);
+  if (!(await game<boolean>("window.__GR__.state().placed[0].done"))) await fail("the granary placed in 3D was not finished in six days");
+  await shot("9a-built-3d");
+  log.building3d = placed3d;
+}
+
 // ---- Trade through the page: the contract taken, the olives pressed, the oil delivered, the rest sent ----
 await page.goto(url("&fresh=1"));
 await ready();
@@ -250,6 +281,51 @@ if (runs > 8) {
 }
 if ((await page.locator("[data-part='contract'][data-state='settled']").count()) !== 1) await fail("the panel does not show the contract as kept");
 log.trade = { olives, runs, contract, paid: afterPay - beforePay };
+
+// ---- Building on the land, on the plan: a thing chosen, bad ground refused, good ground built on, by keyboard and by mouse ----
+await page.goto(url("&fresh=1"));
+await ready();
+await page.locator("#brief-start").click();
+await page.keyboard.press("3");
+if (await page.locator("[data-act='work-house'], [data-act='work-granary']").count()) await fail("houses and granaries are still ordered from the list as well as placed");
+for (const what of ["house", "granary", "cistern", "garden"]) if ((await page.locator(`[data-act='place-${what}']`).count()) !== 1) await fail(`the catalogue has no ${what}`);
+await page.locator("[data-act='place-house']").focus();
+await page.keyboard.press("Enter");
+if ((await page.locator("#site-status").getAttribute("class")) !== "site-ok" || (await page.locator("svg.map .ghost.ok").count()) !== 1) await fail("choosing a house did not offer ground that takes it");
+// By keyboard: on to a field, where the ground refuses and says why; then back, and built.
+const offered = await game<string>("document.getElementById('site-status').textContent");
+let onField = false;
+for (let i = 0; i < 40 && !onField; i++) {
+  await page.keyboard.press("Shift+ArrowUp");
+  onField = (await page.locator("svg.map .ghost.bad").count()) === 1;
+}
+if (!onField || (await page.locator("#site-build").isEnabled())) await fail("no ground refused the house, or bad ground can be built on");
+const refusedWords = await game<string>("document.getElementById('site-status').textContent");
+if (refusedWords === offered) await fail("the refusal is not said in words");
+await shot("9c-site-refused");
+const moneyBefore = await game<number>("window.__GR__.state().economy.treasury.available");
+await page.locator("svg.map").focus().catch(() => {});
+await page.keyboard.press("Enter");
+if ((await game<number>("window.__GR__.state().placed.length")) !== 0 || (await game<number>("window.__GR__.state().economy.treasury.available")) !== moneyBefore) await fail("building on refused ground changed the game");
+await page.keyboard.press("Escape");
+if (await page.locator("[data-part='siting']").count()) await fail("Escape did not stop the choosing");
+await page.locator("[data-act='place-house']").click();
+await page.locator("#site-build").click();
+const first = await game<{ what: string; done: boolean }[]>("window.__GR__.state().placed");
+if (first.length !== 1 || first[0]!.what !== "house" || first[0]!.done) await fail(`the house was not started: ${JSON.stringify(first)}`);
+if ((await game<number>("window.__GR__.state().economy.treasury.available")) !== moneyBefore - 16000) await fail("the house did not cost its 160 dinars");
+if ((await page.locator("svg.map .placed.house.building").count()) !== 1) await fail("the plan does not show the house being built");
+// By mouse: a garden, on the ground the plan offers, by a click on the plan itself.
+await page.locator("[data-act='place-garden']").click();
+const ring = (await page.locator("svg.map .ghost circle").boundingBox())!;
+await page.mouse.click(ring.x + ring.width / 2, ring.y + ring.height / 2);
+if ((await game<number>("window.__GR__.state().placed.length")) !== 2) await fail("a click on the plan did not place the garden");
+await game("window.__GR__.days(5)");
+const built = await game<{ what: string; done: boolean }[]>("window.__GR__.state().placed");
+if (!built.every((p) => p.done) || (await game<number>("window.__GR__.state().housing")) !== 70) await fail(`the buildings were not finished, or the house houses nobody: ${JSON.stringify(built)}`);
+if ((await page.locator("svg.map .placed:not(.building)").count()) !== 2) await fail("the plan does not show the finished buildings");
+await shot("9d-built");
+log.building = { refused: refusedWords, built };
 
 // ---- A whole campaign through the page, by the way of the mender ----
 await page.goto(url("&fresh=1"));

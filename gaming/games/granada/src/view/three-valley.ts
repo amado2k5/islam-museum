@@ -25,7 +25,7 @@ import { MODELS_AVAILABLE, disposeModel, disposeSharedMaterials, loadModel } fro
 const MODEL_SET = "granada/2/";
 /** The pieces the hill needs before the valley stops making its own wall, towers and halls there. */
 const HILL_PIECES = ["wall", "tower", "gate", "scaffold", "crane", "palace", "estate"];
-import { CHANNELS, ESTATE, FIELDS, GRANARY, HOUSE_LOTS, KIT_HOUSES, MARKET, PLOT_GRID, POOL, STORE, VILLAGE, broadTree, buildLand, buildRange, buildRiver, buildScenery, channelWater, cropSpots, cypressTree, fieldAt, fieldGround, heightAt, oliveTree, orchardTree, plotTable, poolWater, poplarTree, vegetablePlant, wheatTuft, type Chunk , type KitPlacement } from "./valley";
+import { CHANNELS, ESTATE, FIELDS, GRANARY, HOUSE_LOTS, KIT_HOUSES, MARKET, PLOT_GRID, POOL, STORE, VILLAGE, broadTree, buildLand, buildRange, buildRiver, buildScenery, channelWater, cropSpots, cypressTree, fieldAt, fieldGround, heightAt, oliveTree, orchardTree, placedBuilding, plotTable, poolWater, poplarTree, vegetablePlant, wheatTuft, type Chunk , type KitPlacement } from "./valley";
 
 export type Quality = "low" | "medium" | "high";
 /**
@@ -69,6 +69,8 @@ export interface ValleyLook {
   /** People out at work, drawn walking between the village and the places where there is work. */
   busy: number;
   selected: string | null;
+  /** What the player has placed on the land: scaffolding until it is done, the building after. */
+  placed?: Array<{ id: number; what: string; x: number; z: number; r: number; done: boolean }>;
 }
 
 const sunFrom = (azimuthDeg: number, elevationDeg: number): [number, number, number] => {
@@ -181,6 +183,9 @@ export class ValleyRenderer {
   private houses: THREE.Mesh[][] = [];
   private granary: THREE.Mesh[] = [];
   private scaffold!: THREE.InstancedMesh;
+  private readonly placedMeshes = new Map<number, THREE.Mesh[]>();
+  private ghost!: THREE.Mesh;
+  private ghostFill!: THREE.Mesh;
   private readonly crops = new Map<string, { wheat: THREE.InstancedMesh; veg: THREE.InstancedMesh; wheatSpots: Float32Array; vegSpots: Float32Array; soil: Soil; shown: string }>();
   private olives!: THREE.InstancedMesh;
   private oliveSpots: number[][] = [];
@@ -434,6 +439,23 @@ export class ValleyRenderer {
     this.scaffold.count = 0;
     this.scaffold.castShadow = true;
     scene.add(this.scaffold);
+
+    // Where the player is thinking of building: a ring and a faint disc laid on the land, drawn over everything.
+    const ringGeometry = new THREE.RingGeometry(0.9, 1, 48);
+    ringGeometry.rotateX(-Math.PI / 2);
+    const discGeometry = new THREE.CircleGeometry(0.9, 48);
+    discGeometry.rotateX(-Math.PI / 2);
+    const ringMaterial = new THREE.MeshBasicMaterial({ color: 0x4fd06a, transparent: true, opacity: 0.95, depthTest: false, side: THREE.DoubleSide });
+    const discMaterial = new THREE.MeshBasicMaterial({ color: 0x4fd06a, transparent: true, opacity: 0.28, depthTest: false, side: THREE.DoubleSide });
+    this.disposables.push(ringGeometry, discGeometry, ringMaterial, discMaterial);
+    this.ghost = new THREE.Mesh(ringGeometry, ringMaterial);
+    this.ghostFill = new THREE.Mesh(discGeometry, discMaterial);
+    for (const m of [this.ghost, this.ghostFill]) {
+      m.visible = false;
+      m.renderOrder = 20;
+      m.frustumCulled = false;
+      scene.add(m);
+    }
 
     // Ox-carts on the roads.
     this.carts = instanced(scenery.cart, "prop", CARTS, true, true);
@@ -865,6 +887,31 @@ export class ValleyRenderer {
     const sites: Array<[number, number, number, number]> = [];
     for (let i = look.houses; i < Math.min(HOUSE_LOTS.length, look.houses + look.housesUnderWay); i++) sites.push([HOUSE_LOTS[i]!.x, HOUSE_LOTS[i]!.z, 8, 7]);
     if (look.granary === "under-way") sites.push([GRANARY[0], GRANARY[1], 13, 7]);
+    // What the player has placed: poles round it while it is built, the building itself once it is done.
+    const placed = look.placed ?? [];
+    for (const p of placed) if (!p.done) sites.push([p.x, p.z, p.r * 0.75, p.r * 0.65]);
+    for (const p of placed) {
+      if (!p.done || this.placedMeshes.has(p.id)) continue;
+      this.placedMeshes.set(
+        p.id,
+        placedBuilding(p.what, p.x, p.z, this.options.seed).map((c) => {
+          const m = new THREE.Mesh(geometryOf(c.mesh), this.materials.get(c.material as SceneMaterialId)!);
+          m.castShadow = true;
+          m.receiveShadow = true;
+          this.scene.add(m);
+          return m;
+        }),
+      );
+    }
+    for (const [id, meshes] of this.placedMeshes) {
+      if (placed.some((p) => p.id === id && p.done)) continue;
+      for (const m of meshes) {
+        this.scene.remove(m);
+        m.geometry.dispose();
+      }
+      this.placedMeshes.delete(id);
+    }
+
     const sa = this.scaffold.instanceMatrix.array as Float32Array;
     let n = 0;
     for (const [x, z, hw, hd] of sites) {
@@ -1029,6 +1076,20 @@ export class ValleyRenderer {
     this.fitDetail(pose);
   }
 
+  /**
+   * Where the player is thinking of building: a ring on the ground, green and whole where the ground takes it, red
+   * where it does not. The words beside the valley say the same, so nothing is told by colour alone.
+   */
+  setGhost(g: { x: number; z: number; r: number; ok: boolean } | null): void {
+    for (const m of [this.ghost, this.ghostFill]) {
+      m.visible = g !== null;
+      if (!g) continue;
+      m.position.set(g.x, heightAt(g.x, g.z, this.options.seed) + 0.6, g.z);
+      m.scale.set(g.r, 1, g.r);
+      (m.material as THREE.MeshBasicMaterial).color.setHex(g.ok ? 0x4fd06a : 0xe0503c);
+    }
+  }
+
   /** The point of the land under a place in the window (CSS pixels), or null if the ray leaves the valley. */
   landAt(clientX: number, clientY: number): [number, number] | null {
     const r = this.canvas.getBoundingClientRect();
@@ -1178,6 +1239,8 @@ export class ValleyRenderer {
 
   dispose(): void {
     this.disposed = true;
+    for (const meshes of this.placedMeshes.values()) for (const m of meshes) m.geometry.dispose();
+    this.placedMeshes.clear();
     if (this.millModel) disposeModel(this.millModel);
     if (this.townModel) disposeModel(this.townModel);
     if (this.landmarksModel) disposeModel(this.landmarksModel);

@@ -11,7 +11,7 @@
 import { Rng, fbm, hash32, latticeHash } from "@im/kernel/prng";
 import { MeshBuilder, frame, toWorld, type MeshData, type Rgb } from "@im/worldkit/mesh";
 import { MeshSet, type MaterialId } from "@im/worldkit/district/kit";
-import { andalusiHouse, bridge, millHouse, mosque, oxCart, townHouse, waterWheel } from "./buildings";
+import { andalusiHouse, bridge, gable, millHouse, mosque, oxCart, townHouse, waterWheel } from "./buildings";
 
 export type Pt = readonly [number, number];
 export const plan = (px: number, py: number): Pt => [px - 500, py - 280];
@@ -498,7 +498,7 @@ export const ROAD_EAST: Pt[] = [[202, 187], [226, 208], [262, 226], [318, 244], 
 const BRIDGE_Z = riverZ(BRIDGE.x);
 export const ROAD_NORTH: Pt[] = [[34, 150], [22, 70], [11, -10], [6, -72], [BRIDGE.x, BRIDGE_Z + BRIDGE.length / 2]];
 export const ROAD_BEYOND: Pt[] = [[BRIDGE.x, BRIDGE_Z - BRIDGE.length / 2], [2, BRIDGE_Z - 90], [-16, -360], [-64, -660], [-120, -1120]];
-const ROADS: Pt[][] = [ROAD_WEST, ROAD_EAST, ROAD_NORTH, ROAD_BEYOND];
+export const ROADS: Pt[][] = [ROAD_WEST, ROAD_EAST, ROAD_NORTH, ROAD_BEYOND];
 
 /** A smooth line through a road's points, a point every few metres. */
 export function roadLine(path: Pt[]): Pt[] {
@@ -522,7 +522,7 @@ const segmentDistance = (x: number, z: number, q: Pt, r: Pt): number => {
   const t = Math.max(0, Math.min(1, ((x - q[0]) * (r[0] - q[0]) + (z - q[1]) * (r[1] - q[1])) / ((r[0] - q[0]) ** 2 + (r[1] - q[1]) ** 2)));
   return Math.hypot(x - q[0] - (r[0] - q[0]) * t, z - q[1] - (r[1] - q[1]) * t);
 };
-const pathDistance = (x: number, z: number, path: Pt[]): number => path.reduce((least, q, i) => (path[i + 1] ? Math.min(least, segmentDistance(x, z, q, path[i + 1]!)) : least), Infinity);
+export const pathDistance = (x: number, z: number, path: Pt[]): number => path.reduce((least, q, i) => (path[i + 1] ? Math.min(least, segmentDistance(x, z, q, path[i + 1]!)) : least), Infinity);
 const nearRoad = (x: number, z: number): boolean => ROADS.some((path) => pathDistance(x, z, path) < 9);
 /**
  * How high a road's surface is at a point: on the land, humped over a channel it crosses, and climbing to the
@@ -1103,6 +1103,51 @@ export function cypressTree(far: boolean): MeshData {
   else b.cylinder(f, 0, 0, 0, 0.18, 0.14, 1.2, 6, BARK, false);
   b.revolve(f, 0, far ? 0.8 : 1, 0, (t) => [1.15 * Math.pow(Math.sin(Math.PI * Math.min(1, 0.1 + 0.9 * t)), 0.8) * (1 - 0.55 * t), 10 * t], far ? 5 : 9, far ? 4 : 8, SHADE_LO, SHADE_HI);
   return b.build();
+}
+
+/**
+ * A building the player has placed, as the game's own code makes it: a house, a granary, a cistern or a garden,
+ * standing on the land at (x, z) and turned by where it stands, so that the same place always gives the same building.
+ */
+export function placedBuilding(what: string, x: number, z: number, seed: number): Array<{ material: MaterialId | "foliage"; mesh: MeshData }> {
+  const set = new MeshSet(4000);
+  const base = heightAt(x, z, seed);
+  const turn = (latticeHash(Math.round(x), Math.round(z), seed + 211) - 0.5) * 0.9;
+  const f = frame(x, base - 0.3, z, turn);
+  const out: Array<{ material: MaterialId | "foliage"; mesh: MeshData }> = [];
+  if (what === "house") {
+    andalusiHouse(set, f, 10.5, 7.6, new Rng(hash32("placed-house", (Math.round(x) * 4099 + Math.round(z)) >>> 0)));
+  } else if (what === "granary") {
+    const wall: Rgb = [0.9, 0.82, 0.68];
+    set.at("plaster", x, z).box(f, 0, 0, 0, 19, 6.6, 10, wall, 31, 0.86);
+    gable(set, f, 0, 0, 19, 10, 6.5, 3.2, [0.7, 0.35, 0.21], wall);
+    for (let i = 0; i <= 5; i++) set.at("ashlar", x, z).box(f, -8.5 + (17 * i) / 5, 0, 5.6, 0.9, 4.6, 1.2, STONE, 31, 0.82);
+    set.at("wood", x, z).box(f, 0, 0, 5.05, 2.6, 3.4, 0.2, [0.36, 0.24, 0.14], 31, 0.9);
+  } else if (what === "cistern") {
+    // A round basin of dressed stone, a step down to the water, and a low parapet.
+    const stone = set.at("ashlar", x, z);
+    stone.cylinder(f, 0, 0, 0, 8.6, 8.4, 1.5, 28, STONE, true, [0.7, 0.65, 0.56]);
+    stone.cylinder(f, 0, 1.5, 0, 8.4, 8.4, 0.5, 28, [0.82, 0.77, 0.67], false);
+    set.at("canalwater", x, z).cylinder(f, 0, 1.52, 0, 7.5, 7.5, 0.06, 28, [0.2, 0.42, 0.46], true);
+    for (let i = 0; i < 3; i++) stone.box(f, 9.4 + i * 0.9, 0, 0, 0.9, 1.2 - i * 0.4, 3, STONE, 31, 0.9);
+  } else {
+    // A walled garden: a low lime-washed wall with a gate, grass, four beds, a small basin, and cypresses at the corners.
+    const wall: Rgb = [0.93, 0.9, 0.82];
+    const lime = set.at("plaster", x, z);
+    for (const [lx, lz, sx, sz] of [[0, -8, 16.6, 0.5], [-8, 0, 0.5, 16.6], [8, 0, 0.5, 16.6], [-5.2, 8, 6.2, 0.5], [5.2, 8, 6.2, 0.5]] as const) lime.box(f, lx, 0, lz, sx, 1.5, sz, wall, 31, 0.9);
+    set.at("grass", x, z).box(f, 0, 0, 0, 15.6, 0.42, 15.6, [0.36, 0.5, 0.24], 31, 1);
+    for (const [lx, lz] of [[-4, -4], [4, -4], [-4, 4], [4, 4]] as const) set.at("earth", x, z).box(f, lx, 0, lz, 4.6, 0.55, 4.6, [0.42, 0.3, 0.2], 31, 1);
+    set.at("ashlar", x, z).cylinder(f, 0, 0, 0, 1.7, 1.7, 0.85, 14, STONE, true);
+    set.at("canalwater", x, z).cylinder(f, 0, 0.86, 0, 1.35, 1.35, 0.04, 14, [0.2, 0.42, 0.46], true);
+    const trees = new MeshBuilder();
+    const tree = cypressTree(false);
+    for (const [lx, lz] of [[-6.4, -6.4], [6.4, -6.4], [-6.4, 6.4], [6.4, 6.4]] as const) trees.append(tree, frame(f.x + lx * f.cos + lz * f.sin, base, f.z - lx * f.sin + lz * f.cos, 0), 0.8, 0.8, 0.8);
+    const bush = orchardTree(seed, false);
+    for (const [lx, lz] of [[-4, -4], [4, -4], [-4, 4], [4, 4]] as const) trees.append(bush, frame(f.x + lx * f.cos + lz * f.sin, base + 0.4, f.z - lx * f.sin + lz * f.cos, lx + lz), 0.55, 0.55, 0.55);
+    out.push({ material: "foliage", mesh: trees.build() });
+  }
+  for (const c of set.chunks()) out.push({ material: c.material, mesh: c.mesh });
+  return out;
 }
 
 /** The tilled ground of a field, laid on the land. */

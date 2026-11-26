@@ -3,7 +3,8 @@ import { describe, expect, it } from "vitest";
 import { audit, dinars, freeCapacity } from "../src/sim/economy";
 import { PLAYERS, REAL_PLAYERS, playVillage } from "../src/sim/players";
 import { WATER_FOR_THE_VALLEY as SC } from "../src/sim/scenarios";
-import { CROPS, HARVEST_RATE, QUESTS, act, carries, foodNeed, forecast, invariants, newVillage, preview, reserveDays, riverYear, seasonOf, tick, treasuryOf, waterNeed, weather, workersOf, type Scenario, type VillageCommand, type VillageState } from "../src/sim/village";
+import { siteRefusal } from "../src/world/ground";
+import { CROPS, HARVEST_RATE, QUESTS, housesBuilt, poolCapacityOf, siteOf, act, carries, foodNeed, forecast, invariants, newVillage, preview, reserveDays, riverYear, seasonOf, tick, treasuryOf, waterNeed, weather, workersOf, type Scenario, type VillageCommand, type VillageState } from "../src/sim/village";
 
 const start = (seed = 7) => newVillage(SC, seed);
 /** Applies commands, failing the test if one is refused. */
@@ -419,6 +420,103 @@ describe("trade beyond the village", () => {
     let kept = 0;
     for (let seed = 1; seed <= 60; seed++) if (playVillage(SC, newVillage(SC, seed), PLAYERS.presser!, seed).state.economy.contracts[T.contracts[0]!.id]!.state === "settled") kept += 1;
     expect(kept).toBeGreaterThanOrEqual(40);
+  });
+});
+
+describe("building on the land", () => {
+  const CAT = SC.catalogue!;
+  /** Open ground east of the village, far from anything. */
+  const A = { x: 600, z: 250 };
+  const B = { x: 640, z: 250 };
+  const rich: Scenario = { ...DRY, treasury: dinars(5000), stock: { ...DRY.stock, timber: 300, stone: 300 }, capacity: 900 };
+
+  it("refuses water, a field, a road, a slope, the edge of the valley and what already stands, each by its name", () => {
+    expect(siteRefusal(140, -84, 9)).toBe("site-water");
+    expect(siteRefusal(0, -150, 9)).toBe("site-water");
+    expect(siteRefusal(300, 120, 9)).toBe("site-field");
+    expect(siteRefusal(318, 244, 9)).toBe("site-road");
+    expect(siteRefusal(300, 0, 9)).toBe("site-steep");
+    expect(siteRefusal(300, 400, 9)).toBe("site-outside");
+    expect(siteRefusal(900, -150, 9)).toBe("site-outside");
+    expect(siteRefusal(84, 162, 9)).toBe("site-taken");
+    expect(siteRefusal(A.x, A.z, 9)).toBeNull();
+    // Somewhere on the plain a tree stands in the way, and a few metres off it does not.
+    let trees = 0;
+    for (let x = -440; x < 500 && trees === 0; x += 7) for (let z = 200; z < 290; z += 7) if (siteRefusal(x, z, 9) === "site-trees") trees += 1;
+    expect(trees).toBeGreaterThan(0);
+  });
+
+  it("starts a building where the ground takes it, for the catalogue's price, and finishes it with the hands' days", () => {
+    const s0 = newVillage(rich, 7);
+    const r = act(rich, s0, { kind: "place", what: "house", x: A.x + 0.4, z: A.z - 0.3 });
+    expect(r.result).toEqual({ ok: true, money: -CAT.house!.cost });
+    let s = r.state;
+    expect(s.placed).toEqual([{ id: 1, what: "house", x: A.x, z: A.z, done: false }]);
+    expect(treasuryOf(s0) - treasuryOf(s)).toBe(CAT.house!.cost);
+    expect(stock(s0, "timber") - stock(s, "timber")).toBe(CAT.house!.timber);
+    expect(s.housing).toBe(60);
+    // Twenty worker-days at six hands a day: four days.
+    s = days(rich, s, 3);
+    expect(s.placed[0]!.done).toBe(false);
+    s = days(rich, s, 1);
+    expect(s.placed[0]!.done).toBe(true);
+    expect(s.last!.events).toContain("placed:house");
+    expect([s.housing, housesBuilt(rich, s)]).toEqual([70, 1]);
+  });
+
+  it("changes nothing when it refuses: bad ground, another building in the way, no money, no more allowed, an unknown thing", () => {
+    const s = order(rich, newVillage(rich, 7), { kind: "place", what: "house", ...A });
+    const refused = (sc: Scenario, st: VillageState, c: VillageCommand, why: string) => {
+      const r = act(sc, st, c);
+      expect(r.result, JSON.stringify(c)).toMatchObject({ ok: false, why });
+      expect(r.state).toBe(st);
+    };
+    refused(rich, s, { kind: "place", what: "house", x: 300, z: 120 }, "site-field");
+    refused(rich, s, { kind: "place", what: "house", x: A.x + 10, z: A.z }, "site-taken");
+    refused(rich, s, { kind: "place", what: "granary", x: A.x + 20, z: A.z }, "site-taken");
+    refused(rich, s, { kind: "place", what: "castle", ...B }, "unknown-building");
+    refused(rich, s, { kind: "place", what: "house", x: Number.NaN, z: 0 }, "site-outside");
+    const poor: Scenario = { ...DRY, treasury: dinars(100) };
+    refused(poor, newVillage(poor, 7), { kind: "place", what: "house", ...A }, "no-money");
+    const bare: Scenario = { ...DRY, stock: { ...DRY.stock, stone: 0 } };
+    refused(bare, newVillage(bare, 7), { kind: "place", what: "cistern", ...A }, "no-materials");
+    expect(siteOf(rich, s, "house", B.x, B.z)).toBeNull();
+    let full = s;
+    for (let i = 0; i < CAT.garden!.max; i++) full = order(rich, full, { kind: "place", what: "garden", x: -420, z: 60 + i * 24 });
+    refused(rich, full, { kind: "place", what: "garden", x: 560, z: 60 }, "no-more");
+    expect(invariants(rich, full)).toEqual([]);
+  });
+
+  it("gives each building its one effect when it is finished, and none before", () => {
+    let s = order(rich, newVillage(rich, 7), { kind: "place", what: "granary", ...A }, { kind: "place", what: "cistern", x: 560, z: 60 }, { kind: "place", what: "garden", x: -420, z: 60 });
+    const room = s.economy.capacity;
+    expect(poolCapacityOf(rich, s)).toBe(rich.water.poolCapacity);
+    s = days(rich, s, 20);
+    expect(s.placed.every((p) => p.done)).toBe(true);
+    expect(s.economy.capacity - room).toBe(CAT.granary!.capacity);
+    expect(poolCapacityOf(rich, s)).toBe(rich.water.poolCapacity + CAT.cistern!.pool!);
+    // The garden: the same valley without it fares two points worse once both have settled.
+    const without = days(rich, order(rich, newVillage(rich, 7), { kind: "place", what: "granary", ...A }, { kind: "place", what: "cistern", x: 560, z: 60 }), 20);
+    expect(days(rich, s, 30).welfare - days(rich, without, 30).welfare).toBe(CAT.garden!.welfare);
+  });
+
+  it("lets a cistern's water be held: a fuller pool in a wet spell, and never more than it can hold", () => {
+    const wet: Scenario = { ...rich, water: { ...rich.water, inflow: [200, 200, 200, 200] } };
+    let s = order(wet, newVillage(wet, 7), { kind: "place", what: "cistern", ...A });
+    s = days(wet, s, 12);
+    expect(s.pool).toBe(wet.water.poolCapacity + CAT.cistern!.pool!);
+  });
+
+  it("counts a placed house for the steward's fourth task", () => {
+    let s = order(SC, start(), { kind: "harvest", plot: "mill-field", rest: "wait" }, { kind: "repair" }, { kind: "place", what: "house", ...A });
+    s = days(SC, s, 60);
+    expect(housesBuilt(SC, s)).toBe(1);
+    expect(s.quests["q04-home"]).toBe(s.households > SC.households);
+  });
+
+  it("is refused whole in a valley with no catalogue", () => {
+    const { catalogue: _none, ...plain } = DRY;
+    expect(act(plain, newVillage(plain, 7), { kind: "place", what: "house", ...A }).result).toMatchObject({ ok: false, why: "unknown-building" });
   });
 });
 

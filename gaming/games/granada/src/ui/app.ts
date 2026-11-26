@@ -10,15 +10,14 @@ import { loadMusicStrings, musicControl } from "@im/audio/control";
 import { MUSIC_AVAILABLE, MUSIC_BASE, MusicPlayer } from "@im/audio/player";
 import { MINOR } from "../sim/economy";
 import { SCENARIOS, WATER_FOR_THE_VALLEY } from "../sim/scenarios";
-import { act, newVillage, tick, type ActResult, type Scenario, type VillageCommand, type VillageState } from "../sim/village";
+import { act, newVillage, siteOf, tick, type ActResult, type Refusal, type Scenario, type VillageCommand, type VillageState } from "../sim/village";
 import { clearSave, readSave, writeSave } from "../save";
 import { probeWebGPU } from "@im/kernel/capability";
 import { installCounters } from "@im/kernel/counters";
 import type { ValleyLook } from "../view/three-valley";
-import { drawMap } from "./map";
+import { drawMap, setMapGhost } from "./map";
 import type { Stage } from "./stage";
-import { advice, fieldCards, marketRows,
-  tradeView, questRows, riverOfYear, skyAhead, stocks, workRows, yesterday, type FieldCard } from "./model";
+import { advice, catalogueRows, fieldCards, marketRows, tradeView, questRows, riverOfYear, skyAhead, stocks, workRows, yesterday, type FieldCard, type WorkRow } from "./model";
 
 type Strings = Record<Exclude<keyof typeof en, "_meta">, string>;
 const LANGS = ["ar", "en", "ur", "fr", "es", "tr", "id"] as const;
@@ -99,6 +98,9 @@ async function main(): Promise<void> {
   let speed: 0 | 1 | 2 = 0;
   let tab: Tab = "valley";
   let selected: string | null = null;
+  /** What the player is choosing ground for, and the ground being considered, in the valley's metres. */
+  let placing: string | null = null;
+  let ghost: { x: number; z: number } | null = null;
   let saveOk = true;
   const log: string[] = [];
 
@@ -112,6 +114,21 @@ async function main(): Promise<void> {
   const mapBox = h("div", { class: "mapbox" });
   const map = document.createElementNS("http://www.w3.org/2000/svg", "svg");
   map.classList.add("map");
+  // On the plan, while a site is being chosen, the pointer names the ground and a click builds on it.
+  const planPoint = (e: MouseEvent): [number, number] | null => {
+    const m = map.getScreenCTM();
+    if (!m) return null;
+    const p = new DOMPoint(e.clientX, e.clientY).matrixTransform(m.inverse());
+    return [p.x - 500, p.y - 280];
+  };
+  map.addEventListener("pointermove", (e) => {
+    const p = placing ? planPoint(e) : null;
+    if (p) considerSite(p[0], p[1]);
+  });
+  map.addEventListener("click", (e) => {
+    const p = placing ? planPoint(e) : null;
+    if (p) buildAt(p[0], p[1]);
+  });
   // The valley is shown in 3D where the browser can draw it, and as a plan everywhere. The plan is never taken away.
   let stage: Stage | null = null;
   let view: "3d" | "plan" = "plan";
@@ -192,6 +209,8 @@ async function main(): Promise<void> {
       case "arrived":
       case "left":
         return t(`event_${kind}`);
+      case "placed":
+        return t("event_placed", { what: t(`place_${a}`) });
       case "contract-failed":
         return t("event_contract_failed");
       case "quest":
@@ -277,9 +296,10 @@ async function main(): Promise<void> {
       pool: state.pool / sc.water.poolCapacity,
       branches,
       fields,
-      houses: Math.round(state.housing / 10),
+      houses: Math.round(sc.housing / 10) + state.built.house,
       housesUnderWay: state.works.filter((w) => w.kind === "house").length,
       granary: state.built.granary ? "built" : state.works.some((w) => w.kind === "granary") ? "under-way" : "none",
+      placed: state.placed.map((p) => ({ ...p, r: sc.catalogue?.[p.what]?.radius ?? 9 })),
       busy: state.last ? state.last.workers - state.last.idle : 8,
       selected,
     };
@@ -299,6 +319,11 @@ async function main(): Promise<void> {
     stage?.setVisible(view === "3d");
     renderViewBar();
     if (view === "3d") stage?.setLook(lookOf());
+    if (placing) {
+      stage?.setPlacing(view === "3d");
+      if (view === "plan" && !ghost) considerSite(...nearestSite(placing));
+      render();
+    }
   }
 
   function renderMap(): void {
@@ -311,7 +336,8 @@ async function main(): Promise<void> {
         fields: fieldCards(sc, state),
         poolPct: Math.round((100 * s.pool) / s.poolCapacity),
         storePct: Math.round((100 * s.storeUsed) / s.storeRoom),
-        houses: Math.round(state.housing / 10),
+        houses: Math.round(sc.housing / 10) + state.built.house,
+        placed: state.placed.map((p) => ({ what: p.what, x: p.x, z: p.z, done: p.done, label: `${t(`place_${p.what}`)}${p.done ? "" : `: ${t("place_building")}`}` })),
         housesUnderWay: works.filter((w) => w.kind === "house").length,
         granary: state.built.granary ? "built" : works.some((w) => w.kind === "granary") ? "under-way" : "none",
         channelWork: works.some((w) => w.kind === "repair" || w.kind === "expand"),
@@ -321,12 +347,75 @@ async function main(): Promise<void> {
         labels: { title: t("map_title"), river: t("map_river"), pool: t("map_pool"), village: t("map_village"), store: t("map_store"), market: t("map_market"), mountain: label("place/sierra-nevada"), fieldLabel, channel: { flowing: t("map_channel_flowing"), weak: t("map_channel_weak"), none: t("map_channel_none") } },
       },
       (id) => {
+        // While a site is being chosen, a click on a field is an answer about that ground, not a visit to the field.
+        if (placing) return;
         selected = id;
         tab = "fields";
         render();
         document.getElementById(`card-${id}`)?.focus();
       },
     );
+  }
+
+  // ---- Building on the land: a thing chosen from the catalogue, then its ground ----
+  const siteWhy = (): Refusal | null => (placing && ghost ? siteOf(sc, state, placing, ghost.x, ghost.z) : null);
+  /** Shows the ground being considered, in the valley, on the plan and in words, without redrawing the page. */
+  function showGhost(): void {
+    const def = placing ? sc.catalogue?.[placing] : undefined;
+    const why = siteWhy();
+    const g = def && ghost ? { x: ghost.x, z: ghost.z, r: def.radius, ok: why === null } : null;
+    stage?.setGhost(view === "3d" ? g : null);
+    setMapGhost(map, g && view === "plan" ? { ...g, label: "" } : null);
+    const status = document.getElementById("site-status");
+    if (status) {
+      status.textContent = !g ? t("site_none") : why ? t(`refuse_${why}`) : t("site_ok");
+      status.className = g && !why ? "site-ok" : "why";
+    }
+    const go = document.getElementById("site-build") as HTMLButtonElement | null;
+    if (go) go.disabled = !g || why !== null;
+  }
+  /** The nearest ground to the village, on the plan's sheet, that will take a building of this kind. */
+  function nearestSite(what: string): [number, number] {
+    for (let ring = 0; ring < 60; ring++)
+      for (let k = 0; k < Math.max(1, ring * 6); k++) {
+        const a = (k / Math.max(1, ring * 6)) * Math.PI * 2;
+        const x = Math.round(110 + Math.cos(a) * ring * 10);
+        const z = Math.round(170 + Math.sin(a) * ring * 10);
+        if (Math.abs(x) < 480 && Math.abs(z) < 262 && siteOf(sc, state, what, x, z) === null) return [x, z];
+      }
+    return [110, 170];
+  }
+  function considerSite(x: number, z: number): void {
+    if (!placing) return;
+    ghost = { x: Math.round(x), z: Math.round(z) };
+    showGhost();
+  }
+  function startPlacing(what: string): void {
+    placing = what;
+    ghost = null;
+    render();
+    // In 3D the first ground offered is the middle of the view; on the plan, the nearest ground to the village that will take it.
+    if (view === "3d" && stage) stage.setPlacing(true);
+    else considerSite(...nearestSite(what));
+    document.getElementById("site-build")?.scrollIntoView({ block: "nearest" });
+    live.textContent = t("site_title", { what: t(`place_${what}`) });
+  }
+  function stopPlacing(): void {
+    if (!placing) return;
+    const what = placing;
+    placing = null;
+    ghost = null;
+    stage?.setPlacing(false);
+    render();
+    (document.querySelector(`[data-act='place-${what}']`) as HTMLElement | null)?.focus();
+  }
+  function buildAt(x: number, z: number): void {
+    if (!placing) return;
+    const what = placing;
+    considerSite(x, z);
+    if (!order({ kind: "place", what, x: Math.round(x), z: Math.round(z) })) return;
+    say(t("site_started", { what: t(`place_${what}`) }));
+    stopPlacing();
   }
 
   const bar01 = (name: string, pct: number) => h("label", { class: "gauge" }, h("span", {}, `${name} ${num(pct)}%`), h("progress", { max: 100, value: Math.max(0, Math.min(100, pct)) }));
@@ -406,8 +495,54 @@ async function main(): Promise<void> {
     );
   }
 
+  /** The catalogue: what can be placed on the land, by kind, and, once one is chosen, where. */
+  function cataloguePanel(): Child[] {
+    const rows = catalogueRows(sc, state);
+    if (rows.length === 0) return [];
+    const out: Child[] = [h("section", { class: "card", "data-part": "catalogue" }, h("h2", {}, t("catalogue_title")), h("p", { class: "note" }, t("catalogue_note")))];
+    if (placing)
+      out.unshift(
+        h(
+          "section",
+          { class: "card siting", "data-part": "siting" },
+          h("h2", {}, t("site_title", { what: t(`place_${placing}`) })),
+          h("p", { class: "note" }, t(view === "3d" ? "site_help_3d" : "site_help_plan")),
+          h("p", { id: "site-status", class: "why", role: "status" }, t("site_none")),
+          h("div", { class: "actions" }, h("button", { type: "button", id: "site-build", "data-act": "site-build", disabled: true, onclick: () => ghost && buildAt(ghost.x, ghost.z) }, t("site_build")), h("button", { type: "button", id: "site-stop", "data-act": "site-stop", onclick: () => stopPlacing() }, t("site_stop"))),
+        ),
+      );
+    let category = "";
+    for (const r of rows) {
+      if (r.category !== category) out.push(h("p", { class: "cat" }, t(`cat_${r.category}`)));
+      category = r.category;
+      const cost = [t("work_cost", { dinars: r.dinars }), r.timber ? t("work_timber", { n: r.timber }) : "", r.stone ? t("work_stone", { n: r.stone }) : "", t("work_labour", { n: r.labour })].filter(Boolean).join(" · ");
+      out.push(
+        h(
+          "section",
+          { class: `card work${placing === r.what ? " selected" : ""}`, "data-place": r.what },
+          h("h2", {}, t(`place_${r.what}`)),
+          h("p", {}, t(`place_${r.effect.key}_text`, { n: r.effect.n })),
+          h("p", { class: "note" }, cost),
+          h("p", { class: "note" }, t("place_count", { have: r.placed, max: r.max })),
+          ...r.underWay.map((pct) => h("label", { class: "gauge" }, h("span", {}, t("work_under_way", { pct })), h("progress", { max: 100, value: pct }))),
+          h("button", { type: "button", "data-act": `place-${r.what}`, disabled: !r.now.ok, "aria-pressed": String(placing === r.what), onclick: () => (placing === r.what ? stopPlacing() : startPlacing(r.what)) }, t("place_choose")),
+          !r.now.ok && h("p", { class: "why" }, refusal(r.now)),
+        ),
+      );
+    }
+    return out;
+  }
+
   function worksPanel(): Child[] {
-    return workRows(sc, state).map((w) => {
+    // Where there is a catalogue, houses and granaries are placed on the land from it; the list keeps the channel's works.
+    const listed = workRows(sc, state).filter((w) => !sc.catalogue || w.id === "repair" || w.id === "expand");
+    // While a site is being chosen, what is being asked stays at the head of the panel.
+    const catalogue = cataloguePanel();
+    const siting = placing ? catalogue.splice(0, 1) : [];
+    return [...siting, ...listed.map((w) => worksCard(w)), ...catalogue];
+  }
+  function worksCard(w: WorkRow): Child {
+    {
       const done = w.built >= w.sites && w.progress === null;
       const cost = [t("work_cost", { dinars: w.dinars }), w.timber ? t("work_timber", { n: w.timber }) : "", w.stone ? t("work_stone", { n: w.stone }) : "", t("work_labour", { n: w.labour })].filter(Boolean).join(" · ");
       return h(
@@ -421,7 +556,7 @@ async function main(): Promise<void> {
         done ? h("p", { class: "done" }, t("work_done")) : h("button", { type: "button", "data-act": `work-${w.id}`, disabled: !w.now.ok, onclick: () => order(w.command) }, t("work_order")),
         !done && !w.now.ok && h("p", { class: "why" }, refusal(w.now)),
       );
-    });
+    }
   }
 
   function marketPanel(): Child[] {
@@ -581,10 +716,21 @@ async function main(): Promise<void> {
     const focus = document.activeElement as HTMLElement | null;
     const keepId = focus?.id || null;
     const keepAct = focus?.getAttribute?.("data-act") ?? null;
+    // A site is chosen from the Construction panel; leaving it, or the end of the game, ends the choosing.
+    if (placing && (tab !== "works" || state.outcome)) {
+      placing = null;
+      ghost = null;
+      stage?.setPlacing(false);
+    }
     renderBar();
     renderMap();
     renderSide();
     renderFieldPop();
+    map.classList.toggle("placing", placing !== null);
+    showGhost();
+    // Round the valley the season stands under the part in hand: the part in hand ends where the season begins,
+    // whatever the season's height in this language, so that nothing in it lies under the season and out of reach.
+    side.style.maxBlockSize = document.body.classList.contains("hud") && matchMedia("(min-width: 1180px) and (min-height: 640px)").matches ? `calc(100% - ${seasonBox.offsetHeight + 36}px)` : "";
     const again = keepId ? document.getElementById(keepId) : keepAct ? document.querySelector<HTMLElement>(`[data-act="${keepAct}"]`) : null;
     again?.focus();
   }
@@ -694,7 +840,14 @@ async function main(): Promise<void> {
     else if (e.key === "p" || e.key === "P") setSpeed(speed === 0 ? 1 : 0);
     else if (e.key === "." || e.key === "n" || e.key === "N") nextDay();
     else if (e.key === "h" || e.key === "H" || e.key === "?") showHelp();
-    else return;
+    else if (placing && e.key === "Escape") stopPlacing();
+    else if (placing && e.key === "Enter" && !["BUTTON", "A"].includes(target.tagName)) {
+      if (ghost) buildAt(ghost.x, ghost.z);
+    } else if (placing && view === "plan" && e.key.startsWith("Arrow") && ghost) {
+      // On the plan the ground considered is moved by the arrow keys: eight metres, or thirty-two with Shift.
+      const step = e.shiftKey ? 32 : 8;
+      considerSite(ghost.x + (e.key === "ArrowRight" ? step : e.key === "ArrowLeft" ? -step : 0), ghost.z + (e.key === "ArrowDown" ? step : e.key === "ArrowUp" ? -step : 0));
+    } else return;
     e.preventDefault();
   });
 
@@ -728,6 +881,8 @@ async function main(): Promise<void> {
           tab = "fields";
           render();
         },
+        onSite: (x, z) => considerSite(x, z),
+        onBuild: (x, z) => buildAt(x, z),
       });
       stage.run();
       viewBar.hidden = false;

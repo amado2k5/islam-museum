@@ -12,6 +12,7 @@ import {
   foodInStore,
   foodNeed,
   forecast,
+  poolCapacityOf,
   preview,
   reserveDays,
   riverYear,
@@ -71,7 +72,7 @@ export function stocks(sc: Scenario, s: VillageState): Stocks {
     housing: s.housing,
     welfare: s.welfare,
     pool: s.pool,
-    poolCapacity: sc.water.poolCapacity,
+    poolCapacity: poolCapacityOf(sc, s),
     workers: workersOf(s),
     storeUsed: s.economy.capacity - freeCapacity(s.economy),
     storeRoom: s.economy.capacity,
@@ -162,6 +163,57 @@ export function workRows(sc: Scenario, s: VillageState): WorkRow[] {
     row("house", { kind: "build", what: "house" }, s.built.house, sc.works.house.sites),
     row("granary", { kind: "build", what: "granary" }, s.built.granary, sc.works.granary.sites),
   ];
+}
+
+/** One thing of the catalogue, as the Construction panel shows it. */
+export interface CatalogueRow {
+  what: string;
+  category: string;
+  dinars: number;
+  timber: number;
+  stone: number;
+  labour: number;
+  radius: number;
+  placed: number;
+  max: number;
+  /** Percent done of each one being built. */
+  underWay: number[];
+  /** The one thing it does when finished. */
+  effect: { key: "housing" | "capacity" | "pool" | "welfare"; n: number };
+  /** Whether one could be started now, the ground apart: allowed, or why not. */
+  now: ActResult;
+}
+
+export function catalogueRows(sc: Scenario, s: VillageState): CatalogueRow[] {
+  return Object.entries(sc.catalogue ?? {}).map(([what, def]) => {
+    const placed = s.placed.filter((p) => p.what === what);
+    const key = def.housing ? "housing" : def.capacity ? "capacity" : def.pool ? "pool" : "welfare";
+    const now: ActResult =
+      placed.length >= def.max
+        ? { ok: false, why: "no-more" }
+        : treasuryOf(s) < def.cost
+          ? { ok: false, why: "no-money" }
+          : have(s, "timber") < def.timber || have(s, "stone") < def.stone
+            ? { ok: false, why: "no-materials" }
+            : { ok: true, money: -def.cost };
+    return {
+      what,
+      category: def.category,
+      dinars: wholeDinars(def.cost),
+      timber: def.timber,
+      stone: def.stone,
+      labour: def.labour,
+      radius: def.radius,
+      placed: placed.length,
+      max: def.max,
+      underWay: placed.filter((p) => !p.done).map((p) => {
+        const w = s.works.find((x) => x.placed === p.id);
+        return w ? Math.floor((100 * (w.labour - w.labourLeft)) / w.labour) : 0;
+      }),
+      effect: { key, n: def[key] ?? 0 },
+      now,
+    };
+  });
 }
 
 export interface MarketRow {

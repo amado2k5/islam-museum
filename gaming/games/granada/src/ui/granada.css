@@ -103,6 +103,23 @@ h3 { font-size: 0.9rem; color: var(--ink-soft); margin-block-start: 10px; }
 .house .roof { fill: #b8623f; stroke: #5c4a30; stroke-width: 1.5; }
 .house.building rect, .house.building .roof, .store.building rect, .store.building .roof { fill: none; stroke: #5c4a30; stroke-dasharray: 5 4; }
 .store rect { fill: #e2d3b0; stroke: #5c4a30; stroke-width: 1.5; }
+.placed rect, .placed circle { fill: #efe2c6; stroke: #5c4a30; stroke-width: 1.5; }
+.placed .roof { fill: #b8623f; stroke: #5c4a30; stroke-width: 1.5; }
+.placed.granary rect { fill: #e2d3b0; }
+.placed.granary .roof { fill: #8a5a3a; }
+.placed .water { fill: #3d86a0; }
+.placed.garden rect { fill: #9bb86a; }
+.placed .leaf { fill: #3f6b34; stroke: none; }
+.placed.building rect, .placed.building circle, .placed.building .roof { fill: none; stroke-dasharray: 4 3; }
+.ghost circle { fill: rgba(79, 208, 106, 0.28); stroke: #1f7a36; stroke-width: 2.5; }
+.ghost.bad circle { fill: rgba(224, 80, 60, 0.26); stroke: #a3271a; stroke-dasharray: 6 4; }
+.ghost .mark { fill: none; stroke: #14331c; stroke-width: 3; stroke-linecap: round; }
+.ghost.bad .mark { stroke: #5c1109; }
+.map.placing, canvas.scene.placing { cursor: crosshair; }
+.card.siting, body.hud .panel > .card.siting { background: #0d2b32; }
+.card.siting { border-color: var(--accent); position: sticky; inset-block-start: 0; z-index: 3; box-shadow: 0 6px 14px rgba(0, 0, 0, 0.35); }
+.cat { font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--ink-soft); margin: 6px 0 0; }
+.site-ok { font-size: 0.9rem; color: var(--good, #7fd08f); }
 .store .fill { fill: #d1a53f; stroke: none; }
 .store .roof { fill: #8a5a3a; stroke: #5c4a30; stroke-width: 1.5; }
 .market path { fill: #2f8c8c; stroke: #5c4a30; stroke-width: 1.5; }

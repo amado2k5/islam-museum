@@ -2,6 +2,7 @@
 // (tools/village-lab.ts); none is a historical measurement.
 import { dinars } from "./economy";
 import type { Scenario } from "./village";
+import { siteRefusal } from "../world/ground";
 
 /**
  * Act I, "Water for the Valley". Late spring: a wheat field stands ripe, an olive terrace is thirsty behind a
@@ -53,6 +54,15 @@ export const WATER_FOR_THE_VALLEY: Scenario = {
   },
   goal: { welfare: 60, households: 60, reserveDays: 20 },
   reward: dinars(40),
+  // What the steward can place on the land. A house and a granary cost what they do on the prepared lots; a cistern
+  // lets the pool hold more for the dry months; a garden is a little ease for the households.
+  catalogue: {
+    house: { category: "housing", cost: dinars(160), timber: 30, stone: 0, labour: 20, radius: 9, max: 6, housing: 10 },
+    granary: { category: "agriculture", cost: dinars(240), timber: 40, stone: 30, labour: 30, radius: 13, max: 2, capacity: 500 },
+    cistern: { category: "infrastructure", cost: dinars(180), timber: 0, stone: 40, labour: 24, radius: 10, max: 2, pool: 60 },
+    garden: { category: "gardens", cost: dinars(90), timber: 10, stone: 10, labour: 10, radius: 10, max: 3, welfare: 2 },
+  },
+  site: siteRefusal,
   // A port on the coast, a few days off by cart. It pays less than the village asks for the same grain, so nothing
   // bought here is worth carrying there; what it wants is oil, which the valley can press and the village cannot.
   // Fiction: the name is a real port's, the prices, the buyer and the contract are invented for play.

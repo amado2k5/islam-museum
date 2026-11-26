@@ -15,6 +15,9 @@ export interface StageOptions {
   /** Whether to fetch the authored models (the page's `models=off` turns it off). */
   models: boolean;
   onField: (id: string) => void;
+  /** While the player is choosing where to build: the point of the land being considered, and the point chosen. */
+  onSite?: (x: number, z: number) => void;
+  onBuild?: (x: number, z: number) => void;
 }
 
 export class Stage {
@@ -29,6 +32,8 @@ export class Stage {
   private slow = 0;
   private eased = 0;
   private readonly ground: (x: number, z: number) => number;
+  /** The player is choosing where to build: the pointer names the ground, or the middle of the view where no pointer is. */
+  private placing = false;
 
   private constructor(private readonly host: HTMLElement, private readonly options: StageOptions) {
     this.canvas = document.createElement("canvas");
@@ -85,6 +90,10 @@ export class Stage {
       drag = { x: e.clientX, y: e.clientY, turning: e.button === 2 || e.shiftKey, moved: 0 };
     });
     c.addEventListener("pointermove", (e) => {
+      if (!drag && this.placing) {
+        const p = this.renderer.landAt(e.clientX, e.clientY);
+        if (p) this.options.onSite?.(p[0], p[1]);
+      }
       if (!drag) return;
       const dx = e.clientX - drag.x;
       const dy = e.clientY - drag.y;
@@ -100,7 +109,10 @@ export class Stage {
     c.addEventListener("pointerup", (e) => {
       const wasClick = drag !== null && drag.moved < 5 && e.button === 0;
       drag = null;
-      if (wasClick) {
+      if (wasClick && this.placing) {
+        const p = this.renderer.landAt(e.clientX, e.clientY);
+        if (p) this.options.onBuild?.(p[0], p[1]);
+      } else if (wasClick) {
         const field = this.renderer.fieldAt(e.clientX, e.clientY);
         if (field) this.options.onField(field);
       }
@@ -127,8 +139,11 @@ export class Stage {
       const fn = act[e.key] ?? act[e.key.toLowerCase()];
       if (e.key === "o" || e.key === "O") this.overview();
       else if (e.key === "Home") this.home();
-      else if (fn) this.move(fn());
-      else return;
+      else if (fn) {
+        this.move(fn());
+        // By keyboard the ground considered is the middle of the view, so moving the view moves it.
+        if (this.placing) this.options.onSite?.(this.goal.tx, this.goal.tz);
+      } else return;
       e.preventDefault();
       e.stopPropagation();
     });
@@ -174,6 +189,16 @@ export class Stage {
   }
   screenOf(x: number, y: number, z: number): [number, number] | null {
     return this.renderer.screenOf(x, y, z);
+  }
+  /** Tells the valley that the player is choosing where to build (or has stopped); the first ground offered is the middle of the view. */
+  setPlacing(on: boolean): void {
+    this.placing = on;
+    this.canvas.classList.toggle("placing", on);
+    if (on) this.options.onSite?.(this.goal.tx, this.goal.tz);
+  }
+  /** Shows, or takes away, the ring on the ground the player is considering. */
+  setGhost(g: { x: number; z: number; r: number; ok: boolean } | null): void {
+    this.renderer.setGhost(g);
   }
   /** Which field lies under a point of the page, if any. */
   fieldAt(clientX: number, clientY: number): string | null {

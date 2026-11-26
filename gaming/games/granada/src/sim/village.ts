@@ -12,9 +12,10 @@
 import { hash32 } from "@im/kernel/prng";
 import { audit, dinars, freeCapacity, open, submit, type CommandResult, type EconomyCommand, type EconomyState, type Market, type Recipe } from "./economy";
 
-// 2: trade beyond the village (a port reached by cart, a press, contracts). A game saved by version 1 has no port in
-// its books and is set aside, not loaded half-right.
-export const VILLAGE_VERSION = 2;
+// 2: trade beyond the village (a port reached by cart, a press, contracts).
+// 3: buildings placed on the land by the player. A game saved under an earlier version is brought forward by
+// `upgradeVillage`, never loaded half-right.
+export const VILLAGE_VERSION = 3;
 export const SEASON_DAYS = 30;
 export const YEAR_DAYS = 120;
 export type Season = 0 | 1 | 2 | 3; // spring, summer, autumn, winter
@@ -53,6 +54,23 @@ export interface WorkDef {
   stone: number;
   /** Worker-days. */
   labour: number;
+}
+export type SiteRefusal = "site-outside" | "site-water" | "site-field" | "site-road" | "site-steep" | "site-taken" | "site-trees";
+/** Something the player can place on the land. Each does one thing when it is finished, and says what. */
+export interface PlaceDef extends WorkDef {
+  category: "housing" | "agriculture" | "infrastructure" | "gardens";
+  /** The ground it needs, as a circle, in metres. */
+  radius: number;
+  /** How many the valley can hold. */
+  max: number;
+  /** Households it houses. */
+  housing?: number;
+  /** Room it adds to the store. */
+  capacity?: number;
+  /** Water it adds to what the pool can hold. */
+  pool?: number;
+  /** What it adds to how the households fare, while it stands. */
+  welfare?: number;
 }
 export interface PlotDef {
   id: string;
@@ -100,6 +118,17 @@ export interface Scenario {
   reward: number;
   /** Trade beyond the village, where the scenario has it. */
   trade?: TradeDef;
+  /** What can be placed on the land, and the ground's own answer to "may something of this size stand here?". */
+  catalogue?: Record<string, PlaceDef>;
+  site?: (x: number, z: number, radius: number) => SiteRefusal | null;
+}
+/** A building the player has placed: under way until its work is done. */
+export interface Placed {
+  id: number;
+  what: string;
+  x: number;
+  z: number;
+  done: boolean;
 }
 
 export type QuestId = "q01-water" | "q02-harvest" | "q03-reserve" | "q04-home" | "q05-granary";
@@ -127,9 +156,11 @@ export interface PlotState {
 }
 export interface Work {
   id: string;
-  kind: "repair" | "expand" | "house" | "granary";
+  kind: "repair" | "expand" | "house" | "granary" | "placed";
   labourLeft: number;
   labour: number;
+  /** For a placed building: which one. */
+  placed?: number;
 }
 export interface DayReport {
   day: number;
@@ -166,6 +197,8 @@ export interface VillageState {
   everFull: boolean;
   /** Units the carts have taken to the port today. */
   carted: number;
+  /** What the player has placed on the land, in the order it was placed. */
+  placed: Placed[];
   quests: Record<QuestId, boolean>;
   last: DayReport | null;
   outcome: null | { won: boolean; reasons: string[]; score: number };
@@ -180,6 +213,8 @@ export type VillageCommand =
   | { kind: "sell"; good: string; quantity: number }
   | { kind: "buy"; good: string; quantity: number }
   | { kind: "water-first"; who: "households" | "fields" }
+  /** Place a building from the catalogue on the land, at a point in metres (east, south). */
+  | { kind: "place"; what: string; x: number; z: number }
   /** Press: so many runs of the scenario's recipe. */
   | { kind: "press"; runs: number }
   /** Send goods to the port by cart, to be sold there at what the port pays. */
@@ -207,6 +242,9 @@ export type Refusal =
   | "market-poor"
   | "no-room"
   | "no-trade"
+  | "unknown-building"
+  | "no-more"
+  | SiteRefusal
   | "carts-full"
   | "unknown-contract"
   | "contract-closed"
@@ -251,6 +289,7 @@ export function newVillage(sc: Scenario, seed: number): VillageState {
     streak: { eastWatered: 0, reserve: 0 },
     everFull: false,
     carted: 0,
+    placed: [],
     quests: { "q01-water": false, "q02-harvest": false, "q03-reserve": false, "q04-home": false, "q05-granary": false },
     last: null,
     outcome: null,
@@ -278,9 +317,12 @@ export const treasuryOf = (s: VillageState): number => s.economy.treasury.availa
  */
 export function upgradeVillage(sc: Scenario, saved: VillageState): VillageState | null {
   if (saved.version === VILLAGE_VERSION) return saved;
-  if (saved.version !== 1) return null;
+  if (saved.version !== 1 && saved.version !== 2) return null;
   const s = structuredClone(saved) as VillageState;
   s.version = VILLAGE_VERSION;
+  // From 2 to 3: nothing has been placed yet.
+  s.placed ??= [];
+  if (saved.version === 2) return s;
   s.carted = 0;
   const e = s.economy;
   const tr = sc.trade;
@@ -307,6 +349,24 @@ export function weather(sc: Scenario, seed: number, day: number): { rain: boolea
 export const riverYear = (seed: number, season: Season): number => 75 + (hash32(`river:${seed}:${season}`) % 51);
 
 /** Water a branch can carry in a day. */
+/** What the pool can hold: its own basin and every cistern finished. */
+export const poolCapacityOf = (sc: Scenario, s: VillageState): number => sc.water.poolCapacity + s.placed.reduce((n, p) => n + (p.done ? (sc.catalogue?.[p.what]?.pool ?? 0) : 0), 0);
+/** Houses finished, on the prepared lots or placed. */
+export const housesBuilt = (sc: Scenario, s: VillageState): number => s.built.house + s.placed.filter((p) => p.done && sc.catalogue?.[p.what]?.housing).length;
+/** How many of a kind are placed, finished or under way. */
+export const placedCount = (s: VillageState, what: string): number => s.placed.filter((p) => p.what === what).length;
+/**
+ * Whether a building of the catalogue may stand at a point, and why not if it may not: the ground's own answer
+ * first (water, a field, a road, a slope, what already stands), then what the player has placed.
+ */
+export function siteOf(sc: Scenario, s: VillageState, what: string, x: number, z: number): SiteRefusal | null {
+  const def = sc.catalogue?.[what];
+  if (!def || !Number.isFinite(x) || !Number.isFinite(z)) return "site-outside";
+  const ground = sc.site ? sc.site(x, z, def.radius) : null;
+  if (ground) return ground;
+  for (const p of s.placed) if (Math.hypot(p.x - x, p.z - z) < def.radius + (sc.catalogue?.[p.what]?.radius ?? 0)) return "site-taken";
+  return null;
+}
 export const carries = (b: { capacity: number; condition: number; built: boolean }): number => (b.built ? Math.floor((b.capacity * b.condition) / 100) : 0);
 
 // ---- Acting ------------------------------------------------------------------------------------------------------------
@@ -321,13 +381,13 @@ function ledger(s: VillageState, command: EconomyCommand): CommandResult {
   return out.result;
 }
 
-function startWork(s: VillageState, def: WorkDef, kind: Work["kind"], why: string): ActResult {
+function startWork(s: VillageState, def: WorkDef, kind: Work["kind"], why: string, placed?: number): ActResult {
   if (treasuryOf(s) < def.cost) return { ok: false, why: "no-money", detail: { cost: def.cost, have: treasuryOf(s) } };
   if (have(s, "timber") < def.timber || have(s, "stone") < def.stone) return { ok: false, why: "no-materials", detail: { timber: def.timber - have(s, "timber"), stone: def.stone - have(s, "stone") } };
   if (def.cost > 0) ledger(s, { kind: "spend", amount: def.cost, why });
   if (def.timber > 0) ledger(s, { kind: "consume", good: "timber", quantity: def.timber, why });
   if (def.stone > 0) ledger(s, { kind: "consume", good: "stone", quantity: def.stone, why });
-  s.works.push({ id: `${kind}-${s.day}-${s.n}`, kind, labourLeft: def.labour, labour: def.labour });
+  s.works.push({ id: `${kind}-${s.day}-${s.n}`, kind, labourLeft: def.labour, labour: def.labour, ...(placed === undefined ? {} : { placed }) });
   return { ok: true, money: -def.cost };
 }
 
@@ -391,6 +451,20 @@ function apply(sc: Scenario, s: VillageState, cmd: VillageCommand): ActResult {
     case "water-first": {
       s.waterFirst = cmd.who;
       return { ok: true, money: 0 };
+    }
+    case "place": {
+      const def = sc.catalogue?.[cmd.what];
+      if (!def) return { ok: false, why: "unknown-building" };
+      if (placedCount(s, cmd.what) >= def.max) return { ok: false, why: "no-more" };
+      // Whole metres: the same order always names the same ground.
+      const x = Math.round(cmd.x);
+      const z = Math.round(cmd.z);
+      const bad = siteOf(sc, s, cmd.what, x, z);
+      if (bad) return { ok: false, why: bad };
+      const id = s.placed.reduce((n, p) => Math.max(n, p.id), 0) + 1;
+      const r = startWork(s, def, "placed", `building a ${cmd.what}`, id);
+      if (r.ok) s.placed.push({ id, what: cmd.what, x, z, done: false });
+      return r;
     }
     case "press": {
       if (!sc.trade) return { ok: false, why: "no-trade" };
@@ -495,7 +569,7 @@ export function tick(sc: Scenario, state: VillageState): VillageState {
     giveTown();
   }
   // What is left stays in the pool, up to its brim; the rest runs on down the river.
-  s.pool = Math.min(sc.water.poolCapacity, water);
+  s.pool = Math.min(poolCapacityOf(sc, s), water);
 
   // 2. Hands: bringing in a ripe crop first, then the works, then tending what grows.
   const workers = workersOf(s);
@@ -539,6 +613,14 @@ export function tick(sc: Scenario, state: VillageState): VillageState {
     } else if (w.kind === "house") {
       s.housing += sc.works.house.housing;
       s.built.house += 1;
+    } else if (w.kind === "placed") {
+      const p = s.placed.find((x) => x.id === w.placed)!;
+      const def = sc.catalogue![p.what]!;
+      p.done = true;
+      if (def.housing) s.housing += def.housing;
+      if (def.capacity) ledger(s, { kind: "add-capacity", units: def.capacity, why: `the ${p.what} is finished` });
+      events.push(`placed:${p.what}`);
+      continue;
     } else {
       ledger(s, { kind: "add-capacity", units: sc.works.granary.capacity, why: "the granary is finished" });
       s.built.granary += 1;
@@ -594,7 +676,7 @@ export function tick(sc: Scenario, state: VillageState): VillageState {
   const fed = eaten >= need;
   const watered = townWater >= townNeed;
   // A household that is not fed fares badly enough to leave: hunger alone takes welfare below the point of going.
-  const target = Math.max(0, Math.min(100, 55 + (fed ? 10 : -Math.ceil((35 * (need - eaten)) / need)) + (watered ? 5 : -Math.ceil((15 * (townNeed - townWater)) / townNeed)) + (s.households > s.housing ? -5 : 0) + (reserveDays(s) >= 20 ? 5 : 0)));
+  const target = Math.max(0, Math.min(100, 55 + (fed ? 10 : -Math.ceil((35 * (need - eaten)) / need)) + (watered ? 5 : -Math.ceil((15 * (townNeed - townWater)) / townNeed)) + (s.households > s.housing ? -5 : 0) + (reserveDays(s) >= 20 ? 5 : 0) + s.placed.reduce((n, p) => n + (p.done ? (sc.catalogue?.[p.what]?.welfare ?? 0) : 0), 0)));
   if (s.welfare < target) s.welfare += 1;
   else if (s.welfare > target) s.welfare = Math.max(target, s.welfare - 2);
   if (!fed) events.push(`hungry:${need - eaten}`);
@@ -623,7 +705,7 @@ export function tick(sc: Scenario, state: VillageState): VillageState {
     // Brought in or sold, nine parts in ten at least: a crop left to rot is not a harvest.
     "q02-harvest": s.quests["q02-harvest"] || (first.yielded > 0 && first.standing === 0 && (first.brought + first.soldFromField) * 10 >= first.yielded * 9),
     "q03-reserve": s.quests["q03-reserve"] || s.streak.reserve >= 10,
-    "q04-home": s.quests["q04-home"] || (s.built.house >= 1 && s.households > sc.households),
+    "q04-home": s.quests["q04-home"] || (housesBuilt(sc, s) >= 1 && s.households > sc.households),
     "q05-granary": s.quests["q05-granary"] || (s.everFull && freeCapacity(s.economy) >= 100),
   };
   for (const q of QUESTS) {
@@ -675,7 +757,15 @@ export function forecast(sc: Scenario, state: VillageState, days: number): Villa
 /** What must always hold. Empty when sound. */
 export function invariants(sc: Scenario, s: VillageState): string[] {
   const bad = audit(s.economy).map((x) => `ledger: ${x}`);
-  if (s.pool < 0 || s.pool > sc.water.poolCapacity) bad.push(`the pool holds ${s.pool} of ${sc.water.poolCapacity}`);
+  if (s.pool < 0 || s.pool > poolCapacityOf(sc, s)) bad.push(`the pool holds ${s.pool} of ${poolCapacityOf(sc, s)}`);
+  for (const [i, p] of s.placed.entries()) {
+    const def = sc.catalogue?.[p.what];
+    if (!def) bad.push(`placed ${p.id} is a ${p.what}, which is not in the catalogue`);
+    else if (sc.site?.(p.x, p.z, def.radius)) bad.push(`the ${p.what} at ${p.x}, ${p.z} stands on ground that refuses it`);
+    if (!p.done && !s.works.some((w) => w.placed === p.id)) bad.push(`the ${p.what} at ${p.x}, ${p.z} is unfinished and nobody is building it`);
+    for (const q of s.placed.slice(0, i)) if (q.id === p.id || Math.hypot(p.x - q.x, p.z - q.z) < (def?.radius ?? 0) + (sc.catalogue?.[q.what]?.radius ?? 0)) bad.push(`the ${p.what} at ${p.x}, ${p.z} stands on the ${q.what} at ${q.x}, ${q.z}`);
+  }
+  for (const [what, def] of Object.entries(sc.catalogue ?? {})) if (placedCount(s, what) > def.max) bad.push(`${placedCount(s, what)} of ${what} are placed, more than the ${def.max} allowed`);
   if (s.welfare < 0 || s.welfare > 100) bad.push(`welfare is ${s.welfare}`);
   if (s.households < 0 || s.households > Math.max(s.housing, sc.households)) bad.push(`${s.households} households in housing for ${s.housing}`);
   for (const [id, p] of Object.entries(s.plots)) {

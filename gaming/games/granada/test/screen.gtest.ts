@@ -5,7 +5,7 @@ import { PLAYERS, playVillage } from "../src/sim/players";
 import { WATER_FOR_THE_VALLEY as SC } from "../src/sim/scenarios";
 import { act, invariants, newVillage, tick, type VillageCommand, type VillageState } from "../src/sim/village";
 import { SAVE_KEY, clearSave, readSave, writeSave, type Store } from "../src/save";
-import { advice, fieldCards, marketRows, tradeView, questRows, riverOfYear, skyAhead, stocks, workRows } from "../src/ui/model";
+import { advice, catalogueRows, fieldCards, marketRows, tradeView, questRows, riverOfYear, skyAhead, stocks, workRows } from "../src/ui/model";
 
 const start = () => newVillage(SC, 7);
 const order = (s: VillageState, ...commands: VillageCommand[]) => {
@@ -82,6 +82,28 @@ describe("the works", () => {
     expect(expand!.now).toEqual({ ok: false, why: "already-under-way" });
     const done = days(s, 2);
     expect(workRows(SC, done)[0]).toMatchObject({ progress: null, built: 1, now: { ok: false, why: "already-done" } });
+  });
+});
+
+describe("the catalogue", () => {
+  it("lists what can be placed, by kind, with its price, its one effect and whether one can be started", () => {
+    const rows = Object.fromEntries(catalogueRows(SC, start()).map((r) => [r.what, r]));
+    expect(Object.keys(rows)).toEqual(["house", "granary", "cistern", "garden"]);
+    expect(rows.house).toMatchObject({ category: "housing", dinars: 160, timber: 30, stone: 0, labour: 20, placed: 0, max: 6, underWay: [], effect: { key: "housing", n: 10 }, now: { ok: true } });
+    expect(rows.granary!.effect).toEqual({ key: "capacity", n: 500 });
+    expect(rows.cistern!.effect).toEqual({ key: "pool", n: 60 });
+    expect(rows.garden!.effect).toEqual({ key: "welfare", n: 2 });
+  });
+
+  it("says why one cannot be started, and how far one being built has got", () => {
+    const poor = newVillage({ ...SC, treasury: 100_00 }, 7);
+    expect(catalogueRows(SC, poor).find((r) => r.what === "house")!.now).toEqual({ ok: false, why: "no-money" });
+    const bare = newVillage({ ...SC, stock: { ...SC.stock, stone: 0 } }, 7);
+    expect(catalogueRows(SC, bare).find((r) => r.what === "cistern")!.now).toEqual({ ok: false, why: "no-materials" });
+    const s = days(order(start(), { kind: "place", what: "house", x: 600, z: 250 }), 2);
+    expect(catalogueRows(SC, s).find((r) => r.what === "house")).toMatchObject({ placed: 1, underWay: [60] });
+    // What the panel allows, the rules allow on good ground.
+    for (const r of catalogueRows(SC, start())) if (r.now.ok) expect(act(SC, start(), { kind: "place", what: r.what, x: 600, z: 250 }).result.ok, r.what).toBe(true);
   });
 });
 
@@ -207,6 +229,14 @@ describe("the saved game", () => {
       s = tick(SC, s);
       expect(invariants(SC, s)).toEqual([]);
     }
+    // A game saved after the port and before anything could be placed (version 2) comes forward too.
+    const v2 = JSON.parse(JSON.stringify(newVillage(SC, 9))) as Record<string, unknown>;
+    v2.version = 2;
+    delete v2.placed;
+    store.data.set(SAVE_KEY, JSON.stringify({ v: 1, state: v2 }));
+    const two = readSave(store);
+    expect(two.status).toBe("ok");
+    if (two.status === "ok") expect([two.state.version, two.state.placed, invariants(SC, two.state)]).toEqual([3, [], []]);
     // A version this code has never heard of is still set aside.
     store.data.set(SAVE_KEY, JSON.stringify({ v: 1, state: { ...v1, version: 0 } }));
     expect(readSave(store)).toEqual({ status: "unreadable", why: "unknown-game" });
