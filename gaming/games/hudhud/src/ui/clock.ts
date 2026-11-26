@@ -120,7 +120,9 @@ export function clockQuest(host: ClockHost): ClockQuest {
         const select = h("select", { disabled: running || state.done, onchange: () => command({ type: "put", place: i, part: select.value }) });
         select.dataset.place = String(i);
         if (id === null) select.append(h("option", { value: "", textContent: t("ck_empty"), selected: true }));
-        for (const x of p.parts) select.append(h("option", { value: x.id, textContent: part(x.id), selected: x.id === id }));
+        // The choices are listed by their names in the page's language, never in the order that solves the row.
+        const byName = [...p.parts].sort((a, b) => part(a.id).localeCompare(part(b.id), host.lang));
+        for (const x of byName) select.append(h("option", { value: x.id, textContent: part(x.id), selected: x.id === id }));
         return h("li", {}, h("label", {}, h("span", { textContent: `${t("ck_place", { n: num(i + 1) })} ` }), select));
       }),
     );

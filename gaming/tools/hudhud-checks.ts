@@ -1421,6 +1421,22 @@ for (const lang of ["en", "ar"]) {
     { first, present, buttonsOk, clicked, between, byEnter, onNext, bySpace, after: { alt: after.alt, picture: after.picture }, reduced, bluntKept, opening: { whileOpen, onClose, seen, inQuest, backOnAtlas }, arabic: { arFirst: { alt: arFirst.alt, dir: arFirst.dir, picture: arFirst.picture, firstX: arFirst.buttons[0]?.x, lastX: arFirst.buttons[9]?.x }, arOne, arTen } },
   );
 }
+// The lists of choices in the two row quests must not give the answer away: their order is by name, not the order
+// that solves the row.
+{
+  const ctx = await browser.newContext({ viewport: { width: 1280, height: 800 } });
+  const page = await open(ctx, "&style=challenge");
+  const seen: Record<string, { options: string[]; sorted: boolean }> = {};
+  for (const [name, start, road] of [["clock", "startClock", ["float", "falcon", "dragon", "vessel", "bowl"]], ["paper", "startPaper", ["cut", "clean", "bleach", "pound", "size", "lift", "dry", "polish"]]] as const) {
+    await ev(page, `window.__HH__.${start}()`);
+    const got = await ev<{ values: string[]; labels: string[] }>(page, "(() => { const o = [...document.querySelector('.bench select').options].filter((x) => x.value); return { values: o.map((x) => x.value), labels: o.map((x) => x.textContent) }; })()");
+    const inRoadOrder = road.every((id, i) => got.values.filter((v) => (road as readonly string[]).includes(v))[i] === id);
+    seen[name] = { options: got.values, sorted: !inRoadOrder && [...got.labels].sort((a, b) => a.localeCompare(b, "en")).join("|") === got.labels.join("|") };
+    await ev(page, "window.__HH__.toAtlas()");
+  }
+  record("the lists of choices in the clock and the paper quests are in order of name, not in the order that solves them", seen.clock!.sorted && seen.paper!.sorted, seen);
+  await ctx.close();
+}
 await browser.close();
 await served.close();
 const report = { ran: new Date().toISOString(), results, errors };

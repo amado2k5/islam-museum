@@ -14,6 +14,7 @@ open a new block on top with the new version and today's date.
 ---
 
 ## v2.31.0 — 2026-11-24
+- **The row quests in Hudhud no longer give their answer away (games workshop; a prototype, public at games.islam.museum from an earlier build that does not have this change).** In the elephant clock and in the paper of Samarkand, each place's list of choices showed the cards in the very order that solves the row, so the answer could be read off the list. The choices are now listed by their names in the page's language. A check in the browser holds it.
 ### Fixed
 - **The site's build no longer fails because a verse gained its commentary.** One of the checks run after every build looked at a single named verse, 4:164, to make sure a verse with no commentary says so plainly. That verse now has commentary, so the check failed on every pull request, as it had once before with the verse named before it. The check now finds for itself the first verse that has no commentary and holds that page to the same rule, so adding commentary can no longer break it. Nothing a reader sees has changed.
 - **Two reading-step links on the "for you" pages no longer lead to "page not found", in all seven languages.** "Islam in 30 minutes" (on the pages for the curious and for passers-by) and "The New Muslims, a trail" (on the pages for new Muslims and for the five-minute visitor) pointed to `/<lang>/exhibit/…`, but exhibit pages live at `/<lang>/exhibits/…`; both now point to the right address.
