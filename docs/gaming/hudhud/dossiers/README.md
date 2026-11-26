@@ -49,5 +49,10 @@
 | al-tusi | [`al-tusi.md`](al-tusi.md) | 6 | 8 | 0 |
 | ibn-al-shatir | [`ibn-al-shatir.md`](ibn-al-shatir.md) | 2 | 8 | 0 |
 | al-battani | [`al-battani.md`](al-battani.md) | 8 | 8 | 0 |
+| wallada | [`wallada.md`](wallada.md) | 2 | 8 | 0 |
+| nana-asmau | [`nana-asmau.md`](nana-asmau.md) | 3 | 8 | 0 |
+| al-ghazali | [`al-ghazali.md`](al-ghazali.md) | 4 | 8 | 0 |
+| usama-ibn-munqidh | [`usama-ibn-munqidh.md`](usama-ibn-munqidh.md) | 4 | 8 | 0 |
+| samarqand | [`samarqand.md`](samarqand.md) | 2 | 8 | 0 |
 
 `ledger-drafts.json` holds draft rows only; the real ledger is untouched.
