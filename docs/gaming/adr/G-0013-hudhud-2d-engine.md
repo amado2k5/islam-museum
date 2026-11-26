@@ -20,7 +20,7 @@ All on 26 November 2026, with the workspace's own Vite 8.3.8 and target `es2023`
 | Runs under the games host's policy (`script-src 'self'`, `style-src 'self'`, no inline) | **yes, measured**: `release:smoke` opened the built release behind the Worker's own headers in Arabic and English with no policy violation | not built, not measured | — |
 | What it brings | scenes with a life (create, update, shutdown), a scale manager, tweens, pointer input, cameras, sprite sheets and atlases, tilemaps, Arcade physics, particles, filters | a renderer and a scene graph; everything else is ours to write | Three.js is already here and can draw flat quads; every 2D convenience is ours to write |
 
-Hudhud's own page in a release, built on Phaser: **1,456,166 bytes minified, 384,198 gzip, 311,102 Brotli**, in one script and one 7 KB stylesheet (no picture files: see below). The scene's code and strings are about 88 KB of that; the rest is the engine. The other three games together are 3.9 MB minified.
+Hudhud's own page in a release, built on Phaser, **as first measured: 1,456,166 bytes minified, 384,198 gzip, 311,102 Brotli**, in one script and one 7 KB stylesheet (no picture files: see below). **Measured again on 26 November 2026, with the five quests and the opening story, from the script `build:release` wrote (`assets/app-B-1A27xA.js`): 1,590,733 bytes minified, 341,288 with Brotli at quality 11, 423,500 with gzip at level 9 (Node's zlib), and a 14,272-byte stylesheet.** The first figures are kept as a past measurement; today's are the second. The scene's code and strings are about 88 KB of that; the rest is the engine. The other three games together are 3.9 MB minified.
 
 ## Decision
 

@@ -5,7 +5,7 @@ _26 November 2026. **No file under `site/` or `i18n/` is changed by this work.**
 ## What is there today
 
 - No `/[lang]/play/` page exists, and no menu or footer entry points at the games. The games ledger says of the public site: "Nothing".
-- The games are served from their own host by their own Worker (`uat-games.islam.museum`; production `games.islam.museum` is not deployed). The site never imports them ([G-0004](../adr/G-0004-hosting-and-release-model.md)), and two tests hold the two sides apart (`scripts/games-separation.test.ts`, `workers/games/test/separation.test.mjs`).
+- The games are served from their own host by their own Worker (`uat-games.islam.museum`; production `games.islam.museum` is deployed: corrected 26 November 2026, this said it was not; its `release.json`, read that day, names commit `035b6e439dd7946403381ebbeeb63c2d529e7996`, dated 26 November 2026 15:09:54 -0500, and lists Hudhud as a prototype). The site never imports them ([G-0004](../adr/G-0004-hosting-and-release-model.md)), and two tests hold the two sides apart (`scripts/games-separation.test.ts`, `workers/games/test/separation.test.mjs`).
 - The founder's instruction on Granada of 25 November 2026 already asked for a Play entry at the top of the landing page; it was not built.
 - `site/src/layouts/BaseLayout.astro` and the components it always renders are baked into about 164,000 pages (`tools/deploy/shell-paths.list`).
 
