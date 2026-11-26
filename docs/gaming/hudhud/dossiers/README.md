@@ -4,6 +4,11 @@
 
 | Subject | Dossier | Records | Claims | Contested |
 |---|---|---:|---:|---:|
+| al-jazari | [`al-jazari.md`](al-jazari.md) | 3 | 6 | 0 |
+| al-khwarizmi | [`al-khwarizmi.md`](al-khwarizmi.md) | 6 | 6 | 0 |
+| al-kindi | [`al-kindi.md`](al-kindi.md) | 3 | 6 | 0 |
+| banu-musa | [`banu-musa.md`](banu-musa.md) | 1 | 4 | 0 |
+| al-shatranj | [`al-shatranj.md`](al-shatranj.md) | 1 | 2 | 0 |
 | abbas-ibn-firnas | [`abbas-ibn-firnas.md`](abbas-ibn-firnas.md) | 2 | 8 | 0 |
 | al-sufi | [`al-sufi.md`](al-sufi.md) | 2 | 4 | 0 |
 | al-tusi | [`al-tusi.md`](al-tusi.md) | 6 | 8 | 0 |
