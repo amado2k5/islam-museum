@@ -62,13 +62,13 @@ The atlas title is The King and the River of Gold / أغنى رجل في الت�
 
 ## Three candidate quest premises
 
-These are proposals for Claude and the founder, not content.
+These are proposals for Claude and the founder, not content. They are deliberately conservative system scaffolding, not final quest designs. Each names one of the twelve systems in `design.md`; forms such as Measure, Journal, Care and Sail are not treated as separate systems. Claim numbers refer to the claims above.
 
-1. Players can sail to find the limits of the Atlantic Ocean, as the predecessor of Mansa Musa did, and discover new lands [3].
+1. A child helps arrange places, supplies and direction clues into a workable journey leg using the Route system. This rests on claims [1, 2] as its evidence anchor; the exact leg, supplies, clue cards, arrangement and the child's role are game invention, not record fact.
 
-2. Players must mend the royal ship after a storm to continue Mansa Musa's pilgrimage, showcasing the wealth and generosity that impressed Egyptians [4].
+2. A child helps connect people, resources or pieces of knowledge so they reach where they are needed using the Network system. This rests on claims [1, 3] as its evidence anchor; the exact people or resources, missing links, network puzzle and the child's role are game invention, not record fact.
 
-3. Players can exchange gifts with other rulers, like the giraffe Mansa Musa sent to the Marinid sultan, to establish trade routes and alliances [5].
+3. A child helps compare accounts, objects or clues using the Observe and Match system to find what the evidence supports. This rests on claims [1, 4] as its evidence anchor; the compared materials, missing details, matching puzzle and the child's role are game invention, not record fact.
 
 ## Sensitivities
 

@@ -35,13 +35,13 @@ The atlas title is The City of Golden Books / مدينة الكتب الذهبي
 
 ## Three candidate quest premises
 
-These are proposals for Claude and the founder, not content.
+These are proposals for Claude and the founder, not content. They are deliberately conservative system scaffolding, not final quest designs. Each names one of the twelve systems in `design.md`; forms such as Measure, Journal, Care and Sail are not treated as separate systems. Claim numbers refer to the claims above.
 
-1. [1] Players can sail along the ancient trade routes to Timbuktu, delivering books to restore the city's status as a learning center, but they must mend the damaged manuscripts they find.
+1. A child helps connect people, resources or pieces of knowledge so they reach where they are needed using the Network system. This rests on claims [1] as its evidence anchor; the exact people or resources, missing links, network puzzle and the child's role are game invention, not record fact.
 
-2. [1] In the game, players mend the ancient texts in the Sankore Mosque and then sail to other cities to spread knowledge, though the historical accuracy of this is unverified.
+2. Children help put damaged or scattered pieces into a stable, useful order using the Mend and Build system. This rests on claims [1] as its evidence anchor; the damaged or scattered pieces, their exact order, the repair puzzle and the children's role are game invention, not record fact.
 
-3. [1] Players navigate the treacherous desert routes to Timbuktu, where they mend the sacred texts of the Djinguereber Mosque, an activity not historically confirmed but imagined for the game's narrative.
+3. A child helps compare accounts, objects or clues using the Observe and Match system to find what the evidence supports. This rests on claims [1] as its evidence anchor; the compared materials, missing details, matching puzzle and the child's role are game invention, not record fact.
 
 ## Sensitivities
 

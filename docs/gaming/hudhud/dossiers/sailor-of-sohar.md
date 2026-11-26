@@ -36,13 +36,13 @@ The atlas title is The Sailor of Sohar / بحّار صُحار. No record read s
 
 ## Three candidate quest premises
 
-These are proposals for Claude and the founder, not content.
+These are proposals for Claude and the founder, not content. They are deliberately conservative system scaffolding, not final quest designs. Each names one of the twelve systems in `design.md`; forms such as Measure, Journal, Care and Sail are not treated as separate systems. Claim numbers refer to the claims above.
 
-1. In the game, players can sail to Sohar, a bustling trade hub, and mend their ships with Yemeni goods, but the tribal story of Quda'a is a fictional quest element [1, 2].
+1. A child helps arrange a trading sail toward Sohar using the Route system, choosing a sensible order for coast, wind, water and supplies. This rests on claims [1, 2] as its evidence anchor; the anonymous sailor, crew, cargo, winds, supplies, exact voyage and the child's role are game invention, not record fact.
 
-2. Players embark on a quest to mend ancient routes to Sohar, using the knowledge of the reddish color or lava field to navigate, while the tribal story is purely game invention [1, 2].
+2. Children help compare harbour goods and travel clues using the Observe and Match system to decide what belongs to the same journey. This rests on claims [1, 2] as its evidence anchor; the goods, clues, exact journey, matching puzzle and the children's role are game invention, not record fact.
 
-3. A quest involves sailing to Sohar to gather rare materials for ship repairs, but the story of the Quda'a tribe is a fabricated tale for the game's lore [1, 2].
+3. A child helps mend a model boat and its cargo fastenings using the Mend and Build system before the trading season ends. This rests on claims [1, 2] as its evidence anchor; the model boat, cargo, damage, repair order, season deadline and the child's role are game invention, not record fact.
 
 ## Sensitivities
 

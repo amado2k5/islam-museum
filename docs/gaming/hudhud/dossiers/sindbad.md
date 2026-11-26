@@ -47,13 +47,13 @@ No secure place with coordinates is attached in the museum records read. The atl
 
 ## Three candidate quest premises
 
-These are proposals for Claude and the founder, not content.
+These are proposals for Claude and the founder, not content. They are deliberately conservative system scaffolding, not final quest designs. Each names one of the twelve systems in `design.md`; forms such as Measure, Journal, Care and Sail are not treated as separate systems. Claim numbers refer to the claims above.
 
-1. Players can sail to the lands of the tales, collecting and translating stories from various cultures, aiming to complete 480 nights of tales as al-Jahshiyari did [3, 4].
+1. A child helps arrange one clearly fictional story voyage in a workable order using the Route system. This rests on claims [1, 2] as its evidence anchor; the exact voyage, its hazards, the player's arrangement and the child's role are game invention, not record fact.
 
-2. Children mend the lost transcripts of Hanna's tales, using the Mend system to piece together the stories that filled Galland's last volumes, distinguishing between historical and invented tales [7].
+2. Children help put torn story-map or story-page pieces in order using the Mend and Build system so an episode can be followed. This rests on claims [1, 3] as its evidence anchor; the torn pieces, their order, the episode framing and the children's role are game invention, not record fact.
 
-3. Using the Route system, players navigate through the lands of the Nights, discovering new tales and connecting them to the existing stories, distinguishing between Galland's translations and the invented tales [6, 8].
+3. A child helps match wonders and events to the story tradition using the Observe and Match system, keeping fiction separate from biography. This rests on claims [1, 4] as its evidence anchor; the compared wonders, the matching puzzle, the player's labels and the child's role are game invention, not record fact.
 
 ## Sensitivities
 

@@ -45,13 +45,13 @@ No secure place with coordinates is attached in the museum records read. Landsca
 
 ## Three candidate quest premises
 
-These are proposals for Claude and the founder, not content.
+These are proposals for Claude and the founder, not content. They are deliberately conservative system scaffolding, not final quest designs. Each names one of the twelve systems in `design.md`; forms such as Measure, Journal, Care and Sail are not treated as separate systems. Claim numbers refer to the claims above.
 
-1. In the game, players can sail to Yemen to discover the origins of 'kahwa', the drink that replaced wine in Sufi rituals, and mend ancient texts to uncover the true story of its introduction [1, 2].
+1. A child helps arrange places, supplies and direction clues into a workable journey leg using the Route system. This rests on claims [1, 2] as its evidence anchor; the exact leg, supplies, clue cards, arrangement and the child's role are game invention, not record fact.
 
-2. Players must navigate the complex trade routes from Ethiopia to Yemen, using the Sail/Route system to transport coffee beans and husks, and mend old manuscripts to learn about the disputed origins of coffee [3, 6].
+2. A child helps connect people, resources or pieces of knowledge so they reach where they are needed using the Network system. This rests on claims [1, 3] as its evidence anchor; the exact people or resources, missing links, network puzzle and the child's role are game invention, not record fact.
 
-3. The quest involves exploring the spread of coffee from Yemen to Cairo and Istanbul, using the Route system to follow the Sufi paths, and the Mend system to decipher legends about its introduction by al-Dhabhani, al-Shadhili, and al-'Aidarus [4, 5, 7].
+3. A child helps compare accounts, objects or clues using the Observe and Match system to find what the evidence supports. This rests on claims [1, 4] as its evidence anchor; the compared materials, missing details, matching puzzle and the child's role are game invention, not record fact.
 
 ## Sensitivities
 
