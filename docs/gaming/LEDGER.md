@@ -295,6 +295,19 @@ tools/atlas-play.ts <dir> <lang>              a full daily game in each of the s
 
 The first capture showed two faults that no test would have: the sea's shine made a white blot over Italy, and the paler water along the coasts was drawn in three bands that read as depth contours the game does not have. The shine was dulled and the bands replaced by one soft edge.
 
+### The eighteenth pull request: Granada's village, mill and bridge (25 November 2026)
+
+```
+npm --prefix gaming test                      13 files, 240 tests passed (Granada's valley: 29; four new, for the mosque, the mill's wheel, the roads and the cart)
+npm --prefix gaming run typecheck             clean
+npm --prefix gaming run build:release:music   built; check:release --allow-dirty: "the release matches its manifest"
+npm --prefix gaming run release:smoke         "the release starts and plays behind the host's own headers"
+tools/granada-play.ts <dir> en, then ar       passed, the 3D valley included
+tools/granada-shot.ts                         twelve views captured; 8.3 ms median, 9.1 ms 95th centile, 2.4 million triangles
+```
+
+Played in English and Arabic only this time: no string changed. Found by looking at captures, not by tests: wheat that read as paper cards from near, steps of the bridge's bank standing through the road, a village ground too bare, and a pale streak where the terraces' banks took the colour of dry hills. A new test failed once, rightly: fruit trees put in the village's yards had been added to the list a test reserves for orchard plots.
+
 ## Measurements
 
 The engine numbers and their conditions are in [G-0002](adr/G-0002-rendering-engine.md) and the [M1 report](m1-graphics-spike.md). They are for one Apple M4 Max in Chrome 158 and are not a hardware recommendation.

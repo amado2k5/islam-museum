@@ -9,8 +9,9 @@
 //
 // It is a made valley, not a survey. The hill town is scenery and stands for no building that can be named.
 import { Rng, fbm, hash32, latticeHash } from "@im/kernel/prng";
-import { MeshBuilder, frame, type MeshData, type Rgb } from "@im/worldkit/mesh";
-import { MeshSet, WALL_TINTS, house, type MaterialId } from "@im/worldkit/district/kit";
+import { MeshBuilder, frame, toWorld, type MeshData, type Rgb } from "@im/worldkit/mesh";
+import { MeshSet, type MaterialId } from "@im/worldkit/district/kit";
+import { andalusiHouse, bridge, millHouse, mosque, oxCart, townHouse, waterWheel } from "./buildings";
 
 export type Pt = readonly [number, number];
 export const plan = (px: number, py: number): Pt => [px - 500, py - 280];
@@ -42,6 +43,12 @@ export const HOUSE_LOTS: Array<{ x: number; z: number; yaw: number }> = [
 export const STORE: Pt = [30, 104];
 export const GRANARY: Pt = [92, 110];
 export const MARKET: Pt = [318, 224];
+/** The village mosque's prayer hall; its court lies to the north of it. */
+export const MOSQUE: Pt = [150, 132];
+/** The mill, at the tail of the west branch, its wheel standing in the channel. */
+export const MILL: Pt = [-34, 44.5];
+/** Where the road north crosses the river. */
+export const BRIDGE = { x: 6, length: 64, width: 6.4, deck: 4.3 } as const;
 export const HILL = { x: 930, z: -150, r: 300, h: 92 } as const;
 /** The ground the game is played on; the camera's target stays inside it. */
 export const BOUNDS = { x0: -460, x1: 540, z0: -230, z1: 300 } as const;
@@ -164,7 +171,7 @@ export function plotTable(seed: number): PlotTable {
 }
 /** How much of a point is trodden ground: the village, its lanes and its square. */
 export function settled(x: number, z: number): number {
-  return smooth(-66, -40, x) * smooth(292, 264, x) * smooth(82, 100, z) * smooth(284, 266, z);
+  return smooth(-64, -46, x) * smooth(284, 262, x) * smooth(92, 106, z) * smooth(278, 262, z);
 }
 /** How much of the land at a point is worked plain: 1 in the Vega, 0 on the dry hills, the banks and the village. */
 export function worked(x: number, z: number, slope: number): number {
@@ -184,6 +191,9 @@ function wildColour(x: number, z: number, slope: number, seed: number): Rgb {
   // Reeds and grass along the river and round the pool.
   const bank = Math.max(smooth(RIVER_HALF + 34, RIVER_HALF + 6, Math.abs(z - riverZ(x))) * smooth(1250, 1000, x), smooth(POOL.r + 26, POOL.r + 8, Math.hypot(x - POOL.x, z - POOL.z)));
   c = blend(c, [0.14 + 0.05 * n, 0.24 + 0.05 * n, 0.08], bank);
+  // Inside the plain, ground too steep to plough (the banks of the terraces, the dips by the channels) is under grass.
+  const inPlain = smooth(1050, 520, Math.hypot((x + 60) / 1.25, z - 40)) * smooth(620, 500, x);
+  c = blend(c, [0.17 + 0.05 * n, 0.27 + 0.05 * n, 0.09], 0.85 * inPlain);
   return blend(c, [0.5 + 0.06 * n, 0.41 + 0.05 * n, 0.28 + 0.03 * n], settled(x, z));
 }
 
@@ -425,6 +435,8 @@ export interface Scenery {
   /** Orchards of dark-leaved fruit trees, and orchards that blossom in spring. */
   citrus: number[][];
   almonds: number[][];
+  /** Fruit trees in the yards and lanes of the village. */
+  gardens: number[][];
   /** Poplars along the river and some borders. */
   poplars: number[][];
   /** Low evergreen trees on the dry hills. */
@@ -439,14 +451,25 @@ export interface Scenery {
   meadowChannel: Chunk[];
   /** Where buildings stand, as circles: nothing is planted inside one. */
   footprints: Array<{ x: number; z: number; r: number }>;
+  /** The mill's wheel, about its own axle, and where the axle is. */
+  wheel: { mesh: MeshData; x: number; y: number; z: number; yaw: number };
+  /** An ox-cart, and the roads carts go along. */
+  cart: MeshData;
+  cartRoads: Pt[][];
   triangles: number;
 }
 
 /** The road through the valley: from the west, through the village square, past the market and up to the hill town. */
 export const ROAD_WEST: Pt[] = [[-1080, 236], [-760, 214], [-470, 206], [-250, 196], [-60, 190], [50, 186]];
 export const ROAD_EAST: Pt[] = [[202, 187], [226, 208], [262, 226], [318, 244], [400, 240], [500, 222], [590, 176], [668, 112], [730, 40], [786, -34], [826, -92]];
-function roadMesh(path: Pt[], seed: number): MeshData {
-  // Sampled every few metres on a smooth curve through the points, so that the road lies on the land.
+/** The road north: from the village over the two channels to the bridge, and on beyond the river. */
+const BRIDGE_Z = riverZ(BRIDGE.x);
+export const ROAD_NORTH: Pt[] = [[34, 150], [22, 70], [11, -10], [6, -72], [BRIDGE.x, BRIDGE_Z + BRIDGE.length / 2]];
+export const ROAD_BEYOND: Pt[] = [[BRIDGE.x, BRIDGE_Z - BRIDGE.length / 2], [2, BRIDGE_Z - 90], [-16, -360], [-64, -660], [-120, -1120]];
+const ROADS: Pt[][] = [ROAD_WEST, ROAD_EAST, ROAD_NORTH, ROAD_BEYOND];
+
+/** A smooth line through a road's points, a point every few metres. */
+export function roadLine(path: Pt[]): Pt[] {
   const pts: Pt[] = [];
   for (let i = 0; i < path.length - 1; i++) {
     const p0 = path[Math.max(0, i - 1)]!;
@@ -461,22 +484,56 @@ function roadMesh(path: Pt[], seed: number): MeshData {
     }
   }
   pts.push(path[path.length - 1]!);
+  return pts;
+}
+const segmentDistance = (x: number, z: number, q: Pt, r: Pt): number => {
+  const t = Math.max(0, Math.min(1, ((x - q[0]) * (r[0] - q[0]) + (z - q[1]) * (r[1] - q[1])) / ((r[0] - q[0]) ** 2 + (r[1] - q[1]) ** 2)));
+  return Math.hypot(x - q[0] - (r[0] - q[0]) * t, z - q[1] - (r[1] - q[1]) * t);
+};
+const pathDistance = (x: number, z: number, path: Pt[]): number => path.reduce((least, q, i) => (path[i + 1] ? Math.min(least, segmentDistance(x, z, q, path[i + 1]!)) : least), Infinity);
+const nearRoad = (x: number, z: number): boolean => ROADS.some((path) => pathDistance(x, z, path) < 9);
+/**
+ * How high a road's surface is at a point: on the land, humped over a channel it crosses, and climbing to the
+ * bridge's roadway where it comes within reach of the bridge.
+ */
+export function roadHeight(x: number, z: number, seed: number): number {
+  const channel = Math.min(...Object.values(CHANNELS).map((path) => pathDistance(x, z, path)));
+  const ground = heightAt(x, z, seed) + 0.16 + (CHANNEL_WATER + 0.62) * smooth(9, 3.4, channel);
+  const fromEnd = Math.abs(Math.abs(z - BRIDGE_Z) - BRIDGE.length / 2);
+  const near = Math.abs(x - BRIDGE.x) < 30 && Math.abs(z - BRIDGE_Z) < BRIDGE.length / 2 + 60;
+  return near ? Math.max(ground, waterLevel(BRIDGE.x) + BRIDGE.deck + 0.02 - 0.085 * fromEnd) : ground;
+}
+function roadMesh(path: Pt[], seed: number): MeshData {
   const b = new MeshBuilder();
-  ribbon(b, pts.reverse(), 2.9, (q) => heightAt(q[0], q[1], seed) + 0.16, [0.6, 0.5, 0.36]);
+  ribbon(b, roadLine(path).reverse(), 2.9, (q) => roadHeight(q[0], q[1], seed), [0.6, 0.5, 0.36]);
   return b.build();
 }
-const nearRoad = (x: number, z: number): boolean => [ROAD_WEST, ROAD_EAST].some((path) => path.some((q, i) => {
-  const r = path[i + 1];
-  if (!r) return false;
-  const t = Math.max(0, Math.min(1, ((x - q[0]) * (r[0] - q[0]) + (z - q[1]) * (r[1] - q[1])) / ((r[0] - q[0]) ** 2 + (r[1] - q[1]) ** 2)));
-  return Math.hypot(x - q[0] - (r[0] - q[0]) * t, z - q[1] - (r[1] - q[1]) * t) < 9;
-}));
 
 export function buildScenery(seed: number): Scenery {
   const rng = new Rng(hash32("granada-valley", seed >>> 0));
   const set = new MeshSet(4000);
   const y = (x: number, z: number) => heightAt(x, z, seed);
-  const footprints: Array<{ x: number; z: number; r: number }> = [{ x: STORE[0], z: STORE[1], r: 19 }, { x: GRANARY[0], z: GRANARY[1], r: 16 }, ...HOUSE_LOTS.map((l) => ({ x: l.x, z: l.z, r: 12 }))];
+  const footprints: Array<{ x: number; z: number; r: number }> = [{ x: STORE[0], z: STORE[1], r: 19 }, { x: GRANARY[0], z: GRANARY[1], r: 16 }, ...HOUSE_LOTS.map((l) => ({ x: l.x, z: l.z, r: 12 })), { x: MOSQUE[0], z: MOSQUE[1] - 6, r: 20 }, { x: MILL[0], z: MILL[1] + 1.5, r: 12 }];
+  const built = (x: number, z: number, margin = 0) => footprints.some((f) => Math.hypot(f.x - x, f.z - z) < f.r + margin);
+
+  // The mosque, its court to the north of the hall. The mill at the tail of the west branch, and its wheel.
+  mosque(set, frame(MOSQUE[0], y(MOSQUE[0], MOSQUE[1]), MOSQUE[1], Math.PI));
+  const millFrame = frame(MILL[0], y(MILL[0], MILL[1]), MILL[1], 0);
+  const milled = millHouse(set, millFrame);
+  const axle = toWorld(millFrame, milled.axle[0], milled.axle[1], milled.axle[2]);
+  const wheel = { mesh: waterWheel(milled.radius), x: axle[0], y: axle[1], z: axle[2], yaw: 0 };
+
+  // The bridge that carries the road north over the river, and the banks built up to its roadway at each end.
+  const bridgeFrame = frame(BRIDGE.x, waterLevel(BRIDGE.x), BRIDGE_Z, -Math.PI / 2);
+  bridge(set, bridgeFrame, BRIDGE.length, BRIDGE.width, 3, BRIDGE.deck);
+  for (const side of [-1, 1]) {
+    for (let d = 2; d < 44; d += 4) {
+      const z = BRIDGE_Z + side * (BRIDGE.length / 2 + d);
+      const top = Math.min(roadHeight(BRIDGE.x, z - 2.05, seed), roadHeight(BRIDGE.x, z + 2.05, seed)) - 0.04;
+      const ground = y(BRIDGE.x, z);
+      if (top - ground > 0.3) set.at("ashlar", BRIDGE.x, z).box(frame(BRIDGE.x, ground - 1.2, z), 0, 0, 0, BRIDGE.width + 0.4, top - ground + 1.14, 4.1, [0.72, 0.66, 0.55], 15, 0.8);
+    }
+  }
 
   // Channels: a stone bed and two low walls, banked a little above the land. The intake comes from the river to the pool.
   const meadowSet = new MeshSet(4000);
@@ -531,7 +588,7 @@ export function buildScenery(seed: number): Scenery {
   // Houses of the village, one group of chunks each, so that a new house can appear when it is built.
   const houses: Chunk[][] = HOUSE_LOTS.map((lot, i) => {
     const hs = new MeshSet(4000);
-    house(hs, frame(lot.x, y(lot.x, lot.z) - 0.2, lot.z, lot.yaw), 15 + (i % 3) * 2, 13 + ((i * 7) % 3) * 2, rng.fork(`house-${i}`), 0.2);
+    andalusiHouse(hs, frame(lot.x, y(lot.x, lot.z) - 0.2, lot.z, lot.yaw), 10 + (i % 3) * 1.5, 7 + ((i * 7) % 3), rng.fork(`house-${i}`));
     return hs.chunks().map((c) => ({ material: c.material, mesh: c.mesh }));
   });
 
@@ -557,8 +614,8 @@ export function buildScenery(seed: number): Scenery {
     const dd = rng.range(14, 24);
     const hh = rng.range(9, 17);
     const f = frame(cx, y(cx, cz) - 2, cz, rng.range(-0.4, 0.4));
-    set.at("plaster", cx, cz).box(f, 0, 0, 0, w, hh + 2, dd, [wallTint[0] * 1.06, wallTint[1] * 1.06, wallTint[2] * 1.04], 31, 0.84);
-    set.at("roof", cx, cz).box(f, 0, hh + 2, 0, w + 1, 0.5, dd + 1, [0.7, 0.36, 0.22], 63);
+    townHouse(set, frame(cx, y(cx, cz), cz, rng.range(-0.4, 0.4)), w, dd, hh + 2, [wallTint[0] * 1.08, wallTint[1] * 1.12, wallTint[2] * 1.14], [0.7, 0.36, 0.22]);
+    void f;
     if (i < 3) tower(set, cx + w / 2, y(cx, cz) - 2, cz - dd / 2, 8, hh + 12, f.cos, wallTint);
   }
   for (let i = 0; i < 150; i++) {
@@ -569,10 +626,8 @@ export function buildScenery(seed: number): Scenery {
     const w = rng.range(9, 15);
     const dd = rng.range(8, 13);
     const hh = rng.range(3.5, 8);
-    const tint = rng.pick(WALL_TINTS);
-    const f = frame(cx, y(cx, cz) - 1.5, cz, rng.range(0, Math.PI));
-    set.at("plaster", cx, cz).box(f, 0, 0, 0, w, hh + 1.5, dd, [tint[0] * 1.08, tint[1] * 1.08, tint[2] * 1.06], 31, 0.86);
-    set.at("roof", cx, cz).box(f, 0, hh + 1.5, 0, w + 0.6, 0.35, dd + 0.6, [0.7 + rng.range(-0.06, 0.06), 0.38, 0.24], 63);
+    const lime = 0.84 + rng.range(0, 0.12);
+    townHouse(set, frame(cx, y(cx, cz), cz, rng.range(0, Math.PI)), w, dd, hh, [lime, lime * 0.97, lime * 0.9], [0.7 + rng.range(-0.06, 0.06), 0.37, 0.22]);
   }
 
   // The old village: houses that were there before the steward came, round the square and along two lanes.
@@ -582,31 +637,32 @@ export function buildScenery(seed: number): Scenery {
     const lx = -30 + along * 17 + (row ? 6 : 0);
     const lz = row ? 250 + (along % 3) * 3 : 132 - (along % 2) * 4;
     if (lx > 250) continue;
-    if (HOUSE_LOTS.some((l) => Math.hypot(l.x - lx, l.z - lz) < 17) || Math.hypot(lx - STORE[0], lz - STORE[1]) < 26 || Math.hypot(lx - GRANARY[0], lz - GRANARY[1]) < 24) continue;
-    house(set, frame(lx, y(lx, lz) - 0.2, lz, row ? Math.PI + rng.range(-0.15, 0.15) : rng.range(-0.15, 0.15)), rng.range(12, 16), rng.range(11, 15), rng.fork(`old-${i}`), 0.2);
-    footprints.push({ x: lx, z: lz, r: 11 });
+    if (built(lx, lz, 7) || nearRoad(lx, lz)) continue;
+    andalusiHouse(set, frame(lx, y(lx, lz) - 0.2, lz, row ? Math.PI + rng.range(-0.15, 0.15) : rng.range(-0.15, 0.15)), rng.range(8.5, 12), rng.range(6.5, 8.5), rng.fork(`old-${i}`));
+    footprints.push({ x: lx, z: lz, r: 9 });
   }
 
   for (let i = 0; i < 12; i++) {
     const lx = -46 + (i % 2) * 22 + rng.range(-2, 2);
     const lz = 146 + Math.floor(i / 2) * 19 + rng.range(-2, 2);
-    if (Math.hypot(lx - STORE[0], lz - STORE[1]) < 30 || HOUSE_LOTS.some((l) => Math.hypot(l.x - lx, l.z - lz) < 17)) continue;
-    house(set, frame(lx, y(lx, lz) - 0.2, lz, Math.PI / 2 + (i % 2) * Math.PI + rng.range(-0.2, 0.2)), rng.range(11, 15), rng.range(10, 14), rng.fork(`west-${i}`), 0.2);
-    footprints.push({ x: lx, z: lz, r: 11 });
+    if (built(lx, lz, 7) || nearRoad(lx, lz)) continue;
+    andalusiHouse(set, frame(lx, y(lx, lz) - 0.2, lz, Math.PI / 2 + (i % 2) * Math.PI + rng.range(-0.2, 0.2)), rng.range(8.5, 11.5), rng.range(6.5, 8.5), rng.fork(`west-${i}`));
+    footprints.push({ x: lx, z: lz, r: 9 });
   }
 
   // Things drawn many times.
   const place = (x: number, z: number, s: number, yaw = rng.range(0, Math.PI * 2)) => [x, y(x, z), z, yaw, s];
-  const clear = (x: number, z: number) => fieldAt(x, z) === null && Math.hypot(x - POOL.x, z - POOL.z) > POOL.r + 9 && Math.abs(z - riverZ(x)) > RIVER_HALF + 8 && settled(x, z) < 0.05 && !nearRoad(x, z) && Math.hypot(x - MARKET[0], z - MARKET[1]) > 30 && !Object.values(CHANNELS).some((path) => path.some((p) => Math.hypot(p[0] - x, p[1] - z) < 9));
+  const clear = (x: number, z: number) => fieldAt(x, z) === null && Math.hypot(x - POOL.x, z - POOL.z) > POOL.r + 9 && Math.abs(z - riverZ(x)) > RIVER_HALF + 8 && settled(x, z) < 0.05 && !nearRoad(x, z) && !built(x, z, 2) && Math.hypot(x - MARKET[0], z - MARKET[1]) > 30 && !Object.values(CHANNELS).some((path) => path.some((p) => Math.hypot(p[0] - x, p[1] - z) < 9));
   const cypresses: number[][] = [];
   const trees: number[][] = [];
   const citrus: number[][] = [];
   const almonds: number[][] = [];
+  const gardens: number[][] = [];
   const poplars: number[][] = [];
   const scrub: number[][] = [];
   const palms: number[][] = [];
   // Cypresses in lines along the channels and round the village.
-  for (const path of [CHANNELS.main!, CHANNELS.west!, CHANNELS.meadow!]) for (const p of along(path, 13)) if (fieldAt(p.x + p.nx * 7, p.z + p.nz * 7) === null && Math.hypot(p.x + p.nx * 7 - POOL.x, p.z + p.nz * 7 - POOL.z) > POOL.r + 8) cypresses.push(place(p.x + p.nx * 7, p.z + p.nz * 7, rng.range(0.9, 1.3)));
+  for (const path of [CHANNELS.main!, CHANNELS.west!, CHANNELS.meadow!]) for (const p of along(path, 13)) if (fieldAt(p.x + p.nx * 7, p.z + p.nz * 7) === null && !built(p.x + p.nx * 7, p.z + p.nz * 7, 3) && !nearRoad(p.x + p.nx * 7, p.z + p.nz * 7) && Math.hypot(p.x + p.nx * 7 - POOL.x, p.z + p.nz * 7 - POOL.z) > POOL.r + 8) cypresses.push(place(p.x + p.nx * 7, p.z + p.nz * 7, rng.range(0.9, 1.3)));
   for (let i = 0; i < 70; i++) {
     const a = (i / 70) * Math.PI * 2;
     const x = VILLAGE[0] + 6 + Math.cos(a) * (176 + rng.range(-6, 6));
@@ -652,7 +708,7 @@ export function buildScenery(seed: number): Scenery {
       if (!rng.chance(0.72)) continue;
       const px = x + rng.range(-4, 4);
       const pz = riverZ(px) + side * (RIVER_HALF + 13 + rng.range(0, 14));
-      if (fieldAt(px, pz) !== null || Math.hypot(px - POOL.x, pz - POOL.z) < POOL.r + 14 || Math.abs(px - 140) < 8) continue;
+      if (fieldAt(px, pz) !== null || Math.hypot(px - POOL.x, pz - POOL.z) < POOL.r + 14 || Math.abs(px - 140) < 8 || Math.abs(px - BRIDGE.x) < 12) continue;
       (rng.chance(0.7) ? poplars : trees).push(place(px, pz, rng.range(1, 1.6)));
     }
   }
@@ -672,10 +728,16 @@ export function buildScenery(seed: number): Scenery {
     if (worked(x, z, 0) > 0.2 || settled(x, z) > 0.05 || Math.abs(z - riverZ(x)) < RIVER_HALF + 10 || nearRoad(x, z) || Math.hypot(x - HILL.x, z - HILL.z) < 190) continue;
     if (fbm(x / 130, z / 130, seed + 14, 3) > 0.47) scrub.push(place(x, z, rng.range(0.7, 1.5)));
   }
+  for (let i = 0; i < 260; i++) {
+    const x = rng.range(-56, 276);
+    const z = rng.range(98, 272);
+    const onSquare = x > 44 && x < 208 && z > 164 && z < 208;
+    if (settled(x, z) > 0.6 && !onSquare && !built(x, z, 1.5) && !nearRoad(x, z) && fieldAt(x, z) === null && Math.hypot(x - MARKET[0], z - MARKET[1]) > 30) gardens.push(place(x, z, rng.range(0.7, 1.05)));
+  }
   for (let i = 0; i < 70; i++) {
     const x = VILLAGE[0] + rng.range(-120, 160);
     const z = VILLAGE[1] + rng.range(-24, 60);
-    if (fieldAt(x, z) === null && footprints.every((f) => Math.hypot(f.x - x, f.z - z) > f.r) && !nearRoad(x, z)) palms.push(place(x, z, rng.range(1, 1.5)));
+    if (fieldAt(x, z) === null && !built(x, z) && !nearRoad(x, z)) palms.push(place(x, z, rng.range(1, 1.5)));
   }
   // Olive trees in rows on their terraces.
   const olives: number[][] = [];
@@ -695,11 +757,11 @@ export function buildScenery(seed: number): Scenery {
   set.at("paving", MARKET[0], MARKET[1]).box(frame(MARKET[0], y(MARKET[0], MARKET[1]) - 0.2, MARKET[1]), 0, 0, 0, 40, 0.3, 34, [0.84, 0.78, 0.68], 31);
 
   const chunks: Chunk[] = set.chunks().map((c) => ({ material: c.material, mesh: c.mesh }));
-  chunks.push({ material: "earth", mesh: roadMesh(ROAD_WEST, seed) }, { material: "earth", mesh: roadMesh(ROAD_EAST, seed) });
+  for (const road of ROADS) chunks.push({ material: "earth", mesh: roadMesh(road, seed) });
   const granary = granarySet.chunks().map((c) => ({ material: c.material, mesh: c.mesh }));
   const meadowChannel = meadowSet.chunks().map((c) => ({ material: c.material, mesh: c.mesh }));
   const tris = (cs: Chunk[]) => cs.reduce((n, c) => n + c.mesh.indices.length / 3, 0);
-  return { chunks, cypresses, trees, citrus, almonds, poplars, scrub, olives, palms, stalls, houses, granary, meadowChannel, footprints, triangles: tris(chunks) + tris(granary) + houses.reduce((n, h) => n + tris(h), 0) };
+  return { chunks, cypresses, trees, citrus, almonds, gardens, poplars, scrub, olives, palms, stalls, houses, granary, meadowChannel, footprints, wheel, cart: oxCart(), cartRoads: [roadLine(ROAD_WEST), roadLine(ROAD_EAST)], triangles: tris(chunks) + tris(granary) + houses.reduce((n, h) => n + tris(h), 0) };
 }
 
 // ---- Crops -------------------------------------------------------------------------------------------------------------
@@ -721,17 +783,22 @@ export function cropSpots(field: string, spacing: number, seed: number): Float32
   return Float32Array.from(out);
 }
 
-/** A tuft of standing corn: a few crossed blades with an ear at the top. About a metre tall at scale 1. */
+/** A tuft of standing corn: seven narrow blades that taper and lean apart, paler toward the ear. About a metre tall at scale 1. */
 export function wheatTuft(): MeshData {
   const b = new MeshBuilder();
-  const lo: Rgb = [0.45, 0.45, 0.45];
+  const lo: Rgb = [0.42, 0.4, 0.34];
   const hi: Rgb = [1, 1, 1];
-  for (let i = 0; i < 3; i++) {
-    const a = (i / 3) * Math.PI + 0.3;
-    const dx = Math.cos(a) * 0.62;
-    const dz = Math.sin(a) * 0.62;
-    const lean = 0.2 * (i % 2 ? 1 : -1);
-    b.quad([-dx, 0, -dz], [dx, 0, dz], [dx + lean, 1.05, dz + lean], [-dx + lean, 1.05, -dz + lean], lo, 0, 0, hi);
+  for (let i = 0; i < 7; i++) {
+    const a = (i / 7) * Math.PI * 2 + 0.3;
+    // Where the blade stands in the tuft, which way its flat side faces, and how it leans outward.
+    const px = Math.cos(a) * 0.34 * (i % 2 ? 1 : 0.45);
+    const pz = Math.sin(a) * 0.34 * (i % 2 ? 1 : 0.45);
+    const fx = Math.cos(a * 1.7 + 1) * 0.11;
+    const fz = Math.sin(a * 1.7 + 1) * 0.11;
+    const lx = Math.cos(a) * 0.2;
+    const lz = Math.sin(a) * 0.2;
+    const h = 0.92 + 0.16 * ((i * 5) % 4) / 3;
+    b.quad([px - fx, 0, pz - fz], [px + fx, 0, pz + fz], [px + lx + fx * 0.35, h, pz + lz + fz * 0.35], [px + lx - fx * 0.35, h, pz + lz - fz * 0.35], lo, 0, 0, hi);
   }
   return b.build();
 }

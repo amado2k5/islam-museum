@@ -5,6 +5,8 @@ import { describe, expect, it } from "vitest";
 import type { MeshData } from "@im/worldkit/mesh";
 import { FIELD_SHAPE } from "../src/ui/map";
 import { LIMITS, OVERVIEW, START, approach, clampPose, eyeOf, pan, turn, zoom } from "../src/view/camera";
+import { oxCart, waterWheel } from "../src/view/buildings";
+import { BRIDGE, MILL, MOSQUE, ROAD_NORTH, roadHeight, roadLine } from "../src/view/valley";
 import { BOUNDS, CHANNELS, CHANNEL_WATER, FIELDS, HOUSE_LOTS, LAND, PLOT_GRID, POOL, RIVER_HALF, broadTree, buildLand, buildRange, buildRiver, buildScenery, channelWater, cropSpots, cypressTree, fieldAt, fieldGround, heightAt, orchardTree, plotAt, plotPoint, plotTable, poolWater, poplarTree, riverZ, settled, waterLevel, worked } from "../src/view/valley";
 
 const SEED = 7;
@@ -35,7 +37,7 @@ function facingDown(m: MeshData): number {
   return down;
 }
 const scenery = buildScenery(SEED);
-const planted = { cypresses: scenery.cypresses, trees: scenery.trees, citrus: scenery.citrus, almonds: scenery.almonds, poplars: scenery.poplars, scrub: scenery.scrub, palms: scenery.palms };
+const planted = { cypresses: scenery.cypresses, trees: scenery.trees, citrus: scenery.citrus, almonds: scenery.almonds, gardens: scenery.gardens, poplars: scenery.poplars, scrub: scenery.scrub, palms: scenery.palms };
 
 describe("the valley and the plan are the same ground", () => {
   it("has the plan's three fields, corner for corner", () => {
@@ -220,6 +222,65 @@ describe("what stands in the valley", () => {
     const full = tris(orchardTree(SEED, false)) * (scenery.citrus.length + scenery.almonds.length + scenery.scrub.length) + tris(broadTree(SEED, false)) * scenery.trees.length + tris(poplarTree(false)) * scenery.poplars.length + tris(cypressTree(false)) * scenery.cypresses.length;
     // Were every tree drawn in full, and again for its shadow, a frame would carry over two million triangles more: hence the light shapes.
     expect(full).toBeGreaterThan(1_000_000);
+  });
+});
+
+describe("the mosque, the mill, the bridge and the roads", () => {
+  it("keeps room for the mosque and the mill, with nothing planted or built into them", () => {
+    for (const [x, z] of [MOSQUE, MILL]) expect(scenery.footprints.some((f) => Math.hypot(f.x - x, f.z - z) < f.r)).toBe(true);
+    for (const lot of HOUSE_LOTS) expect(Math.hypot(lot.x - MOSQUE[0], lot.z - (MOSQUE[1] - 6))).toBeGreaterThan(24);
+    for (const spots of Object.values(planted)) for (const s of spots) for (const f of scenery.footprints) if (Math.hypot(f.x - s[0]!, f.z - s[2]!) < f.r) throw new Error(`something is planted inside a building at ${s[0]}, ${s[2]}`);
+  });
+
+  it("stands the mill's wheel in the west branch, where the water that turns it runs", () => {
+    const w = scenery.wheel;
+    sound(w.mesh);
+    const path = CHANNELS.west!;
+    let least = Infinity;
+    for (let i = 0; i < path.length - 1; i++) {
+      const [ax, az] = path[i]!;
+      const [bx, bz] = path[i + 1]!;
+      const t = Math.max(0, Math.min(1, ((w.x - ax) * (bx - ax) + (w.z - az) * (bz - az)) / ((bx - ax) ** 2 + (bz - az) ** 2)));
+      least = Math.min(least, Math.hypot(w.x - ax - (bx - ax) * t, w.z - az - (bz - az) * t));
+    }
+    expect(least).toBeLessThan(1.5);
+    // The wheel turns about its own axle: every point of it lies within its rim and its width.
+    const wheel = waterWheel(3.3);
+    for (let i = 0; i < wheel.positions.length; i += 3) {
+      expect(Math.hypot(wheel.positions[i]!, wheel.positions[i + 1]!)).toBeLessThan(3.3 + 0.6);
+      expect(Math.abs(wheel.positions[i + 2]!)).toBeLessThan(0.6);
+    }
+    // Its lowest paddles reach the channel's water.
+    expect(w.y - 3.3).toBeLessThan(heightAt(w.x, w.z, SEED) + CHANNEL_WATER);
+  });
+
+  it("carries the road north over both channels and up to the bridge's roadway", () => {
+    const deck = waterLevel(BRIDGE.x) + BRIDGE.deck;
+    const end = ROAD_NORTH[ROAD_NORTH.length - 1]!;
+    expect(roadHeight(end[0], end[1], SEED)).toBeCloseTo(deck, 1);
+    // Far from the bridge and from any channel, the road lies on the land.
+    expect(roadHeight(-600, 210, SEED)).toBeCloseTo(heightAt(-600, 210, SEED) + 0.16, 5);
+    // Where it crosses a channel it goes over the channel's walls, not through them.
+    let crossings = 0;
+    for (const [x, z] of roadLine(ROAD_NORTH)) {
+      const overChannel = Object.values(CHANNELS).some((path) => path.some((q, i) => path[i + 1] !== undefined && Math.abs(z - (q[1] + ((path[i + 1]![1] - q[1]) * (x - q[0])) / (path[i + 1]![0] - q[0] || 1))) < 1.5 && x >= Math.min(q[0], path[i + 1]![0]) && x <= Math.max(q[0], path[i + 1]![0])));
+      if (!overChannel) continue;
+      crossings += 1;
+      expect(roadHeight(x, z, SEED)).toBeGreaterThan(heightAt(x, z, SEED) + CHANNEL_WATER + 0.4);
+    }
+    expect(crossings).toBeGreaterThan(0);
+    // The road never drops below the land it is on.
+    for (const [x, z] of roadLine(ROAD_NORTH)) expect(roadHeight(x, z, SEED)).toBeGreaterThan(heightAt(x, z, SEED));
+  });
+
+  it("has an ox-cart that is sound and of a cart's size, and roads for it to go along", () => {
+    const cart = oxCart();
+    sound(cart);
+    let length = 0;
+    for (let i = 0; i < cart.positions.length; i += 3) length = Math.max(length, Math.abs(cart.positions[i + 2]!));
+    expect(length).toBeLessThan(3.6);
+    expect(scenery.cartRoads.length).toBe(2);
+    for (const road of scenery.cartRoads) expect(road.length).toBeGreaterThan(20);
   });
 });
 
