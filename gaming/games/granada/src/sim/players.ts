@@ -69,6 +69,7 @@ export const PLAYERS: Record<string, Player> = {
       { kind: "sell", good: pick(goods), quantity: rng.int(1, 200) },
       { kind: "buy", good: pick(goods), quantity: rng.int(1, 200) },
       { kind: "water-first", who: pick(["households", "fields"] as const) },
+      { kind: "field-first", plot: pick([...plots, null, "nowhere"]) },
       ...(sc.catalogue ? [{ kind: "place", what: pick([...Object.keys(sc.catalogue), "nothing"]), x: rng.int(-500, 800), z: rng.int(-300, 340) } as VillageCommand] : []),
       ...(sc.trade
         ? ([

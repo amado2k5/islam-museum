@@ -282,6 +282,25 @@ if (runs > 8) {
 if ((await page.locator("[data-part='contract'][data-state='settled']").count()) !== 1) await fail("the panel does not show the contract as kept");
 log.trade = { olives, runs, contract, paid: afterPay - beforePay };
 
+// ---- An estate's card: its figures are the rules' forecast, and putting it first is an order that holds ----
+await page.goto(url("&fresh=1"));
+await ready();
+await page.locator("#brief-start").click();
+await game(`(() => { const g = window.__GR__; g.order({ kind: "harvest", plot: "mill-field", rest: "wait" }); g.order({ kind: "repair" }); g.days(6); })()`);
+await page.keyboard.press("2");
+const card = page.locator("#card-olive-terrace");
+for (const part of ["hands", "expected", "store", "value"]) if ((await card.locator(`[data-estate='${part}']`).count()) !== 1) await fail(`the olive terrace's card has no ${part}`);
+const saidLine = (await card.locator("[data-estate='expected']").textContent()) ?? "";
+const said = (saidLine.match(/\d+/g) ?? []).map(Number);
+await card.locator("[data-act='first-olive-terrace']").click();
+if ((await game<string | null>("window.__GR__.state().fieldFirst")) !== "olive-terrace" || (await card.locator("[data-act='first-olive-terrace']").getAttribute("aria-pressed")) !== "true") await fail("putting the terrace first did not hold");
+await shot("9e-estate");
+await card.locator("[data-act='first-olive-terrace']").click();
+if ((await game<string | null>("window.__GR__.state().fieldFirst")) !== null) await fail("the terrace could not be put back in its usual place");
+const came = await game<{ units: number; days: number }>(`(() => { const g = window.__GR__; const from = g.state().day; while (g.state().plots["olive-terrace"].ripeSince === null && !g.state().outcome) g.days(1); return { units: g.state().plots["olive-terrace"].yielded, days: g.state().day - from }; })()`);
+if (lang === "en" && (said[0] !== came.units || said[1] !== came.days)) await fail(`the card said ${saidLine} and ${JSON.stringify(came)} came`);
+log.estate = { said: saidLine, came };
+
 // ---- Building on the land, on the plan: a thing chosen, bad ground refused, good ground built on, by keyboard and by mouse ----
 await page.goto(url("&fresh=1"));
 await ready();

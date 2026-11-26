@@ -4,7 +4,7 @@ import { audit, dinars, freeCapacity } from "../src/sim/economy";
 import { PLAYERS, REAL_PLAYERS, playVillage } from "../src/sim/players";
 import { WATER_FOR_THE_VALLEY as SC } from "../src/sim/scenarios";
 import { siteRefusal } from "../src/world/ground";
-import { CROPS, HARVEST_RATE, QUESTS, housesBuilt, poolCapacityOf, siteOf, act, carries, foodNeed, forecast, invariants, newVillage, preview, reserveDays, riverYear, seasonOf, tick, treasuryOf, waterNeed, weather, workersOf, type Scenario, type VillageCommand, type VillageState } from "../src/sim/village";
+import { CROPS, HARVEST_RATE, QUESTS, expectedHarvest, housesBuilt, poolCapacityOf, siteOf, act, carries, foodNeed, forecast, invariants, newVillage, preview, reserveDays, riverYear, seasonOf, tick, treasuryOf, waterNeed, weather, workersOf, type Scenario, type VillageCommand, type VillageState } from "../src/sim/village";
 
 const start = (seed = 7) => newVillage(SC, seed);
 /** Applies commands, failing the test if one is refused. */
@@ -517,6 +517,43 @@ describe("building on the land", () => {
   it("is refused whole in a valley with no catalogue", () => {
     const { catalogue: _none, ...plain } = DRY;
     expect(act(plain, newVillage(plain, 7), { kind: "place", what: "house", ...A }).result).toMatchObject({ ok: false, why: "unknown-building" });
+  });
+});
+
+describe("an estate", () => {
+  it("is forecast by the rules themselves: what the panel expects is what comes, to the unit and the day", () => {
+    for (const seed of [3, 7, 11, 19]) {
+      for (const orders of [[], [{ kind: "repair" }], [{ kind: "harvest", plot: "mill-field", rest: "wait" }, { kind: "expand" }]] as VillageCommand[][]) {
+        let s = order(SC, newVillage(SC, seed), ...orders);
+        const said = expectedHarvest(SC, s, "olive-terrace");
+        while (!s.outcome && s.plots["olive-terrace"]!.ripeSince === null) s = tick(SC, s);
+        const p = s.plots["olive-terrace"]!;
+        if (said === null) expect(p.ripeSince, `seed ${seed}`).toBeNull();
+        else expect([p.ripeSince, p.yielded], `seed ${seed}`).toEqual([said.day, said.units]);
+      }
+    }
+    // A crop already ripe: today, and what stands. A fallow field: nothing.
+    expect(expectedHarvest(SC, start(), "mill-field")).toEqual({ day: start().plots["mill-field"]!.ripeSince, units: start().plots["mill-field"]!.standing });
+    expect(expectedHarvest(SC, start(), "river-meadow")).toBeNull();
+  });
+
+  it("can be put first for water and hands, and then thrives where it would have thirsted", () => {
+    // Little water and both branches whole: the mill field stands before the terrace in the valley's order.
+    const thin: Scenario = { ...DRY, water: { ...DRY.water, inflow: [18, 18, 18, 18], pool: 0, branches: DRY.water.branches.map((b) => (b.id === "east" ? { ...b, condition: 100 } : b)) }, plots: DRY.plots.map((p) => (p.id === "mill-field" ? { ...p, growth: 0 } : p)) };
+    const usual = days(thin, newVillage(thin, 7), 20);
+    const first = days(thin, order(thin, newVillage(thin, 7), { kind: "field-first", plot: "olive-terrace" }), 20);
+    expect(first.plots["olive-terrace"]!.stress).toBeLessThan(usual.plots["olive-terrace"]!.stress);
+    expect(first.plots["mill-field"]!.stress).toBeGreaterThan(usual.plots["mill-field"]!.stress);
+    // And back to the usual order.
+    const back = order(thin, first, { kind: "field-first", plot: null });
+    expect(back.fieldFirst).toBeNull();
+    expect(act(thin, back, { kind: "field-first", plot: "nowhere" }).result).toMatchObject({ ok: false, why: "unknown-plot" });
+  });
+
+  it("changes nothing in a valley where no field is put first", () => {
+    const a = days(SC, order(SC, start(), { kind: "repair" }), 40);
+    const b = days(SC, order(SC, start(), { kind: "repair" }, { kind: "field-first", plot: null }), 40);
+    expect(b.plots).toEqual(a.plots);
   });
 });
 
