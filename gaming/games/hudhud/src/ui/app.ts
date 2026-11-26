@@ -4,13 +4,20 @@
 import { loadMusicStrings, musicControl } from "@im/audio/control";
 import { MUSIC_AVAILABLE, MUSIC_BASE, MusicPlayer } from "@im/audio/player";
 import { Cues, type Cue } from "../audio/cues";
+import { atlasCanvas, atlasHit, ATLASBOOK, drawAtlasBook } from "../art/atlasbook";
 import { HAIRS, OUTFITS, SKINS, keeper as paintKeeper, portrait } from "../art/cast";
-import { RECORDS, SCRIPTS, THINGS, TURN_SLACK, type PlayStyle, type Speaker } from "../content/workshop";
+import { CLOCK_QUEST, clockPuzzle } from "../content/clock";
+import { restoreClock } from "../sim/clock";
+import { clockQuest, type ClockQuest } from "./clock";
+import { prologueScreen } from "./prologue";
+import { JAR, RECORDS, SCRIPTS, THINGS, TURN_SLACK, inPlay, type PlayStyle, type Speaker } from "../content/workshop";
 import { start, type Running } from "../game/boot";
 import { Input } from "../input/input";
 import { DEFAULT_PAD, PAD_ACTIONS, assignPad, type PadAction } from "../input/pad";
 import { choicesOf, lineOf } from "../narrative/dialogue";
-import { ACTIONS, DEFAULT_KEYS, SAVE_KEY, assignKey, current, load, recordQuest, store, type Action, type Quality, type SaveFile, type Settings } from "../save/save";
+import { ACTIONS, DEFAULT_KEYS, SAVE_KEY, assignKey, current, load, markPrologueSeen, recordQuest, store, type Action, type Quality, type SaveFile, type Settings } from "../save/save";
+import { askToPersist, openStore, saveChannel } from "@im/platform/save/idb";
+import { openDurable, type Durable, type SaveStatus } from "../save/durable";
 import { apply, beam, goals, newScene, restore, snapshot, type Command, type Happened, type SceneState } from "../sim/scene";
 import type { SceneHost } from "../scenes/workshop";
 import atlas from "../content/atlas.v1.json";
@@ -65,13 +72,24 @@ async function main(): Promise<void> {
   const slot = () => current(save);
   const settings = (): Settings => slot().settings;
   /** Saves. `ownsResume` is true only when this page has just changed the quest in progress (see mergeSaves). */
+  // The vault (IndexedDB) is the authority for what is kept; localStorage holds a copy so that the page can draw at
+  // once and has something to fall back on. `durable` is null until the vault has been opened and read.
+  let durable: Durable | null = null;
+  const AT_KEY = "im.hudhud.save.at";
   const keep = (ownsResume = false) => {
     const ok = store(storage, save, mayStore, ownsResume);
     if (ok) {
       // store() joined in whatever another tab had saved; hold the same here.
       const now = load(storage);
       if (now.kind === "ok") save = { ...now.save, slot: save.slot };
+      try {
+        storage?.setItem(AT_KEY, String(Date.now()));
+      } catch {
+        /* the copy's own time is a help, not a need */
+      }
     }
+    // "Saved" is said by the vault when its write completes (showStatus), never here.
+    void durable?.write(save, ownsResume);
     return ok;
   };
   const change = (patch: Partial<Settings>) => {
@@ -132,6 +150,9 @@ async function main(): Promise<void> {
   // The goal and the talk sit over the picture on a wide screen and beside it on a narrow one (ui/hudhud.css).
   const stageWrap = el("div", { class: "stage-wrap", hidden: true }, objective, stage, talkBox);
   const hub = el("section", { class: "hub" });
+  // The second quest is played on a page of its own, beside the Atlas and the flying scene.
+  const bench = el("section", { class: "bench", hidden: true });
+  let clockRun: ClockQuest | null = null;
   stage.setAttribute("role", "application");
   stage.setAttribute("aria-label", t("canvas_label"));
 
@@ -156,7 +177,16 @@ async function main(): Promise<void> {
   const wordsBox = el("div", { class: "words" }, words, about);
   words.hidden = true;
   // The skip link lands here, on the Atlas or on the quest, whichever is showing.
-  const main = el("main", { id: "play", tabIndex: -1 }, hub, stageWrap);
+  // The opening story comes first for a slot that has not seen it; it takes the place of the Atlas until it is left.
+  const prologue = prologueScreen({
+    t,
+    num,
+    rtl: RTL.includes(lang),
+    look: () => slot().keeper,
+    blocked: () => sheetOpen(),
+    leave: () => leaveOpening(true),
+  });
+  const main = el("main", { id: "play", tabIndex: -1 }, prologue.node, hub, bench, stageWrap);
   app.append(bar, main, wordsBox, live, sheets);
 
   let toastTimer = 0;
@@ -168,6 +198,64 @@ async function main(): Promise<void> {
     window.clearTimeout(toastTimer);
     toastTimer = window.setTimeout(() => node.remove(), 6000);
   };
+  // ---------------------------------------------------------------------------------------- the vault
+  const saveChip = el("span", { class: "chip save-state", hidden: true });
+  saveChip.setAttribute("role", "status");
+  const saveBanner = el("p", { class: "save-banner", hidden: true });
+  saveBanner.setAttribute("role", "alert");
+  bar.insertBefore(saveChip, musicBox);
+  app.insertBefore(saveBanner, main);
+  const clock = (ms: number) => new Intl.DateTimeFormat(lang === "ar" ? "ar-EG" : lang === "ur" ? "ur-PK" : lang, { hour: "2-digit", minute: "2-digit" }).format(new Date(ms));
+  let saveStatus: SaveStatus = { state: "starting" };
+  let persistence: "granted" | "denied" | "unsupported" | "unasked" = "unasked";
+  const statusText = (st: SaveStatus): string => (st.state === "saving" ? t("save_saving") : st.state === "saved" ? (st.at > 0 ? t("save_saved", { time: clock(st.at) }) : t("save_saved_plain")) : st.state === "failed" ? t("save_failed") : st.state === "newer" ? t("save_newer") : st.state === "unavailable" ? t("save_unavailable") : "");
+  function showStatus(st: SaveStatus): void {
+    saveStatus = st;
+    const quiet = query.get("fresh") === "1";
+    saveChip.hidden = quiet || st.state === "starting" || (st.state === "saved" && st.at === 0) || st.state === "unavailable" || st.state === "newer";
+    saveChip.textContent = statusText(st);
+    // A save that did not go through, or cannot be made at all, is said where it cannot be missed.
+    const loud = !quiet && (st.state === "failed" || st.state === "unavailable" || st.state === "newer");
+    saveBanner.hidden = !loud;
+    saveBanner.textContent = loud ? statusText(st) : "";
+    document.querySelectorAll(".save-line").forEach((n) => (n.textContent = statusText(st)));
+  }
+  /** The page takes up a save the vault hands it: on the first read, from another tab, or from an imported file. */
+  function adopt(next: SaveFile, why: "vault" | "tab" | "import"): void {
+    const at = why === "tab" ? save.slot : next.slot;
+    save = { ...next, slot: next.slots[at] ? at : next.slots.findIndex((x) => x !== null) };
+    if (save.slot < 0) return;
+    store(storage, save, mayStore, true);
+    // The vault knows the opening was seen, and the player has not yet turned a panel: go straight to the Atlas.
+    if (openingShown && slot().prologue && prologue.panel() === 1) leaveOpening(false);
+    applyLook();
+    if (!started) {
+      fromSlot();
+      drawHub();
+    }
+    render();
+  }
+  const channel = saveChannel("hudhud", () => void durable?.refresh());
+  // Opened at the end of this function, once everything the vault may call back into exists.
+  let ready: Promise<void> = Promise.resolve();
+  const openVault = async (): Promise<void> => {
+    if (query.get("fresh") === "1") return showStatus({ state: "saved", at: 0, revision: 0 });
+    const idb = await openStore().catch(() => null);
+    let localAt = 0;
+    try {
+      localAt = storage?.getItem(SAVE_KEY) ? Number(storage.getItem(AT_KEY)) || 1 : 0;
+    } catch {
+      localAt = 0;
+    }
+    durable = await openDurable(idb, save, localAt, { adopt, status: showStatus, told: (r) => channel.tell(r), now: () => Date.now() });
+    // Whatever the page changed while the vault was being opened is written now.
+    if (durable.status().state === "saved") void durable.write(save, false);
+  };
+  // A last save when the page is hidden or left: asked of the vault, and not waited for.
+  const lastSave = () => void durable?.write(save, false);
+  document.addEventListener("visibilitychange", () => document.hidden && lastSave());
+  window.addEventListener("pagehide", lastSave);
+
   if (loaded.kind === "newer") toast(t("save_newer"));
   else if (loaded.kind === "quarantined") toast(t("save_quarantined"));
   else if (!loaded.stored && query.get("fresh") !== "1") toast(t("save_off"));
@@ -209,6 +297,8 @@ async function main(): Promise<void> {
   const checkpoint = (clear = false) => {
     const resume = state.done || (state.turns === 0 && state.flags.length === 0 && !state.dark) ? null : { quest: QUEST, snap: snapshot(state) as unknown };
     if (resume === null && !placeMine && !clear) return;
+    // A place kept in the elephant clock is never this quest's to wipe: only a place of its own is.
+    if (resume === null && slot().resume && slot().resume!.quest !== QUEST) return;
     if (JSON.stringify(slot().resume) === JSON.stringify(resume)) return;
     save = { ...save, slots: save.slots.map((x, i) => (i === save.slot && x ? { ...x, resume } : x)) };
     placeMine = resume !== null;
@@ -335,6 +425,8 @@ async function main(): Promise<void> {
       "div",
       {},
       el("p", { class: "who", textContent: who }),
+      // What a person of history is given to say here is invented, and is said to be, beside every such line.
+      line.who === "scholar" ? el("p", { class: "dramatized", textContent: t("dramatized") }) : null,
       lineEl,
       el("span", { class: "visually-hidden", textContent: text }),
       choices.length
@@ -369,13 +461,16 @@ async function main(): Promise<void> {
     // The scene in words.
     const tr = beam(state);
     const names = tr.touched.map((id) => t(THINGS.find((k) => k.id === `mirror-${id}`)!.name as Key));
-    const end: Record<string, Key> = { target: "beam_end_target", block: "beam_end_block", wall: "beam_end_wall", loop: "beam_end_loop" };
-    beamWords.textContent = `${names.length ? t("beam_path", { list: names.join(lang === "ar" || lang === "ur" ? "، " : ", ") }) : t("beam_none")} ${t(end[tr.end]!)}`;
+    // Two things stop the beam: the books on their shelf and the tall jar on the floor. The words name the right one.
+    const stopped: Key = tr.last.col === JAR.col && tr.last.row === JAR.row ? "beam_end_jar" : "beam_end_block";
+    const end: Record<string, Key> = { target: "beam_end_target", block: stopped, wall: "beam_end_wall", loop: "beam_end_loop" };
+    // Challenge is told only where the beam ends: which mirrors it met on the way is what the player works out.
+    beamWords.textContent = style() === "challenge" ? t(end[tr.end]!) : `${names.length ? t("beam_path", { list: names.join(lang === "ar" || lang === "ur" ? "، " : ", ") }) : t("beam_none")} ${t(end[tr.end]!)}`;
     thingList.replaceChildren(
-      ...THINGS.filter((k) => !(k.kind === "feather" && g.feather)).map((k) => {
+      ...THINGS.filter((k) => inPlay(k, state.puzzle) && !(k.kind === "feather" && g.feather)).map((k) => {
         const mirror = k.kind === "mirror" ? state.puzzle.mirrors.find((m) => `mirror-${m.id}` === k.id)! : null;
         const name = t(k.name as Key);
-        const label = mirror ? `${t("alt_turn", { thing: t("mirror_state", { thing: name, lean: t(mirror.lean === "/" ? "lean_up" : "lean_down") }) })}` : k.kind === "page" && state.restored ? t("btn_finish") : t("alt_touch", { thing: name });
+        const label = mirror ? `${t("alt_turn", { thing: t("mirror_state", { thing: name, lean: t(mirror.lean === "/" ? "lean_up" : mirror.lean === "-" ? "lean_flat" : "lean_down") }) })}` : k.kind === "page" && state.restored ? t("btn_finish") : t("alt_touch", { thing: name });
         const b = el("button", { type: "button", textContent: label, disabled: frozen(), onclick: () => {
           cues.unlock();
           // With no picture (WebGL would not start) there is no bird to fly there: the list touches the thing itself.
@@ -390,7 +485,29 @@ async function main(): Promise<void> {
   }
 
   // ---------------------------------------------------------------------------------------- sheets
+  /**
+   * A slot that has not seen the opening, chosen in the settings, is shown it when the player closes the settings on
+   * the Atlas; in the middle of a quest it waits for the next time a sheet is closed on the Atlas.
+   */
+  let openingDue = false;
+  function afterSheet(): void {
+    if (!openingDue || sheetOpen()) return;
+    if (slot().prologue) {
+      openingDue = false;
+      return;
+    }
+    if (started || clockRun || openingShown) return;
+    openingDue = false;
+    readOpening(true);
+  }
   function sheet(title: string, ...body: Array<Node | null | false>): HTMLElement {
+    // A sheet that is already open is not opened a second time on top of itself (the toolbar stays in reach while a
+    // sheet is up): the one that is open is shown again.
+    const open = [...sheets.querySelectorAll<HTMLElement>(".sheet")].find((x) => x.firstElementChild?.getAttribute("aria-label") === title);
+    if (open) {
+      (open.querySelector("h2") as HTMLElement | null)?.focus({ preventScroll: true });
+      return open;
+    }
     const back = document.activeElement as HTMLElement | null;
     const close = () => {
       node.remove();
@@ -400,6 +517,7 @@ async function main(): Promise<void> {
       if (node === pauseNode) setPaused(false);
       back?.focus?.({ preventScroll: true });
       render();
+      afterSheet();
     };
     const closeBtn = el("button", { type: "button", class: "primary", textContent: t("btn_close"), onclick: close });
     const heading = el("h2", { textContent: title, tabIndex: -1 });
@@ -484,6 +602,8 @@ async function main(): Promise<void> {
       field(t("set_captions"), check(s.captions, (v) => change({ captions: v }))),
       el("h3", { textContent: t("set_keys") }),
       keysBox(),
+      el("h3", { textContent: t("set_saving") }),
+      savingBox(),
       el("h3", { textContent: t("set_pad") }),
       padBox(),
       el("h3", { textContent: t("set_slot") }),
@@ -491,7 +611,7 @@ async function main(): Promise<void> {
         const i = Number(v);
         // A slot never used starts with this one's settings and explorer, and nothing done. Changing slot changes
         // no quest: each slot's place in its quest is left exactly as it was and is taken up again.
-        save = { ...save, slot: i, slots: save.slots.map((x, j) => (j === i && !x ? { ...structuredClone(save.slots[save.slot]!), quests: {}, resume: null } : x)) };
+        save = { ...save, slot: i, slots: save.slots.map((x, j) => (j === i && !x ? { ...structuredClone(save.slots[save.slot]!), quests: {}, resume: null, prologue: undefined } : x)) };
         keep();
         applyLook();
         fromSlot();
@@ -499,8 +619,11 @@ async function main(): Promise<void> {
         redraw();
         if (!started) drawHub();
         // The sheet was drawn from the slot just left: draw it again from this one.
+        openingDue = false;
         (node as unknown as { close: () => void }).close();
         openSettings();
+        // The opening is shown when these settings are closed, if this slot has not seen it.
+        openingDue = !slot().prologue;
       }), t("privacy")),
     );
   }
@@ -527,6 +650,47 @@ async function main(): Promise<void> {
     draw();
     return box;
   }
+  /** Saving, said in full: where progress is kept and how it can be lost, how it stands now, and the three things a
+   * player can do about it (save now, take a copy out, bring a copy in). */
+  function savingBox(): HTMLElement {
+    const line = el("p", { class: "save-line", textContent: statusText(saveStatus) });
+    line.setAttribute("role", "status");
+    const pick = el("input", { type: "file", accept: ".json,application/json", hidden: true });
+    pick.setAttribute("aria-hidden", "true");
+    pick.onchange = async () => {
+      const file = pick.files?.[0];
+      pick.value = "";
+      if (!file || !durable) return;
+      const text = await file.text();
+      const node: HTMLElement = sheet(
+        t("btn_import"),
+        el("p", { textContent: t("import_confirm") }),
+        el("p", {}, el("button", { type: "button", textContent: t("btn_import"), onclick: async () => {
+          const r = await durable!.importFile(text);
+          (node as unknown as { close: () => void }).close();
+          toast(t(r.ok ? "import_done" : "import_bad"));
+        } })),
+      );
+    };
+    const out = el("button", { type: "button", textContent: t("btn_export"), onclick: async () => {
+      const text = await durable?.exportFile();
+      if (!text) return toast(t("save_unavailable"));
+      const url = URL.createObjectURL(new Blob([text], { type: "application/json" }));
+      const a = el("a", { href: url, download: "hudhud-save.json" });
+      document.body.append(a);
+      a.click();
+      a.remove();
+      window.setTimeout(() => URL.revokeObjectURL(url), 10_000);
+    } });
+    return el(
+      "div",
+      {},
+      el("p", { class: "hint", textContent: t(saveStatus.state === "unavailable" ? "save_unavailable" : "save_note") }),
+      line,
+      persistence === "granted" || persistence === "denied" ? el("p", { class: "hint", textContent: t(persistence === "granted" ? "persist_granted" : "persist_denied") }) : null,
+      el("p", { class: "row" }, el("button", { type: "button", textContent: t("btn_save"), onclick: () => keep(true) }), out, el("button", { type: "button", textContent: t("btn_import"), onclick: () => pick.click() }), pick),
+    );
+  }
   const PAD_NAME: Record<PadAction, Key> = { fly: "pad_fly", back: "btn_back", touch: "btn_touch", pause: "btn_pause" };
   /** The same for the controller: each action shows its button's number, and pressing it waits for the next button. */
   function padBox(): HTMLElement {
@@ -551,8 +715,9 @@ async function main(): Promise<void> {
   }
   function finish(): void {
     const g = goals(state);
-    save = { ...save, slots: save.slots.map((s, i) => (i === save.slot && s ? { ...recordQuest(s, QUEST, g), resume: null } : s)) };
-    keep(true);
+    const mine = slot().resume?.quest === QUEST;
+    save = { ...save, slots: save.slots.map((s, i) => (i === save.slot && s ? { ...recordQuest(s, QUEST, g), resume: mine ? null : s.resume } : s)) };
+    keep(mine);
     const slack = TURN_SLACK[state.style];
     const goal = (mark: string, name: Key, how: string, met: boolean) => el("li", {}, el("span", { class: "mark", textContent: mark }), el("span", {}, el("strong", { textContent: t(name) }), el("br", {}), el("span", { class: "small", textContent: how })), el("span", { class: met ? "met" : "open", textContent: t(met ? "goal_met" : "goal_open") }));
     const names: Key[] = ["rec_person", "rec_darkroom", "rec_book"];
@@ -637,7 +802,7 @@ async function main(): Promise<void> {
     if (on) running?.game.loop.sleep();
     else running?.game.loop.wake();
     if (on) {
-      pauseNode = sheet(t("paused"), el("p", { class: "row" }, el("button", { type: "button", textContent: t("btn_restart"), onclick: () => (setPaused(false), restart(false)) }), el("button", { type: "button", textContent: t("btn_settings"), onclick: () => openSettings() })));
+      pauseNode = sheet(t("paused"), el("p", { class: "row" }, el("button", { type: "button", textContent: t("btn_restart"), onclick: () => (setPaused(false), restart(false)) }), el("button", { type: "button", textContent: t("btn_save"), onclick: () => keep(true) }), el("button", { type: "button", textContent: t("btn_settings"), onclick: () => openSettings() })), el("p", { class: "save-line small", textContent: statusText(saveStatus) }));
       pauseNode.classList.add("pause");
     } else {
       pauseNode = null;
@@ -659,9 +824,14 @@ async function main(): Promise<void> {
   // The first thing a player sees: who they are, and the Atlas itself, ten worlds of five pages. One quest can be
   // played; the others are named and said to be not built. Nothing here is a claim about history: the names are
   // the subjects' names and the grouping is a structure for play.
-  const BUILT: Record<string, string> = { "ibn-al-haytham": QUEST };
+  const BUILT: Record<string, string> = { "ibn-al-haytham": QUEST, "al-jazari": CLOCK_QUEST };
   function startQuest(): void {
     cues.unlock();
+    // Asked once, after a press as browsers require; the answer is shown in the settings and never asked again.
+    if (persistence === "unasked" && query.get("fresh") !== "1") {
+      persistence = "unsupported";
+      void askToPersist().then((a) => (persistence = a));
+    }
     started = true;
     hub.hidden = true;
     stageWrap.hidden = false;
@@ -671,8 +841,73 @@ async function main(): Promise<void> {
     stage.focus({ preventScroll: true });
     render();
   }
+  /** The clock left in the middle, if the slot holds one that can be trusted; the slot holds one place only. */
+  const clockSaved = () => {
+    const r = slot().resume;
+    return r?.quest === CLOCK_QUEST ? restoreClock(r.snap, clockPuzzle) : null;
+  };
+  /**
+   * Keeps the clock's place. With progress (a move or a question asked) the slot's one place becomes the clock's; a
+   * finished or restarted clock clears its own place only, and the other quest's place is never touched by a clock
+   * that has made no progress.
+   */
+  const clockCheckpoint = (snap: unknown | null) => {
+    const old = slot().resume;
+    const resume = snap === null ? null : { quest: CLOCK_QUEST, snap };
+    if (resume === null && old?.quest !== CLOCK_QUEST) return;
+    if (JSON.stringify(old) === JSON.stringify(resume)) return;
+    save = { ...save, slots: save.slots.map((x, i) => (i === save.slot && x ? { ...x, resume } : x)) };
+    keep(true);
+  };
+  /** Opens the elephant clock: a quest played on the page, with no flying scene. A clock left in the middle comes back. */
+  function startClock(): void {
+    const kept = clockSaved();
+    cues.unlock();
+    hub.hidden = true;
+    atlasBtn.hidden = false;
+    clockRun = clockQuest({
+      t,
+      num,
+      lang,
+      museum: MUSEUM,
+      title: subjectName("al-jazari"),
+      style,
+      resume: kept,
+      keepPlace: (snap) => clockCheckpoint(snap),
+      reducedMotion: () => settings().reducedMotion,
+      tick: () => cues.play("line"),
+      chime: () => cues.play("restored"),
+      finish: (g) => {
+        const mine = slot().resume?.quest === CLOCK_QUEST;
+        // A finished quest is not kept in the middle; the place kept in the other quest is not this quest's to change.
+        save = { ...save, slots: save.slots.map((s, i) => (i === save.slot && s ? { ...recordQuest(s, CLOCK_QUEST, g), resume: mine ? null : s.resume } : s)) };
+        keep(mine);
+      },
+      leave: () => toAtlas(),
+    });
+    bench.replaceChildren(clockRun.node);
+    bench.hidden = false;
+    // The note and the controls under the page are the flying scene's; this quest carries its own note. Nothing here
+    // can be paused, so the pause button is put away.
+    wordsBox.hidden = true;
+    pauseBtn.hidden = true;
+    (bench.querySelector("h2") as HTMLElement | null)?.focus({ preventScroll: true });
+  }
   /** Leaves the quest for the Atlas. A quest in the middle stays saved; a finished one is cleared for another play. */
   function toAtlas(): void {
+    if (clockRun) {
+      clockRun.stop();
+      clockRun = null;
+      bench.replaceChildren();
+      bench.hidden = true;
+      wordsBox.hidden = false;
+      pauseBtn.hidden = false;
+      atlasBtn.hidden = true;
+      hub.hidden = false;
+      drawHub();
+      (hub.querySelector(`button[data-quest="${CLOCK_QUEST}"]`) as HTMLElement | null)?.focus({ preventScroll: true });
+      return;
+    }
     setPaused(false);
     sheets.replaceChildren();
     pauseNode = null;
@@ -709,6 +944,48 @@ async function main(): Promise<void> {
     explorerButtons.push(b);
     choose.append(b);
   }
+  const again = el("button", { type: "button", class: "quiet", textContent: t("pro_reread"), onclick: () => readOpening(true) });
+  again.dataset.opening = "again";
+  // The Atlas laid open: one picture that shows how many pages are home, and a way to go to a world's list. It is a
+  // helper and never the only way: every medallion is also a numbered button under it, and every world's list is on
+  // the page below.
+  const book = atlasCanvas();
+  book.className = "book-art";
+  book.setAttribute("role", "img");
+  const bookHint = el("p", { class: "small", id: "book-hint", textContent: t("hub_book_pick") });
+  const bookWorlds = el("div", { class: "book-worlds" });
+  bookWorlds.setAttribute("role", "group");
+  bookWorlds.setAttribute("aria-labelledby", "book-hint");
+  const bookFigure = el("div", { class: "book" }, book, bookHint, bookWorlds);
+  /** Takes the player to a world's list: scrolls it into view (not smoothly when motion is reduced) and focuses its heading. */
+  function toWorld(order: number): void {
+    const heading = hub.querySelector<HTMLElement>(`h3[data-world="${order}"]`);
+    if (!heading) return;
+    heading.scrollIntoView({ behavior: calm() ? "auto" : "smooth", block: "start" });
+    heading.focus({ preventScroll: true });
+  }
+  for (const w of [...atlas.worlds].sort((a, b) => a.order - b.order)) {
+    const b = el("button", { type: "button", class: "book-world", textContent: num(w.order), title: t("hub_world", { n: num(w.order), name: atlasNames[`world_${w.order}`] ?? w.name }), onclick: () => toWorld(w.order) });
+    b.setAttribute("aria-label", t("hub_world", { n: num(w.order), name: atlasNames[`world_${w.order}`] ?? w.name }));
+    b.dataset.world = String(w.order);
+    bookWorlds.append(b);
+  }
+  book.addEventListener("click", (e) => {
+    const r = book.getBoundingClientRect();
+    if (r.width === 0 || r.height === 0) return;
+    const order = atlasHit(((e.clientX - r.left) / r.width) * ATLASBOOK.w, ((e.clientY - r.top) / r.height) * ATLASBOOK.h, RTL.includes(lang));
+    if (order !== null) toWorld(order);
+  });
+  /** Which pages are home in each world, and which worlds have a quest that can be played, in the order of the Atlas. */
+  const pictureData = () => {
+    const quests = slot().quests;
+    const worlds = [...atlas.worlds].sort((a, b) => a.order - b.order);
+    return {
+      worlds: worlds.length,
+      home: worlds.map((w) => atlas.subjects.filter((x) => x.world === w.id && BUILT[x.id] !== undefined && quests[BUILT[x.id]!]?.done === true).length),
+      open: worlds.filter((w) => atlas.subjects.some((x) => x.world === w.id && BUILT[x.id] !== undefined)).map((w) => w.order),
+    };
+  };
   function drawHub(): void {
     drawChoices();
     const quests = slot().quests;
@@ -722,27 +999,68 @@ async function main(): Promise<void> {
           const story = sub.kind === "literature" ? el("small", { textContent: t("quest_story") }) : null;
           if (!quest) return el("li", { class: "closed" }, el("span", { textContent: name }), story, el("small", { textContent: t("quest_closed") }));
           const rec = quests[quest];
+          if (quest === CLOCK_QUEST) {
+            // One button on the Atlas is the main one (the flying scene); this trial quest has an ordinary button.
+            const kept = clockSaved();
+            const b = el("button", { type: "button", textContent: t(kept ? "quest_continue" : rec?.done ? "quest_again" : "quest_play", { name }), onclick: () => startClock() });
+            b.dataset.quest = quest;
+            const item = el("li", { class: "open" }, b, el("small", { textContent: t("ck_trial") }));
+            if (rec?.done) item.append(el("small", { textContent: t("quest_home", { n: num([rec.curiosity, rec.ingenuity, rec.kindness, rec.feather].filter(Boolean).length) }) }));
+            if (kept) item.append(el("small", { textContent: t("resume_note") }), el("button", { type: "button", textContent: t("btn_restart_quest"), onclick: () => (clockCheckpoint(null), drawHub()) }));
+            return item;
+          }
           const label: Key = resumed ? "quest_continue" : rec?.done ? "quest_again" : "quest_play";
           const li = el("li", { class: "open" }, el("button", { type: "button", class: "primary", textContent: t(label, { name }), onclick: () => startQuest() }), story);
           if (rec?.done) li.append(el("small", { textContent: t("quest_home", { n: num([rec.curiosity, rec.ingenuity, rec.kindness, rec.feather].filter(Boolean).length) }) }));
           if (resumed) li.append(el("small", { textContent: t("resume_note") }), el("button", { type: "button", textContent: t("btn_restart"), onclick: () => (restart(false), drawHub()) }));
           return li;
         });
-      return el("section", { class: "world" }, el("h3", { textContent: t("hub_world", { n: num(w.order), name: atlasNames[`world_${w.order}`] ?? w.name }) }), el("ol", {}, ...items));
+      const heading = el("h3", { textContent: t("hub_world", { n: num(w.order), name: atlasNames[`world_${w.order}`] ?? w.name }), tabIndex: -1 });
+      heading.dataset.world = String(w.order);
+      return el("section", { class: "world" }, heading, el("ol", {}, ...items));
     });
+    // The picture is drawn again every time the Atlas is: after a quest, a change of slot, or another tab's save.
+    const picture = pictureData();
+    book.setAttribute("aria-label", t("hub_book_alt", { n: num(home), total: num(atlas.subjects.length) }));
+    drawAtlasBook(book, { ...picture, rtl: RTL.includes(lang) });
     hub.replaceChildren(
       el("h2", { textContent: t("hub_title") }),
       el("p", { class: "progress", textContent: t("hub_progress", { n: num(home), total: num(atlas.subjects.length) }) }),
+      bookFigure,
       choose,
       el("p", { class: "small", textContent: t("cover_more") }),
       el("p", { class: "small", textContent: t("start_hint") }),
       el("div", { class: "worlds" }, ...worlds),
       el("p", { class: "small", textContent: t("hub_note") }),
+      el("p", { class: "again" }, again),
     );
+  }
+  // ---------------------------------------------------------------------------------------- the opening story
+  let openingShown = false;
+  /** Shows the opening from its first panel, in place of the Atlas. */
+  function readOpening(focus = true): void {
+    openingShown = true;
+    hub.hidden = true;
+    prologue.open(1, focus);
+  }
+  /** Leaves the opening for the Atlas. Finished or skipped, it is recorded as seen in this slot, once; read again by
+   * choice and left, nothing more is written. */
+  function leaveOpening(record: boolean): void {
+    if (!openingShown) return;
+    openingShown = false;
+    prologue.close();
+    if (record && !slot().prologue) {
+      save = markPrologueSeen(save);
+      keep();
+    }
+    hub.hidden = false;
+    drawHub();
+    (hub.querySelector("button.primary") as HTMLElement | null)?.focus({ preventScroll: true });
   }
   drawHub();
   render();
 
+  ready = openVault();
   Object.assign(hook, {
     ready: true,
     lang,
@@ -758,11 +1076,23 @@ async function main(): Promise<void> {
     restart: (rebuild: boolean) => restart(rebuild),
     redraw: () => redraw(),
     started: () => started,
+    saveStatus: () => saveStatus,
+    saveReady: () => ready.then(() => durable?.settled()).then(() => saveStatus),
+    persistence: () => persistence,
     toAtlas: () => toAtlas(),
+    atlasPicture: () => pictureData(),
+    startClock: () => startClock(),
+    clock: () => (clockRun ? { ...clockRun.state(), busy: clockRun.busy() } : null),
+    clockCommand: (c: Parameters<ClockQuest["command"]>[0]) => clockRun?.command(c),
     resumed: () => resumed,
     keys: () => settings().keys,
+    prologue: () => ({ shown: openingShown, panel: openingShown ? prologue.panel() : 0 }),
+    skipPrologue: () => leaveOpening(true),
   });
+  // A slot that has not seen the opening opens on it. A page opened to go straight into the quest (a test or a
+  // capture) shows no opening and records nothing.
   if (query.get("autostart") === "1") startQuest();
+  else if (!slot().prologue) readOpening(false);
 }
 
 main().catch((e) => {

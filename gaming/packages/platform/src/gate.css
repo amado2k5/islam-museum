@@ -1,5 +1,7 @@
 /* The page shown when a device cannot play a game. Plain and readable; no picture, no motion. */
-.im-unsupported { max-width: 46rem; margin: 0 auto; padding: 2rem 1.25rem 3rem; color: #f6ecd2; font: 1.05rem/1.6 system-ui, -apple-system, "Segoe UI", sans-serif; }
+/* It brings its own ground and ink, so that it reads the same on every game's page. */
+.im-unsupported { min-height: 100vh; margin: 0; padding: 2rem 1.25rem 3rem; background: #081530; color: #f6ecd2; font: 1.05rem/1.6 system-ui, -apple-system, "Segoe UI", sans-serif; }
+.im-unsupported main { max-width: 46rem; margin: 0 auto; }
 .im-unsupported main:focus { outline: none; }
 .im-unsupported h1 { margin: 0 0 1rem; font-size: 1.6rem; color: #f2b94b; text-wrap: balance; }
 .im-unsupported h2 { margin: 2rem 0 0.5rem; font-size: 1.1rem; color: #3fa39b; }
