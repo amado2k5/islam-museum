@@ -70,19 +70,25 @@ if handoff:
     out.append("")
     if handoff.get("decisions"):
         answered = handoff["answered"]
-        out.append(f"## The founder's decisions of {answered['on']}")
+        out.append(f"## The founder's decisions of {answered['on']}: the register")
         out.append("")
-        out.append(f"_His answer to the reviewer's questions and to three points the developer raised, kept as it arrived in [`{answered['record'].split('/')[-1]}`](spec-production/{answered['record'].split('/')[-1]}). These are summaries; his words govern._")
+        out.append(f"_His answers, kept as they arrived in [`{answered['record'].split('/')[-1]}`](spec-production/{answered['record'].split('/')[-1]}) and [`{answered['second']['record'].split('/')[-1]}`](spec-production/{answered['second']['record'].split('/')[-1]}). These are summaries; his words govern._")
         out.append("")
         out.append("| | On | Decided | Where it is taken up |")
         out.append("|---|---|---|---|")
         for x in handoff["decisions"]:
             out.append(f"| {x['id']} | **{cell(x['on'])}** | {cell(x['decided'])} | {cell(x['where'])} |")
         out.append("")
-        out.append("## Decisions that still need the founder")
+        out.append("## What still waits on named people")
         out.append("")
-        for x in handoff["openDecisions"]:
-            out.append(f"- **{x['id']}.** {x['needs']}" + (f" _{x['note']}_" if x["note"] else ""))
+        out.append("_None of these is closed by a document. Each stays open until a real person is named ([`spec-production/owner-register.md`](spec-production/owner-register.md))._")
+        out.append("")
+        out.append("| | Who is needed | Named | What it blocks | What is ready for them |")
+        out.append("|---|---|---|---|---|")
+        for x in handoff["dependencies"]:
+            out.append(f"| {x['id']} | {cell(x['who'])} | **{cell(x['named'])}** | {cell(x['blocks'])} | {cell(x['ready'])} |")
+        out.append("")
+        out.append(f"**What still needs the founder's own approval:** {len(handoff['approvalsRequired'])} kinds of action, listed in the register.")
         out.append("")
 matrix_file = DOCS / "regression" / "matrix.json"
 if matrix_file.exists():
@@ -156,6 +162,29 @@ if plan_file.exists() and inventory_file.exists():
     o.append("")
     o.append(f"**In all:** {len(pp['packages'])} packages, {lo} to {hi} sessions by the estimates below, not counting anything that waits on people.")
     o.append("")
+    if pp.get("order"):
+        od = pp["order"]
+        o.append("## The order of work")
+        o.append("")
+        o.append(f"**The rule.** {od['rule']}")
+        o.append("")
+        o.append("| Stage | What | Packages | Estimate, in sessions | It ends when |")
+        o.append("|---:|---|---|---|---|")
+        for st in od["stages"]:
+            lo2, hi2 = sum(packs[w]["sessions"][0] for w in st["packages"]), sum(packs[w]["sessions"][1] for w in st["packages"])
+            o.append(f"| {st['n']} | {cell(st['what'])} | {', '.join(st['packages'])} | {f'{lo2} to {hi2}' if hi2 else 'people, not sessions'} | {cell(st['ends'])} |")
+        o.append("")
+        o.append("**Beside Granada, in preparation only:**")
+        o.append("")
+        for line in od["besideGranada"]:
+            o.append(f"- {line}")
+        o.append("")
+        o.append("## The critical path to Granada's first production release")
+        o.append("")
+        o.append(" → ".join(f"**{c}**" if c in packs else f"_{c}_" for c in od["criticalPath"]["chain"]))
+        o.append("")
+        o.append(od["criticalPath"]["note"])
+        o.append("")
     for key, name in pp["streams"].items():
         mine = [x for x in pp["packages"] if x["stream"] == key]
         lo, hi = sum(x["sessions"][0] for x in mine), sum(x["sessions"][1] for x in mine)
@@ -201,21 +230,99 @@ if ledger_file.exists():
     o.append(f"**The rule.** {led['rule']}")
     o.append("")
     tally = {k: sum(1 for e in led["entries"] if e["decision"] == k) for k in led["decisions"]}
-    o.append(f"**Today:** {len(led['entries'])} entries; " + ", ".join(f"{n} {k}" for k, n in tally.items() if n) + ". Reviewers named: " + (", ".join(led["reviewers"]) or "none") + ". Editor: " + (led["editor"] or "none") + ".")
+    kinds = {k: sum(1 for e in led["entries"] if e["kind"] == k) for k in led["kinds"]}
+    roster = {r["id"]: r for r in led["roster"]}
+    named = {r["name"] for r in led["roster"] if r["name"]}
+    o.append(f"**Today:** {len(led['entries'])} entries; " + ", ".join(f"{n} {k}" for k, n in tally.items() if n) + ". By kind: " + ", ".join(f"{n} {k}" for k, n in kinds.items() if n) + f". Reviewers named: {len(named)} of {len(roster)}.")
     o.append("")
     o.append("**Kinds:** " + "; ".join(f"`{k}`: {v}" for k, v in led["kinds"].items()) + ".")
     o.append("")
-    o.append("| | Game | The claim | Where in the game | Source | Kind | Uncertainty | Reviewer | Decision | Approved |")
-    o.append("|---|---|---|---|---|---|---|---|---|---|")
+    o.append("## The reviewers")
+    o.append("")
+    o.append(f"_{led['productOwner']} The briefs: [`reviewer-briefs.md`](reviewer-briefs.md)._")
+    o.append("")
+    o.append("| | Specialty | Named | Entries waiting |")
+    o.append("|---|---|---|---:|")
+    for r in led["roster"]:
+        o.append(f"| {r['id']} | {cell(r['specialty'])} | **{r['name'] or 'not named'}** | {sum(1 for e in led['entries'] if r['id'] in e['forReview'] and e['decision'] == 'historical review pending')} |")
+    o.append("")
+    o.append("## The entries")
+    o.append("")
+    o.append("| | Game | The claim | Where in the game | Source | Kind | Uncertainty | For | Reviewer | Decision | Date |")
+    o.append("|---|---|---|---|---|---|---|---|---|---|---|")
     for e in led["entries"]:
         if e["decision"] not in led["decisions"] or e["kind"] not in led["kinds"]:
             sys.exit(f"{e['id']}: unknown value")
-        if e["decision"] != "pending" and not (e["reviewer"] and e["approved"]):
-            sys.exit(f"{e['id']}: a decision needs a named reviewer and a date")
+        for r in e["forReview"]:
+            if r not in roster:
+                sys.exit(f"{e['id']}: unknown reviewer role {r}")
+        if e["decision"] != "historical review pending" and not (e["reviewer"] in named and e["approved"]):
+            sys.exit(f"{e['id']}: a decision needs a reviewer named on the roster and a date; the founder's approval of the product is not one")
         src = ", ".join(f"`{x}`" if "/" in x and " " not in x else x for x in e["sources"]) or "none"
-        o.append(f"| {e['id']} | {e['game']} | {cell(e['claim'])} | {cell(e['context'])} | {cell(src)} | {e['kind']} | {cell(e['uncertainty'])}{' ' + cell(e['note']) if e['note'] else ''} | {e['reviewer'] or 'none named'} | {e['decision']} | {e['approved'] or ''} |")
+        o.append(f"| {e['id']} | {e['game']} | {cell(e['claim'])} | {cell(e['context'])} | {cell(src)} | {e['kind']} | {cell(e['uncertainty'])}{' ' + cell(e['note']) if e['note'] else ''} | {', '.join(e['forReview'])} | {e['reviewer'] or 'none named'} | {e['decision']} | {e['approved'] or ''} |")
     o.append("")
     pages[DOCS / "historical-review" / "ledger.md"] = "\n".join(o)
+
+if handoff and handoff.get("dependencies"):
+    o = ["# The owner's register: decisions, people still to be named, and what needs his own approval", ""]
+    o.append("_Generated by `npm --prefix gaming run traceability` from [`../spec-corrective/plan.json`](../spec-corrective/plan.json); edit that file, not this page. The founder's own words are in [`owner-decisions-2026-11-26.md`](owner-decisions-2026-11-26.md) and [`owner-decisions-2026-11-26-b.md`](owner-decisions-2026-11-26-b.md); they govern, and these are summaries._")
+    o.append("")
+    o.append(f"## Decisions ({len(handoff['decisions'])})")
+    o.append("")
+    o.append("| | On | Decided | Where it is taken up, and what is not yet done |")
+    o.append("|---|---|---|---|")
+    for x in handoff["decisions"]:
+        o.append(f"| {x['id']} | **{cell(x['on'])}** | {cell(x['decided'])} | {cell(x['where'])} |")
+    o.append("")
+    o.append("## People still to be named")
+    o.append("")
+    o.append("_A document does not close any of these. Each is open until a real person is named, and nobody is invented to fill a line._")
+    o.append("")
+    o.append("| | Who is needed | Named | What it blocks | What is ready for them |")
+    o.append("|---|---|---|---|---|")
+    for x in handoff["dependencies"]:
+        o.append(f"| {x['id']} | {cell(x['who'])} | **{cell(x['named'])}** | {cell(x['blocks'])} | {cell(x['ready'])} |")
+    o.append("")
+    o.append("## What still needs the founder's own approval")
+    o.append("")
+    o.append("_Each is asked for by itself, in words, when its time comes. None follows from a merged pull request, a release to UAT, or a finished milestone._")
+    o.append("")
+    for n, line in enumerate(handoff["approvalsRequired"], 1):
+        o.append(f"{n}. {line}")
+    o.append("")
+    pages[DOCS / "spec-production" / "owner-register.md"] = "\n".join(o)
+frames_file = DOCS / "spec-production" / "proof-frames.json"
+if frames_file.exists():
+    pf = json.loads(frames_file.read_text())
+    o = ["# The three proof frames: briefs and the checklist each must pass", ""]
+    o.append("_Generated by `npm --prefix gaming run traceability` from [`proof-frames.json`](proof-frames.json); edit that file, not this page. **None is started.**_")
+    o.append("")
+    o.append(f"**The rule.** {pf['rule']}")
+    o.append("")
+    o.append(f"**What is handed over.** {pf['delivered']}")
+    o.append("")
+    o.append("## The checklist")
+    o.append("")
+    o.append("| | It asks | Which means | " + " | ".join(f["game"] for f in pf["frames"]) + " |")
+    o.append("|---|---|---|" + "---|" * len(pf["frames"]))
+    for c in pf["criteria"]:
+        for f in pf["frames"]:
+            if f["checklist"][c["id"]] not in pf["statusValues"]:
+                sys.exit(f"{f['game']} {c['id']}: unknown status")
+        o.append(f"| {c['id']} | **{cell(c['asks'])}** | {cell(c['means'])} | " + " | ".join(f["checklist"][c["id"]] for f in pf["frames"]) + " |")
+    o.append("")
+    labels = [("camera", "The camera"), ("foreground", "Foreground"), ("midground", "Midground"), ("background", "Background"), ("architectureAndMaterials", "Architecture and materials"), ("landWaterPlantingAirLight", "Land, water, planting, air and light"), ("people", "People at an activity"), ("motion", "Motion of the world"), ("panels", "Panels that work"), ("selectable", "Can be selected"), ("stateChange", "A change of state that is seen"), ("history", "What is said of history"), ("reuses", "Built on"), ("dependsOn", "Waits on")]
+    for f in sorted(pf["frames"], key=lambda f: f["order"]):
+        image = "../" + f["target"].split("docs/gaming/")[1]
+        o.append(f"## {f['order']}. {f['game']} ({f['status']})")
+        o.append("")
+        o.append(f"The target: [`{f['target'].split('/')[-1]}`]({image}).")
+        o.append("")
+        for key, label in labels:
+            value = f[key]
+            o.append(f"- **{label}.** {'; '.join(value) if isinstance(value, list) else value}")
+        o.append("")
+    pages[DOCS / "spec-production" / "proof-frames.md"] = "\n".join(o)
 
 if "--check" in sys.argv:
     for page, text in pages.items():

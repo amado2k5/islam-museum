@@ -1,6 +1,6 @@
 # Historical review of the games
 
-_Set up on 26 November 2026 on the founder's instruction of that day ([`../spec-production/owner-decisions-2026-11-26.md`](../spec-production/owner-decisions-2026-11-26.md), section 3). The ledger is [`ledger.json`](ledger.json), shown as [`ledger.md`](ledger.md). **No reviewer has been named yet, so every entry is pending and nothing here is approved.**_
+_Set up on 26 November 2026 on the founder's instructions of that day ([`../spec-production/owner-decisions-2026-11-26.md`](../spec-production/owner-decisions-2026-11-26.md), section 3; [`owner-decisions-2026-11-26-b.md`](../spec-production/owner-decisions-2026-11-26-b.md), O1). The ledger is [`ledger.json`](ledger.json), shown as [`ledger.md`](ledger.md); the briefs for the six reviewers are [`reviewer-briefs.md`](reviewer-briefs.md). **No reviewer has been named, so every entry reads \"historical review pending\", nothing here is approved, and historical approval of any production release is blocked.**_
 
 ## The rule
 
@@ -13,7 +13,10 @@ An AI may research, gather sources and draft. It never approves its own historic
 
 ## Until reviewers are named
 
-- The games reuse only what the museum's records already say, by showing the record's own label or summary and linking to it.
+- The games reuse only what the museum's records already say, by showing the record's own label or summary and linking to it. **A published museum record is existing source material that itself needs review; it is not human-approved** (founder, 26 November 2026).
+- No new historical claim is published as verified. Affected content is marked "historical review pending".
+- Four kinds are told apart: text from a source, a claim that is uncertain, a reconstruction, and fiction.
+- Engineering, fictional mechanics and art that states no history may go on.
 - No date, dress, building, border, disaster, political claim, military detail or social practice is introduced as fact.
 - A fictional district, a simulation and an outcome that did not happen are each labelled as such on the page.
 - History that is disputed or approximate is marked so.
@@ -22,11 +25,11 @@ An AI may research, gather sources and draft. It never approves its own historic
 ## How the ledger is kept
 
 - **Before a statement of history reaches a page of a game, it has an entry**: the claim in plain words, where in the game it appears, its source (a museum record by id, or none), what is uncertain about it, and its kind.
-- An entry is `pending` until a named reviewer decides: `approved`, `approved-with-changes` or `rejected`, with the reviewer's name and the date. The generator refuses a decision that has no reviewer and no date.
-- Something the games show that no source stands behind (the shape of a house, the dress of a walker) is entered as `unsourced-look`. It is not stated anywhere as fact, and it is the first thing a reviewer is asked to look at.
+- An entry is `historical review pending` until a reviewer named on the roster decides: `approved`, `approved-with-changes` or `rejected`, with the date. The generator refuses a decision whose reviewer is not on the roster by name. The founder approves the product and is never entered as a reviewer.
+- Something the games show that no source stands behind (the shape of a house, the dress of a walker) is entered as a `reconstruction`. It is not stated anywhere as fact, and it is the first thing a reviewer is asked to look at.
 - A rejected claim is taken out of the game in the same change that records the rejection.
 - The museum's own records are not reviewed here. A doubt about one is raised with the museum's data, as Atlas's 263 held events are ([`../../../gaming/games/atlas/data/review.v1.json`](../../../gaming/games/atlas/data/review.v1.json)).
 
 ## What is open
 
-Who the reviewers and the editor are is the founder's to say ([`../traceability.md`](../traceability.md), "Decisions that still need the founder", O1). "Already approved islam.museum records" is read here as the records the museum has published; the museum publishes on cited sources without a human read (founder's ruling of 15 November 2026), so a museum record is not, by itself, a record a historian has read.
+Six reviewers and the museum's editor: none is named ([`../spec-production/owner-register.md`](../spec-production/owner-register.md), P1 and P2). Writing the briefs does not close this. **Not yet done:** the words "historical review pending" are in the ledger and not yet on the games' own pages, where the museum's records are linked and quoted; that is the next change to the games (plan package H5).

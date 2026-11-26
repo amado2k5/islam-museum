@@ -25,7 +25,7 @@ So R2, wrangler, the Custom Domain and both sets of credentials are now proved f
 | `20261125-e2930d63426` | [45737573014](https://github.com/amado2k5/islam-museum/actions/runs/45737573014) | The first build that looks for models beside the release (the mill made in Blender, uploaded just before), and Atlas's rebuilt pack; checked in Chrome on UAT in English and Arabic: Granada loads the mill, no error |
 | `20261125-3eabcd38488` | [45745958686](https://github.com/amado2k5/islam-museum/actions/runs/45745958686) | Atlas's globe no longer seems to vanish between rounds (the defect an outside reviewer found on the release before); checked on UAT in Chrome with the reviewer's own steps: every round opens on the whole globe, the five addresses start in 3D and without it when asked, no error ([`evidence/release/20261125-3eabcd38488/`](evidence/release/20261125-3eabcd38488/)) |
 
-Each was started by the agent after the founder's word for it in chat ("Yes, run UAT"; "where is the music"; "Release to UAT", four times; and "Yes, upload to UAT" for the models). The agent asks before each one. No rollback has been made on UAT, and production has not been deployed.
+Each was started by the agent after the founder's word for it in chat ("Yes, run UAT"; "where is the music"; "Release to UAT", four times; and "Yes, upload to UAT" for the models). The agent asks before each one. One rollback drill has been run on UAT, on the founder's written approval (below); production has not been deployed.
 
 ## The rule
 
@@ -115,6 +115,44 @@ Both are manual, started from the Actions tab by the founder (or an admin). **No
 5. **After every release, the regression scenarios** ([`regression/matrix.json`](regression/matrix.json), shown on [`traceability.md`](traceability.md)): `npm --prefix gaming run release:regression -- https://uat-games.islam.museum <folder>` and `npx tsx --tsconfig tsconfig.json tools/uat-check.ts https://uat-games.islam.museum ar <folder>`, in real Chrome, muted. They read only. Their report is kept under `evidence/release/<release>/`. The founder asked for this on 26 November 2026: the scenarios of the outside reviewer's handoff are run on every release for as long as the things they test remain.
 
 To go back: either workflow with action `rollback` moves the pointer to the release before, uploads nothing and deletes nothing. Running it again returns to where it was.
+
+## Rolling back, and coming forward again
+
+A rollback moves the pointer `games/channel.json` to the release before the live one, and nothing else: it uploads nothing, deletes nothing, and does not redeploy the Worker. The publisher refuses it if the target's manifest is no longer in the bucket. A second rollback swaps the two back, so **a rollback is undone by another rollback**; it is also undone by releasing the newer build again by its `build_run_id`, which finds the release already in the bucket and only moves the pointer.
+
+**The procedure** (the founder's ten requirements of 26 November 2026, [`spec-production/owner-decisions-2026-11-26-b.md`](spec-production/owner-decisions-2026-11-26-b.md), O10). UAT only. A production rollback is the founder's alone.
+
+1. **Record** `https://uat-games.islam.museum/_channel`: the live release, the one before, the commit, the time.
+2. **Confirm the target.** It is the `previous` of step 1 and no other. Run "Deploy the games to UAT" with action `check` and the `build_run_id` of the build that made it: the run must say the release is already in the bucket and identical to that build. Do the same for the live release, which is what will be restored. **Stop here if either cannot be verified.**
+3. **Preserve.** Nothing is removed by a rollback, so both releases stay in the bucket. Write down what differs between the two commits in anything a saved game depends on (each game's `save.ts` and rules, Atlas's pack): `git diff <previous> <current> --stat -- gaming/games`. If a save format differs, say so before going on. Make a browser profile with a game in progress in each game (`gaming/tools/save-carry.ts make`).
+4. **Have both ways forward written down** before going back: a second rollback; or action `release` with the live build's `build_run_id`.
+5. **Roll back**: action `rollback`. Note the time it was started and the time `_channel` changed.
+6. **Check the older release**: `_channel`; `tools/uat-check.ts`; `tools/release-regression.ts` (a scenario that tests something the older release did not have is expected to fail, and that failure is the proof that the older code is what is being served); `tools/save-carry.ts check`.
+7. **Restore**: action `rollback` again. If it fails, action `release` with the live build's `build_run_id`. **If neither works, stop and tell the founder**: UAT is then serving the older release, which is a release that worked.
+8. **Check the restored release** with the same three tools; everything must pass.
+9. **Confirm** `_channel` equals step 1 in its `current` and `previous`.
+10. **Record** the times, any error, what happened to the saved games, and who ran it.
+
+Never delete a release, a pointer, or anything in a player's browser to make a drill pass.
+
+### The drill of 26 November 2026
+
+Approved by the founder in writing that day, once, for UAT only. Run by the agent through "Deploy the games to UAT". Record and reports: [`evidence/release/rollback-drill-2026-11-26/`](evidence/release/rollback-drill-2026-11-26/).
+
+| Step | Time (UTC) | What happened |
+|---|---|---|
+| 1 | 03:34:02 | `_channel`: live `20261125-3eabcd38488`, before it `20261125-e2930d63426` |
+| 2 | to 03:36 | Target verified: run [45749741431](https://github.com/amado2k5/islam-museum/actions/runs/45749741431) found `20261125-e2930d63426` in the bucket, identical to its build. The release to return to verified the same way: run [45749900395](https://github.com/amado2k5/islam-museum/actions/runs/45749900395) |
+| 3 | | The two commits differ only in Atlas's view of the globe: no save format, rules or pack differs. A profile with a game in progress in each of the three games was made on the live release |
+| 4 | | Both ways forward written above before going back |
+| 5 | 03:36:49 | Rollback started: run [45750040071](https://github.com/amado2k5/islam-museum/actions/runs/45750040071). The pointer moved at 03:37:42, 54 seconds later |
+| 6 | to 03:39:52 | On the older release: five addresses in 3D, the mill loaded, no error; every scripted scenario passed but AT-07, which failed as expected (that release has the defect); the three saved games resumed where they were left |
+| 7 | 03:40:04 | Restore started, by a second rollback: run [45750377880](https://github.com/amado2k5/islam-museum/actions/runs/45750377880). The pointer moved at 03:41:07, 63 seconds later |
+| 8 | to 03:43:07 | On the restored release: everything passed, AT-07 included; the three saved games resumed again |
+| 9 | 03:43:07 | `_channel`: live `20261125-3eabcd38488`, before it `20261125-e2930d63426`, as at step 1 |
+| 10 | | No error. Nothing deleted. The older release was live for 3 minutes 24 seconds |
+
+**Found:** after a rollback the pointer's `commit` holds the short hash from the release id, where a release writes the full one (display only). **Not tested:** what a player sees who has a game's page open in a tab while the pointer moves; the checks opened fresh pages. **Not covered by this approval:** any further rollback on UAT, and any rollback in production.
 
 ## What the first run of each environment creates in Cloudflare
 
