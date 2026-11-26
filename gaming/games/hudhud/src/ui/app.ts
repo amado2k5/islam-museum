@@ -5,7 +5,7 @@ import { loadMusicStrings, musicControl } from "@im/audio/control";
 import { MUSIC_AVAILABLE, MUSIC_BASE, MusicPlayer } from "@im/audio/player";
 import { Cues, type Cue } from "../audio/cues";
 import { HAIRS, OUTFITS, SKINS, keeper as paintKeeper, portrait } from "../art/cast";
-import { RECORDS, SCRIPTS, THINGS, TURN_SLACK, type PlayStyle, type Speaker } from "../content/workshop";
+import { JAR, RECORDS, SCRIPTS, THINGS, TURN_SLACK, inPlay, type PlayStyle, type Speaker } from "../content/workshop";
 import { start, type Running } from "../game/boot";
 import { Input } from "../input/input";
 import { DEFAULT_PAD, PAD_ACTIONS, assignPad, type PadAction } from "../input/pad";
@@ -440,13 +440,16 @@ async function main(): Promise<void> {
     // The scene in words.
     const tr = beam(state);
     const names = tr.touched.map((id) => t(THINGS.find((k) => k.id === `mirror-${id}`)!.name as Key));
-    const end: Record<string, Key> = { target: "beam_end_target", block: "beam_end_block", wall: "beam_end_wall", loop: "beam_end_loop" };
-    beamWords.textContent = `${names.length ? t("beam_path", { list: names.join(lang === "ar" || lang === "ur" ? "، " : ", ") }) : t("beam_none")} ${t(end[tr.end]!)}`;
+    // Two things stop the beam: the books on their shelf and the tall jar on the floor. The words name the right one.
+    const stopped: Key = tr.last.col === JAR.col && tr.last.row === JAR.row ? "beam_end_jar" : "beam_end_block";
+    const end: Record<string, Key> = { target: "beam_end_target", block: stopped, wall: "beam_end_wall", loop: "beam_end_loop" };
+    // Challenge is told only where the beam ends: which mirrors it met on the way is what the player works out.
+    beamWords.textContent = style() === "challenge" ? t(end[tr.end]!) : `${names.length ? t("beam_path", { list: names.join(lang === "ar" || lang === "ur" ? "، " : ", ") }) : t("beam_none")} ${t(end[tr.end]!)}`;
     thingList.replaceChildren(
-      ...THINGS.filter((k) => !(k.kind === "feather" && g.feather)).map((k) => {
+      ...THINGS.filter((k) => inPlay(k, state.puzzle) && !(k.kind === "feather" && g.feather)).map((k) => {
         const mirror = k.kind === "mirror" ? state.puzzle.mirrors.find((m) => `mirror-${m.id}` === k.id)! : null;
         const name = t(k.name as Key);
-        const label = mirror ? `${t("alt_turn", { thing: t("mirror_state", { thing: name, lean: t(mirror.lean === "/" ? "lean_up" : "lean_down") }) })}` : k.kind === "page" && state.restored ? t("btn_finish") : t("alt_touch", { thing: name });
+        const label = mirror ? `${t("alt_turn", { thing: t("mirror_state", { thing: name, lean: t(mirror.lean === "/" ? "lean_up" : mirror.lean === "-" ? "lean_flat" : "lean_down") }) })}` : k.kind === "page" && state.restored ? t("btn_finish") : t("alt_touch", { thing: name });
         const b = el("button", { type: "button", textContent: label, disabled: frozen(), onclick: () => {
           cues.unlock();
           // With no picture (WebGL would not start) there is no bird to fly there: the list touches the thing itself.

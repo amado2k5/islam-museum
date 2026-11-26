@@ -8,8 +8,9 @@
 import type { Rng } from "@im/kernel/prng";
 
 export type Dir = "E" | "S" | "W" | "N";
-/** A mirror leans one of two ways: "/" rises to the right, "\\" falls to the right. */
-export type Lean = "/" | "\\";
+/** A mirror leans one of two ways ("/" rises to the right, "\\" falls to the right) or is laid flat ("-"), out of the
+ * beam's way: the beam then passes over it as if it were not there. */
+export type Lean = "/" | "\\" | "-";
 export interface Cell {
   col: number;
   row: number;
@@ -30,7 +31,12 @@ export interface LightPuzzle {
   prisms: Cell[];
   /** The cell that must be lit, from any side. */
   target: Cell;
+  /** The positions a mirror goes through as it is turned, in order. Two leans unless a puzzle says otherwise. */
+  leans?: Lean[];
 }
+export const TWO_LEANS: readonly Lean[] = ["/", "\\"];
+export const THREE_LEANS: readonly Lean[] = ["/", "\\", "-"];
+const leansOf = (p: LightPuzzle): readonly Lean[] => p.leans ?? TWO_LEANS;
 export interface Segment {
   from: Cell;
   to: Cell;
@@ -51,12 +57,13 @@ export interface Trace {
 
 const STEP: Record<Dir, [number, number]> = { E: [1, 0], S: [0, 1], W: [-1, 0], N: [0, -1] };
 // Rows grow downward, so "/" sends a beam travelling east up (north), and "\" sends it down (south).
-const TURN: Record<Lean, Record<Dir, Dir>> = {
+const TURN: Record<"/" | "\\", Record<Dir, Dir>> = {
   "/": { E: "N", N: "E", W: "S", S: "W" },
   "\\": { E: "S", S: "E", W: "N", N: "W" },
 };
 const same = (a: Cell, b: Cell) => a.col === b.col && a.row === b.row;
-export const otherLean = (l: Lean): Lean => (l === "/" ? "\\" : "/");
+/** The position after this one as a mirror is turned. */
+export const nextLean = (l: Lean, leans: readonly Lean[] = TWO_LEANS): Lean => leans[(leans.indexOf(l) + 1) % leans.length] ?? leans[0]!;
 
 /** Follows the beam from the source until it lights the target, is stopped, leaves the grid or goes round in a ring. */
 export function trace(p: LightPuzzle): Trace {
@@ -88,8 +95,8 @@ export function trace(p: LightPuzzle): Trace {
       push(at);
       return { segments, touched, end: "block", lit: false, last: at };
     }
-    const mirror = p.mirrors.find((m) => same(m, at));
-    if (mirror) {
+    const mirror = p.mirrors.find((m) => same(m, at) && m.lean !== "-");
+    if (mirror && mirror.lean !== "-") {
       push(at);
       touched.push(mirror.id);
       start = at;
@@ -103,36 +110,40 @@ export function trace(p: LightPuzzle): Trace {
   }
 }
 
-/** The puzzle with one mirror turned to its other lean. An unknown id changes nothing. */
+/** The puzzle with one mirror turned to its next position. An unknown id changes nothing. */
 export function turnMirror(p: LightPuzzle, id: string): LightPuzzle {
-  return { ...p, mirrors: p.mirrors.map((m) => (m.id === id ? { ...m, lean: otherLean(m.lean) } : m)) };
+  return { ...p, mirrors: p.mirrors.map((m) => (m.id === id ? { ...m, lean: nextLean(m.lean, leansOf(p)) } : m)) };
 }
 
 export interface Solution {
-  /** The fewest mirrors that must be turned, or null when no setting lights the target. */
+  /** The fewest turns of mirrors that light the target, or null when no setting does. */
   turns: number | null;
-  /** Which mirrors to turn for that fewest. */
+  /** The mirrors to turn for that fewest, one entry a turn (a mirror turned twice is named twice). */
   ids: string[];
-  /** How many of the 2^n settings light the target. */
+  /** How many settings of the mirrors light the target. */
   settings: number;
 }
 
-/** Tries every setting of the mirrors. A puzzle has at most twelve of them, so this is at most 4,096 traces. */
+/** Tries every setting of the mirrors. Twelve two-way mirrors or seven three-way ones at most: a few thousand traces. */
 export function solve(p: LightPuzzle): Solution {
+  const leans = leansOf(p);
+  const k = leans.length;
   const n = p.mirrors.length;
-  if (n > 12) throw new RangeError(`solve: ${n} mirrors is more than this search is meant for`);
+  if (k ** n > 5000) throw new RangeError(`solve: ${k}^${n} settings is more than this search is meant for`);
   let best: number | null = null;
   let ids: string[] = [];
   let settings = 0;
-  for (let mask = 0; mask < 1 << n; mask++) {
-    const q: LightPuzzle = { ...p, mirrors: p.mirrors.map((m, i) => (mask & (1 << i) ? { ...m, lean: otherLean(m.lean) } : m)) };
+  const steps = new Array<number>(n).fill(0);
+  for (let c = 0; c < k ** n; c++) {
+    // The c-th setting: each mirror turned `steps[i]` times from where it stands.
+    for (let i = 0, rest = c; i < n; i++, rest = Math.floor(rest / k)) steps[i] = rest % k;
+    const q: LightPuzzle = { ...p, mirrors: p.mirrors.map((m, i) => ({ ...m, lean: leans[(leans.indexOf(m.lean) + steps[i]!) % k]! })) };
     if (!trace(q).lit) continue;
     settings++;
-    let bits = 0;
-    for (let i = 0; i < n; i++) if (mask & (1 << i)) bits++;
-    if (best === null || bits < best) {
-      best = bits;
-      ids = p.mirrors.filter((_, i) => mask & (1 << i)).map((m) => m.id);
+    const total = steps.reduce((a, b) => a + b, 0);
+    if (best === null || total < best) {
+      best = total;
+      ids = p.mirrors.flatMap((m, i) => Array.from({ length: steps[i]! }, () => m.id));
     }
   }
   return { turns: best, ids, settings };
@@ -171,7 +182,7 @@ export function generate(rng: Rng, opts: { cols?: number; rows?: number; turns?:
       ok = walk(rng.int(1, horizontal ? 3 : 2));
       if (!ok) break;
       const next: Dir = horizontal ? (rng.chance(0.5) ? "N" : "S") : "E";
-      const lean = (Object.keys(TURN) as Lean[]).find((l) => TURN[l][going] === next)!;
+      const lean = (Object.keys(TURN) as ("/" | "\\")[]).find((l) => TURN[l][going] === next)!;
       mirrors.push({ id: `m${mirrors.length + 1}`, col: at.col, row: at.row, lean });
       dir = next;
     }
