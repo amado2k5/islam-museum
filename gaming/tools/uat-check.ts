@@ -64,6 +64,17 @@ for (const [game, extra] of [["granada", ""], ["golden-age", ""], ["golden-age",
     threeD = now === "on" || now === "3d";
     if (!threeD) problems.push(`${game}: not in 3D (${now})`);
   }
+  // Granada takes up its authored models a moment after its 3D valley is up, where the host has them.
+  let models: string[] | null = null;
+  if (game === "granada" && threeD) {
+    for (const end = Date.now() + 30_000; ((await page.evaluate("window.__GR__.stage().info().models.length + window.__GR__.stage().info().modelFailures.length")) as number) === 0; ) {
+      if (Date.now() > end) break;
+      await page.waitForTimeout(200);
+    }
+    const got = (await page.evaluate("(() => { const i = window.__GR__.stage().info(); return { models: i.models, failures: i.modelFailures }; })()")) as { models: string[]; failures: string[] };
+    models = got.models;
+    for (const f of got.failures) problems.push(`${game}: a model did not load: ${f}`);
+  }
   if (shots) {
     if (game === "granada") await page.locator("#brief-start").click().catch(() => {});
     await page.waitForTimeout(game === "granada" ? 9500 : 1500);
@@ -74,7 +85,7 @@ for (const [game, extra] of [["granada", ""], ["golden-age", ""], ["golden-age",
   if (!tracks.some((s) => s === 206 || s === 200)) problems.push(`${game}: no track arrived after a click (${tracks.join(", ") || "none asked for"})`);
   if (playing === false) problems.push(`${game}: the music did not start after a click`);
   for (const e of errors) problems.push(`${game}: ${e}`);
-  (report.games as unknown[]).push({ game: `${game}${extra}`, musicControl: Boolean(control), trackResponses: tracks, playing, in3d: threeD, consoleErrors: errors.length });
+  (report.games as unknown[]).push({ game: `${game}${extra}`, musicControl: Boolean(control), trackResponses: tracks, playing, in3d: threeD, models, consoleErrors: errors.length });
   await context.close();
 }
 await browser.close();
