@@ -14,5 +14,10 @@
 | al-karaji | [`al-karaji.md`](al-karaji.md) | 2 | 8 | 1 |
 | al-idrisi | [`al-idrisi.md`](al-idrisi.md) | 7 | 8 | 0 |
 | thabit-ibn-qurra | [`thabit-ibn-qurra.md`](thabit-ibn-qurra.md) | 2 | 8 | 0 |
+| ibn-al-nafis | [`ibn-al-nafis.md`](ibn-al-nafis.md) | 8 | 8 | 0 |
+| ibn-sina | [`ibn-sina.md`](ibn-sina.md) | 8 | 8 | 0 |
+| al-zahrawi | [`al-zahrawi.md`](al-zahrawi.md) | 2 | 8 | 0 |
+| al-razi | [`al-razi.md`](al-razi.md) | 2 | 8 | 0 |
+| ibn-zuhr | [`ibn-zuhr.md`](ibn-zuhr.md) | 2 | 8 | 0 |
 
 `ledger-drafts.json` holds draft rows only; the real ledger is untouched.
