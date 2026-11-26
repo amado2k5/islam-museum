@@ -141,6 +141,7 @@ open a new block on top with the new version and today's date.
 
 ### Data
 - **Tranco, 25 November 2026: #608,280.** The museum's daily Tranco reading climbs 21,645 places in a day, from #629,925 on the list of 24 November to #608,280 on the list dated 25 November 2026 (list 947P2), read from the published full list of 4,326,585 domains before the API carried it. Forty-five days after opening, the museum stands 4,001,687 places above its first Tranco reading (#4,609,967 on the list of 23 October 2026). The ranking log in `docs/status.md`, the evidence in `site/src/data/traffic.json` and the traffic page carry the new figure.
+- **Tranco, 26 November 2026: #584,023.** The museum's daily Tranco reading climbs 24,257 places in a day, from #608,280 on the list of 25 November to #584,023 on the list dated 26 November 2026 (list PY22J), read from the published full list of 4,319,577 domains before the API carried it. Forty-six days after opening, the museum stands 4,025,944 places above its first Tranco reading (#4,609,967 on the list of 23 October 2026). The ranking log in `docs/status.md`, the evidence in `site/src/data/traffic.json` and the traffic page carry the new figure.
 
 ## v2.30.0 — 2026-11-24
 ### Added
