@@ -51,13 +51,13 @@ The museum record is filed as Leo Africanus; the dossier keeps both names and do
 
 ## Three candidate quest premises
 
-These are proposals for Claude and the founder, not content.
+These are proposals for Claude and the founder, not content. They are deliberately conservative system scaffolding, not final quest designs. Each names one of the twelve systems in `design.md`; forms such as Measure, Journal, Care and Sail are not treated as separate systems. Claim numbers refer to the claims above.
 
-1. Players use the Route system to follow Leo Africanus's diplomatic missions from Fez to Timbuktu and Constantinople, while the Journal tracks Leo's inner conflict about his conversion to Christianity [3].
+1. A child helps arrange places, supplies and direction clues into a workable journey leg using the Route system. This rests on claims [1, 2] as its evidence anchor; the exact leg, supplies, clue cards, arrangement and the child's role are game invention, not record fact.
 
-2. In the game, players navigate Leo's uncertain fate after the Sack of Rome using the Route system, while the Journal documents theories about his whereabouts, distinguishing between historical facts and game invention [4].
+2. A child helps compare accounts, objects or clues using the Observe and Match system to find what the evidence supports. This rests on claims [1, 3] as its evidence anchor; the compared materials, missing details, matching puzzle and the child's role are game invention, not record fact.
 
-3. Players explore Fez's historical significance through the Route system, visiting landmarks like the Al-Qarawiyyin university, while the Journal provides insights into Leo Africanus's early life and education [5, 8].
+3. A child helps connect people, resources or pieces of knowledge so they reach where they are needed using the Network system. This rests on claims [1, 4] as its evidence anchor; the exact people or resources, missing links, network puzzle and the child's role are game invention, not record fact.
 
 ## Sensitivities
 

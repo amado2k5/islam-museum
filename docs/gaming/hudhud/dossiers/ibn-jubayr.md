@@ -54,13 +54,13 @@ Andalusi departure and the wrote-it-down travel account frame require record con
 
 ## Three candidate quest premises
 
-These are proposals for Claude and the founder, not content.
+These are proposals for Claude and the founder, not content. They are deliberately conservative system scaffolding, not final quest designs. Each names one of the twelve systems in `design.md`; forms such as Measure, Journal, Care and Sail are not treated as separate systems. Claim numbers refer to the claims above.
 
-1. Players use the Route system to follow Ibn Jubayr's journey from Granada to Mecca, noting his descriptions of the Nizamiyya college and the Ka'ba [6, 8].
+1. A child helps arrange places, supplies and direction clues into a workable journey leg using the Route system. This rests on claims [1, 2] as its evidence anchor; the exact leg, supplies, clue cards, arrangement and the child's role are game invention, not record fact.
 
-2. The Journal system allows players to record Ibn Jubayr's hardships and prayers at his grave, distinguishing between historical facts and fictional interpretations of his travels [3, 5].
+2. A child helps compare accounts, objects or clues using the Observe and Match system to find what the evidence supports. This rests on claims [1, 3] as its evidence anchor; the compared materials, missing details, matching puzzle and the child's role are game invention, not record fact.
 
-3. Players navigate through Ibn Jubayr's travels using the Route system, from his departure in Granada to his return, while the Journal system helps them document his experiences and the places he visited [7, 1].
+3. A child helps gather careful answers from people affected by a small local problem using the Talk system before deciding what to do. This rests on claims [1, 4] as its evidence anchor; the speakers, dialogue, local problem, choice and the child's role are game invention, not record fact.
 
 ## Sensitivities
 

@@ -45,13 +45,13 @@ The Meadows of Gold frame is literary/historiographical; no single journey-setti
 
 ## Three candidate quest premises
 
-These are proposals for Claude and the founder, not content.
+These are proposals for Claude and the founder, not content. They are deliberately conservative system scaffolding, not final quest designs. Each names one of the twelve systems in `design.md`; forms such as Measure, Journal, Care and Sail are not treated as separate systems. Claim numbers refer to the claims above.
 
-1. Players can use the Route system to follow Al-Mas'udi's travels across Persia, India, and Egypt, noting in their Journal the historical cities and cultures he documented [2].
+1. A child helps arrange places, supplies and direction clues into a workable journey leg using the Route system. This rests on claims [1, 2] as its evidence anchor; the exact leg, supplies, clue cards, arrangement and the child's role are game invention, not record fact.
 
-2. In the game, players must navigate the challenges of preserving historical texts, like Al-Mas'udi's apology for errors in 'Muruj al-Dhahab', by using the Journal to record and protect their findings [3].
+2. A child helps compare accounts, objects or clues using the Observe and Match system to find what the evidence supports. This rests on claims [1, 3] as its evidence anchor; the compared materials, missing details, matching puzzle and the child's role are game invention, not record fact.
 
-3. Players explore the historical significance of Baghdad's founding and its evolution as a cultural center, using the Route system to map its growth and the Journal to document its cultural and political shifts [5, 7].
+3. A child helps connect people, resources or pieces of knowledge so they reach where they are needed using the Network system. This rests on claims [1, 4] as its evidence anchor; the exact people or resources, missing links, network puzzle and the child's role are game invention, not record fact.
 
 ## Sensitivities
 
