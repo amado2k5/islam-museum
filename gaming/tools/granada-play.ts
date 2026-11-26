@@ -218,6 +218,39 @@ if (threeD === "on") {
   await context2.close();
 }
 
+// ---- Trade through the page: the contract taken, the olives pressed, the oil delivered, the rest sent ----
+await page.goto(url("&fresh=1"));
+await ready();
+await page.locator("#brief-start").click();
+await page.keyboard.press("4");
+for (const part of ["press", "port", "contract"]) if ((await page.locator(`[data-part='${part}']`).count()) !== 1) await fail(`the economy panel has no ${part}`);
+if (await page.locator("[data-act^='press-']").count()) await fail("the press can be ordered with no olives in the store");
+await page.locator("[data-act='accept-oil-for-the-port']").click();
+const held = await game<number>("window.__GR__.state().economy.treasury.reserved");
+if (held !== 5200) await fail(`taking the contract set aside ${held}, not the 52 dinars of carriage and fees`);
+// The olives are grown by the game's own orders: the branch mended, the terrace brought in when it is ripe.
+await game(`(() => { const g = window.__GR__; g.order({ kind: "harvest", plot: "mill-field", rest: "wait" }); g.order({ kind: "repair" }); for (let i = 0; i < 90 && g.state().plots["olive-terrace"].ripeSince === null; i++) g.days(1); g.order({ kind: "harvest", plot: "olive-terrace", rest: "wait" }); g.days(4); })()`);
+const olives = await game<number>("window.__GR__.state().economy.stock.olives?.quantity ?? 0");
+if (olives < 40) await fail(`only ${olives} olives were brought in, too few for the contract`);
+const runs = Math.floor(olives / 5);
+await page.keyboard.press("4");
+await page.locator(`[data-act='press-${runs}']`).click();
+const oil = await game<number>("window.__GR__.state().economy.stock.oil.quantity");
+if (oil !== runs) await fail(`pressing ${runs} times left ${oil} of oil`);
+await shot("9b-trade");
+const beforePay = await game<number>("window.__GR__.state().economy.treasury.available");
+await page.locator("[data-act='deliver-oil-for-the-port-8']").click();
+const afterPay = await game<number>("window.__GR__.state().economy.treasury.available");
+const contract = await game<string>("window.__GR__.state().economy.contracts['oil-for-the-port'].state");
+if (contract !== "settled" || afterPay - beforePay !== 168000) await fail(`the contract is ${contract} and paid ${afterPay - beforePay}`);
+if (runs > 8) {
+  await page.locator(`[data-act='send-oil-${runs - 8}']`).click();
+  const sent = await game<number>("window.__GR__.state().economy.treasury.available");
+  if (sent - afterPay !== (runs - 8) * 18600) await fail(`sending ${runs - 8} of oil to the port brought ${sent - afterPay}`);
+}
+if ((await page.locator("[data-part='contract'][data-state='settled']").count()) !== 1) await fail("the panel does not show the contract as kept");
+log.trade = { olives, runs, contract, paid: afterPay - beforePay };
+
 // ---- A whole campaign through the page, by the way of the mender ----
 await page.goto(url("&fresh=1"));
 await ready();

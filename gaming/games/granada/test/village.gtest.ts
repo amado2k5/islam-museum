@@ -316,6 +316,112 @@ describe("the end of the scenario", () => {
   });
 });
 
+describe("trade beyond the village", () => {
+  const T = DRY.trade!;
+  /** A valley with olives already in the store, to press and send. */
+  const withOlives = (n: number): VillageState => newVillage({ ...DRY, stock: { ...DRY.stock, olives: n } }, 7);
+
+  it("presses five measures of olives into one of oil, for the price of the pressing", () => {
+    const s = order(DRY, withOlives(23), { kind: "press", runs: 4 });
+    expect([stock(s, "olives"), stock(s, "oil")]).toEqual([3, 4]);
+    expect(treasuryOf(s)).toBe(dinars(1200) - 4 * T.press.cost);
+    expect(act(DRY, s, { kind: "press", runs: 1 }).result).toMatchObject({ ok: false, why: "not-enough" });
+    expect(audit(s.economy)).toEqual([]);
+  });
+
+  it("sells at the port for what the port pays, less the carriage on every unit", () => {
+    const a = order(DRY, withOlives(20), { kind: "press", runs: 4 });
+    const r = act(DRY, a, { kind: "send", good: "oil", quantity: 4 });
+    expect(r.result).toEqual({ ok: true, money: 4 * (dinars(190) - dinars(4)) });
+    expect(treasuryOf(r.state) - treasuryOf(a)).toBe(4 * (dinars(190) - dinars(4)));
+    expect(r.state.economy.markets.malaga!.goods.oil!.inventory).toBe(4);
+    expect(invariants(DRY, r.state)).toEqual([]);
+  });
+
+  it("sends no more in a day than the carts can take, and the carts are back in the morning", () => {
+    let s = order(DRY, start(), { kind: "send", good: "wheat", quantity: T.port.cartsPerDay });
+    const more = act(DRY, s, { kind: "send", good: "wheat", quantity: 1 });
+    expect(more.result).toMatchObject({ ok: false, why: "carts-full", detail: { left: 0 } });
+    expect(more.state).toBe(s);
+    s = days(DRY, s, 1);
+    expect(s.carted).toBe(0);
+    order(DRY, s, { kind: "send", good: "wheat", quantity: 1 });
+  });
+
+  it("refuses a load before a dinar of carriage is spent, when the port or the store cannot meet it", () => {
+    const s = start();
+    for (const c of [{ kind: "send", good: "oil", quantity: 1 }, { kind: "send", good: "timber", quantity: 1 }, { kind: "send", good: "wheat", quantity: 0 }] as VillageCommand[]) {
+      const r = act(DRY, s, c);
+      expect(r.result.ok, JSON.stringify(c)).toBe(false);
+      expect(r.state).toBe(s);
+    }
+    const poor: Scenario = { ...DRY, trade: { ...T, port: { ...T.port, market: { ...T.port.market, cash: dinars(30) } } } };
+    const p = newVillage(poor, 7);
+    expect(act(poor, p, { kind: "send", good: "wheat", quantity: 2 }).result).toMatchObject({ ok: false, why: "market-poor" });
+    expect(act(poor, p, { kind: "send", good: "wheat", quantity: 2 }).state).toBe(p);
+  });
+
+  it("makes no money by carrying the village's own goods to the port, or by pressing bought olives", () => {
+    const v = SC.market.goods;
+    const port = T.port.market.goods;
+    for (const g of Object.keys(T.port.carriage)) if (v[g]) expect(port[g]!.bid - T.port.carriage[g]!, g).toBeLessThan(v[g]!.ask);
+    const pressed = 5 * v.olives!.ask + T.press.cost;
+    expect(port.oil!.bid - T.port.carriage.oil!).toBeLessThan(pressed);
+    const c = T.contracts[0]!;
+    expect((c.revenue - c.transport - c.fees) / c.units).toBeLessThan(pressed);
+  });
+
+  it("pays a contract as the oil arrives, and no more than was agreed", () => {
+    const c = T.contracts[0]!;
+    let s = order(DRY, withOlives(45), { kind: "press", runs: 9 }, { kind: "accept", contract: c.id });
+    const before = treasuryOf(s) + s.economy.treasury.reserved;
+    s = order(DRY, s, { kind: "deliver", contract: c.id, quantity: 3 }, { kind: "deliver", contract: c.id, quantity: 5 });
+    expect(s.economy.contracts[c.id]!.state).toBe("settled");
+    expect(treasuryOf(s) + s.economy.treasury.reserved - before).toBe(c.revenue - c.transport - c.fees);
+    expect(stock(s, "oil")).toBe(1);
+    expect(act(DRY, s, { kind: "deliver", contract: c.id, quantity: 1 }).result).toMatchObject({ ok: false, why: "contract-closed" });
+    expect(act(DRY, order(DRY, withOlives(50), { kind: "press", runs: 10 }, { kind: "accept", contract: c.id }), { kind: "deliver", contract: c.id, quantity: 9 }).result).toMatchObject({ ok: false, why: "too-much" });
+    expect(audit(s.economy)).toEqual([]);
+  });
+
+  it("charges the penalty once, on the day after the last day, when a promise is not kept", () => {
+    const c = T.contracts[0]!;
+    let s = order(DRY, start(), { kind: "accept", contract: c.id });
+    s = days(DRY, s, c.byDay - s.day);
+    expect(s.economy.contracts[c.id]!.state).toBe("accepted");
+    s = days(DRY, s, 1);
+    expect(s.economy.contracts[c.id]!.state).toBe("failed");
+    expect(s.last!.events).toContain(`contract-failed:${c.id}`);
+    s = days(DRY, s, 3);
+    expect(s.last!.events).not.toContain(`contract-failed:${c.id}`);
+    // Against the same valley with the contract left alone: the penalty, and nothing else, is the difference.
+    const plain = days(DRY, start(), s.day - DRY.startDay);
+    expect(treasuryOf(plain) - treasuryOf(s)).toBe(c.penalty);
+    expect(s.economy.treasury.reserved).toBe(0);
+    expect(act(DRY, s, { kind: "deliver", contract: c.id, quantity: 1 }).result.ok).toBe(false);
+  });
+
+  it("is never forced: a contract left on the table costs nothing, and cannot be taken after its day", () => {
+    const c = T.contracts[0]!;
+    const s = days(DRY, start(), c.byDay - DRY.startDay + 1);
+    expect(s.economy.contracts[c.id]!.state).toBe("offered");
+    expect(act(DRY, s, { kind: "accept", contract: c.id }).result).toMatchObject({ ok: false, why: "contract-late" });
+  });
+
+  it("is refused whole in a valley with no port", () => {
+    const { trade: _none, ...plain } = DRY;
+    const s = newVillage(plain, 7);
+    for (const c of [{ kind: "press", runs: 1 }, { kind: "send", good: "wheat", quantity: 1 }, { kind: "accept", contract: "x" }, { kind: "deliver", contract: "x", quantity: 1 }] as VillageCommand[]) expect(act(plain, s, c).result).toMatchObject({ ok: false, why: "no-trade" });
+    expect(invariants(plain, days(plain, s, 5))).toEqual([]);
+  });
+
+  it("is kept by a steward who presses the olives, in most years", () => {
+    let kept = 0;
+    for (let seed = 1; seed <= 60; seed++) if (playVillage(SC, newVillage(SC, seed), PLAYERS.presser!, seed).state.economy.contracts[T.contracts[0]!.id]!.state === "settled") kept += 1;
+    expect(kept).toBeGreaterThanOrEqual(40);
+  });
+});
+
 describe("the rules as a whole", () => {
   it("never change the state they are given, and return it untouched when a command is refused", () => {
     const s = start();
@@ -357,7 +463,7 @@ describe("the rules as a whole", () => {
     }
     expect(wins.idle).toBe(0);
     expect(wins.random).toBe(0);
-    // At least three of the four ways of playing win one campaign in five.
+    // At least three of the ways of playing win one campaign in five.
     expect(REAL_PLAYERS.filter((p) => wins[p]! >= 12).length).toBeGreaterThanOrEqual(3);
   });
 });

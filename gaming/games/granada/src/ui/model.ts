@@ -193,6 +193,53 @@ export function marketRows(sc: Scenario, s: VillageState): MarketRow[] {
   });
 }
 
+/** Trade beyond the village, as the Economy panel shows it. Null where the scenario has none. */
+export interface TradeView {
+  port: { id: string; carted: number; cartsPerDay: number; rows: Array<{ good: string; have: number; bid: number; carriage: number; net: number; canSend: number }> };
+  press: { cost: number; from: string; makes: string; each: number; canRun: number };
+  contracts: Array<{ id: string; good: string; units: number; delivered: number; state: "offered" | "accepted" | "settled" | "cancelled" | "failed"; daysLeft: number; revenue: number; costs: number; penalty: number; canAccept: boolean; canDeliver: number }>;
+}
+
+export function tradeView(sc: Scenario, s: VillageState): TradeView | null {
+  const tr = sc.trade;
+  if (!tr) return null;
+  const m = s.economy.markets[tr.port.id]!;
+  const cartsLeft = Math.max(0, tr.port.cartsPerDay - s.carted);
+  const free = (good: string) => have(s, good) - (s.economy.stock[good]?.reserved ?? 0);
+  const [from, each] = Object.entries(tr.press.inputs)[0]!;
+  const makes = Object.keys(tr.press.outputs)[0]!;
+  return {
+    port: {
+      id: tr.port.id,
+      carted: s.carted,
+      cartsPerDay: tr.port.cartsPerDay,
+      rows: Object.entries(tr.port.carriage).map(([good, carriage]) => {
+        const bid = m.goods[good]!.bid;
+        return { good, have: have(s, good), bid: wholeDinars(bid), carriage: wholeDinars(carriage), net: wholeDinars(bid - carriage), canSend: Math.max(0, Math.min(free(good), cartsLeft, Math.floor(m.cash / bid), carriage === 0 ? Number.MAX_SAFE_INTEGER : Math.floor(treasuryOf(s) / carriage))) };
+      }),
+    },
+    press: { cost: wholeDinars(tr.press.cost), from, makes, each, canRun: Math.max(0, Math.min(Math.floor(free(from) / each), tr.press.cost === 0 ? Number.MAX_SAFE_INTEGER : Math.floor(treasuryOf(s) / tr.press.cost))) },
+    contracts: tr.contracts.map((def) => {
+      const c = s.economy.contracts[def.id]!;
+      const daysLeft = def.byDay - s.day + 1;
+      const owed = c.units - c.delivered;
+      return {
+        id: c.id,
+        good: c.good,
+        units: c.units,
+        delivered: c.delivered,
+        state: c.state,
+        daysLeft,
+        revenue: wholeDinars(c.revenue),
+        costs: wholeDinars(c.transport + c.fees),
+        penalty: wholeDinars(c.penalty),
+        canAccept: c.state === "offered" && daysLeft > 0 && treasuryOf(s) >= c.transport + c.fees,
+        canDeliver: c.state === "accepted" ? Math.max(0, Math.min(owed, have(s, c.good), cartsLeft)) : 0,
+      };
+    }),
+  };
+}
+
 export interface QuestRow {
   id: QuestId;
   done: boolean;

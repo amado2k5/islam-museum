@@ -3,9 +3,9 @@
 import { describe, expect, it } from "vitest";
 import { PLAYERS, playVillage } from "../src/sim/players";
 import { WATER_FOR_THE_VALLEY as SC } from "../src/sim/scenarios";
-import { act, newVillage, tick, type VillageCommand, type VillageState } from "../src/sim/village";
+import { act, invariants, newVillage, tick, type VillageCommand, type VillageState } from "../src/sim/village";
 import { SAVE_KEY, clearSave, readSave, writeSave, type Store } from "../src/save";
-import { advice, fieldCards, marketRows, questRows, riverOfYear, skyAhead, stocks, workRows } from "../src/ui/model";
+import { advice, fieldCards, marketRows, tradeView, questRows, riverOfYear, skyAhead, stocks, workRows } from "../src/ui/model";
 
 const start = () => newVillage(SC, 7);
 const order = (s: VillageState, ...commands: VillageCommand[]) => {
@@ -85,6 +85,36 @@ describe("the works", () => {
   });
 });
 
+describe("trade beyond the village", () => {
+  it("shows what the port pays after carriage, and the most the carts, the store and both purses allow", () => {
+    const tv = tradeView(SC, start())!;
+    const wheat = tv.port.rows.find((r) => r.good === "wheat")!;
+    expect(wheat).toMatchObject({ have: 220, bid: 22, carriage: 2, net: 20, canSend: 60 });
+    expect(tv.port.rows.find((r) => r.good === "oil")).toMatchObject({ have: 0, net: 186, canSend: 0 });
+    expect(act(SC, start(), { kind: "send", good: "wheat", quantity: wheat.canSend }).result.ok).toBe(true);
+    expect(act(SC, start(), { kind: "send", good: "wheat", quantity: wheat.canSend + 1 }).result.ok).toBe(false);
+    expect(tv.press).toMatchObject({ cost: 12, from: "olives", makes: "oil", each: 5, canRun: 0 });
+  });
+
+  it("shows the contract's terms, lets it be taken, and offers to deliver only what is in the store", () => {
+    const c = tradeView(SC, start())!.contracts[0]!;
+    expect(c).toMatchObject({ units: 8, delivered: 0, state: "offered", daysLeft: 71, revenue: 1680, costs: 52, penalty: 300, canAccept: true, canDeliver: 0 });
+    const rich = newVillage({ ...SC, stock: { ...SC.stock, olives: 33 } }, 7);
+    expect(tradeView(SC, rich)!.press.canRun).toBe(6);
+    const s = order(rich, { kind: "press", runs: 6 }, { kind: "accept", contract: c.id });
+    const now = tradeView(SC, s)!;
+    expect(now.contracts[0]).toMatchObject({ state: "accepted", canDeliver: 6 });
+    // Oil held for the contract is not offered to the port's open market.
+    expect(now.port.rows.find((r) => r.good === "oil")!.canSend).toBe(0);
+    expect(act(SC, s, { kind: "deliver", contract: c.id, quantity: 6 }).result.ok).toBe(true);
+  });
+
+  it("is absent where a scenario has no port", () => {
+    const { trade: _none, ...plain } = SC;
+    expect(tradeView(plain, newVillage(plain, 7))).toBeNull();
+  });
+});
+
 describe("the market", () => {
   it("shows both prices, and the most that money, room, stock and the market's own purse allow", () => {
     const rows = Object.fromEntries(marketRows(SC, start()).map((r) => [r.good, r]));
@@ -151,6 +181,35 @@ describe("the saved game", () => {
     if (back.status !== "ok") return;
     expect(back.state).toEqual(s);
     expect(JSON.stringify(days(back.state, 30))).toBe(JSON.stringify(days(s, 30)));
+  });
+
+  it("carries a game saved before the port existed into the present rules, with nothing of the player's changed", () => {
+    // What version 1 wrote: the same valley with no port in its books, no carts, and a ledger clock that never moved.
+    const { trade: _none, ...plain } = SC;
+    let old = newVillage(plain, 7);
+    for (const c of [{ kind: "harvest", plot: "mill-field", rest: "wait" }, { kind: "repair" }] as VillageCommand[]) old = act(plain, old, c).state;
+    for (let i = 0; i < 20; i++) old = tick(plain, old);
+    const v1 = JSON.parse(JSON.stringify(old)) as Record<string, unknown>;
+    v1.version = 1;
+    delete v1.carted;
+    const store = memory();
+    store.data.set(SAVE_KEY, JSON.stringify({ v: 1, state: v1 }));
+    const back = readSave(store);
+    expect(back.status).toBe("ok");
+    if (back.status !== "ok") return;
+    expect([back.state.day, back.state.households, back.state.economy.treasury, back.state.economy.stock]).toEqual([old.day, old.households, old.economy.treasury, old.economy.stock]);
+    const c = tradeView(SC, back.state)!.contracts[0]!;
+    expect(c).toMatchObject({ state: "offered", daysLeft: 51, canAccept: true });
+    expect(act(SC, back.state, { kind: "send", good: "wheat", quantity: 5 }).result.ok).toBe(true);
+    // And it plays on to the end under every rule.
+    let s = back.state;
+    while (!s.outcome) {
+      s = tick(SC, s);
+      expect(invariants(SC, s)).toEqual([]);
+    }
+    // A version this code has never heard of is still set aside.
+    store.data.set(SAVE_KEY, JSON.stringify({ v: 1, state: { ...v1, version: 0 } }));
+    expect(readSave(store)).toEqual({ status: "unreadable", why: "unknown-game" });
   });
 
   it("is set aside, not half-loaded, when it is damaged, tampered with, or from a newer version", () => {

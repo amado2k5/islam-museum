@@ -37,6 +37,24 @@ export const PLAYERS: Record<string, Player> = {
   ],
   /** Fields before households when water is short, and everything built. */
   irrigator: (sc, s) => [{ kind: "water-first", who: "fields" }, ...ripe(s).map((plot) => ({ kind: "harvest", plot, rest: "wait" }) as VillageCommand), { kind: "expand" }, ...sow(sc, s, "vegetables"), { kind: "build", what: "granary" }, ...(houses(s) < 3 ? [{ kind: "build", what: "house" } as VillageCommand] : []), ...sellAll(s, "olives")],
+  /** The mender's valley, with the olives pressed: the port's contract taken on the first day, oil sent as it is made, and what is over sold at the port. */
+  presser: (sc, s) => {
+    const c = sc.trade ? s.economy.contracts[sc.trade.contracts[0]!.id] : undefined;
+    const oil = stock(s, "oil");
+    const owed = c?.state === "accepted" ? c.units - c.delivered : 0;
+    return [
+      ...ripe(s).map((plot) => ({ kind: "harvest", plot, rest: "wait" }) as VillageCommand),
+      { kind: "repair" },
+      { kind: "build", what: "granary" },
+      ...sow(sc, s, "vegetables"),
+      ...(houses(s) < 1 ? [{ kind: "build", what: "house" } as VillageCommand] : []),
+      ...(c?.state === "offered" ? [{ kind: "accept", contract: c.id } as VillageCommand] : []),
+      ...(stock(s, "olives") >= 5 ? [{ kind: "press", runs: Math.floor(stock(s, "olives") / 5) } as VillageCommand] : []),
+      ...(c && owed > 0 && oil > 0 ? [{ kind: "deliver", contract: c.id, quantity: Math.min(owed, oil) } as VillageCommand] : []),
+      ...(owed === 0 && oil > 0 ? [{ kind: "send", good: "oil", quantity: oil } as VillageCommand] : []),
+      ...topUp(s, 25, 100),
+    ];
+  },
   /** Any command, any day. It must never break a rule, and should rarely win. */
   random: (sc, s, rng) => {
     const plots = sc.plots.map((p) => p.id);
@@ -51,12 +69,20 @@ export const PLAYERS: Record<string, Player> = {
       { kind: "sell", good: pick(goods), quantity: rng.int(1, 200) },
       { kind: "buy", good: pick(goods), quantity: rng.int(1, 200) },
       { kind: "water-first", who: pick(["households", "fields"] as const) },
+      ...(sc.trade
+        ? ([
+            { kind: "press", runs: rng.int(1, 12) },
+            { kind: "send", good: pick(Object.keys(sc.trade.port.carriage)), quantity: rng.int(1, 80) },
+            { kind: "accept", contract: sc.trade.contracts[0]!.id },
+            { kind: "deliver", contract: sc.trade.contracts[0]!.id, quantity: rng.int(1, 10) },
+          ] as VillageCommand[])
+        : []),
     ];
     return rng.chance(0.5) ? [pick(all), pick(all)] : [];
   },
 };
 /** The players that stand for ways a person might really play. */
-export const REAL_PLAYERS = ["mender", "builder", "merchant", "irrigator"];
+export const REAL_PLAYERS = ["mender", "builder", "merchant", "irrigator", "presser"];
 
 export interface Campaign {
   state: VillageState;
