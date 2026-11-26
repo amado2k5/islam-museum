@@ -45,7 +45,10 @@ export function regionView(sc: Scenario, s: VillageState, pack: Pack): RegionVie
   const places = all.filter(([, role]) => SHOWN.includes(role)).map(([id, role]) => place(id, role));
   const coast = all.filter(([, role]) => role === "port" || role === "coast").map(([id, role]) => place(id, role)).sort((a, b) => a.x - b.x);
   const port = sc.trade ? places.find((p) => p.id === `place/${sc.trade!.port.id}`) : undefined;
-  const contract = sc.trade ? s.economy.contracts[sc.trade.contracts[0]?.id ?? ""] : undefined;
+  // An offer nothing could reach in time is no longer an offer.
+  const first = sc.trade?.contracts[0];
+  const held = first ? s.economy.contracts[first.id] : undefined;
+  const contract = held && !(held.state === "offered" && s.day + sc.trade!.port.days > first!.byDay) ? held : undefined;
   const growing = sc.plots.filter((def) => s.plots[def.id]!.crop !== null);
   return {
     places,
@@ -81,7 +84,11 @@ function svg<K extends keyof SVGElementTagNameMap>(tag: K, attrs: Attrs = {}, ..
   return e;
 }
 
+/** The eight-point compass direction of a point east and north of the city. */
+export const compass = (x: number, y: number): string => (["N", "NE", "E", "SE", "S", "SW", "W", "NW"] as const)[Math.round(((Math.atan2(x, y) * 180) / Math.PI + 360) / 45) % 8]!;
 export interface RegionLabels {
+  /** "Málaga: 89 km south-west of Granada", in the page's language. */
+  from: (place: string, km: number, direction: string, city: string) => string;
   title: string;
   name: (id: string) => string;
   km: (n: number) => string;
@@ -100,7 +107,9 @@ export function drawRegion(root: SVGSVGElement, v: RegionView, layer: RegionLaye
   root.replaceChildren();
   root.setAttribute("viewBox", `0 0 ${Math.round(x1 - x0)} ${Math.round(y1 - y0)}`);
   root.setAttribute("role", "img");
-  root.setAttribute("aria-label", `${labels.title}. ${v.places.filter((p) => p.km > 0).map((p) => `${labels.name(p.id)}: ${labels.km(p.km)}`).join("; ")}.`);
+  // For a reader who cannot see it: each place by how far it is from the city and in which direction.
+  const capital = v.places.find((p) => p.role === "capital");
+  root.setAttribute("aria-label", `${labels.title}. ${v.places.filter((p) => p.km > 0).map((p) => labels.from(labels.name(p.id), p.km, compass(p.x, p.y), capital ? labels.name(capital.id) : "")).join("; ")}.`);
   root.append(svg("rect", { x: 0, y: 0, width: x1 - x0, height: y1 - y0, class: "region-land" }));
   const byId = new Map(v.places.map((p) => [p.id, p]));
   const shore = v.coast;
@@ -110,8 +119,10 @@ export function drawRegion(root: SVGSVGElement, v: RegionView, layer: RegionLaye
   }
   if (layer === "economy" && v.route) {
     const to = byId.get(v.route.to)!;
-    root.append(svg("path", { d: `M${X(v.valley.x)},${Y(v.valley.y)} L${X(to.x)},${Y(to.y)}`, class: "region-route" }));
-    root.append(svg("text", { x: X((v.valley.x + to.x) / 2) + 4, y: Y((v.valley.y + to.y) / 2) + 5, class: "region-note", "text-anchor": "start" }, labels.km(v.route.km)));
+    // The line is drawn from the city, because the distance beside it is the city's: the valley is invented and has none.
+    const from = v.places.find((p) => p.role === "capital") ?? { x: 0, y: 0 };
+    root.append(svg("path", { d: `M${X(from.x)},${Y(from.y)} L${X(to.x)},${Y(to.y)}`, class: "region-route" }));
+    root.append(svg("text", { x: X((from.x + to.x) / 2) + 4, y: Y((from.y + to.y) / 2) + 5, class: "region-note", "text-anchor": "start" }, labels.km(v.route.km)));
   }
   for (const p of v.places) {
     const g = svg("g", { class: `region-place ${p.role}`, "data-place": p.id });

@@ -4,7 +4,7 @@ import { audit, dinars, freeCapacity } from "../src/sim/economy";
 import { PLAYERS, REAL_PLAYERS, playVillage } from "../src/sim/players";
 import { A_DRY_YEAR as Y3, MERCHANTS_OF_MALAGA as Y2, SCENARIOS, WATER_FOR_THE_VALLEY as SC, scenarioAfter } from "../src/sim/scenarios";
 import { siteRefusal } from "../src/world/ground";
-import { CROPS, HARVEST_RATE, QUESTS, nextYear, taskState, tasksOf, tradeSince, expectedHarvest, flowOn, housesBuilt, marketsOf, priceFactor, poolCapacityOf, siteOf, act, carries, foodNeed, forecast, invariants, newVillage, preview, reserveDays, riverYear, seasonOf, tick, treasuryOf, waterNeed, weather, workersOf, type Scenario, type VillageCommand, type VillageState } from "../src/sim/village";
+import { CROPS, HARVEST_RATE, QUESTS, wholeDinar, nextYear, taskState, tasksOf, tradeSince, expectedHarvest, flowOn, housesBuilt, marketsOf, priceFactor, poolCapacityOf, siteOf, act, carries, foodNeed, forecast, invariants, newVillage, preview, reserveDays, riverYear, seasonOf, tick, treasuryOf, waterNeed, weather, workersOf, type Scenario, type VillageCommand, type VillageState } from "../src/sim/village";
 
 const start = (seed = 7) => newVillage(SC, seed);
 /** Applies commands, failing the test if one is refused. */
@@ -617,7 +617,12 @@ describe("prices that move", () => {
     const q = quote(next, "village", "olives");
     // It holds 100 where it usually holds 40; an eighth of the gap has gone on, and the price is at its floor.
     expect(q.inventory).toBe(100 - Math.floor((60 * P.drift) / 1000));
-    expect([q.ask, q.bid]).toEqual([Math.floor((dinars(39) * (1000 - P.swing)) / 1000), Math.floor((dinars(28) * (1000 - P.swing)) / 1000)]);
+    // Olives have a narrower swing of their own than the other goods.
+    const swing = P.swings!.olives!;
+    expect(swing).toBeLessThan(P.swing);
+    expect([q.ask, q.bid]).toEqual([wholeDinar((dinars(39) * (1000 - swing)) / 1000), wholeDinar((dinars(28) * (1000 - swing)) / 1000)]);
+    // Whole dinars: what the page shows for one is what the ledger pays for one.
+    expect([q.ask % 100, q.bid % 100]).toEqual([0, 0]);
     expect(next.priceWas.village!.olives).toBe(dinars(39));
     expect(q.ask).toBeGreaterThanOrEqual(q.bid);
     expect(audit(next.economy)).toEqual([]);
@@ -648,14 +653,17 @@ describe("prices that move", () => {
   });
 
   it("can never be turned into a round trip: the dearest a market ever pays is below the cheapest it ever asks", () => {
-    for (const [id, usual] of Object.entries(marketsOf(SC))) for (const [good, u] of Object.entries(usual.goods)) expect(Math.floor((u.bid * (1000 + P.swing)) / 1000), `${id} ${good}`).toBeLessThan(Math.floor((u.ask * (1000 - P.swing)) / 1000));
+    for (const [id, usual] of Object.entries(marketsOf(SC))) for (const [good, u] of Object.entries(usual.goods)) expect(wholeDinar((u.bid * (1000 + P.swing)) / 1000), `${id} ${good}`).toBeLessThan(wholeDinar((u.ask * (1000 - P.swing)) / 1000));
     // Nor by carrying: the port never holds less than its usual stock (the player can only add to it), so the most it
     // pays, less carriage, is below the least the village ever asks.
     const T = SC.trade!;
     for (const [good, carriage] of Object.entries(T.port.carriage)) {
       const v = SC.market.goods[good];
-      if (v) expect(T.port.market.goods[good]!.bid - carriage, good).toBeLessThan(Math.floor((v.ask * (1000 - P.swing)) / 1000));
+      if (v) expect(T.port.market.goods[good]!.bid - carriage, good).toBeLessThan(wholeDinar((v.ask * (1000 - P.swing)) / 1000));
     }
+    // Nor by pressing what was bought: olives at the least the village ever asks, pressed, cost more than the port pays for the oil.
+    expect(5 * wholeDinar((SC.market.goods.olives!.ask * (1000 - P.swings!.olives!)) / 1000) + T.press.cost).toBeGreaterThan(T.port.market.goods.oil!.bid - T.port.carriage.oil!);
+    expect(priceFactor(SC, 40, 0, "olives")).toBe(1000 + P.swings!.olives!);
     expect(priceFactor(SC, 40, 0)).toBe(1000 + P.swing);
     expect(priceFactor(SC, 40, 4000)).toBe(1000 - P.swing);
     expect(priceFactor(SC, 40, 40)).toBe(1000);
@@ -674,18 +682,73 @@ describe("prices that move", () => {
   });
 });
 
+describe("what an independent review found, and the rules now keep", () => {
+  const T = DRY.trade!;
+  const c = T.contracts[0]!;
+
+  it("food held for a contract is not counted as the households' food, and is not offered for sale", () => {
+    const veg: Scenario = { ...DRY, stock: { ...DRY.stock, wheat: 0, vegetables: 120 }, trade: { ...T, contracts: [{ ...c, good: "vegetables", units: 100 }] } };
+    const s0 = newVillage(veg, 7);
+    expect(reserveDays(s0)).toBe(20);
+    const s = order(veg, s0, { kind: "accept", contract: c.id });
+    expect(s.economy.stock.vegetables).toMatchObject({ quantity: 120, reserved: 100 });
+    expect(reserveDays(s)).toBe(3);
+    expect(act(veg, s, { kind: "sell", good: "vegetables", quantity: 21 }).result.ok).toBe(false);
+  });
+
+  it("a contract nothing could reach in time cannot be taken", () => {
+    const s = days(DRY, start(), c.byDay - T.port.days - DRY.startDay);
+    expect(act(DRY, s, { kind: "accept", contract: c.id }).result.ok).toBe(true);
+    expect(act(DRY, days(DRY, s, 1), { kind: "accept", contract: c.id }).result).toMatchObject({ ok: false, why: "contract-late" });
+  });
+
+  it("in the campaign's last year nothing is sent that could not arrive before its end; in an earlier year it is, and arrives in the next", () => {
+    expect(Object.values(SCENARIOS).filter((sc) => sc.final).map((sc) => sc.id)).toEqual(Object.values(SCENARIOS).filter((sc) => scenarioAfter(sc.id) === null).map((sc) => sc.id));
+    // Valleys with grain enough to have some left at the year's end.
+    const fat = (sc: Scenario): Scenario => ({ ...sc, capacity: 6000, stock: { ...sc.stock, wheat: 4000 } });
+    const [L, E] = [fat(Y3), fat(DRY)];
+    const tooLate = days(L, newVillage(L, 7), L.endDay - L.trade!.port.days);
+    const r = act(L, tooLate, { kind: "send", good: "wheat", quantity: 5 });
+    expect(r.result).toMatchObject({ ok: false, why: "year-ending" });
+    expect(r.state).toBe(tooLate);
+    // The morning before, it can still arrive on the year's last day.
+    expect(act(L, days(L, newVillage(L, 7), L.endDay - L.trade!.port.days - 1), { kind: "send", good: "wheat", quantity: 5 }).result.ok).toBe(true);
+    // In a year that another follows, a load sent on the last morning is carried into the next.
+    expect(act(E, days(E, newVillage(E, 7), E.endDay - E.startDay), { kind: "send", good: "wheat", quantity: 5 }).result.ok).toBe(true);
+  });
+
+  it("the field put first is brought in first when hands are short", () => {
+    const both: Scenario = { ...DRY, households: 10, housing: 10, plots: DRY.plots.map((p) => (p.id === "olive-terrace" ? { ...p, growth: 1000 } : p)) };
+    const ordered = (first: string | null) => days(both, order(both, newVillage(both, 7), { kind: "harvest", plot: "mill-field", rest: "sell" }, { kind: "harvest", plot: "olive-terrace", rest: "sell" }, { kind: "field-first", plot: first }), 1);
+    // Four workers bring in 56 a day: all of it from whichever field comes first.
+    expect(ordered(null).plots["olive-terrace"]!.standing).toBe(50);
+    expect(ordered("olive-terrace").plots["olive-terrace"]!.standing).toBe(0);
+  });
+
+  it("a penalty the treasury could not pay is taken off the score", () => {
+    const poor: Scenario = { ...DRY, treasury: dinars(60) };
+    let s = order(poor, newVillage(poor, 7), { kind: "accept", contract: c.id });
+    while (!s.outcome) s = tick(poor, s);
+    const owed = s.economy.contracts[c.id]!.owed;
+    const base = s.welfare * 10 + s.households * 5 + Math.min(60, reserveDays(s)) * 5;
+    expect(s.outcome.score).toBe(base + Math.floor((treasuryOf(s) - owed) / dinars(10)));
+  });
+});
+
 describe("a decision", () => {
   const D = SC.decisions![0]!;
   const share = D.options.find((o) => o.id === "share")!;
   const refuse = D.options.find((o) => o.id === "refuse")!;
   /** The morning the question is first seen. */
-  const asked = (sc: Scenario = DRY) => days(sc, newVillage(sc, 7), D.day - sc.startDay + 1);
+  const asked = (sc: Scenario = DRY) => days(sc, newVillage(sc, 7), D.day - sc.startDay);
 
   it("is put on its day, said in the day's events, and cannot be answered before or by an answer it does not have", () => {
-    const before = days(DRY, start(), D.day - DRY.startDay);
+    const before = days(DRY, start(), D.day - DRY.startDay - 1);
     expect(before.decisions[D.id]!.state).toBe("ahead");
     expect(act(DRY, before, { kind: "decide", decision: D.id, option: "share" }).result).toMatchObject({ ok: false, why: "decision-closed" });
     const s = asked();
+    // It is there on the morning of the day it names, before that day is lived.
+    expect(s.day).toBe(D.day);
     expect(s.decisions[D.id]).toEqual({ state: "open", choice: null, day: D.day });
     expect(s.last!.events).toContain(`asked:${D.id}`);
     expect(act(DRY, s, { kind: "decide", decision: D.id, option: "neither" }).result).toMatchObject({ ok: false, why: "decision-closed" });

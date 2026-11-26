@@ -4,7 +4,7 @@ import { describe, expect, it } from "vitest";
 import { PLAYERS, playVillage } from "../src/sim/players";
 import { A_DRY_YEAR as Y3, MERCHANTS_OF_MALAGA as Y2, WATER_FOR_THE_VALLEY as SC } from "../src/sim/scenarios";
 import { VILLAGE_VERSION, act, invariants, newVillage, tick, type VillageCommand, type VillageState } from "../src/sim/village";
-import { SAVE_KEY, clearSave, readSave, writeSave, type Store } from "../src/save";
+import { ASIDE_KEY, ASIDE_KEYS, SAVE_KEY, YEAR_KEY, clearSave, readAside, readSave, restoreAside, setAside, writeSave, type Store } from "../src/save";
 import { regionView } from "../src/ui/region";
 import { metresBetween } from "../src/world/geography";
 import { readFileSync } from "node:fs";
@@ -133,7 +133,7 @@ describe("the oil's road", () => {
     const c0 = chainView(SC, start())!;
     expect(c0.grove).toMatchObject({ field: "olive-terrace", state: "growing" });
     expect(c0.grove.units).toBe(fieldCards(SC, start()).find((f) => f.id === "olive-terrace")!.expected!.units);
-    expect([c0.press, c0.oil, c0.store, c0.port]).toEqual([{ input: "olives", inStore: 0, each: 5, canRun: 0, cost: 12 }, { good: "oil", inStore: 0, held: 0 }, { free: 200, room: 420 }, { id: "malaga", net: 186, cartsLeft: 60, owed: 0, canDeliver: 0, onRoad: 0, days: 3 }]);
+    expect([c0.press, c0.oil, c0.store, c0.port]).toEqual([{ input: "olives", inStore: 0, each: 5, canRun: 0, cost: 12 }, { good: "oil", inStore: 0, held: 0 }, { free: 200, room: 420 }, { id: "malaga", canSend: 0, net: 186, cartsLeft: 60, owed: 0, canDeliver: 0, onRoad: 0, days: 3 }]);
     // Olives in the store, a contract taken, some oil pressed and some sent: every step moves with it.
     const rich = newVillage({ ...SC, stock: { ...SC.stock, olives: 33 } }, 7);
     let s = order(rich, { kind: "accept", contract: "oil-for-the-port" }, { kind: "press", runs: 4 });
@@ -282,7 +282,7 @@ describe("the region", () => {
 
 describe("a decision on the page", () => {
   it("shows each answer's price and gain in figures, the mornings left, and what an unanswered question becomes", () => {
-    const s = days(start(), 40 - SC.startDay + 1);
+    const s = days(start(), 40 - SC.startDay);
     const [d] = decisionRows(SC, s);
     expect(d).toMatchObject({ id: "water-for-the-neighbours", daysLeft: 5, otherwise: "refuse" });
     expect(d!.options).toEqual([{ id: "share", dinars: 220, inflow: 8, welfare: 0, days: 20 }, { id: "refuse", dinars: 0, inflow: 0, welfare: -4, days: 20 }]);
@@ -516,6 +516,65 @@ describe("the saved game", () => {
     // A version this code has never heard of is still set aside.
     store.data.set(SAVE_KEY, JSON.stringify({ v: 1, state: { ...v1, version: 0 } }));
     expect(readSave(store)).toEqual({ status: "unreadable", why: "unknown-game" });
+  });
+
+  it("that a build cannot read is kept byte for byte in a second place, survives a new game written over it, and can be brought back", () => {
+    const store = memory();
+    // A game from a later build than this one, as a rolled-back build would find it.
+    const later = JSON.stringify({ v: 1, state: { ...JSON.parse(JSON.stringify(days(start(), 12))), version: VILLAGE_VERSION + 1 } });
+    store.data.set(SAVE_KEY, later);
+    expect(readSave(store).status).toBe("unreadable");
+    expect(setAside(store)).toBe(true);
+    // The rolled-back build starts a new game and saves it, day after day.
+    writeSave(store, days(start(), 3));
+    expect(store.data.get(ASIDE_KEY)).toBe(later);
+    // This build cannot read it, so it does not offer it; a build that can, brings it back and keeps the other.
+    expect(readAside(store).status).toBe("unreadable");
+    expect(restoreAside(store)).toBe(false);
+    const readable = JSON.stringify({ v: 1, state: days(start(), 12) });
+    store.data.set(ASIDE_KEY, readable);
+    const newer = store.data.get(SAVE_KEY);
+    expect(restoreAside(store)).toBe(true);
+    expect([store.data.get(SAVE_KEY), store.data.get(ASIDE_KEY)]).toEqual([readable, newer]);
+    expect(setAside(memory())).toBe(false);
+  });
+
+  it("set aside a second time is not written over the first, and when no place is left the answer is no", () => {
+    const store = memory();
+    const text = (n: number) => JSON.stringify({ v: 1, state: { ...JSON.parse(JSON.stringify(days(start(), n))), version: VILLAGE_VERSION + 1 } });
+    store.data.set(SAVE_KEY, text(11));
+    expect(setAside(store)).toBe(true);
+    expect(setAside(store)).toBe(true);
+    expect(ASIDE_KEYS.filter((k) => store.data.has(k))).toEqual([ASIDE_KEY]);
+    // A second rollback finds another game it cannot read.
+    store.data.set(SAVE_KEY, text(12));
+    expect(setAside(store)).toBe(true);
+    expect([store.data.get(ASIDE_KEYS[0]!), store.data.get(ASIDE_KEYS[1]!)]).toEqual([text(11), text(12)]);
+    for (const n of [13, 14]) {
+      store.data.set(SAVE_KEY, text(n));
+      expect(setAside(store)).toBe(true);
+    }
+    store.data.set(SAVE_KEY, text(15));
+    expect(setAside(store)).toBe(false);
+    expect(ASIDE_KEYS.map((k) => store.data.get(k))).toEqual([11, 12, 13, 14].map(text));
+    // A store with no room refuses, and the saved game is as it was.
+    const full: Store = { getItem: (k) => (k === SAVE_KEY ? text(11) : null), setItem: () => { throw new Error("full"); }, removeItem: () => {} };
+    expect(setAside(full)).toBe(false);
+  });
+
+  it("is set aside and brought back with the start of its year", () => {
+    const store = memory();
+    const mine = JSON.stringify({ v: 1, state: days(start(), 12) });
+    store.data.set(SAVE_KEY, mine);
+    store.data.set(YEAR_KEY, "the start of my year");
+    expect(setAside(store)).toBe(true);
+    // A new game takes the saved place and its own start of the year.
+    const other = JSON.stringify({ v: 1, state: days(start(), 2) });
+    store.data.set(SAVE_KEY, other);
+    store.data.set(YEAR_KEY, "the start of the other");
+    expect(restoreAside(store)).toBe(true);
+    expect([store.data.get(SAVE_KEY), store.data.get(YEAR_KEY)]).toEqual([mine, "the start of my year"]);
+    expect([store.data.get(ASIDE_KEY), store.data.get(`${ASIDE_KEY}.year`)]).toEqual([other, "the start of the other"]);
   });
 
   it("is set aside, not half-loaded, when it is damaged, tampered with, or from a newer version", () => {

@@ -234,6 +234,8 @@ if ((await game<string>("window.__GR__.threeD")) === "on") {
   await page.keyboard.press("3");
   await page.locator("[data-act='place-granary']").click();
   await page.locator("canvas.scene").focus();
+  // The ring is set when the view has settled; give it a moment before reading its verdict.
+  for (const end = Date.now() + 3000; (await page.locator("#site-status").getAttribute("class")) !== "site-ok" && Date.now() < end; ) await page.waitForTimeout(100);
   if ((await page.locator("#site-status").getAttribute("class")) !== "site-ok") await fail(`open ground in the 3D valley refused the granary: ${await page.locator("#site-status").textContent()}`);
   await shot("9a-ring-3d");
   await page.keyboard.press("Enter");
@@ -308,6 +310,11 @@ if ((await game<string>("window.__GR__.threeD")) === "on") {
   // The controls put away and brought back.
   await page.keyboard.press("h");
   if (await page.locator("#photobar").isVisible()) await fail("H did not hide the picture's controls");
+  // Without a keyboard: a tap on the picture brings the controls, and the way out, back.
+  const tap = (await page.locator("canvas.scene").boundingBox())!;
+  await page.mouse.click(tap.x + tap.width / 2, tap.y + tap.height / 2);
+  if (!(await page.locator("#photo-exit").isVisible())) await fail("a tap on the picture did not bring Photo Mode's controls back");
+  await page.keyboard.press("h");
   await page.keyboard.press("Escape");
   if (!(await page.locator("#photo-exit").isVisible()) || !(await photo()).on) await fail("Escape did not bring the controls back");
   await page.keyboard.press("Escape");
@@ -505,6 +512,15 @@ await page.locator("#brief-start").click();
 await page.keyboard.press("3");
 if (await page.locator("[data-act='work-house'], [data-act='work-granary']").count()) await fail("houses and granaries are still ordered from the list as well as placed");
 for (const what of ["house", "granary", "cistern", "garden"]) if ((await page.locator(`[data-act='place-${what}']`).count()) !== 1) await fail(`the catalogue has no ${what}`);
+// By keyboard alone, start to finish: Enter chooses the house, and Enter again builds it on the ground offered (it must not cancel).
+await page.locator("[data-act='place-house']").focus();
+await page.keyboard.press("Enter");
+await page.keyboard.press("Enter");
+if ((await game<number>("window.__GR__.state().placed.length")) !== 1) await fail("Enter, then Enter, did not build the house by keyboard alone");
+await page.goto(url("&fresh=1"));
+await ready();
+await page.locator("#brief-start").click();
+await page.keyboard.press("3");
 await page.locator("[data-act='place-house']").focus();
 await page.keyboard.press("Enter");
 if ((await page.locator("#site-status").getAttribute("class")) !== "site-ok" || (await page.locator("svg.map .ghost.ok").count()) !== 1) await fail("choosing a house did not offer ground that takes it");

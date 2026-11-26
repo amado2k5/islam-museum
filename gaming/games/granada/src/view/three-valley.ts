@@ -894,7 +894,8 @@ export class ValleyRenderer {
       // A day of rain is overcast: the sun is dimmed, the sky closes over, and the light comes more from all round.
       this.raining = look.rain;
       const atm = SEASON_LIGHT[this.season] ?? SEASON_LIGHT[0]!;
-      this.sun.intensity = atm.sunIntensity * (look.rain ? 0.42 : 1);
+      // An hour's light chosen for a picture keeps its strength whichever of the hour and the rain was chosen first.
+      this.sun.intensity = atm.sunIntensity * (this.lightPreview ? HOUR_LIGHT[this.lightPreview].strength : 1) * (look.rain ? 0.42 : 1);
       this.hemi.intensity = atm.ambientIntensity * (look.rain ? 0.2 : 0.06);
       this.sky.cloudCoverage.value = look.rain ? 0.9 : this.skyCover;
     }
@@ -1124,7 +1125,8 @@ export class ValleyRenderer {
   }
 
   /** The point of the land under a place in the window (CSS pixels), or null if the ray leaves the valley. */
-  landAt(clientX: number, clientY: number): [number, number] | null {
+  /** With `lift`, the point where the ray meets the land raised by so many metres: where a roof of that height would be struck. */
+  landAt(clientX: number, clientY: number, lift = 0): [number, number] | null {
     const r = this.canvas.getBoundingClientRect();
     this.raycaster.setFromCamera(new THREE.Vector2(((clientX - r.left) / r.width) * 2 - 1, 1 - ((clientY - r.top) / r.height) * 2), this.camera);
     const o = this.raycaster.ray.origin;
@@ -1136,12 +1138,12 @@ export class ValleyRenderer {
       t += 6;
       const x = o.x + d.x * t;
       const z = o.z + d.z * t;
-      if (o.y + d.y * t <= heightAt(x, z, this.options.seed)) {
+      if (o.y + d.y * t <= heightAt(x, z, this.options.seed) + lift) {
         let lo = t - 6;
         let hi = t;
         for (let k = 0; k < 8; k++) {
           const mid = (lo + hi) / 2;
-          if (o.y + d.y * mid <= heightAt(o.x + d.x * mid, o.z + d.z * mid, this.options.seed)) hi = mid;
+          if (o.y + d.y * mid <= heightAt(o.x + d.x * mid, o.z + d.z * mid, this.options.seed) + lift) hi = mid;
           else lo = mid;
         }
         return [o.x + d.x * hi, o.z + d.z * hi];

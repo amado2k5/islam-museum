@@ -11,7 +11,7 @@ import { MUSIC_AVAILABLE, MUSIC_BASE, MusicPlayer } from "@im/audio/player";
 import { MINOR } from "../sim/economy";
 import { SCENARIOS, WATER_FOR_THE_VALLEY, scenarioAfter } from "../sim/scenarios";
 import { act, dayOfSeason, newVillage, nextYear, seasonOf, siteOf, tasksOf, tick, type ActResult, type Refusal, type Scenario, type VillageCommand, type VillageState } from "../sim/village";
-import { clearSave, readSave, writeSave } from "../save";
+import { YEAR_KEY, clearSave, readAside, readSave, restoreAside, setAside, writeSave } from "../save";
 import { probeWebGPU } from "@im/kernel/capability";
 import { installCounters } from "@im/kernel/counters";
 import type { ValleyLook } from "../view/three-valley";
@@ -73,10 +73,12 @@ async function main(): Promise<void> {
   const titleKey = () => (sc.follows ? `scenario_${sc.id}` : "scenario_title");
   const briefKey = () => (sc.follows ? `brief_${sc.id}` : "brief_text");
   /** The valley as it stood when the year in hand began, so that a lost year can be played again from its start. */
-  const YEAR_KEY = "im.granada.yearstart.v1";
   let yearStart: string | null = null;
+  /** A saved game that could be neither read nor copied aside is left exactly as it is: nothing of this session is written. */
+  let saveLocked = false;
   const keepYearStart = () => {
     yearStart = JSON.stringify(state);
+    if (saveLocked) return;
     try {
       localStorage.setItem(YEAR_KEY, yearStart);
     } catch {
@@ -101,8 +103,11 @@ async function main(): Promise<void> {
       // An unreadable start of the year is no start of the year.
     }
   } else {
+    // A game this build cannot read is kept as it is, in a second place, before anything is written over it.
+    if (saved.status === "unreadable" || saved.status === "newer") saveLocked = !setAside(localStorage);
     if (saved.status === "unreadable") notice = t("save_unreadable");
     if (saved.status === "newer") notice = t("save_newer");
+    if (saveLocked) notice = t("save_left_untouched");
     state = newVillage(sc, newSeed());
     keepYearStart();
   }
@@ -213,7 +218,7 @@ async function main(): Promise<void> {
   };
   const refusal = (r: ActResult): string => (r.ok ? "" : t(`refuse_${r.why}` in strings ? `refuse_${r.why}` : "refuse_other"));
   const keep = () => {
-    saveOk = writeSave(localStorage, state);
+    saveOk = !saveLocked && writeSave(localStorage, state);
   };
   const order = (command: VillageCommand): boolean => {
     // Nothing is ordered while a picture is being taken.
@@ -458,6 +463,7 @@ async function main(): Promise<void> {
     stage?.setVisible(view === "3d");
     renderViewBar();
     if (view === "3d") stage?.setLook(lookOf());
+    if (picked && !placing) render();
     if (placing) {
       stage?.setPlacing(view === "3d");
       if (view === "plan" && !ghost) considerSite(...nearestSite(placing));
@@ -559,7 +565,9 @@ async function main(): Promise<void> {
   }
 
   // ---- Building on the land: a thing chosen from the catalogue, then its ground ----
-  const siteWhy = (): Refusal | null => (placing && ghost ? siteOf(sc, state, placing, ghost.x, ghost.z) : null);
+  // The plan draws the pool larger than it lies on the land: what is water on the plan is refused on the plan.
+  const onPlanWater = (x: number, z: number, r: number) => view === "plan" && ((x - 140) / (66 + r)) ** 2 + ((z + 84) / (42 + r)) ** 2 < 1;
+  const siteWhy = (): Refusal | null => (placing && ghost ? (onPlanWater(ghost.x, ghost.z, sc.catalogue?.[placing]?.radius ?? 9) ? "site-water" : siteOf(sc, state, placing, ghost.x, ghost.z)) : null);
   /** Shows the ground being considered, in the valley, on the plan and in words, without redrawing the page. */
   function showGhost(): void {
     const def = placing ? sc.catalogue?.[placing] : undefined;
@@ -589,7 +597,8 @@ async function main(): Promise<void> {
   }
   function considerSite(x: number, z: number): void {
     if (!placing) return;
-    ghost = { x: Math.round(x), z: Math.round(z) };
+    // The plan shows a sheet of the valley: on it, ground is considered only where it can be seen.
+    ghost = view === "plan" ? { x: Math.max(-480, Math.min(480, Math.round(x))), z: Math.max(-262, Math.min(262, Math.round(z))) } : { x: Math.round(x), z: Math.round(z) };
     showGhost();
   }
   function startPlacing(what: string): void {
@@ -598,7 +607,12 @@ async function main(): Promise<void> {
     render();
     // In 3D the first ground offered is the middle of the view; on the plan, the nearest ground to the village that will take it.
     if (view === "3d" && stage) stage.setPlacing(true);
-    else considerSite(...nearestSite(what));
+    else {
+      considerSite(...nearestSite(what));
+      // The keyboard goes to the plan, so that the arrows move the ring and Enter builds; on the button it would cancel.
+      map.tabIndex = -1;
+      map.focus();
+    }
     document.getElementById("site-build")?.scrollIntoView({ block: "nearest" });
     live.textContent = t("site_title", { what: t(`place_${what}`) });
   }
@@ -615,7 +629,9 @@ async function main(): Promise<void> {
     if (!placing) return;
     const what = placing;
     considerSite(x, z);
-    if (!order({ kind: "place", what, x: Math.round(x), z: Math.round(z) })) return;
+    if (siteWhy() === "site-water" && view === "plan") return say(t("refuse_site-water"));
+    // The order is for the ground the ring is on, which on the plan is kept inside the sheet.
+    if (!order({ kind: "place", what, x: ghost!.x, z: ghost!.z })) return;
     say(t("site_started", { what: t(`place_${what}`) }));
     stopPlacing();
   }
@@ -644,7 +660,7 @@ async function main(): Promise<void> {
       // A place's name begins with a capital in the scripts that have them, whatever the record's spelling.
       return text.charAt(0).toLocaleUpperCase(lang) + text.slice(1);
     };
-    drawRegion(sheet, v, regionLayer, { title: t("region_title"), name, km: (n) => t("region_km", { n }), valley: t("region_valley"), coast: t("region_coast"), scale: t("region_km", { n: 50 }) });
+    drawRegion(sheet, v, regionLayer, { from: (place, km, direction, city) => t("region_from", { place, km, direction: t(`dir_${direction}`), city }), title: t("region_title"), name, km: (n) => t("region_km", { n }), valley: t("region_valley"), coast: t("region_coast"), scale: t("region_km", { n: 50 }) });
     const fact = (f: RegionView["facts"][RegionLayer][number]) => t(f.key, { ...f.values, ...(f.values.field ? { field: fieldName(String(f.values.field)), crop: t(`crop_${f.values.crop}`) } : {}) });
     return h(
       "section",
@@ -653,7 +669,7 @@ async function main(): Promise<void> {
       h("div", { class: "choice", role: "group", "aria-label": t("region_layers") }, ...(["economy", "agriculture", "infrastructure"] as const).map((l) => h("button", { type: "button", id: `layer-${l}`, class: regionLayer === l ? "on" : "", "aria-pressed": String(regionLayer === l), onclick: () => { regionLayer = l; render(); } }, t(`layer_${l}`)))),
       sheet as unknown as HTMLElement,
       h("ul", { class: "plain", "data-layer": regionLayer }, ...v.facts[regionLayer].map((f) => h("li", {}, fact(f)))),
-      h("p", { class: "note" }, t("region_note")),
+      h("p", { class: "note" }, `${t("region_note")} ${t("review_pending")}`),
     );
   }
 
@@ -783,7 +799,7 @@ async function main(): Promise<void> {
       f.lostToThirst > 0 && h("p", { class: "why", "data-estate": "lost" }, t("estate_lost", { n: f.lostToThirst })),
       f.stage === "growing" && (e ? h("p", { "data-estate": "expected" }, t("estate_expected", { n: e.units, days: e.inDays })) : h("p", { class: "why", "data-estate": "expected" }, t("estate_never"))),
       e && e.units > 0 && h("p", { class: e.fits ? "note" : "why", "data-estate": "store" }, t(e.fits ? "estate_fits" : "estate_no_room", { n: e.units, free: stocks(sc, state).storeRoom - stocks(sc, state).storeUsed })),
-      e && e.units > 0 && h("p", { class: "note", "data-estate": "value" }, e.port === null ? t("estate_value", { village: num(e.village) }) : t("estate_value_port", { village: num(e.village), port: num(e.port) })),
+      e && e.units > 0 && h("p", { class: "note", "data-estate": "value" }, e.port === null ? t("estate_value", { village: num(e.village) }) : t("estate_value_port", { village: num(e.village), port: num(e.port) }), e.villageShort ? ` ${t("estate_value_short")}` : ""),
     ];
   }
 
@@ -897,7 +913,7 @@ async function main(): Promise<void> {
           t("port_title"),
           `${t("chain_port", { net: num(c.port.net), carts: c.port.cartsLeft })}${c.port.onRoad > 0 ? ` ${t("chain_on_road", { n: c.port.onRoad })}` : ""}`,
           c.port.canDeliver > 0 && h("button", { type: "button", "data-act": "chain-deliver", onclick: () => order({ kind: "deliver", contract: oilContract, quantity: c.port.canDeliver }) }, t("contract_deliver", { n: c.port.canDeliver })),
-          c.port.owed === 0 && Math.min(c.oil.inStore - c.oil.held, c.port.cartsLeft) > 0 && h("button", { type: "button", "data-act": "chain-send", onclick: () => order({ kind: "send", good: c.oil.good, quantity: Math.min(c.oil.inStore - c.oil.held, c.port.cartsLeft) }) }, t("port_send", { n: Math.min(c.oil.inStore - c.oil.held, c.port.cartsLeft) })),
+          c.port.owed === 0 && c.port.canSend > 0 && h("button", { type: "button", "data-act": "chain-send", onclick: () => order({ kind: "send", good: c.oil.good, quantity: c.port.canSend }) }, t("port_send", { n: c.port.canSend })),
         ),
       ),
     );
@@ -941,8 +957,8 @@ async function main(): Promise<void> {
           { class: "card", "data-part": "contract", "data-state": c.state },
           h("h2", {}, t("contract_title")),
           h("p", {}, t("contract_terms", { units: c.units, good: t(`good_${c.good}`), revenue: c.revenue, costs: c.costs, penalty: c.penalty })),
-          c.state === "offered" && (c.daysLeft > 0 ? h("p", {}, t("contract_days", { days: c.daysLeft })) : h("p", { class: "why" }, t("contract_passed"))),
-          c.state === "offered" && c.daysLeft > 0 && h("button", { type: "button", "data-act": `accept-${c.id}`, disabled: !c.canAccept, onclick: () => order({ kind: "accept", contract: c.id }) }, t("contract_accept")),
+          c.state === "offered" && (c.sendWithin > 0 ? h("p", {}, t("contract_days", { days: c.daysLeft })) : h("p", { class: "why" }, t("contract_passed"))),
+          c.state === "offered" && c.sendWithin > 0 && h("button", { type: "button", "data-act": `accept-${c.id}`, disabled: !c.canAccept, onclick: () => order({ kind: "accept", contract: c.id }) }, t("contract_accept")),
           c.state === "accepted" && h("p", {}, `${t("contract_progress", { have: c.delivered, want: c.units })}${c.onRoad > 0 ? ` ${t("contract_on_road", { n: c.onRoad })}` : ""} ${t("contract_days", { days: c.daysLeft })}`),
           c.state === "accepted" && c.delivered + c.onRoad < c.units && h("p", { class: c.sendWithin > 0 ? "note" : "why", "data-part": "send-within" }, c.sendWithin > 0 ? t("contract_send_within", { days: c.sendWithin }) : t("contract_too_late")),
           c.state === "accepted" &&
@@ -1054,7 +1070,9 @@ async function main(): Promise<void> {
     objectives.replaceChildren(...(objectivesPanel().filter(Boolean) as Node[]));
     seasonBox.replaceChildren(...(seasonPanel().filter(Boolean) as Node[]));
     // On the plan a chosen building's card stands at the head of the part in hand; in 3D it stands beside the building.
-    const place = view === "plan" ? (placeCard().filter(Boolean) as Node[]) : [];
+    // (In a window too small for the panels to stand round the valley there is no place beside the building, so there too.)
+    const beside = view === "3d" && matchMedia("(min-width: 1180px) and (min-height: 640px)").matches;
+    const place = beside ? [] : (placeCard().filter(Boolean) as Node[]);
     side.replaceChildren(
       h("div", { class: "panel", id: "tabpanel", role: "tabpanel", "aria-labelledby": `tab-${tab}` }, place.length > 0 && h("section", { class: "card selected", id: "place-card", tabIndex: -1, "data-part": "place-card" }, ...place), ...panel),
     );
@@ -1132,6 +1150,8 @@ async function main(): Promise<void> {
       "help",
       h("h2", {}, t("help")),
       h("p", {}, t("help_text")),
+      // A game set aside by a build that could not read it, which this build can: it can be brought back.
+      readAside(localStorage).status === "ok" && h("button", { type: "button", id: "bring-back", onclick: () => restoreAside(localStorage) && location.reload() }, t("save_bring_back")),
       h("ul", { class: "plain", id: "help-more" }, ...(["help_ahead", "help_build", "help_trade", "help_choose", "help_years", "help_keys"] as const).filter((k) => k !== "help_build" || sc.catalogue).filter((k) => k !== "help_trade" || sc.trade).map((k) => h("li", {}, t(k)))),
       h("p", { class: "note" }, t("simulation_note")),
       h("h3", {}, t("language")),
@@ -1175,7 +1195,7 @@ async function main(): Promise<void> {
   }
   /** A new campaign, from the first year. */
   function begin(seed: number): void {
-    clearSave(localStorage);
+    if (!saveLocked) clearSave(localStorage);
     sc = WATER_FOR_THE_VALLEY;
     state = newVillage(sc, seed);
     keepYearStart();
@@ -1222,6 +1242,11 @@ async function main(): Promise<void> {
     // In photo mode the only keys are the picture's own: Escape brings the controls back, or leaves; H hides or shows them.
     if (photo) {
       if (e.key === "Escape") photoBare ? setPhotoBare(false) : exitPhoto();
+      // The camera's keys work wherever the keyboard is, unless it is in a control that uses them itself.
+      else if (!["INPUT", "SELECT", "CANVAS"].includes(target.tagName) && e.key.toLowerCase() !== "h" && stage?.cameraKey(e.key)) {
+        e.preventDefault();
+        return;
+      }
       else if ((e.key === "h" || e.key === "H") && !["INPUT", "SELECT"].includes(target.tagName)) setPhotoBare(!photoBare);
       else return;
       e.preventDefault();
@@ -1279,6 +1304,8 @@ async function main(): Promise<void> {
           tab = "fields";
           render();
         },
+        // With Photo Mode's controls put away, a tap on the picture brings them back: a player without a keyboard is never left without a way out.
+        onTap: () => (photo && photoBare ? (setPhotoBare(false), true) : false),
         onSite: (x, z) => considerSite(x, z),
         onLand: (x, z) => landClicked(x, z),
         onBuild: (x, z) => buildAt(x, z),

@@ -132,6 +132,8 @@ export interface Scenario {
   decisions?: DecisionDef[];
   /** What is asked of the steward. Where a scenario names none, the first year's five. */
   tasks?: TaskDef[];
+  /** The campaign's last year: nothing is carried on from it, so nothing is sent that could not arrive within it. */
+  final?: boolean;
   /** The scenario this one follows: a steward who has won that one may go on to this with the valley as it stands. */
   follows?: string;
   /**
@@ -140,7 +142,7 @@ export interface Scenario {
    * up to `swing` thousandths as it holds less or more than usual. `swing` must be small enough that the dearest
    * price a market ever pays stays below the cheapest it ever asks, so that no round trip can make money.
    */
-  prices?: { swing: number; drift: number };
+  prices?: { swing: number; drift: number; swings?: Record<string, number> };
 }
 /** What follows from a choice, for a time: less water from the river, or the households faring worse or better. */
 export type Effect = { kind: "inflow"; amount: number; untilDay: number; from: string } | { kind: "welfare"; amount: number; untilDay: number; from: string };
@@ -335,6 +337,7 @@ export type Refusal =
   | "unknown-contract"
   | "contract-closed"
   | "contract-late"
+  | "year-ending"
   | "too-much";
 export type ActResult = { ok: true; money: number } | { ok: false; why: Refusal; detail?: Record<string, number> };
 
@@ -472,7 +475,8 @@ export const foodNeed = (s: VillageState): number => Math.ceil(s.households / 10
 export const waterNeed = (s: VillageState): number => Math.ceil(s.households / 6);
 const have = (s: VillageState, good: string): number => s.economy.stock[good]?.quantity ?? 0;
 /** Food in store, in units a household eats. */
-export const foodInStore = (s: VillageState): number => Object.values(CROPS).reduce((n, c) => n + (c.food > 0 ? have(s, c.good) * c.food : 0), 0);
+/** Food the households can eat: what is in the store and not held for a contract, which they cannot touch. */
+export const foodInStore = (s: VillageState): number => Object.values(CROPS).reduce((n, c) => n + (c.food > 0 ? (have(s, c.good) - (s.economy.stock[c.good]?.reserved ?? 0)) * c.food : 0), 0);
 /** Days the food in store would last at today's need. */
 export const reserveDays = (s: VillageState): number => Math.floor(foodInStore(s) / Math.max(1, foodNeed(s)));
 export const treasuryOf = (s: VillageState): number => s.economy.treasury.available;
@@ -496,6 +500,17 @@ export function upgradeVillage(sc: Scenario, saved: VillageState): VillageState 
   s.decisions ??= Object.fromEntries((sc.decisions ?? []).map((d) => [d.id, s.day > d.day ? { state: "lapsed" as const, choice: null, day: null } : { state: "ahead" as const, choice: null, day: null }]));
   s.effects ??= [];
   s.journal ??= [];
+  // A port opened by an earlier version held nothing; it now has a usual stock, and holding less than that would
+  // raise what it pays above what was balanced. It is brought up to its usual stock, in the books.
+  if (saved.version <= 5 && sc.trade && s.economy.markets[sc.trade.port.id]) {
+    const port = s.economy.markets[sc.trade.port.id]!;
+    for (const [good, u] of Object.entries(sc.trade.port.market.goods)) {
+      const q = port.goods[good];
+      if (!q || q.inventory >= u.inventory) continue;
+      s.economy.journal.push({ seq: s.economy.journal.length, tick: s.economy.tick, commandId: "upgrade:6", asset: good, from: "world", to: `market:${sc.trade.port.id}`, amount: u.inventory - q.inventory, why: "opening stock" });
+      q.inventory = u.inventory;
+    }
+  }
   // From 5 to 6: yesterday's prices are today's, so nothing is called rising or falling until a night has passed.
   s.priceWas ??= asksOf(s.economy);
   // From 6 to 7: a valley saved before there were years is in its first.
@@ -569,9 +584,12 @@ function ledger(s: VillageState, command: EconomyCommand): CommandResult {
 const asksOf = (e: EconomyState): Record<string, Record<string, number>> => Object.fromEntries(Object.entries(e.markets).map(([id, m]) => [id, Object.fromEntries(Object.entries(m.goods).map(([g, q]) => [g, q.ask]))]));
 /** The markets as the scenario opens them: their usual stock, their usual prices, their usual purse. */
 export const marketsOf = (sc: Scenario): Record<string, Market> => ({ village: sc.market, ...(sc.trade ? { [sc.trade.port.id]: sc.trade.port.market } : {}) });
+/** A price in minor units, brought down to a whole dinar. */
+export const wholeDinar = (minor: number): number => Math.floor(minor / MINOR) * MINOR;
 /** How far a market's prices stand from its usual ones, in thousandths, for what it holds of a good. */
-export function priceFactor(sc: Scenario, usual: number, holds: number): number {
-  const swing = sc.prices?.swing ?? 0;
+export function priceFactor(sc: Scenario, usual: number, holds: number, good?: string): number {
+  // A good may be given a narrower swing of its own, where a wide one would make something bought worth pressing.
+  const swing = (good !== undefined ? sc.prices?.swings?.[good] : undefined) ?? sc.prices?.swing ?? 0;
   if (swing === 0 || usual === 0) return 1000;
   return Math.max(1000 - swing, Math.min(1000 + swing, 1000 + Math.round((swing * (usual - holds)) / usual)));
 }
@@ -596,9 +614,10 @@ function marketsNight(sc: Scenario, s: VillageState): void {
       const leave = Math.max(0, -move);
       const paid = Math.max(0, Math.min(leave * u.bid, usual.cash - purse));
       purse += paid;
-      const f = priceFactor(sc, u.inventory, q.inventory + move);
-      const ask = Math.floor((u.ask * f) / 1000);
-      const bid = Math.floor((u.bid * f) / 1000);
+      const f = priceFactor(sc, u.inventory, q.inventory + move, good);
+      // Prices are whole dinars, so that what the page shows for one is what the ledger pays for one.
+      const ask = wholeDinar((u.ask * f) / 1000);
+      const bid = wholeDinar((u.bid * f) / 1000);
       if (arrive || leave || paid || ask !== q.ask || bid !== q.bid) changes.push({ market: id, good, arrive, leave, paid, ask, bid });
     }
   }
@@ -741,6 +760,8 @@ function apply(sc: Scenario, s: VillageState, cmd: VillageCommand): ActResult {
       if (s.carted + cmd.quantity > port.cartsPerDay) return { ok: false, why: "carts-full", detail: { left: port.cartsPerDay - s.carted } };
       // The carriage is paid on what leaves; the port pays for what arrives, at what it pays that morning. Everything
       // that could stop the load leaving is looked at before a dinar is spent.
+      // In the campaign's last year a load that would arrive after the year's end would never be paid for.
+      if (sc.final && s.day + port.days > sc.endDay) return { ok: false, why: "year-ending", detail: { days: port.days } };
       const free = have(s, cmd.good) - (s.economy.stock[cmd.good]?.reserved ?? 0);
       if (free < cmd.quantity) return { ok: false, why: "not-enough", detail: { have: free } };
       if (treasuryOf(s) < carriage * cmd.quantity) return { ok: false, why: "no-money", detail: { cost: carriage * cmd.quantity, have: treasuryOf(s) } };
@@ -755,6 +776,9 @@ function apply(sc: Scenario, s: VillageState, cmd: VillageCommand): ActResult {
     }
     case "accept": {
       if (!sc.trade) return { ok: false, why: "no-trade" };
+      // A contract that nothing sent today could reach in time is not taken: it could only fail.
+      const offer = sc.trade.contracts.find((c) => c.id === cmd.contract);
+      if (offer && s.economy.contracts[cmd.contract]?.state === "offered" && s.day + sc.trade.port.days > offer.byDay) return { ok: false, why: "contract-late", detail: { days: sc.trade.port.days } };
       const r = ledger(s, { kind: "accept-contract", contract: cmd.contract });
       return r.ok ? { ok: true, money: r.money } : refused(r);
     }
@@ -803,12 +827,10 @@ export function tick(sc: Scenario, state: VillageState): VillageState {
   const day = s.day;
   const events: string[] = [];
   // A question whose day has come is put; one left unanswered through its last day is answered by its `otherwise`.
+  // A question left unanswered through its last morning is answered by its `otherwise`, before that day is lived.
   for (const def of sc.decisions ?? []) {
     const d = s.decisions[def.id]!;
-    if (d.state === "ahead" && day >= def.day) {
-      s.decisions[def.id] = { state: "open", choice: null, day };
-      events.push(`asked:${def.id}`);
-    } else if (d.state === "open" && day >= d.day! + def.open) {
+    if (d.state === "open" && day >= d.day! + def.open - 1) {
       settle(sc, s, def, def.otherwise, "lapsed");
       events.push(`lapsed:${def.id}:${def.otherwise}`);
     }
@@ -880,7 +902,8 @@ export function tick(sc: Scenario, state: VillageState): VillageState {
   // 2. Hands: bringing in a ripe crop first, then the works, then tending what grows.
   const workers = workersOf(s);
   let free = workers;
-  for (const def of sc.plots) {
+  // The field the steward put first is brought in first, as it is watered and tended first.
+  for (const def of plots) {
     const p = s.plots[def.id]!;
     if (p.harvesting === null || p.standing === 0) continue;
     const hands = Math.min(free, Math.ceil(p.standing / HARVEST_RATE));
@@ -1030,10 +1053,18 @@ export function tick(sc: Scenario, state: VillageState): VillageState {
   marketsNight(sc, s);
 
   // The journal keeps what a steward would want to look back on: tasks done, things built, answers, contracts.
-  for (const e of events) if (/^(quest|built|placed|asked|lapsed|contract-failed|contract-kept|arrived|left):?/.test(e)) note(s, day, e);
+  for (const e of events) if (/^(quest|built|placed|lapsed|contract-failed|contract-kept|arrived|left):?/.test(e)) note(s, day, e);
 
   s.last = { day, rain: sky.rain, inflow: sky.inflow, townWater, townNeed, eaten, foodNeed: need, workers, idle: free, events };
   s.day = day + 1;
+  // A question is put on the morning of the day it names, so that it can be answered before that day is lived.
+  for (const def of sc.decisions ?? []) {
+    if (s.decisions[def.id]!.state === "ahead" && s.day >= def.day && s.day <= sc.endDay) {
+      s.decisions[def.id] = { state: "open", choice: null, day: s.day };
+      s.last.events.push(`asked:${def.id}`);
+      note(s, s.day, `asked:${def.id}`);
+    }
+  }
   if (s.day > sc.endDay) s.outcome = judge(sc, s);
   return s;
 }
@@ -1044,7 +1075,9 @@ function judge(sc: Scenario, s: VillageState): NonNullable<VillageState["outcome
   if (s.welfare < sc.goal.welfare) reasons.push("welfare");
   if (s.households < sc.goal.households) reasons.push("households");
   if (reserveDays(s) < sc.goal.reserveDays) reasons.push("reserve");
-  return { won: reasons.length === 0, reasons, score: s.welfare * 10 + s.households * 5 + Math.min(60, reserveDays(s)) * 5 + Math.floor(treasuryOf(s) / dinars(10)) };
+  // A penalty the treasury could not pay when it fell due is still owed, and is taken off what the treasury counts for.
+  const owed = Object.values(s.economy.contracts).reduce((n, c) => n + c.owed, 0);
+  return { won: reasons.length === 0, reasons, score: s.welfare * 10 + s.households * 5 + Math.min(60, reserveDays(s)) * 5 + Math.floor((treasuryOf(s) - owed) / dinars(10)) };
 }
 
 export const tasksOf = (sc: Scenario): TaskDef[] => sc.tasks ?? CLASSIC_TASKS;
@@ -1154,7 +1187,8 @@ export function invariants(sc: Scenario, s: VillageState): string[] {
       for (const [good, u] of Object.entries(usual.goods)) {
         const q = s.economy.markets[id]?.goods[good];
         if (!q) continue;
-        const [lo, hi] = [Math.floor((u.ask * (1000 - sc.prices.swing)) / 1000), Math.floor((u.ask * (1000 + sc.prices.swing)) / 1000)];
+        const swing = Math.max(sc.prices.swing, sc.prices.swings?.[good] ?? 0);
+        const [lo, hi] = [wholeDinar((u.ask * (1000 - swing)) / 1000), wholeDinar((u.ask * (1000 + swing)) / 1000)];
         if (q.ask < lo || q.ask > hi) bad.push(`${id} asks ${q.ask} for ${good}, outside ${lo} to ${hi}`);
       }
     }

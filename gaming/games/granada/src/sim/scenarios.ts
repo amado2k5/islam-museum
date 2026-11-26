@@ -65,7 +65,8 @@ export const WATER_FOR_THE_VALLEY: Scenario = {
   site: siteRefusal,
   // Prices move by up to fifteen parts in a hundred with what a market holds, and a market goes an eighth of the
   // way back to its usual stock each night. Fifteen is small enough that no market ever pays more than it asks.
-  prices: { swing: 150, drift: 120 },
+  // Olives move less: at the full swing, olives bought cheap from a glutted village could be pressed for more than they cost.
+  prices: { swing: 150, drift: 120, swings: { olives: 50 } },
   // In the heat of summer the village downstream asks for water. To share is to be paid and to run short; to refuse
   // costs nothing in dinars and something in how the households fare. Fiction, and the panel says so.
   decisions: [
@@ -168,6 +169,7 @@ export const A_DRY_YEAR: Scenario = {
   ...MERCHANTS_OF_MALAGA,
   id: "a-dry-year",
   follows: MERCHANTS_OF_MALAGA.id,
+  final: true,
   households: 80,
   housing: 80,
   treasury: dinars(1200),

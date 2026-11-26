@@ -19,6 +19,8 @@ export interface StageOptions {
   onSite?: (x: number, z: number) => void;
   /** A click on the land: true if something standing there took it, so that it is not a click on a field. */
   onLand?: (x: number, z: number) => boolean;
+  /** Any click on the valley, before anything else is made of it: true if the page has taken it. */
+  onTap?: () => boolean;
   onBuild?: (x: number, z: number) => void;
 }
 
@@ -68,9 +70,15 @@ export class Stage {
   }
   overview(): void {
     this.goal = clampPose(OVERVIEW, this.ground);
+    this.recentre();
   }
   home(): void {
     this.goal = clampPose(START, this.ground);
+    this.recentre();
+  }
+  /** While ground is being chosen, a view changed other than by moving the pointer puts the ring at the middle of the new view. */
+  private recentre(): void {
+    if (this.placing) this.options.onSite?.(this.goal.tx, this.goal.tz);
   }
   setPose(p: Pose, at_once = false): void {
     this.goal = clampPose(p, this.ground);
@@ -111,12 +119,16 @@ export class Stage {
     c.addEventListener("pointerup", (e) => {
       const wasClick = drag !== null && drag.moved < 5 && e.button === 0;
       drag = null;
+      if (wasClick && this.options.onTap?.()) return;
       if (wasClick && this.placing) {
         const p = this.renderer.landAt(e.clientX, e.clientY);
         if (p) this.options.onBuild?.(p[0], p[1]);
       } else if (wasClick) {
-        const p = this.renderer.landAt(e.clientX, e.clientY);
-        if (p && this.options.onLand?.(p[0], p[1])) return;
+        // A building is struck on its roof or its wall before the ground behind it: the ray is tried at roof height first.
+        for (const lift of [6, 3, 0]) {
+          const p = this.renderer.landAt(e.clientX, e.clientY, lift);
+          if (p && this.options.onLand?.(p[0], p[1])) return;
+        }
         const field = this.renderer.fieldAt(e.clientX, e.clientY);
         if (field) this.options.onField(field);
       }
@@ -124,6 +136,7 @@ export class Stage {
     c.addEventListener("wheel", (e) => {
       e.preventDefault();
       this.move(zoom(this.goal, Math.exp(e.deltaY * 0.0012)));
+      this.recentre();
     }, { passive: false });
     c.addEventListener("keydown", (e) => {
       const step = this.goal.distance * 0.08;
@@ -193,6 +206,12 @@ export class Stage {
   }
   screenOf(x: number, y: number, z: number): [number, number] | null {
     return this.renderer.screenOf(x, y, z);
+  }
+  /** A camera key pressed elsewhere on the page, passed on as if the valley had the keyboard. True if it was one. */
+  cameraKey(key: string): boolean {
+    const e = new KeyboardEvent("keydown", { key, bubbles: false, cancelable: true });
+    this.canvas.dispatchEvent(e);
+    return e.defaultPrevented;
   }
   /** Tells the valley that the player is choosing where to build (or has stopped); the first ground offered is the middle of the view. */
   setPlacing(on: boolean): void {

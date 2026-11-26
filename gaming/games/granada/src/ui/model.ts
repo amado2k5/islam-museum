@@ -129,7 +129,7 @@ export interface FieldCard {
    * What it will give if nothing more is ordered, by the rules run forward: in how many days, how much, whether the
    * store has room for it today, and what it would fetch in the village and (after carriage) at the port.
    */
-  expected: { inDays: number; units: number; fits: boolean; village: number; port: number | null } | null;
+  expected: { inDays: number; units: number; fits: boolean; village: number; villageShort: boolean; port: number | null } | null;
   /** The steward has put this field first for water and hands. */
   first: boolean;
 }
@@ -168,7 +168,7 @@ function fieldCardsOf(sc: Scenario, s: VillageState): FieldCard[] {
     return {
       hands: p.crop && p.ripeSince === null ? { have: Math.round((p.tended * CROPS[p.crop].tenders) / 1000), need: CROPS[p.crop].tenders } : null,
       lostToThirst: p.crop && p.ripeSince === null ? Math.floor((def.potential[p.crop]! * p.stress) / 1000) : 0,
-      expected: e ? { inDays: Math.max(0, e.day - s.day + (p.ripeSince === null ? 1 : 0)), units: e.units, fits: e.units <= freeCapacity(s.economy), village: wholeDinars(e.units * villageBid), port: port === null ? null : wholeDinars(e.units * port) } : null,
+      expected: e ? { inDays: Math.max(0, e.day - s.day + (p.ripeSince === null ? 1 : 0)), units: e.units, fits: e.units <= freeCapacity(s.economy), village: wholeDinars(Math.min(e.units * villageBid, s.economy.markets.village!.cash)), villageShort: e.units * villageBid > s.economy.markets.village!.cash, port: port === null ? null : wholeDinars(e.units * port) } : null,
       first: s.fieldFirst === def.id,
       id: def.id,
       crop: p.crop,
@@ -283,7 +283,7 @@ export interface ChainView {
   oil: { good: string; inStore: number; held: number };
   store: { free: number; room: number };
   /** `owed`: what the contract still wants sent. `onRoad`: oil travelling now. `days`: how long the road is. */
-  port: { id: string; net: number; cartsLeft: number; owed: number; canDeliver: number; onRoad: number; days: number };
+  port: { id: string; canSend: number; net: number; cartsLeft: number; owed: number; canDeliver: number; onRoad: number; days: number };
 }
 export function chainView(sc: Scenario, s: VillageState): ChainView | null {
   const tv = tradeView(sc, s);
@@ -298,7 +298,7 @@ export function chainView(sc: Scenario, s: VillageState): ChainView | null {
     press: { input, inStore: have(s, input), each: tv.press.each, canRun: tv.press.canRun, cost: tv.press.cost },
     oil: { good: tv.press.makes, inStore: have(s, tv.press.makes), held: s.economy.stock[tv.press.makes]?.reserved ?? 0 },
     store: { free: freeCapacity(s.economy), room: s.economy.capacity },
-    port: { id: tv.port.id, net: oilRow?.net ?? 0, cartsLeft: tv.port.cartsPerDay - tv.port.carted, owed: contract ? contract.units - contract.delivered - contract.onRoad : 0, canDeliver: contract?.canDeliver ?? 0, onRoad: tv.port.road.filter((r) => r.good === tv.press.makes).reduce((n, r) => n + r.quantity, 0), days: tv.port.days },
+    port: { id: tv.port.id, canSend: oilRow?.canSend ?? 0, net: oilRow?.net ?? 0, cartsLeft: tv.port.cartsPerDay - tv.port.carted, owed: contract ? contract.units - contract.delivered - contract.onRoad : 0, canDeliver: contract?.canDeliver ?? 0, onRoad: tv.port.road.filter((r) => r.good === tv.press.makes).reduce((n, r) => n + r.quantity, 0), days: tv.port.days },
   };
 }
 
@@ -336,7 +336,7 @@ export function marketRows(sc: Scenario, s: VillageState): MarketRow[] {
       bid: wholeDinars(q.bid),
       onOffer: q.inventory,
       canBuy: Math.max(0, Math.min(q.inventory, Math.floor(treasuryOf(s) / q.ask), inYard ? Number.MAX_SAFE_INTEGER : room)),
-      canSell: Math.max(0, Math.min(have(s, good), q.bid === 0 ? 0 : Math.floor(m.cash / q.bid))),
+      canSell: Math.max(0, Math.min(have(s, good) - (s.economy.stock[good]?.reserved ?? 0), q.bid === 0 ? 0 : Math.floor(m.cash / q.bid))),
     };
   });
 }
@@ -389,7 +389,7 @@ export function tradeView(sc: Scenario, s: VillageState): TradeView | null {
         revenue: wholeDinars(c.revenue),
         costs: wholeDinars(c.transport + c.fees),
         penalty: wholeDinars(c.penalty),
-        canAccept: c.state === "offered" && daysLeft > 0 && treasuryOf(s) >= c.transport + c.fees,
+        canAccept: c.state === "offered" && sendWithin > 0 && treasuryOf(s) >= c.transport + c.fees,
         canDeliver: c.state === "accepted" && sendWithin > 0 ? Math.max(0, Math.min(owed, have(s, c.good), cartsLeft)) : 0,
       };
     }),
@@ -407,7 +407,7 @@ export interface DecisionRow {
 export function decisionRows(sc: Scenario, s: VillageState): DecisionRow[] {
   return (sc.decisions ?? [])
     .filter((def) => s.decisions[def.id]?.state === "open")
-    .map((def) => ({ id: def.id, daysLeft: s.decisions[def.id]!.day! + def.open - s.day + 1, otherwise: def.otherwise, options: def.options.map((o) => ({ id: o.id, dinars: wholeDinars(o.dinars ?? 0), inflow: o.inflow ?? 0, welfare: o.welfare ?? 0, days: o.days ?? 0 })) }));
+    .map((def) => ({ id: def.id, daysLeft: s.decisions[def.id]!.day! + def.open - s.day, otherwise: def.otherwise, options: def.options.map((o) => ({ id: o.id, dinars: wholeDinars(o.dinars ?? 0), inflow: o.inflow ?? 0, welfare: o.welfare ?? 0, days: o.days ?? 0 })) }));
 }
 export function effectRows(s: VillageState): Array<{ kind: "inflow" | "welfare"; amount: number; daysLeft: number; from: string }> {
   return s.effects.filter((e) => e.untilDay >= s.day).map((e) => ({ kind: e.kind, amount: Math.abs(e.amount), daysLeft: e.untilDay - s.day + 1, from: e.from }));
@@ -478,7 +478,7 @@ export function advice(sc: Scenario, s: VillageState): Advice {
  * reserve too small at the scenario's end. It warns; it never plays the game for the player.
  */
 export interface Warning {
-  key: "warn_hunger" | "warn_thirst" | "warn_spoil" | "warn_contract" | "warn_reserve" | "warn_unsown";
+  key: "warn_hunger" | "warn_thirst" | "warn_spoil" | "warn_spoiling" | "warn_contract" | "warn_reserve" | "warn_unsown";
   /** How many days must pass for it to have happened: one is by tomorrow morning. */
   days: number;
   field?: string;
@@ -496,7 +496,8 @@ export function warnings(sc: Scenario, s: VillageState): Warning[] {
   if (thirsty >= 0) out.push({ key: "warn_thirst", days: thirsty + 1 });
   for (const def of sc.plots) {
     const day = first((x) => x.last!.events.some((e) => e.startsWith(`spoiled:${def.id}:`)));
-    if (day >= 0) out.push({ key: "warn_spoil", days: day + 1, field: def.id });
+    // A crop already spoiling is said to be spoiling, not about to begin.
+    if (day >= 0) out.push(s.plots[def.id]!.spoiled > 0 ? { key: "warn_spoiling", days: 0, field: def.id } : { key: "warn_spoil", days: day + 1, field: def.id });
   }
   for (const c of Object.values(s.economy.contracts)) {
     if (c.state !== "accepted") continue;
@@ -531,11 +532,13 @@ export function carryOver(sc: Scenario, s: VillageState): { households: number; 
 export function seasonFigures(sc: Scenario, s: VillageState): { inflow: number; wanted: number; fields: number | null; toWinter: number } {
   const today = flowOn(sc, s, s.day);
   const growing = sc.plots.map((def) => s.plots[def.id]!).filter((p) => p.crop !== null && p.ripeSince === null);
+  // Yesterday's fields: what grew yesterday, so not a field sown since, and with one that ripened only yesterday.
+  const grewYesterday = sc.plots.map((def) => s.plots[def.id]!).filter((p) => p.crop !== null && (p.ripeSince === null ? p.growth > 0 : p.ripeSince === s.day - 1));
   const wanted = waterNeed(s) + growing.reduce((n, p) => n + (today.rain ? Math.ceil(CROPS[p.crop!].water / 2) : CROPS[p.crop!].water), 0);
   return {
     inflow: today.inflow,
     wanted,
-    fields: growing.length && s.last ? Math.round(growing.reduce((n, p) => n + (p.watered * p.tended) / 1000, 0) / growing.length / 10) : null,
+    fields: grewYesterday.length && s.last ? Math.round(grewYesterday.reduce((n, p) => n + (p.watered * p.tended) / 1000, 0) / grewYesterday.length / 10) : null,
     toWinter: Math.max(0, 91 - s.day),
   };
 }
