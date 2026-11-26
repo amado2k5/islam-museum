@@ -6,10 +6,10 @@ _26 November 2026. The founder asked, in chat: "what is remaining for this game 
 
 | | Asked for | Exists today |
 |---|---|---|
-| Playing time | 20 to 30 hours on the main path, 40 to 60 for mastery | one scene of a few minutes, and a second trial quest of about five |
-| Quests | 50 | 1 playable; the other 49 named in the Atlas and marked "Not built yet" |
+| Playing time | 20 to 30 hours on the main path, 40 to 60 for mastery | one scene of a few minutes, and two trial quests of about five minutes each |
+| Quests | 50 | 3 playable (the flying scene and two short trial quests); the other 47 named in the Atlas and marked "Not built yet" |
 | Worlds | 10, each with its own thread and a part of the hub it restores | 10 named; none has a thread |
-| Systems of play | 12 | 3 in the flying scene (flight, the beam, talk); a 4th (a chain of parts) in the elephant clock trial quest, played with page controls |
+| Systems of play | 12 | 3 in the flying scene (flight, the beam, talk); a 4th (a chain of parts) in the elephant clock trial quest and a 5th (a cipher: counting, ranking and comparing signs) in the al-Kindi trial quest, both played with page controls |
 | Hub | a drawn place that visibly restores | a page: worlds, pages, how many are home, and one code-drawn picture of the open Atlas with a medallion for each world (a trial picture, plain signs, and a way to go to a world's list); not a place the bird can fly about in |
 | Prologue | 15 to 30 minutes that teach by doing | an opening story of five still panels (a code-drawn picture and a short paragraph each, in seven languages, skippable, shown once for a slot and readable again from the Atlas); no play in it, no animation, no voice, and no child has seen it |
 | Art | a look the founder accepts; cast, places, effects for 50 subjects | a code-drawn trial, not accepted, and by the author's own judgment below the founder's pictures |
