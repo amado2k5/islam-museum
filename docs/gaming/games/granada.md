@@ -1,6 +1,6 @@
 # Granada: state of the game
 
-_Updated 25 November 2026. Release status: **prototype**. Its first scenario, "Water for the Valley", can be played from start to finish in a browser, in seven languages, with the mouse or the keyboard alone, from panels and a drawn plan of the valley, and since 25 November 2026 in a 3D valley as well. **That valley is generated wholly from code and is still far from the painted concept image the founder judges it by** (see "The valley in 3D"); it has no sound of its own beyond the museum's music; and no person has played it: every playthrough so far is the author's script._
+_Updated 26 November 2026. Release status: **prototype**, on the test address only. Two years of the campaign can be played from start to finish in a browser, in seven languages, with the mouse or the keyboard alone, from panels and a drawn plan of the valley and in a 3D valley. **The 3D valley has the structure of the founder's target picture and not its finish** (see [`../spec-production/proof-granada.md`](../spec-production/proof-granada.md), which awaits his judgement). No person has played it: every playthrough so far is the author's script. Nothing has been measured on the founder's minimum machines. Its history is marked "historical review pending" and no reviewer is named. The step-by-step record is [`../LEDGER.md`](../LEDGER.md); what follows below "Added on 26 November 2026" is older and is corrected where it had become untrue._
 
 The founder's design is in [`../spec-granada/`](../spec-granada/) (the package of 25 November 2026, read in full). What was found before building is in [`../granada/g0-discovery.md`](../granada/g0-discovery.md); the gates are in [`../granada/acceptance.md`](../granada/acceptance.md); the decisions are [G-0009](../adr/G-0009-granada-eleventh-game.md), [G-0010](../adr/G-0010-granada-economy-kernel.md) and [G-0011](../adr/G-0011-granada-village-rules.md).
 
@@ -46,13 +46,34 @@ Late spring. The steward of a valley district has 60 households, 1,200 dinars, 2
 | Rebuild and extend the channel | 420 dinars, 20 timber, 40 stone, 40 worker-days; the terrace at full flow, and water to the meadow |
 | Order a ripe field brought in | Hands carry it in day by day; what does not fit waits, or is sold from the field at the market's buying price |
 | Sow a fallow field | Vegetables in spring or summer, wheat in autumn, where water reaches and the crop can grow |
-| Build a house or the granary | 160 dinars and 30 timber for ten more households; 240 dinars, 40 timber and 30 stone for 500 more units of store |
+| Build a house or a granary | 160 dinars and 30 timber for ten more households; 240 dinars, 40 timber and 30 stone for 500 more units of store. Since 26 November 2026 the player chooses its ground |
 | Buy and sell at the market | At its two prices, while its stock and its purse last |
 | Say who gets water first | Households or fields, when there is not enough for both |
 
 Five quests, each a condition the rules check and not a button: water reaching the terrace; the first harvest brought in or sold; twenty days of food held as winter approaches; a house built and a household arrived; the store once full and then with room again. The scenario is won at the end of winter if all five are done, welfare is at least 60, no household has been lost and twenty days of food are in store.
 
 The weather and the river's year are fixed by the seed, so what a forecast shows is what will happen unless the player acts. What the lab found, and what is wrong with the scenario as it stands, is in [G-0011](../adr/G-0011-granada-village-rules.md).
+
+## Added on 26 November 2026
+
+Each of these is its own merged change with tests, a play-through in real Chrome in English and Arabic, and a release to the test address; the figures and what was decided alone are in the ledger.
+
+| System | What a player can do | What it is not yet |
+|---|---|---|
+| A port, a press, a contract | Press olives into oil, send goods by cart to a port with its own prices and purse, take a contract that pays as oil arrives | Goods arrive the day they are sent; one port |
+| Prices that move | Sell into a market and see its price fall the next morning and recover; read each price's trend in words | No silk or ceramics; the movement is a rule for play |
+| Building on the land | Choose a house, a granary, a cistern or a garden and its ground, in 3D or on the plan; be refused, in words, on water, fields, roads, slopes, trees and what stands | Four things in four kinds; no castle, industry or culture; simple shapes |
+| Estates | Read on a field's card who tends it, what thirst has cost, what it will give and when by the rules run forward; put one field first | One kind of estate |
+| What lies ahead | See, soonest first, what will go wrong if nothing more is done; each line comes true on its day in tests | Not an adviser as a character |
+| A decision and a journal | Answer the village downstream, each answer's price shown first; look back at what happened | One question a year; its two sides are not evenly weighted |
+| The region | See Granada, Málaga, Almería and the Sierra Nevada at the museum's coordinates, with three layers of the game's own figures | A diagram, not a drawn map; no country's outline |
+| Buildings that can be chosen; the oil's road | Click the store, the market, the estate or a placed building for its card; follow oil from grove to port and act at each step | The mill, the mosque and the houses open nothing |
+| Photo Mode | Put the page away, move the camera, choose a lens, preview a season, rain or an hour's light, save the view | No focus or depth of field; scripted on one machine |
+| A second year | Go on from a won first year with the valley as it stands, into "The Merchants of Málaga" | Two short years; the balance is a first attempt |
+
+**Not built, on purpose:** defence, readiness, tribute and diplomacy. The founder's words are that conflict "must remain historically reviewed", and no reviewer is named.
+
+**What the clock says:** a day is a second and a half at normal speed; the two years together are about five and a half minutes of running clock. The founder's campaign lengths need a decision about pace that is his, made with people playing.
 
 ## The page
 
@@ -151,19 +172,21 @@ Evidence: [`../evidence/granada/g0/`](../evidence/granada/g0/) (as it stood when
 
 ## Not done
 
-- **The valley of the concept image.** The 3D valley that exists is generated shapes under good light: no authored buildings, trees or people, no animals, boats or carts, no walking, no reflections. Gate GRA12 has captures and no independent art review.
+- **The valley's finish.** The town, the wall, the palace, the estate and the mill are authored models with photographed surfaces; the land, the fields, every tree and the range are made by the game's code; the people are simple figures. There are ox-carts and no boats. It has the target's structure and not its finish: see [`../spec-production/proof-granada.md`](../spec-production/proof-granada.md).
 - **No person has played it.** The seven play runs are the author's script. The strings in five languages were translated by a Sonnet subagent and all seven tables are unread by a native speaker; the helper reported a dozen wordings it was unsure of, the clipped "{field}: ..." sentences among them.
 - No sound effects; the museum's music plays in a development build and is absent from a release until the tracks are hosted.
-- The scenario is too forgiving: three of the four scripted ways of playing win at least 95 campaigns in 100, and money has too little to do by the end ([G-0011](../adr/G-0011-granada-village-rules.md)).
-- One scenario of the campaign's three acts; no sandbox, no daily challenge, no undo.
-- Prices do not move; goods do not travel; there is one warehouse; the clock is a counter. See [G-0010](../adr/G-0010-granada-economy-kernel.md), "What it does not do yet".
-- Water, farming, labour, households and two kinds of building exist for one valley. A mill, a second market, goods that travel, construction in stages, diplomacy, defence: not started.
-- No historical statement of the game has been checked against a source, because the game makes none yet.
+- The first year is too forgiving: over 1,000 years of weather most scripted stewards win it more than nine times in ten. The second is a first balance: two ways of playing it win about half the time, where the design asks for three. Figures in the ledger.
+- Two short years of a campaign; no sandbox, no daily challenge, no undo.
+- Goods do not travel: they arrive the day they are sent. There is one warehouse.
+- Diplomacy and defence are not started, and wait on historical review. There is one valley, one port and one settlement.
+- No historical statement of the game has been checked by a person. Twelve entries for Granada are in the review ledger ([`../historical-review/ledger.md`](../historical-review/ledger.md)), all pending; most are labelled fiction.
 - The 3D valley is measured on one machine only (a fast one); no person has seen any of it.
 - The first random-play run settled no contract at all, because random cancelling always came first. The generator was changed and the test now demands more than 50 of each ending. It is recorded because a fuzz run that never reaches a path proves nothing about it.
 
 ## Next
 
-1. **The valley, nearer the concept.** Buildings, trees and people with more in them (generated in more detail, or authored: the founder's decision, see the ledger); people who walk, carts and boats; water that reflects; cascaded shadows; a measurement on a weaker machine; an interface in the concept's manner.
-2. A person plays it, and what they do is written down. Then Act I is tightened.
-3. Act II: prices that respond to stock, a mill, and goods that travel to Málaga.
+1. **The founder judges the proof frame.** Until then no art is made in number.
+2. **A person plays it**, and what they do is written down. Then both years are tightened, and the pace of the campaign is decided.
+3. **Named reviewers**, so that defence and diplomacy can be written and the pending history read.
+4. **The minimum machines**, by named operators.
+5. More of the campaign: goods that take time to travel, a second port, industry and culture in the catalogue, more years.

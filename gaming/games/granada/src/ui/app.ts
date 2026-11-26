@@ -1119,6 +1119,7 @@ async function main(): Promise<void> {
       "help",
       h("h2", {}, t("help")),
       h("p", {}, t("help_text")),
+      h("ul", { class: "plain", id: "help-more" }, ...(["help_ahead", "help_build", "help_trade", "help_choose", "help_years", "help_keys"] as const).filter((k) => k !== "help_build" || sc.catalogue).filter((k) => k !== "help_trade" || sc.trade).map((k) => h("li", {}, t(k)))),
       h("p", { class: "note" }, t("simulation_note")),
       h("h3", {}, t("language")),
       h("p", { class: "langs" }, ...LANGS.map((code) => h("a", { href: `?lang=${code}`, lang: code, "aria-current": code === lang ? "true" : undefined }, LANG_NAMES[code]!))),
