@@ -15,15 +15,15 @@ import sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import bpy  # noqa: E402
-from common import Part, clear_scene, cut, export_gltf, make_materials, paint_textures, render_preview, triangles  # noqa: E402
+from common import Part, clear_scene, cut, export_gltf, make_materials, render_preview, textures, triangles  # noqa: E402
 
 argv = sys.argv[sys.argv.index("--") + 1:] if "--" in sys.argv else []
-out_dir = os.path.abspath(argv[0]) if argv else os.path.abspath("gaming/media/models/granada")
+out_dir = os.path.abspath(argv[0]) if argv else os.path.abspath("gaming/media/models/granada/2")
 preview = os.path.abspath(argv[1]) if len(argv) > 1 else None
 
 clear_scene()
-# The textures are painted, without loss, into a working folder; the export writes the ones the game is given.
-materials = make_materials(paint_textures(os.path.join(out_dir, "_work")))
+# The textures are prepared, without loss, in a working folder; the export writes the ones the game is given.
+materials = make_materials(textures(os.path.join(out_dir, "_work")))
 
 L, D = 11.0, 8.0          # the house, along x and y
 BASE_H, WALL_H = 2.6, 4.0  # stone below, lime wash above

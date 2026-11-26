@@ -184,6 +184,81 @@ def paint_textures(directory, size=TEXTURE_SIZE):
     return sets
 
 
+# ------------------------------------------------- photographed materials ----
+# Surfaces photographed by others and given to the public domain (CC0) by Poly Haven: gaming/art/sources.json says
+# which, by whom, and the checksum of every file. They are media and are not in git; a machine without them gets the
+# painted sets above, so every script still runs. Each line: the kit's name for the surface, the source, how many
+# metres one repeat covers, a tint laid over the colour, and whether the picture must be turned so that its grain
+# runs up the texture as the kit expects.
+PHOTO_DIR = os.path.normpath(os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..", "media", "textures", "polyhaven"))
+PHOTO = {
+    "plaster": ("white_stucco_02", 1.8, (1.17, 1.15, 1.09), False),       # lime wash: lifted toward white
+    "plaster_warm": ("white_stucco_02", 1.8, (1.12, 0.99, 0.80), False),  # an ochre wash
+    "plaster_red": ("white_stucco_02", 1.8, (1.02, 0.76, 0.61), False),   # a red-earth render
+    "rooftile": ("clay_roof_tiles_02", 2.5, (1.0, 1.0, 1.0), False),      # the tiles run down the texture
+    "stone": ("rustic_stone_wall_02", 1.5, (1.05, 1.0, 0.93), False),
+    "wood": ("weathered_brown_planks", 1.8, (0.92, 0.84, 0.76), True),    # photographed with the boards lying across
+    "cobble": ("cobblestone_floor_04", 1.5, (1.0, 0.97, 0.9), False),
+}
+
+
+def photos_available():
+    return all(os.path.exists(os.path.join(PHOTO_DIR, slug, f"{slug}_diff_2k.jpg")) for slug, _, _, _ in PHOTO.values())
+
+
+def _photo(path, size):
+    """A photograph as an array, bottom row first, brought down to `size` by averaging whole blocks of pixels."""
+    image = bpy.data.images.load(path)
+    w, h = image.size
+    flat = np.empty(w * h * 4, dtype=np.float32)
+    image.pixels.foreach_get(flat)
+    bpy.data.images.remove(image)
+    pixels = flat.reshape(h, w, 4)[:, :, :3]
+    step = w // size
+    if step > 1:
+        pixels = pixels[: size * step, : size * step].reshape(size, step, size, step, 3).mean(axis=(1, 3))
+    return pixels
+
+
+def photo_textures(directory, size=TEXTURE_SIZE):
+    """The photographed sets, written into `directory` in the kit's own form, with the kit's tiling set to theirs."""
+    os.makedirs(directory, exist_ok=True)
+    sets = {}
+    for name, (slug, metres, tint, turn) in PHOTO.items():
+        folder = os.path.join(PHOTO_DIR, slug)
+        base = np.clip(_photo(os.path.join(folder, f"{slug}_diff_2k.jpg"), size) * np.array(tint, dtype=np.float32), 0, 1)
+        normal = _photo(os.path.join(folder, f"{slug}_nor_gl_2k.jpg"), size)
+        rough = _photo(os.path.join(folder, f"{slug}_rough_2k.jpg"), size)[:, :, 0]
+        if turn:
+            # A quarter turn of the picture. The slopes in a normal map are directions, so they turn with it.
+            base, rough, normal = np.rot90(base), np.rot90(rough), np.rot90(normal)
+            normal = np.stack([normal[:, :, 1], 1.0 - normal[:, :, 0], normal[:, :, 2]], axis=-1)
+        orm = np.stack([np.ones_like(rough), np.clip(rough, 0, 1), np.zeros_like(rough)], axis=-1)
+        sets[name] = {
+            "base": _save(f"{name}_base", np.ascontiguousarray(base), os.path.join(directory, f"{name}_base.png"), True),
+            "normal": _save(f"{name}_normal", np.ascontiguousarray(normal), os.path.join(directory, f"{name}_normal.png"), False),
+            "orm": _save(f"{name}_orm", np.ascontiguousarray(orm), os.path.join(directory, f"{name}_orm.png"), False),
+        }
+        TILE[name] = metres
+    return sets
+
+
+def textures(directory, size=TEXTURE_SIZE):
+    """Every texture set an asset may use: the photographed ones where this machine has them, the painted ones
+    otherwise, and the painted earth always. Says which, so that a build's log tells what it was made from."""
+    sets = paint_textures(directory, size)
+    if photos_available():
+        sets.update(photo_textures(directory, size))
+        print("ART textures: photographed (Poly Haven, CC0) for", ", ".join(sorted(PHOTO)), flush=True)
+    else:
+        # Without the photographs the extra names still exist, as the painted sets they stand in for.
+        for name, stands_for in (("plaster_warm", "plaster"), ("plaster_red", "plaster"), ("cobble", "stone")):
+            sets[name] = sets[stands_for]
+            TILE[name] = TILE[stands_for]
+        print("ART textures: painted by the kit (no photographed sets on this machine)", flush=True)
+    return sets
+
+
 # --------------------------------------------------------------- materials ----
 def make_materials(texture_sets):
     """One physically based material for each texture set, plus plain iron and water."""

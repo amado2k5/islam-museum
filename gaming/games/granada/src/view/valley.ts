@@ -444,8 +444,10 @@ export interface Scenery {
   olives: number[][];
   palms: number[][];
   stalls: number[][];
-  /** Where each house of the village stands, in the order houses are built. */
+  /** Where each house of the village stands, in the order houses are built. Empty lists when the town is authored. */
   houses: Chunk[][];
+  /** Where a piece of the authored town kit stands, when the valley is built for it; empty otherwise. */
+  kit: KitPlacement[];
   granary: Chunk[];
   /** The stone of the meadow's branch, which does not exist until the channel is rebuilt. */
   meadowChannel: Chunk[];
@@ -513,7 +515,36 @@ function roadMesh(path: Pt[], seed: number): MeshData {
   return b.build();
 }
 
-export function buildScenery(seed: number): Scenery {
+/** The houses of the authored town kit (gaming/art/blender/granada_town.py), in the order they are dealt out. */
+export const KIT_HOUSES = ["house-a", "house-b", "house-c", "house-d"] as const;
+/** One piece of the kit, set down: its front faces the way a frame of this yaw faces. */
+export interface KitPlacement {
+  piece: string;
+  x: number;
+  y: number;
+  z: number;
+  yaw: number;
+  scale: number;
+  /** A wash laid over the piece's plaster, so that no two houses are quite the same white. */
+  tint: Rgb;
+  /** The building lot this house is on, for a house that is built during play; null for one that was always there. */
+  lot: number | null;
+}
+
+/**
+ * Everything built in the valley. With `authoredTown` the houses are not made here: the places they stand are
+ * returned in `kit`, for models made ahead of time. Everything else is the same either way, tree for tree.
+ */
+export function buildScenery(seed: number, options: { authoredTown?: boolean } = {}): Scenery {
+  const authored = options.authoredTown === true;
+  const kit: KitPlacement[] = [];
+  let dealt = 0;
+  /** Stands a kit house where a made one would have stood, `width` metres wide. */
+  const stand = (x: number, yy: number, z: number, yaw: number, width: number, tint: Rgb, lot: number | null = null) => {
+    const piece = KIT_HOUSES[(dealt * 7 + 3) % KIT_HOUSES.length]!;
+    dealt++;
+    kit.push({ piece, x, y: yy - 0.35, z, yaw, scale: Math.round((width / 7.8) * 100) / 100, tint, lot });
+  };
   const rng = new Rng(hash32("granada-valley", seed >>> 0));
   const set = new MeshSet(4000);
   const y = (x: number, z: number) => heightAt(x, z, seed);
@@ -592,6 +623,10 @@ export function buildScenery(seed: number): Scenery {
 
   // Houses of the village, one group of chunks each, so that a new house can appear when it is built.
   const houses: Chunk[][] = HOUSE_LOTS.map((lot, i) => {
+    if (authored) {
+      stand(lot.x, y(lot.x, lot.z), lot.z, lot.yaw, 10 + (i % 3) * 1.5, [1, 0.99 - (i % 3) * 0.015, 0.96 - (i % 2) * 0.03], i);
+      return [];
+    }
     const hs = new MeshSet(4000);
     andalusiHouse(hs, frame(lot.x, y(lot.x, lot.z) - 0.2, lot.z, lot.yaw), 10 + (i % 3) * 1.5, 7 + ((i * 7) % 3), rng.fork(`house-${i}`));
     return hs.chunks().map((c) => ({ material: c.material, mesh: c.mesh }));
@@ -632,7 +667,12 @@ export function buildScenery(seed: number): Scenery {
     const dd = rng.range(8, 13);
     const hh = rng.range(3.5, 8);
     const lime = 0.84 + rng.range(0, 0.12);
-    townHouse(set, frame(cx, y(cx, cz), cz, rng.range(0, Math.PI)), w, dd, hh, [lime, lime * 0.97, lime * 0.9], [0.7 + rng.range(-0.06, 0.06), 0.37, 0.22]);
+    const turn = rng.range(0, Math.PI);
+    const roofRed = 0.7 + rng.range(-0.06, 0.06);
+    // Not in the river, nor on its bank: the slope's lowest houses used to stand in the water.
+    if (Math.abs(cz - riverZ(cx)) < RIVER_HALF + 12) continue;
+    if (authored) stand(cx, y(cx, cz), cz, turn, w, [lime / 0.96, (lime * 0.97) / 0.96, (lime * 0.9) / 0.96]);
+    else townHouse(set, frame(cx, y(cx, cz), cz, turn), w, dd, hh, [lime, lime * 0.97, lime * 0.9], [roofRed, 0.37, 0.22]);
   }
 
   // The old village: houses that were there before the steward came, round the square and along two lanes.
@@ -643,7 +683,11 @@ export function buildScenery(seed: number): Scenery {
     const lz = row ? 250 + (along % 3) * 3 : 132 - (along % 2) * 4;
     if (lx > 250) continue;
     if (built(lx, lz, 7) || nearRoad(lx, lz)) continue;
-    andalusiHouse(set, frame(lx, y(lx, lz) - 0.2, lz, row ? Math.PI + rng.range(-0.15, 0.15) : rng.range(-0.15, 0.15)), rng.range(8.5, 12), rng.range(6.5, 8.5), rng.fork(`old-${i}`));
+    const oldYaw = row ? Math.PI + rng.range(-0.15, 0.15) : rng.range(-0.15, 0.15);
+    const oldW = rng.range(8.5, 12);
+    const oldD = rng.range(6.5, 8.5);
+    if (authored) stand(lx, y(lx, lz), lz, oldYaw, oldW, [1, 0.985 - (i % 4) * 0.012, 0.95 - (i % 3) * 0.025]);
+    else andalusiHouse(set, frame(lx, y(lx, lz) - 0.2, lz, oldYaw), oldW, oldD, rng.fork(`old-${i}`));
     footprints.push({ x: lx, z: lz, r: 9 });
   }
 
@@ -651,7 +695,11 @@ export function buildScenery(seed: number): Scenery {
     const lx = -46 + (i % 2) * 22 + rng.range(-2, 2);
     const lz = 146 + Math.floor(i / 2) * 19 + rng.range(-2, 2);
     if (built(lx, lz, 7) || nearRoad(lx, lz)) continue;
-    andalusiHouse(set, frame(lx, y(lx, lz) - 0.2, lz, Math.PI / 2 + (i % 2) * Math.PI + rng.range(-0.2, 0.2)), rng.range(8.5, 11.5), rng.range(6.5, 8.5), rng.fork(`west-${i}`));
+    const westYaw = Math.PI / 2 + (i % 2) * Math.PI + rng.range(-0.2, 0.2);
+    const westW = rng.range(8.5, 11.5);
+    const westD = rng.range(6.5, 8.5);
+    if (authored) stand(lx, y(lx, lz), lz, westYaw, westW, [1, 0.98 - (i % 3) * 0.015, 0.94 - (i % 2) * 0.03]);
+    else andalusiHouse(set, frame(lx, y(lx, lz) - 0.2, lz, westYaw), westW, westD, rng.fork(`west-${i}`));
     footprints.push({ x: lx, z: lz, r: 9 });
   }
 
@@ -769,7 +817,7 @@ export function buildScenery(seed: number): Scenery {
   const mill = millSet.chunks().map((c) => ({ material: c.material, mesh: c.mesh }));
   // The authored mill's wheel hangs 5.35 m from its centre (gaming/art/manifest.json); the code-made one 5.7 m.
   const millAt = { x: MILL[0], y: y(MILL[0], MILL[1]) - 0.1, z: MILL[1] + 0.35, yaw: 0 };
-  return { chunks, cypresses, trees, citrus, almonds, gardens, poplars, scrub, olives, palms, stalls, houses, granary, meadowChannel, footprints, mill, millAt, wheel, cart: oxCart(), cartRoads: [roadLine(ROAD_WEST), roadLine(ROAD_EAST)], triangles: tris(chunks) + tris(granary) + houses.reduce((n, h) => n + tris(h), 0) };
+  return { chunks, cypresses, trees, citrus, almonds, gardens, poplars, scrub, olives, palms, stalls, houses, kit, granary, meadowChannel, footprints, mill, millAt, wheel, cart: oxCart(), cartRoads: [roadLine(ROAD_WEST), roadLine(ROAD_EAST)], triangles: tris(chunks) + tris(granary) + houses.reduce((n, h) => n + tris(h), 0) };
 }
 
 // ---- Crops -------------------------------------------------------------------------------------------------------------

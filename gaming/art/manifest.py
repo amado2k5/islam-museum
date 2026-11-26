@@ -16,7 +16,11 @@ import sys
 
 HERE = pathlib.Path(__file__).resolve().parent
 MODELS = HERE.parent / "media" / "models"
-ASSETS = [{"id": "granada/mill", "game": "granada", "title": "The watermill", "script": "blender/granada_mill.py", "folder": "granada", "entry": "mill.gltf"}]
+ASSETS = [
+    {"id": "granada/mill", "game": "granada", "title": "The watermill", "script": "blender/granada_mill.py", "folder": "granada/2", "entry": "mill.gltf"},
+    {"id": "granada/town", "game": "granada", "title": "The town's kit: four houses, a wall, a tower, a gate, scaffolding, a stall", "script": "blender/granada_town.py", "folder": "granada/2", "entry": "town.gltf", "kit": "town.kit.json"},
+]
+SOURCES = HERE / "sources.json"
 
 
 def sha(path):
@@ -38,8 +42,10 @@ def describe(asset):
         "id": asset["id"],
         "game": asset["game"],
         "title": asset["title"],
-        "madeBy": "this repository's own scripts, run in Blender; no file from outside, no photograph",
-        "licence": "the scripts: MIT, with the code; what they make: CC BY-SA 4.0, with the museum's media of its own",
+        "madeBy": "the shapes: this repository's own scripts, run in Blender. The surfaces: photographs given to the public domain by Poly Haven, named in art/sources.json, where this machine had them; painted by the scripts where it did not",
+        "licence": "the scripts: MIT, with the code; what they make: CC BY-SA 4.0, with the museum's media of its own; the photographed surfaces stay public domain (CC0)",
+        "surfaces": [s["id"] for s in json.loads(SOURCES.read_text())["sources"]] if SOURCES.exists() and any("plaster" in i["uri"] for i in gltf.get("images", [])) else [],
+        **({"kit": json.loads((folder / asset["kit"]).read_text())["pieces"]} if asset.get("kit") and (folder / asset["kit"]).exists() else {}),
         "sources": [{"path": f"art/{p}", "sha256": sha(HERE / p)} for p in ["blender/common.py", asset["script"]]],
         "objects": [n["name"] for n in gltf["nodes"] if "mesh" in n],
         # Where each part's origin is, in the export's own axes (y up; x along the building).

@@ -125,13 +125,13 @@ for (const game of manifest.games.filter((g) => g.page)) {
         if (threeD !== "on" && threeD !== "off") errors.push(`the 3D valley did not start: ${threeD}`);
         else if (threeD === "on") {
           if (withModels) {
-            // The authored mill is fetched from the host and takes the code-made one's place.
-            for (const end = Date.now() + 30_000; ((await page.evaluate("window.__GR__.stage().info().models.length")) as number) === 0; ) {
+            // The authored models are fetched from the host one after another; the mill is the last of them.
+            for (const end = Date.now() + 30_000; !((await page.evaluate("(() => { const i = window.__GR__.stage().info(); return i.models.includes('granada/mill') || i.modelFailures.length > 0; })()")) as boolean); ) {
               if (Date.now() > end) break;
               await page.waitForTimeout(200);
             }
             const models = (await page.evaluate("window.__GR__.stage().info()")) as { models: string[]; modelFailures: string[] };
-            if (!models.models.includes("granada/mill")) errors.push(`the authored mill did not load: ${models.modelFailures.join("; ") || "no reason given"}`);
+            for (const wanted of ["granada/town", "granada/mill"]) if (!models.models.includes(wanted)) errors.push(`the authored model ${wanted} did not load: ${models.modelFailures.join("; ") || "no reason given"}`);
           }
           await page.waitForTimeout(1200);
           const info = (await page.evaluate("window.__GR__.stage().info()")) as { triangles: number };

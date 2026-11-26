@@ -16,8 +16,13 @@ import { ROBE_TINTS, awningMesh, palmMesh, personBodyMesh, personHeadMesh, stall
 import type { Atmosphere } from "@im/worldkit/atmosphere";
 import type { TextureData, TextureKind } from "@im/worldkit/textures";
 import { FOV, eyeOf, type Pose } from "./camera";
-import { MODELS_AVAILABLE, disposeModel, loadModel } from "./models";
-import { CHANNELS, FIELDS, GRANARY, HOUSE_LOTS, MARKET, PLOT_GRID, POOL, STORE, VILLAGE, broadTree, buildLand, buildRange, buildRiver, buildScenery, channelWater, cropSpots, cypressTree, fieldAt, fieldGround, heightAt, oliveTree, orchardTree, plotTable, poolWater, poplarTree, vegetablePlant, wheatTuft, type Chunk } from "./valley";
+import { MODELS_AVAILABLE, disposeModel, disposeSharedMaterials, loadModel } from "./models";
+/**
+ * The folder of this game's models on the host. A file on the host is never replaced, so a set that changes gets a
+ * new folder, and a release that is rolled back to still finds the set it was made for.
+ */
+const MODEL_SET = "granada/2/";
+import { CHANNELS, FIELDS, GRANARY, HOUSE_LOTS, KIT_HOUSES, MARKET, PLOT_GRID, POOL, STORE, VILLAGE, broadTree, buildLand, buildRange, buildRiver, buildScenery, channelWater, cropSpots, cypressTree, fieldAt, fieldGround, heightAt, oliveTree, orchardTree, plotTable, poolWater, poplarTree, vegetablePlant, wheatTuft, type Chunk , type KitPlacement } from "./valley";
 
 export type Quality = "low" | "high";
 export interface ValleyOptions {
@@ -161,6 +166,7 @@ export class ValleyRenderer {
   private wheelTurns = false;
   private codeMill: THREE.Mesh[] = [];
   private millModel: THREE.Object3D | null = null;
+  private townModel: THREE.Object3D | null = null;
   private millWheel: THREE.Object3D | null = null;
   private readonly models: string[] = [];
   private readonly modelFailures: string[] = [];
@@ -297,10 +303,14 @@ export class ValleyRenderer {
     }
 
     // ---- What is built ----
-    const scenery = buildScenery(seed);
+    // The town's houses are models made ahead of time, where the host has them; the valley is then built without
+    // houses of its own and told where each one stands. Without them it makes its houses itself, as before.
+    const town = options.models && MODELS_AVAILABLE ? await this.loadTown() : null;
+    const scenery = buildScenery(seed, { authoredTown: town !== null });
     addChunks(scenery.chunks);
     this.meadowStone = addChunks(scenery.meadowChannel);
     this.houses = scenery.houses.map((h) => addChunks(h));
+    if (town) this.standTown(town, scenery.kit);
     this.granary = addChunks(scenery.granary);
     this.codeMill = addChunks(scenery.mill);
     // The authored mill is fetched while the valley is already on screen, and takes the code-made one's place.
@@ -526,9 +536,74 @@ export class ValleyRenderer {
     return { material: m, ground, rows: rowColour };
   }
 
+  /** Fetches the town kit and returns, for each piece, the shapes and surfaces it is made of. Null if it cannot be had. */
+  private async loadTown(): Promise<Map<string, Array<{ geometry: THREE.BufferGeometry; material: THREE.Material }>> | null> {
+    try {
+      const model = await loadModel(`${MODEL_SET}town.gltf`);
+      const pieces = new Map<string, Array<{ geometry: THREE.BufferGeometry; material: THREE.Material }>>();
+      for (const name of KIT_HOUSES) {
+        const node = model.getObjectByName(name);
+        if (!node) throw new Error(`the kit has no ${name}`);
+        const parts: Array<{ geometry: THREE.BufferGeometry; material: THREE.Material }> = [];
+        node.traverse((o) => {
+          const m = o as THREE.Mesh;
+          if (m.isMesh) parts.push({ geometry: m.geometry, material: m.material as THREE.Material });
+        });
+        pieces.set(name, parts);
+      }
+      this.townModel = model;
+      this.models.push("granada/town");
+      return pieces;
+    } catch (e) {
+      this.modelFailures.push(`granada/town: ${e instanceof Error ? e.message : String(e)}`);
+      return null;
+    }
+  }
+
+  /** Stands the kit's houses where the valley says: the ones built during play as meshes of their own, the rest in bulk. */
+  private standTown(town: Map<string, Array<{ geometry: THREE.BufferGeometry; material: THREE.Material }>>, kit: KitPlacement[]): void {
+    const at = new THREE.Object3D();
+    const set = (p: KitPlacement) => {
+      at.position.set(p.x, p.y, p.z);
+      at.rotation.set(0, p.yaw, 0);
+      at.scale.setScalar(p.scale);
+      at.updateMatrix();
+      return at.matrix;
+    };
+    const washed = (m: THREE.Material) => m.name.startsWith("plaster");
+    for (const [piece, parts] of town) {
+      const standing = kit.filter((p) => p.piece === piece && p.lot === null);
+      for (const part of parts) {
+        if (standing.length === 0) break;
+        const im = new THREE.InstancedMesh(part.geometry, part.material, standing.length);
+        const colour = new THREE.Color();
+        standing.forEach((p, i) => {
+          im.setMatrixAt(i, set(p));
+          im.setColorAt(i, washed(part.material) ? colour.setRGB(p.tint[0], p.tint[1], p.tint[2]) : colour.setRGB(1, 1, 1));
+        });
+        im.castShadow = true;
+        im.receiveShadow = true;
+        im.frustumCulled = false;
+        this.scene.add(im);
+      }
+    }
+    // A house on a building lot appears when it is built, so each is its own.
+    for (const p of kit.filter((k) => k.lot !== null)) {
+      const meshes = (town.get(p.piece) ?? []).map((part) => {
+        const m = new THREE.Mesh(part.geometry, part.material);
+        m.applyMatrix4(set(p));
+        m.castShadow = true;
+        m.receiveShadow = true;
+        this.scene.add(m);
+        return m;
+      });
+      this.houses[p.lot!] = meshes;
+    }
+  }
+
   private async loadMill(at: { x: number; y: number; z: number; yaw: number }): Promise<void> {
     try {
-      const model = await loadModel("granada/mill.gltf");
+      const model = await loadModel(`${MODEL_SET}mill.gltf`);
       if (this.disposed) return disposeModel(model);
       model.position.set(at.x, at.y, at.z);
       model.rotation.y = at.yaw;
@@ -910,6 +985,8 @@ export class ValleyRenderer {
   dispose(): void {
     this.disposed = true;
     if (this.millModel) disposeModel(this.millModel);
+    if (this.townModel) disposeModel(this.townModel);
+    disposeSharedMaterials();
     for (const d of this.disposables) d.dispose();
     this.pipeline?.dispose();
     this.renderer.dispose();
