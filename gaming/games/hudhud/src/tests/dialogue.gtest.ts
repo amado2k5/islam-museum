@@ -94,11 +94,11 @@ describe("the strings", () => {
     for (const k of ["prototype", "working_title", "review_note", "art_note", "note_uncertain", "privacy"]) expect(app.includes(`t("${k}")`), k).toBe(true);
   });
   it("use no clock and no unseeded chance in the rules", () => {
-    for (const f of ["sim/light.ts", "sim/chain.ts", "sim/move.ts", "sim/scene.ts", "narrative/dialogue.ts", "save/save.ts", "content/workshop.ts", "sim/clock.ts", "content/clock.ts", "sim/cipher.ts", "content/cipher.ts"]) {
+    for (const f of ["sim/light.ts", "sim/chain.ts", "sim/move.ts", "sim/scene.ts", "narrative/dialogue.ts", "save/save.ts", "content/workshop.ts", "sim/clock.ts", "content/clock.ts", "sim/cipher.ts", "content/cipher.ts", "sim/algebra.ts", "content/algebra.ts"]) {
       const src = readFileSync(resolve(__dirname, "..", f), "utf8");
       expect(/Math\.random|Date\.now|new Date|performance\.now/.test(src), f).toBe(false);
     }
     // The picture may only use the seeded generator, even for a blink.
-    for (const f of ["scenes/workshop.ts", "art/kit.ts", "art/world.ts", "art/cast.ts", "art/props.ts", "art/bench.ts", "art/cipher.ts"]) expect(/Math\.random/.test(readFileSync(resolve(__dirname, "..", f), "utf8")), f).toBe(false);
+    for (const f of ["scenes/workshop.ts", "art/kit.ts", "art/world.ts", "art/cast.ts", "art/props.ts", "art/bench.ts", "art/cipher.ts", "art/algebra.ts"]) expect(/Math\.random/.test(readFileSync(resolve(__dirname, "..", f), "utf8")), f).toBe(false);
   });
 });

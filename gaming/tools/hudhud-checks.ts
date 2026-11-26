@@ -6,6 +6,8 @@ import { mkdirSync, writeFileSync } from "node:fs";
 import { resolve } from "node:path";
 import { chromium, type BrowserContext, type Page } from "playwright-core";
 import { ATLASBOOK, worldCentre } from "../games/hudhud/src/art/atlasbook";
+import { algebraStart } from "../games/hudhud/src/content/algebra";
+import { moveName, shortest } from "../games/hudhud/src/sim/algebra";
 import { leaveOpening } from "./hudhud-opening";
 import { serveWorkspace } from "./serve";
 
@@ -445,7 +447,7 @@ for (const lang of ["en", "ar"]) {
   // And the quest can be entered again from there.
   await playing(page);
   const again = await ev<{ turns: number; done: boolean }>(page, "({ turns: window.__HH__.state().turns, done: window.__HH__.state().done })");
-  record(`the Atlas shows ten worlds and fifty pages, three of them open, and one comes home (${lang})`, before.worlds === 10 && before.pages === 50 && before.open === 3 && before.stageHidden && /\D0\D|٠/.test(` ${before.progress} `) && /\D1\D|١/.test(` ${after.progress} `) && after.hubShown && after.canvases === 0 && !after.started && again.turns === 0 && !again.done, { before, after, again });
+  record(`the Atlas shows ten worlds and fifty pages, four of them open, and one comes home (${lang})`, before.worlds === 10 && before.pages === 50 && before.open === 4 && before.stageHidden && /\D0\D|٠/.test(` ${before.progress} `) && /\D1\D|١/.test(` ${after.progress} `) && after.hubShown && after.canvases === 0 && !after.started && again.turns === 0 && !again.done, { before, after, again });
   await ctx.close();
 }
 // The puzzle is not the same in the three ways of playing: five mirrors with two positions, six with three, seven with
@@ -653,6 +655,92 @@ for (const lang of ["en", "ar"]) {
   record("al-Kindi's secret page in Arabic runs right to left and names every sign and mark in Arabic",
     arView.dir === "rtl" && arView.heading === "الكندي" && arView.captions.length === 2 && /الأكثر إلى الأقل/.test(arView.captions[0]!) && arView.options.length === 8 && arView.options[0] === "لم تُختر بعد" && arView.options.slice(1).every((o) => /^ال/.test(o)) && /^العلامة التي يدل عليها ال/.test(arView.first) && /٢٤ رمزًا/.test(arView.alt ?? ""),
     arView);
+  await arCtx.close();
+}
+// The fourth quest, al-Khwarizmi and the locked box: the problem said in words at every step, a move that does not
+// apply is a slip and says so, both questions, the child answered kindly, the feather, the fewest moves played by the
+// page's own buttons, four goals, the links, and the Atlas counts it. Then one move, the page loaded again, and "Continue".
+{
+  const ctx = await browser.newContext({ viewport: { width: 1280, height: 900 } });
+  let page = await open(ctx, "&style=explorer");
+  const QUEST = "w02q2-al-khwarizmi";
+  const button = page.locator(`.hub button[data-quest='${QUEST}']`);
+  const isPlain = await button.evaluate((b) => !b.classList.contains("primary"));
+  const label = await button.textContent();
+  const hubNote = await ev<string>(page, "[...document.querySelectorAll('.hub p.small')].map((p) => p.textContent).join(' | ')");
+  await button.click();
+  await page.waitForFunction("window.__HH__.algebra() !== null");
+  const heading = await page.locator(".bench h2").textContent();
+  const words = () => ev<string>(page, "document.querySelector('.bench .equation').textContent");
+  const view = () => ev<{ moves: number; slips: number; flags: string[]; done: boolean; sentence: string }>(page, "(() => { const a = window.__HH__.algebra(); return { moves: a.moves, slips: a.slips, flags: a.flags, done: a.done, sentence: a.sentence }; })()");
+  const first = await words();
+  const page1 = await ev<{ live: string | null; alt: string | null; role: string | null; inline: number; buttons: { move: string | undefined; w: number; h: number; off: boolean }[]; trial: boolean; polite: string | null }>(page, "(() => ({ live: document.querySelector('.bench .equation').getAttribute('aria-live'), alt: document.querySelector('.bench canvas.algebra-art').getAttribute('aria-label'), role: document.querySelector('.bench canvas.algebra-art').getAttribute('role'), inline: document.querySelectorAll('.bench [style]:not(canvas)').length, buttons: [...document.querySelectorAll('.bench .moves button')].map((b) => ({ move: b.dataset.move, w: b.getBoundingClientRect().width, h: b.getBoundingClientRect().height, off: b.disabled })), trial: /first trial/.test(document.querySelector('.bench').textContent), polite: document.querySelector('.bench .ran').getAttribute('aria-live') }))()");
+  // A move that does not apply changes nothing, is a slip, and the Explorer is told which kind of move does not apply here.
+  await page.locator(".bench .moves button[data-move='balance-number']").click();
+  const slip = { words: await page.locator(".bench .ran").textContent(), sentence: await words(), v: await view() };
+  if (outDir) await page.screenshot({ path: resolve(outDir, "hudhud-algebra-bench.png"), fullPage: true });
+  for (const name of ["Ask how he wrote problems", "Ask about the two operations", "Talk to the child who carries the box"]) await page.getByRole("button", { name }).click();
+  await page.getByRole("button", { name: "It is all right. We will find the number together." }).click();
+  await page.getByRole("button", { name: "Look under the box" }).click();
+  const asked = await view();
+  // The fewest moves, pressed on the page's own buttons; the sentence is checked after each.
+  const path = shortest(algebraStart("explorer"))!.map(moveName);
+  const said: string[] = [];
+  const onRestoreFocus: string[] = [];
+  for (const m of path) {
+    await page.locator(`.bench .moves button[data-move='${m}']`).click();
+    said.push(await words());
+    if (m.startsWith("restore")) onRestoreFocus.push(await ev<string>(page, "document.activeElement && document.activeElement.closest('.bench') ? document.activeElement.tagName : 'lost'"));
+  }
+  await page.waitForSelector(".bench .results:not([hidden])");
+  const end = await ev<{ done: boolean; moves: number; slips: number; met: number; focus: string; links: string[]; pending: string; saved: boolean; resume: unknown; notes: number }>(page, "({ done: window.__HH__.algebra().done, moves: window.__HH__.algebra().moves, slips: window.__HH__.algebra().slips, met: document.querySelectorAll('.bench .results .goals .met').length, focus: document.activeElement ? document.activeElement.textContent : '', links: [...document.querySelectorAll('.bench .results a')].map((a) => a.getAttribute('href')), pending: document.querySelector('.bench .results .pending').textContent, saved: JSON.parse(localStorage.getItem('im.hudhud.save.v1') || '{}').slots?.[0]?.quests?.['w02q2-al-khwarizmi']?.done === true, resume: JSON.parse(localStorage.getItem('im.hudhud.save.v1') || '{}').slots?.[0]?.resume ?? null, notes: document.querySelectorAll('.bench .results .note p').length })");
+  if (outDir) await page.screenshot({ path: resolve(outDir, "hudhud-algebra-results.png"), fullPage: true });
+  await page.getByRole("button", { name: "Back to the Atlas" }).last().click();
+  const back = await ev<{ progress: string; label: string; benchHidden: boolean; primary: string; cipher: string; open: number }>(page, "({ progress: document.querySelector('.hub .progress').textContent, label: document.querySelector(\"button[data-quest='w02q2-al-khwarizmi']\").textContent, benchHidden: document.querySelector('.bench').hidden, primary: document.querySelector('.hub button.primary').textContent, cipher: document.querySelector(\"button[data-quest='w02q3-al-kindi']\").textContent, open: document.querySelectorAll('.hub .world li.open').length })");
+  record("al-Khwarizmi's locked box can be played with the page's own buttons: the problem said in words at every step in a polite live region, a move that does not apply is a slip that says so, both questions, the child, the feather, the fewest moves, four goals, the links, and the Atlas counts it",
+    isPlain && /^Play: /.test(label ?? "") && /Four quests are built/.test(hubNote) && heading === "al-Khwarizmi" && first === "3 things less 4 equal 1 thing and 6" && page1.live === "polite" && page1.polite === "polite" && page1.role === "img" && (page1.alt ?? "").includes(first) && page1.inline === 0 && page1.trial &&
+    page1.buttons.map((b) => b.move).join() === "restore-left-number,balance-things,balance-number,share" && page1.buttons.every((b) => b.w >= 44 && b.h >= 44 && !b.off) &&
+    /^Balancing does not apply here\.$/.test(slip.words ?? "") && slip.sentence === first && slip.v.slips === 1 && slip.v.moves === 0 &&
+    asked.flags.slice().sort().join() === "answered,askedOps,askedWords,feather,kind" &&
+    path.join() === "restore-left-number,balance-things,share" && said.join(" | ") === "3 things equal 1 thing and 10 | 2 things equal 10 | 1 thing equal 5" && onRestoreFocus.join() === "BUTTON" &&
+    end.done && end.moves === 3 && end.slips === 1 && end.met === 4 && end.focus === "The page is home" && end.saved && end.resume === null && end.notes === 8 &&
+    end.links.join() === "https://islam.museum/en/person/al-khwarizmi/,https://islam.museum/en/work/al-jabr-wal-muqabala/,https://islam.museum/en/invention/algebra/" && /Historical review pending/.test(end.pending) &&
+    /\D1\D/.test(` ${back.progress} `) && /^Play again: /.test(back.label) && back.benchHidden && /Ibn al-Haytham/.test(back.primary) && /^Play: /.test(back.cipher) && back.open === 4,
+    { label, isPlain, heading, first, page1, slip, asked, path, said, onRestoreFocus, end, back, hubNote });
+  await ctx.close();
+  // Left in the middle: one move made, the page loaded again, and the Atlas says Continue; the same sentence is there.
+  const ctx2 = await browser.newContext({ viewport: { width: 1280, height: 900 } });
+  page = await open(ctx2, "&style=explorer");
+  await page.locator(`.hub button[data-quest='${QUEST}']`).click();
+  await page.locator(".bench .moves button[data-move='restore-left-number']").click();
+  const mid = await words();
+  const keptNow = await ev<{ quest: string; snap: { moves: number } } | null>(page, "JSON.parse(localStorage.getItem('im.hudhud.save.v1') || '{}').slots?.[0]?.resume ?? null");
+  await ev(page, "window.__HH__.saveReady()");
+  await page.reload();
+  await page.waitForFunction("window.__HH__ && window.__HH__.ready");
+  const hubLabels = await ev<{ label: string; restart: number; flying: boolean; primary: string }>(page, "({ label: document.querySelector(\"button[data-quest='w02q2-al-khwarizmi']\").textContent, restart: [...document.querySelectorAll('.hub li.open button')].filter((b) => b.textContent === 'Start this quest again').length, flying: window.__HH__.resumed(), primary: document.querySelector('.hub button.primary').textContent })");
+  await page.locator(`.hub button[data-quest='${QUEST}']`).click();
+  const after = await ev<{ sentence: string; moves: number; shown: string }>(page, "({ sentence: window.__HH__.algebra().sentence, moves: window.__HH__.algebra().moves, shown: document.querySelector('.bench .equation').textContent })");
+  if (outDir) await page.screenshot({ path: resolve(outDir, "hudhud-algebra-resumed.png"), fullPage: true });
+  record("al-Khwarizmi's box left in the middle is kept, the Atlas says Continue and offers a new start, and the same problem in words is there when it is opened again",
+    mid === "3 things equal 1 thing and 10" && keptNow?.quest === QUEST && keptNow.snap.moves === 1 && /^Continue: /.test(hubLabels.label) && hubLabels.restart === 1 && !hubLabels.flying && /^Play: /.test(hubLabels.primary) && after.sentence === mid && after.shown === mid && after.moves === 1,
+    { mid, keptNow, hubLabels, after });
+  await ctx2.close();
+  // The page in Arabic runs right to left, with Arabic numerals and the right plural, and the first side on the right.
+  const arCtx = await browser.newContext({ viewport: { width: 1280, height: 900 } });
+  const ar = await arCtx.newPage();
+  ar.on("pageerror", (e) => errors.push(String(e)));
+  await ar.goto(`${served.base}/games/hudhud/index.html?lang=ar&music=off&style=explorer`);
+  await ar.waitForFunction("window.__HH__ && window.__HH__.ready");
+  await leaveOpening(ar);
+  await ar.locator(`.hub button[data-quest='${QUEST}']`).click();
+  const arView = await ev<{ dir: string; heading: string; sentence: string; alt: string | null; buttons: string[]; first: number }>(ar, "({ dir: document.documentElement.dir, heading: document.querySelector('.bench h2').textContent, sentence: document.querySelector('.bench .equation').textContent, alt: document.querySelector('.bench canvas.algebra-art').getAttribute('aria-label'), buttons: [...document.querySelectorAll('.bench .moves button')].map((b) => b.textContent), first: 0 })");
+  if (outDir) await ar.screenshot({ path: resolve(outDir, "hudhud-algebra-bench-ar.png"), fullPage: true });
+  await ar.locator(".bench .moves button").first().click();
+  const arAfter = await ev<string>(ar, "document.querySelector('.bench .equation').textContent");
+  record("al-Khwarizmi's box in Arabic runs right to left, says the problem with Arabic numerals and the right plural (one, then two), and names the first side as the right one",
+    arView.dir === "rtl" && arView.heading === "الخوارزمي" && arView.sentence === "٣ أشياء إلا ٤ تعدل شيئًا واحدًا و٦" && (arView.alt ?? "").includes(arView.sentence) && /الجهة اليمنى/.test(arView.buttons[0] ?? "") && /٤/.test(arView.buttons[0] ?? "") && arAfter === "٣ أشياء تعدل شيئًا واحدًا و١٠",
+    { arView, arAfter });
   await arCtx.close();
 }
 // 6. The opening story, not skipped: a fresh visitor meets it before the Atlas, reads it through by the buttons, and

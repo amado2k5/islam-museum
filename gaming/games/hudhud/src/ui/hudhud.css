@@ -147,6 +147,9 @@ main:focus { outline: none; }
 .bench button:disabled, .bench select:disabled { opacity: 0.55; cursor: default; }
 /* The third quest's page: the secret page's picture and two tables of counts, played with lists of choices. */
 .bench canvas.cipher-art { aspect-ratio: 1000 / 420; }
+.bench canvas.algebra-art { aspect-ratio: 1000 / 420; }
+.bench .equation { margin: 4px 0 8px; font-size: 1.25rem; font-weight: 700; color: var(--gold); }
+.bench .moves button { text-align: start; }
 .bench .tables { display: grid; gap: 14px; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); margin-block: 10px; }
 .bench table.counts { width: 100%; border-collapse: collapse; background: var(--panel); border: 1px solid var(--line); }
 .bench table.counts caption { font-weight: 700; text-align: start; padding: 8px 4px; }
