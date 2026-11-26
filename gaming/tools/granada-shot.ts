@@ -68,6 +68,11 @@ if (threeD === "on" && process.env.MEASURE) {
   await shot("6-terraces", "{ tx: 330, ty: 14, tz: 100, yaw: 1.9, pitch: 0.34, distance: 230 }");
   await shot("7-channels", "{ tx: 120, ty: 4, tz: 30, yaw: 0.2, pitch: 0.5, distance: 110 }");
   await shot("8-hill-town", "{ tx: 540, ty: 20, tz: -60, yaw: 1.35, pitch: 0.16, distance: 330 }");
+  // DAYS lets that many days pass first, to see a later season.
+  if (process.env.DAYS) {
+    await page.evaluate(`window.__GR__.days(${Number(process.env.DAYS)})`);
+    await page.waitForTimeout(2500);
+  }
   if (process.env.PROOF) {
     // Candidate views for the proof frame: the estate before, the lower town, the wall and the palace behind.
     for (const [name, pose] of Object.entries(JSON.parse(process.env.PROOF) as Record<string, unknown>)) await shot(`proof-${name}`, JSON.stringify(pose));
