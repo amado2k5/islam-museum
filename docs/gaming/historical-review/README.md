@@ -1,6 +1,6 @@
 # Historical review of the games
 
-_Set up on 26 November 2026 on the founder's instructions of that day ([`../spec-production/owner-decisions-2026-11-26.md`](../spec-production/owner-decisions-2026-11-26.md), section 3; [`owner-decisions-2026-11-26-b.md`](../spec-production/owner-decisions-2026-11-26-b.md), O1). The ledger is [`ledger.json`](ledger.json), shown as [`ledger.md`](ledger.md); the briefs for the six reviewers are [`reviewer-briefs.md`](reviewer-briefs.md). **No reviewer has been named, so every entry reads \"historical review pending\", nothing here is approved, and historical approval of any production release is blocked.**_
+_Set up on 26 November 2026 on the founder's instructions of that day ([`../spec-production/owner-decisions-2026-11-26.md`](../spec-production/owner-decisions-2026-11-26.md), section 3; [`owner-decisions-2026-11-26-b.md`](../spec-production/owner-decisions-2026-11-26-b.md), O1). The ledger is [`ledger.json`](ledger.json), shown as [`ledger.md`](ledger.md); the briefs for the six reviewers are [`reviewer-briefs.md`](reviewer-briefs.md). **No reviewer has been named, so every entry reads "historical review pending", nothing here is approved, and historical approval of any production release is blocked.**_
 
 ## The rule
 
@@ -32,4 +32,4 @@ An AI may research, gather sources and draft. It never approves its own historic
 
 ## What is open
 
-Six reviewers and the museum's editor: none is named ([`../spec-production/owner-register.md`](../spec-production/owner-register.md), P1 and P2). Writing the briefs does not close this. **Not yet done:** the words "historical review pending" are in the ledger and not yet on the games' own pages, where the museum's records are linked and quoted; that is the next change to the games (plan package H5).
+Six reviewers and the museum's editor: none is named ([`../spec-production/owner-register.md`](../spec-production/owner-register.md), P1 and P2). Writing the briefs does not close this. The words "historical review pending" stand on each game's own page beside its note on history, in seven languages, and a test keeps them there while any entry of that game is pending (`gaming/games/review-mark.gtest.ts`).
