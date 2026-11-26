@@ -377,4 +377,8 @@ def export_with_wear(path, objects):
     bpy.context.view_layer.objects.active = objects[0]
     wanted = dict(filepath=path, export_format="GLTF_SEPARATE", use_selection=True, export_apply=True, export_yup=True, export_tangents=True, export_texture_dir="textures", export_image_format="JPEG", export_image_quality=90, export_jpeg_quality=90, export_materials="EXPORT", export_cameras=False, export_lights=False, export_extras=True, export_vertex_color="ACTIVE", export_all_vertex_colors=False, export_active_vertex_color_when_no_material=True)
     known = set(bpy.ops.export_scene.gltf.get_rna_type().properties.keys())
+    # A setting this Blender does not know is left out, as in common.export_gltf; but not the one that carries the
+    # wear, without which the model would be exported clean and nothing would say so.
+    if "export_vertex_color" not in known:
+        raise RuntimeError("this Blender's glTF export has no export_vertex_color setting: the wear's colour layer would be lost")
     bpy.ops.export_scene.gltf(**{k: v for k, v in wanted.items() if k in known})

@@ -42,16 +42,6 @@ def faces(frame, w, d):
     return [(frame.sub((0, -d / 2, 0), 0.0), w), (frame.sub((w / 2, 0, 0), math.pi / 2), d), (frame.sub((0, d / 2, 0), math.pi), w), (frame.sub((-w / 2, 0, 0), -math.pi / 2), d)]
 
 
-def patches(frame, length, height, y=0.0, count=3, material="stone"):
-    """Places where the render has come away and the wall behind shows, or has been mended in another colour."""
-    for _ in range(0):                 # tried, and taken out: a patch laid on a wall reads as a label stuck to it
-        w, h = rng.uniform(0.8, 2.6), rng.uniform(0.5, 1.6)
-        x = rng.uniform(-length / 2 + w, length / 2 - w)
-        z = rng.uniform(0.9, max(1.0, height * 0.6))
-        frame.box((w, 0.05, h), (x, y - 0.012, z), material=material, bevel=0.0)
-        frame.box((w * 0.6, 0.05, h * 0.55), (x + w * 0.5, y - 0.012, z - h * 0.4), material=material)
-
-
 def tower(frame, w, d, h, wall=RED, quoins=False, windows="slits", pavilion=None, flag=False):
     """A tower on a spread foot: courses, the holes of its shuttering, lights near the top, a corbelled head and
     capped merlons; on the greater ones a roofed room above, open in arches."""
@@ -69,7 +59,9 @@ def tower(frame, w, d, h, wall=RED, quoins=False, windows="slits", pavilion=None
             side.box((0.24, 0.36, 0.42), (-length / 2 + (i + 0.5) * length / n, -0.17, h - 0.48), material="stone")
         capped_merlons(side, length + 0.3, -0.1, h + 0.87, material=wall, size=(0.8, 0.5, 0.9), gap=1.6)
         putlog_holes(side, length - 1.0, 4.4, h - 4.0, every=1.5)
-        patches(side, length - 1.5, h, count=2, material=rng.choice(("stone", WARM)))
+        # A draw left from patches of fallen render that were tried here and taken out. It is kept because every
+        # random choice after it depends on it: without it this would be another palace than the one that was judged.
+        rng.choice(("stone", WARM))
         if windows == "twin" and length >= 5:
             twin_window(side, 0, h - 6.2, width=min(1.7, length * 0.24), height=2.0)
             if length >= 9:
@@ -123,8 +115,6 @@ def curtain(a, b, h, t=1.9):
     capped_merlons(f, length - 1.0, -t / 2 + 0.25, h + 1.0, material=RED)
     outer = f.sub((0, -t / 2, 0))
     putlog_holes(outer, length - 6.0, 3.6, h - 2.4)
-    patches(outer, length - 8.0, h, count=max(2, int(length / 7)), material="stone")
-    patches(outer, length - 8.0, h, count=max(1, int(length / 10)), material=WARM)
     # A buttress or two where the wall is long, each with a sloped head.
     for k in range(int(length // 15)):
         x = -length / 2 + (k + 1) * length / (int(length // 15) + 1)
@@ -158,7 +148,6 @@ def hall(frame, w, d, h, wall=WHITE, roof="hip", storeys=2, front="lattice", doo
                     side.box((0.74, 0.1, 0.12), (x, -0.03, z + 1.1), material="stone")
                 else:
                     lattice(side, x, z, width=0.95, height=1.3)
-        patches(side, length - 1.0, h, count=1, material=WARM if wall != WARM else WHITE)
     if roof == "hip":
         return h + hip_roof(frame, w, d, h, pitch=pitch)
     if roof == "gable":
@@ -379,6 +368,12 @@ print("ART palace-c: exported", os.path.join(out_dir, "palace.gltf"), flush=True
 
 if preview_dir:
     os.makedirs(preview_dir, exist_ok=True)
+    # The ground of the pictures has a plain surface of its own. The palace's "earth" takes its colour from the wear
+    # layer, which the pictures' ground does not have, and drew it dark.
+    preview_ground = bpy.data.materials.new("preview-earth")
+    preview_ground.use_nodes = True
+    preview_ground.node_tree.nodes["Principled BSDF"].inputs["Base Color"].default_value = (0.33, 0.27, 0.19, 1)
+    preview_ground.node_tree.nodes["Principled BSDF"].inputs["Roughness"].default_value = 0.95
     for name, look_at, distance, azimuth, elevation in (("palace-wide", (0, 0, 9), 150, -24, 20), ("palace-far", (0, 0, 10), 330, -12, 9), ("palace-near", (2, -8, 8), 78, 14, 13), ("palace-court", (10, 0, 5), 70, 38, 38)):
-        render_preview(os.path.join(preview_dir, name + ".png"), look_at=look_at, distance=distance, azimuth_deg=azimuth, elevation_deg=elevation, ground_material=materials["earth"], samples=64)
+        render_preview(os.path.join(preview_dir, name + ".png"), look_at=look_at, distance=distance, azimuth_deg=azimuth, elevation_deg=elevation, ground_material=preview_ground, samples=64)
         print("ART palace-c: preview", name, flush=True)
