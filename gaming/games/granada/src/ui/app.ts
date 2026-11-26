@@ -103,9 +103,18 @@ async function main(): Promise<void> {
   const sceneBox = h("div", { class: "scenebox", hidden: true });
   const viewBar = h("div", { class: "viewbar", role: "group", hidden: true });
   mapBox.append(viewBar, sceneBox, map);
+  // Round the valley, as the founder's target picture arranges them: a rail of the game's parts down one side, what
+  // is asked of the steward beside it, the part in hand on the other side, and the season in the corner. On the plan,
+  // or in a window too small for that, the same four stand in one column beside the land.
+  const rail = h("nav", { class: "rail", role: "tablist", "aria-label": t("rail_label") });
+  const objectives = h("aside", { class: "objectives", id: "objectives", "aria-label": t("quests_title") });
   const side = h("aside", { class: "side", id: "side" });
+  const seasonBox = h("aside", { class: "seasonbox", id: "seasonbox", "aria-label": t("sky_title") });
+  // What is chosen in the valley, said beside it.
+  const fieldPop = h("div", { class: "fieldpop", id: "field-pop", hidden: true });
+  sceneBox.append(fieldPop);
   const toasts = h("div", { class: "toasts", role: "log" });
-  app.append(bar, ahead, h("main", { class: "main" }, mapBox, side), toasts);
+  app.append(bar, ahead, h("main", { class: "main" }, mapBox, h("div", { class: "column" }, rail, objectives, side, seasonBox)), toasts);
 
   const music = new MusicPlayer({ base: MUSIC_BASE, first: "the-ancient-library", forceOff: query.get("music") === "off" || !MUSIC_AVAILABLE });
   const musicBox = MUSIC_AVAILABLE ? musicControl(music, await loadMusicStrings(lang), `${MUSEUM}/${lang}/backstage/`) : null;
@@ -247,6 +256,8 @@ async function main(): Promise<void> {
   }
   function setView(to: "3d" | "plan"): void {
     view = stage ? to : "plan";
+    // With the 3D valley on, the panels stand round it; on the plan they stand beside it.
+    document.body.classList.toggle("hud", view === "3d");
     sceneBox.hidden = view !== "3d";
     map.toggleAttribute("hidden", view === "3d");
     stage?.setVisible(view === "3d");
@@ -286,10 +297,24 @@ async function main(): Promise<void> {
 
   function valleyPanel(): Child[] {
     const a = advice(sc, state);
-    const sky = skyAhead(sc, state, 7);
-    const river = riverOfYear(state);
     return [
       h("section", { class: "card advice" }, h("h2", {}, t("advice_title")), h("p", { id: "advice" }, t(a.key, { field: a.field ? fieldName(a.field) : "", days: a.days ?? 0 }))),
+      h(
+        "section",
+        { class: "card" },
+        h("h2", {}, t("water_first")),
+        h(
+          "div",
+          { class: "choice", role: "group", "aria-label": t("water_first") },
+          ...(["households", "fields"] as const).map((who) => h("button", { type: "button", class: state.waterFirst === who ? "on" : "", "aria-pressed": String(state.waterFirst === who), id: `water-${who}`, onclick: () => order({ kind: "water-first", who }) }, t(`water_${who}`))),
+        ),
+      ),
+    ];
+  }
+
+  /** What is asked of the steward: the quests, each with how far it has got. */
+  function objectivesPanel(): Child[] {
+    return [
       h(
         "section",
         { class: "card" },
@@ -301,19 +326,19 @@ async function main(): Promise<void> {
         ),
         h("p", { class: "goal" }, h("b", {}, `${t("goal_title")}: `), t("goal_text", { welfare: sc.goal.welfare, days: sc.goal.reserveDays })),
       ),
+    ];
+  }
+
+  /** The season in hand: the weather that will come, and the river's year. */
+  function seasonPanel(): Child[] {
+    const sky = skyAhead(sc, state, 7);
+    const river = riverOfYear(state);
+    const s = stocks(sc, state);
+    return [
       h(
         "section",
         { class: "card" },
-        h("h2", {}, t("water_first")),
-        h(
-          "div",
-          { class: "choice", role: "group", "aria-label": t("water_first") },
-          ...(["households", "fields"] as const).map((who) => h("button", { type: "button", class: state.waterFirst === who ? "on" : "", "aria-pressed": String(state.waterFirst === who), id: `water-${who}`, onclick: () => order({ kind: "water-first", who }) }, t(`water_${who}`))),
-        ),
-      ),
-      h(
-        "section",
-        { class: "card" },
+        h("p", { class: "season-line" }, h("strong", {}, t("day_line", { season: t(`season_${s.season}`), day: s.dayOfSeason })), ` · ${t("days_left", { n: s.daysLeft })}`),
         h("h2", {}, t("sky_title")),
         h("p", { class: "note" }, t("sky_note")),
         h("ol", { class: "sky" }, ...sky.map((d) => h("li", { class: d.rain ? "rain" : "dry", title: t("sky_flow", { n: d.inflow }) }, h("span", { class: "sky-glyph", "aria-hidden": "true" }, d.rain ? "☂" : "☀"), h("span", { class: "visually-hidden" }, `${d.rain ? t("sky_rain") : t("sky_dry")}. `), h("span", { class: "sky-flow" }, num(d.inflow))))),
@@ -393,12 +418,74 @@ async function main(): Promise<void> {
     ];
   }
 
+  // A small drawing for each part of the game, in the rail. Decoration only: the word beside it is the name.
+  const RAIL_ICONS: Record<Tab, string> = {
+    valley: "M3 19l6-9 4 6 3-4 5 7z M17 6a2 2 0 1 0 0.01 0",
+    fields: "M12 21V7 M12 7c-2-1-3-2-3-4 M12 7c2-1 3-2 3-4 M12 11c-2 0-4-1-5-3 M12 11c2 0 4-1 5-3 M12 15c-2 0-4-1-5-3 M12 15c2 0 4-1 5-3",
+    works: "M14 4l6 6-3 3-6-6z M11 9l-8 8 3 3 8-8",
+    market: "M12 4v16 M7 20h10 M5 8h14 M5 8l-3 6h6z M19 8l-3 6h6z",
+    ledger: "M5 4h11a3 3 0 0 1 3 3v13H8a3 3 0 0 1-3-3z M8 4v13",
+  };
+  const railIcon = (id: Tab): SVGElement => {
+    const svg = document.createElementNS("http://www.w3.org/2000/svg", "svg");
+    svg.setAttribute("viewBox", "0 0 24 24");
+    svg.setAttribute("aria-hidden", "true");
+    svg.classList.add("rail-icon");
+    const path = document.createElementNS("http://www.w3.org/2000/svg", "path");
+    path.setAttribute("d", RAIL_ICONS[id]);
+    svg.append(path);
+    return svg;
+  };
+
+  /** The field chosen in the 3D valley, said in a card beside it: what stands there, and what can be done at once. */
+  function renderFieldPop(): void {
+    const f = view === "3d" && selected ? fieldCards(sc, state).find((c) => c.id === selected) : undefined;
+    if (!f) {
+      fieldPop.hidden = true;
+      fieldPop.replaceChildren();
+      return;
+    }
+    const ripe = f.stage === "ripe" || f.stage === "harvesting";
+    const parts: Child[] = [
+      h("h2", {}, `${fieldName(f.id)} · ${f.crop ? t(`crop_${f.crop}`) : t("stage_fallow")}`),
+      h("p", { class: "stage" }, t(`stage_${f.stage}`), f.stage === "growing" ? ` · ${num(f.growth)}%` : "", f.spoilsIn !== null ? ` · ${f.spoilsIn > 0 ? t("field_spoils_in", { days: f.spoilsIn }) : t("field_spoiling")}` : ""),
+      h("p", { class: `branch ${f.branch.state}` }, t(`branch_${f.branch.state}`, { carries: f.branch.carries, wants: f.branch.wants })),
+      f.standing > 0 && h("p", {}, t("field_standing", { n: f.standing })),
+      h(
+        "div",
+        { class: "actions" },
+        ...(ripe ? (["wait", "sell"] as const).map((rest) => h("button", { type: "button", class: state.plots[f.id]!.harvesting === rest ? "on" : "", "data-pop": `harvest-${rest}-${f.id}`, onclick: () => order({ kind: "harvest", plot: f.id, rest }) }, t(`act_harvest_${rest}`))) : []),
+        h("button", { type: "button", "data-pop": "details", onclick: () => setTab("fields") }, t("pop_details")),
+        h("button", { type: "button", "data-pop": "close", "aria-label": t("pop_close"), onclick: () => { selected = null; render(); } }, "×"),
+      ),
+    ];
+    fieldPop.replaceChildren(...(parts.filter(Boolean) as Node[]));
+    fieldPop.hidden = false;
+    placeFieldPop();
+  }
+  /** Keeps the card beside its field as the view moves. */
+  function placeFieldPop(): void {
+    if (fieldPop.hidden || !stage || !selected) return;
+    const at = stage.fieldOnScreen(selected);
+    const box = sceneBox.getBoundingClientRect();
+    if (!at) {
+      fieldPop.style.visibility = "hidden";
+      return;
+    }
+    fieldPop.style.visibility = "visible";
+    const x = Math.max(8, Math.min(box.width - fieldPop.offsetWidth - 8, at[0] - box.left - fieldPop.offsetWidth / 2));
+    const y = Math.max(8, Math.min(box.height - fieldPop.offsetHeight - 8, at[1] - box.top - fieldPop.offsetHeight - 26));
+    fieldPop.style.transform = `translate(${Math.round(x)}px, ${Math.round(y)}px)`;
+  }
+
   function renderSide(): void {
     const tabs: Tab[] = ["valley", "fields", "works", "market", "ledger"];
     const panel = tab === "valley" ? valleyPanel() : tab === "fields" ? fieldsPanel() : tab === "works" ? worksPanel() : tab === "market" ? marketPanel() : ledgerPanel();
+    rail.replaceChildren(...tabs.map((id) => h("button", { type: "button", role: "tab", id: `tab-${id}`, "aria-selected": String(tab === id), "aria-controls": "tabpanel", class: tab === id ? "on" : "", onclick: () => setTab(id) }, railIcon(id), h("span", {}, t(`tab_${id}`)))));
+    objectives.replaceChildren(...(objectivesPanel().filter(Boolean) as Node[]));
+    seasonBox.replaceChildren(...(seasonPanel().filter(Boolean) as Node[]));
     side.replaceChildren(
-      h("nav", { class: "tabs", role: "tablist" }, ...tabs.map((id) => h("button", { type: "button", role: "tab", id: `tab-${id}`, "aria-selected": String(tab === id), class: tab === id ? "on" : "", onclick: () => setTab(id) }, t(`tab_${id}`)))),
-      h("div", { class: "panel", role: "tabpanel", "aria-labelledby": `tab-${tab}` }, ...panel),
+      h("div", { class: "panel", id: "tabpanel", role: "tabpanel", "aria-labelledby": `tab-${tab}` }, ...panel),
     );
   }
 
@@ -410,6 +497,7 @@ async function main(): Promise<void> {
     renderBar();
     renderMap();
     renderSide();
+    renderFieldPop();
     const again = keepId ? document.getElementById(keepId) : keepAct ? document.querySelector<HTMLElement>(`[data-act="${keepAct}"]`) : null;
     again?.focus();
   }
@@ -499,6 +587,7 @@ async function main(): Promise<void> {
   // ---- Time and keys ---------------------------------------------------------------------------------------------
   let waited = 0;
   setInterval(() => {
+    placeFieldPop();
     // Time does not pass behind a dialog, in a hidden tab, or when paused.
     if (speed === 0 || state.outcome || document.hidden || document.querySelector("dialog[open]")) return;
     waited += 100;
