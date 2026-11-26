@@ -321,6 +321,25 @@ const ev = <T>(page: Page, js: string) => page.evaluate(js) as Promise<T>;
   record("a browser without WebGL 2 is told why, before the engine is fetched, and trying again does not loop", noGl.reasons.join() === "webgl2" && heavy(urls).length === 0 && still.reasons.join() === "webgl2" && still.h1 !== null, { noGl, heavy: heavy(urls) });
   await ctx.close();
 }
+// 4j. With scripts off the page is not blank; and on a refused device the skip link has somewhere to land.
+{
+  let ctx = await browser.newContext({ viewport: { width: 1280, height: 800 }, javaScriptEnabled: false });
+  let page = await ctx.newPage();
+  await page.goto(`${served.base}/games/hudhud/index.html`);
+  const lines = await page.locator("noscript p, main#play p").count();
+  const links = await page.locator("main#play a").evaluateAll((as) => as.map((a) => a.getAttribute("href")));
+  const text = await page.locator("main#play").innerText().catch(() => "");
+  await ctx.close();
+  ctx = await browser.newContext({ viewport: { width: 1000, height: 700 }, screen: { width: 1920, height: 1080 } });
+  page = await ctx.newPage();
+  await page.goto(`${served.base}/games/hudhud/index.html?lang=en`);
+  await page.waitForSelector(".im-unsupported h1");
+  await page.locator("a.skip").focus();
+  await page.keyboard.press("Enter");
+  const landed = await ev<string>(page, "location.hash + '|' + (document.getElementById('play') ? document.getElementById('play').tagName : 'none')");
+  record("with scripts off the page says why in seven languages; on a refused device the skip link lands", lines === 7 && links.length === 7 && links.every((h) => h === "../") && /JavaScript/.test(text) && landed === "#play|MAIN", { lines, links, landed });
+  await ctx.close();
+}
 // 5. The Atlas: fifty named pages in ten worlds, one of them open; play it, come back, and find its page home.
 for (const lang of ["en", "ar"]) {
   const ctx = await browser.newContext({ viewport: { width: 1280, height: 900 } });
