@@ -18,16 +18,26 @@ HR-GR-06, a reconstruction, review pending. The game does not call it the Alhamb
 import json
 import math
 import os
+
+import bpy
 import random
 import sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from author import Frame, arcade, arch_panel, arched_door, capped_merlons, column, cypress, export_with_wear, gable_roof, hip_roof, lattice, materials_with_wear, putlog_holes, round_tree, twin_window, weather  # noqa: E402
+from author import Frame, arcade, arch_panel, arched_door, capped_merlons, column, cypress, export_with_wear, gable_roof, hip_roof, lattice, materials_with_wear, putlog_holes, round_tree, set_detail, twin_window, weather, DETAIL  # noqa: E402
 from common import Part, clear_scene, render_preview, textures, triangles  # noqa: E402
 
 argv = sys.argv[sys.argv.index("--") + 1:] if "--" in sys.argv else []
-out_dir = os.path.abspath(argv[0]) if argv else os.path.abspath("gaming/media/models/granada/c")
-preview_dir = os.path.abspath(argv[1]) if len(argv) > 1 else None
+detail = "full"
+positional = []
+for arg in argv:
+    if arg.startswith("--detail="):
+        detail = arg.split("=", 1)[1]
+    else:
+        positional.append(arg)
+set_detail(detail)
+out_dir = os.path.abspath(positional[0]) if positional else os.path.abspath("gaming/media/models/granada/c")
+preview_dir = os.path.abspath(positional[1]) if len(positional) > 1 else None
 
 clear_scene()
 materials = materials_with_wear(textures(os.path.join(out_dir, "_work")))
@@ -42,16 +52,6 @@ def faces(frame, w, d):
     return [(frame.sub((0, -d / 2, 0), 0.0), w), (frame.sub((w / 2, 0, 0), math.pi / 2), d), (frame.sub((0, d / 2, 0), math.pi), w), (frame.sub((-w / 2, 0, 0), -math.pi / 2), d)]
 
 
-def patches(frame, length, height, y=0.0, count=3, material="stone"):
-    """Places where the render has come away and the wall behind shows, or has been mended in another colour."""
-    for _ in range(0):                 # tried, and taken out: a patch laid on a wall reads as a label stuck to it
-        w, h = rng.uniform(0.8, 2.6), rng.uniform(0.5, 1.6)
-        x = rng.uniform(-length / 2 + w, length / 2 - w)
-        z = rng.uniform(0.9, max(1.0, height * 0.6))
-        frame.box((w, 0.05, h), (x, y - 0.012, z), material=material, bevel=0.0)
-        frame.box((w * 0.6, 0.05, h * 0.55), (x + w * 0.5, y - 0.012, z - h * 0.4), material=material)
-
-
 def tower(frame, w, d, h, wall=RED, quoins=False, windows="slits", pavilion=None, flag=False):
     """A tower on a spread foot: courses, the holes of its shuttering, lights near the top, a corbelled head and
     capped merlons; on the greater ones a roofed room above, open in arches."""
@@ -64,12 +64,20 @@ def tower(frame, w, d, h, wall=RED, quoins=False, windows="slits", pavilion=None
     frame.box((w - 0.4, d - 0.4, 0.3), (0, 0, h + 0.75), material="cobble")
     for side, length in faces(frame, w, d):
         # The corbels that carry the head out over the wall.
-        n = max(3, int(length // 0.8))
-        for i in range(n):
-            side.box((0.24, 0.36, 0.42), (-length / 2 + (i + 0.5) * length / n, -0.17, h - 0.48), material="stone")
+        corbel_spacing = {"full": 0.8, "lod1": 0.0, "lod2": 0.0}[detail]
+        if corbel_spacing is None:
+            pass
+        elif corbel_spacing:
+            n = max(3, int(length // corbel_spacing))
+            for i in range(n):
+                side.box((0.24, 0.36, 0.42), (-length / 2 + (i + 0.5) * length / n, -0.17, h - 0.48), material="stone")
+        else:
+            side.box((length, 0.28, 0.34), (0, -0.14, h - 0.48), material="stone", bevel=0.02)
         capped_merlons(side, length + 0.3, -0.1, h + 0.87, material=wall, size=(0.8, 0.5, 0.9), gap=1.6)
         putlog_holes(side, length - 1.0, 4.4, h - 4.0, every=1.5)
-        patches(side, length - 1.5, h, count=2, material=rng.choice(("stone", WARM)))
+        # A draw left from patches of fallen render that were tried here and taken out. It is kept because every
+        # random choice after it depends on it: without it this would be another palace than the one that was judged.
+        rng.choice(("stone", WARM))
         if windows == "twin" and length >= 5:
             twin_window(side, 0, h - 6.2, width=min(1.7, length * 0.24), height=2.0)
             if length >= 9:
@@ -82,14 +90,14 @@ def tower(frame, w, d, h, wall=RED, quoins=False, windows="slits", pavilion=None
                 side.box((0.2, 0.08, 1.4), (s * length, -0.01, h - 4.6), material="dark")
                 side.box((0.5, 0.1, 0.14), (s * length, -0.03, h - 3.82), material="stone")
                 side.box((0.5, 0.12, 0.12), (s * length, -0.04, h - 5.36), material="stone")
-    if quoins:
+    if quoins and detail != "lod2":
         for sx in (-1, 1):
             for sy in (-1, 1):
                 z, k = 3.2, 0
                 while z < h - 3.2:
                     long_x = k % 2 == 0
                     frame.box((0.95 if long_x else 0.55, 0.55 if long_x else 0.95, 0.42), (sx * (w / 2 - (0.42 if long_x else 0.22)), sy * (d / 2 - (0.22 if long_x else 0.42)), z), material="stone", bevel=0.02)
-                    z += 0.86
+                    z += 0.86 * (1.0 if detail == "full" else 1.7)
                     k += 1
     top = h + 0.9
     if pavilion:
@@ -123,8 +131,6 @@ def curtain(a, b, h, t=1.9):
     capped_merlons(f, length - 1.0, -t / 2 + 0.25, h + 1.0, material=RED)
     outer = f.sub((0, -t / 2, 0))
     putlog_holes(outer, length - 6.0, 3.6, h - 2.4)
-    patches(outer, length - 8.0, h, count=max(2, int(length / 7)), material="stone")
-    patches(outer, length - 8.0, h, count=max(1, int(length / 10)), material=WARM)
     # A buttress or two where the wall is long, each with a sloped head.
     for k in range(int(length // 15)):
         x = -length / 2 + (k + 1) * length / (int(length // 15) + 1)
@@ -144,7 +150,7 @@ def hall(frame, w, d, h, wall=WHITE, roof="hip", storeys=2, front="lattice", doo
     for index, (side, length) in enumerate(faces(frame, w, d)):
         if index == 2 and not back:
             continue
-        n = max(1, int(length // 3.2))
+        n = max(1, int(length // {"full": 3.2, "lod1": 4.8, "lod2": 6.5}[detail]))
         for floor in range(storeys):
             z = floor * h / storeys + (1.3 if floor == 0 else 0.95)
             for i in range(n):
@@ -158,7 +164,6 @@ def hall(frame, w, d, h, wall=WHITE, roof="hip", storeys=2, front="lattice", doo
                     side.box((0.74, 0.1, 0.12), (x, -0.03, z + 1.1), material="stone")
                 else:
                     lattice(side, x, z, width=0.95, height=1.3)
-        patches(side, length - 1.0, h, count=1, material=WARM if wall != WARM else WHITE)
     if roof == "hip":
         return h + hip_roof(frame, w, d, h, pitch=pitch)
     if roof == "gable":
@@ -362,23 +367,61 @@ for k, (x, y) in enumerate(((6, 17.5), (-1, 17.2), (-12, 21.0), (-19.5, 19.5), (
 for k, (x, y) in enumerate(((-19, 12), (-18.5, 6), (-19, -8), (14.5, 12.5), (16, 5), (38, 16), (-13, -19))):
     round_tree(root, x, y, 0.16, radius=1.5 + 0.2 * (k % 3), material="green" if k % 2 else "green_olive")
 
+def group_materials(obj):
+    mapping = {
+        "plaster": "plaster_warm", "marble": "plaster_warm", "cloth": "plaster_warm", "cloth_red": "plaster_warm",
+        "cobble": "stone", "earth": "stone", "clay": "rooftile", "iron": "wood",
+        "green_dark": "green", "green_olive": "green", "tile_blue": "water", "tile_green": "water",
+    }
+    mesh = obj.data
+    names = [m.name for m in mesh.materials]
+    targets = []
+    remap = []
+    for name in names:
+        target = mapping.get(name, name)
+        if target not in targets:
+            targets.append(target)
+        remap.append(targets.index(target))
+    assigned = [remap[face.material_index] for face in mesh.polygons]
+    mesh.materials.clear()
+    for name in targets:
+        mesh.materials.append(materials[name])
+    for face, material_index in zip(mesh.polygons, assigned):
+        face.material_index = material_index
+    return targets
+
+
 # ---- finish, weather, export ---------------------------------------------------------------------------------
 obj = p.build()
 weather(obj, ground=0.0, seed=14.75)
+groups = [m.name for m in obj.data.materials]
+if detail != "full":
+    groups = group_materials(obj)
+if DETAIL["decimate"] < 1.0:
+    mod = obj.modifiers.new("temporary benchmark decimation", "DECIMATE")
+    mod.ratio = DETAIL["decimate"]
 count = triangles([obj])
 xs = [v.co.x for v in obj.data.vertices]
 ys = [v.co.y for v in obj.data.vertices]
 zs = [v.co.z for v in obj.data.vertices]
 footprint = (round(max(xs) - min(xs), 2), round(max(ys) - min(ys), 2), round(max(zs), 2))
-print(f"ART palace-c: {count} triangles, {footprint[0]} by {footprint[1]} m, {footprint[2]} m high", flush=True)
-export_with_wear(os.path.join(out_dir, "palace.gltf"), [obj])
-with open(os.path.join(out_dir, "palace.kit.json"), "w") as kit:
-    json.dump({"pieces": {"palace": {"footprint": footprint, "triangles": count}}}, kit, indent=1)
+print(f"ART palace-c {detail}: {count} triangles, {footprint[0]} by {footprint[1]} m, {footprint[2]} m high, materials {len(groups)}", flush=True)
+filename = "palace.gltf" if detail == "full" else f"palace-{detail}.gltf"
+kitname = "palace.kit.json" if detail == "full" else f"palace-{detail}.kit.json"
+export_with_wear(os.path.join(out_dir, filename), [obj])
+with open(os.path.join(out_dir, kitname), "w") as kit:
+    json.dump({"pieces": {"palace": {"footprint": footprint, "triangles": count, "materials": len(groups)}}}, kit, indent=1)
     kit.write("\n")
-print("ART palace-c: exported", os.path.join(out_dir, "palace.gltf"), flush=True)
+print("ART palace-c: exported", os.path.join(out_dir, filename), flush=True)
 
 if preview_dir:
     os.makedirs(preview_dir, exist_ok=True)
+    # The ground of the pictures has a plain surface of its own. The palace's "earth" takes its colour from the wear
+    # layer, which the pictures' ground does not have, and drew it dark.
+    preview_ground = bpy.data.materials.new("preview-earth")
+    preview_ground.use_nodes = True
+    preview_ground.node_tree.nodes["Principled BSDF"].inputs["Base Color"].default_value = (0.33, 0.27, 0.19, 1)
+    preview_ground.node_tree.nodes["Principled BSDF"].inputs["Roughness"].default_value = 0.95
     for name, look_at, distance, azimuth, elevation in (("palace-wide", (0, 0, 9), 150, -24, 20), ("palace-far", (0, 0, 10), 330, -12, 9), ("palace-near", (2, -8, 8), 78, 14, 13), ("palace-court", (10, 0, 5), 70, 38, 38)):
-        render_preview(os.path.join(preview_dir, name + ".png"), look_at=look_at, distance=distance, azimuth_deg=azimuth, elevation_deg=elevation, ground_material=materials["earth"], samples=64)
+        render_preview(os.path.join(preview_dir, name + ".png"), look_at=look_at, distance=distance, azimuth_deg=azimuth, elevation_deg=elevation, ground_material=preview_ground, samples=64)
         print("ART palace-c: preview", name, flush=True)

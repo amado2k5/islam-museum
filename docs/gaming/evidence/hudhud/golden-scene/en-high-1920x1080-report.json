@@ -1,0 +1,402 @@
+{
+ "tag": "en-high-1920x1080",
+ "lang": "en",
+ "quality": "high",
+ "style": "explorer",
+ "viewport": [
+  1920,
+  1080
+ ],
+ "ran": "2026-11-26T15:43:06.028Z",
+ "browser": "chrome 158.0.8127.38",
+ "machine": "darwin arm64",
+ "msFromPlayToScene": 413,
+ "firstFlight": {
+  "from": {
+   "x": 250,
+   "y": 624,
+   "grounded": true,
+   "near": null
+  },
+  "to": {
+   "x": 1040.5749999999991,
+   "y": 568,
+   "grounded": true,
+   "near": "cat"
+  },
+  "climbed": 317,
+  "airborne": true,
+  "secondsAfterPlay": 6.13
+ },
+ "puzzle": {
+  "mirrors": 5,
+  "fewestTurns": 3,
+  "settingsThatWork": 1
+ },
+ "benchmark": {
+  "route": "the whole width and back, hopping and flapping, 14 seconds",
+  "info": {
+   "renderer": "webgl",
+   "canvas": [
+    1292,
+    727
+   ],
+   "pixelRatio": 1.009375,
+   "textures": 45,
+   "textureBytes": 83538048,
+   "largestTextures": [
+    {
+     "key": "interior",
+     "width": 3520,
+     "height": 1440,
+     "bytes": 20275200
+    },
+    {
+     "key": "sky",
+     "width": 2560,
+     "height": 1440,
+     "bytes": 14745600
+    },
+    {
+     "key": "town-near",
+     "width": 4000,
+     "height": 760,
+     "bytes": 12160000
+    },
+    {
+     "key": "garden",
+     "width": 2000,
+     "height": 1440,
+     "bytes": 11520000
+    },
+    {
+     "key": "town-far",
+     "width": 3400,
+     "height": 600,
+     "bytes": 8160000
+    }
+   ],
+   "objects": 170,
+   "tweens": 0,
+   "frames": {
+    "frames": 1701,
+    "durationMs": 14174.9,
+    "meanMs": 8.333,
+    "p50Ms": 8.3,
+    "p95Ms": 9.1,
+    "p99Ms": 9.3,
+    "maxMs": 9.5,
+    "minMs": 7.3,
+    "over16_7": 0,
+    "over33_3": 0,
+    "over50": 0,
+    "avgFps": 120.001
+   },
+   "drawCalls": 20,
+   "soundsStarted": 105,
+   "saved": true
+  },
+  "heapBytes": 125351382
+ },
+ "goals": {
+  "curiosity": true,
+  "ingenuity": true,
+  "kindness": true,
+  "feather": true,
+  "turns": 3,
+  "par": 3
+ },
+ "save": {
+  "v": 1,
+  "slot": 0,
+  "slots": [
+   {
+    "settings": {
+     "style": "explorer",
+     "quality": "medium",
+     "reducedMotion": false,
+     "highContrast": false,
+     "textScale": 1,
+     "textSpeed": 40,
+     "volume": {
+      "ambience": 0.6,
+      "voices": 0.8,
+      "effects": 0.8
+     },
+     "muted": false,
+     "captions": true
+    },
+    "keeper": {
+     "skin": 1,
+     "outfit": 0,
+     "hair": 0
+    },
+    "quests": {
+     "w03q1-ibn-al-haytham": {
+      "done": true,
+      "bestTurns": 3,
+      "curiosity": true,
+      "ingenuity": true,
+      "kindness": true,
+      "feather": true
+     }
+    }
+   },
+   null,
+   null
+  ]
+ },
+ "lifecycle": {
+  "afterOneRestart": {
+   "textures": 45,
+   "textureBytes": 83538048,
+   "objects": 170,
+   "tweens": 0,
+   "heapBytes": 125825060
+  },
+  "afterTenRestarts": {
+   "textures": 45,
+   "textureBytes": 83538048,
+   "objects": 170,
+   "tweens": 0,
+   "heapBytes": 124484944
+  },
+  "afterRebuild": {
+   "textures": 45,
+   "textureBytes": 83538048,
+   "objects": 170,
+   "tweens": 0,
+   "heapBytes": 126544869
+  }
+ },
+ "contextLoss": {
+  "tried": true,
+  "toast": "The picture was lost for a moment. It is being drawn again.",
+  "sceneBack": true
+ },
+ "route": [
+  {
+   "step": "scene open",
+   "at": 1937,
+   "where": {
+    "x": 250,
+    "y": 624,
+    "grounded": true,
+    "near": null
+   },
+   "turns": 0,
+   "flags": [],
+   "restored": false,
+   "dark": false,
+   "done": false
+  },
+  {
+   "step": "first flight",
+   "at": 6631,
+   "where": {
+    "x": 1040.5749999999991,
+    "y": 568,
+    "grounded": true,
+    "near": "cat"
+   },
+   "turns": 0,
+   "flags": [],
+   "restored": false,
+   "dark": false,
+   "done": false
+  },
+  {
+   "step": "asked the scholar for more",
+   "at": 10675,
+   "where": {
+    "x": 670,
+    "y": 624,
+    "grounded": true,
+    "near": "scholar"
+   },
+   "turns": 0,
+   "flags": [
+    "metScholar",
+    "askedMore"
+   ],
+   "restored": false,
+   "dark": false,
+   "done": false
+  },
+  {
+   "step": "greeted the cat",
+   "at": 13241,
+   "where": {
+    "x": 1060,
+    "y": 568,
+    "grounded": true,
+    "near": "cat"
+   },
+   "turns": 0,
+   "flags": [
+    "metScholar",
+    "askedMore",
+    "metCat"
+   ],
+   "restored": false,
+   "dark": false,
+   "done": false
+  },
+  {
+   "step": "turned mirror a",
+   "at": 14348,
+   "where": {
+    "x": 326,
+    "y": 338,
+    "grounded": true,
+    "near": "mirror-a"
+   },
+   "turns": 1,
+   "flags": [
+    "metScholar",
+    "askedMore",
+    "metCat"
+   ],
+   "restored": false,
+   "dark": false,
+   "done": false
+  },
+  {
+   "step": "turned mirror c",
+   "at": 15593,
+   "where": {
+    "x": 876,
+    "y": 624,
+    "grounded": true,
+    "near": "mirror-c"
+   },
+   "turns": 2,
+   "flags": [
+    "metScholar",
+    "askedMore",
+    "metCat"
+   ],
+   "restored": false,
+   "dark": false,
+   "done": false
+  },
+  {
+   "step": "turned mirror e",
+   "at": 16698,
+   "where": {
+    "x": 1206,
+    "y": 238,
+    "grounded": true,
+    "near": null
+   },
+   "turns": 3,
+   "flags": [
+    "metScholar",
+    "askedMore",
+    "metCat"
+   ],
+   "restored": true,
+   "dark": false,
+   "done": false
+  },
+  {
+   "step": "page restored",
+   "at": 19464,
+   "where": {
+    "x": 1206,
+    "y": 238,
+    "grounded": true,
+    "near": "mirror-e"
+   },
+   "turns": 3,
+   "flags": [
+    "metScholar",
+    "askedMore",
+    "metCat"
+   ],
+   "restored": true,
+   "dark": false,
+   "done": false
+  },
+  {
+   "step": "found the dark room",
+   "at": 25326,
+   "where": {
+    "x": 1560,
+    "y": 150,
+    "grounded": true,
+    "near": "cord"
+   },
+   "turns": 3,
+   "flags": [
+    "metScholar",
+    "askedMore",
+    "metCat",
+    "secret"
+   ],
+   "restored": true,
+   "dark": true,
+   "done": false
+  },
+  {
+   "step": "found the feather",
+   "at": 28283,
+   "where": {
+    "x": 2205,
+    "y": 520,
+    "grounded": true,
+    "near": null
+   },
+   "turns": 3,
+   "flags": [
+    "metScholar",
+    "askedMore",
+    "metCat",
+    "secret",
+    "feather"
+   ],
+   "restored": true,
+   "dark": false,
+   "done": false
+  },
+  {
+   "step": "finished at the page",
+   "at": 45110,
+   "where": {
+    "x": 1250,
+    "y": 540,
+    "grounded": true,
+    "near": null
+   },
+   "turns": 3,
+   "flags": [
+    "metScholar",
+    "askedMore",
+    "metCat",
+    "secret",
+    "feather"
+   ],
+   "restored": true,
+   "dark": false,
+   "done": true
+  }
+ ],
+ "shots": [
+  "en-high-1920x1080-01-cover.png",
+  "en-high-1920x1080-02-intro-talk.png",
+  "en-high-1920x1080-03-flying.png",
+  "en-high-1920x1080-04-gliding.png",
+  "en-high-1920x1080-05-scholar-talk.png",
+  "en-high-1920x1080-06-cat.png",
+  "en-high-1920x1080-07-first-mirror.png",
+  "en-high-1920x1080-08-page-lit.png",
+  "en-high-1920x1080-09-workshop-solved.png",
+  "en-high-1920x1080-10-dark-room-secret.png",
+  "en-high-1920x1080-11-dark-room.png",
+  "en-high-1920x1080-12-garden-feather.png",
+  "en-high-1920x1080-13-garden.png",
+  "en-high-1920x1080-14-results.png",
+  "en-high-1920x1080-15-after-context-loss.png"
+ ],
+ "errors": []
+}

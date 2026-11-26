@@ -8,6 +8,7 @@ import { createServer } from "node:http";
 import { tmpdir } from "node:os";
 import { join, resolve } from "node:path";
 import { chromium } from "playwright-core";
+import { leaveOpening } from "./hudhud-opening";
 // @ts-expect-error plain JavaScript modules of the Worker, with no type declarations
 import worker from "../../workers/games/src/index.js";
 // @ts-expect-error
@@ -138,6 +139,36 @@ for (const game of manifest.games.filter((g) => g.page)) {
           if (!(info.triangles > 100_000)) errors.push(`the 3D valley drew ${info.triangles} triangles`);
           if (!(await page.locator("canvas.scene").isVisible())) errors.push("the 3D valley is not shown");
         }
+      }
+    } else if (game.id === "hudhud") {
+      // A 2D game: the page comes up, Play starts the scene on a WebGL canvas under the release's content security
+      // policy, and one turn of a mirror reaches the rules and comes back.
+      for (const end = Date.now() + 30_000; !(await page.evaluate("Boolean(window.__HH__ && (window.__HH__.ready || window.__HH__.error))")); ) {
+        if (Date.now() > end) throw new Error("Hudhud did not start in 30 seconds");
+        await page.waitForTimeout(150);
+      }
+      const hook = (await page.evaluate("({ ready: window.__HH__.ready, error: window.__HH__.error ?? null })")) as { ready: boolean; error: string | null };
+      if (!hook.ready) errors.push(`the game did not start: ${hook.error}`);
+      else {
+        // The opening story comes first; a visitor skips it by its button.
+        if (!(await leaveOpening(page)) && (await page.locator(".prologue").count()) > 0) errors.push("the opening story is on the page but was not showing");
+        await page.locator(".hub button.primary").click();
+        for (const end = Date.now() + 30_000; !(await page.evaluate("window.__HH__.where() !== null")); ) {
+          if (Date.now() > end) break;
+          await page.waitForTimeout(150);
+        }
+        const info = (await page.evaluate("window.__HH__.where() === null ? null : window.__HH__.info()")) as { renderer: string; textures: number } | null;
+        if (!info) errors.push(`the scene did not open: ${(await page.evaluate("window.__HH__.error")) ?? "no reason given"}`);
+        else {
+          if (info.renderer !== "webgl") errors.push(`the scene is drawn with ${info.renderer}, not WebGL`);
+          if (!(info.textures > 20)) errors.push(`the scene painted ${info.textures} pictures`);
+          if (!(await page.locator("#stage canvas").isVisible())) errors.push("the scene's canvas is not shown");
+          await page.evaluate("window.__HH__.command({ type: 'skip' }); window.__HH__.touch('mirror-a');");
+          const turns = (await page.evaluate("window.__HH__.state().turns")) as number;
+          if (turns !== 1) errors.push(`turning a mirror left the count at ${turns}`);
+          if (!(await page.locator("header .chip.proto").isVisible())) errors.push("the prototype label is not shown");
+        }
+        started3d = "not a 3D game";
       }
     } else {
       await page.waitForSelector("#panel h2", { timeout: 60_000 });
