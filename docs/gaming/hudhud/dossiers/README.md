@@ -44,5 +44,10 @@
 | evliya-celebi | [`evliya-celebi.md`](evliya-celebi.md) | 4 | 8 | 0 |
 | al-hasan-al-wazzan | [`al-hasan-al-wazzan.md`](al-hasan-al-wazzan.md) | 4 | 8 | 0 |
 | al-masudi | [`al-masudi.md`](al-masudi.md) | 2 | 8 | 0 |
+| abbas-ibn-firnas | [`abbas-ibn-firnas.md`](abbas-ibn-firnas.md) | 2 | 8 | 0 |
+| al-sufi | [`al-sufi.md`](al-sufi.md) | 2 | 4 | 0 |
+| al-tusi | [`al-tusi.md`](al-tusi.md) | 6 | 8 | 0 |
+| ibn-al-shatir | [`ibn-al-shatir.md`](ibn-al-shatir.md) | 2 | 8 | 0 |
+| al-battani | [`al-battani.md`](al-battani.md) | 8 | 8 | 0 |
 
 `ledger-drafts.json` holds draft rows only; the real ledger is untouched.
