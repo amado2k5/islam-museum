@@ -33,14 +33,31 @@ record's `attribution`.
 
 What the records are and are not. Each record's Arabic and English text was written by the session model
 (claude-fable-5-2) after looking at the picture at 500 pixels; the Urdu, French, Spanish, Turkish and Indonesian
-text is a machine translation by Claude Sonnet 5.5 that no person has read. A second agent checked every record
-against its Commons file page and its picture before the packets were handed over. No person has reviewed the
-choice of pictures.
+text is a machine translation by Claude Sonnet 5.5 that no person has read. No person has reviewed the choice of
+pictures.
+
+What the verifier did and did not do (a separate Claude Sonnet 5.5 agent, the same day). It read the Commons
+record of all 65 files again and found licence, address, revision and date as drafted, and the Wikidata id of
+every record equal to the one on the museum record it depicts. It looked at all 65 pictures in the contact
+sheets and opened four at 1,280 pixels, and corrected five records: a window shape (the tomb of İdris Baba), a
+portal described as tiled that is brick with patches of tile (Balkh), a colour (Mardin), two windows called
+doorways (the mosque of Baba Adam), and the author of the Taj Mahal photograph, written as the page's author
+field has it ("Yann"; the credit line the page asks for, "© Yann Forget / Wikimedia Commons", stays in the
+attribution). It read the five translated languages of 22 records and found nothing to correct. It did not
+open the other 61 pictures at full size, so small details there (counts of domes or arches, materials) rest on
+the 500-pixel view; it did not read the translations of the other 43 records; and it did not load the image
+addresses, which the drafter had loaded once each, all 65 returning an image.
+
+Three credits where the page gives more than one name, for whoever builds the Atlas credit line: the two
+Jerusalem photographs are by Commons user Godot13, whose page asks for the credit "Andrew Shiva" (the records
+use that); the Ghazna photograph is filed under the US State Department and its description names the
+photographer S.K. Vemmer (the record names both); the Badshahi photograph's date field is its upload date,
+2 July 2005, and its source line says it was taken on 1 July 2005 (the record uses the day it was taken).
 
 ## The Atlas count
 
-Taken with `npm --prefix gaming run atlas:images` on a checkout of `main` at `8ced29cf6e2` holding the 65 new
-records (not committed there):
+Taken with `npm --prefix gaming run atlas:images` on a separate checkout of `main` at `885c7d97a5a` holding the
+65 verified records (copied in for the count, not committed; the checkout was removed afterwards):
 
 | | Before (25 Nov 2026, commit `361a669c3a5`) | With the 65 records |
 |---|---:|---:|
@@ -100,6 +117,10 @@ because a place takes two subjects.
   (Turkish and Indonesian "Mona"), `place/stara-zagora` (Turkish "Antik Zughra", Indonesian "Zughra Kuno"),
   `place/dhaka` (Spanish "A"), `place/qayrawan` (Urdu "قاروان"), `place/cairo` (French "Caire"),
   `place/tunis` (Indonesian "Tunisia").
+- **`building/ahmadiyya-mosque-akhaltsikhe`**: the label "Ahmadiyya Mosque" (English, French, Spanish) and the
+  Urdu label «احمدیہ مسجد» can be read as naming the modern Ahmadiyya community; the building's Turkish name is
+  Ahmediye Camii. The new media record writes "Ahmediye" in Urdu, Turkish and Indonesian and keeps the record's
+  own name in the other languages.
 - **`place/sijilmasa`** has the Arabic label «مجلماسة»; the usual spelling is «سجلماسة».
 - **Missing languages**: `building/qaytbay-complex-cairo` and `building/masjid-al-khayf` have no Urdu,
   Spanish, Turkish or Indonesian label; `place/tlemcen` has no Urdu label.
