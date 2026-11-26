@@ -13,6 +13,7 @@ import { SCENARIOS, WATER_FOR_THE_VALLEY } from "../sim/scenarios";
 import { act, newVillage, tick, type ActResult, type Scenario, type VillageCommand, type VillageState } from "../sim/village";
 import { clearSave, readSave, writeSave } from "../save";
 import { probeWebGPU } from "@im/kernel/capability";
+import { installCounters } from "@im/kernel/counters";
 import type { ValleyLook } from "../view/three-valley";
 import { drawMap } from "./map";
 import type { Stage } from "./stage";
@@ -47,6 +48,8 @@ declare global {
 
 async function main(): Promise<void> {
   const query = new URLSearchParams(location.search);
+  // Asked to measure itself, the page counts its frames, memory and live resources from here on (kernel/counters.ts).
+  const counters = query.has("counters") ? installCounters(window as never) : null;
   const lang = (LANGS as readonly string[]).includes(query.get("lang") ?? "") ? query.get("lang")! : "en";
   const strings = (lang === "en" ? en : (await import(`../../i18n/${lang}.json`)).default) as Strings;
   const nf = new Intl.NumberFormat(`${lang}-u-nu-latn`);
@@ -520,6 +523,11 @@ async function main(): Promise<void> {
   });
 
   const hook: Record<string, unknown> = { ready: true, lang, scenario: sc.id, state: () => state, speed: () => speed, tab: () => tab, music, saveOk: () => saveOk, order: (c: VillageCommand) => order(c), days: (n: number) => { for (let i = 0; i < n; i++) nextDay(); }, begin: (seed: number) => begin(seed), view: () => view, setView: (to: "3d" | "plan") => setView(to), stage: () => stage, threeD: "pending" };
+  if (counters) {
+    counters.provide("renderer", () => stage?.info() ?? null);
+    hook.counters = () => counters.snapshot();
+    hook.countersStartOver = () => counters.startOver();
+  }
   window.__GR__ = hook;
   render();
   if (state.outcome) showOutcome();
