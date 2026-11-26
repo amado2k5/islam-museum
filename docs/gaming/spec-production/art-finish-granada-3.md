@@ -50,7 +50,7 @@ The renders are media and are not committed. They are evidence for a person to i
 
 ## Checks run
 
-- `bash /tmp/repro_granada3.sh`: the three Blender export scripts were run twice with different `PYTHONHASHSEED` values; SHA-256 of all 56 files under `gaming/media/models/granada/3/` was identical after both rounds (`REPRO_GLTF3_IDENTICAL files=56 end=2026-11-26T12:00:02Z` after the generator split).
+- `bash /tmp/repro_granada3.sh`: the three Blender export scripts were run twice with different `PYTHONHASHSEED` values; SHA-256 of all 56 files under `gaming/media/models/granada/3/` was identical after both rounds (`REPRO_GLTF3_IDENTICAL files=56 end=2026-11-26T12:11:53Z` after the final proof-script safeguard).
 - `python3 gaming/art/compare_granada.py`: passed; names, origins, exact outer sizes and kit footprints agree, and every object has a `-lod1` object. Every size delta printed as `0 m`; LOD ratios printed as 0.33.
 - `blender --background --factory-startup --python /tmp/validate_granada3_gltf.py`: passed (`VALIDATE_GLTF3_PASS`). The final files imported as 18 town mesh objects/25,708 triangles, 6 landmarks objects/27,584 triangles, and 12 mill objects/21,568 triangles.
 - `npm --prefix gaming run art:manifest`: passed and recorded both model sets, with set 2 in `assets` and set 3 in `proofAssets`. `npm --prefix gaming run art:manifest -- --check` passed: the models on this machine are the ones the manifest records.
