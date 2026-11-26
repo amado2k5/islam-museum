@@ -9,6 +9,15 @@
 - `place/granada`
 - `place/tunis`
 
+## Arabic cross-check
+
+Machine presence/citation check only, not a translation review:
+
+- `person/leo-africanus`: English prose present (4 sections, 15 citations); Arabic prose present (4 sections, 15 citations).
+- `place/fez`: English prose present (3 sections, 4 citations); Arabic prose present (3 sections, 4 citations).
+- `place/granada`: English prose present (8 sections, 18 citations); Arabic prose present (8 sections, 18 citations).
+- `place/tunis`: English prose present (16 sections, 23 citations); Arabic prose present (16 sections, 23 citations).
+
 ## Who, where, when
 
 - **Who:** Arabic: الحسن بن محمد الوزان. English record label: Leo Africanus. Record labels: `person/leo-africanus` en='Leo Africanus', ar='الحسن بن محمد الوزان ⁦(ليون الأفريقي)⁩'; `place/fez` en='Fez', ar='فاس'; `place/granada` en='Granada', ar='غرناطة'; `place/tunis` en='Tunis', ar='تونس'
@@ -17,15 +26,14 @@
 
 ## What the records say they did
 
-1. Leo Africanus was born al-Hasan ibn Muhammad al-Wazzan in Granada around 1494 and raised in Fez, where he studied at the University of al-Qarawiyyin.   As a young man he travelled on Wattasid diplomatic missions — to Timbuktu around 1510, and in 1517 toward Constantinople, turning home through Cairo, Aswan and the Red Sea, probably performing the pilgrimage to Mecca.  On the return voyage in 1518 Spanish corsairs… — source location `content/en/person/leo-africanus.md — Summary`; citation `{cite:wikipedia-leo-africanus-en} {cite:wikipedia-leo-africanus-ar} {cite:wikipedia-leo-africanus-en} {cite:wikipedia-leo-africanus-en}`; flag: **stated**.
-2. In Rome in 1526 Leo completed his manuscript on African geography. Published by Giovanni Battista Ramusio in Venice in 1550 as the Descrittione dell'Africa, the Description of Africa was reprinted five times and translated into French, Latin and English; among European geographers it remained the most authoritative treatise on the Maghreb and the Nile Valley until the modern exploration of Africa.  He also wrote… — source location `content/en/person/leo-africanus.md — The Description of Africa`; citation `{cite:wikipedia-leo-africanus-en} {cite:wikipedia-leo-africanus-en} {cite:wikipedia-leo-africanus-en}`; flag: **stated**.
-3. The baptism of 1520 and Leo's public life as a Christian author under papal patronage are documented facts.   What he inwardly held is a different question, and scholarship has never settled it. The German orientalist Johann Albrecht Widmannstetter reported that Leo had returned to Tunis and reconverted to Islam.  The Tunisian historian Muhammad ibn al-Khuja held that his conversion had been only outward,… — source location `content/en/person/leo-africanus.md — Between two faiths`; citation `{cite:wikipedia-leo-africanus-en} {cite:wikidata-leo-africanus} {cite:wikipedia-leo-africanus-en} {cite:wikipedia-leo-africanus-ar} {cite:wikipedia-leo-africanus-en} {cite:wikipedia-leo-africanus-ar}`; flag: **stated**.
-4. Where Leo died is not documented either. One theory keeps him in Rome until about 1550, the year the Description appeared. A second has him leave before the Sack of Rome in 1527, return to North Africa and live in Tunis until some time after 1550. A third sends him on to Morocco after Charles V captured Tunis in 1535 — back toward the country of his birth, which his book says he wished to regain "by God's… — source location `content/en/person/leo-africanus.md — The unknown end`; citation `{cite:wikipedia-leo-africanus-en} {cite:wikipedia-leo-africanus-ar}`; flag: **stated**.
-5. Fez is a Moroccan city founded in the Idrisid period, around 800 CE. It is home to the Al-Qarawiyyin university, founded in 859 CE. — source location `content/en/place/fez.md — Overview`; citation `{cite:geonames-gazetteer}`; flag: **stated**.
-6. The iDAI.gazetteer of the German Archaeological Institute holds this place as record no. 2118497, typed as a populated place, under the preferred name «Fès / Fez»; its parent in the hierarchy is «Marokko (Morocco)». Among its recorded names are «Fès», «Fes». — source location `content/en/place/fez.md — In the iDAI.gazetteer`; citation `{cite:idai-gazetteer 2118497}`; flag: **stated**.
-7. Yaqut calls Fez a famous, large city on the Maghrib side of the Berber lands and the most majestic of the Maghrib's cities before Marrakesh was laid out, and he fixes the spelling of its name with the unpointed sin. He describes it as built between two great hills with its buildings climbing both slopes, springs flowing down to a river that splits at the city into eight channels turning some six hundred mills and… — source location `content/en/place/fez.md — In Yaqut's Mu'jam al-Buldan`; citation `{cite:mujam-al-buldan-sader-1995 4 p.230} {cite:mujam-al-buldan-sader-1995 4 p.231}`; flag: **stated**.
-8. Granada, in the high valley of the Genil in the south of al-Andalus, came to prominence only in the early eleventh century, when a branch of the Sanhaja Zirids made it their capital in place of nearby Elvira. From 635/1238 until 897/1492 it was the capital of the Nasrid kingdom, the last Muslim state in Spain, and the seat of the Alhambra. — source location `content/en/place/granada.md — Overview`; citation `{cite:encyclopaedia-of-islam-2 vol. 2 p. 1054} {cite:encyclopaedia-of-islam-2 vol. 2 p. 1057}`; flag: **stated**.
-
+1. Leo Africanus, born al-Hasan ibn Muhammad al-Wazzan in Granada around 1494, was raised in Fez and studied at the University of al-Qarawiyyin before embarking on diplomatic missions. — source location `content/en/person/leo-africanus.md — Summary`; citation `{cite:wikipedia-leo-africanus-en} {cite:wikipedia-leo-africanus-ar} {cite:wikipedia-leo-africanus-en} {cite:wikipedia-leo-africanus-en}`; flag: **stated**.
+2. Leo Africanus completed his manuscript on African geography in Rome in 1526, which was published in 1550 and became the most authoritative treatise on the Maghreb and Nile Valley until modern exploration. — source location `content/en/person/leo-africanus.md — The Description of Africa`; citation `{cite:wikipedia-leo-africanus-en} {cite:wikipedia-leo-africanus-en} {cite:wikipedia-leo-africanus-en}`; flag: **stated**.
+3. Leo Africanus's public conversion to Christianity in 1520 is documented, but his true beliefs remain uncertain, with some scholars suggesting he may have reverted to Islam. — source location `content/en/person/leo-africanus.md — Between two faiths`; citation `{cite:wikipedia-leo-africanus-en} {cite:wikidata-leo-africanus} {cite:wikipedia-leo-africanus-en} {cite:wikipedia-leo-africanus-ar} {cite:wikipedia-leo-africanus-en} {cite:wikipedia-leo-africanus-ar}`; flag: **stated**.
+4. The exact location of Leo Africanus's death is unknown, with theories placing him in Rome, Tunis, or Morocco. — source location `content/en/person/leo-africanus.md — The unknown end`; citation `{cite:wikipedia-leo-africanus-en} {cite:wikipedia-leo-africanus-ar}`; flag: **stated**.
+5. Fez, a Moroccan city founded around 800 CE, is home to the Al-Qarawiyyin university, established in 859 CE. — source location `content/en/place/fez.md — Overview`; citation `{cite:geonames-gazetteer}`; flag: **stated**.
+6. The iDAI.gazetteer lists Fez as a populated place with the preferred name 'Fès / Fez', under the parent 'Marokko (Morocco)'. — source location `content/en/place/fez.md — In the iDAI.gazetteer`; citation `{cite:idai-gazetteer 2118497}`; flag: **stated**.
+7. Yaqut describes Fez as a grand city built between two hills with numerous mills powered by its river. — source location `content/en/place/fez.md — In Yaqut's Mu'jam al-Buldan`; citation `{cite:mujam-al-buldan-sader-1995 4 p.230} {cite:mujam-al-buldan-sader-1995 4 p.231}`; flag: **stated**.
+8. Granada, the capital of the Nasrid kingdom from 1238 to 1492, was the last Muslim state in Spain and the seat of the Alhambra. — source location `content/en/place/granada.md — Overview`; citation `{cite:encyclopaedia-of-islam-2 vol. 2 p. 1054} {cite:encyclopaedia-of-islam-2 vol. 2 p. 1057}`; flag: **stated**.
 ## Thumbnail elements without record support
 
 The atlas title is الرحّالة الذي كتب أفريقيا. No record read supports a complete objective map of Africa, a single heroic journey line, or modern national borders. Treat these as design fiction unless a reviewer supplies support.
@@ -45,15 +53,15 @@ The museum record is filed as Leo Africanus; the dossier keeps both names and do
 
 These are proposals for Claude and the founder, not content.
 
-1. A journey problem asks the player to apply Route and Journal to a documented leg or account, with uncertainty visible rather than hidden.
+1. Players use the Route system to follow Leo Africanus's diplomatic missions from Fez to Timbuktu and Constantinople, while the Journal tracks Leo's inner conflict about his conversion to Christianity [3].
 
-2. Hudhud helps compare what a traveller says, what a later record says and what the thumbnail invents, using Talk plus Route and Journal.
+2. In the game, players navigate Leo's uncertain fate after the Sack of Rome using the Route system, while the Journal documents theories about his whereabouts, distinguishing between historical facts and game invention [4].
 
-3. The quest returns a page to the Atlas, with optional context, a hidden collectible and replay goals; this structure is game design only, not historical content.
+3. Players explore Fez's historical significance through the Route system, visiting landmarks like the Al-Qarawiyyin university, while the Journal provides insights into Leo Africanus's early life and education [5, 8].
 
 ## Sensitivities
 
-Travel accounts may touch war, slavery, illness, death, sect and living disputes. Do not turn real trauma into amusement; label literary or uncertain reportage; invented dialogue must be dramatized paraphrase.
+Evidence scan, not a ruling: illness/death; sect/religious dispute. Any such material still requires the full content-safety and age-appropriateness review. Travel accounts may touch war, slavery, illness, death, sect and living disputes. Do not turn real trauma into amusement; label literary or uncertain reportage; invented dialogue must be dramatized paraphrase.
 
 ## Gaps
 

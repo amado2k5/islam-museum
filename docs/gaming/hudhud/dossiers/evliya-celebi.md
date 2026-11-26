@@ -9,6 +9,15 @@
 - `place/istanbul`
 - `work/seyahatname`
 
+## Arabic cross-check
+
+Machine presence/citation check only, not a translation review:
+
+- `person/evliya-celebi`: English prose present (4 sections, 15 citations); Arabic prose present (4 sections, 15 citations).
+- `place/cairo`: English prose present (18 sections, 79 citations); Arabic prose present (18 sections, 79 citations).
+- `place/istanbul`: English prose present (16 sections, 59 citations); Arabic prose present (16 sections, 59 citations).
+- `work/seyahatname`: English prose present (5 sections, 17 citations); Arabic prose present (5 sections, 17 citations).
+
 ## Who, where, when
 
 - **Who:** Arabic: أوليا جلبي. English: Evliya Çelebi. Record labels: `person/evliya-celebi` en='Evliya Çelebi', ar='أوليا جلبي'; `place/cairo` en='Cairo', ar='القاهرة'; `place/istanbul` en='Istanbul', ar='إسطنبول'; `work/seyahatname` en='Seyahatname (Book of Travels of Evliya Çelebi)', ar='سياحتنامه ⁦(رحلة أوليا جلبي)⁩'
@@ -17,15 +26,14 @@
 
 ## What the records say they did
 
-1. Evliya Çelebi, son of Dervish Mehmed, was an Ottoman traveller of the eleventh century AH and author of the Seyahatname. His translator Joseph von Hammer says in his sketch of him that he was born in Constantinople in the reign of Sultan Ahmed I, on 10 Muharram 1020 AH (1611 CE), and that his father, Dervish Mehmed, was chief of the city's goldsmiths. — source location `content/en/person/evliya-celebi.md — Summary`; citation `{cite:evliya-narrative-hammer-v1 p.9}`; flag: **stated**.
-2. Hammer relates that Evliya records the building of the Sultan Ahmed Mosque, begun when he was six, whose gate was made under his father's supervision; that his father had in youth been standard-bearer to Sultan Süleyman; and that his grandfather was standard-bearer at Mehmed II's conquest of Constantinople and received a house in the flour market, on whose ground he built a hundred shops endowed for a mosque. … — source location `content/en/person/evliya-celebi.md — Family and upbringing`; citation `{cite:evliya-narrative-hammer-v1 p.9} {cite:evliya-narrative-hammer-v1 p.9} {cite:evliya-narrative-hammer-v1 p.10} {cite:evliya-narrative-hammer-v1 p.11}`; flag: **stated**.
-3. Hammer says that on the anniversary of his twenty-first birthday, 10 Muharram, Evliya dreamt he was in the mosque of Ahi Çelebi; meaning to ask for intercession (*shafa'a*) he asked by mistake for travel (*siyaha*); his shaykhs interpreted the dream as promising the favour of monarchs and visits to the tombs of saints, and he resolved to spend his life travelling; Hammer sees in this the reason for his fondness… — source location `content/en/person/evliya-celebi.md — The dream and the travels`; citation `{cite:evliya-narrative-hammer-v1 p.11} {cite:evliya-narrative-hammer-v1 p.11}`; flag: **stated**.
-4. According to Hammer he travelled for forty-one years through the Ottoman lands in Europe, Asia and Africa except Tunis, Algiers and Tripoli; went with the Ottoman embassy to Vienna in 1664 as its secretary and went on through the German lands, the Netherlands and Sweden, returning by the Crimea; and was present at twenty-two battles.    His journeys included Brussa, Nicomedia, Trebizond, the siege of Azov, Crete,… — source location `content/en/person/evliya-celebi.md — The dream and the travels`; citation `{cite:evliya-narrative-hammer-v1 p.12} {cite:evliya-narrative-hammer-v1 p.18} {cite:evliya-narrative-hammer-v1 p.19} {cite:evliya-narrative-hammer-v1 p.12} {cite:evliya-narrative-hammer-v1 p.13} {cite:evliya-narrative-hammer-v1 p.14} {cite:evliya-narrative-hammer-v1 p.16} {cite:evliya-narrative-hammer-v1 p.19}`; flag: **stated**.
-5. Cairo is the capital of Egypt . The Fatimids founded it beside Fustat  ; the museum's data date its founding to 969 CE, a year not on al-Maqrizi's pages. Al-Maqrizi says that the commander Jawhar reached its site with the troops of al-Mu'izz li-Din Allah in Sha'ban 358 AH, settled there and laid out the palace, and ran a wall of mud brick around the palace and the mosque  . He reports another account that it was… — source location `content/en/place/cairo.md — Overview`; citation `{cite:geonames-gazetteer 360630} {cite:khitat-maqrizi-1998 p.1001} {cite:khitat-maqrizi-1998 p.1030} {cite:khitat-maqrizi-1998 p.1030} {cite:khitat-maqrizi-1998 p.1067} {cite:khitat-maqrizi-1998 p.1030} {cite:khitat-maqrizi-1998 p.1030} {cite:khitat-maqrizi-1998 p.1031} {cite:khitat-maqrizi-1998 p.1067} {cite:khitat-maqrizi-1998 p.1032}`; flag: **stated**.
-6. Al-Maqrizi counts it as the fourth place in Egypt to which the seat of rule moved in the Islamic period, after Fustat, al-Askar and al-Qata'i' . It became the caliphal residence, where the caliph lived with his household and his closest people; after the Fatimids, Saladin and those who ruled after him lived there, until al-Kamil moved from it to the Citadel of the Mountain, and it became a city of residence after… — source location `content/en/place/cairo.md — Overview`; citation `{cite:khitat-maqrizi-1998 p.1001} {cite:khitat-maqrizi-1998 p.1001} {cite:tarikh-khulafa-minhaj-1434 p. 620-621} {cite:farghani-elements-astronomy p. 398}`; flag: **stated**.
-7. The Encyclopaedia of Islam, second edition, article al-Kahira, calls Cairo the capital of Egypt and one of the most important centres of religious, cultural and political life in the Muslim world. The city lies on both banks of the Nile, about 20 km south of the delta, where the Muqattam hills almost reach the river. The site had been inhabited from early times, and it became of first importance at the Arab… — source location `content/en/place/cairo.md — Location`; citation `{cite:encyclopaedia-of-islam-2 vol. 4 p. 445}`; flag: **stated**.
-8. Its approximate coordinates are 30.0626 N and 31.2497 E . — source location `content/en/place/cairo.md — Location`; citation `{cite:geonames-gazetteer}`; flag: **stated**.
-
+1. Evliya Çelebi, born in 1611 CE in Constantinople, was the son of Dervish Mehmed, who was the chief of the city's goldsmiths. — source location `content/en/person/evliya-celebi.md — Summary`; citation `{cite:evliya-narrative-hammer-v1 p.9}`; flag: **stated**.
+2. Evliya's father supervised the construction of the gate of the Sultan Ahmed Mosque, and his grandfather was a standard-bearer during the conquest of Constantinople. — source location `content/en/person/evliya-celebi.md — Family and upbringing`; citation `{cite:evliya-narrative-hammer-v1 p.9} {cite:evliya-narrative-hammer-v1 p.9} {cite:evliya-narrative-hammer-v1 p.10} {cite:evliya-narrative-hammer-v1 p.11}`; flag: **stated**.
+3. On his twenty-first birthday, Evliya had a dream that his shaykhs interpreted as a sign of his future travels and encounters with monarchs and saints. — source location `content/en/person/evliya-celebi.md — The dream and the travels`; citation `{cite:evliya-narrative-hammer-v1 p.11} {cite:evliya-narrative-hammer-v1 p.11}`; flag: **stated**.
+4. Evliya travelled for forty-one years across the Ottoman Empire, visiting various cities and witnessing twenty-two battles. — source location `content/en/person/evliya-celebi.md — The dream and the travels`; citation `{cite:evliya-narrative-hammer-v1 p.12} {cite:evliya-narrative-hammer-v1 p.18} {cite:evliya-narrative-hammer-v1 p.19} {cite:evliya-narrative-hammer-v1 p.12} {cite:evliya-narrative-hammer-v1 p.13} {cite:evliya-narrative-hammer-v1 p.14} {cite:evliya-narrative-hammer-v1 p.16} {cite:evliya-narrative-hammer-v1 p.19}`; flag: **stated**.
+5. Cairo, founded in 969 CE by the Fatimids, was initially built around a palace and mosque with a mud brick wall. — source location `content/en/place/cairo.md — Overview`; citation `{cite:geonames-gazetteer 360630} {cite:khitat-maqrizi-1998 p.1001} {cite:khitat-maqrizi-1998 p.1030} {cite:khitat-maqrizi-1998 p.1030} {cite:khitat-maqrizi-1998 p.1067} {cite:khitat-maqrizi-1998 p.1030} {cite:khitat-maqrizi-1998 p.1030} {cite:khitat-maqrizi-1998 p.1031} {cite:khitat-maqrizi-1998 p.1067} {cite:khitat-maqrizi-1998 p.1032}`; flag: **stated**.
+6. Cairo was the fourth capital in Egypt during the Islamic period and became the residence of the caliphs and later rulers. — source location `content/en/place/cairo.md — Overview`; citation `{cite:khitat-maqrizi-1998 p.1001} {cite:khitat-maqrizi-1998 p.1001} {cite:tarikh-khulafa-minhaj-1434 p. 620-621} {cite:farghani-elements-astronomy p. 398}`; flag: **stated**.
+7. Cairo is a significant religious, cultural, and political center in the Muslim world, located on both banks of the Nile. — source location `content/en/place/cairo.md — Location`; citation `{cite:encyclopaedia-of-islam-2 vol. 4 p. 445}`; flag: **stated**.
+8. The coordinates of Cairo are approximately 30.0626 N and 31.2497 E. — source location `content/en/place/cairo.md — Location`; citation `{cite:geonames-gazetteer}`; flag: **stated**.
 ## Thumbnail elements without record support
 
 The atlas title is الرجل الذي سافر أربعين سنة. No record read supports proof that every colourful traveller tale is factual, or a complete forty-year route in one scene. Treat these as design fiction unless a reviewer supplies support.
@@ -45,15 +53,15 @@ The record is thinner than the forty-year traveller title; no city or route is a
 
 These are proposals for Claude and the founder, not content.
 
-1. A journey problem asks the player to apply Route and Journal to a documented leg or account, with uncertainty visible rather than hidden.
+1. Players use the Route system to follow Evliya's journey, marking key locations in their Journal [3, 4].
 
-2. Hudhud helps compare what a traveller says, what a later record says and what the thumbnail invents, using Talk plus Route and Journal.
+2. In the game, players explore Cairo's founding and layout, distinguishing historical facts from fictional elements in their Journal [5, 6].
 
-3. The quest returns a page to the Atlas, with optional context, a hidden collectible and replay goals; this structure is game design only, not historical content.
+3. Players navigate Cairo's strategic importance and its landmarks using the Route system, while noting their findings in the Journal [7, 8].
 
 ## Sensitivities
 
-Travel accounts may touch war, slavery, illness, death, sect and living disputes. Do not turn real trauma into amusement; label literary or uncertain reportage; invented dialogue must be dramatized paraphrase.
+Evidence scan, not a ruling: war/conflict. Any such material still requires the full content-safety and age-appropriateness review. Travel accounts may touch war, slavery, illness, death, sect and living disputes. Do not turn real trauma into amusement; label literary or uncertain reportage; invented dialogue must be dramatized paraphrase.
 
 ## Gaps
 
