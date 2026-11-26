@@ -52,7 +52,7 @@ _26 November 2026. A matrix of the instruction's sections 6 and 9 against the go
 
 ## History
 
-Every statement of history in the scene is an entry in [the ledger](../historical-review/ledger.md) (HR-HH-01 to 25), written by the agent and decided by nobody: no reviewer is named for any game. The page says "Historical review pending" under the picture and in the note at the end, in seven languages, and a test fails if it stops saying so while an entry is pending. An AI does not approve its own history; a museum record is source material that has itself not been reviewed for the game.
+Every statement of history in the scene is an entry in [the ledger](../historical-review/ledger.md) (HR-HH-01 to 28), written by the agent and decided by nobody: no reviewer is named for any game. The page says "Historical review pending" under the picture and in the note at the end, in seven languages, and a test fails if it stops saying so while an entry is pending. An AI does not approve its own history; a museum record is source material that has itself not been reviewed for the game.
 
 Before each further quest is written: read the subject's records; enter each claim the quest will make, with its record and what is uncertain; mark invention as invention; hold anything the founder's pictures show that no record supports (as the prism here) until a reviewer rules.
 

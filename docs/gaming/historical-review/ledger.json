@@ -1065,6 +1065,70 @@
     "R6"
    ],
    "editorApproved": null
+  },
+  {
+   "id": "HR-HH-26",
+   "game": "Hudhud",
+   "claim": "The museum's record says that transmitted accounts tell that Chinese artisans captured in a battle near the Talas river in 751 taught the people of Samarkand to make paper from linen and hemp rags, and that this is a report handed down, not a proved beginning (a transmitted account rather than a proved foundation act). It also says that the Chinese invented paper and that the part of the Islamic world was to receive the craft, adapt it and spread it.",
+   "context": "The paper-of-Samarkand quest: the answer to 'Ask about the old report' and the first two sentences of the museum note at the end of the quest (strings pp_story_1, pp_note_2)",
+   "sources": [
+    "invention/paper-mill-samarkand",
+    "place/samarqand"
+   ],
+   "kind": "uncertain",
+   "uncertainty": "Taken from the museum's record of the invention (its summary, 'The story' and 'Who invented it?'), after the Encyclopaedia of Islam and Carter 1925; the record itself has not been through historical review, and it says the prisoner story was transmitted by al-Tha'alibi two centuries later, that the Tang annals confirm the battle's date and not the papermakers' presence, and that Carter notes the Arabic report's 'grasses and plants' against the surviving rag papers. A reviewer should check that the game's sentence keeps the report a report ('an old report tells', 'a report handed down, not a proved beginning') and that nothing else on the page, in any of the seven languages, states it as fact. The record gives the date as 133-134/751 (its two Encyclopaedia of Islam articles differ by a year); the game gives 751 only and adds no Hijri year, and a reviewer should decide whether that is enough. The record's summary says 'linen and hemp rags' and its recipe sentence 'linen, flax or hemp rags'; the game says 'linen or hemp', and a reviewer may want flax named. Other museum records do not say the same: place/samarqand says flatly that paper was 'brought in by the Chinese artisans captured at the battle of Talas in 133/751', with none of the record's caution (the game follows the invention record); content/en/job/papermaker.md, after the TDV entry, says that some researchers put the start in Samarkand with the captives of Talas in 756 and that the Iranica assessment differs; and invention/baghdad-papermaking reports, through Bloom's Iranica article, a Manichaean community producing paper for export in Samarkand from the Hudud al-Alam. The game says none of these things. A reviewer should decide whether the sentence should say that dates and origins differ between sources, and whether the Chinese invention of paper is stated at the right strength.",
+   "author": "Claude Code (claude-sonnet-5-5), an AI agent",
+   "reviewer": null,
+   "decision": "historical review pending",
+   "approved": null,
+   "note": "",
+   "forReview": [
+    "R2",
+    "R4",
+    "R6"
+   ],
+   "editorApproved": null
+  },
+  {
+   "id": "HR-HH-27",
+   "game": "Hudhud",
+   "claim": "The museum's record gives the way paper was made: rags of linen or hemp are cut small, cleaned and bleached, pounded in water to a pulp and dressed with wheat starch, lifted on a mould and shaken until the fibres hold together; the sheet is laid flat and dried on a wall, then rubbed with flour and starch and polished smooth. For the pounding it names mortars, stampers and paper-mills. From Samarkand the craft moved to Baghdad, and on to Egypt, Damascus, the Maghrib, Jativa in Spain and other lands.",
+   "context": "The paper-of-Samarkand quest: the order of the steps that is the answer in all three ways of playing, the step sentences shown as a run is made, the answer to 'Ask how paper was made', and the second and third paragraphs of the museum note (content/paper.ts; strings pp_how_1, pp_did_*, pp_part_*, pp_note_2, pp_note_3)",
+   "sources": [
+    "invention/paper-mill-samarkand"
+   ],
+   "kind": "sourced",
+   "uncertainty": "Taken from the museum's record of the invention ('What it is', 'How it works' and 'The spread'), which cites the Encyclopaedia of Islam, vol. IV pp. 440-441 for the recipe and vol. IV p. 440 and Carter pp. 98-99 for the spread; the record itself has not been through historical review. The order is joined from two sentences of the record: one lists the rags cut small, cleaned, bleached and pounded, then dressed with wheat-starch size and drawn through a deckle; the other says the fibres are pounded to pulp, dressed with starch, lifted on a deckle and shaken until they interlace, and the sheet is laid flat, dried on a wall, rubbed with flour-and-starch and polished smooth. A reviewer should check that this is one order and that cleaning comes before bleaching as the list has it (Challenge makes them two cards in that order). A reviewer should also check that the recipe in the record is a general description of the craft and that the game does not date it to 751 or tie it to Samarkand alone: the game says 'the record gives the way it was made' and gives no date to the recipe. The words differ a little from the record's: the record says 'rotten' where the game says 'worn-out' for the rags, 'deckle' where the game says 'mould', and 'wheat-starch size' where the game says 'dressed with wheat starch'. For the spread the record names Baghdad first and then the Tihama, Yemen, Egypt, Damascus, Tripoli, Hama, Manbij, Tiberias, the Maghrib, Jativa, Persia and India; the game names five and says 'and other lands', and the record warns that this does not make every later mill a direct branch of Samarkand, so a reviewer should check that 'moved to Baghdad, and on to' is not read as a single line (invention/baghdad-papermaking says Baghdad's background is the movement of paper and skills through Central Asia, Samarkand included).",
+   "author": "Claude Code (claude-sonnet-5-5), an AI agent",
+   "reviewer": null,
+   "decision": "historical review pending",
+   "approved": null,
+   "note": "",
+   "forReview": [
+    "R2",
+    "R4",
+    "R6"
+   ],
+   "editorApproved": null
+  },
+  {
+   "id": "HR-HH-28",
+   "game": "Hudhud",
+   "claim": "The game uses a papermaker's workshop in which a page of the Atlas, torn in a storm, is remade; a papermaker and a child who helps, both invented people; one card for each step (and, in Story and Explorer, one card where the record's own sentence joins two or three steps); a row of places in which the cards are put in order, with what each step does to the material said and drawn (scraps, pulp, a sheet); a single mallet for the record's mortars, stampers and paper-mills; and simple pictures of each step drawn in code.",
+   "context": "The paper-of-Samarkand quest as a whole; the museum note says so (strings pp_note_1, pp_note_3, pp_intro_1, pp_intro_2, pp_part_*, pp_kind_*, pp_who_*)",
+   "sources": [],
+   "kind": "reconstruction",
+   "uncertainty": "A simplification for play. Nothing read for the game says that any papermaker kept cards of steps, that a workshop at Samarkand looked as drawn, or that paper was made in exactly these five, seven or eight separate stages; the joining of steps in Story is the game's. A reviewer should check that the drawings, which are simple and made in code, cannot be taken for a claim about how a tool or a vat looked, and that the single mallet does not read as the record's only means of pounding (the note says it is one mallet for mortars, stampers and mills). A reviewer should also check that the invented papermaker, who is named on the page as an invented person, is not mistaken for a named historical person: the record says that no papermaker's name survives and gives credit to transmitters (Ziyad ibn Salih in the account); the game names no one.",
+   "author": "Claude Code (claude-sonnet-5-5), an AI agent",
+   "reviewer": null,
+   "decision": "historical review pending",
+   "approved": null,
+   "note": "",
+   "forReview": [
+    "R4",
+    "R6"
+   ],
+   "editorApproved": null
   }
  ],
  "roster": [

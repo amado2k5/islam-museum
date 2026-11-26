@@ -160,6 +160,9 @@ main:focus { outline: none; }
 .bench canvas.sheets-art { aspect-ratio: 1000 / 480; cursor: pointer; }
 .bench canvas.sort-art { aspect-ratio: 1000 / 460; cursor: pointer; }
 .bench ul.places { grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); }
+/* The seventh quest's page: the papermaker's row, played by a list of choices for every place or by touching two places in the picture. */
+.bench canvas.paper-art { aspect-ratio: 1000 / 420; cursor: pointer; }
+.bench ol.paper-places { grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); }
 .bench ol.tray-key { list-style: none; margin-block: 4px 10px; padding: 0; }
 .bench .sheet-rows { display: grid; gap: 8px; margin-block: 10px; }
 .bench .sheet-row { list-style: none; display: flex; flex-wrap: wrap; gap: 8px; margin: 0; padding: 0; }
