@@ -75,6 +75,8 @@ export function apply(s: SceneState, c: Command): Result {
   if (!thing) return { state: s, happened: [] };
 
   if (thing.kind === "mirror") {
+    // A mirror this way of playing does not have is not in the room.
+    if (!s.puzzle.mirrors.some((m) => `mirror-${m.id}` === thing.id)) return { state: s, happened: [] };
     const puzzle = turnMirror(s.puzzle, thing.id.slice("mirror-".length));
     const lit = trace(puzzle).lit;
     let state: SceneState = { ...s, puzzle, turns: s.turns + 1 };
@@ -161,8 +163,8 @@ export function restore(x: unknown): SceneState | null {
   const mirrors: Mirror[] = [];
   for (const m of base.puzzle.mirrors) {
     const lean = (leans as Record<string, unknown>)[m.id];
-    if (lean !== "/" && lean !== "\\") return null;
-    mirrors.push({ ...m, lean });
+    if (typeof lean !== "string" || !(base.puzzle.leans ?? ["/", "\\"]).includes(lean as Lean)) return null;
+    mirrors.push({ ...m, lean: lean as Lean });
   }
   if (typeof o.turns !== "number" || !Number.isInteger(o.turns) || o.turns < 0 || o.turns > 100000) return null;
   if (!Array.isArray(o.flags) || typeof o.restored !== "boolean" || typeof o.dark !== "boolean") return null;
