@@ -389,6 +389,18 @@ npm --prefix gaming test                      254 passed (unchanged)
 
 The workflow's own build now looks for models beside the release (`--models-base ../media/models/`). The founder answered "Yes, upload to UAT" to the question of putting the mill's files there.
 
+### The mill's files on UAT (26 November 2026 UTC)
+
+Asked whether the mill's files might be put on UAT once the uploader was built, the founder answered "Yes, upload to UAT". The 17 files were attached to the draft release `games-media` under flat names, and "Upload the games' media" was run for UAT with kind `models`:
+
+```
+action check    run 45736853275   17 model files checked against the manifest; 0 uploaded (dry run: nothing written)
+action upload   run 45736985159   17 model files checked against the manifest; 17 uploaded
+read back from https://uat-games.islam.museum/media/models/   17 of 17 byte for byte what the manifest records (5,472,930 bytes); a path that is not there answers 404
+```
+
+**The game on UAT does not show the mill yet.** The release live there (`20261125-484ead40122`) was built before the build looked for models, so it asks for none. A release of `main` will. Until that release the host there also names a `.gltf` file `application/octet-stream`, because its Worker is the older one; the loader does not depend on the name.
+
 ## Measurements
 
 The engine numbers and their conditions are in [G-0002](adr/G-0002-rendering-engine.md) and the [M1 report](m1-graphics-spike.md). They are for one Apple M4 Max in Chrome 158 and are not a hardware recommendation.
@@ -439,6 +451,8 @@ The full district at the end is about 1.56 million triangles and about 950 draw 
 - The fourth UAT release checked in Chrome: [`evidence/release/uat-release-4-en.json`](evidence/release/uat-release-4-en.json), the same in Arabic, and a capture of Granada there.
 
 - The authored mill in the valley: [`evidence/granada/art/mill-in-the-valley.webp`](evidence/granada/art/mill-in-the-valley.webp).
+
+- The mill's files on UAT: [`evidence/release/uat-models-upload.json`](evidence/release/uat-models-upload.json).
 
 ## Unresolved defects and known limits
 
