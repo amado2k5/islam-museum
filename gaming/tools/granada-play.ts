@@ -113,6 +113,7 @@ const behind = (await state()).day;
 await page.waitForTimeout(1200);
 if ((await state()).day !== behind) await fail("the days passed behind the help");
 if ((await page.locator("dialog.help .langs a").count()) !== 7) await fail("the help does not offer the seven languages");
+if ((await page.locator("dialog.help #help-more li").count()) !== 6) await fail("the help does not explain building, trade, what lies ahead, choosing, the years and the keys");
 await shot("5-help");
 await page.locator("#help-close").click();
 await page.keyboard.press("p");
