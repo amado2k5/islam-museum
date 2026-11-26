@@ -4,7 +4,7 @@ import { describe, expect, it } from "vitest";
 import { PLAYERS, playVillage } from "../src/sim/players";
 import { A_DRY_YEAR as Y3, MERCHANTS_OF_MALAGA as Y2, WATER_FOR_THE_VALLEY as SC } from "../src/sim/scenarios";
 import { VILLAGE_VERSION, act, invariants, newVillage, tick, type VillageCommand, type VillageState } from "../src/sim/village";
-import { ASIDE_KEY, SAVE_KEY, clearSave, readAside, readSave, restoreAside, setAside, writeSave, type Store } from "../src/save";
+import { ASIDE_KEY, ASIDE_KEYS, SAVE_KEY, YEAR_KEY, clearSave, readAside, readSave, restoreAside, setAside, writeSave, type Store } from "../src/save";
 import { regionView } from "../src/ui/region";
 import { metresBetween } from "../src/world/geography";
 import { readFileSync } from "node:fs";
@@ -537,6 +537,44 @@ describe("the saved game", () => {
     expect(restoreAside(store)).toBe(true);
     expect([store.data.get(SAVE_KEY), store.data.get(ASIDE_KEY)]).toEqual([readable, newer]);
     expect(setAside(memory())).toBe(false);
+  });
+
+  it("set aside a second time is not written over the first, and when no place is left the answer is no", () => {
+    const store = memory();
+    const text = (n: number) => JSON.stringify({ v: 1, state: { ...JSON.parse(JSON.stringify(days(start(), n))), version: VILLAGE_VERSION + 1 } });
+    store.data.set(SAVE_KEY, text(11));
+    expect(setAside(store)).toBe(true);
+    expect(setAside(store)).toBe(true);
+    expect(ASIDE_KEYS.filter((k) => store.data.has(k))).toEqual([ASIDE_KEY]);
+    // A second rollback finds another game it cannot read.
+    store.data.set(SAVE_KEY, text(12));
+    expect(setAside(store)).toBe(true);
+    expect([store.data.get(ASIDE_KEYS[0]!), store.data.get(ASIDE_KEYS[1]!)]).toEqual([text(11), text(12)]);
+    for (const n of [13, 14]) {
+      store.data.set(SAVE_KEY, text(n));
+      expect(setAside(store)).toBe(true);
+    }
+    store.data.set(SAVE_KEY, text(15));
+    expect(setAside(store)).toBe(false);
+    expect(ASIDE_KEYS.map((k) => store.data.get(k))).toEqual([11, 12, 13, 14].map(text));
+    // A store with no room refuses, and the saved game is as it was.
+    const full: Store = { getItem: (k) => (k === SAVE_KEY ? text(11) : null), setItem: () => { throw new Error("full"); }, removeItem: () => {} };
+    expect(setAside(full)).toBe(false);
+  });
+
+  it("is set aside and brought back with the start of its year", () => {
+    const store = memory();
+    const mine = JSON.stringify({ v: 1, state: days(start(), 12) });
+    store.data.set(SAVE_KEY, mine);
+    store.data.set(YEAR_KEY, "the start of my year");
+    expect(setAside(store)).toBe(true);
+    // A new game takes the saved place and its own start of the year.
+    const other = JSON.stringify({ v: 1, state: days(start(), 2) });
+    store.data.set(SAVE_KEY, other);
+    store.data.set(YEAR_KEY, "the start of the other");
+    expect(restoreAside(store)).toBe(true);
+    expect([store.data.get(SAVE_KEY), store.data.get(YEAR_KEY)]).toEqual([mine, "the start of my year"]);
+    expect([store.data.get(ASIDE_KEY), store.data.get(`${ASIDE_KEY}.year`)]).toEqual([other, "the start of the other"]);
   });
 
   it("is set aside, not half-loaded, when it is damaged, tampered with, or from a newer version", () => {

@@ -11,7 +11,7 @@ import { MUSIC_AVAILABLE, MUSIC_BASE, MusicPlayer } from "@im/audio/player";
 import { MINOR } from "../sim/economy";
 import { SCENARIOS, WATER_FOR_THE_VALLEY, scenarioAfter } from "../sim/scenarios";
 import { act, dayOfSeason, newVillage, nextYear, seasonOf, siteOf, tasksOf, tick, type ActResult, type Refusal, type Scenario, type VillageCommand, type VillageState } from "../sim/village";
-import { clearSave, readAside, readSave, restoreAside, setAside, writeSave } from "../save";
+import { YEAR_KEY, clearSave, readAside, readSave, restoreAside, setAside, writeSave } from "../save";
 import { probeWebGPU } from "@im/kernel/capability";
 import { installCounters } from "@im/kernel/counters";
 import type { ValleyLook } from "../view/three-valley";
@@ -73,10 +73,12 @@ async function main(): Promise<void> {
   const titleKey = () => (sc.follows ? `scenario_${sc.id}` : "scenario_title");
   const briefKey = () => (sc.follows ? `brief_${sc.id}` : "brief_text");
   /** The valley as it stood when the year in hand began, so that a lost year can be played again from its start. */
-  const YEAR_KEY = "im.granada.yearstart.v1";
   let yearStart: string | null = null;
+  /** A saved game that could be neither read nor copied aside is left exactly as it is: nothing of this session is written. */
+  let saveLocked = false;
   const keepYearStart = () => {
     yearStart = JSON.stringify(state);
+    if (saveLocked) return;
     try {
       localStorage.setItem(YEAR_KEY, yearStart);
     } catch {
@@ -102,9 +104,10 @@ async function main(): Promise<void> {
     }
   } else {
     // A game this build cannot read is kept as it is, in a second place, before anything is written over it.
-    if (saved.status === "unreadable" || saved.status === "newer") setAside(localStorage);
+    if (saved.status === "unreadable" || saved.status === "newer") saveLocked = !setAside(localStorage);
     if (saved.status === "unreadable") notice = t("save_unreadable");
     if (saved.status === "newer") notice = t("save_newer");
+    if (saveLocked) notice = t("save_left_untouched");
     state = newVillage(sc, newSeed());
     keepYearStart();
   }
@@ -215,7 +218,7 @@ async function main(): Promise<void> {
   };
   const refusal = (r: ActResult): string => (r.ok ? "" : t(`refuse_${r.why}` in strings ? `refuse_${r.why}` : "refuse_other"));
   const keep = () => {
-    saveOk = writeSave(localStorage, state);
+    saveOk = !saveLocked && writeSave(localStorage, state);
   };
   const order = (command: VillageCommand): boolean => {
     // Nothing is ordered while a picture is being taken.
@@ -627,7 +630,8 @@ async function main(): Promise<void> {
     const what = placing;
     considerSite(x, z);
     if (siteWhy() === "site-water" && view === "plan") return say(t("refuse_site-water"));
-    if (!order({ kind: "place", what, x: Math.round(x), z: Math.round(z) })) return;
+    // The order is for the ground the ring is on, which on the plan is kept inside the sheet.
+    if (!order({ kind: "place", what, x: ghost!.x, z: ghost!.z })) return;
     say(t("site_started", { what: t(`place_${what}`) }));
     stopPlacing();
   }
@@ -1191,7 +1195,7 @@ async function main(): Promise<void> {
   }
   /** A new campaign, from the first year. */
   function begin(seed: number): void {
-    clearSave(localStorage);
+    if (!saveLocked) clearSave(localStorage);
     sc = WATER_FOR_THE_VALLEY;
     state = newVillage(sc, seed);
     keepYearStart();
