@@ -8,6 +8,7 @@ import { HAIRS, OUTFITS, SKINS, keeper as paintKeeper, portrait } from "../art/c
 import { RECORDS, SCRIPTS, THINGS, TURN_SLACK, type PlayStyle, type Speaker } from "../content/workshop";
 import { start, type Running } from "../game/boot";
 import { Input } from "../input/input";
+import { DEFAULT_PAD, PAD_ACTIONS, assignPad, type PadAction } from "../input/pad";
 import { choicesOf, lineOf } from "../narrative/dialogue";
 import { ACTIONS, DEFAULT_KEYS, SAVE_KEY, assignKey, current, load, recordQuest, store, type Action, type Quality, type SaveFile, type Settings } from "../save/save";
 import { apply, beam, goals, newScene, restore, snapshot, type Command, type Happened, type SceneState } from "../sim/scene";
@@ -82,6 +83,8 @@ async function main(): Promise<void> {
   const setKeeper = (patch: Partial<Look>) => {
     save = { ...save, slots: save.slots.map((x, i) => (i === save.slot && x ? { ...x, keeper: { ...x.keeper, ...patch } } : x)) };
     keep();
+    // Wherever the explorer is changed (the Atlas, the settings), the Atlas shows the same one.
+    drawChoices();
   };
   const girl = () => slot().keeper.kind === 1;
   /** The Storykeeper's name and lines in the form that fits the explorer the player chose. */
@@ -228,11 +231,14 @@ async function main(): Promise<void> {
   let running: Running | null = null;
   let paused = false;
   let started = false;
-  let sheetOpen = false;
+  /** A sheet is open over the game. Read from the page itself, never kept as a flag that can be left behind. */
+  const sheetOpen = () => sheets.children.length > 0;
+  /** The pause sheet while the game is paused. */
+  let pauseNode: HTMLElement | null = null;
   let portraits: Record<string, string> = {};
   const log: { who: Speaker; key: string }[] = [];
-  const frozen = () => !started || paused || sheetOpen || state.talk !== null || state.done;
-  const input = new Input({ press: (p) => press(p), pad: (on) => (toast(t(on ? "pad_on" : "pad_off")), !on && started && !paused && togglePause()) });
+  const frozen = () => !started || paused || sheetOpen() || state.talk !== null || state.done;
+  const input = new Input({ press: (p) => press(p), pad: (on) => (toast(t(on ? "pad_on" : "pad_off")), !on && setPaused(true)) });
   input.bindHold(bLeft, "left");
   input.bindHold(bRight, "right");
   input.bindHold(bFly, "jump");
@@ -277,7 +283,7 @@ async function main(): Promise<void> {
   function press(p: "touch" | "pause" | "next" | "back"): void {
     cues.unlock();
     if (p === "pause") return togglePause();
-    if (!started || paused || sheetOpen) return;
+    if (!started || paused || sheetOpen()) return;
     if (state.talk) return run({ type: p === "back" ? "back" : "forward" });
     if (p === "touch") running?.scene()?.touchNear();
   }
@@ -375,11 +381,11 @@ async function main(): Promise<void> {
 
   // ---------------------------------------------------------------------------------------- sheets
   function sheet(title: string, ...body: Array<Node | null | false>): HTMLElement {
-    sheetOpen = true;
     const back = document.activeElement as HTMLElement | null;
     const close = () => {
       node.remove();
-      sheetOpen = sheets.children.length > 0;
+      // Closing the pause sheet, by its button or by Escape, is going on with the game.
+      if (node === pauseNode) setPaused(false);
       back?.focus?.({ preventScroll: true });
       render();
     };
@@ -466,6 +472,8 @@ async function main(): Promise<void> {
       field(t("set_captions"), check(s.captions, (v) => change({ captions: v }))),
       el("h3", { textContent: t("set_keys") }),
       keysBox(),
+      el("h3", { textContent: t("set_pad") }),
+      padBox(),
       el("h3", { textContent: t("set_slot") }),
       field(t("set_slot"), select(save.slots.map((_, i) => [i, t("slot_n", { n: num(i + 1) })] as [number, string]), save.slot, (v) => {
         const i = Number(v);
@@ -502,6 +510,28 @@ async function main(): Promise<void> {
           return el("p", {}, b);
         }),
         el("p", {}, el("button", { type: "button", textContent: t("key_reset"), onclick: () => (change({ keys: structuredClone(DEFAULT_KEYS) }), draw()) })),
+      );
+    };
+    draw();
+    return box;
+  }
+  const PAD_NAME: Record<PadAction, Key> = { fly: "pad_fly", back: "btn_back", touch: "btn_touch", pause: "btn_pause" };
+  /** The same for the controller: each action shows its button's number, and pressing it waits for the next button. */
+  function padBox(): HTMLElement {
+    const box = el("div", {});
+    const draw = () => {
+      box.replaceChildren(
+        ...PAD_ACTIONS.map((a) => {
+          const b = el("button", { type: "button", textContent: t("key_change", { action: t(PAD_NAME[a]), keys: t("pad_button", { n: num(settings().pad[a] + 1) }) }) });
+          b.onclick = () => {
+            b.textContent = t("pad_press");
+            input.capturePad = (button) => (change({ pad: assignPad(settings().pad, a, button) }), draw());
+            b.onblur = () => ((input.capturePad = null), draw());
+          };
+          return el("p", {}, b);
+        }),
+        el("p", {}, el("button", { type: "button", textContent: t("key_reset"), onclick: () => (change({ pad: { ...DEFAULT_PAD } }), draw()) })),
+        el("p", { class: "hint", textContent: t("controls_pad") }),
       );
     };
     draw();
@@ -547,6 +577,7 @@ async function main(): Promise<void> {
     document.documentElement.classList.toggle("contrast", s.highContrast);
     cues.set(s.volume, s.muted);
     input.setKeys(s.keys);
+    input.setPad(s.pad);
   }
   function restart(rebuild: boolean): void {
     state = newScene(style());
@@ -581,31 +612,33 @@ async function main(): Promise<void> {
       return null;
     }
   }
-  function togglePause(): void {
-    if (!started || state.done) return;
-    paused = !paused;
-    cues.hush(paused);
-    if (paused) running?.game.loop.sleep();
+  /**
+   * The one place the game is paused or set going again. Every way in and out comes here: the toolbar button,
+   * Escape, the controller, the pause sheet's own button, a hidden tab, a controller pulled out. Going on closes
+   * every sheet that was opened over the pause, so that nothing is left holding the game still.
+   */
+  function setPaused(on: boolean): void {
+    if (on && (!started || state.done)) return;
+    if (on === paused) return;
+    paused = on;
+    cues.hush(on);
+    if (on) running?.game.loop.sleep();
     else running?.game.loop.wake();
-    document.querySelector(".sheet.pause")?.remove();
-    if (paused) {
-      const node = sheet(t("paused"), el("p", { class: "row" }, el("button", { type: "button", textContent: t("btn_restart"), onclick: () => (leave(), restart(false)) }), el("button", { type: "button", textContent: t("btn_settings"), onclick: () => openSettings() })));
-      node.classList.add("pause");
-      const leave = () => {
-        paused = false;
-        cues.hush(false);
-        running?.game.loop.wake();
-        (node as unknown as { close: () => void }).close();
-      };
-      // Closing the pause sheet, by its button or by Escape, is going on with the game.
-      new MutationObserver(() => {
-        if (!node.isConnected && paused) ((paused = false), cues.hush(false), running?.game.loop.wake(), render());
-      }).observe(sheets, { childList: true });
+    if (on) {
+      pauseNode = sheet(t("paused"), el("p", { class: "row" }, el("button", { type: "button", textContent: t("btn_restart"), onclick: () => (setPaused(false), restart(false)) }), el("button", { type: "button", textContent: t("btn_settings"), onclick: () => openSettings() })));
+      pauseNode.classList.add("pause");
+    } else {
+      pauseNode = null;
+      sheets.replaceChildren();
     }
     render();
   }
+  function togglePause(): void {
+    if (!started || state.done) return;
+    setPaused(!paused);
+  }
   document.addEventListener("visibilitychange", () => {
-    if (document.hidden && started && !paused && !state.done) togglePause();
+    if (document.hidden) setPaused(true);
   });
 
   applyLook();
@@ -627,9 +660,9 @@ async function main(): Promise<void> {
   }
   /** Leaves the quest for the Atlas. A quest in the middle stays saved; a finished one is cleared for another play. */
   function toAtlas(): void {
-    if (paused) ((paused = false), cues.hush(false));
+    setPaused(false);
     sheets.replaceChildren();
-    sheetOpen = false;
+    pauseNode = null;
     running?.stop();
     running = null;
     canvasBox.replaceChildren();
@@ -659,7 +692,7 @@ async function main(): Promise<void> {
     });
   };
   for (const kind of [1, 0]) {
-    const b = el("button", { type: "button", onclick: () => (setKeeper({ kind, hair: kind === 1 ? 3 : 0 }), drawChoices()) });
+    const b = el("button", { type: "button", onclick: () => setKeeper({ kind, hair: kind === 1 ? 3 : 0 }) });
     explorerButtons.push(b);
     choose.append(b);
   }

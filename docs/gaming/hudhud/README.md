@@ -1,5 +1,7 @@
 # Hudhud: The Atlas of Wonders
 
+_**Second instruction, 26 November 2026:** the founder's production-completion directive, informed by an independent play of the UAT release, is filed unedited at [`owner-directive-2026-11-26-production-completion.md`](owner-directive-2026-11-26-production-completion.md) (SHA-256 `8431386d41036218ec69a15fdcf7bac3c0d3e70266c896cc68c8a46e2a416fa0`) and governs with the first. Its package and eight reference pictures: [`reference-images.md`](reference-images.md). Work it asks of the second agent: [`devin-parallel-work.md`](devin-parallel-work.md)._
+
 _A 2D story game for the museum's gaming platform. Working title. **Prototype: one scene of a few minutes.** Started 26 November 2026 on the founder's instruction, which is filed here unedited and governs: [`owner-instruction-2026-11-26.md`](owner-instruction-2026-11-26.md) (SHA-256 `5942fd78824a788cadc656dba755730498b7d1749fb280a476df231006f20b66`; taken from the session it was pasted into, as that message's pasted text)._
 
 ## The first decision package (the instruction's section 14)
@@ -15,7 +17,7 @@ _A 2D story game for the museum's gaming platform. Working title. **Prototype: o
 | 7 | Architecture, schemas, dependencies | [architecture](architecture.md), [G-0014](../adr/G-0014-hudhud-narrative-and-content-format.md) | one new dependency |
 | 8 | Website Play and navigation plan | [website plan](website-plan.md) | a proposal only; a header entry rewrites every page and is held for the weekly batch |
 | 9 | Accessibility, child safety, languages, history, assets | [accessibility and the rest](accessibility.md), [the review ledger](../historical-review/ledger.md) | much is built; nothing is audited, read by a native speaker, reviewed by a historian or played by a child |
-| 10 | The golden scene, running, with captures and tests | `gaming/games/hudhud/`, [test plan](test-plan.md), [evidence](../evidence/hudhud/golden-scene/) | plays start to finish in Chrome in seven languages; 109 tests of its own |
+| 10 | The golden scene, running, with captures and tests | `gaming/games/hudhud/`, [test plan](test-plan.md), [evidence](../evidence/hudhud/golden-scene/) | plays start to finish in Chrome in seven languages; 114 tests of its own |
 
 Also: [**what remains before it is a whole game**](remaining.md); [the state of the game](../games/hudhud.md); [the player's explorers](explorers.md) (a girl or a boy, built; a roster by region and century, proposed); [the pause of the other games](pause-of-other-games.md).
 

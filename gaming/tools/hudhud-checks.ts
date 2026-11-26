@@ -166,6 +166,93 @@ const ev = <T>(page: Page, js: string) => page.evaluate(js) as Promise<T>;
   record("the skip link lands on the game", link === "skip" && /play/.test(landed) && next, { link, landed, next });
   await ctx.close();
 }
+// 4f. Pause and go on, every way there is, and the game answers afterwards each time.
+{
+  const ctx = await browser.newContext({ viewport: { width: 1280, height: 800 } });
+  const page = await open(ctx, "&fresh=1");
+  await playing(page);
+  await ev(page, "window.__HH__.command({type:'skip'})");
+  const alive = async () => {
+    const before = await ev<number>(page, "window.__HH__.state().turns");
+    await page.locator(".words li button", { hasText: /mirror 1/ }).click();
+    await page.waitForTimeout(120);
+    const st = await ev<{ turns: number; sheets: number; disabled: boolean }>(page, "({ turns: window.__HH__.state().turns, sheets: document.querySelectorAll('.sheet').length, disabled: document.querySelector('.words li button').disabled })");
+    return st.turns === before + 1 && st.sheets === 0 && !st.disabled;
+  };
+  // The pause button of the toolbar, whatever it says. While the pause sheet is up it lies under the sheet for a
+  // mouse, but a keyboard or a screen reader still reaches and presses it: it is pressed here the way they do.
+  const toolbar = { click: () => page.locator("header button").nth(-2).dispatchEvent("click") };
+  const ways: Record<string, boolean> = {};
+  await toolbar.click(); await toolbar.click(); ways["toolbar, then toolbar"] = await alive();
+  await toolbar.click(); await page.keyboard.press("Escape"); ways["toolbar, then Escape"] = await alive();
+  await page.locator("#stage").focus(); await page.keyboard.press("Escape"); await page.locator(".sheet.pause button.primary").click(); ways["Escape, then the sheet's own button"] = await alive();
+  await toolbar.click(); await page.locator(".sheet.pause button", { hasText: "Settings" }).click(); await toolbar.click(); ways["settings opened from the pause, then toolbar"] = await alive();
+  await toolbar.click(); await page.locator(".sheet.pause button", { hasText: "Settings" }).click(); await page.keyboard.press("Escape"); await page.keyboard.press("Escape"); ways["settings from the pause, closed one by one with Escape"] = await alive();
+  await ev(page, "Object.defineProperty(document, 'hidden', { configurable: true, get: () => true }); document.dispatchEvent(new Event('visibilitychange')); Object.defineProperty(document, 'hidden', { configurable: true, get: () => false });");
+  const hiddenPaused = await ev<number>(page, "document.querySelectorAll('.sheet.pause').length");
+  await toolbar.click(); ways["a hidden tab pauses, then toolbar"] = hiddenPaused === 1 && (await alive());
+  for (let i = 0; i < 6; i++) await toolbar.click();
+  ways["six times in a row"] = await alive();
+  record("pause and go on, every way, and the game still answers", Object.values(ways).every(Boolean), ways);
+  await ctx.close();
+}
+// 4g. The explorer chosen in the settings is the explorer the Atlas shows, before a quest, after one, and after a reload.
+{
+  const ctx = await browser.newContext({ viewport: { width: 1280, height: 800 } });
+  let page = await open(ctx, "");
+  const shown = () => ev<{ pressed: string; kind: number }>(page, "({ pressed: [...document.querySelectorAll('.choose button')].map((b) => b.getAttribute('aria-pressed')).join(','), kind: JSON.parse(localStorage.getItem('im.hudhud.save.v1') || '{\"slots\":[{\"keeper\":{\"kind\":1}}]}').slots[0].keeper.kind })");
+  const first = await shown();
+  await page.getByRole("button", { name: "Settings" }).click();
+  await page.locator(".sheet select").nth(3).selectOption("0"); // the explorer: a boy
+  await page.locator(".sheet button.primary").click();
+  const afterSettings = await shown();
+  await playing(page);
+  await ev(page, "window.__HH__.command({type:'skip'})");
+  await page.getByRole("button", { name: "Settings" }).click();
+  await page.locator(".sheet select").nth(3).selectOption("1"); // back to a girl, in the middle of a quest
+  await page.locator(".sheet button.primary").click();
+  await page.getByRole("button", { name: "Back to the Atlas" }).click();
+  const afterQuest = await shown();
+  await page.reload();
+  await page.waitForFunction("window.__HH__ && window.__HH__.ready");
+  const afterReload = await shown();
+  record("the explorer is the same in the settings and on the Atlas", first.pressed === "true,false" && afterSettings.pressed === "false,true" && afterSettings.kind === 0 && afterQuest.pressed === "true,false" && afterQuest.kind === 1 && afterReload.pressed === "true,false", { first, afterSettings, afterQuest, afterReload });
+  await ctx.close();
+}
+// 4h. A controller, stood in for by the page's own gamepad interface: the lower button goes on in a talk and flies,
+// the right one goes back a line, Start pauses and goes on, all while the world stands still. No real controller.
+{
+  const ctx = await browser.newContext({ viewport: { width: 1280, height: 800 } });
+  await ctx.addInitScript("window.__pad = { index: 0, id: 'test pad', mapping: 'standard', connected: true, axes: [0, 0, 0, 0], buttons: Array.from({ length: 17 }, () => ({ pressed: false, value: 0 })) }; navigator.getGamepads = () => [window.__pad];");
+  const page = await open(ctx, "&fresh=1");
+  await playing(page);
+  await ev(page, "window.dispatchEvent(Object.assign(new Event('gamepadconnected'), { gamepad: window.__pad }))");
+  const tap = async (i: number) => {
+    await ev(page, `window.__pad.buttons[${i}].pressed = true`);
+    await page.waitForTimeout(80);
+    await ev(page, `window.__pad.buttons[${i}].pressed = false`);
+    await page.waitForTimeout(80);
+  };
+  const line = () => ev<number | null>(page, "window.__HH__.state().talk ? window.__HH__.state().talk.line : null");
+  const l0 = await line();
+  await tap(0);
+  const l1 = await line();
+  await tap(1);
+  const l2 = await line();
+  await tap(0); await tap(0); await tap(0);
+  const over = await line();
+  await tap(9);
+  const paused = await ev<number>(page, "document.querySelectorAll('.sheet.pause').length");
+  await tap(9);
+  const resumed = await ev<number>(page, "document.querySelectorAll('.sheet').length");
+  const y0 = (await ev<{ y: number }>(page, "window.__HH__.where()")).y;
+  await ev(page, "window.__pad.buttons[0].pressed = true");
+  await page.waitForTimeout(250);
+  const y1 = (await ev<{ y: number }>(page, "window.__HH__.where()")).y;
+  await ev(page, "window.__pad.buttons[0].pressed = false");
+  record("a controller goes on and back in a talk, pauses and flies (a stand-in pad, not a real one)", l0 === 0 && l1 === 1 && l2 === 0 && over === null && paused === 1 && resumed === 0 && y1 < y0 - 20, { l0, l1, l2, over, paused, resumed, y0, y1 });
+  await ctx.close();
+}
 // 5. The Atlas: fifty named pages in ten worlds, one of them open; play it, come back, and find its page home.
 for (const lang of ["en", "ar"]) {
   const ctx = await browser.newContext({ viewport: { width: 1280, height: 900 } });
