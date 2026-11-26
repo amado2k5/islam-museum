@@ -25,6 +25,18 @@ describe("the scripts", () => {
       }
     }
   });
+  it("give what the record says of his view of sight to the Atlas's voice, not to him as his own sentence", () => {
+    expect(SCRIPTS.scholar!.nodes.see!.lines[0]).toMatchObject({ who: "narrator", key: "d_scholar_see_1" });
+    for (const lang of LANGS) {
+      const t = table(lang);
+      // No "I hold", "I believe", "I say" in any line he speaks, in English; every language says his words are imagined.
+      expect(t.dramatized!.trim().length, lang).toBeGreaterThan(5);
+    }
+    const en = table("en");
+    for (const s of Object.values(SCRIPTS)) for (const n of Object.values(s.nodes)) for (const l of n.lines) if (l.who === "scholar") expect(/\bI (hold|believe|say|think|proved|discovered)\b/i.test(en[l.key]!), l.key).toBe(false);
+    const app = readFileSync(resolve(__dirname, "..", "ui", "app.ts"), "utf8");
+    expect(app.includes('t("dramatized")')).toBe(true);
+  });
   it("mark the optional questions and always offer a way on that is not one", () => {
     const hello = SCRIPTS.scholar!.nodes.hello!;
     expect(hello.choices!.filter((c) => c.deeper)).toHaveLength(2);

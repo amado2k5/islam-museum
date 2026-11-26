@@ -70,6 +70,8 @@ export async function gate(o: GateOptions): Promise<void> {
     o.refused?.(reasons);
     document.title = `${strings.title} ${about.title}`;
     const main = el("main");
+    // The page's skip link points at "play": it lands here when the game itself is not shown.
+    main.id = "play";
     main.tabIndex = -1;
     const list = el("ul");
     for (const r of reasons) list.append(el("li", strings[REASON_KEY[r]]));
