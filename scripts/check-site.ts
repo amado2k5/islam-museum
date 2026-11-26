@@ -1,7 +1,7 @@
 // Build-time assertions on the rendered site (dist/), run after `npm run build` (see site/package.json).
 // Fails on: a Hijri year 0 ("0 هـ"), replacement characters, garbled era marks, footnote links that resolve to nothing,
 // placeholder dates, links to a Modern Islam Browser year page that was not built. Warns on empty meta descriptions.
-import { existsSync, readFileSync } from "node:fs";
+import { existsSync, readFileSync, readdirSync } from "node:fs";
 import { fileURLToPath } from "node:url";
 import { parse } from "yaml";
 import { listFiles, p, rel } from "./lib.js";
@@ -198,8 +198,17 @@ if (process.argv[1] && fileURLToPath(import.meta.url) === process.argv[1]) {
     if (!read("tafsir", "surah", "2")?.includes(`href="/${lang}/passage/quran-2-255/#tafsir"`)) errors.push(`${lang}/tafsir/surah/2/ does not link 2:255's Tafsir section`);
     const covered = read("passage", "quran-2-255");
     if (!covered || !/<section[^>]*\sid="tafsir"/.test(covered) || !covered.includes('class="tafsir-group"') || !covered.includes(`href="/${lang}/work/jami-al-bayan/"`)) errors.push(`${lang}/passage/quran-2-255/ has no Tafsir section naming its commentary`);
-    const bare = read("passage", "quran-4-164");
-    if (!bare || !/<section[^>]*\sid="tafsir"/.test(bare) || bare.includes('class="tafsir-group"') || !bare.includes(`href="/${lang}/tafsir/"`)) errors.push(`${lang}/passage/quran-4-164/ does not show the honest "not yet covered" Tafsir fallback`);
+    // A verse without commentary must say so. Which verses those are changes as commentary is added (the verse named
+    // here was 114:6, then 4:164, and each was covered in turn and broke the build), so the probe is found, not
+    // named: the first verse page in the build that carries no commentary group. If every verse is covered there is
+    // nothing to probe, and nothing is reported.
+    const passages = p("dist", lang, "passage");
+    let uncovered: { slug: string; html: string } | null = null;
+    for (const slug of (existsSync(passages) ? readdirSync(passages) : []).filter((s) => /^quran-\d+-\d+$/.test(s)).sort()) {
+      const html = read("passage", slug);
+      if (html !== null && !html.includes('class="tafsir-group"')) { uncovered = { slug, html }; break; }
+    }
+    if (uncovered && (!/<section[^>]*\sid="tafsir"/.test(uncovered.html) || !uncovered.html.includes(`href="/${lang}/tafsir/"`))) errors.push(`${lang}/passage/${uncovered.slug}/ has no commentary and does not show the honest "not yet covered" Tafsir fallback`);
   }
   // audit of 13 November 2026, Part II: the Ten are ten; no person stands in a list of beings; Signs is scoped and the
   // four hereafter browsers say how they differ; a merged record's old id builds no page of its own
