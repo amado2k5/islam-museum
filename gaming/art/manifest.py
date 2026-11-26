@@ -20,6 +20,9 @@ ASSETS = [
     {"id": "granada/mill", "game": "granada", "title": "The watermill", "script": "blender/granada_mill.py", "folder": "granada/2", "entry": "mill.gltf"},
     {"id": "granada/town", "game": "granada", "title": "The town's kit: four houses, a wall, a tower, a gate, scaffolding, a stall", "script": "blender/granada_town.py", "folder": "granada/2", "entry": "town.gltf", "kit": "town.kit.json"},
     {"id": "granada/landmarks", "game": "granada", "title": "The larger pieces: a palace for the hill, an estate, a builders' crane", "script": "blender/granada_landmarks.py", "folder": "granada/2", "entry": "landmarks.gltf", "kit": "landmarks.kit.json"},
+    # The palace the game shows: the lighter making of the palace written as its own script, in a folder of its own
+    # that borrows the first set's textures (art/derive_palace.py copies it there from the export).
+    {"id": "granada/palace", "game": "granada", "title": "The palace on the hill, written as its own script (its lighter making)", "script": "blender/granada_palace_c.py", "folder": "granada/p1", "entry": "palace.gltf", "also": ["blender/author.py", "derive_palace.py"]},
     # Candidate C, an art set under evaluation and not the game's art: one palace, and two lighter makings of it.
     {"id": "granada/palace-c", "game": "granada", "title": "Candidate C (under evaluation): a palace written as its own script", "script": "blender/granada_palace_c.py", "folder": "granada/c", "entry": "palace.gltf", "evaluation": True, "also": ["blender/author.py"]},
     {"id": "granada/palace-c-lod1", "game": "granada", "title": "Candidate C (under evaluation): the palace, lighter", "script": "blender/granada_palace_c.py", "folder": "granada/c", "entry": "palace-lod1.gltf", "evaluation": True, "also": ["blender/author.py"]},
@@ -38,7 +41,8 @@ def describe(asset):
     if not entry.exists():
         return None
     gltf = json.loads(entry.read_text())
-    files = [entry] + [folder / b["uri"] for b in gltf.get("buffers", [])] + [folder / i["uri"] for i in gltf.get("images", [])]
+    # A file may borrow another folder's textures ("../2/textures/…"): its path is written as the host has it.
+    files = [entry] + [(folder / b["uri"]).resolve() for b in gltf.get("buffers", [])] + [(folder / i["uri"]).resolve() for i in gltf.get("images", [])]
     triangles = 0
     for mesh in gltf["meshes"]:
         for primitive in mesh["primitives"]:
@@ -61,7 +65,7 @@ def describe(asset):
         "materials": [m["name"] for m in gltf["materials"]],
         "triangles": triangles,
         "bytes": sum(f.stat().st_size for f in files),
-        "files": [{"path": str(f.relative_to(MODELS)), "bytes": f.stat().st_size, "sha256": sha(f)} for f in files],
+        "files": [{"path": str(f.resolve().relative_to(MODELS.resolve())), "bytes": f.stat().st_size, "sha256": sha(f)} for f in files],
     }
 
 

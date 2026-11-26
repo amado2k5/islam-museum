@@ -284,3 +284,63 @@ export function basket(): MeshData {
   b.cylinder(f, 0, 0.4, 0, 0.36, 0.3, 0.1, 10, [1, 1, 1], true);
   return b.build();
 }
+
+// ---- The valley's living things, each one small shape drawn many times -------------------------------------------
+// They face local +Z, as the ox does. White where the instance's own colour is to show.
+
+/** A sheep or a goat, about a metre long: a woolly body, a darker head held low, four legs. */
+export function sheep(): MeshData {
+  const b = new MeshBuilder();
+  const f = frame(0, 0, 0);
+  const wool: Rgb = [1, 1, 1];
+  const dark: Rgb = [0.34, 0.3, 0.26];
+  b.box(f, 0, 0.34, 0, 0.5, 0.46, 0.95, wool, 63, 0.9);
+  b.box(f, 0, 0.5, 0.56, 0.24, 0.26, 0.34, dark, 63);
+  for (const x of [-0.16, 0.16]) for (const z of [-0.32, 0.32]) b.box(f, x, 0, z, 0.1, 0.36, 0.1, dark, 31);
+  return b.build();
+}
+
+/** A horse, about two metres long and a metre and a half at the shoulder, saddled. */
+export function horse(): MeshData {
+  const b = new MeshBuilder();
+  const f = frame(0, 0, 0);
+  const coat: Rgb = [1, 1, 1];
+  const shade: Rgb = [0.72, 0.72, 0.72];
+  const mane: Rgb = [0.22, 0.2, 0.18];
+  b.box(f, 0, 0.92, 0, 0.56, 0.62, 1.75, coat, 63, 0.85);
+  // The neck rises forward in two steps, and the head hangs from it.
+  b.box(f, 0, 1.36, 0.86, 0.34, 0.5, 0.46, coat, 63);
+  b.box(f, 0, 1.72, 1.12, 0.3, 0.42, 0.4, coat, 63);
+  b.box(f, 0, 1.66, 1.46, 0.24, 0.3, 0.52, shade, 63);
+  b.box(f, 0, 1.78, 0.8, 0.08, 0.5, 0.5, mane, 63);
+  b.box(f, 0, 0.75, -0.98, 0.1, 0.7, 0.14, mane, 63);
+  for (const x of [-0.2, 0.2]) for (const z of [-0.68, 0.68]) b.box(f, x, 0, z, 0.13, 0.94, 0.13, shade, 31);
+  // A saddle cloth: red, as a mark the eye finds from far off.
+  b.box(f, 0, 1.54, -0.08, 0.62, 0.06, 0.7, [0.62, 0.12, 0.1], 63);
+  return b.build();
+}
+
+/** What marks a man of the watch: a round helmet over the head-cloth, a round shield at the left arm, a spear upright in the right hand. */
+export function guardGear(): MeshData {
+  const b = new MeshBuilder();
+  const f = frame(0, 0, 0);
+  const iron: Rgb = [0.55, 0.56, 0.58];
+  const wood: Rgb = [0.36, 0.26, 0.16];
+  b.revolve(f, 0, 1.55, 0, (t) => [0.15 * Math.cos((t * Math.PI) / 2), 0.17 * Math.sin((t * Math.PI) / 2)], 8, 3, iron);
+  b.box(f, 0.3, 0, 0.08, 0.04, 2.5, 0.04, wood, 63);
+  b.cylinder(f, 0.3, 2.5, 0.08, 0.05, 0, 0.3, 4, iron, false);
+  b.box(f, -0.32, 0.72, 0.06, 0.07, 0.56, 0.5, [0.5, 0.16, 0.12], 63);
+  return b.build();
+}
+
+/** A bird on the wing, seen from below as two swept wings. About a metre across. */
+export function bird(): MeshData {
+  const b = new MeshBuilder();
+  const dark: Rgb = [0.16, 0.15, 0.14];
+  const P = (x: number, y: number, z: number): V3 => [x, y, z];
+  for (const s of [-1, 1]) {
+    b.quad(P(0, 0, 0.22), P(s * 0.55, 0.1, 0.05), P(s * 0.52, 0.1, -0.12), P(0, 0, -0.16), dark);
+    b.quad(P(0, 0, -0.16), P(s * 0.52, 0.1, -0.12), P(s * 0.55, 0.1, 0.05), P(0, 0, 0.22), dark);
+  }
+  return b.build();
+}
