@@ -404,6 +404,8 @@ async function main(): Promise<void> {
       "div",
       {},
       el("p", { class: "who", textContent: who }),
+      // What a person of history is given to say here is invented, and is said to be, beside every such line.
+      line.who === "scholar" ? el("p", { class: "dramatized", textContent: t("dramatized") }) : null,
       lineEl,
       el("span", { class: "visually-hidden", textContent: text }),
       choices.length
