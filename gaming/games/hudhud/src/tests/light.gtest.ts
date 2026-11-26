@@ -60,7 +60,9 @@ describe("the workshop's puzzle", () => {
     const t = trace(q);
     expect(t.lit).toBe(true);
     expect(t.touched).toEqual(["a", "b", "c", "d", "e"]);
-    expect(t.segments.at(-1)!.spread).toBe(true);
+    // No prism stands in the workshop: nothing spreads the beam (it was taken out on 26 November 2026).
+    expect(p.prisms).toEqual([]);
+    expect(t.segments.every((seg) => !seg.spread)).toBe(true);
     for (const m of q.mirrors) expect(m.lean, m.id).toBe(solvedLean(m.id));
   });
   it("cannot be crossed in a straight line: the books are in the way", () => {

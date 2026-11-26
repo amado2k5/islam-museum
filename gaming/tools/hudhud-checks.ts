@@ -380,6 +380,37 @@ const ev = <T>(page: Page, js: string) => page.evaluate(js) as Promise<T>;
   record("progress is in the vault: it outlives a wiped localStorage, shows as saved, and travels by export and import", after.state === "saved" && (after.revision ?? 0) >= 1 && /Saved/.test(chip ?? "") && /\D1\D/.test(` ${back.progress} `) && back.button.startsWith("Play again") && back.local && text.includes('"im.play.save"') && /\D0\D/.test(` ${before} `) && /\D1\D/.test(` ${imported.progress} `) && imported.toast === "The save was imported." && /\D1\D/.test(` ${refused.progress} `) && /not a Hudhud save/.test(refused.toast ?? ""), { after, chip, back, exportBytes: text.length, before, imported, refused });
   await fresh.close();
 }
+// 4l. No texture is wider or taller than 2048 pixels at any effects preset; the scholar's words are marked as
+// imagined; no prism is drawn; and the dark room's picture falls on the curtain, opposite the hole.
+{
+  const sizes: Record<string, unknown> = {};
+  let texOk = true;
+  for (const q of ["low", "medium", "high"]) {
+    const ctx = await browser.newContext({ viewport: { width: 1920, height: 1080 }, deviceScaleFactor: 2 });
+    const page = await open(ctx, `&fresh=1&q=${q}`);
+    await playing(page);
+    await page.waitForTimeout(600);
+    const info = await ev<{ largestTextures: { key: string; width: number; height: number }[]; textures: number; textureBytes: number }>(page, "window.__HH__.info()");
+    const biggest = Math.max(...info.largestTextures.flatMap((t) => [t.width, t.height]));
+    sizes[q] = { biggest, textures: info.textures, megabytes: Math.round(info.textureBytes / 104857.6) / 10, prism: info.largestTextures.some((t) => t.key === "prism") };
+    texOk &&= biggest <= 2048;
+    if (q === "high") {
+      const all = await ev<string[]>(page, "window.__HH__.info().textureKeys || []");
+      (sizes[q] as Record<string, unknown>).keys = all.length;
+      texOk &&= !all.includes("prism") && !all.includes("rainbow-used");
+      await ev(page, "window.__HH__.command({type:'skip'}); window.__HH__.goTo('scholar')");
+      await page.waitForTimeout(1200);
+      const mark = await page.locator(".talk .dramatized").textContent().catch(() => null);
+      await ev(page, "window.__HH__.command({type:'skip'}); window.__HH__.goTo('cord')");
+      await page.waitForTimeout(2200);
+      if (outDir) await page.screenshot({ path: resolve(outDir, "dark-room-on-the-curtain.png") });
+      (sizes[q] as Record<string, unknown>).mark = mark;
+      texOk &&= mark === "Imagined words, not a quotation";
+    }
+    await ctx.close();
+  }
+  record("no texture exceeds 2048 pixels at any preset; no prism; the scholar's words are marked as imagined", texOk, sizes);
+}
 // 5. The Atlas: fifty named pages in ten worlds, one of them open; play it, come back, and find its page home.
 for (const lang of ["en", "ar"]) {
   const ctx = await browser.newContext({ viewport: { width: 1280, height: 900 } });
