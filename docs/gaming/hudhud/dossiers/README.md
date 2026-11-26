@@ -24,6 +24,16 @@
 | karima-al-marwaziyya | [`karima-al-marwaziyya.md`](karima-al-marwaziyya.md) | 4 | 8 | 0 |
 | al-khalil | [`al-khalil.md`](al-khalil.md) | 2 | 8 | 1 |
 | rashid-al-din | [`rashid-al-din.md`](rashid-al-din.md) | 2 | 8 | 0 |
+| sailor-of-sohar | [`sailor-of-sohar.md`](sailor-of-sohar.md) | 1 | 2 | 0 |
+| sindbad | [`sindbad.md`](sindbad.md) | 2 | 8 | 0 |
+| coffee | [`coffee.md`](coffee.md) | 2 | 8 | 0 |
+| mansa-musa | [`mansa-musa.md`](mansa-musa.md) | 7 | 8 | 0 |
+| timbuktu | [`timbuktu.md`](timbuktu.md) | 1 | 1 | 0 |
+| mimar-sinan | [`mimar-sinan.md`](mimar-sinan.md) | 8 | 8 | 0 |
+| alhambra | [`alhambra.md`](alhambra.md) | 3 | 8 | 0 |
+| nur-al-din | [`nur-al-din.md`](nur-al-din.md) | 4 | 8 | 0 |
+| salah-al-din | [`salah-al-din.md`](salah-al-din.md) | 8 | 8 | 0 |
+| ibn-khaldun | [`ibn-khaldun.md`](ibn-khaldun.md) | 5 | 8 | 0 |
 | ibn-battuta | [`ibn-battuta.md`](ibn-battuta.md) | 6 | 8 | 0 |
 | ibn-jubayr | [`ibn-jubayr.md`](ibn-jubayr.md) | 5 | 8 | 0 |
 | evliya-celebi | [`evliya-celebi.md`](evliya-celebi.md) | 4 | 8 | 0 |
