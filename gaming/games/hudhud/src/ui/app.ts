@@ -12,6 +12,9 @@ import { clockQuest, type ClockQuest } from "./clock";
 import { CIPHER_QUEST, cipherPuzzle } from "../content/cipher";
 import { restoreCipher } from "../sim/cipher";
 import { cipherQuest, type CipherQuest } from "./cipher";
+import { ALGEBRA_QUEST, algebraStart } from "../content/algebra";
+import { restoreAlgebra } from "../sim/algebra";
+import { algebraQuest, type AlgebraQuest } from "./algebra";
 import { prologueScreen } from "./prologue";
 import { JAR, RECORDS, SCRIPTS, THINGS, TURN_SLACK, inPlay, type PlayStyle, type Speaker } from "../content/workshop";
 import { start, type Running } from "../game/boot";
@@ -153,10 +156,11 @@ async function main(): Promise<void> {
   // The goal and the talk sit over the picture on a wide screen and beside it on a narrow one (ui/hudhud.css).
   const stageWrap = el("div", { class: "stage-wrap", hidden: true }, objective, stage, talkBox);
   const hub = el("section", { class: "hub" });
-  // The second and third quests are played on a page of their own, beside the Atlas and the flying scene.
+  // The second, third and fourth quests are played on a page of their own, beside the Atlas and the flying scene.
   const bench = el("section", { class: "bench", hidden: true });
   let clockRun: ClockQuest | null = null;
   let cipherRun: CipherQuest | null = null;
+  let algebraRun: AlgebraQuest | null = null;
   stage.setAttribute("role", "application");
   stage.setAttribute("aria-label", t("canvas_label"));
 
@@ -500,7 +504,7 @@ async function main(): Promise<void> {
       openingDue = false;
       return;
     }
-    if (started || clockRun || cipherRun || openingShown) return;
+    if (started || clockRun || cipherRun || algebraRun || openingShown) return;
     openingDue = false;
     readOpening(true);
   }
@@ -825,10 +829,10 @@ async function main(): Promise<void> {
 
   applyLook();
   // ---------------------------------------------------------------------------------------- the Atlas
-  // The first thing a player sees: who they are, and the Atlas itself, ten worlds of five pages. One quest can be
+  // The first thing a player sees: who they are, and the Atlas itself, ten worlds of five pages. Four quests can be
   // played; the others are named and said to be not built. Nothing here is a claim about history: the names are
   // the subjects' names and the grouping is a structure for play.
-  const BUILT: Record<string, string> = { "ibn-al-haytham": QUEST, "al-jazari": CLOCK_QUEST, "al-kindi": CIPHER_QUEST };
+  const BUILT: Record<string, string> = { "ibn-al-haytham": QUEST, "al-jazari": CLOCK_QUEST, "al-kindi": CIPHER_QUEST, "al-khwarizmi": ALGEBRA_QUEST };
   function startQuest(): void {
     cues.unlock();
     // Asked once, after a press as browsers require; the answer is shown in the settings and never asked again.
@@ -846,7 +850,7 @@ async function main(): Promise<void> {
     render();
   }
   // The slot holds one place only, whichever quest it belongs to. The quests played on a page (the elephant clock, the
-  // secret page) share one rule: a quest with progress takes the place; a quest with none leaves another's alone; a
+  // secret page, the locked box) share one rule: a quest with progress takes the place; a quest with none leaves another's alone; a
   // finished or restarted quest clears its own place only.
   /** What the slot holds for `quest`, if it can be trusted; null if it holds nothing, or another quest's place. */
   const pageSaved = <T,>(quest: string, restoreIt: (snap: unknown) => T | null): T | null => {
@@ -870,6 +874,7 @@ async function main(): Promise<void> {
   };
   const clockSaved = () => pageSaved(CLOCK_QUEST, (snap) => restoreClock(snap, clockPuzzle));
   const cipherSaved = () => pageSaved(CIPHER_QUEST, (snap) => restoreCipher(snap, cipherPuzzle));
+  const algebraSaved = () => pageSaved(ALGEBRA_QUEST, (snap) => restoreAlgebra(snap, algebraStart));
   /** Shows a quest's page in place of the Atlas. The note and the controls under the page are the flying scene's; each quest carries its own note, and nothing here can be paused. */
   function showBench(node: HTMLElement): void {
     hub.hidden = true;
@@ -921,14 +926,36 @@ async function main(): Promise<void> {
     });
     showBench(cipherRun.node);
   }
+  /** Opens al-Khwarizmi's locked box: a quest played on the page, with no flying scene. A box left in the middle comes back. */
+  function startAlgebra(): void {
+    const kept = algebraSaved();
+    cues.unlock();
+    algebraRun = algebraQuest({
+      t,
+      num,
+      lang,
+      museum: MUSEUM,
+      title: subjectName("al-khwarizmi"),
+      style,
+      resume: kept,
+      keepPlace: (snap) => pageCheckpoint(ALGEBRA_QUEST, snap),
+      tick: () => cues.play("line"),
+      chime: () => cues.play("restored"),
+      finish: (g) => pageFinish(ALGEBRA_QUEST, g),
+      leave: () => toAtlas(),
+    });
+    showBench(algebraRun.node);
+  }
   /** Leaves the quest for the Atlas. A quest in the middle stays saved; a finished one is cleared for another play. */
   function toAtlas(): void {
-    const onPage = clockRun ? CLOCK_QUEST : cipherRun ? CIPHER_QUEST : null;
+    const onPage = clockRun ? CLOCK_QUEST : cipherRun ? CIPHER_QUEST : algebraRun ? ALGEBRA_QUEST : null;
     if (onPage) {
       clockRun?.stop();
       cipherRun?.stop();
+      algebraRun?.stop();
       clockRun = null;
       cipherRun = null;
+      algebraRun = null;
       bench.replaceChildren();
       bench.hidden = true;
       wordsBox.hidden = false;
@@ -1021,6 +1048,7 @@ async function main(): Promise<void> {
   const PAGE_QUESTS: Record<string, { start: () => void; saved: () => unknown | null; trial: Key }> = {
     [CLOCK_QUEST]: { start: () => startClock(), saved: clockSaved, trial: "ck_trial" },
     [CIPHER_QUEST]: { start: () => startCipher(), saved: cipherSaved, trial: "cf_trial" },
+    [ALGEBRA_QUEST]: { start: () => startAlgebra(), saved: algebraSaved, trial: "ak_trial" },
   };
   function drawHub(): void {
     drawChoices();
@@ -1124,6 +1152,9 @@ async function main(): Promise<void> {
     startCipher: () => startCipher(),
     cipher: () => (cipherRun ? { ...cipherRun.state(), busy: cipherRun.busy() } : null),
     cipherCommand: (c: Parameters<CipherQuest["command"]>[0]) => cipherRun?.command(c),
+    startAlgebra: () => startAlgebra(),
+    algebra: () => (algebraRun ? { ...algebraRun.state(), busy: algebraRun.busy(), sentence: algebraRun.sentence() } : null),
+    algebraCommand: (c: Parameters<AlgebraQuest["command"]>[0]) => algebraRun?.command(c),
     resumed: () => resumed,
     keys: () => settings().keys,
     prologue: () => ({ shown: openingShown, panel: openingShown ? prologue.panel() : 0 }),

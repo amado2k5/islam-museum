@@ -1,0 +1,22 @@
+{
+ "base": "https://uat-games.islam.museum",
+ "release": "20261126-709707701f2",
+ "commit": "709707701f21a7d0507f0a02bb99ac4cd291511b",
+ "ran": "2026-11-26T20:55:45.043Z",
+ "machine": "darwin arm64",
+ "note": "A pass on this machine is not a pass on the two reference machines (M1 Air 8 GB; Windows 11 i5-1135G7 8 GB).",
+ "browsers": [
+  {
+   "browser": "firefox",
+   "ran": "2026-11-26T20:55:45.036Z",
+   "base": "https://uat-games.islam.museum",
+   "blocked": "Playwright's firefox browser binary is not installed or could not start. No binary was downloaded; install requires the founder's word. Error: browserType.launch: Executable doesn't exist at /Users/ahmedabdelaal/Library/Caches/ms-playwright/firefox-1555/firefox/Nightly.app/Contents/MacOS/firefox"
+  },
+  {
+   "browser": "webkit",
+   "ran": "2026-11-26T20:55:45.042Z",
+   "base": "https://uat-games.islam.museum",
+   "blocked": "Playwright's webkit browser binary is not installed or could not start. No binary was downloaded; install requires the founder's word. Error: browserType.launch: Executable doesn't exist at /Users/ahmedabdelaal/Library/Caches/ms-playwright/webkit-2370/pw_run.sh"
+  }
+ ]
+}
