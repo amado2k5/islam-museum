@@ -58,7 +58,7 @@ gaming/tools/hudhud-rebuild.ts  rebuilds the game repeatedly and reads memory
 | `docs/gaming/spec-production/release-status.json` | `hudhud`: `prototype`, approved by nobody |
 | `gaming/games/prototype-labels.gtest.ts`, `review-mark.gtest.ts` | each learns of the fourth game: its label and its review mark are now enforced in seven languages |
 | `gaming/tools/release-smoke.ts` | a branch for Hudhud: start, open the scene on WebGL under the host's policy, turn a mirror, see the label |
-| `docs/gaming/historical-review/ledger.json` | twelve entries, HR-HH-01 to 12, all pending |
+| `docs/gaming/historical-review/ledger.json` | thirteen entries, HR-HH-01 to 13, all pending |
 
 Not changed: any file of Granada, The Golden Age or Atlas; the games Worker; any workflow; anything under `site/`.
 
