@@ -1,4 +1,4 @@
-// Outward links shared across the site: the Shopify gift shop, the donation options, and the podcast platforms.
+// Outward links shared across the site: the Shopify gift shop, the donation options, the podcast platforms, and the museum's own music.
 // Add any new outward platform or show link HERE only — components import from this module and never hard-code these URLs.
 export const SHOP = "https://islam-museum.myshopify.com/";
 export const PATREON = "https://www.patreon.com/14118699/join";
@@ -17,3 +17,6 @@ export const YOUTUBE_PLAYLIST_EN = "https://www.youtube.com/playlist?list=PLWNwH
 export const YOUTUBE_PLAYLIST_AR = "https://www.youtube.com/playlist?list=PLV0b2zKGW6I8";
 export const PODCAST_FEED_EN = "https://islam.museum/podcast/feed.xml";
 export const PODCAST_FEED_AR = "https://islam.museum/podcast/feed-ar.xml";
+
+// Music: "Voices of the Museum", the museum's own six-track album, on SoundCloud.
+export const SOUNDCLOUD = "https://soundcloud.com/islam-museum/sets/voices-of-the-museum";
