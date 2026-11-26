@@ -24,7 +24,7 @@
     "golden-age:shot": "tsx tools/golden-age-shot.ts",
     "golden-age:links": "tsx --tsconfig tsconfig.json games/golden-age/tools/build-links.ts",
     "music:import": "tsx tools/music-import.ts",
-    "strings": "python3 tools/check-strings.py games/granada/i18n games/atlas/i18n games/golden-age/i18n packages/audio/i18n",
+    "strings": "python3 tools/check-strings.py games/granada/i18n games/atlas/i18n games/golden-age/i18n games/hudhud/i18n packages/audio/i18n",
     "granada:records": "tsx --tsconfig tsconfig.json games/granada/tools/build-records.ts",
     "granada:mutations": "python3 games/granada/tools/mutate-economy.py",
     "build:release": "tsx --tsconfig tsconfig.json tools/build.ts",
@@ -42,11 +42,13 @@
     "qa:package": "python3 tools/qa-package.py",
     "release:regression": "tsx --tsconfig tsconfig.json tools/release-regression.ts",
     "save:carry": "tsx --tsconfig tsconfig.json tools/save-carry.ts",
-    "measure": "tsx --tsconfig tsconfig.json tools/measure.ts"
+    "measure": "tsx --tsconfig tsconfig.json tools/measure.ts",
+    "hudhud:play": "tsx --tsconfig tsconfig.json tools/hudhud-play.ts"
   },
   "dependencies": {
     "@babylonjs/core": "9.37.2",
     "d3-geo": "3.1.1",
+    "phaser": "4.2.1",
     "three": "0.187.0",
     "topojson-client": "3.1.0",
     "world-atlas": "2.0.2"

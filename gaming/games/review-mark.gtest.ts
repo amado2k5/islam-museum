@@ -23,6 +23,8 @@ const WHERE: [string, string, string][] = [
   ["Atlas", "atlas", "sourced"],
   // Atlas shows history at each reveal, so the mark stands there as well as beside the note on its sources.
   ["Atlas", "atlas", "review_pending"],
+  // Hudhud says it under the picture and again in the museum note at the end of a quest.
+  ["Hudhud", "hudhud", "review_note"],
 ];
 const strings = (game: string, lang: string) => JSON.parse(readFileSync(resolve(root, `gaming/games/${game}/i18n/${lang}.json`), "utf8")) as Record<string, string>;
 
