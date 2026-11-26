@@ -505,4 +505,29 @@ describe("random play", () => {
       }
     }
   });
+
+  it("gives a market its own day: goods come and go, its buyers pay it, its prices are set, and the books still close", () => {
+    const market: Market = { cash: dinars(100), goods: { wheat: { inventory: 50, ask: dinars(26), bid: dinars(18) } } };
+    let s = open({ treasury: dinars(1000), capacity: 500, stock: { wheat: { quantity: 100 } }, markets: { village: market } });
+    const day = (changes: Extract<EconomyCommand, { kind: "market-day" }>["changes"], id: string) => submit(s, { commandId: id, expectedStateVersion: s.stateVersion, command: { kind: "market-day", changes } });
+    const r = day([{ market: "village", good: "wheat", arrive: 10, leave: 25, paid: dinars(40), ask: dinars(24), bid: dinars(17) }], "d1");
+    expect(r.result.ok).toBe(true);
+    s = r.state;
+    expect(s.markets.village).toEqual({ cash: dinars(140), goods: { wheat: { inventory: 35, ask: dinars(24), bid: dinars(17) } } });
+    expect(audit(s)).toEqual([]);
+    // The player's own money and goods are not touched by it.
+    expect([s.treasury.available, s.stock.wheat!.quantity]).toEqual([dinars(1000), 100]);
+    // Refused whole: more leaving than there is, a price pair the wrong way round, a market or a good that is not there.
+    for (const bad of [
+      [{ market: "village", good: "wheat", arrive: 0, leave: 36, paid: 0, ask: dinars(24), bid: dinars(17) }],
+      [{ market: "village", good: "wheat", arrive: 0, leave: 0, paid: 0, ask: dinars(16), bid: dinars(17) }],
+      [{ market: "village", good: "wheat", arrive: 1, leave: 0, paid: 0, ask: dinars(24), bid: dinars(17) }, { market: "nowhere", good: "wheat", arrive: 0, leave: 0, paid: 0, ask: 1, bid: 1 }],
+      [{ market: "village", good: "silk", arrive: 0, leave: 0, paid: 0, ask: 1, bid: 1 }],
+      [{ market: "village", good: "wheat", arrive: -1, leave: 0, paid: 0, ask: dinars(24), bid: dinars(17) }],
+    ]) {
+      const refused = day(bad, `bad${JSON.stringify(bad).length}`);
+      expect(refused.result.ok, JSON.stringify(bad)).toBe(false);
+      expect(refused.state).toBe(s);
+    }
+  });
 });

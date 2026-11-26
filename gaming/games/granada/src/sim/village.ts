@@ -16,8 +16,9 @@ import { audit, dinars, freeCapacity, open, submit, type CommandResult, type Eco
 // 3: buildings placed on the land by the player.
 // 4: a field the steward has said comes first for water and hands.
 // 5: decisions put to the steward, what follows from them for a time, and a journal of what has happened.
+// 6: markets whose prices move with what they hold, and yesterday's prices kept so a trend can be shown.
 // A game saved under an earlier version is brought forward by `upgradeVillage`, never loaded half-right.
-export const VILLAGE_VERSION = 5;
+export const VILLAGE_VERSION = 6;
 export const SEASON_DAYS = 30;
 export const YEAR_DAYS = 120;
 export type Season = 0 | 1 | 2 | 3; // spring, summer, autumn, winter
@@ -125,6 +126,13 @@ export interface Scenario {
   site?: (x: number, z: number, radius: number) => SiteRefusal | null;
   /** Questions put to the steward in the course of the scenario. */
   decisions?: DecisionDef[];
+  /**
+   * How the markets' prices move. A market's usual stock of a good is what it opens with. Each night it goes a
+   * part of the way back to that (`drift`, in thousandths of the gap), and its two prices rise or fall together by
+   * up to `swing` thousandths as it holds less or more than usual. `swing` must be small enough that the dearest
+   * price a market ever pays stays below the cheapest it ever asks, so that no round trip can make money.
+   */
+  prices?: { swing: number; drift: number };
 }
 /** What follows from a choice, for a time: less water from the river, or the households faring worse or better. */
 export type Effect = { kind: "inflow"; amount: number; untilDay: number; from: string } | { kind: "welfare"; amount: number; untilDay: number; from: string };
@@ -225,6 +233,8 @@ export interface VillageState {
   effects: Effect[];
   /** What has happened, in order: the day and the event, for the journal. The last sixty are kept. */
   journal: Array<{ day: number; event: string }>;
+  /** What each market asked yesterday for each good, so that today's price can be called rising, falling or steady. */
+  priceWas: Record<string, Record<string, number>>;
   quests: Record<QuestId, boolean>;
   last: DayReport | null;
   outcome: null | { won: boolean; reasons: string[]; score: number };
@@ -326,6 +336,7 @@ export function newVillage(sc: Scenario, seed: number): VillageState {
     decisions: Object.fromEntries((sc.decisions ?? []).map((d) => [d.id, { state: "ahead" as const, choice: null, day: null }])),
     effects: [],
     journal: [],
+    priceWas: asksOf(economy),
     quests: { "q01-water": false, "q02-harvest": false, "q03-reserve": false, "q04-home": false, "q05-granary": false },
     last: null,
     outcome: null,
@@ -353,7 +364,7 @@ export const treasuryOf = (s: VillageState): number => s.economy.treasury.availa
  */
 export function upgradeVillage(sc: Scenario, saved: VillageState): VillageState | null {
   if (saved.version === VILLAGE_VERSION) return saved;
-  if (![1, 2, 3, 4].includes(saved.version)) return null;
+  if (![1, 2, 3, 4, 5].includes(saved.version)) return null;
   const s = structuredClone(saved) as VillageState;
   s.version = VILLAGE_VERSION;
   // From 2 to 3: nothing has been placed yet. From 3 to 4: no field has been put first.
@@ -363,6 +374,8 @@ export function upgradeVillage(sc: Scenario, saved: VillageState): VillageState 
   s.decisions ??= Object.fromEntries((sc.decisions ?? []).map((d) => [d.id, s.day > d.day ? { state: "lapsed" as const, choice: null, day: null } : { state: "ahead" as const, choice: null, day: null }]));
   s.effects ??= [];
   s.journal ??= [];
+  // From 5 to 6: yesterday's prices are today's, so nothing is called rising or falling until a night has passed.
+  s.priceWas ??= asksOf(s.economy);
   if (saved.version >= 2) return s;
   s.carted = 0;
   const e = s.economy;
@@ -371,6 +384,7 @@ export function upgradeVillage(sc: Scenario, saved: VillageState): VillageState 
     e.tick = Math.max(0, s.day - sc.startDay);
     const m = structuredClone(tr.port.market);
     if (m.cash > 0) e.journal.push({ seq: e.journal.length, tick: e.tick, commandId: "upgrade:2", asset: "money", from: "world", to: `market:${tr.port.id}`, amount: m.cash, why: "opening balance" });
+    for (const [good, q] of Object.entries(m.goods)) if (q.inventory > 0) e.journal.push({ seq: e.journal.length, tick: e.tick, commandId: "upgrade:2", asset: good, from: "world", to: `market:${tr.port.id}`, amount: q.inventory, why: "opening stock" });
     e.markets[tr.port.id] = m;
     e.recipes[tr.press.id] = structuredClone(tr.press);
     for (const c of tr.contracts) e.contracts[c.id] = { id: c.id, good: c.good, units: c.units, deadlineTick: c.byDay - sc.startDay, revenue: c.revenue, transport: c.transport, fees: c.fees, penalty: c.penalty, state: "offered", delivered: 0, reservedUnits: 0, reservedCash: 0, owed: 0 };
@@ -420,6 +434,45 @@ function ledger(s: VillageState, command: EconomyCommand): CommandResult {
   s.n += 1;
   s.economy = out.state;
   return out.result;
+}
+
+const asksOf = (e: EconomyState): Record<string, Record<string, number>> => Object.fromEntries(Object.entries(e.markets).map(([id, m]) => [id, Object.fromEntries(Object.entries(m.goods).map(([g, q]) => [g, q.ask]))]));
+/** The markets as the scenario opens them: their usual stock, their usual prices, their usual purse. */
+export const marketsOf = (sc: Scenario): Record<string, Market> => ({ village: sc.market, ...(sc.trade ? { [sc.trade.port.id]: sc.trade.port.market } : {}) });
+/** How far a market's prices stand from its usual ones, in thousandths, for what it holds of a good. */
+export function priceFactor(sc: Scenario, usual: number, holds: number): number {
+  const swing = sc.prices?.swing ?? 0;
+  if (swing === 0 || usual === 0) return 1000;
+  return Math.max(1000 - swing, Math.min(1000 + swing, 1000 + Math.round((swing * (usual - holds)) / usual)));
+}
+/**
+ * The markets' own night: each goes part of the way back to its usual stock (its suppliers bring, its other buyers
+ * take and pay, never past its usual purse), and sets tomorrow's two prices by what it then holds.
+ */
+function marketsNight(sc: Scenario, s: VillageState): void {
+  if (!sc.prices) return;
+  s.priceWas = asksOf(s.economy);
+  const changes: Extract<EconomyCommand, { kind: "market-day" }>["changes"] = [];
+  for (const [id, usual] of Object.entries(marketsOf(sc))) {
+    const m = s.economy.markets[id];
+    if (!m) continue;
+    let purse = m.cash;
+    for (const [good, u] of Object.entries(usual.goods)) {
+      const q = m.goods[good];
+      if (!q) continue;
+      const gap = u.inventory - q.inventory;
+      const move = gap === 0 ? 0 : Math.sign(gap) * Math.max(1, Math.floor((Math.abs(gap) * sc.prices.drift) / 1000));
+      const arrive = Math.max(0, move);
+      const leave = Math.max(0, -move);
+      const paid = Math.max(0, Math.min(leave * u.bid, usual.cash - purse));
+      purse += paid;
+      const f = priceFactor(sc, u.inventory, q.inventory + move);
+      const ask = Math.floor((u.ask * f) / 1000);
+      const bid = Math.floor((u.bid * f) / 1000);
+      if (arrive || leave || paid || ask !== q.ask || bid !== q.bid) changes.push({ market: id, good, arrive, leave, paid, ask, bid });
+    }
+  }
+  if (changes.length) ledger(s, { kind: "market-day", changes });
 }
 
 /** Keeps an event for the journal. */
@@ -817,6 +870,8 @@ export function tick(sc: Scenario, state: VillageState): VillageState {
     for (const id of open) if (s.economy.contracts[id]!.state === "failed") events.push(`contract-failed:${id}`);
   }
 
+  marketsNight(sc, s);
+
   // The journal keeps what a steward would want to look back on: tasks done, things built, answers, contracts.
   for (const e of events) if (/^(quest|built|placed|asked|lapsed|contract-failed|arrived|left):?/.test(e)) note(s, day, e);
 
@@ -883,6 +938,16 @@ export function invariants(sc: Scenario, s: VillageState): string[] {
     else if (d.state === "answered" && d.choice === null) bad.push(`the question ${def.id} is answered with no answer`);
   }
   for (const e of s.effects) if (!Number.isSafeInteger(e.amount) || !Number.isSafeInteger(e.untilDay)) bad.push(`an effect of ${e.from} is malformed`);
+  if (sc.prices) {
+    for (const [id, usual] of Object.entries(marketsOf(sc))) {
+      for (const [good, u] of Object.entries(usual.goods)) {
+        const q = s.economy.markets[id]?.goods[good];
+        if (!q) continue;
+        const [lo, hi] = [Math.floor((u.ask * (1000 - sc.prices.swing)) / 1000), Math.floor((u.ask * (1000 + sc.prices.swing)) / 1000)];
+        if (q.ask < lo || q.ask > hi) bad.push(`${id} asks ${q.ask} for ${good}, outside ${lo} to ${hi}`);
+      }
+    }
+  }
   if (s.journal.length > 60) bad.push(`the journal holds ${s.journal.length} entries`);
   if (s.fieldFirst !== null && !sc.plots.some((p) => p.id === s.fieldFirst)) bad.push(`the field put first, ${s.fieldFirst}, is not in the valley`);
   for (const [what, def] of Object.entries(sc.catalogue ?? {})) if (placedCount(s, what) > def.max) bad.push(`${placedCount(s, what)} of ${what} are placed, more than the ${def.max} allowed`);

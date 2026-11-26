@@ -54,6 +54,8 @@ export interface Stocks {
   storeRoom: number;
   timber: number;
   stone: number;
+  /** What trade has brought in the last thirty days, in whole dinars: sales and contract payments, less purchases, carriage and penalties. */
+  trade30: number;
   /** The same figures tomorrow and in ten days if nothing more is done; null once the scenario is over. */
   tomorrow: { dinars: number; reserveDays: number; welfare: number; pool: number; households: number } | null;
   inTen: { dinars: number; reserveDays: number; welfare: number; pool: number; households: number } | null;
@@ -80,6 +82,7 @@ export function stocks(sc: Scenario, s: VillageState): Stocks {
     storeRoom: s.economy.capacity,
     timber: have(s, "timber"),
     stone: have(s, "stone"),
+    trade30: Math.round(tradeSince(s, s.day - 30) / MINOR),
     tomorrow: ahead[0] ? glance(ahead[0]) : null,
     inTen: ahead.length ? glance(ahead[ahead.length - 1]!) : null,
   };
@@ -248,8 +251,29 @@ export function catalogueRows(sc: Scenario, s: VillageState): CatalogueRow[] {
   });
 }
 
+/** What trade has brought since a day, in minor units, read from the ledger's own journal and nothing else. */
+export function tradeSince(s: VillageState, fromDay: number): number {
+  let sum = 0;
+  for (const e of s.economy.journal) {
+    if (e.asset !== "money") continue;
+    const day = Number(/^d(\d+):/.exec(e.commandId)?.[1] ?? Number.NaN);
+    if (!(day >= fromDay)) continue;
+    if (e.to === "treasury" && (e.from.startsWith("market:") || e.why.startsWith("paid on contract"))) sum += e.amount;
+    else if (e.from === "treasury" && e.to.startsWith("market:")) sum -= e.amount;
+    else if (e.to === "world" && (e.why.startsWith("carriage") || e.why.startsWith("penalty on contract"))) sum -= e.amount;
+  }
+  return sum;
+}
+/** Whether a price is above or below yesterday's, and how a market's stock of a good stands beside its usual stock. */
+export type Trend = "up" | "down" | "steady";
+export type Demand = "short" | "usual" | "glut";
+const trendOf = (now: number, was: number | undefined): Trend => (was === undefined || now === was ? "steady" : now > was ? "up" : "down");
+const demandOf = (holds: number, usual: number): Demand => (usual === 0 || (holds * 10 >= usual * 8 && holds * 10 <= usual * 12) ? "usual" : holds < usual ? "short" : "glut");
+
 export interface MarketRow {
   good: string;
+  trend: Trend;
+  demand: Demand;
   have: number;
   /** The price the player pays, and the lower one the player is paid, in whole dinars. */
   ask: number;
@@ -267,6 +291,8 @@ export function marketRows(sc: Scenario, s: VillageState): MarketRow[] {
     const inYard = s.economy.yard.includes(good);
     return {
       good,
+      trend: trendOf(q.ask, s.priceWas.village?.[good]),
+      demand: demandOf(q.inventory, sc.market.goods[good]?.inventory ?? 0),
       have: have(s, good),
       ask: wholeDinars(q.ask),
       bid: wholeDinars(q.bid),
@@ -279,7 +305,7 @@ export function marketRows(sc: Scenario, s: VillageState): MarketRow[] {
 
 /** Trade beyond the village, as the Economy panel shows it. Null where the scenario has none. */
 export interface TradeView {
-  port: { id: string; carted: number; cartsPerDay: number; rows: Array<{ good: string; have: number; bid: number; carriage: number; net: number; canSend: number }> };
+  port: { id: string; carted: number; cartsPerDay: number; rows: Array<{ good: string; have: number; bid: number; carriage: number; net: number; canSend: number; trend: Trend; demand: Demand }> };
   press: { cost: number; from: string; makes: string; each: number; canRun: number };
   contracts: Array<{ id: string; good: string; units: number; delivered: number; state: "offered" | "accepted" | "settled" | "cancelled" | "failed"; daysLeft: number; revenue: number; costs: number; penalty: number; canAccept: boolean; canDeliver: number }>;
 }
@@ -299,7 +325,7 @@ export function tradeView(sc: Scenario, s: VillageState): TradeView | null {
       cartsPerDay: tr.port.cartsPerDay,
       rows: Object.entries(tr.port.carriage).map(([good, carriage]) => {
         const bid = m.goods[good]!.bid;
-        return { good, have: have(s, good), bid: wholeDinars(bid), carriage: wholeDinars(carriage), net: wholeDinars(bid - carriage), canSend: Math.max(0, Math.min(free(good), cartsLeft, Math.floor(m.cash / bid), carriage === 0 ? Number.MAX_SAFE_INTEGER : Math.floor(treasuryOf(s) / carriage))) };
+        return { good, trend: trendOf(m.goods[good]!.ask, s.priceWas[tr.port.id]?.[good]), demand: demandOf(m.goods[good]!.inventory, tr.port.market.goods[good]?.inventory ?? 0), have: have(s, good), bid: wholeDinars(bid), carriage: wholeDinars(carriage), net: wholeDinars(bid - carriage), canSend: Math.max(0, Math.min(free(good), cartsLeft, Math.floor(m.cash / bid), carriage === 0 ? Number.MAX_SAFE_INTEGER : Math.floor(treasuryOf(s) / carriage))) };
       }),
     },
     press: { cost: wholeDinars(tr.press.cost), from, makes, each, canRun: Math.max(0, Math.min(Math.floor(free(from) / each), tr.press.cost === 0 ? Number.MAX_SAFE_INTEGER : Math.floor(treasuryOf(s) / tr.press.cost))) },

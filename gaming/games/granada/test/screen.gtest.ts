@@ -9,7 +9,7 @@ import { regionView } from "../src/ui/region";
 import { metresBetween } from "../src/world/geography";
 import { readFileSync } from "node:fs";
 import { resolve } from "node:path";
-import { advice, catalogueRows, decisionRows, effectRows, skyAhead as skyOf, fieldCards, marketRows, tradeView, questRows, riverOfYear, skyAhead, stocks, workRows } from "../src/ui/model";
+import { advice, catalogueRows, stocks as stocksOf, tradeSince, decisionRows, effectRows, skyAhead as skyOf, fieldCards, marketRows, tradeView, questRows, riverOfYear, skyAhead, stocks, workRows } from "../src/ui/model";
 
 const start = () => newVillage(SC, 7);
 const order = (s: VillageState, ...commands: VillageCommand[]) => {
@@ -86,6 +86,36 @@ describe("the works", () => {
     expect(expand!.now).toEqual({ ok: false, why: "already-under-way" });
     const done = days(s, 2);
     expect(workRows(SC, done)[0]).toMatchObject({ progress: null, built: 1, now: { ok: false, why: "already-done" } });
+  });
+});
+
+describe("prices on the page", () => {
+  it("says whether each price is above or below yesterday's, and how the market's stock stands", () => {
+    const rich = newVillage({ ...SC, stock: { ...SC.stock, olives: 60 } }, 7);
+    const before = Object.fromEntries(marketRows(SC, rich).map((r) => [r.good, r]));
+    expect([before.olives!.trend, before.olives!.demand]).toEqual(["steady", "usual"]);
+    const next = days(order(rich, { kind: "sell", good: "olives", quantity: 60 }), 1);
+    const after = Object.fromEntries(marketRows(SC, next).map((r) => [r.good, r]));
+    expect([after.olives!.trend, after.olives!.demand, after.wheat!.trend]).toEqual(["down", "glut", "steady"]);
+    expect(after.olives!.bid).toBeLessThan(before.olives!.bid);
+    // What the panel says can be sold, at the price it shows, is what the rules pay.
+    const one = act(SC, next, { kind: "buy", good: "olives", quantity: 1 });
+    expect(one.result).toMatchObject({ ok: true, money: -next.economy.markets.village!.goods.olives!.ask });
+    const port = tradeView(SC, days(order(start(), { kind: "send", good: "wheat", quantity: 60 }), 1))!.port.rows.find((r) => r.good === "wheat")!;
+    expect([port.trend, port.demand]).toEqual(["down", "glut"]);
+  });
+
+  it("counts what trade has brought in thirty days from the ledger's own journal", () => {
+    const s0 = start();
+    expect(stocksOf(SC, s0).trade30).toBe(0);
+    const s = order(s0, { kind: "send", good: "wheat", quantity: 10 }, { kind: "buy", good: "stone", quantity: 5 }, { kind: "sell", good: "timber", quantity: 10 });
+    // Ten wheat at the port for 22 less 2 of carriage; five stone bought at 20; ten timber sold at 9.
+    expect(tradeSince(s, s.day)).toBe((10 * (22 - 2) - 5 * 20 + 10 * 9) * 100);
+    expect(stocksOf(SC, s).trade30).toBe(190);
+    // It is trade only: the works, the levy and a task's reward are not in it.
+    const worked = days(order(s, { kind: "repair" }), 3);
+    expect(tradeSince(worked, s.day)).toBe(19000);
+    expect(stocksOf(SC, days(worked, 31)).trade30).toBe(0);
   });
 });
 

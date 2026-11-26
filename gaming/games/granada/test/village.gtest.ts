@@ -4,7 +4,7 @@ import { audit, dinars, freeCapacity } from "../src/sim/economy";
 import { PLAYERS, REAL_PLAYERS, playVillage } from "../src/sim/players";
 import { WATER_FOR_THE_VALLEY as SC } from "../src/sim/scenarios";
 import { siteRefusal } from "../src/world/ground";
-import { CROPS, HARVEST_RATE, QUESTS, expectedHarvest, flowOn, housesBuilt, poolCapacityOf, siteOf, act, carries, foodNeed, forecast, invariants, newVillage, preview, reserveDays, riverYear, seasonOf, tick, treasuryOf, waterNeed, weather, workersOf, type Scenario, type VillageCommand, type VillageState } from "../src/sim/village";
+import { CROPS, HARVEST_RATE, QUESTS, expectedHarvest, flowOn, housesBuilt, marketsOf, priceFactor, poolCapacityOf, siteOf, act, carries, foodNeed, forecast, invariants, newVillage, preview, reserveDays, riverYear, seasonOf, tick, treasuryOf, waterNeed, weather, workersOf, type Scenario, type VillageCommand, type VillageState } from "../src/sim/village";
 
 const start = (seed = 7) => newVillage(SC, seed);
 /** Applies commands, failing the test if one is refused. */
@@ -335,7 +335,7 @@ describe("trade beyond the village", () => {
     const r = act(DRY, a, { kind: "send", good: "oil", quantity: 4 });
     expect(r.result).toEqual({ ok: true, money: 4 * (dinars(190) - dinars(4)) });
     expect(treasuryOf(r.state) - treasuryOf(a)).toBe(4 * (dinars(190) - dinars(4)));
-    expect(r.state.economy.markets.malaga!.goods.oil!.inventory).toBe(4);
+    expect(r.state.economy.markets.malaga!.goods.oil!.inventory).toBe(T.port.market.goods.oil!.inventory + 4);
     expect(invariants(DRY, r.state)).toEqual([]);
   });
 
@@ -554,6 +554,82 @@ describe("an estate", () => {
     const a = days(SC, order(SC, start(), { kind: "repair" }), 40);
     const b = days(SC, order(SC, start(), { kind: "repair" }, { kind: "field-first", plot: null }), 40);
     expect(b.plots).toEqual(a.plots);
+  });
+});
+
+describe("prices that move", () => {
+  const P = SC.prices!;
+  const quote = (s: VillageState, market: string, good: string) => s.economy.markets[market]!.goods[good]!;
+
+  it("stay where they are while a market holds its usual stock", () => {
+    const s = days(DRY, start(), 10);
+    for (const [id, usual] of Object.entries(marketsOf(DRY))) for (const [good, u] of Object.entries(usual.goods)) expect(quote(s, id, good), `${id} ${good}`).toEqual(u);
+    expect(s.priceWas.village!.wheat).toBe(SC.market.goods.wheat!.ask);
+  });
+
+  it("fall the morning after the player sells a market more than it usually holds, both prices together, and no further than the scenario says", () => {
+    const rich = newVillage({ ...DRY, stock: { ...DRY.stock, olives: 60 } }, 7);
+    const sold = order(DRY, rich, { kind: "sell", good: "olives", quantity: 60 });
+    // The same day: the price has not moved, so what the panel showed is what was paid.
+    expect(quote(sold, "village", "olives")).toMatchObject({ ask: dinars(39), bid: dinars(28), inventory: 100 });
+    const next = days(DRY, sold, 1);
+    const q = quote(next, "village", "olives");
+    // It holds 100 where it usually holds 40; an eighth of the gap has gone on, and the price is at its floor.
+    expect(q.inventory).toBe(100 - Math.floor((60 * P.drift) / 1000));
+    expect([q.ask, q.bid]).toEqual([Math.floor((dinars(39) * (1000 - P.swing)) / 1000), Math.floor((dinars(28) * (1000 - P.swing)) / 1000)]);
+    expect(next.priceWas.village!.olives).toBe(dinars(39));
+    expect(q.ask).toBeGreaterThanOrEqual(q.bid);
+    expect(audit(next.economy)).toEqual([]);
+  });
+
+  it("rise after the player buys a market short, and come back of themselves as the market restocks", () => {
+    const rich: Scenario = { ...DRY, treasury: dinars(20000) };
+    let s = order(rich, newVillage(rich, 7), { kind: "buy", good: "stone", quantity: 100 });
+    s = days(rich, s, 1);
+    expect(quote(s, "village", "stone").ask).toBeGreaterThan(dinars(20));
+    const high = quote(s, "village", "stone").ask;
+    s = days(rich, s, 12);
+    expect(quote(s, "village", "stone").ask).toBeLessThan(high);
+    s = days(rich, s, 40);
+    expect(quote(s, "village", "stone")).toEqual(SC.market.goods.stone);
+  });
+
+  it("give a market back its purse as it sells on what it bought, and never more than it began with", () => {
+    const rich = newVillage({ ...DRY, stock: { ...DRY.stock, olives: 80 } }, 7);
+    let s = order(DRY, rich, { kind: "sell", good: "olives", quantity: 80 });
+    const spent = SC.market.cash - s.economy.markets.village!.cash;
+    expect(spent).toBe(80 * dinars(28));
+    s = days(DRY, s, 3);
+    const back = s.economy.markets.village!.cash;
+    expect(back).toBeGreaterThan(SC.market.cash - spent);
+    s = days(DRY, s, 60);
+    expect(s.economy.markets.village!.cash).toBeLessThanOrEqual(SC.market.cash);
+  });
+
+  it("can never be turned into a round trip: the dearest a market ever pays is below the cheapest it ever asks", () => {
+    for (const [id, usual] of Object.entries(marketsOf(SC))) for (const [good, u] of Object.entries(usual.goods)) expect(Math.floor((u.bid * (1000 + P.swing)) / 1000), `${id} ${good}`).toBeLessThan(Math.floor((u.ask * (1000 - P.swing)) / 1000));
+    // Nor by carrying: the port never holds less than its usual stock (the player can only add to it), so the most it
+    // pays, less carriage, is below the least the village ever asks.
+    const T = SC.trade!;
+    for (const [good, carriage] of Object.entries(T.port.carriage)) {
+      const v = SC.market.goods[good];
+      if (v) expect(T.port.market.goods[good]!.bid - carriage, good).toBeLessThan(Math.floor((v.ask * (1000 - P.swing)) / 1000));
+    }
+    expect(priceFactor(SC, 40, 0)).toBe(1000 + P.swing);
+    expect(priceFactor(SC, 40, 4000)).toBe(1000 - P.swing);
+    expect(priceFactor(SC, 40, 40)).toBe(1000);
+  });
+
+  it("do not reward glutting the village to buy olives back cheap and press them", () => {
+    // Two stewards with eighty olives. One presses them. The other sells them all in the village, buys back at the
+    // next morning's low price what the market will sell, and presses that.
+    const eighty = () => newVillage({ ...DRY, stock: { ...DRY.stock, wheat: 100, olives: 80 } }, 7);
+    const worth = (s: VillageState) => treasuryOf(s) + stock(s, "oil") * (dinars(190) - dinars(4)) + stock(s, "olives") * dinars(28);
+    const plain = days(DRY, order(DRY, eighty(), { kind: "press", runs: 16 }), 1);
+    let sly = days(DRY, order(DRY, eighty(), { kind: "sell", good: "olives", quantity: 80 }), 1);
+    const can = Math.min(sly.economy.markets.village!.goods.olives!.inventory, 80);
+    sly = order(DRY, sly, { kind: "buy", good: "olives", quantity: can }, { kind: "press", runs: Math.floor(can / 5) });
+    expect(worth(sly)).toBeLessThan(worth(plain));
   });
 });
 

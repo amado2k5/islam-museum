@@ -63,6 +63,9 @@ export const WATER_FOR_THE_VALLEY: Scenario = {
     garden: { category: "gardens", cost: dinars(90), timber: 10, stone: 10, labour: 10, radius: 10, max: 3, welfare: 2 },
   },
   site: siteRefusal,
+  // Prices move by up to fifteen parts in a hundred with what a market holds, and a market goes an eighth of the
+  // way back to its usual stock each night. Fifteen is small enough that no market ever pays more than it asks.
+  prices: { swing: 150, drift: 120 },
   // In the heat of summer the village downstream asks for water. To share is to be paid and to run short; to refuse
   // costs nothing in dinars and something in how the households fare. Fiction, and the panel says so.
   decisions: [
@@ -85,10 +88,11 @@ export const WATER_FOR_THE_VALLEY: Scenario = {
       id: "malaga",
       market: {
         cash: dinars(6000),
+        // What the port usually holds; it pays less for what it has more of, and comes back to this of itself.
         goods: {
-          wheat: { inventory: 0, ask: dinars(40), bid: dinars(22) },
-          olives: { inventory: 0, ask: dinars(60), bid: dinars(34) },
-          oil: { inventory: 0, ask: dinars(300), bid: dinars(190) },
+          wheat: { inventory: 150, ask: dinars(40), bid: dinars(22) },
+          olives: { inventory: 40, ask: dinars(60), bid: dinars(34) },
+          oil: { inventory: 12, ask: dinars(300), bid: dinars(190) },
         },
       },
       carriage: { wheat: dinars(2), olives: dinars(3), oil: dinars(4) },
