@@ -286,7 +286,8 @@ footer.site, .grid-cards { content-visibility: auto; contain-intrinsic-size: aut
 .topbar { position: sticky; top: 0; z-index: 50; background: color-mix(in srgb, var(--bg) 90%, transparent); backdrop-filter: blur(10px); border-bottom: 1px solid var(--line); }
 .nav-row { display: flex; flex-wrap: wrap; align-items: center; gap: 14px; padding-block: 10px; }
 .brand { display: flex; align-items: center; gap: 10px; font-weight: 600; letter-spacing: .02em; text-decoration: none; color: var(--fg); font-size: 1.05rem; }
-.nav-links { display: flex; align-items: center; gap: 2px; }
+/* The links wrap onto a second line where a language's labels do not fit one (tablet widths above the compact menu's). */
+.nav-links { display: flex; flex-wrap: wrap; align-items: center; gap: 2px; }
 .nav-links .top-link, .nav-links .dd > summary { display: inline-flex; align-items: center; gap: 4px; color: var(--fg); text-decoration: none; padding: 7px 11px; border-radius: 10px; cursor: pointer; font-size: .98rem; white-space: nowrap; }
 .nav-links .top-link:hover, .nav-links .dd > summary:hover, .nav-links .dd[open] > summary { background: color-mix(in srgb, var(--fg) 7%, transparent); }
 .nav-links .dd > summary::after { content: "▾"; margin-inline-start: 2px; color: var(--muted); font-size: .8em; }

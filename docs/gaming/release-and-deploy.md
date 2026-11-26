@@ -107,7 +107,13 @@ npm --prefix gaming run release:smoke                    # real Chrome, the Work
 
 The last command opens every game of the release in Chrome, in Arabic and English, served by the Worker's real code from a folder laid out like the bucket, and fails on a console error, a blocked or failed request, a content security policy violation, a request to another origin, or a game that does not start. It needs a machine with a GPU, so it is not part of the workflow.
 
-## Releasing: UAT, then production
+## Production, from 26 November 2026
+
+**The founder's instruction of 26 November 2026, in chat:** "let us go to production with our current progress", then "start deploying all games to production instead of uat even if they are not done yet", then "from this point forward deploy games to production only". It is his written word for production deploys of the games, and it changes the rule below for the games alone: an agent starts `games-media.yml` and `games-deploy.yml` for production on that standing word, `check` first every time, and reports each release. It does not cover the website's deploy (`deploy.yml`), which stays his; it does not remove any prototype label, raise any game's status in the registry, or approve any history.
+
+**The first production release, 26 November 2026 (UTC):** music check [45890281202](https://github.com/amado2k5/islam-museum/actions/runs/45890281202) and upload [45890497946](https://github.com/amado2k5/islam-museum/actions/runs/45890497946) (6 tracks); models check [45890501938](https://github.com/amado2k5/islam-museum/actions/runs/45890501938) and upload [45890706958](https://github.com/amado2k5/islam-museum/actions/runs/45890706958) (30 files); release check [45890288039](https://github.com/amado2k5/islam-museum/actions/runs/45890288039) and release [45890954051](https://github.com/amado2k5/islam-museum/actions/runs/45890954051) of build 45889012565: release `20261126-035b6e439dd` (87 files, 5.36 MB) is live at `https://games.islam.museum`, with no release before it, so there is nothing to roll back to yet. It carries four prototypes (Granada, The Golden Age, Atlas, Hudhud) and includes two Hudhud changes merged after the last UAT release, which were therefore never seen on UAT. Read back afterwards from the developer's machine in real Chrome: the host check in Arabic for Granada, The Golden Age and Atlas (no problems, empty console); the twelve regression scenarios (twelve passed); Hudhud's host check in English and Arabic (no problems). The host answers `noindex`. Not checked on production: the other five languages, Granada's own host check, either minimum machine, any phone.
+
+## Releasing: UAT, then production (the procedure as it was written; see the section above for who starts it now)
 
 Both are manual, started from the Actions tab by the founder (or an admin). **No agent or session starts a deploy workflow.**
 
