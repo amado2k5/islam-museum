@@ -116,7 +116,7 @@ Captures and reports: [`../evidence/granada/valley3d/`](../evidence/granada/vall
 
 ![The authored mill in the valley](../evidence/granada/art/mill-in-the-valley.webp)
 
-Where it can be seen: on a development build of a machine that has run the art script, and in a release built with `--models-base`. **Not on UAT**: the models are media, served beside the releases like the music, and none has been uploaded there; the workflow's own build is told there are none, so UAT shows the code-made mill and asks for nothing.
+Where it can be seen: on a development build of a machine that has run the art script, and in a release built with `--models-base`. **On UAT since 26 November 2026 (UTC)**: the mill's files were uploaded there and the release `20261125-e2930d63426` is the first built to look for them; opened there in Chrome in English and Arabic, the valley reports the mill loaded and logs no error. Production has neither the music nor the models.
 
 ## The museum behind it
 
