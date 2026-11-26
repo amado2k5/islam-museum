@@ -237,3 +237,17 @@ body.photo .photobar { display: grid; gap: 8px; position: fixed; z-index: 6; ins
 body.photo.photo-bare .photobar { display: none; }
 .photo-controls { display: grid; grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); gap: 8px; }
 .photo-controls label { display: grid; gap: 3px; font-size: 0.82rem; color: var(--ink-soft); }
+
+/* The region: a diagram of true positions, a kilometre to the unit. */
+/* The sheet is laid out left to right in every language, so that a label set to the left of its place stays there. */
+.region { direction: ltr; inline-size: 100%; block-size: auto; border: 1px solid var(--line); border-radius: 8px; background: #c9bf9a; }
+.region-land { fill: #cfc49c; }
+.region-sea { fill: #6a9bb0; }
+.region-place circle, .region-place rect { fill: #2a2012; stroke: #f4ecd6; stroke-width: 0.8; }
+.region-place.mountain path { fill: #f1f0ea; stroke: #6c6a60; stroke-width: 0.8; }
+.region-name { font-size: 7.5px; font-weight: 700; fill: #1c160c; paint-order: stroke; stroke: #f4ecd6; stroke-width: 2px; }
+.region-note { font-size: 5.6px; fill: #2a2012; paint-order: stroke; stroke: #e9dfc0; stroke-width: 1.6px; }
+.region-route { fill: none; stroke: #8a3b1c; stroke-width: 1.4; stroke-dasharray: 4 2.5; }
+.region-valley circle { fill: #d9a441; stroke: #2a2012; stroke-width: 0.8; }
+.region-scale path { fill: none; stroke: #2a2012; stroke-width: 0.9; }
+.region-north path { fill: #2a2012; }

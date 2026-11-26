@@ -5,6 +5,10 @@ import { PLAYERS, playVillage } from "../src/sim/players";
 import { WATER_FOR_THE_VALLEY as SC } from "../src/sim/scenarios";
 import { VILLAGE_VERSION, act, invariants, newVillage, tick, type VillageCommand, type VillageState } from "../src/sim/village";
 import { SAVE_KEY, clearSave, readSave, writeSave, type Store } from "../src/save";
+import { regionView } from "../src/ui/region";
+import { metresBetween } from "../src/world/geography";
+import { readFileSync } from "node:fs";
+import { resolve } from "node:path";
 import { advice, catalogueRows, decisionRows, effectRows, skyAhead as skyOf, fieldCards, marketRows, tradeView, questRows, riverOfYear, skyAhead, stocks, workRows } from "../src/ui/model";
 
 const start = () => newVillage(SC, 7);
@@ -82,6 +86,40 @@ describe("the works", () => {
     expect(expand!.now).toEqual({ ok: false, why: "already-under-way" });
     const done = days(s, 2);
     expect(workRows(SC, done)[0]).toMatchObject({ progress: null, built: 1, now: { ok: false, why: "already-done" } });
+  });
+});
+
+describe("the region", () => {
+  const pack = JSON.parse(readFileSync(resolve(import.meta.dirname, "../data/museum-records.v1.json"), "utf8")) as Parameters<typeof regionView>[2] & { records: Record<string, { coordinates?: [number, number] }> };
+
+  it("puts each place where the museum's coordinates put it, with the museum's own distances", () => {
+    const v = regionView(SC, start(), pack);
+    expect(v.places.map((p) => p.id)).toEqual(["place/granada", "place/malaga", "place/almeria", "place/sierra-nevada"]);
+    const granada = pack.records["place/granada"]!.coordinates!;
+    for (const p of v.places) {
+      const at = pack.records[p.id]!.coordinates!;
+      expect(p.km, p.id).toBe(Math.round(metresBetween(granada, at) / 1000));
+      expect(Math.round(Math.hypot(p.x, p.y)), p.id).toBe(p.km);
+    }
+    const [malaga, almeria] = [v.places[1]!, v.places[2]!];
+    // West and south of the city; east and south of it: the land is never mirrored.
+    expect([malaga.x < 0, malaga.y < 0, almeria.x > 0, almeria.y < 0]).toEqual([true, true, true, true]);
+    expect(v.route).toEqual({ to: "place/malaga", km: 89 });
+    expect(v.coast.map((p) => p.id)).toEqual(["place/malaga", "place/almunecar", "place/almeria"]);
+  });
+
+  it("lays over it only what the game holds: carts, contract, fields, water, store and buildings", () => {
+    const s = days(order(start(), { kind: "send", good: "wheat", quantity: 20 }, { kind: "accept", contract: "oil-for-the-port" }, { kind: "place", what: "garden", x: 600, z: 250 }), 0);
+    const f = regionView(SC, s, pack).facts;
+    expect(f.economy).toEqual([{ key: "region_carts", values: { used: 20, max: 60 } }, { key: "region_port_cash", values: { dinars: 6000 - 20 * 22 } }, { key: "region_contract_accepted", values: { have: 0, want: 8 } }]);
+    expect(f.agriculture[0]).toEqual({ key: "region_fields", values: { sown: 2, all: 3 } });
+    expect(f.agriculture.slice(1).map((x) => x.values.field)).toEqual(["mill-field", "olive-terrace"]);
+    expect(f.infrastructure).toEqual([{ key: "region_pool", values: { have: 150, max: 300 } }, { key: "region_channels", values: { flowing: 2, all: 3 } }, { key: "region_store", values: { free: 220, room: 420 } }, { key: "region_built", values: { n: 0 } }]);
+    expect(regionView(SC, days(s, 4), pack).facts.infrastructure.at(-1)).toEqual({ key: "region_built", values: { n: 1 } });
+    // A valley with no trade has no route and no trade facts.
+    const { trade: _none, ...plain } = SC;
+    const quiet = regionView(plain, newVillage(plain, 7), pack);
+    expect([quiet.route, quiet.facts.economy]).toEqual([null, []]);
   });
 });
 
