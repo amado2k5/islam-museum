@@ -73,13 +73,13 @@ No secure place with coordinates is attached in the museum records read. Place r
 
 ## Three candidate quest premises
 
-These are proposals for Claude and the founder, not content.
+These are proposals for Claude and the founder, not content. They are deliberately conservative system scaffolding, not final quest designs. Each names one of the twelve systems in `design.md`; forms such as Measure, Journal, Care and Sail are not treated as separate systems. Claim numbers refer to the claims above.
 
-1. Players can build a network of alliances with Saladin's family and amirs to restore Sunni Islam and distribute the Fatimid palaces, distinguishing between historical events and game mechanics [5].
+1. A child helps connect people, resources or pieces of knowledge so they reach where they are needed using the Network system. This rests on claims [1, 2] as its evidence anchor; the exact people or resources, missing links, network puzzle and the child's role are game invention, not record fact.
 
-2. In a quest to unite al-Qahira and Fustat, players use the Network system to negotiate with different factions, reflecting the political and social revolution without adding historical facts [6].
+2. Children help put damaged or scattered pieces into a stable, useful order using the Mend and Build system. This rests on claims [1, 3] as its evidence anchor; the damaged or scattered pieces, their exact order, the repair puzzle and the children's role are game invention, not record fact.
 
-3. Players can use the Care system to manage the safety and property of Jerusalem's people after reclaiming the city, contrasting historical clemency with game-based decision-making [7].
+3. A child helps gather careful answers from people affected by a small local problem using the Talk system before deciding what to do. This rests on claims [1, 4] as its evidence anchor; the speakers, dialogue, local problem, choice and the child's role are game invention, not record fact.
 
 ## Sensitivities
 

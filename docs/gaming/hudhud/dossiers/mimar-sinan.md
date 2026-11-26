@@ -65,13 +65,13 @@ No secure place with coordinates is attached in the museum records read. Place r
 
 ## Three candidate quest premises
 
-These are proposals for Claude and the founder, not content.
+These are proposals for Claude and the founder, not content. They are deliberately conservative system scaffolding, not final quest designs. Each names one of the twelve systems in `design.md`; forms such as Measure, Journal, Care and Sail are not treated as separate systems. Claim numbers refer to the claims above.
 
-1. In the Build system, players can construct and repair historical structures like Sinan's mosques and bridges, using blueprints from [3]. Players must balance historical accuracy with the game's need for interactive elements.
+1. Children help put damaged or scattered pieces into a stable, useful order using the Mend and Build system. This rests on claims [1, 2] as its evidence anchor; the damaged or scattered pieces, their exact order, the repair puzzle and the children's role are game invention, not record fact.
 
-2. Using the Network system, players can connect various buildings and institutions designed by Sinan, such as schools and hospitals, to create a thriving community [4]. The game invents a social network feature to simulate the impact of these buildings on the Ottoman Empire.
+2. A child helps compare accounts, objects or clues using the Observe and Match system to find what the evidence supports. This rests on claims [1, 3] as its evidence anchor; the compared materials, missing details, matching puzzle and the child's role are game invention, not record fact.
 
-3. In the Care system, players manage the maintenance and preservation of Sinan's architectural legacy, ensuring that his buildings are cared for and protected [5]. The game invents a resource management mechanic to simulate the challenges of upkeep and restoration.
+3. A child helps connect people, resources or pieces of knowledge so they reach where they are needed using the Network system. This rests on claims [1, 4] as its evidence anchor; the exact people or resources, missing links, network puzzle and the child's role are game invention, not record fact.
 
 ## Sensitivities
 

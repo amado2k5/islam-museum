@@ -49,13 +49,13 @@ The atlas title is قصر الحمراء. No record read supports the exact pict
 
 ## Three candidate quest premises
 
-These are proposals for Claude and the founder, not content.
+These are proposals for Claude and the founder, not content. They are deliberately conservative system scaffolding, not final quest designs. Each names one of the twelve systems in `design.md`; forms such as Measure, Journal, Care and Sail are not treated as separate systems. Claim numbers refer to the claims above.
 
-1. Build a fortress to protect the royal city, then expand it into a palace and government center, reflecting the historical division of the Alhambra into fortifications and palaces [1, 6, 7].
+1. A child helps arrange abstract arches, courts and water pieces in a stable order using the Mend and Build system without presenting the result as a reconstruction. This rests on claims [1, 2] as its evidence anchor; the abstract pieces, their arrangement, the exact defects and the child's role are game invention, not record fact.
 
-2. Network with the town below by building a gate that connects the Alhambra to the town, allowing for trade and communication, inspired by the gate of las Armas [8].
+2. Children help compare labels, evidence and missing information using the Observe and Match system to decide what is known, uncertain or invented. This rests on claims [1, 3] as its evidence anchor; the labels, compared details, missing information, matching puzzle and the children's role are game invention, not record fact.
 
-3. Care for the royal servants and dignitaries by constructing lodgings and a mosque within the Alhambra, ensuring their well-being and religious needs, as the Alhambra included barracks and a mosque [4].
+3. A child helps connect caretakers, craft workers and water pieces in a small civic model using the Network system while the game avoids any visual reconstruction claim. This rests on claims [1, 4] as its evidence anchor; the caretakers, workers, water pieces, exact links and the child's role are game invention, not record fact.
 
 ## Sensitivities
 
