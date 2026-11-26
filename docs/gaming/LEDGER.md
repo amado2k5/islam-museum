@@ -513,6 +513,16 @@ _The founder asked for eight hours of unattended work on Granada, with his answe
 - **Run in Blender:** the corrected script gives the same palace as `main`'s, vertex for vertex; only the order of triangles in a few parts differs, as it does between any two runs. One correction had a fault of its own, found by running it and mended.
 - **Not done by this change:** the palace in the game, the measurements, the brief. No code of the game changed.
 
+### Granada taken up again: life in the valley (26 November 2026, evening)
+
+- **The founder's words, in chat:** "continue working on granada game", then "make a magnificent palace, make animals in the map, make the water flowing, make people walking around and horses and soldiers, and shops". This lifts the pause of the same afternoon for Granada.
+- **Made by this change, all in the game's own code** (`games/granada/src/view/`): five flocks of eighteen sheep and goats on open, dry ground, clear of the fields, water, roads and houses (held by a test); seven riders on three roads; a watch on seven of the fourteen stretches of the hill's wall and two men at its gate; shops along the road through the town, left out wherever a house stands; fourteen birds; a current drawn on the river and the channels. They are placed by the clock alone and keep nothing from frame to frame, and stand still for a visitor who asked for less motion.
+- **"Soldiers" are a watch, not an army.** His ruling of 26 November stands: no tactical units, no battle, no violence. The men pace and stand; nothing in the game's rules knows of them.
+- **A fault mended:** every cypress on the hill leaned to the ground. The wind's sway grew with the square of a plant's height, and trees that are part of the hill's scenery were measured from sea level. The height is now counted no further than a tall tree's top.
+- **Seen in the running game** on the developer's machine, High, in Photo Mode: [`evidence/granada/life/`](evidence/granada/life/) (a flock, the shops, the gate, the river, the road, the proof view). 650 tests pass. **Not measured:** what it costs a frame; either minimum machine. The scene drew about 4.4 million triangles at the last view, as before to within one part in a hundred.
+- **Not done by this change:** the palace. It is the next piece.
+- **What it is not:** art by an artist. The animals and the watch are boxes and turned shapes like the people and carts before them, and will read as such close up.
+
 ## The eleven games, one by one (25 November 2026)
 
 **Three exist. Eight are designs only.** "Stage" is the status in `gaming/games/registry.json`, or `planned` for a game with no code. The share done is the author's estimate against that game's own design document, not a measurement.
