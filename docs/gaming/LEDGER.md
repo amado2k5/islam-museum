@@ -414,6 +414,19 @@ the host now names /media/models/granada/mill.gltf model/gltf+json (its Worker w
 
 This release also carries Atlas's rebuilt pack, with the 263 held rounds out of play. Not done: a rollback on UAT; production, which has neither the music nor the models.
 
+### An offline package of the UAT release for an outside reviewer (26 November 2026 UTC)
+
+The reviewer's browser could not reach UAT a second time and asked for a copy to run with no internet. The founder passed the request on.
+
+```
+gh run download 45736806134 -n games-release             the build live on UAT; its release.json is byte for byte the host's
+tools/qa-package.py assemble … --host https://uat-games.islam.museum   release 20261125-e2930d63426 with its music and models, each against its manifest
+tests/qa-check.mjs, fresh Chrome, name lookups cut off but for localhost   en and ar: 8 pages each, 3D on, the mill loaded, forced modes right, save resumed, no request elsewhere
+tools/qa-package.py seal …                                25,665,672 bytes, 88 files, SHA-256 a9bf094b5ba5…; unpacked clean: 87 of 87 checksums match
+```
+
+The first run on the unpacked copy stopped at Granada's opening brief (no start button found); five later runs passed and the cause is not known ([`external-review.md`](external-review.md)). Asked whether Cloudflare was blocking the reviewer, the host was questioned as six kinds of client, ChatGPT's among them: 200 to each.
+
 ## Measurements
 
 The engine numbers and their conditions are in [G-0002](adr/G-0002-rendering-engine.md) and the [M1 report](m1-graphics-spike.md). They are for one Apple M4 Max in Chrome 158 and are not a hardware recommendation.
