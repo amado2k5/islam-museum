@@ -99,6 +99,12 @@ async function main(): Promise<void> {
   let tab: Tab = "valley";
   let selected: string | null = null;
   /** What the player is choosing ground for, and the ground being considered, in the valley's metres. */
+  // Photo mode: the game stands still and nothing in it can be changed; what is chosen here is for the picture only.
+  let photo = false;
+  let photoBare = false;
+  let photoShots = 0;
+  let speedBeforePhoto: 0 | 1 | 2 = 0;
+  const preview: { season: number | null; rain: boolean | null; light: "morning" | "midday" | "evening" | null; lens: number } = { season: null, rain: null, light: null, lens: 38 };
   let placing: string | null = null;
   let ghost: { x: number; z: number } | null = null;
   let saveOk = true;
@@ -146,7 +152,8 @@ async function main(): Promise<void> {
   const fieldPop = h("div", { class: "fieldpop", id: "field-pop", hidden: true });
   sceneBox.append(fieldPop);
   const toasts = h("div", { class: "toasts", role: "log" });
-  app.append(bar, ahead, h("main", { class: "main" }, mapBox, h("div", { class: "column" }, rail, objectives, side, seasonBox)), toasts);
+  const photoBar = h("aside", { class: "photobar", id: "photobar", "aria-label": t("photo_title") });
+  app.append(bar, ahead, h("main", { class: "main" }, mapBox, h("div", { class: "column" }, rail, objectives, side, seasonBox)), toasts, photoBar);
 
   const music = new MusicPlayer({ base: MUSIC_BASE, first: "the-ancient-library", forceOff: query.get("music") === "off" || !MUSIC_AVAILABLE });
   const musicBox = MUSIC_AVAILABLE ? musicControl(music, await loadMusicStrings(lang), `${MUSEUM}/${lang}/backstage/`) : null;
@@ -181,6 +188,8 @@ async function main(): Promise<void> {
     saveOk = writeSave(localStorage, state);
   };
   const order = (command: VillageCommand): boolean => {
+    // Nothing is ordered while a picture is being taken.
+    if (photo) return false;
     const r = act(sc, state, command);
     if (!r.result.ok) {
       say(refusal(r.result));
@@ -226,7 +235,8 @@ async function main(): Promise<void> {
   };
 
   const nextDay = () => {
-    if (state.outcome) return;
+    // No day passes while a picture is being taken, whoever asks.
+    if (state.outcome || photo) return;
     state = tick(sc, state);
     for (const e of state.last?.events ?? []) {
       const text = eventText(e);
@@ -284,6 +294,11 @@ async function main(): Promise<void> {
 
   /** What the 3D valley should show, worked out from the same figures as the plan. */
   function lookOf(): ValleyLook {
+    const look = gameLook();
+    // In photo mode the picture may be given another season or weather; the game's own are not touched.
+    return photo ? { ...look, season: preview.season ?? look.season, rain: preview.rain ?? look.rain, selected: null } : look;
+  }
+  function gameLook(): ValleyLook {
     const cards = fieldCards(sc, state);
     const branches: Record<string, "flowing" | "weak" | "none"> = {};
     const fields: ValleyLook["fields"] = {};
@@ -309,10 +324,92 @@ async function main(): Promise<void> {
       selected,
     };
   }
+  // ---- Photo mode ------------------------------------------------------------------------------------------------
+  function renderPhotoBar(): void {
+    const pick = <T extends string>(id: string, label: string, value: T, options: Array<[T, string]>, set: (v: T) => void) => {
+      const select = h("select", { id, onchange: () => { set(select.value as T); applyPreview(); } }, ...options.map(([v, text]) => h("option", { value: v, selected: v === value }, text))) as HTMLSelectElement;
+      return h("label", {}, h("span", {}, label), select);
+    };
+    const lens = h("input", { type: "range", id: "photo-lens", min: 16, max: 70, step: 1, value: preview.lens, oninput: () => { preview.lens = Number(lens.value); applyPreview(); } }) as HTMLInputElement;
+    photoBar.replaceChildren(
+      h("strong", {}, t("photo_title")),
+      h("p", { class: "note" }, t("photo_help")),
+      h(
+        "div",
+        { class: "photo-controls" },
+        pick("photo-season", t("photo_season"), String(preview.season ?? "as-is"), [["as-is", t("photo_as_is")], ...([0, 1, 2, 3] as const).map((n) => [String(n), t(`season_${n}`)] as [string, string])], (v) => (preview.season = v === "as-is" ? null : Number(v))),
+        pick("photo-rain", t("photo_rain"), preview.rain === null ? "as-is" : preview.rain ? "on" : "off", [["as-is", t("photo_as_is")], ["on", t("photo_rain_on")], ["off", t("photo_rain_off")]], (v) => (preview.rain = v === "as-is" ? null : v === "on")),
+        pick("photo-light", t("photo_light"), preview.light ?? "as-is", [["as-is", t("photo_as_is")], ["morning", t("photo_morning")], ["midday", t("photo_midday")], ["evening", t("photo_evening")]], (v) => (preview.light = v === "as-is" ? null : (v as "morning" | "midday" | "evening"))),
+        h("label", {}, h("span", {}, t("photo_lens")), lens),
+      ),
+      h("p", { class: "note" }, t("photo_preview_note")),
+      h(
+        "div",
+        { class: "actions" },
+        h("button", { type: "button", id: "photo-capture", class: "on", onclick: () => void capturePhoto() }, t("photo_capture")),
+        h("button", { type: "button", id: "photo-hide", onclick: () => setPhotoBare(true) }, t("photo_hide")),
+        h("button", { type: "button", id: "photo-exit", onclick: () => exitPhoto() }, t("photo_exit")),
+      ),
+    );
+  }
+  /** Shows the picture's season, rain, light and lens; the game's own are untouched and come back on leaving. */
+  function applyPreview(): void {
+    if (!stage) return;
+    stage.setLook(lookOf());
+    stage.previewLight(photo ? preview.light : null);
+    stage.setLens(photo ? preview.lens : null);
+  }
+  function setPhotoBare(bare: boolean): void {
+    photoBare = bare;
+    document.body.classList.toggle("photo-bare", bare);
+    live.textContent = bare ? t("photo_hidden") : t("photo_title");
+    if (bare) stage?.canvas.focus();
+    else document.getElementById("photo-hide")?.focus();
+  }
+  function enterPhoto(): void {
+    if (photo || !stage || view !== "3d" || document.querySelector("dialog[open]")) return;
+    if (placing) stopPlacing();
+    speedBeforePhoto = speed;
+    speed = 0;
+    photo = true;
+    Object.assign(preview, { season: null, rain: null, light: null, lens: 38 });
+    selected = null;
+    render();
+    document.body.classList.add("photo");
+    renderPhotoBar();
+    live.textContent = t("photo_title");
+    document.getElementById("photo-capture")?.focus();
+  }
+  function exitPhoto(): void {
+    if (!photo) return;
+    photo = false;
+    photoBare = false;
+    document.body.classList.remove("photo", "photo-bare");
+    photoBar.replaceChildren();
+    applyPreview();
+    speed = state.outcome ? 0 : speedBeforePhoto;
+    render();
+    document.getElementById("view-photo")?.focus();
+  }
+  async function capturePhoto(): Promise<void> {
+    const blob = await stage?.capture();
+    if (!blob) return say(t("photo_failed"));
+    photoShots += 1;
+    const name = `granada-${photoShots}.png`;
+    const url = URL.createObjectURL(blob);
+    const link = h("a", { href: url, download: name });
+    document.body.append(link);
+    link.click();
+    link.remove();
+    setTimeout(() => URL.revokeObjectURL(url), 10_000);
+    live.textContent = t("photo_saved", { name });
+    hook.lastPhoto = { name, bytes: blob.size };
+  }
+
   function renderViewBar(): void {
     const button = (id: string, text: string, on: boolean, act: () => void) => h("button", { type: "button", id, class: on ? "on" : "", "aria-pressed": String(on), onclick: act }, text);
     const items: Node[] = [button("view-3d", t("view_3d"), view === "3d", () => setView("3d")), button("view-plan", t("view_plan"), view === "plan", () => setView("plan"))];
-    if (view === "3d") items.push(h("button", { type: "button", id: "view-overview", onclick: () => stage?.overview() }, t("view_overview")), h("span", { class: "viewhint" }, t("view_hint")));
+    if (view === "3d") items.push(h("button", { type: "button", id: "view-overview", onclick: () => stage?.overview() }, t("view_overview")), h("button", { type: "button", id: "view-photo", onclick: () => enterPhoto() }, t("photo_enter")), h("span", { class: "viewhint" }, t("view_hint")));
     viewBar.replaceChildren(...items);
   }
   function setView(to: "3d" | "plan"): void {
@@ -886,6 +983,14 @@ async function main(): Promise<void> {
   });
   document.addEventListener("keydown", (e) => {
     const target = e.target as HTMLElement;
+    // In photo mode the only keys are the picture's own: Escape brings the controls back, or leaves; H hides or shows them.
+    if (photo) {
+      if (e.key === "Escape") photoBare ? setPhotoBare(false) : exitPhoto();
+      else if ((e.key === "h" || e.key === "H") && !["INPUT", "SELECT"].includes(target.tagName)) setPhotoBare(!photoBare);
+      else return;
+      e.preventDefault();
+      return;
+    }
     if (e.ctrlKey || e.metaKey || e.altKey || document.querySelector("dialog[open]") || ["INPUT", "SELECT", "TEXTAREA"].includes(target.tagName)) return;
     const tabs: Tab[] = ["valley", "fields", "works", "market", "ledger"];
     if (e.key >= "1" && e.key <= "5") setTab(tabs[Number(e.key) - 1]!);
@@ -905,6 +1010,7 @@ async function main(): Promise<void> {
 
   const hook: Record<string, unknown> = { ready: true, lang, scenario: sc.id, state: () => state, speed: () => speed, tab: () => tab, music, saveOk: () => saveOk, order: (c: VillageCommand) => order(c), days: (n: number) => { for (let i = 0; i < n; i++) nextDay(); }, begin: (seed: number) => begin(seed), view: () => view, setView: (to: "3d" | "plan") => setView(to), stage: () => stage, threeD: "pending" };
   hook.quality = quality;
+  hook.photo = () => ({ on: photo, bare: photoBare, preview: { ...preview }, shots: photoShots });
   if (counters) {
     counters.provide("renderer", () => stage?.info() ?? null);
     hook.counters = () => counters.snapshot();

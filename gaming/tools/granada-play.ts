@@ -249,6 +249,78 @@ if ((await game<string>("window.__GR__.threeD")) === "on") {
   log.building3d = placed3d;
 }
 
+// ---- Photo mode: the page put away, the picture's own controls, a picture saved, nothing in the game changed, memory level ----
+if ((await game<string>("window.__GR__.threeD")) === "on") {
+  await page.goto(url("&fresh=1", ""));
+  await ready();
+  await page.locator("#brief-start").click();
+  await page.waitForFunction("window.__GR__.threeD !== 'pending'", undefined, { timeout: 60_000 });
+  await page.waitForTimeout(1500);
+  await game(`(() => { const g = window.__GR__; g.order({ kind: "repair" }); g.days(3); })()`);
+  await page.locator("#speed-1").click();
+  const saved = () => game<string>("JSON.stringify(window.__GR__.state())");
+  const beforePhoto = await saved();
+  // In by the keyboard alone.
+  await page.locator("#view-photo").focus();
+  await page.keyboard.press("Enter");
+  const photo = () => game<{ on: boolean; bare: boolean; shots: number }>("window.__GR__.photo()");
+  if (!(await photo()).on) await fail("Enter on the photo button did not open photo mode");
+  for (const sel of [".bar", ".rail", "#objectives", "#side", "#seasonbox", ".viewbar"]) if (await page.locator(sel).first().isVisible()) await fail(`photo mode leaves ${sel} on the page`);
+  if (!(await page.locator("#photo-exit").isVisible())) await fail("photo mode shows no way out");
+  if ((await game<string>("document.activeElement.id")) !== "photo-capture") await fail("the keyboard is not on the picture's controls");
+  if ((await game<number>("window.__GR__.speed()")) !== 0) await fail("the game is not paused in photo mode");
+  // Nothing in the game moves, by the clock or by an order.
+  await page.waitForTimeout(2500);
+  if (await game<boolean>(`window.__GR__.order({ kind: "expand" })`)) await fail("an order was taken in photo mode");
+  await game("window.__GR__.days(3)");
+  if ((await saved()) !== beforePhoto) await fail("the game changed in photo mode");
+  await shot("9h-photo");
+  // The picture's own season, weather, light and lens.
+  await page.locator("#photo-season").selectOption("3");
+  await page.locator("#photo-rain").selectOption("on");
+  await page.locator("#photo-light").selectOption("evening");
+  await page.locator("#photo-lens").focus();
+  for (let i = 0; i < 14; i++) await page.keyboard.press("ArrowLeft");
+  await page.waitForTimeout(700);
+  await shot("9i-photo-winter-evening");
+  // Camera by the keyboard.
+  const poseBefore = await game<string>("JSON.stringify(window.__GR__.stage().getPose())");
+  await page.locator("canvas.scene").focus();
+  for (const key of ["ArrowRight", "q", "+", "r"]) await page.keyboard.press(key);
+  await page.waitForTimeout(600);
+  if ((await game<string>("JSON.stringify(window.__GR__.stage().getPose())")) === poseBefore) await fail("the camera did not move by keyboard in photo mode");
+  // A picture saved: a real PNG of the view.
+  const [download] = await Promise.all([page.waitForEvent("download"), page.locator("#photo-capture").click()]);
+  const picture = resolve(out, `granada-${lang}-photo.png`);
+  await download.saveAs(picture);
+  const { statSync, readFileSync } = await import("node:fs");
+  const head = readFileSync(picture).subarray(0, 8).toString("hex");
+  if (head !== "89504e470d0a1a0a" || statSync(picture).size < 200_000) await fail(`the saved picture is not a full PNG: ${head}, ${statSync(picture).size} bytes`);
+  // The controls put away and brought back.
+  await page.keyboard.press("h");
+  if (await page.locator("#photobar").isVisible()) await fail("H did not hide the picture's controls");
+  await page.keyboard.press("Escape");
+  if (!(await page.locator("#photo-exit").isVisible()) || !(await photo()).on) await fail("Escape did not bring the controls back");
+  await page.keyboard.press("Escape");
+  if ((await photo()).on || !(await page.locator(".bar").isVisible())) await fail("Escape did not leave photo mode");
+  if ((await saved()) !== beforePhoto) await fail("the game was changed by photo mode");
+  if ((await game<number>("window.__GR__.speed()")) !== 1) await fail("the game's speed did not come back");
+  if ((await game<string>("document.activeElement.id")) !== "view-photo") await fail("the keyboard did not come back to where it was");
+  await page.locator("#speed-0").click();
+  // In and out fifty times: what the renderer holds, and the heap, before and after.
+  const held = () => game<{ geometries: number; textures: number; heap: number }>("(() => { const i = window.__GR__.stage().info(); return { geometries: i.geometries, textures: i.textures, heap: performance.memory ? Math.round(performance.memory.usedJSHeapSize / 1048576) : -1 }; })()");
+  const heldBefore = await held();
+  for (let i = 0; i < 50; i++) {
+    await page.locator("#view-photo").click();
+    await page.locator("#photo-light").selectOption(["morning", "midday", "evening"][i % 3]!);
+    await page.locator("#photo-exit").click();
+  }
+  await page.waitForTimeout(1500);
+  const heldAfter = await held();
+  if (heldAfter.geometries !== heldBefore.geometries || heldAfter.textures !== heldBefore.textures) await fail(`fifty visits to photo mode left ${JSON.stringify(heldAfter)} where there was ${JSON.stringify(heldBefore)}`);
+  log.photo = { bytes: statSync(picture).size, before: heldBefore, after: heldAfter };
+}
+
 // ---- Trade through the page: the contract taken, the olives pressed, the oil delivered, the rest sent ----
 await page.goto(url("&fresh=1"));
 await ready();

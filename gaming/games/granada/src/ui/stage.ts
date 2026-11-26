@@ -196,6 +196,16 @@ export class Stage {
     this.canvas.classList.toggle("placing", on);
     if (on) this.options.onSite?.(this.goal.tx, this.goal.tz);
   }
+  /** For pictures: a lens, an hour's light, and the view as a PNG. None of them touches the game. */
+  setLens(fov: number | null): void {
+    this.renderer.setLens(fov);
+  }
+  previewLight(hour: "morning" | "midday" | "evening" | null): void {
+    this.renderer.previewLight(hour);
+  }
+  capture(): Promise<Blob | null> {
+    return this.renderer.capture();
+  }
   /** Shows, or takes away, the ring on the ground the player is considering. */
   setGhost(g: { x: number; z: number; r: number; ok: boolean } | null): void {
     this.renderer.setGhost(g);
