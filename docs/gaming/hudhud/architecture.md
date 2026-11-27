@@ -7,7 +7,7 @@ _26 November 2026. Describes what is built for the golden scene and what the sam
 ```
 gaming/games/hudhud/
   index.html            the page: one stylesheet, one script, no inline style or script
-  i18n/<lang>.json      1,017 strings (27 November 2026, with al-Razi's loose leaves; 945 with the Alhambra quest, 866 before it, 793 before the journey of coffee and 209 when this was first written), the same keys in the same order in ar, en, ur, fr, es, tr, id
+  i18n/<lang>.json      1,083 strings (27 November 2026, UTC, with Karima's copies; 1,017 with al-Razi's loose leaves, 945 with the Alhambra quest, 866 before it, 793 before the journey of coffee and 209 when this was first written), the same keys in the same order in ar, en, ur, fr, es, tr, id
   i18n-atlas/<lang>.json  the names of the ten worlds and the fifty subjects, a table of their own
   src/
     sim/                RULES. Pure, no Phaser, no DOM, no clock, no unseeded chance; run in Node
@@ -17,6 +17,7 @@ gaming/games/hudhud/
       clock.ts            the elephant clock quest: its flags, over chainquest.ts
       paper.ts            the paper of Samarkand quest: its flags, over chainquest.ts
       leaves.ts           al-Razi's loose leaves quest: its flags, over chainquest.ts (the leaves and their order are in content/leaves.ts)
+      collate.ts          Karima's copies: copies as rows of sign ids, the places where they differ, the slipped copy at each (the one that differs from the others; with two copies, the one that is not hers), mark, unmark, the four goals, a saved place proved on restore; its own rules
       route.ts            Ibn Battuta's thread: a stage (beads and a road), go, peek, the four goals, a saved place proved on restore; its own rules, not chainquest's
       couple.ts           al-Tusi's two circles: a small circle carried round inside a large one, the path of a point on it traced and classed by measurement (line, circle, oval, loops), the settings a way of playing offers, turn, the four goals, a saved place proved on restore; its own rules
       sort.ts             sorting cards into groups: place, show (a showing with a card unplaced is refused and not counted), the four goals, a saved place proved on restore; generic over the cards, the groups and the answer map, used for the animal cards and the shelves of coffee
@@ -26,6 +27,7 @@ gaming/games/hudhud/
     content/
       atlas.v1.json       80 pictures -> 50 subjects -> 10 worlds -> quests -> museum record ids
       workshop.ts         the golden scene as data: room, puzzle, things, scripts, records
+      collate.ts          Karima's copies as data: the three puzzles, the twelve signs and the near-alike pairs, the wrong marks allowed, the record linked
       sort.ts, coffee.ts  the animal cards of al-Jahiz and the three shelves of coffee as data: cards, groups, the answer map, the failed showings allowed, the records linked
     save/save.ts        the save's shape and rules: three slots, migrations, quarantine, merging
     save/durable.ts     the join to the platform's vault (IndexedDB): which copy leads, saving status, export, import
@@ -37,8 +39,9 @@ gaming/games/hudhud/
     game/boot.ts        starts and stops Phaser; sizes the canvas; counts draw calls when asked
     ui/app.ts, .css     the page: talk, goal, settings, pause, results, the scene in words, the test hook; one registry of the quests played on a page, and one helper (`calm`) for the three signals of reduced motion
     ui/rowpage.ts       the page of a quest made of a row, shared by ui/paper.ts (the paper of Samarkand) and ui/leaves.ts (al-Razi's loose leaves), each a spec: its picture, row, rules, strings, questions and notes; art/leaves.ts uses the paper's row and hit-test (art/paper.ts)
+    ui/collate.ts       Karima's copies: a table of real buttons in the picture's rows and columns, each labelled with its copy, place and sign and whether it is marked, a polite live region, the picture (art/collate.ts: signs drawn as plain shapes, never mirrored; only their places run from the right on a right to left page)
     ui/sortpage.ts      the page of a sorting quest, shared by ui/sort.ts (the animal cards) and ui/coffee.ts (the shelves of coffee), each a spec: its picture, cards, strings, questions and notes
-    tests/*.gtest.ts    666 tests in twenty-one files (27 November 2026, with al-Razi's loose leaves; 633 in twenty with the Alhambra quest, 543 in nineteen before it, 126 when this was first written)
+    tests/*.gtest.ts    705 tests in twenty-two files (27 November 2026, UTC, with Karima's copies; 666 in twenty-one with al-Razi's loose leaves, 633 in twenty with the Alhambra quest, 543 in nineteen before it, 126 when this was first written)
 gaming/tools/hudhud-play.ts     plays the scene in real Chrome and records everything
 gaming/tools/hudhud-rebuild.ts  rebuilds the game repeatedly and reads memory
 ```
@@ -113,4 +116,4 @@ Proposed in [the art bible](art-bible.md#media-budget-proposed-to-be-set-by-meas
 
 ## What the architecture does not have yet
 
-A drawn hub (the Atlas is a page of words today: ten worlds, fifty named pages, one open); scenes other than one; loading a world on demand; atlases; remapping of gamepad buttons; a challenge archive; postcards; the "simple language" variant; background-tab behaviour beyond pausing when the page is hidden (seen once in the app's browser pane, not tested by a tool); any analytics, which are not authorised and will not be added.
+A drawn hub (the Atlas is a page of words today: ten worlds, fifty named pages, thirteen open, at least one in every world, since 27 November 2026); scenes other than one; loading a world on demand; atlases; remapping of gamepad buttons; a challenge archive; postcards; the "simple language" variant; background-tab behaviour beyond pausing when the page is hidden (seen once in the app's browser pane, not tested by a tool); any analytics, which are not authorised and will not be added.
