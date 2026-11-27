@@ -1039,3 +1039,27 @@ describe("the rules as a whole", () => {
     expect(REAL_PLAYERS.filter((p) => wins[p]! >= 12).length).toBeGreaterThanOrEqual(3);
   });
 });
+
+describe("free play and the day's valley", () => {
+  it("the open valley runs its four years for every scripted steward, and some of them win it", async () => {
+    const { OPEN_VALLEY } = await import("../src/sim/scenarios");
+    const { PLAYERS, REAL_PLAYERS, playVillage } = await import("../src/sim/players");
+    const { newVillage } = await import("../src/sim/village");
+    let won = 0;
+    for (const name of REAL_PLAYERS) {
+      const c = playVillage(OPEN_VALLEY, newVillage(OPEN_VALLEY, 11), PLAYERS[name]!, 11);
+      expect(c.violations, name).toEqual([]);
+      expect(c.state.outcome, name).not.toBeNull();
+      expect(c.state.day).toBeGreaterThan(OPEN_VALLEY.endDay);
+      if (c.state.outcome!.won) won++;
+    }
+    expect(won).toBeGreaterThan(0);
+  });
+
+  it("the day's valley is the same for everyone on a day and not on the next", async () => {
+    const { dailySeed } = await import("../src/sim/scenarios");
+    expect(dailySeed("2026-11-27")).toBe(dailySeed("2026-11-27"));
+    expect(dailySeed("2026-11-27")).not.toBe(dailySeed("2026-11-28"));
+    expect(Number.isSafeInteger(dailySeed("2026-11-27")) && dailySeed("2026-11-27") > 0).toBe(true);
+  });
+});

@@ -30,6 +30,7 @@ import {
   type State,
 } from "../src/rules";
 import { FAILING_CANAL as SC } from "../src/scenarios";
+import { LOAN_SEASONS, LOAN_SUM, invariants as loanInvariants, newGame as freshGame, preview as judge, step as act } from "../src/rules";
 
 const end = (s: State, n = 1) => {
   for (let i = 0; i < n && s.outcome === "playing"; i++) s = step(SC, s, { type: "end-season" });
@@ -243,5 +244,70 @@ describe("the simulation lab", () => {
       }
       expect(s.outcome).not.toBe("playing");
     }
+  });
+});
+
+describe("the merchants' loan", () => {
+  it("lends once, without interest, and is repaid in equal parts until it is cleared", () => {
+    let s = freshGame(SC, 5);
+    const before = s.treasury;
+    s = act(SC, s, { type: "borrow" });
+    expect(s.treasury).toBe(before + LOAN_SUM);
+    expect([s.loanOwed, s.loanEach]).toEqual([LOAN_SUM, LOAN_SUM / LOAN_SEASONS]);
+    // Not a second loan while the first is owed.
+    expect(judge(s, { type: "borrow" })).toMatchObject({ ok: false, reason: "loan-open" });
+    let repaid = 0;
+    for (let i = 0; i < LOAN_SEASONS && s.outcome === "playing"; i++) {
+      s = act(SC, s, { type: "end-season" });
+      repaid += s.last!.repaid;
+      expect(loanInvariants(s)).toEqual([]);
+    }
+    // Exactly what was lent is paid back: no interest, nothing forgiven.
+    if (s.outcome === "playing") {
+      expect(repaid).toBe(LOAN_SUM);
+      expect([s.loanOwed, s.loanEach]).toEqual([0, 0]);
+      expect(judge(s, { type: "borrow" }).ok).toBe(true);
+    }
+  });
+
+  it("changes nothing in a game that never borrows", () => {
+    let a = freshGame(SC, 7);
+    for (let i = 0; i < 6; i++) a = act(SC, a, { type: "end-season" });
+    expect(a.last!.repaid).toBe(0);
+    expect([a.loanOwed, a.loanEach]).toEqual([0, 0]);
+  });
+});
+
+describe("free play and today's district", () => {
+  it("free play is a sound district that the scripted strategies can play through, and win", async () => {
+    const { OPEN_PLAIN } = await import("../src/scenarios");
+    expect(loanInvariants(freshGame(OPEN_PLAIN, 3))).toEqual([]);
+    const report = runLab(OPEN_PLAIN, 20);
+    expect(report.violations).toEqual([]);
+    // Free play is the gentlest of the modes: some strategy wins it often, and none is certain to lose it.
+    const real = report.policies.filter((s) => REAL_STRATEGIES.includes(s.policy));
+    // A city left alone never wins it.
+    expect(report.policies.find((s) => s.policy === "idle")!.won).toBe(0);
+    expect(Math.max(...real.map((s) => s.winPermille))).toBeGreaterThanOrEqual(300);
+  });
+
+  it("today's district is the same for everyone on a day and different on another", async () => {
+    const { dailyScenario, dailySeed, scenarioById, scenarioKind } = await import("../src/scenarios");
+    const a = dailyScenario("2026-11-27");
+    expect(dailyScenario("2026-11-27")).toEqual(a);
+    expect(dailySeed("daily-2026-11-27")).toBe(dailySeed("daily-2026-11-27"));
+    const days = ["2026-11-27", "2026-11-28", "2026-11-29", "2026-11-30", "2026-12-01"].map((d) => JSON.stringify(dailyScenario(d).start));
+    expect(new Set(days).size).toBeGreaterThan(1);
+    // Every day's district starts sound: no two buildings on a plot, nothing broken, and it can be found by its id.
+    for (let d = 1; d <= 60; d++) {
+      const date = `2027-01-${String(((d - 1) % 28) + 1).padStart(2, "0")}`;
+      const s = dailyScenario(date);
+      const plots = s.start.buildings.map(([p]) => p);
+      expect(new Set(plots).size).toBe(plots.length);
+      expect(loanInvariants(freshGame(s, dailySeed(s.id)))).toEqual([]);
+      expect(scenarioById(s.id)?.start).toEqual(s.start);
+      expect(scenarioKind(s.id)).toBe("daily");
+    }
+    expect(scenarioById("daily-not-a-date")).toBeUndefined();
   });
 });

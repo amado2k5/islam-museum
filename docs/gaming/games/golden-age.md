@@ -54,6 +54,17 @@ Address: `/games/golden-age/index.html?lang=ar` on the gaming dev server.
 
 ### Chapter 3, "What Endures"
 
+**27 November 2026: the sure win is gone.** The chapter's learning goal is now 740, not 520. The trading city had been clearing 520 with learning to spare (746 on average), while the scholar's learning (828) was what the chapter is about. Two other levers were tried in the lab first and rejected: a running cost per household (one coin per 7, 9 or 12 households a season) took the other three strategies to 0–1% and left the merchant at 99–100%, as the earlier levy had. Over 200 seeds the learning goal then gave:
+
+| Learning goal | irrigator | merchant | scholar | balanced | idle, random |
+|---|---:|---:|---:|---:|---:|
+| 520 (before) | 35% | 100% | 74% | 40% | 0% |
+| 680 | 29% | 100% | 74% | 40% | 0% |
+| **740 (now)** | **19%** | **47%** | **74%** | **40%** | **0%** |
+| 780 | 15% | 4% | 73% | 40% | 0% |
+
+The root the paragraph below names, income that grows with households while no cost does, is still there; this change stops it deciding the chapter. The tables below are from before the change.
+
 `npx tsx gaming/tools/simlab.ts 1000 what-endures`, 25 November 2026 (`../evidence/m2/golden-age/simlab-what-endures-1000.md`):
 
 | Player | Won | Mean score | Households | Welfare | Learned | Treasury |
@@ -108,13 +119,15 @@ Address: `/games/golden-age/index.html?lang=ar` on the gaming dev server.
 2. **A stall at every season's end was found and removed; the first diagnosis was wrong.** The earlier version of this page said a new building cost a slow frame. A probe that timed each command and the two frames after it showed otherwise: building cost nothing extra, and every season's end cost about 50 ms, because the renderer swapped the sky's environment map with the season and the engine rebuilt every material's bindings. One environment map now serves all four seasons (sun, sky, haze and exposure still change), and the scripted campaign has no slow frame. New meshes are also brought in two a frame and swapped when ready, which has not been shown to matter on this machine and may on a slower one.
 3. **Draw calls are high** (about 950 for a full district on High, each mesh drawn for shadow, depth and colour). It holds the display rate on this machine; it will not on a weak one. Merging the static geometry by material is the fix.
 4. **The picture is a tidy model town, not the concept art.** Buildings are plain, figures are simple robed shapes that walk up and down their lane, there are no carts, animals, smoke or lamps, the land beyond the district is bare, and the water is flat. Trouble is now marked on the plot it belongs to, and silt and drought show in the water; hunger, idleness, a fever and a building at work still show only in the panel.
+5. **Free play and today's district, added 27 November 2026.** "The Open Plain" (`?scenario=open-plain`) is twenty years from a small, well-watered start with endowments open and a far goal; in the simulation lab (20 seeds) the scripted strategies win it between 0 and 65% of the time and a city left idle never does. "Today's district" (`?scenario=daily`) is the first chapter's problem with its money, water, silt, events and first houses varied by the date and seeded by it, so it is the same for everyone that day. Both are in the chapter menu. Not yet: a shared result card, or a lab table for the daily district across many days.
+
 5. **Three chapters, not linked by the player's city, and the third has a dominant strategy.** Each chapter starts from its own authored district. Chapter 2 differs from chapter 1 in start and goal only; chapter 3 adds endowments, and a trading city wins it every time (see the lab). The GDD also asks for three starting scenarios, a sandbox and a daily seeded scenario, and for at least 25 buildings and upgrades where there are nine and one upgrade.
-6. **No recovery plan** when a city is failing (a loan, downsizing), no checkpoint beyond undo within a season, no replay or export.
+6. **A way back, in part** (27 November 2026): a city low on money or in debt is offered the merchants' loan, 120 coins once, without interest, repaid 12 a season for ten seasons (the game's form of the qard hasan; a game number). Clearing buildings for a quarter of their cost was already possible. Still missing: a checkpoint beyond undo within a season, replay and export. The simulation lab's strategies never borrow, so its tables are unchanged.
 7. **The history is told beside the play, not in it.** Research and tools point to thirteen museum records and each chapter's brief quotes the museum's own summary of two, but the buildings are generic, houses and the granary have no record, and no number in a scenario comes from a record. The summaries are shown as the museum has them, including machine translations no person has read. Two of the thirteen (the public bathhouse and Bayt al-Hikma) are draft-tier records in the museum.
 8. **Translations.** Arabic and English were written by the lead agent; Urdu, French, Spanish, Turkish and Indonesian by a Sonnet subagent from them. All are AI text that no native speaker has read. Long words overflow some tool buttons in some languages.
 9. **Touch** (one finger to move, two to zoom and turn) is written and has never been tried on a touch screen. Narrow windows have a layout that has only been looked at in a desktop browser.
 10. **Only Chrome on one Mac.** Edge, Firefox, Safari, Windows and any discrete GPU are untested.
-11. **No sound effects**, no gamepad, no key remapping, no UI scale control, no photo mode.
+11. **No sound effects**, no gamepad, no key remapping, no photo mode. A text-size choice (normal, large, larger; shared with Granada) was added on 27 November 2026.
 12. **Settings and the saved game are per device.** Nothing is sent anywhere.
 
 ## The museum behind the game

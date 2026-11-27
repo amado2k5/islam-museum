@@ -1,4 +1,5 @@
 // Authored scenarios. Each is a starting district, a number of seasons, and what "a flourishing district" means.
+import { Rng, hash32 } from "@im/kernel/prng";
 import { plotOf, type Scenario } from "./rules";
 
 /**
@@ -146,9 +147,79 @@ export const WHAT_ENDURES: Scenario = {
       [plotOf(4, 2), plotOf(4, 3)],
     ],
   },
-  goal: { households: 380, welfare: 64, knowledge: 520, steadySeasons: 4, endowments: 4 },
+  // 740 learned, not 520: at 520 a trading city won every campaign with learning to spare. In the lab (200 seeds, 27
+  // November 2026) 740 left the merchant at 47%, the scholar 74, the balanced player 40 and the irrigator 19; the idle
+  // and random cities none. No way of playing is now certain.
+  goal: { households: 380, welfare: 64, knowledge: 740, steadySeasons: 4, endowments: 4 },
 };
 
 /** The campaign, in order. A chapter starts from its own authored district, not from the player's last one. */
 export const CHAPTERS: Scenario[] = [FAILING_CANAL, HOUSE_OF_BOOKS, WHAT_ENDURES];
 export const SCENARIOS: Record<string, Scenario> = Object.fromEntries(CHAPTERS.map((s) => [s.id, s]));
+
+/**
+ * Free play: a small, well-watered start, twenty years, endowments open, and a goal set far off so that the city can
+ * be built at the player's own pace. It can still be lost to debt or unrest, as any city can.
+ */
+export const OPEN_PLAIN: Scenario = {
+  id: "open-plain",
+  seasons: 80,
+  start: {
+    treasury: 200,
+    grain: 80,
+    households: 40,
+    intake: 70,
+    canalCondition: 1000,
+    buildings: [
+      [plotOf(2, 1), "house"],
+      [plotOf(3, 1), "house"],
+      [plotOf(2, 2), "house"],
+      [plotOf(1, 1), "farm"],
+    ],
+    canals: [
+      [plotOf(1, 0), plotOf(1, 1)],
+      [plotOf(1, 1), plotOf(2, 1)],
+    ],
+  },
+  goal: { households: 420, welfare: 62, knowledge: 480, steadySeasons: 4 },
+  eventRate: 260,
+  endowments: true,
+};
+
+/** Today's district: the first chapter's problem, its numbers and its first buildings varied by the date, the same for everyone that day. */
+export const DAILY_PREFIX = "daily-";
+export function dailyScenario(date: string): Scenario {
+  const rng = new Rng(hash32(`golden-age-daily:${date}`, 0));
+  const shift = (cell: number): number => {
+    const x = cell % 8;
+    const y = Math.floor(cell / 8);
+    return plotOf(Math.min(6, x + rng.int(0, 1)), Math.min(4, y + rng.int(0, 1)));
+  };
+  const buildings = FAILING_CANAL.start.buildings.map(([p, b]) => [b === "farm" ? p : shift(p), b] as [number, typeof b]);
+  const seen = new Set<number>();
+  return {
+    ...FAILING_CANAL,
+    id: `${DAILY_PREFIX}${date}`,
+    start: {
+      ...FAILING_CANAL.start,
+      treasury: 100 + rng.int(0, 6) * 10,
+      intake: 50 + rng.int(0, 6) * 5,
+      canalCondition: 500 + rng.int(0, 6) * 50,
+      // Two houses never share a plot.
+      buildings: buildings.filter(([p]) => !seen.has(p) && seen.add(p)),
+    },
+    eventRate: 240 + rng.int(0, 6) * 25,
+  };
+}
+/** The game's seed for a day: every player of that day's district meets the same seasons. */
+export const dailySeed = (date: string): number => hash32(`golden-age-daily-seed:${date}`, 0) | 0;
+
+/** A scenario by its id: a chapter, free play, or a day's district. */
+export function scenarioById(id: string): Scenario | undefined {
+  if (id in SCENARIOS) return SCENARIOS[id];
+  if (id === OPEN_PLAIN.id) return OPEN_PLAIN;
+  if (id.startsWith(DAILY_PREFIX) && /^\d{4}-\d{2}-\d{2}$/.test(id.slice(DAILY_PREFIX.length))) return dailyScenario(id.slice(DAILY_PREFIX.length));
+  return undefined;
+}
+/** Which strings a scenario reads: a day's district reads the daily ones, whatever its date. */
+export const scenarioKind = (id: string): string => (id.startsWith(DAILY_PREFIX) ? "daily" : id);

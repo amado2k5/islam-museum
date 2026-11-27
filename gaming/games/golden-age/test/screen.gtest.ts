@@ -370,6 +370,16 @@ describe("the saved game", () => {
     expect(step(S, first.save.state!, { type: "end-season" })).toEqual(step(S, play(newGame(S, 9), { type: "end-season" }), { type: "end-season" }));
   });
 
+  it("brings a game saved before the merchants' loan existed up to date", () => {
+    const { loanOwed, loanEach, ...v2 } = play(newGame(S, 11), { type: "end-season" }) as State & Record<string, unknown>;
+    void loanOwed;
+    void loanEach;
+    const read = readSave(JSON.stringify({ v: 2, state: v2 }));
+    expect(read.status).toBe("ok");
+    expect(read.save).toMatchObject({ v: SAVE_VERSION, state: { loanOwed: 0, loanEach: 0 } });
+    expect(step(S, read.save.state!, { type: "end-season" })).toEqual(step(S, play(newGame(S, 11), { type: "end-season" }), { type: "end-season" }));
+  });
+
   it("refuses a state the rules could not have produced", () => {
     const s = play(newGame(S, 9), { type: "end-season" });
     expect(playable(s)).toBe(true);
@@ -455,7 +465,7 @@ describe("the third chapter and its endowments", () => {
     const hospital = plotOf(7, 5);
     const plots = [...newGame(E, 2).plots];
     plots[hospital] = "hospital";
-    const thriving: State = { ...newGame(E, 2), plots, season: E.seasons - 1, households: 400, knowledge: 600, welfare: 80, steadySeasons: 5, treasury: 500, grain: 2000 };
+    const thriving: State = { ...newGame(E, 2), plots, season: E.seasons - 1, households: 400, knowledge: 800, welfare: 80, steadySeasons: 5, treasury: 500, grain: 2000 };
     expect(step(E, thriving, { type: "end-season" }).outcome).toBe("ended");
     expect(step(E, { ...thriving, endowed: [bath, school, library] }, { type: "end-season" }).outcome).toBe("ended");
     expect(step(E, { ...thriving, endowed: [bath, school, library, hospital] }, { type: "end-season" }).outcome).toBe("won");
@@ -484,8 +494,9 @@ describe("the third chapter and its endowments", () => {
     expect(report.violations).toEqual([]);
     for (const p of report.policies.filter((q) => !real.includes(q))) expect(p.winPermille, p.policy).toBe(0);
     expect(real.filter((p) => p.winPermille >= 200).length).toBeGreaterThanOrEqual(3);
-    // Known and recorded, not hidden: a trading city wins this chapter every time (docs/gaming/games/golden-age.md).
-    expect(real.find((p) => p.policy === "merchant")!.winPermille).toBe(1000);
+    // No way of playing is certain (until 27 November 2026 a trading city won every campaign; the learning goal was
+    // raised from 520 to 740 to end that, docs/gaming/games/golden-age.md).
+    for (const p of real) expect(p.winPermille, p.policy).toBeLessThan(1000);
   });
 });
 

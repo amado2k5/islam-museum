@@ -153,6 +153,9 @@ export interface State {
   /** Units of water the intake can take from the river each season. */
   intake: number;
   events: Forecast[];
+  /** What is still owed on the merchants' loan, and what is repaid of it each season; both 0 when there is none. */
+  loanOwed: number;
+  loanEach: number;
   /** Seasons in a row the treasury has ended below zero, and welfare below the collapse line. */
   insolventSeasons: number;
   unrestSeasons: number;
@@ -176,6 +179,8 @@ export interface SeasonReport {
   sold: number;
   income: { tax: number; trade: number; sales: number };
   upkeep: number;
+  /** Repaid on the merchants' loan this season. */
+  repaid: number;
   knowledgeGained: number;
   welfareTarget: number;
   staffingPermille: number;
@@ -214,9 +219,17 @@ export type Command =
   | { type: "research"; id: ResearchId | null }
   | { type: "clear-silt" }
   | { type: "endow"; plot: number }
+  | { type: "borrow" }
   | { type: "end-season" };
 
 export const SILT_CLEAR_COST = 20;
+
+// ---- The merchants' loan --------------------------------------------------------------------------------------------
+// A way back for a city in trouble: the merchants lend a sum once, without interest, and it is repaid in equal parts
+// at the end of each season until it is cleared. It is the game's form of the qard hasan, the interest-free loan; a
+// second cannot be taken while the first is owed. The sums are game numbers.
+export const LOAN_SUM = 120;
+export const LOAN_SEASONS = 10;
 
 // ---- Endowments ------------------------------------------------------------------------------------------------------
 // From the third chapter the steward may endow a public building: a sum is set aside for ever, its yield pays the
@@ -317,7 +330,7 @@ export function intakeCapacity(s: State, season = s.season): number {
 export interface Preview {
   ok: boolean;
   /** Why not, as a stable code the interface translates. */
-  reason?: "over" | "occupied" | "empty" | "not-researched" | "no-funds" | "not-adjacent" | "exists" | "not-connected" | "off-map" | "already-researched" | "needs-research" | "no-silt" | "same" | "not-here" | "not-endowable" | "already-endowed" | "endowed";
+  reason?: "over" | "occupied" | "empty" | "not-researched" | "no-funds" | "not-adjacent" | "exists" | "not-connected" | "off-map" | "already-researched" | "needs-research" | "no-silt" | "same" | "not-here" | "not-endowable" | "already-endowed" | "endowed" | "loan-open";
   cost: number;
 }
 const no = (reason: NonNullable<Preview["reason"]>, cost = 0): Preview => ({ ok: false, reason, cost });
@@ -373,6 +386,8 @@ export function preview(s: State, cmd: Command): Preview {
     case "clear-silt":
       if (s.canalCondition >= 1000) return no("no-silt", SILT_CLEAR_COST);
       return s.treasury < SILT_CLEAR_COST ? no("no-funds", SILT_CLEAR_COST) : { ok: true, cost: SILT_CLEAR_COST };
+    case "borrow":
+      return s.loanOwed > 0 ? no("loan-open") : { ok: true, cost: 0 };
     case "end-season":
       return { ok: true, cost: 0 };
   }
@@ -455,7 +470,9 @@ function runSeason(s: State, scenario: Scenario): State {
   for (const t of BUILDING_TYPES) upkeep += BUILDINGS[t].upkeep * of(t).length;
   // An endowed building's upkeep is paid by its endowment.
   for (const p of s.endowed) if (s.plots[p]) upkeep -= BUILDINGS[s.plots[p]!].upkeep;
-  const treasury = s.treasury + tax + trade + sales - upkeep;
+  // The loan is repaid before anything else is reckoned, whatever the season brought.
+  const repaid = Math.min(s.loanEach, s.loanOwed);
+  const treasury = s.treasury + tax + trade + sales - upkeep - repaid;
 
   // Learning. A school or library that cannot be paid for, or whose city is hungry, teaches nothing.
   const paid = treasury >= 0;
@@ -552,11 +569,13 @@ function runSeason(s: State, scenario: Scenario): State {
     researched,
     canalCondition,
     events: horizon,
+    loanOwed: s.loanOwed - repaid,
+    loanEach: s.loanOwed - repaid > 0 ? s.loanEach : 0,
     insolventSeasons,
     unrestSeasons,
     steadySeasons,
     outcome,
-    last: { season, waterNeed: tiers[0]! + tiers[1]! + tiers[2]!, waterSupply, waterShare: share, harvest, eaten, hungerPermille, spoiled, sold, income: { tax, trade, sales }, upkeep, knowledgeGained, welfareTarget: target, staffingPermille: staffing, households, events, completedResearch: completed, welfareParts: parts, cover: { water: cover(houses.filter((h) => servedByWater(wet, h)).length), bath: cover(bathed), school: cover(taught), hospital: cover(healed), market: cover(servedByMarket) }, housing: housed, jobs: workersNeeded },
+    last: { season, waterNeed: tiers[0]! + tiers[1]! + tiers[2]!, waterSupply, waterShare: share, harvest, eaten, hungerPermille, spoiled, sold, income: { tax, trade, sales }, upkeep, repaid, knowledgeGained, welfareTarget: target, staffingPermille: staffing, households, events, completedResearch: completed, welfareParts: parts, cover: { water: cover(houses.filter((h) => servedByWater(wet, h)).length), bath: cover(bathed), school: cover(taught), hospital: cover(healed), market: cover(servedByMarket) }, housing: housed, jobs: workersNeeded },
   };
 }
 
@@ -596,6 +615,8 @@ export function newGame(scenario: Scenario, seed: number): State {
     canalCondition: scenario.start.canalCondition ?? 600,
     intake: scenario.start.intake,
     events: [],
+    loanOwed: 0,
+    loanEach: 0,
     insolventSeasons: 0,
     unrestSeasons: 0,
     steadySeasons: 0,
@@ -632,6 +653,8 @@ export function step(scenario: Scenario, s: State, cmd: Command): State {
       return { ...s, canalCondition: 1000, treasury: s.treasury - p.cost };
     case "endow":
       return { ...s, endowed: [...s.endowed, cmd.plot], treasury: s.treasury - p.cost };
+    case "borrow":
+      return { ...s, treasury: s.treasury + LOAN_SUM, loanOwed: LOAN_SUM, loanEach: LOAN_SUM / LOAN_SEASONS };
     case "end-season":
       return runSeason(s, scenario);
   }
@@ -654,6 +677,9 @@ export function invariants(s: State): string[] {
   const int = (name: string, v: number) => {
     if (!Number.isSafeInteger(v)) bad.push(`${name} is not a whole number: ${v}`);
   };
+  int("loanOwed", s.loanOwed);
+  int("loanEach", s.loanEach);
+  if (s.loanOwed < 0 || s.loanEach < 0 || (s.loanOwed === 0) !== (s.loanEach === 0)) bad.push("a loan with no repayment, or a repayment with no loan");
   int("treasury", s.treasury);
   int("grain", s.grain);
   int("households", s.households);

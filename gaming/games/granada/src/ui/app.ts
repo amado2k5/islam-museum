@@ -9,7 +9,7 @@ import records from "../../data/museum-records.v1.json";
 import { loadMusicStrings, musicControl } from "@im/audio/control";
 import { MUSIC_AVAILABLE, MUSIC_BASE, MusicPlayer } from "@im/audio/player";
 import { MINOR } from "../sim/economy";
-import { SCENARIOS, WATER_FOR_THE_VALLEY, scenarioAfter } from "../sim/scenarios";
+import { OPEN_VALLEY, WATER_FOR_THE_VALLEY, dailySeed, scenarioAfter, scenarioById } from "../sim/scenarios";
 import { act, dayOfSeason, newVillage, nextYear, seasonOf, siteOf, tasksOf, tick, type ActResult, type Refusal, type Scenario, type VillageCommand, type VillageState } from "../sim/village";
 import { YEAR_KEY, clearSave, readAside, readSave, restoreAside, setAside, writeSave } from "../save";
 import { probeWebGPU } from "@im/kernel/capability";
@@ -19,6 +19,7 @@ import { drawMap, setMapGhost } from "./map";
 import { drawRegion, regionView, type RegionLayer, type RegionView } from "./region";
 import type { Stage } from "./stage";
 import { ESTATE, MARKET, STORE, heightAt } from "../view/valley";
+import { TEXT_SIZES, applyTextSize, readTextSize, type TextSize } from "./text-size";
 import { advice, carryOver, chainView, foodToSpare, seasonFigures, warnings, catalogueRows, decisionRows, effectRows, fieldCards, marketRows, tradeView, questRows, riverOfYear, skyAhead, stocks, workRows, yesterday, type FieldCard, type WorkRow } from "./model";
 
 type Strings = Record<Exclude<keyof typeof en, "_meta">, string>;
@@ -70,8 +71,11 @@ async function main(): Promise<void> {
   // ---- The game ------------------------------------------------------------------------------------------------
   // The scenario in hand: the first year's for a new game, the saved game's own otherwise, the next when a year is won.
   let sc: Scenario = WATER_FOR_THE_VALLEY;
-  const titleKey = () => (sc.follows ? `scenario_${sc.id}` : "scenario_title");
-  const briefKey = () => (sc.follows ? `brief_${sc.id}` : "brief_text");
+  const titleKey = () => (sc.follows || sc.id === OPEN_VALLEY.id ? `scenario_${sc.id}` : "scenario_title");
+  const briefKey = () => (sc.follows || sc.id === OPEN_VALLEY.id ? `brief_${sc.id}` : "brief_text");
+  /** The day's valley is the first year on the date's own seed; the date is shown while the page is open. */
+  const today = (): string => query.get("date") ?? new Date().toISOString().slice(0, 10);
+  let dailyOf: string | null = null;
   /** The valley as it stood when the year in hand began, so that a lost year can be played again from its start. */
   let yearStart: string | null = null;
   /** A saved game that could be neither read nor copied aside is left exactly as it is: nothing of this session is written. */
@@ -85,15 +89,18 @@ async function main(): Promise<void> {
       // Without it a later year cannot be played again from its start; the button for that is then not shown.
     }
   };
+  applyTextSize(readTextSize(), false);
   const seedParam = Number(query.get("seed"));
   const newSeed = () => (Number.isSafeInteger(seedParam) && seedParam > 0 ? seedParam : 1 + (Math.floor(performance.now() * 1000) % 100000));
   let notice: string | null = null;
   let state: VillageState;
   let resumed = false;
-  const saved = query.has("fresh") ? ({ status: "empty" } as const) : readSave(localStorage);
-  if (saved.status === "ok" && SCENARIOS[saved.state.scenario]) {
+  // A new game of a kind the address names (?mode=daily or ?mode=free) begins whatever is saved, as ?fresh does.
+  const modeAsked = query.get("mode");
+  const saved = query.has("fresh") || modeAsked === "daily" || modeAsked === "free" ? ({ status: "empty" } as const) : readSave(localStorage);
+  if (saved.status === "ok" && scenarioById(saved.state.scenario)) {
     state = saved.state;
-    sc = SCENARIOS[state.scenario]!;
+    sc = scenarioById(state.scenario)!;
     resumed = true;
     try {
       const kept = localStorage.getItem(YEAR_KEY);
@@ -108,7 +115,9 @@ async function main(): Promise<void> {
     if (saved.status === "unreadable") notice = t("save_unreadable");
     if (saved.status === "newer") notice = t("save_newer");
     if (saveLocked) notice = t("save_left_untouched");
-    state = newVillage(sc, newSeed());
+    if (modeAsked === "free") sc = OPEN_VALLEY;
+    if (modeAsked === "daily") dailyOf = today();
+    state = newVillage(sc, dailyOf ? dailySeed(dailyOf) : newSeed());
     keepYearStart();
   }
   // How much is spent on the picture: asked for in the address, or chosen before and kept on this device, or High.
@@ -220,6 +229,20 @@ async function main(): Promise<void> {
   const keep = () => {
     saveOk = !saveLocked && writeSave(localStorage, state);
   };
+  /**
+   * The orders of the day so far, newest last: the state before each, so that an order can be taken back until the
+   * day ends. A day that passes cannot be taken back, as a harvest or a sale in the world cannot.
+   */
+  let undoStack: VillageState[] = [];
+  const UNDO_DEPTH = 30;
+  const undo = (): boolean => {
+    if (photo || undoStack.length === 0) return false;
+    state = undoStack.pop()!;
+    keep();
+    render();
+    say(t("undo_done"));
+    return true;
+  };
   const order = (command: VillageCommand): boolean => {
     // Nothing is ordered while a picture is being taken.
     if (photo) return false;
@@ -228,6 +251,8 @@ async function main(): Promise<void> {
       say(refusal(r.result));
       return false;
     }
+    undoStack.push(state);
+    if (undoStack.length > UNDO_DEPTH) undoStack.shift();
     state = r.state;
     keep();
     render();
@@ -279,6 +304,7 @@ async function main(): Promise<void> {
     // No day passes while a picture is being taken, whoever asks.
     if (state.outcome || photo) return;
     state = tick(sc, state);
+    undoStack = [];
     for (const e of state.last?.events ?? []) {
       const text = eventText(e);
       if (text) say(text);
@@ -324,6 +350,7 @@ async function main(): Promise<void> {
         speedButton(0, "speed_pause", "❚❚"),
         speedButton(1, "speed_play", "▶"),
         speedButton(2, "speed_fast", "▶▶"),
+        h("button", { type: "button", class: "speed undo", id: "undo", title: t("undo_title"), disabled: undoStack.length === 0 || Boolean(state.outcome), onclick: () => undo() }, t("undo")),
         h("button", { type: "button", class: "speed step", id: "step", title: t("speed_step"), disabled: Boolean(state.outcome), onclick: () => nextDay() }, t("speed_step")),
       ),
       h("div", { class: "menu" }, musicBox, qualityBox, h("button", { type: "button", id: "btn-help", onclick: () => showHelp() }, t("help"))),
@@ -1135,6 +1162,7 @@ async function main(): Promise<void> {
       h("p", { class: "kicker" }, t("subtitle")),
       h("h2", {}, t(titleKey())),
       h("p", {}, t(briefKey())),
+      dailyOf && h("p", { class: "note", id: "daily-line" }, t("daily_line", { date: dailyOf })),
       notice && h("p", { class: "warnline" }, notice),
       h("p", { class: "note" }, t("simulation_note")),
       h("p", { class: "note" }, `${t("brief_setting")}: `, museumLink("place/granada"), " · ", museumLink("polity/emirate-of-granada"), " · ", museumLink("place/sierra-nevada")),
@@ -1157,12 +1185,18 @@ async function main(): Promise<void> {
       "help",
       h("h2", {}, t("help")),
       h("p", {}, t("help_text")),
+      h("label", { class: "quality" }, h("span", {}, t("text_size")), h("select", { id: "text-size", onchange: (e: Event) => applyTextSize((e.currentTarget as HTMLSelectElement).value as TextSize) }, ...(Object.keys(TEXT_SIZES) as TextSize[]).map((size) => h("option", { value: size, selected: size === readTextSize() }, t(`text_size_${size}`))))),
       // A game set aside by a build that could not read it, which this build can: it can be brought back.
       readAside(localStorage).status === "ok" && h("button", { type: "button", id: "bring-back", onclick: () => restoreAside(localStorage) && location.reload() }, t("save_bring_back")),
       h("ul", { class: "plain", id: "help-more" }, ...(["help_ahead", "help_build", "help_trade", "help_choose", "help_years", "help_keys"] as const).filter((k) => k !== "help_build" || sc.catalogue).filter((k) => k !== "help_trade" || sc.trade).map((k) => h("li", {}, t(k)))),
       h("p", { class: "note" }, t("simulation_note")),
       h("h3", {}, t("language")),
       h("p", { class: "langs" }, ...LANGS.map((code) => h("a", { href: `?lang=${code}`, lang: code, "aria-current": code === lang ? "true" : undefined }, LANG_NAMES[code]!))),
+      h("h3", {}, t("modes")),
+      h("div", { class: "actions" },
+        h("button", { type: "button", id: "start-daily", onclick: () => (d.close(), begin(dailySeed(today()), WATER_FOR_THE_VALLEY, today()), showBrief()) }, t("mode_daily")),
+        h("button", { type: "button", id: "start-free", onclick: () => (d.close(), begin(newSeed(), OPEN_VALLEY), showBrief()) }, t("mode_free")),
+      ),
       h("div", { class: "actions" }, restart, h("button", { type: "button", class: "primary", id: "help-close", onclick: () => d.close() }, t("close"))),
     );
   }
@@ -1186,10 +1220,18 @@ async function main(): Promise<void> {
         (state.year === 1 || yearStart) && h("button", { type: "button", id: "again", onclick: () => (again(), d.close()) }, t("outcome_again")),
         h("button", { type: "button", class: o.won && scenarioAfter(sc.id) ? "" : "primary", id: "new-year", onclick: () => (begin(state.seed + 1), d.close()) }, t(state.year > 1 ? "outcome_restart" : "outcome_new_year")),
       ),
+      // A result to share, as plain text the player copies. Nothing about the player goes into it, and it is sent nowhere.
+      h("p", { class: "actions" }, h("button", { type: "button", id: "share-result", onclick: (e: Event) => {
+        const what = dailyOf ? `${t("mode_daily")} ${dailyOf}` : t(titleKey());
+        const text = t("share_text", { what, outcome: o.won ? t("outcome_won") : t("outcome_lost"), score: o.score, year: state.year, households: state.households, seed: String(state.seed) });
+        const button = e.currentTarget as HTMLButtonElement;
+        void navigator.clipboard?.writeText(text).then(() => (button.textContent = t("share_copied")), () => (button.textContent = text));
+      } }, t("share_copy"))),
     );
   }
   /** Puts the page back to a year's first morning: paused, on the Overview, nothing chosen, nothing said yet. */
   function freshPage(): void {
+    undoStack = [];
     speed = 0;
     tab = "valley";
     selected = null;
@@ -1201,9 +1243,10 @@ async function main(): Promise<void> {
     render();
   }
   /** A new campaign, from the first year. */
-  function begin(seed: number): void {
+  function begin(seed: number, first: Scenario = WATER_FOR_THE_VALLEY, daily: string | null = null): void {
     if (!saveLocked) clearSave(localStorage);
-    sc = WATER_FOR_THE_VALLEY;
+    dailyOf = daily;
+    sc = first;
     state = newVillage(sc, seed);
     keepYearStart();
     freshPage();
@@ -1212,7 +1255,7 @@ async function main(): Promise<void> {
   function again(): void {
     if (state.year === 1 || !yearStart) return begin(state.seed);
     state = JSON.parse(yearStart) as VillageState;
-    sc = SCENARIOS[state.scenario]!;
+    sc = scenarioById(state.scenario)!;
     freshPage();
   }
   /** On to the year that follows a won one, with the valley as it stands. */
@@ -1264,6 +1307,7 @@ async function main(): Promise<void> {
     if (e.key >= "1" && e.key <= "5") setTab(tabs[Number(e.key) - 1]!);
     else if (e.key === "p" || e.key === "P") setSpeed(speed === 0 ? 1 : 0);
     else if (e.key === "." || e.key === "n" || e.key === "N") nextDay();
+    else if (e.key === "u" || e.key === "U") undo();
     else if (e.key === "h" || e.key === "H" || e.key === "?") showHelp();
     else if (placing && e.key === "Escape") stopPlacing();
     else if (placing && e.key === "Enter" && !["BUTTON", "A"].includes(target.tagName)) {
@@ -1279,6 +1323,7 @@ async function main(): Promise<void> {
   const hook: Record<string, unknown> = { ready: true, lang, scenario: sc.id, state: () => state, speed: () => speed, tab: () => tab, music, saveOk: () => saveOk, order: (c: VillageCommand) => order(c), days: (n: number) => { for (let i = 0; i < n; i++) nextDay(); }, begin: (seed: number) => begin(seed), view: () => view, setView: (to: "3d" | "plan") => setView(to), stage: () => stage, threeD: "pending" };
   hook.quality = quality;
   hook.goOn = () => goOn();
+  hook.undo = () => undo();
   hook.again = () => again();
   hook.photo = () => ({ on: photo, bare: photoBare, preview: { ...preview }, shots: photoShots });
   if (counters) {
