@@ -503,7 +503,7 @@ describe("the words and the records", () => {
     for (const id of SHEETS_RECORDS) expect(existsSync(resolve(root, "data", `${id}.yaml`)), id).toBe(true);
   });
   it("says in the hub that quests are built, in every language, and no longer four (the count itself is pinned in leaves.gtest.ts)", () => {
-    expect(table("en").hub_note).toMatch(/(Five|Six|Seven|Eight|Nine|Ten|Eleven|Twelve) quests are built/);
+    expect(table("en").hub_note).toMatch(/(Five|Six|Seven|Eight|Nine|Ten|Eleven|Twelve|Thirteen) quests are built/);
     for (const l of LANGS) expect(table(l).hub_note).not.toMatch(/\b(four|quatre|cuatro|dört|empat)\b|أربع|چار/i);
   });
 });
