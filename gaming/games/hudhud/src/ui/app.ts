@@ -38,6 +38,9 @@ import { channelsQuest, type ChannelsQuest } from "./channels";
 import { LEAVES_QUEST, LEAVES_SUBJECT, leavesPuzzle } from "../content/leaves";
 import { restoreLeaves } from "../sim/leaves";
 import { leavesQuest, type LeavesQuest } from "./leaves";
+import { COLLATE_QUEST, COLLATE_SUBJECT, collatePuzzle } from "../content/collate";
+import { restoreCollate } from "../sim/collate";
+import { collateQuest, type CollateQuest } from "./collate";
 import { prologueScreen } from "./prologue";
 import { JAR, RECORDS, SCRIPTS, THINGS, TURN_SLACK, inPlay, type PlayStyle, type Speaker } from "../content/workshop";
 import { start, type Running } from "../game/boot";
@@ -856,7 +859,7 @@ async function main(): Promise<void> {
   // The first thing a player sees: who they are, and the Atlas itself, ten worlds of five pages. Twelve quests can be
   // played; the others are named and said to be not built. Nothing here is a claim about history: the names are
   // the subjects' names and the grouping is a structure for play.
-  const BUILT: Record<string, string> = { "ibn-al-haytham": QUEST, "al-jazari": CLOCK_QUEST, "al-kindi": CIPHER_QUEST, "al-khwarizmi": ALGEBRA_QUEST, "al-idrisi": SHEETS_QUEST, [SORT_SUBJECT]: SORT_QUEST, [PAPER_SUBJECT]: PAPER_QUEST, [ROUTE_SUBJECT]: ROUTE_QUEST, [COUPLE_SUBJECT]: COUPLE_QUEST, [COFFEE_SUBJECT]: COFFEE_QUEST, [CHANNELS_SUBJECT]: CHANNELS_QUEST, [LEAVES_SUBJECT]: LEAVES_QUEST };
+  const BUILT: Record<string, string> = { "ibn-al-haytham": QUEST, "al-jazari": CLOCK_QUEST, "al-kindi": CIPHER_QUEST, "al-khwarizmi": ALGEBRA_QUEST, "al-idrisi": SHEETS_QUEST, [SORT_SUBJECT]: SORT_QUEST, [PAPER_SUBJECT]: PAPER_QUEST, [ROUTE_SUBJECT]: ROUTE_QUEST, [COUPLE_SUBJECT]: COUPLE_QUEST, [COFFEE_SUBJECT]: COFFEE_QUEST, [CHANNELS_SUBJECT]: CHANNELS_QUEST, [LEAVES_SUBJECT]: LEAVES_QUEST, [COLLATE_SUBJECT]: COLLATE_QUEST };
   function startQuest(): void {
     cues.unlock();
     // Asked once, after a press as browsers require; the answer is shown in the settings and never asked again.
@@ -977,6 +980,12 @@ async function main(): Promise<void> {
       trial: "rz_trial",
       saved: () => pageSaved(LEAVES_QUEST, (snap) => restoreLeaves(snap, leavesPuzzle)),
       make: (c, title, kept) => leavesQuest({ ...c, title, resume: kept as Parameters<typeof leavesQuest>[0]["resume"] }),
+    },
+    [COLLATE_QUEST]: {
+      subject: COLLATE_SUBJECT,
+      trial: "kr_trial",
+      saved: () => pageSaved(COLLATE_QUEST, (snap) => restoreCollate(snap, collatePuzzle)),
+      make: (c, title, kept) => collateQuest({ ...c, title, resume: kept as Parameters<typeof collateQuest>[0]["resume"] }),
     },
   };
   /** Opens a quest played on a page, with no flying scene. One left in the middle comes back. */
@@ -1227,6 +1236,9 @@ async function main(): Promise<void> {
     startLeaves: () => openPage(LEAVES_QUEST),
     leaves: () => { const r = pageOf<LeavesQuest>(LEAVES_QUEST); return r ? { ...r.state(), busy: r.busy(), selected: r.selected(), status: r.status() } : null; },
     leavesCommand: (c: Parameters<LeavesQuest["command"]>[0]) => pageOf<LeavesQuest>(LEAVES_QUEST)?.command(c),
+    startCollate: () => openPage(COLLATE_QUEST),
+    collate: () => { const r = pageOf<CollateQuest>(COLLATE_QUEST); return r ? { ...r.state(), busy: r.busy(), status: r.status() } : null; },
+    collateCommand: (c: Parameters<CollateQuest["command"]>[0]) => pageOf<CollateQuest>(COLLATE_QUEST)?.command(c),
     resumed: () => resumed,
     keys: () => settings().keys,
     prologue: () => ({ shown: openingShown, panel: openingShown ? prologue.panel() : 0 }),
