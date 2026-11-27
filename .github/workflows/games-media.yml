@@ -44,6 +44,11 @@ on:
         required: false
         type: string
         default: games-media
+      replace:
+        description: "Models only: exact comma-separated manifest paths an intentional correction may replace, after check."
+        required: false
+        type: string
+        default: ""
 
 permissions:
   # A draft release can be read only by a token allowed to write contents; this workflow writes nothing to the repository.
@@ -117,12 +122,13 @@ jobs:
           BUCKET: ${{ steps.env.outputs.bucket }}
           ACTION: ${{ inputs.action }}
           KIND: ${{ inputs.kind }}
+          REPLACE: ${{ inputs.replace }}
         run: |
           set -euo pipefail
           dry=""; [ "$ACTION" = "upload" ] || dry="--dry-run"
           manifest=gaming/packages/audio/music.json; [ "$KIND" = "models" ] && manifest=gaming/art/manifest.json
           # shellcheck disable=SC2086
-          node workers/games/publish.mjs media --kind "$KIND" --bucket "$BUCKET" --endpoint "$ENDPOINT" --dir media-in --manifest "$manifest" $dry | tee media.log
+          node workers/games/publish.mjs media --kind "$KIND" --bucket "$BUCKET" --endpoint "$ENDPOINT" --dir media-in --manifest "$manifest" --replace "$REPLACE" $dry | tee media.log
           {
             echo "### Media ($KIND): $ACTION (${{ inputs.environment }})"
             echo
