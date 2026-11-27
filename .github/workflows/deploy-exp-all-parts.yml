@@ -12,9 +12,14 @@ on:
   workflow_dispatch:
     inputs:
       build_run_id:
-        description: "Run id of a \"Build islam.museum by language (experimental)\" run (build-exp.yml) of main. Give it, so every part comes from the same run."
+        description: "Run id of a \"Build islam.museum by language (experimental)\" run (build-exp.yml). Give it, so every part comes from the same run."
         required: true
         type: string
+      source_branch:
+        description: "Branch the build must come from. Default main; the experimental flag lets production deploys accept any branch."
+        required: false
+        type: string
+        default: main
 
 permissions:
   contents: read
@@ -35,6 +40,7 @@ jobs:
       environment: production
       experimental: true
       build_run_id: ${{ inputs.build_run_id }}
+      source_branch: ${{ inputs.source_branch }}
     secrets: inherit
   ar:
     needs: [shared]
@@ -47,6 +53,7 @@ jobs:
       experimental: true
       language: ar
       build_run_id: ${{ inputs.build_run_id }}
+      source_branch: ${{ inputs.source_branch }}
     secrets: inherit
   en:
     needs: [shared, ar]
@@ -59,6 +66,7 @@ jobs:
       experimental: true
       language: en
       build_run_id: ${{ inputs.build_run_id }}
+      source_branch: ${{ inputs.source_branch }}
     secrets: inherit
   ur:
     needs: [shared, en]
@@ -71,6 +79,7 @@ jobs:
       experimental: true
       language: ur
       build_run_id: ${{ inputs.build_run_id }}
+      source_branch: ${{ inputs.source_branch }}
     secrets: inherit
   fr:
     needs: [shared, ur]
@@ -83,6 +92,7 @@ jobs:
       experimental: true
       language: fr
       build_run_id: ${{ inputs.build_run_id }}
+      source_branch: ${{ inputs.source_branch }}
     secrets: inherit
   es:
     needs: [shared, fr]
@@ -95,6 +105,7 @@ jobs:
       experimental: true
       language: es
       build_run_id: ${{ inputs.build_run_id }}
+      source_branch: ${{ inputs.source_branch }}
     secrets: inherit
   tr:
     needs: [shared, es]
@@ -107,6 +118,7 @@ jobs:
       experimental: true
       language: tr
       build_run_id: ${{ inputs.build_run_id }}
+      source_branch: ${{ inputs.source_branch }}
     secrets: inherit
   id:
     needs: [shared, tr]
@@ -119,6 +131,7 @@ jobs:
       experimental: true
       language: id
       build_run_id: ${{ inputs.build_run_id }}
+      source_branch: ${{ inputs.source_branch }}
     secrets: inherit
   # Production only (this workflow is): pings IndexNow with the URLs changed in the deployed commit (scripts/indexnow.mjs),
   # so Bing and Yandex pick up new and updated pages without waiting for a crawl. It was a job of the one deploy
