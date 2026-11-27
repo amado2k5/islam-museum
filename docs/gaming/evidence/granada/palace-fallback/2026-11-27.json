@@ -1,0 +1,46 @@
+{
+ "measured": "2026-11-27T02:18:51.508Z",
+ "browser": "chrome 158.0.8127.38",
+ "seed": 7,
+ "pose": {
+  "tx": 30,
+  "ty": 6,
+  "tz": 70,
+  "yaw": 1.41,
+  "pitch": 0.17,
+  "distance": 980
+ },
+ "control": {
+  "models": [
+   "granada/town",
+   "granada/landmarks",
+   "granada/mill"
+  ],
+  "modelFailures": [],
+  "triangles": 3520245,
+  "drawCalls": 307,
+  "textures": 62,
+  "geometries": 143,
+  "fetchedPalace": 0,
+  "pageErrors": []
+ },
+ "withheld": {
+  "models": [
+   "granada/town",
+   "granada/landmarks",
+   "granada/mill"
+  ],
+  "modelFailures": [
+   "granada/palace: fetch for \"http://127.0.0.1:52136/media/models/granada/p1/palace.gltf\" responded with 404: Not Found"
+  ],
+  "triangles": 3520245,
+  "drawCalls": 307,
+  "textures": 62,
+  "geometries": 143,
+  "fetchedPalace": 1,
+  "pageErrors": []
+ },
+ "verdict": "pass",
+ "problems": [],
+ "note": "The control is the same game with art=a. Equal renderer triangle counts in this fixed view are evidence that the first set's palace is still standing; they are not a visual or performance review."
+}
