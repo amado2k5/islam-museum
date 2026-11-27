@@ -167,9 +167,15 @@ describe("the corridor", () => {
 describe("the journey's strings", () => {
   const tables = Object.fromEntries(LANGS.map((l) => [l, JSON.parse(readFileSync(resolve(src, "..", "i18n", `${l}.json`), "utf8")) as Record<string, string>]));
   const keys = Object.keys(tables.en!).filter((k) => k.startsWith("jn_"));
-  it("are fourteen, at the end of every table, in the same order", () => {
+  // They were the last fourteen of every table until al-Jazari's room (27 November 2026) appended its own after them;
+  // they are still one block, in the same order, in every table.
+  it("are fourteen, one block in every table, in the same order", () => {
     expect(keys).toHaveLength(14);
-    for (const l of LANGS) expect(Object.keys(tables[l]!).slice(-keys.length), l).toEqual(keys);
+    for (const l of LANGS) {
+      const all = Object.keys(tables[l]!);
+      const at = all.indexOf(keys[0]!);
+      expect(all.slice(at, at + keys.length), l).toEqual(keys);
+    }
   });
   it("carry no digit outside their placeholders, and say nothing about history", () => {
     for (const l of LANGS) {

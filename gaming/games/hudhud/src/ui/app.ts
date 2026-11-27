@@ -9,6 +9,8 @@ import { HAIRS, OUTFITS, SKINS, keeper as paintKeeper, portrait } from "../art/c
 import { CLOCK_QUEST, clockPuzzle } from "../content/clock";
 import { restoreClock } from "../sim/clock";
 import { clockQuest, type ClockQuest } from "./clock";
+import { restoreRoom, type RoomCommand } from "../sim/jazariroom";
+import { jazariRoom, type JazariRoom } from "./jazari";
 import { CIPHER_QUEST, cipherPuzzle } from "../content/cipher";
 import { restoreCipher } from "../sim/cipher";
 import { cipherQuest, type CipherQuest } from "./cipher";
@@ -192,6 +194,25 @@ async function main(): Promise<void> {
   // is open at a time: `pageRun` is the one that is (see PAGE_QUESTS).
   const bench = el("section", { class: "bench", hidden: true });
   let pageRun: { quest: string; run: { node: HTMLElement; busy(): boolean; stop(): void } } | null = null;
+  // A scene with a room of its own (al-Jazari's workshop, since 27 November 2026) is opened like a page quest and shown
+  // here, as wide as the flying scene's stage. Its page quest stays as the way it is played without WebGL.
+  const roomBox = el("section", { class: "room-box", hidden: true });
+  /** The open room, if a scene is being played in its room. */
+  const openRoom = (): JazariRoom | null => (pageRun && "press" in pageRun.run ? (pageRun.run as unknown as JazariRoom) : null);
+  // Rooms need WebGL; `room=off` in the address plays the scene on its page (for the checks of the page quest).
+  let webgl: boolean | null = null;
+  const roomsOn = (): boolean => {
+    if (query.get("room") === "off") return false;
+    if (webgl === null) {
+      try {
+        const probe = document.createElement("canvas");
+        webgl = !!(probe.getContext("webgl2") ?? probe.getContext("webgl"));
+      } catch {
+        webgl = false;
+      }
+    }
+    return webgl;
+  };
   /** The open quest, if it is `quest`. */
   const pageOf = <T,>(quest: string): T | null => (pageRun?.quest === quest ? (pageRun.run as unknown as T) : null);
   stage.setAttribute("role", "application");
@@ -227,7 +248,7 @@ async function main(): Promise<void> {
     blocked: () => sheetOpen(),
     leave: () => leaveOpening(true),
   });
-  const main = el("main", { id: "play", tabIndex: -1 }, prologue.node, hub, bench, stageWrap, doorPanel);
+  const main = el("main", { id: "play", tabIndex: -1 }, prologue.node, hub, bench, roomBox, stageWrap, doorPanel);
   app.append(bar, main, wordsBox, live, sheets);
 
   let toastTimer = 0;
@@ -306,7 +327,7 @@ async function main(): Promise<void> {
   const music = new MusicPlayer({ base: MUSIC_BASE, first: "the-first-light", forceOff: query.get("music") === "off" || !MUSIC_AVAILABLE });
   // The soundtrack is the museum's own suite, through the control every game shares.
   if (MUSIC_AVAILABLE) musicBox.append(musicControl(music, await loadMusicStrings(lang), `${MUSEUM}/${lang}/backstage/`));
-  const CAPTION: Partial<Record<Cue, Key>> = { mirror: "cap_mirror", restored: "cap_restored", purr: "cap_purr", dark: "cap_dark", light: "cap_light", secret: "cap_secret", call: "cap_call", feather: "cap_feather" };
+  const CAPTION: Partial<Record<Cue, Key>> = { mirror: "cap_mirror", restored: "cap_restored", purr: "cap_purr", dark: "cap_dark", light: "cap_light", secret: "cap_secret", call: "cap_call", feather: "cap_feather", gong: "jr_cap_gong" };
   const sound = (c: Cue) => {
     cues.play(c);
     const key = CAPTION[c];
@@ -417,6 +438,8 @@ async function main(): Promise<void> {
   function press(p: "touch" | "pause" | "next" | "back" | "up" | "down"): void {
     cues.unlock();
     if (p === "pause") return togglePause();
+    const room = openRoom();
+    if (room) return room.press(p);
     if (!started || paused || sheetOpen()) return;
     if (state.talk) {
       // Where a talk offers choices, a controller moves among them and picks one: going "forward" would wait for ever.
@@ -827,7 +850,7 @@ async function main(): Promise<void> {
   /** Draws the picture anew and keeps the quest as it stands: a change of effects or of the Storykeeper's look, or a
    * graphics context that came back. The bird returns to the door; nothing the player has done is undone. */
   function redraw(): void {
-    if (!started) return;
+    if (!started) return openRoom()?.redraw();
     running?.stop();
     canvasBox.replaceChildren();
     running = begin();
@@ -923,26 +946,49 @@ async function main(): Promise<void> {
     keep(mine);
   };
   /** Shows a quest's page in place of the Atlas. The note and the controls under the page are the flying scene's; each quest carries its own note, and nothing here can be paused. */
-  function showBench(node: HTMLElement): void {
+  function showBench(node: HTMLElement, box: HTMLElement = bench): void {
     hub.hidden = true;
     atlasBtn.hidden = false;
-    bench.replaceChildren(node);
-    bench.hidden = false;
+    box.replaceChildren(node);
+    box.hidden = false;
     wordsBox.hidden = true;
     pauseBtn.hidden = true;
     // The Atlas may have been scrolled down when the quest was opened: bring the quest's heading to the top, at once (never a smooth scroll), and keep focus on it.
-    const top = bench.querySelector("h2") as HTMLElement | null;
+    const top = box.querySelector("h2") as HTMLElement | null;
     top?.scrollIntoView({ behavior: "auto", block: "start" });
     top?.focus({ preventScroll: true });
   }
   /** The quests played on a page. Each has its own page and rules (ui/, sim/); what is shared is here: which subject it belongs to, what it has left in the middle, its line about being a trial, and how it is made. */
   type Common = Omit<Parameters<typeof algebraQuest>[0], "title" | "resume"> & { reducedMotion(): boolean };
-  const PAGE_QUESTS: Record<string, { subject: string; trial: Key; saved: () => unknown | null; make: (common: Common, title: string, kept: unknown) => { node: HTMLElement; busy(): boolean; stop(): void } }> = {
+  const PAGE_QUESTS: Record<string, { subject: string; trial: Key; saved: () => unknown | null; make: (common: Common, title: string, kept: unknown) => { node: HTMLElement; busy(): boolean; stop(): void }; room?: () => boolean; makeRoom?: (common: Common, title: string) => JazariRoom }> = {
     [CLOCK_QUEST]: {
       subject: "al-jazari",
       trial: "ck_trial",
+      // One kept place serves both: the room's snapshot is the clock's own with what Hudhud carries added.
       saved: () => pageSaved(CLOCK_QUEST, (snap) => restoreClock(snap, clockPuzzle)),
       make: (c, title, kept) => clockQuest({ ...c, title, resume: kept as Parameters<typeof clockQuest>[0]["resume"] }),
+      // Al-Jazari's workshop: the clock played by flying, in a room of its own.
+      room: roomsOn,
+      makeRoom: (c, title) =>
+        jazariRoom({
+          ...c,
+          title,
+          quality,
+          keeper: () => slot().keeper,
+          textSpeed: () => settings().textSpeed,
+          perf: query.get("perf") === "1",
+          intent: () => input.intent(),
+          bindHold: (b, what) => input.bindHold(b, what),
+          blocked: () => sheetOpen(),
+          sound,
+          toast,
+          // The goals are written into the save; the room's own door leads on (no corridor).
+          finish: (g) => pageFinish(CLOCK_QUEST, g),
+          through: () => moveOn(),
+          fallback: () => openPage(CLOCK_QUEST, inJourney, true),
+          resume: pageSaved(CLOCK_QUEST, restoreRoom),
+          keepPlace: (snap) => pageCheckpoint(CLOCK_QUEST, snap),
+        }),
     },
     [CIPHER_QUEST]: {
       subject: "al-kindi",
@@ -1013,7 +1059,7 @@ async function main(): Promise<void> {
   };
   /** Opens a quest played on a page, with no flying scene. One left in the middle comes back. `journeyAt` is its place in
    * the journey, or null for free play from the Atlas. */
-  function openPage(quest: string, journeyAt: number | null = null): void {
+  function openPage(quest: string, journeyAt: number | null = null, onPage = false): void {
     inJourney = journeyAt;
     // Never two scenes at once: a corridor or a page still running is stopped first.
     corridor?.stop();
@@ -1037,6 +1083,17 @@ async function main(): Promise<void> {
       finish: (g) => (pageFinish(quest, g), queueMicrotask(() => showCorridor(quest))),
       leave: () => toAtlas(),
     };
+    if (!onPage && page.room?.() && page.makeRoom) {
+      // Never two pictures at once: a room being replaced is stopped and its box emptied first.
+      roomBox.replaceChildren();
+      const room = page.makeRoom(common, subjectName(page.subject));
+      // If the room cannot start (WebGL fails after all), it opens the page quest in its place a moment later.
+      pageRun = { quest, run: room };
+      showBench(room.node, roomBox);
+      return;
+    }
+    roomBox.replaceChildren();
+    roomBox.hidden = true;
     pageRun = { quest, run: page.make(common, subjectName(page.subject), kept) };
     showBench(pageRun.run.node);
   }
@@ -1050,6 +1107,8 @@ async function main(): Promise<void> {
       pageRun = null;
       bench.replaceChildren();
       bench.hidden = true;
+      roomBox.replaceChildren();
+      roomBox.hidden = true;
       wordsBox.hidden = false;
       pauseBtn.hidden = false;
     } else {
@@ -1190,7 +1249,9 @@ async function main(): Promise<void> {
     if (inJourney !== null) strip.focus();
   }
   /** The door of whichever scene is open: lit or not, where it stands, and where the bird is. */
-  const doorNow = (): { lit: boolean; where: { x: number; y: number; reach: number } | null; bird: { x: number; y: number } | null; scene: "workshop" | "corridor" | "page" } | null => {
+  const doorNow = (): { lit: boolean; where: { x: number; y: number; reach: number } | null; bird: { x: number; y: number } | null; scene: "workshop" | "corridor" | "page" | "jazari" } | null => {
+    const room = openRoom();
+    if (room) return { ...room.door(), scene: "jazari" };
     if (started) {
       const w = running?.scene()?.where() ?? null;
       return { lit: state.done, where: { ...DOOR }, bird: w ? { x: w.x, y: w.y } : null, scene: "workshop" };
@@ -1282,7 +1343,8 @@ async function main(): Promise<void> {
             const kept = page.saved();
             const b = el("button", { type: "button", textContent: t(kept ? "quest_continue" : rec?.done ? "quest_again" : "quest_play", { name }), onclick: () => openPage(quest, null) });
             b.dataset.quest = quest;
-            const item = el("li", { class: "open" }, b, el("small", { textContent: t(page.trial) }));
+            // A scene played in its room is named as the flying scene is, with no line about a trial on a page.
+            const item = el("li", { class: "open" }, b, page.room?.() ? null : el("small", { textContent: t(page.trial) }));
             if (rec?.done) item.append(el("small", { textContent: t("quest_home", { n: num([rec.curiosity, rec.ingenuity, rec.kindness, rec.feather].filter(Boolean).length) }) }));
             if (kept) item.append(el("small", { textContent: t("resume_note") }), el("button", { type: "button", textContent: t("btn_restart_quest"), onclick: () => (pageCheckpoint(quest, null), drawHub()) }));
             return item;
@@ -1354,11 +1416,11 @@ async function main(): Promise<void> {
     state: () => state,
     goals: () => goals(state),
     beam: () => beam(state),
-    where: () => running?.scene()?.where() ?? null,
-    info: () => ({ ...(running?.scene()?.info() ?? {}), drawCalls: running?.drawCalls() ?? null, soundsStarted: cues.started, saved: mayStore }),
-    resetFrames: () => running?.scene()?.resetFrames(),
+    where: () => (running?.scene() ?? openRoom()?.running()?.scene())?.where() ?? null,
+    info: () => ({ ...((running?.scene() ?? openRoom()?.running()?.scene())?.info() ?? {}), drawCalls: (running ?? openRoom()?.running())?.drawCalls() ?? null, soundsStarted: cues.started, saved: mayStore }),
+    resetFrames: () => (running?.scene() ?? openRoom()?.running()?.scene())?.resetFrames(),
     touch: (id: string) => run({ type: "touch", id }),
-    goTo: (id: string) => running?.scene()?.goTo(id),
+    goTo: (id: string) => (running?.scene() ?? openRoom()?.running()?.scene())?.goTo(id),
     command: (c: Command) => run(c),
     restart: (rebuild: boolean) => restart(rebuild),
     redraw: () => redraw(),
@@ -1378,7 +1440,16 @@ async function main(): Promise<void> {
       return true;
     },
     atlasPicture: () => pictureData(),
-    startClock: () => openPage(CLOCK_QUEST),
+    // The clock's page quest (the way it is played without WebGL), and al-Jazari's workshop, its room.
+    startClock: () => openPage(CLOCK_QUEST, null, true),
+    startJazari: () => openPage(CLOCK_QUEST),
+    jazari: () => {
+      const r = openRoom();
+      if (!r) return null;
+      const v = r.view();
+      return { ...v.state.clock, carrying: v.state.carrying, talk: v.state.talk, busy: r.busy(), lit: v.lit, stopped: v.stopped, doorLit: v.done, litShown: r.running()?.scene()?.litShown() ?? null };
+    },
+    jazariCommand: (c: RoomCommand) => openRoom()?.command(c),
     clock: () => { const r = pageOf<ClockQuest>(CLOCK_QUEST); return r ? { ...r.state(), busy: r.busy() } : null; },
     clockCommand: (c: Parameters<ClockQuest["command"]>[0]) => pageOf<ClockQuest>(CLOCK_QUEST)?.command(c),
     startCipher: () => openPage(CIPHER_QUEST),
