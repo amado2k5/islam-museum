@@ -36,6 +36,11 @@ on:
         required: false
         type: string
         default: "main"
+      experimental:
+        description: "Accept runs of the experimental builder (build-exp.yml, 'Build islam.museum by language (experimental)') instead of build-lang.yml. Only the experimental deploy callers set this."
+        required: false
+        type: boolean
+        default: false
 
 jobs:
   deploy:
@@ -117,12 +122,18 @@ jobs:
           GH_REPO: ${{ github.repository }}
           REQUESTED: ${{ inputs.build_run_id }}
           SOURCE_BRANCH: ${{ inputs.source_branch }}
+          EXPERIMENTAL: ${{ inputs.experimental }}
         run: |
           set -euo pipefail
           # Production is main-only, whoever calls this workflow and whatever they pass.
           if [ "$ENVIRONMENT" = "production" ] && [ "$SOURCE_BRANCH" != "main" ]; then
             echo "::error::Production deploys build from main only; source_branch \"$SOURCE_BRANCH\" is refused."
             exit 1
+          fi
+          if [ "$EXPERIMENTAL" = "true" ]; then
+            wf_file=build-exp.yml; wf_name="Build islam.museum by language (experimental)"
+          else
+            wf_file=build-lang.yml; wf_name="Build islam.museum by language"
           fi
           # Why a run cannot be deployed, or nothing when it can: its unit tests passed, its shared job passed and the
           # shared artifact still exists.
@@ -145,7 +156,7 @@ jobs:
             [ -z "$reason" ] || { echo "::error::Run $REQUESTED cannot be deployed for the shared parts: $reason."; exit 1; }
           else
             run=""
-            for id in $(gh run list --workflow build-lang.yml --branch "$SOURCE_BRANCH" --status completed --limit 20 --json databaseId --jq '.[].databaseId'); do
+            for id in $(gh run list --workflow "$wf_file" --branch "$SOURCE_BRANCH" --status completed --limit 20 --json databaseId --jq '.[].databaseId'); do
               reason=$(why_not "$id")
               if [ -z "$reason" ]; then run=$(gh run view "$id" --json "$fields"); break; fi
               echo "run $id skipped: $reason"
@@ -159,7 +170,7 @@ jobs:
           title=$(jq -r .displayTitle <<<"$run")
           url=$(jq -r .url <<<"$run")
           workflow=$(jq -r .workflowName <<<"$run")
-          [ "$workflow" = "Build islam.museum by language" ] || { echo "::error::Run $id is \"$workflow\", not a by-language build run."; exit 1; }
+          [ "$workflow" = "$wf_name" ] || { echo "::error::Run $id is \"$workflow\", not a by-language build run."; exit 1; }
           [ "$branch" = "$SOURCE_BRANCH" ] || { echo "::error::Build run $id built $branch, not $SOURCE_BRANCH."; exit 1; }
           sitemap=false
           gh api "repos/$GH_REPO/actions/runs/$id/artifacts" --jq '.artifacts[] | select(.expired == false) | .name' | grep -qxF dist-sitemap && sitemap=true
