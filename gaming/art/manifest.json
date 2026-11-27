@@ -1291,6 +1291,651 @@
      "sha256": "f9cdb4ca17b3eb3872e439b735dabd25adad4d5eb63157262d551668f901b5c9"
     }
    ]
+  },
+  {
+   "id": "granada/animals/sheep",
+   "game": "granada",
+   "title": "A sheep, body and four legs at their joints",
+   "madeBy": "the shapes: this repository's own scripts, run in Blender. The surfaces: photographs given to the public domain by Poly Haven, named in art/sources.json, where this machine had them; painted by the scripts where it did not",
+   "licence": "the scripts: MIT, with the code; what they make: CC BY-SA 4.0, with the museum's media of its own; the photographed surfaces stay public domain (CC0)",
+   "surfaces": [],
+   "sources": [
+    {
+     "path": "art/blender/common.py",
+     "sha256": "0b9a4ce8ee3efeefb246c78301170bf03256d20d63d575f93ae57bda473a9915"
+    },
+    {
+     "path": "art/blender/kit.py",
+     "sha256": "2f6e06dd53a3dc19d3bae51a394ac41daab84200065391fbbffa096e76f31496"
+    },
+    {
+     "path": "art/blender/granada_animals.py",
+     "sha256": "8b9eca849e121c118b24f276606117d2fb20293c4c0dda524898668fc941c267"
+    }
+   ],
+   "objects": [
+    "sheep_body",
+    "sheep_leg_fl",
+    "sheep_leg_fr",
+    "sheep_leg_rl",
+    "sheep_leg_rr"
+   ],
+   "placed": {
+    "sheep_body": [
+     0,
+     0.58,
+     0
+    ],
+    "sheep_leg_fl": [
+     -0.16,
+     0.36,
+     0.32
+    ],
+    "sheep_leg_fr": [
+     0.16,
+     0.36,
+     0.32
+    ],
+    "sheep_leg_rl": [
+     -0.16,
+     0.36,
+     -0.32
+    ],
+    "sheep_leg_rr": [
+     0.16,
+     0.36,
+     -0.32
+    ]
+   },
+   "materials": [
+    "wool",
+    "muzzle",
+    "mane",
+    "hide",
+    "hoof"
+   ],
+   "triangles": 1452,
+   "bytes": 114377,
+   "files": [
+    {
+     "path": "granada/animals/sheep.gltf",
+     "bytes": 12689,
+     "sha256": "5f4cf276433d9c32ea3f0176e095611df7b9f07b7009d679c4c67987967447b9"
+    },
+    {
+     "path": "granada/animals/sheep.bin",
+     "bytes": 101688,
+     "sha256": "c4615ba02516a228a6f10f9bd5feb88b3fe1e03fb7a3bea4bd5bfedcbd2f97e8"
+    }
+   ]
+  },
+  {
+   "id": "granada/animals/goat",
+   "game": "granada",
+   "title": "A goat, body and four legs at their joints",
+   "madeBy": "the shapes: this repository's own scripts, run in Blender. The surfaces: photographs given to the public domain by Poly Haven, named in art/sources.json, where this machine had them; painted by the scripts where it did not",
+   "licence": "the scripts: MIT, with the code; what they make: CC BY-SA 4.0, with the museum's media of its own; the photographed surfaces stay public domain (CC0)",
+   "surfaces": [],
+   "sources": [
+    {
+     "path": "art/blender/common.py",
+     "sha256": "0b9a4ce8ee3efeefb246c78301170bf03256d20d63d575f93ae57bda473a9915"
+    },
+    {
+     "path": "art/blender/kit.py",
+     "sha256": "2f6e06dd53a3dc19d3bae51a394ac41daab84200065391fbbffa096e76f31496"
+    },
+    {
+     "path": "art/blender/granada_animals.py",
+     "sha256": "8b9eca849e121c118b24f276606117d2fb20293c4c0dda524898668fc941c267"
+    }
+   ],
+   "objects": [
+    "goat_body",
+    "goat_leg_fl",
+    "goat_leg_fr",
+    "goat_leg_rl",
+    "goat_leg_rr"
+   ],
+   "placed": {
+    "goat_body": [
+     0,
+     0.6,
+     0
+    ],
+    "goat_leg_fl": [
+     -0.16,
+     0.36,
+     0.32
+    ],
+    "goat_leg_fr": [
+     0.16,
+     0.36,
+     0.32
+    ],
+    "goat_leg_rl": [
+     -0.16,
+     0.36,
+     -0.32
+    ],
+    "goat_leg_rr": [
+     0.16,
+     0.36,
+     -0.32
+    ]
+   },
+   "materials": [
+    "darkwool",
+    "muzzle",
+    "horn",
+    "mane",
+    "hide",
+    "hoof"
+   ],
+   "triangles": 1476,
+   "bytes": 117567,
+   "files": [
+    {
+     "path": "granada/animals/goat.gltf",
+     "bytes": 13943,
+     "sha256": "ceb169c6d3d1e890de13ed507cc39f04350d1c218a8fe3dd2114d341ae15d658"
+    },
+    {
+     "path": "granada/animals/goat.bin",
+     "bytes": 103624,
+     "sha256": "cb227425e32e50d814b81623e45d9a7fb96fb0acf1f2f03896cbfbee2c4e3878"
+    }
+   ]
+  },
+  {
+   "id": "granada/animals/horse",
+   "game": "granada",
+   "title": "A horse with a saddle cloth, body and four legs at their joints",
+   "madeBy": "the shapes: this repository's own scripts, run in Blender. The surfaces: photographs given to the public domain by Poly Haven, named in art/sources.json, where this machine had them; painted by the scripts where it did not",
+   "licence": "the scripts: MIT, with the code; what they make: CC BY-SA 4.0, with the museum's media of its own; the photographed surfaces stay public domain (CC0)",
+   "surfaces": [],
+   "sources": [
+    {
+     "path": "art/blender/common.py",
+     "sha256": "0b9a4ce8ee3efeefb246c78301170bf03256d20d63d575f93ae57bda473a9915"
+    },
+    {
+     "path": "art/blender/kit.py",
+     "sha256": "2f6e06dd53a3dc19d3bae51a394ac41daab84200065391fbbffa096e76f31496"
+    },
+    {
+     "path": "art/blender/granada_animals.py",
+     "sha256": "8b9eca849e121c118b24f276606117d2fb20293c4c0dda524898668fc941c267"
+    }
+   ],
+   "objects": [
+    "horse_body",
+    "horse_leg_fl",
+    "horse_leg_fr",
+    "horse_leg_rl",
+    "horse_leg_rr"
+   ],
+   "placed": {
+    "horse_body": [
+     0,
+     1.12,
+     0
+    ],
+    "horse_leg_fl": [
+     -0.2,
+     0.94,
+     0.68
+    ],
+    "horse_leg_fr": [
+     0.2,
+     0.94,
+     0.68
+    ],
+    "horse_leg_rl": [
+     -0.2,
+     0.94,
+     -0.68
+    ],
+    "horse_leg_rr": [
+     0.2,
+     0.94,
+     -0.68
+    ]
+   },
+   "materials": [
+    "hide",
+    "muzzle",
+    "mane",
+    "cloth",
+    "hoof"
+   ],
+   "triangles": 1668,
+   "bytes": 130532,
+   "files": [
+    {
+     "path": "granada/animals/horse.gltf",
+     "bytes": 13724,
+     "sha256": "ba944f30f3022dae607ed1c5c7f4ec0c55fed597da203e018edefa7910264557"
+    },
+    {
+     "path": "granada/animals/horse.bin",
+     "bytes": 116808,
+     "sha256": "6f8d69cc9f8024bef4848f1461d4a435115ff42f7c9bccd94af9b2fd9f369396"
+    }
+   ]
+  },
+  {
+   "id": "granada/animals/ox",
+   "game": "granada",
+   "title": "An ox in its cart's frame, body and four legs at their joints",
+   "madeBy": "the shapes: this repository's own scripts, run in Blender. The surfaces: photographs given to the public domain by Poly Haven, named in art/sources.json, where this machine had them; painted by the scripts where it did not",
+   "licence": "the scripts: MIT, with the code; what they make: CC BY-SA 4.0, with the museum's media of its own; the photographed surfaces stay public domain (CC0)",
+   "surfaces": [],
+   "sources": [
+    {
+     "path": "art/blender/common.py",
+     "sha256": "0b9a4ce8ee3efeefb246c78301170bf03256d20d63d575f93ae57bda473a9915"
+    },
+    {
+     "path": "art/blender/kit.py",
+     "sha256": "2f6e06dd53a3dc19d3bae51a394ac41daab84200065391fbbffa096e76f31496"
+    },
+    {
+     "path": "art/blender/granada_animals.py",
+     "sha256": "8b9eca849e121c118b24f276606117d2fb20293c4c0dda524898668fc941c267"
+    }
+   ],
+   "objects": [
+    "ox_body",
+    "ox_leg_fl",
+    "ox_leg_fr",
+    "ox_leg_rl",
+    "ox_leg_rr"
+   ],
+   "placed": {
+    "ox_body": [
+     0,
+     0.98,
+     1.48
+    ],
+    "ox_leg_fl": [
+     -0.27,
+     0.74,
+     2.2
+    ],
+    "ox_leg_fr": [
+     0.27,
+     0.74,
+     2.2
+    ],
+    "ox_leg_rl": [
+     -0.27,
+     0.74,
+     0.75
+    ],
+    "ox_leg_rr": [
+     0.27,
+     0.74,
+     0.75
+    ]
+   },
+   "materials": [
+    "hide",
+    "muzzle",
+    "horn",
+    "mane",
+    "hoof"
+   ],
+   "triangles": 1476,
+   "bytes": 117288,
+   "files": [
+    {
+     "path": "granada/animals/ox.gltf",
+     "bytes": 13664,
+     "sha256": "f646fbff5d8443162068ac2d044b67e2160e599dbc72795e7db06a6d114c2cdc"
+    },
+    {
+     "path": "granada/animals/ox.bin",
+     "bytes": 103624,
+     "sha256": "5e2f5846902a5183f851a87588ce53b0a1d03164b0859895c785bbfa2a00355b"
+    }
+   ]
+  },
+  {
+   "id": "granada/animals/donkey",
+   "game": "granada",
+   "title": "A donkey, body and four legs at their joints",
+   "madeBy": "the shapes: this repository's own scripts, run in Blender. The surfaces: photographs given to the public domain by Poly Haven, named in art/sources.json, where this machine had them; painted by the scripts where it did not",
+   "licence": "the scripts: MIT, with the code; what they make: CC BY-SA 4.0, with the museum's media of its own; the photographed surfaces stay public domain (CC0)",
+   "surfaces": [],
+   "sources": [
+    {
+     "path": "art/blender/common.py",
+     "sha256": "0b9a4ce8ee3efeefb246c78301170bf03256d20d63d575f93ae57bda473a9915"
+    },
+    {
+     "path": "art/blender/kit.py",
+     "sha256": "2f6e06dd53a3dc19d3bae51a394ac41daab84200065391fbbffa096e76f31496"
+    },
+    {
+     "path": "art/blender/granada_animals.py",
+     "sha256": "8b9eca849e121c118b24f276606117d2fb20293c4c0dda524898668fc941c267"
+    }
+   ],
+   "objects": [
+    "donkey_body",
+    "donkey_leg_fl",
+    "donkey_leg_fr",
+    "donkey_leg_rl",
+    "donkey_leg_rr"
+   ],
+   "placed": {
+    "donkey_body": [
+     0,
+     1,
+     0
+    ],
+    "donkey_leg_fl": [
+     -0.2,
+     0.94,
+     0.68
+    ],
+    "donkey_leg_fr": [
+     0.2,
+     0.94,
+     0.68
+    ],
+    "donkey_leg_rl": [
+     -0.2,
+     0.94,
+     -0.68
+    ],
+    "donkey_leg_rr": [
+     0.2,
+     0.94,
+     -0.68
+    ]
+   },
+   "materials": [
+    "hide",
+    "muzzle",
+    "mane",
+    "hoof"
+   ],
+   "triangles": 1560,
+   "bytes": 121693,
+   "files": [
+    {
+     "path": "granada/animals/donkey.gltf",
+     "bytes": 12445,
+     "sha256": "a2dc74aae17074957095d7b2e22f0600e972165766cfab87ae47a4fc2f1cb1a8"
+    },
+    {
+     "path": "granada/animals/donkey.bin",
+     "bytes": 109248,
+     "sha256": "6446db8d3473392fad9efd1155d44e2afc9b9d01b2b3e2d91c0e6af124b6b421"
+    }
+   ]
+  },
+  {
+   "id": "golden-age/market",
+   "game": "golden-age",
+   "title": "A row of shops behind an arcade, awnings out",
+   "madeBy": "the shapes: this repository's own scripts, run in Blender. The surfaces: photographs given to the public domain by Poly Haven, named in art/sources.json, where this machine had them; painted by the scripts where it did not",
+   "licence": "the scripts: MIT, with the code; what they make: CC BY-SA 4.0, with the museum's media of its own; the photographed surfaces stay public domain (CC0)",
+   "surfaces": [],
+   "sources": [
+    {
+     "path": "art/blender/common.py",
+     "sha256": "0b9a4ce8ee3efeefb246c78301170bf03256d20d63d575f93ae57bda473a9915"
+    },
+    {
+     "path": "art/blender/kit.py",
+     "sha256": "2f6e06dd53a3dc19d3bae51a394ac41daab84200065391fbbffa096e76f31496"
+    },
+    {
+     "path": "art/blender/golden_age_buildings.py",
+     "sha256": "e6ee02b407774ced0602b1425bf3857111cce5674bf6903caf7ac939cc97a31a"
+    }
+   ],
+   "objects": [
+    "market"
+   ],
+   "placed": {
+    "market": [
+     0,
+     2.15,
+     0
+    ]
+   },
+   "materials": [
+    "plaster",
+    "roof",
+    "darkwood",
+    "wood",
+    "fabric"
+   ],
+   "triangles": 1292,
+   "bytes": 95922,
+   "files": [
+    {
+     "path": "golden-age/market.gltf",
+     "bytes": 6762,
+     "sha256": "7585664b3ef0a152388484643db4109aaf9b30a65f2eb47481eafc84fc58bdea"
+    },
+    {
+     "path": "golden-age/market.bin",
+     "bytes": 89160,
+     "sha256": "42af305106471ac432674df5512af15fef85fc893f87cefbc43c9051e350c45d"
+    }
+   ]
+  },
+  {
+   "id": "golden-age/bath",
+   "game": "golden-age",
+   "title": "The hot room of a bath: a square hall under one broad dome with four small ones",
+   "madeBy": "the shapes: this repository's own scripts, run in Blender. The surfaces: photographs given to the public domain by Poly Haven, named in art/sources.json, where this machine had them; painted by the scripts where it did not",
+   "licence": "the scripts: MIT, with the code; what they make: CC BY-SA 4.0, with the museum's media of its own; the photographed surfaces stay public domain (CC0)",
+   "surfaces": [],
+   "sources": [
+    {
+     "path": "art/blender/common.py",
+     "sha256": "0b9a4ce8ee3efeefb246c78301170bf03256d20d63d575f93ae57bda473a9915"
+    },
+    {
+     "path": "art/blender/kit.py",
+     "sha256": "2f6e06dd53a3dc19d3bae51a394ac41daab84200065391fbbffa096e76f31496"
+    },
+    {
+     "path": "art/blender/golden_age_buildings.py",
+     "sha256": "e6ee02b407774ced0602b1425bf3857111cce5674bf6903caf7ac939cc97a31a"
+    }
+   ],
+   "objects": [
+    "bath"
+   ],
+   "placed": {
+    "bath": [
+     0,
+     2.2,
+     0
+    ]
+   },
+   "materials": [
+    "plaster",
+    "startile",
+    "darkwood"
+   ],
+   "triangles": 1422,
+   "bytes": 100822,
+   "files": [
+    {
+     "path": "golden-age/bath.gltf",
+     "bytes": 4162,
+     "sha256": "69c33cc71398ea282d42a0d6ec8827c5fc2b91a0ff1b99c1b53f6b738937cc35"
+    },
+    {
+     "path": "golden-age/bath.bin",
+     "bytes": 96660,
+     "sha256": "cb012237105335d677e45621c6b72fea4c77758c2974f136eefad7755b40501e"
+    }
+   ]
+  },
+  {
+   "id": "golden-age/library",
+   "game": "golden-age",
+   "title": "A library's great hall: a tiled portal and a turquoise dome",
+   "madeBy": "the shapes: this repository's own scripts, run in Blender. The surfaces: photographs given to the public domain by Poly Haven, named in art/sources.json, where this machine had them; painted by the scripts where it did not",
+   "licence": "the scripts: MIT, with the code; what they make: CC BY-SA 4.0, with the museum's media of its own; the photographed surfaces stay public domain (CC0)",
+   "surfaces": [],
+   "sources": [
+    {
+     "path": "art/blender/common.py",
+     "sha256": "0b9a4ce8ee3efeefb246c78301170bf03256d20d63d575f93ae57bda473a9915"
+    },
+    {
+     "path": "art/blender/kit.py",
+     "sha256": "2f6e06dd53a3dc19d3bae51a394ac41daab84200065391fbbffa096e76f31496"
+    },
+    {
+     "path": "art/blender/golden_age_buildings.py",
+     "sha256": "e6ee02b407774ced0602b1425bf3857111cce5674bf6903caf7ac939cc97a31a"
+    }
+   ],
+   "objects": [
+    "library"
+   ],
+   "placed": {
+    "library": [
+     0,
+     3.8,
+     0
+    ]
+   },
+   "materials": [
+    "plaster",
+    "startile",
+    "glaze",
+    "gold",
+    "darkwood",
+    "lattice"
+   ],
+   "triangles": 1300,
+   "bytes": 97411,
+   "files": [
+    {
+     "path": "golden-age/library.gltf",
+     "bytes": 7947,
+     "sha256": "aa941ca8172cf66bf983eaf39e941579b2bf90020aabc1a9face051f0cddb70e"
+    },
+    {
+     "path": "golden-age/library.bin",
+     "bytes": 89464,
+     "sha256": "69f7b5c8d42953fc8d5d51e14c41a3a5402524f0dd443aa6c69b14e596e75477"
+    }
+   ]
+  },
+  {
+   "id": "golden-age/school",
+   "game": "golden-age",
+   "title": "A school's teaching hall: an arcade of five bays and a plaster dome",
+   "madeBy": "the shapes: this repository's own scripts, run in Blender. The surfaces: photographs given to the public domain by Poly Haven, named in art/sources.json, where this machine had them; painted by the scripts where it did not",
+   "licence": "the scripts: MIT, with the code; what they make: CC BY-SA 4.0, with the museum's media of its own; the photographed surfaces stay public domain (CC0)",
+   "surfaces": [],
+   "sources": [
+    {
+     "path": "art/blender/common.py",
+     "sha256": "0b9a4ce8ee3efeefb246c78301170bf03256d20d63d575f93ae57bda473a9915"
+    },
+    {
+     "path": "art/blender/kit.py",
+     "sha256": "2f6e06dd53a3dc19d3bae51a394ac41daab84200065391fbbffa096e76f31496"
+    },
+    {
+     "path": "art/blender/golden_age_buildings.py",
+     "sha256": "e6ee02b407774ced0602b1425bf3857111cce5674bf6903caf7ac939cc97a31a"
+    }
+   ],
+   "objects": [
+    "school"
+   ],
+   "placed": {
+    "school": [
+     0,
+     2.6,
+     -0.8
+    ]
+   },
+   "materials": [
+    "plaster",
+    "plaster_dark",
+    "gold"
+   ],
+   "triangles": 1216,
+   "bytes": 89024,
+   "files": [
+    {
+     "path": "golden-age/school.gltf",
+     "bytes": 4288,
+     "sha256": "3581ac2e15a33e7fe9e5f76b345102740ceced1e9dd0ef1d0499599d8b1a3bcd"
+    },
+    {
+     "path": "golden-age/school.bin",
+     "bytes": 84736,
+     "sha256": "2a83cff46b0b54f0bb8d25a0d4c0970e57dc458db772ca07b8546c9dd15f8940"
+    }
+   ]
+  },
+  {
+   "id": "golden-age/hospital",
+   "game": "golden-age",
+   "title": "A hospital's main ward: two storeys behind an arcade",
+   "madeBy": "the shapes: this repository's own scripts, run in Blender. The surfaces: photographs given to the public domain by Poly Haven, named in art/sources.json, where this machine had them; painted by the scripts where it did not",
+   "licence": "the scripts: MIT, with the code; what they make: CC BY-SA 4.0, with the museum's media of its own; the photographed surfaces stay public domain (CC0)",
+   "surfaces": [],
+   "sources": [
+    {
+     "path": "art/blender/common.py",
+     "sha256": "0b9a4ce8ee3efeefb246c78301170bf03256d20d63d575f93ae57bda473a9915"
+    },
+    {
+     "path": "art/blender/kit.py",
+     "sha256": "2f6e06dd53a3dc19d3bae51a394ac41daab84200065391fbbffa096e76f31496"
+    },
+    {
+     "path": "art/blender/golden_age_buildings.py",
+     "sha256": "e6ee02b407774ced0602b1425bf3857111cce5674bf6903caf7ac939cc97a31a"
+    }
+   ],
+   "objects": [
+    "hospital"
+   ],
+   "placed": {
+    "hospital": [
+     0,
+     3.4,
+     0
+    ]
+   },
+   "materials": [
+    "plaster",
+    "plaster_dark",
+    "lattice"
+   ],
+   "triangles": 1378,
+   "bytes": 100565,
+   "files": [
+    {
+     "path": "golden-age/hospital.gltf",
+     "bytes": 4297,
+     "sha256": "691fde132ffdd7dde9b6d6bf1b23a1496ea09afde04d99a144597ca84daa0640"
+    },
+    {
+     "path": "golden-age/hospital.bin",
+     "bytes": 96268,
+     "sha256": "2858513cd47ae8c6b30b4d18f97b6c5b825903c212cc5afb7dd94f1b2f72469e"
+    }
+   ]
   }
  ]
 }

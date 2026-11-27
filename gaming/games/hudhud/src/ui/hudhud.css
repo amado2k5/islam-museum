@@ -150,10 +150,10 @@ main:focus { outline: none; }
 .bench canvas.algebra-art { aspect-ratio: 1000 / 420; }
 .bench .equation { margin: 4px 0 8px; font-size: 1.25rem; font-weight: 700; color: var(--gold); }
 .bench .moves button { text-align: start; }
-.bench .tables { display: grid; gap: 14px; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); margin-block: 10px; }
-.bench table.counts { width: 100%; border-collapse: collapse; background: var(--panel); border: 1px solid var(--line); }
-.bench table.counts caption { font-weight: 700; text-align: start; padding: 8px 4px; }
-.bench table.counts th, .bench table.counts td { padding: 6px 10px; text-align: start; border-top: 1px solid var(--line); }
+.bench .tables, .room-box .tables { display: grid; gap: 14px; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); margin-block: 10px; }
+.bench table.counts, .room-box table.counts { width: 100%; border-collapse: collapse; background: var(--panel); border: 1px solid var(--line); }
+.bench table.counts caption, .room-box table.counts caption { font-weight: 700; text-align: start; padding: 8px 4px; }
+.bench table.counts th, .bench table.counts td, .room-box table.counts th, .room-box table.counts td { padding: 6px 10px; text-align: start; border-top: 1px solid var(--line); }
 .bench .glyph-name { display: inline-flex; align-items: center; gap: 10px; }
 .bench .glyph-name canvas { display: inline-block; width: auto; aspect-ratio: auto; border-width: 1px; border-radius: 8px; margin: 0; flex: none; }
 /* The fifth quest's page: the sheets of a map, played by a button for every place or by touching two sheets in the picture. */
@@ -187,18 +187,18 @@ main:focus { outline: none; }
 .bench .couple-group label:has(input:disabled:checked) span { text-decoration: underline; text-underline-offset: 4px; }
 .bench .couple-group label:has(input:disabled:not(:checked)) span { color: var(--muted); }
 .bench ol.tray-key { list-style: none; margin-block: 4px 10px; padding: 0; }
-.bench .sheet-rows { display: grid; gap: 8px; margin-block: 10px; }
-.bench .sheet-row { list-style: none; display: flex; flex-wrap: wrap; gap: 8px; margin: 0; padding: 0; }
-.bench .sheet-row button { min-width: 44px; min-height: 44px; text-align: start; }
-.bench .sheet-row button[aria-pressed="true"] { border-color: var(--gold); background: #18407a; box-shadow: 0 0 0 3px var(--gold); }
+.bench .sheet-rows, .room-box .sheet-rows { display: grid; gap: 8px; margin-block: 10px; }
+.bench .sheet-row, .room-box .sheet-row { list-style: none; display: flex; flex-wrap: wrap; gap: 8px; margin: 0; padding: 0; }
+.bench .sheet-row button, .room-box .sheet-row button { min-width: 44px; min-height: 44px; text-align: start; }
+.bench .sheet-row button[aria-pressed="true"], .room-box .sheet-row button[aria-pressed="true"] { border-color: var(--gold); background: #18407a; box-shadow: 0 0 0 3px var(--gold); }
 /* The eleventh quest's page: the channels of the dry fountain, played by a button for every piece or by touching a piece in the picture. */
 .bench canvas.channels-art { aspect-ratio: 1000 / 520; cursor: pointer; }
 .bench .channel-rows { display: grid; gap: 8px; margin-block: 10px; }
 .bench .channel-row { list-style: none; display: flex; flex-wrap: wrap; gap: 8px; margin: 0; padding: 0; }
 .bench .channel-row li { flex: 1 1 170px; }
 .bench .channel-row button { width: 100%; min-height: 44px; text-align: start; }
-.bench details.edges { margin-block: 10px; }
-.bench details.edges summary { min-height: 44px; display: flex; align-items: center; cursor: pointer; font-weight: 700; }
+.bench details.edges, .room-box details.edges { margin-block: 10px; }
+.bench details.edges summary, .room-box details.edges summary { min-height: 44px; display: flex; align-items: center; cursor: pointer; font-weight: 700; }
 /* The thirteenth quest's page: the copies, played by a table of buttons (one for every sign of every copy, in the picture's rows and columns) or by pressing a sign in the picture. The table scrolls sideways inside its own region when it is wider than the page; a marked sign is a dashed ring of gold as well as a colour. */
 .bench canvas.collate-art { aspect-ratio: 1000 / 520; cursor: pointer; }
 .bench .collate-table { overflow-x: auto; margin-block: 10px; border: 1px solid var(--line); border-radius: 12px; background: var(--panel); }

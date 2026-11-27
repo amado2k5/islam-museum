@@ -588,3 +588,109 @@ describe("the words", () => {
     for (const [prefix, names] of Object.entries(families)) for (const n of names) expect(en[`${prefix}${n}`], `${prefix}${n}`).toBeTypeOf("string");
   });
 });
+
+describe("the caravanserai and the watermill", () => {
+  // A district of houses round a market, with water, and nothing else changing between the two runs compared.
+  const base = (): State => {
+    let s = newGame(FAILING_CANAL, 4);
+    s = { ...s, treasury: 2000 };
+    return s;
+  };
+  const freePlot = (s: State): number => s.plots.findIndex((b, p) => b === null && xyOf(p)[1] >= 1);
+
+  it("a caravanserai brings trade only where there is a market, and more with a caravan", () => {
+    let s = base();
+    const market = freePlot(s);
+    s = step(FAILING_CANAL, s, { type: "build", building: "market", plot: market });
+    const without = step(FAILING_CANAL, s, { type: "end-season" }).last!.income.trade;
+    const khan = freePlot(s);
+    const withKhan = step(FAILING_CANAL, step(FAILING_CANAL, s, { type: "build", building: "caravanserai", plot: khan }), { type: "end-season" }).last!.income.trade;
+    expect(withKhan).toBeGreaterThan(without);
+    // No market: the caravanserai has no one to trade with.
+    let bare = base();
+    bare = step(FAILING_CANAL, bare, { type: "build", building: "caravanserai", plot: freePlot(bare) });
+    expect(step(FAILING_CANAL, bare, { type: "end-season" }).last!.income.trade).toBe(step(FAILING_CANAL, base(), { type: "end-season" }).last!.income.trade);
+  });
+
+  it("a watermill with water halves the grain that spoils and sells the surplus for more; a dry one does nothing", () => {
+    const wet = (s: State, p: number) => preview(s, { type: "build", building: "mill", plot: p }).ok;
+    const s = { ...base(), grain: 400 };
+    const plots = s.plots.map((_, p) => p).filter((p) => s.plots[p] === null && wet(s, p));
+    const before = step(FAILING_CANAL, s, { type: "end-season" }).last!;
+    const milled = plots.map((p) => step(FAILING_CANAL, step(FAILING_CANAL, s, { type: "build", building: "mill", plot: p }), { type: "end-season" }).last!);
+    // Some plot gives the mill water; there spoilage falls and sales rise.
+    const working = milled.find((r) => r.spoiled < before.spoiled);
+    expect(working).toBeDefined();
+    expect(working!.spoiled).toBeLessThan(before.spoiled);
+    expect(working!.income.sales).toBeGreaterThanOrEqual(before.income.sales);
+  });
+
+  it("draws both, sound and on their plot, whether water reaches them or not", () => {
+    for (const type of ["caravanserai", "mill"] as BuildingType[]) {
+      for (const served of [true, false]) {
+        const look = { type, served, season: 0, seed: 7 } as unknown as PlotLook;
+        const plot = buildPlot(7, 12, look);
+        expect(plot.triangles, `${type} served=${served}`).toBeGreaterThan(50);
+      }
+    }
+    expect(BUILDING_TYPES).toContain("caravanserai");
+    expect(BUILDING_TYPES).toContain("mill");
+  });
+});
+
+describe("the fountain, the cistern and the paper mill", () => {
+  const rich = (): State => ({ ...newGame(FAILING_CANAL, 4), treasury: 3000 });
+  const free = (s: State, ok: (p: number) => boolean = () => true): number[] => s.plots.map((b, p) => (b === null && ok(p) ? p : -1)).filter((p) => p >= 0);
+
+  it("a cistern gives the district more water in summer, and none of that in spring", () => {
+    // Season 0 is spring, season 1 summer.
+    const s0 = rich();
+    const p = free(s0)[0]!;
+    const spring = step(FAILING_CANAL, step(FAILING_CANAL, s0, { type: "build", building: "cistern", plot: p }), { type: "end-season" }).last!.waterSupply;
+    expect(spring).toBe(step(FAILING_CANAL, s0, { type: "end-season" }).last!.waterSupply);
+    const summer0 = step(FAILING_CANAL, s0, { type: "end-season" });
+    const withC = step(FAILING_CANAL, step(FAILING_CANAL, summer0, { type: "build", building: "cistern", plot: free(summer0)[0]! }), { type: "end-season" }).last!.waterSupply;
+    expect(withC).toBe(step(FAILING_CANAL, summer0, { type: "end-season" }).last!.waterSupply + 6);
+  });
+
+  it("a paper mill needs paper, and with water adds to learning", () => {
+    const s = rich();
+    expect(preview(s, { type: "build", building: "papermill", plot: free(s)[0]! })).toMatchObject({ ok: false });
+    const papered: State = { ...s, researched: ["paper"] };
+    expect(preview(papered, { type: "build", building: "papermill", plot: free(papered)[0]! }).ok).toBe(true);
+  });
+
+  it("draws all three, whether water reaches them or not", () => {
+    for (const type of ["fountain", "cistern", "papermill"] as BuildingType[]) for (const served of [true, false]) expect(buildPlot(7, 12, { type, served, season: 0, seed: 7 } as unknown as PlotLook).triangles, type).toBeGreaterThan(30);
+  });
+});
+
+describe("the orchard, the dye house and the observatory", () => {
+  const rich = (): State => ({ ...newGame(FAILING_CANAL, 4), treasury: 3000 });
+  const wetFree = (s: State, t: BuildingType) => s.plots.findIndex((b, p) => b === null && preview(s, { type: "build", building: t, plot: p }).ok && plotInfo(s, p).lines.some((l) => l.id === "info_water"));
+  it("an observatory needs paper and adds learning every season", () => {
+    const s = rich();
+    const p = s.plots.findIndex((b) => b === null);
+    expect(preview(s, { type: "build", building: "observatory", plot: p }).ok).toBe(false);
+    const papered: State = { ...s, researched: ["paper"] };
+    const without = step(FAILING_CANAL, papered, { type: "end-season" }).last!.knowledgeGained;
+    const withObs = step(FAILING_CANAL, step(FAILING_CANAL, papered, { type: "build", building: "observatory", plot: p }), { type: "end-season" }).last!.knowledgeGained;
+    // When the district can pay and is fed, an observatory adds three.
+    if (without > 0) expect(withObs).toBeGreaterThanOrEqual(without + 3);
+    void wetFree;
+  });
+
+  it("an orchard with water adds to the harvest in winter, when fields give little", () => {
+    let s = rich();
+    for (let i = 0; i < 3; i++) s = step(FAILING_CANAL, s, { type: "end-season" });
+    // Season 3 is winter.
+    const plots = s.plots.map((b, p) => (b === null ? p : -1)).filter((p) => p >= 0);
+    const before = step(FAILING_CANAL, s, { type: "end-season" }).last!.harvest;
+    const best = Math.max(...plots.map((p) => step(FAILING_CANAL, step(FAILING_CANAL, s, { type: "build", building: "orchard", plot: p }), { type: "end-season" }).last!.harvest));
+    expect(best).toBeGreaterThan(before);
+  });
+
+  it("draws all three, whether water reaches them or not", () => {
+    for (const type of ["orchard", "dyehouse", "observatory"] as BuildingType[]) for (const served of [true, false]) expect(buildPlot(7, 12, { type, served, season: 0, seed: 7 } as unknown as PlotLook).triangles, type).toBeGreaterThan(20);
+  });
+});

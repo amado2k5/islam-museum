@@ -452,9 +452,110 @@ export function apprentice(scale: number): KeeperArt {
   return { ...art, body };
 }
 
+/**
+ * The girl who cleans the instruments in al-Tusi's observatory, an invented person (she is the two circles' quest's
+ * own): the same cut-out as the explorer, in one fixed look of her own (a headscarf, a green tunic), with a pale
+ * cleaning cloth over her shoulder.
+ */
+export function cleaner(scale: number): KeeperArt {
+  const art = keeper(scale, { kind: 1, skin: 1, outfit: 2, hair: 1 });
+  const [body, b] = sheet(art.body.w, art.body.h, scale);
+  b.drawImage(art.body.canvas, 0, 0, art.body.w, art.body.h);
+  blob(b, [
+    [58, 6],
+    [74, 8],
+    [70, 62],
+    [62, 70],
+    [54, 60],
+  ]);
+  fillStroke(b, "#efe6d2", INK, 2);
+  b.strokeStyle = "rgba(120,100,70,0.5)";
+  b.lineWidth = 1.5;
+  for (const y of [24, 40]) {
+    b.beginPath();
+    b.moveTo(59, y);
+    b.lineTo(71, y + 2);
+    b.stroke();
+  }
+  return { ...art, body };
+}
+
+/**
+ * The child who carries the box in al-Khwarizmi's room, an invented person (the locked box's quest's own): the same
+ * cut-out as the explorer, in one fixed look of the child's own (a round cap, a red tunic), with a cloth strap across the
+ * chest for carrying the box.
+ */
+export function boxCarrier(scale: number): KeeperArt {
+  const art = keeper(scale, { kind: 0, skin: 3, outfit: 1, hair: 2 });
+  const [body, b] = sheet(art.body.w, art.body.h, scale);
+  b.drawImage(art.body.canvas, 0, 0, art.body.w, art.body.h);
+  blob(b, [
+    [24, 8],
+    [34, 4],
+    [76, 92],
+    [66, 98],
+  ]);
+  fillStroke(b, "#d9c49a", INK, 2);
+  return { ...art, body };
+}
+
+/**
+ * The young messenger in al-Kindi's room, an invented person (the secret page's quest's own): the same cut-out as the
+ * explorer, in one fixed look of the messenger's own (a boy in a green tunic), with a leather strap across the chest
+ * and a small pouch at the hip for carrying pages.
+ */
+export function messenger(scale: number): KeeperArt {
+  const art = keeper(scale, { kind: 0, skin: 2, outfit: 2, hair: 0 });
+  const [body, b] = sheet(art.body.w, art.body.h, scale);
+  b.drawImage(art.body.canvas, 0, 0, art.body.w, art.body.h);
+  blob(b, [
+    [70, 6],
+    [80, 10],
+    [28, 96],
+    [18, 92],
+  ]);
+  fillStroke(b, "#7a4a26", INK, 2);
+  blob(b, [
+    [10, 86],
+    [36, 86],
+    [38, 110],
+    [12, 110],
+  ]);
+  fillStroke(b, "#9a6232", INK, 2);
+  return { ...art, body };
+}
+
+/**
+ * The young helper in al-Idrisi's hall, an invented person (the scattered sheets' quest's own): the same cut-out as the
+ * explorer, in one fixed look of the helper's own (a headscarf, a teal tunic), holding a loose sheet of parchment against
+ * the chest, the sheets the helper dropped.
+ */
+export function mapHelper(scale: number): KeeperArt {
+  const art = keeper(scale, { kind: 1, skin: 0, outfit: 0, hair: 1 });
+  const [body, b] = sheet(art.body.w, art.body.h, scale);
+  b.drawImage(art.body.canvas, 0, 0, art.body.w, art.body.h);
+  blob(b, [
+    [26, 40],
+    [64, 34],
+    [70, 82],
+    [30, 88],
+  ]);
+  fillStroke(b, PAL.parchment, INK, 2);
+  b.strokeStyle = "rgba(43,79,163,0.7)";
+  b.lineWidth = 2.4;
+  b.beginPath();
+  b.moveTo(32, 70);
+  b.quadraticCurveTo(46, 56, 62, 60);
+  b.stroke();
+  return { ...art, body };
+}
+
 // ---------------------------------------------------------------------------------------------- the scholar
 /** The colours a scholar's figure is drawn in. The default is Ibn al-Haytham's, as the workshop has always drawn him;
- * al-Jazari's figure is the same cut-out in other colours, with an apron (art/jazari.ts's room). Neither is a likeness. */
+ * al-Jazari's figure is the same cut-out in other colours, with an apron (art/jazari.ts's room), al-Tusi's in night
+ * colours (art/tusi.ts's room), al-Khwarizmi's in day colours (art/khwarizmi.ts's room), and al-Kindi's in lamplit
+ * colours (art/kindi.ts's room), and al-Idrisi's in the bright colours of a hall by day (art/idrisi.ts's hall). None is
+ * a likeness. */
 export interface ScholarLook {
   skin: string;
   beard: [string, string];
@@ -498,6 +599,69 @@ export const JAZARI_LOOK: ScholarLook = {
   shawl: "#9a4a2a",
   seed: "jazari",
   apron: "#6b4222",
+};
+/** Al-Tusi's figure in his observatory (art/tusi.ts's room): the same cut-out again, in night colours. Not a likeness. */
+export const TUSI_LOOK: ScholarLook = {
+  skin: "#d3a072",
+  beard: ["#4a4038", "#b8b0a4"],
+  moustache: "#5a5048",
+  brow: "#4a4038",
+  turban: ["#f3ecdc", "#cfc3a6"],
+  turbanBands: "rgba(43,79,163,0.6)",
+  robe: ["#2b4fa3", "#1a3270"],
+  gown: "#f3e6c8",
+  border: PAL.goldLight,
+  dots: PAL.gold,
+  shawl: "#3a3f7a",
+  seed: "tusi",
+};
+/** Al-Khwarizmi's figure in his room (art/khwarizmi.ts's room): the same cut-out again, in day colours, green and ochre.
+ * Not a likeness. */
+export const KHWARIZMI_LOOK: ScholarLook = {
+  skin: "#c99a6c",
+  beard: ["#2e2420", "#5a4a40"],
+  moustache: "#3a2e28",
+  brow: "#2e2420",
+  turban: ["#f6efdc", "#d8caa4"],
+  turbanBands: "rgba(47,143,91,0.6)",
+  robe: ["#2f8f5b", "#1f6a42"],
+  gown: "#f3e6c8",
+  border: PAL.ochre,
+  dots: PAL.terracotta,
+  shawl: "#a8743a",
+  seed: "khwarizmi",
+};
+/** Al-Kindi's figure in his room (art/kindi.ts's room): the same cut-out again, in lamplit colours, indigo and saffron.
+ * Not a likeness. */
+export const KINDI_LOOK: ScholarLook = {
+  skin: "#c8946a",
+  beard: ["#3a2c24", "#6a5a4c"],
+  moustache: "#3a2c24",
+  brow: "#2e2420",
+  turban: ["#f0e4c8", "#cdbb94"],
+  turbanBands: "rgba(232,137,43,0.6)",
+  robe: ["#3d3a7a", "#262454"],
+  gown: "#f3e6c8",
+  border: PAL.gold,
+  dots: PAL.amber,
+  shawl: "#c27a2a",
+  seed: "kindi",
+};
+/** Al-Idrisi's figure in his hall (art/idrisi.ts's hall): the same cut-out again, in the colours of a bright hall by
+ * day, a sea-green robe and shawl and a white turban. Not a likeness. */
+export const IDRISI_LOOK: ScholarLook = {
+  skin: "#d4a070",
+  beard: ["#2e2620", "#5a5048"],
+  moustache: "#2e2620",
+  brow: "#2a201a",
+  turban: ["#ffffff", "#dcd6c8"],
+  turbanBands: "rgba(29,111,120,0.5)",
+  robe: ["#1f6a5e", "#154a42"],
+  gown: "#f6ecd2",
+  border: PAL.gold,
+  dots: PAL.lapis,
+  shawl: "#2f8a7a",
+  seed: "idrisi",
 };
 export interface ScholarArt {
   body: Painted;

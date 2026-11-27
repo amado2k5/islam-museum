@@ -7,6 +7,7 @@
 import en from "../../i18n/en.json";
 import records from "../../data/museum-records.v1.json";
 import { loadMusicStrings, musicControl } from "@im/audio/control";
+import { Effects, type Effect } from "@im/audio/effects";
 import { MUSIC_AVAILABLE, MUSIC_BASE, MusicPlayer } from "@im/audio/player";
 import { MINOR } from "../sim/economy";
 import { OPEN_VALLEY, WATER_FOR_THE_VALLEY, dailySeed, scenarioAfter, scenarioById } from "../sim/scenarios";
@@ -20,6 +21,9 @@ import { drawRegion, regionView, type RegionLayer, type RegionView } from "./reg
 import type { Stage } from "./stage";
 import { ESTATE, MARKET, STORE, heightAt } from "../view/valley";
 import { TEXT_SIZES, applyTextSize, readTextSize, type TextSize } from "./text-size";
+import { startGamepad } from "@im/platform/gamepad";
+import { installKeymap, type Action } from "@im/platform/keymap";
+import { keymapPanel } from "@im/platform/keymap-panel";
 import { advice, carryOver, chainView, foodToSpare, seasonFigures, warnings, catalogueRows, decisionRows, effectRows, fieldCards, marketRows, tradeView, questRows, riverOfYear, skyAhead, stocks, workRows, yesterday, type FieldCard, type WorkRow } from "./model";
 
 type Strings = Record<Exclude<keyof typeof en, "_meta">, string>;
@@ -89,6 +93,10 @@ async function main(): Promise<void> {
       // Without it a later year cannot be played again from its start; the button for that is then not shown.
     }
   };
+  const effects = new Effects();
+  // The keys the player may move: the game goes on hearing its own, and a moved key is turned into its own first.
+  const KEY_ACTIONS: Action[] = [{ id: "pause", key: "p" }, { id: "day", key: "n" }, { id: "undo", key: "u" }, { id: "help", key: "h" }, { id: "overview", key: "o" }];
+  const keymap = installKeymap("granada", KEY_ACTIONS);
   applyTextSize(readTextSize(), false);
   const seedParam = Number(query.get("seed"));
   const newSeed = () => (Number.isSafeInteger(seedParam) && seedParam > 0 ? seedParam : 1 + (Math.floor(performance.now() * 1000) % 100000));
@@ -248,9 +256,13 @@ async function main(): Promise<void> {
     if (photo) return false;
     const r = act(sc, state, command);
     if (!r.result.ok) {
+      effects.play("refuse");
       say(refusal(r.result));
       return false;
     }
+    const sound: Partial<Record<VillageCommand["kind"], Effect>> = { repair: "water", expand: "water", build: "build", place: "build", harvest: "harvest", plant: "harvest", sell: "coin", buy: "coin", send: "coin", deliver: "coin", accept: "coin", press: "build", decide: "tap", "water-first": "tap", "field-first": "tap" };
+    const effect = sound[command.kind];
+    if (effect) effects.play(effect);
     undoStack.push(state);
     if (undoStack.length > UNDO_DEPTH) undoStack.shift();
     state = r.state;
@@ -279,6 +291,7 @@ async function main(): Promise<void> {
       case "placed":
         return t("event_placed", { what: t(`place_${a}`) });
       case "year":
+        effects.play("season");
         return t("event_year", { n: Number(a) });
       case "asked":
         return t("event_asked", { what: t(`decision_${a}`) });
@@ -1185,10 +1198,12 @@ async function main(): Promise<void> {
       "help",
       h("h2", {}, t("help")),
       h("p", {}, t("help_text")),
+      keymapPanel(KEY_ACTIONS, keymap, { title: t("keys_title"), change: t("keys_change"), press: t("keys_press"), reset: t("keys_reset"), action: (id) => t(`key_action_${id}`) }),
+      h("label", { class: "quality" }, h("input", { type: "checkbox", id: "effects-on", checked: effects.on, onchange: (e: Event) => effects.set((e.currentTarget as HTMLInputElement).checked) }), h("span", {}, t("effects_label"))),
       h("label", { class: "quality" }, h("span", {}, t("text_size")), h("select", { id: "text-size", onchange: (e: Event) => applyTextSize((e.currentTarget as HTMLSelectElement).value as TextSize) }, ...(Object.keys(TEXT_SIZES) as TextSize[]).map((size) => h("option", { value: size, selected: size === readTextSize() }, t(`text_size_${size}`))))),
       // A game set aside by a build that could not read it, which this build can: it can be brought back.
       readAside(localStorage).status === "ok" && h("button", { type: "button", id: "bring-back", onclick: () => restoreAside(localStorage) && location.reload() }, t("save_bring_back")),
-      h("ul", { class: "plain", id: "help-more" }, ...(["help_ahead", "help_build", "help_trade", "help_choose", "help_years", "help_keys"] as const).filter((k) => k !== "help_build" || sc.catalogue).filter((k) => k !== "help_trade" || sc.trade).map((k) => h("li", {}, t(k)))),
+      h("ul", { class: "plain", id: "help-more" }, ...(["help_ahead", "help_build", "help_trade", "help_choose", "help_years", "help_keys", "help_pad"] as const).filter((k) => k !== "help_build" || sc.catalogue).filter((k) => k !== "help_trade" || sc.trade).map((k) => h("li", {}, t(k)))),
       h("p", { class: "note" }, t("simulation_note")),
       h("h3", {}, t("language")),
       h("p", { class: "langs" }, ...LANGS.map((code) => h("a", { href: `?lang=${code}`, lang: code, "aria-current": code === lang ? "true" : undefined }, LANG_NAMES[code]!))),
@@ -1363,6 +1378,9 @@ async function main(): Promise<void> {
         onLand: (x, z) => landClicked(x, z),
         onBuild: (x, z) => buildAt(x, z),
       });
+      // A controller: the left stick and the cross move over the land, the right stick turns and tilts the view,
+      // the shoulders zoom; A chooses, B steps back, X undoes, Y passes a day, Start pauses, Back opens the help.
+      startGamepad({ buttons: { 0: "Enter", 1: "Escape", 2: "u", 3: "n", 4: "-", 5: "+", 8: "h", 9: "p" }, move: ["ArrowUp", "ArrowRight", "ArrowDown", "ArrowLeft"], look: ["r", "e", "f", "q"] }, () => stage?.canvas ?? document.body, () => say(t("pad_connected")));
       stage.run();
       viewBar.hidden = false;
       setView(query.get("view") === "plan" ? "plan" : "3d");

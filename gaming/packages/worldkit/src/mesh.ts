@@ -276,6 +276,26 @@ export function bounds(m: MeshData): [number, number, number, number, number, nu
 }
 
 /** Column-major 4x4 matrix for an instance: translate, rotate about Y, then scale. */
+/**
+ * Writes the instance matrix of a limb hung on a joint of another instance: the limb keeps the body's turn and
+ * scale, is carried to the joint (px, py, pz) in the body's measure, and swings `swing` radians about the body's
+ * x axis there — a walking leg, a working arm. `base`/`bo` are the body's matrix array and offset.
+ */
+export function limbMatrix(out: Float32Array, o: number, base: Float32Array, bo: number, px: number, py: number, pz: number, swing: number): void {
+  const ca = Math.cos(swing);
+  const sa = Math.sin(swing);
+  const X0 = base[bo]!, X1 = base[bo + 1]!, X2 = base[bo + 2]!;
+  const Y0 = base[bo + 4]!, Y1 = base[bo + 5]!, Y2 = base[bo + 6]!;
+  const Z0 = base[bo + 8]!, Z1 = base[bo + 9]!, Z2 = base[bo + 10]!;
+  out[o] = X0; out[o + 1] = X1; out[o + 2] = X2; out[o + 3] = 0;
+  out[o + 4] = Y0 * ca + Z0 * sa; out[o + 5] = Y1 * ca + Z1 * sa; out[o + 6] = Y2 * ca + Z2 * sa; out[o + 7] = 0;
+  out[o + 8] = -Y0 * sa + Z0 * ca; out[o + 9] = -Y1 * sa + Z1 * ca; out[o + 10] = -Y2 * sa + Z2 * ca; out[o + 11] = 0;
+  out[o + 12] = base[bo + 12]! + X0 * px + Y0 * py + Z0 * pz;
+  out[o + 13] = base[bo + 13]! + X1 * px + Y1 * py + Z1 * pz;
+  out[o + 14] = base[bo + 14]! + X2 * px + Y2 * py + Z2 * pz;
+  out[o + 15] = 1;
+}
+
 export function instanceMatrix(out: Float32Array | number[], offset: number, x: number, y: number, z: number, yaw: number, sx: number, sy: number, sz: number): void {
   const c = Math.cos(yaw);
   const s = Math.sin(yaw);

@@ -8,15 +8,17 @@ import { builtinAOContext, mix, mrt, normalMap, normalView, pass, positionWorld,
 import { ao } from "three/addons/tsl/display/GTAONode.js";
 import { bloom } from "three/addons/tsl/display/BloomNode.js";
 import { Rng } from "@im/kernel/prng";
-import { instanceMatrix, type MeshData, type Rgb } from "@im/worldkit/mesh";
+import { instanceMatrix, limbMatrix, type MeshData, type Rgb } from "@im/worldkit/mesh";
 import { MATERIALS, type MaterialSpec, type SceneMaterialId } from "@im/worldkit/district/generate";
 import { awningMesh, boatMesh, cypressMesh, jarMesh, palmMesh, personBodyMesh, personHeadMesh, stallMesh, treeMesh, wheelMesh } from "@im/worldkit/district/kit";
 import { skyDome, type Atmosphere } from "@im/worldkit/atmosphere";
 import type { TextureData, TextureKind } from "@im/worldkit/textures";
 import { PLOTS } from "../rules";
-import { walkerPose, walkerTint, type Environment, type PlotGeometry, type PropInstance, type PropKind, type WaterRect } from "./board";
+import { CART_OX_JOINTS, WALKER_LEG_JOINTS, cartBedMesh, cartOxLegMesh, cartOxMesh, grazingDonkeyMesh, grazingSpots, walkerBodyMesh, walkerLegMesh, walkerPose, walkerTint, type Environment, type PlotGeometry, type PropInstance, type PropKind, type WaterRect } from "./board";
 import { CAMERA_FOV, eyeOf, groundPoint, viewPoint, type CameraPose } from "./camera";
 import { BOARD, CHANNEL_HALF, PLOT, RIVER_LEVEL, plotCentre } from "./layout";
+import { AUTHORED_TYPES, extractBuilding, setAuthoredBuilding } from "./buildings";
+import { MODELS_AVAILABLE, disposeModel, loadModel } from "./models";
 
 export type Quality = "low" | "high";
 export interface BoardRendererOptions {
@@ -56,6 +58,17 @@ const PROP_CAPACITY: Record<PropKind, number> = { "palm-a": 900, "palm-b": 900, 
 const PROP_MATERIAL: Record<PropKind, SceneMaterialId> = { "palm-a": "foliage", "palm-b": "foliage", tree: "foliage", cypress: "foliage", awning: "fabric", stall: "prop", jar: "prop" };
 const WALKER_CAPACITY = 720;
 const FILL_SECONDS = 0.7;
+/** How many canal sheets the board can hold: a stretch a plot and its arms, with room to spare. */
+const WATER_CAP = 512;
+/** Chimneys the smoke table can hold, eight puffs to each. */
+const SMOKE_SOURCES_CAP = 40;
+const SMOKE_PUFFS = 8;
+const SMOKE_CAP = SMOKE_SOURCES_CAP * SMOKE_PUFFS;
+/** The most carts the lanes carry: one to a market plot at most, and never more than this. */
+const CART_CAP = 3;
+const DONKEY_CAP = 3;
+/** The most lamp flames the markets light: one over every stall of the first market plots. */
+const LAMP_CAP = 160;
 
 export interface Highlight {
   /** Tinted plots: [plot, r, g, b] in linear colour. */
@@ -66,17 +79,38 @@ export interface Highlight {
   link: { a: number; b: number; ok: boolean } | null;
 }
 
-/** A plot's next set of meshes, on their way in. */
-interface Incoming {
-  meshes: THREE.Mesh[];
-  added: number;
-  readyAt: number;
-}
-
 interface WaterMesh {
-  mesh: THREE.Mesh;
+  /** Which instance of the shared water mesh this sheet is, once the table is rebuilt. */
+  instance: number;
   rect: WaterRect;
   grow: { from: "x0" | "x1" | "z0" | "z1"; start: number } | null;
+}
+
+/** Concatenates engine-neutral meshes into one, offsets moving with the parts. Empty input is an empty mesh. */
+export function mergeMeshData(parts: MeshData[]): MeshData {
+  let nv = 0;
+  let ni = 0;
+  for (const p of parts) {
+    nv += p.positions.length / 3;
+    ni += p.indices.length;
+  }
+  const positions = new Float32Array(nv * 3);
+  const normals = new Float32Array(nv * 3);
+  const uvs = new Float32Array(nv * 2);
+  const colors = new Float32Array(nv * 3);
+  const indices = new Uint32Array(ni);
+  let v = 0;
+  let i = 0;
+  for (const p of parts) {
+    positions.set(p.positions, v * 3);
+    normals.set(p.normals, v * 3);
+    uvs.set(p.uvs, v * 2);
+    colors.set(p.colors, v * 3);
+    for (let k = 0; k < p.indices.length; k++) indices[i + k] = p.indices[k]! + v;
+    v += p.positions.length / 3;
+    i += p.indices.length;
+  }
+  return { positions, normals, uvs, colors, indices };
 }
 
 export class BoardRenderer {
@@ -95,9 +129,18 @@ export class BoardRenderer {
   private season = -1;
   private pose!: CameraPose;
   private aspect = 1;
-  private readonly plots: Array<{ meshes: THREE.Mesh[]; water: WaterMesh[]; geometry: PlotGeometry | null; incoming: Incoming | null }> = Array.from({ length: PLOTS }, () => ({ meshes: [], water: [], geometry: null, incoming: null }));
-  /** Plots whose new meshes are being brought in a few a frame (see setPlot). */
-  private warming: number[] = [];
+  private readonly plots: Array<{ water: WaterMesh[]; geometry: PlotGeometry | null }> = Array.from({ length: PLOTS }, () => ({ water: [], geometry: null }));
+  /**
+   * The district's still geometry is drawn as one mesh a material for the whole board, not a mesh a plot: what
+   * fifty plots cost in draw calls, a handful of materials pays once. When a plot changes, the materials it
+   * touches are marked dirty here and merged again from the plots' geometry, at most two a frame, so a new
+   * building stands within a few ordinary frames and costs no slow one.
+   */
+  private readonly merged = new Map<SceneMaterialId, THREE.Mesh>();
+  private readonly dirtyMaterials = new Set<SceneMaterialId>();
+  /** Canal water sheets, one instance each of a single mesh: the record of each is in its plot's slot. */
+  private waterInstances!: THREE.InstancedMesh;
+  private waterDirty = false;
   private frame = 0;
   /** 0 clear water to 1 thick with silt; and how far a drought has dropped the canals. */
   private readonly silt = uniform(0);
@@ -107,6 +150,23 @@ export class BoardRenderer {
   private readonly propMeshes = new Map<PropKind, THREE.InstancedMesh>();
   private bodies!: THREE.InstancedMesh;
   private heads!: THREE.InstancedMesh;
+  private walkerLegs!: THREE.InstancedMesh;
+  /** Puffs of smoke over the workshops' kilns and the baths' furnaces, eight to a chimney. */
+  private smokeMesh!: THREE.InstancedMesh;
+  private smokeSources: Array<{ x: number; y: number; z: number; scale: number }> = [];
+  /** The authored buildings that could not be fetched, named with the reason; their code-made shapes stand instead. */
+  readonly modelFailures: string[] = [];
+  /** Ox-carts on the lanes: the ox, the cart it draws, and the ox's four legs, one instanced mesh each. */
+  private cartOx!: THREE.InstancedMesh;
+  private cartBeds!: THREE.InstancedMesh;
+  private cartOxLegs!: THREE.InstancedMesh;
+  private cartCount = 0;
+  private donkeysPlaced = false;
+  private cartRoutes: Array<{ z: number; speed: number; x0: number; phase: number }> = [];
+  /** Donkeys at grass on the river side. */
+  private donkeys!: THREE.InstancedMesh;
+  /** Lamp flames over the market stalls: small warm unlit beads, which the bloom carries into a glow. */
+  private lamps!: THREE.InstancedMesh;
   private walkerPlots: Array<[number, number]> = [];
   private walkerCounts: number[] = new Array<number>(PLOTS).fill(0);
   private boats!: THREE.InstancedMesh;
@@ -137,6 +197,9 @@ export class BoardRenderer {
     await renderer.init();
     if (!(renderer.backend as unknown as { isWebGPUBackend?: boolean }).isWebGPUBackend) throw new Error("no-webgpu-backend");
     this.renderer = renderer;
+    // The authored public buildings start their journey now: the plots are drawn in code-made shape from the first
+    // frame, and a building whose model arrives takes its place — the renderer rebuilds just the plots of its type.
+    void this.loadAuthoredBuildings();
     renderer.toneMapping = THREE.ACESFilmicToneMapping;
     renderer.shadowMap.enabled = true;
     renderer.shadowMap.type = THREE.PCFShadowMap;
@@ -232,8 +295,38 @@ export class BoardRenderer {
       return im;
     };
     for (const kind of Object.keys(PROP_CAPACITY) as PropKind[]) this.propMeshes.set(kind, instanced(propMesh[kind], PROP_MATERIAL[kind], PROP_CAPACITY[kind], true, false));
-    this.bodies = instanced(personBodyMesh(), "prop", WALKER_CAPACITY, true, true);
+    this.bodies = instanced(walkerBodyMesh(), "prop", WALKER_CAPACITY, true, true);
     this.heads = instanced(personHeadMesh(), "prop", WALKER_CAPACITY, false, true);
+    this.walkerLegs = instanced(walkerLegMesh(), "prop", WALKER_CAPACITY * 2, true, true);
+    // Smoke is a soft round puff, instanced: eight rise out of every chimney in turn, swelling and paling as they go.
+    const puff = new THREE.MeshStandardMaterial({ color: [0.62, 0.6, 0.58] as unknown as THREE.Color, transparent: true, opacity: 0.34, depthWrite: false, roughness: 1 });
+    this.smokeMesh = new THREE.InstancedMesh(new THREE.IcosahedronGeometry(0.5, 1), puff, SMOKE_CAP);
+    this.smokeMesh.count = 0;
+    this.smokeMesh.castShadow = false;
+    this.smokeMesh.receiveShadow = false;
+    this.smokeMesh.frustumCulled = false;
+    this.smokeMesh.instanceMatrix.setUsage(THREE.DynamicDrawUsage);
+    this.disposables.push(this.smokeMesh.geometry, puff);
+    scene.add(this.smokeMesh);
+    this.cartOx = instanced(cartOxMesh(), "prop", CART_CAP, true, true);
+    this.cartBeds = instanced(cartBedMesh(), "prop", CART_CAP, true, true);
+    this.cartOxLegs = instanced(cartOxLegMesh(), "prop", CART_CAP * 4, true, true);
+    this.donkeys = instanced(grazingDonkeyMesh(), "prop", DONKEY_CAP, true, true);
+    this.cartOx.count = 0;
+    this.cartBeds.count = 0;
+    this.cartOxLegs.count = 0;
+    // Donkey coats, grey and brown and dark, once at the start.
+    const coats: Rgb[] = [[0.62, 0.6, 0.58], [0.5, 0.4, 0.3], [0.35, 0.32, 0.3]];
+    for (let i = 0; i < DONKEY_CAP; i++) (this.donkeys.instanceColor!.array as Float32Array).set(coats[i % 3]!, i * 3);
+    this.donkeys.instanceColor!.needsUpdate = true;
+    const flame = new THREE.MeshBasicMaterial({ color: new THREE.Color(2.6, 1.45, 0.5) });
+    this.lamps = new THREE.InstancedMesh(new THREE.IcosahedronGeometry(0.09, 1), flame, LAMP_CAP);
+    this.lamps.count = 0;
+    this.lamps.castShadow = false;
+    this.lamps.receiveShadow = false;
+    this.lamps.frustumCulled = false;
+    this.disposables.push(this.lamps.geometry, flame);
+    scene.add(this.lamps);
     this.boats = instanced(boatMesh(true), "prop", 4, true, true);
     const wg = geometryOf(wheelMesh());
     this.disposables.push(wg);
@@ -242,10 +335,17 @@ export class BoardRenderer {
     this.wheel.visible = false;
     scene.add(this.wheel);
 
-    // Canal water is flat sheets, one per stretch, so a newly dug stretch can be seen to fill.
+    // Canal water is flat sheets, one per stretch, so a newly dug stretch can be seen to fill. They are instances
+    // of one mesh: a sheet is a metre of flat water exactly like the next, so a hundred of them draw as one call.
     this.waterPlane = new THREE.PlaneGeometry(1, 1);
     this.waterPlane.rotateX(-Math.PI / 2);
     this.disposables.push(this.waterPlane);
+    this.waterInstances = new THREE.InstancedMesh(this.waterPlane, this.waterMaterial, WATER_CAP);
+    this.waterInstances.count = 0;
+    this.waterInstances.receiveShadow = true;
+    this.waterInstances.frustumCulled = false;
+    this.waterInstances.instanceMatrix.setUsage(THREE.DynamicDrawUsage);
+    scene.add(this.waterInstances);
 
     // ---- Planning overlay: tinted plots, the cursor and the link being aimed at ----
     const tileGeo = new THREE.PlaneGeometry(PLOT - 1.2, PLOT - 1.2);
@@ -323,6 +423,9 @@ export class BoardRenderer {
     // Silt shows: a canal that needs clearing runs brown.
     m.colorNode = canal ? mix(clear, vec3(0.2, 0.13, 0.055), this.silt.mul(0.85)) : clear;
     m.ior = 1.33;
+    // The sky is in the water: the scene's prefiltered environment answers at grazing angles, as in Granada,
+    // where the same making measured well. Flat calm water would mirror it whole; the wave trains break it up.
+    m.envMapIntensity = 3.2;
     return m;
   }
 
@@ -369,126 +472,108 @@ export class BoardRenderer {
    * Replaces what stands on a plot. `filling` names water sheets that should be seen to fill, with the edge the
    * water comes from and a delay in seconds (ignored under reduced motion).
    *
-   * Making a mesh is what costs time (the engine sets each one up for the shadow, depth and colour passes), so
-   * unless `immediate` is set the new meshes are brought in two a frame, out of sight, and swapped for the old
-   * ones once they are all ready: a new building costs several ordinary frames instead of one slow one.
+   * The plot's still geometry is not drawn on its own: it joins the board's merged meshes, one a material, which
+   * are made again from the plots' geometry a few at a time (see rebuildMaterials). What a plot change costs is
+   * the copying of its materials' arrays, spread over ordinary frames — never a cluster of new meshes in one.
    */
   setPlot(plot: number, g: PlotGeometry, filling: Array<{ id: string; from: "x0" | "x1" | "z0" | "z1"; delay: number }> = [], immediate = false): void {
     const slot = this.plots[plot]!;
-    // The same shape as before (a field in a new season): write the new numbers into the meshes already there.
     const old = slot.geometry;
-    const sameShape =
-      old !== null &&
-      slot.incoming === null &&
-      filling.length === 0 &&
-      slot.meshes.length === g.chunks.length &&
-      old.chunks.length === g.chunks.length &&
-      old.water.length === g.water.length &&
-      g.chunks.every((c, i) => c.material === old.chunks[i]!.material && c.mesh.positions.length === old.chunks[i]!.mesh.positions.length && c.mesh.indices.length === old.chunks[i]!.mesh.indices.length) &&
-      g.water.every((w, i) => w.id === old.water[i]!.id);
-    if (sameShape) {
-      g.chunks.forEach((c, i) => {
-        const geo = slot.meshes[i]!.geometry;
-        const write = (name: string, data: Float32Array) => {
-          const attr = geo.getAttribute(name) as THREE.BufferAttribute;
-          (attr.array as Float32Array).set(data);
-          attr.needsUpdate = true;
-        };
-        write("position", c.mesh.positions);
-        write("normal", c.mesh.normals);
-        write("uv", c.mesh.uvs);
-        write("color", c.mesh.colors);
-        (geo.index!.array as Uint32Array).set(c.mesh.indices);
-        geo.index!.needsUpdate = true;
-        geo.computeBoundingSphere();
-      });
-      slot.geometry = g;
-      return;
-    }
-    this.cancelIncoming(plot);
-    for (const w of slot.water) this.scene.remove(w.mesh);
-    slot.water = [];
+    if (old) for (const c of old.chunks) this.dirtyMaterials.add(c.material);
+    for (const c of g.chunks) this.dirtyMaterials.add(c.material);
     slot.geometry = g;
-    const meshes = g.chunks.map((chunk) => {
-      const mesh = new THREE.Mesh(geometryOf(chunk.mesh), this.materials.get(chunk.material)!);
-      const flat = chunk.material === "canalwater" || chunk.material === "earth" || chunk.material === "paving" || chunk.material === "grass";
-      mesh.castShadow = !flat;
-      mesh.receiveShadow = true;
-      return mesh;
-    });
-    if (immediate || filling.length > 0) {
-      for (const m of slot.meshes) {
-        this.scene.remove(m);
-        m.geometry.dispose();
-      }
-      for (const m of meshes) this.scene.add(m);
-      slot.meshes = meshes;
-    } else {
-      slot.incoming = { meshes, added: 0, readyAt: Infinity };
-      this.warming.push(plot);
-    }
-    for (const rect of g.water) {
-      const mesh = new THREE.Mesh(this.waterPlane, this.waterMaterial);
-      mesh.receiveShadow = true;
+    slot.water = g.water.map((rect) => {
       const fill = this.options.reducedMotion ? undefined : filling.find((f) => f.id === rect.id);
-      const w: WaterMesh = { mesh, rect, grow: fill ? { from: fill.from, start: this.now + fill.delay } : null };
-      this.placeWater(w, fill ? 0 : 1);
-      this.scene.add(mesh);
-      slot.water.push(w);
-    }
-  }
-
-  private cancelIncoming(plot: number): void {
-    const slot = this.plots[plot]!;
-    if (!slot.incoming) return;
-    slot.incoming.meshes.forEach((m, i) => {
-      if (i < slot.incoming!.added) this.scene.remove(m);
-      m.geometry.dispose();
+      const w: WaterMesh = { instance: -1, rect, grow: fill ? { from: fill.from, start: this.now + fill.delay } : null };
+      return w;
     });
-    slot.incoming = null;
-    this.warming = this.warming.filter((p) => p !== plot);
+    this.waterDirty = true;
+    if (immediate) this.rebuildMaterials(Infinity);
   }
 
-  /** Brings waiting meshes into the scene, `budget` at most, and swaps a plot over once all of its meshes have been drawn once. */
-  private warm(budget: number, wait = true): void {
-    while (this.warming.length > 0) {
-      const plot = this.warming[0]!;
-      const slot = this.plots[plot]!;
-      const inc = slot.incoming;
-      if (!inc) {
-        this.warming.shift();
-        continue;
+  /**
+   * Fetches the authored public buildings one file at a time. A building that arrives whole takes the place of its
+   * code-made shape in the plots of its type — they are built again exactly as they were, but with the authored
+   * pieces — and one that cannot be fetched is named in modelFailures while the code-made shape stands on.
+   */
+  private async loadAuthoredBuildings(): Promise<void> {
+    if (!MODELS_AVAILABLE) return;
+    for (const type of AUTHORED_TYPES) {
+      try {
+        const model = await loadModel(`golden-age/${type}.gltf`);
+        setAuthoredBuilding(type, extractBuilding(model, type));
+        disposeModel(model);
+        let rebuilt = false;
+        for (let plot = 0; plot < PLOTS; plot++) {
+          const g = this.plots[plot]!.geometry;
+          if (!g || g.type !== type) continue;
+          this.setPlot(plot, g.rebuild());
+          rebuilt = true;
+        }
+        // The props of a rebuilt market change (the authored row carries its own awnings), so the lists refresh.
+        if (rebuilt) this.commit();
+      } catch (e) {
+        this.modelFailures.push(`golden-age/${type}: ${e instanceof Error ? e.message : String(e)}`);
       }
-      if (inc.added < inc.meshes.length) {
-        if (budget <= 0) return;
-        const m = inc.meshes[inc.added++]!;
-        // Out of sight (a speck under the ground) but drawn, so the engine prepares it.
-        m.scale.setScalar(1e-5);
-        m.position.y = -40;
-        m.frustumCulled = false;
-        this.scene.add(m);
-        budget--;
-        if (inc.added === inc.meshes.length) inc.readyAt = this.frame + 1;
-        continue;
-      }
-      if (wait && this.frame < inc.readyAt) return;
-      for (const m of slot.meshes) {
-        this.scene.remove(m);
-        m.geometry.dispose();
-      }
-      for (const m of inc.meshes) {
-        m.scale.setScalar(1);
-        m.position.y = 0;
-        m.frustumCulled = true;
-      }
-      slot.meshes = inc.meshes;
-      slot.incoming = null;
-      this.warming.shift();
     }
   }
-  /** Finishes every waiting plot now (captures and tests). */
+
+  /**
+   * Merges the board's dirty materials again from the plots' geometry, `budget` at most. Each material is one
+   * mesh for the whole district: concatenating the plots' arrays costs a copy, and the mesh itself — the thing
+   * the engine prepares for its passes — is made once and only ever written into.
+   */
+  private rebuildMaterials(budget: number): void {
+    let done = 0;
+    for (const id of [...this.dirtyMaterials]) {
+      if (done >= budget) break;
+      this.dirtyMaterials.delete(id);
+      done++;
+      const parts: MeshData[] = [];
+      for (const slot of this.plots) {
+        if (!slot.geometry) continue;
+        for (const c of slot.geometry.chunks) if (c.material === id) parts.push(c.mesh);
+      }
+      const merged = mergeMeshData(parts);
+      const g = geometryOf(merged);
+      let mesh = this.merged.get(id);
+      if (!mesh) {
+        mesh = new THREE.Mesh(g, this.materials.get(id)!);
+        const flat = id === "canalwater" || id === "earth" || id === "paving" || id === "grass";
+        mesh.castShadow = !flat;
+        mesh.receiveShadow = true;
+        this.scene.add(mesh);
+        this.merged.set(id, mesh);
+      } else {
+        mesh.geometry.dispose();
+        mesh.geometry = g;
+      }
+    }
+  }
+
+  /** Assigns every canal sheet its instance of the shared water mesh and writes the still ones' matrices. */
+  private rebuildWater(): void {
+    this.waterDirty = false;
+    const a = this.waterInstances.instanceMatrix.array as Float32Array;
+    let n = 0;
+    for (const slot of this.plots) {
+      for (const w of slot.water) {
+        if (n >= WATER_CAP) break;
+        w.instance = n;
+        this.placeWater(w, w.grow ? 0 : 1);
+        n++;
+      }
+    }
+    // Any instance beyond the table is shrunk away.
+    for (let i = n; i < this.waterInstances.count; i++) instanceMatrix(a, i * 16, 0, -100, 0, 0, 1e-5, 1e-5, 1e-5);
+    this.waterInstances.count = n;
+    this.waterInstances.instanceMatrix.needsUpdate = true;
+  }
+
+  /** Finishes every waiting merge now (captures and tests). */
   settle(): void {
-    this.warm(Infinity, false);
+    this.rebuildMaterials(Infinity);
+    if (this.waterDirty) this.rebuildWater();
   }
 
   /** How the water looks: `silt` 0 to 1, and whether a drought has lowered the river and the canals. */
@@ -510,9 +595,11 @@ export class BoardRenderer {
       else if (w.grow.from === "z0") z1 = z0 + (z1 - z0) * e;
       else z0 = z1 - (z1 - z0) * e;
     }
-    w.mesh.position.set((x0 + x1) / 2, w.rect.y - this.canalDrop, (z0 + z1) / 2);
-    w.mesh.scale.set(x1 - x0, 1, z1 - z0);
-    w.mesh.visible = k > 0;
+    if (w.instance < 0) return;
+    const a = this.waterInstances.instanceMatrix.array as Float32Array;
+    const shrink = k <= 0 ? 1e-5 : 1;
+    instanceMatrix(a, w.instance * 16, (x0 + x1) / 2, w.rect.y - this.canalDrop, (z0 + z1) / 2, 0, (x1 - x0) * shrink, 1, (z1 - z0) * shrink);
+    this.waterInstances.instanceMatrix.needsUpdate = true;
   }
 
   /** How many figures each plot shows. Takes effect at the next commit. */
@@ -543,7 +630,13 @@ export class BoardRenderer {
       const n = Math.min(this.walkerCounts[plot] ?? 0, WALKER_CAPACITY - walkers);
       if (n > 0) {
         this.walkerPlots.push([plot, n]);
-        for (let i = 0; i < n; i++) (this.bodies.instanceColor!.array as Float32Array).set(walkerTint(this.options.seed, plot, i) as Rgb, (walkers + i) * 3);
+        for (let i = 0; i < n; i++) {
+          const tint = walkerTint(this.options.seed, plot, i) as Rgb;
+          (this.bodies.instanceColor!.array as Float32Array).set(tint, (walkers + i) * 3);
+          const lc = this.walkerLegs.instanceColor!.array as Float32Array;
+          lc.set(tint, (walkers + i) * 6);
+          lc.set(tint, (walkers + i) * 6 + 3);
+        }
         walkers += n;
       }
     }
@@ -552,8 +645,54 @@ export class BoardRenderer {
       im.instanceMatrix.needsUpdate = true;
       im.instanceColor!.needsUpdate = true;
     }
+    // Smoke follows the buildings as they stand now: a rebuilt plot brings its chimneys, a ruined one takes them away.
+    this.smokeSources = [];
+    for (const slot of this.plots) {
+      if (!slot.geometry) continue;
+      for (const sm of slot.geometry.smoke) {
+        if (this.smokeSources.length < SMOKE_SOURCES_CAP) this.smokeSources.push(sm);
+      }
+    }
+    this.smokeMesh.count = this.smokeSources.length * SMOKE_PUFFS;
+    // Carts serve the markets: a plot with stalls in it sends one out, up to the lanes' capacity. No market, no cart.
+    let markets = 0;
+    for (const slot of this.plots) {
+      if (!slot.geometry) continue;
+      if (slot.geometry.props.some((pr) => pr.kind === "stall")) markets++;
+    }
+    this.cartCount = Math.min(CART_CAP, markets);
+    this.cartOx.count = this.cartCount;
+    this.cartBeds.count = this.cartCount;
+    this.cartOxLegs.count = this.cartCount * 4;
+    if (this.cartRoutes.length === 0) {
+      const lanes = [-66, -110, -154];
+      for (let i = 0; i < CART_CAP; i++) this.cartRoutes.push({ z: lanes[i % lanes.length]!, speed: 1.5 + 0.35 * latticeHashboard(i, 3), x0: latticeHashboard(i, 11) * 300 - 150, phase: latticeHashboard(i, 23) });
+    }
+    if (!this.donkeysPlaced) {
+      this.donkeysPlaced = true;
+      const a = this.donkeys.instanceMatrix.array as Float32Array;
+      grazingSpots(this.options.seed).forEach(([x, y, z, yaw], i) => instanceMatrix(a, i * 16, x, y, z, yaw, 1, 1, 1));
+      this.donkeys.count = Math.min(DONKEY_CAP, 3);
+      this.donkeys.instanceMatrix.needsUpdate = true;
+    }
+    // A lamp burns over every market stall: neither game has nightfall, so they burn at all hours and read
+    // strongest in the dim seasons, as a bazaar's lamps do under the awnings in the afternoon.
+    const la = this.lamps.instanceMatrix.array as Float32Array;
+    let ln = 0;
+    for (const slot of this.plots) {
+      if (!slot.geometry) continue;
+      for (const pr of slot.geometry.props) {
+        if (pr.kind !== "stall" || ln >= LAMP_CAP) continue;
+        instanceMatrix(la, ln * 16, pr.x - 0.9 * Math.sin(pr.yaw), pr.y + 2.1, pr.z - 0.9 * Math.cos(pr.yaw), 0, 1, 1.5, 1);
+        ln++;
+      }
+    }
+    this.lamps.count = ln;
+    this.lamps.instanceMatrix.needsUpdate = true;
     this.bodies.count = walkers;
     this.heads.count = walkers;
+    this.walkerLegs.count = walkers * 2;
+    this.walkerLegs.instanceColor!.needsUpdate = true;
     this.bodies.instanceColor!.needsUpdate = true;
     this.wheel.visible = this.wheelAt !== null;
     if (this.wheelAt) {
@@ -618,7 +757,8 @@ export class BoardRenderer {
     const t0 = performance.now();
     this.now = timeSeconds;
     this.frame++;
-    this.warm(2);
+    this.rebuildMaterials(2);
+    if (this.waterDirty) this.rebuildWater();
     this.waterTime.value = timeSeconds;
     // Water that is still filling.
     for (const slot of this.plots) {
@@ -646,6 +786,69 @@ export class BoardRenderer {
     (this.heads.instanceMatrix.array as Float32Array).set(body.subarray(0, n * 16));
     this.bodies.instanceMatrix.needsUpdate = true;
     this.heads.instanceMatrix.needsUpdate = true;
+    // Two legs to a figure, swinging opposite ways in step with the bob; frozen when the motion is reduced.
+    const legs = this.walkerLegs.instanceMatrix.array as Float32Array;
+    let li = 0;
+    for (const [plot, count] of this.walkerPlots) {
+      for (let i = 0; i < count; i++) {
+        const swing = this.options.reducedMotion ? 0 : 0.5 * Math.sin(timeSeconds * 6 + li * 0.5);
+        const b = (li) * 16;
+        WALKER_LEG_JOINTS.forEach((j, side) => limbMatrix(legs, (li * 2 + side) * 16, body, b, j[0], j[1], j[2], side ? -swing : swing));
+        li++;
+      }
+    }
+    this.walkerLegs.instanceMatrix.needsUpdate = true;
+    // Smoke: each puff climbs out of its chimney, swelling and paling, and is carried a little downwind as it goes.
+    if (this.smokeMesh.count > 0) {
+      const arr = this.smokeMesh.instanceMatrix.array as Float32Array;
+      const colArr = this.smokeMesh.instanceColor?.array as Float32Array | undefined;
+      let w = 0;
+      const wind = this.options.reducedMotion ? 0 : 1;
+      for (let s = 0; s < this.smokeSources.length; s++) {
+        const src = this.smokeSources[s]!;
+        const hs = latticeHashboard(s, 7);
+        for (let i = 0; i < SMOKE_PUFFS; i++) {
+          const phase = this.options.reducedMotion ? i / SMOKE_PUFFS : (timeSeconds * 0.16 + i / SMOKE_PUFFS + hs) % 1;
+          const rise = phase * 7.5 * src.scale;
+          const drift = phase * phase * 3.2 * wind;
+          const wobble = 0.3 * Math.sin(timeSeconds * 0.9 + i * 2.1 + s);
+          const size = (0.55 + phase * 2.6) * src.scale;
+          instanceMatrix(arr, w * 16, src.x + drift + wobble * phase, src.y + rise, src.z + drift * 0.4, 0, size, size * 1.15, size);
+          if (colArr) {
+            const shade = 0.35 + phase * 0.55;
+            colArr.set([shade, shade, shade * 1.02], w * 3);
+          }
+          w++;
+        }
+      }
+      this.smokeMesh.instanceMatrix.needsUpdate = true;
+      if (this.smokeMesh.instanceColor) this.smokeMesh.instanceColor.needsUpdate = true;
+    }
+    // Ox-carts on the lanes: out along one side of the lane and back along the other, legs stepping as they go.
+    if (this.cartCount > 0) {
+      const oxA = this.cartOx.instanceMatrix.array as Float32Array;
+      const bedA = this.cartBeds.instanceMatrix.array as Float32Array;
+      const legA = this.cartOxLegs.instanceMatrix.array as Float32Array;
+      const span = (BOARD.x1 - BOARD.x0) - 30;
+      for (let i = 0; i < this.cartCount; i++) {
+        const r = this.cartRoutes[i]!;
+        const t = this.options.reducedMotion ? r.phase : ((timeSeconds * r.speed + r.x0) / span) % 2;
+        const tt = t < 0 ? t + 2 : t;
+        const out = tt < 1;
+        const k = out ? tt : 2 - tt;
+        const x = BOARD.x0 + 15 + span * k;
+        const side = out ? CHANNEL_HALF + 0.9 : -(CHANNEL_HALF + 0.9);
+        const heading = out ? Math.PI / 2 : -Math.PI / 2;
+        const y = 0.02;
+        instanceMatrix(oxA, i * 16, x, y, r.z + side, heading, 1, 1, 1);
+        instanceMatrix(bedA, i * 16, x, y, r.z + side, heading, 1, 1, 1);
+        const swing = this.options.reducedMotion ? 0 : 0.3 * Math.sin(timeSeconds * 3.4 + i * 1.9);
+        CART_OX_JOINTS.forEach((j, q) => limbMatrix(legA, (i * 4 + q) * 16, oxA, i * 16, j[0], j[1], j[2], q === 0 || q === 3 ? swing : -swing));
+      }
+      this.cartOx.instanceMatrix.needsUpdate = true;
+      this.cartBeds.instanceMatrix.needsUpdate = true;
+      this.cartOxLegs.instanceMatrix.needsUpdate = true;
+    }
     // Boats on the river.
     const boat = this.boats.instanceMatrix.array as Float32Array;
     const span = this.envHalfWidth * 2 - 200;
@@ -673,16 +876,24 @@ export class BoardRenderer {
     this.camera.updateProjectionMatrix();
   }
 
-  info(): { drawCalls: number; triangles: number; cpuRenderMs: number; engine: string; pixels: [number, number]; walkers: number } {
+  info(): { drawCalls: number; triangles: number; geometries: number | null; textures: number | null; cpuRenderMs: number; engine: string; pixels: [number, number]; walkers: number; modelFailures: string[] } {
     const r = this.renderer.info.render as unknown as { drawCalls: number; triangles: number };
-    return { drawCalls: r.drawCalls, triangles: r.triangles, cpuRenderMs: this.cpuMs, engine: `three r${THREE.REVISION} webgpu`, pixels: [this.canvas.width, this.canvas.height], walkers: this.bodies.count };
+    const held = (this.renderer.info as unknown as { memory?: { geometries?: number; textures?: number } }).memory;
+    return { drawCalls: r.drawCalls, triangles: r.triangles, geometries: held?.geometries ?? null, textures: held?.textures ?? null, cpuRenderMs: this.cpuMs, engine: `three r${THREE.REVISION} webgpu`, pixels: [this.canvas.width, this.canvas.height], walkers: this.bodies.count, modelFailures: [...this.modelFailures] };
   }
 
   dispose(): void {
-    for (const slot of this.plots) for (const m of [...slot.meshes, ...(slot.incoming?.meshes ?? [])]) m.geometry.dispose();
+    for (const mesh of this.merged.values()) mesh.geometry.dispose();
     for (const d of this.disposables) d.dispose();
     this.pipeline?.dispose();
     this.renderer.dispose();
   }
 }
 
+
+/** A small deterministic hash for smoke phases, so no two chimneys breathe in step. */
+function latticeHashboard(a: number, b: number): number {
+  let h = (a * 374761393 + b * 668265263) >>> 0;
+  h = ((h ^ (h >> 13)) * 1274126177) >>> 0;
+  return ((h ^ (h >> 16)) >>> 0) / 4294967296;
+}
