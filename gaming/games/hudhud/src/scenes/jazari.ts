@@ -15,6 +15,8 @@ import type { ClockStyle } from "../sim/clock";
 import type { RoomHappened, RoomState } from "../sim/jazariroom";
 import type { Mover } from "../sim/move";
 import { ADD, RoomScene, lerp, type Box, type Img, type RoomHost, type RoomThing } from "./room";
+import { HELPER, SCHOLAR } from "../content/people";
+import type { Standing } from "../sim/follow";
 
 /** What the room is showing, beyond the rules' state: how far a run has been shown, and whether the door is lit. */
 export interface JazariView {
@@ -61,6 +63,10 @@ export class JazariScene extends RoomScene<JazariSceneHost> {
     // A slot on the workbench with no spare part in it is only a slot.
     if (t.kind === "spare") return spare(this.host.view().state.clock.puzzle)[(t as (typeof JR_THINGS)[number]).index!] !== undefined;
     return true;
+  }
+  /** Where the room's people stand: the explorer stops short of them (sim/follow.ts). */
+  protected override people(): readonly Standing[] {
+    return [{ x: JR_START.jazari, figure: SCHOLAR }, { x: JR_START.apprentice, figure: HELPER }];
   }
   protected override approach(t: RoomThing): number {
     return JR_APPROACH[(t as (typeof JR_THINGS)[number]).kind];

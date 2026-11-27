@@ -6,8 +6,8 @@
 // The scene is "workshop" (the default: Ibn al-Haytham's workshop), "jazari" (al-Jazari's workshop and the elephant
 // clock, the second room on the room engine, 27 November 2026), "tusi" (al-Tusi's observatory and the two circles, the
 // third room), "khwarizmi" (al-Khwarizmi's room and the locked box, the fourth room), "kindi" (al-Kindi's room and the
-// secret page, the fifth room), "idrisi" (al-Idrisi's hall and the scattered sheets, the sixth room) or "razi" (al-Razi's
-// study and the loose leaves, the seventh room).
+// secret page, the fifth room), "idrisi" (al-Idrisi's hall and the scattered sheets, the sixth room), "razi" (al-Razi's
+// study and the loose leaves, the seventh room) or "karima" (Karima al-Marwaziyya's room and the copies, the eighth room).
 // It measures the machine it runs on. A pass here is not a pass on the museum's two reference machines.
 import { mkdirSync, writeFileSync } from "node:fs";
 import { resolve } from "node:path";
@@ -15,10 +15,11 @@ import { chromium, type Page } from "playwright-core";
 import { solve, type LightPuzzle } from "../games/hudhud/src/sim/light";
 import { leaveOpening } from "./hudhud-opening";
 import { serveWorkspace } from "./serve";
+import { slipsOf } from "../games/hudhud/src/sim/collate";
 
 const [outArg, lang = "en", quality = "medium", w = "1920", h = "1080", style = "explorer", scene = "workshop"] = process.argv.slice(2);
 if (!outArg) throw new Error("usage: hudhud-play.ts <out dir> [lang] [quality] [width] [height] [style] [scene]");
-if (scene !== "workshop" && scene !== "jazari" && scene !== "tusi" && scene !== "khwarizmi" && scene !== "kindi" && scene !== "idrisi" && scene !== "razi") throw new Error(`hudhud-play.ts: no scene called ${scene} (workshop, jazari, tusi, khwarizmi, kindi, idrisi or razi)`);
+if (scene !== "workshop" && scene !== "jazari" && scene !== "tusi" && scene !== "khwarizmi" && scene !== "kindi" && scene !== "idrisi" && scene !== "razi" && scene !== "karima") throw new Error(`hudhud-play.ts: no scene called ${scene} (workshop, jazari, tusi, khwarizmi, kindi, idrisi, razi or karima)`);
 const out = resolve(outArg);
 mkdirSync(out, { recursive: true });
 const tag = `${scene === "workshop" ? "" : `${scene}-`}${lang}-${quality}-${w}x${h}`;
@@ -89,6 +90,7 @@ try {
   else if (scene === "kindi") await playKindi();
   else if (scene === "idrisi") await playIdrisi();
   else if (scene === "razi") await playRazi();
+  else if (scene === "karima") await playKarima();
   else await playWorkshop();
 } catch (e) {
   report.failed = String(e);
@@ -1010,6 +1012,135 @@ async function playRazi(): Promise<void> {
   const reopen = async () => {
     await hk("h.toAtlas(); h.startRazi();");
     await page.waitForFunction("window.__HH__.razi() !== null && window.__HH__.where() !== null", undefined, { timeout: 30000 });
+  };
+  await reopen();
+  await page.waitForTimeout(800);
+  const first = await cycle();
+  for (let i = 0; i < 9; i++) {
+    await reopen();
+    await page.waitForTimeout(300);
+  }
+  await page.waitForTimeout(800);
+  report.lifecycle = { afterOneOpening: first, afterTenOpenings: await cycle(), canvases: await page.evaluate("document.querySelectorAll('canvas').length") };
+}
+/**
+ * Karima al-Marwaziyya's room, played to its end by flight as a player would: the talks gone through with the keyboard,
+ * both questions, the kind answer and the feather between the spare copies, a wrong mark and a slip marked and unmarked,
+ * frame times while the bird crosses the room and back, a lost graphics context, every slip (worked out from the copies
+ * the room holds) marked by flight, the lit door walked to, and what opening the room ten times leaves behind.
+ */
+async function playKarima(): Promise<void> {
+  type Kr = { marks: { copy: number; place: number }[]; wrong: number; flags: string[]; done: boolean; talk: unknown; doorLit: boolean; puzzle: { copies: string[][]; hers: number } };
+  const kr = () => hk<Kr>("return h.karima();");
+  const noteKr = async (step: string) => {
+    const s = await kr();
+    route.push({ step, at: Date.now() - t0, where: await hk("return h.where();"), turns: s.marks.length + s.wrong, flags: s.flags, restored: s.done, dark: false, done: s.doorLit });
+  };
+  const roomTalk = async (pick: string[] = []) => {
+    const picks = [...pick];
+    for (let i = 0; i < 20 && (await kr()).talk !== null; i++) {
+      await page.waitForTimeout(350);
+      const choices = page.locator(".room-box .talk .choices button");
+      if ((await choices.count()) > 0) {
+        const want = picks.shift();
+        await (want ? choices.filter({ hasText: want }).first() : choices.last()).click();
+      } else await page.keyboard.press("Enter");
+    }
+    await page.waitForTimeout(250);
+  };
+  const fly = async (id: string, until: string) => {
+    await hk(`h.goTo(${JSON.stringify(id)});`);
+    await page.waitForFunction(`(() => { const h = window.__HH__; return ${until}; })()`, undefined, { timeout: 8000 });
+    await page.waitForTimeout(200);
+  };
+  const tStart = Date.now();
+  await page.locator(".hub button[data-quest='w05q3-karima-al-marwaziyya']").click();
+  await page.waitForFunction("window.__HH__.karima() !== null && window.__HH__.where() !== null", undefined, { timeout: 30000 });
+  report.msFromPlayToScene = Date.now() - tStart;
+  await page.waitForTimeout(900);
+  await shot("intro-talk");
+  await noteKr("room open");
+  await roomTalk();
+
+  await fly("karima", "h.karima().talk !== null");
+  await shot("karima-talk");
+  await roomTalk(["Ask who Karima was", "Ask about her book"]);
+  await noteKr("asked Karima both questions");
+  await fly("boy", "h.karima().talk !== null");
+  await roomTalk(["You spoiled nothing."]);
+  await noteKr("answered the boy kindly");
+  await fly("stack", "h.karima().flags.includes('feather')");
+  await shot("feather-between-the-copies");
+  await roomTalk();
+  await noteKr("found the feather");
+
+  // A wrong mark, refused and counted; a slip marked and its mark taken away again.
+  const slips = slipsOf((await kr()).puzzle);
+  const isSlip = (c: number, p: number) => slips.some((x) => x.copy === c && x.place === p);
+  const wrongAt = [0, 1, 2, 3].map((p) => ({ copy: 0, place: p })).find((x) => !isSlip(x.copy, x.place))!;
+  await fly(`sign-${wrongAt.copy}-${wrongAt.place}`, "h.karima().wrong === 1");
+  await shot("wrong-mark");
+  await noteKr("a wrong mark refused");
+  await fly(`sign-${slips[0]!.copy}-${slips[0]!.place}`, "h.karima().marks.length === 1");
+  await shot("slip-marked");
+  await fly(`sign-${slips[0]!.copy}-${slips[0]!.place}`, "h.karima().marks.length === 0");
+  await noteKr("a slip marked and unmarked");
+
+  // Frame times while the bird crosses the whole room and back, with everything running.
+  await hk("h.resetFrames();");
+  await page.locator(".room-box .stage").focus();
+  for (const key of ["ArrowRight", "ArrowLeft"]) {
+    await page.keyboard.down(key);
+    for (let i = 0; i < 14; i++) {
+      await page.keyboard.down("Space");
+      await page.waitForTimeout(120);
+      await page.keyboard.up("Space");
+      await page.waitForTimeout(380);
+    }
+    await page.keyboard.up(key);
+  }
+  const heap = () => page.evaluate("performance.memory ? performance.memory.usedJSHeapSize : null") as Promise<number | null>;
+  report.benchmark = { route: "the whole width and back, hopping and flapping, 14 seconds", info: await hk("return h.info();"), heapBytes: await heap() };
+
+  // A lost graphics context, before the slips are marked: what the player sees, and whether the room comes back.
+  report.contextLoss = await page.evaluate(`(async () => {
+    const canvas = document.querySelector('.room-box .stage canvas');
+    const gl = canvas.getContext('webgl2') || canvas.getContext('webgl');
+    const ext = gl && gl.getExtension('WEBGL_lose_context');
+    if (!ext) return { tried: false };
+    ext.loseContext();
+    await new Promise((r) => setTimeout(r, 600));
+    const toast = document.querySelector('.toast') ? document.querySelector('.toast').textContent : null;
+    ext.restoreContext();
+    await new Promise((r) => setTimeout(r, 2500));
+    return { tried: true, toast, sceneBack: window.__HH__.where() !== null, marks: window.__HH__.karima().marks.length, wrong: window.__HH__.karima().wrong };
+  })()`);
+
+  // Every slip marked by flight.
+  for (const [i, x] of slips.entries()) {
+    const n = (await kr()).marks.length;
+    await fly(`sign-${x.copy}-${x.place}`, `h.karima().marks.length === ${n + 1} || h.karima().done`);
+    if (i === 2) await shot("marking");
+  }
+  await page.waitForFunction("window.__HH__.karima().doorLit", undefined, { timeout: 15000 });
+  await page.waitForTimeout(600);
+  await shot("every-slip-marked");
+  await roomTalk();
+  await noteKr("every slip is marked");
+  report.puzzle = { marks: (await kr()).marks.length, wrong: (await kr()).wrong };
+  report.goals = await page.evaluate("JSON.parse(localStorage.getItem('im.hudhud.save.v1') || 'null')?.slots?.[0]?.quests?.['w05q3-karima-al-marwaziyya'] ?? null");
+  await shot("results");
+  await page.locator(".room-box .stage").focus();
+  await page.keyboard.down("ArrowRight");
+  await page.waitForFunction("!document.querySelector('.hub').hidden", undefined, { timeout: 25000 }).finally(() => page.keyboard.up("ArrowRight"));
+  report.door = await hk("return h.lastDoor();");
+  report.save = await page.evaluate("JSON.parse(localStorage.getItem('im.hudhud.save.v1') || 'null')");
+
+  // Opening the room again and again: what it holds must not grow.
+  const cycle = async () => ({ ...(await hk<Record<string, unknown>>("const i = h.info(); return { textures: i.textures, textureBytes: i.textureBytes, objects: i.objects, tweens: i.tweens };")), heapBytes: await heap() });
+  const reopen = async () => {
+    await hk("h.toAtlas(); h.startKarima();");
+    await page.waitForFunction("window.__HH__.karima() !== null && window.__HH__.where() !== null", undefined, { timeout: 30000 });
   };
   await reopen();
   await page.waitForTimeout(800);

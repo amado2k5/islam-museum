@@ -41,6 +41,8 @@ const here = (...p: string[]) => resolve(__dirname, "..", ...p);
 const table = (lang: string) => JSON.parse(readFileSync(resolve(__dirname, "..", "..", "i18n", `${lang}.json`), "utf8")) as Record<string, string>;
 const atlasTable = (lang: string) => JSON.parse(readFileSync(resolve(__dirname, "..", "..", "i18n-atlas", `${lang}.json`), "utf8")) as Record<string, string>;
 const kr = (lang: string) => Object.entries(table(lang)).filter(([k]) => k.startsWith("kr_"));
+/** The strings of Karima al-Marwaziyya's room (krr_, 27 November 2026), which keeps the quest's rule of no religious text. */
+const krr = (lang: string) => Object.entries(table(lang)).filter(([k]) => k.startsWith("krr_"));
 const play = (s: CollateState, cs: CollateCommand[]) => cs.reduce(applyCollate, s);
 const fresh = (style: CollateStyle) => newCollate(style, collatePuzzle(style));
 const page = (lang: string) => readFileSync(resolve(root, "content", lang, "person", "karima-al-marwaziyya.md"), "utf8").replace(/\s+/g, " ");
@@ -296,7 +298,8 @@ describe("the page and the registry", () => {
     expect(app).toContain("restoreCollate(snap, collatePuzzle)");
     // The table of built quests is content/journey.ts's since the journey (27 November 2026).
     expect(readFileSync(here("content", "journey.ts"), "utf8")).toContain("[COLLATE_SUBJECT]: COLLATE_QUEST");
-    expect(app).toContain("startCollate: () => openPage(COLLATE_QUEST)");
+    // Since Karima al-Marwaziyya's room (27 November 2026) the hook opens the quest on its page, the way it is played without WebGL.
+    expect(app).toContain("startCollate: () => openPage(COLLATE_QUEST, null, true)");
     expect(app).toMatch(/collate: \(\) => \{ const r = pageOf<CollateQuest>\(COLLATE_QUEST\)/);
     expect(app).toContain("collateCommand:");
   });
@@ -393,7 +396,7 @@ describe("the words", () => {
     // Three notes and no fourth.
     for (const l of LANGS) expect(Object.keys(table(l)).filter((k) => k.startsWith("kr_note_")), l).toEqual(["kr_note_1", "kr_note_2", "kr_note_3"]);
   });
-  it("shows no religious text: the words for hadith, Sahih, Qur'an and verse appear in no string of the quest but the narrator's two answers and the second and third notes, in any of the seven languages", () => {
+  it("shows no religious text: the words for hadith, Sahih, Qur'an and verse appear in no string of the quest but the narrator's two answers and the second and third notes, nor in any string of Karima's room but its note, in any of the seven languages", () => {
     const NAMED = new Set(["kr_who_1", "kr_book_1", "kr_note_2", "kr_note_3"]);
     // Whole words (or the start of words) in the Latin-script languages; the letters themselves in Arabic and Urdu, so
     // that a word joined to a conjunction or an article is caught too.
@@ -418,6 +421,21 @@ describe("the words", () => {
     }
     // The named lines do carry the word, in every language: the test would see it if it strayed.
     expect(named).toBe(LANGS.length * 4);
+    // Karima's room keeps the rule: of its strings only its note (krr_note_room), which says that the game shows nothing of
+    // the text of any hadith, may carry one of these words, and it does, in every language.
+    let roomNote = 0;
+    for (const l of LANGS) {
+      expect(krr(l).length, l).toBeGreaterThan(0);
+      for (const [k, v] of krr(l)) {
+        if (k === "krr_note_room") {
+          if (BANNED[l]!.test(v)) roomNote++;
+          continue;
+        }
+        expect(BANNED[l]!.test(v), `${l}:${k}: ${v}`).toBe(false);
+      }
+      expect(krr(l).map(([, v]) => v).join(" "), l).not.toMatch(/[﴿﴾«»“”]|passage\//);
+    }
+    expect(roomNote).toBe(LANGS.length);
     // And no ﴿ ﴾, no Qur'anic passage link, no quotation marks round any text in any string of the quest.
     for (const l of LANGS) for (const [k, v] of kr(l)) expect(v, `${l}:${k}`).not.toMatch(/[﴿﴾«»“”]|passage\//);
   });
@@ -449,14 +467,14 @@ describe("the words", () => {
       expect(new Set(SIGNS.map((id) => t[`kr_sign_${id.replace(/-/g, "_")}`])).size, l).toBe(SIGNS.length);
     }
   });
-  it("is appended at the end of each language's file, after the keys of the twelfth quest, and only the journey's keys (`jn_`) and al-Jazari's room's (`jr_`), then al-Tusi's room's (`tsr_`), then al-Khwarizmi's room's (`akr_`), then al-Kindi's room's (`kdr_`), then al-Idrisi's hall's (`isr_`), then al-Razi's study's (`rzr_`) come after it", () => {
+  it("is appended at the end of each language's file, after the keys of the twelfth quest, and only the journey's keys (`jn_`) and al-Jazari's room's (`jr_`), then al-Tusi's room's (`tsr_`), then al-Khwarizmi's room's (`akr_`), then al-Kindi's room's (`kdr_`), then al-Idrisi's hall's (`isr_`), then al-Razi's study's (`rzr_`), then Karima's room's (`krr_`) come after it", () => {
     for (const l of LANGS) {
       const ks = Object.keys(table(l));
       const first = ks.findIndex((k) => k.startsWith("kr_"));
       expect(first, l).toBeGreaterThan(0);
       const count = ks.filter((k) => k.startsWith("kr_")).length;
       expect(ks.slice(first, first + count).every((k) => k.startsWith("kr_")), l).toBe(true);
-      expect(ks.slice(first + count).every((k) => k.startsWith("jn_") || k.startsWith("jr_") || k.startsWith("tsr_") || k.startsWith("akr_") || k.startsWith("kdr_") || k.startsWith("isr_") || k.startsWith("rzr_")), l).toBe(true);
+      expect(ks.slice(first + count).every((k) => k.startsWith("jn_") || k.startsWith("jr_") || k.startsWith("tsr_") || k.startsWith("akr_") || k.startsWith("kdr_") || k.startsWith("isr_") || k.startsWith("rzr_") || k.startsWith("krr_")), l).toBe(true);
       expect(ks[first - 1]!.startsWith("rz_"), l).toBe(true);
     }
   });

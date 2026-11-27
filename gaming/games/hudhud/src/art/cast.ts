@@ -576,6 +576,33 @@ export function leafChild(scale: number): KeeperArt {
   return { ...art, body };
 }
 
+/**
+ * The boy who carries the copies in Karima al-Marwaziyya's room, an invented person (the copies' quest's own): the same
+ * cut-out as the explorer, in one fixed look of the boy's own (a round cap, a teal tunic), holding a small bundle of plain
+ * folded copies against the chest, tied with a cord. Nothing on them is drawn or written.
+ */
+export function copyBoy(scale: number): KeeperArt {
+  const art = keeper(scale, { kind: 0, skin: 1, outfit: 0, hair: 2 });
+  const [body, b] = sheet(art.body.w, art.body.h, scale);
+  b.drawImage(art.body.canvas, 0, 0, art.body.w, art.body.h);
+  for (const [dy, fill] of [[0, "#efe2c2"], [-7, "#f6ecd2"], [-14, "#efe2c2"]] as const) {
+    blob(b, [
+      [26, 64 + dy],
+      [70, 60 + dy],
+      [72, 78 + dy],
+      [28, 82 + dy],
+    ]);
+    fillStroke(b, fill, INK, 1.8);
+  }
+  b.strokeStyle = "#9a6232";
+  b.lineWidth = 2.4;
+  b.beginPath();
+  b.moveTo(48, 44);
+  b.lineTo(50, 82);
+  b.stroke();
+  return { ...art, body };
+}
+
 // ---------------------------------------------------------------------------------------------- the scholar
 /** The colours a scholar's figure is drawn in. The default is Ibn al-Haytham's, as the workshop has always drawn him;
  * al-Jazari's figure is the same cut-out in other colours, with an apron (art/jazari.ts's room), al-Tusi's in night
@@ -856,6 +883,114 @@ export function scholar(scale: number, look: ScholarLook = SCHOLAR_LOOK): Schola
   fillStroke(a, look.skin, INK, 2);
   brush(a, 60, 140, `${look.seed}-arm`, { strokes: 40, strength: 0.8 });
   return { body, arm, head: scholarHead(scale, true, look), headBlink: scholarHead(scale, false, look) };
+}
+
+// ---------------------------------------------------------------------------------------------- Karima
+/**
+ * Karima al-Marwaziyya as the game imagines her in her room (art/karima.ts): a respectful cut-out of the same size and
+ * parts as the scholar's (a body, an arm that points, a head that blinks), so that the room engine places her as it
+ * places every room's figure; a cream headscarf that frames the face and falls over the shoulders, and a plain long dress
+ * of deep blue-green with a quiet brown border. Not a likeness: no picture of her is known to the museum, and the quest's
+ * note already says she is drawn for play.
+ */
+export const KARIMA_LOOK = { skin: "#d9a87c", scarf: ["#fbf3e0", "#ddd0b2"], dress: ["#2f6f6a", "#1f4c4a"], border: "#8a5a30", wrap: "#7a5a8a" } as const;
+function karimaHead(scale: number, open: boolean): Painted {
+  const [p, ctx] = sheet(150, 170, scale);
+  const cx = 74;
+  const cy = 98;
+  const L = KARIMA_LOOK;
+  // The headscarf behind the face, falling to the shoulders.
+  blob(ctx, [
+    [cx - 56, cy + 66],
+    [cx - 58, cy - 20],
+    [cx - 36, cy - 66],
+    [cx + 4, cy - 76],
+    [cx + 44, cy - 62],
+    [cx + 60, cy - 18],
+    [cx + 58, cy + 66],
+    [cx, cy + 70],
+  ]);
+  fillStroke(ctx, linear(ctx, 0, cy - 76, 0, cy + 70, [[0, L.scarf[0]], [1, L.scarf[1]]]), INK, 2.4);
+  // The face.
+  ctx.beginPath();
+  ctx.ellipse(cx + 2, cy + 2, 35, 40, 0, 0, Math.PI * 2);
+  fillStroke(ctx, L.skin, INK, 2.2);
+  // The edge of the scarf round the face, and its folds.
+  ctx.strokeStyle = "rgba(122,90,60,0.55)";
+  ctx.lineWidth = 2;
+  ctx.beginPath();
+  ctx.arc(cx + 2, cy + 2, 43, 1.02 * Math.PI, 1.98 * Math.PI);
+  ctx.stroke();
+  for (const s of [-1, 1]) {
+    ctx.beginPath();
+    ctx.moveTo(cx + s * 44, cy + 10);
+    ctx.quadraticCurveTo(cx + s * 50, cy + 40, cx + s * 40, cy + 62);
+    ctx.stroke();
+  }
+  eyes(ctx, cx + 5, cy, { skin: L.skin, open, r: 35 }, 14, 8);
+  ctx.strokeStyle = "rgba(120,70,40,0.75)";
+  ctx.lineWidth = 2;
+  ctx.beginPath();
+  ctx.moveTo(cx + 7, cy + 4);
+  ctx.quadraticCurveTo(cx + 13, cy + 15, cx + 5, cy + 16);
+  ctx.stroke();
+  smile(ctx, cx + 6, cy + 25, 8, true);
+  blush(ctx, cx - 16, cy + 14, 7);
+  blush(ctx, cx + 26, cy + 14, 7);
+  return p;
+}
+export function karima(scale: number): ScholarArt {
+  const L = KARIMA_LOOK;
+  const [body, b] = sheet(210, 270, scale);
+  // The plain long dress, shoulders to floor.
+  blob(b, [
+    [62, 6],
+    [148, 6],
+    [182, 60],
+    [192, 262],
+    [18, 262],
+    [28, 60],
+  ]);
+  fillStroke(b, linear(b, 0, 0, 0, 262, [[0, L.dress[0]], [1, L.dress[1]]]), INK, 2.6);
+  b.fillStyle = L.border;
+  b.fillRect(20, 246, 170, 9);
+  // The scarf falling over the shoulders and down the front.
+  for (const pts of [[[62, 6], [92, 6], [86, 120], [52, 150], [34, 70]], [[148, 6], [118, 6], [124, 120], [158, 150], [176, 70]]]) {
+    b.beginPath();
+    pts.forEach(([x, y], i) => (i ? b.lineTo(x!, y!) : b.moveTo(x!, y!)));
+    b.closePath();
+    fillStroke(b, L.scarf[1], INK, 2.2);
+  }
+  // A plain wrap round the waist.
+  blob(b, [
+    [40, 150],
+    [170, 150],
+    [174, 168],
+    [36, 168],
+  ]);
+  fillStroke(b, L.wrap, INK, 2);
+  brush(b, 210, 270, "karima-body", { strokes: 240, strength: 0.8 });
+
+  const [arm, a] = sheet(60, 140, scale);
+  blob(a, [
+    [8, 6],
+    [50, 6],
+    [54, 96],
+    [6, 96],
+  ]);
+  fillStroke(a, L.dress[0], INK, 2.4);
+  a.fillStyle = L.border;
+  a.fillRect(7, 84, 46, 8);
+  blob(a, [
+    [17, 96],
+    [43, 96],
+    [45, 120],
+    [30, 134],
+    [15, 120],
+  ]);
+  fillStroke(a, L.skin, INK, 2);
+  brush(a, 60, 140, "karima-arm", { strokes: 36, strength: 0.8 });
+  return { body, arm, head: karimaHead(scale, true), headBlink: karimaHead(scale, false) };
 }
 
 // ---------------------------------------------------------------------------------------------- the cat

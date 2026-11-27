@@ -15,6 +15,8 @@ import type { AlgebraStyle, Equation } from "../sim/algebra";
 import type { Mover } from "../sim/move";
 import { touchableNow, trayLayout, type KhwarizmiHappened, type KhwarizmiState } from "../sim/khwarizmiroom";
 import { ADD, RoomScene, lerp, type Box, type Img, type RoomHost, type RoomThing } from "./room";
+import { HELPER, SCHOLAR } from "../content/people";
+import type { Standing } from "../sim/follow";
 
 /** What the room is showing, beyond the rules' state: whether the door is lit. */
 export interface KhwarizmiView {
@@ -61,6 +63,10 @@ export class KhwarizmiScene extends RoomScene<KhwarizmiSceneHost> {
   protected override touchable(t: RoomThing): boolean {
     // A hollow group is there only while something of its kind is taken away on its side.
     return touchableNow(this.host.view().state.algebra, t.id);
+  }
+  /** Where the room's people stand: the explorer stops short of them (sim/follow.ts). */
+  protected override people(): readonly Standing[] {
+    return [{ x: AKR_START.khwarizmi, figure: SCHOLAR }, { x: AKR_START.child, figure: HELPER }];
   }
   protected override approach(t: RoomThing): number {
     return AKR_APPROACH[(t as AkrThing).kind];

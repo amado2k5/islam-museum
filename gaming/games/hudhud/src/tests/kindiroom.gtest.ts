@@ -212,13 +212,13 @@ describe("al-Kindi's room: its strings", () => {
   // They were the last eighteen of every table until al-Idrisi's hall (27 November 2026) appended its own after them, and
   // al-Razi's study its own after those; they are still one block, in the same order, in every table, and only those two
   // rooms' keys come after them.
-  it("are eighteen, one block in every table, in the same order, with only al-Idrisi's hall's and al-Razi's study's keys after them", () => {
+  it("are eighteen, one block in every table, in the same order, with only al-Idrisi's hall's, al-Razi's study's and Karima's room's keys after them", () => {
     expect(keys).toHaveLength(18);
     for (const l of LANGS) {
       const all = Object.keys(tables[l]!);
       const at = all.indexOf(keys[0]!);
       expect(all.slice(at, at + keys.length), l).toEqual(keys);
-      expect(all.slice(at + keys.length).every((k) => k.startsWith("isr_") || k.startsWith("rzr_")), l).toBe(true);
+      expect(all.slice(at + keys.length).every((k) => k.startsWith("isr_") || k.startsWith("rzr_") || k.startsWith("krr_")), l).toBe(true);
     }
   });
   it("say that the room, the board, the marks hung on it and the bell are invented, in the founder's words in Arabic and English", () => {

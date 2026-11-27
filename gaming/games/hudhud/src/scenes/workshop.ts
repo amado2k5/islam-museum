@@ -16,6 +16,8 @@ import type { Segment } from "../sim/light";
 import type { Mover } from "../sim/move";
 import { beam, type Happened, type SceneState } from "../sim/scene";
 import { ADD, QUALITY, RoomScene, lerp, type Box, type Img, type RoomHost, type RoomLayout, type RoomThing } from "./room";
+import { SCHOLAR } from "../content/people";
+import type { Standing } from "../sim/follow";
 
 export interface SceneHost extends RoomHost {
   state(): SceneState;
@@ -74,6 +76,10 @@ export class WorkshopScene extends RoomScene<SceneHost> {
     const s = this.host.state();
     if (!inPlay(t as Thing, s.puzzle)) return false;
     return !(t.kind === "feather" && s.flags.includes("feather"));
+  }
+  /** Where the room's people stand: the explorer stops short of them (sim/follow.ts). */
+  protected override people(): readonly Standing[] {
+    return [{ x: START_AT.scholar.x, figure: SCHOLAR }];
   }
   protected override approach(t: RoomThing): number {
     return t.kind === "mirror" ? -44 : t.kind === "person" ? 110 : 0;

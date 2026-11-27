@@ -15,6 +15,8 @@ import { ranked, type CipherStyle } from "../sim/cipher";
 import type { Mover } from "../sim/move";
 import type { KindiHappened, KindiState } from "../sim/kindiroom";
 import { ADD, RoomScene, lerp, type Box, type Img, type RoomHost, type RoomThing } from "./room";
+import { HELPER, SCHOLAR } from "../content/people";
+import type { Standing } from "../sim/follow";
 
 /** What the room is showing, beyond the rules' state: whether the door is lit. */
 export interface KindiView {
@@ -55,6 +57,10 @@ export class KindiScene extends RoomScene<KindiSceneHost> {
   }
   protected lit(): boolean {
     return this.host.view().done;
+  }
+  /** Where the room's people stand: the explorer stops short of them (sim/follow.ts). */
+  protected override people(): readonly Standing[] {
+    return [{ x: KDR_START.kindi, figure: SCHOLAR }, { x: KDR_START.messenger, figure: HELPER }];
   }
   protected override approach(t: RoomThing): number {
     return KDR_APPROACH[(t as KdrThing).kind];

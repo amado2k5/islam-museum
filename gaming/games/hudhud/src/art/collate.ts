@@ -201,8 +201,8 @@ export function drawSign(c: Ctx, id: string, r: number, bg: string): void {
   c.restore();
 }
 
-/** Her copy's mark: a small round seal, a ring within a disc with a ring of dots round it (no letter on it). */
-function seal(c: Ctx, x: number, y: number): void {
+/** Her copy's mark: a small round seal, a ring within a disc with a ring of dots round it (no letter on it). Shared with Karima's room (art/karima.ts). */
+export function seal(c: Ctx, x: number, y: number): void {
   c.save();
   c.fillStyle = PAL.terracotta;
   c.beginPath();
@@ -225,8 +225,8 @@ function seal(c: Ctx, x: number, y: number): void {
   c.fill();
   c.restore();
 }
-/** Another copy's mark: as many dots as its number, one under another. */
-function dots(c: Ctx, x: number, y: number, count: number): void {
+/** Another copy's mark: as many dots as its number, one under another. Shared with Karima's room. */
+export function dots(c: Ctx, x: number, y: number, count: number): void {
   c.save();
   c.fillStyle = PAL.cream;
   for (let i = 0; i < count; i++) {
@@ -236,8 +236,8 @@ function dots(c: Ctx, x: number, y: number, count: number): void {
   }
   c.restore();
 }
-/** A broken red ring round a marked slip. */
-function slipRing(c: Ctx, x: number, y: number, r: number): void {
+/** A broken red ring round a marked slip. Shared with Karima's room. */
+export function slipRing(c: Ctx, x: number, y: number, r: number): void {
   c.save();
   c.lineWidth = 4;
   c.strokeStyle = "#e0463c";
