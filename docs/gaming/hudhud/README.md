@@ -21,6 +21,8 @@ _A 2D story game for the museum's gaming platform. Working title. **Prototype: o
 
 **The journey (27 November 2026, asked for by the founder):** the Atlas now also plays the built quests one after another; each scene ends at a door that lights up when its mission is done, and walking Hudhud to it (or pressing "Go through the door") moves on. As built: [design](design.md#the-journey-and-the-door-as-built-27-november-2026); its access: [accessibility](accessibility.md); its checks and limits: [test plan](test-plan.md) (D41).
 
+**Rooms (27 November 2026, asked for by the founder):** every scene is to become a complete room with its own figure, played by flying to things and touching them, not a page and a corridor. Built so far: a shared room engine (`scenes/room.ts`), with Ibn al-Haytham's workshop as its first room, and **al-Jazari's workshop**, where the elephant clock is now played (from the Atlas and in the journey; on the clock's page only without WebGL). It is code-drawn trial art awaiting the founder's word on the look before more rooms are made; the other eleven page quests keep their page and corridor until then. As built: [design](design.md#rooms-the-shape-of-every-scene-27-november-2026), [architecture](architecture.md#the-room-engine-27-november-2026), [art bible](art-bible.md#the-second-room-al-jazaris-workshop-27-november-2026); its limits: [test plan](test-plan.md) (D42).
+
 Also: [**what remains before it is a whole game**](remaining.md); [the state of the game](../games/hudhud.md); [the player's explorers](explorers.md) (a girl or a boy, built; a roster by region and century, proposed); [the pause of the other games](pause-of-other-games.md).
 
 ## What the founder is asked to decide

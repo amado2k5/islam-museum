@@ -8,6 +8,8 @@ The game opens on **the Atlas**: a page that names the ten worlds and their fift
 
 **A journey** (added 27 November 2026, asked for by the founder): a button above the worlds plays the thirteen built quests one after another, the flying scene first and then the twelve page quests in the Atlas's order, and the save keeps where it has got to. When a scene's mission is done a door lights up: in the flying scene a code-drawn arched door at the garden's far end, with the goals and the museum note in a panel beside the stage instead of a sheet over it; on a solved page, a short code-drawn corridor above the results with Hudhud at one end and the lit door at the other. Walking the bird to the door, with the same controls as the flying scene, goes on to the next scene (in free play, back to the Atlas); a "Go through the door" button does the same for a player who cannot use the walking controls. The corridor is a simple trial, and the move between scenes is a change of page and a line from Hudhud, not a played level. Every quest can still be chosen on its own from the Atlas.
 
+**Rooms** (added 27 November 2026, asked for by the founder): a shared room engine now carries two walkable rooms, Ibn al-Haytham's workshop and **al-Jazari's workshop**, where the elephant clock is played by flying: Hudhud picks a part up in its beak, puts it in a place on the clock's frame, asks al-Jazari about the float and the balls, answers the apprentice and finds the feather on a high shelf, then pulls the lever; the clock's rules, puzzles and words are the clock quest's own, and the room, its workbench and the frame that holds the parts are invented for play (the room's note says so). The room is code-drawn trial art awaiting the founder's word on the look; the other eleven page quests keep their page and corridor until then. Without WebGL the clock is played on its page.
+
 ![The Atlas](../evidence/hudhud/golden-scene/atlas-en.webp)
 
 One scene of a few minutes, the "golden scene" the founder's instruction asks for before any art is made in number: Ibn al-Haytham's light workshop, opening on a garden and a town at evening.
@@ -27,7 +29,7 @@ _Captures of the running game, Chrome, 26 November 2026, made by `gaming/tools/h
 
 - **Not the game.** The instruction asks for ten worlds, fifty quests and 20 to 30 hours. This is one scene and twelve short trial quests. Phases 2 to 4 are not started.
 - **Not accepted art.** Every picture is drawn by code an AI agent wrote. Beside the founder's pictures it is plainly simpler ([the comparison and the routes to real art](../hudhud/art-bible.md)). The game's own page says the pictures are a trial.
-- **Not reviewed history.** Forty-six Hudhud entries (HR-HH-01 to HR-HH-46), and others, in [the ledger](../historical-review/ledger.md), all pending; no reviewer is named. The page says "Historical review pending" in seven languages, and every line the scholar speaks is marked "Imagined words, not a quotation". The prism of the founder's pictures, which no record read for the scene supports, is not shown.
+- **Not reviewed history.** Forty-seven Hudhud entries (HR-HH-01 to HR-HH-47), and others, in [the ledger](../historical-review/ledger.md), all pending; no reviewer is named. The page says "Historical review pending" in seven languages, and every line the scholar speaks is marked "Imagined words, not a quotation". The prism of the founder's pictures, which no record read for the scene supports, is not shown.
 - **Not read by a native speaker.** Seven string tables, all machine drafts.
 - **Not played by children, parents or teachers, as far as this repository records.** The author's scripts have played it, and one independent play of the UAT release found faults that were then fixed (defects D10 to D12 in the [test plan](../hudhud/test-plan.md)). No observation of anyone playing it in production is recorded here.
 - **Not measured where it counts.** One machine, the founder's M4 Max; neither reference machine.
@@ -40,8 +42,8 @@ _Captures of the running game, Chrome, 26 November 2026, made by `gaming/tools/h
 | Page in a release | main script 1.71 MB (1,712,305 bytes; 368,754 with Brotli at quality 11, 458,761 with gzip at level 9), style 18,723 bytes, no picture or sound file (measured 27 November 2026, UTC, with the journey and its doors; with Karima's copies it was 1,701,486 bytes and 17,532 of style; from the file `build:release` wrote, compressed with Node's zlib; the measurements for al-Razi's loose leaves (1,685,922 bytes), the Alhambra quest (1,678,439 bytes), the journey of coffee (1,656,596 bytes), al-Tusi's two circles (1,648,736 bytes), Ibn Battuta's thread (1,635,886 bytes), the paper of Samarkand (1,623,139 bytes), the animal cards (1,608,920 bytes), the scattered sheets (1,590,733) and the locked box (1,574,574) are kept as past measurements in the [test plan](../hudhud/test-plan.md), and the first, 1.46 MB and 311 KB, in [G-0013](../adr/G-0013-hudhud-2d-engine.md)) |
 | Play to scene | about 0.4 s |
 | Textures in memory | 20 MB (Low), 45 MB (Medium), 80 MB (High) |
-| Draw calls a frame | 15 to 20 |
-| Tests | 721 of its own under `games/hudhud/` (twenty-three files); 1,123 in the workspace (49 files), all passing (run 27 November 2026, UTC, with the journey and its doors, after merging `main`); 82 browser check records, all passing |
+| Draw calls a frame | 15 to 20 in the workshop; 8 in al-Jazari's workshop at Medium |
+| Tests | 757 of its own under `games/hudhud/` (twenty-four files); 1,189 in the workspace (56 files), all passing (run 27 November 2026, UTC, with the room engine and al-Jazari's workshop, after merging `main`); 91 browser check records, all passing |
 
 ## Next
 

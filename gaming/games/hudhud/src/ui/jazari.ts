@@ -134,8 +134,8 @@ export function jazariRoom(host: JazariHost): JazariRoom {
     h("p", { textContent: t("jr_note_room") }),
     h("p", { class: "small", textContent: t("art_note") }),
     h("h2", { textContent: t("controls_title") }),
+    // The keys only: the workshop's line about touch speaks of tapping a mirror, which this room has not.
     h("p", { class: "small", textContent: t("controls_keys") }),
-    h("p", { class: "small", textContent: t("controls_touch") }),
   );
   const node = h("div", { class: "room" }, heading, stageWrap, doorPanel, h("div", { class: "words" }, words, note), live);
 
