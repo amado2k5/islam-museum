@@ -153,6 +153,24 @@ describe("the plots of the plain", () => {
     }
   });
 
+  it("carries each plot's ground-atlas slot and shade in the table, for the painted detail", () => {
+    const table = plotTable(SEED);
+    const slotOf: Record<string, number> = { green: 4, young: 1, ploughed: 0, stubble: 3, orchard: 0 };
+    let checked = 0;
+    for (let cu = -8; cu < 8; cu++) {
+      for (let cv = -8; cv < 8; cv++) {
+        const p = plotAt(...plotPoint((cu + 0.5) * PLOT_GRID.du, (cv + 0.5) * PLOT_GRID.dv), SEED);
+        const i = (p.cv - PLOT_GRID.v0) * PLOT_GRID.w + (p.cu - PLOT_GRID.u0);
+        expect(table.base[i * 4 + 3]).toBe(slotOf[p.kind]);
+        const shade = table.row[i * 4 + 3]! / 128;
+        expect(shade).toBeGreaterThan(0.7);
+        expect(shade).toBeLessThan(1.3);
+        checked++;
+      }
+    }
+    expect(checked).toBeGreaterThan(0);
+  });
+
   it("has plots of every kind, so the plain is a patchwork and not one colour", () => {
     const kinds = new Set<string>();
     for (let cu = -8; cu < 8; cu++) for (let cv = -8; cv < 8; cv++) kinds.add(plotAt(...plotPoint((cu + 0.5) * PLOT_GRID.du, (cv + 0.5) * PLOT_GRID.dv), SEED).kind);

@@ -6,7 +6,7 @@
 // lesson from it is kept here: the environment map is made once and never swapped during play.
 import * as THREE from "three/webgpu";
 import { positionView } from "three/tsl";
-import { attribute, builtinAOContext, float, floor, fract, fwidth, instanceIndex, min, mix, mrt, normalMap, normalView, pass, positionLocal, positionWorld, screenUV, sin, smoothstep, texture, triplanarTexture, uniform, uv, vec2, vec3, vec4 } from "three/tsl";
+import { abs as tslAbs, attribute, builtinAOContext, float, floor, fract, fwidth, instanceIndex, min, mix, mod as tslMod, mrt, normalMap, normalView, pass, positionLocal, positionWorld, screenUV, sin, smoothstep, texture, triplanarTexture, uniform, uv, vec2, vec3, vec4 } from "three/tsl";
 import { ao } from "three/addons/tsl/display/GTAONode.js";
 import { bloom } from "three/addons/tsl/display/BloomNode.js";
 import { SkyMesh } from "three/addons/objects/SkyMesh.js";
@@ -20,7 +20,7 @@ import { FOV, eyeOf, type Pose } from "./camera";
 import { HORSE_LEGS, OX_LEGS, PERSON_LEGS, SHEEP_LEGS, basket, bird, donkey, guardGear, horse, horseLeg, ladder, oxBody, oxLeg, personBody, personLeg, sheep, sheepLeg } from "./buildings";
 import { ANIMAL_KINDS, extractAnimal, type AnimalKind } from "./animals";
 import { along, fieldTo, limbMatrix, route, walkGrid, walkOf, type Walk, type WalkGrid } from "./paths";
-import { MODELS_AVAILABLE, disposeModel, disposeSharedMaterials, loadModel } from "./models";
+import { MODELS_AVAILABLE, disposeModel, disposeSharedMaterials, loadModel, modelUrl } from "./models";
 /**
  * The folder of this game's models on the host. A file on the host is never replaced, so a set that changes gets a
  * new folder, and a release that is rolled back to still finds the set it was made for.
@@ -195,6 +195,31 @@ interface Soil {
   material: THREE.Material;
   ground: { value: THREE.Color };
   rows: { value: THREE.Color };
+  /** The ground-atlas slot answering what the field is under: ploughed earth, green or ripe wheat, stubble, vegetables. */
+  slot: { value: number };
+}
+
+/** The slots of the ground atlas, in the order art/make_ground_atlas.py writes them:
+ * 0 ploughed earth, 1 green wheat, 2 ripe wheat, 3 stubble, 4 vegetable beds, 5 dry grass, 6 riverbank, 7 dirt road, 8 cobbles. */
+
+/** The atlas is a grid four slots wide of square tiles, in a file 2048 by 1536: scale and one-texel margin of a slot. */
+const ATLAS_SCALE = vec2(0.25, 1 / 3);
+const ATLAS_MARGIN = vec2(1 / 2048, 1 / 1536);
+/**
+ * The painted ground of one slot of the atlas at a point of the land, in tiles of the given metres — the tile's own
+ * colour, sampled as the surface's albedo. The tiles are not seamless as delivered, so the mapping mirrors them
+ * (a triangle wave) inside the slot rather than trusting the edges to meet; the seam a mirror makes is a line of
+ * symmetry, invisible in ground cover.
+ */
+function atlasPaint(atlasTex: THREE.Texture, p: any, tileMeters: number, slot: any): any {
+  const t = p.div(tileMeters);
+  const wave = tslAbs(fract(t.add(1).div(2)).mul(2).oneMinus());
+  const col = tslMod(slot, float(4));
+  // The atlas image's first row in memory is its top, and the texture upload flips it, so the slot rows run
+  // three-to-nought in the texture's v: row nought of the slots is the highest third of the picture.
+  const row = float(2).sub(floor(slot.div(4)));
+  const tileUV = vec2(col, row).mul(ATLAS_SCALE).add(ATLAS_MARGIN).add(wave.mul(ATLAS_SCALE.sub(ATLAS_MARGIN.mul(2))));
+  return texture(atlasTex, tileUV).rgb;
 }
 
 export class ValleyRenderer {
@@ -274,6 +299,7 @@ export class ValleyRenderer {
   private millWheel: THREE.Object3D | null = null;
   private readonly models: string[] = [];
   private readonly modelFailures: string[] = [];
+  private groundAtlas: THREE.Texture | null = null;
   private disposed = false;
   private carts!: THREE.InstancedMesh;
   private flocks!: THREE.InstancedMesh;
@@ -360,6 +386,26 @@ export class ValleyRenderer {
     scene.add(sky);
     scene.environment = environment.texture;
     scene.environmentIntensity = 0.18;
+
+    // ---- The painted ground detail: one atlas of the tiles painted to the museum's brief (draft, AI-made) ----
+    // It is media beside the models. The valley is whole without it: where it cannot be had the land keeps its own
+    // colours with the procedural grain alone, and the failure is named in modelFailures.
+    if (options.models && MODELS_AVAILABLE) {
+      try {
+        const atlas = await new THREE.TextureLoader().loadAsync(modelUrl("granada/ground-atlas.jpg"));
+        atlas.colorSpace = THREE.SRGBColorSpace;
+        atlas.wrapS = atlas.wrapT = THREE.ClampToEdgeWrapping;
+        atlas.minFilter = THREE.LinearMipmapLinearFilter;
+        atlas.magFilter = THREE.LinearFilter;
+        atlas.anisotropy = 8;
+        atlas.needsUpdate = true;
+        this.disposables.push(atlas);
+        this.groundAtlas = atlas;
+        this.models.push("granada/ground-atlas");
+      } catch (e) {
+        this.modelFailures.push(`granada/ground-atlas: ${e instanceof Error ? e.message : String(e)}`);
+      }
+    }
 
     // ---- Materials ----
     const maps = new Map<TextureKind, { map: THREE.DataTexture; normal: THREE.DataTexture }>();
@@ -766,7 +812,8 @@ export class ValleyRenderer {
     const u = p.x.mul(G.ax).add(p.y.mul(G.az)).div(G.du);
     const v = p.y.mul(G.ax).sub(p.x.mul(G.az)).div(G.dv);
     const st = vec2(floor(u), floor(v)).sub(vec2(G.u0, G.v0)).add(0.5).div(vec2(G.w, G.h));
-    const ground = texture(lookup(table.base, true), st).rgb;
+    const baseTexel = texture(lookup(table.base, true), st);
+    const ground = baseTexel.rgb;
     const rowColour = texture(lookup(table.row, true), st).rgb;
     const params = texture(lookup(table.params, false), st);
     const fu = fract(u);
@@ -780,7 +827,23 @@ export class ValleyRenderer {
     const hedge = smoothstep(0.7, 2.1, edge).oneMinus().mul(0.8);
     const plot = mix(mix(ground, rowColour, rows), vec3(0.05, 0.085, 0.035), hedge);
     const m = new THREE.MeshStandardNodeMaterial({ roughness: 1, metalness: 0 });
-    m.colorNode = mix(attribute("color", "vec3"), plot, uv().x).mul(detail.colour);
+    let colour: any = mix(attribute("color", "vec3"), plot, uv().x).mul(detail.colour);
+    if (this.groundAtlas) {
+      // The painting takes the plot colours' place where it can be had: the tile of the plot's own kind is the
+      // ground's albedo, shaded by the plot's variety, darkened in its rows and at its hedges as before. Off the
+      // plain the land keeps the colours its points carry, with the painting's dry grass for their detail.
+      const slot = floor(baseTexel.a.mul(255).add(0.5));
+      const shade = texture(lookup(table.row, true), st).a.mul(255).div(128);
+      const paint = atlasPaint(this.groundAtlas, p, 18, slot).mul(shade);
+      const plotPaint = mix(mix(paint, paint.mul(0.55), rows.mul(0.6)), vec3(0.05, 0.085, 0.035), hedge);
+      // Off the plain the land keeps the colours its points carry (rock, scrub, banks, gardens); the dry-grass tile
+      // lends them its brightness grain only, so their hues are untouched. Mean luminance of the tile is about 0.25
+      // in linear light; the ratio is clamped so an odd texel cannot scar the hill.
+      const grassLum = atlasPaint(this.groundAtlas, p, 30, float(5)).dot(vec3(0.299, 0.587, 0.114)).div(0.25).clamp(0.6, 1.5);
+      const wild = attribute("color", "vec3").mul(grassLum);
+      colour = mix(wild, plotPaint, uv().x).mul(detail.colour);
+    }
+    m.colorNode = colour;
     m.normalNode = detail.normal;
     return m;
   }
@@ -789,14 +852,22 @@ export class ValleyRenderer {
   private makeSoil(detail: ReturnType<ValleyRenderer["detailOf"]>): Soil {
     const ground = uniform(new THREE.Color(0.3, 0.22, 0.14));
     const rowColour = uniform(new THREE.Color(0.2, 0.14, 0.09));
+    const slot = uniform(0);
     const p = positionWorld.xz;
     const phase = p.y.add(p.x.mul(0.056)).div(WHEAT_SPACING);
     const sharp = smoothstep(0.2, 0.7, fwidth(phase)).oneMinus();
     const rows = mix(float(0.5), smoothstep(0.3, 0.7, sin(phase.mul(Math.PI * 2)).mul(0.5).add(0.5)), sharp);
     const m = new THREE.MeshStandardNodeMaterial({ roughness: 1, metalness: 0 });
-    m.colorNode = mix(ground, rowColour, rows).mul(detail.colour);
+    if (this.groundAtlas) {
+      // The painting answers the crop as it changes: green wheat while it grows, gold when ripe, stubble once cut,
+      // bare earth when fallow — the tile itself is the soil's albedo, darkened a little in its rows as before.
+      const paint = atlasPaint(this.groundAtlas, p, 7, slot);
+      m.colorNode = mix(paint, paint.mul(0.6), rows.mul(0.5)).mul(detail.colour);
+    } else {
+      m.colorNode = mix(ground, rowColour, rows).mul(detail.colour);
+    }
     m.normalNode = detail.normal;
-    return { material: m, ground, rows: rowColour };
+    return { material: m, ground, rows: rowColour, slot };
   }
 
   /** Fetches the town kit and returns, for each piece, the shapes and surfaces it is made of. Null if it cannot be had. */
@@ -1222,6 +1293,9 @@ export class ValleyRenderer {
       const [ground, rows]: [Rgb, Rgb] = id === "olive-terrace" ? [[0.4, 0.31, 0.19], [0.46, 0.36, 0.22]] : !f?.crop ? [[0.3, 0.22, 0.14], [0.21, 0.15, 0.1]] : f.ripe || f.standing === 0 ? [[0.56, 0.45, 0.22], [0.68, 0.57, 0.3]] : [[0.24, 0.17, 0.11], [0.16 + 0.04 * g, 0.2 + 0.14 * g, 0.08]];
       c.soil.ground.value.setRGB(ground[0], ground[1], ground[2], THREE.LinearSRGBColorSpace);
       c.soil.rows.value.setRGB(rows[0], rows[1], rows[2], THREE.LinearSRGBColorSpace);
+      // The painting answers the crop: bare earth fallow or under the olives, stubble once cut, gold when ripe,
+      // green while wheat grows, the vegetable beds for vegetables.
+      c.soil.slot.value = id === "olive-terrace" || !f?.crop ? 0 : f.standing === 0 ? 3 : f.ripe ? 2 : f.crop === "vegetables" ? 4 : 1;
     }
     // Olives stay on their trees: the crown greys a little as the fruit ripens and darkens once it is gathered.
     const ol = look.fields["olive-terrace"];
