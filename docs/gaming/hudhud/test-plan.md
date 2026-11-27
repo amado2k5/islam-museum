@@ -4,7 +4,7 @@ _26 November 2026. What was run is listed with its result. What was not run is l
 
 ## Run on 27 November 2026 (UTC), later still, for the thirteenth quest (Karima and the copies, a new rule set: comparing copies sign by sign; the first quest of world 5), on the same Mac (M4 Max, macOS 27.2.1, Node 25.4.0, Chrome 158.0.8127.38)
 
-Each command was run on its own and its exit code read (none was piped through another command inside a chain). The branch was cut from `origin/main` at `202f908dc0b` (the merge of al-Razi's loose leaves), and every gate below was run and passed there. Logs: `gaming/media/hudhud/captures/*.log` (git-ignored). Earlier runs below are kept as past.
+Each command was run on its own and its exit code read (none was piped through another command inside a chain). The branch was cut from `origin/main` at `202f908dc0b` (the merge of al-Razi's loose leaves), and every gate below was run and passed there. When `origin/main` was fetched again before the push it had moved to `8a730f05e42` (Granada's artist blockouts, its production checks in five languages, a games media workflow, the games Worker's publisher and three `CANARY.md` entries, none touching Hudhud's code); it was merged in with no conflict (`a417eb602ca`) and every gate below was run again on the merged tree, each passing with the same figures but for the smoke loads' times (English 519 ms, Arabic 721 ms on the second run). Logs: `gaming/media/hudhud/captures/*.log` (git-ignored). Earlier runs below are kept as past.
 
 | Check | Result |
 |---|---|
