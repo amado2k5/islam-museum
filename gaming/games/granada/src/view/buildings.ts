@@ -243,7 +243,7 @@ export function oxCart(): MeshData {
   // The ox.
   b.box(f, 0, 0.72, 1.5, 0.78, 0.82, 1.9, hide, 63, 0.8);
   b.box(f, 0, 1.18, 2.62, 0.44, 0.48, 0.62, [hide[0] * 0.9, hide[1] * 0.9, hide[2] * 0.9], 63);
-  for (const x of [-0.27, 0.27]) for (const z of [0.75, 2.2]) b.box(f, x, 0, z, 0.17, 0.74, 0.17, [hide[0] * 0.75, hide[1] * 0.75, hide[2] * 0.75], 31);
+  // The ox's legs are shapes of their own (oxLeg), drawn at OX_LEGS and moved as it walks.
   for (const x of [-0.3, 0.3]) b.box(f, x, 1.62, 2.55, 0.07, 0.07, 0.32, [0.92, 0.9, 0.82], 63);
   // The shafts, the bed, its sides and its load.
   for (const x of [-0.5, 0.5]) b.box(f, x, 0.86, 0, 0.09, 0.09, 2.6, plank, 63);
@@ -296,7 +296,6 @@ export function sheep(): MeshData {
   const dark: Rgb = [0.34, 0.3, 0.26];
   b.box(f, 0, 0.34, 0, 0.5, 0.46, 0.95, wool, 63, 0.9);
   b.box(f, 0, 0.5, 0.56, 0.24, 0.26, 0.34, dark, 63);
-  for (const x of [-0.16, 0.16]) for (const z of [-0.32, 0.32]) b.box(f, x, 0, z, 0.1, 0.36, 0.1, dark, 31);
   return b.build();
 }
 
@@ -314,7 +313,6 @@ export function horse(): MeshData {
   b.box(f, 0, 1.66, 1.46, 0.24, 0.3, 0.52, shade, 63);
   b.box(f, 0, 1.78, 0.8, 0.08, 0.5, 0.5, mane, 63);
   b.box(f, 0, 0.75, -0.98, 0.1, 0.7, 0.14, mane, 63);
-  for (const x of [-0.2, 0.2]) for (const z of [-0.68, 0.68]) b.box(f, x, 0, z, 0.13, 0.94, 0.13, shade, 31);
   // A saddle cloth: red, as a mark the eye finds from far off.
   b.box(f, 0, 1.54, -0.08, 0.62, 0.06, 0.7, [0.62, 0.12, 0.1], 63);
   return b.build();
@@ -342,5 +340,39 @@ export function bird(): MeshData {
     b.quad(P(0, 0, 0.22), P(s * 0.55, 0.1, 0.05), P(s * 0.52, 0.1, -0.12), P(0, 0, -0.16), dark);
     b.quad(P(0, 0, -0.16), P(s * 0.52, 0.1, -0.12), P(s * 0.55, 0.1, 0.05), P(0, 0, 0.22), dark);
   }
+  return b.build();
+}
+
+// ---- Legs: each a shape of its own with its joint at the origin, hanging down, swung about the joint as the body moves.
+
+/** Where each leg joins its body, in the body's own frame: [x, y, z]. Front legs first, then back, left then right. */
+export const OX_LEGS: ReadonlyArray<readonly [number, number, number]> = [[-0.27, 0.74, 2.2], [0.27, 0.74, 2.2], [-0.27, 0.74, 0.75], [0.27, 0.74, 0.75]];
+export const HORSE_LEGS: ReadonlyArray<readonly [number, number, number]> = [[-0.2, 0.94, 0.68], [0.2, 0.94, 0.68], [-0.2, 0.94, -0.68], [0.2, 0.94, -0.68]];
+export const SHEEP_LEGS: ReadonlyArray<readonly [number, number, number]> = [[-0.16, 0.36, 0.32], [0.16, 0.36, 0.32], [-0.16, 0.36, -0.32], [0.16, 0.36, -0.32]];
+/** A person's hips: the robe stops above the knee, so the stride shows. */
+export const PERSON_LEGS: ReadonlyArray<readonly [number, number, number]> = [[-0.085, 0.5, 0], [0.085, 0.5, 0]];
+
+const limb = (length: number, width: number, color: Rgb, hoof: Rgb): MeshData => {
+  const b = new MeshBuilder();
+  const f = frame(0, 0, 0);
+  b.box(f, 0, -length, 0, width, length, width, color, 63, 0.9);
+  b.box(f, 0, -length, 0.02, width * 1.15, 0.08, width * 1.35, hoof, 63);
+  return b.build();
+};
+export const oxLeg = (): MeshData => limb(0.9, 0.17, [0.37, 0.27, 0.16], [0.18, 0.15, 0.12]);
+/** A horse's leg is white so that the horse's own colour shows on it, with a dark hoof. */
+export const horseLeg = (): MeshData => limb(0.94, 0.13, [0.72, 0.72, 0.72], [0.2, 0.18, 0.16]);
+export const sheepLeg = (): MeshData => limb(0.36, 0.09, [0.34, 0.3, 0.26], [0.2, 0.18, 0.16]);
+/** A person's leg below the robe: bare shin or leggings, and a shoe. */
+export const personLeg = (): MeshData => limb(0.5, 0.11, [0.36, 0.27, 0.2], [0.24, 0.17, 0.11]);
+
+/** A person in the valley: a robe to the knee, shoulders and sleeves; the legs are drawn apart (personLeg). Tinted per instance. */
+export function personBody(): MeshData {
+  const b = new MeshBuilder();
+  const f = frame(0, 0, 0);
+  const white: Rgb = [1, 1, 1];
+  b.revolve(f, 0, 0.44, 0, (t) => [0.25 - 0.08 * t + 0.03 * Math.sin(t * Math.PI), 0.88 * t], 8, 4, [0.7, 0.7, 0.7], white);
+  b.revolve(f, 0, 1.3, 0, (t) => [0.2 * Math.cos((t * Math.PI) / 2), 0.14 * Math.sin((t * Math.PI) / 2)], 8, 2, white);
+  for (const sx of [-1, 1]) b.cylinder(frame(sx * 0.23, 0.72, 0), 0, 0, 0, 0.055, 0.07, 0.62, 5, [0.85, 0.85, 0.85], false);
   return b.build();
 }
