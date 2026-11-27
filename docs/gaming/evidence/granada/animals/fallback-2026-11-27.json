@@ -1,0 +1,43 @@
+{
+ "measured": "2026-11-27T16:24:46.320Z",
+ "browser": "chrome 158.0.8127.38",
+ "seed": 7,
+ "control": {
+  "models": [
+   "granada/town",
+   "granada/landmarks",
+   "granada/palace",
+   "granada/animals/horse",
+   "granada/animals/sheep",
+   "granada/animals/goat",
+   "granada/animals/ox",
+   "granada/animals/donkey",
+   "granada/mill"
+  ],
+  "modelFailures": [],
+  "triangles": 3193352,
+  "drawCalls": 327,
+  "pageErrors": []
+ },
+ "withheld": {
+  "models": [
+   "granada/town",
+   "granada/landmarks",
+   "granada/palace",
+   "granada/mill"
+  ],
+  "modelFailures": [
+   "granada/animals/sheep: fetch for \"http://127.0.0.1:62341/media/models/granada/animals/sheep.gltf\" responded with 404: Not Found",
+   "granada/animals/goat: fetch for \"http://127.0.0.1:62341/media/models/granada/animals/goat.gltf\" responded with 404: Not Found",
+   "granada/animals/horse: fetch for \"http://127.0.0.1:62341/media/models/granada/animals/horse.gltf\" responded with 404: Not Found",
+   "granada/animals/ox: fetch for \"http://127.0.0.1:62341/media/models/granada/animals/ox.gltf\" responded with 404: Not Found",
+   "granada/animals/donkey: fetch for \"http://127.0.0.1:62341/media/models/granada/animals/donkey.gltf\" responded with 404: Not Found"
+  ],
+  "triangles": 2902136,
+  "drawCalls": 327,
+  "pageErrors": []
+ },
+ "verdict": "pass",
+ "problems": [],
+ "note": "Evidence that with the files withheld the failures are named and the game still draws its animals from code, and that with the files present all five kinds load. Not a visual or performance review."
+}

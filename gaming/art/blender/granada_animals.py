@@ -7,7 +7,7 @@ historical review pending.
 """
 import math, os, sys
 import bpy
-from mathutils import Vector
+from mathutils import Vector, Matrix
 
 argv=sys.argv[sys.argv.index('--')+1:] if '--' in sys.argv else []
 out=os.path.abspath(argv[0]) if argv else os.path.abspath('gaming/media/models/granada/animals')
@@ -55,10 +55,12 @@ def join(parts,name):
  bpy.context.view_layer.objects.active=parts[0]; bpy.ops.object.join(); parts[0].name=name; return parts[0]
 
 def leg(name,joint,length,width,forward=0):
- # Leg hangs down from its object origin. Geometry is made around the joint, then the object origin is left there.
+ # Leg hangs down from its object origin. The join keeps the upper leg's own frame, so the mesh is shifted down
+ # by where that frame sat: afterwards the joint itself is the object origin, the leg below it.
  upper=cyl(name+'_upper',(0,0,-length*.38),width,length*.76,M['hide'],verts=8)
  hoof=cube(name+'_hoof',(0,forward,-length+.035),(width*1.15,width*1.45,.045),M['hoof'],bevel=.01)
  o=join([upper,hoof],name)
+ o.data.transform(Matrix.Translation((0,0,-length*.38)))
  o.location=joint
  return o
 
@@ -85,6 +87,9 @@ def animal(kind,cfg):
  # Tail, backwards (+Y in Blender).
  parts.append(cyl('tail',(0,cfg['body'][1]*1.02,cfg['body_z']+cfg['body'][2]*.25),cfg['tail'],cfg['tail']*7,M['mane'],(math.pi/2-.45,0,0),7))
  body=join(parts,kind+'_body')
+ # The ox is drawn in its cart's frame, where the game puts its legs well ahead of the body's middle: shift the
+ # body under them. Every other animal is centred on its own origin.
+ if cfg.get('cart_z'): body.location=(0,-cfg['cart_z'],cfg['body_z'])
  # legs at game-matching joints; Blender forward sign inverted from game z.
  for i,(x,zup,zfwd) in enumerate(cfg['joints']):
   leg(kind+'_leg_'+('fl fr rl rr'.split()[i]),(x,-zfwd,zup),cfg['leglen'],cfg['legwidth'])
@@ -101,10 +106,10 @@ oxj=[(-.27,.74,2.2),(.27,.74,2.2),(-.27,.74,.75),(.27,.74,.75)]
 # Ox joints are in the cart frame and include the forward cart offset; the standalone ox body is centred under them at z about 1.48.
 specs={
  'sheep':dict(body=(.28,.5,.27),body_z=.58,neck=(.11,.08,.12,.32,.45),head=(.12,.18,.13),ear=.045,tail=.018,horns=0,hide='wool',joints=sheepj,leglen=.36,legwidth=.045),
- 'goat':dict(body=(.24,.49,.25),body_z=.6,neck=(.095,.08,.13,.34,.55),head=(.105,.17,.12),ear=.04,tail=.015,horns=.035,hide='darkwool',joints=sheepj,leglen=.38,legwidth=.04),
+ 'goat':dict(body=(.24,.49,.25),body_z=.6,neck=(.095,.08,.13,.34,.55),head=(.105,.17,.12),ear=.04,tail=.015,horns=.035,hide='darkwool',joints=sheepj,leglen=.36,legwidth=.04),
  'horse':dict(body=(.31,.9,.36),body_z=1.12,neck=(.15,.18,.3,.72,.7),head=(.14,.3,.18),ear=.045,tail=.035,horns=0,mane=1,cloth=1,joints=horsej,leglen=.94,legwidth=.065),
- 'donkey':dict(body=(.27,.78,.32),body_z=1.0,neck=(.13,.15,.25,.62,.65),head=(.13,.27,.16),ear=.07,tail=.025,horns=0,mane=1,joints=horsej,leglen=.82,legwidth=.055),
- 'ox':dict(body=(.43,.93,.43),body_z=.98,neck=(.2,.16,.16,.48,.55),head=(.19,.28,.2),ear=.055,tail=.032,horns=.045,joints=oxj,leglen=.9,legwidth=.085),
+ 'donkey':dict(body=(.27,.78,.32),body_z=1.0,neck=(.13,.15,.25,.62,.65),head=(.13,.27,.16),ear=.07,tail=.025,horns=0,mane=1,joints=horsej,leglen=.94,legwidth=.055),
+ 'ox':dict(body=(.43,.93,.43),body_z=.98,neck=(.2,.16,.16,.48,.55),head=(.19,.28,.2),ear=.055,tail=.032,horns=.045,joints=oxj,leglen=.9,legwidth=.085,cart_z=1.48),
 }
 results={}
 for k,c in specs.items(): results[k]=animal(k,c)

@@ -1291,6 +1291,391 @@
      "sha256": "f9cdb4ca17b3eb3872e439b735dabd25adad4d5eb63157262d551668f901b5c9"
     }
    ]
+  },
+  {
+   "id": "granada/animals/sheep",
+   "game": "granada",
+   "title": "A sheep, body and four legs at their joints",
+   "madeBy": "the shapes: this repository's own scripts, run in Blender. The surfaces: photographs given to the public domain by Poly Haven, named in art/sources.json, where this machine had them; painted by the scripts where it did not",
+   "licence": "the scripts: MIT, with the code; what they make: CC BY-SA 4.0, with the museum's media of its own; the photographed surfaces stay public domain (CC0)",
+   "surfaces": [],
+   "sources": [
+    {
+     "path": "art/blender/common.py",
+     "sha256": "0b9a4ce8ee3efeefb246c78301170bf03256d20d63d575f93ae57bda473a9915"
+    },
+    {
+     "path": "art/blender/kit.py",
+     "sha256": "2f6e06dd53a3dc19d3bae51a394ac41daab84200065391fbbffa096e76f31496"
+    },
+    {
+     "path": "art/blender/granada_animals.py",
+     "sha256": "8b9eca849e121c118b24f276606117d2fb20293c4c0dda524898668fc941c267"
+    }
+   ],
+   "objects": [
+    "sheep_body",
+    "sheep_leg_fl",
+    "sheep_leg_fr",
+    "sheep_leg_rl",
+    "sheep_leg_rr"
+   ],
+   "placed": {
+    "sheep_body": [
+     0,
+     0.58,
+     0
+    ],
+    "sheep_leg_fl": [
+     -0.16,
+     0.36,
+     0.32
+    ],
+    "sheep_leg_fr": [
+     0.16,
+     0.36,
+     0.32
+    ],
+    "sheep_leg_rl": [
+     -0.16,
+     0.36,
+     -0.32
+    ],
+    "sheep_leg_rr": [
+     0.16,
+     0.36,
+     -0.32
+    ]
+   },
+   "materials": [
+    "wool",
+    "muzzle",
+    "mane",
+    "hide",
+    "hoof"
+   ],
+   "triangles": 1452,
+   "bytes": 114377,
+   "files": [
+    {
+     "path": "granada/animals/sheep.gltf",
+     "bytes": 12689,
+     "sha256": "5f4cf276433d9c32ea3f0176e095611df7b9f07b7009d679c4c67987967447b9"
+    },
+    {
+     "path": "granada/animals/sheep.bin",
+     "bytes": 101688,
+     "sha256": "c4615ba02516a228a6f10f9bd5feb88b3fe1e03fb7a3bea4bd5bfedcbd2f97e8"
+    }
+   ]
+  },
+  {
+   "id": "granada/animals/goat",
+   "game": "granada",
+   "title": "A goat, body and four legs at their joints",
+   "madeBy": "the shapes: this repository's own scripts, run in Blender. The surfaces: photographs given to the public domain by Poly Haven, named in art/sources.json, where this machine had them; painted by the scripts where it did not",
+   "licence": "the scripts: MIT, with the code; what they make: CC BY-SA 4.0, with the museum's media of its own; the photographed surfaces stay public domain (CC0)",
+   "surfaces": [],
+   "sources": [
+    {
+     "path": "art/blender/common.py",
+     "sha256": "0b9a4ce8ee3efeefb246c78301170bf03256d20d63d575f93ae57bda473a9915"
+    },
+    {
+     "path": "art/blender/kit.py",
+     "sha256": "2f6e06dd53a3dc19d3bae51a394ac41daab84200065391fbbffa096e76f31496"
+    },
+    {
+     "path": "art/blender/granada_animals.py",
+     "sha256": "8b9eca849e121c118b24f276606117d2fb20293c4c0dda524898668fc941c267"
+    }
+   ],
+   "objects": [
+    "goat_body",
+    "goat_leg_fl",
+    "goat_leg_fr",
+    "goat_leg_rl",
+    "goat_leg_rr"
+   ],
+   "placed": {
+    "goat_body": [
+     0,
+     0.6,
+     0
+    ],
+    "goat_leg_fl": [
+     -0.16,
+     0.36,
+     0.32
+    ],
+    "goat_leg_fr": [
+     0.16,
+     0.36,
+     0.32
+    ],
+    "goat_leg_rl": [
+     -0.16,
+     0.36,
+     -0.32
+    ],
+    "goat_leg_rr": [
+     0.16,
+     0.36,
+     -0.32
+    ]
+   },
+   "materials": [
+    "darkwool",
+    "muzzle",
+    "horn",
+    "mane",
+    "hide",
+    "hoof"
+   ],
+   "triangles": 1476,
+   "bytes": 117567,
+   "files": [
+    {
+     "path": "granada/animals/goat.gltf",
+     "bytes": 13943,
+     "sha256": "ceb169c6d3d1e890de13ed507cc39f04350d1c218a8fe3dd2114d341ae15d658"
+    },
+    {
+     "path": "granada/animals/goat.bin",
+     "bytes": 103624,
+     "sha256": "cb227425e32e50d814b81623e45d9a7fb96fb0acf1f2f03896cbfbee2c4e3878"
+    }
+   ]
+  },
+  {
+   "id": "granada/animals/horse",
+   "game": "granada",
+   "title": "A horse with a saddle cloth, body and four legs at their joints",
+   "madeBy": "the shapes: this repository's own scripts, run in Blender. The surfaces: photographs given to the public domain by Poly Haven, named in art/sources.json, where this machine had them; painted by the scripts where it did not",
+   "licence": "the scripts: MIT, with the code; what they make: CC BY-SA 4.0, with the museum's media of its own; the photographed surfaces stay public domain (CC0)",
+   "surfaces": [],
+   "sources": [
+    {
+     "path": "art/blender/common.py",
+     "sha256": "0b9a4ce8ee3efeefb246c78301170bf03256d20d63d575f93ae57bda473a9915"
+    },
+    {
+     "path": "art/blender/kit.py",
+     "sha256": "2f6e06dd53a3dc19d3bae51a394ac41daab84200065391fbbffa096e76f31496"
+    },
+    {
+     "path": "art/blender/granada_animals.py",
+     "sha256": "8b9eca849e121c118b24f276606117d2fb20293c4c0dda524898668fc941c267"
+    }
+   ],
+   "objects": [
+    "horse_body",
+    "horse_leg_fl",
+    "horse_leg_fr",
+    "horse_leg_rl",
+    "horse_leg_rr"
+   ],
+   "placed": {
+    "horse_body": [
+     0,
+     1.12,
+     0
+    ],
+    "horse_leg_fl": [
+     -0.2,
+     0.94,
+     0.68
+    ],
+    "horse_leg_fr": [
+     0.2,
+     0.94,
+     0.68
+    ],
+    "horse_leg_rl": [
+     -0.2,
+     0.94,
+     -0.68
+    ],
+    "horse_leg_rr": [
+     0.2,
+     0.94,
+     -0.68
+    ]
+   },
+   "materials": [
+    "hide",
+    "muzzle",
+    "mane",
+    "cloth",
+    "hoof"
+   ],
+   "triangles": 1668,
+   "bytes": 130532,
+   "files": [
+    {
+     "path": "granada/animals/horse.gltf",
+     "bytes": 13724,
+     "sha256": "ba944f30f3022dae607ed1c5c7f4ec0c55fed597da203e018edefa7910264557"
+    },
+    {
+     "path": "granada/animals/horse.bin",
+     "bytes": 116808,
+     "sha256": "6f8d69cc9f8024bef4848f1461d4a435115ff42f7c9bccd94af9b2fd9f369396"
+    }
+   ]
+  },
+  {
+   "id": "granada/animals/ox",
+   "game": "granada",
+   "title": "An ox in its cart's frame, body and four legs at their joints",
+   "madeBy": "the shapes: this repository's own scripts, run in Blender. The surfaces: photographs given to the public domain by Poly Haven, named in art/sources.json, where this machine had them; painted by the scripts where it did not",
+   "licence": "the scripts: MIT, with the code; what they make: CC BY-SA 4.0, with the museum's media of its own; the photographed surfaces stay public domain (CC0)",
+   "surfaces": [],
+   "sources": [
+    {
+     "path": "art/blender/common.py",
+     "sha256": "0b9a4ce8ee3efeefb246c78301170bf03256d20d63d575f93ae57bda473a9915"
+    },
+    {
+     "path": "art/blender/kit.py",
+     "sha256": "2f6e06dd53a3dc19d3bae51a394ac41daab84200065391fbbffa096e76f31496"
+    },
+    {
+     "path": "art/blender/granada_animals.py",
+     "sha256": "8b9eca849e121c118b24f276606117d2fb20293c4c0dda524898668fc941c267"
+    }
+   ],
+   "objects": [
+    "ox_body",
+    "ox_leg_fl",
+    "ox_leg_fr",
+    "ox_leg_rl",
+    "ox_leg_rr"
+   ],
+   "placed": {
+    "ox_body": [
+     0,
+     0.98,
+     1.48
+    ],
+    "ox_leg_fl": [
+     -0.27,
+     0.74,
+     2.2
+    ],
+    "ox_leg_fr": [
+     0.27,
+     0.74,
+     2.2
+    ],
+    "ox_leg_rl": [
+     -0.27,
+     0.74,
+     0.75
+    ],
+    "ox_leg_rr": [
+     0.27,
+     0.74,
+     0.75
+    ]
+   },
+   "materials": [
+    "hide",
+    "muzzle",
+    "horn",
+    "mane",
+    "hoof"
+   ],
+   "triangles": 1476,
+   "bytes": 117288,
+   "files": [
+    {
+     "path": "granada/animals/ox.gltf",
+     "bytes": 13664,
+     "sha256": "f646fbff5d8443162068ac2d044b67e2160e599dbc72795e7db06a6d114c2cdc"
+    },
+    {
+     "path": "granada/animals/ox.bin",
+     "bytes": 103624,
+     "sha256": "5e2f5846902a5183f851a87588ce53b0a1d03164b0859895c785bbfa2a00355b"
+    }
+   ]
+  },
+  {
+   "id": "granada/animals/donkey",
+   "game": "granada",
+   "title": "A donkey, body and four legs at their joints",
+   "madeBy": "the shapes: this repository's own scripts, run in Blender. The surfaces: photographs given to the public domain by Poly Haven, named in art/sources.json, where this machine had them; painted by the scripts where it did not",
+   "licence": "the scripts: MIT, with the code; what they make: CC BY-SA 4.0, with the museum's media of its own; the photographed surfaces stay public domain (CC0)",
+   "surfaces": [],
+   "sources": [
+    {
+     "path": "art/blender/common.py",
+     "sha256": "0b9a4ce8ee3efeefb246c78301170bf03256d20d63d575f93ae57bda473a9915"
+    },
+    {
+     "path": "art/blender/kit.py",
+     "sha256": "2f6e06dd53a3dc19d3bae51a394ac41daab84200065391fbbffa096e76f31496"
+    },
+    {
+     "path": "art/blender/granada_animals.py",
+     "sha256": "8b9eca849e121c118b24f276606117d2fb20293c4c0dda524898668fc941c267"
+    }
+   ],
+   "objects": [
+    "donkey_body",
+    "donkey_leg_fl",
+    "donkey_leg_fr",
+    "donkey_leg_rl",
+    "donkey_leg_rr"
+   ],
+   "placed": {
+    "donkey_body": [
+     0,
+     1,
+     0
+    ],
+    "donkey_leg_fl": [
+     -0.2,
+     0.94,
+     0.68
+    ],
+    "donkey_leg_fr": [
+     0.2,
+     0.94,
+     0.68
+    ],
+    "donkey_leg_rl": [
+     -0.2,
+     0.94,
+     -0.68
+    ],
+    "donkey_leg_rr": [
+     0.2,
+     0.94,
+     -0.68
+    ]
+   },
+   "materials": [
+    "hide",
+    "muzzle",
+    "mane",
+    "hoof"
+   ],
+   "triangles": 1560,
+   "bytes": 121693,
+   "files": [
+    {
+     "path": "granada/animals/donkey.gltf",
+     "bytes": 12445,
+     "sha256": "a2dc74aae17074957095d7b2e22f0600e972165766cfab87ae47a4fc2f1cb1a8"
+    },
+    {
+     "path": "granada/animals/donkey.bin",
+     "bytes": 109248,
+     "sha256": "6446db8d3473392fad9efd1155d44e2afc9b9d01b2b3e2d91c0e6af124b6b421"
+    }
+   ]
   }
  ]
 }
