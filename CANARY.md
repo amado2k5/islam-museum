@@ -14,6 +14,7 @@ open a new block on top with the new version and today's date.
 ---
 
 ## v2.31.0 — 2026-11-24
+- **The games' model-carrying workflow can now replace a corrected model only when that exact file is named beforehand (workshop safety; nothing a player reads).** Its ordinary rule still refuses to overwrite a file that differs, and the replacement is read back and checked byte for byte.
 - **Granada now has simple measured blockouts an artist can build over (workshop material, not game art).** The estate, an eight-house street cluster, a gate with one wall bay and tower, and the construction site use the game's recorded footprints, ground-centre origins and piece names; nothing in the game loads them.
 - **A fault in Granada's square roofs was repaired in the model workshop (nothing a player reads).** Square hipped roofs are now pyramids without the collapsed triangular faces they used to carry. The palace the game shows fell from 69,676 to 69,620 measured triangles; its other vertex positions are unchanged, and the lighter 20,000-triangle version remains a temporary benchmark decimation under evaluation.
 - **Granada now has a scripted check that its older palace still appears when the newer palace file cannot be fetched (games workshop; nothing a player sees).** The check serves the game with that file withheld, confirms the failure is named, and compares the scene with the first art set in the same fixed view.
