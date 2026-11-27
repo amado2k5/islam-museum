@@ -64,7 +64,7 @@ for (const lang of langsArg.split(",")) {
     await ev("window.__HH__.command({type:'skip'}); window.__HH__.touch('page');");
     await page.waitForTimeout(500);
   }
-  const end = await ev<Record<string, unknown>>("({ done: window.__HH__.state().done, review: [...document.querySelectorAll('.sheet .pending')].map((p) => p.textContent.slice(0, 90)), links: [...document.querySelectorAll('.sheet .note a')].map((a) => a.href) })");
+  const end = await ev<Record<string, unknown>>("({ done: window.__HH__.state().done, review: [...document.querySelectorAll('.sheet .pending, .door-panel .pending')].map((p) => p.textContent.slice(0, 90)), links: [...document.querySelectorAll('.sheet .note a, .door-panel .note a')].map((a) => a.href) })");
   await page.screenshot({ path: resolve(out, `uat-hudhud-${lang}-results.png`) });
   // The second quest, where the host has it: back to the Atlas, the elephant clock put in order and set going.
   let clock: { done: boolean; moves: number; par: number; pending: boolean; links: number } | null = null;

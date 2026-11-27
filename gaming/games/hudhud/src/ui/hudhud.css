@@ -274,3 +274,22 @@ button.quiet:hover { background: rgba(255, 255, 255, 0.08); }
 /* The twelfth quest's page: al-Razi's loose leaves, played by a list of choices for every place or by touching two places in the picture (the shared row page). */
 .bench canvas.leaves-art { aspect-ratio: 1000 / 420; cursor: pointer; }
 .bench ol.leaves-places { grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); }
+
+/* The journey and the door (27 November 2026): the Atlas's journey button, the panel beside the flying scene once its
+   quest is done, and the corridor shown on a quest's page once it is solved. */
+.journey { margin-block: 14px; padding: 12px 16px; border: 1px solid var(--gold); border-radius: 14px; background: var(--panel); }
+.journey p { margin: 8px 0 0; }
+button.journey-btn, button.door-go { background: var(--gold); color: #1c1206; border-color: #fff0b8; font-weight: 700; }
+button.journey-btn:hover, button.door-go:hover { background: #ffd070; }
+.contrast button.journey-btn, .contrast button.door-go { background: #ffe14a; color: #000; }
+.door-panel { width: min(100%, calc((100vh - 150px) * 16 / 9)); min-width: min(100%, 320px); margin: 12px auto 0; padding: 14px 18px; background: var(--panel); border: 1px solid var(--gold); border-radius: 14px; }
+.door-panel h2 { margin: 0 0 6px; color: var(--gold); font-size: clamp(1.2rem, 2.4vw, 1.6rem); }
+.door-panel h2:focus { outline: none; }
+.door-panel h3 { margin: 14px 0 6px; }
+.door-line { margin: 6px 0; }
+.corridor { margin-block: 12px; }
+.corridor-region { border-radius: 14px; }
+.corridor-region:focus-visible { outline: 3px solid var(--gold); outline-offset: 2px; }
+.bench canvas.corridor-art { aspect-ratio: 1000 / 260; margin-block: 0; }
+.corridor-pad { display: flex; gap: 10px; margin-block-start: 8px; direction: ltr; }
+.corridor-pad button { width: 56px; height: 56px; border-radius: 50%; padding: 0; font-size: 1.4rem; user-select: none; -webkit-user-select: none; touch-action: none; }

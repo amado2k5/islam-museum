@@ -294,7 +294,8 @@ describe("the page and the registry", () => {
   it("adds the quest through the registry of page quests: its subject, its trial line, what it keeps, how it is made, a button on the Atlas, and the test hook", () => {
     expect(app).toMatch(/\[COLLATE_QUEST\]: \{\s*subject: COLLATE_SUBJECT,\s*trial: "kr_trial",/);
     expect(app).toContain("restoreCollate(snap, collatePuzzle)");
-    expect(app).toContain("[COLLATE_SUBJECT]: COLLATE_QUEST");
+    // The table of built quests is content/journey.ts's since the journey (27 November 2026).
+    expect(readFileSync(here("content", "journey.ts"), "utf8")).toContain("[COLLATE_SUBJECT]: COLLATE_QUEST");
     expect(app).toContain("startCollate: () => openPage(COLLATE_QUEST)");
     expect(app).toMatch(/collate: \(\) => \{ const r = pageOf<CollateQuest>\(COLLATE_QUEST\)/);
     expect(app).toContain("collateCommand:");
@@ -448,12 +449,14 @@ describe("the words", () => {
       expect(new Set(SIGNS.map((id) => t[`kr_sign_${id.replace(/-/g, "_")}`])).size, l).toBe(SIGNS.length);
     }
   });
-  it("is appended at the end of each language's file, after the keys of the twelfth quest, and nothing comes after it", () => {
+  it("is appended at the end of each language's file, after the keys of the twelfth quest, and only the journey's keys (`jn_`) come after it", () => {
     for (const l of LANGS) {
       const ks = Object.keys(table(l));
       const first = ks.findIndex((k) => k.startsWith("kr_"));
       expect(first, l).toBeGreaterThan(0);
-      expect(ks.slice(first).every((k) => k.startsWith("kr_")), l).toBe(true);
+      const count = ks.filter((k) => k.startsWith("kr_")).length;
+      expect(ks.slice(first, first + count).every((k) => k.startsWith("kr_")), l).toBe(true);
+      expect(ks.slice(first + count).every((k) => k.startsWith("jn_")), l).toBe(true);
       expect(ks[first - 1]!.startsWith("rz_"), l).toBe(true);
     }
   });

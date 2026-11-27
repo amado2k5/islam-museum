@@ -7,25 +7,29 @@ import * as Phaser from "phaser";
 import { FrameRecorder } from "@im/kernel/framestats";
 import { Rng } from "@im/kernel/prng";
 import { cat as paintCat, hudhud as paintHudhud, keeper as paintKeeper, portrait, scholar as paintScholar } from "../art/cast";
+import { DOOR_ART, doorArt } from "../art/corridor";
 import { glow, type Painted } from "../art/kit";
 import * as props from "../art/props";
 import { ARCH, GARDEN_X, INTERIOR_W, foreground, garden, interior, leaves, sky, town, wallPicture } from "../art/world";
 import type { Cue } from "../audio/cues";
-import { ASSIST, GRID, JAR, ROOM, START_AT, THINGS, WORLD, cellX, cellY, inPlay, solvedLean, type PlayStyle, type Speaker, type Thing } from "../content/workshop";
+import { ASSIST, DOOR, GRID, JAR, ROOM, START_AT, THINGS, WORLD, cellX, cellY, inPlay, solvedLean, type PlayStyle, type Speaker, type Thing } from "../content/workshop";
 import type { Mood } from "../narrative/dialogue";
 import type { Keeper, Quality } from "../save/save";
 import type { Segment } from "../sim/light";
+import { distance } from "../sim/door";
 import { advance, newMover, type Intent, type Mover } from "../sim/move";
 import { beam, type Happened, type SceneState } from "../sim/scene";
 
 export interface SceneHost {
   state(): SceneState;
   intent(): Intent;
-  /** A talk, a pause or the results are up: the world waits. */
+  /** A talk, a pause or a sheet is up: the world waits. */
   frozen(): boolean;
   touch(id: string): void;
-  /** The thing the bird is near enough to touch changed. */
+  /** The thing the bird is near enough to touch changed ("door" for the lit door). */
   near(id: string | null): void;
+  /** The bird reached the lit door, or touched it: the scene is left for the next one. */
+  through(): void;
   sound(c: Cue): void;
   speaking(): { who: Speaker; mood: Mood } | null;
   look(): { quality: Quality; reducedMotion: boolean; style: PlayStyle; keeper: Keeper };
@@ -94,6 +98,12 @@ export class WorkshopScene extends Phaser.Scene {
   private stars: Img[] = [];
   private sparks: Img[] = [];
   private leavesImg: Img | null = null;
+  private doorLit!: Img;
+  private doorGlow!: Img;
+  private doorLine!: Img;
+  private doorShown = 0;
+  /** The bird has gone through the door: it is told once. */
+  private went = false;
   private darkness = 0;
   private inkT = 0;
 
@@ -102,6 +112,9 @@ export class WorkshopScene extends Phaser.Scene {
   }
   init(data: { host: SceneHost }): void {
     this.host = data.host;
+    // The scene is started again on the same object (a new play): the door is closed and not yet gone through.
+    this.went = false;
+    this.doorShown = 0;
   }
 
   // ------------------------------------------------------------------------------------------ building
@@ -183,6 +196,12 @@ export class WorkshopScene extends Phaser.Scene {
     this.putWide(m, "garden", GARDEN_X, 0, 0);
     T("glow", () => glow(256, ts));
     this.put(m, "glow", 1945, 498).setBlendMode(ADD).setScale(1.5 / ts).setAlpha(0.9);
+    // The door at the garden's far end: dark until the quest is done, then lit, with a glow behind it and a line of
+    // light under it. Shape and light both change, not only colour.
+    this.doorGlow = this.put(m, "glow", DOOR.x, WORLD.floor - DOOR_ART.h / 2).setBlendMode(ADD).setScale(1.9 / ts, 2.5 / ts).setAlpha(0);
+    this.put(m, T("door-dark", () => doorArt(ts, false)), DOOR.x, WORLD.floor + 4, 0.5, 1);
+    this.doorLit = this.put(m, T("door-lit", () => doorArt(ts, true)), DOOR.x, WORLD.floor + 4, 0.5, 1).setAlpha(0);
+    this.doorLine = this.put(m, "glow", DOOR.x, WORLD.floor + 2).setBlendMode(ADD).setScale(0.9 / ts, 0.12 / ts).setTint(0xfff1c4).setAlpha(0);
     this.curtain = this.put(m, T("curtain", () => props.curtain(ts)), ARCH.left - 300, ARCH.ledge, 0, 0);
     this.curtain.setScale(1 / ts, (WORLD.floor - ARCH.ledge + 8) / 500 / ts);
     this.wide("interior", () => interior(ts));
@@ -399,7 +418,18 @@ export class WorkshopScene extends Phaser.Scene {
   }
   /** The touch button or key: touch whatever is near. */
   touchNear(): void {
-    if (this.nearId && !this.host.frozen()) this.host.touch(this.nearId);
+    if (!this.nearId || this.host.frozen()) return;
+    if (this.nearId === "door") this.goThrough();
+    else this.host.touch(this.nearId);
+  }
+  private goThrough(): void {
+    if (this.went) return;
+    this.went = true;
+    this.host.through();
+  }
+  /** The door: lit once the quest is done; where it stands. */
+  door(): { lit: boolean; where: { x: number; y: number; reach: number } } {
+    return { lit: this.host.state().done, where: { ...DOOR } };
   }
   where(): { x: number; y: number; grounded: boolean; near: string | null } {
     return { x: this.mover.x, y: this.mover.y, grounded: this.mover.grounded, near: this.nearId };
@@ -440,11 +470,14 @@ export class WorkshopScene extends Phaser.Scene {
     // What can be touched from here.
     let near: string | null = null;
     let best = Infinity;
-    if (!frozen && !this.pilot) {
+    if (!frozen && !this.pilot && s.done) {
+      // Once the quest is done only the door can be reached, and reaching it is going through it.
+      if (distance(DOOR, mv) < DOOR.reach) near = "door";
+    } else if (!frozen && !this.pilot) {
       for (const t of THINGS) {
         if (!inPlay(t, s.puzzle)) continue;
         if (t.kind === "feather" && s.flags.includes("feather")) continue;
-        const d = Math.hypot(t.x - mv.x, t.y - (mv.y - 30));
+        const d = distance(t, mv);
         if (d < t.reach && d < best) (best = d), (near = t.id);
       }
     }
@@ -452,7 +485,8 @@ export class WorkshopScene extends Phaser.Scene {
       this.nearId = near;
       this.host.near(near);
     }
-    const nt = near ? this.thing(near) : null;
+    if (near === "door") this.goThrough();
+    const nt = near === "door" ? DOOR : near ? this.thing(near) : null;
     this.ring.setAlpha(lerp(this.ring.alpha, nt ? 0.55 + (calm ? 0 : Math.sin(this.t * 5) * 0.15) : 0, 0.2));
     if (nt) this.ring.setPosition(nt.x, nt.y);
 
@@ -573,6 +607,12 @@ export class WorkshopScene extends Phaser.Scene {
     this.spill.setAlpha(0.55 * (1 - this.darkness));
     this.featherImg.y = this.thing("feather").y + (calm ? 0 : Math.sin(t * 2.2) * 5);
     if (this.leavesImg && this.q.sway && !calm) this.leavesImg.setAngle(Math.sin(t * 0.9) * 1.6);
+    // The door lights when the quest is done, and its light breathes gently unless movement is kept still.
+    this.doorShown = calm ? (s.done ? 1 : 0) : lerp(this.doorShown, s.done ? 1 : 0, 1 - Math.exp(-dt * 3));
+    const pulse = calm ? 1 : 0.85 + Math.sin(t * 2.2) * 0.15;
+    this.doorLit.setAlpha(this.doorShown);
+    this.doorGlow.setAlpha(this.doorShown * pulse);
+    this.doorLine.setAlpha(this.doorShown * pulse);
   }
 
   // ------------------------------------------------------------------------------------------ measuring, leaving

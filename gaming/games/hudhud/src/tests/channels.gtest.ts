@@ -769,14 +769,14 @@ describe("the words", () => {
     for (const l of LANGS) expect(Object.keys(table(l)).filter((k) => k.startsWith("ah_")), l).toEqual(Object.keys(table("en")).filter((k) => k.startsWith("ah_")));
     for (const l of LANGS) for (const k of keys) expect([...(table(l)[k] ?? "").matchAll(/\{\w+\}/g)].map((m) => m[0]).sort(), `${l}:${k}`).toEqual([...(table("en")[k] ?? "").matchAll(/\{\w+\}/g)].map((m) => m[0]).sort());
   });
-  it("is appended at the end of each language's file, after the keys of the tenth quest, and only the next quests' keys (`rz_`, then `kr_`) come after it", () => {
+  it("is appended at the end of each language's file, after the keys of the tenth quest, and only the next quests' keys (`rz_`, then `kr_`) and the journey's (`jn_`) come after it", () => {
     for (const l of LANGS) {
       const ks = Object.keys(table(l));
       const first = ks.findIndex((k) => k.startsWith("ah_"));
       expect(first, l).toBeGreaterThan(0);
       const count = ks.filter((k) => k.startsWith("ah_")).length;
       expect(ks.slice(first, first + count).every((k) => k.startsWith("ah_")), l).toBe(true);
-      expect(ks.slice(first + count).every((k) => k.startsWith("rz_") || k.startsWith("kr_")), l).toBe(true);
+      expect(ks.slice(first + count).every((k) => k.startsWith("rz_") || k.startsWith("kr_") || k.startsWith("jn_")), l).toBe(true);
       expect(ks[first - 1]!.startsWith("cq_"), l).toBe(true);
     }
   });
@@ -813,7 +813,8 @@ describe("the registry and the helper that keeps movement still", () => {
   it("adds the quest through the registry of page quests: its subject, its trial line, what it keeps, how it is made, a button on the Atlas, and the test hook", () => {
     expect(app).toMatch(/\[CHANNELS_QUEST\]: \{\s*subject: CHANNELS_SUBJECT,\s*trial: "ah_trial",/);
     expect(app).toContain("restoreChannels(snap, channelsGrid)");
-    expect(app).toContain("[CHANNELS_SUBJECT]: CHANNELS_QUEST");
+    // The table of built quests is content/journey.ts's since the journey (27 November 2026).
+    expect(readFileSync(here("content", "journey.ts"), "utf8")).toContain("[CHANNELS_SUBJECT]: CHANNELS_QUEST");
     expect(app).toContain("startChannels: () => openPage(CHANNELS_QUEST)");
     expect(app).toMatch(/channels: \(\) => \{ const r = pageOf<ChannelsQuest>\(CHANNELS_QUEST\)/);
     expect(app).toContain("channelsCommand:");

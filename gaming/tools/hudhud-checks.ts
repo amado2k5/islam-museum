@@ -124,9 +124,13 @@ const ev = <T>(page: Page, js: string) => page.evaluate(js) as Promise<T>;
   }
   await page.locator(".words li button", { hasText: /Finish at the page/ }).click();
   await page.waitForTimeout(400);
-  const end = await ev<{ done: boolean; results: string | null }>(page, "({ done: window.__HH__.state().done, results: document.querySelector('.sheet h2') ? document.querySelector('.sheet h2').textContent : null })");
+  // Since the journey (27 November 2026) the end is not a sheet over the game but a panel beside it, and the list in
+  // words then offers the door.
+  const end = await ev<{ done: boolean; results: string | null; sheets: number; door: string[] }>(page, "({ done: window.__HH__.state().done, results: document.querySelector('.door-panel:not([hidden]) h3') ? document.querySelector('.door-panel h3').textContent : null, sheets: document.querySelectorAll('.sheet').length, door: [...document.querySelectorAll('.words li button')].map((b) => b.textContent) })");
   if (outDir) await page.screenshot({ path: resolve(outDir, "finished-in-words-without-webgl.png") });
-  record("without WebGL the quest is finished in words", told.scene === null && !!told.toast && end.done && end.results === "The page is home", { told, end });
+  await page.locator(".words li button", { hasText: "Go through the door" }).click();
+  const leftBy = await ev<{ hub: boolean; started: boolean }>(page, "({ hub: !document.querySelector('.hub').hidden, started: window.__HH__.started() })");
+  record("without WebGL the quest is finished in words, and the door is gone through from the list", told.scene === null && !!told.toast && end.done && end.results === "The page is home" && end.sheets === 0 && end.door.join() === "Go through the door" && leftBy.hub && !leftBy.started, { told, end, leftBy });
   await ctx.close();
 }
 // 4b. Close the page while the words of praise are still on screen: the last mirror is not lost.
@@ -447,7 +451,8 @@ for (const lang of ["en", "ar"]) {
   await playing(page);
   await ev(page, "window.__HH__.command({type:'skip'}); for (const id of ['mirror-a','mirror-c','mirror-e']) window.__HH__.touch(id); window.__HH__.command({type:'skip'}); window.__HH__.touch('page');");
   await page.waitForTimeout(300);
-  await page.locator(".sheet button").first().click(); // "Back to the Atlas" is the first button of the results
+  // Since the journey (27 November 2026) the results are a panel beside the stage, not a sheet; its "Back to the Atlas" is pressed.
+  await page.locator(".door-panel button", { hasText: lang === "ar" ? "العودة إلى الأطلس" : "Back to the Atlas" }).click();
   await page.waitForTimeout(400);
   const after = await ev<{ progress: string; button: string; hubShown: boolean; canvases: number; started: boolean }>(page, "({ progress: document.querySelector('.hub .progress').textContent, button: document.querySelector('.hub button.primary').textContent, hubShown: !document.querySelector('.hub').hidden, canvases: document.querySelectorAll('#stage canvas').length, started: window.__HH__.started() })");
   if (outDir) await page.screenshot({ path: resolve(outDir, `atlas-${lang}-one-page-home.png`), fullPage: true });
@@ -2534,6 +2539,161 @@ for (const lang of ["en", "ar"]) {
   }
   record("the lists of choices in the clock, the paper and the leaves quests are in order of name, not in the order that solves them", seen.clock!.sorted && seen.paper!.sorted && seen.leaves!.sorted, seen);
   await ctx.close();
+}
+// The journey and the door (asked for by the founder, 27 November 2026). Free play of the flying scene ends at a lit
+// door beside a panel (no sheet), and walking the bird to it with real key presses goes back to the Atlas; the journey
+// plays the workshop, then al-Tusi's page, then the elephant clock, each left through its door (the workshop's by
+// walking, the page's corridor by walking), and a reload goes on with it; the corridor's button does the same from the
+// keyboard; an Arabic corridor is mirrored and Left takes the bird to its door; and one run with movement kept still.
+{
+  const walkTo = async (page: Page, key: "ArrowRight" | "ArrowLeft", until: string, ms = 25000) => {
+    await page.keyboard.down(key);
+    try {
+      await page.waitForFunction(until, undefined, { timeout: ms });
+    } finally {
+      await page.keyboard.up(key);
+    }
+  };
+  const finishWorkshop = "window.__HH__.command({type:'skip'}); for (const id of ['mirror-a','mirror-c','mirror-e']) window.__HH__.touch(id); window.__HH__.command({type:'skip'}); window.__HH__.touch('page');";
+  const finishCouple = "window.__HH__.coupleCommand({ type: 'set', field: 'speed', value: 2 }); window.__HH__.coupleCommand({ type: 'set', field: 'dir', value: -1 }); window.__HH__.coupleCommand({ type: 'turn' });";
+  const finishClock = "['float','falcon','dragon','vessel','bowl'].forEach((part, place) => window.__HH__.clockCommand({ type: 'put', place, part })); window.__HH__.clockCommand({ type: 'go' });";
+  const panelView = "(() => { const p = document.querySelector('.door-panel'); return { done: window.__HH__.state().done, sheets: document.querySelectorAll('.sheet').length, modal: document.querySelectorAll('[aria-modal=true]').length, shown: !!p && !p.hidden, heading: p.querySelector('h2') ? p.querySelector('h2').textContent : null, goals: p.querySelectorAll('.goals li').length, links: [...p.querySelectorAll('.note a')].map((a) => a.getAttribute('href')), pending: p.querySelector('.pending') ? p.querySelector('.pending').textContent : '', door: window.__HH__.door(), objective: document.querySelector('.objective').textContent, buttons: [...p.querySelectorAll('button')].map((b) => b.textContent), saved: JSON.parse(localStorage.getItem('im.hudhud.save.v1') || '{}').slots?.[0]?.quests?.['w03q1-ibn-al-haytham']?.done === true, journey: window.__HH__.journey() }; })()";
+  type Panel = { done: boolean; sheets: number; modal: number; shown: boolean; heading: string | null; goals: number; links: string[]; pending: string; door: { lit: boolean; scene: string; where: { x: number } } | null; objective: string; buttons: string[]; saved: boolean; journey: { active: boolean; at: number | null; scene: number | null } };
+  type Door = { lit: boolean; scene: string; where: { x: number; y: number; reach: number } | null; bird: { x: number; y: number } | null } | null;
+  const panelOk = (p: Panel) => p.done && p.sheets === 0 && p.modal === 0 && p.shown && p.goals === 4 && p.links.length === 3 && /Historical review pending/.test(p.pending) && !!p.door?.lit && p.door.scene === "workshop" && p.objective.startsWith("Walk Hudhud to the lit door") && p.buttons.join("|") === "Go through the door|Play again|Back to the Atlas" && p.saved;
+  const frame = (page: Page) => ev<string>(page, "document.querySelector('.bench canvas.corridor-art').toDataURL()");
+
+  // (1) Free play of the flying scene.
+  {
+    const ctx = await browser.newContext({ viewport: { width: 1280, height: 900 } });
+    const page = await open(ctx, "");
+    const hubBefore = await ev<{ primary: string; journey: string; journeyIsPrimary: boolean; beforeWorlds: boolean }>(page, "({ primary: document.querySelector('.hub button.primary').textContent, journey: document.querySelector('.hub button.journey-btn').textContent, journeyIsPrimary: document.querySelector('.hub button.journey-btn').classList.contains('primary'), beforeWorlds: !!document.querySelector('.hub .journey + .worlds') })");
+    await playing(page);
+    await ev(page, finishWorkshop);
+    await page.waitForTimeout(1200);
+    const lit = await ev<Panel>(page, panelView);
+    if (outDir) (mkdirSync(outDir, { recursive: true }), await page.screenshot({ path: resolve(outDir, "journey-workshop-door-lit.png"), fullPage: true }));
+    await page.locator("#stage").focus();
+    await walkTo(page, "ArrowRight", "!document.querySelector('.hub').hidden");
+    const back = await ev<{ hub: boolean; started: boolean; stageHidden: boolean; panelHidden: boolean; last: Door; journey: { active: boolean } }>(page, "({ hub: !document.querySelector('.hub').hidden, started: window.__HH__.started(), stageHidden: document.querySelector('.stage-wrap').hidden, panelHidden: document.querySelector('.door-panel').hidden, last: window.__HH__.lastDoor(), journey: window.__HH__.journey() })");
+    const reach = back.last?.where && back.last.bird ? Math.hypot(back.last.where.x - back.last.bird.x, back.last.where.y - (back.last.bird.y - 30)) : null;
+    record("free play of the flying scene ends at a lit door: no modal sheet, a panel beside the stage with four goals, the three links and 'Historical review pending', the objective names the door, and holding the right arrow key walks the bird to it (it arrives) and back to the Atlas",
+      hubBefore.primary.startsWith("Play: ") && hubBefore.journey === "Begin the journey" && !hubBefore.journeyIsPrimary && hubBefore.beforeWorlds && panelOk(lit) && !lit.journey.active &&
+        back.hub && !back.started && back.stageHidden && back.panelHidden && back.last?.scene === "workshop" && reach !== null && reach < (back.last?.where?.reach ?? 0) && !back.journey.active,
+      { hubBefore, lit, back, reach });
+    await ctx.close();
+  }
+  // (2) The journey: three scenes, two doors walked through, and a reload that goes on with it.
+  {
+    const ctx = await browser.newContext({ viewport: { width: 1280, height: 900 } });
+    const page = await open(ctx, "");
+    await page.locator(".hub button.journey-btn").click();
+    await page.waitForFunction("window.__HH__.where() !== null", undefined, { timeout: 30000 });
+    const first = await ev<{ active: boolean; at: number | null; scene: number | null; order: string[] }>(page, "window.__HH__.journey()");
+    await ev(page, finishWorkshop);
+    await page.waitForTimeout(1200);
+    const lit = await ev<Panel>(page, panelView);
+    await page.locator("#stage").focus();
+    await walkTo(page, "ArrowRight", "window.__HH__.couple() !== null");
+    const second = await ev<{ journey: { at: number; scene: number }; last: Door; heading: string; toast: string | null; stageHidden: boolean; canvases: number }>(page, "({ journey: window.__HH__.journey(), last: window.__HH__.lastDoor(), heading: document.querySelector('.bench h2').textContent, toast: document.querySelector('.toast') ? document.querySelector('.toast').textContent : null, stageHidden: document.querySelector('.stage-wrap').hidden, canvases: document.querySelectorAll('#stage canvas').length })");
+    await ev(page, finishCouple);
+    await page.waitForSelector(".bench .corridor canvas.corridor-art", { timeout: 20000 });
+    await page.waitForTimeout(300);
+    const corr = await ev<{ above: boolean; resultsShown: boolean; role: string | null; alt: string | null; regionRole: string | null; regionLabel: string | null; focused: boolean; door: Door; buttons: string[] }>(page, "(() => { const c = document.querySelector('.bench .corridor'); const r = c.querySelector('.corridor-region'); const cv = c.querySelector('canvas'); return { above: !!(c.compareDocumentPosition(document.querySelector('.bench .results')) & Node.DOCUMENT_POSITION_FOLLOWING), resultsShown: !document.querySelector('.bench .results').hidden, role: cv.getAttribute('role'), alt: cv.getAttribute('aria-label'), regionRole: r.getAttribute('role'), regionLabel: r.getAttribute('aria-label'), focused: document.activeElement === r, door: window.__HH__.door(), buttons: [...c.querySelectorAll('button')].map((b) => b.getAttribute('aria-label') || b.textContent) }; })()");
+    const f1 = await frame(page);
+    await page.waitForTimeout(450);
+    const f2 = await frame(page);
+    if (outDir) await page.locator(".bench .corridor").screenshot({ path: resolve(outDir, "journey-corridor-en.png") });
+    await walkTo(page, "ArrowRight", "window.__HH__.clock() !== null");
+    const third = await ev<{ journey: { at: number; scene: number }; last: Door; toast: string | null; corridors: number; heading: string }>(page, "({ journey: window.__HH__.journey(), last: window.__HH__.lastDoor(), toast: document.querySelector('.toast') ? document.querySelector('.toast').textContent : null, corridors: document.querySelectorAll('.corridor').length, heading: document.querySelector('.bench h2').textContent })");
+    await page.reload();
+    await page.waitForFunction("window.__HH__ && window.__HH__.ready");
+    await leaveOpening(page);
+    const label = await ev<string>(page, "document.querySelector('.hub button.journey-btn').textContent");
+    if (outDir) await page.screenshot({ path: resolve(outDir, "journey-atlas-continue.png") });
+    await page.locator(".hub button.journey-btn").click();
+    await page.waitForFunction("window.__HH__.clock() !== null");
+    const again = await ev<{ scene: number; at: number }>(page, "window.__HH__.journey()");
+    record("the journey plays the workshop, al-Tusi's page and the elephant clock in turn: the bird walked to the workshop's lit door opens the second scene with Hudhud's line; the solved page shows the corridor above its results (a picture with its sentence, a labelled region that takes the focus, the door lit and breathing); walking to its door opens the third scene; and a reload offers 'Continue the journey' with the third figure's Atlas name and continues there",
+      first.active && first.scene === 0 && first.at === 0 && first.order.length === 13 && panelOk(lit) && lit.journey.active &&
+        second.journey.scene === 1 && second.journey.at === 1 && second.last?.scene === "workshop" && (second.last.bird?.x ?? 0) > 2200 && second.heading === "Nasir al-Din al-Tusi" && second.toast === "Hudhud: On to the next page of the Atlas: Nasir al-Din al-Tusi!" && second.stageHidden && second.canvases === 0 &&
+        corr.above && corr.resultsShown && corr.role === "img" && corr.alt === "A corridor. Hudhud stands at one end; at the other end the door is lit." && corr.regionRole === "region" && corr.regionLabel === "The corridor to the door" && corr.focused && !!corr.door?.lit && corr.door.scene === "corridor" && corr.buttons.join("|") === "Left|Right|Go through the door" && f1 !== f2 &&
+        third.journey.scene === 2 && third.journey.at === 2 && third.last?.scene === "corridor" && (third.last.bird?.x ?? 0) > 780 && third.corridors === 0 && third.heading === "al-Jazari and the elephant clock" && third.toast === "Hudhud: On to the next page of the Atlas: al-Jazari and the elephant clock!" &&
+        label === "Continue the journey: al-Jazari and the elephant clock" && again.scene === 2 && again.at === 2,
+      { first: { ...first, order: first.order.length }, lit: { shown: lit.shown, journey: lit.journey }, second, corr, breathing: f1 !== f2, third, label, again });
+    await ctx.close();
+  }
+  // (3) The corridor's button, from the keyboard, on a fresh journey.
+  {
+    const ctx = await browser.newContext({ viewport: { width: 1280, height: 900 } });
+    const page = await open(ctx, "");
+    await ev(page, "window.__HH__.beginJourney()");
+    await page.waitForFunction("window.__HH__.where() !== null", undefined, { timeout: 30000 });
+    await ev(page, finishWorkshop);
+    const through = await ev<boolean>(page, "window.__HH__.goThroughDoor()");
+    await page.waitForFunction("window.__HH__.couple() !== null");
+    await ev(page, finishCouple);
+    await page.waitForSelector(".bench .corridor button.door-go", { timeout: 20000 });
+    await page.locator(".bench .corridor button.door-go").focus();
+    await page.keyboard.press("Enter");
+    await page.waitForFunction("window.__HH__.clock() !== null", undefined, { timeout: 10000 });
+    const after = await ev<{ journey: { scene: number; at: number }; last: Door }>(page, "({ journey: window.__HH__.journey(), last: window.__HH__.lastDoor() })");
+    record("on a fresh journey, 'Go through the door' under a solved page's corridor, pressed with the keyboard, opens the next scene without the bird walking",
+      through && after.journey.scene === 2 && after.journey.at === 2 && after.last?.scene === "corridor" && (after.last.bird?.x ?? 1000) < 200, { through, after });
+    await ctx.close();
+  }
+  // (4) An Arabic page: the corridor is mirrored, and the left arrow key takes the bird to the door (free play: back to the Atlas).
+  {
+    const ctx = await browser.newContext({ viewport: { width: 1280, height: 900 } });
+    const page = await ctx.newPage();
+    page.on("pageerror", (e) => errors.push(String(e)));
+    await page.goto(`${served.base}/games/hudhud/index.html?lang=ar&music=off`);
+    await page.waitForFunction("window.__HH__ && window.__HH__.ready");
+    await leaveOpening(page);
+    const journeyLabel = await ev<string>(page, "document.querySelector('.hub button.journey-btn').textContent");
+    await page.locator(".hub button[data-quest='w02q1-al-jazari']").click();
+    await ev(page, finishClock);
+    await page.waitForSelector(".bench .corridor canvas.corridor-art", { timeout: 20000 });
+    const view = await ev<{ dir: string; door: Door; alt: string | null; focusIsHeading: boolean; label: string | null }>(page, "({ dir: document.documentElement.dir, door: window.__HH__.door(), alt: document.querySelector('.bench canvas.corridor-art').getAttribute('aria-label'), focusIsHeading: document.activeElement && document.activeElement.tagName === 'H3', label: document.querySelector('.bench .corridor-region').getAttribute('aria-label') })");
+    if (outDir) await page.locator(".bench .corridor").screenshot({ path: resolve(outDir, "journey-corridor-ar.png") });
+    // Right first, away from the door: it is not reached.
+    await page.keyboard.down("ArrowRight");
+    await page.waitForTimeout(500);
+    await page.keyboard.up("ArrowRight");
+    const away = await ev<Door>(page, "window.__HH__.door()");
+    await walkTo(page, "ArrowLeft", "!document.querySelector('.hub').hidden");
+    const back = await ev<{ hub: boolean; last: Door }>(page, "({ hub: !document.querySelector('.hub').hidden, last: window.__HH__.lastDoor() })");
+    record("an Arabic page's corridor is mirrored (the bird on the right, the door on the left), its sentence and label are in Arabic, Right takes the bird away from the door, and holding Left walks it to the door and back to the Atlas",
+      journeyLabel === "ابدأ الرحلة" && view.dir === "rtl" && !!view.door?.lit && view.door.scene === "corridor" && (view.door.where?.x ?? 1000) < 200 && (view.door.bird?.x ?? 0) > 800 && view.alt === "ممر. يقف هدهد عند طرف منه، وعند الطرف الآخر باب مضيء." && view.label === "الممر إلى الباب" && view.focusIsHeading &&
+        (away?.bird?.x ?? 0) > (view.door.bird?.x ?? 0) && back.hub && back.last?.scene === "corridor" && (back.last.bird?.x ?? 1000) < 220,
+      { journeyLabel, view, away, back });
+    await ctx.close();
+  }
+  // (5) Movement kept still (motion=reduced): the workshop's door and a corridor both still work, and the corridor's picture does not change while the bird stands.
+  {
+    const ctx = await browser.newContext({ viewport: { width: 1280, height: 900 } });
+    const page = await open(ctx, "&motion=reduced");
+    await playing(page);
+    await ev(page, finishWorkshop);
+    await page.waitForTimeout(400);
+    const lit = await ev<Panel>(page, panelView);
+    await page.locator("#stage").focus();
+    await walkTo(page, "ArrowRight", "!document.querySelector('.hub').hidden");
+    const workshopLast = await ev<Door>(page, "window.__HH__.lastDoor()");
+    await page.locator(".hub button[data-quest='w02q1-al-jazari']").click();
+    await ev(page, finishClock);
+    await page.waitForSelector(".bench .corridor canvas.corridor-art", { timeout: 5000 });
+    await page.waitForTimeout(200);
+    const f1 = await frame(page);
+    await page.waitForTimeout(450);
+    const f2 = await frame(page);
+    await walkTo(page, "ArrowRight", "!document.querySelector('.hub').hidden");
+    const corridorLast = await ev<Door>(page, "window.__HH__.lastDoor()");
+    record("with motion=reduced the workshop's lit door and a corridor's door are both reached by walking, and the corridor's picture stands still while the bird does",
+      panelOk(lit) && workshopLast?.scene === "workshop" && (workshopLast.bird?.x ?? 0) > 2200 && f1 === f2 && corridorLast?.scene === "corridor" && (corridorLast.bird?.x ?? 0) > 780,
+      { lit: lit.shown, workshopLast, still: f1 === f2, corridorLast });
+    await ctx.close();
+  }
 }
 await browser.close();
 await served.close();
