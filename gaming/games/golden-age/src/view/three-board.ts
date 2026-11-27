@@ -876,9 +876,10 @@ export class BoardRenderer {
     this.camera.updateProjectionMatrix();
   }
 
-  info(): { drawCalls: number; triangles: number; cpuRenderMs: number; engine: string; pixels: [number, number]; walkers: number } {
+  info(): { drawCalls: number; triangles: number; geometries: number | null; textures: number | null; cpuRenderMs: number; engine: string; pixels: [number, number]; walkers: number; modelFailures: string[] } {
     const r = this.renderer.info.render as unknown as { drawCalls: number; triangles: number };
-    return { drawCalls: r.drawCalls, triangles: r.triangles, cpuRenderMs: this.cpuMs, engine: `three r${THREE.REVISION} webgpu`, pixels: [this.canvas.width, this.canvas.height], walkers: this.bodies.count };
+    const held = (this.renderer.info as unknown as { memory?: { geometries?: number; textures?: number } }).memory;
+    return { drawCalls: r.drawCalls, triangles: r.triangles, geometries: held?.geometries ?? null, textures: held?.textures ?? null, cpuRenderMs: this.cpuMs, engine: `three r${THREE.REVISION} webgpu`, pixels: [this.canvas.width, this.canvas.height], walkers: this.bodies.count, modelFailures: [...this.modelFailures] };
   }
 
   dispose(): void {
