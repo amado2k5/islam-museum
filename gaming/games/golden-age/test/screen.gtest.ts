@@ -370,6 +370,16 @@ describe("the saved game", () => {
     expect(step(S, first.save.state!, { type: "end-season" })).toEqual(step(S, play(newGame(S, 9), { type: "end-season" }), { type: "end-season" }));
   });
 
+  it("brings a game saved before the merchants' loan existed up to date", () => {
+    const { loanOwed, loanEach, ...v2 } = play(newGame(S, 11), { type: "end-season" }) as State & Record<string, unknown>;
+    void loanOwed;
+    void loanEach;
+    const read = readSave(JSON.stringify({ v: 2, state: v2 }));
+    expect(read.status).toBe("ok");
+    expect(read.save).toMatchObject({ v: SAVE_VERSION, state: { loanOwed: 0, loanEach: 0 } });
+    expect(step(S, read.save.state!, { type: "end-season" })).toEqual(step(S, play(newGame(S, 11), { type: "end-season" }), { type: "end-season" }));
+  });
+
   it("refuses a state the rules could not have produced", () => {
     const s = play(newGame(S, 9), { type: "end-season" });
     expect(playable(s)).toBe(true);

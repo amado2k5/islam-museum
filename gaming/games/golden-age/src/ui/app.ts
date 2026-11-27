@@ -7,7 +7,7 @@ import { installCounters } from "@im/kernel/counters";
 import { probeWebGPU } from "@im/kernel/capability";
 import links from "../../data/museum-links.v1.json";
 import en from "../../i18n/en.json";
-import { BUILDINGS, BUILDING_TYPES, CANAL_COST, GRID_H, GRID_W, PLOTS, SILT_CLEAR_COST, TAX_PER_TEN, TAX_WELFARE, newGame, plotOf, preview, score, servedByWater, step, wateredPlots, type BuildingType, type Command, type Scenario, type State, type TaxLevel } from "../rules";
+import { BUILDINGS, BUILDING_TYPES, CANAL_COST, GRID_H, LOAN_SEASONS, LOAN_SUM, GRID_W, PLOTS, SILT_CLEAR_COST, TAX_PER_TEN, TAX_WELFARE, newGame, plotOf, preview, score, servedByWater, step, wateredPlots, type BuildingType, type Command, type Scenario, type State, type TaxLevel } from "../rules";
 import { endowCost } from "../rules";
 import { SAVE_KEY, SAVE_VERSION, readSave, writeSave } from "../save";
 import { CHAPTERS, FAILING_CANAL, SCENARIOS } from "../scenarios";
@@ -395,6 +395,12 @@ async function main(): Promise<void> {
       { class: "seg", role: "group", ariaLabel: t("tax_title") },
       ...([0, 1, 2] as TaxLevel[]).map((level) => el("button", { type: "button", id: `tax-${level}`, ariaPressed: String(state.tax === level), disabled: state.outcome !== "playing", textContent: t(`tax_${level}`), onclick: () => { if (state.tax !== level) dispatch({ type: "tax", level }); } })),
     );
+    // The merchants' loan: offered when the treasury is low or in debt, and once taken, shown until it is repaid.
+    const loan = state.outcome !== "playing" ? null : state.loanOwed > 0
+      ? el("div", { class: "card" }, el("p", { id: "loan-owed", textContent: t("loan_owed", { owed: state.loanOwed, each: state.loanEach }) }))
+      : state.treasury < 40 || state.insolventSeasons > 0
+        ? el("div", { class: "card" }, el("p", { textContent: t("loan_offer", { sum: LOAN_SUM, each: LOAN_SUM / LOAN_SEASONS, seasons: LOAN_SEASONS }) }), el("button", { type: "button", id: "borrow", disabled: !preview(state, { type: "borrow" }).ok, textContent: t("loan_take", { sum: LOAN_SUM }), onclick: () => dispatch({ type: "borrow" }) }))
+        : null;
     const silt = state.canalCondition < 1000 ? el("div", { class: "card" }, el("p", { textContent: t("canal_condition", { percent: Math.round(state.canalCondition / 10) }) }), el("button", { type: "button", id: "clear-silt", disabled: !preview(state, { type: "clear-silt" }).ok, textContent: t("clear_silt", { cost: SILT_CLEAR_COST }), onclick: () => dispatch({ type: "clear-silt" }) })) : null;
     const info = plotInfo(state, cursorPlot);
     const problems = plotProblems(state);
@@ -436,6 +442,7 @@ async function main(): Promise<void> {
       el("div", { class: "card" }, el("h2", { textContent: t("horizon_title") }), events.length ? el("ul", { class: "lines" }, ...eventRows) : el("p", { class: "muted", textContent: t("horizon_none") })),
       el("div", { class: "card" }, el("h2", { textContent: t("tax_title") }), tax, el("p", { class: "muted", textContent: t("tax_note", { coins: TAX_PER_TEN[state.tax], welfare: signed(-TAX_WELFARE[state.tax]) }) })),
       silt,
+      loan,
       el("div", { class: "card", id: "selected" }, el("h2", {}, t("selected_title", { name: plotName(cursorPlot) }), el("small", { textContent: ` ${whatIs(info.type)}` })), el("ul", { class: "lines" }, ...info.lines.map(lineNode))),
       el("p", { class: "muted small" }, t("seed", { seed: state.seed }), " · ", saveNote || t("saved_note")),
     ];
