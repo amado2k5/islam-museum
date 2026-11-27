@@ -150,6 +150,34 @@ Drawn in code in the same kit, palette and brushed surface as the other two room
 
 (Texture memory here is the decoded bytes `info()` counts, in millions of bytes: 47,529,904, 19,776,420 and 19,165,644.) The observatory has two draw calls more than al-Jazari's workshop: the model and the path in the air are drawn by two graphics objects, not textures. Opening the room ten times left the same 39 textures, 19,165,644 bytes and 57 objects. A lost graphics context in the room is told to the player and the room is drawn again with the quest as it stood (one turning counted). Play to scene: 433 ms.
 
+## The fourth room: al-Khwarizmi's room (27 November 2026)
+
+Drawn in code in the same kit, palette and brushed surface as the other rooms (`art/khwarizmi.ts`, 594 lines; the figures in `art/cast.ts`; the trays' boxes and coins placed by `scenes/khwarizmi.ts`), and like them **trial art, a trial of the look and not final art**, built after the founder said on 27 November 2026 to continue all the remaining work. One long room of 2,400 by 720 game pixels with the same floor and the same door: a quiet scholar's room by day, warm plaster above and ochre low down, plain round arches along the wall with no writing, the band of star tiles in terracotta and teal, and warm stone slabs; an arched window with a wooden lattice, a pale sky and a palm far off; a tall case of books and scrolls (coloured spines and plain cream rolls, no writing); a low writing desk with a plain dark inkpot, two reed pens and a blank sheet, and a cushion before it; a low stand with the two weights; a long table with the two trays standing on it and two gold bars of an equals sign between them, as on the page's picture; and a plain stone plinth by the door with the locked box on it. **No numeral and no writing is drawn anywhere in the room.**
+
+| Figure or thing | Parts | Moves the code makes |
+|---|---|---|
+| **Al-Khwarizmi** (about 335) | the scholar's cut-out again (`scholar(scale, KHWARIZMI_LOOK)`): a green robe, a pale turban with green bands, a dark beard, ochre borders; not a likeness, and his speaker label says "in imagined words" | turns to the bird; raises his arm when a move is made and when he speaks; blinks |
+| **The child who carries the box** (about 175) | the explorer's cut-out in one fixed look of the child's own (`boxCarrier(scale)`: a round cap, a red tunic) with a cloth strap across the chest; the quest's invented person, and the label says so | looks at the bird; waves when speaking; a small hop when spoken to; blinks |
+| **The two trays** (370 by 226 each) | painted in the room: a parchment board in a dark wooden frame on two small feet, with a strip along the bottom set off by a line, where what is taken away stands | none; what they hold changes |
+| **Boxes and coins on the trays** | the page picture's shapes (`trayBox`, `trayCoin`): a closed wooden box with lid and clasp for a thing (44 across), a gold coin for a unit (24 across), and for what is taken away the same shape as a dashed outline with a bar through it (shape, not colour alone); placed from `trayLayout()` each time the problem changes, the first side on the right tray on a right to left page | appear and vanish with the problem; no motion between the trays |
+| **The weights** | a squat brass bell with a handle (`weight`), one marked on its face with a small box shape and one with a coin shape; no numeral | dip a little when touched |
+| **The scoop** | a wooden scoop lying on its side (`scoop`) | tips when touched |
+| **The locked box** | a wooden chest with brass corners and a padlock (`lockedBox`), shut, or with its lid thrown back and the lock hanging open | opens when one thing equals a number; the page of the Atlas rises out of it and rests above it |
+| **Props** | the feather, the page of the Atlas | the feather peeks from under the box until found |
+
+**Script size** (measured 27 November 2026, UTC, from the file `build:release` wrote, compressed with Node's zlib): Hudhud's main script `app-BNg-KE9W.js` is 1,806,410 bytes (385,697 with Brotli at quality 11, 487,975 with gzip at level 9), its style 19,372 bytes (unchanged); with al-Tusi's room it was measured at 1,774,170 bytes (380,608 with Brotli), and `main` has gained a small fix to al-Jazari's room since, so the fourth room adds about 32 KB (about 5 KB with Brotli).
+
+**Measured beside the other three rooms** (`hudhud-play.ts`, Medium, 1920×1080, Explorer, the founder's Mac, Chrome 158, 27 November 2026, all four run one after another in the same session; frame times while the bird crosses the whole room and back for 14 seconds):
+
+| Room | Textures | Texture memory (decoded) | Largest | Objects | Draw calls a frame | Frame time: mean / p95 / p99 / max | Frames over 16.7 ms | JS heap |
+|---|---:|---:|---|---:|---:|---|---:|---:|
+| Ibn al-Haytham's workshop | 50 | 47.5 MB | interior, columns of at most 2045×1080 | 129 | 19 | 8.33 / 9.2 / 9.4 / 12.1 ms | 0 of 1,700 | 94 MB |
+| Al-Jazari's workshop | 42 | 19.8 MB | jazari-room, columns of at most 2045×1080 | 51 | 8 | 8.33 / 9.2 / 9.4 / 11.2 ms | 0 of 1,703 | 64 MB |
+| Al-Tusi's observatory | 39 | 19.2 MB | tusi-room, columns of at most 2045×1080 | 57 | 10 | 8.33 / 9.2 / 9.6 / 14.3 ms | 0 of 1,704 | 67 MB |
+| Al-Khwarizmi's room | 41 | 19.2 MB | khwarizmi-room, columns of at most 2045×1080 | 41 | 8 | 8.33 / 9.1 / 9.3 / 16.3 ms | 0 of 1,700 | 65 MB |
+
+(Texture memory is the decoded bytes `info()` counts: 47,529,904, 19,776,420, 19,165,644 and 19,196,856.) The trays' boxes and coins are images drawn from four small textures, so the room adds no graphics object and stays at 8 draw calls; its single slowest frame, 16.3 ms, was under the 16.7 ms of a 60 Hz frame. Opening the room ten times left the same 41 textures, 19,196,856 bytes and 41 objects. A lost graphics context in the room is told to the player and the room is drawn again with the quest as it stood (one slip counted, the same sentence). Play to scene: 266 ms.
+
 ## Measurements (one machine, not a reference machine)
 
 The founder's MacBook Pro (Apple M4 Max, 128 GB, macOS 27.2.1), Chrome 158, a 120 Hz display, device pixel ratio 1, window 1920×1080; `gaming/tools/hudhud-play.ts`, 26 November 2026. The reports are in [`../evidence/hudhud/golden-scene/`](../evidence/hudhud/golden-scene/). **Neither reference machine (M1 Air 8 GB; Windows 11, i5-1135G7, 8 GB) has run it. No 60-minute profile and no four-hour soak has been run.**

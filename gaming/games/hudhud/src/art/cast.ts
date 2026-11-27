@@ -480,10 +480,29 @@ export function cleaner(scale: number): KeeperArt {
   return { ...art, body };
 }
 
+/**
+ * The child who carries the box in al-Khwarizmi's room, an invented person (the locked box's quest's own): the same
+ * cut-out as the explorer, in one fixed look of the child's own (a round cap, a red tunic), with a cloth strap across the
+ * chest for carrying the box.
+ */
+export function boxCarrier(scale: number): KeeperArt {
+  const art = keeper(scale, { kind: 0, skin: 3, outfit: 1, hair: 2 });
+  const [body, b] = sheet(art.body.w, art.body.h, scale);
+  b.drawImage(art.body.canvas, 0, 0, art.body.w, art.body.h);
+  blob(b, [
+    [24, 8],
+    [34, 4],
+    [76, 92],
+    [66, 98],
+  ]);
+  fillStroke(b, "#d9c49a", INK, 2);
+  return { ...art, body };
+}
+
 // ---------------------------------------------------------------------------------------------- the scholar
 /** The colours a scholar's figure is drawn in. The default is Ibn al-Haytham's, as the workshop has always drawn him;
- * al-Jazari's figure is the same cut-out in other colours, with an apron (art/jazari.ts's room), and al-Tusi's in night
- * colours (art/tusi.ts's room). None is a likeness. */
+ * al-Jazari's figure is the same cut-out in other colours, with an apron (art/jazari.ts's room), al-Tusi's in night
+ * colours (art/tusi.ts's room), and al-Khwarizmi's in day colours (art/khwarizmi.ts's room). None is a likeness. */
 export interface ScholarLook {
   skin: string;
   beard: [string, string];
@@ -542,6 +561,22 @@ export const TUSI_LOOK: ScholarLook = {
   dots: PAL.gold,
   shawl: "#3a3f7a",
   seed: "tusi",
+};
+/** Al-Khwarizmi's figure in his room (art/khwarizmi.ts's room): the same cut-out again, in day colours, green and ochre.
+ * Not a likeness. */
+export const KHWARIZMI_LOOK: ScholarLook = {
+  skin: "#c99a6c",
+  beard: ["#2e2420", "#5a4a40"],
+  moustache: "#3a2e28",
+  brow: "#2e2420",
+  turban: ["#f6efdc", "#d8caa4"],
+  turbanBands: "rgba(47,143,91,0.6)",
+  robe: ["#2f8f5b", "#1f6a42"],
+  gown: "#f3e6c8",
+  border: PAL.ochre,
+  dots: PAL.terracotta,
+  shawl: "#a8743a",
+  seed: "khwarizmi",
 };
 export interface ScholarArt {
   body: Painted;
