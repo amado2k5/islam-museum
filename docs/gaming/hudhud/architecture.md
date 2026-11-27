@@ -7,7 +7,7 @@ _26 November 2026. Describes what is built for the golden scene and what the sam
 ```
 gaming/games/hudhud/
   index.html            the page: one stylesheet, one script, no inline style or script
-  i18n/<lang>.json      866 strings (26 November 2026, later still; 793 before the journey of coffee and 209 when this was first written), the same keys in the same order in ar, en, ur, fr, es, tr, id
+  i18n/<lang>.json      945 strings (27 November 2026, with the Alhambra quest; 866 before it, 793 before the journey of coffee and 209 when this was first written), the same keys in the same order in ar, en, ur, fr, es, tr, id
   i18n-atlas/<lang>.json  the names of the ten worlds and the fifty subjects, a table of their own
   src/
     sim/                RULES. Pure, no Phaser, no DOM, no clock, no unseeded chance; run in Node
@@ -36,7 +36,7 @@ gaming/games/hudhud/
     game/boot.ts        starts and stops Phaser; sizes the canvas; counts draw calls when asked
     ui/app.ts, .css     the page: talk, goal, settings, pause, results, the scene in words, the test hook; one registry of the quests played on a page, and one helper (`calm`) for the three signals of reduced motion
     ui/sortpage.ts      the page of a sorting quest, shared by ui/sort.ts (the animal cards) and ui/coffee.ts (the shelves of coffee), each a spec: its picture, cards, strings, questions and notes
-    tests/*.gtest.ts    543 tests in nineteen files (26 November 2026, later still; 126 when this was first written)
+    tests/*.gtest.ts    633 tests in twenty files (27 November 2026, with the Alhambra quest; 543 in nineteen before it, 126 when this was first written)
 gaming/tools/hudhud-play.ts     plays the scene in real Chrome and records everything
 gaming/tools/hudhud-rebuild.ts  rebuilds the game repeatedly and reads memory
 ```

@@ -528,7 +528,7 @@ describe("the words", () => {
       expect(first, l).toBeGreaterThan(0);
       const count = ks.filter((k) => k.startsWith("ib_")).length;
       expect(ks.slice(first, first + count).every((k) => k.startsWith("ib_")), l).toBe(true);
-      expect(ks.slice(first + count).every((k) => k.startsWith("ts_") || k.startsWith("cq_")), l).toBe(true);
+      expect(ks.slice(first + count).every((k) => k.startsWith("ts_") || k.startsWith("cq_") || k.startsWith("ah_")), l).toBe(true);
     }
   });
   it("names every stop of a stage differently from the others, in every language, and the sentence of the stage in each language names every stop, in the road's order", () => {
@@ -601,8 +601,8 @@ describe("the words", () => {
     // Tangier is named in the Atlas's own words nowhere, but Ibn Battuta's name is: the record name is the Atlas heading's.
     for (const l of LANGS.filter((x) => x !== "en")) expect(table(l).ib_rec_person, l).toBe(atlasTable(l).s_ibn_battuta);
   });
-  it("says in the hub that quests are built, in every language, and no longer seven (the count itself is pinned in coffee.gtest.ts)", () => {
-    expect(table("en").hub_note).toMatch(/(Eight|Nine|Ten) quests are built/);
+  it("says in the hub that quests are built, in every language, and no longer seven (the count itself is pinned in channels.gtest.ts)", () => {
+    expect(table("en").hub_note).toMatch(/(Eight|Nine|Ten|Eleven) quests are built/);
     for (const l of LANGS) expect(table(l).hub_note).not.toMatch(/\bseven quests|\bsept quêtes|\bsiete misiones|\byedi görev|\btujuh misi|سبع مهمات|سات مہمیں/i);
   });
 });

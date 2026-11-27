@@ -191,6 +191,12 @@ main:focus { outline: none; }
 .bench .sheet-row { list-style: none; display: flex; flex-wrap: wrap; gap: 8px; margin: 0; padding: 0; }
 .bench .sheet-row button { min-width: 44px; min-height: 44px; text-align: start; }
 .bench .sheet-row button[aria-pressed="true"] { border-color: var(--gold); background: #18407a; box-shadow: 0 0 0 3px var(--gold); }
+/* The eleventh quest's page: the channels of the dry fountain, played by a button for every piece or by touching a piece in the picture. */
+.bench canvas.channels-art { aspect-ratio: 1000 / 520; cursor: pointer; }
+.bench .channel-rows { display: grid; gap: 8px; margin-block: 10px; }
+.bench .channel-row { list-style: none; display: flex; flex-wrap: wrap; gap: 8px; margin: 0; padding: 0; }
+.bench .channel-row li { flex: 1 1 170px; }
+.bench .channel-row button { width: 100%; min-height: 44px; text-align: start; }
 .bench details.edges { margin-block: 10px; }
 .bench details.edges summary { min-height: 44px; display: flex; align-items: center; cursor: pointer; font-weight: 700; }
 

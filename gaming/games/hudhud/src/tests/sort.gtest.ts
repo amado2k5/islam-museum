@@ -475,8 +475,8 @@ describe("the words and the records", () => {
     expect([...SORT_RECORDS]).toEqual(["person/al-jahiz", "work/kitab-al-hayawan"]);
     for (const id of SORT_RECORDS) expect(existsSync(resolve(root, "data", `${id}.yaml`)), id).toBe(true);
   });
-  it("says in the hub that quests are built, in every language, and no longer five (the count itself is pinned in coffee.gtest.ts)", () => {
-    expect(table("en").hub_note).toMatch(/(Six|Seven|Eight|Nine|Ten) quests are built/);
+  it("says in the hub that quests are built, in every language, and no longer five (the count itself is pinned in channels.gtest.ts)", () => {
+    expect(table("en").hub_note).toMatch(/(Six|Seven|Eight|Nine|Ten|Eleven) quests are built/);
     for (const l of LANGS) expect(table(l).hub_note).not.toMatch(/\bfive quests|\bcinq quêtes|\bcinco misiones|\bbeş görev|\blima misi|خمس مهمات|پانچ مہمیں/i);
   });
   it("gives each card a name in every language, different from every other card's name", () => {
