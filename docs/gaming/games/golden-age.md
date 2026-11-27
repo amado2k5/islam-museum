@@ -119,7 +119,16 @@ The root the paragraph below names, income that grows with households while no c
 2. **A stall at every season's end was found and removed; the first diagnosis was wrong.** The earlier version of this page said a new building cost a slow frame. A probe that timed each command and the two frames after it showed otherwise: building cost nothing extra, and every season's end cost about 50 ms, because the renderer swapped the sky's environment map with the season and the engine rebuilt every material's bindings. One environment map now serves all four seasons (sun, sky, haze and exposure still change), and the scripted campaign has no slow frame. New meshes are also brought in two a frame and swapped when ready, which has not been shown to matter on this machine and may on a slower one.
 3. **Draw calls are high** (about 950 for a full district on High, each mesh drawn for shadow, depth and colour). It holds the display rate on this machine; it will not on a weak one. Merging the static geometry by material is the fix.
 4. **The picture is a tidy model town, not the concept art.** Buildings are plain, figures are simple robed shapes that walk up and down their lane, there are no carts, animals, smoke or lamps, the land beyond the district is bare, and the water is flat. Trouble is now marked on the plot it belongs to, and silt and drought show in the water; hunger, idleness, a fever and a building at work still show only in the panel.
-5. **Two more buildings, 27 November 2026: a caravanserai and a watermill**, and later the same day a public fountain, a cistern and a paper mill: fourteen in all, where the design asks for at least 25 buildings and upgrades. The lab's scripted players do not build them, so their balance is unmeasured.
+5. **Two more buildings, 27 November 2026: a caravanserai and a watermill**, and later the same day a public fountain, a cistern and a paper mill: fourteen in all, where the design asks for at least 25 buildings and upgrades. Measured the same day (100 seeds, each strategy as it is and with orders added to build one of each new building once it has 150 coins to spare; no rule broken in 3,200 games):
+
+| Wins in 100 | irrigator | merchant | scholar | balanced |
+|---|---|---|---|---|
+| Chapter 1, as it is / with the new buildings | 7 / 7 | 34 / 59 | 17 / 17 | 73 / 73 |
+| Chapter 2 | 20 / 19 | 80 / 58 | 32 / 32 | 71 / 62 |
+| Chapter 3 | 23 / 25 | 52 / 18 | 79 / 79 | 47 / 51 |
+| Free play | 16 / 20 | 69 / 77 | 63 / 66 | 0 / 3 |
+
+The new buildings help a trading city in chapter 1 and in free play and cost it in chapters 2 and 3, where the coins they take are missed for the endowments and the library. No way of playing becomes certain. The scripted strategies build them crudely (one of each, when rich), so this says they do not break the game, not how well they can be used. The lab's scripted players do not build them, so their balance is unmeasured.
 
 5. **Free play and today's district, added 27 November 2026.** "The Open Plain" (`?scenario=open-plain`) is twenty years from a small, well-watered start with endowments open and a far goal; in the simulation lab (20 seeds) the scripted strategies win it between 0 and 65% of the time and a city left idle never does. "Today's district" (`?scenario=daily`) is the first chapter's problem with its money, water, silt, events and first houses varied by the date and seeded by it, so it is the same for everyone that day. Both are in the chapter menu. Not yet: a shared result card, or a lab table for the daily district across many days.
 
