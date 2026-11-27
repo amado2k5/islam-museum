@@ -15,6 +15,8 @@ import { allSeams, gridOf, type Seam, type SheetsStyle } from "../sim/sheets";
 import type { Mover } from "../sim/move";
 import type { IdrisiHappened, IdrisiState } from "../sim/idrisiroom";
 import { ADD, RoomScene, lerp, type Box, type Img, type RoomHost, type RoomThing } from "./room";
+import { HELPER, SCHOLAR } from "../content/people";
+import type { Standing } from "../sim/follow";
 
 /** What the hall is showing, beyond the rules' state: whether the door is lit. */
 export interface IdrisiView {
@@ -59,6 +61,10 @@ export class IdrisiScene extends RoomScene<IdrisiSceneHost> {
   }
   protected lit(): boolean {
     return this.host.view().done;
+  }
+  /** Where the room's people stand: the explorer stops short of them (sim/follow.ts). */
+  protected override people(): readonly Standing[] {
+    return [{ x: ISR_START.idrisi, figure: SCHOLAR }, { x: ISR_START.helper, figure: HELPER }];
   }
   protected override approach(t: RoomThing): number {
     return ISR_APPROACH[(t as IsrThing).kind];

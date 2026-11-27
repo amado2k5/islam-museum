@@ -9,7 +9,9 @@
 // to a thing (goTo), the lit door and reaching it, sparks, the frame-time record and the measurements (info), and
 // letting everything go when the room is left. A room adds its own data (world, floor, perches, things, door, where
 // the bird and the explorer begin) and a handful of hooks: how it paints itself, its own figures, which things can be
-// touched now, where the bird stands to touch a thing, and what its own pictures do each frame.
+// touched now, where the bird stands to touch a thing, where its people stand (so that the explorer never stops in
+// front of one, sim/follow.ts), and what its own pictures do each frame. A room's movement starts only once the movement
+// keys have been let go after it began, so that a key held through the last room's door does not carry the bird on.
 //
 // Why a base class and not a set of functions: Phaser's scenes are classes with a life of their own (init, create,
 // update, the shutdown event), and a room is one of them; the hooks are the few methods a room overrides.
@@ -24,6 +26,7 @@ import type { Cue } from "../audio/cues";
 import type { Mood } from "../narrative/dialogue";
 import type { Keeper, Quality } from "../save/save";
 import { distance, landing } from "../sim/door";
+import { followStep, settleIntent, type Standing } from "../sim/follow";
 import { advance, newMover, type Intent, type Mover, type Room } from "../sim/move";
 
 /** What a room asks of the page around it. A room's own host adds what its rules hold (the workshop's `state`). */
@@ -113,6 +116,8 @@ export abstract class RoomScene<H extends RoomHost = RoomHost> extends Phaser.Sc
   private doorShown = 0;
   /** The bird has gone through the door: it is told once. */
   private went = false;
+  /** The movement keys have been let go since the room began (sim/follow.ts settleIntent): until then the bird stands still. */
+  private armed = false;
 
   constructor(key: string, protected readonly layout: RoomLayout) {
     super(key);
@@ -123,6 +128,7 @@ export abstract class RoomScene<H extends RoomHost = RoomHost> extends Phaser.Sc
     // The room is started again on the same object (a new play): the door is closed and not yet gone through.
     this.went = false;
     this.doorShown = 0;
+    this.armed = false;
   }
 
   // ------------------------------------------------------------------------------------------ a room's hooks
@@ -146,6 +152,14 @@ export abstract class RoomScene<H extends RoomHost = RoomHost> extends Phaser.Sc
   protected tap(_x: number, _y: number): void {}
   /** Called once the room is built and the bird stands in it. */
   protected ready(): void {}
+  /** The people of the room (its figure and its helper), where they stand: the explorer stops short of them, never in front of them. */
+  protected people(): readonly Standing[] {
+    return [];
+  }
+  /** The thing within the bird's reach now ("door" for the lit door), or null. */
+  protected nearNow(): string | null {
+    return this.nearId;
+  }
   /** What the room's own pictures do this frame. */
   protected animateRoom(_dt: number, _mv: Mover, _calm: boolean): void {}
   /** Lets go of what the room keeps of its own when the room is left. */
@@ -321,6 +335,10 @@ export abstract class RoomScene<H extends RoomHost = RoomHost> extends Phaser.Sc
   where(): { x: number; y: number; grounded: boolean; near: string | null } {
     return { x: this.mover.x, y: this.mover.y, grounded: this.mover.grounded, near: this.nearId };
   }
+  /** Where the explorer stands on the floor, and the people of the room, for the browser checks. */
+  standing(): { explorer: number; people: { x: number }[] } {
+    return { explorer: this.child.x, people: this.people().map((p) => ({ x: p.x })) };
+  }
 
   override update(_time: number, deltaMs: number): void {
     const dt = Math.min(deltaMs, 100) / 1000;
@@ -343,7 +361,10 @@ export abstract class RoomScene<H extends RoomHost = RoomHost> extends Phaser.Sc
         this.host.touch(p.id);
       }
     } else {
-      const input: Intent = frozen ? { dir: 0, jump: false, down: false } : this.host.intent();
+      // The keys are read even while the world waits, so that letting them go during a talk counts.
+      const settled = settleIntent(this.armed, this.host.intent());
+      this.armed = settled.armed;
+      const input: Intent = frozen ? { dir: 0, jump: false, down: false } : settled.intent;
       const r = advance(this.mover, room, input, dt, this.carry, this.layout.assist[look.style]);
       this.mover = r.mover;
       this.carry = r.carry;
@@ -428,12 +449,12 @@ export abstract class RoomScene<H extends RoomHost = RoomHost> extends Phaser.Sc
     b.head.setAngle(speaking?.who === "hudhud" ? Math.sin(t * 9) * 5 : running ? Math.sin(t * 16) * 4 : 0);
     this.blink(b, b.head, "bird-head", "bird-headBlink", dt);
 
-    // The explorer walks after the bird along the floor and looks up at it.
+    // The explorer walks after the bird along the floor and looks up at it, and stops short of a person rather than in
+    // front of one (sim/follow.ts).
     const c = this.child;
-    const goal = Math.min(this.layout.world.width - 90, Math.max(80, mv.x - 96 * mv.facing));
-    const gap = goal - c.x;
-    const walking = Math.abs(gap) > 50 && !this.host.frozen();
-    if (walking) c.x += Math.sign(gap) * Math.min(Math.abs(gap), 230 * dt);
+    const step = followStep(c.x, mv, this.people(), this.layout.world.width, dt, this.host.frozen());
+    const walking = step.walking;
+    c.x = step.x;
     c.walk = walking ? c.walk + dt * 10 : lerp(c.walk % (Math.PI * 2), 0, 0.2);
     c.box.setPosition(c.x, floor + 8);
     c.box.scaleX = 0.8 * (mv.x >= c.x ? 1 : -1);

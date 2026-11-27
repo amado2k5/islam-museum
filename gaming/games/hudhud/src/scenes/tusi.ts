@@ -16,6 +16,8 @@ import type { CoupleField, CoupleStyle, Pt, Setting } from "../sim/couple";
 import type { Mover } from "../sim/move";
 import { hasLever, leverAngle, modelOf, valueNow, valuesOf, type TusiHappened, type TusiState } from "../sim/tusiroom";
 import { ADD, RoomScene, lerp, type Box, type Img, type RoomHost, type RoomThing } from "./room";
+import { HELPER, SCHOLAR } from "../content/people";
+import type { Standing } from "../sim/follow";
 
 /** What the room is showing, beyond the rules' state: how far a turning being shown has gone, and whether the door is lit. */
 export interface TusiView {
@@ -66,6 +68,10 @@ export class TusiScene extends RoomScene<TusiSceneHost> {
     const k = t as TsrThing;
     if (k.kind === "lever") return hasLever(this.host.view().state.couple.offer, k.field!);
     return true;
+  }
+  /** Where the room's people stand: the explorer stops short of them (sim/follow.ts). */
+  protected override people(): readonly Standing[] {
+    return [{ x: TSR_START.tusi, figure: SCHOLAR }, { x: TSR_START.girl, figure: HELPER }];
   }
   protected override approach(t: RoomThing): number {
     return TSR_APPROACH[(t as TsrThing).kind];

@@ -14,6 +14,8 @@ import { ROUTE_ART, beadPos } from "../games/hudhud/src/art/route";
 import { SORT_ART, cardRects, trayRects } from "../games/hudhud/src/art/sort";
 import { CHANNELS_ART, channelsLayout, tileOrigin } from "../games/hudhud/src/art/channels";
 import { COLLATE_ART, cellCentre } from "../games/hudhud/src/art/collate";
+import { slipsOf } from "../games/hudhud/src/sim/collate";
+import { EXPLORER, HELPER, SCHOLAR, drawnBox, overlaps } from "../games/hudhud/src/content/people";
 import { flow, period, type Kind, type Side } from "../games/hudhud/src/sim/channels";
 import { clockPuzzle } from "../games/hudhud/src/content/clock";
 import { applyClock, newClock } from "../games/hudhud/src/sim/clock";
@@ -2123,7 +2125,8 @@ for (const lang of ["en", "ar"]) {
   const cell = (page: Page, copy: number, place: number) => page.locator(`.bench .collate-table button[data-copy='${copy}'][data-place='${place}']`);
   const label = (page: Page, copy: number, place: number) => cell(page, copy, place).getAttribute("aria-label");
   const ctx = await browser.newContext({ viewport: { width: 1280, height: 900 } });
-  let page = await open(ctx, "&style=explorer");
+  // Since 27 November 2026 Karima's scene is played in her room; `room=off` keeps this check on the copies' page, which stays as the way they are played without WebGL.
+  let page = await open(ctx, "&style=explorer&room=off");
   const button = page.locator(`.hub button[data-quest='${QUEST}']`);
   const isPlain = await button.evaluate((b) => !b.classList.contains("primary"));
   const hubLabel = await button.textContent();
@@ -2176,7 +2179,8 @@ for (const lang of ["en", "ar"]) {
   await ctx.close();
   // Left in the middle: one slip marked and a question asked, the page loaded again, and the Atlas says Continue; the mark and the question are where they were.
   const ctx2 = await browser.newContext({ viewport: { width: 1280, height: 900 } });
-  page = await open(ctx2, "&style=explorer");
+  // Since 27 November 2026 Karima's scene is played in her room; `room=off` keeps this check on the copies' page, which stays as the way they are played without WebGL.
+  page = await open(ctx2, "&style=explorer&room=off");
   await page.locator(`.hub button[data-quest='${QUEST}']`).click();
   await cell(page, 1, 9).click();
   await page.getByRole("button", { name: "Ask about her book" }).click();
@@ -2198,7 +2202,8 @@ for (const lang of ["en", "ar"]) {
   await ctx2.close();
   // The Challenge page never says how many slips remain: not before a mark, not after one, not after a wrong one.
   const ctx3 = await browser.newContext({ viewport: { width: 1280, height: 900 } });
-  page = await open(ctx3, "&style=challenge");
+  // Since 27 November 2026 Karima's scene is played in her room; `room=off` keeps this check on the copies' page, which stays as the way they are played without WebGL.
+  page = await open(ctx3, "&style=challenge&room=off");
   await page.locator(`.hub button[data-quest='${QUEST}']`).click();
   await page.waitForFunction("window.__HH__.collate() !== null");
   const benchText = async () => (await page.locator(".bench").textContent()) ?? "";
@@ -2218,7 +2223,8 @@ for (const lang of ["en", "ar"]) {
   const arCtx = await browser.newContext({ viewport: { width: 1280, height: 900 } });
   const ar = await arCtx.newPage();
   ar.on("pageerror", (e) => errors.push(String(e)));
-  await ar.goto(`${served.base}/games/hudhud/index.html?lang=ar&music=off&style=explorer`);
+  // Since 27 November 2026 Karima's scene is played in her room; `room=off` keeps this check on the copies' page, which stays as the way they are played without WebGL.
+  await ar.goto(`${served.base}/games/hudhud/index.html?lang=ar&music=off&style=explorer&room=off`);
   await ar.waitForFunction("window.__HH__ && window.__HH__.ready");
   await leaveOpening(ar);
   await ar.locator(`.hub button[data-quest='${QUEST}']`).click();
@@ -2239,7 +2245,8 @@ for (const lang of ["en", "ar"]) {
   // With motion=reduced the page plays the same way to its end, and nothing on it moves at any time, with or without it.
   const runFor = async (query: string) => {
     const c = await browser.newContext({ viewport: { width: 1280, height: 900 } });
-    const p = await open(c, `&style=explorer${query}`);
+    // Since 27 November 2026 Karima's scene is played in her room; `room=off` keeps this check on the copies' page, which stays as the way they are played without WebGL.
+    const p = await open(c, `&style=explorer&room=off${query}`);
     await p.locator(`.hub button[data-quest='${QUEST}']`).click();
     const animStart = await ev<number>(p, "document.getAnimations().length");
     for (const [copy, place] of SLIPS) await cell(p, copy, place).click();
@@ -4198,7 +4205,7 @@ for (const lang of ["en", "ar"]) {
 // the kind answer and the feather in the bundle of loose leaves; the row put in order by flight and touch and bound, the
 // lit door, the panel with four goals and the notes (the study's note and "no medical advice"), and the door walked to
 // with real key presses; a reload resumes in the study as it was, the lifted leaf included; in the journey its door leads
-// on to Karima's page; an Arabic page; movement kept still; and without WebGL the scene is played on the loose leaves'
+// on into Karima's room; an Arabic page; movement kept still; and without WebGL the scene is played on the loose leaves'
 // page. Then al-Idrisi's hall at its start, for the people who must not overlap there.
 {
   type RzShown = { places: string[]; modes: string[]; lifted: number | null; thread: number; knot: boolean; feather: boolean; agree: boolean };
@@ -4406,7 +4413,10 @@ for (const lang of ["en", "ar"]) {
   }
 
   // (7) In the journey: al-Idrisi's lit door leads into this study (checked in al-Idrisi's own record (7) above); this
-  // study's lit door, walked to, leads on to the eighth scene, Karima's page, which keeps its corridor until it has a room.
+  // study's lit door, walked to, leads on into the eighth scene, Karima al-Marwaziyya's room (since 27 November 2026;
+  // before, Karima's page and its corridor). The right arrow key is still held when her room opens: held on for a moment
+  // more, it must not carry the bird or the explorer on (the room's movement starts once the keys are let go); let go and
+  // pressed again, it does.
   {
     const ctx = await browser.newContext({ viewport: { width: 1280, height: 900 } });
     const page = await open(ctx, "&style=explorer");
@@ -4445,12 +4455,28 @@ for (const lang of ["en", "ar"]) {
     await page.waitForFunction("window.__HH__.razi().doorLit", undefined, { timeout: 15000 });
     await skipTalk(page);
     await page.locator(`${ROOM} .stage`).focus();
-    await walkRight(page, "window.__HH__.collate() !== null");
-    const onward = await ev<{ journey: { scene: number; at: number }; last: { scene: string } | null; heading: string; room: unknown; roomHidden: boolean }>(page, "({ journey: window.__HH__.journey(), last: window.__HH__.lastDoor(), heading: document.querySelector('.bench h2').textContent, room: window.__HH__.razi(), roomHidden: document.querySelector('.room-box').hidden })");
-    record("in the journey al-Idrisi's lit door leads into al-Razi's study (the seventh scene: no page, no corridor, Hudhud's line naming him); finished, its lit door walked to with the right arrow key leads on to the eighth scene, Karima's page",
+    await page.keyboard.down("ArrowRight");
+    let held: { x: number; explorer: number } | null = null;
+    try {
+      await page.waitForFunction("window.__HH__.karima() !== null && window.__HH__.where() !== null", undefined, { timeout: 25000 });
+      // Her room opens with Hudhud's and Karima's lines; the talk is skipped with the key still held, and the key held on.
+      await ev(page, "window.__HH__.karimaCommand({ type: 'skip' })");
+      await page.waitForTimeout(900);
+      held = await ev<{ x: number; explorer: number }>(page, "({ x: window.__HH__.where().x, explorer: window.__HH__.standing().explorer })");
+    } finally {
+      await page.keyboard.up("ArrowRight");
+    }
+    const onward = await ev<{ journey: { scene: number; at: number }; last: { scene: string } | null; heading: string; room: unknown; roomHidden: boolean; page: unknown; corridors: number }>(page, `({ journey: window.__HH__.journey(), last: window.__HH__.lastDoor(), heading: document.querySelector('${ROOM} h2').textContent, room: window.__HH__.razi(), roomHidden: document.querySelector('.room-box').hidden, page: window.__HH__.collate(), corridors: document.querySelectorAll('.corridor').length })`);
+    await page.locator(`${ROOM} .stage`).focus();
+    await page.keyboard.down("ArrowRight");
+    await page.waitForTimeout(500);
+    await page.keyboard.up("ArrowRight");
+    const pressed = (await ev<{ x: number }>(page, "window.__HH__.where()")).x;
+    record("in the journey al-Idrisi's lit door leads into al-Razi's study (the seventh scene: no page, no corridor, Hudhud's line naming him); finished, its lit door walked to with the right arrow key leads on into the eighth scene, Karima al-Marwaziyya's room (no page, no corridor); the key still held there carries neither the bird nor the explorer on, and once let go and pressed again it moves the bird",
       entered.journey.scene === 6 && entered.journey.at === 6 && entered.last?.scene === "idrisi" && entered.toast === "Hudhud: On to the next page of the Atlas: al-Razi!" && entered.heading === "al-Razi" && entered.corridors === 0 && entered.page === null &&
-        onward.journey.scene === 7 && onward.journey.at === 7 && onward.last?.scene === "razi" && onward.room === null && onward.roomHidden && /Karima/.test(onward.heading),
-      { entered, onward });
+        onward.journey.scene === 7 && onward.journey.at === 7 && onward.last?.scene === "razi" && onward.room === null && !onward.roomHidden && onward.heading === "Karima al-Marwaziyya" && onward.page === null && onward.corridors === 0 &&
+        held !== null && held.x === 250 && held.explorer === 106 && pressed > 300,
+      { entered, onward, held, pressed });
     await ctx.close();
   }
 
@@ -4551,6 +4577,329 @@ for (const lang of ["en", "ar"]) {
     if (outDir) await page.screenshot({ path: resolve(outDir, "idrisi-room-start-after-the-fix.png") });
     record("al-Idrisi's hall at its start (the explorer's start moved so that no person overlaps another in any room): the bird stands where the hall begins it and nobody has moved",
       where.x === 250 && where.y === 624, { where });
+    await ctx.close();
+  }
+}
+// Karima al-Marwaziyya's room, the eighth room on the room engine (asked for by the founder, 27 November 2026): opened
+// from the Atlas it is a canvas scene with the room in words (how many slips remain, every copy's signs as buttons that
+// say their copy, place and sign and whether they are marked, Karima, the boy and the stack of spare copies as buttons);
+// a wrong mark by flight is refused and counted with the page's sentence; a slip marked by flight, taken away and marked
+// again with the touch key; both questions, the kind answer and the feather between the spare copies; every slip (worked
+// out from the room's own state) marked by flight and touch, the lit door, the panel with four goals and the notes (the
+// room's note among them), and the door walked to with real key presses; a reload resumes in the room as it was; a
+// Challenge room, which never says how many slips remain; an Arabic page; movement kept still; and without WebGL the
+// scene is played on the copies' page. Then, in al-Idrisi's hall and in this room, the bird walked past the figure: the
+// explorer, following, stops short of the figure and does not stand in front of it.
+{
+  type KrShown = { ringed: string[]; focus: string | null; focusRinged: boolean; feather: boolean; agree: boolean };
+  type Kr = { marks: { copy: number; place: number }[]; wrong: number; flags: string[]; done: boolean; style: string; puzzle: { copies: string[][]; hers: number }; talk: { script: string } | null; status: string; doorLit: boolean; shown: KrShown | null };
+  const QUEST = "w05q3-karima-al-marwaziyya";
+  const ROOM = ".room-box";
+  const NOTE_ROOM = "The room and the copies on their stands are invented for play; they are not a picture of Karima al-Marwaziyya's home. The game shows nothing of the text of any hadith.";
+  const kr = (page: Page) => ev<Kr | null>(page, "window.__HH__.karima()");
+  const openKr = async (page: Page) => {
+    await page.locator(`.hub button[data-quest='${QUEST}']`).click();
+    await page.waitForFunction("window.__HH__.karima() !== null && window.__HH__.where() !== null", undefined, { timeout: 30000 });
+    await page.waitForTimeout(700);
+  };
+  const skipTalk = async (page: Page) => {
+    for (let i = 0; i < 8 && (await kr(page))?.talk; i++) {
+      await page.locator(`${ROOM} .talk button.quiet`).last().click();
+      await page.waitForTimeout(150);
+    }
+  };
+  /** Flies the bird to a thing by the engine's own flight (goTo), and waits until it has landed and touched it. */
+  const fly = async (page: Page, id: string, until: string) => {
+    await ev(page, `window.__HH__.goTo(${JSON.stringify(id)})`);
+    await page.waitForFunction(until, undefined, { timeout: 8000 });
+    await page.waitForTimeout(150);
+  };
+  const walkRight = async (page: Page, until: string) => {
+    await page.keyboard.down("ArrowRight");
+    try {
+      await page.waitForFunction(until, undefined, { timeout: 25000 });
+    } finally {
+      await page.keyboard.up("ArrowRight");
+    }
+  };
+  /** Every slip, worked out here from the copies the room holds (the rules' own sum, not the room's answer). */
+  const slipsNow = (s: Kr) => slipsOf({ copies: s.puzzle.copies, hers: s.puzzle.hers });
+  const words = (page: Page) => ev<{ left: string; live: string | null; groups: string[]; perCopy: number[]; first: string; pressed: number; sized: boolean; others: string[] }>(page, `(() => { const bs = [...document.querySelectorAll('${ROOM} .sheet-rows button')]; return { left: document.querySelector('${ROOM} .room-words .carrying').textContent, live: document.querySelector('${ROOM} .room-words .carrying').getAttribute('aria-live'), groups: [...document.querySelectorAll('${ROOM} .sheet-rows h3')].map((h) => h.textContent), perCopy: [...document.querySelectorAll('${ROOM} .sheet-rows ol')].map((o) => o.querySelectorAll('button').length), first: bs[0] ? bs[0].textContent : '', pressed: bs.filter((b) => b.getAttribute('aria-pressed') === 'true').length, sized: bs.every((b) => b.getBoundingClientRect().width >= 44 && b.getBoundingClientRect().height >= 44), others: [...document.querySelectorAll('${ROOM} .room-words > ul li button')].map((b) => b.textContent) }; })()`);
+  const ranText = (page: Page) => ev<string>(page, `document.querySelector('${ROOM} .ran').textContent`);
+  const signLabel = (page: Page, copy: number, place: number) => ev<{ text: string; pressed: string | null }>(page, `(() => { const b = document.querySelector("${ROOM} .sheet-rows button[data-copy='${copy}'][data-place='${place}']"); return { text: b.textContent, pressed: b.getAttribute('aria-pressed') }; })()`);
+
+  // (1) to (5): one play in Explorer, from the Atlas, by flight, touch and keys.
+  {
+    const ctx = await browser.newContext({ viewport: { width: 1280, height: 900 } });
+    const page = await open(ctx, "&style=explorer");
+    const atlasItem = await ev<{ label: string; notes: number }>(page, `(() => { const b = document.querySelector(".hub button[data-quest='${QUEST}']"); return { label: b.textContent, notes: b.parentElement.querySelectorAll('small').length }; })()`);
+    await openKr(page);
+    const opened = await ev<{ canvases: number; benchHidden: boolean; roomShown: boolean; heading: string; alt: string | null; info: { renderer: string; largestTextures: { width: number; height: number }[] }; talk: string | null; roomNote: string }>(page, `({ canvases: document.querySelectorAll('${ROOM} .stage canvas').length, benchHidden: document.querySelector('.bench').hidden, roomShown: !document.querySelector('${ROOM}').hidden, heading: document.querySelector('${ROOM} h2').textContent, alt: document.querySelector('${ROOM} .stage').getAttribute('aria-label'), info: window.__HH__.info(), talk: document.querySelector('${ROOM} .talk:not([hidden]) .who') ? document.querySelector('${ROOM} .talk .who').textContent : null, roomNote: document.querySelector('${ROOM} .words section:last-child p').textContent })`);
+    const first = (await kr(page))!;
+    const firstWords = await words(page);
+    if (outDir) (mkdirSync(outDir, { recursive: true }), await page.screenshot({ path: resolve(outDir, "karima-room-start.png") }));
+    record("Karima al-Marwaziyya's room opens from the Atlas as a canvas scene on the room engine: the Atlas names it as it names the other rooms (no line about a page), the room speaks first, and the room is said in words: the slips still to find in a polite live region, every copy's signs as buttons of at least 44 pixels in her copy's and the others' groups, each naming its copy, place and sign, and every other thing a button (Karima, the boy, the stack of spare copies), with the room's note",
+      atlasItem.label === "Play: Karima al-Marwaziyya" && atlasItem.notes === 0 && opened.canvases === 1 && opened.benchHidden && opened.roomShown && opened.heading === "Karima al-Marwaziyya" && opened.alt === "Karima al-Marwaziyya's room, as a picture. The list after it says the same in words." && opened.info.renderer === "webgl" && Math.max(...opened.info.largestTextures.flatMap((t) => [t.width, t.height])) <= 2048 && opened.talk === "Hudhud" && opened.roomNote === NOTE_ROOM &&
+        first.marks.length === 0 && first.wrong === 0 && first.puzzle.copies.length === 3 && first.shown?.agree === true && first.shown.ringed.length === 0 && first.shown.feather &&
+        firstWords.left === "Slips still to find: 6." && firstWords.live === "polite" && firstWords.groups.join("|") === "Copy 1, her copy|Copy 2|Copy 3" && firstWords.perCopy.join() === "16,16,16" && firstWords.first === "Go to Copy 1, place 1: a star of six points" && firstWords.pressed === 0 && firstWords.sized &&
+        firstWords.others.join("|") === "Go to Karima|Go to the boy who carries the copies|Go to the stack of spare copies on top of the tall bookcase",
+      { atlasItem, opened: { ...opened, info: { renderer: opened.info.renderer } }, first: { marks: first.marks, shown: first.shown }, firstWords: { ...firstWords, others: firstWords.others } });
+    await skipTalk(page);
+
+    // (2) A wrong mark by flight: copy 1 at place 2 agrees with copy 3, so it is not a slip; it is refused, counted and said, as on the page.
+    await fly(page, "sign-0-1", "window.__HH__.karima().wrong === 1");
+    const onStand = await ev<{ x: number; y: number; near: string | null }>(page, "window.__HH__.where()");
+    const wrong = { v: (await kr(page))!, ran: await ranText(page), label: await signLabel(page, 0, 1) };
+    record("a wrong mark by flight to a sign on the reading stand is refused and counted exactly as on the page: the bird stands on the stand's ledge with that sign within reach, no mark stands, one wrong mark is counted, and the page's sentence says why and how many slips remain",
+      onStand.near === "sign-0-1" && onStand.y === 292 && wrong.v.wrong === 1 && wrong.v.marks.length === 0 && wrong.v.shown?.agree === true && wrong.v.shown.focus === "sign-0-1" &&
+        /Copy 1, place 2 agrees with another copy: not a slip\./.test(wrong.ran) && /Slips still to find: 6\./.test(wrong.ran) && wrong.label.pressed === "false" && wrong.label.text === "Go to Copy 1, place 2: a wave",
+      { onStand, wrong: { wrong: wrong.v.wrong, marks: wrong.v.marks, shown: wrong.v.shown }, ran: wrong.ran, label: wrong.label });
+
+    // (3) A slip marked by flight; taken away with the touch key and marked again with it.
+    const slips = slipsNow(first);
+    const s0 = slips[0]!;
+    const id0 = `sign-${s0.copy}-${s0.place}`;
+    await fly(page, id0, "window.__HH__.karima().marks.length === 1");
+    const marked = { v: (await kr(page))!, ran: await ranText(page), label: await signLabel(page, s0.copy, s0.place), left: (await words(page)).left };
+    if (outDir) await page.screenshot({ path: resolve(outDir, "karima-room-slip-marked.png") });
+    await page.locator(`${ROOM} .stage`).focus();
+    await page.keyboard.press("KeyE");
+    await page.waitForFunction("window.__HH__.karima().marks.length === 0", undefined, { timeout: 4000 });
+    const unmarked = { v: (await kr(page))!, ran: await ranText(page) };
+    await page.keyboard.press("KeyE");
+    await page.waitForFunction("window.__HH__.karima().marks.length === 1", undefined, { timeout: 4000 });
+    record("a slip marked by flight gets the page's broken ring on the stand and on the raised sign within reach, its button is pressed and says it is marked, and one fewer remains; the touch key takes the mark away and marks it again, with the page's sentences, and no wrong mark is counted",
+      marked.v.marks.length === 1 && marked.v.marks[0]!.copy === s0.copy && marked.v.marks[0]!.place === s0.place && marked.v.wrong === 1 && marked.v.shown?.agree === true && marked.v.shown.ringed.join() === id0 && marked.v.shown.focus === id0 && marked.v.shown.focusRinged &&
+        new RegExp(`Copy ${s0.copy + 1}, place ${s0.place + 1} marked: it differs from the other copies\\.`).test(marked.ran) && /Slips still to find: 5\./.test(marked.ran) && marked.label.pressed === "true" && /, marked as a slip$/.test(marked.label.text) && marked.left === "Slips still to find: 5." &&
+        unmarked.v.marks.length === 0 && unmarked.v.wrong === 1 && unmarked.v.shown?.ringed.length === 0 && new RegExp(`Copy ${s0.copy + 1}, place ${s0.place + 1} is no longer marked\\.`).test(unmarked.ran),
+      { s0, marked: { marks: marked.v.marks, shown: marked.v.shown, ran: marked.ran, label: marked.label }, unmarked: { marks: unmarked.v.marks, ran: unmarked.ran } });
+
+    // (4) Karima, the boy and the stack of spare copies, by touching them; the Touch button touches the boy again.
+    await fly(page, "karima", "window.__HH__.karima().talk !== null");
+    const hello = await page.locator(`${ROOM} .talk .line + span`).textContent();
+    await page.locator(`${ROOM} .talk .choices button`, { hasText: "Ask who Karima was" }).click();
+    const whoWho = await page.locator(`${ROOM} .talk .who`).textContent();
+    const whoLine = await page.locator(`${ROOM} .talk .line + span`).textContent();
+    await page.locator(`${ROOM} .talk .choices button`, { hasText: "Ask about her book" }).click();
+    const bookLine = await page.locator(`${ROOM} .talk .line + span`).textContent();
+    const thanks = await page.locator(`${ROOM} .talk .choices button`).last().textContent();
+    await page.locator(`${ROOM} .talk .choices button`).last().click();
+    const bye = await page.locator(`${ROOM} .talk .line + span`).textContent();
+    const byeWho = await page.locator(`${ROOM} .talk .who`).textContent();
+    await page.locator(`${ROOM} .talk button`, { hasText: "Next" }).click();
+    await fly(page, "boy", "window.__HH__.karima().talk !== null");
+    const boyWho = await page.locator(`${ROOM} .talk .who`).textContent();
+    const boyLine = await page.locator(`${ROOM} .talk .line + span`).textContent();
+    await page.locator(`${ROOM} .talk .choices button`, { hasText: "You spoiled nothing." }).click();
+    for (let i = 0; i < 3 && (await kr(page))?.talk; i++) await page.locator(`${ROOM} .talk button`, { hasText: "Next" }).click();
+    await page.locator(`${ROOM} .pad button.wide`).click();
+    const again = (await kr(page))!.talk?.script ?? null;
+    await skipTalk(page);
+    await fly(page, "stack", "window.__HH__.karima().flags.includes('feather')");
+    const onShelf = await ev<{ y: number }>(page, "window.__HH__.where()");
+    const featherLine = await page.locator(`${ROOM} .talk .line + span`).textContent();
+    await skipTalk(page);
+    const asked = (await kr(page))!;
+    record("touching Karima greets and asks who she was and about her book (the page's own lines, said by the museum's record), with a goodbye of the room's own in her imagined words; the boy is answered kindly, and the Touch button touches him again; the feather is between the spare copies on top of the tall bookcase, reached by flight; the flags are the page quest's own and no mark is counted",
+      hello === "Welcome. The copies are on the stands, waiting to be compared; take your time." && whoWho === "From the museum's record" && /transmitted the Sahih on the authority of al-Kushmihani/.test(whoLine ?? "") && /leading scholars read hadith with her/.test(bookLine ?? "") && thanks === "Thank you. Now to the copies." && bye === "Go well. Sign by sign, and nothing will slip past you." && byeWho === "Karima, in imagined words" &&
+        boyWho === "The boy who carries the copies, an invented person" && /Did I spoil them\?/.test(boyLine ?? "") && again === "boyKind" &&
+        onShelf.y === 190 && featherLine === "A feather, between two copies! It is one of mine." && asked.flags.slice().sort().join() === "answered,askedBook,askedWho,feather,kind" && asked.marks.length === 1 && asked.wrong === 1 && asked.shown?.feather === false,
+      { hello, whoWho, whoLine, bookLine, thanks, bye, byeWho, boyWho, boyLine, again, onShelf, featherLine, flags: asked.flags });
+
+    // (5) Every other slip, worked out from the room's own copies, marked by flight and touch; the door lights, the panel; then the door walked to with real key presses.
+    for (const x of slips.slice(1)) {
+      const n = (await kr(page))!.marks.length;
+      await fly(page, `sign-${x.copy}-${x.place}`, `window.__HH__.karima().marks.length === ${n + 1} || window.__HH__.karima().done`);
+    }
+    await page.waitForFunction("window.__HH__.karima().doorLit", undefined, { timeout: 10000 });
+    await page.waitForTimeout(400);
+    const live = await ev<string>(page, `document.querySelector('${ROOM} .room > .visually-hidden[role=status]').textContent`);
+    const panel = await ev<{ shown: boolean; modal: number; goals: number; met: number; notes: string[]; links: string[]; pending: string; buttons: string[]; door: { lit: boolean; scene: string }; list: string[]; objective: string; saved: boolean; resume: unknown; signsDisabled: boolean }>(page, `(() => { const p = document.querySelector('${ROOM} .door-panel'); return { shown: !p.hidden, modal: document.querySelectorAll('[aria-modal=true]').length, goals: p.querySelectorAll('.goals li').length, met: p.querySelectorAll('.goals .met').length, notes: [...p.querySelectorAll('.note p')].map((x) => x.textContent), links: [...p.querySelectorAll('.note a')].map((a) => a.getAttribute('href')), pending: p.querySelector('.pending').textContent, buttons: [...p.querySelectorAll('button')].map((b) => b.textContent), door: window.__HH__.door(), list: [...document.querySelectorAll('${ROOM} .room-words > ul li button')].map((b) => b.textContent), objective: document.querySelector('${ROOM} .objective').textContent, saved: JSON.parse(localStorage.getItem('im.hudhud.save.v1') || '{}').slots?.[0]?.quests?.['${QUEST}']?.done === true, resume: JSON.parse(localStorage.getItem('im.hudhud.save.v1') || '{}').slots?.[0]?.resume ?? null, signsDisabled: [...document.querySelectorAll('${ROOM} .sheet-rows button')].every((b) => b.disabled) }; })()`);
+    const finished = (await kr(page))!;
+    const doneRan = await ranText(page);
+    await skipTalk(page);
+    await page.locator(`${ROOM} .stage`).focus();
+    await page.keyboard.down("ArrowRight");
+    await page.waitForTimeout(900);
+    if (outDir) await page.screenshot({ path: resolve(outDir, "karima-room-door-lit.png") });
+    await page.keyboard.up("ArrowRight");
+    await walkRight(page, "!document.querySelector('.hub').hidden");
+    const back = await ev<{ hub: boolean; roomHidden: boolean; last: { scene: string; where: { x: number; y: number; reach: number }; bird: { x: number; y: number } } | null; label: string; canvases: number }>(page, `({ hub: !document.querySelector('.hub').hidden, roomHidden: document.querySelector('.room-box').hidden, last: window.__HH__.lastDoor(), label: document.querySelector(".hub button[data-quest='${QUEST}']").textContent, canvases: document.querySelectorAll('.room-box canvas, #stage canvas').length })`);
+    const reach = back.last ? Math.hypot(back.last.where.x - back.last.bird.x, back.last.where.y - (back.last.bird.y - 30)) : null;
+    record("every slip, worked out from the room's own copies, marked by flight and touch: the copies are done with one wrong mark, Hudhud says the page's last line, the door lights, the panel beside the stage (no modal sheet) shows four goals met, the quest's three notes, the room's note and 'Historical review pending', and the link; the list then offers only the door, the place kept is cleared, and holding the right arrow key walks Hudhud to it and, in free play, back to the Atlas",
+      finished.done && finished.marks.length === 6 && finished.wrong === 1 && finished.talk?.script === "done" && finished.shown?.agree === true && finished.shown.ringed.length === 6 &&
+        /Every slip is marked, and the copies agree again\./.test(doneRan) && /door is open/.test(live) &&
+        panel.shown && panel.modal === 0 && panel.goals === 4 && panel.met === 4 && panel.notes.includes(NOTE_ROOM) && panel.notes.some((n) => /^This is a game, not a history\./.test(n)) && panel.notes.some((n) => /shows nothing of the text of any hadith/.test(n) && /is the game's own/.test(n)) && /Historical review pending/.test(panel.pending) && panel.signsDisabled &&
+        panel.links.join() === "https://islam.museum/en/person/karima-al-marwaziyya/" && panel.buttons.join("|") === "Go through the door|Play again|Back to the Atlas" && panel.door.lit && panel.door.scene === "karima" &&
+        panel.list.join() === "Go through the door" && panel.objective.startsWith("Walk Hudhud to the lit door at the end of the room.") && panel.saved && panel.resume === null &&
+        back.hub && back.roomHidden && back.last?.scene === "karima" && reach !== null && reach < back.last.where.reach && /^Play again: /.test(back.label) && back.canvases === 0,
+      { finished: { done: finished.done, marks: finished.marks.length, wrong: finished.wrong, shown: finished.shown }, doneRan, live, panel, back: { ...back }, reach });
+    await ctx.close();
+  }
+
+  // (6) Left in the middle with a slip marked, a wrong mark and a question asked, the page loaded again: the Atlas says
+  // Continue, and the room comes back as it was.
+  {
+    const ctx = await browser.newContext({ viewport: { width: 1280, height: 900 } });
+    const page = await open(ctx, "&style=explorer");
+    await openKr(page);
+    await skipTalk(page);
+    const s = slipsNow((await kr(page))!)[3]!;
+    await fly(page, `sign-${s.copy}-${s.place}`, "window.__HH__.karima().marks.length === 1");
+    await fly(page, "sign-0-1", "window.__HH__.karima().wrong === 1");
+    await fly(page, "karima", "window.__HH__.karima().talk !== null");
+    await page.locator(`${ROOM} .talk .choices button`, { hasText: "Ask about her book" }).click();
+    await skipTalk(page);
+    const left = (await kr(page))!;
+    const kept = await ev<{ quest: string; snap: Record<string, unknown> } | null>(page, "JSON.parse(localStorage.getItem('im.hudhud.save.v1') || '{}').slots?.[0]?.resume ?? null");
+    await ev(page, "window.__HH__.saveReady()");
+    await page.reload();
+    await page.waitForFunction("window.__HH__ && window.__HH__.ready");
+    await leaveOpening(page);
+    const label = await ev<string>(page, `document.querySelector(".hub button[data-quest='${QUEST}']").textContent`);
+    await page.locator(`.hub button[data-quest='${QUEST}']`).click();
+    await page.waitForFunction("window.__HH__.karima() !== null && window.__HH__.where() !== null", undefined, { timeout: 30000 });
+    await page.waitForTimeout(500);
+    const resumed = (await kr(page))!;
+    const resumedWords = { left: (await words(page)).left, label: await signLabel(page, s.copy, s.place) };
+    if (outDir) await page.screenshot({ path: resolve(outDir, "karima-room-resumed.png") });
+    record("Karima's room left in the middle keeps the copies' own snapshot (the page quest's, nothing more); the page loaded again, the Atlas says Continue, and the room comes back as it was (the slip marked and ringed, the wrong mark counted, the question asked, no talk), said in words",
+      left.marks.length === 1 && left.wrong === 1 && left.flags.join() === "askedBook" && kept?.quest === QUEST && Object.keys(kept.snap).sort().join() === "flags,marks,style,wrong" &&
+        /^Continue: /.test(label) && JSON.stringify(resumed.marks) === JSON.stringify(left.marks) && resumed.wrong === 1 && resumed.flags.join() === "askedBook" && resumed.talk === null && resumed.shown?.agree === true && resumed.shown.ringed.join() === `sign-${s.copy}-${s.place}` &&
+        resumedWords.left === "Slips still to find: 5." && resumedWords.label.pressed === "true",
+      { left: { marks: left.marks, wrong: left.wrong, flags: left.flags }, kept, label, resumed: { marks: resumed.marks, wrong: resumed.wrong, shown: resumed.shown }, resumedWords });
+    await ctx.close();
+  }
+
+  // (7) A Challenge room: three copies of twenty signs, and the count of slips still to find is never shown, not at the
+  // start, not after a slip is marked, not after a wrong mark (which is still refused and counted).
+  {
+    const ctx = await browser.newContext({ viewport: { width: 1280, height: 900 } });
+    const page = await open(ctx, "&style=challenge");
+    await openKr(page);
+    await skipTalk(page);
+    const text = () => ev<string>(page, `document.querySelector('${ROOM}').textContent + ' ' + document.querySelector('${ROOM} .stage').getAttribute('aria-label')`);
+    const c0 = { w: await words(page), text: await text() };
+    const s = slipsNow((await kr(page))!)[0]!;
+    await fly(page, `sign-${s.copy}-${s.place}`, "window.__HH__.karima().marks.length === 1");
+    const c1 = { ran: await ranText(page), text: await text() };
+    await fly(page, "sign-0-1", "window.__HH__.karima().wrong === 1");
+    const c2 = { ran: await ranText(page), text: await text(), v: (await kr(page))! };
+    if (outDir) await page.screenshot({ path: resolve(outDir, "karima-room-challenge.png") });
+    record("Karima's room in Challenge holds three copies of twenty signs, and never says how many slips remain: not at the start, not after a slip is marked by flight, not after a wrong mark (which is still refused and counted)",
+      c0.w.perCopy.join() === "20,20,20" && c0.w.left === "Find every slip. In this way of playing the page does not say how many there are." && !/still to find/.test(c0.text) &&
+        /marked: it differs from the other copies\./.test(c1.ran) && !/still to find/.test(c1.text) && /agrees with another copy: not a slip\./.test(c2.ran) && !/still to find/.test(c2.text) && c2.v.wrong === 1 && c2.v.marks.length === 1 && !c2.v.done,
+      { c0: c0.w, c1: c1.ran, c2: { ran: c2.ran, wrong: c2.v.wrong, marks: c2.v.marks } });
+    await ctx.close();
+  }
+
+  // (8) An Arabic page: her copy's first place on the right, Arabic words and numerals.
+  {
+    const ctx = await browser.newContext({ viewport: { width: 1280, height: 900 } });
+    const page = await ctx.newPage();
+    page.on("pageerror", (e) => errors.push(String(e)));
+    await page.goto(`${served.base}/games/hudhud/index.html?lang=ar&music=off&style=explorer&fresh=1`);
+    await page.waitForFunction("window.__HH__ && window.__HH__.ready");
+    await leaveOpening(page);
+    await openKr(page);
+    const ar = await ev<{ dir: string; alt: string | null; heading: string; who: string | null }>(page, `({ dir: document.documentElement.dir, alt: document.querySelector('${ROOM} .stage').getAttribute('aria-label'), heading: document.querySelector('${ROOM} h2').textContent, who: document.querySelector('${ROOM} .talk .who') ? document.querySelector('${ROOM} .talk .who').textContent : null })`);
+    await skipTalk(page);
+    await fly(page, "sign-1-0", "window.__HH__.karima().wrong === 1");
+    const firstX = (await ev<{ x: number }>(page, "window.__HH__.where()")).x;
+    await fly(page, "sign-1-1", "window.__HH__.karima().marks.length === 1");
+    const secondX = (await ev<{ x: number }>(page, "window.__HH__.where()")).x;
+    if (outDir) await page.screenshot({ path: resolve(outDir, "karima-room-ar.png") });
+    const s = { w: await words(page), ran: await ranText(page), objective: await ev<string>(page, `document.querySelector('${ROOM} .objective').textContent`), note: await ev<string>(page, `document.querySelector('${ROOM} .words section:last-child p').textContent`) };
+    record("Karima's room on an Arabic page runs right to left, sets each copy's first place on the right, names the signs and says what a mark did in Arabic with Arabic numerals and no Latin digit, and gives the room's note in the founder's Arabic words",
+      ar.dir === "rtl" && ar.alt === "غرفة كريمة المروزية في صورة. والقائمة التي بعدها تقول الشيء نفسه بالكلمات." && ar.heading === "كريمة المروزية" && ar.who === "هدهد" &&
+        firstX > secondX && s.w.first === "اذهب إلى النسخة ١، الموضع ١: نجمة سداسية" && s.w.groups[0] === "النسخة ١، نسختها" && /عُلِّمت النسخة ٢ في الموضع ٢/.test(s.ran) && s.w.left === "الأخطاء الباقية: ٥." &&
+        s.note === "الغرفة والنسخ على حواملها من خيال اللعب، وليست صورة لبيت كريمة المروزية. ولا يظهر في اللعبة شيء من نصّ أي حديث." && !/[0-9]/.test(s.w.first + s.ran + s.objective + s.w.left),
+      { ar, firstX, secondX, s: { first: s.w.first, groups: s.w.groups, left: s.w.left, ran: s.ran, objective: s.objective } });
+    await ctx.close();
+  }
+
+  // (9) Movement kept still: the bird is set down at once and each touch takes effect on the same step; Story's four slips
+  // (her copy and one other, on two stands) are marked with no wait, and the door is still walked to.
+  {
+    const ctx = await browser.newContext({ viewport: { width: 1280, height: 900 } });
+    const page = await open(ctx, "&style=story&motion=reduced&fresh=1");
+    await openKr(page);
+    await skipTalk(page);
+    const story = (await kr(page))!;
+    const t0 = Date.now();
+    const slips = slipsNow(story);
+    await ev(page, `window.__HH__.goTo('sign-${slips[0]!.copy}-${slips[0]!.place}')`);
+    const once = (await kr(page))!;
+    for (const x of slips.slice(1)) await ev(page, `window.__HH__.goTo('sign-${x.copy}-${x.place}')`);
+    const calm = (await kr(page))!;
+    const took = Date.now() - t0;
+    await page.waitForFunction("window.__HH__.karima().doorLit", undefined, { timeout: 5000 });
+    if (outDir) await page.screenshot({ path: resolve(outDir, "karima-room-reduced.png") });
+    await skipTalk(page);
+    await page.locator(`${ROOM} .stage`).focus();
+    await walkRight(page, "!document.querySelector('.hub').hidden");
+    const last = await ev<{ scene: string } | null>(page, "window.__HH__.lastDoor()");
+    record("Karima's room with motion=reduced: flown to, the bird is set down and touches at once (the first slip marked on the same step); Story's two copies (her copy careful, every slip in the other) are marked with no wait; the lit door is still reached by walking",
+      story.puzzle.copies.length === 2 && slips.length === 4 && slips.every((x) => x.copy === 1) && once.marks.length === 1 && calm.done && calm.wrong === 0 && took < 2500 && last?.scene === "karima",
+      { copies: story.puzzle.copies.length, slips, once: once.marks, calm: { done: calm.done, wrong: calm.wrong }, took, last });
+    await ctx.close();
+  }
+
+  // (10) Without WebGL the scene is played on the copies' page, and finished there.
+  {
+    const ctx = await browser.newContext({ viewport: { width: 1280, height: 800 } });
+    await ctx.addInitScript("const g = HTMLCanvasElement.prototype.getContext; HTMLCanvasElement.prototype.getContext = function (t, ...a) { return /webgl/.test(t) ? null : g.call(this, t, ...a); };");
+    const page = await open(ctx, "&fresh=1&preflight=off&style=explorer");
+    const note = await ev<string>(page, `(() => { const s = document.querySelector(".hub button[data-quest='${QUEST}']").parentElement.querySelector('small'); return s ? s.textContent : ''; })()`);
+    await page.locator(`.hub button[data-quest='${QUEST}']`).click();
+    await page.waitForFunction("window.__HH__.collate() !== null", undefined, { timeout: 10000 });
+    const onPage = await ev<{ room: unknown; cells: number; roomHidden: boolean; benchShown: boolean; copies: string[][]; hers: number }>(page, "({ room: window.__HH__.karima(), cells: document.querySelectorAll('.bench .collate-table tbody button').length, roomHidden: document.querySelector('.room-box').hidden, benchShown: !document.querySelector('.bench').hidden, copies: window.__HH__.collate().puzzle.copies, hers: window.__HH__.collate().puzzle.hers })");
+    for (const x of slipsOf({ copies: onPage.copies, hers: onPage.hers })) await page.locator(`.bench .collate-table button[data-copy='${x.copy}'][data-place='${x.place}']`).click();
+    await page.waitForSelector(".bench .results:not([hidden])", { timeout: 20000 });
+    const done = await ev<boolean>(page, "window.__HH__.collate().done");
+    if (outDir) await page.screenshot({ path: resolve(outDir, "karima-room-without-webgl.png"), fullPage: true });
+    record("without WebGL Karima's scene is played on the copies' page (its trial line on the Atlas, the table of real buttons for every sign, no room), and is finished there",
+      /first trial/.test(note) && onPage.room === null && onPage.cells === 48 && onPage.roomHidden && onPage.benchShown && done, { note, onPage: { ...onPage, copies: undefined }, done });
+    await ctx.close();
+  }
+
+  // (11) The explorer beside a figure, in al-Idrisi's hall and in this room: the bird is flown to the figure, then walked
+  // with the right arrow key until it stands just past them, where the old rule (96 pixels behind the bird, nothing else)
+  // would have stood the explorer in front of the figure. The explorer, following, must stop short of the figure: its
+  // drawn box, from where() and the scene's own positions (standing()), must not overlap the figure's or the helper's.
+  for (const room of [
+    { name: "al-Idrisi's hall", quest: "w03q4-al-idrisi", hook: "idrisi", command: "idrisiCommand", figure: "idrisi", shot: "idrisi-room-explorer-beside-figure.png" },
+    { name: "Karima al-Marwaziyya's room", quest: QUEST, hook: "karima", command: "karimaCommand", figure: "karima", shot: "karima-room-explorer-beside-figure.png" },
+  ]) {
+    const ctx = await browser.newContext({ viewport: { width: 1280, height: 900 } });
+    const page = await open(ctx, "&style=explorer&fresh=1");
+    await page.locator(`.hub button[data-quest='${room.quest}']`).click();
+    await page.waitForFunction(`window.__HH__.${room.hook}() !== null && window.__HH__.where() !== null`, undefined, { timeout: 30000 });
+    await page.waitForTimeout(600);
+    await ev(page, `window.__HH__.${room.command}({ type: 'skip' })`);
+    // Flown to the figure, the bird lands beside them and a talk begins; it is skipped.
+    await ev(page, `window.__HH__.goTo('${room.figure}')`);
+    await page.waitForFunction(`window.__HH__.${room.hook}().talk !== null`, undefined, { timeout: 8000 });
+    await ev(page, `window.__HH__.${room.command}({ type: 'skip' })`);
+    const people = (await ev<{ explorer: number; people: { x: number }[] }>(page, "window.__HH__.standing()")).people;
+    const fig = people[0]!.x;
+    await page.locator(`${ROOM} .stage`).focus();
+    await walkRight(page, `window.__HH__.where().x >= ${fig + 100}`);
+    // The bird stands still; the explorer is given time to walk after it and stop.
+    await page.waitForTimeout(3500);
+    const bird = await ev<{ x: number; y: number; grounded: boolean }>(page, "window.__HH__.where()");
+    const stood = await ev<{ explorer: number; people: { x: number }[] }>(page, "window.__HH__.standing()");
+    await page.waitForTimeout(600);
+    const later = await ev<{ explorer: number }>(page, "window.__HH__.standing()");
+    if (outDir) await page.screenshot({ path: resolve(outDir, room.shot) });
+    const floor = 624;
+    const me = drawnBox(EXPLORER, stood.explorer, floor, "either");
+    const boxes = stood.people.map((p, i) => drawnBox(i === 0 ? SCHOLAR : HELPER, p.x, floor, "either"));
+    const old = Math.min(2400 - 90, Math.max(80, bird.x - 96));
+    const oldWouldOverlap = overlaps(drawnBox(EXPLORER, old, floor, "either"), boxes[0]!);
+    record(`in ${room.name}, the bird walked just past the figure and standing still: the explorer, following, stops short of the figure and does not stand overlapping any person (by where(), the scene's own positions and the people's drawn boxes), where the old rule would have stood it in front of the figure`,
+      bird.grounded && bird.x >= fig + 100 && Math.abs(later.explorer - stood.explorer) < 0.5 && boxes.every((b) => !overlaps(me, b)) && stood.explorer < fig && oldWouldOverlap,
+      { bird, stood, later: later.explorer, old, oldWouldOverlap });
     await ctx.close();
   }
 }

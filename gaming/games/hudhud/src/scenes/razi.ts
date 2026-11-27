@@ -17,6 +17,8 @@ import type { LeavesStyle } from "../sim/leaves";
 import type { Mover } from "../sim/move";
 import type { RaziHappened, RaziState } from "../sim/raziroom";
 import { ADD, RoomScene, lerp, type Box, type Img, type RoomHost, type RoomThing } from "./room";
+import { HELPER, SCHOLAR } from "../content/people";
+import type { Standing } from "../sim/follow";
 
 /** What the study is showing, beyond the rules' state: how far the last binding has been shown, where it stopped, whether it is being shown, and whether the door is lit. */
 export interface RaziView {
@@ -71,6 +73,10 @@ export class RaziScene extends RoomScene<RaziSceneHost> {
   }
   protected lit(): boolean {
     return this.host.view().done;
+  }
+  /** Where the room's people stand: the explorer stops short of them (sim/follow.ts). */
+  protected override people(): readonly Standing[] {
+    return [{ x: RZR_START.razi, figure: SCHOLAR }, { x: RZR_START.child, figure: HELPER }];
   }
   protected override approach(t: RoomThing): number {
     return RZR_APPROACH[(t as RzrThing).kind];

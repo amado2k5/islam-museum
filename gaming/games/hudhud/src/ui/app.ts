@@ -21,6 +21,8 @@ import { restoreIdrisi, type IdrisiCommand } from "../sim/idrisiroom";
 import { idrisiRoom, type IdrisiRoom } from "./idrisi";
 import { restoreRazi, type RaziCommand } from "../sim/raziroom";
 import { raziRoom, type RaziRoom } from "./razi";
+import { restoreKarima, type KarimaCommand } from "../sim/karimaroom";
+import { karimaRoom, type KarimaRoom } from "./karima";
 import { CIPHER_QUEST, cipherPuzzle } from "../content/cipher";
 import { restoreCipher } from "../sim/cipher";
 import { cipherQuest, type CipherQuest } from "./cipher";
@@ -205,10 +207,10 @@ async function main(): Promise<void> {
   const bench = el("section", { class: "bench", hidden: true });
   let pageRun: { quest: string; run: { node: HTMLElement; busy(): boolean; stop(): void } } | null = null;
   // A scene with a room of its own (al-Jazari's workshop, al-Tusi's observatory, al-Khwarizmi's room, al-Kindi's room,
-  // al-Idrisi's hall and al-Razi's study, since 27 November 2026) is opened like a page quest and shown here, as wide as
-  // the flying scene's stage. Its page quest stays as the way it is played without WebGL.
+  // al-Idrisi's hall, al-Razi's study and Karima al-Marwaziyya's room, since 27 November 2026) is opened like a page
+  // quest and shown here, as wide as the flying scene's stage. Its page quest stays as the way it is played without WebGL.
   const roomBox = el("section", { class: "room-box", hidden: true });
-  type AnyRoom = JazariRoom | TusiRoom | KhwarizmiRoom | KindiRoom | IdrisiRoom | RaziRoom;
+  type AnyRoom = JazariRoom | TusiRoom | KhwarizmiRoom | KindiRoom | IdrisiRoom | RaziRoom | KarimaRoom;
   /** The open room, if a scene is being played in its room. */
   const openRoom = (): AnyRoom | null => (pageRun && "press" in pageRun.run ? (pageRun.run as unknown as AnyRoom) : null);
   /** The open room, if it is `quest`'s. */
@@ -1182,8 +1184,31 @@ async function main(): Promise<void> {
     [COLLATE_QUEST]: {
       subject: COLLATE_SUBJECT,
       trial: "kr_trial",
+      // One kept place serves both: the room keeps the copies' own snapshot.
       saved: () => pageSaved(COLLATE_QUEST, (snap) => restoreCollate(snap, collatePuzzle)),
       make: (c, title, kept) => collateQuest({ ...c, title, resume: kept as Parameters<typeof collateQuest>[0]["resume"] }),
+      // Karima al-Marwaziyya's room: the copies compared by flying, in a room of their own.
+      room: roomsOn,
+      makeRoom: (c, title) =>
+        karimaRoom({
+          ...c,
+          title,
+          quality,
+          keeper: () => slot().keeper,
+          textSpeed: () => settings().textSpeed,
+          perf: query.get("perf") === "1",
+          intent: () => input.intent(),
+          bindHold: (b, what) => input.bindHold(b, what),
+          blocked: () => sheetOpen(),
+          sound,
+          toast,
+          // The goals are written into the save; the room's own door leads on (no corridor).
+          finish: (g) => pageFinish(COLLATE_QUEST, g),
+          through: () => moveOn(),
+          fallback: () => openPage(COLLATE_QUEST, inJourney, true),
+          resume: pageSaved(COLLATE_QUEST, restoreKarima),
+          keepPlace: (snap) => pageCheckpoint(COLLATE_QUEST, snap),
+        }),
     },
   };
   /** Opens a quest played on a page, with no flying scene. One left in the middle comes back. `journeyAt` is its place in
@@ -1378,9 +1403,9 @@ async function main(): Promise<void> {
     if (inJourney !== null) strip.focus();
   }
   /** The door of whichever scene is open: lit or not, where it stands, and where the bird is. */
-  const doorNow = (): { lit: boolean; where: { x: number; y: number; reach: number } | null; bird: { x: number; y: number } | null; scene: "workshop" | "corridor" | "page" | "jazari" | "tusi" | "khwarizmi" | "kindi" | "idrisi" | "razi" } | null => {
+  const doorNow = (): { lit: boolean; where: { x: number; y: number; reach: number } | null; bird: { x: number; y: number } | null; scene: "workshop" | "corridor" | "page" | "jazari" | "tusi" | "khwarizmi" | "kindi" | "idrisi" | "razi" | "karima" } | null => {
     const room = openRoom();
-    if (room) return { ...room.door(), scene: pageRun?.quest === COUPLE_QUEST ? "tusi" : pageRun?.quest === ALGEBRA_QUEST ? "khwarizmi" : pageRun?.quest === CIPHER_QUEST ? "kindi" : pageRun?.quest === SHEETS_QUEST ? "idrisi" : pageRun?.quest === LEAVES_QUEST ? "razi" : "jazari" };
+    if (room) return { ...room.door(), scene: pageRun?.quest === COUPLE_QUEST ? "tusi" : pageRun?.quest === ALGEBRA_QUEST ? "khwarizmi" : pageRun?.quest === CIPHER_QUEST ? "kindi" : pageRun?.quest === SHEETS_QUEST ? "idrisi" : pageRun?.quest === LEAVES_QUEST ? "razi" : pageRun?.quest === COLLATE_QUEST ? "karima" : "jazari" };
     if (started) {
       const w = running?.scene()?.where() ?? null;
       return { lit: state.done, where: { ...DOOR }, bird: w ? { x: w.x, y: w.y } : null, scene: "workshop" };
@@ -1546,6 +1571,8 @@ async function main(): Promise<void> {
     goals: () => goals(state),
     beam: () => beam(state),
     where: () => (running?.scene() ?? openRoom()?.running()?.scene())?.where() ?? null,
+    // Where the explorer stands and where the room's people stand (scenes/room.ts standing), for the check that it never stops in front of one.
+    standing: () => (running?.scene() ?? openRoom()?.running()?.scene())?.standing() ?? null,
     info: () => ({ ...((running?.scene() ?? openRoom()?.running()?.scene())?.info() ?? {}), drawCalls: (running ?? openRoom()?.running())?.drawCalls() ?? null, soundsStarted: cues.started, saved: mayStore }),
     resetFrames: () => (running?.scene() ?? openRoom()?.running()?.scene())?.resetFrames(),
     touch: (id: string) => run({ type: "touch", id }),
@@ -1657,7 +1684,16 @@ async function main(): Promise<void> {
     raziCommand: (c: RaziCommand) => roomOf<RaziRoom>(LEAVES_QUEST)?.command(c),
     leaves: () => { const r = pageOf<LeavesQuest>(LEAVES_QUEST); return r ? { ...r.state(), busy: r.busy(), selected: r.selected(), status: r.status() } : null; },
     leavesCommand: (c: Parameters<LeavesQuest["command"]>[0]) => pageOf<LeavesQuest>(LEAVES_QUEST)?.command(c),
-    startCollate: () => openPage(COLLATE_QUEST),
+    // The copies' page quest (the way they are played without WebGL), and Karima al-Marwaziyya's room, where they are compared by flying.
+    startCollate: () => openPage(COLLATE_QUEST, null, true),
+    startKarima: () => openPage(COLLATE_QUEST),
+    karima: () => {
+      const r = roomOf<KarimaRoom>(COLLATE_QUEST);
+      if (!r) return null;
+      const s = r.state();
+      return { ...s.collate, talk: s.talk, busy: r.busy(), status: r.status(), doorLit: s.collate.done, shown: r.running()?.scene()?.shown() ?? null };
+    },
+    karimaCommand: (c: KarimaCommand) => roomOf<KarimaRoom>(COLLATE_QUEST)?.command(c),
     collate: () => { const r = pageOf<CollateQuest>(COLLATE_QUEST); return r ? { ...r.state(), busy: r.busy(), status: r.status() } : null; },
     collateCommand: (c: Parameters<CollateQuest["command"]>[0]) => pageOf<CollateQuest>(COLLATE_QUEST)?.command(c),
     resumed: () => resumed,
