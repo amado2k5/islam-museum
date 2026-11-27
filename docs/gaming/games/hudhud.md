@@ -39,7 +39,7 @@ _Captures of the running game, Chrome, 26 November 2026, made by `gaming/tools/h
 | Play to scene | about 0.4 s |
 | Textures in memory | 20 MB (Low), 45 MB (Medium), 80 MB (High) |
 | Draw calls a frame | 15 to 20 |
-| Tests | 666 of its own under `games/hudhud/` (twenty-one files); 1,055 in the workspace (44 files), all passing (run 27 November 2026, UTC, with al-Razi's loose leaves); 72 browser check records, all passing |
+| Tests | 666 of its own under `games/hudhud/` (twenty-one files); 1,059 in the workspace (45 files), all passing (run 27 November 2026, UTC, with al-Razi's loose leaves); 72 browser check records, all passing |
 
 ## Next
 
