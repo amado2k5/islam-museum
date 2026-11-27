@@ -3,6 +3,7 @@
 // The 3D district is one way to play and the plan view is another; both send the same commands.
 import { loadMusicStrings, musicControl } from "@im/audio/control";
 import { MUSIC_AVAILABLE, MUSIC_BASE, MusicPlayer } from "@im/audio/player";
+import { Effects, type Effect } from "@im/audio/effects";
 import { installCounters } from "@im/kernel/counters";
 import { probeWebGPU } from "@im/kernel/capability";
 import links from "../../data/museum-links.v1.json";
@@ -16,6 +17,7 @@ import { nearestLink, neighbour, plotAt, plotCentre, plotName, type Dir, type Li
 import { icon } from "./icons";
 import { advice, aim, calendar, eventsInView, goals, isBuilding, ledger, overlay, plotInfo, plotProblems, project, researchList, showing, signed, stocks, type Line, type Projection, type Tint, type Tool, type Vars } from "./model";
 import { Stage } from "./stage";
+import { startGamepad } from "@im/platform/gamepad";
 import { TEXT_SIZES, applyTextSize, readTextSize, type TextSize } from "./text-size";
 
 const LANGS = ["ar", "en", "ur", "fr", "es", "tr", "id"] as const;
@@ -104,7 +106,11 @@ async function main(): Promise<void> {
   if (skip) skip.textContent = t("skip");
 
   const app = document.getElementById("app") as HTMLElement;
+  const effects = new Effects();
   const canvas = document.getElementById("board") as HTMLCanvasElement;
+  // A controller: the left stick and the cross move the plot cursor, the right stick turns and tilts the view; A uses
+  // the tool, B goes back to looking, X undoes, Y opens the help, Back the plan, Start the overview.
+  startGamepad({ buttons: { 0: "Enter", 1: "Escape", 2: "u", 3: "h", 8: "m", 9: "o" }, move: ["ArrowUp", "ArrowRight", "ArrowDown", "ArrowLeft"], look: ["r", "e", "f", "q"] }, () => canvas);
   const hud = document.getElementById("hud") as HTMLElement;
   const tip = document.getElementById("tip") as HTMLElement;
   const toasts = document.getElementById("toasts") as HTMLElement;
@@ -239,6 +245,9 @@ async function main(): Promise<void> {
   };
   function dispatch(cmd: Command, dug: [number, number] | null = null): void {
     const before = state;
+    const sound: Partial<Record<Command["type"], Effect>> = { build: "build", canal: "water", demolish: "build", "clear-silt": "water", endow: "coin", borrow: "coin", "end-season": "season", tax: "tap", research: "tap" };
+    const effect = sound[cmd.type];
+    if (effect) effects.play(effect);
     state = step(scenario, state, cmd);
     if (cmd.type === "end-season") undoStack = [];
     else undoStack.push(before);
@@ -267,6 +276,7 @@ async function main(): Promise<void> {
     }
   }
   function refuse(reason: string | undefined): void {
+    effects.play("refuse");
     const text = t(`reason_${reason ?? "same"}`);
     say(text);
     toast(text, "bad");
@@ -516,7 +526,7 @@ async function main(): Promise<void> {
       const needs = isBuilding(tl) ? BUILDINGS[tl].needs : undefined;
       const locked = Boolean(needs && !state.researched.includes(needs));
       const poor = cost !== null && state.treasury < cost;
-      const key = tl === "inspect" ? "I" : tl === "canal" ? "C" : tl === "demolish" ? "X" : tl === "endow" ? "T" : String((i - 1) % 10);
+      const key = tl === "inspect" ? "I" : tl === "canal" ? "C" : tl === "demolish" ? "X" : tl === "endow" ? "T" : i - 2 < 10 ? String((i - 1) % 10) : "";
       const title = locked && needs ? t("locked", { research: t(`research_${needs}`) }) : `${toolName(tl)}${cost !== null ? ` · ${t("cost", { cost })}` : ""}`;
       return el("button", { type: "button", id: `tool-${tl}`, class: `tool${locked ? " locked" : ""}${poor ? " poor" : ""}`, ariaPressed: String(tool === tl), ariaDisabled: String(locked), title, onclick: () => setTool(tl) }, icon(tl), el("span", { class: "name", textContent: toolName(tl) }), cost !== null ? ltr(String(cost), "cost") : el("span", { class: "cost" }), el("kbd", { textContent: key, ariaHidden: "true" } as Props<"kbd">));
     });
@@ -663,7 +673,9 @@ async function main(): Promise<void> {
         el("h2", { textContent: t("help_title") }),
         el("ol", { class: "help" }, ...[1, 2, 3, 4, 5, 6].map((i) => el("li", { textContent: t(`help_${i}`) }))),
         el("p", { class: "muted", textContent: t("help_controls") }),
+        el("p", { class: "muted", textContent: t("help_pad") }),
         el("p", { class: "muted", textContent: `${t("help_7")} ${t("museum_note")}` }),
+        el("label", { class: "check" }, (() => { const c = el("input", { type: "checkbox", id: "effects-on", checked: effects.on, onchange: () => effects.set(c.checked) }) as HTMLInputElement; return c; })(), " ", t("effects_label")),
         el("div", { class: "settings" }, el("label", {}, t("language"), " ", langSelect), el("label", {}, t("graphics"), " ", qualitySelect), el("label", {}, t("text_size"), " ", textSizeSelect())),
         el(
           "div",

@@ -483,6 +483,50 @@ const quarterEmpty: QuarterBuilder = (set, props, f, rng, look, qi) => {
   void qi;
 };
 
+const quarterCaravanserai: QuarterBuilder = (set, props, f, rng, look, qi) => {
+  const h = QUARTER_HALF;
+  const wall = scale(STONE, rng.range(0.92, 1.0));
+  if (qi < 2) {
+    // The lodging ranges round the yard, arcaded on the inner side, with a tall arched gate on the lane.
+    wing(set, f, 0, -h + 3.2, 2 * h - 1.2, 5.6, 5.2, wall, ROOF_TINT);
+    door(set, f, 0, -h + 6.0, 0, wall);
+    arcadeWing(set, subFrame(f, 0, -h + 7.4, 0, 0), 0, 0, 2 * h - 3, 2.6, 3.4, scale(wall, 0.97), ROOF_TINT, 2.4);
+  } else if (qi === 2) {
+    // The yard: paving, a basin for the animals, and bales of goods.
+    up(set.of("paving", f), f, -h, -h, h, h, 0.05, [0.9, 0.84, 0.72]);
+    basin(set, f, 0, 0, 2.0);
+    const g = set.of("fabric", f);
+    for (let i = 0; i < 6; i++) g.box(f, -h + 2 + (i % 3) * 1.6, Math.floor(i / 3) * 0.7, h - 2.6, 1.3, 0.7, 1.0, CLOTH_TINTS[i % CLOTH_TINTS.length]!, 63, 0.85);
+  } else {
+    // Stables under a long roof, open to the yard.
+    wing(set, f, 0, h - 3.4, 2 * h - 1.2, 5.2, 3.6, scale(WALL_TINTS[3]!, 0.95), ROOF_TINT);
+    props.add("tree", f, -h + 2.4, -h + 2.4, rng.range(0, 6), look.served ? 0.7 : 0.5);
+  }
+};
+
+const quarterMill: QuarterBuilder = (set, props, f, rng, look, qi) => {
+  const h = QUARTER_HALF;
+  const wall = scale(LIME, rng.range(0.9, 1.0));
+  if (qi === 0 || qi === 1) {
+    // The mill house over its race, with the wheel at its side: it turns only when water reaches the plot.
+    block(set, f, rng, qi === 0 ? -1 : 1, -h + 5.2, 8.4, 8.6, 5.4, wall, ROOF_TINT, 0.15);
+    const w = set.of("wood", f);
+    const wx = qi === 0 ? h - 1.6 : -h + 1.6;
+    for (let k = 0; k < 8; k++) {
+      const a = (k / 8) * Math.PI * 2;
+      w.box(f, wx, 2.6 + Math.sin(a) * 2.1 - 0.15, -h + 5.2 + Math.cos(a) * 2.1, 0.5, 0.3, 0.3, [0.5, 0.36, 0.22], 63, 0.8);
+    }
+    w.cylinder(f, wx, 2.45, -h + 5.2, 0.3, 0.3, 0.3, 8, [0.42, 0.3, 0.18], true);
+    up(set.of("canalwater", f), f, wx - 1.2, -h + 0.5, wx + 1.2, h - 0.5, look.served ? 0.35 : 0.02, [1, 1, 1]);
+  } else {
+    // The yard where sacks of flour wait for the carts.
+    up(set.of("earth", f), f, -h, -h, h, h, 0.03, [0.82, 0.72, 0.56]);
+    const sk = set.of("fabric", f);
+    for (let i = 0; i < 8; i++) sk.box(f, -3 + (i % 4) * 1.5, Math.floor(i / 4) * 0.55, 1 + (i % 2) * 0.2, 1.2, 0.55, 0.8, [0.94, 0.9, 0.8], 63, 0.8);
+    props.add("tree", f, 4, -4, rng.range(0, 6), 0.6);
+  }
+};
+
 const QUARTERS: Record<BuildingType, QuarterBuilder> = {
   house: quarterHouse,
   farm: quarterFarm,
@@ -493,6 +537,8 @@ const QUARTERS: Record<BuildingType, QuarterBuilder> = {
   granary: quarterGranary,
   library: quarterLibrary,
   hospital: quarterHospital,
+  caravanserai: quarterCaravanserai,
+  mill: quarterMill,
 };
 
 /** Ground of a quarter by what stands on it: [material, tint]. */

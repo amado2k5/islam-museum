@@ -19,6 +19,8 @@ const PATHS: Record<string, string> = {
   granary: "M5 20V10a7 7 0 0 1 14 0v10zM10 20v-5h4v5M9 10h6",
   library: "M5 4h4v16H5zM9 6h4v14H9zM14.5 7.5l3.8-1l3.2 12.5l-3.8 1z",
   hospital: "M5 20V9l7-5l7 5v11zM12 10v6M9 13h6",
+  caravanserai: "M3 20V8h18v12M3 8l9-4l9 4M9 20v-6a3 3 0 0 1 6 0v6M6 11h2M16 11h2",
+  mill: "M4 20V10h8v10M12 14a5 5 0 1 0 10 0a5 5 0 0 0-10 0M17 9v10M12 14h10M4 10l4-4l4 4",
   undo: "M9 7L4 12l5 5M4 12h10a5 5 0 0 1 0 10h-2",
   plan: "M4 4h16v16H4zM4 9.3h16M4 14.6h16M9.3 4v16M14.6 4v16",
   help: "M12 3a9 9 0 1 0 0 18a9 9 0 0 0 0-18M9.5 9.5a2.5 2.5 0 1 1 3.5 2.3c-.7.4-1 .9-1 1.7M12 16.5v.5",
