@@ -14,6 +14,7 @@ open a new block on top with the new version and today's date.
 ---
 
 ## v2.31.0 — 2026-11-24
+- **Granada's production host was checked in French, Spanish, Turkish, Indonesian and Urdu (workshop evidence; no game change).** The reports are kept with the release evidence; anything they found is reported there rather than fixed in the same change.
 - **The games' model-carrying workflow can now replace a corrected model only when that exact file is named beforehand (workshop safety; nothing a player reads).** Its ordinary rule still refuses to overwrite a file that differs, and the replacement is read back and checked byte for byte.
 - **Granada now has simple measured blockouts an artist can build over (workshop material, not game art).** The estate, an eight-house street cluster, a gate with one wall bay and tower, and the construction site use the game's recorded footprints, ground-centre origins and piece names; nothing in the game loads them.
 - **A fault in Granada's square roofs was repaired in the model workshop (nothing a player reads).** Square hipped roofs are now pyramids without the collapsed triangular faces they used to carry. The palace the game shows fell from 69,676 to 69,620 measured triangles; its other vertex positions are unchanged, and the lighter 20,000-triangle version remains a temporary benchmark decimation under evaluation.
