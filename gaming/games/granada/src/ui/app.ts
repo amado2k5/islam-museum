@@ -7,6 +7,7 @@
 import en from "../../i18n/en.json";
 import records from "../../data/museum-records.v1.json";
 import { loadMusicStrings, musicControl } from "@im/audio/control";
+import { Effects, type Effect } from "@im/audio/effects";
 import { MUSIC_AVAILABLE, MUSIC_BASE, MusicPlayer } from "@im/audio/player";
 import { MINOR } from "../sim/economy";
 import { OPEN_VALLEY, WATER_FOR_THE_VALLEY, dailySeed, scenarioAfter, scenarioById } from "../sim/scenarios";
@@ -90,6 +91,7 @@ async function main(): Promise<void> {
       // Without it a later year cannot be played again from its start; the button for that is then not shown.
     }
   };
+  const effects = new Effects();
   applyTextSize(readTextSize(), false);
   const seedParam = Number(query.get("seed"));
   const newSeed = () => (Number.isSafeInteger(seedParam) && seedParam > 0 ? seedParam : 1 + (Math.floor(performance.now() * 1000) % 100000));
@@ -249,9 +251,13 @@ async function main(): Promise<void> {
     if (photo) return false;
     const r = act(sc, state, command);
     if (!r.result.ok) {
+      effects.play("refuse");
       say(refusal(r.result));
       return false;
     }
+    const sound: Partial<Record<VillageCommand["kind"], Effect>> = { repair: "water", expand: "water", build: "build", place: "build", harvest: "harvest", plant: "harvest", sell: "coin", buy: "coin", send: "coin", deliver: "coin", accept: "coin", press: "build", decide: "tap", "water-first": "tap", "field-first": "tap" };
+    const effect = sound[command.kind];
+    if (effect) effects.play(effect);
     undoStack.push(state);
     if (undoStack.length > UNDO_DEPTH) undoStack.shift();
     state = r.state;
@@ -280,6 +286,7 @@ async function main(): Promise<void> {
       case "placed":
         return t("event_placed", { what: t(`place_${a}`) });
       case "year":
+        effects.play("season");
         return t("event_year", { n: Number(a) });
       case "asked":
         return t("event_asked", { what: t(`decision_${a}`) });
@@ -1186,6 +1193,7 @@ async function main(): Promise<void> {
       "help",
       h("h2", {}, t("help")),
       h("p", {}, t("help_text")),
+      h("label", { class: "quality" }, h("input", { type: "checkbox", id: "effects-on", checked: effects.on, onchange: (e: Event) => effects.set((e.currentTarget as HTMLInputElement).checked) }), h("span", {}, t("effects_label"))),
       h("label", { class: "quality" }, h("span", {}, t("text_size")), h("select", { id: "text-size", onchange: (e: Event) => applyTextSize((e.currentTarget as HTMLSelectElement).value as TextSize) }, ...(Object.keys(TEXT_SIZES) as TextSize[]).map((size) => h("option", { value: size, selected: size === readTextSize() }, t(`text_size_${size}`))))),
       // A game set aside by a build that could not read it, which this build can: it can be brought back.
       readAside(localStorage).status === "ok" && h("button", { type: "button", id: "bring-back", onclick: () => restoreAside(localStorage) && location.reload() }, t("save_bring_back")),
