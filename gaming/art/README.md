@@ -56,5 +56,5 @@ Like the music: the models are served beside the releases, from `media/models/` 
 - **Only one asset.** The valley loads it (`games/granada/src/view/models.ts`) and keeps its own code-made mill for when the model is not there. No model has been uploaded to a host, so UAT shows the code-made one.
 - No levels of detail, no collision shapes, no compressed GPU textures.
 - No figures: nothing here can make a person or an animal that walks.
-- Whether a second run gives the same bytes on another machine or another Blender is not known; the manifest is there to find out.
+- A second run is **not** guaranteed to give the same bytes. On 27 November 2026 two full-palace runs wrote identical `.gltf` files but different `.bin` bytes while their meshes were exactly the same; a later generation also showed a small triangulation difference on one planar surface. Use `python3 art/compare_gltf.py <first.gltf> <second.gltf>` to tell ordering apart from a real mesh change; the manifest still records exact bytes.
 - No one but the author has looked at it.
