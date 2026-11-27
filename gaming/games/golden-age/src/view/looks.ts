@@ -4,7 +4,7 @@ import type { PlotLook } from "./board";
 import { canalMasks } from "./layout";
 
 /** Figures a building puts on its lanes, apart from houses (which show their households). */
-const FIGURES: Record<BuildingType, number> = { house: 0, farm: 1, market: 8, workshop: 4, school: 5, bath: 3, granary: 2, library: 5, hospital: 4, caravanserai: 6, mill: 2, fountain: 2, cistern: 1, papermill: 4 };
+const FIGURES: Record<BuildingType, number> = { house: 0, farm: 1, market: 8, workshop: 4, school: 5, bath: 3, granary: 2, library: 5, hospital: 4, caravanserai: 6, mill: 2, fountain: 2, cistern: 1, papermill: 4, orchard: 2, dyehouse: 5, observatory: 2 };
 
 export function looksOf(s: State): { looks: PlotLook[]; walkers: number[] } {
   const wet = wateredPlots(s);

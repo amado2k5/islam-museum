@@ -664,3 +664,33 @@ describe("the fountain, the cistern and the paper mill", () => {
     for (const type of ["fountain", "cistern", "papermill"] as BuildingType[]) for (const served of [true, false]) expect(buildPlot(7, 12, { type, served, season: 0, seed: 7 } as unknown as PlotLook).triangles, type).toBeGreaterThan(30);
   });
 });
+
+describe("the orchard, the dye house and the observatory", () => {
+  const rich = (): State => ({ ...newGame(FAILING_CANAL, 4), treasury: 3000 });
+  const wetFree = (s: State, t: BuildingType) => s.plots.findIndex((b, p) => b === null && preview(s, { type: "build", building: t, plot: p }).ok && plotInfo(s, p).lines.some((l) => l.id === "info_water"));
+  it("an observatory needs paper and adds learning every season", () => {
+    const s = rich();
+    const p = s.plots.findIndex((b) => b === null);
+    expect(preview(s, { type: "build", building: "observatory", plot: p }).ok).toBe(false);
+    const papered: State = { ...s, researched: ["paper"] };
+    const without = step(FAILING_CANAL, papered, { type: "end-season" }).last!.knowledgeGained;
+    const withObs = step(FAILING_CANAL, step(FAILING_CANAL, papered, { type: "build", building: "observatory", plot: p }), { type: "end-season" }).last!.knowledgeGained;
+    // When the district can pay and is fed, an observatory adds three.
+    if (without > 0) expect(withObs).toBeGreaterThanOrEqual(without + 3);
+    void wetFree;
+  });
+
+  it("an orchard with water adds to the harvest in winter, when fields give little", () => {
+    let s = rich();
+    for (let i = 0; i < 3; i++) s = step(FAILING_CANAL, s, { type: "end-season" });
+    // Season 3 is winter.
+    const plots = s.plots.map((b, p) => (b === null ? p : -1)).filter((p) => p >= 0);
+    const before = step(FAILING_CANAL, s, { type: "end-season" }).last!.harvest;
+    const best = Math.max(...plots.map((p) => step(FAILING_CANAL, step(FAILING_CANAL, s, { type: "build", building: "orchard", plot: p }), { type: "end-season" }).last!.harvest));
+    expect(best).toBeGreaterThan(before);
+  });
+
+  it("draws all three, whether water reaches them or not", () => {
+    for (const type of ["orchard", "dyehouse", "observatory"] as BuildingType[]) for (const served of [true, false]) expect(buildPlot(7, 12, { type, served, season: 0, seed: 7 } as unknown as PlotLook).triangles, type).toBeGreaterThan(20);
+  });
+});

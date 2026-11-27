@@ -614,6 +614,45 @@ const quarterPapermill: QuarterBuilder = (set, props, f, rng, look, qi) => {
   }
 };
 
+const quarterOrchard: QuarterBuilder = (set, props, f, rng, look) => {
+  const h = QUARTER_HALF;
+  // Rows of fruit trees on earth, greener where water reaches them.
+  up(set.of("earth", f), f, -h, -h, h, h, 0.03, look.served ? [0.56, 0.6, 0.4] : [0.72, 0.62, 0.46]);
+  for (let i = 0; i < 4; i++) for (let j = 0; j < 4; j++) props.add("tree", f, -h + 2 + i * ((2 * h - 4) / 3), -h + 2 + j * ((2 * h - 4) / 3), rng.range(0, 6), look.served ? rng.range(0.55, 0.7) : rng.range(0.4, 0.5));
+};
+
+const quarterDyehouse: QuarterBuilder = (set, props, f, rng, look, qi) => {
+  const h = QUARTER_HALF;
+  const wall = scale(WALL_TINTS[rng.pick([1, 3, 5])]!, 0.97);
+  if (qi < 2) {
+    block(set, f, rng, 0, -h + 4.6, 2 * h - 3, 7.6, 4, wall, ROOF_TINT, 0.12);
+  } else {
+    // The vats, each its own colour, and cloth drying on lines above the yard.
+    up(set.of("paving", f), f, -h, -h, h, h, 0.05, [0.86, 0.8, 0.7]);
+    const colours: Rgb[] = [[0.5, 0.1, 0.12], [0.1, 0.22, 0.5], [0.8, 0.62, 0.12], [0.18, 0.42, 0.22]];
+    colours.forEach((c, i) => {
+      set.of("ashlar", f).cylinder(f, -4.5 + i * 3, 0, -2, 1.1, 1.1, 0.9, 12, STONE, true);
+      up(set.of("canalwater", f), f, -5.3 + i * 3, -2.8, -3.7 + i * 3, -1.2, look.served ? 0.92 : 0.3, c);
+      set.of("fabric", f).box(f, -4.5 + i * 3, 2.2, 3, 2.4, 1.6, 0.05, c, 63, 0.9);
+    });
+  }
+};
+
+const quarterObservatory: QuarterBuilder = (set, props, f, rng, _look, qi) => {
+  const h = QUARTER_HALF;
+  const wall = scale(LIME, rng.range(0.94, 1.02));
+  if (qi === 0) {
+    // The tower with its dome, and the great quadrant beside it.
+    wing(set, f, 0, 0, 8, 8, 7.5, wall, ROOF_TINT);
+    dome(set, f, 0, 0, 3.6, 7.5, "glaze", scale(COBALT, 1.1), wall, 1.0, 0.7);
+    set.of("ashlar", f).box(f, h - 2.4, 0, 0, 0.8, 6.5, 6, STONE, BOX_SIDES, 0.9);
+  } else {
+    up(set.of("paving", f), f, -h, -h, h, h, 0.05, [0.9, 0.86, 0.78]);
+    if (qi === 1) block(set, f, rng, 0, 0, 9, 7, 3.4, wall, ROOF_TINT, 0.1);
+    else props.add("tree", f, 0, 0, rng.range(0, 6), 0.6);
+  }
+};
+
 const QUARTERS: Record<BuildingType, QuarterBuilder> = {
   house: quarterHouse,
   farm: quarterFarm,
@@ -629,6 +668,9 @@ const QUARTERS: Record<BuildingType, QuarterBuilder> = {
   fountain: quarterFountain,
   cistern: quarterCistern,
   papermill: quarterPapermill,
+  orchard: quarterOrchard,
+  dyehouse: quarterDyehouse,
+  observatory: quarterObservatory,
 };
 
 /** Ground of a quarter by what stands on it: [material, tint]. */
