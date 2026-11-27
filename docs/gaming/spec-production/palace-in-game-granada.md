@@ -111,7 +111,7 @@ Seen in passing, in both sets and not the palace's doing: several cypresses on t
 
 ## Not done when the work was paused
 
-1. The ten-minute repeated check and any reading of whether resources come back to a level.
+1. ~~The ten-minute repeated check.~~ Run on 26 November 2026 with the palace the game now shows (), Medium, 1920 by 1080, on the developer's machine ([`../evidence/granada/candidate-c/cycle-10-minutes-2026-11-26.json`](../evidence/granada/candidate-c/cycle-10-minutes-2026-11-26.json)): 28 rounds over 10 loads of the page (camera to three views, a field chosen and let go, the page loaded again every third round). Geometries (144), textures (71), draw calls (308), timers (1) and workers (0) were the same in every round; every model arrived every time; no console error. Heap between 178 and 230.4 MB, its mean by quarter 186.8, 191.9, 195.8, 197.0: no climb that ten minutes can show. Listeners moved between 47 and 99 with the browser's own collection, the same in the last quarter as the first. Frame time median 8.3 ms and 99th centile at most 15.8 ms with no frame over 33 ms; the machine was busy at the start (a load average of 63 from another program's file indexing) and that is not the quiet-machine measurement still owed. It is not the one-hour or four-hour run, and says nothing of the minimum machines.
 2. A quiet-machine run of the frame times; anything on the two minimum machines.
 3. The checks of terrain fit from above, selection, collision, shadow faults and z-fighting, beyond what the pictures above show.
 4. Low-detail versions of the palace and the loading of exactly one of them (asked of the second agent; not seen).
