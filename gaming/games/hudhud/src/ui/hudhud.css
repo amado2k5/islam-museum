@@ -261,3 +261,6 @@ button.quiet:hover { background: rgba(255, 255, 255, 0.08); }
 .contrast .pro-card { border: 3px solid #fff; }
 .contrast button.quiet { color: #fff; border-color: #fff; text-decoration: none; }
 @media (max-width: 760px) { .pro-text { font-size: 1.05rem; } .pro-nav { flex-direction: row; } }
+/* The twelfth quest's page: al-Razi's loose leaves, played by a list of choices for every place or by touching two places in the picture (the shared row page). */
+.bench canvas.leaves-art { aspect-ratio: 1000 / 420; cursor: pointer; }
+.bench ol.leaves-places { grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); }

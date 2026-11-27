@@ -769,23 +769,18 @@ describe("the words", () => {
     for (const l of LANGS) expect(Object.keys(table(l)).filter((k) => k.startsWith("ah_")), l).toEqual(Object.keys(table("en")).filter((k) => k.startsWith("ah_")));
     for (const l of LANGS) for (const k of keys) expect([...(table(l)[k] ?? "").matchAll(/\{\w+\}/g)].map((m) => m[0]).sort(), `${l}:${k}`).toEqual([...(table("en")[k] ?? "").matchAll(/\{\w+\}/g)].map((m) => m[0]).sort());
   });
-  it("is appended at the end of each language's file, after the keys of the tenth quest, and nothing comes after it", () => {
+  it("is appended at the end of each language's file, after the keys of the tenth quest, and only the next quest's keys (`rz_`) come after it", () => {
     for (const l of LANGS) {
       const ks = Object.keys(table(l));
       const first = ks.findIndex((k) => k.startsWith("ah_"));
       expect(first, l).toBeGreaterThan(0);
-      expect(ks.slice(first).every((k) => k.startsWith("ah_")), l).toBe(true);
+      const count = ks.filter((k) => k.startsWith("ah_")).length;
+      expect(ks.slice(first, first + count).every((k) => k.startsWith("ah_")), l).toBe(true);
+      expect(ks.slice(first + count).every((k) => k.startsWith("rz_")), l).toBe(true);
       expect(ks[first - 1]!.startsWith("cq_"), l).toBe(true);
     }
   });
-  it("says in the hub that eleven quests are built, in every language, and no longer ten", () => {
-    expect(table("en").hub_note).toMatch(/Eleven quests are built/);
-    expect(table("ar").hub_note).toContain("إحدى عشرة مهمة");
-    expect(table("ur").hub_note).toContain("گیارہ مہمیں");
-    expect(table("fr").hub_note).toContain("Onze quêtes");
-    expect(table("es").hub_note).toContain("once misiones");
-    expect(table("tr").hub_note).toContain("on bir görev");
-    expect(table("id").hub_note).toContain("sebelas misi");
+  it("no longer says in the hub that ten quests are built, in any language (the count itself is pinned in leaves.gtest.ts)", () => {
     for (const l of LANGS) expect(table(l).hub_note).not.toMatch(/\bTen quests|\bDix quêtes|\bdiez misiones|\bon görev|\bsepuluh misi|عشر مهمات|دس مہمیں/i);
   });
   it("takes each name from the Atlas heading and the museum's labels unless it is on a short list of named exceptions, which is exactly this list", () => {
