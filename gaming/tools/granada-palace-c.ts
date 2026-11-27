@@ -2,16 +2,18 @@
 // (docs/gaming/spec-production/owner-decisions-2026-11-26-d.md, instructions 7 and 8). For each art set, window size
 // and preset it starts a new game in real Chrome, plays it by the game's own orders to the olive harvest, and at
 // each of five views keeps the page and what the game counted of itself for ten seconds, with the size the palace
-// has on the screen. The two sets are the same game in the same state; only `art=c` differs.
+// has on the screen. The targets are the same game in the same state; only the palace asked for differs. `default`
+// is the palace the game itself shows; `a` is the first set and must be asked for explicitly.
 // It measures the machine it runs on, and no other. Models are read from the workspace's media folder.
-// Usage: npx tsx --tsconfig tsconfig.json tools/granada-palace-c.ts <out dir> [presets=low,medium,high] [sizes=1920x1080,1280x800] [sets=a,c — also c1, c2]
+// Usage: npx tsx --tsconfig tsconfig.json tools/granada-palace-c.ts <out dir> [presets=low,medium,high] [sizes=1920x1080,1280x800] [sets=default,a,c — also c1, c2]
 import { mkdirSync, readFileSync, writeFileSync } from "node:fs";
 import { resolve } from "node:path";
 import { chromium } from "playwright-core";
 import { HILL, heightAt } from "../games/granada/src/view/valley";
 import { serveWorkspace } from "./serve";
+import { palaceArtQuery, parsePalaceMeasurementSets, type PalaceMeasurementSet } from "./granada-palace-target";
 
-const [outArg, presetsArg = "low,medium,high", sizesArg = "1920x1080,1280x800", setsArg = "a,c"] = process.argv.slice(2);
+const [outArg, presetsArg = "low,medium,high", sizesArg = "1920x1080,1280x800", setsArg = "default,a,c"] = process.argv.slice(2);
 if (!outArg) throw new Error("usage: granada-palace-c.ts <out dir> [presets] [sizes] [sets]");
 const out = resolve(outArg);
 mkdirSync(out, { recursive: true });
@@ -20,8 +22,7 @@ const base = heightAt(HILL.x, HILL.z, SEED) - 0.4;
 const YAW = -Math.PI / 2 - 0.25;
 const media = resolve(import.meta.dirname, "../media/models/granada");
 const footprint = (file: string): [number, number, number] => (JSON.parse(readFileSync(file, "utf8")) as { pieces: { palace: { footprint: [number, number, number] } } }).pieces.palace.footprint;
-type ArtSet = "a" | "c" | "c1" | "c2";
-const FOOT: Record<ArtSet, [number, number, number]> = { a: footprint(`${media}/2/landmarks.kit.json`), c: footprint(`${media}/c/palace.kit.json`), c1: footprint(`${media}/c/palace-lod1.kit.json`), c2: footprint(`${media}/c/palace-lod2.kit.json`) };
+const FOOT: Record<PalaceMeasurementSet, [number, number, number]> = { default: footprint(`${media}/p1/palace.kit.json`), a: footprint(`${media}/2/landmarks.kit.json`), c: footprint(`${media}/c/palace.kit.json`), c1: footprint(`${media}/c/palace-lod1.kit.json`), c2: footprint(`${media}/c/palace-lod2.kit.json`) };
 /** The eight corners of the palace's box as it stands on the hill. The box is taken to be centred on the piece's origin. */
 const corners = (f: [number, number, number]): Array<[number, number, number]> => {
   const pts: Array<[number, number, number]> = [];
@@ -53,7 +54,7 @@ const report: Record<string, unknown> = { taken: new Date().toISOString(), brows
 for (const size of sizesArg.split(",")) {
   const [width, height] = size.split("x").map(Number) as [number, number];
   for (const preset of presetsArg.split(",")) {
-    for (const set of setsArg.split(",") as ArtSet[]) {
+    for (const set of parsePalaceMeasurementSets(setsArg)) {
       const page = await (await browser.newContext({ viewport: { width, height }, deviceScaleFactor: 1 })).newPage();
       const errors: string[] = [];
       page.on("pageerror", (e) => errors.push(String(e)));
@@ -61,7 +62,7 @@ for (const size of sizesArg.split(",")) {
         if (m.type() === "error" && !m.text().includes("favicon")) errors.push(m.text());
       });
       const t0 = Date.now();
-      await page.goto(`${served.base}/games/granada/index.html?lang=en&fresh=1&seed=${SEED}&music=off&counters=1&q=${preset}${set === "a" ? "" : `&art=${set}`}`);
+      await page.goto(`${served.base}/games/granada/index.html?lang=en&fresh=1&seed=${SEED}&music=off&counters=1&q=${preset}${palaceArtQuery(set)}`);
       await page.waitForFunction("Boolean(window.__GR__ && window.__GR__.ready)");
       await page.locator("#brief-start").click();
       await page.waitForFunction("window.__GR__.threeD !== 'pending'", undefined, { timeout: 180_000 });
