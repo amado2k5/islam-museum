@@ -19,7 +19,7 @@ _26 November 2026. A matrix of the instruction's sections 6 and 9 against the go
 | Text size | **done** | 100% to 160%, saved |
 | Text speed, dialogue log, back, skip | **done** | at once, slow, medium, fast; "What was said"; Back within a node; "Skip the talk". Auto-advance does not exist |
 | Simple-language option, reading assistance | **not done** | planned (G-0014) |
-| Reduced motion | **done** | follows the system setting, a setting of its own and `motion=reduced`: no camera glide, no dust or sparkle bursts beyond three, no bobbing, the curtain and the page change at once, text appears at once, "go to" places the bird without a flight |
+| Reduced motion | **done** | follows the system setting, a setting of its own and `motion=reduced`: no camera glide, no dust or sparkle bursts beyond three, no bobbing, the curtain and the page change at once, text appears at once, "go to" places the bird without a flight; on al-Tusi's page (the ninth quest) the turning of the two circles is shown for about two and a half seconds with a Skip button, and with reduced motion on, whichever of the three ways it is asked for, the finished path is drawn at once and no turning is shown (the other page quests, the paper of Samarkand and the elephant clock, follow the game's own setting only, not the system's or the address's, which is a gap recorded in the test plan) |
 | No rapid flashing | **done by design, not measured** | nothing flashes; the brightest change is the page's glow fading in over about a second |
 | Separate volumes, mute, captions | **done** | room, characters, effects; mute; captions for eight meaningful sounds, on by default. Music has the shared control |
 | Pause at any time, clean resume | **done** | Escape or the button, also in a talk; the loop sleeps and sound is suspended; hiding the tab pauses |
@@ -42,7 +42,7 @@ _26 November 2026. A matrix of the instruction's sections 6 and 9 against the go
 
 | | State |
 |---|---|
-| Seven languages, same keys, same order, same placeholders | **done**: `npm --prefix gaming run strings` (730 strings and 60 names on 26 November 2026, later still; 509 earlier that day and 194 when this row was first written), plus a test of every script against every table |
+| Seven languages, same keys, same order, same placeholders | **done**: `npm --prefix gaming run strings` (793 strings and 60 names on 26 November 2026, later still; 509 earlier that day and 194 when this row was first written), plus a test of every script against every table |
 | Right to left | **done**: Arabic and Urdu mirror the page; the picture, the beam and the arrow buttons are not mirrored. Captured in both |
 | No honorific typed; no bare parenthesis round Arabic script | **done**: the string check; the Arabic and Urdu tables use no parentheses at all |
 | Truncation at 1280×800 and narrow | **looked at, not exhaustive**: captures in ar, ur and id show no cut text in the talk, the goal or the buttons; the settings sheet was not captured in every language |
@@ -52,7 +52,7 @@ _26 November 2026. A matrix of the instruction's sections 6 and 9 against the go
 
 ## History
 
-Every statement of history in the scene is an entry in [the ledger](../historical-review/ledger.md) (HR-HH-01 to 31), written by the agent and decided by nobody: no reviewer is named for any game. The page says "Historical review pending" under the picture and in the note at the end, in seven languages, and a test fails if it stops saying so while an entry is pending. An AI does not approve its own history; a museum record is source material that has itself not been reviewed for the game.
+Every statement of history in the scene is an entry in [the ledger](../historical-review/ledger.md) (HR-HH-01 to 34), written by the agent and decided by nobody: no reviewer is named for any game. The page says "Historical review pending" under the picture and in the note at the end, in seven languages, and a test fails if it stops saying so while an entry is pending. An AI does not approve its own history; a museum record is source material that has itself not been reviewed for the game.
 
 Before each further quest is written: read the subject's records; enter each claim the quest will make, with its record and what is uncertain; mark invention as invention; hold anything the founder's pictures show that no record supports (as the prism here) until a reviewer rules.
 

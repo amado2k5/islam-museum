@@ -1194,6 +1194,68 @@
     "R6"
    ],
    "editorApproved": null
+  },
+  {
+   "id": "HR-HH-32",
+   "game": "Hudhud",
+   "claim": "The museum's record says an Encyclopaedia of Islam article calls al-Tusi's planetary theory his most original achievement: troubled by the departure of the Ptolemaic system from uniform circular motion, he devised a model of two spheres, the smaller rotating twice as fast as the larger and in the opposite direction, so that a point on it moves along a straight line. The game's narrator says why he looked for such a model (before the puzzle is solved) and states the model itself in the note at the end, after the page is found.",
+   "context": "The al-Tusi quest: the answer to 'Ask why he looked for a model' and the second note at the end (strings ts_why_1, ts_note_2; the words for 'twice' and 'the opposite way' appear in no other string shown before the line is found, which src/tests/couple.gtest.ts checks)",
+   "sources": [
+    "person/nasir-al-din-al-tusi"
+   ],
+   "kind": "sourced",
+   "uncertainty": "Taken from the museum's record of the person ('With the Mongols and the Maragha observatory', the paragraph that begins 'He won his greatest fame in astronomy'), after the Encyclopaedia of Islam (vol. 10 p. 802, the third part of the article); the record itself has not been through historical review. 'Most original achievement' is a judgement of the article the record follows, not a fact of history: the game says the model 'is called' his most original achievement and does not claim that nobody had done anything like it. Another museum record, invention/urdi-lemma (after Saliba, Schmidl and Wikipedia), says al-Urdi's non-Ptolemaic contributions preceded even al-Tusi's; the game says nothing about priority, and a reviewer should decide whether 'most original' reads as one. The game does not use the model's name ('the Tusi couple', the article's own term) and leaves out what the record adds: that the models kept Ptolemaic accuracy, first appeared in a Persian treatise for his Isma'ili patrons and were developed in the Arabic Tadhkira, and that the device later reached Sanskrit and Byzantine texts and Renaissance astronomers including Copernicus. A reviewer should check: whether 'spheres' and the sense of 'a point on it' (the record says a point on the smaller sphere) are rendered rightly in each language, especially 'turning spheres' in the narrator's answer against 'two spheres' in the note; and whether a child could take the game's flat picture of two circles for his model itself, when the model is of spheres (the third note says the game draws flat circles, and ledger HR-HH-34 covers the simplification). The narrator's 'a model of his own' renders the record's 'he devised a model'. The museum's Arabic name for the model, زوج الطوسي, is not used either.",
+   "author": "Claude Code (claude-sonnet-5-5), an AI agent",
+   "reviewer": null,
+   "decision": "historical review pending",
+   "approved": null,
+   "note": "",
+   "forReview": [
+    "R4",
+    "R6"
+   ],
+   "editorApproved": null
+  },
+  {
+   "id": "HR-HH-33",
+   "game": "Hudhud",
+   "claim": "The museum's record says the observatory at Maragha was founded by the Mongol ruler Hulagu at the suggestion of al-Tusi; that al-Tusi oversaw the building of the observatory and its instruments and became its first director; that it had a large library and a school; that it lasted only about fifty years; and that its intellectual legacy had repercussions from China to Europe for centuries.",
+   "context": "The al-Tusi quest: the answer to 'Ask about the observatory' and the fourth note at the end (strings ts_obs_1, ts_note_4)",
+   "sources": [
+    "building/maragha-observatory",
+    "person/nasir-al-din-al-tusi"
+   ],
+   "kind": "sourced",
+   "uncertainty": "Taken from the museum's record of the building (its first paragraph, after the Encyclopaedia of Islam vol. 6 p. 628 and vol. 10 p. 802) and of the person ('With the Mongols and the Maragha observatory'); neither record has been through historical review. The record says 'founded by the Mongol ruler Hulagu at the suggestion of Nasir al-Din al-Tusi', and a reviewer should check that against the two articles the record cites, since the record's own second paragraph says Hulagu 'ordered an observatory built from the plans of Nasir al-Din al-Tusi' (vol. 6 p. 525) and its data record gives Hulagu as 'ordered the observatory built' and al-Tusi as one who 'gave the plans, suggested the foundation and was the first director'; polity/ilkhanate says it was built 'about 656/1258 on Hulegu's orders from plans by al-Tusi', where the building record dates the foundation 657/1259 (the game gives no date), and the exhibit path-maragha says 'Hulagu funds it, al-Tusi directs it'; invention/urdi-lemma says 'founded 1259' and that al-Urdi helped build and equip it. 'About fifty years' is the al-Tusi article's phrase (vol. 10 p. 802) as the person record has it; the building record's own later paragraph, after the observatory article (vol. 6 p. 628), says 'the first Islamic observatory with notable longevity, 55 or 60 years', with some activity until about 715/1316 and ruins by 740/1339, and its data summary says 'some 55 or 60 years': the museum's records give both, and the game follows the one that the legacy sentence rests on and does not say which is better. 'From China to Europe for centuries' joins the person record's 'repercussions from China to Europe' with the building record's 'for centuries'. 'Large library and school' follow the record's 'a large library and a school'; the record's figure of 400,000 volumes, which it calls traditional rather than a count, is not used. A reviewer should also check that 'first director' and 'oversaw its building and its instruments' (the person record) sit rightly beside 'founded by Hulagu' (the building record). The record says Hulagu's motives 'seem to have been astrological' and that al-Tusi was his court astrologer; the game leaves astrology out (see HR-HH-34).",
+   "author": "Claude Code (claude-sonnet-5-5), an AI agent",
+   "reviewer": null,
+   "decision": "historical review pending",
+   "approved": null,
+   "note": "",
+   "forReview": [
+    "R4",
+    "R6"
+   ],
+   "editorApproved": null
+  },
+  {
+   "id": "HR-HH-34",
+   "game": "Hudhud",
+   "claim": "The game draws flat circles in place of the record's spheres. It makes the smaller one half as wide as the larger by default; offers other speeds (the same speed, three times), the other direction and, in the hardest way of playing, two other sizes (a third, two thirds) as settings that are wrong, and measures the shapes they trace (a circle, an oval, curves of one to three lobes); has a girl who cleans the instruments, an invented person, who is answered kindly or bluntly; has one line spoken by al-Tusi in imagined words ('Two circles turn, and out of their turning a straight line can come. Try the speed and the direction.'); and says nothing of astrology.",
+   "context": "The al-Tusi quest as a whole; the first note says so (strings ts_note_1, ts_note_3, ts_intro_1, ts_intro_2, ts_who_*, ts_girl_*, ts_picture*, ts_shape_*; sim/couple.ts, art/couple.ts)",
+   "sources": [],
+   "kind": "reconstruction",
+   "uncertainty": "A simplification for play, and the game's own arithmetic. Nothing read for the game gives the sizes of the two spheres, or says that al-Tusi or anyone drew the model as flat circles on a page; the half is the size at which the arithmetic gives a straight line (the point's path is a straight line as long as the large circle is wide, which the tests measure), and the third note says so. The other speeds, directions and sizes are not any historical model: the shapes they trace (a circle, an oval, curves of one, two or three lobes) are what the game's rules work out, they are offered only as wrong settings, and a reviewer should check that nothing on the page presents them as anyone's model or as a claim about the heavens. Two of them (a third with the same speed and the same way, and a third with three times the speed the other way) trace curves with sharp points, which the page calls 'a curve with sharp points'; the others with loops are called by the number of their lobes. A reviewer should also check that the picture (a large circle, a small one inside it, a marked point) is not read as a diagram of the planets or of the sky, that the animation of the small circle turning (which the player may skip, and which is not shown when reduced motion is on) does not suggest that the heavens were thought to move in flat circles, and that the girl who cleans the instruments and al-Tusi's one line are plainly invented (the speakers' labels read 'in imagined words' and 'an invented person'). The record's statements that Hulagu's motives for the observatory 'seem to have been astrological' and that al-Tusi was his court astrologer are left out of the game: they are not needed for the puzzle, and leaving them out makes the page's account of the observatory shorter than the record's, so that a reviewer can judge whether the omission misleads. The names used in the lines are taken from the museum's records' labels where they exist, with the exceptions listed in the pull request and in src/tests/couple.gtest.ts (the Urdu label of Maragha has a stray full stop; the French and Spanish labels of Ptolemy are the English name left untranslated; Hulagu has an Arabic label only).",
+   "author": "Claude Code (claude-sonnet-5-5), an AI agent",
+   "reviewer": null,
+   "decision": "historical review pending",
+   "approved": null,
+   "note": "",
+   "forReview": [
+    "R4",
+    "R6"
+   ],
+   "editorApproved": null
   }
  ],
  "roster": [
