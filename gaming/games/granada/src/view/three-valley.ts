@@ -17,7 +17,8 @@ import { ROBE_TINTS, awningMesh, palmMesh, personBodyMesh, personHeadMesh, stall
 import type { Atmosphere } from "@im/worldkit/atmosphere";
 import type { TextureData, TextureKind } from "@im/worldkit/textures";
 import { FOV, eyeOf, type Pose } from "./camera";
-import { HORSE_LEGS, OX_LEGS, PERSON_LEGS, SHEEP_LEGS, basket, bird, guardGear, horse, horseLeg, ladder, oxLeg, personBody, personLeg, sheep, sheepLeg } from "./buildings";
+import { HORSE_LEGS, OX_LEGS, PERSON_LEGS, SHEEP_LEGS, basket, bird, donkey, guardGear, horse, horseLeg, ladder, oxBody, oxLeg, personBody, personLeg, sheep, sheepLeg } from "./buildings";
+import { ANIMAL_KINDS, extractAnimal, type AnimalKind } from "./animals";
 import { along, fieldTo, limbMatrix, route, walkGrid, walkOf, type Walk, type WalkGrid } from "./paths";
 import { MODELS_AVAILABLE, disposeModel, disposeSharedMaterials, loadModel } from "./models";
 /**
@@ -169,6 +170,9 @@ const BIRDS = 14;
 const WALL_WALK = 7.2;
 const COATS: Rgb[] = [[0.42, 0.27, 0.16], [0.2, 0.17, 0.15], [0.62, 0.5, 0.36], [0.72, 0.7, 0.66], [0.33, 0.2, 0.12]];
 const FLEECE: Rgb[] = [[0.92, 0.9, 0.84], [0.86, 0.82, 0.74], [0.95, 0.93, 0.88], [0.3, 0.26, 0.22], [0.7, 0.6, 0.46]];
+const GOAT_TINTS: Rgb[] = [[0.4, 0.33, 0.25], [0.6, 0.54, 0.45], [0.22, 0.2, 0.18], [0.78, 0.74, 0.66], [0.5, 0.38, 0.26]];
+const DONKEY_TINTS: Rgb[] = [[0.58, 0.55, 0.5], [0.46, 0.43, 0.39], [0.64, 0.6, 0.53]];
+const OX_TINTS: Rgb[] = [[0.5, 0.36, 0.22], [0.42, 0.3, 0.18], [0.56, 0.44, 0.3], [0.36, 0.27, 0.19], [0.48, 0.38, 0.3], [0.44, 0.3, 0.16]];
 const WHEAT_SPACING = 1.7;
 const VEG_SPACING = 2.6;
 const WALKERS = 64;
@@ -250,6 +254,14 @@ export class ValleyRenderer {
   private horseLegs!: THREE.InstancedMesh;
   private sheepLegs!: THREE.InstancedMesh;
   private oxLegs!: THREE.InstancedMesh;
+  private goats!: THREE.InstancedMesh;
+  private goatLegs!: THREE.InstancedMesh;
+  private oxen!: THREE.InstancedMesh;
+  private donkeys!: THREE.InstancedMesh;
+  private donkeyLegs!: THREE.InstancedMesh;
+  // Which flock animal is a goat and where it sits in its own kind's mesh: fixed, so a frame writes it the same way every time.
+  private flockGoat: boolean[] = [];
+  private flockSlot: number[] = [];
   private walkTargets: Array<[number, number]> = [];
   private ring!: THREE.Mesh;
   private wheel!: THREE.Mesh;
@@ -419,6 +431,8 @@ export class ValleyRenderer {
     this.codeMill = addChunks(scenery.mill);
     // The authored mill is fetched while the valley is already on screen, and takes the code-made one's place.
     if (options.models && MODELS_AVAILABLE) void this.loadMill(scenery.millAt);
+    // The authored animals, when they can be fetched, take the place of the code-made shapes one kind at a time.
+    if (options.models && MODELS_AVAILABLE) void this.loadAnimals();
     // The mill's wheel, on its axle: it turns while the west branch carries water.
     const wheelGeometry = geometryOf(scenery.wheel.mesh);
     this.disposables.push(wheelGeometry);
@@ -532,6 +546,9 @@ export class ValleyRenderer {
     this.carts.count = CARTS;
     this.oxLegs = instanced(oxLeg(), "prop", CARTS * 4, true, true);
     this.oxLegs.count = CARTS * 4;
+    // The ox itself is a shape of its own, so the authored one can take its place: it moves exactly with its cart.
+    this.oxen = instanced(oxBody(), "prop", CARTS, true, true);
+    this.oxen.count = CARTS;
 
     // Flocks at graze, riders on the roads, the watch on the hill's wall and at its gate, birds over the valley.
     this.pastures = scenery.pastures;
@@ -544,10 +561,31 @@ export class ValleyRenderer {
       im.count = count;
       im.instanceColor!.needsUpdate = true;
     };
-    this.flocks = instanced(sheep(), "prop", Math.max(1, this.pastures.length * FLOCK), true, true);
-    paint(this.flocks, this.pastures.length * FLOCK, (i) => FLEECE[(i * 7 + (i % 5)) % FLEECE.length]!);
-    this.sheepLegs = instanced(sheepLeg(), "prop", Math.max(1, this.pastures.length * FLOCK * 4), true, true);
-    this.sheepLegs.count = this.pastures.length * FLOCK * 4;
+    // A flock is sheep and goats together, as they graze to this day. Which animal is which never changes, so the
+    // two meshes are written without waste: each kind's instances packed in the order the animals come.
+    const flockTotal = this.pastures.length * FLOCK;
+    let sheepCount = 0;
+    let goatCount = 0;
+    for (let i = 0; i < flockTotal; i++) {
+      const goat = (i * 11 + 5) % 9 < 2;
+      this.flockGoat.push(goat);
+      this.flockSlot.push(goat ? goatCount++ : sheepCount++);
+    }
+    this.flocks = instanced(sheep(), "prop", Math.max(1, sheepCount), true, true);
+    paint(this.flocks, sheepCount, (i) => FLEECE[(i * 7 + (i % 5)) % FLEECE.length]!);
+    this.sheepLegs = instanced(sheepLeg(), "prop", Math.max(1, sheepCount * 4), true, true);
+    this.sheepLegs.count = sheepCount * 4;
+    this.goats = instanced(sheep(), "prop", Math.max(1, goatCount), true, true);
+    paint(this.goats, goatCount, (i) => GOAT_TINTS[(i * 5 + (i % 3)) % GOAT_TINTS.length]!);
+    this.goatLegs = instanced(sheepLeg(), "prop", Math.max(1, goatCount * 4), true, true);
+    this.goatLegs.count = goatCount * 4;
+    // A donkey or two graze with the flocks, as donkeys do: they keep the sheep off worse harm.
+    this.donkeys = instanced(donkey(), "prop", Math.max(1, this.pastures.length), true, true);
+    paint(this.donkeys, this.pastures.length, (i) => DONKEY_TINTS[i % DONKEY_TINTS.length]!);
+    this.donkeyLegs = instanced(horseLeg(), "prop", Math.max(1, this.pastures.length * 4), true, true);
+    paint(this.donkeyLegs, this.pastures.length * 4, (i) => DONKEY_TINTS[Math.floor(i / 4) % DONKEY_TINTS.length]!);
+    paint(this.oxen, CARTS, (i) => OX_TINTS[i % OX_TINTS.length]!);
+    paint(this.oxLegs, CARTS * 4, (i) => OX_TINTS[Math.floor(i / 4) % OX_TINTS.length]!);
     this.horses = instanced(horse(), "prop", RIDERS, true, true);
     paint(this.horses, RIDERS, (i) => COATS[i % COATS.length]!);
     this.riderBodies = instanced(personBodyMesh(), "prop", RIDERS, true, true);
@@ -867,6 +905,51 @@ export class ValleyRenderer {
       // The code-made mill stays. Said in info(), not thrown: a valley without its models is still the valley.
       this.modelFailures.push(`granada/mill: ${e instanceof Error ? e.message : String(e)}`);
     }
+  }
+
+  /** The instanced meshes each animal kind is drawn with. */
+  private animalTargets(kind: AnimalKind): [THREE.InstancedMesh, THREE.InstancedMesh] {
+    switch (kind) {
+      case "sheep":
+        return [this.flocks, this.sheepLegs];
+      case "goat":
+        return [this.goats, this.goatLegs];
+      case "horse":
+        return [this.horses, this.horseLegs];
+      case "ox":
+        return [this.oxen, this.oxLegs];
+      case "donkey":
+        return [this.donkeys, this.donkeyLegs];
+    }
+  }
+
+  /**
+   * Fetches the authored animals one file at a time. A kind that arrives whole takes the place of its code-made
+   * shape in the same instanced meshes, so nothing about how the animals move changes; one that cannot be fetched
+   * or is short of a part leaves the code-made shape standing, named in modelFailures.
+   */
+  private async loadAnimals(): Promise<void> {
+    await Promise.all(
+      ANIMAL_KINDS.map(async (kind) => {
+        try {
+          const model = await loadModel(`granada/animals/${kind}.gltf`);
+          if (this.disposed) return disposeModel(model);
+          // What the file carries is copied out into the game's own merged geometries; the file itself is let go either way.
+          try {
+            const parts = extractAnimal(model, kind);
+            this.disposables.push(parts.body, parts.leg);
+            const [bodies, legs] = this.animalTargets(kind);
+            bodies.geometry = parts.body;
+            legs.geometry = parts.leg;
+            this.models.push(`granada/animals/${kind}`);
+          } finally {
+            disposeModel(model);
+          }
+        } catch (e) {
+          this.modelFailures.push(`granada/animals/${kind}: ${e instanceof Error ? e.message : String(e)}`);
+        }
+      }),
+    );
   }
 
   /** Two wave trains crossing at different scales and speeds, in world space. */
@@ -1367,7 +1450,9 @@ export class ValleyRenderer {
       const swing = still ? 0 : 0.32 * Math.sin(timeSeconds * 3.2 + i);
       OX_LEGS.forEach((j, k) => limbMatrix(ox, (i * 4 + k) * 16, carts, i * 16, j[0], j[1], j[2], k === 0 || k === 3 ? swing : -swing));
     }
+    (this.oxen.instanceMatrix.array as Float32Array).set(carts);
     this.carts.instanceMatrix.needsUpdate = true;
+    this.oxen.instanceMatrix.needsUpdate = true;
     this.oxLegs.instanceMatrix.needsUpdate = true;
     this.moveLife(still ? 0 : timeSeconds, seed);
     // People at the harvest: a picker reaches up and down, a reaper stoops and rises, a carrier goes to the store and back.
@@ -1432,6 +1517,8 @@ export class ValleyRenderer {
     // Flocks: each animal ambles about a spot of its own inside the pasture, and now and then lowers its head to graze.
     const flock = this.flocks.instanceMatrix.array as Float32Array;
     const sheepLegs = this.sheepLegs.instanceMatrix.array as Float32Array;
+    const goats = this.goats.instanceMatrix.array as Float32Array;
+    const goatLegs = this.goatLegs.instanceMatrix.array as Float32Array;
     this.pastures.forEach((p, f) => {
       for (let k = 0; k < FLOCK; k++) {
         const i = f * FLOCK + k;
@@ -1442,13 +1529,32 @@ export class ValleyRenderer {
         const z = p[1]! + Math.sin(a) * r + Math.cos(drift * 0.7 + i * 1.3) * 2.4;
         const heading = Math.atan2(Math.cos(drift * 0.9 + i) * 0.9, -Math.sin(drift * 0.7 + i * 1.3) * 0.7);
         const size = 0.9 + ((i * 13) % 7) * 0.05;
-        instanceMatrix(flock, i * 16, x, heightAt(x, z, seed) + 0.02, z, heading, size, size, size);
+        const bodies = this.flockGoat[i] ? goats : flock;
+        const legs = this.flockGoat[i] ? goatLegs : sheepLegs;
+        const slot = this.flockSlot[i]!;
+        instanceMatrix(bodies, slot * 16, x, heightAt(x, z, seed) + 0.02, z, heading, size, size, size);
         const amble = t === 0 ? 0 : 0.3 * Math.sin(t * 2.4 + i * 1.3);
-        SHEEP_LEGS.forEach((j, k) => limbMatrix(sheepLegs, (i * 4 + k) * 16, flock, i * 16, j[0], j[1], j[2], k === 0 || k === 3 ? amble : -amble));
+        SHEEP_LEGS.forEach((j, q) => limbMatrix(legs, (slot * 4 + q) * 16, bodies, slot * 16, j[0], j[1], j[2], q === 0 || q === 3 ? amble : -amble));
       }
     });
     this.flocks.instanceMatrix.needsUpdate = true;
     this.sheepLegs.instanceMatrix.needsUpdate = true;
+    this.goats.instanceMatrix.needsUpdate = true;
+    this.goatLegs.instanceMatrix.needsUpdate = true;
+    // The donkeys graze with them, slower and less far about.
+    const donkeys = this.donkeys.instanceMatrix.array as Float32Array;
+    const donkeyLegs = this.donkeyLegs.instanceMatrix.array as Float32Array;
+    this.pastures.forEach((p, i) => {
+      const drift = t * 0.03 + i * 2.7;
+      const x = p[0]! + Math.cos(i * 2.1 + 0.7) * p[2]! * 0.3 + Math.sin(drift + i) * 1.7;
+      const z = p[1]! + Math.sin(i * 2.1 + 0.7) * p[2]! * 0.3 + Math.cos(drift * 0.8 + i * 1.4) * 1.7;
+      const heading = Math.atan2(Math.cos(drift + i) * 0.8, -Math.sin(drift * 0.8 + i * 1.4) * 0.6);
+      instanceMatrix(donkeys, i * 16, x, heightAt(x, z, seed) + 0.02, z, heading, 1, 1, 1);
+      const amble = t === 0 ? 0 : 0.2 * Math.sin(t * 1.7 + i * 1.9);
+      HORSE_LEGS.forEach((j, q) => limbMatrix(donkeyLegs, (i * 4 + q) * 16, donkeys, i * 16, j[0], j[1], j[2], q === 0 || q === 3 ? amble : -amble));
+    });
+    this.donkeys.instanceMatrix.needsUpdate = true;
+    this.donkeyLegs.instanceMatrix.needsUpdate = true;
     // Riders: out along a road and back at a trot, the rider seated on the horse's back.
     const horses = this.horses.instanceMatrix.array as Float32Array;
     const riders = this.riderBodies.instanceMatrix.array as Float32Array;

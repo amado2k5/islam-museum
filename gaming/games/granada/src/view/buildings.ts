@@ -234,17 +234,22 @@ export function bridge(set: MeshSet, f: Frame, length: number, width: number, sp
   return top;
 }
 
-/** An ox and its cart, loaded with sacks, about six metres long, facing along the frame's z axis. */
-export function oxCart(): MeshData {
+/** An ox in its cart's frame: body, head and horns, the yoke's beasts carry it between the shafts. Its legs are shapes of their own (oxLeg), drawn at OX_LEGS and moved as it walks. */
+export function oxBody(): MeshData {
   const b = new MeshBuilder();
   const f = frame(0, 0, 0);
   const hide: Rgb = [0.5, 0.36, 0.22];
-  const plank: Rgb = [0.42, 0.3, 0.18];
-  // The ox.
   b.box(f, 0, 0.72, 1.5, 0.78, 0.82, 1.9, hide, 63, 0.8);
   b.box(f, 0, 1.18, 2.62, 0.44, 0.48, 0.62, [hide[0] * 0.9, hide[1] * 0.9, hide[2] * 0.9], 63);
-  // The ox's legs are shapes of their own (oxLeg), drawn at OX_LEGS and moved as it walks.
   for (const x of [-0.3, 0.3]) b.box(f, x, 1.62, 2.55, 0.07, 0.07, 0.32, [0.92, 0.9, 0.82], 63);
+  return b.build();
+}
+
+/** A cart, loaded with sacks, facing along the frame's z axis. The ox that draws it is a shape of its own (oxBody). */
+export function oxCart(): MeshData {
+  const b = new MeshBuilder();
+  const f = frame(0, 0, 0);
+  const plank: Rgb = [0.42, 0.3, 0.18];
   // The shafts, the bed, its sides and its load.
   for (const x of [-0.5, 0.5]) b.box(f, x, 0.86, 0, 0.09, 0.09, 2.6, plank, 63);
   b.box(f, 0, 0.8, -1.9, 1.7, 0.16, 2.7, plank, 63);
@@ -318,6 +323,24 @@ export function horse(): MeshData {
   return b.build();
 }
 
+/** A donkey, smaller and greyer than a horse, with long ears and no saddle: the shape the valley draws for its grazing donkeys until the authored one arrives. */
+export function donkey(): MeshData {
+  const b = new MeshBuilder();
+  const f = frame(0, 0, 0);
+  const coat: Rgb = [1, 1, 1];
+  const shade: Rgb = [0.72, 0.72, 0.72];
+  const mane: Rgb = [0.3, 0.28, 0.26];
+  b.box(f, 0, 0.86, 0, 0.5, 0.56, 1.55, coat, 63, 0.85);
+  b.box(f, 0, 1.26, 0.76, 0.3, 0.44, 0.4, coat, 63);
+  b.box(f, 0, 1.56, 0.98, 0.26, 0.36, 0.36, coat, 63);
+  b.box(f, 0, 1.5, 1.28, 0.2, 0.26, 0.46, shade, 63);
+  // A donkey's ears are long: two upright blades where a horse carries a tuft.
+  for (const x of [-0.09, 0.09]) b.box(f, x, 1.86, 0.92, 0.06, 0.34, 0.1, shade, 63);
+  b.box(f, 0, 1.62, 0.72, 0.07, 0.4, 0.44, mane, 63);
+  b.box(f, 0, 0.68, -0.88, 0.09, 0.62, 0.12, mane, 63);
+  return b.build();
+}
+
 /** What marks a man of the watch: a round helmet over the head-cloth, a round shield at the left arm, a spear upright in the right hand. */
 export function guardGear(): MeshData {
   const b = new MeshBuilder();
@@ -359,7 +382,8 @@ const limb = (length: number, width: number, color: Rgb, hoof: Rgb): MeshData =>
   b.box(f, 0, -length, 0.02, width * 1.15, 0.08, width * 1.35, hoof, 63);
   return b.build();
 };
-export const oxLeg = (): MeshData => limb(0.9, 0.17, [0.37, 0.27, 0.16], [0.18, 0.15, 0.12]);
+/** An ox's leg is white so that the ox's own colour shows on it, as the horse's is, with a dark hoof. */
+export const oxLeg = (): MeshData => limb(0.9, 0.17, [0.72, 0.72, 0.72], [0.2, 0.18, 0.16]);
 /** A horse's leg is white so that the horse's own colour shows on it, with a dark hoof. */
 export const horseLeg = (): MeshData => limb(0.94, 0.13, [0.72, 0.72, 0.72], [0.2, 0.18, 0.16]);
 export const sheepLeg = (): MeshData => limb(0.36, 0.09, [0.34, 0.3, 0.26], [0.2, 0.18, 0.16]);

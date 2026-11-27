@@ -56,6 +56,8 @@ const PROP_CAPACITY: Record<PropKind, number> = { "palm-a": 900, "palm-b": 900, 
 const PROP_MATERIAL: Record<PropKind, SceneMaterialId> = { "palm-a": "foliage", "palm-b": "foliage", tree: "foliage", cypress: "foliage", awning: "fabric", stall: "prop", jar: "prop" };
 const WALKER_CAPACITY = 720;
 const FILL_SECONDS = 0.7;
+/** How many canal sheets the board can hold: a stretch a plot and its arms, with room to spare. */
+const WATER_CAP = 512;
 
 export interface Highlight {
   /** Tinted plots: [plot, r, g, b] in linear colour. */
@@ -66,17 +68,38 @@ export interface Highlight {
   link: { a: number; b: number; ok: boolean } | null;
 }
 
-/** A plot's next set of meshes, on their way in. */
-interface Incoming {
-  meshes: THREE.Mesh[];
-  added: number;
-  readyAt: number;
-}
-
 interface WaterMesh {
-  mesh: THREE.Mesh;
+  /** Which instance of the shared water mesh this sheet is, once the table is rebuilt. */
+  instance: number;
   rect: WaterRect;
   grow: { from: "x0" | "x1" | "z0" | "z1"; start: number } | null;
+}
+
+/** Concatenates engine-neutral meshes into one, offsets moving with the parts. Empty input is an empty mesh. */
+export function mergeMeshData(parts: MeshData[]): MeshData {
+  let nv = 0;
+  let ni = 0;
+  for (const p of parts) {
+    nv += p.positions.length / 3;
+    ni += p.indices.length;
+  }
+  const positions = new Float32Array(nv * 3);
+  const normals = new Float32Array(nv * 3);
+  const uvs = new Float32Array(nv * 2);
+  const colors = new Float32Array(nv * 3);
+  const indices = new Uint32Array(ni);
+  let v = 0;
+  let i = 0;
+  for (const p of parts) {
+    positions.set(p.positions, v * 3);
+    normals.set(p.normals, v * 3);
+    uvs.set(p.uvs, v * 2);
+    colors.set(p.colors, v * 3);
+    for (let k = 0; k < p.indices.length; k++) indices[i + k] = p.indices[k]! + v;
+    v += p.positions.length / 3;
+    i += p.indices.length;
+  }
+  return { positions, normals, uvs, colors, indices };
 }
 
 export class BoardRenderer {
@@ -95,9 +118,18 @@ export class BoardRenderer {
   private season = -1;
   private pose!: CameraPose;
   private aspect = 1;
-  private readonly plots: Array<{ meshes: THREE.Mesh[]; water: WaterMesh[]; geometry: PlotGeometry | null; incoming: Incoming | null }> = Array.from({ length: PLOTS }, () => ({ meshes: [], water: [], geometry: null, incoming: null }));
-  /** Plots whose new meshes are being brought in a few a frame (see setPlot). */
-  private warming: number[] = [];
+  private readonly plots: Array<{ water: WaterMesh[]; geometry: PlotGeometry | null }> = Array.from({ length: PLOTS }, () => ({ water: [], geometry: null }));
+  /**
+   * The district's still geometry is drawn as one mesh a material for the whole board, not a mesh a plot: what
+   * fifty plots cost in draw calls, a handful of materials pays once. When a plot changes, the materials it
+   * touches are marked dirty here and merged again from the plots' geometry, at most two a frame, so a new
+   * building stands within a few ordinary frames and costs no slow one.
+   */
+  private readonly merged = new Map<SceneMaterialId, THREE.Mesh>();
+  private readonly dirtyMaterials = new Set<SceneMaterialId>();
+  /** Canal water sheets, one instance each of a single mesh: the record of each is in its plot's slot. */
+  private waterInstances!: THREE.InstancedMesh;
+  private waterDirty = false;
   private frame = 0;
   /** 0 clear water to 1 thick with silt; and how far a drought has dropped the canals. */
   private readonly silt = uniform(0);
@@ -242,10 +274,17 @@ export class BoardRenderer {
     this.wheel.visible = false;
     scene.add(this.wheel);
 
-    // Canal water is flat sheets, one per stretch, so a newly dug stretch can be seen to fill.
+    // Canal water is flat sheets, one per stretch, so a newly dug stretch can be seen to fill. They are instances
+    // of one mesh: a sheet is a metre of flat water exactly like the next, so a hundred of them draw as one call.
     this.waterPlane = new THREE.PlaneGeometry(1, 1);
     this.waterPlane.rotateX(-Math.PI / 2);
     this.disposables.push(this.waterPlane);
+    this.waterInstances = new THREE.InstancedMesh(this.waterPlane, this.waterMaterial, WATER_CAP);
+    this.waterInstances.count = 0;
+    this.waterInstances.receiveShadow = true;
+    this.waterInstances.frustumCulled = false;
+    this.waterInstances.instanceMatrix.setUsage(THREE.DynamicDrawUsage);
+    scene.add(this.waterInstances);
 
     // ---- Planning overlay: tinted plots, the cursor and the link being aimed at ----
     const tileGeo = new THREE.PlaneGeometry(PLOT - 1.2, PLOT - 1.2);
@@ -369,126 +408,81 @@ export class BoardRenderer {
    * Replaces what stands on a plot. `filling` names water sheets that should be seen to fill, with the edge the
    * water comes from and a delay in seconds (ignored under reduced motion).
    *
-   * Making a mesh is what costs time (the engine sets each one up for the shadow, depth and colour passes), so
-   * unless `immediate` is set the new meshes are brought in two a frame, out of sight, and swapped for the old
-   * ones once they are all ready: a new building costs several ordinary frames instead of one slow one.
+   * The plot's still geometry is not drawn on its own: it joins the board's merged meshes, one a material, which
+   * are made again from the plots' geometry a few at a time (see rebuildMaterials). What a plot change costs is
+   * the copying of its materials' arrays, spread over ordinary frames — never a cluster of new meshes in one.
    */
   setPlot(plot: number, g: PlotGeometry, filling: Array<{ id: string; from: "x0" | "x1" | "z0" | "z1"; delay: number }> = [], immediate = false): void {
     const slot = this.plots[plot]!;
-    // The same shape as before (a field in a new season): write the new numbers into the meshes already there.
     const old = slot.geometry;
-    const sameShape =
-      old !== null &&
-      slot.incoming === null &&
-      filling.length === 0 &&
-      slot.meshes.length === g.chunks.length &&
-      old.chunks.length === g.chunks.length &&
-      old.water.length === g.water.length &&
-      g.chunks.every((c, i) => c.material === old.chunks[i]!.material && c.mesh.positions.length === old.chunks[i]!.mesh.positions.length && c.mesh.indices.length === old.chunks[i]!.mesh.indices.length) &&
-      g.water.every((w, i) => w.id === old.water[i]!.id);
-    if (sameShape) {
-      g.chunks.forEach((c, i) => {
-        const geo = slot.meshes[i]!.geometry;
-        const write = (name: string, data: Float32Array) => {
-          const attr = geo.getAttribute(name) as THREE.BufferAttribute;
-          (attr.array as Float32Array).set(data);
-          attr.needsUpdate = true;
-        };
-        write("position", c.mesh.positions);
-        write("normal", c.mesh.normals);
-        write("uv", c.mesh.uvs);
-        write("color", c.mesh.colors);
-        (geo.index!.array as Uint32Array).set(c.mesh.indices);
-        geo.index!.needsUpdate = true;
-        geo.computeBoundingSphere();
-      });
-      slot.geometry = g;
-      return;
-    }
-    this.cancelIncoming(plot);
-    for (const w of slot.water) this.scene.remove(w.mesh);
-    slot.water = [];
+    if (old) for (const c of old.chunks) this.dirtyMaterials.add(c.material);
+    for (const c of g.chunks) this.dirtyMaterials.add(c.material);
     slot.geometry = g;
-    const meshes = g.chunks.map((chunk) => {
-      const mesh = new THREE.Mesh(geometryOf(chunk.mesh), this.materials.get(chunk.material)!);
-      const flat = chunk.material === "canalwater" || chunk.material === "earth" || chunk.material === "paving" || chunk.material === "grass";
-      mesh.castShadow = !flat;
-      mesh.receiveShadow = true;
-      return mesh;
-    });
-    if (immediate || filling.length > 0) {
-      for (const m of slot.meshes) {
-        this.scene.remove(m);
-        m.geometry.dispose();
-      }
-      for (const m of meshes) this.scene.add(m);
-      slot.meshes = meshes;
-    } else {
-      slot.incoming = { meshes, added: 0, readyAt: Infinity };
-      this.warming.push(plot);
-    }
-    for (const rect of g.water) {
-      const mesh = new THREE.Mesh(this.waterPlane, this.waterMaterial);
-      mesh.receiveShadow = true;
+    slot.water = g.water.map((rect) => {
       const fill = this.options.reducedMotion ? undefined : filling.find((f) => f.id === rect.id);
-      const w: WaterMesh = { mesh, rect, grow: fill ? { from: fill.from, start: this.now + fill.delay } : null };
-      this.placeWater(w, fill ? 0 : 1);
-      this.scene.add(mesh);
-      slot.water.push(w);
-    }
-  }
-
-  private cancelIncoming(plot: number): void {
-    const slot = this.plots[plot]!;
-    if (!slot.incoming) return;
-    slot.incoming.meshes.forEach((m, i) => {
-      if (i < slot.incoming!.added) this.scene.remove(m);
-      m.geometry.dispose();
+      const w: WaterMesh = { instance: -1, rect, grow: fill ? { from: fill.from, start: this.now + fill.delay } : null };
+      return w;
     });
-    slot.incoming = null;
-    this.warming = this.warming.filter((p) => p !== plot);
+    this.waterDirty = true;
+    if (immediate) this.rebuildMaterials(Infinity);
   }
 
-  /** Brings waiting meshes into the scene, `budget` at most, and swaps a plot over once all of its meshes have been drawn once. */
-  private warm(budget: number, wait = true): void {
-    while (this.warming.length > 0) {
-      const plot = this.warming[0]!;
-      const slot = this.plots[plot]!;
-      const inc = slot.incoming;
-      if (!inc) {
-        this.warming.shift();
-        continue;
+  /**
+   * Merges the board's dirty materials again from the plots' geometry, `budget` at most. Each material is one
+   * mesh for the whole district: concatenating the plots' arrays costs a copy, and the mesh itself — the thing
+   * the engine prepares for its passes — is made once and only ever written into.
+   */
+  private rebuildMaterials(budget: number): void {
+    let done = 0;
+    for (const id of [...this.dirtyMaterials]) {
+      if (done >= budget) break;
+      this.dirtyMaterials.delete(id);
+      done++;
+      const parts: MeshData[] = [];
+      for (const slot of this.plots) {
+        if (!slot.geometry) continue;
+        for (const c of slot.geometry.chunks) if (c.material === id) parts.push(c.mesh);
       }
-      if (inc.added < inc.meshes.length) {
-        if (budget <= 0) return;
-        const m = inc.meshes[inc.added++]!;
-        // Out of sight (a speck under the ground) but drawn, so the engine prepares it.
-        m.scale.setScalar(1e-5);
-        m.position.y = -40;
-        m.frustumCulled = false;
-        this.scene.add(m);
-        budget--;
-        if (inc.added === inc.meshes.length) inc.readyAt = this.frame + 1;
-        continue;
+      const merged = mergeMeshData(parts);
+      const g = geometryOf(merged);
+      let mesh = this.merged.get(id);
+      if (!mesh) {
+        mesh = new THREE.Mesh(g, this.materials.get(id)!);
+        const flat = id === "canalwater" || id === "earth" || id === "paving" || id === "grass";
+        mesh.castShadow = !flat;
+        mesh.receiveShadow = true;
+        this.scene.add(mesh);
+        this.merged.set(id, mesh);
+      } else {
+        mesh.geometry.dispose();
+        mesh.geometry = g;
       }
-      if (wait && this.frame < inc.readyAt) return;
-      for (const m of slot.meshes) {
-        this.scene.remove(m);
-        m.geometry.dispose();
-      }
-      for (const m of inc.meshes) {
-        m.scale.setScalar(1);
-        m.position.y = 0;
-        m.frustumCulled = true;
-      }
-      slot.meshes = inc.meshes;
-      slot.incoming = null;
-      this.warming.shift();
     }
   }
-  /** Finishes every waiting plot now (captures and tests). */
+
+  /** Assigns every canal sheet its instance of the shared water mesh and writes the still ones' matrices. */
+  private rebuildWater(): void {
+    this.waterDirty = false;
+    const a = this.waterInstances.instanceMatrix.array as Float32Array;
+    let n = 0;
+    for (const slot of this.plots) {
+      for (const w of slot.water) {
+        if (n >= WATER_CAP) break;
+        w.instance = n;
+        this.placeWater(w, w.grow ? 0 : 1);
+        n++;
+      }
+    }
+    // Any instance beyond the table is shrunk away.
+    for (let i = n; i < this.waterInstances.count; i++) instanceMatrix(a, i * 16, 0, -100, 0, 0, 1e-5, 1e-5, 1e-5);
+    this.waterInstances.count = n;
+    this.waterInstances.instanceMatrix.needsUpdate = true;
+  }
+
+  /** Finishes every waiting merge now (captures and tests). */
   settle(): void {
-    this.warm(Infinity, false);
+    this.rebuildMaterials(Infinity);
+    if (this.waterDirty) this.rebuildWater();
   }
 
   /** How the water looks: `silt` 0 to 1, and whether a drought has lowered the river and the canals. */
@@ -510,9 +504,11 @@ export class BoardRenderer {
       else if (w.grow.from === "z0") z1 = z0 + (z1 - z0) * e;
       else z0 = z1 - (z1 - z0) * e;
     }
-    w.mesh.position.set((x0 + x1) / 2, w.rect.y - this.canalDrop, (z0 + z1) / 2);
-    w.mesh.scale.set(x1 - x0, 1, z1 - z0);
-    w.mesh.visible = k > 0;
+    if (w.instance < 0) return;
+    const a = this.waterInstances.instanceMatrix.array as Float32Array;
+    const shrink = k <= 0 ? 1e-5 : 1;
+    instanceMatrix(a, w.instance * 16, (x0 + x1) / 2, w.rect.y - this.canalDrop, (z0 + z1) / 2, 0, (x1 - x0) * shrink, 1, (z1 - z0) * shrink);
+    this.waterInstances.instanceMatrix.needsUpdate = true;
   }
 
   /** How many figures each plot shows. Takes effect at the next commit. */
@@ -618,7 +614,8 @@ export class BoardRenderer {
     const t0 = performance.now();
     this.now = timeSeconds;
     this.frame++;
-    this.warm(2);
+    this.rebuildMaterials(2);
+    if (this.waterDirty) this.rebuildWater();
     this.waterTime.value = timeSeconds;
     // Water that is still filling.
     for (const slot of this.plots) {
@@ -679,7 +676,7 @@ export class BoardRenderer {
   }
 
   dispose(): void {
-    for (const slot of this.plots) for (const m of [...slot.meshes, ...(slot.incoming?.meshes ?? [])]) m.geometry.dispose();
+    for (const mesh of this.merged.values()) mesh.geometry.dispose();
     for (const d of this.disposables) d.dispose();
     this.pipeline?.dispose();
     this.renderer.dispose();
