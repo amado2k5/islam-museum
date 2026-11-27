@@ -56,7 +56,7 @@ export function tracksToPublish(manifest, dir, read = readFileSync, exists = exi
 
 /** A model file's name where there are no folders (the assets of a release): "granada/mill.gltf" is "granada__mill.gltf". */
 export const flatName = (path) => path.replaceAll("/", "__");
-const MODEL_FILE = /^[a-z0-9][a-z0-9-]*(\/[a-z0-9][a-z0-9_-]*)*\/[a-z0-9][a-z0-9_-]*\.(gltf|bin|jpg)$/;
+const MODEL_FILE = /^[a-z0-9][a-z0-9-]*(\/[a-z0-9][a-z0-9_-]*)*\/[a-z0-9][a-z0-9_-]*\.(gltf|bin|jpg|webp)$/;
 
 /**
  * The model files an art manifest names, each with the bytes found for it in `dir` (under its own path, or under its

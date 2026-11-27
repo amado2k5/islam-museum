@@ -40,8 +40,8 @@ describe("the art manifest", () => {
 
   it("records every output with its size and checksum, and a model the game could afford", () => {
     for (const asset of manifest.assets) {
-      // An image asset (the painted ground atlas) is one file and no triangles; a model is more than one file.
-      if (asset.triangles === 0) expect(asset.files.length).toBe(1);
+      // An image asset (the painted ground atlas, the Sierra strips) is a file or two and no triangles; a model is more than one file.
+      if (asset.triangles === 0) expect(asset.files.length).toBeGreaterThan(0);
       else expect(asset.files.length).toBeGreaterThan(1);
       expect(asset.files.reduce((n, f) => n + f.bytes, 0)).toBe(asset.bytes);
       for (const f of asset.files) expect(f.sha256).toMatch(/^[0-9a-f]{64}$/);
@@ -63,7 +63,7 @@ describe("the art manifest", () => {
   it("keeps what is under evaluation out of the game unless the page's address asks for it", () => {
     const evaluated = manifest.assets.filter((a) => a.evaluation);
     const own = manifest.assets.filter((a) => !a.evaluation);
-    expect(own.map((a) => a.id)).toEqual(["granada/mill", "granada/town", "granada/landmarks", "granada/palace", "granada/animals/sheep", "granada/animals/goat", "granada/animals/horse", "granada/animals/ox", "granada/animals/donkey", "golden-age/market", "golden-age/bath", "golden-age/library", "golden-age/school", "golden-age/hospital", "granada/ground-atlas"]);
+    expect(own.map((a) => a.id)).toEqual(["granada/mill", "granada/town", "granada/landmarks", "granada/palace", "granada/animals/sheep", "granada/animals/goat", "granada/animals/horse", "granada/animals/ox", "granada/animals/donkey", "golden-age/market", "golden-age/bath", "golden-age/library", "golden-age/school", "golden-age/hospital", "granada/ground-atlas", "granada/sierra-strips"]);
     // Everything under evaluation lives in its own folder, apart from the game's set.
     for (const a of evaluated) for (const f of a.files) expect(f.path.startsWith("granada/c/"), f.path).toBe(true);
     for (const a of own) for (const f of a.files) expect(f.path.startsWith("granada/c/"), f.path).toBe(false);

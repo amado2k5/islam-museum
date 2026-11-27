@@ -300,6 +300,8 @@ export class ValleyRenderer {
   private readonly models: string[] = [];
   private readonly modelFailures: string[] = [];
   private groundAtlas: THREE.Texture | null = null;
+  private sierra: THREE.Mesh | null = null;
+  private sierraMaps: { autumn: THREE.Texture; winter: THREE.Texture } | null = null;
   private disposed = false;
   private carts!: THREE.InstancedMesh;
   private flocks!: THREE.InstancedMesh;
@@ -444,6 +446,33 @@ export class ValleyRenderer {
     };
     const addChunks = (chunks: Chunk[]): THREE.Mesh[] => chunks.map((c) => add(c.mesh, c.material, true));
 
+    // ---- The painted Sierra: two strips, autumn and winter, on a far curtain behind the valley ----
+    // They are media beside the models, AI-painted to the museum's brief (draft, pending the founder's look). While
+    // they cannot be had the valley keeps the range its own code makes, as before; when they arrive the curtain
+    // carries them instead, unlit and unfogged so the haze of the air does not wash the painting out.
+    let sierraAutumn: THREE.Texture | null = null;
+    let sierraWinter: THREE.Texture | null = null;
+    if (options.models && MODELS_AVAILABLE) {
+      try {
+        const load = async (file: string) => {
+          const t = await new THREE.TextureLoader().loadAsync(modelUrl(file));
+          t.colorSpace = THREE.SRGBColorSpace;
+          t.wrapS = THREE.ClampToEdgeWrapping;
+          t.minFilter = THREE.LinearMipmapLinearFilter;
+          t.magFilter = THREE.LinearFilter;
+          t.anisotropy = 4;
+          t.needsUpdate = true;
+          return t;
+        };
+        [sierraAutumn, sierraWinter] = await Promise.all([load("granada/sierra-snow-range-autumn-4096x768.webp"), load("granada/sierra-snow-range-winter-4096x768.webp")]);
+        this.disposables.push(sierraAutumn!, sierraWinter!);
+        this.models.push("granada/sierra-strips");
+      } catch (e) {
+        sierraAutumn = sierraWinter = null;
+        this.modelFailures.push(`granada/sierra-strips: ${e instanceof Error ? e.message : String(e)}`);
+      }
+    }
+
     // ---- The land, the range, the water ----
     const earth = maps.get("earth");
     const earthData = textures.get("earth");
@@ -455,6 +484,30 @@ export class ValleyRenderer {
     scene.add(land);
     const range = add(buildRange(seed), "prop", false, false);
     range.frustumCulled = false;
+    if (sierraAutumn && sierraWinter) {
+      range.visible = false;
+      // A curtain standing east of the plain, as far again as the code-made range and twice as wide: one breadth of
+      // the strip across it, the peaks rising to some 800 m, the foot of the painting tucked behind the land.
+      const width = 12000;
+      const height = width * (768 / 4096);
+      const g = new THREE.PlaneGeometry(width, height, 48, 1);
+      // The curtain sags away at its ends, a shallow arc round the valley, so it does not march with the camera.
+      const posAttr = g.attributes.position!;
+      for (let i = 0; i < posAttr.count; i++) {
+        const x = posAttr.getX(i);
+        posAttr.setZ(i, Math.pow(x / width, 2) * 2400);
+      }
+      const mat = new THREE.MeshBasicMaterial({ map: sierraAutumn, transparent: true, depthWrite: false, fog: false, side: THREE.FrontSide, toneMapped: true });
+      const sierra = new THREE.Mesh(g, mat);
+      // Its foot tucks behind the land's own rise; the painting's peaks then stand where the code-made ridge stood.
+      sierra.position.set(3400, height / 2 - 120, 0);
+      sierra.rotation.y = -Math.PI / 2;
+      sierra.frustumCulled = false;
+      this.disposables.push(g, mat);
+      scene.add(sierra);
+      this.sierra = sierra;
+      this.sierraMaps = { autumn: sierraAutumn, winter: sierraWinter };
+    }
     add(buildRiver(), "water", false);
     this.poolMesh = add(poolWater(), "canalwater", false);
     this.poolFloor = heightAt(POOL.x, POOL.z, seed);
@@ -1112,6 +1165,15 @@ export class ValleyRenderer {
     const fog = this.scene.fog as THREE.FogExp2;
     fog.color = color(atm.fogColor);
     fog.density = atm.fogDensity;
+    // The painted Sierra answers the season: snow down the slopes in winter, the bare autumn range otherwise.
+    if (this.sierra && this.sierraMaps) {
+      const mat = this.sierra.material as THREE.MeshBasicMaterial;
+      const want = season === 3 ? this.sierraMaps.winter : this.sierraMaps.autumn;
+      if (mat.map !== want) {
+        mat.map = want;
+        mat.needsUpdate = true;
+      }
+    }
     // The sky itself: clear in summer, hazier and lower-lit in autumn, heavier with cloud in winter.
     const skyOf = [
       { turbidity: 2.2, rayleigh: 2.3, cover: 0.52, density: 0.5 },

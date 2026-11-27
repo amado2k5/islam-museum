@@ -49,6 +49,14 @@ IMAGES = [
         "files": ["granada/ground-atlas.jpg"],
         "madeBy": "AI image (ChatGPT Codex), painted to the museum's brief; draft, pending the founder's look. The tiles' prompts and checksums: /Users/ahmedabdelaal/Documents/islam-museum-game-art/manifest.jsonl",
     },
+    {
+        "id": "granada/sierra-strips",
+        "game": "granada",
+        "title": "The Sierra Nevada's snow range, autumn and winter: wide alpha-cut strips for the valley's eastern backdrop, scaled down to 4096x768 webp from the painted 8192x1536",
+        "script": None,
+        "files": ["granada/sierra-snow-range-autumn-4096x768.webp", "granada/sierra-snow-range-winter-4096x768.webp"],
+        "madeBy": "AI image (ChatGPT Codex), painted to the museum's brief; draft, pending the founder's look. The paintings' prompts and checksums: /Users/ahmedabdelaal/Documents/islam-museum-game-art/manifest.jsonl (granada/terrain/sierra-snow-range-autumn-8192x1536.png, sierra-snow-range-winter-8192x1536.png); the scaling down is this machine's",
+    },
 ]
 SOURCES = HERE / "sources.json"
 
@@ -102,7 +110,7 @@ def describe_image(asset):
         "madeBy": asset["madeBy"],
         "licence": "the museum's media of its own, CC BY-SA 4.0; the making is draft and awaits the founder's acceptance",
         "surfaces": [],
-        "sources": [{"path": "art/make_ground_atlas.py", "sha256": sha(HERE / "make_ground_atlas.py")}],
+        "sources": [{"path": "art/" + asset["script"], "sha256": sha(HERE / asset["script"])}] if asset.get("script") else [],
         "objects": [],
         "placed": {},
         "materials": [],

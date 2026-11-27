@@ -108,7 +108,7 @@ jobs:
           [[ "$TAG" =~ ^[A-Za-z0-9._-]+$ ]] || { echo "::error::\"$TAG\" is not a release tag."; exit 1; }
           mkdir -p media-in
           if [ "$KIND" = "models" ]; then
-            gh release download "$TAG" --dir media-in --pattern "*.gltf" --pattern "*.bin" --pattern "*.jpg"
+            gh release download "$TAG" --dir media-in --pattern "*.gltf" --pattern "*.bin" --pattern "*.jpg" --pattern "*.webp"
           else
             gh release download "$TAG" --dir media-in --pattern "*.m4a"
           fi
