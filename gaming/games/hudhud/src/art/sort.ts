@@ -288,7 +288,8 @@ const CREATURES: Record<string, (c: Ctx) => void> = {
 
 /** How a card is framed: a plain card, or a small scroll (a body with a rolled end at the top and at the bottom). */
 export type CardFrame = "card" | "scroll";
-function drawCard(c: Ctx, r: Rect, face: (c: Ctx) => void, mark: "none" | "chosen" | "done", frame: CardFrame): void {
+/** Draws one card in its frame at `r`, with its face and its mark. Shared with the coffee room (art/coffee-room.ts), so that a card looks the same on the page and in the room. */
+export function drawCard(c: Ctx, r: Rect, face: (c: Ctx) => void, mark: "none" | "chosen" | "done", frame: CardFrame): void {
   c.save();
   c.translate(r.x, r.y);
   if (frame === "card") {

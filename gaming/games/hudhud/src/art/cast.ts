@@ -631,6 +631,27 @@ export function camelChild(scale: number): KeeperArt {
   return { ...art, body };
 }
 
+/**
+ * The child who tidies the cards in the coffee room, an invented person (the coffee quest's own): the same cut-out as the
+ * explorer, in one fixed look of the child's own (a round cap, a green tunic), holding a small stack of plain blank cards
+ * against the chest. Nothing on them is drawn or written.
+ */
+export function cardChild(scale: number): KeeperArt {
+  const art = keeper(scale, { kind: 0, skin: 1, outfit: 2, hair: 2 });
+  const [body, b] = sheet(art.body.w, art.body.h, scale);
+  b.drawImage(art.body.canvas, 0, 0, art.body.w, art.body.h);
+  for (const [dx, dy, fill] of [[0, 0, "#efe2c2"], [4, -6, "#f6ecd2"], [-3, -12, "#fbf3df"]] as const) {
+    blob(b, [
+      [30 + dx, 52 + dy],
+      [62 + dx, 50 + dy],
+      [64 + dx, 88 + dy],
+      [32 + dx, 90 + dy],
+    ]);
+    fillStroke(b, fill, INK, 1.8);
+  }
+  return { ...art, body };
+}
+
 // ---------------------------------------------------------------------------------------------- the scholar
 /** The colours a scholar's figure is drawn in. The default is Ibn al-Haytham's, as the workshop has always drawn him;
  * al-Jazari's figure is the same cut-out in other colours, with an apron (art/jazari.ts's room), al-Tusi's in night
@@ -1064,6 +1085,29 @@ export function battuta(scale: number): ScholarArt {
   ]);
   fillStroke(b, "#5a3418", INK, 1.6);
   return { ...art, body };
+}
+
+/**
+ * The keeper of the records in the coffee room, an invented person (the coffee quest's own), as the game imagines a keeper
+ * of records: the scholar's cut-out again, of the same size and parts, in a plain white turban and a deep green robe over
+ * a cream gown. Not a likeness of anyone.
+ */
+export const ARCHIVIST_LOOK: ScholarLook = {
+  skin: "#c99566",
+  beard: ["#4a3a30", "#9a9086"],
+  moustache: "#4a3a30",
+  brow: "#3a2a22",
+  turban: ["#fbf6ea", "#ddd3bc"],
+  turbanBands: "rgba(90,80,60,0.5)",
+  robe: ["#2f6f4a", "#1f4c34"],
+  gown: "#f3e6c8",
+  border: PAL.ochre,
+  dots: PAL.cream,
+  shawl: "#3a5a3a",
+  seed: "archivist",
+};
+export function archivist(scale: number): ScholarArt {
+  return scholar(scale, ARCHIVIST_LOOK);
 }
 
 // ---------------------------------------------------------------------------------------------- the cat

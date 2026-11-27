@@ -212,7 +212,8 @@ const SHELF_SIGNS: ((c: Ctx, r: number) => void)[] = [
   },
 ];
 
-const sign = (c: Ctx, g: number, x: number, y: number, r: number, alpha = 1): void => {
+/** Draws the sign of shelf `g` (from 0) about (x, y), about 2 r across. Shared with the coffee room (art/coffee-room.ts), so that a shelf is marked the same on the page and in the room. */
+export const sign = (c: Ctx, g: number, x: number, y: number, r: number, alpha = 1): void => {
   c.save();
   c.globalAlpha = alpha;
   c.translate(x, y);
@@ -231,6 +232,9 @@ const COFFEE: SortSkin = {
   frame: "scroll",
   board: true,
 };
+
+/** What is drawn on a coffee card, in a 72 by 72 box. Shared with the coffee room (art/coffee-room.ts). */
+export const coffeeFace = (item: string): ((c: Ctx) => void) => SIGNS[item] ?? (() => undefined);
 
 export function drawCoffee(canvas: HTMLCanvasElement, v: SortView): void {
   drawSort(canvas, v, COFFEE);

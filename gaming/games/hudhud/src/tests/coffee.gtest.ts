@@ -415,13 +415,13 @@ describe("the words", () => {
     for (const l of LANGS) expect(Object.keys(table(l)).filter((k) => k.startsWith("cq_")), l).toEqual(Object.keys(table("en")).filter((k) => k.startsWith("cq_")));
     for (const l of LANGS) for (const k of keys) expect([...(table(l)[k] ?? "").matchAll(/\{\w+\}/g)].map((m) => m[0]).sort(), `${l}:${k}`).toEqual([...(table("en")[k] ?? "").matchAll(/\{\w+\}/g)].map((m) => m[0]).sort());
   });
-  it("is appended at the end of each language's file, after the keys of the ninth quest, and only the next quests' keys (`ah_`, then `rz_`, then `kr_`) and the journey's (`jn_`), then al-Jazari's room's (`jr_`), then al-Tusi's room's (`tsr_`), then al-Khwarizmi's room's (`akr_`), then al-Kindi's room's (`kdr_`), then al-Idrisi's hall's (`isr_`), then al-Razi's study's (`rzr_`), then Karima's room's (`krr_`), then Ibn Battuta's inn's (`ibr_`) come after it", () => {
+  it("is appended at the end of each language's file, after the keys of the ninth quest, and only the next quests' keys (`ah_`, then `rz_`, then `kr_`) and the journey's (`jn_`), then al-Jazari's room's (`jr_`), then al-Tusi's room's (`tsr_`), then al-Khwarizmi's room's (`akr_`), then al-Kindi's room's (`kdr_`), then al-Idrisi's hall's (`isr_`), then al-Razi's study's (`rzr_`), then Karima's room's (`krr_`), then Ibn Battuta's inn's (`ibr_`), then the coffee room's (`cqr_`) come after it", () => {
     for (const l of LANGS) {
       const ks = Object.keys(table(l));
       const first = ks.findIndex((k) => k.startsWith("cq_"));
       expect(first, l).toBeGreaterThan(0);
       expect(ks.slice(first, first + ks.filter((k) => k.startsWith("cq_")).length).every((k) => k.startsWith("cq_")), l).toBe(true);
-      expect(ks.slice(first + ks.filter((k) => k.startsWith("cq_")).length).every((k) => k.startsWith("ah_") || k.startsWith("rz_") || k.startsWith("kr_") || k.startsWith("jn_") || k.startsWith("jr_") || k.startsWith("tsr_") || k.startsWith("akr_") || k.startsWith("kdr_") || k.startsWith("isr_") || k.startsWith("rzr_") || k.startsWith("krr_") || k.startsWith("ibr_")), l).toBe(true);
+      expect(ks.slice(first + ks.filter((k) => k.startsWith("cq_")).length).every((k) => k.startsWith("ah_") || k.startsWith("rz_") || k.startsWith("kr_") || k.startsWith("jn_") || k.startsWith("jr_") || k.startsWith("tsr_") || k.startsWith("akr_") || k.startsWith("kdr_") || k.startsWith("isr_") || k.startsWith("rzr_") || k.startsWith("krr_") || k.startsWith("ibr_") || k.startsWith("cqr_")), l).toBe(true);
       expect(ks[first - 1]!.startsWith("ts_"), l).toBe(true);
     }
   });

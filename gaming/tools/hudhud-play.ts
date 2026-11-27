@@ -8,7 +8,8 @@
 // third room), "khwarizmi" (al-Khwarizmi's room and the locked box, the fourth room), "kindi" (al-Kindi's room and the
 // secret page, the fifth room), "idrisi" (al-Idrisi's hall and the scattered sheets, the sixth room), "razi" (al-Razi's
 // study and the loose leaves, the seventh room), "karima" (Karima al-Marwaziyya's room and the copies, the eighth room)
-// or "battuta" (Ibn Battuta's inn and the thread of the road, the ninth room).
+// "battuta" (Ibn Battuta's inn and the thread of the road, the ninth room) or "coffee" (the coffee room and the cards on
+// three shelves, the tenth room).
 // It measures the machine it runs on. A pass here is not a pass on the museum's two reference machines.
 import { mkdirSync, writeFileSync } from "node:fs";
 import { resolve } from "node:path";
@@ -20,7 +21,7 @@ import { slipsOf } from "../games/hudhud/src/sim/collate";
 
 const [outArg, lang = "en", quality = "medium", w = "1920", h = "1080", style = "explorer", scene = "workshop"] = process.argv.slice(2);
 if (!outArg) throw new Error("usage: hudhud-play.ts <out dir> [lang] [quality] [width] [height] [style] [scene]");
-if (scene !== "workshop" && scene !== "jazari" && scene !== "tusi" && scene !== "khwarizmi" && scene !== "kindi" && scene !== "idrisi" && scene !== "razi" && scene !== "karima" && scene !== "battuta") throw new Error(`hudhud-play.ts: no scene called ${scene} (workshop, jazari, tusi, khwarizmi, kindi, idrisi, razi, karima or battuta)`);
+if (scene !== "workshop" && scene !== "jazari" && scene !== "tusi" && scene !== "khwarizmi" && scene !== "kindi" && scene !== "idrisi" && scene !== "razi" && scene !== "karima" && scene !== "battuta" && scene !== "coffee") throw new Error(`hudhud-play.ts: no scene called ${scene} (workshop, jazari, tusi, khwarizmi, kindi, idrisi, razi, karima, battuta or coffee)`);
 const out = resolve(outArg);
 mkdirSync(out, { recursive: true });
 const tag = `${scene === "workshop" ? "" : `${scene}-`}${lang}-${quality}-${w}x${h}`;
@@ -93,6 +94,7 @@ try {
   else if (scene === "razi") await playRazi();
   else if (scene === "karima") await playKarima();
   else if (scene === "battuta") await playBattuta();
+  else if (scene === "coffee") await playCoffee();
   else await playWorkshop();
 } catch (e) {
   report.failed = String(e);
@@ -1270,6 +1272,138 @@ async function playBattuta(): Promise<void> {
   const reopen = async () => {
     await hk("h.toAtlas(); h.startBattuta();");
     await page.waitForFunction("window.__HH__.battuta() !== null && window.__HH__.where() !== null", undefined, { timeout: 30000 });
+  };
+  await reopen();
+  await page.waitForTimeout(800);
+  const first = await cycle();
+  for (let i = 0; i < 9; i++) {
+    await reopen();
+    await page.waitForTimeout(300);
+  }
+  await page.waitForTimeout(800);
+  report.lifecycle = { afterOneOpening: first, afterTenOpenings: await cycle(), canvases: await page.evaluate("document.querySelectorAll('canvas').length") };
+}
+/**
+ * The coffee room, played to its end by flight as a player would: the talks gone through with the keyboard, both
+ * questions, the kind answer and the feather in the box on top of the shelves, the bell rung too soon, a card carried to
+ * the wrong shelf and a wrong showing, frame times while the bird crosses the room and back, a lost graphics context, every
+ * card carried to its shelf by flight, the bell, the lit door walked to, and what opening the room ten times leaves behind.
+ */
+async function playCoffee(): Promise<void> {
+  type Cq = { moves: number; shows: number; flags: string[]; done: boolean; talk: unknown; doorLit: boolean; carrying: string | null; items: string[]; answer: Record<string, string>; placed: Record<string, string | null> };
+  const cq = () => hk<Cq>("return h.coffeeRoom();");
+  const noteCq = async (step: string) => {
+    const s = await cq();
+    route.push({ step, at: Date.now() - t0, where: await hk("return h.where();"), turns: s.moves, flags: s.flags, restored: s.done, dark: false, done: s.doorLit });
+  };
+  const roomTalk = async (pick: string[] = []) => {
+    const picks = [...pick];
+    for (let i = 0; i < 20 && (await cq()).talk !== null; i++) {
+      await page.waitForTimeout(350);
+      const choices = page.locator(".room-box .talk .choices button");
+      if ((await choices.count()) > 0) {
+        const want = picks.shift();
+        await (want ? choices.filter({ hasText: want }).first() : choices.last()).click();
+      } else await page.keyboard.press("Enter");
+    }
+    await page.waitForTimeout(250);
+  };
+  const fly = async (id: string, until: string) => {
+    await hk(`h.goTo(${JSON.stringify(id)});`);
+    await page.waitForFunction(`(() => { const h = window.__HH__; return ${until}; })()`, undefined, { timeout: 8000 });
+    await page.waitForTimeout(200);
+  };
+  const carry = async (item: string, group: string) => {
+    await fly(`card-${item}`, `h.coffeeRoom().carrying === ${JSON.stringify(item)}`);
+    await fly(`group-${group}`, `h.coffeeRoom().carrying === null && h.coffeeRoom().placed[${JSON.stringify(item)}] === ${JSON.stringify(group)}`);
+  };
+  const tStart = Date.now();
+  await page.locator(".hub button[data-quest='w07q3-coffee']").click();
+  await page.waitForFunction("window.__HH__.coffeeRoom() !== null && window.__HH__.where() !== null", undefined, { timeout: 30000 });
+  report.msFromPlayToScene = Date.now() - tStart;
+  await page.waitForTimeout(900);
+  await shot("intro-talk");
+  await noteCq("room open");
+  await roomTalk();
+
+  await fly("keeper", "h.coffeeRoom().talk !== null");
+  await shot("keeper-talk");
+  await roomTalk(["Ask who brought coffee", "Ask about the tree and the name"]);
+  await noteCq("asked the keeper both questions");
+  await fly("child", "h.coffeeRoom().talk !== null");
+  await roomTalk(["It is all right."]);
+  await noteCq("answered the child kindly");
+  await fly("box", "h.coffeeRoom().flags.includes('feather')");
+  await shot("feather-in-the-box");
+  await roomTalk();
+  await noteCq("found the feather");
+
+  // The bell rung with every card on the table (refused, not counted), then a card carried to the wrong shelf.
+  await fly("bell", "h.coffeeRoom().moves === 0 && /Put every card on a shelf first/.test(h.coffeeRoom().status)");
+  await noteCq("the bell rung too soon: refused");
+  const items = (await cq()).items;
+  const answer = (await cq()).answer;
+  const odd = items.find((i) => answer[i] === "tradition")!;
+  await fly(`card-${odd}`, `h.coffeeRoom().carrying === ${JSON.stringify(odd)}`);
+  await shot("carrying-a-card");
+  await fly("group-stated", `h.coffeeRoom().placed[${JSON.stringify(odd)}] === "stated"`);
+  for (const i of items) if (i !== odd) await carry(i, answer[i]!);
+  await fly("bell", "h.coffeeRoom().shows === 1");
+  await shot("wrong-showing");
+  await noteCq("a wrong showing, counted");
+
+  // Frame times while the bird crosses the whole room and back, with everything running.
+  await hk("h.resetFrames();");
+  await page.locator(".room-box .stage").focus();
+  for (const key of ["ArrowLeft", "ArrowRight"]) {
+    await page.keyboard.down(key);
+    for (let i = 0; i < 14; i++) {
+      await page.keyboard.down("Space");
+      await page.waitForTimeout(120);
+      await page.keyboard.up("Space");
+      await page.waitForTimeout(380);
+    }
+    await page.keyboard.up(key);
+  }
+  const heap = () => page.evaluate("performance.memory ? performance.memory.usedJSHeapSize : null") as Promise<number | null>;
+  report.benchmark = { route: "the whole width and back, hopping and flapping, 14 seconds", info: await hk("return h.info();"), heapBytes: await heap() };
+
+  // A lost graphics context, with the cards on the shelves: what the player sees, and whether the room comes back.
+  report.contextLoss = await page.evaluate(`(async () => {
+    const canvas = document.querySelector('.room-box .stage canvas');
+    const gl = canvas.getContext('webgl2') || canvas.getContext('webgl');
+    const ext = gl && gl.getExtension('WEBGL_lose_context');
+    if (!ext) return { tried: false };
+    ext.loseContext();
+    await new Promise((r) => setTimeout(r, 600));
+    const toast = document.querySelector('.toast') ? document.querySelector('.toast').textContent : null;
+    ext.restoreContext();
+    await new Promise((r) => setTimeout(r, 2500));
+    return { tried: true, toast, sceneBack: window.__HH__.where() !== null, moves: window.__HH__.coffeeRoom().moves, shows: window.__HH__.coffeeRoom().shows };
+  })()`);
+
+  // The odd card carried to its own shelf, and the bell.
+  await carry(odd, "tradition");
+  await shot("cards-on-the-shelves");
+  await fly("bell", "h.coffeeRoom().doorLit");
+  await page.waitForTimeout(600);
+  await shot("cards-sorted");
+  await roomTalk();
+  await noteCq("the cards are sorted");
+  report.puzzle = { moves: (await cq()).moves, shows: (await cq()).shows };
+  report.goals = await page.evaluate("JSON.parse(localStorage.getItem('im.hudhud.save.v1') || 'null')?.slots?.[0]?.quests?.['w07q3-coffee'] ?? null");
+  await shot("results");
+  await page.locator(".room-box .stage").focus();
+  await page.keyboard.down("ArrowRight");
+  await page.waitForFunction("!document.querySelector('.hub').hidden", undefined, { timeout: 25000 }).finally(() => page.keyboard.up("ArrowRight"));
+  report.door = await hk("return h.lastDoor();");
+  report.save = await page.evaluate("JSON.parse(localStorage.getItem('im.hudhud.save.v1') || 'null')");
+
+  // Opening the room again and again: what it holds must not grow.
+  const cycle = async () => ({ ...(await hk<Record<string, unknown>>("const i = h.info(); return { textures: i.textures, textureBytes: i.textureBytes, objects: i.objects, tweens: i.tweens };")), heapBytes: await heap() });
+  const reopen = async () => {
+    await hk("h.toAtlas(); h.startCoffeeRoom();");
+    await page.waitForFunction("window.__HH__.coffeeRoom() !== null && window.__HH__.where() !== null", undefined, { timeout: 30000 });
   };
   await reopen();
   await page.waitForTimeout(800);

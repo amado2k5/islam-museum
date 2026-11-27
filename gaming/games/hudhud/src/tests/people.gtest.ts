@@ -16,6 +16,7 @@ import { ISR_START, ISR_WORLD } from "../content/idrisi-room";
 import { RZR_START, RZR_WORLD } from "../content/razi-room";
 import { KRR_START, KRR_WORLD } from "../content/karima-room";
 import { IBR_START, IBR_WORLD } from "../content/battuta-room";
+import { CQR_START, CQR_WORLD } from "../content/coffee-room";
 import { FOLLOW, followStep, settleIntent, type Standing } from "../sim/follow";
 
 const source = (rel: string) => readFileSync(resolve(__dirname, "..", rel), "utf8");
@@ -31,6 +32,7 @@ const ROOMS: { room: string; scene: string; floor: number; hudhud: number; keepe
   { room: "al-Razi's study", scene: "scenes/razi.ts", floor: RZR_WORLD.floor, hudhud: RZR_START.hudhud, keeper: RZR_START.keeper, figure: { name: "razi", x: RZR_START.razi }, helper: { name: "child", x: RZR_START.child } },
   { room: "Karima al-Marwaziyya's room", scene: "scenes/karima.ts", floor: KRR_WORLD.floor, hudhud: KRR_START.hudhud, keeper: KRR_START.keeper, figure: { name: "karima", x: KRR_START.karima }, helper: { name: "boy", x: KRR_START.boy } },
   { room: "Ibn Battuta's inn", scene: "scenes/battuta.ts", floor: IBR_WORLD.floor, hudhud: IBR_START.hudhud, keeper: IBR_START.keeper, figure: { name: "ibn", x: IBR_START.ibn }, helper: { name: "child", x: IBR_START.child } },
+  { room: "the coffee room", scene: "scenes/coffee.ts", floor: CQR_WORLD.floor, hudhud: CQR_START.hudhud, keeper: CQR_START.keeper, figure: { name: "archivist", x: CQR_START.archivist }, helper: { name: "child", x: CQR_START.child } },
 ];
 /** Every room is as wide as the workshop. */
 const WIDTH = WORLD.width;
@@ -76,7 +78,9 @@ describe("the people of a room, as boxes", () => {
       same(SCHOLAR, cast.karima(1) as unknown as Record<string, { w: number; h: number }>, "Karima");
       // Ibn Battuta is the scholar's cut-out dressed for the road, with a staff drawn inside the body's own sheet.
       same(SCHOLAR, cast.battuta(1) as unknown as Record<string, { w: number; h: number }>, "Ibn Battuta");
-      for (const [who, art] of [["apprentice", cast.apprentice(1)], ["cleaner", cast.cleaner(1)], ["box carrier", cast.boxCarrier(1)], ["messenger", cast.messenger(1)], ["map helper", cast.mapHelper(1)], ["leaf child", cast.leafChild(1)], ["copy boy", cast.copyBoy(1)], ["camel child", cast.camelChild(1)]] as const) same(HELPER, art as unknown as Record<string, { w: number; h: number }>, who);
+      // The keeper of the records in the coffee room is the scholar's cut-out in colours of its own.
+      same(SCHOLAR, cast.archivist(1) as unknown as Record<string, { w: number; h: number }>, "the keeper of the records");
+      for (const [who, art] of [["apprentice", cast.apprentice(1)], ["cleaner", cast.cleaner(1)], ["box carrier", cast.boxCarrier(1)], ["messenger", cast.messenger(1)], ["map helper", cast.mapHelper(1)], ["leaf child", cast.leafChild(1)], ["copy boy", cast.copyBoy(1)], ["camel child", cast.camelChild(1)], ["card child", cast.cardChild(1)]] as const) same(HELPER, art as unknown as Record<string, { w: number; h: number }>, who);
     } finally {
       g.document = had;
     }
