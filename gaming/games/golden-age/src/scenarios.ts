@@ -147,7 +147,10 @@ export const WHAT_ENDURES: Scenario = {
       [plotOf(4, 2), plotOf(4, 3)],
     ],
   },
-  goal: { households: 380, welfare: 64, knowledge: 520, steadySeasons: 4, endowments: 4 },
+  // 740 learned, not 520: at 520 a trading city won every campaign with learning to spare. In the lab (200 seeds, 27
+  // November 2026) 740 left the merchant at 47%, the scholar 74, the balanced player 40 and the irrigator 19; the idle
+  // and random cities none. No way of playing is now certain.
+  goal: { households: 380, welfare: 64, knowledge: 740, steadySeasons: 4, endowments: 4 },
 };
 
 /** The campaign, in order. A chapter starts from its own authored district, not from the player's last one. */

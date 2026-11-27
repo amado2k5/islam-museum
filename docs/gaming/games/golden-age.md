@@ -54,6 +54,17 @@ Address: `/games/golden-age/index.html?lang=ar` on the gaming dev server.
 
 ### Chapter 3, "What Endures"
 
+**27 November 2026: the sure win is gone.** The chapter's learning goal is now 740, not 520. The trading city had been clearing 520 with learning to spare (746 on average), while the scholar's learning (828) was what the chapter is about. Two other levers were tried in the lab first and rejected: a running cost per household (one coin per 7, 9 or 12 households a season) took the other three strategies to 0–1% and left the merchant at 99–100%, as the earlier levy had. Over 200 seeds the learning goal then gave:
+
+| Learning goal | irrigator | merchant | scholar | balanced | idle, random |
+|---|---:|---:|---:|---:|---:|
+| 520 (before) | 35% | 100% | 74% | 40% | 0% |
+| 680 | 29% | 100% | 74% | 40% | 0% |
+| **740 (now)** | **19%** | **47%** | **74%** | **40%** | **0%** |
+| 780 | 15% | 4% | 73% | 40% | 0% |
+
+The root the paragraph below names, income that grows with households while no cost does, is still there; this change stops it deciding the chapter. The tables below are from before the change.
+
 `npx tsx gaming/tools/simlab.ts 1000 what-endures`, 25 November 2026 (`../evidence/m2/golden-age/simlab-what-endures-1000.md`):
 
 | Player | Won | Mean score | Households | Welfare | Learned | Treasury |

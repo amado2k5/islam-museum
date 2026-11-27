@@ -62,7 +62,8 @@ describe("What Endures, as the outside reviewer played it (GA-07)", () => {
       expect(r.violations, `seed ${seed}`).toEqual([]);
       if (r.outcome === "won") won++;
     }
-    // Today it wins all forty, which is the open finding; what is held here is only that trading well can win.
-    expect(won).toBeGreaterThan(20);
+    // Trading well can win, and since the learning goal was raised it no longer wins every time.
+    expect(won).toBeGreaterThan(8);
+    expect(won).toBeLessThan(40);
   });
 });
