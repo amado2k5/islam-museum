@@ -499,10 +499,37 @@ export function boxCarrier(scale: number): KeeperArt {
   return { ...art, body };
 }
 
+/**
+ * The young messenger in al-Kindi's room, an invented person (the secret page's quest's own): the same cut-out as the
+ * explorer, in one fixed look of the messenger's own (a boy in a green tunic), with a leather strap across the chest
+ * and a small pouch at the hip for carrying pages.
+ */
+export function messenger(scale: number): KeeperArt {
+  const art = keeper(scale, { kind: 0, skin: 2, outfit: 2, hair: 0 });
+  const [body, b] = sheet(art.body.w, art.body.h, scale);
+  b.drawImage(art.body.canvas, 0, 0, art.body.w, art.body.h);
+  blob(b, [
+    [70, 6],
+    [80, 10],
+    [28, 96],
+    [18, 92],
+  ]);
+  fillStroke(b, "#7a4a26", INK, 2);
+  blob(b, [
+    [10, 86],
+    [36, 86],
+    [38, 110],
+    [12, 110],
+  ]);
+  fillStroke(b, "#9a6232", INK, 2);
+  return { ...art, body };
+}
+
 // ---------------------------------------------------------------------------------------------- the scholar
 /** The colours a scholar's figure is drawn in. The default is Ibn al-Haytham's, as the workshop has always drawn him;
  * al-Jazari's figure is the same cut-out in other colours, with an apron (art/jazari.ts's room), al-Tusi's in night
- * colours (art/tusi.ts's room), and al-Khwarizmi's in day colours (art/khwarizmi.ts's room). None is a likeness. */
+ * colours (art/tusi.ts's room), al-Khwarizmi's in day colours (art/khwarizmi.ts's room), and al-Kindi's in lamplit
+ * colours (art/kindi.ts's room). None is a likeness. */
 export interface ScholarLook {
   skin: string;
   beard: [string, string];
@@ -577,6 +604,22 @@ export const KHWARIZMI_LOOK: ScholarLook = {
   dots: PAL.terracotta,
   shawl: "#a8743a",
   seed: "khwarizmi",
+};
+/** Al-Kindi's figure in his room (art/kindi.ts's room): the same cut-out again, in lamplit colours, indigo and saffron.
+ * Not a likeness. */
+export const KINDI_LOOK: ScholarLook = {
+  skin: "#c8946a",
+  beard: ["#3a2c24", "#6a5a4c"],
+  moustache: "#3a2c24",
+  brow: "#2e2420",
+  turban: ["#f0e4c8", "#cdbb94"],
+  turbanBands: "rgba(232,137,43,0.6)",
+  robe: ["#3d3a7a", "#262454"],
+  gown: "#f3e6c8",
+  border: PAL.gold,
+  dots: PAL.amber,
+  shawl: "#c27a2a",
+  seed: "kindi",
 };
 export interface ScholarArt {
   body: Painted;

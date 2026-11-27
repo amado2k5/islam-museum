@@ -5,7 +5,8 @@
 // Usage: npx tsx --tsconfig tsconfig.json tools/hudhud-play.ts <out dir> [lang] [quality] [width] [height] [style] [scene]
 // The scene is "workshop" (the default: Ibn al-Haytham's workshop), "jazari" (al-Jazari's workshop and the elephant
 // clock, the second room on the room engine, 27 November 2026), "tusi" (al-Tusi's observatory and the two circles, the
-// third room) or "khwarizmi" (al-Khwarizmi's room and the locked box, the fourth room).
+// third room), "khwarizmi" (al-Khwarizmi's room and the locked box, the fourth room) or "kindi" (al-Kindi's room and the
+// secret page, the fifth room).
 // It measures the machine it runs on. A pass here is not a pass on the museum's two reference machines.
 import { mkdirSync, writeFileSync } from "node:fs";
 import { resolve } from "node:path";
@@ -16,7 +17,7 @@ import { serveWorkspace } from "./serve";
 
 const [outArg, lang = "en", quality = "medium", w = "1920", h = "1080", style = "explorer", scene = "workshop"] = process.argv.slice(2);
 if (!outArg) throw new Error("usage: hudhud-play.ts <out dir> [lang] [quality] [width] [height] [style] [scene]");
-if (scene !== "workshop" && scene !== "jazari" && scene !== "tusi" && scene !== "khwarizmi") throw new Error(`hudhud-play.ts: no scene called ${scene} (workshop, jazari, tusi or khwarizmi)`);
+if (scene !== "workshop" && scene !== "jazari" && scene !== "tusi" && scene !== "khwarizmi" && scene !== "kindi") throw new Error(`hudhud-play.ts: no scene called ${scene} (workshop, jazari, tusi, khwarizmi or kindi)`);
 const out = resolve(outArg);
 mkdirSync(out, { recursive: true });
 const tag = `${scene === "workshop" ? "" : `${scene}-`}${lang}-${quality}-${w}x${h}`;
@@ -84,6 +85,7 @@ try {
   if (scene === "jazari") await playJazari();
   else if (scene === "tusi") await playTusi();
   else if (scene === "khwarizmi") await playKhwarizmi();
+  else if (scene === "kindi") await playKindi();
   else await playWorkshop();
 } catch (e) {
   report.failed = String(e);
@@ -588,6 +590,139 @@ async function playKhwarizmi(): Promise<void> {
   const reopen = async () => {
     await hk("h.toAtlas(); h.startKhwarizmi();");
     await page.waitForFunction("window.__HH__.khwarizmi() !== null && window.__HH__.where() !== null", undefined, { timeout: 30000 });
+  };
+  await reopen();
+  await page.waitForTimeout(800);
+  const first = await cycle();
+  for (let i = 0; i < 9; i++) {
+    await reopen();
+    await page.waitForTimeout(300);
+  }
+  await page.waitForTimeout(800);
+  report.lifecycle = { afterOneOpening: first, afterTenOpenings: await cycle(), canvases: await page.evaluate("document.querySelectorAll('canvas').length") };
+}
+/**
+ * Al-Kindi's room, played to its end by flight as a player would: the talks gone through with the keyboard, both
+ * questions, the kind answer and the feather under the torn page, the bell rung too soon, frame times while the bird
+ * crosses the room and back, a lost graphics context, one wrong reading, every mark given its sign by carrying, the page
+ * read, the lit door walked to, and what opening the room ten times leaves behind.
+ */
+async function playKindi(): Promise<void> {
+  type Kd = { guess: Record<string, string>; reads: number; fails: number; flags: string[]; done: boolean; talk: unknown; doorLit: boolean; carrying: string | null; puzzle: { key: Record<string, string>; message: string[] } };
+  const kd = () => hk<Kd>("return h.kindi();");
+  const noteKd = async (step: string) => {
+    const s = await kd();
+    route.push({ step, at: Date.now() - t0, where: await hk("return h.where();"), turns: s.reads, flags: s.flags, restored: s.done, dark: false, done: s.doorLit });
+  };
+  const roomTalk = async (pick: string[] = []) => {
+    const picks = [...pick];
+    for (let i = 0; i < 20 && (await kd()).talk !== null; i++) {
+      await page.waitForTimeout(350);
+      const choices = page.locator(".room-box .talk .choices button");
+      if ((await choices.count()) > 0) {
+        const want = picks.shift();
+        await (want ? choices.filter({ hasText: want }).first() : choices.last()).click();
+      } else await page.keyboard.press("Enter");
+    }
+    await page.waitForTimeout(250);
+  };
+  const fly = async (id: string, until: string) => {
+    await hk(`h.goTo(${JSON.stringify(id)});`);
+    await page.waitForFunction(`(() => { const h = window.__HH__; return ${until}; })()`, undefined, { timeout: 8000 });
+    await page.waitForTimeout(200);
+  };
+  const carry = async (sign: string, mark: string) => {
+    await fly(`token-${sign}`, `h.kindi().carrying === ${JSON.stringify(sign)}`);
+    await fly(`slot-${mark}`, `h.kindi().carrying === null && h.kindi().guess[${JSON.stringify(mark)}] === ${JSON.stringify(sign)}`);
+  };
+  const tStart = Date.now();
+  await page.locator(".hub button[data-quest='w02q3-al-kindi']").click();
+  await page.waitForFunction("window.__HH__.kindi() !== null && window.__HH__.where() !== null", undefined, { timeout: 30000 });
+  report.msFromPlayToScene = Date.now() - tStart;
+  await page.waitForTimeout(900);
+  await shot("intro-talk");
+  await noteKd("room open");
+  await roomTalk();
+
+  await fly("kindi", "h.kindi().talk !== null");
+  await shot("kindi-talk");
+  await roomTalk(["Ask how to begin", "Ask about short messages"]);
+  await noteKd("asked al-Kindi both questions");
+  await fly("messenger", "h.kindi().talk !== null");
+  await roomTalk(["It is all right"]);
+  await noteKd("answered the messenger kindly");
+  await fly("page", "h.kindi().flags.includes('feather')");
+  await shot("feather-under-the-page");
+  await roomTalk();
+  await noteKd("found the feather");
+
+  // The bell rung too soon: a reading refused, not counted.
+  await fly("bell", "h.kindi().last !== null");
+  await noteKd("the bell rung with marks still empty");
+
+  // Frame times while the bird crosses the whole room and back, with everything running.
+  await hk("h.resetFrames();");
+  await page.locator(".room-box .stage").focus();
+  for (const key of ["ArrowRight", "ArrowLeft"]) {
+    await page.keyboard.down(key);
+    for (let i = 0; i < 14; i++) {
+      await page.keyboard.down("Space");
+      await page.waitForTimeout(120);
+      await page.keyboard.up("Space");
+      await page.waitForTimeout(380);
+    }
+    await page.keyboard.up(key);
+  }
+  const heap = () => page.evaluate("performance.memory ? performance.memory.usedJSHeapSize : null") as Promise<number | null>;
+  report.benchmark = { route: "the whole width and back, hopping and flapping, 14 seconds", info: await hk("return h.info();"), heapBytes: await heap() };
+
+  // A lost graphics context, before the page reads: what the player sees, and whether the room comes back.
+  report.contextLoss = await page.evaluate(`(async () => {
+    const canvas = document.querySelector('.room-box .stage canvas');
+    const gl = canvas.getContext('webgl2') || canvas.getContext('webgl');
+    const ext = gl && gl.getExtension('WEBGL_lose_context');
+    if (!ext) return { tried: false };
+    ext.loseContext();
+    await new Promise((r) => setTimeout(r, 600));
+    const toast = document.querySelector('.toast') ? document.querySelector('.toast').textContent : null;
+    ext.restoreContext();
+    await new Promise((r) => setTimeout(r, 2500));
+    return { tried: true, toast, sceneBack: window.__HH__.where() !== null, reads: window.__HH__.kindi().reads, guess: window.__HH__.kindi().guess };
+  })()`);
+
+  // Every mark given its sign by carrying, by the ranking of the two count boards first (the commonest mark the commonest
+  // sign), then the bell: in Explorer the sun and the feather are tied, so ranking alone gives a wrong reading. Then the
+  // two marks of the tie exchanged, as the opening says, and the bell again.
+  const s0 = await kd();
+  const marks = await page.evaluate("[...document.querySelectorAll('.room-box .room-words li button')].map((b) => b.dataset.thing).filter((id) => id && id.startsWith('slot-')).map((id) => id.slice(5))") as string[];
+  const signs = await page.evaluate("[...document.querySelectorAll('.room-box table.counts')[0].querySelectorAll('tbody tr')].map((r) => r.children[1].textContent)") as string[];
+  const signIds: Record<string, string> = { "the sun": "sun", "the moon": "moon", "the star": "star", "the wave": "wave", "the leaf": "leaf", "the key": "key", "the feather": "feather", "the lamp": "lamp" };
+  for (const [i, m] of marks.entries()) await carry(signIds[signs[i]!] ?? s0.puzzle.key[m]!, m);
+  await shot("ranked");
+  await fly("bell", "h.kindi().reads === 1");
+  await shot("wrong-reading");
+  await noteKd("a reading by ranking alone");
+  for (const m of marks) if ((await kd()).guess[m] !== s0.puzzle.key[m]) await carry(s0.puzzle.key[m]!, m);
+  await fly("bell", "h.kindi().done");
+  await page.waitForFunction("window.__HH__.kindi().doorLit", undefined, { timeout: 15000 });
+  await page.waitForTimeout(600);
+  await shot("page-reads");
+  await roomTalk();
+  await noteKd("the page reads");
+  report.puzzle = { reads: (await kd()).reads, fails: (await kd()).fails };
+  report.goals = await page.evaluate("JSON.parse(localStorage.getItem('im.hudhud.save.v1') || 'null')?.slots?.[0]?.quests?.['w02q3-al-kindi'] ?? null");
+  await shot("results");
+  await page.locator(".room-box .stage").focus();
+  await page.keyboard.down("ArrowRight");
+  await page.waitForFunction("!document.querySelector('.hub').hidden", undefined, { timeout: 25000 }).finally(() => page.keyboard.up("ArrowRight"));
+  report.door = await hk("return h.lastDoor();");
+  report.save = await page.evaluate("JSON.parse(localStorage.getItem('im.hudhud.save.v1') || 'null')");
+
+  // Opening the room again and again: what it holds must not grow.
+  const cycle = async () => ({ ...(await hk<Record<string, unknown>>("const i = h.info(); return { textures: i.textures, textureBytes: i.textureBytes, objects: i.objects, tweens: i.tweens };")), heapBytes: await heap() });
+  const reopen = async () => {
+    await hk("h.toAtlas(); h.startKindi();");
+    await page.waitForFunction("window.__HH__.kindi() !== null && window.__HH__.where() !== null", undefined, { timeout: 30000 });
   };
   await reopen();
   await page.waitForTimeout(800);

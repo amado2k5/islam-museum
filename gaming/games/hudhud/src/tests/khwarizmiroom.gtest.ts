@@ -244,9 +244,16 @@ describe("al-Khwarizmi's room: the trays as drawn", () => {
 describe("al-Khwarizmi's room: its strings", () => {
   const tables = Object.fromEntries(LANGS.map((l) => [l, table(l)]));
   const keys = Object.keys(tables.en!).filter((k) => k.startsWith("akr_"));
-  it("are twenty, at the end of every table, in the same order", () => {
+  // They were the last twenty of every table until al-Kindi's room (27 November 2026) appended its own after them; they
+  // are still one block, in the same order, in every table, and only that room's keys come after them.
+  it("are twenty, one block in every table, in the same order, with only al-Kindi's room's keys after them", () => {
     expect(keys).toHaveLength(20);
-    for (const l of LANGS) expect(Object.keys(tables[l]!).slice(-keys.length), l).toEqual(keys);
+    for (const l of LANGS) {
+      const all = Object.keys(tables[l]!);
+      const at = all.indexOf(keys[0]!);
+      expect(all.slice(at, at + keys.length), l).toEqual(keys);
+      expect(all.slice(at + keys.length).every((k) => k.startsWith("kdr_")), l).toBe(true);
+    }
   });
   it("say that the room, the trays, the weights, the scoop and the box are invented, in the founder's words in Arabic and English", () => {
     expect(tables.ar!.akr_note_room).toBe("الغرفة والصينيتان على الطاولة والأثقال والمغرفة والصندوق المقفل من خيال اللعب، وليست صورة لمكان عمل الخوارزمي.");

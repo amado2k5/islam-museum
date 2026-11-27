@@ -178,6 +178,36 @@ Drawn in code in the same kit, palette and brushed surface as the other rooms (`
 
 (Texture memory is the decoded bytes `info()` counts: 47,529,904, 19,776,420, 19,165,644 and 19,196,856.) The trays' boxes and coins are images drawn from four small textures, so the room adds no graphics object and stays at 8 draw calls; its single slowest frame, 16.3 ms, was under the 16.7 ms of a 60 Hz frame. Opening the room ten times left the same 41 textures, 19,196,856 bytes and 41 objects. A lost graphics context in the room is told to the player and the room is drawn again with the quest as it stood (one slip counted, the same sentence). Play to scene: 266 ms. Run again after the merge of `main` (the same day, the workshop and this room only): the room 41 textures, 19,196,856 bytes, 41 objects, 8 draw calls, frames 8.33 / 9.2 / 9.4 / 12.6 ms, 0 of 1,700 over 16.7 ms; the workshop 8.33 / 9.0 / 9.3 / 11.1 ms, 0 of 1,704.
 
+## The fifth room: al-Kindi's room (27 November 2026)
+
+Drawn in code in the same kit, palette and brushed surface as the other rooms (`art/kindi.ts`, 493 lines, which draws the quest's own signs and marks with `art/cipher.ts`; the figures in `art/cast.ts`; the board's pieces placed by `scenes/kindi.ts`), and like them **trial art, a trial of the look and not final art**, built after the founder said on 27 November 2026 to continue all the remaining work. One long room of 2,400 by 720 game pixels with the same floor and the same door: a scholar's study by lamplight, deep teal walls warming to brown low down, the band of star tiles dimmed by the night, dark stone slabs; an arched window with a lattice on a night sky with stars and a thin crescent; a bookcase (coloured spines, no writing); a reading desk with a closed book and a small clay oil lamp whose glow breathes on the wall; two count boards on stands; and on the wall the large board in a dark wooden frame, with a parchment strip along its top, a brass cord the tiles hang from, a ledge along its foot (a perch), a long shelf of tokens on two brackets below it, and a bell on a low stand beside it. **No letter of any script, no writing and no numeral is drawn anywhere in the room**; a unit test runs every painter of `art/kindi.ts` against a recording canvas and finds no call to `fillText` or `strokeText`.
+
+| Figure or thing | Parts | Moves the code makes |
+|---|---|---|
+| **Al-Kindi** (about 335) | the scholar's cut-out again (`scholar(scale, KINDI_LOOK)`): an indigo robe, a pale turban with saffron bands, a dark beard, gold borders; not a likeness, and his speaker label says "in imagined words" | turns to the bird; raises his arm when a sign is given and when he speaks; blinks |
+| **The young messenger** (about 175) | the explorer's cut-out in one fixed look of his own (`messenger(scale)`: a boy in a green tunic) with a leather strap across the chest and a pouch at the hip; the quest's invented person, «حامل الرسالة الصغير» in Arabic, and the label says so | looks at the bird; waves when speaking; a small hop when spoken to; blinks |
+| **The board's strip** | the message's marks in order, the quest's ink shapes (`markArt`), small, with a short red line under the first two (`openingLine`), as on the page's picture | when the page reads, each mark shows the sign it stands for |
+| **The tiles and places** | a plain parchment tile on a short cord for each mark the message uses (`tile`, the mark on it), and under each a place (`slotArt`): a dashed frame while empty, a solid lapis frame with the sign in it once given | the sign appears and changes with the quest's state; a burst of sparks when one is given |
+| **The tokens** | each sign of the page (`signArt`, the quest's own drawn signs) on a small wooden stand (`tokenBase`) | rises a little when picked up; hidden while in the beak; dimmed while a mark has it |
+| **The sign in the beak** | the same sign at half size by Hudhud's beak | follows the bird |
+| **The count boards** (150 by 236) | the page's two tables as bars of dots (`countBoard`): each row the sign or mark, then one dot for each time it occurs, the commonest first; a small whole page with a sun, or a folded message with a mark, at the head; mirrored on a right to left page | none |
+| **The bell** | a small brass bell on a strap (`bell`) | swings when rung |
+| **Props** | the torn page on the bookcase (`tornPage`: parchment with a ragged edge and four of the quest's ink marks), the feather | the feather peeks from under the page until found |
+
+**Script size** (measured 27 November 2026, UTC, from the file `build:release` wrote, compressed with Node's zlib): Hudhud's main script `app-BFbKDH7O.js` is 1,838,405 bytes (390,812 with Brotli at quality 11, 499,415 with gzip at level 9), its style 19,496 bytes (124 more, for the room's tables of counts); with al-Khwarizmi's room it was measured at 1,806,410 bytes (385,697 with Brotli), so the fifth room adds about 32 KB (about 5 KB with Brotli).
+
+**Measured beside the other four rooms** (`hudhud-play.ts`, Medium, 1920×1080, Explorer, the founder's Mac, Chrome 158, 27 November 2026, all five run one after another in the same session; frame times while the bird crosses the whole room and back for 14 seconds):
+
+| Room | Textures | Texture memory (decoded) | Largest | Objects | Draw calls a frame | Frame time: mean / p95 / p99 / max | Frames over 16.7 ms | JS heap |
+|---|---:|---:|---|---:|---:|---|---:|---:|
+| Ibn al-Haytham's workshop | 50 | 47.5 MB | interior, columns of at most 2045×1080 | 129 | 19 | 8.33 / 9.2 / 9.3 / 14.7 ms | 0 of 1,698 | 92 MB |
+| Al-Jazari's workshop | 42 | 19.8 MB | jazari-room, columns of at most 2045×1080 | 51 | 8 | 8.33 / 8.9 / 9.3 / 9.4 ms | 0 of 1,692 | 64 MB |
+| Al-Tusi's observatory | 39 | 19.2 MB | tusi-room, columns of at most 2045×1080 | 57 | 10 | 8.33 / 9.1 / 9.4 / 11.7 ms | 0 of 1,699 | 64 MB |
+| Al-Khwarizmi's room | 41 | 19.2 MB | khwarizmi-room, columns of at most 2045×1080 | 41 | 8 | 8.33 / 9.2 / 9.5 / 12.6 ms | 0 of 1,697 | 63 MB |
+| Al-Kindi's room | 54 | 20.3 MB | kindi-room, columns of at most 2045×1080 | 105 | 9 | 8.33 / 9.1 / 9.4 / 11.9 ms | 0 of 1,702 | 66 MB |
+
+(Texture memory is the decoded bytes `info()` counts: 47,529,904, 19,776,420, 19,165,644, 19,196,856 and 20,310,600.) Al-Kindi's room holds more objects than the others (the strip of up to thirty marks, a tile, a place and a sign for each mark, and a stand and a sign for each token are each an image) and a texture for each mark and sign, but they are small: it adds about 1.1 MB of textures to the other rooms' and one draw call. Opening the room ten times left the same 54 textures, 20,310,600 bytes and 105 objects. A lost graphics context in the room is told to the player and the room is drawn again with the quest as it stood. Play to scene: 305 ms.
+
 ## Measurements (one machine, not a reference machine)
 
 The founder's MacBook Pro (Apple M4 Max, 128 GB, macOS 27.2.1), Chrome 158, a 120 Hz display, device pixel ratio 1, window 1920×1080; `gaming/tools/hudhud-play.ts`, 26 November 2026. The reports are in [`../evidence/hudhud/golden-scene/`](../evidence/hudhud/golden-scene/). **Neither reference machine (M1 Air 8 GB; Windows 11, i5-1135G7, 8 GB) has run it. No 60-minute profile and no four-hour soak has been run.**
