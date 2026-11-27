@@ -113,6 +113,13 @@ export const THINGS: Thing[] = [
   { id: "feather", kind: "feather", x: 2205, y: 470, reach: 110, name: "thing_feather" },
 ];
 /** Whether a thing is in the room in this way of playing: every thing but a mirror the puzzle does not have. */
+/**
+ * The door at the garden's far end (the journey, content/journey.ts): on the floor near the right edge of the world,
+ * clear of the fountain (x 2130 to 2286) and the lantern (x 1945): drawn 110 pixels wide (art/corridor.ts), from x 2287
+ * to 2397. Closed until the quest is done, then lit; the bird reaches it by the same nearness test as a thing
+ * (sim/door.ts), from about x 2240 on the floor.
+ */
+export const DOOR = { x: 2342, y: WORLD.floor - 70, reach: 110 } as const;
 export const inPlay = (t: Thing, puzzle: LightPuzzle): boolean => t.kind !== "mirror" || puzzle.mirrors.some((m) => `mirror-${m.id}` === t.id);
 export const START_AT = { hudhud: { x: 250, y: WORLD.floor }, keeper: { x: 170, y: WORLD.floor }, scholar: { x: 560, y: WORLD.floor }, cat: { x: 1060, y: 568 } } as const;
 

@@ -264,7 +264,8 @@ describe("the page and the registry", () => {
   it("adds the quest through the registry of page quests: its subject, its trial line, what it keeps, how it is made, a button on the Atlas, and the test hook", () => {
     expect(app).toMatch(/\[LEAVES_QUEST\]: \{\s*subject: LEAVES_SUBJECT,\s*trial: "rz_trial",/);
     expect(app).toContain("restoreLeaves(snap, leavesPuzzle)");
-    expect(app).toContain("[LEAVES_SUBJECT]: LEAVES_QUEST");
+    // The table of built quests is content/journey.ts's since the journey (27 November 2026).
+    expect(readFileSync(here("content", "journey.ts"), "utf8")).toContain("[LEAVES_SUBJECT]: LEAVES_QUEST");
     expect(app).toContain("startLeaves: () => openPage(LEAVES_QUEST)");
     expect(app).toMatch(/leaves: \(\) => \{ const r = pageOf<LeavesQuest>\(LEAVES_QUEST\)/);
     expect(app).toContain("leavesCommand:");
@@ -422,14 +423,14 @@ describe("the words", () => {
       expect(new Set(LEAVES_STATES.map((s) => t[`rz_kind_${tail(s)}`])).size, l).toBe(LEAVES_STATES.length);
     }
   });
-  it("is appended at the end of each language's file, after the keys of the eleventh quest, and only the next quest's keys (`kr_`) come after it", () => {
+  it("is appended at the end of each language's file, after the keys of the eleventh quest, and only the next quest's keys (`kr_`) and the journey's (`jn_`) come after it", () => {
     for (const l of LANGS) {
       const ks = Object.keys(table(l));
       const first = ks.findIndex((k) => k.startsWith("rz_"));
       const count = ks.filter((k) => k.startsWith("rz_")).length;
       expect(first, l).toBeGreaterThan(0);
       expect(ks.slice(first, first + count).every((k) => k.startsWith("rz_")), l).toBe(true);
-      expect(ks.slice(first + count).every((k) => k.startsWith("kr_")), l).toBe(true);
+      expect(ks.slice(first + count).every((k) => k.startsWith("kr_") || k.startsWith("jn_")), l).toBe(true);
       expect(ks[first - 1]!.startsWith("ah_"), l).toBe(true);
     }
   });

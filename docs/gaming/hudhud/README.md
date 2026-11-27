@@ -19,6 +19,8 @@ _A 2D story game for the museum's gaming platform. Working title. **Prototype: o
 | 9 | Accessibility, child safety, languages, history, assets | [accessibility and the rest](accessibility.md), [the review ledger](../historical-review/ledger.md) | much is built; nothing is audited, read by a native speaker, reviewed by a historian or played by a child |
 | 10 | The golden scene, running, with captures and tests | `gaming/games/hudhud/`, [test plan](test-plan.md), [evidence](../evidence/hudhud/golden-scene/) | plays start to finish in Chrome in seven languages; 114 tests of its own when this table was written, 705 on 27 November 2026 (with Karima's copies; 666 with al-Razi's loose leaves; 633 with the Alhambra and the dry fountain) |
 
+**The journey (27 November 2026, asked for by the founder):** the Atlas now also plays the built quests one after another; each scene ends at a door that lights up when its mission is done, and walking Hudhud to it (or pressing "Go through the door") moves on. As built: [design](design.md#the-journey-and-the-door-as-built-27-november-2026); its access: [accessibility](accessibility.md); its checks and limits: [test plan](test-plan.md) (D41).
+
 Also: [**what remains before it is a whole game**](remaining.md); [the state of the game](../games/hudhud.md); [the player's explorers](explorers.md) (a girl or a boy, built; a roster by region and century, proposed); [the pause of the other games](pause-of-other-games.md).
 
 ## What the founder is asked to decide

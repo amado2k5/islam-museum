@@ -4,13 +4,18 @@
 // What is read from it is whether the counts come back to the same level round after round and load after load.
 // It is not the one-hour or four-hour run, and it measures the machine it runs on and no other.
 // Usage: npx tsx --tsconfig tsconfig.json tools/granada-palace-cycle.ts <out dir> [minutes=10] [set=c] [preset=medium]
+// The set is default, a, c, c1 or c2; `default` alone means no art flag, and Set A is passed explicitly as art=a.
 import { mkdirSync, writeFileSync } from "node:fs";
 import { resolve } from "node:path";
 import { chromium } from "playwright-core";
+import { palaceArtQuery, parsePalaceMeasurementSets } from "./granada-palace-target";
 import { serveWorkspace } from "./serve";
 
-const [outArg, minutesArg = "10", set = "c", preset = "medium"] = process.argv.slice(2);
+const [outArg, minutesArg = "10", setArgument = "c", preset = "medium"] = process.argv.slice(2);
 if (!outArg) throw new Error("usage: granada-palace-cycle.ts <out dir> [minutes] [set] [preset]");
+const parsedSets = parsePalaceMeasurementSets(setArgument);
+if (parsedSets.length !== 1) throw new Error("granada-palace-cycle.ts measures one set in a run");
+const set = parsedSets[0];
 const out = resolve(outArg);
 mkdirSync(out, { recursive: true });
 const POSES = ['{ "tx": 640, "ty": 30, "tz": 0, "yaw": 1.07, "pitch": 0.17, "distance": 330 }', '{ "tx": 760, "ty": 30, "tz": -150, "yaw": 1.5708, "pitch": 0.1222, "distance": 160 }', '{ "tx": 30, "ty": 6, "tz": 70, "yaw": 1.41, "pitch": 0.17, "distance": 980 }'];
@@ -22,7 +27,7 @@ page.on("pageerror", (e) => errors.push(String(e)));
 page.on("console", (m) => {
   if (m.type() === "error" && !m.text().includes("favicon")) errors.push(m.text());
 });
-const address = `${served.base}/games/granada/index.html?lang=en&fresh=1&seed=7&music=off&counters=1&q=${preset}${set === "a" ? "" : `&art=${set}`}`;
+const address = `${served.base}/games/granada/index.html?lang=en&fresh=1&seed=7&music=off&counters=1&q=${preset}${palaceArtQuery(set)}`;
 const load = async (again: boolean): Promise<void> => {
   if (again) await page.reload();
   else await page.goto(address);

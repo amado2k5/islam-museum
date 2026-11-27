@@ -1,8 +1,8 @@
 # The games' art, made from source
 
-_Begun 25 November 2026 for piece 1 of the corrective work ([`docs/gaming/traceability.md`](../../docs/gaming/traceability.md)), after the founder allowed Blender to be installed for it. **One asset exists: Granada's watermill. The valley loads it where the model is to be had; it is on no host yet.**_
+_Begun 25 November 2026 for piece 1 of the corrective work ([`docs/gaming/traceability.md`](../../docs/gaming/traceability.md)), after the founder allowed Blender to be installed for it. Granada's watermill, town kit, larger landmarks and the palace the game shows are now built here and served on the games' host. The palace remains under evaluation and historical review, not accepted art._
 
-The games' scenery was generated in the browser, at load, from boxes. This folder is the other way of making it: assets authored ahead of time by scripts run in Blender, with real mesh detail and mapped textures, exported as glTF for the game to load. "Authored" here means designed on purpose and built from source that anyone can run again; nothing is drawn by hand, nothing is downloaded, and no photograph is used.
+The games' scenery was generated in the browser, at load, from boxes. This folder is the other way of making it: assets authored ahead of time by scripts run in Blender, with real mesh detail and mapped textures, exported as glTF for the game to load. "Authored" here means designed on purpose and built from source that anyone can run again; nothing is drawn by hand and no outside model is downloaded. The photographed surface textures named below are public domain and recorded file by file.
 
 ## What is here
 
@@ -10,6 +10,10 @@ The games' scenery was generated in the browser, at load, from boxes. This folde
 |---|---|
 | `blender/common.py` | The kit: tiling texture sets painted by arithmetic (base colour, tangent-space normal, roughness); parts built of bevelled boxes, cylinders and prisms in real metres, each mapped in its own frame; cuts; the glTF export; a lit preview render |
 | `blender/granada_mill.py` | Granada, hero asset 1: the watermill |
+| `blender/granada_town.py`, `blender/granada_landmarks.py` | Granada's town kit and larger landmarks |
+| `blender/granada_palace_c.py`, `blender/author.py` | The palace written as a building of its own; under historical review, not accepted or final art |
+| `derive_palace.py` | Writes the game's lighter palace folder so it borrows the first set's textures instead of carrying copies |
+| `compare_gltf.py` | Compares two exports as meshes when their bytes are only ordered differently |
 | `manifest.py`, `manifest.json` | For each asset: its source scripts and every output file, with sizes and SHA-256 |
 
 ## Surfaces photographed by others
@@ -22,7 +26,7 @@ From 26 November 2026 the kit's plaster, roof tile, stone, timber and paving are
 
 ## A set of models that changes gets a new folder
 
-A file on the games' host is never replaced. So when the models of a game change, the whole set is written to a new folder (`granada/2/`), the game is pointed at it (`MODEL_SET` in `three-valley.ts`), and the older set stays where a release that is rolled back to expects it.
+A file on the games' host is ordinarily never replaced. So when the models of a game change, the whole set is written to a new folder (`granada/2/`), the game is pointed at it (`MODEL_SET` in `three-valley.ts`), and the older set stays where a release that is rolled back to expects it. The one exception is a corrected generation fault: the media workflow may replace only exact files named beforehand, after a check run, and reads them back byte for byte.
 
 ## Running it
 
@@ -53,8 +57,7 @@ Like the music: the models are served beside the releases, from `media/models/` 
 
 ## What it does not do yet
 
-- **Only one asset.** The valley loads it (`games/granada/src/view/models.ts`) and keeps its own code-made mill for when the model is not there. No model has been uploaded to a host, so UAT shows the code-made one.
-- No levels of detail, no collision shapes, no compressed GPU textures.
+- The game does not change levels of detail by itself. Lighter palace files exist for evaluation, but they are different files the page must be asked for; they are not an automatic LOD system. There are no collision shapes or compressed GPU textures.
 - No figures: nothing here can make a person or an animal that walks.
-- Whether a second run gives the same bytes on another machine or another Blender is not known; the manifest is there to find out.
-- No one but the author has looked at it.
+- A second run is **not** guaranteed to give the same bytes. On 27 November 2026 two full-palace runs wrote identical `.gltf` files but different `.bin` bytes while their meshes were exactly the same; a later generation also showed a small triangulation difference on one planar surface. Use `python3 art/compare_gltf.py <first.gltf> <second.gltf>` to tell ordering apart from a real mesh change; the manifest still records exact bytes.
+- No historian has reviewed the reconstruction; historical review remains pending.
