@@ -13,6 +13,10 @@ open a new block on top with the new version and today's date.
 
 ---
 
+## v2.32.0 — 2026-11-26
+### Added
+- **Four new daily games on games.islam.museum, all prototypes: Five Questions, Kalima, The Thread of Time and The Lantern.** Five Questions asks five questions a day about the museum's dated events, places and people; Kalima is a six-try word game on the museum's place names, with its own Arabic word list in Arabic letters and every letter marked by a sign as well as a colour; The Thread of Time asks for five events in the order they happened; The Lantern reveals a place's or person's name letter by letter. Every puzzle is the same for everyone on a given day and is built from museum records that carry sources; each answer links to its record. They are plain pages that work on phones, tablets and computers, by touch, keyboard or screen reader, right to left in Arabic and Urdu, with no account, no advertising and nothing kept beyond this browser. The Urdu, French, Spanish, Turkish and Indonesian text is machine work no native speaker has read. The site's Games page lists them in all seven languages from the next site deploy.
+
 ## v2.31.0 — 2026-11-24
 - **Granada's production host was checked in French, Spanish, Turkish, Indonesian and Urdu (workshop evidence; no game change).** The reports are kept with the release evidence; anything they found is reported there rather than fixed in the same change.
 - **The games' model-carrying workflow can now replace a corrected model only when that exact file is named beforehand (workshop safety; nothing a player reads).** Its ordinary rule still refuses to overwrite a file that differs, and the replacement is read back and checked byte for byte.

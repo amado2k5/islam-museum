@@ -170,6 +170,31 @@ for (const game of manifest.games.filter((g) => g.page)) {
         }
         started3d = "not a 3D game";
       }
+    } else if (["five-questions", "kalima", "thread", "lantern"].includes(game.id)) {
+      // The small daily games: plain pages with no canvas. The page comes up with the day's puzzle, shows the prototype
+      // label, and one move of play reaches the game and comes back.
+      for (const end = Date.now() + 30_000; !(await page.evaluate("Boolean(window.__DAILY__)")); ) {
+        if (Date.now() > end) throw new Error(`${game.id} did not start in 30 seconds`);
+        await page.waitForTimeout(150);
+      }
+      const hook = (await page.evaluate("window.__DAILY__")) as { error?: string; records?: string[] };
+      if (hook.error) errors.push(`the game did not start: ${hook.error}`);
+      else {
+        if (!(hook.records && hook.records.length > 0)) errors.push("the day's puzzle names no museum record");
+        if (!(await page.locator("h1 .chip.proto").isVisible())) errors.push("the prototype label is not shown");
+        if (game.id === "five-questions") {
+          await page.locator(".options button").first().click();
+          if ((await page.locator("a.record").count()) < 1) errors.push("an answer did not show its museum record");
+        } else if (game.id === "thread") {
+          await page.locator("button.wide").first().click();
+          if ((await page.locator(".order li.right, .order li.wrong").count()) !== 5) errors.push("checking the order did not mark the five events");
+        } else {
+          await page.locator(".keys button").first().click();
+          if (game.id === "lantern" && (await page.locator(".keys button:disabled").count()) < 1) errors.push("a letter did not register");
+          if (game.id === "kalima" && ((await page.locator(".tile").first().textContent()) ?? "").trim() === "") errors.push("a letter did not register");
+        }
+      }
+      started3d = "not a 3D game";
     } else {
       await page.waitForSelector("#panel h2", { timeout: 60_000 });
       // Atlas's lit sphere comes up under its drawn globe; under the release's content security policy it must too.
