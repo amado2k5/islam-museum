@@ -637,3 +637,30 @@ describe("the caravanserai and the watermill", () => {
     expect(BUILDING_TYPES).toContain("mill");
   });
 });
+
+describe("the fountain, the cistern and the paper mill", () => {
+  const rich = (): State => ({ ...newGame(FAILING_CANAL, 4), treasury: 3000 });
+  const free = (s: State, ok: (p: number) => boolean = () => true): number[] => s.plots.map((b, p) => (b === null && ok(p) ? p : -1)).filter((p) => p >= 0);
+
+  it("a cistern gives the district more water in summer, and none of that in spring", () => {
+    // Season 0 is spring, season 1 summer.
+    const s0 = rich();
+    const p = free(s0)[0]!;
+    const spring = step(FAILING_CANAL, step(FAILING_CANAL, s0, { type: "build", building: "cistern", plot: p }), { type: "end-season" }).last!.waterSupply;
+    expect(spring).toBe(step(FAILING_CANAL, s0, { type: "end-season" }).last!.waterSupply);
+    const summer0 = step(FAILING_CANAL, s0, { type: "end-season" });
+    const withC = step(FAILING_CANAL, step(FAILING_CANAL, summer0, { type: "build", building: "cistern", plot: free(summer0)[0]! }), { type: "end-season" }).last!.waterSupply;
+    expect(withC).toBe(step(FAILING_CANAL, summer0, { type: "end-season" }).last!.waterSupply + 6);
+  });
+
+  it("a paper mill needs paper, and with water adds to learning", () => {
+    const s = rich();
+    expect(preview(s, { type: "build", building: "papermill", plot: free(s)[0]! })).toMatchObject({ ok: false });
+    const papered: State = { ...s, researched: ["paper"] };
+    expect(preview(papered, { type: "build", building: "papermill", plot: free(papered)[0]! }).ok).toBe(true);
+  });
+
+  it("draws all three, whether water reaches them or not", () => {
+    for (const type of ["fountain", "cistern", "papermill"] as BuildingType[]) for (const served of [true, false]) expect(buildPlot(7, 12, { type, served, season: 0, seed: 7 } as unknown as PlotLook).triangles, type).toBeGreaterThan(30);
+  });
+});

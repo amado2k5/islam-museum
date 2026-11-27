@@ -527,6 +527,49 @@ const quarterMill: QuarterBuilder = (set, props, f, rng, look, qi) => {
   }
 };
 
+const quarterFountain: QuarterBuilder = (set, props, f, rng, look, qi) => {
+  const h = QUARTER_HALF;
+  up(set.of("paving", f), f, -h, -h, h, h, 0.05, [0.92, 0.88, 0.78]);
+  if (qi === 0) {
+    // The fountain house: a small domed kiosk with a basin at its window, open to the street.
+    const wall = scale(LIME, rng.range(0.94, 1.02));
+    wing(set, f, 0, 0, 6, 6, 3.6, wall, ROOF_TINT);
+    dome(set, f, 0, 0, 2.6, 3.6, "glaze", scale(TURQUOISE, 1.0), wall, 0.95, 0.6);
+    basin(set, f, 0, 4.2, 1.4);
+    up(set.of("canalwater", f), f, -1, 3.4, 1, 5, look.served ? 0.4 : 0.02, [1, 1, 1]);
+  } else {
+    for (const [x, z] of [[-4, -4], [4, 4]] as const) props.add(rng.chance(0.5) ? "palm-a" : "palm-b", f, x, z, rng.range(0, 6), rng.range(0.55, 0.75));
+  }
+};
+
+const quarterCistern: QuarterBuilder = (set, props, f, rng, _look, qi) => {
+  const h = QUARTER_HALF;
+  if (qi < 2) {
+    // The cistern: a long vaulted roof barely above the ground, with steps going down to the water.
+    const b = set.of("plaster", f);
+    vault(b, f, 0, 0, 2 * h - 2, 2 * h - 3, 2.2, scale(STONE, rng.range(0.92, 1.0)));
+    set.of("ashlar", f).box(f, 0, 0, h - 1.4, 3, 0.6, 1.6, STONE, BOX_SIDES, 0.85);
+  } else {
+    up(set.of("earth", f), f, -h, -h, h, h, 0.03, [0.82, 0.74, 0.58]);
+    props.add("tree", f, 0, 0, rng.range(0, 6), 0.6);
+  }
+};
+
+const quarterPapermill: QuarterBuilder = (set, props, f, rng, look, qi) => {
+  const h = QUARTER_HALF;
+  const wall = scale(WALL_TINTS[rng.pick([0, 2, 4])]!, 0.98);
+  if (qi === 0 || qi === 1) {
+    // The beating house over its race, and the drying lofts with their open sides.
+    block(set, f, rng, 0, -h + 5, 2 * h - 3, 8, 4.6, wall, ROOF_TINT, 0.1);
+    up(set.of("canalwater", f), f, -h + 1, -h + 0.4, h - 1, -h + 1.6, look.served ? 0.3 : 0.02, [1, 1, 1]);
+  } else {
+    // Sheets hung to dry on lines in the yard.
+    up(set.of("earth", f), f, -h, -h, h, h, 0.03, [0.84, 0.76, 0.6]);
+    const sheet = set.of("fabric", f);
+    for (let r = 0; r < 3; r++) for (let i = 0; i < 6; i++) sheet.box(f, -5 + i * 2, 1.2, -3 + r * 3, 1.4, 1.0, 0.04, [0.97, 0.95, 0.88], 63, 0.9);
+  }
+};
+
 const QUARTERS: Record<BuildingType, QuarterBuilder> = {
   house: quarterHouse,
   farm: quarterFarm,
@@ -539,6 +582,9 @@ const QUARTERS: Record<BuildingType, QuarterBuilder> = {
   hospital: quarterHospital,
   caravanserai: quarterCaravanserai,
   mill: quarterMill,
+  fountain: quarterFountain,
+  cistern: quarterCistern,
+  papermill: quarterPapermill,
 };
 
 /** Ground of a quarter by what stands on it: [material, tint]. */
