@@ -525,11 +525,37 @@ export function messenger(scale: number): KeeperArt {
   return { ...art, body };
 }
 
+/**
+ * The young helper in al-Idrisi's hall, an invented person (the scattered sheets' quest's own): the same cut-out as the
+ * explorer, in one fixed look of the helper's own (a headscarf, a teal tunic), holding a loose sheet of parchment against
+ * the chest, the sheets the helper dropped.
+ */
+export function mapHelper(scale: number): KeeperArt {
+  const art = keeper(scale, { kind: 1, skin: 0, outfit: 0, hair: 1 });
+  const [body, b] = sheet(art.body.w, art.body.h, scale);
+  b.drawImage(art.body.canvas, 0, 0, art.body.w, art.body.h);
+  blob(b, [
+    [26, 40],
+    [64, 34],
+    [70, 82],
+    [30, 88],
+  ]);
+  fillStroke(b, PAL.parchment, INK, 2);
+  b.strokeStyle = "rgba(43,79,163,0.7)";
+  b.lineWidth = 2.4;
+  b.beginPath();
+  b.moveTo(32, 70);
+  b.quadraticCurveTo(46, 56, 62, 60);
+  b.stroke();
+  return { ...art, body };
+}
+
 // ---------------------------------------------------------------------------------------------- the scholar
 /** The colours a scholar's figure is drawn in. The default is Ibn al-Haytham's, as the workshop has always drawn him;
  * al-Jazari's figure is the same cut-out in other colours, with an apron (art/jazari.ts's room), al-Tusi's in night
  * colours (art/tusi.ts's room), al-Khwarizmi's in day colours (art/khwarizmi.ts's room), and al-Kindi's in lamplit
- * colours (art/kindi.ts's room). None is a likeness. */
+ * colours (art/kindi.ts's room), and al-Idrisi's in the bright colours of a hall by day (art/idrisi.ts's hall). None is
+ * a likeness. */
 export interface ScholarLook {
   skin: string;
   beard: [string, string];
@@ -620,6 +646,22 @@ export const KINDI_LOOK: ScholarLook = {
   dots: PAL.amber,
   shawl: "#c27a2a",
   seed: "kindi",
+};
+/** Al-Idrisi's figure in his hall (art/idrisi.ts's hall): the same cut-out again, in the colours of a bright hall by
+ * day, a sea-green robe and shawl and a white turban. Not a likeness. */
+export const IDRISI_LOOK: ScholarLook = {
+  skin: "#d4a070",
+  beard: ["#2e2620", "#5a5048"],
+  moustache: "#2e2620",
+  brow: "#2a201a",
+  turban: ["#ffffff", "#dcd6c8"],
+  turbanBands: "rgba(29,111,120,0.5)",
+  robe: ["#1f6a5e", "#154a42"],
+  gown: "#f6ecd2",
+  border: PAL.gold,
+  dots: PAL.lapis,
+  shawl: "#2f8a7a",
+  seed: "idrisi",
 };
 export interface ScholarArt {
   body: Painted;

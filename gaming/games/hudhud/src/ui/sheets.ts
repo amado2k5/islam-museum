@@ -51,13 +51,52 @@ const h = <K extends keyof HTMLElementTagNameMap>(tag: K, props: Partial<HTMLEle
   return node;
 };
 
+type T = (key: Key, vars?: Record<string, string | number>) => string;
+/**
+ * What the page says about the seams, in the way of playing's own words: Story names those that do not match, Explorer
+ * counts them, Challenge shows nothing until a check. Al-Idrisi's hall (ui/idrisi.ts) says the same with the same words.
+ */
+export function seamsText(state: SheetsState, t: T, num: (n: number) => string, rtl: boolean): string {
+  const last = state.last;
+  if (state.style === "challenge") return last?.type === "check" ? t("id_check_result", { matched: num(last.matched), total: num(last.total) }) : t("id_seams_hidden");
+  const bad = allSeams(gridOf(state)).filter((x) => !x.match);
+  if (bad.length === 0) return t("id_seams_none");
+  if (state.style === "explorer") return t("id_seams_count", { n: num(bad.length), total: num(tally(state).total) });
+  const rc = (p: number) => ({ r: num(Math.floor(p / state.cols) + 1), c: num((p % state.cols) + 1) });
+  const name = (x: (typeof bad)[number]) => {
+    const a = rc(x.a);
+    if (x.b === null) return t("id_seam_edge", { r: a.r, c: a.c });
+    const b = rc(x.b);
+    return t("id_seam_name", { r1: a.r, c1: a.c, r2: b.r, c2: b.c });
+  };
+  return t("id_seams_story", { list: bad.map(name).join(rtl ? "، " : ", ") });
+}
+/** The edges of every sheet, in words, for a reader who cannot see the picture: a summary and a captioned table. Al-Idrisi's hall shows the same table. */
+export function edgesTable(state: SheetsState, t: T, num: (n: number) => string): Node[] {
+  const cell = (code: number) => {
+    const d = decodeEdge(code);
+    return d ? t("id_feature_at", { feature: t(`id_feat_${d.feature}` as Key), pos: t(`id_pos_${d.at}` as Key) }) : t("id_nothing");
+  };
+  const table = h(
+    "table",
+    { class: "counts" },
+    h("caption", { textContent: t("id_edges_caption") }),
+    h("thead", {}, h("tr", {}, ...(["id_col_sheet", "id_edge_top", "id_edge_bottom", "id_edge_begin", "id_edge_end"] as Key[]).map((k) => Object.assign(h("th", { textContent: t(k) }), { scope: "col" })))),
+    h(
+      "tbody",
+      {},
+      ...state.sheets.map((sh) => h("tr", {}, Object.assign(h("th", { textContent: num(sh.id) }), { scope: "row" }), h("td", { textContent: cell(sh.n) }), h("td", { textContent: cell(sh.s) }), h("td", { textContent: cell(sh.w) }), h("td", { textContent: cell(sh.e) }))),
+    ),
+  );
+  return [h("summary", { textContent: t("id_edges_summary") }), table];
+}
+
 export function sheetsQuest(host: SheetsHost): SheetsQuest {
   const { t, num } = host;
   const rtl = host.lang === "ar" || host.lang === "ur";
   let state = host.resume ?? newSheets(host.style(), sheetsMap(host.style()));
   let answered = state.flags.includes("answered") || state.flags.includes("kind"); // the helper has been answered, kindly or not
   let selected: number | null = null; // the place chosen, by a button or on the picture
-  const list = (names: string[]) => names.join(rtl ? "، " : ", ");
   const rc = (p: number) => ({ r: num(Math.floor(p / state.cols) + 1), c: num((p % state.cols) + 1) });
   const style = () => state.style;
 
@@ -88,20 +127,7 @@ export function sheetsQuest(host: SheetsHost): SheetsQuest {
   const flag = (f: SheetsFlag) => command({ type: "flag", flag: f });
 
   /** Seams that do not match, in the way of playing's own words: Story names them, Explorer counts them, Challenge shows nothing until a check. */
-  function statusText(): string {
-    const last = state.last;
-    if (style() === "challenge") return last?.type === "check" ? t("id_check_result", { matched: num(last.matched), total: num(last.total) }) : t("id_seams_hidden");
-    const bad = allSeams(gridOf(state)).filter((x) => !x.match);
-    if (bad.length === 0) return t("id_seams_none");
-    if (style() === "explorer") return t("id_seams_count", { n: num(bad.length), total: num(tally(state).total) });
-    const name = (x: (typeof bad)[number]) => {
-      const a = rc(x.a);
-      if (x.b === null) return t("id_seam_edge", { r: a.r, c: a.c });
-      const b = rc(x.b);
-      return t("id_seam_name", { r1: a.r, c1: a.c, r2: b.r, c2: b.c });
-    };
-    return t("id_seams_story", { list: list(bad.map(name)) });
-  }
+  const statusText = (): string => seamsText(state, t, num, rtl);
   /** Seams of the map that touch a place and do not match: only said where the way of playing shows seams. */
   const badAt = (p: number) => allSeams(gridOf(state)).filter((x) => !x.match && (x.a === p || x.b === p)).length;
 
@@ -130,22 +156,7 @@ export function sheetsQuest(host: SheetsHost): SheetsQuest {
   }
   /** The edges of every sheet, in words, for a reader who cannot see the picture. */
   function drawEdges(): void {
-    const cell = (code: number) => {
-      const d = decodeEdge(code);
-      return d ? t("id_feature_at", { feature: t(`id_feat_${d.feature}` as Key), pos: t(`id_pos_${d.at}` as Key) }) : t("id_nothing");
-    };
-    const table = h(
-      "table",
-      { class: "counts" },
-      h("caption", { textContent: t("id_edges_caption") }),
-      h("thead", {}, h("tr", {}, ...(["id_col_sheet", "id_edge_top", "id_edge_bottom", "id_edge_begin", "id_edge_end"] as Key[]).map((k) => Object.assign(h("th", { textContent: t(k) }), { scope: "col" })))),
-      h(
-        "tbody",
-        {},
-        ...state.sheets.map((sh) => h("tr", {}, Object.assign(h("th", { textContent: num(sh.id) }), { scope: "row" }), h("td", { textContent: cell(sh.n) }), h("td", { textContent: cell(sh.s) }), h("td", { textContent: cell(sh.w) }), h("td", { textContent: cell(sh.e) }))),
-      ),
-    );
-    edges.replaceChildren(h("summary", { textContent: t("id_edges_summary") }), table);
+    edges.replaceChildren(...edgesTable(state, t, num));
   }
   function drawAsks(): void {
     const has = (f: SheetsFlag) => state.flags.includes(f);

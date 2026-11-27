@@ -208,6 +208,35 @@ Drawn in code in the same kit, palette and brushed surface as the other rooms (`
 
 (Texture memory is the decoded bytes `info()` counts: 47,529,904, 19,776,420, 19,165,644, 19,196,856 and 20,310,600.) Al-Kindi's room holds more objects than the others (the strip of up to thirty marks, a tile, a place and a sign for each mark, and a stand and a sign for each token are each an image) and a texture for each mark and sign, but they are small: it adds about 1.1 MB of textures to the other rooms' and one draw call. Opening the room ten times left the same 54 textures, 20,310,600 bytes and 105 objects. A lost graphics context in the room is told to the player and the room is drawn again with the quest as it stood. Play to scene: 305 ms.
 
+## The sixth room: al-Idrisi's hall (27 November 2026)
+
+Drawn in code in the same kit, palette and brushed surface as the other rooms (`art/idrisi.ts`, 405 lines, which draws every sheet with the page quest's own `drawSheet` from `art/sheets.ts`; the figures in `art/cast.ts`; the sheets, their shadow, frame and seam marks placed by `scenes/idrisi.ts`), and like them **trial art, a trial of the look and not final art**, built after the founder said on 27 November 2026 to continue all the remaining work. One long room of 2,400 by 720 game pixels with the same floor and the same door: a bright hall by day, warm sand walls paler high up, the band of star tiles in terracotta and teal, pale stone slabs; three tall arched windows on a pale sky with soft clouds and a wooden lattice, the sunlight falling from them across the wall and the floor; a tall shelf of plain parchment rolls and books (coloured spines, no writing); a basket of rolled sheets by the far end; and in the middle the **great table seen at an angle**, its wooden top a trapezoid sloping from a high back edge (640 wide) to a low front one (800 wide), with three low rails along it and short front legs. By it a plain brass lamp stands on a low stand. **No globe, no disc, no inscription, no letter of any script and no numeral is drawn anywhere in the hall**; a unit test runs every painter of `art/idrisi.ts` against a recording canvas and finds no call to `fillText` or `strokeText`, and another holds each sheet on the table to the page's own drawing, call for call.
+
+| Figure or thing | Parts | Moves the code makes |
+|---|---|---|
+| **Al-Idrisi** (about 335) | the scholar's cut-out again (`scholar(scale, IDRISI_LOOK)`): a sea-green robe and shawl, a white turban with teal bands, a dark beard, gold borders; not a likeness, and his speaker label says "in imagined words" | turns to the bird; raises his arm when two sheets are exchanged and when he speaks; blinks |
+| **The young helper** (about 175) | the explorer's cut-out in one fixed look of the helper's own (`mapHelper(scale)`: a headscarf, a teal tunic) holding a loose sheet of parchment against the chest; the quest's invented person, and the label says so | looks at the bird; waves when speaking; a small hop when spoken to; blinks |
+| **The sheets** (100 game pixels square at the front row, 93 and 86 per cent further back) | each the page quest's own drawing (`sheetArt`, which calls `drawSheet`): parchment, a coast (a thick line with water ticks), a river (a blue double line) and a road (dots) made from the edge codes, its number as dots in a corner; mirrored on a right to left page, as on the page | an exchanged pair slides into its new places; a lifted sheet rises a little and grows by six per cent |
+| **The lifted sheet's shadow and frame** | a soft dark shadow (`sheetShadow`) and a thick gold frame (`liftFrame`) | follow the lifted sheet |
+| **The seam marks** | the page's broken red line (`seamMark`, upright or lying), on every seam that does not match, in Story and Explorer only | appear and go with the quest's state |
+| **The lamp** | a plain brass oil lamp with a small flame (`lamp`) on a low stand | its light breathes; it flares when the map is checked |
+| **Props** | the stack of blank loose sheets on the tall shelf (`looseStack`), the feather | the feather peeks from under the stack until found |
+
+**Script size** (measured 27 November 2026, UTC, from the file `build:release` wrote, compressed with Node's zlib): Hudhud's main script `app-BsWdJavn.js` is 1,868,115 bytes (395,780 with Brotli at quality 11, 509,691 with gzip at level 9), its style 19,670 bytes (174 more, for the hall's rows of sheet buttons and table of edges); with al-Kindi's room it was measured at 1,838,405 bytes (390,812 with Brotli), so the sixth room adds about 30 KB (about 5 KB with Brotli).
+
+**Measured beside the other five rooms** (`hudhud-play.ts`, Medium, 1920×1080, Explorer, the founder's Mac, Chrome 158, 27 November 2026, all six run one after another in the same session, between 14:19 and 14:24 local time, with the load average between about 5 and 9.5 as `uptime` read it before and after each run; frame times while the bird crosses the whole room and back for 14 seconds):
+
+| Room | Textures | Texture memory (decoded) | Largest | Objects | Draw calls a frame | Frame time: mean / p95 / p99 / max | Frames over 16.7 ms | JS heap |
+|---|---:|---:|---|---:|---:|---|---:|---:|
+| Ibn al-Haytham's workshop | 50 | 47.5 MB | interior, columns of at most 2045×1080 | 129 | 19 | 8.33 / 9.1 / 9.4 / 11.4 ms | 0 of 1,701 | 95 MB |
+| Al-Jazari's workshop | 42 | 19.8 MB | jazari-room, columns of at most 2045×1080 | 51 | 8 | 8.33 / 9.3 / 9.6 / 10.5 ms | 0 of 1,702 | 66 MB |
+| Al-Tusi's observatory | 39 | 19.2 MB | tusi-room, columns of at most 2045×1080 | 57 | 10 | 8.33 / 9.2 / 9.5 / 11.9 ms | 0 of 1,701 | 65 MB |
+| Al-Khwarizmi's room | 41 | 19.2 MB | khwarizmi-room, columns of at most 2045×1080 | 41 | 8 | 8.33 / 9.3 / 9.6 / 10.9 ms | 0 of 1,704 | 67 MB |
+| Al-Kindi's room | 54 | 20.3 MB | kindi-room, columns of at most 2045×1080 | 105 | 9 | 8.33 / 9.2 / 9.6 / 12.0 ms | 0 of 1,705 | 66 MB |
+| Al-Idrisi's hall | 49 | 20.1 MB | idrisi-hall, columns of at most 2045×1080 | 89 | 9 | 8.33 / 9.3 / 9.6 / 11.3 ms | 0 of 1,702 | 65 MB |
+
+(Texture memory is the decoded bytes `info()` counts: 47,529,904, 19,776,420, 19,165,644, 19,196,856, 20,310,600 and 20,104,632.) The hall holds a texture for each sheet of the way of playing's map (twelve in Explorer) and an image for each place on the table and for each of up to forty seam marks; they are small: it adds about 0.9 MB of textures to the plainest rooms' and one draw call. Opening the hall ten times left the same 49 textures, 20,104,632 bytes and 89 objects. A lost graphics context in the hall is told to the player and the hall is drawn again with the map as it stood. Play to scene: 248 ms.
+
 ## Measurements (one machine, not a reference machine)
 
 The founder's MacBook Pro (Apple M4 Max, 128 GB, macOS 27.2.1), Chrome 158, a 120 Hz display, device pixel ratio 1, window 1920×1080; `gaming/tools/hudhud-play.ts`, 26 November 2026. The reports are in [`../evidence/hudhud/golden-scene/`](../evidence/hudhud/golden-scene/). **Neither reference machine (M1 Air 8 GB; Windows 11, i5-1135G7, 8 GB) has run it. No 60-minute profile and no four-hour soak has been run.**
