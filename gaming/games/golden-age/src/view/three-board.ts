@@ -8,13 +8,13 @@ import { builtinAOContext, mix, mrt, normalMap, normalView, pass, positionWorld,
 import { ao } from "three/addons/tsl/display/GTAONode.js";
 import { bloom } from "three/addons/tsl/display/BloomNode.js";
 import { Rng } from "@im/kernel/prng";
-import { instanceMatrix, type MeshData, type Rgb } from "@im/worldkit/mesh";
+import { instanceMatrix, limbMatrix, type MeshData, type Rgb } from "@im/worldkit/mesh";
 import { MATERIALS, type MaterialSpec, type SceneMaterialId } from "@im/worldkit/district/generate";
 import { awningMesh, boatMesh, cypressMesh, jarMesh, palmMesh, personBodyMesh, personHeadMesh, stallMesh, treeMesh, wheelMesh } from "@im/worldkit/district/kit";
 import { skyDome, type Atmosphere } from "@im/worldkit/atmosphere";
 import type { TextureData, TextureKind } from "@im/worldkit/textures";
 import { PLOTS } from "../rules";
-import { walkerPose, walkerTint, type Environment, type PlotGeometry, type PropInstance, type PropKind, type WaterRect } from "./board";
+import { CART_OX_JOINTS, WALKER_LEG_JOINTS, cartBedMesh, cartOxLegMesh, cartOxMesh, grazingDonkeyMesh, grazingSpots, walkerBodyMesh, walkerLegMesh, walkerPose, walkerTint, type Environment, type PlotGeometry, type PropInstance, type PropKind, type WaterRect } from "./board";
 import { CAMERA_FOV, eyeOf, groundPoint, viewPoint, type CameraPose } from "./camera";
 import { BOARD, CHANNEL_HALF, PLOT, RIVER_LEVEL, plotCentre } from "./layout";
 
@@ -58,6 +58,15 @@ const WALKER_CAPACITY = 720;
 const FILL_SECONDS = 0.7;
 /** How many canal sheets the board can hold: a stretch a plot and its arms, with room to spare. */
 const WATER_CAP = 512;
+/** Chimneys the smoke table can hold, eight puffs to each. */
+const SMOKE_SOURCES_CAP = 40;
+const SMOKE_PUFFS = 8;
+const SMOKE_CAP = SMOKE_SOURCES_CAP * SMOKE_PUFFS;
+/** The most carts the lanes carry: one to a market plot at most, and never more than this. */
+const CART_CAP = 3;
+const DONKEY_CAP = 3;
+/** The most lamp flames the markets light: one over every stall of the first market plots. */
+const LAMP_CAP = 160;
 
 export interface Highlight {
   /** Tinted plots: [plot, r, g, b] in linear colour. */
@@ -139,6 +148,21 @@ export class BoardRenderer {
   private readonly propMeshes = new Map<PropKind, THREE.InstancedMesh>();
   private bodies!: THREE.InstancedMesh;
   private heads!: THREE.InstancedMesh;
+  private walkerLegs!: THREE.InstancedMesh;
+  /** Puffs of smoke over the workshops' kilns and the baths' furnaces, eight to a chimney. */
+  private smokeMesh!: THREE.InstancedMesh;
+  private smokeSources: Array<{ x: number; y: number; z: number; scale: number }> = [];
+  /** Ox-carts on the lanes: the ox, the cart it draws, and the ox's four legs, one instanced mesh each. */
+  private cartOx!: THREE.InstancedMesh;
+  private cartBeds!: THREE.InstancedMesh;
+  private cartOxLegs!: THREE.InstancedMesh;
+  private cartCount = 0;
+  private donkeysPlaced = false;
+  private cartRoutes: Array<{ z: number; speed: number; x0: number; phase: number }> = [];
+  /** Donkeys at grass on the river side. */
+  private donkeys!: THREE.InstancedMesh;
+  /** Lamp flames over the market stalls: small warm unlit beads, which the bloom carries into a glow. */
+  private lamps!: THREE.InstancedMesh;
   private walkerPlots: Array<[number, number]> = [];
   private walkerCounts: number[] = new Array<number>(PLOTS).fill(0);
   private boats!: THREE.InstancedMesh;
@@ -264,8 +288,38 @@ export class BoardRenderer {
       return im;
     };
     for (const kind of Object.keys(PROP_CAPACITY) as PropKind[]) this.propMeshes.set(kind, instanced(propMesh[kind], PROP_MATERIAL[kind], PROP_CAPACITY[kind], true, false));
-    this.bodies = instanced(personBodyMesh(), "prop", WALKER_CAPACITY, true, true);
+    this.bodies = instanced(walkerBodyMesh(), "prop", WALKER_CAPACITY, true, true);
     this.heads = instanced(personHeadMesh(), "prop", WALKER_CAPACITY, false, true);
+    this.walkerLegs = instanced(walkerLegMesh(), "prop", WALKER_CAPACITY * 2, true, true);
+    // Smoke is a soft round puff, instanced: eight rise out of every chimney in turn, swelling and paling as they go.
+    const puff = new THREE.MeshStandardMaterial({ color: [0.62, 0.6, 0.58] as unknown as THREE.Color, transparent: true, opacity: 0.34, depthWrite: false, roughness: 1 });
+    this.smokeMesh = new THREE.InstancedMesh(new THREE.IcosahedronGeometry(0.5, 1), puff, SMOKE_CAP);
+    this.smokeMesh.count = 0;
+    this.smokeMesh.castShadow = false;
+    this.smokeMesh.receiveShadow = false;
+    this.smokeMesh.frustumCulled = false;
+    this.smokeMesh.instanceMatrix.setUsage(THREE.DynamicDrawUsage);
+    this.disposables.push(this.smokeMesh.geometry, puff);
+    scene.add(this.smokeMesh);
+    this.cartOx = instanced(cartOxMesh(), "prop", CART_CAP, true, true);
+    this.cartBeds = instanced(cartBedMesh(), "prop", CART_CAP, true, true);
+    this.cartOxLegs = instanced(cartOxLegMesh(), "prop", CART_CAP * 4, true, true);
+    this.donkeys = instanced(grazingDonkeyMesh(), "prop", DONKEY_CAP, true, true);
+    this.cartOx.count = 0;
+    this.cartBeds.count = 0;
+    this.cartOxLegs.count = 0;
+    // Donkey coats, grey and brown and dark, once at the start.
+    const coats: Rgb[] = [[0.62, 0.6, 0.58], [0.5, 0.4, 0.3], [0.35, 0.32, 0.3]];
+    for (let i = 0; i < DONKEY_CAP; i++) (this.donkeys.instanceColor!.array as Float32Array).set(coats[i % 3]!, i * 3);
+    this.donkeys.instanceColor!.needsUpdate = true;
+    const flame = new THREE.MeshBasicMaterial({ color: new THREE.Color(2.6, 1.45, 0.5) });
+    this.lamps = new THREE.InstancedMesh(new THREE.IcosahedronGeometry(0.09, 1), flame, LAMP_CAP);
+    this.lamps.count = 0;
+    this.lamps.castShadow = false;
+    this.lamps.receiveShadow = false;
+    this.lamps.frustumCulled = false;
+    this.disposables.push(this.lamps.geometry, flame);
+    scene.add(this.lamps);
     this.boats = instanced(boatMesh(true), "prop", 4, true, true);
     const wg = geometryOf(wheelMesh());
     this.disposables.push(wg);
@@ -362,6 +416,9 @@ export class BoardRenderer {
     // Silt shows: a canal that needs clearing runs brown.
     m.colorNode = canal ? mix(clear, vec3(0.2, 0.13, 0.055), this.silt.mul(0.85)) : clear;
     m.ior = 1.33;
+    // The sky is in the water: the scene's prefiltered environment answers at grazing angles, as in Granada,
+    // where the same making measured well. Flat calm water would mirror it whole; the wave trains break it up.
+    m.envMapIntensity = 3.2;
     return m;
   }
 
@@ -539,7 +596,13 @@ export class BoardRenderer {
       const n = Math.min(this.walkerCounts[plot] ?? 0, WALKER_CAPACITY - walkers);
       if (n > 0) {
         this.walkerPlots.push([plot, n]);
-        for (let i = 0; i < n; i++) (this.bodies.instanceColor!.array as Float32Array).set(walkerTint(this.options.seed, plot, i) as Rgb, (walkers + i) * 3);
+        for (let i = 0; i < n; i++) {
+          const tint = walkerTint(this.options.seed, plot, i) as Rgb;
+          (this.bodies.instanceColor!.array as Float32Array).set(tint, (walkers + i) * 3);
+          const lc = this.walkerLegs.instanceColor!.array as Float32Array;
+          lc.set(tint, (walkers + i) * 6);
+          lc.set(tint, (walkers + i) * 6 + 3);
+        }
         walkers += n;
       }
     }
@@ -548,8 +611,54 @@ export class BoardRenderer {
       im.instanceMatrix.needsUpdate = true;
       im.instanceColor!.needsUpdate = true;
     }
+    // Smoke follows the buildings as they stand now: a rebuilt plot brings its chimneys, a ruined one takes them away.
+    this.smokeSources = [];
+    for (const slot of this.plots) {
+      if (!slot.geometry) continue;
+      for (const sm of slot.geometry.smoke) {
+        if (this.smokeSources.length < SMOKE_SOURCES_CAP) this.smokeSources.push(sm);
+      }
+    }
+    this.smokeMesh.count = this.smokeSources.length * SMOKE_PUFFS;
+    // Carts serve the markets: a plot with stalls in it sends one out, up to the lanes' capacity. No market, no cart.
+    let markets = 0;
+    for (const slot of this.plots) {
+      if (!slot.geometry) continue;
+      if (slot.geometry.props.some((pr) => pr.kind === "stall")) markets++;
+    }
+    this.cartCount = Math.min(CART_CAP, markets);
+    this.cartOx.count = this.cartCount;
+    this.cartBeds.count = this.cartCount;
+    this.cartOxLegs.count = this.cartCount * 4;
+    if (this.cartRoutes.length === 0) {
+      const lanes = [-66, -110, -154];
+      for (let i = 0; i < CART_CAP; i++) this.cartRoutes.push({ z: lanes[i % lanes.length]!, speed: 1.5 + 0.35 * latticeHashboard(i, 3), x0: latticeHashboard(i, 11) * 300 - 150, phase: latticeHashboard(i, 23) });
+    }
+    if (!this.donkeysPlaced) {
+      this.donkeysPlaced = true;
+      const a = this.donkeys.instanceMatrix.array as Float32Array;
+      grazingSpots(this.options.seed).forEach(([x, y, z, yaw], i) => instanceMatrix(a, i * 16, x, y, z, yaw, 1, 1, 1));
+      this.donkeys.count = Math.min(DONKEY_CAP, 3);
+      this.donkeys.instanceMatrix.needsUpdate = true;
+    }
+    // A lamp burns over every market stall: neither game has nightfall, so they burn at all hours and read
+    // strongest in the dim seasons, as a bazaar's lamps do under the awnings in the afternoon.
+    const la = this.lamps.instanceMatrix.array as Float32Array;
+    let ln = 0;
+    for (const slot of this.plots) {
+      if (!slot.geometry) continue;
+      for (const pr of slot.geometry.props) {
+        if (pr.kind !== "stall" || ln >= LAMP_CAP) continue;
+        instanceMatrix(la, ln * 16, pr.x - 0.9 * Math.sin(pr.yaw), pr.y + 2.1, pr.z - 0.9 * Math.cos(pr.yaw), 0, 1, 1.5, 1);
+        ln++;
+      }
+    }
+    this.lamps.count = ln;
+    this.lamps.instanceMatrix.needsUpdate = true;
     this.bodies.count = walkers;
     this.heads.count = walkers;
+    this.walkerLegs.count = walkers * 2;
+    this.walkerLegs.instanceColor!.needsUpdate = true;
     this.bodies.instanceColor!.needsUpdate = true;
     this.wheel.visible = this.wheelAt !== null;
     if (this.wheelAt) {
@@ -643,6 +752,69 @@ export class BoardRenderer {
     (this.heads.instanceMatrix.array as Float32Array).set(body.subarray(0, n * 16));
     this.bodies.instanceMatrix.needsUpdate = true;
     this.heads.instanceMatrix.needsUpdate = true;
+    // Two legs to a figure, swinging opposite ways in step with the bob; frozen when the motion is reduced.
+    const legs = this.walkerLegs.instanceMatrix.array as Float32Array;
+    let li = 0;
+    for (const [plot, count] of this.walkerPlots) {
+      for (let i = 0; i < count; i++) {
+        const swing = this.options.reducedMotion ? 0 : 0.5 * Math.sin(timeSeconds * 6 + li * 0.5);
+        const b = (li) * 16;
+        WALKER_LEG_JOINTS.forEach((j, side) => limbMatrix(legs, (li * 2 + side) * 16, body, b, j[0], j[1], j[2], side ? -swing : swing));
+        li++;
+      }
+    }
+    this.walkerLegs.instanceMatrix.needsUpdate = true;
+    // Smoke: each puff climbs out of its chimney, swelling and paling, and is carried a little downwind as it goes.
+    if (this.smokeMesh.count > 0) {
+      const arr = this.smokeMesh.instanceMatrix.array as Float32Array;
+      const colArr = this.smokeMesh.instanceColor?.array as Float32Array | undefined;
+      let w = 0;
+      const wind = this.options.reducedMotion ? 0 : 1;
+      for (let s = 0; s < this.smokeSources.length; s++) {
+        const src = this.smokeSources[s]!;
+        const hs = latticeHashboard(s, 7);
+        for (let i = 0; i < SMOKE_PUFFS; i++) {
+          const phase = this.options.reducedMotion ? i / SMOKE_PUFFS : (timeSeconds * 0.16 + i / SMOKE_PUFFS + hs) % 1;
+          const rise = phase * 7.5 * src.scale;
+          const drift = phase * phase * 3.2 * wind;
+          const wobble = 0.3 * Math.sin(timeSeconds * 0.9 + i * 2.1 + s);
+          const size = (0.55 + phase * 2.6) * src.scale;
+          instanceMatrix(arr, w * 16, src.x + drift + wobble * phase, src.y + rise, src.z + drift * 0.4, 0, size, size * 1.15, size);
+          if (colArr) {
+            const shade = 0.35 + phase * 0.55;
+            colArr.set([shade, shade, shade * 1.02], w * 3);
+          }
+          w++;
+        }
+      }
+      this.smokeMesh.instanceMatrix.needsUpdate = true;
+      if (this.smokeMesh.instanceColor) this.smokeMesh.instanceColor.needsUpdate = true;
+    }
+    // Ox-carts on the lanes: out along one side of the lane and back along the other, legs stepping as they go.
+    if (this.cartCount > 0) {
+      const oxA = this.cartOx.instanceMatrix.array as Float32Array;
+      const bedA = this.cartBeds.instanceMatrix.array as Float32Array;
+      const legA = this.cartOxLegs.instanceMatrix.array as Float32Array;
+      const span = (BOARD.x1 - BOARD.x0) - 30;
+      for (let i = 0; i < this.cartCount; i++) {
+        const r = this.cartRoutes[i]!;
+        const t = this.options.reducedMotion ? r.phase : ((timeSeconds * r.speed + r.x0) / span) % 2;
+        const tt = t < 0 ? t + 2 : t;
+        const out = tt < 1;
+        const k = out ? tt : 2 - tt;
+        const x = BOARD.x0 + 15 + span * k;
+        const side = out ? CHANNEL_HALF + 0.9 : -(CHANNEL_HALF + 0.9);
+        const heading = out ? Math.PI / 2 : -Math.PI / 2;
+        const y = 0.02;
+        instanceMatrix(oxA, i * 16, x, y, r.z + side, heading, 1, 1, 1);
+        instanceMatrix(bedA, i * 16, x, y, r.z + side, heading, 1, 1, 1);
+        const swing = this.options.reducedMotion ? 0 : 0.3 * Math.sin(timeSeconds * 3.4 + i * 1.9);
+        CART_OX_JOINTS.forEach((j, q) => limbMatrix(legA, (i * 4 + q) * 16, oxA, i * 16, j[0], j[1], j[2], q === 0 || q === 3 ? swing : -swing));
+      }
+      this.cartOx.instanceMatrix.needsUpdate = true;
+      this.cartBeds.instanceMatrix.needsUpdate = true;
+      this.cartOxLegs.instanceMatrix.needsUpdate = true;
+    }
     // Boats on the river.
     const boat = this.boats.instanceMatrix.array as Float32Array;
     const span = this.envHalfWidth * 2 - 200;
@@ -683,3 +855,10 @@ export class BoardRenderer {
   }
 }
 
+
+/** A small deterministic hash for smoke phases, so no two chimneys breathe in step. */
+function latticeHashboard(a: number, b: number): number {
+  let h = (a * 374761393 + b * 668265263) >>> 0;
+  h = ((h ^ (h >> 13)) * 1274126177) >>> 0;
+  return ((h ^ (h >> 16)) >>> 0) / 4294967296;
+}

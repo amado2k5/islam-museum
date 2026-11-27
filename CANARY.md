@@ -14,6 +14,8 @@ open a new block on top with the new version and today's date.
 ---
 
 ## v2.32.0 — 2026-11-26
+### Added
+- **The Golden Age's district lives (games workshop).** People walking the lanes have legs that step below knee-length robes. Ox-carts come out on the lanes when the district has a market — one for each market plot, up to three — and donkeys graze on the river's south bank. Smoke rises from the kilns of a workshop and the furnace of a bath while water reaches them; a dry one stands cold. Lamp flames burn over the market stalls (neither game has nightfall yet; they read strongest in the dim seasons). The river and canals now carry the sky in them, and the bare land beyond the district is planted thicker with palms and trees. All of it follows the game's state: no market, no carts; no water, no smoke. Measured on the same scripted twenty-season campaign as the draw-call work: 108 draw calls (89 before it, the life costing about nineteen), triangles 1,948,546 against 1,459,698, the increase being the planting.
 ### Performance
 - **The Golden Age draws its district in far fewer calls to the graphics card (games workshop).** The still geometry of the plots — houses, walls, lanes, canals — was drawn as a mesh a plot, and every mesh was drawn again for the shadow, the depth pass and the picture, so a full district cost about nine hundred draw calls on High. Now the whole district's still geometry is one mesh a material, re-concatenated a little at a time when a plot changes, and the canal's water sheets are instances of one mesh. Measured on the same scripted twenty-season campaign and the same views: 881 draw calls before, 89 after, the triangles unchanged. A new building stands within a few ordinary frames.
 ### Tests
