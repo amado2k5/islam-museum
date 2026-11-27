@@ -4,8 +4,11 @@
 import { PLOTS, RULES_VERSION, invariants, type State } from "./rules";
 import { SCENARIOS } from "./scenarios";
 
-/** 2 since endowments: a version 1 save has no `endowed` list, and is brought up to date when read. */
-export const SAVE_VERSION = 2;
+/**
+ * 3 since the merchants' loan: a version 2 save has no loan, and a version 1 save no endowments either; both are
+ * brought up to date when read.
+ */
+export const SAVE_VERSION = 3;
 export const SAVE_KEY = "im.golden-age.save.v1";
 
 export interface GoldenAgeSave {
@@ -30,7 +33,7 @@ const OUTCOMES = ["playing", "won", "lost-insolvent", "lost-unrest", "ended"];
 export function playable(s: unknown): s is State {
   if (!s || typeof s !== "object") return false;
   const o = s as Record<string, unknown>;
-  const ints = ["rules", "seed", "season", "treasury", "grain", "households", "welfare", "knowledge", "researchProgress", "tax", "canalCondition", "intake", "insolventSeasons", "unrestSeasons", "steadySeasons"];
+  const ints = ["rules", "seed", "season", "treasury", "grain", "households", "welfare", "knowledge", "researchProgress", "tax", "canalCondition", "intake", "loanOwed", "loanEach", "insolventSeasons", "unrestSeasons", "steadySeasons"];
   if (!ints.every((k) => Number.isSafeInteger(o[k]))) return false;
   if (o.rules !== RULES_VERSION || typeof o.scenario !== "string" || !(o.scenario in SCENARIOS)) return false;
   if (!Array.isArray(o.plots) || o.plots.length !== PLOTS || !Array.isArray(o.canals) || !Array.isArray(o.researched) || !Array.isArray(o.events)) return false;
@@ -61,9 +64,9 @@ export function readSave(raw: string | null): SaveReading {
   if (!parsed || typeof parsed !== "object") return { status: "unreadable", save: emptySave(), keep: raw };
   const o = parsed as Record<string, unknown>;
   if (typeof o.v === "number" && o.v > SAVE_VERSION) return { status: "newer", save: emptySave(), keep: raw };
-  if (o.v !== SAVE_VERSION && o.v !== 1) return { status: "unreadable", save: emptySave(), keep: raw };
+  if (o.v !== SAVE_VERSION && o.v !== 1 && o.v !== 2) return { status: "unreadable", save: emptySave(), keep: raw };
   if (o.state === null) return { status: "ok", save: emptySave() };
-  const state = o.v === 1 ? fromV1(o.state) : o.state;
+  const state = o.v === 3 ? o.state : fromV2(o.v === 1 ? fromV1(o.state) : o.state);
   if (!playable(state)) return { status: "unreadable", save: emptySave(), keep: raw };
   return { status: "ok", save: { v: SAVE_VERSION, state } };
 }
@@ -74,6 +77,12 @@ function fromV1(state: unknown): unknown {
   const o = state as Record<string, unknown>;
   const scenario = typeof o.scenario === "string" ? SCENARIOS[o.scenario] : undefined;
   return { ...o, endowed: [], mayEndow: scenario?.endowments === true };
+}
+
+/** A version 2 game was saved before the merchants' loan existed: it owes nothing. */
+function fromV2(state: unknown): unknown {
+  if (!state || typeof state !== "object") return state;
+  return { ...(state as Record<string, unknown>), loanOwed: 0, loanEach: 0 };
 }
 
 export const writeSave = (save: GoldenAgeSave): string => JSON.stringify(save);
