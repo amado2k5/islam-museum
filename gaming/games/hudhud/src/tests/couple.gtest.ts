@@ -426,7 +426,7 @@ describe("the record behind the lines", () => {
     has(en.ts_obs_1, "a large library and a school");
     has(en.ts_note_2, "most original achievement");
     has(en.ts_note_2, "the smaller turning twice as fast as the larger and the opposite way");
-    has(en.ts_note_4, "lasted only about fifty years");
+    has(en.ts_note_4, "lasted only some fifty to sixty years");
     has(en.ts_note_4, "from China to Europe");
   });
   it("leaves the record's astrology out of every line: the game says nothing of astrology, in any language", () => {
@@ -461,7 +461,7 @@ describe("the words", () => {
     ["ts_note_1", "هذه لعبة وليست كتاب تاريخ. الدائرتان على الصفحة والطفلة التي تنظّف الآلات وكل كلمة تُقال من خيال اللعب.", "This is a game, not a history. The two circles on the page, the girl who cleans the instruments and every spoken line are invented for play."],
     ["ts_note_2", "من سجل المتحف: يُعدّ نموذج الطوسي في حركة الكواكب أبدع ما أنجزه. وهو نموذج من كرتين، الصغرى تدور بضعف سرعة الكبرى وفي الاتجاه المعاكس، فتتحرك نقطة عليها على خط مستقيم.", "From the museum's record: al-Tusi's model of the planets' motion is called his most original achievement. It is a model of two spheres, the smaller turning twice as fast as the larger and the opposite way, so that a point on it moves along a straight line."],
     ["ts_note_3", "بُسِّط من أجل اللعب: يتحدث السجل عن كرات، وترسم اللعبة دوائر مسطّحة. وما قُرئ لهذه اللعبة لا يذكر مقدار الكرتين. ترسم اللعبة الصغرى بنصف عرض الكبرى، وبهذا المقدار يستقيم الخط في الحساب.", "Made simpler for play: the record speaks of spheres, and the game draws flat circles. What was read for this game does not give the sizes of the spheres. The game draws the smaller one half as wide as the larger, which is the size at which the arithmetic gives a straight line."],
-    ["ts_note_4", "ويقول السجل إن مرصد مراغة لم يعمّر إلا نحو خمسين سنة، وإن أثره العلمي امتد قرونًا من الصين إلى أوروبا.", "The record also says the observatory at Maragha lasted only about fifty years, and that its learning was felt for centuries from China to Europe."],
+    ["ts_note_4", "ويقول السجل إن مرصد مراغة لم يعمّر إلا ما بين خمسين وستين سنة، وإن أثره العلمي امتد قرونًا من الصين إلى أوروبا.", "The record also says the observatory at Maragha lasted only some fifty to sixty years, and that its learning was felt for centuries from China to Europe."],
   ];
   it("keeps the lines written for the quest exactly, in Arabic and English, and the speakers' labels", () => {
     for (const [k, ar, en] of WRITTEN) {
