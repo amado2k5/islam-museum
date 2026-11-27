@@ -24,7 +24,10 @@ for (const view of VIEWS) for (const game of GAMES) for (const lang of LANGS) {
   const tag = `${game} ${lang} ${view.name}`;
   try {
     await page.goto(`${base}/${game}/?lang=${lang}`);
-    await page.waitForFunction("Boolean(window.__DAILY__)", null, { timeout: 30_000 });
+    for (const end = Date.now() + 30_000; !(await page.evaluate("Boolean(window.__DAILY__)")); ) {
+      if (Date.now() > end) throw new Error("the game did not start in 30 seconds");
+      await page.waitForTimeout(150);
+    }
     const hook = (await page.evaluate("window.__DAILY__")) as { error?: string; records?: string[]; date?: string };
     if (hook.error) throw new Error(hook.error);
     const dir = await page.evaluate("document.documentElement.dir");
