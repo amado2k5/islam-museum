@@ -127,7 +127,7 @@ The root the paragraph below names, income that grows with households while no c
 8. **Translations.** Arabic and English were written by the lead agent; Urdu, French, Spanish, Turkish and Indonesian by a Sonnet subagent from them. All are AI text that no native speaker has read. Long words overflow some tool buttons in some languages.
 9. **Touch** (one finger to move, two to zoom and turn) is written and has never been tried on a touch screen. Narrow windows have a layout that has only been looked at in a desktop browser.
 10. **Only Chrome on one Mac.** Edge, Firefox, Safari, Windows and any discrete GPU are untested.
-11. **No sound effects**, no gamepad, no key remapping, no photo mode. A text-size choice (normal, large, larger; shared with Granada) was added on 27 November 2026.
+11. **No sound effects**, no key remapping, no photo mode. A game controller works from 27 November 2026 (left stick: plot cursor; right stick: view; A use, B back, X undo, Y help), tried only with a simulated controller. A text-size choice (normal, large, larger; shared with Granada) was added on 27 November 2026.
 12. **Settings and the saved game are per device.** Nothing is sent anywhere.
 
 ## The museum behind the game
