@@ -13316,12 +13316,12 @@ maadin:
     curated: Fiches choisies
 games:
   title: "Jeux"
-  lede: "Quatre jeux que le musée construit, gratuits et jouables dans le navigateur. Ce sont des prototypes inachevés, montrés tels qu'ils sont."
+  lede: "Huit jeux que le musée construit, gratuits et jouables dans le navigateur. Ce sont des prototypes inachevés, montrés tels qu'ils sont."
   list: "Les jeux"
   status_title: "Où ils en sont"
   status_body: "Chaque jeu ici est un prototype : il manque des parties, les images sont encore sommaires et des choses changeront. Ils sont gratuits, sans publicité, sans achat et sans compte. Votre progression n'est conservée que dans votre navigateur."
   history: "L'histoire présentée dans les jeux n'a pas encore été relue par un historien nommé. Considérez-la comme un brouillon ; les pages du musée restent le lieu des faits sourcés."
-  needs: "Trois des jeux dessinent un monde en 3D et demandent un navigateur de bureau récent avec WebGPU, comme Chrome ou Edge. À défaut, ils affichent une vue plus simple."
+  needs: "Trois des jeux dessinent un monde en 3D et demandent un navigateur de bureau récent avec WebGPU, comme Chrome ou Edge. À défaut, ils affichent une vue plus simple. Les quatre jeux quotidiens (Cinq questions, Kalima, Le Fil du temps et La Lanterne) sont de simples pages qui marchent sur téléphone, tablette et ordinateur."
   play: "Jouer"
   opens: "S'ouvre sur games.islam.museum"
   prototype: "Prototype"
@@ -13340,3 +13340,16 @@ games:
     hudhud:
       name: "Hudhud : l'Atlas des merveilles"
       blurb: "Une aventure en 2D pour toute la famille : Hudhud la huppe rassemble les pages dispersées d'un atlas d'histoires. Deux quêtes sont jouables pour l'instant."
+
+    five-questions:
+      name: "Cinq questions"
+      blurb: "Cinq questions par jour tirées des fiches du musée : dates, lieux et personnes. Chaque réponse renvoie à la fiche d'où elle vient."
+    kalima:
+      name: "Kalima"
+      blurb: "Devinez le nom de lieu du jour en six essais ; chaque lettre reçoit un signe en plus d'une couleur. Chaque langue a sa liste, l'arabe en lettres arabes."
+    thread:
+      name: "Le Fil du temps"
+      blurb: "Remettez cinq événements de la chronologie du musée dans l'ordre, puis voyez l'année et la fiche de chacun."
+    lantern:
+      name: "La Lanterne"
+      blurb: "Révélez un nom du musée, lieu ou personne, lettre par lettre avant que les sept gouttes d'huile de la lanterne ne s'épuisent."

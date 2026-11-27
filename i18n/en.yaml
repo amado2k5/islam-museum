@@ -12840,12 +12840,12 @@ maadin:
     curated: Curated records
 games:
   title: "Games"
-  lede: "Four games the museum is building, free to play in the browser. They are unfinished prototypes, shown as they stand."
+  lede: "Eight games the museum is building, free to play in the browser. They are unfinished prototypes, shown as they stand."
   list: "The games"
   status_title: "Where they stand"
   status_body: "Every game here is a prototype: parts are missing, pictures are rough, and things will change. They are free, with no advertising, no purchases and no account. Your progress is kept only in your own browser."
   history: "The history inside the games has not yet been reviewed by a named historian. Treat it as a draft; the museum's own pages are the place for sourced facts."
-  needs: "Three of the games draw a 3D world and need a recent desktop browser with WebGPU, such as Chrome or Edge. Where it is missing they fall back to a simpler view."
+  needs: "Three of the games draw a 3D world and need a recent desktop browser with WebGPU, such as Chrome or Edge. Where it is missing they fall back to a simpler view. The four daily games (Five Questions, Kalima, The Thread of Time and The Lantern) are plain pages that work on phones, tablets and computers."
   play: "Play"
   opens: "Opens on games.islam.museum"
   prototype: "Prototype"
@@ -12864,3 +12864,16 @@ games:
     hudhud:
       name: "Hudhud: The Atlas of Wonders"
       blurb: "A 2D story adventure for families: Hudhud the hoopoe gathers the scattered pages of an atlas of stories. Two quests can be played so far."
+
+    five-questions:
+      name: "Five Questions"
+      blurb: "Five questions a day from the museum's records: dates, places and people. Each answer links to the record it came from."
+    kalima:
+      name: "Kalima"
+      blurb: "Guess the day's place name in six tries; each letter is marked with a sign as well as a colour. Arabic has its own word list, in Arabic letters."
+    thread:
+      name: "The Thread of Time"
+      blurb: "Put five events from the museum's timeline in the order they happened, then see each one's year and record."
+    lantern:
+      name: "The Lantern"
+      blurb: "Reveal a name from the museum, a place or a person, letter by letter before the lantern's seven drops of oil run out."
