@@ -1320,6 +1320,69 @@
     "R6"
    ],
    "editorApproved": null
+  },
+  {
+   "id": "HR-HH-38",
+   "game": "Hudhud",
+   "claim": "The Alhambra quest's narrator says: 'The museum's record says work on the Alhambra began with an aqueduct from the mountains, so that water ran through the town and the palaces.' The record's sentence is 'Work began with an aqueduct from the mountains, so that water ran through the town and the palaces', after the Encyclopaedia of Islam (2nd edition, vol. 2, Gharnata, p. 1058); the record adds that the Generalife is supplied by the same aqueduct.",
+   "context": "The Alhambra quest: the narrator's first line (ah_water_1), the first sentence of the second note (ah_note_2), and the keeper's line that the water comes down from the mountain in the channel (ah_intro_2, an invented person's line)",
+   "sources": [
+    "building/alhambra"
+   ],
+   "kind": "sourced",
+   "uncertainty": "A reviewer should check what the record's source means by 'aqueduct' (a channel from a river, a spring or the mountains) and whether 'began with' is the source's order of events or only the order of the sentence. Another museum record tells the water differently: content/en/place/granada.md (Encyclopaedia of Islam, vol. 2, p. 1056) says Ibn al-Ahmar, on inspecting the Alhambra, brought water to it 'from the river'; the Alhambra record says 'from the mountains'. The game follows the Alhambra record and does not say which is right. The keeper's line 'The water comes down from the mountain in the channel' is invented for play and rests on the same sentence. The record 'building/nasrid-palaces-alhambra' is a draft card and says nothing of water.",
+   "author": "Claude Code (claude-sonnet-5-5), an AI agent",
+   "reviewer": null,
+   "decision": "historical review pending",
+   "approved": null,
+   "note": "",
+   "forReview": [
+    "R1",
+    "R3",
+    "R6"
+   ],
+   "editorApproved": null
+  },
+  {
+   "id": "HR-HH-39",
+   "game": "Hudhud",
+   "claim": "The Alhambra quest's second narrator line and note say: the Court of the Lions is divided by two paths that cross, with a fountain at the crossing whose basin rests on stone lions; in the Court of the Myrtles a very long pool bordered by myrtles fills the centre; and the stone lions probably belonged to an older palace. The record's sentences: 'The court is divided by two intersecting paths with a fountain at the crossing, whose basin rests on stone lions that probably belonged to a palace of the 5th/11th century'; 'the patio of Comares, also called the patio of la Alberca or of the Myrtles ... A very long pool bordered by myrtles fills the centre'; and the palaces are 'groups of buildings arranged round courtyards, with the court and not the building as the central element'.",
+   "context": "The Alhambra quest: ah_court_1, ah_note_2, ah_note_3",
+   "sources": [
+    "building/alhambra"
+   ],
+   "kind": "sourced",
+   "uncertainty": "A reviewer should check the names of the courts: the record's English says 'the patio of Comares, also called ... of the Myrtles' and 'the Court of the Lions', while the game says 'Court of the Myrtles'; the museum's Arabic record writes the Comares court as فناء قمارش، ويسمى أيضاً فناء البركة أو الآس (the myrtle is الآس) and the Lions court as بهو الأسود; the game's Arabic note writes بهو الآس, where the brief typed بهو الريحان (ريحان is basil or sweet herbs, not the myrtle), and the game follows the museum's word. Whether the record's 'Court of the Myrtles' and the game's Arabic بهو الآس name the same court that other sources call the Court of the Alberca should be confirmed (content/en/place/al-andalus.md calls it the Court of the Alberca). The dating of the lions ('probably ... a palace of the 5th/11th century') is the source's own hedge and is kept as 'probably', and 'an older palace' leaves out the century. The French, Spanish, Turkish and Indonesian forms of the court names (cour des Myrtes, Patio de los Arrayanes, Mersin Avlusu, Halaman Myrtus) were chosen by the translating agent and not taken from museum labels. Note by the lead agent in review, 26 November 2026: the Arabic line as first written called this court «بهو الريحان»; it was changed to «بهو الآس» to follow the museum's Arabic record, which writes the myrtle as «الآس». The lead agent's understanding, not checked against a source here, is that the court is also widely known in Arabic as the court of «الريحان», the word behind the Spanish 'Arrayanes'. A native reader or reviewer should choose the name.",
+   "author": "Claude Code (claude-sonnet-5-5), an AI agent",
+   "reviewer": null,
+   "decision": "historical review pending",
+   "approved": null,
+   "note": "",
+   "forReview": [
+    "R1",
+    "R3",
+    "R6"
+   ],
+   "editorApproved": null
+  },
+  {
+   "id": "HR-HH-40",
+   "game": "Hudhud",
+   "claim": "The grid of turning channel pieces, the spout, the dry fountain, the page of the Atlas floating up out of it, the three authored grids (3 by 3 with one basin, 4 by 4 with two basins and a branch, 5 by 5 with two basins, ten pieces off the road and nothing allowed to leak), the keeper of the water and the girl who sweeps the court, and their lines, are invented for play. The picture draws a plain spout, a plain round basin for a fountain and a plain long basin for a pool, and no plan, tower, arch or lion. The first note says the grid is not the plan of the Alhambra nor of its waterworks; the fourth says nothing read for the game tells how the water was led from the aqueduct to each court.",
+   "context": "The Alhambra quest as a whole (sim/channels.ts, content/channels.ts, art/channels.ts, ui/channels.ts; strings ah_*)",
+   "sources": [],
+   "kind": "reconstruction",
+   "uncertainty": "A game system and a made-up setting. A reviewer should check that no child takes the grid for the real waterworks of the Alhambra (the first and fourth notes and the trial line say it is not, and the notes appear only after the quest is finished), and that the plain basins claim nothing about the look of the real fountain or pool (the round basin is not the Lions fountain, which the record says rests on stone lions; the long basin is not a drawing of the Myrtles pool). The girl's and the keeper's lines are invented and their speakers' labels read 'an invented person'. The channel-piece rules (a piece turned a quarter turn, water following openings that meet) say nothing about how any real channel worked.",
+   "author": "Claude Code (claude-sonnet-5-5), an AI agent",
+   "reviewer": null,
+   "decision": "historical review pending",
+   "approved": null,
+   "note": "",
+   "forReview": [
+    "R1",
+    "R6"
+   ],
+   "editorApproved": null
   }
  ],
  "roster": [

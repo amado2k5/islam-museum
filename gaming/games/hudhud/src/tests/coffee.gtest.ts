@@ -415,23 +415,17 @@ describe("the words", () => {
     for (const l of LANGS) expect(Object.keys(table(l)).filter((k) => k.startsWith("cq_")), l).toEqual(Object.keys(table("en")).filter((k) => k.startsWith("cq_")));
     for (const l of LANGS) for (const k of keys) expect([...(table(l)[k] ?? "").matchAll(/\{\w+\}/g)].map((m) => m[0]).sort(), `${l}:${k}`).toEqual([...(table("en")[k] ?? "").matchAll(/\{\w+\}/g)].map((m) => m[0]).sort());
   });
-  it("is appended at the end of each language's file, after the keys of the ninth quest, and nothing comes after it", () => {
+  it("is appended at the end of each language's file, after the keys of the ninth quest, and only the next quest's keys (`ah_`) come after it", () => {
     for (const l of LANGS) {
       const ks = Object.keys(table(l));
       const first = ks.findIndex((k) => k.startsWith("cq_"));
       expect(first, l).toBeGreaterThan(0);
-      expect(ks.slice(first).every((k) => k.startsWith("cq_")), l).toBe(true);
+      expect(ks.slice(first, first + ks.filter((k) => k.startsWith("cq_")).length).every((k) => k.startsWith("cq_")), l).toBe(true);
+      expect(ks.slice(first + ks.filter((k) => k.startsWith("cq_")).length).every((k) => k.startsWith("ah_")), l).toBe(true);
       expect(ks[first - 1]!.startsWith("ts_"), l).toBe(true);
     }
   });
-  it("says in the hub that ten quests are built, in every language, and no longer nine", () => {
-    expect(table("en").hub_note).toMatch(/Ten quests are built/);
-    expect(table("ar").hub_note).toContain("عشر مهمات");
-    expect(table("ur").hub_note).toContain("دس مہمیں");
-    expect(table("fr").hub_note).toContain("Dix quêtes");
-    expect(table("es").hub_note).toContain("diez misiones");
-    expect(table("tr").hub_note).toContain("on görev");
-    expect(table("id").hub_note).toContain("sepuluh misi");
+  it("no longer says in the hub that nine quests are built, in any language (the count itself is pinned in channels.gtest.ts)", () => {
     for (const l of LANGS) expect(table(l).hub_note).not.toMatch(/\bnine quests|\bneuf quêtes|\bnueve misiones|\bdokuz görev|\bsembilan misi|تسع مهمات|نو مہمیں/i);
   });
   it("takes each name from the museum's records unless it is on a short list of named exceptions, which is exactly this list", () => {

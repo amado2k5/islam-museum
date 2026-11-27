@@ -1,6 +1,6 @@
 # Hudhud: what remains before it is a whole game of many hours
 
-_26 November 2026, brought up to date later that day (the third to ninth trial quests, and what is public). The founder asked, in chat: "what is remaining for this game to be fully completed with all its scenarios, game play, stories, features, graphics, with a gameplay for visitor that would last hours?" This page is the answer, kept current. The plan it measures against is [his instruction](owner-instruction-2026-11-26.md); the estimate is in [the design](design.md#how-big-this-is-said-plainly)._
+_26 November 2026, brought up to date later that day (the third to eleventh trial quests, and what is public; the eleventh, the Alhambra and the dry fountain, added 27 November 2026). The founder asked, in chat: "what is remaining for this game to be fully completed with all its scenarios, game play, stories, features, graphics, with a gameplay for visitor that would last hours?" This page is the answer, kept current. The plan it measures against is [his instruction](owner-instruction-2026-11-26.md); the estimate is in [the design](design.md#how-big-this-is-said-plainly)._
 
 ## Where it stands, in one table
 
