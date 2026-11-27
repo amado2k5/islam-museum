@@ -26,8 +26,8 @@ export const adjacent = (a: number, b: number): boolean => distance(a, b) === 1;
 /** A canal link's key: the two plots, smaller first. */
 export const linkKey = (a: number, b: number): number => (a < b ? a * PLOTS + b : b * PLOTS + a);
 
-export type BuildingType = "house" | "farm" | "market" | "workshop" | "school" | "bath" | "granary" | "library" | "hospital" | "caravanserai" | "mill";
-export const BUILDING_TYPES: BuildingType[] = ["house", "farm", "market", "workshop", "school", "bath", "granary", "library", "hospital", "caravanserai", "mill"];
+export type BuildingType = "house" | "farm" | "market" | "workshop" | "school" | "bath" | "granary" | "library" | "hospital" | "caravanserai" | "mill" | "fountain" | "cistern" | "papermill";
+export const BUILDING_TYPES: BuildingType[] = ["house", "farm", "market", "workshop", "school", "bath", "granary", "library", "hospital", "caravanserai", "mill", "fountain", "cistern", "papermill"];
 
 export interface BuildingSpec {
   cost: number;
@@ -53,6 +53,12 @@ export const BUILDINGS: Record<BuildingType, BuildingSpec> = {
   caravanserai: { cost: 70, upkeep: 3, workers: 6, water: 2 },
   // A watermill on the canal grinds the grain: stored grain spoils less, and what is sold fetches more as flour.
   mill: { cost: 50, upkeep: 2, workers: 4, water: 3 },
+  // A public fountain (sabil): drinking water given freely at the street; the houses round it fare better.
+  fountain: { cost: 20, upkeep: 1, workers: 0, water: 1 },
+  // A cistern stores water in the wet seasons for the dry: the district draws more in summer and in a drought.
+  cistern: { cost: 45, upkeep: 1, workers: 2, water: 0 },
+  // A paper mill makes the paper that schools and libraries use: learning grows faster where it works.
+  papermill: { cost: 60, upkeep: 3, workers: 6, water: 3, needs: "paper" },
 };
 /** Grain a watered, fully staffed farm brings in at a full harvest (spring and autumn); summer and winter bring far less. */
 export const FARM_YIELD = 60;
@@ -419,6 +425,9 @@ function runSeason(s: State, scenario: Scenario): State {
   const hospitals = of("hospital");
   const caravanserais = of("caravanserai");
   const mills = of("mill");
+  const fountains = of("fountain");
+  const cisterns = of("cistern");
+  const papermills = of("papermill");
 
   // Labour: every household gives one worker. If there are too few, every workplace runs at the same share.
   let workersNeeded = 0;
@@ -428,8 +437,10 @@ function runSeason(s: State, scenario: Scenario): State {
   // Water, in three tiers: drinking first, then farms, then crafts and baths.
   const thirst = THIRST[soy];
   const need = (plots: number[], t: BuildingType) => plots.filter((p) => servedByWater(wet, p)).length * Math.floor((BUILDINGS[t].water * thirst) / 1000);
-  const tiers = [need(houses, "house") + need(hospitals, "hospital"), need(farms, "farm"), need(workshops, "workshop") + need(baths, "bath") + need(mills, "mill") + need(caravanserais, "caravanserai")];
+  const tiers = [need(houses, "house") + need(hospitals, "hospital") + need(fountains, "fountain"), need(farms, "farm"), need(workshops, "workshop") + need(baths, "bath") + need(mills, "mill") + need(caravanserais, "caravanserai") + need(papermills, "papermill")];
   let supply = intakeCapacity(s, season);
+  // Each cistern gives back in summer, and in a drought, some of what it stored in the wet seasons.
+  if (soy === 1 || events.includes("drought")) supply += cisterns.length * 6;
   const waterSupply = supply;
   const share: [number, number, number] = [1000, 1000, 1000];
   for (let i = 0; i < 3; i++) {
@@ -494,6 +505,8 @@ function runSeason(s: State, scenario: Scenario): State {
   if (paid && fed) {
     knowledgeGained = Math.floor((taught * 1800 * staffing) / 1_000_000) + (taught > 0 ? 1 : 0) + schools.length;
     if (libraries.length > 0) knowledgeGained = Math.floor((knowledgeGained * (1000 + 450 * Math.min(2, libraries.length))) / 1000);
+    // A working paper mill: a quarter more learning, for the first one only.
+    if (papermills.some((p) => servedByWater(wet, p))) knowledgeGained = Math.floor((knowledgeGained * 1250) / 1000);
   }
   let knowledge = s.knowledge + knowledgeGained;
   let research = s.research;
@@ -524,7 +537,7 @@ function runSeason(s: State, scenario: Scenario): State {
     base: 22,
     food: Math.floor(((1000 - hungerPermille) * 28) / 1000),
     water: Math.floor((share[0] * 14) / 1000) * (houses.some((h) => servedByWater(wet, h)) ? 1 : 0),
-    baths: Math.floor((cover(bathed) * share[2] * 12) / 1_000_000),
+    baths: Math.floor((cover(bathed) * share[2] * 12) / 1_000_000) + Math.floor((cover(houses.filter((h) => within(h, fountains.filter((f) => servedByWater(wet, f)), 1)).length) * 4) / 1000),
     school: Math.floor((cover(taught) * 8) / 1000),
     hospital: Math.floor((cover(healed) * 8) / 1000),
     market: Math.floor((cover(servedByMarket) * 6) / 1000),
