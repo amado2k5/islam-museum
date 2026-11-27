@@ -321,6 +321,32 @@ Drawn in code in the same kit, palette and brushed surface as the other rooms (`
 
 (Texture memory is the decoded bytes `info()` counts: 23,231,988 for the inn, whose largest textures are the two columns of its painting, 2045×1080 and 1557×1080.) The inn has two small textures for every bead (off and on the thread) and one for each number of dots, which is why it holds more textures than Karima's room and fewer objects. Opening the inn ten times left the same 64 textures, 23,231,988 bytes and 66 objects. A lost graphics context in the inn is told to the player and the inn is drawn again with the thread as it stood. Play to scene: 304 ms. The frame time is the display's 8.33 ms: these numbers say the inn is light on this machine, not how light.
 
+## The tenth room: the coffee room (27 November 2026)
+
+Drawn in code in the same kit, palette and brushed surface as the other rooms (`art/coffee-room.ts`, 352 lines, which draws every card with the page quest's own `drawCard` and `coffeeFace` and every shelf's sign with the page quest's own `sign`, now exported from `art/sort.ts` and `art/coffee.ts` so that the page and the room share them, the page's picture unchanged; the figures in `art/cast.ts`; the cards, the signs, the bell, the box and the frame placed by `scenes/coffee.ts`, 229 lines), and like them **trial art, a trial of the look and not final art**, built after the founder said on 27 November 2026 to continue all the remaining work. One long room of 2,400 by 720 game pixels with the same floor and the same door: a quiet room of records in a coffee-trading town in the late afternoon, whitewashed plaster gone warm, a latticed pointed window high on the wall over plain flat roofs, a low bench under it with a round brass tray, a brass coffee pot with a long spout and two small handleless cups (decoration only), a plain teal band with cream and ochre squares low on the wall, worn floorboards and a long plain rug, the long low table, and a dark wooden bookcase of three shelves with a box of blank spare cards on top. Nothing is written anywhere; no goat and no face is drawn on any card.
+
+| Figure or thing | Parts | Moves the code makes |
+|---|---|---|
+| **The keeper of the records** (about 640) | the scholar's cut-out at the scholar's sizes (`archivist(scale)`, `ARCHIVIST_LOOK`): a plain white turban, a deep green robe over a cream gown; the quest's invented person, not a likeness of anyone, and the label says so | turns to the bird; raises his arm when a card is put on a shelf and when he speaks; blinks |
+| **The child who tidies the cards** (about 1,610) | the explorer's cut-out in one fixed look of the child's own (`cardChild(scale)`: a round cap, a green tunic) holding a small stack of blank cards; the quest's invented person, and the label says so | looks at the bird; waves when speaking; a small hop when spoken to; blinks |
+| **The cards** | the quest's own small scroll with its plain sign (`cardArt`, which calls the page's `drawCard` and `coffeeFace`) and its number as gold dots under it, drawn at 0.74 of the page's 72 pixels | slide to where the sorting says they stand; hidden from their place while carried, and a smaller copy rides at Hudhud's beak |
+| **The shelves' signs** | a small teal plaque with a gold rim, the quest's own sign for the shelf (the solid seal, the two speech marks, the cloud, drawn by the page's `sign`) and one, two or three dots (`signArt`), at the end of the shelf the page begins from | still |
+| **The bell** | a plain brass hand bell on a small wooden stand (`bellArt`); nothing on it | swings a little when rung, unless movement is kept still |
+| **The thing within reach** | a frame of lantern gold with a dark edge (`focusArt`) round the card, sign or bell the bird can touch | breathes a little, unless movement is kept still |
+| **Props** | the bench, the tray, the coffee pot and the cups (painted into the room), the box of blank spare cards (`boxArt`), the feather | the feather peeks from the box until found |
+
+**Script size** (measured 27 November 2026, 23:03 UTC, from the file `build:release` wrote, compressed with Node's zlib): Hudhud's main script `app-FiSVoYnh.js` is 1,991,700 bytes (414,333 with Brotli at quality 11, 550,818 with gzip at level 9); no style rule was added; with Ibn Battuta's inn it was measured at 1,960,176 bytes (409,242 with Brotli), so the tenth room with the shared sorting room adds about 31 KB (about 5 KB with Brotli).
+
+**Measured beside the workshop** (`hudhud-play.ts`, Medium, 1920×1080, Explorer, the founder's Mac, Chrome 158, 27 November 2026, run between 18:00 and 18:02 local time (23:00 to 23:02 UTC), the load average between 3.0 and 3.4 as `uptime` read it before, between and after the two runs, below 10; frame times while the bird crosses the whole room and back for 14 seconds). Only the workshop was run again beside it; the inn's row is the one measured with it above, on the same machine, and is not a fresh run.
+
+| Room | Textures | Texture memory (decoded) | Objects | Draw calls a frame | Frame time: mean / p95 / p99 / max | Frames over 16.7 ms | JS heap |
+|---|---:|---:|---:|---:|---|---:|---:|
+| Ibn al-Haytham's workshop (run again) | 50 | 47.5 MB | 129 | 19 | 8.33 / 9.1 / 9.4 / 9.6 ms | 0 of 1,704 | 93 MB |
+| Ibn Battuta's inn (earlier run) | 64 | 23.2 MB | 66 | 11 | 8.33 / 9.0 / 9.3 / 11.4 ms | 0 of 1,700 | 68 MB |
+| The coffee room | 43 | 19.4 MB | 45 | 8 | 8.33 / 9.3 / 9.4 / 9.6 ms | 0 of 1,701 | 65 MB |
+
+(Texture memory is the decoded bytes `info()` counts: 19,402,164 for the coffee room, whose largest textures are the two columns of its painting, 2045×1080 and 1557×1080.) Opening the room ten times left the same 43 textures, 19,402,164 bytes and 45 objects. A lost graphics context in the room is told to the player and the room is drawn again with the cards as they stood. Play to scene: 231 ms. The frame time is the display's 8.33 ms: these numbers say the room is light on this machine, not how light.
+
 ## Measurements (one machine, not a reference machine)
 
 The founder's MacBook Pro (Apple M4 Max, 128 GB, macOS 27.2.1), Chrome 158, a 120 Hz display, device pixel ratio 1, window 1920×1080; `gaming/tools/hudhud-play.ts`, 26 November 2026. The reports are in [`../evidence/hudhud/golden-scene/`](../evidence/hudhud/golden-scene/). **Neither reference machine (M1 Air 8 GB; Windows 11, i5-1135G7, 8 GB) has run it. No 60-minute profile and no four-hour soak has been run.**

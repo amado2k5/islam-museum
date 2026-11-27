@@ -194,9 +194,16 @@ describe("Ibn Battuta's inn: talk is the page quest's questions and answers", ()
 describe("Ibn Battuta's inn: its strings", () => {
   const tables = Object.fromEntries(LANGS.map((l) => [l, table(l)]));
   const keys = Object.keys(tables.en!).filter((k) => k.startsWith("ibr_"));
-  it("are twelve, at the end of every table, in the same order", () => {
+  // They were the last twelve of every table until the coffee room (27 November 2026) appended its own after them; they
+  // are still one block, in the same order, in every table, and only the coffee room's keys come after them.
+  it("are twelve, one block in every table, in the same order, with only the coffee room's keys after them", () => {
     expect(keys).toHaveLength(12);
-    for (const l of LANGS) expect(Object.keys(tables[l]!).slice(-keys.length), l).toEqual(keys);
+    for (const l of LANGS) {
+      const all = Object.keys(tables[l]!);
+      const at = all.indexOf(keys[0]!);
+      expect(all.slice(at, at + keys.length), l).toEqual(keys);
+      expect(all.slice(at + keys.length).every((k) => k.startsWith("cqr_")), l).toBe(true);
+    }
   });
   it("say that the inn, the great ring, the beads on it and the scroll are invented for play and that the ring is not a map, in the founder's words in Arabic and English", () => {
     expect(tables.ar!.ibr_note_room).toBe("الخان والحلقة الكبيرة والخرز عليها واللفافة من خيال اللعب، والحلقة ليست خريطة.");
