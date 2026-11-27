@@ -31851,8 +31851,8 @@ websites:
     site_url: https://commons.wikimedia.org
     licence: per file, read from each file page (CC0, public domain, CC BY or CC BY-SA only); the photographs are shown from their Commons addresses and never copied
     lane: place-photographs
-    completion: claimed
-    state: "batch 1 read on 2026-11-26: 65 file pages (author, date, licence, size) and the Wikidata items that name them as the subject's image; 65 media records drafted in packets place-photographs-1 to -3, waiting for the lander; no file downloaded"
+    completion: ingested
+    state: "batch 1 read on 2026-11-26: 65 file pages (author, date, licence, size) and the Wikidata items that name them as the subject's image; the 65 media records of packets place-photographs-1 to -3 landed on 2026-11-26 in pull request #8387; no file downloaded"
     registered: '2026-11-26'
     notes: "Lane document docs/agents/lanes/place-photographs.md; progress and held items docs/delegation/place-photographs-progress.md. Each page below was read at the Commons revision recorded in docs/authenticity-ledger/pages/commons-<media slug>.yaml. A page is marked cited when its media record lands."
     pages:
@@ -31922,8 +31922,8 @@ websites:
     - {url: "https://commons.wikimedia.org/wiki/File:Tombeau_dAskia_in_Gao_by_David_Sessoms.jpg", taken: "author, date and licence for media/gao-tomb-of-askia-sessoms, file-page revision 1172987334", date: '2026-11-26', lane: place-photographs, state: cited}
     - {url: "https://commons.wikimedia.org/wiki/File:The_northern_gate_of_sijilmassa_Mansouria.jpg", taken: "author, date and licence for media/sijilmasa-northern-gate-hmidanix, file-page revision 1211384755", date: '2026-11-26', lane: place-photographs, state: cited}
     - {url: "https://commons.wikimedia.org/wiki/File:Malacca_River_Walk_2012.JPG", taken: "author, date and licence for media/malacca-river-walk-torrissen, file-page revision 1142752688", date: '2026-11-26', lane: place-photographs, state: cited}
-    unverified:
-    - pr_numbers
+    prs:
+    - 8387
   # END websites:place-photographs
   # END websites
 

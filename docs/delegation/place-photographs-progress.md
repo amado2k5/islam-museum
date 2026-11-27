@@ -5,10 +5,10 @@ The lander appends one line per landed record under "Ledger" at the end of this 
 
 ## Next step
 
-1. The lander lands packets `place-photographs-1`, `-2` and `-3` (65 records, verified, in `packets/verified/`
-   at the harvest root). Nothing of this lane is on `main` or live before that train and the founder's deploy.
-2. After the landing, mark the 65 pages of `web-commons-place-photographs` in the harvest register `cited`,
-   and retake the Atlas count: `npm --prefix gaming run atlas:images`.
+1. Landed: packets `place-photographs-1`, `-2` and `-3` (65 records) reached `main` on 26 November 2026 in pull
+   request #8387; the 65 pages of `web-commons-place-photographs` in the harvest register are `cited`. The
+   pictures appear on the site at the founder's next deploy.
+2. Retake the Atlas count on `main` after each batch: `npm --prefix gaming run atlas:images`.
 3. Batch 2: a second picture for the places that have one, and the held subjects below once the founder has
    ruled on them. A daily image round needs 365 pictures with at most four subjects a place (G-0008 rule 6).
 
