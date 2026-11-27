@@ -15,6 +15,8 @@ import { SORT_ART, cardRects, trayRects } from "../games/hudhud/src/art/sort";
 import { CHANNELS_ART, channelsLayout, tileOrigin } from "../games/hudhud/src/art/channels";
 import { COLLATE_ART, cellCentre } from "../games/hudhud/src/art/collate";
 import { slipsOf } from "../games/hudhud/src/sim/collate";
+import { IBR_RING, beadAt } from "../games/hudhud/src/content/battuta-room";
+import { routeStage } from "../games/hudhud/src/content/route";
 import { EXPLORER, HELPER, SCHOLAR, drawnBox, overlaps } from "../games/hudhud/src/content/people";
 import { flow, period, type Kind, type Side } from "../games/hudhud/src/sim/channels";
 import { clockPuzzle } from "../games/hudhud/src/content/clock";
@@ -1240,8 +1242,9 @@ for (const lang of ["en", "ar"]) {
   const bead = (page: Page, stop: string) => page.locator(`.bench .route-beads button[data-stop='${stop}']`);
   const ranText = (page: Page) => ev<string>(page, "document.querySelector('.bench .ran').textContent");
   const sentenceText = (page: Page) => ev<string>(page, "document.querySelector('.bench .stage-text').textContent");
+  // Since 27 November 2026 Ibn Battuta's scene is played in his inn, a room; `room=off` keeps this check on the road's page, which stays as the way it is played without WebGL.
   const ctx = await browser.newContext({ viewport: { width: 1280, height: 900 } });
-  let page = await open(ctx, "&style=explorer");
+  let page = await open(ctx, "&style=explorer&room=off");
   const button = page.locator(`.hub button[data-quest='${QUEST}']`);
   const isPlain = await button.evaluate((b) => !b.classList.contains("primary"));
   const label = await button.textContent();
@@ -1301,7 +1304,8 @@ for (const lang of ["en", "ar"]) {
   await ctx.close();
   // Left in the middle: two stops threaded and a question asked, the page loaded again, and the Atlas says Continue; the thread and the question are where they were, and the sentence is still hidden.
   const ctx2 = await browser.newContext({ viewport: { width: 1280, height: 900 } });
-  page = await open(ctx2, "&style=explorer");
+  // Since 27 November 2026 Ibn Battuta's scene is played in his inn, a room; `room=off` keeps this check on the road's page, which stays as the way it is played without WebGL.
+  page = await open(ctx2, "&style=explorer&room=off");
   await page.locator(`.hub button[data-quest='${QUEST}']`).click();
   await bead(page, "red-sea").click();
   await bead(page, "yemen").click();
@@ -1325,14 +1329,16 @@ for (const lang of ["en", "ar"]) {
   await ctx2.close();
   // Story never hides the sentence and says which stop is next; Challenge shows it before the first step, hides it once the thread begins, counts showing it again as a slip, and sends the thread back to the start on a wrong stop; Baghdad is threaded twice.
   const ctx3 = await browser.newContext({ viewport: { width: 1280, height: 900 } });
-  page = await open(ctx3, "&style=story");
+  // Since 27 November 2026 Ibn Battuta's scene is played in his inn, a room; `room=off` keeps this check on the road's page, which stays as the way it is played without WebGL.
+  page = await open(ctx3, "&style=story&room=off");
   await page.locator(`.hub button[data-quest='${QUEST}']`).click();
   await bead(page, "tangier").click();
   await bead(page, "egypt").click();
   const story = { v: await rv(page), ran: await ranText(page), sentence: await sentenceText(page), peekHidden: await ev<boolean>(page, "[...document.querySelectorAll('.bench button')].find((b) => b.textContent === 'Show the stage again').hidden"), beads: await ev<number>(page, "document.querySelectorAll('.bench .route-beads button').length") };
   await ctx3.close();
   const ctx4 = await browser.newContext({ viewport: { width: 1280, height: 900 } });
-  page = await open(ctx4, "&style=challenge");
+  // Since 27 November 2026 Ibn Battuta's scene is played in his inn, a room; `room=off` keeps this check on the road's page, which stays as the way it is played without WebGL.
+  page = await open(ctx4, "&style=challenge&room=off");
   await page.locator(`.hub button[data-quest='${QUEST}']`).click();
   const c0 = { v: await rv(page), sentence: await sentenceText(page), note: await ev<boolean>(page, "!document.querySelector('.bench .small:not([hidden])') ? false : [...document.querySelectorAll('.bench p.small')].some((p) => /counts as a slip/.test(p.textContent) && !p.hidden)"), beadNames: await ev<string[]>(page, "[...document.querySelectorAll('.bench .route-beads button')].map((b) => b.textContent)") };
   await bead(page, "mecca").click();
@@ -1366,7 +1372,8 @@ for (const lang of ["en", "ar"]) {
   const arCtx = await browser.newContext({ viewport: { width: 1280, height: 900 } });
   const ar = await arCtx.newPage();
   ar.on("pageerror", (e) => errors.push(String(e)));
-  await ar.goto(`${served.base}/games/hudhud/index.html?lang=ar&music=off&style=explorer`);
+  // Since 27 November 2026 Ibn Battuta's scene is played in his inn, a room; `room=off` keeps this check on the road's page, which stays as the way it is played without WebGL.
+  await ar.goto(`${served.base}/games/hudhud/index.html?lang=ar&music=off&style=explorer&room=off`);
   await ar.waitForFunction("window.__HH__ && window.__HH__.ready");
   await leaveOpening(ar);
   await ar.locator(`.hub button[data-quest='${QUEST}']`).click();
@@ -4900,6 +4907,361 @@ for (const lang of ["en", "ar"]) {
     record(`in ${room.name}, the bird walked just past the figure and standing still: the explorer, following, stops short of the figure and does not stand overlapping any person (by where(), the scene's own positions and the people's drawn boxes), where the old rule would have stood it in front of the figure`,
       bird.grounded && bird.x >= fig + 100 && Math.abs(later.explorer - stood.explorer) < 0.5 && boxes.every((b) => !overlaps(me, b)) && stood.explorer < fig && oldWouldOverlap,
       { bird, stood, later: later.explorer, old, oldWouldOverlap });
+    await ctx.close();
+  }
+}
+// Ibn Battuta's inn, the ninth room on the room engine (asked for by the founder, 27 November 2026): opened from the
+// Atlas it is a canvas scene with the inn in words (how far the thread has come and the slips, the stage's sentence,
+// every bead in the ring's order as a button that says its number, its stop and whether it is on the thread, Ibn
+// Battuta, the child, the saddlebag and the scroll as buttons); the stage's sentence showing, hidden after the first
+// right bead (threaded by flight and touch), and shown again by touching the scroll on the lectern; a wrong bead by
+// flight is a slip with the page's sentence; both questions, the kind answer and the feather in the saddlebag on the high
+// ledge; the rest of the road threaded by flight and touch, the lit door, the panel with four goals and the notes (the
+// inn's note among them), and the door walked to with real key presses; a reload resumes in the inn as it was; a
+// Challenge inn, where a wrong bead sends the thread back to the first stop and Baghdad is threaded twice; in a journey,
+// Karima's lit door leads into the inn; an Arabic page; movement kept still; and without WebGL the scene is played on the
+// road's page.
+{
+  type IbShown = { on: string[]; pieces: number; wrong: string | null; focus: string | null; feather: boolean; agree: boolean };
+  type Ib = { at: number; slips: number; showing: boolean; flags: string[]; done: boolean; style: string; last: { stop: string; right: boolean } | null; stage: { stops: string[]; road: string[] }; talk: { script: string } | null; sentence: string; status: string; doorLit: boolean; shown: IbShown | null };
+  const QUEST = "w06q1-ibn-battuta";
+  const ROOM = ".room-box";
+  const NOTE_ROOM = "The inn, the great ring, the beads on it and the scroll are invented for play, and the ring is not a map.";
+  const ib = (page: Page) => ev<Ib | null>(page, "window.__HH__.battuta()");
+  const openIb = async (page: Page) => {
+    await page.locator(`.hub button[data-quest='${QUEST}']`).click();
+    await page.waitForFunction("window.__HH__.battuta() !== null && window.__HH__.where() !== null", undefined, { timeout: 30000 });
+    await page.waitForTimeout(700);
+  };
+  const skipTalk = async (page: Page) => {
+    for (let i = 0; i < 8 && (await ib(page))?.talk; i++) {
+      await page.locator(`${ROOM} .talk button.quiet`).last().click();
+      await page.waitForTimeout(150);
+    }
+  };
+  /** Flies the bird to a thing by the engine's own flight (goTo), and waits until it has landed and touched it. */
+  const fly = async (page: Page, id: string, until: string) => {
+    await ev(page, `window.__HH__.goTo(${JSON.stringify(id)})`);
+    await page.waitForFunction(until, undefined, { timeout: 8000 });
+    await page.waitForTimeout(150);
+  };
+  const walkRight = async (page: Page, until: string) => {
+    await page.keyboard.down("ArrowRight");
+    try {
+      await page.waitForFunction(until, undefined, { timeout: 25000 });
+    } finally {
+      await page.keyboard.up("ArrowRight");
+    }
+  };
+  /** Where the bird stands on a bead's peg, worked out here from the inn's layout (content/battuta-room.ts), not from the scene. */
+  const pegY = (style: "story" | "explorer" | "challenge", stop: string, rtl: boolean) => {
+    const stops = routeStage(style).stops;
+    return beadAt(stops.length, stops.indexOf(stop), rtl).y + IBR_RING.peg;
+  };
+  const words = (page: Page) => ev<{ counts: string; sentence: string; live: string | null; group: string | null; beads: string[]; on: string[]; sized: boolean; others: string[] }>(page, `(() => { const bs = [...document.querySelectorAll('${ROOM} .sheet-rows button')]; return { counts: document.querySelector('${ROOM} .room-words .carrying').textContent, sentence: document.querySelector('${ROOM} .room-words .stage-text').textContent, live: document.querySelector('${ROOM} .room-words .stage-text').getAttribute('aria-live'), group: document.querySelector('${ROOM} .sheet-rows').getAttribute('aria-label'), beads: bs.map((b) => b.textContent), on: bs.filter((b) => b.classList.contains('on')).map((b) => b.dataset.stop), sized: bs.every((b) => b.getBoundingClientRect().width >= 44 && b.getBoundingClientRect().height >= 44), others: [...document.querySelectorAll('${ROOM} .room-words > ul li button')].map((b) => b.textContent) }; })()`);
+  const ranText = (page: Page) => ev<string>(page, `document.querySelector('${ROOM} .ran').textContent`);
+
+  // (1) to (6): one play in Explorer, from the Atlas, by flight, touch and keys.
+  {
+    const ctx = await browser.newContext({ viewport: { width: 1280, height: 900 } });
+    const page = await open(ctx, "&style=explorer");
+    const atlasItem = await ev<{ label: string; notes: number }>(page, `(() => { const b = document.querySelector(".hub button[data-quest='${QUEST}']"); return { label: b.textContent, notes: b.parentElement.querySelectorAll('small').length }; })()`);
+    await openIb(page);
+    const opened = await ev<{ canvases: number; benchHidden: boolean; roomShown: boolean; heading: string; alt: string | null; info: { renderer: string; largestTextures: { width: number; height: number }[] }; talk: string | null; roomNote: string; objective: string }>(page, `({ canvases: document.querySelectorAll('${ROOM} .stage canvas').length, benchHidden: document.querySelector('.bench').hidden, roomShown: !document.querySelector('${ROOM}').hidden, heading: document.querySelector('${ROOM} h2').textContent, alt: document.querySelector('${ROOM} .stage').getAttribute('aria-label'), info: window.__HH__.info(), talk: document.querySelector('${ROOM} .talk:not([hidden]) .who') ? document.querySelector('${ROOM} .talk .who').textContent : null, roomNote: document.querySelector('${ROOM} .words section:last-child p').textContent, objective: document.querySelector('${ROOM} .objective').textContent })`);
+    const first = (await ib(page))!;
+    const firstWords = await words(page);
+    if (outDir) (mkdirSync(outDir, { recursive: true }), await page.screenshot({ path: resolve(outDir, "battuta-room-start.png") }));
+    record("Ibn Battuta's inn opens from the Atlas as a canvas scene on the room engine: the Atlas names it as it names the other rooms (no line about a page), the inn speaks first, and the inn is said in words: how far the thread has come, the stage's sentence showing in a polite live region (and in the objective over the picture), every bead in the ring's order as a button of at least 44 pixels naming its number and stop, and every other thing a button (Ibn Battuta, the child, the saddlebag, the scroll), with the inn's note",
+      atlasItem.label === "Play: Ibn Battuta" && atlasItem.notes === 0 && opened.canvases === 1 && opened.benchHidden && opened.roomShown && opened.heading === "Ibn Battuta" && opened.alt === "Ibn Battuta's inn, as a picture. The list after it says the same in words." && opened.info.renderer === "webgl" && Math.max(...opened.info.largestTextures.flatMap((t) => [t.width, t.height])) <= 2048 && opened.talk === "Hudhud" && opened.roomNote === NOTE_ROOM &&
+        /He went down the Red Sea to Yemen and Aden/.test(opened.objective) &&
+        first.at === 0 && first.slips === 0 && first.showing && first.stage.stops.length === 8 && first.shown?.agree === true && first.shown.on.length === 0 && first.shown.pieces === 0 && first.shown.feather &&
+        firstWords.counts === "On the thread: 0 of 8 · Slips: 0" && firstWords.sentence === "From the museum's record: He went down the Red Sea to Yemen and Aden, then to Zayla, Mogadishu and the trading ports of East Africa, and came back by Oman and the Gulf." && firstWords.live === "polite" && firstWords.group === "The beads on the great ring, in the ring's order" &&
+        firstWords.beads.join("|") === "Go to Bead 1: Mogadishu|Go to Bead 2: the Gulf|Go to Bead 3: Yemen|Go to Bead 4: Oman|Go to Bead 5: Red Sea|Go to Bead 6: Zayla|Go to Bead 7: Ports of East Africa|Go to Bead 8: Aden" && firstWords.sized &&
+        firstWords.others.join("|") === "Go to Ibn Battuta|Go to the child with the camel|Go to the saddlebag on the high ledge|Go to the scroll on the lectern",
+      { atlasItem, opened: { ...opened, info: { renderer: opened.info.renderer } }, first: { at: first.at, showing: first.showing, shown: first.shown }, firstWords });
+    await skipTalk(page);
+
+    // (2) The first right bead by flight: the bird stands on its peg with it within reach; the thread reaches it and the sentence is hidden.
+    await fly(page, "bead-red-sea", "window.__HH__.battuta().at === 1");
+    const onPeg = await ev<{ x: number; y: number; near: string | null }>(page, "window.__HH__.where()");
+    const step1 = { v: (await ib(page))!, ran: await ranText(page), w: await words(page) };
+    record("the first right bead, flown to and touched, threads the road as on the page: the bird stands on the bead's own peg with the bead within reach, the thread reaches Red Sea with the page's sentence, the bead is drawn on the thread and its button says so, and the stage's sentence is now hidden (Explorer)",
+      onPeg.near === "bead-red-sea" && Math.abs(onPeg.y - pegY("explorer", "red-sea", false)) < 0.5 && step1.v.at === 1 && !step1.v.showing && step1.v.shown?.agree === true && step1.v.shown.on.join() === "red-sea" && step1.v.shown.focus === "red-sea" &&
+        step1.ran === "The thread reaches Red Sea." && step1.w.sentence === "The sentence of the stage is hidden." && step1.w.beads[4] === "Go to Bead 5: Red Sea, already on the thread" && step1.w.on.join() === "red-sea" && step1.w.counts === "On the thread: 1 of 8 · Slips: 0",
+      { onPeg, step1: { at: step1.v.at, showing: step1.v.showing, shown: step1.v.shown }, ran: step1.ran, words: { sentence: step1.w.sentence, bead: step1.w.beads[4], on: step1.w.on } });
+
+    // (3) A wrong bead by flight: a slip, said in the page's words for Explorer, and marked on the ring.
+    await fly(page, "bead-oman", "window.__HH__.battuta().slips === 1");
+    const wrong = { v: (await ib(page))!, ran: await ranText(page), near: (await ev<{ near: string | null }>(page, "window.__HH__.where()")).near };
+    record("a wrong bead by flight is a slip exactly as on the page: the thread stays where it was, one slip is counted, the page's sentence says only that it is not the next stop, and the ring marks that bead with the page's broken ring",
+      wrong.near === "bead-oman" && wrong.v.at === 1 && wrong.v.slips === 1 && wrong.v.last?.stop === "oman" && wrong.v.last.right === false && wrong.ran === "That is not the next stop." && wrong.v.shown?.agree === true && wrong.v.shown.wrong === "oman",
+      { wrong: { at: wrong.v.at, slips: wrong.v.slips, last: wrong.v.last, shown: wrong.v.shown }, ran: wrong.ran });
+
+    // (4) The scroll on the lectern, by flight: the stage's sentence comes back, for nothing in Explorer. Then the touch key on it again changes nothing.
+    await fly(page, "scroll", "window.__HH__.battuta().showing");
+    const peeked = { v: (await ib(page))!, w: await words(page) };
+    await page.locator(`${ROOM} .stage`).focus();
+    await page.keyboard.press("KeyE");
+    await page.waitForTimeout(300);
+    const again = (await ib(page))!;
+    record("touching the scroll on the lectern by flight shows the stage's sentence again, as the page's 'Show the stage again' does: free in Explorer (the slips stay at one); touched again with the touch key while it shows, nothing changes",
+      peeked.v.showing && peeked.v.slips === 1 && peeked.v.at === 1 && peeked.w.sentence.startsWith("From the museum's record: He went down the Red Sea") && again.showing && again.slips === 1 && again.at === 1,
+      { peeked: { showing: peeked.v.showing, slips: peeked.v.slips }, sentence: peeked.w.sentence, again: { showing: again.showing, slips: again.slips } });
+
+    // (5) Ibn Battuta, the child and the saddlebag, by touching them; the Touch button touches the child again.
+    await fly(page, "ibn", "window.__HH__.battuta().talk !== null");
+    const hello = await page.locator(`${ROOM} .talk .line + span`).textContent();
+    const helloWho = await page.locator(`${ROOM} .talk .who`).textContent();
+    await page.locator(`${ROOM} .talk .choices button`, { hasText: "Ask when he set out" }).click();
+    const leftWho = await page.locator(`${ROOM} .talk .who`).textContent();
+    const leftLine = await page.locator(`${ROOM} .talk .line + span`).textContent();
+    await page.locator(`${ROOM} .talk .choices button`, { hasText: "Ask who wrote his journey down" }).click();
+    const writtenLine = await page.locator(`${ROOM} .talk .line + span`).textContent();
+    const thanks = await page.locator(`${ROOM} .talk .choices button`).last().textContent();
+    await page.locator(`${ROOM} .talk .choices button`).last().click();
+    const bye = await page.locator(`${ROOM} .talk .line + span`).textContent();
+    await page.locator(`${ROOM} .talk button`, { hasText: "Next" }).click();
+    await fly(page, "child", "window.__HH__.battuta().talk !== null");
+    const childWho = await page.locator(`${ROOM} .talk .who`).textContent();
+    const childLine = await page.locator(`${ROOM} .talk .line + span`).textContent();
+    await page.locator(`${ROOM} .talk .choices button`, { hasText: "Do not be afraid." }).click();
+    for (let i = 0; i < 3 && (await ib(page))?.talk; i++) await page.locator(`${ROOM} .talk button`, { hasText: "Next" }).click();
+    await page.locator(`${ROOM} .pad button.wide`).click();
+    const childAgain = (await ib(page))!.talk?.script ?? null;
+    await skipTalk(page);
+    await fly(page, "saddlebag", "window.__HH__.battuta().flags.includes('feather')");
+    const onLedge = await ev<{ y: number }>(page, "window.__HH__.where()");
+    const featherLine = await page.locator(`${ROOM} .talk .line + span`).textContent();
+    await skipTalk(page);
+    const asked = (await ib(page))!;
+    record("touching Ibn Battuta greets in his imagined words and asks when he set out and who wrote his journey down (the page's own lines, said by the museum's record), with a goodbye of the inn's own; the child with the camel is answered kindly, and the Touch button touches the child again; the feather is in the saddlebag on the high ledge, reached by flight; the flags are the page quest's own and the thread is unchanged",
+      hello === "Welcome to the inn, little traveller. Rest your wings, then follow the thread." && helloWho === "Ibn Battuta, in imagined words" && leftWho === "From the museum's record" && /left Tangier on Thursday the second of Rajab in the year 725/.test(leftLine ?? "") && /Sultan Abu Inan ordered it written, Ibn Battuta dictated it, and Ibn Juzayy edited it/.test(writtenLine ?? "") &&
+        thanks === "Thank you. Now to the beads." && bye === "Go well. One stop and then the next, and the road will not be lost." &&
+        childWho === "The child with the camel, an invented person" && /My camel has lost its bell/.test(childLine ?? "") && childAgain === "childKind" &&
+        onLedge.y === 250 && featherLine === "A feather, caught in the saddlebag! It is one of mine." && asked.flags.slice().sort().join() === "answered,askedLeft,askedWritten,feather,kind" && asked.at === 1 && asked.slips === 1 && asked.shown?.feather === false,
+      { hello, helloWho, leftWho, leftLine, writtenLine, thanks, bye, childWho, childLine, childAgain, onLedge, featherLine, flags: asked.flags });
+
+    // (6) The rest of the road threaded by flight and touch; the door lights, the panel; then the door walked to with real key presses.
+    const road = asked.stage.road;
+    for (let k = asked.at; k < road.length; k++) {
+      await fly(page, `bead-${road[k]}`, `window.__HH__.battuta().at === ${k + 1}`);
+      if (k === 4 && outDir) await page.screenshot({ path: resolve(outDir, "battuta-room-thread-part-way.png") });
+      if (k === 4) {
+        const part = (await ib(page))!;
+        record("part way along the road, the ring shows the thread from bead to bead in the order it was threaded: the beads on the thread, one piece of thread fewer than the stops threaded, as the rules have them",
+          part.at === 5 && part.shown?.agree === true && part.shown.on.length === 5 && part.shown.pieces === 4, { at: part.at, shown: part.shown });
+      }
+    }
+    await page.waitForFunction("window.__HH__.battuta().doorLit", undefined, { timeout: 10000 });
+    await page.waitForTimeout(400);
+    const live = await ev<string>(page, `document.querySelector('${ROOM} .room > .visually-hidden[role=status]').textContent`);
+    const panel = await ev<{ shown: boolean; modal: number; goals: number; met: number; notes: string[]; links: string[]; pending: string; buttons: string[]; door: { lit: boolean; scene: string }; list: string[]; objective: string; saved: boolean; resume: unknown; beadsDisabled: boolean }>(page, `(() => { const p = document.querySelector('${ROOM} .door-panel'); return { shown: !p.hidden, modal: document.querySelectorAll('[aria-modal=true]').length, goals: p.querySelectorAll('.goals li').length, met: p.querySelectorAll('.goals .met').length, notes: [...p.querySelectorAll('.note p')].map((x) => x.textContent), links: [...p.querySelectorAll('.note a')].map((a) => a.getAttribute('href')), pending: p.querySelector('.pending').textContent, buttons: [...p.querySelectorAll('button')].map((b) => b.textContent), door: window.__HH__.door(), list: [...document.querySelectorAll('${ROOM} .room-words > ul li button')].map((b) => b.textContent), objective: document.querySelector('${ROOM} .objective').textContent, saved: JSON.parse(localStorage.getItem('im.hudhud.save.v1') || '{}').slots?.[0]?.quests?.['${QUEST}']?.done === true, resume: JSON.parse(localStorage.getItem('im.hudhud.save.v1') || '{}').slots?.[0]?.resume ?? null, beadsDisabled: [...document.querySelectorAll('${ROOM} .sheet-rows button')].every((b) => b.disabled) }; })()`);
+    const finished = (await ib(page))!;
+    const doneRan = await ranText(page);
+    await skipTalk(page);
+    await page.locator(`${ROOM} .stage`).focus();
+    await page.keyboard.down("ArrowRight");
+    await page.waitForTimeout(900);
+    if (outDir) await page.screenshot({ path: resolve(outDir, "battuta-room-door-lit.png") });
+    await page.keyboard.up("ArrowRight");
+    await walkRight(page, "!document.querySelector('.hub').hidden");
+    const back = await ev<{ hub: boolean; roomHidden: boolean; last: { scene: string; where: { x: number; y: number; reach: number }; bird: { x: number; y: number } } | null; label: string; canvases: number }>(page, `({ hub: !document.querySelector('.hub').hidden, roomHidden: document.querySelector('.room-box').hidden, last: window.__HH__.lastDoor(), label: document.querySelector(".hub button[data-quest='${QUEST}']").textContent, canvases: document.querySelectorAll('.room-box canvas, #stage canvas').length })`);
+    const reach = back.last ? Math.hypot(back.last.where.x - back.last.bird.x, back.last.where.y - (back.last.bird.y - 30)) : null;
+    record("the rest of the road threaded by flight and touch: the stage is done with one slip, the ring shows the whole thread, Hudhud says the page's last line, the door lights, the panel beside the stage (no modal sheet) shows four goals met, the quest's three notes, the inn's note and 'Historical review pending', and the three links; the list then offers only the door, the place kept is cleared, and holding the right arrow key walks Hudhud to it and, in free play, back to the Atlas",
+      finished.done && finished.at === 8 && finished.slips === 1 && finished.talk?.script === "done" && finished.shown?.agree === true && finished.shown.on.length === 8 && finished.shown.pieces === 7 &&
+        /The thread has reached the last stop of the stage\./.test(doneRan) && /door is open/.test(live) &&
+        panel.shown && panel.modal === 0 && panel.goals === 4 && panel.met === 4 && panel.notes.includes(NOTE_ROOM) && panel.notes.some((n) => /^This is a game, not a history\./.test(n)) && panel.notes.some((n) => /eight stages/.test(n)) && /Historical review pending/.test(panel.pending) && panel.beadsDisabled &&
+        panel.links.join() === "https://islam.museum/en/person/ibn-battuta-muhammad/,https://islam.museum/en/work/rihla-ibn-battuta/,https://islam.museum/en/question/credibility-of-ibn-battuta/" && panel.buttons.join("|") === "Go through the door|Play again|Back to the Atlas" && panel.door.lit && panel.door.scene === "battuta" &&
+        panel.list.join() === "Go through the door" && panel.objective.startsWith("Walk Hudhud to the lit door at the end of the inn.") && panel.saved && panel.resume === null &&
+        back.hub && back.roomHidden && back.last?.scene === "battuta" && reach !== null && reach < back.last.where.reach && /^Play again: /.test(back.label) && back.canvases === 0,
+      { finished: { done: finished.done, at: finished.at, slips: finished.slips, shown: finished.shown }, doneRan, live, panel, back: { ...back }, reach });
+    await ctx.close();
+  }
+
+  // (7) Left in the middle with two stops threaded and a question asked, the page loaded again: the Atlas says Continue,
+  // and the inn comes back as it was, the sentence still hidden.
+  {
+    const ctx = await browser.newContext({ viewport: { width: 1280, height: 900 } });
+    const page = await open(ctx, "&style=explorer");
+    await openIb(page);
+    await skipTalk(page);
+    await fly(page, "bead-red-sea", "window.__HH__.battuta().at === 1");
+    await fly(page, "bead-yemen", "window.__HH__.battuta().at === 2");
+    await fly(page, "ibn", "window.__HH__.battuta().talk !== null");
+    await page.locator(`${ROOM} .talk .choices button`, { hasText: "Ask when he set out" }).click();
+    await skipTalk(page);
+    const left = (await ib(page))!;
+    const kept = await ev<{ quest: string; snap: Record<string, unknown> } | null>(page, "JSON.parse(localStorage.getItem('im.hudhud.save.v1') || '{}').slots?.[0]?.resume ?? null");
+    await ev(page, "window.__HH__.saveReady()");
+    await page.reload();
+    await page.waitForFunction("window.__HH__ && window.__HH__.ready");
+    await leaveOpening(page);
+    const label = await ev<string>(page, `document.querySelector(".hub button[data-quest='${QUEST}']").textContent`);
+    await page.locator(`.hub button[data-quest='${QUEST}']`).click();
+    await page.waitForFunction("window.__HH__.battuta() !== null && window.__HH__.where() !== null", undefined, { timeout: 30000 });
+    await page.waitForTimeout(500);
+    const resumed = (await ib(page))!;
+    const resumedWords = await words(page);
+    if (outDir) await page.screenshot({ path: resolve(outDir, "battuta-room-resumed.png") });
+    record("Ibn Battuta's inn left in the middle keeps the road's own snapshot (the page quest's, nothing more); the page loaded again, the Atlas says Continue, and the inn comes back as it was (two stops on the thread and drawn so, the question asked, the sentence hidden, no talk), said in words",
+      left.at === 2 && left.flags.join() === "askedLeft" && kept?.quest === QUEST && Object.keys(kept.snap).sort().join() === "at,flags,slips,style" &&
+        /^Continue: /.test(label) && resumed.at === 2 && resumed.slips === 0 && resumed.flags.join() === "askedLeft" && !resumed.showing && resumed.talk === null && resumed.shown?.agree === true && resumed.shown.on.slice().sort().join() === "red-sea,yemen" && resumed.shown.pieces === 1 &&
+        resumedWords.counts === "On the thread: 2 of 8 · Slips: 0" && resumedWords.sentence === "The sentence of the stage is hidden." && resumedWords.on.slice().sort().join() === "red-sea,yemen",
+      { left: { at: left.at, flags: left.flags }, kept, label, resumed: { at: resumed.at, flags: resumed.flags, showing: resumed.showing, shown: resumed.shown }, resumedWords: { counts: resumedWords.counts, sentence: resumedWords.sentence, on: resumedWords.on } });
+    await ctx.close();
+  }
+
+  // (8) A Challenge inn: showing the stage again from the scroll is a slip, a wrong bead sends the thread back to the
+  // first stop (and says so), and Baghdad is threaded twice.
+  {
+    const ctx = await browser.newContext({ viewport: { width: 1280, height: 900 } });
+    const page = await open(ctx, "&style=challenge");
+    await openIb(page);
+    await skipTalk(page);
+    const c0 = (await ib(page))!;
+    await fly(page, "bead-mecca", "window.__HH__.battuta().at === 1");
+    const c1 = (await ib(page))!;
+    await fly(page, "scroll", "window.__HH__.battuta().showing");
+    const c2 = { v: (await ib(page))!, ran: await ranText(page) };
+    for (const [k, stop] of ["iraq", "khuzistan", "fars"].entries()) await fly(page, `bead-${stop}`, `window.__HH__.battuta().at === ${k + 2}`);
+    await fly(page, "bead-tabriz", "window.__HH__.battuta().at === 0"); // wrong: Jibal is next
+    const c3 = { v: (await ib(page))!, ran: await ranText(page), w: await words(page) };
+    if (outDir) await page.screenshot({ path: resolve(outDir, "battuta-room-challenge-reset.png") });
+    const road = c0.stage.road;
+    for (let k = 0; k < road.length - 1; k++) await fly(page, `bead-${road[k]}`, `window.__HH__.battuta().at === ${k + 1}`);
+    const c4 = (await ib(page))!;
+    await fly(page, "bead-baghdad", "window.__HH__.battuta().done");
+    const c5 = (await ib(page))!;
+    record("Ibn Battuta's inn in Challenge: nine beads for ten steps; the sentence shows before the first step and is hidden once the thread begins; the scroll shows it again and that counts as a slip (in the page's words); a wrong bead by flight sends the thread back to the first stop and says so; and Baghdad, threaded once, is threaded again as the last stop",
+      c0.stage.stops.length === 9 && road.length === 10 && road.filter((x) => x === "baghdad").length === 2 && c0.showing && c1.at === 1 && !c1.showing &&
+        c2.v.showing && c2.v.slips === 1 && c2.ran === "The stage is shown again. That counts as a slip." &&
+        c3.v.at === 0 && c3.v.slips === 2 && c3.ran === "That is not the next stop. The thread goes back to the start." && c3.v.shown?.agree === true && c3.v.shown.on.length === 0 && c3.v.shown.pieces === 0 && c3.v.shown.wrong === "tabriz" && c3.w.counts === "On the thread: 0 of 10 · Slips: 2" &&
+        c4.at === 9 && c4.shown?.on.includes("baghdad") === true && !c4.done && c5.done && c5.at === 10 && c5.slips === 2 && c5.shown?.pieces === 9,
+      { c0: { stops: c0.stage.stops.length, showing: c0.showing }, c1: { at: c1.at, showing: c1.showing }, c2: { showing: c2.v.showing, slips: c2.v.slips, ran: c2.ran }, c3: { at: c3.v.at, slips: c3.v.slips, ran: c3.ran, shown: c3.v.shown, counts: c3.w.counts }, c4: { at: c4.at }, c5: { done: c5.done, at: c5.at, slips: c5.slips, pieces: c5.shown?.pieces } });
+    await ctx.close();
+  }
+
+  // (9) In the journey: Karima al-Marwaziyya's lit door, walked to with the right arrow key, leads into this inn (the
+  // ninth scene: no page, no corridor, Hudhud's line naming him).
+  {
+    const ctx = await browser.newContext({ viewport: { width: 1280, height: 900 } });
+    const page = await open(ctx, "&style=explorer");
+    // The journey is begun and taken straight to Karima's room through the scenes before it, each finished by the test hooks.
+    await ev(page, "window.__HH__.beginJourney()");
+    await page.waitForFunction("window.__HH__.where() !== null", undefined, { timeout: 30000 });
+    await ev(page, "window.__HH__.command({type:'skip'}); for (const id of ['mirror-a','mirror-c','mirror-e']) window.__HH__.touch(id); window.__HH__.command({type:'skip'}); window.__HH__.touch('page');");
+    await ev(page, "window.__HH__.goThroughDoor()");
+    await page.waitForFunction("window.__HH__.tusi() !== null && window.__HH__.where() !== null", undefined, { timeout: 30000 });
+    await ev(page, "window.__HH__.tusiCommand({ type: 'skip' }); for (const id of ['lever-speed', 'lever-dir', 'crank']) window.__HH__.tusiCommand({ type: 'touch', id });");
+    await page.waitForFunction("window.__HH__.tusi().doorLit", undefined, { timeout: 15000 });
+    await ev(page, "window.__HH__.goThroughDoor()");
+    await page.waitForFunction("window.__HH__.jazari() !== null && window.__HH__.where() !== null", undefined, { timeout: 30000 });
+    await ev(page, "window.__HH__.jazariCommand({ type: 'skip' })");
+    for (const id of ["place-2", "place-3", "place-1", "place-1", "place-3", "spare-1", "place-2", "spare-1", "place-3", "place-5", "place-4", "lever"]) await ev(page, `window.__HH__.jazariCommand({ type: 'touch', id: '${id}' })`);
+    await page.waitForFunction("window.__HH__.jazari().doorLit", undefined, { timeout: 15000 });
+    await ev(page, "window.__HH__.goThroughDoor()");
+    await page.waitForFunction("window.__HH__.khwarizmi() !== null && window.__HH__.where() !== null", undefined, { timeout: 30000 });
+    await ev(page, "window.__HH__.khwarizmiCommand({ type: 'skip' })");
+    for (const id of ["restore-left-number", "weight-things", "scoop"]) await ev(page, `window.__HH__.khwarizmiCommand({ type: 'touch', id: '${id}' })`);
+    await page.waitForFunction("window.__HH__.khwarizmi().doorLit", undefined, { timeout: 15000 });
+    await ev(page, "window.__HH__.goThroughDoor()");
+    await page.waitForFunction("window.__HH__.kindi() !== null && window.__HH__.where() !== null", undefined, { timeout: 30000 });
+    await ev(page, "window.__HH__.kindiCommand({ type: 'skip' }); (() => { const k = window.__HH__.kindi(); for (const m of Object.keys(k.puzzle.key)) if (k.puzzle.message.includes(m)) { window.__HH__.kindiCommand({ type: 'touch', id: 'token-' + k.puzzle.key[m] }); window.__HH__.kindiCommand({ type: 'touch', id: 'slot-' + m }); } window.__HH__.kindiCommand({ type: 'touch', id: 'bell' }); })()");
+    await page.waitForFunction("window.__HH__.kindi().doorLit", undefined, { timeout: 15000 });
+    await ev(page, "window.__HH__.goThroughDoor()");
+    await page.waitForFunction("window.__HH__.idrisi() !== null && window.__HH__.where() !== null", undefined, { timeout: 30000 });
+    await ev(page, "window.__HH__.idrisiCommand({ type: 'skip' }); (() => { for (let i = 0; i < 30; i++) { const s = window.__HH__.idrisi(); const p = s.grid.findIndex((id, k) => id !== s.solution[k]); if (p < 0 || s.done) break; window.__HH__.idrisiCommand({ type: 'touch', id: 'place-' + p }); window.__HH__.idrisiCommand({ type: 'touch', id: 'place-' + s.grid.indexOf(s.solution[p]) }); } })()");
+    await page.waitForFunction("window.__HH__.idrisi().doorLit", undefined, { timeout: 15000 });
+    await ev(page, "window.__HH__.goThroughDoor()");
+    await page.waitForFunction("window.__HH__.razi() !== null && window.__HH__.where() !== null", undefined, { timeout: 30000 });
+    // The study's leaves put in the order of the explorer's way of playing (the study's own record above), and bound.
+    await ev(page, "window.__HH__.raziCommand({ type: 'skip' }); (() => { const A = ['books-head', 'own-head', 'books-chest', 'own-chest', 'books-foot', 'own-foot']; for (let i = 0; i < 20; i++) { const s = window.__HH__.razi(); const p = s.places.findIndex((id, k) => id !== A[k]); if (p < 0) break; window.__HH__.raziCommand({ type: 'touch', id: 'place-' + p }); window.__HH__.raziCommand({ type: 'touch', id: 'place-' + window.__HH__.razi().places.indexOf(A[p]) }); } window.__HH__.raziCommand({ type: 'touch', id: 'frame' }); })()");
+    await page.waitForFunction("window.__HH__.razi().doorLit", undefined, { timeout: 15000 });
+    await ev(page, "window.__HH__.goThroughDoor()");
+    await page.waitForFunction("window.__HH__.karima() !== null && window.__HH__.where() !== null", undefined, { timeout: 30000 });
+    await ev(page, "window.__HH__.karimaCommand({ type: 'skip' })");
+    const kr = await ev<{ puzzle: { copies: string[][]; hers: number } }>(page, "window.__HH__.karima()");
+    for (const x of slipsOf(kr.puzzle)) await ev(page, `window.__HH__.karimaCommand({ type: 'touch', id: 'sign-${x.copy}-${x.place}' })`);
+    await page.waitForFunction("window.__HH__.karima().doorLit", undefined, { timeout: 15000 });
+    for (let i = 0; i < 8 && (await ev<{ talk: unknown }>(page, "window.__HH__.karima()")).talk; i++) await ev(page, "window.__HH__.karimaCommand({ type: 'skip' })");
+    await page.locator(`${ROOM} .stage`).focus();
+    await walkRight(page, "window.__HH__.battuta() !== null && window.__HH__.where() !== null");
+    await page.waitForTimeout(500);
+    const entered = await ev<{ journey: { scene: number; at: number }; last: { scene: string } | null; toast: string | null; heading: string; corridors: number; page: unknown; karima: unknown; roomHidden: boolean }>(page, `({ journey: window.__HH__.journey(), last: window.__HH__.lastDoor(), toast: document.querySelector('.toast') ? document.querySelector('.toast').textContent : null, heading: document.querySelector('${ROOM} h2').textContent, corridors: document.querySelectorAll('.corridor').length, page: window.__HH__.route(), karima: window.__HH__.karima(), roomHidden: document.querySelector('.room-box').hidden })`);
+    if (outDir) await page.screenshot({ path: resolve(outDir, "battuta-room-journey.png") });
+    record("in the journey Karima al-Marwaziyya's lit door, walked to with the right arrow key, leads into Ibn Battuta's inn (the ninth scene: no page, no corridor, Hudhud's line naming him)",
+      entered.journey.scene === 8 && entered.journey.at === 8 && entered.last?.scene === "karima" && entered.toast === "Hudhud: On to the next page of the Atlas: Ibn Battuta!" && entered.heading === "Ibn Battuta" && entered.corridors === 0 && entered.page === null && entered.karima === null && !entered.roomHidden,
+      { entered });
+    await ctx.close();
+  }
+
+  // (10) An Arabic page: the ring mirrored (the first bead at the top, the next to its left), Arabic words and numerals, and the inn's note in the founder's Arabic words.
+  {
+    const ctx = await browser.newContext({ viewport: { width: 1280, height: 900 } });
+    const page = await ctx.newPage();
+    page.on("pageerror", (e) => errors.push(String(e)));
+    await page.goto(`${served.base}/games/hudhud/index.html?lang=ar&music=off&style=explorer&fresh=1`);
+    await page.waitForFunction("window.__HH__ && window.__HH__.ready");
+    await leaveOpening(page);
+    await openIb(page);
+    const ar = await ev<{ dir: string; alt: string | null; heading: string; who: string | null }>(page, `({ dir: document.documentElement.dir, alt: document.querySelector('${ROOM} .stage').getAttribute('aria-label'), heading: document.querySelector('${ROOM} h2').textContent, who: document.querySelector('${ROOM} .talk .who') ? document.querySelector('${ROOM} .talk .who').textContent : null })`);
+    await skipTalk(page);
+    await fly(page, "bead-mogadishu", "window.__HH__.battuta().slips === 1");
+    const firstX = (await ev<{ x: number }>(page, "window.__HH__.where()")).x;
+    await fly(page, "bead-persian-gulf", "window.__HH__.battuta().slips === 2");
+    const secondX = (await ev<{ x: number }>(page, "window.__HH__.where()")).x;
+    await fly(page, "bead-red-sea", "window.__HH__.battuta().at === 1");
+    if (outDir) await page.screenshot({ path: resolve(outDir, "battuta-room-ar.png") });
+    const s = { w: await words(page), ran: await ranText(page), objective: await ev<string>(page, `document.querySelector('${ROOM} .objective').textContent`), note: await ev<string>(page, `document.querySelector('${ROOM} .words section:last-child p').textContent`) };
+    record("Ibn Battuta's inn on an Arabic page runs right to left, mirrors the ring (the second bead hangs to the left of the first, as on the page's mirrored picture), names the beads and says what a touch did in Arabic with Arabic numerals and no Latin digit, and gives the inn's note in the founder's Arabic words",
+      ar.dir === "rtl" && ar.alt === "خان ابن بطوطة في صورة. والقائمة التي بعدها تقول الشيء نفسه بالكلمات." && ar.heading === "ابن بطوطة" && ar.who === "هدهد" &&
+        secondX < firstX && s.w.beads[0] === "اذهب إلى الخرزة ١: مقديشو" && /الخرزة ٥: البحر الأحمر، وهي في الخيط/.test(s.w.beads[4] ?? "") && s.w.sentence === "جملة المرحلة مخفية." &&
+        s.note === "الخان والحلقة الكبيرة والخرز عليها واللفافة من خيال اللعب، والحلقة ليست خريطة." && !/[0-9]/.test(s.w.beads.join("") + s.ran + s.objective + s.w.counts),
+      { ar, firstX, secondX, s: { first: s.w.beads[0], fifth: s.w.beads[4], counts: s.w.counts, ran: s.ran, sentence: s.w.sentence } });
+    await ctx.close();
+  }
+
+  // (11) Movement kept still: the bird is set down at once and each touch takes effect on the same step; Story's road is
+  // threaded with no wait, its sentence never hidden, and the door is still walked to.
+  {
+    const ctx = await browser.newContext({ viewport: { width: 1280, height: 900 } });
+    const page = await open(ctx, "&style=story&motion=reduced&fresh=1");
+    await openIb(page);
+    await skipTalk(page);
+    const story = (await ib(page))!;
+    const t0 = Date.now();
+    await ev(page, `window.__HH__.goTo('bead-${story.stage.road[0]}')`);
+    const once = (await ib(page))!;
+    for (const stop of story.stage.road.slice(1)) await ev(page, `window.__HH__.goTo('bead-${stop}')`);
+    const calm = (await ib(page))!;
+    const took = Date.now() - t0;
+    await page.waitForFunction("window.__HH__.battuta().doorLit", undefined, { timeout: 5000 });
+    if (outDir) await page.screenshot({ path: resolve(outDir, "battuta-room-reduced.png") });
+    await skipTalk(page);
+    await page.locator(`${ROOM} .stage`).focus();
+    await walkRight(page, "!document.querySelector('.hub').hidden");
+    const last = await ev<{ scene: string } | null>(page, "window.__HH__.lastDoor()");
+    record("Ibn Battuta's inn with motion=reduced: flown to, the bird is set down and touches at once (the first stop threaded on the same step); Story's seven stops are threaded with no wait and its sentence is never hidden; the lit door is still reached by walking",
+      story.stage.stops.length === 7 && once.at === 1 && once.showing && calm.done && calm.slips === 0 && took < 2500 && last?.scene === "battuta",
+      { stops: story.stage.stops.length, once: { at: once.at, showing: once.showing }, calm: { done: calm.done, slips: calm.slips }, took, last });
+    await ctx.close();
+  }
+
+  // (12) Without WebGL the scene is played on the road's page, and finished there.
+  {
+    const ctx = await browser.newContext({ viewport: { width: 1280, height: 800 } });
+    await ctx.addInitScript("const g = HTMLCanvasElement.prototype.getContext; HTMLCanvasElement.prototype.getContext = function (t, ...a) { return /webgl/.test(t) ? null : g.call(this, t, ...a); };");
+    const page = await open(ctx, "&fresh=1&preflight=off&style=explorer");
+    const note = await ev<string>(page, `(() => { const s = document.querySelector(".hub button[data-quest='${QUEST}']").parentElement.querySelector('small'); return s ? s.textContent : ''; })()`);
+    await page.locator(`.hub button[data-quest='${QUEST}']`).click();
+    await page.waitForFunction("window.__HH__.route() !== null", undefined, { timeout: 10000 });
+    const onPage = await ev<{ room: unknown; beads: number; roomHidden: boolean; benchShown: boolean; road: string[] }>(page, "({ room: window.__HH__.battuta(), beads: document.querySelectorAll('.bench .route-beads button').length, roomHidden: document.querySelector('.room-box').hidden, benchShown: !document.querySelector('.bench').hidden, road: window.__HH__.route().stage.road })");
+    for (const stop of onPage.road) await page.locator(`.bench .route-beads button[data-stop='${stop}']`).click();
+    await page.waitForSelector(".bench .results:not([hidden])", { timeout: 20000 });
+    const done = await ev<boolean>(page, "window.__HH__.route().done");
+    if (outDir) await page.screenshot({ path: resolve(outDir, "battuta-room-without-webgl.png"), fullPage: true });
+    record("without WebGL Ibn Battuta's scene is played on the road's page (its trial line on the Atlas, a real button for every bead, no room), and is finished there",
+      /first trial/.test(note) && onPage.room === null && onPage.beads === 8 && onPage.roomHidden && onPage.benchShown && done, { note, onPage, done });
     await ctx.close();
   }
 }

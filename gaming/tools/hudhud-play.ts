@@ -7,7 +7,8 @@
 // clock, the second room on the room engine, 27 November 2026), "tusi" (al-Tusi's observatory and the two circles, the
 // third room), "khwarizmi" (al-Khwarizmi's room and the locked box, the fourth room), "kindi" (al-Kindi's room and the
 // secret page, the fifth room), "idrisi" (al-Idrisi's hall and the scattered sheets, the sixth room), "razi" (al-Razi's
-// study and the loose leaves, the seventh room) or "karima" (Karima al-Marwaziyya's room and the copies, the eighth room).
+// study and the loose leaves, the seventh room), "karima" (Karima al-Marwaziyya's room and the copies, the eighth room)
+// or "battuta" (Ibn Battuta's inn and the thread of the road, the ninth room).
 // It measures the machine it runs on. A pass here is not a pass on the museum's two reference machines.
 import { mkdirSync, writeFileSync } from "node:fs";
 import { resolve } from "node:path";
@@ -19,7 +20,7 @@ import { slipsOf } from "../games/hudhud/src/sim/collate";
 
 const [outArg, lang = "en", quality = "medium", w = "1920", h = "1080", style = "explorer", scene = "workshop"] = process.argv.slice(2);
 if (!outArg) throw new Error("usage: hudhud-play.ts <out dir> [lang] [quality] [width] [height] [style] [scene]");
-if (scene !== "workshop" && scene !== "jazari" && scene !== "tusi" && scene !== "khwarizmi" && scene !== "kindi" && scene !== "idrisi" && scene !== "razi" && scene !== "karima") throw new Error(`hudhud-play.ts: no scene called ${scene} (workshop, jazari, tusi, khwarizmi, kindi, idrisi, razi or karima)`);
+if (scene !== "workshop" && scene !== "jazari" && scene !== "tusi" && scene !== "khwarizmi" && scene !== "kindi" && scene !== "idrisi" && scene !== "razi" && scene !== "karima" && scene !== "battuta") throw new Error(`hudhud-play.ts: no scene called ${scene} (workshop, jazari, tusi, khwarizmi, kindi, idrisi, razi, karima or battuta)`);
 const out = resolve(outArg);
 mkdirSync(out, { recursive: true });
 const tag = `${scene === "workshop" ? "" : `${scene}-`}${lang}-${quality}-${w}x${h}`;
@@ -91,6 +92,7 @@ try {
   else if (scene === "idrisi") await playIdrisi();
   else if (scene === "razi") await playRazi();
   else if (scene === "karima") await playKarima();
+  else if (scene === "battuta") await playBattuta();
   else await playWorkshop();
 } catch (e) {
   report.failed = String(e);
@@ -1141,6 +1143,133 @@ async function playKarima(): Promise<void> {
   const reopen = async () => {
     await hk("h.toAtlas(); h.startKarima();");
     await page.waitForFunction("window.__HH__.karima() !== null && window.__HH__.where() !== null", undefined, { timeout: 30000 });
+  };
+  await reopen();
+  await page.waitForTimeout(800);
+  const first = await cycle();
+  for (let i = 0; i < 9; i++) {
+    await reopen();
+    await page.waitForTimeout(300);
+  }
+  await page.waitForTimeout(800);
+  report.lifecycle = { afterOneOpening: first, afterTenOpenings: await cycle(), canvases: await page.evaluate("document.querySelectorAll('canvas').length") };
+}
+/**
+ * Ibn Battuta's inn, played to its end by flight as a player would: the talks gone through with the keyboard, both
+ * questions, the kind answer and the feather in the saddlebag, a wrong bead and the scroll touched to show the stage
+ * again, frame times while the bird crosses the inn and back, a lost graphics context, the rest of the road threaded by
+ * flight, the lit door walked to, and what opening the inn ten times leaves behind.
+ */
+async function playBattuta(): Promise<void> {
+  type Ib = { at: number; slips: number; showing: boolean; flags: string[]; done: boolean; talk: unknown; doorLit: boolean; stage: { stops: string[]; road: string[] } };
+  const ib = () => hk<Ib>("return h.battuta();");
+  const noteIb = async (step: string) => {
+    const s = await ib();
+    route.push({ step, at: Date.now() - t0, where: await hk("return h.where();"), turns: s.at + s.slips, flags: s.flags, restored: s.done, dark: false, done: s.doorLit });
+  };
+  const roomTalk = async (pick: string[] = []) => {
+    const picks = [...pick];
+    for (let i = 0; i < 20 && (await ib()).talk !== null; i++) {
+      await page.waitForTimeout(350);
+      const choices = page.locator(".room-box .talk .choices button");
+      if ((await choices.count()) > 0) {
+        const want = picks.shift();
+        await (want ? choices.filter({ hasText: want }).first() : choices.last()).click();
+      } else await page.keyboard.press("Enter");
+    }
+    await page.waitForTimeout(250);
+  };
+  const fly = async (id: string, until: string) => {
+    await hk(`h.goTo(${JSON.stringify(id)});`);
+    await page.waitForFunction(`(() => { const h = window.__HH__; return ${until}; })()`, undefined, { timeout: 8000 });
+    await page.waitForTimeout(200);
+  };
+  const tStart = Date.now();
+  await page.locator(".hub button[data-quest='w06q1-ibn-battuta']").click();
+  await page.waitForFunction("window.__HH__.battuta() !== null && window.__HH__.where() !== null", undefined, { timeout: 30000 });
+  report.msFromPlayToScene = Date.now() - tStart;
+  await page.waitForTimeout(900);
+  await shot("intro-talk");
+  await noteIb("inn open");
+  await roomTalk();
+
+  await fly("ibn", "h.battuta().talk !== null");
+  await shot("ibn-battuta-talk");
+  await roomTalk(["Ask when he set out", "Ask who wrote his journey down"]);
+  await noteIb("asked Ibn Battuta both questions");
+  await fly("child", "h.battuta().talk !== null");
+  await roomTalk(["Do not be afraid."]);
+  await noteIb("answered the child kindly");
+  await fly("saddlebag", "h.battuta().flags.includes('feather')");
+  await shot("feather-in-the-saddlebag");
+  await roomTalk();
+  await noteIb("found the feather");
+
+  // The first stop threaded, a wrong bead, and the scroll touched to show the stage again.
+  const road = (await ib()).stage.road;
+  await fly(`bead-${road[0]}`, "h.battuta().at === 1");
+  const wrongStop = (await ib()).stage.stops.find((x) => x !== road[1])!;
+  await fly(`bead-${wrongStop}`, "h.battuta().slips === 1");
+  await shot("wrong-bead");
+  await noteIb("a wrong bead, a slip");
+  await fly("scroll", "h.battuta().showing");
+  await shot("stage-shown-again");
+  await noteIb("the stage shown again from the scroll");
+
+  // Frame times while the bird crosses the whole inn and back, with everything running.
+  await hk("h.resetFrames();");
+  await page.locator(".room-box .stage").focus();
+  for (const key of ["ArrowRight", "ArrowLeft"]) {
+    await page.keyboard.down(key);
+    for (let i = 0; i < 14; i++) {
+      await page.keyboard.down("Space");
+      await page.waitForTimeout(120);
+      await page.keyboard.up("Space");
+      await page.waitForTimeout(380);
+    }
+    await page.keyboard.up(key);
+  }
+  const heap = () => page.evaluate("performance.memory ? performance.memory.usedJSHeapSize : null") as Promise<number | null>;
+  report.benchmark = { route: "the whole width and back, hopping and flapping, 14 seconds", info: await hk("return h.info();"), heapBytes: await heap() };
+
+  // A lost graphics context, part way along the road: what the player sees, and whether the inn comes back.
+  report.contextLoss = await page.evaluate(`(async () => {
+    const canvas = document.querySelector('.room-box .stage canvas');
+    const gl = canvas.getContext('webgl2') || canvas.getContext('webgl');
+    const ext = gl && gl.getExtension('WEBGL_lose_context');
+    if (!ext) return { tried: false };
+    ext.loseContext();
+    await new Promise((r) => setTimeout(r, 600));
+    const toast = document.querySelector('.toast') ? document.querySelector('.toast').textContent : null;
+    ext.restoreContext();
+    await new Promise((r) => setTimeout(r, 2500));
+    return { tried: true, toast, sceneBack: window.__HH__.where() !== null, at: window.__HH__.battuta().at, slips: window.__HH__.battuta().slips };
+  })()`);
+
+  // The rest of the road threaded by flight.
+  for (let k = (await ib()).at; k < road.length; k++) {
+    await fly(`bead-${road[k]}`, `h.battuta().at === ${k + 1}`);
+    if (k === 4) await shot("threading");
+  }
+  await page.waitForFunction("window.__HH__.battuta().doorLit", undefined, { timeout: 15000 });
+  await page.waitForTimeout(600);
+  await shot("road-threaded");
+  await roomTalk();
+  await noteIb("the road is threaded");
+  report.puzzle = { at: (await ib()).at, slips: (await ib()).slips };
+  report.goals = await page.evaluate("JSON.parse(localStorage.getItem('im.hudhud.save.v1') || 'null')?.slots?.[0]?.quests?.['w06q1-ibn-battuta'] ?? null");
+  await shot("results");
+  await page.locator(".room-box .stage").focus();
+  await page.keyboard.down("ArrowRight");
+  await page.waitForFunction("!document.querySelector('.hub').hidden", undefined, { timeout: 25000 }).finally(() => page.keyboard.up("ArrowRight"));
+  report.door = await hk("return h.lastDoor();");
+  report.save = await page.evaluate("JSON.parse(localStorage.getItem('im.hudhud.save.v1') || 'null')");
+
+  // Opening the inn again and again: what it holds must not grow.
+  const cycle = async () => ({ ...(await hk<Record<string, unknown>>("const i = h.info(); return { textures: i.textures, textureBytes: i.textureBytes, objects: i.objects, tweens: i.tweens };")), heapBytes: await heap() });
+  const reopen = async () => {
+    await hk("h.toAtlas(); h.startBattuta();");
+    await page.waitForFunction("window.__HH__.battuta() !== null && window.__HH__.where() !== null", undefined, { timeout: 30000 });
   };
   await reopen();
   await page.waitForTimeout(800);
