@@ -697,6 +697,13 @@ async function main(): Promise<void> {
         next ? el("button", { type: "button", id: "next-chapter", textContent: t("next_chapter", { name: t(`scenario_${next.id}`) }), onclick: () => restart(newSeed(), next.id) }) : null,
         el("button", { type: "button", id: "outcome-close", class: "primary", textContent: t("look_around"), onclick: () => outcomeDialog.close() }),
       ),
+      // A result to share, as plain text the player copies: the game, the district, the outcome and the score.
+      // Nothing about the player goes into it, and it is sent nowhere.
+      el("p", { class: "row" }, el("button", { type: "button", id: "share-result", textContent: t("share_copy"), onclick: (e: Event) => {
+        const text = t("share_text", { scenario: scenarioKind(scenario.id) === "daily" ? `${t("scenario_daily")} ${scenario.id.slice(6)}` : t(`scenario_${scenarioKind(scenario.id)}`), outcome: t(`outcome_${state.outcome}`), score: score(scenario, state), households: state.households, seed: String(state.seed) });
+        const button = e.currentTarget as HTMLButtonElement;
+        void navigator.clipboard?.writeText(text).then(() => (button.textContent = t("share_copied")), () => (button.textContent = text));
+      } })),
     );
     if (!outcomeDialog.open) outcomeDialog.showModal();
     say(`${t(`outcome_${state.outcome}`)}. ${t(`outcome_${state.outcome}_text`)}`);

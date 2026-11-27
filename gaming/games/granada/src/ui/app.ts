@@ -1217,6 +1217,13 @@ async function main(): Promise<void> {
         (state.year === 1 || yearStart) && h("button", { type: "button", id: "again", onclick: () => (again(), d.close()) }, t("outcome_again")),
         h("button", { type: "button", class: o.won && scenarioAfter(sc.id) ? "" : "primary", id: "new-year", onclick: () => (begin(state.seed + 1), d.close()) }, t(state.year > 1 ? "outcome_restart" : "outcome_new_year")),
       ),
+      // A result to share, as plain text the player copies. Nothing about the player goes into it, and it is sent nowhere.
+      h("p", { class: "actions" }, h("button", { type: "button", id: "share-result", onclick: (e: Event) => {
+        const what = dailyOf ? `${t("mode_daily")} ${dailyOf}` : t(titleKey());
+        const text = t("share_text", { what, outcome: o.won ? t("outcome_won") : t("outcome_lost"), score: o.score, year: state.year, households: state.households, seed: String(state.seed) });
+        const button = e.currentTarget as HTMLButtonElement;
+        void navigator.clipboard?.writeText(text).then(() => (button.textContent = t("share_copied")), () => (button.textContent = text));
+      } }, t("share_copy"))),
     );
   }
   /** Puts the page back to a year's first morning: paused, on the Overview, nothing chosen, nothing said yet. */
