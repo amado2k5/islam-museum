@@ -3,8 +3,9 @@
 // saved file, what a second and a tenth run of the scene leave behind, and what a lost graphics context does.
 //
 // Usage: npx tsx --tsconfig tsconfig.json tools/hudhud-play.ts <out dir> [lang] [quality] [width] [height] [style] [scene]
-// The scene is "workshop" (the default: Ibn al-Haytham's workshop) or "jazari" (al-Jazari's workshop and the elephant
-// clock, the second room on the room engine, 27 November 2026).
+// The scene is "workshop" (the default: Ibn al-Haytham's workshop), "jazari" (al-Jazari's workshop and the elephant
+// clock, the second room on the room engine, 27 November 2026) or "tusi" (al-Tusi's observatory and the two circles, the
+// third room).
 // It measures the machine it runs on. A pass here is not a pass on the museum's two reference machines.
 import { mkdirSync, writeFileSync } from "node:fs";
 import { resolve } from "node:path";
@@ -15,10 +16,10 @@ import { serveWorkspace } from "./serve";
 
 const [outArg, lang = "en", quality = "medium", w = "1920", h = "1080", style = "explorer", scene = "workshop"] = process.argv.slice(2);
 if (!outArg) throw new Error("usage: hudhud-play.ts <out dir> [lang] [quality] [width] [height] [style] [scene]");
-if (scene !== "workshop" && scene !== "jazari") throw new Error(`hudhud-play.ts: no scene called ${scene} (workshop or jazari)`);
+if (scene !== "workshop" && scene !== "jazari" && scene !== "tusi") throw new Error(`hudhud-play.ts: no scene called ${scene} (workshop, jazari or tusi)`);
 const out = resolve(outArg);
 mkdirSync(out, { recursive: true });
-const tag = `${scene === "jazari" ? "jazari-" : ""}${lang}-${quality}-${w}x${h}`;
+const tag = `${scene === "workshop" ? "" : `${scene}-`}${lang}-${quality}-${w}x${h}`;
 
 interface Hook {
   ready: boolean;
@@ -81,6 +82,7 @@ try {
   }
   await shot("cover");
   if (scene === "jazari") await playJazari();
+  else if (scene === "tusi") await playTusi();
   else await playWorkshop();
 } catch (e) {
   report.failed = String(e);
@@ -337,6 +339,132 @@ async function playJazari(): Promise<void> {
   const reopen = async () => {
     await hk("h.toAtlas(); h.startJazari();");
     await page.waitForFunction("window.__HH__.jazari() !== null && window.__HH__.where() !== null", undefined, { timeout: 30000 });
+  };
+  await reopen();
+  await page.waitForTimeout(800);
+  const first = await cycle();
+  for (let i = 0; i < 9; i++) {
+    await reopen();
+    await page.waitForTimeout(300);
+  }
+  await page.waitForTimeout(800);
+  report.lifecycle = { afterOneOpening: first, afterTenOpenings: await cycle(), canvases: await page.evaluate("document.querySelectorAll('canvas').length") };
+}
+/**
+ * Al-Tusi's observatory, played to its end by flight as a player would: the talks gone through with the keyboard, both
+ * questions, the kind answer and the feather, one wrong setting turned and shown to its end, the levers moved to the
+ * line, frame times while the bird crosses the room and back, a lost graphics context, the crank, the lit door walked
+ * to, and what opening the room ten times leaves behind.
+ */
+async function playTusi(): Promise<void> {
+  type Ts = { setting: { r: number; k: number; d: number }; offer: { sizes: number[]; speeds: number[]; dirs: number[] }; turned: number; misses: number; flags: string[]; done: boolean; talk: unknown; busy: boolean; doorLit: boolean; last: unknown };
+  const ts = () => hk<Ts>("return h.tusi();");
+  const noteTs = async (step: string) => {
+    const s = await ts();
+    route.push({ step, at: Date.now() - t0, where: await hk("return h.where();"), turns: s.turned, flags: s.flags, restored: s.done, dark: false, done: s.doorLit });
+  };
+  const roomTalk = async (pick: string[] = []) => {
+    const picks = [...pick];
+    for (let i = 0; i < 20 && (await ts()).talk !== null; i++) {
+      await page.waitForTimeout(350);
+      const choices = page.locator(".room-box .talk .choices button");
+      if ((await choices.count()) > 0) {
+        const want = picks.shift();
+        await (want ? choices.filter({ hasText: want }).first() : choices.last()).click();
+      } else await page.keyboard.press("Enter");
+    }
+    await page.waitForTimeout(250);
+  };
+  const fly = async (id: string, until: string) => {
+    await hk(`h.goTo(${JSON.stringify(id)});`);
+    await page.waitForFunction(`(() => { const h = window.__HH__; return ${until}; })()`, undefined, { timeout: 8000 });
+    await page.waitForTimeout(200);
+  };
+  const tStart = Date.now();
+  await page.locator(".hub button[data-quest='w01q3-al-tusi']").click();
+  await page.waitForFunction("window.__HH__.tusi() !== null && window.__HH__.where() !== null", undefined, { timeout: 30000 });
+  report.msFromPlayToScene = Date.now() - tStart;
+  await page.waitForTimeout(900);
+  await shot("intro-talk");
+  await noteTs("room open");
+  await roomTalk();
+
+  await fly("tusi", "h.tusi().talk !== null");
+  await shot("tusi-talk");
+  await roomTalk(["Ask why he looked for a model", "Ask about the observatory"]);
+  await noteTs("asked al-Tusi both questions");
+  await fly("girl", "h.tusi().talk !== null");
+  await roomTalk(["Do not be afraid"]);
+  await noteTs("answered the girl kindly");
+  await fly("shelf", "h.tusi().flags.includes('feather')");
+  await shot("feather-on-the-high-shelf");
+  await roomTalk();
+  await noteTs("found the feather");
+
+  // One wrong setting turned and shown to its end: the speed lever moved once, then the crank.
+  await fly("lever-speed", "h.tusi().setting.k === 2");
+  await fly("crank", "h.tusi().turned === 1");
+  await page.waitForTimeout(1200);
+  await shot("turning");
+  await page.waitForFunction("!window.__HH__.tusi().busy", undefined, { timeout: 10000 });
+  await shot("wrong-path");
+  await noteTs("turned a wrong setting");
+  report.puzzle = { offer: (await ts()).offer, wrong: (await ts()).last };
+
+  // Frame times while the bird crosses the whole room and back, with everything running.
+  await hk("h.resetFrames();");
+  await page.locator(".room-box .stage").focus();
+  for (const key of ["ArrowLeft", "ArrowRight"]) {
+    await page.keyboard.down(key);
+    for (let i = 0; i < 14; i++) {
+      await page.keyboard.down("Space");
+      await page.waitForTimeout(120);
+      await page.keyboard.up("Space");
+      await page.waitForTimeout(380);
+    }
+    await page.keyboard.up(key);
+  }
+  const heap = () => page.evaluate("performance.memory ? performance.memory.usedJSHeapSize : null") as Promise<number | null>;
+  report.benchmark = { route: "the whole width and back, hopping and flapping, 14 seconds", info: await hk("return h.info();"), heapBytes: await heap() };
+
+  // A lost graphics context, before the line is found: what the player sees, and whether the room comes back.
+  report.contextLoss = await page.evaluate(`(async () => {
+    const canvas = document.querySelector('.room-box .stage canvas');
+    const gl = canvas.getContext('webgl2') || canvas.getContext('webgl');
+    const ext = gl && gl.getExtension('WEBGL_lose_context');
+    if (!ext) return { tried: false };
+    ext.loseContext();
+    await new Promise((r) => setTimeout(r, 600));
+    const toast = document.querySelector('.toast') ? document.querySelector('.toast').textContent : null;
+    ext.restoreContext();
+    await new Promise((r) => setTimeout(r, 2500));
+    return { tried: true, toast, sceneBack: window.__HH__.where() !== null, turned: window.__HH__.tusi().turned };
+  })()`);
+
+  // The levers to the line, then the crank.
+  await fly("lever-dir", "h.tusi().setting.d === -1");
+  await shot("levers-set");
+  await fly("crank", "h.tusi().turned === 2");
+  await page.waitForTimeout(1200);
+  await shot("line-turning");
+  await page.waitForFunction("window.__HH__.tusi().doorLit", undefined, { timeout: 15000 });
+  await page.waitForTimeout(600);
+  await shot("door-lit");
+  await roomTalk();
+  await noteTs("the line is found");
+  report.goals = await page.evaluate("JSON.parse(localStorage.getItem('im.hudhud.save.v1') || 'null')?.slots?.[0]?.quests?.['w01q3-al-tusi'] ?? null");
+  await shot("results");
+  await page.locator(".room-box .stage").focus();
+  await page.keyboard.down("ArrowRight");
+  await page.waitForFunction("!document.querySelector('.hub').hidden", undefined, { timeout: 25000 }).finally(() => page.keyboard.up("ArrowRight"));
+  report.door = await hk("return h.lastDoor();");
+  report.save = await page.evaluate("JSON.parse(localStorage.getItem('im.hudhud.save.v1') || 'null')");
+
+  // Opening the room again and again: what it holds must not grow.
+  const cycle = async () => ({ ...(await hk<Record<string, unknown>>("const i = h.info(); return { textures: i.textures, textureBytes: i.textureBytes, objects: i.objects, tweens: i.tweens };")), heapBytes: await heap() });
+  const reopen = async () => {
+    await hk("h.toAtlas(); h.startTusi();");
+    await page.waitForFunction("window.__HH__.tusi() !== null && window.__HH__.where() !== null", undefined, { timeout: 30000 });
   };
   await reopen();
   await page.waitForTimeout(800);

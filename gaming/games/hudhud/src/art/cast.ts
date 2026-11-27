@@ -452,9 +452,38 @@ export function apprentice(scale: number): KeeperArt {
   return { ...art, body };
 }
 
+/**
+ * The girl who cleans the instruments in al-Tusi's observatory, an invented person (she is the two circles' quest's
+ * own): the same cut-out as the explorer, in one fixed look of her own (a headscarf, a green tunic), with a pale
+ * cleaning cloth over her shoulder.
+ */
+export function cleaner(scale: number): KeeperArt {
+  const art = keeper(scale, { kind: 1, skin: 1, outfit: 2, hair: 1 });
+  const [body, b] = sheet(art.body.w, art.body.h, scale);
+  b.drawImage(art.body.canvas, 0, 0, art.body.w, art.body.h);
+  blob(b, [
+    [58, 6],
+    [74, 8],
+    [70, 62],
+    [62, 70],
+    [54, 60],
+  ]);
+  fillStroke(b, "#efe6d2", INK, 2);
+  b.strokeStyle = "rgba(120,100,70,0.5)";
+  b.lineWidth = 1.5;
+  for (const y of [24, 40]) {
+    b.beginPath();
+    b.moveTo(59, y);
+    b.lineTo(71, y + 2);
+    b.stroke();
+  }
+  return { ...art, body };
+}
+
 // ---------------------------------------------------------------------------------------------- the scholar
 /** The colours a scholar's figure is drawn in. The default is Ibn al-Haytham's, as the workshop has always drawn him;
- * al-Jazari's figure is the same cut-out in other colours, with an apron (art/jazari.ts's room). Neither is a likeness. */
+ * al-Jazari's figure is the same cut-out in other colours, with an apron (art/jazari.ts's room), and al-Tusi's in night
+ * colours (art/tusi.ts's room). None is a likeness. */
 export interface ScholarLook {
   skin: string;
   beard: [string, string];
@@ -498,6 +527,21 @@ export const JAZARI_LOOK: ScholarLook = {
   shawl: "#9a4a2a",
   seed: "jazari",
   apron: "#6b4222",
+};
+/** Al-Tusi's figure in his observatory (art/tusi.ts's room): the same cut-out again, in night colours. Not a likeness. */
+export const TUSI_LOOK: ScholarLook = {
+  skin: "#d3a072",
+  beard: ["#4a4038", "#b8b0a4"],
+  moustache: "#5a5048",
+  brow: "#4a4038",
+  turban: ["#f3ecdc", "#cfc3a6"],
+  turbanBands: "rgba(43,79,163,0.6)",
+  robe: ["#2b4fa3", "#1a3270"],
+  gown: "#f3e6c8",
+  border: PAL.goldLight,
+  dots: PAL.gold,
+  shawl: "#3a3f7a",
+  seed: "tusi",
 };
 export interface ScholarArt {
   body: Painted;

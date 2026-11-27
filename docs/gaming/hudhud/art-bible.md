@@ -124,6 +124,32 @@ Drawn in code in the same kit, palette and brushed surface as the workshop (`art
 
 The room has fewer textures and objects and about half the draw calls because it has no sky, no town in two depths, no beam and no dust. Opening the room ten times left the same 42 textures and 51 objects; with a forced collection after each ten openings (a scratch script, not kept) the heap read 61, 35, 35 and 35 MB, and the workshop's 37 and 37 MB: nothing climbs. A lost graphics context in the room is told to the player and the room is drawn again with the clock as it stood.
 
+## The third room: al-Tusi's observatory (27 November 2026)
+
+Drawn in code in the same kit, palette and brushed surface as the other two rooms (`art/tusi.ts`, 400 lines; the figures in `art/cast.ts`; the model drawn each frame in `scenes/tusi.ts`), and like them **trial art, a trial of the look and not final art**; the founder said on 27 November 2026 to continue all the remaining work. One long room of 2,400 by 720 game pixels with the same floor and the same door: a hall at night, night blue above and warm stone below, plain pointed arches along the wall with no writing, the band of star tiles in lapis and teal, and cooler stone slabs; a tall arched opening on the night sky with painted stars, far hills and, at Medium and High, a few stars that twinkle (none at Low, still with reduced motion); a tall case of books (coloured spines with gold bands, no titles, no writing), its two upper shelves perches; in the middle **the model's stand**: a broad base (a perch), a column, a brass fork that holds the large circle, a dark disc behind the circles so that they read, a post for the crank; and at the far end a long table and a high shelf of **plain instruments**: rings on small wooden feet, rods and closed boxes, none drawn as or claiming to be a named historical instrument. No inscription, no writing, no real building, and no picture of the observatory at Maragha (the room's note says so).
+
+| Figure | Parts | Moves the code makes |
+|---|---|---|
+| **Al-Tusi** (about 335) | the scholar's cut-out again (`scholar(scale, TUSI_LOOK)`): a lapis robe, a pale turban with lapis bands, a grey-streaked beard, light gold borders; not a likeness, and his speaker label says "in imagined words" | turns to the bird; raises his arm when the circles are turned and when he speaks; blinks |
+| **The girl who cleans the instruments** (about 175) | the explorer's cut-out in one fixed look of her own (`cleaner(scale)`: a headscarf, a green tunic) with a pale cleaning cloth over her shoulder; the quest's invented person, and her label says so | looks at the bird; waves when she speaks; a small hop when spoken to; blinks |
+| **The model of the two circles** (300 across) | drawn each frame with one Phaser graphics object from `modelOf()` (`sim/tusiroom.ts`), the quest's own arithmetic, as the page's picture is (`art/couple.ts`): the large circle as a heavy cream ring with a dot at its middle, the small circle in teal with a gold rim, the arm to its centre in dashes, the spoke to the point, and the point as a gold star in a dark ring (shape, not colour alone) | turns while a turning is shown (once round in 2.4 s, as on the page), at once with reduced motion; redrawn only when what it shows changes |
+| **The path in the air** (300 across, beside the model) | a faint ring the size of the large circle, the traced path as a dark line under a gold one, and the point as the same star; a soft glow once a path is drawn | grows while a turning is shown; whole and closed after it; gone once a lever is moved (the rules clear the path) |
+| **The levers** | a wooden handle and a brass knob of its own shape (round for the direction, square for the speed, a ring for the size) on a pivot block with one dot for each setting offered; only the levers the way of playing offers are drawn | lean from -30 to 30 degrees to the setting chosen |
+| **The crank** | a brass spoked wheel with a wooden handle on its post | turns once while a turning is shown |
+| **Props** | the feather, the page of the Atlas | the feather lies among the instruments on the high shelf until found; the page comes to rest above the path in the air once it is a line |
+
+**Script size** (measured 27 November 2026, UTC, from the file `build:release` wrote, compressed with Node's zlib): Hudhud's main script `app-BC3SrFbr.js` is 1,774,170 bytes (380,608 with Brotli at quality 11, 477,888 with gzip at level 9), its style 19,372 bytes (unchanged); with al-Jazari's room it was 1,744,176 bytes (375,559 with Brotli). The third room adds 29,994 bytes (5,049 with Brotli).
+
+**Measured beside the other two rooms** (`hudhud-play.ts`, Medium, 1920×1080, Explorer, the founder's Mac, Chrome 158, 27 November 2026, all three run in the same session after the last merge of `main`; frame times while the bird crosses the whole room and back for 14 seconds):
+
+| Room | Textures | Texture memory (decoded) | Largest | Objects | Draw calls a frame | Frame time: mean / p95 / p99 / max | Frames over 16.7 ms | JS heap |
+|---|---:|---:|---|---:|---:|---|---:|---:|
+| Ibn al-Haytham's workshop | 50 | 47.5 MB | interior, columns of at most 2045×1080 | 129 | 19 | 8.32 / 9.2 / 9.7 / 12.5 ms | 0 of 1,703 | 96 MB |
+| Al-Jazari's workshop | 42 | 19.8 MB | jazari-room, columns of at most 2045×1080 | 51 | 8 | 8.33 / 9.2 / 9.4 / 11.0 ms | 0 of 1,695 | 67 MB |
+| Al-Tusi's observatory | 39 | 19.2 MB | tusi-room, columns of at most 2045×1080 | 57 | 10 | 8.34 / 9.1 / 9.3 / 10.4 ms | 0 of 1,698 | 68 MB |
+
+(Texture memory here is the decoded bytes `info()` counts, in millions of bytes: 47,529,904, 19,776,420 and 19,165,644.) The observatory has two draw calls more than al-Jazari's workshop: the model and the path in the air are drawn by two graphics objects, not textures. Opening the room ten times left the same 39 textures, 19,165,644 bytes and 57 objects. A lost graphics context in the room is told to the player and the room is drawn again with the quest as it stood (one turning counted). Play to scene: 433 ms.
+
 ## Measurements (one machine, not a reference machine)
 
 The founder's MacBook Pro (Apple M4 Max, 128 GB, macOS 27.2.1), Chrome 158, a 120 Hz display, device pixel ratio 1, window 1920×1080; `gaming/tools/hudhud-play.ts`, 26 November 2026. The reports are in [`../evidence/hudhud/golden-scene/`](../evidence/hudhud/golden-scene/). **Neither reference machine (M1 Air 8 GB; Windows 11, i5-1135G7, 8 GB) has run it. No 60-minute profile and no four-hour soak has been run.**
