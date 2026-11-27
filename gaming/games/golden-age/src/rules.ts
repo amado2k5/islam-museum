@@ -26,8 +26,8 @@ export const adjacent = (a: number, b: number): boolean => distance(a, b) === 1;
 /** A canal link's key: the two plots, smaller first. */
 export const linkKey = (a: number, b: number): number => (a < b ? a * PLOTS + b : b * PLOTS + a);
 
-export type BuildingType = "house" | "farm" | "market" | "workshop" | "school" | "bath" | "granary" | "library" | "hospital";
-export const BUILDING_TYPES: BuildingType[] = ["house", "farm", "market", "workshop", "school", "bath", "granary", "library", "hospital"];
+export type BuildingType = "house" | "farm" | "market" | "workshop" | "school" | "bath" | "granary" | "library" | "hospital" | "caravanserai" | "mill";
+export const BUILDING_TYPES: BuildingType[] = ["house", "farm", "market", "workshop", "school", "bath", "granary", "library", "hospital", "caravanserai", "mill"];
 
 export interface BuildingSpec {
   cost: number;
@@ -49,6 +49,10 @@ export const BUILDINGS: Record<BuildingType, BuildingSpec> = {
   granary: { cost: 30, upkeep: 1, workers: 2, water: 0 },
   library: { cost: 90, upkeep: 6, workers: 6, water: 0, needs: "paper" },
   hospital: { cost: 80, upkeep: 5, workers: 8, water: 2, needs: "medicine" },
+  // A caravanserai lodges traders and their animals: a district with a market draws more trade, and a caravan more.
+  caravanserai: { cost: 70, upkeep: 3, workers: 6, water: 2 },
+  // A watermill on the canal grinds the grain: stored grain spoils less, and what is sold fetches more as flour.
+  mill: { cost: 50, upkeep: 2, workers: 4, water: 3 },
 };
 /** Grain a watered, fully staffed farm brings in at a full harvest (spring and autumn); summer and winter bring far less. */
 export const FARM_YIELD = 60;
@@ -413,6 +417,8 @@ function runSeason(s: State, scenario: Scenario): State {
   const granaries = of("granary");
   const libraries = of("library");
   const hospitals = of("hospital");
+  const caravanserais = of("caravanserai");
+  const mills = of("mill");
 
   // Labour: every household gives one worker. If there are too few, every workplace runs at the same share.
   let workersNeeded = 0;
@@ -422,7 +428,7 @@ function runSeason(s: State, scenario: Scenario): State {
   // Water, in three tiers: drinking first, then farms, then crafts and baths.
   const thirst = THIRST[soy];
   const need = (plots: number[], t: BuildingType) => plots.filter((p) => servedByWater(wet, p)).length * Math.floor((BUILDINGS[t].water * thirst) / 1000);
-  const tiers = [need(houses, "house") + need(hospitals, "hospital"), need(farms, "farm"), need(workshops, "workshop") + need(baths, "bath")];
+  const tiers = [need(houses, "house") + need(hospitals, "hospital"), need(farms, "farm"), need(workshops, "workshop") + need(baths, "bath") + need(mills, "mill") + need(caravanserais, "caravanserai")];
   let supply = intakeCapacity(s, season);
   const waterSupply = supply;
   const share: [number, number, number] = [1000, 1000, 1000];
@@ -452,7 +458,10 @@ function runSeason(s: State, scenario: Scenario): State {
   const surplus = Math.max(0, grain - storage);
   const sold = surplus;
   grain -= surplus;
-  const spoiled = granaries.length > 0 ? Math.floor(grain / 40) : Math.floor(grain / 10);
+  // A watermill with water grinds what is stored, and flour keeps better than grain: spoilage is halved.
+  const grinding = mills.some((p) => servedByWater(wet, p));
+  const spoilDivisor = (granaries.length > 0 ? 40 : 10) * (grinding ? 2 : 1);
+  const spoiled = Math.floor(grain / spoilDivisor);
   grain -= spoiled;
 
   // Money.
@@ -464,8 +473,11 @@ function runSeason(s: State, scenario: Scenario): State {
   const customers = Math.min(servedByMarket * householdsPerHouse, markets.length * MARKET_CAPACITY);
   let trade = Math.floor((customers * (260 + (goods * 340) / 1000) * staffing) / 1_000_000);
   if (events.includes("caravan")) trade = Math.floor((trade * 1500) / 1000) + (markets.length > 0 ? 8 : 0);
+  // Each caravanserai, where there is a market for its traders, brings trade every season, and more with a caravan.
+  if (markets.length > 0) trade += Math.floor((caravanserais.length * (events.includes("caravan") ? 16 : 6) * staffing) / 1000);
   const tax = Math.floor((s.households * TAX_PER_TEN[s.tax]) / 10);
-  const sales = Math.floor(sold / 5);
+  // Surplus sold as flour from a working mill fetches more than grain.
+  const sales = Math.floor(sold / (grinding ? 3 : 5));
   let upkeep = s.canals.length * CANAL_UPKEEP;
   for (const t of BUILDING_TYPES) upkeep += BUILDINGS[t].upkeep * of(t).length;
   // An endowed building's upkeep is paid by its endowment.

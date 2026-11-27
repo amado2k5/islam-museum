@@ -526,7 +526,7 @@ async function main(): Promise<void> {
       const needs = isBuilding(tl) ? BUILDINGS[tl].needs : undefined;
       const locked = Boolean(needs && !state.researched.includes(needs));
       const poor = cost !== null && state.treasury < cost;
-      const key = tl === "inspect" ? "I" : tl === "canal" ? "C" : tl === "demolish" ? "X" : tl === "endow" ? "T" : String((i - 1) % 10);
+      const key = tl === "inspect" ? "I" : tl === "canal" ? "C" : tl === "demolish" ? "X" : tl === "endow" ? "T" : i - 2 < 10 ? String((i - 1) % 10) : "";
       const title = locked && needs ? t("locked", { research: t(`research_${needs}`) }) : `${toolName(tl)}${cost !== null ? ` · ${t("cost", { cost })}` : ""}`;
       return el("button", { type: "button", id: `tool-${tl}`, class: `tool${locked ? " locked" : ""}${poor ? " poor" : ""}`, ariaPressed: String(tool === tl), ariaDisabled: String(locked), title, onclick: () => setTool(tl) }, icon(tl), el("span", { class: "name", textContent: toolName(tl) }), cost !== null ? ltr(String(cost), "cost") : el("span", { class: "cost" }), el("kbd", { textContent: key, ariaHidden: "true" } as Props<"kbd">));
     });
