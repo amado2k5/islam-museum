@@ -23,7 +23,7 @@ _26 November 2026, brought up to date later that day (the third to twelfth trial
 | Machines and browsers | two reference machines, the main browsers, phones and tablets | one Mac, Chrome |
 | People playing | children of three age bands, parents, Arabic and Urdu readers | nobody |
 | On the museum's site | a Play page, a menu entry, a page for the game | a written proposal |
-| Released | UAT, then production | UAT since 26 November 2026, and public in production at `games.islam.museum` since 26 November 2026, from an earlier build (commit `885c7d97a5a`, read on 26 November 2026 when the paper of Samarkand was written: the flying scene, the elephant clock, the opening story, the secret page and the locked box, with an Atlas note that says four quests are built; not the scattered sheets, the animal cards, the paper of Samarkand, Ibn Battuta's thread, al-Tusi's two circles, the journey of coffee, the Alhambra or al-Razi's loose leaves; read again on 27 November 2026 with `release.json`, still `885c7d97a5a`) |
+| Released | UAT, then production | UAT since 26 November 2026, and public in production at `games.islam.museum` since 26 November 2026. Read again on 27 November 2026 with `release.json`: the live release names commit `30aacf991c9` (the third production release, which adds the fifth to the eleventh quests, the Alhambra last), an earlier commit of this branch's history; it does not have al-Razi's loose leaves. Before it, the live build was commit `885c7d97a5a` (the flying scene, the elephant clock, the opening story, the secret page and the locked box, with an Atlas note that says four quests are built) |
 
 ## What must be built, in the order it unblocks the rest
 
