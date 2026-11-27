@@ -25,6 +25,8 @@ const WHERE: [string, string, string][] = [
   ["Atlas", "atlas", "review_pending"],
   // Hudhud says it under the picture and again in the museum note at the end of a quest.
   ["Hudhud", "hudhud", "review_note"],
+  // The Lamp of the Ages says it above every view, beside the records it shows.
+  ["The Lamp of the Ages", "lamp", "review_note"],
 ];
 const strings = (game: string, lang: string) => JSON.parse(readFileSync(resolve(root, `gaming/games/${game}/i18n/${lang}.json`), "utf8")) as Record<string, string>;
 

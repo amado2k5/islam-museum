@@ -1,0 +1,23 @@
+/* The Lamp of the Ages: placeholder art drawn by code, on the daily games' shared tokens. */
+.jinni { display: grid; gap: 4px; }
+.lamp-art { width: 120px; height: 60px; }
+.review { border-inline-start: 4px solid var(--near); padding: 6px 10px; background: var(--card); }
+.dial { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; margin: 12px 0; }
+.dial input { flex: 1 1 200px; min-height: 44px; accent-color: var(--accent); }
+.dial output { font-weight: 700; min-width: 10ch; }
+.mapwrap { margin: 0 0 12px; }
+.map { width: 100%; height: auto; border: 1px solid var(--line); border-radius: 8px; display: block; }
+.map .sea { fill: #cfe3e6; }
+.map .land { fill: #e9dcc0; stroke: #9c8b6a; stroke-width: .6; }
+.map .dot { fill: #8f8a80; stroke: #3b372f; stroke-width: 1.5; }
+.map .dot.lit { fill: #d9a441; stroke: #5a3d0c; stroke-width: 2.5; }
+.map .lbl { font: 600 13px system-ui, sans-serif; fill: #3b372f; paint-order: stroke; stroke: #fbf8f2; stroke-width: 3px; }
+.map .lbl.lit { font-size: 15px; fill: #1d1b18; }
+.dests { list-style: none; padding: 0; display: grid; gap: 8px; }
+.dests button, .view > button, .card button { min-height: 44px; }
+.rec .meta code, .small code { font-size: .85em; overflow-wrap: anywhere; }
+.q { display: grid; gap: 8px; border: 1px solid var(--line); }
+.done { font-weight: 700; color: var(--hit); }
+.companion { border-inline-start: 4px solid var(--accent); }
+.view { display: grid; gap: 12px; margin: 12px 0; }
+:focus-visible { outline: 3px solid var(--focus); outline-offset: 2px; }
