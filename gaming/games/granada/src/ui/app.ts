@@ -220,6 +220,20 @@ async function main(): Promise<void> {
   const keep = () => {
     saveOk = !saveLocked && writeSave(localStorage, state);
   };
+  /**
+   * The orders of the day so far, newest last: the state before each, so that an order can be taken back until the
+   * day ends. A day that passes cannot be taken back, as a harvest or a sale in the world cannot.
+   */
+  let undoStack: VillageState[] = [];
+  const UNDO_DEPTH = 30;
+  const undo = (): boolean => {
+    if (photo || undoStack.length === 0) return false;
+    state = undoStack.pop()!;
+    keep();
+    render();
+    say(t("undo_done"));
+    return true;
+  };
   const order = (command: VillageCommand): boolean => {
     // Nothing is ordered while a picture is being taken.
     if (photo) return false;
@@ -228,6 +242,8 @@ async function main(): Promise<void> {
       say(refusal(r.result));
       return false;
     }
+    undoStack.push(state);
+    if (undoStack.length > UNDO_DEPTH) undoStack.shift();
     state = r.state;
     keep();
     render();
@@ -279,6 +295,7 @@ async function main(): Promise<void> {
     // No day passes while a picture is being taken, whoever asks.
     if (state.outcome || photo) return;
     state = tick(sc, state);
+    undoStack = [];
     for (const e of state.last?.events ?? []) {
       const text = eventText(e);
       if (text) say(text);
@@ -324,6 +341,7 @@ async function main(): Promise<void> {
         speedButton(0, "speed_pause", "❚❚"),
         speedButton(1, "speed_play", "▶"),
         speedButton(2, "speed_fast", "▶▶"),
+        h("button", { type: "button", class: "speed undo", id: "undo", title: t("undo_title"), disabled: undoStack.length === 0 || Boolean(state.outcome), onclick: () => undo() }, t("undo")),
         h("button", { type: "button", class: "speed step", id: "step", title: t("speed_step"), disabled: Boolean(state.outcome), onclick: () => nextDay() }, t("speed_step")),
       ),
       h("div", { class: "menu" }, musicBox, qualityBox, h("button", { type: "button", id: "btn-help", onclick: () => showHelp() }, t("help"))),
@@ -1190,6 +1208,7 @@ async function main(): Promise<void> {
   }
   /** Puts the page back to a year's first morning: paused, on the Overview, nothing chosen, nothing said yet. */
   function freshPage(): void {
+    undoStack = [];
     speed = 0;
     tab = "valley";
     selected = null;
@@ -1264,6 +1283,7 @@ async function main(): Promise<void> {
     if (e.key >= "1" && e.key <= "5") setTab(tabs[Number(e.key) - 1]!);
     else if (e.key === "p" || e.key === "P") setSpeed(speed === 0 ? 1 : 0);
     else if (e.key === "." || e.key === "n" || e.key === "N") nextDay();
+    else if (e.key === "u" || e.key === "U") undo();
     else if (e.key === "h" || e.key === "H" || e.key === "?") showHelp();
     else if (placing && e.key === "Escape") stopPlacing();
     else if (placing && e.key === "Enter" && !["BUTTON", "A"].includes(target.tagName)) {
@@ -1279,6 +1299,7 @@ async function main(): Promise<void> {
   const hook: Record<string, unknown> = { ready: true, lang, scenario: sc.id, state: () => state, speed: () => speed, tab: () => tab, music, saveOk: () => saveOk, order: (c: VillageCommand) => order(c), days: (n: number) => { for (let i = 0; i < n; i++) nextDay(); }, begin: (seed: number) => begin(seed), view: () => view, setView: (to: "3d" | "plan") => setView(to), stage: () => stage, threeD: "pending" };
   hook.quality = quality;
   hook.goOn = () => goOn();
+  hook.undo = () => undo();
   hook.again = () => again();
   hook.photo = () => ({ on: photo, bare: photoBare, preview: { ...preview }, shots: photoShots });
   if (counters) {
