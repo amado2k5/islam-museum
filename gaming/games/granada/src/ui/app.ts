@@ -22,6 +22,8 @@ import type { Stage } from "./stage";
 import { ESTATE, MARKET, STORE, heightAt } from "../view/valley";
 import { TEXT_SIZES, applyTextSize, readTextSize, type TextSize } from "./text-size";
 import { startGamepad } from "@im/platform/gamepad";
+import { installKeymap, type Action } from "@im/platform/keymap";
+import { keymapPanel } from "@im/platform/keymap-panel";
 import { advice, carryOver, chainView, foodToSpare, seasonFigures, warnings, catalogueRows, decisionRows, effectRows, fieldCards, marketRows, tradeView, questRows, riverOfYear, skyAhead, stocks, workRows, yesterday, type FieldCard, type WorkRow } from "./model";
 
 type Strings = Record<Exclude<keyof typeof en, "_meta">, string>;
@@ -92,6 +94,9 @@ async function main(): Promise<void> {
     }
   };
   const effects = new Effects();
+  // The keys the player may move: the game goes on hearing its own, and a moved key is turned into its own first.
+  const KEY_ACTIONS: Action[] = [{ id: "pause", key: "p" }, { id: "day", key: "n" }, { id: "undo", key: "u" }, { id: "help", key: "h" }, { id: "overview", key: "o" }];
+  const keymap = installKeymap("granada", KEY_ACTIONS);
   applyTextSize(readTextSize(), false);
   const seedParam = Number(query.get("seed"));
   const newSeed = () => (Number.isSafeInteger(seedParam) && seedParam > 0 ? seedParam : 1 + (Math.floor(performance.now() * 1000) % 100000));
@@ -1193,6 +1198,7 @@ async function main(): Promise<void> {
       "help",
       h("h2", {}, t("help")),
       h("p", {}, t("help_text")),
+      keymapPanel(KEY_ACTIONS, keymap, { title: t("keys_title"), change: t("keys_change"), press: t("keys_press"), reset: t("keys_reset"), action: (id) => t(`key_action_${id}`) }),
       h("label", { class: "quality" }, h("input", { type: "checkbox", id: "effects-on", checked: effects.on, onchange: (e: Event) => effects.set((e.currentTarget as HTMLInputElement).checked) }), h("span", {}, t("effects_label"))),
       h("label", { class: "quality" }, h("span", {}, t("text_size")), h("select", { id: "text-size", onchange: (e: Event) => applyTextSize((e.currentTarget as HTMLSelectElement).value as TextSize) }, ...(Object.keys(TEXT_SIZES) as TextSize[]).map((size) => h("option", { value: size, selected: size === readTextSize() }, t(`text_size_${size}`))))),
       // A game set aside by a build that could not read it, which this build can: it can be brought back.
