@@ -786,7 +786,8 @@ for (const lang of ["en", "ar"]) {
   };
   const view = (page: Page) => ev<{ moves: number; checks: number; flags: string[]; done: boolean; grid: number[]; solution: number[]; selected: number | null; status: string; rows: number; cols: number; start: number[] }>(page, "(() => { const a = window.__HH__.sheets(); return { moves: a.moves, checks: a.checks, flags: a.flags, done: a.done, grid: a.grid, solution: a.solution, selected: a.selected, status: a.status, rows: a.rows, cols: a.cols, start: a.start }; })()");
   const ctx = await browser.newContext({ viewport: { width: 1280, height: 900 } });
-  let page = await open(ctx, "&style=explorer");
+  // Since 27 November 2026 al-Idrisi's scene is played in his hall; `room=off` keeps this check on the scattered sheets' page, which stays as the way they are played without WebGL.
+  let page = await open(ctx, "&style=explorer&room=off");
   const button = page.locator(`.hub button[data-quest='${QUEST}']`);
   const isPlain = await button.evaluate((b) => !b.classList.contains("primary"));
   const label = await button.textContent();
@@ -850,7 +851,8 @@ for (const lang of ["en", "ar"]) {
   await ctx.close();
   // Left in the middle: one exchange made, the page loaded again, and the Atlas says Continue; the sheets lie as they did.
   const ctx2 = await browser.newContext({ viewport: { width: 1280, height: 900 } });
-  page = await open(ctx2, "&style=explorer");
+  // Since 27 November 2026 al-Idrisi's scene is played in his hall; `room=off` keeps this check on the scattered sheets' page, which stays as the way they are played without WebGL.
+  page = await open(ctx2, "&style=explorer&room=off");
   await page.locator(`.hub button[data-quest='${QUEST}']`).click();
   const w0 = await view(page);
   await page.locator(".bench .sheet-row button[data-place='0']").click();
@@ -872,7 +874,8 @@ for (const lang of ["en", "ar"]) {
   await ctx2.close();
   // The Challenge way of playing shows nothing until the map is checked; the count is told then, a failed check is counted, and the map is done only on a check.
   const ctx3 = await browser.newContext({ viewport: { width: 1280, height: 900 } });
-  page = await open(ctx3, "&style=challenge");
+  // Since 27 November 2026 al-Idrisi's scene is played in his hall; `room=off` keeps this check on the scattered sheets' page, which stays as the way they are played without WebGL.
+  page = await open(ctx3, "&style=challenge&room=off");
   await page.locator(`.hub button[data-quest='${QUEST}']`).click();
   const c0 = await ev<{ alt: string | null; status: string; checkButtons: number; placeLabels: string[] }>(page, "({ alt: document.querySelector('.bench canvas.sheets-art').getAttribute('aria-label'), status: document.querySelector('.bench .ran .status').textContent, checkButtons: [...document.querySelectorAll('.bench button')].filter((x) => x.textContent === 'Check the map').length, placeLabels: [...document.querySelectorAll('.bench .sheet-row button')].map((x) => x.textContent) })");
   await page.getByRole("button", { name: "Check the map" }).click();
@@ -902,7 +905,8 @@ for (const lang of ["en", "ar"]) {
   const arCtx = await browser.newContext({ viewport: { width: 1280, height: 900 } });
   const ar = await arCtx.newPage();
   ar.on("pageerror", (e) => errors.push(String(e)));
-  await ar.goto(`${served.base}/games/hudhud/index.html?lang=ar&music=off&style=explorer`);
+  // Since 27 November 2026 al-Idrisi's scene is played in his hall; `room=off` keeps this check on the scattered sheets' page, which stays as the way they are played without WebGL.
+  await ar.goto(`${served.base}/games/hudhud/index.html?lang=ar&music=off&style=explorer&room=off`);
   await ar.waitForFunction("window.__HH__ && window.__HH__.ready");
   await leaveOpening(ar);
   await ar.locator(`.hub button[data-quest='${QUEST}']`).click();
@@ -3716,7 +3720,7 @@ for (const lang of ["en", "ar"]) {
   }
 
   // (8) In the journey: al-Khwarizmi's lit door leads into this room (the fifth scene), and this room's lit door, walked
-  // to, leads on to the sixth scene, al-Idrisi's page.
+  // to, leads on into the sixth scene, al-Idrisi's hall (since 27 November 2026; before, al-Idrisi's page).
   {
     const ctx = await browser.newContext({ viewport: { width: 1280, height: 900 } });
     const page = await open(ctx, "&style=explorer");
@@ -3745,11 +3749,11 @@ for (const lang of ["en", "ar"]) {
     await page.waitForFunction("window.__HH__.kindi().doorLit", undefined, { timeout: 15000 });
     await skipTalk(page);
     await page.locator(`${ROOM} .stage`).focus();
-    await walkRight(page, "window.__HH__.sheets() !== null");
-    const onward = await ev<{ journey: { scene: number; at: number }; last: { scene: string } | null; heading: string; room: unknown; roomHidden: boolean }>(page, "({ journey: window.__HH__.journey(), last: window.__HH__.lastDoor(), heading: document.querySelector('.bench h2').textContent, room: window.__HH__.kindi(), roomHidden: document.querySelector('.room-box').hidden })");
-    record("in the journey al-Khwarizmi's lit door leads into al-Kindi's room (the fifth scene: no page, no corridor, Hudhud's line naming him); finished, its lit door walked to with the right arrow key leads on to the sixth scene, al-Idrisi's page",
+    await walkRight(page, "window.__HH__.idrisi() !== null && window.__HH__.where() !== null");
+    const onward = await ev<{ journey: { scene: number; at: number }; last: { scene: string } | null; heading: string; room: unknown; roomHidden: boolean; page: unknown; corridors: number }>(page, `({ journey: window.__HH__.journey(), last: window.__HH__.lastDoor(), heading: document.querySelector('${ROOM} h2').textContent, room: window.__HH__.kindi(), roomHidden: document.querySelector('.room-box').hidden, page: window.__HH__.sheets(), corridors: document.querySelectorAll('.corridor').length })`);
+    record("in the journey al-Khwarizmi's lit door leads into al-Kindi's room (the fifth scene: no page, no corridor, Hudhud's line naming him); finished, its lit door walked to with the right arrow key leads on into the sixth scene, al-Idrisi's hall (no page, no corridor)",
       entered.journey.scene === 4 && entered.journey.at === 4 && entered.last?.scene === "khwarizmi" && entered.toast === "Hudhud: On to the next page of the Atlas: al-Kindi!" && entered.heading === "al-Kindi" && entered.corridors === 0 && entered.page === null &&
-        onward.journey.scene === 5 && onward.journey.at === 5 && onward.last?.scene === "kindi" && onward.room === null && onward.roomHidden && /Idrisi/.test(onward.heading),
+        onward.journey.scene === 5 && onward.journey.at === 5 && onward.last?.scene === "kindi" && onward.room === null && !onward.roomHidden && onward.heading === "al-Idrisi" && onward.page === null && onward.corridors === 0,
       { entered, onward });
     await ctx.close();
   }
@@ -3828,6 +3832,356 @@ for (const lang of ["en", "ar"]) {
     const done = await ev<boolean>(page, "window.__HH__.cipher().done");
     record("without WebGL al-Kindi's scene is played on the secret page's page (its trial line on the Atlas, a list of choices for each mark, no room), and is finished there",
       /first trial/.test(note) && onPage.room === null && onPage.selects === 7 && onPage.roomHidden && onPage.benchShown && done, { note, onPage: { ...onPage, key: undefined }, done });
+    await ctx.close();
+  }
+}
+// Al-Idrisi's hall, the sixth room on the room engine (asked for by the founder, 27 November 2026): opened from the
+// Atlas it is a canvas scene with the hall in words (which sheet is lifted, the counts, the seams as the way of playing
+// shows them, the grid of sheets as rows of buttons, the edges of every sheet as a table, every other thing a button); a
+// sheet lifted by flight, put down and lifted again with the touch key, and exchanged with another by flight (two touches,
+// one move); both questions, the kind answer and the feather under the stack of loose sheets; the map put in order by
+// exchanges worked out from the hall's own state, made by flight and touch, the lit door, the panel with four goals and
+// the notes, and the door walked to with real key presses; Challenge's lamp checking the map, a failed check counted; a
+// reload resumes in the hall as it was, the lifted sheet included; in the journey its door leads on; an Arabic page;
+// movement kept still; and without WebGL the scene is played on the scattered sheets' page.
+{
+  type IsShown = { grid: number[]; lifted: number | null; seams: number; feather: boolean; agree: boolean };
+  type Is = { grid: number[]; solution: number[]; moves: number; checks: number; flags: string[]; done: boolean; rows: number; cols: number; style: string; lifted: number | null; talk: { script: string } | null; doorLit: boolean; last: { type: string; matched?: number; total?: number } | null; shown: IsShown | null };
+  const QUEST = "w03q4-al-idrisi";
+  const ROOM = ".room-box";
+  const NOTE_ROOM = "The hall, the great table, the sheets on it and the lamp are invented for play, and the drawing on the sheets is an imagined coast, not al-Idrisi's map.";
+  const is = (page: Page) => ev<Is | null>(page, "window.__HH__.idrisi()");
+  const openIs = async (page: Page) => {
+    await page.locator(`.hub button[data-quest='${QUEST}']`).click();
+    await page.waitForFunction("window.__HH__.idrisi() !== null && window.__HH__.where() !== null", undefined, { timeout: 30000 });
+    await page.waitForTimeout(700);
+  };
+  const skipTalk = async (page: Page) => {
+    for (let i = 0; i < 8 && (await is(page))?.talk; i++) {
+      await page.locator(`${ROOM} .talk button.quiet`).last().click();
+      await page.waitForTimeout(150);
+    }
+  };
+  /** Flies the bird to a thing by the engine's own flight (goTo), and waits until it has landed and touched it. */
+  const fly = async (page: Page, id: string, until: string) => {
+    await ev(page, `window.__HH__.goTo(${JSON.stringify(id)})`);
+    await page.waitForFunction(until, undefined, { timeout: 8000 });
+    await page.waitForTimeout(150);
+  };
+  const walkRight = async (page: Page, until: string) => {
+    await page.keyboard.down("ArrowRight");
+    try {
+      await page.waitForFunction(until, undefined, { timeout: 25000 });
+    } finally {
+      await page.keyboard.up("ArrowRight");
+    }
+  };
+  /** Two sheets exchanged by flight: to the first (it is lifted), then to the second (the exchange, one move). */
+  const exchangeBy = async (page: Page, a: number, b: number) => {
+    const moves = (await is(page))!.moves;
+    await fly(page, `place-${a}`, `window.__HH__.idrisi().lifted === ${a}`);
+    await fly(page, `place-${b}`, `window.__HH__.idrisi().moves === ${moves + 1} || window.__HH__.idrisi().done`);
+  };
+  /** The page quest's own way of putting the map in order, from the hall's state: for the first wrong place, the place where its right sheet lies. */
+  const nextPair = (s: Is): [number, number] | null => {
+    const p = s.grid.findIndex((id, i) => id !== s.solution[i]);
+    return p < 0 ? null : [p, s.grid.indexOf(s.solution[p]!)];
+  };
+  const liftText = (page: Page) => ev<{ text: string; live: string | null }>(page, `({ text: document.querySelector('${ROOM} .room-words .carrying').textContent, live: document.querySelector('${ROOM} .room-words .carrying').getAttribute('aria-live') })`);
+  const ranText = (page: Page) => ev<string>(page, `document.querySelector('${ROOM} .ran').textContent`);
+  const grid = (page: Page) => ev<{ rows: number; perRow: number[]; labels: string[]; pressed: string[]; sized: boolean }>(page, `({ rows: document.querySelectorAll('${ROOM} ol.sheet-row').length, perRow: [...document.querySelectorAll('${ROOM} ol.sheet-row')].map((o) => o.querySelectorAll('button').length), labels: [...document.querySelectorAll('${ROOM} .sheet-row button')].map((b) => b.textContent), pressed: [...document.querySelectorAll('${ROOM} .sheet-row button')].map((b) => b.getAttribute('aria-pressed')), sized: [...document.querySelectorAll('${ROOM} .sheet-row button')].every((b) => b.getBoundingClientRect().width >= 44 && b.getBoundingClientRect().height >= 44) })`);
+  const others = (page: Page) => ev<string[]>(page, `[...document.querySelectorAll('${ROOM} .room-words > ul li button')].map((b) => b.textContent)`);
+  const statusText = (page: Page) => ev<string>(page, `document.querySelector('${ROOM} .room-words > p.status').textContent`);
+
+  // (1) to (4): one play in Explorer, from the Atlas, by flight, touch and keys.
+  {
+    const ctx = await browser.newContext({ viewport: { width: 1280, height: 900 } });
+    const page = await open(ctx, "&style=explorer");
+    const atlasItem = await ev<{ label: string; notes: number }>(page, `(() => { const b = document.querySelector(".hub button[data-quest='${QUEST}']"); return { label: b.textContent, notes: b.parentElement.querySelectorAll('small').length }; })()`);
+    await openIs(page);
+    const opened = await ev<{ canvases: number; benchHidden: boolean; roomShown: boolean; heading: string; alt: string | null; info: { renderer: string; largestTextures: { width: number; height: number }[] }; talk: string | null; edgeRows: number; caption: string; summary: string; group: string | null }>(page, `({ canvases: document.querySelectorAll('${ROOM} .stage canvas').length, benchHidden: document.querySelector('.bench').hidden, roomShown: !document.querySelector('${ROOM}').hidden, heading: document.querySelector('${ROOM} h2').textContent, alt: document.querySelector('${ROOM} .stage').getAttribute('aria-label'), info: window.__HH__.info(), talk: document.querySelector('${ROOM} .talk:not([hidden]) .who') ? document.querySelector('${ROOM} .talk .who').textContent : null, edgeRows: document.querySelectorAll('${ROOM} details.edges tbody tr').length, caption: document.querySelector('${ROOM} details.edges caption').textContent, summary: document.querySelector('${ROOM} details.edges summary').textContent, group: document.querySelector('${ROOM} .sheet-rows').getAttribute('aria-label') })`);
+    const first = (await is(page))!;
+    const firstGrid = await grid(page);
+    const firstOthers = await others(page);
+    const firstLift = await liftText(page);
+    const firstStatus = await statusText(page);
+    const bad0 = Number(/Seams that do not match: (\d+) of 31\./.exec(firstStatus)?.[1] ?? NaN);
+    if (outDir) (mkdirSync(outDir, { recursive: true }), await page.screenshot({ path: resolve(outDir, "idrisi-room-start.png") }));
+    record("al-Idrisi's hall opens from the Atlas as a canvas scene on the room engine: the Atlas names it as it names the other rooms (no line about a page), the hall speaks first, the great table holds the twelve sheets as the quest lays them out and marks the seams that do not match, and the hall is said in words: which sheet is lifted in a polite live region, the seams in the page's words, the sheets as three rows of four buttons of at least 44 pixels, the edges of every sheet as the page's table, and every other thing a button (al-Idrisi, the helper, the stack of loose sheets; no lamp in Explorer)",
+      atlasItem.label === "Play: al-Idrisi" && atlasItem.notes === 0 && opened.canvases === 1 && opened.benchHidden && opened.roomShown && opened.heading === "al-Idrisi" && opened.alt === "Al-Idrisi's hall, as a picture. The list after it says the same in words." && opened.info.renderer === "webgl" && Math.max(...opened.info.largestTextures.flatMap((t) => [t.width, t.height])) <= 2048 && opened.talk === "Hudhud" &&
+        first.moves === 0 && first.lifted === null && first.shown?.agree === true && first.shown.grid.join() === first.grid.join() && first.shown.lifted === null && first.shown.seams === bad0 && bad0 > 0 && first.shown.feather &&
+        firstLift.text === "Lifted: nothing" && firstLift.live === "polite" && firstGrid.rows === 3 && firstGrid.perRow.join() === "4,4,4" && firstGrid.sized && firstGrid.pressed.every((x) => x === "false") && firstGrid.labels[0] === `Go to row 1, place 1 on the table, sheet ${first.grid[0]}` && firstGrid.labels[11] === `Go to row 3, place 4 on the table, sheet ${first.grid[11]}` &&
+        opened.edgeRows === 12 && /^What the edges of each sheet carry/.test(opened.caption) && opened.summary === "The edges of every sheet, in words" && opened.group === "The sheets, row by row" &&
+        firstOthers.join("|") === "Go to al-Idrisi|Go to the young helper|Go to the stack of loose sheets on top of the tall shelf",
+      { atlasItem, opened: { ...opened, info: { renderer: opened.info.renderer } }, first: { grid: first.grid, shown: first.shown }, firstLift, firstStatus, firstGrid: { ...firstGrid, labels: firstGrid.labels.slice(0, 2) }, firstOthers });
+    await skipTalk(page);
+
+    // (2) A sheet lifted by flight; put down and lifted again with the touch key; then another sheet touched by flight:
+    // the two are exchanged, one move for two touches.
+    await fly(page, "place-0", "window.__HH__.idrisi().lifted === 0");
+    const onRail = await ev<{ x: number; y: number; near: string | null }>(page, "window.__HH__.where()");
+    const lifted1 = { v: (await is(page))!, words: await liftText(page), pressed: (await grid(page)).pressed };
+    if (outDir) await page.screenshot({ path: resolve(outDir, "idrisi-room-lifted.png") });
+    await page.locator(`${ROOM} .stage`).focus();
+    await page.keyboard.press("KeyE");
+    await page.waitForFunction("window.__HH__.idrisi().lifted === null", undefined, { timeout: 4000 });
+    await page.waitForTimeout(150);
+    const putDown = { v: (await is(page))!, ran: await ranText(page) };
+    await page.keyboard.press("KeyE");
+    await page.waitForFunction("window.__HH__.idrisi().lifted === 0", undefined, { timeout: 4000 });
+    await fly(page, "place-1", "window.__HH__.idrisi().moves === 1");
+    const swapped = { v: (await is(page))!, ran: await ranText(page), words: await liftText(page), labels: (await grid(page)).labels };
+    record("a sheet lifted by flight: the bird lands on the rail along the back row and the first sheet rises, framed, said in words ('Lifted: sheet n', its button pressed); the touch key puts it down (no move, the page's 'Let go') and lifts it again; flown to the next sheet, the two are exchanged: one move for two touches, in the page's words, nothing lifted after, and the table shows the sheets as the rules have them",
+      onRail.near === "place-0" && onRail.y === 313 && lifted1.v.lifted === 0 && lifted1.v.moves === 0 && lifted1.v.shown?.lifted === 0 && lifted1.v.shown.agree && lifted1.words.text === `Lifted: sheet ${first.grid[0]}` && lifted1.pressed[0] === "true" && lifted1.pressed.slice(1).every((x) => x === "false") &&
+        putDown.v.lifted === null && putDown.v.moves === 0 && putDown.v.shown?.lifted === null && putDown.ran === "Let go. No sheet is chosen." &&
+        swapped.v.moves === 1 && swapped.v.lifted === null && swapped.v.grid[0] === first.grid[1] && swapped.v.grid[1] === first.grid[0] && swapped.v.shown?.agree === true && swapped.v.shown.lifted === null && swapped.ran.startsWith("Exchanged row 1, place 1 with row 1, place 2.") && /Seams that do not match: \d+ of 31\./.test(swapped.ran) && swapped.words.text === "Lifted: nothing" && swapped.labels[0] === `Go to row 1, place 1 on the table, sheet ${first.grid[1]}`,
+      { onRail, lifted1: { lifted: lifted1.v.lifted, shown: lifted1.v.shown, words: lifted1.words }, putDown: { lifted: putDown.v.lifted, ran: putDown.ran }, swapped: { moves: swapped.v.moves, grid: swapped.v.grid, shown: swapped.v.shown, ran: swapped.ran } });
+
+    // (3) Al-Idrisi, the helper and the stack of loose sheets, by touching them; the Touch button touches the helper again.
+    await fly(page, "idrisi", "window.__HH__.idrisi().talk !== null");
+    const hello = await page.locator(`${ROOM} .talk .line + span`).textContent();
+    await page.locator(`${ROOM} .talk .choices button`, { hasText: "Ask about his book" }).click();
+    const bookWho = await page.locator(`${ROOM} .talk .who`).textContent();
+    const bookLine = await page.locator(`${ROOM} .talk .line + span`).textContent();
+    await page.locator(`${ROOM} .talk .choices button`, { hasText: "Ask about the maps" }).click();
+    const mapsLine = await page.locator(`${ROOM} .talk .line + span`).textContent();
+    const thanks = await page.locator(`${ROOM} .talk .choices button`).last().textContent();
+    await page.locator(`${ROOM} .talk .choices button`).last().click();
+    const bye = await page.locator(`${ROOM} .talk .line + span`).textContent();
+    const byeWho = await page.locator(`${ROOM} .talk .who`).textContent();
+    await page.locator(`${ROOM} .talk button`, { hasText: "Next" }).click();
+    await fly(page, "helper", "window.__HH__.idrisi().talk !== null");
+    const helperWho = await page.locator(`${ROOM} .talk .who`).textContent();
+    const helperLine = await page.locator(`${ROOM} .talk .line + span`).textContent();
+    await page.locator(`${ROOM} .talk .choices button`, { hasText: "It is all right. We will put them in order together." }).click();
+    for (let i = 0; i < 3 && (await is(page))?.talk; i++) await page.locator(`${ROOM} .talk button`, { hasText: "Next" }).click();
+    await page.locator(`${ROOM} .pad button.wide`).click();
+    const again = (await is(page))!.talk?.script ?? null;
+    await skipTalk(page);
+    await fly(page, "stack", "window.__HH__.idrisi().flags.includes('feather')");
+    const onShelf = await ev<{ y: number }>(page, "window.__HH__.where()");
+    const featherLine = await page.locator(`${ROOM} .talk .line + span`).textContent();
+    await skipTalk(page);
+    const asked = (await is(page))!;
+    record("touching al-Idrisi greets and asks him about his book and about the maps (the page's own lines, said by the museum's record), with a goodbye of the hall's own in his imagined words; the helper is answered kindly, and the Touch button touches the helper again; the feather is under the stack of loose sheets on top of the tall shelf, reached by flight; the flags are the page quest's own and no move is counted",
+      hello === "Welcome to the hall. Ask me what you like; the sheets will wait on the table." && bookWho === "From the museum's record" && /Roger II, king of Sicily/.test(bookLine ?? "") && /seven climes/.test(mapsLine ?? "") && thanks === "Thank you. Now to the table." && bye === "Go well. Every edge has a neighbour that matches it." && byeWho === "Al-Idrisi, in imagined words" &&
+        helperWho === "The young helper, an invented person" && /dropped the sheets/.test(helperLine ?? "") && again === "helperKind" &&
+        onShelf.y === 150 && featherLine === "A feather, under the sheets! It is one of mine." && asked.flags.slice().sort().join() === "answered,askedBook,askedMaps,feather,kind" && asked.moves === 1 && asked.shown?.feather === false,
+      { hello, bookWho, bookLine, mapsLine, thanks, bye, byeWho, helperWho, helperLine, again, onShelf, featherLine, flags: asked.flags });
+
+    // (4) The map put in order by exchanges worked out here from the hall's own state, each made by flight and touch:
+    // every seam matches, the door lights, the panel; then the door walked to with real key presses.
+    let exchanges = 0;
+    for (;;) {
+      const s = (await is(page))!;
+      const pair = nextPair(s);
+      if (!pair || s.done) break;
+      await exchangeBy(page, pair[0], pair[1]);
+      exchanges++;
+    }
+    await page.waitForFunction("window.__HH__.idrisi().doorLit", undefined, { timeout: 5000 });
+    await page.waitForTimeout(400);
+    if (outDir) await page.screenshot({ path: resolve(outDir, "idrisi-room-done.png") });
+    const live = await ev<string>(page, `document.querySelector('${ROOM} .room > .visually-hidden[role=status]').textContent`);
+    const panel = await ev<{ shown: boolean; modal: number; goals: number; met: number; notes: string[]; links: string[]; pending: string; buttons: string[]; door: { lit: boolean; scene: string }; list: string[]; objective: string; status: string; saved: boolean; resume: unknown; gridDisabled: boolean }>(page, `(() => { const p = document.querySelector('${ROOM} .door-panel'); return { shown: !p.hidden, modal: document.querySelectorAll('[aria-modal=true]').length, goals: p.querySelectorAll('.goals li').length, met: p.querySelectorAll('.goals .met').length, notes: [...p.querySelectorAll('.note p')].map((x) => x.textContent), links: [...p.querySelectorAll('.note a')].map((a) => a.getAttribute('href')), pending: p.querySelector('.pending').textContent, buttons: [...p.querySelectorAll('button')].map((b) => b.textContent), door: window.__HH__.door(), list: [...document.querySelectorAll('${ROOM} .room-words > ul li button')].map((b) => b.textContent), objective: document.querySelector('${ROOM} .objective').textContent, status: document.querySelector('${ROOM} .room-words > p.status').textContent, saved: JSON.parse(localStorage.getItem('im.hudhud.save.v1') || '{}').slots?.[0]?.quests?.['${QUEST}']?.done === true, resume: JSON.parse(localStorage.getItem('im.hudhud.save.v1') || '{}').slots?.[0]?.resume ?? null, gridDisabled: [...document.querySelectorAll('${ROOM} .sheet-row button')].every((b) => b.disabled) }; })()`);
+    const finished = (await is(page))!;
+    const doneRan = await ranText(page);
+    await skipTalk(page);
+    await page.locator(`${ROOM} .stage`).focus();
+    await page.keyboard.down("ArrowRight");
+    await page.waitForTimeout(900);
+    if (outDir) await page.screenshot({ path: resolve(outDir, "idrisi-room-door-lit.png") });
+    await page.keyboard.up("ArrowRight");
+    await walkRight(page, "!document.querySelector('.hub').hidden");
+    const back = await ev<{ hub: boolean; roomHidden: boolean; last: { scene: string; where: { x: number; y: number; reach: number }; bird: { x: number; y: number } } | null; label: string; canvases: number }>(page, `({ hub: !document.querySelector('.hub').hidden, roomHidden: document.querySelector('.room-box').hidden, last: window.__HH__.lastDoor(), label: document.querySelector(".hub button[data-quest='${QUEST}']").textContent, canvases: document.querySelectorAll('.room-box canvas, #stage canvas').length })`);
+    const reach = back.last ? Math.hypot(back.last.where.x - back.last.bird.x, back.last.where.y - (back.last.bird.y - 30)) : null;
+    record("the map put in order by exchanges worked out from the hall's own state, each made by flight and touch: every seam matches, Hudhud says the page's last line, the door lights, the panel beside the stage (no modal sheet) shows four goals met, the quest's three notes, the hall's note and 'Historical review pending', and the two links; the list then offers only the door, the place kept is cleared, and holding the right arrow key walks Hudhud to it and, in free play, back to the Atlas",
+      exchanges > 0 && finished.done && finished.moves === 1 + exchanges && finished.grid.join() === finished.solution.join() && finished.talk?.script === "done" && finished.shown?.agree === true && finished.shown.seams === 0 && doneRan === "Every seam matches. The map is in order!" && /door is open/.test(live) &&
+        panel.shown && panel.modal === 0 && panel.goals === 4 && panel.met === 4 && panel.notes.includes(NOTE_ROOM) && panel.notes.some((n) => /^This is a game, not a history\./.test(n)) && /Historical review pending/.test(panel.pending) && panel.status === "Every seam matches." && panel.gridDisabled &&
+        panel.links.join() === "https://islam.museum/en/person/al-idrisi-muhammad-ibn-abd-allah/,https://islam.museum/en/work/nuzhat-al-mushtaq/" && panel.buttons.join("|") === "Go through the door|Play again|Back to the Atlas" && panel.door.lit && panel.door.scene === "idrisi" &&
+        panel.list.join() === "Go through the door" && panel.objective.startsWith("Walk Hudhud to the lit door at the end of the hall.") && panel.saved && panel.resume === null &&
+        back.hub && back.roomHidden && back.last?.scene === "idrisi" && reach !== null && reach < back.last.where.reach && /^Play again: /.test(back.label) && back.canvases === 0,
+      { exchanges, finished: { done: finished.done, moves: finished.moves, shown: finished.shown }, doneRan, live, panel, back: { ...back }, reach });
+    await ctx.close();
+  }
+
+  // (5) Challenge: the lamp by the table checks the map; a failed check is counted, the map put in order is not done until
+  // the lamp is touched again.
+  {
+    const ctx = await browser.newContext({ viewport: { width: 1280, height: 900 } });
+    const page = await open(ctx, "&style=challenge&fresh=1");
+    await openIs(page);
+    await skipTalk(page);
+    const c0 = { v: (await is(page))!, others: await others(page), status: await statusText(page), objective: await ev<string>(page, `document.querySelector('${ROOM} .objective').textContent`) };
+    await fly(page, "lamp", "window.__HH__.idrisi().checks === 1");
+    const onStand = await ev<{ y: number; near: string | null }>(page, "window.__HH__.where()");
+    const c1 = { v: (await is(page))!, ran: await ranText(page), objective: await ev<string>(page, `document.querySelector('${ROOM} .objective').textContent`) };
+    for (let s = (await is(page))!, pair = nextPair(s); pair; s = (await is(page))!, pair = nextPair(s)) await ev(page, `window.__HH__.idrisiCommand({ type: 'touch', id: 'place-${pair[0]}' }); window.__HH__.idrisiCommand({ type: 'touch', id: 'place-${pair[1]}' })`);
+    const inOrder = (await is(page))!;
+    if (outDir) await page.screenshot({ path: resolve(outDir, "idrisi-room-challenge.png") });
+    await fly(page, "lamp", "window.__HH__.idrisi().done");
+    await page.waitForFunction("window.__HH__.idrisi().doorLit", undefined, { timeout: 5000 });
+    const c2 = { v: (await is(page))!, progress: await ev<string>(page, `document.querySelector('${ROOM} .door-panel h3 + p').textContent`) };
+    record("al-Idrisi's hall in Challenge has the lamp on its stand by the table (the list says it checks the map) and shows no seam until it is touched: by flight it checks the map, says how many seams match, and counts a failed check; the map put in order by exchanges is not done until the lamp is touched again, which finishes it and lights the door",
+      c0.v.style === "challenge" && c0.others.includes("Go to the lamp by the table: Check the map") && c0.v.shown?.seams === 0 && /Which seams match is not shown here/.test(c0.status) && c0.objective.includes("touch the lamp to check the map") &&
+        onStand.near === "lamp" && onStand.y === 500 && c1.v.checks === 1 && c1.v.moves === 0 && /^Seams that match: \d+ of 38\.$/.test(c1.ran.trim()) && c1.objective.includes("Checks that failed: 1") &&
+        !inOrder.done && inOrder.grid.join() === inOrder.solution.join() && !inOrder.doorLit && c2.v.done && c2.v.checks === 1 && c2.v.doorLit && /Checks that failed: 1/.test(c2.progress),
+      { c0: { others: c0.others, status: c0.status, shown: c0.v.shown }, onStand, c1: { checks: c1.v.checks, ran: c1.ran, objective: c1.objective }, inOrder: { done: inOrder.done, moves: inOrder.moves }, c2: { done: c2.v.done, checks: c2.v.checks, progress: c2.progress } });
+    await ctx.close();
+  }
+
+  // (6) Left in the middle with a sheet lifted, the page loaded again: the Atlas says Continue, and the hall comes back as
+  // it was, the lifted sheet included.
+  {
+    const ctx = await browser.newContext({ viewport: { width: 1280, height: 900 } });
+    const page = await open(ctx, "&style=explorer");
+    await openIs(page);
+    await skipTalk(page);
+    await exchangeBy(page, 0, 5);
+    await fly(page, "place-6", "window.__HH__.idrisi().lifted === 6");
+    const left = (await is(page))!;
+    const kept = await ev<{ quest: string; snap: Record<string, unknown> } | null>(page, "JSON.parse(localStorage.getItem('im.hudhud.save.v1') || '{}').slots?.[0]?.resume ?? null");
+    await ev(page, "window.__HH__.saveReady()");
+    await page.reload();
+    await page.waitForFunction("window.__HH__ && window.__HH__.ready");
+    await leaveOpening(page);
+    const label = await ev<string>(page, `document.querySelector(".hub button[data-quest='${QUEST}']").textContent`);
+    await page.locator(`.hub button[data-quest='${QUEST}']`).click();
+    await page.waitForFunction("window.__HH__.idrisi() !== null && window.__HH__.where() !== null", undefined, { timeout: 30000 });
+    await page.waitForTimeout(500);
+    const resumed = (await is(page))!;
+    const resumedWords = { lift: await liftText(page), pressed: (await grid(page)).pressed };
+    if (outDir) await page.screenshot({ path: resolve(outDir, "idrisi-room-resumed.png") });
+    record("al-Idrisi's hall left in the middle keeps the scattered sheets' own snapshot with the lifted sheet; the page loaded again, the Atlas says Continue, and the hall comes back as it was (the exchange made, the sheet in row 2, place 3 still lifted and said in words, no talk)",
+      left.moves === 1 && left.lifted === 6 && kept?.quest === QUEST && Object.keys(kept.snap).sort().join() === "checks,flags,grid,lifted,moves,style" && kept.snap.lifted === 6 &&
+        /^Continue: /.test(label) && resumed.grid.join() === left.grid.join() && resumed.moves === 1 && resumed.lifted === 6 && resumed.talk === null && resumed.shown?.lifted === 6 && resumed.shown.agree &&
+        resumedWords.lift.text === `Lifted: sheet ${left.grid[6]}` && resumedWords.pressed[6] === "true",
+      { left: { grid: left.grid, lifted: left.lifted }, kept, label, resumed: { grid: resumed.grid, lifted: resumed.lifted, shown: resumed.shown }, resumedWords: resumedWords.lift });
+    await ctx.close();
+  }
+
+  // (7) In the journey: al-Kindi's lit door leads into this hall (the sixth scene), and this hall's lit door, walked to,
+  // leads on to the seventh scene, al-Razi's page, which keeps its corridor until it has a room.
+  {
+    const ctx = await browser.newContext({ viewport: { width: 1280, height: 900 } });
+    const page = await open(ctx, "&style=explorer");
+    await ev(page, "window.__HH__.beginJourney()");
+    await page.waitForFunction("window.__HH__.where() !== null", undefined, { timeout: 30000 });
+    await ev(page, "window.__HH__.command({type:'skip'}); for (const id of ['mirror-a','mirror-c','mirror-e']) window.__HH__.touch(id); window.__HH__.command({type:'skip'}); window.__HH__.touch('page');");
+    await ev(page, "window.__HH__.goThroughDoor()");
+    await page.waitForFunction("window.__HH__.tusi() !== null && window.__HH__.where() !== null", undefined, { timeout: 30000 });
+    await ev(page, "window.__HH__.tusiCommand({ type: 'skip' }); for (const id of ['lever-speed', 'lever-dir', 'crank']) window.__HH__.tusiCommand({ type: 'touch', id });");
+    await page.waitForFunction("window.__HH__.tusi().doorLit", undefined, { timeout: 15000 });
+    await ev(page, "window.__HH__.goThroughDoor()");
+    await page.waitForFunction("window.__HH__.jazari() !== null && window.__HH__.where() !== null", undefined, { timeout: 30000 });
+    await ev(page, "window.__HH__.jazariCommand({ type: 'skip' })");
+    for (const id of ["place-2", "place-3", "place-1", "place-1", "place-3", "spare-1", "place-2", "spare-1", "place-3", "place-5", "place-4", "lever"]) await ev(page, `window.__HH__.jazariCommand({ type: 'touch', id: '${id}' })`);
+    await page.waitForFunction("window.__HH__.jazari().doorLit", undefined, { timeout: 15000 });
+    await ev(page, "window.__HH__.goThroughDoor()");
+    await page.waitForFunction("window.__HH__.khwarizmi() !== null && window.__HH__.where() !== null", undefined, { timeout: 30000 });
+    await ev(page, "window.__HH__.khwarizmiCommand({ type: 'skip' })");
+    for (const id of ["restore-left-number", "weight-things", "scoop"]) await ev(page, `window.__HH__.khwarizmiCommand({ type: 'touch', id: '${id}' })`);
+    await page.waitForFunction("window.__HH__.khwarizmi().doorLit", undefined, { timeout: 15000 });
+    await ev(page, "window.__HH__.goThroughDoor()");
+    await page.waitForFunction("window.__HH__.kindi() !== null && window.__HH__.where() !== null", undefined, { timeout: 30000 });
+    await ev(page, "window.__HH__.kindiCommand({ type: 'skip' }); (() => { const k = window.__HH__.kindi(); for (const m of Object.keys(k.puzzle.key)) if (k.puzzle.message.includes(m)) { window.__HH__.kindiCommand({ type: 'touch', id: 'token-' + k.puzzle.key[m] }); window.__HH__.kindiCommand({ type: 'touch', id: 'slot-' + m }); } window.__HH__.kindiCommand({ type: 'touch', id: 'bell' }); })()");
+    await page.waitForFunction("window.__HH__.kindi().doorLit", undefined, { timeout: 15000 });
+    await ev(page, "window.__HH__.goThroughDoor()");
+    await page.waitForFunction("window.__HH__.idrisi() !== null && window.__HH__.where() !== null", undefined, { timeout: 30000 });
+    const entered = await ev<{ journey: { scene: number; at: number }; last: { scene: string } | null; toast: string | null; heading: string; corridors: number; page: unknown }>(page, `({ journey: window.__HH__.journey(), last: window.__HH__.lastDoor(), toast: document.querySelector('.toast') ? document.querySelector('.toast').textContent : null, heading: document.querySelector('${ROOM} h2').textContent, corridors: document.querySelectorAll('.corridor').length, page: window.__HH__.sheets() })`);
+    await skipTalk(page);
+    for (let s = (await is(page))!, pair = nextPair(s); pair && !s.done; s = (await is(page))!, pair = nextPair(s)) await ev(page, `window.__HH__.idrisiCommand({ type: 'touch', id: 'place-${pair[0]}' }); window.__HH__.idrisiCommand({ type: 'touch', id: 'place-${pair[1]}' })`);
+    await page.waitForFunction("window.__HH__.idrisi().doorLit", undefined, { timeout: 15000 });
+    await skipTalk(page);
+    await page.locator(`${ROOM} .stage`).focus();
+    await walkRight(page, "window.__HH__.leaves() !== null");
+    const onward = await ev<{ journey: { scene: number; at: number }; last: { scene: string } | null; heading: string; room: unknown; roomHidden: boolean }>(page, "({ journey: window.__HH__.journey(), last: window.__HH__.lastDoor(), heading: document.querySelector('.bench h2').textContent, room: window.__HH__.idrisi(), roomHidden: document.querySelector('.room-box').hidden })");
+    record("in the journey al-Kindi's lit door leads into al-Idrisi's hall (the sixth scene: no page, no corridor, Hudhud's line naming him); finished, its lit door walked to with the right arrow key leads on to the seventh scene, al-Razi's page",
+      entered.journey.scene === 5 && entered.journey.at === 5 && entered.last?.scene === "kindi" && entered.toast === "Hudhud: On to the next page of the Atlas: al-Idrisi!" && entered.heading === "al-Idrisi" && entered.corridors === 0 && entered.page === null &&
+        onward.journey.scene === 6 && onward.journey.at === 6 && onward.last?.scene === "idrisi" && onward.room === null && onward.roomHidden && /Razi/.test(onward.heading),
+      { entered, onward });
+    await ctx.close();
+  }
+
+  // (8) An Arabic page: the first column on the right, every sheet its own mirror image, Arabic words and numerals.
+  {
+    const ctx = await browser.newContext({ viewport: { width: 1280, height: 900 } });
+    const page = await ctx.newPage();
+    page.on("pageerror", (e) => errors.push(String(e)));
+    await page.goto(`${served.base}/games/hudhud/index.html?lang=ar&music=off&style=explorer&fresh=1`);
+    await page.waitForFunction("window.__HH__ && window.__HH__.ready");
+    await leaveOpening(page);
+    await openIs(page);
+    const ar = await ev<{ dir: string; alt: string | null; heading: string; who: string | null }>(page, `({ dir: document.documentElement.dir, alt: document.querySelector('${ROOM} .stage').getAttribute('aria-label'), heading: document.querySelector('${ROOM} h2').textContent, who: document.querySelector('${ROOM} .talk .who') ? document.querySelector('${ROOM} .talk .who').textContent : null })`);
+    await skipTalk(page);
+    const a0 = (await is(page))!;
+    await fly(page, "place-0", "window.__HH__.idrisi().lifted === 0");
+    const firstX = (await ev<{ x: number }>(page, "window.__HH__.where()")).x;
+    const lift = await liftText(page);
+    if (outDir) await page.screenshot({ path: resolve(outDir, "idrisi-room-ar.png") });
+    await fly(page, "place-1", "window.__HH__.idrisi().moves === 1");
+    const secondX = (await ev<{ x: number }>(page, "window.__HH__.where()")).x;
+    const s = { v: (await is(page))!, ran: await ranText(page), labels: (await grid(page)).labels, objective: await ev<string>(page, `document.querySelector('${ROOM} .objective').textContent`), status: await statusText(page), others: await others(page), edges: await ev<string>(page, `document.querySelector('${ROOM} details.edges').textContent`) };
+    record("al-Idrisi's hall on an Arabic page runs right to left, lays the first column of sheets on the right, says which sheet is lifted and what an exchange did in Arabic, and shows Arabic numerals and no Latin digit",
+      ar.dir === "rtl" && ar.alt === "قاعة الإدريسي في صورة. والقائمة التي بعدها تقول الشيء نفسه بالكلمات." && ar.heading === "الإدريسي" && ar.who === "هدهد" &&
+        /^مرفوعة: الورقة [٠-٩]+$/.test(lift.text) && firstX > secondX && s.v.moves === 1 && s.v.grid[0] === a0.grid[1] && s.v.shown?.agree === true && /^بُدِّلت الورقة في الصف ١، الموضع ١ بالورقة في الصف ١، الموضع ٢\./.test(s.ran) && /^اذهب إلى الصف ١، الموضع ١ على الطاولة، الورقة [٠-٩]+$/.test(s.labels[0] ?? "") && s.others.includes("اذهب إلى المساعد الصغير") &&
+        !/[0-9]/.test(s.labels.join("") + s.objective + s.status + s.ran + s.edges + lift.text),
+      { ar, lift, firstX, secondX, s: { ran: s.ran, labels: s.labels.slice(0, 2), objective: s.objective, status: s.status } });
+    await ctx.close();
+  }
+
+  // (9) Movement kept still: the bird is set down at once and each touch takes effect on the same step; Story's map is put
+  // in order with no wait, and the door is still walked to.
+  {
+    const ctx = await browser.newContext({ viewport: { width: 1280, height: 900 } });
+    const page = await open(ctx, "&style=story&motion=reduced&fresh=1");
+    await openIs(page);
+    await skipTalk(page);
+    const t0 = Date.now();
+    await ev(page, "window.__HH__.goTo('place-0')");
+    const once = (await is(page))!;
+    // The picture follows on its next frame, raised at once (no easing with movement kept still).
+    await page.waitForTimeout(120);
+    const onceShown = (await is(page))!.shown;
+    await ev(page, "window.__HH__.goTo('place-0')");
+    const putDown = (await is(page))!.lifted;
+    for (let s = (await is(page))!, pair = nextPair(s); pair && !s.done; s = (await is(page))!, pair = nextPair(s)) {
+      await ev(page, `window.__HH__.goTo('place-${pair[0]}')`);
+      await ev(page, `window.__HH__.goTo('place-${pair[1]}')`);
+    }
+    await page.waitForFunction("window.__HH__.idrisi().doorLit", undefined, { timeout: 5000 });
+    const took = Date.now() - t0;
+    const calm = (await is(page))!;
+    await skipTalk(page);
+    await page.locator(`${ROOM} .stage`).focus();
+    await walkRight(page, "!document.querySelector('.hub').hidden");
+    const last = await ev<{ scene: string } | null>(page, "window.__HH__.lastDoor()");
+    record("al-Idrisi's hall with motion=reduced: flown to, the bird is set down and touches at once (the first sheet lifted on the same step, and put down on the next); Story's map of six sheets is put in order with no wait, and the lit door is still reached by walking",
+      once.lifted === 0 && onceShown?.lifted === 0 && onceShown.agree && putDown === null && calm.done && calm.rows === 2 && calm.cols === 3 && calm.moves === 2 && took < 2500 && last?.scene === "idrisi",
+      { once: once.lifted, onceShown, putDown, calm: { done: calm.done, moves: calm.moves }, took, last });
+    await ctx.close();
+  }
+
+  // (10) Without WebGL the scene is played on the scattered sheets' page, and finished there.
+  {
+    const ctx = await browser.newContext({ viewport: { width: 1280, height: 800 } });
+    await ctx.addInitScript("const g = HTMLCanvasElement.prototype.getContext; HTMLCanvasElement.prototype.getContext = function (t, ...a) { return /webgl/.test(t) ? null : g.call(this, t, ...a); };");
+    const page = await open(ctx, "&fresh=1&preflight=off&style=explorer");
+    const note = await ev<string>(page, `(() => { const s = document.querySelector(".hub button[data-quest='${QUEST}']").parentElement.querySelector('small'); return s ? s.textContent : ''; })()`);
+    await page.locator(`.hub button[data-quest='${QUEST}']`).click();
+    await page.waitForFunction("window.__HH__.sheets() !== null", undefined, { timeout: 10000 });
+    const onPage = await ev<{ room: unknown; buttons: number; roomHidden: boolean; benchShown: boolean }>(page, "({ room: window.__HH__.idrisi(), buttons: document.querySelectorAll('.bench .sheet-row button').length, roomHidden: document.querySelector('.room-box').hidden, benchShown: !document.querySelector('.bench').hidden })");
+    for (;;) {
+      const s = await ev<{ grid: number[]; solution: number[]; done: boolean }>(page, "window.__HH__.sheets()");
+      const p = s.grid.findIndex((id, i) => id !== s.solution[i]);
+      if (p < 0 || s.done) break;
+      await page.locator(`.bench .sheet-row button[data-place='${p}']`).click();
+      await page.locator(`.bench .sheet-row button[data-place='${s.grid.indexOf(s.solution[p]!)}']`).click();
+    }
+    await page.waitForSelector(".bench .results:not([hidden])", { timeout: 20000 });
+    const done = await ev<boolean>(page, "window.__HH__.sheets().done");
+    record("without WebGL al-Idrisi's scene is played on the scattered sheets' page (its trial line on the Atlas, a button for every place, no hall), and is finished there",
+      /first trial/.test(note) && onPage.room === null && onPage.buttons === 12 && onPage.roomHidden && onPage.benchShown && done, { note, onPage, done });
     await ctx.close();
   }
 }

@@ -17,6 +17,8 @@ import { restoreKhwarizmi, type KhwarizmiCommand } from "../sim/khwarizmiroom";
 import { khwarizmiRoom, type KhwarizmiRoom } from "./khwarizmi";
 import { restoreKindi, type KindiCommand } from "../sim/kindiroom";
 import { kindiRoom, type KindiRoom } from "./kindi";
+import { restoreIdrisi, type IdrisiCommand } from "../sim/idrisiroom";
+import { idrisiRoom, type IdrisiRoom } from "./idrisi";
 import { CIPHER_QUEST, cipherPuzzle } from "../content/cipher";
 import { restoreCipher } from "../sim/cipher";
 import { cipherQuest, type CipherQuest } from "./cipher";
@@ -200,11 +202,11 @@ async function main(): Promise<void> {
   // is open at a time: `pageRun` is the one that is (see PAGE_QUESTS).
   const bench = el("section", { class: "bench", hidden: true });
   let pageRun: { quest: string; run: { node: HTMLElement; busy(): boolean; stop(): void } } | null = null;
-  // A scene with a room of its own (al-Jazari's workshop, al-Tusi's observatory, al-Khwarizmi's room and al-Kindi's
-  // room, since 27 November 2026) is opened like a page quest and shown here, as wide as the flying scene's stage. Its
-  // page quest stays as the way it is played without WebGL.
+  // A scene with a room of its own (al-Jazari's workshop, al-Tusi's observatory, al-Khwarizmi's room, al-Kindi's room
+  // and al-Idrisi's hall, since 27 November 2026) is opened like a page quest and shown here, as wide as the flying
+  // scene's stage. Its page quest stays as the way it is played without WebGL.
   const roomBox = el("section", { class: "room-box", hidden: true });
-  type AnyRoom = JazariRoom | TusiRoom | KhwarizmiRoom | KindiRoom;
+  type AnyRoom = JazariRoom | TusiRoom | KhwarizmiRoom | KindiRoom | IdrisiRoom;
   /** The open room, if a scene is being played in its room. */
   const openRoom = (): AnyRoom | null => (pageRun && "press" in pageRun.run ? (pageRun.run as unknown as AnyRoom) : null);
   /** The open room, if it is `quest`'s. */
@@ -1061,8 +1063,31 @@ async function main(): Promise<void> {
     [SHEETS_QUEST]: {
       subject: "al-idrisi",
       trial: "id_trial",
+      // One kept place serves both: the hall's snapshot is the scattered sheets' own with the lifted sheet added.
       saved: () => pageSaved(SHEETS_QUEST, (snap) => restoreSheets(snap, sheetsMap)),
       make: (c, title, kept) => sheetsQuest({ ...c, title, resume: kept as Parameters<typeof sheetsQuest>[0]["resume"] }),
+      // Al-Idrisi's hall: the scattered sheets played by flying, in a room of their own.
+      room: roomsOn,
+      makeRoom: (c, title) =>
+        idrisiRoom({
+          ...c,
+          title,
+          quality,
+          keeper: () => slot().keeper,
+          textSpeed: () => settings().textSpeed,
+          perf: query.get("perf") === "1",
+          intent: () => input.intent(),
+          bindHold: (b, what) => input.bindHold(b, what),
+          blocked: () => sheetOpen(),
+          sound,
+          toast,
+          // The goals are written into the save; the hall's own door leads on (no corridor).
+          finish: (g) => pageFinish(SHEETS_QUEST, g),
+          through: () => moveOn(),
+          fallback: () => openPage(SHEETS_QUEST, inJourney, true),
+          resume: pageSaved(SHEETS_QUEST, restoreIdrisi),
+          keepPlace: (snap) => pageCheckpoint(SHEETS_QUEST, snap),
+        }),
     },
     [SORT_QUEST]: {
       subject: SORT_SUBJECT,
@@ -1328,9 +1353,9 @@ async function main(): Promise<void> {
     if (inJourney !== null) strip.focus();
   }
   /** The door of whichever scene is open: lit or not, where it stands, and where the bird is. */
-  const doorNow = (): { lit: boolean; where: { x: number; y: number; reach: number } | null; bird: { x: number; y: number } | null; scene: "workshop" | "corridor" | "page" | "jazari" | "tusi" | "khwarizmi" | "kindi" } | null => {
+  const doorNow = (): { lit: boolean; where: { x: number; y: number; reach: number } | null; bird: { x: number; y: number } | null; scene: "workshop" | "corridor" | "page" | "jazari" | "tusi" | "khwarizmi" | "kindi" | "idrisi" } | null => {
     const room = openRoom();
-    if (room) return { ...room.door(), scene: pageRun?.quest === COUPLE_QUEST ? "tusi" : pageRun?.quest === ALGEBRA_QUEST ? "khwarizmi" : pageRun?.quest === CIPHER_QUEST ? "kindi" : "jazari" };
+    if (room) return { ...room.door(), scene: pageRun?.quest === COUPLE_QUEST ? "tusi" : pageRun?.quest === ALGEBRA_QUEST ? "khwarizmi" : pageRun?.quest === CIPHER_QUEST ? "kindi" : pageRun?.quest === SHEETS_QUEST ? "idrisi" : "jazari" };
     if (started) {
       const w = running?.scene()?.where() ?? null;
       return { lit: state.done, where: { ...DOOR }, bird: w ? { x: w.x, y: w.y } : null, scene: "workshop" };
@@ -1555,7 +1580,16 @@ async function main(): Promise<void> {
     khwarizmiCommand: (c: KhwarizmiCommand) => roomOf<KhwarizmiRoom>(ALGEBRA_QUEST)?.command(c),
     algebra: () => { const r = pageOf<AlgebraQuest>(ALGEBRA_QUEST); return r ? { ...r.state(), busy: r.busy(), sentence: r.sentence() } : null; },
     algebraCommand: (c: Parameters<AlgebraQuest["command"]>[0]) => pageOf<AlgebraQuest>(ALGEBRA_QUEST)?.command(c),
-    startSheets: () => openPage(SHEETS_QUEST),
+    // The scattered sheets' page quest (the way they are played without WebGL), and al-Idrisi's hall, where they are played by flying.
+    startSheets: () => openPage(SHEETS_QUEST, null, true),
+    startIdrisi: () => openPage(SHEETS_QUEST),
+    idrisi: () => {
+      const r = roomOf<IdrisiRoom>(SHEETS_QUEST);
+      if (!r) return null;
+      const v = r.view();
+      return { ...v.state.sheets, lifted: v.state.lifted, talk: v.state.talk, doorLit: v.done, shown: r.running()?.scene()?.shown() ?? null };
+    },
+    idrisiCommand: (c: IdrisiCommand) => roomOf<IdrisiRoom>(SHEETS_QUEST)?.command(c),
     sheets: () => { const r = pageOf<SheetsQuest>(SHEETS_QUEST); return r ? { ...r.state(), busy: r.busy(), selected: r.selected(), status: r.status() } : null; },
     sheetsCommand: (c: Parameters<SheetsQuest["command"]>[0]) => pageOf<SheetsQuest>(SHEETS_QUEST)?.command(c),
     startSort: () => openPage(SORT_QUEST),

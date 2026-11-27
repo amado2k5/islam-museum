@@ -5,8 +5,8 @@
 // Usage: npx tsx --tsconfig tsconfig.json tools/hudhud-play.ts <out dir> [lang] [quality] [width] [height] [style] [scene]
 // The scene is "workshop" (the default: Ibn al-Haytham's workshop), "jazari" (al-Jazari's workshop and the elephant
 // clock, the second room on the room engine, 27 November 2026), "tusi" (al-Tusi's observatory and the two circles, the
-// third room), "khwarizmi" (al-Khwarizmi's room and the locked box, the fourth room) or "kindi" (al-Kindi's room and the
-// secret page, the fifth room).
+// third room), "khwarizmi" (al-Khwarizmi's room and the locked box, the fourth room), "kindi" (al-Kindi's room and the
+// secret page, the fifth room) or "idrisi" (al-Idrisi's hall and the scattered sheets, the sixth room).
 // It measures the machine it runs on. A pass here is not a pass on the museum's two reference machines.
 import { mkdirSync, writeFileSync } from "node:fs";
 import { resolve } from "node:path";
@@ -17,7 +17,7 @@ import { serveWorkspace } from "./serve";
 
 const [outArg, lang = "en", quality = "medium", w = "1920", h = "1080", style = "explorer", scene = "workshop"] = process.argv.slice(2);
 if (!outArg) throw new Error("usage: hudhud-play.ts <out dir> [lang] [quality] [width] [height] [style] [scene]");
-if (scene !== "workshop" && scene !== "jazari" && scene !== "tusi" && scene !== "khwarizmi" && scene !== "kindi") throw new Error(`hudhud-play.ts: no scene called ${scene} (workshop, jazari, tusi, khwarizmi or kindi)`);
+if (scene !== "workshop" && scene !== "jazari" && scene !== "tusi" && scene !== "khwarizmi" && scene !== "kindi" && scene !== "idrisi") throw new Error(`hudhud-play.ts: no scene called ${scene} (workshop, jazari, tusi, khwarizmi, kindi or idrisi)`);
 const out = resolve(outArg);
 mkdirSync(out, { recursive: true });
 const tag = `${scene === "workshop" ? "" : `${scene}-`}${lang}-${quality}-${w}x${h}`;
@@ -86,6 +86,7 @@ try {
   else if (scene === "tusi") await playTusi();
   else if (scene === "khwarizmi") await playKhwarizmi();
   else if (scene === "kindi") await playKindi();
+  else if (scene === "idrisi") await playIdrisi();
   else await playWorkshop();
 } catch (e) {
   report.failed = String(e);
@@ -723,6 +724,143 @@ async function playKindi(): Promise<void> {
   const reopen = async () => {
     await hk("h.toAtlas(); h.startKindi();");
     await page.waitForFunction("window.__HH__.kindi() !== null && window.__HH__.where() !== null", undefined, { timeout: 30000 });
+  };
+  await reopen();
+  await page.waitForTimeout(800);
+  const first = await cycle();
+  for (let i = 0; i < 9; i++) {
+    await reopen();
+    await page.waitForTimeout(300);
+  }
+  await page.waitForTimeout(800);
+  report.lifecycle = { afterOneOpening: first, afterTenOpenings: await cycle(), canvases: await page.evaluate("document.querySelectorAll('canvas').length") };
+}
+/**
+ * Al-Idrisi's hall, played to its end by flight as a player would: the talks gone through with the keyboard, both
+ * questions, the kind answer and the feather under the stack of loose sheets, a sheet lifted and put down again, frame
+ * times while the bird crosses the hall and back, a lost graphics context, the sheets put in order by exchanges made by
+ * flight (each worked out from the hall's own state), the lit door walked to, and what opening the hall ten times leaves
+ * behind. In Challenge the lamp is touched once too soon and once at the end.
+ */
+async function playIdrisi(): Promise<void> {
+  type Is = { grid: number[]; solution: number[]; moves: number; checks: number; flags: string[]; done: boolean; talk: unknown; doorLit: boolean; lifted: number | null; style: string };
+  const is = () => hk<Is>("return h.idrisi();");
+  const noteIs = async (step: string) => {
+    const s = await is();
+    route.push({ step, at: Date.now() - t0, where: await hk("return h.where();"), turns: s.moves, flags: s.flags, restored: s.done, dark: false, done: s.doorLit });
+  };
+  const roomTalk = async (pick: string[] = []) => {
+    const picks = [...pick];
+    for (let i = 0; i < 20 && (await is()).talk !== null; i++) {
+      await page.waitForTimeout(350);
+      const choices = page.locator(".room-box .talk .choices button");
+      if ((await choices.count()) > 0) {
+        const want = picks.shift();
+        await (want ? choices.filter({ hasText: want }).first() : choices.last()).click();
+      } else await page.keyboard.press("Enter");
+    }
+    await page.waitForTimeout(250);
+  };
+  const fly = async (id: string, until: string) => {
+    await hk(`h.goTo(${JSON.stringify(id)});`);
+    await page.waitForFunction(`(() => { const h = window.__HH__; return ${until}; })()`, undefined, { timeout: 8000 });
+    await page.waitForTimeout(200);
+  };
+  const exchange = async (a: number, b: number) => {
+    const moves = (await is()).moves;
+    await fly(`place-${a}`, `h.idrisi().lifted === ${a}`);
+    await fly(`place-${b}`, `h.idrisi().moves === ${moves + 1} || h.idrisi().done`);
+  };
+  const tStart = Date.now();
+  await page.locator(".hub button[data-quest='w03q4-al-idrisi']").click();
+  await page.waitForFunction("window.__HH__.idrisi() !== null && window.__HH__.where() !== null", undefined, { timeout: 30000 });
+  report.msFromPlayToScene = Date.now() - tStart;
+  await page.waitForTimeout(900);
+  await shot("intro-talk");
+  await noteIs("hall open");
+  await roomTalk();
+
+  await fly("idrisi", "h.idrisi().talk !== null");
+  await shot("idrisi-talk");
+  await roomTalk(["Ask about his book", "Ask about the maps"]);
+  await noteIs("asked al-Idrisi both questions");
+  await fly("helper", "h.idrisi().talk !== null");
+  await roomTalk(["It is all right"]);
+  await noteIs("answered the helper kindly");
+  await fly("stack", "h.idrisi().flags.includes('feather')");
+  await shot("feather-under-the-stack");
+  await roomTalk();
+  await noteIs("found the feather");
+
+  // A sheet lifted and put down again: no move.
+  await fly("place-0", "h.idrisi().lifted === 0");
+  await shot("sheet-lifted");
+  await fly("place-0", "h.idrisi().lifted === null");
+  await noteIs("a sheet lifted and put down");
+  if ((await is()).style === "challenge") {
+    await fly("lamp", "h.idrisi().checks === 1");
+    await noteIs("the lamp touched too soon");
+  }
+
+  // Frame times while the bird crosses the whole hall and back, with everything running.
+  await hk("h.resetFrames();");
+  await page.locator(".room-box .stage").focus();
+  for (const key of ["ArrowRight", "ArrowLeft"]) {
+    await page.keyboard.down(key);
+    for (let i = 0; i < 14; i++) {
+      await page.keyboard.down("Space");
+      await page.waitForTimeout(120);
+      await page.keyboard.up("Space");
+      await page.waitForTimeout(380);
+    }
+    await page.keyboard.up(key);
+  }
+  const heap = () => page.evaluate("performance.memory ? performance.memory.usedJSHeapSize : null") as Promise<number | null>;
+  report.benchmark = { route: "the whole width and back, hopping and flapping, 14 seconds", info: await hk("return h.info();"), heapBytes: await heap() };
+
+  // A lost graphics context, before the map is in order: what the player sees, and whether the hall comes back.
+  report.contextLoss = await page.evaluate(`(async () => {
+    const canvas = document.querySelector('.room-box .stage canvas');
+    const gl = canvas.getContext('webgl2') || canvas.getContext('webgl');
+    const ext = gl && gl.getExtension('WEBGL_lose_context');
+    if (!ext) return { tried: false };
+    ext.loseContext();
+    await new Promise((r) => setTimeout(r, 600));
+    const toast = document.querySelector('.toast') ? document.querySelector('.toast').textContent : null;
+    ext.restoreContext();
+    await new Promise((r) => setTimeout(r, 2500));
+    return { tried: true, toast, sceneBack: window.__HH__.where() !== null, moves: window.__HH__.idrisi().moves, grid: window.__HH__.idrisi().grid };
+  })()`);
+
+  // The sheets put in order by exchanges made by flight: for the first wrong place, the place where its right sheet lies.
+  for (let i = 0; i < 30; i++) {
+    const s = await is();
+    if (s.done) break;
+    const p = s.grid.findIndex((id, k) => id !== s.solution[k]);
+    if (p < 0) break;
+    await exchange(p, s.grid.indexOf(s.solution[p]!));
+    if (i === 1) await shot("exchanging");
+  }
+  if ((await is()).style === "challenge") await fly("lamp", "h.idrisi().done");
+  await page.waitForFunction("window.__HH__.idrisi().doorLit", undefined, { timeout: 15000 });
+  await page.waitForTimeout(600);
+  await shot("map-in-order");
+  await roomTalk();
+  await noteIs("the map is in order");
+  report.puzzle = { moves: (await is()).moves, checks: (await is()).checks };
+  report.goals = await page.evaluate("JSON.parse(localStorage.getItem('im.hudhud.save.v1') || 'null')?.slots?.[0]?.quests?.['w03q4-al-idrisi'] ?? null");
+  await shot("results");
+  await page.locator(".room-box .stage").focus();
+  await page.keyboard.down("ArrowRight");
+  await page.waitForFunction("!document.querySelector('.hub').hidden", undefined, { timeout: 25000 }).finally(() => page.keyboard.up("ArrowRight"));
+  report.door = await hk("return h.lastDoor();");
+  report.save = await page.evaluate("JSON.parse(localStorage.getItem('im.hudhud.save.v1') || 'null')");
+
+  // Opening the hall again and again: what it holds must not grow.
+  const cycle = async () => ({ ...(await hk<Record<string, unknown>>("const i = h.info(); return { textures: i.textures, textureBytes: i.textureBytes, objects: i.objects, tweens: i.tweens };")), heapBytes: await heap() });
+  const reopen = async () => {
+    await hk("h.toAtlas(); h.startIdrisi();");
+    await page.waitForFunction("window.__HH__.idrisi() !== null && window.__HH__.where() !== null", undefined, { timeout: 30000 });
   };
   await reopen();
   await page.waitForTimeout(800);

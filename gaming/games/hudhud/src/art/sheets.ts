@@ -131,7 +131,12 @@ function dots(c: Ctx, id: number): void {
   }
   c.restore();
 }
-function drawSheet(c: Ctx, sh: Grid["cells"][number], tile: number): void {
+/**
+ * One sheet, drawn at the top left of the context in a square of `tile` game pixels: the parchment, the lines of its
+ * edges and its number as dots. The page's picture draws every sheet with it, and so does al-Idrisi's hall
+ * (art/idrisi.ts), so that the sheets on the great table are the page's own drawing and not a copy of it.
+ */
+export function drawSheet(c: Ctx, sh: Grid["cells"][number], tile: number): void {
   rounded(c, 0, 0, tile, tile, 8);
   c.fillStyle = PAL.parchment;
   c.fill();

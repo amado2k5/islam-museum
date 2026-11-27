@@ -449,14 +449,14 @@ describe("the words", () => {
       expect(new Set(SIGNS.map((id) => t[`kr_sign_${id.replace(/-/g, "_")}`])).size, l).toBe(SIGNS.length);
     }
   });
-  it("is appended at the end of each language's file, after the keys of the twelfth quest, and only the journey's keys (`jn_`) and al-Jazari's room's (`jr_`), then al-Tusi's room's (`tsr_`), then al-Khwarizmi's room's (`akr_`), then al-Kindi's room's (`kdr_`) come after it", () => {
+  it("is appended at the end of each language's file, after the keys of the twelfth quest, and only the journey's keys (`jn_`) and al-Jazari's room's (`jr_`), then al-Tusi's room's (`tsr_`), then al-Khwarizmi's room's (`akr_`), then al-Kindi's room's (`kdr_`), then al-Idrisi's hall's (`isr_`) come after it", () => {
     for (const l of LANGS) {
       const ks = Object.keys(table(l));
       const first = ks.findIndex((k) => k.startsWith("kr_"));
       expect(first, l).toBeGreaterThan(0);
       const count = ks.filter((k) => k.startsWith("kr_")).length;
       expect(ks.slice(first, first + count).every((k) => k.startsWith("kr_")), l).toBe(true);
-      expect(ks.slice(first + count).every((k) => k.startsWith("jn_") || k.startsWith("jr_") || k.startsWith("tsr_") || k.startsWith("akr_") || k.startsWith("kdr_")), l).toBe(true);
+      expect(ks.slice(first + count).every((k) => k.startsWith("jn_") || k.startsWith("jr_") || k.startsWith("tsr_") || k.startsWith("akr_") || k.startsWith("kdr_") || k.startsWith("isr_")), l).toBe(true);
       expect(ks[first - 1]!.startsWith("rz_"), l).toBe(true);
     }
   });
