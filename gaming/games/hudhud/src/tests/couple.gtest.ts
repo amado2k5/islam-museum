@@ -508,14 +508,14 @@ describe("the words", () => {
     for (const l of LANGS) expect(Object.keys(table(l)).filter((k) => k.startsWith("ts_")), l).toEqual(Object.keys(table("en")).filter((k) => k.startsWith("ts_")));
     for (const l of LANGS) for (const k of keys) expect([...(table(l)[k] ?? "").matchAll(/\{\w+\}/g)].map((m) => m[0]).sort(), `${l}:${k}`).toEqual([...(table("en")[k] ?? "").matchAll(/\{\w+\}/g)].map((m) => m[0]).sort());
   });
-  it("is appended in one block after the keys of the eighth quest, and only the next quests' keys (`cq_`, then `ah_`, then `rz_`, then `kr_`) and the journey's (`jn_`) come after it", () => {
+  it("is appended in one block after the keys of the eighth quest, and only the next quests' keys (`cq_`, then `ah_`, then `rz_`, then `kr_`) and the journey's (`jn_`), then al-Jazari's room's (`jr_`) come after it", () => {
     for (const l of LANGS) {
       const ks = Object.keys(table(l));
       const first = ks.findIndex((k) => k.startsWith("ts_"));
       expect(first, l).toBeGreaterThan(0);
       const count = ks.filter((k) => k.startsWith("ts_")).length;
       expect(ks.slice(first, first + count).every((k) => k.startsWith("ts_")), l).toBe(true);
-      expect(ks.slice(first + count).every((k) => k.startsWith("cq_") || k.startsWith("ah_") || k.startsWith("rz_") || k.startsWith("kr_") || k.startsWith("jn_")), l).toBe(true);
+      expect(ks.slice(first + count).every((k) => k.startsWith("cq_") || k.startsWith("ah_") || k.startsWith("rz_") || k.startsWith("kr_") || k.startsWith("jn_") || k.startsWith("jr_")), l).toBe(true);
       expect(ks[first - 1]!.startsWith("ib_"), l).toBe(true);
     }
   });

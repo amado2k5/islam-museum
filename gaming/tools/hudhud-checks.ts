@@ -15,6 +15,8 @@ import { SORT_ART, cardRects, trayRects } from "../games/hudhud/src/art/sort";
 import { CHANNELS_ART, channelsLayout, tileOrigin } from "../games/hudhud/src/art/channels";
 import { COLLATE_ART, cellCentre } from "../games/hudhud/src/art/collate";
 import { flow, period, type Kind, type Side } from "../games/hudhud/src/sim/channels";
+import { clockPuzzle } from "../games/hudhud/src/content/clock";
+import { applyClock, newClock } from "../games/hudhud/src/sim/clock";
 import { leaveOpening } from "./hudhud-opening";
 import { serveWorkspace } from "./serve";
 
@@ -491,7 +493,8 @@ for (const lang of ["en", "ar"]) {
 // written into the save, and the Atlas counts two pages home. Played with the page's own controls.
 {
   const ctx = await browser.newContext({ viewport: { width: 1280, height: 800 } });
-  const page = await open(ctx, "&style=explorer");
+  // Since 27 November 2026 al-Jazari's scene is played in its room; `room=off` keeps this check on the clock's page, which stays as the way it is played without WebGL.
+  const page = await open(ctx, "&style=explorer&room=off");
   const clockButton = page.locator(".hub button[data-quest='w02q1-al-jazari']");
   const label = await clockButton.textContent();
   await clockButton.click();
@@ -522,7 +525,8 @@ for (const lang of ["en", "ar"]) {
 // holds one place: a clock with no progress leaves the flying quest's place alone, and a clock with progress keeps its own.
 {
   const ctx = await browser.newContext({ viewport: { width: 1280, height: 800 } });
-  const page = await open(ctx, "&style=explorer");
+  // Since 27 November 2026 al-Jazari's scene is played in its room; `room=off` keeps this check on the clock's page, which stays as the way it is played without WebGL.
+  const page = await open(ctx, "&style=explorer&room=off");
   const CLOCK = "w02q1-al-jazari";
   const kept = () => ev<{ quest: string; snap: { places: (string | null)[]; moves: number; flags: string[] } } | null>(page, "JSON.parse(localStorage.getItem('im.hudhud.save.v1') || '{}').slots?.[0]?.resume ?? null");
   const clockView = () => ev<{ places: (string | null)[]; moves: number; flags: string[]; done: boolean }>(page, "(() => { const c = window.__HH__.clock(); return { places: c.puzzle.places, moves: c.moves, flags: c.flags, done: c.done }; })()");
@@ -2240,7 +2244,8 @@ for (const lang of ["en", "ar"]) {
 // one is drawn by shape (a ring with a solid disc, bold underlined words) with its contrast measured.
 {
   const ranFor = async (ctx: BrowserContext, query: string) => {
-    const page = await open(ctx, `&style=explorer${query}`);
+    // Since 27 November 2026 al-Jazari's scene is played in its room; `room=off` keeps this check on the clock's page, which stays as the way it is played without WebGL.
+    const page = await open(ctx, `&style=explorer&room=off${query}`);
     await page.locator(".hub button[data-quest='w02q1-al-jazari']").click();
     const t0 = Date.now();
     await page.getByRole("button", { name: "Set the clock going" }).click();
@@ -2260,7 +2265,7 @@ for (const lang of ["en", "ar"]) {
   const systemRun = await ranFor(systemCtx, "");
   await systemCtx.close();
   const settingCtx = await browser.newContext({ viewport: { width: 1280, height: 800 } });
-  const sp = await open(settingCtx, "&style=explorer");
+  const sp = await open(settingCtx, "&style=explorer&room=off");
   await sp.getByRole("button", { name: "Settings" }).click();
   await sp.getByLabel("Less motion").check();
   await sp.locator(".sheet button.primary").click();
@@ -2412,7 +2417,8 @@ for (const lang of ["en", "ar"]) {
   };
   // English, left to right.
   const ctx = await browser.newContext({ viewport: { width: 1280, height: 900 } });
-  let page = await open(ctx, "&style=explorer");
+  // Since 27 November 2026 al-Jazari's scene is played in its room; `room=off` keeps this check on the clock's page, which stays as the way it is played without WebGL.
+  let page = await open(ctx, "&style=explorer&room=off");
   const first = await bookView(page);
   if (outDir) (mkdirSync(outDir, { recursive: true }), await page.screenshot({ path: resolve(outDir, "atlas-picture-en.png"), fullPage: true }));
   const present = first.role === "img" && /^The open Atlas: ten worlds, five pages each\. 0 of 50 pages are home\.$/.test(first.alt ?? "") && first.picture.worlds === 10 && first.picture.home.length === 10 && first.picture.home.every((n) => n === 0) && first.picture.open.join() === "1,2,3,4,5,6,7,8,9,10";
@@ -2457,7 +2463,7 @@ for (const lang of ["en", "ar"]) {
   const reduced = await ev<{ world: string | null; moved: boolean }>(calm, "({ world: document.activeElement.tagName === 'H3' ? document.activeElement.dataset.world : null, moved: window.scrollY > 0 && document.activeElement.getBoundingClientRect().top < innerHeight })");
   await calm.close();
   // The blunt answer to the apprentice is kept: after a reload the apprentice cannot be answered again.
-  page = await open(ctx, "&style=explorer");
+  page = await open(ctx, "&style=explorer&room=off");
   await page.locator(".hub button[data-quest='w02q1-al-jazari']").click();
   await page.getByRole("button", { name: "Talk to the apprentice" }).click();
   await page.getByRole("button", { name: "You should have been more careful." }).click();
@@ -2586,7 +2592,8 @@ for (const lang of ["en", "ar"]) {
   // (2) The journey: three scenes, two doors walked through, and a reload that goes on with it.
   {
     const ctx = await browser.newContext({ viewport: { width: 1280, height: 900 } });
-    const page = await open(ctx, "");
+    // Since 27 November 2026 al-Jazari's scene is played in its room; `room=off` keeps this check on the clock's page, which stays as the way it is played without WebGL.
+    const page = await open(ctx, "&room=off");
     await page.locator(".hub button.journey-btn").click();
     await page.waitForFunction("window.__HH__.where() !== null", undefined, { timeout: 30000 });
     const first = await ev<{ active: boolean; at: number | null; scene: number | null; order: string[] }>(page, "window.__HH__.journey()");
@@ -2626,7 +2633,8 @@ for (const lang of ["en", "ar"]) {
   // (3) The corridor's button, from the keyboard, on a fresh journey.
   {
     const ctx = await browser.newContext({ viewport: { width: 1280, height: 900 } });
-    const page = await open(ctx, "");
+    // Since 27 November 2026 al-Jazari's scene is played in its room; `room=off` keeps this check on the clock's page, which stays as the way it is played without WebGL.
+    const page = await open(ctx, "&room=off");
     await ev(page, "window.__HH__.beginJourney()");
     await page.waitForFunction("window.__HH__.where() !== null", undefined, { timeout: 30000 });
     await ev(page, finishWorkshop);
@@ -2647,7 +2655,8 @@ for (const lang of ["en", "ar"]) {
     const ctx = await browser.newContext({ viewport: { width: 1280, height: 900 } });
     const page = await ctx.newPage();
     page.on("pageerror", (e) => errors.push(String(e)));
-    await page.goto(`${served.base}/games/hudhud/index.html?lang=ar&music=off`);
+    // Since 27 November 2026 al-Jazari's scene is played in its room; `room=off` keeps this check on the clock's page, which stays as the way it is played without WebGL.
+    await page.goto(`${served.base}/games/hudhud/index.html?lang=ar&music=off&room=off`);
     await page.waitForFunction("window.__HH__ && window.__HH__.ready");
     await leaveOpening(page);
     const journeyLabel = await ev<string>(page, "document.querySelector('.hub button.journey-btn').textContent");
@@ -2672,7 +2681,8 @@ for (const lang of ["en", "ar"]) {
   // (5) Movement kept still (motion=reduced): the workshop's door and a corridor both still work, and the corridor's picture does not change while the bird stands.
   {
     const ctx = await browser.newContext({ viewport: { width: 1280, height: 900 } });
-    const page = await open(ctx, "&motion=reduced");
+    // Since 27 November 2026 al-Jazari's scene is played in its room; `room=off` keeps this check on the clock's page, which stays as the way it is played without WebGL.
+    const page = await open(ctx, "&motion=reduced&room=off");
     await playing(page);
     await ev(page, finishWorkshop);
     await page.waitForTimeout(400);
@@ -2692,6 +2702,241 @@ for (const lang of ["en", "ar"]) {
     record("with motion=reduced the workshop's lit door and a corridor's door are both reached by walking, and the corridor's picture stands still while the bird does",
       panelOk(lit) && workshopLast?.scene === "workshop" && (workshopLast.bird?.x ?? 0) > 2200 && f1 === f2 && corridorLast?.scene === "corridor" && (corridorLast.bird?.x ?? 0) > 780,
       { lit: lit.shown, workshopLast, still: f1 === f2, corridorLast });
+    await ctx.close();
+  }
+}
+// Al-Jazari's workshop, the second room on the room engine (asked for by the founder, 27 November 2026): opened from the
+// Atlas it is a canvas scene with every thing in the list in words; a part is carried by real flight and the move is
+// counted; a wrong row stops where the clock's page would; both questions, the kind answer and the feather by touching;
+// the row put right, the lit door, the panel with four goals and the room's note, and the door walked to with real key
+// presses; the journey leads into the room and on out of it, and a reload resumes in it with what Hudhud carried; an
+// Arabic page; movement kept still; and without WebGL the scene is played on the clock's page.
+{
+  type Jr = { places: (string | null)[]; parts: { id: string }[]; moves: number; par: number; flags: string[]; last: { end: string; at: number; carrying: string; moved: unknown[] } | null; done: boolean; carrying: string | null; talk: { script: string } | null; busy: boolean; lit: number; stopped: number | null; doorLit: boolean };
+  const jr = (page: Page) => ev<Jr | null>(page, "(() => { const j = window.__HH__.jazari(); return j ? { ...j, places: j.puzzle.places, parts: j.puzzle.parts } : null; })()");
+  const ROOM = ".room-box";
+  const openRoom = async (page: Page) => {
+    await page.locator(".hub button[data-quest='w02q1-al-jazari']").click();
+    await page.waitForFunction("window.__HH__.jazari() !== null && window.__HH__.where() !== null", undefined, { timeout: 30000 });
+    await page.waitForTimeout(700);
+  };
+  const skipTalk = async (page: Page) => {
+    for (let i = 0; i < 8 && (await jr(page))?.talk; i++) {
+      await page.locator(`${ROOM} .talk button.quiet`).last().click();
+      await page.waitForTimeout(150);
+    }
+  };
+  /** Flies the bird to a thing by the engine's own flight (goTo), and waits until it has landed and touched it. */
+  const fly = async (page: Page, id: string, until: string) => {
+    await ev(page, `window.__HH__.goTo(${JSON.stringify(id)})`);
+    await page.waitForFunction(until, undefined, { timeout: 8000 });
+    await page.waitForTimeout(150);
+  };
+  const walkRight = async (page: Page, until: string) => {
+    await page.keyboard.down("ArrowRight");
+    try {
+      await page.waitForFunction(until, undefined, { timeout: 25000 });
+    } finally {
+      await page.keyboard.up("ArrowRight");
+    }
+  };
+  const words = (page: Page) => ev<string[]>(page, `[...document.querySelectorAll('${ROOM} .room-words li button')].map((b) => b.textContent)`);
+
+  // (1) to (5): one play in Explorer, from the Atlas, by flight.
+  {
+    const ctx = await browser.newContext({ viewport: { width: 1280, height: 900 } });
+    const page = await open(ctx, "&style=explorer");
+    const atlasItem = await ev<{ label: string; notes: number }>(page, "(() => { const b = document.querySelector(\".hub button[data-quest='w02q1-al-jazari']\"); return { label: b.textContent, notes: b.parentElement.querySelectorAll('small').length }; })()");
+    await openRoom(page);
+    const opened = await ev<{ canvases: number; benchHidden: boolean; roomShown: boolean; heading: string; alt: string | null; info: { renderer: string; largestTextures: { width: number; height: number }[] }; talk: string | null }>(page, `({ canvases: document.querySelectorAll('${ROOM} .stage canvas').length, benchHidden: document.querySelector('.bench').hidden, roomShown: !document.querySelector('${ROOM}').hidden, heading: document.querySelector('${ROOM} h2').textContent, alt: document.querySelector('${ROOM} .stage').getAttribute('aria-label'), info: window.__HH__.info(), talk: document.querySelector('${ROOM} .talk:not([hidden]) .who') ? document.querySelector('${ROOM} .talk .who').textContent : null })`);
+    const firstWords = await words(page);
+    if (outDir) (mkdirSync(outDir, { recursive: true }), await page.screenshot({ path: resolve(outDir, "jazari-room-start.png") }));
+    record("al-Jazari's room opens from the Atlas as a canvas scene on the room engine: the Atlas names it as it names the workshop (no line about a page), the room speaks first, and every thing in the room is a button in the list in words (al-Jazari, the apprentice, the box, two spare parts, five places with what stands in each, the lever)",
+      atlasItem.label === "Play: al-Jazari and the elephant clock" && atlasItem.notes === 0 && opened.canvases === 1 && opened.benchHidden && opened.roomShown && opened.heading === "al-Jazari and the elephant clock" && opened.alt === "Al-Jazari's workshop, as a picture. The list after it says the same in words." && opened.info.renderer === "webgl" && Math.max(...opened.info.largestTextures.flatMap((t) => [t.width, t.height])) <= 2048 && opened.talk === "Hudhud" &&
+        firstWords.length === 11 && firstWords.join("|") === "Go to al-Jazari|Go to the apprentice|Go to the box on the high shelf|On the workbench: the falcon. Pick it up|On the workbench: the dragon. Pick it up|Place 1: the float. Pick it up|Place 2: the bird. Pick it up|Place 3: the rider. Pick it up|Place 4: the bowl. Pick it up|Place 5: the vessel with the gong. Pick it up|Pull the lever: set the clock going",
+      { atlasItem, opened: { ...opened, info: { renderer: opened.info.renderer } }, firstWords });
+    await skipTalk(page);
+
+    // (2) The falcon carried from the workbench to place 2 by flight: first by its button in the list, then by goTo.
+    const start = (await jr(page))!;
+    await page.locator(`${ROOM} .room-words li button`, { hasText: "On the workbench: the falcon. Pick it up" }).click();
+    await page.waitForFunction("window.__HH__.jazari().carrying === 'falcon'", undefined, { timeout: 8000 });
+    const landed = await ev<{ x: number; y: number; near: string | null }>(page, "window.__HH__.where()");
+    const carryingWords = { line: await ev<string>(page, `document.querySelector('${ROOM} .room-words .carrying').textContent`), list: await words(page) };
+    if (outDir) await page.screenshot({ path: resolve(outDir, "jazari-room-carrying.png") });
+    await fly(page, "place-2", "window.__HH__.jazari().moves === 1");
+    const put = (await jr(page))!;
+    record("a part is carried by real flight: its button in the list flies Hudhud to the workbench and the falcon is in its beak (the list says 'Carrying: the falcon'), then flying to place 2 and touching it puts the falcon there in one counted move, and the bird that stood there goes to the workbench",
+      start.moves === 0 && start.carrying === null && landed.y === 470 && landed.near === "spare-1" && carryingWords.line === "Carrying: the falcon" && carryingWords.list.includes("Place 2: the bird. Put the falcon here") && carryingWords.list.includes("Put the falcon back on the workbench") &&
+        put.moves === 1 && put.carrying === null && put.places.join() === "float,falcon,rider,bowl,vessel" && !put.done,
+      { start: { moves: start.moves, places: start.places }, landed, carryingWords, put: { moves: put.moves, places: put.places } });
+
+    // (3) Set going on a wrong row: the run is shown a place at a time and stops where the clock's own rules stop it.
+    const expected = applyClock(applyClock(newClock("explorer", clockPuzzle("explorer")), { type: "put", place: 1, part: "falcon" }), { type: "go" }).last!;
+    await fly(page, "lever", "window.__HH__.jazari().last !== null");
+    const during = (await jr(page))!;
+    await page.waitForTimeout(900);
+    if (outDir) await page.screenshot({ path: resolve(outDir, "jazari-room-running.png") });
+    await page.waitForFunction("!window.__HH__.jazari().busy", undefined, { timeout: 10000 });
+    const after = (await jr(page))!;
+    const ran = await ev<string>(page, `document.querySelector('${ROOM} .ran').textContent`);
+    record("the lever sets the clock going on a wrong row: the run is shown a place at a time, the gong is not reached, and it stops at place 4 with what reached it, exactly where and as the clock's own rules (and so its page) stop it",
+      during.busy && JSON.stringify(after.last) === JSON.stringify(expected) && after.last?.end === "idle" && after.last.at === 3 && after.stopped === 3 && !after.done && after.moves === 1 &&
+        /The float fills and sinks\.The falcon lets a ball go\.The rider lifts his arm and strikes\.The part in place 4 does not answer\. The motion stops there\.What reached it: a blow of the rider's arm\./.test(ran) && !/gong sounds/.test(ran),
+      { during: { busy: during.busy, lit: during.lit }, last: after.last, expected, stopped: after.stopped, ran });
+
+    // (4) Al-Jazari, the apprentice and the box, by touching them.
+    await fly(page, "jazari", "window.__HH__.jazari().talk !== null");
+    const hello = await page.locator(`${ROOM} .talk .line + span`).textContent();
+    await page.locator(`${ROOM} .talk .choices button`, { hasText: "Ask about the float" }).click();
+    const floatLine = await page.locator(`${ROOM} .talk .line + span`).textContent();
+    const floatWho = await page.locator(`${ROOM} .talk .who`).textContent();
+    await page.locator(`${ROOM} .talk .choices button`, { hasText: "Ask about the balls" }).click();
+    const ballsLine = await page.locator(`${ROOM} .talk .line + span`).textContent();
+    await page.locator(`${ROOM} .talk .choices button`).last().click();
+    await page.locator(`${ROOM} .talk button`, { hasText: "Next" }).click();
+    await fly(page, "apprentice", "window.__HH__.jazari().talk !== null");
+    await page.locator(`${ROOM} .talk .choices button`, { hasText: "It is all right. We will find the order together." }).click();
+    for (let i = 0; i < 3 && (await jr(page))?.talk; i++) await page.locator(`${ROOM} .talk button`, { hasText: "Next" }).click();
+    await fly(page, "box", "window.__HH__.jazari().flags.includes('feather')");
+    const onShelf = await ev<{ y: number }>(page, "window.__HH__.where()");
+    const boxLine = await page.locator(`${ROOM} .talk .line + span`).textContent();
+    await skipTalk(page);
+    const asked = (await jr(page))!;
+    record("touching al-Jazari asks him about the float and the balls (the clock's own lines, said by the museum's record), the apprentice is answered kindly, and the feather is in the box on the high shelf, reached by flight; the four flags are the clock's own",
+      hello === "Welcome to my workshop. Ask me what you like while you work." && floatWho === "From the museum's record" && /^Inside the elephant is a float/.test(floatLine ?? "") && /^The falcon lets a ball go, the dragon carries it down/.test(ballsLine ?? "") &&
+        onShelf.y === 214 && boxLine === "A feather, under the spare parts! It is one of mine." && ["askedFloat", "askedBalls", "kind", "answered", "feather"].every((f) => asked.flags.includes(f)) && asked.moves === 1,
+      { hello, floatWho, floatLine, ballsLine, onShelf, boxLine, flags: asked.flags });
+
+    // (5) The row put right by flight, set going, the lit door, the panel, and the door walked to.
+    await fly(page, "spare-1", "window.__HH__.jazari().carrying !== null");
+    const took = (await jr(page))!.carrying;
+    await fly(page, "place-3", "window.__HH__.jazari().moves === 2");
+    await fly(page, "place-5", "window.__HH__.jazari().carrying === 'vessel'");
+    await fly(page, "place-4", "window.__HH__.jazari().moves === 3");
+    await fly(page, "lever", "window.__HH__.jazari().last !== null");
+    await page.waitForFunction("window.__HH__.jazari().doorLit", undefined, { timeout: 15000 });
+    await page.waitForTimeout(400);
+    const panel = await ev<{ shown: boolean; modal: number; goals: number; met: number; notes: string[]; links: string[]; pending: string; buttons: string[]; door: { lit: boolean; scene: string }; list: string[]; objective: string; saved: boolean; done: Jr | null }>(page, `(() => { const p = document.querySelector('${ROOM} .door-panel'); return { shown: !p.hidden, modal: document.querySelectorAll('[aria-modal=true]').length, goals: p.querySelectorAll('.goals li').length, met: p.querySelectorAll('.goals .met').length, notes: [...p.querySelectorAll('.note p')].map((x) => x.textContent), links: [...p.querySelectorAll('.note a')].map((a) => a.getAttribute('href')), pending: p.querySelector('.pending').textContent, buttons: [...p.querySelectorAll('button')].map((b) => b.textContent), door: window.__HH__.door(), list: [...document.querySelectorAll('${ROOM} .room-words li button')].map((b) => b.textContent), objective: document.querySelector('${ROOM} .objective').textContent, saved: JSON.parse(localStorage.getItem('im.hudhud.save.v1') || '{}').slots?.[0]?.quests?.['w02q1-al-jazari']?.done === true, done: null }; })()`);
+    const finished = (await jr(page))!;
+    if (outDir) await page.screenshot({ path: resolve(outDir, "jazari-room-door-lit.png") });
+    await skipTalk(page);
+    await page.locator(`${ROOM} .stage`).focus();
+    await walkRight(page, "!document.querySelector('.hub').hidden");
+    const back = await ev<{ hub: boolean; roomHidden: boolean; last: { scene: string; where: { x: number; y: number; reach: number }; bird: { x: number; y: number } } | null; label: string; canvases: number }>(page, "({ hub: !document.querySelector('.hub').hidden, roomHidden: document.querySelector('.room-box').hidden, last: window.__HH__.lastDoor(), label: document.querySelector(\".hub button[data-quest='w02q1-al-jazari']\").textContent, canvases: document.querySelectorAll('.room-box canvas, #stage canvas').length })");
+    const reach = back.last ? Math.hypot(back.last.where.x - back.last.bird.x, back.last.where.y - (back.last.bird.y - 30)) : null;
+    record("the row put right by flight (the dragon from the workbench to place 3, the vessel from place 5 to place 4) works in the fewest moves; the clock tells the half hour, the door lights, the panel beside the stage (no modal sheet) shows four goals met, the clock's four notes, the room's note and 'Historical review pending', and the two links; the list then offers only the door; holding the right arrow key walks Hudhud to it and, in free play, back to the Atlas",
+      took === "dragon" && finished.done && finished.moves === 3 && finished.par === 3 && finished.talk?.script === "done" && panel.shown && panel.modal === 0 && panel.goals === 4 && panel.met === 4 &&
+        panel.notes.includes("The workshop, the workbench and the frame that holds the clock's parts are invented for play; they are not a picture of al-Jazari's clock.") && panel.notes.some((n) => /^This is a game, not a history\./.test(n)) && /Historical review pending/.test(panel.pending) &&
+        panel.links.join() === "https://islam.museum/en/person/al-jazari-engineer/,https://islam.museum/en/invention/elephant-clock/" && panel.buttons.join("|") === "Go through the door|Play again|Back to the Atlas" && panel.door.lit && panel.door.scene === "jazari" &&
+        panel.list.join() === "Go through the door" && panel.objective.startsWith("Walk Hudhud to the lit door at the end of the workshop.") && panel.saved &&
+        back.hub && back.roomHidden && back.last?.scene === "jazari" && reach !== null && reach < back.last.where.reach && /^Play again: /.test(back.label) && back.canvases === 0,
+      { took, finished: { done: finished.done, moves: finished.moves, par: finished.par }, panel, back: { ...back }, reach });
+    await ctx.close();
+  }
+
+  // (6) The journey leads into the room and out of it, and a reload resumes in the room with what Hudhud carried.
+  {
+    const ctx = await browser.newContext({ viewport: { width: 1280, height: 900 } });
+    const page = await open(ctx, "&style=explorer");
+    await ev(page, "window.__HH__.beginJourney()");
+    await page.waitForFunction("window.__HH__.where() !== null", undefined, { timeout: 30000 });
+    await ev(page, "window.__HH__.command({type:'skip'}); for (const id of ['mirror-a','mirror-c','mirror-e']) window.__HH__.touch(id); window.__HH__.command({type:'skip'}); window.__HH__.touch('page');");
+    await ev(page, "window.__HH__.goThroughDoor()");
+    await page.waitForFunction("window.__HH__.couple() !== null");
+    await ev(page, "window.__HH__.coupleCommand({ type: 'set', field: 'speed', value: 2 }); window.__HH__.coupleCommand({ type: 'set', field: 'dir', value: -1 }); window.__HH__.coupleCommand({ type: 'turn' });");
+    await page.waitForSelector(".bench .corridor canvas.corridor-art", { timeout: 20000 });
+    await page.locator(".bench .corridor").focus();
+    await walkRight(page, "window.__HH__.jazari() !== null");
+    await page.waitForFunction("window.__HH__.where() !== null", undefined, { timeout: 30000 });
+    const entered = await ev<{ journey: { scene: number; at: number }; last: { scene: string } | null; toast: string | null; heading: string; corridors: number }>(page, `({ journey: window.__HH__.journey(), last: window.__HH__.lastDoor(), toast: document.querySelector('.toast') ? document.querySelector('.toast').textContent : null, heading: document.querySelector('${ROOM} h2').textContent, corridors: document.querySelectorAll('.corridor').length })`);
+    await skipTalk(page);
+    await fly(page, "place-2", "window.__HH__.jazari().carrying === 'bird'");
+    await fly(page, "place-3", "window.__HH__.jazari().moves === 1");
+    await fly(page, "place-1", "window.__HH__.jazari().carrying === 'float'");
+    const left = (await jr(page))!;
+    await ev(page, "window.__HH__.saveReady()");
+    await page.reload();
+    await page.waitForFunction("window.__HH__ && window.__HH__.ready");
+    await leaveOpening(page);
+    const label = await ev<string>(page, "document.querySelector('.hub button.journey-btn').textContent");
+    await page.locator(".hub button.journey-btn").click();
+    await page.waitForFunction("window.__HH__.jazari() !== null && window.__HH__.where() !== null", undefined, { timeout: 30000 });
+    const resumed = (await jr(page))!;
+    const again = await ev<{ scene: number; at: number }>(page, "window.__HH__.journey()");
+    // Finished through the rules, and through the door: the journey goes on to the next scene.
+    for (const id of ["place-1", "place-3", "spare-1", "place-2", "spare-1", "place-3", "place-5", "place-4", "lever"]) await ev(page, `window.__HH__.jazariCommand({ type: 'touch', id: '${id}' })`);
+    await page.waitForFunction("window.__HH__.jazari().doorLit", undefined, { timeout: 15000 });
+    const through = await ev<boolean>(page, "window.__HH__.goThroughDoor()");
+    await page.waitForFunction("window.__HH__.algebra() !== null", undefined, { timeout: 10000 });
+    const onward = await ev<{ journey: { scene: number; at: number }; last: { scene: string } | null; roomHidden: boolean }>(page, "({ journey: window.__HH__.journey(), last: window.__HH__.lastDoor(), roomHidden: document.querySelector('.room-box').hidden })");
+    record("in the journey (played through: the workshop, al-Tusi's page and its corridor walked) the third scene is al-Jazari's room, not the clock's page and no corridor; a reload offers 'Continue the journey' with his name and resumes in the room with the clock as it was and the float still in Hudhud's beak; finished, its lit door leads on to the fourth scene",
+      entered.journey.scene === 2 && entered.journey.at === 2 && entered.last?.scene === "corridor" && entered.toast === "Hudhud: On to the next page of the Atlas: al-Jazari and the elephant clock!" && entered.heading === "al-Jazari and the elephant clock" && entered.corridors === 0 &&
+        left.moves === 1 && left.carrying === "float" && label === "Continue the journey: al-Jazari and the elephant clock" && resumed.moves === 1 && resumed.carrying === "float" && resumed.places.join() === left.places.join() && resumed.talk === null && again.scene === 2 &&
+        through && onward.journey.scene === 3 && onward.journey.at === 3 && onward.last?.scene === "jazari" && onward.roomHidden,
+      { entered, left: { moves: left.moves, carrying: left.carrying, places: left.places }, label, resumed: { moves: resumed.moves, carrying: resumed.carrying, places: resumed.places }, again, through, onward });
+    await ctx.close();
+  }
+
+  // (7) An Arabic page.
+  {
+    const ctx = await browser.newContext({ viewport: { width: 1280, height: 900 } });
+    const page = await ctx.newPage();
+    page.on("pageerror", (e) => errors.push(String(e)));
+    await page.goto(`${served.base}/games/hudhud/index.html?lang=ar&music=off&style=explorer&fresh=1`);
+    await page.waitForFunction("window.__HH__ && window.__HH__.ready");
+    await leaveOpening(page);
+    await openRoom(page);
+    const ar = await ev<{ dir: string; alt: string | null; heading: string; who: string | null; list: string[]; objective: string }>(page, `({ dir: document.documentElement.dir, alt: document.querySelector('${ROOM} .stage').getAttribute('aria-label'), heading: document.querySelector('${ROOM} h2').textContent, who: document.querySelector('${ROOM} .talk .who') ? document.querySelector('${ROOM} .talk .who').textContent : null, list: [...document.querySelectorAll('${ROOM} .room-words li button')].map((b) => b.textContent), objective: document.querySelector('${ROOM} .objective').textContent })`);
+    await skipTalk(page);
+    await fly(page, "place-2", "window.__HH__.jazari().carrying === 'bird'");
+    const carrying = await ev<string>(page, `document.querySelector('${ROOM} .room-words .carrying').textContent`);
+    if (outDir) await page.screenshot({ path: resolve(outDir, "jazari-room-ar.png") });
+    record("al-Jazari's room on an Arabic page runs right to left, says its picture, its list, what Hudhud carries and who speaks in Arabic, with Arabic numerals",
+      ar.dir === "rtl" && ar.alt === "ورشة الجزري في صورة. والقائمة التي بعدها تقول الشيء نفسه بالكلمات." && ar.who === "هدهد" && ar.list.length === 11 && ar.list.some((x) => x.startsWith("المكان ١:")) && ar.list.includes("اسحب الذراع: شغّل الساعة") && carrying === "يحمل: الطائر" && !/[0-9]/.test(ar.list.join("")),
+      { ar, carrying });
+    await ctx.close();
+  }
+
+  // (8) Movement kept still: the bird is set down at once, the run is told at once, and the door is still walked to.
+  {
+    const ctx = await browser.newContext({ viewport: { width: 1280, height: 900 } });
+    const page = await open(ctx, "&style=story&motion=reduced&fresh=1");
+    await openRoom(page);
+    await skipTalk(page);
+    await ev(page, "window.__HH__.goTo('place-1')");
+    const atOnce = (await jr(page))!.carrying;
+    await ev(page, "window.__HH__.goTo('place-2')");
+    await ev(page, "window.__HH__.goTo('place-4')");
+    await ev(page, "window.__HH__.goTo('place-5')");
+    const t0 = Date.now();
+    await ev(page, "window.__HH__.goTo('lever')");
+    await page.waitForFunction("window.__HH__.jazari().doorLit", undefined, { timeout: 5000 });
+    const took = Date.now() - t0;
+    const calm = (await jr(page))!;
+    await skipTalk(page);
+    await page.locator(`${ROOM} .stage`).focus();
+    await walkRight(page, "!document.querySelector('.hub').hidden");
+    const last = await ev<{ scene: string } | null>(page, "window.__HH__.lastDoor()");
+    record("al-Jazari's room with motion=reduced: flown to, the bird is set down and touches at once (a part is in its beak on the same step), Story's row is put right in its fewest two moves, the run is told at once, and the lit door is still reached by walking",
+      atOnce === "falcon" && calm.done && calm.moves === 2 && calm.par === 2 && took < 1500 && last?.scene === "jazari", { atOnce, moves: calm.moves, took, last });
+    await ctx.close();
+  }
+
+  // (9) Without WebGL the scene is played on the clock's page, and finished there.
+  {
+    const ctx = await browser.newContext({ viewport: { width: 1280, height: 800 } });
+    await ctx.addInitScript("const g = HTMLCanvasElement.prototype.getContext; HTMLCanvasElement.prototype.getContext = function (t, ...a) { return /webgl/.test(t) ? null : g.call(this, t, ...a); };");
+    const page = await open(ctx, "&fresh=1&preflight=off&style=explorer");
+    const note = await ev<string>(page, "document.querySelector(\".hub button[data-quest='w02q1-al-jazari']\").parentElement.querySelector('small') ? document.querySelector(\".hub button[data-quest='w02q1-al-jazari']\").parentElement.querySelector('small').textContent : ''");
+    await page.locator(".hub button[data-quest='w02q1-al-jazari']").click();
+    await page.waitForFunction("window.__HH__.clock() !== null", undefined, { timeout: 10000 });
+    const onPage = await ev<{ room: unknown; selects: number; roomHidden: boolean; benchShown: boolean }>(page, "({ room: window.__HH__.jazari(), selects: document.querySelectorAll('.bench select').length, roomHidden: document.querySelector('.room-box').hidden, benchShown: !document.querySelector('.bench').hidden })");
+    await ev(page, "['float','falcon','dragon','vessel','bowl'].forEach((part, place) => window.__HH__.clockCommand({ type: 'put', place, part })); window.__HH__.clockCommand({ type: 'go' });");
+    await page.waitForSelector(".bench .results:not([hidden])", { timeout: 20000 });
+    const done = await ev<boolean>(page, "window.__HH__.clock().done");
+    record("without WebGL al-Jazari's scene is played on the clock's page (its trial line on the Atlas, five lists of choices, no room), and is finished there",
+      /first trial/.test(note) && onPage.room === null && onPage.selects === 5 && onPage.roomHidden && onPage.benchShown && done, { note, onPage, done });
     await ctx.close();
   }
 }

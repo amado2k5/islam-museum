@@ -314,3 +314,9 @@ export function drawBench(canvas: HTMLCanvasElement, v: BenchView): void {
     c.restore();
   }
 }
+
+/** Draws one part of the clock centred on the origin, about 100 by 100: the same picture as on the bench, for the room
+ * in al-Jazari's workshop (art/jazari.ts). An unknown part draws nothing. */
+export function drawPart(c: Ctx, id: string): void {
+  ICON[id]?.(c);
+}

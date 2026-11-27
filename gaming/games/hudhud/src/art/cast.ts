@@ -431,18 +431,85 @@ export function keeper(scale: number, look: { kind?: number; skin: number; outfi
   return { leg, body, arm, head: keeperHead(scale, skin, look.hair % HAIRS, o.trim, true), headBlink: keeperHead(scale, skin, look.hair % HAIRS, o.trim, false), satchel };
 }
 
+/**
+ * The apprentice in al-Jazari's workshop, an invented person: the same cut-out as the explorer, in one fixed look of
+ * her own (a headscarf, a red tunic), with a work apron over the tunic.
+ */
+export function apprentice(scale: number): KeeperArt {
+  const art = keeper(scale, { kind: 1, skin: 2, outfit: 1, hair: 1 });
+  const [body, b] = sheet(art.body.w, art.body.h, scale);
+  b.drawImage(art.body.canvas, 0, 0, art.body.w, art.body.h);
+  blob(b, [
+    [30, 40],
+    [66, 40],
+    [74, 112],
+    [22, 112],
+  ]);
+  fillStroke(b, "#7a4a26", INK, 2);
+  b.strokeStyle = "rgba(255,220,160,0.45)";
+  b.lineWidth = 2;
+  b.strokeRect(38, 66, 20, 16);
+  return { ...art, body };
+}
+
 // ---------------------------------------------------------------------------------------------- the scholar
+/** The colours a scholar's figure is drawn in. The default is Ibn al-Haytham's, as the workshop has always drawn him;
+ * al-Jazari's figure is the same cut-out in other colours, with an apron (art/jazari.ts's room). Neither is a likeness. */
+export interface ScholarLook {
+  skin: string;
+  beard: [string, string];
+  moustache: string;
+  brow: string;
+  turban: [string, string];
+  turbanBands: string;
+  robe: [string, string];
+  gown: string;
+  border: string;
+  dots: string;
+  shawl: string;
+  seed: string;
+  apron?: string;
+}
+export const SCHOLAR_LOOK: ScholarLook = {
+  skin: "#d9a878",
+  beard: ["#3a2a22", "#8c8479"],
+  moustache: "#4a3a30",
+  brow: "#3a2a22",
+  turban: ["#fbf3dc", "#d9c9a0"],
+  turbanBands: "rgba(90,70,40,0.55)",
+  robe: ["#1d7f86", "#145560"],
+  gown: "#f3e6c8",
+  border: PAL.gold,
+  dots: PAL.red,
+  shawl: "#1a737b",
+  seed: "scholar",
+};
+export const JAZARI_LOOK: ScholarLook = {
+  skin: "#c99566",
+  beard: ["#2a1d16", "#4a3a30"],
+  moustache: "#2a1d16",
+  brow: "#2a1d16",
+  turban: ["#3a62b8", "#22407e"],
+  turbanBands: "rgba(242,185,75,0.75)",
+  robe: ["#c2643a", "#8f3f22"],
+  gown: "#f3e6c8",
+  border: PAL.gold,
+  dots: PAL.lapis,
+  shawl: "#9a4a2a",
+  seed: "jazari",
+  apron: "#6b4222",
+};
 export interface ScholarArt {
   body: Painted;
   arm: Painted;
   head: Painted;
   headBlink: Painted;
 }
-function scholarHead(scale: number, open: boolean): Painted {
+function scholarHead(scale: number, open: boolean, look: ScholarLook = SCHOLAR_LOOK): Painted {
   const [p, ctx] = sheet(150, 170, scale);
   const cx = 74;
   const cy = 98;
-  const skin = "#d9a878";
+  const skin = look.skin;
   // The beard, behind the jaw.
   blob(ctx, [
     [cx - 38, cy + 6],
@@ -452,7 +519,7 @@ function scholarHead(scale: number, open: boolean): Painted {
     [cx + 40, cy + 44],
     [cx + 42, cy + 6],
   ]);
-  fillStroke(ctx, linear(ctx, 0, cy, 0, cy + 66, [[0, "#3a2a22"], [1, "#8c8479"]]), INK, 2.2);
+  fillStroke(ctx, linear(ctx, 0, cy, 0, cy + 66, [[0, look.beard[0]], [1, look.beard[1]]]), INK, 2.2);
   ctx.beginPath();
   ctx.ellipse(cx, cy, 39, 42, 0, 0, Math.PI * 2);
   fillStroke(ctx, skin, INK, 2.4);
@@ -466,8 +533,8 @@ function scholarHead(scale: number, open: boolean): Painted {
     [cx + 54, cy - 14],
     [cx, cy - 30],
   ]);
-  fillStroke(ctx, linear(ctx, 0, cy - 88, 0, cy - 14, [[0, "#fbf3dc"], [1, "#d9c9a0"]]), INK, 2.4);
-  ctx.strokeStyle = "rgba(90,70,40,0.55)";
+  fillStroke(ctx, linear(ctx, 0, cy - 88, 0, cy - 14, [[0, look.turban[0]], [1, look.turban[1]]]), INK, 2.4);
+  ctx.strokeStyle = look.turbanBands;
   ctx.lineWidth = 2;
   for (let i = 0; i < 5; i++) {
     ctx.beginPath();
@@ -485,9 +552,9 @@ function scholarHead(scale: number, open: boolean): Painted {
     [cx + 4, cy + 30],
     [cx - 26, cy + 40],
   ]);
-  ctx.fillStyle = "#4a3a30";
+  ctx.fillStyle = look.moustache;
   ctx.fill();
-  eyes(ctx, cx + 4, cy - 4, { skin, open, r: 39, brow: "#3a2a22" }, 16, 9.5);
+  eyes(ctx, cx + 4, cy - 4, { skin, open, r: 39, brow: look.brow }, 16, 9.5);
   // The nose.
   ctx.strokeStyle = "rgba(120,70,40,0.8)";
   ctx.lineWidth = 2.2;
@@ -500,7 +567,7 @@ function scholarHead(scale: number, open: boolean): Painted {
   blush(ctx, cx + 28, cy + 10, 8);
   return p;
 }
-export function scholar(scale: number): ScholarArt {
+export function scholar(scale: number, look: ScholarLook = SCHOLAR_LOOK): ScholarArt {
   const [body, b] = sheet(210, 270, scale);
   // The robe, shoulders to floor.
   blob(b, [
@@ -511,7 +578,7 @@ export function scholar(scale: number): ScholarArt {
     [14, 262],
     [20, 60],
   ]);
-  fillStroke(b, linear(b, 0, 0, 0, 262, [[0, "#1d7f86"], [1, "#145560"]]), INK, 2.6);
+  fillStroke(b, linear(b, 0, 0, 0, 262, [[0, look.robe[0]], [1, look.robe[1]]]), INK, 2.6);
   // The inner gown and the gold border down the front.
   blob(b, [
     [88, 6],
@@ -519,28 +586,28 @@ export function scholar(scale: number): ScholarArt {
     [128, 262],
     [82, 262],
   ]);
-  fillStroke(b, "#f3e6c8", INK, 2);
-  b.fillStyle = PAL.gold;
+  fillStroke(b, look.gown, INK, 2);
+  b.fillStyle = look.border;
   b.fillRect(74, 8, 9, 254);
   b.fillRect(127, 8, 9, 254);
   for (let y = 26; y < 250; y += 28) {
     for (const x of [78.5, 131.5]) {
-      b.fillStyle = PAL.red;
+      b.fillStyle = look.dots;
       b.beginPath();
       b.arc(x, y, 3, 0, Math.PI * 2);
       b.fill();
     }
   }
-  b.fillStyle = PAL.gold;
+  b.fillStyle = look.border;
   b.fillRect(15, 244, 180, 10);
   // A warm shawl over one shoulder.
   for (const pts of [[[58, 7], [76, 8], [74, 150], [40, 262], [15, 262], [21, 62]], [[152, 7], [134, 8], [136, 150], [170, 262], [195, 262], [189, 62]]]) {
     b.beginPath();
     pts.forEach(([x, y], i) => (i ? b.lineTo(x!, y!) : b.moveTo(x!, y!)));
     b.closePath();
-    fillStroke(b, "#1a737b", INK, 2.2);
+    fillStroke(b, look.shawl, INK, 2.2);
   }
-  b.strokeStyle = PAL.gold;
+  b.strokeStyle = look.border;
   b.lineWidth = 2.5;
   for (const [x0, x1] of [[28, 60], [182, 150]] as const) {
     b.beginPath();
@@ -548,7 +615,20 @@ export function scholar(scale: number): ScholarArt {
     b.lineTo(x1 < 100 ? 46 : 164, 232);
     b.stroke();
   }
-  brush(b, 210, 270, "scholar-body", { strokes: 260, strength: 0.85 });
+  if (look.apron) {
+    // A craftsman's leather apron over the gown.
+    blob(b, [
+      [72, 110],
+      [138, 110],
+      [146, 240],
+      [64, 240],
+    ]);
+    fillStroke(b, look.apron, INK, 2.2);
+    b.strokeStyle = "rgba(255,220,160,0.35)";
+    b.lineWidth = 2;
+    b.strokeRect(84, 150, 42, 30);
+  }
+  brush(b, 210, 270, `${look.seed}-body`, { strokes: 260, strength: 0.85 });
 
   const [arm, a] = sheet(60, 140, scale);
   blob(a, [
@@ -557,8 +637,8 @@ export function scholar(scale: number): ScholarArt {
     [56, 96],
     [4, 96],
   ]);
-  fillStroke(a, "#1a737b", INK, 2.4);
-  a.fillStyle = PAL.gold;
+  fillStroke(a, look.shawl, INK, 2.4);
+  a.fillStyle = look.border;
   a.fillRect(5, 84, 50, 9);
   blob(a, [
     [16, 96],
@@ -567,9 +647,9 @@ export function scholar(scale: number): ScholarArt {
     [30, 136],
     [14, 122],
   ]);
-  fillStroke(a, "#d9a878", INK, 2);
-  brush(a, 60, 140, "scholar-arm", { strokes: 40, strength: 0.8 });
-  return { body, arm, head: scholarHead(scale, true), headBlink: scholarHead(scale, false) };
+  fillStroke(a, look.skin, INK, 2);
+  brush(a, 60, 140, `${look.seed}-arm`, { strokes: 40, strength: 0.8 });
+  return { body, arm, head: scholarHead(scale, true, look), headBlink: scholarHead(scale, false, look) };
 }
 
 // ---------------------------------------------------------------------------------------------- the cat

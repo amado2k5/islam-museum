@@ -5,7 +5,7 @@
 // the purr), and effects (a mirror turning, the page's chime). Nothing sounds before the player's first press, and
 // everything stops while the tab is hidden. Every sound that means something has a caption (ui/app.ts).
 export type Group = "ambience" | "voices" | "effects";
-export type Cue = "mirror" | "restored" | "purr" | "flap" | "hop" | "land" | "dark" | "light" | "secret" | "call" | "feather" | "line";
+export type Cue = "mirror" | "restored" | "purr" | "flap" | "hop" | "land" | "dark" | "light" | "secret" | "call" | "feather" | "line" | "gong" | "part";
 
 export class Cues {
   private ctx: AudioContext | null = null;
@@ -146,6 +146,16 @@ export class Cues {
         break;
       case "line":
         this.tone("effects", 660, 0, 0.05, 0.035, "sine");
+        break;
+      case "gong":
+        // The elephant clock's gong, in al-Jazari's workshop: a low struck note and its ring.
+        this.tone("effects", 196, 0, 1.6, 0.2, "sine", 190);
+        this.tone("effects", 392.5, 0, 1.1, 0.08, "sine");
+        this.tone("effects", 587, 0.01, 0.7, 0.04, "triangle");
+        break;
+      case "part":
+        // A part of the clock picked up or set down: a soft wooden knock.
+        this.tone("effects", 300, 0, 0.07, 0.12, "triangle", 220);
         break;
     }
   }

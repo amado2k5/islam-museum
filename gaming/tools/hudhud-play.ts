@@ -2,7 +2,9 @@
 // state after every step, pictures, console errors, frame times, calls to the graphics card, texture memory, the
 // saved file, what a second and a tenth run of the scene leave behind, and what a lost graphics context does.
 //
-// Usage: npx tsx --tsconfig tsconfig.json tools/hudhud-play.ts <out dir> [lang] [quality] [width] [height] [style]
+// Usage: npx tsx --tsconfig tsconfig.json tools/hudhud-play.ts <out dir> [lang] [quality] [width] [height] [style] [scene]
+// The scene is "workshop" (the default: Ibn al-Haytham's workshop) or "jazari" (al-Jazari's workshop and the elephant
+// clock, the second room on the room engine, 27 November 2026).
 // It measures the machine it runs on. A pass here is not a pass on the museum's two reference machines.
 import { mkdirSync, writeFileSync } from "node:fs";
 import { resolve } from "node:path";
@@ -11,11 +13,12 @@ import { solve, type LightPuzzle } from "../games/hudhud/src/sim/light";
 import { leaveOpening } from "./hudhud-opening";
 import { serveWorkspace } from "./serve";
 
-const [outArg, lang = "en", quality = "medium", w = "1920", h = "1080", style = "explorer"] = process.argv.slice(2);
-if (!outArg) throw new Error("usage: hudhud-play.ts <out dir> [lang] [quality] [width] [height] [style]");
+const [outArg, lang = "en", quality = "medium", w = "1920", h = "1080", style = "explorer", scene = "workshop"] = process.argv.slice(2);
+if (!outArg) throw new Error("usage: hudhud-play.ts <out dir> [lang] [quality] [width] [height] [style] [scene]");
+if (scene !== "workshop" && scene !== "jazari") throw new Error(`hudhud-play.ts: no scene called ${scene} (workshop or jazari)`);
 const out = resolve(outArg);
 mkdirSync(out, { recursive: true });
-const tag = `${lang}-${quality}-${w}x${h}`;
+const tag = `${scene === "jazari" ? "jazari-" : ""}${lang}-${quality}-${w}x${h}`;
 
 interface Hook {
   ready: boolean;
@@ -67,7 +70,7 @@ const arrive = async (id: string) => {
   await page.waitForTimeout(1100);
 };
 
-const report: Record<string, unknown> = { tag, lang, quality, style, viewport: [Number(w), Number(h)], ran: new Date().toISOString(), browser: `chrome ${browser.version()}`, machine: `${process.platform} ${process.arch}` };
+const report: Record<string, unknown> = { tag, scene, lang, quality, style, viewport: [Number(w), Number(h)], ran: new Date().toISOString(), browser: `chrome ${browser.version()}`, machine: `${process.platform} ${process.arch}` };
 try {
   await page.goto(`${served.base}/games/hudhud/index.html?lang=${lang}&q=${quality}&style=${style}&music=off&perf=1`);
   await page.waitForFunction("window.__HH__ && (window.__HH__.ready || window.__HH__.error)", undefined, { timeout: 60000 });
@@ -77,6 +80,14 @@ try {
     await leaveOpening(page);
   }
   await shot("cover");
+  if (scene === "jazari") await playJazari();
+  else await playWorkshop();
+} catch (e) {
+  report.failed = String(e);
+  await page.screenshot({ path: resolve(out, `${tag}-failure.png`) }).catch(() => undefined);
+}
+
+async function playWorkshop(): Promise<void> {
   const tStart = Date.now();
   await page.locator(".hub button.primary").click();
   await page.waitForFunction("window.__HH__.where() !== null", undefined, { timeout: 30000 });
@@ -205,9 +216,137 @@ try {
   })()`);
   await shot("after-context-loss");
   report.contextLoss = lost;
-} catch (e) {
-  report.failed = String(e);
-  await page.screenshot({ path: resolve(out, `${tag}-failure.png`) }).catch(() => undefined);
+}
+
+/**
+ * Al-Jazari's workshop, played to its end by flight as a player would: the talks gone through with the keyboard, both
+ * questions, the kind answer and the feather, every part carried to its place by the shortest row, the lever, frame
+ * times while the bird crosses the room and back, a lost graphics context, the lit door walked to, and what opening
+ * the room ten times leaves behind.
+ */
+async function playJazari(): Promise<void> {
+  type Jr = { puzzle: { places: (string | null)[]; parts: { id: string }[] }; moves: number; par: number; flags: string[]; done: boolean; carrying: string | null; talk: unknown; busy: boolean; doorLit: boolean; last: unknown };
+  const jr = () => hk<Jr>("return h.jazari();");
+  const noteJr = async (step: string) => {
+    const s = await jr();
+    route.push({ step, at: Date.now() - t0, where: await hk("return h.where();"), turns: s.moves, flags: s.flags, restored: s.done, dark: false, done: s.doorLit });
+  };
+  const roomTalking = async () => (await jr()).talk !== null;
+  const roomTalk = async (pick: string[] = []) => {
+    const picks = [...pick];
+    for (let i = 0; i < 20 && (await roomTalking()); i++) {
+      await page.waitForTimeout(350);
+      const choices = page.locator(".room-box .talk .choices button");
+      if ((await choices.count()) > 0) {
+        const want = picks.shift();
+        await (want ? choices.filter({ hasText: want }).first() : choices.last()).click();
+      } else await page.keyboard.press("Enter");
+    }
+    await page.waitForTimeout(250);
+  };
+  const fly = async (id: string, until: string) => {
+    await hk(`h.goTo(${JSON.stringify(id)});`);
+    await page.waitForFunction(`(() => { const h = window.__HH__; return ${until}; })()`, undefined, { timeout: 8000 });
+    await page.waitForTimeout(200);
+  };
+  const tStart = Date.now();
+  await page.locator(".hub button[data-quest='w02q1-al-jazari']").click();
+  await page.waitForFunction("window.__HH__.jazari() !== null && window.__HH__.where() !== null", undefined, { timeout: 30000 });
+  report.msFromPlayToScene = Date.now() - tStart;
+  await page.waitForTimeout(900);
+  await shot("intro-talk");
+  await noteJr("room open");
+  await roomTalk();
+
+  await fly("jazari", "h.jazari().talk !== null");
+  await shot("jazari-talk");
+  await roomTalk(["Ask about the float", "Ask about the balls"]);
+  await noteJr("asked al-Jazari both questions");
+  await fly("apprentice", "h.jazari().talk !== null");
+  await roomTalk(["It is all right"]);
+  await noteJr("answered the apprentice kindly");
+  await fly("box", "h.jazari().flags.includes('feather')");
+  await shot("feather-on-the-high-shelf");
+  await roomTalk();
+  await noteJr("found the feather");
+
+  // Every part of the road carried to its place, in order: from a place or from the workbench, then to its place.
+  const road = ["float", "falcon", "dragon", "vessel", "bowl"];
+  const before = await jr();
+  report.puzzle = { places: before.puzzle.places, parts: before.puzzle.parts.length, fewestMoves: before.par };
+  for (const [place, part] of road.entries()) {
+    const s = await jr();
+    if (s.puzzle.places[place] === part) continue;
+    const at = s.puzzle.places.indexOf(part);
+    const spares = s.puzzle.parts.map((x) => x.id).filter((id) => !s.puzzle.places.includes(id));
+    const from = at >= 0 ? `place-${at + 1}` : `spare-${spares.indexOf(part) + 1}`;
+    await fly(from, `h.jazari().carrying === ${JSON.stringify(part)}`);
+    if (place === 1 || (await jr()).moves === 0) await shot("carrying");
+    await fly(`place-${place + 1}`, `h.jazari().moves === ${s.moves + 1}`);
+    await noteJr(`put the ${part} in place ${place + 1}`);
+  }
+
+  // Frame times while the bird crosses the whole room and back, with everything running.
+  await hk("h.resetFrames();");
+  await page.locator(".room-box .stage").focus();
+  for (const key of ["ArrowLeft", "ArrowRight"]) {
+    await page.keyboard.down(key);
+    for (let i = 0; i < 14; i++) {
+      await page.keyboard.down("Space");
+      await page.waitForTimeout(120);
+      await page.keyboard.up("Space");
+      await page.waitForTimeout(380);
+    }
+    await page.keyboard.up(key);
+  }
+  const heap = () => page.evaluate("performance.memory ? performance.memory.usedJSHeapSize : null") as Promise<number | null>;
+  report.benchmark = { route: "the whole width and back, hopping and flapping, 14 seconds", info: await hk("return h.info();"), heapBytes: await heap() };
+
+  // A lost graphics context, before the clock is set going: what the player sees, and whether the room comes back.
+  report.contextLoss = await page.evaluate(`(async () => {
+    const canvas = document.querySelector('.room-box .stage canvas');
+    const gl = canvas.getContext('webgl2') || canvas.getContext('webgl');
+    const ext = gl && gl.getExtension('WEBGL_lose_context');
+    if (!ext) return { tried: false };
+    ext.loseContext();
+    await new Promise((r) => setTimeout(r, 600));
+    const toast = document.querySelector('.toast') ? document.querySelector('.toast').textContent : null;
+    ext.restoreContext();
+    await new Promise((r) => setTimeout(r, 2500));
+    return { tried: true, toast, sceneBack: window.__HH__.where() !== null, moves: window.__HH__.jazari().moves };
+  })()`);
+
+  await fly("lever", "h.jazari().last !== null");
+  await page.waitForTimeout(1600);
+  await shot("clock-running");
+  await page.waitForFunction("window.__HH__.jazari().doorLit", undefined, { timeout: 15000 });
+  await page.waitForTimeout(600);
+  await shot("door-lit");
+  await roomTalk();
+  await noteJr("the clock tells the half hour");
+  report.goals = await page.evaluate("JSON.parse(localStorage.getItem('im.hudhud.save.v1') || 'null')?.slots?.[0]?.quests?.['w02q1-al-jazari'] ?? null");
+  await shot("results");
+  await page.locator(".room-box .stage").focus();
+  await page.keyboard.down("ArrowRight");
+  await page.waitForFunction("!document.querySelector('.hub').hidden", undefined, { timeout: 25000 }).finally(() => page.keyboard.up("ArrowRight"));
+  report.door = await hk("return h.lastDoor();");
+  report.save = await page.evaluate("JSON.parse(localStorage.getItem('im.hudhud.save.v1') || 'null')");
+
+  // Opening the room again and again: what it holds must not grow.
+  const cycle = async () => ({ ...(await hk<Record<string, unknown>>("const i = h.info(); return { textures: i.textures, textureBytes: i.textureBytes, objects: i.objects, tweens: i.tweens };")), heapBytes: await heap() });
+  const reopen = async () => {
+    await hk("h.toAtlas(); h.startJazari();");
+    await page.waitForFunction("window.__HH__.jazari() !== null && window.__HH__.where() !== null", undefined, { timeout: 30000 });
+  };
+  await reopen();
+  await page.waitForTimeout(800);
+  const first = await cycle();
+  for (let i = 0; i < 9; i++) {
+    await reopen();
+    await page.waitForTimeout(300);
+  }
+  await page.waitForTimeout(800);
+  report.lifecycle = { afterOneOpening: first, afterTenOpenings: await cycle(), canvases: await page.evaluate("document.querySelectorAll('canvas').length") };
 }
 report.route = route;
 report.shots = shots;

@@ -102,6 +102,28 @@ Sheets over the page: Paused · Settings · What was said · Results with the mu
 
 On a narrow screen the goal moves above the picture and the talk below it. Arabic and Urdu mirror the page; the picture, the beam and the arrow buttons are never mirrored.
 
+## The second room: al-Jazari's workshop (27 November 2026)
+
+Drawn in code in the same kit, palette and brushed surface as the workshop (`art/jazari.ts`, 440 lines; the figures in `art/cast.ts`), and like it a **trial awaiting the founder's word on the look**: no more rooms are drawn before it. One long room of 2,400 by 720 game pixels with the workshop's floor: warm plaster, terracotta below and dusk blue above; a band of star tiles in lapis and terracotta; a pointed window with plain lattice lines and an evening sky; a shelf of gears; a saw and a pair of dividers on pegs; a stone water basin (decoration only: it claims nothing); a long workbench where the spare parts stand; a high shelf with two pots, gears and the box that holds the feather; and on a low platform a frame of two posts and an arched brass beam with five plinths, each numbered by dots, joined by a dotted line in the order the motion passes. The parts are the clock quest's own pictures (`art/bench.ts`, drawn again at 120 by 120 for the room through its new `drawPart`). No elephant is drawn: the frame is the game's own and the room's note says so. No inscription, no writing, no real building.
+
+| Figure | Parts | Moves the code makes |
+|---|---|---|
+| **Al-Jazari** (about 335) | the scholar's cut-out (`scholar(scale, JAZARI_LOOK)`): robe in terracotta, a lapis turban with gold bands, a darker beard, a leather apron; not a likeness, and his speaker label says "in imagined words" | turns to the bird; raises his arm when a part is put in place and when he speaks; blinks |
+| **The apprentice** (about 175) | the explorer's cut-out in one fixed look (`apprentice(scale)`: a headscarf, a red tunic) with a work apron; an invented person, and her label says so | looks at the bird; waves when she speaks; a small hop when spoken to; blinks |
+| **The clock's parts** | the float in its water, the falcon with its ball, the dragon, the vessel with the gong, the bowl of balls, the bird on its dome, the rider (each 120 by 120) | stand in their places or on the workbench; ride in Hudhud's beak at half size when carried; each place glows gold as the run passes it, red where it stopped; a gold ball shows at the last place the ball reached |
+| **Props** | the lever and its block, the ball, the feather, the page of the Atlas | the lever leans over once pulled; the page comes loose above the last place when the clock works |
+
+**Script size** (measured 27 November 2026, from the file `build:release` wrote, compressed with Node's zlib): Hudhud's main script `app-CWHEXDpU.js` is 1,744,176 bytes (375,559 with Brotli at quality 11, 468,734 with gzip at level 9), its style 19,372 bytes; with the journey it was 1,712,305 bytes (368,754 with Brotli) and 18,723 of style. The room engine and the second room add 31,871 bytes (6,805 with Brotli).
+
+**Measured beside the workshop** (`hudhud-play.ts`, Medium, 1920×1080, Explorer, the founder's Mac, Chrome 158, 27 November 2026; frame times while the bird crosses the whole room and back for 14 seconds):
+
+| Room | Textures | Texture memory (decoded) | Largest | Objects | Draw calls a frame | Frame time: mean / p95 / p99 / max | Frames over 16.7 ms | JS heap |
+|---|---:|---:|---|---:|---:|---|---:|---:|
+| Ibn al-Haytham's workshop | 50 | 45.3 MB | interior, columns of at most 2045×1080 | 129 | 19 | 8.33 / 9.2 / 9.4 / 9.7 ms | 0 of 1,702 | 88 MB |
+| Al-Jazari's workshop | 42 | 18.9 MB | jazari-room, columns of at most 2045×1080 | 51 | 8 | 8.33 / 9.2 / 9.4 / 9.5 ms | 0 of 1,701 | 60 MB |
+
+The room has fewer textures and objects and about half the draw calls because it has no sky, no town in two depths, no beam and no dust. Opening the room ten times left the same 42 textures and 51 objects; with a forced collection after each ten openings (a scratch script, not kept) the heap read 61, 35, 35 and 35 MB, and the workshop's 37 and 37 MB: nothing climbs. A lost graphics context in the room is told to the player and the room is drawn again with the clock as it stood.
+
 ## Measurements (one machine, not a reference machine)
 
 The founder's MacBook Pro (Apple M4 Max, 128 GB, macOS 27.2.1), Chrome 158, a 120 Hz display, device pixel ratio 1, window 1920×1080; `gaming/tools/hudhud-play.ts`, 26 November 2026. The reports are in [`../evidence/hudhud/golden-scene/`](../evidence/hudhud/golden-scene/). **Neither reference machine (M1 Air 8 GB; Windows 11, i5-1135G7, 8 GB) has run it. No 60-minute profile and no four-hour soak has been run.**

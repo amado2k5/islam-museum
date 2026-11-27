@@ -293,3 +293,17 @@ button.journey-btn:hover, button.door-go:hover { background: #ffd070; }
 .bench canvas.corridor-art { aspect-ratio: 1000 / 260; margin-block: 0; }
 .corridor-pad { display: flex; gap: 10px; margin-block-start: 8px; direction: ltr; }
 .corridor-pad button { width: 56px; height: 56px; border-radius: 50%; padding: 0; font-size: 1.4rem; user-select: none; -webkit-user-select: none; touch-action: none; }
+
+/* Al-Jazari's workshop (27 November 2026): a scene played in a room of its own, on the same stage as the flying scene,
+   with its heading above and its words and note under it. */
+.room-box { padding: 6px 0 20px; }
+.room-box .room-title, .room-box .words { width: min(100%, calc((100vh - 150px) * 16 / 9)); min-width: min(100%, 320px); margin-inline: auto; }
+.room-box .room-title { margin-block: 6px 8px; color: var(--gold); font-size: clamp(1.3rem, 2.6vw, 1.8rem); }
+.room-box .room-title:focus { outline: none; }
+.room-box .carrying { font-weight: 700; color: var(--gold); }
+.room-box .ran { min-height: 1.5em; margin-block: 10px 0; padding: 10px 14px; border: 1px solid var(--line); border-radius: 12px; }
+.room-box .ran:empty { display: none; }
+.room-box .ran p { margin: 4px 0; }
+.room-box .ran .stopped { color: #ffb0a6; }
+.room-box .ran .met { color: #7be0a8; }
+.room-box .door-panel .room-note { font-style: italic; }

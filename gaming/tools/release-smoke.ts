@@ -195,6 +195,22 @@ for (const game of manifest.games.filter((g) => g.page)) {
         }
       }
       started3d = "not a 3D game";
+    } else if (game.id === "lamp") {
+      // The Lamp of the Ages (added 27 November 2026 without a branch here, so that it fell into Atlas's below and the
+      // smoke failed): a plain page with an SVG map, on the daily games' shell. It comes up with its five destinations,
+      // shows the prototype label, and links the museum's records.
+      for (const end = Date.now() + 30_000; !(await page.evaluate("Boolean(window.__DAILY__)")); ) {
+        if (Date.now() > end) throw new Error("the Lamp of the Ages did not start in 30 seconds");
+        await page.waitForTimeout(150);
+      }
+      const hook = (await page.evaluate("window.__DAILY__")) as { error?: string; game?: string; destinations?: number };
+      if (hook.error) errors.push(`the game did not start: ${hook.error}`);
+      else {
+        if (hook.game !== "lamp" || !(hook.destinations && hook.destinations > 0)) errors.push(`the page reported ${JSON.stringify(hook)}`);
+        if (!(await page.locator("h1 .chip.proto").isVisible())) errors.push("the prototype label is not shown");
+        if ((await page.locator("a[href*='islam.museum']").count()) < 1) errors.push("no museum record is linked");
+      }
+      started3d = "not a 3D game";
     } else {
       await page.waitForSelector("#panel h2", { timeout: 60_000 });
       // Atlas's lit sphere comes up under its drawn globe; under the release's content security policy it must too.

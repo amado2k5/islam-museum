@@ -13,6 +13,14 @@ export interface Spot {
 export const distance = (spot: { x: number; y: number }, bird: { x: number; y: number }): number => Math.hypot(spot.x - bird.x, spot.y - (bird.y - 30));
 /** The bird is near enough to touch the spot. */
 export const near = (spot: Spot, bird: { x: number; y: number }): boolean => distance(spot, bird) < spot.reach;
+/**
+ * Where the bird lands to touch a thing when it is carried there (the room engine's goTo, scenes/room.ts): on the
+ * highest perch under the thing, or on the floor, `dx` across from it (in front of a mirror, beside a person).
+ */
+export function landing(spot: { x: number; y: number }, room: Room, dx: number): { x: number; y: number } {
+  const perch = room.perches.filter((p) => spot.x >= p.x - 20 && spot.x <= p.x + p.w + 20 && p.y >= spot.y - 10).sort((a, b) => a.y - b.y)[0];
+  return { x: spot.x + dx, y: perch ? perch.y : room.floor };
+}
 
 // ---------------------------------------------------------------------------------------- the corridor
 /**
