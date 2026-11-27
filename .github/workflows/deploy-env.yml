@@ -210,6 +210,13 @@ jobs:
           node-version: 22
           cache: npm
           cache-dependency-path: workers/r2-sync/package-lock.json
+      # The unpacked build is about 100 GB of files (seven languages); dist/ is a zstd-compressed btrfs filesystem so it
+      # fits on the runner (tools/ci/mount-compressed-dist.sh, the same as in build.yml).
+      - name: Mount dist/ on a compressed filesystem
+        # A rollback to a build older than the script unpacks onto plain disk, as before.
+        run: |
+          if [ -x tools/ci/mount-compressed-dist.sh ]; then tools/ci/mount-compressed-dist.sh dist
+          else echo "::warning::The built commit has no tools/ci/mount-compressed-dist.sh; dist unpacks onto plain disk."; fi
       - name: Download the built site
         uses: actions/download-artifact@v8
         with:
