@@ -18,6 +18,8 @@ import { icon } from "./icons";
 import { advice, aim, calendar, eventsInView, goals, isBuilding, ledger, overlay, plotInfo, plotProblems, project, researchList, showing, signed, stocks, type Line, type Projection, type Tint, type Tool, type Vars } from "./model";
 import { Stage } from "./stage";
 import { startGamepad } from "@im/platform/gamepad";
+import { installKeymap, type Action } from "@im/platform/keymap";
+import { keymapPanel } from "@im/platform/keymap-panel";
 import { TEXT_SIZES, applyTextSize, readTextSize, type TextSize } from "./text-size";
 
 const LANGS = ["ar", "en", "ur", "fr", "es", "tr", "id"] as const;
@@ -106,6 +108,9 @@ async function main(): Promise<void> {
   if (skip) skip.textContent = t("skip");
 
   const app = document.getElementById("app") as HTMLElement;
+  // The keys the player may move: the game goes on hearing its own, and a moved key is turned into its own first.
+  const KEY_ACTIONS: Action[] = [{ id: "inspect", key: "i" }, { id: "canal", key: "c" }, { id: "clear", key: "x" }, { id: "undo", key: "u" }, { id: "plan", key: "m" }, { id: "overview", key: "o" }, { id: "help", key: "h" }];
+  const keymap = installKeymap("golden-age", KEY_ACTIONS);
   const effects = new Effects();
   const canvas = document.getElementById("board") as HTMLCanvasElement;
   // A controller: the left stick and the cross move the plot cursor, the right stick turns and tilts the view; A uses
@@ -674,6 +679,7 @@ async function main(): Promise<void> {
         el("ol", { class: "help" }, ...[1, 2, 3, 4, 5, 6].map((i) => el("li", { textContent: t(`help_${i}`) }))),
         el("p", { class: "muted", textContent: t("help_controls") }),
         el("p", { class: "muted", textContent: t("help_pad") }),
+        keymapPanel(KEY_ACTIONS, keymap, { title: t("keys_title"), change: t("keys_change"), press: t("keys_press"), reset: t("keys_reset"), action: (id) => t(`key_action_${id}`) }),
         el("p", { class: "muted", textContent: `${t("help_7")} ${t("museum_note")}` }),
         el("label", { class: "check" }, (() => { const c = el("input", { type: "checkbox", id: "effects-on", checked: effects.on, onchange: () => effects.set(c.checked) }) as HTMLInputElement; return c; })(), " ", t("effects_label")),
         el("div", { class: "settings" }, el("label", {}, t("language"), " ", langSelect), el("label", {}, t("graphics"), " ", qualitySelect), el("label", {}, t("text_size"), " ", textSizeSelect())),
