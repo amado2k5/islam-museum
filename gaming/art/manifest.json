@@ -1676,6 +1676,266 @@
      "sha256": "6446db8d3473392fad9efd1155d44e2afc9b9d01b2b3e2d91c0e6af124b6b421"
     }
    ]
+  },
+  {
+   "id": "golden-age/market",
+   "game": "golden-age",
+   "title": "A row of shops behind an arcade, awnings out",
+   "madeBy": "the shapes: this repository's own scripts, run in Blender. The surfaces: photographs given to the public domain by Poly Haven, named in art/sources.json, where this machine had them; painted by the scripts where it did not",
+   "licence": "the scripts: MIT, with the code; what they make: CC BY-SA 4.0, with the museum's media of its own; the photographed surfaces stay public domain (CC0)",
+   "surfaces": [],
+   "sources": [
+    {
+     "path": "art/blender/common.py",
+     "sha256": "0b9a4ce8ee3efeefb246c78301170bf03256d20d63d575f93ae57bda473a9915"
+    },
+    {
+     "path": "art/blender/kit.py",
+     "sha256": "2f6e06dd53a3dc19d3bae51a394ac41daab84200065391fbbffa096e76f31496"
+    },
+    {
+     "path": "art/blender/golden_age_buildings.py",
+     "sha256": "e6ee02b407774ced0602b1425bf3857111cce5674bf6903caf7ac939cc97a31a"
+    }
+   ],
+   "objects": [
+    "market"
+   ],
+   "placed": {
+    "market": [
+     0,
+     2.15,
+     0
+    ]
+   },
+   "materials": [
+    "plaster",
+    "roof",
+    "darkwood",
+    "wood",
+    "fabric"
+   ],
+   "triangles": 1292,
+   "bytes": 95922,
+   "files": [
+    {
+     "path": "golden-age/market.gltf",
+     "bytes": 6762,
+     "sha256": "7585664b3ef0a152388484643db4109aaf9b30a65f2eb47481eafc84fc58bdea"
+    },
+    {
+     "path": "golden-age/market.bin",
+     "bytes": 89160,
+     "sha256": "42af305106471ac432674df5512af15fef85fc893f87cefbc43c9051e350c45d"
+    }
+   ]
+  },
+  {
+   "id": "golden-age/bath",
+   "game": "golden-age",
+   "title": "The hot room of a bath: a square hall under one broad dome with four small ones",
+   "madeBy": "the shapes: this repository's own scripts, run in Blender. The surfaces: photographs given to the public domain by Poly Haven, named in art/sources.json, where this machine had them; painted by the scripts where it did not",
+   "licence": "the scripts: MIT, with the code; what they make: CC BY-SA 4.0, with the museum's media of its own; the photographed surfaces stay public domain (CC0)",
+   "surfaces": [],
+   "sources": [
+    {
+     "path": "art/blender/common.py",
+     "sha256": "0b9a4ce8ee3efeefb246c78301170bf03256d20d63d575f93ae57bda473a9915"
+    },
+    {
+     "path": "art/blender/kit.py",
+     "sha256": "2f6e06dd53a3dc19d3bae51a394ac41daab84200065391fbbffa096e76f31496"
+    },
+    {
+     "path": "art/blender/golden_age_buildings.py",
+     "sha256": "e6ee02b407774ced0602b1425bf3857111cce5674bf6903caf7ac939cc97a31a"
+    }
+   ],
+   "objects": [
+    "bath"
+   ],
+   "placed": {
+    "bath": [
+     0,
+     2.2,
+     0
+    ]
+   },
+   "materials": [
+    "plaster",
+    "startile",
+    "darkwood"
+   ],
+   "triangles": 1422,
+   "bytes": 100822,
+   "files": [
+    {
+     "path": "golden-age/bath.gltf",
+     "bytes": 4162,
+     "sha256": "69c33cc71398ea282d42a0d6ec8827c5fc2b91a0ff1b99c1b53f6b738937cc35"
+    },
+    {
+     "path": "golden-age/bath.bin",
+     "bytes": 96660,
+     "sha256": "cb012237105335d677e45621c6b72fea4c77758c2974f136eefad7755b40501e"
+    }
+   ]
+  },
+  {
+   "id": "golden-age/library",
+   "game": "golden-age",
+   "title": "A library's great hall: a tiled portal and a turquoise dome",
+   "madeBy": "the shapes: this repository's own scripts, run in Blender. The surfaces: photographs given to the public domain by Poly Haven, named in art/sources.json, where this machine had them; painted by the scripts where it did not",
+   "licence": "the scripts: MIT, with the code; what they make: CC BY-SA 4.0, with the museum's media of its own; the photographed surfaces stay public domain (CC0)",
+   "surfaces": [],
+   "sources": [
+    {
+     "path": "art/blender/common.py",
+     "sha256": "0b9a4ce8ee3efeefb246c78301170bf03256d20d63d575f93ae57bda473a9915"
+    },
+    {
+     "path": "art/blender/kit.py",
+     "sha256": "2f6e06dd53a3dc19d3bae51a394ac41daab84200065391fbbffa096e76f31496"
+    },
+    {
+     "path": "art/blender/golden_age_buildings.py",
+     "sha256": "e6ee02b407774ced0602b1425bf3857111cce5674bf6903caf7ac939cc97a31a"
+    }
+   ],
+   "objects": [
+    "library"
+   ],
+   "placed": {
+    "library": [
+     0,
+     3.8,
+     0
+    ]
+   },
+   "materials": [
+    "plaster",
+    "startile",
+    "glaze",
+    "gold",
+    "darkwood",
+    "lattice"
+   ],
+   "triangles": 1300,
+   "bytes": 97411,
+   "files": [
+    {
+     "path": "golden-age/library.gltf",
+     "bytes": 7947,
+     "sha256": "aa941ca8172cf66bf983eaf39e941579b2bf90020aabc1a9face051f0cddb70e"
+    },
+    {
+     "path": "golden-age/library.bin",
+     "bytes": 89464,
+     "sha256": "69f7b5c8d42953fc8d5d51e14c41a3a5402524f0dd443aa6c69b14e596e75477"
+    }
+   ]
+  },
+  {
+   "id": "golden-age/school",
+   "game": "golden-age",
+   "title": "A school's teaching hall: an arcade of five bays and a plaster dome",
+   "madeBy": "the shapes: this repository's own scripts, run in Blender. The surfaces: photographs given to the public domain by Poly Haven, named in art/sources.json, where this machine had them; painted by the scripts where it did not",
+   "licence": "the scripts: MIT, with the code; what they make: CC BY-SA 4.0, with the museum's media of its own; the photographed surfaces stay public domain (CC0)",
+   "surfaces": [],
+   "sources": [
+    {
+     "path": "art/blender/common.py",
+     "sha256": "0b9a4ce8ee3efeefb246c78301170bf03256d20d63d575f93ae57bda473a9915"
+    },
+    {
+     "path": "art/blender/kit.py",
+     "sha256": "2f6e06dd53a3dc19d3bae51a394ac41daab84200065391fbbffa096e76f31496"
+    },
+    {
+     "path": "art/blender/golden_age_buildings.py",
+     "sha256": "e6ee02b407774ced0602b1425bf3857111cce5674bf6903caf7ac939cc97a31a"
+    }
+   ],
+   "objects": [
+    "school"
+   ],
+   "placed": {
+    "school": [
+     0,
+     2.6,
+     -0.8
+    ]
+   },
+   "materials": [
+    "plaster",
+    "plaster_dark",
+    "gold"
+   ],
+   "triangles": 1216,
+   "bytes": 89024,
+   "files": [
+    {
+     "path": "golden-age/school.gltf",
+     "bytes": 4288,
+     "sha256": "3581ac2e15a33e7fe9e5f76b345102740ceced1e9dd0ef1d0499599d8b1a3bcd"
+    },
+    {
+     "path": "golden-age/school.bin",
+     "bytes": 84736,
+     "sha256": "2a83cff46b0b54f0bb8d25a0d4c0970e57dc458db772ca07b8546c9dd15f8940"
+    }
+   ]
+  },
+  {
+   "id": "golden-age/hospital",
+   "game": "golden-age",
+   "title": "A hospital's main ward: two storeys behind an arcade",
+   "madeBy": "the shapes: this repository's own scripts, run in Blender. The surfaces: photographs given to the public domain by Poly Haven, named in art/sources.json, where this machine had them; painted by the scripts where it did not",
+   "licence": "the scripts: MIT, with the code; what they make: CC BY-SA 4.0, with the museum's media of its own; the photographed surfaces stay public domain (CC0)",
+   "surfaces": [],
+   "sources": [
+    {
+     "path": "art/blender/common.py",
+     "sha256": "0b9a4ce8ee3efeefb246c78301170bf03256d20d63d575f93ae57bda473a9915"
+    },
+    {
+     "path": "art/blender/kit.py",
+     "sha256": "2f6e06dd53a3dc19d3bae51a394ac41daab84200065391fbbffa096e76f31496"
+    },
+    {
+     "path": "art/blender/golden_age_buildings.py",
+     "sha256": "e6ee02b407774ced0602b1425bf3857111cce5674bf6903caf7ac939cc97a31a"
+    }
+   ],
+   "objects": [
+    "hospital"
+   ],
+   "placed": {
+    "hospital": [
+     0,
+     3.4,
+     0
+    ]
+   },
+   "materials": [
+    "plaster",
+    "plaster_dark",
+    "lattice"
+   ],
+   "triangles": 1378,
+   "bytes": 100565,
+   "files": [
+    {
+     "path": "golden-age/hospital.gltf",
+     "bytes": 4297,
+     "sha256": "691fde132ffdd7dde9b6d6bf1b23a1496ea09afde04d99a144597ca84daa0640"
+    },
+    {
+     "path": "golden-age/hospital.bin",
+     "bytes": 96268,
+     "sha256": "2858513cd47ae8c6b30b4d18f97b6c5b825903c212cc5afb7dd94f1b2f72469e"
+    }
+   ]
   }
  ]
 }
