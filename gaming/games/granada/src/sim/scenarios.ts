@@ -53,7 +53,10 @@ export const WATER_FOR_THE_VALLEY: Scenario = {
     house: { housing: 10, sites: 4, cost: dinars(160), timber: 30, stone: 0, labour: 20 },
     granary: { capacity: 500, sites: 1, cost: dinars(240), timber: 40, stone: 30, labour: 30 },
   },
-  goal: { welfare: 60, households: 60, reserveDays: 20 },
+  // Twenty-four days of food at the year's end, not twenty: at twenty, eight of the ten scripted stewards won nineteen
+  // years in twenty and the year taught nothing. Chosen in the lab (200 seeds, 27 November 2026): at 24 they win
+  // from none to all, by how they keep food; the idle steward never does. Free play, built from this year, keeps 20.
+  goal: { welfare: 60, households: 60, reserveDays: 24 },
   reward: dinars(40),
   // What the steward can place on the land. A house and a granary cost what they do on the prepared lots; a cistern
   // lets the pool hold more for the dry months; a garden is a little ease for the households.
