@@ -4,7 +4,7 @@ _26 November 2026. What was run is listed with its result. What was not run is l
 
 ## Run on 27 November 2026 (UTC), for the journey and its doors (asked for by the founder: the built quests played one after another, each scene ending at a door that lights up), on the same Mac (M4 Max, macOS 27.2.1, Node 25.4.0, Chrome 158.0.8127.38)
 
-Each command was run on its own and its exit code read (none was piped through another command inside a chain). The branch was cut from `origin/main` at `fff2e7360e9` (the merge of Karima's copies), and every gate below was run and passed there. Logs: `gaming/media/hudhud/captures/*.log` (git-ignored). Earlier runs below are kept as past.
+Each command was run on its own and its exit code read (none was piped through another command inside a chain). The branch was cut from `origin/main` at `fff2e7360e9` (the merge of Karima's copies), and every gate below was run and passed there. When `origin/main` was fetched again before the push it had moved to `88e9a281703` (Granada's walking and a comparison tool for Granada's models, with one `CANARY.md` entry, none touching Hudhud's code); it was merged in with no conflict (`86ea73ae191`) and every gate below was run again on the merged tree, each passing with the same figures but for the workspace's test count (49 files and 1,122 tests after the merge, Granada's new tests among them; Hudhud's own unchanged at 721) and the smoke loads' times (English 352 ms, Arabic 592 ms on the second run). Logs: `gaming/media/hudhud/captures/*.log` (git-ignored). Earlier runs below are kept as past.
 
 | Check | Result |
 |---|---|
