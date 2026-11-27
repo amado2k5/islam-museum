@@ -11,7 +11,8 @@
   --good: #46d6c2;
   --warn: #f2bb55;
   --bad: #ff8a75;
-  --ui: 15px;
+  /* In rem, so that the player's choice of text size (the root's font size) carries through. */
+  --ui: 0.9375rem;
   --bar: 64px;
 }
 * { box-sizing: border-box; }
