@@ -1594,7 +1594,7 @@ for (const lang of ["en", "ar"]) {
     "Card 3: The drink spread from Sufi circles, because it helped them stay awake through nights of devotion.",
     "Card 4: It was the jurist al-Dhabhani who brought coffee to Aden.",
     "Card 5: It was al-Shadhili of Mocha who began coffee.",
-    "Card 6: The tale of a man called Omar and of goats tells how coffee was found.",
+    "Card 6: A tale of a man called Omar, and of goats, is told about the start of coffee.",
   ];
   const ctx = await browser.newContext({ viewport: { width: 1280, height: 900 } });
   let page = await open(ctx, "&style=explorer");
