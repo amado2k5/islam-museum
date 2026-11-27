@@ -150,10 +150,10 @@ main:focus { outline: none; }
 .bench canvas.algebra-art { aspect-ratio: 1000 / 420; }
 .bench .equation { margin: 4px 0 8px; font-size: 1.25rem; font-weight: 700; color: var(--gold); }
 .bench .moves button { text-align: start; }
-.bench .tables { display: grid; gap: 14px; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); margin-block: 10px; }
-.bench table.counts { width: 100%; border-collapse: collapse; background: var(--panel); border: 1px solid var(--line); }
-.bench table.counts caption { font-weight: 700; text-align: start; padding: 8px 4px; }
-.bench table.counts th, .bench table.counts td { padding: 6px 10px; text-align: start; border-top: 1px solid var(--line); }
+.bench .tables, .room-box .tables { display: grid; gap: 14px; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); margin-block: 10px; }
+.bench table.counts, .room-box table.counts { width: 100%; border-collapse: collapse; background: var(--panel); border: 1px solid var(--line); }
+.bench table.counts caption, .room-box table.counts caption { font-weight: 700; text-align: start; padding: 8px 4px; }
+.bench table.counts th, .bench table.counts td, .room-box table.counts th, .room-box table.counts td { padding: 6px 10px; text-align: start; border-top: 1px solid var(--line); }
 .bench .glyph-name { display: inline-flex; align-items: center; gap: 10px; }
 .bench .glyph-name canvas { display: inline-block; width: auto; aspect-ratio: auto; border-width: 1px; border-radius: 8px; margin: 0; flex: none; }
 /* The fifth quest's page: the sheets of a map, played by a button for every place or by touching two sheets in the picture. */

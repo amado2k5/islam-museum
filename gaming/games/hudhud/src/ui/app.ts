@@ -15,6 +15,8 @@ import { restoreTusi, type TusiCommand } from "../sim/tusiroom";
 import { tusiRoom, type TusiRoom } from "./tusi";
 import { restoreKhwarizmi, type KhwarizmiCommand } from "../sim/khwarizmiroom";
 import { khwarizmiRoom, type KhwarizmiRoom } from "./khwarizmi";
+import { restoreKindi, type KindiCommand } from "../sim/kindiroom";
+import { kindiRoom, type KindiRoom } from "./kindi";
 import { CIPHER_QUEST, cipherPuzzle } from "../content/cipher";
 import { restoreCipher } from "../sim/cipher";
 import { cipherQuest, type CipherQuest } from "./cipher";
@@ -198,11 +200,11 @@ async function main(): Promise<void> {
   // is open at a time: `pageRun` is the one that is (see PAGE_QUESTS).
   const bench = el("section", { class: "bench", hidden: true });
   let pageRun: { quest: string; run: { node: HTMLElement; busy(): boolean; stop(): void } } | null = null;
-  // A scene with a room of its own (al-Jazari's workshop, al-Tusi's observatory and al-Khwarizmi's room, since
-  // 27 November 2026) is opened like a page quest and shown here, as wide as the flying scene's stage. Its page quest
-  // stays as the way it is played without WebGL.
+  // A scene with a room of its own (al-Jazari's workshop, al-Tusi's observatory, al-Khwarizmi's room and al-Kindi's
+  // room, since 27 November 2026) is opened like a page quest and shown here, as wide as the flying scene's stage. Its
+  // page quest stays as the way it is played without WebGL.
   const roomBox = el("section", { class: "room-box", hidden: true });
-  type AnyRoom = JazariRoom | TusiRoom | KhwarizmiRoom;
+  type AnyRoom = JazariRoom | TusiRoom | KhwarizmiRoom | KindiRoom;
   /** The open room, if a scene is being played in its room. */
   const openRoom = (): AnyRoom | null => (pageRun && "press" in pageRun.run ? (pageRun.run as unknown as AnyRoom) : null);
   /** The open room, if it is `quest`'s. */
@@ -1001,8 +1003,31 @@ async function main(): Promise<void> {
     [CIPHER_QUEST]: {
       subject: "al-kindi",
       trial: "cf_trial",
+      // One kept place serves both: the room's snapshot is the secret page's own with what Hudhud carries added.
       saved: () => pageSaved(CIPHER_QUEST, (snap) => restoreCipher(snap, cipherPuzzle)),
       make: (c, title, kept) => cipherQuest({ ...c, title, resume: kept as Parameters<typeof cipherQuest>[0]["resume"] }),
+      // Al-Kindi's room: the secret page played by flying, in a room of its own.
+      room: roomsOn,
+      makeRoom: (c, title) =>
+        kindiRoom({
+          ...c,
+          title,
+          quality,
+          keeper: () => slot().keeper,
+          textSpeed: () => settings().textSpeed,
+          perf: query.get("perf") === "1",
+          intent: () => input.intent(),
+          bindHold: (b, what) => input.bindHold(b, what),
+          blocked: () => sheetOpen(),
+          sound,
+          toast,
+          // The goals are written into the save; the room's own door leads on (no corridor).
+          finish: (g) => pageFinish(CIPHER_QUEST, g),
+          through: () => moveOn(),
+          fallback: () => openPage(CIPHER_QUEST, inJourney, true),
+          resume: pageSaved(CIPHER_QUEST, restoreKindi),
+          keepPlace: (snap) => pageCheckpoint(CIPHER_QUEST, snap),
+        }),
     },
     [ALGEBRA_QUEST]: {
       subject: "al-khwarizmi",
@@ -1303,9 +1328,9 @@ async function main(): Promise<void> {
     if (inJourney !== null) strip.focus();
   }
   /** The door of whichever scene is open: lit or not, where it stands, and where the bird is. */
-  const doorNow = (): { lit: boolean; where: { x: number; y: number; reach: number } | null; bird: { x: number; y: number } | null; scene: "workshop" | "corridor" | "page" | "jazari" | "tusi" | "khwarizmi" } | null => {
+  const doorNow = (): { lit: boolean; where: { x: number; y: number; reach: number } | null; bird: { x: number; y: number } | null; scene: "workshop" | "corridor" | "page" | "jazari" | "tusi" | "khwarizmi" | "kindi" } | null => {
     const room = openRoom();
-    if (room) return { ...room.door(), scene: pageRun?.quest === COUPLE_QUEST ? "tusi" : pageRun?.quest === ALGEBRA_QUEST ? "khwarizmi" : "jazari" };
+    if (room) return { ...room.door(), scene: pageRun?.quest === COUPLE_QUEST ? "tusi" : pageRun?.quest === ALGEBRA_QUEST ? "khwarizmi" : pageRun?.quest === CIPHER_QUEST ? "kindi" : "jazari" };
     if (started) {
       const w = running?.scene()?.where() ?? null;
       return { lit: state.done, where: { ...DOOR }, bird: w ? { x: w.x, y: w.y } : null, scene: "workshop" };
@@ -1506,7 +1531,16 @@ async function main(): Promise<void> {
     jazariCommand: (c: RoomCommand) => roomOf<JazariRoom>(CLOCK_QUEST)?.command(c),
     clock: () => { const r = pageOf<ClockQuest>(CLOCK_QUEST); return r ? { ...r.state(), busy: r.busy() } : null; },
     clockCommand: (c: Parameters<ClockQuest["command"]>[0]) => pageOf<ClockQuest>(CLOCK_QUEST)?.command(c),
-    startCipher: () => openPage(CIPHER_QUEST),
+    // The secret page's page quest (the way it is played without WebGL), and al-Kindi's room, where it is played by flying.
+    startCipher: () => openPage(CIPHER_QUEST, null, true),
+    startKindi: () => openPage(CIPHER_QUEST),
+    kindi: () => {
+      const r = roomOf<KindiRoom>(CIPHER_QUEST);
+      if (!r) return null;
+      const v = r.view();
+      return { ...v.state.cipher, carrying: v.state.carrying, talk: v.state.talk, doorLit: v.done, shown: r.running()?.scene()?.shown() ?? null };
+    },
+    kindiCommand: (c: KindiCommand) => roomOf<KindiRoom>(CIPHER_QUEST)?.command(c),
     cipher: () => { const r = pageOf<CipherQuest>(CIPHER_QUEST); return r ? { ...r.state(), busy: r.busy() } : null; },
     cipherCommand: (c: Parameters<CipherQuest["command"]>[0]) => pageOf<CipherQuest>(CIPHER_QUEST)?.command(c),
     // The locked box's page quest (the way it is played without WebGL), and al-Khwarizmi's room, where it is played by flying.

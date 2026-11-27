@@ -247,14 +247,15 @@ describe("al-Tusi's room: its strings", () => {
   const tables = Object.fromEntries(LANGS.map((l) => [l, table(l)]));
   const keys = Object.keys(tables.en!).filter((k) => k.startsWith("tsr_"));
   // They were the last nineteen of every table until al-Khwarizmi's room (27 November 2026) appended its own after them;
-  // they are still one block, in the same order, in every table, and only al-Khwarizmi's room's keys come after them.
-  it("are nineteen, one block in every table, in the same order, with only al-Khwarizmi's room's keys after them", () => {
+  // and al-Kindi's room its own after those; they are still one block, in the same order, in every table, and only
+  // those two rooms' keys come after them.
+  it("are nineteen, one block in every table, in the same order, with only al-Khwarizmi's room's and al-Kindi's room's keys after them", () => {
     expect(keys).toHaveLength(19);
     for (const l of LANGS) {
       const all = Object.keys(tables[l]!);
       const at = all.indexOf(keys[0]!);
       expect(all.slice(at, at + keys.length), l).toEqual(keys);
-      expect(all.slice(at + keys.length).every((k) => k.startsWith("akr_")), l).toBe(true);
+      expect(all.slice(at + keys.length).every((k) => k.startsWith("akr_") || k.startsWith("kdr_")), l).toBe(true);
     }
   });
   it("say that the observatory, the model, the levers and the crank are invented, in the founder's words in Arabic and English", () => {

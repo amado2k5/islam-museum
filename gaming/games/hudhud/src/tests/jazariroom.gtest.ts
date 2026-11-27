@@ -193,15 +193,15 @@ describe("al-Jazari's room: its strings", () => {
   const tables = Object.fromEntries(LANGS.map((l) => [l, table(l)]));
   const keys = Object.keys(tables.en!).filter((k) => k.startsWith("jr_"));
   // They were the last twenty-six of every table until al-Tusi's room (27 November 2026) appended its own after them,
-  // and al-Khwarizmi's room its own after those; they are still one block, in the same order, in every table, and only
-  // those two rooms' keys come after them.
-  it("are twenty-seven (the goodbye line jr_thanks was added in review on 27 November 2026), one block in every table, in the same order, with only al-Tusi's room's and al-Khwarizmi's room's keys after them", () => {
+  // and al-Khwarizmi's and al-Kindi's rooms their own after those; they are still one block, in the same order, in every
+  // table, and only those three rooms' keys come after them.
+  it("are twenty-seven (the goodbye line jr_thanks was added in review on 27 November 2026), one block in every table, in the same order, with only al-Tusi's, al-Khwarizmi's and al-Kindi's rooms' keys after them", () => {
     expect(keys).toHaveLength(27);
     for (const l of LANGS) {
       const all = Object.keys(tables[l]!);
       const at = all.indexOf(keys[0]!);
       expect(all.slice(at, at + keys.length), l).toEqual(keys);
-      expect(all.slice(at + keys.length).every((k) => k.startsWith("tsr_") || k.startsWith("akr_")), l).toBe(true);
+      expect(all.slice(at + keys.length).every((k) => k.startsWith("tsr_") || k.startsWith("akr_") || k.startsWith("kdr_")), l).toBe(true);
     }
   });
   it("say that the room and the frame are invented, in the founder's words in Arabic and English", () => {
