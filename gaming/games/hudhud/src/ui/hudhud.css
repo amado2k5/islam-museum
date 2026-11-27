@@ -168,6 +168,13 @@ main:focus { outline: none; }
 .bench .route-beads button { width: 100%; min-height: 44px; text-align: start; }
 .bench .route-beads button.on { border-color: var(--gold); background: #18407a; }
 .bench .stage-text p { margin: 4px 0; }
+/* The ninth quest's page: al-Tusi's two circles, set by groups of radio buttons and turned by one button. */
+.bench canvas.couple-art { aspect-ratio: 1000 / 480; }
+.bench .couple-controls { display: flex; flex-wrap: wrap; gap: 12px; margin-block: 10px; }
+.bench .couple-group { margin: 0; padding: 8px 14px 10px; border: 1px solid var(--line); border-radius: 12px; min-width: 220px; }
+.bench .couple-group legend { padding-inline: 6px; font-weight: 700; }
+.bench .couple-group label { display: flex; align-items: center; gap: 10px; min-height: 44px; }
+.bench .couple-group input[type="radio"] { width: 22px; height: 22px; accent-color: var(--gold); }
 .bench ol.tray-key { list-style: none; margin-block: 4px 10px; padding: 0; }
 .bench .sheet-rows { display: grid; gap: 8px; margin-block: 10px; }
 .bench .sheet-row { list-style: none; display: flex; flex-wrap: wrap; gap: 8px; margin: 0; padding: 0; }
