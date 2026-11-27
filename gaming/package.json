@@ -26,7 +26,7 @@
     "golden-age:shot": "tsx tools/golden-age-shot.ts",
     "golden-age:links": "tsx --tsconfig tsconfig.json games/golden-age/tools/build-links.ts",
     "music:import": "tsx tools/music-import.ts",
-    "strings": "python3 tools/check-strings.py games/granada/i18n games/atlas/i18n games/golden-age/i18n games/hudhud/i18n games/hudhud/i18n-atlas packages/audio/i18n packages/platform/i18n packages/daily/i18n games/five-questions/i18n games/kalima/i18n games/thread/i18n games/lantern/i18n",
+    "strings": "python3 tools/check-strings.py games/granada/i18n games/atlas/i18n games/golden-age/i18n games/hudhud/i18n games/hudhud/i18n-atlas packages/audio/i18n packages/platform/i18n packages/daily/i18n games/five-questions/i18n games/kalima/i18n games/thread/i18n games/lantern/i18n games/lamp/i18n",
     "granada:records": "tsx --tsconfig tsconfig.json games/granada/tools/build-records.ts",
     "granada:mutations": "python3 games/granada/tools/mutate-economy.py",
     "build:release": "tsx --tsconfig tsconfig.json tools/build.ts",
@@ -49,7 +49,8 @@
     "hudhud:checks": "tsx --tsconfig tsconfig.json tools/hudhud-checks.ts",
     "hudhud:uat": "tsx --tsconfig tsconfig.json tools/hudhud-uat.ts",
     "platform:save": "tsx --tsconfig tsconfig.json tools/platform-save.ts",
-    "platform:gate": "tsx --tsconfig tsconfig.json tools/platform-gate.ts"
+    "platform:gate": "tsx --tsconfig tsconfig.json tools/platform-gate.ts",
+    "lamp:records": "tsx --tsconfig tsconfig.json games/lamp/tools/build-records.ts"
   },
   "dependencies": {
     "@babylonjs/core": "9.37.2",

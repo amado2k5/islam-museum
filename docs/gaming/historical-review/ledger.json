@@ -1507,6 +1507,43 @@
     "R6"
    ],
    "editorApproved": null
+  },
+  {
+   "id": "HR-LA-01",
+   "game": "The Lamp of the Ages",
+   "claim": "The frame of the game: a lamp from the folk tale of 'Ala al-Din, first printed in Antoine Galland's French Mille et une nuits (1710), whose jinni guides the player through places and centuries; the travel, the satchel of record cards, the gates that open with a card, and companions who travel along are invented for play. The jinni is written as a modest guide, is never drawn as a figure (the lamp has a wisp of smoke), and the page links the museum's record concept/jinn for what the belief is.",
+   "context": "gaming/games/lamp/i18n/*.json (jinni_1, jinni_2, how_*), src/ui/app.ts",
+   "sources": [
+    "concept/jinn"
+   ],
+   "kind": "fiction",
+   "uncertainty": "A reviewer should check that the jinni's two lines read as respectful in all seven languages, that nothing implies a claim about the unseen, and that Galland's 1710 printing is stated correctly.",
+   "author": "Claude Code (claude-sonnet-5-5), an AI agent",
+   "reviewer": null,
+   "decision": "historical review pending",
+   "approved": null,
+   "note": "",
+   "forReview": [],
+   "editorApproved": null
+  },
+  {
+   "id": "HR-LA-02",
+   "game": "The Lamp of the Ages",
+   "claim": "Every fact the game shows is a museum record's own label and summary, copied by tools/build-records.ts with the citation markers removed: place/baghdad, place/cordoba, place/cairo, place/samarqand, place/timbuktu, building/bayt-al-hikma, building/alhambra, person/al-khwarizmi, person/abbas-ibn-firnas, person/ibn-al-haytham, person/al-hakim-bi-amr-allah, person/ulugh-beg, person/mansa-musa, event/abd-al-rahman-ii-expands-cordoba-mosque, event/ibn-al-haytham-summoned-to-cairo, event/ulugh-beg-observatory-samarqand, event/sankore-mosque-timbuktu-730, event/mansa-musa-hajj-724, work/kitab-al-hisab-al-khwarizmi, work/kitab-al-manazir, invention/ulugh-beg-zij, concept/jinn. The century on the time dial is computed from the year of one record per destination.",
+   "context": "gaming/games/lamp/data/records.json, src/content.ts",
+   "sources": [
+    "place/baghdad",
+    "person/al-khwarizmi"
+   ],
+   "kind": "sourced",
+   "uncertainty": "The records are themselves unreviewed source material. Several years are approximate in the records (marked ~). Each question's answer is held by a test to a phrase in the record's English summary; the other languages are the records' own translations. person/ulugh-beg has an Arabic label only, so its name shows in Arabic in every language.",
+   "author": "Claude Code (claude-sonnet-5-5), an AI agent",
+   "reviewer": null,
+   "decision": "historical review pending",
+   "approved": null,
+   "note": "",
+   "forReview": [],
+   "editorApproved": null
   }
  ],
  "roster": [
