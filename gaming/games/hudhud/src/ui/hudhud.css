@@ -160,6 +160,8 @@ main:focus { outline: none; }
 .bench canvas.sheets-art { aspect-ratio: 1000 / 480; cursor: pointer; }
 .bench canvas.sort-art { aspect-ratio: 1000 / 460; cursor: pointer; }
 .bench ul.places { grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); }
+/* The tenth quest's page: the shelves of coffee, with a numbered list of the cards' sentences (the same picture and the same controls as the animal cards). */
+.bench ol.places { grid-template-columns: repeat(auto-fit, minmax(min(100%, 440px), 1fr)); }
 /* The seventh quest's page: the papermaker's row, played by a list of choices for every place or by touching two places in the picture. */
 .bench canvas.paper-art { aspect-ratio: 1000 / 420; cursor: pointer; }
 .bench ol.paper-places { grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); }
@@ -174,7 +176,16 @@ main:focus { outline: none; }
 .bench .couple-group { margin: 0; padding: 8px 14px 10px; border: 1px solid var(--line); border-radius: 12px; min-width: 220px; }
 .bench .couple-group legend { padding-inline: 6px; font-weight: 700; }
 .bench .couple-group label { display: flex; align-items: center; gap: 10px; min-height: 44px; }
-.bench .couple-group input[type="radio"] { width: 22px; height: 22px; accent-color: var(--gold); }
+/* A radio button of the quests is a ring; the chosen one is a ring with a solid disc in it, and its words are bold and underlined, so that the choice shows by shape and not by colour alone. A finished quest disables its controls: the chosen one stays as clear as before (not the browser's pale disabled look), and the others fall back to a plain muted ring. */
+.bench .couple-group input[type="radio"] { appearance: none; -webkit-appearance: none; width: 24px; height: 24px; margin: 0; flex: none; display: inline-grid; place-content: center; border: 3px solid var(--ivory); border-radius: 50%; background: transparent; }
+.bench .couple-group input[type="radio"]::after { content: ""; width: 12px; height: 12px; border-radius: 50%; background: var(--gold); transform: scale(0); }
+.bench .couple-group input[type="radio"]:checked { border-color: var(--gold); background: #18407a; }
+.bench .couple-group input[type="radio"]:checked::after { transform: scale(1); }
+.bench .couple-group input[type="radio"]:disabled { cursor: default; opacity: 1; border-color: var(--muted); }
+.bench .couple-group input[type="radio"]:disabled:checked { border-color: var(--gold); }
+.bench .couple-group label:has(input:checked) span { font-weight: 700; }
+.bench .couple-group label:has(input:disabled:checked) span { text-decoration: underline; text-underline-offset: 4px; }
+.bench .couple-group label:has(input:disabled:not(:checked)) span { color: var(--muted); }
 .bench ol.tray-key { list-style: none; margin-block: 4px 10px; padding: 0; }
 .bench .sheet-rows { display: grid; gap: 8px; margin-block: 10px; }
 .bench .sheet-row { list-style: none; display: flex; flex-wrap: wrap; gap: 8px; margin: 0; padding: 0; }

@@ -508,23 +508,19 @@ describe("the words", () => {
     for (const l of LANGS) expect(Object.keys(table(l)).filter((k) => k.startsWith("ts_")), l).toEqual(Object.keys(table("en")).filter((k) => k.startsWith("ts_")));
     for (const l of LANGS) for (const k of keys) expect([...(table(l)[k] ?? "").matchAll(/\{\w+\}/g)].map((m) => m[0]).sort(), `${l}:${k}`).toEqual([...(table("en")[k] ?? "").matchAll(/\{\w+\}/g)].map((m) => m[0]).sort());
   });
-  it("is appended at the end of each language's file, after the keys of the eighth quest, and nothing comes after it", () => {
+  it("is appended in one block after the keys of the eighth quest, and only the next quest's keys (`cq_`) come after it", () => {
     for (const l of LANGS) {
       const ks = Object.keys(table(l));
       const first = ks.findIndex((k) => k.startsWith("ts_"));
       expect(first, l).toBeGreaterThan(0);
-      expect(ks.slice(first).every((k) => k.startsWith("ts_")), l).toBe(true);
+      const count = ks.filter((k) => k.startsWith("ts_")).length;
+      expect(ks.slice(first, first + count).every((k) => k.startsWith("ts_")), l).toBe(true);
+      expect(ks.slice(first + count).every((k) => k.startsWith("cq_")), l).toBe(true);
       expect(ks[first - 1]!.startsWith("ib_"), l).toBe(true);
     }
   });
-  it("says in the hub that nine quests are built, in every language, and no longer eight", () => {
-    expect(table("en").hub_note).toMatch(/Nine quests are built/);
-    expect(table("ar").hub_note).toContain("تسع مهمات");
-    expect(table("ur").hub_note).toContain("نو مہمیں");
-    expect(table("fr").hub_note).toContain("Neuf quêtes");
-    expect(table("es").hub_note).toContain("nueve misiones");
-    expect(table("tr").hub_note).toContain("dokuz görev");
-    expect(table("id").hub_note).toContain("sembilan misi");
+  it("says in the hub that quests are built, in every language, and no longer eight (the count itself is pinned in coffee.gtest.ts)", () => {
+    expect(table("en").hub_note).toMatch(/(Nine|Ten) quests are built/);
     for (const l of LANGS) expect(table(l).hub_note).not.toMatch(/\beight quests|\bhuit quêtes|\bocho misiones|\bsekiz görev|\bdelapan misi|ثماني مهمات|آٹھ مہمیں/i);
   });
   it("gives the answer away in nothing the page shows before the line is found: not the speed, not the direction, in any language", () => {

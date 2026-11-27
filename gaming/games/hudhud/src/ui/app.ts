@@ -30,6 +30,8 @@ import { routeQuest, type RouteQuest } from "./route";
 import { COUPLE_QUEST, COUPLE_SUBJECT, coupleOffer } from "../content/couple";
 import { restoreCouple } from "../sim/couple";
 import { coupleQuest, type CoupleQuest } from "./couple";
+import { COFFEE_QUEST, COFFEE_SUBJECT, coffeeDef } from "../content/coffee";
+import { coffeeQuest, type CoffeeQuest } from "./coffee";
 import { prologueScreen } from "./prologue";
 import { JAR, RECORDS, SCRIPTS, THINGS, TURN_SLACK, inPlay, type PlayStyle, type Speaker } from "../content/workshop";
 import { start, type Running } from "../game/boot";
@@ -845,10 +847,10 @@ async function main(): Promise<void> {
 
   applyLook();
   // ---------------------------------------------------------------------------------------- the Atlas
-  // The first thing a player sees: who they are, and the Atlas itself, ten worlds of five pages. Nine quests can be
+  // The first thing a player sees: who they are, and the Atlas itself, ten worlds of five pages. Ten quests can be
   // played; the others are named and said to be not built. Nothing here is a claim about history: the names are
   // the subjects' names and the grouping is a structure for play.
-  const BUILT: Record<string, string> = { "ibn-al-haytham": QUEST, "al-jazari": CLOCK_QUEST, "al-kindi": CIPHER_QUEST, "al-khwarizmi": ALGEBRA_QUEST, "al-idrisi": SHEETS_QUEST, [SORT_SUBJECT]: SORT_QUEST, [PAPER_SUBJECT]: PAPER_QUEST, [ROUTE_SUBJECT]: ROUTE_QUEST, [COUPLE_SUBJECT]: COUPLE_QUEST };
+  const BUILT: Record<string, string> = { "ibn-al-haytham": QUEST, "al-jazari": CLOCK_QUEST, "al-kindi": CIPHER_QUEST, "al-khwarizmi": ALGEBRA_QUEST, "al-idrisi": SHEETS_QUEST, [SORT_SUBJECT]: SORT_QUEST, [PAPER_SUBJECT]: PAPER_QUEST, [ROUTE_SUBJECT]: ROUTE_QUEST, [COUPLE_SUBJECT]: COUPLE_QUEST, [COFFEE_SUBJECT]: COFFEE_QUEST };
   function startQuest(): void {
     cues.unlock();
     // Asked once, after a press as browsers require; the answer is shown in the settings and never asked again.
@@ -902,13 +904,13 @@ async function main(): Promise<void> {
     top?.focus({ preventScroll: true });
   }
   /** The quests played on a page. Each has its own page and rules (ui/, sim/); what is shared is here: which subject it belongs to, what it has left in the middle, its line about being a trial, and how it is made. */
-  type Common = Omit<Parameters<typeof algebraQuest>[0], "title" | "resume">;
+  type Common = Omit<Parameters<typeof algebraQuest>[0], "title" | "resume"> & { reducedMotion(): boolean };
   const PAGE_QUESTS: Record<string, { subject: string; trial: Key; saved: () => unknown | null; make: (common: Common, title: string, kept: unknown) => { node: HTMLElement; busy(): boolean; stop(): void } }> = {
     [CLOCK_QUEST]: {
       subject: "al-jazari",
       trial: "ck_trial",
       saved: () => pageSaved(CLOCK_QUEST, (snap) => restoreClock(snap, clockPuzzle)),
-      make: (c, title, kept) => clockQuest({ ...c, title, resume: kept as Parameters<typeof clockQuest>[0]["resume"], reducedMotion: () => settings().reducedMotion }),
+      make: (c, title, kept) => clockQuest({ ...c, title, resume: kept as Parameters<typeof clockQuest>[0]["resume"] }),
     },
     [CIPHER_QUEST]: {
       subject: "al-kindi",
@@ -938,19 +940,25 @@ async function main(): Promise<void> {
       subject: PAPER_SUBJECT,
       trial: "pp_trial",
       saved: () => pageSaved(PAPER_QUEST, (snap) => restorePaper(snap, paperPuzzle)),
-      make: (c, title, kept) => paperQuest({ ...c, title, resume: kept as Parameters<typeof paperQuest>[0]["resume"], reducedMotion: () => settings().reducedMotion }),
+      make: (c, title, kept) => paperQuest({ ...c, title, resume: kept as Parameters<typeof paperQuest>[0]["resume"] }),
     },
     [ROUTE_QUEST]: {
       subject: ROUTE_SUBJECT,
       trial: "ib_trial",
       saved: () => pageSaved(ROUTE_QUEST, (snap) => restoreRoute(snap, routeStage)),
-      make: (c, title, kept) => routeQuest({ ...c, title, resume: kept as Parameters<typeof routeQuest>[0]["resume"], reducedMotion: () => settings().reducedMotion }),
+      make: (c, title, kept) => routeQuest({ ...c, title, resume: kept as Parameters<typeof routeQuest>[0]["resume"] }),
     },
     [COUPLE_QUEST]: {
       subject: COUPLE_SUBJECT,
       trial: "ts_trial",
       saved: () => pageSaved(COUPLE_QUEST, (snap) => restoreCouple(snap, coupleOffer)),
-      make: (c, title, kept) => coupleQuest({ ...c, title, resume: kept as Parameters<typeof coupleQuest>[0]["resume"], reducedMotion: () => calm() }),
+      make: (c, title, kept) => coupleQuest({ ...c, title, resume: kept as Parameters<typeof coupleQuest>[0]["resume"] }),
+    },
+    [COFFEE_QUEST]: {
+      subject: COFFEE_SUBJECT,
+      trial: "cq_trial",
+      saved: () => pageSaved(COFFEE_QUEST, (snap) => restoreSort(snap, coffeeDef)),
+      make: (c, title, kept) => coffeeQuest({ ...c, title, resume: kept as Parameters<typeof coffeeQuest>[0]["resume"] }),
     },
   };
   /** Opens a quest played on a page, with no flying scene. One left in the middle comes back. */
@@ -964,6 +972,8 @@ async function main(): Promise<void> {
       lang,
       museum: MUSEUM,
       style,
+      // One answer for every quest that animates a run: the game's own setting, the system preference, or `motion=reduced` in the address.
+      reducedMotion: calm,
       keepPlace: (snap) => pageCheckpoint(quest, snap),
       tick: () => cues.play("line"),
       chime: () => cues.play("restored"),
@@ -1190,6 +1200,9 @@ async function main(): Promise<void> {
     startCouple: () => openPage(COUPLE_QUEST),
     couple: () => { const r = pageOf<CoupleQuest>(COUPLE_QUEST); return r ? { ...r.state(), busy: r.busy(), status: r.status() } : null; },
     coupleCommand: (c: Parameters<CoupleQuest["command"]>[0]) => pageOf<CoupleQuest>(COUPLE_QUEST)?.command(c),
+    startCoffee: () => openPage(COFFEE_QUEST),
+    coffee: () => { const r = pageOf<CoffeeQuest>(COFFEE_QUEST); return r ? { ...r.state(), busy: r.busy(), selected: r.selected(), status: r.status() } : null; },
+    coffeeCommand: (c: Parameters<CoffeeQuest["command"]>[0]) => pageOf<CoffeeQuest>(COFFEE_QUEST)?.command(c),
     resumed: () => resumed,
     keys: () => settings().keys,
     prologue: () => ({ shown: openingShown, panel: openingShown ? prologue.panel() : 0 }),

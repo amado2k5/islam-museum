@@ -8,7 +8,7 @@
 // card are on the right), but the animals themselves are not turned round.
 import { INK, PAL } from "./kit";
 
-type Ctx = CanvasRenderingContext2D;
+export type Ctx = CanvasRenderingContext2D;
 export const SORT_ART = { w: 1000, h: 460, margin: 30, trayGap: 14, trayY: 14, trayH: 290, head: 34, pad: 10, card: 72, gap: 8, restY: 326, restH: 110 } as const;
 
 export interface Rect {
@@ -80,7 +80,7 @@ export function sortHit(x: number, y: number, v: Pick<SortView, "items" | "place
   return inside(restBand(v.rtl)) ? { type: "rest" } : null;
 }
 
-function rounded(c: Ctx, x: number, y: number, w: number, h: number, r: number): void {
+export function rounded(c: Ctx, x: number, y: number, w: number, h: number, r: number): void {
   c.beginPath();
   c.moveTo(x + r, y);
   c.arcTo(x + w, y, x + w, y + h, r);
@@ -89,14 +89,14 @@ function rounded(c: Ctx, x: number, y: number, w: number, h: number, r: number):
   c.arcTo(x, y, x + w, y, r);
   c.closePath();
 }
-const ell = (c: Ctx, x: number, y: number, rx: number, ry: number, fill: string, rot = 0, line = true): void => {
+export const ell = (c: Ctx, x: number, y: number, rx: number, ry: number, fill: string, rot = 0, line = true): void => {
   c.beginPath();
   c.ellipse(x, y, rx, ry, rot, 0, Math.PI * 2);
   c.fillStyle = fill;
   c.fill();
   if (line) c.stroke();
 };
-const poly = (c: Ctx, pts: [number, number][], fill: string, line = true): void => {
+export const poly = (c: Ctx, pts: [number, number][], fill: string, line = true): void => {
   c.beginPath();
   pts.forEach(([x, y], i) => (i === 0 ? c.moveTo(x, y) : c.lineTo(x, y)));
   c.closePath();
@@ -104,7 +104,7 @@ const poly = (c: Ctx, pts: [number, number][], fill: string, line = true): void 
   c.fill();
   if (line) c.stroke();
 };
-const seg = (c: Ctx, pts: [number, number][], width = 2, colour: string = INK): void => {
+export const seg = (c: Ctx, pts: [number, number][], width = 2, colour: string = INK): void => {
   c.save();
   c.lineWidth = width;
   c.strokeStyle = colour;
@@ -113,7 +113,7 @@ const seg = (c: Ctx, pts: [number, number][], width = 2, colour: string = INK): 
   c.stroke();
   c.restore();
 };
-const dot = (c: Ctx, x: number, y: number, r: number, fill: string): void => {
+export const dot = (c: Ctx, x: number, y: number, r: number, fill: string): void => {
   c.beginPath();
   c.arc(x, y, r, 0, Math.PI * 2);
   c.fillStyle = fill;
@@ -286,21 +286,42 @@ const CREATURES: Record<string, (c: Ctx) => void> = {
   },
 };
 
-function drawCard(c: Ctx, r: Rect, item: string, mark: "none" | "chosen" | "done"): void {
+/** How a card is framed: a plain card, or a small scroll (a body with a rolled end at the top and at the bottom). */
+export type CardFrame = "card" | "scroll";
+function drawCard(c: Ctx, r: Rect, face: (c: Ctx) => void, mark: "none" | "chosen" | "done", frame: CardFrame): void {
   c.save();
   c.translate(r.x, r.y);
-  rounded(c, 0, 0, r.w, r.h, 9);
-  c.fillStyle = PAL.cream;
-  c.fill();
-  c.lineWidth = 3;
-  c.strokeStyle = PAL.woodDark;
-  c.stroke();
-  c.save();
-  rounded(c, 1, 1, r.w - 2, r.h - 2, 8);
-  c.clip();
+  if (frame === "card") {
+    rounded(c, 0, 0, r.w, r.h, 9);
+    c.fillStyle = PAL.cream;
+    c.fill();
+    c.lineWidth = 3;
+    c.strokeStyle = PAL.woodDark;
+    c.stroke();
+    c.save();
+    rounded(c, 1, 1, r.w - 2, r.h - 2, 8);
+    c.clip();
+  } else {
+    // The body of the scroll, and a roll at each end (the rolls are a little wider than the body).
+    c.lineWidth = 3;
+    c.strokeStyle = PAL.woodDark;
+    rounded(c, 5, 6, r.w - 10, r.h - 12, 3);
+    c.fillStyle = PAL.cream;
+    c.fill();
+    c.stroke();
+    for (const y of [0, r.h - 12]) {
+      rounded(c, 0, y, r.w, 12, 6);
+      c.fillStyle = PAL.goldLight;
+      c.fill();
+      c.stroke();
+    }
+    c.save();
+    rounded(c, 6, 13, r.w - 12, r.h - 26, 2);
+    c.clip();
+  }
   c.strokeStyle = INK;
   c.lineWidth = 2;
-  (CREATURES[item] ?? (() => undefined))(c);
+  face(c);
   c.restore();
   if (mark !== "none") {
     rounded(c, -4, -4, r.w + 8, r.h + 8, 12);
@@ -311,6 +332,32 @@ function drawCard(c: Ctx, r: Rect, item: string, mark: "none" | "chosen" | "done
   c.restore();
 }
 
+/** What a page of cards and trays is drawn with: the mark on each tray's header, what is on each card, how a card is framed. The animal cards of al-Jahiz are the first skin; the shelves of coffee are another (art/coffee.ts). */
+export interface SortSkin {
+  /** The mark of the tray with number `g` (from 0) on its mat `t`: its dots, and whatever else tells it from the others by shape. */
+  trayMark(c: Ctx, t: Rect, g: number, rtl: boolean): void;
+  /** What is drawn on a card, in a 72 by 72 box. */
+  face(item: string): (c: Ctx) => void;
+  frame: CardFrame;
+  /** A board of wood along the foot of each tray, so that the trays read as shelves. */
+  board?: boolean;
+}
+/** Dots for a tray's number: one for the first, two for the second and so on, centred on `cx` (the middle of the tray by default). On a right to left page the dots are laid from the right. */
+export function trayDots(c: Ctx, t: Rect, g: number, rtl: boolean, cx = t.x + t.w / 2): void {
+  c.fillStyle = PAL.goldLight;
+  const across = (g + 1) * 16 - 6;
+  for (let d = 0; d <= g; d++) {
+    c.beginPath();
+    c.arc(cx - across / 2 + 5 + (rtl ? g - d : d) * 16, t.y + 17, 5, 0, Math.PI * 2);
+    c.fill();
+  }
+}
+const ANIMALS: SortSkin = {
+  trayMark: (c, t, g, rtl) => trayDots(c, t, g, rtl),
+  face: (item) => CREATURES[item] ?? (() => undefined),
+  frame: "card",
+};
+
 export function sortCanvas(): HTMLCanvasElement {
   const canvas = document.createElement("canvas");
   const scale = Math.min(2, Math.max(1, window.devicePixelRatio || 1));
@@ -318,7 +365,7 @@ export function sortCanvas(): HTMLCanvasElement {
   canvas.height = SORT_ART.h * scale;
   return canvas;
 }
-export function drawSort(canvas: HTMLCanvasElement, v: SortView): void {
+export function drawSort(canvas: HTMLCanvasElement, v: SortView, skin: SortSkin = ANIMALS): void {
   const c = canvas.getContext("2d");
   if (!c) return;
   const { w, h } = SORT_ART;
@@ -330,7 +377,7 @@ export function drawSort(canvas: HTMLCanvasElement, v: SortView): void {
   wall.addColorStop(1, PAL.night);
   c.fillStyle = wall;
   c.fillRect(0, 0, w, h);
-  // The trays: a darker mat, a gold rim, and one to five dots for the tray's number.
+  // The trays: a darker mat, a gold rim, and the mark of the tray's number (and, for the shelves of coffee, a sign).
   trayRects(v.groups, v.rtl).forEach((t, g) => {
     rounded(c, t.x, t.y, t.w, t.h, 14);
     c.fillStyle = "#0e3c46";
@@ -338,13 +385,17 @@ export function drawSort(canvas: HTMLCanvasElement, v: SortView): void {
     c.lineWidth = 3;
     c.strokeStyle = PAL.gold;
     c.stroke();
-    c.fillStyle = PAL.goldLight;
-    const across = (g + 1) * 16 - 6;
-    for (let d = 0; d <= g; d++) {
-      c.beginPath();
-      c.arc(t.x + t.w / 2 - across / 2 + 5 + (v.rtl ? g - d : d) * 16, t.y + 17, 5, 0, Math.PI * 2);
+    if (skin.board) {
+      rounded(c, t.x + 6, t.y + t.h - 14, t.w - 12, 10, 4);
+      c.fillStyle = PAL.woodDark;
       c.fill();
+      c.lineWidth = 2;
+      c.strokeStyle = PAL.gold;
+      c.stroke();
     }
+    c.save();
+    skin.trayMark(c, t, g, v.rtl);
+    c.restore();
   });
   // The band along the bottom, where cards not yet placed lie.
   const band = restBand(v.rtl);
@@ -355,5 +406,5 @@ export function drawSort(canvas: HTMLCanvasElement, v: SortView): void {
   rounded(c, band.x, band.y, band.w, band.h, 14);
   c.stroke();
   c.restore();
-  cardRects(v).forEach((r, i) => drawCard(c, r, v.items[i]!, v.selected === i ? "chosen" : v.done ? "done" : "none"));
+  cardRects(v).forEach((r, i) => drawCard(c, r, skin.face(v.items[i]!), v.selected === i ? "chosen" : v.done ? "done" : "none", skin.frame));
 }

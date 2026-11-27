@@ -7,7 +7,7 @@ _26 November 2026. Describes what is built for the golden scene and what the sam
 ```
 gaming/games/hudhud/
   index.html            the page: one stylesheet, one script, no inline style or script
-  i18n/<lang>.json      793 strings (26 November 2026, later still; 209 when this was first written), the same keys in the same order in ar, en, ur, fr, es, tr, id
+  i18n/<lang>.json      866 strings (26 November 2026, later still; 793 before the journey of coffee and 209 when this was first written), the same keys in the same order in ar, en, ur, fr, es, tr, id
   i18n-atlas/<lang>.json  the names of the ten worlds and the fifty subjects, a table of their own
   src/
     sim/                RULES. Pure, no Phaser, no DOM, no clock, no unseeded chance; run in Node
@@ -18,12 +18,14 @@ gaming/games/hudhud/
       paper.ts            the paper of Samarkand quest: its flags, over chainquest.ts
       route.ts            Ibn Battuta's thread: a stage (beads and a road), go, peek, the four goals, a saved place proved on restore; its own rules, not chainquest's
       couple.ts           al-Tusi's two circles: a small circle carried round inside a large one, the path of a point on it traced and classed by measurement (line, circle, oval, loops), the settings a way of playing offers, turn, the four goals, a saved place proved on restore; its own rules
+      sort.ts             sorting cards into groups: place, show (a showing with a card unplaced is refused and not counted), the four goals, a saved place proved on restore; generic over the cards, the groups and the answer map, used for the animal cards and the shelves of coffee
       move.ts             the bird: a fixed-step integrator with coyote time, jump buffering, glide, perches
       scene.ts            the quest's state and its only reducer: (state, command) -> (state, what happened)
     narrative/dialogue.ts typed scripts and the machine that walks them; faults() checks a script set
     content/
       atlas.v1.json       80 pictures -> 50 subjects -> 10 worlds -> quests -> museum record ids
       workshop.ts         the golden scene as data: room, puzzle, things, scripts, records
+      sort.ts, coffee.ts  the animal cards of al-Jahiz and the three shelves of coffee as data: cards, groups, the answer map, the failed showings allowed, the records linked
     save/save.ts        the save's shape and rules: three slots, migrations, quarantine, merging
     save/durable.ts     the join to the platform's vault (IndexedDB): which copy leads, saving status, export, import
     input/input.ts      keyboard, on-screen buttons and gamepad -> one Intent
@@ -32,8 +34,9 @@ gaming/games/hudhud/
     art/                PICTURES drawn by code onto canvases (a trial: see the art bible)
     scenes/workshop.ts  Phaser scene: builds the pictures, moves them from the state, measures itself
     game/boot.ts        starts and stops Phaser; sizes the canvas; counts draw calls when asked
-    ui/app.ts, .css     the page: talk, goal, settings, pause, results, the scene in words, the test hook
-    tests/*.gtest.ts    500 tests in eighteen files (26 November 2026, later still; 126 when this was first written)
+    ui/app.ts, .css     the page: talk, goal, settings, pause, results, the scene in words, the test hook; one registry of the quests played on a page, and one helper (`calm`) for the three signals of reduced motion
+    ui/sortpage.ts      the page of a sorting quest, shared by ui/sort.ts (the animal cards) and ui/coffee.ts (the shelves of coffee), each a spec: its picture, cards, strings, questions and notes
+    tests/*.gtest.ts    543 tests in nineteen files (26 November 2026, later still; 126 when this was first written)
 gaming/tools/hudhud-play.ts     plays the scene in real Chrome and records everything
 gaming/tools/hudhud-rebuild.ts  rebuilds the game repeatedly and reads memory
 ```
