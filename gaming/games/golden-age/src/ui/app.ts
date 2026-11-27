@@ -16,6 +16,7 @@ import { nearestLink, neighbour, plotAt, plotCentre, plotName, type Dir, type Li
 import { icon } from "./icons";
 import { advice, aim, calendar, eventsInView, goals, isBuilding, ledger, overlay, plotInfo, plotProblems, project, researchList, showing, signed, stocks, type Line, type Projection, type Tint, type Tool, type Vars } from "./model";
 import { Stage } from "./stage";
+import { TEXT_SIZES, applyTextSize, readTextSize, type TextSize } from "./text-size";
 
 const LANGS = ["ar", "en", "ur", "fr", "es", "tr", "id"] as const;
 type Lang = (typeof LANGS)[number];
@@ -31,6 +32,7 @@ const query = new URLSearchParams(location.search);
 // Asked to measure itself, the page counts its frames, memory and live resources from here on (kernel/counters.ts).
 const counters = query.has("counters") ? installCounters(window as never) : null;
 const lang: Lang = (LANGS as readonly string[]).includes(query.get("lang") ?? "") ? (query.get("lang") as Lang) : "en";
+applyTextSize(readTextSize(), false);
 // The chapter in hand. A saved game brings its own; `?scenario=` starts a new game in the one named.
 const today = (): string => query.get("date") ?? new Date().toISOString().slice(0, 10);
 const asked = query.get("scenario") === "daily" ? `daily-${today()}` : query.get("scenario") ?? "";
@@ -71,6 +73,20 @@ async function main(): Promise<void> {
   const strings = (await import(`../../i18n/${lang}.json`)).default as Record<string, string>;
   const fallback = en as unknown as Record<string, string>;
   const t = (key: string, vars: Vars = {}): string => (strings[key] ?? fallback[key] ?? key).replace(/\{(\w+)\}/g, (_, k: string) => String(vars[k] ?? ""));
+  /** The text-size choice, as a select; a change applies at once and is remembered on the device. */
+  const textSizeSelect = (): HTMLSelectElement => {
+    const s = document.createElement("select");
+    s.id = "text-size";
+    for (const size of Object.keys(TEXT_SIZES) as TextSize[]) {
+      const o = document.createElement("option");
+      o.value = size;
+      o.textContent = t(`text_size_${size}`);
+      o.selected = size === readTextSize();
+      s.append(o);
+    }
+    s.addEventListener("change", () => applyTextSize(s.value as TextSize));
+    return s;
+  };
   const num = (n: number) => new Intl.NumberFormat(NUM_LOCALE[lang], { maximumFractionDigits: 0 }).format(n);
   const line = (l: Line): string => {
     const vars: Vars = { ...(l.vars ?? {}) };
@@ -648,7 +664,7 @@ async function main(): Promise<void> {
         el("ol", { class: "help" }, ...[1, 2, 3, 4, 5, 6].map((i) => el("li", { textContent: t(`help_${i}`) }))),
         el("p", { class: "muted", textContent: t("help_controls") }),
         el("p", { class: "muted", textContent: `${t("help_7")} ${t("museum_note")}` }),
-        el("div", { class: "settings" }, el("label", {}, t("language"), " ", langSelect), el("label", {}, t("graphics"), " ", qualitySelect)),
+        el("div", { class: "settings" }, el("label", {}, t("language"), " ", langSelect), el("label", {}, t("graphics"), " ", qualitySelect), el("label", {}, t("text_size"), " ", textSizeSelect())),
         el(
           "div",
           { class: "settings" },
