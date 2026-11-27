@@ -14,6 +14,8 @@ open a new block on top with the new version and today's date.
 ---
 
 ## v2.32.0 — 2026-11-26
+### Performance
+- **The Golden Age draws its district in far fewer calls to the graphics card (games workshop).** The still geometry of the plots — houses, walls, lanes, canals — was drawn as a mesh a plot, and every mesh was drawn again for the shadow, the depth pass and the picture, so a full district cost about nine hundred draw calls on High. Now the whole district's still geometry is one mesh a material, re-concatenated a little at a time when a plot changes, and the canal's water sheets are instances of one mesh. Measured on the same scripted twenty-season campaign and the same views: 881 draw calls before, 89 after, the triangles unchanged. A new building stands within a few ordinary frames.
 ### Tests
 - **The four daily games were checked on games.islam.museum after their release, in all seven languages on a phone-sized and a desktop screen (56 runs, no problem), and the games' check tool now waits for a page in a way the host's security policy allows.** These are machine checks of prototypes, not a human review.
 ### Added
