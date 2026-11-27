@@ -279,7 +279,10 @@ def hip_roof(frame, w, d, eave, x=0.0, y=0.0, overhang=0.45, pitch=math.radians(
     f = frame.sub((x, y, 0), 0.0 if along_x else math.pi / 2)
     long_o, short_o = long + 2 * overhang, short + 2 * overhang
     for turn, off in ((0.0, (0, -short / 2 - overhang)), (math.pi, (0, short / 2 + overhang))):
-        f.sub((off[0], off[1], eave - drop), turn).slab([(-long_o / 2, 0), (long_o / 2, 0), (ridge / 2, run), (-ridge / 2, run)], 0.13, rot=(pitch, 0, 0), material=material)
+        # A square roof has no ridge: its long slopes are triangles to the roof's point, not four-sided strips whose
+        # two ridge ends sit in the same place.
+        slope = [(-long_o / 2, 0), (long_o / 2, 0), (ridge / 2, run), (-ridge / 2, run)] if ridge > 1e-6 else [(-long_o / 2, 0), (long_o / 2, 0), (0, run)]
+        f.sub((off[0], off[1], eave - drop), turn).slab(slope, 0.13, rot=(pitch, 0, 0), material=material)
     for turn, off in ((math.pi / 2, (long / 2 + overhang, 0)), (-math.pi / 2, (-long / 2 - overhang, 0))):
         f.sub((off[0], off[1], eave - drop), turn).slab([(-short_o / 2, 0), (short_o / 2, 0), (0, run)], 0.13, rot=(pitch, 0, 0), material=material)
     if ridge > 0.3:
