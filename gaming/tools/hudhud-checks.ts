@@ -2567,7 +2567,7 @@ for (const lang of ["en", "ar"]) {
   {
     const ctx = await browser.newContext({ viewport: { width: 1280, height: 900 } });
     const page = await open(ctx, "");
-    const hubBefore = await ev<{ primary: string; journey: string; journeyIsPrimary: boolean; beforeWorlds: boolean }>(page, "({ primary: document.querySelector('.hub button.primary').textContent, journey: document.querySelector('.hub button.journey-btn').textContent, journeyIsPrimary: document.querySelector('.hub button.journey-btn').classList.contains('primary'), beforeWorlds: !!document.querySelector('.hub .journey + .worlds') })");
+    const hubBefore = await ev<{ primary: string; journey: string; journeyIsPrimary: boolean; beforeWorlds: boolean }>(page, "({ primary: document.querySelector('.hub button.primary').textContent, journey: document.querySelector('.hub button.journey-btn').textContent, journeyIsPrimary: document.querySelector('.hub button.journey-btn').classList.contains('primary'), beforeWorlds: (() => { const j = document.querySelector('.hub .journey'); const w = document.querySelector('.hub .worlds'); const b = document.querySelector('.hub canvas'); return !!j && !!w && !!(j.compareDocumentPosition(w) & 4) && (!b || !!(j.compareDocumentPosition(b) & 4)) && j.previousElementSibling === document.querySelector('.hub .progress'); })() })");
     await playing(page);
     await ev(page, finishWorkshop);
     await page.waitForTimeout(1200);

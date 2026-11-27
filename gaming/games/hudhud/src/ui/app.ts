@@ -1311,11 +1311,12 @@ async function main(): Promise<void> {
     hub.replaceChildren(
       el("h2", { textContent: t("hub_title"), tabIndex: -1 }),
       el("p", { class: "progress", textContent: t("hub_progress", { n: num(home), total: num(atlas.subjects.length) }) }),
+      // The journey comes first, where a player sees it without scrolling: the book and the worlds are for choosing freely.
+      journeyBox,
       bookFigure,
       choose,
       el("p", { class: "small", textContent: t("cover_more") }),
       el("p", { class: "small", textContent: t("start_hint") }),
-      journeyBox,
       el("div", { class: "worlds" }, ...worlds),
       el("p", { class: "small", textContent: t("hub_note") }),
       el("p", { class: "again" }, again),
