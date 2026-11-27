@@ -32,6 +32,11 @@ ASSETS = [
     {"id": "granada/animals/horse", "game": "granada", "title": "A horse with a saddle cloth, body and four legs at their joints", "script": "blender/granada_animals.py", "folder": "granada/animals", "entry": "horse.gltf"},
     {"id": "granada/animals/ox", "game": "granada", "title": "An ox in its cart's frame, body and four legs at their joints", "script": "blender/granada_animals.py", "folder": "granada/animals", "entry": "ox.gltf"},
     {"id": "granada/animals/donkey", "game": "granada", "title": "A donkey, body and four legs at their joints", "script": "blender/granada_animals.py", "folder": "granada/animals", "entry": "donkey.gltf"},
+    {"id": "golden-age/market", "game": "golden-age", "title": "A row of shops behind an arcade, awnings out", "script": "blender/golden_age_buildings.py", "folder": "golden-age", "entry": "market.gltf"},
+    {"id": "golden-age/bath", "game": "golden-age", "title": "The hot room of a bath: a square hall under one broad dome with four small ones", "script": "blender/golden_age_buildings.py", "folder": "golden-age", "entry": "bath.gltf"},
+    {"id": "golden-age/library", "game": "golden-age", "title": "A library's great hall: a tiled portal and a turquoise dome", "script": "blender/golden_age_buildings.py", "folder": "golden-age", "entry": "library.gltf"},
+    {"id": "golden-age/school", "game": "golden-age", "title": "A school's teaching hall: an arcade of five bays and a plaster dome", "script": "blender/golden_age_buildings.py", "folder": "golden-age", "entry": "school.gltf"},
+    {"id": "golden-age/hospital", "game": "golden-age", "title": "A hospital's main ward: two storeys behind an arcade", "script": "blender/golden_age_buildings.py", "folder": "golden-age", "entry": "hospital.gltf"},
 ]
 SOURCES = HERE / "sources.json"
 
