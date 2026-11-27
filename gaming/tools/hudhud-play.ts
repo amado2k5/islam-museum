@@ -174,8 +174,8 @@ try {
   report.goals = await hk("return h.goals();");
   report.save = await page.evaluate("JSON.parse(localStorage.getItem('im.hudhud.save.v1') || 'null')");
 
-  // Leaving and coming back: the scene is started again ten times; what it holds must not grow.
-  await page.locator(".sheet button.primary").click();
+  // Leaving and coming back: the scene is started again ten times; what it holds must not grow. Since the journey
+  // (27 November 2026) the end is a panel beside the stage, not a sheet, so there is nothing to close first.
   const cycle = async () => ({ ...(await hk<Record<string, unknown>>("const i = h.info(); return { textures: i.textures, textureBytes: i.textureBytes, objects: i.objects, tweens: i.tweens };")), heapBytes: await heap() });
   await hk("h.restart(false);");
   await page.waitForTimeout(800);

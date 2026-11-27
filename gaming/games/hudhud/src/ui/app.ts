@@ -42,12 +42,14 @@ import { COLLATE_QUEST, COLLATE_SUBJECT, collatePuzzle } from "../content/collat
 import { restoreCollate } from "../sim/collate";
 import { collateQuest, type CollateQuest } from "./collate";
 import { prologueScreen } from "./prologue";
-import { JAR, RECORDS, SCRIPTS, THINGS, TURN_SLACK, inPlay, type PlayStyle, type Speaker } from "../content/workshop";
+import { corridorStrip, type CorridorStrip } from "./corridor";
+import { BUILT, JOURNEY, WORKSHOP_QUEST, subjectOf } from "../content/journey";
+import { DOOR, JAR, RECORDS, SCRIPTS, THINGS, TURN_SLACK, inPlay, type PlayStyle, type Speaker } from "../content/workshop";
 import { start, type Running } from "../game/boot";
 import { Input } from "../input/input";
 import { DEFAULT_PAD, PAD_ACTIONS, assignPad, type PadAction } from "../input/pad";
 import { choicesOf, lineOf } from "../narrative/dialogue";
-import { ACTIONS, DEFAULT_KEYS, SAVE_KEY, assignKey, current, load, markPrologueSeen, recordQuest, store, type Action, type Quality, type SaveFile, type Settings } from "../save/save";
+import { ACTIONS, DEFAULT_KEYS, SAVE_KEY, assignKey, current, load, markPrologueSeen, recordQuest, store, type Action, type Journey, type Quality, type SaveFile, type Settings } from "../save/save";
 import { askToPersist, openStore, saveChannel } from "@im/platform/save/idb";
 import { openDurable, type Durable, type SaveStatus } from "../save/durable";
 import { apply, beam, goals, newScene, restore, snapshot, type Command, type Happened, type SceneState } from "../sim/scene";
@@ -61,7 +63,7 @@ const LANGS = ["ar", "en", "ur", "fr", "es", "tr", "id"] as const;
 type Lang = (typeof LANGS)[number];
 const RTL: readonly string[] = ["ar", "ur"];
 const MUSEUM = "https://islam.museum";
-const QUEST = "w03q1-ibn-al-haytham";
+const QUEST = WORKSHOP_QUEST;
 
 const query = new URLSearchParams(location.search);
 const lang: Lang = (LANGS as readonly string[]).includes(query.get("lang") ?? "") ? (query.get("lang") as Lang) : "en";
@@ -181,6 +183,10 @@ async function main(): Promise<void> {
   const stage = el("div", { class: "stage", id: "stage", tabIndex: 0 }, canvasBox, captions, prompt, pad);
   // The goal and the talk sit over the picture on a wide screen and beside it on a narrow one (ui/hudhud.css).
   const stageWrap = el("div", { class: "stage-wrap", hidden: true }, objective, stage, talkBox);
+  // Once the flying quest is done: its goals and the museum's note, beside the stage and not over it, so that the bird
+  // stays free to walk to the lit door (the journey, content/journey.ts).
+  const doorPanel = el("section", { class: "door-panel", hidden: true });
+  doorPanel.setAttribute("aria-labelledby", "door-panel-title");
   const hub = el("section", { class: "hub" });
   // The second to seventh quests are played on a page of their own, beside the Atlas and the flying scene. One of them
   // is open at a time: `pageRun` is the one that is (see PAGE_QUESTS).
@@ -221,7 +227,7 @@ async function main(): Promise<void> {
     blocked: () => sheetOpen(),
     leave: () => leaveOpening(true),
   });
-  const main = el("main", { id: "play", tabIndex: -1 }, prologue.node, hub, bench, stageWrap);
+  const main = el("main", { id: "play", tabIndex: -1 }, prologue.node, hub, bench, stageWrap, doorPanel);
   app.append(bar, main, wordsBox, live, sheets);
 
   let toastTimer = 0;
@@ -362,7 +368,8 @@ async function main(): Promise<void> {
   let pauseNode: HTMLElement | null = null;
   let portraits: Record<string, string> = {};
   const log: { who: Speaker; key: string }[] = [];
-  const frozen = () => !started || paused || sheetOpen() || state.talk !== null || state.done;
+  // A finished quest no longer holds the world still: the bird walks on to the lit door.
+  const frozen = () => !started || paused || sheetOpen() || state.talk !== null;
   const input = new Input({ press: (p) => press(p), pad: (on) => (toast(t(on ? "pad_on" : "pad_off")), !on && setPaused(true)) });
   input.bindHold(bLeft, "left");
   input.bindHold(bRight, "right");
@@ -375,9 +382,11 @@ async function main(): Promise<void> {
     touch: (id) => run({ type: "touch", id }),
     near: (id) => {
       const thing = THINGS.find((k) => k.id === id);
-      prompt.hidden = !thing;
-      if (thing) prompt.textContent = t("touch_prompt", { thing: t(thing.name as Key) });
+      prompt.hidden = !thing && id !== "door";
+      if (id === "door") prompt.textContent = t("jn_go_door");
+      else if (thing) prompt.textContent = t("touch_prompt", { thing: t(thing.name as Key) });
     },
+    through: () => moveOn(),
     sound,
     speaking: () => (state.talk ? { who: lineOf(SCRIPTS, state.talk).who, mood: lineOf(SCRIPTS, state.talk).mood } : null),
     look: () => ({ quality: quality(), reducedMotion: calm(), style: style(), keeper: slot().keeper }),
@@ -488,7 +497,7 @@ async function main(): Promise<void> {
   function render(): void {
     renderTalk();
     const g = goals(state);
-    objective.replaceChildren(t(state.restored ? "objective_done" : "objective_light"), el("small", { textContent: t("turns", { n: num(state.turns) }) }));
+    objective.replaceChildren(t(state.done ? "jn_objective_door" : state.restored ? "objective_done" : "objective_light"), el("small", { textContent: t("turns", { n: num(state.turns) }) }));
     if (style() === "story" && !state.restored) objective.append(el("small", { textContent: t("hint_story") }));
     pad.hidden = state.talk !== null || !started;
     stageWrap.classList.toggle("talking", state.talk !== null);
@@ -501,7 +510,9 @@ async function main(): Promise<void> {
     const end: Record<string, Key> = { target: "beam_end_target", block: stopped, wall: "beam_end_wall", loop: "beam_end_loop" };
     // Challenge is told only where the beam ends: which mirrors it met on the way is what the player works out.
     beamWords.textContent = style() === "challenge" ? t(end[tr.end]!) : `${names.length ? t("beam_path", { list: names.join(lang === "ar" || lang === "ur" ? "، " : ", ") }) : t("beam_none")} ${t(end[tr.end]!)}`;
-    thingList.replaceChildren(
+    // Once the quest is done, the list holds one thing: the door.
+    if (state.done) thingList.replaceChildren(el("li", {}, el("button", { type: "button", textContent: t("jn_go_door"), onclick: () => moveOn() })));
+    else thingList.replaceChildren(
       ...THINGS.filter((k) => inPlay(k, state.puzzle) && !(k.kind === "feather" && g.feather)).map((k) => {
         const mirror = k.kind === "mirror" ? state.puzzle.mirrors.find((m) => `mirror-${m.id}` === k.id)! : null;
         const name = t(k.name as Key);
@@ -646,7 +657,7 @@ async function main(): Promise<void> {
         const i = Number(v);
         // A slot never used starts with this one's settings and explorer, and nothing done. Changing slot changes
         // no quest: each slot's place in its quest is left exactly as it was and is taken up again.
-        save = { ...save, slot: i, slots: save.slots.map((x, j) => (j === i && !x ? { ...structuredClone(save.slots[save.slot]!), quests: {}, resume: null, prologue: undefined } : x)) };
+        save = { ...save, slot: i, slots: save.slots.map((x, j) => (j === i && !x ? { ...structuredClone(save.slots[save.slot]!), quests: {}, resume: null, prologue: undefined, journey: undefined } : x)) };
         keep();
         applyLook();
         fromSlot();
@@ -752,12 +763,18 @@ async function main(): Promise<void> {
     const g = goals(state);
     const mine = slot().resume?.quest === QUEST;
     save = { ...save, slots: save.slots.map((s, i) => (i === save.slot && s ? { ...recordQuest(s, QUEST, g), resume: mine ? null : s.resume } : s)) };
+    journeyDone(QUEST);
     keep(mine);
+    // No sheet over the picture: the goals and the note sit beside it, the door lights, and the bird is free to go.
     const slack = TURN_SLACK[state.style];
     const goal = (mark: string, name: Key, how: string, met: boolean) => el("li", {}, el("span", { class: "mark", textContent: mark }), el("span", {}, el("strong", { textContent: t(name) }), el("br", {}), el("span", { class: "small", textContent: how })), el("span", { class: met ? "met" : "open", textContent: t(met ? "goal_met" : "goal_open") }));
     const names: Key[] = ["rec_person", "rec_darkroom", "rec_book"];
-    const node = sheet(
-      t("results_title"),
+    const said = `${t("who_hudhud")}: ${t("jn_door_lit")}`;
+    doorPanel.replaceChildren(
+      el("h2", { id: "door-panel-title", textContent: t("jn_panel_title"), tabIndex: -1 }),
+      el("p", { class: "door-line" }, el("strong", { textContent: `${t("who_hudhud")}: ` }), t("jn_door_lit")),
+      el("p", { class: "row" }, el("button", { type: "button", class: "door-go", textContent: t("jn_go_door"), onclick: () => moveOn() }), el("button", { type: "button", textContent: t("play_again"), onclick: () => restart(false) }), el("button", { type: "button", textContent: t("btn_atlas"), onclick: () => toAtlas() })),
+      el("h3", { textContent: t("results_title") }),
       el("p", { textContent: t("turns", { n: num(g.turns) }) }),
       el(
         "ul",
@@ -778,8 +795,9 @@ async function main(): Promise<void> {
         el("p", { class: "pending", textContent: t("review_note") }),
         ...RECORDS.map((id, i) => el("p", {}, el("a", { href: `${MUSEUM}/${lang}/${id}/`, textContent: t("note_link", { name: t(names[i]!) }) }))),
       ),
-      el("p", { class: "row" }, el("button", { type: "button", textContent: t("btn_atlas"), onclick: () => ((node as unknown as { close: () => void }).close(), toAtlas()) }), el("button", { type: "button", textContent: t("play_again"), onclick: () => ((node as unknown as { close: () => void }).close(), restart(false)) })),
     );
+    doorPanel.hidden = false;
+    live.textContent = said;
   }
 
   // ---------------------------------------------------------------------------------------- starting, pausing
@@ -792,6 +810,8 @@ async function main(): Promise<void> {
     input.setPad(s.pad);
   }
   function restart(rebuild: boolean): void {
+    doorPanel.hidden = true;
+    doorPanel.replaceChildren();
     state = newScene(style());
     resumed = false;
     checkpoint(true);
@@ -859,8 +879,10 @@ async function main(): Promise<void> {
   // The first thing a player sees: who they are, and the Atlas itself, ten worlds of five pages. Twelve quests can be
   // played; the others are named and said to be not built. Nothing here is a claim about history: the names are
   // the subjects' names and the grouping is a structure for play.
-  const BUILT: Record<string, string> = { "ibn-al-haytham": QUEST, "al-jazari": CLOCK_QUEST, "al-kindi": CIPHER_QUEST, "al-khwarizmi": ALGEBRA_QUEST, "al-idrisi": SHEETS_QUEST, [SORT_SUBJECT]: SORT_QUEST, [PAPER_SUBJECT]: PAPER_QUEST, [ROUTE_SUBJECT]: ROUTE_QUEST, [COUPLE_SUBJECT]: COUPLE_QUEST, [COFFEE_SUBJECT]: COFFEE_QUEST, [CHANNELS_SUBJECT]: CHANNELS_QUEST, [LEAVES_SUBJECT]: LEAVES_QUEST, [COLLATE_SUBJECT]: COLLATE_QUEST };
-  function startQuest(): void {
+  // Which quests are built, by subject, is content/journey.ts's BUILT.
+  /** Opens the flying scene. `journeyAt` is the scene's place in the journey, or null for free play from the Atlas. */
+  function startQuest(journeyAt: number | null = null): void {
+    inJourney = journeyAt;
     cues.unlock();
     // Asked once, after a press as browsers require; the answer is shown in the settings and never asked again.
     if (persistence === "unasked" && query.get("fresh") !== "1") {
@@ -897,6 +919,7 @@ async function main(): Promise<void> {
   const pageFinish = (quest: string, g: { turns: number; curiosity: boolean; ingenuity: boolean; kindness: boolean; feather: boolean }) => {
     const mine = slot().resume?.quest === quest;
     save = { ...save, slots: save.slots.map((s, i) => (i === save.slot && s ? { ...recordQuest(s, quest, g), resume: mine ? null : s.resume } : s)) };
+    journeyDone(quest);
     keep(mine);
   };
   /** Shows a quest's page in place of the Atlas. The note and the controls under the page are the flying scene's; each quest carries its own note, and nothing here can be paused. */
@@ -988,8 +1011,14 @@ async function main(): Promise<void> {
       make: (c, title, kept) => collateQuest({ ...c, title, resume: kept as Parameters<typeof collateQuest>[0]["resume"] }),
     },
   };
-  /** Opens a quest played on a page, with no flying scene. One left in the middle comes back. */
-  function openPage(quest: string): void {
+  /** Opens a quest played on a page, with no flying scene. One left in the middle comes back. `journeyAt` is its place in
+   * the journey, or null for free play from the Atlas. */
+  function openPage(quest: string, journeyAt: number | null = null): void {
+    inJourney = journeyAt;
+    // Never two scenes at once: a corridor or a page still running is stopped first.
+    corridor?.stop();
+    corridor = null;
+    pageRun?.run.stop();
     const page = PAGE_QUESTS[quest]!;
     const kept = page.saved();
     cues.unlock();
@@ -1004,48 +1033,175 @@ async function main(): Promise<void> {
       keepPlace: (snap) => pageCheckpoint(quest, snap),
       tick: () => cues.play("line"),
       chime: () => cues.play("restored"),
-      finish: (g) => pageFinish(quest, g),
+      // Finished: written into the save, and then, once the page has shown its results, the corridor to the door.
+      finish: (g) => (pageFinish(quest, g), queueMicrotask(() => showCorridor(quest))),
       leave: () => toAtlas(),
     };
     pageRun = { quest, run: page.make(common, subjectName(page.subject), kept) };
     showBench(pageRun.run.node);
   }
-  /** Leaves the quest for the Atlas. A quest in the middle stays saved; a finished one is cleared for another play. */
-  function toAtlas(): void {
-    const onPage = pageRun?.quest ?? null;
-    if (onPage) {
-      pageRun?.run.stop();
+  /** Closes whatever scene is open (the flying scene or a quest's page) and stops everything it runs: the picture, a
+   * page's animation, the corridor. Nothing is shown in its place: the caller opens the next thing. */
+  function closeScene(): void {
+    corridor?.stop();
+    corridor = null;
+    if (pageRun) {
+      pageRun.run.stop();
       pageRun = null;
       bench.replaceChildren();
       bench.hidden = true;
       wordsBox.hidden = false;
       pauseBtn.hidden = false;
-      atlasBtn.hidden = true;
-      hub.hidden = false;
-      drawHub();
+    } else {
+      setPaused(false);
+      sheets.replaceChildren();
+      pauseNode = null;
+      running?.stop();
+      running = null;
+      canvasBox.replaceChildren();
+      started = false;
+      if (state.done) state = newScene(style());
+      resumed = slot().resume?.quest === QUEST;
+      stageWrap.hidden = true;
+      words.hidden = true;
+      doorPanel.hidden = true;
+      doorPanel.replaceChildren();
+      prompt.hidden = true;
+      render();
+    }
+    atlasBtn.hidden = true;
+  }
+  /** Leaves the quest for the Atlas. A quest in the middle stays saved; a finished one is cleared for another play. */
+  function toAtlas(): void {
+    const onPage = pageRun !== null;
+    closeScene();
+    inJourney = null;
+    hub.hidden = false;
+    drawHub();
+    if (onPage) {
       // Back on the Atlas, its heading is brought to the top, at once, and holds the focus.
       const top = hub.querySelector("h2") as HTMLElement | null;
       top?.scrollIntoView({ behavior: "auto", block: "start" });
       top?.focus({ preventScroll: true });
       return;
     }
-    setPaused(false);
-    sheets.replaceChildren();
-    pauseNode = null;
-    running?.stop();
-    running = null;
-    canvasBox.replaceChildren();
-    started = false;
-    if (state.done) state = newScene(style());
-    resumed = slot().resume?.quest === QUEST;
-    stageWrap.hidden = true;
-    words.hidden = true;
-    atlasBtn.hidden = true;
-    hub.hidden = false;
-    drawHub();
-    render();
     (hub.querySelector("button.primary") as HTMLElement | null)?.focus({ preventScroll: true });
   }
+
+  // ---------------------------------------------------------------------------------------- the journey
+  // The built quests played one after another (content/journey.ts). The slot keeps where the journey has got to; the
+  // scene open now was opened by the journey if `inJourney` is its place in the order, and in free play if it is null.
+  let inJourney: number | null = null;
+  let corridor: CorridorStrip | null = null;
+  let movingOn = false;
+  let lastDoor: ReturnType<typeof doorNow> = null;
+  const setJourney = (j: Journey) => (save = { ...save, slots: save.slots.map((x, i) => (i === save.slot && x ? { ...x, journey: j } : x)) });
+  /** The name a quest is shown by: its subject's name on the Atlas. */
+  const questName = (quest: string): string => subjectName(subjectOf(quest) ?? quest);
+  const hudhudSays = (text: string) => `${t("who_hudhud")}: ${text}`;
+  /** A quest just finished in the journey: the journey is moved past it, so that leaving now or loading the page again
+   * goes on with the next scene and does not ask for this one again. The caller saves. */
+  function journeyDone(quest: string): void {
+    if (inJourney === null || JOURNEY[inJourney] !== quest) return;
+    const j = slot().journey;
+    setJourney({ ...(j ?? { at: 0 }), at: Math.max(j?.at ?? 0, inJourney + 1) });
+  }
+  /** Opens the journey's scene at `i`. */
+  function openScene(i: number): void {
+    const quest = JOURNEY[i]!;
+    if (quest === QUEST) startQuest(i);
+    else openPage(quest, i);
+  }
+  /** Begins the journey, goes on with it, or begins it again once it has come to its end. */
+  function beginJourney(): void {
+    cues.unlock();
+    const j = slot().journey;
+    if (!j) setJourney({ at: 0 });
+    else if (j.at >= JOURNEY.length) setJourney({ at: 0, round: (j.round ?? 0) + 1 });
+    keep();
+    closeScene();
+    openScene(Math.min(slot().journey!.at, JOURNEY.length - 1));
+  }
+  /**
+   * Through the door: in a journey, on to the next scene in the order (or, after the last, back to the Atlas); in free
+   * play, back to the Atlas. One scene runs at a time: the one being left is closed, with everything it runs, first.
+   */
+  function moveOn(): void {
+    if (movingOn) return;
+    // What the door and the bird were when the scene was left, for the browser checks (the hook's lastDoor).
+    lastDoor = doorNow();
+    const at = inJourney;
+    if (at === null) return toAtlas();
+    movingOn = true;
+    try {
+      const next = at + 1;
+      const j = slot().journey;
+      setJourney({ ...(j ?? { at: 0 }), at: Math.max(j?.at ?? 0, next) });
+      keep();
+      closeScene();
+      if (next >= JOURNEY.length) {
+        inJourney = null;
+        hub.hidden = false;
+        drawHub();
+        const top = hub.querySelector("h2") as HTMLElement | null;
+        top?.scrollIntoView({ behavior: "auto", block: "start" });
+        top?.focus({ preventScroll: true });
+        toast(hudhudSays(t("jn_end")));
+        return;
+      }
+      openScene(next);
+      toast(hudhudSays(t("jn_next", { name: questName(JOURNEY[next]!) })));
+    } finally {
+      movingOn = false;
+    }
+  }
+  /** The world a quest belongs to, by its order on the Atlas (1 to 10). */
+  const worldOf = (quest: string): number => {
+    const sub = atlas.subjects.find((x) => x.id === subjectOf(quest));
+    return atlas.worlds.find((w) => w.id === sub?.world)?.order ?? 3;
+  };
+  /** A quest on a page is solved: above its results, the corridor with Hudhud and the lit door. */
+  function showCorridor(quest: string): void {
+    const run = pageRun;
+    if (!run || run.quest !== quest) return;
+    if (corridor) {
+      corridor.stop();
+      corridor.node.remove();
+    }
+    const strip = corridorStrip({ t, rtl: RTL.includes(lang), world: worldOf(quest), reducedMotion: calm, intent: () => input.intent(), bindHold: (b, what) => input.bindHold(b, what), through: () => moveOn() });
+    const results = run.run.node.querySelector<HTMLElement>("section.results");
+    if (results) results.before(strip.node);
+    else run.run.node.append(strip.node);
+    corridor = strip;
+    // The quest begun again on its page ("Play again") hides its results: the corridor goes with them.
+    if (results) {
+      const watch = new MutationObserver(() => {
+        if (!results.hidden) return;
+        watch.disconnect();
+        if (corridor !== strip) return;
+        strip.stop();
+        strip.node.remove();
+        corridor = null;
+      });
+      watch.observe(results, { attributes: true, attributeFilter: ["hidden"] });
+    }
+    // In a journey the keyboard goes to the corridor at once. In free play the page's results heading keeps the focus,
+    // as it always has; the walking keys move the bird from there as well, and the strip is the next stop for Tab.
+    if (inJourney !== null) strip.focus();
+  }
+  /** The door of whichever scene is open: lit or not, where it stands, and where the bird is. */
+  const doorNow = (): { lit: boolean; where: { x: number; y: number; reach: number } | null; bird: { x: number; y: number } | null; scene: "workshop" | "corridor" | "page" } | null => {
+    if (started) {
+      const w = running?.scene()?.where() ?? null;
+      return { lit: state.done, where: { ...DOOR }, bird: w ? { x: w.x, y: w.y } : null, scene: "workshop" };
+    }
+    if (corridor) {
+      const c = corridor.state();
+      return { lit: true, where: corridor.door(), bird: { x: c.x, y: c.y }, scene: "corridor" };
+    }
+    if (pageRun) return { lit: false, where: null, bird: null, scene: "page" };
+    return null;
+  };
   // The player chooses who they are: a girl or a boy, a young explorer of the museum.
   const choose = el("fieldset", { class: "choose" }, el("legend", { textContent: t("cover_choose") }));
   const explorerButtons: HTMLButtonElement[] = [];
@@ -1124,7 +1280,7 @@ async function main(): Promise<void> {
           if (page) {
             // One button on the Atlas is the main one (the flying scene); the quests played on a page have an ordinary button.
             const kept = page.saved();
-            const b = el("button", { type: "button", textContent: t(kept ? "quest_continue" : rec?.done ? "quest_again" : "quest_play", { name }), onclick: () => openPage(quest) });
+            const b = el("button", { type: "button", textContent: t(kept ? "quest_continue" : rec?.done ? "quest_again" : "quest_play", { name }), onclick: () => openPage(quest, null) });
             b.dataset.quest = quest;
             const item = el("li", { class: "open" }, b, el("small", { textContent: t(page.trial) }));
             if (rec?.done) item.append(el("small", { textContent: t("quest_home", { n: num([rec.curiosity, rec.ingenuity, rec.kindness, rec.feather].filter(Boolean).length) }) }));
@@ -1132,7 +1288,7 @@ async function main(): Promise<void> {
             return item;
           }
           const label: Key = resumed ? "quest_continue" : rec?.done ? "quest_again" : "quest_play";
-          const li = el("li", { class: "open" }, el("button", { type: "button", class: "primary", textContent: t(label, { name }), onclick: () => startQuest() }), story);
+          const li = el("li", { class: "open" }, el("button", { type: "button", class: "primary", textContent: t(label, { name }), onclick: () => startQuest(null) }), story);
           if (rec?.done) li.append(el("small", { textContent: t("quest_home", { n: num([rec.curiosity, rec.ingenuity, rec.kindness, rec.feather].filter(Boolean).length) }) }));
           if (resumed) li.append(el("small", { textContent: t("resume_note") }), el("button", { type: "button", textContent: t("btn_restart"), onclick: () => (restart(false), drawHub()) }));
           return li;
@@ -1145,9 +1301,18 @@ async function main(): Promise<void> {
     const picture = pictureData();
     book.setAttribute("aria-label", t("hub_book_alt", { n: num(home), total: num(atlas.subjects.length) }));
     drawAtlasBook(book, { ...picture, rtl: RTL.includes(lang) });
+    // The journey: one button that begins it, goes on with it (naming the next figure as the Atlas names them), or
+    // begins it again once every scene built so far is done. It is not the Atlas's main button (that is the flying scene's).
+    const j = slot().journey;
+    const ended = j !== undefined && j.at >= JOURNEY.length;
+    const journeyBtn = el("button", { type: "button", class: "journey-btn", textContent: !j ? t("jn_begin") : ended ? t("jn_again") : t("jn_continue", { name: questName(JOURNEY[j.at]!) }), onclick: () => beginJourney() });
+    journeyBtn.dataset.journey = !j ? "begin" : ended ? "again" : "continue";
+    const journeyBox = el("div", { class: "journey" }, journeyBtn, el("p", { class: "small", textContent: t("jn_hub_note") }));
     hub.replaceChildren(
       el("h2", { textContent: t("hub_title"), tabIndex: -1 }),
       el("p", { class: "progress", textContent: t("hub_progress", { n: num(home), total: num(atlas.subjects.length) }) }),
+      // The journey comes first, where a player sees it without scrolling: the book and the worlds are for choosing freely.
+      journeyBox,
       bookFigure,
       choose,
       el("p", { class: "small", textContent: t("cover_more") }),
@@ -1202,6 +1367,16 @@ async function main(): Promise<void> {
     saveReady: () => ready.then(() => durable?.settled()).then(() => saveStatus),
     persistence: () => persistence,
     toAtlas: () => toAtlas(),
+    journey: () => ({ active: inJourney !== null, at: slot().journey?.at ?? null, scene: inJourney, order: [...JOURNEY], next: slot().journey ? (JOURNEY[slot().journey!.at] ?? null) : JOURNEY[0] }),
+    beginJourney: () => beginJourney(),
+    door: () => doorNow(),
+    lastDoor: () => lastDoor,
+    goThroughDoor: () => {
+      const d = doorNow();
+      if (!d?.lit) return false;
+      moveOn();
+      return true;
+    },
     atlasPicture: () => pictureData(),
     startClock: () => openPage(CLOCK_QUEST),
     clock: () => { const r = pageOf<ClockQuest>(CLOCK_QUEST); return r ? { ...r.state(), busy: r.busy() } : null; },

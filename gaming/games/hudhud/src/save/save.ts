@@ -66,6 +66,14 @@ export interface Slot {
   /** True once the opening story (the prologue) has been read or skipped in this slot. Absent means not seen: a save
    * made before the prologue existed has no such field, and stays valid. Only `true` is ever written. */
   prologue?: boolean;
+  /** The journey through the built quests (content/journey.ts): `at` is the index of the scene to play next, or the
+   * order's length once every scene is done; `round` counts the times it was begun again after an end (absent is 0).
+   * Absent means no journey begun: a save made before the journey existed stays valid. Added 27 November 2026. */
+  journey?: Journey;
+}
+export interface Journey {
+  at: number;
+  round?: number;
 }
 export interface SaveFile {
   v: number;
@@ -93,6 +101,24 @@ function readPadMap(x: unknown): PadMap {
     out[a] = v;
   }
   return new Set(Object.values(out)).size === PAD_ACTIONS.length ? out : { ...DEFAULT_PAD };
+}
+
+/** A journey as kept, or undefined when there is none or what is kept is not one (a wrong type means "no journey"). */
+export function readJourney(x: unknown): Journey | undefined {
+  if (!isObj(x)) return undefined;
+  const whole = (v: unknown) => typeof v === "number" && Number.isInteger(v) && v >= 0 && v <= 999;
+  if (!whole(x.at)) return undefined;
+  if (x.round !== undefined && !whole(x.round)) return undefined;
+  return { at: x.at as number, ...(x.round ? { round: x.round as number } : {}) };
+}
+/** The further of two journeys: the later round, then the further scene. Neither one can take a player back. */
+export function furtherJourney(a: Journey | undefined, b: Journey | undefined): Journey | undefined {
+  if (!a) return b;
+  if (!b) return a;
+  const ra = a.round ?? 0;
+  const rb = b.round ?? 0;
+  if (ra !== rb) return ra > rb ? a : b;
+  return a.at >= b.at ? a : b;
 }
 
 function readSlot(x: unknown): Slot | null {
@@ -133,6 +159,7 @@ function readSlot(x: unknown): Slot | null {
     quests,
     resume: r,
     ...(x.prologue === true ? { prologue: true } : {}),
+    ...(readJourney(x.journey) ? { journey: readJourney(x.journey)! } : {}),
   };
 }
 
@@ -202,7 +229,10 @@ export function mergeSaves(mine: SaveFile, stored: SaveFile, ownsResume = false)
       }
       // The opening is seen if it was seen in either: one tab can never make a player read it again.
       const seen = slot.prologue === true || other.prologue === true;
-      return { ...merged, ...(seen ? { prologue: true } : {}), resume: ownsResume && i === mine.slot ? slot.resume : other.resume };
+      // The journey is the further of the two: a tab that was left behind never takes the player back.
+      const { journey: _mine, ...rest } = merged;
+      const journey = furtherJourney(slot.journey, other.journey);
+      return { ...rest, ...(seen ? { prologue: true } : {}), ...(journey ? { journey } : {}), resume: ownsResume && i === mine.slot ? slot.resume : other.resume };
     }),
   };
 }
