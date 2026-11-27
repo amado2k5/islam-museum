@@ -10,6 +10,7 @@ import { BOX_NO_BOTTOM, BOX_SIDES, MeshBuilder, frame, subFrame, toWorld, type F
 import { CLOTH_TINTS, MeshSet, ROBE_TINTS, TURQUOISE, COBALT, WALL_TINTS, arcade, archPanel, door, house, pointedDome, roofShade, windowsOn, wing, type MaterialId } from "@im/worldkit/district/kit";
 import type { SceneMaterialId } from "@im/worldkit/district/generate";
 import { GRID_W, xyOf, type BuildingType } from "../rules";
+import { authoredBuilding, type AuthoredPiece } from "./buildings";
 import { BOARD, CANAL_BED, CANAL_LEVEL, CHANNEL_HALF, DIR_STEP, HALF, LANE_HALF, PLOT, QUAY, RIVER_LEVEL, RIVER_WIDTH, plotCentre, type Dir } from "./layout";
 
 // ---- What the generator is told about a plot -------------------------------------------------------------------------
@@ -63,6 +64,10 @@ export interface PlotGeometry {
   /** Chimney and kiln mouths that smoke while the plot is served; empty for a plot without water or without fires. */
   smoke: Array<{ x: number; y: number; z: number; scale: number }>;
   triangles: number;
+  /** What the plot is built as, so the renderer can tell whether an arriving model changes it. */
+  type: BuildingType | null;
+  /** Builds this plot again exactly: the renderer uses it when an authored building arrives after the plot was drawn. */
+  rebuild: () => PlotGeometry;
 }
 
 // ---- Small geometry helpers -----------------------------------------------------------------------------------------
@@ -224,19 +229,28 @@ const quarterFarm: QuarterBuilder = (set, props, f, rng, look, qi) => {
   if (look.served && qi % 2 === 1) props.add("palm-b", f, -h + 0.6, -h + 0.6, rng.range(0, 6), rng.range(0.7, 0.95));
 };
 
+/** Stands an authored building in a quarter, its pieces joining the same meshes the code-made geometry feeds. */
+function authored(set: MeshSet, f: Frame, pieces: AuthoredPiece[], lx: number, lz: number): void {
+  const af = subFrame(f, lx, 0, lz);
+  for (const piece of pieces) set.of(piece.material, af).append(piece.mesh, af);
+}
+
 const quarterMarket: QuarterBuilder = (set, props, f, rng, _look, qi) => {
   const h = QUARTER_HALF;
   up(set.of("paving", f), f, -h - 0.6, -h - 0.6, h + 0.6, h + 0.6, 0.04, [0.92, 0.86, 0.74]);
   const wall = scale(WALL_TINTS[rng.int(0, 2)]!, rng.range(0.92, 1.05));
   if (qi % 2 === 0) {
-    // A row of shops behind an arcade, awnings out over the stalls in front.
+    // A row of shops behind an arcade, awnings out over the stalls in front. The authored row carries its own
+    // awnings when it is here; the code-made one needs the props.
     const d = 5.4;
-    arcadeWing(set, f, 0, -h + d / 2, 2 * h, d, 4.3, wall, ROOF_TINT, 3.4);
+    const art = authoredBuilding("market");
+    if (art) authored(set, f, art, 0, -h + d / 2);
+    else arcadeWing(set, f, 0, -h + d / 2, 2 * h, d, 4.3, wall, ROOF_TINT, 3.4);
     const front = -h + d;
     const n = 5;
     for (let i = 0; i < n; i++) {
       const x = -h + ((i + 0.5) * 2 * h) / n;
-      props.add("awning", f, x, front, 0, 1, rng.pick(CLOTH_TINTS));
+      if (!art) props.add("awning", f, x, front, 0, 1, rng.pick(CLOTH_TINTS));
       if (i % 2 === 0) props.add("stall", f, x + rng.range(-0.3, 0.3), front + 4.6 + rng.range(-0.4, 0.4), rng.range(-0.2, 0.2), 1, rng.pick(STALL_GOODS));
     }
     for (let i = 0; i < 5; i++) props.add("jar", f, -h + 1 + rng.range(0, 2 * h - 2), front + 1.2 + rng.range(0, 0.8), rng.range(0, 6), rng.range(0.8, 1.1), JAR_TINT);
@@ -342,8 +356,12 @@ const quarterSchool: QuarterBuilder = (set, props, f, rng, look, qi) => {
   const wall = scale(LIME, rng.range(0.94, 1.04));
   if (qi === 0) {
     // The teaching hall: an arcaded front and a plaster dome.
-    arcadeWing(set, f, 0, -h + 5.2, 2 * h - 2, 10.4, 5.2, wall, ROOF_TINT, 3.3);
-    dome(set, f, 0, -h + 5.6, 3.3, 5.2 + 0.85, "plaster", scale(wall, 1.08), wall, 1.0, 1.2);
+    const art = authoredBuilding("school");
+    if (art) authored(set, f, art, 0, -h + 5.0);
+    else {
+      arcadeWing(set, f, 0, -h + 5.2, 2 * h - 2, 10.4, 5.2, wall, ROOF_TINT, 3.3);
+      dome(set, f, 0, -h + 5.6, 3.3, 5.2 + 0.85, "plaster", scale(wall, 1.08), wall, 1.0, 1.2);
+    }
     up(set.of("paving", f), f, -h, -h + 10.4, h, h, 0.05, [0.92, 0.87, 0.76]);
   } else if (qi === 1) {
     // Rooms for students round two sides of a court.
@@ -360,10 +378,14 @@ const quarterBath: QuarterBuilder = (set, props, f, rng, look, qi) => {
   if (qi === 0) {
     // The hot room: a square hall under one broad dome with four small ones at the corners.
     const s = 12.6;
-    wing(set, f, 0, -h + s / 2 + 0.6, s, s, 4.4, wall, ROOF_TINT);
-    door(set, f, 0, -h + s + 0.6, 0, wall);
-    dome(set, f, 0, -h + s / 2 + 0.6, 4.1, 5.25, "plaster", scale(LIME, 1.1), wall, 0.92, 0.9);
-    for (const [sx, sz] of [[-1, -1], [1, -1], [1, 1], [-1, 1]] as const) dome(set, f, sx * 4.7, -h + s / 2 + 0.6 + sz * 4.7, 1.15, 5.25, "plaster", scale(LIME, 1.08), wall, 1.0, 0.4);
+    const art = authoredBuilding("bath");
+    if (art) authored(set, f, art, 0, -h + s / 2 + 0.6);
+    else {
+      wing(set, f, 0, -h + s / 2 + 0.6, s, s, 4.4, wall, ROOF_TINT);
+      door(set, f, 0, -h + s + 0.6, 0, wall);
+      dome(set, f, 0, -h + s / 2 + 0.6, 4.1, 5.25, "plaster", scale(LIME, 1.1), wall, 0.92, 0.9);
+      for (const [sx, sz] of [[-1, -1], [1, -1], [1, 1], [-1, 1]] as const) dome(set, f, sx * 4.7, -h + s / 2 + 0.6 + sz * 4.7, 1.15, 5.25, "plaster", scale(LIME, 1.08), wall, 1.0, 0.4);
+    }
   } else if (qi === 1) {
     // The warm room and the changing hall.
     wing(set, f, -1.5, -h + 6.6, 11, 13.2, 3.9, wall, ROOF_TINT);
@@ -419,6 +441,11 @@ const quarterLibrary: QuarterBuilder = (set, props, f, rng, look, qi) => {
     const w = 2 * h - 1.4;
     const d = 13.4;
     const cz = -h + d / 2 + 0.4;
+    const art = authoredBuilding("library");
+    if (art) {
+      authored(set, f, art, 0, cz - 0.4);
+      up(set.of("paving", f), f, -h, cz + d / 2, h, h, 0.05, [0.94, 0.9, 0.8]);
+    } else {
     wing(set, f, 0, cz, w, d, 7.6, wall, ROOF_TINT);
     for (const s of [1, 2, 3]) windowsOn(set, f, rng, 0, cz, w, d, 2, s, 0.5, false);
     set.of("plaster", f).cylinder(f, 0, 7.6, cz, 5.3, 5.3, 2.4, 20, scale(wall, 1.04), false);
@@ -433,6 +460,7 @@ const quarterLibrary: QuarterBuilder = (set, props, f, rng, look, qi) => {
     archPanel(set.of("startile", pf), pf, -pw / 2, 0, pw, ph, 4.6, 4.4, 1.0, [1, 1, 1], scale(COBALT, 1.6), 14);
     face(set.of("wood", pf), pf, -2.3, -1.0, 2.3, -1.0, 0, 7.6, [0.3, 0.22, 0.16]);
     up(set.of("paving", f), f, -h, cz + d / 2, h, h, 0.05, [0.94, 0.9, 0.8]);
+    }
   } else if (qi === 1) {
     // A reading court: arcades on two sides, a basin in the middle.
     arcadeWing(set, f, 0, -h + 2.5, 2 * h, 5, 4.2, wall, ROOF_TINT, 3.1);
@@ -452,10 +480,14 @@ const quarterHospital: QuarterBuilder = (set, props, f, rng, look, qi) => {
   const wall = scale(LIME, rng.range(0.96, 1.04));
   if (qi === 0) {
     // The main ward: two storeys behind an arcade.
-    arcadeWing(set, f, 0, -h + 4.4, 2 * h - 1, 8.8, 3.6, wall, ROOF_TINT, 3.2);
-    const uf = subFrame(f, 0, 3.6, -h + 3.8);
-    wing(set, uf, 0, 0, 2 * h - 1, 7.6, 3.2, scale(wall, 1.02), ROOF_TINT);
-    for (let s = 0; s < 4; s++) windowsOn(set, uf, rng, 0, 0, 2 * h - 1, 7.6, 1, s, 0.4, false);
+    const art = authoredBuilding("hospital");
+    if (art) authored(set, f, art, 0, -h + 4.4);
+    else {
+      arcadeWing(set, f, 0, -h + 4.4, 2 * h - 1, 8.8, 3.6, wall, ROOF_TINT, 3.2);
+      const uf = subFrame(f, 0, 3.6, -h + 3.8);
+      wing(set, uf, 0, 0, 2 * h - 1, 7.6, 3.2, scale(wall, 1.02), ROOF_TINT);
+      for (let s = 0; s < 4; s++) windowsOn(set, uf, rng, 0, 0, 2 * h - 1, 7.6, 1, s, 0.4, false);
+    }
     up(set.of("paving", f), f, -h, -h + 8.8, h, h, 0.05, [0.92, 0.87, 0.76]);
   } else if (qi === 1) {
     block(set, f, rng, -h + 4.4, 0, 8.8, 2 * h - 1, 3.7, wall, ROOF_TINT, 0.3);
@@ -742,7 +774,7 @@ export function buildPlot(seed: number, plot: number, look: PlotLook): PlotGeome
   const chunks = set.chunks().map((c) => ({ material: c.material as SceneMaterialId, mesh: c.mesh }));
   let triangles = 0;
   for (const c of chunks) triangles += c.mesh.indices.length / 3;
-  return { chunks, props: props.list, water, wheel, smoke: props.smoke, triangles };
+  return { chunks, props: props.list, water, wheel, smoke: props.smoke, triangles, type: look.type, rebuild: () => buildPlot(seed, plot, look) };
 }
 
 // ---- Figures on the lanes -------------------------------------------------------------------------------------------

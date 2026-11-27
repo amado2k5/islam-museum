@@ -17,6 +17,8 @@ import { PLOTS } from "../rules";
 import { CART_OX_JOINTS, WALKER_LEG_JOINTS, cartBedMesh, cartOxLegMesh, cartOxMesh, grazingDonkeyMesh, grazingSpots, walkerBodyMesh, walkerLegMesh, walkerPose, walkerTint, type Environment, type PlotGeometry, type PropInstance, type PropKind, type WaterRect } from "./board";
 import { CAMERA_FOV, eyeOf, groundPoint, viewPoint, type CameraPose } from "./camera";
 import { BOARD, CHANNEL_HALF, PLOT, RIVER_LEVEL, plotCentre } from "./layout";
+import { AUTHORED_TYPES, extractBuilding, setAuthoredBuilding } from "./buildings";
+import { MODELS_AVAILABLE, disposeModel, loadModel } from "./models";
 
 export type Quality = "low" | "high";
 export interface BoardRendererOptions {
@@ -152,6 +154,8 @@ export class BoardRenderer {
   /** Puffs of smoke over the workshops' kilns and the baths' furnaces, eight to a chimney. */
   private smokeMesh!: THREE.InstancedMesh;
   private smokeSources: Array<{ x: number; y: number; z: number; scale: number }> = [];
+  /** The authored buildings that could not be fetched, named with the reason; their code-made shapes stand instead. */
+  readonly modelFailures: string[] = [];
   /** Ox-carts on the lanes: the ox, the cart it draws, and the ox's four legs, one instanced mesh each. */
   private cartOx!: THREE.InstancedMesh;
   private cartBeds!: THREE.InstancedMesh;
@@ -193,6 +197,9 @@ export class BoardRenderer {
     await renderer.init();
     if (!(renderer.backend as unknown as { isWebGPUBackend?: boolean }).isWebGPUBackend) throw new Error("no-webgpu-backend");
     this.renderer = renderer;
+    // The authored public buildings start their journey now: the plots are drawn in code-made shape from the first
+    // frame, and a building whose model arrives takes its place — the renderer rebuilds just the plots of its type.
+    void this.loadAuthoredBuildings();
     renderer.toneMapping = THREE.ACESFilmicToneMapping;
     renderer.shadowMap.enabled = true;
     renderer.shadowMap.type = THREE.PCFShadowMap;
@@ -482,6 +489,33 @@ export class BoardRenderer {
     });
     this.waterDirty = true;
     if (immediate) this.rebuildMaterials(Infinity);
+  }
+
+  /**
+   * Fetches the authored public buildings one file at a time. A building that arrives whole takes the place of its
+   * code-made shape in the plots of its type — they are built again exactly as they were, but with the authored
+   * pieces — and one that cannot be fetched is named in modelFailures while the code-made shape stands on.
+   */
+  private async loadAuthoredBuildings(): Promise<void> {
+    if (!MODELS_AVAILABLE) return;
+    for (const type of AUTHORED_TYPES) {
+      try {
+        const model = await loadModel(`golden-age/${type}.gltf`);
+        setAuthoredBuilding(type, extractBuilding(model, type));
+        disposeModel(model);
+        let rebuilt = false;
+        for (let plot = 0; plot < PLOTS; plot++) {
+          const g = this.plots[plot]!.geometry;
+          if (!g || g.type !== type) continue;
+          this.setPlot(plot, g.rebuild());
+          rebuilt = true;
+        }
+        // The props of a rebuilt market change (the authored row carries its own awnings), so the lists refresh.
+        if (rebuilt) this.commit();
+      } catch (e) {
+        this.modelFailures.push(`golden-age/${type}: ${e instanceof Error ? e.message : String(e)}`);
+      }
+    }
   }
 
   /**
