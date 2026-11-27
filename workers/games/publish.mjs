@@ -101,6 +101,7 @@ function main() {
     return i >= 0 ? rest[i + 1] : undefined;
   };
   const dry = rest.includes("--dry-run");
+  const replace = new Set((opt("replace") ?? "").split(",").map((x) => x.trim()).filter(Boolean));
   const bucket = opt("bucket");
   const endpoint = opt("endpoint");
   const run = opt("run") ?? null;
@@ -162,11 +163,15 @@ function main() {
     for (const t of tracks) {
       const copy = join(work, flatName(t.file));
       if (fetchTo(t.key, copy)) {
-        if (shaOf(copy) !== t.sha256) throw new Error(`${t.key} is in the bucket with other contents. It is not overwritten: this needs a look`);
-        say(`${t.file}: already in the bucket, identical`);
-        continue;
-      }
-      say(`${t.file}: ${dry ? "would upload" : "uploading"} ${(t.bytes / 1048576).toFixed(2)} MB`);
+        if (shaOf(copy) === t.sha256) {
+          say(`${t.file}: already in the bucket, identical`);
+          continue;
+        }
+        // A corrected model has to replace the file at the same address. That is never implicit: the exact model
+        // path must be named in --replace after a check has shown the difference is the intended one.
+        if (kind !== "models" || !replace.has(t.file)) throw new Error(`${t.key} is in the bucket with other contents. It is not overwritten: this needs a look`);
+        say(`${t.file}: ${dry ? "would replace" : "replacing"} ${(t.bytes / 1048576).toFixed(2)} MB, as explicitly allowed`);
+      } else say(`${t.file}: ${dry ? "would upload" : "uploading"} ${(t.bytes / 1048576).toFixed(2)} MB`);
       if (dry) continue;
       aws(["s3", "cp", t.path, s3(t.key), "--only-show-errors", "--content-type", t.contentType ?? "audio/mp4"], { stdio: "inherit" });
       if (!fetchTo(t.key, copy) || shaOf(copy) !== t.sha256) throw new Error(`${t.key} did not read back as it was sent`);
