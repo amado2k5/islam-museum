@@ -10,7 +10,7 @@ import en from "../../i18n/en.json";
 import { BUILDINGS, BUILDING_TYPES, CANAL_COST, GRID_H, LOAN_SEASONS, LOAN_SUM, GRID_W, PLOTS, SILT_CLEAR_COST, TAX_PER_TEN, TAX_WELFARE, newGame, plotOf, preview, score, servedByWater, step, wateredPlots, type BuildingType, type Command, type Scenario, type State, type TaxLevel } from "../rules";
 import { endowCost } from "../rules";
 import { SAVE_KEY, SAVE_VERSION, readSave, writeSave } from "../save";
-import { CHAPTERS, FAILING_CANAL, SCENARIOS } from "../scenarios";
+import { CHAPTERS, FAILING_CANAL, OPEN_PLAIN, dailyScenario, dailySeed, scenarioById, scenarioKind } from "../scenarios";
 import { linkKey } from "../rules";
 import { nearestLink, neighbour, plotAt, plotCentre, plotName, type Dir, type Link } from "../view/layout";
 import { icon } from "./icons";
@@ -32,7 +32,9 @@ const query = new URLSearchParams(location.search);
 const counters = query.has("counters") ? installCounters(window as never) : null;
 const lang: Lang = (LANGS as readonly string[]).includes(query.get("lang") ?? "") ? (query.get("lang") as Lang) : "en";
 // The chapter in hand. A saved game brings its own; `?scenario=` starts a new game in the one named.
-let scenario: Scenario = SCENARIOS[query.get("scenario") ?? ""] ?? FAILING_CANAL;
+const today = (): string => query.get("date") ?? new Date().toISOString().slice(0, 10);
+const asked = query.get("scenario") === "daily" ? `daily-${today()}` : query.get("scenario") ?? "";
+let scenario: Scenario = scenarioById(asked) ?? FAILING_CANAL;
 
 declare global {
   interface Window {
@@ -80,7 +82,7 @@ async function main(): Promise<void> {
 
   document.documentElement.lang = lang;
   document.documentElement.dir = RTL.includes(lang) ? "rtl" : "ltr";
-  const setTitle = () => (document.title = `${t("title")}: ${t(`scenario_${scenario.id}`)}`);
+  const setTitle = () => (document.title = `${t("title")}: ${t(`scenario_${scenarioKind(scenario.id)}`)}`);
   setTitle();
   const skip = document.querySelector<HTMLAnchorElement>("a.skip");
   if (skip) skip.textContent = t("skip");
@@ -153,11 +155,11 @@ async function main(): Promise<void> {
       saveNote = t("save_newer");
     }
     const saved = reading.save.state;
-    if (saved && saved.scenario in SCENARIOS && !asksNew) {
+    if (saved && scenarioById(saved.scenario) && !asksNew) {
       state = saved;
-      scenario = SCENARIOS[saved.scenario]!;
+      scenario = scenarioById(saved.scenario)!;
       resumed = true;
-    } else state = newGame(scenario, seedAsked ?? newSeed());
+    } else state = newGame(scenario, seedAsked ?? (scenarioKind(scenario.id) === "daily" ? dailySeed(scenario.id) : newSeed()));
   } catch {
     writable = false; // storage is unavailable: the game plays, it just is not remembered
     state = newGame(scenario, seedAsked ?? newSeed());
@@ -277,9 +279,9 @@ async function main(): Promise<void> {
     renderAll();
   }
   function restart(seed: number, chapter: string = scenario.id): void {
-    scenario = SCENARIOS[chapter] ?? scenario;
+    scenario = (chapter === "daily" ? dailyScenario(today()) : scenarioById(chapter)) ?? scenario;
     setTitle();
-    state = newGame(scenario, seed);
+    state = newGame(scenario, scenarioKind(scenario.id) === "daily" ? dailySeed(scenario.id) : seed);
     keepTool();
     undoStack = [];
     proj = project(scenario, state);
@@ -301,7 +303,7 @@ async function main(): Promise<void> {
   function showBrief(): void {
     const g = goals(scenario, state);
     const records = links.records as Record<string, { label: Record<string, string>; summary?: Record<string, string> }>;
-    const history = ((links.scenario as Record<string, string[]>)[scenario.id] ?? []).map((id) => {
+    const history = ((links.scenario as Record<string, string[]>)[scenarioKind(scenario.id) === "daily" ? "failing-canal" : scenario.id] ?? []).map((id) => {
       const record = records[id];
       if (!record?.summary) return null;
       const told = el("p", { textContent: record.summary[lang] ?? record.summary.en ?? "" });
@@ -309,9 +311,9 @@ async function main(): Promise<void> {
       return el("div", { class: "history" }, el("a", { href: `https://islam.museum/${lang}/${id}/`, target: "_blank", rel: "noopener", textContent: record.label[lang] ?? record.label.en ?? id }), told);
     });
     const parts: Array<HTMLElement | null> = [
-      el("p", { class: "kicker", textContent: t("chapter", { n: CHAPTERS.findIndex((c) => c.id === scenario.id) + 1 }) }),
-      el("h2", { textContent: t(`scenario_${scenario.id}`) }),
-      el("p", { textContent: t(`brief_${scenario.id}`) }),
+      el("p", { class: "kicker", textContent: CHAPTERS.some((c) => c.id === scenario.id) ? t("chapter", { n: CHAPTERS.findIndex((c) => c.id === scenario.id) + 1 }) : t(`mode_${scenarioKind(scenario.id)}`) }),
+      el("h2", { textContent: t(`scenario_${scenarioKind(scenario.id)}`) }),
+      el("p", { textContent: t(`brief_${scenarioKind(scenario.id)}`) }),
       el("h3", {}, t("brief_goal"), el("small", { textContent: ` ${t("goal_deadline", { year: Math.ceil(scenario.seasons / 4) })}` })),
       el("ul", { class: "lines" }, ...g.rows.map((row) => el("li", { textContent: goalLine(row, g) }))),
       history.some(Boolean) ? el("div", { class: "behind" }, el("h3", { textContent: t("museum_behind") }), ...history, el("p", { class: "muted small", textContent: t("museum_note") })) : null,
@@ -368,7 +370,7 @@ async function main(): Promise<void> {
     });
     swap(
       barMain,
-      el("div", { class: "brand" }, el("h1", { textContent: t("title") }), el("span", { class: "sub" }, t(`scenario_${scenario.id}`), " · ", el("span", { class: "badge", textContent: t("prototype") }))),
+      el("div", { class: "brand" }, el("h1", { textContent: t("title") }), el("span", { class: "sub" }, t(`scenario_${scenarioKind(scenario.id)}`), " · ", el("span", { class: "badge", textContent: t("prototype") }))),
       el("div", { class: "when", id: "when" }, icon("season"), el("span", {}, el("strong", { textContent: t("calendar", { year: c.year, season: t(`season_${c.soy}`) }) }), el("small", { textContent: t("seasons_left", { n: g.seasonsLeft }) }))),
       el("div", { class: "stocks" }, ...chips),
     );
@@ -596,7 +598,7 @@ async function main(): Promise<void> {
     let armed: "" | "same" | "new" | "chapter" = "";
     let chosen = scenario.id;
     const draw = () => {
-      const chapterSelect = el("select", { id: "chapter", onchange: () => (chosen = chapterSelect.value) }, ...CHAPTERS.map((c, i) => el("option", { value: c.id, textContent: `${t("chapter", { n: i + 1 })}: ${t(`scenario_${c.id}`)}`, selected: c.id === chosen })));
+      const chapterSelect = el("select", { id: "chapter", onchange: () => (chosen = chapterSelect.value) }, ...CHAPTERS.map((c, i) => el("option", { value: c.id, textContent: `${t("chapter", { n: i + 1 })}: ${t(`scenario_${c.id}`)}`, selected: c.id === chosen })), el("option", { value: OPEN_PLAIN.id, textContent: `${t("mode_open-plain")}: ${t("scenario_open-plain")}`, selected: chosen === OPEN_PLAIN.id }), el("option", { value: "daily", textContent: `${t("mode_daily")}: ${t("scenario_daily")}`, selected: scenarioKind(chosen) === "daily" }));
       const chapterStart = el("button", {
         type: "button",
         id: "chapter-start",
@@ -680,7 +682,8 @@ async function main(): Promise<void> {
   function showOutcome(): void {
     const g = goals(scenario, state);
     const rows = g.rows.map((row) => el("li", { class: row.met ? "good" : "bad" }, goalLine(row, g), " · ", row.met ? t("goal_met") : t("goal_open")));
-    const next = CHAPTERS[CHAPTERS.findIndex((c) => c.id === scenario.id) + 1];
+    const at = CHAPTERS.findIndex((c) => c.id === scenario.id);
+    const next = at < 0 ? undefined : CHAPTERS[at + 1];
     outcomeDialog.replaceChildren(
       el("h2", { textContent: t(`outcome_${state.outcome}`) }),
       el("p", { textContent: t(`outcome_${state.outcome}_text`) }),

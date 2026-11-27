@@ -2,7 +2,7 @@
 // case (nothing saved, an unreadable save, a save from a newer version, a state the rules would not have produced)
 // is a unit test. The same pattern as Atlas's save; it becomes a shared module when a third game needs one.
 import { PLOTS, RULES_VERSION, invariants, type State } from "./rules";
-import { SCENARIOS } from "./scenarios";
+import { scenarioById } from "./scenarios";
 
 /**
  * 3 since the merchants' loan: a version 2 save has no loan, and a version 1 save no endowments either; both are
@@ -35,7 +35,7 @@ export function playable(s: unknown): s is State {
   const o = s as Record<string, unknown>;
   const ints = ["rules", "seed", "season", "treasury", "grain", "households", "welfare", "knowledge", "researchProgress", "tax", "canalCondition", "intake", "loanOwed", "loanEach", "insolventSeasons", "unrestSeasons", "steadySeasons"];
   if (!ints.every((k) => Number.isSafeInteger(o[k]))) return false;
-  if (o.rules !== RULES_VERSION || typeof o.scenario !== "string" || !(o.scenario in SCENARIOS)) return false;
+  if (o.rules !== RULES_VERSION || typeof o.scenario !== "string" || !scenarioById(o.scenario)) return false;
   if (!Array.isArray(o.plots) || o.plots.length !== PLOTS || !Array.isArray(o.canals) || !Array.isArray(o.researched) || !Array.isArray(o.events)) return false;
   if (typeof o.outcome !== "string" || !OUTCOMES.includes(o.outcome)) return false;
   const rng = o.rng as Record<string, unknown> | null;
@@ -75,7 +75,7 @@ export function readSave(raw: string | null): SaveReading {
 function fromV1(state: unknown): unknown {
   if (!state || typeof state !== "object") return state;
   const o = state as Record<string, unknown>;
-  const scenario = typeof o.scenario === "string" ? SCENARIOS[o.scenario] : undefined;
+  const scenario = typeof o.scenario === "string" ? scenarioById(o.scenario) : undefined;
   return { ...o, endowed: [], mayEndow: scenario?.endowments === true };
 }
 
