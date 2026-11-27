@@ -1,5 +1,6 @@
 // Granada's authored scenarios. Every figure is a game number chosen for play and tuned in the lab
 // (tools/village-lab.ts); none is a historical measurement.
+import { hash32 } from "@im/kernel/prng";
 import { dinars } from "./economy";
 import type { Scenario } from "./village";
 import { siteRefusal } from "../world/ground";
@@ -196,6 +197,23 @@ export const A_DRY_YEAR: Scenario = {
   decisions: [{ ...WATER_FOR_THE_VALLEY.decisions![0]!, day: 40, options: [{ id: "share", dinars: dinars(400), inflow: 6, days: 20 }, { id: "refuse", welfare: -6, days: 20 }] }],
 };
 
+/**
+ * Free play: the first year's valley, its people and its weather, given four years instead of one and a larger goal,
+ * to be built at the steward's own pace. Nothing follows it. Its year-to-year carrying is the same day-by-day valley.
+ */
+export const OPEN_VALLEY: Scenario = {
+  ...WATER_FOR_THE_VALLEY,
+  id: "open-valley",
+  endDay: WATER_FOR_THE_VALLEY.endDay + 360,
+  // Eighty households is all the valley's houses can hold once every house is built: the goal asks for a full valley.
+  goal: { welfare: 60, households: 80, reserveDays: 20 },
+  // Nothing is carried on from it, so nothing is sent that could not arrive before its end.
+  final: true,
+};
+/** The day's valley: the first year with the weather and the market of the date, the same for every steward that day. */
+export const dailySeed = (date: string): number => 1 + (hash32(`granada-daily:${date}`) % 2_000_000_000);
 export const SCENARIOS: Record<string, Scenario> = { [WATER_FOR_THE_VALLEY.id]: WATER_FOR_THE_VALLEY, [MERCHANTS_OF_MALAGA.id]: MERCHANTS_OF_MALAGA, [A_DRY_YEAR.id]: A_DRY_YEAR };
 /** The scenario that follows one, where the campaign goes on. */
 export const scenarioAfter = (id: string): Scenario | null => Object.values(SCENARIOS).find((sc) => sc.follows === id) ?? null;
+/** A scenario by its id: a year of the campaign, or free play. Free play is not one of the campaign's years. */
+export const scenarioById = (id: string): Scenario | undefined => SCENARIOS[id] ?? (id === OPEN_VALLEY.id ? OPEN_VALLEY : undefined);

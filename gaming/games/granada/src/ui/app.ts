@@ -9,7 +9,7 @@ import records from "../../data/museum-records.v1.json";
 import { loadMusicStrings, musicControl } from "@im/audio/control";
 import { MUSIC_AVAILABLE, MUSIC_BASE, MusicPlayer } from "@im/audio/player";
 import { MINOR } from "../sim/economy";
-import { SCENARIOS, WATER_FOR_THE_VALLEY, scenarioAfter } from "../sim/scenarios";
+import { OPEN_VALLEY, WATER_FOR_THE_VALLEY, dailySeed, scenarioAfter, scenarioById } from "../sim/scenarios";
 import { act, dayOfSeason, newVillage, nextYear, seasonOf, siteOf, tasksOf, tick, type ActResult, type Refusal, type Scenario, type VillageCommand, type VillageState } from "../sim/village";
 import { YEAR_KEY, clearSave, readAside, readSave, restoreAside, setAside, writeSave } from "../save";
 import { probeWebGPU } from "@im/kernel/capability";
@@ -70,8 +70,11 @@ async function main(): Promise<void> {
   // ---- The game ------------------------------------------------------------------------------------------------
   // The scenario in hand: the first year's for a new game, the saved game's own otherwise, the next when a year is won.
   let sc: Scenario = WATER_FOR_THE_VALLEY;
-  const titleKey = () => (sc.follows ? `scenario_${sc.id}` : "scenario_title");
-  const briefKey = () => (sc.follows ? `brief_${sc.id}` : "brief_text");
+  const titleKey = () => (sc.follows || sc.id === OPEN_VALLEY.id ? `scenario_${sc.id}` : "scenario_title");
+  const briefKey = () => (sc.follows || sc.id === OPEN_VALLEY.id ? `brief_${sc.id}` : "brief_text");
+  /** The day's valley is the first year on the date's own seed; the date is shown while the page is open. */
+  const today = (): string => query.get("date") ?? new Date().toISOString().slice(0, 10);
+  let dailyOf: string | null = null;
   /** The valley as it stood when the year in hand began, so that a lost year can be played again from its start. */
   let yearStart: string | null = null;
   /** A saved game that could be neither read nor copied aside is left exactly as it is: nothing of this session is written. */
@@ -90,10 +93,12 @@ async function main(): Promise<void> {
   let notice: string | null = null;
   let state: VillageState;
   let resumed = false;
-  const saved = query.has("fresh") ? ({ status: "empty" } as const) : readSave(localStorage);
-  if (saved.status === "ok" && SCENARIOS[saved.state.scenario]) {
+  // A new game of a kind the address names (?mode=daily or ?mode=free) begins whatever is saved, as ?fresh does.
+  const modeAsked = query.get("mode");
+  const saved = query.has("fresh") || modeAsked === "daily" || modeAsked === "free" ? ({ status: "empty" } as const) : readSave(localStorage);
+  if (saved.status === "ok" && scenarioById(saved.state.scenario)) {
     state = saved.state;
-    sc = SCENARIOS[state.scenario]!;
+    sc = scenarioById(state.scenario)!;
     resumed = true;
     try {
       const kept = localStorage.getItem(YEAR_KEY);
@@ -108,7 +113,9 @@ async function main(): Promise<void> {
     if (saved.status === "unreadable") notice = t("save_unreadable");
     if (saved.status === "newer") notice = t("save_newer");
     if (saveLocked) notice = t("save_left_untouched");
-    state = newVillage(sc, newSeed());
+    if (modeAsked === "free") sc = OPEN_VALLEY;
+    if (modeAsked === "daily") dailyOf = today();
+    state = newVillage(sc, dailyOf ? dailySeed(dailyOf) : newSeed());
     keepYearStart();
   }
   // How much is spent on the picture: asked for in the address, or chosen before and kept on this device, or High.
@@ -1153,6 +1160,7 @@ async function main(): Promise<void> {
       h("p", { class: "kicker" }, t("subtitle")),
       h("h2", {}, t(titleKey())),
       h("p", {}, t(briefKey())),
+      dailyOf && h("p", { class: "note", id: "daily-line" }, t("daily_line", { date: dailyOf })),
       notice && h("p", { class: "warnline" }, notice),
       h("p", { class: "note" }, t("simulation_note")),
       h("p", { class: "note" }, `${t("brief_setting")}: `, museumLink("place/granada"), " · ", museumLink("polity/emirate-of-granada"), " · ", museumLink("place/sierra-nevada")),
@@ -1181,6 +1189,11 @@ async function main(): Promise<void> {
       h("p", { class: "note" }, t("simulation_note")),
       h("h3", {}, t("language")),
       h("p", { class: "langs" }, ...LANGS.map((code) => h("a", { href: `?lang=${code}`, lang: code, "aria-current": code === lang ? "true" : undefined }, LANG_NAMES[code]!))),
+      h("h3", {}, t("modes")),
+      h("div", { class: "actions" },
+        h("button", { type: "button", id: "start-daily", onclick: () => (d.close(), begin(dailySeed(today()), WATER_FOR_THE_VALLEY, today()), showBrief()) }, t("mode_daily")),
+        h("button", { type: "button", id: "start-free", onclick: () => (d.close(), begin(newSeed(), OPEN_VALLEY), showBrief()) }, t("mode_free")),
+      ),
       h("div", { class: "actions" }, restart, h("button", { type: "button", class: "primary", id: "help-close", onclick: () => d.close() }, t("close"))),
     );
   }
@@ -1220,9 +1233,10 @@ async function main(): Promise<void> {
     render();
   }
   /** A new campaign, from the first year. */
-  function begin(seed: number): void {
+  function begin(seed: number, first: Scenario = WATER_FOR_THE_VALLEY, daily: string | null = null): void {
     if (!saveLocked) clearSave(localStorage);
-    sc = WATER_FOR_THE_VALLEY;
+    dailyOf = daily;
+    sc = first;
     state = newVillage(sc, seed);
     keepYearStart();
     freshPage();
@@ -1231,7 +1245,7 @@ async function main(): Promise<void> {
   function again(): void {
     if (state.year === 1 || !yearStart) return begin(state.seed);
     state = JSON.parse(yearStart) as VillageState;
-    sc = SCENARIOS[state.scenario]!;
+    sc = scenarioById(state.scenario)!;
     freshPage();
   }
   /** On to the year that follows a won one, with the valley as it stands. */
