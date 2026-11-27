@@ -422,23 +422,19 @@ describe("the words", () => {
       expect(new Set(LEAVES_STATES.map((s) => t[`rz_kind_${tail(s)}`])).size, l).toBe(LEAVES_STATES.length);
     }
   });
-  it("is appended at the end of each language's file, after the keys of the eleventh quest, and nothing comes after it", () => {
+  it("is appended at the end of each language's file, after the keys of the eleventh quest, and only the next quest's keys (`kr_`) come after it", () => {
     for (const l of LANGS) {
       const ks = Object.keys(table(l));
       const first = ks.findIndex((k) => k.startsWith("rz_"));
+      const count = ks.filter((k) => k.startsWith("rz_")).length;
       expect(first, l).toBeGreaterThan(0);
-      expect(ks.slice(first).every((k) => k.startsWith("rz_")), l).toBe(true);
+      expect(ks.slice(first, first + count).every((k) => k.startsWith("rz_")), l).toBe(true);
+      expect(ks.slice(first + count).every((k) => k.startsWith("kr_")), l).toBe(true);
       expect(ks[first - 1]!.startsWith("ah_"), l).toBe(true);
     }
   });
-  it("says in the hub that twelve quests are built, in every language, and no longer eleven", () => {
-    expect(table("en").hub_note).toMatch(/Twelve quests are built/);
-    expect(table("ar").hub_note).toContain("اثنتا عشرة مهمة");
-    expect(table("ur").hub_note).toContain("بارہ مہمیں");
-    expect(table("fr").hub_note).toContain("Douze quêtes");
-    expect(table("es").hub_note).toContain("doce misiones");
-    expect(table("tr").hub_note).toContain("on iki görev");
-    expect(table("id").hub_note).toContain("dua belas misi");
+  it("says in the hub that quests are built, in every language, and no longer eleven (the count itself is pinned in collate.gtest.ts)", () => {
+    expect(table("en").hub_note).toMatch(/(Twelve|Thirteen) quests are built/);
     for (const l of LANGS) expect(table(l).hub_note).not.toMatch(/\bEleven quests|\bOnze quêtes|\bonce misiones|\bon bir görev|\bsebelas misi|إحدى عشرة مهمة|گیارہ مہمیں/i);
   });
   it("takes each name from the Atlas heading and the museum's labels unless it is on a short list of named exceptions, which is exactly this list", () => {

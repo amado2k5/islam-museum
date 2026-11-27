@@ -5,6 +5,7 @@
 // The materials, the water and the post-processing follow The Golden Age's renderer (docs/gaming/adr/G-0002). One
 // lesson from it is kept here: the environment map is made once and never swapped during play.
 import * as THREE from "three/webgpu";
+import { positionView } from "three/tsl";
 import { attribute, builtinAOContext, float, floor, fract, fwidth, instanceIndex, min, mix, mrt, normalMap, normalView, pass, positionLocal, positionWorld, screenUV, sin, smoothstep, texture, triplanarTexture, uniform, uv, vec2, vec3, vec4 } from "three/tsl";
 import { ao } from "three/addons/tsl/display/GTAONode.js";
 import { bloom } from "three/addons/tsl/display/BloomNode.js";
@@ -16,7 +17,8 @@ import { ROBE_TINTS, awningMesh, palmMesh, personBodyMesh, personHeadMesh, stall
 import type { Atmosphere } from "@im/worldkit/atmosphere";
 import type { TextureData, TextureKind } from "@im/worldkit/textures";
 import { FOV, eyeOf, type Pose } from "./camera";
-import { basket, bird, guardGear, horse, ladder, sheep } from "./buildings";
+import { HORSE_LEGS, OX_LEGS, PERSON_LEGS, SHEEP_LEGS, basket, bird, guardGear, horse, horseLeg, ladder, oxLeg, personBody, personLeg, sheep, sheepLeg } from "./buildings";
+import { along, fieldTo, limbMatrix, route, walkGrid, walkOf, type Walk, type WalkGrid } from "./paths";
 import { MODELS_AVAILABLE, disposeModel, disposeSharedMaterials, loadModel } from "./models";
 /**
  * The folder of this game's models on the host. A file on the host is never replaced, so a set that changes gets a
@@ -47,6 +49,7 @@ const CANDIDATE_C: Record<Exclude<Art, "a">, Record<string, string>> = {
   c2: { palace: "granada/c/palace-lod2.gltf" },
 };
 const HILL_PIECES = ["wall", "tower", "gate", "scaffold", "crane", "palace", "estate"];
+import { BOUNDS, BRIDGE, RIVER_HALF, riverZ } from "./valley";
 import { CHANNELS, ESTATE, FIELDS, GRANARY, HOUSE_LOTS, KIT_HOUSES, MARKET, PLOT_GRID, POOL, STORE, VILLAGE, broadTree, buildLand, buildRange, buildRiver, buildScenery, channelWater, cropSpots, cypressTree, fieldAt, fieldGround, heightAt, oliveTree, orchardTree, placedBuilding, plotTable, poolWater, poplarTree, vegetablePlant, wheatTuft, type Chunk , type KitPlacement } from "./valley";
 
 export type Quality = "low" | "medium" | "high";
@@ -234,7 +237,19 @@ export class ValleyRenderer {
   private ladders!: THREE.InstancedMesh;
   private baskets!: THREE.InstancedMesh;
   /** Where people are at work in a harvest: a place, the way they face, and whether they reach up (olives) or stoop. */
-  private workSpots: Array<{ x: number; z: number; yaw: number; reach: boolean; carrier: boolean; to: [number, number] }> = [];
+  private workSpots: Array<{ x: number; z: number; yaw: number; reach: boolean; carrier: boolean; to: [number, number]; walk?: Walk }> = [];
+  /** Where people may walk, and for each place they go to, the way to it from anywhere. */
+  private walkable: WalkGrid | null = null;
+  private fields = new Map<string, Int32Array>();
+  /** Each walker's way from home to its work, for the work it has now. */
+  private walkRoutes: Walk[] = [];
+  /** How far each person's legs swing this frame, by the index they are drawn at. */
+  private strides = new Float32Array(0);
+  private legs!: THREE.InstancedMesh;
+  private watchLegs!: THREE.InstancedMesh;
+  private horseLegs!: THREE.InstancedMesh;
+  private sheepLegs!: THREE.InstancedMesh;
+  private oxLegs!: THREE.InstancedMesh;
   private walkTargets: Array<[number, number]> = [];
   private ring!: THREE.Mesh;
   private wheel!: THREE.Mesh;
@@ -414,6 +429,9 @@ export class ValleyRenderer {
     this.wheel.castShadow = true;
     scene.add(this.wheel);
     this.cartRoads = scenery.cartRoads;
+    // Where people may walk: not through a house, the store, the mill or the mosque, not into the pool, and over the
+    // river only by the bridge.
+    this.walkable = walkGrid({ footprints: scenery.footprints, riverZ, riverHalf: RIVER_HALF, bridge: { x: BRIDGE.x, halfWidth: BRIDGE.width / 2 - 0.5 }, pool: POOL, bounds: { x0: BOUNDS.x0, x1: BOUNDS.x1, z0: BOUNDS.z0, z1: BOUNDS.z1 } });
 
     // ---- Things drawn many times ----
     const rng = new Rng(seed);
@@ -512,6 +530,8 @@ export class ValleyRenderer {
     // Ox-carts on the roads.
     this.carts = instanced(scenery.cart, "prop", CARTS, true, true);
     this.carts.count = CARTS;
+    this.oxLegs = instanced(oxLeg(), "prop", CARTS * 4, true, true);
+    this.oxLegs.count = CARTS * 4;
 
     // Flocks at graze, riders on the roads, the watch on the hill's wall and at its gate, birds over the valley.
     this.pastures = scenery.pastures;
@@ -526,14 +546,20 @@ export class ValleyRenderer {
     };
     this.flocks = instanced(sheep(), "prop", Math.max(1, this.pastures.length * FLOCK), true, true);
     paint(this.flocks, this.pastures.length * FLOCK, (i) => FLEECE[(i * 7 + (i % 5)) % FLEECE.length]!);
+    this.sheepLegs = instanced(sheepLeg(), "prop", Math.max(1, this.pastures.length * FLOCK * 4), true, true);
+    this.sheepLegs.count = this.pastures.length * FLOCK * 4;
     this.horses = instanced(horse(), "prop", RIDERS, true, true);
     paint(this.horses, RIDERS, (i) => COATS[i % COATS.length]!);
     this.riderBodies = instanced(personBodyMesh(), "prop", RIDERS, true, true);
+    this.horseLegs = instanced(horseLeg(), "prop", RIDERS * 4, true, true);
+    paint(this.horseLegs, RIDERS * 4, (i) => COATS[Math.floor(i / 4) % COATS.length]!);
     paint(this.riderBodies, RIDERS, (i) => ROBE_TINTS[(i * 3 + 1) % ROBE_TINTS.length]!);
     this.riderHeads = instanced(personHeadMesh(), "prop", RIDERS, false, true);
     this.riderHeads.count = RIDERS;
     const watch = this.guardWalks.length + this.gatePosts.length;
-    this.watchBodies = instanced(personBodyMesh(), "prop", Math.max(1, watch), true, true);
+    this.watchBodies = instanced(personBody(), "prop", Math.max(1, watch), true, true);
+    this.watchLegs = instanced(personLeg(), "prop", Math.max(1, watch) * 2, true, true);
+    this.watchLegs.count = watch * 2;
     paint(this.watchBodies, watch, () => [0.5, 0.14, 0.1]);
     this.watchHeads = instanced(personHeadMesh(), "prop", Math.max(1, watch), false, true);
     this.watchHeads.count = watch;
@@ -543,7 +569,9 @@ export class ValleyRenderer {
     this.birds.count = BIRDS;
 
     // People.
-    this.bodies = instanced(personBodyMesh(), "prop", WALKERS + HARVESTERS, true, true);
+    this.bodies = instanced(personBody(), "prop", WALKERS + HARVESTERS, true, true);
+    this.legs = instanced(personLeg(), "prop", (WALKERS + HARVESTERS) * 2, true, true);
+    this.strides = new Float32Array(WALKERS + HARVESTERS);
     this.heads = instanced(personHeadMesh(), "prop", WALKERS + HARVESTERS, false, true);
     // What a harvest brings out: ladders against the olive trees, and baskets where the pickers are.
     this.ladders = instanced(ladder(), "prop", 16, true, true);
@@ -843,29 +871,47 @@ export class ValleyRenderer {
 
   /** Two wave trains crossing at different scales and speeds, in world space. */
   private makeWater(spec: MaterialSpec, normal: THREE.DataTexture): THREE.Material {
-    const m = new THREE.MeshPhysicalNodeMaterial({ roughness: spec.roughness, metalness: 0 });
+    // What makes water read as water from above: a surface that catches the sun and the sky and moves with the
+    // current, deep water darker than the shallows at its edges, and foam only where the water meets the bank.
+    const m = new THREE.MeshPhysicalNodeMaterial({ roughness: 0.06, metalness: 0 });
+    // The sky in the water: the scene's light is kept low for the land; water mirrors more of it.
+    m.envMapIntensity = 4.5;
     const p = positionWorld.xz;
     const t = this.waterTime;
     const canal = spec.id === "canalwater";
-    const n1 = texture(normal, p.mul(1 / (canal ? 5 : 16)).add(vec2(t.mul(canal ? -0.05 : 0.11), t.mul(0.012))));
-    const n2 = texture(normal, p.mul(1 / (canal ? 2.1 : 5.2)).add(vec2(t.mul(-0.09), t.mul(-0.03))));
-    const n3 = texture(normal, p.mul(1 / (canal ? 15 : 52)).add(vec2(t.mul(-0.012), t.mul(0.005))));
-    const blended = n1.rgb.add(n2.rgb).add(n3.rgb).div(3);
-    m.normalNode = normalMap(blended, vec2(canal ? 1.1 : 1.9, canal ? 1.1 : 1.9));
-    const base: Rgb = canal ? [0.02, 0.16, 0.17] : [0.014, 0.1, 0.12];
-    const deep = vec3(base[0] * 0.6, base[1] * 0.62, base[2] * 0.75);
-    const shallow = vec3(base[0] * 1.6, base[1] * 1.6, base[2] * 1.4);
-    const still = mix(deep, shallow, n3.r.sub(0.5).mul(4).add(blended.b.sub(0.55).mul(2.2)).clamp(0, 1));
-    // The current, made visible: pale streaks that travel. On the river they are long, lie along its bed and are
-    // carried down it, each line of them wandering a little from side to side; on a channel they are short ripples
-    // crossing it at a slant, so they move whichever way the channel lies. They are drawn from the place and the
-    // clock alone, so a picture taken at a given second is always the same.
-    const along = canal ? p.x.add(p.y).mul(0.9) : p.x.mul(0.13);
-    const across = canal ? p.x.sub(p.y).mul(1.3) : p.y.mul(0.8);
-    const lines = sin(along.sub(t.mul(canal ? 2.2 : 1.4)).add(sin(across).mul(2))).mul(0.5).add(0.5);
-    const lanes = sin((canal ? p.x.sub(p.y).mul(0.6) : p.y.mul(1.9).add(p.x.mul(0.045))).add(sin(along.mul(0.31)).mul(1.5))).mul(0.5).add(0.5);
-    const foam = smoothstep(0.8, 0.98, lines).mul(smoothstep(0.35, 0.9, lanes)).mul(canal ? 0.16 : 0.5);
-    m.colorNode = mix(still, vec3(0.62, 0.74, 0.72), foam);
+    // The river runs west through the valley. Three layers of ripple are carried down it at different speeds and
+    // sizes, so the surface moves as a whole and never repeats as a pattern; a channel's water barely moves.
+    const flow = canal ? vec2(0.0, 0.0) : vec2(-1, 0);
+    const layer = (size: number, speed: number, cross: number) => texture(normal, p.div(size).add(flow.mul(t.mul(speed / size))).add(vec2(0, t.mul(cross / size))));
+    const r1 = layer(canal ? 4.5 : 9, canal ? 0.25 : 1.6, canal ? 0.2 : 0.18);
+    const r2 = layer(canal ? 2.2 : 4.2, canal ? 0.35 : 2.4, canal ? -0.25 : -0.22);
+    const r3 = layer(canal ? 11 : 26, canal ? 0.15 : 1.1, 0.05);
+    // The layers' slopes are added, not averaged: averaging three ripples flattens them into still water.
+    const slope = r1.rg.mul(2).sub(1).add(r2.rg.mul(2).sub(1)).add(r3.rg.mul(2).sub(1).mul(0.6));
+    const tilt = canal ? 0.35 : 0.9;
+    const blended = vec3(slope.x.mul(tilt), slope.y.mul(tilt), 1).normalize().mul(0.5).add(0.5);
+    m.normalNode = normalMap(blended, vec2(1, 1));
+    // The sky seen in the water, strongest at a low angle as water is (Schlick's rule for a surface of index 1.33);
+    // the ripples break it up, so it moves with them.
+    const facing = normalView.dot(positionView.negate().normalize()).clamp(0, 1);
+    const fresnel = float(0.02).add(float(0.98).mul(float(1).sub(facing).pow(5)));
+    m.emissiveNode = vec3(0.5, 0.64, 0.78).mul(fresnel).mul(canal ? 0.45 : 0.62);
+    if (canal) {
+      m.colorNode = mix(vec3(0.012, 0.1, 0.1), vec3(0.04, 0.2, 0.18), r3.r.sub(0.5).mul(2).add(0.5).clamp(0, 1));
+    } else {
+      // How far from the middle of the river, 0 there and 1 at its edge (the river's line, as valley.ts draws it).
+      const x = positionWorld.x;
+      const centre = float(-150).add(sin(x.div(190).add(0.6)).mul(16)).add(sin(x.div(77).add(2)).mul(7)).sub(x.sub(500).max(0).mul(0.05));
+      const side = positionWorld.z.sub(centre).abs().div(RIVER_HALF + 6).clamp(0, 1);
+      const deep = vec3(0.012, 0.085, 0.1);
+      const shallow = vec3(0.09, 0.2, 0.16);
+      const water = mix(deep, shallow, smoothstep(0.45, 0.98, side));
+      // Foam: broken, along the banks only, drawn from the moving ripples so it drifts with the water.
+      const broken = r1.r.mul(r2.g);
+      const foam = smoothstep(0.8, 0.97, side).mul(smoothstep(0.25, 0.45, broken)).mul(0.55);
+      m.colorNode = mix(water, vec3(0.78, 0.82, 0.78), foam);
+      m.roughnessNode = mix(float(0.05), float(0.6), foam);
+    }
     m.ior = 1.33;
     return m;
   }
@@ -1113,6 +1159,11 @@ export class ValleyRenderer {
       if (f.ripe && f.standing > 0) for (const p of poly) targets.push([(p[0] * 2 + poly[2]![0]) / 3, (p[1] * 2 + poly[2]![1]) / 3]);
     }
     this.walkTargets = targets;
+    this.walkRoutes = [];
+    for (let i = 0; i < this.walkers; i++) {
+      const target = targets[i % Math.max(1, targets.length)] ?? [VILLAGE[0], VILLAGE[1]];
+      this.walkRoutes.push(this.wayBetween(this.homeOf(i), target));
+    }
 
     // A field that is being brought in has people at work in it: pickers at the olive trees, reapers in a line that
     // crosses the corn as it is cut. They are there because the harvest is, and go when it is done.
@@ -1173,6 +1224,7 @@ export class ValleyRenderer {
         tint.setRGB(0.86, 0.68, 0.26);
       }
     }
+    for (const s of spots) if (s.carrier) s.walk = this.wayBetween([s.x, s.z], s.to);
     this.workSpots = spots;
     const seedOfLand = this.options.seed;
     const la = this.ladders.instanceMatrix.array as Float32Array;
@@ -1275,20 +1327,19 @@ export class ValleyRenderer {
     const body = this.bodies.instanceMatrix.array as Float32Array;
     const seed = this.options.seed;
     const n = this.walkers;
+    const at = { x: 0, z: 0, yaw: 0 };
     for (let i = 0; i < n; i++) {
-      const target = this.walkTargets[i % Math.max(1, this.walkTargets.length)] ?? [VILLAGE[0], VILLAGE[1]];
-      const hx = VILLAGE[0] + ((i * 37) % 90) - 30;
-      const hz = VILLAGE[1] + ((i * 53) % 40) - 6;
-      const dist = Math.hypot(target[0] - hx, target[1] - hz) || 1;
-      const phase = ((still ? 0 : timeSeconds) * 1.5) / dist + (i * 0.37) % 1;
-      const k = Math.abs(((phase % 2) + 2) % 2 - 1);
-      const x = hx + (target[0] - hx) * k + Math.sin(i * 1.7) * 2;
-      const z = hz + (target[1] - hz) * k + Math.cos(i * 2.3) * 2;
-      const back = ((phase % 2) + 2) % 2 > 1;
-      const heading = Math.atan2(target[0] - hx, -(target[1] - hz)) + (back ? 0 : Math.PI);
-      const bob = still ? 0 : 0.04 * Math.abs(Math.sin(timeSeconds * 6 + i));
-      // A walker leans from foot to foot at the pace of the steps.
-      walkingMatrix(body, i * 16, x, heightAt(x, z, seed) + 0.05 + bob, z, heading, still ? 0 : 0.075 * Math.sin(timeSeconds * 6 + i), 1.15);
+      const walk = this.walkRoutes[i];
+      if (!walk) continue;
+      // Out along the way and back, at a walking pace of a metre and a half a second, each in its own time.
+      const u = ((still ? 0 : timeSeconds) * 1.5) / walk.length + (i * 0.37) % 1;
+      const phase = ((u % 2) + 2) % 2;
+      along(walk, (phase > 1 ? 2 - phase : phase) * walk.length, at);
+      const heading = at.yaw + (phase > 1 ? Math.PI : 0);
+      const step = timeSeconds * 6 + i;
+      const bob = still ? 0 : 0.04 * Math.abs(Math.sin(step));
+      walkingMatrix(body, i * 16, at.x, heightAt(at.x, at.z, seed) + 0.05 + bob, at.z, heading, still ? 0 : 0.04 * Math.sin(step), 1.15);
+      this.strides[i] = still ? 0 : 0.5 * Math.sin(step);
     }
     // The wheel, and the carts going out along the roads and back.
     const dt = this.lastTime ? Math.min(0.1, timeSeconds - this.lastTime) : 0;
@@ -1311,27 +1362,40 @@ export class ValleyRenderer {
       const z = a[1] + (b[1] - a[1]) * t;
       const dir = back ? -1 : 1;
       instanceMatrix(carts, i * 16, x, heightAt(x, z, seed) + 0.16, z, Math.atan2((b[0] - a[0]) * dir, (b[1] - a[1]) * dir), 1, 1, 1);
+      // The ox walks: legs on one diagonal forward while the other two go back.
+      const ox = this.oxLegs.instanceMatrix.array as Float32Array;
+      const swing = still ? 0 : 0.32 * Math.sin(timeSeconds * 3.2 + i);
+      OX_LEGS.forEach((j, k) => limbMatrix(ox, (i * 4 + k) * 16, carts, i * 16, j[0], j[1], j[2], k === 0 || k === 3 ? swing : -swing));
     }
     this.carts.instanceMatrix.needsUpdate = true;
+    this.oxLegs.instanceMatrix.needsUpdate = true;
     this.moveLife(still ? 0 : timeSeconds, seed);
     // People at the harvest: a picker reaches up and down, a reaper stoops and rises, a carrier goes to the store and back.
     let m = 0;
     for (const w of this.workSpots) {
       const o = (n + m) * 16;
       const beat = still ? 0 : timeSeconds * (w.reach ? 1.7 : 2.3) + m * 1.9;
-      if (w.carrier) {
-        const dist = Math.hypot(w.to[0] - w.x, w.to[1] - w.z) || 1;
-        const phase = ((still ? 0 : timeSeconds) * 1.3) / dist + (m * 0.29) % 1;
-        const k = Math.abs(((phase % 2) + 2) % 2 - 1);
-        const x = w.x + (w.to[0] - w.x) * k;
-        const z = w.z + (w.to[1] - w.z) * k;
-        const back = ((phase % 2) + 2) % 2 > 1;
-        walkingMatrix(body, o, x, heightAt(x, z, seed) + 0.05, z, Math.atan2(w.to[0] - w.x, -(w.to[1] - w.z)) + (back ? 0 : Math.PI), still ? 0 : 0.075 * Math.sin(timeSeconds * 6 + m), 1.15);
+      this.strides[n + m] = 0;
+      if (w.carrier && w.walk) {
+        const u = ((still ? 0 : timeSeconds) * 1.3) / w.walk.length + (m * 0.29) % 1;
+        const phase = ((u % 2) + 2) % 2;
+        along(w.walk, (phase > 1 ? 2 - phase : phase) * w.walk.length, at);
+        const step = timeSeconds * 6 + m;
+        walkingMatrix(body, o, at.x, heightAt(at.x, at.z, seed) + 0.05, at.z, at.yaw + (phase > 1 ? Math.PI : 0), still ? 0 : 0.04 * Math.sin(step), 1.15);
+        this.strides[n + m] = still ? 0 : 0.5 * Math.sin(step);
       } else if (w.reach) bendingMatrix(body, o, w.x, heightAt(w.x, w.z, seed) + 0.05 + 0.1 * Math.max(0, Math.sin(beat)), w.z, w.yaw + 0.25 * Math.sin(beat * 0.37), -0.12 * Math.max(0, Math.sin(beat)), 1.15);
       else bendingMatrix(body, o, w.x, heightAt(w.x, w.z, seed) + 0.05, w.z, w.yaw + 0.3 * Math.sin(beat * 0.5), 0.5 * (0.5 + 0.5 * Math.sin(beat)), 1.15);
       m++;
     }
     (this.heads.instanceMatrix.array as Float32Array).set(body.subarray(0, (n + m) * 16));
+    // Legs: two to each person, at the hips, swinging opposite ways as they step; still for one at work in a field.
+    const legs = this.legs.instanceMatrix.array as Float32Array;
+    for (let i = 0; i < n + m; i++) {
+      const s = this.strides[i]!;
+      PERSON_LEGS.forEach((j, side) => limbMatrix(legs, (i * 2 + side) * 16, body, i * 16, j[0], j[1], j[2], side ? -s : s));
+    }
+    this.legs.count = (n + m) * 2;
+    this.legs.instanceMatrix.needsUpdate = true;
     this.bodies.count = n + m;
     this.heads.count = n + m;
     this.bodies.instanceMatrix.needsUpdate = true;
@@ -1339,6 +1403,24 @@ export class ValleyRenderer {
     if (this.pipeline) this.pipeline.render();
     else this.renderer.render(this.scene, this.camera);
     this.cpuMs = performance.now() - t0;
+  }
+
+  /** Where walker i lives: a place in the village, the same each time. */
+  private homeOf(i: number): [number, number] {
+    return [VILLAGE[0] + ((i * 37) % 90) - 30 + Math.sin(i * 1.7) * 2, VILLAGE[1] + ((i * 53) % 40) - 6 + Math.cos(i * 2.3) * 2];
+  }
+
+  /** The way from one place to another round what stands between; a straight line if the valley has no grid. */
+  private wayBetween(from: readonly [number, number], to: readonly [number, number]): Walk {
+    const g = this.walkable;
+    if (!g) return walkOf([from, to]);
+    const key = `${Math.round(to[0])},${Math.round(to[1])}`;
+    let field = this.fields.get(key);
+    if (!field) {
+      field = fieldTo(g, to);
+      this.fields.set(key, field);
+    }
+    return walkOf(route(g, field, from, to) ?? [from, from]);
   }
 
   /**
@@ -1349,6 +1431,7 @@ export class ValleyRenderer {
   private moveLife(t: number, seed: number): void {
     // Flocks: each animal ambles about a spot of its own inside the pasture, and now and then lowers its head to graze.
     const flock = this.flocks.instanceMatrix.array as Float32Array;
+    const sheepLegs = this.sheepLegs.instanceMatrix.array as Float32Array;
     this.pastures.forEach((p, f) => {
       for (let k = 0; k < FLOCK; k++) {
         const i = f * FLOCK + k;
@@ -1360,9 +1443,12 @@ export class ValleyRenderer {
         const heading = Math.atan2(Math.cos(drift * 0.9 + i) * 0.9, -Math.sin(drift * 0.7 + i * 1.3) * 0.7);
         const size = 0.9 + ((i * 13) % 7) * 0.05;
         instanceMatrix(flock, i * 16, x, heightAt(x, z, seed) + 0.02, z, heading, size, size, size);
+        const amble = t === 0 ? 0 : 0.3 * Math.sin(t * 2.4 + i * 1.3);
+        SHEEP_LEGS.forEach((j, k) => limbMatrix(sheepLegs, (i * 4 + k) * 16, flock, i * 16, j[0], j[1], j[2], k === 0 || k === 3 ? amble : -amble));
       }
     });
     this.flocks.instanceMatrix.needsUpdate = true;
+    this.sheepLegs.instanceMatrix.needsUpdate = true;
     // Riders: out along a road and back at a trot, the rider seated on the horse's back.
     const horses = this.horses.instanceMatrix.array as Float32Array;
     const riders = this.riderBodies.instanceMatrix.array as Float32Array;
@@ -1386,9 +1472,14 @@ export class ValleyRenderer {
       const rise = Math.abs(Math.sin(t * 7 + i)) * 0.07;
       const y = heightAt(x, z, seed) + 0.05 + rise;
       instanceMatrix(horses, i * 16, x, y, z, heading, 1, 1, 1);
+      // A trot: the legs move in diagonal pairs.
+      const trot = t === 0 ? 0 : 0.42 * Math.sin(t * 7 + i);
+      const hl = this.horseLegs.instanceMatrix.array as Float32Array;
+      HORSE_LEGS.forEach((j, k) => limbMatrix(hl, (i * 4 + k) * 16, horses, i * 16, j[0], j[1], j[2], k === 0 || k === 3 ? trot : -trot));
       instanceMatrix(riders, i * 16, x, y + 0.86, z, heading, 0.95, 0.82, 0.95);
     }
     this.horses.instanceMatrix.needsUpdate = true;
+    this.horseLegs.instanceMatrix.needsUpdate = true;
     (this.riderHeads.instanceMatrix.array as Float32Array).set(riders);
     this.riderBodies.instanceMatrix.needsUpdate = true;
     this.riderHeads.instanceMatrix.needsUpdate = true;
@@ -1406,6 +1497,13 @@ export class ValleyRenderer {
     });
     this.gatePosts.forEach((g, j) => instanceMatrix(watch, (this.guardWalks.length + j) * 16, g[0]!, heightAt(g[0]!, g[1]!, seed) + 0.05, g[1]!, g[2]!, 1.15, 1.15, 1.15));
     (this.watchHeads.instanceMatrix.array as Float32Array).set(watch);
+    const wl = this.watchLegs.instanceMatrix.array as Float32Array;
+    for (let i = 0; i < this.guardWalks.length + this.gatePosts.length; i++) {
+      // Those on the wall pace; those at the gate stand.
+      const s = t === 0 || i >= this.guardWalks.length ? 0 : 0.45 * Math.sin(t * 5 + i);
+      PERSON_LEGS.forEach((j, side) => limbMatrix(wl, (i * 2 + side) * 16, watch, i * 16, j[0], j[1], j[2], side ? -s : s));
+    }
+    this.watchLegs.instanceMatrix.needsUpdate = true;
     (this.watchGear.instanceMatrix.array as Float32Array).set(watch);
     this.watchBodies.instanceMatrix.needsUpdate = true;
     this.watchHeads.instanceMatrix.needsUpdate = true;
