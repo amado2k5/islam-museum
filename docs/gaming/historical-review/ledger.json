@@ -1383,6 +1383,69 @@
     "R6"
    ],
    "editorApproved": null
+  },
+  {
+   "id": "HR-HH-41",
+   "game": "Hudhud",
+   "claim": "The al-Razi quest's narrator says: 'The museum's record says al-Razi's notebooks were edited in some twenty-five volumes as the book al-Hawi on medicine, and that what is in them is arranged by the parts of the body, from head to toe', and 'It says he took notes from many books, and that what he observed himself usually closes the sections, and often differs from what was said before him.' The notes at the end repeat this, and the fourth says the book itself fills some twenty-five volumes. The record's sentences (after the Encyclopaedia of Islam, 2nd edition, vol. 8, p. 516): 'His clinical research was methodical, as his notebooks show. They were edited in some twenty-five volumes as the Kitab al-Hawi fi al-tibb, at the instance of Ibn al-Amid, the vizier of Rukn al-Dawla' and 'The Hyderabad edition of 1955 contains al-Razi's extensive notes from a wide range of sources, organised anatomically from head to toe, and his own clinical observations, often at variance with received opinion, typically close the sections.'",
+   "context": "The al-Razi quest: the narrator's two answers (rz_notes_1, rz_own_1), the first sentence of the second note (rz_note_2) and the last sentence of the fourth (rz_note_4); the rule of the row (head to foot, and within a part what the books say first and what he saw himself last) rests on the same sentences",
+   "sources": [
+    "person/al-razi-abu-bakr",
+    "work/al-hawi-fi-al-tibb"
+   ],
+   "kind": "sourced",
+   "uncertainty": "A reviewer should check: (a) who edited the notebooks and when. The record says only that they 'were edited ... at the instance of Ibn al-Amid, the vizier of Rukn al-Dawla', and names no editor and no date; the game says 'were edited' and names neither, and does not say that al-Razi edited them himself (al-Razi's one imagined line, 'I keep my leaves from the head down to the foot', is invented and is entered in HR-HH-43). (b) Whether the order from head to toe is the notebooks' own or the editors': the record says it of the contents of 'the Hyderabad edition of 1955', and the game says it of what is in the notebooks. (c) Whether 'typically' bears the game's rule: the record says his own observations 'typically close the sections'; the game makes it a strict rule that a part's leaf of what he saw himself always comes last (said in HR-HH-43). (d) 'Notes from many books' and 'what was said before him' are the game's plain words for the record's 'notes from a wide range of sources' and 'received opinion'. Other museum records tell the Hawi's making and size differently, and the game uses none of them: invention/razi-hawi-comprehensive-compendium says al-Razi 'composed' al-Hawi by gathering his earlier writings and sources and 'collected his work into one comprehensive book', and that the book arranges its material 'from anatomy to diseases to drugs to surgery', not from head to toe; a later paragraph of the same person record, after a television programme (Tareq al-Suwaidan, al-Mubdi'un, episode 25), says al-Hawi was 'translated and printed in Italy in 1486 in twenty-five volumes'; and invention/al-razi-smallpox-measles reports Adamson's view that the Hawi is predominantly a collection of source excerpts, not a personal casebook. The record work/al-hawi-fi-al-tibb is a draft card that describes only a first volume beginning with the head. The book's title is written from the museum's labels except in English (the brief's 'al-Hawi on medicine'), Urdu, Turkish and Indonesian, whose labels are misspelt or translate the title word by word; the exceptions are listed in src/tests/leaves.gtest.ts.",
+   "author": "Claude Code (claude-sonnet-5-5), an AI agent",
+   "reviewer": null,
+   "decision": "historical review pending",
+   "approved": null,
+   "note": "",
+   "forReview": [
+    "R4",
+    "R6"
+   ],
+   "editorApproved": null
+  },
+  {
+   "id": "HR-HH-42",
+   "game": "Hudhud",
+   "claim": "The al-Razi quest's notes say: 'He headed the hospital of Rayy and then held the same post in Baghdad' and 'The record says a patient who arrived was first seen by an outer circle of students, then by an inner circle, and that the hardest cases were left for al-Razi himself.' The record's sentences (after the Encyclopaedia of Islam, 2nd edition, vol. 8, p. 516): 'He headed the hospital of Rayy before taking the corresponding post in Baghdad' and 'Others, the article adds, remark on his generosity and compassion: ... arriving patients first saw an outer circle of disciples, then an inner circle, leaving al-Razi himself to treat the hardest cases.' The invented child of the quest helps 'at the hospital', which no record names.",
+   "context": "The al-Razi quest: the second sentence of the second note (rz_note_2) and the third note (rz_note_3); the child's speaker label (rz_who_child)",
+   "sources": [
+    "person/al-razi-abu-bakr"
+   ],
+   "kind": "sourced",
+   "uncertainty": "A reviewer should check the sources behind the circles of students: the record gives them as what 'others' say, reported by the article, and does not name those others or their date; the game says 'the record says' and does not make it more certain than that. The game writes 'students' for the record's 'disciples', and 'were left for al-Razi himself' for 'leaving al-Razi himself to treat the hardest cases', dropping 'to treat' so that the quest carries no medical content. The hospitals: the game keeps the record's order (Rayy, then Baghdad) and names neither hospital. The same person record, in a later paragraph after a television programme (Tareq al-Suwaidan, al-Mubdi'un, episode 25), says that after his studies in Baghdad he returned to direct Rayy's hospital at Mansur ibn Ishaq's invitation, then headed Baghdad's Mu'tadidi hospital, 'moving between the two cities'; invention/razi-smallpox-treatise calls him the head of Baghdad's hospital; and invention/ibn-tulun-bimaristan reports a reference work proposing that a story of al-Razi choosing the site of the Adudi hospital confuses the names Adudi and Mu'tadidi. None of these is used. The museum's Turkish and Indonesian labels of Rayy ('Sulama', 'Irigasi') translate a word for watering and are not the city's name; the game writes 'Rayy', as the museum's Turkish and Indonesian pages mostly do.",
+   "author": "Claude Code (claude-sonnet-5-5), an AI agent",
+   "reviewer": null,
+   "decision": "historical review pending",
+   "approved": null,
+   "note": "",
+   "forReview": [
+    "R2",
+    "R4",
+    "R6"
+   ],
+   "editorApproved": null
+  },
+  {
+   "id": "HR-HH-43",
+   "game": "Hudhud",
+   "claim": "The loose leaves of a physician's notebook with the page of the Atlas among them, the desk, the four parts of the body the game chose (head, chest, belly and foot), the two kinds of leaf ('what the books say' and 'what he saw himself') made a strict alternation in which a part's leaf of what he saw himself always closes it, the three rows (four leaves of what the books say in Story; six leaves for the head, chest and foot in Explorer; eight in Challenge), the binding with a thread, the signs drawn on the leaves (a head outline with no face, a ribcage, a rounded belly, a footprint; a closed book and an open eye), the child who helps at the hospital and every line spoken, and al-Razi's one imagined line ('I keep my leaves from the head down to the foot, and I close each part with what I saw with my own eyes'), are invented for play. The quest carries no medical content on purpose: no illness, sign of illness, remedy, dose or advice appears in any string, in any language, and the first note says there is no medical advice in the game.",
+   "context": "The al-Razi quest as a whole (content/leaves.ts, sim/leaves.ts, art/leaves.ts, ui/leaves.ts and the row page ui/rowpage.ts shared with the paper of Samarkand; strings rz_*)",
+   "sources": [],
+   "kind": "reconstruction",
+   "uncertainty": "A game system and a made-up setting. A reviewer should check, in each of the seven languages, that nothing in the quest could be read as medical advice or as a claim about the body or its care: the parts of the body are names only and carry no content, and a test (src/tests/leaves.gtest.ts) refuses words of illness, pain, fever, remedy, drug, dose and bleeding in every rz_ string, allowing the word for medicine only in the book's title and the physician's craft. The record says his own observations 'typically' close the sections; the game makes this a rule without exceptions, and the four parts are the game's choice, not the Hawi's divisions (the fourth note says both are made simpler for play, and that the book fills some twenty-five volumes). Al-Razi's imagined line has him keep his leaves in this order himself; the record does not say who arranged the notes (see HR-HH-41). The child's speaker label reads 'an invented person', and al-Razi's reads 'in imagined words'. The pictures of the parts of the body are plain outlines and are not anatomical drawings.",
+   "author": "Claude Code (claude-sonnet-5-5), an AI agent",
+   "reviewer": null,
+   "decision": "historical review pending",
+   "approved": null,
+   "note": "",
+   "forReview": [
+    "R4",
+    "R6"
+   ],
+   "editorApproved": null
   }
  ],
  "roster": [

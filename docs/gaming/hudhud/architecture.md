@@ -7,15 +7,16 @@ _26 November 2026. Describes what is built for the golden scene and what the sam
 ```
 gaming/games/hudhud/
   index.html            the page: one stylesheet, one script, no inline style or script
-  i18n/<lang>.json      945 strings (27 November 2026, with the Alhambra quest; 866 before it, 793 before the journey of coffee and 209 when this was first written), the same keys in the same order in ar, en, ur, fr, es, tr, id
+  i18n/<lang>.json      1,017 strings (27 November 2026, with al-Razi's loose leaves; 945 with the Alhambra quest, 866 before it, 793 before the journey of coffee and 209 when this was first written), the same keys in the same order in ar, en, ur, fr, es, tr, id
   i18n-atlas/<lang>.json  the names of the ten worlds and the fifty subjects, a table of their own
   src/
     sim/                RULES. Pure, no Phaser, no DOM, no clock, no unseeded chance; run in Node
       light.ts            the beam on a grid: trace, turn a mirror, solve, generate from a seed
       chain.ts            a machine as a row of parts that hand a motion on: run, swap, solve, generate
-      chainquest.ts       the rules of a quest made of a row (moves, the fewest possible, flags, the four goals, a saved place proved on restore), over chain.ts, for any list of flags; shared by the two quests below
+      chainquest.ts       the rules of a quest made of a row (moves, the fewest possible, flags, the four goals, a saved place proved on restore), over chain.ts, for any list of flags; shared by the three quests below
       clock.ts            the elephant clock quest: its flags, over chainquest.ts
       paper.ts            the paper of Samarkand quest: its flags, over chainquest.ts
+      leaves.ts           al-Razi's loose leaves quest: its flags, over chainquest.ts (the leaves and their order are in content/leaves.ts)
       route.ts            Ibn Battuta's thread: a stage (beads and a road), go, peek, the four goals, a saved place proved on restore; its own rules, not chainquest's
       couple.ts           al-Tusi's two circles: a small circle carried round inside a large one, the path of a point on it traced and classed by measurement (line, circle, oval, loops), the settings a way of playing offers, turn, the four goals, a saved place proved on restore; its own rules
       sort.ts             sorting cards into groups: place, show (a showing with a card unplaced is refused and not counted), the four goals, a saved place proved on restore; generic over the cards, the groups and the answer map, used for the animal cards and the shelves of coffee
@@ -35,8 +36,9 @@ gaming/games/hudhud/
     scenes/workshop.ts  Phaser scene: builds the pictures, moves them from the state, measures itself
     game/boot.ts        starts and stops Phaser; sizes the canvas; counts draw calls when asked
     ui/app.ts, .css     the page: talk, goal, settings, pause, results, the scene in words, the test hook; one registry of the quests played on a page, and one helper (`calm`) for the three signals of reduced motion
+    ui/rowpage.ts       the page of a quest made of a row, shared by ui/paper.ts (the paper of Samarkand) and ui/leaves.ts (al-Razi's loose leaves), each a spec: its picture, row, rules, strings, questions and notes; art/leaves.ts uses the paper's row and hit-test (art/paper.ts)
     ui/sortpage.ts      the page of a sorting quest, shared by ui/sort.ts (the animal cards) and ui/coffee.ts (the shelves of coffee), each a spec: its picture, cards, strings, questions and notes
-    tests/*.gtest.ts    633 tests in twenty files (27 November 2026, with the Alhambra quest; 543 in nineteen before it, 126 when this was first written)
+    tests/*.gtest.ts    666 tests in twenty-one files (27 November 2026, with al-Razi's loose leaves; 633 in twenty with the Alhambra quest, 543 in nineteen before it, 126 when this was first written)
 gaming/tools/hudhud-play.ts     plays the scene in real Chrome and records everything
 gaming/tools/hudhud-rebuild.ts  rebuilds the game repeatedly and reads memory
 ```

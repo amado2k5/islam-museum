@@ -35,6 +35,9 @@ import { coffeeQuest, type CoffeeQuest } from "./coffee";
 import { CHANNELS_QUEST, CHANNELS_SUBJECT, channelsGrid } from "../content/channels";
 import { restoreChannels } from "../sim/channels";
 import { channelsQuest, type ChannelsQuest } from "./channels";
+import { LEAVES_QUEST, LEAVES_SUBJECT, leavesPuzzle } from "../content/leaves";
+import { restoreLeaves } from "../sim/leaves";
+import { leavesQuest, type LeavesQuest } from "./leaves";
 import { prologueScreen } from "./prologue";
 import { JAR, RECORDS, SCRIPTS, THINGS, TURN_SLACK, inPlay, type PlayStyle, type Speaker } from "../content/workshop";
 import { start, type Running } from "../game/boot";
@@ -850,10 +853,10 @@ async function main(): Promise<void> {
 
   applyLook();
   // ---------------------------------------------------------------------------------------- the Atlas
-  // The first thing a player sees: who they are, and the Atlas itself, ten worlds of five pages. Eleven quests can be
+  // The first thing a player sees: who they are, and the Atlas itself, ten worlds of five pages. Twelve quests can be
   // played; the others are named and said to be not built. Nothing here is a claim about history: the names are
   // the subjects' names and the grouping is a structure for play.
-  const BUILT: Record<string, string> = { "ibn-al-haytham": QUEST, "al-jazari": CLOCK_QUEST, "al-kindi": CIPHER_QUEST, "al-khwarizmi": ALGEBRA_QUEST, "al-idrisi": SHEETS_QUEST, [SORT_SUBJECT]: SORT_QUEST, [PAPER_SUBJECT]: PAPER_QUEST, [ROUTE_SUBJECT]: ROUTE_QUEST, [COUPLE_SUBJECT]: COUPLE_QUEST, [COFFEE_SUBJECT]: COFFEE_QUEST, [CHANNELS_SUBJECT]: CHANNELS_QUEST };
+  const BUILT: Record<string, string> = { "ibn-al-haytham": QUEST, "al-jazari": CLOCK_QUEST, "al-kindi": CIPHER_QUEST, "al-khwarizmi": ALGEBRA_QUEST, "al-idrisi": SHEETS_QUEST, [SORT_SUBJECT]: SORT_QUEST, [PAPER_SUBJECT]: PAPER_QUEST, [ROUTE_SUBJECT]: ROUTE_QUEST, [COUPLE_SUBJECT]: COUPLE_QUEST, [COFFEE_SUBJECT]: COFFEE_QUEST, [CHANNELS_SUBJECT]: CHANNELS_QUEST, [LEAVES_SUBJECT]: LEAVES_QUEST };
   function startQuest(): void {
     cues.unlock();
     // Asked once, after a press as browsers require; the answer is shown in the settings and never asked again.
@@ -968,6 +971,12 @@ async function main(): Promise<void> {
       trial: "ah_trial",
       saved: () => pageSaved(CHANNELS_QUEST, (snap) => restoreChannels(snap, channelsGrid)),
       make: (c, title, kept) => channelsQuest({ ...c, title, resume: kept as Parameters<typeof channelsQuest>[0]["resume"] }),
+    },
+    [LEAVES_QUEST]: {
+      subject: LEAVES_SUBJECT,
+      trial: "rz_trial",
+      saved: () => pageSaved(LEAVES_QUEST, (snap) => restoreLeaves(snap, leavesPuzzle)),
+      make: (c, title, kept) => leavesQuest({ ...c, title, resume: kept as Parameters<typeof leavesQuest>[0]["resume"] }),
     },
   };
   /** Opens a quest played on a page, with no flying scene. One left in the middle comes back. */
@@ -1215,6 +1224,9 @@ async function main(): Promise<void> {
     startChannels: () => openPage(CHANNELS_QUEST),
     channels: () => { const r = pageOf<ChannelsQuest>(CHANNELS_QUEST); return r ? { ...r.state(), busy: r.busy(), selected: r.selected(), status: r.status() } : null; },
     channelsCommand: (c: Parameters<ChannelsQuest["command"]>[0]) => pageOf<ChannelsQuest>(CHANNELS_QUEST)?.command(c),
+    startLeaves: () => openPage(LEAVES_QUEST),
+    leaves: () => { const r = pageOf<LeavesQuest>(LEAVES_QUEST); return r ? { ...r.state(), busy: r.busy(), selected: r.selected(), status: r.status() } : null; },
+    leavesCommand: (c: Parameters<LeavesQuest["command"]>[0]) => pageOf<LeavesQuest>(LEAVES_QUEST)?.command(c),
     resumed: () => resumed,
     keys: () => settings().keys,
     prologue: () => ({ shown: openingShown, panel: openingShown ? prologue.panel() : 0 }),

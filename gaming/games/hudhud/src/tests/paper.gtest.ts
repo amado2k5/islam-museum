@@ -454,8 +454,8 @@ describe("the words and the records", () => {
     expect([...sub.records].sort()).toEqual([...PAPER_RECORDS].sort());
     expect(sub.world).toBe("voices-wisdom-society");
   });
-  it("says in the hub that quests are built, in every language, and no longer six (the count itself is pinned in channels.gtest.ts)", () => {
-    expect(table("en").hub_note).toMatch(/(Seven|Eight|Nine|Ten|Eleven) quests are built/);
+  it("says in the hub that quests are built, in every language, and no longer six (the count itself is pinned in leaves.gtest.ts)", () => {
+    expect(table("en").hub_note).toMatch(/(Seven|Eight|Nine|Ten|Eleven|Twelve) quests are built/);
     for (const l of LANGS) expect(table(l).hub_note).not.toMatch(/\bsix quests|\bsix quêtes|\bseis misiones|\baltı görev|\benam misi|ست مهمات|چھ مہمیں/i);
   });
 });

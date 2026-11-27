@@ -54,12 +54,17 @@ describe("Hudhud's durable save", () => {
   });
   it("says saving, then saved, and saved only once the write is done", async () => {
     let release: () => void = () => undefined;
+    // The store tells the test when it has been asked to write, so that the test releases a write that has really
+    // begun. A fixed wait of a few milliseconds was not enough when the machine was busy: the save was still working
+    // out its checksum, the release did nothing, and the write waited until the test timed out.
+    let asked: () => void = () => undefined;
+    const reached = new Promise<void>((r) => (asked = r));
     const inner = memoryStore();
-    const slow: Store = { ...inner, put: (k, v) => new Promise<void>((res) => (release = () => void inner.put(k, v).then(res))) };
+    const slow: Store = { ...inner, put: (k, v) => new Promise<void>((res) => ((release = () => void inner.put(k, v).then(res)), asked())) };
     const { seen, h } = hooks();
     const d = await openDurable(slow, newSave(), 0, h);
     const writing = d.write(done(newSave(), "q1"), true);
-    await new Promise((r) => setTimeout(r, 5));
+    await reached;
     expect(d.status().state).toBe("saving");
     expect(seen.told).toEqual([]);
     release();

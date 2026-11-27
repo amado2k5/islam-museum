@@ -415,17 +415,17 @@ describe("the words", () => {
     for (const l of LANGS) expect(Object.keys(table(l)).filter((k) => k.startsWith("cq_")), l).toEqual(Object.keys(table("en")).filter((k) => k.startsWith("cq_")));
     for (const l of LANGS) for (const k of keys) expect([...(table(l)[k] ?? "").matchAll(/\{\w+\}/g)].map((m) => m[0]).sort(), `${l}:${k}`).toEqual([...(table("en")[k] ?? "").matchAll(/\{\w+\}/g)].map((m) => m[0]).sort());
   });
-  it("is appended at the end of each language's file, after the keys of the ninth quest, and only the next quest's keys (`ah_`) come after it", () => {
+  it("is appended at the end of each language's file, after the keys of the ninth quest, and only the next quests' keys (`ah_`, then `rz_`) come after it", () => {
     for (const l of LANGS) {
       const ks = Object.keys(table(l));
       const first = ks.findIndex((k) => k.startsWith("cq_"));
       expect(first, l).toBeGreaterThan(0);
       expect(ks.slice(first, first + ks.filter((k) => k.startsWith("cq_")).length).every((k) => k.startsWith("cq_")), l).toBe(true);
-      expect(ks.slice(first + ks.filter((k) => k.startsWith("cq_")).length).every((k) => k.startsWith("ah_")), l).toBe(true);
+      expect(ks.slice(first + ks.filter((k) => k.startsWith("cq_")).length).every((k) => k.startsWith("ah_") || k.startsWith("rz_")), l).toBe(true);
       expect(ks[first - 1]!.startsWith("ts_"), l).toBe(true);
     }
   });
-  it("no longer says in the hub that nine quests are built, in any language (the count itself is pinned in channels.gtest.ts)", () => {
+  it("no longer says in the hub that nine quests are built, in any language (the count itself is pinned in leaves.gtest.ts)", () => {
     for (const l of LANGS) expect(table(l).hub_note).not.toMatch(/\bnine quests|\bneuf quêtes|\bnueve misiones|\bdokuz görev|\bsembilan misi|تسع مهمات|نو مہمیں/i);
   });
   it("takes each name from the museum's records unless it is on a short list of named exceptions, which is exactly this list", () => {
@@ -486,8 +486,9 @@ describe("the two leftovers of the ninth quest", () => {
     // No page quest is given the game's setting alone.
     expect(app).not.toMatch(/reducedMotion: \(\) => settings\(\)\.reducedMotion/);
     expect(app).not.toMatch(/reducedMotion: \(\) => calm\(\)/);
-    // The three quests that read it: the clock, the paper and the two circles (and the road, which has the host's function and does not animate).
-    for (const f of ["clock", "paper", "couple"]) expect(readFileSync(here("ui", `${f}.ts`), "utf8"), f).toMatch(/host\.reducedMotion\(\)/);
+    // The quests that read it: the clock, the row page (shared by the paper and al-Razi's leaves) and the two circles (and the road, which has the host's function and does not animate).
+    for (const f of ["clock", "rowpage", "couple"]) expect(readFileSync(here("ui", `${f}.ts`), "utf8"), f).toMatch(/host\.reducedMotion\(\)/);
+    for (const f of ["paper", "leaves"]) expect(readFileSync(here("ui", `${f}.ts`), "utf8"), f).toMatch(/rowPage\(host, SPEC\)/);
   });
   it("draws the chosen radio button of a finished quest by shape (a ring with a solid disc and bold, underlined words) and not in the browser's pale disabled style", () => {
     const css = readFileSync(here("ui", "hudhud.css"), "utf8");
