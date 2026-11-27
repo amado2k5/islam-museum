@@ -16,6 +16,7 @@ import { nearestLink, neighbour, plotAt, plotCentre, plotName, type Dir, type Li
 import { icon } from "./icons";
 import { advice, aim, calendar, eventsInView, goals, isBuilding, ledger, overlay, plotInfo, plotProblems, project, researchList, showing, signed, stocks, type Line, type Projection, type Tint, type Tool, type Vars } from "./model";
 import { Stage } from "./stage";
+import { startGamepad } from "@im/platform/gamepad";
 import { TEXT_SIZES, applyTextSize, readTextSize, type TextSize } from "./text-size";
 
 const LANGS = ["ar", "en", "ur", "fr", "es", "tr", "id"] as const;
@@ -105,6 +106,9 @@ async function main(): Promise<void> {
 
   const app = document.getElementById("app") as HTMLElement;
   const canvas = document.getElementById("board") as HTMLCanvasElement;
+  // A controller: the left stick and the cross move the plot cursor, the right stick turns and tilts the view; A uses
+  // the tool, B goes back to looking, X undoes, Y opens the help, Back the plan, Start the overview.
+  startGamepad({ buttons: { 0: "Enter", 1: "Escape", 2: "u", 3: "h", 8: "m", 9: "o" }, move: ["ArrowUp", "ArrowRight", "ArrowDown", "ArrowLeft"], look: ["r", "e", "f", "q"] }, () => canvas);
   const hud = document.getElementById("hud") as HTMLElement;
   const tip = document.getElementById("tip") as HTMLElement;
   const toasts = document.getElementById("toasts") as HTMLElement;
@@ -663,6 +667,7 @@ async function main(): Promise<void> {
         el("h2", { textContent: t("help_title") }),
         el("ol", { class: "help" }, ...[1, 2, 3, 4, 5, 6].map((i) => el("li", { textContent: t(`help_${i}`) }))),
         el("p", { class: "muted", textContent: t("help_controls") }),
+        el("p", { class: "muted", textContent: t("help_pad") }),
         el("p", { class: "muted", textContent: `${t("help_7")} ${t("museum_note")}` }),
         el("div", { class: "settings" }, el("label", {}, t("language"), " ", langSelect), el("label", {}, t("graphics"), " ", qualitySelect), el("label", {}, t("text_size"), " ", textSizeSelect())),
         el(

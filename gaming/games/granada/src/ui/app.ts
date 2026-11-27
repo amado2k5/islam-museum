@@ -20,6 +20,7 @@ import { drawRegion, regionView, type RegionLayer, type RegionView } from "./reg
 import type { Stage } from "./stage";
 import { ESTATE, MARKET, STORE, heightAt } from "../view/valley";
 import { TEXT_SIZES, applyTextSize, readTextSize, type TextSize } from "./text-size";
+import { startGamepad } from "@im/platform/gamepad";
 import { advice, carryOver, chainView, foodToSpare, seasonFigures, warnings, catalogueRows, decisionRows, effectRows, fieldCards, marketRows, tradeView, questRows, riverOfYear, skyAhead, stocks, workRows, yesterday, type FieldCard, type WorkRow } from "./model";
 
 type Strings = Record<Exclude<keyof typeof en, "_meta">, string>;
@@ -1188,7 +1189,7 @@ async function main(): Promise<void> {
       h("label", { class: "quality" }, h("span", {}, t("text_size")), h("select", { id: "text-size", onchange: (e: Event) => applyTextSize((e.currentTarget as HTMLSelectElement).value as TextSize) }, ...(Object.keys(TEXT_SIZES) as TextSize[]).map((size) => h("option", { value: size, selected: size === readTextSize() }, t(`text_size_${size}`))))),
       // A game set aside by a build that could not read it, which this build can: it can be brought back.
       readAside(localStorage).status === "ok" && h("button", { type: "button", id: "bring-back", onclick: () => restoreAside(localStorage) && location.reload() }, t("save_bring_back")),
-      h("ul", { class: "plain", id: "help-more" }, ...(["help_ahead", "help_build", "help_trade", "help_choose", "help_years", "help_keys"] as const).filter((k) => k !== "help_build" || sc.catalogue).filter((k) => k !== "help_trade" || sc.trade).map((k) => h("li", {}, t(k)))),
+      h("ul", { class: "plain", id: "help-more" }, ...(["help_ahead", "help_build", "help_trade", "help_choose", "help_years", "help_keys", "help_pad"] as const).filter((k) => k !== "help_build" || sc.catalogue).filter((k) => k !== "help_trade" || sc.trade).map((k) => h("li", {}, t(k)))),
       h("p", { class: "note" }, t("simulation_note")),
       h("h3", {}, t("language")),
       h("p", { class: "langs" }, ...LANGS.map((code) => h("a", { href: `?lang=${code}`, lang: code, "aria-current": code === lang ? "true" : undefined }, LANG_NAMES[code]!))),
@@ -1363,6 +1364,9 @@ async function main(): Promise<void> {
         onLand: (x, z) => landClicked(x, z),
         onBuild: (x, z) => buildAt(x, z),
       });
+      // A controller: the left stick and the cross move over the land, the right stick turns and tilts the view,
+      // the shoulders zoom; A chooses, B steps back, X undoes, Y passes a day, Start pauses, Back opens the help.
+      startGamepad({ buttons: { 0: "Enter", 1: "Escape", 2: "u", 3: "n", 4: "-", 5: "+", 8: "h", 9: "p" }, move: ["ArrowUp", "ArrowRight", "ArrowDown", "ArrowLeft"], look: ["r", "e", "f", "q"] }, () => stage?.canvas ?? document.body, () => say(t("pad_connected")));
       stage.run();
       viewBar.hidden = false;
       setView(query.get("view") === "plan" ? "plan" : "3d");
