@@ -1,0 +1,73 @@
+{
+ "measured": "2026-11-27T17:16:58.068Z",
+ "machine": "this machine",
+ "seed": 3,
+ "seasonsPlayed": 20,
+ "commands": 43,
+ "outcome": "playing",
+ "households": 260,
+ "quality": "high",
+ "poses": {
+  "overview": {
+   "tx": 0,
+   "tz": -118,
+   "yaw": 0,
+   "pitch": 0.9,
+   "distance": 540
+  },
+  "close": {
+   "tx": -88,
+   "tz": -60,
+   "yaw": -0.5,
+   "pitch": 0.52,
+   "distance": 130
+  },
+  "start": {
+   "tx": -66,
+   "tz": -88,
+   "yaw": 0.32,
+   "pitch": 0.66,
+   "distance": 330
+  }
+ },
+ "views": {
+  "overview": {
+   "drawCalls": 108,
+   "triangles": 1948546,
+   "cpuRenderMs": 1.100000023841858,
+   "engine": "three r187 webgpu",
+   "pixels": [
+    1920,
+    1080
+   ],
+   "walkers": 120,
+   "frames": 749
+  },
+  "close": {
+   "drawCalls": 108,
+   "triangles": 1948546,
+   "cpuRenderMs": 1.199999988079071,
+   "engine": "three r187 webgpu",
+   "pixels": [
+    1920,
+    1080
+   ],
+   "walkers": 120,
+   "frames": 882
+  },
+  "start": {
+   "drawCalls": 108,
+   "triangles": 1948546,
+   "cpuRenderMs": 1,
+   "engine": "three r187 webgpu",
+   "pixels": [
+    1920,
+    1080
+   ],
+   "walkers": 120,
+   "frames": 1014
+  }
+ },
+ "pageErrors": [],
+ "note": "Draw calls and triangles as the renderer reports them in three fixed poses over the same policy-grown district. Frame times are not measured here."
+}
