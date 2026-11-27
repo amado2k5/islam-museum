@@ -4,8 +4,8 @@
 //
 // Usage: npx tsx --tsconfig tsconfig.json tools/hudhud-play.ts <out dir> [lang] [quality] [width] [height] [style] [scene]
 // The scene is "workshop" (the default: Ibn al-Haytham's workshop), "jazari" (al-Jazari's workshop and the elephant
-// clock, the second room on the room engine, 27 November 2026) or "tusi" (al-Tusi's observatory and the two circles, the
-// third room).
+// clock, the second room on the room engine, 27 November 2026), "tusi" (al-Tusi's observatory and the two circles, the
+// third room) or "khwarizmi" (al-Khwarizmi's room and the locked box, the fourth room).
 // It measures the machine it runs on. A pass here is not a pass on the museum's two reference machines.
 import { mkdirSync, writeFileSync } from "node:fs";
 import { resolve } from "node:path";
@@ -16,7 +16,7 @@ import { serveWorkspace } from "./serve";
 
 const [outArg, lang = "en", quality = "medium", w = "1920", h = "1080", style = "explorer", scene = "workshop"] = process.argv.slice(2);
 if (!outArg) throw new Error("usage: hudhud-play.ts <out dir> [lang] [quality] [width] [height] [style] [scene]");
-if (scene !== "workshop" && scene !== "jazari" && scene !== "tusi") throw new Error(`hudhud-play.ts: no scene called ${scene} (workshop, jazari or tusi)`);
+if (scene !== "workshop" && scene !== "jazari" && scene !== "tusi" && scene !== "khwarizmi") throw new Error(`hudhud-play.ts: no scene called ${scene} (workshop, jazari, tusi or khwarizmi)`);
 const out = resolve(outArg);
 mkdirSync(out, { recursive: true });
 const tag = `${scene === "workshop" ? "" : `${scene}-`}${lang}-${quality}-${w}x${h}`;
@@ -83,6 +83,7 @@ try {
   await shot("cover");
   if (scene === "jazari") await playJazari();
   else if (scene === "tusi") await playTusi();
+  else if (scene === "khwarizmi") await playKhwarizmi();
   else await playWorkshop();
 } catch (e) {
   report.failed = String(e);
@@ -465,6 +466,128 @@ async function playTusi(): Promise<void> {
   const reopen = async () => {
     await hk("h.toAtlas(); h.startTusi();");
     await page.waitForFunction("window.__HH__.tusi() !== null && window.__HH__.where() !== null", undefined, { timeout: 30000 });
+  };
+  await reopen();
+  await page.waitForTimeout(800);
+  const first = await cycle();
+  for (let i = 0; i < 9; i++) {
+    await reopen();
+    await page.waitForTimeout(300);
+  }
+  await page.waitForTimeout(800);
+  report.lifecycle = { afterOneOpening: first, afterTenOpenings: await cycle(), canvases: await page.evaluate("document.querySelectorAll('canvas').length") };
+}
+/**
+ * Al-Khwarizmi's room, played to its end by flight as a player would: the talks gone through with the keyboard, both
+ * questions, the kind answer and the feather under the box, one slip at a weight, frame times while the bird crosses the
+ * room and back, a lost graphics context, the fewest moves (restore, balance, share), the lit door walked to, and what
+ * opening the room ten times leaves behind.
+ */
+async function playKhwarizmi(): Promise<void> {
+  type Kw = { moves: number; slips: number; flags: string[]; done: boolean; talk: unknown; doorLit: boolean; sentence: string };
+  const kw = () => hk<Kw>("return h.khwarizmi();");
+  const noteKw = async (step: string) => {
+    const s = await kw();
+    route.push({ step, at: Date.now() - t0, where: await hk("return h.where();"), turns: s.moves, flags: s.flags, restored: s.done, dark: false, done: s.doorLit });
+  };
+  const roomTalk = async (pick: string[] = []) => {
+    const picks = [...pick];
+    for (let i = 0; i < 20 && (await kw()).talk !== null; i++) {
+      await page.waitForTimeout(350);
+      const choices = page.locator(".room-box .talk .choices button");
+      if ((await choices.count()) > 0) {
+        const want = picks.shift();
+        await (want ? choices.filter({ hasText: want }).first() : choices.last()).click();
+      } else await page.keyboard.press("Enter");
+    }
+    await page.waitForTimeout(250);
+  };
+  const fly = async (id: string, until: string) => {
+    await hk(`h.goTo(${JSON.stringify(id)});`);
+    await page.waitForFunction(`(() => { const h = window.__HH__; return ${until}; })()`, undefined, { timeout: 8000 });
+    await page.waitForTimeout(200);
+  };
+  const tStart = Date.now();
+  await page.locator(".hub button[data-quest='w02q2-al-khwarizmi']").click();
+  await page.waitForFunction("window.__HH__.khwarizmi() !== null && window.__HH__.where() !== null", undefined, { timeout: 30000 });
+  report.msFromPlayToScene = Date.now() - tStart;
+  await page.waitForTimeout(900);
+  await shot("intro-talk");
+  await noteKw("room open");
+  await roomTalk();
+
+  await fly("khwarizmi", "h.khwarizmi().talk !== null");
+  await shot("khwarizmi-talk");
+  await roomTalk(["Ask how he wrote problems", "Ask about the two operations"]);
+  await noteKw("asked al-Khwarizmi both questions");
+  await fly("child", "h.khwarizmi().talk !== null");
+  await roomTalk(["It is all right"]);
+  await noteKw("answered the child kindly");
+  await fly("box", "h.khwarizmi().flags.includes('feather')");
+  await shot("feather-under-the-box");
+  await roomTalk();
+  await noteKw("found the feather");
+
+  // One slip: the weight marked with a coin, when the numbers do not stand on both sides.
+  await fly("weight-number", "h.khwarizmi().slips === 1");
+  await shot("slip-at-a-weight");
+  await noteKw("a slip at a weight");
+
+  // Frame times while the bird crosses the whole room and back, with everything running.
+  await hk("h.resetFrames();");
+  await page.locator(".room-box .stage").focus();
+  for (const key of ["ArrowRight", "ArrowLeft"]) {
+    await page.keyboard.down(key);
+    for (let i = 0; i < 14; i++) {
+      await page.keyboard.down("Space");
+      await page.waitForTimeout(120);
+      await page.keyboard.up("Space");
+      await page.waitForTimeout(380);
+    }
+    await page.keyboard.up(key);
+  }
+  const heap = () => page.evaluate("performance.memory ? performance.memory.usedJSHeapSize : null") as Promise<number | null>;
+  report.benchmark = { route: "the whole width and back, hopping and flapping, 14 seconds", info: await hk("return h.info();"), heapBytes: await heap() };
+
+  // A lost graphics context, before the box is open: what the player sees, and whether the room comes back.
+  report.contextLoss = await page.evaluate(`(async () => {
+    const canvas = document.querySelector('.room-box .stage canvas');
+    const gl = canvas.getContext('webgl2') || canvas.getContext('webgl');
+    const ext = gl && gl.getExtension('WEBGL_lose_context');
+    if (!ext) return { tried: false };
+    ext.loseContext();
+    await new Promise((r) => setTimeout(r, 600));
+    const toast = document.querySelector('.toast') ? document.querySelector('.toast').textContent : null;
+    ext.restoreContext();
+    await new Promise((r) => setTimeout(r, 2500));
+    return { tried: true, toast, sceneBack: window.__HH__.where() !== null, slips: window.__HH__.khwarizmi().slips, sentence: window.__HH__.khwarizmi().sentence };
+  })()`);
+
+  // The fewest moves: restore the four taken from the first side, balance the things, share.
+  await fly("restore-left-number", "h.khwarizmi().moves === 1");
+  await shot("restored");
+  await fly("weight-things", "h.khwarizmi().moves === 2");
+  await shot("balanced");
+  await fly("scoop", "h.khwarizmi().done");
+  await page.waitForFunction("window.__HH__.khwarizmi().doorLit", undefined, { timeout: 15000 });
+  await page.waitForTimeout(600);
+  await shot("box-open");
+  await roomTalk();
+  await noteKw("the box is open");
+  report.puzzle = { sentence: (await kw()).sentence, moves: (await kw()).moves, slips: (await kw()).slips };
+  report.goals = await page.evaluate("JSON.parse(localStorage.getItem('im.hudhud.save.v1') || 'null')?.slots?.[0]?.quests?.['w02q2-al-khwarizmi'] ?? null");
+  await shot("results");
+  await page.locator(".room-box .stage").focus();
+  await page.keyboard.down("ArrowRight");
+  await page.waitForFunction("!document.querySelector('.hub').hidden", undefined, { timeout: 25000 }).finally(() => page.keyboard.up("ArrowRight"));
+  report.door = await hk("return h.lastDoor();");
+  report.save = await page.evaluate("JSON.parse(localStorage.getItem('im.hudhud.save.v1') || 'null')");
+
+  // Opening the room again and again: what it holds must not grow.
+  const cycle = async () => ({ ...(await hk<Record<string, unknown>>("const i = h.info(); return { textures: i.textures, textureBytes: i.textureBytes, objects: i.objects, tweens: i.tweens };")), heapBytes: await heap() });
+  const reopen = async () => {
+    await hk("h.toAtlas(); h.startKhwarizmi();");
+    await page.waitForFunction("window.__HH__.khwarizmi() !== null && window.__HH__.where() !== null", undefined, { timeout: 30000 });
   };
   await reopen();
   await page.waitForTimeout(800);

@@ -13,6 +13,8 @@ import { restoreRoom, type RoomCommand } from "../sim/jazariroom";
 import { jazariRoom, type JazariRoom } from "./jazari";
 import { restoreTusi, type TusiCommand } from "../sim/tusiroom";
 import { tusiRoom, type TusiRoom } from "./tusi";
+import { restoreKhwarizmi, type KhwarizmiCommand } from "../sim/khwarizmiroom";
+import { khwarizmiRoom, type KhwarizmiRoom } from "./khwarizmi";
 import { CIPHER_QUEST, cipherPuzzle } from "../content/cipher";
 import { restoreCipher } from "../sim/cipher";
 import { cipherQuest, type CipherQuest } from "./cipher";
@@ -196,11 +198,11 @@ async function main(): Promise<void> {
   // is open at a time: `pageRun` is the one that is (see PAGE_QUESTS).
   const bench = el("section", { class: "bench", hidden: true });
   let pageRun: { quest: string; run: { node: HTMLElement; busy(): boolean; stop(): void } } | null = null;
-  // A scene with a room of its own (al-Jazari's workshop and al-Tusi's observatory, since 27 November 2026) is opened
-  // like a page quest and shown here, as wide as the flying scene's stage. Its page quest stays as the way it is played
-  // without WebGL.
+  // A scene with a room of its own (al-Jazari's workshop, al-Tusi's observatory and al-Khwarizmi's room, since
+  // 27 November 2026) is opened like a page quest and shown here, as wide as the flying scene's stage. Its page quest
+  // stays as the way it is played without WebGL.
   const roomBox = el("section", { class: "room-box", hidden: true });
-  type AnyRoom = JazariRoom | TusiRoom;
+  type AnyRoom = JazariRoom | TusiRoom | KhwarizmiRoom;
   /** The open room, if a scene is being played in its room. */
   const openRoom = (): AnyRoom | null => (pageRun && "press" in pageRun.run ? (pageRun.run as unknown as AnyRoom) : null);
   /** The open room, if it is `quest`'s. */
@@ -1005,8 +1007,31 @@ async function main(): Promise<void> {
     [ALGEBRA_QUEST]: {
       subject: "al-khwarizmi",
       trial: "ak_trial",
+      // One kept place serves both: the room keeps the locked box's own snapshot.
       saved: () => pageSaved(ALGEBRA_QUEST, (snap) => restoreAlgebra(snap, algebraStart)),
       make: (c, title, kept) => algebraQuest({ ...c, title, resume: kept as Parameters<typeof algebraQuest>[0]["resume"] }),
+      // Al-Khwarizmi's room: the locked box played by flying, in a room of its own.
+      room: roomsOn,
+      makeRoom: (c, title) =>
+        khwarizmiRoom({
+          ...c,
+          title,
+          quality,
+          keeper: () => slot().keeper,
+          textSpeed: () => settings().textSpeed,
+          perf: query.get("perf") === "1",
+          intent: () => input.intent(),
+          bindHold: (b, what) => input.bindHold(b, what),
+          blocked: () => sheetOpen(),
+          sound,
+          toast,
+          // The goals are written into the save; the room's own door leads on (no corridor).
+          finish: (g) => pageFinish(ALGEBRA_QUEST, g),
+          through: () => moveOn(),
+          fallback: () => openPage(ALGEBRA_QUEST, inJourney, true),
+          resume: pageSaved(ALGEBRA_QUEST, restoreKhwarizmi),
+          keepPlace: (snap) => pageCheckpoint(ALGEBRA_QUEST, snap),
+        }),
     },
     [SHEETS_QUEST]: {
       subject: "al-idrisi",
@@ -1278,9 +1303,9 @@ async function main(): Promise<void> {
     if (inJourney !== null) strip.focus();
   }
   /** The door of whichever scene is open: lit or not, where it stands, and where the bird is. */
-  const doorNow = (): { lit: boolean; where: { x: number; y: number; reach: number } | null; bird: { x: number; y: number } | null; scene: "workshop" | "corridor" | "page" | "jazari" | "tusi" } | null => {
+  const doorNow = (): { lit: boolean; where: { x: number; y: number; reach: number } | null; bird: { x: number; y: number } | null; scene: "workshop" | "corridor" | "page" | "jazari" | "tusi" | "khwarizmi" } | null => {
     const room = openRoom();
-    if (room) return { ...room.door(), scene: pageRun?.quest === COUPLE_QUEST ? "tusi" : "jazari" };
+    if (room) return { ...room.door(), scene: pageRun?.quest === COUPLE_QUEST ? "tusi" : pageRun?.quest === ALGEBRA_QUEST ? "khwarizmi" : "jazari" };
     if (started) {
       const w = running?.scene()?.where() ?? null;
       return { lit: state.done, where: { ...DOOR }, bird: w ? { x: w.x, y: w.y } : null, scene: "workshop" };
@@ -1484,7 +1509,16 @@ async function main(): Promise<void> {
     startCipher: () => openPage(CIPHER_QUEST),
     cipher: () => { const r = pageOf<CipherQuest>(CIPHER_QUEST); return r ? { ...r.state(), busy: r.busy() } : null; },
     cipherCommand: (c: Parameters<CipherQuest["command"]>[0]) => pageOf<CipherQuest>(CIPHER_QUEST)?.command(c),
-    startAlgebra: () => openPage(ALGEBRA_QUEST),
+    // The locked box's page quest (the way it is played without WebGL), and al-Khwarizmi's room, where it is played by flying.
+    startAlgebra: () => openPage(ALGEBRA_QUEST, null, true),
+    startKhwarizmi: () => openPage(ALGEBRA_QUEST),
+    khwarizmi: () => {
+      const r = roomOf<KhwarizmiRoom>(ALGEBRA_QUEST);
+      if (!r) return null;
+      const v = r.view();
+      return { ...v.state.algebra, talk: v.state.talk, sentence: r.sentence(), doorLit: v.done, shown: r.running()?.scene()?.shown() ?? null };
+    },
+    khwarizmiCommand: (c: KhwarizmiCommand) => roomOf<KhwarizmiRoom>(ALGEBRA_QUEST)?.command(c),
     algebra: () => { const r = pageOf<AlgebraQuest>(ALGEBRA_QUEST); return r ? { ...r.state(), busy: r.busy(), sentence: r.sentence() } : null; },
     algebraCommand: (c: Parameters<AlgebraQuest["command"]>[0]) => pageOf<AlgebraQuest>(ALGEBRA_QUEST)?.command(c),
     startSheets: () => openPage(SHEETS_QUEST),
