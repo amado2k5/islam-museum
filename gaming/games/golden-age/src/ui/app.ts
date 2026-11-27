@@ -3,6 +3,7 @@
 // The 3D district is one way to play and the plan view is another; both send the same commands.
 import { loadMusicStrings, musicControl } from "@im/audio/control";
 import { MUSIC_AVAILABLE, MUSIC_BASE, MusicPlayer } from "@im/audio/player";
+import { Effects, type Effect } from "@im/audio/effects";
 import { installCounters } from "@im/kernel/counters";
 import { probeWebGPU } from "@im/kernel/capability";
 import links from "../../data/museum-links.v1.json";
@@ -105,6 +106,7 @@ async function main(): Promise<void> {
   if (skip) skip.textContent = t("skip");
 
   const app = document.getElementById("app") as HTMLElement;
+  const effects = new Effects();
   const canvas = document.getElementById("board") as HTMLCanvasElement;
   // A controller: the left stick and the cross move the plot cursor, the right stick turns and tilts the view; A uses
   // the tool, B goes back to looking, X undoes, Y opens the help, Back the plan, Start the overview.
@@ -243,6 +245,9 @@ async function main(): Promise<void> {
   };
   function dispatch(cmd: Command, dug: [number, number] | null = null): void {
     const before = state;
+    const sound: Partial<Record<Command["type"], Effect>> = { build: "build", canal: "water", demolish: "build", "clear-silt": "water", endow: "coin", borrow: "coin", "end-season": "season", tax: "tap", research: "tap" };
+    const effect = sound[cmd.type];
+    if (effect) effects.play(effect);
     state = step(scenario, state, cmd);
     if (cmd.type === "end-season") undoStack = [];
     else undoStack.push(before);
@@ -271,6 +276,7 @@ async function main(): Promise<void> {
     }
   }
   function refuse(reason: string | undefined): void {
+    effects.play("refuse");
     const text = t(`reason_${reason ?? "same"}`);
     say(text);
     toast(text, "bad");
@@ -669,6 +675,7 @@ async function main(): Promise<void> {
         el("p", { class: "muted", textContent: t("help_controls") }),
         el("p", { class: "muted", textContent: t("help_pad") }),
         el("p", { class: "muted", textContent: `${t("help_7")} ${t("museum_note")}` }),
+        el("label", { class: "check" }, (() => { const c = el("input", { type: "checkbox", id: "effects-on", checked: effects.on, onchange: () => effects.set(c.checked) }) as HTMLInputElement; return c; })(), " ", t("effects_label")),
         el("div", { class: "settings" }, el("label", {}, t("language"), " ", langSelect), el("label", {}, t("graphics"), " ", qualitySelect), el("label", {}, t("text_size"), " ", textSizeSelect())),
         el(
           "div",
