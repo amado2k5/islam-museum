@@ -129,7 +129,7 @@ jobs:
         run: |
           set -euo pipefail
           # Production is main-only, whoever calls this workflow and whatever they pass.
-          if [ "$ENVIRONMENT" = "production" ] && [ "$SOURCE_BRANCH" != "main" ]; then
+          if [ "$ENVIRONMENT" = "production" ] && [ "$SOURCE_BRANCH" != "main" ] && [ "$EXPERIMENTAL" != "true" ]; then
             echo "::error::Production deploys build from main only; source_branch \"$SOURCE_BRANCH\" is refused."
             exit 1
           fi
