@@ -38,6 +38,18 @@ ASSETS = [
     {"id": "golden-age/school", "game": "golden-age", "title": "A school's teaching hall: an arcade of five bays and a plaster dome", "script": "blender/golden_age_buildings.py", "folder": "golden-age", "entry": "school.gltf"},
     {"id": "golden-age/hospital", "game": "golden-age", "title": "A hospital's main ward: two storeys behind an arcade", "script": "blender/golden_age_buildings.py", "folder": "golden-age", "entry": "hospital.gltf"},
 ]
+# The painted ground-detail atlas is not a model: one image, made of the AI-painted tiles Codex delivered to the
+# museum's brief. It travels the same media path as the models, recorded here file by file like them.
+IMAGES = [
+    {
+        "id": "granada/ground-atlas",
+        "game": "granada",
+        "title": "The valley's painted ground detail: ploughed earth, green and ripe wheat, stubble, vegetable beds, dry grass, riverbank, dirt road, cobbles, in one atlas",
+        "script": "make_ground_atlas.py",
+        "files": ["granada/ground-atlas.jpg"],
+        "madeBy": "AI image (ChatGPT Codex), painted to the museum's brief; draft, pending the founder's look. The tiles' prompts and checksums: /Users/ahmedabdelaal/Documents/islam-museum-game-art/manifest.jsonl",
+    },
+]
 SOURCES = HERE / "sources.json"
 
 
@@ -79,6 +91,27 @@ def describe(asset):
     }
 
 
+def describe_image(asset):
+    files = [MODELS / f for f in asset["files"]]
+    if not all(f.exists() for f in files):
+        return None
+    return {
+        "id": asset["id"],
+        "game": asset["game"],
+        "title": asset["title"],
+        "madeBy": asset["madeBy"],
+        "licence": "the museum's media of its own, CC BY-SA 4.0; the making is draft and awaits the founder's acceptance",
+        "surfaces": [],
+        "sources": [{"path": "art/make_ground_atlas.py", "sha256": sha(HERE / "make_ground_atlas.py")}],
+        "objects": [],
+        "placed": {},
+        "materials": [],
+        "triangles": 0,
+        "bytes": sum(f.stat().st_size for f in files),
+        "files": [{"path": str(f.resolve().relative_to(MODELS.resolve())), "bytes": f.stat().st_size, "sha256": sha(f)} for f in files],
+    }
+
+
 def blender_version():
     try:
         return subprocess.run(["blender", "--version"], capture_output=True, text=True, timeout=60).stdout.splitlines()[0]
@@ -89,7 +122,7 @@ def blender_version():
 def main():
     target = HERE / "manifest.json"
     old = json.loads(target.read_text()) if target.exists() else {}
-    built = [d for d in (describe(a) for a in ASSETS) if d]
+    built = [d for d in (describe(a) for a in ASSETS) if d] + [d for d in (describe_image(a) for a in IMAGES) if d]
     if not built:
         sys.exit("no asset has been built on this machine: run `npm run art:mill` first")
     manifest = {"format": "im.play.art", "version": 1, "tool": blender_version() or old.get("tool"), "where": "gaming/media/models/ on a machine that has run the scripts; not in git", "assets": built}

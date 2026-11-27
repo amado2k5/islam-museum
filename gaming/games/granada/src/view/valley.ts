@@ -132,6 +132,9 @@ const PLOT_STYLE: Record<PlotKind, { base: Rgb; row: Rgb; strength: number; spac
   stubble: { base: [0.5, 0.4, 0.19], row: [0.66, 0.56, 0.29], strength: 0.6, spacing: 1.4 },
   orchard: { base: [0.17, 0.25, 0.09], row: [0.3, 0.24, 0.15], strength: 0.3, spacing: 10 },
 };
+/** The atlas slot whose painted detail fits each kind of plot. The slots are the contract of art/make_ground_atlas.py:
+ * 0 ploughed earth, 1 green wheat, 2 ripe wheat, 3 stubble, 4 vegetable beds, 5 dry grass, 6 riverbank, 7 dirt road. */
+export const PLOT_ATLAS_SLOT: Record<PlotKind, number> = { green: 4, young: 1, ploughed: 0, stubble: 3, orchard: 0 };
 function plotOfCell(cu: number, cv: number, seed: number): { kind: PlotKind; tone: number } {
   const r = latticeHash(cu, cv, seed + 77);
   const kind: PlotKind = r < 0.3 ? "green" : r < 0.48 ? "young" : r < 0.62 ? "ploughed" : r < 0.78 ? "stubble" : "orchard";
@@ -153,9 +156,9 @@ export function plotPoint(U: number, V: number): Pt {
 export interface PlotTable {
   width: number;
   height: number;
-  /** RGBA, sRGB: the ground of each plot. */
+  /** RGBA, sRGB: the ground of each plot; alpha is the plot's ground-atlas slot. */
   base: Uint8Array;
-  /** RGBA, sRGB: the colour of its rows. */
+  /** RGBA, sRGB: the colour of its rows; alpha is the plot's shade (its variety of tone), scaled by 128. */
   row: Uint8Array;
   /** RGBA, plain numbers: red is how strong the rows are, green their spacing (of 12 m), blue which way they run. */
   params: Uint8Array;
@@ -177,7 +180,10 @@ export function plotTable(seed: number): PlotTable {
         base[o + c] = srgb8(style.base[c]! * shade);
         row[o + c] = srgb8(style.row[c]! * shade);
       }
-      base[o + 3] = row[o + 3] = params[o + 3] = 255;
+      // The base texel's alpha carries the plot's atlas slot, for the painted ground detail to answer its kind.
+      base[o + 3] = PLOT_ATLAS_SLOT[plot.kind];
+      row[o + 3] = Math.round(shade * 128);
+      params[o + 3] = 255;
       params[o] = Math.round(style.strength * 255);
       params[o + 1] = Math.round((style.spacing / 12) * 255);
       params[o + 2] = latticeHash(i + u0, j + v0, seed + 9) < 0.5 ? 0 : 255;
