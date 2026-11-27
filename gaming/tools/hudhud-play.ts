@@ -6,7 +6,8 @@
 // The scene is "workshop" (the default: Ibn al-Haytham's workshop), "jazari" (al-Jazari's workshop and the elephant
 // clock, the second room on the room engine, 27 November 2026), "tusi" (al-Tusi's observatory and the two circles, the
 // third room), "khwarizmi" (al-Khwarizmi's room and the locked box, the fourth room), "kindi" (al-Kindi's room and the
-// secret page, the fifth room) or "idrisi" (al-Idrisi's hall and the scattered sheets, the sixth room).
+// secret page, the fifth room), "idrisi" (al-Idrisi's hall and the scattered sheets, the sixth room) or "razi" (al-Razi's
+// study and the loose leaves, the seventh room).
 // It measures the machine it runs on. A pass here is not a pass on the museum's two reference machines.
 import { mkdirSync, writeFileSync } from "node:fs";
 import { resolve } from "node:path";
@@ -17,7 +18,7 @@ import { serveWorkspace } from "./serve";
 
 const [outArg, lang = "en", quality = "medium", w = "1920", h = "1080", style = "explorer", scene = "workshop"] = process.argv.slice(2);
 if (!outArg) throw new Error("usage: hudhud-play.ts <out dir> [lang] [quality] [width] [height] [style] [scene]");
-if (scene !== "workshop" && scene !== "jazari" && scene !== "tusi" && scene !== "khwarizmi" && scene !== "kindi" && scene !== "idrisi") throw new Error(`hudhud-play.ts: no scene called ${scene} (workshop, jazari, tusi, khwarizmi, kindi or idrisi)`);
+if (scene !== "workshop" && scene !== "jazari" && scene !== "tusi" && scene !== "khwarizmi" && scene !== "kindi" && scene !== "idrisi" && scene !== "razi") throw new Error(`hudhud-play.ts: no scene called ${scene} (workshop, jazari, tusi, khwarizmi, kindi, idrisi or razi)`);
 const out = resolve(outArg);
 mkdirSync(out, { recursive: true });
 const tag = `${scene === "workshop" ? "" : `${scene}-`}${lang}-${quality}-${w}x${h}`;
@@ -87,6 +88,7 @@ try {
   else if (scene === "khwarizmi") await playKhwarizmi();
   else if (scene === "kindi") await playKindi();
   else if (scene === "idrisi") await playIdrisi();
+  else if (scene === "razi") await playRazi();
   else await playWorkshop();
 } catch (e) {
   report.failed = String(e);
@@ -861,6 +863,153 @@ async function playIdrisi(): Promise<void> {
   const reopen = async () => {
     await hk("h.toAtlas(); h.startIdrisi();");
     await page.waitForFunction("window.__HH__.idrisi() !== null && window.__HH__.where() !== null", undefined, { timeout: 30000 });
+  };
+  await reopen();
+  await page.waitForTimeout(800);
+  const first = await cycle();
+  for (let i = 0; i < 9; i++) {
+    await reopen();
+    await page.waitForTimeout(300);
+  }
+  await page.waitForTimeout(800);
+  report.lifecycle = { afterOneOpening: first, afterTenOpenings: await cycle(), canvases: await page.evaluate("document.querySelectorAll('canvas').length") };
+}
+/**
+ * Al-Razi's study, played to its end by flight as a player would: the talks gone through with the keyboard, both
+ * questions, the kind answer and the feather between the leaves of the bundle, a leaf lifted and put down again, the wrong
+ * row bound once at the frame, frame times while the bird crosses the study and back, a lost graphics context, the row
+ * put in order by exchanges made by flight (each worked out from the study's own state) and bound, the lit door walked
+ * to, and what opening the study ten times leaves behind.
+ */
+async function playRazi(): Promise<void> {
+  type Rz = { places: string[]; moves: number; runs: number; flags: string[]; done: boolean; talk: unknown; doorLit: boolean; lifted: number | null; busy: boolean; style: string; puzzle: { start: string; parts: { id: string; takes: string; gives: string }[] } };
+  const rz = () => hk<Rz>("return h.razi();");
+  const noteRz = async (step: string) => {
+    const s = await rz();
+    route.push({ step, at: Date.now() - t0, where: await hk("return h.where();"), turns: s.moves, flags: s.flags, restored: s.done, dark: false, done: s.doorLit });
+  };
+  const roomTalk = async (pick: string[] = []) => {
+    const picks = [...pick];
+    for (let i = 0; i < 20 && (await rz()).talk !== null; i++) {
+      await page.waitForTimeout(350);
+      const choices = page.locator(".room-box .talk .choices button");
+      if ((await choices.count()) > 0) {
+        const want = picks.shift();
+        await (want ? choices.filter({ hasText: want }).first() : choices.last()).click();
+      } else await page.keyboard.press("Enter");
+    }
+    await page.waitForTimeout(250);
+  };
+  const fly = async (id: string, until: string) => {
+    await hk(`h.goTo(${JSON.stringify(id)});`);
+    await page.waitForFunction(`(() => { const h = window.__HH__; return ${until}; })()`, undefined, { timeout: 8000 });
+    await page.waitForTimeout(200);
+  };
+  /** The order that binds, read from the leaves themselves: each takes what the one before gives. */
+  const answer = (s: Rz): string[] => {
+    const out: string[] = [];
+    let carrying = s.puzzle.start;
+    for (let i = 0; i < s.places.length; i++) {
+      const part = s.puzzle.parts.find((p) => p.takes === carrying && !out.includes(p.id))!;
+      out.push(part.id);
+      carrying = part.gives;
+    }
+    return out;
+  };
+  const tStart = Date.now();
+  await page.locator(".hub button[data-quest='w04q4-al-razi']").click();
+  await page.waitForFunction("window.__HH__.razi() !== null && window.__HH__.where() !== null", undefined, { timeout: 30000 });
+  report.msFromPlayToScene = Date.now() - tStart;
+  await page.waitForTimeout(900);
+  await shot("intro-talk");
+  await noteRz("study open");
+  await roomTalk();
+
+  await fly("razi", "h.razi().talk !== null");
+  await shot("razi-talk");
+  await roomTalk(["Ask about his notebooks", "Ask about what he saw himself"]);
+  await noteRz("asked al-Razi both questions");
+  await fly("child", "h.razi().talk !== null");
+  await roomTalk(["It is all right"]);
+  await noteRz("answered the child kindly");
+  await fly("bundle", "h.razi().flags.includes('feather')");
+  await shot("feather-in-the-bundle");
+  await roomTalk();
+  await noteRz("found the feather");
+
+  // A leaf lifted and put down again: no move. Then the wrong row bound once at the frame.
+  await fly("place-0", "h.razi().lifted === 0");
+  await shot("leaf-lifted");
+  await fly("place-0", "h.razi().lifted === null");
+  await noteRz("a leaf lifted and put down");
+  await fly("frame", "h.razi().runs === 1");
+  await page.waitForFunction("!window.__HH__.razi().busy", undefined, { timeout: 15000 });
+  await shot("wrong-row-bound");
+  await noteRz("the wrong row bound");
+
+  // Frame times while the bird crosses the whole study and back, with everything running.
+  await hk("h.resetFrames();");
+  await page.locator(".room-box .stage").focus();
+  for (const key of ["ArrowRight", "ArrowLeft"]) {
+    await page.keyboard.down(key);
+    for (let i = 0; i < 14; i++) {
+      await page.keyboard.down("Space");
+      await page.waitForTimeout(120);
+      await page.keyboard.up("Space");
+      await page.waitForTimeout(380);
+    }
+    await page.keyboard.up(key);
+  }
+  const heap = () => page.evaluate("performance.memory ? performance.memory.usedJSHeapSize : null") as Promise<number | null>;
+  report.benchmark = { route: "the whole width and back, hopping and flapping, 14 seconds", info: await hk("return h.info();"), heapBytes: await heap() };
+
+  // A lost graphics context, before the row is in order: what the player sees, and whether the study comes back.
+  report.contextLoss = await page.evaluate(`(async () => {
+    const canvas = document.querySelector('.room-box .stage canvas');
+    const gl = canvas.getContext('webgl2') || canvas.getContext('webgl');
+    const ext = gl && gl.getExtension('WEBGL_lose_context');
+    if (!ext) return { tried: false };
+    ext.loseContext();
+    await new Promise((r) => setTimeout(r, 600));
+    const toast = document.querySelector('.toast') ? document.querySelector('.toast').textContent : null;
+    ext.restoreContext();
+    await new Promise((r) => setTimeout(r, 2500));
+    return { tried: true, toast, sceneBack: window.__HH__.where() !== null, moves: window.__HH__.razi().moves, places: window.__HH__.razi().places };
+  })()`);
+
+  // The row put in order by exchanges made by flight: for the first wrong place, the place where its right leaf stands.
+  const want = answer(await rz());
+  for (let i = 0; i < 20; i++) {
+    const s = await rz();
+    const p = s.places.findIndex((id, k) => id !== want[k]);
+    if (p < 0) break;
+    const moves = s.moves;
+    await fly(`place-${p}`, `h.razi().lifted === ${p}`);
+    await fly(`place-${s.places.indexOf(want[p]!)}`, `h.razi().moves === ${moves + 1}`);
+    if (i === 0) await shot("exchanging");
+  }
+  await fly("frame", "h.razi().runs === 2");
+  await page.waitForTimeout(1600);
+  await shot("binding");
+  await page.waitForFunction("window.__HH__.razi().doorLit", undefined, { timeout: 15000 });
+  await page.waitForTimeout(600);
+  await shot("notebook-bound");
+  await roomTalk();
+  await noteRz("the notebook is bound");
+  report.puzzle = { moves: (await rz()).moves, runs: (await rz()).runs };
+  report.goals = await page.evaluate("JSON.parse(localStorage.getItem('im.hudhud.save.v1') || 'null')?.slots?.[0]?.quests?.['w04q4-al-razi'] ?? null");
+  await shot("results");
+  await page.locator(".room-box .stage").focus();
+  await page.keyboard.down("ArrowRight");
+  await page.waitForFunction("!document.querySelector('.hub').hidden", undefined, { timeout: 25000 }).finally(() => page.keyboard.up("ArrowRight"));
+  report.door = await hk("return h.lastDoor();");
+  report.save = await page.evaluate("JSON.parse(localStorage.getItem('im.hudhud.save.v1') || 'null')");
+
+  // Opening the study again and again: what it holds must not grow.
+  const cycle = async () => ({ ...(await hk<Record<string, unknown>>("const i = h.info(); return { textures: i.textures, textureBytes: i.textureBytes, objects: i.objects, tweens: i.tweens };")), heapBytes: await heap() });
+  const reopen = async () => {
+    await hk("h.toAtlas(); h.startRazi();");
+    await page.waitForFunction("window.__HH__.razi() !== null && window.__HH__.where() !== null", undefined, { timeout: 30000 });
   };
   await reopen();
   await page.waitForTimeout(800);

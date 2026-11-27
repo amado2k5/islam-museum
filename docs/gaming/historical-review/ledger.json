@@ -1639,6 +1639,26 @@
     "R5"
    ],
    "editorApproved": null
+  },
+  {
+   "id": "HR-HH-52",
+   "game": "Hudhud",
+   "claim": "Al-Razi's study as a room the bird flies through: the study itself (a quiet room with three tall arched windows on a late afternoon sky, a tall bookcase of books shown as coloured spines with no writing and of bound notebooks with plain covers, and a low cupboard of bound notebooks), the long desk on which the places of the notebook stand in a row as plain wooden slots numbered by dots, each holding a leaf drawn by the page quest's own code (a sign for a part of the body with no face, and a closed book or an open eye for its kind), the plain binding frame with a spool of red thread at the end of the desk that is touched to bind the notebook, the thread run through the leaves that hold, the bundle of blank loose leaves on top of the bookcase with the feather between them, lifting a leaf and touching another place as the game's way of making the page's exchanges touchable, al-Razi drawn as a cut-out in code (the same cut-out as the workshop's scholar, in walnut brown and ochre), the child who helps drawn as a cut-out holding two blank leaves, and the study's three new spoken lines ('Welcome to my study. Ask what you like; the leaves will wait on the desk.', 'Thank you. Now to the desk.' and 'Go well. The head comes first, and the foot comes last.') are invented for play. Nothing medical is drawn or said: no bottle, jar, instrument, patient or bed is in the room, on purpose. Nothing else is said about al-Razi, his notebooks or the hospital of Rayy beyond the loose leaves' own lines and notes (HR-HH-41 to HR-HH-43), and the study's own note says the room, the desk, the leaves on it and the binding frame are invented for play, that they are not a picture of the hospital of Rayy or of where al-Razi worked, and that there is no medical advice in the game.",
+   "context": "Al-Razi's study (scenes/razi.ts, art/razi.ts, content/razi-room.ts, sim/raziroom.ts, ui/razi.ts; strings rzr_*, note rzr_note_room); the loose leaves' rules, three rows, three ways of playing, words, the rule that the quest carries no medical content, and its notes are unchanged (sim/leaves.ts over sim/chainquest.ts, content/leaves.ts, rz_*)",
+   "sources": [],
+   "kind": "reconstruction",
+   "uncertainty": "A made-up setting and three imagined lines. The desk, its slots and the binding frame are only the game's controls for the page quest's own moves (exchanging two leaves, and binding the notebook) and stand for no desk, tool or practice of al-Razi's and claim none; a frame with cords is a bookbinder's, chosen because the quest's own button already says 'Bind the notebook', not because any record says how his notebooks were bound. The quest's own notes (rz_note_1, rz_note_4) already say that the leaves, their signs and the four parts of the body are the game's own; the study keeps to that. A reviewer should check that nothing in the room can be taken for a picture of the hospital of Rayy, of a place of treatment or of any instrument or remedy: there is no bottle, jar, instrument, patient or bed, the books and notebooks carry no writing, the loose leaves in the bundle are blank, every leaf on the desk is drawn by the same code as the page quest's picture (a test holds the study's leaves to that drawing, call for call), and the study's note (rzr_note_room, in all seven languages) says the room is invented, is not a picture of the hospital or of where he worked, and that there is no medical advice; the quest's test that forbids words of illness or remedy now covers the study's strings too. Al-Razi's figure is not a likeness and claims none; his speaker label reads 'in imagined words'. The child's label reads 'an invented person'. The three new lines say nothing about history. A reviewer should also check the study's machine translations in the six languages other than English.",
+   "author": "Claude Code (claude-sonnet-5-5), an AI agent",
+   "reviewer": null,
+   "decision": "historical review pending",
+   "approved": null,
+   "note": "",
+   "forReview": [
+    "R3",
+    "R4",
+    "R6"
+   ],
+   "editorApproved": null
   }
  ],
  "roster": [

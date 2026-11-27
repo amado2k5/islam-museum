@@ -121,7 +121,7 @@ export const THINGS: Thing[] = [
  */
 export const DOOR = { x: 2342, y: WORLD.floor - 70, reach: 110 } as const;
 export const inPlay = (t: Thing, puzzle: LightPuzzle): boolean => t.kind !== "mirror" || puzzle.mirrors.some((m) => `mirror-${m.id}` === t.id);
-export const START_AT = { hudhud: { x: 250, y: WORLD.floor }, keeper: { x: 170, y: WORLD.floor }, scholar: { x: 560, y: WORLD.floor }, cat: { x: 1060, y: 568 } } as const;
+export const START_AT = { hudhud: { x: 250, y: WORLD.floor }, keeper: { x: 106, y: WORLD.floor }, scholar: { x: 560, y: WORLD.floor }, cat: { x: 1060, y: 568 } } as const;
 
 export type Speaker = "hudhud" | "keeper" | "scholar" | "cat" | "narrator";
 export const SCRIPTS: Record<string, Script<Speaker>> = {

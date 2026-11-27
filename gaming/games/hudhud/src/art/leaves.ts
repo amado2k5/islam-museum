@@ -17,7 +17,8 @@ export type LeavesView = PaperView;
 
 const LEAF = "#f6ecd2";
 const LEAF_EDGE = "#c9b48a";
-const THREAD = "#b8322a";
+/** The colour of the binding thread, on the page and in al-Razi's study. */
+export const THREAD = "#b8322a";
 
 function fill(c: Ctx, colour: string, line: string | null = INK, width = 2.4): void {
   c.fillStyle = colour;
@@ -126,6 +127,72 @@ export function leavesCanvas(): HTMLCanvasElement {
 /** The hole at the top of leaf `i`, where the thread passes. */
 const hole = (n: number, i: number, rtl: boolean): [number, number] => [placeX(n, i, rtl), placeRect(n, i, rtl).y + 16];
 
+/**
+ * One leaf's paper: the page with its folded corner (marked when the binding held through it, or when it stopped there:
+ * the second by a broken outline as well as by colour) and the hole the thread passes through at (hx, hy). Shared by the
+ * page's picture (drawLeaves) and al-Razi's room (art/razi.ts), which draws each leaf with this same code.
+ */
+export function drawLeafPaper(c: Ctx, r: { x: number; y: number; w: number; h: number }, hx: number, hy: number, held: boolean, stopped: boolean): void {
+  // The leaf, with a folded corner.
+  const fold = 18;
+  c.beginPath();
+  c.moveTo(r.x, r.y);
+  c.lineTo(r.x + r.w - fold, r.y);
+  c.lineTo(r.x + r.w, r.y + fold);
+  c.lineTo(r.x + r.w, r.y + r.h);
+  c.lineTo(r.x, r.y + r.h);
+  c.closePath();
+  c.fillStyle = stopped ? "#f1c9bf" : LEAF;
+  c.fill();
+  c.strokeStyle = stopped ? PAL.red : held ? PAL.gold : LEAF_EDGE;
+  c.lineWidth = stopped || held ? 5 : 2.5;
+  // A leaf that stopped the binding is marked by a broken outline as well as by colour.
+  c.setLineDash(stopped ? [12, 8] : []);
+  c.stroke();
+  c.setLineDash([]);
+  c.beginPath();
+  c.moveTo(r.x + r.w - fold, r.y);
+  c.lineTo(r.x + r.w - fold, r.y + fold);
+  c.lineTo(r.x + r.w, r.y + fold);
+  fill(c, LEAF_EDGE, INK, 1.5);
+  // The hole the thread passes through.
+  circle(c, hx, hy, 5);
+  fill(c, PAL.woodDark, null);
+}
+/** The ring round the place chosen, outside its own outline, in a solid light line: not colour alone. Shared with al-Razi's room, where it rings the leaf lifted. */
+export function drawChosenRing(c: Ctx, r: { x: number; y: number; w: number; h: number }): void {
+  c.beginPath();
+  c.rect(r.x - 9, r.y - 9, r.w + 18, r.h + 18);
+  c.strokeStyle = PAL.cream;
+  c.lineWidth = 7;
+  c.stroke();
+  c.strokeStyle = INK;
+  c.lineWidth = 2;
+  c.stroke();
+}
+/** A place's number, as dots centred on x: place i (from 0) has i + 1 dots. No numeral is drawn, so that no language is left out. */
+export function drawPlaceDots(c: Ctx, x: number, y: number, i: number): void {
+  for (let d = 0; d <= i; d++) {
+    circle(c, x - (i * 12) / 2 + d * 12, y, 4);
+    fill(c, PAL.cream, null);
+  }
+}
+/** A leaf's two signs, its part of the body (about x, cy - 10) and its kind (near the leaf's foot), for a leaf id such as "books-head". */
+export function drawLeafSigns(c: Ctx, id: string, x: number, cy: number, r: { x: number; y: number; w: number; h: number }): void {
+  const [kind, body] = id.split("-") as [string, string];
+  const sc = Math.min(1, (r.w - 20) / 90);
+  c.save();
+  c.translate(x, cy - 10);
+  c.scale(sc, sc);
+  BODY_SIGN[body]?.(c);
+  c.restore();
+  c.save();
+  c.translate(x, r.y + r.h - 24);
+  c.scale(Math.max(0.7, sc), Math.max(0.7, sc));
+  KIND_MARK[kind]?.(c);
+  c.restore();
+}
+
 export function drawLeaves(canvas: HTMLCanvasElement, v: LeavesView): void {
   const c = canvas.getContext("2d");
   if (!c) return;
@@ -149,63 +216,12 @@ export function drawLeaves(canvas: HTMLCanvasElement, v: LeavesView): void {
   v.places.forEach((id, i) => {
     const r = placeRect(n, i, v.rtl);
     const x = r.x + r.w / 2;
-    const held = i < v.lit;
-    const stopped = v.stopped === i;
-    // The leaf, with a folded corner.
-    const fold = 18;
-    c.beginPath();
-    c.moveTo(r.x, r.y);
-    c.lineTo(r.x + r.w - fold, r.y);
-    c.lineTo(r.x + r.w, r.y + fold);
-    c.lineTo(r.x + r.w, r.y + r.h);
-    c.lineTo(r.x, r.y + r.h);
-    c.closePath();
-    c.fillStyle = stopped ? "#f1c9bf" : LEAF;
-    c.fill();
-    c.strokeStyle = stopped ? PAL.red : held ? PAL.gold : LEAF_EDGE;
-    c.lineWidth = stopped || held ? 5 : 2.5;
-    // A leaf that stopped the binding is marked by a broken outline as well as by colour.
-    c.setLineDash(stopped ? [12, 8] : []);
-    c.stroke();
-    c.setLineDash([]);
-    c.beginPath();
-    c.moveTo(r.x + r.w - fold, r.y);
-    c.lineTo(r.x + r.w - fold, r.y + fold);
-    c.lineTo(r.x + r.w, r.y + fold);
-    fill(c, LEAF_EDGE, INK, 1.5);
-    // The hole the thread passes through.
     const [hx, hy] = hole(n, i, v.rtl);
-    circle(c, hx, hy, 5);
-    fill(c, PAL.woodDark, null);
-    // The place chosen is ringed outside its own outline, in a solid light line: not colour alone.
-    if (v.selected === i) {
-      c.beginPath();
-      c.rect(r.x - 9, r.y - 9, r.w + 18, r.h + 18);
-      c.strokeStyle = PAL.cream;
-      c.lineWidth = 7;
-      c.stroke();
-      c.strokeStyle = INK;
-      c.lineWidth = 2;
-      c.stroke();
-    }
-    // The place's number, as dots: no numeral is drawn, so that no language is left out.
-    for (let d = 0; d <= i; d++) {
-      circle(c, x - (i * 12) / 2 + d * 12, dotY, 4);
-      fill(c, PAL.cream, null);
-    }
+    drawLeafPaper(c, r, hx, hy, i < v.lit, v.stopped === i);
+    if (v.selected === i) drawChosenRing(c, r);
+    drawPlaceDots(c, x, dotY, i);
     if (!id) return;
-    const [kind, body] = id.split("-") as [string, string];
-    const sc = Math.min(1, (r.w - 20) / 90);
-    c.save();
-    c.translate(x, cy - 10);
-    c.scale(sc, sc);
-    BODY_SIGN[body]?.(c);
-    c.restore();
-    c.save();
-    c.translate(x, r.y + r.h - 24);
-    c.scale(Math.max(0.7, sc), Math.max(0.7, sc));
-    KIND_MARK[kind]?.(c);
-    c.restore();
+    drawLeafSigns(c, id, x, cy, r);
   });
   // The thread, through the leaves that held, in the order of the row; when the notebook is bound, through them all,
   // with a knot at the end.

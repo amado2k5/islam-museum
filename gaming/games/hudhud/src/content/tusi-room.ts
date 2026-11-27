@@ -45,7 +45,7 @@ export const TSR_CRANK = { x: 1330, y: 500 } as const;
 /** The long table of instruments, and the high shelf above it among whose instruments the feather has fallen. */
 export const TSR_TABLE = { x: 1850, y: 470, w: 380 } as const;
 export const TSR_HIGH_SHELF = { x: 1880, y: 214, w: 300 } as const;
-export const TSR_START = { hudhud: 250, keeper: 170, tusi: 600, girl: 1760 } as const;
+export const TSR_START = { hudhud: 250, keeper: 106, tusi: 600, girl: 1760 } as const;
 
 export const TSR_ROOM: Room = {
   bounds: { x: 24, y: 24, w: TSR_WORLD.width - 48, h: TSR_WORLD.height },
