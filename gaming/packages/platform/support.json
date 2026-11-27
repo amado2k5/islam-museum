@@ -1,9 +1,0 @@
-{
- "format": "im.play.support",
- "version": 1,
- "note": "What has actually been run, by whom and how. This is the tested list the founder's directive asks for; it is short because little has been tested. The device check refuses on what a device can do and on the feature floors in src/preflight.ts, not on this list.",
- "tested": [
-  { "browser": "chrome", "version": "158", "os": "macOS 27.2.1", "machine": "MacBook Pro, Apple M4 Max, 128 GB (the founder's development machine; not a reference machine)", "how": "scripted play in real Chrome and on UAT", "date": "2026-11-26", "games": ["hudhud", "granada", "golden-age", "atlas"] }
- ],
- "notTested": ["Edge", "Firefox", "Safari", "any Windows machine", "the M1 MacBook Air reference machine", "the Windows i5-1135G7 reference machine", "any real phone or tablet (the refusals were checked with an emulated phone)", "any physical game controller"]
-}

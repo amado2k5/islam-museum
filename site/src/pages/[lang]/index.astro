@@ -1,8 +1,0 @@
----
-import Landing from "../../components/Landing.astro";
-import { LANGS, type Lang } from "../../lib/i18n";
-
-export function getStaticPaths() { return LANGS.map((lang) => ({ params: { lang }, props: { lang } })); }
-const { lang } = Astro.props as { lang: Lang };
----
-<Landing lang={lang} path={`/${lang}/`} />

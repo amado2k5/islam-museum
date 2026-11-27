@@ -1,6 +1,0 @@
-question: "Jami al-Tawarikh source records (source/jami-al-tawarikh-khashshab-1960 and source/tarikh-wassaf) need a cited source for their non-open layer under the validator. May a source record cite the scanned edition itself (the archive.org scan and the Khashshab scan, layer copyrighted-reference), or must it cite an external bibliographic record?"
-class: "content"
-lane: "jami-tawarikh"
-options: ["allow the source record to cite the scanned edition itself (layer copyrighted-reference), with the scan's archive.org identifier", "require an external bibliographic record (library catalogue or publisher) before the source record is accepted", "hold the source records until an external record is found"]
-evidence: ["docs/agents/publication-standard.md: one source is enough for any fact; a source record needs a cited source", "docs/library/harvest-register.yaml: the book entry cites archive.org item 20241003_20241003_1100 as its acquisition source", "packets/rejected/jami-tawarikh-v1-p001-060/REJECT_FIXED.md: the fix agent changed the layer to copyrighted-reference and cited the Khashshab scan"]
-proposed_action: "option 1: allow the scanned edition to be the cited source, with its archive.org identifier, since it is the only bibliographic record held; record the lack of an external catalogue entry as a needs_source note"

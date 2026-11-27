@@ -1,6 +1,0 @@
-question: "Juha and Islamic Folklore Browser (20 November 2026): which humour vocabulary counts, how the Juha anecdotes of a modern edition of unknown copyright enter the graph, and which scans are trusted for excerpts."
-class: "content"
-lane: "juha"
-options: ["detector with guarded lexicon; one passage per anecdote with a 40-word excerpt and an own-words retelling; only scans with an identified edition record", "tag records by hand; no anecdote records", "hold the browser until a human reads the OCR"]
-evidence: ["docs/engineering/64-juha-browser-requirements.md", "docs/plan/72-juha-browser.md", "docs/sources-policy.md", "scripts/juha.ts", "scripts/harvest-juha-ocr.ts"]
-proposed_verdict: "option 1 — taken under the founder's delegation of 8 November 2026 and his brief of 20 November 2026; reversible: every harvested record is regenerable from the scripts and removable by its id prefix (nawadir-juha-*, *-juha-*); the Shama'il scans were skipped because their edition is not identified; crude anecdotes are retold tactfully, not hidden; no anecdote was dropped for content — 13 of 378 rows were skipped only because no quotable 40-word window passed the text rules"

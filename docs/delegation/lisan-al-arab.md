@@ -1,1 +1,0 @@
-2026-11-15 | c2-work-4 | work/lisan-al-arab | draft in ar/en/ur from books/lugha/lisan-arab/MNZOR1994AR (Dar Sadir vol. 1, front matter only, scan pp. 1 to 6); source/lisan-al-arab-dar-sadir added; birth-year conflict (690 in the first-edition preface, 630 in its footnote) recorded in the entry; status draft, awaiting verifier

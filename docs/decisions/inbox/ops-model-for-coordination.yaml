@@ -1,6 +1,0 @@
-question: "Cost: should the coordinating session (the one that runs the 10-minute check and land cycles) switch from Sonnet 5.5 to Haiku 5.5, given that all mining and worker agents already run on Haiku 5.5?"
-class: "process"
-lane: "assabile-pipeline"
-options: ["switch the coordinating session to Haiku 5.5 for routine checks", "keep Sonnet 5.5 for the whole session", "switch to Haiku 5.5 and keep Sonnet 5.5 for judgment calls"]
-evidence: ["docs/agents/orchestration/lane-rules.md: founder asked for the cheapest capable model for mechanical steps", "memory: feedback-delegate-to-cheapest-capable-model: Sonnet for judgment, Haiku for mechanical steps"]
-proposed_action: "option 3: Haiku 5.5 for routine checks and land cycles, Sonnet 5.5 for judgment calls"

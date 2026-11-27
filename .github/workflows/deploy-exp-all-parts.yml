@@ -1,0 +1,150 @@
+name: Deploy all parts to production (experimental)
+
+# PRODUCTION: every part of one "Build islam.museum by language" run, in one start. It runs the shared deploy
+# (deploy-shared-env.yml) first, then the seven language deploys (deploy-lang-env.yml) one after another: ar, en, ur,
+# fr, es, tr, id. Together they publish what the one deploy publishes. Manual only, and the founder's alone (AGENTS.md). Production takes builds of main only.
+# A trial beside the one deploy, which is unchanged. A language that fails, or that the build does not have, is
+# reported and the others still run; if the shared parts fail, no language is deployed.
+# EXPERIMENTAL twin: accepts only runs of "Build islam.museum by language (experimental)" (build-exp.yml)
+# — the reusable env workflows get experimental: true, so the normal name check still refuses it for the
+# production deploys. Same chain, same gates, same IndexNow tail; only the accepted build differs.
+on:
+  workflow_dispatch:
+    inputs:
+      build_run_id:
+        description: "Run id of a \"Build islam.museum by language (experimental)\" run (build-exp.yml) of main. Give it, so every part comes from the same run."
+        required: true
+        type: string
+
+permissions:
+  contents: read
+  deployments: write
+  # Read another run's artifact and jobs.
+  actions: read
+
+# The group of this environment's full deploy: one publish at a time writes the publish record, in order.
+concurrency:
+  group: pages
+  cancel-in-progress: false
+  queue: max
+
+jobs:
+  shared:
+    uses: ./.github/workflows/deploy-shared-env.yml
+    with:
+      environment: production
+      experimental: true
+      build_run_id: ${{ inputs.build_run_id }}
+    secrets: inherit
+  ar:
+    needs: [shared]
+    # After the one before it, whatever its result: a language that failed, or that this branch does not have, does
+    # not stop the next. Nothing runs when the shared parts failed.
+    if: ${{ !cancelled() && needs.shared.result == 'success' }}
+    uses: ./.github/workflows/deploy-lang-env.yml
+    with:
+      environment: production
+      experimental: true
+      language: ar
+      build_run_id: ${{ inputs.build_run_id }}
+    secrets: inherit
+  en:
+    needs: [shared, ar]
+    # After the one before it, whatever its result: a language that failed, or that this branch does not have, does
+    # not stop the next. Nothing runs when the shared parts failed.
+    if: ${{ !cancelled() && needs.shared.result == 'success' }}
+    uses: ./.github/workflows/deploy-lang-env.yml
+    with:
+      environment: production
+      experimental: true
+      language: en
+      build_run_id: ${{ inputs.build_run_id }}
+    secrets: inherit
+  ur:
+    needs: [shared, en]
+    # After the one before it, whatever its result: a language that failed, or that this branch does not have, does
+    # not stop the next. Nothing runs when the shared parts failed.
+    if: ${{ !cancelled() && needs.shared.result == 'success' }}
+    uses: ./.github/workflows/deploy-lang-env.yml
+    with:
+      environment: production
+      experimental: true
+      language: ur
+      build_run_id: ${{ inputs.build_run_id }}
+    secrets: inherit
+  fr:
+    needs: [shared, ur]
+    # After the one before it, whatever its result: a language that failed, or that this branch does not have, does
+    # not stop the next. Nothing runs when the shared parts failed.
+    if: ${{ !cancelled() && needs.shared.result == 'success' }}
+    uses: ./.github/workflows/deploy-lang-env.yml
+    with:
+      environment: production
+      experimental: true
+      language: fr
+      build_run_id: ${{ inputs.build_run_id }}
+    secrets: inherit
+  es:
+    needs: [shared, fr]
+    # After the one before it, whatever its result: a language that failed, or that this branch does not have, does
+    # not stop the next. Nothing runs when the shared parts failed.
+    if: ${{ !cancelled() && needs.shared.result == 'success' }}
+    uses: ./.github/workflows/deploy-lang-env.yml
+    with:
+      environment: production
+      experimental: true
+      language: es
+      build_run_id: ${{ inputs.build_run_id }}
+    secrets: inherit
+  tr:
+    needs: [shared, es]
+    # After the one before it, whatever its result: a language that failed, or that this branch does not have, does
+    # not stop the next. Nothing runs when the shared parts failed.
+    if: ${{ !cancelled() && needs.shared.result == 'success' }}
+    uses: ./.github/workflows/deploy-lang-env.yml
+    with:
+      environment: production
+      experimental: true
+      language: tr
+      build_run_id: ${{ inputs.build_run_id }}
+    secrets: inherit
+  id:
+    needs: [shared, tr]
+    # After the one before it, whatever its result: a language that failed, or that this branch does not have, does
+    # not stop the next. Nothing runs when the shared parts failed.
+    if: ${{ !cancelled() && needs.shared.result == 'success' }}
+    uses: ./.github/workflows/deploy-lang-env.yml
+    with:
+      environment: production
+      experimental: true
+      language: id
+      build_run_id: ${{ inputs.build_run_id }}
+    secrets: inherit
+  # Production only (this workflow is): pings IndexNow with the URLs changed in the deployed commit (scripts/indexnow.mjs),
+  # so Bing and Yandex pick up new and updated pages without waiting for a crawl. It was a job of the one deploy
+  # (deploy-env.yml, notify-indexnow) and is repeated here, after every part has been published, because the shared
+  # and language deploys do not have it. Not sent when any part failed (the pages would not all be there yet). Set the
+  # repository variable INDEXNOW to "off" to skip it.
+  notify-indexnow:
+    needs: [shared, ar, en, ur, fr, es, tr, id]
+    if: ${{ !cancelled() && needs.shared.result == 'success' && !contains(needs.*.result, 'failure') && vars.INDEXNOW != 'off' }}
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      actions: read
+    steps:
+      - name: The commit that was built
+        id: build
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+          RUN_ID: ${{ inputs.build_run_id }}
+        run: echo "sha=$(gh api "repos/$GH_REPO/actions/runs/$RUN_ID" --jq .head_sha)" >> "$GITHUB_OUTPUT"
+      - name: Check out the deployed commit
+        uses: actions/checkout@v7
+        with:
+          ref: ${{ steps.build.outputs.sha }}
+          # The previous commit is the cut-off for "changed".
+          fetch-depth: 2
+      - name: Submit changed URLs to IndexNow
+        run: node scripts/indexnow.mjs
