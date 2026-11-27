@@ -98,9 +98,9 @@ export const JR_SCRIPTS: Record<string, Script<JrSpeaker>> = {
   jazari: {
     start: "hello",
     nodes: {
-      hello: { lines: [{ who: "jazari", key: "jr_jazari_hello", mood: "glad" }], choices: [{ key: "ck_ask_float", to: "float", deeper: true }, { key: "ck_ask_balls", to: "balls", deeper: true }, { key: "c_thanks", to: "bye" }] },
-      float: { lines: [{ who: "narrator", key: "ck_float_1", mood: "think" }], set: ["askedFloat"], choices: [{ key: "ck_ask_balls", to: "balls", deeper: true }, { key: "c_thanks", to: "bye" }] },
-      balls: { lines: [{ who: "narrator", key: "ck_balls_1", mood: "think" }], set: ["askedBalls"], choices: [{ key: "ck_ask_float", to: "float", deeper: true }, { key: "c_thanks", to: "bye" }] },
+      hello: { lines: [{ who: "jazari", key: "jr_jazari_hello", mood: "glad" }], choices: [{ key: "ck_ask_float", to: "float", deeper: true }, { key: "ck_ask_balls", to: "balls", deeper: true }, { key: "jr_thanks", to: "bye" }] },
+      float: { lines: [{ who: "narrator", key: "ck_float_1", mood: "think" }], set: ["askedFloat"], choices: [{ key: "ck_ask_balls", to: "balls", deeper: true }, { key: "jr_thanks", to: "bye" }] },
+      balls: { lines: [{ who: "narrator", key: "ck_balls_1", mood: "think" }], set: ["askedBalls"], choices: [{ key: "ck_ask_float", to: "float", deeper: true }, { key: "jr_thanks", to: "bye" }] },
       bye: { lines: [{ who: "jazari", key: "jr_jazari_bye", mood: "glad" }] },
     },
   },

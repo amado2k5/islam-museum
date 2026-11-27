@@ -192,9 +192,16 @@ describe("al-Jazari's room: the place kept", () => {
 describe("al-Jazari's room: its strings", () => {
   const tables = Object.fromEntries(LANGS.map((l) => [l, table(l)]));
   const keys = Object.keys(tables.en!).filter((k) => k.startsWith("jr_"));
-  it("are twenty-six, at the end of every table, in the same order", () => {
-    expect(keys).toHaveLength(26);
-    for (const l of LANGS) expect(Object.keys(tables[l]!).slice(-keys.length), l).toEqual(keys);
+  // They were the last twenty-six of every table until al-Tusi's room (27 November 2026) appended its own after them;
+  // they are still one block, in the same order, in every table, and only al-Tusi's room's keys come after them.
+  it("are twenty-seven (the goodbye line jr_thanks was added in review on 27 November 2026), one block in every table, in the same order, with only al-Tusi's room's keys after them", () => {
+    expect(keys).toHaveLength(27);
+    for (const l of LANGS) {
+      const all = Object.keys(tables[l]!);
+      const at = all.indexOf(keys[0]!);
+      expect(all.slice(at, at + keys.length), l).toEqual(keys);
+      expect(all.slice(at + keys.length).every((k) => k.startsWith("tsr_")), l).toBe(true);
+    }
   });
   it("say that the room and the frame are invented, in the founder's words in Arabic and English", () => {
     expect(tables.ar!.jr_note_room).toBe("الورشة وطاولة العمل والإطار الذي يحمل أجزاء الساعة من خيال اللعب، وليست صورة لساعة الجزري.");

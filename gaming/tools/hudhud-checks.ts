@@ -17,6 +17,8 @@ import { COLLATE_ART, cellCentre } from "../games/hudhud/src/art/collate";
 import { flow, period, type Kind, type Side } from "../games/hudhud/src/sim/channels";
 import { clockPuzzle } from "../games/hudhud/src/content/clock";
 import { applyClock, newClock } from "../games/hudhud/src/sim/clock";
+import { coupleOffer } from "../games/hudhud/src/content/couple";
+import { applyCouple, newCouple } from "../games/hudhud/src/sim/couple";
 import { leaveOpening } from "./hudhud-opening";
 import { serveWorkspace } from "./serve";
 
@@ -1385,8 +1387,9 @@ for (const lang of ["en", "ar"]) {
   const picture = (page: Page) => ev<string>(page, "document.querySelector('.bench canvas.couple-art').toDataURL()");
   const alt = (page: Page) => ev<string>(page, "document.querySelector('.bench canvas.couple-art').getAttribute('aria-label')");
   const radio = (page: Page, field: string, value: number) => page.locator(`.bench input[name='couple-${field}'][data-value='${value}']`);
+  // Since 27 November 2026 al-Tusi's scene is played in his observatory, a room; `room=off` keeps these checks on the two circles' page, which stays as the way they are played without WebGL.
   const ctx = await browser.newContext({ viewport: { width: 1280, height: 900 } });
-  let page = await open(ctx, "&style=explorer");
+  let page = await open(ctx, "&style=explorer&room=off");
   const button = page.locator(`.hub button[data-quest='${QUEST}']`);
   const isPlain = await button.evaluate((b) => !b.classList.contains("primary"));
   const label = await button.textContent();
@@ -1457,7 +1460,7 @@ for (const lang of ["en", "ar"]) {
   await ctx.close();
   // Left in the middle: a wrong turning, a question, then the setting that is the answer chosen and not turned; the page loaded again, and the Atlas says Continue; the setting is where it was and not yet turned, and the line can be found.
   const ctx2 = await browser.newContext({ viewport: { width: 1280, height: 900 } });
-  page = await open(ctx2, "&style=explorer");
+  page = await open(ctx2, "&style=explorer&room=off");
   await page.locator(`.hub button[data-quest='${QUEST}']`).click();
   await turnBtn(page).click();
   await page.getByRole("button", { name: "Skip the turning" }).click();
@@ -1487,7 +1490,7 @@ for (const lang of ["en", "ar"]) {
   await ctx2.close();
   // Story offers one choice, the direction, and says which way to try; Challenge offers eighteen settings and says only that the path is not a line, while the picture and its description still show the shape.
   const ctx3 = await browser.newContext({ viewport: { width: 1280, height: 900 } });
-  page = await open(ctx3, "&style=story");
+  page = await open(ctx3, "&style=story&room=off");
   await page.locator(`.hub button[data-quest='${QUEST}']`).click();
   const story = await ev<{ visible: string[]; radios: number }>(page, "({ visible: [...document.querySelectorAll('.bench fieldset.couple-group')].filter((f) => !f.hidden).map((f) => f.querySelector('legend').textContent), radios: document.querySelectorAll('.bench fieldset.couple-group:not([hidden]) input[type=radio]').length })");
   await turnBtn(page).click();
@@ -1499,7 +1502,7 @@ for (const lang of ["en", "ar"]) {
   const storyDone = await cv(page);
   await ctx3.close();
   const ctx4 = await browser.newContext({ viewport: { width: 1280, height: 900 } });
-  page = await open(ctx4, "&style=challenge");
+  page = await open(ctx4, "&style=challenge&room=off");
   await page.locator(`.hub button[data-quest='${QUEST}']`).click();
   const c0 = await ev<{ groups: { legend: string; n: number }[]; settings: number; note: boolean }>(page, "(() => { const g = [...document.querySelectorAll('.bench fieldset.couple-group')].filter((f) => !f.hidden).map((f) => ({ legend: f.querySelector('legend').textContent, n: f.querySelectorAll('input').length })); return { groups: g, settings: g.reduce((a, x) => a * x.n, 1), note: true }; })()");
   const c0v = await cv(page);
@@ -1530,7 +1533,7 @@ for (const lang of ["en", "ar"]) {
   await ctx4.close();
   // Reduced motion, set through the game's own settings: the finished path is drawn at once, with no turning shown.
   const ctx5 = await browser.newContext({ viewport: { width: 1280, height: 900 } });
-  page = await open(ctx5, "&style=explorer");
+  page = await open(ctx5, "&style=explorer&room=off");
   await page.getByRole("button", { name: "Settings" }).click();
   await page.getByLabel("Less motion").check();
   await page.locator(".sheet button.primary").click();
@@ -1548,7 +1551,7 @@ for (const lang of ["en", "ar"]) {
   const arCtx = await browser.newContext({ viewport: { width: 1280, height: 900 } });
   const ar = await arCtx.newPage();
   ar.on("pageerror", (e) => errors.push(String(e)));
-  await ar.goto(`${served.base}/games/hudhud/index.html?lang=ar&music=off&style=explorer`);
+  await ar.goto(`${served.base}/games/hudhud/index.html?lang=ar&music=off&style=explorer&room=off`);
   await ar.waitForFunction("window.__HH__ && window.__HH__.ready");
   await leaveOpening(ar);
   await ar.locator(`.hub button[data-quest='${QUEST}']`).click();
@@ -1562,7 +1565,7 @@ for (const lang of ["en", "ar"]) {
   if (outDir) await ar.screenshot({ path: resolve(outDir, "hudhud-couple-bench-ar.png"), fullPage: true });
   // The same picture in English, drawn by another page, is the same picture: compare the two blank pictures.
   const enCtx = await browser.newContext({ viewport: { width: 1280, height: 900 } });
-  const en = await open(enCtx, "&style=explorer");
+  const en = await open(enCtx, "&style=explorer&room=off");
   await en.locator(`.hub button[data-quest='${QUEST}']`).click();
   const enBlank = await picture(en);
   await enCtx.close();
@@ -2280,7 +2283,8 @@ for (const lang of ["en", "ar"]) {
     { plainRun, askedRun, systemRun, settingRun });
   // (2) The two circles, finished with reduced motion, through the hooks; the chosen radio button of each group is measured.
   const rctx = await browser.newContext({ viewport: { width: 1280, height: 900 } });
-  const rp = await open(rctx, "&style=explorer&motion=reduced");
+  // Since 27 November 2026 al-Tusi's scene is played in his observatory; `room=off` keeps this check on the two circles' page, which stays as the way they are played without WebGL.
+  const rp = await open(rctx, "&style=explorer&motion=reduced&room=off");
   await rp.locator(".hub button[data-quest='w01q3-al-tusi']").click();
   await ev(rp, "window.__HH__.coupleCommand({ type: 'set', field: 'speed', value: 2 }); window.__HH__.coupleCommand({ type: 'set', field: 'dir', value: -1 }); window.__HH__.coupleCommand({ type: 'turn' });");
   await rp.waitForSelector(".bench .results:not([hidden])");
@@ -2843,10 +2847,12 @@ for (const lang of ["en", "ar"]) {
     await page.waitForFunction("window.__HH__.where() !== null", undefined, { timeout: 30000 });
     await ev(page, "window.__HH__.command({type:'skip'}); for (const id of ['mirror-a','mirror-c','mirror-e']) window.__HH__.touch(id); window.__HH__.command({type:'skip'}); window.__HH__.touch('page');");
     await ev(page, "window.__HH__.goThroughDoor()");
-    await page.waitForFunction("window.__HH__.couple() !== null");
-    await ev(page, "window.__HH__.coupleCommand({ type: 'set', field: 'speed', value: 2 }); window.__HH__.coupleCommand({ type: 'set', field: 'dir', value: -1 }); window.__HH__.coupleCommand({ type: 'turn' });");
-    await page.waitForSelector(".bench .corridor canvas.corridor-art", { timeout: 20000 });
-    await page.locator(".bench .corridor").focus();
+    // Since 27 November 2026 the second scene is al-Tusi's room: finished through its rules, and its lit door walked to.
+    await page.waitForFunction("window.__HH__.tusi() !== null && window.__HH__.where() !== null", undefined, { timeout: 30000 });
+    await ev(page, "window.__HH__.tusiCommand({ type: 'skip' }); for (const id of ['lever-speed', 'lever-dir', 'crank']) window.__HH__.tusiCommand({ type: 'touch', id });");
+    await page.waitForFunction("window.__HH__.tusi().doorLit", undefined, { timeout: 15000 });
+    await ev(page, "window.__HH__.tusiCommand({ type: 'skip' })");
+    await page.locator(`${ROOM} .stage`).focus();
     await walkRight(page, "window.__HH__.jazari() !== null");
     await page.waitForFunction("window.__HH__.where() !== null", undefined, { timeout: 30000 });
     const entered = await ev<{ journey: { scene: number; at: number }; last: { scene: string } | null; toast: string | null; heading: string; corridors: number }>(page, `({ journey: window.__HH__.journey(), last: window.__HH__.lastDoor(), toast: document.querySelector('.toast') ? document.querySelector('.toast').textContent : null, heading: document.querySelector('${ROOM} h2').textContent, corridors: document.querySelectorAll('.corridor').length })`);
@@ -2870,8 +2876,8 @@ for (const lang of ["en", "ar"]) {
     const through = await ev<boolean>(page, "window.__HH__.goThroughDoor()");
     await page.waitForFunction("window.__HH__.algebra() !== null", undefined, { timeout: 10000 });
     const onward = await ev<{ journey: { scene: number; at: number }; last: { scene: string } | null; roomHidden: boolean }>(page, "({ journey: window.__HH__.journey(), last: window.__HH__.lastDoor(), roomHidden: document.querySelector('.room-box').hidden })");
-    record("in the journey (played through: the workshop, al-Tusi's page and its corridor walked) the third scene is al-Jazari's room, not the clock's page and no corridor; a reload offers 'Continue the journey' with his name and resumes in the room with the clock as it was and the float still in Hudhud's beak; finished, its lit door leads on to the fourth scene",
-      entered.journey.scene === 2 && entered.journey.at === 2 && entered.last?.scene === "corridor" && entered.toast === "Hudhud: On to the next page of the Atlas: al-Jazari and the elephant clock!" && entered.heading === "al-Jazari and the elephant clock" && entered.corridors === 0 &&
+    record("in the journey (played through: the workshop, then al-Tusi's room and its lit door walked to) the third scene is al-Jazari's room, not the clock's page and no corridor; a reload offers 'Continue the journey' with his name and resumes in the room with the clock as it was and the float still in Hudhud's beak; finished, its lit door leads on to the fourth scene",
+      entered.journey.scene === 2 && entered.journey.at === 2 && entered.last?.scene === "tusi" && entered.toast === "Hudhud: On to the next page of the Atlas: al-Jazari and the elephant clock!" && entered.heading === "al-Jazari and the elephant clock" && entered.corridors === 0 &&
         left.moves === 1 && left.carrying === "float" && label === "Continue the journey: al-Jazari and the elephant clock" && resumed.moves === 1 && resumed.carrying === "float" && resumed.places.join() === left.places.join() && resumed.talk === null && again.scene === 2 &&
         through && onward.journey.scene === 3 && onward.journey.at === 3 && onward.last?.scene === "jazari" && onward.roomHidden,
       { entered, left: { moves: left.moves, carrying: left.carrying, places: left.places }, label, resumed: { moves: resumed.moves, carrying: resumed.carrying, places: resumed.places }, again, through, onward });
@@ -2937,6 +2943,266 @@ for (const lang of ["en", "ar"]) {
     const done = await ev<boolean>(page, "window.__HH__.clock().done");
     record("without WebGL al-Jazari's scene is played on the clock's page (its trial line on the Atlas, five lists of choices, no room), and is finished there",
       /first trial/.test(note) && onPage.room === null && onPage.selects === 5 && onPage.roomHidden && onPage.benchShown && done, { note, onPage, done });
+    await ctx.close();
+  }
+}
+// Al-Tusi's observatory, the third room on the room engine (asked for by the founder, 27 November 2026): opened from
+// the Atlas it is a canvas scene with every thing in the list in words; a lever is moved by flight and by the touch
+// button and key, and says its setting; the crank turns a wrong setting, the shape is named and the count goes up, as
+// the page's rules say; both questions, the kind answer and the feather by touching; twice as fast and the other way,
+// the line, the lit door, the panel with four goals, the room's note and the note that states the model (shown only
+// now), and the door walked to with real key presses; the journey leads into the room and on out of it into
+// al-Jazari's, and a reload resumes in it as it was; an Arabic page; movement kept still; and without WebGL the scene
+// is played on the two circles' page.
+{
+  type Ts = { setting: { r: number; k: number; d: number }; turned: number; misses: number; flags: string[]; done: boolean; last: { setting: { r: number; k: number; d: number }; shape: { kind: string; lobes: number; crossings: number } } | null; talk: { script: string } | null; busy: boolean; progress: number; doorLit: boolean; shown: { setting: { r: number; k: number; d: number }; points: number; closed: boolean; levers: Record<string, { visible: boolean; angle: number }> } | null };
+  const QUEST = "w01q3-al-tusi";
+  const ROOM = ".room-box";
+  const NOTE2 = "From the museum's record: al-Tusi's model of the planets' motion is called his most original achievement. It is a model of two spheres, the smaller turning twice as fast as the larger and the opposite way, so that a point on it moves along a straight line.";
+  const NOTE_ROOM = "The observatory, the model on its stand, the levers and the crank are invented for play; they are not a picture of the Maragha observatory or of its instruments.";
+  const ts = (page: Page) => ev<Ts | null>(page, "window.__HH__.tusi()");
+  const openTusi = async (page: Page) => {
+    await page.locator(`.hub button[data-quest='${QUEST}']`).click();
+    await page.waitForFunction("window.__HH__.tusi() !== null && window.__HH__.where() !== null", undefined, { timeout: 30000 });
+    await page.waitForTimeout(700);
+  };
+  const skipTalk = async (page: Page) => {
+    for (let i = 0; i < 8 && (await ts(page))?.talk; i++) {
+      await page.locator(`${ROOM} .talk button.quiet`).last().click();
+      await page.waitForTimeout(150);
+    }
+  };
+  /** Flies the bird to a thing by the engine's own flight (goTo), and waits until it has landed and touched it. */
+  const fly = async (page: Page, id: string, until: string) => {
+    await ev(page, `window.__HH__.goTo(${JSON.stringify(id)})`);
+    await page.waitForFunction(until, undefined, { timeout: 8000 });
+    await page.waitForTimeout(150);
+  };
+  const walkRight = async (page: Page, until: string) => {
+    await page.keyboard.down("ArrowRight");
+    try {
+      await page.waitForFunction(until, undefined, { timeout: 25000 });
+    } finally {
+      await page.keyboard.up("ArrowRight");
+    }
+  };
+  const words = (page: Page) => ev<string[]>(page, `[...document.querySelectorAll('${ROOM} .room-words li button')].map((b) => b.textContent)`);
+  const ranText = (page: Page) => ev<string>(page, `document.querySelector('${ROOM} .ran').textContent`);
+  const lastLine = (page: Page) => ev<string>(page, `document.querySelector('${ROOM} .room-words .carrying').textContent`);
+  const note2Shown = (page: Page) => ev<boolean>(page, `document.body.textContent.includes(${JSON.stringify(NOTE2)})`);
+
+  // (1) to (4): one play in Explorer, from the Atlas, by flight, touch and keys.
+  {
+    const ctx = await browser.newContext({ viewport: { width: 1280, height: 900 } });
+    const page = await open(ctx, "&style=explorer");
+    const atlasItem = await ev<{ label: string; notes: number }>(page, `(() => { const b = document.querySelector(".hub button[data-quest='${QUEST}']"); return { label: b.textContent, notes: b.parentElement.querySelectorAll('small').length }; })()`);
+    await openTusi(page);
+    const opened = await ev<{ canvases: number; benchHidden: boolean; roomShown: boolean; heading: string; alt: string | null; info: { renderer: string; largestTextures: { width: number; height: number }[] }; talk: string | null }>(page, `({ canvases: document.querySelectorAll('${ROOM} .stage canvas').length, benchHidden: document.querySelector('.bench').hidden, roomShown: !document.querySelector('${ROOM}').hidden, heading: document.querySelector('${ROOM} h2').textContent, alt: document.querySelector('${ROOM} .stage').getAttribute('aria-label'), info: window.__HH__.info(), talk: document.querySelector('${ROOM} .talk:not([hidden]) .who') ? document.querySelector('${ROOM} .talk .who').textContent : null })`);
+    const firstWords = await words(page);
+    const first = (await ts(page))!;
+    const firstLast = await lastLine(page);
+    const noNote2 = !(await note2Shown(page));
+    if (outDir) (mkdirSync(outDir, { recursive: true }), await page.screenshot({ path: resolve(outDir, "tusi-room-start.png") }));
+    record("al-Tusi's room opens from the Atlas as a canvas scene on the room engine: the Atlas names it as it names the other rooms (no line about a page), the room speaks first, the model shows the circles as set with no path, Explorer's two levers stand on the stand (direction and speed, no size), the note that states the model is nowhere on the page, and every thing in the room is a button in the list in words (al-Tusi, the girl, the high shelf, each lever with its setting, the crank)",
+      atlasItem.label === "Play: Nasir al-Din al-Tusi" && atlasItem.notes === 0 && opened.canvases === 1 && opened.benchHidden && opened.roomShown && opened.heading === "Nasir al-Din al-Tusi" && opened.alt === "Al-Tusi's observatory, as a picture. The list after it says the same in words." && opened.info.renderer === "webgl" && Math.max(...opened.info.largestTextures.flatMap((t) => [t.width, t.height])) <= 2048 && opened.talk === "Hudhud" &&
+        first.setting.r === 0.5 && first.setting.k === 1 && first.setting.d === 1 && first.turned === 0 && first.shown?.points === 0 && first.shown.levers.dir?.visible === true && first.shown.levers.speed?.visible === true && first.shown.levers.size?.visible === false && firstLast === "No path has been drawn yet." && noNote2 &&
+        firstWords.join("|") === "Go to al-Tusi|Go to the girl who cleans the instruments|Go to the instruments on the high shelf|Move the direction lever on. Now: The same way as the large circle|Move the speed lever on. Now: As fast as the large circle|Turn the crank: turn the circles",
+      { atlasItem, opened: { ...opened, info: { renderer: opened.info.renderer } }, firstWords, first: { setting: first.setting, shown: first.shown }, firstLast, noNote2 });
+    await skipTalk(page);
+
+    // (2) A lever by flight (goTo flies the bird there and touches it), then by the touch button and by the touch key;
+    // then the crank by its button in the list: a wrong setting is turned, shown to its end, named, and counted.
+    await fly(page, "lever-speed", "window.__HH__.tusi().setting.k === 2");
+    const landed = await ev<{ x: number; y: number; near: string | null }>(page, "window.__HH__.where()");
+    const said1 = await ranText(page);
+    await page.locator(`${ROOM} .pad button.wide`).click();
+    const byButton = (await ts(page))!.setting.k;
+    await page.locator(`${ROOM} .stage`).focus();
+    await page.keyboard.press("KeyE");
+    await page.waitForTimeout(150);
+    const byKey = (await ts(page))!.setting.k;
+    await page.keyboard.press("KeyE");
+    await page.waitForTimeout(150);
+    const back2 = (await ts(page))!;
+    const leverWord = (await words(page)).find((w) => w.startsWith("Move the speed lever"));
+    const expected = applyCouple(applyCouple(newCouple("explorer", coupleOffer("explorer")), { type: "set", field: "speed", value: 2 }), { type: "turn" }).last;
+    await page.locator(`${ROOM} .room-words li button`, { hasText: "Turn the crank" }).click();
+    await page.waitForFunction("window.__HH__.tusi().turned === 1", undefined, { timeout: 8000 });
+    const during = { v: (await ts(page))!, ran: await ranText(page), list: await words(page), disabled: await ev<boolean>(page, `[...document.querySelectorAll('${ROOM} .room-words li button')].filter((b) => !b.classList.contains('skip-turning')).every((b) => b.disabled)`) };
+    await page.waitForTimeout(1000);
+    if (outDir) await page.screenshot({ path: resolve(outDir, "tusi-room-turning.png") });
+    await page.waitForFunction("!window.__HH__.tusi().busy", undefined, { timeout: 10000 });
+    const wrong = { v: (await ts(page))!, ran: await ranText(page), last: await lastLine(page), objective: await ev<string>(page, `document.querySelector('${ROOM} .objective').textContent`) };
+    if (outDir) await page.screenshot({ path: resolve(outDir, "tusi-room-wrong-path.png") });
+    record("a lever is moved by flight (landing on the stand's base by it and touching it), by the touch button and by the E key, going round Explorer's three speeds and saying its setting in words; the crank, from its button in the list, turns a wrong setting: the turning is shown (the list's other buttons wait, the page's 'Skip the turning' is offered), then the path is drawn whole in the air, named as the page names it, and counted, exactly as the two circles' own rules say",
+      landed.near === "lever-speed" && landed.y === 570 && said1 === "Moved the speed lever: Twice as fast as the large circle." && byButton === 3 && byKey === 1 && back2.setting.k === 2 && back2.turned === 0 && leverWord === "Move the speed lever on. Now: Twice as fast as the large circle" &&
+        during.v.busy && during.ran === "The circles are turning." && during.list.includes("Skip the turning") && during.disabled && (during.v.shown?.points ?? 999) < 360 &&
+        !wrong.v.busy && wrong.v.turned === 1 && wrong.v.misses === 1 && !wrong.v.done && JSON.stringify(wrong.v.last) === JSON.stringify(expected) && wrong.v.last?.shape.kind === "loops" && wrong.v.last.shape.lobes === 2 && wrong.ran === "The point traced a flower of 2 loops." && wrong.last === "The last path: a flower of 2 loops." && wrong.v.shown?.points === 360 && wrong.v.shown.closed && wrong.objective.includes("Turnings: 1 · Not a straight line: 1"),
+      { landed, said1, byButton, byKey, k: back2.setting.k, leverWord, during: { busy: during.v.busy, ran: during.ran, points: during.v.shown?.points, disabled: during.disabled }, wrong: { ...wrong, v: { turned: wrong.v.turned, misses: wrong.v.misses, last: wrong.v.last, shown: wrong.v.shown } }, expected });
+
+    // (3) Al-Tusi, the girl and the high shelf, by touching them.
+    await fly(page, "tusi", "window.__HH__.tusi().talk !== null");
+    const hello = await page.locator(`${ROOM} .talk .line + span`).textContent();
+    await page.locator(`${ROOM} .talk .choices button`, { hasText: "Ask why he looked for a model" }).click();
+    const whyWho = await page.locator(`${ROOM} .talk .who`).textContent();
+    const whyLine = await page.locator(`${ROOM} .talk .line + span`).textContent();
+    await page.locator(`${ROOM} .talk .choices button`, { hasText: "Ask about the observatory" }).click();
+    const obsLine = await page.locator(`${ROOM} .talk .line + span`).textContent();
+    const thanks = await page.locator(`${ROOM} .talk .choices button`).last().textContent();
+    await page.locator(`${ROOM} .talk .choices button`).last().click();
+    const bye = await page.locator(`${ROOM} .talk .line + span`).textContent();
+    await page.locator(`${ROOM} .talk button`, { hasText: "Next" }).click();
+    await fly(page, "girl", "window.__HH__.tusi().talk !== null");
+    await page.locator(`${ROOM} .talk .choices button`, { hasText: "Do not be afraid. Go slowly and hold each ring gently." }).click();
+    for (let i = 0; i < 3 && (await ts(page))?.talk; i++) await page.locator(`${ROOM} .talk button`, { hasText: "Next" }).click();
+    await fly(page, "shelf", "window.__HH__.tusi().flags.includes('feather')");
+    const onShelf = await ev<{ y: number }>(page, "window.__HH__.where()");
+    const shelfLine = await page.locator(`${ROOM} .talk .line + span`).textContent();
+    await skipTalk(page);
+    const asked = (await ts(page))!;
+    record("touching al-Tusi greets and asks him why he looked for a model and about the observatory (the page's own lines, said by the museum's record), the girl is answered kindly, and the feather is among the instruments on the high shelf, reached by flight; the flags are the page quest's own and no turning is counted",
+      hello === "Welcome to the observatory. Ask me what you like while the circles turn." && whyWho === "From the museum's record" && /Ptolemy's system departed from steady circular motion/.test(whyLine ?? "") && /founded by the Mongol ruler Hulagu at al-Tusi's suggestion/.test(obsLine ?? "") && thanks === "Thank you. We will try the circles." && bye === "Go well. The circles are waiting for you." &&
+        onShelf.y === 214 && shelfLine === "A feather, fallen between two instruments! It is one of mine." && asked.flags.slice().sort().join() === "answered,askedObs,askedWhy,feather,kind" && asked.turned === 1,
+      { hello, whyWho, whyLine, obsLine, thanks, bye, onShelf, shelfLine, flags: asked.flags });
+
+    // (4) Twice as fast (it is) and the other way: the line, the lit door, the panel; then the door walked to.
+    await fly(page, "lever-dir", "window.__HH__.tusi().setting.d === -1");
+    const said2 = await ranText(page);
+    const before = !(await note2Shown(page));
+    await fly(page, "crank", "window.__HH__.tusi().turned === 2");
+    await page.waitForFunction("!window.__HH__.tusi().busy", undefined, { timeout: 10000 });
+    const ranLine = await ranText(page);
+    if (outDir) await page.screenshot({ path: resolve(outDir, "tusi-room-line.png") });
+    await page.waitForFunction("window.__HH__.tusi().doorLit", undefined, { timeout: 5000 });
+    await page.waitForTimeout(400);
+    const panel = await ev<{ shown: boolean; modal: number; goals: number; met: number; notes: string[]; links: string[]; pending: string; buttons: string[]; door: { lit: boolean; scene: string }; list: string[]; objective: string; saved: boolean }>(page, `(() => { const p = document.querySelector('${ROOM} .door-panel'); return { shown: !p.hidden, modal: document.querySelectorAll('[aria-modal=true]').length, goals: p.querySelectorAll('.goals li').length, met: p.querySelectorAll('.goals .met').length, notes: [...p.querySelectorAll('.note p')].map((x) => x.textContent), links: [...p.querySelectorAll('.note a')].map((a) => a.getAttribute('href')), pending: p.querySelector('.pending').textContent, buttons: [...p.querySelectorAll('button')].map((b) => b.textContent), door: window.__HH__.door(), list: [...document.querySelectorAll('${ROOM} .room-words li button')].map((b) => b.textContent), objective: document.querySelector('${ROOM} .objective').textContent, saved: JSON.parse(localStorage.getItem('im.hudhud.save.v1') || '{}').slots?.[0]?.quests?.['${QUEST}']?.done === true }; })()`);
+    const finished = (await ts(page))!;
+    if (outDir) await page.screenshot({ path: resolve(outDir, "tusi-room-door-lit.png") });
+    await skipTalk(page);
+    await page.locator(`${ROOM} .stage`).focus();
+    await walkRight(page, "!document.querySelector('.hub').hidden");
+    const back = await ev<{ hub: boolean; roomHidden: boolean; last: { scene: string; where: { x: number; y: number; reach: number }; bird: { x: number; y: number } } | null; label: string; canvases: number }>(page, `({ hub: !document.querySelector('.hub').hidden, roomHidden: document.querySelector('.room-box').hidden, last: window.__HH__.lastDoor(), label: document.querySelector(".hub button[data-quest='${QUEST}']").textContent, canvases: document.querySelectorAll('.room-box canvas, #stage canvas').length })`);
+    const reach = back.last ? Math.hypot(back.last.where.x - back.last.bird.x, back.last.where.y - (back.last.bird.y - 30)) : null;
+    record("twice as fast and the other way, turned with the crank by flight, is the line: the page's words for it, the door lights, the panel beside the stage (no modal sheet) shows four goals met, the quest's four notes with the one that states the model (shown only now), the room's note and 'Historical review pending', and the two links; the list then offers only the door; holding the right arrow key walks Hudhud to it and, in free play, back to the Atlas",
+      said2 === "Moved the direction lever: The other way from the large circle." && before && finished.done && finished.turned === 2 && finished.misses === 1 && finished.talk?.script === "done" && finished.shown?.setting.k === 2 && finished.shown.setting.d === -1 &&
+        /The point went back and forth along a straight line\./.test(ranLine) && /The page has settled onto a straight line\./.test(ranLine) &&
+        panel.shown && panel.modal === 0 && panel.goals === 4 && panel.met === 4 && panel.notes.includes(NOTE2) && panel.notes.includes(NOTE_ROOM) && panel.notes.some((n) => /^This is a game, not a history\./.test(n)) && /Historical review pending/.test(panel.pending) &&
+        panel.links.join() === "https://islam.museum/en/person/nasir-al-din-al-tusi/,https://islam.museum/en/building/maragha-observatory/" && panel.buttons.join("|") === "Go through the door|Play again|Back to the Atlas" && panel.door.lit && panel.door.scene === "tusi" &&
+        panel.list.join() === "Go through the door" && panel.objective.startsWith("Walk Hudhud to the lit door at the end of the observatory.") && panel.saved &&
+        back.hub && back.roomHidden && back.last?.scene === "tusi" && reach !== null && reach < back.last.where.reach && /^Play again: /.test(back.label) && back.canvases === 0,
+      { said2, before, finished: { done: finished.done, turned: finished.turned, misses: finished.misses }, ranLine, panel, back: { ...back }, reach });
+    await ctx.close();
+  }
+
+  // (5) The journey leads from the workshop into the room, a reload resumes in it as it was, and its door leads on into al-Jazari's room.
+  {
+    const ctx = await browser.newContext({ viewport: { width: 1280, height: 900 } });
+    const page = await open(ctx, "&style=explorer");
+    await ev(page, "window.__HH__.beginJourney()");
+    await page.waitForFunction("window.__HH__.where() !== null", undefined, { timeout: 30000 });
+    await ev(page, "window.__HH__.command({type:'skip'}); for (const id of ['mirror-a','mirror-c','mirror-e']) window.__HH__.touch(id); window.__HH__.command({type:'skip'}); window.__HH__.touch('page');");
+    await ev(page, "window.__HH__.goThroughDoor()");
+    await page.waitForFunction("window.__HH__.tusi() !== null && window.__HH__.where() !== null", undefined, { timeout: 30000 });
+    const entered = await ev<{ journey: { scene: number; at: number }; last: { scene: string } | null; toast: string | null; heading: string; corridors: number }>(page, `({ journey: window.__HH__.journey(), last: window.__HH__.lastDoor(), toast: document.querySelector('.toast') ? document.querySelector('.toast').textContent : null, heading: document.querySelector('${ROOM} h2').textContent, corridors: document.querySelectorAll('.corridor').length })`);
+    await skipTalk(page);
+    await fly(page, "crank", "window.__HH__.tusi().turned === 1");
+    await page.waitForFunction("!window.__HH__.tusi().busy", undefined, { timeout: 10000 });
+    await ev(page, "window.__HH__.tusiCommand({ type: 'touch', id: 'tusi' }); window.__HH__.tusiCommand({ type: 'choose', index: 1 }); window.__HH__.tusiCommand({ type: 'skip' }); window.__HH__.tusiCommand({ type: 'touch', id: 'lever-dir' });");
+    const left = (await ts(page))!;
+    const kept = await ev<{ quest: string; snap: Record<string, unknown> } | null>(page, "JSON.parse(localStorage.getItem('im.hudhud.save.v1') || '{}').slots?.[0]?.resume ?? null");
+    await ev(page, "window.__HH__.saveReady()");
+    await page.reload();
+    await page.waitForFunction("window.__HH__ && window.__HH__.ready");
+    await leaveOpening(page);
+    const label = await ev<string>(page, "document.querySelector('.hub button.journey-btn').textContent");
+    await page.locator(".hub button.journey-btn").click();
+    await page.waitForFunction("window.__HH__.tusi() !== null && window.__HH__.where() !== null", undefined, { timeout: 30000 });
+    await page.waitForTimeout(500);
+    const resumed = (await ts(page))!;
+    const again = await ev<{ scene: number; at: number }>(page, "window.__HH__.journey()");
+    if (outDir) await page.screenshot({ path: resolve(outDir, "tusi-room-resumed.png") });
+    // Finished through the rules (the speed lever once more to twice as fast, then the crank), and through the door by walking.
+    await ev(page, "window.__HH__.tusiCommand({ type: 'touch', id: 'lever-speed' }); window.__HH__.tusiCommand({ type: 'touch', id: 'crank' });");
+    await page.waitForFunction("window.__HH__.tusi().doorLit", undefined, { timeout: 15000 });
+    await skipTalk(page);
+    await page.locator(`${ROOM} .stage`).focus();
+    await walkRight(page, "window.__HH__.jazari() !== null");
+    await page.waitForFunction("window.__HH__.where() !== null", undefined, { timeout: 30000 });
+    const onward = await ev<{ journey: { scene: number; at: number }; last: { scene: string } | null; heading: string; tusi: unknown; corridors: number }>(page, `({ journey: window.__HH__.journey(), last: window.__HH__.lastDoor(), heading: document.querySelector('${ROOM} h2').textContent, tusi: window.__HH__.tusi(), corridors: document.querySelectorAll('.corridor').length })`);
+    record("in the journey the workshop's lit door leads into al-Tusi's room (the second scene: no page, no corridor); left in the middle the place kept is the two circles' own snapshot, a reload offers 'Continue the journey' with his name and resumes in the room as it was (the turning and the question counted, the lever where it was set, no path and no talk); finished, its lit door walked to leads on into al-Jazari's room, the third scene",
+      entered.journey.scene === 1 && entered.journey.at === 1 && entered.last?.scene === "workshop" && entered.toast === "Hudhud: On to the next page of the Atlas: Nasir al-Din al-Tusi!" && entered.heading === "Nasir al-Din al-Tusi" && entered.corridors === 0 &&
+        left.turned === 1 && left.misses === 1 && left.flags.join() === "askedObs" && left.setting.d === -1 && kept?.quest === QUEST && Object.keys(kept.snap).sort().join() === "dir,flags,misses,size,speed,style,turned" && kept.snap.dir === -1 &&
+        label === "Continue the journey: Nasir al-Din al-Tusi" && resumed.turned === 1 && resumed.misses === 1 && resumed.flags.join() === "askedObs" && resumed.setting.d === -1 && resumed.setting.k === 1 && resumed.last === null && resumed.talk === null && resumed.shown?.points === 0 && again.scene === 1 &&
+        onward.journey.scene === 2 && onward.journey.at === 2 && onward.last?.scene === "tusi" && onward.heading === "al-Jazari and the elephant clock" && onward.tusi === null && onward.corridors === 0,
+      { entered, left: { turned: left.turned, flags: left.flags, setting: left.setting }, kept, label, resumed: { turned: resumed.turned, flags: resumed.flags, setting: resumed.setting, last: resumed.last }, again, onward });
+    await ctx.close();
+  }
+
+  // (6) An Arabic page.
+  {
+    const ctx = await browser.newContext({ viewport: { width: 1280, height: 900 } });
+    const page = await ctx.newPage();
+    page.on("pageerror", (e) => errors.push(String(e)));
+    await page.goto(`${served.base}/games/hudhud/index.html?lang=ar&music=off&style=explorer&fresh=1`);
+    await page.waitForFunction("window.__HH__ && window.__HH__.ready");
+    await leaveOpening(page);
+    await openTusi(page);
+    const ar = await ev<{ dir: string; alt: string | null; heading: string; who: string | null; list: string[] }>(page, `({ dir: document.documentElement.dir, alt: document.querySelector('${ROOM} .stage').getAttribute('aria-label'), heading: document.querySelector('${ROOM} h2').textContent, who: document.querySelector('${ROOM} .talk .who') ? document.querySelector('${ROOM} .talk .who').textContent : null, list: [...document.querySelectorAll('${ROOM} .room-words li button')].map((b) => b.textContent) })`);
+    await skipTalk(page);
+    await fly(page, "lever-speed", "window.__HH__.tusi().setting.k === 2");
+    const said = await ranText(page);
+    await fly(page, "crank", "window.__HH__.tusi().turned === 1");
+    await page.waitForFunction("!window.__HH__.tusi().busy", undefined, { timeout: 10000 });
+    const after = { last: await lastLine(page), objective: await ev<string>(page, `document.querySelector('${ROOM} .objective').textContent`), list: await words(page) };
+    if (outDir) await page.screenshot({ path: resolve(outDir, "tusi-room-ar.png") });
+    record("al-Tusi's room on an Arabic page runs right to left, says its picture, its list, each lever's setting, what a lever did and the last path in Arabic, with Arabic numerals",
+      ar.dir === "rtl" && ar.alt === "مرصد الطوسي في صورة. والقائمة التي بعدها تقول الشيء نفسه بالكلمات." && ar.heading.includes("الطوسي") && ar.who === "هدهد" && ar.list.length === 6 && ar.list.includes("أدِر المقبض: أدِر الدائرتين") && ar.list.some((x) => x.startsWith("حرّك ذراع السرعة")) &&
+        said.startsWith("تحرّك ذراع السرعة: ") && after.last.startsWith("آخر مسار: ") && after.last.includes("٢") && after.objective.includes("١") && !/[0-9]/.test(after.list.join("") + after.last + after.objective),
+      { ar, said, after });
+    await ctx.close();
+  }
+
+  // (7) Movement kept still: the bird is set down at once, the turning is not shown, the path is drawn whole at once, and the door is still walked to.
+  {
+    const ctx = await browser.newContext({ viewport: { width: 1280, height: 900 } });
+    const page = await open(ctx, "&style=story&motion=reduced&fresh=1");
+    await openTusi(page);
+    await skipTalk(page);
+    const list = await words(page);
+    await ev(page, "window.__HH__.goTo('crank')");
+    const atOnce = (await ts(page))!;
+    const ran = await ranText(page);
+    await ev(page, "window.__HH__.goTo('lever-dir')");
+    const t0 = Date.now();
+    await ev(page, "window.__HH__.goTo('crank')");
+    await page.waitForFunction("window.__HH__.tusi().doorLit", undefined, { timeout: 5000 });
+    const took = Date.now() - t0;
+    const calm = (await ts(page))!;
+    await skipTalk(page);
+    await page.locator(`${ROOM} .stage`).focus();
+    await walkRight(page, "!document.querySelector('.hub').hidden");
+    const last = await ev<{ scene: string } | null>(page, "window.__HH__.lastDoor()");
+    record("al-Tusi's room with motion=reduced: Story has one lever (the direction); flown to, the bird is set down and touches at once, the turning is never shown (never busy) and its whole path is drawn on the same step, Story's words say which way to try, the line is found on the second turning, and the lit door is still reached by walking",
+      list.length === 5 && list.filter((x) => x.startsWith("Move the")).length === 1 && atOnce.turned === 1 && !atOnce.busy && atOnce.shown?.points === 360 && atOnce.shown.closed && ran === "The point traced a flower of 2 loops.That is not a straight line. Try turning the small circle the other way." &&
+        calm.done && calm.turned === 2 && calm.misses === 1 && took < 1500 && last?.scene === "tusi",
+      { list, atOnce: { turned: atOnce.turned, busy: atOnce.busy, shown: atOnce.shown }, ran, took, calm: { done: calm.done, turned: calm.turned }, last });
+    await ctx.close();
+  }
+
+  // (8) Without WebGL the scene is played on the two circles' page, and finished there.
+  {
+    const ctx = await browser.newContext({ viewport: { width: 1280, height: 800 } });
+    await ctx.addInitScript("const g = HTMLCanvasElement.prototype.getContext; HTMLCanvasElement.prototype.getContext = function (t, ...a) { return /webgl/.test(t) ? null : g.call(this, t, ...a); };");
+    const page = await open(ctx, "&fresh=1&preflight=off&style=explorer");
+    const note = await ev<string>(page, `(() => { const s = document.querySelector(".hub button[data-quest='${QUEST}']").parentElement.querySelector('small'); return s ? s.textContent : ''; })()`);
+    await page.locator(`.hub button[data-quest='${QUEST}']`).click();
+    await page.waitForFunction("window.__HH__.couple() !== null", undefined, { timeout: 10000 });
+    const onPage = await ev<{ room: unknown; groups: number; roomHidden: boolean; benchShown: boolean }>(page, "({ room: window.__HH__.tusi(), groups: [...document.querySelectorAll('.bench fieldset.couple-group')].filter((f) => !f.hidden).length, roomHidden: document.querySelector('.room-box').hidden, benchShown: !document.querySelector('.bench').hidden })");
+    await ev(page, "window.__HH__.coupleCommand({ type: 'set', field: 'speed', value: 2 }); window.__HH__.coupleCommand({ type: 'set', field: 'dir', value: -1 }); window.__HH__.coupleCommand({ type: 'turn' });");
+    await page.waitForSelector(".bench .results:not([hidden])", { timeout: 20000 });
+    const done = await ev<boolean>(page, "window.__HH__.couple().done");
+    record("without WebGL al-Tusi's scene is played on the two circles' page (its trial line on the Atlas, two groups of radio buttons in Explorer, no room), and is finished there",
+      /first trial/.test(note) && onPage.room === null && onPage.groups === 2 && onPage.roomHidden && onPage.benchShown && done, { note, onPage, done });
     await ctx.close();
   }
 }
