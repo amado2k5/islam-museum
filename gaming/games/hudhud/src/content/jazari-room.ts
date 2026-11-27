@@ -41,7 +41,7 @@ export const JR_BASIN = { x: 860, w: 150, y: 562 } as const;
 export const JR_WINDOW = { x: 250, y: 130, w: 200, h: 250 } as const;
 export const JR_PLATFORM = { x: 1560, w: 700, y: 600 } as const;
 export const JR_LEVER = { x: 2236, y: 560 } as const;
-export const JR_START = { hudhud: 250, keeper: 170, jazari: 580, apprentice: 1500 } as const;
+export const JR_START = { hudhud: 250, keeper: 106, jazari: 580, apprentice: 1500 } as const;
 
 export const JR_ROOM: Room = {
   bounds: { x: 24, y: 24, w: JR_WORLD.width - 48, h: JR_WORLD.height },

@@ -550,12 +550,38 @@ export function mapHelper(scale: number): KeeperArt {
   return { ...art, body };
 }
 
+/**
+ * The child who helps in al-Razi's study, an invented person (the loose leaves' quest's own): the same cut-out as the
+ * explorer, in one fixed look of the child's own (a boy in a red tunic), holding two loose leaves of plain paper
+ * against the chest, the leaves the wind blew away. Nothing on them is written, and nothing about the child is medical.
+ */
+export function leafChild(scale: number): KeeperArt {
+  const art = keeper(scale, { kind: 0, skin: 0, outfit: 1, hair: 0 });
+  const [body, b] = sheet(art.body.w, art.body.h, scale);
+  b.drawImage(art.body.canvas, 0, 0, art.body.w, art.body.h);
+  blob(b, [
+    [24, 44],
+    [60, 38],
+    [64, 90],
+    [28, 94],
+  ]);
+  fillStroke(b, "#f6ecd2", INK, 2);
+  blob(b, [
+    [34, 36],
+    [70, 34],
+    [72, 84],
+    [38, 88],
+  ]);
+  fillStroke(b, "#efe2c2", INK, 2);
+  return { ...art, body };
+}
+
 // ---------------------------------------------------------------------------------------------- the scholar
 /** The colours a scholar's figure is drawn in. The default is Ibn al-Haytham's, as the workshop has always drawn him;
  * al-Jazari's figure is the same cut-out in other colours, with an apron (art/jazari.ts's room), al-Tusi's in night
  * colours (art/tusi.ts's room), al-Khwarizmi's in day colours (art/khwarizmi.ts's room), and al-Kindi's in lamplit
- * colours (art/kindi.ts's room), and al-Idrisi's in the bright colours of a hall by day (art/idrisi.ts's hall). None is
- * a likeness. */
+ * colours (art/kindi.ts's room), al-Idrisi's in the bright colours of a hall by day (art/idrisi.ts's hall), and al-Razi's
+ * in the warm browns of a quiet study (art/razi.ts's study). None is a likeness. */
 export interface ScholarLook {
   skin: string;
   beard: [string, string];
@@ -662,6 +688,22 @@ export const IDRISI_LOOK: ScholarLook = {
   dots: PAL.lapis,
   shawl: "#2f8a7a",
   seed: "idrisi",
+};
+/** Al-Razi's figure in his study (art/razi.ts's study): the same cut-out again, in the warm browns of a quiet study, a
+ * walnut robe, an ochre shawl and a cream turban. Not a likeness. */
+export const RAZI_LOOK: ScholarLook = {
+  skin: "#cf9c6e",
+  beard: ["#3a2c24", "#7a6c60"],
+  moustache: "#3a2c24",
+  brow: "#2e2420",
+  turban: ["#fbf3e0", "#d9ccae"],
+  turbanBands: "rgba(122,74,38,0.5)",
+  robe: ["#8a5a3a", "#5e3a24"],
+  gown: "#f3e6c8",
+  border: PAL.gold,
+  dots: PAL.teal,
+  shawl: "#b8823a",
+  seed: "razi",
 };
 export interface ScholarArt {
   body: Painted;

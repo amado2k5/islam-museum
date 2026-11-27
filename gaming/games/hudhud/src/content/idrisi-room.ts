@@ -57,7 +57,7 @@ export const railHalf = (level: { k: number }): number => Math.round(2.5 * ISR_P
 /** The lamp by the table, on a low stand whose top is a perch. */
 export const ISR_LAMP = { x: 1820, y: 468 } as const;
 export const ISR_LAMP_STAND = { x: 1770, w: 100, y: 500 } as const;
-export const ISR_START = { hudhud: 250, keeper: 170, idrisi: 770, helper: 2170 } as const;
+export const ISR_START = { hudhud: 250, keeper: 106, idrisi: 770, helper: 2170 } as const;
 
 export const ISR_ROOM: Room = {
   bounds: { x: 24, y: 24, w: ISR_WORLD.width - 48, h: ISR_WORLD.height },

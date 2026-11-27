@@ -69,7 +69,7 @@ export const AKR_TRAY = {
 /** The locked box on its plinth beside the table (the plinth's top is a perch; the feather is under the box). */
 export const AKR_PLINTH = { x: 2150, w: 130, y: 330 } as const;
 export const AKR_BOX = { x: 2238, y: 302 } as const;
-export const AKR_START = { hudhud: 250, keeper: 170, khwarizmi: 880, child: 2160 } as const;
+export const AKR_START = { hudhud: 250, keeper: 106, khwarizmi: 880, child: 2160 } as const;
 
 export const AKR_ROOM: Room = {
   bounds: { x: 24, y: 24, w: AKR_WORLD.width - 48, h: AKR_WORLD.height },

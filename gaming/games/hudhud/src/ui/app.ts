@@ -19,6 +19,8 @@ import { restoreKindi, type KindiCommand } from "../sim/kindiroom";
 import { kindiRoom, type KindiRoom } from "./kindi";
 import { restoreIdrisi, type IdrisiCommand } from "../sim/idrisiroom";
 import { idrisiRoom, type IdrisiRoom } from "./idrisi";
+import { restoreRazi, type RaziCommand } from "../sim/raziroom";
+import { raziRoom, type RaziRoom } from "./razi";
 import { CIPHER_QUEST, cipherPuzzle } from "../content/cipher";
 import { restoreCipher } from "../sim/cipher";
 import { cipherQuest, type CipherQuest } from "./cipher";
@@ -202,11 +204,11 @@ async function main(): Promise<void> {
   // is open at a time: `pageRun` is the one that is (see PAGE_QUESTS).
   const bench = el("section", { class: "bench", hidden: true });
   let pageRun: { quest: string; run: { node: HTMLElement; busy(): boolean; stop(): void } } | null = null;
-  // A scene with a room of its own (al-Jazari's workshop, al-Tusi's observatory, al-Khwarizmi's room, al-Kindi's room
-  // and al-Idrisi's hall, since 27 November 2026) is opened like a page quest and shown here, as wide as the flying
-  // scene's stage. Its page quest stays as the way it is played without WebGL.
+  // A scene with a room of its own (al-Jazari's workshop, al-Tusi's observatory, al-Khwarizmi's room, al-Kindi's room,
+  // al-Idrisi's hall and al-Razi's study, since 27 November 2026) is opened like a page quest and shown here, as wide as
+  // the flying scene's stage. Its page quest stays as the way it is played without WebGL.
   const roomBox = el("section", { class: "room-box", hidden: true });
-  type AnyRoom = JazariRoom | TusiRoom | KhwarizmiRoom | KindiRoom | IdrisiRoom;
+  type AnyRoom = JazariRoom | TusiRoom | KhwarizmiRoom | KindiRoom | IdrisiRoom | RaziRoom;
   /** The open room, if a scene is being played in its room. */
   const openRoom = (): AnyRoom | null => (pageRun && "press" in pageRun.run ? (pageRun.run as unknown as AnyRoom) : null);
   /** The open room, if it is `quest`'s. */
@@ -1151,8 +1153,31 @@ async function main(): Promise<void> {
     [LEAVES_QUEST]: {
       subject: LEAVES_SUBJECT,
       trial: "rz_trial",
+      // One kept place serves both: the study's snapshot is the loose leaves' own with the lifted leaf added.
       saved: () => pageSaved(LEAVES_QUEST, (snap) => restoreLeaves(snap, leavesPuzzle)),
       make: (c, title, kept) => leavesQuest({ ...c, title, resume: kept as Parameters<typeof leavesQuest>[0]["resume"] }),
+      // Al-Razi's study: the loose leaves played by flying, in a room of their own.
+      room: roomsOn,
+      makeRoom: (c, title) =>
+        raziRoom({
+          ...c,
+          title,
+          quality,
+          keeper: () => slot().keeper,
+          textSpeed: () => settings().textSpeed,
+          perf: query.get("perf") === "1",
+          intent: () => input.intent(),
+          bindHold: (b, what) => input.bindHold(b, what),
+          blocked: () => sheetOpen(),
+          sound,
+          toast,
+          // The goals are written into the save; the study's own door leads on (no corridor).
+          finish: (g) => pageFinish(LEAVES_QUEST, g),
+          through: () => moveOn(),
+          fallback: () => openPage(LEAVES_QUEST, inJourney, true),
+          resume: pageSaved(LEAVES_QUEST, restoreRazi),
+          keepPlace: (snap) => pageCheckpoint(LEAVES_QUEST, snap),
+        }),
     },
     [COLLATE_QUEST]: {
       subject: COLLATE_SUBJECT,
@@ -1353,9 +1378,9 @@ async function main(): Promise<void> {
     if (inJourney !== null) strip.focus();
   }
   /** The door of whichever scene is open: lit or not, where it stands, and where the bird is. */
-  const doorNow = (): { lit: boolean; where: { x: number; y: number; reach: number } | null; bird: { x: number; y: number } | null; scene: "workshop" | "corridor" | "page" | "jazari" | "tusi" | "khwarizmi" | "kindi" | "idrisi" } | null => {
+  const doorNow = (): { lit: boolean; where: { x: number; y: number; reach: number } | null; bird: { x: number; y: number } | null; scene: "workshop" | "corridor" | "page" | "jazari" | "tusi" | "khwarizmi" | "kindi" | "idrisi" | "razi" } | null => {
     const room = openRoom();
-    if (room) return { ...room.door(), scene: pageRun?.quest === COUPLE_QUEST ? "tusi" : pageRun?.quest === ALGEBRA_QUEST ? "khwarizmi" : pageRun?.quest === CIPHER_QUEST ? "kindi" : pageRun?.quest === SHEETS_QUEST ? "idrisi" : "jazari" };
+    if (room) return { ...room.door(), scene: pageRun?.quest === COUPLE_QUEST ? "tusi" : pageRun?.quest === ALGEBRA_QUEST ? "khwarizmi" : pageRun?.quest === CIPHER_QUEST ? "kindi" : pageRun?.quest === SHEETS_QUEST ? "idrisi" : pageRun?.quest === LEAVES_QUEST ? "razi" : "jazari" };
     if (started) {
       const w = running?.scene()?.where() ?? null;
       return { lit: state.done, where: { ...DOOR }, bird: w ? { x: w.x, y: w.y } : null, scene: "workshop" };
@@ -1620,7 +1645,16 @@ async function main(): Promise<void> {
     startChannels: () => openPage(CHANNELS_QUEST),
     channels: () => { const r = pageOf<ChannelsQuest>(CHANNELS_QUEST); return r ? { ...r.state(), busy: r.busy(), selected: r.selected(), status: r.status() } : null; },
     channelsCommand: (c: Parameters<ChannelsQuest["command"]>[0]) => pageOf<ChannelsQuest>(CHANNELS_QUEST)?.command(c),
-    startLeaves: () => openPage(LEAVES_QUEST),
+    // The loose leaves' page quest (the way they are played without WebGL), and al-Razi's study, where they are played by flying.
+    startLeaves: () => openPage(LEAVES_QUEST, null, true),
+    startRazi: () => openPage(LEAVES_QUEST),
+    razi: () => {
+      const r = roomOf<RaziRoom>(LEAVES_QUEST);
+      if (!r) return null;
+      const v = r.view();
+      return { ...v.state.leaves, places: v.state.leaves.puzzle.places, lifted: v.state.lifted, talk: v.state.talk, busy: r.busy(), lit: v.lit, stopped: v.stopped, doorLit: v.done, shown: r.running()?.scene()?.shown() ?? null };
+    },
+    raziCommand: (c: RaziCommand) => roomOf<RaziRoom>(LEAVES_QUEST)?.command(c),
     leaves: () => { const r = pageOf<LeavesQuest>(LEAVES_QUEST); return r ? { ...r.state(), busy: r.busy(), selected: r.selected(), status: r.status() } : null; },
     leavesCommand: (c: Parameters<LeavesQuest["command"]>[0]) => pageOf<LeavesQuest>(LEAVES_QUEST)?.command(c),
     startCollate: () => openPage(COLLATE_QUEST),

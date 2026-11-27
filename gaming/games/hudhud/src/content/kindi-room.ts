@@ -49,7 +49,7 @@ export const KDR_BELL = { x: 2060, y: 470 } as const;
 export const KDR_BELL_STAND = { x: 2010, w: 100, y: 500 } as const;
 /** The torn page on top of the bookcase, with the feather under it. */
 export const KDR_PAGE = { x: 450, y: 120 } as const;
-export const KDR_START = { hudhud: 250, keeper: 170, kindi: 820, messenger: 2190 } as const;
+export const KDR_START = { hudhud: 250, keeper: 106, kindi: 820, messenger: 2190 } as const;
 
 export const KDR_ROOM: Room = {
   bounds: { x: 24, y: 24, w: KDR_WORLD.width - 48, h: KDR_WORLD.height },

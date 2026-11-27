@@ -26,6 +26,10 @@ const here = (...p: string[]) => resolve(__dirname, "..", ...p);
 const table = (lang: string) => JSON.parse(readFileSync(resolve(__dirname, "..", "..", "i18n", `${lang}.json`), "utf8")) as Record<string, string>;
 const atlasTable = (lang: string) => JSON.parse(readFileSync(resolve(__dirname, "..", "..", "i18n-atlas", `${lang}.json`), "utf8")) as Record<string, string>;
 const rz = (lang: string) => Object.entries(table(lang)).filter(([k]) => k.startsWith("rz_"));
+/** The quest's strings and those of al-Razi's study (rzr_, 27 November 2026), which keeps the quest's rule of no medical content. */
+const rzAll = (lang: string) => Object.entries(table(lang)).filter(([k]) => k.startsWith("rz_") || k.startsWith("rzr_"));
+/** The two notes that say there is no medical advice: the quest's and the study's. Only they may say "medical". */
+const ADVICE_NOTES = ["rz_note_1", "rzr_note_room"];
 const play = (s: LeavesState, cs: LeavesCommand[]) => cs.reduce(applyLeaves, s);
 const record = readFileSync(resolve(root, "content", "en", "person", "al-razi-abu-bakr.md"), "utf8").replace(/\s+/g, " ");
 const recordAr = readFileSync(resolve(root, "content", "ar", "person", "al-razi-abu-bakr.md"), "utf8").replace(/\s+/g, " ");
@@ -266,7 +270,8 @@ describe("the page and the registry", () => {
     expect(app).toContain("restoreLeaves(snap, leavesPuzzle)");
     // The table of built quests is content/journey.ts's since the journey (27 November 2026).
     expect(readFileSync(here("content", "journey.ts"), "utf8")).toContain("[LEAVES_SUBJECT]: LEAVES_QUEST");
-    expect(app).toContain("startLeaves: () => openPage(LEAVES_QUEST)");
+    // Since al-Razi's study (27 November 2026) the hook opens the quest on its page, the way it is played without WebGL.
+    expect(app).toContain("startLeaves: () => openPage(LEAVES_QUEST, null, true)");
     expect(app).toMatch(/leaves: \(\) => \{ const r = pageOf<LeavesQuest>\(LEAVES_QUEST\)/);
     expect(app).toContain("leavesCommand:");
     expect(ui).toMatch(/notes: \["rz_note_1", "rz_note_2", "rz_note_3", "rz_note_4"\]/);
@@ -339,7 +344,7 @@ describe("the words", () => {
     // Four notes and no fifth.
     expect(Object.keys(en).filter((k) => k.startsWith("rz_note_"))).toEqual(["rz_note_1", "rz_note_2", "rz_note_3", "rz_note_4"]);
   });
-  it("carries no medical content: no word of illness, pain, fever, remedy, drug, dose or bleeding, in any of the seven languages", () => {
+  it("carries no medical content, nor does al-Razi's study: no word of illness, pain, fever, remedy, drug, dose or bleeding, in any of the seven languages", () => {
     // Words (or the start of words) that are illness or remedy, in each language. A patient and a hospital are not on
     // the lists: the record's lines speak of both. The only word for medicine allowed is the name of the art in the
     // book's title and the speaker's craft (physician), and "medical" only in the note that says there is no medical
@@ -363,7 +368,7 @@ describe("the words", () => {
       return out;
     };
     for (const l of LANGS) {
-      for (const [k, v] of rz(l)) {
+      for (const [k, v] of rzAll(l)) {
         for (const w of words(v)) {
           if (l === "ar" || l === "ur") {
             const list = l === "ar" ? BANNED_AR : BANNED_UR;
@@ -377,15 +382,17 @@ describe("the words", () => {
     }
     // "medicine" only in the book's title, and the Arabic and Urdu word for it only there, in the physician's name for his
     // craft, and in the note that says there is no medical advice.
-    for (const [k, v] of rz("en")) for (const m of v.matchAll(/medic\w*/gi)) expect(m[0] === "medicine" ? v.slice(m.index! - 3, m.index!) : `${k}:${m[0]}`, k).toBe(m[0] === "medicine" ? "on " : "rz_note_1:medical");
-    for (const [k, v] of rz("ar")) for (const w of words(v)) if (w.includes("طب")) expect(["الطب", "طبيب", "الطبيب", "طبية"], `${k}: ${w}`).toContain(w);
-    for (const [k, v] of rz("ur")) for (const w of words(v)) if (w.startsWith("طب")) expect(["طب", "طبیب", "طبی"], `${k}: ${w}`).toContain(w);
+    for (const [k, v] of rzAll("en")) for (const m of v.matchAll(/medic\w*/gi)) expect(m[0] === "medicine" ? v.slice(m.index! - 3, m.index!) : ADVICE_NOTES.includes(k) && m[0] === "medical", k).toBe(m[0] === "medicine" ? "on " : true);
+    for (const [k, v] of rzAll("ar")) for (const w of words(v)) if (w.includes("طب")) expect(["الطب", "طبيب", "الطبيب", "طبية"], `${k}: ${w}`).toContain(w);
+    for (const [k, v] of rzAll("ur")) for (const w of words(v)) if (w.startsWith("طب")) expect(["طب", "طبیب", "طبی"], `${k}: ${w}`).toContain(w);
     // The note says there is no medical advice, in every language.
     const advice: Record<string, string> = { en: "There is no medical advice in this game.", ar: "وليس في اللعبة أي نصيحة طبية.", ur: "کوئی طبی مشورہ نہیں", fr: "aucun conseil médical", es: "ningún consejo médico", tr: "hiçbir tıbbi tavsiye yoktur", id: "Tidak ada nasihat medis" };
     for (const l of LANGS) expect(table(l).rz_note_1, l).toContain(advice[l]!);
+    // And so does the study's note.
+    for (const l of LANGS) expect(table(l).rzr_note_room, l).toContain(advice[l]!);
     // And "medical" in no other string of the quest.
     const medical: Record<string, RegExp> = { en: /\bmedical\b/i, ar: /طبية/, ur: /طبی(?!ب)/, fr: /médical/, tr: /tıbbi/, id: /medis/ };
-    for (const [l, re] of Object.entries(medical)) for (const [k, v] of rz(l)) if (k !== "rz_note_1") expect(v, `${l}:${k}`).not.toMatch(re);
+    for (const [l, re] of Object.entries(medical)) for (const [k, v] of rzAll(l)) if (!ADVICE_NOTES.includes(k)) expect(v, `${l}:${k}`).not.toMatch(re);
   });
   it("never calls an invented character the Messenger, in any language that has the word", () => {
     for (const l of LANGS) for (const [k, v] of rz(l)) expect(v, `${l}:${k}`).not.toMatch(/الرسول/);
@@ -423,14 +430,14 @@ describe("the words", () => {
       expect(new Set(LEAVES_STATES.map((s) => t[`rz_kind_${tail(s)}`])).size, l).toBe(LEAVES_STATES.length);
     }
   });
-  it("is appended at the end of each language's file, after the keys of the eleventh quest, and only the next quest's keys (`kr_`) and the journey's (`jn_`), then al-Jazari's room's (`jr_`), then al-Tusi's room's (`tsr_`), then al-Khwarizmi's room's (`akr_`), then al-Kindi's room's (`kdr_`), then al-Idrisi's hall's (`isr_`) come after it", () => {
+  it("is appended at the end of each language's file, after the keys of the eleventh quest, and only the next quest's keys (`kr_`) and the journey's (`jn_`), then al-Jazari's room's (`jr_`), then al-Tusi's room's (`tsr_`), then al-Khwarizmi's room's (`akr_`), then al-Kindi's room's (`kdr_`), then al-Idrisi's hall's (`isr_`), then al-Razi's study's (`rzr_`) come after it", () => {
     for (const l of LANGS) {
       const ks = Object.keys(table(l));
       const first = ks.findIndex((k) => k.startsWith("rz_"));
       const count = ks.filter((k) => k.startsWith("rz_")).length;
       expect(first, l).toBeGreaterThan(0);
       expect(ks.slice(first, first + count).every((k) => k.startsWith("rz_")), l).toBe(true);
-      expect(ks.slice(first + count).every((k) => k.startsWith("kr_") || k.startsWith("jn_") || k.startsWith("jr_") || k.startsWith("tsr_") || k.startsWith("akr_") || k.startsWith("kdr_") || k.startsWith("isr_")), l).toBe(true);
+      expect(ks.slice(first + count).every((k) => k.startsWith("kr_") || k.startsWith("jn_") || k.startsWith("jr_") || k.startsWith("tsr_") || k.startsWith("akr_") || k.startsWith("kdr_") || k.startsWith("isr_") || k.startsWith("rzr_")), l).toBe(true);
       expect(ks[first - 1]!.startsWith("ah_"), l).toBe(true);
     }
   });
