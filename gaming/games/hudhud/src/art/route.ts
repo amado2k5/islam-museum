@@ -73,6 +73,12 @@ const SIGN: Record<(typeof SIGNS)[number], (c: Ctx) => void> = {
   },
 };
 
+/** Traces the sign of the bead at place `i` of the ring about (0, 0), ready to fill: the same sign this picture draws for that
+ * place. Shared with Ibn Battuta's inn (art/battuta.ts), so that a bead looks the same on the page and in the room. */
+export function traceSign(c: Ctx, i: number): void {
+  SIGN[SIGNS[i % SIGNS.length]!](c);
+}
+
 /** Makes a canvas for the picture, sharp on the screen it is on. */
 export function routeCanvas(): HTMLCanvasElement {
   const canvas = document.createElement("canvas");
@@ -120,7 +126,6 @@ export function drawRoute(canvas: HTMLCanvasElement, v: RouteView): void {
   v.stops.forEach((id, i) => {
     const p = pos(id);
     const on = v.thread.includes(id);
-    const sign = SIGNS[i % SIGNS.length]!;
     // The bead reached last is marked by a ring and eight rays as well as by colour; a bead on the thread has a heavy outline.
     if (id === last) {
       c.strokeStyle = PAL.cream;
@@ -152,7 +157,7 @@ export function drawRoute(canvas: HTMLCanvasElement, v: RouteView): void {
     }
     c.save();
     c.translate(p.x, p.y);
-    SIGN[sign](c);
+    traceSign(c, i);
     c.fillStyle = on ? INK : PAL.cream;
     c.fill("evenodd");
     c.restore();

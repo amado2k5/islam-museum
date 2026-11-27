@@ -23,6 +23,8 @@ import { restoreRazi, type RaziCommand } from "../sim/raziroom";
 import { raziRoom, type RaziRoom } from "./razi";
 import { restoreKarima, type KarimaCommand } from "../sim/karimaroom";
 import { karimaRoom, type KarimaRoom } from "./karima";
+import { restoreBattuta, type BattutaCommand } from "../sim/battutaroom";
+import { battutaRoom, type BattutaRoom } from "./battuta";
 import { CIPHER_QUEST, cipherPuzzle } from "../content/cipher";
 import { restoreCipher } from "../sim/cipher";
 import { cipherQuest, type CipherQuest } from "./cipher";
@@ -207,10 +209,11 @@ async function main(): Promise<void> {
   const bench = el("section", { class: "bench", hidden: true });
   let pageRun: { quest: string; run: { node: HTMLElement; busy(): boolean; stop(): void } } | null = null;
   // A scene with a room of its own (al-Jazari's workshop, al-Tusi's observatory, al-Khwarizmi's room, al-Kindi's room,
-  // al-Idrisi's hall, al-Razi's study and Karima al-Marwaziyya's room, since 27 November 2026) is opened like a page
-  // quest and shown here, as wide as the flying scene's stage. Its page quest stays as the way it is played without WebGL.
+  // al-Idrisi's hall, al-Razi's study, Karima al-Marwaziyya's room and Ibn Battuta's inn, since 27 November 2026) is
+  // opened like a page quest and shown here, as wide as the flying scene's stage. Its page quest stays as the way it is
+  // played without WebGL.
   const roomBox = el("section", { class: "room-box", hidden: true });
-  type AnyRoom = JazariRoom | TusiRoom | KhwarizmiRoom | KindiRoom | IdrisiRoom | RaziRoom | KarimaRoom;
+  type AnyRoom = JazariRoom | TusiRoom | KhwarizmiRoom | KindiRoom | IdrisiRoom | RaziRoom | KarimaRoom | BattutaRoom;
   /** The open room, if a scene is being played in its room. */
   const openRoom = (): AnyRoom | null => (pageRun && "press" in pageRun.run ? (pageRun.run as unknown as AnyRoom) : null);
   /** The open room, if it is `quest`'s. */
@@ -1108,8 +1111,31 @@ async function main(): Promise<void> {
     [ROUTE_QUEST]: {
       subject: ROUTE_SUBJECT,
       trial: "ib_trial",
+      // One kept place serves both: the inn keeps the road's own snapshot.
       saved: () => pageSaved(ROUTE_QUEST, (snap) => restoreRoute(snap, routeStage)),
       make: (c, title, kept) => routeQuest({ ...c, title, resume: kept as Parameters<typeof routeQuest>[0]["resume"] }),
+      // Ibn Battuta's inn: the road threaded by flying, in a room of its own.
+      room: roomsOn,
+      makeRoom: (c, title) =>
+        battutaRoom({
+          ...c,
+          title,
+          quality,
+          keeper: () => slot().keeper,
+          textSpeed: () => settings().textSpeed,
+          perf: query.get("perf") === "1",
+          intent: () => input.intent(),
+          bindHold: (b, what) => input.bindHold(b, what),
+          blocked: () => sheetOpen(),
+          sound,
+          toast,
+          // The goals are written into the save; the inn's own door leads on (no corridor).
+          finish: (g) => pageFinish(ROUTE_QUEST, g),
+          through: () => moveOn(),
+          fallback: () => openPage(ROUTE_QUEST, inJourney, true),
+          resume: pageSaved(ROUTE_QUEST, restoreBattuta),
+          keepPlace: (snap) => pageCheckpoint(ROUTE_QUEST, snap),
+        }),
     },
     [COUPLE_QUEST]: {
       subject: COUPLE_SUBJECT,
@@ -1403,9 +1429,9 @@ async function main(): Promise<void> {
     if (inJourney !== null) strip.focus();
   }
   /** The door of whichever scene is open: lit or not, where it stands, and where the bird is. */
-  const doorNow = (): { lit: boolean; where: { x: number; y: number; reach: number } | null; bird: { x: number; y: number } | null; scene: "workshop" | "corridor" | "page" | "jazari" | "tusi" | "khwarizmi" | "kindi" | "idrisi" | "razi" | "karima" } | null => {
+  const doorNow = (): { lit: boolean; where: { x: number; y: number; reach: number } | null; bird: { x: number; y: number } | null; scene: "workshop" | "corridor" | "page" | "jazari" | "tusi" | "khwarizmi" | "kindi" | "idrisi" | "razi" | "karima" | "battuta" } | null => {
     const room = openRoom();
-    if (room) return { ...room.door(), scene: pageRun?.quest === COUPLE_QUEST ? "tusi" : pageRun?.quest === ALGEBRA_QUEST ? "khwarizmi" : pageRun?.quest === CIPHER_QUEST ? "kindi" : pageRun?.quest === SHEETS_QUEST ? "idrisi" : pageRun?.quest === LEAVES_QUEST ? "razi" : pageRun?.quest === COLLATE_QUEST ? "karima" : "jazari" };
+    if (room) return { ...room.door(), scene: pageRun?.quest === COUPLE_QUEST ? "tusi" : pageRun?.quest === ALGEBRA_QUEST ? "khwarizmi" : pageRun?.quest === CIPHER_QUEST ? "kindi" : pageRun?.quest === SHEETS_QUEST ? "idrisi" : pageRun?.quest === LEAVES_QUEST ? "razi" : pageRun?.quest === COLLATE_QUEST ? "karima" : pageRun?.quest === ROUTE_QUEST ? "battuta" : "jazari" };
     if (started) {
       const w = running?.scene()?.where() ?? null;
       return { lit: state.done, where: { ...DOOR }, bird: w ? { x: w.x, y: w.y } : null, scene: "workshop" };
@@ -1650,7 +1676,16 @@ async function main(): Promise<void> {
     startPaper: () => openPage(PAPER_QUEST),
     paper: () => { const r = pageOf<PaperQuest>(PAPER_QUEST); return r ? { ...r.state(), busy: r.busy(), selected: r.selected(), status: r.status() } : null; },
     paperCommand: (c: Parameters<PaperQuest["command"]>[0]) => pageOf<PaperQuest>(PAPER_QUEST)?.command(c),
-    startRoute: () => openPage(ROUTE_QUEST),
+    // The road's page quest (the way it is played without WebGL), and Ibn Battuta's inn, where it is threaded by flying.
+    startRoute: () => openPage(ROUTE_QUEST, null, true),
+    startBattuta: () => openPage(ROUTE_QUEST),
+    battuta: () => {
+      const r = roomOf<BattutaRoom>(ROUTE_QUEST);
+      if (!r) return null;
+      const s = r.state();
+      return { ...s.route, talk: s.talk, busy: r.busy(), sentence: r.sentence(), status: r.status(), doorLit: s.route.done, shown: r.running()?.scene()?.shown() ?? null };
+    },
+    battutaCommand: (c: BattutaCommand) => roomOf<BattutaRoom>(ROUTE_QUEST)?.command(c),
     route: () => { const r = pageOf<RouteQuest>(ROUTE_QUEST); return r ? { ...r.state(), busy: r.busy(), sentence: r.sentence(), status: r.status() } : null; },
     routeCommand: (c: Parameters<RouteQuest["command"]>[0]) => pageOf<RouteQuest>(ROUTE_QUEST)?.command(c),
     // The two circles' page quest (the way they are played without WebGL), and al-Tusi's observatory, their room.

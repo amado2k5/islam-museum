@@ -235,14 +235,15 @@ describe("al-Razi's study: its strings", () => {
   const tables = Object.fromEntries(LANGS.map((l) => [l, table(l)]));
   const keys = Object.keys(tables.en!).filter((k) => k.startsWith("rzr_"));
   // They were the last sixteen of every table until Karima al-Marwaziyya's room (27 November 2026) appended its own after
-  // them; they are still one block, in the same order, in every table, and only that room's keys come after them.
-  it("are sixteen, one block in every table, in the same order, with only Karima's room's keys after them", () => {
+  // them, and Ibn Battuta's inn its own after those; they are still one block, in the same order, in every table, and only
+  // those rooms' keys come after them.
+  it("are sixteen, one block in every table, in the same order, with only Karima's room's and Ibn Battuta's inn's keys after them", () => {
     expect(keys).toHaveLength(16);
     for (const l of LANGS) {
       const all = Object.keys(tables[l]!);
       const at = all.indexOf(keys[0]!);
       expect(all.slice(at, at + keys.length), l).toEqual(keys);
-      expect(all.slice(at + keys.length).every((k) => k.startsWith("krr_")), l).toBe(true);
+      expect(all.slice(at + keys.length).every((k) => k.startsWith("krr_") || k.startsWith("ibr_")), l).toBe(true);
     }
   });
   it("say that the room, the desk, the leaves on it and the binding frame are invented, not a picture of the hospital of Rayy or of where he worked, and that there is no medical advice, in the founder's words in Arabic and English", () => {

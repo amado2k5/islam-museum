@@ -307,3 +307,7 @@ button.journey-btn:hover, button.door-go:hover { background: #ffd070; }
 .room-box .ran .stopped { color: #ffb0a6; }
 .room-box .ran .met { color: #7be0a8; }
 .room-box .door-panel .room-note { font-style: italic; }
+/* Ibn Battuta's inn (27 November 2026): a bead on the thread is marked in the list as on the page, and the stage's
+   sentence in the objective stands out from the count above it. */
+.room-box .sheet-row button.on { border-color: var(--gold); background: #18407a; }
+.objective .stage-line { margin-block-start: 4px; color: var(--ivory); font-style: italic; }

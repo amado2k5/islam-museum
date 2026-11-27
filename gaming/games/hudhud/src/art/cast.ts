@@ -603,6 +603,34 @@ export function copyBoy(scale: number): KeeperArt {
   return { ...art, body };
 }
 
+/**
+ * The child with the camel in Ibn Battuta's inn, an invented person (the road's quest's own): the same cut-out as the
+ * explorer, in one fixed look of the child's own (a striped head cloth, an ochre tunic), holding the camel's rope, which
+ * hangs from the hand in a loop. Nothing on it is drawn or written.
+ */
+export function camelChild(scale: number): KeeperArt {
+  const art = keeper(scale, { kind: 1, skin: 2, outfit: 2, hair: 1 });
+  const [body, b] = sheet(art.body.w, art.body.h, scale);
+  b.drawImage(art.body.canvas, 0, 0, art.body.w, art.body.h);
+  // A plain sash across the tunic.
+  blob(b, [
+    [14, 70],
+    [82, 66],
+    [82, 78],
+    [14, 82],
+  ]);
+  fillStroke(b, "#c2643a", INK, 1.8);
+  // The camel's rope, in a loop from the hand.
+  b.strokeStyle = "#e8d6a8";
+  b.lineWidth = 3;
+  b.beginPath();
+  b.moveTo(76, 60);
+  b.quadraticCurveTo(90, 96, 70, 112);
+  b.quadraticCurveTo(54, 118, 60, 100);
+  b.stroke();
+  return { ...art, body };
+}
+
 // ---------------------------------------------------------------------------------------------- the scholar
 /** The colours a scholar's figure is drawn in. The default is Ibn al-Haytham's, as the workshop has always drawn him;
  * al-Jazari's figure is the same cut-out in other colours, with an apron (art/jazari.ts's room), al-Tusi's in night
@@ -991,6 +1019,51 @@ export function karima(scale: number): ScholarArt {
   fillStroke(a, L.skin, INK, 2);
   brush(a, 60, 140, "karima-arm", { strokes: 36, strength: 0.8 });
   return { body, arm, head: karimaHead(scale, true), headBlink: karimaHead(scale, false) };
+}
+
+// ---------------------------------------------------------------------------------------------- Ibn Battuta
+/**
+ * Ibn Battuta as the game imagines him in the inn (art/battuta.ts): the scholar's cut-out again, of the same size and
+ * parts, dressed for the road: a sand-coloured traveller's turban, a dusty brown cloak over a plain gown, and a tall
+ * walking staff held at his side. Not a likeness: no picture of him is known to the museum.
+ */
+export const BATTUTA_LOOK: ScholarLook = {
+  skin: "#c99566",
+  beard: ["#2e2018", "#5a4a3e"],
+  moustache: "#2e2018",
+  brow: "#2a1d16",
+  turban: ["#efe0bc", "#c9b083"],
+  turbanBands: "rgba(122,90,48,0.6)",
+  robe: ["#9a7048", "#6b4a2e"],
+  gown: "#efe2c2",
+  border: PAL.ochre,
+  dots: PAL.tealDark,
+  shawl: "#7a5a3a",
+  seed: "battuta",
+};
+export function battuta(scale: number): ScholarArt {
+  const art = scholar(scale, BATTUTA_LOOK);
+  const [body, b] = sheet(art.body.w, art.body.h, scale);
+  b.drawImage(art.body.canvas, 0, 0, art.body.w, art.body.h);
+  // The walking staff, held at his side, from above the shoulder to the floor.
+  b.lineCap = "round";
+  for (const [lw, colour] of [[11, INK], [7, "#8a5a30"]] as const) {
+    b.strokeStyle = colour;
+    b.lineWidth = lw;
+    b.beginPath();
+    b.moveTo(200, 8);
+    b.lineTo(196, 266);
+    b.stroke();
+  }
+  // A strap across the cloak for a water skin carried at the back.
+  blob(b, [
+    [60, 10],
+    [72, 6],
+    [160, 150],
+    [148, 156],
+  ]);
+  fillStroke(b, "#5a3418", INK, 1.6);
+  return { ...art, body };
 }
 
 // ---------------------------------------------------------------------------------------------- the cat

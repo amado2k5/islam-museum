@@ -15,6 +15,7 @@ import { KDR_START, KDR_WORLD } from "../content/kindi-room";
 import { ISR_START, ISR_WORLD } from "../content/idrisi-room";
 import { RZR_START, RZR_WORLD } from "../content/razi-room";
 import { KRR_START, KRR_WORLD } from "../content/karima-room";
+import { IBR_START, IBR_WORLD } from "../content/battuta-room";
 import { FOLLOW, followStep, settleIntent, type Standing } from "../sim/follow";
 
 const source = (rel: string) => readFileSync(resolve(__dirname, "..", rel), "utf8");
@@ -29,6 +30,7 @@ const ROOMS: { room: string; scene: string; floor: number; hudhud: number; keepe
   { room: "al-Idrisi's hall", scene: "scenes/idrisi.ts", floor: ISR_WORLD.floor, hudhud: ISR_START.hudhud, keeper: ISR_START.keeper, figure: { name: "idrisi", x: ISR_START.idrisi }, helper: { name: "helper", x: ISR_START.helper } },
   { room: "al-Razi's study", scene: "scenes/razi.ts", floor: RZR_WORLD.floor, hudhud: RZR_START.hudhud, keeper: RZR_START.keeper, figure: { name: "razi", x: RZR_START.razi }, helper: { name: "child", x: RZR_START.child } },
   { room: "Karima al-Marwaziyya's room", scene: "scenes/karima.ts", floor: KRR_WORLD.floor, hudhud: KRR_START.hudhud, keeper: KRR_START.keeper, figure: { name: "karima", x: KRR_START.karima }, helper: { name: "boy", x: KRR_START.boy } },
+  { room: "Ibn Battuta's inn", scene: "scenes/battuta.ts", floor: IBR_WORLD.floor, hudhud: IBR_START.hudhud, keeper: IBR_START.keeper, figure: { name: "ibn", x: IBR_START.ibn }, helper: { name: "child", x: IBR_START.child } },
 ];
 /** Every room is as wide as the workshop. */
 const WIDTH = WORLD.width;
@@ -72,7 +74,9 @@ describe("the people of a room, as boxes", () => {
       for (const look of [cast.SCHOLAR_LOOK, cast.JAZARI_LOOK, cast.TUSI_LOOK, cast.KHWARIZMI_LOOK, cast.KINDI_LOOK, cast.IDRISI_LOOK, cast.RAZI_LOOK]) same(SCHOLAR, cast.scholar(1, look) as unknown as Record<string, { w: number; h: number }>, look.seed);
       // Karima is a figure of her own (a headscarf and a long dress), made of the scholar's parts at the scholar's sizes.
       same(SCHOLAR, cast.karima(1) as unknown as Record<string, { w: number; h: number }>, "Karima");
-      for (const [who, art] of [["apprentice", cast.apprentice(1)], ["cleaner", cast.cleaner(1)], ["box carrier", cast.boxCarrier(1)], ["messenger", cast.messenger(1)], ["map helper", cast.mapHelper(1)], ["leaf child", cast.leafChild(1)], ["copy boy", cast.copyBoy(1)]] as const) same(HELPER, art as unknown as Record<string, { w: number; h: number }>, who);
+      // Ibn Battuta is the scholar's cut-out dressed for the road, with a staff drawn inside the body's own sheet.
+      same(SCHOLAR, cast.battuta(1) as unknown as Record<string, { w: number; h: number }>, "Ibn Battuta");
+      for (const [who, art] of [["apprentice", cast.apprentice(1)], ["cleaner", cast.cleaner(1)], ["box carrier", cast.boxCarrier(1)], ["messenger", cast.messenger(1)], ["map helper", cast.mapHelper(1)], ["leaf child", cast.leafChild(1)], ["copy boy", cast.copyBoy(1)], ["camel child", cast.camelChild(1)]] as const) same(HELPER, art as unknown as Record<string, { w: number; h: number }>, who);
     } finally {
       g.document = had;
     }
