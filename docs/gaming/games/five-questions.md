@@ -1,5 +1,9 @@
 # Five Questions: state of the game
 
-_26 November 2026. Release status: **prototype**. Code: `gaming/games/five-questions/` and `gaming/packages/daily/`._
+_28 November 2026. Release status: **released**, on the founder's decision of that day. Code: `gaming/games/five-questions/` and `gaming/packages/daily/`. Evidence: [../evidence/five-questions/release-2026-11-28.md](../evidence/five-questions/release-2026-11-28.md)._
 
-One of the four small daily games. What it is, where its content comes from, what is checked and what is not done: [daily-games.md](daily-games.md).
+One of the four small daily games. What it is, where its content comes from and what is checked: [daily-games.md](daily-games.md).
+
+- **Released without a person's playtest, a native reader of five of its seven languages, or a real phone.** The evidence page says so, and lists these as the next checks.
+- **Played whole with the keyboard** in all seven languages, on a phone-sized and a desktop screen, in light and dark, by `gaming/tools/five-questions-play.ts` on the local host.
+- **Download size:** it needs the whole pack and one language's names, about 190 to 250 KB compressed. This is recorded and left as it is.
