@@ -15,6 +15,11 @@ open a new block on top with the new version and today's date.
 
 ## v2.32.0 — 2026-11-26
 ### Changed
+- **Five Questions, the daily quiz, is released: the second game to leave prototype, after Kalima.** The founder asked for one game at a time, the next closest to finishing.
+  - **Readability fix:** once a question was answered, every answer faded to 55% opacity, the right one included, which made it hard to read. The chosen and right answers now keep full colour, and the others are muted, not faded.
+  - **Labels:** the prototype label is gone from the game and its card, and the museum's games page now names both finished games, in all seven languages.
+  - **How it was checked:** whole days were played with the keyboard alone (Tab, Enter) in all seven languages, on phone and desktop screens, in light and dark, all right and all wrong. That was 56 runs on this machine's local host, with no problem and every text at 4.5:1 contrast or more.
+  - **Not yet done:** no person has playtested it, no native speaker has read five of its seven languages, and it has not been tried on a real phone.
 - **Kalima, the daily word game, is released: the first of the museum's games to leave prototype.** The founder chose to finish one game and asked for it to be marked complete.
   - **What changed for the release:**
     - a first visit loads a twentieth of what it did (17 to 53 KB of names a language, not the whole 0.4 to 0.8 MB label file);
@@ -86,7 +91,6 @@ open a new block on top with the new version and today's date.
 
 ### Changed
 - **The footer's Facebook link now points to the museum's Facebook Page.** It previously pointed to an older profile; it now opens the "Islam.museum" Page (a History Museum page) instead. No other footer link changes.
-
 ### Removed
 - **The X link has left the site footer for now.** The museum's X account (@islam_museum) is suspended, so the footer no longer sends readers to a page that cannot answer them. The link will return when the account is restored. Every other social, podcast and music link in the footer is unchanged.
 

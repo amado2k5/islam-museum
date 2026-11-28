@@ -30,6 +30,10 @@ button:disabled { opacity: 0.55; cursor: default; }
 .options button { width: 100%; text-align: start; background: var(--card); color: var(--fg); border-color: var(--line); font-weight: 600; }
 .options button.right { border-color: var(--hit); box-shadow: inset 0 0 0 2px var(--hit); }
 .options button.wrong { border-color: var(--bad); box-shadow: inset 0 0 0 2px var(--bad); }
+/* An answered question stays readable: WCAG exempts disabled controls, but the right answer is what the player reads
+   next. The two chosen and right buttons keep full colour; the others are muted, not faded. */
+.options button:disabled { opacity: 1; color: var(--muted); }
+.options button.right:disabled, .options button.wrong:disabled { color: var(--fg); }
 .mark { font-weight: 800; margin-inline-end: 6px; }
 .ok { color: var(--hit); }
 .no { color: var(--bad); }
