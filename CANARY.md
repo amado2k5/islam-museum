@@ -15,6 +15,10 @@ open a new block on top with the new version and today's date.
 
 ## v2.32.0 — 2026-11-26
 ### Changed
+- **The Lamp of the Ages is released, with its pictures still drawn by code; painted art will come as an update.** It is the fifth game to leave prototype.
+  - **Readability fixes:** city names on its map are now readable on a phone, and record ids no longer break apart inside Arabic and Urdu text.
+  - **How it was checked:** 28 whole games, all five missions each, were played with the keyboard alone in all seven languages, on phone and desktop screens, in light and dark, on this machine's local host. No problem was found, and focus, target size, contrast and the saved game were all checked.
+  - **Not yet done:** no person has played it, no native speaker has read five of its languages, no real phone has been used, and its historical review is still pending, as the page says.
 - **The Lantern is released, and with it all four daily games are finished.**
   - **A lighter first visit:** the game loads only its own phrases' names, about a fifth of what it loaded before.
   - **Keyboard fix:** a player using Tab and Enter on the on-screen letters no longer loses their place after each guess.

@@ -81,13 +81,14 @@ describe("the lamp", () => {
     expect(parse(JSON.stringify({ v: 1, at: "atlantis", cards: ["x", "work/kitab-al-hisab-al-khwarizmi"], companions: ["person/nobody"], step: { baghdad: 9 } }))).toEqual({ ...newSave(), cards: ["work/kitab-al-hisab-al-khwarizmi"] });
   });
 
-  it("has its page strings in seven languages, the prototype label and the review mark, and no server or model", () => {
+  it("has its page strings in seven languages and the review mark, and no server or model", () => {
     for (const l of LANGS) {
       const s = JSON.parse(read(`../i18n/${l}.json`)) as Record<string, string>;
-      for (const k of ["title", "prototype", "jinni_1", "jinni_2", "review_note", "art_note"]) expect(s[k], `${l} ${k}`).toBeTruthy();
+      for (const k of ["title", "jinni_1", "jinni_2", "review_note", "art_note"]) expect(s[k], `${l} ${k}`).toBeTruthy();
     }
     const app = read("../src/ui/app.ts");
-    expect(app).toContain('t("prototype")');
+    // Released: the page no longer carries the prototype label (release-status.json says why and on whose word).
+    expect(app).not.toContain('t("prototype")');
     expect(app).toContain('"review_note"');
     expect(app).not.toMatch(/fetch\(|WebSocket|XMLHttpRequest/);
   });
