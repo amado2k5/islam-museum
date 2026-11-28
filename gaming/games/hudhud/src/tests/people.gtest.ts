@@ -16,8 +16,19 @@ import { ISR_START, ISR_WORLD } from "../content/idrisi-room";
 import { RZR_START, RZR_WORLD } from "../content/razi-room";
 import { KRR_START, KRR_WORLD } from "../content/karima-room";
 import { IBR_START, IBR_WORLD } from "../content/battuta-room";
-import { CQR_START, CQR_WORLD } from "../content/coffee-room";
-import { FOLLOW, followStep, settleIntent, type Standing } from "../sim/follow";
+import { CQR_SPEC, CQR_START, CQR_WORLD, cqrThings } from "../content/coffee-room";
+import { JZR_SPEC, JZR_START, JZR_WORLD, jzrThings } from "../content/jahiz-room";
+import { THINGS } from "../content/workshop";
+import { JR_THINGS } from "../content/jazari-room";
+import { TSR_THINGS } from "../content/tusi-room";
+import { akrThings } from "../content/khwarizmi-room";
+import { kdrThings } from "../content/kindi-room";
+import { isrThings } from "../content/idrisi-room";
+import { rzrThings } from "../content/razi-room";
+import { krrThings } from "../content/karima-room";
+import { ibrThings } from "../content/battuta-room";
+import { FOLLOW, THING_FRAME, followStep, settleIntent, type Spot, type Standing } from "../sim/follow";
+import { applySortRoom, newSortRoom, type SortRoomSpec, type SortRoomState } from "../sim/sortroom";
 
 const source = (rel: string) => readFileSync(resolve(__dirname, "..", rel), "utf8");
 
@@ -33,6 +44,7 @@ const ROOMS: { room: string; scene: string; floor: number; hudhud: number; keepe
   { room: "Karima al-Marwaziyya's room", scene: "scenes/karima.ts", floor: KRR_WORLD.floor, hudhud: KRR_START.hudhud, keeper: KRR_START.keeper, figure: { name: "karima", x: KRR_START.karima }, helper: { name: "boy", x: KRR_START.boy } },
   { room: "Ibn Battuta's inn", scene: "scenes/battuta.ts", floor: IBR_WORLD.floor, hudhud: IBR_START.hudhud, keeper: IBR_START.keeper, figure: { name: "ibn", x: IBR_START.ibn }, helper: { name: "child", x: IBR_START.child } },
   { room: "the coffee room", scene: "scenes/coffee.ts", floor: CQR_WORLD.floor, hudhud: CQR_START.hudhud, keeper: CQR_START.keeper, figure: { name: "archivist", x: CQR_START.archivist }, helper: { name: "child", x: CQR_START.child } },
+  { room: "al-Jahiz's room", scene: "scenes/jahiz.ts", floor: JZR_WORLD.floor, hudhud: JZR_START.hudhud, keeper: JZR_START.keeper, figure: { name: "jahiz", x: JZR_START.jahiz }, helper: { name: "girl", x: JZR_START.girl } },
 ];
 /** Every room is as wide as the workshop. */
 const WIDTH = WORLD.width;
@@ -80,7 +92,9 @@ describe("the people of a room, as boxes", () => {
       same(SCHOLAR, cast.battuta(1) as unknown as Record<string, { w: number; h: number }>, "Ibn Battuta");
       // The keeper of the records in the coffee room is the scholar's cut-out in colours of its own.
       same(SCHOLAR, cast.archivist(1) as unknown as Record<string, { w: number; h: number }>, "the keeper of the records");
-      for (const [who, art] of [["apprentice", cast.apprentice(1)], ["cleaner", cast.cleaner(1)], ["box carrier", cast.boxCarrier(1)], ["messenger", cast.messenger(1)], ["map helper", cast.mapHelper(1)], ["leaf child", cast.leafChild(1)], ["copy boy", cast.copyBoy(1)], ["camel child", cast.camelChild(1)], ["card child", cast.cardChild(1)]] as const) same(HELPER, art as unknown as Record<string, { w: number; h: number }>, who);
+      // Al-Jahiz is the scholar's cut-out in colours of his own (not a likeness).
+      same(SCHOLAR, cast.jahiz(1) as unknown as Record<string, { w: number; h: number }>, "al-Jahiz");
+      for (const [who, art] of [["apprentice", cast.apprentice(1)], ["cleaner", cast.cleaner(1)], ["box carrier", cast.boxCarrier(1)], ["messenger", cast.messenger(1)], ["map helper", cast.mapHelper(1)], ["leaf child", cast.leafChild(1)], ["copy boy", cast.copyBoy(1)], ["camel child", cast.camelChild(1)], ["card child", cast.cardChild(1)], ["card girl", cast.cardGirl(1)]] as const) same(HELPER, art as unknown as Record<string, { w: number; h: number }>, who);
     } finally {
       g.document = had;
     }
@@ -187,7 +201,7 @@ describe("the explorer during play", () => {
     expect(scene).toMatch(/protected override people\(\): readonly Standing\[\] \{/);
     expect(scene).toContain("figure: SCHOLAR");
     if (r.helper) expect(scene).toContain("figure: HELPER");
-    expect(source("scenes/room.ts")).toContain("followStep(c.x, mv, this.people(), this.layout.world.width, dt, this.host.frozen())");
+    expect(source("scenes/room.ts")).toContain("followStep(c.x, mv, this.people(), this.layout.world.width, dt, this.host.frozen(), this.things(), floor)");
   });
   it("with nobody in the way the explorer still follows about 96 pixels behind the bird, as before", () => {
     const end = settle(106, { x: 1200, facing: 1 }, []);
@@ -215,5 +229,96 @@ describe("a key held into a new room", () => {
     const room = source("scenes/room.ts");
     expect(room).toContain("const settled = settleIntent(this.armed, this.host.intent());");
     expect(room).toMatch(/this\.armed = false;\n {2}\}/);
+  });
+});
+
+// The explorer and the things that can be touched (27 November 2026: the lead agent saw the explorer stop in front of the
+// coffee room's bottom shelf and hide its sign). For every room, every way of playing and both directions of the page
+// (and, in the two sorting rooms, with the cards on the table or bench, sorted, and all in the first group), the bird is
+// set down still beside every thing that can be touched, facing either way, and the explorer walks after it by the room
+// engine's own rule (sim/follow.ts followStep, with the room's things, as scenes/room.ts calls it) from the room's near
+// end, its far end and its own start until it stands still. It must then overlap no touchable thing: no frame the rooms
+// draw round a thing within reach (80 by 92 game pixels, a little below the thing's middle) may overlap the explorer's
+// drawn box, worked out here from content/people.ts, except a thing that is a person's own touch point (that is the
+// person, kept clear of by the test above).
+describe("the explorer and the things that can be touched", () => {
+  const STYLES = ["story", "explorer", "challenge"] as const;
+  /** A sorting room past its opening words, at the start, with every card in its group, and with every card in the first group. */
+  const sortings = (spec: SortRoomSpec): SortRoomState[] =>
+    STYLES.flatMap((style) => {
+      const s0 = applySortRoom(spec, newSortRoom(spec, style), { type: "skip" }).state;
+      const carry = (s: SortRoomState, item: string, group: string) => ["card-" + item, "group-" + group].reduce((x, id) => applySortRoom(spec, x, { type: "touch", id }).state, s);
+      return [s0, s0.sort.items.reduce((x, i) => carry(x, i, x.sort.answer[i]!), s0), s0.sort.items.reduce((x, i) => carry(x, i, x.sort.groups[0]!), s0)];
+    });
+  const both = <T>(f: (rtl: boolean) => T[]): T[][] => [f(false), f(true)];
+  const THINGS_OF: Record<string, () => Spot[][]> = {
+    "Ibn al-Haytham's workshop": () => [THINGS],
+    "al-Jazari's workshop": () => [JR_THINGS],
+    "al-Tusi's observatory": () => [TSR_THINGS],
+    "al-Khwarizmi's room": () => both((rtl) => akrThings(rtl)),
+    "al-Kindi's room": () => STYLES.flatMap((st) => both((rtl) => kdrThings(st as never, rtl))),
+    "al-Idrisi's hall": () => STYLES.flatMap((st) => both((rtl) => isrThings(st as never, rtl))),
+    "al-Razi's study": () => STYLES.flatMap((st) => both((rtl) => rzrThings(st as never, rtl))),
+    "Karima al-Marwaziyya's room": () => STYLES.flatMap((st) => both((rtl) => krrThings(st as never, rtl))),
+    "Ibn Battuta's inn": () => STYLES.flatMap((st) => both((rtl) => ibrThings(st as never, rtl))),
+    "the coffee room": () => sortings(CQR_SPEC).flatMap((s) => both((rtl) => cqrThings(s, rtl))),
+    "al-Jahiz's room": () => sortings(JZR_SPEC).flatMap((s) => both((rtl) => jzrThings(s, rtl))),
+  };
+  it("covers every room on the room engine", () => {
+    expect(Object.keys(THINGS_OF).sort()).toEqual(ROOMS.map((r) => r.room).sort());
+  });
+  /** The explorer walking after a still bird until it stops, a tenth of a second a step (or 60 seconds pass), and where it stopped. */
+  const settle = (from: number, bird: { x: number; facing: -1 | 1 }, people: Standing[], things: readonly Spot[], floor: number) => {
+    let x = from;
+    for (let i = 0; i < 600; i++) {
+      const s = followStep(x, bird, people, WIDTH, 0.1, false, things, floor);
+      if (!s.walking) return { x, still: true };
+      x = s.x;
+    }
+    return { x, still: false };
+  };
+  it.each(ROOMS.map((r) => [r.room, r] as const))("in %s, a still bird beside every touchable thing, facing either way: the explorer stops clear of every such thing and of every person", (_name, r) => {
+    const people: Standing[] = [{ x: r.figure.x, figure: SCHOLAR }, ...(r.helper ? [{ x: r.helper.x, figure: HELPER }] : [])];
+    const personBoxes = people.map((p) => drawnBox(p.figure, p.x, r.floor, "either"));
+    const ownOfPerson = (t: Spot) => personBoxes.some((b) => t.x >= b.left && t.x <= b.right && t.y >= b.top && t.y <= b.bottom);
+    const frame = (t: Spot): Box => ({ left: t.x - THING_FRAME.half, right: t.x + THING_FRAME.half, top: t.y - THING_FRAME.up, bottom: t.y + THING_FRAME.down });
+    let tried = 0;
+    let movedAside = 0;
+    for (const things of THINGS_OF[r.room]!()) {
+      const frames = things.filter((t) => !ownOfPerson(t)).map(frame);
+      const clear = (x: number) => {
+        const me = drawnBox(EXPLORER, x, r.floor + 8, "either");
+        return frames.every((f) => !overlaps(me, f)) && personBoxes.every((b) => !overlaps(drawnBox(EXPLORER, x, r.floor, "either"), b));
+      };
+      for (const t of things.filter((k) => !ownOfPerson(k))) {
+        for (const dx of [-60, 0, 60]) {
+          const bx = Math.min(WIDTH - 48, Math.max(48, t.x + dx));
+          for (const facing of [1, -1] as const) {
+            for (const from of [FOLLOW.left, WIDTH - FOLLOW.right, r.keeper]) {
+              const end = settle(from, { x: bx, facing }, people, things, r.floor);
+              expect(end.still, `${r.room}: bird ${bx} facing ${facing} from ${from}`).toBe(true);
+              expect(clear(end.x), `${r.room}: bird by ${(t as { id?: string }).id ?? ""} at ${bx} facing ${facing} from ${from}: explorer stopped at ${end.x.toFixed(1)}`).toBe(true);
+              tried++;
+              const old = Math.min(WIDTH - 90, Math.max(80, bx - 96 * facing));
+              if (!clear(old)) movedAside++;
+            }
+          }
+        }
+      }
+    }
+    expect(tried).toBeGreaterThan(0);
+    // The coffee room's bottom shelf is where it was seen: there the old rule would have stood the explorer in front of a thing.
+    if (r.room === "the coffee room" || r.room === "al-Jahiz's room") expect(movedAside, r.room).toBeGreaterThan(0);
+  });
+  it("is how the room engine walks the explorer: with the room's own things and its floor", () => {
+    expect(source("scenes/room.ts")).toContain("followStep(c.x, mv, this.people(), this.layout.world.width, dt, this.host.frozen(), this.things(), floor)");
+  });
+  it("leaves a thing high on a shelf alone: the explorer may stand under it, and with nothing at its height it follows about 96 pixels behind the bird as before", () => {
+    const high: Spot[] = [{ x: 1104, y: 150 }];
+    const end = settle(106, { x: 1200, facing: 1 }, [], high, 624);
+    expect(Math.abs(end.x - (1200 - 96))).toBeLessThanOrEqual(FOLLOW.slack);
+    const low: Spot[] = [{ x: 1104, y: 510 }];
+    const stopped = settle(106, { x: 1200, facing: 1 }, [], low, 624);
+    expect(stopped.x).toBeLessThan(1104 - THING_FRAME.half);
   });
 });

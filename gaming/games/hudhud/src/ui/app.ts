@@ -28,6 +28,8 @@ import { battutaRoom, type BattutaRoom } from "./battuta";
 import { CQR_SPEC } from "../content/coffee-room";
 import { restoreSortRoom, type SortRoomCommand } from "../sim/sortroom";
 import { coffeeRoom, type CoffeeRoom } from "./coffeeroom";
+import { JZR_SPEC } from "../content/jahiz-room";
+import { jahizRoom, type JahizRoom } from "./jahizroom";
 import { CIPHER_QUEST, cipherPuzzle } from "../content/cipher";
 import { restoreCipher } from "../sim/cipher";
 import { cipherQuest, type CipherQuest } from "./cipher";
@@ -212,11 +214,11 @@ async function main(): Promise<void> {
   const bench = el("section", { class: "bench", hidden: true });
   let pageRun: { quest: string; run: { node: HTMLElement; busy(): boolean; stop(): void } } | null = null;
   // A scene with a room of its own (al-Jazari's workshop, al-Tusi's observatory, al-Khwarizmi's room, al-Kindi's room,
-  // al-Idrisi's hall, al-Razi's study, Karima al-Marwaziyya's room, Ibn Battuta's inn and the coffee room, since 27
-  // November 2026) is opened like a page quest and shown here, as wide as the flying scene's stage. Its page quest stays
-  // as the way it is played without WebGL.
+  // al-Idrisi's hall, al-Razi's study, Karima al-Marwaziyya's room, Ibn Battuta's inn, the coffee room and al-Jahiz's
+  // room, since 27 November 2026) is opened like a page quest and shown here, as wide as the flying scene's stage. Its
+  // page quest stays as the way it is played without WebGL.
   const roomBox = el("section", { class: "room-box", hidden: true });
-  type AnyRoom = JazariRoom | TusiRoom | KhwarizmiRoom | KindiRoom | IdrisiRoom | RaziRoom | KarimaRoom | BattutaRoom | CoffeeRoom;
+  type AnyRoom = JazariRoom | TusiRoom | KhwarizmiRoom | KindiRoom | IdrisiRoom | RaziRoom | KarimaRoom | BattutaRoom | CoffeeRoom | JahizRoom;
   /** The open room, if a scene is being played in its room. */
   const openRoom = (): AnyRoom | null => (pageRun && "press" in pageRun.run ? (pageRun.run as unknown as AnyRoom) : null);
   /** The open room, if it is `quest`'s. */
@@ -1102,8 +1104,31 @@ async function main(): Promise<void> {
     [SORT_QUEST]: {
       subject: SORT_SUBJECT,
       trial: "jz_trial",
+      // One kept place serves both: the room keeps the sorting's own snapshot with the card in Hudhud's beak added.
       saved: () => pageSaved(SORT_QUEST, (snap) => restoreSort(snap, sortDef)),
       make: (c, title, kept) => sortQuest({ ...c, title, resume: kept as Parameters<typeof sortQuest>[0]["resume"] }),
+      // Al-Jahiz's room: the animal cards sorted by flying, in a room of their own (the shared sorting room, ui/sortroom.ts).
+      room: roomsOn,
+      makeRoom: (c, title) =>
+        jahizRoom({
+          ...c,
+          title,
+          quality,
+          keeper: () => slot().keeper,
+          textSpeed: () => settings().textSpeed,
+          perf: query.get("perf") === "1",
+          intent: () => input.intent(),
+          bindHold: (b, what) => input.bindHold(b, what),
+          blocked: () => sheetOpen(),
+          sound,
+          toast,
+          // The goals are written into the save; the room's own door leads on (no corridor).
+          finish: (g) => pageFinish(SORT_QUEST, g),
+          through: () => moveOn(),
+          fallback: () => openPage(SORT_QUEST, inJourney, true),
+          resume: pageSaved(SORT_QUEST, (snap) => restoreSortRoom(JZR_SPEC, snap)),
+          keepPlace: (snap) => pageCheckpoint(SORT_QUEST, snap),
+        }),
     },
     [PAPER_QUEST]: {
       subject: PAPER_SUBJECT,
@@ -1455,9 +1480,9 @@ async function main(): Promise<void> {
     if (inJourney !== null) strip.focus();
   }
   /** The door of whichever scene is open: lit or not, where it stands, and where the bird is. */
-  const doorNow = (): { lit: boolean; where: { x: number; y: number; reach: number } | null; bird: { x: number; y: number } | null; scene: "workshop" | "corridor" | "page" | "jazari" | "tusi" | "khwarizmi" | "kindi" | "idrisi" | "razi" | "karima" | "battuta" | "coffee" } | null => {
+  const doorNow = (): { lit: boolean; where: { x: number; y: number; reach: number } | null; bird: { x: number; y: number } | null; scene: "workshop" | "corridor" | "page" | "jazari" | "tusi" | "khwarizmi" | "kindi" | "idrisi" | "razi" | "karima" | "battuta" | "coffee" | "jahiz" } | null => {
     const room = openRoom();
-    if (room) return { ...room.door(), scene: pageRun?.quest === COUPLE_QUEST ? "tusi" : pageRun?.quest === ALGEBRA_QUEST ? "khwarizmi" : pageRun?.quest === CIPHER_QUEST ? "kindi" : pageRun?.quest === SHEETS_QUEST ? "idrisi" : pageRun?.quest === LEAVES_QUEST ? "razi" : pageRun?.quest === COLLATE_QUEST ? "karima" : pageRun?.quest === ROUTE_QUEST ? "battuta" : pageRun?.quest === COFFEE_QUEST ? "coffee" : "jazari" };
+    if (room) return { ...room.door(), scene: pageRun?.quest === COUPLE_QUEST ? "tusi" : pageRun?.quest === ALGEBRA_QUEST ? "khwarizmi" : pageRun?.quest === CIPHER_QUEST ? "kindi" : pageRun?.quest === SHEETS_QUEST ? "idrisi" : pageRun?.quest === LEAVES_QUEST ? "razi" : pageRun?.quest === COLLATE_QUEST ? "karima" : pageRun?.quest === ROUTE_QUEST ? "battuta" : pageRun?.quest === COFFEE_QUEST ? "coffee" : pageRun?.quest === SORT_QUEST ? "jahiz" : "jazari" };
     if (started) {
       const w = running?.scene()?.where() ?? null;
       return { lit: state.done, where: { ...DOOR }, bird: w ? { x: w.x, y: w.y } : null, scene: "workshop" };
@@ -1696,7 +1721,16 @@ async function main(): Promise<void> {
     idrisiCommand: (c: IdrisiCommand) => roomOf<IdrisiRoom>(SHEETS_QUEST)?.command(c),
     sheets: () => { const r = pageOf<SheetsQuest>(SHEETS_QUEST); return r ? { ...r.state(), busy: r.busy(), selected: r.selected(), status: r.status() } : null; },
     sheetsCommand: (c: Parameters<SheetsQuest["command"]>[0]) => pageOf<SheetsQuest>(SHEETS_QUEST)?.command(c),
-    startSort: () => openPage(SORT_QUEST),
+    // Al-Jahiz's page quest (the way it is played without WebGL), and his room, where the cards are sorted by flying.
+    startSort: () => openPage(SORT_QUEST, null, true),
+    startSortRoom: () => openPage(SORT_QUEST),
+    jahizRoom: () => {
+      const r = roomOf<JahizRoom>(SORT_QUEST);
+      if (!r) return null;
+      const s = r.state();
+      return { ...s.sort, carrying: s.carrying, talk: s.talk, busy: r.busy(), status: r.status(), beak: r.carrying(), doorLit: s.sort.done, shown: (r.running()?.scene()?.shown() as unknown) ?? null };
+    },
+    jahizRoomCommand: (c: SortRoomCommand) => roomOf<JahizRoom>(SORT_QUEST)?.command(c),
     sort: () => { const r = pageOf<SortQuest>(SORT_QUEST); return r ? { ...r.state(), busy: r.busy(), selected: r.selected(), status: r.status() } : null; },
     sortCommand: (c: Parameters<SortQuest["command"]>[0]) => pageOf<SortQuest>(SORT_QUEST)?.command(c),
     startPaper: () => openPage(PAPER_QUEST),

@@ -288,7 +288,7 @@ const CREATURES: Record<string, (c: Ctx) => void> = {
 
 /** How a card is framed: a plain card, or a small scroll (a body with a rolled end at the top and at the bottom). */
 export type CardFrame = "card" | "scroll";
-/** Draws one card in its frame at `r`, with its face and its mark. Shared with the coffee room (art/coffee-room.ts), so that a card looks the same on the page and in the room. */
+/** Draws one card in its frame at `r`, with its face and its mark. Shared with the coffee room (art/coffee-room.ts) and al-Jahiz's room (art/jahiz-room.ts), so that a card looks the same on the page and in the room. */
 export function drawCard(c: Ctx, r: Rect, face: (c: Ctx) => void, mark: "none" | "chosen" | "done", frame: CardFrame): void {
   c.save();
   c.translate(r.x, r.y);
@@ -353,6 +353,8 @@ export function trayDots(c: Ctx, t: Rect, g: number, rtl: boolean, cx = t.x + t.
     c.fill();
   }
 }
+/** What is drawn on an animal card, in a 72 by 72 box. Shared with al-Jahiz's room (art/jahiz-room.ts), so that a card looks the same on the page and in the room. */
+export const animalFace = (item: string): ((c: Ctx) => void) => CREATURES[item] ?? (() => undefined);
 const ANIMALS: SortSkin = {
   trayMark: (c, t, g, rtl) => trayDots(c, t, g, rtl),
   face: (item) => CREATURES[item] ?? (() => undefined),

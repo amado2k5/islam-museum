@@ -8,8 +8,8 @@
 // third room), "khwarizmi" (al-Khwarizmi's room and the locked box, the fourth room), "kindi" (al-Kindi's room and the
 // secret page, the fifth room), "idrisi" (al-Idrisi's hall and the scattered sheets, the sixth room), "razi" (al-Razi's
 // study and the loose leaves, the seventh room), "karima" (Karima al-Marwaziyya's room and the copies, the eighth room)
-// "battuta" (Ibn Battuta's inn and the thread of the road, the ninth room) or "coffee" (the coffee room and the cards on
-// three shelves, the tenth room).
+// "battuta" (Ibn Battuta's inn and the thread of the road, the ninth room), "coffee" (the coffee room and the cards on
+// three shelves, the tenth room) or "jahiz" (al-Jahiz's room and the animal cards in their trays, the eleventh room).
 // It measures the machine it runs on. A pass here is not a pass on the museum's two reference machines.
 import { mkdirSync, writeFileSync } from "node:fs";
 import { resolve } from "node:path";
@@ -21,7 +21,7 @@ import { slipsOf } from "../games/hudhud/src/sim/collate";
 
 const [outArg, lang = "en", quality = "medium", w = "1920", h = "1080", style = "explorer", scene = "workshop"] = process.argv.slice(2);
 if (!outArg) throw new Error("usage: hudhud-play.ts <out dir> [lang] [quality] [width] [height] [style] [scene]");
-if (scene !== "workshop" && scene !== "jazari" && scene !== "tusi" && scene !== "khwarizmi" && scene !== "kindi" && scene !== "idrisi" && scene !== "razi" && scene !== "karima" && scene !== "battuta" && scene !== "coffee") throw new Error(`hudhud-play.ts: no scene called ${scene} (workshop, jazari, tusi, khwarizmi, kindi, idrisi, razi, karima, battuta or coffee)`);
+if (scene !== "workshop" && scene !== "jazari" && scene !== "tusi" && scene !== "khwarizmi" && scene !== "kindi" && scene !== "idrisi" && scene !== "razi" && scene !== "karima" && scene !== "battuta" && scene !== "coffee" && scene !== "jahiz") throw new Error(`hudhud-play.ts: no scene called ${scene} (workshop, jazari, tusi, khwarizmi, kindi, idrisi, razi, karima, battuta, coffee or jahiz)`);
 const out = resolve(outArg);
 mkdirSync(out, { recursive: true });
 const tag = `${scene === "workshop" ? "" : `${scene}-`}${lang}-${quality}-${w}x${h}`;
@@ -95,6 +95,7 @@ try {
   else if (scene === "karima") await playKarima();
   else if (scene === "battuta") await playBattuta();
   else if (scene === "coffee") await playCoffee();
+  else if (scene === "jahiz") await playJahiz();
   else await playWorkshop();
 } catch (e) {
   report.failed = String(e);
@@ -1404,6 +1405,139 @@ async function playCoffee(): Promise<void> {
   const reopen = async () => {
     await hk("h.toAtlas(); h.startCoffeeRoom();");
     await page.waitForFunction("window.__HH__.coffeeRoom() !== null && window.__HH__.where() !== null", undefined, { timeout: 30000 });
+  };
+  await reopen();
+  await page.waitForTimeout(800);
+  const first = await cycle();
+  for (let i = 0; i < 9; i++) {
+    await reopen();
+    await page.waitForTimeout(300);
+  }
+  await page.waitForTimeout(800);
+  report.lifecycle = { afterOneOpening: first, afterTenOpenings: await cycle(), canvases: await page.evaluate("document.querySelectorAll('canvas').length") };
+}
+/**
+ * Al-Jahiz's room, played to its end by flight as a player would: the talks gone through with the keyboard, both
+ * questions (the hoopoe's lines after the second), the kind answer and the feather in the basket on the shelf of books,
+ * the bell rung too soon, the bat carried outside the birds and a wrong showing, frame times while the bird crosses the room and back, a lost graphics context, every
+ * card carried to its tray by flight, the bell, the lit door walked to, and what opening the room ten times leaves behind.
+ */
+async function playJahiz(): Promise<void> {
+  type Jz = { moves: number; shows: number; flags: string[]; done: boolean; talk: unknown; doorLit: boolean; carrying: string | null; items: string[]; answer: Record<string, string>; placed: Record<string, string | null> };
+  const cq = () => hk<Jz>("return h.jahizRoom();");
+  const noteCq = async (step: string) => {
+    const s = await cq();
+    route.push({ step, at: Date.now() - t0, where: await hk("return h.where();"), turns: s.moves, flags: s.flags, restored: s.done, dark: false, done: s.doorLit });
+  };
+  const roomTalk = async (pick: string[] = []) => {
+    const picks = [...pick];
+    for (let i = 0; i < 20 && (await cq()).talk !== null; i++) {
+      await page.waitForTimeout(350);
+      const choices = page.locator(".room-box .talk .choices button");
+      if ((await choices.count()) > 0) {
+        const want = picks.shift();
+        await (want ? choices.filter({ hasText: want }).first() : choices.last()).click();
+      } else await page.keyboard.press("Enter");
+    }
+    await page.waitForTimeout(250);
+  };
+  const fly = async (id: string, until: string) => {
+    await hk(`h.goTo(${JSON.stringify(id)});`);
+    await page.waitForFunction(`(() => { const h = window.__HH__; return ${until}; })()`, undefined, { timeout: 8000 });
+    await page.waitForTimeout(200);
+  };
+  const carry = async (item: string, group: string) => {
+    await fly(`card-${item}`, `h.jahizRoom().carrying === ${JSON.stringify(item)}`);
+    await fly(`group-${group}`, `h.jahizRoom().carrying === null && h.jahizRoom().placed[${JSON.stringify(item)}] === ${JSON.stringify(group)}`);
+  };
+  const tStart = Date.now();
+  await page.locator(".hub button[data-quest='w09q1-al-jahiz']").click();
+  await page.waitForFunction("window.__HH__.jahizRoom() !== null && window.__HH__.where() !== null", undefined, { timeout: 30000 });
+  report.msFromPlayToScene = Date.now() - tStart;
+  await page.waitForTimeout(900);
+  await shot("intro-talk");
+  await noteCq("room open");
+  await roomTalk();
+
+  await fly("jahiz", "h.jahizRoom().talk !== null");
+  await shot("jahiz-talk");
+  await roomTalk(["Ask about his division of animals", "Ask about the birds"]);
+  await noteCq("asked al-Jahiz both questions");
+  await fly("girl", "h.jahizRoom().talk !== null");
+  await roomTalk(["It is all right."]);
+  await noteCq("answered the girl kindly");
+  await fly("basket", "h.jahizRoom().flags.includes('feather')");
+  await shot("feather-in-the-basket");
+  await roomTalk();
+  await noteCq("found the feather");
+
+  // The bell rung with every card on the bench (refused, not counted), then the bat carried outside the birds.
+  await fly("bell", "h.jahizRoom().moves === 0 && /Put every card in a group first/.test(h.jahizRoom().status)");
+  await noteCq("the bell rung too soon: refused");
+  const items = (await cq()).items;
+  const answer = (await cq()).answer;
+  const odd = items.includes("bat") ? "bat" : items[0]!;
+  const elsewhere = Object.values(answer).find((g) => g !== answer[odd])!;
+  await fly(`card-${odd}`, `h.jahizRoom().carrying === ${JSON.stringify(odd)}`);
+  await shot("carrying-a-card");
+  await fly(`group-${elsewhere}`, `h.jahizRoom().placed[${JSON.stringify(odd)}] === ${JSON.stringify(elsewhere)}`);
+  for (const i of items) if (i !== odd) await carry(i, answer[i]!);
+  await fly("bell", "h.jahizRoom().shows === 1");
+  await shot("wrong-showing");
+  await noteCq("a wrong showing, counted");
+
+  // Frame times while the bird crosses the whole room and back, with everything running.
+  await hk("h.resetFrames();");
+  await page.locator(".room-box .stage").focus();
+  for (const key of ["ArrowLeft", "ArrowRight"]) {
+    await page.keyboard.down(key);
+    for (let i = 0; i < 14; i++) {
+      await page.keyboard.down("Space");
+      await page.waitForTimeout(120);
+      await page.keyboard.up("Space");
+      await page.waitForTimeout(380);
+    }
+    await page.keyboard.up(key);
+  }
+  const heap = () => page.evaluate("performance.memory ? performance.memory.usedJSHeapSize : null") as Promise<number | null>;
+  report.benchmark = { route: "the whole width and back, hopping and flapping, 14 seconds", info: await hk("return h.info();"), heapBytes: await heap() };
+
+  // A lost graphics context, with the cards in the trays: what the player sees, and whether the room comes back.
+  report.contextLoss = await page.evaluate(`(async () => {
+    const canvas = document.querySelector('.room-box .stage canvas');
+    const gl = canvas.getContext('webgl2') || canvas.getContext('webgl');
+    const ext = gl && gl.getExtension('WEBGL_lose_context');
+    if (!ext) return { tried: false };
+    ext.loseContext();
+    await new Promise((r) => setTimeout(r, 600));
+    const toast = document.querySelector('.toast') ? document.querySelector('.toast').textContent : null;
+    ext.restoreContext();
+    await new Promise((r) => setTimeout(r, 2500));
+    return { tried: true, toast, sceneBack: window.__HH__.where() !== null, moves: window.__HH__.jahizRoom().moves, shows: window.__HH__.jahizRoom().shows };
+  })()`);
+
+  // The odd card carried to its own tray, and the bell.
+  await carry(odd, answer[odd]!);
+  await shot("cards-in-the-trays");
+  await fly("bell", "h.jahizRoom().doorLit");
+  await page.waitForTimeout(600);
+  await shot("cards-sorted");
+  await roomTalk();
+  await noteCq("the cards are sorted");
+  report.puzzle = { moves: (await cq()).moves, shows: (await cq()).shows };
+  report.goals = await page.evaluate("JSON.parse(localStorage.getItem('im.hudhud.save.v1') || 'null')?.slots?.[0]?.quests?.['w09q1-al-jahiz'] ?? null");
+  await shot("results");
+  await page.locator(".room-box .stage").focus();
+  await page.keyboard.down("ArrowRight");
+  await page.waitForFunction("!document.querySelector('.hub').hidden", undefined, { timeout: 25000 }).finally(() => page.keyboard.up("ArrowRight"));
+  report.door = await hk("return h.lastDoor();");
+  report.save = await page.evaluate("JSON.parse(localStorage.getItem('im.hudhud.save.v1') || 'null')");
+
+  // Opening the room again and again: what it holds must not grow.
+  const cycle = async () => ({ ...(await hk<Record<string, unknown>>("const i = h.info(); return { textures: i.textures, textureBytes: i.textureBytes, objects: i.objects, tweens: i.tweens };")), heapBytes: await heap() });
+  const reopen = async () => {
+    await hk("h.toAtlas(); h.startSortRoom();");
+    await page.waitForFunction("window.__HH__.jahizRoom() !== null && window.__HH__.where() !== null", undefined, { timeout: 30000 });
   };
   await reopen();
   await page.waitForTimeout(800);

@@ -1,9 +1,10 @@
 // The coffee room, drawn in code in the art bible's style and palette: a quiet room of records in a coffee-trading town
 // in the late afternoon, with a latticed window high on the wall near where the bird comes in, a low bench under it with
 // a brass coffee pot and small cups on a round tray (decoration only), the long low table the cards wait on, a plain
-// brass bell at its far end, and along the back wall a bookcase of three shelves, each marked at the end the page begins
-// from by the coffee quest's own shelf sign (the solid seal, the two speech marks, the cloud: art/coffee.ts, shared and
-// not copied) and by one, two or three dots, with a box of spare blank cards on top of it. The cards are the quest's own
+// brass bell at its far end, and along the back wall a bookcase of three shelves side by side at the same height (three
+// equal sections of one case, since 27 November 2026), each marked on the top of the case over its start by the coffee
+// quest's own shelf sign (the solid seal, the two speech marks, the cloud: art/coffee.ts, shared and not copied) and by
+// one, two or three dots, with a box of spare blank cards on the top at the other end. The cards are the quest's own
 // small scrolls, each with its plain sign (drawn by the page's own code, art/sort.ts drawCard and art/coffee.ts
 // coffeeFace) and its number as dots under it. A trial picture, like every picture in this game.
 //
@@ -242,7 +243,8 @@ export function coffeeRoom(scale: number): Painted {
   ctx.fillStyle = "rgba(42,26,18,0.25)";
   ctx.fillRect(tb.x + 6, tb.top + 16, tb.w - 12, 6);
 
-  // The bookcase along the back wall: two sides, a back, the three shelves' boards and its top.
+  // The bookcase along the back wall: two sides, a back, the boards of its three tiers and its top, and two uprights that
+  // part it into three equal shelves side by side (since 27 November 2026: one above another, they read as a ranking).
   const cs = CQR_CASE;
   ctx.fillStyle = linear(ctx, 0, cs.top, 0, floor, [
     [0, "#5a3a22"],
@@ -255,13 +257,14 @@ export function coffeeRoom(scale: number): Painted {
   }
   board(ctx, cs.x - 14, cs.top - 2, 14, floor - cs.top + 2, "#8a5a30", PAL.woodDark);
   board(ctx, cs.x + cs.w, cs.top - 2, 14, floor - cs.top + 2, "#8a5a30", PAL.woodDark);
-  board(ctx, cs.x - 20, cs.top - 12, cs.w + 40, 14, "#b47a42", PAL.wood);
   for (const y of cs.boards) {
     board(ctx, cs.x - 4, y, cs.w + 8, 12);
     // A soft shadow under each board.
     ctx.fillStyle = "rgba(0,0,0,0.25)";
     ctx.fillRect(cs.x, y + 12, cs.w, 8);
   }
+  for (let k = 1; k < cs.sections; k++) board(ctx, cs.x + (k * cs.w) / cs.sections - 5, cs.top + 8, 10, floor - 40 - cs.top - 8, "#8a5a30", PAL.woodDark);
+  board(ctx, cs.x - 20, cs.top - 2, cs.w + 40, 14, "#b47a42", PAL.wood);
   board(ctx, cs.x - 4, floor - 40, cs.w + 8, 40, "#6a4020", PAL.woodDark);
 
   brush(ctx, w, h, "coffee-room", { light: [0.18, 0.22], strength: 0.4, strokes: 2000, warm: "rgba(255,220,160,0.15)", cool: "rgba(30,40,50,0.13)" });

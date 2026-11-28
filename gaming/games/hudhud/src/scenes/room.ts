@@ -152,7 +152,7 @@ export abstract class RoomScene<H extends RoomHost = RoomHost> extends Phaser.Sc
   protected tap(_x: number, _y: number): void {}
   /** Called once the room is built and the bird stands in it. */
   protected ready(): void {}
-  /** The people of the room (its figure and its helper), where they stand: the explorer stops short of them, never in front of them. */
+  /** The people of the room (its figure and its helper), where they stand: the explorer stops short of them, never in front of them (and short of every thing that can be touched, sim/follow.ts). */
   protected people(): readonly Standing[] {
     return [];
   }
@@ -449,10 +449,10 @@ export abstract class RoomScene<H extends RoomHost = RoomHost> extends Phaser.Sc
     b.head.setAngle(speaking?.who === "hudhud" ? Math.sin(t * 9) * 5 : running ? Math.sin(t * 16) * 4 : 0);
     this.blink(b, b.head, "bird-head", "bird-headBlink", dt);
 
-    // The explorer walks after the bird along the floor and looks up at it, and stops short of a person rather than in
-    // front of one (sim/follow.ts).
+    // The explorer walks after the bird along the floor and looks up at it, and stops short of a person or a thing that
+    // can be touched rather than in front of one (sim/follow.ts).
     const c = this.child;
-    const step = followStep(c.x, mv, this.people(), this.layout.world.width, dt, this.host.frozen());
+    const step = followStep(c.x, mv, this.people(), this.layout.world.width, dt, this.host.frozen(), this.things(), floor);
     const walking = step.walking;
     c.x = step.x;
     c.walk = walking ? c.walk + dt * 10 : lerp(c.walk % (Math.PI * 2), 0, 0.2);

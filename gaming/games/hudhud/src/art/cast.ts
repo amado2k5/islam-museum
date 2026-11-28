@@ -652,6 +652,27 @@ export function cardChild(scale: number): KeeperArt {
   return { ...art, body };
 }
 
+/**
+ * The girl who carries the cards in al-Jahiz's room, an invented person (the animal cards' quest's own): the same cut-out
+ * as the explorer, in one fixed look of her own (a headscarf, a teal tunic), holding two plain blank cards against the
+ * chest. Nothing on them is drawn or written.
+ */
+export function cardGirl(scale: number): KeeperArt {
+  const art = keeper(scale, { kind: 1, skin: 3, outfit: 0, hair: 1 });
+  const [body, b] = sheet(art.body.w, art.body.h, scale);
+  b.drawImage(art.body.canvas, 0, 0, art.body.w, art.body.h);
+  for (const [dx, dy, fill] of [[0, 0, "#f3e6c8"], [-5, -7, "#fbf3df"]] as const) {
+    blob(b, [
+      [34 + dx, 54 + dy],
+      [64 + dx, 54 + dy],
+      [64 + dx, 90 + dy],
+      [34 + dx, 90 + dy],
+    ]);
+    fillStroke(b, fill, INK, 1.8);
+  }
+  return { ...art, body };
+}
+
 // ---------------------------------------------------------------------------------------------- the scholar
 /** The colours a scholar's figure is drawn in. The default is Ibn al-Haytham's, as the workshop has always drawn him;
  * al-Jazari's figure is the same cut-out in other colours, with an apron (art/jazari.ts's room), al-Tusi's in night
@@ -1108,6 +1129,29 @@ export const ARCHIVIST_LOOK: ScholarLook = {
 };
 export function archivist(scale: number): ScholarArt {
   return scholar(scale, ARCHIVIST_LOOK);
+}
+
+/**
+ * Al-Jahiz in his room, as the game imagines a scholar of his time: the scholar's cut-out again, of the same size and
+ * parts, in a sand turban and a deep blue robe over a cream gown. Not a likeness: nothing about his face or person is
+ * drawn from any record.
+ */
+export const JAHIZ_LOOK: ScholarLook = {
+  skin: "#b98458",
+  beard: ["#2e2420", "#6e6258"],
+  moustache: "#2e2420",
+  brow: "#2a201c",
+  turban: ["#efe2c2", "#cbb88e"],
+  turbanBands: "rgba(90,70,40,0.5)",
+  robe: ["#2f4a7a", "#1e3256"],
+  gown: "#f3e6c8",
+  border: PAL.gold,
+  dots: PAL.cream,
+  shawl: "#7a4a26",
+  seed: "jahiz",
+};
+export function jahiz(scale: number): ScholarArt {
+  return scholar(scale, JAHIZ_LOOK);
 }
 
 // ---------------------------------------------------------------------------------------------- the cat

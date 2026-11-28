@@ -12,9 +12,11 @@
 //                        sentences cq_c_* and the notes cq_note_2 and cq_note_3)
 //   invented for play    the room itself (a quiet room of records in a coffee-trading town: a window, a low bench, a brass
 //                        coffee pot and small cups on a tray, all decoration only), the long low table the cards wait on,
-//                        the bookcase of three shelves along the back wall, each marked by the quest's own shelf sign and
-//                        its dots, the plain brass bell on the table that shows the record, the box of spare blank cards
-//                        on top of the shelves where the feather hides, the keeper of the records and the child who tidies
+//                        the bookcase along the back wall, three shelves side by side at the same height (three sections
+//                        of one case, since the lead agent's review of 27 November 2026: one above another, they read as
+//                        a ranking), each marked by the quest's own shelf sign and its dots, the plain brass bell on the
+//                        table that shows the record, the box of spare blank cards on top of the shelves where the
+//                        feather hides, the keeper of the records and the child who tidies
 //                        the cards drawn as cut-outs in code (both already invented people of the quest; neither is a
 //                        likeness of anyone), and three new spoken lines (review ledger, HR-HH-55).
 // The quest's own rules stand: the game does not choose between the traditions, and the third shelf does not call the
@@ -39,13 +41,16 @@ export const CQR_TABLE = { x: 780, w: 740, top: 540 } as const;
 export const CQR_ROW = { mid: 1110, step: 80 } as const;
 export const CQR_BELL = { x: 1470, y: 508 } as const;
 /**
- * The bookcase of three shelves along the back wall: where it begins, how wide it is, the boards of its three shelves
- * from the lowest (shelf 1, one dot) to the highest (shelf 3, three dots), and its top, where the box of spare cards is.
- * Each shelf has its sign at the end the page begins from (the left, or the right on a page read right to left), and the
- * cards put on it stand after the sign, in the order of the cards.
+ * The bookcase along the back wall, holding the three shelves side by side at the same height: one case of three equal
+ * sections, shelf 1 (one dot) at the end the page begins from (the left, or the right on a page read right to left), then
+ * shelf 2 and shelf 3 (two and three dots). Since 27 November 2026 they stand side by side (the lead agent's review: one
+ * above another, with the legend on top, they read as a ranking). Where the case begins, how wide it is, how many
+ * sections, the boards of its three tiers from the lowest (each tier runs across all three sections), and its top. A
+ * shelf's sign stands on the top of the case over the start of its section, and the box of spare cards on the top at the
+ * other end. The cards put on a shelf stand three across in its section, `step` apart from `first`, the lowest tier first,
+ * in the order of the cards: up to nine, so that every card of a way of playing fits on any one shelf.
  */
-export const CQR_CASE = { x: 1690, w: 560, boards: [500, 380, 260], top: 150, sign: 45, first: 120, step: 58 } as const;
-export const CQR_BOX = { x: 2150, y: 122 } as const;
+export const CQR_CASE = { x: 1690, w: 560, sections: 3, boards: [520, 420, 320], top: 210, sign: 40, first: 35, step: 58, across: 3, box: 50 } as const;
 export const CQR_START = { hudhud: 250, keeper: 106, archivist: 640, child: 1610 } as const;
 /** A card's picture in the room: the quest's scroll, 72 game pixels square, drawn at this scale, with its dots under it. */
 export const CQR_CARD = { scale: 0.74, size: 72 } as const;
@@ -53,14 +58,14 @@ export const CQR_CARD = { scale: 0.74, size: 72 } as const;
 /** The door at the far end: the same door, in the same place, as the other rooms'. */
 export const CQR_DOOR = { x: 2342, y: CQR_WORLD.floor - 70, reach: 110 } as const;
 
-/** The room's floor, walls and perches: the table's top, the three shelves' boards and the top of the bookcase. */
+/** The room's floor, walls and perches: the table's top, the bookcase's three tiers (each across all three shelves) and its top. */
 export function cqrRoom(): Room {
   return {
     bounds: { x: 24, y: 24, w: CQR_WORLD.width - 48, h: CQR_WORLD.height },
     floor: CQR_WORLD.floor,
     perches: [
       { x: CQR_TABLE.x, y: CQR_TABLE.top, w: CQR_TABLE.w, h: 12 }, // the long low table
-      ...CQR_CASE.boards.map((y) => ({ x: CQR_CASE.x, y, w: CQR_CASE.w, h: 12 })), // the three shelves
+      ...CQR_CASE.boards.map((y) => ({ x: CQR_CASE.x, y, w: CQR_CASE.w, h: 12 })), // the three tiers, across the three shelves
       { x: CQR_CASE.x, y: CQR_CASE.top, w: CQR_CASE.w, h: 12 }, // the top of the bookcase
     ],
   };
@@ -69,9 +74,9 @@ export function cqrRoom(): Room {
 /**
  * How near the bird must come to touch a thing, chosen generous for a child but never so wide that two things' reaches
  * meet where the bird stands to touch them. A card on the table: 40 (cards stand 80 apart there, so standing anywhere on
- * the table between two cards' middles touches the nearer); a card on a shelf: 29 (cards stand 58 apart on a shelf, so
- * anywhere along the row of cards one is in reach); a shelf's sign: 40 (it stands 75 before the first card's place,
- * which leaves no gap and no overlap); the bell: 40. From the floor none of them can be touched: every card, every sign
+ * the table between two cards' middles touches the nearer); a card on a shelf: 29 (cards stand 58 apart in a tier of a
+ * shelf, so anywhere along a shelf's tier one is in reach, and the tiers are 100 apart); a shelf's sign: 40 (it stands on
+ * the top of the case, 112 above the highest tier's cards); the bell: 40. From the floor none of them can be touched: every card, every sign
  * and the bell needs at least a hop up onto the table or a flight up to a shelf. A test proves all of this.
  */
 export const REACH = { table: 40, shelf: 29, sign: 40, bell: 40 } as const;
@@ -96,13 +101,21 @@ export function tableSpot(n: number, i: number, rtl: boolean): { x: number; y: n
 }
 /** The x of a point of the bookcase, mirrored about its middle on a page read right to left. */
 const caseX = (fromStart: number, rtl: boolean): number => (rtl ? CQR_CASE.x + CQR_CASE.w - fromStart : CQR_CASE.x + fromStart);
-/** Where the sign of shelf `g` (from 0, the lowest) hangs. */
+/** How wide one shelf's section of the case is. */
+export const SECTION = CQR_CASE.w / CQR_CASE.sections;
+/** Where the sign of shelf `g` (from 0, the first from the end the page begins from) stands: on the top of the case, over the start of its section. */
 export function signSpot(g: number, rtl: boolean): { x: number; y: number } {
-  return { x: caseX(CQR_CASE.sign, rtl), y: CQR_CASE.boards[g]! - 32 };
+  return { x: caseX(g * SECTION + CQR_CASE.sign, rtl), y: CQR_CASE.top - 32 };
 }
-/** Where the card in place `slot` (from 0) of shelf `g` stands. */
+/** Where the card in place `slot` (from 0) of shelf `g` stands: three across its section, the lowest tier first. */
 export function shelfSpot(g: number, slot: number, rtl: boolean): { x: number; y: number } {
-  return { x: caseX(CQR_CASE.first + slot * CQR_CASE.step, rtl), y: CQR_CASE.boards[g]! - 30 };
+  const col = slot % CQR_CASE.across;
+  const tier = Math.floor(slot / CQR_CASE.across);
+  return { x: caseX(g * SECTION + CQR_CASE.first + col * CQR_CASE.step, rtl), y: CQR_CASE.boards[tier]! - 30 };
+}
+/** Where the box of spare cards stands: on the top of the case, at the end the page ends at. */
+export function boxSpot(rtl: boolean): { x: number; y: number } {
+  return { x: caseX(CQR_CASE.w - CQR_CASE.box, rtl), y: CQR_CASE.top - 28 };
 }
 
 /**
@@ -117,7 +130,7 @@ export function cqrThings(s: Pick<SortRoomState, "sort" | "carrying">, rtl: bool
   const things: CqrThing[] = [
     { id: "keeper", kind: "keeper", x: CQR_START.archivist, y: 500, reach: 170, name: "cqr_thing_keeper" },
     { id: "child", kind: "child", x: CQR_START.child, y: 520, reach: 140, name: "cqr_thing_child" },
-    { id: "box", kind: "box", x: CQR_BOX.x, y: CQR_BOX.y, reach: 50, name: "cqr_thing_box" },
+    { id: "box", kind: "box", ...boxSpot(rtl), reach: 50, name: "cqr_thing_box" },
     { id: "bell", kind: "bell", x: CQR_BELL.x, y: CQR_BELL.y, reach: REACH.bell, name: "cqr_thing_bell" },
     ...s.sort.groups.map((group, index): CqrThing => ({ id: `group-${group}`, kind: "group", group, index, ...signSpot(index, rtl), reach: REACH.sign, name: "cqr_thing_shelf" })),
   ];

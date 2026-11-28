@@ -1,6 +1,6 @@
 // The coffee room on screen: the tenth room on the room engine (./room.ts). The engine carries the bird, the explorer,
 // the camera, touching and the door; this file adds the room's painting, the keeper of the records and the child who
-// tidies the cards, the shelves' signs, the bell, the box of spare cards with the feather in it, every card where the
+// tidies the cards, the shelves' signs (the three shelves side by side, on the top of the case), the bell, the box of spare cards with the feather in it, every card where the
 // sorting says it stands (on the table in its own place, on its shelf after the cards before it there, or in Hudhud's
 // beak), and the frame that shows which card, sign or bell the bird is near enough to touch. What happens is decided in
 // sim/sortroom.ts (the shared sorting room) and sim/sort.ts (the quest's rules). Nothing here writes text.
@@ -8,7 +8,7 @@ import { archivist as paintArchivist, cardChild as paintChild, portrait } from "
 import { bellArt, boxArt, cardArt, coffeeRoom, focusArt, signArt } from "../art/coffee-room";
 import { glow } from "../art/kit";
 import * as props from "../art/props";
-import { CQR_APPROACH, CQR_BELL, CQR_BOX, CQR_CARD, CQR_LAYOUT, CQR_START, CQR_WINDOW, CQR_WORLD, cqrThings, type CqrThing } from "../content/coffee-room";
+import { CQR_APPROACH, CQR_BELL, CQR_CARD, CQR_LAYOUT, CQR_START, CQR_WINDOW, CQR_WORLD, boxSpot, cqrThings, type CqrThing } from "../content/coffee-room";
 import { HELPER, SCHOLAR } from "../content/people";
 import type { Keeper } from "../save/save";
 import type { Standing } from "../sim/follow";
@@ -71,8 +71,9 @@ export class CoffeeScene extends RoomScene<SortSceneHost> {
     // The shelves' signs, the bell, and the box of spare cards with the feather peeping from it.
     for (const t of cqrThings(s, rtl)) if (t.kind === "group") this.put(m, T(`sign-${t.index}`, () => signArt(ts, t.index!)), t.x, t.y);
     this.bellImg = this.put(m, T("bell", () => bellArt(ts)), CQR_BELL.x, CQR_BELL.y + 32, 0.5, 1);
-    this.feather = this.put(m, T("feather", () => props.feather(ts)), CQR_BOX.x + 22, CQR_BOX.y - 30).setAngle(24).setScale(0.55 / ts);
-    this.put(m, T("box", () => boxArt(ts)), CQR_BOX.x, CQR_BOX.y + 28, 0.5, 1);
+    const box = boxSpot(rtl);
+    this.feather = this.put(m, T("feather", () => props.feather(ts)), box.x + 22, box.y - 30).setAngle(24).setScale(0.55 / ts);
+    this.put(m, T("box", () => boxArt(ts)), box.x, box.y + 28, 0.5, 1);
     // Every card of the way of playing, with its number as dots; the rules say where each stands.
     s.sort.items.forEach((item, i) => this.cards.set(item, this.put(m, T(`card-${item}-${i + 1}`, () => cardArt(ts, item, i + 1)), 0, 0, 0.5, 38 / 102).setScale(CQR_CARD.scale / ts)));
     this.buildRing(m);
@@ -169,7 +170,7 @@ export class CoffeeScene extends RoomScene<SortSceneHost> {
       } else if (h.type === "show") {
         this.bellRing = 0.8;
         this.burst({ x: CQR_BELL.x, y: CQR_BELL.y - 10 }, 6);
-      } else if (h.type === "feather") this.burst({ x: CQR_BOX.x + 22, y: CQR_BOX.y - 30 }, 10);
+      } else if (h.type === "feather") this.burst({ x: boxSpot(this.host.rtl).x + 22, y: boxSpot(this.host.rtl).y - 30 }, 10);
       else if (h.type === "talk" && h.script.startsWith("kid")) this.kid.hop = 0.5;
     }
   }
