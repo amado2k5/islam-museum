@@ -26,6 +26,7 @@ const payload = { remove: M.remove, empty: M.empty, items: M.items, copied: M.co
       </div>
       <script type="application/json" set:html={JSON.stringify(payload)} />
     </section>
+    <p class="ui no-print" style="max-width:var(--measure);margin-top:1rem"><a href={`/${lang}/learn/shelf/`}>{M.see_shelf} <span class="flip" aria-hidden="true">→</span></a></p>
     <script src="../../../scripts/mytour.ts"></script>
   </div>
   <style>

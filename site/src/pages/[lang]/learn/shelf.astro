@@ -33,6 +33,7 @@ const payload = { remove: E.sh_remove, empty: E.sh_empty, count: E.sh_count, cop
       <script type="application/json" set:html={JSON.stringify(payload)} />
     </section>
     <p class="muted" style="max-width:var(--measure);margin-top:1rem">{E.sh_privacy}</p>
+    <p class="ui no-print" style="max-width:var(--measure)"><a href={`/${lang}/tour/`}>{E.sh_see_tour} <span class="flip" aria-hidden="true">→</span></a></p>
     <Qr lang={lang} path={path} />
   </div>
   <script src="../../../scripts/shelf.ts"></script>
