@@ -13,9 +13,14 @@
 .map .dot.lit { fill: #d9a441; stroke: #5a3d0c; stroke-width: 2.5; }
 .map .lbl { font: 600 13px system-ui, sans-serif; fill: #3b372f; paint-order: stroke; stroke: #fbf8f2; stroke-width: 3px; }
 .map .lbl.lit { font-size: 15px; fill: #1d1b18; }
+/* The map scales to the screen and its labels with it: on a phone 13 map units came out near 7 pixels. Larger units
+   there keep the names readable (about 12 and 14 pixels at 375 wide). */
+@media (max-width: 600px) { .map .lbl { font-size: 23px; stroke-width: 4px; } .map .lbl.lit { font-size: 26px; } }
 .dests { list-style: none; padding: 0; display: grid; gap: 8px; }
 .dests button, .view > button, .card button { min-height: 44px; }
 .rec .meta code, .small code { font-size: .85em; overflow-wrap: anywhere; }
+/* A record id is Latin text: it always runs left to right, as one piece, inside Arabic or Urdu. */
+code { direction: ltr; unicode-bidi: isolate; }
 .q { display: grid; gap: 8px; border: 1px solid var(--line); }
 .done { font-weight: 700; color: var(--hit); }
 .companion { border-inline-start: 4px solid var(--accent); }

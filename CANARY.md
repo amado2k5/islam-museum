@@ -16,6 +16,16 @@ open a new block on top with the new version and today's date.
 ## v2.32.0 — 2026-11-26
 ### Changed
 - **A written analysis of the museum's public API, proposing how to stop any API file from returning the whole collection at once.** The founder asked for it. It is analysis only: no API file, path or build step changed. It lists every file the API serves, with its size and who reads it, and finds that no page of the site and none of the games fetch the large whole-collection files. It proposes replacing those files with small indexes that point to bounded parts, and moving full downloads to the dataset releases, which stay complete and free (CC0). It awaits the founder's approval (`docs/engineering/90-api-tightening-analysis.md`).
+- **The Lamp of the Ages is released, with its pictures still drawn by code; painted art will come as an update.** It is the fifth game to leave prototype.
+  - **Readability fixes:** city names on its map are now readable on a phone, and record ids no longer break apart inside Arabic and Urdu text.
+  - **How it was checked:** 28 whole games, all five missions each, were played with the keyboard alone in all seven languages, on phone and desktop screens, in light and dark, on this machine's local host. No problem was found, and focus, target size, contrast and the saved game were all checked.
+  - **Not yet done:** no person has played it, no native speaker has read five of its languages, no real phone has been used, and its historical review is still pending, as the page says.
+- **The Lantern is released, and with it all four daily games are finished.**
+  - **A lighter first visit:** the game loads only its own phrases' names, about a fifth of what it loaded before.
+  - **Keyboard fix:** a player using Tab and Enter on the on-screen letters no longer loses their place after each guess.
+  - **Labels:** the prototype label is gone, and the museum's games page now says the four daily games are finished, in all seven languages.
+  - **How it was checked:** 56 whole days on this machine's local host, lit and burnt out, with no problem.
+  - **Not yet done:** no person has playtested it, no native speaker has read five of its languages, and it has not been tried on a real phone.
 - **The Thread of Time, the daily ordering game, is released: the third game to leave prototype.**
   - **Keyboard fix:** a keyboard player no longer loses their place when an event reaches the top or bottom of the list.
   - **Arabic type, in all four daily games:** a shared font list let Arabic fall through to an Urdu Nastaliq font on some machines, so Arabic words climbed and ran into the line above. Each script now has its own fonts.

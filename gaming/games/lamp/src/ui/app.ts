@@ -32,7 +32,9 @@ async function main(): Promise<void> {
   const [shared, own] = await Promise.all([sharedStrings(), import(`../../i18n/${lang}.json`).then((m) => m.default as G)]);
   const s: Record<string, string> = { ...shared, ...own };
   const t = (k: keyof G, v: Record<string, string | number> = {}) => fill(own[k], v);
-  const ui = shell({ s, title: t("title"), howto: [t("how_1"), t("how_2"), t("how_3"), t("art_note")], prototype: t("prototype") });
+  const ui = shell({ s, title: t("title"), howto: [t("how_1"), t("how_2"), t("how_3"), t("art_note")] });
+  // Released on 28 November 2026 by the founder's decision (docs/gaming/spec-production/release-status.json): no prototype
+  // label. Its pictures are still drawn by code, as "art_note" says; painted art is to come as an update.
   const save = load();
   const centuries = [...new Set(DESTINATIONS.map((d) => centuryOf(d.id)))].sort((a, b) => a - b);
   let dial = save.at ? centuryOf(save.at) : centuries[0]!;
