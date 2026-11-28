@@ -10,4 +10,4 @@ A first playable 2D slice: a time dial and map, five destinations from the graph
 - **Accessibility:** plain buttons, a range input for the dial, a live region, the map with a text title and caption; full keyboard play. Not audited by a person.
 - **Tests:** `gaming/games/lamp/test/lamp.gtest.ts` (every mission completes, gates and companions, every shown id is a record, the record file equals a fresh build, each answer is named in its record, the save round-trips).
 - **Placeholder:** all art; the jinni is never drawn.
-- **Known gaps:** `person/ulugh-beg` has an Arabic label only, so his name shows in Arabic in every language; no phone or minimum-machine check; title not searched.
+- **Known gaps:** no phone or minimum-machine check; title not searched.
