@@ -13,7 +13,7 @@ const G = T.games;
 /** The games' own host in production. Each game is a folder of it and takes the page's language in its address. */
 const HOST = "https://games.islam.museum";
 /** In the registry's order. Each is labelled a prototype unless it is released (gaming/games/registry.json). */
-const RELEASED = new Set<string>(["five-questions", "kalima", "lantern", "thread"]);
+const RELEASED = new Set<string>(["five-questions", "kalima", "lamp", "lantern", "thread"]);
 const GAMES = ["granada", "golden-age", "atlas", "hudhud", "five-questions", "kalima", "thread", "lantern", "lamp"] as const;
 ---
 <BaseLayout lang={lang} title={G.title} description={G.lede} path={`/${lang}/games/`}>
