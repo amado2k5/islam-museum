@@ -47,6 +47,14 @@ export async function gate(o: GateOptions): Promise<void> {
     o.root.replaceChildren();
     o.root.classList.remove("im-unsupported");
     o.pass();
+    // Granada title art if the game is Granada
+    if (o.museum.includes("granada")) {
+      const titleDiv = el("div", undefined, "gr-title");
+      const titleText = el("div", undefined, "gr-title-text");
+      titleText.innerHTML = `<h1>${strings.title}</h1><p>${strings.why}</p>`;
+      titleDiv.appendChild(titleText);
+      o.root.appendChild(titleDiv);
+    }
   };
   if (overrideAllowed(location.hostname, location.search)) {
     state.overridden = true;
