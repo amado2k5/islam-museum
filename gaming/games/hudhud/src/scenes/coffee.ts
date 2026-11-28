@@ -8,10 +8,10 @@ import { archivist as paintArchivist, cardChild as paintChild, portrait } from "
 import { bellArt, boxArt, cardArt, coffeeRoom, focusArt, signArt } from "../art/coffee-room";
 import { glow } from "../art/kit";
 import * as props from "../art/props";
-import { CQR_APPROACH, CQR_BELL, CQR_CARD, CQR_LAYOUT, CQR_START, CQR_WINDOW, CQR_WORLD, boxSpot, cqrThings, type CqrThing } from "../content/coffee-room";
+import { CQR_APPROACH, CQR_BELL, CQR_CARD, CQR_LAYOUT, CQR_START, CQR_WINDOW, CQR_WORLD, boxSpot, cqrMarkers, cqrThings, type CqrThing } from "../content/coffee-room";
 import { HELPER, SCHOLAR } from "../content/people";
 import type { Keeper } from "../save/save";
-import type { Standing } from "../sim/follow";
+import type { Spot, Standing } from "../sim/follow";
 import type { Mover } from "../sim/move";
 import { cardPlaces, type SortRoomHappened } from "../sim/sortroom";
 import type { SortSceneHost } from "../ui/sortroom";
@@ -44,6 +44,10 @@ export class CoffeeScene extends RoomScene<SortSceneHost> {
   }
   protected override people(): readonly Standing[] {
     return [{ x: CQR_START.archivist, figure: SCHOLAR }, { x: CQR_START.child, figure: HELPER }];
+  }
+  /** The explorer keeps clear of every shelf, empty or not, as of every thing that can be touched (content/coffee-room.ts cqrMarkers). */
+  protected override standClear(): readonly Spot[] {
+    return [...this.things(), ...cqrMarkers(this.host.state().sort.groups.length, this.host.rtl)];
   }
   protected override tap(x: number, y: number): void {
     // A press on the picture flies the bird to the thing pressed, and touches it: the nearest within its reach.

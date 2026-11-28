@@ -10,10 +10,10 @@ import { bellArt, focusArt } from "../art/coffee-room";
 import { basketArt, cardArt, jahizRoom, signArt, trayArt } from "../art/jahiz-room";
 import { glow } from "../art/kit";
 import * as props from "../art/props";
-import { JZR_APPROACH, JZR_BASKET, JZR_BELL, JZR_CARD, JZR_START, JZR_TRAYS, JZR_WINDOW, JZR_WORLD, jzrLayout, jzrRoom, jzrThings, trayBox, type JzrThing } from "../content/jahiz-room";
+import { JZR_APPROACH, JZR_BASKET, JZR_BELL, JZR_CARD, JZR_START, JZR_TRAYS, JZR_WINDOW, JZR_WORLD, jzrLayout, jzrMarkers, jzrRoom, jzrThings, trayBox, type JzrThing } from "../content/jahiz-room";
 import { HELPER, SCHOLAR } from "../content/people";
 import type { Keeper } from "../save/save";
-import type { Standing } from "../sim/follow";
+import type { Spot, Standing } from "../sim/follow";
 import type { Mover } from "../sim/move";
 import { cardPlaces, type SortRoomHappened } from "../sim/sortroom";
 import type { SortSceneHost } from "../ui/sortroom";
@@ -47,6 +47,10 @@ export class JahizScene extends RoomScene<SortSceneHost> {
   }
   protected override people(): readonly Standing[] {
     return [{ x: JZR_START.jahiz, figure: SCHOLAR }, { x: JZR_START.girl, figure: HELPER }];
+  }
+  /** The explorer keeps clear of every tray, empty or not, as of every thing that can be touched (content/jahiz-room.ts jzrMarkers). */
+  protected override standClear(): readonly Spot[] {
+    return [...this.things(), ...jzrMarkers(this.host.state().sort.groups.length, this.host.rtl)];
   }
   protected override tap(x: number, y: number): void {
     // A press on the picture flies the bird to the thing pressed, and touches it: the nearest within its reach.

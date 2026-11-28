@@ -192,13 +192,13 @@ describe("Karima's room: its strings", () => {
   // They were the last eleven of every table until Ibn Battuta's inn (27 November 2026) appended its own after them, and the
   // coffee room its own after those; they
   // are still one block, in the same order, in every table, and only the inn's keys come after them.
-  it("are eleven, one block in every table, in the same order, with only Ibn Battuta's inn's, the coffee room's and al-Jahiz's room's keys after them", () => {
+  it("are eleven, one block in every table, in the same order, with only Ibn Battuta's inn's, the coffee room's and al-Jahiz's room's and the Alhambra's court's keys after them", () => {
     expect(keys).toHaveLength(11);
     for (const l of LANGS) {
       const all = Object.keys(tables[l]!);
       const at = all.indexOf(keys[0]!);
       expect(all.slice(at, at + keys.length), l).toEqual(keys);
-      expect(all.slice(at + keys.length).every((k) => k.startsWith("ibr_") || k.startsWith("cqr_") || k.startsWith("jzr_")), l).toBe(true);
+      expect(all.slice(at + keys.length).every((k) => k.startsWith("ibr_") || k.startsWith("cqr_") || k.startsWith("jzr_") || k.startsWith("ahr_")), l).toBe(true);
     }
   });
   it("say that the room and the copies on their stands are invented, not a picture of her home, and that the game shows nothing of the text of any hadith, in the founder's words in Arabic and English", () => {

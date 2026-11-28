@@ -30,6 +30,8 @@ import { restoreSortRoom, type SortRoomCommand } from "../sim/sortroom";
 import { coffeeRoom, type CoffeeRoom } from "./coffeeroom";
 import { JZR_SPEC } from "../content/jahiz-room";
 import { jahizRoom, type JahizRoom } from "./jahizroom";
+import { restoreAlhambra, type AlhambraCommand } from "../sim/alhambraroom";
+import { alhambraRoom, type AlhambraRoom } from "./alhambraroom";
 import { CIPHER_QUEST, cipherPuzzle } from "../content/cipher";
 import { restoreCipher } from "../sim/cipher";
 import { cipherQuest, type CipherQuest } from "./cipher";
@@ -214,11 +216,11 @@ async function main(): Promise<void> {
   const bench = el("section", { class: "bench", hidden: true });
   let pageRun: { quest: string; run: { node: HTMLElement; busy(): boolean; stop(): void } } | null = null;
   // A scene with a room of its own (al-Jazari's workshop, al-Tusi's observatory, al-Khwarizmi's room, al-Kindi's room,
-  // al-Idrisi's hall, al-Razi's study, Karima al-Marwaziyya's room, Ibn Battuta's inn, the coffee room and al-Jahiz's
-  // room, since 27 November 2026) is opened like a page quest and shown here, as wide as the flying scene's stage. Its
-  // page quest stays as the way it is played without WebGL.
+  // al-Idrisi's hall, al-Razi's study, Karima al-Marwaziyya's room, Ibn Battuta's inn, the coffee room, al-Jahiz's room
+  // and the Alhambra's court, since 27 November 2026) is opened like a page quest and shown here, as wide as the flying
+  // scene's stage. Its page quest stays as the way it is played without WebGL.
   const roomBox = el("section", { class: "room-box", hidden: true });
-  type AnyRoom = JazariRoom | TusiRoom | KhwarizmiRoom | KindiRoom | IdrisiRoom | RaziRoom | KarimaRoom | BattutaRoom | CoffeeRoom | JahizRoom;
+  type AnyRoom = JazariRoom | TusiRoom | KhwarizmiRoom | KindiRoom | IdrisiRoom | RaziRoom | KarimaRoom | BattutaRoom | CoffeeRoom | JahizRoom | AlhambraRoom;
   /** The open room, if a scene is being played in its room. */
   const openRoom = (): AnyRoom | null => (pageRun && "press" in pageRun.run ? (pageRun.run as unknown as AnyRoom) : null);
   /** The open room, if it is `quest`'s. */
@@ -1226,8 +1228,31 @@ async function main(): Promise<void> {
     [CHANNELS_QUEST]: {
       subject: CHANNELS_SUBJECT,
       trial: "ah_trial",
+      // One kept place serves both: the court keeps the channels' own snapshot, as the page does.
       saved: () => pageSaved(CHANNELS_QUEST, (snap) => restoreChannels(snap, channelsGrid)),
       make: (c, title, kept) => channelsQuest({ ...c, title, resume: kept as Parameters<typeof channelsQuest>[0]["resume"] }),
+      // The Alhambra's court: the channels turned by flying, in a room of their own.
+      room: roomsOn,
+      makeRoom: (c, title) =>
+        alhambraRoom({
+          ...c,
+          title,
+          quality,
+          keeper: () => slot().keeper,
+          textSpeed: () => settings().textSpeed,
+          perf: query.get("perf") === "1",
+          intent: () => input.intent(),
+          bindHold: (b, what) => input.bindHold(b, what),
+          blocked: () => sheetOpen(),
+          sound,
+          toast,
+          // The goals are written into the save; the court's own door leads on (no corridor).
+          finish: (g) => pageFinish(CHANNELS_QUEST, g),
+          through: () => moveOn(),
+          fallback: () => openPage(CHANNELS_QUEST, inJourney, true),
+          resume: pageSaved(CHANNELS_QUEST, restoreAlhambra),
+          keepPlace: (snap) => pageCheckpoint(CHANNELS_QUEST, snap),
+        }),
     },
     [LEAVES_QUEST]: {
       subject: LEAVES_SUBJECT,
@@ -1480,9 +1505,9 @@ async function main(): Promise<void> {
     if (inJourney !== null) strip.focus();
   }
   /** The door of whichever scene is open: lit or not, where it stands, and where the bird is. */
-  const doorNow = (): { lit: boolean; where: { x: number; y: number; reach: number } | null; bird: { x: number; y: number } | null; scene: "workshop" | "corridor" | "page" | "jazari" | "tusi" | "khwarizmi" | "kindi" | "idrisi" | "razi" | "karima" | "battuta" | "coffee" | "jahiz" } | null => {
+  const doorNow = (): { lit: boolean; where: { x: number; y: number; reach: number } | null; bird: { x: number; y: number } | null; scene: "workshop" | "corridor" | "page" | "jazari" | "tusi" | "khwarizmi" | "kindi" | "idrisi" | "razi" | "karima" | "battuta" | "coffee" | "jahiz" | "alhambra" } | null => {
     const room = openRoom();
-    if (room) return { ...room.door(), scene: pageRun?.quest === COUPLE_QUEST ? "tusi" : pageRun?.quest === ALGEBRA_QUEST ? "khwarizmi" : pageRun?.quest === CIPHER_QUEST ? "kindi" : pageRun?.quest === SHEETS_QUEST ? "idrisi" : pageRun?.quest === LEAVES_QUEST ? "razi" : pageRun?.quest === COLLATE_QUEST ? "karima" : pageRun?.quest === ROUTE_QUEST ? "battuta" : pageRun?.quest === COFFEE_QUEST ? "coffee" : pageRun?.quest === SORT_QUEST ? "jahiz" : "jazari" };
+    if (room) return { ...room.door(), scene: pageRun?.quest === COUPLE_QUEST ? "tusi" : pageRun?.quest === ALGEBRA_QUEST ? "khwarizmi" : pageRun?.quest === CIPHER_QUEST ? "kindi" : pageRun?.quest === SHEETS_QUEST ? "idrisi" : pageRun?.quest === LEAVES_QUEST ? "razi" : pageRun?.quest === COLLATE_QUEST ? "karima" : pageRun?.quest === ROUTE_QUEST ? "battuta" : pageRun?.quest === COFFEE_QUEST ? "coffee" : pageRun?.quest === SORT_QUEST ? "jahiz" : pageRun?.quest === CHANNELS_QUEST ? "alhambra" : "jazari" };
     if (started) {
       const w = running?.scene()?.where() ?? null;
       return { lit: state.done, where: { ...DOOR }, bird: w ? { x: w.x, y: w.y } : null, scene: "workshop" };
@@ -1773,7 +1798,16 @@ async function main(): Promise<void> {
     coffeeRoomCommand: (c: SortRoomCommand) => roomOf<CoffeeRoom>(COFFEE_QUEST)?.command(c),
     coffee: () => { const r = pageOf<CoffeeQuest>(COFFEE_QUEST); return r ? { ...r.state(), busy: r.busy(), selected: r.selected(), status: r.status() } : null; },
     coffeeCommand: (c: Parameters<CoffeeQuest["command"]>[0]) => pageOf<CoffeeQuest>(COFFEE_QUEST)?.command(c),
-    startChannels: () => openPage(CHANNELS_QUEST),
+    // The channels' page quest (the way they are played without WebGL), and the Alhambra's court, where they are turned by flying.
+    startChannels: () => openPage(CHANNELS_QUEST, null, true),
+    startAlhambra: () => openPage(CHANNELS_QUEST),
+    alhambra: () => {
+      const r = roomOf<AlhambraRoom>(CHANNELS_QUEST);
+      if (!r) return null;
+      const s = r.state();
+      return { ...s.channels, wet: Object.fromEntries(s.channels.answer.wet), talk: s.talk, busy: r.busy(), status: r.status(), doorLit: s.channels.done, shown: r.running()?.scene()?.shown() ?? null };
+    },
+    alhambraCommand: (c: AlhambraCommand) => roomOf<AlhambraRoom>(CHANNELS_QUEST)?.command(c),
     channels: () => { const r = pageOf<ChannelsQuest>(CHANNELS_QUEST); return r ? { ...r.state(), busy: r.busy(), selected: r.selected(), status: r.status() } : null; },
     channelsCommand: (c: Parameters<ChannelsQuest["command"]>[0]) => pageOf<ChannelsQuest>(CHANNELS_QUEST)?.command(c),
     // The loose leaves' page quest (the way they are played without WebGL), and al-Razi's study, where they are played by flying.

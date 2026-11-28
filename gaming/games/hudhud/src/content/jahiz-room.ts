@@ -127,6 +127,15 @@ export function traySpot(n: number, g: number, slot: number, rtl: boolean): { x:
 }
 
 /**
+ * Where every tray stands, as the explorer keeps clear of it (scenes/room.ts standClear): the three places of each tray's
+ * lowest tier, whether a card stands there or not. An empty tray is not a thing to touch (its sign, high on its top, is),
+ * so before 27 November 2026 the explorer could stop in front of one and hide it (the lead agent saw it).
+ */
+export function jzrMarkers(groups: number, rtl: boolean): { x: number; y: number }[] {
+  return Array.from({ length: groups }, (_, g) => Array.from({ length: JZR_TRAYS.across }, (_, col) => traySpot(groups, g, col, rtl))).flat();
+}
+
+/**
  * Every thing in the room now: al-Jahiz, the girl, the basket of spare cards, the bell, the sign of each tray, every card
  * where it stands (on the bench in its own place, or in its tray after the cards before it there), and, while Hudhud
  * carries a card that is in a tray, that card's own empty place on the bench (touched, it takes the card out of its tray,
