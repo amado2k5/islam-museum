@@ -297,6 +297,8 @@ export class ValleyRenderer {
   private wheelTurns = false;
   private codeMill: THREE.Mesh[] = [];
   private millModel: THREE.Object3D | null = null;
+  private millModelLod1: THREE.Object3D | null = null;
+  private millWheelLod1: THREE.Object3D | null = null;
   private townModel: THREE.Object3D | null = null;
   private landmarksModel: THREE.Object3D | null = null;
   private candidateModels: THREE.Object3D[] = [];
@@ -1125,6 +1127,20 @@ export class ValleyRenderer {
       for (const m of this.codeMill) m.visible = false;
       this.wheel.visible = this.millWheel === null;
       this.models.push("granada/mill");
+      // The distance making stands ready beside it; render() shows whichever the camera's range asks for.
+      try {
+        const far = await loadModel(`${MODEL_SET}mill-lod1.gltf`);
+        if (this.disposed) return disposeModel(far);
+        far.position.set(at.x, at.y, at.z);
+        far.rotation.y = at.yaw;
+        far.visible = false;
+        this.scene.add(far);
+        this.millModelLod1 = far;
+        this.millWheelLod1 = far.getObjectByName("wheel") ?? null;
+        this.models.push("granada/mill-lod1");
+      } catch {
+        // No distance making: the whole mill is drawn at every range, as before.
+      }
     } catch (e) {
       // The code-made mill stays. Said in info(), not thrown: a valley without its models is still the valley.
       this.modelFailures.push(`granada/mill: ${e instanceof Error ? e.message : String(e)}`);
@@ -1736,7 +1752,16 @@ export class ValleyRenderer {
     // The wheel, and the carts going out along the roads and back.
     const dt = this.lastTime ? Math.min(0.1, timeSeconds - this.lastTime) : 0;
     this.lastTime = timeSeconds;
-    if (this.wheelTurns && !still) (this.millWheel ?? this.wheel).rotation.z -= dt * 0.7;
+    if (this.wheelTurns && !still) {
+      (this.millWheel ?? this.wheel).rotation.z -= dt * 0.7;
+      if (this.millWheelLod1) this.millWheelLod1.rotation.z -= dt * 0.7;
+    }
+    // The mill's automatic LOD: past a field and a half the lighter making stands in for the whole one.
+    if (this.millModel) {
+      const distant = this.camera.position.distanceTo(this.millModel.position) > 140;
+      this.millModel.visible = !distant;
+      if (this.millModelLod1) this.millModelLod1.visible = distant;
+    }
     const carts = this.carts.instanceMatrix.array as Float32Array;
     for (let i = 0; i < CARTS; i++) {
       const road = this.cartRoads[i % Math.max(1, this.cartRoads.length)];
@@ -2003,6 +2028,7 @@ export class ValleyRenderer {
     for (const meshes of this.placedMeshes.values()) for (const m of meshes) m.geometry.dispose();
     this.placedMeshes.clear();
     if (this.millModel) disposeModel(this.millModel);
+    if (this.millModelLod1) disposeModel(this.millModelLod1);
     if (this.townModel) disposeModel(this.townModel);
     if (this.landmarksModel) disposeModel(this.landmarksModel);
     for (const m of this.candidateModels) disposeModel(m);
