@@ -300,14 +300,9 @@ export class ValleyRenderer {
   private millModelLod1: THREE.Object3D | null = null;
   private millWheelLod1: THREE.Object3D | null = null;
   private townModel: THREE.Object3D | null = null;
-  private townLod1Model: THREE.Object3D | null = null;
   private landmarksModel: THREE.Object3D | null = null;
-  private landmarksLod1Model: THREE.Object3D | null = null;
   private candidateModels: THREE.Object3D[] = [];
-  private candidateLod1Models: THREE.Object3D[] = [];
   private millWheel: THREE.Object3D | null = null;
-  private lod1Pieces: Map<string, Array<{ geometry: THREE.BufferGeometry; material: THREE.Material }>> | null = null;
-  private townInstances: THREE.InstancedMesh[] = [];
   private readonly models: string[] = [];
   private readonly modelFailures: string[] = [];
   private groundAtlas: THREE.Texture | null = null;
@@ -600,14 +595,13 @@ export class ValleyRenderer {
     // ---- What is built ----
     // The town's houses are models made ahead of time, where the host has them; the valley is then built without
     // houses of its own and told where each one stands. Without them it makes its houses itself, as before.
-    const townData = options.models && MODELS_AVAILABLE ? await this.loadTown(options.art ?? null) : null;
-    const town = townData?.pieces ?? null;
+    const town = options.models && MODELS_AVAILABLE ? await this.loadTown(options.art ?? null) : null;
     const hill = town !== null && HILL_PIECES.every((name) => town.has(name));
     const scenery = buildScenery(seed, { authoredTown: town !== null, authoredHill: hill });
     addChunks(scenery.chunks);
     this.meadowStone = addChunks(scenery.meadowChannel);
     this.houses = scenery.houses.map((h) => addChunks(h));
-    if (townData) this.standTown(townData, scenery.kit);
+    if (town) this.standTown(town, scenery.kit);
     this.granary = addChunks(scenery.granary);
     this.codeMill = addChunks(scenery.mill);
     // The authored mill is fetched while the valley is already on screen, and takes the code-made one's place.
@@ -1032,19 +1026,17 @@ export class ValleyRenderer {
   }
 
   /** Fetches the town kit and returns, for each piece, the shapes and surfaces it is made of. Null if it cannot be had. */
-  private async loadTown(art: Art | null = null): Promise<{ pieces: Map<string, Array<{ geometry: THREE.BufferGeometry; material: THREE.Material }>>; lod1Pieces: Map<string, Array<{ geometry: THREE.BufferGeometry; material: THREE.Material }>> } | null> {
+  private async loadTown(art: Art | null = null): Promise<Map<string, Array<{ geometry: THREE.BufferGeometry; material: THREE.Material }>> | null> {
     try {
       const pieces = new Map<string, Array<{ geometry: THREE.BufferGeometry; material: THREE.Material }>>();
-      const lod1Pieces = new Map<string, Array<{ geometry: THREE.BufferGeometry; material: THREE.Material }>>();
-      const take = (model: THREE.Object3D, targetMap?: Map<string, Array<{ geometry: THREE.BufferGeometry; material: THREE.Material }>>) => {
-        const map = targetMap ?? pieces;
+      const take = (model: THREE.Object3D) => {
         for (const node of model.children) {
           const parts: Array<{ geometry: THREE.BufferGeometry; material: THREE.Material }> = [];
           node.traverse((o) => {
             const m = o as THREE.Mesh;
             if (m.isMesh) parts.push({ geometry: m.geometry, material: m.material as THREE.Material });
           });
-          if (parts.length) map.set(node.name, parts);
+          if (parts.length) pieces.set(node.name, parts);
         }
       };
       const model = await loadModel(`${MODEL_SET}town.gltf`);
@@ -1052,30 +1044,12 @@ export class ValleyRenderer {
       for (const name of KIT_HOUSES) if (!pieces.has(name)) throw new Error(`the kit has no ${name}`);
       this.townModel = model;
       this.models.push("granada/town");
-      // Load LOD1 town kit
-      try {
-        const townLod1 = await loadModel(`${MODEL_SET}town-lod1.gltf`);
-        take(townLod1, lod1Pieces);
-        this.townLod1Model = townLod1;
-        this.models.push("granada/town-lod1");
-      } catch (e) {
-        this.modelFailures.push(`granada/town-lod1: ${e instanceof Error ? e.message : String(e)}`);
-      }
       // The larger pieces are a file of their own. Without it the hill keeps the wall and halls the valley makes.
       try {
         const larger = await loadModel(`${MODEL_SET}landmarks.gltf`);
         take(larger);
         this.landmarksModel = larger;
         this.models.push("granada/landmarks");
-        // Load LOD1 landmarks
-        try {
-          const landmarksLod1 = await loadModel(`${MODEL_SET}landmarks-lod1.gltf`);
-          take(landmarksLod1, lod1Pieces);
-          this.landmarksLod1Model = landmarksLod1;
-          this.models.push("granada/landmarks-lod1");
-        } catch (e) {
-          this.modelFailures.push(`granada/landmarks-lod1: ${e instanceof Error ? e.message : String(e)}`);
-        }
         // The candidate's pieces, asked for by name, take the place of Set A's only once they have arrived whole.
         if (art !== "a") {
           for (const [piece, path] of Object.entries(art ? CANDIDATE_C[art] : PALACE)) {
@@ -1085,18 +1059,6 @@ export class ValleyRenderer {
               take(candidate);
               this.candidateModels.push(candidate);
               this.models.push(art ? `granada/${art}/${piece}` : `granada/${piece}`);
-              // Load LOD1 for palace candidates
-              const lod1Path = path.replace(".gltf", "-lod1.gltf");
-              try {
-                const lod1Candidate = await loadModel(lod1Path);
-                if (lod1Candidate.children.some((n) => n.name === piece)) {
-                  take(lod1Candidate, lod1Pieces);
-                  this.candidateLod1Models.push(lod1Candidate);
-                  this.models.push(art ? `granada/${art}/${piece}-lod1` : `granada/${piece}-lod1`);
-                }
-              } catch (e) {
-                this.modelFailures.push(`${art ? `granada/${art}/${piece}-lod1` : `granada/${piece}-lod1`}: ${e instanceof Error ? e.message : String(e)}`);
-              }
             } catch (e) {
               this.modelFailures.push(`${art ? `granada/${art}/${piece}` : `granada/${piece}`}: ${e instanceof Error ? e.message : String(e)}`);
             }
@@ -1105,7 +1067,7 @@ export class ValleyRenderer {
       } catch (e) {
         this.modelFailures.push(`granada/landmarks: ${e instanceof Error ? e.message : String(e)}`);
       }
-      return { pieces, lod1Pieces };
+      return pieces;
     } catch (e) {
       this.modelFailures.push(`granada/town: ${e instanceof Error ? e.message : String(e)}`);
       return null;
@@ -1113,7 +1075,7 @@ export class ValleyRenderer {
   }
 
   /** Stands the kit's houses where the valley says: the ones built during play as meshes of their own, the rest in bulk. */
-  private standTown(townData: { pieces: Map<string, Array<{ geometry: THREE.BufferGeometry; material: THREE.Material }>>; lod1Pieces: Map<string, Array<{ geometry: THREE.BufferGeometry; material: THREE.Material }>> }, kit: KitPlacement[]): void {
+  private standTown(town: Map<string, Array<{ geometry: THREE.BufferGeometry; material: THREE.Material }>>, kit: KitPlacement[]): void {
     const at = new THREE.Object3D();
     const set = (p: KitPlacement) => {
       at.position.set(p.x, p.y, p.z);
@@ -1123,9 +1085,7 @@ export class ValleyRenderer {
       return at.matrix;
     };
     const washed = (m: THREE.Material) => m.name.startsWith("plaster");
-    // Store LOD1 pieces for later use in distance-based LOD
-    this.lod1Pieces = townData.lod1Pieces;
-    for (const [piece, parts] of townData.pieces) {
+    for (const [piece, parts] of town) {
       const standing = kit.filter((p) => p.piece === piece && p.lot === null);
       for (const part of parts) {
         if (standing.length === 0) break;
@@ -1138,15 +1098,12 @@ export class ValleyRenderer {
         im.castShadow = true;
         im.receiveShadow = true;
         im.frustumCulled = false;
-        im.userData.pieceName = piece;
-        im.userData.originalGeometries = [part.geometry];
-        this.townInstances.push(im);
         this.scene.add(im);
       }
     }
     // A house on a building lot appears when it is built, so each is its own.
     for (const p of kit.filter((k) => k.lot !== null)) {
-      const meshes = (townData.pieces.get(p.piece) ?? []).map((part) => {
+      const meshes = (town.get(p.piece) ?? []).map((part) => {
         const m = new THREE.Mesh(part.geometry, part.material);
         m.applyMatrix4(set(p));
         m.castShadow = true;
@@ -1804,34 +1761,6 @@ export class ValleyRenderer {
       const distant = this.camera.position.distanceTo(this.millModel.position) > 140;
       this.millModel.visible = !distant;
       if (this.millModelLod1) this.millModelLod1.visible = distant;
-    }
-    // Town kit LOD (proof of concept): swap geometry based on average distance of instances
-    if (this.lod1Pieces && this.townInstances.length > 0) {
-      const threshold = 100; // meters
-      for (const inst of this.townInstances) {
-        // Calculate average distance of this piece's instances from camera
-        let totalDist = 0;
-        const count = inst.count;
-        const matrix = new THREE.Matrix4();
-        const pos = new THREE.Vector3();
-        for (let i = 0; i < count; i++) {
-          matrix.fromArray(inst.instanceMatrix.array, i * 16);
-          pos.setFromMatrixPosition(matrix);
-          totalDist += this.camera.position.distanceTo(pos);
-        }
-        const avgDist = totalDist / count;
-        const useLod1 = avgDist > threshold;
-        const lod1Parts = this.lod1Pieces.get(inst.userData.pieceName);
-        if (lod1Parts && lod1Parts.length > 0) {
-          // Swap geometry for each part
-          for (let i = 0; i < Math.min(inst.count, lod1Parts.length); i++) {
-            const child = inst.children[i] as THREE.Mesh;
-            if (child && child.isMesh) {
-              child.geometry = useLod1 ? lod1Parts[i].geometry : inst.userData.originalGeometries[i];
-            }
-          }
-        }
-      }
     }
     const carts = this.carts.instanceMatrix.array as Float32Array;
     for (let i = 0; i < CARTS; i++) {
