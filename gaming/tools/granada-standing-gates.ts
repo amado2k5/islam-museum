@@ -21,40 +21,16 @@ await page.waitForFunction("window.__GR__.threeD === 'on'", undefined, { timeout
 // Get building positions and check terrain
 const terrain = await page.evaluate(`(() => {
   const s = window.__GR__.stage();
-  const buildings = s.info().buildings || [];
-  const results = [];
-  for (const b of buildings) {
-    const x = b.x, z = b.z;
-    // Ray-cast down from above to find ground height
-    const ray = new s.THREE.Raycaster(new s.THREE.Vector3(x, 100, z), new s.THREE.Vector3(0, -1, 0));
-    const hits = ray.intersectObjects(s.scene.children, true);
-    const groundHit = hits.find(h => h.object.userData.isGround || h.object.name.includes('ground') || h.object.name.includes('terrain'));
-    const groundY = groundHit ? groundHit.point.y : null;
-    const floatAmount = groundY !== null ? b.y - groundY : null;
-    results.push({ name: b.name, x, z, buildingY: b.y, groundY, floatAmount });
-  }
-  return results;
+  const info = s.info();
+  // Note: buildings are not exposed via info(); this check requires scene graph access
+  // For now, return a note about the limitation
+  return [{ note: "Building positions not exposed via stage().info(); terrain check requires scene graph access or different API" }];
 })()`);
 // Get building bounding boxes and check for overlaps
 const collisions = await page.evaluate(`(() => {
   const s = window.__GR__.stage();
-  const buildings = s.info().buildings || [];
-  const boxes = buildings.map(b => {
-    const box = new s.THREE.Box3();
-    // Approximate bounding box from position and typical size
-    box.min.set(b.x - 5, b.y, b.z - 5);
-    box.max.set(b.x + 5, b.y + 10, b.z + 5);
-    return { name: b.name, box };
-  });
-  const overlaps = [];
-  for (let i = 0; i < boxes.length; i++) {
-    for (let j = i + 1; j < boxes.length; j++) {
-      if (boxes[i].box.intersectsBox(boxes[j].box)) {
-        overlaps.push({ a: boxes[i].name, b: boxes[j].name });
-      }
-    }
-  }
-  return overlaps;
+  // Note: buildings are not exposed via info(); this check requires scene graph access
+  return [{ note: "Building bounding boxes not exposed via stage().info(); collision check requires scene graph access or different API" }];
 })()`);
 // Check shadow settings (note: renderer not directly accessible via stage)
 const shadows = { note: "Shadow settings require direct renderer access; not measurable via stage() API" };
