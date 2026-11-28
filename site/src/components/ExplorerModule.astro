@@ -30,10 +30,10 @@ const home = `/${lang}/time-browser/`;
   <ul class="xm-chips" role="list">
     {chips.map((c) => <li><a class="xm-chip" href={subjectHref(lang, c.id)}>{c.label}</a></li>)}
   </ul>
-  <form class="xm-search" role="search" onsubmit="return false">
+  <form class="xm-search" role="search" action={`/${lang}/search/`} method="get" data-all={B.m_search_all}>
     <label class="sr-only" for="xm-q">{B.m_search_hint}</label>
-    <input id="xm-q" type="search" autocomplete="off" placeholder={B.m_search_hint} />
-    <ul class="xm-results" data-xm-results role="list"></ul>
+    <input id="xm-q" name="q" type="search" autocomplete="off" placeholder={B.m_search_hint} />
+    <ul class="xm-results" data-xm-results role="list" aria-live="polite"></ul>
   </form>
   <script type="application/json" id="xm-index" set:html={index}></script>
 </section>
@@ -67,15 +67,31 @@ const home = `/${lang}/time-browser/`;
   const input = document.getElementById("xm-q") as HTMLInputElement | null;
   const list = document.querySelector<HTMLElement>("[data-xm-results]");
   const raw = document.getElementById("xm-index")?.textContent;
-  if (input && list && raw) {
+  const form = input?.form;
+  if (input && list && raw && form) {
     const index = JSON.parse(raw) as { href: string; label: string; keys: string }[];
+    // Every word typed must appear in a subject's names, so "Cordoba mosque" still finds what it can.
+    const find = (q: string) => {
+      const words = q.split(/\s+/).filter(Boolean);
+      return words.length ? index.filter((s) => words.every((w) => s.keys.includes(w))).slice(0, 6) : [];
+    };
+    const item = (href: string, text: string) => {
+      const li = document.createElement("li"); const a = document.createElement("a");
+      a.href = href; a.textContent = text; li.append(a); return li;
+    };
+    // The whole museum's search, for when the prepared subjects do not hold what was asked.
+    const all = (q: string) => `${form.getAttribute("action")}?q=${encodeURIComponent(q)}`;
     input.addEventListener("input", () => {
-      const q = input.value.trim().toLowerCase();
-      const hits = q ? index.filter((s) => s.keys.includes(q)).slice(0, 6) : [];
-      list.replaceChildren(...hits.map((s) => {
-        const li = document.createElement("li"); const a = document.createElement("a");
-        a.href = s.href; a.textContent = s.label; li.append(a); return li;
-      }));
+      const q = input.value.trim();
+      const hits = find(q.toLowerCase());
+      list.replaceChildren(...hits.map((s) => item(s.href, s.label)), ...(q ? [item(all(q), `${form.dataset.all} →`)] : []));
+    });
+    // Enter opens the first match; with none, the form goes on to the full search page (its own action).
+    form.addEventListener("submit", (e) => {
+      const q = input.value.trim();
+      if (!q) { e.preventDefault(); return; }
+      const top = find(q.toLowerCase())[0];
+      if (top) { e.preventDefault(); location.href = top.href; }
     });
   }
 </script>
