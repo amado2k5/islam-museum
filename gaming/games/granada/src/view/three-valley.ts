@@ -460,11 +460,6 @@ export class ValleyRenderer {
     // the environment map at startup and is never needed again.
     if (options.models && MODELS_AVAILABLE) {
       const domeGeo = new THREE.SphereGeometry(11500, 64, 32);
-      // The dome's top samples v = 1, which lands on the painting's hazy foot; flip the v coordinate so the zenith
-      // row sits on top.
-      const domeUv = domeGeo.attributes.uv as THREE.BufferAttribute;
-      for (let i = 0; i < domeUv.count; i++) domeUv.setY(i, 1 - domeUv.getY(i));
-      domeUv.needsUpdate = true;
       const domeMat = new THREE.MeshBasicMaterial({ side: THREE.BackSide, fog: false, depthWrite: false, toneMapped: true });
       const dome = new THREE.Mesh(domeGeo, domeMat);
       dome.frustumCulled = false;

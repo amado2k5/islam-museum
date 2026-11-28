@@ -14,9 +14,10 @@ cannot be had is named in the game and the physical sky stays.
 - The camera never looks far above the horizon, so the paintings' deep-zenith blues sit above the frame; what the
   player sees is each painting's horizon haze and cloud deck, which is where the art does its work anyway.
 
-Two snags found and fixed on the way: the dome's top vertex samples texture v = 1, which landed on the painting's
-hazy foot, so the dome's v coordinate is flipped once at build; and the first test pose looked down, not up, so
-the "sky" being judged was the Sierra strip — the tool now uses a low tilt that keeps the horizon in frame.
+Two snags found on the way: a flip of the dome's v coordinate was tried and reverted — the captures showed the
+painting's hazy foot on top until it came off, so the dome keeps the sphere's own coordinates; and the first test
+pose looked down, not up, so the "sky" being judged was the Sierra strip — the tool now uses a low tilt that keeps
+the horizon in frame.
 
 Measured on the sky test page on this machine after the change: 592 draw calls, 4,870,417 triangles, 71 textures,
 173 geometries (the five skies are five of the textures), heap 204 MB, no model failures. Draw calls are up from
