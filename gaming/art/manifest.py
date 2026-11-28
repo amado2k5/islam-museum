@@ -57,6 +57,20 @@ IMAGES = [
         "files": ["granada/sierra-snow-range-autumn-4096x768.webp", "granada/sierra-snow-range-winter-4096x768.webp"],
         "madeBy": "AI image (ChatGPT Codex), painted to the museum's brief; draft, pending the founder's look. The paintings' prompts and checksums: /Users/ahmedabdelaal/Documents/islam-museum-game-art/manifest.jsonl (granada/terrain/sierra-snow-range-autumn-8192x1536.png, sierra-snow-range-winter-8192x1536.png); the scaling down is this machine's",
     },
+    {
+        "id": "granada/painted-skies",
+        "game": "granada",
+        "title": "The valley's painted skies: spring morning, summer midday, autumn afternoon, winter overcast and the golden evening, scaled to 4096x2048 webp from the painted 8192x4096 equirects",
+        "script": "make_skies.py",
+        "files": [
+            "granada/sky-spring-morning-4096x2048.webp",
+            "granada/sky-summer-midday-4096x2048.webp",
+            "granada/sky-autumn-afternoon-4096x2048.webp",
+            "granada/sky-winter-overcast-4096x2048.webp",
+            "granada/sky-evening-golden-4096x2048.webp",
+        ],
+        "madeBy": "AI image (ChatGPT Codex), painted to the museum's brief; draft, pending the founder's look. The paintings' prompts and checksums: /Users/ahmedabdelaal/Documents/islam-museum-game-art/manifest.jsonl (granada/sky/*-equirect-8192x4096.png); the scaling down is this machine's",
+    },
 ]
 SOURCES = HERE / "sources.json"
 

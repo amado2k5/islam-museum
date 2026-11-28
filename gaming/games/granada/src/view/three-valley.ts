@@ -302,6 +302,13 @@ export class ValleyRenderer {
   private groundAtlas: THREE.Texture | null = null;
   private sierra: THREE.Mesh | null = null;
   private sierraMaps: { autumn: THREE.Texture; winter: THREE.Texture } | null = null;
+  /** The painted sky: a dome that follows the camera, shown in place of the physical sky while its painting is had. */
+  private skyDome: THREE.Mesh | null = null;
+  private skyPaint: THREE.MeshBasicMaterial | null = null;
+  private readonly skyTex = new Map<string, THREE.Texture>();
+  private readonly skyLoading = new Set<string>();
+  private skyWanted: string | null = null;
+  private skyFailed = false;
   private disposed = false;
   private carts!: THREE.InstancedMesh;
   private flocks!: THREE.InstancedMesh;
@@ -445,6 +452,28 @@ export class ValleyRenderer {
       return m;
     };
     const addChunks = (chunks: Chunk[]): THREE.Mesh[] => chunks.map((c) => add(c.mesh, c.material, true));
+
+    // ---- The painted sky: a dome inside the physical sky's reach, unfogged like the Sierra ----
+    // The paintings are media beside the models, AI-made to the museum's brief (draft, pending the founder's look).
+    // Until the one a season asks for has arrived the physical sky stays; once it has, the dome takes over and the
+    // physical sky is hidden with its clouds — the painting carries the clouds itself. The physical sky still made
+    // the environment map at startup and is never needed again.
+    if (options.models && MODELS_AVAILABLE) {
+      const domeGeo = new THREE.SphereGeometry(11500, 64, 32);
+      // The dome's top samples v = 1, which lands on the painting's hazy foot; flip the v coordinate so the zenith
+      // row sits on top.
+      const domeUv = domeGeo.attributes.uv as THREE.BufferAttribute;
+      for (let i = 0; i < domeUv.count; i++) domeUv.setY(i, 1 - domeUv.getY(i));
+      domeUv.needsUpdate = true;
+      const domeMat = new THREE.MeshBasicMaterial({ side: THREE.BackSide, fog: false, depthWrite: false, toneMapped: true });
+      const dome = new THREE.Mesh(domeGeo, domeMat);
+      dome.frustumCulled = false;
+      dome.visible = false;
+      scene.add(dome);
+      this.skyDome = dome;
+      this.skyPaint = domeMat;
+      this.disposables.push(domeGeo, domeMat);
+    }
 
     // ---- The painted Sierra: two strips, autumn and winter, on a far curtain behind the valley ----
     // They are media beside the models, AI-painted to the museum's brief (draft, pending the founder's look). While
@@ -1123,6 +1152,66 @@ export class ValleyRenderer {
     return m;
   }
 
+  /**
+   * Which painting the sky should wear: the season's own, the golden-hour one while an evening is being previewed,
+   * and the overcast one under rain. The game has no hours; the hour is a picture's choice, as with the light.
+   */
+  private skyKey(): string | null {
+    if (!this.skyDome || this.skyFailed) return null;
+    if (this.raining) return "winter-overcast";
+    if (this.lightPreview === "evening") return "evening-golden";
+    return ["spring-morning", "summer-midday", "autumn-afternoon", "winter-overcast"][this.season] ?? "autumn-afternoon";
+  }
+
+  /** Shows the wanted painting once it is had; the physical sky stands in until then, and for good if it fails. */
+  private applySky(): void {
+    const key = this.skyKey();
+    this.skyWanted = key;
+    if (key === null) {
+      if (this.skyDome) this.skyDome.visible = false;
+      this.sky.visible = true;
+      return;
+    }
+    const t = this.skyTex.get(key);
+    if (t && this.skyPaint && this.skyDome) {
+      if (this.skyPaint.map !== t) {
+        this.skyPaint.map = t;
+        this.skyPaint.needsUpdate = true;
+      }
+      this.skyDome.visible = true;
+      this.sky.visible = false;
+      this.sky.cloudCoverage.value = 0;
+      return;
+    }
+    if (!this.skyLoading.has(key)) {
+      this.skyLoading.add(key);
+      void this.loadSky(key).finally(() => this.skyLoading.delete(key));
+    }
+  }
+
+  private async loadSky(key: string): Promise<void> {
+    try {
+      const t = await new THREE.TextureLoader().loadAsync(modelUrl(`granada/sky-${key}-4096x2048.webp`));
+      t.colorSpace = THREE.SRGBColorSpace;
+      t.wrapS = THREE.RepeatWrapping;
+      t.wrapT = THREE.ClampToEdgeWrapping;
+      t.minFilter = THREE.LinearMipmapLinearFilter;
+      t.magFilter = THREE.LinearFilter;
+      t.anisotropy = 4;
+      t.needsUpdate = true;
+      this.disposables.push(t);
+      this.skyTex.set(key, t);
+      this.models.push(`granada/sky-${key}`);
+      // A painting that arrives after the season has moved on is kept for when its season comes back.
+      if (this.skyWanted === key) this.applySky();
+    } catch (e) {
+      this.skyFailed = true;
+      this.modelFailures.push(`granada/painted-skies: ${e instanceof Error ? e.message : String(e)}`);
+      if (this.skyDome) this.skyDome.visible = false;
+      this.sky.visible = true;
+    }
+  }
+
   /** Light, sky and haze for a season of the year. */
   /**
    * For a picture only: the sun of a morning, a midday or an evening in place of the season's own, or null to give
@@ -1187,6 +1276,7 @@ export class ValleyRenderer {
     this.sky.cloudCoverage.value = this.raining ? 0.9 : skyOf.cover;
     this.sky.cloudDensity.value = skyOf.density;
     this.sky.sunPosition.value.set(...atm.sunDirection);
+    this.applySky();
     // The trees take the season's colours.
     for (const g of this.groves) {
       const base = TREE_TINT[g.kind][season] ?? TREE_TINT[g.kind][0]!;
@@ -1262,6 +1352,7 @@ export class ValleyRenderer {
       this.sun.intensity = atm.sunIntensity * (this.lightPreview ? HOUR_LIGHT[this.lightPreview].strength : 1) * (look.rain ? 0.42 : 1);
       this.hemi.intensity = atm.ambientIntensity * (look.rain ? 0.2 : 0.06);
       this.sky.cloudCoverage.value = look.rain ? 0.9 : this.skyCover;
+      this.applySky();
     }
     this.rain.visible = look.rain;
     // The pool rises and falls between its floor and its brim.
@@ -1477,6 +1568,7 @@ export class ValleyRenderer {
     this.camera.position.set(x, y, z);
     this.camera.lookAt(pose.tx, pose.ty, pose.tz);
     this.sky.position.copy(this.camera.position);
+    if (this.skyDome) this.skyDome.position.copy(this.camera.position);
     this.pose = pose;
     this.fitShadow(pose);
     this.fitDetail(pose);
