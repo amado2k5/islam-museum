@@ -94,6 +94,20 @@ IMAGES = [
         ],
         "madeBy": "AI image (ChatGPT Codex), painted to the museum's brief; draft, pending the founder's look. The tiles' prompts and checksums: /Users/ahmedabdelaal/Documents/islam-museum-game-art/manifest.jsonl (granada/textures/*-tile-2048.png); the scaling down and mirroring at the edges are this machine's and the game's",
     },
+    {
+        "id": "granada/ui-art",
+        "game": "granada",
+        "title": "The valley's interface art: panel border 9-slice, divider, season icons, loading and title pictures, scaled to webp",
+        "script": "granada_ui.py",
+        "files": [
+            "granada/panel-border.webp",
+            "granada/divider.webp",
+            "granada/season-icons.webp",
+            "granada/loading.webp",
+            "granada/title.webp",
+        ],
+        "madeBy": "AI image (ChatGPT Codex), painted to the museum's brief; draft, pending the founder's look. The images' prompts and checksums: /Users/ahmedabdelaal/Documents/islam-museum-game-art/manifest.jsonl (granada/ui/*, granada/loading/*). The scaling down is this machine's",
+    },
 ]
 SOURCES = HERE / "sources.json"
 
