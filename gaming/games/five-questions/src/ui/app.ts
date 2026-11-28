@@ -14,7 +14,8 @@ async function main(): Promise<void> {
   const s: Record<string, string> = { ...shared, ...own };
   const t = (k: keyof G, v: Record<string, string | number> = {}) => fill(own[k], v);
   const { name, line } = namer(labels);
-  const ui = shell({ s, title: t("title"), howto: [t("how_1"), t("how_2"), t("how_3"), shared.source_note!], prototype: t("prototype") });
+  const ui = shell({ s, title: t("title"), howto: [t("how_1"), t("how_2"), t("how_3"), shared.source_note!] });
+  // Released on 28 November 2026 by the founder's decision (docs/gaming/spec-production/release-status.json): no prototype label.
   const saved = store<Result>("im.five-questions.v1");
   const date = today();
   const year = (y: number, h = 0) => (h > 0 ? t("year_both", { y: num(y), h: num(h) }) : t("year_ce", { y: num(y) }));
