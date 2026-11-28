@@ -2712,10 +2712,16 @@ for (const lang of ["en", "ar"]) {
     await page.waitForSelector(".bench .corridor canvas.corridor-art", { timeout: 20000 });
     const view = await ev<{ dir: string; door: Door; alt: string | null; focusIsHeading: boolean; label: string | null }>(page, "({ dir: document.documentElement.dir, door: window.__HH__.door(), alt: document.querySelector('.bench canvas.corridor-art').getAttribute('aria-label'), focusIsHeading: document.activeElement && document.activeElement.tagName === 'H3', label: document.querySelector('.bench .corridor-region').getAttribute('aria-label') })");
     if (outDir) await page.locator(".bench .corridor").screenshot({ path: resolve(outDir, "journey-corridor-ar.png") });
-    // Right first, away from the door: it is not reached.
+    // Right first, away from the door: it is not reached. Held until the bird has moved, not for a fixed half second,
+    // so that a busy machine cannot make the check fail with the bird not yet moved.
     await page.keyboard.down("ArrowRight");
-    await page.waitForTimeout(500);
-    await page.keyboard.up("ArrowRight");
+    try {
+      await page.waitForFunction(`window.__HH__.door() && window.__HH__.door().bird && window.__HH__.door().bird.x > ${(view.door?.bird?.x ?? 0) + 20}`, undefined, { timeout: 5000 });
+    } catch {
+      // Recorded below as not moved.
+    } finally {
+      await page.keyboard.up("ArrowRight");
+    }
     const away = await ev<Door>(page, "window.__HH__.door()");
     await walkTo(page, "ArrowLeft", "!document.querySelector('.hub').hidden");
     const back = await ev<{ hub: boolean; last: Door }>(page, "({ hub: !document.querySelector('.hub').hidden, last: window.__HH__.lastDoor() })");
@@ -4490,8 +4496,15 @@ for (const lang of ["en", "ar"]) {
     const onward = await ev<{ journey: { scene: number; at: number }; last: { scene: string } | null; heading: string; room: unknown; roomHidden: boolean; page: unknown; corridors: number }>(page, `({ journey: window.__HH__.journey(), last: window.__HH__.lastDoor(), heading: document.querySelector('${ROOM} h2').textContent, room: window.__HH__.razi(), roomHidden: document.querySelector('.room-box').hidden, page: window.__HH__.collate(), corridors: document.querySelectorAll('.corridor').length })`);
     await page.locator(`${ROOM} .stage`).focus();
     await page.keyboard.down("ArrowRight");
-    await page.waitForTimeout(500);
-    await page.keyboard.up("ArrowRight");
+    // Held until the bird has moved, not for a fixed half second: on a busy machine the room may take longer than that to
+    // read the key (a fixed wait failed once, 27 November 2026, with the bird still at its start).
+    try {
+      await page.waitForFunction(`window.__HH__.where() && window.__HH__.where().x > 300`, undefined, { timeout: 5000 });
+    } catch {
+      // Recorded below as not moved.
+    } finally {
+      await page.keyboard.up("ArrowRight");
+    }
     const pressed = (await ev<{ x: number }>(page, "window.__HH__.where()")).x;
     record("in the journey al-Idrisi's lit door leads into al-Razi's study (the seventh scene: no page, no corridor, Hudhud's line naming him); finished, its lit door walked to with the right arrow key leads on into the eighth scene, Karima al-Marwaziyya's room (no page, no corridor); the key still held there carries neither the bird nor the explorer on, and once let go and pressed again it moves the bird",
       entered.journey.scene === 6 && entered.journey.at === 6 && entered.last?.scene === "idrisi" && entered.toast === "Hudhud: On to the next page of the Atlas: al-Razi!" && entered.heading === "al-Razi" && entered.corridors === 0 && entered.page === null &&
@@ -6294,9 +6307,12 @@ for (const lang of ["en", "ar"]) {
       await ev(page, `window.__HH__.goTo('place-${p}')`);
       busies.push((await ah(page))!.busy);
     }
-    const calm = (await ah(page))!;
     const took = Date.now() - t0;
-    await page.waitForFunction("window.__HH__.alhambra().doorLit", undefined, { timeout: 5000 });
+    // The page drawn floating in the picture is set on the next frame after the last turn, not on the same step: on a
+    // busy machine an immediate read can come before that frame (seen once, 27 November 2026). Wait for the frame, then
+    // read the court as it stands.
+    await page.waitForFunction("window.__HH__.alhambra().doorLit && window.__HH__.alhambra().shown && window.__HH__.alhambra().shown.page", undefined, { timeout: 5000 });
+    const calm = (await ah(page))!;
     if (outDir) await page.screenshot({ path: resolve(outDir, "alhambra-court-reduced.png") });
     await skipTalk(page);
     await page.locator(`${ROOM} .stage`).focus();
