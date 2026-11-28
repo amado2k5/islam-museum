@@ -5,11 +5,12 @@
 // It opens the five addresses of the outside-review brief (Granada, The Golden Age's three chapters, Atlas), each in a
 // fresh browser context, so no saved game of anyone's is touched. BROWSER=msedge runs it in Edge. With a folder named
 // it keeps a capture of each page and writes its report there as uat-check-<browser>-<lang>.json.
-// Usage: [BROWSER=chrome|msedge] npx tsx --tsconfig tsconfig.json tools/uat-check.ts [base=https://uat-games.islam.museum] [lang=ar] [captures dir]
+// Usage: [BROWSER=chrome|msedge] npx tsx --tsconfig tsconfig.json tools/uat-check.ts [base: a local address; default the local host over dist/release (tools/local-host.ts); UAT and production are refused] [lang=ar] [captures dir]
 import { writeFileSync } from "node:fs";
 import { chromium } from "playwright-core";
+import { localBase } from "./local-host";
 
-const base = process.argv[2] ?? "https://uat-games.islam.museum";
+const { base, close: closeHost } = await localBase(process.argv[2]);
 const lang = process.argv[3] ?? "ar";
 const shots = process.argv[4];
 const channelName = process.env.BROWSER ?? "chrome";
@@ -89,6 +90,7 @@ for (const [game, extra] of [["granada", ""], ["golden-age", ""], ["golden-age",
   await context.close();
 }
 await browser.close();
+closeHost();
 report.problems = problems;
 console.log(JSON.stringify(report, null, 1));
 if (shots) writeFileSync(`${shots}/uat-check-${channelName}-${lang}.json`, `${JSON.stringify(report, null, 1)}\n`);

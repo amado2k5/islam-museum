@@ -3,51 +3,17 @@
 // content security policy violation, a request to another origin, a game that does not start.
 // It is the last check before a release is published, and it needs no Cloudflare account.
 // Usage: npx tsx --tsconfig tsconfig.json tools/release-smoke.ts [release dir=dist/release] [out dir]
-import { cpSync, existsSync, mkdirSync, mkdtempSync, readFileSync, rmSync, writeFileSync } from "node:fs";
-import { createServer } from "node:http";
-import { tmpdir } from "node:os";
+import { mkdirSync, writeFileSync } from "node:fs";
 import { join, resolve } from "node:path";
 import { chromium } from "playwright-core";
 import { leaveOpening } from "./hudhud-opening";
-// @ts-expect-error plain JavaScript modules of the Worker, with no type declarations
-import worker from "../../workers/games/src/index.js";
-// @ts-expect-error
-import { folderBucket } from "../../workers/games/test/fake-bucket.mjs";
+import { startLocalHost } from "./local-host";
 
 const releaseDir = resolve(process.argv[2] ?? "dist/release");
 const outDir = process.argv[3] ? resolve(process.argv[3]) : null;
-const manifest = JSON.parse(readFileSync(join(releaseDir, "release.json"), "utf8")) as { commit: string; commitDate: string; musicBase: string; games: Array<{ id: string; status: string; page: string | null }> };
-const releaseId = `${manifest.commitDate.slice(0, 10).replaceAll("-", "")}-${manifest.commit.slice(0, 11)}`;
-
-// A bucket on disk: games/channel.json and games/r/<release>/…
-const bucketDir = mkdtempSync(join(tmpdir(), "im-games-bucket-"));
-cpSync(releaseDir, join(bucketDir, "games", "r", releaseId), { recursive: true });
-writeFileSync(join(bucketDir, "games", "channel.json"), JSON.stringify({ format: "im.play.channel", version: 1, current: releaseId, previous: null, commit: manifest.commit, updatedAt: manifest.commitDate }));
-// The music lives beside the releases, as in the real bucket, when this machine has the tracks.
-const localMusic = resolve(releaseDir, "../../media/music");
-const withMusic = manifest.musicBase !== "off" && existsSync(localMusic);
-if (withMusic) cpSync(localMusic, join(bucketDir, "games", "media", "music"), { recursive: true });
-// And so do the authored models, when the release was built to look for them: the entry file, its data and its textures.
-const localModels = resolve(releaseDir, "../../media/models");
-const withModels = (manifest as { modelsBase?: string }).modelsBase !== undefined && (manifest as { modelsBase?: string }).modelsBase !== "off" && existsSync(localModels);
-if (withModels) cpSync(localModels, join(bucketDir, "games", "media", "models"), { recursive: true, filter: (src) => !src.includes("/_work") });
-const bucket = folderBucket(bucketDir);
-const env = { GAMES_BUCKET: bucket, ROBOTS: "disallow", MUSIC_ORIGIN: "" };
-
-const server = createServer(async (req, res) => {
-  try {
-    const request = new Request(`http://${req.headers.host}${req.url}`, { method: req.method, headers: req.headers as Record<string, string> });
-    const response: Response = await worker.fetch(request, env);
-    res.writeHead(response.status, Object.fromEntries(response.headers));
-    res.end(Buffer.from(await response.arrayBuffer()));
-  } catch (e) {
-    res.writeHead(500).end(String(e));
-  }
-});
-await new Promise<void>((done) => server.listen(0, "127.0.0.1", done));
-const address = server.address();
-if (!address || typeof address === "string") throw new Error("no port");
-const base = `http://127.0.0.1:${address.port}`;
+// The games Worker's code over a folder bucket on this machine (tools/local-host.ts).
+const host = await startLocalHost(releaseDir);
+const { base, releaseId, manifest, withMusic, withModels, bucket } = host;
 
 const problems: string[] = [];
 const report: Record<string, unknown> = { release: releaseId, base: "the games Worker's code over a folder bucket", pages: [] as unknown[] };
@@ -257,8 +223,7 @@ for (const game of manifest.games.filter((g) => g.page)) {
   }
 }
 await browser.close();
-server.close();
-rmSync(bucketDir, { recursive: true, force: true });
+host.close();
 report.bucketReads = bucket.reads.length;
 report.readsOutsideGames = bucket.reads.filter((k: string) => !k.startsWith("games/")).length;
 if (report.readsOutsideGames) problems.push("the Worker read an object outside games/");

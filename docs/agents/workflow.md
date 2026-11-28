@@ -1,5 +1,7 @@
 # Workflow: setup, commit, push, merge, hand off
 
+> **Founder rule, 28 November 2026: no agent deploys.** No agent or session starts, re-runs or approves any deploy of the games or the website, to UAT or production; the founder alone starts them from the GitHub website. Every games check runs against the local host (`npm --prefix gaming run release:serve`), never against `uat-games.islam.museum` or `games.islam.museum`. See `AGENTS.md`.
+
 Applies to every agent and human. Rules that never bend are in [`AGENTS.md`](../../AGENTS.md); this document is the mechanics.
 
 _Origin: founder decision of 11 October 2026 that several sessions work in parallel and nobody's work is ever ignored, discarded or reverted._

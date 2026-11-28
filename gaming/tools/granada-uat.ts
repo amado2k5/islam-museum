@@ -4,12 +4,13 @@
 // context, so the only saved game it touches is its own, and nothing on the host is changed.
 // A check that cannot run because the release on the host does not yet have that system is reported as "absent",
 // not as a failure: the report says what the live release has.
-// Usage: npx tsx --tsconfig tsconfig.json tools/granada-uat.ts [base=https://uat-games.islam.museum] [lang=en] [out dir]
+// Usage: npx tsx --tsconfig tsconfig.json tools/granada-uat.ts [base: a local address; default the local host over dist/release (tools/local-host.ts); UAT and production are refused] [lang=en] [out dir]
 import { mkdirSync, readFileSync, statSync, writeFileSync } from "node:fs";
 import { resolve } from "node:path";
 import { chromium } from "playwright-core";
+import { localBase } from "./local-host";
 
-const base = process.argv[2] ?? "https://uat-games.islam.museum";
+const { base, close: closeHost } = await localBase(process.argv[2]);
 const lang = process.argv[3] ?? "en";
 const out = process.argv[4] ? resolve(process.argv[4]) : null;
 if (out) mkdirSync(out, { recursive: true });
@@ -156,4 +157,5 @@ const report = { base, lang, release: channel.current, browser: `chrome ${browse
 console.log(JSON.stringify(report, null, 1));
 if (out) writeFileSync(resolve(out, `granada-uat-${lang}.json`), `${JSON.stringify(report, null, 1)}\n`);
 await browser.close();
+closeHost();
 if (report.problems.length) process.exit(1);

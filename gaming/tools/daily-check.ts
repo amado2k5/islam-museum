@@ -1,11 +1,12 @@
 // Opens the four daily games on a deployed host in real Chrome, on a phone-sized screen and a desktop one, in each of
 // the seven languages, and checks what a visitor meets: the day's puzzle comes up, the prototype label shows, one move
 // of play works, the page has the right direction, and the console stays empty. It reads only; it changes nothing.
-// Usage: npx tsx --tsconfig tsconfig.json tools/daily-check.ts [base=https://games.islam.museum] [captures dir]
+// Usage: npx tsx --tsconfig tsconfig.json tools/daily-check.ts [base: a local address; default the local host over dist/release (tools/local-host.ts); UAT and production are refused] [captures dir]
 import { writeFileSync } from "node:fs";
 import { chromium } from "playwright-core";
+import { localBase } from "./local-host";
 
-const base = process.argv[2] ?? "https://games.islam.museum";
+const { base, close: closeHost } = await localBase(process.argv[2]);
 const shots = process.argv[3];
 const GAMES = ["five-questions", "kalima", "thread", "lantern"];
 const LANGS = ["ar", "en", "ur", "fr", "es", "tr", "id"];
@@ -56,6 +57,7 @@ for (const view of VIEWS) for (const game of GAMES) for (const lang of LANGS) {
   await context.close();
 }
 await browser.close();
+closeHost();
 report.problems = problems;
 console.log(JSON.stringify({ base, live: report.live, runs: (report.runs as unknown[]).length, problems }, null, 1));
 if (shots) writeFileSync(`${shots}/daily-check.json`, `${JSON.stringify(report, null, 1)}\n`);
