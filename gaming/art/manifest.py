@@ -20,6 +20,12 @@ ASSETS = [
     {"id": "granada/mill", "game": "granada", "title": "The watermill", "script": "blender/granada_mill.py", "folder": "granada/2", "entry": "mill.gltf"},
     {"id": "granada/town", "game": "granada", "title": "The town's kit: four houses, a wall, a tower, a gate, scaffolding, a stall", "script": "blender/granada_town.py", "folder": "granada/2", "entry": "town.gltf", "kit": "town.kit.json"},
     {"id": "granada/landmarks", "game": "granada", "title": "The larger pieces: a palace for the hill, an estate, a builders' crane", "script": "blender/granada_landmarks.py", "folder": "granada/2", "entry": "landmarks.gltf", "kit": "landmarks.kit.json"},
+    # The distance makings (LOD1) of the town set, the landmarks and the mill: the exported glTFs decimated to half
+    # their triangles by blender/granada_lods.py, for the far view. "own_sources" because the shared kit is not what
+    # makes them; "also" names the script that made the glTF they are decimated from.
+    {"id": "granada/town-lod1", "game": "granada", "title": "The town's kit, lighter for the distance", "script": "blender/granada_lods.py", "folder": "granada/2", "entry": "town-lod1.gltf", "own_sources": True, "also": ["blender/granada_town.py"]},
+    {"id": "granada/landmarks-lod1", "game": "granada", "title": "The larger pieces, lighter for the distance", "script": "blender/granada_lods.py", "folder": "granada/2", "entry": "landmarks-lod1.gltf", "own_sources": True, "also": ["blender/granada_landmarks.py"]},
+    {"id": "granada/mill-lod1", "game": "granada", "title": "The watermill, lighter for the distance", "script": "blender/granada_lods.py", "folder": "granada/2", "entry": "mill-lod1.gltf", "own_sources": True, "also": ["blender/granada_mill.py"]},
     # The palace the game shows: the lighter making of the palace written as its own script, in a folder of its own
     # that borrows the first set's textures (art/derive_palace.py copies it there from the export).
     {"id": "granada/palace", "game": "granada", "title": "The palace on the hill, written as its own script (its lighter making)", "script": "blender/granada_palace_c.py", "folder": "granada/p1", "entry": "palace.gltf", "also": ["blender/author.py", "derive_palace.py"]},
@@ -118,7 +124,7 @@ def describe(asset):
         "licence": "the scripts: MIT, with the code; what they make: CC BY-SA 4.0, with the museum's media of its own; the photographed surfaces stay public domain (CC0)",
         "surfaces": [s["id"] for s in json.loads(SOURCES.read_text())["sources"]] if SOURCES.exists() and any("plaster" in i["uri"] for i in gltf.get("images", [])) else [],
         **({"kit": json.loads((folder / asset["kit"]).read_text())["pieces"]} if asset.get("kit") and (folder / asset["kit"]).exists() else {}),
-        "sources": [{"path": f"art/{p}", "sha256": sha(HERE / p)} for p in ["blender/common.py", "blender/kit.py", *asset.get("also", []), asset["script"]]],
+        "sources": [{"path": f"art/{p}", "sha256": sha(HERE / p)} for p in ([] if asset.get("own_sources") else ["blender/common.py", "blender/kit.py"]) + [*asset.get("also", []), asset["script"]]],
         "objects": [n["name"] for n in gltf["nodes"] if "mesh" in n],
         # Where each part's origin is, in the export's own axes (y up; x along the building).
         "placed": {n["name"]: [round(v, 4) for v in n.get("translation", [0, 0, 0])] for n in gltf["nodes"] if "mesh" in n},
