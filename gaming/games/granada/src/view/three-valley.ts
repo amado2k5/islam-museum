@@ -51,7 +51,7 @@ const CANDIDATE_C: Record<Exclude<Art, "a">, Record<string, string>> = {
 };
 const HILL_PIECES = ["wall", "tower", "gate", "scaffold", "crane", "palace", "estate"];
 import { BOUNDS, BRIDGE, RIVER_HALF, riverZ } from "./valley";
-import { CHANNELS, ESTATE, FIELDS, GRANARY, HOUSE_LOTS, KIT_HOUSES, MARKET, PLOT_GRID, POOL, STORE, VILLAGE, broadTree, buildLand, buildRange, buildRiver, buildScenery, channelWater, cropSpots, cypressTree, fieldAt, fieldGround, heightAt, oliveTree, orchardTree, placedBuilding, plotTable, poolWater, poplarTree, vegetablePlant, wheatTuft, type Chunk , type KitPlacement } from "./valley";
+import { CHANNELS, ESTATE, FIELDS, GRANARY, HOUSE_LOTS, KIT_HOUSES, MARKET, PLOT_GRID, POOL, STORE, VILLAGE, broadTree, buildLand, buildRange, buildRiver, buildScenery, channelWater, cropSpots, cypressTree, fieldAt, fieldGround, heightAt, oliveTree, orchardTree, placedBuilding, plotTable, poolWater, poplarTree, surfaceMask, vegetablePlant, wheatTuft, type Chunk , type KitPlacement } from "./valley";
 
 export type Quality = "low" | "medium" | "high";
 /**
@@ -923,6 +923,14 @@ export class ValleyRenderer {
    */
   private makeLand(detail: ReturnType<ValleyRenderer["detailOf"]>, seed: number): THREE.Material {
     const table = plotTable(seed);
+    // Where the dirt roads and the banks are, one byte of cover each, for the painted slots to answer.
+    const mask = surfaceMask();
+    const surfMaskTex = new THREE.DataTexture(mask.data, mask.width, mask.height, THREE.RGBAFormat, THREE.UnsignedByteType);
+    surfMaskTex.colorSpace = THREE.NoColorSpace;
+    surfMaskTex.magFilter = surfMaskTex.minFilter = THREE.LinearFilter;
+    surfMaskTex.generateMipmaps = false;
+    surfMaskTex.needsUpdate = true;
+    this.disposables.push(surfMaskTex);
     const lookup = (data: Uint8Array, srgb: boolean) => {
       const t = new THREE.DataTexture(data, table.width, table.height, THREE.RGBAFormat, THREE.UnsignedByteType);
       t.colorSpace = srgb ? THREE.SRGBColorSpace : THREE.NoColorSpace;
@@ -965,7 +973,18 @@ export class ValleyRenderer {
       // lends them its brightness grain only, so their hues are untouched. Mean luminance of the tile is about 0.25
       // in linear light; the ratio is clamped so an odd texel cannot scar the hill.
       const grassLum = atlasPaint(this.groundAtlas, p, 30, float(5)).dot(vec3(0.299, 0.587, 0.114)).div(0.25).clamp(0.6, 1.5);
-      const wild = attribute("color", "vec3").mul(grassLum);
+      const wildCol = attribute("color", "vec3");
+      let wild = wildCol.mul(grassLum);
+      // Roads and banks: the mask says where a dirt road or a river/pool bank is, the atlas's own slots say what
+      // lies there — the road's ruts and the bank's mud-and-pebbles in place of the dry grass. The land's colour
+      // still tints them, so a green bank stays green; where the two covers meet the stronger one answers.
+      const surf = texture(surfMaskTex, vec2(p.x.sub(BOUNDS.x0).div(BOUNDS.x1 - BOUNDS.x0), p.y.sub(BOUNDS.z0).div(BOUNDS.z1 - BOUNDS.z0)));
+      const roadCover = surf.r;
+      const bankCover = surf.g;
+      const cover = roadCover.max(bankCover);
+      const roadW = roadCover.div(roadCover.add(bankCover).add(0.0001));
+      const surfacePaint = mix(atlasPaint(this.groundAtlas, p, 14, float(6)), atlasPaint(this.groundAtlas, p, 9, float(7)), roadW).mul(wildCol.div(vec3(0.3)).clamp(vec3(0.4), vec3(1.8)));
+      wild = mix(wild, surfacePaint, cover);
       colour = mix(wild, plotPaint, uv().x).mul(detail.colour);
     }
     m.colorNode = colour;

@@ -28,6 +28,10 @@ await shot("pool", "{ tx: 130, ty: 7, tz: -60, yaw: 0.9, pitch: 0.42, distance: 
 await shot("mosque", "{ tx: 150, ty: 6, tz: 130, yaw: 2.6, pitch: 0.3, distance: 120 }");
 await shot("mill", "{ tx: -30, ty: 5, tz: 46, yaw: 0.5, pitch: 0.28, distance: 90 }");
 await shot("whole", "{ tx: 60, ty: 6, tz: 40, yaw: 1.5708, pitch: 0.9, distance: 860 }");
+await shot("riverbank", "{ tx: -200, ty: 4, tz: -105, yaw: 0, pitch: 0.3, distance: 220 }");
+await shot("road", "{ tx: 15, ty: 4, tz: 60, yaw: 0.2, pitch: 0.3, distance: 150 }");
+await shot("bank-close", "{ tx: -200, ty: 3, tz: -132, yaw: 0, pitch: 0.18, distance: 55 }");
+await shot("road-close", "{ tx: 15, ty: 3, tz: 40, yaw: 0.15, pitch: 0.2, distance: 60 }");
 const info = await page.evaluate("(() => { const i = window.__GR__.stage().info(); return { drawCalls: i.drawCalls, triangles: i.triangles, textures: i.textures, geometries: i.geometries, models: i.models, failures: i.modelFailures }; })()");
 const heap = await page.evaluate("performance.memory ? Math.round(performance.memory.usedJSHeapSize / 1048576) : null");
 console.log(JSON.stringify({ info, heapMb: heap, errors }));

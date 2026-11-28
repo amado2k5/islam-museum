@@ -191,6 +191,32 @@ export function plotTable(seed: number): PlotTable {
   }
   return { width: w, height: h, base, row, params };
 }
+/**
+ * One texel for each stretch of the valley's edge country, for the land shader to place the atlas's road and bank
+ * tiles where they belong: red is how near a dirt road a point is (255 on its centre line, 0 nine metres off),
+ * green how near the river's or the pool's bank (255 at the water's edge, 0 sixteen metres off). The worked plots
+ * answer their own slots; this is for the land between them.
+ */
+export function surfaceMask(): { width: number; height: number; data: Uint8Array } {
+  const W = 256;
+  const H = 128;
+  const data = new Uint8Array(W * H * 4);
+  const { x0, x1, z0, z1 } = BOUNDS;
+  for (let j = 0; j < H; j++) {
+    for (let i = 0; i < W; i++) {
+      const x = x0 + ((i + 0.5) / W) * (x1 - x0);
+      const z = z0 + ((j + 0.5) / H) * (z1 - z0);
+      const road = Math.min(...ROADS.map((path) => pathDistance(x, z, path)));
+      const bank = Math.min(Math.abs(z - riverZ(x)) - RIVER_HALF, Math.hypot(x - POOL.x, z - POOL.z) - POOL.r);
+      const o = (j * W + i) * 4;
+      data[o] = Math.round(255 * smooth(9, 3.5, road));
+      data[o + 1] = Math.round(255 * smooth(16, 5, bank));
+      data[o + 2] = 255;
+      data[o + 3] = 255;
+    }
+  }
+  return { width: W, height: H, data };
+}
 /** How much of a point is trodden ground: the village, its lanes and its square. */
 export function settled(x: number, z: number): number {
   return smooth(-64, -46, x) * smooth(284, 262, x) * smooth(92, 106, z) * smooth(278, 262, z);
