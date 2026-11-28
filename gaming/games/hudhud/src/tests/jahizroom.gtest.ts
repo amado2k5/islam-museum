@@ -237,13 +237,13 @@ describe("al-Jahiz's room: its strings", () => {
   const keys = Object.keys(tables.en!).filter((k) => k.startsWith("jzr_"));
   // They were the last twenty-one of every table until the Alhambra's court (27 November 2026) appended its own after them;
   // they are still one block, in the same order, in every table, and only the court's keys come after them.
-  it("are twenty-one, one block in every table, in the same order, with only the Alhambra's court's keys after them", () => {
+  it("are twenty-one, one block in every table, in the same order, with only the Alhambra's court's and the paper workshop's keys after them", () => {
     expect(keys).toHaveLength(21);
     for (const l of LANGS) {
       const all = Object.keys(tables[l]!);
       const at = all.indexOf(keys[0]!);
       expect(all.slice(at, at + keys.length), l).toEqual(keys);
-      expect(all.slice(at + keys.length).every((k) => k.startsWith("ahr_")), l).toBe(true);
+      expect(all.slice(at + keys.length).every((k) => k.startsWith("ahr_") || k.startsWith("smr_")), l).toBe(true);
     }
   });
   it("say that the room, the trays, the cards and the bell are invented for play and that his division is not today's science, in the founder's words in Arabic and English", () => {

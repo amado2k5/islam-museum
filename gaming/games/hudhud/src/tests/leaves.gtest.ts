@@ -430,14 +430,14 @@ describe("the words", () => {
       expect(new Set(LEAVES_STATES.map((s) => t[`rz_kind_${tail(s)}`])).size, l).toBe(LEAVES_STATES.length);
     }
   });
-  it("is appended at the end of each language's file, after the keys of the eleventh quest, and only the next quest's keys (`kr_`) and the journey's (`jn_`), then al-Jazari's room's (`jr_`), then al-Tusi's room's (`tsr_`), then al-Khwarizmi's room's (`akr_`), then al-Kindi's room's (`kdr_`), then al-Idrisi's hall's (`isr_`), then al-Razi's study's (`rzr_`), then Karima's room's (`krr_`), then Ibn Battuta's inn's (`ibr_`), then the coffee room's (`cqr_`), then al-Jahiz's room's (`jzr_`), then the Alhambra's court's (`ahr_`) come after it", () => {
+  it("is appended at the end of each language's file, after the keys of the eleventh quest, and only the next quest's keys (`kr_`) and the journey's (`jn_`), then al-Jazari's room's (`jr_`), then al-Tusi's room's (`tsr_`), then al-Khwarizmi's room's (`akr_`), then al-Kindi's room's (`kdr_`), then al-Idrisi's hall's (`isr_`), then al-Razi's study's (`rzr_`), then Karima's room's (`krr_`), then Ibn Battuta's inn's (`ibr_`), then the coffee room's (`cqr_`), then al-Jahiz's room's (`jzr_`), then the Alhambra's court's (`ahr_`), then the paper workshop's (`smr_`) come after it", () => {
     for (const l of LANGS) {
       const ks = Object.keys(table(l));
       const first = ks.findIndex((k) => k.startsWith("rz_"));
       const count = ks.filter((k) => k.startsWith("rz_")).length;
       expect(first, l).toBeGreaterThan(0);
       expect(ks.slice(first, first + count).every((k) => k.startsWith("rz_")), l).toBe(true);
-      expect(ks.slice(first + count).every((k) => k.startsWith("kr_") || k.startsWith("jn_") || k.startsWith("jr_") || k.startsWith("tsr_") || k.startsWith("akr_") || k.startsWith("kdr_") || k.startsWith("isr_") || k.startsWith("rzr_") || k.startsWith("krr_") || k.startsWith("ibr_") || k.startsWith("cqr_") || k.startsWith("jzr_") || k.startsWith("ahr_")), l).toBe(true);
+      expect(ks.slice(first + count).every((k) => k.startsWith("kr_") || k.startsWith("jn_") || k.startsWith("jr_") || k.startsWith("tsr_") || k.startsWith("akr_") || k.startsWith("kdr_") || k.startsWith("isr_") || k.startsWith("rzr_") || k.startsWith("krr_") || k.startsWith("ibr_") || k.startsWith("cqr_") || k.startsWith("jzr_") || k.startsWith("ahr_") || k.startsWith("smr_")), l).toBe(true);
       expect(ks[first - 1]!.startsWith("ah_"), l).toBe(true);
     }
   });

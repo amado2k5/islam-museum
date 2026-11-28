@@ -2,6 +2,9 @@
 // sign of it, and, as a run is shown, the material drawn above each place it has passed, in the state that place left
 // it in (scraps, pulp, a sheet). A trial picture, replaceable like every picture in this game; it carries no words and no
 // numerals (the places are numbered by dots), so that the page's own text, in seven languages, says everything it shows.
+// Since 27 November 2026 a card's box, its ring, its dots, its signs and the material are drawn by exported functions
+// (drawCardBox, drawCardRing, drawCardDots, drawCardSigns, drawMaterial) that the paper workshop of Samarkand shares
+// (art/samarkand-room.ts); the page's picture is drawn call for call as before.
 import { INK, PAL } from "./kit";
 
 type Ctx = CanvasRenderingContext2D;
@@ -281,8 +284,8 @@ const ICON: Record<string, (c: Ctx) => void> = {
 // A joined card carries the signs of both its steps, side by side.
 const JOINED: Record<string, [string, string]> = { "clean-bleach": ["clean", "bleach"], "size-lift": ["size", "lift"], "dry-polish": ["dry", "polish"] };
 
-/** The material above a place, in the state a place left it in; drawn about (x, y), roughly 60 units across. */
-function material(c: Ctx, state: string, x: number, y: number): void {
+/** The material above a place, in the state a place left it in; drawn about (x, y), roughly 60 units across. Shared with the paper workshop of Samarkand (art/samarkand-room.ts). */
+export function drawMaterial(c: Ctx, state: string, x: number, y: number): void {
   c.save();
   c.translate(x, y);
   const scraps = (colour: string) => {
@@ -357,7 +360,7 @@ export function paperCanvas(): HTMLCanvasElement {
 export function drawPaper(canvas: HTMLCanvasElement, v: PaperView): void {
   const c = canvas.getContext("2d");
   if (!c) return;
-  const { w, h, y: cy, boxH, matY, dotY } = PAPER_ART;
+  const { w, h, y: cy, matY, dotY } = PAPER_ART;
   c.setTransform(canvas.width / w, 0, 0, canvas.height / h, 0, 0);
   c.lineJoin = "round";
   c.lineCap = "round";
@@ -386,44 +389,57 @@ export function drawPaper(canvas: HTMLCanvasElement, v: PaperView): void {
     const r = placeRect(n, i, v.rtl);
     const x = r.x + r.w / 2;
     const moved = i < v.lit;
-    const stopped = v.stopped === i;
-    rounded(c, r.x, r.y, r.w, r.h, 16);
-    c.fillStyle = stopped ? "rgba(168,53,46,0.55)" : moved ? "rgba(242,185,75,0.4)" : "rgba(16,48,90,0.75)";
-    c.fill();
-    c.strokeStyle = stopped ? "#ff8f84" : moved ? PAL.goldLight : PAL.tealLight;
-    c.lineWidth = stopped || moved ? 5 : 2.5;
-    // A place that stopped the run is marked by a broken outline as well as by colour.
-    c.setLineDash(stopped ? [12, 8] : []);
-    c.stroke();
-    c.setLineDash([]);
-    // The place chosen is ringed outside its own outline, in a solid light line: not colour alone.
-    if (v.selected === i) {
-      rounded(c, r.x - 9, r.y - 9, r.w + 18, r.h + 18, 22);
-      c.strokeStyle = PAL.cream;
-      c.lineWidth = 7;
-      c.stroke();
-      c.strokeStyle = INK;
-      c.lineWidth = 2;
-      c.stroke();
-    }
-    // The place's number, as dots: no numeral is drawn, so that no language is left out.
-    for (let d = 0; d <= i; d++) {
-      circle(c, x - (i * 12) / 2 + d * 12, dotY, 4);
-      fill(c, PAL.cream, null);
-    }
-    if (id) {
-      const parts = JOINED[id] ?? [id];
-      const sc = Math.min(1, (r.w - 14) / 100) * (parts.length === 2 ? 0.62 : 0.95);
-      parts.forEach((part, k) => {
-        if (!ICON[part]) return;
-        c.save();
-        c.translate(parts.length === 2 ? x + (k === 0 ? -1 : 1) * r.w * 0.2 : x, cy + (parts.length === 2 ? (k === 0 ? -boxH * 0.1 : boxH * 0.1) : 0));
-        c.scale(sc, sc);
-        ICON[part](c);
-        c.restore();
-      });
-    }
+    drawCardBox(c, r, moved, v.stopped === i);
+    if (v.selected === i) drawCardRing(c, r);
+    drawCardDots(c, x, dotY, i);
+    if (id) drawCardSigns(c, id, x, cy, r);
     // The material, above a place it has passed, in the state that place left it in.
-    if (moved && v.made[i]) material(c, v.made[i]!, x, matY);
+    if (moved && v.made[i]) drawMaterial(c, v.made[i]!, x, matY);
+  });
+}
+
+// The pieces of a place, drawn here and shared with the paper workshop of Samarkand (art/samarkand-room.ts), which stands
+// the same cards in slots on its workbench: the room draws them with these functions, call for call (a test holds it).
+type Rect = { x: number; y: number; w: number; h: number };
+/** A place's card: its box, gold where the material has passed it, red with a broken outline where the run stopped. */
+export function drawCardBox(c: Ctx, r: Rect, moved: boolean, stopped: boolean): void {
+  rounded(c, r.x, r.y, r.w, r.h, 16);
+  c.fillStyle = stopped ? "rgba(168,53,46,0.55)" : moved ? "rgba(242,185,75,0.4)" : "rgba(16,48,90,0.75)";
+  c.fill();
+  c.strokeStyle = stopped ? "#ff8f84" : moved ? PAL.goldLight : PAL.tealLight;
+  c.lineWidth = stopped || moved ? 5 : 2.5;
+  // A place that stopped the run is marked by a broken outline as well as by colour.
+  c.setLineDash(stopped ? [12, 8] : []);
+  c.stroke();
+  c.setLineDash([]);
+}
+/** The place chosen is ringed outside its own outline, in a solid light line: not colour alone. */
+export function drawCardRing(c: Ctx, r: Rect): void {
+  rounded(c, r.x - 9, r.y - 9, r.w + 18, r.h + 18, 22);
+  c.strokeStyle = PAL.cream;
+  c.lineWidth = 7;
+  c.stroke();
+  c.strokeStyle = INK;
+  c.lineWidth = 2;
+  c.stroke();
+}
+/** The place's number, as dots centred on x: no numeral is drawn, so that no language is left out. */
+export function drawCardDots(c: Ctx, x: number, y: number, i: number): void {
+  for (let d = 0; d <= i; d++) {
+    circle(c, x - (i * 12) / 2 + d * 12, y, 4);
+    fill(c, PAL.cream, null);
+  }
+}
+/** The sign of a card's step (or the two signs of a joined card, side by side), centred on (x, cy) in a box r. */
+export function drawCardSigns(c: Ctx, id: string, x: number, cy: number, r: Rect): void {
+  const parts = JOINED[id] ?? [id];
+  const sc = Math.min(1, (r.w - 14) / 100) * (parts.length === 2 ? 0.62 : 0.95);
+  parts.forEach((part, k) => {
+    if (!ICON[part]) return;
+    c.save();
+    c.translate(parts.length === 2 ? x + (k === 0 ? -1 : 1) * r.w * 0.2 : x, cy + (parts.length === 2 ? (k === 0 ? -r.h * 0.1 : r.h * 0.1) : 0));
+    c.scale(sc, sc);
+    ICON[part](c);
+    c.restore();
   });
 }

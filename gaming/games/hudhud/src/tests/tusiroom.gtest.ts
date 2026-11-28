@@ -255,7 +255,7 @@ describe("al-Tusi's room: its strings", () => {
       const all = Object.keys(tables[l]!);
       const at = all.indexOf(keys[0]!);
       expect(all.slice(at, at + keys.length), l).toEqual(keys);
-      expect(all.slice(at + keys.length).every((k) => k.startsWith("akr_") || k.startsWith("kdr_") || k.startsWith("isr_") || k.startsWith("rzr_") || k.startsWith("krr_") || k.startsWith("ibr_") || k.startsWith("cqr_") || k.startsWith("jzr_") || k.startsWith("ahr_")), l).toBe(true);
+      expect(all.slice(at + keys.length).every((k) => k.startsWith("akr_") || k.startsWith("kdr_") || k.startsWith("isr_") || k.startsWith("rzr_") || k.startsWith("krr_") || k.startsWith("ibr_") || k.startsWith("cqr_") || k.startsWith("jzr_") || k.startsWith("ahr_") || k.startsWith("smr_")), l).toBe(true);
     }
   });
   it("say that the observatory, the model, the levers and the crank are invented, in the founder's words in Arabic and English", () => {

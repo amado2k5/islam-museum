@@ -230,7 +230,7 @@ describe("al-Idrisi's hall: its strings", () => {
       const all = Object.keys(tables[l]!);
       const at = all.indexOf(keys[0]!);
       expect(all.slice(at, at + keys.length), l).toEqual(keys);
-      expect(all.slice(at + keys.length).every((k) => k.startsWith("rzr_") || k.startsWith("krr_") || k.startsWith("ibr_") || k.startsWith("cqr_") || k.startsWith("jzr_") || k.startsWith("ahr_")), l).toBe(true);
+      expect(all.slice(at + keys.length).every((k) => k.startsWith("rzr_") || k.startsWith("krr_") || k.startsWith("ibr_") || k.startsWith("cqr_") || k.startsWith("jzr_") || k.startsWith("ahr_") || k.startsWith("smr_")), l).toBe(true);
     }
   });
   it("say that the hall, the table, the sheets on it and the lamp are invented, and that the drawing is an imagined coast, in the founder's words in Arabic and English", () => {

@@ -9,8 +9,9 @@
 // secret page, the fifth room), "idrisi" (al-Idrisi's hall and the scattered sheets, the sixth room), "razi" (al-Razi's
 // study and the loose leaves, the seventh room), "karima" (Karima al-Marwaziyya's room and the copies, the eighth room)
 // "battuta" (Ibn Battuta's inn and the thread of the road, the ninth room), "coffee" (the coffee room and the cards on
-// three shelves, the tenth room), "jahiz" (al-Jahiz's room and the animal cards in their trays, the eleventh room) or
-// "alhambra" (the Alhambra's court and the channels of the dry fountain, the twelfth room).
+// three shelves, the tenth room), "jahiz" (al-Jahiz's room and the animal cards in their trays, the eleventh room),
+// "alhambra" (the Alhambra's court and the channels of the dry fountain, the twelfth room) or "samarkand" (the paper
+// workshop of Samarkand and the papermaker's row, the thirteenth and last room of the journey).
 // It measures the machine it runs on. A pass here is not a pass on the museum's two reference machines. The memory each
 // room's lifecycle reads is the heap after a forced garbage collection (Chrome is started with --expose-gc and `gc()` is
 // called before `performance.memory.usedJSHeapSize` is read, since 27 November 2026), so that every room's figure is
@@ -25,7 +26,7 @@ import { slipsOf } from "../games/hudhud/src/sim/collate";
 
 const [outArg, lang = "en", quality = "medium", w = "1920", h = "1080", style = "explorer", scene = "workshop"] = process.argv.slice(2);
 if (!outArg) throw new Error("usage: hudhud-play.ts <out dir> [lang] [quality] [width] [height] [style] [scene]");
-if (scene !== "workshop" && scene !== "jazari" && scene !== "tusi" && scene !== "khwarizmi" && scene !== "kindi" && scene !== "idrisi" && scene !== "razi" && scene !== "karima" && scene !== "battuta" && scene !== "coffee" && scene !== "jahiz" && scene !== "alhambra") throw new Error(`hudhud-play.ts: no scene called ${scene} (workshop, jazari, tusi, khwarizmi, kindi, idrisi, razi, karima, battuta, coffee, jahiz or alhambra)`);
+if (scene !== "workshop" && scene !== "jazari" && scene !== "tusi" && scene !== "khwarizmi" && scene !== "kindi" && scene !== "idrisi" && scene !== "razi" && scene !== "karima" && scene !== "battuta" && scene !== "coffee" && scene !== "jahiz" && scene !== "alhambra" && scene !== "samarkand") throw new Error(`hudhud-play.ts: no scene called ${scene} (workshop, jazari, tusi, khwarizmi, kindi, idrisi, razi, karima, battuta, coffee, jahiz, alhambra or samarkand)`);
 const out = resolve(outArg);
 mkdirSync(out, { recursive: true });
 const tag = `${scene === "workshop" ? "" : `${scene}-`}${lang}-${quality}-${w}x${h}`;
@@ -103,6 +104,7 @@ try {
   else if (scene === "coffee") await playCoffee();
   else if (scene === "jahiz") await playJahiz();
   else if (scene === "alhambra") await playAlhambra();
+  else if (scene === "samarkand") await playSamarkand();
   else await playWorkshop();
 } catch (e) {
   report.failed = String(e);
@@ -1024,6 +1026,153 @@ async function playRazi(): Promise<void> {
   const reopen = async () => {
     await hk("h.toAtlas(); h.startRazi();");
     await page.waitForFunction("window.__HH__.razi() !== null && window.__HH__.where() !== null", undefined, { timeout: 30000 });
+  };
+  await reopen();
+  await page.waitForTimeout(800);
+  const first = await cycle();
+  for (let i = 0; i < 9; i++) {
+    await reopen();
+    await page.waitForTimeout(300);
+  }
+  await page.waitForTimeout(800);
+  report.lifecycle = { afterOneOpening: first, afterTenOpenings: await cycle(), canvases: await page.evaluate("document.querySelectorAll('canvas').length") };
+}
+/**
+ * The paper workshop of Samarkand, played to its end by flight as a player would: the talks gone through with the
+ * keyboard, both questions, the kind answer and the feather in the spare mould, a card lifted and put down again, the
+ * wrong row run once at the bell, frame times while the bird crosses the workshop and back, a lost graphics context, the
+ * row put in order by exchanges made by flight (each worked out from the workshop's own state) and the sheet made, the lit
+ * door walked to, and what opening the workshop ten times leaves behind (the heap read after a forced garbage collection).
+ */
+async function playSamarkand(): Promise<void> {
+  type Rz = { places: string[]; moves: number; runs: number; flags: string[]; done: boolean; talk: unknown; doorLit: boolean; lifted: number | null; busy: boolean; style: string; puzzle: { start: string; parts: { id: string; takes: string; gives: string }[] } };
+  const rz = () => hk<Rz>("return h.samarkand();");
+  const noteRz = async (step: string) => {
+    const s = await rz();
+    route.push({ step, at: Date.now() - t0, where: await hk("return h.where();"), turns: s.moves, flags: s.flags, restored: s.done, dark: false, done: s.doorLit });
+  };
+  const roomTalk = async (pick: string[] = []) => {
+    const picks = [...pick];
+    for (let i = 0; i < 20 && (await rz()).talk !== null; i++) {
+      await page.waitForTimeout(350);
+      const choices = page.locator(".room-box .talk .choices button");
+      if ((await choices.count()) > 0) {
+        const want = picks.shift();
+        await (want ? choices.filter({ hasText: want }).first() : choices.last()).click();
+      } else await page.keyboard.press("Enter");
+    }
+    await page.waitForTimeout(250);
+  };
+  const fly = async (id: string, until: string) => {
+    await hk(`h.goTo(${JSON.stringify(id)});`);
+    await page.waitForFunction(`(() => { const h = window.__HH__; return ${until}; })()`, undefined, { timeout: 8000 });
+    await page.waitForTimeout(200);
+  };
+  /** The order that makes a sheet, read from the cards themselves: each takes what the one before gives. */
+  const answer = (s: Rz): string[] => {
+    const out: string[] = [];
+    let carrying = s.puzzle.start;
+    for (let i = 0; i < s.places.length; i++) {
+      const part = s.puzzle.parts.find((p) => p.takes === carrying && !out.includes(p.id))!;
+      out.push(part.id);
+      carrying = part.gives;
+    }
+    return out;
+  };
+  const tStart = Date.now();
+  await page.locator(".hub button[data-quest='w10q5-samarqand']").click();
+  await page.waitForFunction("window.__HH__.samarkand() !== null && window.__HH__.where() !== null", undefined, { timeout: 30000 });
+  report.msFromPlayToScene = Date.now() - tStart;
+  await page.waitForTimeout(900);
+  await shot("intro-talk");
+  await noteRz("workshop open");
+  await roomTalk();
+
+  await fly("maker", "h.samarkand().talk !== null");
+  await shot("maker-talk");
+  await roomTalk(["Ask about the old report", "Ask how paper was made"]);
+  await noteRz("asked the papermaker both questions");
+  await fly("child", "h.samarkand().talk !== null");
+  await roomTalk(["It is all right"]);
+  await noteRz("answered the child kindly");
+  await fly("mould", "h.samarkand().flags.includes('feather')");
+  await shot("feather-in-the-mould");
+  await roomTalk();
+  await noteRz("found the feather");
+
+  // A card lifted and put down again: no move. Then the wrong row run once at the bell.
+  await fly("place-0", "h.samarkand().lifted === 0");
+  await shot("card-lifted");
+  await fly("place-0", "h.samarkand().lifted === null");
+  await noteRz("a card lifted and put down");
+  await fly("bell", "h.samarkand().runs === 1");
+  await page.waitForFunction("!window.__HH__.samarkand().busy", undefined, { timeout: 15000 });
+  await shot("wrong-row-run");
+  await noteRz("the wrong row run at the bell");
+
+  // Frame times while the bird crosses the whole workshop and back, with everything running.
+  await hk("h.resetFrames();");
+  await page.locator(".room-box .stage").focus();
+  for (const key of ["ArrowRight", "ArrowLeft"]) {
+    await page.keyboard.down(key);
+    for (let i = 0; i < 14; i++) {
+      await page.keyboard.down("Space");
+      await page.waitForTimeout(120);
+      await page.keyboard.up("Space");
+      await page.waitForTimeout(380);
+    }
+    await page.keyboard.up(key);
+  }
+  const heap = () => page.evaluate("performance.memory ? performance.memory.usedJSHeapSize : null") as Promise<number | null>;
+  report.benchmark = { route: "the whole width and back, hopping and flapping, 14 seconds", info: await hk("return h.info();"), heapBytes: await heap(), heapAfterGcBytes: await heapAfterGc() };
+
+  // A lost graphics context, before the row is in order: what the player sees, and whether the workshop comes back.
+  report.contextLoss = await page.evaluate(`(async () => {
+    const canvas = document.querySelector('.room-box .stage canvas');
+    const gl = canvas.getContext('webgl2') || canvas.getContext('webgl');
+    const ext = gl && gl.getExtension('WEBGL_lose_context');
+    if (!ext) return { tried: false };
+    ext.loseContext();
+    await new Promise((r) => setTimeout(r, 600));
+    const toast = document.querySelector('.toast') ? document.querySelector('.toast').textContent : null;
+    ext.restoreContext();
+    await new Promise((r) => setTimeout(r, 2500));
+    return { tried: true, toast, sceneBack: window.__HH__.where() !== null, moves: window.__HH__.samarkand().moves, places: window.__HH__.samarkand().places };
+  })()`);
+
+  // The row put in order by exchanges made by flight: for the first wrong place, the place where its right card stands.
+  const want = answer(await rz());
+  for (let i = 0; i < 20; i++) {
+    const s = await rz();
+    const p = s.places.findIndex((id, k) => id !== want[k]);
+    if (p < 0) break;
+    const moves = s.moves;
+    await fly(`place-${p}`, `h.samarkand().lifted === ${p}`);
+    await fly(`place-${s.places.indexOf(want[p]!)}`, `h.samarkand().moves === ${moves + 1}`);
+    if (i === 0) await shot("exchanging");
+  }
+  await fly("bell", "h.samarkand().runs === 2");
+  await page.waitForFunction("window.__HH__.samarkand().lit >= 3", undefined, { timeout: 8000 });
+  await shot("making-the-sheet");
+  await page.waitForFunction("window.__HH__.samarkand().doorLit", undefined, { timeout: 15000 });
+  await page.waitForTimeout(600);
+  await shot("sheet-made");
+  await roomTalk();
+  await noteRz("the sheet is made");
+  report.puzzle = { moves: (await rz()).moves, runs: (await rz()).runs };
+  report.goals = await page.evaluate("JSON.parse(localStorage.getItem('im.hudhud.save.v1') || 'null')?.slots?.[0]?.quests?.['w10q5-samarqand'] ?? null");
+  await shot("results");
+  await page.locator(".room-box .stage").focus();
+  await page.keyboard.down("ArrowRight");
+  await page.waitForFunction("!document.querySelector('.hub').hidden", undefined, { timeout: 25000 }).finally(() => page.keyboard.up("ArrowRight"));
+  report.door = await hk("return h.lastDoor();");
+  report.save = await page.evaluate("JSON.parse(localStorage.getItem('im.hudhud.save.v1') || 'null')");
+
+  // Opening the workshop again and again: what it holds must not grow.
+  const cycle = async () => ({ ...(await hk<Record<string, unknown>>("const i = h.info(); return { textures: i.textures, textureBytes: i.textureBytes, objects: i.objects, tweens: i.tweens };")), heapBytes: await heap(), heapAfterGcBytes: await heapAfterGc() });
+  const reopen = async () => {
+    await hk("h.toAtlas(); h.startSamarkand();");
+    await page.waitForFunction("window.__HH__.samarkand() !== null && window.__HH__.where() !== null", undefined, { timeout: 30000 });
   };
   await reopen();
   await page.waitForTimeout(800);
