@@ -15,6 +15,7 @@ open a new block on top with the new version and today's date.
 
 ## v2.32.0 — 2026-11-26
 ### Changed
+- **A written analysis of the museum's public API, proposing how to stop any API file from returning the whole collection at once.** The founder asked for it. It is analysis only: no API file, path or build step changed. It lists every file the API serves, with its size and who reads it, and finds that no page of the site and none of the games fetch the large whole-collection files. It proposes replacing those files with small indexes that point to bounded parts, and moving full downloads to the dataset releases, which stay complete and free (CC0). It awaits the founder's approval (`docs/engineering/90-api-tightening-analysis.md`).
 - **The Lamp of the Ages is released, with its pictures still drawn by code; painted art will come as an update.** It is the fifth game to leave prototype.
   - **Readability fixes:** city names on its map are now readable on a phone, and record ids no longer break apart inside Arabic and Urdu text.
   - **How it was checked:** 28 whole games, all five missions each, were played with the keyboard alone in all seven languages, on phone and desktop screens, in light and dark, on this machine's local host. No problem was found, and focus, target size, contrast and the saved game were all checked.
