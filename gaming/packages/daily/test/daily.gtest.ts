@@ -168,3 +168,14 @@ describe("the day", () => {
     expect(dayNumber("2026-11-27") - dayNumber("2026-11-26")).toBe(1);
   });
 });
+
+describe("Kalima's own name file", () => {
+  it("holds exactly the names of Kalima's words, copied from the language's label file", () => {
+    for (const l of LANGS) {
+      const own = data<PackLabels>(`word-labels.v1.${l}.json`);
+      const ids = [...new Set(words[l]!.words.map((w) => w.id))].sort();
+      expect(Object.keys(own), l).toEqual(ids.filter((id) => labels[l]![id]));
+      for (const id of ids) expect(own[id], `${l} ${id}`).toEqual(labels[l]![id]);
+    }
+  });
+});

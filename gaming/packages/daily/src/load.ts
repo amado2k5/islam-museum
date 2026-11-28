@@ -5,6 +5,8 @@ import { lang, type Strings } from "./ui";
 export const sharedStrings = (): Promise<Strings> => import(`../i18n/${lang}.json`).then((m) => m.default as Strings);
 export const loadPack = (): Promise<PackFile> => import("../data/pack.v1.json").then((m) => m.default as unknown as PackFile);
 export const loadLabels = (): Promise<PackLabels> => import(`../data/labels.v1.${lang}.json`).then((m) => m.default as PackLabels);
+/** The names of the word game's own words only: what Kalima needs, without the whole label file. */
+export const loadWordLabels = (): Promise<PackLabels> => import(`../data/word-labels.v1.${lang}.json`).then((m) => m.default as PackLabels);
 export const loadWords = (): Promise<WordFile> => import(`../data/words.v1.${lang}.json`).then((m) => m.default as WordFile);
 /** A record's name in the page's language, with its first sentence when the museum has one in that language. */
 export const namer = (labels: PackLabels) => ({

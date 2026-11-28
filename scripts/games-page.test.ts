@@ -18,8 +18,10 @@ describe("the Games landing page", () => {
     expect(listed).toEqual(registry.map((g) => g.id));
   });
 
-  it("calls every game a prototype while the registry does", () => {
-    expect(registry.every((g) => g.status === "prototype")).toBe(true);
+  it("calls a game a prototype exactly while the registry does", () => {
+    const released = new Set(JSON.parse(page.match(/const RELEASED = new Set<string>\((\[[^\]]*\])\)/)![1]!) as string[]);
+    expect([...released].sort()).toEqual(registry.filter((g) => g.status === "released").map((g) => g.id).sort());
+    for (const g of registry) expect(["prototype", "released"], g.id).toContain(g.status);
     expect(page).toContain("{G.prototype}");
   });
 

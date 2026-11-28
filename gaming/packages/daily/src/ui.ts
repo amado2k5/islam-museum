@@ -31,7 +31,8 @@ export interface Shell {
   say: (text: string) => void;
 }
 /** Sets the page's language and direction and draws the header. `s` holds the game's strings and the shared ones. */
-export function shell(o: { s: Strings; title: string; howto: string[]; prototype: string }): Shell {
+/** `prototype` is the label shown beside the title while the game is a prototype; a released game passes none. */
+export function shell(o: { s: Strings; title: string; howto: string[]; prototype?: string }): Shell {
   const s = o.s;
   document.documentElement.lang = lang;
   document.documentElement.dir = RTL.includes(lang) ? "rtl" : "ltr";
@@ -50,7 +51,7 @@ export function shell(o: { s: Strings; title: string; howto: string[]; prototype
   );
   const help = el("details", { class: "howto" }, el("summary", {}, s.howto), el("ul", {}, ...o.howto.map((h) => el("li", {}, h))), el("p", { class: "small" }, s.free));
   const main = el("main", { id: "main", tabIndex: -1 });
-  app.replaceChildren(header, el("h1", {}, o.title, " ", el("span", { class: "chip proto" }, o.prototype)), help, main, live);
+  app.replaceChildren(header, el("h1", {}, o.title, ...(o.prototype ? [" ", el("span", { class: "chip proto" }, o.prototype)] : [])), help, main, live);
   const skip = document.querySelector<HTMLAnchorElement>("a.skip");
   if (skip) skip.textContent = s.skip;
   return { main, say: (t) => { live.textContent = ""; setTimeout(() => (live.textContent = t), 30); } };

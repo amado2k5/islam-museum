@@ -175,6 +175,10 @@ for (const lang of LANGS) {
     labels[id] = s ? [name, s] : [name];
   }
   writeFileSync(join(OUT, `labels.v${PACK_VERSION}.${lang}.json`), JSON.stringify(labels) + "\n");
+  // Kalima needs only the names of its own words: a file a twentieth of the size, for a quicker first visit on a phone.
+  const wordLabels: PackLabels = {};
+  for (const id of [...new Set(words[lang].map((w) => w.id))].sort()) if (labels[id]) wordLabels[id] = labels[id]!;
+  writeFileSync(join(OUT, `word-labels.v${PACK_VERSION}.${lang}.json`), JSON.stringify(wordLabels) + "\n");
 }
 const report = { from, places: placesKept.length, events: eventsKept.length, persons: personsKept.length, eligible: { places: places.length, events: events.length, persons: persons.length }, words: Object.fromEntries(LANGS.map((l) => [l, words[l].length])), phrases: Object.fromEntries(LANGS.map((l) => [l, phrases[l].length])), skipped };
 writeFileSync(join(OUT, `report.v${PACK_VERSION}.json`), JSON.stringify(report, null, 1) + "\n");

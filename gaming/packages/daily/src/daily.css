@@ -1,6 +1,6 @@
 /* The small daily games: one column, phone first, large targets, readable in light and dark. */
-:root { color-scheme: light dark; --bg: #fbf8f2; --fg: #1d1b18; --muted: #5b564e; --line: #cfc6b6; --card: #ffffff; --accent: #0f5f63; --hit: #1e6b4a; --near: #9a6200; --miss: #6b6660; --bad: #a32a2a; --focus: #1a56c4; }
-@media (prefers-color-scheme: dark) { :root { --bg: #15130f; --fg: #f3eee4; --muted: #b9b1a3; --line: #4a443a; --card: #211e19; --accent: #7cc7c4; --hit: #3f9a6e; --near: #c58b1c; --miss: #5d5852; --bad: #e07a7a; --focus: #8ab4ff; } }
+:root { color-scheme: light dark; --bg: #fbf8f2; --fg: #1d1b18; --muted: #5b564e; --line: #cfc6b6; --card: #ffffff; --accent: #0f5f63; --hit: #1e6b4a; --near: #9a6200; --miss: #6b6660; --bad: #a32a2a; --focus: #1a56c4; --on-mark: #fff; }
+@media (prefers-color-scheme: dark) { :root { --bg: #15130f; --fg: #f3eee4; --muted: #b9b1a3; --line: #4a443a; --card: #211e19; --accent: #7cc7c4; --hit: #3f9a6e; --near: #c58b1c; --miss: #5d5852; --bad: #e07a7a; --focus: #8ab4ff; --on-mark: #15130f; } }
 * { box-sizing: border-box; }
 html { -webkit-text-size-adjust: 100%; }
 body { margin: 0; background: var(--bg); color: var(--fg); font: 18px/1.5 system-ui, -apple-system, "Segoe UI", Roboto, "Noto Sans", "Noto Naskh Arabic", "Noto Nastaliq Urdu", sans-serif; }
@@ -40,14 +40,15 @@ button:disabled { opacity: 0.55; cursor: default; }
 .grid .line { display: grid; grid-auto-flow: column; gap: 6px; }
 .tile { width: min(13vw, 58px); height: min(13vw, 58px); border: 2px solid var(--line); border-radius: 10px; display: flex; flex-direction: column; align-items: center; justify-content: center; font-size: clamp(1.2rem, 6vw, 1.7rem); font-weight: 800; text-transform: uppercase; line-height: 1; background: var(--card); }
 .tile small { font-size: 0.7rem; font-weight: 700; margin-top: 2px; }
-.tile.hit { background: var(--hit); border-color: var(--hit); color: #fff; }
-.tile.near { background: var(--near); border-color: var(--near); color: #fff; border-style: dashed; }
+.tile.hit { background: var(--hit); border-color: var(--hit); color: var(--on-mark); }
+.tile.near { background: var(--near); border-color: var(--near); color: var(--on-mark); border-style: dashed; }
 .tile.miss { background: var(--miss); border-color: var(--miss); color: #fff; }
 .keys { display: flex; flex-wrap: wrap; justify-content: center; gap: 5px; margin: 8px 0; }
 .keys button { min-width: 38px; min-height: 48px; padding: 4px 6px; background: var(--card); color: var(--fg); border: 1px solid var(--line); font-size: 1.05rem; text-transform: uppercase; }
-.keys button.hit { background: var(--hit); color: #fff; border-color: var(--hit); }
-.keys button.near { background: var(--near); color: #fff; border-color: var(--near); }
-.keys button.miss { background: var(--miss); color: #fff; opacity: 0.6; }
+.keys button.hit { background: var(--hit); color: var(--on-mark); border-color: var(--hit); }
+.keys button.near { background: var(--near); color: var(--on-mark); border-color: var(--near); }
+/* A ruled-out key is struck through rather than faded: fading took its letter below the contrast WCAG asks for. */
+.keys button.miss { background: var(--miss); color: #fff; text-decoration: line-through; }
 .keys button.wide-key { min-width: 76px; font-size: 0.9rem; }
 .legend { display: flex; flex-wrap: wrap; gap: 12px; justify-content: center; font-size: 0.85rem; color: var(--muted); }
 /* The Lantern */
