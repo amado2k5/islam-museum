@@ -15,6 +15,7 @@ open a new block on top with the new version and today's date.
 
 ## v2.32.0 — 2026-11-26
 ### Changed
+- **A written analysis of the museum's public API, proposing how to stop any API file from returning the whole collection at once.** The founder asked for it. It is analysis only: no API file, path or build step changed. It lists every file the API serves, with its size and who reads it, and finds that no page of the site and none of the games fetch the large whole-collection files. It proposes replacing those files with small indexes that point to bounded parts, and moving full downloads to the dataset releases, which stay complete and free (CC0). It awaits the founder's approval (`docs/engineering/90-api-tightening-analysis.md`).
 - **The Thread of Time, the daily ordering game, is released: the third game to leave prototype.**
   - **Keyboard fix:** a keyboard player no longer loses their place when an event reaches the top or bottom of the list.
   - **Arabic type, in all four daily games:** a shared font list let Arabic fall through to an Urdu Nastaliq font on some machines, so Arabic words climbed and ran into the line above. Each script now has its own fonts.
