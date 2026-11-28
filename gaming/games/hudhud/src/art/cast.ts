@@ -715,6 +715,31 @@ export function sweeper(scale: number): KeeperArt {
   return { ...art, body };
 }
 
+/**
+ * The child who helps in the paper workshop of Samarkand, an invented person (the paper quest's own): the same cut-out as
+ * the explorer, in one fixed look of the child's own (a green tunic), holding a plain blank card of the steps against the
+ * chest, the cards the wind blew down from the line. Nothing on it is drawn or written.
+ */
+export function paperChild(scale: number): KeeperArt {
+  const art = keeper(scale, { kind: 0, skin: 3, outfit: 2, hair: 3 });
+  const [body, b] = sheet(art.body.w, art.body.h, scale);
+  b.drawImage(art.body.canvas, 0, 0, art.body.w, art.body.h);
+  blob(b, [
+    [32, 50],
+    [62, 46],
+    [66, 92],
+    [34, 94],
+  ]);
+  fillStroke(b, "#f6eed8", INK, 1.8);
+  // A wooden peg at the card's top corner, the peg that should have held it to the line.
+  b.fillStyle = "#a8743e";
+  b.fillRect(54, 40, 5, 14);
+  b.strokeStyle = INK;
+  b.lineWidth = 1.2;
+  b.strokeRect(54, 40, 5, 14);
+  return { ...art, body };
+}
+
 // ---------------------------------------------------------------------------------------------- the scholar
 /** The colours a scholar's figure is drawn in. The default is Ibn al-Haytham's, as the workshop has always drawn him;
  * al-Jazari's figure is the same cut-out in other colours, with an apron (art/jazari.ts's room), al-Tusi's in night
@@ -1217,6 +1242,30 @@ export const WATERKEEPER_LOOK: ScholarLook = {
 };
 export function waterkeeper(scale: number): ScholarArt {
   return scholar(scale, WATERKEEPER_LOOK);
+}
+
+/**
+ * The papermaker in the paper workshop of Samarkand, an invented person (the paper quest's own), as the game imagines a
+ * craftsman at work: the scholar's cut-out again, of the same size and parts, in a plain cream turban and an indigo robe
+ * over a cream gown, with a craftsman's leather apron. Not a likeness of anyone.
+ */
+export const PAPERMAKER_LOOK: ScholarLook = {
+  skin: "#c48f60",
+  beard: ["#3a2a22", "#7a6e62"],
+  moustache: "#3a2a22",
+  brow: "#2e221c",
+  turban: ["#f4ead2", "#d6c8a6"],
+  turbanBands: "rgba(90,70,40,0.45)",
+  robe: ["#3a4f86", "#26365e"],
+  gown: "#f3e6c8",
+  border: PAL.ochre,
+  dots: PAL.cream,
+  shawl: "#6b4a2a",
+  seed: "papermaker",
+  apron: "#7a5232",
+};
+export function papermaker(scale: number): ScholarArt {
+  return scholar(scale, PAPERMAKER_LOOK);
 }
 
 // ---------------------------------------------------------------------------------------------- the cat

@@ -247,14 +247,14 @@ describe("the coffee room: its strings", () => {
   const tables = Object.fromEntries(LANGS.map((l) => [l, table(l)]));
   const keys = Object.keys(tables.en!).filter((k) => k.startsWith("cqr_"));
   // They were the last twenty-two of every table until al-Jahiz's room (27 November 2026) appended its own after them;
-  // they are still one block, in the same order, in every table, and only al-Jahiz's room's and the Alhambra's court's keys come after them.
-  it("are twenty-two, one block in every table, in the same order, with only al-Jahiz's room's and the Alhambra's court's keys after them", () => {
+  // they are still one block, in the same order, in every table, and only al-Jahiz's room's and the Alhambra's court's and the paper workshop's keys come after them.
+  it("are twenty-two, one block in every table, in the same order, with only al-Jahiz's room's and the Alhambra's court's and the paper workshop's keys after them", () => {
     expect(keys).toHaveLength(22);
     for (const l of LANGS) {
       const all = Object.keys(tables[l]!);
       const at = all.indexOf(keys[0]!);
       expect(all.slice(at, at + keys.length), l).toEqual(keys);
-      expect(all.slice(at + keys.length).every((k) => k.startsWith("jzr_") || k.startsWith("ahr_")), l).toBe(true);
+      expect(all.slice(at + keys.length).every((k) => k.startsWith("jzr_") || k.startsWith("ahr_") || k.startsWith("smr_")), l).toBe(true);
     }
   });
   it("say that the room, the shelves, the cards, the bell and the keeper are invented for play, in the founder's words in Arabic and English", () => {

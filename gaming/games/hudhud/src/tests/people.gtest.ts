@@ -3,7 +3,7 @@
 // drawn where the room places them at its start, and their drawn boxes are compared: none may overlap another. The boxes
 // are made from content/people.ts, which this test first holds to the painters' own sizes (art/cast.ts) and to the
 // placements the scenes themselves use, so that a figure moved or redrawn cannot slip past it.
-import { readFileSync } from "node:fs";
+import { readFileSync, readdirSync } from "node:fs";
 import { resolve } from "node:path";
 import { describe, expect, it } from "vitest";
 import { BIRD, EXPLORER, HELPER, SCHOLAR, drawnBox, overlaps, type Box, type Figure } from "../content/people";
@@ -19,6 +19,7 @@ import { IBR_START, IBR_WORLD } from "../content/battuta-room";
 import { CQR_SPEC, CQR_START, CQR_WORLD, cqrMarkers, cqrThings } from "../content/coffee-room";
 import { JZR_SPEC, JZR_START, JZR_WORLD, jzrMarkers, jzrThings } from "../content/jahiz-room";
 import { AHR_START, AHR_WORLD, ahrThings } from "../content/alhambra-room";
+import { SMR_START, SMR_WORLD, smrThings } from "../content/samarkand-room";
 import { THINGS } from "../content/workshop";
 import { JR_THINGS } from "../content/jazari-room";
 import { TSR_THINGS } from "../content/tusi-room";
@@ -47,6 +48,7 @@ const ROOMS: { room: string; scene: string; floor: number; hudhud: number; keepe
   { room: "the coffee room", scene: "scenes/coffee.ts", floor: CQR_WORLD.floor, hudhud: CQR_START.hudhud, keeper: CQR_START.keeper, figure: { name: "archivist", x: CQR_START.archivist }, helper: { name: "child", x: CQR_START.child } },
   { room: "al-Jahiz's room", scene: "scenes/jahiz.ts", floor: JZR_WORLD.floor, hudhud: JZR_START.hudhud, keeper: JZR_START.keeper, figure: { name: "jahiz", x: JZR_START.jahiz }, helper: { name: "girl", x: JZR_START.girl } },
   { room: "the Alhambra's court", scene: "scenes/alhambra.ts", floor: AHR_WORLD.floor, hudhud: AHR_START.hudhud, keeper: AHR_START.keeper, figure: { name: "waterkeeper", x: AHR_START.waterkeeper }, helper: { name: "girl", x: AHR_START.girl } },
+  { room: "the paper workshop of Samarkand", scene: "scenes/samarkand.ts", floor: SMR_WORLD.floor, hudhud: SMR_START.hudhud, keeper: SMR_START.keeper, figure: { name: "maker", x: SMR_START.maker }, helper: { name: "child", x: SMR_START.child } },
 ];
 /** Every room is as wide as the workshop. */
 const WIDTH = WORLD.width;
@@ -98,7 +100,9 @@ describe("the people of a room, as boxes", () => {
       same(SCHOLAR, cast.jahiz(1) as unknown as Record<string, { w: number; h: number }>, "al-Jahiz");
       // The keeper of the water in the Alhambra's court is the scholar's cut-out in colours of his own (not a likeness of anyone).
       same(SCHOLAR, cast.waterkeeper(1) as unknown as Record<string, { w: number; h: number }>, "the keeper of the water");
-      for (const [who, art] of [["apprentice", cast.apprentice(1)], ["cleaner", cast.cleaner(1)], ["box carrier", cast.boxCarrier(1)], ["messenger", cast.messenger(1)], ["map helper", cast.mapHelper(1)], ["leaf child", cast.leafChild(1)], ["copy boy", cast.copyBoy(1)], ["camel child", cast.camelChild(1)], ["card child", cast.cardChild(1)], ["card girl", cast.cardGirl(1)], ["sweeper", cast.sweeper(1)]] as const) same(HELPER, art as unknown as Record<string, { w: number; h: number }>, who);
+      // The papermaker in the paper workshop of Samarkand is the scholar's cut-out in a craftsman's colours, with an apron (not a likeness of anyone).
+      same(SCHOLAR, cast.papermaker(1) as unknown as Record<string, { w: number; h: number }>, "the papermaker");
+      for (const [who, art] of [["apprentice", cast.apprentice(1)], ["cleaner", cast.cleaner(1)], ["box carrier", cast.boxCarrier(1)], ["messenger", cast.messenger(1)], ["map helper", cast.mapHelper(1)], ["leaf child", cast.leafChild(1)], ["copy boy", cast.copyBoy(1)], ["camel child", cast.camelChild(1)], ["card child", cast.cardChild(1)], ["card girl", cast.cardGirl(1)], ["sweeper", cast.sweeper(1)], ["paper child", cast.paperChild(1)]] as const) same(HELPER, art as unknown as Record<string, { w: number; h: number }>, who);
     } finally {
       g.document = had;
     }
@@ -269,9 +273,13 @@ describe("the explorer and the things that can be touched", () => {
     "the coffee room": () => sortings(CQR_SPEC).flatMap((s) => both((rtl) => [...cqrThings(s, rtl), ...cqrMarkers(s.sort.groups.length, rtl)])),
     "al-Jahiz's room": () => sortings(JZR_SPEC).flatMap((s) => both((rtl) => [...jzrThings(s, rtl), ...jzrMarkers(s.sort.groups.length, rtl)])),
     "the Alhambra's court": () => STYLES.flatMap((st) => both((rtl) => ahrThings(st, rtl))),
+    "the paper workshop of Samarkand": () => STYLES.flatMap((st) => both((rtl) => smrThings(st, rtl))),
   };
   it("covers every room on the room engine", () => {
     expect(Object.keys(THINGS_OF).sort()).toEqual(ROOMS.map((r) => r.room).sort());
+    // Every scene file on the room engine is one of the rooms above: a room added later cannot slip past these tests.
+    const scenes = readdirSync(resolve(__dirname, "..", "scenes")).filter((f) => f.endsWith(".ts") && f !== "room.ts" && /extends RoomScene</.test(source(`scenes/${f}`)));
+    expect(scenes.map((f) => `scenes/${f}`).sort()).toEqual(ROOMS.map((r) => r.scene).sort());
   });
   /** The explorer walking after a still bird until it stops, a tenth of a second a step (or 60 seconds pass), and where it stopped. */
   const settle = (from: number, bird: { x: number; facing: -1 | 1 }, people: Standing[], things: readonly Spot[], floor: number) => {

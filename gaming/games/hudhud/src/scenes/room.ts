@@ -344,8 +344,10 @@ export abstract class RoomScene<H extends RoomHost = RoomHost> extends Phaser.Sc
     return { x: this.mover.x, y: this.mover.y, grounded: this.mover.grounded, near: this.nearId };
   }
   /** Where the explorer stands on the floor, and the people of the room, for the browser checks. */
-  standing(): { explorer: number; people: { x: number }[] } {
-    return { explorer: this.child.x, people: this.people().map((p) => ({ x: p.x })) };
+  standing(): { explorer: number; people: { x: number }[]; armed: boolean } {
+    // `armed`: whether the room has seen every movement key let go since it began (sim/follow.ts settleIntent), for the
+    // browser checks, which wait for it rather than for a fixed time before pressing a key again.
+    return { explorer: this.child.x, people: this.people().map((p) => ({ x: p.x })), armed: this.armed };
   }
 
   override update(_time: number, deltaMs: number): void {

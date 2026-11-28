@@ -48,6 +48,44 @@ describe("the journey's order", () => {
   });
 });
 
+// Every scene a room (asked for by the founder, 27 November 2026; the paper workshop of Samarkand, the thirteenth, was the
+// last): with WebGL, no scene of the journey opens a page quest, and so none ends in a corridor. The flying scene is Ibn
+// al-Haytham's workshop; every other quest of the journey is opened by the registry in ui/app.ts (PAGE_QUESTS), whose
+// entry must have a room (`room: roomsOn` and a `makeRoom`) that leads on through its own door (`through: () => moveOn()`)
+// and falls back to its page only without WebGL. The page quests and the corridor stay in the code for that case.
+describe("every scene of the journey", () => {
+  const app = readFileSync(resolve(src, "ui", "app.ts"), "utf8");
+  const registry = app.slice(app.indexOf("const PAGE_QUESTS:"), app.indexOf("function openPage("));
+  /** The registry's entry for a quest, by the name of the constant that holds its id in ui/app.ts. */
+  const entryOf = (quest: string): string | null => {
+    const names = [...registry.matchAll(/\n {4}\[(\w+)\]: \{/g)].map((m) => m[1]!);
+    const content = readdirSync(resolve(src, "content")).filter((f) => f.endsWith(".ts")).map((f) => readFileSync(resolve(src, "content", f), "utf8")).join("\n");
+    const name = names.find((n) => new RegExp(`export const ${n} = "${quest}";`).test(content));
+    if (!name) return null;
+    const at = registry.indexOf(`[${name}]: {`);
+    const next = registry.slice(at + 1).search(/\n {4}\[\w+\]: \{/);
+    return registry.slice(at, next < 0 ? undefined : at + 1 + next);
+  };
+  it("has a room: the flying scene is one, and every other scene's entry in the registry opens a room with WebGL, leads on through the room's own door and falls back to its page only without WebGL", () => {
+    expect(JOURNEY.length).toBe(13);
+    for (const quest of JOURNEY) {
+      if (quest === WORKSHOP_QUEST) continue;
+      const entry = entryOf(quest);
+      expect(entry, quest).not.toBeNull();
+      expect(entry, quest).toMatch(/\n {6}room: roomsOn,\n {6}makeRoom: \(c, title\) =>/);
+      expect(entry, quest).toContain("through: () => moveOn(),");
+      expect(entry, quest).toMatch(/fallback: \(\) => openPage\(\w+, inJourney, true\),/);
+    }
+  });
+  it("opens a room whenever rooms are on: openPage builds the page quest only when the entry has no room, rooms are off, or the page is asked for", () => {
+    const open = app.slice(app.indexOf("function openPage("), app.indexOf("function closeScene("));
+    expect(open).toContain("if (!onPage && page.room?.() && page.makeRoom) {");
+    // The corridor follows only a page quest's own finish (the rooms' finish is pageFinish alone).
+    expect(open).toContain("finish: (g) => (pageFinish(quest, g), queueMicrotask(() => showCorridor(quest))),");
+    expect([...registry.matchAll(/showCorridor/g)]).toHaveLength(0);
+  });
+});
+
 describe("the journey in the save", () => {
   const withJourney = (j: unknown): string => {
     const s = JSON.parse(writeSave(newSave())) as { slots: Record<string, unknown>[] };

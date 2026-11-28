@@ -1115,7 +1115,8 @@ for (const lang of ["en", "ar"]) {
   const idle = (page: Page) => page.waitForFunction("window.__HH__.paper() && !window.__HH__.paper().busy");
   const pick = (page: Page, place: number, card: string) => page.locator(`.bench select[data-place='${place}']`).selectOption(card);
   const ctx = await browser.newContext({ viewport: { width: 1280, height: 900 } });
-  let page = await open(ctx, "&style=explorer");
+  // Since 27 November 2026 Samarkand's scene is played in the paper workshop; `room=off` keeps this check on the paper's page, which stays as the way it is played without WebGL.
+  let page = await open(ctx, "&style=explorer&room=off");
   const button = page.locator(`.hub button[data-quest='${QUEST}']`);
   const isPlain = await button.evaluate((b) => !b.classList.contains("primary"));
   const label = await button.textContent();
@@ -1168,7 +1169,8 @@ for (const lang of ["en", "ar"]) {
   await ctx.close();
   // Left in the middle: one card moved and a question asked, the page loaded again, and the Atlas says Continue; the row and the question are where they were.
   const ctx2 = await browser.newContext({ viewport: { width: 1280, height: 900 } });
-  page = await open(ctx2, "&style=explorer");
+  // Since 27 November 2026 Samarkand's scene is played in the paper workshop; `room=off` keeps this check on the paper's page, which stays as the way it is played without WebGL.
+  page = await open(ctx2, "&style=explorer&room=off");
   await page.locator(`.hub button[data-quest='${QUEST}']`).click();
   await pick(page, 0, "cut");
   await page.getByRole("button", { name: "Ask how paper was made" }).click();
@@ -1191,7 +1193,8 @@ for (const lang of ["en", "ar"]) {
   const ctx3 = await browser.newContext({ viewport: { width: 1280, height: 900 } });
   const failed: Record<string, { places: number; selects: number; said: string; at: number }> = {};
   for (const style of ["story", "challenge"]) {
-    page = await open(ctx3, `&style=${style}`);
+    // Since 27 November 2026 Samarkand's scene is played in the paper workshop; `room=off` keeps this check on the paper's page, which stays as the way it is played without WebGL.
+    page = await open(ctx3, `&style=${style}&room=off`);
     await page.locator(`.hub button[data-quest='${QUEST}']`).click();
     await page.getByRole("button", { name: "Make a sheet" }).click();
     await idle(page);
@@ -1208,7 +1211,8 @@ for (const lang of ["en", "ar"]) {
   const arCtx = await browser.newContext({ viewport: { width: 1280, height: 900 } });
   const ar = await arCtx.newPage();
   ar.on("pageerror", (e) => errors.push(String(e)));
-  await ar.goto(`${served.base}/games/hudhud/index.html?lang=ar&music=off&style=explorer`);
+  // Since 27 November 2026 Samarkand's scene is played in the paper workshop; `room=off` keeps this check on the paper's page, which stays as the way it is played without WebGL.
+  await ar.goto(`${served.base}/games/hudhud/index.html?lang=ar&music=off&style=explorer&room=off`);
   await ar.waitForFunction("window.__HH__ && window.__HH__.ready");
   await leaveOpening(ar);
   await ar.locator(`.hub button[data-quest='${QUEST}']`).click();
@@ -4494,6 +4498,10 @@ for (const lang of ["en", "ar"]) {
       await page.keyboard.up("ArrowRight");
     }
     const onward = await ev<{ journey: { scene: number; at: number }; last: { scene: string } | null; heading: string; room: unknown; roomHidden: boolean; page: unknown; corridors: number }>(page, `({ journey: window.__HH__.journey(), last: window.__HH__.lastDoor(), heading: document.querySelector('${ROOM} h2').textContent, room: window.__HH__.razi(), roomHidden: document.querySelector('.room-box').hidden, page: window.__HH__.collate(), corridors: document.querySelectorAll('.corridor').length })`);
+    // The room must have seen the key let go before it is pressed again (28 November 2026: on a busy machine the key was
+    // pressed again before the room's next step had read it let go, so the room never armed and the bird did not move).
+    // Waited for, not timed.
+    const armed = await page.waitForFunction("window.__HH__.standing() && window.__HH__.standing().armed === true", undefined, { timeout: 5000 }).then(() => true, () => false);
     await page.locator(`${ROOM} .stage`).focus();
     await page.keyboard.down("ArrowRight");
     // Held until the bird has moved, not for a fixed half second: on a busy machine the room may take longer than that to
@@ -4509,8 +4517,8 @@ for (const lang of ["en", "ar"]) {
     record("in the journey al-Idrisi's lit door leads into al-Razi's study (the seventh scene: no page, no corridor, Hudhud's line naming him); finished, its lit door walked to with the right arrow key leads on into the eighth scene, Karima al-Marwaziyya's room (no page, no corridor); the key still held there carries neither the bird nor the explorer on, and once let go and pressed again it moves the bird",
       entered.journey.scene === 6 && entered.journey.at === 6 && entered.last?.scene === "idrisi" && entered.toast === "Hudhud: On to the next page of the Atlas: al-Razi!" && entered.heading === "al-Razi" && entered.corridors === 0 && entered.page === null &&
         onward.journey.scene === 7 && onward.journey.at === 7 && onward.last?.scene === "razi" && onward.room === null && !onward.roomHidden && onward.heading === "Karima al-Marwaziyya" && onward.page === null && onward.corridors === 0 &&
-        held !== null && held.x === 250 && held.explorer === 106 && pressed > 300,
-      { entered, onward, held, pressed });
+        held !== null && held.x === 250 && held.explorer === 106 && armed && pressed > 300,
+      { entered, onward, held, armed, pressed });
     await ctx.close();
   }
 
@@ -6344,6 +6352,375 @@ for (const lang of ["en", "ar"]) {
     if (outDir) await page.screenshot({ path: resolve(outDir, "alhambra-court-without-webgl.png"), fullPage: true });
     record("without WebGL the Alhambra's scene is played on the channels' page (its trial line on the Atlas, a button for every piece, no court), and is finished there",
       /first trial/.test(note) && onPage.room === null && onPage.buttons === 16 && onPage.roomHidden && onPage.benchShown && done, { note, onPage, done });
+    await ctx.close();
+  }
+}
+// The paper workshop of Samarkand, the thirteenth and last room of the journey on the room engine (asked for by the
+// founder, 27 November 2026): opened from the Atlas in Explorer it is a canvas scene with the workshop in words (which card
+// is lifted, the count of moves, every place of the bench as a button with its card named, the bell, the papermaker, the
+// child and the spare mould as buttons); a card lifted by flight, put down and lifted again with the touch key, and
+// exchanged with another place by flight (two touches, one move); the bell rung by flight with a wrong row: the run is
+// shown a place at a time with the page's sentences and stops where the page's run stops, the material drawn above the
+// place it passed; both questions asked of the papermaker, the child answered kindly and the feather found in the spare
+// mould on the tall rack; the row put right by flight and touch and the bell rung: the sheet is made, the door lights, the
+// panel shows four goals and the notes with the workshop's own, and the door is walked to with real key presses. A reload
+// resumes the workshop as it was, the lifted card included; in a journey al-Jahiz's lit door leads into the workshop and
+// the workshop's, the last, ends the journey on the Atlas with its closing line; an Arabic page; movement kept still; and
+// without WebGL the scene is played on the paper's page. Every wait below is for the thing itself, with a timeout.
+{
+  type SmShown = { places: string[]; modes: string[]; lifted: number | null; material: (string | null)[]; feather: boolean; agree: boolean };
+  type Sm = { places: string[]; moves: number; par: number; runs: number; flags: string[]; done: boolean; style: string; lifted: number | null; talk: { script: string } | null; busy: boolean; lit: number; stopped: number | null; doorLit: boolean; last: { end: string; at: number; carrying: string } | null; shown: SmShown | null };
+  const QUEST = "w10q5-samarqand";
+  const ROOM = ".room-box";
+  const ANSWER = ["cut", "clean-bleach", "pound", "size", "lift", "dry", "polish"];
+  const NOTE_ROOM = "The workshop, the cards of the steps, the vat and the bell are invented for play; they are not a picture of a paper mill in Samarkand.";
+  const sm = (page: Page) => ev<Sm | null>(page, "window.__HH__.samarkand()");
+  /** Opened from the Atlas: waits until the room is built and its bench drawn (the scene's own account of it), not a fixed time. */
+  const openSm = async (page: Page) => {
+    await page.locator(`.hub button[data-quest='${QUEST}']`).click();
+    await page.waitForFunction("window.__HH__.samarkand() !== null && window.__HH__.where() !== null && window.__HH__.samarkand().shown !== null && window.__HH__.samarkand().shown.agree", undefined, { timeout: 30000 });
+  };
+  const skipTalk = async (page: Page) => {
+    for (let i = 0; i < 8 && (await sm(page))?.talk; i++) {
+      const before = JSON.stringify((await sm(page))!.talk);
+      await page.locator(`${ROOM} .talk button.quiet`).last().click();
+      await page.waitForFunction(`JSON.stringify(window.__HH__.samarkand().talk) !== ${JSON.stringify(before)}`, undefined, { timeout: 4000 });
+    }
+  };
+  /** Flies the bird to a thing by the engine's own flight (goTo), and waits until it has landed and touched it. */
+  const fly = async (page: Page, id: string, until: string) => {
+    await ev(page, `window.__HH__.goTo(${JSON.stringify(id)})`);
+    await page.waitForFunction(until, undefined, { timeout: 8000 });
+  };
+  const walkRight = async (page: Page, until: string) => {
+    await page.keyboard.down("ArrowRight");
+    try {
+      await page.waitForFunction(until, undefined, { timeout: 25000 });
+    } finally {
+      await page.keyboard.up("ArrowRight");
+    }
+  };
+  /** Two cards exchanged by flight: to the first (it is lifted), then to the other place (the exchange, one move). */
+  const exchangeBy = async (page: Page, a: number, b: number) => {
+    const moves = (await sm(page))!.moves;
+    await fly(page, `place-${a}`, `window.__HH__.samarkand().lifted === ${a}`);
+    await fly(page, `place-${b}`, `window.__HH__.samarkand().moves === ${moves + 1}`);
+  };
+  /** The row put in order, worked out here from the workshop's own state: for the first wrong place, the place where its right card stands. */
+  const nextPair = (s: Sm, answer: string[] = ANSWER): [number, number] | null => {
+    const p = s.places.findIndex((id, i) => id !== answer[i]);
+    return p < 0 ? null : [p, s.places.indexOf(answer[p]!)];
+  };
+  const liftText = (page: Page) => ev<{ text: string; live: string | null }>(page, `({ text: document.querySelector('${ROOM} .room-words .carrying').textContent, live: document.querySelector('${ROOM} .room-words .carrying').getAttribute('aria-live') })`);
+  const ranText = (page: Page) => ev<string>(page, `document.querySelector('${ROOM} .ran').textContent`);
+  const placeButtons = (page: Page) => ev<{ labels: string[]; pressed: string[]; sized: boolean; group: string | null; selects: number }>(page, `({ labels: [...document.querySelectorAll('${ROOM} .sheet-row button')].map((b) => b.textContent), pressed: [...document.querySelectorAll('${ROOM} .sheet-row button')].map((b) => b.getAttribute('aria-pressed')), sized: [...document.querySelectorAll('${ROOM} .sheet-row button')].every((b) => b.getBoundingClientRect().width >= 44 && b.getBoundingClientRect().height >= 44), group: document.querySelector('${ROOM} .sheet-rows').getAttribute('aria-label'), selects: document.querySelectorAll('${ROOM} select').length })`);
+  const others = (page: Page) => ev<string[]>(page, `[...document.querySelectorAll('${ROOM} .room-words > ul li button')].map((b) => b.textContent)`);
+  const card = (id: string) => ({ cut: "Cut the rags small", "clean-bleach": "Clean and bleach the pieces", pound: "Pound them in water to a pulp", size: "Dress the pulp with wheat starch", lift: "Lift it on a mould and shake it", dry: "Lay the sheet flat and dry it on a wall", polish: "Rub it and polish it smooth" })[id];
+  const said = (page: Page) => ev<{ who: string | null; line: string | null }>(page, `({ who: document.querySelector('${ROOM} .talk:not([hidden]) .who') ? document.querySelector('${ROOM} .talk .who').textContent : null, line: document.querySelector('${ROOM} .talk:not([hidden]) .line + span') ? document.querySelector('${ROOM} .talk .line + span').textContent : null })`);
+
+  // (1) to (6): one play in Explorer, from the Atlas, by flight, touch and keys.
+  {
+    const ctx = await browser.newContext({ viewport: { width: 1280, height: 900 } });
+    const page = await open(ctx, "&style=explorer");
+    const atlasItem = await ev<{ label: string; notes: number }>(page, `(() => { const b = document.querySelector(".hub button[data-quest='${QUEST}']"); return { label: b.textContent, notes: b.parentElement.querySelectorAll('small').length }; })()`);
+    await openSm(page);
+    const opened = await ev<{ canvases: number; benchHidden: boolean; roomShown: boolean; heading: string; alt: string | null; info: { renderer: string; largestTextures: { width: number; height: number }[] }; talk: string | null; roomNote: string; corridors: number }>(page, `({ canvases: document.querySelectorAll('${ROOM} .stage canvas').length, benchHidden: document.querySelector('.bench').hidden, roomShown: !document.querySelector('${ROOM}').hidden, heading: document.querySelector('${ROOM} h2').textContent, alt: document.querySelector('${ROOM} .stage').getAttribute('aria-label'), info: window.__HH__.info(), talk: document.querySelector('${ROOM} .talk:not([hidden]) .who') ? document.querySelector('${ROOM} .talk .who').textContent : null, roomNote: document.querySelector('${ROOM} .words section:last-child p').textContent, corridors: document.querySelectorAll('.corridor').length })`);
+    const first = (await sm(page))!;
+    const firstPlaces = await placeButtons(page);
+    const firstOthers = await others(page);
+    const firstLift = await liftText(page);
+    if (outDir) (mkdirSync(outDir, { recursive: true }), await page.screenshot({ path: resolve(outDir, "samarkand-room-start.png") }));
+    record("the paper workshop of Samarkand opens from the Atlas in Explorer as a canvas scene on the room engine (no page, no corridor): the Atlas names it as it names the other rooms, Hudhud speaks first, the bench holds the seven cards as the quest lays them out, and the workshop is said in words: which card is lifted in a polite live region, every place of the bench a button of at least 44 pixels naming its card in order (no list of cards to choose from), and every other thing a button (the papermaker, the child, the spare mould, the bell with the page's words), with the workshop's note",
+      atlasItem.label === "Play: Samarqand" && atlasItem.notes === 0 && opened.canvases === 1 && opened.benchHidden && opened.roomShown && opened.corridors === 0 && opened.heading === "Samarqand" && opened.alt === "The papermaker's workshop, as a picture. The list after it says the same in words." && opened.info.renderer === "webgl" && Math.max(...opened.info.largestTextures.flatMap((t) => [t.width, t.height])) <= 2048 && opened.talk === "Hudhud" && opened.roomNote === NOTE_ROOM &&
+        first.moves === 0 && first.lifted === null && first.places.join() === "clean-bleach,pound,cut,size,polish,dry,lift" && first.shown?.agree === true && first.shown.places.join() === first.places.join() && first.shown.material.every((m) => m === null) && first.shown.feather &&
+        firstLift.text === "Lifted: nothing" && firstLift.live === "polite" && firstPlaces.labels.length === 7 && firstPlaces.sized && firstPlaces.selects === 0 && firstPlaces.pressed.every((x) => x === "false") && firstPlaces.group === "The places on the workbench, in order" &&
+        firstPlaces.labels[0] === "Go to place 1 on the workbench, Clean and bleach the pieces" && firstPlaces.labels[6] === "Go to place 7 on the workbench, Lift it on a mould and shake it" &&
+        firstOthers.join("|") === "Go to the papermaker|Go to the child who helps|Go to the spare mould on top of the tall rack|Go to the bell at the end of the workbench: Make a sheet",
+      { atlasItem, opened: { ...opened, info: { renderer: opened.info.renderer } }, first: { places: first.places, shown: first.shown }, firstLift, firstPlaces: { ...firstPlaces, labels: firstPlaces.labels.slice(0, 2) }, firstOthers });
+    await skipTalk(page);
+
+    // (2) A card lifted by flight; put down and lifted again with the touch key; then another place touched by flight: the
+    // two cards are exchanged, one move for two touches.
+    await fly(page, "place-0", "window.__HH__.samarkand().lifted === 0 && window.__HH__.samarkand().shown.lifted === 0");
+    const lifted0 = { v: (await sm(page))!, words: await liftText(page), pressed: (await placeButtons(page)).pressed };
+    if (outDir) await page.screenshot({ path: resolve(outDir, "samarkand-room-lifted.png") });
+    await page.locator(`${ROOM} .stage`).focus();
+    await page.keyboard.press("KeyE");
+    await page.waitForFunction("window.__HH__.samarkand().lifted === null", undefined, { timeout: 4000 });
+    const putDown = (await sm(page))!;
+    await page.keyboard.press("KeyE");
+    await page.waitForFunction("window.__HH__.samarkand().lifted === 0", undefined, { timeout: 4000 });
+    await fly(page, "place-2", "window.__HH__.samarkand().moves === 1");
+    const swapped = { v: (await sm(page))!, words: await liftText(page), labels: (await placeButtons(page)).labels };
+    record("a card lifted by flight rises out of its slot with the page's ring round it, said in words ('Lifted: Clean and bleach the pieces', its button pressed); the touch key puts it down (no move) and lifts it again; flown to the third place, the two cards are exchanged: one move for two touches, nothing lifted after, and the bench shows the cards as the rules have them",
+      lifted0.v.lifted === 0 && lifted0.v.moves === 0 && lifted0.v.shown?.lifted === 0 && lifted0.v.shown.agree && lifted0.words.text === "Lifted: Clean and bleach the pieces" && lifted0.pressed[0] === "true" && lifted0.pressed.filter((x) => x === "true").length === 1 &&
+        putDown.lifted === null && putDown.moves === 0 &&
+        swapped.v.moves === 1 && swapped.v.lifted === null && swapped.v.places[0] === "cut" && swapped.v.places[2] === "clean-bleach" && swapped.v.shown?.agree === true && swapped.words.text === "Lifted: nothing" && swapped.labels[0] === "Go to place 1 on the workbench, Cut the rags small",
+      { lifted0: { lifted: lifted0.v.lifted, shown: lifted0.v.shown, words: lifted0.words }, putDown: putDown.lifted, swapped: { moves: swapped.v.moves, places: swapped.v.places, shown: swapped.v.shown } });
+
+    // (3) The bell rung by flight with the row still wrong: the page's run, shown a place at a time, works through the
+    // first card and stops at the second place; the material, rags cut small, is drawn above the first place.
+    await fly(page, "bell", "window.__HH__.samarkand().runs === 1");
+    const during = (await sm(page))!;
+    await page.waitForFunction("!window.__HH__.samarkand().busy", undefined, { timeout: 8000 });
+    const onBench = await ev<{ x: number; y: number; near: string | null }>(page, "window.__HH__.where()");
+    const wrong = { v: (await sm(page))!, ran: await ranText(page) };
+    record("the bell rung by flight with a wrong row: the page's run, shown a place at a time with the page's sentences, works through the first card (rags cut small drawn above it, the card marked as passed) and stops at the second place, marked, and says what reached it (Explorer's words); counted as a run, not a move",
+      onBench.near === "bell" && onBench.y === 500 && during.busy && during.runs === 1 && wrong.v.busy === false && !wrong.v.done && wrong.v.moves === 1 && wrong.v.last?.end === "idle" && wrong.v.last.at === 1 && wrong.v.lit === 1 && wrong.v.stopped === 1 && wrong.v.shown?.agree === true && wrong.v.shown.material[0] === "pieces" && wrong.v.shown.material.slice(1).every((m) => m === null) && wrong.v.shown.modes[0] === "held" && wrong.v.shown.modes[1] === "stopped" &&
+        /The rags are cut into small pieces\./.test(wrong.ran) && /The card in place 2 cannot take what reached it\. The work stops there\./.test(wrong.ran) && /What reached it: rags cut small\./.test(wrong.ran) && !/This place needs/.test(wrong.ran),
+      { onBench, during: { busy: during.busy, runs: during.runs }, wrong: { last: wrong.v.last, lit: wrong.v.lit, stopped: wrong.v.stopped, shown: wrong.v.shown }, ran: wrong.ran });
+
+    // (4) The papermaker, both questions; the child, kindly; the feather in the spare mould on top of the tall rack.
+    await fly(page, "maker", "window.__HH__.samarkand().talk !== null");
+    const hello = await said(page);
+    const choices0 = await ev<string[]>(page, `[...document.querySelectorAll('${ROOM} .talk .choices button')].map((b) => b.textContent)`);
+    await page.locator(`${ROOM} .talk .choices button`, { hasText: "Ask about the old report" }).click();
+    await page.waitForFunction("window.__HH__.samarkand().flags.includes('askedStory')", undefined, { timeout: 4000 });
+    const story = await said(page);
+    await page.locator(`${ROOM} .talk .choices button`, { hasText: "Ask how paper was made" }).click();
+    await page.waitForFunction("window.__HH__.samarkand().flags.includes('askedHow')", undefined, { timeout: 4000 });
+    const how = await said(page);
+    await page.locator(`${ROOM} .talk .choices button`).last().click();
+    await page.waitForFunction("window.__HH__.samarkand().talk && window.__HH__.samarkand().talk.node === 'bye'", undefined, { timeout: 4000 });
+    const bye = await said(page);
+    await page.locator(`${ROOM} .talk button`, { hasText: "Next" }).click();
+    await page.waitForFunction("window.__HH__.samarkand().talk === null", undefined, { timeout: 4000 });
+    await fly(page, "child", "window.__HH__.samarkand().talk !== null");
+    const child = await said(page);
+    await page.locator(`${ROOM} .talk .choices button`, { hasText: "It is all right. We will put them in order together." }).click();
+    await page.waitForFunction("window.__HH__.samarkand().flags.includes('kind')", undefined, { timeout: 4000 });
+    await skipTalk(page);
+    await fly(page, "mould", "window.__HH__.samarkand().flags.includes('feather')");
+    const onRack = await ev<{ y: number }>(page, "window.__HH__.where()");
+    const featherLine = await said(page);
+    await skipTalk(page);
+    await page.waitForFunction("window.__HH__.samarkand().shown && window.__HH__.samarkand().shown.feather === false", undefined, { timeout: 4000 });
+    const asked = (await sm(page))!;
+    record("touching the papermaker greets and offers both questions, answered by the museum's record in the page's own words (the old report of 751 kept as a report handed down, not a proved beginning; the recipe from rags to a polished sheet), with a goodbye of the workshop's own; the child is answered kindly; the feather is caught in the spare mould on top of the tall rack, reached by flight; the flags are the page quest's own and no move is counted",
+      hello.line === "Welcome to the workshop, little bird. The cards of the steps are waiting on the workbench." && hello.who === "The papermaker, an invented person" && choices0.join("|").replace(/✦|›|»/g, "").includes("Ask about the old report") && choices0[choices0.length - 1] === "Thank you. Now to the workbench." &&
+        story.who === "From the museum's record" && /751/.test(story.line ?? "") && /report handed down, not a proved beginning/.test(story.line ?? "") && how.who === "From the museum's record" && /The record gives the way it was made/.test(how.line ?? "") &&
+        bye.line === "Go well. The rags go in first, and the smooth sheet comes out last." && bye.who === "The papermaker, an invented person" &&
+        child.who === "The child who helps, an invented person" && /wind blew them down/.test(child.line ?? "") &&
+        onRack.y === 150 && featherLine.line === "A feather, caught in the mould! It is one of mine." && asked.flags.slice().sort().join() === "answered,askedHow,askedStory,feather,kind" && asked.moves === 1 && asked.shown?.feather === false,
+      { hello, choices0, story, how, bye, child, onRack, featherLine, flags: asked.flags });
+
+    // (5) The row put right by exchanges worked out from the workshop's own state, each made by flight and touch, then the
+    // bell by flight: the run is shown a place at a time, the material over each place, the sheet made, the door lit, the panel.
+    let exchanges = 0;
+    for (;;) {
+      const pair = nextPair((await sm(page))!);
+      if (!pair) break;
+      await exchangeBy(page, pair[0], pair[1]);
+      exchanges++;
+    }
+    await fly(page, "bell", "window.__HH__.samarkand().runs === 2");
+    await page.waitForFunction("window.__HH__.samarkand().lit >= 3 && window.__HH__.samarkand().shown.material[2] !== null", undefined, { timeout: 5000 });
+    const running = (await sm(page))!;
+    if (outDir) await page.screenshot({ path: resolve(outDir, "samarkand-room-run.png") });
+    await page.waitForFunction("window.__HH__.samarkand().doorLit", undefined, { timeout: 10000 });
+    await page.waitForFunction(`document.querySelector('${ROOM} .room > .visually-hidden[role=status]').textContent.includes('door is open')`, undefined, { timeout: 4000 });
+    const live = await ev<string>(page, `document.querySelector('${ROOM} .room > .visually-hidden[role=status]').textContent`);
+    const panel = await ev<{ shown: boolean; modal: number; goals: number; met: number; notes: string[]; links: string[]; pending: string; buttons: string[]; door: { lit: boolean; scene: string }; list: string[]; objective: string; saved: boolean; resume: unknown; placesDisabled: boolean }>(page, `(() => { const p = document.querySelector('${ROOM} .door-panel'); return { shown: !p.hidden, modal: document.querySelectorAll('[aria-modal=true]').length, goals: p.querySelectorAll('.goals li').length, met: p.querySelectorAll('.goals .met').length, notes: [...p.querySelectorAll('.note p')].map((x) => x.textContent), links: [...p.querySelectorAll('.note a')].map((a) => a.getAttribute('href')), pending: p.querySelector('.pending').textContent, buttons: [...p.querySelectorAll('button')].map((b) => b.textContent), door: window.__HH__.door(), list: [...document.querySelectorAll('${ROOM} .room-words > ul li button')].map((b) => b.textContent), objective: document.querySelector('${ROOM} .objective').textContent, saved: JSON.parse(localStorage.getItem('im.hudhud.save.v1') || '{}').slots?.[0]?.quests?.['${QUEST}']?.done === true, resume: JSON.parse(localStorage.getItem('im.hudhud.save.v1') || '{}').slots?.[0]?.resume ?? null, placesDisabled: [...document.querySelectorAll('${ROOM} .sheet-row button')].every((b) => b.disabled) }; })()`);
+    const finished = (await sm(page))!;
+    const doneRan = await ranText(page);
+    await skipTalk(page);
+    if (outDir) await page.screenshot({ path: resolve(outDir, "samarkand-room-door-lit.png") });
+    await page.locator(`${ROOM} .stage`).focus();
+    await walkRight(page, "!document.querySelector('.hub').hidden");
+    const back = await ev<{ hub: boolean; roomHidden: boolean; last: { scene: string; where: { x: number; y: number; reach: number }; bird: { x: number; y: number } } | null; label: string; canvases: number }>(page, `({ hub: !document.querySelector('.hub').hidden, roomHidden: document.querySelector('.room-box').hidden, last: window.__HH__.lastDoor(), label: document.querySelector(".hub button[data-quest='${QUEST}']").textContent, canvases: document.querySelectorAll('.room-box canvas, #stage canvas').length })`);
+    const reach = back.last ? Math.hypot(back.last.where.x - back.last.bird.x, back.last.where.y - (back.last.bird.y - 30)) : null;
+    record("the row put right by exchanges worked out from the workshop's own state, each made by flight and touch, and the bell rung by flight: the run is shown a place at a time (the material drawn above each place as it passes), the sheet is made in the fewest moves, Hudhud says the page's last line, the door lights, the panel beside the stage (no modal sheet) shows four goals met, the quest's three notes, the workshop's note and 'Historical review pending', and the two links; the list then offers only the door, the place kept is cleared, and holding the right arrow key walks Hudhud to it and, in free play, back to the Atlas",
+      exchanges === 2 && running.busy && running.lit >= 3 && running.lit < 7 && running.shown!.material.filter((m) => m !== null).length >= 3 && finished.done && finished.moves === 3 && finished.par === 3 && finished.runs === 2 && finished.places.join() === ANSWER.join() && finished.talk?.script === "done" && finished.shown?.agree === true && finished.shown.material.join() === "pieces,white,pulp,sized,wet-sheet,dry-sheet,paper" && finished.shown.modes.every((m) => m === "held") &&
+        /The sheet is made, and it is smooth\./.test(doneRan) && /door is open/.test(live) &&
+        panel.shown && panel.modal === 0 && panel.goals === 4 && panel.met === 4 && panel.notes.includes(NOTE_ROOM) && panel.notes.some((n) => /^This is a game, not a history\./.test(n)) && panel.notes.some((n) => /the Chinese invented paper/.test(n)) && /Historical review pending/.test(panel.pending) && panel.placesDisabled &&
+        panel.links.join() === "https://islam.museum/en/invention/paper-mill-samarkand/,https://islam.museum/en/place/samarqand/" && panel.buttons.join("|") === "Go through the door|Play again|Back to the Atlas" && panel.door.lit && panel.door.scene === "samarkand" &&
+        panel.list.join() === "Go through the door" && panel.objective.startsWith("Walk Hudhud to the lit door at the end of the workshop.") && panel.saved && panel.resume === null &&
+        back.hub && back.roomHidden && back.last?.scene === "samarkand" && reach !== null && reach < back.last.where.reach && /^Play again: /.test(back.label) && back.canvases === 0,
+      { exchanges, running: { lit: running.lit, busy: running.busy, shown: running.shown }, finished: { done: finished.done, moves: finished.moves, shown: finished.shown }, doneRan, live, panel, back: { ...back }, reach });
+    await ctx.close();
+  }
+
+  // (6) Left in the middle with a card lifted, the page loaded again: the Atlas says Continue, and the workshop comes back
+  // as it was, the lifted card included.
+  {
+    const ctx = await browser.newContext({ viewport: { width: 1280, height: 900 } });
+    const page = await open(ctx, "&style=explorer");
+    await openSm(page);
+    await skipTalk(page);
+    await exchangeBy(page, 0, 2);
+    await fly(page, "place-4", "window.__HH__.samarkand().lifted === 4");
+    const left = (await sm(page))!;
+    const kept = await ev<{ quest: string; snap: Record<string, unknown> } | null>(page, "JSON.parse(localStorage.getItem('im.hudhud.save.v1') || '{}').slots?.[0]?.resume ?? null");
+    await ev(page, "window.__HH__.saveReady()");
+    await page.reload();
+    await page.waitForFunction("window.__HH__ && window.__HH__.ready");
+    await leaveOpening(page);
+    const label = await ev<string>(page, `document.querySelector(".hub button[data-quest='${QUEST}']").textContent`);
+    await page.locator(`.hub button[data-quest='${QUEST}']`).click();
+    await page.waitForFunction("window.__HH__.samarkand() !== null && window.__HH__.where() !== null && window.__HH__.samarkand().shown !== null && window.__HH__.samarkand().shown.lifted === 4", undefined, { timeout: 30000 });
+    const resumed = (await sm(page))!;
+    const resumedWords = { lift: await liftText(page), pressed: (await placeButtons(page)).pressed };
+    if (outDir) await page.screenshot({ path: resolve(outDir, "samarkand-room-resumed.png") });
+    record("the paper workshop left in the middle keeps the paper's own snapshot with the lifted card; the page loaded again, the Atlas says Continue, and the workshop comes back as it was (the exchange made, the card in place 5 still lifted and said in words, no talk)",
+      left.moves === 1 && left.lifted === 4 && kept?.quest === QUEST && Object.keys(kept.snap).sort().join() === "flags,lifted,moves,places,style" && kept.snap.lifted === 4 &&
+        /^Continue: /.test(label) && resumed.places.join() === left.places.join() && resumed.moves === 1 && resumed.lifted === 4 && resumed.talk === null && resumed.shown?.lifted === 4 && resumed.shown.agree &&
+        resumedWords.lift.text === `Lifted: ${card(left.places[4]!)}` && resumedWords.pressed[4] === "true",
+      { left: { places: left.places, lifted: left.lifted }, kept, label, resumed: { places: resumed.places, lifted: resumed.lifted, shown: resumed.shown }, resumedWords: resumedWords.lift });
+    await ctx.close();
+  }
+
+  // (7) In the journey: every scene before it finished by the test hooks and left through its door; al-Jahiz's lit door,
+  // walked to with the right arrow key, leads into this workshop (the thirteenth scene: no page, no corridor, Hudhud's line
+  // naming it); finished, its lit door, the last of the journey, walked to, ends the journey on the Atlas with Hudhud's
+  // closing line.
+  {
+    const ctx = await browser.newContext({ viewport: { width: 1280, height: 900 } });
+    const page = await open(ctx, "&style=explorer");
+    const through = async (scene: string) => {
+      await ev(page, "window.__HH__.goThroughDoor()");
+      await page.waitForFunction(`window.__HH__.${scene}() !== null && window.__HH__.where() !== null`, undefined, { timeout: 30000 });
+    };
+    await ev(page, "window.__HH__.beginJourney()");
+    await page.waitForFunction("window.__HH__.where() !== null", undefined, { timeout: 30000 });
+    await ev(page, "window.__HH__.command({type:'skip'}); for (const id of ['mirror-a','mirror-c','mirror-e']) window.__HH__.touch(id); window.__HH__.command({type:'skip'}); window.__HH__.touch('page');");
+    await through("tusi");
+    await ev(page, "window.__HH__.tusiCommand({ type: 'skip' }); for (const id of ['lever-speed', 'lever-dir', 'crank']) window.__HH__.tusiCommand({ type: 'touch', id });");
+    await page.waitForFunction("window.__HH__.tusi().doorLit", undefined, { timeout: 15000 });
+    await through("jazari");
+    await ev(page, "window.__HH__.jazariCommand({ type: 'skip' })");
+    for (const id of ["place-2", "place-3", "place-1", "place-1", "place-3", "spare-1", "place-2", "spare-1", "place-3", "place-5", "place-4", "lever"]) await ev(page, `window.__HH__.jazariCommand({ type: 'touch', id: '${id}' })`);
+    await page.waitForFunction("window.__HH__.jazari().doorLit", undefined, { timeout: 15000 });
+    await through("khwarizmi");
+    await ev(page, "window.__HH__.khwarizmiCommand({ type: 'skip' })");
+    for (const id of ["restore-left-number", "weight-things", "scoop"]) await ev(page, `window.__HH__.khwarizmiCommand({ type: 'touch', id: '${id}' })`);
+    await page.waitForFunction("window.__HH__.khwarizmi().doorLit", undefined, { timeout: 15000 });
+    await through("kindi");
+    await ev(page, "window.__HH__.kindiCommand({ type: 'skip' }); (() => { const k = window.__HH__.kindi(); for (const m of Object.keys(k.puzzle.key)) if (k.puzzle.message.includes(m)) { window.__HH__.kindiCommand({ type: 'touch', id: 'token-' + k.puzzle.key[m] }); window.__HH__.kindiCommand({ type: 'touch', id: 'slot-' + m }); } window.__HH__.kindiCommand({ type: 'touch', id: 'bell' }); })()");
+    await page.waitForFunction("window.__HH__.kindi().doorLit", undefined, { timeout: 15000 });
+    await through("idrisi");
+    await ev(page, "window.__HH__.idrisiCommand({ type: 'skip' }); (() => { for (let i = 0; i < 30; i++) { const s = window.__HH__.idrisi(); const p = s.grid.findIndex((id, k) => id !== s.solution[k]); if (p < 0 || s.done) break; window.__HH__.idrisiCommand({ type: 'touch', id: 'place-' + p }); window.__HH__.idrisiCommand({ type: 'touch', id: 'place-' + s.grid.indexOf(s.solution[p]) }); } })()");
+    await page.waitForFunction("window.__HH__.idrisi().doorLit", undefined, { timeout: 15000 });
+    await through("razi");
+    await ev(page, "window.__HH__.raziCommand({ type: 'skip' }); (() => { const A = ['books-head', 'own-head', 'books-chest', 'own-chest', 'books-foot', 'own-foot']; for (let i = 0; i < 20; i++) { const s = window.__HH__.razi(); const p = s.places.findIndex((id, k) => id !== A[k]); if (p < 0) break; window.__HH__.raziCommand({ type: 'touch', id: 'place-' + p }); window.__HH__.raziCommand({ type: 'touch', id: 'place-' + window.__HH__.razi().places.indexOf(A[p]) }); } window.__HH__.raziCommand({ type: 'touch', id: 'frame' }); })()");
+    await page.waitForFunction("window.__HH__.razi().doorLit", undefined, { timeout: 15000 });
+    await through("karima");
+    await ev(page, "window.__HH__.karimaCommand({ type: 'skip' })");
+    const kr = await ev<{ puzzle: { copies: string[][]; hers: number } }>(page, "window.__HH__.karima()");
+    for (const x of slipsOf(kr.puzzle)) await ev(page, `window.__HH__.karimaCommand({ type: 'touch', id: 'sign-${x.copy}-${x.place}' })`);
+    await page.waitForFunction("window.__HH__.karima().doorLit", undefined, { timeout: 15000 });
+    await through("battuta");
+    await ev(page, "window.__HH__.battutaCommand({ type: 'skip' }); for (const stop of window.__HH__.battuta().stage.road) window.__HH__.battutaCommand({ type: 'touch', id: 'bead-' + stop });");
+    await page.waitForFunction("window.__HH__.battuta().doorLit", undefined, { timeout: 15000 });
+    await through("coffeeRoom");
+    await ev(page, "window.__HH__.coffeeRoomCommand({ type: 'skip' }); (() => { const c = window.__HH__.coffeeRoom(); for (const i of c.items) { window.__HH__.coffeeRoomCommand({ type: 'touch', id: 'card-' + i }); window.__HH__.coffeeRoomCommand({ type: 'touch', id: 'group-' + c.answer[i] }); } window.__HH__.coffeeRoomCommand({ type: 'touch', id: 'bell' }); })()");
+    await page.waitForFunction("window.__HH__.coffeeRoom().doorLit", undefined, { timeout: 15000 });
+    await through("alhambra");
+    await ev(page, "window.__HH__.alhambraCommand({ type: 'skip' }); (() => { for (let i = 0; i < 80; i++) { const a = window.__HH__.alhambra(); const per = (k) => (k === 'cross' || k === 'blank' ? 1 : k === 'straight' ? 2 : 4); const p = a.cells.findIndex((c, k) => a.wet[String(k)] !== undefined && c.turn % per(c.kind) !== a.wet[String(k)]); if (p < 0 || a.done) break; window.__HH__.alhambraCommand({ type: 'touch', id: 'place-' + p }); } })()");
+    await page.waitForFunction("window.__HH__.alhambra().doorLit", undefined, { timeout: 15000 });
+    await through("jahizRoom");
+    await ev(page, "window.__HH__.jahizRoomCommand({ type: 'skip' }); (() => { const c = window.__HH__.jahizRoom(); for (const i of c.items) { window.__HH__.jahizRoomCommand({ type: 'touch', id: 'card-' + i }); window.__HH__.jahizRoomCommand({ type: 'touch', id: 'group-' + c.answer[i] }); } window.__HH__.jahizRoomCommand({ type: 'touch', id: 'bell' }); })()");
+    await page.waitForFunction("window.__HH__.jahizRoom().doorLit", undefined, { timeout: 15000 });
+    for (let i = 0; i < 8 && (await ev<{ talk: unknown }>(page, "window.__HH__.jahizRoom()")).talk; i++) await ev(page, "window.__HH__.jahizRoomCommand({ type: 'skip' })");
+    await page.locator(`${ROOM} .stage`).focus();
+    // Al-Jahiz's lit door, walked to with the right arrow key: into the workshop.
+    await walkRight(page, "window.__HH__.samarkand() !== null && window.__HH__.where() !== null && window.__HH__.samarkand().shown !== null");
+    const entered = await ev<{ journey: { scene: number; at: number }; last: { scene: string } | null; toast: string | null; heading: string; corridors: number; page: unknown; jahiz: unknown; roomHidden: boolean }>(page, `({ journey: window.__HH__.journey(), last: window.__HH__.lastDoor(), toast: document.querySelector('.toast') ? document.querySelector('.toast').textContent : null, heading: document.querySelector('${ROOM} h2').textContent, corridors: document.querySelectorAll('.corridor').length, page: window.__HH__.paper(), jahiz: window.__HH__.jahizRoom(), roomHidden: document.querySelector('.room-box').hidden })`);
+    if (outDir) await page.screenshot({ path: resolve(outDir, "samarkand-room-journey.png") });
+    // The workshop finished by the test hooks, then its lit door, the last, walked to with the right arrow key.
+    await ev(page, "window.__HH__.samarkandCommand({ type: 'skip' }); (() => { const A = ['cut', 'clean-bleach', 'pound', 'size', 'lift', 'dry', 'polish']; for (let i = 0; i < 20; i++) { const s = window.__HH__.samarkand(); const p = s.places.findIndex((id, k) => id !== A[k]); if (p < 0) break; window.__HH__.samarkandCommand({ type: 'touch', id: 'place-' + p }); window.__HH__.samarkandCommand({ type: 'touch', id: 'place-' + window.__HH__.samarkand().places.indexOf(A[p]) }); } window.__HH__.samarkandCommand({ type: 'touch', id: 'bell' }); })()");
+    await page.waitForFunction("window.__HH__.samarkand().doorLit", undefined, { timeout: 15000 });
+    for (let i = 0; i < 8 && (await sm(page))?.talk; i++) await ev(page, "window.__HH__.samarkandCommand({ type: 'skip' })");
+    await page.locator(`${ROOM} .stage`).focus();
+    await walkRight(page, "!document.querySelector('.hub').hidden");
+    await page.waitForFunction("document.querySelector('.toast') !== null", undefined, { timeout: 4000 });
+    const ended = await ev<{ journey: { active: boolean; at: number | null; scene: number | null }; last: { scene: string } | null; toast: string | null; hub: boolean; roomHidden: boolean; room: unknown; corridors: number; focus: string; begin: string }>(page, `({ journey: window.__HH__.journey(), last: window.__HH__.lastDoor(), toast: document.querySelector('.toast') ? document.querySelector('.toast').textContent : null, hub: !document.querySelector('.hub').hidden, roomHidden: document.querySelector('.room-box').hidden, room: window.__HH__.samarkand(), corridors: document.querySelectorAll('.corridor').length, focus: document.activeElement ? document.activeElement.tagName : '', begin: [...document.querySelectorAll('.hub button')].map((b) => b.textContent).find((t) => /journey/i.test(t)) || '' })`);
+    if (outDir) await page.screenshot({ path: resolve(outDir, "samarkand-room-journey-end.png") });
+    record("in the journey al-Jahiz's lit door, walked to with the right arrow key, leads into the paper workshop of Samarkand (the thirteenth scene: a room, no page, no corridor, Hudhud's line naming it); finished, the workshop's lit door, the last of the journey, walked to with the right arrow key, ends the journey on the Atlas with Hudhud's closing line (no corridor at any point)",
+      entered.journey.scene === 12 && entered.journey.at === 12 && entered.last?.scene === "jahiz" && entered.toast === "Hudhud: On to the next page of the Atlas: Samarqand!" && entered.heading === "Samarqand" && entered.corridors === 0 && entered.page === null && entered.jahiz === null && !entered.roomHidden &&
+        ended.hub && ended.roomHidden && ended.room === null && ended.corridors === 0 && ended.last?.scene === "samarkand" && ended.journey.active === false && ended.journey.at === 13 && ended.toast === "Hudhud: Every page built so far is home. More pages are on their way." && ended.focus === "H2" && /again/i.test(ended.begin),
+      { entered, ended });
+    await ctx.close();
+  }
+
+  // (8) An Arabic page: the first place on the right, Arabic words and numerals.
+  {
+    const ctx = await browser.newContext({ viewport: { width: 1280, height: 900 } });
+    const page = await ctx.newPage();
+    page.on("pageerror", (e) => errors.push(String(e)));
+    await page.goto(`${served.base}/games/hudhud/index.html?lang=ar&music=off&style=explorer&fresh=1`);
+    await page.waitForFunction("window.__HH__ && window.__HH__.ready");
+    await leaveOpening(page);
+    await openSm(page);
+    const ar = await ev<{ dir: string; alt: string | null; heading: string; who: string | null }>(page, `({ dir: document.documentElement.dir, alt: document.querySelector('${ROOM} .stage').getAttribute('aria-label'), heading: document.querySelector('${ROOM} h2').textContent, who: document.querySelector('${ROOM} .talk .who') ? document.querySelector('${ROOM} .talk .who').textContent : null })`);
+    await skipTalk(page);
+    await fly(page, "place-0", "window.__HH__.samarkand().lifted === 0");
+    const firstX = (await ev<{ x: number }>(page, "window.__HH__.where()")).x;
+    const lift = await liftText(page);
+    if (outDir) await page.screenshot({ path: resolve(outDir, "samarkand-room-ar.png") });
+    await fly(page, "place-2", "window.__HH__.samarkand().moves === 1");
+    const secondX = (await ev<{ x: number }>(page, "window.__HH__.where()")).x;
+    const s = { v: (await sm(page))!, labels: (await placeButtons(page)).labels, objective: await ev<string>(page, `document.querySelector('${ROOM} .objective').textContent`), others: await others(page), note: await ev<string>(page, `document.querySelector('${ROOM} .words section:last-child p').textContent`) };
+    record("the paper workshop on an Arabic page runs right to left, sets the first place of the bench on the right, says which card is lifted in Arabic, names the places with Arabic numerals and no Latin digit, and gives the workshop's note in the Arabic words given for it",
+      ar.dir === "rtl" && ar.alt === "ورشة الورق في صورة. والقائمة التي بعدها تقول الشيء نفسه بالكلمات." && ar.heading === "سمرقند" && ar.who === "هدهد" &&
+        lift.text === "مرفوعة: نظّف القطع وبيّضها" && firstX > secondX && s.v.moves === 1 && s.v.places[0] === "cut" && s.v.shown?.agree === true && s.labels[0] === "اذهب إلى المكان ١ على طاولة العمل، قصّ الخِرَق قطعًا صغيرة" && s.others.includes("اذهب إلى الطفل المساعد") &&
+        s.note === "الورشة وبطاقات الخطوات والحوض والجرس من خيال اللعب، وليست صورة لمصنع ورق في سمرقند." && !/[0-9]/.test(s.labels.join("") + s.objective + lift.text),
+      { ar, lift, firstX, secondX, s: { labels: s.labels.slice(0, 2), objective: s.objective, places: s.v.places } });
+    await ctx.close();
+  }
+
+  // (9) Movement kept still: the bird is set down at once and each touch takes effect on the same step; Story's five cards
+  // are put in order and the sheet made with no wait, and the door is still walked to.
+  {
+    const ctx = await browser.newContext({ viewport: { width: 1280, height: 900 } });
+    const page = await open(ctx, "&style=story&motion=reduced&fresh=1");
+    await openSm(page);
+    await skipTalk(page);
+    const t0 = Date.now();
+    await ev(page, "window.__HH__.goTo('place-0')");
+    const once = (await sm(page))!;
+    await page.waitForFunction("window.__HH__.samarkand().shown.lifted === 0", undefined, { timeout: 2000 });
+    const onceShown = (await sm(page))!.shown;
+    await ev(page, "window.__HH__.goTo('place-0')");
+    const putDown = (await sm(page))!.lifted;
+    const story = ["cut", "clean-bleach", "pound", "size-lift", "dry-polish"];
+    for (let s = (await sm(page))!, pair = nextPair(s, story); pair; s = (await sm(page))!, pair = nextPair(s, story)) {
+      await ev(page, `window.__HH__.goTo('place-${pair[0]}')`);
+      await ev(page, `window.__HH__.goTo('place-${pair[1]}')`);
+    }
+    const t1 = Date.now();
+    await ev(page, "window.__HH__.goTo('bell')");
+    const madeAtOnce = (await sm(page))!;
+    await page.waitForFunction("window.__HH__.samarkand().doorLit", undefined, { timeout: 5000 });
+    const took = Date.now() - t0;
+    const runTook = Date.now() - t1;
+    const calm = (await sm(page))!;
+    if (outDir) await page.screenshot({ path: resolve(outDir, "samarkand-room-reduced.png") });
+    await skipTalk(page);
+    await page.locator(`${ROOM} .stage`).focus();
+    await walkRight(page, "!document.querySelector('.hub').hidden");
+    const last = await ev<{ scene: string } | null>(page, "window.__HH__.lastDoor()");
+    record("the paper workshop with motion=reduced: flown to, the bird is set down and touches at once (the first card lifted on the same step, and put down on the next); Story's five cards are put in order, and the run is shown at once, not a place at a time; the lit door is still reached by walking",
+      once.lifted === 0 && onceShown?.lifted === 0 && onceShown.agree && putDown === null && madeAtOnce.done && calm.done && calm.places.length === 5 && calm.moves === 2 && calm.shown?.material.join() === "pieces,white,pulp,wet-sheet,paper" && runTook < 700 && took < 2500 && last?.scene === "samarkand",
+      { once: once.lifted, onceShown, putDown, madeAtOnce: { done: madeAtOnce.done, busy: madeAtOnce.busy }, calm: { done: calm.done, moves: calm.moves, material: calm.shown?.material }, took, runTook, last });
+    await ctx.close();
+  }
+
+  // (10) Without WebGL the scene is played on the paper's page, and finished there.
+  {
+    const ctx = await browser.newContext({ viewport: { width: 1280, height: 800 } });
+    await ctx.addInitScript("const g = HTMLCanvasElement.prototype.getContext; HTMLCanvasElement.prototype.getContext = function (t, ...a) { return /webgl/.test(t) ? null : g.call(this, t, ...a); };");
+    const page = await open(ctx, "&fresh=1&preflight=off&style=explorer");
+    const note = await ev<string>(page, `(() => { const s = document.querySelector(".hub button[data-quest='${QUEST}']").parentElement.querySelector('small'); return s ? s.textContent : ''; })()`);
+    await page.locator(`.hub button[data-quest='${QUEST}']`).click();
+    await page.waitForFunction("window.__HH__.paper() !== null", undefined, { timeout: 10000 });
+    const onPage = await ev<{ room: unknown; selects: number; roomHidden: boolean; benchShown: boolean }>(page, "({ room: window.__HH__.samarkand(), selects: document.querySelectorAll('.bench select[data-place]').length, roomHidden: document.querySelector('.room-box').hidden, benchShown: !document.querySelector('.bench').hidden })");
+    for (const [place, part] of ANSWER.entries()) await page.locator(`.bench select[data-place='${place}']`).selectOption(part);
+    await page.getByRole("button", { name: "Make a sheet" }).click();
+    await page.waitForSelector(".bench .results:not([hidden])", { timeout: 20000 });
+    const done = await ev<boolean>(page, "window.__HH__.paper().done");
+    if (outDir) await page.screenshot({ path: resolve(outDir, "samarkand-room-without-webgl.png"), fullPage: true });
+    record("without WebGL Samarkand's scene is played on the paper's page (its trial line on the Atlas, a list of choices for every place, no workshop), and is finished there",
+      /first trial/.test(note) && onPage.room === null && onPage.selects === 7 && onPage.roomHidden && onPage.benchShown && done, { note, onPage, done });
     await ctx.close();
   }
 }

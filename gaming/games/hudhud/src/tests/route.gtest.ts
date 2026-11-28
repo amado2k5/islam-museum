@@ -528,7 +528,7 @@ describe("the words", () => {
       expect(first, l).toBeGreaterThan(0);
       const count = ks.filter((k) => k.startsWith("ib_")).length;
       expect(ks.slice(first, first + count).every((k) => k.startsWith("ib_")), l).toBe(true);
-      expect(ks.slice(first + count).every((k) => k.startsWith("ts_") || k.startsWith("cq_") || k.startsWith("ah_") || k.startsWith("rz_") || k.startsWith("kr_") || k.startsWith("jn_") || k.startsWith("jr_") || k.startsWith("tsr_") || k.startsWith("akr_") || k.startsWith("kdr_") || k.startsWith("isr_") || k.startsWith("rzr_") || k.startsWith("krr_") || k.startsWith("ibr_") || k.startsWith("cqr_") || k.startsWith("jzr_") || k.startsWith("ahr_")), l).toBe(true);
+      expect(ks.slice(first + count).every((k) => k.startsWith("ts_") || k.startsWith("cq_") || k.startsWith("ah_") || k.startsWith("rz_") || k.startsWith("kr_") || k.startsWith("jn_") || k.startsWith("jr_") || k.startsWith("tsr_") || k.startsWith("akr_") || k.startsWith("kdr_") || k.startsWith("isr_") || k.startsWith("rzr_") || k.startsWith("krr_") || k.startsWith("ibr_") || k.startsWith("cqr_") || k.startsWith("jzr_") || k.startsWith("ahr_") || k.startsWith("smr_")), l).toBe(true);
     }
   });
   it("names every stop of a stage differently from the others, in every language, and the sentence of the stage in each language names every stop, in the road's order", () => {

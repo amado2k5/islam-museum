@@ -32,6 +32,8 @@ import { JZR_SPEC } from "../content/jahiz-room";
 import { jahizRoom, type JahizRoom } from "./jahizroom";
 import { restoreAlhambra, type AlhambraCommand } from "../sim/alhambraroom";
 import { alhambraRoom, type AlhambraRoom } from "./alhambraroom";
+import { restoreSamarkand, type SamarkandCommand } from "../sim/samarkandroom";
+import { samarkandRoom, type SamarkandRoom } from "./samarkand";
 import { CIPHER_QUEST, cipherPuzzle } from "../content/cipher";
 import { restoreCipher } from "../sim/cipher";
 import { cipherQuest, type CipherQuest } from "./cipher";
@@ -216,11 +218,12 @@ async function main(): Promise<void> {
   const bench = el("section", { class: "bench", hidden: true });
   let pageRun: { quest: string; run: { node: HTMLElement; busy(): boolean; stop(): void } } | null = null;
   // A scene with a room of its own (al-Jazari's workshop, al-Tusi's observatory, al-Khwarizmi's room, al-Kindi's room,
-  // al-Idrisi's hall, al-Razi's study, Karima al-Marwaziyya's room, Ibn Battuta's inn, the coffee room, al-Jahiz's room
-  // and the Alhambra's court, since 27 November 2026) is opened like a page quest and shown here, as wide as the flying
-  // scene's stage. Its page quest stays as the way it is played without WebGL.
+  // al-Idrisi's hall, al-Razi's study, Karima al-Marwaziyya's room, Ibn Battuta's inn, the coffee room, al-Jahiz's room,
+  // the Alhambra's court and the paper workshop of Samarkand, since 27 November 2026: every scene of the journey) is
+  // opened like a page quest and shown here, as wide as the flying scene's stage. Its page quest stays as the way it is
+  // played without WebGL.
   const roomBox = el("section", { class: "room-box", hidden: true });
-  type AnyRoom = JazariRoom | TusiRoom | KhwarizmiRoom | KindiRoom | IdrisiRoom | RaziRoom | KarimaRoom | BattutaRoom | CoffeeRoom | JahizRoom | AlhambraRoom;
+  type AnyRoom = JazariRoom | TusiRoom | KhwarizmiRoom | KindiRoom | IdrisiRoom | RaziRoom | KarimaRoom | BattutaRoom | CoffeeRoom | JahizRoom | AlhambraRoom | SamarkandRoom;
   /** The open room, if a scene is being played in its room. */
   const openRoom = (): AnyRoom | null => (pageRun && "press" in pageRun.run ? (pageRun.run as unknown as AnyRoom) : null);
   /** The open room, if it is `quest`'s. */
@@ -1135,8 +1138,31 @@ async function main(): Promise<void> {
     [PAPER_QUEST]: {
       subject: PAPER_SUBJECT,
       trial: "pp_trial",
+      // One kept place serves both: the workshop's snapshot is the paper's own with the lifted card added.
       saved: () => pageSaved(PAPER_QUEST, (snap) => restorePaper(snap, paperPuzzle)),
       make: (c, title, kept) => paperQuest({ ...c, title, resume: kept as Parameters<typeof paperQuest>[0]["resume"] }),
+      // The paper workshop of Samarkand: the paper made by flying, in a room of its own.
+      room: roomsOn,
+      makeRoom: (c, title) =>
+        samarkandRoom({
+          ...c,
+          title,
+          quality,
+          keeper: () => slot().keeper,
+          textSpeed: () => settings().textSpeed,
+          perf: query.get("perf") === "1",
+          intent: () => input.intent(),
+          bindHold: (b, what) => input.bindHold(b, what),
+          blocked: () => sheetOpen(),
+          sound,
+          toast,
+          // The goals are written into the save; the workshop's own door leads on (no corridor).
+          finish: (g) => pageFinish(PAPER_QUEST, g),
+          through: () => moveOn(),
+          fallback: () => openPage(PAPER_QUEST, inJourney, true),
+          resume: pageSaved(PAPER_QUEST, restoreSamarkand),
+          keepPlace: (snap) => pageCheckpoint(PAPER_QUEST, snap),
+        }),
     },
     [ROUTE_QUEST]: {
       subject: ROUTE_SUBJECT,
@@ -1505,9 +1531,9 @@ async function main(): Promise<void> {
     if (inJourney !== null) strip.focus();
   }
   /** The door of whichever scene is open: lit or not, where it stands, and where the bird is. */
-  const doorNow = (): { lit: boolean; where: { x: number; y: number; reach: number } | null; bird: { x: number; y: number } | null; scene: "workshop" | "corridor" | "page" | "jazari" | "tusi" | "khwarizmi" | "kindi" | "idrisi" | "razi" | "karima" | "battuta" | "coffee" | "jahiz" | "alhambra" } | null => {
+  const doorNow = (): { lit: boolean; where: { x: number; y: number; reach: number } | null; bird: { x: number; y: number } | null; scene: "workshop" | "corridor" | "page" | "jazari" | "tusi" | "khwarizmi" | "kindi" | "idrisi" | "razi" | "karima" | "battuta" | "coffee" | "jahiz" | "alhambra" | "samarkand" } | null => {
     const room = openRoom();
-    if (room) return { ...room.door(), scene: pageRun?.quest === COUPLE_QUEST ? "tusi" : pageRun?.quest === ALGEBRA_QUEST ? "khwarizmi" : pageRun?.quest === CIPHER_QUEST ? "kindi" : pageRun?.quest === SHEETS_QUEST ? "idrisi" : pageRun?.quest === LEAVES_QUEST ? "razi" : pageRun?.quest === COLLATE_QUEST ? "karima" : pageRun?.quest === ROUTE_QUEST ? "battuta" : pageRun?.quest === COFFEE_QUEST ? "coffee" : pageRun?.quest === SORT_QUEST ? "jahiz" : pageRun?.quest === CHANNELS_QUEST ? "alhambra" : "jazari" };
+    if (room) return { ...room.door(), scene: pageRun?.quest === COUPLE_QUEST ? "tusi" : pageRun?.quest === ALGEBRA_QUEST ? "khwarizmi" : pageRun?.quest === CIPHER_QUEST ? "kindi" : pageRun?.quest === SHEETS_QUEST ? "idrisi" : pageRun?.quest === LEAVES_QUEST ? "razi" : pageRun?.quest === COLLATE_QUEST ? "karima" : pageRun?.quest === ROUTE_QUEST ? "battuta" : pageRun?.quest === COFFEE_QUEST ? "coffee" : pageRun?.quest === SORT_QUEST ? "jahiz" : pageRun?.quest === CHANNELS_QUEST ? "alhambra" : pageRun?.quest === PAPER_QUEST ? "samarkand" : "jazari" };
     if (started) {
       const w = running?.scene()?.where() ?? null;
       return { lit: state.done, where: { ...DOOR }, bird: w ? { x: w.x, y: w.y } : null, scene: "workshop" };
@@ -1758,7 +1784,16 @@ async function main(): Promise<void> {
     jahizRoomCommand: (c: SortRoomCommand) => roomOf<JahizRoom>(SORT_QUEST)?.command(c),
     sort: () => { const r = pageOf<SortQuest>(SORT_QUEST); return r ? { ...r.state(), busy: r.busy(), selected: r.selected(), status: r.status() } : null; },
     sortCommand: (c: Parameters<SortQuest["command"]>[0]) => pageOf<SortQuest>(SORT_QUEST)?.command(c),
-    startPaper: () => openPage(PAPER_QUEST),
+    // The paper's page quest (the way it is played without WebGL), and the paper workshop of Samarkand, where it is made by flying.
+    startPaper: () => openPage(PAPER_QUEST, null, true),
+    startSamarkand: () => openPage(PAPER_QUEST),
+    samarkand: () => {
+      const r = roomOf<SamarkandRoom>(PAPER_QUEST);
+      if (!r) return null;
+      const v = r.view();
+      return { ...v.state.paper, places: v.state.paper.puzzle.places, lifted: v.state.lifted, talk: v.state.talk, busy: r.busy(), lit: v.lit, stopped: v.stopped, doorLit: v.done, shown: r.running()?.scene()?.shown() ?? null };
+    },
+    samarkandCommand: (c: SamarkandCommand) => roomOf<SamarkandRoom>(PAPER_QUEST)?.command(c),
     paper: () => { const r = pageOf<PaperQuest>(PAPER_QUEST); return r ? { ...r.state(), busy: r.busy(), selected: r.selected(), status: r.status() } : null; },
     paperCommand: (c: Parameters<PaperQuest["command"]>[0]) => pageOf<PaperQuest>(PAPER_QUEST)?.command(c),
     // The road's page quest (the way it is played without WebGL), and Ibn Battuta's inn, where it is threaded by flying.
