@@ -2034,6 +2034,62 @@
      "sha256": "eb68cf60acc3aa8ede66d0b48c5ee162cdc105bc1c84d12314a0c3f4da79299e"
     }
    ]
+  },
+  {
+   "id": "granada/surface-tiles",
+   "game": "granada",
+   "title": "The valley's painted surface tiles: lime plaster, rammed earth, rubble stone, clay roof, weathered timber, river water and canal water, scaled to 1536 webp",
+   "madeBy": "AI image (ChatGPT Codex), painted to the museum's brief; draft, pending the founder's look. The tiles' prompts and checksums: /Users/ahmedabdelaal/Documents/islam-museum-game-art/manifest.jsonl (granada/textures/*-tile-2048.png); the scaling down and mirroring at the edges are this machine's and the game's",
+   "licence": "the museum's media of its own, CC BY-SA 4.0; the making is draft and awaits the founder's acceptance",
+   "surfaces": [],
+   "sources": [
+    {
+     "path": "art/make_tiles.py",
+     "sha256": "dc1f52b3f6e9006b52aaa43fa74f81c0b6acca0da9be37f0a17480091523cc41"
+    }
+   ],
+   "objects": [],
+   "placed": {},
+   "materials": [],
+   "triangles": 0,
+   "bytes": 2227608,
+   "files": [
+    {
+     "path": "granada/tile-lime-plaster-wall-1536.webp",
+     "bytes": 452638,
+     "sha256": "d2206e0e6431681f84e28866a368e0f8cc7aab1bb30c5297f2fd3f666de422f3"
+    },
+    {
+     "path": "granada/tile-rammed-earth-wall-1536.webp",
+     "bytes": 402108,
+     "sha256": "47b4e393e261d0f12ff02ef9444b84b226b31f0088692cac9bdb1dc1f1f65324"
+    },
+    {
+     "path": "granada/tile-rubble-stone-wall-1536.webp",
+     "bytes": 467396,
+     "sha256": "824f273dba36ab6e16c0e126fa1d86d995f7a3faa04f161586ddeb6a52d58c8f"
+    },
+    {
+     "path": "granada/tile-clay-roof-1536.webp",
+     "bytes": 302550,
+     "sha256": "8a68f480700fa67af6a702eccd416cace03f8659b8aa9b103a9124f50ebdad4c"
+    },
+    {
+     "path": "granada/tile-timber-planks-1536.webp",
+     "bytes": 337128,
+     "sha256": "68e9ad95aee1cbb8bab5c50d609bf7d3f9d827025e5e63bb3181ed40c991a222"
+    },
+    {
+     "path": "granada/tile-river-water-1536.webp",
+     "bytes": 124060,
+     "sha256": "067263cab1c37b757621b27b7b7062f7f8355825153838a933e34be3228bfac6"
+    },
+    {
+     "path": "granada/tile-canal-water-1536.webp",
+     "bytes": 141728,
+     "sha256": "b54be1ca58ec10df9c123c7caa392d1e079032e274be88d63dce5e955d6db202"
+    }
+   ]
   }
  ]
 }
