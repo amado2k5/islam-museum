@@ -179,3 +179,14 @@ describe("Kalima's own name file", () => {
     }
   });
 });
+
+describe("the Lantern's own name file", () => {
+  it("holds exactly the names of the Lantern's phrases, copied from the language's label file", () => {
+    for (const l of LANGS) {
+      const own = data<PackLabels>(`phrase-labels.v1.${l}.json`);
+      const ids = [...new Set(words[l]!.phrases.map((p) => p.id))].sort();
+      expect(Object.keys(own), l).toEqual(ids.filter((id) => labels[l]![id]));
+      for (const id of ids) expect(own[id], `${l} ${id}`).toEqual(labels[l]![id]);
+    }
+  });
+});

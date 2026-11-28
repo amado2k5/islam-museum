@@ -1,6 +1,6 @@
 // The Lantern: reveal a name from the museum one letter at a time before the lantern's seven drops of oil run out.
 import en from "../../i18n/en.json";
-import { loadLabels, loadWords, namer, sharedStrings } from "../../../../packages/daily/src/load";
+import { loadPhraseLabels, loadWords, namer, sharedStrings } from "../../../../packages/daily/src/load";
 import { recordUrl } from "../../../../packages/daily/src/pack";
 import { puzzleNumber } from "../../../../packages/daily/src/seed";
 import { fold, normalizeWord } from "../../../../packages/daily/src/text";
@@ -11,11 +11,12 @@ type G = Record<keyof typeof en, string>;
 interface Result { guessed: string[] }
 
 async function main(): Promise<void> {
-  const [shared, own, words, labels] = await Promise.all([sharedStrings(), import(`../../i18n/${lang}.json`).then((m) => m.default as G), loadWords(), loadLabels()]);
+  const [shared, own, words, labels] = await Promise.all([sharedStrings(), import(`../../i18n/${lang}.json`).then((m) => m.default as G), loadWords(), loadPhraseLabels()]);
   const s: Record<string, string> = { ...shared, ...own };
   const t = (k: keyof G, v: Record<string, string | number> = {}) => fill(own[k], v);
   const { name, line } = namer(labels);
-  const ui = shell({ s, title: t("title"), howto: [t("how_1"), t("how_2"), t("how_3"), shared.source_note!], prototype: t("prototype") });
+  const ui = shell({ s, title: t("title"), howto: [t("how_1"), t("how_2"), t("how_3"), shared.source_note!] });
+  // Released on 28 November 2026 by the founder's decision (docs/gaming/spec-production/release-status.json): no prototype label.
   const saved = store<Result>(`im.lantern.v1.${lang}`);
   const date = today();
   const up = (c: string) => c.toLocaleUpperCase(lang === "tr" ? "tr" : "en");
@@ -81,7 +82,16 @@ async function main(): Promise<void> {
     const keyAlphabet = [...new Set(alphabet.map((c) => fold(c, lang)))];
     for (const c of keyAlphabet) {
       const b = el("button", { type: "button", "aria-label": up(c) }, up(c)) as HTMLButtonElement;
-      b.addEventListener("click", () => guess(c));
+      b.addEventListener("click", () => {
+        const at = keyAlphabet.indexOf(c);
+        guess(c);
+        // The key just used is now disabled: a keyboard player's focus moves on to the next key still free, so they
+        // never lose their place (with none left, the end card has the focus's next stop).
+        if (document.activeElement === b || document.activeElement === document.body) {
+          const next = [...keyAlphabet.slice(at + 1), ...keyAlphabet.slice(0, at)].map((k) => buttons.get(k)!).find((x) => !x.disabled && !keys.hidden);
+          (next ?? end.querySelector<HTMLElement>("a, button"))?.focus();
+        }
+      });
       buttons.set(c, b);
       keys.append(b);
     }
