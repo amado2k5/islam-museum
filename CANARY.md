@@ -14,6 +14,14 @@ open a new block on top with the new version and today's date.
 ---
 
 ## v2.32.0 — 2026-11-26
+### Changed
+- **Kalima, the daily word game, is released: the first of the museum's games to leave prototype.** The founder chose to finish one game and asked for it to be marked complete.
+  - **What changed for the release:**
+    - a first visit loads a twentieth of what it did (17 to 53 KB of names a language, not the whole 0.4 to 0.8 MB label file);
+    - three colour pairs that failed WCAG AA contrast now pass, in all four daily games;
+    - the prototype label is gone from its page and from the museum's games page, whose introduction now says so in all seven languages.
+  - **How it was checked:** whole games were played with the keyboard alone in all seven languages, on phone and desktop screens, in light and dark, won and lost: 56 runs with no problem, on this machine's local host.
+  - **Not yet done, and stated on its evidence page:** no person has playtested it, no native reader has read five of its seven languages, and it has not been tried on a real phone.
 ### Fixed
 - **The website builds again (build infrastructure; nothing a reader sees).** Since 22 November 2026 every build ran out of disk: seven languages of pages are about 101 GB of files, more than the free GitHub runner holds. The build and the deploy now write the site into a compressed folder on the runner (`tools/ci/mount-compressed-dist.sh`); the pages are the same files, but they take about 33 GB of disk instead of 101 GB, leaving about 71 GB free (trial run 46031387448, 27 November 2026), room for roughly three times today's pages. No check was removed and nothing about the published site changes. Each build now reports the size of the site and the space left in its summary.
 ### Added

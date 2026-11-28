@@ -1,7 +1,7 @@
 // Kalima: guess the day's name from the museum in six tries. Each letter's result is shown by colour and by a sign
 // (✓ ↔ ·) and read out in words, so nothing depends on seeing colour.
 import en from "../../i18n/en.json";
-import { loadLabels, loadWords, namer, sharedStrings } from "../../../../packages/daily/src/load";
+import { loadWordLabels, loadWords, namer, sharedStrings } from "../../../../packages/daily/src/load";
 import { recordUrl } from "../../../../packages/daily/src/pack";
 import { puzzleNumber } from "../../../../packages/daily/src/seed";
 import { fold, normalizeWord } from "../../../../packages/daily/src/text";
@@ -14,11 +14,12 @@ const SIGN: Record<Mark, string> = { hit: "✓", near: "↔", miss: "·" };
 const RANK: Record<Mark, number> = { miss: 1, near: 2, hit: 3 };
 
 async function main(): Promise<void> {
-  const [shared, own, words, labels] = await Promise.all([sharedStrings(), import(`../../i18n/${lang}.json`).then((m) => m.default as G), loadWords(), loadLabels()]);
+  const [shared, own, words, labels] = await Promise.all([sharedStrings(), import(`../../i18n/${lang}.json`).then((m) => m.default as G), loadWords(), loadWordLabels()]);
   const s: Record<string, string> = { ...shared, ...own };
   const t = (k: keyof G, v: Record<string, string | number> = {}) => fill(own[k], v);
   const { name, line } = namer(labels);
-  const ui = shell({ s, title: t("title"), howto: [t("how_1"), t("how_2"), t("how_3"), shared.source_note!], prototype: t("prototype") });
+  const ui = shell({ s, title: t("title"), howto: [t("how_1"), t("how_2"), t("how_3"), shared.source_note!] });
+  // Released on 28 November 2026 by the founder's decision (docs/gaming/spec-production/release-status.json): no prototype label.
   const saved = store<Result>(`im.kalima.v1.${lang}`);
   const date = today();
   const up = (c: string) => c.toLocaleUpperCase(lang === "tr" ? "tr" : "en");

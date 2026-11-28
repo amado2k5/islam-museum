@@ -12,7 +12,8 @@ const T = ui(lang);
 const G = T.games;
 /** The games' own host in production. Each game is a folder of it and takes the page's language in its address. */
 const HOST = "https://games.islam.museum";
-/** In the registry's order. Every one is a prototype there; this page says so and never says more. */
+/** In the registry's order. Each is labelled a prototype unless it is released (gaming/games/registry.json). */
+const RELEASED = new Set<string>(["kalima"]);
 const GAMES = ["granada", "golden-age", "atlas", "hudhud", "five-questions", "kalima", "thread", "lantern", "lamp"] as const;
 ---
 <BaseLayout lang={lang} title={G.title} description={G.lede} path={`/${lang}/games/`}>
@@ -27,7 +28,7 @@ const GAMES = ["granada", "golden-age", "atlas", "hudhud", "five-questions", "ka
           const item = G.items[id];
           return (
             <li class="g-card">
-              <h3>{item.name} <span class="g-tag ui">{G.prototype}</span></h3>
+              <h3>{item.name}{!RELEASED.has(id) && <> <span class="g-tag ui">{G.prototype}</span></>}</h3>
               {item.tagline && <p class="ui muted g-tagline">{item.tagline}</p>}
               <p>{item.blurb}</p>
               <p class="ui"><a class="g-play" href={`${HOST}/${id}/?lang=${lang}`} rel="noopener" aria-label={`${G.play}: ${item.name}`}>{G.play} <span aria-hidden="true">↗</span></a> <span class="muted">{G.opens}</span></p>

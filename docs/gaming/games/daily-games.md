@@ -38,4 +38,4 @@ Built from commit `8a730f05e42` on 26 November 2026: 1,190 events, 1,500 people 
 
 - The strings and the record names in Urdu, French, Spanish, Turkish and Indonesian are machine work no native speaker has read.
 - No human has played them on a phone; the phone checks are an emulated 375×812 screen in a browser.
-- The label files are 0.4 to 0.6 MB a language before compression; a smaller per-day split would make the first visit lighter on a slow phone.
+- The label files are 0.4 to 0.8 MB a language before compression. Five Questions, the Thread and the Lantern still load them whole; Kalima, released on 28 November 2026, loads only its own words' names (17 to 53 KB).
