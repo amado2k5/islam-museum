@@ -17,8 +17,10 @@
 import { mkdirSync, writeFileSync } from "node:fs";
 import { resolve } from "node:path";
 import { chromium, type Page } from "playwright-core";
+import { localBase } from "./local-host";
 
-const base = process.argv[2] ?? "https://uat-games.islam.museum";
+// base: a local address; default the local host over dist/release (tools/local-host.ts); UAT and production are refused.
+const { base, close: closeHost } = await localBase(process.argv[2]);
 const out = process.argv[3] ? resolve(process.argv[3]) : null;
 if (out) mkdirSync(out, { recursive: true });
 const channelName = process.env.BROWSER ?? "chrome";
@@ -189,6 +191,7 @@ const after = await page.locator(".marks").count();
 record("AT-08 finished", after === 1, after === 1 ? "after a reload the finished game is still finished" : "after a reload the finished game was not shown as finished");
 await page.context().close();
 await browser.close();
+closeHost();
 
 // REL-01, second half.
 const atEnd = await pointer();

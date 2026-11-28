@@ -2,14 +2,16 @@
 // In each language asked for it opens the Atlas, starts the quest, plays it to the end through the game's own
 // commands, goes back to the Atlas, and reports console errors, content-security-policy violations, failed or
 // foreign requests, the music, the labels a prototype must show, and what the host says it is serving.
-// Usage: npx tsx --tsconfig tsconfig.json tools/hudhud-uat.ts <base, e.g. https://uat-games.islam.museum> <out dir> [langs, comma separated]
+// Usage: npx tsx --tsconfig tsconfig.json tools/hudhud-uat.ts <base: "local" for the local host over dist/release (tools/local-host.ts); UAT and production are refused, or a local address> <out dir> [langs, comma separated]
 import { mkdirSync, writeFileSync } from "node:fs";
 import { resolve } from "node:path";
 import { chromium } from "playwright-core";
 import { leaveOpening } from "./hudhud-opening";
+import { localBase } from "./local-host";
 
-const [base, outArg, langsArg = "en,ar"] = process.argv.slice(2);
-if (!base || !outArg) throw new Error("usage: hudhud-uat.ts <base> <out dir> [langs]");
+const [baseArg, outArg, langsArg = "en,ar"] = process.argv.slice(2);
+if (!baseArg || !outArg) throw new Error("usage: hudhud-uat.ts <local|base> <out dir> [langs]");
+const { base, close: closeHost } = await localBase(baseArg === "local" ? undefined : baseArg);
 const out = resolve(outArg);
 mkdirSync(out, { recursive: true });
 const channel = (await (await fetch(`${base}/_channel`)).json()) as { current: string; commit: string };
@@ -97,6 +99,7 @@ for (const lang of langsArg.split(",")) {
   await ctx.close();
 }
 await browser.close();
+closeHost();
 const report = { base, release: channel.current, commit: channel.commit, ran: new Date().toISOString(), browser: "chrome", pages, problems };
 writeFileSync(resolve(out, "hudhud-uat.json"), `${JSON.stringify(report, null, 1)}\n`);
 console.log(JSON.stringify(report, null, 1));

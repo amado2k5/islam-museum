@@ -32,6 +32,7 @@
     "build:release": "tsx --tsconfig tsconfig.json tools/build.ts",
     "check:release": "node tools/check-release.mjs dist/release",
     "release:smoke": "tsx --tsconfig tsconfig.json tools/release-smoke.ts",
+    "release:serve": "tsx --tsconfig tsconfig.json tools/local-host.ts",
     "granada:village-lab": "tsx --tsconfig tsconfig.json games/granada/tools/village-lab.ts",
     "granada:play": "tsx --tsconfig tsconfig.json tools/granada-play.ts",
     "build:release:music": "tsx --tsconfig tsconfig.json tools/build.ts --music-base ../media/music/",

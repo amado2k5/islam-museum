@@ -1,5 +1,7 @@
 # Where to try the games
 
+> **Founder rule, 28 November 2026: no agent deploys.** No agent or session starts, re-runs or approves any deploy of the games or the website, to UAT or production; the founder alone starts them from the GitHub website. Every games check runs against the local host (`npm --prefix gaming run release:serve`), never against `uat-games.islam.museum` or `games.islam.museum`. See `AGENTS.md`.
+
 _Written 25 November 2026. Three games exist, all prototypes: **Granada** (first in every list), **The Golden Age** and **Atlas**. Nothing is on the public site and nothing is deployed to production._
 
 | Game | What you get |

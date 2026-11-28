@@ -1,5 +1,7 @@
 # The games: building, testing, releasing and rolling back
 
+> **Founder rule, 28 November 2026: no agent deploys.** No agent or session starts, re-runs or approves any deploy of the games or the website, to UAT or production; the founder alone starts them from the GitHub website. Every games check runs against the local host (`npm --prefix gaming run release:serve`), never against `uat-games.islam.museum` or `games.islam.museum`. See `AGENTS.md`.
+
 _Written 25 November 2026 at the founder's instruction of that day, and updated the same evening after the first real run. **UAT is live** at `https://uat-games.islam.museum`: the founder said "Yes, run UAT" in chat and the agent started the workflow, action `check` and then `release` (check run [45713511479](https://github.com/amado2k5/islam-museum/actions/runs/45713511479), release run [45713830185](https://github.com/amado2k5/islam-museum/actions/runs/45713830185)). **Production has not been deployed**, and a rollback has not yet been made on Cloudflare, because it needs a second release to go back from._
 
 ## The first UAT run, 25 November 2026

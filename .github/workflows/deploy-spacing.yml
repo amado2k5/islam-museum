@@ -1,0 +1,74 @@
+name: Hourly spacing of production deploys
+
+# Founder rule, 28 November 2026: production is deployed at most once an hour, to keep R2 Class A operations
+# (writes, $4.50 a million) down. Every website production deploy calls this first, as its job "Hourly spacing";
+# the deploy's other jobs need it, so a refused run publishes nothing.
+#
+# It refuses the run when another website production deploy started less than an hour ago. A run counts unless it
+# was itself refused here (its "Hourly spacing" job failed); a run still in progress counts. Runs that are only
+# queued do not count: each meets this check when it starts. `urgent` (founder only: a broken production that cannot
+# wait) lets the run through and says so in the summary.
+on:
+  workflow_call:
+    inputs:
+      urgent:
+        description: "Founder only: deploy although another production deploy started less than an hour ago."
+        required: false
+        type: boolean
+        default: false
+
+permissions:
+  actions: read
+
+jobs:
+  check:
+    name: check
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Refuse a production deploy within an hour of the last one
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPO: ${{ github.repository }}
+          RUN: ${{ github.run_id }}
+          URGENT: ${{ inputs.urgent }}
+          MINUTES: "60"
+          # Every website workflow that publishes to production. Keep in step with the workflows that call this file
+          # (scripts/deploy-spacing.test.ts checks both ways).
+          WORKFLOWS: >-
+            deploy.yml deploy-all-parts.yml deploy-exp-all-parts.yml deploy-shared.yml
+            deploy-lang-ar.yml deploy-lang-en.yml deploy-lang-ur.yml deploy-lang-fr.yml
+            deploy-lang-es.yml deploy-lang-tr.yml deploy-lang-id.yml
+        run: |
+          set -euo pipefail
+          since=$(( $(date -u +%s) - MINUTES * 60 ))
+          blocker=""
+          for wf in $WORKFLOWS; do
+            # The newest runs of this workflow that started inside the window, other than this one.
+            while read -r id started status url; do
+              [ -n "$id" ] || continue
+              if [ "$status" = "completed" ]; then
+                refused=$(gh api "repos/$REPO/actions/runs/$id/jobs?per_page=100" \
+                  --jq '[.jobs[] | select((.name | startswith("Hourly spacing")) and .conclusion == "failure")] | length')
+                [ "$refused" = "0" ] || continue
+              fi
+              blocker="$wf run $id started $started ($url)"
+              break 2
+            done < <(gh api "repos/$REPO/actions/workflows/$wf/runs?per_page=20" --jq \
+              ".workflow_runs[] | select(.id != $RUN and .run_started_at != null and .status != \"queued\" and .status != \"pending\" and .status != \"waiting\")
+               | select((.run_started_at | fromdateiso8601) >= $since)
+               | \"\(.id) \(.run_started_at) \(.status) \(.html_url)\"")
+          done
+          if [ -z "$blocker" ]; then
+            echo "No website production deploy started in the last $MINUTES minutes: this one may go ahead."
+            echo "Hourly spacing: no production deploy in the last $MINUTES minutes." >> "$GITHUB_STEP_SUMMARY"
+            exit 0
+          fi
+          if [ "$URGENT" = "true" ]; then
+            echo "::warning::urgent: deploying although $blocker"
+            echo "Hourly spacing: **urgent override** used; $blocker." >> "$GITHUB_STEP_SUMMARY"
+            exit 0
+          fi
+          echo "::error::Production is deployed at most once an hour (R2 cost rule, 28 November 2026): $blocker. Start this deploy again after the hour, or set urgent only for a broken production."
+          echo "Hourly spacing: **refused**; $blocker. Nothing was published." >> "$GITHUB_STEP_SUMMARY"
+          exit 1

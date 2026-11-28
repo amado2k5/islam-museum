@@ -1,0 +1,17 @@
+{
+  "$comment": "Founder rule, 28 November 2026: no agent deploys the website or the games, to UAT or production; the founder alone starts deploys from the GitHub website. These denials hold for every Claude Code session in this repository until the founder lifts them (AGENTS.md, 'Deployment').",
+  "permissions": {
+    "deny": [
+      "Bash(gh workflow run *deploy*)",
+      "Bash(gh workflow run *Deploy*)",
+      "Bash(gh workflow run *r2-seed*)",
+      "Bash(gh api *dispatches*)",
+      "Bash(gh api *pending_deployments*)",
+      "Bash(*wrangler deploy*)",
+      "Bash(*wrangler pages deploy*)",
+      "Bash(*wrangler r2 object put*)",
+      "Bash(*r2-sync/batch/publish.mjs*)",
+      "Bash(*workers/games/publish.mjs*)"
+    ]
+  }
+}

@@ -4,7 +4,7 @@ fetches, a launcher that needs only Python, a guide, a check script, and checksu
 
 Two steps, because between them the folder is opened in a browser and checked:
 
-    python3 tools/qa-package.py assemble --release <release folder> --dir <package folder> [--build-run <id>] [--host https://uat-games.islam.museum]
+    python3 tools/qa-package.py assemble --release <release folder> --dir <package folder> [--build-run <id>] [--host http://127.0.0.1:4340, a local host only]
     python3 tools/qa-package.py seal --dir <package folder> --verified <qa-check report.json> --out <package.zip>
 
 `assemble` refuses a release that is not what its own manifest records, music or models that are not what theirs
@@ -19,6 +19,7 @@ import pathlib
 import re
 import shutil
 import sys
+import urllib.parse
 import urllib.request
 import zipfile
 
@@ -85,6 +86,8 @@ def assemble(args):
     # 3. What the host itself sends, so that the launcher can send the same.
     release_id = None
     host = {"recordedFrom": args.host, "security": {}, "channel": {}}
+    if args.host and urllib.parse.urlparse(args.host).hostname not in ("localhost", "127.0.0.1", "::1"):
+        sys.exit(f"{args.host} is not this machine: games checks read only a local host (npm run release:serve), never UAT or production (founder rule, 28 November 2026).")
     if args.host:
         with urllib.request.urlopen(urllib.request.Request(f"{args.host}/_channel", headers={"User-Agent": "im-games-qa-package"}), timeout=30) as r:
             host["channel"] = json.loads(r.read())

@@ -7,9 +7,11 @@
 // Usage: npx tsx --tsconfig tsconfig.json tools/save-carry.ts make|check [base] <storage file>
 import { existsSync } from "node:fs";
 import { chromium, type Page } from "playwright-core";
+import { localBase } from "./local-host";
 
 const [mode, baseArg, fileArg] = process.argv.slice(2);
-const base = fileArg ? baseArg! : "https://uat-games.islam.museum";
+// base: a local address; default the local host over dist/release (tools/local-host.ts); UAT and production are refused.
+const { base, close: closeHost } = await localBase(fileArg ? baseArg : undefined);
 const file = fileArg ?? baseArg;
 if ((mode !== "make" && mode !== "check") || !file) throw new Error("usage: save-carry.ts make|check [base] <storage file>");
 if (mode === "check" && !existsSync(file)) throw new Error(`no storage file at ${file}: run "make" first`);
@@ -81,6 +83,7 @@ const report: Record<string, unknown> = { mode, base, release: pointer.current, 
 }
 if (mode === "make") await context.storageState({ path: file });
 await browser.close();
+closeHost();
 report.consoleErrors = errors;
 console.log(JSON.stringify(report, null, 1));
 if (errors.length) process.exit(1);

@@ -20,6 +20,11 @@ on:
         description: "Run id of \"Build the games\" to deploy. Empty: the latest successful build of main. Ignored by rollback."
         required: false
         type: string
+      urgent:
+        description: "Founder only: release although another games production release started less than an hour ago (a broken games host). Default: refused within the hour."
+        required: false
+        type: boolean
+        default: false
 
 permissions:
   contents: read
@@ -32,7 +37,55 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
+  # At most one production release an hour (R2 cost rule, 28 November 2026). A "check" writes nothing and is not
+  # spaced; a release or rollback is refused when another one started less than an hour ago. A run counts unless it
+  # was a check or was itself refused here; queued runs meet this when they start.
+  spacing:
+    name: Hourly spacing
+    if: inputs.action != 'check'
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Refuse a production release within an hour of the last one
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPO: ${{ github.repository }}
+          RUN: ${{ github.run_id }}
+          URGENT: ${{ inputs.urgent == true }}
+          MINUTES: "60"
+        run: |
+          set -euo pipefail
+          since=$(( $(date -u +%s) - MINUTES * 60 ))
+          blocker=""
+          while read -r id started status url; do
+            [ -n "$id" ] || continue
+            jobs=$(gh api "repos/$REPO/actions/runs/$id/jobs?per_page=100" --jq '[.jobs[] | {name, conclusion}]')
+            # A check writes nothing; a run refused here wrote nothing.
+            [ "$(jq '[.[] | select(.name | contains("check ("))] | length' <<<"$jobs")" = "0" ] || continue
+            [ "$(jq '[.[] | select((.name | startswith("Hourly spacing")) and .conclusion == "failure")] | length' <<<"$jobs")" = "0" ] || continue
+            blocker="run $id started $started ($url)"
+            break
+          done < <(gh api "repos/$REPO/actions/workflows/games-deploy.yml/runs?per_page=30" --jq \
+            ".workflow_runs[] | select(.id != $RUN and .run_started_at != null and .status != \"queued\" and .status != \"pending\" and .status != \"waiting\")
+             | select((.run_started_at | fromdateiso8601) >= $since)
+             | \"\(.id) \(.run_started_at) \(.status) \(.html_url)\"")
+          if [ -z "$blocker" ]; then
+            echo "No games production release in the last $MINUTES minutes: this one may go ahead."
+            exit 0
+          fi
+          if [ "$URGENT" = "true" ]; then
+            echo "::warning::urgent: releasing although $blocker"
+            echo "Hourly spacing: **urgent override** used; $blocker." >> "$GITHUB_STEP_SUMMARY"
+            exit 0
+          fi
+          echo "::error::The games are released to production at most once an hour (R2 cost rule, 28 November 2026): $blocker. Start again after the hour, or set urgent only for a broken games host."
+          echo "Hourly spacing: **refused**; $blocker. Nothing was published." >> "$GITHUB_STEP_SUMMARY"
+          exit 1
+
   production:
+    needs: [spacing]
+    # A check skips the spacing job and still runs; a refused release does not.
+    if: ${{ !cancelled() && (needs.spacing.result == 'success' || needs.spacing.result == 'skipped') }}
     uses: ./.github/workflows/games-deploy-env.yml
     with:
       environment: production

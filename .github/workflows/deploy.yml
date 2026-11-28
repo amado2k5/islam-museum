@@ -16,6 +16,11 @@ name: Deploy islam.museum to Cloudflare
 on:
   workflow_dispatch:
     inputs:
+      urgent:
+        description: "Founder only: deploy although another production deploy started less than an hour ago (a broken production). Default: refused within the hour."
+        required: false
+        type: boolean
+        default: false
       build_run_id:
         description: "Build run id to deploy (Build islam.museum). Empty: the latest successful build of main. The five newest successful builds keep their artifacts, so an older run id works only while its artifact still exists."
         required: false
@@ -36,7 +41,16 @@ concurrency:
   queue: max
 
 jobs:
+  # At most one production deploy an hour (R2 cost rule, 28 November 2026): deploy-spacing.yml refuses this run when
+  # another production deploy started less than an hour ago, and every other job waits for it.
+  spacing:
+    name: Hourly spacing
+    uses: ./.github/workflows/deploy-spacing.yml
+    with:
+      urgent: ${{ inputs.urgent == true }}
+
   production:
+    needs: [spacing]
     uses: ./.github/workflows/deploy-env.yml
     with:
       environment: production

@@ -1,14 +1,16 @@
 // Hudhud's Atlas-to-finished-quest path in Firefox and WebKit, through playwright-core only.
 // No browser binary is downloaded here. If Firefox/WebKit is not already installed for Playwright, that browser is
 // recorded as blocked and the tool continues with the others.
-// Usage: npx tsx --tsconfig tsconfig.json tools/hudhud-browsers.ts <base, e.g. https://uat-games.islam.museum> <out dir>
+// Usage: npx tsx --tsconfig tsconfig.json tools/hudhud-browsers.ts <base: "local" for the local host over dist/release (tools/local-host.ts); UAT and production are refused, or a local address> <out dir>
 import { mkdirSync, writeFileSync } from "node:fs";
 import { resolve } from "node:path";
 import { firefox, webkit, type BrowserType } from "playwright-core";
 import { leaveOpening } from "./hudhud-opening";
+import { localBase } from "./local-host";
 
-const [base, outArg] = process.argv.slice(2);
-if (!base || !outArg) throw new Error("usage: hudhud-browsers.ts <base> <out dir>");
+const [baseArg, outArg] = process.argv.slice(2);
+if (!baseArg || !outArg) throw new Error("usage: hudhud-browsers.ts <local|base> <out dir>");
+const { base, close: closeHost } = await localBase(baseArg === "local" ? undefined : baseArg);
 const out = resolve(outArg);
 mkdirSync(out, { recursive: true });
 
@@ -97,3 +99,4 @@ const report = {
 };
 writeFileSync(resolve(out, "hudhud-browsers.json"), `${JSON.stringify(report, null, 1)}\n`);
 console.log(JSON.stringify(report, null, 1));
+closeHost();
