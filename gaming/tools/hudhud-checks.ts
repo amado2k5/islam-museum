@@ -957,7 +957,8 @@ for (const lang of ["en", "ar"]) {
   };
   const pick = (page: Page, item: string, group: string) => page.locator(`.bench select[data-item='${item}']`).selectOption(group);
   const ctx = await browser.newContext({ viewport: { width: 1280, height: 900 } });
-  let page = await open(ctx, "&style=explorer");
+  // Since 27 November 2026 al-Jahiz's scene is played in his room; `room=off` keeps this check on the animal cards' page, which stays as the way it is played without WebGL.
+  let page = await open(ctx, "&style=explorer&room=off");
   const button = page.locator(`.hub button[data-quest='${QUEST}']`);
   const isPlain = await button.evaluate((b) => !b.classList.contains("primary"));
   const label = await button.textContent();
@@ -1015,7 +1016,8 @@ for (const lang of ["en", "ar"]) {
   await ctx.close();
   // Left in the middle: one card placed, the page loaded again, and the Atlas says Continue; the card is where it was.
   const ctx2 = await browser.newContext({ viewport: { width: 1280, height: 900 } });
-  page = await open(ctx2, "&style=explorer");
+  // Since 27 November 2026 al-Jahiz's scene is played in his room; `room=off` keeps this check on the animal cards' page, which stays as the way it is played without WebGL.
+  page = await open(ctx2, "&style=explorer&room=off");
   await page.locator(`.hub button[data-quest='${QUEST}']`).click();
   await pick(page, "bat", "exp_in");
   await pick(page, "ostrich", "exp_out");
@@ -1036,7 +1038,8 @@ for (const lang of ["en", "ar"]) {
   await ctx2.close();
   // The Challenge way of playing has five groups, each a phrase of the passage; a wrong showing says only that it is not yet his division.
   const ctx3 = await browser.newContext({ viewport: { width: 1280, height: 900 } });
-  page = await open(ctx3, "&style=challenge");
+  // Since 27 November 2026 al-Jahiz's scene is played in his room; `room=off` keeps this check on the animal cards' page, which stays as the way it is played without WebGL.
+  page = await open(ctx3, "&style=challenge&room=off");
   await page.locator(`.hub button[data-quest='${QUEST}']`).click();
   const c0 = await ev<{ key: string[]; options: number; alt: string | null }>(page, "({ key: [...document.querySelectorAll('.bench ol.tray-key li')].map((l) => l.textContent), options: document.querySelector(\"select[data-item='bat']\").options.length, alt: document.querySelector('.bench canvas.sort-art').getAttribute('aria-label') })");
   const startC = await sv(page);
@@ -1056,7 +1059,8 @@ for (const lang of ["en", "ar"]) {
   const arCtx = await browser.newContext({ viewport: { width: 1280, height: 900 } });
   const ar = await arCtx.newPage();
   ar.on("pageerror", (e) => errors.push(String(e)));
-  await ar.goto(`${served.base}/games/hudhud/index.html?lang=ar&music=off&style=explorer`);
+  // Since 27 November 2026 al-Jahiz's scene is played in his room; `room=off` keeps this check on the animal cards' page, which stays as the way it is played without WebGL.
+  await ar.goto(`${served.base}/games/hudhud/index.html?lang=ar&music=off&style=explorer&room=off`);
   await ar.waitForFunction("window.__HH__ && window.__HH__.ready");
   await leaveOpening(ar);
   await ar.locator(`.hub button[data-quest='${QUEST}']`).click();
@@ -5334,7 +5338,7 @@ for (const lang of ["en", "ar"]) {
     record("the coffee room opens from the Atlas as a canvas scene on the room engine: the Atlas names it as it names the other rooms (no line about a page), the room speaks first, and the room is said in words: the count, what Hudhud carries in a polite live region, every card as a button of at least 44 pixels with its number, its full sentence and where it lies, every shelf's sign with what the shelf means, the bell, the keeper, the child and the box, with the room's note",
       atlasItem.label === "Play: Coffee's journey" && atlasItem.notes === 0 && opened.canvases === 1 && opened.benchHidden && opened.roomShown && opened.heading === "Coffee's journey" && opened.alt === "The room of records, as a picture. The list after it says the same in words." && opened.info.renderer === "webgl" && Math.max(...opened.info.largestTextures.flatMap((t) => [t.width, t.height])) <= 2048 && opened.talk === "Hudhud" && opened.roomNote === NOTE_ROOM &&
         /touch the bell to show the record/.test(opened.objective) && first.items.length === 6 && first.moves === 0 && first.carrying === null && first.shown?.agree === true && Object.values(first.shown.cards).every((c) => c === "table") && first.shown.feather &&
-        firstWords.counts === "Cards placed: 0 of 6 · Showings that failed: 0" && firstWords.beak === "Hudhud carries no card." && firstWords.live === "polite" && firstWords.cardsLabel === "The cards, in their order on the table" && firstWords.groupsLabel === "The three shelves, from the lowest to the highest" &&
+        firstWords.counts === "Cards placed: 0 of 6 · Showings that failed: 0" && firstWords.beak === "Hudhud carries no card." && firstWords.live === "polite" && firstWords.cardsLabel === "The cards, in their order on the table" && firstWords.groupsLabel === "The three shelves, side by side in their order" &&
         firstWords.cards.join("|") === SENTENCES.map((x, i) => `Go to Card ${i + 1}, on the table: ${x}`).join("|") && firstWords.groups.join("|") === SHELF_WORDS.join("|") && firstWords.sized &&
         firstWords.others.join("|") === "Go to the bell on the table, which shows the record|Go to the keeper of the records|Go to the child who tidies the cards|Go to the box of spare cards on top of the shelves",
       { atlasItem, opened: { ...opened, info: { renderer: opened.info.renderer } }, first: { moves: first.moves, shown: first.shown }, firstWords });
@@ -5357,9 +5361,9 @@ for (const lang of ["en", "ar"]) {
     const lifted = await words(page);
     await fly(page, "group-stated", "window.__HH__.coffeeRoom().carrying === null");
     const putBack = { v: (await cq(page))!, ran: await ranText(page) };
-    record("a card flown to and touched rides in Hudhud's beak (no move counted, as choosing a card on the page), the words say which card is carried with its full sentence; touching the first shelf's sign by flight puts it there with the page's sentence (one move); lifted again from the shelf its empty place on the table is offered, and put back on the same shelf nothing more is counted",
+    record("a card flown to and touched rides in Hudhud's beak (no move counted, as choosing a card on the page), the words say which card is carried with its full sentence; touching the first shelf's sign by flight (on the top of the bookcase, where the three shelves' signs stand side by side) puts it there with the page's sentence (one move); lifted again from the shelf its empty place on the table is offered, and put back on the same shelf nothing more is counted",
       carrying.at.near === "card-dhabhani" && carrying.at.y === 540 && carrying.v.moves === 0 && carrying.v.shown?.cards.dhabhani === "beak" && carrying.v.shown.agree && carrying.w.beak === "Hudhud carries: card 4, al-Dhabhani at Aden" && carrying.w.cards[3] === `Go to Card 4, in Hudhud's beak: ${SENTENCES[3]}` && carrying.ran === "Hudhud carries the card “al-Dhabhani at Aden”. Touch a shelf's sign to put it there." &&
-        onShelf.at.y === 500 && onShelf.v.moves === 1 && onShelf.v.carrying === null && onShelf.v.shown?.cards.dhabhani === "shelf-1" && onShelf.v.shown.agree && onShelf.ran === "The card “al-Dhabhani at Aden” is now on the shelf: the record states it plainly." &&
+        onShelf.at.y === 210 && onShelf.v.moves === 1 && onShelf.v.carrying === null && onShelf.v.shown?.cards.dhabhani === "shelf-1" && onShelf.v.shown.agree && onShelf.ran === "The card “al-Dhabhani at Aden” is now on the shelf: the record states it plainly." &&
         lifted.cards.includes("Go to the place of card 4 on the table") && putBack.v.moves === 1 && putBack.v.placed.dhabhani === "stated" && putBack.ran === "The card “al-Dhabhani at Aden” is put back where it was.",
       { carrying: { moves: carrying.v.moves, shown: carrying.v.shown, beak: carrying.w.beak, card: carrying.w.cards[3], ran: carrying.ran, at: carrying.at }, onShelf: { moves: onShelf.v.moves, shown: onShelf.v.shown, ran: onShelf.ran, at: onShelf.at }, lifted: lifted.cards, putBack: { moves: putBack.v.moves, ran: putBack.ran } });
 
@@ -5401,7 +5405,7 @@ for (const lang of ["en", "ar"]) {
       hello === "Welcome to the room of records, little bird. Every card here has a shelf of its own." && helloWho === "The keeper of the records, an invented person" && namesWho === "From the museum's record" && /more than one name is credited/.test(namesLine ?? "") && /Kaffa/.test(wordLine ?? "") &&
         thanks === "Thank you. Now to the cards." && bye === "Go gently. Read each card, then look at the signs on the shelves." &&
         childWho === "The child who tidies the cards, an invented person" && /cannot tell which shelf/.test(childLine ?? "") && childAgain === "kidKind" &&
-        onTop.y === 150 && featherLine === "A feather, among the cards! It is one of mine." && asked.flags.slice().sort().join() === "answered,askedBirds,askedDivision,feather,kind" && asked.moves === 6 && asked.shows === 1 && asked.shown?.feather === false,
+        onTop.y === 210 && featherLine === "A feather, among the cards! It is one of mine." && asked.flags.slice().sort().join() === "answered,askedBirds,askedDivision,feather,kind" && asked.moves === 6 && asked.shows === 1 && asked.shown?.feather === false,
       { hello, helloWho, namesWho, namesLine, wordLine, thanks, bye, childWho, childLine, childAgain, onTop, featherLine, flags: asked.flags });
 
     // (6) The tradition carried to its own shelf by flight, every card on its shelf, the bell; the door lights, the panel; then the door walked to with real key presses.
@@ -5624,6 +5628,401 @@ for (const lang of ["en", "ar"]) {
     if (outDir) await page.screenshot({ path: resolve(outDir, "coffee-room-without-webgl.png"), fullPage: true });
     record("without WebGL coffee's scene is played on the coffee page (its trial line on the Atlas, a list of choices for every card, no room), and is finished there",
       /first trial/.test(note) && onPage.room === null && onPage.selects === 6 && onPage.roomHidden && onPage.benchShown && done, { note, onPage: { ...onPage, answer: undefined }, done });
+    await ctx.close();
+  }
+}
+// Al-Jahiz's room, the eleventh room on the room engine (asked for by the founder, 27 November 2026), on the shared sorting
+// room made for the coffee room: opened from the Atlas it is a canvas scene with the room in words (the count, what Hudhud
+// carries, every card as a button with its number, its creature and where it lies, every tray's sign with what the group
+// means, the bell, al-Jahiz, the girl and the basket as buttons); the bell rung by flight with the cards on the bench is
+// refused and not counted; a card carried in the beak by flight and touch and put on a tray's sign; the bat put outside
+// the birds and the bell rung: a wrong showing that says how many are right, counted; both questions (the hoopoe's lines
+// after the second), the kind answer and the feather in the basket on the shelf of books; every card in its tray by
+// flight and touch, the bell, the lit door, the panel with four goals and the notes (the room's note among them), and the
+// door walked to with real key presses; a reload resumes in the room as it was, with the card still in the beak; a
+// Challenge room with five trays side by side; in a journey, the coffee room's lit door leads to the Alhambra's page and
+// its corridor's door into this room; an Arabic page; movement kept still; and without WebGL the scene is played on the
+// animal cards' page.
+{
+  type JzShown = { cards: Record<string, string>; focus: string | null; feather: boolean; agree: boolean };
+  type Jz = { moves: number; shows: number; flags: string[]; done: boolean; style: string; items: string[]; groups: string[]; answer: Record<string, string>; placed: Record<string, string | null>; last: { type: string; refused?: boolean; right?: number; total?: number } | null; carrying: string | null; talk: { script: string; node: string; line: number } | null; status: string; beak: string; doorLit: boolean; shown: JzShown | null };
+  const QUEST = "w09q1-al-jahiz";
+  const ROOM = ".room-box";
+  const NOTE_ROOM = "The room, the trays, the cards and the bell are invented for play; they are not a picture of where al-Jahiz worked. Al-Jahiz's division is not how science sorts animals today.";
+  const jz = (page: Page) => ev<Jz | null>(page, "window.__HH__.jahizRoom()");
+  const openJz = async (page: Page) => {
+    await page.locator(`.hub button[data-quest='${QUEST}']`).click();
+    await page.waitForFunction("window.__HH__.jahizRoom() !== null && window.__HH__.where() !== null", undefined, { timeout: 30000 });
+    await page.waitForTimeout(700);
+  };
+  const skipTalk = async (page: Page) => {
+    for (let i = 0; i < 8 && (await jz(page))?.talk; i++) {
+      await page.locator(`${ROOM} .talk button.quiet`).last().click();
+      await page.waitForTimeout(150);
+    }
+  };
+  /** Flies the bird to a thing by the engine's own flight (goTo), and waits until it has landed and touched it. */
+  const fly = async (page: Page, id: string, until: string) => {
+    await ev(page, `window.__HH__.goTo(${JSON.stringify(id)})`);
+    await page.waitForFunction(until, undefined, { timeout: 8000 });
+    await page.waitForTimeout(150);
+  };
+  /** A card carried to a tray by flight: the card touched (it rides in the beak), then the tray's sign. */
+  const carry = async (page: Page, item: string, group: string) => {
+    await fly(page, `card-${item}`, `window.__HH__.jahizRoom().carrying === ${JSON.stringify(item)}`);
+    await fly(page, `group-${group}`, `window.__HH__.jahizRoom().carrying === null && window.__HH__.jahizRoom().placed[${JSON.stringify(item)}] === ${JSON.stringify(group)}`);
+  };
+  const walkRight = async (page: Page, until: string) => {
+    await page.keyboard.down("ArrowRight");
+    try {
+      await page.waitForFunction(until, undefined, { timeout: 25000 });
+    } finally {
+      await page.keyboard.up("ArrowRight");
+    }
+  };
+  /** The line of the talk now, its speaker, and the choices offered. */
+  const said = (page: Page) => ev<{ who: string | null; line: string | null; choices: string[] }>(page, `({ who: document.querySelector('${ROOM} .talk:not([hidden]) .who') ? document.querySelector('${ROOM} .talk .who').textContent : null, line: document.querySelector('${ROOM} .talk:not([hidden]) .line + span') ? document.querySelector('${ROOM} .talk .line + span').textContent : null, choices: [...document.querySelectorAll('${ROOM} .talk .choices button')].map((b) => b.textContent) })`);
+  const words = (page: Page) => ev<{ counts: string; beak: string; live: string | null; cards: string[]; groups: string[]; others: string[]; sized: boolean; cardsLabel: string | null; groupsLabel: string | null }>(page, `(() => { const bs = [...document.querySelectorAll('${ROOM} .room-words button')]; return { counts: document.querySelector('${ROOM} .room-words .carrying').textContent, beak: document.querySelector('${ROOM} .room-words .beak').textContent, live: document.querySelector('${ROOM} .room-words .beak').getAttribute('aria-live'), cards: [...document.querySelectorAll('${ROOM} .sort-cards button')].map((b) => b.textContent), groups: [...document.querySelectorAll('${ROOM} .sort-groups button')].map((b) => b.textContent), others: [...document.querySelectorAll('${ROOM} .room-words > ul li button')].map((b) => b.textContent), sized: bs.every((b) => b.getBoundingClientRect().width >= 44 && b.getBoundingClientRect().height >= 44), cardsLabel: document.querySelector('${ROOM} .sort-cards').getAttribute('aria-label'), groupsLabel: document.querySelector('${ROOM} .sort-groups').getAttribute('aria-label') }; })()`);
+  const ranText = (page: Page) => ev<string>(page, `document.querySelector('${ROOM} .ran').textContent`);
+  const NAMES = ["eagle", "vulture", "crow", "bat", "ostrich", "locust", "bee", "fly"];
+  const TRAY_WORDS = ["Go to the sign of tray 1: counted among the birds", "Go to the sign of tray 2: not counted among the birds"];
+
+  // (1) to (6): one play in Explorer, from the Atlas, by flight, touch and keys.
+  {
+    const ctx = await browser.newContext({ viewport: { width: 1280, height: 900 } });
+    const page = await open(ctx, "&style=explorer");
+    const atlasItem = await ev<{ label: string; notes: number }>(page, `(() => { const b = document.querySelector(".hub button[data-quest='${QUEST}']"); return { label: b.textContent, notes: b.parentElement.querySelectorAll('small').length }; })()`);
+    await openJz(page);
+    const opened = await ev<{ canvases: number; benchHidden: boolean; roomShown: boolean; heading: string; alt: string | null; info: { renderer: string; largestTextures: { width: number; height: number }[] }; talk: string | null; roomNote: string; objective: string }>(page, `({ canvases: document.querySelectorAll('${ROOM} .stage canvas').length, benchHidden: document.querySelector('.bench').hidden, roomShown: !document.querySelector('${ROOM}').hidden, heading: document.querySelector('${ROOM} h2').textContent, alt: document.querySelector('${ROOM} .stage').getAttribute('aria-label'), info: window.__HH__.info(), talk: document.querySelector('${ROOM} .talk:not([hidden]) .who') ? document.querySelector('${ROOM} .talk .who').textContent : null, roomNote: document.querySelector('${ROOM} .words section:last-child p').textContent, objective: document.querySelector('${ROOM} .objective').textContent })`);
+    const first = (await jz(page))!;
+    const firstWords = await words(page);
+    if (outDir) (mkdirSync(outDir, { recursive: true }), await page.screenshot({ path: resolve(outDir, "jahiz-room-start.png") }));
+    record("al-Jahiz's room opens from the Atlas as a canvas scene on the room engine: the Atlas names it as it names the other rooms (no line about a page), the room speaks first, and the room is said in words: the count, what Hudhud carries in a polite live region, every card as a button of at least 44 pixels with its number, its creature and where it lies, the two trays' signs with what each group means, the bell, al-Jahiz, the girl and the basket, with the room's note",
+      atlasItem.label === "Play: al-Jahiz" && atlasItem.notes === 0 && opened.canvases === 1 && opened.benchHidden && opened.roomShown && opened.heading === "al-Jahiz" && opened.alt === "Al-Jahiz's room, as a picture. The list after it says the same in words." && opened.info.renderer === "webgl" && Math.max(...opened.info.largestTextures.flatMap((t) => [t.width, t.height])) <= 2048 && opened.talk === "Hudhud" && opened.roomNote === NOTE_ROOM &&
+        /touch the bell to show al-Jahiz/.test(opened.objective) && first.items.join() === NAMES.join() && first.groups.join() === "exp_in,exp_out" && first.moves === 0 && first.carrying === null && first.shown?.agree === true && Object.values(first.shown.cards).every((c) => c === "bench") && first.shown.feather &&
+        firstWords.counts === "Cards placed: 0 of 8 · Showings that failed: 0" && firstWords.beak === "Hudhud carries no card." && firstWords.live === "polite" && firstWords.cardsLabel === "The cards, in their order on the bench" && firstWords.groupsLabel === "The trays, side by side in their order" &&
+        firstWords.cards.join("|") === NAMES.map((x, i) => `Go to Card ${i + 1}, on the bench: ${x}`).join("|") && firstWords.groups.join("|") === TRAY_WORDS.join("|") && firstWords.sized &&
+        firstWords.others.join("|") === "Go to the bell at the end of the bench, which shows the cards to al-Jahiz|Go to al-Jahiz|Go to the girl who carries the cards|Go to the basket of spare cards on the shelf of books",
+      { atlasItem, opened: { ...opened, info: { renderer: opened.info.renderer } }, first: { moves: first.moves, shown: first.shown }, firstWords });
+    await skipTalk(page);
+
+    // (2) The bell by flight with every card on the bench: refused, and not counted.
+    await fly(page, "bell", "/Put every card in a group first/.test(window.__HH__.jahizRoom().status)");
+    const refused = { v: (await jz(page))!, ran: await ranText(page), at: await ev<{ y: number; near: string | null }>(page, "window.__HH__.where()") };
+    record("the bell at the end of the bench, flown to and touched with every card still on the bench, is the page's 'Show al-Jahiz' refused: nothing is shown and nothing is counted, in the page's own words",
+      refused.at.near === "bell" && refused.at.y === 540 && refused.v.shows === 0 && refused.v.moves === 0 && refused.v.last?.type === "show" && refused.v.last.refused === true && refused.ran === "Nothing was shown yet. Cards not placed: 8. Put every card in a group first.",
+      { refused: { shows: refused.v.shows, moves: refused.v.moves, last: refused.v.last }, ran: refused.ran, at: refused.at });
+
+    // (3) The bat picked up by flight: it rides in the beak and the words say which; put on the second tray's sign (outside the birds); picked up again, its empty place on the bench is offered; put back on the same tray, nothing is counted.
+    await fly(page, "card-bat", "window.__HH__.jahizRoom().carrying === 'bat'");
+    const carrying = { v: (await jz(page))!, w: await words(page), ran: await ranText(page), at: await ev<{ y: number; near: string | null }>(page, "window.__HH__.where()") };
+    if (outDir) await page.screenshot({ path: resolve(outDir, "jahiz-room-carrying.png") });
+    await fly(page, "group-exp_out", "window.__HH__.jahizRoom().placed.bat === 'exp_out'");
+    const inTray = { v: (await jz(page))!, ran: await ranText(page), at: await ev<{ y: number; near: string | null }>(page, "window.__HH__.where()") };
+    await fly(page, "card-bat", "window.__HH__.jahizRoom().carrying === 'bat'");
+    const lifted = { w: await words(page), at: await ev<{ y: number }>(page, "window.__HH__.where()") };
+    await fly(page, "group-exp_out", "window.__HH__.jahizRoom().carrying === null");
+    const putBack = { v: (await jz(page))!, ran: await ranText(page) };
+    record("a card flown to and touched rides in Hudhud's beak (no move counted, as choosing a card on the page), the words say which card is carried; touching the second tray's sign by flight puts it there with the page's sentence (one move), landing on the tray's top; lifted again from the tray's lowest tier its empty place on the bench is offered, and put back on the same tray nothing more is counted",
+      carrying.at.near === "card-bat" && carrying.at.y === 540 && carrying.v.moves === 0 && carrying.v.shown?.cards.bat === "beak" && carrying.v.shown.agree && carrying.w.beak === "Hudhud carries: card 4, bat" && carrying.w.cards[3] === "Go to Card 4, in Hudhud's beak: bat" && carrying.ran === "Hudhud carries the bat card. Touch a tray's sign to put it there." &&
+        inTray.at.y === 330 && inTray.v.moves === 1 && inTray.v.carrying === null && inTray.v.shown?.cards.bat === "tray-2" && inTray.v.shown.agree && inTray.ran === "The bat card is now in: not counted among the birds." &&
+        lifted.at.y === 548 && lifted.w.cards.includes("Go to the place of card 4 on the bench") && putBack.v.moves === 1 && putBack.v.placed.bat === "exp_out" && putBack.ran === "The bat card is put back where it was.",
+      { carrying: { moves: carrying.v.moves, shown: carrying.v.shown, beak: carrying.w.beak, card: carrying.w.cards[3], ran: carrying.ran, at: carrying.at }, inTray: { moves: inTray.v.moves, shown: inTray.v.shown, ran: inTray.ran, at: inTray.at }, lifted, putBack: { moves: putBack.v.moves, ran: putBack.ran } });
+
+    // (4) Every other card in its own tray by flight, the bat left outside the birds, and the bell: a wrong showing, counted, saying how many are right.
+    for (const item of first.items) if (item !== "bat") await carry(page, item, first.answer[item]!);
+    if (outDir) await page.screenshot({ path: resolve(outDir, "jahiz-room-trays.png") });
+    await fly(page, "bell", "window.__HH__.jahizRoom().shows === 1");
+    const wrong = { v: (await jz(page))!, ran: await ranText(page), w: await words(page) };
+    record("the bat put outside the birds, every other card in its own tray by flight, and the bell rung: a wrong showing exactly as on the page, counted, saying only how many cards are right in the page's words for Explorer",
+      wrong.v.shows === 1 && !wrong.v.done && wrong.v.moves === 8 && wrong.v.last?.type === "show" && wrong.v.last.right === 7 && wrong.v.last.total === 8 && wrong.ran === "Not yet his division. Cards that are right: 7 of 8." && wrong.w.counts === "Cards placed: 8 of 8 · Showings that failed: 1" && wrong.v.shown?.agree === true,
+      { wrong: { shows: wrong.v.shows, moves: wrong.v.moves, last: wrong.v.last, shown: wrong.v.shown }, ran: wrong.ran, counts: wrong.w.counts });
+
+    // (5) Al-Jahiz, the girl and the basket, by touching them; the Touch button touches the girl again.
+    await fly(page, "jahiz", "window.__HH__.jahizRoom().talk !== null");
+    const hello = await said(page);
+    await page.locator(`${ROOM} .talk .choices button`, { hasText: "Ask about his division of animals" }).click();
+    const division = await said(page);
+    await page.locator(`${ROOM} .talk .choices button`, { hasText: "Ask about the birds" }).click();
+    const birds = await said(page);
+    await page.locator(`${ROOM} .talk button`, { hasText: "Next" }).click();
+    const hoopoe1 = await said(page);
+    await page.locator(`${ROOM} .talk button`, { hasText: "Next" }).click();
+    const hoopoe2 = await said(page);
+    // Asked again, the answer comes without the hoopoe's lines.
+    await page.locator(`${ROOM} .talk .choices button`, { hasText: "Ask about his division of animals" }).click();
+    const again = await said(page);
+    await page.locator(`${ROOM} .talk .choices button`).last().click();
+    const bye = await said(page);
+    await page.locator(`${ROOM} .talk button`, { hasText: "Next" }).click();
+    await fly(page, "girl", "window.__HH__.jahizRoom().talk !== null");
+    const girl = await said(page);
+    await page.locator(`${ROOM} .talk .choices button`, { hasText: "It is all right." }).click();
+    for (let i = 0; i < 3 && (await jz(page))?.talk; i++) await page.locator(`${ROOM} .talk button`, { hasText: "Next" }).click();
+    await page.locator(`${ROOM} .pad button.wide`).click();
+    const girlAgain = (await jz(page))!.talk?.script ?? null;
+    await skipTalk(page);
+    await fly(page, "basket", "window.__HH__.jahizRoom().flags.includes('feather')");
+    const onShelf = await ev<{ y: number }>(page, "window.__HH__.where()");
+    const featherLine = (await said(page)).line;
+    await skipTalk(page);
+    const asked = (await jz(page))!;
+    record("touching al-Jahiz greets in imagined words and offers his two questions (the page's own answers, said by the museum's record), the record's line about the hoopoe and Hudhud's answer come after the second and not when a question is asked again, with a goodbye of the room's own; the girl is answered kindly, and the Touch button touches her again; the feather is in the basket on the shelf of books, reached by flight; the flags are the page quest's own and the cards are unchanged",
+      hello.line === "Come in, little bird. The cards are on the bench, and every one of them has a tray." && hello.who === "Al-Jahiz, in imagined words" && hello.choices.join("|") === "Ask moreAsk about his division of animals|Ask moreAsk about the birds|Thank you. I will look at the cards again." &&
+        division.who === "From the museum's record" && /walk, fly, swim or creep/.test(division.line ?? "") && birds.who === "From the museum's record" && /not everything that flies on two wings is a bird/.test(birds.line ?? "") &&
+        hoopoe1.line === "The record lists the hoopoe among the creatures in the third part of his book." && hoopoe2.who === "Hudhud" && hoopoe2.line === "I am in his book!" && /walk, fly, swim or creep/.test(again.line ?? "") && !again.choices.some((c) => /hoopoe/i.test(c)) &&
+        bye.line === "Look well at each creature, and ring the bell when every card is in a tray." && girl.who === "The girl who carries the cards, an invented person" && /knocked the cards off the table/.test(girl.line ?? "") && girlAgain === "kidKind" &&
+        onShelf.y === 236 && featherLine === "A feather, among the cards! It is one of mine." && asked.flags.slice().sort().join() === "answered,askedBirds,askedDivision,feather,kind" && asked.moves === 8 && asked.shows === 1 && asked.shown?.feather === false,
+      { hello, division: division.line?.slice(0, 80), birds: birds.line?.slice(0, 80), hoopoe1, hoopoe2, again: again.line?.slice(0, 60), bye, girl, girlAgain, onShelf, featherLine, flags: asked.flags });
+
+    // (6) The bat carried to the birds by flight, the bell; the door lights, the panel; then the door walked to with real key presses.
+    await fly(page, "card-bat", "window.__HH__.jahizRoom().carrying === 'bat'");
+    await ev(page, "window.__HH__.goTo('group-exp_in')");
+    await page.waitForFunction("window.__HH__.jahizRoom().placed.bat === 'exp_in'", undefined, { timeout: 8000 });
+    await page.waitForTimeout(300);
+    const sorted = (await jz(page))!;
+    await ev(page, "window.__HH__.goTo('bell')");
+    await page.waitForFunction("window.__HH__.jahizRoom().doorLit", undefined, { timeout: 10000 });
+    await page.waitForTimeout(400);
+    const live = await ev<string>(page, `document.querySelector('${ROOM} .room > .visually-hidden[role=status]').textContent`);
+    const panel = await ev<{ shown: boolean; modal: number; goals: number; met: number; notes: string[]; links: string[]; pending: string; buttons: string[]; door: { lit: boolean; scene: string }; list: string[]; objective: string; saved: boolean; resume: unknown; cards: number }>(page, `(() => { const p = document.querySelector('${ROOM} .door-panel'); return { shown: !p.hidden, modal: document.querySelectorAll('[aria-modal=true]').length, goals: p.querySelectorAll('.goals li').length, met: p.querySelectorAll('.goals .met').length, notes: [...p.querySelectorAll('.note p')].map((x) => x.textContent), links: [...p.querySelectorAll('.note a')].map((a) => a.getAttribute('href')), pending: p.querySelector('.pending').textContent, buttons: [...p.querySelectorAll('button')].map((b) => b.textContent), door: window.__HH__.door(), list: [...document.querySelectorAll('${ROOM} .room-words > ul li button')].map((b) => b.textContent), objective: document.querySelector('${ROOM} .objective').textContent, saved: JSON.parse(localStorage.getItem('im.hudhud.save.v1') || '{}').slots?.[0]?.quests?.['${QUEST}']?.done === true, resume: JSON.parse(localStorage.getItem('im.hudhud.save.v1') || '{}').slots?.[0]?.resume ?? null, cards: document.querySelectorAll('${ROOM} .sort-cards button').length }; })()`);
+    const finished = (await jz(page))!;
+    const doneRan = await ranText(page);
+    await skipTalk(page);
+    await page.locator(`${ROOM} .stage`).focus();
+    await page.keyboard.down("ArrowRight");
+    await page.waitForTimeout(900);
+    if (outDir) await page.screenshot({ path: resolve(outDir, "jahiz-room-door-lit.png") });
+    await page.keyboard.up("ArrowRight");
+    await walkRight(page, "!document.querySelector('.hub').hidden");
+    const back = await ev<{ hub: boolean; roomHidden: boolean; last: { scene: string; where: { x: number; y: number; reach: number }; bird: { x: number; y: number } } | null; label: string; canvases: number }>(page, `({ hub: !document.querySelector('.hub').hidden, roomHidden: document.querySelector('.room-box').hidden, last: window.__HH__.lastDoor(), label: document.querySelector(".hub button[data-quest='${QUEST}']").textContent, canvases: document.querySelectorAll('.room-box canvas, #stage canvas').length })`);
+    const reach = back.last ? Math.hypot(back.last.where.x - back.last.bird.x, back.last.where.y - (back.last.bird.y - 30)) : null;
+    record("every card in its tray by flight and touch and the bell rung: the cards are sorted with one failed showing, every card is drawn in its tray, Hudhud says the page's last line, the door lights, the panel beside the stage (no modal sheet) shows four goals met, the quest's four notes (that his division is not today's science among them), the room's note and 'Historical review pending', and the two links; the list then offers only the door, the place kept is cleared, and holding the right arrow key walks Hudhud to it and, in free play, back to the Atlas",
+      sorted.moves === 9 && sorted.shown?.cards.bat === "tray-1" && finished.done && finished.shows === 1 && finished.talk?.script === "done" && finished.shown?.agree === true && Object.entries(finished.shown.cards).every(([i, c]) => c === `tray-${finished.groups.indexOf(finished.answer[i]!) + 1}`) &&
+        doneRan === "Every card is in al-Jahiz's group. The page of the Atlas is found!" && /door is open/.test(live) &&
+        panel.shown && panel.modal === 0 && panel.goals === 4 && panel.met === 4 && panel.notes.includes(NOTE_ROOM) && panel.notes.some((n) => /^This is a game, not a history\./.test(n)) && panel.notes.some((n) => /Science today sorts animals in another way/.test(n)) && /Historical review pending/.test(panel.pending) && panel.cards === 0 &&
+        panel.links.join() === "https://islam.museum/en/person/al-jahiz/,https://islam.museum/en/work/kitab-al-hayawan/" && panel.buttons.join("|") === "Go through the door|Play again|Back to the Atlas" && panel.door.lit && panel.door.scene === "jahiz" &&
+        panel.list.join() === "Go through the door" && panel.objective.startsWith("Walk Hudhud to the lit door at the end of the room.") && panel.saved && panel.resume === null &&
+        back.hub && back.roomHidden && back.last?.scene === "jahiz" && reach !== null && reach < back.last.where.reach && /^Play again: /.test(back.label) && back.canvases === 0,
+      { sorted: { moves: sorted.moves, shown: sorted.shown }, finished: { done: finished.done, shows: finished.shows, shown: finished.shown }, doneRan, live, panel, back: { ...back }, reach });
+    await ctx.close();
+  }
+
+  // (7) Left in the middle with two cards in their trays, a question asked and a third card in the beak, the page loaded
+  // again: the Atlas says Continue, and the room comes back as it was, the card still in the beak.
+  {
+    const ctx = await browser.newContext({ viewport: { width: 1280, height: 900 } });
+    const page = await open(ctx, "&style=explorer");
+    await openJz(page);
+    await skipTalk(page);
+    await carry(page, "bat", "exp_in");
+    await carry(page, "ostrich", "exp_out");
+    await fly(page, "jahiz", "window.__HH__.jahizRoom().talk !== null");
+    await page.locator(`${ROOM} .talk .choices button`, { hasText: "Ask about his division of animals" }).click();
+    await skipTalk(page);
+    await fly(page, "card-crow", "window.__HH__.jahizRoom().carrying === 'crow'");
+    const left = (await jz(page))!;
+    const kept = await ev<{ quest: string; snap: Record<string, unknown> } | null>(page, "JSON.parse(localStorage.getItem('im.hudhud.save.v1') || '{}').slots?.[0]?.resume ?? null");
+    await ev(page, "window.__HH__.saveReady()");
+    await page.reload();
+    await page.waitForFunction("window.__HH__ && window.__HH__.ready");
+    await leaveOpening(page);
+    const label = await ev<string>(page, `document.querySelector(".hub button[data-quest='${QUEST}']").textContent`);
+    await page.locator(`.hub button[data-quest='${QUEST}']`).click();
+    await page.waitForFunction("window.__HH__.jahizRoom() !== null && window.__HH__.where() !== null", undefined, { timeout: 30000 });
+    await page.waitForTimeout(500);
+    const resumed = (await jz(page))!;
+    const resumedWords = await words(page);
+    if (outDir) await page.screenshot({ path: resolve(outDir, "jahiz-room-resumed.png") });
+    record("al-Jahiz's room left in the middle keeps the sorting's own snapshot with the card in the beak added; the page loaded again, the Atlas says Continue, and the room comes back as it was (two cards drawn in their trays, the question asked, the crow still in the beak, no talk), said in words",
+      left.moves === 2 && left.flags.join() === "askedDivision" && left.carrying === "crow" && kept?.quest === QUEST && Object.keys(kept.snap).sort().join() === "carrying,flags,moves,placed,shows,style" && kept.snap.carrying === "crow" &&
+        /^Continue: /.test(label) && resumed.moves === 2 && resumed.placed.bat === "exp_in" && resumed.placed.ostrich === "exp_out" && resumed.flags.join() === "askedDivision" && resumed.carrying === "crow" && resumed.talk === null && resumed.shown?.agree === true && resumed.shown.cards.crow === "beak" && resumed.shown.cards.ostrich === "tray-2" &&
+        resumedWords.counts === "Cards placed: 2 of 8 · Showings that failed: 0" && resumedWords.beak === "Hudhud carries: card 3, crow",
+      { left: { moves: left.moves, flags: left.flags, carrying: left.carrying }, kept, label, resumed: { moves: resumed.moves, placed: resumed.placed, carrying: resumed.carrying, shown: resumed.shown }, resumedWords: { counts: resumedWords.counts, beak: resumedWords.beak } });
+    await ctx.close();
+  }
+
+  // (8) A Challenge room: five trays side by side at the same height (every sign flown to is landed on at one height, from
+  // the left in order); the eagle left among the beaks and the bell rung says only that this is not yet his division, and is
+  // counted; moved, the bell ends it.
+  {
+    const ctx = await browser.newContext({ viewport: { width: 1280, height: 900 } });
+    const page = await open(ctx, "&style=challenge");
+    await openJz(page);
+    await skipTalk(page);
+    const c0 = (await jz(page))!;
+    const w0 = await words(page);
+    const signs: { x: number; y: number; near: string | null }[] = [];
+    for (const g of c0.groups) {
+      await fly(page, `group-${g}`, `window.__HH__.where().near === 'group-${g}'`);
+      signs.push(await ev<{ x: number; y: number; near: string | null }>(page, "window.__HH__.where()"));
+    }
+    for (const item of c0.items) await carry(page, item, item === "eagle" ? "ch_beak" : c0.answer[item]!);
+    if (outDir) await page.screenshot({ path: resolve(outDir, "jahiz-room-challenge.png") });
+    await fly(page, "bell", "window.__HH__.jahizRoom().shows === 1");
+    const c1 = { v: (await jz(page))!, ran: await ranText(page) };
+    await carry(page, "eagle", "ch_talons");
+    await fly(page, "bell", "window.__HH__.jahizRoom().done");
+    const c2 = (await jz(page))!;
+    record("al-Jahiz's room in Challenge: all eight cards and five trays, the trays standing side by side at the same height (each sign landed on at the same height, from the left in the trays' order, at least 170 pixels apart); every card carried by flight, the eagle among the beaks, and the bell: the page's 'This is not yet his division.', counted; the eagle moved, the bell ends it",
+      c0.items.join() === NAMES.join() && c0.groups.join() === "ch_talons,ch_beak,ch_bat,ch_ostrich,ch_wings" && w0.cards.length === 8 && w0.groups.length === 5 && w0.counts === "Cards placed: 0 of 8 · Showings that failed: 0" &&
+        signs.length === 5 && signs.every((p) => p.y === signs[0]!.y) && signs.every((p, i) => i === 0 || p.x - signs[i - 1]!.x >= 170) &&
+        c1.v.shows === 1 && !c1.v.done && c1.ran === "This is not yet his division." && c1.v.shown?.agree === true && c2.done && c2.shows === 1 && c2.moves === 9,
+      { c0: { items: c0.items, groups: c0.groups }, w0: { cards: w0.cards.length, groups: w0.groups }, signs, c1: { shows: c1.v.shows, ran: c1.ran }, c2: { done: c2.done, shows: c2.shows, moves: c2.moves } });
+    await ctx.close();
+  }
+
+  // (9) In the journey: the coffee room's lit door, walked to with the right arrow key, leads to the Alhambra's page (the
+  // eleventh scene, still played on its page), and its corridor's door, walked to, into al-Jahiz's room (the twelfth
+  // scene: no page, no corridor, Hudhud's line naming him).
+  {
+    const ctx = await browser.newContext({ viewport: { width: 1280, height: 900 } });
+    const page = await open(ctx, "&style=explorer");
+    // The journey is begun and taken straight to Ibn Battuta's inn through the scenes before it, each finished by the test hooks.
+    await ev(page, "window.__HH__.beginJourney()");
+    await page.waitForFunction("window.__HH__.where() !== null", undefined, { timeout: 30000 });
+    await ev(page, "window.__HH__.command({type:'skip'}); for (const id of ['mirror-a','mirror-c','mirror-e']) window.__HH__.touch(id); window.__HH__.command({type:'skip'}); window.__HH__.touch('page');");
+    await ev(page, "window.__HH__.goThroughDoor()");
+    await page.waitForFunction("window.__HH__.tusi() !== null && window.__HH__.where() !== null", undefined, { timeout: 30000 });
+    await ev(page, "window.__HH__.tusiCommand({ type: 'skip' }); for (const id of ['lever-speed', 'lever-dir', 'crank']) window.__HH__.tusiCommand({ type: 'touch', id });");
+    await page.waitForFunction("window.__HH__.tusi().doorLit", undefined, { timeout: 15000 });
+    await ev(page, "window.__HH__.goThroughDoor()");
+    await page.waitForFunction("window.__HH__.jazari() !== null && window.__HH__.where() !== null", undefined, { timeout: 30000 });
+    await ev(page, "window.__HH__.jazariCommand({ type: 'skip' })");
+    for (const id of ["place-2", "place-3", "place-1", "place-1", "place-3", "spare-1", "place-2", "spare-1", "place-3", "place-5", "place-4", "lever"]) await ev(page, `window.__HH__.jazariCommand({ type: 'touch', id: '${id}' })`);
+    await page.waitForFunction("window.__HH__.jazari().doorLit", undefined, { timeout: 15000 });
+    await ev(page, "window.__HH__.goThroughDoor()");
+    await page.waitForFunction("window.__HH__.khwarizmi() !== null && window.__HH__.where() !== null", undefined, { timeout: 30000 });
+    await ev(page, "window.__HH__.khwarizmiCommand({ type: 'skip' })");
+    for (const id of ["restore-left-number", "weight-things", "scoop"]) await ev(page, `window.__HH__.khwarizmiCommand({ type: 'touch', id: '${id}' })`);
+    await page.waitForFunction("window.__HH__.khwarizmi().doorLit", undefined, { timeout: 15000 });
+    await ev(page, "window.__HH__.goThroughDoor()");
+    await page.waitForFunction("window.__HH__.kindi() !== null && window.__HH__.where() !== null", undefined, { timeout: 30000 });
+    await ev(page, "window.__HH__.kindiCommand({ type: 'skip' }); (() => { const k = window.__HH__.kindi(); for (const m of Object.keys(k.puzzle.key)) if (k.puzzle.message.includes(m)) { window.__HH__.kindiCommand({ type: 'touch', id: 'token-' + k.puzzle.key[m] }); window.__HH__.kindiCommand({ type: 'touch', id: 'slot-' + m }); } window.__HH__.kindiCommand({ type: 'touch', id: 'bell' }); })()");
+    await page.waitForFunction("window.__HH__.kindi().doorLit", undefined, { timeout: 15000 });
+    await ev(page, "window.__HH__.goThroughDoor()");
+    await page.waitForFunction("window.__HH__.idrisi() !== null && window.__HH__.where() !== null", undefined, { timeout: 30000 });
+    await ev(page, "window.__HH__.idrisiCommand({ type: 'skip' }); (() => { for (let i = 0; i < 30; i++) { const s = window.__HH__.idrisi(); const p = s.grid.findIndex((id, k) => id !== s.solution[k]); if (p < 0 || s.done) break; window.__HH__.idrisiCommand({ type: 'touch', id: 'place-' + p }); window.__HH__.idrisiCommand({ type: 'touch', id: 'place-' + s.grid.indexOf(s.solution[p]) }); } })()");
+    await page.waitForFunction("window.__HH__.idrisi().doorLit", undefined, { timeout: 15000 });
+    await ev(page, "window.__HH__.goThroughDoor()");
+    await page.waitForFunction("window.__HH__.razi() !== null && window.__HH__.where() !== null", undefined, { timeout: 30000 });
+    await ev(page, "window.__HH__.raziCommand({ type: 'skip' }); (() => { const A = ['books-head', 'own-head', 'books-chest', 'own-chest', 'books-foot', 'own-foot']; for (let i = 0; i < 20; i++) { const s = window.__HH__.razi(); const p = s.places.findIndex((id, k) => id !== A[k]); if (p < 0) break; window.__HH__.raziCommand({ type: 'touch', id: 'place-' + p }); window.__HH__.raziCommand({ type: 'touch', id: 'place-' + window.__HH__.razi().places.indexOf(A[p]) }); } window.__HH__.raziCommand({ type: 'touch', id: 'frame' }); })()");
+    await page.waitForFunction("window.__HH__.razi().doorLit", undefined, { timeout: 15000 });
+    await ev(page, "window.__HH__.goThroughDoor()");
+    await page.waitForFunction("window.__HH__.karima() !== null && window.__HH__.where() !== null", undefined, { timeout: 30000 });
+    await ev(page, "window.__HH__.karimaCommand({ type: 'skip' })");
+    const kr = await ev<{ puzzle: { copies: string[][]; hers: number } }>(page, "window.__HH__.karima()");
+    for (const x of slipsOf(kr.puzzle)) await ev(page, `window.__HH__.karimaCommand({ type: 'touch', id: 'sign-${x.copy}-${x.place}' })`);
+    await page.waitForFunction("window.__HH__.karima().doorLit", undefined, { timeout: 15000 });
+    await ev(page, "window.__HH__.goThroughDoor()");
+    await page.waitForFunction("window.__HH__.battuta() !== null && window.__HH__.where() !== null", undefined, { timeout: 30000 });
+    await ev(page, "window.__HH__.battutaCommand({ type: 'skip' }); for (const stop of window.__HH__.battuta().stage.road) window.__HH__.battutaCommand({ type: 'touch', id: 'bead-' + stop });");
+    await page.waitForFunction("window.__HH__.battuta().doorLit", undefined, { timeout: 15000 });
+    for (let i = 0; i < 8 && (await ev<{ talk: unknown }>(page, "window.__HH__.battuta()")).talk; i++) await ev(page, "window.__HH__.battutaCommand({ type: 'skip' })");
+    await page.locator(`${ROOM} .stage`).focus();
+    await walkRight(page, "window.__HH__.coffeeRoom() !== null && window.__HH__.where() !== null");
+    await page.waitForTimeout(500);
+    await ev(page, "window.__HH__.coffeeRoomCommand({ type: 'skip' }); (() => { const c = window.__HH__.coffeeRoom(); for (const i of c.items) { window.__HH__.coffeeRoomCommand({ type: 'touch', id: 'card-' + i }); window.__HH__.coffeeRoomCommand({ type: 'touch', id: 'group-' + c.answer[i] }); } window.__HH__.coffeeRoomCommand({ type: 'touch', id: 'bell' }); })()");
+    await page.waitForFunction("window.__HH__.coffeeRoom().doorLit", undefined, { timeout: 15000 });
+    for (let i = 0; i < 8 && (await ev<{ talk: unknown }>(page, "window.__HH__.coffeeRoom()")).talk; i++) await ev(page, "window.__HH__.coffeeRoomCommand({ type: 'skip' })");
+    await page.locator(`${ROOM} .stage`).focus();
+    await walkRight(page, "window.__HH__.channels() !== null");
+    const alhambra = await ev<{ journey: { scene: number; at: number }; last: { scene: string } | null; room: unknown }>(page, "({ journey: window.__HH__.journey(), last: window.__HH__.lastDoor(), room: window.__HH__.coffeeRoom() })");
+    // The Alhambra's grid, finished by the test hooks: one press for each quarter turn a piece of the road still needs, then the sluice.
+    for (let i = 0; i < 80; i++) {
+      const c = await ev<{ done: boolean; cells: { kind: Kind; turn: number }[]; wet: Record<string, number> }>(page, "(() => { const a = window.__HH__.channels(); return { done: a.done, cells: a.cells, wet: Object.fromEntries(a.answer.wet) }; })()");
+      const todo = c.cells.findIndex((cell, p) => c.wet[String(p)] !== undefined && cell.turn % period(cell.kind) !== c.wet[String(p)]);
+      if (todo < 0) break;
+      await ev(page, `window.__HH__.channelsCommand({ type: 'turn', cell: ${todo} })`);
+    }
+    await ev(page, "window.__HH__.channelsCommand({ type: 'open' })");
+    await page.waitForSelector(".bench .corridor canvas.corridor-art", { timeout: 20000 });
+    await page.waitForTimeout(300);
+    await walkRight(page, "window.__HH__.jahizRoom() !== null && window.__HH__.where() !== null");
+    await page.waitForTimeout(500);
+    const entered = await ev<{ journey: { scene: number; at: number }; last: { scene: string } | null; toast: string | null; heading: string; corridors: number; page: unknown; channels: unknown; roomHidden: boolean }>(page, `({ journey: window.__HH__.journey(), last: window.__HH__.lastDoor(), toast: document.querySelector('.toast') ? document.querySelector('.toast').textContent : null, heading: document.querySelector('${ROOM} h2').textContent, corridors: document.querySelectorAll('.corridor').length, page: window.__HH__.sort(), channels: window.__HH__.channels(), roomHidden: document.querySelector('.room-box').hidden })`);
+    if (outDir) await page.screenshot({ path: resolve(outDir, "jahiz-room-journey.png") });
+    record("in the journey the coffee room's lit door, walked to with the right arrow key, leads to the Alhambra's page (the eleventh scene, still a page), and its corridor's door, walked to, leads into al-Jahiz's room (the twelfth scene: no page, no corridor, Hudhud's line naming him)",
+      alhambra.journey.scene === 10 && alhambra.last?.scene === "coffee" && alhambra.room === null &&
+        entered.journey.scene === 11 && entered.journey.at === 11 && entered.last?.scene === "corridor" && entered.toast === "Hudhud: On to the next page of the Atlas: al-Jahiz!" && entered.heading === "al-Jahiz" && entered.corridors === 0 && entered.page === null && entered.channels === null && !entered.roomHidden,
+      { alhambra, entered });
+    await ctx.close();
+  }
+
+  // (10) An Arabic page: the cards' order and the trays mirrored (the first card and the first tray on the right), Arabic words and numerals, and the room's note in the founder's Arabic words.
+  {
+    const ctx = await browser.newContext({ viewport: { width: 1280, height: 900 } });
+    const page = await ctx.newPage();
+    page.on("pageerror", (e) => errors.push(String(e)));
+    await page.goto(`${served.base}/games/hudhud/index.html?lang=ar&music=off&style=explorer&fresh=1`);
+    await page.waitForFunction("window.__HH__ && window.__HH__.ready");
+    await leaveOpening(page);
+    await openJz(page);
+    const ar = await ev<{ dir: string; alt: string | null; heading: string; who: string | null }>(page, `({ dir: document.documentElement.dir, alt: document.querySelector('${ROOM} .stage').getAttribute('aria-label'), heading: document.querySelector('${ROOM} h2').textContent, who: document.querySelector('${ROOM} .talk .who') ? document.querySelector('${ROOM} .talk .who').textContent : null })`);
+    await skipTalk(page);
+    await fly(page, "card-eagle", "window.__HH__.jahizRoom().carrying === 'eagle'");
+    const firstX = (await ev<{ x: number }>(page, "window.__HH__.where()")).x;
+    await fly(page, "card-vulture", "window.__HH__.jahizRoom().carrying === 'vulture'");
+    const secondX = (await ev<{ x: number }>(page, "window.__HH__.where()")).x;
+    await fly(page, "group-exp_in", "window.__HH__.jahizRoom().placed.vulture === 'exp_in'");
+    const signX = (await ev<{ x: number }>(page, "window.__HH__.where()")).x;
+    await fly(page, "group-exp_out", "window.__HH__.where().near === 'group-exp_out'");
+    const sign2X = (await ev<{ x: number }>(page, "window.__HH__.where()")).x;
+    if (outDir) await page.screenshot({ path: resolve(outDir, "jahiz-room-ar.png") });
+    const s = { w: await words(page), ran: await ranText(page), objective: await ev<string>(page, `document.querySelector('${ROOM} .objective').textContent`), note: await ev<string>(page, `document.querySelector('${ROOM} .words section:last-child p').textContent`) };
+    record("al-Jahiz's room on an Arabic page runs right to left, mirrors the cards' order on the bench (the second card waits to the left of the first) and the trays (the first tray on the right), says the cards, the trays and what a touch did in Arabic with Arabic numerals and no Latin digit, and gives the room's note in the founder's Arabic words",
+      ar.dir === "rtl" && ar.alt === "غرفة الجاحظ في صورة. والقائمة التي بعدها تقول الشيء نفسه بالكلمات." && ar.heading === "الجاحظ" && ar.who === "هدهد" &&
+        secondX < firstX && signX > sign2X && s.w.cards[0] === "اذهب إلى البطاقة ١، على المقعد: العُقاب" && /^اذهب إلى البطاقة ٢، في الصينية ١: /.test(s.w.cards[1] ?? "") && s.w.groups[0] === "اذهب إلى علامة الصينية ١: معدود في الطير" && s.w.beak === "لا يحمل هدهد بطاقة." &&
+        s.note === "الغرفة والصواني والبطاقات والجرس من خيال اللعب، وليست صورة لمكان عمل الجاحظ. وتقسيم الجاحظ ليس تصنيف العلم اليوم." && !/[0-9]/.test(s.w.cards.join("") + s.ran + s.objective + s.w.counts),
+      { ar, firstX, secondX, signX, sign2X, s: { first: s.w.cards[0], second: s.w.cards[1], tray: s.w.groups[0], counts: s.w.counts, ran: s.ran, beak: s.w.beak } });
+    await ctx.close();
+  }
+
+  // (11) Movement kept still: the bird is set down at once and each touch takes effect on the same step; Story's four cards are sorted with no wait, and the door is still walked to.
+  {
+    const ctx = await browser.newContext({ viewport: { width: 1280, height: 900 } });
+    const page = await open(ctx, "&style=story&motion=reduced&fresh=1");
+    await openJz(page);
+    await skipTalk(page);
+    const story = (await jz(page))!;
+    const t0 = Date.now();
+    await ev(page, `window.__HH__.goTo('card-${story.items[0]}')`);
+    const once = (await jz(page))!;
+    for (const [k, item] of story.items.entries()) {
+      if (k > 0) await ev(page, `window.__HH__.goTo('card-${item}')`);
+      await ev(page, `window.__HH__.goTo('group-${story.answer[item]}')`);
+    }
+    await ev(page, "window.__HH__.goTo('bell')");
+    const calm = (await jz(page))!;
+    const took = Date.now() - t0;
+    await page.waitForFunction("window.__HH__.jahizRoom().doorLit", undefined, { timeout: 5000 });
+    if (outDir) await page.screenshot({ path: resolve(outDir, "jahiz-room-reduced.png") });
+    await skipTalk(page);
+    await page.locator(`${ROOM} .stage`).focus();
+    await walkRight(page, "!document.querySelector('.hub').hidden");
+    const last = await ev<{ scene: string } | null>(page, "window.__HH__.lastDoor()");
+    record("al-Jahiz's room with motion=reduced: flown to, the bird is set down and touches at once (the first card in the beak on the same step); Story's four cards are carried to their two trays and the bell rung with no wait; the lit door is still reached by walking",
+      story.items.length === 4 && story.groups.length === 2 && once.carrying === story.items[0] && calm.done && calm.shows === 0 && calm.moves === 4 && took < 2500 && last?.scene === "jahiz",
+      { items: story.items, once: { carrying: once.carrying }, calm: { done: calm.done, shows: calm.shows, moves: calm.moves }, took, last });
+    await ctx.close();
+  }
+
+  // (12) Without WebGL the scene is played on the animal cards' page, and finished there.
+  {
+    const ctx = await browser.newContext({ viewport: { width: 1280, height: 800 } });
+    await ctx.addInitScript("const g = HTMLCanvasElement.prototype.getContext; HTMLCanvasElement.prototype.getContext = function (t, ...a) { return /webgl/.test(t) ? null : g.call(this, t, ...a); };");
+    const page = await open(ctx, "&fresh=1&preflight=off&style=explorer");
+    const note = await ev<string>(page, `(() => { const s = document.querySelector(".hub button[data-quest='${QUEST}']").parentElement.querySelector('small'); return s ? s.textContent : ''; })()`);
+    await page.locator(`.hub button[data-quest='${QUEST}']`).click();
+    await page.waitForFunction("window.__HH__.sort() !== null", undefined, { timeout: 10000 });
+    const onPage = await ev<{ room: unknown; selects: number; roomHidden: boolean; benchShown: boolean; answer: Record<string, string> }>(page, "({ room: window.__HH__.jahizRoom(), selects: document.querySelectorAll('.bench select[data-item]').length, roomHidden: document.querySelector('.room-box').hidden, benchShown: !document.querySelector('.bench').hidden, answer: window.__HH__.sort().answer })");
+    for (const [item, group] of Object.entries(onPage.answer)) await page.locator(`.bench select[data-item='${item}']`).selectOption(group);
+    await page.getByRole("button", { name: "Show al-Jahiz" }).click();
+    await page.waitForSelector(".bench .results:not([hidden])", { timeout: 20000 });
+    const done = await ev<boolean>(page, "window.__HH__.sort().done");
+    if (outDir) await page.screenshot({ path: resolve(outDir, "jahiz-room-without-webgl.png"), fullPage: true });
+    record("without WebGL al-Jahiz's scene is played on the animal cards' page (its trial line on the Atlas, a list of choices for every card, no room), and is finished there",
+      /first trial/.test(note) && onPage.room === null && onPage.selects === 8 && onPage.roomHidden && onPage.benchShown && done, { note, onPage: { ...onPage, answer: undefined }, done });
     await ctx.close();
   }
 }

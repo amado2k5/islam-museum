@@ -18,6 +18,8 @@ export interface Choice {
   deeper?: boolean;
   /** Shown only while every one of these flags is set. */
   needs?: string[];
+  /** Shown only while none of these flags is set (so that a line said once after two questions is not said again). */
+  unless?: string[];
 }
 export interface Node<S extends string> {
   lines: Line<S>[];
@@ -49,7 +51,7 @@ export const lineOf = <S extends string>(scripts: Record<string, Script<S>>, t: 
 export function choicesOf<S extends string>(scripts: Record<string, Script<S>>, t: Talk, flags: ReadonlySet<string>): Choice[] {
   const n = nodeOf(scripts, t);
   if (t.line < n.lines.length - 1) return [];
-  return (n.choices ?? []).filter((c) => (c.needs ?? []).every((f) => flags.has(f)));
+  return (n.choices ?? []).filter((c) => (c.needs ?? []).every((f) => flags.has(f)) && !(c.unless ?? []).some((f) => flags.has(f)));
 }
 
 export type Step = { talk: Talk | null; set: string[] };

@@ -11,7 +11,7 @@ import { readFileSync } from "node:fs";
 import { resolve } from "node:path";
 import { describe, expect, it } from "vitest";
 import { COFFEE_RECORDS, COFFEE_SLACK, SHELVES, coffeeDef } from "../content/coffee";
-import { CQR_APPROACH, CQR_BELL, CQR_BOX, CQR_CASE, CQR_DOOR, CQR_IDS, CQR_ROW, CQR_SCRIPTS, CQR_SPEC, CQR_START, CQR_TABLE, CQR_WORLD, REACH, cqrRoom, cqrThings, shelfSpot, signSpot, tableSpot, type CqrThing } from "../content/coffee-room";
+import { CQR_APPROACH, CQR_BELL, CQR_CASE, CQR_DOOR, CQR_IDS, CQR_ROW, CQR_SCRIPTS, CQR_SPEC, CQR_START, CQR_TABLE, CQR_WORLD, REACH, SECTION, boxSpot, cqrRoom, cqrThings, shelfSpot, signSpot, tableSpot, type CqrThing } from "../content/coffee-room";
 import { IBR_DOOR, IBR_WORLD, ibrRoom } from "../content/battuta-room";
 import { DOOR, ROOM, WORLD } from "../content/workshop";
 import { HELPER, SCHOLAR, drawnBox } from "../content/people";
@@ -246,9 +246,16 @@ describe("the coffee room: talk is the page quest's questions and answers", () =
 describe("the coffee room: its strings", () => {
   const tables = Object.fromEntries(LANGS.map((l) => [l, table(l)]));
   const keys = Object.keys(tables.en!).filter((k) => k.startsWith("cqr_"));
-  it("are twenty-two, at the end of every table, in the same order", () => {
+  // They were the last twenty-two of every table until al-Jahiz's room (27 November 2026) appended its own after them;
+  // they are still one block, in the same order, in every table, and only al-Jahiz's room's keys come after them.
+  it("are twenty-two, one block in every table, in the same order, with only al-Jahiz's room's keys after them", () => {
     expect(keys).toHaveLength(22);
-    for (const l of LANGS) expect(Object.keys(tables[l]!).slice(-keys.length), l).toEqual(keys);
+    for (const l of LANGS) {
+      const all = Object.keys(tables[l]!);
+      const at = all.indexOf(keys[0]!);
+      expect(all.slice(at, at + keys.length), l).toEqual(keys);
+      expect(all.slice(at + keys.length).every((k) => k.startsWith("jzr_")), l).toBe(true);
+    }
   });
   it("say that the room, the shelves, the cards, the bell and the keeper are invented for play, in the founder's words in Arabic and English", () => {
     expect(tables.ar!.cqr_note_room).toBe("الغرفة والرفوف الثلاثة والبطاقات والجرس وأمين السجلات من خيال اللعب، وليست صورة لمقهى أو بيت بعينه.");
@@ -394,7 +401,7 @@ describe("the coffee room: every card, every sign and the bell are reached by fl
     const small = cqrThings(s, rtl).filter((t) => SMALL.includes(t.kind));
     for (let i = 0; i < small.length; i++) for (let j = i + 1; j < small.length; j++) expect(Math.hypot(small[i]!.x - small[j]!.x, small[i]!.y - small[j]!.y), `${small[i]!.id} ${small[j]!.id}`).toBeGreaterThanOrEqual(small[i]!.reach + small[j]!.reach - 1e-9);
   });
-  it("is generous on purpose: standing anywhere on the table within half a step of a card's middle touches that card; on a shelf, anywhere along the row of cards touches the nearest", () => {
+  it("is generous on purpose: standing anywhere on the table within half a step of a card's middle touches that card; on a shelf, anywhere along a tier of cards touches the nearest", () => {
     expect(REACH.table).toBe(CQR_ROW.step / 2);
     expect(REACH.shelf).toBe(CQR_CASE.step / 2);
     for (const style of STYLES) {
@@ -403,7 +410,7 @@ describe("the coffee room: every card, every sign and the bell are reached by fl
       for (const c of cards) for (let dx = -REACH.table + 1; dx < REACH.table; dx += 3) expect(near(c, { x: c.x + dx, y: CQR_TABLE.top }), `${c.id} ${dx}`).toBe(true);
       const all = s.sort.items.reduce((x, i) => carryTo(x, i, "tradition"), s);
       const shelf = cqrThings(all, false).filter((t) => t.kind === "card");
-      for (const c of shelf) for (let dx = -REACH.shelf + 1; dx < REACH.shelf; dx += 3) expect(near(c, { x: c.x + dx, y: CQR_CASE.boards[1]! }), `${c.id} ${dx}`).toBe(true);
+      for (const c of shelf) for (let dx = -REACH.shelf + 1; dx < REACH.shelf; dx += 3) expect(near(c, { x: c.x + dx, y: c.y + 30 }), `${c.id} ${dx}`).toBe(true);
     }
   });
   it("no card, no sign and not the bell can be touched from the floor, wherever the bird stands: each needs a hop onto the table or a flight up to a shelf", () => {
@@ -430,15 +437,18 @@ describe("the coffee room: every card, every sign and the bell are reached by fl
     expect(reached.size).toBe(perches.length);
     expect(CQR_WORLD.floor - up).toBeGreaterThan(CQR_CASE.top);
   });
-  it("the box with the feather in it needs flight: out of reach from the floor and from the highest shelf, reached from the top of the bookcase", () => {
-    const box = cqrThings(ready("explorer"), false).find((t) => t.id === "box")!;
-    for (let x = CQR_CASE.x; x <= CQR_CASE.x + CQR_CASE.w; x += 10) {
-      expect(near(box, { x, y: CQR_WORLD.floor })).toBe(false);
-      expect(near(box, { x, y: CQR_CASE.boards[2]! })).toBe(false);
+  it("the box with the feather in it needs flight: out of reach from the floor and from the highest tier, reached from the top of the bookcase, at the end the page ends at", () => {
+    for (const rtl of [false, true]) {
+      const box = cqrThings(ready("explorer"), rtl).find((t) => t.id === "box")!;
+      for (let x = CQR_CASE.x; x <= CQR_CASE.x + CQR_CASE.w; x += 10) {
+        expect(near(box, { x, y: CQR_WORLD.floor })).toBe(false);
+        expect(near(box, { x, y: CQR_CASE.boards[2]! })).toBe(false);
+      }
+      expect(landing(box, room, CQR_APPROACH.box).y).toBe(CQR_CASE.top);
+      expect(box.x > CQR_CASE.x + CQR_CASE.w / 2).toBe(!rtl);
     }
-    expect(landing(box, room, CQR_APPROACH.box).y).toBe(CQR_CASE.top);
   });
-  it("holds every card of every way of playing on the table and on any one shelf, inside the table and the bookcase, after the shelf's sign", () => {
+  it("holds every card of every way of playing on the table and on any one shelf, inside the table and inside that shelf's own section of the bookcase, clear of every sign", () => {
     for (const style of STYLES) {
       const n = coffeeDef(style).items.length;
       for (const rtl of [false, true]) {
@@ -448,16 +458,35 @@ describe("the coffee room: every card, every sign and the bell are reached by fl
           expect(t.x + REACH.table).toBeLessThanOrEqual(CQR_BELL.x - REACH.bell);
           for (let g = 0; g < 3; g++) {
             const c = shelfSpot(g, i, rtl);
-            expect(c.x - REACH.shelf).toBeGreaterThanOrEqual(CQR_CASE.x);
-            expect(c.x + REACH.shelf).toBeLessThanOrEqual(CQR_CASE.x + CQR_CASE.w);
-            expect(Math.abs(c.x - signSpot(g, rtl).x)).toBeGreaterThanOrEqual(REACH.shelf + REACH.sign);
+            const k = rtl ? 2 - g : g;
+            expect(c.x - REACH.shelf).toBeGreaterThanOrEqual(CQR_CASE.x + k * SECTION);
+            expect(c.x + REACH.shelf).toBeLessThanOrEqual(CQR_CASE.x + (k + 1) * SECTION);
+            for (let h = 0; h < 3; h++) expect(Math.hypot(c.x - signSpot(h, rtl).x, c.y - signSpot(h, rtl).y)).toBeGreaterThanOrEqual(REACH.shelf + REACH.sign);
           }
         }
       }
     }
-    // On a page read right to left the cards' order and the signs are mirrored: the first card and each sign on the right.
+    // On a page read right to left the cards' order and the shelves are mirrored: the first card and the first shelf on the right.
     expect(tableSpot(8, 0, true).x).toBeGreaterThan(tableSpot(8, 7, true).x);
-    expect(signSpot(0, true).x).toBeGreaterThan(shelfSpot(0, 0, true).x);
+    expect(signSpot(0, true).x).toBeGreaterThan(signSpot(2, true).x);
+    expect(shelfSpot(0, 0, true).x).toBeGreaterThan(shelfSpot(2, 0, true).x);
+  });
+  // The lead agent's review (27 November 2026): one above another, with the legend on top, the shelves read as a ranking.
+  it("stands the three shelves side by side at the same height: their signs at one height on the top of the case, each shelf in a section of its own of the same width, and the cards of every shelf on the same three tiers", () => {
+    for (const rtl of [false, true]) {
+      const signs = [0, 1, 2].map((g) => signSpot(g, rtl));
+      expect(new Set(signs.map((p) => p.y)).size).toBe(1);
+      expect(new Set(signs.map((p) => p.x)).size).toBe(3);
+      for (let slot = 0; slot < 9; slot++) expect(new Set([0, 1, 2].map((g) => shelfSpot(g, slot, rtl).y)).size, `slot ${slot}`).toBe(1);
+      // Each shelf's cards and sign lie in its own third of the case, in the page's order.
+      const third = (x: number) => Math.floor((x - CQR_CASE.x) / SECTION);
+      for (let g = 0; g < 3; g++) {
+        expect(third(signs[g]!.x)).toBe(rtl ? 2 - g : g);
+        for (let slot = 0; slot < 9; slot++) expect(third(shelfSpot(g, slot, rtl).x)).toBe(rtl ? 2 - g : g);
+      }
+    }
+    expect(SECTION * CQR_CASE.sections).toBe(CQR_CASE.w);
+    expect(CQR_CASE.across * Math.floor(CQR_CASE.boards.length)).toBeGreaterThanOrEqual(8);
   });
 });
 
@@ -491,7 +520,7 @@ describe("the coffee room: the door and the people, as in the other rooms", () =
     expect(child.left).toBeGreaterThan(CQR_TABLE.x + CQR_TABLE.w);
     expect(child.right).toBeLessThan(CQR_CASE.x - 10);
     expect(child.right).toBeLessThan(CQR_DOOR.x - 40);
-    expect(CQR_BOX.x).toBeGreaterThan(CQR_CASE.x);
+    for (const rtl of [false, true]) expect(boxSpot(rtl).x - 50 >= CQR_CASE.x && boxSpot(rtl).x + 50 <= CQR_CASE.x + CQR_CASE.w).toBe(true);
   });
 });
 
