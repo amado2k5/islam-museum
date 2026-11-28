@@ -142,6 +142,12 @@ jobs:
             site/package-lock.json
       - name: Install
         run: npm ci && npm ci --prefix site
+      # Seven languages of pages are about 100 GB uncompressed, more than the ~115 GB a runner has free once the
+      # unpacked toolchains, the checkout and node_modules are counted (run 45939222493 ran out at 06:38 UTC, 22-27
+      # November 2026). dist/ is therefore a zstd-compressed btrfs filesystem: the same files, about a fifth of the
+      # disk or less. Nothing reads or writes them differently.
+      - name: Mount dist/ on a compressed filesystem
+        run: tools/ci/mount-compressed-dist.sh dist
       # The build of 18 November 2026 on release/spanish (run 44362983867) ended with "the hosted runner lost
       # communication": its log stops in the middle of writing pages, about 462,000 pages in, with no error and no
       # reading of memory or disk, so nobody could tell which one ran out. The step
@@ -155,11 +161,13 @@ jobs:
             mem=$(free -m | awk '/^Mem:/ {print $7}')
             swap=$(free -m | awk '/^Swap:/ {print $3}')
             node=$(ps -eo rss,comm --sort=-rss | awk '$2 ~ /node/ {printf "%d", $1/1024; exit}')
-            line="runner resources $(date -u +%H:%M) UTC: disk free ${disk} MB, memory available ${mem} MB, swap used ${swap} MB, largest node process ${node:-0} MB"
+            distfree=$(df -BM --output=avail "$GITHUB_WORKSPACE/dist" | tail -1 | tr -dc '0-9')
+            distused=$(df -BM --output=used "$GITHUB_WORKSPACE/dist" | tail -1 | tr -dc '0-9')
+            line="runner resources $(date -u +%H:%M) UTC: disk free ${disk} MB, dist on disk ${distused} MB (compressed), memory available ${mem} MB, swap used ${swap} MB, largest node process ${node:-0} MB"
             # A plain line every time; a warning (kept on the run page, at most ten per step) only when one is nearly gone.
             if [ "${disk:-0}" -lt 4096 ] || [ "${mem:-0}" -lt 1024 ]; then echo "::warning title=Runner nearly out of disk or memory::${line}"; else echo "$line"; fi
           }
-          echo "cores: $(nproc)"; df -h "$GITHUB_WORKSPACE"; free -m
+          echo "cores: $(nproc)"; df -h "$GITHUB_WORKSPACE" "$GITHUB_WORKSPACE/dist" /mnt; free -m
           report
           ( while sleep 300; do report; done ) &
           reporter=$!
@@ -189,6 +197,11 @@ jobs:
           set -euo pipefail
           tar --use-compress-program='zstd -T0 -3' -cf dist.tar.zst dist
           ls -l dist.tar.zst
+          # Headroom for the next growth in pages: what dist takes on disk, its size as files, and what is left.
+          {
+            echo "- dist as files: $(du -s --apparent-size -BM dist | cut -f1); on disk (compressed): $(df -BM --output=used dist | tail -1 | tr -d ' ')"
+            echo "- free after the build: workspace disk $(df -BM --output=avail "$GITHUB_WORKSPACE" | tail -1 | tr -d ' '), /mnt $(df -BM --output=avail /mnt | tail -1 | tr -d ' ')"
+          } | tee -a "$GITHUB_STEP_SUMMARY"
       - name: Upload built site (the whole dist, including the R2-served directories)
         id: upload
         uses: actions/upload-artifact@v7
