@@ -15,7 +15,8 @@ async function main(): Promise<void> {
   const s: Record<string, string> = { ...shared, ...own };
   const t = (k: keyof G, v: Record<string, string | number> = {}) => fill(own[k], v);
   const { name, line } = namer(labels);
-  const ui = shell({ s, title: t("title"), howto: [t("how_1"), t("how_2"), t("how_3"), shared.source_note!], prototype: t("prototype") });
+  const ui = shell({ s, title: t("title"), howto: [t("how_1"), t("how_2"), t("how_3"), shared.source_note!] });
+  // Released on 28 November 2026 by the founder's decision (docs/gaming/spec-production/release-status.json): no prototype label.
   const saved = store<Result>("im.thread.v1");
   const date = today();
   const eventOf = new Map(pack.events.map((e) => [e.id, e]));
@@ -33,7 +34,12 @@ async function main(): Promise<void> {
       [mine[i], mine[j]] = [mine[j]!, mine[i]!];
       draw();
       ui.say(t("moved", { name: name(mine[j]!), n: num(j + 1) }));
-      (list.children[j]?.querySelector(d < 0 ? "button.up" : "button.down") as HTMLButtonElement | null ?? list.children[j]?.querySelector("button") as HTMLButtonElement | null)?.focus();
+      // Focus stays on the moved event: on the same arrow, or, at the top or bottom where that arrow is disabled, on the
+      // other one, so a keyboard player never loses their place.
+      const row = list.children[j];
+      const same = row?.querySelector<HTMLButtonElement>(d < 0 ? "button.up" : "button.down");
+      const other = row?.querySelector<HTMLButtonElement>(d < 0 ? "button.down" : "button.up");
+      (same && !same.disabled ? same : other)?.focus();
     };
     const draw = () => {
       const marks = checked ? rightPlaces(mine, puzzle.order) : null;

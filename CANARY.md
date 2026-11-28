@@ -15,6 +15,12 @@ open a new block on top with the new version and today's date.
 
 ## v2.32.0 — 2026-11-26
 ### Changed
+- **The Thread of Time, the daily ordering game, is released: the third game to leave prototype.**
+  - **Keyboard fix:** a keyboard player no longer loses their place when an event reaches the top or bottom of the list.
+  - **Arabic type, in all four daily games:** a shared font list let Arabic fall through to an Urdu Nastaliq font on some machines, so Arabic words climbed and ran into the line above. Each script now has its own fonts.
+  - **Labels:** the prototype label is gone, and the museum's games page now names three finished games, in all seven languages.
+  - **How it was checked:** 56 whole days were played with the keyboard on this machine's local host, with no problem. Kalima's and Five Questions' checks were run again after the font change and still pass.
+  - **Not yet done:** no person has playtested it, no native speaker has read five of its languages, and it has not been tried on a real phone.
 - **Five Questions, the daily quiz, is released: the second game to leave prototype, after Kalima.** The founder asked for one game at a time, the next closest to finishing.
   - **Readability fix:** once a question was answered, every answer faded to 55% opacity, the right one included, which made it hard to read. The chosen and right answers now keep full colour, and the others are muted, not faded.
   - **Labels:** the prototype label is gone from the game and its card, and the museum's games page now names both finished games, in all seven languages.
