@@ -14,6 +14,9 @@ open a new block on top with the new version and today's date.
 ---
 
 ## v2.32.0 — 2026-11-26
+### Rollback
+- **Granada's distance-detail swap (#8467) is reverted, so `main` stays safe to deploy.** It loaded lighter versions of the palace models that were never made, so every visit would have made failing requests and logged model failures, which Granada's regression check counts as failures. By its own measurement it raised far-view triangles from 4.6 to 5.5 million. Its design note (#8466) and measurement tools (#8468, #8469) stay. Devin is to rebuild the swap for the town and landmark models that do exist, measured before and after.
+
 ### Changed
 - **The Lamp of the Ages is released, with its pictures still drawn by code; painted art will come as an update.** It is the fifth game to leave prototype.
   - **Readability fixes:** city names on its map are now readable on a phone, and record ids no longer break apart inside Arabic and Urdu text.
