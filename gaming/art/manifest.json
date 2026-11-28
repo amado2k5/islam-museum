@@ -1988,6 +1988,52 @@
      "sha256": "e38ed11283950cf5e958be68a433f8794afac0629febaf3cff14de03c361afb0"
     }
    ]
+  },
+  {
+   "id": "granada/painted-skies",
+   "game": "granada",
+   "title": "The valley's painted skies: spring morning, summer midday, autumn afternoon, winter overcast and the golden evening, scaled to 4096x2048 webp from the painted 8192x4096 equirects",
+   "madeBy": "AI image (ChatGPT Codex), painted to the museum's brief; draft, pending the founder's look. The paintings' prompts and checksums: /Users/ahmedabdelaal/Documents/islam-museum-game-art/manifest.jsonl (granada/sky/*-equirect-8192x4096.png); the scaling down is this machine's",
+   "licence": "the museum's media of its own, CC BY-SA 4.0; the making is draft and awaits the founder's acceptance",
+   "surfaces": [],
+   "sources": [
+    {
+     "path": "art/make_skies.py",
+     "sha256": "e694e8dc39a562ae272ed207cd12e479a66dcc8a9c17f58f078d0d2c411fa7b4"
+    }
+   ],
+   "objects": [],
+   "placed": {},
+   "materials": [],
+   "triangles": 0,
+   "bytes": 679728,
+   "files": [
+    {
+     "path": "granada/sky-spring-morning-4096x2048.webp",
+     "bytes": 184784,
+     "sha256": "560a3d0c992d1bc574b40e6b0932c33365fed1f1594ed1c8cb8c6d34f35105e9"
+    },
+    {
+     "path": "granada/sky-summer-midday-4096x2048.webp",
+     "bytes": 118384,
+     "sha256": "e95df0484676a077278f86ab9df85d057cd298009b8c78c0b4d2ec35875d7a0b"
+    },
+    {
+     "path": "granada/sky-autumn-afternoon-4096x2048.webp",
+     "bytes": 122768,
+     "sha256": "9f0f6ce3b8be80ec285956b39eeea168ae569b31aabd24b1829be3562ddc5077"
+    },
+    {
+     "path": "granada/sky-winter-overcast-4096x2048.webp",
+     "bytes": 95434,
+     "sha256": "ee7d4de636a3537c8155cac7018c8f1460df3c478033e14bca46d04d4f588160"
+    },
+    {
+     "path": "granada/sky-evening-golden-4096x2048.webp",
+     "bytes": 158358,
+     "sha256": "eb68cf60acc3aa8ede66d0b48c5ee162cdc105bc1c84d12314a0c3f4da79299e"
+    }
+   ]
   }
  ]
 }
