@@ -4498,6 +4498,10 @@ for (const lang of ["en", "ar"]) {
       await page.keyboard.up("ArrowRight");
     }
     const onward = await ev<{ journey: { scene: number; at: number }; last: { scene: string } | null; heading: string; room: unknown; roomHidden: boolean; page: unknown; corridors: number }>(page, `({ journey: window.__HH__.journey(), last: window.__HH__.lastDoor(), heading: document.querySelector('${ROOM} h2').textContent, room: window.__HH__.razi(), roomHidden: document.querySelector('.room-box').hidden, page: window.__HH__.collate(), corridors: document.querySelectorAll('.corridor').length })`);
+    // The room must have seen the key let go before it is pressed again (28 November 2026: on a busy machine the key was
+    // pressed again before the room's next step had read it let go, so the room never armed and the bird did not move).
+    // Waited for, not timed.
+    const armed = await page.waitForFunction("window.__HH__.standing() && window.__HH__.standing().armed === true", undefined, { timeout: 5000 }).then(() => true, () => false);
     await page.locator(`${ROOM} .stage`).focus();
     await page.keyboard.down("ArrowRight");
     // Held until the bird has moved, not for a fixed half second: on a busy machine the room may take longer than that to
@@ -4513,8 +4517,8 @@ for (const lang of ["en", "ar"]) {
     record("in the journey al-Idrisi's lit door leads into al-Razi's study (the seventh scene: no page, no corridor, Hudhud's line naming him); finished, its lit door walked to with the right arrow key leads on into the eighth scene, Karima al-Marwaziyya's room (no page, no corridor); the key still held there carries neither the bird nor the explorer on, and once let go and pressed again it moves the bird",
       entered.journey.scene === 6 && entered.journey.at === 6 && entered.last?.scene === "idrisi" && entered.toast === "Hudhud: On to the next page of the Atlas: al-Razi!" && entered.heading === "al-Razi" && entered.corridors === 0 && entered.page === null &&
         onward.journey.scene === 7 && onward.journey.at === 7 && onward.last?.scene === "razi" && onward.room === null && !onward.roomHidden && onward.heading === "Karima al-Marwaziyya" && onward.page === null && onward.corridors === 0 &&
-        held !== null && held.x === 250 && held.explorer === 106 && pressed > 300,
-      { entered, onward, held, pressed });
+        held !== null && held.x === 250 && held.explorer === 106 && armed && pressed > 300,
+      { entered, onward, held, armed, pressed });
     await ctx.close();
   }
 
