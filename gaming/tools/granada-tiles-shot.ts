@@ -1,0 +1,34 @@
+// Visual check of the painted surface tiles: walls, roofs, timber, earth and both waters, from the local host.
+import { mkdirSync } from "node:fs";
+import { resolve } from "node:path";
+import { chromium } from "playwright-core";
+import { serveWorkspace } from "./serve";
+const out = resolve(process.env.BLOCK_TILES ? "/tmp/granada-tiles-off" : "/tmp/granada-tiles"); mkdirSync(out, { recursive: true });
+const served = await serveWorkspace();
+const browser = await chromium.launch({ channel: "chrome", headless: false, args: ["--mute-audio", "--window-size=1960,1160", "--window-position=0,0", "--force-device-scale-factor=1"] });
+const page = await (await browser.newContext({ viewport: { width: 1920, height: 1080 }, deviceScaleFactor: 1 })).newPage();
+if (process.env.BLOCK_TILES) await page.route("**/tile-*.webp", (r) => r.abort());
+const errors: string[] = [];
+page.on("pageerror", (e) => errors.push(String(e)));
+page.on("console", (m) => { if (m.type() === "error" && !m.text().includes("favicon")) errors.push(m.text()); });
+await page.goto(served.base + "/games/granada/index.html?lang=en&fresh=1&seed=7&music=off&q=high");
+await page.waitForFunction("Boolean(window.__GR__ && window.__GR__.ready)");
+await page.locator("#brief-start").click();
+await page.waitForFunction("window.__GR__.threeD === 'on'", undefined, { timeout: 180000 });
+await page.locator("#view-photo").click();
+await page.locator("#photo-hide").click();
+const shot = async (name: string, pose: string) => {
+  await page.evaluate(`window.__GR__.stage().setPose(${pose}, true)`);
+  await page.waitForTimeout(2500);
+  await page.screenshot({ path: `${out}/${name}.png` });
+};
+await shot("village", "{ tx: 110, ty: 6, tz: 150, yaw: 0.5, pitch: 0.36, distance: 190 }");
+await shot("channels", "{ tx: 120, ty: 4, tz: 30, yaw: 0.2, pitch: 0.5, distance: 110 }");
+await shot("pool", "{ tx: 130, ty: 7, tz: -60, yaw: 0.9, pitch: 0.42, distance: 180 }");
+await shot("mosque", "{ tx: 150, ty: 6, tz: 130, yaw: 2.6, pitch: 0.3, distance: 120 }");
+await shot("mill", "{ tx: -30, ty: 5, tz: 46, yaw: 0.5, pitch: 0.28, distance: 90 }");
+await shot("whole", "{ tx: 60, ty: 6, tz: 40, yaw: 1.5708, pitch: 0.9, distance: 860 }");
+const info = await page.evaluate("(() => { const i = window.__GR__.stage().info(); return { drawCalls: i.drawCalls, triangles: i.triangles, textures: i.textures, geometries: i.geometries, models: i.models, failures: i.modelFailures }; })()");
+const heap = await page.evaluate("performance.memory ? Math.round(performance.memory.usedJSHeapSize / 1048576) : null");
+console.log(JSON.stringify({ info, heapMb: heap, errors }));
+await browser.close(); await served.close();

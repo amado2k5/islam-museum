@@ -309,6 +309,10 @@ export class ValleyRenderer {
   private readonly skyLoading = new Set<string>();
   private skyWanted: string | null = null;
   private skyFailed = false;
+  /** The painted surface tiles, by the procedural texture kind they answer (walls, roofs, timber, earth). */
+  private readonly surfaceTiles = new Map<string, THREE.Texture>();
+  /** The painted water tiles: the river's and the channels'. */
+  private readonly waterTiles: { river: THREE.Texture | null; canal: THREE.Texture | null } = { river: null, canal: null };
   private disposed = false;
   private carts!: THREE.InstancedMesh;
   private flocks!: THREE.InstancedMesh;
@@ -413,6 +417,48 @@ export class ValleyRenderer {
         this.models.push("granada/ground-atlas");
       } catch (e) {
         this.modelFailures.push(`granada/ground-atlas: ${e instanceof Error ? e.message : String(e)}`);
+      }
+    }
+
+    // ---- The painted surface tiles: walls, roofs, timber and water, media beside the models like the atlas ----
+    // The tiles are not seamless as delivered, so they are mirrored at their edges rather than repeated; a tile
+    // that cannot be had leaves its surface procedural, and the failure is named. Each answers one texture kind,
+    // so every wall in the valley shares the one lime-plaster file.
+    if (options.models && MODELS_AVAILABLE) {
+      const tile = async (file: string, tileMeters: number): Promise<THREE.Texture> => {
+        const t = await new THREE.TextureLoader().loadAsync(modelUrl(file));
+        t.colorSpace = THREE.SRGBColorSpace;
+        t.wrapS = t.wrapT = THREE.MirroredRepeatWrapping;
+        t.repeat.set(1 / tileMeters, 1 / tileMeters);
+        t.minFilter = THREE.LinearMipmapLinearFilter;
+        t.magFilter = THREE.LinearFilter;
+        t.anisotropy = 8;
+        t.needsUpdate = true;
+        this.disposables.push(t);
+        return t;
+      };
+      const SURFACE_TILES: Array<[string, string, number]> = [
+        ["plaster", "granada/tile-lime-plaster-wall-1536.webp", 4],
+        ["roof", "granada/tile-clay-roof-1536.webp", 5],
+        ["wood", "granada/tile-timber-planks-1536.webp", 1.6],
+        ["ashlar", "granada/tile-rubble-stone-wall-1536.webp", 2.4],
+        ["earth", "granada/tile-rammed-earth-wall-1536.webp", 6],
+      ];
+      for (const [kind, file, metres] of SURFACE_TILES) {
+        try {
+          this.surfaceTiles.set(kind, await tile(file, metres));
+          this.models.push(file.replace("-1536.webp", ""));
+        } catch (e) {
+          this.modelFailures.push(`${file}: ${e instanceof Error ? e.message : String(e)}`);
+        }
+      }
+      for (const [which, file] of [["river", "granada/tile-river-water-1536.webp"], ["canal", "granada/tile-canal-water-1536.webp"]] as const) {
+        try {
+          this.waterTiles[which] = await tile(file, 1);
+          this.models.push(file.replace("-1536.webp", ""));
+        } catch (e) {
+          this.modelFailures.push(`${file}: ${e instanceof Error ? e.message : String(e)}`);
+        }
       }
     }
 
@@ -847,7 +893,9 @@ export class ValleyRenderer {
 
   private makeStandard(spec: MaterialSpec, maps: Map<TextureKind, { map: THREE.DataTexture; normal: THREE.DataTexture }>): THREE.Material {
     const tex = spec.texture ? maps.get(spec.texture) : undefined;
-    const m = new THREE.MeshStandardMaterial({ color: color(spec.color), roughness: spec.roughness, metalness: spec.metalness, vertexColors: true, map: tex?.map ?? null, normalMap: tex?.normal ?? null });
+    // A painted tile that arrived answers its kind in place of the procedural albedo; the procedural normal stays.
+    const painted = spec.texture ? this.surfaceTiles.get(spec.texture) : undefined;
+    const m = new THREE.MeshStandardMaterial({ color: color(spec.color), roughness: spec.roughness, metalness: spec.metalness, vertexColors: true, map: painted ?? tex?.map ?? null, normalMap: tex?.normal ?? null });
     if (spec.emissive) {
       m.emissive = color(spec.emissive);
       m.emissiveIntensity = 0.4;
@@ -1142,6 +1190,14 @@ export class ValleyRenderer {
       const foam = smoothstep(0.8, 0.97, side).mul(smoothstep(0.25, 0.45, broken)).mul(0.55);
       m.colorNode = mix(water, vec3(0.78, 0.82, 0.78), foam);
       m.roughnessNode = mix(float(0.05), float(0.6), foam);
+    }
+    // The painted tile lends the surface its brightness grain, drifting slowly with the current, while the colours
+    // above keep the water's own deep-to-shallow reading; its mean luminance is divided out first (0.106 river,
+    // 0.196 canal, measured on the delivered tiles), so an ordinary patch of paint is no darker or brighter.
+    const painted = canal ? this.waterTiles.canal : this.waterTiles.river;
+    if (painted) {
+      const grain = texture(painted, p.div(canal ? 6 : 14).add(flow.mul(t.mul(0.015)))).rgb.dot(vec3(0.299, 0.587, 0.114)).div(canal ? 0.196 : 0.106).clamp(0.55, 1.45);
+      m.colorNode = m.colorNode.mul(grain);
     }
     m.ior = 1.33;
     return m;
