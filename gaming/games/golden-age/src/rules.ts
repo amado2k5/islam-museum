@@ -105,6 +105,16 @@ export const TAX_PER_TEN = [1, 2, 3] as const;
 /** Welfare points a tax level costs. */
 export const TAX_WELFARE = [0, 4, 11] as const;
 
+/**
+ * A provincial district sends part of a full treasury on to the capital each season: a fifth of whatever it holds
+ * above 200 coins. Below that it keeps everything. The lab (1,000 campaigns a chapter) found that coins beyond 200
+ * never decided a campaign: the score counts reserves up to 200 and no strategy's win rate changes with the
+ * remittance. Without it, money piled up with nothing to spend it on.
+ */
+export const REMIT_FREE = 200;
+export const REMIT_DIVISOR = 5;
+export const remittance = (treasury: number): number => Math.floor(Math.max(0, treasury - REMIT_FREE) / REMIT_DIVISOR);
+
 export type EventKind = "drought" | "good-harvest" | "caravan" | "silting" | "fever";
 export interface Forecast {
   kind: EventKind;
@@ -197,6 +207,8 @@ export interface SeasonReport {
   upkeep: number;
   /** Repaid on the merchants' loan this season. */
   repaid: number;
+  /** Coins sent on to the capital this season. */
+  remitted: number;
   knowledgeGained: number;
   welfareTarget: number;
   staffingPermille: number;
@@ -507,7 +519,8 @@ function runSeason(s: State, scenario: Scenario): State {
   for (const p of s.endowed) if (s.plots[p]) upkeep -= BUILDINGS[s.plots[p]!].upkeep;
   // The loan is repaid before anything else is reckoned, whatever the season brought.
   const repaid = Math.min(s.loanEach, s.loanOwed);
-  const treasury = s.treasury + tax + trade + sales - upkeep - repaid;
+  const remitted = remittance(s.treasury);
+  const treasury = s.treasury + tax + trade + sales - upkeep - repaid - remitted;
 
   // Learning. A school or library that cannot be paid for, or whose city is hungry, teaches nothing.
   const paid = treasury >= 0;
@@ -614,7 +627,7 @@ function runSeason(s: State, scenario: Scenario): State {
     unrestSeasons,
     steadySeasons,
     outcome,
-    last: { season, waterNeed: tiers[0]! + tiers[1]! + tiers[2]!, waterSupply, waterShare: share, harvest, eaten, hungerPermille, spoiled, sold, income: { tax, trade, sales }, upkeep, repaid, knowledgeGained, welfareTarget: target, staffingPermille: staffing, households, events, completedResearch: completed, welfareParts: parts, cover: { water: cover(houses.filter((h) => servedByWater(wet, h)).length), bath: cover(bathed), school: cover(taught), hospital: cover(healed), market: cover(servedByMarket) }, housing: housed, jobs: workersNeeded },
+    last: { season, waterNeed: tiers[0]! + tiers[1]! + tiers[2]!, waterSupply, waterShare: share, harvest, eaten, hungerPermille, spoiled, sold, income: { tax, trade, sales }, upkeep, repaid, remitted, knowledgeGained, welfareTarget: target, staffingPermille: staffing, households, events, completedResearch: completed, welfareParts: parts, cover: { water: cover(houses.filter((h) => servedByWater(wet, h)).length), bath: cover(bathed), school: cover(taught), hospital: cover(healed), market: cover(servedByMarket) }, housing: housed, jobs: workersNeeded },
   };
 }
 

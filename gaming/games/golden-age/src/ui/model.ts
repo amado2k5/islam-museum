@@ -197,6 +197,7 @@ export function ledger(r: SeasonReport): LedgerGroup[] {
         { id: "ledger_trade", vars: { n: r.income.trade } },
         { id: "ledger_upkeep", vars: { n: r.upkeep } },
         ...(r.repaid > 0 ? [{ id: "ledger_repaid", vars: { n: r.repaid } }] : []),
+        ...(r.remitted > 0 ? [{ id: "ledger_remitted", vars: { n: r.remitted } }] : []),
         { id: "ledger_net", vars: { n: signed(r.income.tax + r.income.trade + r.income.sales - r.upkeep) }, tone: r.income.tax + r.income.trade + r.income.sales - r.upkeep < 0 ? "bad" : "good" },
       ],
     },
