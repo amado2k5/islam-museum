@@ -777,6 +777,7 @@ async function main(): Promise<void> {
     const river = riverOfYear(state);
     const s = stocks(sc, state);
     return [
+      h("div", { class: "season-icons", "aria-hidden": "true" }),
       h(
         "section",
         { class: "card" },

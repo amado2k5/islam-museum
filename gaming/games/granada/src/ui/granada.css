@@ -132,11 +132,14 @@ h3 { font-size: 0.9rem; color: var(--ink-soft); margin-block-start: 10px; }
 /* A plain stack that scrolls as one: each part keeps its own height, so none is squeezed under the next. */
 .column { background: var(--panel); border-inline-start: 1px solid var(--line); display: flex; flex-direction: column; min-block-size: 0; max-block-size: calc(100vh - 96px); overflow: auto; }
 .column > * { flex: none; }
-.rail { display: flex; flex-wrap: wrap; gap: 4px; padding: 8px; border-block-end: 1px solid var(--line); }
+.rail { display: flex; flex-wrap: wrap; gap: 4px; padding: 8px; border-block-end: 1px solid var(--line); border-image: url("../media/models/granada/divider.webp") 1 stretch; }
+.rail.fallback { border-image: none; }
 .rail button { flex: 1 1 auto; padding: 6px 8px; display: inline-flex; align-items: center; justify-content: center; gap: 6px; }
 .rail-icon { inline-size: 18px; block-size: 18px; fill: none; stroke: currentColor; stroke-width: 1.7; stroke-linecap: round; stroke-linejoin: round; flex: none; }
 .objectives, .seasonbox { padding: 10px 10px 0; display: grid; gap: 10px; }
 .seasonbox { padding-block-end: 10px; }
+.season-icons { background-image: url("../media/models/granada/season-icons.webp"); background-size: contain; background-repeat: no-repeat; background-position: center; inline-size: 100%; block-size: 80px; }
+.season-icons.fallback { background-image: none; }
 .side { display: block; }
 .panel { padding: 10px 10px 0; display: grid; gap: 10px; align-content: start; }
 .season-line { font-size: 0.92rem; color: var(--ink-soft); }
@@ -177,7 +180,8 @@ h3 { font-size: 0.9rem; color: var(--ink-soft); margin-block-start: 10px; }
   body.hud .toasts { inset-block-end: auto; inset-block-start: 120px; inset-inline-start: 50%; transform: translateX(-50%); justify-items: center; }
   :dir(rtl) body.hud .toasts { transform: translateX(50%); }
 }
-.card { background: var(--panel-2); border: 1px solid var(--line); border-radius: 10px; padding: 10px 12px; display: grid; gap: 6px; }
+.card { background: var(--panel-2); border: 1px solid var(--line); border-radius: 10px; padding: 10px 12px; display: grid; gap: 6px; border-image: url("../media/models/granada/panel-border.webp") 42 fill round; }
+.card.fallback { background: var(--panel-2); border-image: none; }
 .card.selected { border-color: var(--accent); }
 .card.advice { border-color: var(--accent); }
 .card.decision { border-color: var(--accent); }
