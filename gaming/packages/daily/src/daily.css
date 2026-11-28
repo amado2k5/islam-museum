@@ -3,8 +3,13 @@
 @media (prefers-color-scheme: dark) { :root { --bg: #15130f; --fg: #f3eee4; --muted: #b9b1a3; --line: #4a443a; --card: #211e19; --accent: #7cc7c4; --hit: #3f9a6e; --near: #c58b1c; --miss: #5d5852; --bad: #e07a7a; --focus: #8ab4ff; --on-mark: #15130f; } }
 * { box-sizing: border-box; }
 html { -webkit-text-size-adjust: 100%; }
-body { margin: 0; background: var(--bg); color: var(--fg); font: 18px/1.5 system-ui, -apple-system, "Segoe UI", Roboto, "Noto Sans", "Noto Naskh Arabic", "Noto Nastaliq Urdu", sans-serif; }
+body { margin: 0; background: var(--bg); color: var(--fg); font: 18px/1.5 system-ui, -apple-system, "Segoe UI", Roboto, "Noto Sans", sans-serif; }
 [dir="rtl"] body { font-size: 19px; line-height: 1.8; }
+/* Each script its own fonts, as the games' platform does (packages/platform/src/gate.css). One shared list let Arabic
+   fall through to an Urdu Nastaliq font on machines without a Naskh font early in it, so Arabic words climbed
+   diagonally and ran into the line above. */
+:lang(ar) body, body:lang(ar) { font-family: "SF Arabic", "Geeza Pro", "Noto Naskh Arabic", "Segoe UI", Tahoma, sans-serif; }
+:lang(ur) body, body:lang(ur) { font-family: "Noto Nastaliq Urdu", "Jameel Noori Nastaleeq", "Geeza Pro", "Segoe UI", Tahoma, serif; line-height: 2.2; }
 #app { max-width: 34rem; margin: 0 auto; padding: max(12px, env(safe-area-inset-top)) 16px max(24px, env(safe-area-inset-bottom)); }
 .skip { position: absolute; inset-inline-start: -999px; }
 .skip:focus { inset-inline-start: 8px; top: 8px; background: var(--card); padding: 8px; z-index: 9; }
