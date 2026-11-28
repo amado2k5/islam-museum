@@ -15,3 +15,9 @@
 .im-unsupported :focus-visible { outline: 3px solid #fff; outline-offset: 2px; }
 :lang(ar) .im-unsupported { font-family: "SF Arabic", "Geeza Pro", "Noto Naskh Arabic", "Segoe UI", Tahoma, sans-serif; line-height: 1.8; }
 :lang(ur) .im-unsupported { font-family: "Noto Nastaliq Urdu", "Jameel Noori Nastaleeq", "Geeza Pro", "Segoe UI", Tahoma, serif; line-height: 2.2; }
+/* Granada title art */
+.gr-title { position: relative; background-image: url("../media/models/granada/title.webp"); background-size: cover; background-position: center; inline-size: 100%; block-size: 100vh; display: grid; place-items: center; }
+.gr-title-text { position: absolute; inset-inline-start: 40px; inset-block-start: 50%; max-inline-size: 320px; color: #f3ead8; text-shadow: 0 0 12px rgba(11, 14, 20, 0.8); }
+.gr-title-text h1 { font-size: 1.8rem; margin: 0 0 8px 0; }
+.gr-title-text p { font-size: 0.9rem; color: #cbbfa6; margin: 0; }
+:lang(ar) .gr-title-text, :lang(ur) .gr-title-text { inset-inline-start: auto; inset-inline-end: 40px; text-align: right; }
