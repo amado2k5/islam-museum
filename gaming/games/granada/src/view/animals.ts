@@ -6,11 +6,11 @@
 // their share of it.
 import * as THREE from "three/webgpu";
 
-export type AnimalKind = "sheep" | "goat" | "horse" | "ox" | "donkey";
-export const ANIMAL_KINDS: readonly AnimalKind[] = ["sheep", "goat", "horse", "ox", "donkey"];
+export type AnimalKind = "sheep" | "goat" | "horse" | "ox" | "donkey" | "camel";
+export const ANIMAL_KINDS: readonly AnimalKind[] = ["sheep", "goat", "horse", "ox", "donkey", "camel"];
 
 /** The material each animal is mostly made of: the instance's own colour is measured against it. */
-const BASE_MATERIAL: Record<AnimalKind, string> = { sheep: "wool", goat: "darkwool", horse: "hide", ox: "hide", donkey: "hide" };
+const BASE_MATERIAL: Record<AnimalKind, string> = { sheep: "wool", goat: "darkwool", horse: "hide", ox: "hide", donkey: "hide", camel: "hide" };
 
 export interface AnimalParts {
   /** The body with the object's own placement baked in, ready to instance at ground level. */

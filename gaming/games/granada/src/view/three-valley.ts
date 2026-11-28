@@ -17,7 +17,7 @@ import { ROBE_TINTS, awningMesh, palmMesh, personBodyMesh, personHeadMesh, stall
 import type { Atmosphere } from "@im/worldkit/atmosphere";
 import type { TextureData, TextureKind } from "@im/worldkit/textures";
 import { FOV, eyeOf, type Pose } from "./camera";
-import { HORSE_LEGS, OX_LEGS, PERSON_LEGS, SHEEP_LEGS, basket, bird, donkey, guardGear, horse, horseLeg, ladder, oxBody, oxLeg, personBody, personLeg, sheep, sheepLeg } from "./buildings";
+import { CAMEL_LEGS, HORSE_LEGS, OX_LEGS, PERSON_LEGS, SHEEP_LEGS, basket, bird, camel, camelLeg, donkey, guardGear, horse, horseLeg, ladder, oxBody, oxLeg, personBody, personLeg, sheep, sheepLeg } from "./buildings";
 import { ANIMAL_KINDS, extractAnimal, type AnimalKind } from "./animals";
 import { along, fieldTo, limbMatrix, route, walkGrid, walkOf, type Walk, type WalkGrid } from "./paths";
 import { MODELS_AVAILABLE, disposeModel, disposeSharedMaterials, loadModel, modelUrl } from "./models";
@@ -162,6 +162,7 @@ function walkingMatrix(out: Float32Array, o: number, x: number, y: number, z: nu
   out.set([c * cr * k, sr * k, -s * cr * k, 0, -c * sr * k, cr * k, s * sr * k, 0, s * k, 0, c * k, 0, x, y, z, 1], o);
 }
 const CARTS = 6;
+const CAMELS = 2;
 /** Sheep and goats to a flock, riders on the roads, and birds over the valley. They are scenery: the game's rules know nothing of them. */
 const FLOCK = 18;
 const RIDERS = 7;
@@ -173,6 +174,7 @@ const FLEECE: Rgb[] = [[0.92, 0.9, 0.84], [0.86, 0.82, 0.74], [0.95, 0.93, 0.88]
 const GOAT_TINTS: Rgb[] = [[0.4, 0.33, 0.25], [0.6, 0.54, 0.45], [0.22, 0.2, 0.18], [0.78, 0.74, 0.66], [0.5, 0.38, 0.26]];
 const DONKEY_TINTS: Rgb[] = [[0.58, 0.55, 0.5], [0.46, 0.43, 0.39], [0.64, 0.6, 0.53]];
 const OX_TINTS: Rgb[] = [[0.5, 0.36, 0.22], [0.42, 0.3, 0.18], [0.56, 0.44, 0.3], [0.36, 0.27, 0.19], [0.48, 0.38, 0.3], [0.44, 0.3, 0.16]];
+const CAMEL_TINTS: Rgb[] = [[0.62, 0.48, 0.3], [0.5, 0.38, 0.24]];
 const WHEAT_SPACING = 1.7;
 const VEG_SPACING = 2.6;
 const WALKERS = 64;
@@ -284,6 +286,8 @@ export class ValleyRenderer {
   private oxen!: THREE.InstancedMesh;
   private donkeys!: THREE.InstancedMesh;
   private donkeyLegs!: THREE.InstancedMesh;
+  private camels!: THREE.InstancedMesh;
+  private camelLegs!: THREE.InstancedMesh;
   // Which flock animal is a goat and where it sits in its own kind's mesh: fixed, so a frame writes it the same way every time.
   private flockGoat: boolean[] = [];
   private flockSlot: number[] = [];
@@ -753,6 +757,11 @@ export class ValleyRenderer {
     paint(this.donkeys, this.pastures.length, (i) => DONKEY_TINTS[i % DONKEY_TINTS.length]!);
     this.donkeyLegs = instanced(horseLeg(), "prop", Math.max(1, this.pastures.length * 4), true, true);
     paint(this.donkeyLegs, this.pastures.length * 4, (i) => DONKEY_TINTS[Math.floor(i / 4) % DONKEY_TINTS.length]!);
+    // Camels pace the roads, as a caravan does, on the side away from the riders.
+    this.camels = instanced(camel(), "prop", CAMELS, true, true);
+    paint(this.camels, CAMELS, (i) => CAMEL_TINTS[i % CAMEL_TINTS.length]!);
+    this.camelLegs = instanced(camelLeg(), "prop", CAMELS * 4, true, true);
+    paint(this.camelLegs, CAMELS * 4, (i) => CAMEL_TINTS[Math.floor(i / 4) % CAMEL_TINTS.length]!);
     paint(this.oxen, CARTS, (i) => OX_TINTS[i % OX_TINTS.length]!);
     paint(this.oxLegs, CARTS * 4, (i) => OX_TINTS[Math.floor(i / 4) % OX_TINTS.length]!);
     this.horses = instanced(horse(), "prop", RIDERS, true, true);
@@ -1135,6 +1144,8 @@ export class ValleyRenderer {
         return [this.oxen, this.oxLegs];
       case "donkey":
         return [this.donkeys, this.donkeyLegs];
+      case "camel":
+        return [this.camels, this.camelLegs];
     }
   }
 
@@ -1853,6 +1864,31 @@ export class ValleyRenderer {
     });
     this.donkeys.instanceMatrix.needsUpdate = true;
     this.donkeyLegs.instanceMatrix.needsUpdate = true;
+    // Camels: a slow caravan pace along the roads, on the side away from the riders, legs swinging easy.
+    const camels = this.camels.instanceMatrix.array as Float32Array;
+    const camelLegs = this.camelLegs.instanceMatrix.array as Float32Array;
+    for (let i = 0; i < CAMELS; i++) {
+      const road = this.riderRoads[i % Math.max(1, this.riderRoads.length)];
+      if (!road || road.length < 2) continue;
+      const last = road.length - 1;
+      const u = ((t * 0.16 + i * 31.7) % (2 * last) + 2 * last) % (2 * last);
+      const back = u > last;
+      const at = back ? 2 * last - u : u;
+      const k = Math.min(last - 1, Math.floor(at));
+      const a = road[k]!;
+      const b = road[k + 1]!;
+      const s = at - k;
+      const dir = back ? -1 : 1;
+      const l = Math.hypot(b[0] - a[0], b[1] - a[1]) || 1;
+      const x = a[0] + (b[0] - a[0]) * s + ((b[1] - a[1]) / l) * dir * 3.4;
+      const z = a[1] + (b[1] - a[1]) * s - ((b[0] - a[0]) / l) * dir * 3.4;
+      const heading = Math.atan2((b[0] - a[0]) * dir, (b[1] - a[1]) * dir);
+      instanceMatrix(camels, i * 16, x, heightAt(x, z, seed) + 0.02, z, heading, 1, 1, 1);
+      const amble = t === 0 ? 0 : 0.26 * Math.sin(t * 2.1 + i * 2.3);
+      CAMEL_LEGS.forEach((j, q) => limbMatrix(camelLegs, (i * 4 + q) * 16, camels, i * 16, j[0], j[1], j[2], q === 0 || q === 3 ? amble : -amble));
+    }
+    this.camels.instanceMatrix.needsUpdate = true;
+    this.camelLegs.instanceMatrix.needsUpdate = true;
     // Riders: out along a road and back at a trot, the rider seated on the horse's back.
     const horses = this.horses.instanceMatrix.array as Float32Array;
     const riders = this.riderBodies.instanceMatrix.array as Float32Array;

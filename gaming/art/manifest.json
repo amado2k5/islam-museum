@@ -1859,7 +1859,7 @@
     },
     {
      "path": "art/blender/granada_animals.py",
-     "sha256": "8b9eca849e121c118b24f276606117d2fb20293c4c0dda524898668fc941c267"
+     "sha256": "f3c3cab9af9a4089ec2568b3b944463d1408782d8dc148a3e75dfc8cb763cd28"
     }
    ],
    "objects": [
@@ -1914,7 +1914,7 @@
     {
      "path": "granada/animals/sheep.bin",
      "bytes": 101688,
-     "sha256": "c4615ba02516a228a6f10f9bd5feb88b3fe1e03fb7a3bea4bd5bfedcbd2f97e8"
+     "sha256": "e04579550b442adf1d52f5d6619a424b39eb8790195c2dc7c82307489603530e"
     }
    ]
   },
@@ -1936,7 +1936,7 @@
     },
     {
      "path": "art/blender/granada_animals.py",
-     "sha256": "8b9eca849e121c118b24f276606117d2fb20293c4c0dda524898668fc941c267"
+     "sha256": "f3c3cab9af9a4089ec2568b3b944463d1408782d8dc148a3e75dfc8cb763cd28"
     }
    ],
    "objects": [
@@ -1992,7 +1992,7 @@
     {
      "path": "granada/animals/goat.bin",
      "bytes": 103624,
-     "sha256": "cb227425e32e50d814b81623e45d9a7fb96fb0acf1f2f03896cbfbee2c4e3878"
+     "sha256": "97103b283058bb236cd8417efef1ba73bb94557b7e6248fc6aeadf5142b3af9d"
     }
    ]
   },
@@ -2014,7 +2014,7 @@
     },
     {
      "path": "art/blender/granada_animals.py",
-     "sha256": "8b9eca849e121c118b24f276606117d2fb20293c4c0dda524898668fc941c267"
+     "sha256": "f3c3cab9af9a4089ec2568b3b944463d1408782d8dc148a3e75dfc8cb763cd28"
     }
    ],
    "objects": [
@@ -2069,7 +2069,7 @@
     {
      "path": "granada/animals/horse.bin",
      "bytes": 116808,
-     "sha256": "6f8d69cc9f8024bef4848f1461d4a435115ff42f7c9bccd94af9b2fd9f369396"
+     "sha256": "942bf7090a63731bedf4cb3e641ceff9109b7ff27aa49c7679ca3fa089de89c7"
     }
    ]
   },
@@ -2091,7 +2091,7 @@
     },
     {
      "path": "art/blender/granada_animals.py",
-     "sha256": "8b9eca849e121c118b24f276606117d2fb20293c4c0dda524898668fc941c267"
+     "sha256": "f3c3cab9af9a4089ec2568b3b944463d1408782d8dc148a3e75dfc8cb763cd28"
     }
    ],
    "objects": [
@@ -2146,7 +2146,7 @@
     {
      "path": "granada/animals/ox.bin",
      "bytes": 103624,
-     "sha256": "5e2f5846902a5183f851a87588ce53b0a1d03164b0859895c785bbfa2a00355b"
+     "sha256": "20c463e2bc4e1a8cfd1688f50ddc60ba7afb3f5df7a39124d679dd095e8782fc"
     }
    ]
   },
@@ -2168,7 +2168,7 @@
     },
     {
      "path": "art/blender/granada_animals.py",
-     "sha256": "8b9eca849e121c118b24f276606117d2fb20293c4c0dda524898668fc941c267"
+     "sha256": "f3c3cab9af9a4089ec2568b3b944463d1408782d8dc148a3e75dfc8cb763cd28"
     }
    ],
    "objects": [
@@ -2222,7 +2222,83 @@
     {
      "path": "granada/animals/donkey.bin",
      "bytes": 109248,
-     "sha256": "6446db8d3473392fad9efd1155d44e2afc9b9d01b2b3e2d91c0e6af124b6b421"
+     "sha256": "435c2de79a28fbeba323345b3ecf0508454808860d90a17c835d02a665df91ea"
+    }
+   ]
+  },
+  {
+   "id": "granada/animals/camel",
+   "game": "granada",
+   "title": "A camel with its hump, body and four legs at their joints",
+   "madeBy": "the shapes: this repository's own scripts, run in Blender. The surfaces: photographs given to the public domain by Poly Haven, named in art/sources.json, where this machine had them; painted by the scripts where it did not",
+   "licence": "the scripts: MIT, with the code; what they make: CC BY-SA 4.0, with the museum's media of its own; the photographed surfaces stay public domain (CC0)",
+   "surfaces": [],
+   "sources": [
+    {
+     "path": "art/blender/common.py",
+     "sha256": "0b9a4ce8ee3efeefb246c78301170bf03256d20d63d575f93ae57bda473a9915"
+    },
+    {
+     "path": "art/blender/kit.py",
+     "sha256": "2f6e06dd53a3dc19d3bae51a394ac41daab84200065391fbbffa096e76f31496"
+    },
+    {
+     "path": "art/blender/granada_animals.py",
+     "sha256": "f3c3cab9af9a4089ec2568b3b944463d1408782d8dc148a3e75dfc8cb763cd28"
+    }
+   ],
+   "objects": [
+    "camel_body",
+    "camel_leg_fl",
+    "camel_leg_fr",
+    "camel_leg_rl",
+    "camel_leg_rr"
+   ],
+   "placed": {
+    "camel_body": [
+     0,
+     1.34,
+     0
+    ],
+    "camel_leg_fl": [
+     -0.23,
+     1.02,
+     0.74
+    ],
+    "camel_leg_fr": [
+     0.23,
+     1.02,
+     0.74
+    ],
+    "camel_leg_rl": [
+     -0.23,
+     1.02,
+     -0.74
+    ],
+    "camel_leg_rr": [
+     0.23,
+     1.02,
+     -0.74
+    ]
+   },
+   "materials": [
+    "hide",
+    "muzzle",
+    "mane",
+    "hoof"
+   ],
+   "triangles": 1620,
+   "bytes": 126642,
+   "files": [
+    {
+     "path": "granada/animals/camel.gltf",
+     "bytes": 12426,
+     "sha256": "c2161bd7ca1bd768aad0b8798cc68eb7491d8d6cad4ba5995788d00169972f46"
+    },
+    {
+     "path": "granada/animals/camel.bin",
+     "bytes": 114216,
+     "sha256": "61b356739ebd2fc1949de7ff5308ff28a0e8c89649aeab6dc3eb5614bd846b2c"
     }
    ]
   },

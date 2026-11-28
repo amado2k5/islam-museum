@@ -1,4 +1,4 @@
-"""Granada prototype animals: sheep, goat, horse, ox and donkey.
+"""Granada prototype animals: sheep, goat, horse, ox, donkey and camel.
 
 Run: blender --background --factory-startup --python gaming/art/blender/granada_animals.py -- <out dir> [render dir]
 Each animal is one glTF: a body object and four leg objects. Every leg origin is its shoulder/hip joint so the game
@@ -82,6 +82,9 @@ def animal(kind,cfg):
    parts.append(cone('horn',(sx*cfg['head'][0]*.58,hy+cfg['head'][1]*.1,hz+cfg['head'][2]*.8),cfg['horns'],0,cfg['horns']*4,M['horn'],(sx*.65,0,0),7))
  if cfg.get('mane'):
   parts.append(cube('mane',(0,ny+0.03,nz+0.1),(cfg['neck'][0]*.35,cfg['neck'][3]*.46,cfg['neck'][0]*.28),M['mane'],bevel=.02))
+ if cfg.get('hump'):
+  # A dromudary's single hump, a soft saddle on the back between the shoulders and the hips.
+  hs=cfg['hump']; parts.append(sphere('hump',(0,cfg['body'][1]*.1,cfg['body_z']+cfg['body'][2]*.92),hs,hide,12,8))
  if cfg.get('cloth'):
   parts.append(cube('saddle-cloth',(0,0.03,cfg['body_z']+cfg['body'][2]*.83),(cfg['body'][0]*1.04,cfg['body'][1]*.52,.045),M['cloth'],bevel=.015))
  # Tail, backwards (+Y in Blender).
@@ -103,6 +106,7 @@ def animal(kind,cfg):
 sheepj=[(-.16,.36,.32),(.16,.36,.32),(-.16,.36,-.32),(.16,.36,-.32)]
 horsej=[(-.2,.94,.68),(.2,.94,.68),(-.2,.94,-.68),(.2,.94,-.68)]
 oxj=[(-.27,.74,2.2),(.27,.74,2.2),(-.27,.74,.75),(.27,.74,.75)]
+camelj=[(-.23,1.02,.74),(.23,1.02,.74),(-.23,1.02,-.74),(.23,1.02,-.74)]
 # Ox joints are in the cart frame and include the forward cart offset; the standalone ox body is centred under them at z about 1.48.
 specs={
  'sheep':dict(body=(.28,.5,.27),body_z=.58,neck=(.11,.08,.12,.32,.45),head=(.12,.18,.13),ear=.045,tail=.018,horns=0,hide='wool',joints=sheepj,leglen=.36,legwidth=.045),
@@ -110,6 +114,8 @@ specs={
  'horse':dict(body=(.31,.9,.36),body_z=1.12,neck=(.15,.18,.3,.72,.7),head=(.14,.3,.18),ear=.045,tail=.035,horns=0,mane=1,cloth=1,joints=horsej,leglen=.94,legwidth=.065),
  'donkey':dict(body=(.27,.78,.32),body_z=1.0,neck=(.13,.15,.25,.62,.65),head=(.13,.27,.16),ear=.07,tail=.025,horns=0,mane=1,joints=horsej,leglen=.94,legwidth=.055),
  'ox':dict(body=(.43,.93,.43),body_z=.98,neck=(.2,.16,.16,.48,.55),head=(.19,.28,.2),ear=.055,tail=.032,horns=.045,joints=oxj,leglen=.9,legwidth=.085,cart_z=1.48),
+ # The camel: taller than the horse at the hump, longer in the leg and the neck, one soft hump on the back.
+ 'camel':dict(body=(.37,1.02,.4),body_z=1.34,neck=(.14,.2,.34,.82,.62),head=(.12,.23,.14),ear=.05,tail=.03,horns=0,hump=(.17,.26,.15),hide='hide',joints=camelj,leglen=1.02,legwidth=.06),
 }
 results={}
 for k,c in specs.items(): results[k]=animal(k,c)
