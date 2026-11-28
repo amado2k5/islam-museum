@@ -1799,7 +1799,8 @@ for (const lang of ["en", "ar"]) {
   };
   const btn = (page: Page, p: number) => page.locator(`.bench .channel-row button[data-place='${p}']`);
   const ctx = await browser.newContext({ viewport: { width: 1280, height: 900 } });
-  let page = await open(ctx, "&style=explorer");
+  // Since 27 November 2026 the Alhambra's scene is played in its court; `room=off` keeps this check on the channels' page, which stays as the way it is played without WebGL.
+  let page = await open(ctx, "&style=explorer&room=off");
   const button = page.locator(`.hub button[data-quest='${QUEST}']`);
   const isPlain = await button.evaluate((b) => !b.classList.contains("primary"));
   const label = await button.textContent();
@@ -1865,7 +1866,8 @@ for (const lang of ["en", "ar"]) {
   await ctx.close();
   // Left in the middle: two turns made, the page loaded again, and the Atlas says Continue; the pieces lie as they did.
   const ctx2 = await browser.newContext({ viewport: { width: 1280, height: 900 } });
-  page = await open(ctx2, "&style=explorer");
+  // Since 27 November 2026 the Alhambra's scene is played in its court; `room=off` keeps this check on the channels' page, which stays as the way it is played without WebGL.
+  page = await open(ctx2, "&style=explorer&room=off");
   await page.locator(`.hub button[data-quest='${QUEST}']`).click();
   const w0 = await chv(page);
   await btn(page, 1).click();
@@ -1887,7 +1889,8 @@ for (const lang of ["en", "ar"]) {
   await ctx2.close();
   // The Challenge way of playing shows no water until the sluice is opened; a grid that leaks is refused and the opening is counted; the next turn hides the water again; and a grid turned to the answer is done only when the sluice is opened.
   const ctx3 = await browser.newContext({ viewport: { width: 1280, height: 900 } });
-  page = await open(ctx3, "&style=challenge");
+  // Since 27 November 2026 the Alhambra's scene is played in its court; `room=off` keeps this check on the channels' page, which stays as the way it is played without WebGL.
+  page = await open(ctx3, "&style=challenge&room=off");
   await page.locator(`.hub button[data-quest='${QUEST}']`).click();
   const c0 = await ev<{ alt: string | null; status: string; sluice: number; labels: string[]; rows: number; perRow: string; objective: string }>(page, "({ alt: document.querySelector('.bench canvas.channels-art').getAttribute('aria-label'), status: document.querySelector('.bench .ran .status').textContent, sluice: [...document.querySelectorAll('.bench button')].filter((x) => x.textContent === 'Open the sluice').length, labels: [...document.querySelectorAll('.bench .channel-row button')].map((x) => x.textContent), rows: document.querySelectorAll('.bench ol.channel-row').length, perRow: [...document.querySelectorAll('.bench ol.channel-row')].map((o) => o.querySelectorAll('button').length).join(), objective: document.querySelector('.bench .objective-line').textContent })");
   const cv0 = await chv(page);
@@ -1918,7 +1921,8 @@ for (const lang of ["en", "ar"]) {
   const arCtx = await browser.newContext({ viewport: { width: 1280, height: 900 } });
   const ar = await arCtx.newPage();
   ar.on("pageerror", (e) => errors.push(String(e)));
-  await ar.goto(`${served.base}/games/hudhud/index.html?lang=ar&music=off&style=explorer`);
+  // Since 27 November 2026 the Alhambra's scene is played in its court; `room=off` keeps this check on the channels' page, which stays as the way it is played without WebGL.
+  await ar.goto(`${served.base}/games/hudhud/index.html?lang=ar&music=off&style=explorer&room=off`);
   await ar.waitForFunction("window.__HH__ && window.__HH__.ready");
   await leaveOpening(ar);
   await ar.locator(`.hub button[data-quest='${QUEST}']`).click();
@@ -1938,7 +1942,8 @@ for (const lang of ["en", "ar"]) {
   await arCtx.close();
   // Movement kept still: with `motion=reduced` the water is simply there; without it the water is shown running, a step at a time.
   const calmCtx = await browser.newContext({ viewport: { width: 1280, height: 900 } });
-  const calmPage = await open(calmCtx, "&style=explorer&motion=reduced");
+  // Since 27 November 2026 the Alhambra's scene is played in its court; `room=off` keeps this check on the channels' page, which stays as the way it is played without WebGL.
+  const calmPage = await open(calmCtx, "&style=explorer&motion=reduced&room=off");
   await calmPage.locator(`.hub button[data-quest='${QUEST}']`).click();
   await calmPage.locator(".bench .channel-row button[data-place='1']").click();
   const calmBusy = await ev<boolean>(calmPage, "window.__HH__.channels().busy");
@@ -1948,7 +1953,8 @@ for (const lang of ["en", "ar"]) {
   if (outDir) await calmPage.screenshot({ path: resolve(outDir, "hudhud-channels-reduced.png"), fullPage: true });
   await calmCtx.close();
   const runCtx = await browser.newContext({ viewport: { width: 1280, height: 900 } });
-  const runPage = await open(runCtx, "&style=explorer");
+  // Since 27 November 2026 the Alhambra's scene is played in its court; `room=off` keeps this check on the channels' page, which stays as the way it is played without WebGL.
+  const runPage = await open(runCtx, "&style=explorer&room=off");
   await runPage.locator(`.hub button[data-quest='${QUEST}']`).click();
   await runPage.locator(".bench .channel-row button[data-place='1']").click();
   await runPage.locator(".bench .channel-row button[data-place='2']").click();
@@ -5640,9 +5646,9 @@ for (const lang of ["en", "ar"]) {
 // after the second), the kind answer and the feather in the basket on the shelf of books; every card in its tray by
 // flight and touch, the bell, the lit door, the panel with four goals and the notes (the room's note among them), and the
 // door walked to with real key presses; a reload resumes in the room as it was, with the card still in the beak; a
-// Challenge room with five trays side by side; in a journey, the coffee room's lit door leads to the Alhambra's page and
-// its corridor's door into this room; an Arabic page; movement kept still; and without WebGL the scene is played on the
-// animal cards' page.
+// Challenge room with five trays side by side; in a journey, the coffee room's lit door leads into the Alhambra's court
+// (since 27 November 2026 a room too) and the court's lit door into this room; an Arabic page; movement kept still; and
+// without WebGL the scene is played on the animal cards' page.
 {
   type JzShown = { cards: Record<string, string>; focus: string | null; feather: boolean; agree: boolean };
   type Jz = { moves: number; shows: number; flags: string[]; done: boolean; style: string; items: string[]; groups: string[]; answer: Record<string, string>; placed: Record<string, string | null>; last: { type: string; refused?: boolean; right?: number; total?: number } | null; carrying: string | null; talk: { script: string; node: string; line: number } | null; status: string; beak: string; doorLit: boolean; shown: JzShown | null };
@@ -5872,9 +5878,9 @@ for (const lang of ["en", "ar"]) {
     await ctx.close();
   }
 
-  // (9) In the journey: the coffee room's lit door, walked to with the right arrow key, leads to the Alhambra's page (the
-  // eleventh scene, still played on its page), and its corridor's door, walked to, into al-Jahiz's room (the twelfth
-  // scene: no page, no corridor, Hudhud's line naming him).
+  // (9) In the journey: the coffee room's lit door, walked to with the right arrow key, leads into the Alhambra's court
+  // (the eleventh scene: since 27 November 2026 a room, no page and no corridor), and the court's lit door, walked to, into
+  // al-Jahiz's room (the twelfth scene: no page, no corridor, Hudhud's line naming him).
   {
     const ctx = await browser.newContext({ viewport: { width: 1280, height: 900 } });
     const page = await open(ctx, "&style=explorer");
@@ -5926,25 +5932,21 @@ for (const lang of ["en", "ar"]) {
     await page.waitForFunction("window.__HH__.coffeeRoom().doorLit", undefined, { timeout: 15000 });
     for (let i = 0; i < 8 && (await ev<{ talk: unknown }>(page, "window.__HH__.coffeeRoom()")).talk; i++) await ev(page, "window.__HH__.coffeeRoomCommand({ type: 'skip' })");
     await page.locator(`${ROOM} .stage`).focus();
-    await walkRight(page, "window.__HH__.channels() !== null");
-    const alhambra = await ev<{ journey: { scene: number; at: number }; last: { scene: string } | null; room: unknown }>(page, "({ journey: window.__HH__.journey(), last: window.__HH__.lastDoor(), room: window.__HH__.coffeeRoom() })");
-    // The Alhambra's grid, finished by the test hooks: one press for each quarter turn a piece of the road still needs, then the sluice.
-    for (let i = 0; i < 80; i++) {
-      const c = await ev<{ done: boolean; cells: { kind: Kind; turn: number }[]; wet: Record<string, number> }>(page, "(() => { const a = window.__HH__.channels(); return { done: a.done, cells: a.cells, wet: Object.fromEntries(a.answer.wet) }; })()");
-      const todo = c.cells.findIndex((cell, p) => c.wet[String(p)] !== undefined && cell.turn % period(cell.kind) !== c.wet[String(p)]);
-      if (todo < 0) break;
-      await ev(page, `window.__HH__.channelsCommand({ type: 'turn', cell: ${todo} })`);
-    }
-    await ev(page, "window.__HH__.channelsCommand({ type: 'open' })");
-    await page.waitForSelector(".bench .corridor canvas.corridor-art", { timeout: 20000 });
-    await page.waitForTimeout(300);
+    await walkRight(page, "window.__HH__.alhambra() !== null && window.__HH__.where() !== null");
+    await page.waitForTimeout(500);
+    const alhambra = await ev<{ journey: { scene: number; at: number }; last: { scene: string } | null; room: unknown; toast: string | null; heading: string; corridors: number; page: unknown; roomHidden: boolean }>(page, `({ journey: window.__HH__.journey(), last: window.__HH__.lastDoor(), room: window.__HH__.coffeeRoom(), toast: document.querySelector('.toast') ? document.querySelector('.toast').textContent : null, heading: document.querySelector('${ROOM} h2').textContent, corridors: document.querySelectorAll('.corridor').length, page: window.__HH__.channels(), roomHidden: document.querySelector('.room-box').hidden })`);
+    // The Alhambra's court, finished by the test hooks: one touch for each quarter turn a piece of the road still needs.
+    await ev(page, "window.__HH__.alhambraCommand({ type: 'skip' }); (() => { for (let i = 0; i < 80; i++) { const a = window.__HH__.alhambra(); const per = (k) => (k === 'cross' || k === 'blank' ? 1 : k === 'straight' ? 2 : 4); const p = a.cells.findIndex((c, k) => a.wet[String(k)] !== undefined && c.turn % per(c.kind) !== a.wet[String(k)]); if (p < 0 || a.done) break; window.__HH__.alhambraCommand({ type: 'touch', id: 'place-' + p }); } })()");
+    await page.waitForFunction("window.__HH__.alhambra().doorLit", undefined, { timeout: 15000 });
+    for (let i = 0; i < 8 && (await ev<{ talk: unknown }>(page, "window.__HH__.alhambra()")).talk; i++) await ev(page, "window.__HH__.alhambraCommand({ type: 'skip' })");
+    await page.locator(`${ROOM} .stage`).focus();
     await walkRight(page, "window.__HH__.jahizRoom() !== null && window.__HH__.where() !== null");
     await page.waitForTimeout(500);
-    const entered = await ev<{ journey: { scene: number; at: number }; last: { scene: string } | null; toast: string | null; heading: string; corridors: number; page: unknown; channels: unknown; roomHidden: boolean }>(page, `({ journey: window.__HH__.journey(), last: window.__HH__.lastDoor(), toast: document.querySelector('.toast') ? document.querySelector('.toast').textContent : null, heading: document.querySelector('${ROOM} h2').textContent, corridors: document.querySelectorAll('.corridor').length, page: window.__HH__.sort(), channels: window.__HH__.channels(), roomHidden: document.querySelector('.room-box').hidden })`);
+    const entered = await ev<{ journey: { scene: number; at: number }; last: { scene: string } | null; toast: string | null; heading: string; corridors: number; page: unknown; channels: unknown; court: unknown; roomHidden: boolean }>(page, `({ journey: window.__HH__.journey(), last: window.__HH__.lastDoor(), toast: document.querySelector('.toast') ? document.querySelector('.toast').textContent : null, heading: document.querySelector('${ROOM} h2').textContent, corridors: document.querySelectorAll('.corridor').length, page: window.__HH__.sort(), channels: window.__HH__.channels(), court: window.__HH__.alhambra(), roomHidden: document.querySelector('.room-box').hidden })`);
     if (outDir) await page.screenshot({ path: resolve(outDir, "jahiz-room-journey.png") });
-    record("in the journey the coffee room's lit door, walked to with the right arrow key, leads to the Alhambra's page (the eleventh scene, still a page), and its corridor's door, walked to, leads into al-Jahiz's room (the twelfth scene: no page, no corridor, Hudhud's line naming him)",
-      alhambra.journey.scene === 10 && alhambra.last?.scene === "coffee" && alhambra.room === null &&
-        entered.journey.scene === 11 && entered.journey.at === 11 && entered.last?.scene === "corridor" && entered.toast === "Hudhud: On to the next page of the Atlas: al-Jahiz!" && entered.heading === "al-Jahiz" && entered.corridors === 0 && entered.page === null && entered.channels === null && !entered.roomHidden,
+    record("in the journey the coffee room's lit door, walked to with the right arrow key, leads into the Alhambra's court (the eleventh scene: a room, no page, no corridor, Hudhud's line naming it), and the court's lit door, walked to, leads into al-Jahiz's room (the twelfth scene: no page, no corridor, Hudhud's line naming him)",
+      alhambra.journey.scene === 10 && alhambra.last?.scene === "coffee" && alhambra.room === null && alhambra.toast === "Hudhud: On to the next page of the Atlas: The Alhambra!" && alhambra.heading === "The Alhambra" && alhambra.corridors === 0 && alhambra.page === null && !alhambra.roomHidden &&
+        entered.journey.scene === 11 && entered.journey.at === 11 && entered.last?.scene === "alhambra" && entered.toast === "Hudhud: On to the next page of the Atlas: al-Jahiz!" && entered.heading === "al-Jahiz" && entered.corridors === 0 && entered.page === null && entered.channels === null && entered.court === null && !entered.roomHidden,
       { alhambra, entered });
     await ctx.close();
   }
@@ -6023,6 +6025,309 @@ for (const lang of ["en", "ar"]) {
     if (outDir) await page.screenshot({ path: resolve(outDir, "jahiz-room-without-webgl.png"), fullPage: true });
     record("without WebGL al-Jahiz's scene is played on the animal cards' page (its trial line on the Atlas, a list of choices for every card, no room), and is finished there",
       /first trial/.test(note) && onPage.room === null && onPage.selects === 8 && onPage.roomHidden && onPage.benchShown && done, { note, onPage: { ...onPage, answer: undefined }, done });
+    await ctx.close();
+  }
+}
+// The Alhambra's court, the twelfth room on the room engine (asked for by the founder, 27 November 2026): opened from the
+// Atlas in Explorer it is a canvas scene with the court in words (the count, where the water stands, every piece as a
+// button in its rows and columns with its openings and whether it has water, the page's table, and the keeper of the
+// water, the girl and the rim of the fountain as buttons); one piece turned by flight and touch and another by the Touch
+// key, each a move counted, the piece and the water drawn again from the quest's state; both questions asked of the keeper,
+// the girl answered kindly and the feather found on the rim; the grid finished by turns worked out from the court's own
+// state, each made by flight and touch; both basins have water, the page floats up out of the fountain, the door lights,
+// the panel shows four goals and the notes with the court's own; and the door walked to with real key presses. A reload
+// resumes the court as it was; a Challenge court shows no water until the sluice lever is touched and refuses a grid that
+// spills; an Arabic page mirrors the court; movement kept still lets the water simply be there; and without WebGL the
+// scene is played on the channels' page. (In a journey the coffee room's door leads into the court, and the court's door
+// into al-Jahiz's room: al-Jahiz's room's record (9) above.)
+{
+  type AhShown = { looks: string[]; wet: number[]; spout: string; lever: string | null; feather: boolean; page: boolean; running: boolean; agree: boolean };
+  type Ah = { moves: number; openings: number; flags: string[]; done: boolean; style: string; rows: number; cols: number; cells: { kind: Kind; turn: number }[]; spout: { cell: number; side: Side }; basins: { cell: number; kind: string }[]; wet: Record<string, number>; last: { type: string } | null; talk: { script: string; node: string; line: number } | null; status: string; busy: boolean; doorLit: boolean; shown: AhShown | null };
+  const QUEST = "w08q2-alhambra";
+  const ROOM = ".room-box";
+  const NOTE_ROOM = "The court, the stone panel, the channels that turn, the fountain and the pool are invented for play; they are not the plan of the Alhambra, nor of its waterworks.";
+  const ah = (page: Page) => ev<Ah | null>(page, "window.__HH__.alhambra()");
+  const openAh = async (page: Page) => {
+    await page.locator(`.hub button[data-quest='${QUEST}']`).click();
+    await page.waitForFunction("window.__HH__.alhambra() !== null && window.__HH__.where() !== null", undefined, { timeout: 30000 });
+    await page.waitForTimeout(700);
+  };
+  const skipTalk = async (page: Page) => {
+    for (let i = 0; i < 8 && (await ah(page))?.talk; i++) {
+      await page.locator(`${ROOM} .talk button.quiet`).last().click();
+      await page.waitForTimeout(150);
+    }
+  };
+  /** Flies the bird to a thing by the engine's own flight (goTo), and waits until it has landed and touched it. */
+  const fly = async (page: Page, id: string, until: string) => {
+    await ev(page, `window.__HH__.goTo(${JSON.stringify(id)})`);
+    await page.waitForFunction(until, undefined, { timeout: 8000 });
+    await page.waitForTimeout(150);
+  };
+  const walkRight = async (page: Page, until: string) => {
+    await page.keyboard.down("ArrowRight");
+    try {
+      await page.waitForFunction(until, undefined, { timeout: 25000 });
+    } finally {
+      await page.keyboard.up("ArrowRight");
+    }
+  };
+  /** The next piece of the road still to be turned, from the court's own state, or -1. */
+  const nextTurn = (s: Ah): number => s.cells.findIndex((c, p) => s.wet[String(p)] !== undefined && c.turn % period(c.kind) !== s.wet[String(p)]);
+  /** Every piece of the road turned to the answer, each turn by flight and touch. */
+  const turnAll = async (page: Page) => {
+    for (let i = 0; i < 80; i++) {
+      const s = (await ah(page))!;
+      const p = nextTurn(s);
+      if (p < 0 || s.done) return;
+      await fly(page, `place-${p}`, `window.__HH__.alhambra().moves === ${s.moves + 1}`);
+    }
+  };
+  const wetOf = (s: Ah) => {
+    const f = flow({ rows: s.rows, cols: s.cols, cells: s.cells, spout: s.spout });
+    return { places: f.wet.flatMap((w, p) => (w ? [p] : [])), basins: s.basins.filter((b) => f.wet[b.cell]).length, leaks: f.leaks.length };
+  };
+  /** The line of the talk now, its speaker, and the choices offered. */
+  const said = (page: Page) => ev<{ who: string | null; line: string | null; choices: string[] }>(page, `({ who: document.querySelector('${ROOM} .talk:not([hidden]) .who') ? document.querySelector('${ROOM} .talk .who').textContent : null, line: document.querySelector('${ROOM} .talk:not([hidden]) .line + span') ? document.querySelector('${ROOM} .talk .line + span').textContent : null, choices: [...document.querySelectorAll('${ROOM} .talk .choices button')].map((b) => b.textContent) })`);
+  const words = (page: Page) => ev<{ counts: string; status: string; rows: number; perRow: number[]; pieces: string[]; others: string[]; sized: boolean; group: string | null; tableRows: number; live: string | null }>(page, `(() => { const bs = [...document.querySelectorAll('${ROOM} .room-words button')]; return { counts: document.querySelector('${ROOM} .room-words .carrying').textContent, status: document.querySelector('${ROOM} .room-words .status').textContent, rows: document.querySelectorAll('${ROOM} ol.channel-row').length, perRow: [...document.querySelectorAll('${ROOM} ol.channel-row')].map((o) => o.querySelectorAll('button').length), pieces: [...document.querySelectorAll('${ROOM} .channel-rows button')].map((b) => b.textContent), others: [...document.querySelectorAll('${ROOM} .room-words > ul li button')].map((b) => b.textContent), sized: bs.every((b) => b.getBoundingClientRect().width >= 44 && b.getBoundingClientRect().height >= 44), group: document.querySelector('${ROOM} .channel-rows').getAttribute('aria-label'), tableRows: document.querySelectorAll('${ROOM} details.edges tbody tr').length, live: document.querySelector('${ROOM} .ran').getAttribute('aria-live') }; })()`);
+  const ranText = (page: Page) => ev<string>(page, `document.querySelector('${ROOM} .ran').textContent`);
+
+  // (1) to (4): one play in Explorer, from the Atlas, by flight, touch and keys.
+  {
+    const ctx = await browser.newContext({ viewport: { width: 1280, height: 900 } });
+    const page = await open(ctx, "&style=explorer");
+    const atlasItem = await ev<{ label: string; notes: number }>(page, `(() => { const b = document.querySelector(".hub button[data-quest='${QUEST}']"); return { label: b.textContent, notes: b.parentElement.querySelectorAll('small').length }; })()`);
+    await openAh(page);
+    const opened = await ev<{ canvases: number; benchHidden: boolean; roomShown: boolean; heading: string; alt: string | null; info: { renderer: string; largestTextures: { width: number; height: number }[] }; talk: string | null; roomNote: string; objective: string; page: unknown }>(page, `({ canvases: document.querySelectorAll('${ROOM} .stage canvas').length, benchHidden: document.querySelector('.bench').hidden, roomShown: !document.querySelector('${ROOM}').hidden, heading: document.querySelector('${ROOM} h2').textContent, alt: document.querySelector('${ROOM} .stage').getAttribute('aria-label'), info: window.__HH__.info(), talk: document.querySelector('${ROOM} .talk:not([hidden]) .who') ? document.querySelector('${ROOM} .talk .who').textContent : null, roomNote: document.querySelector('${ROOM} .words section:last-child p').textContent, objective: document.querySelector('${ROOM} .objective').textContent, page: window.__HH__.channels() })`);
+    const first = (await ah(page))!;
+    const firstWords = await words(page);
+    if (outDir) (mkdirSync(outDir, { recursive: true }), await page.screenshot({ path: resolve(outDir, "alhambra-court-start.png") }));
+    const w0 = wetOf(first);
+    record("the Alhambra's court opens from the Atlas as a canvas scene on the room engine: the Atlas names it as it names the other rooms (no line about a page), the court speaks first, the pieces are drawn as the quest's state says, and the court is said in words: the count, where the water stands in the page's words, every piece as a button of at least 44 pixels in four rows of four with its openings and whether it has water, the page's table, the keeper of the water, the girl and the rim of the fountain, with the court's note",
+      atlasItem.label === "Play: The Alhambra" && atlasItem.notes === 0 && opened.canvases === 1 && opened.benchHidden && opened.roomShown && opened.page === null && opened.heading === "The Alhambra" && opened.alt === "The court of the dry fountain, as a picture. The list after it says the same in words." && opened.info.renderer === "webgl" && Math.max(...opened.info.largestTextures.flatMap((t) => [t.width, t.height])) <= 2048 && opened.talk === "Hudhud" && opened.roomNote === NOTE_ROOM &&
+        /^Fly over the stone panel and touch a piece to give it a quarter turn\./.test(opened.objective) && first.moves === 0 && first.rows === 4 && first.cols === 4 && first.shown?.agree === true && first.shown.wet.join() === w0.places.join() && first.shown.spout === "wet" && first.shown.lever === null && first.shown.feather && !first.shown.page &&
+        firstWords.counts === "Quarter turns made: 0" && firstWords.status === first.status && /^Water reaches no basin yet\./.test(first.status) && firstWords.rows === 4 && firstWords.perRow.join() === "4,4,4,4" && firstWords.group === "The pieces, row by row" && firstWords.sized && firstWords.tableRows === 16 && firstWords.live === "polite" &&
+        firstWords.pieces[0] === "Go to Row 1, place 1: a straight channel, open to the right, the left, spout side: the left, has water" && firstWords.pieces.every((x) => /^Go to Row \d, place \d: /.test(x)) &&
+        firstWords.others.join("|") === "Go to the keeper of the water|Go to the girl who sweeps the court|Go to the rim of the dry fountain",
+      { atlasItem, opened: { ...opened, info: { renderer: opened.info.renderer } }, first: { moves: first.moves, shown: first.shown, status: first.status }, firstWords: { ...firstWords, pieces: firstWords.pieces.slice(0, 2) } });
+    await skipTalk(page);
+
+    // (2) One piece turned by flight and touch, and the same piece again by the Touch key: a move each, the piece drawn again and the water running in the picture.
+    const before = (await ah(page))!;
+    await fly(page, "place-1", "window.__HH__.alhambra().moves === 1");
+    const at = await ev<{ x: number; y: number; near: string | null }>(page, "window.__HH__.where()");
+    const t1 = { v: (await ah(page))!, ran: await ranText(page) };
+    const sawRun = await page.waitForFunction("window.__HH__.alhambra().busy === true", undefined, { timeout: 500, polling: 5 }).then(() => true, () => false);
+    if (outDir) await page.screenshot({ path: resolve(outDir, "alhambra-court-water.png") });
+    await page.waitForFunction("window.__HH__.alhambra().busy === false", undefined, { timeout: 3000 });
+    const t1after = (await ah(page))!;
+    await page.locator(`${ROOM} .stage`).focus();
+    await page.keyboard.press("KeyE");
+    await page.waitForFunction("window.__HH__.alhambra().moves === 2", undefined, { timeout: 4000 });
+    await page.waitForFunction("window.__HH__.alhambra().busy === false", undefined, { timeout: 3000 });
+    const t2 = { v: (await ah(page))!, ran: await ranText(page) };
+    record("a piece flown to and touched gets the page's quarter turn: one move, the bird standing on the ledge under its row, the page's own sentence, the piece drawn again turned and marked, and the water shown running in the picture and then drawn where the quest says it runs; the Touch key turns it again, another move",
+      at.near === "place-1" && at.y === 308 && t1.v.moves === 1 && t1.v.cells[1]!.turn === (before.cells[1]!.turn + 1) % 4 && t1.v.shown?.looks[1] !== before.shown?.looks[1] && JSON.parse(t1.v.shown!.looks[1]!)[4] === true &&
+        /^Row 1, place 2 turned\./.test(t1.ran) && sawRun && t1after.shown?.agree === true && t1after.shown.wet.join() === wetOf(t1after).places.join() &&
+        t2.v.moves === 2 && t2.v.cells[1]!.turn === (before.cells[1]!.turn + 2) % 4 && t2.v.shown?.agree === true && t2.v.shown.wet.join() === wetOf(t2.v).places.join() && /^Row 1, place 2 turned\./.test(t2.ran),
+      { at, t1: { moves: t1.v.moves, turn: t1.v.cells[1], look: t1.v.shown?.looks[1], ran: t1.ran }, sawRun, t1after: { agree: t1after.shown?.agree, wet: t1after.shown?.wet }, t2: { moves: t2.v.moves, agree: t2.v.shown?.agree, wet: t2.v.shown?.wet, ran: t2.ran } });
+
+    // (3) The keeper of the water, the girl and the rim of the fountain, by touching them.
+    await fly(page, "waterkeeper", "window.__HH__.alhambra().talk !== null");
+    const hello = await said(page);
+    await page.locator(`${ROOM} .talk .choices button`, { hasText: "Ask about the water" }).click();
+    const water = await said(page);
+    await page.locator(`${ROOM} .talk .choices button`, { hasText: "Ask about the courts" }).click();
+    const courts = await said(page);
+    await page.locator(`${ROOM} .talk .choices button`).last().click();
+    const bye = await said(page);
+    await page.locator(`${ROOM} .talk button`, { hasText: "Next" }).click();
+    await fly(page, "girl", "window.__HH__.alhambra().talk !== null");
+    const girl = await said(page);
+    await page.locator(`${ROOM} .talk .choices button`, { hasText: "Yes. We will turn the pieces together until the water runs." }).click();
+    for (let i = 0; i < 3 && (await ah(page))?.talk; i++) await page.locator(`${ROOM} .talk button`, { hasText: "Next" }).click();
+    await page.locator(`${ROOM} .pad button.wide`).click();
+    const girlAgain = (await ah(page))!.talk?.script ?? null;
+    await skipTalk(page);
+    await fly(page, "rim", "window.__HH__.alhambra().flags.includes('feather')");
+    const onRim = await ev<{ x: number; y: number; near: string | null }>(page, "window.__HH__.where()");
+    const featherLine = (await said(page)).line;
+    await skipTalk(page);
+    const asked = (await ah(page))!;
+    record("touching the keeper of the water greets in imagined words of the court's own and offers the page's two questions, answered in the museum's record's words as on the page, with a goodbye of the court's own; the girl is answered kindly, and the Touch button touches her again; the feather is on the rim of the dry fountain, reached by a hop up onto the panel; the flags are the page quest's own and the turns are unchanged",
+      hello.line === "Welcome to the court, little bird. The water waits at the spout for a way through the stone." && hello.who === "The keeper of the water, an invented person" && hello.choices.join("|") === "Ask moreAsk about the water|Ask moreAsk about the courts|Thank you. Now to the channels." &&
+        water.who === "From the museum's record" && /began with an aqueduct from the mountains/.test(water.line ?? "") && courts.who === "From the museum's record" && /Court of the Lions/.test(courts.line ?? "") &&
+        bye.line === "Go gently. Turn each piece until the channels meet, and the water will find its way." && girl.who === "The girl who sweeps the court, an invented person" && /always dry/.test(girl.line ?? "") && girlAgain === "kidKind" &&
+        onRim.x === 1466 && onRim.y === 596 && featherLine === "A feather, in the dry basin! It is one of mine." && asked.flags.slice().sort().join() === "answered,askedCourts,askedWater,feather,kind" && asked.moves === 2 && asked.shown?.feather === false,
+      { hello, water: water.line?.slice(0, 80), courts: courts.line?.slice(0, 80), bye, girl, girlAgain, onRim, featherLine, flags: asked.flags });
+
+    // (4) Every piece of the road turned by flight and touch; the fountain fills, the door lights, the panel; then the door walked to with real key presses.
+    await turnAll(page);
+    await page.waitForFunction("window.__HH__.alhambra().doorLit", undefined, { timeout: 10000 });
+    await page.waitForTimeout(1200);
+    const live = await ev<string>(page, `document.querySelector('${ROOM} .room > .visually-hidden[role=status]').textContent`);
+    const panel = await ev<{ shown: boolean; modal: number; goals: number; met: number; notes: string[]; links: string[]; pending: string; buttons: string[]; door: { lit: boolean; scene: string }; list: string[]; objective: string; saved: boolean; resume: unknown; pieces: number; disabled: boolean }>(page, `(() => { const p = document.querySelector('${ROOM} .door-panel'); return { shown: !p.hidden, modal: document.querySelectorAll('[aria-modal=true]').length, goals: p.querySelectorAll('.goals li').length, met: p.querySelectorAll('.goals .met').length, notes: [...p.querySelectorAll('.note p')].map((x) => x.textContent), links: [...p.querySelectorAll('.note a')].map((a) => a.getAttribute('href')), pending: p.querySelector('.pending').textContent, buttons: [...p.querySelectorAll('button')].map((b) => b.textContent), door: window.__HH__.door(), list: [...document.querySelectorAll('${ROOM} .room-words > ul li button')].map((b) => b.textContent), objective: document.querySelector('${ROOM} .objective').textContent, saved: JSON.parse(localStorage.getItem('im.hudhud.save.v1') || '{}').slots?.[0]?.quests?.['${QUEST}']?.done === true, resume: JSON.parse(localStorage.getItem('im.hudhud.save.v1') || '{}').slots?.[0]?.resume ?? null, pieces: document.querySelectorAll('${ROOM} .channel-rows button').length, disabled: [...document.querySelectorAll('${ROOM} .channel-rows button')].every((b) => b.disabled) }; })()`);
+    const finished = (await ah(page))!;
+    const fin = wetOf(finished);
+    if (outDir) await page.screenshot({ path: resolve(outDir, "alhambra-court-fountain-full.png") });
+    await skipTalk(page);
+    await page.locator(`${ROOM} .stage`).focus();
+    await page.keyboard.down("ArrowRight");
+    await page.waitForTimeout(900);
+    if (outDir) await page.screenshot({ path: resolve(outDir, "alhambra-court-door-lit.png") });
+    await page.keyboard.up("ArrowRight");
+    await walkRight(page, "!document.querySelector('.hub').hidden");
+    const back = await ev<{ hub: boolean; roomHidden: boolean; last: { scene: string; where: { x: number; y: number; reach: number }; bird: { x: number; y: number } } | null; label: string; canvases: number }>(page, `({ hub: !document.querySelector('.hub').hidden, roomHidden: document.querySelector('.room-box').hidden, last: window.__HH__.lastDoor(), label: document.querySelector(".hub button[data-quest='${QUEST}']").textContent, canvases: document.querySelectorAll('.room-box canvas, #stage canvas').length })`);
+    const reach = back.last ? Math.hypot(back.last.where.x - back.last.bird.x, back.last.where.y - (back.last.bird.y - 30)) : null;
+    record("every piece of the road turned by flight and touch, the turns worked out from the court's own state: both basins have water and nothing in the picture disagrees with the quest, the page floats up out of the fountain, Hudhud says the page's last line, the door lights, the panel beside the stage (no modal sheet) shows four goals met, the quest's four notes, the court's note and 'Historical review pending', and the two links; the list then offers only the door, the pieces are disabled, the place kept is cleared, and holding the right arrow key walks Hudhud to it and, in free play, back to the Atlas",
+      finished.done && fin.basins === 2 && finished.talk?.script === "done" && finished.shown?.agree === true && finished.shown.page && finished.shown.wet.join() === fin.places.join() && finished.basins.every((b) => finished.shown!.wet.includes(b.cell)) && /door is open/.test(live) &&
+        panel.shown && panel.modal === 0 && panel.goals === 4 && panel.met === 4 && panel.notes.includes(NOTE_ROOM) && panel.notes.some((n) => /^This is a game, not a history\./.test(n)) && panel.notes.some((n) => /probably belonged to an older palace/.test(n)) && /Historical review pending/.test(panel.pending) &&
+        panel.links.join() === "https://islam.museum/en/building/alhambra/,https://islam.museum/en/building/nasrid-palaces-alhambra/" && panel.buttons.join("|") === "Go through the door|Play again|Back to the Atlas" && panel.door.lit && panel.door.scene === "alhambra" &&
+        panel.list.join() === "Go through the door" && panel.pieces === 16 && panel.disabled && panel.objective.startsWith("Walk Hudhud to the lit door at the end of the court.") && panel.saved && panel.resume === null &&
+        back.hub && back.roomHidden && back.last?.scene === "alhambra" && reach !== null && reach < back.last.where.reach && /^Play again: /.test(back.label) && back.canvases === 0,
+      { finished: { done: finished.done, moves: finished.moves, shown: finished.shown, basins: fin.basins }, live, panel, back: { ...back }, reach });
+    await ctx.close();
+  }
+
+  // (5) Left in the middle with two turns and a question asked, the page loaded again: the Atlas says Continue, and the court comes back as it was.
+  {
+    const ctx = await browser.newContext({ viewport: { width: 1280, height: 900 } });
+    const page = await open(ctx, "&style=explorer");
+    await openAh(page);
+    await skipTalk(page);
+    await fly(page, "place-2", "window.__HH__.alhambra().moves === 1");
+    await fly(page, "place-5", "window.__HH__.alhambra().moves === 2");
+    await fly(page, "waterkeeper", "window.__HH__.alhambra().talk !== null");
+    await page.locator(`${ROOM} .talk .choices button`, { hasText: "Ask about the water" }).click();
+    await skipTalk(page);
+    const left = (await ah(page))!;
+    const kept = await ev<{ quest: string; snap: Record<string, unknown> } | null>(page, "JSON.parse(localStorage.getItem('im.hudhud.save.v1') || '{}').slots?.[0]?.resume ?? null");
+    await ev(page, "window.__HH__.saveReady()");
+    await page.reload();
+    await page.waitForFunction("window.__HH__ && window.__HH__.ready");
+    await leaveOpening(page);
+    const label = await ev<string>(page, `document.querySelector(".hub button[data-quest='${QUEST}']").textContent`);
+    await page.locator(`.hub button[data-quest='${QUEST}']`).click();
+    await page.waitForFunction("window.__HH__.alhambra() !== null && window.__HH__.where() !== null", undefined, { timeout: 30000 });
+    await page.waitForTimeout(500);
+    const resumed = (await ah(page))!;
+    const resumedWords = await words(page);
+    if (outDir) await page.screenshot({ path: resolve(outDir, "alhambra-court-resumed.png") });
+    record("the Alhambra's court left in the middle keeps the channels' own snapshot (the page's); the page loaded again, the Atlas says Continue, and the court comes back as it was (the two turns drawn, the question asked, no talk), said in words",
+      left.moves === 2 && left.flags.join() === "askedWater" && kept?.quest === QUEST && Object.keys(kept.snap).sort().join() === "flags,moves,openings,style,turns" &&
+        /^Continue: /.test(label) && resumed.moves === 2 && resumed.cells.map((c) => c.turn).join() === left.cells.map((c) => c.turn).join() && resumed.flags.join() === "askedWater" && resumed.talk === null && resumed.shown?.agree === true && resumedWords.counts === "Quarter turns made: 2",
+      { left: { moves: left.moves, flags: left.flags }, kept, label, resumed: { moves: resumed.moves, flags: resumed.flags, agree: resumed.shown?.agree }, counts: resumedWords.counts });
+    await ctx.close();
+  }
+
+  // (6) A Challenge court: no water until the sluice lever is touched; the grid as it lies spills, and is refused and counted; a turn hides the water again; turned to the answer, the sluice ends it.
+  {
+    const ctx = await browser.newContext({ viewport: { width: 1280, height: 900 } });
+    const page = await open(ctx, "&style=challenge");
+    await openAh(page);
+    await skipTalk(page);
+    const c0 = (await ah(page))!;
+    const w0 = await words(page);
+    await fly(page, "sluice", "window.__HH__.alhambra().openings === 1");
+    const lever = await ev<{ y: number; near: string | null }>(page, "window.__HH__.where()");
+    await page.waitForFunction("window.__HH__.alhambra().busy === false", undefined, { timeout: 3000 });
+    const c1 = { v: (await ah(page))!, ran: await ranText(page), w: await words(page) };
+    const leaky = wetOf(c1.v);
+    if (outDir) await page.screenshot({ path: resolve(outDir, "alhambra-court-challenge.png") });
+    await turnAll(page);
+    const hidden = (await ah(page))!;
+    await fly(page, "sluice", "window.__HH__.alhambra().done");
+    const c2 = (await ah(page))!;
+    record("the Alhambra's court in Challenge: five rows of five pieces and the sluice lever by the spout; no water is drawn until the lever is touched (the spout dry, the lever up, no piece wet, and every piece's words without water); touched, the lever opens the sluice (it is drawn down, the water runs) and the grid as it lies spills: refused, counted, in the page's words; a turn hides the water again; turned to the answer by flight, the lever ends it",
+      c0.rows === 5 && c0.cols === 5 && w0.perRow.join() === "5,5,5,5,5" && w0.others.includes("Go to the sluice lever by the spout: Open the sluice") && c0.shown?.wet.length === 0 && c0.shown.spout === "dry" && c0.shown.lever === "shut" && c0.shown.agree && /The water is not shown until you open the sluice\./.test(w0.status) && w0.pieces.every((x) => !/has water|, dry$/.test(x)) &&
+        lever.near === "sluice" && lever.y === 236 && c1.v.openings === 1 && !c1.v.done && leaky.leaks > 0 && c1.v.shown?.lever === "open" && c1.v.shown.spout === "wet" && c1.v.shown.wet.join() === leaky.places.join() && c1.v.shown.agree && /^The sluice is open\./.test(c1.ran) && /Water leaks at/.test(c1.ran) && c1.w.counts === "Quarter turns made: 0 · Times the sluice was opened in vain: 1" &&
+        !hidden.done && hidden.shown?.wet.length === 0 && hidden.shown.lever === "shut" && c2.done && c2.openings === 1 && c2.shown?.agree === true && c2.shown.page,
+      { c0: { rows: c0.rows, shown: c0.shown, status: w0.status }, lever, c1: { openings: c1.v.openings, shown: c1.v.shown, ran: c1.ran, counts: c1.w.counts }, leaky, hidden: { done: hidden.done, shown: hidden.shown }, c2: { done: c2.done, openings: c2.openings, moves: c2.moves } });
+    await ctx.close();
+  }
+
+  // (7) An Arabic page: the court mirrored (the first column on the right, the spout and its ledge at the right end), Arabic words and numerals, and the court's note in the founder's Arabic words.
+  {
+    const ctx = await browser.newContext({ viewport: { width: 1280, height: 900 } });
+    const page = await ctx.newPage();
+    page.on("pageerror", (e) => errors.push(String(e)));
+    await page.goto(`${served.base}/games/hudhud/index.html?lang=ar&music=off&style=challenge&fresh=1`);
+    await page.waitForFunction("window.__HH__ && window.__HH__.ready");
+    await leaveOpening(page);
+    await openAh(page);
+    const ar = await ev<{ dir: string; alt: string | null; heading: string; who: string | null }>(page, `({ dir: document.documentElement.dir, alt: document.querySelector('${ROOM} .stage').getAttribute('aria-label'), heading: document.querySelector('${ROOM} h2').textContent, who: document.querySelector('${ROOM} .talk .who') ? document.querySelector('${ROOM} .talk .who').textContent : null })`);
+    await skipTalk(page);
+    await fly(page, "place-10", "window.__HH__.alhambra().moves === 1");
+    const firstX = (await ev<{ x: number }>(page, "window.__HH__.where()")).x;
+    await fly(page, "place-11", "window.__HH__.alhambra().moves === 2");
+    const secondX = (await ev<{ x: number }>(page, "window.__HH__.where()")).x;
+    await fly(page, "sluice", "window.__HH__.alhambra().openings === 1");
+    const leverX = (await ev<{ x: number }>(page, "window.__HH__.where()")).x;
+    await page.waitForFunction("window.__HH__.alhambra().busy === false", undefined, { timeout: 3000 });
+    const shown = (await ah(page))!.shown;
+    if (outDir) await page.screenshot({ path: resolve(outDir, "alhambra-court-ar.png") });
+    const s = { w: await words(page), ran: await ranText(page), objective: await ev<string>(page, `document.querySelector('${ROOM} .objective').textContent`), note: await ev<string>(page, `document.querySelector('${ROOM} .words section:last-child p').textContent`) };
+    record("the Alhambra's court on an Arabic page runs right to left and is mirrored (the second place of a row lies to the left of the first, the sluice lever by the spout at the right end), its channels are drawn as the quest says (nothing disagrees), it says the pieces and what a touch did in Arabic with Arabic numerals and no Latin digit, and gives the court's note in the founder's Arabic words",
+      ar.dir === "rtl" && ar.alt === "بهو النافورة الجافّة في صورة. والقائمة التي بعدها تقول الشيء نفسه بالكلمات." && ar.heading === "قصر الحمراء" && ar.who === "هدهد" &&
+        secondX < firstX && leverX > 1500 && shown?.agree === true && /^اذهب إلى الصف ١، الموضع ١: /.test(s.w.pieces[0] ?? "") &&
+        s.note === "البهو واللوح الحجري والسواقي التي تُدار والنافورة والبركة من خيال اللعب، وليست مخطّط الحمراء ولا مخطّط مياهها." && !/[0-9]/.test(s.w.pieces.join("") + s.ran + s.objective + s.w.counts),
+      { ar, firstX, secondX, leverX, agree: shown?.agree, s: { first: s.w.pieces[0], counts: s.w.counts, ran: s.ran.slice(0, 120) } });
+    await ctx.close();
+  }
+
+  // (8) Movement kept still: the bird is set down at once and each touch takes effect on the same step, the water is never shown running, Story is finished with no wait, and the door is still walked to.
+  {
+    const ctx = await browser.newContext({ viewport: { width: 1280, height: 900 } });
+    const page = await open(ctx, "&style=story&motion=reduced&fresh=1");
+    await openAh(page);
+    await skipTalk(page);
+    const t0 = Date.now();
+    const s0 = (await ah(page))!;
+    const p0 = nextTurn(s0);
+    await ev(page, `window.__HH__.goTo('place-${p0}')`);
+    const once = (await ah(page))!;
+    const busies: boolean[] = [once.busy];
+    for (let i = 0; i < 20; i++) {
+      const s = (await ah(page))!;
+      const p = nextTurn(s);
+      if (p < 0 || s.done) break;
+      await ev(page, `window.__HH__.goTo('place-${p}')`);
+      busies.push((await ah(page))!.busy);
+    }
+    const calm = (await ah(page))!;
+    const took = Date.now() - t0;
+    await page.waitForFunction("window.__HH__.alhambra().doorLit", undefined, { timeout: 5000 });
+    if (outDir) await page.screenshot({ path: resolve(outDir, "alhambra-court-reduced.png") });
+    await skipTalk(page);
+    await page.locator(`${ROOM} .stage`).focus();
+    await walkRight(page, "!document.querySelector('.hub').hidden");
+    const last = await ev<{ scene: string } | null>(page, "window.__HH__.lastDoor()");
+    record("the Alhambra's court with motion=reduced: flown to, the bird is set down and touches at once (the first turn on the same step); the water is never shown running, simply there; Story's grid of three rows is finished with no wait; the lit door is still reached by walking",
+      s0.rows === 3 && once.moves === 1 && busies.every((b) => !b) && calm.done && calm.shown?.agree === true && calm.shown.page && took < 2500 && last?.scene === "alhambra",
+      { once: { moves: once.moves }, busies, calm: { done: calm.done, moves: calm.moves, agree: calm.shown?.agree }, took, last });
+    await ctx.close();
+  }
+
+  // (9) Without WebGL the scene is played on the channels' page, and finished there.
+  {
+    const ctx = await browser.newContext({ viewport: { width: 1280, height: 800 } });
+    await ctx.addInitScript("const g = HTMLCanvasElement.prototype.getContext; HTMLCanvasElement.prototype.getContext = function (t, ...a) { return /webgl/.test(t) ? null : g.call(this, t, ...a); };");
+    const page = await open(ctx, "&fresh=1&preflight=off&style=explorer");
+    const note = await ev<string>(page, `(() => { const s = document.querySelector(".hub button[data-quest='${QUEST}']").parentElement.querySelector('small'); return s ? s.textContent : ''; })()`);
+    await page.locator(`.hub button[data-quest='${QUEST}']`).click();
+    await page.waitForFunction("window.__HH__.channels() !== null", undefined, { timeout: 10000 });
+    const onPage = await ev<{ room: unknown; buttons: number; roomHidden: boolean; benchShown: boolean }>(page, "({ room: window.__HH__.alhambra(), buttons: document.querySelectorAll('.bench .channel-row button').length, roomHidden: document.querySelector('.room-box').hidden, benchShown: !document.querySelector('.bench').hidden })");
+    for (let i = 0; i < 60; i++) {
+      const c = await ev<{ done: boolean; cells: { kind: Kind; turn: number }[]; wet: Record<string, number> }>(page, "(() => { const a = window.__HH__.channels(); return { done: a.done, cells: a.cells, wet: Object.fromEntries(a.answer.wet) }; })()");
+      const todo = c.cells.findIndex((cell, p) => c.wet[String(p)] !== undefined && cell.turn % period(cell.kind) !== c.wet[String(p)]);
+      if (todo < 0 || c.done) break;
+      await page.locator(`.bench .channel-row button[data-place='${todo}']`).click();
+    }
+    await page.waitForSelector(".bench .results:not([hidden])", { timeout: 20000 });
+    const done = await ev<boolean>(page, "window.__HH__.channels().done");
+    if (outDir) await page.screenshot({ path: resolve(outDir, "alhambra-court-without-webgl.png"), fullPage: true });
+    record("without WebGL the Alhambra's scene is played on the channels' page (its trial line on the Atlas, a button for every piece, no court), and is finished there",
+      /first trial/.test(note) && onPage.room === null && onPage.buttons === 16 && onPage.roomHidden && onPage.benchShown && done, { note, onPage, done });
     await ctx.close();
   }
 }

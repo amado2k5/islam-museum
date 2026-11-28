@@ -235,9 +235,16 @@ describe("al-Jahiz's room: talk is the page quest's questions and answers", () =
 describe("al-Jahiz's room: its strings", () => {
   const tables = Object.fromEntries(LANGS.map((l) => [l, table(l)]));
   const keys = Object.keys(tables.en!).filter((k) => k.startsWith("jzr_"));
-  it("are twenty-one, at the end of every table, in the same order", () => {
+  // They were the last twenty-one of every table until the Alhambra's court (27 November 2026) appended its own after them;
+  // they are still one block, in the same order, in every table, and only the court's keys come after them.
+  it("are twenty-one, one block in every table, in the same order, with only the Alhambra's court's keys after them", () => {
     expect(keys).toHaveLength(21);
-    for (const l of LANGS) expect(Object.keys(tables[l]!).slice(-keys.length), l).toEqual(keys);
+    for (const l of LANGS) {
+      const all = Object.keys(tables[l]!);
+      const at = all.indexOf(keys[0]!);
+      expect(all.slice(at, at + keys.length), l).toEqual(keys);
+      expect(all.slice(at + keys.length).every((k) => k.startsWith("ahr_")), l).toBe(true);
+    }
   });
   it("say that the room, the trays, the cards and the bell are invented for play and that his division is not today's science, in the founder's words in Arabic and English", () => {
     expect(tables.ar!.jzr_note_room).toBe("الغرفة والصواني والبطاقات والجرس من خيال اللعب، وليست صورة لمكان عمل الجاحظ. وتقسيم الجاحظ ليس تصنيف العلم اليوم.");

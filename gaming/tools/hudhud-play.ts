@@ -9,8 +9,12 @@
 // secret page, the fifth room), "idrisi" (al-Idrisi's hall and the scattered sheets, the sixth room), "razi" (al-Razi's
 // study and the loose leaves, the seventh room), "karima" (Karima al-Marwaziyya's room and the copies, the eighth room)
 // "battuta" (Ibn Battuta's inn and the thread of the road, the ninth room), "coffee" (the coffee room and the cards on
-// three shelves, the tenth room) or "jahiz" (al-Jahiz's room and the animal cards in their trays, the eleventh room).
-// It measures the machine it runs on. A pass here is not a pass on the museum's two reference machines.
+// three shelves, the tenth room), "jahiz" (al-Jahiz's room and the animal cards in their trays, the eleventh room) or
+// "alhambra" (the Alhambra's court and the channels of the dry fountain, the twelfth room).
+// It measures the machine it runs on. A pass here is not a pass on the museum's two reference machines. The memory each
+// room's lifecycle reads is the heap after a forced garbage collection (Chrome is started with --expose-gc and `gc()` is
+// called before `performance.memory.usedJSHeapSize` is read, since 27 November 2026), so that every room's figure is
+// comparable; the heap before it (`heapBytes`) is kept beside it.
 import { mkdirSync, writeFileSync } from "node:fs";
 import { resolve } from "node:path";
 import { chromium, type Page } from "playwright-core";
@@ -21,7 +25,7 @@ import { slipsOf } from "../games/hudhud/src/sim/collate";
 
 const [outArg, lang = "en", quality = "medium", w = "1920", h = "1080", style = "explorer", scene = "workshop"] = process.argv.slice(2);
 if (!outArg) throw new Error("usage: hudhud-play.ts <out dir> [lang] [quality] [width] [height] [style] [scene]");
-if (scene !== "workshop" && scene !== "jazari" && scene !== "tusi" && scene !== "khwarizmi" && scene !== "kindi" && scene !== "idrisi" && scene !== "razi" && scene !== "karima" && scene !== "battuta" && scene !== "coffee" && scene !== "jahiz") throw new Error(`hudhud-play.ts: no scene called ${scene} (workshop, jazari, tusi, khwarizmi, kindi, idrisi, razi, karima, battuta, coffee or jahiz)`);
+if (scene !== "workshop" && scene !== "jazari" && scene !== "tusi" && scene !== "khwarizmi" && scene !== "kindi" && scene !== "idrisi" && scene !== "razi" && scene !== "karima" && scene !== "battuta" && scene !== "coffee" && scene !== "jahiz" && scene !== "alhambra") throw new Error(`hudhud-play.ts: no scene called ${scene} (workshop, jazari, tusi, khwarizmi, kindi, idrisi, razi, karima, battuta, coffee, jahiz or alhambra)`);
 const out = resolve(outArg);
 mkdirSync(out, { recursive: true });
 const tag = `${scene === "workshop" ? "" : `${scene}-`}${lang}-${quality}-${w}x${h}`;
@@ -38,7 +42,7 @@ interface Hook {
   restart(rebuild: boolean): void;
 }
 const served = await serveWorkspace();
-const browser = await chromium.launch({ channel: "chrome", headless: false, args: [`--window-size=${w},${Number(h) + 90}`, "--window-position=0,0", "--force-device-scale-factor=1", "--enable-precise-memory-info"] });
+const browser = await chromium.launch({ channel: "chrome", headless: false, args: [`--window-size=${w},${Number(h) + 90}`, "--window-position=0,0", "--force-device-scale-factor=1", "--enable-precise-memory-info", "--js-flags=--expose-gc"] });
 const context = await browser.newContext({ viewport: { width: Number(w), height: Number(h) }, deviceScaleFactor: 1 });
 const page: Page = await context.newPage();
 const errors: string[] = [];
@@ -60,6 +64,8 @@ const shot = async (name: string) => {
   shots.push(file);
 };
 const talking = () => hk<boolean>("return h.state().talk !== null;");
+/** The heap after a forced garbage collection (Chrome is started with --expose-gc), so that what is read is what is kept, not what is waiting to be collected; null if the browser does not say. */
+const heapAfterGc = () => page.evaluate("(() => { if (typeof gc === 'function') { gc(); gc(); } return performance.memory ? performance.memory.usedJSHeapSize : null; })()") as Promise<number | null>;
 /** Goes on through a conversation with the keyboard, as a player would, until control comes back. */
 const talkThrough = async (pick?: number[]) => {
   const picks = [...(pick ?? [])];
@@ -96,6 +102,7 @@ try {
   else if (scene === "battuta") await playBattuta();
   else if (scene === "coffee") await playCoffee();
   else if (scene === "jahiz") await playJahiz();
+  else if (scene === "alhambra") await playAlhambra();
   else await playWorkshop();
 } catch (e) {
   report.failed = String(e);
@@ -202,7 +209,7 @@ async function playWorkshop(): Promise<void> {
 
   // Leaving and coming back: the scene is started again ten times; what it holds must not grow. Since the journey
   // (27 November 2026) the end is a panel beside the stage, not a sheet, so there is nothing to close first.
-  const cycle = async () => ({ ...(await hk<Record<string, unknown>>("const i = h.info(); return { textures: i.textures, textureBytes: i.textureBytes, objects: i.objects, tweens: i.tweens };")), heapBytes: await heap() });
+  const cycle = async () => ({ ...(await hk<Record<string, unknown>>("const i = h.info(); return { textures: i.textures, textureBytes: i.textureBytes, objects: i.objects, tweens: i.tweens };")), heapBytes: await heap(), heapAfterGcBytes: await heapAfterGc() });
   await hk("h.restart(false);");
   await page.waitForTimeout(800);
   const first = await cycle();
@@ -348,7 +355,7 @@ async function playJazari(): Promise<void> {
   report.save = await page.evaluate("JSON.parse(localStorage.getItem('im.hudhud.save.v1') || 'null')");
 
   // Opening the room again and again: what it holds must not grow.
-  const cycle = async () => ({ ...(await hk<Record<string, unknown>>("const i = h.info(); return { textures: i.textures, textureBytes: i.textureBytes, objects: i.objects, tweens: i.tweens };")), heapBytes: await heap() });
+  const cycle = async () => ({ ...(await hk<Record<string, unknown>>("const i = h.info(); return { textures: i.textures, textureBytes: i.textureBytes, objects: i.objects, tweens: i.tweens };")), heapBytes: await heap(), heapAfterGcBytes: await heapAfterGc() });
   const reopen = async () => {
     await hk("h.toAtlas(); h.startJazari();");
     await page.waitForFunction("window.__HH__.jazari() !== null && window.__HH__.where() !== null", undefined, { timeout: 30000 });
@@ -474,7 +481,7 @@ async function playTusi(): Promise<void> {
   report.save = await page.evaluate("JSON.parse(localStorage.getItem('im.hudhud.save.v1') || 'null')");
 
   // Opening the room again and again: what it holds must not grow.
-  const cycle = async () => ({ ...(await hk<Record<string, unknown>>("const i = h.info(); return { textures: i.textures, textureBytes: i.textureBytes, objects: i.objects, tweens: i.tweens };")), heapBytes: await heap() });
+  const cycle = async () => ({ ...(await hk<Record<string, unknown>>("const i = h.info(); return { textures: i.textures, textureBytes: i.textureBytes, objects: i.objects, tweens: i.tweens };")), heapBytes: await heap(), heapAfterGcBytes: await heapAfterGc() });
   const reopen = async () => {
     await hk("h.toAtlas(); h.startTusi();");
     await page.waitForFunction("window.__HH__.tusi() !== null && window.__HH__.where() !== null", undefined, { timeout: 30000 });
@@ -596,7 +603,7 @@ async function playKhwarizmi(): Promise<void> {
   report.save = await page.evaluate("JSON.parse(localStorage.getItem('im.hudhud.save.v1') || 'null')");
 
   // Opening the room again and again: what it holds must not grow.
-  const cycle = async () => ({ ...(await hk<Record<string, unknown>>("const i = h.info(); return { textures: i.textures, textureBytes: i.textureBytes, objects: i.objects, tweens: i.tweens };")), heapBytes: await heap() });
+  const cycle = async () => ({ ...(await hk<Record<string, unknown>>("const i = h.info(); return { textures: i.textures, textureBytes: i.textureBytes, objects: i.objects, tweens: i.tweens };")), heapBytes: await heap(), heapAfterGcBytes: await heapAfterGc() });
   const reopen = async () => {
     await hk("h.toAtlas(); h.startKhwarizmi();");
     await page.waitForFunction("window.__HH__.khwarizmi() !== null && window.__HH__.where() !== null", undefined, { timeout: 30000 });
@@ -729,7 +736,7 @@ async function playKindi(): Promise<void> {
   report.save = await page.evaluate("JSON.parse(localStorage.getItem('im.hudhud.save.v1') || 'null')");
 
   // Opening the room again and again: what it holds must not grow.
-  const cycle = async () => ({ ...(await hk<Record<string, unknown>>("const i = h.info(); return { textures: i.textures, textureBytes: i.textureBytes, objects: i.objects, tweens: i.tweens };")), heapBytes: await heap() });
+  const cycle = async () => ({ ...(await hk<Record<string, unknown>>("const i = h.info(); return { textures: i.textures, textureBytes: i.textureBytes, objects: i.objects, tweens: i.tweens };")), heapBytes: await heap(), heapAfterGcBytes: await heapAfterGc() });
   const reopen = async () => {
     await hk("h.toAtlas(); h.startKindi();");
     await page.waitForFunction("window.__HH__.kindi() !== null && window.__HH__.where() !== null", undefined, { timeout: 30000 });
@@ -866,7 +873,7 @@ async function playIdrisi(): Promise<void> {
   report.save = await page.evaluate("JSON.parse(localStorage.getItem('im.hudhud.save.v1') || 'null')");
 
   // Opening the hall again and again: what it holds must not grow.
-  const cycle = async () => ({ ...(await hk<Record<string, unknown>>("const i = h.info(); return { textures: i.textures, textureBytes: i.textureBytes, objects: i.objects, tweens: i.tweens };")), heapBytes: await heap() });
+  const cycle = async () => ({ ...(await hk<Record<string, unknown>>("const i = h.info(); return { textures: i.textures, textureBytes: i.textureBytes, objects: i.objects, tweens: i.tweens };")), heapBytes: await heap(), heapAfterGcBytes: await heapAfterGc() });
   const reopen = async () => {
     await hk("h.toAtlas(); h.startIdrisi();");
     await page.waitForFunction("window.__HH__.idrisi() !== null && window.__HH__.where() !== null", undefined, { timeout: 30000 });
@@ -1013,7 +1020,7 @@ async function playRazi(): Promise<void> {
   report.save = await page.evaluate("JSON.parse(localStorage.getItem('im.hudhud.save.v1') || 'null')");
 
   // Opening the study again and again: what it holds must not grow.
-  const cycle = async () => ({ ...(await hk<Record<string, unknown>>("const i = h.info(); return { textures: i.textures, textureBytes: i.textureBytes, objects: i.objects, tweens: i.tweens };")), heapBytes: await heap() });
+  const cycle = async () => ({ ...(await hk<Record<string, unknown>>("const i = h.info(); return { textures: i.textures, textureBytes: i.textureBytes, objects: i.objects, tweens: i.tweens };")), heapBytes: await heap(), heapAfterGcBytes: await heapAfterGc() });
   const reopen = async () => {
     await hk("h.toAtlas(); h.startRazi();");
     await page.waitForFunction("window.__HH__.razi() !== null && window.__HH__.where() !== null", undefined, { timeout: 30000 });
@@ -1142,7 +1149,7 @@ async function playKarima(): Promise<void> {
   report.save = await page.evaluate("JSON.parse(localStorage.getItem('im.hudhud.save.v1') || 'null')");
 
   // Opening the room again and again: what it holds must not grow.
-  const cycle = async () => ({ ...(await hk<Record<string, unknown>>("const i = h.info(); return { textures: i.textures, textureBytes: i.textureBytes, objects: i.objects, tweens: i.tweens };")), heapBytes: await heap() });
+  const cycle = async () => ({ ...(await hk<Record<string, unknown>>("const i = h.info(); return { textures: i.textures, textureBytes: i.textureBytes, objects: i.objects, tweens: i.tweens };")), heapBytes: await heap(), heapAfterGcBytes: await heapAfterGc() });
   const reopen = async () => {
     await hk("h.toAtlas(); h.startKarima();");
     await page.waitForFunction("window.__HH__.karima() !== null && window.__HH__.where() !== null", undefined, { timeout: 30000 });
@@ -1269,7 +1276,7 @@ async function playBattuta(): Promise<void> {
   report.save = await page.evaluate("JSON.parse(localStorage.getItem('im.hudhud.save.v1') || 'null')");
 
   // Opening the inn again and again: what it holds must not grow.
-  const cycle = async () => ({ ...(await hk<Record<string, unknown>>("const i = h.info(); return { textures: i.textures, textureBytes: i.textureBytes, objects: i.objects, tweens: i.tweens };")), heapBytes: await heap() });
+  const cycle = async () => ({ ...(await hk<Record<string, unknown>>("const i = h.info(); return { textures: i.textures, textureBytes: i.textureBytes, objects: i.objects, tweens: i.tweens };")), heapBytes: await heap(), heapAfterGcBytes: await heapAfterGc() });
   const reopen = async () => {
     await hk("h.toAtlas(); h.startBattuta();");
     await page.waitForFunction("window.__HH__.battuta() !== null && window.__HH__.where() !== null", undefined, { timeout: 30000 });
@@ -1401,7 +1408,7 @@ async function playCoffee(): Promise<void> {
   report.save = await page.evaluate("JSON.parse(localStorage.getItem('im.hudhud.save.v1') || 'null')");
 
   // Opening the room again and again: what it holds must not grow.
-  const cycle = async () => ({ ...(await hk<Record<string, unknown>>("const i = h.info(); return { textures: i.textures, textureBytes: i.textureBytes, objects: i.objects, tweens: i.tweens };")), heapBytes: await heap() });
+  const cycle = async () => ({ ...(await hk<Record<string, unknown>>("const i = h.info(); return { textures: i.textures, textureBytes: i.textureBytes, objects: i.objects, tweens: i.tweens };")), heapBytes: await heap(), heapAfterGcBytes: await heapAfterGc() });
   const reopen = async () => {
     await hk("h.toAtlas(); h.startCoffeeRoom();");
     await page.waitForFunction("window.__HH__.coffeeRoom() !== null && window.__HH__.where() !== null", undefined, { timeout: 30000 });
@@ -1534,10 +1541,136 @@ async function playJahiz(): Promise<void> {
   report.save = await page.evaluate("JSON.parse(localStorage.getItem('im.hudhud.save.v1') || 'null')");
 
   // Opening the room again and again: what it holds must not grow.
-  const cycle = async () => ({ ...(await hk<Record<string, unknown>>("const i = h.info(); return { textures: i.textures, textureBytes: i.textureBytes, objects: i.objects, tweens: i.tweens };")), heapBytes: await heap() });
+  const cycle = async () => ({ ...(await hk<Record<string, unknown>>("const i = h.info(); return { textures: i.textures, textureBytes: i.textureBytes, objects: i.objects, tweens: i.tweens };")), heapBytes: await heap(), heapAfterGcBytes: await heapAfterGc() });
   const reopen = async () => {
     await hk("h.toAtlas(); h.startSortRoom();");
     await page.waitForFunction("window.__HH__.jahizRoom() !== null && window.__HH__.where() !== null", undefined, { timeout: 30000 });
+  };
+  await reopen();
+  await page.waitForTimeout(800);
+  const first = await cycle();
+  for (let i = 0; i < 9; i++) {
+    await reopen();
+    await page.waitForTimeout(300);
+  }
+  await page.waitForTimeout(800);
+  report.lifecycle = { afterOneOpening: first, afterTenOpenings: await cycle(), canvases: await page.evaluate("document.querySelectorAll('canvas').length") };
+}
+async function playAlhambra(): Promise<void> {
+  type Ah = { moves: number; openings: number; flags: string[]; done: boolean; talk: unknown; doorLit: boolean; cells: { kind: string; turn: number }[]; wet: Record<string, number>; busy: boolean };
+  const cq = () => hk<Ah>("return h.alhambra();");
+  const noteCq = async (step: string) => {
+    const s = await cq();
+    route.push({ step, at: Date.now() - t0, where: await hk("return h.where();"), turns: s.moves, flags: s.flags, restored: s.done, dark: false, done: s.doorLit });
+  };
+  const roomTalk = async (pick: string[] = []) => {
+    const picks = [...pick];
+    for (let i = 0; i < 20 && (await cq()).talk !== null; i++) {
+      await page.waitForTimeout(350);
+      const choices = page.locator(".room-box .talk .choices button");
+      if ((await choices.count()) > 0) {
+        const want = picks.shift();
+        await (want ? choices.filter({ hasText: want }).first() : choices.last()).click();
+      } else await page.keyboard.press("Enter");
+    }
+    await page.waitForTimeout(250);
+  };
+  const fly = async (id: string, until: string) => {
+    await hk(`h.goTo(${JSON.stringify(id)});`);
+    await page.waitForFunction(`(() => { const h = window.__HH__; return ${until}; })()`, undefined, { timeout: 8000 });
+    await page.waitForTimeout(200);
+  };
+  const per = (k: string) => (k === "cross" || k === "blank" ? 1 : k === "straight" ? 2 : 4);
+  /** The next piece of the road still to be turned, from the court's own state, or -1. */
+  const next = (s: Ah) => s.cells.findIndex((c, p) => s.wet[String(p)] !== undefined && c.turn % per(c.kind) !== s.wet[String(p)]);
+  const tStart = Date.now();
+  await page.locator(".hub button[data-quest='w08q2-alhambra']").click();
+  await page.waitForFunction("window.__HH__.alhambra() !== null && window.__HH__.where() !== null", undefined, { timeout: 30000 });
+  report.msFromPlayToScene = Date.now() - tStart;
+  await page.waitForTimeout(900);
+  await shot("intro-talk");
+  await noteCq("court open");
+  await roomTalk();
+
+  await fly("waterkeeper", "h.alhambra().talk !== null");
+  await shot("keeper-talk");
+  await roomTalk(["Ask about the water", "Ask about the courts"]);
+  await noteCq("asked the keeper of the water both questions");
+  await fly("girl", "h.alhambra().talk !== null");
+  await roomTalk(["Yes. We will turn the pieces together until the water runs."]);
+  await noteCq("answered the girl kindly");
+  await fly("rim", "h.alhambra().flags.includes('feather')");
+  await shot("feather-on-the-rim");
+  await roomTalk();
+  await noteCq("found the feather");
+
+  // Five pieces of the road turned by flight and touch, the water running after each turn.
+  for (let i = 0; i < 5; i++) {
+    const s = await cq();
+    const p = next(s);
+    if (p < 0) break;
+    await fly(`place-${p}`, `h.alhambra().moves === ${s.moves + 1}`);
+    if (i === 0) await shot("water-running");
+  }
+  await noteCq("five pieces turned");
+
+  // Frame times while the bird crosses the whole court and back, with everything running.
+  await hk("h.resetFrames();");
+  await page.locator(".room-box .stage").focus();
+  for (const key of ["ArrowLeft", "ArrowRight"]) {
+    await page.keyboard.down(key);
+    for (let i = 0; i < 14; i++) {
+      await page.keyboard.down("Space");
+      await page.waitForTimeout(120);
+      await page.keyboard.up("Space");
+      await page.waitForTimeout(380);
+    }
+    await page.keyboard.up(key);
+  }
+  const heap = () => page.evaluate("performance.memory ? performance.memory.usedJSHeapSize : null") as Promise<number | null>;
+  report.benchmark = { route: "the whole width and back, hopping and flapping, 14 seconds", info: await hk("return h.info();"), heapBytes: await heap(), heapAfterGcBytes: await heapAfterGc() };
+
+  // A lost graphics context, part way: what the player sees, and whether the court comes back.
+  report.contextLoss = await page.evaluate(`(async () => {
+    const canvas = document.querySelector('.room-box .stage canvas');
+    const gl = canvas.getContext('webgl2') || canvas.getContext('webgl');
+    const ext = gl && gl.getExtension('WEBGL_lose_context');
+    if (!ext) return { tried: false };
+    ext.loseContext();
+    await new Promise((r) => setTimeout(r, 600));
+    const toast = document.querySelector('.toast') ? document.querySelector('.toast').textContent : null;
+    ext.restoreContext();
+    await new Promise((r) => setTimeout(r, 2500));
+    const a = window.__HH__.alhambra();
+    return { tried: true, toast, sceneBack: window.__HH__.where() !== null, moves: a.moves, agree: a.shown ? a.shown.agree : null };
+  })()`);
+
+  // The rest of the road, by flight and touch: the fountain fills.
+  for (let i = 0; i < 40; i++) {
+    const s = await cq();
+    const p = next(s);
+    if (p < 0 || s.done) break;
+    await fly(`place-${p}`, `h.alhambra().moves === ${s.moves + 1}`);
+  }
+  await page.waitForFunction("window.__HH__.alhambra().doorLit", undefined, { timeout: 10000 });
+  await page.waitForTimeout(1200);
+  await shot("fountain-full");
+  await roomTalk();
+  await noteCq("the water runs to every basin");
+  report.puzzle = { moves: (await cq()).moves, openings: (await cq()).openings };
+  report.goals = await page.evaluate("JSON.parse(localStorage.getItem('im.hudhud.save.v1') || 'null')?.slots?.[0]?.quests?.['w08q2-alhambra'] ?? null");
+  await shot("results");
+  await page.locator(".room-box .stage").focus();
+  await page.keyboard.down("ArrowRight");
+  await page.waitForFunction("!document.querySelector('.hub').hidden", undefined, { timeout: 25000 }).finally(() => page.keyboard.up("ArrowRight"));
+  report.door = await hk("return h.lastDoor();");
+  report.save = await page.evaluate("JSON.parse(localStorage.getItem('im.hudhud.save.v1') || 'null')");
+
+  // Opening the court again and again: what it holds must not grow.
+  const cycle = async () => ({ ...(await hk<Record<string, unknown>>("const i = h.info(); return { textures: i.textures, textureBytes: i.textureBytes, objects: i.objects, tweens: i.tweens };")), heapBytes: await heap(), heapAfterGcBytes: await heapAfterGc() });
+  const reopen = async () => {
+    await hk("h.toAtlas(); h.startAlhambra();");
+    await page.waitForFunction("window.__HH__.alhambra() !== null && window.__HH__.where() !== null", undefined, { timeout: 30000 });
   };
   await reopen();
   await page.waitForTimeout(800);

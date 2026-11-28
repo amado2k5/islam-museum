@@ -673,6 +673,48 @@ export function cardGirl(scale: number): KeeperArt {
   return { ...art, body };
 }
 
+/**
+ * The girl who sweeps the court in the Alhambra's court, an invented person (the channels' quest's own): the same cut-out
+ * as the explorer, in one fixed look of her own (a headscarf, a red tunic), holding a plain broom of twigs across the
+ * body. Nothing on it is drawn or written.
+ */
+export function sweeper(scale: number): KeeperArt {
+  const art = keeper(scale, { kind: 1, skin: 2, outfit: 1, hair: 1 });
+  const [body, b] = sheet(art.body.w, art.body.h, scale);
+  b.drawImage(art.body.canvas, 0, 0, art.body.w, art.body.h);
+  // The handle, from over the shoulder down across the body.
+  b.lineCap = "round";
+  b.strokeStyle = INK;
+  b.lineWidth = 6.5;
+  b.beginPath();
+  b.moveTo(74, 6);
+  b.lineTo(30, 100);
+  b.stroke();
+  b.strokeStyle = "#a8743e";
+  b.lineWidth = 4;
+  b.beginPath();
+  b.moveTo(74, 6);
+  b.lineTo(30, 100);
+  b.stroke();
+  // The twigs, bound at the handle's foot.
+  blob(b, [
+    [32, 92],
+    [40, 96],
+    [30, 116],
+    [16, 116],
+  ]);
+  fillStroke(b, "#d9b56a", INK, 1.8);
+  b.strokeStyle = "rgba(120,86,40,0.7)";
+  b.lineWidth = 1.2;
+  for (const dx of [0, 5, 10]) {
+    b.beginPath();
+    b.moveTo(32 + dx * 0.2, 98);
+    b.lineTo(20 + dx, 114);
+    b.stroke();
+  }
+  return { ...art, body };
+}
+
 // ---------------------------------------------------------------------------------------------- the scholar
 /** The colours a scholar's figure is drawn in. The default is Ibn al-Haytham's, as the workshop has always drawn him;
  * al-Jazari's figure is the same cut-out in other colours, with an apron (art/jazari.ts's room), al-Tusi's in night
@@ -1152,6 +1194,29 @@ export const JAHIZ_LOOK: ScholarLook = {
 };
 export function jahiz(scale: number): ScholarArt {
   return scholar(scale, JAHIZ_LOOK);
+}
+
+/**
+ * The keeper of the water in the Alhambra's court, an invented person (the channels' quest's own), as the game imagines a
+ * keeper of channels: the scholar's cut-out again, of the same size and parts, in a plain grey-white turban and an
+ * earth-brown robe over a cream gown. Not a likeness of anyone.
+ */
+export const WATERKEEPER_LOOK: ScholarLook = {
+  skin: "#c08a5c",
+  beard: ["#8a8078", "#c9c0b4"],
+  moustache: "#8a8078",
+  brow: "#5a4a40",
+  turban: ["#eceae2", "#c8c4b8"],
+  turbanBands: "rgba(80,80,70,0.45)",
+  robe: ["#7a5232", "#55361e"],
+  gown: "#f3e6c8",
+  border: PAL.teal,
+  dots: PAL.cream,
+  shawl: "#2f6f78",
+  seed: "waterkeeper",
+};
+export function waterkeeper(scale: number): ScholarArt {
+  return scholar(scale, WATERKEEPER_LOOK);
 }
 
 // ---------------------------------------------------------------------------------------------- the cat

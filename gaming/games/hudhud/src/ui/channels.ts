@@ -54,25 +54,85 @@ const h = <K extends keyof HTMLElementTagNameMap>(tag: K, props: Partial<HTMLEle
   return node;
 };
 
+/**
+ * The page's words for a grid: what each piece is and which sides it is open to, what is said beside it (the spout, its
+ * water, where the water stops), and where the water stands as far as the way of playing shows it. Shared with the
+ * Alhambra's court (ui/alhambraroom.ts), so that the court says every piece and every turn in the page's own words.
+ * `get` gives the grid as it is now.
+ */
+export function channelsWords(get: () => ChannelsState, t: ChannelsHost["t"], num: ChannelsHost["num"], rtl: boolean) {
+  const list = (names: string[]) => names.join(rtl ? "، " : ", ");
+  const rc = (p: number) => ({ r: num(Math.floor(p / get().cols) + 1), c: num((p % get().cols) + 1) });
+  const placeName = (p: number) => t("ah_place", rc(p));
+  /** Places are listed with a semicolon, because each name has a comma in it. */
+  const places = (cells: number[]) => cells.map(placeName).join(rtl ? "؛ " : "; ");
+  /** The Challenge way of playing shows the water only after the sluice is opened, and until the next turn. */
+  const showWater = () => get().style !== "challenge" || get().last?.type === "open";
+  const sideName = (s: Side) => t(`ah_s_${s}` as Key);
+  const basinAt = (p: number) => get().basins.find((b) => b.cell === p);
+  const pieceName = (p: number): string => {
+    const b = basinAt(p);
+    return b ? t(b.kind === "fountain" ? "ah_b_fountain" : "ah_b_pool") : t(`ah_p_${get().cells[p]!.kind}` as Key);
+  };
+  const sidesText = (p: number): string => {
+    const piece = get().cells[p]!;
+    const o = opens(piece.kind, piece.turn);
+    return o.length === 0 ? t("ah_open_none") : list(SIDES.filter((s) => o.includes(s)).map(sideName));
+  };
+  /** What is said about a place besides what it is: the spout, whether it has water, and (Story) that the water stops against it. */
+  function notesOf(p: number, f: Flow): string[] {
+    const state = get();
+    const out: string[] = [];
+    if (p === state.spout.cell) out.push(t("ah_note_spout", { side: sideName(state.spout.side) }));
+    if (showWater() && state.cells[p]!.kind !== "blank") out.push(t(f.wet[p] ? "ah_note_wet" : "ah_note_dry"));
+    if (state.style === "story" && showWater() && f.blocked.includes(p)) out.push(t("ah_note_stop"));
+    return out;
+  }
+  /** What the page says about the water, as far as the way of playing shows it: which basins have water, where it spills, and (Story) what it stops against. */
+  function waterLines(): string[] {
+    const state = get();
+    if (!showWater()) return [t("ah_hidden")];
+    const f = flow(gridOf(state));
+    const wetBasins = state.basins.filter((b) => f.wet[b.cell]).map((b) => t(b.kind === "fountain" ? "ah_b_fountain" : "ah_b_pool"));
+    const lines = [wetBasins.length > 0 ? t("ah_water_basins", { list: list(wetBasins) }) : t("ah_water_none")];
+    const leakCells = [...new Set(f.leaks.map((l) => l.cell))];
+    if (leakCells.length > 0) lines.push(t("ah_water_leak", { list: places(leakCells) }));
+    if (state.style === "story" && f.blocked.length > 0) lines.push(t("ah_water_stop", { list: places(f.blocked) }));
+    return lines;
+  }
+  /** A place's whole line, as the page's button for it says it: its row and place, the piece, its open sides, and its notes. */
+  function label(p: number, f: Flow = flow(gridOf(get()))): string {
+    const o = opens(get().cells[p]!.kind, get().cells[p]!.turn);
+    const base = o.length === 0 ? t("ah_label_none", { ...rc(p), piece: pieceName(p) }) : t("ah_label", { ...rc(p), piece: pieceName(p), sides: sidesText(p) });
+    return base + notesOf(p, f).map((n) => (rtl ? "، " : ", ") + n).join("");
+  }
+  /** Every piece's openings, in words, for a reader who cannot see the picture: the page's table, under its summary. */
+  function table(): HTMLElement[] {
+    const state = get();
+    const f = flow(gridOf(state));
+    const th = (k: Key) => Object.assign(h("th", { textContent: t(k) }), { scope: "col" });
+    const body = h(
+      "tbody",
+      {},
+      ...state.cells.map((_, p) => h("tr", {}, Object.assign(h("th", { textContent: t("ah_rowcol", rc(p)) }), { scope: "row" }), h("td", { textContent: pieceName(p) }), h("td", { textContent: sidesText(p) }), h("td", { textContent: list(notesOf(p, f)) }))),
+    );
+    return [h("summary", { textContent: t("ah_table_summary") }), h("table", { class: "counts" }, h("caption", { textContent: t("ah_table_caption") }), h("thead", {}, h("tr", {}, th("ah_col_place"), th("ah_col_piece"), th("ah_col_open"), th("ah_col_note"))), body)];
+  }
+  return { list, rc, placeName, showWater, pieceName, sidesText, notesOf, waterLines, label, table, statusText: () => waterLines().join(" ") };
+}
+
 export function channelsQuest(host: ChannelsHost): ChannelsQuest {
   const { t, num } = host;
   const rtl = host.lang === "ar" || host.lang === "ur";
   let state = host.resume ?? newChannels(host.style(), channelsGrid(host.style()));
+  const words = channelsWords(() => state, t, num, rtl);
   let answered = state.flags.includes("answered") || state.flags.includes("kind"); // the girl has been answered, kindly or not
   let marked: number | null = null; // the piece turned last, for the picture's gold outline
   let fill = Infinity; // how far the water has run in the picture
   let timer: number | undefined;
   let running = false;
-  const list = (names: string[]) => names.join(rtl ? "، " : ", ");
   const style = () => state.style;
-  const rc = (p: number) => ({ r: num(Math.floor(p / state.cols) + 1), c: num((p % state.cols) + 1) });
-  /** Places are listed with a semicolon, because each name has a comma in it. */
-  const places = (cells: number[]) => cells.map(placeName).join(rtl ? "؛ " : "; ");
-  const placeName = (p: number) => t("ah_place", rc(p));
-  /** The Challenge way of playing shows the water only after the sluice is opened, and until the next turn. */
-  const showWater = () => style() !== "challenge" || state.last?.type === "open";
-  const sideName = (s: Side) => t(`ah_s_${s}` as Key);
-  const basinAt = (p: number) => state.basins.find((b) => b.cell === p);
+  const { rc, showWater } = words;
 
   const heading = h("h2", { textContent: host.title, tabIndex: -1 });
   const objective = h("p", { class: "objective-line", textContent: t(style() === "challenge" ? "ah_objective_challenge" : "ah_objective") });
@@ -99,36 +159,8 @@ export function channelsQuest(host: ChannelsHost): ChannelsQuest {
   };
   const flag = (f: ChannelsFlag) => command({ type: "flag", flag: f });
 
-  // ---- words for the pieces and the water
-  const pieceName = (p: number): string => {
-    const b = basinAt(p);
-    return b ? t(b.kind === "fountain" ? "ah_b_fountain" : "ah_b_pool") : t(`ah_p_${state.cells[p]!.kind}` as Key);
-  };
-  const sidesText = (p: number): string => {
-    const piece = state.cells[p]!;
-    const o = opens(piece.kind, piece.turn);
-    return o.length === 0 ? t("ah_open_none") : list(SIDES.filter((s) => o.includes(s)).map(sideName));
-  };
-  /** What is said about a place besides what it is: the spout, whether it has water, and (Story) that the water stops against it. */
-  function notesOf(p: number, f: Flow): string[] {
-    const out: string[] = [];
-    if (p === state.spout.cell) out.push(t("ah_note_spout", { side: sideName(state.spout.side) }));
-    if (showWater() && state.cells[p]!.kind !== "blank") out.push(t(f.wet[p] ? "ah_note_wet" : "ah_note_dry"));
-    if (style() === "story" && showWater() && f.blocked.includes(p)) out.push(t("ah_note_stop"));
-    return out;
-  }
-  /** What the page says about the water, as far as the way of playing shows it: which basins have water, where it spills, and (Story) what it stops against. */
-  function waterLines(): string[] {
-    if (!showWater()) return [t("ah_hidden")];
-    const f = flow(gridOf(state));
-    const wetBasins = state.basins.filter((b) => f.wet[b.cell]).map((b) => t(b.kind === "fountain" ? "ah_b_fountain" : "ah_b_pool"));
-    const lines = [wetBasins.length > 0 ? t("ah_water_basins", { list: list(wetBasins) }) : t("ah_water_none")];
-    const leakCells = [...new Set(f.leaks.map((l) => l.cell))];
-    if (leakCells.length > 0) lines.push(t("ah_water_leak", { list: places(leakCells) }));
-    if (style() === "story" && f.blocked.length > 0) lines.push(t("ah_water_stop", { list: places(f.blocked) }));
-    return lines;
-  }
-  const statusText = () => waterLines().join(" ");
+  // ---- words for the pieces and the water: the page's own (channelsWords, shared with the Alhambra's court)
+  const statusText = () => words.statusText();
 
   // ---- the picture
   function paint(): void {
@@ -176,10 +208,7 @@ export function channelsQuest(host: ChannelsHost): ChannelsQuest {
           { class: "channel-row" },
           ...Array.from({ length: state.cols }, (_, c) => {
             const p = r * state.cols + c;
-            const o = opens(state.cells[p]!.kind, state.cells[p]!.turn);
-            const base = o.length === 0 ? t("ah_label_none", { ...rc(p), piece: pieceName(p) }) : t("ah_label", { ...rc(p), piece: pieceName(p), sides: sidesText(p) });
-            const notes = notesOf(p, f);
-            const b = h("button", { type: "button", textContent: base + notes.map((n) => (rtl ? "، " : ", ") + n).join(""), disabled: state.done, onclick: () => press(p) });
+            const b = h("button", { type: "button", textContent: words.label(p, f), disabled: state.done, onclick: () => press(p) });
             b.dataset.place = String(p);
             return h("li", {}, b);
           }),
@@ -190,15 +219,8 @@ export function channelsQuest(host: ChannelsHost): ChannelsQuest {
   }
   /** Every piece's openings, in words, for a reader who cannot see the picture. */
   function drawTable(): void {
-    const f = flow(gridOf(state));
-    const th = (k: Key) => Object.assign(h("th", { textContent: t(k) }), { scope: "col" });
-    const body = h(
-      "tbody",
-      {},
-      ...state.cells.map((_, p) => h("tr", {}, Object.assign(h("th", { textContent: t("ah_rowcol", rc(p)) }), { scope: "row" }), h("td", { textContent: pieceName(p) }), h("td", { textContent: sidesText(p) }), h("td", { textContent: list(notesOf(p, f)) }))),
-    );
     const open = table.open;
-    table.replaceChildren(h("summary", { textContent: t("ah_table_summary") }), h("table", { class: "counts" }, h("caption", { textContent: t("ah_table_caption") }), h("thead", {}, h("tr", {}, th("ah_col_place"), th("ah_col_piece"), th("ah_col_open"), th("ah_col_note"))), body));
+    table.replaceChildren(...words.table());
     table.open = open;
   }
   function drawAsks(): void {

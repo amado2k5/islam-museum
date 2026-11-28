@@ -196,13 +196,13 @@ describe("Ibn Battuta's inn: its strings", () => {
   const keys = Object.keys(tables.en!).filter((k) => k.startsWith("ibr_"));
   // They were the last twelve of every table until the coffee room (27 November 2026) appended its own after them; they
   // are still one block, in the same order, in every table, and only the coffee room's keys and then al-Jahiz's room's come after them.
-  it("are twelve, one block in every table, in the same order, with only the coffee room's and al-Jahiz's room's keys after them", () => {
+  it("are twelve, one block in every table, in the same order, with only the coffee room's and al-Jahiz's room's and the Alhambra's court's keys after them", () => {
     expect(keys).toHaveLength(12);
     for (const l of LANGS) {
       const all = Object.keys(tables[l]!);
       const at = all.indexOf(keys[0]!);
       expect(all.slice(at, at + keys.length), l).toEqual(keys);
-      expect(all.slice(at + keys.length).every((k) => k.startsWith("cqr_") || k.startsWith("jzr_")), l).toBe(true);
+      expect(all.slice(at + keys.length).every((k) => k.startsWith("cqr_") || k.startsWith("jzr_") || k.startsWith("ahr_")), l).toBe(true);
     }
   });
   it("say that the inn, the great ring, the beads on it and the scroll are invented for play and that the ring is not a map, in the founder's words in Arabic and English", () => {

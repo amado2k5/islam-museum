@@ -68,6 +68,10 @@ const GROOVE_DRY = "#2f271d";
 const WATER = "#2f6fd0";
 const RIPPLE = "#cfe3ff";
 const RED = "#e0463c";
+/** The channels' own colours, shared with the Alhambra's court (art/alhambra-room.ts) so that its spout and pipe are the page's stone and water. */
+export const CHANNEL_INK = { STONE, STONE_DARK, GROOVE_EDGE, GROOVE_DRY, WATER, RIPPLE, RED } as const;
+/** How wide a channel's groove is for a tile of a size: the page's rule, shared with the court. */
+export const grooveWidth = (tile: number): number => Math.max(10, Math.round(tile * 0.2));
 
 function rounded(c: Ctx, x: number, y: number, w: number, h: number, r: number): void {
   c.beginPath();
@@ -331,6 +335,27 @@ function drawTile(c: Ctx, v: ChannelsView, p: number, tile: number, wet: boolean
   for (const l of leaks) if (l.cell === p) drops(c, l.side, tile);
 }
 
+/**
+ * One place of the grid in its own space (its top left at 0, 0): its tile and piece, its basin, the drops where it
+ * spills, and the gold outline of the place turned last (or the pale one round every place of a finished grid). The
+ * page draws every place with it, and the Alhambra's court (art/alhambra-room.ts) draws each piece on its stone panel
+ * with it too, so that a piece looks the same in both: shared code, not a copy.
+ */
+export function drawPlace(c: Ctx, v: ChannelsView, p: number, tile: number, wet: boolean, leaks: Leak[], cw: number, half: number): void {
+  drawTile(c, v, p, tile, wet, leaks, cw, half);
+  if (v.mark === p && !v.done) {
+    rounded(c, -4, -4, tile + 8, tile + 8, 12);
+    c.lineWidth = 5;
+    c.strokeStyle = PAL.gold;
+    c.stroke();
+  } else if (v.done) {
+    rounded(c, -2, -2, tile + 4, tile + 4, 10);
+    c.lineWidth = 3;
+    c.strokeStyle = PAL.goldLight;
+    c.stroke();
+  }
+}
+
 export function channelsCanvas(): HTMLCanvasElement {
   const canvas = document.createElement("canvas");
   const scale = Math.min(2, Math.max(1, window.devicePixelRatio || 1));
@@ -344,7 +369,7 @@ export function drawChannels(canvas: HTMLCanvasElement, v: ChannelsView): void {
   const { w, h, gap } = CHANNELS_ART;
   const { rows, cols, cells } = v.grid;
   const { tile } = channelsLayout(rows, cols);
-  const cw = Math.max(10, Math.round(tile * 0.2));
+  const cw = grooveWidth(tile);
   const half = gap / 2;
   c.setTransform(canvas.width / w, 0, 0, canvas.height / h, 0, 0);
   c.lineJoin = "round";
@@ -375,18 +400,7 @@ export function drawChannels(canvas: HTMLCanvasElement, v: ChannelsView): void {
     c.save();
     c.translate(o.x, o.y);
     const wet = v.showWater && f.wet[p]! && f.reach[p]! < v.fill;
-    drawTile(c, v, p, tile, wet, leaks, cw, half);
-    if (v.mark === p && !v.done) {
-      rounded(c, -4, -4, tile + 8, tile + 8, 12);
-      c.lineWidth = 5;
-      c.strokeStyle = PAL.gold;
-      c.stroke();
-    } else if (v.done) {
-      rounded(c, -2, -2, tile + 4, tile + 4, 10);
-      c.lineWidth = 3;
-      c.strokeStyle = PAL.goldLight;
-      c.stroke();
-    }
+    drawPlace(c, v, p, tile, wet, leaks, cw, half);
     c.restore();
   });
   if (v.done) {

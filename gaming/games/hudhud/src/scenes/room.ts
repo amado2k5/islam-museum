@@ -26,7 +26,7 @@ import type { Cue } from "../audio/cues";
 import type { Mood } from "../narrative/dialogue";
 import type { Keeper, Quality } from "../save/save";
 import { distance, landing } from "../sim/door";
-import { followStep, settleIntent, type Standing } from "../sim/follow";
+import { followStep, settleIntent, type Spot, type Standing } from "../sim/follow";
 import { advance, newMover, type Intent, type Mover, type Room } from "../sim/move";
 
 /** What a room asks of the page around it. A room's own host adds what its rules hold (the workshop's `state`). */
@@ -155,6 +155,14 @@ export abstract class RoomScene<H extends RoomHost = RoomHost> extends Phaser.Sc
   /** The people of the room (its figure and its helper), where they stand: the explorer stops short of them, never in front of them (and short of every thing that can be touched, sim/follow.ts). */
   protected people(): readonly Standing[] {
     return [];
+  }
+  /**
+   * What the explorer keeps clear of besides the room's people: every thing that can be touched, and whatever else a room
+   * stands at the explorer's height that it must not hide (the sorting rooms' trays and shelves, empty or not, since
+   * 27 November 2026: the lead agent saw the explorer stop in front of an empty tray in al-Jahiz's room).
+   */
+  protected standClear(): readonly Spot[] {
+    return this.things();
   }
   /** The thing within the bird's reach now ("door" for the lit door), or null. */
   protected nearNow(): string | null {
@@ -449,10 +457,10 @@ export abstract class RoomScene<H extends RoomHost = RoomHost> extends Phaser.Sc
     b.head.setAngle(speaking?.who === "hudhud" ? Math.sin(t * 9) * 5 : running ? Math.sin(t * 16) * 4 : 0);
     this.blink(b, b.head, "bird-head", "bird-headBlink", dt);
 
-    // The explorer walks after the bird along the floor and looks up at it, and stops short of a person or a thing that
-    // can be touched rather than in front of one (sim/follow.ts).
+    // The explorer walks after the bird along the floor and looks up at it, and stops short of a person, a thing that can
+    // be touched, or a group's place in a sorting room, rather than in front of one (sim/follow.ts).
     const c = this.child;
-    const step = followStep(c.x, mv, this.people(), this.layout.world.width, dt, this.host.frozen(), this.things(), floor);
+    const step = followStep(c.x, mv, this.people(), this.layout.world.width, dt, this.host.frozen(), this.standClear(), floor);
     const walking = step.walking;
     c.x = step.x;
     c.walk = walking ? c.walk + dt * 10 : lerp(c.walk % (Math.PI * 2), 0, 0.2);

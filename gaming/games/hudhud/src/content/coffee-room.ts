@@ -119,6 +119,15 @@ export function boxSpot(rtl: boolean): { x: number; y: number } {
 }
 
 /**
+ * Where every shelf stands, as the explorer keeps clear of it (scenes/room.ts standClear): the three places of each
+ * shelf's lowest tier, whether a card stands there or not. An empty shelf is not a thing to touch (its sign, on the top of
+ * the case, is), so the explorer could stop in front of one; since 27 November 2026 every shelf is kept clear.
+ */
+export function cqrMarkers(groups: number, rtl: boolean): { x: number; y: number }[] {
+  return Array.from({ length: groups }, (_, g) => Array.from({ length: CQR_CASE.across }, (_, col) => shelfSpot(g, col, rtl))).flat();
+}
+
+/**
  * Every thing in the room now: the keeper of the records, the child, the box of spare cards, the bell, the sign of each
  * shelf, every card where it stands (on the table in its own place, or on its shelf after the cards before it there),
  * and, while Hudhud carries a card that is on a shelf, that card's own empty place on the table (touched, it takes the
