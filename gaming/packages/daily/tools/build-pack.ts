@@ -179,6 +179,10 @@ for (const lang of LANGS) {
   const wordLabels: PackLabels = {};
   for (const id of [...new Set(words[lang].map((w) => w.id))].sort()) if (labels[id]) wordLabels[id] = labels[id]!;
   writeFileSync(join(OUT, `word-labels.v${PACK_VERSION}.${lang}.json`), JSON.stringify(wordLabels) + "\n");
+  // The Lantern, likewise, needs only the names of its own phrases.
+  const phraseLabels: PackLabels = {};
+  for (const id of [...new Set(phrases[lang].map((p) => p.id))].sort()) if (labels[id]) phraseLabels[id] = labels[id]!;
+  writeFileSync(join(OUT, `phrase-labels.v${PACK_VERSION}.${lang}.json`), JSON.stringify(phraseLabels) + "\n");
 }
 const report = { from, places: placesKept.length, events: eventsKept.length, persons: personsKept.length, eligible: { places: places.length, events: events.length, persons: persons.length }, words: Object.fromEntries(LANGS.map((l) => [l, words[l].length])), phrases: Object.fromEntries(LANGS.map((l) => [l, phrases[l].length])), skipped };
 writeFileSync(join(OUT, `report.v${PACK_VERSION}.json`), JSON.stringify(report, null, 1) + "\n");
