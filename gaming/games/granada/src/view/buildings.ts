@@ -341,6 +341,21 @@ export function donkey(): MeshData {
   return b.build();
 }
 
+/** A camel, the shape the valley draws until the authored one arrives: taller than a horse, a soft hump on the back, a long neck. Its legs are horseLeg's, at CAMEL_LEGS. */
+export function camel(): MeshData {
+  const b = new MeshBuilder();
+  const f = frame(0, 0, 0);
+  const coat: Rgb = [1, 1, 1];
+  const shade: Rgb = [0.72, 0.72, 0.72];
+  b.box(f, 0, 1.3, 0, 0.7, 0.76, 1.9, coat, 63, 0.85);
+  b.box(f, 0, 1.98, 0.1, 0.42, 0.3, 0.5, coat, 63);
+  b.box(f, 0, 1.5, 0.95, 0.32, 0.44, 0.4, coat, 63);
+  b.box(f, 0, 1.86, 1.2, 0.26, 0.36, 0.36, shade, 63);
+  b.box(f, 0, 1.62, 0.78, 0.07, 0.42, 0.44, shade, 63);
+  b.box(f, 0, 0.72, -1.05, 0.09, 0.66, 0.12, shade, 63);
+  return b.build();
+}
+
 /** What marks a man of the watch: a round helmet over the head-cloth, a round shield at the left arm, a spear upright in the right hand. */
 export function guardGear(): MeshData {
   const b = new MeshBuilder();
@@ -372,6 +387,7 @@ export function bird(): MeshData {
 export const OX_LEGS: ReadonlyArray<readonly [number, number, number]> = [[-0.27, 0.74, 2.2], [0.27, 0.74, 2.2], [-0.27, 0.74, 0.75], [0.27, 0.74, 0.75]];
 export const HORSE_LEGS: ReadonlyArray<readonly [number, number, number]> = [[-0.2, 0.94, 0.68], [0.2, 0.94, 0.68], [-0.2, 0.94, -0.68], [0.2, 0.94, -0.68]];
 export const SHEEP_LEGS: ReadonlyArray<readonly [number, number, number]> = [[-0.16, 0.36, 0.32], [0.16, 0.36, 0.32], [-0.16, 0.36, -0.32], [0.16, 0.36, -0.32]];
+export const CAMEL_LEGS: ReadonlyArray<readonly [number, number, number]> = [[-0.23, 1.02, 0.74], [0.23, 1.02, 0.74], [-0.23, 1.02, -0.74], [0.23, 1.02, -0.74]];
 /** A person's hips: the robe stops above the knee, so the stride shows. */
 export const PERSON_LEGS: ReadonlyArray<readonly [number, number, number]> = [[-0.085, 0.5, 0], [0.085, 0.5, 0]];
 
@@ -386,6 +402,8 @@ const limb = (length: number, width: number, color: Rgb, hoof: Rgb): MeshData =>
 export const oxLeg = (): MeshData => limb(0.9, 0.17, [0.72, 0.72, 0.72], [0.2, 0.18, 0.16]);
 /** A horse's leg is white so that the horse's own colour shows on it, with a dark hoof. */
 export const horseLeg = (): MeshData => limb(0.94, 0.13, [0.72, 0.72, 0.72], [0.2, 0.18, 0.16]);
+/** A camel's leg, longer than a horse's, white so the camel's own colour shows on it. */
+export const camelLeg = (): MeshData => limb(1.02, 0.12, [0.72, 0.72, 0.72], [0.2, 0.18, 0.16]);
 export const sheepLeg = (): MeshData => limb(0.36, 0.09, [0.34, 0.3, 0.26], [0.2, 0.18, 0.16]);
 /** A person's leg below the robe: bare shin or leggings, and a shoe. */
 export const personLeg = (): MeshData => limb(0.5, 0.11, [0.36, 0.27, 0.2], [0.24, 0.17, 0.11]);
