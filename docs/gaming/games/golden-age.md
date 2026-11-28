@@ -95,6 +95,18 @@ The root the paragraph below names, income that grows with households while no c
 - **All four strategies win at least one campaign in five, and none wins nine in ten.** This is the first scenario that meets the GDD's "at least three feasible winning strategies". No rule broke, every campaign ended, no probe won.
 - **How the numbers were chosen.** The first draft was far too easy (one strategy won 99%, and random play won twice in 300). Two sweeps of start and goal in the lab (length, intake, a starting bath, the learning and welfare goals; 60 seeds a cell) found the point above. The scripted players are the same ones as chapter 1's and were not changed to suit it.
 - **Open finding: money piles up.** The merchant ends with 699 coins on average, more than six times what it started with, and nothing to spend it on. Chapter 3's endowments were made to be that sink and are only partly one (see above).
+- **Answered, 28 November 2026: the remittance.** Each season a district sends a fifth of whatever it holds above 200 coins on to the capital (`remittance` in `src/rules.ts`; the ledger shows it). The lab result before and after, over 1,000 campaigns per chapter, gives average coins at the end, with every win rate unchanged:
+
+  | Chapter | merchant | balanced | idle |
+  |---|---|---|---|
+  | 1 | 275 → 272 | 95 → 95 | 366 → 248 |
+  | 2 | 699 → 561 | 252 → 249 | 747 → 357 |
+  | 3 | 1,526 → 986 | 208 → 208 | 1,264 → 473 |
+  | free play | 7,523 → 960 | 3,954 → 687 | 542 → 224 |
+
+  - **Rejected first:** a cost that grew with the square of the number of households. It cut the irrigator's and scholar's wins in chapter 3 to none and barely touched the merchant.
+  - **Why this one:** the remittance takes only money no strategy was using to win.
+  - **Still open:** the merchant still ends chapters 2 and 3 above five times its start, so the lab still reports it. Tuning waits for a person's play.
 - **Open finding: doing nothing is comfortable.** A player who never acts ends with 168 households, welfare at 68 and no loss. Chapter 2 cannot be lost by neglect, only not won. Whether that is right for a second chapter is for a person playing it to say.
 
 ### Chapter 1, "The Failing Canal"

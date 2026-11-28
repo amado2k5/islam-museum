@@ -40,8 +40,12 @@ describe("What Endures, as the outside reviewer played it (GA-07)", () => {
       const s = tradeAndTaxAlone(seed);
       expect(s.outcome, `seed ${seed}`).toBe("ended");
       expect(s.season).toBe(E.seasons);
-      // Rich: more than ten times what the chapter starts with (the reviewer ended with 2,248).
-      expect(s.treasury, `seed ${seed}`).toBeGreaterThan(E.start.treasury * 10);
+      // Rich, but no longer piling up: the reviewer ended with 2,248 before 28 November 2026. Since then a fifth of
+      // everything above 200 goes on to the capital each season, so the treasury settles well above the start and
+      // well below the old hoard, and every season of it shows the remittance.
+      expect(s.treasury, `seed ${seed}`).toBeGreaterThan(E.start.treasury * 4);
+      expect(s.treasury, `seed ${seed}`).toBeLessThan(1000);
+      expect(s.last!.remitted, `seed ${seed}`).toBeGreaterThan(0);
       trade.set(s.last!.income.trade, (trade.get(s.last!.income.trade) ?? 0) + 1);
       // And nothing else done: no household gained, no endowment, and every goal of the chapter unmet.
       expect(s.households).toBeLessThanOrEqual(204);
